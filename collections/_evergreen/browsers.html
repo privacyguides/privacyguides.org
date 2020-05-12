@@ -1,0 +1,18 @@
+---
+layout: evergreen
+title: Browser Recommendations
+---
+
+<p class="lead">
+  These are our current web browser recommendations and some tweaks you can use to preserve your privacy.
+</p>
+
+{% assign firefox = site.browsers | where:"name","Firefox" %}
+{% for post in firefox %}
+{% include recommendation-1.html %}
+{% endfor %}
+
+{% assign tor = site.browsers | where:"name","Tor Browser" %}
+{% for post in tor %}
+{% include recommendation-1.html %}
+{% endfor %}

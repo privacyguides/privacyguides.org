@@ -27,6 +27,7 @@ colors:
   link: "#C98806"
   primary: "#FFD06F"
   secondary: "#28323F"
+excerpt_separator: <!--more-->
 collections_dir: collections
 collections:
   posts:
@@ -36,6 +37,26 @@ collections:
     permalink: /:name
   authors:
     permalink: /blog/authors/:name
+  devices:
+    output: true
+    permalink: /devices/:name
+    sort_by: order
+  browsers:
+    output: true
+    permalink: /browsers/:name
+    sort_by: order
+  software:
+    output: true
+    permalink: /software/:name
+    sort_by: order
+  os:
+    output: true
+    permalink: /os/:name
+    sort_by: order
+  providers:
+    output: true
+    permalink: /providers/:name
+    sort_by: order
 
 # Build settings
 markdown: kramdown
