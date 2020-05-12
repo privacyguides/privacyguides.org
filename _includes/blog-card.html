@@ -1,0 +1,11 @@
+<div class="col-6">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="text-decoration-none">
+    <div class="card bg-secondary" {%- if post.cover -%} style="background-image: {{ post.color | default: "linear-gradient(to bottom, rgba(40, 50, 63, 0.3), rgba(40, 50, 63, 0.9))" }}, url(/assets/img/blog/{{ post.cover }}); background-size: cover; background-position: center;"{%- endif -%}>
+      <div class="card-body d-flex flex-column align-self-end" style="min-height: 300px;">
+        <h2 class="card-title mt-auto text-light">{{ post.title }}</h2>
+        <p class="card-text text-light">{{ post.excerpt }} <strong>Continue Reading...</strong></p>
+        <p class="card-text"><small class="text-light">{{ post.author }} - {{ post.date | date: "%b %-d, %Y" }}</small></p>
+      </div>
+    </div>
+  </a>
+</div>

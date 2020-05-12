@@ -58,6 +58,33 @@ collections:
     permalink: /providers/:name
     sort_by: order
 
+defaults:
+  - scope:
+      path: ""
+      type: "devices"
+    values:
+      layout: recommendation
+  - scope:
+      path: ""
+      type: "browsers"
+    values:
+      layout: recommendation
+  - scope:
+      path: ""
+      type: "software"
+    values:
+      layout: recommendation
+  - scope:
+      path: ""
+      type: "os"
+    values:
+      layout: recommendation
+  - scope:
+      path: ""
+      type: "providers"
+    values:
+      layout: recommendation
+
 # Build settings
 markdown: kramdown
 plugins:
