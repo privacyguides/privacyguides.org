@@ -1,12 +1,12 @@
 ---
 ---
 $theme-colors: (
-  "primary": #FFD06F,
-  "secondary": #28323F
+  "primary": {{ site.colors.primary }},
+  "secondary": {{ site.colors.secondary }}
 );
 
-$body-color: #28323F;
-$link-color: #C98806;
+$body-color: {{ site.colors.secondary }};
+$link-color: {{ site.colors.link }};
 
 .container-fullwidth {
   margin: 0 auto;
@@ -20,14 +20,12 @@ $link-color: #C98806;
 
 h1, h2, h3, h4 {
   font-family: "Bagnard", serif;
-  font-weight: 700;
 }
 
 // import /_sass/bootstrap.scss
 @import "bootstrap";
 
 .post-info, .post-title {
-  background-color: theme-color("secondary");
   color: theme-color("light");
   display: inline;
   padding: $spacer;
