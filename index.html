@@ -120,16 +120,29 @@ layout: default
 </div>
 
 <div class="container">
-  <div class="row mt-5">
-    <div class="col-2 d-none d-lg-block">
-      <img src="/assets/img/layout/plan-icon.svg" alt="Informational planning icon" class="w-100">
+  <div class="row my-5">
+    <div class="col text-center">
+      <h2>Latest Updates</h2>
     </div>
-    <div class="col-lg-10 col-12">
-      <h2 class="mt-4">What should I do?</h2>
-      <h5 class="mt-2">First, you need to make a plan.</h5>
-      <p class="mt-2">Trying to protect <strong>all</strong> your data from <strong>everyone</strong> all the time is impractical, expensive, and exhausting. But, don't worry! Security is a process, and by thinking ahead you can put together a plan that's right for <strong>you</strong>. Security isn't just about the tools you use or the software you download. Rather, it begins with understanding the unique threats you face, and how you can counter them.</p>
-      <p><mark>This process of identifying threats and defining countermeasures is called <strong>threat modeling</strong></mark>, and it forms the basis of every good security and privacy plan.</p>
-      <a href="/threat-modeling/" class="btn btn-primary mt-2">Learn More About Threat Modeling</a>
+  </div>
+  <div class="row">
+  {% for post in site.posts limit:2 %}
+    <div class="col-6">
+      <a href="{{ post.url | prepend: site.baseurl }}" class="text-decoration-none">
+        <div class="card bg-secondary" {%- if post.cover -%} style="background-image: {{ post.color | default: "linear-gradient(to bottom, rgba(40, 50, 63, 0.3), rgba(40, 50, 63, 0.9))" }}, url(/assets/img/blog/{{ post.cover }}); background-size: cover; background-position: center;"{%- endif -%}>
+          <div class="card-body d-flex flex-column align-self-end" style="min-height: 300px;">
+            <h2 class="card-title mt-auto text-light">{{ post.title }}</h2>
+            <p class="card-text text-light">{{ post.excerpt }} <strong>Continue Reading...</strong></p>
+            <p class="card-text"><small class="text-light">{{ post.author }} - {{ post.date | date: "%b %-d, %Y" }}</small></p>
+          </div>
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+  </div>
+  <div class="row my-3">
+    <div class="col text-center">
+      <a href="/blog/" class="btn btn-primary mt-2">Read More <i class="far fa-chevron-circle-right fa-fw"></i></a>
     </div>
   </div>
 </div>
