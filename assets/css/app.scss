@@ -1,4 +1,26 @@
 ---
 ---
+$theme-colors: (
+  "primary": #FFD06F,
+  "secondary": #28323F
+);
+
+$body-color: #28323F;
+
+.container-fullwidth {
+  margin: 0 auto;
+  width: 100%;
+}
+
+@font-face {
+  font-family: Bagnard;
+  src: url("/assets/fonts/Bagnard.woff") format("woff"), url("/assets/fonts/Bagnard.ttf") format("truetype"), url("/assets/fonts/Bagnard.otf") format("opentype");
+}
+
+h1, h2, h3 {
+  font-family: "Bagnard";
+  font-weight: 700;
+}
+
 // import /_sass/bootstrap.scss
 @import "bootstrap";

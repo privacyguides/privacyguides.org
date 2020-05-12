@@ -1,9 +1,27 @@
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="privacytoolsIO">
-  {% if page.title %}<title>{{ page.title }} | chat.privacytools.io</title>{% else %}<title>Matrix | chat.privacytools.io</title>{% endif %}
-  <link rel="canonical" href="https://chat.privacytools.io/">
-  <link rel="stylesheet" href="/assets/css/app.css">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="privacy, anonymity, privacy tools, surveillance, encryption">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="canonical" href="{{ page.permalink | prepend: site.url | replace:'index.html',''}}">
+
+  <!-- title -->
+  {% if page.title %}
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
+  {% else %}
+  <title>{{ site.title }}</title>
+  <meta property="og:title" content="{{ site.title }}" />
+  {% endif %}
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ page.permalink | prepend: site.url }}" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+
+  <!-- CSS stylesheets -->
+  <link href="/assets/css/app.css?v=1" rel="stylesheet">
+  <link href="/assets/css/fa-all.css" rel="stylesheet">
 </head>
