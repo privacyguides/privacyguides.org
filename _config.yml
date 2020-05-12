@@ -23,6 +23,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.privacyguides.org" # the base hostname & protocol for your site, e.g. http://example.com
 sass:
     sass_dir: _sass
+collections_dir: collections
+collections:
+  evergreen:
+    output: true
+    permalink: /:name
 
 # Build settings
 markdown: kramdown

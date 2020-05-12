@@ -6,6 +6,7 @@ $theme-colors: (
 );
 
 $body-color: #28323F;
+$link-color: #C98806;
 
 .container-fullwidth {
   margin: 0 auto;
@@ -17,8 +18,8 @@ $body-color: #28323F;
   src: url("/assets/fonts/Bagnard.woff") format("woff"), url("/assets/fonts/Bagnard.ttf") format("truetype"), url("/assets/fonts/Bagnard.otf") format("opentype");
 }
 
-h1, h2, h3 {
-  font-family: "Bagnard";
+h1, h2, h3, h4 {
+  font-family: "Bagnard", serif;
   font-weight: 700;
 }
 
