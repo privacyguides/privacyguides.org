@@ -25,3 +25,13 @@ h1, h2, h3, h4 {
 
 // import /_sass/bootstrap.scss
 @import "bootstrap";
+
+.post-info, .post-title {
+  background-color: theme-color("secondary");
+  color: theme-color("light");
+  display: inline;
+  padding: $spacer;
+  /* Needs prefixing */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}

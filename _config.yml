@@ -25,9 +25,13 @@ sass:
     sass_dir: _sass
 collections_dir: collections
 collections:
+  posts:
+    permalink: /blog/:year/:month/:day/:title
   evergreen:
     output: true
     permalink: /:name
+  authors:
+    permalink: /blog/authors/:name
 
 # Build settings
 markdown: kramdown
