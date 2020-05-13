@@ -1,3 +1,3 @@
 [submodule "assets/fonts/fa-webfonts"]
 	path = assets/fonts/fa-webfonts
-	url = git@github.com:privacyguides/fa-webfonts.git
+	url = git@code.aragon.ventures:jonah/fa-webfonts.git
