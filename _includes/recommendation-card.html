@@ -13,7 +13,9 @@
         {% if post.platform_win %}<a href="{{ post.platform_win }}" class="text-secondary"><i class="fab fa-windows fa-fw h2"></i></a>{% endif %}
         {% if post.platform_mac %}<a href="{{ post.platform_mac }}" class="text-secondary"><i class="fab fa-apple fa-fw h2"></i></a>{% endif %}
         {% if post.platform_linux %}<a href="{{ post.platform_linux }}" class="text-secondary"><i class="fab fa-linux fa-fw h2"></i></a>{% endif %}
-        {% if post.platform_bsd %}<a href="{{ post.platform_bsd }}" class="text-secondary"><i class="fab fa-freebsd fa-fw h2"></i></a>{% endif %}
+        {% if post.platform_android %}<a href="{{ post.platform_android }}" class="text-secondary"><i class="fab fa-google-play fa-fw h2"></i></a>{% endif %}
+        {% if post.platform_ios %}<a href="{{ post.platform_ios }}" class="text-secondary"><i class="fab fa-app-store-ios fa-fw h2"></i></a>{% endif %}
+        {% if post.website %}<a href="{{ post.website }}" class="text-secondary"><i class="far fa-globe fa-fw h2"></i></a>{% endif %}
         </p>
         <p><a href="{{ post.url }}" class="btn btn-primary mt-2">More Information</a></p>
       </div>

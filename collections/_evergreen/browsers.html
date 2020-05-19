@@ -7,34 +7,46 @@ title: Browser Recommendations
   These are our current web browser recommendations, settings, and add-ons you can use to preserve your privacy.
 </p>
 
-{% assign firefox = site.browsers | where:"name","Firefox" %}
-{% for post in firefox %}
-{% include recommendation-1.html %}
+{% assign browser = site.browsers | where:"name","Firefox" %}
+{% for post in browser %}
+{% include recommendation-card.html %}
 {% endfor %}
 
-{% assign tor = site.browsers | where:"name","Tor Browser" %}
-{% for post in tor %}
-{% include recommendation-1.html %}
+{% assign browser = site.browsers | where:"name","Tor Browser" %}
+{% for post in browser %}
+{% include recommendation-card.html %}
 {% endfor %}
 
 <h2>Worth Mentioning</h2>
 
-<h3 class="h5">Ungoogled Chromium</h3>
-<p><a href="https://github.com/Eloston/ungoogled-chromium"><strong>Ungoogled Chromium</strong></a> is a desktop browser based on Chromium, which removes all Google integrations while adding features which seek to enhance your security, privacy, and control of your browser. However, <mark>we do not strongly recommend the use of Ungoogled Chromium for most users</mark> at this time, because of a lack of official builds and updates from the developer. We strongly believe that auto-updating apps are key for maintaining security, lest you browse the web with outdated builds of your browser which may be suspectible to any number of live exploits.</p>
+{% assign browser = site.browsers | where:"name","Ungoogled Chromium" %}
+{% for post in browser %}
+{% include worth-mentioning.html %}
+{% endfor %}
 
-<h3 class="h5">Safari</h3>
-<p><a href="https://www.apple.com/safari/"><strong>Safari</strong></a> is a browser option on macOS and iOS, with a strong focus on security and <a href="https://www.apple.com/safari/docs/Safari_White_Paper_Nov_2019.pdf">privacy</a>. <mark>We believe Safari is an acceptable choice for Apple users,</mark> despite Safari being a proprietary browser, because Apple users are already trusting a proprietary operating system to run their programs on. We do not recommend using iCloud Sync, which saves your bookmarks and history in a way which allows Apple to view them. Additionally, <a href="https://webkit.org">WebKit</a>, the browser engine powering Safari <em>is</em> open source.</p>
+{% assign browser = site.browsers | where:"name","Safari" %}
+{% for post in browser %}
+{% include worth-mentioning.html %}
+{% endfor %}
 
-<h3 class="h5">Bromite</h3>
-<p><a href="https://www.bromite.org/"><strong>Bromite</strong></a> is a Chromium-based browser with security and privacy enhancements built in, such as an adblocker and DNS-over-HTTPS support. It includes patches from Ungoogled Chromium and other security/privacy focused Chromium projects. However, <mark>Bromite is only available on Android at this time,</mark> making it a poor choice for users of multiple devices, especially if you need to sync between a desktop and mobile device.</p>
+{% assign browser = site.browsers | where:"name","Bromite" %}
+{% for post in browser %}
+{% include worth-mentioning.html %}
+{% endfor %}
 
 <h2>Anti-Recommendations</h2>
 
-<h3 class="h5">Google Chrome</h3>
-<p><strong>Google Chrome</strong> is completely controlled by Google, and taps into your browsing history to track you across the web and serve you targeted advertisements. Because of Google's interest in increased ad revenues, Google Chrome offers <a href="https://www.washingtonpost.com/technology/2019/06/21/google-chrome-has-become-surveillance-software-its-time-switch/">no privacy protections</a> out of the box compared to Firefox, and has taken anti-consumer steps to <a href="https://www.wired.com/story/google-chrome-ad-blockers-extensions-api/">block common extensions like adblockers</a>. It's best to avoid this browser at all costs.</p>
+{% assign browser = site.browsers | where:"name","Google Chrome" %}
+{% for post in browser %}
+{% include anti-recommendation.html %}
+{% endfor %}
 
-<h3 class="h5">Brave Browser</h3>
-<p><strong>Brave</strong> is widely touted as a privacy-friendly Chromium browser, but we have a number of concerns with their business practices and future business model that would prevent us from recommending them. The Brave team <a href="https://www.reddit.com/r/privacytoolsIO/comments/cs8foq/update_delisting_brave/">has publicly stated</a> they do not want to be associated with privacy-focused groups like PrivacyTools (<a href="https://github.com/privacytools/privacytools.io/pull/657">PrivacyTools PR #657</a>), which causes us to believe the Brave team does not wish to be under too much scrutiny from the privacy community as they continue to develop their product (<a href="http://archive.today/2020.05.13-035943/https://www.removeddit.com/r/brave_browser/comments/csapsy/brave_browser_is_being_delisted_from/exf6i0f/">Reddit discussion</a>).</p>
+{% assign browser = site.browsers | where:"name","Brave Browser" %}
+{% for post in browser %}
+{% include anti-recommendation.html %}
+{% endfor %}
 
-<h3 class="h5">Chromium</h3>
-<p>Without signing into a Google Account, the open-source builds of <strong>Chromium</strong> do relatively well in terms of security and privacy. However, Chromium still does have a number of integrations with Google hardcoded into the source, and because it is designed to be as user-friendly as possible, it operates in a way that compromises transparency and user-control. And, Chromium is still directly developed by Google, who have attempted to introduce anti-consumer measures in the past as mentioned in the Google Chrome section.
+{% assign browser = site.browsers | where:"name","Chromium" %}
+{% for post in browser %}
+{% include anti-recommendation.html %}
+{% endfor %}

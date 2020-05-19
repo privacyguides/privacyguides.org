@@ -1,5 +1,6 @@
 ---
 name: Tor Browser
+type: Recommendation
 info: Provides Anonymity
 logo: /assets/img/browsers/tor-logo.svg
 short: "**Tor Browser** is your choice if you need an extra layer of anonymity. It’s a modified version of Firefox ESR, which comes with pre-installed privacy add-ons, encryption, and an advanced proxy. [How does Tor work?](https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-1-myth-busting-tor)"
