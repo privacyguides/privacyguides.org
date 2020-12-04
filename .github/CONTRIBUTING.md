@@ -43,7 +43,7 @@ We're trying to keep it simple and promote the best tools, not all of them.
 
 There can be exceptions if no software is available that meet the criteria.
 
-Note: This criteria applies to all of the PrivacyTools website and recommendations.
+Note: This criteria applies to all of the Privacy Guides website and recommendations.
 
 ### Providers
 

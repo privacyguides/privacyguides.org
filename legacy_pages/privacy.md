@@ -2,7 +2,7 @@
 layout: page
 permalink: /privacy/
 title: "Privacy Q&amp;A"
-description: "This Privacy Statement explains what information PrivacyTools and its related entities collect about its users, what we do with that information, and how we handle the content you place in our products and services."
+description: "This Privacy Statement explains what information Privacy Guides and its related entities collect about its users, what we do with that information, and how we handle the content you place in our products and services."
 ---
 
 ## Who is {{ site.name }}?
