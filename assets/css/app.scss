@@ -48,10 +48,12 @@ $reddit:              {{ site.colors.primary }};
 $linkedin:            {{ site.colors.primary }};
 $email:               {{ site.colors.primary }};
 $diaspora:            {{ site.colors.primary }};
-$tor:                 {{ site.colors.primary }};
+$tor:                 #7d4698;
 
 // import /_sass/bootstrap.scss
 @import "bootstrap";
+@import "ptio-font";
+@import "flag-icon";
 
 .post-info, .post-title {
   color: theme-color("light");

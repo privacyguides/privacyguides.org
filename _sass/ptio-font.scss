@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: "ptio-font";
-  src: url("../webfonts/ptio-font.eot");
-  src: url("../webfonts/ptio-font.eot?#iefix") format("embedded-opentype"),
-       url("../webfonts/ptio-font.woff2") format("woff2"),
-       url("../webfonts/ptio-font.woff") format("woff"),
-       url("../webfonts/ptio-font.ttf") format("truetype"),
-       url("../webfonts/ptio-font.svg#ptio-font") format("svg");
+  src: url("../fonts/ptio-font/ptio-font.eot");
+  src: url("../fonts/ptio-font/ptio-font.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/ptio-font/ptio-font.woff2") format("woff2"),
+       url("../fonts/ptio-font/ptio-font.woff") format("woff"),
+       url("../fonts/ptio-font/ptio-font.ttf") format("truetype"),
+       url("../fonts/ptio-font/ptio-font.svg#ptio-font") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -17,7 +17,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "ptio-font";
-    src: url("../webfonts/ptio-font.svg#ptio-font") format("svg");
+    src: url("../fonts/ptio-font/ptio-font.svg#ptio-font") format("svg");
   }
 }
 
