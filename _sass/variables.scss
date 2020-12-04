@@ -1,0 +1,38 @@
+/* Variables */
+
+$theme-colors: (
+  "primary": #FFD06F,
+  "secondary": #3913B8,
+  "warning": #ffab6f,
+  "info": #C5B6FF,
+  "success": #b6ffb8
+);
+
+$body-color: #28323F;
+$link-color: #3913B8;
+
+/* Cards */
+$card-shadow:         0 3px 10px 0 rgba(150, 150, 150, .2);
+$card-success-border:  rgba(40, 167, 69, .5);
+$card-primary-border: rgba(0, 123, 255, .5);
+$card-warning-border: rgba(255, 193, 7, .5);
+
+/* Blockquote */
+$blockquote-border:   #eee;
+
+/* Share button */
+$share-btn:           #fff;
+$share-btn-shadow:    0 2px 0 0 rgba(0, 0, 0, .2);
+$share-btn-hover:     #eee;
+$share-btn-active:    #e2e2e2;
+
+/* Social */
+$twitter:             #FFD06F;
+$mastodon:            #FFD06F;
+$facebook:            #FFD06F;
+$mix:                 #FFD06F;
+$reddit:              #FFD06F;
+$linkedin:            #FFD06F;
+$email:               #FFD06F;
+$diaspora:            #FFD06F;
+$tor:                 #7d4698;

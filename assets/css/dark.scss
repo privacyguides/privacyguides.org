@@ -1,0 +1,59 @@
+---
+---
+@import "variables";
+
+$theme-colors: (
+  "primary": #FFD06F,
+  "secondary": #3913B8,
+  "warning": #943E00,
+  "info": #C5B6FF,
+  "success": #b6ffb8
+);
+
+$body-bg: #181b21;
+$card-bg: #212529;
+$body-color: #d8d8d8;
+$link-color: #C5B6FF;
+$mark-bg: #343a40;
+$breadcrumb-bg: #212529;
+$hr-border-color: $body-color;
+
+$card-shadow: 0 3px 10px 0 rgba(50, 50, 50, .2);
+
+.container-fullwidth {
+  margin: 0 auto;
+  width: 100%;
+}
+
+// import /_sass/bootstrap.scss
+@import "bootstrap";
+@import "ptio-font";
+@import "flag-icon";
+
+.post-info, .post-title {
+  color: #d8d8d8;
+  display: inline;
+  padding: $spacer;
+  /* Needs prefixing */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+mark, .mark {
+  color: $body-color;
+}
+
+.bg-primary .container .row div, .btn-primary {
+  color: #28323F !important;
+}
+
+.bg-secondary .container .row .text-secondary .card-body {
+  color: $body-color !important;
+}
+
+nav.bg-light.navbar-light, nav.bg-light.navbar-light li a {
+  background-color: #212529 !important;
+  color: #adb5bd !important;
+}
+
+@import "custom";
