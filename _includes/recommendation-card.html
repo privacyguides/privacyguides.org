@@ -1,0 +1,24 @@
+<div class="card my-5">
+  <div class="card-body">
+    <div class="row m-3">
+      <div class="col-12 col-sm-4 col-md-3 text-center">
+        <img src="{{ post.logo }}" alt="{{ post.name }} logo" class="pb-5 w-75">
+      </div>
+      <div class="col-12 col-sm-8 col-md-9 text-center text-md-left">
+        <h2>{{ post.name }}</h2>
+        {% if post.info %} <p class="badge badge-info"><i class="fad fa-info-circle"></i> {{ post.info }}</p>{% endif %}
+        {% if post.warning %} <p class="badge badge-warning"><i class="fad fa-exclamation-triangle"></i> {{ post.warning }}</p>{% endif %}
+        {{ post.short | markdownify }}
+        <p>
+        {% if post.platform_win %}<a href="{{ post.platform_win }}" class="text-secondary"><i class="fab fa-windows fa-fw h2"></i></a>{% endif %}
+        {% if post.platform_mac %}<a href="{{ post.platform_mac }}" class="text-secondary"><i class="fab fa-apple fa-fw h2"></i></a>{% endif %}
+        {% if post.platform_linux %}<a href="{{ post.platform_linux }}" class="text-secondary"><i class="fab fa-linux fa-fw h2"></i></a>{% endif %}
+        {% if post.platform_android %}<a href="{{ post.platform_android }}" class="text-secondary"><i class="fab fa-google-play fa-fw h2"></i></a>{% endif %}
+        {% if post.platform_ios %}<a href="{{ post.platform_ios }}" class="text-secondary"><i class="fab fa-app-store-ios fa-fw h2"></i></a>{% endif %}
+        {% if post.website %}<a href="{{ post.website }}" class="text-secondary"><i class="far fa-globe fa-fw h2"></i></a>{% endif %}
+        </p>
+        <p><a href="{{ post.url }}" class="btn btn-primary mt-2">More Information</a></p>
+      </div>
+    </div>
+  </div>
+</div>

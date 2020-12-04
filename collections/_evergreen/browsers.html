@@ -1,0 +1,52 @@
+---
+layout: evergreen
+title: Browser Recommendations
+---
+
+<p class="lead">
+  These are our current web browser recommendations, settings, and add-ons you can use to preserve your privacy.
+</p>
+
+{% assign browser = site.browsers | where:"name","Firefox" %}
+{% for post in browser %}
+{% include recommendation-card.html %}
+{% endfor %}
+
+{% assign browser = site.browsers | where:"name","Tor Browser" %}
+{% for post in browser %}
+{% include recommendation-card.html %}
+{% endfor %}
+
+<h2>Worth Mentioning</h2>
+
+{% assign browser = site.browsers | where:"name","Ungoogled Chromium" %}
+{% for post in browser %}
+{% include worth-mentioning.html %}
+{% endfor %}
+
+{% assign browser = site.browsers | where:"name","Safari" %}
+{% for post in browser %}
+{% include worth-mentioning.html %}
+{% endfor %}
+
+{% assign browser = site.browsers | where:"name","Bromite" %}
+{% for post in browser %}
+{% include worth-mentioning.html %}
+{% endfor %}
+
+<h2>Anti-Recommendations</h2>
+
+{% assign browser = site.browsers | where:"name","Google Chrome" %}
+{% for post in browser %}
+{% include anti-recommendation.html %}
+{% endfor %}
+
+{% assign browser = site.browsers | where:"name","Brave Browser" %}
+{% for post in browser %}
+{% include anti-recommendation.html %}
+{% endfor %}
+
+{% assign browser = site.browsers | where:"name","Chromium" %}
+{% for post in browser %}
+{% include anti-recommendation.html %}
+{% endfor %}

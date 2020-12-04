@@ -1,0 +1,13 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+
+<div class="blog mt-5">
+  <div class="row">
+  {% for post in site.posts %}
+    {% include blog-card.html %}
+  {% endfor %}
+  </div>
+</div>

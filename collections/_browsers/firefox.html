@@ -1,0 +1,43 @@
+---
+name: Firefox
+type: Recommendation
+logo: /assets/img/browsers/firefox-logo.svg
+short: "**Firefox** is a fast, reliable, open-source, privacy-respecting browser developed by Mozilla. Unlike Google Chrome, Firefox won’t track your data and send it to various companies. Firefox also allows you to simply install a number of add-ons that will improve your privacy online."
+website: 'https://firefox.com/'
+privacy_policy: 'https://www.mozilla.org/en-US/privacy/firefox/'
+platform_win: 'https://www.mozilla.org/firefox/windows/'
+platform_mac: 'https://www.mozilla.org/firefox/mac/'
+platform_linux: 'https://www.mozilla.org/firefox/linux/'
+platform_bsd: 'https://www.freshports.org/www/firefox'
+platform_android: 'https://play.google.com/store/apps/details?id=org.mozilla.firefox'
+platform_fdroid: 'https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/'
+platform_ios: 'https://apps.apple.com/us/app/firefox-private-safe-browser/id989804926'
+source: 'https://hg.mozilla.org/mozilla-central/'
+order: 1
+---
+
+<div class="row my-5">
+  <div class="col-2 d-none d-lg-block">
+    <img src="{{ page.logo }}" alt="{{ page.name }} logo" class="w-100">
+  </div>
+  <div class="col-lg-10 col-12">
+    <p class="mt-2"><strong>Firefox</strong> is a fast, reliable, open-source, privacy-respecting browser developed by Mozilla.</p>
+    <p>Unlike Google Chrome, Firefox won’t track your data and send it to various companies. Firefox also allows you to simply install a number of add-ons that will improve your privacy online.</p>
+    <a href="{{ page.website }}" class="btn btn-primary mt-2">Visit {{ page.website | remove:'https://' | split:'/' | first }}</a>
+  </div>
+</div>
+
+{% include downloads.html %}
+
+<h2 class="pt-3">Source Code</h2>
+
+<p>Mozilla publishes the source code for the Firefox browser at <a href="{{ page.source }}">{{ page.source }}</a>.</p>
+
+<h2 class="pt-3">Related Content</h2>
+
+{% assign blog1 = site.posts | where:"title","Firefox Privacy: Tips and Tricks for Better Browsing" %}
+{% for post in blog1 %}
+<div class="row">
+  {% include blog-card.html %}
+</div>
+{% endfor %}

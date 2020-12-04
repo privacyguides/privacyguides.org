@@ -1,0 +1,35 @@
+---
+---
+$theme-colors: (
+  "primary": {{ site.colors.primary }},
+  "secondary": {{ site.colors.secondary }}
+);
+
+$body-color: {{ site.colors.secondary }};
+$link-color: {{ site.colors.link }};
+
+.container-fullwidth {
+  margin: 0 auto;
+  width: 100%;
+}
+
+@font-face {
+  font-family: Bagnard;
+  src: url("/assets/fonts/Bagnard.woff") format("woff"), url("/assets/fonts/Bagnard.ttf") format("truetype"), url("/assets/fonts/Bagnard.otf") format("opentype");
+}
+
+h1, h2, h3, h4 {
+  font-family: "Bagnard", serif;
+}
+
+// import /_sass/bootstrap.scss
+@import "bootstrap";
+
+.post-info, .post-title {
+  color: theme-color("light");
+  display: inline;
+  padding: $spacer;
+  /* Needs prefixing */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}

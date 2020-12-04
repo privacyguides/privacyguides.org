@@ -1,0 +1,19 @@
+{
+    "name": "Privacy Guides",
+    "short_name": "Privacy Guides",
+    "icons": [
+        {
+            "src": "/assets/img/layout/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/img/layout/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffd06f",
+    "background_color": "#ffd06f",
+    "display": "standalone"
+}

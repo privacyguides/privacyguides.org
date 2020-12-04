@@ -1,0 +1,3 @@
+[submodule "assets/fonts/fa-webfonts"]
+	path = assets/fonts/fa-webfonts
+	url = git@code.aragon.ventures:jonah/fa-webfonts.git
