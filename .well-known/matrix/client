@@ -1,0 +1,8 @@
+{
+    "m.homeserver": {
+        "base_url": "https://chat.privacytools.io"
+    },
+    "m.identity_server": {
+        "base_url": "https://chat.privacytools.io"
+    }
+}

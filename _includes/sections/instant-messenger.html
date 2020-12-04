@@ -1,0 +1,182 @@
+<h1 id="im" class="anchor">
+  <a href="#im"><i class="fas fa-link anchor-icon"></i></a>
+  Encrypted Instant Messengers
+</h1>
+
+<div class="alert alert-warning" role="alert">
+  <strong>If you are currently using an Instant Messenger like Telegram, LINE, Viber, <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">WhatsApp</a>, or plain SMS, you should pick an alternative here.</strong></div>
+
+<p>We only recommend instant messenger programs or apps that support <a href="https://en.wikipedia.org/wiki/End-to-end_encryption">end-to-end encryption (E2EE)</a>. When E2EE is used, all transmissions (messages, voice, video, etc.) are encrypted <strong>before</strong> they are sent from your device. E2EE protects both the authenticity and confidentiality of the transmission as they pass through any part of the network (servers, etc.).</p>
+
+<p>All the client programs/apps we chose are <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">free and open-source software</a> unless otherwise mentioned. This to ensure that the code can be independently verified by experts now and in the future.</p>
+
+<p>We have described the three main types of messaging programs that exist: Centralized, Federated and Peer-to-Peer (P2P), with the advantages and disadvantages of each.</p>
+
+<h2 id="centralized" class="anchor">
+  <a href="#centralized"><i class="fas fa-link anchor-icon"></i></a>
+  Centralized
+</h2>
+
+<p>Centralized messengers are those where every participant is on the same server or network of servers controlled by the same organization.</p>
+
+{%
+  include cardv2.html
+  title="Signal"
+  image="/assets/img/svg/3rd-party/signal.svg"
+  description='Signal is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling. All communications are E2EE unless you choose to send as SMS. Its protocol has also been <a href="https://eprint.iacr.org/2016/1013.pdf">indepedently audited (PDF)</a>'
+  labels="color==warning::text==Requires phone number::tooltip==Signal requires your phone number as an personal identifier which means anyone you communicate with will see it.|text==VoIP"
+  website="https://signal.org/"
+  privacy-policy="https://signal.org/legal/"
+  forum="https://forum.privacytools.io/t/discussion-signal/664"
+  github="https://github.com/signalapp"
+  windows="https://signal.org/download/"
+  mac="https://signal.org/download/"
+  linux="https://signal.org/download/"
+  googleplay="https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms"
+  android="https://signal.org/android/apk/#apk-danger"
+  ios="https://apps.apple.com/app/signal-private-messenger/id874139669"
+%}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+    <h3>Advantages</h3>
+    <ul>
+      <li>New features and changes can be implemented more quickly.</li>
+      <li>Easier to get started with and to find contacts.</li>
+    </ul>
+    </div>
+  <div class="col-md-6">
+    <h3>Disadvantages</h3>
+    <ul>
+      <li>Centralized services could be more susceptible to <a href="#exploiting-centralized-networks">legislation requiring backdoor access</a>.</li>
+      <li>Can include <a href="https://drewdevault.com/2018/08/08/Signal.html">restricted control or access</a>. This can include things like:</li>
+      <ul>
+        <li>Being <a href="https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165">forbidden from connecting third-party clients</a> to the centralized network that might provide for greater customization or better user experience. Often defined in Terms and Conditions of usage.</li>
+        <li>Poor or no documentation for third-party developers.</li>
+      </ul>
+      <li>The <a href="https://blog.privacytools.io/delisting-wire">ownership</a>, privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.</li>
+    </ul>
+  </div>
+  </div>
+</div>
+
+<div>
+  <h2 id="federated" class="anchor">
+    <a href="#federated"><i class="fas fa-link anchor-icon"></i></a>
+    Federated
+  </h2>
+
+  <p>Federated messengers use multiple, independent servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.</p>
+
+{%
+  include cardv2.html
+  title="Element"
+  image="/assets/img/svg/3rd-party/element.svg"
+  description='<a href="https://element.io">Element</a> (formerly <a href="https://element.io/blog/welcome-to-element/">Riot</a>) is the reference client for the <a href="https://matrix.org/docs/guides/introduction">Matrix</a> network. The <a href="https://matrix.org/docs/spec">Matrix open standard</a> is an open-source standard for secure, decentralized, real-time communication.'
+  labels="text==VoIP"
+  website="https://element.io"
+  privacy-policy="https://element.io/privacy"
+  forum="https://forum.privacytools.io/t/discussion-element-io/665"
+  github="https://github.com/vector-im/element-web"
+  windows="https://element.io/get-started"
+  mac="https://element.io/get-started"
+  linux="https://element.io/get-started"
+  fdroid="https://f-droid.org/packages/im.vector.app/"
+  googleplay="https://play.google.com/store/apps/details?id=im.vector.app"
+  ios="https://apps.apple.com/app/vector/id1083446067"
+  web="https://app.element.io"
+%}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h3>Advantages</h3>
+      <ul>
+        <li>Allows for greater control over your own data when running your own server.</li>
+        <li>Allows you to choose who to trust your data with by choosing between multiple "public" servers.</li>
+        <li>Often allows for third party clients which can provide a more native, customized, or accessible experience.</li>
+        <li>Generally a less juicy target for governments wanting <a href="#exploiting-centralized-networks">backdoor access to everything</a> as the trust is decentralized. The server may be hosted independently from the organization developing the software.</li>
+        <li>Server software can be verified that it matches public source code, assuming you have access to the server or you trust the person who does (e.g., a family member)</li>
+        <li>Third-party developers can contribute code and add new features, instead of waiting for a private development team to do so.</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h3>Disadvantages</h3>
+      <ul>
+        <li>Adding new features is more complex, because these features need to be standardized and tested to ensure they work with all servers on the network.</li>
+        <li>Some metadata may be available (e.g., information like "who is talking to whom," but not actual message content if E2EE is used).</li>
+        <li>Federated servers generally require trusting your server's administrator. They may be a hobbyist or otherwise not a "security professional," and may not serve standard documents like a privacy policy or terms of service detailing how your data is utilized.</li>
+        <li>Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with users on those servers.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div>
+  <h4>Worth Mentioning</h4>
+
+  <ul>
+    <li><a href="https://status.im">Status.im</a> - Encrypted instant messenger with an integrated <a href="https://en.wikipedia.org/wiki/Ethereum">Ethereum</a> wallet (cryptocurrency) that also includes support for <a href="https://our.status.im/tag/dapps">DApps (decentralized apps)</a> (web apps in a curated store). Uses the <a href="https://our.status.im/status-launches-private-peer-to-peer-messaging-protocol/">Waku protocol (a fork of Whisper)</a> for P2P communication. Only available for iOS and Android.</li>
+  </ul>
+
+  <h2 id="peer-to-peer" class="anchor">
+    <a href="#peer-to-peer"><i class="fas fa-link anchor-icon"></i></a>
+    Peer to Peer (P2P)
+  </h2>
+
+  <p>Peer-to-Peer instant messengers connect directly to each other without requiring third-party servers. Clients (peers) usually find each other through the use of a <a href="https://en.wikipedia.org/wiki/Distributed_computing">distributed computing</a> network. Examples of this include <a href="https://en.wikipedia.org/wiki/Distributed_hash_table">DHT (distributed hash table)</a> (used with technologies like <a href="https://en.wikipedia.org/wiki/BitTorrent_(protocol)">torrents</a> and <a href="https://en.wikipedia.org/wiki/InterPlanetary_File_System">IPFS</a>, for example). Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the <a href="https://www.scuttlebutt.nz">Scuttlebutt</a> social networking protocol). Once a peer has found a route to its contact via any of these methods, a direct connection between them is made.</p>
+
+{%
+  include cardv2.html
+  title="Briar"
+  image="/assets/img/svg/3rd-party/briar.svg"
+  description="Encrypted instant messenger that connects to contacts via Wi-Fi, Bluetooth, or Tor over the internet to synchronize messages. Technology such as this has proven to be useful when Internet availability is an issue, such as in times of crisis."
+  website="https://briarproject.org"
+  privacy-policy="https://briarproject.org/privacy-policy/"
+  forum="https://forum.privacytools.io/t/discussion-briar/2114"
+  gitlab="https://code.briarproject.org/briar/briar"
+  fdroid="https://f-droid.org/packages/org.briarproject.briar.android/"
+  googleplay="https://play.google.com/store/apps/details?id=org.briarproject.briar.android"
+%}
+
+{%
+  include cardv2.html
+  title="Jami"
+  image="/assets/img/svg/3rd-party/jami.svg"
+  description="Encrypted instant messaging and video calling software. All communications are E2EE using <a href=//jami.net/improving-performance-and-security-with-tls-1-3/>TLS 1.3</a> and never stored elsewhere than on user's devices, even when <a href=//jami.net/why-is-jami-truly-distributed/>TURN servers are used</a>."
+  labels="color==warning::link==https://git.jami.net/savoirfairelinux/ring-project/issues/765::text==Warning::tooltip==This software is partially centralized but can be self-hosted.|text==VoIP"
+  website="https://jami.net/"
+  privacy-policy="https://jami.net/privacy-policy/"
+  forum="https://forum.privacytools.io/t/discussion-jami/2116"
+  gitlab="https://git.jami.net/savoirfairelinux"
+  windows="https://jami.net/download-jami-windows"
+  mac="https://jami.net/download-jami-macos"
+  linux="https://jami.net/download-jami-linux"
+  fdroid="https://f-droid.org/packages/cx.ring/"
+  googleplay="https://play.google.com/store/apps/details?id=cx.ring"
+  ios="https://itunes.apple.com/app/ring-a-gnu-package/id1306951055?mt=8"
+%}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+    <h3>Advantages</h3>
+    <ul>
+      <li>Minimal information is exposed to third parties.</li>
+      <li>Modern P2P platforms implement end-to-end encryption by default. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.</li>
+    </ul>
+    </div>
+    <div class="col-md-6">
+      <h3>Disadvantages</h3>
+      <ul>
+        <li>Reduced feature set:</li>
+        <ul>
+          <li>Messages can only be sent when both peers are online, however, your client may store messages locally to wait for the contact to return online.</li>
+          <li>Generally increases battery usage on mobile devices, because the client must stay connected to the distributed network to learn about who is online.</li>
+        </ul>
+        <li>Your <a href="https://en.wikipedia.org/wiki/IP_address">IP address</a> and that of the contacts you're communicating with may be visible if you do not use the software in conjunction with a <a href="/software/networks">self contained network</a>, such as <a href="https://www.torproject.org">Tor</a> or <a href="https://geti2p.net/">I2P</a>. Many countries have some form of mass surveillance and/or metadata retention.</li>
+      </ul>
+    </div>
+  </div>
+</div>

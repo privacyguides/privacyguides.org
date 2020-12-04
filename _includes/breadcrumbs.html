@@ -1,0 +1,23 @@
+<nav id="breadcrumb" aria-label="breadcrumb">
+  {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+  <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li class="breadcrumb-item">
+      <a href="/"><i class="fas fa-home" aria-hidden="true"></i> <span>Home</span></a>
+    </li>
+    {% for crumb in crumbs offset: 1 %}
+    {% if forloop.last %}
+    <li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <link href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}" itemprop="item"  />
+      <span itemprop="name">{% if page.breadcrumb %}{{ page.breadcrumb }}{% else %}{% assign words = crumb | replace:'-',' ' | remove:'.html' | split: ' ' %}{% capture titlecase %}{% for word in words %}{{ word | capitalize }} {% endfor %}{% endcapture %}{{ titlecase }}{% endif %}
+      </span>
+      <meta itemprop="position" content="{{ forloop.index }}" />
+    </li>
+    {% else %}
+    <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}" itemprop="item"><span itemprop="name">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</span></a>
+      <meta itemprop="position" content="{{ forloop.index }}" />
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ol>
+</nav>

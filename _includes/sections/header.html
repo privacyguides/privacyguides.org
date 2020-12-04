@@ -1,0 +1,20 @@
+<div class="jumbotron p-5">
+  <h1 class="display-4">
+    <a href="{{ site.production_url }}" title="{{ site.name }}">
+      <img class="img-fluid d-none d-sm-block" src="/assets/img/svg/layout/brand/horizontal.svg" width="500px" alt="{{ site.name }}">
+      <div class="text-center">
+        <img class="img-fluid d-sm-none" src="/assets/img/svg/layout/brand/vertical.svg" width="300px" alt="{{ site.name }}">
+      </div>
+    </a>
+  </h1>
+  <p class="lead">You are being watched. Private and state-sponsored organizations are monitoring and recording your online activities. {{ site.name }} provides services, tools and knowledge to protect your privacy against global mass surveillance.</p>
+</div>
+
+<form method="POST" action="https://search.privacytools.io/" id="search_form" role="search">
+<div class="input-group col-12 col-md-8 offset-md-2">
+<input type="search" name="q" class="form-control input-lg" id="q" placeholder="Try {{ site.name }} Search, a Privacy-Respecting Search Engine" autocomplete="off" value="">
+<span class="input-group-btn">
+<button type="submit" class="btn btn-primary input-lg"><span class="hide_if_nojs"><i class="fas fa-search"></i> </span><span class="hidden active_if_nojs">start search</span></button>
+</span>
+</div>
+</form>

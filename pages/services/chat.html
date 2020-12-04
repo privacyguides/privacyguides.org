@@ -1,0 +1,104 @@
+---
+layout: default
+permalink: /services/chat/
+title: "Matrix"
+description: "chat.privacytools.io is our official Matrix homeserver. You can register a user account on this homeserver using any Matrix client, no email required."
+---
+
+{% include breadcrumbs.html %}
+
+<div class="jumbotron p-5">
+  <h1 class="display-4">Matrix</h1>
+  <p class="lead"><code>chat.privacytools.io</code> is our official Matrix homeserver.</p>
+  <hr class="my-4">
+  <p>You can register a user account on this homeserver using any Matrix client, no email required. However, you do not need to be a member of this homeserver to join our rooms, and choosing a smaller instance or <a href="https://element.io/matrix-services">buying</a> or <a href="https://matrix.org/docs/guides/installing-synapse">hosting</a> your own will help promote decentralization and performance on Matrix!</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="https://element.privacytools.io/" role="button">Open in Element</a>
+    <a class="btn btn-secondary btn-lg" href="https://www.hello-matrix.net/public_servers.php" role="button">Find Another Homeserver</a>
+  </p>
+</div>
+
+<h2 class="pt-4" id="homeserverinfo">Connection Information</h2>
+<p><strong>To register on or connect to our homeserver, simply use <code>https://chat.privacytools.io</code> as the homeserver in your Matrix client.</strong></p>
+<p><mark>You must read and accept our community <a href="https://wiki.privacytools.io/view/PrivacyTools:Code_of_Conduct">code of conduct</a> before joining our rooms or using our services.</mark></p>
+
+{%
+  include cardv2.html
+  title="Element"
+  image="/assets/img/svg/3rd-party/element.svg"
+  description='<a href="https://element.io">Element</a> (formerly <a href="https://element.io/blog/welcome-to-element/">Riot</a>) is the reference client for the <a href="https://matrix.org/docs/guides/introduction">Matrix</a> network. The <a href="https://matrix.org/docs/spec">Matrix open standard</a> is an open-source standard for secure, decentralized, real-time communication.'
+  labels="text==VoIP"
+  website="https://element.io"
+  privacy-policy="https://element.io/privacy"
+  forum="https://forum.privacytools.io/t/discussion-element-io/665"
+  github="https://github.com/vector-im/element-web"
+  windows="https://element.io/get-started"
+  mac="https://element.io/get-started"
+  linux="https://element.io/get-started"
+  fdroid="https://f-droid.org/packages/im.vector.app/"
+  googleplay="https://play.google.com/store/apps/details?id=im.vector.app"
+  ios="https://apps.apple.com/app/vector/id1083446067"
+  web="https://app.element.io"
+%}
+
+<p>If you're asked to enter a custom homeserver URL in a Matrix client, enter <code>https://chat.privacytools.io</code>, <strong>not</strong> privacytools.io or element.privacytools.io. You do not need to change your identity server, in fact <code>https://vector.im</code> is the only functional one, by design.</p>
+
+<p>These details will be autofilled for you in most clients if you enter your full username (e.g. @alice:privacytools.io rather than alice) into the username field. In general it is preferable to do that rather than trying to remember what the homeserver URL is.</p>
+
+<h2 class="pt-4">Frequently Asked Questions</h2>
+
+<h4>Is #general:privacytools.io or #privacy:privacytools.io chat end-to-end encrypted?</h4>
+<p><strong>No.</strong> Messages sent to the #general chat are encrypted from with client-to-server encryption, i.e. HTTPS. This means that your messages can't be viewed by an attacker on your network, or your ISP, etc. <strong>However</strong>, because this is a public chat room anybody can view your messages if they are a member, and newcomers will be able to see all message history. Do not say anything in rooms that don't use End-to-End (E2E) encryption that you wouldn't want tied to you personally.</p>
+
+<h4>Isn't Matrix behind Cloudflare?</h4>
+<p>The default matrix.org homeserver is behind Cloudflare. The PrivacyTools homeserver is not.
+
+<h4>Isn't Matrix slow?</h4>
+<p>It can be, for some! Due to the trememdous amount of people registering on the matrix.org homeserver, it is often overloaded and occasionally slow to respond. Therefore, users on that homeserver occasionally report a less than ideal chat experience. If that's you, you can fix this problem by switching to another homeserver. Good alternatives include...
+  <ul>
+    <li>ours of course, at <mark><strong>chat.privacytools.io</strong></mark>, you're here right?</li>
+    <li>feneas.org, tchncs.de, weho.st, pine64.org, kde.org, halogen.city...</li>
+    <li>purchasing an instance from <a href="https://element.io/matrix-services">Element Matrix Services</a></li>
+    <li>running your own by installing <a href="https://github.com/matrix-org/synapse">Synapse</a> — certainly the best option for the technically inclined!</li>
+  </ul>
+<p>Note that at time of writing, switching homeservers requires re-registering with another account at that server, as nomadic identities haven't been implemented yet.</p>
+
+<h4>What happens when I remove a message in Element?</h4>
+<p>Your homeserver will send a removal request for that message and some clients will render it as a black line, but by editing the source it's possibly for homeserver to not respect it and do nothing. If the room is bridged to protocols that don't support message removals (IRC, XMPP), their users see nothing happening. Don’t say anything you wouldn’t want to remain in the chat forever.</p>
+
+<h4>Why do XMPP users keep joining and leaving all the time?</h4>
+<p><a href="https://github.com/matrix-org/matrix-bifrost/issues/63">It's an issue with the XMPP bridge</a>.</p>
+
+<h4>I'm not using the PrivacyTools homeserver, can I find PrivacyTools rooms in Element?</h4>
+<p>Yes! Open the room explorer (compass icon on Element desktop), click the server selection drop down next to the search bar, click "Add a new server", type <code>privacytools.io</code>, and click Add. You should then be able to view and search through rooms that the PrivacyTools server is aware of. Note that not every room hosted on PrivacyTools is affiliated with or moderated by the PrivacyTools team.</p>
+
+<h2 class="pt-4">Rooms</h2>
+<p>To join a room, just type <code>/join [room address]</code> in any room. You can run this command from any server, not just ours!</p>
+<p>The PrivacyTools administration operates the following channels:</p>
+<ul>
+  <li><code>#dev:privacytools.io</code>: Discussions relating to <a href="https://github.com/privacytools/privacytools.io/">building</a> www.privacytools.io.</li>
+  <li><code>#forum:privacytools.io</code>: All PrivacyTools Forum updates (Automated).</li>
+  <li><strong><code>#general:privacytools.io</code>: Main discussion room.</strong></li>
+  <li><code>#github:privacytools.io</code>: GitHub updates for @privacytools (Automated).</li>
+  <li><code>#guides:privacytools.io</code>: Privacy Guides development work.</li>
+  <li><strong><code>#privacy:privacytools.io</code>: On-topic privacy, security, opsec discussion and support.</strong></li>
+  <li><code>#wiki:privacytools.io</code>: <a href="https://wiki.privacytools.io/view/Main_Page">Wiki</a>-building discussion room.</li>
+</ul>
+<p>If you're looking for more things to chat about, check out these rooms as well:</p>
+<ul>
+  <li><code>#disroot:disroot.org</code>: Disroot.org room</li>
+  <li><code>#freenode_#opennic:matrix.org</code>: OpenNIC IRC Channel.</li>
+  <li><code>#matrix:matrix.org</code>: Discuss Matrix itself!</li>
+  <li><code>#nothing_to_hide:privacytools.io</code>: More general privacy chat.</li>
+  <li><code>#_oftc_#Tor-Project:matrix.org</code>: Official Tor Project chat room!</li>
+  <li><code>#plume:disroot.org</code>: Discussion for Plume: Federated blogging.</li>
+  <li><code>#element-android:matrix.org</code>: Element Android discussion and support.</li>
+  <li><code>#element-ios:matrix.org</code>: Element iOS discussion and support.</li>
+  <li><code>#element-web:matrix.org</code>: Element Web/Desktop discussion and support.</li>
+</ul>
+<p>If you are a room operator and want your room listed here, feel free to contact us. Especially if you operate a large room and/or are a member of our homeserver!</p>
+<p>We do not necessarily endorse any of the content in these listed rooms.</p>
+
+<h2 class="pt-4" id="contact">Contact</h2>
+<p>For server related issues, the administrator of this homeserver is Jonah, who can be reached on Matrix at <code>@jonah:privacytools.io</code>.
+<p>For moderation related issues or anything else, you can contact Jonah or anyone in the team (listed in the <code>+team:privacytools.io</code> community) via Matrix, or via email at <code>support@privacytools.io</code>.</p>

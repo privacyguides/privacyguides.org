@@ -1,0 +1,50 @@
+<div class="col-12 col-sm-6 col-lg-4 {% unless include.emeritus %}col-xl-3{% endunless %}">
+  <div class="card mb-3 mx-4 mx-sm-0" itemprop="member" itemscope itemtype="http://schema.org/Person">
+    {% if include.avatar %}<img src="{{ site.baseurl }}/assets/img/{{ include.avatar | split: "." | last }}/team/{{ include.avatar }}" class="card-img-top" itemprop="image" alt="{% if include.nick %}{{ include.nick }}{% else %}{{ include.name }}{% endif %}">{% endif %}
+    <div class="card-body">
+
+      <h5 class="card-title mt-0" itemprop="name">
+      {% if include.nick %}
+        {{ include.nick }}</h5>
+      <meta itemprop="alternateName" content="{{ include.name }}" />
+      {% else %}
+        {{ include.name }}</h5>
+      {% endif %}
+
+      <h6 class="card-subtitle mb-2 text-muted" itemprop="jobTitle">{% if include.role %}{{ include.role }}{% elsif include.emeritus %}Former Contributor{% else %}Contributor{% endif %}</h6>
+      {% if include.bio %}<p class="card-text" itemprop="description">{{ include.bio | default: "<i>Hmm, this user hasn't written a bio quite yet :(</i>" }}</p>{% endif %}
+      <div class="mx-n2">
+        {% if include.email %}
+        <a href="{{ include.email }}" aria-label="Email" class="mx-2 text-decoration-none" itemprop="email">
+          <i class="fas fa-envelope" aria-hidden="true" title="{{ include.email }}"></i>
+        </a>
+        {% endif %}
+        {% if include.website %}
+        <a href="{{ include.website }}" aria-label="Website" class="mx-2 text-decoration-none" itemprop="url">
+          <i class="fas fa-link" aria-hidden="true" title="Website"></i>
+        </a>
+        {% endif %}
+        {% if include.keys %}
+        <a href="{{ include.keys }}" aria-label="Keys" class="mx-2 text-decoration-none" itemprop="sameAs">
+          <i class="fas fa-key" aria-hidden="true" title="Keys"></i>
+        </a>
+        {% endif %}
+        {% if include.mastodon %}
+        <a href="{{ include.mastodon }}" aria-label="Mastodon" class="mx-2 text-decoration-none" itemprop="sameAs">
+          <i class="fab fa-mastodon" aria-hidden="true" title="Mastodon Profile"></i>
+        </a>
+        {% endif %}
+        {% if include.twitter %}
+        <a href="https://twitter.com/{{ include.twitter }}" aria-label="Twitter" class="mx-2 text-decoration-none" itemprop="sameAs">
+          <i class="fab fa-twitter" aria-hidden="true" title="Twitter Profile"></i>
+        </a>
+        {% endif %}
+        {% if include.blog %}
+        <a href="https://blog.privacytools.io/author/{{ include.blog }}" aria-label="Blog" class="mx-2 text-decoration-none" itemprop="sameAs">
+          <i class="fas fa-pen-nib" aria-hidden="true" title="PrivacyTools Blog Author"></i>
+        </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>

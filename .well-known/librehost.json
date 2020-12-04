@@ -1,0 +1,19 @@
+{
+    "@context" : "http://schema.org",
+    "@type" : "Organization",
+    "organizationType" : "Informal collective",
+    "name" : "PrivacyTools",
+    "tagLine" : "Private Services: No Ads, No Google Analytics, No Affiliates, and No Cross-Site Requests",
+    "homeUrl" : "https://www.privacytools.io/",
+    "logo" : "https://www.privacytools.io/assets/img/layout/shield.svg",
+    "description": "PrivacyTools is a socially motivated website that provides information and services for protecting your security and privacy online. No Ads, No Google Analytics, No Affiliates, and No Cross-Site Requests.",
+    "communicationLanguages": ["en"],
+    "contactUrl": "https://www.privacytools.io/contact/",
+    "privacyPolicyUrl" : "https://www.privacytools.io/privacy/",
+    "termsOfServiceUrl" : "-",
+    "isServiceProvider" : true,
+    "foundingDate": "2015",
+    "version": "0.0.1",
+    "dateCreated": "2019-05-02T16:25:00Z",
+    "dateModified": "2019-05-02T16:25:00Z"
+}

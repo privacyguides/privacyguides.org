@@ -1,0 +1,76 @@
+<div class="col-xl-4 col-lg-6 col-md-12 mb-4">
+    <div class="card card-{{include.color}}">
+        {% if include.color == "warning" %}
+        <div class="card-header text-dark bg-{{include.color}}">
+        {% else %}
+        <div class="card-header text-white bg-{{include.color}}">
+        {% endif %}
+        <h3 class="h5">{{include.title}}</h3>
+        </div>
+        <div class="card-body">
+            {% if include.labels %}
+            {% assign labels = include.labels | replace:", ", "," | split:"," %}
+            <div class="mb-1">
+                {% for label in labels %}
+                    {% assign label_data = label | split:":" %}
+                    {% assign color = label_data[0] %}
+                    {% assign text = label_data[1] %}
+                    {% assign tooltip = label_data[2] | default: "" %}
+                    {% assign help_icon = '<i class="far fa-question-circle"></i>' %}
+                    <span class="badge badge-{{color}}" {% if tooltip %} data-toggle="tooltip" title="{{ tooltip }}">{{text}} {{ help_icon
+                        }}
+                        {% else %}
+                        >{{text}}
+                        {% endif %}
+                    </span>
+                {% endfor %}
+            </div>
+            {% endif %}
+            <p>
+              {% if include.image %}
+              <img src="{{include.image}}" width="120" height="120" alt="{{include.title}}" class="panel-item">
+              {% elsif include.icon %}
+              <i class="{{ include.icon }} panel-icon{% if include.iconcolor %} text-{{include.iconcolor}}{% endif %}"></i>
+              {% elsif include.font %}
+              <span class="{{ include.font }} panel-item panel-font" alt="{{ include.title }}"></span>
+              {% endif %}
+              {{include.description}}
+            </p>
+            <div>
+            <p>
+                {% if include.url %}
+                <a class="btn btn-{{include.color}} mb-1" href="{{include.url}}">
+                    {% if include.website %}
+                        {{include.website}}
+                    {% else %}
+                        {{ include.url | remove: "https://" | remove: "http://" | remove: "www." | remove: "/" | remove: "github.com" }}
+                    {% endif %}
+                </a>
+                {% elsif include.page %}
+                <a class="btn btn-{{include.color}} mb-1" href="{{include.page}}">
+                    {% if include.moretext %}
+                        {{include.moretext}}
+                    {% else %}
+                        Learn More
+                    {% endif %}
+                </a>
+                {% endif %}
+                {% if include.tor %}
+                <a class="mb-1" data-toggle="tooltip" data-placement="bottom" data-original-title="{{include.tor}} Requires specific software to access: torproject.org" href="{{include.tor}}"><img alt="Tor" src="/assets/img/layout/tor.png" width="35" height="35"></a>
+                {% endif %}
+
+                {% if include.git %}
+                <a class="mb-1" data-toggle="tooltip" data-placement="bottom" data-original-title="{{include.git}} supports source code compiling and open review | is free software" href="{{include.git}}"><img alt="Git" src="assets/img/layout/git.png" width="35"></a>
+                {% endif %}
+
+                {% if include.extra_button %}
+                    {{include.extra_button}}
+                {% endif %}
+            </p>
+            {% if include.footer %}
+                <p>{{include.footer}}</p>
+            {% endif %}
+            </div>
+        </div>
+    </div>
+</div>

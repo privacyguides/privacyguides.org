@@ -1,0 +1,329 @@
+<div class="card">
+  <div class="card-header text-white bg-secondary">
+    <h3 class="h5">
+      {% if include.badges %}
+      <span class="mr-2">{{ include.title }}</span>
+      {% assign badges = include.badges | split:"|" %}
+        {% for badge in badges %}
+          {% assign badge_data = badge | split:":" %}
+          {% assign color = badge_data[0] %}
+          {% assign text = badge_data[1] %}
+          {% assign tooltip = badge_data[2] | default: false %}
+          {% assign help_icon = '<i class="far fa-question-circle"></i>' %}
+          <span
+            class="badge badge-{{color}}"
+            {% if tooltip %}
+              data-toggle="tooltip"
+              title="{{ tooltip }}"
+              > {{text}} {{ help_icon }}
+            {% else %}
+              > {{text}}
+            {% endif %}
+          </span>
+        {% endfor %}
+      {% else %}
+        {{ include.title }}
+      {% endif %}
+    </h3>
+  </div>
+  <div class="card-body">
+    <p class="card-text">
+      <img
+        src="{{include.image}}"
+        {% if include.image-dark %}
+        data-theme-src="{{include.image-dark}}"
+        {% endif %}
+        height="120"
+        width="120"
+        class="panel-pic"
+        alt="{{include.title}} logo"
+      >
+      {{ include.description }}
+      {% if include.labels %}
+      {% assign labels = include.labels | split:"|" %}
+      {% for label in labels %}
+        {% assign label_data = label | split:"::" %}
+          {% for label_attr in label_data %}
+            {% assign attr = label_attr | split:"==" %}
+            {% if attr[0] == "color" %}
+              {% assign color = attr[1] %}
+            {% elsif attr[0] == "link" %}
+              {% assign link = attr[1] %}
+            {% elsif attr[0] == "text" %}
+              {% assign text = attr[1] %}
+            {% elsif attr[0] == "icon" %}
+              {% assign icon = attr[1] %}
+            {% elsif attr[0] == "tooltip" %}
+              {% assign tooltip = attr[1] %}
+            {% endif %}
+          {% endfor %}
+        {% include badge.html
+          link=link
+          color=color
+          text=text
+          icon=icon
+          tooltip=tooltip
+        %}
+        {% assign color = nil %}
+        {% assign link = nil %}
+        {% assign text = nil %}
+        {% assign icon = nil %}
+        {% assign tooltip = nil %}
+      {% endfor %}
+      {% endif %}
+    </p>
+    <div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+      <div class="flow-root flex-shrink-0 mr-1">
+        <a
+          href="{{include.website}}"
+          rel="noopener"
+          class="btn btn-primary mt-1 mr-1">
+          <i class="fas fa-external-link-alt fa-fw"></i>
+          Website
+        </a>
+        {% if include.privacy-policy %}
+        <a
+          href="{{include.privacy-policy}}"
+          rel="noopener"
+          class="btn btn-warning mt-1 mr-1">
+          <i class="fas fa-book fa-fw"></i>
+          Privacy Policy
+        </a>
+        {% endif %}
+        {% if include.forum %}
+          <a
+            href="{{include.forum}}"
+            rel="noopener"
+            class="btn btn-success mt-1 mr-1">
+            <i class="fab fa-discourse fa-fw"></i>
+            Forum
+          </a>
+        {% endif %}
+        {% if include.tor %}
+          <a
+            href="{{include.tor}}"
+            rel="noopener"
+            class="btn icon-btn hover-text-decoration-none mt-1 mr-1"
+            data-toggle="tooltip"
+            data-placement="bottom"
+            data-original-title="Requires specific software to access: torproject.org">
+            <span class="ptio-tor btn-tor btn-icon"></span>
+          </a>
+        {% endif %}
+        {% if include.i2p %}
+          <a
+            href="{{include.i2p}}"
+            rel="noopener"
+            class="btn icon-btn hover-text-decoration-none mt-1 mr-1"
+            data-toggle="tooltip"
+            data-placement="bottom"
+            data-original-title="Requires specific software to access: geti2p.net">
+            <span class="ptio-i2p-garlic btn-secondary btn-icon"></span>
+          </a>
+        {% endif %}
+      </div>
+
+      <div class="mt-2">
+          {% if include.windows %}
+            {% if include.windows != "" %}
+              <a href="{{ include.windows }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.mac %}
+            {% if include.mac != "" %}
+              <a href="{{ include.mac }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.linux %}
+            {% if include.linux != "" %}
+              <a href="{{ include.linux }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.freebsd %}
+            {% if include.freebsd != "" %}
+              <a href="{{ include.freebsd }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.openbsd %}
+            {% if include.openbsd != "" %}
+              <a href="{{ include.openbsd }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-openbsd fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="ptio-openbsd fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.netbsd %}
+            {% if include.netbsd != "" %}
+              <a href="{{ include.netbsd }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-netbsd fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="ptio-netbsd fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.firefox %}
+            {% if include.firefox != "" %}
+              <a href="{{ include.firefox }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.chrome %}
+            {% if include.chrome != "" %}
+              <a href="{{ include.chrome }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.safari %}
+            {% if include.safari != "" %}
+              <a href="{{ include.safari }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-safari fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-safari fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.opera %}
+            {% if include.opera != "" %}
+              <a href="{{ include.opera }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-opera fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-opera fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.edge %}
+            {% if include.edge != "" %}
+              <a href="{{ include.edge }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-edge fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-edge fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.fdroid %}
+            {% if include.fdroid != "" %}
+              <a href="{{ include.fdroid }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.googleplay %}
+            {% if include.googleplay != "" %}
+              <a href="{{ include.googleplay }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.android %}
+            {% if include.android != "" %}
+              <a href="{{ include.android }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-android fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-android fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.ios %}
+            {% if include.ios != "" %}
+              <a href="{{ include.ios }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.sailfish %}
+            {% if include.sailfish != "" %}
+              <a href="{{ include.sailfish }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-sailfish-os fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="ptio-sailfish-os fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.web %}
+            {% if include.web != "" %}
+              <a href="{{ include.web }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fas fa-globe-americas fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fas fa-globe-americas fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {{include.icon1}}
+          {{include.icon2}}
+          {{include.icon3}}
+
+          {% if include.github %}
+            <a href="{{include.github}}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+              <i class="fab fa-github fa-2x fa-fw d-inline"></i>
+            </a>
+          {% endif %}
+
+          {% if include.gitlab %}
+            <a href="{{include.gitlab}}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+              <i class="fab fa-gitlab fa-2x fa-fw d-inline"></i>
+            </a>
+          {% endif %}
+
+          {% if include.git %}
+            <a href="{{include.git}}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+              <i class="fab fa-git-square fa-2x fa-fw d-inline"></i>
+            </a>
+          {% endif %}
+
+          {% if include.source %}
+            <a href="{{include.source}}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+              <i class="fas fa-code-branch fa-2x fa-fw d-inline"></i>
+            </a>
+          {% endif %}
+
+      </div>
+    </div>
+  </div>
+</div>
+<br>

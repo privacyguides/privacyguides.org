@@ -1,0 +1,196 @@
+---
+---
+@import '_vars';
+
+$dark-900: #181b21;
+$dark-800: #22262e;
+$dark-700: #343a46;
+$dark-600: #464f60;
+$light: #d8d8d8;
+$primary: #345e8e;
+$danger: #b63f4a;
+$secondary: $dark-600;
+$success: #2c7f40;
+$warning: #c6a339;
+$info: #218899;
+
+
+/*
+ * HTML
+ */
+
+body {
+  background: $dark-900;
+  color: $light;
+}
+a {
+  color: lighten($primary, 25%);
+}
+a:hover {
+  color: lighten($primary, 10%);
+}
+img {
+  filter: saturate(80%);
+}
+
+
+/*
+ * Bootstrap
+ */
+
+.alert a {
+  color: lighten($primary, 30%);
+}
+
+.bg-secondary, .btn-secondary, .badge-secondary { background-color: $secondary !important; }
+.btn-secondary, .card-secondary .card-header { border-color: $secondary !important; }
+.alert-secondary, .btn-secondary:hover {
+  color: $light;
+  background-color: darken($secondary, 10%);
+  border-color: darken($secondary, 10%);
+}
+
+.bg-primary, .btn-primary, .badge-primary { background-color: $primary !important; }
+.btn-primary, .card-primary .card-header { border-color: $primary !important; }
+.text-primary { color: $primary !important; }
+.alert-primary, .btn-primary:hover {
+  color: $light;
+  background-color: darken($primary, 10%);
+  border-color: darken($primary, 10%);
+}
+
+.bg-warning, .btn-warning, .badge-warning { background-color: $warning !important; }
+.btn-warning, .card-warning .card-header { border-color: $warning !important; }
+.btn-warning:hover { color: $dark-700 !important }
+.text-warning { color: $warning !important; }
+.card-warning > .text-dark { color: $dark-900 !important; }
+.alert-warning a { color: darken($primary, 6%); }
+.badge-warning a { color: $primary; }
+.alert-warning, .btn-warning:hover {
+  color: $dark-900;
+  background-color: darken($warning, 8%);
+  border-color: darken($warning, 8%);
+}
+
+.bg-info, .btn-info, .badge-info { background-color: $info !important; }
+.btn-info, .card-info .card-header { border-color: $info !important; }
+.text-info { color: $info !important; }
+.alert-info, .btn-info:hover {
+  color: $light;
+  background-color: darken($info, 10%);
+  border-color: darken($info, 10%);
+}
+
+.bg-success, .btn-success, .badge-success { background-color: $success !important; }
+.btn-success, .card-success .card-header { border-color: $success !important; }
+.text-success { color: $success !important; }
+.alert-success, .btn-success {
+  color: $light;
+  background-color: darken($success, 10%);
+  border-color: darken($success, 10%);
+}
+
+.bg-danger, .btn-danger, .badge-danger { background-color: $danger !important; }
+.btn-danger, .card-danger .card-header { border-color: $danger !important; }
+.text-danger { color: $danger !important; }
+.alert-danger, .btn-danger:hover {
+  color: $light;
+  background-color: darken($danger, 10%);
+  border-color: darken($danger, 10%);
+}
+
+.btn-tor { background: desaturate($tor, 10%); }
+.btn-tor:hover { background: darken($tor, 5%); }
+
+.card {
+  box-shadow: none !important;
+}
+
+.dropdown-item:hover {
+  color: $light;
+  background-color: $dark-800;
+}
+
+.form-control,
+.form-control:focus {
+  color: $light;
+  background: $dark-800;
+  border-color: $dark-800;
+}
+
+.form-control[readonly],
+.form-control:disabled {
+  background: $dark-800;
+}
+
+.card,
+.jumbotron,
+.list-group-item,
+ol.breadcrumb {
+  background: $dark-800;
+}
+
+.blockquote {
+  border-color: $dark-800;
+}
+
+.bg-dark {
+  background-color: $dark-800 !important;
+}
+
+.dropdown-item {
+  color: $light;
+}
+
+.list-group-item {
+  border-color: $dark-700;
+}
+
+.text-dark {
+  color: $light !important;
+}
+
+table[data-sortable].sortable-theme-bootstrap {
+  color: $light;
+  background-color: $dark-800;
+}
+table[data-sortable].sortable-theme-bootstrap th,
+table[data-sortable].sortable-theme-bootstrap td {
+  border-color: $dark-600 !important;
+}
+table[data-sortable].sortable-theme-bootstrap th[data-sorted="true"] {
+  color: $light;
+  background: $dark-700;
+}
+table[data-sortable].sortable-theme-bootstrap th[data-sorted="true"][data-sorted-direction="ascending"]::after, {
+  border-bottom-color: $light;
+}
+table[data-sortable].sortable-theme-bootstrap th[data-sorted="true"][data-sorted-direction="descending"]::after {
+  border-top-color: $light;
+}
+
+
+/*
+ * Other
+ */
+
+.nav-dropdown {
+  color: $light;
+  background-color: $dark-900;
+  border-color: $dark-800;
+}
+
+.nav-theme-icon:before {
+  color: $warning;
+  font-size: 1em;
+  content: "\f185";
+}
+
+.twitter { background: desaturate($twitter, 25%); }
+.mastodon { background: desaturate($mastodon, 25%); }
+.facebook { background: desaturate($facebook, 25%); }
+.mix { background: desaturate($mix, 25%); }
+.reddit { background: desaturate($reddit, 25%); }
+.linkedin { background: desaturate($linkedin, 25%); }
+.email { background: desaturate($email, 25%); }
+.diaspora { background: desaturate($diaspora, 25%); }

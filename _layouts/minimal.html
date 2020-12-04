@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body data-spy="scroll" data-target="#navbar">
+  <script src="/assets/js/applytheme.js?v=1"></script>
+  <header>
+  {% include nav.html %}
+  <div id="top" class="py-4"></div>
+  </header>
+  {{ content }}
+  {% include scripts.html %}
+</body>
+</html>

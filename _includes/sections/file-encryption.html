@@ -1,0 +1,80 @@
+<h1 id="encrypt" class="anchor"><a href="#encrypt"><i class="fas fa-link anchor-icon"></i></a> File Encryption Software</h1>
+
+<div class="alert alert-warning" role="alert">
+  <strong>If you are currently not using encryption software for your hard disk, emails, or file archives, you should pick one here.</strong>
+</div>
+
+{%
+  include cardv2.html
+  title="VeraCrypt - Disk Encryption"
+  image="/assets/img/svg/3rd-party/veracrypt.svg"
+  image-dark="/assets/img/svg/3rd-party/veracrypt-dark.svg"
+  description="<strong>VeraCrypt</strong> is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file or encrypt a partition or the entire storage device with pre-boot authentication. VeraCrypt is a fork of the discontinued TrueCrypt project. It was initially released on June 22, 2013. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed."
+  website="https://veracrypt.fr/"
+  forum="https://forum.privacytools.io/t/discussion-veracrypt-file-encryption/1532"
+  git="https://www.veracrypt.fr/code/"
+  windows="https://www.veracrypt.fr/en/Downloads.html"
+  linux="https://www.veracrypt.fr/en/Downloads.html"
+  mac="https://www.veracrypt.fr/en/Downloads.html"
+%}
+
+{%
+  include cardv2.html
+  title="GNU Privacy Guard - Email Encryption"
+  image="/assets/img/svg/3rd-party/gnupg.svg"
+  description="<strong>GnuPG</strong> is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with RFC 4880, which is the current IETF standards track specification of OpenPGP. Current versions of PGP (and Veridis' Filecrypt) are interoperable with GnuPG and other OpenPGP-compliant systems. GnuPG is a part of the Free Software Foundation's GNU software project, and has received major funding from the German government."
+  website="https://gnupg.org/"
+  privacy-policy="https://gnupg.org/privacy-policy.html"
+  forum="https://forum.privacytools.io/t/discussion-gnupg-file-encryption/1533"
+  git="https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git"
+  windows="https://gpg4win.org/download.html"
+  linux="https://gnupg.org/download/index.html#binary"
+  freebsd="https://www.freshports.org/security/gnupg/"
+  openbsd="http://openports.se/security/gnupg"
+  netbsd="http://pkgsrc.se/security/gnupg"
+  mac="https://gpgtools.org/"
+  fdroid="https://f-droid.org/app/org.sufficientlysecure.keychain"
+  googleplay="https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain"
+%}
+
+{%
+  include cardv2.html
+  title="7 Zip"
+  image="/assets/img/svg/3rd-party/7zip.svg"
+  description='<strong>7-Zip</strong> is a free and open-source file archiver, a utility used to place groups of files within compressed containers. On Linux, MacOS etc. the command-line tool <a href="http://p7zip.sourceforge.net/"><strong>p7zip</strong></a> is used and integrates into various interfaces such as <a href="https://wiki.gnome.org/Apps/FileRoller">FileRoller</a>, <a href="https://github.com/ib/xarchiver">Xarchiver</a>, <a href="https://kde.org/applications/utilities/ark">Ark</a>.'
+  website="https://7-zip.org"
+  forum="https://forum.privacytools.io/t/discussion-7-zip/3024"
+  source="https://sourceforge.net/projects/sevenzip/files/"
+  windows="https://7-zip.org/download.html"
+  linux="https://sourceforge.net/projects/p7zip/files"
+  freebsd="https://www.freshports.org/archivers/p7zip"
+  openbsd="https://sourceforge.net/projects/p7zip"
+  netbsd="https://sourceforge.net/projects/p7zip"
+%}
+
+<h3>Worth Mentioning</h3>
+
+<ul>
+  <li>
+    <a href="https://cryptomator.org/">Cryptomator</a> - Free client-side AES encryption for your cloud files. Open source software: No backdoors, no registration.
+    {% include badge.html
+      color="warning"
+      text="Closed source"
+      icon="fas fa-exclamation-triangle"
+      link="https://github.com/cryptomator/cryptomator-android/issues/1#issuecomment-257979375"
+      tooltip="Cryptomator's mobile apps are not open-source."
+    %}
+  </li>
+  <li><a href="https://gitlab.com/cryptsetup/cryptsetup/">Linux Unified Key Setup (LUKS)</a> - A full disk encryption system for Linux using dm-crypt as the disk encryption backend. Included by default in Ubuntu. Available for Windows and Linux.</li>
+  <li><a href="https://www.dyne.org/software/tomb/">Tomb</a> - A simple zsh script for making LUKS containers on the commandline.</li>
+  <li><a href="https://hat.sh/">Hat.sh</a> - A cross-platform, serverless JavaScript web application that provides secure file encryption using the AES-256-GCM algorithm in your browser. It can also be downloaded and run offline.</li>
+    <li>
+      <a href="https://kryptor.co.uk/">Kryptor</a> is a file encryption program for Windows, MacOS, and Linux.
+      {% include badge.html
+        color="warning"
+        icon="fas fa-exclamation-triangle"
+        text="Beta"
+        tooltip="As Kryptor is still in beta, it may not be stable."
+      %}
+    </li>
+</ul>

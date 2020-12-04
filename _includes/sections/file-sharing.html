@@ -1,0 +1,46 @@
+<h1 id="filesharing" class="anchor"><a href="#filesharing"><i class="fas fa-link anchor-icon"></i></a> File Sharing</h1>
+
+{% include cardv2.html
+  title="OnionShare"
+  image="/assets/img/svg/3rd-party/onionshare.svg"
+  website="https://onionshare.org/"
+  tor="http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion/"
+  description="OnionShare is an open-source tool that lets you securely and anonymously share a file of any size. It works by starting a web server accessible as a Tor onion service, with an unguessable URL that you can share with the recipients to download or send files."
+  forum="https://forum.privacytools.io/t/discussion-onionshare/754"
+  github="https://github.com/micahflee/onionshare"
+  windows="https://onionshare.org/#downloads"
+  mac="https://onionshare.org/#downloads"
+  linux="https://onionshare.org/#downloads"
+  freebsd="https://www.freshports.org/www/onionshare/"
+  openbsd="http://openports.se/net/onionshare"
+%}
+
+{% include cardv2.html
+  title="Magic Wormhole"
+  image="/assets/img/png/3rd-party/magic_wormhole.png"
+  website="https://magic-wormhole.readthedocs.io"
+  description="Magic Wormhole is a package that provides a library and a command-line tool named wormhole, which makes it possible to get arbitrary-sized files and directories (or short pieces of text) from one computer to another. Their motto: \"Get things from one computer to another, safely.\""
+  forum="https://forum.privacytools.io/t/discussion-magic-wormhole/756"
+  github="https://github.com/warner/magic-wormhole"
+  windows="https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation"
+  mac="https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation"
+  linux="https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation"
+  freebsd="https://www.freshports.org/net/py-magic-wormhole/"
+  openbsd="https://pypi.org/project/magic-wormhole/"
+  netbsd="https://pypi.org/project/magic-wormhole/"
+%}
+
+<h3>Worth Mentioning</h3>
+
+<ul>
+  <li><a href="https://framadrop.org/">FramaDrop</a> - Stores a file of any size for 24h. Data is end-to-end encrypted from your browser, powered by <a href="https://framagit.org/fiat-tux/hat-softwares/lufi">LuFi</a>.
+    {% include badge.html
+    color="warning"
+    icon="fas fa-exclamation-triangle"
+    link="https://framasoft.org/en/cgu/"
+    tooltip="FramaDrop logs IP addresses and fingerprints the browser for an unclear amount of time."
+    %}
+  </li>
+  <li><a href="https://github.com/schollz/croc">croc</a> - Easily and securely send arbitrary-sized files from one computer to another. Similar to Magic Wormhole but without dependencies.</li>
+  <li><a href="https://freedombox.org/">FreedomBox</a> - Designed to be your own inexpensive server at home. It runs free software and offers an increasing number of services ranging from a calendar or XMPP server, to a wiki, or VPN.</li>
+</ul>

@@ -1,0 +1,15 @@
+font_name: ptio-font
+css_selector: .ptio-{{glyph}}
+preprocessor_path: ""
+autowidth: false
+no_hash: true
+force: false
+debug: false
+quiet: false
+
+input:
+  vectors: svg
+
+output:
+  fonts: assets/webfonts
+  css: _sass

@@ -1,0 +1,113 @@
+==================================================================
+https://keybase.io/privacytools
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://privacytools.io
+  * I am privacytools (https://keybase.io/privacytools) on keybase.
+  * I have a public key ASAkK34bChwgcSbs249aVEhWUYhfn9PYB0yx8y5hZEdLIAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120242b7e1b0a1c207126ecdb8f5a54485651885f9fd3d8074cb1f32e6164474b200a",
+      "host": "keybase.io",
+      "kid": "0120242b7e1b0a1c207126ecdb8f5a54485651885f9fd3d8074cb1f32e6164474b200a",
+      "uid": "81b38301543203013da707b866f13619",
+      "username": "privacytools"
+    },
+    "merkle_root": {
+      "ctime": 1554941326,
+      "hash": "398a76706f68401cae4b733ff7c2bd7ad2fb40598604dd10f49a1f04db1173b26caf1c0bd480689d3d5f30c6b60190a69edc76e62d7ad1c16e19e0432c16b21e",
+      "hash_meta": "ee549365960473d4eec7331ecf3de0e38340c44a4ee61898ca542940b2e2d765",
+      "seqno": 5139256
+    },
+    "service": {
+      "entropy": "mEBRbFG3gU9gRt24VacvKVGm",
+      "hostname": "privacytools.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.2.1"
+  },
+  "ctime": 1554941350,
+  "expire_in": 504576000,
+  "prev": "9947a42be64540ab809b87df765f3139cedbada82ae04012e97c94060fbed4f8",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgJCt+GwocIHEm7NuPWlRIVlGIX5/T2AdMsfMuYWRHSyAKp3BheWxvYWTESpcCFMQgmUekK+ZFQKuAm4ffdl8xOc7bragq4EAS6XyUBg++1PjEIDwvpOGptD6jbBIm52/LR9l4T2xslWcgKtq6zH2HvOGKAgHCo3NpZ8RAeFaHjsUF7kqDas46rMXC1KDIJE520BD57OMws6dnJxbMmJf8O3rRNrLCineR5vpetxjtxGYrhmTWPtgSyYQhD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGJSitnvAgdVMG+AyewIHT4cBbbWjGh4/cesl/uzqfQZo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/privacytools
+
+==================================================================
+
+==================================================================
+https://keybase.io/jonaharagon
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://privacytools.io
+  * I am jonaharagon (https://keybase.io/jonaharagon) on keybase.
+  * I have a public key ASBD2KZniUf0KM-4GzlgrMnnJzEg54hDvlsnGRExgP2IfAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01014354fcf62ba0752c5ceb6175fbecef4205b22adc102cb9f4963546960039f9c20a",
+      "host": "keybase.io",
+      "kid": "012043d8a6678947f428cfb81b3960acc9e7273120e78843be5b2719113180fd887c0a",
+      "uid": "3164c4d37d2d2bea011091787d7bc119",
+      "username": "jonaharagon"
+    },
+    "merkle_root": {
+      "ctime": 1554921408,
+      "hash": "3e5c007341d4b02dbe29217419189fa111e0dda3c3e9749540f98e85d769fdc7f0587228446bebc9d114535e75c7fbe2d81dbf1d6a9998add9a9b661eabccffa",
+      "hash_meta": "d346ffeac7eb4a94ff2cd518a27ed5cb745933316b4a9e91f102fd0c01118a63",
+      "seqno": 5137134
+    },
+    "service": {
+      "entropy": "3MGOPdt1pbQJ3jJphywjT9e9",
+      "hostname": "privacytools.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.2.1"
+  },
+  "ctime": 1554921422,
+  "expire_in": 504576000,
+  "prev": "0c6f534ada5683036a1cd98291a995386925a572742e1aa43b2eb20394879ae3",
+  "seqno": 159,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgQ9imZ4lH9CjPuBs5YKzJ5ycxIOeIQ75bJxkRMYD9iHwKp3BheWxvYWTES5cCzJ/EIAxvU0raVoMDahzZgpGplThpJaVydC4apDsusgOUh5rjxCBbnzb214v7MAMQHsGX2UxkYOPGr+WPD0WitCcDTTHkbQIBwqNzaWfEQByeB7GH1rHDvmFL8OZTS7xZ7oq8nbt/ZKJK8mFYoV0rym4akSdPiuzwP013lSH9msC3PhzpWSSTCmZk7OITtQGoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBSTSnkhCA3soIAlMBA5R2DIINdDx0mk1xlj07KqwrwIKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jonaharagon
+
+==================================================================

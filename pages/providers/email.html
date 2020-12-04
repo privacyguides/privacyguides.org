@@ -1,0 +1,270 @@
+---
+layout: page
+permalink: /providers/email/
+title: "Private Email Providers"
+description: "Find a secure email provider that will keep your privacy in mind. Don't settle for ad-supported platforms. Never trust any company with your privacy, always encrypt."
+---
+
+{% include sections/email-warning.html %}
+
+{% include sections/email-providers.html %}
+
+<hr>
+<h1 id="criteria" class="anchor"><a href="#criteria"><i class="fas fa-link anchor-icon"></i></a> Our Email Provider Criteria</h1>
+
+<p><strong>Please note we are not affiliated with any of the providers we recommend. This allows us to provide completely objective recommendations.</strong> We have developed a clear set of requirements for any Email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an Email provider, and conduct your own research to ensure the Email provider you choose is the right choice for you.</p>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h3>{% include badge.html color="info" text="Jurisdiction" %}</h3>
+      <p>Operating outside the five/nine/fourteen-eyes countries is not necessarily a guarantee of privacy, and there are other factors to consider. However, we believe that avoiding these countries is important if you wish to avoid mass government dragnet surveillance, especially from the United States. Read our page on <a href="/providers/#ukusa">global mass surveillance and avoiding the US and UK</a> to learn more about why we feel this is important.</p>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Minimum to Qualify:</strong></p>
+      <ul>
+        <li>Operating outside the USA or other Five Eyes countries.</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Best Case:</strong></p>
+      <ul>
+        <li>Operating outside the USA or other Fourteen Eyes countries.</li>
+        <li>Operating inside a country with strong consumer protection laws.</li>
+      </ul>
+    </div>
+
+    <div class="col-12">
+      <h3>{% include badge.html color="info" text="Technology" %}</h3>
+      <p>We regard these features as important in order to provide a safe and optimal service to users. Users should consider the provider which has the features they require.</p>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Minimum to Qualify:</strong></p>
+      <ul>
+        <li>Encrypts account data at rest.</li>
+        <li>Integrated webmail encryption provides convenience to users who want improve on having no <a href="https://en.wikipedia.org/wiki/End-to-end_encryption">E2EE</a> encryption.</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Best Case:</strong></p>
+      <ul>
+        <li>Encrypts account data at rest with zero-access encryption.</li>
+        <li>Allow users to use their own <a href="https://en.wikipedia.org/wiki/Domain_name">domain name</a>. Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad, be acquired by another company which doesn't prioritize privacy etc.</li>
+        <li>Support for <a href="https://wiki.gnupg.org/WKD">WKD</a> to allow improved discovery of public OpenPGP keys via HTTP. <br> GnuPG users can get a key by typing: <code>gpg --locate-key example_user@example.com</code></li>
+        <li>Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.</li>
+        <li>Availability of the email provider's services via an <a href="https://en.wikipedia.org/wiki/.onion">onion service</a>.</li>
+        <li><a href="https://en.wikipedia.org/wiki/Email_address#Subaddressing">Subaddressing</a> support.</li>
+        <li><a href="https://en.wikipedia.org/wiki/Email_filtering">Catch all</a> or <a href="https://en.wikipedia.org/wiki/Email_alias">aliases</a> for users who own their own domains.</li>
+        <li>Use of standard email access protocols such as <a href="https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol">IMAP</a>, <a href="https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol">SMTP</a> or <a href="https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol">JMAP</a>. Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.</li>
+      </ul>
+    </div>
+
+    <div class="col-12">
+      <h3>{% include badge.html color="info" text="Privacy" %}</h3>
+      <p>We prefer our recommended providers to collect as little data as possible.</p>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Minimum to Qualify:</strong></p>
+      <ul>
+        <li>Protect sender's IP address. Filter it from showing in the <code>Received</code> header field.</li>
+        <li>Don't require personally identifiable information (PII) besides username and password.</li>
+        <li>Privacy policy that meets the requirements defined by the GDPR</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Best Case:</strong></p>
+      <ul>
+        <li>Accepts Bitcoin, cash, and other forms of cryptocurrency and/or anonymous payment options (gift cards, etc.)</li>
+      </ul>
+    </div>
+
+    <div class="col-12">
+      <h3>{% include badge.html color="info" text="Security" %}</h3>
+      <p>Email servers deal with a lot of very sensitive data. We expect that providers will adopt best industry practices in order to protect their users.</p>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Minimum to Qualify:</strong></p>
+      <ul>
+        <li>Protection of webmail with <a href="https://en.wikipedia.org/wiki/Multi-factor_authentication">two-factor authentication (2FA)</a>, such as <a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm">TOTP</a>.</li>
+        <li>Encryption at rest, (e.g. <a href="https://en.wikipedia.org/wiki/dm-crypt">dm-crypt</a>) this protects the contents of the servers in case of unlawful seizure.</li>
+        <li><a href="https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions">DNSSEC</a> support.</li>
+        <li>No <a href="https://en.wikipedia.org/wiki/Opportunistic_TLS">TLS</a> errors/vulnerabilities when being profiled by tools such as <a href="https://www.hardenize.com">Hardenize</a>, <a href="https://testssl.sh">testssl.sh</a> or <a href="https://www.ssllabs.com/ssltest">Qualys SSL Labs</a>, this includes certificate related errors, poor or weak ciphers suites, weak DH parameters such as those that led to <a href="https://en.wikipedia.org/wiki/Logjam_(computer_security)">Logjam</a>.</li>
+        <li>A valid <a href="https://tools.ietf.org/html/rfc8461">MTA-STS</a> and <a href="https://tools.ietf.org/html/rfc8460">TLS-RPT</a> policy.</li>
+        <li>Valid <a href="https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities">DANE</a> records.</li>
+        <li>Valid <a href="https://en.wikipedia.org/wiki/Sender_Policy_Framework">SPF</a>, <a href="https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail">DKIM</a> and <a href="https://en.wikipedia.org/wiki/DMARC">DMARC</a>, with the policy <code>p</code> value set to either <code>none</code>, <code>quarantine</code> or <code>reject</code>.</li>
+        <li>A server suite preference of TLS 1.2 or later and a plan for <a href="https://datatracker.ietf.org/doc/draft-ietf-tls-oldversions-deprecate/">Deprecating TLSv1.0 and TLSv1.1</a>.</li>
+        <li><a href="https://en.wikipedia.org/wiki/SMTPS">SMTPS</a> submission, assuming SMTP is used.</li>
+        <li>Website security standards such as:</li>
+          <ul>
+            <li><a href="https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security">HTTP Strict Transport Security</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Subresource_Integrity">Subresource Integrity</a> if loading things from external domains.</li>
+          </ul>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Best Case:</strong></p>
+      <ul>
+        <li>Support for hardware authentication, ie <a href="https://en.wikipedia.org/wiki/Universal_2nd_Factor">U2F</a> and <a href="https://en.wikipedia.org/wiki/WebAuthn">WebAuthn</a>. U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate users, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated <a href="https://en.wikipedia.org/wiki/Domain_name">domain name</a>.</li>
+        <li>Zero access encryption, builds on encryption at rest. The difference being the provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.</li>
+        <li><a href="https://tools.ietf.org/html/rfc6844">DNS Certification Authority Authorization (CAA) Resource Record</a> in addition to DANE support.</li>
+        <li>Implementation of <a href="https://en.wikipedia.org/wiki/Authenticated_Received_Chain">Authenticated Received Chain (ARC)</a>, this is useful for users who post to mailing lists <a href="https://tools.ietf.org/html/rfc8617">RFC8617</a>.</li>
+        <li>Bug-bounty programs and/or a coordinated vulnerability-disclosure process.</li>
+        <li>Website security standards such as:</li>
+          <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Content_Security_Policy">Content Security Policy (CSP)</a></li>
+            <li><a href="https://datatracker.ietf.org/doc/draft-ietf-httpbis-expect-ct">Expect-CT</a></li>
+          </ul>
+      </ul>
+    </div>
+
+    <div class="col-12">
+      <h3>{% include badge.html color="info" text="Trust" %}</h3>
+      <p>You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.</p>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Minimum to Qualify:</strong></p>
+      <ul>
+        <li>Public-facing leadership or ownership.</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Best Case:</strong></p>
+      <ul>
+        <li>Public-facing leadership.</li>
+        <li>Frequent transparency reports.</li>
+      </ul>
+    </div>
+
+    <div class="col-12">
+      <h3>{% include badge.html color="info" text="Marketing" %}</h3>
+      <p>With the email providers we recommend we like to see responsible marketing.</p>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Minimum to Qualify:</strong></p>
+      <ul>
+          <li>Must self host analytics (no Google Analytics etc). The provider's site must also comply with <a href="https://en.wikipedia.org/wiki/Do_Not_Track">DNT (Do Not Track)</a> for those users who want to opt-out.</li>
+      </ul>
+      <p>Must not have any marketing which is irresponsible:</p>
+        <ul>
+          <li>Claims of "unbreakable encryption". Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.</li>
+          <li>Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know users can quite easily deanonymize themselves in a number of ways, e.g.:</li>
+          <ul>
+            <li>Reusing personal information e.g. (email accounts, unique pseudonyms etc) that they accessed without anonymity software (Tor, VPN etc)</li>
+            <li><a href="/browsers/#fingerprint">Browser fingerprinting</a></li>
+          </ul>
+        </ul>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Best Case:</strong></p>
+      <ul>
+        <li>Clear and easy to read documentation. This includes things like, setting up 2FA, email clients, OpenPGP, etc.</li>
+      </ul>
+    </div>
+
+    <div class="col-12">
+      <h3>{% include badge.html color="info" text="Additional Functionality" %}</h3>
+      <p>While not strictly requirements, there are some factors we looked into when determining which providers to recommend.</p>
+    </div>
+  </div>
+</div>
+<hr>
+
+<h1 id="email-encryption" class="anchor"><a href="#email-encryption"><i class="fas fa-link anchor-icon"></i></a> Email encryption</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h3>What is end-to-end encryption (E2EE) encryption in email?</h3>
+      <p><a href="https://en.wikipedia.org/wiki/End-to-end_encryption">End-to-end encryption (E2EE)</a> is a way of encrypting email contents so that nobody but the recipient(s) can read the email message.</p>
+      <h3>How can I encrypt my email?</h3>
+      <p>The standard way to do email E2EE and have it work between different email providers is with <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP">OpenPGP</a>. There are different implementations of the OpenPGP standard, the most common being <a href="https://en.wikipedia.org/wiki/GNU_Privacy_Guard">GnuPG</a> and <a href=https://openpgpjs.org>OpenPGP.js</a>.</p>
+      <p>There is another standard that was popular with business called <a href="https://en.wikipedia.org/wiki/S/MIME">S/MIME</a>, however it requires a certificate issued from a <a href="https://en.wikipedia.org/wiki/Certificate_authority">Certificate Authority</a> (not all of them issue S/MIME certificates). It has support in <a href="https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731">Google Workplace</a> and <a href="https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480">Outlook for Web or Exchange Server 2016, 2019</a>.</p>
+      <h3>What software can I use to get E2EE?</h3>
+      <p>Email providers which allow you to use standard access protocols like <a href="https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol">IMAP</a> and <a href="https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol">SMTP</a> can be used with any of the <a href="/software/email/">email clients we recommend</a>. This can be less secure as you are now relying on email providers to ensure that their encryption implementation works and has not been compromised in anyway.</p>
+    </div>
+    <div class="col-md-6">
+      <h3>How do I protect my private keys?</h3>
+      <p>A smartcard (such as a <a href="https://support.yubico.com/support/solutions/articles/15000006420-using-your-yubikey-with-openpgp">Yubikey</a> or <a href="https://www.nitrokey.com">Nitrokey</a>) works by receiving an encrypted email message from a device (phone, tablet, computer etc) running an email/webmail client. The message is then decrypted by the smartcard and the decrypted content is sent back to the device.</p>
+      <p>It is advantageous for the decryption to occur on the smartcard so as to avoid possibly exposing your private key to a compromised device.</p>
+    </div>
+  </div>
+</div>
+
+<h1 id="metadata" class="anchor"><a href="#metadata"><i class="fas fa-link anchor-icon"></i></a> Email metadata</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h3>Who can see the email metadata?</h3>
+      <p>Email metadata is able to be seen by your email client software (or webmail) and any servers relaying the message from you to any recipients. Sometimes email servers will also use external parties to protect against spam.</p>
+      <h3>What is email metadata?</h3>
+      <p>Email software will often show some visible headers that you may have seen such as: <code>To</code>, <code>From</code>, <code>Cc</code>, <code>Date</code>, <code>Subject</code>.
+      </p>
+      <h3>When is email metadata used?</h3>
+      <p>Client software may use it to show who a message is from and what time it was received. Servers may use it to determine where an email message must be sent, among <a href="https://en.wikipedia.org/wiki/Email#Message_header">other purposes</a> not transparent to the user.</p>
+    </div>
+    <div class="col-md-6">
+      <h3>Where is the email metadata?</h3>
+      <p>Email metadata is stored in the <a href="https://en.wikipedia.org/wiki/Email#Message_header">message header</a> of the email message.</p>
+      <h3>Why can't email metadata be E2EE?</h3>
+      <p>Email metadata is crucial to the most basic functionality of email (where it came from, and where it has to go). E2EE was not built into the email protocols originally and is also optional, therefore, only the message content is protected.</p>
+      <h3>How is my metadata protected?</h3>
+      <p>When emails travel between email providers an encrypted connection is negotiated using <a href="https://en.wikipedia.org/wiki/Opportunistic_TLS">Opportunistic TLS</a>. This protects the metadata from outside observers, but as it is not E2EE, server administrators can snoop on the metadata of an email.</p>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<h1 id="cloaking" class="anchor"><a href="#cloaking"><i class="fas fa-link anchor-icon"></i></a> Email cloaking services</h1>
+<div class="container">
+  <a href="https://anonaddy.com">
+    <img src="/assets/img/svg/3rd-party/anonaddy.svg"
+        data-theme-src="/assets/img/svg/3rd-party/anonaddy-dark.svg"
+         width="180rem" class="img-fluid float-left mr-3"
+         alt="AnonAddy">
+  </a>
+  <br>
+  <p><strong><a href="https://anonaddy.com">AnonAddy</a></strong> lets users create aliases that forward to their email address. Can be self-hosted. <a href="https://github.com/anonaddy/anonaddy">Source code on GitHub</a>.</p>
+  <a href="https://simplelogin.io">
+    <img src="/assets/img/svg/3rd-party/simplelogin.svg"
+         width="180rem" class="img-fluid float-left mr-3"
+         alt="SimpleLogin">
+  </a>
+  <br>
+  <p><strong><a href="https://simplelogin.io">SimpleLogin</a></strong> allows you to easily create aliases for your email. Can be self-hosted. <a href="https://github.com/simple-login/app">Source code on GitHub</a>.</p>
+</div>
+
+<h1 id="selfhosting" class="anchor"><a href="#selfhosting"><i class="fas fa-link anchor-icon"></i></a> Self-hosting Email</h1>
+<div class="container">
+  <p>Advanced users may consider setting up their own email server. Mailservers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.</p>
+  <h3>Combined software solutions</h3>
+  <a href="https://mailinabox.email/">
+    <img src="/assets/img/svg/3rd-party/mail-in-a-box.svg"
+         width="80rem" class="img-fluid float-left mr-3"
+         alt="Mail-in-a-Box">
+  </a>
+  <br>
+  <p><strong><a href="https://mailinabox.email">Mail-in-a-Box</a></strong> is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for users to set up their own mail server.</p>
+  <a href="https://mailcow.email/">
+    <img src="/assets/img/svg/3rd-party/mailcow.svg"
+         width="80rem" class="img-fluid float-left mr-3"
+         alt="Mailcow">
+  </a>
+  <p><strong><a href="https://mailcow.email">Mailcow</a></strong> is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: A mailserver with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support. <strong><a href="https://mailcow.github.io/mailcow-dockerized-docs/">Mailcow Dockerized docs</a></strong></p>
+
+  <p>For a more manual approach we've picked out these two articles.</p>
+    <ul>
+      <li><a href="https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/">Setting up a mail server with OpenSMTPD, Dovecot and Rspamd</a> (2019)</li>
+      <li><a href="https://www.c0ffee.net/blog/mail-server-guide/">How To Run Your Own Mail Server</a> (August 2017)</li>
+    </ul>
+</div>
+
+<h1 id="info" class="anchor"><a href="#info"><i class="fas fa-link anchor-icon"></i></a> Related Email Articles</h1>
+<div class="container">
+  <div class="row">
+    <ul>
+      <li><a href="https://www.grepular.com/An_NFC_PGP_SmartCard_For_Android">An NFC PGP SmartCard For Android</a></li>
+      <li><a href="https://www.wired.com/2011/10/ecpa-turns-twenty-five/">Aging 'Privacy' Law Leaves Cloud E-Mail Open to Cops (2011)</a></li>
+      <li><a href="https://thinkprogress.org/the-government-can-still-read-most-of-your-emails-without-a-warrant-322fe6defc7b/">The Government Can (Still) Read Most Of Your Emails Without A Warrant (2013)</a></li>
+    </ul>
+  </div>
+</div>

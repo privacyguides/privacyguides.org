@@ -1,0 +1,297 @@
+---
+layout: page
+permalink: /providers/vpn/
+title: "VPN Services"
+description: "Find a no-logging VPN operator who isn't out to sell or read your web traffic."
+breadcrumb: "VPN"
+---
+
+<div class="card border-danger">
+  <div class="card-header text-danger"><i class="fas fa-exclamation-circle fa-fw"></i> Warning</div>
+  <div class="card-body">
+    <p class="card-text text-danger">Using a VPN will <strong>not</strong> keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.</p>
+    <p class="card-text text-danger">If you are looking for <strong>anonymity</strong>, you should use the Tor Browser <strong>instead</strong> of a VPN.</p>
+    <p class="card-text text-danger">If you're looking for added <strong>security</strong>, you should always ensure you're connecting to websites using <a href="/providers/dns/#icanndns">encrypted DNS</a> and <a href="https://en.wikipedia.org/wiki/HTTPS">HTTPS</a>. A VPN is not a replacement for good security practices.</p>
+    <p class="card-text text-secondary">If you're looking for additional <strong>privacy</strong> from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you as long as you understand <a href="#info">the risks involved</a>.</p>
+    <a href="https://www.torproject.org/" class="btn btn-danger">Download Tor</a>
+    <a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-1-myth-busting-tor" class="btn btn-outline-danger">Tor Myths &amp; FAQ</a>
+    <a href="#info" class="btn btn-outline-secondary">More Info</a>
+  </div>
+</div>
+
+{% include sections/vpn.html %}
+
+<hr>
+<h1 id="criteria" class="anchor"><a href="#criteria"><i class="fas fa-link anchor-icon"></i></a> Our VPN Provider Criteria</h1>
+
+<p><strong>Please note we are not affiliated with any of the providers we recommend. This allows us to provide completely objective recommendations.</strong> We have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.</p>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h3>{% include badge.html color="info" text="Jurisdiction" %}</h3>
+      <p>Operating outside the five/nine/fourteen-eyes countries is not a guarantee of privacy necessarily, and there are other factors to consider. However, we believe that avoiding these countries is important if you wish to avoid mass government dragnet surveillance, especially from the United States. Read our page on <a href="/providers/#ukusa">global mass surveillance and avoiding the US and UK</a> to learn more about why we feel this is important.</p>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Minimum to Qualify:</strong></p>
+      <ul>
+        <li>Operating outside the USA or other Five Eyes countries.</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Best Case:</strong></p>
+      <ul>
+        <li>Operating outside the USA or other Fourteen Eyes countries.</li>
+        <li>Operating inside a country with strong consumer protection laws.</li>
+      </ul>
+    </div>
+
+    <div class="col-12">
+      <h3>{% include badge.html color="info" text="Technology" %}</h3>
+      <p>We require all our recommended VPN providers to provide OpenVPN configuration files to be used in any client. <strong>If</strong> a VPN provides their own custom client, we require a killswitch to block network data leaks when disconnected.</p>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Minimum to Qualify:</strong></p>
+      <ul>
+        <li>OpenVPN support.</li>
+        <li>Killswitch built in to clients.</li>
+        <li>If VPN clients are provided, they should be <a href="https://en.wikipedia.org/wiki/Open_source">open source</a>, like the VPN software they generally have built into them. We believe that <a href="https://en.wikipedia.org/wiki/Source_code">source code</a> availability provides greater transparency to the user about what their device is actually doing. We like to see these applications <a href="https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html">available in F-Droid</a>.</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Best Case:</strong></p>
+      <ul>
+        <li>OpenVPN and WireGuard support.</li>
+        <li>Killswitch with highly configurable options (enable/disable on certain networks, on boot, etc.)</li>
+        <li>Easy-to-use VPN clients</li>
+        <li>Supports <a href="https://en.wikipedia.org/wiki/IPv6">IPv6</a>. We expect that servers will allow incoming connections via IPv6 and allow users to access services hosted on IPv6 addresses.</li>
+        <li>Capability of <a href="https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding">remote port forwarding</a> assists in creating connections when using P2P (<a href="https://en.wikipedia.org/wiki/Peer-to-peer">Peer-to-Peer</a>) filesharing software, Freenet, or hosting a server (e.g., Mumble).</li>
+      </ul>
+    </div>
+
+    <div class="col-12">
+      <h3>{% include badge.html color="info" text="Privacy" %}</h3>
+      <p>We prefer our recommended providers to collect as little data as possible. Not collecting personal information on registration, and accepting anonymous forms of payment are required.</p>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Minimum to Qualify:</strong></p>
+      <ul>
+        <li>Bitcoin or cash payment option.</li>
+        <li>No personal information required to register: Only username, password, and email at most.</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Best Case:</strong></p>
+      <ul>
+        <li>Accepts Bitcoin, cash, and other forms of cryptocurrency and/or anonymous payment options (gift cards, etc.)</li>
+        <li>No personal information accepted (autogenerated username, no email required, etc.)</li>
+      </ul>
+    </div>
+
+    <div class="col-12">
+      <h3>{% include badge.html color="info" text="Security" %}</h3>
+      <p>A VPN is pointless if it can't even provide adequate security. We require all our recommended providers to abide by current security standards for their OpenVPN connections. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.</p>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Minimum to Qualify:</strong></p>
+      <ul>
+        <li>Strong Encryption Schemes: OpenVPN with SHA-256 authentication; RSA-2048 or better handshake; AES-256-GCM or AES-256-CBC data encryption.</li>
+        <li>Perfect Forward Secrecy (PFS).</li>
+        <li>Published security audits from a reputable third-party firm.</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Best Case:</strong></p>
+      <ul>
+        <li>Strongest Encryption: RSA-4096.</li>
+        <li>Perfect Forward Secrecy (PFS).</li>
+        <li>Comprehensive published security audits from a reputable third-party firm.</li>
+        <li>Bug-bounty programs and/or a coordinated vulnerability-disclosure process.</li>
+      </ul>
+    </div>
+
+    <div class="col-12">
+      <h3>{% include badge.html color="info" text="Trust" %}</h3>
+      <p>You wouldn't trust your finances to someone with a fake identity, so why trust them with your internet data? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.</p>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Minimum to Qualify:</strong></p>
+      <ul>
+        <li>Public-facing leadership or ownership.</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Best Case:</strong></p>
+      <ul>
+        <li>Public-facing leadership.</li>
+        <li>Frequent transparency reports.</li>
+      </ul>
+    </div>
+
+    <div class="col-12">
+      <h3>{% include badge.html color="info" text="Marketing" %}</h3>
+      <p>With the VPN providers we recommend we like to see responsible marketing.</p>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Minimum to Qualify:</strong></p>
+      <ul>
+          <li>Must self host analytics (no Google Analytics etc). The provider's site must also comply with <a href="https://en.wikipedia.org/wiki/Do_Not_Track">DNT (Do Not Track)</a> for those users who want to opt-out.</li>
+      </ul>
+      </li>
+      <p>Must not have any marketing which is irresponsible:</p>
+        <ul>
+          <li>Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know users can quite easily deanonymize themselves in a number of ways, eg:</li>
+          <ul>
+            <li>Reusing personal information eg. (email accounts, unique pseudonyms etc) that they accessed without anonymity software (Tor, VPN etc)</li>
+            <li><a href="https://www.privacytools.io/browsers/#fingerprint">Browser fingerprinting</a></li>
+          </ul>
+          <li>Claim that a single circuit VPN is "more anonymous" than Tor, which is a circuit of 3 or more hops that regularly changes.</a></li>
+          <li>Use responsible language, eg it is okay to say that a VPN is "disconnected" or "not connected", however claiming that a user is "exposed", "vulnerable" or "compromised" is needless use of alarming language that may be incorrect. For example the visiting user might be on another VPN provider's service or using Tor.</li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Best Case:</strong></p>
+      <p>Responsible marketing that is both educational and useful to the consumer could include:</p>
+      <ul>
+        <li>A accurate comparison to when Tor or other <a href="https://www.privacytools.io/software/networks/">Self contained networks</a> should be used.</li>
+        <li>Availability of the VPN provider's website over a .onion <a href="https://en.wikipedia.org/wiki/.onion">Hidden Service</a></li>
+      </ul>
+    </div>
+
+    <div class="col-12">
+      <h3>{% include badge.html color="info" text="Additional Functionality" %}</h3>
+      <p>While not strictly requirements, there are some factors we looked into when determining which providers to recommend. These include adblocking/tracker-blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.</p>
+    </div>
+  </div>
+</div>
+<hr>
+
+<h1 id="info" class="anchor"><a href="#info"><i class="fas fa-link anchor-icon"></i></a> Further Information and Dangers</h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h3>Should I use a VPN?</h3>
+      <p>The answer to this question is not a particularly helpful one: <strong>It depends.</strong> It depends on what you're expecting a VPN to do for you, who you're trying to hide your traffic from, and what applications you're using.</p>
+      <p><strong>In most cases, VPNs do little to protect your privacy or enhance your security</strong>, unless paired with other changes.</p>
+      <p>VPNs cannot encrypt data outside of the connection between your device and the VPN server. VPN providers can see and modify your traffic the same way your ISP could. And there is no way to verify a VPN provider's "no logging" policies in any way.</p>
+      <h3>What if I need encryption?</h3>
+      <p>In most cases, most of your traffic is already encrypted! Over 98% of the top 3000 websites offer <strong>HTTPS</strong>, meaning your non-DNS traffic is safe regardless of using a VPN. It is incredibly rare for applications that handle personal data to not support HTTPS in 2019, especially with services like Let's Encrypt offering free HTTPS certificates to any website operator.</p>
+      <p>Even if a site you visit doesn't support HTTPS, a VPN will not protect you, because a VPN cannot magically encrypt the traffic between the VPN's servers and the website's servers. Installing an extension like <a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a> and making sure every site you visit uses HTTPS is far more helpful than using a VPN.</p>
+      <h4>Should I use encrypted DNS with a VPN?</h4>
+      <p>The answer to this question is also not very helpful: <strong>it depends</strong>. Your VPN provider may have their own DNS servers, but if they don't, the traffic between your VPN provider and the DNS server isn't encrypted. You need to trust the <a href="/providers/dns/#icanndns">encrypted DNS provider</a> in addition to the VPN provider and unless your client and target server support <a href="https://www.eff.org/deeplinks/2018/09/esni-privacy-protecting-upgrade-https">encrypted SNI</a>, the VPN provider can still see which domains you are visiting.</p>
+      <p>However <strong>you shouldn't use encrypted DNS with Tor</strong>. This would direct all of your DNS requests through a single circuit, and would allow the encrypted DNS provider to deanonymize you.</p>
+      <h3>What if I need anonymity?</h3>
+      <p>VPNs cannot provide strong anonymity. Your VPN provider will still see your real IP address, and often has a money trail that can be linked directly back to you. You cannot rely on "no logging" policies to protect your data.</p>
+    </div>
+    <div class="col-md-6">
+      <h3>Shouldn't I hide my IP address?</h3>
+      <p>The idea that your IP address is sensitive information, or that your location is given away with all your internet traffic is <strong>fearmongering</strong> on the part of VPN providers and their marketing. Your IP address is an insignificant amount of personal data tracking companies use to identify you, because many users' IP addresses change very frequently (Dynamic IP addresses, switching networks, switching devices, etc.). Your IP address also does not give away more than the very generalized location of your Internet Service Provider. It does not give away your home address, for example, despite common perception.</p>
+      <h3>Should I use Tor <em>and</em> a VPN?</h3>
+      <p>By using a VPN with Tor, you're creating essentially a permanent entry node, often with a money trail attached. This provides 0 additional benefit to you, while increasing the attack surface of your connection dramatically. If you wish to hide your Tor usage from your ISP or your government, Tor has a built-in solution for that: Tor bridges. <a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-2-onion-recipes-vpn-not-required">Read more about Tor bridges and why using a VPN is not necessary</a>.</p>
+      <h3>Are VPNs ever useful?</h3>
+      <p>A VPN may still be useful to you in a variety of scenarios, such as:</p>
+      <ol>
+        <li>Hiding your traffic from <strong>only</strong> your Internet Service Provider.</li>
+        <li>Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.</li>
+      </ol>
+      <p>For use cases like these, or if you have another compelling reason, the VPN providers we listed above are who we think are the most trustworthy. However, using a VPN provider still means you're <em>trusting</em> the provider. In pretty much any other scenario you should be using a secure<strong>-by-design</strong> tool such as Tor.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <p><strong>Sources and Further Reading</strong>:
+        <ol>
+          <li><a href="https://schub.io/blog/2019/04/08/very-precarious-narrative.html">VPN - a Very Precarious Narrative</a> by Dennis Schubert</li>
+          <li><a href="https://gist.github.com/joepie91/5a9909939e6ce7d09e29">Don't use VPN services</a> by Sven Slootweg</li>
+          <li><a href="/software/networks/">The self-contained networks</a> recommended by PrivacyTools are able to replace a VPN that allows access to services on local area network</li>
+          <li><a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-1-myth-busting-tor">Slicing Onions: Part 1 – Myth-busting Tor</a> by blacklight447</li>
+          <li><a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-2-onion-recipes-vpn-not-required">Slicing Onions: Part 2 – Onion recipes; VPN not required</a> by blacklight447</li>
+        </ol>
+      <p>
+    </div>
+  </div>
+
+  <hr>
+
+  <div id="related-vpn-info" class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+        <h3>Related VPN information</h3>
+
+        <ul>
+          <li><a href="https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews/">The Trouble with VPN and Privacy Review Sites</a></li>
+          <li><a href="https://vikingvpn.com/blogs/off-topic/beware-of-vpn-marketing-and-affiliate-programs">Beware of False Reviews - VPN Marketing and Affiliate Programs</a></li>
+          <li><a href="https://torrentfreak.com/proxy-sh-vpn-provider-monitored-traffic-to-catch-hacker-130930/">Proxy.sh VPN Provider Sniffed Server Traffic to Catch Hacker</a></li>
+          <li><a href="https://proxy.sh/panel/knowledgebase.php?action=displayarticle&id=5">Ethical policy - All of the reasons why Proxy.sh might enable logging</a></li>
+          <li><a href="https://www.ivpn.net/privacy">IVPN.net will collect your email and IP address after sign up</a><br />Read the <a data-toggle="tooltip" data-placement="top" data-original-title="The IP collected at signup is only used for a few seconds by our fraud module and then discarded, it is not stored. Storing them would significantly increase our own liability and certainly would not be in our interest. You're absolutely welcome to signup using Tor or a VPN.">Email statement</a> from IVPN.</li>
+          <li><a href="https://medium.com/@blackVPN/no-logs-6d65d95a3016">blackVPN announced to delete connection logs after disconnection</a></li>
+          <li><a href="https://gist.github.com/kennwhite/1f3bc4d889b02b35d8aa">Don't use LT2P IPSec, use other protocols.</a></li>
+          <li>
+            <a href="https://www.top10vpn.com/free-vpn-app-investigation/">Free VPN App Investigation</a>
+            {% include badge.html
+            color="warning"
+            icon="fas fa-exclamation-triangle"
+            link="https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews"
+            tooltip="This site has affiliate based recommendations. They get paid for referring visitors to specific VPN providers."
+            text="Affiliate program"
+            %}
+          </li>
+          <li>
+            <a href="https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/">Hidden VPN owners unveiled: 101 VPN products run by just 23 companies</a>
+            {% include badge.html
+            color="warning"
+            icon="fas fa-exclamation-triangle"
+            link="https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews"
+            tooltip="This site has affiliate based recommendations. They get paid for referring visitors to specific VPN providers."
+            text="Affiliate program"
+            %}
+          </li>
+          <li>
+            <a href="https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/">This Chinese company is secretly behind 24 popular apps seeking dangerous permissions</a>
+            {% include badge.html
+            color="warning"
+            icon="fas fa-exclamation-triangle"
+            link="https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews"
+            tooltip="This site has affiliate based recommendations. They get paid for referring visitors to specific VPN providers."
+            text="Affiliate program"
+            %}
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div id="vpn-breaches" class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+        <h3>VPN Related breaches - why external auditing is important!</h3>
+
+        <ul>
+          <li><a href="https://www.comparitech.com/blog/vpn-privacy/ufo-vpn-data-exposure/">"Zero logs" VPN exposes millions of logs including user passwords, claims data is anonymous</a> July 2020 </li>
+          <li><a href="https://www.zdnet.com/article/nordvpn-http-post-bug-exposed-sensitive-customer-information/">NordVPN HTTP POST bug exposed customer information, no authentication required</a> March 2020</li>
+          <li><a href="https://www.theregister.com/2019/10/21/nordvpn_security_issue/">Row erupts over who to blame after NordVPN says: One of our servers was hacked via remote management tool</a> October 2019</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-12">
+      <h3>Related Videos</h3>
+        <a href="https://invidiou.site/watch?v=WVDQEoe6ZWY" target="_blank">
+          <img
+            src="/assets/img/png/layout/this-video-is-sponsored-by-vpn.png"
+            class="img-fluid float-left mr-3"
+            alt="This Video Is Sponsored By censored VPN">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
