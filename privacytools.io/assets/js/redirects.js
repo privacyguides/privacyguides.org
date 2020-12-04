@@ -21,7 +21,7 @@ if (window.location == 'https://www.privacytools.io/#mycloud') {	window.location
 if (window.location == 'https://www.privacytools.io/#sync') {	window.location = 'https://www.privacytools.io/software/file-sync/';}
 if (window.location == 'https://www.privacytools.io/#pw') {	window.location = 'https://www.privacytools.io/software/passwords/';}
 if (window.location == 'https://www.privacytools.io/#calendar_contacts') {	window.location = 'https://www.privacytools.io/software/calendar-contacts/';}
-if (window.location == 'https://www.privacytools.io/#encrypt') {	window.location = 'https://www.privacytools.io/software/encryption-tools/';}
+if (window.location == 'https://www.privacytools.io/#encrypt') {	window.location = 'https://www.privacytools.io/software/productivity/#encrypt';}
 if (window.location == 'https://www.privacytools.io/#darknets') {	window.location = 'https://www.privacytools.io/software/networks/';}
 if (window.location == 'https://www.privacytools.io/#notebook') {	window.location = 'https://www.privacytools.io/software/notebooks/';}
 if (window.location == 'https://www.privacytools.io/#productivity') {	window.location = 'https://www.privacytools.io/software/productivity/';}
