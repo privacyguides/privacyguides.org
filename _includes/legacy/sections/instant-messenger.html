@@ -20,9 +20,9 @@
 <p>Centralized messengers are those where every participant is on the same server or network of servers controlled by the same organization.</p>
 
 {%
-  include cardv2.html
+  include legacy/cardv2.html
   title="Signal"
-  image="/assets/img/svg/3rd-party/signal.svg"
+  image="/assets/img/legacy_svg/3rd-party/signal.svg"
   description='Signal is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling. All communications are E2EE unless you choose to send as SMS. Its protocol has also been <a href="https://eprint.iacr.org/2016/1013.pdf">indepedently audited (PDF)</a>'
   labels="color==warning::text==Requires phone number::tooltip==Signal requires your phone number as an personal identifier which means anyone you communicate with will see it.|text==VoIP"
   website="https://signal.org/"
@@ -70,9 +70,9 @@
   <p>Federated messengers use multiple, independent servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.</p>
 
 {%
-  include cardv2.html
+  include legacy/cardv2.html
   title="Element"
-  image="/assets/img/svg/3rd-party/element.svg"
+  image="/assets/img/legacy_svg/3rd-party/element.svg"
   description='<a href="https://element.io">Element</a> (formerly <a href="https://element.io/blog/welcome-to-element/">Riot</a>) is the reference client for the <a href="https://matrix.org/docs/guides/introduction">Matrix</a> network. The <a href="https://matrix.org/docs/spec">Matrix open standard</a> is an open-source standard for secure, decentralized, real-time communication.'
   labels="text==VoIP"
   website="https://element.io"
@@ -128,9 +128,9 @@
   <p>Peer-to-Peer instant messengers connect directly to each other without requiring third-party servers. Clients (peers) usually find each other through the use of a <a href="https://en.wikipedia.org/wiki/Distributed_computing">distributed computing</a> network. Examples of this include <a href="https://en.wikipedia.org/wiki/Distributed_hash_table">DHT (distributed hash table)</a> (used with technologies like <a href="https://en.wikipedia.org/wiki/BitTorrent_(protocol)">torrents</a> and <a href="https://en.wikipedia.org/wiki/InterPlanetary_File_System">IPFS</a>, for example). Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the <a href="https://www.scuttlebutt.nz">Scuttlebutt</a> social networking protocol). Once a peer has found a route to its contact via any of these methods, a direct connection between them is made.</p>
 
 {%
-  include cardv2.html
+  include legacy/cardv2.html
   title="Briar"
-  image="/assets/img/svg/3rd-party/briar.svg"
+  image="/assets/img/legacy_svg/3rd-party/briar.svg"
   description="Encrypted instant messenger that connects to contacts via Wi-Fi, Bluetooth, or Tor over the internet to synchronize messages. Technology such as this has proven to be useful when Internet availability is an issue, such as in times of crisis."
   website="https://briarproject.org"
   privacy-policy="https://briarproject.org/privacy-policy/"
@@ -141,9 +141,9 @@
 %}
 
 {%
-  include cardv2.html
+  include legacy/cardv2.html
   title="Jami"
-  image="/assets/img/svg/3rd-party/jami.svg"
+  image="/assets/img/legacy_svg/3rd-party/jami.svg"
   description="Encrypted instant messaging and video calling software. All communications are E2EE using <a href=//jami.net/improving-performance-and-security-with-tls-1-3/>TLS 1.3</a> and never stored elsewhere than on user's devices, even when <a href=//jami.net/why-is-jami-truly-distributed/>TURN servers are used</a>."
   labels="color==warning::link==https://git.jami.net/savoirfairelinux/ring-project/issues/765::text==Warning::tooltip==This software is partially centralized but can be self-hosted.|text==VoIP"
   website="https://jami.net/"

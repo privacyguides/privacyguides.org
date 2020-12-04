@@ -4,9 +4,9 @@
   <strong>If you are currently browsing <a href="https://en.wikipedia.org/wiki/Surface_Web">clearnet</a> and want to access the <a href="https://en.wikipedia.org/wiki/Dark_web">dark web</a>, this section is for you.</strong>
 </div>
 
-{% include cardv2.html
+{% include legacy/cardv2.html
   title="Tor"
-  image="/assets/img/svg/3rd-party/tor.svg"
+  image="/assets/img/legacy_svg/3rd-party/tor.svg"
   description="The Tor network is a group of volunteer-operated servers that allows people to improve their privacy and security on the Internet. Tor's users employ this network by connecting through a series of virtual tunnels rather than making a direct connection, thus allowing both organizations and individuals to share information over public networks without compromising their privacy. Tor is an effective censorship circumvention tool."
   website="https://www.torproject.org/"
   tor="http://expyuzz4wqqyqhjn.onion"
@@ -23,10 +23,10 @@
   git="https://gitweb.torproject.org/tor.git"
 %}
 
-{% include cardv2.html
+{% include legacy/cardv2.html
   title="I2P Anonymous Network"
-  image="/assets/img/svg/3rd-party/i2p.svg"
-  image-dark="/assets/img/svg/3rd-party/i2p-dark.svg"
+  image="/assets/img/legacy_svg/3rd-party/i2p.svg"
+  image-dark="/assets/img/legacy_svg/3rd-party/i2p-dark.svg"
   description="The Invisible Internet Project (I2P) is a computer network layer that allows applications to send messages to each other pseudonymously and securely. Uses include anonymous Web surfing, chatting, blogging, and file transfers. The software that implements this layer is called an I2P router and a computer running I2P is called an I2P node. The software is free and open-source and is published under multiple licenses."
   website="https://geti2p.net/"
   forum="https://forum.privacytools.io/t/discussion-i2p/1590"
@@ -43,9 +43,9 @@
   source="https://geti2p.net/en/get-involved/guides/new-developers#getting-the-i2p-code"
 %}
 
-{% include cardv2.html
+{% include legacy/cardv2.html
   title="The Freenet Project"
-  image="/assets/img/svg/3rd-party/freenet.svg"
+  image="/assets/img/legacy_svg/3rd-party/freenet.svg"
   description="Freenet is a peer-to-peer platform for censorship-resistant communication. It uses a decentralized distributed data store to keep and deliver information, and has a suite of free software for publishing and communicating on the Web without fear of censorship. Both Freenet and some of its associated tools were originally designed by Ian Clarke, who defined Freenet's goal as providing freedom of speech on the Internet with strong anonymity protection."
   website="https://freenetproject.org/"
   forum="https://forum.privacytools.io/t/discussion-freenet/1591"
@@ -63,7 +63,7 @@
 <ul>
   <li>
     <a href="https://zeronet.io/">ZeroNet</a> - Open, free, and uncensorable websites, using Bitcoin cryptography and BitTorrent network.
-    {% include badge.html
+    {% include legacy/badge.html
     color="danger"
     icon="fas fa-exclamation-triangle"
     tooltip="Your IP address isn't hidden by default and won't be, unless you enforce Tor usage."
@@ -75,7 +75,7 @@
   <li><a href="https://gnunet.org/">GNUnet</a> - GNUnet provides a strong foundation of free software for a global, distributed network that provides security and privacy.</li>
   <li>
     <a href="https://ipfs.io/">IPFS</a> <em>and</em> <a href="https://github.com/ipfs-shipyard/ipfs-companion">IPFS Companion</a>- A peer-to-peer hypermedia protocol to make the web faster, safer, and more open. IPFS Companion is a browser extension for redirecting queries to a gateway of your choice (generally local).
-    {% include badge.html
+    {% include legacy/badge.html
     color="warning"
     icon="fas fa-exclamation-triangle"
     link="https://github.com/privacytools/privacytools.io/pull/361#issuecomment-344414022"
@@ -86,13 +86,13 @@
     <a href="https://yggdrasil-network.github.io/">Yggdrasil</a>
     - An early-stage implementation of a fully end-to-end encrypted IPv6 network. It is lightweight, self-arranging, supported on multiple platforms, and allows pretty much any IPv6-capable application to communicate securely with other Yggdrasil nodes. Yggdrasil does not require you to have IPv6 Internet connectivity - it also works over IPv4.
 
-    {% include badge.html
+    {% include legacy/badge.html
     color="warning"
     icon="far fa-question-circle"
     tooltip="The project is currently in early stages but it is being actively developed."
     text="Experimental"
     %}
-    {% include badge.html
+    {% include legacy/badge.html
     color="danger"
     icon="fas fa-exclamation-triangle"
     link=""
