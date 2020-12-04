@@ -23,10 +23,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.privacyguides.org" # the base hostname & protocol for your site, e.g. http://example.com
 sass:
     sass_dir: _sass
-colors:
-  link: "#C98806"
-  primary: "#FFD06F"
-  secondary: "#28323F"
 excerpt_separator: <!--more-->
 collections_dir: collections
 collections:

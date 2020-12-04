@@ -1,12 +1,14 @@
 ---
 ---
 $theme-colors: (
-  "primary": {{ site.colors.primary }},
-  "secondary": {{ site.colors.secondary }}
+  "primary": #FFD06F,
+  "secondary": #3913B8,
+  "info": #C5B6FF,
+  "success": #b6ffb8
 );
 
-$body-color: {{ site.colors.secondary }};
-$link-color: {{ site.colors.link }};
+$body-color: #28323F;
+$link-color: #3913B8;
 
 .container-fullwidth {
   margin: 0 auto;
@@ -40,14 +42,14 @@ $share-btn-hover:     #eee;
 $share-btn-active:    #e2e2e2;
 
 /* Social */
-$twitter:             {{ site.colors.primary }};
-$mastodon:            {{ site.colors.primary }};
-$facebook:            {{ site.colors.primary }};
-$mix:                 {{ site.colors.primary }};
-$reddit:              {{ site.colors.primary }};
-$linkedin:            {{ site.colors.primary }};
-$email:               {{ site.colors.primary }};
-$diaspora:            {{ site.colors.primary }};
+$twitter:             #FFD06F;
+$mastodon:            #FFD06F;
+$facebook:            #FFD06F;
+$mix:                 #FFD06F;
+$reddit:              #FFD06F;
+$linkedin:            #FFD06F;
+$email:               #FFD06F;
+$diaspora:            #FFD06F;
 $tor:                 #7d4698;
 
 // import /_sass/bootstrap.scss
