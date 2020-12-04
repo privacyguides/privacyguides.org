@@ -1,21 +1,23 @@
 ---
 layout: page
-permalink: /privacy/
+permalink: /privacy-policy/
 title: "Privacy Q&amp;A"
 description: "This Privacy Statement explains what information Privacy Guides and its related entities collect about its users, what we do with that information, and how we handle the content you place in our products and services."
 ---
 
-## Who is {{ site.name }}?
+## Who is Privacy Guides?
 
-{{ site.name }} is an unincorporated community developing this website and a number of privacy-friendly services. The current list of public team members [can be found on GitHub](https://github.com/orgs/privacytools/people). In order to operate these services, {{ site.name }} receives hosting and administration services from Aragon Ventures LLC.
+Privacy Guides community project currently under the stewardship of Aragon Ventures LLC, a Minnesota corporation, which develops this website and a number of privacy-friendly services alongside a number of active contributors. The current list of public team members [can be found on GitHub](https://github.com/orgs/privacyguides/people). Aragon Ventures LLC operates internet services and handles the financials of this project.
 
-## How does {{ site.name }} collect data about me?
+In the future, Privacy Guides will be an independently operated non-profit organization.
+
+## How does Privacy Guides collect data about me?
 
 We collect data:
 
-* When you browse a website, forum, or other {{ site.name }} service.
-* When you create an account on a {{ site.name }} service.
-* When you post, send private messages, or otherwise participate on a {{ site.name }} service.
+* When you browse a website, forum, or other Privacy Guides service.
+* When you create an account on a Privacy Guides service.
+* When you post, send private messages, or otherwise participate on a Privacy Guides service.
 
 This data will be collected regardless of browser, device, or app used to access our services. We do not buy or otherwise receive data from data brokers.
 
@@ -23,7 +25,7 @@ This data will be collected regardless of browser, device, or app used to access
 
 ### We collect data about visits to our websites.
 
-When you visit a {{ site.name }} website or service, regardless of whether you have an account or not, the website may use cookies, server logs, and other methods to collect the following data:
+When you visit a Privacy Guides website or service, regardless of whether you have an account or not, the website may use cookies, server logs, and other methods to collect the following data:
 
 * What pages you visit,
 * Your anonymized IP address: We anonymize the last 3 bytes of your IP, e.g. 192.xxx.xxx.xxx.
@@ -59,15 +61,15 @@ We will store your account data as long as your account remains open. After clos
 
 ## Who is my data shared with?
 
-When you use services provided by {{ site.name }} your data is shared with Aragon Ventures LLC, in order to facilitate their hosting obligations. Aragon Ventures LLC may collect and use your data as described in their privacy statement at [https://aragon.ventures/privacy](https://aragon.ventures/privacy/).
+When you use services provided by Privacy Guides your data is processed by Aragon Ventures LLC, in order to facilitate their hosting obligations. Aragon Ventures LLC may collect and use your data as described in their privacy statement at [https://aragon.ventures/privacy](https://aragon.ventures/privacy/).
 
-Your account data, posts, and other activities on {{ site.name }} services is shared with others as mentioned in the section about account data.
+Your account data, posts, and other activities on Privacy Guides services is shared with others as mentioned in the section about account data.
 
 ## Where is my data stored?
 
-Your data is stored on servers provided by Aragon Ventures LLC, a company incorporated in Minnesota, United States. The primary datacenter for {{ site.name }} is located in France. Some websites, services, or backups may reside in datacenters in multiple jurisdictions, including the United States and the European Union.
+The primary datacenter for Privacy Guides is located in Finland. Some websites, services, or backups may reside in datacenters in multiple jurisdictions, including the United States and the European Union.
 
-## Is {{ site.name }} GDPR compliant?
+## Is Privacy Guides GDPR compliant?
 
 We respect privacy rights under [Regulation (EU) 2016/679](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG), the European Union’s General Data Protection Regulation (GDPR). Information that GDPR requires us to give can be found throughout this document.
 
@@ -82,9 +84,9 @@ We would like to make sure you are fully aware of all of your data protection ri
 * **The right to object to processing** – You have the right to object to our processing of your personal data, under certain conditions.
 * **The right to data portability** – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.
 
-## How can I contact the {{ site.name }} team about privacy?
+## How can I contact the Privacy Guides team about privacy?
 
-The {{ site.name }} team generally does not have access to personal data outside of limited access granted via some moderation panels. Inquiries regarding your personal information should be sent directly to the data controller for these services, Aragon Ventures LLC:
+The Privacy Guides team generally does not have access to personal data outside of limited access granted via some moderation panels. Inquiries regarding your personal information should be sent directly to the data controller for these services, Aragon Ventures LLC:
 
 ```
 Jonah Aragon
@@ -101,7 +103,7 @@ Anoka, MN 55303
 United States
 ```
 
-For all other inquiries, you can contact the team via methods described on our [contact page]({{ site.production_url }}/contact/).
+For all other inquiries, you can contact the team via methods described on our [contact page](https://privacyguides.org/contact/).
 
 For complaints under GDPR more generally, European Union users may lodge complaints with their local data protection supervisory authorities.
 
@@ -109,6 +111,6 @@ For complaints under GDPR more generally, European Union users may lodge complai
 
 This version of our privacy statement took effect October 9th, 2019.
 
-We will post any new versions of this statement at [{{ site.production_url }}/privacy/]({{ site.production_url }}/privacy/). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to [{{ site.production_url }}/privacy/]({{ site.production_url }}/privacy/) for the latest contact information at any time.
+We will post any new versions of this statement at [https://privacyguides.org/privacy-policy/](https://privacyguides.org/privacy-policy/). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to [https://privacyguides.org/privacy-policy/](https://privacyguides.org/privacy-policy/) for the latest contact information at any time.
 
-A full [revision history](https://github.com/privacytools/privacytools.io/commits/master/pages/privacy.md) for this page can be found on GitHub.
+A full [revision history](https://github.com/privacyguides/privacyguides/commits/main/privacy-policy.md) for this page can be found on GitHub.

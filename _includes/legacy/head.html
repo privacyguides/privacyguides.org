@@ -5,37 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="privacy, anonymity, privacy tools, surveillance, encryption">
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="canonical" href="{{ site.production_url }}{{ page.url | replace:'index.html',''}}">
+  <link rel="canonical" href="https://privacyguides.org{{ page.url | replace:'index.html',''}}">
 
   <!-- title -->
   {% if page.title %}
-  <title>{{ page.title }} | {{ site.name }}</title>
-  <meta property="og:title" content="{{ page.title }} | {{ site.name }}" />
+  <title>{{ page.title }} | Privacy Guides</title>
+  <meta property="og:title" content="{{ page.title }} | Privacy Guides" />
   {% else %}
   <title>{{ site.title }}</title>
   <meta property="og:title" content="{{ site.title }}" />
   {% endif %}
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ page.permalink | prepend: site.url }}" />
-  <meta property="og:image" content="{{ site.production_url }}/assets/img/legacy_svg/layout/brand/square-transparent.svg" />
+  <meta property="og:image" content="https://privacyguides.org/assets/img/legacy_svg/layout/brand/square-transparent.svg" />
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
   <meta property="og:locale" content="en_GB" />
-  <meta property="og:site_name" content="{{ site.name }}" />
+  <meta property="og:site_name" content="Privacy Guides" />
 
   {% if page.url == "/" %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "{{ site.name }}",
+    "name": "Privacy Guides",
     "description": "{{ site.description }}",
     "alternateName": [
       "privacytools.io",
       "Privacy Tools",
       "privacytoolsIO"
     ],
-    "url": "{{ site.production_url }}",
-    "logo": "{{ site.production_url }}/assets/img/legacy_svg/layout/brand/square-transparent.svg",
+    "url": "https://privacyguides.org",
+    "logo": "https://privacyguides.org/assets/img/legacy_svg/layout/brand/square-transparent.svg",
     "sameAs": [
       "https://blog.privacytools.io",
       "https://twitter.com/privacytoolsIO",
