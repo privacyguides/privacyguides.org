@@ -7,7 +7,7 @@ description: "This Privacy Statement explains what information Privacy Guides an
 
 ## Who is Privacy Guides?
 
-Privacy Guides community project currently under the stewardship of Aragon Ventures LLC, a Minnesota corporation, which develops this website and a number of privacy-friendly services alongside a number of active contributors. The current list of public team members [can be found on GitHub](https://github.com/orgs/privacyguides/people). Aragon Ventures LLC operates internet services and handles the financials of this project.
+Privacy Guides is a community project currently under the stewardship of Aragon Ventures LLC, a Minnesota corporation, which develops this website and a number of privacy-friendly services alongside a number of active contributors. The current list of public team members [can be found on GitHub](https://github.com/orgs/privacyguides/people). Aragon Ventures LLC operates internet services and handles the financials of this project.
 
 In the future, Privacy Guides will be an independently operated non-profit organization.
 
