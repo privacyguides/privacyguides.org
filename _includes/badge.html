@@ -3,7 +3,7 @@
   href="{{ include.link }}" class="badge badge-{{ include.color | default: "info" }}"
   {% if include.tooltip %}
   data-toggle="tooltip"
-  title="{{ include.tooltip }}"><i class="{{ include.icon | default: "far fa-question-circle"}}"></i> {{ include.text }}
+  data-original-title="{{ include.tooltip }}"><i class="{{ include.icon | default: "far fa-question-circle"}}"></i> {{ include.text }}
 {% else %}><i class="{{ include.icon | default: "fas fa-external-link-alt"}}"></i> {{ include.text }}{% endif %}
 </a>
 {% else %}
@@ -11,7 +11,7 @@
   class="badge badge-{{ include.color | default: "info" }}"
   {% if include.tooltip %}
     data-toggle="tooltip"
-    title="{{ include.tooltip }}"
+    data-original-title="{{ include.tooltip }}"
     > <i class="{{ include.icon | default: "far fa-question-circle"}}"></i> {{include.text}}
   {% else %}
     > {% if include.icon %}<i class="{{ include.icon }}"></i>{% endif %} {{include.text}}

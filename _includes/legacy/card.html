@@ -17,7 +17,7 @@
                     {% assign text = label_data[1] %}
                     {% assign tooltip = label_data[2] | default: "" %}
                     {% assign help_icon = '<i class="far fa-question-circle"></i>' %}
-                    <span class="badge badge-{{color}}" {% if tooltip %} data-toggle="tooltip" title="{{ tooltip }}">{{text}} {{ help_icon
+                    <span class="badge badge-{{color}}" {% if tooltip %} data-toggle="tooltip" data-original-title="{{ tooltip }}">{{text}} {{ help_icon
                         }}
                         {% else %}
                         >{{text}}
