@@ -22,36 +22,36 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.privacyguides.org" # the base hostname & protocol for your site, e.g. http://example.com
 sass:
-    sass_dir: _sass
+    sass_dir: ./_sass
 excerpt_separator: <!--more-->
 collections_dir: collections
 collections:
   posts:
-    permalink: /blog/:year/:month/:day/:title
+    permalink: /blog/:year/:month/:day/:title/
   evergreen:
     output: true
-    permalink: /:name
+    permalink: /:name/
   authors:
-    permalink: /blog/authors/:name
+    permalink: /blog/authors/:name/
   devices:
     output: true
-    permalink: /devices/:name
+    permalink: /devices/:name/
     sort_by: order
   browsers:
     output: true
-    permalink: /browsers/:name
+    permalink: /browsers/:name/
     sort_by: order
   software:
     output: true
-    permalink: /software/:name
+    permalink: /software/:name/
     sort_by: order
   os:
     output: true
-    permalink: /os/:name
+    permalink: /os/:name/
     sort_by: order
   providers:
     output: true
-    permalink: /providers/:name
+    permalink: /providers/:name/
     sort_by: order
 
 defaults:
@@ -82,7 +82,6 @@ defaults:
       layout: recommendation
 
 # Build settings
-markdown: kramdown
 plugins:
   - jekyll-feed
 exclude: [privacytools.io/]

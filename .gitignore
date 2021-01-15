@@ -8,3 +8,4 @@ font/.fontcustom-manifest.json
 assets/webfonts/ptio-font-preview.html
 vendor
 .bundle
+node_modules
