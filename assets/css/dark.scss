@@ -30,6 +30,10 @@ $card-shadow: 0 3px 10px 0 rgba(50, 50, 50, .2);
 @import "ptio-font";
 @import "flag-icon";
 
+.textColor {
+  fill: #d8d8d8;
+}
+
 .post-info, .post-title {
   color: #d8d8d8;
   display: inline;
@@ -51,7 +55,7 @@ mark, .mark {
   color: $body-color !important;
 }
 
-nav.bg-light.navbar-light, nav.bg-light.navbar-light li a {
+nav.bg-light.navbar-light, nav.bg-light.navbar-light li a, .dropdown div.dropdown-menu.show, .list-group-item {
   background-color: #212529 !important;
   color: #adb5bd !important;
 }
