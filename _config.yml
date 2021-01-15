@@ -81,6 +81,10 @@ defaults:
     values:
       layout: recommendation
 
+build:
+     date:
+     time:
+
 # Build settings
 plugins:
   - jekyll-feed

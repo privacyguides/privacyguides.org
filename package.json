@@ -19,6 +19,8 @@
   "homepage": "https://github.com/privacyguides/privacyguides#readme",
   "dependencies": {
     "@fortawesome/fontawesome-pro": "^6.0.0-alpha2",
-    "bootstrap": "^4.5.3"
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
