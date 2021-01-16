@@ -2,23 +2,43 @@
 ---
 @import "variables";
 
-$theme-colors: (
-  "primary": #FFD06F,
-  "secondary": #3913B8,
-  "warning": #943E00,
-  "info": #C5B6FF,
-  "success": #b6ffb8
-);
+$primary: darken( $primary, 48% );
+$secondary: lighten( $secondary, 15% );
+$success: darken( $success, 10% );
+$info: darken( $info, 5% );
+$danger: lighten( $warning, 20% );
+$warning: darken( $warning, 30% );
 
-$body-bg: #181b21;
-$card-bg: #212529;
-$body-color: #d8d8d8;
-$link-color: #C5B6FF;
-$mark-bg: #343a40;
-$breadcrumb-bg: #212529;
+$body-bg: $dark;
+$card-bg: lighten( $dark, 5% );
+$body-color: $light;
+$link-color: lighten( $secondary, 30% );
+$mark-bg: darken( $primary, 10% );
+$breadcrumb-bg: lighten( $dark, 5% );
 $hr-border-color: $body-color;
 
-$card-shadow: 0 3px 10px 0 rgba(50, 50, 50, .2);
+$card-shadow: 0 3px 10px 0 $dark;
+$list-group-color: $body-color;
+$list-group-bg: $card-bg;
+
+$alert-bg-level:     4;
+$alert-border-level: 3;
+$alert-color-level:  -10;
+
+$table-border-color: lighten( $dark, 20% );
+$table-active-bg: rgba($white, .075);
+$table-head-color: $white;
+
+$navbar-light-color:                 rgba($white, .5);
+$navbar-light-hover-color:           rgba($white, .75);
+$navbar-light-active-color:          $white;
+$navbar-light-disabled-color:        rgba($white, .25);
+$navbar-light-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+$navbar-light-toggler-border-color:  rgba($white, .1);
+$dropdown-bg: $card-bg;
+$dropdown-link-color: $navbar-light-color;
+$dropdown-link-hover-color: $navbar-light-active-color;
+$dropdown-link-hover-bg: lighten( $dropdown-bg, 10% );
 
 .container-fullwidth {
   margin: 0 auto;
@@ -30,12 +50,18 @@ $card-shadow: 0 3px 10px 0 rgba(50, 50, 50, .2);
 @import "ptio-font";
 @import "flag-icon";
 
-.textColor {
-  fill: #d8d8d8;
+$svg-primary: $primary;
+$svg-dark: $light;
+$svg-light: $card-bg;
+.textColor { // Navbar logo text
+  fill: $light;
+}
+.logoColor { // Navbar logo text
+  fill: $primary;
 }
 
 .post-info, .post-title {
-  color: #d8d8d8;
+  color: $light;
   display: inline;
   padding: $spacer;
   /* Needs prefixing */
@@ -45,19 +71,6 @@ $card-shadow: 0 3px 10px 0 rgba(50, 50, 50, .2);
 
 mark, .mark {
   color: $body-color;
-}
-
-.bg-primary .container .row div, .btn-primary {
-  color: #28323F !important;
-}
-
-.bg-secondary .container .row .text-secondary .card-body {
-  color: $body-color !important;
-}
-
-nav.bg-light.navbar-light, nav.bg-light.navbar-light li a, .dropdown div.dropdown-menu.show, .list-group-item {
-  background-color: #212529 !important;
-  color: #adb5bd !important;
 }
 
 @import "custom";

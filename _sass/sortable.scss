@@ -59,32 +59,32 @@ table[data-sortable].sortable-theme-bootstrap {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #333333;
-  background: white;
+  color: $table-color;
+  background: $table-bg;
 }
 /* line 12, ../sass/sortable-theme-bootstrap.sass */
 table[data-sortable].sortable-theme-bootstrap thead th {
-  border-bottom: 2px solid #e0e0e0;
+  border-bottom: 2px solid $table-border-color;
 }
 /* line 15, ../sass/sortable-theme-bootstrap.sass */
 table[data-sortable].sortable-theme-bootstrap tbody td {
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid $table-border-color;
 }
 /* line 18, ../sass/sortable-theme-bootstrap.sass */
 table[data-sortable].sortable-theme-bootstrap th[data-sorted="true"] {
-  color: #3a87ad;
-  background: #d9edf7;
-  border-bottom-color: #bce8f1;
+  color: $table-head-color;
+  background: $table-active-bg;
+  border-bottom-color: $table-border-color;
 }
 /* line 23, ../sass/sortable-theme-bootstrap.sass */
 table[data-sortable].sortable-theme-bootstrap th[data-sorted="true"][data-sorted-direction="descending"]:after {
-  border-top-color: #3a87ad;
+  border-top-color: $table-border-color;
 }
 /* line 26, ../sass/sortable-theme-bootstrap.sass */
 table[data-sortable].sortable-theme-bootstrap th[data-sorted="true"][data-sorted-direction="ascending"]:after {
-  border-bottom-color: #3a87ad;
+  border-bottom-color: $table-head-color;
 }
 /* line 31, ../sass/sortable-theme-bootstrap.sass */
 table[data-sortable].sortable-theme-bootstrap.sortable-theme-bootstrap-striped tbody > tr:nth-child(odd) > td {
-  background-color: #f9f9f9;
+  background-color: $table-active-bg;
 }

@@ -185,7 +185,6 @@ h2, h3:not(.h5), h4, h5 {
   vertical-align: middle;
 }
 
-
 .btn-icon {
   display: flex;
   justify-content: center;
@@ -215,6 +214,17 @@ h2, h3:not(.h5), h4, h5 {
 
 .flow-root {
   display: flow-root;
+}
+
+// SVG Color Inversion
+.svg-primary {
+  fill: $svg-primary;
+}
+.svg-dark {
+  fill: $svg-dark;
+}
+.svg-light {
+  fill: $svg-light;
 }
 
 @import "sortable";
