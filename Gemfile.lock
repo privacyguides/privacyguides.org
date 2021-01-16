@@ -65,7 +65,7 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
-  arm64-darwin-20
+  ruby
 
 DEPENDENCIES
   jekyll (~> 4.2)
