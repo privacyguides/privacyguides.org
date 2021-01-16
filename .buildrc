@@ -2,6 +2,7 @@ export BUILD_DATE=$(TZ=UTC date "+%Y-%m-%d")
 export BUILD_TIME=$(TZ=UTC date "+%H:%M:%S %Z")
 
 npm install
+gem install bundler:2.2.5
 bundle install
 
 sed -i "s/^     date:.*$/     date: $BUILD_DATE/" _config.yml
