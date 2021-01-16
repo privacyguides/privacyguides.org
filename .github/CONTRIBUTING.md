@@ -21,68 +21,67 @@ Please read this document in full before contributing.
 ## Rules
 
 - Be nice and respectful.
-- English only.
 - Be constructive.
-- Please feel free to *review changes* in the *files changed* tab of any
-  pull request at any time.
-- See also our [Code of Conduct](https://github.com/privacytools/.github/blob/master/CODE_OF_CONDUCT.md)
 
 ## Quality over Quantity
 
 We're trying to keep it simple and promote the best tools, not all of them.
 
+Something meeting the below criteria ***does not automatically qualify it to be included on the site!***
+
 ## Software Criteria
 
-### Main
+### Primary Requirements
 
-- Easy to use. Could your mother use that tool or service? Usability is most important.
-- Cross-platform / Accessible.
-- Privacy respecting.
-- Open Source / Free Software is preferred but not required.
+- Privacy respecting (duh!).
+
+### Primary Recommendations
+
+- Open Source / Free Software.
 - Prioritize Products without Vendor Lock-in (decentralized/self-hostable) or data interoperability.
+- Cross-platform / Accessible.
+- Easy to use. Could your mother use that tool or service? Usability is most important.
 
-There can be exceptions if no software is available that meet the criteria.
+If no software exists in a certain category that meets *all* these criteria, exceptions can be made on a case-by-case basis.
 
-Note: This criteria applies to all of the Privacy Guides website and recommendations.
+### Service Provider Information
 
-### Providers
+- Products and services listed as "Providers" SHOULD be prioritized primarily based on their jurisdiction (i.e. how privacy-respecting the laws of their home country are).
 
-- Prioritize Products by privacy respecting nationality.
+### DNS Provider Requirements
 
-### DNS
-
-- Supports DoH or DoT (We love DNSCrypt, but there is already https://github.com/DNSCrypt/dnscrypt-resolvers which is directly supported by dnscrypt-proxy, so we don't consider useful to list providers only supporting it).
-- Supports DNSSEC (https://dnssec.vs.uni-due.de/ can test your current DNS provider).
-- Doesn't log IP addresses during normal operation (If your suggestion logs, please compare its privacy policy with other servers on our table that keep logs).
-- Preferably supports QNAME minimization (if you have access to the dig command, `dig +short txt qnamemintest.internet.nl` or `Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl` if you are on Windows 10)
+- MUST support DoH or DoT (DNSCrypt is great too, but there is already https://github.com/DNSCrypt/dnscrypt-resolvers which is directly supported by dnscrypt-proxy, so we don't consider it useful to list providers exclusively supporting it).
+- MUST support DNSSEC (https://dnssec.vs.uni-due.de/ can test your current DNS provider).
+- MUST NOT log IP addresses during normal operation (If your suggested provider *ever* logs, please compare its privacy policy with other servers on our table that keep logs).
+- SHOULD support QNAME minimization (if you have access to the dig command, `dig +short txt qnamemintest.internet.nl` or `Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl` if you are on Windows 10).
 
 ### VPN
 
-See https://www.privacytools.io/providers/vpn/#criteria for more details.
+See https://privacyguides.org/providers/vpn/#criteria for full details, the following is an incomplete summary.
 
-- Prioritize Products by privacy respecting nationality.
-- Cannot be based in USA or UK.
-- Must be accessible via Open Source Software (e.g. OpenVPN, WireGuard)
-- Use Encryption
-- Accept Cryptocurrency
-- No logging policy
+- MUST NOT be based in USA or UK.
+- MUST be accessible via Open Source Software (e.g. OpenVPN, WireGuard).
+- MUST Use Strong Encryption.
+- SHOULD Accept Cryptocurrency.
+- MUST have a no logging policy.
 
 ### Email
 
-- Outside of USA
-- Support SMTP SSL
-- Accessible Using Open Source Software (e.g. allows IMAP)
+See https://privacyguides.org/providers/email/#criteria for full details, the following is an incomplete summary.
+
+- MUST Support SMTP SSL.
+- SHOULD be accessible with standard/FOSS software (e.g. allows IMAP).
 
 ### Hardware
 
-- Must be [H-Node Class A](https://h-node.org/wiki/page/en/compatibility-classes) or equivalent (if applicable)
-- Must prioritize hardware certifications like [RYF](https://ryf.fsf.org/), [OSHWA](https://certification.oshwa.org/), and OSI when available.
-- Cannot lock users to a particular platform.
+- SHOULD be [H-Node Class A](https://h-node.org/wiki/page/en/compatibility-classes) or equivalent (if applicable)
+- SHOULD prioritize hardware certifications like [RYF](https://ryf.fsf.org/), [OSHWA](https://certification.oshwa.org/), and OSI when available.
+- SHOULD NOT lock users to a particular platform.
 
 ### Software
 
-- Must be able to download over encrypted network (can be a mirror)
-- Must be Open Source Software
+- MUST be able to download over encrypted network (can be a mirror).
+- SHOULD be Free and Open Source Software.
 
 ### Encryption
 
@@ -96,23 +95,5 @@ See https://www.privacytools.io/providers/vpn/#criteria for more details.
 ## Images
 
 - SVG file format is strongly preferred. PNG files can be used as a fallback if images are too complex or otherwise unsuitable as a vector format.
-- We like to optimize all SVGs we add to the site. [This](https://github.com/privacytools/privacytools.io/pull/1968#issuecomment-652773633) is a helpful guide as to how we do it with [Inkscape](https://inkscape.org/)
-  - Some SVGs generated by Illustrator or Sketch are broken, therefore copying the SVG content to a new canvas is sometimes required. (We found this with the Mailcow logo). Looked fine in local builds but was wrong once rendered through netlify preview etc.
-- We only have SVGs that have a canvas size of 128x128px or 384x128px.
-- Provider logo dimensions are 384px x 128px ([example](https://github.com/privacytools/privacytools.io/blob/master/assets/img/svg/3rd-party/mullvad.svg))
-- Tool logo dimensions are 128px x 128px ([SVG example](https://github.com/privacytools/privacytools.io/blob/master/assets/img/svg/3rd-party/firefox_browser.svg), [PNG example](https://github.com/privacytools/privacytools.io/blob/master/assets/img/png/3rd-party/claws_mail.png))
-
-
-## Licensing
-
-The content and original technology of this website is made available under the Creative Commons Zero v1.0 Universal license text. Some files or folders may include works from other projects with separate licenses, and will be marked as such. **By contributing to this repository, contributors do not necessarily agree to sign a CLA or legally transfer their copyright to the project, but they do at a minimum agree to license their work under the current license of this repository: In this case, the Creative Commons Zero v1.0 Universal.**
-
-## Contributing via email
-
-If you have a GitHub account, or are able to create a GitHub account, we ask that you do not submit issues via email.
-
-If you do not have a GitHub account, you may submit software recommendations or other issues via email without creating a GitHub account by emailing `privacytools@fire.fundersclub.com`. The subject line of your email will become the issue title. Your name will be included in the posted issue.
-
-This repository uses [@fire-bot](https://github.com/fire-bot), [a service](https://fire.fundersclub.com) from FundersClub that converts incoming emails to GitHub issues. By sending a message to the email address above, you will be sharing your email address and message content with FundersClub. FundersClub has a privacy policy at [https://fundersclub.com/catalyst-privacy-policy/](https://fundersclub.com/catalyst-privacy-policy/) you should review before using this service. Any attachments you send via this service may be stored indefinitely by FundersClub for the purpose of making them available within the submitted GitHub issue.
-
-You can view an example of the created issues' format at [#1444](https://github.com/privacytools/privacytools.io/issues/1444).
+- Provider logo dimensions are 384px x 128px ([example](/assets/img/legacy_svg/3rd-party/mullvad.svg))
+- Tool logo dimensions are 128px x 128px ([SVG example](/assets/img/leagcy_svg/3rd-party/firefox_browser.svg), [PNG example](/assets/img/legacy_png/3rd-party/claws_mail.png))

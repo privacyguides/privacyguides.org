@@ -1,7 +1,0 @@
-contact_links:
-  - name: Services issues
-    url: https://github.com/privacytools/services/issues/new/choose
-    about: Open any issues/bug reports/requests related to our services (Mastodon, Matrix, etc) here.
-  - name: Privacy Guides Community
-    url: https://forum.privacytools.io/
-    about: Please ask any generic questions on our forum.

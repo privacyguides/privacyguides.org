@@ -1,8 +1,6 @@
 ---
-name: "🆕 Software Suggestion"
-about: Suggest new software that enhances privacy.
-title: "🆕 Software Suggestion | "
-labels: 🆕 software suggestion
+name: "🆕 Software or Provider Suggestion"
+about: "Suggest something new for us to look at!"
 ---
 
 ## Basic Information
@@ -14,14 +12,11 @@ labels: 🆕 software suggestion
 ## Description
 
 
+## Additional context
 
-## Why I am making the suggestion
+<!-- Anything else you would like to tell us about the software? -->
 
-<!-- Anything you would like to tell us about the software? -->
-
-
-## My connection with the software
-
-<!-- Are you the author? Enthustiastic or early adopter? Friends with the author or requested by them to open the isue? An employee of the software maker? -->
-
-- [ ] I will keep the issue up-to-date if something I have said changes or I remember a connection with the software.
+<!-- Additionally, please share any connection you may have with the software/organization/company/provider.
+     Are you the author? Enthusiastic or early adopter?
+		 Friends with the author or requested by them to open the issue?
+		 An employee of the software maker? -->

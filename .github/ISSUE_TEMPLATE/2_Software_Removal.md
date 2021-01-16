@@ -1,21 +1,15 @@
 ---
 name: "❌ Software Removal"
 about: Suggest the removal of outdated, insecure, or otherwise bad software.
-title: "❌ Software Removal | "
-labels: ❌ software removal
 ---
 
 ## Description
 
 
+## Additional context
 
-## Why I am making the suggestion
+<!-- Anything else you would like to tell us? -->
 
-<!-- Anything you would like to tell us about the software? -->
-
-
-## My connection with the software
-
-<!-- Are you the author? Competitor? Just hating the software with passsion for some reason? -->
-
-- [ ] I will keep the issue up-to-date if something I have said changes or I remember a connection with the software.
+<!-- Additionally, please share any connection you may have with the software/organization/company/provider.
+     Are you the author? A former contributor?
+		 Someone who just passionately dislikes the project? :) -->

@@ -1,5 +1,5 @@
-Contact: admin@privacytools.io
+Contact: jonah@triplebit.net
 Encryption: https://www.jonaharagon.com/keys/
 Preferred-Languages: en
-Canonical: https://www.privacytools.io/.well-known/security.txt
-Policy: https://github.com/privacytools/privacytools.io/security/policy
+Canonical: https://privacyguides.org/.well-known/security.txt
+Policy: https://github.com/privacyguides/privacyguides.org/security/policy
