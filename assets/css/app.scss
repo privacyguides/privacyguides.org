@@ -17,7 +17,7 @@ h1, h2, h3:not(.h5), h4 {
 }
 
 // import /_sass/bootstrap.scss
-@import "bootstrap/bootstrap";
+@import "./node_modules/bootstrap/scss/bootstrap";
 @import "ptio-font";
 @import "flag-icon";
 

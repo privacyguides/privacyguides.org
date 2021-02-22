@@ -58,11 +58,13 @@
 	* With [rbenv](https://github.com/rbenv/rbenv) (**recommended!**): `rbenv install`
 	* With [RVM](https://rvm.io): `rvm install "ruby-$(cat .ruby-version)"`
 	* [Manually](https://www.ruby-lang.org/en/downloads/)
+1. Install node.js and npm
 1. Install [Bundler](https://bundler.io/) v2.2.5:
 	* `gem install bundler:2.2.5`
 1. Install the required dependencies:
 	* `bundle install`
+	* `npm install`
 1. Build the website (the output can be found in the `_site` directory):
-	* `bundle exec jekyll build`
+	* `npm run build`
 1. Serve the website locally with live reloading:
-	* `bundle exec jekyll serve --incremental --livereload`
+	* `npm run serve`

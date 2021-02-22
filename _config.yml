@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.privacyguides.org" # the base hostname & protocol for your site, e.g. http://example.com
 sass:
-    sass_dir: ./_sass
+    sass_dir: _sass
 excerpt_separator: <!--more-->
 collections_dir: collections
 collections:

@@ -46,7 +46,7 @@ $dropdown-link-hover-bg: lighten( $dropdown-bg, 10% );
 }
 
 // import /_sass/bootstrap.scss
-@import "bootstrap/bootstrap";
+@import "./node_modules/bootstrap/scss/bootstrap";
 @import "ptio-font";
 @import "flag-icon";
 
