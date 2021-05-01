@@ -13,7 +13,7 @@ excerpt: Mozilla Firefox is one of the most popular web browsers around, and for
 
 Mozilla Firefox is one of the most popular web browsers around, and for good reason. It's fast, secure, open-source, and it's backed by an organization that actually respects your privacy. Unlike many other Chrome alternatives and forks, it has a massive development team behind it that publishes new updates on a constant, regular basis. Regular updates doesn't only mean shiny new features, it means you'll also receive security updates that will keep you protected as you browse the web.
 
-Because of all of this, the Privacy Guides team [recommends Firefox](https://www.privacytools.io/browsers/#browser) as a general-purpose browser for most users. It's the best alternative to Google Chrome and Edge for privacy conscious individuals.
+Because of all of this, the PrivacyTools team [recommends Firefox](https://www.privacytools.io/browsers/#browser) as a general-purpose browser for most users. It's the best alternative to Google Chrome and Edge for privacy conscious individuals.
 
 Firefox is fantastic out of the box, but where it really shines is customizability. By adjusting Firefox privacy settings and using helpful add-ons, you can increase your privacy and security even further. Making those changes is what we're going to go over in this Firefox privacy guide.
 
@@ -148,8 +148,6 @@ Mozilla has an in-house add-on called [**Multi-Account Containers**](https://sup
 A containers setup may be a good alternative to techniques like regularly deleting cookies, but requires a lot of manual intervention to setup and maintain. If you want complete control of what websites can do in your browser, it's definitely worth looking into, but we wouldn't call it a necessary addition by any means.
 
 ## Additional Resources
-
-[Web Browsers at PrivacyTools](https://www.privacytools.io/browsers/) — PrivacyTools's comprehensive set of recommendations for browsers and tweaks you can make to enhance your privacy is a great next step for more advanced users looking to protect their privacy online.
 
 [ghacks user.js](https://github.com/ghacksuserjs/ghacks-user.js) — For more advanced users, the ghacks user.js is a "configuration file that can control hundreds of Firefox settings [...] which aims to provide as much privacy and enhanced security as possible, and to reduce tracking and fingerprinting as much as possible - while minimizing any loss of functionality and breakage".
 

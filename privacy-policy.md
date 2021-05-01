@@ -42,7 +42,7 @@ Raw data such as pages visited, anonymized visitor IPs, and visitor actions will
 
 ### We collect account data.
 
-On some websites and services we provide, many features may require an account. For example, on forum.privacytools.io an account is required to post and reply to topics.
+On some websites and services we provide, many features may require an account. For example, an account may be required to post and reply to topics on a forum platform.
 
 To sign up for most accounts, we will collect a name, username, email, and password. In the event a website requires more information than just that data, that will be clearly marked and noted in a separate privacy statement, per-site.
 
