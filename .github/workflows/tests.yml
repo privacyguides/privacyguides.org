@@ -1,0 +1,65 @@
+name: Code tests
+
+on: [push, pull_request]
+
+env:
+  FONTAWESOME_NPM_AUTH_TOKEN: ${{ secrets.FONTAWESOME_NPM_AUTH_TOKEN }}
+
+jobs:
+  deps:
+    name: "Dependency Install"
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - run: npm install
+    - run: npm run assets:install
+
+  build:
+    name: "Jekyll Build"
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - name: Build website
+      uses: ./.github/actions/build
+
+  link:
+    name: "Broken Hyperlink Check"
+    runs-on: ubuntu-latest
+    needs: [deps, build]
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - name: Build website
+      uses: ./.github/actions/build
+    - name: Copy built site to production
+      run: |
+        mv ${{ github.workspace }}/_site /tmp/
+        mkdir -p /tmp/src
+        mv ${{ github.workspace }}/* /tmp/src/
+        mkdir -p ${{ github.workspace }}/src
+        mv /tmp/src/* ${{ github.workspace }}/src/
+        mv /tmp/_site ${{ github.workspace }}/
+    - name: Hyperlink link checker
+      uses: untitaker/hyperlink@0.1.15
+      with:
+        args: _site/ --sources src/

@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "assets:copy:js": "cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js assets/js/vendor/ && cp node_modules/jquery/dist/jquery.min.js assets/js/vendor/",
-    "assets:copy:icons": "mkdir -p assets/fonts/vendor/fontawesome && cp -R \"node_modules/@fortawesome/fontawesome-pro/\" assets/fonts/vendor/fontawesome",
+    "assets:copy:js": "mkdir -p assets/js/vendor && cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js assets/js/vendor/ && cp node_modules/jquery/dist/jquery.min.js assets/js/vendor/",
+    "assets:copy:icons": "mkdir -p assets/fonts/vendor/fontawesome && cp -a \"node_modules/@fortawesome/fontawesome-pro/.\" assets/fonts/vendor/fontawesome/",
     "assets:install": "npm run assets:copy:js && npm run assets:copy:icons",
     "build": "npm run assets:install && bundle exec jekyll build",
     "serve": "npm run assets:install && bundle exec jekyll serve  --incremental --livereload"

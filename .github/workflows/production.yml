@@ -1,0 +1,35 @@
+name: Production Deploy
+concurrency:
+  group: Production
+  cancel-in-progress: true
+
+on:
+  push:
+    branches: [ main ]
+
+env:
+  FONTAWESOME_NPM_AUTH_TOKEN: ${{ secrets.FONTAWESOME_NPM_AUTH_TOKEN }}
+
+jobs:
+  deploy:
+    name: Rsync Deploy
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - name: Build website
+      uses: ./.github/actions/build
+    - name: Copy built site to production
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
+        chmod 700 ~/.ssh/id_rsa
+        ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+        rsync -azP --delete ${{ github.workspace }}/_site/ ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }}:privacyguides.org-deploy
