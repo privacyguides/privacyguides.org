@@ -40,7 +40,6 @@ jobs:
     name: "Broken Hyperlinks (Internal)"
     runs-on: ubuntu-latest
     needs: [deps, build]
-    continue-on-error: true
 
     steps:
     - uses: actions/checkout@v2
@@ -85,7 +84,7 @@ jobs:
         uses: chabad360/htmlproofer@v1.1
         with:
           directory: ${{ github.workspace }}/_site
-          arguments: --assume-extension --external_only --internal-domains privacyguides.org,www.privacyguides.org --url-ignore '^(?:https?\:\/\/)?[\w\-\.]+\.onion'
+          arguments: --assume-extension --external_only --only_4xx --internal-domains privacyguides.org,www.privacyguides.org
 
   https:
     name: "Require HTTPS Internal Images"
@@ -112,7 +111,7 @@ jobs:
   scripts:
     name: "Script Reference Checks"
     runs-on: ubuntu-latest
-    needs: [link, https]
+    needs: [build, link]
     continue-on-error: true
 
     steps:
@@ -134,7 +133,7 @@ jobs:
   tags:
     name: "HTML Tag Test"
     runs-on: ubuntu-latest
-    needs: https
+    needs: build
     continue-on-error: true
 
     steps:
@@ -156,7 +155,7 @@ jobs:
   entity:
     name: "HTML Entity Names Test"
     runs-on: ubuntu-latest
-    needs: https
+    needs: build
     continue-on-error: true
 
     steps:
@@ -178,7 +177,7 @@ jobs:
   misc:
     name: "Misc HTML Test"
     runs-on: ubuntu-latest
-    needs: https
+    needs: build
     continue-on-error: true
 
     steps:

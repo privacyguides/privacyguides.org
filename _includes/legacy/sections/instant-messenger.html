@@ -4,7 +4,8 @@
 </h1>
 
 <div class="alert alert-warning" role="alert">
-  <strong>If you are currently using an Instant Messenger like Telegram, LINE, Viber, <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">WhatsApp</a>, or plain SMS, you should pick an alternative here.</strong></div>
+  <strong>If you are currently using an Instant Messenger like Telegram, LINE, Viber, <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">WhatsApp</a>, or plain SMS, you should pick an alternative here.</strong>
+</div>
 
 <p>We only recommend instant messenger programs or apps that support <a href="https://en.wikipedia.org/wiki/End-to-end_encryption">end-to-end encryption (E2EE)</a>. When E2EE is used, all transmissions (messages, voice, video, etc.) are encrypted <strong>before</strong> they are sent from your device. E2EE protects both the authenticity and confidentiality of the transmission as they pass through any part of the network (servers, etc.).</p>
 
@@ -39,34 +40,34 @@
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-    <h3>Advantages</h3>
-    <ul>
-      <li>New features and changes can be implemented more quickly.</li>
-      <li>Easier to get started with and to find contacts.</li>
-    </ul>
-    </div>
-  <div class="col-md-6">
-    <h3>Disadvantages</h3>
-    <ul>
-      <li>Centralized services could be more susceptible to <a href="#exploiting-centralized-networks">legislation requiring backdoor access</a>.</li>
-      <li>Can include <a href="https://drewdevault.com/2018/08/08/Signal.html">restricted control or access</a>. This can include things like:</li>
+      <h3>Advantages</h3>
       <ul>
-        <li>Being <a href="https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165">forbidden from connecting third-party clients</a> to the centralized network that might provide for greater customization or better user experience. Often defined in Terms and Conditions of usage.</li>
-        <li>Poor or no documentation for third-party developers.</li>
+        <li>New features and changes can be implemented more quickly.</li>
+        <li>Easier to get started with and to find contacts.</li>
       </ul>
-      <li>The <a href="https://blog.privacytools.io/delisting-wire">ownership</a>, privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.</li>
-    </ul>
-  </div>
+    </div>
+    <div class="col-md-6">
+      <h3>Disadvantages</h3>
+      <ul>
+        <li>Centralized services could be more susceptible to <a href="#exploiting-centralized-networks">legislation requiring backdoor access</a>.</li>
+        <li>Can include <a href="https://drewdevault.com/2018/08/08/Signal.html">restricted control or access</a>. This can include things like:</li>
+        <ul>
+          <li>Being <a href="https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165">forbidden from connecting third-party clients</a> to the centralized network that might provide for greater customization or better user experience. Often defined in Terms and Conditions of usage.</li>
+          <li>Poor or no documentation for third-party developers.</li>
+        </ul>
+        <li>The <a href="https://blog.privacytools.io/delisting-wire">ownership</a>, privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.</li>
+      </ul>
+    </div>
   </div>
 </div>
 
-<div>
-  <h2 id="federated" class="anchor">
-    <a href="#federated"><i class="fas fa-link anchor-icon"></i></a>
-    Federated
-  </h2>
 
-  <p>Federated messengers use multiple, independent servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.</p>
+<h2 id="federated" class="anchor">
+  <a href="#federated"><i class="fas fa-link anchor-icon"></i></a>
+  Federated
+</h2>
+
+<p>Federated messengers use multiple, independent servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.</p>
 
 {%
   include legacy/cardv2.html
@@ -111,19 +112,18 @@
   </div>
 </div>
 
-<div>
-  <h4>Worth Mentioning</h4>
+<h4>Worth Mentioning</h4>
 
-  <ul>
-    <li><a href="https://status.im">Status.im</a> - Encrypted instant messenger with an integrated <a href="https://en.wikipedia.org/wiki/Ethereum">Ethereum</a> wallet (cryptocurrency) that also includes support for <a href="https://our.status.im/tag/dapps">DApps (decentralized apps)</a> (web apps in a curated store). Uses the <a href="https://our.status.im/status-launches-private-peer-to-peer-messaging-protocol/">Waku protocol (a fork of Whisper)</a> for P2P communication. Only available for iOS and Android.</li>
-  </ul>
+<ul>
+  <li><a href="https://status.im">Status.im</a> - Encrypted instant messenger with an integrated <a href="https://en.wikipedia.org/wiki/Ethereum">Ethereum</a> wallet (cryptocurrency) that also includes support for <a href="https://our.status.im/tag/dapps">DApps (decentralized apps)</a> (web apps in a curated store). Uses the <a href="https://our.status.im/status-launches-private-peer-to-peer-messaging-protocol/">Waku protocol (a fork of Whisper)</a> for P2P communication. Only available for iOS and Android.</li>
+</ul>
 
-  <h2 id="peer-to-peer" class="anchor">
-    <a href="#peer-to-peer"><i class="fas fa-link anchor-icon"></i></a>
-    Peer to Peer (P2P)
-  </h2>
+<h2 id="peer-to-peer" class="anchor">
+  <a href="#peer-to-peer"><i class="fas fa-link anchor-icon"></i></a>
+  Peer to Peer (P2P)
+</h2>
 
-  <p>Peer-to-Peer instant messengers connect directly to each other without requiring third-party servers. Clients (peers) usually find each other through the use of a <a href="https://en.wikipedia.org/wiki/Distributed_computing">distributed computing</a> network. Examples of this include <a href="https://en.wikipedia.org/wiki/Distributed_hash_table">DHT (distributed hash table)</a> (used with technologies like <a href="https://en.wikipedia.org/wiki/BitTorrent_(protocol)">torrents</a> and <a href="https://en.wikipedia.org/wiki/InterPlanetary_File_System">IPFS</a>, for example). Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the <a href="https://www.scuttlebutt.nz">Scuttlebutt</a> social networking protocol). Once a peer has found a route to its contact via any of these methods, a direct connection between them is made.</p>
+<p>Peer-to-Peer instant messengers connect directly to each other without requiring third-party servers. Clients (peers) usually find each other through the use of a <a href="https://en.wikipedia.org/wiki/Distributed_computing">distributed computing</a> network. Examples of this include <a href="https://en.wikipedia.org/wiki/Distributed_hash_table">DHT (distributed hash table)</a> (used with technologies like <a href="https://en.wikipedia.org/wiki/BitTorrent_(protocol)">torrents</a> and <a href="https://en.wikipedia.org/wiki/InterPlanetary_File_System">IPFS</a>, for example). Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the <a href="https://www.scuttlebutt.nz">Scuttlebutt</a> social networking protocol). Once a peer has found a route to its contact via any of these methods, a direct connection between them is made.</p>
 
 {%
   include legacy/cardv2.html
