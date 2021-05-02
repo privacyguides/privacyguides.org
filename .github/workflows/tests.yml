@@ -1,6 +1,12 @@
 name: Code tests
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 env:
   FONTAWESOME_NPM_AUTH_TOKEN: ${{ secrets.FONTAWESOME_NPM_AUTH_TOKEN }}
@@ -15,6 +21,13 @@ jobs:
     - uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
+    - name: Cache node modules
+      uses: actions/cache@v2
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-npm-
     - uses: actions/setup-node@v2
       with:
         node-version: '14'
@@ -30,9 +43,23 @@ jobs:
     - uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
+    - name: Cache node modules
+      uses: actions/cache@v2
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-npm-
     - uses: actions/setup-node@v2
       with:
         node-version: '14'
+    - name: Cache Jekyll build
+      uses: actions/cache@v2
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-jekyll-${{ hashFiles('**/*.html') }}
+        restore-keys: |
+          ${{ runner.os }}-jekyll-
     - name: Build website
       uses: ./.github/actions/build
 
@@ -46,9 +73,23 @@ jobs:
     - uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
+    - name: Cache node modules
+      uses: actions/cache@v2
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-npm-
     - uses: actions/setup-node@v2
       with:
         node-version: '14'
+    - name: Cache Jekyll build
+      uses: actions/cache@v2
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-jekyll-${{ hashFiles('**/*.html') }}
+        restore-keys: |
+          ${{ runner.os }}-jekyll-
     - name: Build website
       uses: ./.github/actions/build
     - name: Copy built site to production
@@ -59,7 +100,7 @@ jobs:
         mkdir -p ${{ github.workspace }}/src
         mv /tmp/src/* ${{ github.workspace }}/src/
         mv /tmp/_site ${{ github.workspace }}/
-    - name: Hyperlink link checker
+    - name: Internal link checker
       uses: untitaker/hyperlink@0.1.15
       with:
         args: _site/ --sources src/
@@ -75,22 +116,43 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
+      - name: Cache node modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
+      - name: Cache Jekyll build
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-jekyll-${{ hashFiles('**/*.html') }}
+          restore-keys: |
+            ${{ runner.os }}-jekyll-
       - name: Build website
         uses: ./.github/actions/build
-      - name: Check HTML
+      - name: Cache HTMLProofer
+        id: cache-htmlproofer
+        uses: actions/cache@v2
+        with:
+          path: tmp/.htmlproofer
+          key: ${{ runner.os }}-htmlproofer
+      - name: Check All External Links (Informational)
         uses: chabad360/htmlproofer@v1.1
         with:
           directory: ${{ github.workspace }}/_site
-          arguments: --assume-extension --external_only --internal-domains privacyguides.org,www.privacyguides.org
+          arguments: --assume-extension --external_only --internal-domains privacyguides.org,www.privacyguides.org --timeframe 30d
         continue-on-error: true
-      - name: Check HTML
+      - name: Check External Links (Only 4XX)
         uses: chabad360/htmlproofer@v1.1
         with:
           directory: ${{ github.workspace }}/_site
-          arguments: --assume-extension --external_only --only_4xx --internal-domains privacyguides.org,www.privacyguides.org
+          arguments: --assume-extension --external_only --only_4xx --internal-domains privacyguides.org,www.privacyguides.org --timeframe 30d
+        continue-on-error: true
 
   https:
     name: "Require HTTPS Internal Images"
@@ -103,12 +165,26 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
+      - name: Cache node modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
+      - name: Cache Jekyll build
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-jekyll-${{ hashFiles('**/*.html') }}
+          restore-keys: |
+            ${{ runner.os }}-jekyll-
       - name: Build website
         uses: ./.github/actions/build
-      - name: Check HTML
+      - name: Check Images
         uses: chabad360/htmlproofer@v1.1
         with:
           directory: ${{ github.workspace }}/_site
@@ -128,6 +204,13 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
+      - name: Cache Jekyll build
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-jekyll-${{ hashFiles('**/*.html') }}
+          restore-keys: |
+            ${{ runner.os }}-jekyll-
       - name: Build website
         uses: ./.github/actions/build
       - name: Check HTML
@@ -147,9 +230,23 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
+      - name: Cache node modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
+      - name: Cache Jekyll build
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-jekyll-${{ hashFiles('**/*.html') }}
+          restore-keys: |
+            ${{ runner.os }}-jekyll-
       - name: Build website
         uses: ./.github/actions/build
       - name: Check HTML
@@ -169,9 +266,23 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
+      - name: Cache node modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
+      - name: Cache Jekyll build
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-jekyll-${{ hashFiles('**/*.html') }}
+          restore-keys: |
+            ${{ runner.os }}-jekyll-
       - name: Build website
         uses: ./.github/actions/build
       - name: Check HTML
@@ -191,9 +302,23 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
+      - name: Cache node modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
+      - name: Cache Jekyll build
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-jekyll-${{ hashFiles('**/*.html') }}
+          restore-keys: |
+            ${{ runner.os }}-jekyll-
       - name: Build website
         uses: ./.github/actions/build
       - name: Check HTML
@@ -213,9 +338,23 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
+      - name: Cache node modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
+      - name: Cache Jekyll build
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-jekyll-${{ hashFiles('**/*.html') }}
+          restore-keys: |
+            ${{ runner.os }}-jekyll-
       - name: Build website
         uses: ./.github/actions/build
       - name: Check HTML

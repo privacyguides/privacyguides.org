@@ -24,6 +24,11 @@ jobs:
     - uses: actions/setup-node@v2
       with:
         node-version: '14'
+    - name: Cache Jekyll build
+      uses: actions/cache@v2
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-jekyll-${{ hashFiles('**/*.html') }}
     - name: Build website
       uses: ./.github/actions/build
     - name: Copy built site to production
