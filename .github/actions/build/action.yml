@@ -4,8 +4,6 @@ runs:
   using: "composite"
   steps:
     - shell: bash
-      run: npm install
-    - shell: bash
       run: |
         sed -i "s/^     date:.*$/     date: $(TZ=UTC date "+%Y-%m-%d")/" _config.yml
         sed -i "s/^     time:.*$/     time: $(TZ=UTC date "+%H:%M:%S %Z")/" _config.yml

@@ -11,10 +11,9 @@ env:
   FONTAWESOME_NPM_AUTH_TOKEN: ${{ secrets.FONTAWESOME_NPM_AUTH_TOKEN }}
 
 jobs:
-  deploy:
-    name: Rsync Deploy
+  build:
+    name: Jekyll Build
     runs-on: ubuntu-latest
-    environment: production
 
     steps:
     - uses: actions/checkout@v2
@@ -31,12 +30,33 @@ jobs:
           .jekyll-cache
           .sass-cache
         key: ${{ runner.os }}-jekyll-${{ hashFiles('**/*.??m[ld]') }}
+    - name: Install dependencies
+      run: npm install
     - name: Build website
       uses: ./.github/actions/build
+    - run: tar cvf site.tar _site
+    - name: Upload generated Jekyll site
+      uses: actions/upload-artifact@v2
+      with:
+        name: generated-site
+        path: site.tar
+
+  deploy:
+    name: Rsync Deploy
+    runs-on: ubuntu-latest
+    environment: production
+    needs: build
+
+    steps:
+    - name: Download generated Jekyll site
+      uses: actions/download-artifact@v2
+      with:
+        name: generated-site
+    - run: tar xvf site.tar
     - name: Copy built site to production
       run: |
         mkdir -p ~/.ssh
         echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
         chmod 700 ~/.ssh/id_rsa
         ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
-        rsync -azP --delete ${{ github.workspace }}/_site/ ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }}:privacyguides.org-deploy
+        rsync -azP --delete _site/ ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }}:privacyguides.org-deploy
