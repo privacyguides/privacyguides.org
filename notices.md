@@ -19,7 +19,7 @@ Privacy Guides additionally does not warrant that this website will be constantl
 <span class="badge badge-secondary mt-5">Section 2</span>
 # Licenses
 
-<span class="lead">All content on this website is Copyright &copy; Jonah Aragon, Aragon Ventures LLC, and [Contributors](https://github.com/privacyguides/privacyguides/graphs/contributors); and is licensed under the terms of the [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).</span>
+<span class="lead">All content on this website is Copyright &copy; Jonah Aragon, Aragon Ventures LLC, and [Contributors](https://github.com/privacyguides/privacyguides/graphs/contributors); and is licensed under the terms of the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).</span>
 
 **Content** on this website is based on [github.com/privacyguides/privacyguides](https://github.com/privacyguides/privacyguides) and is made available for sharing and distribution under the Creative Commons Attribution-NonCommercial 4.0 International License.
 
