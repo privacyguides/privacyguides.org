@@ -84,6 +84,12 @@ jobs:
         uses: chabad360/htmlproofer@v1.1
         with:
           directory: ${{ github.workspace }}/_site
+          arguments: --assume-extension --external_only --internal-domains privacyguides.org,www.privacyguides.org
+        continue-on-error: true
+      - name: Check HTML
+        uses: chabad360/htmlproofer@v1.1
+        with:
+          directory: ${{ github.workspace }}/_site
           arguments: --assume-extension --external_only --only_4xx --internal-domains privacyguides.org,www.privacyguides.org
 
   https:
