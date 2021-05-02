@@ -1,0 +1,27 @@
+version: 2
+
+registries:
+
+  fortawesome:
+    type: npm-registry
+    url: https://npm.fontawesome.com/
+    token: ${{ secrets.FONTAWESOME_NPM_AUTH_TOKEN }}
+
+updates:
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "bundler" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    registries:
+      - fortawesome
+    schedule:
+      interval: "daily"

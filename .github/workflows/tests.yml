@@ -113,7 +113,6 @@ jobs:
     name: "Broken Hyperlinks (External)"
     runs-on: ubuntu-latest
     needs: [build, link]
-    continue-on-error: true
 
     steps:
       - uses: actions/checkout@v2
@@ -166,7 +165,6 @@ jobs:
     name: "Require HTTPS Internal Images"
     runs-on: ubuntu-latest
     needs: build
-    continue-on-error: true
 
     steps:
       - uses: actions/checkout@v2
@@ -204,7 +202,6 @@ jobs:
     name: "Script Reference Checks"
     runs-on: ubuntu-latest
     needs: [build, link]
-    continue-on-error: true
 
     steps:
       - uses: actions/checkout@v2
@@ -235,7 +232,6 @@ jobs:
     name: "HTML Tag Test"
     runs-on: ubuntu-latest
     needs: build
-    continue-on-error: true
 
     steps:
       - uses: actions/checkout@v2
@@ -273,7 +269,6 @@ jobs:
     name: "HTML Entity Names Test"
     runs-on: ubuntu-latest
     needs: build
-    continue-on-error: true
 
     steps:
       - uses: actions/checkout@v2
@@ -311,7 +306,6 @@ jobs:
     name: "Misc HTML Test"
     runs-on: ubuntu-latest
     needs: build
-    continue-on-error: true
 
     steps:
       - uses: actions/checkout@v2
@@ -349,7 +343,6 @@ jobs:
     name: "OpenGraph Test"
     runs-on: ubuntu-latest
     needs: build
-    continue-on-error: true
 
     steps:
       - uses: actions/checkout@v2
