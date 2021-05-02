@@ -27,8 +27,10 @@ jobs:
     - name: Cache Jekyll build
       uses: actions/cache@v2
       with:
-        path: ~/.npm
-        key: ${{ runner.os }}-jekyll-${{ hashFiles('**/*.html') }}
+        path: |
+          .jekyll-cache
+          .sass-cache
+        key: ${{ runner.os }}-jekyll-${{ hashFiles('**/*.??m[ld]') }}
     - name: Build website
       uses: ./.github/actions/build
     - name: Copy built site to production
