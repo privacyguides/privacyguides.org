@@ -7,10 +7,16 @@ description: |
 website: 'https://www.torproject.org/'
 website_tor: 'http://expyuzz4wqqyqhjn.onion/'
 privacy_policy: 'https://support.torproject.org/tbb/tbb-3/'
-platform_win: 'https://www.torproject.org/download/'
-platform_mac: 'https://www.torproject.org/download/'
-platform_linux: 'https://www.torproject.org/download/'
-platform_android: 'https://play.google.com/store/apps/details?id=org.torproject.torbrowser'
-platform_fdroid: 'https://guardianproject.info/fdroid/'
+downloads:
+  - icon: fab fa-windows
+    url: 'https://www.torproject.org/download/'
+  - icon: fab fa-apple
+    url: 'https://www.torproject.org/download/'
+  - icon: fab fa-linux
+    url: 'https://www.torproject.org/download/'
+  - icon: fab fa-android
+    url: 'https://play.google.com/store/apps/details?id=org.torproject.torbrowser'
+  - icon: fab fa-app-store-ios
+    url: 'https://guardianproject.info/fdroid/'
 source: 'https://trac.torproject.org/projects/tor'
 order: 2

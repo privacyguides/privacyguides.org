@@ -7,12 +7,27 @@ description: |
   Unlike Google Chrome, Firefox won’t track your data and send it to various companies. Firefox also allows you to simply install a number of add-ons that will improve your privacy online.
 website: 'https://firefox.com/'
 privacy_policy: 'https://www.mozilla.org/en-US/privacy/firefox/'
-platform_win: 'https://www.mozilla.org/firefox/windows/'
-platform_mac: 'https://www.mozilla.org/firefox/mac/'
-platform_linux: 'https://www.mozilla.org/firefox/linux/'
-platform_bsd: 'https://www.freshports.org/www/firefox'
-platform_android: 'https://play.google.com/store/apps/details?id=org.mozilla.firefox'
-platform_fdroid: 'https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/'
-platform_ios: 'https://apps.apple.com/us/app/firefox-private-safe-browser/id989804926'
+downloads:
+  - name: Windows
+    icon: fab fa-windows
+    url: 'https://www.mozilla.org/firefox/windows/'
+  - name: macOS
+    icon: fab fa-apple
+    url: 'https://www.mozilla.org/firefox/mac/'
+  - name: Linux
+    icon: fab fa-linux
+    url: 'https://www.mozilla.org/firefox/linux/'
+  - name: FreeBSD
+    icon: fab fa-freebsd
+    url: 'https://www.freshports.org/www/firefox'
+  - name: Google Play
+    icon: fab fa-google-play
+    url: 'https://play.google.com/store/apps/details?id=org.mozilla.firefox'
+  - name: Android
+    icon: fab fa-android
+    url: 'https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/'
+  - name: iOS
+    icon: fab fa-app-store-ios
+    url: 'https://apps.apple.com/us/app/firefox-private-safe-browser/id989804926'
 source: 'https://hg.mozilla.org/mozilla-central/'
 order: 1

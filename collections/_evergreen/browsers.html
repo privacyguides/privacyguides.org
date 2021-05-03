@@ -4,48 +4,35 @@ title: Browser Recommendations
 description: "These are our current web browser recommendations, settings, and add-ons you can use to preserve your privacy."
 ---
 
-{% assign browser = site.browsers | where:"title","Firefox" %}
-{% for post in browser %}
-{% include recommendation-card.html %}
-{% endfor %}
+{% for item_hash in site.data.software.browsers %}
+{% assign item = item_hash[1] %}
 
-{% assign browser = site.browsers | where:"title","Tor Browser" %}
-{% for post in browser %}
+{% if item.type == "Recommendation" %}
 {% include recommendation-card.html %}
+{% endif %}
+
 {% endfor %}
 
 <h2>Worth Mentioning</h2>
 
-{% assign browser = site.browsers | where:"title","Ungoogled Chromium" %}
-{% for post in browser %}
-{% include worth-mentioning.html %}
-{% endfor %}
+{% for item_hash in site.data.software.browsers %}
+{% assign item = item_hash[1] %}
 
-{% assign browser = site.browsers | where:"title","Safari" %}
-{% for post in browser %}
-{% include worth-mentioning.html %}
-{% endfor %}
+{% if item.type == "Worth Mentioning" %}
+{% include recommendation-text.html %}
+{% endif %}
 
-{% assign browser = site.browsers | where:"title","Bromite" %}
-{% for post in browser %}
-{% include worth-mentioning.html %}
 {% endfor %}
 
 <h2>Anti-Recommendations</h2>
 
-{% assign browser = site.browsers | where:"title","Google Chrome" %}
-{% for post in browser %}
-{% include anti-recommendation.html %}
-{% endfor %}
+{% for item_hash in site.data.software.browsers %}
+{% assign item = item_hash[1] %}
 
-{% assign browser = site.browsers | where:"title","Brave Browser" %}
-{% for post in browser %}
-{% include anti-recommendation.html %}
-{% endfor %}
+{% if item.type == "Anti-Recommendation" %}
+{% include recommendation-text.html %}
+{% endif %}
 
-{% assign browser = site.browsers | where:"title","Chromium" %}
-{% for post in browser %}
-{% include anti-recommendation.html %}
 {% endfor %}
 
 {% include hr.html %}
