@@ -9,54 +9,29 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <div class="mr-auto"></div>
       <ul class="navbar-nav mt-2 mt-lg-0">
+        {% for item_hash in site.data.nav %}
+        {% assign item = item_hash[1] %}
+        {% if item.type == "link" %}
         <li class="nav-item">
-          <a class="nav-link" href="/">Home</a>
+          <a class="nav-link" href="{% link {{ item.file }} %}">{{ item.title }}</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/browsers/">Browsers</a>
-        </li>
+        {% elsif item.type == "dropdown" %}
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="providerDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Providers
+            {{ item.title }}
           </a>
           <div class="dropdown-menu" aria-labelledby="providerDropdown">
-            <a class="dropdown-item" href="/providers/#ukusa"><span class="fas fa-user-secret fa-fw"></span> Global Mass Surveillance</a>
-            <a class="dropdown-item" href="/providers/cloud-storage/"><span class="fas fa-cloud fa-fw"></span> Cloud Storage</a>
-            <a class="dropdown-item" href="/providers/dns/"><span class="fa fa-tasks fa-fw"></span> DNS Servers</a>
-            <a class="dropdown-item" href="/providers/email/"><span class="fas fa-mail-bulk fa-fw"></span> Email Providers</a>
-            <a class="dropdown-item" href="/providers/hosting/"><span class="fas fa-database fa-fw"></span> Web Hosting</a>
-            <a class="dropdown-item" href="/providers/paste/"><span class="fas fa-paste fa-fw"></span> Pastebins</a>
-            <a class="dropdown-item" href="/providers/search-engines/"><span class="fas fa-search fa-fw"></span> Search Engines</a>
-            <a class="dropdown-item" href="/providers/social-networks/"><span class="fas fa-expand-arrows-alt fa-fw"></span> Social Networks</a>
-            <a class="dropdown-item" href="/providers/social-news-aggregator/"><span class="far fa-newspaper fa-fw"></span> Social News Aggregators</a>
-            <a class="dropdown-item" href="/providers/video/"><span class="fas fa-video fa-fw"></span> Video Platforms</a>
-            <a class="dropdown-item" href="/providers/vpn/"><span class="far fa-eye-slash fa-fw"></span> VPN Services</a>
+            {% for subitem in item.items %}
+            {% if subitem.type == "link" %}
+            <a class="dropdown-item" href="{% link {{ subitem.file }} %}{%- if subitem.anchor -%}#{{ subitem.anchor }}{%- endif -%}"><span class="{{ subitem.icon | default: "fad fa-file" }} fa-fw"></span> {{ subitem.title }}</a>
+            {% elsif subitem.type == "divider" %}
+            <div class="dropdown-divider"></div>
+            {% endif %}
+            {% endfor %}
           </div>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="softwareDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Software
-          </a>
-          <div class="dropdown-menu" aria-labelledby="softwareDropdown">
-            <a class="dropdown-item" href="/software/calendar-contacts/"><span class="fas fa-calendar fa-fw"></span> Calendar/Contacts Sync Tools</a>
-            <a class="dropdown-item" href="/software/notebooks/"><span class="far fa-sticky-note fa-fw"></span> Digital Notebooks</a>
-            <a class="dropdown-item" href="/software/email/"><span class="fas fa-envelope fa-fw"></span> Email Clients</a>
-            <a class="dropdown-item" href="/software/productivity/#encrypt"><span class="fas fa-lock fa-fw"></span> File Encryption Tools</a>
-            <a class="dropdown-item" href="/software/file-sharing/"><span class="fas fa-copy fa-fw"></span> File Sharing and Sync</a>
-            <a class="dropdown-item" href="/software/productivity/#metadata-removal-tools"><span class="far fa-eye-slash fa-fw"></span> Metadata Removal Tools</a>
-            <a class="dropdown-item" href="/software/passwords/"><span class="fas fa-user-lock fa-fw"></span> Password Managers</a>
-            <a class="dropdown-item" href="/software/productivity/"><span class="fas fa-briefcase fa-fw"></span> Productivity Tools</a>
-            <a class="dropdown-item" href="/software/real-time-communication/"><span class="fas fa-comments fa-fw"></span> Real-Time Communication Platforms</a>
-            <a class="dropdown-item" href="/software/networks/"><span class="fas fa-user-secret fa-fw"></span> Self-contained Networks</a>
-            <a class="dropdown-item" href="/software/cloud/"><span class="fas fa-hdd fa-fw"></span> Self-Hosted Cloud Servers</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/operating-systems/">Operating Systems</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/blog/">Blog</a>
-        </li>
+        {% endif %}
+        {% endfor %}
       </ul>
     </div>
   </div>

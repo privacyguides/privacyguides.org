@@ -1,0 +1,58 @@
+type: dropdown
+title: Software
+items:
+  - type: link
+    title: Browsers
+    icon: fad fa-browser
+    file: _evergreen/browsers.html
+  - type: link
+    title: Operating Systems
+    icon: fad fa-compact-disc
+    file: legacy_pages/os.html
+  - type: divider
+  - type: link
+    title: Calendar/Contacts Sync Tools
+    icon: fad fa-calendar-day
+    file: legacy_pages/software/cal-card.html
+  - type: link
+    title: Digital Notebooks
+    icon: fad fa-edit
+    file: legacy_pages/software/notebooks.html
+  - type: link
+    title: Email Clients
+    icon: fad fa-envelope-open-text
+    file: legacy_pages/software/email.html
+  - type: link
+    title: File Encryption Tools
+    icon: fad fa-file-certificate
+    file: legacy_pages/software/productivity.html
+    anchor: encrypt
+  - type: link
+    title: File Sharing and Sync
+    icon: fad fa-file-user
+    file: legacy_pages/software/file-sharing.html
+  - type: link
+    title: Metadata Removal Tools
+    icon: fad fa-file-times
+    file: legacy_pages/software/productivity.html
+    anchor: metadata-removal-tools
+  - type: link
+    title: Password Managers
+    icon: fad fa-user-lock
+    file: legacy_pages/software/passwords.html
+  - type: link
+    title: Productivity Tools
+    icon: fad fa-briefcase
+    file: legacy_pages/software/productivity.html
+  - type: link
+    title: Real-Time Communication Platforms
+    icon: fad fa-comments-alt
+    file: legacy_pages/software/real-time-communication.html
+  - type: link
+    title: Self-Contained Networks
+    icon: fad fa-chart-network
+    file: legacy_pages/software/networks.html
+  - type: link
+    title: Self-Hosted Cloud Servers
+    icon: fad fa-laptop-house
+    file: legacy_pages/software/cloud.html
