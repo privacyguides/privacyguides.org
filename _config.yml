@@ -26,55 +26,22 @@ sass:
 excerpt_separator: <!--more-->
 collections_dir: collections
 collections:
-  posts:
-    permalink: /blog/:year/:month/:day/:title/
   evergreen:
     output: true
     permalink: /:name/
-  authors:
-    permalink: /blog/authors/:path/
   devices:
     output: true
     permalink: /devices/:path/
-  browsers:
-    output: true
-    permalink: /browsers/:path/
   software:
     output: true
     permalink: /software/:path/
-  os:
-    output: true
-    permalink: /os/:path/
   providers:
     output: true
     permalink: /providers/:path/
-
-defaults:
-  - scope:
-      path: ""
-      type: "devices"
-    values:
-      layout: recommendation
-  - scope:
-      path: ""
-      type: "browsers"
-    values:
-      layout: recommendation
-  - scope:
-      path: ""
-      type: "software"
-    values:
-      layout: recommendation
-  - scope:
-      path: ""
-      type: "os"
-    values:
-      layout: recommendation
-  - scope:
-      path: ""
-      type: "providers"
-    values:
-      layout: recommendation
+  posts:
+    permalink: /blog/:year/:month/:day/:title/
+  authors:
+    permalink: /blog/authors/:path/
 
 build:
      date:
