@@ -126,13 +126,13 @@ jobs:
         uses: chabad360/htmlproofer@v1.1
         with:
           directory: ${{ github.workspace }}/_site
-          arguments: --assume-extension --external_only --internal-domains privacyguides.org,www.privacyguides.org --timeframe 30d
+          arguments: --assume-extension --external_only --internal-domains privacyguides.org,www.privacyguides.org --timeframe 30d --url-ignore '.*github\.com\/privacyguides\/privacyguides\.org\/edit\/main.*'
         continue-on-error: true
       - name: Check External Links (Only 4XX)
         uses: chabad360/htmlproofer@v1.1
         with:
           directory: ${{ github.workspace }}/_site
-          arguments: --assume-extension --external_only --only_4xx --http-status-ignore 429 --internal-domains privacyguides.org,www.privacyguides.org --timeframe 30d
+          arguments: --assume-extension --external_only --only_4xx --http-status-ignore 429 --internal-domains privacyguides.org,www.privacyguides.org --timeframe 30d --url-ignore '.*github\.com\/privacyguides\/privacyguides\.org\/edit\/main.*'
 
   https:
     name: "Require HTTPS Internal Images"
