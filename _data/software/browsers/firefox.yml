@@ -1,4 +1,3 @@
----
 title: Firefox
 type: Recommendation
 logo: /assets/img/browsers/firefox-logo.svg
@@ -17,17 +16,3 @@ platform_fdroid: 'https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/'
 platform_ios: 'https://apps.apple.com/us/app/firefox-private-safe-browser/id989804926'
 source: 'https://hg.mozilla.org/mozilla-central/'
 order: 1
----
-
-<h2 class="pt-3">Source Code</h2>
-
-<p>Mozilla publishes the source code for the Firefox browser at <a href="{{ page.source }}">{{ page.source }}</a>.</p>
-
-<h2 class="pt-3">Related Content</h2>
-
-{% assign blog1 = site.posts | where:"title","Firefox Privacy: Tips and Tricks for Better Browsing" %}
-{% for post in blog1 %}
-<div class="row">
-  {% include blog-card.html %}
-</div>
-{% endfor %}

@@ -1,4 +1,3 @@
----
 title: Tor Browser
 type: Recommendation
 info: Provides Anonymity
@@ -15,4 +14,3 @@ platform_android: 'https://play.google.com/store/apps/details?id=org.torproject.
 platform_fdroid: 'https://guardianproject.info/fdroid/'
 source: 'https://trac.torproject.org/projects/tor'
 order: 2
----
