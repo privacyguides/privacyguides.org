@@ -40,7 +40,7 @@ collections:
     permalink: /providers/:path/
   posts:
     permalink: /blog/:year/:month/:day/:title/
-  authors:
+  people:
     permalink: /blog/authors/:path/
 
 build:
