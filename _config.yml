@@ -32,27 +32,22 @@ collections:
     output: true
     permalink: /:name/
   authors:
-    permalink: /blog/authors/:name/
+    permalink: /blog/authors/:path/
   devices:
     output: true
-    permalink: /devices/:name/
-    sort_by: order
+    permalink: /devices/:path/
   browsers:
     output: true
-    permalink: /browsers/:name/
-    sort_by: order
+    permalink: /browsers/:path/
   software:
     output: true
-    permalink: /software/:name/
-    sort_by: order
+    permalink: /software/:path/
   os:
     output: true
-    permalink: /os/:name/
-    sort_by: order
+    permalink: /os/:path/
   providers:
     output: true
-    permalink: /providers/:name/
-    sort_by: order
+    permalink: /providers/:path/
 
 defaults:
   - scope:

@@ -8,7 +8,7 @@
     "assets:copy:icons": "mkdir -p assets/fonts/vendor/fontawesome && cp -a \"node_modules/@fortawesome/fontawesome-pro/.\" assets/fonts/vendor/fontawesome/",
     "assets:install": "npm run assets:copy:js && npm run assets:copy:icons",
     "build": "npm run assets:install && bundle exec jekyll build",
-    "serve": "npm run assets:install && bundle exec jekyll serve  --incremental --livereload"
+    "serve": "npm run assets:install && bundle exec jekyll serve --livereload"
   },
   "repository": {
     "type": "git",

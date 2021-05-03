@@ -2,12 +2,23 @@
 layout: default
 ---
 <div class="container my-5">
-{% if page.type == "Anti-Recommendation" %}<p>{% include badge.html
-color="danger"
-text="Anti-Recommendation"
-icon="fas fa-times-octagon"
-%}</p>{% endif %}
-  <h1>{{ page.title }}</h1>
+  {% include breadcrumbs.html %}
+  <div class="d-flex flex-row my-5 align-items-center">
+    {% if page.logo %}<div class="w-50 d-none d-lg-block text-center">
+      <img src="{{ page.logo }}" alt="{{ page.title }} logo" width="128px" height="128px" class="">
+    </div>{% endif %}
+    <div class="flex-fill">
+      {% if page.type == "Anti-Recommendation" %}<p>{% include badge.html
+      color="danger"
+      text="Anti-Recommendation"
+      icon="fas fa-times-octagon"
+      %}</p>{% endif %}
+      <h1>{{ page.title }}</h1>
+      {% if page.description %}{{ page.description | markdownify }}{% endif %}
+      {% if page.website %}<a href="{{ page.website }}" class="btn btn-primary mt-2">Visit {{ page.website | remove:'https://' | split:'/' | first }}</a>{% endif %}
+    </div>
+  </div>
   {{ content }}
+  {% include downloads.html %}
   {% include footer.html %}
 </div>

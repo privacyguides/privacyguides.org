@@ -1,8 +1,11 @@
 ---
-name: Firefox
+title: Firefox
 type: Recommendation
 logo: /assets/img/browsers/firefox-logo.svg
-short: "**Firefox** is a fast, reliable, open-source, privacy-respecting browser developed by Mozilla. Unlike Google Chrome, Firefox won’t track your data and send it to various companies. Firefox also allows you to simply install a number of add-ons that will improve your privacy online."
+description: |
+  Firefox is a fast, reliable, open-source, privacy-respecting browser developed by Mozilla.
+
+  Unlike Google Chrome, Firefox won’t track your data and send it to various companies. Firefox also allows you to simply install a number of add-ons that will improve your privacy online.
 website: 'https://firefox.com/'
 privacy_policy: 'https://www.mozilla.org/en-US/privacy/firefox/'
 platform_win: 'https://www.mozilla.org/firefox/windows/'
@@ -15,19 +18,6 @@ platform_ios: 'https://apps.apple.com/us/app/firefox-private-safe-browser/id9898
 source: 'https://hg.mozilla.org/mozilla-central/'
 order: 1
 ---
-
-<div class="row my-5">
-  <div class="col-2 d-none d-lg-block">
-    <img src="{{ page.logo }}" alt="{{ page.name }} logo" class="w-100">
-  </div>
-  <div class="col-lg-10 col-12">
-    <p class="mt-2"><strong>Firefox</strong> is a fast, reliable, open-source, privacy-respecting browser developed by Mozilla.</p>
-    <p>Unlike Google Chrome, Firefox won’t track your data and send it to various companies. Firefox also allows you to simply install a number of add-ons that will improve your privacy online.</p>
-    <a href="{{ page.website }}" class="btn btn-primary mt-2">Visit {{ page.website | remove:'https://' | split:'/' | first }}</a>
-  </div>
-</div>
-
-{% include downloads.html %}
 
 <h2 class="pt-3">Source Code</h2>
 

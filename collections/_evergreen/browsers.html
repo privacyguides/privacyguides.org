@@ -4,46 +4,46 @@ title: Browser Recommendations
 description: "These are our current web browser recommendations, settings, and add-ons you can use to preserve your privacy."
 ---
 
-{% assign browser = site.browsers | where:"name","Firefox" %}
+{% assign browser = site.browsers | where:"title","Firefox" %}
 {% for post in browser %}
 {% include recommendation-card.html %}
 {% endfor %}
 
-{% assign browser = site.browsers | where:"name","Tor Browser" %}
+{% assign browser = site.browsers | where:"title","Tor Browser" %}
 {% for post in browser %}
 {% include recommendation-card.html %}
 {% endfor %}
 
 <h2>Worth Mentioning</h2>
 
-{% assign browser = site.browsers | where:"name","Ungoogled Chromium" %}
+{% assign browser = site.browsers | where:"title","Ungoogled Chromium" %}
 {% for post in browser %}
 {% include worth-mentioning.html %}
 {% endfor %}
 
-{% assign browser = site.browsers | where:"name","Safari" %}
+{% assign browser = site.browsers | where:"title","Safari" %}
 {% for post in browser %}
 {% include worth-mentioning.html %}
 {% endfor %}
 
-{% assign browser = site.browsers | where:"name","Bromite" %}
+{% assign browser = site.browsers | where:"title","Bromite" %}
 {% for post in browser %}
 {% include worth-mentioning.html %}
 {% endfor %}
 
 <h2>Anti-Recommendations</h2>
 
-{% assign browser = site.browsers | where:"name","Google Chrome" %}
+{% assign browser = site.browsers | where:"title","Google Chrome" %}
 {% for post in browser %}
 {% include anti-recommendation.html %}
 {% endfor %}
 
-{% assign browser = site.browsers | where:"name","Brave Browser" %}
+{% assign browser = site.browsers | where:"title","Brave Browser" %}
 {% for post in browser %}
 {% include anti-recommendation.html %}
 {% endfor %}
 
-{% assign browser = site.browsers | where:"name","Chromium" %}
+{% assign browser = site.browsers | where:"title","Chromium" %}
 {% for post in browser %}
 {% include anti-recommendation.html %}
 {% endfor %}

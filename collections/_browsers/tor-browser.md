@@ -1,9 +1,10 @@
 ---
-name: Tor Browser
+title: Tor Browser
 type: Recommendation
 info: Provides Anonymity
 logo: /assets/img/browsers/tor-logo.svg
-short: "**Tor Browser** is your choice if you need an extra layer of anonymity. It’s a modified version of Firefox ESR, which comes with pre-installed privacy add-ons, encryption, and an advanced proxy. [How does Tor work?](https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-1-myth-busting-tor)"
+description: |
+  The choice if you need an extra layer of anonymity. Tor Browser is a modified version of Firefox ESR, which comes with pre-installed privacy add-ons, encryption, and an advanced proxy.
 website: 'https://www.torproject.org/'
 website_tor: 'http://expyuzz4wqqyqhjn.onion/'
 privacy_policy: 'https://support.torproject.org/tbb/tbb-3/'
@@ -15,6 +16,3 @@ platform_fdroid: 'https://guardianproject.info/fdroid/'
 source: 'https://trac.torproject.org/projects/tor'
 order: 2
 ---
-Tor Browser is your choice if you need an extra layer of anonymity. It's a modified version of Firefox ESR, which comes with pre-installed privacy add-ons, encryption, and an advanced proxy. [How does Tor work?](https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-1-myth-busting-tor)
-
-{% include downloads.html %}
