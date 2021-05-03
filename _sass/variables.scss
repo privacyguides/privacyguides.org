@@ -42,6 +42,24 @@ $dropdown-link-color: $navbar-light-color;
 $navbar-light-active-color: $dark;
 $dropdown-link-hover-color: $navbar-light-active-color;
 
+/* Extra Colors */
+$theme-colors: ();
+$theme-colors: map-merge(
+  (
+    "gray":       $gray-600,
+    "blue":       $blue,
+    "indigo":     $indigo,
+    "purple":     $purple,
+    "red":        $red,
+    "orange":     $orange,
+    "yellow":     $yellow,
+    "green":      $green,
+    "teal":       $teal,
+    "cyan":       $cyan
+  ),
+  $theme-colors
+);
+
 /* Cards */
 $card-shadow:         0 3px 10px 0 rgba(150, 150, 150, .2);
 $card-success-border:  rgba(40, 167, 69, .5);
