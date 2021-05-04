@@ -3,11 +3,11 @@
     <a class="navbar-brand" href="/">
       <h1>{% include svg/privacy-guides-logo.svg %}</h1>
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <div class="mr-auto"></div>
+      <div class="ms-auto"></div>
       <ul class="navbar-nav mt-2 mt-lg-0">
         {% for item_hash in site.data.nav %}
         {% assign item = item_hash[1] %}
@@ -17,10 +17,10 @@
         </li>
         {% elsif item.type == "dropdown" %}
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="providerDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="providerDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             {{ item.title }}
           </a>
-          <div class="dropdown-menu" aria-labelledby="providerDropdown">
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             {% for subitem in item.items %}
             {% if subitem.type == "link" %}
             <a class="dropdown-item" href="{% link {{ subitem.file }} %}{%- if subitem.anchor -%}#{{ subitem.anchor }}{%- endif -%}"><span class="{{ subitem.icon | default: "fad fa-file" }} fa-fw"></span> {{ subitem.title }}</a>

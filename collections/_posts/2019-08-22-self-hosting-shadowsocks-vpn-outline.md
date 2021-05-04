@@ -25,7 +25,7 @@ Outline allows you to setup and configure your servers from an easy-to-use manag
 
 Simply download and install the Outline Manager application to your computer.
 
-![](/assets/img/blog/shadowsocks-outline-1.png){:.img-fluid .w-75 .mx-auto .d-block}
+![Screenshot of the Outline installation process](/assets/img/blog/shadowsocks-outline-1.png){:.img-fluid .w-75 .mx-auto .d-block}
 
 Note: getoutline.org is blocked in China and likely other countries, however you can download the releases directly from [their GitHub page](https://github.com/Jigsaw-Code/outline-server/releases) as well.
 
@@ -47,7 +47,7 @@ First, we need to update our system and install `curl`. Connect to your server v
 
 Next open Outline Manager on your local machine and you should be given 4 options to configure a server. Select the “Set Up” button under the “Advanced, Set up Outline anywhere” option.
 
-![](/assets/img/blog/shadowsocks-outline-2.png){:.img-fluid .w-100 .mx-auto .d-block}
+![Screenshot of Outline Manager](/assets/img/blog/shadowsocks-outline-2.png){:.img-fluid .w-100 .mx-auto .d-block}
 
 Outline will give you a string to paste. More technical users can [view the script](https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh) that line runs in a browser to validate exactly what is being run and installed on your server, but we have examined the script and have seen no alarming commands.
 

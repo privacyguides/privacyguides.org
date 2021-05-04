@@ -1,109 +1,5 @@
-body {
-  word-wrap: break-word;
-}
-
-dt {
-  overflow-wrap: break-word;
-}
-
-.card {
-  box-shadow: $card-shadow !important;
-}
-
-/* Make links and long strings responsive */
-a,
-.long-string-list {
-  li {
-    word-wrap: break-word;
-  }
-}
-
-.card-ol {
-  padding-left: 1.25rem;
-}
-
-/*.card-success, */
-.card-success {
-  .card-header {
-    border-color: $card-success-border !important;
-  }
-}
-
-.card-primary {
-  .card-header {
-    border-color: $card-primary-border !important;
-  }
-}
-
-.card-warning  {
-  .card-header {
-    border-color: $card-warning-border !important;
-  }
-}
-
-.card-list {
-  margin-top: 2em;
-  margin-bottom: 2em;
-  margin-left: 1em;
-  margin-right: 1em;
-}
-
-.blockquote {
-  border-left: 5px solid $blockquote-border;
-  font-size: 1.2rem;
-  line-height: 1.35;
-  padding: 10px 20px;
-}
-
-.theme-dropdown {
-  .dropdown-menu {
-    display: block;
-    margin-bottom: 20px;
-    position: static;
-  }
-}
-
-.theme-showcase {
-  p > .btn {
-    margin: 5px 0;
-  }
-
-  .navbar {
-    .container {
-      width: auto;
-    }
-  }
-}
-
-.anchor, .page-header h1 {
-  margin-top: 3.5rem;
-  margin-bottom: 2rem;
-  &:target {
-    margin-top: -4rem;
-    padding-top: 7.5rem;
-  }
-}
-
-h2, h3:not(.h5), h4, h5 {
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.h5 {
-  margin-bottom: 0rem;
-}
-
-.header-404 {
-  font-size: 10rem;
-}
-
-.anchor-icon {
-  font-size: .8em;
-}
-
-.panel-item {
-  float: right;
-  margin-left: 5px;
+.no-text-wrap {
+  white-space: nowrap;
 }
 
 .panel-pic {
@@ -111,109 +7,18 @@ h2, h3:not(.h5), h4, h5 {
   margin-right: 15px;
 }
 
-.panel-icon {
-  float: right;
-  margin: 15px;
-  font-size: 5.5em;
-}
-
-.panel-font {
-  font-size: 120px;
-}
-
-.share-btn {
-  border: 0;
-  box-shadow: $share-btn-shadow;
-  color: $share-btn;
-  display: inline-block;
-  opacity: .9;
-  outline: none;
-  padding: 1em;
-  text-align: center;
-  width: 8em;
-
-  &:hover {
-    color: $share-btn-hover;
-  }
-
-  &:active {
-    box-shadow: none;
-    color: $share-btn-active;
-    outline: none;
-    position: relative;
-    top: 2px;
-  }
-}
-
-#top {
-  margin-bottom: 3rem !important;
-}
-
-.twitter { background: $twitter; }
-.mastodon { background: $mastodon; }
-.facebook { background: $facebook; }
-.mix { background: $mix; }
-.reddit { background: $reddit; }
-.linkedin    { background: $linkedin; }
-.email { background: $email; }
-.diaspora { background: $diaspora; }
-
-.footer-divider {
-  margin-top: 3em;
-  margin-bottom: 3em;
-  border: none;
-  height: 1px;
-  background-color: #343A40;
-}
-
-.copyright-text {
-  margin-top: 1em;
-  margin-bottom: 3em;
-  text-align: justify;
-}
-
-.no-text-wrap {
-  white-space: nowrap;
-}
-
-.hover-text-decoration-none:hover {
-  text-decoration: none;
-  -webkit-text-decoration-skip: object;
-}
-
 .table td, .table th {
   vertical-align: middle;
 }
 
-.btn-icon {
-  display: flex;
-  justify-content: center;
-  font-size: 1.5rem;
-  padding: 0.5rem;
-  border-radius: 0.25rem;
-  display: flex;
-  height: 2.4rem;
-  width: 2.4rem;
-  color: #eee;
-}
-.btn-icon:hover {
-  text-decoration: none;
-  color: #fff;
+h2, h3, h4, h5:not(.h5) {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
 }
 
-.btn-tor {
-  background: $tor;
-}
-.btn-tor:hover {
-  background: darken($tor, 5%);
-}
-
-.icon-btn {
-  padding: 0px;
-}
-
-.flow-root {
-  display: flow-root;
+.h5 {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
 }
 
 // SVG Color Inversion

@@ -17,7 +17,7 @@
                     {% assign text = label_data[1] %}
                     {% assign tooltip = label_data[2] | default: "" %}
                     {% assign help_icon = '<i class="far fa-question-circle"></i>' %}
-                    <span class="badge badge-{{color}}" {% if tooltip %} data-toggle="tooltip" data-original-title="{{ tooltip }}">{{text}} {{ help_icon
+                    <span class="badge rounded-pill bg-{{color}}" {% if tooltip %} data-bs-toggle="tooltip" title="{{ tooltip }}">{{text}} {{ help_icon
                         }}
                         {% else %}
                         >{{text}}
@@ -56,11 +56,11 @@
                 </a>
                 {% endif %}
                 {% if include.tor %}
-                <a class="mb-1" data-toggle="tooltip" data-placement="bottom" data-original-title="{{include.tor}} Requires specific software to access: torproject.org" href="{{include.tor}}"><img alt="Tor" src="/assets/img/layout/tor.png" width="35" height="35"></a>
+                <a class="mb-1" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{{include.tor}} Requires specific software to access: torproject.org" href="{{include.tor}}"><img alt="Tor" src="/assets/img/layout/tor.png" width="35" height="35"></a>
                 {% endif %}
 
                 {% if include.git %}
-                <a class="mb-1" data-toggle="tooltip" data-placement="bottom" data-original-title="{{include.git}} supports source code compiling and open review | is free software" href="{{include.git}}"><img alt="Git" src="assets/img/layout/git.png" width="35"></a>
+                <a class="mb-1" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{{include.git}} supports source code compiling and open review | is free software" href="{{include.git}}"><img alt="Git" src="assets/img/layout/git.png" width="35"></a>
                 {% endif %}
 
                 {% if include.extra_button %}

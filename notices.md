@@ -5,7 +5,7 @@ title: "Notices and Disclaimers"
 description: "Privacy Guides is provided with good intentions on an &quot;as-is&quot; basis, without warranty, and disclaiming liability for damages."
 ---
 
-<span class="badge badge-secondary mt-5">Section 1</span>
+<span class="badge rounded-pill bg-secondary mt-5">Section 1</span>
 # Legal Disclaimer
 
 <span class="lead">Privacy Guides is not a law firm. As such, the Privacy Guides website and contributors are not providing legal advice. The material and recommendations in our website and guides do not constitute legal advice nor does contributing to the website or communicating with Privacy Guides or other contributors about our website create an attorney-client relationship.</span>
@@ -16,7 +16,7 @@ Privacy Guides is an open source project contributed to under licenses that incl
 
 Privacy Guides additionally does not warrant that this website will be constantly available, or available at all.
 
-<span class="badge badge-secondary mt-5">Section 2</span>
+<span class="badge rounded-pill bg-secondary mt-5">Section 2</span>
 # Licenses
 
 <span class="lead">All content on this website is Copyright &copy; Jonah Aragon, and [Contributors](https://github.com/privacyguides/privacyguides/graphs/contributors); and is licensed under the terms of the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).</span>
@@ -34,7 +34,7 @@ We believe that the logos and other images in `assets` obtained from third-party
 
 When you contribute to this repository you are doing so under the above licenses.
 
-<span class="badge badge-secondary mt-5">Section 3</span>
+<span class="badge rounded-pill bg-secondary mt-5">Section 3</span>
 # Acceptable Use
 
 <span class="lead">You may not use this website in any way that causes or may cause damage to the website or impairment of the availability or accessibility of Privacy Guides, or in any way which is unlawful, illegal, fraudulent, or harmful, or in connection with any unlawful, illegal, fraudulent, or harmful purpose or activity.</span>

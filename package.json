@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "assets:copy:js": "mkdir -p assets/js/vendor && cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js assets/js/vendor/ && cp node_modules/jquery/dist/jquery.min.js assets/js/vendor/",
+    "assets:copy:js": "mkdir -p assets/js/vendor && cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.* assets/js/vendor/",
     "assets:copy:icons": "mkdir -p assets/fonts/vendor/fontawesome && cp -a \"node_modules/@fortawesome/fontawesome-pro/.\" assets/fonts/vendor/fontawesome/",
     "assets:install": "npm run assets:copy:js && npm run assets:copy:icons",
     "build": "npm run assets:install && bundle exec jekyll build",
@@ -23,8 +23,6 @@
   "homepage": "https://github.com/privacyguides/privacyguides#readme",
   "dependencies": {
     "@fortawesome/fontawesome-pro": "^6.0.0-alpha3",
-    "bootstrap": "^4.6.0",
-    "jquery": "^3.6.0",
-    "popper.js": "^1.16.1"
+    "bootstrap": "^5.0.0-beta3"
   }
 }
