@@ -23,5 +23,6 @@ layout: default
   {% if page.canonical or page.cover_src_publisher %}<hr class="m-5" />
   {% if page.cover_src_publisher %}<p><em>Cover photo: <a href="{{ page.cover_src }}">{{ page.cover_src_publisher }}</a>. Used with permission.</em></p>{% endif %}
   {% if page.canonical %}<p><em>This post was originally published on <a href="{{ page.canonical }}">{% if page.canonical_publisher %}{{ page.canonical_publisher }}{% else %}{{ page.canonical }}{% endif %}</a> and has been syndicated here with the permission of the author or publication.</em>{% endif %}</p>{% endif %}
+  {% include hr.html %}
   {% include footer.html %}
 </div>
