@@ -47,6 +47,9 @@ build:
      date:
      time:
 
+kramdown:
+  auto_ids: true
+
 # Build settings
 plugins:
   - jekyll-feed

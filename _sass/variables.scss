@@ -1,30 +1,5 @@
 /* Variables */
 
-// Default Bootstrap Colors for Now
-$white:    #fff;
-$gray-100: #f8f9fa;
-$gray-200: #e9ecef;
-$gray-300: #dee2e6;
-$gray-400: #ced4da;
-$gray-500: #adb5bd;
-$gray-600: #6c757d;
-$gray-700: #495057;
-$gray-800: #343a40;
-$gray-900: #212529;
-$black:    #000;
-
-// Default Bootstrap Colors for Now
-$blue:    #007bff;
-$indigo:  #6610f2;
-$purple:  #6f42c1;
-$pink:    #e83e8c;
-$red:     #dc3545;
-$orange:  #fd7e14;
-$yellow:  #ffc107;
-$green:   #28a745;
-$teal:    #20c997;
-$cyan:    #17a2b8;
-
 // Fancy new Privacy Guides Color Scheme
 $primary:       #FFD06F;
 $secondary:     #3913B8;
@@ -35,6 +10,17 @@ $danger:        #CA1551;
 $light:         #FFF6EB;
 $dark:          #101619;
 
+/* Social */
+$twitter:             #FFD06F;
+$mastodon:            #FFD06F;
+$facebook:            #FFD06F;
+$mix:                 #FFD06F;
+$reddit:              #FFD06F;
+$linkedin:            #FFD06F;
+$email:               #FFD06F;
+$diaspora:            #FFD06F;
+$tor:                 #7d4698;
+
 $body-color: #28323F;
 $link-color: #3913B8;
 $navbar-light-color: rgba($black, .7);
@@ -43,21 +29,26 @@ $navbar-light-active-color: $dark;
 $dropdown-link-hover-color: $navbar-light-active-color;
 
 /* Extra Colors */
-$theme-colors: ();
-$theme-colors: map-merge(
-  (
-    "gray":       $gray-600,
-    "blue":       $blue,
-    "indigo":     $indigo,
-    "purple":     $purple,
-    "red":        $red,
-    "orange":     $orange,
-    "yellow":     $yellow,
-    "green":      $green,
-    "teal":       $teal,
-    "cyan":       $cyan
-  ),
-  $theme-colors
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  "gray":       $gray-600,
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "tor":        $tor
 );
 
 /* Cards */
@@ -74,17 +65,6 @@ $share-btn:           #fff;
 $share-btn-shadow:    0 2px 0 0 rgba(0, 0, 0, .2);
 $share-btn-hover:     #eee;
 $share-btn-active:    #e2e2e2;
-
-/* Social */
-$twitter:             #FFD06F;
-$mastodon:            #FFD06F;
-$facebook:            #FFD06F;
-$mix:                 #FFD06F;
-$reddit:              #FFD06F;
-$linkedin:            #FFD06F;
-$email:               #FFD06F;
-$diaspora:            #FFD06F;
-$tor:                 #7d4698;
 
 /* SVG Colors */
 $svg-primary: $primary !default;

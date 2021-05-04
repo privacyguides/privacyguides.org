@@ -1,18 +1,18 @@
 {% if include.link %}
 <a
-  href="{{ include.link }}" class="badge badge-{{ include.color | default: "info" }}"
+  href="{{ include.link }}" class="text-decoration-none link-{{ include.color | default: "info" }}"
   {% if include.tooltip %}
-  data-toggle="tooltip"
-  data-original-title="{{ include.tooltip }}"><i class="{{ include.icon | default: "far fa-question-circle"}}"></i> {{ include.text }}
-{% else %}><i class="{{ include.icon | default: "fas fa-external-link-alt"}}"></i> {{ include.text }}{% endif %}
+  data-bs-toggle="tooltip"
+  title="{{ include.tooltip }}"><i class="{{ include.icon | default: "fad fa-question-circle"}}"></i> {{ include.text }}
+{% else %}><i class="{{ include.icon | default: "fas fa-external-link-alt"}}"></i> <span class="text-decoration-underline">{{ include.text }}</span>{% endif %}
 </a>
 {% else %}
 <span
-  class="badge badge-{{ include.color | default: "info" }}"
+  class="badge rounded-pill bg-{{ include.color | default: "info" }}"
   {% if include.tooltip %}
-    data-toggle="tooltip"
-    data-original-title="{{ include.tooltip }}"
-    > <i class="{{ include.icon | default: "far fa-question-circle"}}"></i> {{include.text}}
+    data-bs-toggle="tooltip"
+    title="{{ include.tooltip }}"
+    > <i class="{{ include.icon | default: "fad fa-question-circle"}}"></i> {{include.text}}
   {% else %}
     > {% if include.icon %}<i class="{{ include.icon }}"></i>{% endif %} {{include.text}}
   {% endif %}

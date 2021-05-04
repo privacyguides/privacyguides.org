@@ -72,7 +72,7 @@ table[data-sortable].sortable-theme-bootstrap tbody td {
 }
 /* line 18, ../sass/sortable-theme-bootstrap.sass */
 table[data-sortable].sortable-theme-bootstrap th[data-sorted="true"] {
-  color: $table-head-color;
+  color: $table-color;
   background: $table-active-bg;
   border-bottom-color: $table-border-color;
 }
@@ -82,7 +82,7 @@ table[data-sortable].sortable-theme-bootstrap th[data-sorted="true"][data-sorted
 }
 /* line 26, ../sass/sortable-theme-bootstrap.sass */
 table[data-sortable].sortable-theme-bootstrap th[data-sorted="true"][data-sorted-direction="ascending"]:after {
-  border-bottom-color: $table-head-color;
+  border-bottom-color: $table-color;
 }
 /* line 31, ../sass/sortable-theme-bootstrap.sass */
 table[data-sortable].sortable-theme-bootstrap.sortable-theme-bootstrap-striped tbody > tr:nth-child(odd) > td {
