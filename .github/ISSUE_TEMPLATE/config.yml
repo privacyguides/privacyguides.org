@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a Question
+    url: https://github.com/privacyguides/privacyguides.org/discussions/new
+    about: Let us know if something doesn't make sense!
+  - name: Share an Idea
+    url: https://github.com/privacyguides/privacyguides.org/discussions/new
+    about: Suggest a new feature/section/page or anything else for the website.

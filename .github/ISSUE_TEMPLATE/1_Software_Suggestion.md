@@ -1,6 +1,6 @@
 ---
-name: "🆕 Software or Provider Suggestion"
-about: "Suggest something new for us to look at!"
+name: "Software or Provider Suggestion"
+about: "Suggest something new for us to look at, or something we should remove."
 ---
 
 ## Basic Information

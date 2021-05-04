@@ -1,5 +1,5 @@
 ---
-name: "📝 Content Correction"
+name: "Content Correction"
 about: Report any inaccurate, incorrect, or outdated information on the website.
 ---
 
