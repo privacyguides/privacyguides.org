@@ -21,7 +21,7 @@ All you will need to complete this guide is a computer running Windows, macOS, o
 
 ### Step 1 — Download & Install Outline Manager
 
-Outline allows you to setup and configure your servers from an easy-to-use management console called Outline Manager, which can be downloaded from [getoutline.org](https://getoutline.org/en/home). It has binaries available for Windows, macOS, and Linux.
+Outline allows you to setup and configure your servers from an easy-to-use management console called Outline Manager, which can be downloaded from [getoutline.org](https://getoutline.org). It has binaries available for Windows, macOS, and Linux.
 
 Simply download and install the Outline Manager application to your computer.
 
