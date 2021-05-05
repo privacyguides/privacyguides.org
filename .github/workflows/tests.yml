@@ -7,7 +7,6 @@ on:
   pull_request:
     branches:
       - main
-
 env:
   FONTAWESOME_NPM_AUTH_TOKEN: ${{ secrets.FONTAWESOME_NPM_AUTH_TOKEN }}
 
@@ -43,6 +42,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        submodules: 'true'
     - uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
@@ -83,6 +84,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        submodules: 'true'
     - name: Download generated Jekyll site
       uses: actions/download-artifact@v2
       with:
