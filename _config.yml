@@ -9,20 +9,10 @@ url: "https://www.privacyguides.org" # the base hostname & protocol for your sit
 sass:
     sass_dir: _sass
 excerpt_separator: <!--more-->
-collections_dir: collections
 collections:
   evergreen:
     output: true
     permalink: /:name/
-  devices:
-    output: true
-    permalink: /devices/:path/
-  software:
-    output: true
-    permalink: /software/:path/
-  providers:
-    output: true
-    permalink: /providers/:path/
   posts:
     permalink: /blog/:year/:month/:day/:title/
   people:
