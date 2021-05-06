@@ -1,6 +1,5 @@
 ---
 name: Niek de Wilde
-website: 'https://dngray.netlify.app'
 github: blacklight447-ptio
 image: blacklight447.png
 ---
