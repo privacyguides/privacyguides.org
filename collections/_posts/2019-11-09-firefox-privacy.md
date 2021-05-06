@@ -7,6 +7,7 @@ cover_src_publisher: Szabo Viktor
 color: "linear-gradient(to bottom, rgba(158, 82, 19, 0.5), rgba(158, 82, 19, 0.9))"
 canonical: 'https://blog.privacytools.io/firefox-privacy-an-introduction-to-safe/'
 canonical_publisher: the PrivacyTools Blog
+tags: Guides Privacy Firefox
 layout: post
 excerpt: Mozilla Firefox is one of the most popular web browsers around, and for good reason. It's fast, secure, open-source, and it's backed by an organization that actually respects your privacy.
 ---

@@ -6,6 +6,7 @@ cover_src: 'https://unsplash.com/@freeche'
 cover_src_publisher: Kvistholt Photography
 canonical: 'https://blog.privacytools.io/understanding-vpns/'
 canonical_publisher: the PrivacyTools Blog
+tags: VPN Security Privacy
 layout: post
 excerpt: A VPN is a tool that secures your internet connection from attackers on your network...
 ---

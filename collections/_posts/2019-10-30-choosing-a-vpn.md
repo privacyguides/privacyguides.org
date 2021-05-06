@@ -1,6 +1,9 @@
 ---
 title: Choosing a VPN
 author: Jonah Aragon
+canonical: 'https://blog.privacytools.io/choosing-a-vpn/'
+canonical_publisher: the PrivacyTools Blog
+tags: VPN Guides Privacy Security
 layout: post
 excerpt: Now you know what a VPN is, here's how you choose between them...
 ---
