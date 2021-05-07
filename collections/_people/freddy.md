@@ -1,8 +1,9 @@
 ---
 name: Freddy
-website: 'https://jonaharagon.com'
+website: 
 github: freddy-m
-twitter: 
+twitter: m00ws
 image: freddy.png
 ---
-I'm an amateur writer covering privacy, security and open-source development.
+I'm an amateur, freelance writer predominantly covering privacy, amongst other subjects.
+
