@@ -1,0 +1,25 @@
+title: Cloudflare
+homepage: 'https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/'
+anycast: true
+locations:
+  - US
+privacy_policy:
+  link: 'https://www.cloudflare.com/privacypolicy/'
+type:
+  name: Commercial
+logs:
+  policy: true
+  text: Some
+  link: 'https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/'
+  tooltip: >-
+    "Cloudflare collects and stores only the limited DNS query data that is sent to the 1.1.1.1 resolver.
+    The 1.1.1.1 resolver service does not log personal data,
+    and the bulk of the limited non-personally identifiable query data is only stored for 25 hours."
+protocols:
+  - name: DoH
+  - name: DoT
+dnssec: true
+qname_minimization: true
+filtering: Based on server choice.
+providers:
+  - name: Self

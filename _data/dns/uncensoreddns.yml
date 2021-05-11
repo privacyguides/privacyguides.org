@@ -1,0 +1,31 @@
+title: UncensoredDNS
+homepage: 'https://blog.uncensoreddns.org/'
+source: 'https://github.com/AdguardTeam/AdGuardDNS/'
+anycast: true
+locations:
+  - DE
+  - US
+privacy_policy:
+  link: 'https://blog.uncensoreddns.org/faq/'
+  tooltip: >-
+    "Absolutely nothing is being logged, neither about the users nor the usage of this service.
+    I do keep graphs of the total number of queries, but no personally identifiable information is saved.
+    The data that is saved will never be sold or used for anything except capacity planning of the service."
+type:
+  name: Hobby Project
+logs:
+  policy: false
+protocols:
+  - name: DoH
+  - name: DoT
+dnssec: true
+qname_minimization: false
+filtering: None
+providers:
+  - name: DeiC
+    link: 'https://www.deic.dk'
+  - name: Kracon ApS
+    link: 'https://kracon.dk'
+  - name: RGnet OU
+  - name: Telia Company AB
+    link: 'https://www.telia.dk'

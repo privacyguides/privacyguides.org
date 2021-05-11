@@ -1,0 +1,30 @@
+title: AdGuard
+homepage: 'https://adguard.com/en/adguard-dns/overview.html'
+source: 'https://github.com/AdguardTeam/AdGuardDNS/'
+anycast: true
+locations:
+  - CY
+privacy_policy:
+  link: 'https://adguard.com/en/privacy/dns.html'
+type:
+  name: Commercial
+logs:
+  policy: true
+  text: Some
+  link: 'https://adguard.com/en/privacy/dns.html'
+  tooltip: >-
+    We store aggregated performance metrics of our DNS server, namely the number of complete requests to a particular server, the number of blocked requests, the speed of processing requests.
+    We keep and store the database of domains requested in the last 24 hours. We need this information to identify and block new trackers and threats.
+    We also log how many times this or that tracker has been blocked. We need this information to remove outdated rules from our filters.
+protocols:
+  - name: DoH
+  - name: DoT
+  - name: DNSCrypt
+dnssec: true
+qname_minimization: true
+filtering: Based on server choice
+providers:
+  - name: Choopa, LLC
+    link: 'https://www.choopa.com'
+  - name: Serveroid, LLC
+    link: 'https://flops.ru/en/about.html'

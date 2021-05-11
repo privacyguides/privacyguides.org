@@ -1,0 +1,26 @@
+title: NixNet
+homepage: 'https://nixnet.xyz/'
+source: 'https://git.nixnet.xyz/NixNet/dns'
+anycast: true
+locations:
+  - US
+  - LU
+privacy_policy:
+  link: 'https://nixnet.xyz/privacy/'
+type:
+  name: Informal Collective
+  link: 'https://libreho.st/'
+  tooltip: >-
+    Part of LibreHosters,
+    "a network of cooperation and solidarity that uses free software to encourage decentralisation through federation and distributed platforms."
+logs:
+  policy: false
+protocols:
+  - name: DoH
+  - name: DoT
+dnssec: true
+qname_minimization: true
+filtering: Based on server choice
+providers:
+  - name: Frantech Solutions
+    link: 'https://frantech.ca/'

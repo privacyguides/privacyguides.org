@@ -1,0 +1,27 @@
+title: Foundation for Applied Privacy
+homepage: 'https://appliedprivacy.net/services/dns/'
+anycast: false
+locations:
+  - AT
+privacy_policy:
+  link: 'https://appliedprivacy.net/privacy-policy'
+type:
+  name: Non-Profit
+logs:
+  policy: true
+  text: Some
+  link: 'https://applied-privacy.net//privacy-policy/'
+  tooltip: >-
+    "We do NOT log your IP address or DNS queries during normal operations.
+    We do NOT share query data with third parties that are not directly involved with resolving the query
+    (i.e. sending queries to authoritative nameservers for resolution)."
+protocols:
+  - name: DoH
+  - name: DoT
+    tooltip: Additionally supports port 443
+dnssec: true
+qname_minimization: true
+filtering: None
+providers:
+  - name: IPAX OG
+    link: 'https://www.ipax.at/'

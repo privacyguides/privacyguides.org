@@ -1,0 +1,25 @@
+title: NextDNS
+homepage: 'https://www.nextdns.io/'
+anycast: true
+locations:
+  - US
+privacy_policy:
+  link: 'https://www.nextdns.io/privacy'
+type:
+  name: Commercial
+logs:
+  policy: true
+  text: Optional
+  tooltip: >-
+    NextDNS can provide insights and logging features on an opt-in basis.
+    Users can choose retention times and log storage locations for any logs they choose to keep.
+  color: info
+protocols:
+  - name: DoH
+  - name: DoT
+  - name: DNSCrypt
+dnssec: true
+qname_minimization: true
+filtering: Based on server choice
+providers:
+  - name: Self

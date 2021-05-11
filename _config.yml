@@ -13,16 +13,10 @@ collections_dir: collections
 collections:
   evergreen:
     output: true
-    permalink: /:name/
-  devices:
+    permalink: /:slug/
+  pages:
     output: true
-    permalink: /devices/:path/
-  software:
-    output: true
-    permalink: /software/:path/
-  providers:
-    output: true
-    permalink: /providers/:path/
+    permalink: /:path/
   posts:
     permalink: /blog/:year/:month/:day/:title/
   people:

@@ -1,0 +1,25 @@
+title: LibreDNS
+homepage: 'https://libredns.gr/'
+source: 'https://gitlab.com/libreops/libredns'
+anycast: false
+locations:
+  - DE
+privacy_policy:
+  link: 'https://libreops.cc/terms.html'
+type:
+  name: Informal Collective
+  link: 'https://libreho.st/'
+  tooltip: >-
+    Part of LibreHosters,
+    "a network of cooperation and solidarity that uses free software to encourage decentralisation through federation and distributed platforms."
+logs:
+  policy: false
+protocols:
+  - name: DoH
+  - name: DoT
+dnssec: false
+qname_minimization: true
+filtering: Based on server choice (DoH servers only)
+providers:
+  - name: Hetzner Online GmbH
+    link: 'https://www.hetzner.com/'

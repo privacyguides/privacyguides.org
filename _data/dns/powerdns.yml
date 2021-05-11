@@ -1,0 +1,20 @@
+title: PowerDNS
+homepage: 'https://powerdns.org/'
+source: 'https://github.com/PowerDNS/pdns'
+anycast: false
+locations:
+  - NL
+privacy_policy:
+  link: 'https://powerdns.org/doh/privacy.html'
+type:
+  name: Hobby Project
+logs:
+  policy: false
+protocols:
+  - name: DoH
+dnssec: true
+qname_minimization: false
+filtering: None
+providers:
+  - name: TransIP B.V. Admin
+    link: 'https://www.transip.nl/'

@@ -1,0 +1,24 @@
+title: Snoptya
+homepage: 'https://snopyta.org/service/dns/index.html'
+anycast: false
+locations:
+  - FI
+privacy_policy:
+  link: 'https://snopyta.org/privacy_policy/'
+type:
+  name: Informal Collective
+  link: 'https://libreho.st/'
+  tooltip: >-
+    Part of LibreHosters,
+    "a network of cooperation and solidarity that uses free software to encourage decentralisation through federation and distributed platforms."
+logs:
+  policy: false
+protocols:
+  - name: DoH
+  - name: DoT
+dnssec: true
+qname_minimization: true
+filtering: None
+providers:
+  - name: Hetzner Online GmbH
+    link: 'https://www.hetzner.com/'
