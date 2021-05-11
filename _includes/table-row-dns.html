@@ -1,0 +1,54 @@
+{% assign data = include.data[1] %}
+<td data-value="{{ data.title }}">
+  <a href="{{ data.homepage }}">{{ data.title }}</a>
+</td>
+<td>{%- if data.anycast -%}<strong class="text-green">Anycast:</strong> {%- endif -%}
+  <ul class="list-unstyled mb-0">{%- for location in data.locations -%}
+  <li>{%- include country.html cc=location -%}</li>
+  {%- endfor -%}</ul>
+</td>
+<td>
+  {% if data.privacy_policy.link %}<a
+    {% if data.privacy_policy.tooltip %}data-bs-toggle="tooltip" data-bs-placement="bottom" title='{{ data.privacy_policy.tooltip | escape }}'
+    {% endif %}href="{{ data.privacy_policy.link }}">
+    <span class="fad fa-external-link"></span>
+  </a>{% else %}
+  <span data-bs-toggle="tooltip" data-bs-placement="bottom" title='{{ data.privacy_policy.tooltip | escape }}' class="fad fa-info-circle"></span>{% endif %}
+</td>
+<td>{% if data.type.link %}<a
+  {% if data.type.tooltip %}data-bs-toggle="tooltip" data-bs-placement="bottom" title='{{ data.type.tooltip | escape }}'
+  {% endif %}href="{{ data.type.link }}">{{ data.type.name }}</a>
+  {% else %}{{ data.type.name }}{% endif %}
+</td>
+<td><ul class="list-unstyled mb-0">{%- for protocol in data.protocols -%}
+  <li>{{ protocol.name }}{% if protocol.tooltip %}
+    <span data-bs-toggle="tooltip" data-bs-placement="bottom" title='{{ protocol.tooltip | escape }}' class="fad fa-info-circle"></span>
+    {% endif %}</li>{%- endfor -%}</ul>
+</td>
+{% if data.logs.policy %}<td class="table-{{ data.logs.color | escape | default: 'warning' }}"><span class="text-nowrap">{% if data.logs.link %}
+  <a href="{{ data.logs.link }}"{% else %}<span{% endif %}
+  {% if data.logs.tooltip %}data-bs-toggle="tooltip" data-bs-placement="bottom" title='{{ data.logs.tooltip | escape }}'{% endif %}
+  >{{ data.logs.text | default: 'Yes' }}{% unless data.logs.link %}{% if data.logs.tooltip %} <span class="fad fa-info-circle"></span>{% endif %}{% endunless %}</{%- if data.logs.link -%}a{%- else -%}span{%- endif -%}>
+  </span>{% else %}<td class="table-success">No{% endif %}
+</td>
+<td
+  {% unless data.dnssec %}class="table-danger"><span title="Does not validate DNSSEC" aria-hidden="true" class="fad text-red fa-times-circle"></span><span class="visually-hidden">No</span>{% else %}
+  class="table-success"><span title="Validates DNSSEC" aria-hidden="true" class="fad text-green fa-check-square"></span><span class="visually-hidden">Yes</span>{% endunless %}
+</td>
+<td
+  {% unless data.qname_minimization %}class="table-danger"><span title="Does not perform QNAME Minimization" aria-hidden="true" class="fad text-red fa-times-circle"></span><span class="visually-hidden">No</span>{% else %}
+  class="table-success"><span title="Performs QNAME Minimization" aria-hidden="true" class="fad text-green fa-check-square"></span><span class="visually-hidden">Yes</span>{% endunless %}
+</td>
+<td>
+  {{ data.filtering | escape | default: '<em>Unknown?</em>' }}
+</td>
+<td>
+  {% if data.source %}<a href="{{ data.source }}">
+    <span class="fad fa-external-link"></span>
+  </a>{% endif %}
+</td>
+<td>
+  <ul class="list-unstyled mb-0">{%- for provider in data.providers -%}
+    <li class="text-nowrap">{% if provider.link %}<a href="{{ provider.link }}">{{ provider.name | escape }}</a>{% else %}{{ provider.name | escape }}{% endif %}</li>
+  {%- endfor -%}</ul>
+</td>

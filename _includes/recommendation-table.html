@@ -1,0 +1,13 @@
+<div id="dns-table" class="table-responsive">
+  <table class="table table-hover sortable-theme-bootstrap" data-sortable>
+    <thead>
+      {% include table-header-{{ include.data }}.html %}
+    </thead>
+    <tbody>
+      {% for provider in site.data[include.data] %}<tr>
+      {% include table-row-{{ include.data }}.html data=provider %}</tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+<p class="text-end"><small><a href="https://github.com/privacyguides/privacyguides.org/tree/main/_data/{{ include.data }}">View table data on GitHub</a></small></p>
