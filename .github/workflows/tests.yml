@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2.3.4
     - name: Cache node modules
       uses: actions/cache@v2
       with:
@@ -42,7 +42,7 @@ jobs:
     needs: deps
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2.3.4
     - uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
@@ -82,7 +82,7 @@ jobs:
     needs: build
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2.3.4
     - name: Download generated Jekyll site
       uses: actions/download-artifact@v2
       with:
@@ -107,7 +107,7 @@ jobs:
     needs: [build, link]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
       - name: Download generated Jekyll site
         uses: actions/download-artifact@v2
         with:
@@ -140,7 +140,7 @@ jobs:
     needs: build
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
       - name: Download generated Jekyll site
         uses: actions/download-artifact@v2
         with:
@@ -158,7 +158,7 @@ jobs:
     needs: [build, link]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
       - name: Download generated Jekyll site
         uses: actions/download-artifact@v2
         with:
@@ -176,7 +176,7 @@ jobs:
     needs: build
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
       - name: Download generated Jekyll site
         uses: actions/download-artifact@v2
         with:
@@ -194,7 +194,7 @@ jobs:
     needs: build
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
       - name: Download generated Jekyll site
         uses: actions/download-artifact@v2
         with:
@@ -212,7 +212,7 @@ jobs:
     needs: build
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
       - name: Download generated Jekyll site
         uses: actions/download-artifact@v2
         with:
@@ -230,7 +230,7 @@ jobs:
     needs: build
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
       - name: Download generated Jekyll site
         uses: actions/download-artifact@v2
         with:
