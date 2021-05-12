@@ -19,7 +19,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Cache node modules
-      uses: actions/cache@v2
+      uses: actions/cache@v2.1.5
       with:
         path: ~/.npm
         key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
@@ -50,7 +50,7 @@ jobs:
       with:
         node-version: '14'
     - name: Cache Jekyll build
-      uses: actions/cache@v2
+      uses: actions/cache@v2.1.5
       with:
         path: |
           .jekyll-cache
@@ -115,7 +115,7 @@ jobs:
       - run: tar xvf site.tar
       - name: Cache HTMLProofer
         id: cache-htmlproofer
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.5
         with:
           path: tmp/.htmlproofer
           key: ${{ runner.os }}-htmlproofer-${{ hashFiles('_site/**.html') }}
