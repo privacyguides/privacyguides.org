@@ -23,6 +23,6 @@
   "homepage": "https://github.com/privacyguides/privacyguides#readme",
   "dependencies": {
     "@fortawesome/fontawesome-pro": "^6.0.0-beta1",
-    "bootstrap": "^5.0.0"
+    "bootstrap": "^5.0.2"
   }
 }
