@@ -1,11 +1,10 @@
 ---
 ---
 @import "./node_modules/bootstrap/scss/functions";
-@import "./node_modules/bootstrap/scss/variables";
-@import "variables";
+@import "brand";
 
-$primary: darken( $primary, 48% );
-$secondary: lighten( $secondary, 15% );
+$primary: darken( $primary, 50% );
+$secondary: lighten( $secondary, 10% );
 $success: darken( $success, 10% );
 $info: darken( $info, 5% );
 $danger: lighten( $warning, 20% );
@@ -18,6 +17,9 @@ $link-color: lighten( $secondary, 30% );
 $mark-bg: darken( $primary, 10% );
 $breadcrumb-bg: lighten( $dark, 5% );
 $hr-border-color: $body-color;
+
+@import "./node_modules/bootstrap/scss/variables";
+@import "variables";
 
 $card-shadow: 0 3px 10px 0 $dark;
 $list-group-color: $body-color;
