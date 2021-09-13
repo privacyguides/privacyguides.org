@@ -3,8 +3,8 @@
 @import "./node_modules/bootstrap/scss/functions";
 @import "brand";
 
-$primary: darken( $primary, 50% );
-$secondary: lighten( $secondary, 10% );
+$primary: #EAB448;
+//$secondary: lighten( $secondary, 10% );
 $success: darken( $success, 10% );
 $info: darken( $info, 5% );
 $danger: lighten( $warning, 20% );
@@ -14,7 +14,7 @@ $body-bg: $dark;
 $card-bg: lighten( $dark, 5% );
 $body-color: $light;
 $link-color: lighten( $secondary, 30% );
-$mark-bg: darken( $primary, 10% );
+$mark-bg: darken( $primary, 60% );
 $breadcrumb-bg: lighten( $dark, 5% );
 $hr-border-color: $body-color;
 
@@ -33,21 +33,60 @@ $table-border-color: lighten( $dark, 20% );
 $table-active-bg: rgba($white, .075);
 $table-head-color: $white;
 
-$navbar-light-color:                 rgba($white, .5);
-$navbar-light-hover-color:           rgba($white, .75);
+/*$navbar-light-color:                 ;
+$navbar-light-hover-color:           ;
 $navbar-light-active-color:          $white;
 $navbar-light-disabled-color:        rgba($white, .25);
 $navbar-light-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
-$navbar-light-toggler-border-color:  rgba($white, .1);
+$navbar-light-toggler-border-color:  rgba($white, .1);*/
 $dropdown-bg: $card-bg;
-$dropdown-link-color: $navbar-light-color;
-$dropdown-link-hover-color: $navbar-light-active-color;
+$dropdown-link-color: rgba($white, .5);
+$dropdown-link-hover-color: rgba($white, .75);
 $dropdown-link-hover-bg: lighten( $dropdown-bg, 10% );
 
 .container-fullwidth {
   margin: 0 auto;
   width: 100%;
 }
+
+@import "./node_modules/bootstrap/scss/mixins";
+@import "./node_modules/bootstrap/scss/utilities";
+
+$all-colors: map-merge-multiple($blues, $indigos, $purples, $pinks, $reds, $oranges, $yellows, $greens, $teals, $cyans, $grays);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "color": map-merge(
+      map-get($utilities, "color"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "color"), "values"),
+          (
+            $all-colors
+          ),
+        ),
+      ),
+    ),
+  )
+);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "background-color": map-merge(
+      map-get($utilities, "background-color"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "background-color"), "values"),
+          (
+            $all-colors
+          ),
+        ),
+      ),
+    ),
+  )
+);
 
 // import /_sass/bootstrap.scss
 @import "./node_modules/bootstrap/scss/bootstrap";
