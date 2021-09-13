@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Suggest a New Provider or Software
+    url: https://github.com/privacyguides/privacyguides.org/discussions/new
+    about: Suggest something new for us to look at, or something we should remove.
   - name: Ask a Question
     url: https://github.com/privacyguides/privacyguides.org/discussions/new
     about: Let us know if something doesn't make sense!
