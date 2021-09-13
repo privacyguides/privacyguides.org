@@ -4,7 +4,7 @@ anycast: true
 locations:
   - CH
 privacy_policy:
-  link: 'https://quad9.net/policy/'
+  link: 'https://quad9.net/service/privacy'
 type:
   name: Non-Profit
 logs:
