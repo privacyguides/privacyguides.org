@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="privacy, anonymity, privacy guides, surveillance, encryption">
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="canonical" href="{{ page.permalink | prepend: site.url | replace:'index.html','' }}">
+  <link rel="canonical" href="{{ page.url | prepend: site.url | replace:'index.html','' }}">
 
   <!-- title -->
   {% if page.title %}
@@ -16,7 +16,7 @@
   <meta property="og:title" content="{{ site.title | escape }}" />
   {% endif %}
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="{{ page.permalink | prepend: site.url }}" />
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
   <meta property="og:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}"/>
   <meta property="og:locale" content="en_US" />
   <meta property="og:site_name" content="{{ site.title | escape }}" />
@@ -36,5 +36,5 @@
   <!-- CSS stylesheets -->
   <link href="/assets/css/app.css?v=20210506" rel="stylesheet">
   <link href="/assets/fonts/vendor/fontawesome/css/all.min.css?v=6.0.0-beta1" rel="stylesheet">
-  <link id="dark-css" href="/assets/css/dark.css?v=20210506" rel="stylesheet" media="(prefers-color-scheme: dark)">
+  <!--<link id="dark-css" href="/assets/css/dark.css?v=20210506" rel="stylesheet" media="(prefers-color-scheme: dark)">-->
 </head>

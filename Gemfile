@@ -5,6 +5,7 @@ gem "jekyll", "~> 4.2"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-brotli", "~> 2.3"
+  gem "jekyll-sitemap", "~> 1.4"
 end
 
 # Jekyll 3.9.0 now requires this explicitly installed, apparently
