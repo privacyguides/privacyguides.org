@@ -1,6 +1,6 @@
 ---
 title: 'Self-hosting a Shadowsocks VPN with Outline'
-author: Jonah Aragon
+author: Jonah
 layout: post
 excerpt: Outline is a suite of open-source software developed for journalists to safely access their network and the internet while traveling in countries where their activities may be monitored or censored...
 ---

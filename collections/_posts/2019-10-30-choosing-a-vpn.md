@@ -1,6 +1,6 @@
 ---
 title: Choosing a VPN
-author: Jonah Aragon
+author: Jonah
 layout: post
 excerpt: Now you know what a VPN is, here's how you choose between them...
 ---

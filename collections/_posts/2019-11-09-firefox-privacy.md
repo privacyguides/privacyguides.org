@@ -1,6 +1,6 @@
 ---
 title: 'Firefox Privacy: Tips and Tricks for Better Browsing'
-author: Jonah Aragon
+author: Jonah
 cover: firefox-privacy-cover.jpg
 cover_src: 'https://unsplash.com/@vmxhu'
 cover_src_publisher: Szabo Viktor

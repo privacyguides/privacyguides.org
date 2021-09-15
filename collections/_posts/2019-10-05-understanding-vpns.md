@@ -1,6 +1,6 @@
 ---
 title: Understanding VPNs
-author: Jonah Aragon
+author: Jonah
 cover: understanding-vpns-cover.jpg
 cover_src: 'https://unsplash.com/@freeche'
 cover_src_publisher: Kvistholt Photography
