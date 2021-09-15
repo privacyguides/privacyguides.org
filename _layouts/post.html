@@ -10,7 +10,7 @@ layout: default
           <h1 class="post-title display-4">{{ page.title }}</h1>
         </div>
         <div class="mt-3">
-          <p class="post-info">Jonah Aragon | {{ page.date | date: "%b %-d, %Y" }}</p>
+          <p class="post-info">By: {% for author in page.author %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %} | {{ page.date | date: "%b %-d, %Y" }}</p>
         </div>
       </div>
     </div>

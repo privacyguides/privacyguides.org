@@ -4,7 +4,7 @@
       <div class="card-body d-flex flex-column align-self-end" style="min-height: 300px;">
         <h2 class="card-title mt-auto text-light">{{ post.title }}</h2>
         <p class="card-text text-light">{{ post.excerpt }} <strong>Continue Reading...</strong></p>
-        <p class="card-text"><small class="text-light">{{ post.author }} - {{ post.date | date: "%b %-d, %Y" }}</small></p>
+        <p class="card-text"><small class="text-light">{% for author in page.author %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %} - {{ post.date | date: "%b %-d, %Y" }}</small></p>
       </div>
     </div>
   </a>
