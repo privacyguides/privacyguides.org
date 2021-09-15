@@ -2,6 +2,24 @@
 layout: default
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Article",
+  "headline": "{{ page.title }}",
+  "description": "{{ page.excerpt }}",
+  "datePublished": "{{ page.date }}",
+  "publisher": {{ site.data.schema.organization | jsonify }},
+  "url": "{{ page.url | prepend: site.url }}",
+  "author": [
+    {% for author in page.author %}{"@type": "Person",
+    "name": "{{ author }}"
+    }{% unless forloop.last %}, {% endunless %}{% endfor %}
+  ]
+  {% if page.cover %}, "image": "/assets/img/blog/{{ page.cover }}"{% endif %}
+}
+</script>
+
 <div class="p-5 mb-3 text-light bg-700"{% if page.cover %} style="background-image: {{ page.color | default: "linear-gradient(to bottom, rgba(40, 50, 63, 0.3), rgba(40, 50, 63, 0.9))" }}, url(/assets/img/blog/{{ page.cover }}); background-size: cover; background-position: center;"{% endif %}>
   <div class="container">
     <div class="post-cover">
