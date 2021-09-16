@@ -44,7 +44,7 @@ In the coming weeks our current plan is to wind down discussions on r/privacytoo
 
 The former active team at PrivacyTools universally agrees on this direction towards Privacy Guides, and will be working exclusively on Privacy Guides rather than any “PrivacyTools” related projects. We intend to redirect PriavcyTools to new Privacy Guides properties for as long as possible, and archive existing PrivacyTools work as a pre-transition snapshot.
 
-Privacy Guides additionally welcomes back PrivacyTools’ former sysadmin [Jonah](https://mobile.twitter.com/JonahAragon), who will be joining the project’s leadership team.
+Privacy Guides additionally welcomes back PrivacyTools’ former sysadmin [Jonah](https://twitter.com/JonahAragon), who will be joining the project’s leadership team.
 
 We are not accepting sponsorships or donations at this time, while we work out our financial plan. We will be in touch with existing sponsors on PrivacyTools’ OpenCollective to determine what the best way forward is soon.
 
