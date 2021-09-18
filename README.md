@@ -12,12 +12,6 @@
 <a href="#">
 	<img src="https://img.shields.io/uptimerobot/ratio/7/m786935055-1117e0819f5c23c651d46a17">
 </a>
-<a href="#">
-	<img src="https://img.shields.io/github/stars/privacyguides?style=social">
-</a>
-<a href="#">
-	<img src="https://img.shields.io/github/stars/privacyguides?style=social">
-</a>
 </p>
 <p>
 <a href="https://www.reddit.com/r/PrivacyGuides/">
