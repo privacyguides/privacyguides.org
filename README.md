@@ -28,9 +28,6 @@
 <a href="https://app.netlify.com/sites/privacyguides/deploys">
 	<img src="https://img.shields.io/netlify/f40bcb64-a6ed-4650-9ca6-7d3ac293d2be">
 </a>
-<a href="https://opencollective.com/privacyguides#support">
-	<img src="https://img.shields.io/opencollective/all/privacyguides?label=opencollective%20contributors">
-</a>
 <a href="https://github.com/privacyguides/privacyguides.org/issues">
 	<img src="https://img.shields.io/github/issues-raw/privacyguides/privacyguides.org">
 </a>
