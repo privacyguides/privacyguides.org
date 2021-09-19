@@ -4,7 +4,7 @@
 @import "brand";
 
 $primary: #EAB448;
-//$secondary: lighten( $secondary, 10% );
+$secondary: lighten( $secondary, 30% );
 $success: darken( $success, 10% );
 $info: darken( $info, 5% );
 $danger: lighten( $warning, 20% );
@@ -13,13 +13,27 @@ $warning: darken( $warning, 30% );
 $body-bg: $dark;
 $card-bg: lighten( $dark, 5% );
 $body-color: $light;
-$link-color: lighten( $secondary, 30% );
+$link-color: lighten( $link-color, 30% );
 $mark-bg: darken( $primary, 60% );
 $breadcrumb-bg: lighten( $dark, 5% );
 $hr-border-color: $body-color;
 
 @import "./node_modules/bootstrap/scss/variables";
 @import "variables";
+
+$dm-grays: (
+  "dm-white": $black,
+  "dm-100": $gray-900,
+  "dm-200": $gray-800,
+  "dm-300": $gray-700,
+  "dm-400": $gray-600,
+  "dm-500": $gray-500,
+  "dm-600": $gray-400,
+  "dm-700": $gray-300,
+  "dm-800": $gray-200,
+  "dm-900": $gray-100,
+  "dm-black": $white
+);
 
 $card-shadow: 0 3px 10px 0 $dark;
 $list-group-color: $body-color;
@@ -52,7 +66,7 @@ $dropdown-link-hover-bg: lighten( $dropdown-bg, 10% );
 @import "./node_modules/bootstrap/scss/mixins";
 @import "./node_modules/bootstrap/scss/utilities";
 
-$all-colors: map-merge-multiple($blues, $indigos, $purples, $pinks, $reds, $oranges, $yellows, $greens, $teals, $cyans, $grays);
+$all-colors: map-merge-multiple($blues, $indigos, $purples, $pinks, $reds, $oranges, $yellows, $greens, $teals, $cyans, $grays, $dm-grays);
 
 $utilities: map-merge(
   $utilities,
