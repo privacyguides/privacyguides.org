@@ -56,7 +56,7 @@
 .de,
 .it,
 .es,
-.se,
+.se
 {
 	opacity: 1;
 	fill: #029c7c;
