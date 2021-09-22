@@ -40,7 +40,7 @@
 .nz
 {
     opacity: 1;
-    fill: bg-warning;
+    fill: #9c1003;
 }
 
 .dk,
@@ -49,7 +49,7 @@
 .no
 {
 	opacity: 1;
-	fill: bg-info;
+	fill: #a0689c;
 }
 
 .be,
@@ -59,7 +59,7 @@
 .se,
 {
 	opacity: 1;
-	fill: bg-success;
+	fill: #029c7c;
 }
 
 .ocean
