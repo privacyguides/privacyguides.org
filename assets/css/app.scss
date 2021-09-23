@@ -8,7 +8,21 @@
 @import "./node_modules/bootstrap/scss/mixins";
 @import "./node_modules/bootstrap/scss/utilities";
 
-$all-colors: map-merge-multiple($blues, $indigos, $purples, $pinks, $reds, $oranges, $yellows, $greens, $teals, $cyans, $grays);
+$dm-grays: (
+  "dm-white": $white,
+  "dm-100": $gray-100,
+  "dm-200": $gray-200,
+  "dm-300": $gray-300,
+  "dm-400": $gray-400,
+  "dm-500": $gray-500,
+  "dm-600": $gray-600,
+  "dm-700": $gray-700,
+  "dm-800": $gray-800,
+  "dm-900": $gray-900,
+  "dm-black": $black
+);
+
+$all-colors: map-merge-multiple($blues, $indigos, $purples, $pinks, $reds, $oranges, $yellows, $greens, $teals, $cyans, $grays, $dm-grays);
 
 $utilities: map-merge(
   $utilities,
