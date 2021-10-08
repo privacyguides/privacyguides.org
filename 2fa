@@ -1,0 +1,22 @@
+<h2 id="cloud" class="anchor"><a href="#cloud"><i class="fas fa-link anchor-icon"></i></a> Multi Factor Authentication</h2>
+
+{% include legacy/cardv2.html
+  title="Aegis Authenticator"
+  image="/assets/img/legacy_svg/3rd-party/aegis.svg"
+  description="<strong>Aegis</strong> is a free, secure and open source app for Android to manage your 2-step verification tokens for your online services."
+  website="https://getaegis.app/"
+  privacy-policy="https://getaegis.app/aegis/privacy.html"
+  fdroid="https://f-droid.org/packages/com.beemdevelopment.aegis/"
+  googleplay="https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis"
+  github="https://github.com/beemdevelopment/Aegis"
+%}
+
+{% include legacy/cardv2.html
+  title="Raivo OTP"
+  image="/assets/img/legacy_svg/3rd-party/ravio.svg"
+  description="<strong>Aegis</strong> is a native, lightweight and secure one-time-password (OTP) client built for iOS."
+  privacy-policy="https://github.com/raivo-otp/ios-application/blob/master/PRIVACY.md"
+  ios="https://apps.apple.com/us/app/raivo-otp/id1459042137#?platform=iphone"
+  github="https://github.com/raivo-otp/ios-application"
+%}
+
