@@ -13,7 +13,7 @@ description: "These are our current web browser recommendations, settings, and a
 
 {% endfor %}
 
-<h2>Worth Mentioning</h2>
+<h2 id="worthmentioning" class="anchor"><a href="#worthmentioning"><i class="fas fa-link anchor-icon"></i></a> Worth Mentioning</h2>
 
 {% for item_hash in site.data.software.browsers %}
 {% assign item = item_hash[1] %}
@@ -24,7 +24,7 @@ description: "These are our current web browser recommendations, settings, and a
 
 {% endfor %}
 
-<h2>Anti-Recommendations</h2>
+<h2 id="antirecommendations" class="anchor"><a href="#antirecommendations"><i class="fas fa-link anchor-icon"></i></a> Anti-Recommendations</h2>
 
 {% for item_hash in site.data.software.browsers %}
 {% assign item = item_hash[1] %}
@@ -37,7 +37,7 @@ description: "These are our current web browser recommendations, settings, and a
 
 {% include hr.html %}
 
-<h2>Additional Mobile Recommendations</h2>
+<h2 id="additionalmobilerecommendations" class="anchor"><a href="#additionalmobilerecommendations"><i class="fas fa-link anchor-icon"></i></a> Additional Mobile Recommendations</h2>
 
 {% include legacy/cardv2.html
   title="Bromite"
@@ -71,7 +71,7 @@ description: "These are our current web browser recommendations, settings, and a
   ios="https://apps.apple.com/us/app/duckduckgo-privacy-browser/id663592361"
 %}
 
-<h2>Browser Fingerprinting - Is your browser configuration unique?</h2>
+<h2 id="browserfingerprinting" class="anchor"><a href="#browserfingerprinting"><i class="fas fa-link anchor-icon"></i></a> Browser Fingerprinting - Is your browser configuration unique?</h2>
 
 <div class="alert alert-info" role="alert">
   Your Browser sends information that makes you unique amongst millions of users and therefore easy to identify.
@@ -89,7 +89,7 @@ description: "These are our current web browser recommendations, settings, and a
 
 <p>Modern web browsers have not been architected to assure personal web privacy. Rather than worrying about being fingerprinted, it seems more practical to use <a href="#addons"><i class="fas fa-link"></i> free software plugins</a> to regain control. They not only respect your freedom, but your privacy also. You can get much further with these than trying to manipulate your browser's fingerprint.</p>
 
-<h3>Related Information</h3>
+<h3 id="relatedinformation" class="anchor"><a href="#relatedinformation"><i class="fas fa-link anchor-icon"></i></a> Related Information</h3>
 
 <ul>
   <li><a href="https://coveryourtracks.eff.org/static/browser-uniqueness.pdf">How Unique Is Your Web Browser? Peter Eckersley, EFF.</a></li>
@@ -99,7 +99,7 @@ description: "These are our current web browser recommendations, settings, and a
 
 {% include hr.html %}
 
-<h2 id="webrtc" class="anchor">WebRTC IP Leak Test - Is your IP address leaking?</h2>
+<h2 id="webrtc" class="anchor"><a href="#webrtc"><i class="fas fa-link anchor-icon"></i></a> WebRTC IP Leak Test - Is your IP address leaking?</h2>
 
 <div class="alert alert-info" role="alert">
   WebRTC is a new communication protocol that relies on JavaScript that can leak your actual IP address from behind your VPN.
@@ -111,7 +111,7 @@ description: "These are our current web browser recommendations, settings, and a
 <a class="btn btn-warning" target="_blank" rel="noopener noreferrer" href="https://ipleak.net">Test your Browser now</a>
 </p>
 
-<h3>How to disable WebRTC in Firefox?</h3>
+<h3 id="webrtcfirefox" class="anchor"><a href="#webrtcfirefox"><i class="fas fa-link anchor-icon"></i></a> How can I disable WebRTC in Firefox?</h3>
 
 <p>In short: Set "media.peerconnection.enabled" to "false" in "about:config".</p>
 <p><strong>Explained:</strong></p>
@@ -139,7 +139,7 @@ description: "These are our current web browser recommendations, settings, and a
 <a class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="https://ipleak.net">Test your Browser again</a>
 </p>
 
-<h3>How to disable WebRTC in Safari?</h3>
+<h3 id="webrtcsafari" class="anchor"><a href="#webrtcsafari"><i class="fas fa-link anchor-icon"></i></a> How can I disable WebRTC in Safari?</h3>
 
 <p>Safari is far stricter with WebRTC than other major browsers, and it does not leak your IP address in its default configuration. If you'd like, you can follow these steps just to double-check your browser:</p>
 
@@ -150,11 +150,12 @@ description: "These are our current web browser recommendations, settings, and a
   <li>In the drop-down menu, open the "WebRTC" submenu and ensure "Enable Legacy WebRTC API" is unchecked. If it's grayed out, even better.</li>
 </ol>
 
-<h3>How to disable WebRTC in Google Chrome?</h3>
+<h3 id="whataboutotherbrowsers" class="anchor"><a href="#whataboutotherbrowsers"><i class="fas fa-link anchor-icon"></i></a> What about other browsers?</h3>
+<h3 id="webrtcchrome" class="anchor"><a href="#webrtcchrome"><i class="fas fa-link anchor-icon"></i></a> How can I disable WebRTC in Chrome?</h3>
 
 <p>WebRTC cannot be fully disabled in Chrome; however, it is possible to change its routing settings (and prevent leaks) using an extension. Two open-source solutions include <a href="https://chrome.google.com/webstore/detail/webrtc-leak-prevent/eiadekoaikejlgdbkbdfeijglgfdalml">WebRTC Leak Prevent</a> (options may need to be changed depending on the scenario), and <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">uBlock Origin</a> (select "Prevent WebRTC from leaking local IP addresses" in Settings).</p>
 
-<h3>What about other browsers?</h3>
+<h3 id="whataboutotherbrowsers" class="anchor"><a href="#whataboutotherbrowsers"><i class="fas fa-link anchor-icon"></i></a> What about other browsers?</h3>
 
 <p>Chrome on macOS and Internet Explorer do not yet implement WebRTC.</p>
 
