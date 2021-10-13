@@ -1,0 +1,25 @@
+title: Briar
+type: Recommendation
+logo: /assets/img/messengers/briar.svg
+labels: 'color==info::icon==fas fa-fw fa-wifi::text==P2P::tooltip==Senders and recipients connect directly with no middlemen (can be disabled).|color==info::icon==fas fa-fw fa-wifi::text==Anonymous Routing::tooltip==Senders and recipients are hidden in the network, no one can know they communicate together (can be disabled).'
+description: |
+  <strong>Briar</strong> is an encrypted instant messenger that <a href="https://briarproject.org/how-it-works/">connects</a> to other clients using the Tor Network. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar's local mesh mode can be useful when internet availability is a problem.
+
+  <h4>Notes</h4>
+  To <a href="https://briarproject.org/manual/">add a contact</a> on Briar, you must both add each other first. You can either exchange <code>briar://</code> links or scan a contact's QR code if they are nearby.
+
+  <h4>Technical information</h4>
+  The client software was independently <a href="https://briarproject.org/news/2017-beta-released-security-audit/">audited</a> and the anonymous routing protocol uses the Tor network which has also been audited.
+
+  Briar has a fully <a href="https://code.briarproject.org/briar/briar-spec">published specification</a>.
+
+  Briar supports perfect forward secrecy by using the Bramble <a href="https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md">Handshake</a> and <a href="https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md">Transport</a> protocol.
+website: 'https://briarproject.org'
+privacy_policy: 'https://briarproject.org/privacy-policy'
+downloads:
+  - icon: fab fa-android
+    url: 'https://f-droid.org/packages/org.briarproject.briar.android'
+  - icon: fab fa-google-play
+    url: 'https://play.google.com/store/apps/details?id=org.briarproject.briar.android'
+  - icon: fab fa-git
+    url: 'https://code.briarproject.org/briar/briar'
