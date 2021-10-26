@@ -4,4 +4,4 @@ website: https://mikaela.info
 github: Mikaela
 image: mikaela.png
 ---
-Introduction is to be written here.
+I am interested in instant messengers. I review privacy tools, and participate in our Matrix room and issue tracker.
