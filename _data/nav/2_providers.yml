@@ -14,10 +14,6 @@ items:
     icon: fad fa-envelope
     file: legacy_pages/providers/email.html
   - type: link
-    title: Web Hosting
-    icon: fad fa-hdd
-    file: legacy_pages/providers/hosting.html
-  - type: link
     title: Pastebins
     icon: fad fa-clipboard
     file: legacy_pages/providers/paste.html
