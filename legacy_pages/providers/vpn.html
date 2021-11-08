@@ -180,8 +180,10 @@ breadcrumb: "VPN"
       <p>In order to keep what you actually do on the websites you visit private and secure, you must use HTTPS. This will keep your passwords, session tokens, and queries safe from the VPN provider. Consider enabling "HTTPS everywhere" in your browser to mitigate downgrade attacks like <a href="https://www.blackhat.com/presentations/bh-dc-09/Marlinspike/BlackHat-DC-09-Marlinspike-Defeating-SSL.pdf">SSL Strip</a>.</p>
       <h4>Should I use encrypted DNS with a VPN?</h4>
       <p>Unless your VPN provider hosts the encrypted DNS servers, <strong>no</strong>. Using DOH/DOT (or any other form of encrypted DNS) with third party servers will simply add more entities to trust, and does <strong>absolutely nothing</strong> to improve your privacy/security. Your VPN provider can still see which websites you visit based on the IP addresses and other methods. Instead of just trusting your VPN provider, you are now trusting both the VPN provider and the DNS provider.</p>
-      <p>A common reason to recommend encrypted DNS is that it helps against DNS spoofing. However, your browser should already be checking for TLS certificates with HTTPS and warn you about it. If you are not using HTTPS, then an adversary still can just modify anything other than your DNS queries and the end result will be little different.</p>
+      <p>A common reason to recommend encrypted DNS is that it helps against DNS spoofing. However, your browser should already be checking for TLS certificates with <strong>HTTPS</strong> and warn you about it. If you are not using <strong>HTTPS</strong>, then an adversary can still just modify anything other than your DNS queries and the end result will be little different.</p>
       <p>Needless to say, <strong>you shouldn't use encrypted DNS with Tor</strong>. This would direct all of your DNS requests through a single circuit, and would allow the encrypted DNS provider to deanonymize you.</p>
+      <h3>What if I need anonymity?</h3>
+      <p>VPNs cannot provide strong anonymity. Your VPN provider will still see your real IP address, and often has a money trail that can be linked directly back to you. You cannot rely on "no logging" policies to protect your data.</p>
     </div>
     <div class="col-md-6">
       <h3>Should I use Tor <em>and</em> a VPN?</h3>
