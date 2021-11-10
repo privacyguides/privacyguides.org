@@ -52,7 +52,3 @@ items:
     title: Self-Contained Networks
     icon: fad fa-chart-network
     file: legacy_pages/software/networks.html
-  - type: link
-    title: Self-Hosted Cloud Servers
-    icon: fad fa-laptop-house
-    file: legacy_pages/software/cloud.html
