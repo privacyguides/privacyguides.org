@@ -1,6 +1,6 @@
 ---
 name: Daniel Gray
-website: 'https://dngray.netlify.app'
+website: 'https://polarbear.army'
 github: dngray
 image: dngray.png
 ---
