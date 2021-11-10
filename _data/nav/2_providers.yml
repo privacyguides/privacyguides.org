@@ -2,10 +2,6 @@ type: dropdown
 title: Providers
 items:
   - type: link
-    title: Cloud Storage
-    icon: fad fa-clouds
-    file: legacy_pages/providers/storage.html
-  - type: link
     title: DNS Servers
     icon: fad fa-map-signs
     file: _pages/providers/dns.md
@@ -13,10 +9,6 @@ items:
     title: Email Providers
     icon: fad fa-envelope
     file: legacy_pages/providers/email.html
-  - type: link
-    title: Web Hosting
-    icon: fad fa-hdd
-    file: legacy_pages/providers/hosting.html
   - type: link
     title: Pastebins
     icon: fad fa-clipboard
