@@ -2,10 +2,6 @@ type: dropdown
 title: Providers
 items:
   - type: link
-    title: Cloud Storage
-    icon: fad fa-clouds
-    file: legacy_pages/providers/storage.html
-  - type: link
     title: DNS Servers
     icon: fad fa-map-signs
     file: _pages/providers/dns.md
