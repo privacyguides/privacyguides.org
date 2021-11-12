@@ -1,10 +1,18 @@
 <h2 id="productivity" class="anchor"><a href="#productivity"><i class="fas fa-link anchor-icon"></i></a> Productivity Tools</h2>
 
+{% include legacy/cardv2.html
+  title="PrivateBin"
+  image="/assets/img/legacy_svg/3rd-party/privatebin.svg"
+  description="<strong>PrivateBin</strong> is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin. Do note that it uses JavaScript to handle encryption, so you must trust the provider to the extent that they do not inject any malicious JavaScript to get your private key. Consider self-hosting to mitigate this threat."
+  website="https://privatebin.info/"
+  github="https://github.com/PrivateBin/PrivateBin"
+%}
+
 {%
   include legacy/cardv2.html
   title="CryptPad"
   image="/assets/img/legacy_svg/3rd-party/cryptpad.svg"
-  description="<strong>CryptPad</strong> is a private-by-design alternative to popular office tools and cloud services. All content is end-to-end encrypted. It is free and open-source, enabling anyone to verify its security by auditing the code. The development team is supported by donations and grants. No registration is required, and it can be used anonymously via Tor Browser."
+  description="<strong>CryptPad</strong> is a private-by-design alternative to popular office tools. All content is end-to-end encrypted. Do note that it uses JavaScript to handle encryption, so you must trust the provider to the extent that they do not inject any malicious JavaScript to get your private key. Consider self-hosting to mitigate this threat."
   website="https://cryptpad.fr/"
   privacy-policy="https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/"
   github="https://github.com/xwiki-labs/cryptpad"
@@ -15,7 +23,7 @@
   include legacy/cardv2.html
   title="Etherpad"
   image="/assets/img/legacy_svg/3rd-party/etherpad.svg"
-  description="<strong>Etherpad</strong> is a highly customizable open-source online editor providing collaborative editing in real time. <a href=https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad>Here are a list of sites that run Etherpad</a>."
+  description="<strong>Etherpad</strong> is a highly customizable open-source online editor providing collaborative editing in real time. Do note that there is no end to end encryption whatsoever. You should self-host Etherpad and set up proper authentication for any expectation of privacy."
   website="https://etherpad.org/"
   github="https://github.com/ether/etherpad-lite"
   web="https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad"
@@ -50,8 +58,6 @@
 
 <ul>
   <li><a href="https://crypt.ee/">Cryptee</a> - Free privacy-friendly service for storing Documents, files and Photos</li>
-  <li><a href="https://ethercalc.net/">EtherCalc</a> - EtherCalc is a web spreadsheet. Data is saved on the web, and people can edit the same document at the same time. Changes are instantly reflected on all screens. Work together on inventories, survey forms, list management, brainstorming sessions.</li>
-  <li><a href="https://disroot.org/">Disroot</a> - Free privacy-friendly service that offers Etherpad, EtherCalc and PrivateBin.</li>
   <li><a href="https://dudle.inf.tu-dresden.de/anonymous/">dudle</a> - An online scheduling application, free and open-source. Schedule meetings or make small online polls. No email collection or the need of registration.</li>
   <li><a href="https://framadate.org/">Framadate</a> - A free and open-source online service for planning an appointment or making a decision quickly and easily. No registration is required.</li>
   <li><a href="https://www.libreoffice.org/">LibreOffice</a> - Free and open-source office suite.</li>
