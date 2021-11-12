@@ -153,7 +153,7 @@ breadcrumb: "VPN"
       <p><strong>Best Case:</strong></p>
       <p>Responsible marketing that is both educational and useful to the consumer could include:</p>
       <ul>
-        <li>A accurate comparison to when Tor or other <a href="/software/networks/">Self-contained networks</a> should be used.</li>
+        <li>A accurate comparison to when Tor or other <a href="/software/networks/">Self contained networks</a> should be used.</li>
         <li>Availability of the VPN provider's website over a .onion <a href="https://en.wikipedia.org/wiki/.onion">Hidden Service</a></li>
       </ul>
     </div>
@@ -182,11 +182,10 @@ breadcrumb: "VPN"
       <p>Unless your VPN provider hosts the encrypted DNS servers, <strong>no</strong>. Using DOH/DOT (or any other form of encrypted DNS) with third party servers will simply add more entities to trust, and does <strong>absolutely nothing</strong> to improve your privacy/security. Your VPN provider can still see which websites you visit based on the IP addresses and other methods. Instead of just trusting your VPN provider, you are now trusting both the VPN provider and the DNS provider.</p>
       <p>A common reason to recommend encrypted DNS is that it helps against DNS spoofing. However, your browser should already be checking for <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates">TLS certificates</a> with <strong>HTTPS</strong> and warn you about it. If you are not using <strong>HTTPS</strong>, then an adversary can still just modify anything other than your DNS queries and the end result will be little different.</p>
       <p>Needless to say, <strong>you shouldn't use encrypted DNS with Tor</strong>. This would direct all of your DNS requests through a single circuit, and would allow the encrypted DNS provider to deanonymize you.</p>
-      <h3>What if I need anonymity?</h3>
     </div>
     <div class="col-md-6">
       <h3>Should I use Tor <em>and</em> a VPN?</h3>
-      <p>By using a VPN with Tor, you're creating essentially a permanent entry node, often with a money trail attached. This provides zero additional benefit to you, while increasing the attack surface of your connection dramatically. If you wish to hide your Tor usage from your ISP or your government, Tor has a built-in solution for that: Tor bridges. <a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-2-onion-recipes-vpn-not-required">Read more about Tor bridges and why using a VPN is not necessary</a>.</p>
+      <p>By using a VPN with Tor, you're creating essentially a permanent entry node, often with a money trail attached. This provides zero additional benefit to you, while increasing the attack surface of your connection dramatically. If you wish to hide your Tor usage from your ISP or your government, Tor has a built-in solution for that: Tor bridges. <a href="https://web.archive.org/web/20210116140725/https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-2-onion-recipes-vpn-not-required">Read more about Tor bridges and why using a VPN is not necessary</a>.</p>
       <h3>What if I need anonymity?</h3>
       <p>VPNs cannot provide anonymity. Your VPN provider will still see your real IP address, and often has a money trail that can be linked directly back to you. You cannot rely on "no logging" policies to protect your data. Use <a href="https://www.torproject.org/">Tor</a> instead.</p>
       <h3>What about VPN providers that provides Tor nodes?</h3>
@@ -209,7 +208,7 @@ breadcrumb: "VPN"
           <li><a href="https://schub.io/blog/2019/04/08/very-precarious-narrative.html">VPN - a Very Precarious Narrative</a> by Dennis Schubert</li>
           <li><a href="/software/networks/">The self-contained networks</a> recommended by Privacy Guides are able to replace a VPN that allows access to services on local area network</li>
           <li><a href="https://medium.com/privacyguides/slicing-onions-part-1-myth-busting-tor-9ec188ae1904">Slicing Onions: Part 1 – Myth-busting Tor</a> by blacklight447</li>
-          <li><a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-2-onion-recipes-vpn-not-required">Slicing Onions: Part 2 – Onion recipes; VPN not required</a> by blacklight447</li>
+          <li><a href="https://web.archive.org/web/20210116140725/https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-2-onion-recipes-vpn-not-required">Slicing Onions: Part 2 – Onion recipes; VPN not required</a> by blacklight447</li>
           <li><a href="https://www.ivpn.net/privacy-guides/">IVPN Privacy Guides</a></li>
         </ol>
       <p>
