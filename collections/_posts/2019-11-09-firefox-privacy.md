@@ -13,7 +13,7 @@ excerpt: Mozilla Firefox is one of the most popular web browsers around, and for
 
 Mozilla Firefox is one of the most popular web browsers around, and for good reason. It's fast, secure, open-source, and it's backed by an organization that actually respects your privacy. Unlike many other Chrome alternatives and forks, it has a massive development team behind it that publishes new updates on a constant, regular basis. Regular updates doesn't only mean shiny new features, it means you'll also receive security updates that will keep you protected as you browse the web.
 
-Because of all of this, the PrivacyTools team [recommends Firefox](https://www.privacytools.io/browsers/#browser) as a general-purpose browser for most users. It's the best alternative to Google Chrome and Edge for privacy conscious individuals.
+Because of all of this, the Privacy Guides team [recommends Firefox](https://privacyguides.org/browsers/) as a general-purpose browser for most users. It's the best alternative to Google Chrome and Edge for privacy conscious individuals.
 
 Firefox is fantastic out of the box, but where it really shines is customizability. By adjusting Firefox privacy settings and using helpful add-ons, you can increase your privacy and security even further. Making those changes is what we're going to go over in this Firefox privacy guide.
 
@@ -31,7 +31,7 @@ We want to publish a more complete guide on threat modeling in the future, so st
 
 ### Browser Fingerprinting
 
-Another consideration is your [browser's fingerprint](https://www.privacytools.io/browsers/#fingerprint). When you visit a web page, your browser voluntarily sends information about its configuration, such as available fonts, browser type, and add-ons. If this combination of information is unique, it may be possible to identify and track you without using more common tracking tools, like cookies.
+Another consideration is your browser's fingerprint. When you visit a web page, your browser voluntarily sends information about its configuration, such as available fonts, browser type, and add-ons. If this combination of information is unique, it may be possible to identify and track you without using more common tracking tools, like cookies.
 
 That's right, add-ons contribute to your fingerprint. Another thing a lot of people miss when they are setting up their browser is that <mark>more is not always the best solution to your problems</mark>. You don't need to use every add-on and tweak that offers privacy, and the more you configure the greater chance there is that your browser will appear more unique to websites. Think about your specific situation and pick and choose the add-ons and tweaks we recommend only if you think they will help *you*.
 
@@ -41,13 +41,13 @@ We'll start off with the easy solutions. Firefox has a number of privacy setting
 
 ### DNS over HTTPS
 
-DNS (or the Domain Name System) is what your browser uses to turn domain names like `privacytools.`io into IP addresses like `145.239.169.56`. Because computers can only make connections to IP addresses, it's necessary to use DNS every time you visit a new domain. But DNS is unencrypted by default, that means everyone on your network (including your ISP) can view what domains you're looking up, and in some situations even change the IP answers to redirect you to their own websites! Encrypting your DNS traffic can shield your queries and add some additional protection to your browsing.
+DNS (or the Domain Name System) is what your browser uses to turn domain names like `privacyguides.org` into IP addresses like `145.239.169.56`. Because computers can only make connections to IP addresses, it's necessary to use DNS every time you visit a new domain. But DNS is unencrypted by default, that means everyone on your network (including your ISP) can view what domains you're looking up, and in some situations even change the IP answers to redirect you to their own websites! Encrypting your DNS traffic can shield your queries and add some additional protection to your browsing.
 
 Encrypted DNS takes many forms: DNS over HTTPS (DoH), DNS over TLS, DNSCrypt, etc., but they all accomplish the same thing. They keep your DNS queries private from your ISP, and they make sure they aren't tampered with in transit between your DNS provider. Fortunately, Firefox recently added native DoH support to the browser. On the **General** page of your preferences, scroll down to and open **Network Settings**. At the bottom of the window you will be able to select "Enable DNS over HTTPS" and choose a provider:
 
 ![Screenshot of the Enable DNS over HTTPS box checked, with Cloudflare selected in the provider dropdown.](/assets/img/blog/firefox-privacy-1.png){:.img-fluid .w-75 .mx-auto .d-block}
 
-Keep in mind that by using DoH you're sending all your queries to a single provider, probably Cloudflare unless you choose [another provider](https://www.privacytools.io/providers/dns/) that supports DNS over HTTPS. While it may add some privacy protection from your ISP, you're only shifting that trust to the DoH provider. Make sure that's something you want to do.
+Keep in mind that by using DoH you're sending all your queries to a single provider, probably Cloudflare unless you choose [another provider](https://privacyguides.org/providers/dns/) that supports DNS over HTTPS. While it may add some privacy protection from your ISP, you're only shifting that trust to the DoH provider. Make sure that's something you want to do.
 
 It should also be noted that even with DoH, your ISP will still be able to see what domain you're connecting to because of a technology called Server Name Indication (SNI). Until SNI is encrypted as well, there's no getting around it. Encrypted SNI (eSNI) is in the works — and can actually be [enabled on Firefox](https://blog.cloudflare.com/encrypt-that-sni-firefox-edition/) today — but it only works with a small number of servers, mainly ones operated by Cloudflare, so its use is limited currently. Therefore, while DoH provides some additional privacy and integrity protections, its use as a privacy tool is limited until other supplemental tools like eSNI and [DNSSEC](https://www.icann.org/resources/pages/dnssec-what-is-it-why-important-2019-03-05-en) are finalized and implemented.
 
@@ -57,7 +57,7 @@ This is an easy one. In the Search tab, change your Default Search Engine to som
 
 ![Screenshot of the search engine preferences](/assets/img/blog/firefox-privacy-2.png){:.img-fluid .w-75 .mx-auto .d-block}
 
-Out of the built-in options, DuckDuckGo is the most privacy respecting service, but there's a number of [search engines we would recommend](https://www.privacytools.io/providers/search-engines/) that can be easily installed as well.
+Out of the built-in options, DuckDuckGo is the most privacy respecting service, but there's a number of [search engines we would recommend](https://privacyguides.org/providers/search-engines/) that can be easily installed as well.
 
 ### Enhanced Tracking Protection
 
@@ -91,7 +91,7 @@ This will likely log you out of websites quite often, so make sure that's an inc
 
 Of course, just the browser settings alone won't go quite far enough to protect your privacy. Mozilla has made a lot of compromises in order to provide a more functional browsing experience for the average user, which is completely understandable. But, we can take it even further with some browser add-ons that prevent tracking and make your experience more private and secure.
 
-There are a number of [fantastic add-ons for Firefox](https://www.privacytools.io/browsers/#addons), but they aren't all necessary for everyone. Some of them provide redundant functionality to each other, and some of them accomplish similar tasks to the settings we've enabled above.
+There are a number of [fantastic add-ons for Firefox](https://privacyguides.org/browsers/#addons), but they aren't all necessary for everyone. Some of them provide redundant functionality to each other, and some of them accomplish similar tasks to the settings we've enabled above.
 
 When you are installing add-ons for Firefox, consider whether you actually need them for your personal browsing. Remember that fingerprinting warning from earlier? Adding as many extensions as possible might make you stand out more, which is not the goal.
 
@@ -123,7 +123,7 @@ When you connect to many websites, your browser is most likely making connection
 
 ### Additional Firefox Privacy Add-ons
 
-There is of course more functionality that can be achieved at the expense of more time spent configuring your browser and reduced website functionality. If you're looking for the most privacy options possible however, they may be for you. Check out the page on [Browser add-ons at privacytools.io](https://www.privacytools.io/browsers/#addons) for further information and additional resources.
+There is of course more functionality that can be achieved at the expense of more time spent configuring your browser and reduced website functionality. If you're looking for the most privacy options possible however, they may be for you. Check out the page on [Browser add-ons at Privacy Guides](https://privacyguides.org/browsers/#addons) for further information and additional resources.
 
 ## More Privacy Functionality
 
@@ -137,9 +137,9 @@ Firefox Private Network is still just a VPN, and there are a number of drawbacks
 
 Additionally, unlike a traditional VPN, only data through the Firefox browser is protected, not every app on your machine. This means that it won't adequately protect you from many of the threats people typically want to protect against when they use a VPN, like IP leaks.
 
-And finally, Cloudflare and Mozilla are both US companies. There are a number of concerns with entrusting internet traffic to the US and other [fourteen eyes](https://www.privacytools.io/providers/#ukusa) countries that should not be overlooked.
+And finally, Cloudflare and Mozilla are both US companies. There are a number of concerns with entrusting internet traffic to the US and other [Fourteen Eyes](https://privacyguides.org/providers/#ukusa) countries that should not be overlooked.
 
-If you require a Virtual Private Network, we would look elsewhere. There are a number of [good VPN providers](https://www.privacytools.io/providers/vpn/) like Mullvad that will provide a better experience at a low cost.
+If you require a Virtual Private Network, we would look elsewhere. There are a number of [good VPN providers](https://privacyguides.org/providers/vpn/) like Mullvad that will provide a better experience at a low cost.
 
 ### Multi-Account Containers
 
