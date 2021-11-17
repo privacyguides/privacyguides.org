@@ -3,8 +3,8 @@ title: Providers
 items:
   - type: link
     title: Cloud Storage
-    icon: fad fa-laptop-house
-    file: legacy_pages/providers/cloud.html
+    icon: fad fa-cloud
+    file: _evergreen/cloud.html
   - type: link
     title: DNS Servers
     icon: fad fa-map-signs
