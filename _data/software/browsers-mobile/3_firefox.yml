@@ -1,0 +1,21 @@
+title: Firefox iOS
+type: Recommendation
+logo: /assets/img/browsers/firefox-ios.svg
+description: |
+  <strong>Firefox</strong> iOS includes <a href="https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop">Tracking Protection</a> which lets you select the blocklists Cookies, Tracking Content, Cryptominers, Fingerprinters and Redirect trackers.
+
+  <h5><strong>Tracking Protection</strong></h5>
+  <ul style="list-style-type:none;padding-left:0;">
+    <li>Select: <strong>Strict</strong> ( ≡ → ⚙️ Settings → Tracking Protection).</li>
+  </ul>
+
+  <h5><strong>Sanitizing on close</strong></h5>
+  Firefox iOS does not have have an option to clear cache on quit so you must do it manually. ( ≡ → ⚙️ Settings → Data Management).
+
+website: 'https://firefox.com/'
+privacy_policy: 'https://www.mozilla.org/privacy/firefox/'
+downloads:
+  - icon: fab fa-app-store-ios
+    url: 'https://apps.apple.com/id989804926'
+  - icon: fab fa-github
+    url: 'https://github.com/mozilla-mobile/firefox-ios'

@@ -1,0 +1,14 @@
+title: Onion Browser
+type: Recommendation
+logo: /assets/img/browsers/onion_browser.svg
+description: |
+  <strong>Onion Browser</strong> is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the <a href="https://support.torproject.org/glossary/onion-browser/">Tor Project</a>.
+
+  Note that there are some anonymity-related <a href="https://onionbrowser.com/about">issues</a> with Onion Browser due to iOS limitations.
+website: 'https://onionbrowser.com/'
+privacy_policy: 'https://onionbrowser.com/privacy-policy'
+downloads:
+  - icon: fab fa-app-store-ios
+    url: 'https://apps.apple.com/app/id519296448'
+  - icon: fab fa-github
+    url: 'https://github.com/OnionBrowser/OnionBrowser'
