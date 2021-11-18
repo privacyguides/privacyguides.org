@@ -16,7 +16,7 @@ items:
   - type: link
     title: Search Engines
     icon: fad fa-search-location
-    file: legacy_pages/providers/search-engines.html
+    file: _evergreen/search-engines.html
   - type: link
     title: Social Networks
     icon: fad fa-thumbs-up
