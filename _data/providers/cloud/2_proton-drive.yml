@@ -6,7 +6,7 @@ description: |
 
   Proton Drive is currently in beta and only is only available through a web client.
 
-  When using a web client, you are placing trust in the server sending you the JavaScript code that encrypts your files.
+  When using a web client, you are placing trust in the server to send you proper JavaScript code to derive the decryption key and authentication token locally in your browser. A compromised server can send you malicious JavaScript code to steal your master password and decrypt your data. If this does not fit your <a href="/threat-modeling/">threat model</a>, consider using an alternative.
 
 website: 'https://protonmail.com'
 privacy_policy: 'https://protonmail.com/privacy-policy'
