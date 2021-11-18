@@ -52,3 +52,7 @@ items:
     title: Self-Contained Networks
     icon: fad fa-chart-network
     file: legacy_pages/software/networks.html
+  - type: link
+    title: Video Streaming
+    icon: fab fa-youtube
+    file: _evergreen/video-streaming.html
