@@ -28,7 +28,7 @@ items:
   - type: link
     title: Video Platforms
     icon: fad fa-file-video
-    file: legacy_pages/providers/video.html
+    file: _evergreen/video-streaming.html
   - type: link
     title: VPN Services
     icon: fad fa-network-wired
