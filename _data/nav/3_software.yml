@@ -53,6 +53,6 @@ items:
     icon: fad fa-chart-network
     file: legacy_pages/software/networks.html
   - type: link
-    title: Self-Hosted Cloud Servers
-    icon: fad fa-laptop-house
-    file: legacy_pages/software/cloud.html
+    title: Video Streaming
+    icon: fab fa-youtube
+    file: _evergreen/video-streaming.html

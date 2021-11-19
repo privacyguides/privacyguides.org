@@ -1,0 +1,14 @@
+---
+layout: evergreen
+title: Video Streaming
+description: "The primary threat when using a video streaming platform is that your streaming habits and subscription lists could be used to profile you. You should combine these tools with a <a href='/providers/vpn/'>VPN</a> to make it much harder to profile you."
+---
+
+{% for item_hash in site.data.software.video-streaming %}
+{% assign item = item_hash[1] %}
+
+{% if item.type == "Recommendation" %}
+{% include recommendation-card.html %}
+{% endif %}
+
+{% endfor %}

@@ -1,0 +1,16 @@
+title: NewPipe
+type: Recommendation
+logo: /assets/img/video-streaming/newpipe.svg
+description: |
+  <strong>NewPipe</strong> is a free and open source Android application for <a href="https://youtube.com">YouTube</a>, <a href="https://soundcloud.com/">SoundCloud</a>, <a href="https://media.ccc.de">media.ccc.de</a>, <a href="https://framatube.org/">FramaTube</a>, <a href="https://bandcamp.com/">Bandcamp</a>.
+  All of your subscription list and playlists are saved locally on your Android device.
+
+  <h4>Notes</h4>
+  While NewPipe is available on <a href="https://www.f-droid.org/">F-Droid</a>'s main repository, we recommend that you use the NewPipe project's <a href="https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo/">own F-Droid repository</a> instead to get faster updates and avoid breakages due to changes in Youtube's API.
+website: 'https://newpipe.net/'
+privacy_policy: 'https://newpipe.net/legal/privacy/'
+downloads:
+  - icon: fab fa-android
+    url: 'https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo/'
+  - icon: fab fa-github
+    url: 'https://github.com/TeamNewPipe/NewPipe/'

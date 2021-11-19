@@ -3,8 +3,8 @@ title: Providers
 items:
   - type: link
     title: Cloud Storage
-    icon: fad fa-clouds
-    file: legacy_pages/providers/storage.html
+    icon: fad fa-cloud
+    file: _evergreen/cloud.html
   - type: link
     title: DNS Servers
     icon: fad fa-map-signs
@@ -13,14 +13,6 @@ items:
     title: Email Providers
     icon: fad fa-envelope
     file: legacy_pages/providers/email.html
-  - type: link
-    title: Web Hosting
-    icon: fad fa-hdd
-    file: legacy_pages/providers/hosting.html
-  - type: link
-    title: Pastebins
-    icon: fad fa-clipboard
-    file: legacy_pages/providers/paste.html
   - type: link
     title: Search Engines
     icon: fad fa-search-location
@@ -36,7 +28,7 @@ items:
   - type: link
     title: Video Platforms
     icon: fad fa-file-video
-    file: legacy_pages/providers/video.html
+    file: _evergreen/video-streaming.html
   - type: link
     title: VPN Services
     icon: fad fa-network-wired
