@@ -1,0 +1,27 @@
+title: Filen
+type: Recommendation
+logo: /assets/img/cloud/filen.png
+description: |
+  <strong>Filen</strong> is fully user controlled GDPR compliant zero knowledge end-to-end AES 256-bit encrypted cloud storage.
+  All files are stored in Tier IV ISO 27001 certificated high security datacenters located in Germany.
+  Apps are open source and available in GitHub.
+  Filen is self funded with their own hardware and without big companies in the background.
+  All free (10 GB) and paid (up to 5 TB) plans offer unlimited bandwidch, no functional and speed restrictions and zero knowledge end-to-end AES 256-bit encryption by default.
+  When you upload a file to Filen's cloud storage, you actually don't upload a file, you upload chunks of encrypted text. Before you initiate an upload, your browser/app chunks your file into 1 MB pieces, encrypts them using AES encryption and then sends the encrypted string to Filen servers. That way the actual file never leaves your computer and Filen doesn't know real size of each file you upload. Even file names and metadata are encrypted. When downloading a file your browser or an app requests all chunks of the file from Filen's servers, decrypts them using the decryption key and then rebuilds the whole file again.
+website: 'https://filen.io/'
+privacy_policy: 'https://filen.io/privacy'
+downloads:
+  - icon: fab fa-windows
+    url: 'https://filen.io/apps'
+  - icon: fab fa-apple
+    url: 'https://filen.io/apps'
+  - icon: fab fa-linux
+    url: 'https://filen.io/apps'
+  - icon: fab fa-android
+    url: 'https://github.com/FilenCloudDienste/filen-mobile/releases'
+  - icon: fab fa-google-play
+    url: 'https://play.google.com/store/apps/details?id=io.filen.app'
+  - icon: fab fa-app-store-ios
+    url: 'https://apps.apple.com/us/app/filen-cloud-storage/id1549224518'
+  - icon: fab fa-github
+    url: 'https://github.com/FilenCloudDienste'
