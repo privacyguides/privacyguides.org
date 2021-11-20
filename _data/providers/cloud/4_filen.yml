@@ -1,6 +1,6 @@
 title: Filen
 type: Recommendation
-logo: /assets/img/cloud/filen.png
+logo: /assets/img/cloud/filen.svg
 description: |
   <strong>Filen</strong> is fully user controlled GDPR compliant zero knowledge end-to-end AES 256-bit encrypted cloud storage.
   All files are stored in Tier IV ISO 27001 certificated high security datacenters located in Germany.
@@ -17,11 +17,11 @@ downloads:
     url: 'https://filen.io/apps'
   - icon: fab fa-linux
     url: 'https://filen.io/apps'
-  - icon: fab fa-android
-    url: 'https://github.com/FilenCloudDienste/filen-mobile/releases'
   - icon: fab fa-google-play
     url: 'https://play.google.com/store/apps/details?id=io.filen.app'
+  - icon: fab fa-android
+    url: 'https://github.com/FilenCloudDienste/filen-mobile/releases'
   - icon: fab fa-app-store-ios
-    url: 'https://apps.apple.com/us/app/filen-cloud-storage/id1549224518'
+    url: 'https://apps.apple.com/app/id1549224518'
   - icon: fab fa-github
     url: 'https://github.com/FilenCloudDienste'
