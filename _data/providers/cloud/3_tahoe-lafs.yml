@@ -6,7 +6,6 @@ description: |
 
   Due to the complexity of the system and the amount of nodes needed to set it up, Tahoe-LAFS is only recommended for seasoned system administrators.
 website: 'https://www.tahoe-lafs.org/'
-privacy_policy: 'https://protonmail.com/privacy-policy'
 downloads:
   - icon: fab fa-windows
     url: 'https://github.com/tahoe-lafs/tahoe-lafs#via-pip'
