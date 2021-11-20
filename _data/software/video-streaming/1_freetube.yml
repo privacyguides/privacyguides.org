@@ -7,7 +7,7 @@ description: |
   FreeTube features <a href="https://sponsor.ajay.app">SponsorBlock</a> to help you skip sponsored advertisement, and all Youtube advertisements are blocked by default as well.
 
   <h4>Notes</h4>
-  Your IP address is visible to YouTube, <a href="https://instances.invidious.io">Invidious</a> and SponsorBlock instances that you use. Consider using a <a href='/providers/vpn/'>VPN</a> if this is in your <a href="/threat-modeling/">threat model.
+  Your IP address is visible to YouTube, <a href="https://instances.invidious.io">Invidious</a> and SponsorBlock instances that you use. Consider using a <a href='/providers/vpn/'>VPN</a> depending on <a href="/threat-modeling/">threat model.
 website: 'https://freetubeapp.io/'
 privacy_policy: 'https://freetubeapp.io/privacy.php'
 downloads:
