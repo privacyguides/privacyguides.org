@@ -26,10 +26,6 @@ items:
     icon: fad fa-newspaper
     file: legacy_pages/providers/social-news-aggregator.html
   - type: link
-    title: Video Platforms
-    icon: fad fa-file-video
-    file: _evergreen/video-streaming.html
-  - type: link
     title: VPN Services
     icon: fad fa-network-wired
     file: legacy_pages/providers/vpn.html
