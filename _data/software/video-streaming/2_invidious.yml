@@ -1,9 +1,9 @@
 title: Invidious
-heading: For web
 type: Recommendation
 warning: <a href="https://github.com/iv-org/documentation/blob/master/Always-use-%22local%22-to-proxy-video-through-the-server-without-creating-an-account.md">By default, Invidious will not proxy videos through the instance's proxy.</a>
 logo: /assets/img/video-streaming/invidious.png
 description: |
+  <h4>For web</h4>
   <strong>Invidious</strong> is an alternative front-end to YouTube. It is free software, with no advertising or Javascript dependency to play videos, with lots of other features that allow you to have a complete YouTube experience, sans Google.
 
 website: 'https://invidious.io'
