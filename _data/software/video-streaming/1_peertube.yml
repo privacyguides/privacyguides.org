@@ -1,5 +1,7 @@
 title: PeerTube
+heading: For web
 type: Recommendation
+warning: PeerTube shares what you watch to other peers
 logo: /assets/img/video-streaming/peertube.png
 description: |
   <strong>PeerTube</strong>, developed by Framasoft, is a free and decentralized alternative to video platforms, with over 400,000 videos published by over 50,000 users and viewed over 10 million times.
