@@ -12,3 +12,14 @@ description: "The primary threat when using a video streaming platform is that y
 {% endif %}
 
 {% endfor %}
+
+<h2>Frontends</h2>
+
+{% for item_hash in site.data.software.browsers %}
+{% assign item = item_hash[1] %}
+
+{% if item.type == "Frontend" %}
+{% include recommendation-text.html %}
+{% endif %}
+
+{% endfor %}

@@ -1,5 +1,5 @@
 title: Invidious
-type: Recommendation
+type: Frontend
 warning: By default, Invidious will not proxy videos through the instance's proxy.
 logo: /assets/img/video-streaming/invidious.png
 description: |
