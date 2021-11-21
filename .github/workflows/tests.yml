@@ -97,7 +97,7 @@ jobs:
         mv /tmp/src/* ${{ github.workspace }}/src/
         mv /tmp/_site ${{ github.workspace }}/
     - name: Internal link checker
-      uses: untitaker/hyperlink@0.1.18
+      uses: untitaker/hyperlink@0.1.19
       with:
         args: _site/ --sources src/
 
