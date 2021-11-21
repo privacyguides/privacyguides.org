@@ -1,0 +1,14 @@
+title: PeerTube
+type: Recommendation
+logo: /assets/img/video-streaming/invidious.png
+description: |
+  <strong>Invidious is an alternative front-end to YouTube. It is free software, with no advertising or Javascript dependency to play videos, with lots of other features that allow you to have a complete YouTube experience, sans Google.
+
+  <h4>Notes</h4>
+  <a href="https://github.com/iv-org/documentation/blob/master/Always-use-%22local%22-to-proxy-video-through-the-server-without-creating-an-account.md">By default, Invidious will not proxy videos through the instance's proxy.</a>
+website: 'https://invidious.io'
+downloads:
+  - icon: fas fa-globe-americas
+    url: 'https://instances.invidious.io'
+  - icon: fab fa-github
+    url: 'https://github.com/iv-org/invidious'

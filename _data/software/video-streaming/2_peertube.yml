@@ -1,0 +1,12 @@
+title: PeerTube
+type: Recommendation
+logo: /assets/img/video-streaming/peertube.png
+description: |
+  <strong>PeerTube, developed by Framasoft, is a free and decentralized alternative to video platforms, with over 400,000 videos published by over 50,000 users and viewed over 10 million times.
+
+website: 'https://joinpeertube.org'
+downloads:
+  - icon: fas fa-globe-americas
+    url: 'https://joinpeertube.org/#what-is-peertube'
+  - icon: fab fa-github
+    url: 'https://github.com/Chocobozzz/PeerTube'
