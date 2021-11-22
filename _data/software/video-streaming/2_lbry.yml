@@ -11,8 +11,7 @@ description: |
 
   Only the <strong>LBRY desktop client</strong> is recommended. <a href="https://odysee.com/">Odysee</a> and the F-Droid, Play Store, IOS clients have mandatory synchronization and telemetry.
 
-  While watching and hosting videos, your IP address is visible to the LBRY network. Consider using a <a href='/providers/vpn/'>VPN</a> if this is in your <a href="/threat-modeling/">threat model</a>. You could also disable <em>Save hosting data to help the LBRY network</em> option (⚙️ Settings → Advanced Settings) to avoid exposing your IP and watched videos for a prolonged period of time.
-
+  While watching and hosting videos, your IP address is visible to the LBRY network. Consider using a <a href='/providers/vpn/'>VPN</a> depending on your <a href="/threat-modeling/">threat model</a>. You could also disable <em>Save hosting data to help the LBRY network</em> option (⚙️ Settings → Advanced Settings) to avoid exposing your IP and watched videos for a prolonged period of time.
 website: 'https://lbry.com/'
 privacy_policy: 'https://lbry.com/privacypolicy'
 downloads:

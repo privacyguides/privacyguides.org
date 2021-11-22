@@ -18,6 +18,7 @@
           More Information</a>{% endif %}
         {% if item.website %}<a href="{{ item.website }}" rel="noopener" class="btn btn-secondary mt-1 me-1"><i class="fad fa-external-link-square fa-fw"></i>
           Visit {{ item.website | remove_first: "www." | split: "/" | slice: 2 }}</a>
+          {% if item.privacy_policy %}<a href="{{ item.privacy_policy }}" rel="noopener" class="btn btn-primary mt-1 me-1" title="{{ item.privacy_policy }}"><i class="fas fa-book fa-fw"></i> Privacy Policy</a>{% endif %}
           {% if item.website_tor %}<a href="{{ item.website_tor }}" rel="noopener" class="btn btn-info mt-1 me-1" aria-label="Onion site" title="Visit {{ item.website_tor }} on Tor"><i aria-hidden="true" class="ptio-tor text-light"></i></a>
           {% endif %}
         {% endif %}
