@@ -4,7 +4,15 @@ title: Video Streaming
 description: "The primary threat when using a video streaming platform is that your streaming habits and subscription lists could be used to profile you. You should combine these tools with a <a href='/providers/vpn/'>VPN</a> or <a href='https://www.torproject.org/'>Tor</a> to make it harder to profile your usage."
 ---
 
-<h2>Clients</h2>
+<h2 id="clients" class="anchor">
+  <a href="#clients"><i class="fas fa-link anchor-icon"></i></a>
+Client
+</h2>
+
+<h2 id="additional-resources" class="anchor">
+  <a href="#additional-resources"><i class="fas fa-link anchor-icon"></i></a>
+Additional Resources
+</h2>
 
 {% for item_hash in site.data.software.video-streaming-clients %}
 {% assign item = item_hash[1] %}
@@ -15,7 +23,11 @@ description: "The primary threat when using a video streaming platform is that y
 
 {% endfor %}
 
-<h2>Web based front ends</h2>
+<h2 id="web-based-front-ends" class="anchor">
+  <a href="#web-based-front-ends"><i class="fas fa-link anchor-icon"></i></a>
+Web based front ends
+</h2>
+
 <p>The recommended frontend below is useful if you want to disable JavaScript in your browser. It does not provide privacy by itself and we don't recommend logging into any accounts. It can be used with a <a href='/providers/vpn/'>VPN</a> or <a href='https://www.torproject.org/'>Tor</a>.</p>
 
 {% for item_hash in site.data.software.video-streaming-front-ends %}
