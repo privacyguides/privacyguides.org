@@ -30,7 +30,7 @@ Previously we recommended ClearURLs to remove tracking parameters from URLs you 
 
 #### HTTPS Everywhere
 
-The EFF announced back in September they were [deprecating HTTPS-Everywhere](https://www.eff.org/deeplinks/2021/09/https-actually-everywhere) as most browsers now have a HTTP-Only feature. We are pleased to see privacy features built into the browser and Firefox 91 introduced [HTTPS by Default in Private Browsing](https://blog.mozilla.org/security/2021/08/10/firefox-91-introduces-https-by-default-in-private-browsing/).
+The EFF announced back in September they were [deprecating HTTPS-Everywhere](https://www.eff.org/deeplinks/2021/09/https-actually-everywhere) as most browsers now have an HTTPS-Only feature. We are pleased to see privacy features built into the browser and Firefox 91 introduced [HTTPS by Default in Private Browsing](https://blog.mozilla.org/security/2021/08/10/firefox-91-introduces-https-by-default-in-private-browsing/).
 
 #### Multi Account Containers and Temporary Containers
 
