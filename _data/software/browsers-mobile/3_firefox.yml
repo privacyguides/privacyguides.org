@@ -16,6 +16,6 @@ website: 'https://firefox.com/'
 privacy_policy: 'https://www.mozilla.org/privacy/firefox/'
 downloads:
   - icon: fab fa-app-store-ios
-    url: 'https://apps.apple.com/id989804926'
+    url: 'https://apps.apple.com/us/app/firefox-private-safe-browser/id989804926'
   - icon: fab fa-github
     url: 'https://github.com/mozilla-mobile/firefox-ios'
