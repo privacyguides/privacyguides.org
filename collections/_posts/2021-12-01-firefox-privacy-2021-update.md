@@ -5,22 +5,22 @@ author:
 cover: firefox-privacy-2021.png
 color: "linear-gradient(to bottom, rgba(158, 82, 19, 0.5), rgba(158, 82, 19, 0.9))"
 layout: post
-excerpt: A lot changed between now and 2019, not least in regards to Firefox.
+excerpt: A lot changed between 2019 and now, not least in regards to Firefox.
 ---
 
-A lot changed between now and 2019, not least in regards to Firefox. Since our last [post](https://privacyguides.org/blog/2019/11/09/firefox-privacy/), Mozilla has [improved](https://blog.mozilla.org/en/products/firefox/latest-firefox-rolls-out-enhanced-tracking-protection-2-0-blocking-redirect-trackers-by-default/) privacy with [Enhanced Tracking Protection (ETP)](https://blog.mozilla.org/en/products/firefox/firefox-now-available-with-enhanced-tracking-protection-by-default/). Earlier this year Mozilla introduced [Total Cookie Protection](https://blog.mozilla.org/security/2021/02/23/total-cookie-protection/) (Dynamic First Party Isolation dFPI). This was then further tightened with [Enhanced Cookie Clearing](https://blog.mozilla.org/security/2021/08/10/firefox-91-introduces-enhanced-cookie-clearing/). We're also looking very forward to [Site Isolation](https://blog.mozilla.org/security/2021/05/18/introducing-site-isolation-in-firefox/) (code named Fission) being enabled by default in the coming releases.
+A lot changed between 2019 and now, not least in regards to Firefox. Since our last [post](https://privacyguides.org/blog/2019/11/09/firefox-privacy/), Mozilla has [improved](https://blog.mozilla.org/en/products/firefox/latest-firefox-rolls-out-enhanced-tracking-protection-2-0-blocking-redirect-trackers-by-default/) privacy with [Enhanced Tracking Protection (ETP)](https://blog.mozilla.org/en/products/firefox/firefox-now-available-with-enhanced-tracking-protection-by-default/). Earlier this year Mozilla introduced [Total Cookie Protection](https://blog.mozilla.org/security/2021/02/23/total-cookie-protection/) (Dynamic First Party Isolation dFPI). This was then further tightened with [Enhanced Cookie Clearing](https://blog.mozilla.org/security/2021/08/10/firefox-91-introduces-enhanced-cookie-clearing/). We're also looking very forward to [Site Isolation](https://blog.mozilla.org/security/2021/05/18/introducing-site-isolation-in-firefox/) (code named Fission) being enabled by default in the coming releases.
 
 Now that so many privacy features are built into the browser, there is little need for extensions made by third-party developers. Accordingly, we have updated our very outdated [browser](https://privacyguides.org/browsers/) section. If you've got an old browser profile we suggest **creating a new one**. Some of the old advice may make your browser *more* unique.
 
 #### Privacy Tweaks "about:config"
 
-We're no longer recommending that users set `about:config` switches manually. Those switches need to be up to date and continiously maintained. They should be studied before blindly making modifications. Sometimes their behaviour changes in between Firefox releases, is superseeded by other keys or they are  removed entirely. We do not see any point in duplicating the efforts of the community [Arkenfox](https://github.com/arkenfox/user.js) project. Arkenfox has very good documentation in their [wiki](https://github.com/arkenfox/user.js/wiki) and we use it ourselves.
+We're no longer recommending that users set `about:config` switches manually. Those switches need to be up to date and continuously maintained. They should be studied before blindly making modifications. Sometimes their behaviour changes in between Firefox releases, is superseded by other keys or they are  removed entirely. We do not see any point in duplicating the efforts of the community [Arkenfox](https://github.com/arkenfox/user.js) project. Arkenfox has very good documentation in their [wiki](https://github.com/arkenfox/user.js/wiki) and we use it ourselves.
 
 #### LocalCDN and Decentraleyes
 
 These extensions aren't required with Total Cookie Protection (TCP), which is enabled if you've set Enhanced Tracking Protection (ETP) to **Strict**.
 
-Replacing scripts on CDNs with local versions is not a comprehensive solution and is a form of [enumeration of badness](https://www.ranum.com/security/computer_security/editorials/dumb/). While it may work with some scripts that are included it doesn't help with most other third party connections.
+Replacing scripts on CDNs with local versions is not a comprehensive solution and is a form of [enumeration of badness](https://www.ranum.com/security/computer_security/editorials/dumb/). While it may work with some scripts that are included it doesn't help with most other third-party connections.
 
 CDN extensions never really improved privacy as far as sharing your IP address was concerned and their usage is fingerprintable as this Tor Project developer [points out](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/22089#note_2639603). They are the wrong tool for the job and are not a substitute for a good VPN or Tor. Its worth noting the [resources](https://git.synz.io/Synzvato/decentraleyes/-/tree/master/resources) for Decentraleyes are hugely out of date and would not be likely used anyway.
 
@@ -36,7 +36,7 @@ The EFF announced back in September they were [deprecating HTTPS-Everywhere](htt
 
 Container extensions aren't as important as they used to be for privacy now that we have [Total Cookie Protection](https://blog.mozilla.org/security/2021/02/23/total-cookie-protection/).
 
-Multi Account Container will still have some use if you use [Mozilla VPN](https://en.wikipedia.org/wiki/Mozilla_VPN) as it is going to be [intergrated](https://github.com/mozilla/multi-account-containers/issues/2210) allowing you to configure specified containers to use a particular VPN server. Another use might be if you want to login to multiple accounts on the same domain.
+Multi Account Container will still have some use if you use [Mozilla VPN](https://en.wikipedia.org/wiki/Mozilla_VPN) as it is going to be [integrated](https://github.com/mozilla/multi-account-containers/issues/2210) allowing you to configure specified containers to use a particular VPN server. Another use might be if you want to login to multiple accounts on the same domain.
 
 #### Just-In-Time Compilation (JIT)
 
@@ -54,9 +54,9 @@ There are places which Firefox on Android shines for example browsing news websi
 
 Firefox has the ability to block known third party [fingerprinting resources](https://blog.mozilla.org/security/2020/01/07/firefox-72-fingerprinting/). Mozilla has [advanced protection](https://support.mozilla.org/kb/firefox-protection-against-fingerprinting) against fingerprinting (RFP is enabled with Arkenfox).
 
-We do not recommend extensions that promise to change your [browser fingerprint](https://blog.torproject.org/browser-fingerprinting-introduction-and-challenges-ahead/). Some of those those extensions [are detectable](https://www.cse.chalmers.se/~andrei/codaspy17.pdf) by websites through JavaScript and [CSS](https://hal.archives-ouvertes.fr/hal-03152176/file/style-fingerprinting-usenix.pdf) methods, particularly those which inject anything into the web content.
+We do not recommend extensions that promise to change your [browser fingerprint](https://blog.torproject.org/browser-fingerprinting-introduction-and-challenges-ahead/). Some of those extensions [are detectable](https://www.cse.chalmers.se/~andrei/codaspy17.pdf) by websites through JavaScript and [CSS](https://hal.archives-ouvertes.fr/hal-03152176/file/style-fingerprinting-usenix.pdf) methods, particularly those which inject anything into the web content.
 
-This includes **all** extensions that try to change the user agent or other browser behaviour to prevent fingerprinting. We see these often recommended on Reddit and would like to say that they will likely make you more unique and can be circumvented.  Arkenfox has [a good list](https://github.com/arkenfox/user.js/wiki/4.1-Extensions#small_orange_diamond-%EF%B8%8F-anti-fingerprinting-extensions-fk-no) of extensions you shouldn't be using. They also have [another list](https://github.com/arkenfox/user.js/wiki/4.1-Extensions#small_orange_diamond-dont-bother) of extensions you needn't bother with either. We also like to say testing sites which show you how unique you are in a set of users are often using hugely tainted results that are not indicitive of real-world usage.
+This includes **all** extensions that try to change the user agent or other browser behaviour to prevent fingerprinting. We see these often recommended on Reddit and would like to say that they will likely make you more unique and can be circumvented.  Arkenfox has [a good list](https://github.com/arkenfox/user.js/wiki/4.1-Extensions#small_orange_diamond-%EF%B8%8F-anti-fingerprinting-extensions-fk-no) of extensions you shouldn't be using. They also have [another list](https://github.com/arkenfox/user.js/wiki/4.1-Extensions#small_orange_diamond-dont-bother) of extensions you needn't bother with either. We also like to say testing sites which show you how unique you are in a set of users are often using hugely tainted results that are not indicative of real-world usage.
 
 ---
 
