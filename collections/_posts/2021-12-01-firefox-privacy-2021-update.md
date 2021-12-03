@@ -8,6 +8,8 @@ layout: post
 excerpt: A lot changed between 2019 and now, not least in regards to Firefox.
 ---
 
+Edit: [ArkenFox will be moving from FPI to dFPI + network-partioning in v96](https://github.com/arkenfox/user.js/issues/1281). If you're trying to make exceptions to sites and remained logged in after restarting Firefox and that is not working, see the above announcement.
+
 A lot changed between 2019 and now, not least in regards to Firefox. Since our last [post](https://privacyguides.org/blog/2019/11/09/firefox-privacy/), Mozilla has [improved](https://blog.mozilla.org/en/products/firefox/latest-firefox-rolls-out-enhanced-tracking-protection-2-0-blocking-redirect-trackers-by-default/) privacy with [Enhanced Tracking Protection (ETP)](https://blog.mozilla.org/en/products/firefox/firefox-now-available-with-enhanced-tracking-protection-by-default/). Earlier this year Mozilla introduced [Total Cookie Protection](https://blog.mozilla.org/security/2021/02/23/total-cookie-protection/) (Dynamic First Party Isolation dFPI). This was then further tightened with [Enhanced Cookie Clearing](https://blog.mozilla.org/security/2021/08/10/firefox-91-introduces-enhanced-cookie-clearing/). We're also looking very forward to [Site Isolation](https://blog.mozilla.org/security/2021/05/18/introducing-site-isolation-in-firefox/) (code named Fission) being enabled by default in the coming releases.
 
 Now that so many privacy features are built into the browser, there is little need for extensions made by third-party developers. Accordingly, we have updated our very outdated [browser](https://privacyguides.org/browsers/) section. If you've got an old browser profile we suggest **creating a new one**. Some of the old advice may make your browser *more* unique.
