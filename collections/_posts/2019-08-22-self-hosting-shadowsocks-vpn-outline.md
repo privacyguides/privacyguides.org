@@ -60,9 +60,9 @@ After it completes, it will give you a long line starting with `{"apiUrl"` (depe
 Download the Outline app on the device you want to connect. Outline has applications for the following operating systems:
 
 -  [Android](https://play.google.com/store/apps/details?id=org.outline.android.client)
--  [iOS](https://itunes.apple.com/us/app/outline-app/id1356177741)
+-  [iOS](https://apps.apple.com/app/id1356177741)
 -  [Windows](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/client/stable/Outline-Client.exe)
--  [macOS](https://itunes.apple.com/us/app/outline-app/id1356178125)
+-  [macOS](https://apps.apple.com/app/id1356178125)
 -  [Chrome OS](https://play.google.com/store/apps/details?id=org.outline.android.client)
 -  [Linux](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/client/stable/Outline-Client.AppImage)
 

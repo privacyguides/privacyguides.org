@@ -28,6 +28,6 @@ downloads:
   - icon: fab fa-google-play
     url: 'https://play.google.com/store/apps/details?id=com.nextcloud.client'
   - icon: fab fa-app-store-ios
-    url: 'https://itunes.apple.com/us/app/nextcloud/id1125420102'
+    url: 'https://apps.apple.com/app/id1125420102'
   - icon: fab fa-github
     url: 'https://github.com/nextcloud'

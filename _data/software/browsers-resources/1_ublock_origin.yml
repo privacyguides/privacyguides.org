@@ -1,0 +1,13 @@
+title: uBlock Origin
+type: Recommendation
+logo: /assets/img/browsers/ublock_origin.svg
+description: |
+  <strong>uBlock Origin</strong> is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
+
+  We suggest enabling all of the  <a href="https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists">filters lists</a> under the "Ads", "Privacy" and "Malware domains". The "Annoyances" and "Multipurpose" lists can also be enabled, but they may break some social media functions. The <em>AdGuard URL Tracking Protection</em> filter list makes extensions like CleanURLs and NeatURLs redundant.
+
+  We also suggest adding the <a href="https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt">Actually Legitimate URL Shortener Tool</a> list and any of the regional lists that might apply to your browsing habits. Additional filter lists do slow things down, so only apply the languages that you use.
+
+  uBlock Origin also has different <a href="https://github.com/gorhill/uBlock/wiki/Blocking-mode">blocking modes</a>. The easy mode <a href="https://www.ranum.com/security/computer_security/editorials/dumb/">might not</a> necessarily keep you safe from every tracker out there, whereas the more advanced modes let you control exactly what needs to run.
+website: 'https://addons.mozilla.org/firefox/addon/ublock-origin/'
+privacy_policy: 'https://github.com/gorhill/uBlock/wiki/Privacy-policy'

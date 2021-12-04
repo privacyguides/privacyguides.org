@@ -54,5 +54,5 @@ items:
     file: legacy_pages/software/networks.html
   - type: link
     title: Video Streaming
-    icon: fab fa-youtube
+    icon: fad fa-video
     file: _evergreen/video-streaming.html

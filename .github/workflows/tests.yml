@@ -97,7 +97,7 @@ jobs:
         mv /tmp/src/* ${{ github.workspace }}/src/
         mv /tmp/_site ${{ github.workspace }}/
     - name: Internal link checker
-      uses: untitaker/hyperlink@0.1.19
+      uses: untitaker/hyperlink@0.1.20
       with:
         args: _site/ --sources src/
 
@@ -126,7 +126,7 @@ jobs:
         uses: chabad360/htmlproofer@v1.1
         with:
           directory: ${{ github.workspace }}/_site
-          arguments: --assume-extension --external_only --internal-domains privacyguides.org,www.privacyguides.org --timeframe 30d --url-ignore '/https:\/\/developers\.cloudflare\.com\//,/https:\/\/github\.com\/privacyguides\/privacyguides\.org\/(edit|tree|blob)\/main/'
+          arguments: --assume-extension --external_only --internal-domains privacyguides.org,www.privacyguides.org --timeframe 30d --url-ignore '/https:\/\/developers\.cloudflare\.com\//,/https:\/\/github\.com\/privacyguides\/privacyguides\.org\/(edit|tree|blob)\/main/,/https:\/\/support\.(startmail|yubico)\.com\//'
         continue-on-error: true
       - name: Check External Links (Only 4XX)
         uses: chabad360/htmlproofer@v1.1
