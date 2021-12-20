@@ -15,7 +15,7 @@ description: |
 
   With the Xiaomi Mi A2, CalyxOS does not distribute the the latest firmware. Newer versions of the firmware prevented the device from performing verified boot.
 
-  The Daruta firewall can leak in some circumstances (see <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/572">#572</a> and <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/581">#581</a>).
+  The Datura firewall can leak in some circumstances (see <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/572">#572</a> and <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/581">#581</a>).
 website: 'https://calyxos.org'
 privacy_policy: 'https://calyxinstitute.org/legal/privacy-policy'
 downloads:
