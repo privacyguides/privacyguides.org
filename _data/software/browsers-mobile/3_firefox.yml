@@ -12,8 +12,8 @@ description: |
   <h5><strong>Sanitizing on close</strong></h5>
   Firefox iOS does not have have an option to clear cache on quit so you must do it manually. ( ≡ → ⚙️ Settings → Data Management).
 
-website: 'https://firefox.com/'
-privacy_policy: 'https://www.mozilla.org/privacy/firefox/'
+website: 'https://firefox.com'
+privacy_policy: 'https://www.mozilla.org/privacy/firefox'
 downloads:
   - icon: fab fa-app-store-ios
     url: 'https://apps.apple.com/app/id989804926'
