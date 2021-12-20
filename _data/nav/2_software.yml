@@ -6,7 +6,7 @@ items:
     icon: fad fa-browser
     file: _evergreen/browsers.html
   - type: link
-    title: Operating Systems
+    title: Operating Systems (Legacy)
     icon: fad fa-compact-disc
     file: legacy_pages/os.html
   - type: divider

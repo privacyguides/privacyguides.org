@@ -28,16 +28,16 @@ description: |
   <h4>Arkenfox (advanced)</h4>
   The <a href="https://github.com/arkenfox/user.js">Arkenfox project</a> provides a set of carefully considered options for Firefox. These options are quite strict but a few are subjective and can sometimes cause a website to not work properly. You can easily change these settings to suit your needs. We <strong>strongly recommend</strong> reading through the <a href="https://github.com/arkenfox/user.js/wiki">basics</a> section. Arkenfox also enables <a href="https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users">container</a> support.
 
-website: 'https://firefox.com/'
-privacy_policy: 'https://www.mozilla.org/privacy/firefox/'
+website: 'https://firefox.com'
+privacy_policy: 'https://www.mozilla.org/privacy/firefox'
 downloads:
   - icon: fab fa-windows
-    url: 'https://www.mozilla.org/firefox/windows/'
+    url: 'https://www.mozilla.org/firefox/windows'
   - icon: fab fa-apple
-    url: 'https://www.mozilla.org/firefox/mac/'
+    url: 'https://www.mozilla.org/firefox/mac'
   - icon: fab fa-linux
-    url: 'https://www.mozilla.org/firefox/linux/'
+    url: 'https://www.mozilla.org/firefox/linux'
   - icon: fab fa-freebsd
     url: 'https://www.freshports.org/www/firefox'
   - icon: fab fa-git
-    url: 'https://hg.mozilla.org/mozilla-central/'
+    url: 'https://hg.mozilla.org/mozilla-central'
