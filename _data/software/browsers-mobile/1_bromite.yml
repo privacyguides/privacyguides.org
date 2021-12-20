@@ -18,7 +18,7 @@ description: |
     <li>Select: <strong>Open external links in incognito</strong>.</li>
   </ul>
 
-website: 'https://www.bromite.org/'
+website: 'https://www.bromite.org'
 privacy_policy: 'https://www.bromite.org/privacy'
 downloads:
   - icon: fab fa-android

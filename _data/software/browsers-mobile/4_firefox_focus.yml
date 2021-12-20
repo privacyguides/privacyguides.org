@@ -12,8 +12,8 @@ description: |
   <h4>Notes</h4>
   Focus only lets you open one tab at a time.
 
-website: 'https://firefox.com/'
-privacy_policy: 'https://www.mozilla.org/privacy/firefox/'
+website: 'https://firefox.com'
+privacy_policy: 'https://www.mozilla.org/privacy/firefox'
 downloads:
   - icon: fab fa-app-store-ios
     url: 'https://apps.apple.com/app/id1055677337'
