@@ -13,7 +13,7 @@ description: |
   <h4>Notes</h4>
   CalyxOS's "extended support" does not have full security patches due to the original equipment manufacturer (OEM) discontinuing support, therefore they cannot be considered completely secure.
 
-  With the Xiaomi Mi A2, CalyxOS does not distribute the the latest firmware. Newer versions of the firmware prevented the device from performing verified boot.
+  With the Xiaomi Mi A2, CalyxOS does not distribute the latest firmware. Newer versions of the firmware prevented the device from performing verified boot.
 
   The Datura firewall can leak in some circumstances (see <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/572">#572</a> and <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/581">#581</a>).
 website: 'https://calyxos.org'

@@ -11,9 +11,9 @@ description: |
     <li>The user will be alerted to the change.</li>
   </ul>
 
-  No personally identifiable information is submitted to the attestation service. We do still recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
+  No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
 
-  If your <a href="/threat-modeling/">threat model</a> requires complete anonymity you could consider using Orbot or a VPN to hide your IP address from the attestation service.
+  If your <a href="/threat-modeling/">threat model</a> requires privacy you could consider using Orbot or a VPN to hide your IP address from the attestation service.
 
   To make sure that your hardware and operating system is genuine, <a href="https://grapheneos.org/install/web#verifying-installation">perform local attestation</a> immediately after the device has been installed and prior to any internet connection.
 
