@@ -8,7 +8,7 @@ description: |
 
   DivestOS has automated kernel vulnerability <a href="https://gitlab.com/divested-mobile/cve_checker">(CVE) patching</a>, fewer proprietary blobs, a custom <a href="https://divested.dev/index.php?page=dnsbl">hosts</a> file, along with bundled <a href="https://www.f-droid.org">F-Droid</a> as the app store. It also includes <a href="https://github.com/microg/UnifiedNlp">UnifedNlp</a> for network location and some hardening with <a href="https://gitlab.com/divested-mobile/mulch">Mulch Webview</a>. DivestOS also includes kernel patches from GrapheneOS and enables security features in <a href="https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L698">defconfig</a>.
 
-  DivestOS also inherits LineageOS's <a href="https://reddit.com/comments/c4a6f7">iptables</a> network access feature. You can deny network access to an individual application by pressing and holding on the app's icon. (App info → Data and Network → Uncheck "Network Access").
+  DivestOS also inherits LineageOS's <a href="https://reddit.com/comments/c4a6f7">iptables</a> network access feature. You can deny network access to an individual application by pressing and holding on the app's icon (App info → Data and Network → Uncheck "Network Access").
 
   DivestOS 16.0 and 17.1 has GrapheneOS's <a href="https://github.com/GrapheneOS/hardened_malloc">hardened memory allocator</a>. There are plans to port this to DivestOS 18.1.
 
