@@ -1,0 +1,15 @@
+title: NixOS
+type: Recommendation
+logo: /assets/img/linux-desktop/nixos.svg
+description: |
+  <strong>NixOS</strong> is an independent distribution based on the <a href="https://nixos.org">Nix package manager</a> with a focus on reproducibility and reliability.
+
+  NixOS's package manager keeps every version of every package in a different folder in the **Nix store**. Due to this you can have different versions of the same package installed on your system. After the package contents have been written to the folder, the folder is made read-only.
+
+  NixOS also provides atomic updates; First it downloads (or builds) the packages and files for the new system generation and then switches to it. Switching to a new generation can be done in different ways; (you can tell NixOS to activate it after reboot or you can switch to it at runtime). You can also *test* the new generation by switching to it at runtime, but not setting it as the current system generation. If something in the update process breaks, you can just reboot and automatically and return to a working version of your system.
+
+  Nix the package manager uses a purely functional language - which is also called Nix - to define packages. Because of this [Nixpkgs](https://github.com/nixos/nixpkgs) (the main source of packages) is contained in a single Github repository. You can also define your own packages in the same language and then easily include them in your config.
+
+  Nix is a source-based package manager; if there's no pre-built avalaible in the binary cache, Nix will just build the package from source using its definition. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible, thus making binaries reproducible.
+
+website: 'https://nixos.org'

@@ -1,0 +1,13 @@
+title: Fedora Workstation
+type: Recommendation
+logo: /assets/img/linux-desktop/fedora-workstation.svg
+labels: 'color==info::icon==fas fa-fw fa-trophy::text==Beginner friendly::tooltip==We highly recommend that new Linux users use Fedora Workstation.'
+description: |
+  **Fedora Workstation** is our recommended distribution for users new to Linux.
+
+  It has a semi-[rolling release](https://en.wikipedia.org/wiki/Rolling_release) cycle. While some packages like [GNOME](https://www.gnome.org) are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Each Fedora release is supported for one year, with a new version released every 6 months.
+
+  Fedora generally adopts newer technologies before other distributions e.g., [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org), and soon, [FS-Verity](https://fedoraproject.org/wiki/Changes/FsVerityRPM). These new technologies often come with improvements in security, privacy, and usability in general.
+
+website: 'https://getfedora.org'
+privacy_policy: 'https://fedoraproject.org/wiki/Legal:PrivacyPolicy#Sharing_Your_Personal_Data'
