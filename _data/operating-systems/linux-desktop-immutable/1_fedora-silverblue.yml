@@ -1,0 +1,16 @@
+title: Fedora Silverblue (and Kinoite)
+type: Recommendation
+logo: /assets/img/linux-desktop/fedora-silverblue.svg
+description: |
+  **Fedora Silverblue** and **Fedora Kinoite** are immutable variants of Fedora with a strong focus on container workflows. Silverblue comes with the [GNOME](https://www.gnome.org/) desktop environment while Kinoite comes with [KDE](https://kde.org/). Silverblue and Kinoite follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
+
+  Silverblue (and Kionite) differ from Fedora Workstation as they replace the [DNF](https://fedoraproject.org/wiki/DNF) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/). The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded, and the overlays will be applied to that new image.
+
+  After the update is complete the user will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that a user can easily rollback if something breaks in the new deployment. There is also the option to pin more deployments as needed.
+
+  [Flatpak](https://www.flatpak.org) is the primary package installation method on these distrbutions, as `rpm-ostree` is only meant to overlay packages that cannot stay inside of a container on top of the base image.
+
+  As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/) to create [Podman](https://podman.io) containers with a shared home directory with the host operating system and mimic a traditional Fedora environment, this is a [useful feature](https://containertoolbx.org) for the discerning developer.
+
+website: 'https://silverblue.fedoraproject.org'
+privacy_policy: 'https://fedoraproject.org/wiki/Legal:PrivacyPolicy#:~:text=Fedora%20may%20share%20your%20personal,described%20in%20this%20Privacy%20Statement.'
