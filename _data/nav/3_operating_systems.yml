@@ -5,3 +5,7 @@ items:
     title: Android
     icon: fab fa-android
     file: _evergreen/android.md
+  - type: link
+    title: Linux Desktop
+    icon: fab fa-linux
+    file: _evergreen/linux-desktop.md
