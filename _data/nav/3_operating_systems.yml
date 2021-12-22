@@ -5,3 +5,15 @@ items:
     title: Android
     icon: fab fa-android
     file: _evergreen/android.md
+  - type: link
+    title: Linux Desktop
+    icon: fab fa-linux
+    file: _evergreen/linux-desktop.md
+  - type: link
+    title: Qubes OS
+    icon: fab fa-linux
+    file: _evergreen/qubes.md
+  - type: link
+    title: Router
+    icon: fa-duotone fa-circle-nodes
+    file: _evergreen/router.md

@@ -1,0 +1,11 @@
+title: openSUSE Tumbleweed
+type: Recommendation
+logo: /assets/img/linux-desktop/opensuse-tumbleweed.svg
+description: |
+  **openSUSE Tumbleweed** is a stable [rolling release](https://en.wikipedia.org/wiki/Rolling_release) distribution.
+
+  Tumbleweed follows a rolling release model where each update is released as a snapshot of the distribution. When the user upgrades their system, a new snapshot is downloaded. Each snapshot is run through a series of automated tests by the [openSUSE Build Service](https://build.opensuse.org) to ensure its quality.
+
+  openSUSE Tumbleweed has a [transactional update](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/) system that uses [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) to ensure that snapshots can be rolled back should there be a problem.
+
+website: 'https://get.opensuse.org/tumbleweed/'

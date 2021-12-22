@@ -1,0 +1,14 @@
+title: OpenWrt
+type: Recommendation
+logo: /assets/img/router/openwrt.svg
+logo_dark: /assets/img/router/openwrt-dark.svg
+description: |
+  **OpenWrt** is an operating system (in particular, an embedded operating system) based on the Linux kernel, primarily used on embedded devices to route network traffic. The main components are the Linux kernel, util-linux, uClibc, and BusyBox. All components have been optimized for size, to be small enough for fitting into the limited storage and memory available in home routers.
+
+  ## Notes
+  Consult the [Table of Hardware](https://openwrt.org/toh/start) to check if your device is supported.
+
+website: 'https://openwrt.org'
+downloads:
+  - icon: fab fa-git
+    url: 'https://git.openwrt.org/'
