@@ -14,8 +14,6 @@ description: |
 
   Group voice and video calls are <a href="https://github.com/vector-im/element-web/issues/12878">not</a> E2EE, and use Jitsi, but this is expected to change with <a href="https://github.com/matrix-org/matrix-doc/pull/3401">Native Group VoIP Signalling</a>.
 
-  Native Group VoIP Signalling
-
   When using <a href="https://github.com/vector-im/element-web">element-web</a>, you must trust the server hosting the Element client. If your <a href="/threat-modeling">threat model</a> requires stronger protection then use a desktop or mobile client instead.
 
   <h4>Technical information</h4>
