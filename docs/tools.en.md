@@ -17,6 +17,7 @@ For your convenience, everything we recommend is listed below with a link to the
 
 - ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](https://www.torproject.org/)
 - ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } [Firefox (Desktop)](https://firefox.com/)
+- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Desktop)](https://brave.com/)
 - ![Bromite logo](assets/img/browsers/bromite.svg){ .twemoji } [Bromite (Android)](https://www.bromite.org/)
 - ![Safari logo](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](https://www.apple.com/safari/)
 
