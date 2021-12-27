@@ -12,7 +12,7 @@
             {% assign labels = include.labels | replace:", ", "," | split:"," %}
             <div class="mb-1">
                 {% for label in labels %}
-                    {% assign label_data = label | split:":" %}
+                    {% assign label_data = label | split:";" %}
                     {% assign color = label_data[0] %}
                     {% assign text = label_data[1] %}
                     {% assign tooltip = label_data[2] | default: "" %}

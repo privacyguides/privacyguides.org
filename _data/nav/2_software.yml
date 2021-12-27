@@ -45,9 +45,9 @@ items:
     icon: fad fa-briefcase
     file: legacy_pages/software/productivity.html
   - type: link
-    title: Real-Time Communication Platforms
+    title: Real-Time Communication
     icon: fad fa-comments-alt
-    file: legacy_pages/software/real-time-communication.html
+    file: _evergreen/real-time-communication.html
   - type: link
     title: Self-Contained Networks
     icon: fad fa-chart-network
