@@ -1,0 +1,47 @@
+title: Brave
+type: Recommendation
+logo: /assets/img/browsers/brave.svg
+description: |
+  <strong>Brave</strong> is built upon the Chromium browser, featuring a built in adblocker and some <a href="https://brave.com/privacy-features/">privacy features</a> enabled by default.
+
+  We only recommend Brave as a desktop browser. There are better <a href="/browsers/#mobile-only-recommendations">alternatives on mobile platforms</a>.
+
+  <h5><strong>Shields</strong></h5>
+  Change the adblocker to agressive mode (≡ Settings → Shields → Trackers & ads blocking).
+
+  Change the fingerprinting blocker to strict mode (≡ Settings → Shields → Fingerprint blocking). You can always downgrade it if you need to. We <strong>do not</strong> believe the <a href="https://brave.com/privacy-updates/4-fingerprinting-defenses-2.0/">fingerprint protection</a> Brave offers is as strong as that of a <a href="https://support.mozilla.org/kb/firefox-protection-against-fingerprinting">well-configured Firefox</a>.
+
+  <h5><strong>Social media blocking</strong></h5>
+  Disable social media components (≡ Settings → Social media blocking -> Uncheck all options).
+
+  <h5><strong>Privacy and Security</strong></h5>
+  There are a few options in here you may want to change.
+
+  <ul>
+    <li>Set the <a href="https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc">WebRTC IP Handling Policy</a> to <em>Disable Non-Proxied UDP</em> (≡ Settings → Privacy and Security → WebRTC IP handling policy).</li>
+    <li>Enable https everywhere (≡ Settings → Privacy and Security → Security → Always use secure connections)</li>
+  </ul>
+
+  <h5><strong>Sanitizing on close</strong></h5>
+  Select every option in clear browsing data on exit except <em>Site and Shields settings</em> (≡ Settings → Privacy and Security → Clear browsing data → On exit).
+
+  <h5><strong>Extensions</strong></h5>
+  Disabe all extensions which you do not use (≡ Settings → Extensions). You should not use the Tor tab in Brave. Brave is <strong>not</strong> as resistant to fingerprinting as the Tor Browser and will make you stand out.
+
+  <h5><strong>IPFS</strong></h5>
+  InterPlanetary File System (IPFS) is a decentralized peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use it, consider disabling this (≡ Settings → IPFS → Method to resolve IPFS resources).
+
+  <h5><strong>Background apps</strong></h5>
+  Disable background apps (≡ Settings → System → Continue running apps when Brave is closed).
+
+website: 'https://brave.com/'
+privacy_policy: 'https://brave.com/privacy/browser/'
+downloads:
+  - icon: fab fa-windows
+    url: 'https://laptop-updates.brave.com/latest/winx64'
+  - icon: fab fa-apple
+    url: 'https://laptop-updates.brave.com/latest/osxarm64'
+  - icon: fab fa-linux
+    url: 'https://brave.com/linux/#linux'
+  - icon: fab fa-github
+    url: 'https://github.com/brave/brave-browser'
