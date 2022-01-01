@@ -2,7 +2,6 @@
 layout: default
 ---
 <div class="container my-5">
-  {% include breadcrumbs.html %}
   <div class="d-flex flex-row my-5 align-items-center">
     {% if page.logo %}<div class="w-50 d-none d-lg-block text-center">
       <img src="{{ page.logo }}" alt="{{ page.title }} logo" width="128px" height="128px" class="">
@@ -21,6 +20,5 @@ layout: default
   {{ content }}
   {% include downloads.html %}
   {% include hr.html %}
-  {% include breadcrumbs.html %}
   {% include footer.html %}
 </div>

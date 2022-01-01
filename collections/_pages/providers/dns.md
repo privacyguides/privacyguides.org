@@ -2,7 +2,6 @@
 layout: page
 title: "Encrypted DNS Resolvers"
 description: "Don't let Google see all your DNS traffic. Discover privacy-centric alternatives to the traditional DNS providers."
-breadcrumb: "DNS"
 ---
 
 <div class="alert alert-warning" role="alert">

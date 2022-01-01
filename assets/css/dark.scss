@@ -15,7 +15,6 @@ $card-bg: lighten( $dark, 5% );
 $body-color: $light;
 $link-color: lighten( $link-color, 30% );
 $mark-bg: darken( $primary, 60% );
-$breadcrumb-bg: lighten( $dark, 5% );
 $hr-border-color: $body-color;
 
 @import "./node_modules/bootstrap/scss/variables";
