@@ -45,7 +45,7 @@ breadcrumb: "DNS"
   title="Firefox's built-in DNS-over-HTTPS resolver"
   image="/assets/img/legacy_svg/3rd-party/firefox_browser.svg"
   description='Firefox comes with built-in DNS-over-HTTPS support for <a href="https://blog.mozilla.org/blog/2020/02/25/firefox-continues-push-to-bring-dns-over-https-by-default-for-us-users/">NextDNS and Cloudflare</a> but users can manually use any other DoH resolver.'
-  labels="color==warning::icon==fas fa-exclamation-triangle::link==https://developers.cloudflare.com/1.1.1.1/privacy/firefox::text==Warning::tooltip==Cloudflare logs user IP addresses for 24 hours and permanent logs data about the DNS requests that are sent to their custom resolver for Firefox indefinitely."
+  labels="color==warning::icon==fas fa-exclamation-triangle::link==https://developers.cloudflare.com/1.1.1.1/privacy/cloudflare-resolver-firefox#what-information-does-the-cloudflare-resolver-for-firefox-collect::text==Warning::tooltip==Cloudflare stores personally identifiable information such as user IP addresses and query information for up to 24 hours, and retains some bulk anonymized data indefinitely."
   website="https://support.mozilla.org/en-US/kb/firefox-dns-over-https"
   privacy-policy="https://wiki.mozilla.org/Security/DOH-resolver-policy"
 %}
