@@ -1,7 +1,7 @@
 <h2 id="email" class="anchor"><a href="#email"><i class="fas fa-link anchor-icon"></i></a> Recommended Email Services</h2>
 
 <div class="alert alert-success" role="alert">
-  <strong>Our recommended providers operate outside of the US, adopt modern email technology, and meet <a href="/providers/email/#criteria">our other criteria</a> for listing.</strong> We also have a <a href="https://privacywiki.org/view/Comparison_of_email_providers#Provider_comparison">detailed comparison table</a> of the below providers on the wiki.
+  <strong>Our recommended providers operate outside of the US, adopt modern email technology, and meet <a href="/providers/email/#criteria">our other criteria</a> for listing</strong>.
 </div>
 
 <div class="container-fluid">
@@ -37,7 +37,7 @@
     <p>ProtonMail has <a href="https://protonmail.com/support/knowledge-base/how-to-use-pgp">integrated OpenPGP encryption</a> in their webmail. Emails to other ProtonMail users are encrypted automatically, and encryption to non-ProtonMail users with an OpenPGP key can be enabled easily in your account settings. They also allow you to <a href="https://protonmail.com/support/knowledge-base/encrypt-for-outside-users">encrypt messages to non-ProtonMail users</a> without the need for them to sign up for a ProtonMail account or use software like OpenPGP.</p>
     <p>ProtonMail also supports the discovery of public keys via HTTP from their <a href="https://wiki.gnupg.org/WKD">Web Key Directory (WKD)</a>. This allows users outside of ProtonMail to find the OpenPGP keys of ProtonMail users easily, for cross-provider E2EE.</p>
 
-    <h5>{% include badge.html color="info" text=".onion Service" %}</h5>
+    <h5>{% include badge.html color="success" text=".onion Service" %}</h5>
     <p>ProtonMail's login and services are accessible over Tor, <a href="https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion/">protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion</a></p>
 
     <h5>{% include badge.html color="info" text="Extra Functionality" %}</h5>
@@ -79,42 +79,6 @@
 
     <h5>{% include badge.html color="info" text="Extra Functionality" %}</h5>
     <p>All accounts come with limited cloud storage that <a href="https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive">can be encrypted</a>. Mailbox.org also offers the alias <a href="https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely">@secure.mailbox.org</a>, which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports <a href="https://en.wikipedia.org/wiki/Exchange_ActiveSync">Exchange ActiveSync</a> in addition to standard access protocols like IMAP and POP3.</p>
-    </div>
-  </div>
-  <div class="row mb-2">
-    <div class="col-lg-3 col-sm-12 pt-lg-5">
-      <img
-        src="/assets/img/legacy_svg/3rd-party/posteo.svg"
-        height="70"
-        width="200"
-        class="img-fluid d-block me-auto ms-auto align-middle"
-        alt="Posteo">
-    </div>
-    <div class="col">
-    <h2 id="posteo" class="anchor"><a href="#posteo"><i class="fas fa-link anchor-icon"></i></a> Posteo {% include badge.html color="info" text="€12/y" %}</h2>
-    <p><strong><a href="https://posteo.de">Posteo.de</a></strong> is an email provider that focuses on anonymous, secure, and private email. Their servers are powered by 100% sustainable energy. They have been in operation since <strong>2009</strong>. Posteo is based in <span class="flag-icon flag-icon-de"></span> Germany and has a free 14-day trial. Posteo comes with 2 GB for the monthly cost and an extra gigabyte can be purchased for €0.25 per month.</p>
-
-    <h5>{% include badge.html color="warning" text="Domains and Aliases" %}</h5>
-    <p>Posteo does <a href="https://posteo.de/en/site/faq">not allow the use of custom domains</a>, however users may still make use of <a href="https://posteo.de/en/help/what-is-an-email-alias">subaddressing</a>.</p>
-
-    <h5>{% include badge.html color="warning" text="Payment Methods" %}</h5>
-    <p>Posteo does not accept Bitcoin or other cryptocurrencies as a form of payment, however they do accept cash-by-mail. They also accept credit/debit cards, bank transfers, and PayPal, and remove PII (personally identifiable information) <a href="https://posteo.de/en/site/payment">that they receive</a> in connection with these payment methods.</p>
-
-    <h5>{% include badge.html color="success" text="Account Security" %}</h5>
-    <p>Posteo supports <a href="https://posteo.de/en/help/what-is-two-factor-authentication-and-how-do-i-set-it-up">two factor authentication</a> for their webmail only. You can use either <a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm">TOTP</a> a <a href="https://en.wikipedia.org/wiki/YubiKey">Yubikey</a> with TOTP. Web standards such as <a href="https://en.wikipedia.org/wiki/Universal_2nd_Factor">U2F</a> and <a href="https://en.wikipedia.org/wiki/WebAuthn">WebAuthn</a> are not yet supported.</p>
-
-    <h5>{% include badge.html color="warning" text="Data Security" %}</h5>
-    <p>Posteo has <a href="https://posteo.de/en/site/encryption#cryptomailstorage">zero access encryption</a> for email storage. This means the messages stored in your account are only readable by you.</p>
-    <p>Posteo also supports the encryption of your <a href="https://posteo.de/en/site/features#featuresaddressbook">address book contacts</a> and <a href="https://posteo.de/en/site/features#featurescalendar">calendars</a> at rest. However, Posteo still uses standard <a href="https://en.wikipedia.org/wiki/CalDAV">CalDAV</a> and <a href="https://en.wikipedia.org/wiki/CardDAV">CardDAV</a> for calendars and contacts. These protocols do not support <a href="https://en.wikipedia.org/wiki/End-to-end_encryption">E2EE (End-To-End Encryption)</a>. A <a href="/software/calendar-contacts/">standalone option</a> may be more appropiate.</p>
-
-    <h5>{% include badge.html color="success" text="Email Encryption" %}</h5>
-    <p>Posteo has <a href="https://posteo.de/en/site/encryption#pgp_webmailer">integrated encryption</a> in their webmail, which simplifies sending messages to users with public OpenPGP keys. They also support the discovery of public keys via HTTP from their <a href="https://wiki.gnupg.org/WKD">Web Key Directory (WKD)</a>. This allows users outside of Posteo to find the OpenPGP keys of Posteo users easily, for cross-provider E2EE.</p>
-
-    <h5>{% include badge.html color="danger" text=".onion Service" %}</h5>
-    <p>Posteo does not operate a .onion service.</p>
-
-    <h5>{% include badge.html color="info" text="Extra Functionality" %}</h5>
-    <p>Posteo allows users to <a href="https://posteo.de/en/help/does-posteo-offer-mailing-lists">set up their own mailing lists</a>. Each account can create one list for free.</p>
     </div>
   </div>
   <div class="row mb-2">
@@ -232,6 +196,46 @@
 
     <h5>{% include badge.html color="info" text="Extra Functionality" %}</h5>
     <p>StartMail allows for proxying of images within emails. If a user allows the remote image to be loaded, the sender won't know what the user's IP address is.</p>
+    </div>
+  </div>
+  <div class="row mb-2">
+    <div class="col-lg-3 col-sm-12 pt-lg-5">
+      <img
+        src="/assets/img/legacy_svg/3rd-party/ctemplar.svg"
+        data-theme-src="/assets/img/legacy_svg/3rd-party/ctemplar-dark.svg"
+        height="70"
+        width="200"
+        class="img-fluid d-block me-auto ms-auto align-middle"
+        alt="CTemplar">
+    </div>
+    <div class="col">
+    <h2 id="ctemplar" class="anchor"><a href="#ctemplar"><i class="fas fa-link anchor-icon"></i></a> CTemplar {% include badge.html color="info" text="Prime USD $96/y" %}</h2>
+    <p><strong><a href="https://ctemplar.com">CTemplar</a></strong> is an email service with a focus on security and privacy through the use of standard OpenPGP encryption. CTemplar has been in operation since <strong>2018</strong> and is run from <span class="flag-icon flag-icon-is"></span> Iceland. Paid accounts start with 5GB. They offer free accounts by <a href="https://ctemplar.com/email-creation-restriction/">invitation</a>.</p>
+
+    <h5>{% include badge.html color="success" text="Domains and Aliases" %}</h5>
+    <p>Paid accounts can use <a href="https://ctemplar.com/help/answer/add-a-domain/">Custom Domains </a> and <a href="https://ctemplar.com/help/answer/how-to-create-aliases/">aliases</a>.</p>
+
+    <h5>{% include badge.html color="success" text="Payment Methods" %}</h5>
+    <p>CTemplar <a href="https://ctemplar.com/help/answer/payment-options/">payment options include</a> Credit cards via Stripe, Bitcoin and Monero.</p>
+
+    <h5>{% include badge.html color="success" text="Account Security" %}</h5>
+    <p>CTemplar supports <a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm">TOTP</a> two factor authentication <a href="https://ctemplar.com/help/answer/setting-up-two-factor-authentication-2fa/">for webmail only</a>. They do not allow <a href="https://en.wikipedia.org/wiki/Universal_2nd_Factor">U2F</a> security key authentication.</p>
+
+    <h5>{% include badge.html color="success" text="Data Security" %}</h5>
+    <p>CTemplar has <a href="https://ctemplar.com/help/answer/what-encryption-method-is-used/">zero access encryption at rest</a>, using PGP. They support <a href="https://datatracker.ietf.org/doc/html/draft-autocrypt-lamps-protected-headers-02/">protected headers</a> and therefore there is <a href="https://ctemplar.com/help/answer/subject-encryption/">subject encryption</a>.</p>
+
+    <p>CTemplar supports importing <a href="https://ctemplar.com/help/answer/importing-contacts/">contacts</a> and <a href="https://ctemplar.com/help/answer/contact-encryption/">contacts are encrypted</a> at rest however, they are only accessible in the webmail and apps.</p>
+
+    <h5>{% include badge.html color="success" text="Email Encryption" %}</h5>
+    <p>CTemplar has <a href="https://ctemplar.com/help/answer/how-does-encryption-decryption-work-in-ctemplar/">integrated encryption</a> in their webmail, which simplifies sending messages to users with public OpenPGP keys.</p>
+
+    <h5>{% include badge.html color="warning" text=".onion Service" %}</h5>
+    <p>CTemplar's .onion service <a href="http://ctemplarpizuduxk3fkwrieizstx33kg5chlvrh37nz73pv5smsvl6ad.onion /">ctemplarpizuduxk3fkwrieizstx33kg5chlvrh37nz73pv5smsvl6ad.onion</a> is <a href="https://twitter.com/RealCTemplar/status/1458775445202157570">currently disabled</a> for webmail access, due to a Tor Browser <a href="https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/32865">bug</a>.</p>
+
+    <h5>{% include badge.html color="info" text="Extra Functionality" %}</h5>
+    <p>CTemplar has a <a href="https://ctemplar.com/help/answer/setting-up-a-dead-mans-timer/">dead man timer</a> feature that will automatically send a particular message after a given period of time.</p>
+    <p>CTemplar also has a feature that allows users verify <a href="https://ctemplar.com/ctemplar-checksum-implementation/">checksums</a> of production pages with a public copy on Github.</p>
+    <p>Electron clients exist for Windows, Mac and Linux. Official clients also exist for iOS and Android (<a href="https://f-droid.org/en/packages/com.ctemplar.app.fdroid">including F-Droid</a>.) All of these clients are <a href="https://github.com/orgs/CTemplar/repositories">open source</a>.</p>
     </div>
   </div>
 </div>

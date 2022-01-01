@@ -1,8 +1,13 @@
 ---
 layout: evergreen
 title: Browser Recommendations
-description: "These are our current web browser recommendations, settings, and add-ons you can use to preserve your privacy."
+description: "These are our current web browser recommendations and settings you can use to preserve your privacy. We recommend keeping extensions to a minimum: they have privileged access within your browser, require you to trust the developer, can make you <a href='https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint'>stand out</a>, and <a href='https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ'>weaken</a> site isolation."
 ---
+
+<h2 id="general-recommendations" class="anchor">
+  <a href="#general-recommendations"><i class="fas fa-link anchor-icon"></i></a>
+General Recommendations
+</h2>
 
 {% for item_hash in site.data.software.browsers %}
 {% assign item = item_hash[1] %}
@@ -13,153 +18,48 @@ description: "These are our current web browser recommendations, settings, and a
 
 {% endfor %}
 
-<h2>Worth Mentioning</h2>
+<h2 id="desktop-only-recommendations" class="anchor">
+  <a href="#desktop-only-recommendations"><i class="fas fa-link anchor-icon"></i></a>
+Desktop Only Recommendations
+</h2>
 
-{% for item_hash in site.data.software.browsers %}
+{% for item_hash in site.data.software.browsers-desktop %}
 {% assign item = item_hash[1] %}
 
-{% if item.type == "Worth Mentioning" %}
-{% include recommendation-text.html %}
+{% if item.type == "Recommendation" %}
+{% include recommendation-card.html %}
 {% endif %}
 
 {% endfor %}
 
-<h2>Anti-Recommendations</h2>
+<h2 id="mobile-only-recommendations" class="anchor">
+  <a href="#mobile-only-recommendations"><i class="fas fa-link anchor-icon"></i></a>
+Mobile Only Recommendations
+</h2>
 
-{% for item_hash in site.data.software.browsers %}
+<p>On Android, Mozilla's engine <a href="https://mozilla.github.io/geckoview/">GeckoView</a> has yet to support <a href="https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture">site isolation</a> or enable <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1565196">isolatedProcess</a>. It also doesn't yet have <a href="https://github.com/mozilla-mobile/fenix/issues/16952#issuecomment-907960218">HTTPS-Only mode</a>. These features are supported in Bromite as it uses <a href="https://developer.android.com/reference/android/webkit/WebView">Chromium WebView</a> which is included in all Android operating systems. We do not recommend Firefox or any Gecko based browsers at this time.</p>
+
+<p>On iOS all web browsers use the <a href="https://en.wikipedia.org/wiki/WebKit">WebKit</a> browser engine, including Firefox. However, Firefox includes a few extra features like Tracking Protection and the ability to add search engines.</p>
+
+{% for item_hash in site.data.software.browsers-mobile %}
 {% assign item = item_hash[1] %}
 
-{% if item.type == "Anti-Recommendation" %}
-{% include recommendation-text.html %}
+{% if item.type == "Recommendation" %}
+{% include recommendation-card.html %}
 {% endif %}
 
 {% endfor %}
 
-{% include hr.html %}
+<h2 id="additional-resources" class="anchor">
+  <a href="#additional-resources"><i class="fas fa-link anchor-icon"></i></a>
+Additional Resources
+</h2>
 
-<h2>Additional Mobile Recommendations</h2>
+{% for item_hash in site.data.software.browsers-resources %}
+{% assign item = item_hash[1] %}
 
-{% include legacy/cardv2.html
-  title="Bromite"
-  image="/assets/img/legacy_svg/3rd-party/bromite.svg"
-  description='Bromite is a Chromium-based browser with privacy and security enhancements, built-in adblocking and DNS over HTTPS support; it includes patches from ungoogled-chromium and other privacy-focused projects. More info can be found <a href="https://www.bromite.org/#main-features">on the official website</a>.'
-  website="https://www.bromite.org/"
-  github="https://github.com/bromite/bromite"
-  privacy-policy="https://www.bromite.org/privacy"
-  fdroid="https://www.bromite.org/fdroid"
-  android="https://www.bromite.org/#download-bromite"
-%}
+{% if item.type == "Recommendation" %}
+{% include recommendation-card.html %}
+{% endif %}
 
-{% include legacy/cardv2.html
-  title="Onion Browser"
-  image="/assets/img/legacy_svg/3rd-party/onion_browser.svg"
-  description='Onion Browser is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the <a href="https://support.torproject.org/glossary/onion-browser/">Tor Project</a>. Warning: there are certain anonymity-related <a href="https://onionbrowser.com/about">issues</a> with Onion Browser due to iOS limitations.'
-  website="https://onionbrowser.com/"
-  privacy-policy="https://onionbrowser.com/privacy-policy"
-  github="https://github.com/OnionBrowser/OnionBrowser"
-  ios="https://apps.apple.com/us/app/onion-browser/id519296448"
-%}
-
-{% include legacy/cardv2.html
-  title="DuckDuckGo Privacy Browser"
-  image="/assets/img/legacy_svg/3rd-party/duckduckgo.svg"
-  description='DuckDuckGo Privacy Browser is an open-source web browser that has built-in ad and tracker blocking and utilizes <a href="https://tosdr.org/">ToS;DR</a> to rate the privacy policies of the sites you visit.'
-  website="https://duckduckgo.com/app"
-  privacy-policy="https://duckduckgo.com/privacy"
-  tor="https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/app"
-  github="https://github.com/duckduckgo/iOS"
-  ios="https://apps.apple.com/us/app/duckduckgo-privacy-browser/id663592361"
-%}
-
-<h2>Browser Fingerprinting - Is your browser configuration unique?</h2>
-
-<div class="alert alert-info" role="alert">
-  Your Browser sends information that makes you unique amongst millions of users and therefore easy to identify.
-</div>
-
-<p>When you visit a web page, your browser voluntarily sends information about its configuration, such as available fonts, browser type, and add-ons. If this combination of information is unique, it may be possible to identify and track you without using cookies. EFF created a Tool called <a href="https://coveryourtracks.eff.org/" target="_blank">Cover Your Tracks</a> to test your browser to see how unique it is.</p>
-
-<p>
-<a class="btn btn-warning" target="_blank" href="https://coveryourtracks.eff.org/">
-  Test your Browser now
-</a>
-</p>
-
-<p>You need to find what <strong>most browsers</strong> are reporting, and then use those variables to bring your browser in the same population. This means having the same fonts, plugins, and extensions installed as the large installed base. You should have a <a href="https://addons.mozilla.org/firefox/addon/uaswitcher/">spoofed user-agent string</a> to match what the large userbase has. You need to have the same settings enabled and disabled, such as DNT and WebGL. You need your browser to look as common as everyone else. Disabling JavaScript, using Linux, or even using the Tor Browser Bundle, will make your browser stick out from the masses.</p>
-
-<p>Modern web browsers have not been architected to assure personal web privacy. Rather than worrying about being fingerprinted, it seems more practical to use <a href="#addons"><i class="fas fa-link"></i> free software plugins</a> to regain control. They not only respect your freedom, but your privacy also. You can get much further with these than trying to manipulate your browser's fingerprint.</p>
-
-<h3>Related Information</h3>
-
-<ul>
-  <li><a href="https://coveryourtracks.eff.org/static/browser-uniqueness.pdf">How Unique Is Your Web Browser? Peter Eckersley, EFF.</a></li>
-  <li><a href="#addons"><i class="fas fa-link"></i> Our Firefox privacy add-ons section.</a></li>
-  <li><a href="https://www.browserleaks.com/">BrowserLeaks.com</a> - Web browser security testing tools that tell you what exactly personal identity data may be leaked without any permissions when you surf the Internet.</li>
-</ul>
-
-{% include hr.html %}
-
-<h2 id="webrtc" class="anchor">WebRTC IP Leak Test - Is your IP address leaking?</h2>
-
-<div class="alert alert-info" role="alert">
-  WebRTC is a new communication protocol that relies on JavaScript that can leak your actual IP address from behind your VPN.
-</div>
-
-<p>While software like NoScript prevents this, it's probably a good idea to block this protocol directly as well, just to be safe. <strong>Note:</strong> This disables browser-based call functionality that is used for webapps like Discord, Hangouts, Jitsi, etc.</p>
-
-<p>
-<a class="btn btn-warning" target="_blank" rel="noopener noreferrer" href="https://ipleak.net">Test your Browser now</a>
-</p>
-
-<h3>How to disable WebRTC in Firefox?</h3>
-
-<p>In short: Set "media.peerconnection.enabled" to "false" in "about:config".</p>
-<p><strong>Explained:</strong></p>
-
-<ol class="long-string-list">
-  <li>Enter "about:config" in the firefox address bar and press enter.</li>
-  <li>Press the button "I'll be careful, I promise!"</li>
-  <li>Search for "media.peerconnection.enabled"</li>
-  <li>Double click the entry, the column "Value" should now be "false"</li>
-  <li>Done. Do the WebRTC leak test again.</li>
-</ol>
-
-<p>If you want to make sure every single WebRTC-related setting is really disabled change these settings:</p>
-
-<ol class="long-string-list">
-  <li>media.peerconnection.turn.disable = true</li>
-  <li>media.peerconnection.use_document_iceservers = false</li>
-  <li>media.peerconnection.video.enabled = false</li>
-  <li>media.peerconnection.identity.timeout = 1</li>
-</ol>
-
-<p>Now you can be 100% sure WebRTC is disabled.</p>
-
-<p>
-<a class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="https://ipleak.net">Test your Browser again</a>
-</p>
-
-<h3>How to disable WebRTC in Safari?</h3>
-
-<p>Safari is far stricter with WebRTC than other major browsers, and it does not leak your IP address in its default configuration. If you'd like, you can follow these steps just to double-check your browser:</p>
-
-<ol class="long-string-list">
-  <li>Choose "Preferences" under the Safari menu in your menu bar.</li>
-  <li>Select the Advanced tab and check the "Show Develop menu in menu bar" box.</li>
-  <li>Exit Preferences and open the Develop menu in your menu bar.</li>
-  <li>In the drop-down menu, open the "WebRTC" submenu and ensure "Enable Legacy WebRTC API" is unchecked. If it's grayed out, even better.</li>
-</ol>
-
-<h3>How to disable WebRTC in Google Chrome?</h3>
-
-<p>WebRTC cannot be fully disabled in Chrome; however, it is possible to change its routing settings (and prevent leaks) using an extension. Two open-source solutions include <a href="https://chrome.google.com/webstore/detail/webrtc-leak-prevent/eiadekoaikejlgdbkbdfeijglgfdalml">WebRTC Leak Prevent</a> (options may need to be changed depending on the scenario), and <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">uBlock Origin</a> (select "Prevent WebRTC from leaking local IP addresses" in Settings).</p>
-
-<h3>What about other browsers?</h3>
-
-<p>Chrome on macOS and Internet Explorer do not yet implement WebRTC.</p>
-
-{% include hr.html %}
-
-{% include legacy/sections/browser-addons.html %}
-
-{% include legacy/sections/browser-tweaks.html %}
+{% endfor %}

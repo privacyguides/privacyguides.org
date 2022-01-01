@@ -90,4 +90,13 @@ h1, h2, h3:not(.h5), h4 {
   box-decoration-break: clone;
 }
 
+.navbar-logo {
+  @media (max-width: 400px) {
+    width: 50px;
+  }
+  @media (min-width: 401px) {
+    width: 300px;
+  }
+}
+
 @import "custom";
