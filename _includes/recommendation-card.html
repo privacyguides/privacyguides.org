@@ -2,7 +2,12 @@
   <div class="card-body">
     <div class="row p-3">
       <div class="col-12 col-sm-4 col-md-3 text-center">
-        <img src="{{ item.logo }}" alt="{{ item.name }} logo" class="py-5 w-75">
+        <picture>
+          {% if item.logo_dark %}<source
+            srcset="{{ item.logo_dark }}"
+            media="(prefers-color-scheme: dark)">{% endif %}
+          <img src="{{ item.logo }}" alt= "{{ item.name }} logo" class="py-5 w-75">
+        </picture>
       </div>
       <div class="col-12 col-sm-8 col-md-9 text-center text-md-start pb-4">
         <h2>{{ item.title }}</h2>

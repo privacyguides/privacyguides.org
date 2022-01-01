@@ -1,6 +1,7 @@
 title: Invidious
 type: Recommendation
 logo: /assets/img/video-streaming/invidious.svg
+logo_dark: /assets/img/video-streaming/invidious-dark.svg
 description: |
   <strong>Invidious</strong> is a free and open source front end for YouTube that is also self-hostable. There are list of <a href="https://instances.invidious.io">public instances</a>. Some instances have <a href="https://www.torproject.org">Tor</a> onion services support.
 
