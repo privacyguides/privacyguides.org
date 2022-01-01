@@ -5,8 +5,3 @@ items:
     title: Threat Modeling
     icon: fad fa-bullseye-arrow
     file: _evergreen/threat-modeling.html
-  - type: link
-    title: Global Mass Surveillance
-    icon: fad fa-drone-alt
-    file: legacy_pages/providers.html
-    anchor: ukusa
