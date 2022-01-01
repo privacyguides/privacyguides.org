@@ -1,0 +1,26 @@
+title: Tor Browser
+type: Recommendation
+info: Provides Anonymity
+logo: /assets/img/browsers/tor.svg
+description: |
+  <strong>Tor Browser</strong> is the choice if you need anonymity. This browser provides you with access to the Tor Bridges and Tor Network, along with extensions that can be automatically configured to fit its three security levels - <em>Standard</em>, <em>Safer</em> and <em>Safest</em>. We recommend that you do not change any of Tor Browser's default configurations outside of the standard security levels.
+
+  <h4>Extensions</h4>
+  You should <strong>never</strong> install any additional extensions on Tor Browser, including the ones we suggest for Firefox. Browser extensions make you stand out from other Tor users and your browser easier to <a href="https://support.torproject.org/glossary/browser-fingerprinting">fingerprint</a>.
+
+website: 'https://www.torproject.org/'
+website_tor: 'http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion/'
+privacy_policy: 'https://support.torproject.org/tbb/tbb-3/'
+downloads:
+  - icon: fab fa-windows
+    url: 'https://www.torproject.org/download/'
+  - icon: fab fa-apple
+    url: 'https://www.torproject.org/download/'
+  - icon: fab fa-linux
+    url: 'https://www.torproject.org/download/'
+  - icon: fab fa-android
+    url: 'https://guardianproject.info/fdroid/'
+  - icon: fab fa-google-play
+    url: 'https://play.google.com/store/apps/details?id=org.torproject.torbrowser'
+  - icon: fab fa-git
+    url: 'https://trac.torproject.org/projects/tor'

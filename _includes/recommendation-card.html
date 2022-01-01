@@ -8,6 +8,40 @@
         <h2>{{ item.title }}</h2>
         {% if item.info %} <p class="badge rounded-pill bg-info"><i class="fad fa-info-circle"></i> {{ item.info }}</p>{% endif %}
         {% if item.warning %} <p class="badge rounded-pill bg-warning"><i class="fad fa-exclamation-triangle"></i> {{ item.warning }}</p>{% endif %}
+        {% if item.labels %}
+          <p>
+            {% assign labels = item.labels | split:"|" %}
+            {% for label in labels %}
+                {% assign label_data = label | split:"::" %}
+                  {% for label_attr in label_data %}
+                    {% assign attr = label_attr | split:"==" %}
+                    {% if attr[0] == "color" %}
+                      {% assign color = attr[1] %}
+                    {% elsif attr[0] == "link" %}
+                      {% assign link = attr[1] %}
+                    {% elsif attr[0] == "text" %}
+                      {% assign text = attr[1] %}
+                    {% elsif attr[0] == "icon" %}
+                      {% assign icon = attr[1] %}
+                    {% elsif attr[0] == "tooltip" %}
+                      {% assign tooltip = attr[1] %}
+                    {% endif %}
+                  {% endfor %}
+                {% include badge.html
+                  link=link
+                  color=color
+                  text=text
+                  icon=icon
+                  tooltip=tooltip
+                %}
+                {% assign color = nil %}
+                {% assign link = nil %}
+                {% assign text = nil %}
+                {% assign icon = nil %}
+                {% assign tooltip = nil %}
+            {% endfor %}
+          </p>
+        {% endif %}
         {{ item.description | markdownify }}
         {% if item.downloads %}<p>{% for platform in item.downloads %}
         <a href="{{ platform.url }}"><i class="{{ platform.icon }} fa-fw h2"></i></a>
@@ -18,6 +52,7 @@
           More Information</a>{% endif %}
         {% if item.website %}<a href="{{ item.website }}" rel="noopener" class="btn btn-secondary mt-1 me-1"><i class="fad fa-external-link-square fa-fw"></i>
           Visit {{ item.website | remove_first: "www." | split: "/" | slice: 2 }}</a>
+          {% if item.privacy_policy %}<a href="{{ item.privacy_policy }}" rel="noopener" class="btn btn-primary mt-1 me-1" title="{{ item.privacy_policy }}"><i class="fas fa-book fa-fw"></i> Privacy Policy</a>{% endif %}
           {% if item.website_tor %}<a href="{{ item.website_tor }}" rel="noopener" class="btn btn-info mt-1 me-1" aria-label="Onion site" title="Visit {{ item.website_tor }} on Tor"><i aria-hidden="true" class="ptio-tor text-light"></i></a>
           {% endif %}
         {% endif %}

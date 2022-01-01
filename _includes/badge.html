@@ -1,10 +1,11 @@
 {% if include.link %}
 <a
-  href="{{ include.link }}" class="text-decoration-none link-{{ include.color | default: "info" }}"
+  href="{{ include.link }}" class="text-decoration-none badge rounded-pill bg-{{ include.color | default: "info" }}"
   {% if include.tooltip %}
   data-bs-toggle="tooltip"
   title="{{ include.tooltip }}"><i class="{{ include.icon | default: "fad fa-question-circle"}}"></i> {{ include.text }}
-{% else %}><i class="{{ include.icon | default: "fas fa-external-link-alt"}}"></i> <span class="text-decoration-underline">{{ include.text }}</span>{% endif %}
+{% else %}><i class="{{ include.icon | default: "fas fa-external-link-alt"}}"></i> {{ include.text }}
+{% endif %}
 </a>
 {% else %}
 <span

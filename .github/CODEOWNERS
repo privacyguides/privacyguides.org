@@ -1,4 +1,21 @@
-* @JonahAragon
-# Why? Because until we have documentation in place, I need to make sure every
-# PR is following the new best-practices for this repository, since the
-# codebase has changed very significantly, very recently :)
+# Additional Co-Owners are added to the TOP of this file.
+
+# High-traffic pages
+/index.html @JonahAragon @dngray
+/blog.html @JonahAragon
+
+# Org/legal
+/notices.md @JonahAragon
+/privacy-policy.md @JonahAragon
+LICENSE @JonahAragon
+
+# Website dev
+/_sass/ @JonahAragon
+/_layouts/ @JonahAragon
+Gemfile @JonahAragon
+Gemfile.lock @JonahAragon
+_config.yml @JonahAragon
+
+# Ops
+/.github/ @JonahAragon
+/.well-known/ @JonahAragon

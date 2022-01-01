@@ -1,0 +1,182 @@
+---
+layout: evergreen
+title: Android
+mathjax: true
+description: "Android is a secure operating system that has strong <a href='https://source.android.com/security/app-sandbox'>app sandboxing</a>, <a href='https://source.android.com/security/verifiedboot'>verified boot</a>, and a robust <a href='https://developer.android.com/guide/topics/permissions/overview'>permission</a> control system.
+
+The main privacy concern with most Android devices is that they usually include <a href='https://developers.google.com/android/guides/overview'>Google Play Services</a>. This component is proprietary, closed source, has a privileged role on your phone and may collect private user information. It is not a part of the <a href='https://source.android.com/'>Android Open Source Project (AOSP)</a> nor is it included with the below derivatives."
+---
+
+<h2 id="mobile-only-recommendations" class="anchor">
+    <a href="#aosp-derivatives"><i class="fas fa-link anchor-icon"></i></a>
+    AOSP Derivatives
+</h2>
+
+{% for item_hash in site.data.operating-systems.android %}
+{% assign item = item_hash[1] %}
+
+{% if item.type == "Recommendation" %}
+{% include recommendation-card.html %}
+{% endif %}
+
+{% endfor %}
+
+<h2 id="android-security-privacy" class="anchor">
+    <a href="#android-security-privacy"><i class="fas fa-link anchor-icon"></i></a>
+    Android security and privacy features
+</h2>
+
+<h5><strong>User Profiles</strong></h5>
+
+<p>Multiple user profiles (Settings → System → Multiple users) are the simplest way to isolate in Android. With user profiles you can limit a user from making calls, SMS or installing apps on the device. Each profile is encrypted using its own encryption key and cannot access the data of any other profiles. Even the device owner cannot view the data of other profiles without knowing their password. Multiple user profiles is a more secure method of isolation.</p>
+
+<h5><strong>Work Profile</strong></h5>
+<p><a href="https://support.google.com/work/android/answer/6191949">Work profiles</a> are another way to isolate individual apps and may be more convenient than separate user profiles.</p>
+
+<p>A <strong>device controller</strong> such as <a href="/android/#recommended-apps">Shelter</a> is required, unless you're using CalyxOS which includes one.</p>
+
+<p>The work profile is dependent on a device controller to function. Features such as <em>File Shuttle</em> and <em>contact search blocking</em> or any kind of isolation features must be implemented by the controller. The user must also fully trust the device controller app, as it has full access to the data inside of the work profile.</p>
+
+<p>This method is generally less secure than a secondary user profile; however, it does allow you the convenience of running apps in both the work and personal profiles simultaneously.</p>
+
+<h5><strong>Verified Boot</strong></h5>
+<p><a href='https://source.android.com/security/verifiedboot'>Verified boot</a> is an important part of the Android security model. It provides protection against <a href="https://en.wikipedia.org/wiki/Evil_maid_attack">Evil maid</a> attacks, malware persistence, and ensures security updates cannot be downgraded with <a href="https://source.android.com/security/verifiedboot/verified-boot#rollback-protection">rollback protection</a>.</p>
+
+<p>Android 10 and above has moved away from full disk encryption (FDE) to more flexible <a href="https://source.android.com/security/encryption/file-based">file based </a> encryption.</p>
+
+<p>Each user's data is encrypted using their own unique encryption key, and the operating system files are left unencrypted. Verified boot ensures the integrity of the operating system files preventing an adversary with physical access from tampering or installing malware on the device. In the unlikely case that malware is able to exploit other parts of the system and gain higher privileged access, verified boot will prevent and revert changes to the system partition upon reboot of the device.</p>
+
+<p>Unfortunately, original equipment manufacturers (OEMs) are only obliged to support verified boot on their stock Android distribution. Only a few OEMs such as Google support custom Android Verified Boot (AVB) key enrollment on their devices. Some AOSP derivatives such as LineageOS or /e/ OS do not support verified boot even on hardware with verified boot support for third party operating systems. We recommend that you check for support <strong>before</strong> purchasing a new device. AOSP derivatives which do not support verified boot are <strong>not</strong> recommended.</p>
+
+<h5><strong>VPN Killswitch</strong></h5>
+<p>Android 7 and above supports a VPN killswitch and it is available without the need to install third party apps. This feature can prevent leaks if the VPN is disconnected. It can be found in (⚙️ Settings → Network & internet → VPN → ⚙️ → Block connections without VPN).</p>
+
+<h5><strong>Global Toggles</strong></h5>
+<p>Modern Android devices have global toggles for disabling <a href="https://en.wikipedia.org/wiki/Bluetooth">Bluetooth</a> and location services. Android 12 introduced toggles for the camera and microphone. When not in use, we recommend disabling these features. Apps cannot use disabled features (even if granted individual permission) until renabled.</p>
+
+<h2 id="recommended-apps" class="anchor">
+    <a href="#recommended-apps"><i class="fas fa-link anchor-icon"></i></a>
+    Recommended Apps
+</h2>
+
+{% for item_hash in site.data.operating-systems.android-applications %}
+{% assign item = item_hash[1] %}
+
+{% if item.type == "Recommendation" %}
+{% include recommendation-card.html %}
+{% endif %}
+
+{% endfor %}
+
+<h2 id="general-recommendations" class="anchor">
+    <a href="#general-recommendations"><i class="fas fa-link anchor-icon"></i></a>
+    General Recommendations
+</h2>
+
+<h5><strong>Android Rooting</strong></h5>
+<p>Rooting Android phones can decrease security significantly as it weakens the complete Android security model. This can decrease privacy should there be an exploit that is assisted by the decreased security. Common rooting methods involve directly tampering with the boot partition, making it impossible to perform successful <a href='https://source.android.com/security/verifiedboot'>verified boot</a>. Apps that require root will also modify the system partition meaning that verified boot would have to remain disabled. Having root exposed directly in the user interface also increases the <a href="https://en.wikipedia.org/wiki/Attack_surface">attack surface</a> and may assist in <a href="https://en.wikipedia.org/wiki/Privilege_escalation">privilege escalation</a> vulnerabilities and <a href="https://en.wikipedia.org/wiki/Security-Enhanced_Linux">SELinux</a> policy bypasses.</p>
+
+<p>Adblockers (AdAway) which modify the <a href="https://en.wikipedia.org/wiki/Hosts_(file)">hosts file</a> and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. They are also not the correct way to solve their intended purposes. For Adblocking we suggest encrypted <a href="/providers/dns/">DNS</a> or <a href="/providers/vpn/">VPN</a> server blocking solutions instead. RethinkDNS, TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN) preventing you from using privacy enhancing services such as Orbot or a real VPN server.</p>
+
+<p>AFWall+ works based on the <a href="#graphene-calyxos">packet filtering approach</a> and is bypassable in some situations.</p>
+
+<p>We do not believe that the security sacrifices made by rooting a phone are worth the questionable privacy benefits of those apps.</p>
+
+<h5><strong>Firmware Updates</strong></h5>
+
+<p>Firmware updates are critical for maintaining security and without them your device cannot be secure. Original equipment manufacturers (OEMs) - phone manufacturers have support agreements with their partners to provide the closed source components for a limited support period. These are detailed in the monthly <a href="https://source.android.com/security/bulletin">Android Security Bulletins</a>.</p>
+
+<p>As the components of the phone such as the processor and radio technologies rely on closed source components, the updates must be provided by the respective manufacturers. Therefore it is important that you purchase a device within an active support cycle. <a href="https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and">Qualcomm</a> and <a href="https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/">Samsung</a> support their devices for 4 years while cheaper products often have shorter support. With the introduction of the <a href=https://support.google.com/pixelphone/answer/4457705>Pixel 6</a>, Google now makes their own system on chip (SoC) and they will provide 5 years of support.</p>
+
+<p>Fairphone claims that they will support their device for <a href="https://arstechnica.com/gadgets/2021/09/fairphone-4-has-an-incredible-5-year-warranty-aims-for-6-years-of-updates/">6 years</a>. However, as they use Qualcomm SoC there has been some <a href="https://twitter.com/DanielMicay/status/1444028533186117633">skepticism</a> surrounding that claim.</p>
+
+<p>Devices that have reached their end-of-life (EoL) and are no longer supported by the SoC manufacturer, cannot receive firmware updates from OEM vendors or after market Android distributors. This means that security issues with those devices will remain unfixed.</p>
+
+<h5><strong>Android versions</strong></h5>
+<p>It's also important to make sure that you're not using an <a href="https://endoflife.date/android">end-of-life</a> version of Android. Newer versions of Android not only receive security updates for the operating system but also important privacy enhancing updates too. For example, <a href="https://developer.android.com/about/versions/10/privacy/changes">prior to Android 10</a>, any user apps with the <a href="https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE"><code>READ_PHONE_STATE</code></a> permission could access sensitive and unique serial numbers of your phone such as <a href="https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity">IMEI</a>, <a href="https://en.wikipedia.org/wiki/Mobile_equipment_identifier">MEID</a>, your SIM card's <a href="https://en.wikipedia.org/wiki/International_mobile_subscriber_identity">IMSI</a>, whereas now they must be system apps to do so. System apps are only shipped by the OEM or Android distribution.</p>
+
+<h5><strong>Android Permissions</strong></h5>
+<p><a href="https://developer.android.com/guide/topics/permissions/overview">Permissions on Android</a> grant users control over what apps are allowed to access. Google regularly makes <a href="https://developer.android.com/about/versions/11/privacy/permissions">improvements</a> on the permission system in each successive version. All user installed apps are strictly <a href="https://source.android.com/security/app-sandbox">sandboxed</a>, therefore there is no need to install any antivirus apps. The savings you make from not purchasing or subscribing to security apps is better spent on paying for a supported device in the future.</p>
+
+<p>Should you want to run an app that you're unsure about consider using a user or work <a href="/android/#android-security-privacy">profile</a>.</p>
+
+<h5><strong>SafetyNet and Play Integrity API</strong></h5>
+<p><a href="https://developer.android.com/training/safetynet/attestation">SafetyNet</a> and the <a href="https://developer.android.com/google/play/integrity">Play Integrity APIs</a> are generally used for <a href="https://grapheneos.org/usage#banking-apps">banking apps</a>. Many banking apps will work fine in GrapheneOS with sandboxed Play services, however some non-financal apps have their own crude anti-tampering mechanisms which might fail. GrapheneOS passes the <code>basicIntegrity</code> check, but not the certification check <code>ctsProfileMatch</code>. Devices with Android 8 or later have hardware attestation support which cannot be bypassed without leaked keys or serious vulnerabilities.</p>
+
+<p>As for Google Wallet, we don't recommend this due to their <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en">privacy policy</a>, which states you must opt-out if you don't want your credit rating and personal information shared with affiliate marketing services.</p>
+
+<h5><strong>Android Device Shopping</strong></h5>
+<p>Google Pixels are known to have good security and properly support <a href="https://source.android.com/security/verifiedboot">verified boot</a>. Some other phones such as the Fairphone and Oneplus devices also support custom Android verified boot (AVB) key enrollment. However, there have been issues with their older models. In the past they were using <a href="https://social.coop/@dazinism/105346943304083054">test keys</a> or not doing proper verification, making verified boot on those devices useless.</p>
+
+<p>Avoid buying phones from mobile network operators. These often have a <strong>locked bootloader</strong> and do not support <a href="https://source.android.com/devices/bootloader/locking_unlocking">OEM unlocking</a>. These phone variants will prevent you from installing any kind of alternative Android distribution. Phones that cannot be unlocked will often have an <a href="https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity">IMEI</a> starting with "35", that includes phones from purchased from Verizon, Telus, Rogers, EE etc.</p>
+
+<p>Be very <strong>careful</strong> about buying second hand phones from online marketplaces. Always check the reputation of the seller. If the device is stolen there's a possibility of <a href="https://www.gsma.com/security/resources/imei-blacklisting/">IMEI blacklisting</a>. There is also a risk involved with you being associated with the activity of the previous owner.</p>
+
+We have these general tips:
+<ul>
+  <li>If you're after a bargain on a Pixel device, we suggest buying an "<strong>a</strong>" model, just after the next flagship is released. Discounts are usually available because Google will be trying to clear their stock.</li>
+  <li>Consider price beating options and specials offered at <a href="https://en.wikipedia.org/wiki/Brick_and_mortar">brick and mortar</a> stores.</li>
+  <li>Look at online community bargain sites in your country. These can alert you to good sales.</li>
+  <li>The price per day for a device can be calculated as \({\text {EoL Date}-\text{Current Date} \over \text{Cost}}\). Google provides a <a href="https://support.google.com/nexus/answer/4457705">list</a> of their supported devices.</li>
+  <li>Do not buy devices that have reached or are near their end-of-life, additional firmware updates must be provided by the manufacturer.</li>
+  <li>Do not buy preloaded LineageOS or /e/ OS phones or any Android phones without proper <a href="https://source.android.com/security/verifiedboot">verified boot</a> support and firmware updates. These devices also have no way for you to check whether they've been tampered with.</li>
+  <li>In short, if a device or Android distribution is not listed here, there is probably a good reason, so check our <a href="https://github.com/privacyguides/privacyguides.org/discussions">discussions</a> page.</li>
+</ul>
+
+<p>The installation of GrapheneOS on a Pixel phone is easy with their <a href="https://grapheneos.org/install/web">web installer</a>. If you don't feel comfortable doing it yourself and are willing to spend a bit of extra money, check out the <a href="https://shop.nitrokey.com/shop">NitroPhone</a> as they come preloaded with GrapheneOS from the reputable <a href="https://www.nitrokey.com/about">Nitrokey</a> company. The GrapheneOS project is not currently affiliated with any vendor and cannot ensure the quality or security of their products.</p>
+
+<p>A <a href="https://calyxinstitute.org/membership/calyxos">CalyxOS membership</a> also entitles you to a device preloaded with CalyxOS.</p>
+
+<h2 id="graphene-calyxos" class="anchor">
+    <a href="#graphene-calyxos"><i class="fas fa-link anchor-icon"></i></a>
+    Security comparison of GrapheneOS and CalyxOS
+</h2>
+
+<h5><strong>Profiles</strong></h5>
+<p>CalyxOS includes a device controller app so there is no need to install a third party app like <a href="/android/#recommended-apps">Shelter</a>. GrapheneOS plans to introduce nested profile support with better isolation in the future.</p>
+
+<p>GrapheneOS extends the <a href="/android/#android-security-privacy">user profile</a> feature allowing a user to press an "End Session" button. This button clears the encryption key from memory. There are plans to add a <a href="https://github.com/GrapheneOS/os-issue-tracker/issues/88">cross profile notifications system</a> in the future.</p>
+
+<h5><strong>INTERNET permission vs packet filtering</strong></h5>
+<p><a href="https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter">Packet filter</a> based solutions such <a href="/android/#graphene-calyxos">Datura Firewall</a>, <a href="https://gitlab.com/LineageOS/issues/android/-/issues/3228">LineageOS</a> (DivestOS), AFWall+ and NetGuard, are not ideal as they can leak and don't prevent an app from proxying a network request through another app using an <a href="https://developer.android.com/guide/components/intents-filters">intent</a>.</p>
+
+<p>Android has a built-in <a href="https://developer.android.com/training/basics/network-ops/connecting"><code>INTERNET</code></a> permission. This is enforced by the operating system. On AOSP and most of its derivatives, it is treated as an install time permission. GrapheneOS changes it to <a href="https://en.wikipedia.org/wiki/Runtime_(program_lifecycle_phase)">runtime</a> permission, meaning that it can be revoked to deny internet access to a specific app.</p>
+
+<p>The <a href="https://developer.android.com/training/basics/network-ops/connecting"><code>INTERNET</code></a> permission is a strong way of controlling internet access. It also blocks direct access to the internet and access to other APIs that rely on the <a href="https://developer.android.com/training/basics/network-ops/connecting"><code>INTERNET</code></a> permission. The only way for an app to circumvent it is for it to communicate with another app that has been granted <a href="https://developer.android.com/training/basics/network-ops/connecting"><code>INTERNET</code></a> permission via mutual consent. Such communication can be prevented by putting apps into seperate profiles.</p>
+
+<p>Some apps might crash if their <a href="https://developer.android.com/training/basics/network-ops/connecting"><code>INTERNET</code></a>  permission is revoked. CalyxOS instead uses a <a href="https://calyxos.org/docs/tech/datura-details">firewall</a> to achieve a similar outcome however, in some circumstances CalyxOS's approach may leak (<a href="https://gitlab.com/CalyxOS/calyxos/-/issues/572">#572</a>, <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/581">#581</a>).
+
+<h5><strong>Sandboxed Play Services vs Privileged MicroG</strong></h5>
+<p>When Google Play services are used on GrapheneOS, they run as a user app and are contained within a user or work profile.</p>
+
+<p>Sandboxed Play Services are confined using the highly restrictive, default <a href="https://source.android.com/security/selinux/concepts"><code>untrusted_app</code></a> domain provided by <a href="https://en.wikipedia.org/wiki/Security-Enhanced_Linux">SELinux</a>. Permissions for apps to use Play Services can be revoked at any time by the user.</p>
+
+<p>MicroG is a reimplementation of Google Play Services. This means it needs to be updated every time Android has a major version update (or the Android API changes). It also needs to run in the highly privileged <a href="https://source.android.com/security/selinux/concepts"><code>system_app</code></a> SELinux domain like the normal Play Services and is less secure than the Sandboxed Play Service approach. We do not believe MicroG provides any privacy advantages over Sandboxed Play Services except for the option to <em>shift trust</em> of the location backend from Google to another provider such as Mozilla or DejaVu.</p>
+
+<h5><strong>Device Patch Level</strong></h5>
+
+<p>GrapheneOS includes the latest Android 12 and comes with full firmware security patches for non "extended support" devices. If it is <a href="https://support.google.com/nexus/answer/4457705">supported</a> you will have the latest security patch level.</p>
+
+<p>CalyxOS <a href="https://gitlab.com/groups/CalyxOS/-/epics/28">has not yet finished</a> Android 12 support. This means they cannot include the updated <a href="https://calyxos.org/docs/guide/security/bulletin/">proprietary</a> firmware with security patches that were designed for Android 12.</p>
+
+<h5><strong>Privileged App Extensions</strong></h5>
+
+<p>Android 12 comes with special support for seamless app updates with <a href="https://android-developers.googleblog.com/2020/09/listening-to-developer-feedback-to.html">third party app stores</a>. The popular Free and Open Source Software (FOSS) repository <a href="https://f-droid.org">F-Droid</a> doesn't implement this feature and requires a <a href="https://f-droid.org/en/packages/org.fdroid.fdroid.privileged">privileged extension</a> to be included with the Android distribution in order to have unattended app installation.</p>
+
+<p>GrapheneOS doesn't compromise on security, therefore they do not include the F-Droid extension therefore, users have to confirm all updates manually if they want to use F-Droid. GrapheneOS officially recommends <a href="https://grapheneos.org/usage#sandboxed-play-services">Sandboxed Play Services</a> instead. Many FOSS Android apps are also in Google Play but sometimes they are not (like <a href="/video-streaming/">NewPipe</a>).</p>
+
+<p>CalyxOS includes the <a href="https://f-droid.org/en/packages/org.fdroid.fdroid.privileged">privileged extension</a>, which may lower device security. Seamless app updates should be possible with <a href="https://auroraoss.com">Aurora Store</a> when CalyxOS is upgraded to Android 12 and <a href="https://gitlab.com/AuroraOSS/AuroraStore/-/merge_requests/153">#153</a> is completed.</p>
+
+<h5><strong>Additional Hardening</strong></h5>
+<p>GrapheneOS improves upon <a href="https://source.android.com/">AOSP</a> security with:</p>
+
+<ul>
+  <li><strong>Hardened WebView:</strong> Vanadium WebView requires <a href="https://en.wikipedia.org/wiki/64-bit_computing">64-bit</a> processes on the <a href="https://developer.android.com/reference/android/webkit/WebView">WebView</a> process and disables legacy <a href="https://en.wikipedia.org/wiki/32-bit_computing">32-bit</a> processes. It uses hardened compiler options such as <a href="https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html"><code>-fwrapv</code></a> and <a href="https://gcc.gnu.org/onlinedocs/gcc-4.9.3/gcc/Optimize-Options.html"><code>-fstack-protector-strong</code></a>, which can help protect against <a href="https://en.wikipedia.org/wiki/Stack_buffer_overflow">stack buffer overflows</a>. <a href="https://en.wikipedia.org/wiki/API">API</a>s such as the <a href="https://chromestatus.com/feature/4537134732017664">battery status API</a> are disabled for privacy reasons. All system apps on GrapheneOS use the Vanadium WebView which means user installed apps that use WebView will also benefit from Vanadium's hardening. The <a href="https://github.com/GrapheneOS/Vanadium/tree/12/patches">Vanadium patch set</a> is a lot more comprehensive than CalyxOS's <a href="https://gitlab.com/CalyxOS/chromium-patches">Chromium patch set</a> which is derived from it.</li>
+
+  <li><strong>Hardened Kernel:</strong> GrapheneOS kernel includes some hardening from the <a href="https://github.com/GrapheneOS/linux-hardened">linux-hardened</a> project and the <a href="https://kernsec.org/wiki/index.php/Kernel_Self_Protection_Project">Kernel Self Protection Project (KSPP)</a>. CalyxOS uses the <a href="https://calyxos.org/docs/development/build/kernel/">same kernel</a> as regular Android with some minor modifications.</li>
+
+  <li><strong>Hardened Memory Allocator:</strong> GrapheneOS uses the <a href="https://github.com/GrapheneOS/hardened_malloc">hardened malloc</a> subproject as its memory allocator. This focuses on hardening against <a href="https://en.wikipedia.org/wiki/Memory_corruption">memory heap corruption</a>. CalyxOS uses the default AOSP <a href="https://source.android.com/devices/tech/debug/scudo">Scudo Malloc</a>, which is generally <a href="https://twitter.com/danielmicay/status/1033671709197398016">less effective</a>. Hardened Malloc has uncovered vulnerabilities in AOSP which have been <a href="https://github.com/GrapheneOS/platform_system_core/commit/be11b59725aa6118b0e1f0712572e835c3d50746">fixed</a> by GrapheneOS such as <a href="https://nvd.nist.gov/vuln/detail/CVE-2021-0703">CVE-2021-0703</a>.</li>
+
+  <li><strong>Secure Exec Spawning:</strong> GrapheneOS <a href="https://en.wikipedia.org/wiki/Spawn_(computing)">spawns</a> fresh processes as opposed to using the <a href="https://ayusch.com/android-internals-the-android-os-boot-process">Zygote model</a> used by AOSP and CalyxOS. The Zygote model weakenes <a href="https://en.wikipedia.org/wiki/Address_space_layout_randomization">Address Space Layout Randomization</a> (ASLR) and is considered <a href="https://wenke.gtisc.gatech.edu/papers/morula.pdf">less secure</a>. Creating <a href="https://grapheneos.org/usage#exec-spawning">fresh processes</a> is safer but will have some performance penalty when launching a new application. These penalties are not really noticeable unless you have an <a href="https://support.google.com/nexus/answer/4457705">old device</a> with slow storage such as the Pixel 3a/3a XL as it has <a href="https://en.wikipedia.org/wiki/MultiMediaCard#eMMC">eMMC</a>.</li>
+</ul>
+<p><strong>Please note that these are just a few examples and are not an extensive list of GrapheneOS's hardening</strong>.</p>

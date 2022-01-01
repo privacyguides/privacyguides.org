@@ -1,0 +1,19 @@
+title: Startpage
+type: Recommendation
+logo: /assets/img/search-engines/startpage.svg
+description: |
+  <strong>Startpage</strong> is a search engine that provides Google search results. It is a very convenient way to get Google search results without experiencing dark patterns such as difficult captchas or being refused access because you used a <a href="/providers/vpn">VPN</a> or <a href="https://www.torproject.org/download/">Tor</a>.
+
+  <h4>Notes</h4>
+  Startpage's majority shareholder is System1 who is an adtech company. We don't think that is an issue as they have their own Privacy Policy.
+
+  The Privacy Guides team reached out to Startpage <a href="https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/">back in 2020</a> for clarification and was satisfied by the answers we received.
+
+  Startpage is based in the <span class="flag-icon flag-icon-nl"></span> Netherlands.
+
+  According to their <a href="https://www.startpage.com/en/privacy-policy/">Privacy Policy</a>, they only log details such as\: operating system, type of browser and language. They do not log your IP address, search queries or other identifying information.
+
+  Startpage proxies Google Search so Google does have access to your search queries.
+
+website: 'https://www.startpage.com'
+privacy_policy: 'https://www.startpage.com/en/privacy-policy'

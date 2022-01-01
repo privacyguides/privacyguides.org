@@ -33,7 +33,7 @@ Note: getoutline.org is blocked in China and likely other countries, however you
 
 Outline has the ability to create servers on three different providers automatically: DigitalOcean, Google Cloud, and Amazon Web Services. In some situations, Google Cloud or AWS may be preferable, because they are less likely to be blocked by hostile ISPs/governments and will therefore allow you to more likely circumvent internet censorship. However, keep in mind that the server provider you choose—like any VPN provider—will have the technical ability to read your internet traffic. This is much less likely to happen when using a cloud provider versus a commercial VPN, which is why we recommend self-hosting, but it is still possible. Choose a provider you trust.
 
-Additionally, keep in mind that many US-based cloud providers block all network traffic to and from [countries sanctioned by the United States](https://en.wikipedia.org/wiki/United_States_sanctions#Countries), including AWS and Google Cloud. Users in or visiting those countries may wish to find a European-based [hosting provider]({% link legacy_pages/providers/hosting.html %}) to run their Outline Server on.
+Additionally, keep in mind that many US-based cloud providers block all network traffic to and from [countries sanctioned by the United States](https://en.wikipedia.org/wiki/United_States_sanctions#Countries), including AWS and Google Cloud. Users in or visiting those countries may wish to find a European-based hosting provider to run their Outline Server on.
 
 Another factor to consider is your provider’s network and latency. Choosing a server closer to you (geographically speaking) will give you better latency, and choosing a server with good bandwidth (>1 Gbps) will minimize the performance hit when using the VPN. Both factors are important to keeping a good browsing experience, but keep in mind using _any_ VPN will always be slower than just your plain old internet connection.
 
@@ -60,9 +60,9 @@ After it completes, it will give you a long line starting with `{"apiUrl"` (depe
 Download the Outline app on the device you want to connect. Outline has applications for the following operating systems:
 
 -  [Android](https://play.google.com/store/apps/details?id=org.outline.android.client)
--  [iOS](https://itunes.apple.com/us/app/outline-app/id1356177741)
+-  [iOS](https://apps.apple.com/app/id1356177741)
 -  [Windows](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/client/stable/Outline-Client.exe)
--  [macOS](https://itunes.apple.com/us/app/outline-app/id1356178125)
+-  [macOS](https://apps.apple.com/app/id1356178125)
 -  [Chrome OS](https://play.google.com/store/apps/details?id=org.outline.android.client)
 -  [Linux](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/client/stable/Outline-Client.AppImage)
 
@@ -74,6 +74,6 @@ Once you add your server, that’s it! In the Outline clients it’s just a matt
 
 ### Conclusion
 
-That should be all you need to get your very own VPN up and running! **Do not share your access key with anyone**, this is the key starting with `ss://`. If you want to grant other users access to your server, click “Add a new key” in Outline Manager and give them a new, unique key. If you share a key, anyone with knowledge of that key will be able to see all the traffic of anyone else using the key. It should go without saying, but don’t send people keys over unencrypted channels: No Facebook Messenger, no emails. Stick with [Signal, Wire, or Briar]({% link legacy_pages/software/real-time-communication.html %}) if you don’t have a secure app already.
+That should be all you need to get your very own VPN up and running! **Do not share your access key with anyone**, this is the key starting with `ss://`. If you want to grant other users access to your server, click “Add a new key” in Outline Manager and give them a new, unique key. If you share a key, anyone with knowledge of that key will be able to see all the traffic of anyone else using the key. It should go without saying, but don’t send people keys over unencrypted channels: No Facebook Messenger, no emails. Stick with [Signal, Wire, or Briar]({% link _evergreen/real-time-communication.html %}) if you don’t have a secure app already.
 
 With Outline, there is no need to worry about the security of your server. Everything is set to automatically update with no intervention required! Another thing to note: The port on your Outline server is randomly generated. This is so the port can’t be easily blocked by nation/ISP level censors, however, this VPN may not function on some networks that only allow access to port 80/443, or on servers that only allow traffic on certain ports. These are edge-cases, but something to keep in mind, and if they apply you may need to look for more technical options.

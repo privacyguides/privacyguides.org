@@ -1,0 +1,28 @@
+title: LBRY
+type: Recommendation
+logo: /assets/img/video-streaming/lbry.svg
+description: |
+  <strong>The LBRY network</strong> is a decentralized video sharing network. It uses a <a href="https://wikipedia.org/wiki/BitTorrent">BitTorrent</a>-like network to store the video content, and a <a href="https://wikipedia.org/wiki/Blockchain">blockchain</a> to store the indexes for those videos. The main benefit of this design is censorship resistance.
+
+  <strong>The LBRY desktop client</strong> helps you stream videos from the LBRY network, and stores your subscription list in your own LBRY wallet.
+
+  <h4>Notes</h4>
+  We recommend <strong>against</strong> synchronizing your wallet with LBRY Inc., as synchronizing encrypted wallets is not supported yet. If you synchronize your wallet with LBRY Inc., you have to trust them to not look at your subscription list, <a href="https://lbry.com/faq/earn-credits">LBC</a> funds, or take control of your channel.
+
+  Only the <strong>LBRY desktop client</strong> is recommended. The <a href="https://odysee.com">Odysee</a> website and the LBRY clients in F-Droid, Play Store and the AppStore have mandatory synchronization and telemetry.
+
+  While watching and hosting videos, your IP address is visible to the LBRY network. Consider using a <a href='/providers/vpn'>VPN</a> or <a href="https://www.torproject.org">Tor</a> if your <a href="/threat-modeling">threat model</a> requires hiding your IP address.
+
+  You can also disable <em>Save hosting data to help the LBRY network</em> option (⚙️ Settings → Advanced Settings) to avoid exposing your IP address and watched videos when using LBRY for a prolonged period of time.
+
+website: 'https://lbry.com/'
+privacy_policy: 'https://lbry.com/privacypolicy'
+downloads:
+  - icon: fab fa-windows
+    url: 'https://lbry.com/get'
+  - icon: fab fa-apple
+    url: 'https://lbry.com/osx'
+  - icon: fab fa-linux
+    url: 'https://lbry.com/linux'
+  - icon: fab fa-github
+    url: 'https://github.com/lbryio'
