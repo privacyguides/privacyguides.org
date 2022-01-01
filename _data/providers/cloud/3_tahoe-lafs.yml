@@ -1,6 +1,7 @@
 title: Tahoe-LAFS (Advanced)
 type: Recommendation
 logo: /assets/img/cloud/tahoe-lafs.svg
+logo_dark: /assets/img/cloud/tahoe-lafs-dark.svg
 description: |
   <strong>Tahoe-LAFS</strong> is a free and open decentralized cloud storage system. It distributes your data across multiple servers. Even if some of the servers fail or are taken over by an attacker, the entire file store continues to function correctly, preserving your privacy and security. The servers used as storage pools do not have access to your data.
 
