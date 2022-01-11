@@ -153,8 +153,6 @@ We have these general tips:
 
 <p>MicroG is a reimplementation of Google Play Services. This means it needs to be updated every time Android has a major version update (or the Android API changes). It also needs to run in the highly privileged <a href="https://source.android.com/security/selinux/concepts"><code>system_app</code></a> SELinux domain like the normal Play Services and is less secure than the Sandboxed Play Service approach. We do not believe MicroG provides any privacy advantages over Sandboxed Play Services except for the option to <em>shift trust</em> of the location backend from Google to another provider such as Mozilla or DejaVu.</p>
 
-<h5><strong>Device Patch Level</strong></h5>
-
 <h5><strong>Privileged App Extensions</strong></h5>
 
 <p>Android 12 comes with special support for seamless app updates with <a href="https://android-developers.googleblog.com/2020/09/listening-to-developer-feedback-to.html">third party app stores</a>. The popular Free and Open Source Software (FOSS) repository <a href="https://f-droid.org">F-Droid</a> doesn't implement this feature and requires a <a href="https://f-droid.org/en/packages/org.fdroid.fdroid.privileged">privileged extension</a> to be included with the Android distribution in order to have unattended app installation.</p>
