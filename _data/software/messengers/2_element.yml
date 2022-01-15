@@ -12,7 +12,7 @@ description: |
   <h4>Notes</h4>
   Profile pictures, reactions, and nicknames are not encrypted.
 
-  Group voice and video calls are <a href="https://github.com/vector-im/element-web/issues/12878">not</a> E2EE, and use Jitsi, but this is expected to change with <a href="https://github.com/matrix-org/matrix-doc/pull/3401">Native Group VoIP Signalling</a>.
+  Group voice and video calls are <a href="https://github.com/vector-im/element-web/issues/12878">not</a> E2EE, and use Jitsi, but this is expected to change with <a href="https://github.com/matrix-org/matrix-doc/pull/3401">Native Group VoIP Signalling</a>. Group calls have <a href="https://github.com/vector-im/element-web/issues/13074">no authentication</a> currently, meaning that non room participants can also join the calls. We recommend that you do not use this feature for private meetings.
 
   When using <a href="https://github.com/vector-im/element-web">element-web</a>, you must trust the server hosting the Element client. If your <a href="/threat-modeling">threat model</a> requires stronger protection then use a desktop or mobile client instead.
 
