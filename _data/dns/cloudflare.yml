@@ -1,8 +1,5 @@
 title: Cloudflare
 homepage: 'https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/'
-anycast: true
-locations:
-  - US
 privacy_policy:
   link: 'https://www.cloudflare.com/privacypolicy/'
 type:
@@ -16,10 +13,9 @@ logs:
     The 1.1.1.1 resolver service does not log personal data,
     and the bulk of the limited non-personally identifiable query data is only stored for 25 hours."
 protocols:
+  - name: Cleartext
   - name: DoH
   - name: DoT
-dnssec: true
-qname_minimization: true
+ecs:
+  status: false
 filtering: Based on server choice.
-providers:
-  - name: Self

@@ -8,6 +8,13 @@
 @import "./node_modules/bootstrap/scss/mixins";
 @import "./node_modules/bootstrap/scss/utilities";
 
+.flowchart{
+  width: 40vmax;
+  float: right;
+  padding: 10px;
+  background-color: var(--bs-body-bg);
+}
+
 $dm-grays: (
   "dm-white": $white,
   "dm-100": $gray-100,
