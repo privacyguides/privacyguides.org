@@ -1,0 +1,28 @@
+title: MullvadDNS
+homepage: 'https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/'
+source: 'https://github.com/mullvad/dns-adblock'
+anycast: true
+locations:
+  - AU
+  - DE
+  - SG
+  - SE
+  - CH
+  - GB
+  - US
+privacy_policy:
+  link: 'https://mullvad.net/en/help/privacy-policy/'
+  tooltip: >-
+    "Our public DNS service offers DNS over HTTPS (DoH) and DNS over TLS (DoT), with QNAME minimization and basic ad blocking. It has been audited by the security experts at Assured. You can use this privacy-enhancing service even if you don't use Mullvad."
+type:
+  name: Commercial
+logs:
+  policy: false
+protocols:
+  - name: DoH
+  - name: DoT
+ECS: false
+filtering: Based on server choice
+providers:
+  - name: Self
+  

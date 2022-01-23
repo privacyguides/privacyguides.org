@@ -18,8 +18,12 @@ protocols:
   - name: DoH
   - name: DoT
   - name: DNSCrypt
-dnssec: true
-qname_minimization: true
+ECS: true
 filtering: Based on server choice
 providers:
   - name: Self
+  - name: Misaka Network, Inc.
+  - name: ZETTAGRID CLOUD
+  - name: VIRTUA SYSTEMS SAS
+  - name: Other are listed here
+    link: 'https://bgp.he.net/AS34939#_peers'

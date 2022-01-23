@@ -18,8 +18,7 @@ logs:
 protocols:
   - name: DoH
   - name: DoT
-dnssec: true
-qname_minimization: true
+ECS: false
 filtering: Based on server choice.
 providers:
   - name: Self
