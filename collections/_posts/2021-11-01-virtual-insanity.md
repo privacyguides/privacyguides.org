@@ -3,7 +3,6 @@ title: 'Virtual Insanity'
 author: Freddy
 cover: virtual-insanity.jpg
 cover_src: 'https://unsplash.com/photos/5psJeebVp9o'
-cover_src_publisher: Annie Spratt
 color: "linear-gradient(to bottom, rgba(158, 82, 19, 0.5), rgba(158, 82, 19, 0.9))"
 layout: post
 excerpt: Facebook is dead. Long live Facebook.
