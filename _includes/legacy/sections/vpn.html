@@ -1,7 +1,7 @@
 <h2 id="vpn" class="anchor"><a href="#vpn"><i class="fas fa-link anchor-icon"></i></a> Recommended VPN Services</h2>
 
 <div class="alert alert-success" role="alert">
-  <strong>Our recommended providers are outside the US, use encryption, accept Bitcoin, support OpenVPN, and have a no logging policy. <a href="/providers/vpn/#criteria">Read our full list of criteria for more information</a>.</strong>
+  <strong>Our recommended providers are outside the US, use encryption, accept Monero, support OpenVPN, and have a no logging policy. <a href="/providers/vpn/#criteria">Read our full list of criteria for more information</a>.</strong>
 </div>
 
 <div class="container-fluid">
@@ -37,8 +37,6 @@
     <p>In 2021 an infrastructure audit <a href="https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/">was announced</a> and the <a href="https://cure53.de/pentest-report_mullvad_2021_v1.pdf">final audit report</a> was made available on Cure53's website.</p>
     <h5>{% include badge.html color="success" text="Open Source Clients" %}</h5>
     <p>Mullvad provides the source code for their desktop and mobile clients in their <a href="https://github.com/mullvad/mullvadvpn-app">GitHub organization</a>.</p>
-    <h5>{% include badge.html color="success" text="Accepts Bitcoin" %}</h5>
-    <p>Mullvad in addition to accepting credit/debit cards and PayPal, accepts <strong>Bitcoin</strong>, <strong>Bitcoin Cash</strong>, and <strong>cash/local currency</strong> as anonymous forms of payment. They also accept Swish and bank wire transfers.</p>
     <h5>{% include badge.html color="success" text="WireGuard Support" %}</h5>
     <p>In addition to standard OpenVPN connections, Mullvad supports WireGuard. WireGuard is an experimental protocol with theoretically better security and higher reliability, although it is not currently recommended for production use.</p>
     <h5>{% include badge.html color="success" text="IPv6 Support" %}</h5>
@@ -47,6 +45,8 @@
     <p>Remote <a href="https://en.wikipedia.org/wiki/Port_forwarding">port forwarding</a> is allowed for users who make one-time payments, and not allowed for accounts with a recurring/subscription-based payment method. This is to prevent Mullvad from being able to identify port users based on stored subscription information. See <a href="https://mullvad.net/help/port-forwarding-and-mullvad/">Port forwarding with Mullvad VPN</a> for more information.</p>
     <h5>{% include badge.html color="success" text="Mobile Clients" %}</h5>
     <p>Mullvad has published <a href ="https://apps.apple.com/app/mullvad-vpn/id1488466513">App Store</a> and <a href="https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn">Google Play</a> clients, both supporting an easy-to use interface as opposed to requiring users to manual configure their WireGuard connections. The mobile client on Android is also available in <a href="https://f-droid.org/packages/net.mullvad.mullvadvpn">F-Droid</a>, which ensures that it is compiled with <a href="https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html">reproducible builds</a>.</p>
+    <h5>{% include badge.html color="warning" text="Doesn't Accept Monero'" %}</h5>
+    <p>While Mullvad accepts credit/debit cards and PayPal, Bitcoin, Bitcoin Cash, cash/local currency, Swish, and bank wire transfers as anonymous forms of payment, Mullvad does not yet support Monero, although has <a href="https://www.reddit.com/r/Monero/comments/rm36jo/mullvad_vpn_to_add_monero_in_2022/">stated that they will in 2022</a></p>
     <h5>{% include badge.html color="info" text="Extra Functionality" %}</h5>
     <p>Mullvad is very transparent about which nodes they <a href="https://mullvad.net/en/servers/">own or rent</a>. They use <a href="https://shadowsocks.org/en/index.html">ShadowSocks</a> in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with <a href="https://en.wikipedia.org/wiki/Deep_packet_inspection">Deep Packet Inspection</a> trying to block VPNs. Supposedly, <a href="https://github.com/net4people/bbs/issues/22">China has to use a different method to block ShadowSocks servers</a>. Mullvad's website is also accessible via Tor at <a href="http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion">o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion</a>.</p>
     </div>
@@ -70,10 +70,10 @@
     <p>As of January 2020 ProtonVPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in ProtonVPN's Windows, Android, and iOS applications, all of which were "properly fixed" by ProtonVPN before the reports were published. None of the issues identified would have provided an attacker remote access to a user's device or traffic. You can view individual reports for each platform at <a href="https://protonvpn.com/blog/open-source/">protonvpn.com</a>.
     <h5>{% include badge.html color="success" text="Open Source Clients" %}</h5>
     <p>ProtonVPN provides the source code for their desktop and mobile clients in their <a href="https://github.com/ProtonVPN">GitHub organization</a>.</p>
-    <h5>{% include badge.html color="success" text="Accepts Bitcoin" %}</h5>
-    <p>ProtonVPN does technically accept Bitcoin payments; however, you either need to have an existing account, or contact their support team in advance to register with Bitcoin.</p>
     <h5>{% include badge.html color="success" text="Mobile Clients" %}</h5>
     <p>In addition to providing standard OpenVPN configuration files, ProtonVPN has mobile clients for <a href="https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085">App Store</a> and <a href="https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US">Google Play</a> allowing for easy connections to their servers. The mobile client on Android is also available in <a href="https://f-droid.org/en/packages/ch.protonvpn.android">F-Droid</a>, which ensures that it is compiled with <a href="https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html">reproducible builds</a>.</p>
+    <h5>{% include badge.html color="success" text="Doesn't Accept Monero" %}</h5>
+    <p>ProtonVPN doesn't accept Monero. ProtonVPN does technically accept Bitcoin payments; however, you either need to have an existing account, or contact their support team in advance to register with Bitcoin.</p>
     <h5>{% include badge.html color="warning" text="No Port Forwarding" %}</h5>
     <p>ProtonVPN does not currently support remote port forwarding, which may impact some applications. Especially Peer-to-Peer applications like Torrent clients.</p>
     <h5>{% include badge.html color="info" text="Extra Functionality" %}</h5>
@@ -98,8 +98,8 @@
     <p>IVPN has undergone a <a href="https://cure53.de/audit-report_ivpn.pdf">no-logging audit from Cure53</a> which concluded in agreement with IVPN's no-logging claim. IVPN has also completed a <a href="https://cure53.de/summary-report_ivpn_2019.pdf">comprehensive pentest report Cure53</a> in January 2020. IVPN has also said they plan to have <a href="https://www.ivpn.net/blog/independent-security-audit-concluded">annual reports</a> in the future.</p>
     <h5>{% include badge.html color="success" text="Open Source Clients" %}</h5>
     <p>As of Feburary 2020 <a href="https://www.ivpn.net/blog/ivpn-applications-are-now-open-source">IVPN applications are now open source</a>. Source code can be obtained from their <a href="https://github.com/ivpn">GitHub organization</a>.</p>
-    <h5>{% include badge.html color="success" text="Accepts Bitcoin" %}</h5>
-    <p>In addition to accepting credit/debit cards and PayPal, IVPN accepts <strong>Bitcoin</strong>,  <strong>Monero</strong> and <strong>cash/local currency</strong> (on annual plans) as anonymous forms of payment.</p>
+    <h5>{% include badge.html color="success" text="Accepts Monero" %}</h5>
+    <p>In addition to accepting credit/debit cards and PayPal, IVPN accepts <strong>Monero</strong> and <strong>cash/local currency</strong> (on annual plans) as anonymous forms of payment.</p>
     <h5>{% include badge.html color="success" text="WireGuard Support" %}</h5>
     <p>In addition to standard OpenVPN connections, IVPN supports WireGuard. WireGuard is an experimental protocol with theoretically better security and higher reliability, although it is not currently recommended for production use.</p>
     <h5>{% include badge.html color="success" text="Remote Port Forwarding" %}</h5>
