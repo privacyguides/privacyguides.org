@@ -2,17 +2,21 @@ title: Bromite
 type: Recommendation
 logo: /assets/img/browsers/bromite.svg
 description: |
-  Bromite is a Chromium-based browser with privacy and security enhancements, built-in ad blocking and some fingerprinting randomization.
+  <strong>Bromite</strong> is a Chromium-based browser with privacy and security enhancements, built-in ad blocking and some fingerprinting randomization.
 
   These options can be found in <em>Privacy and Security</em> ( ⁝ → ⚙️ Settings → Privacy and Security)
 
-  HTTPS-Only Mode
-  Select: Always use secure connections.
-  
-  Always on Incognito mode
-  Select: Open links in incognito tabs always.
-  Select: Close all open tabs on exit.
-  Select: Open external links in incognito.
+  <h5><strong>HTTPS-Only Mode</strong></h5>
+  <ul style="list-style-type:none;padding-left:0;">
+    <li>Select: <strong>Always use secure connections</strong>.</li>
+  </ul>
+
+  <h5><strong>Always on Incognito mode</strong></h5>
+  <ul style="list-style-type:none;padding-left:0;">
+    <li>Select: <strong>Open links in incognito tabs always</strong>.</li>
+    <li>Select: <strong>Close all open tabs on exit</strong>.</li>
+    <li>Select: <strong>Open external links in incognito</strong>.</li>
+  </ul>
 
 website: 'https://www.bromite.org'
 privacy_policy: 'https://www.bromite.org/privacy'

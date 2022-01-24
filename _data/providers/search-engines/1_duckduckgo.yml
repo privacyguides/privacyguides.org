@@ -2,16 +2,16 @@ title: DuckDuckGo
 type: Recommendation
 logo: /assets/img/search-engines/duckduckgo.svg
 description: |
-  DuckDuckGo is a popular search engine and is the default for the Tor Browser.
+  <strong>DuckDuckGo</strong> is a popular search engine and is the default for the Tor Browser.
 
-  DuckDuckGo has a lite and html only version, both of which do not require JavaScript and can be used with their Tor onion address (append /lite or /html for the respective version).
+  DuckDuckGo has a <a href="https://duckduckgo.com/lite">lite</a> and <a href="https://duckduckgo.com/html">html</a> only version, both of which <a href="https://help.duckduckgo.com/features/non-javascript">do not require JavaScript</a> and can be used with their <a href="https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion">Tor onion address</a> (append <a href="https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite">/lite</a> or <a href="https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html">/html</a> for the respective version).
 
-  DuckDuckGo uses its own crawler and various other sources to provide its search data.
+  DuckDuckGo uses its own crawler and various <a href="https://help.duckduckgo.com/results/sources">other sources</a> to provide its search data.
 
-  Notes
-  The company is based in the USA.
+  <h4>Notes</h4>
+  The company is based in the <span class="flag-icon flag-icon-us"></span> USA.
 
-  Their Privacy Policy states they do log your search query, but not your IP or any other identifying information.
+  Their <a href="https://duckduckgo.com/privacy">Privacy Policy</a> states they do log your search query, but not your IP or any other identifying information.
 
 website: 'https://duckduckgo.com'
 website_tor: 'https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion'

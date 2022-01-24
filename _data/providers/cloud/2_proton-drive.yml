@@ -2,7 +2,7 @@ title: Proton Drive
 type: Recommendation
 logo: /assets/img/cloud/protondrive.svg
 description: |
-  Proton Drive is an end-to-end encrypted (E2EE) general file storage service by the popular encrypted email provider <a href="https://protonmail.com">ProtonMail</a>.
+  <strong>Proton Drive</strong> is an end-to-end encrypted (E2EE) general file storage service by the popular encrypted email provider <a href="https://protonmail.com">ProtonMail</a>.
 
   Proton Drive is currently in beta and only is only available through a web client.
 
@@ -13,3 +13,5 @@ privacy_policy: 'https://protonmail.com/privacy-policy'
 downloads:
   - icon: fas fa-globe-americas
     url: 'https://protonmail.com'
+  - icon: fab fa-github
+    url: 'https://github.com/ProtonMail/proton-drive'
