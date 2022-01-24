@@ -9,7 +9,7 @@
           {% assign color = badge_data[0] %}
           {% assign text = badge_data[1] %}
           {% assign tooltip = badge_data[2] | default: false %}
-          {% assign help_icon = '<i class="far fa-question-circle"></i>' %}
+          {% assign help_icon = '<i aria-hidden="true" class="far fa-question-circle"></i>' %}
           <span
             class="badge rounded-pill bg-{{color}}"
             {% if tooltip %}
@@ -77,16 +77,18 @@
         <a
           href="{{include.website}}"
           rel="noopener"
+          aria-label="Website"
           class="btn btn-secondary mt-1 me-1">
-          <i class="fas fa-external-link-alt fa-fw"></i>
+          <i aria-hidden="true" class="fas fa-external-link-alt fa-fw"></i>
           Website
         </a>
         {% if include.privacy-policy %}
         <a
           href="{{include.privacy-policy}}"
           rel="noopener"
+          aria-label="Privacy Policy"
           class="btn btn-primary mt-1 me-1">
-          <i class="fas fa-book fa-fw"></i>
+          <i aria-hidden="true" class="fas fa-book fa-fw"></i>
           Privacy Policy
         </a>
         {% endif %}
@@ -117,171 +119,171 @@
       <div class="mt-2">
           {% if include.windows %}
             {% if include.windows != "" %}
-              <a href="{{ include.windows }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="fab fa-windows fa-2x fa-fw d-inline pe-1"></i>
+              <a href="{{ include.windows }}" aria-label="Windows" rel="noopener" class="text-decoration-none text-decoration-none">
+                <i aria-hidden="true" class="fab fa-windows fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="fab fa-windows fa-2x fa-fw d-inline pe-1"></i>
+              <i aria-hidden="true" class="fab fa-windows fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.mac %}
             {% if include.mac != "" %}
-              <a href="{{ include.mac }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="ptio-macos fa-2x fa-fw d-inline pe-1"></i>
+              <a href="{{ include.mac }}" aria-label="Mac" rel="noopener" class="text-decoration-none text-decoration-none">
+                <i aria-hidden="true" class="ptio-macos fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="ptio-macos fa-2x fa-fw d-inline pe-1"></i>
+              <i aria-hidden="true" class="ptio-macos fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.linux %}
             {% if include.linux != "" %}
-              <a href="{{ include.linux }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="ptio-linux fa-2x fa-fw d-inline pe-1"></i>
+              <a href="{{ include.linux }}" aria-label="Linux" rel="noopener" class="text-decoration-none text-decoration-none">
+                <i aria-hidden="true" class="ptio-linux fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="ptio-linux fa-2x fa-fw d-inline pe-1"></i>
+              <i aria-hidden="true" class="ptio-linux fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.freebsd %}
             {% if include.freebsd != "" %}
-              <a href="{{ include.freebsd }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="fab fa-freebsd fa-2x fa-fw d-inline pe-1"></i>
+              <a href="{{ include.freebsd }}" aria-label="FreeBSD" rel="noopener" class="text-decoration-none text-decoration-none">
+                <i aria-hidden="true" class="fab fa-freebsd fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="fab fa-freebsd fa-2x fa-fw d-inline pe-1"></i>
+              <i aria-hidden="true" class="fab fa-freebsd fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.openbsd %}
             {% if include.openbsd != "" %}
-              <a href="{{ include.openbsd }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="ptio-openbsd fa-2x fa-fw d-inline pe-1"></i>
+              <a href="{{ include.openbsd }}" aria-label="OpenBSD" rel="noopener" class="text-decoration-none text-decoration-none">
+                <i aria-hidden="true" class="ptio-openbsd fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="ptio-openbsd fa-2x fa-fw d-inline pe-1"></i>
+              <i aria-hidden="true" class="ptio-openbsd fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.netbsd %}
             {% if include.netbsd != "" %}
-              <a href="{{ include.netbsd }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="ptio-netbsd fa-2x fa-fw d-inline pe-1"></i>
+              <a href="{{ include.netbsd }}" aria-label="NetBSD" rel="noopener" class="text-decoration-none text-decoration-none">
+                <i aria-hidden="true" class="ptio-netbsd fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="ptio-netbsd fa-2x fa-fw d-inline pe-1"></i>
+              <i aria-hidden="true" class="ptio-netbsd fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.firefox %}
             {% if include.firefox != "" %}
-              <a href="{{ include.firefox }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="fab fa-firefox fa-2x fa-fw d-inline pe-1"></i>
+              <a href="{{ include.firefox }}" aria-label="Firefox" rel="noopener" class="text-decoration-none text-decoration-none">
+                <i aria-hidden="true" class="fab fa-firefox fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="fab fa-firefox fa-2x fa-fw d-inline pe-1"></i>
+              <i aria-hidden="true" class="fab fa-firefox fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.chrome %}
             {% if include.chrome != "" %}
-              <a href="{{ include.chrome }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="fab fa-chrome fa-2x fa-fw d-inline pe-1"></i>
+              <a href="{{ include.chrome }}" aria-label="Chrome" rel="noopener" class="text-decoration-none text-decoration-none">
+                <i aria-hidden="true" class="fab fa-chrome fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="fab fa-chrome fa-2x fa-fw d-inline pe-1"></i>
+              <i aria-hidden="true" class="fab fa-chrome fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.safari %}
             {% if include.safari != "" %}
-              <a href="{{ include.safari }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="fab fa-safari fa-2x fa-fw d-inline pe-1"></i>
+              <a href="{{ include.safari }}" aria-label="Safari" rel="noopener" class="text-decoration-none text-decoration-none">
+                <i aria-hidden="true" class="fab fa-safari fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="fab fa-safari fa-2x fa-fw d-inline pe-1"></i>
+              <i aria-hidden="true" class="fab fa-safari fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.opera %}
             {% if include.opera != "" %}
-              <a href="{{ include.opera }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="fab fa-opera fa-2x fa-fw d-inline pe-1"></i>
+              <a href="{{ include.opera }}" aria-label="Opera" rel="noopener" class="text-decoration-none text-decoration-none">
+                <i aria-hidden="true" class="fab fa-opera fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="fab fa-opera fa-2x fa-fw d-inline pe-1"></i>
+              <i aria-hidden="true" class="fab fa-opera fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.edge %}
             {% if include.edge != "" %}
-              <a href="{{ include.edge }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="fab fa-edge fa-2x fa-fw d-inline pe-1"></i>
+              <a href="{{ include.edge }}" aria-label="Edge" rel="noopener" class="text-decoration-none text-decoration-none">
+                <i aria-hidden="true" class="fab fa-edge fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="fab fa-edge fa-2x fa-fw d-inline pe-1"></i>
+              <i aria-hidden="true" class="fab fa-edge fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.fdroid %}
             {% if include.fdroid != "" %}
-              <a href="{{ include.fdroid }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="ptio-f-droid fa-2x fa-fw d-inline pe-1"></i>
+              <a href="{{ include.fdroid }}" aria-label="F-Droid" rel="noopener" class="text-decoration-none text-decoration-none">
+                <i aria-hidden="true" class="ptio-f-droid fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="ptio-f-droid fa-2x fa-fw d-inline pe-1"></i>
+              <i aria-hidden="true" class="ptio-f-droid fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.googleplay %}
             {% if include.googleplay != "" %}
-              <a href="{{ include.googleplay }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="fab fa-google-play fa-2x fa-fw d-inline pe-1"></i>
+              <a href="{{ include.googleplay }}" aria-label="Google Play" rel="noopener" class="text-decoration-none text-decoration-none">
+                <i aria-hidden="true" class="fab fa-google-play fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="fab fa-google-play fa-2x fa-fw d-inline pe-1"></i>
+              <i aria-hidden="true" class="fab fa-google-play fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.android %}
             {% if include.android != "" %}
-              <a href="{{ include.android }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="fab fa-android fa-2x fa-fw d-inline pe-1"></i>
+              <a href="{{ include.android }}" aria-label="Android" rel="noopener" class="text-decoration-none text-decoration-none">
+                <i aria-hidden="true" class="fab fa-android fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="fab fa-android fa-2x fa-fw d-inline pe-1"></i>
+              <i aria-hidden="true" class="fab fa-android fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.ios %}
             {% if include.ios != "" %}
-              <a href="{{ include.ios }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="ptio-ios fa-2x fa-fw d-inline pe-1"></i>
+              <a href="{{ include.ios }}" aria-label="iOS" rel="noopener" class="text-decoration-none text-decoration-none">
+                <i aria-hidden="true" class="ptio-ios fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="ptio-ios fa-2x fa-fw d-inline pe-1"></i>
+              <i aria-hidden="true" class="ptio-ios fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.sailfish %}
             {% if include.sailfish != "" %}
-              <a href="{{ include.sailfish }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="ptio-sailfish-os fa-2x fa-fw d-inline pe-1"></i>
+              <a href="{{ include.sailfish }}" aria-label="Sailfish" rel="noopener" class="text-decoration-none text-decoration-none">
+                <i aria-hidden="true" class="ptio-sailfish-os fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="ptio-sailfish-os fa-2x fa-fw d-inline pe-1"></i>
+              <i aria-hidden="true" class="ptio-sailfish-os fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.web %}
             {% if include.web != "" %}
-              <a href="{{ include.web }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="fas fa-globe-americas fa-2x fa-fw d-inline pe-1"></i>
+              <a href="{{ include.web }}" aria-label="Web" rel="noopener" class="text-decoration-none text-decoration-none">
+                <i aria-hidden="true" class="fas fa-globe-americas fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="fas fa-globe-americas fa-2x fa-fw d-inline pe-1"></i>
+              <i aria-hidden="true" class="fas fa-globe-americas fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
@@ -290,26 +292,26 @@
           {{include.icon3}}
 
           {% if include.github %}
-            <a href="{{include.github}}" rel="noopener" class="text-decoration-none text-decoration-none">
-              <i class="fab fa-github fa-2x fa-fw d-inline"></i>
+            <a href="{{include.github}}" aria-label="GitHub" rel="noopener" class="text-decoration-none text-decoration-none">
+              <i aria-hidden="true" class="fab fa-github fa-2x fa-fw d-inline"></i>
             </a>
           {% endif %}
 
           {% if include.gitlab %}
-            <a href="{{include.gitlab}}" rel="noopener" class="text-decoration-none text-decoration-none">
-              <i class="fab fa-gitlab fa-2x fa-fw d-inline"></i>
+            <a href="{{include.gitlab}}" aria-label="GitLab" rel="noopener" class="text-decoration-none text-decoration-none">
+              <i aria-hidden="true" class="fab fa-gitlab fa-2x fa-fw d-inline"></i>
             </a>
           {% endif %}
 
           {% if include.git %}
-            <a href="{{include.git}}" rel="noopener" class="text-decoration-none text-decoration-none">
-              <i class="fab fa-git-square fa-2x fa-fw d-inline"></i>
+            <a href="{{include.git}}" aria-label="Git" rel="noopener" class="text-decoration-none text-decoration-none">
+              <i aria-hidden="true" class="fab fa-git-square fa-2x fa-fw d-inline"></i>
             </a>
           {% endif %}
 
           {% if include.source %}
-            <a href="{{include.source}}" rel="noopener" class="text-decoration-none text-decoration-none">
-              <i class="fas fa-code-branch fa-2x fa-fw d-inline"></i>
+            <a href="{{include.source}}" aria-label="Source" rel="noopener" class="text-decoration-none text-decoration-none">
+              <i aria-hidden="true" class="fas fa-code-branch fa-2x fa-fw d-inline"></i>
             </a>
           {% endif %}
 
