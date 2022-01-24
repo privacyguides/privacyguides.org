@@ -2,20 +2,18 @@ title: Auditor
 type: Recommendation
 logo: /assets/img/android/auditor.svg
 description: |
-  <strong>Auditor</strong> is an app which leverages hardware security features to provide device integrity monitoring for <a href="https://attestation.app/about#device-support">supported devices</a>. It currently works with GrapheneOS and the stock operating system. It performs attestation and intrusion detection by:
-  <ul>
-    <li>Using a <a href="https://en.wikipedia.org/wiki/Trust_on_first_use">Trust On First Use (TOFU)</a> model between an <em>auditor</em> and <em>auditee</em>, the pair establish a private key in the <a href="https://source.android.com/security/keystore/">hardware-backed keystore</a> of the <em>Auditor</em>.</li>
-    <li>The <em>auditor</em> can either be another instance of the Auditor app or the <a href="https://attestation.app">Remote Attestation Service</a>.</li>
-    <li>The <em>auditor</em> records the current state and configuration of the <em>auditee</em>.</li>
-    <li>Should tampering with the operating system of the <em>auditee</em> after the pairing is complete, the auditor will be aware of the change in the device state and configurations.</li>
-    <li>The user will be alerted to the change.</li>
-  </ul>
+  Auditor is an app which leverages hardware security features to provide device integrity monitoring for supported devices. It currently works with GrapheneOS and the stock operating system. It performs attestation and intrusion detection by:
+  Using a Trust On First Use (TOFU) model between an auditor and auditee, the pair establish a private key in the hardware-backed keystore of the Auditor.
+  The auditor can either be another instance of the Auditor app or the Remote Attestation Service.
+  The auditor records the current state and configuration of the auditee.
+  Should tampering with the operating system of the auditee after the pairing is complete, the auditor will be aware of the change in the device state and configurations.
+  The user will be alerted to the change.
 
   No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
 
-  If your <a href="/threat-modeling/">threat model</a> requires privacy you could consider using Orbot or a VPN to hide your IP address from the attestation service.
+  If your threat model requires privacy you could consider using Orbot or a VPN to hide your IP address from the attestation service.
 
-  To make sure that your hardware and operating system is genuine, <a href="https://grapheneos.org/install/web#verifying-installation">perform local attestation</a> immediately after the device has been installed and prior to any internet connection.
+  To make sure that your hardware and operating system is genuine, perform local attestation immediately after the device has been installed and prior to any internet connection.
 
 website: 'https://attestation.app'
 privacy_policy: 'https://attestation.app/privacy-policy'

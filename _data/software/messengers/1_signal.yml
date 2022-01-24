@@ -4,18 +4,18 @@ logo: /assets/img/messengers/signal.svg
 labels: 'color==info::icon==fas fa-fw fa-wifi::text==Centralized::tooltip==All communications pass through a single host. |
          color==info::icon==fas fa-fw fa-phone::text==VoIP::tooltip==Voice or video calls are supported.'
 description: |
-  <strong>Signal</strong> is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling.
+  Signal is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling.
 
   All communications are E2EE. Contact lists are encrypted using your login PIN and the server does not have access to it. Personal profiles are also encrypted and only shared with contacts who add you.
 
-  Signal has minimal metadata when <a href="https://signal.org/blog/sealed-sender/">Sealed Sender</a> is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server.
+  Signal has minimal metadata when Sealed Sender is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server.
 
-  <h4>Notes</h4>
-    <p>Signal requires your phone number as a personal identifier.</p>
-    <p><a href="https://signal.org/blog/sealed-sender/">Sealed Sender</a> is only enabled for users on your contact list but can be enabled for all recipients with the increased risk of receiving spam.</p>
+  Notes
+    Signal requires your phone number as a personal identifier.
+    Sealed Sender is only enabled for users on your contact list but can be enabled for all recipients with the increased risk of receiving spam.
 
-  <h4>Technical information</h4>
-  The protocol was independently <a href="https://eprint.iacr.org/2016/1013.pdf">audited</a> in 2016. The specification for the Signal protocol can be founded in their <a href="https://signal.org/docs/">documentation</a>.
+  Technical information
+  The protocol was independently audited in 2016. The specification for the Signal protocol can be founded in their documentation.
 website: 'https://signal.org'
 privacy_policy: 'https://signal.org/legal'
 downloads:

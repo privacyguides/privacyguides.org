@@ -3,17 +3,17 @@ type: Recommendation
 logo: /assets/img/messengers/session.svg
 labels: 'color==info::icon==fas fa-fw fa-wifi::text==Anonymous Routing::tooltip==Senders and recipients are hidden in the network, no one can know they communicate together.'
 description: |
-  <strong>Session</strong> is an encrypted instant messenger that uses three random  <a href="https://getsession.org/blog/onion-requests-session-new-message-routing-solution"> service nodes</a> to route messages anonymously on the <a href="https://oxen.io">Oxen Network</a>.
+  Session is an encrypted instant messenger that uses three random service nodes to route messages anonymously on the Oxen Network.
 
   Session allows for E2EE in one-to-one or closed rooms that allow up to 100 members.
 
   Open rooms have no restriction on the number of members, but anyone can join.
 
-  <h4>Notes</h4>
-  Session does <a href="https://getsession.org/blog/session-protocol-technical-information">not</a> support forward secrecy. The key pair for each conversation is not rotated.
+  Notes
+  Session does not support forward secrecy. The key pair for each conversation is not rotated.
 
-  <h4>Technical information</h4>
-  Session was independently <a href="https://getsession.org/session-code-audit/">audited</a> in 2020. The protocol is described in a <a href="https://arxiv.org/abs/2002.04609">whitepaper</a>.
+  Technical information
+  Session was independently audited in 2020. The protocol is described in a whitepaper.
 
 website: 'https://getsession.org/'
 privacy_policy: 'https://getsession.org/privacy-policy'

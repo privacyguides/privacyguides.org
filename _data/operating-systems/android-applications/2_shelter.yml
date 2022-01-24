@@ -2,11 +2,11 @@ title: Shelter
 type: Recommendation
 logo: /assets/img/android/shelter.svg
 description: |
-  <strong>Shelter</strong> is an app that helps you leverage the Android work profile to isolate other apps.
+  Shelter is an app that helps you leverage the Android work profile to isolate other apps.
 
-  Shelter supports blocking contact search cross profiles and sharing files across profiles via the default file manager (<a href="https://source.android.com/devices/architecture/modular-system/documentsui">DocumentsUI</a>).
+  Shelter supports blocking contact search cross profiles and sharing files across profiles via the default file manager (DocumentsUI).
 
-  <h4>Notes</h4>
+  Notes
   CalyxOS includes a device controller so we recommend using their built in work profile instead.
 website: 'https://gitea.angry.im/PeterCxy/Shelter'
 downloads:
