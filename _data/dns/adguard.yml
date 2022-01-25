@@ -20,7 +20,7 @@ protocols:
   - name: DoH
   - name: DoT
   - name: DNSCrypt
-ECS: true
+ECS: false
 filtering: Based on server choice
 providers:
   - name: Choopa, LLC
