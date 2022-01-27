@@ -32,8 +32,11 @@
   </span>{% else %}<td class="table-success">No{% endif %}
 </td>
 <td
-  {% unless data.ecs %}data-value="No" class="table-danger"><span title="Provides ECS" aria-hidden="true" class="fad text-red fa-times-circle"></span><span class="visually-hidden">No</span>{% else %}
-  data-value="Yes" class="table-success"><span title="Doesn't provide ECS" aria-hidden="true" class="fad text-green fa-check-square"></span><span class="visually-hidden">Yes</span>{% endunless %}
+  {% unless data.ecs %}data-value="Yes" class="table-success"><span title="Provides ECS" aria-hidden="true" class="fad text-red fa-times-circle"></span><span class="visually-hidden">No</span>{% else %}
+  data-value="No" class="table-danger"><span title="Doesn't provide ECS" aria-hidden="true" class="fad text-green fa-check-square"></span><span class="visually-hidden">Yes</span>{% endunless %}
+</td>
+<td>
+  {{ data.filtering | escape | default: '<em>Unknown?</em>' }}
 </td>
 <td>
   {% if data.source %}<a href="{{ data.source }}">
