@@ -10,7 +10,9 @@ description: "The Domain Name System (DNS) is the phonebook of the Internet. DNS
   Use the flowchart to find out if you need to use Encrypted DNS Resolvers or change your current DNS provider. 
 </p>
 
-<img align="middle" src="../../../assets/img/dns/dns.svg" alt="DNS flowchart">
+<center>
+  <img src="../../../assets/img/dns/dns.svg" alt="DNS flowchart">
+<center/>
 
 ## Encrypted DNS Resolvers
 <p>
