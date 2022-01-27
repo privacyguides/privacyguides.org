@@ -12,7 +12,7 @@ description: "The Domain Name System (DNS) is the phonebook of the Internet. DNS
 
 <center>
   <img src="../../../assets/img/dns/dns.svg" alt="DNS flowchart">
-<center/>
+</center>
 
 ## Encrypted DNS Resolvers
 <p>
