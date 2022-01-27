@@ -18,7 +18,7 @@ protocols:
   - name: DoH
   - name: DoT
   - name: DNSCrypt
-ECS: true
+ecs: true
 filtering: Based on server choice
 providers:
   - name: Self

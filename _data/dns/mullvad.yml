@@ -21,7 +21,7 @@ logs:
 protocols:
   - name: DoH
   - name: DoT
-ECS: false
+ecs: false
 filtering: Based on server choice
 providers:
   - name: Self

@@ -13,7 +13,7 @@ protocols:
   - name: DoH
   - name: DoT
   - name: DNSCrypt
-ECS: true
+ecs: true
 filtering: Based on server choice, Malware blocking by default
 providers:
   - name: Self
