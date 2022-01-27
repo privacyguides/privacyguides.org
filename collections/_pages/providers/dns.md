@@ -73,7 +73,7 @@ description: "The Domain Name System (DNS) is the phonebook of the Internet. DNS
 {%
   include legacy/cardv2.html
   title="RethinkDNS"
-  image="/assets/img/android/rethink.svg"
+  image="/assets/img/android/rethink.png"
   description='An open-source Android client supporting DNS-over-HTTPS, DNS-over-TLS, DNSCrypt and DNS Proxy along with caching DNS responses, locally logging DNS queries and can be used as a firewall too.'
   website="https://rethinkdns.com/"
   privacy-policy="https://rethinkdns.com/privacy"
