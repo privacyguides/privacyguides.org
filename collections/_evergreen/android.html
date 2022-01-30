@@ -8,7 +8,7 @@ The main privacy concern with most Android devices is that they usually include 
 ---
 
 <div class="alert alert-warning" role="alert">
-  <strong>While CalyxOS still listed on our website, we do not recommend installing it in its current state. The distribution has fallen quite far behind on security updates - firmware patch level is still on the October 2021 patch on the stable and beta branches, and the Chromium browser/webview is still on version 95.0.4638.50 from October 2021 with over 100 known vulnerabilities on all branches.</strong>
+  <strong>While CalyxOS still listed on our website, we do not recommend installing it in its current state. The distributions's Chromium browser/webview is still on version 95.0.4638.50 from October 2021 with over 100 known vulnerabilities on all branches.</strong>
 </div>
 
 <h2 id="mobile-only-recommendations" class="anchor">
@@ -157,19 +157,13 @@ We have these general tips:
 
 <p>MicroG is a reimplementation of Google Play Services. This means it needs to be updated every time Android has a major version update (or the Android API changes). It also needs to run in the highly privileged <a href="https://source.android.com/security/selinux/concepts"><code>system_app</code></a> SELinux domain like the normal Play Services and is less secure than the Sandboxed Play Service approach. We do not believe MicroG provides any privacy advantages over Sandboxed Play Services except for the option to <em>shift trust</em> of the location backend from Google to another provider such as Mozilla or DejaVu.</p>
 
-<h5><strong>Device Patch Level</strong></h5>
-
-<p>GrapheneOS includes the latest Android 12 and comes with full firmware security patches for non "extended support" devices. If it is <a href="https://support.google.com/nexus/answer/4457705">supported</a> you will have the latest security patch level.</p>
-
-<p>CalyxOS <a href="https://gitlab.com/groups/CalyxOS/-/epics/28">has not yet finished</a> Android 12 support. This means they cannot include the updated <a href="https://calyxos.org/docs/guide/security/bulletin/">proprietary</a> firmware with security patches that were designed for Android 12.</p>
-
 <h5><strong>Privileged App Extensions</strong></h5>
 
 <p>Android 12 comes with special support for seamless app updates with <a href="https://android-developers.googleblog.com/2020/09/listening-to-developer-feedback-to.html">third party app stores</a>. The popular Free and Open Source Software (FOSS) repository <a href="https://f-droid.org">F-Droid</a> doesn't implement this feature and requires a <a href="https://f-droid.org/en/packages/org.fdroid.fdroid.privileged">privileged extension</a> to be included with the Android distribution in order to have unattended app installation.</p>
 
 <p>GrapheneOS doesn't compromise on security, therefore they do not include the F-Droid extension therefore, users have to confirm all updates manually if they want to use F-Droid. GrapheneOS officially recommends <a href="https://grapheneos.org/usage#sandboxed-play-services">Sandboxed Play Services</a> instead. Many FOSS Android apps are also in Google Play but sometimes they are not (like <a href="/video-streaming/">NewPipe</a>).</p>
 
-<p>CalyxOS includes the <a href="https://f-droid.org/en/packages/org.fdroid.fdroid.privileged">privileged extension</a>, which may lower device security. Seamless app updates should be possible with <a href="https://auroraoss.com">Aurora Store</a> when CalyxOS is upgraded to Android 12 and <a href="https://gitlab.com/AuroraOSS/AuroraStore/-/merge_requests/153">#153</a> is completed.</p>
+<p>CalyxOS includes the <a href="https://f-droid.org/en/packages/org.fdroid.fdroid.privileged">privileged extension</a>, which may lower device security. Seamless app updates should be possible with <a href="https://auroraoss.com">Aurora Store</a> when <a href="https://gitlab.com/AuroraOSS/AuroraStore/-/merge_requests/153">#153</a> is completed.</p>
 
 <h5><strong>Additional Hardening</strong></h5>
 <p>GrapheneOS improves upon <a href="https://source.android.com/">AOSP</a> security with:</p>
