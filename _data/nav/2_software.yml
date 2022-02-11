@@ -25,8 +25,7 @@ items:
   - type: link
     title: File Encryption Tools
     icon: fad fa-file-certificate
-    file: legacy_pages/software/productivity.html
-    anchor: encrypt
+    file: legacy_pages/software/file-encryption.html
   - type: link
     title: File Sharing and Sync
     icon: fad fa-file-user
@@ -34,8 +33,7 @@ items:
   - type: link
     title: Metadata Removal Tools
     icon: fad fa-file-times
-    file: legacy_pages/software/productivity.html
-    anchor: metadata-removal-tools
+    file: legacy_pages/software/metadata-removal-tools.html
   - type: link
     title: Password Managers
     icon: fad fa-user-lock
