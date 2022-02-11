@@ -7,19 +7,15 @@ description: "The Domain Name System (DNS) is the phonebook of the Internet. DNS
 ## When to use encrypted DNS?
 
 <p>
-  HTTPS already provides security from anyone modifying Normal cleartext DNS by requiring the websites to have a valid TLS certificate, although anyone can still see which domains you visited. But that is the case with Encrypted DNS too. As an adversary can use <a href="https://madaidans-insecurities.github.io/encrypted-dns.html#sni">SNI</a>,<a href="https://madaidans-insecurities.github.io/encrypted-dns.html#ocsp">OCSP</a> or <a href="https://madaidans-insecurities.github.io/encrypted-dns.html#ip-addresses">IP Addresses</a> of websites to know that anyway.
+  HTTPS already provides security from anyone modifying Normal cleartext DNS by requiring the websites to have a valid TLS certificate, although anyone can still see which domains you visited. But that is the case with Encrypted DNS too. As an adversary can use <a href="https://madaidans-insecurities.github.io/encrypted-dns.html#sni">SNI</a>,<a href="https://madaidans-insecurities.github.io/encrypted-dns.html#ocsp">OCSP</a> or <a href="https://madaidans-insecurities.github.io/encrypted-dns.html#ip-addresses">IP Addresses</a> of websites to know that anyway. As a result any attempt to bypass censorship evasion using encrypted DNS is still noticed and possibly recorded too.
 </p>
 
 <p>
-  Which is to say, <mark>Encrypted DNS alone doesn't provide any real privacy or security benefits.</mark> 
+  Which is to say, <mark>Encrypted DNS alone doesn't provide any real privacy or security benefits and VPN and TOR are more suitable for censorship evasion.</mark> 
 </p>
 
 <p>
-  But in case you decide to use Encrypted DNS over Normal DNS. We recommend the natively supported methods over third party apps.
-</p>
-
-<p>
-  Use the flowchart to find out if you need to use Encrypted DNS Resolvers or change your current DNS provider. 
+  After going via the flowchart if you decide to use Encrypted DNS over Normal DNS. We recommend the natively supported methods over third party apps.
 </p>
 
 <center>
