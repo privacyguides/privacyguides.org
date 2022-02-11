@@ -49,7 +49,7 @@ description: "The Domain Name System (DNS) is the phonebook of the Internet. DNS
   include legacy/cardv2.html
   title="Android's built-in DNS-over-TLS resolver"
   image="/assets/img/legacy_svg/3rd-party/android.svg"
-  description="Android comes with built-in DNS-over-TLS support without the need for a 3rd-party application since Android version 9 (Pie)."
+  description="Android comes with built-in DNS-over-TLS support without the need for a 3rd-party application since Android version 9 (Pie) and will add support for DoH in upcoming Android 13."
   website="https://support.google.com/android/answer/9089903#private_dns"
 %}
 
