@@ -11,7 +11,7 @@ description: "The Domain Name System (DNS) is the phonebook of the Internet. DNS
 </p>
 
 <p>
-  Which is to say, Encrypted DNS alone doesn't provide any real privacy or security benefits. 
+  Which is to say, <mark>Encrypted DNS alone doesn't provide any real privacy or security benefits.</mark> 
 </p>
 
 <p>
