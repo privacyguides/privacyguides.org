@@ -25,44 +25,19 @@ description: "The Domain Name System (DNS) is the phonebook of the Internet. DNS
 
 ## Encrypted DNS Clients for Desktop
 
-{%
-  include legacy/cardv2.html
-  title="Unbound"
-  image="/assets/img/legacy_svg/3rd-party/unbound.svg"
-  description='A validating, recursive, caching DNS resolver, supporting DNS-over-TLS, and has been <a href="https://ostif.org/our-audit-of-unbound-dns-by-x41-d-sec-full-results/">independently audited</a>.'
-  website="https://nlnetlabs.nl/projects/unbound/about/"
-  github="https://github.com/NLnetLabs/unbound"
-%}
+HTTPS already provides security from anyone modifying Normal cleartext DNS by requiring the websites to have a valid TLS certificate, although anyone can still see which domains you visited. But that is the case with Encrypted DNS too. As an adversary can use <a href="https://madaidans-insecurities.github.io/encrypted-dns.html#sni">SNI</a>,<a href="https://madaidans-insecurities.github.io/encrypted-dns.html#ocsp">OCSP</a> or <a href="https://madaidans-insecurities.github.io/encrypted-dns.html#ip-addresses">IP Addresses</a> of websites to know that anyway.
 
-{%
-  include legacy/cardv2.html
-  title="dnscrypt-proxy"
-  image="/assets/img/legacy_svg/3rd-party/dnscrypt-proxy.svg"
-  description='A DNS proxy with support for DNSCrypt, DNS-over-HTTPS, and <a href="https://github.com/DNSCrypt/dnscrypt-protocol/blob/master/ANONYMIZED-DNSCRYPT.txt">Anonymized DNSCrypt</a>, a <a href="https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS">relay-based protocol that the hides client IP address.</a>'
-  website="https://github.com/DNSCrypt/dnscrypt-proxy/wiki"
-  github="https://github.com/DNSCrypt/dnscrypt-proxy"
-%}
+Which is to say, Encrypted DNS alone doesn't provide any real privacy or security benefits. 
 
-{%
-  include legacy/cardv2.html
-  title="Stubby"
-  image="/assets/img/legacy_png/3rd-party/stubby.png"
-  description='An application that acts as a local DNS-over-TLS stub resolver. Stubby can be used in <a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Clients#DNSPrivacyClients-Unbound/Stubbycombination">combination with Unbound</a> by managing the upstream TLS connections (since Unbound cannot yet re-use TCP/TLS connections) with Unbound providing a local cache.'
-  website="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby"
-  github="https://github.com/getdnsapi/stubby"
-%}
+But in case you decide to use Encrypted DNS over Normal DNS. We recommend the natively supported methods over third party apps.
 
-{%
-  include legacy/cardv2.html
-  title="Firefox's built-in DNS-over-HTTPS resolver"
-  image="/assets/img/legacy_svg/3rd-party/firefox_browser.svg"
-  description='Firefox comes with built-in DNS-over-HTTPS support for <a href="https://blog.mozilla.org/blog/2020/02/25/firefox-continues-push-to-bring-dns-over-https-by-default-for-us-users/">NextDNS and Cloudflare</a> but users can manually use any other DoH resolver.'
-  labels="color==warning::icon==fas fa-exclamation-triangle::link==https://developers.cloudflare.com/1.1.1.1/privacy/cloudflare-resolver-firefox#what-information-does-the-cloudflare-resolver-for-firefox-collect::text==Warning::tooltip==Cloudflare stores personally identifiable information such as user IP addresses and query information for up to 24 hours, and retains some bulk anonymized data indefinitely."
-  website="https://support.mozilla.org/en-US/kb/firefox-dns-over-https"
-  privacy-policy="https://wiki.mozilla.org/Security/DOH-resolver-policy"
-%}
+## Encrypted DNS on Windows
+<p>
+  Users can turn on DoH natively supported by Windows 10 or later by following <a href="https://docs.microsoft.com/en-us/windows-server/networking/dns/doh-client-support">this guide</a>.
+</p>
 
-## Encrypted DNS Clients for Android
+
+## Encrypted DNS on Android
 
 {%
   include legacy/cardv2.html
@@ -76,7 +51,7 @@ description: "The Domain Name System (DNS) is the phonebook of the Internet. DNS
   include legacy/cardv2.html
   title="RethinkDNS"
   image="/assets/img/android/rethink.png"
-  description='An open-source Android client supporting DNS-over-HTTPS, DNS-over-TLS, DNSCrypt and DNS Proxy along with caching DNS responses, locally logging DNS queries and can be used as a firewall too.'
+  description='An open-source Android client supporting DNS-over-HTTPS, DNS-over-TLS, DNSCrypt and DNS Proxy along with caching DNS responses, locally logging DNS queries and can be used as a firewall too. <mark>This is recommended only to those using Android older than version 9 (Pie) and are requested to migrate to a more up to date device ASAP.</mark>'
   website="https://rethinkdns.com/"
   privacy-policy="https://rethinkdns.com/privacy"
   fdroid="https://f-droid.org/packages/com.celzero.bravedns/"
@@ -84,21 +59,7 @@ description: "The Domain Name System (DNS) is the phonebook of the Internet. DNS
   source="https://github.com/celzero/rethink-app"
 %}
 
-
-## Encrypted DNS Clients for iOS
-
-{%
-  include legacy/cardv2.html
-  title="DNSCloak"
-  image="/assets/img/legacy_png/3rd-party/dnscloak.png"
-  description='An open-source iOS client supporting DNS-over-HTTPS, DNSCrypt, and <a href="https://github.com/DNSCrypt/dnscrypt-proxy/wiki">dnscrypt-proxy</a> options such as caching DNS responses, locally logging DNS queries, and custom block lists. Users can <a href="https://medium.com/privacyguides/adding-custom-dns-over-https-resolvers-to-dnscloak-20ff5845f4b5">add custom resolvers by DNS stamp</a>.'
-  website="https://github.com/s-s/dnscloak/blob/master/README.md"
-  privacy-policy="https://drive.google.com/file/d/1050No_pU74CAWUS5-BwQWyO2x_aiMzWc/view"
-  ios="https://apps.apple.com/app/id1452162351"
-  github="https://github.com/s-s/dnscloak"
-%}
-
-## Native Operating System Support
+## Encrypted DNS on Apple devices
 
 <p>
   In iOS, iPadOS, tvOS 14 and macOS 11, DoT and DoH were introduced. DoT and DoH are supported natively by installation of profiles (through mobileconfig files opened in <em>Safari</em>).
