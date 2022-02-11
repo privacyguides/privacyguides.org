@@ -8,11 +8,17 @@ description: "The Domain Name System (DNS) is the phonebook of the Internet. DNS
 
 <p>
   HTTPS already provides security from anyone modifying Normal cleartext DNS by requiring the websites to have a valid TLS certificate, although anyone can still see which domains you visited. But that is the case with Encrypted DNS too. As an adversary can use <a href="https://madaidans-insecurities.github.io/encrypted-dns.html#sni">SNI</a>,<a href="https://madaidans-insecurities.github.io/encrypted-dns.html#ocsp">OCSP</a> or <a href="https://madaidans-insecurities.github.io/encrypted-dns.html#ip-addresses">IP Addresses</a> of websites to know that anyway.
+</p>
 
+<p>
   Which is to say, Encrypted DNS alone doesn't provide any real privacy or security benefits. 
+</p>
 
+<p>
   But in case you decide to use Encrypted DNS over Normal DNS. We recommend the natively supported methods over third party apps.
+</p>
 
+<p>
   Use the flowchart to find out if you need to use Encrypted DNS Resolvers or change your current DNS provider. 
 </p>
 
@@ -23,7 +29,9 @@ description: "The Domain Name System (DNS) is the phonebook of the Internet. DNS
 ## Encrypted DNS Resolvers
 <p>
   If you need to use Encrypted DNS Resolvers or change your current DNS provider then listed below are some privacy-centric alternatives to the traditional DNS providers. 
-  
+</p>
+
+<p>
   All recommended public DNS service providers offer <strong><mark>DNS over HTTPS (DoH) and DNS over TLS (DoT), with QNAME minimization and DNSSEC</mark></strong>. For the terms used in the table refer to the <a href="#definitions">definitions</a> below.
 </p>
 
