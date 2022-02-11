@@ -1,8 +1,6 @@
 title: Cloudflare
 homepage: 'https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/'
 anycast: true
-locations:
-  - US
 privacy_policy:
   link: 'https://www.cloudflare.com/privacypolicy/'
 type:
@@ -20,5 +18,3 @@ protocols:
   - name: DoT
 ecs: false
 filtering: Based on server choice.
-providers:
-  - name: Self

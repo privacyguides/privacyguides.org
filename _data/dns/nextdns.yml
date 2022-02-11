@@ -1,8 +1,6 @@
 title: NextDNS
 homepage: 'https://www.nextdns.io/'
 anycast: true
-locations:
-  - US
 privacy_policy:
   link: 'https://www.nextdns.io/privacy'
 type:
@@ -20,10 +18,3 @@ protocols:
   - name: DNSCrypt
 ecs: true
 filtering: Based on server choice
-providers:
-  - name: Self
-  - name: Misaka Network, Inc.
-  - name: ZETTAGRID CLOUD
-  - name: VIRTUA SYSTEMS SAS
-  - name: Other are listed here
-    link: 'https://bgp.he.net/AS34939#_peers'

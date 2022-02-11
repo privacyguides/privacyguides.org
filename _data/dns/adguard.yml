@@ -2,8 +2,6 @@ title: AdGuard
 homepage: 'https://adguard.com/en/adguard-dns/overview.html'
 source: 'https://github.com/AdguardTeam/AdGuardDNS/'
 anycast: true
-locations:
-  - CY
 privacy_policy:
   link: 'https://adguard.com/en/privacy/dns.html'
 type:
@@ -22,8 +20,3 @@ protocols:
   - name: DNSCrypt
 ecs: false
 filtering: Based on server choice
-providers:
-  - name: Choopa, LLC
-    link: 'https://www.choopa.com'
-  - name: Serveroid, LLC
-    link: 'https://flops.ru/en/about.html'
