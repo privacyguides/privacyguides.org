@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "DNS Resolvers"
-description: "The Domain Name System (DNS) is the phonebook of the Internet. DNS translates domain names to IP addresses so browsers can load Internet resources."
+description: "The Domain Name System (DNS) is the phonebook of the Internet. DNS translates domain names to IP addresses so browsers and other services can load Internet resources."
 ---
 
 ## When to use encrypted DNS?
@@ -11,7 +11,7 @@ description: "The Domain Name System (DNS) is the phonebook of the Internet. DNS
 </p>
 
 <p>
-  Which is to say, <mark>Encrypted DNS alone doesn't provide any real privacy or security benefits and VPN and TOR are more suitable for censorship evasion.</mark> 
+  Which is to say, <strong><mark>Encrypted DNS alone doesn't provide any real privacy or security benefits and VPN and TOR are more suitable for censorship evasion.</mark></strong>
 </p>
 
 <p>
