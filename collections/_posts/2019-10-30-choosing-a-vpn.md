@@ -78,7 +78,7 @@ Frequent transparency reports are a huge plus too. They should publish informati
 
 If you're currently using a commercial VPN, use this information to evaluate their business. Do they seem trustworthy?
 
-At Privacy Guides we've [evaluated]({% link legacy_pages/providers/vpn.html %}) a huge number of VPN providers along similar criteria to these. In our opinion, as of October 2019, Mullvad leads the pack with respect to all these criteria, with IVPN and ProtonVPN falling just slightly behind but catching up quickly. There are still a huge number of providers out there, however. The way to find the best solution for you, is by researching providers with _your_ criteria in mind.
+At Privacy Guides we've [evaluated]({% link legacy_pages/providers/vpn.md %}) a huge number of VPN providers along similar criteria to these. In our opinion, as of October 2019, Mullvad leads the pack with respect to all these criteria, with IVPN and ProtonVPN falling just slightly behind but catching up quickly. There are still a huge number of providers out there, however. The way to find the best solution for you, is by researching providers with _your_ criteria in mind.
 
 Join the discussion on our forum below, and chat with our community about any questions you have or any interesting things you discover.
 
