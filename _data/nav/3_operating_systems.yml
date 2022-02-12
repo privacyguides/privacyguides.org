@@ -4,4 +4,4 @@ items:
   - type: link
     title: Android
     icon: fab fa-android
-    file: _evergreen/android.html
+    file: _evergreen/android.md

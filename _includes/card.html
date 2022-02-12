@@ -1,0 +1,5 @@
+<div class="card my-5">
+    <div class="card-body">
+        {{ include.content | default: markdown_text | markdownify }}
+    </div>
+</div>

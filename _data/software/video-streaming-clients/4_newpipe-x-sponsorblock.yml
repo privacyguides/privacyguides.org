@@ -2,11 +2,11 @@ title: NewPipe x SponsorBlock
 type: Recommendation
 logo: /assets/img/video-streaming/newpipe.svg
 description: |
-  <strong>NewPipe x SponsorBlock</strong> is a fork of <a href="https://newpipe.net">NewPipe</a> with <a href="https://sponsor.ajay.app">SponsorBlock</a> integrated to help you skip sponsored advertisements.
+  **NewPipe x SponsorBlock** is a fork of [NewPipe](https://newpipe.net) with [SponsorBlock](https://sponsor.ajay.app) integrated to help you skip sponsored advertisements.
   It also has some experimental settings such as the ability to use the built-in player for local playback, an option to force fullscreen on landscape mode, and an option to disable error reporting prompts.
 
-  <h4>Notes</h4>
-  This fork is not endorsed by or affiliated with the upstream project. The NewPipe team has <a href="https://github.com/TeamNewPipe/NewPipe/pull/3205">rejected</a> integration with SponsorBlock and thus this fork is created to provide this functionality.
+  #### Notes
+  This fork is not endorsed by or affiliated with the upstream project. The NewPipe team has [rejected](https://github.com/TeamNewPipe/NewPipe/pull/3205) integration with SponsorBlock and thus this fork is created to provide this functionality.
 downloads:
   - icon: fab fa-android
     url: 'https://apt.izzysoft.de/fdroid/index/apk/org.polymorphicshade.newpipe'

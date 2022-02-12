@@ -2,7 +2,7 @@ title: Nextcloud
 type: Recommendation
 logo: /assets/img/cloud/nextcloud.svg
 description: |
-  <strong>Nextcloud</strong> is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control. It also comes with experimental end-to-end encryption (E2EE).
+  **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control. It also comes with experimental end-to-end encryption (E2EE).
 
   We recommend checking if your Nextcloud provider supports E2EE, otherwise you have to trust the provider to not look at your files.
 

@@ -3,15 +3,15 @@ type: Recommendation
 logo: /assets/img/android/grapheneos.svg
 logo_dark: /assets/img/android/grapheneos-dark.svg
 description: |
-  <strong>GrapheneOS</strong> is the best choice when it comes to privacy and security.
+  **GrapheneOS** is the best choice when it comes to privacy and security.
 
-  GrapheneOS has a lot of security hardening and privacy improvements. It has a <a href="https://github.com/GrapheneOS/hardened_malloc">hardened memory allocator</a>, network and sensor permissions, and various other <a href="https://grapheneos.org/features">security features</a>. GrapheneOS also comes with full firmware updates and signed builds, so <a href="https://source.android.com/security/verifiedboot">verified boot</a> is fully supported.
+  GrapheneOS has a lot of security hardening and privacy improvements. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so [verified boot](https://source.android.com/security/verifiedboot) is fully supported.
 
-  Notably, GrapheneOS supports <a href="https://grapheneos.org/usage#sandboxed-play-services">Sandboxed Play Services</a>. Google Play Services can be run fully sandboxed like a regular user app and contained in a work profile or user <a href="/android/#android-security-privacy">profile</a> of your choice. This means that you can run apps dependant on Play Services, such as those that require push notifications using Google's <a href="https://firebase.google.com/docs/cloud-messaging/">Firebase Cloud Messaging</a> service. GrapheneOS allows you to take advantage of most <a href="https://en.wikipedia.org/wiki/Google_Play_Services">Google Play Services</a> whilst having full user control over their permissions and access.
+  Notably, GrapheneOS supports [Sandboxed Play Services](https://grapheneos.org/usage#sandboxed-play-services). Google Play Services can be run fully sandboxed like a regular user app and contained in a work profile or user [profile](/android/#android-security-privacy) of your choice. This means that you can run apps dependant on Play Services, such as those that require push notifications using Google's [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/) service. GrapheneOS allows you to take advantage of most [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) whilst having full user control over their permissions and access.
 
-  Currently, only <a href="https://grapheneos.org/faq#device-support">Pixel phones</a> meet its hardware security requirement and are supported.
+  Currently, only [Pixel phones](https://grapheneos.org/faq#device-support) meet its hardware security requirement and are supported.
 
-  <h4>Notes</h4>
+  #### Notes
   GrapheneOS's "extended support" devices do not have full security patches (firmware updates) due to the original equipment manufacturer (OEM) discontinuing support. These devices cannot be considered completely secure.
 website: 'https://grapheneos.org/'
 privacy_policy: 'https://grapheneos.org/faq#privacy-policy'

@@ -2,12 +2,12 @@ title: Mojeek
 type: Recommendation
 logo: /assets/img/search-engines/mojeek.svg
 description: |
-  <strong>Mojeek</strong> is another privacy friendly search engine. They use their own crawler to provide search data.
+  **Mojeek** is another privacy friendly search engine. They use their own crawler to provide search data.
 
-  <h4>Notes</h4>
+  #### Notes
   The company is based in the <span class="flag-icon flag-icon-gb"></span> UK.
 
-  According to their <a href="https://www.mojeek.com/about/privacy/">Privacy Policy</a>, they log the originating country, time, page requested, and referral data of each query. IP addresses are not logged.
+  According to their [Privacy Policy](https://www.mojeek.com/about/privacy/), they log the originating country, time, page requested, and referral data of each query. IP addresses are not logged.
 
 website: 'https://www.mojeek.com'
 privacy_policy: 'https://www.mojeek.com/about/privacy'

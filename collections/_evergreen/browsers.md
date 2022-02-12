@@ -1,13 +1,11 @@
 ---
 layout: evergreen
 title: Browser Recommendations
-description: "These are our current web browser recommendations and settings you can use to preserve your privacy. We recommend keeping extensions to a minimum: they have privileged access within your browser, require you to trust the developer, can make you <a href='https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint'>stand out</a>, and <a href='https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ'>weaken</a> site isolation."
+description: |
+  These are our current web browser recommendations and settings you can use to preserve your privacy. We recommend keeping extensions to a minimum: they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
 ---
 
-<h2 id="general-recommendations" class="anchor">
-  <a href="#general-recommendations"><i class="fas fa-link anchor-icon"></i></a>
-General Recommendations
-</h2>
+## General Recommendations
 
 {% for item_hash in site.data.software.browsers %}
 {% assign item = item_hash[1] %}
@@ -18,10 +16,7 @@ General Recommendations
 
 {% endfor %}
 
-<h2 id="desktop-only-recommendations" class="anchor">
-  <a href="#desktop-only-recommendations"><i class="fas fa-link anchor-icon"></i></a>
-Desktop Only Recommendations
-</h2>
+## Desktop Browser Recommendations
 
 {% for item_hash in site.data.software.browsers-desktop %}
 {% assign item = item_hash[1] %}
@@ -32,10 +27,7 @@ Desktop Only Recommendations
 
 {% endfor %}
 
-<h2 id="mobile-only-recommendations" class="anchor">
-  <a href="#mobile-only-recommendations"><i class="fas fa-link anchor-icon"></i></a>
-Mobile Only Recommendations
-</h2>
+## Mobile Browser Recommendations
 
 <p>On Android, Mozilla's engine <a href="https://mozilla.github.io/geckoview/">GeckoView</a> has yet to support <a href="https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture">site isolation</a> or enable <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1565196">isolatedProcess</a>. Firefox Android also doesn't yet have <a href="https://github.com/mozilla-mobile/fenix/issues/16952#issuecomment-907960218">HTTPS-Only mode</a> built-in. These features are supported in Bromite as it uses <a href="https://developer.android.com/reference/android/webkit/WebView">Chromium WebView</a> which is included in all Android operating systems. We do not recommend Firefox or any Gecko based browsers at this time.</p>
 
@@ -50,10 +42,7 @@ Mobile Only Recommendations
 
 {% endfor %}
 
-<h2 id="additional-resources" class="anchor">
-  <a href="#additional-resources"><i class="fas fa-link anchor-icon"></i></a>
-Additional Resources
-</h2>
+## Additional Resources
 
 {% for item_hash in site.data.software.browsers-resources %}
 {% assign item = item_hash[1] %}

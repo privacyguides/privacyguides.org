@@ -35,8 +35,10 @@ layout: default
   </div>
 </div>
 <div class="container my-5">
-  <div class="w-75 mx-auto">
-  {{ content }}
+  <div class="row justify-content-md-center">
+    <div class="col-lg-7">
+     {{ content }}
+    </div>
   </div>
   {% if page.canonical or page.cover_src_publisher %}<hr class="m-5" />
   {% if page.cover_src_publisher %}<p><em>Cover photo: <a href="{{ page.cover_src }}">{{ page.cover_src_publisher }}</a>. Used with permission.</em></p>{% endif %}

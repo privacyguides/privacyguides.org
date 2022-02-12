@@ -5,19 +5,19 @@ labels: 'color==info::icon==fas fa-fw fa-wifi::text==Federated::tooltip==Your co
          color==info::icon==fas fa-fw fa-wifi::text==P2P::tooltip==One-on-one voice and video calls are peer-to-peer (option can be disabled). |
          color==info::icon==fas fa-fw fa-phone::text==VoIP::tooltip==Voice or video calls are supported.'
 description: |
-  <strong>Element</strong> is the reference client for the <a href="https://matrix.org/docs/guides/introduction">Matrix</a> protocol, an <a href="https://matrix.org/docs/spec">open standard</a> for secure decentralized real-time communication.
+  **Element** is the reference client for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
 
   Messages and files shared in private rooms (those which require an invite) are by default E2EE as are 1 to 1 voice and video calls.
 
-  <h4>Notes</h4>
+  #### Notes
   Profile pictures, reactions, and nicknames are not encrypted.
 
-  Group voice and video calls are <a href="https://github.com/vector-im/element-web/issues/12878">not</a> E2EE, and use Jitsi, but this is expected to change with <a href="https://github.com/matrix-org/matrix-doc/pull/3401">Native Group VoIP Signalling</a>. Group calls have <a href="https://github.com/vector-im/element-web/issues/13074">no authentication</a> currently, meaning that non room participants can also join the calls. We recommend that you do not use this feature for private meetings.
+  Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE, and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Group calls have [no authentication](https://github.com/vector-im/element-web/issues/13074) currently, meaning that non room participants can also join the calls. We recommend that you do not use this feature for private meetings.
 
-  When using <a href="https://github.com/vector-im/element-web">element-web</a>, you must trust the server hosting the Element client. If your <a href="/threat-modeling">threat model</a> requires stronger protection then use a desktop or mobile client instead.
+  When using [element-web](https://github.com/vector-im/element-web), you must trust the server hosting the Element client. If your [threat model](/threat-modeling) requires stronger protection then use a desktop or mobile client instead.
 
-  <h4>Technical information</h4>
-  The protocol was independently <a href="https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last">audited</a> in 2016. The specification for the Matrix protocol can be found in their <a href="https://spec.matrix.org/latest/">documentation</a>. The <a href="https://matrix.org/docs/projects/other/olm">Olm</a> cryptographic ratchet used by Matrix is an implementation of Signal's <a href="https://signal.org/docs/specifications/doubleratchet/">Double Ratchet algorithm</a>.
+  #### Technical information
+  The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) in 2016. The specification for the Matrix protocol can be found in their [documentation](https://spec.matrix.org/latest/). The [Olm](https://matrix.org/docs/projects/other/olm) cryptographic ratchet used by Matrix is an implementation of Signal's [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
 
 website: 'https://element.io'
 privacy_policy: 'https://element.io/privacy'

@@ -4,7 +4,7 @@ items:
   - type: link
     title: Cloud Storage
     icon: fad fa-cloud
-    file: _evergreen/cloud.html
+    file: _pages/providers/cloud.md
   - type: link
     title: DNS Servers
     icon: fad fa-map-signs
@@ -16,7 +16,7 @@ items:
   - type: link
     title: Search Engines
     icon: fad fa-search-location
-    file: _evergreen/search-engines.html
+    file: _pages/providers/search-engines.md
   - type: link
     title: Social Networks
     icon: fad fa-thumbs-up

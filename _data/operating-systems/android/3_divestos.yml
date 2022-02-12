@@ -2,22 +2,22 @@ title: DivestOS
 type: Recommendation
 logo: /assets/img/android/divestos.svg
 description: |
-  <strong>DivestOS</strong> is a <a href="https://en.wikipedia.org/wiki/Fork_(software_development)#Forking_of_free_and_open-source_software">soft-fork</a> of <a href="https://lineageos.org/">LineageOS</a>.
+  **DivestOS** is a [soft-fork](https://en.wikipedia.org/wiki/Fork_(software_development)#Forking_of_free_and_open-source_software) of [LineageOS](https://lineageos.org/).
 
-  DivestOS inherits many <a href="https://divestos.org/index.php?page=devices&base=LineageOS">supported devices</a> from LineageOS. It has signed builds, making it possible to have <a href="https://source.android.com/security/verifiedboot">verified boot</a> on some non-Pixel devices.
+  DivestOS inherits many [supported devices](https://divestos.org/index.php?page=devices&base=LineageOS) from LineageOS. It has signed builds, making it possible to have [verified boot](https://source.android.com/security/verifiedboot) on some non-Pixel devices.
 
-  DivestOS has automated kernel vulnerability (<a href="https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures">CVE</a>) <a href="https://gitlab.com/divested-mobile/cve_checker">patching</a>, fewer proprietary blobs, a custom <a href="https://divested.dev/index.php?page=dnsbl">hosts</a> file, along with bundled <a href="https://www.f-droid.org">F-Droid</a> as the app store. It also includes <a href="https://github.com/microg/UnifiedNlp">UnifedNlp</a> for network location and some hardening with <a href="https://gitlab.com/divested-mobile/mulch">Mulch Webview</a>. DivestOS also includes kernel patches from GrapheneOS and enables security features in <a href="https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L698">defconfig</a>.
+  DivestOS has automated kernel vulnerability ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), fewer proprietary blobs, a custom [hosts](https://divested.dev/index.php?page=dnsbl) file, along with bundled [F-Droid](https://www.f-droid.org) as the app store. It also includes [UnifedNlp](https://github.com/microg/UnifiedNlp) for network location and some hardening with [Mulch Webview](https://gitlab.com/divested-mobile/mulch). DivestOS also includes kernel patches from GrapheneOS and enables security features in [defconfig](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L698).
 
-  DivestOS also inherits LineageOS's <a href="https://reddit.com/comments/c4a6f7">iptables</a> network access feature. You can deny network access to an individual application by pressing and holding on the app's icon (App info → Data and Network → Uncheck "Network Access").
+  DivestOS also inherits LineageOS's [iptables](https://reddit.com/comments/c4a6f7) network access feature. You can deny network access to an individual application by pressing and holding on the app's icon (App info → Data and Network → Uncheck "Network Access").
 
-  DivestOS 16.0 and 17.1 has GrapheneOS's <a href="https://github.com/GrapheneOS/hardened_malloc">hardened memory allocator</a>. There are plans to port this to DivestOS 18.1.
+  DivestOS 16.0 and 17.1 has GrapheneOS's [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc). There are plans to port this to DivestOS 18.1.
 
-  <h4>Notes</h4>
-  DivestOS firmware update <a href="https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS">status</a> varies across the devices it supports. For Pixel phones, we still recommend using GrapheneOS or CalyxOS. For other supported devices, DivestOS is a good alternative.
+  #### Notes
+  DivestOS firmware update [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) varies across the devices it supports. For Pixel phones, we still recommend using GrapheneOS or CalyxOS. For other supported devices, DivestOS is a good alternative.
 
-  Like CalyxOS's firewall, the network access toggle can also leak in <a href="https://gitlab.com/LineageOS/issues/android/-/issues/3228">some</a> situations.
+  Like CalyxOS's firewall, the network access toggle can also leak in [some](https://gitlab.com/LineageOS/issues/android/-/issues/3228) situations.
 
-  Not all of the supported devices have <a href="https://source.android.com/security/verifiedboot">verified boot</a> and some perform it better than others.
+  Not all of the supported devices have [verified boot](https://source.android.com/security/verifiedboot) and some perform it better than others.
 
 website: 'https://divestos.org'
 website_tor: 'http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion'

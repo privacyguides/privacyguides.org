@@ -3,10 +3,10 @@ type: Recommendation
 info: Provides Anonymity
 logo: /assets/img/browsers/tor.svg
 description: |
-  <strong>Tor Browser</strong> is the choice if you need anonymity. This browser provides you with access to the Tor Bridges and Tor Network, along with extensions that can be automatically configured to fit its three security levels - <em>Standard</em>, <em>Safer</em> and <em>Safest</em>. We recommend that you do not change any of Tor Browser's default configurations outside of the standard security levels.
+  **Tor Browser** is the choice if you need anonymity. This browser provides you with access to the Tor Bridges and Tor Network, along with extensions that can be automatically configured to fit its three security levels - *Standard*, *Safer* and *Safest*. We recommend that you do not change any of Tor Browser's default configurations outside of the standard security levels.
 
-  <h4>Extensions</h4>
-  You should <strong>never</strong> install any additional extensions on Tor Browser, including the ones we suggest for Firefox. Browser extensions make you stand out from other Tor users and your browser easier to <a href="https://support.torproject.org/glossary/browser-fingerprinting">fingerprint</a>.
+  #### Extensions
+  You should **never** install any additional extensions on Tor Browser, including the ones we suggest for Firefox. Browser extensions make you stand out from other Tor users and your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
 website: 'https://www.torproject.org/'
 website_tor: 'http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion/'

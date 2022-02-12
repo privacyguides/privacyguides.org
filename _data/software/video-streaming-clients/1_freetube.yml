@@ -2,12 +2,12 @@ title: FreeTube
 type: Recommendation
 logo: /assets/img/video-streaming/freetube.svg
 description: |
-  <strong>FreeTube</strong> is a free and open source desktop application for <a href="https://youtube.com">YouTube</a>. When using FreeTube, your subscription list and playlists are saved locally on your device.
+  **FreeTube** is a free and open source desktop application for [YouTube](https://youtube.com). When using FreeTube, your subscription list and playlists are saved locally on your device.
 
-  FreeTube also features <a href="https://sponsor.ajay.app">SponsorBlock</a> to help you skip sponsored advertisements. All YouTube advertisements are also blocked by default.
+  FreeTube also features [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored advertisements. All YouTube advertisements are also blocked by default.
 
-  <h4>Notes</h4>
-  When using Freetube, your IP address is still known to YouTube, <a href="https://instances.invidious.io">Invidious</a> and the SponsorBlock instances that you use. Consider using a <a href='/providers/vpn'>VPN</a> or <a href="https://www.torproject.org">Tor</a> if your <a href="/threat-modeling">threat model</a> requires hiding your IP address.
+  #### Notes
+  When using Freetube, your IP address is still known to YouTube, [Invidious](https://instances.invidious.io) and the SponsorBlock instances that you use. Consider using a [VPN](/providers/vpn) or [Tor](https://www.torproject.org) if your [threat model](/threat-modeling) requires hiding your IP address.
 
 website: 'https://freetubeapp.io'
 privacy_policy: 'https://freetubeapp.io/privacy.php'

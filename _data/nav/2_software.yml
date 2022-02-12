@@ -4,7 +4,7 @@ items:
   - type: link
     title: Browsers
     icon: fad fa-browser
-    file: _evergreen/browsers.html
+    file: _evergreen/browsers.md
   - type: link
     title: Operating Systems (Legacy)
     icon: fad fa-compact-disc
@@ -47,7 +47,7 @@ items:
   - type: link
     title: Real-Time Communication
     icon: fad fa-comments-alt
-    file: _evergreen/real-time-communication.html
+    file: _pages/software/real-time-communication.md
   - type: link
     title: Self-Contained Networks
     icon: fad fa-chart-network
@@ -55,4 +55,4 @@ items:
   - type: link
     title: Video Streaming
     icon: fad fa-video
-    file: _evergreen/video-streaming.html
+    file: _pages/software/video-streaming.md

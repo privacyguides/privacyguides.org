@@ -2,31 +2,32 @@ title: Firefox Desktop
 type: Recommendation
 logo: /assets/img/browsers/firefox.svg
 description: |
-  <strong>Firefox</strong> has some really strong privacy settings such as <a href="https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop">Enhanced Tracking Protection</a> which can help block various <a href="https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks">types of tracking</a>.
+  **Firefox** has some really strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
-  These options can be found in the <em>Privacy & Security</em> settings page ( ≡ → Settings → Privacy & Security).
-  <h5><strong>Enhanced Tracking Protection (ETP)</strong>.</h5>
+  These options can be found in the *Privacy & Security* settings page ( ≡ → Settings → Privacy & Security).
+
+  ##### **Enhanced Tracking Protection (ETP)**
   <ul style="list-style-type:none;padding-left:0;">
     <li>Select: <strong>Strict</strong></li>
   </ul>
 
-  <h5><strong>HTTPS-Only Mode</strong></h5>
+  ##### **HTTPS-Only Mode**
   <ul style="list-style-type:none;padding-left:0;">
     <li>Select: <strong>Enable HTTPS-Only Mode in all windows</strong>.</li>
   </ul>
 
-  <h5><strong>Sanitizing on close</strong></h5>
+  ##### **Sanitizing on close**
   <ul style="list-style-type:none;padding-left:0;">
     <li>Select: <strong>Delete cookies and site data when Firefox is closed</strong></li>
   </ul>
   You can still stay logged into websites by allowing exceptions.
 
-  <h4>Extensions</h4>
-  We normally do not recommend installing any extensions, as they have privileged access within your browser. We make an exception for <a href="/browsers/#additional-resources">uBlock Origin</a>,
-  a popular content blocker and 🏆️ <a href="https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions">Recommended Extension</a> by Mozilla.
+  #### Extensions
+  We normally do not recommend installing any extensions, as they have privileged access within your browser. We make an exception for [uBlock Origin](/browsers/#additional-resources),
+  a popular content blocker and 🏆️ [Recommended Extension](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) by Mozilla.
 
-  <h4>Arkenfox (advanced)</h4>
-  The <a href="https://github.com/arkenfox/user.js">Arkenfox project</a> provides a set of carefully considered options for Firefox. These options are quite strict but a few are subjective and can sometimes cause a website to not work properly. You can easily change these settings to suit your needs. We <strong>strongly recommend</strong> reading through the <a href="https://github.com/arkenfox/user.js/wiki">basics</a> section. Arkenfox also enables <a href="https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users">container</a> support.
+  #### Arkenfox (advanced)
+  The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. These options are quite strict but a few are subjective and can sometimes cause a website to not work properly. You can easily change these settings to suit your needs. We **strongly recommend** reading through the [basics](https://github.com/arkenfox/user.js/wiki) section. Arkenfox also enables [container](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users) support.
 
 website: 'https://firefox.com'
 privacy_policy: 'https://www.mozilla.org/privacy/firefox'

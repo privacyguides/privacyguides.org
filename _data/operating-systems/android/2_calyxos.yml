@@ -2,20 +2,20 @@ title: CalyxOS
 type: Recommendation
 logo: /assets/img/android/calyxos.svg
 description: |
-  <strong>CalyxOS</strong> is a decent alternative to GrapheneOS.
+  **CalyxOS** is a decent alternative to GrapheneOS.
 
-  It has some privacy features on top of AOSP, such as the <a href="https://calyxos.org/docs/tech/datura-details"> Datura firewall</a>, <a href="https://signal.org">Signal</a> integration in the dialer app, and a built in panic button. CalyxOS also comes with firmware updates and signed builds, so <a href="https://source.android.com/security/verifiedboot">verified boot</a> is fully supported.
+  It has some privacy features on top of AOSP, such as the [Datura firewall](https://calyxos.org/docs/tech/datura-details), [Signal](https://signal.org) integration in the dialer app, and a built in panic button. CalyxOS also comes with firmware updates and signed builds, so [verified boot](https://source.android.com/security/verifiedboot) is fully supported.
 
-  To accomodate users who need Google Play Services, CalyxOS optionally includes <a href="https://microg.org/">MicroG</a>. With MicroG, CalyxOS also bundles in the <a href="https://location.services.mozilla.com/">Mozilla</a> and <a href="https://github.com/n76/DejaVu">DejaVu</a> location services.
+  To accomodate users who need Google Play Services, CalyxOS optionally includes [MicroG](https://microg.org/). With MicroG, CalyxOS also bundles in the [Mozilla](https://location.services.mozilla.com/) and [DejaVu](https://github.com/n76/DejaVu) location services.
 
-  Currently, CalyxOS <a href="https://calyxos.org/docs/guide/device-support/">supports</a> Google Pixel phones and the Xiaomi Mi A2. For legacy devices, CalyxOS offers "extended support" for much longer than GrapheneOS, making it a good choice once GrapheneOS has dropped support.
+  Currently, CalyxOS [supports](https://calyxos.org/docs/guide/device-support/) Google Pixel phones and the Xiaomi Mi A2. For legacy devices, CalyxOS offers "extended support" for much longer than GrapheneOS, making it a good choice once GrapheneOS has dropped support.
 
-  <h4>Notes</h4>
+  #### Notes
   CalyxOS's "extended support" does not have full security patches due to the original equipment manufacturer (OEM) discontinuing support, therefore they cannot be considered completely secure.
 
   With the Xiaomi Mi A2, CalyxOS does not distribute the latest firmware. Newer versions of the firmware prevented the device from performing verified boot.
 
-  The Datura firewall can leak in some circumstances (see <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/572">#572</a> and <a href="https://gitlab.com/CalyxOS/calyxos/-/issues/581">#581</a>).
+  The Datura firewall can leak in some circumstances (see [#572](https://gitlab.com/CalyxOS/calyxos/-/issues/572) and [#581](https://gitlab.com/CalyxOS/calyxos/-/issues/581)).
 website: 'https://calyxos.org'
 privacy_policy: 'https://calyxinstitute.org/legal/privacy-policy'
 downloads:

@@ -2,14 +2,14 @@ title: Orbot
 type: Recommendation
 logo: /assets/img/android/orbot.svg
 description: |
-  <strong>Orbot</strong> is a free proxy app that routes your connections through the Tor Network.
+  **Orbot** is a free proxy app that routes your connections through the Tor Network.
 
-  Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using the <a href="https://developer.android.com/reference/android/net/VpnService">VpnService</a> and can be used with the VPN killswitch (⚙️ Settings → Network & internet → VPN → ⚙️ → Block connections without VPN).
+  Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using the [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch (⚙️ Settings → Network & internet → VPN → ⚙️ → Block connections without VPN).
 
-  For resistance against traffic analysis attacks, consider enabling <em>Isolate Destination Address</em> ( ⁝ →Settings → Connectivity). This will use a completely different Tor Circuit (different middle relay and exit nodes) for every domain you connect to.
+  For resistance against traffic analysis attacks, consider enabling *Isolate Destination Address* ( ⁝ →Settings → Connectivity). This will use a completely different Tor Circuit (different middle relay and exit nodes) for every domain you connect to.
 
-  <h4>Notes</h4>
-  Orbot is often outdated on the Guardian Project's <a href="https://guardianproject.info/fdroid">F-Droid repository</a> and <a href="https://play.google.com/store/apps/details?id=org.torproject.android">Google Play</a> so consider downloading directly from the <a href="https://github.com/guardianproject/orbot">GitHub repository</a> instead.
+  #### Notes
+  Orbot is often outdated on the Guardian Project's [F-Droid repository](https://guardianproject.info/fdroid) and [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) so consider downloading directly from the [GitHub repository](https://github.com/guardianproject/orbot) instead.
 
   All versions are signed using the same signature so they should be compatible with each other.
 website: 'https://guardianproject.info/apps/org.torproject.android'

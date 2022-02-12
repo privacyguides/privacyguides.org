@@ -3,10 +3,10 @@ type: Recommendation
 logo: /assets/img/video-streaming/invidious.svg
 logo_dark: /assets/img/video-streaming/invidious-dark.svg
 description: |
-  <strong>Invidious</strong> is a free and open source front end for YouTube that is also self-hostable. There are list of <a href="https://instances.invidious.io">public instances</a>. Some instances have <a href="https://www.torproject.org">Tor</a> onion services support.
+  **Invidious** is a free and open source front end for YouTube that is also self-hostable. There are list of [public instances](https://instances.invidious.io). Some instances have [Tor](https://www.torproject.org) onion services support.
 
-  <h4>Notes</h4>
-  Invidious does not proxy the video stream through its server by default. Videos watched through Invidious will still make direct connections to Google's servers (googlevideo.com), however, some instances support video proxying. This can be enabled by adding <code>&local=true</code> to the URL.
+  #### Notes
+  Invidious does not proxy the video stream through its server by default. Videos watched through Invidious will still make direct connections to Google's servers (googlevideo.com), however, some instances support video proxying. This can be enabled by adding `&local=true` to the URL.
 
   When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Invidious, as other peoples' usage will be linked to your hosting.
 
