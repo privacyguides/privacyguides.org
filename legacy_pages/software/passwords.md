@@ -7,8 +7,6 @@ description: "Stay safe and secure online with an encrypted and open-source pass
 
 {% include legacy/sections/password-managers.html %}
 
-<h3>Related Information</h3>
+### Related Information
 
-<ul>
-  <li><a href="https://redirect.invidious.io/watch?v=yzGzB-yYKcc">Edward Snowden on Passwords: Last Week Tonight with John Oliver (HBO)</a></li>
-</ul>
+* [Edward Snowden on Passwords: Last Week Tonight with John Oliver (HBO)](https://redirect.invidious.io/watch?v=yzGzB-yYKcc)
