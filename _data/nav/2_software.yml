@@ -8,7 +8,7 @@ items:
   - type: link
     title: Operating Systems (Legacy)
     icon: fad fa-compact-disc
-    file: legacy_pages/os.md
+    file: legacy_pages/os.html
   - type: divider
   - type: link
     title: Calendar/Contacts Sync Tools
