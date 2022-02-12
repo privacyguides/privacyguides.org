@@ -28,4 +28,4 @@ items:
   - type: link
     title: VPN Services
     icon: fad fa-network-wired
-    file: legacy_pages/providers/vpn.md
+    file: legacy_pages/providers/vpn.html
