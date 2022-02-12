@@ -5,19 +5,6 @@ title: "VPN Services"
 description: "Find a no-logging VPN operator who isn't out to sell or read your web traffic."
 ---
 
-<div class="card border-danger">
-  <div class="card-header text-danger"><i class="fas fa-exclamation-circle fa-fw"></i> Warning</div>
-  <div class="card-body">
-    <p class="card-text text-danger">Using a VPN will <strong>not</strong> keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.</p>
-    <p class="card-text text-danger">If you are looking for <strong>anonymity</strong>, you should use the Tor Browser <strong>instead</strong> of a VPN.</p>
-    <p class="card-text text-danger">If you're looking for added <strong>security</strong>, you should always ensure you're connecting to websites using <a href="https://en.wikipedia.org/wiki/HTTPS">HTTPS</a>. A VPN is not a replacement for good security practices.</p>
-    <p class="card-text text-info">If you're looking for additional <strong>privacy</strong> from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you as long as you understand <a href="#info">the risks involved</a>.</p>
-    <a href="https://www.torproject.org/" class="btn btn-danger">Download Tor</a>
-    <a href="https://medium.com/privacyguides/slicing-onions-part-1-myth-busting-tor-9ec188ae1904" class="btn btn-outline-danger">Tor Myths &amp; FAQ</a>
-    <a href="#info" class="btn btn-outline-info">More Info</a>
-  </div>
-</div>
-
 {% include legacy/sections/vpn.html %}
 
 ## [Our VPN Provider Criteria](#criteria)
