@@ -41,17 +41,18 @@ description: |
 
 ## Threat modeling
 
-##### Common misconception
-There is a common misconception that Linux desktop distributions are among the more secure and private operating systems simply because they are open source. This is far cry from reality. The development model does not determine the security or trustworthiness of a piece of software, as explained in [this blog post](https://blog.blueboxsec.org/post/the-illusion-of-open-source/) by Madaidan (Whonix's security researcher). In fact, the desktop GNU/Linux software stack is architecturally inferior security wise compared to other operating systems such as macOS and ChromeOS as laid out in [this article](https://madaidans-insecurities.github.io/linux.html).
+### Open Source
 
-For our purposes, from this point on in this page, we will use "Linux" to refer to the "desktop GNU/Linux distributions", which do not include other operating systems that uses the Linux kernel such as Android, ChromeOS, or Qubes OS.
+It is often believed that [open source](https://en.wikipedia.org/wiki/Open-source_software) software is inherently secure because there is the expectation that verification occurs regularly. In reality it does depend on a number of factors, such as project activity, developer experience, level of rigour applied to [code reviews](https://en.wikipedia.org/wiki/Code_review) and how often attention is given to specific parts of the [codebase](https://en.wikipedia.org/wiki/Codebase) that may go untouched for years.
+
+That being said we prefer open source software because it does present the possibility of further scrutiny although we really place value in comprehensive [audits](https://en.wikipedia.org/wiki/Information_security_audit#Auditing_application_security), particularly where security sensitive code exists such as products that involve cryptography.
 
 ##### When to use Linux
 Linux is a great choice if your goal is to:
 
   * Avoid telemetry that often comes with proprietary operating systems
   * Maintain software freedom
-  * Achieve anonimity (with distributions like Whonix or Tails)
+  * Achieve anonymity (with distributions like Whonix or Tails)
 
 ##### When to not use Linux
 **Do not** use Linux if your threat model requires you to:
