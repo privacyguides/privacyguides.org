@@ -152,7 +152,7 @@ MicroG is a reimplementation of Google Play Services. This means it needs to be 
 
 Android 12 comes with special support for seamless app updates with [third party app stores](https://android-developers.googleblog.com/2020/09/listening-to-developer-feedback-to.html). The popular Free and Open Source Software (FOSS) repository [F-Droid](https://f-droid.org) doesn't implement this feature and requires a [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged) to be included with the Android distribution in order to have unattended app installation.
 
-GrapheneOS doesn't compromise on security, therefore they do not include the F-Droid extension therefore, users have to confirm all updates manually if they want to use F-Droid. GrapheneOS officially recommends [Sandboxed Play Services](https://grapheneos.org/usage#sandboxed-play-services) instead. Many FOSS Android apps are also in Google Play but sometimes they are not (like [NewPipe](/software/video-streaming/)).
+GrapheneOS doesn't compromise on security, therefore they do not include the F-Droid extension therefore, users have to confirm all updates manually if they want to use F-Droid. GrapheneOS officially recommends [Sandboxed Play Services](https://grapheneos.org/usage#sandboxed-play-services) instead. Many FOSS Android apps are also in Google Play but sometimes they are not (like [NewPipe]({% link _evergreen/video-streaming.md %})).
 
 CalyxOS includes the [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged), which may lower device security. Seamless app updates should be possible with [Aurora Store](https://auroraoss.com) in Android 12.
 
