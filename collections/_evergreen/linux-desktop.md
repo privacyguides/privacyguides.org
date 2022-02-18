@@ -39,26 +39,26 @@ description: |
 
 {% endfor %}
 
-## Threat modeling
+## Open Source
 
-##### Common misconception
-There is a common misconception that Linux desktop distributions are among the more secure and private operating systems simply because they are open source. This is far cry from reality. The development model does not determine the security or trustworthiness of a piece of software, as explained in [this blog post](https://blog.blueboxsec.org/post/the-illusion-of-open-source/) by Madaidan (Whonix's security researcher). In fact, the desktop GNU/Linux software stack is architecturally inferior security wise compared to other operating systems such as macOS and ChromeOS as laid out in [this article](https://madaidans-insecurities.github.io/linux.html).
+It is often believed that [open source](https://en.wikipedia.org/wiki/Open-source_software) software is inherently secure because there is the expectation that verification occurs regularly. In reality it does depend on a number of factors, such as project activity, developer experience, level of rigour applied to [code reviews](https://en.wikipedia.org/wiki/Code_review) and how often attention is given to specific parts of the [codebase](https://en.wikipedia.org/wiki/Codebase) that may go untouched for years. We prefer open source software because it does present the possibility of further scrutiny although we really place value in comprehensive [audits](https://en.wikipedia.org/wiki/Information_security_audit#Auditing_application_security), particularly where security sensitive code exists such as in products that involve cryptography.
 
-For our purposes, from this point on in this page, we will use "Linux" to refer to the "desktop GNU/Linux distributions", which do not include other operating systems that uses the Linux kernel such as Android, ChromeOS, or Qubes OS.
+## Why use Linux?
 
-##### When to use Linux
-Linux is a great choice if your goal is to:
+There are pros and cons to using Linux. Most of the team *does* use it within their daily lives. We do however recognize that there are sometimes shortcomings. Below we describe some of them:
 
-  * Avoid telemetry that often comes with proprietary operating systems
-  * Maintain software freedom
-  * Achieve anonimity (with distributions like Whonix or Tails)
+Pros:
 
-##### When to not use Linux
-**Do not** use Linux if your threat model requires you to:
+ * Avoid telemetry that often comes with proprietary operating systems
+ * Maintain [software freedom](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
+ * Flexibility for purpose built uses such as [Whonix](https://www.whonix.org) or [Tails](https://tails.boum.org/)
+ * Use of [OS-level virtualization](https://en.wikipedia.org/wiki/OS-level_virtualization)
 
-  * Have resistence against persistent tampering by malware
-  * Be able to run not-fully-trusted programs in a meaningful sandbox
-  * Have strong exploit mitigations
+Cons:
+
+ * Doesn't have strong chain of trust in the boot process. Unlike [Windows](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process) (with [TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm)), Apple's [T2 Security Chip](https://support.apple.com/guide/security/startup-security-utility-secc7b34e5b5/web) (with [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1)) or Android's [Verified Boot](https://source.android.com/security/verifiedboot). These features and hardware technologies can all all help prevent persistant tampering by malware.
+ * Doesn't have strong sandboxing such as that found in [Windows](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-sandbox/windows-sandbox-overview), [MacOS](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html), [Android](https://source.android.com/security/app-sandbox). Strengthening sandboxing, in both [Flatpak](https://docs.flatpak.org/en/latest/sandbox-permissions.html) and [Snap](https://snapcraft.io/docs/security-sandboxing) still has a way to go.
+ * Strong [exploit mitigations](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations), enabled by default.
 
 ## Choosing your distribution
 
