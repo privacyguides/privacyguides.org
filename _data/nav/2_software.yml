@@ -45,7 +45,7 @@ items:
   - type: link
     title: Real-Time Communication
     icon: fad fa-comments-alt
-    file: _pages/software/real-time-communication.md
+    file: _evergreen/real-time-communication.md
   - type: link
     title: Self-Contained Networks
     icon: fad fa-chart-network
@@ -53,4 +53,4 @@ items:
   - type: link
     title: Video Streaming
     icon: fad fa-video
-    file: _pages/software/video-streaming.md
+    file: _evergreen/video-streaming.md

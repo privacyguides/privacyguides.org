@@ -175,7 +175,12 @@ However, problems like hard-coded access to some kernel interfaces like `/sys` a
 
 ###### **2. Firejail**
 
-irejail is another common sandboxing technique. It is, however, a giant SUID binary and has a large attack surface. In short, Firejail makes the system safer from processes that are confined by it, but less safe from processes running outside of it. In general, the usage of Firejail is not recommended. More information on this can be found in Madaidan's [article](https://madaidans-insecurities.github.io/linux.html#firejail).
+Firejail is another common sandboxing technique. It is, however, a giant SUID binary and has a large attack surface. In short, Firejail makes the system safer from processes that are confined by it, but less safe from processes running outside of it. In general, the usage of Firejail is not recommended. More information on this can be found in Madaidan's [article](https://madaidans-insecurities.github.io/linux.html#firejail).
+
+##### gVisor
+Most container based solutions are not the ideal approach for app sandboxing, as they typically share the same kernel as the host for performance reasons. Vulnerabilities in the host's kernel could leak to container breakouts and sandbox bypasses. 
+
+If you are using Docker, it is highly recommended that you use the [gVisor](https://gvisor.dev) runtime which implements a pseudo kernel for each application container and limit their direct access to the host's kernel.
 
 ##### Mandatory Access Control
 Mandatory access control systems on Linux Desktop are largely ineffective policies/profiles, however, it is still worth it to keep them enabled.

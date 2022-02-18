@@ -59,4 +59,4 @@ jobs:
         echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
         chmod 700 ~/.ssh/id_rsa
         ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
-        rsync -azP --delete _site/ ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }}:privacyguides.org-deploy
+        rsync -azP --delete _site/ ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }}:${{ secrets.SSH_PATH }}
