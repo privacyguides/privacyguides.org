@@ -151,7 +151,7 @@ If you are using systemd-networkd, Wicked or another network managing solution, 
 
 ##### Other identifiers
 
-Consider following section [10.1(https://madaidans-insecurities.github.io/guides/linux-hardening.html#hostnames), [10.2](https://madaidans-insecurities.github.io/guides/linux-hardening.html#timezones-locales-keymaps), and [10.3](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id) on Madaidan's [hardening guide](https://madaians-insecurities.github.io/guides/linux-hardening.html#identifiers).
+Consider following section [10.1](https://madaidans-insecurities.github.io/guides/linux-hardening.html#hostnames), [10.2](https://madaidans-insecurities.github.io/guides/linux-hardening.html#timezones-locales-keymaps), and [10.3](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id) on Madaidan's [hardening guide](https://madaians-insecurities.github.io/guides/linux-hardening.html#identifiers).
 
 ##### System counting
 
@@ -209,7 +209,7 @@ If you are using Flatpak packages, you can revoke their network socket access us
 If you are using non-classic Snap packages on a system with proper snap confinement support (with both AppArmor and CGroupsv1 present), you can use the Snap Store to revoke network permission as well. This is also not bypassable.
 
 ##### Kernel hardening
-Consider following section [2.2](https://madaidans-insecurities.github.io/guides/linux-hardening.html#sysctl), [2.3](https://madaidans-insecurities.github.io/guides/linux-hardening.html#boot-parameters) and [2.5](https://madaidans-insecurities.github.io/guides/linux-hardening.html#kernel-attack-surface-reduction) on Madaidan's [hardening guide](https://madaians-insecurities.github.io/guides/linux-hardening.html#identifiers) for sysctl and boot parameters hardening and kernel attack surface reduction.
+Consider following section [2.2](https://madaidans-insecurities.github.io/guides/linux-hardening.html#sysctl), [2.3](https://madaidans-insecurities.github.io/guides/linux-hardening.html#boot-parameters) and [2.5](https://madaidans-insecurities.github.io/guides/linux-hardening.html#kernel-attack-surface-reduction) on Madaidan's [hardening guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html#identifiers) for sysctl and boot parameters hardening and kernel attack surface reduction.
 
 Note that setting `kernel.unprivileged_userns_clone=0` will stop Flatpak, Podman, Docker, LXC containers from working. Do not set this flag if you are using those technologies.
 
@@ -250,7 +250,7 @@ Consider following the [Arch Wiki](https://wiki.archlinux.org/title/USBGuard) to
 ##### Secure Boot
 Consider following section [21](https://madaidans-insecurities.github.io/guides/linux-hardening.html#physical-security) on Madaidan's [hardening guide](https://madaians-insecurities.github.io/guides/linux-hardening.html#identifiers).
 
-By default, UEFI secure boot on Linux distributions is rather in effective. Besides the problems mentioned in Madaidan's guide as only the chainloader (shim), the boot loader (GRUB), and the kernel are verified. The initramfs is often left unverified, unencrypted, and open up the window for an [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attack.
+By default, UEFI secure boot on Linux distributions is rather ineffective. Besides the problems mentioned in Madaidan's guide as only the chainloader (shim), the boot loader (GRUB), and the kernel are verified. The initramfs is often left unverified, unencrypted, and open up the window for an [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attack.
 
 This problem could be reduced by either [combinding the kernel, initramfs, and microcode](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot) into a signed EFI stub or by encrypting the `/boot` partition. If you are using openSUSE, your `/boot` partition should be encrypted by default should you enable drive encrytion.
 
