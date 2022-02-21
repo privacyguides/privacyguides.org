@@ -1,0 +1,20 @@
+title: Piped
+type: Recommendation
+logo: /assets/img/video-streaming/piped.svg
+description: |
+  **Piped** is a free and open source front end for YouTube that is also self-hostable.  Piped has 2 public instances at [piped.kavin.rocks](https://piped.kavin.rocks/) and [piped.mint.lgbt](https://piped.mint.lgbt/).
+
+  #### Use case
+  Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension or to access age-restricted content without an account. It does not provide privacy by itself and we don’t recommend logging into any accounts.
+
+  #### Notes
+  When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Piped, as other peoples' usage will be linked to your hosting.
+
+  When you are using an Piped instance, be sure to go read the Privacy Policy of that specific instance. Piped instances can be modified by their owners and therefore may not reflect their associated privacy policy.
+
+website: 'https://piped.kavin.rocks/'
+downloads:
+  - icon: fas fa-globe-americas
+    url: 'https://piped.kavin.rocks'
+  - icon: fab fa-github
+    url: 'https://github.com/TeamPiped/Piped'
