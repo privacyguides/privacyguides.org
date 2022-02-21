@@ -5,7 +5,7 @@ description: |
   The primary threat when using a video streaming platform is that your streaming habits and subscription lists could be used to profile you. You should combine these tools with a [VPN](/providers/vpn/) or [Tor](https://www.torproject.org/) to make it harder to profile your usage.
 ---
 
-## Client
+## Clients
 
 {% for item_hash in site.data.software.video-streaming-clients %}
 {% assign item = item_hash[1] %}

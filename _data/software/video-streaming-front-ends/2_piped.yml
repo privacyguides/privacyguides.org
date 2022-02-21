@@ -1,0 +1,15 @@
+title: Piped
+type: Recommendation
+logo: /assets/img/video-streaming/piped.svg
+description: |
+  **Piped** is a free and open source front end for YouTube that is also self-hostable.
+
+  #### Use case
+  Piped is useful if you want to use SponsorBlock without installing an extension and access age-restricted content without an account. It does not provide privacy by itself and we don’t recommend logging into any accounts.
+
+  #### Notes
+  
+
+downloads:
+  - icon: fab fa-github
+    url: 'https://github.com/TeamPiped/Piped'
