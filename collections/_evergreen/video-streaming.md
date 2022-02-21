@@ -18,7 +18,7 @@ description: |
 
 ## Web-based Frontends
 
-The recommended frontend below is useful if you want to disable JavaScript in your browser. It does not provide privacy by itself and we don't recommend logging into any accounts.
+
 
 {% for item_hash in site.data.software.video-streaming-front-ends %}
 {% assign item = item_hash[1] %}
