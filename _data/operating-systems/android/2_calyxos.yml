@@ -4,7 +4,7 @@ logo: /assets/img/android/calyxos.svg
 description: |
   **CalyxOS** is a decent alternative to GrapheneOS.
 
-  It has some privacy features on top of AOSP, such as the [Datura firewall](https://calyxos.org/docs/tech/datura-details), [Signal](https://signal.org) integration in the dialer app, and a built in panic button. CalyxOS also comes with firmware updates and signed builds, so [verified boot](https://source.android.com/security/verifiedboot) is fully supported.
+  It has some privacy features on top of AOSP, including [Datura firewall](https://calyxos.org/docs/tech/datura-details), [Signal](https://signal.org) integration in the dialer app, and a built in panic button. CalyxOS also comes with firmware updates and signed builds, so [verified boot](https://source.android.com/security/verifiedboot) is fully supported.
 
   To accomodate users who need Google Play Services, CalyxOS optionally includes [MicroG](https://microg.org/). With MicroG, CalyxOS also bundles in the [Mozilla](https://location.services.mozilla.com/) and [DejaVu](https://github.com/n76/DejaVu) location services.
 

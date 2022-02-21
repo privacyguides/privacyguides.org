@@ -17,7 +17,7 @@ description: |
 
   Like CalyxOS's firewall, the network access toggle can also leak in [some](https://gitlab.com/LineageOS/issues/android/-/issues/3228) situations.
 
-  Not all of the supported devices have [verified boot](https://source.android.com/security/verifiedboot) and some perform it better than others.
+  Not all of the supported devices have [verified boot](https://source.android.com/security/verifiedboot), and some perform it better than others.
 
 website: 'https://divestos.org'
 website_tor: 'http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion'
