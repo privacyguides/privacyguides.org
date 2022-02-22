@@ -1,6 +1,6 @@
 <div class="card">
   <div class="card-header bg-transparent">
-    <h3 id="{{ item.title | slugify: "latin" }}" class="h5">
+    <h3 id="{{ item.title | slugify: "latin" }}" class="h5"><a href="encrypted-dns-clients-for-desktop"><i class="fas fa-link anchor-icon"></i></a>
       {% if include.badges %}
       <span class="me-2">{{ include.title }}</span>
       {% assign badges = include.badges | split:"|" %}
