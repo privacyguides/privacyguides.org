@@ -1,4 +1,9 @@
 ---
 layout: page
 ---
-{{ content }}
+{% capture anchor_body %}
+    <span class="sr-only">Permalink to "%heading%"</span>
+    <i class="fas fa-link anchor-icon" aria-hidden="true"></i>
+{% endcapture %}
+
+{% include anchor_headings.html html=text anchorBody=anchor_body h_min="2" %}
