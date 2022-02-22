@@ -49,7 +49,7 @@ description: "Don't let Google see all your DNS traffic. Discover privacy-centri
   privacy-policy="https://wiki.mozilla.org/Security/DOH-resolver-policy"
 %}
 
-## Encrypted DNS Clients for Android
+<h2 id="encrypted-dns-clients-for-android" class="anchor"><a href="encrypted-dns-clients-for-android"><i class="fas fa-link anchor-icon"></i></a> Encrypted DNS Clients for Android</h2>
 
 {%
   include legacy/cardv2.html
@@ -72,7 +72,7 @@ description: "Don't let Google see all your DNS traffic. Discover privacy-centri
   source="https://git.frostnerd.com/PublicAndroidApps/smokescreen"
 %}
 
-## Encrypted DNS Clients for iOS
+<h2 id="encrypted-dns-clients-for-ios" class="anchor"><a href="encrypted-dns-clients-for-ios"><i class="fas fa-link anchor-icon"></i></a> Encrypted DNS Clients for iOS</h2>
 
 {%
   include legacy/cardv2.html
@@ -85,7 +85,7 @@ description: "Don't let Google see all your DNS traffic. Discover privacy-centri
   github="https://github.com/s-s/dnscloak"
 %}
 
-## Native Operating System Support
+<h2 id="native-os-system-support" class="anchor"><a href="native-os-system-support"><i class="fas fa-link anchor-icon"></i></a> Native Operating System Support</h2>
 
 <p>
   In iOS, iPadOS, tvOS 14 and macOS 11, DoT and DoH were introduced. DoT and DoH are supported natively by installation of profiles (through mobileconfig files opened in <em>Safari</em>).
@@ -96,7 +96,7 @@ description: "Don't let Google see all your DNS traffic. Discover privacy-centri
   <li><strong>Signed profiles</strong> are offered by <a href="https://adguard.com/en/blog/encrypted-dns-ios-14.html">AdGuard</a> and <a href="https://apple.nextdns.io/">NextDNS</a>.</li>
 </ul>
 
-## Definitions
+<h2 id="definitions" class="anchor"><a href="definitions"><i class="fas fa-link anchor-icon"></i></a> Definitions</h2>
 
 <p><strong>DNS-over-TLS (DoT):</strong>
   A security protocol for encrypted DNS on a dedicated port 853. Some providers support port 443 which generally works everywhere while port 853 is often blocked by restrictive firewalls.
