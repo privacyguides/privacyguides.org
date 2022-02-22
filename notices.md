@@ -10,7 +10,7 @@ description: "Privacy Guides is provided with good intentions on an &quot;as-is&
 
 <span class="lead">Privacy Guides is not a law firm. As such, the Privacy Guides website and contributors are not providing legal advice. The material and recommendations in our website and guides do not constitute legal advice nor does contributing to the website or communicating with Privacy Guides or other contributors about our website create an attorney-client relationship.</span>
 
-Running this website, like any human endeavor, involves uncertainty and trade-offs. We hope this website helps, but it may include mistakes, and can’t address every situation. If you have any questions about your situation, we encourage you to do your own research, seek out other experts, and engage in discussions with the Privacy Guides community. If you have any legal questions, you should consult with your own legal counsel before moving forward.
+Running this website, like any human endeavor, involves uncertainty and trade-offs. We hope this website helps, but it may include mistakes and can’t address every situation. If you have any questions about your situation, we encourage you to do your own research, seek out other experts, and engage in discussions with the Privacy Guides community. If you have any legal questions, you should consult with your own legal counsel before moving forward.
 
 Privacy Guides is an open source project contributed to under licenses that include terms that, for the protection of the website and its contributors, make clear that the Privacy Guides project and website is offered "as-is", without warranty, and disclaiming liability for damages resulting from using the website or any recommendations contained within. Privacy Guides does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on the website or otherwise relating to such materials on the website or on any third-party sites linked on this site.
 
@@ -37,7 +37,7 @@ When you contribute to this repository you are doing so under the above licenses
 <span class="badge rounded-pill bg-secondary mt-5">Section 3</span>
 # Acceptable Use
 
-<span class="lead">You may not use this website in any way that causes or may cause damage to the website or impairment of the availability or accessibility of Privacy Guides, or in any way which is unlawful, illegal, fraudulent, or harmful, or in connection with any unlawful, illegal, fraudulent, or harmful purpose or activity.</span>
+<span class="lead">You may not use this website in any way that causes or may cause damage to the website or impairment of the availability or accessibility of Privacy Guides, or in any way which is unlawful, illegal, fraudulent, harmful, or in connection with any unlawful, illegal, fraudulent, or harmful purpose or activity.</span>
 
 You must not conduct any systematic or automated data collection activities on or in relation to this website without express written consent from Aragon Ventures LLC, including:
 
