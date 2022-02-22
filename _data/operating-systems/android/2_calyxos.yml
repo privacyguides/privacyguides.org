@@ -11,7 +11,7 @@ description: |
   Currently, CalyxOS [supports](https://calyxos.org/docs/guide/device-support/) Google Pixel phones and the Xiaomi Mi A2. For legacy devices, CalyxOS offers "extended support" for much longer than GrapheneOS, making it a good choice once GrapheneOS has dropped support.
 
   #### Notes
-  CalyxOS's "extended support" does not have full security patches due to the original equipment manufacturer (OEM) discontinuing support; therefore they cannot be considered completely secure.
+  CalyxOS's "extended support" does not have full security patches due to the original equipment manufacturer (OEM) discontinuing support; therefore, they cannot be considered completely secure.
 
   With the Xiaomi Mi A2, CalyxOS does not distribute the latest firmware. Newer versions of the firmware prevented the device from performing verified boot.
 
