@@ -10,7 +10,7 @@
         </picture>
       </div>
       <div class="col-12 col-sm-8 col-md-9 text-center text-md-start pb-4">
-        <h2 id="{{ item.title }}" class="anchor"><a href="#{{ item.title }}"><i class="fas fa-link anchor-icon"></i></a>{{ item.title }}</h2>
+        <h2 id="{{ item.title | slugify: "latin" }}" class="anchor"><a href="#{{ item.title | slugify: "latin" }}"><i class="fas fa-link anchor-icon"></i></a>{{ item.title }}</h2>
         {% if item.info %} <p class="badge rounded-pill bg-info"><i class="fad fa-info-circle"></i> {{ item.info }}</p>{% endif %}
         {% if item.warning %} <p class="badge rounded-pill bg-warning"><i class="fad fa-exclamation-triangle"></i> {{ item.warning }}</p>{% endif %}
         {% if item.labels %}
