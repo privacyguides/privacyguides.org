@@ -10,7 +10,7 @@ description: "Don't let Google see all your DNS traffic. Discover privacy-centri
 
 {% include recommendation-table.html data='dns' %}
 
-<h2 id="encrypted-dns-clients-for-desktop" class="anchor"><a href="encrypted-dns-clients-for-desktop"><i class="fas fa-link anchor-icon"></i></a>Encrypted DNS Clients for Desktop</h2>
+<h2 id="encrypted-dns-clients-for-desktop" class="anchor"><a href="encrypted-dns-clients-for-desktop"><i class="fas fa-link anchor-icon"></i></a> Encrypted DNS Clients for Desktop</h2>
 
 {%
   include legacy/cardv2.html
