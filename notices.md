@@ -37,7 +37,7 @@ When you contribute to this repository you are doing so under the above licenses
 <span class="badge rounded-pill bg-secondary mt-5">Section 3</span>
 # Acceptable Use
 
-<span class="lead">You may not use this website in any way that causes or may cause damage to the website or impairment of the availability or accessibility of Privacy Guides, or in any way which is unlawful, illegal, fraudulent, or harmful, or in connection with any unlawful, illegal, fraudulent, or harmful purpose or activity.</span>
+<span class="lead">You may not use this website in any way that causes or may cause damage to the website or impairment of the availability or accessibility of Privacy Guides, or in any way which is unlawful, illegal, fraudulent, harmful, or in connection with any unlawful, illegal, fraudulent, or harmful purpose or activity.</span>
 
 You must not conduct any systematic or automated data collection activities on or in relation to this website without express written consent from Aragon Ventures LLC, including:
 
