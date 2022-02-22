@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-anchored
 title: "Encrypted DNS Resolvers"
 description: "Don't let Google see all your DNS traffic. Discover privacy-centric alternatives to the traditional DNS providers."
 ---
