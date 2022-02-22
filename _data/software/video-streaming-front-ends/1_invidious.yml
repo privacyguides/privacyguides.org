@@ -6,10 +6,10 @@ description: |
   **Invidious** is a free and open source front end for YouTube that is also self-hostable. There are list of [public instances](https://instances.invidious.io). Some instances have [Tor](https://www.torproject.org) onion services support.
 
   #### Use case
-  Invidious is useful if you want to disable JavaScript in your browser. It does not provide privacy by itself and we don’t recommend logging into any accounts.
+  Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security setting. It does not provide privacy by itself and we don’t recommend logging into any accounts.
 
   #### Notes
-  Invidious does not proxy the video stream through its server by default. Videos watched through Invidious will still make direct connections to Google's servers (googlevideo.com), however, some instances support video proxying. This can be enabled by adding `&local=true` to the URL.
+  Invidious does not proxy the video stream through its server by default. Videos watched through Invidious will still make direct connections to Google's servers (googlevideo.com), however some instances support video proxying. This can be enabled by adding `&local=true` to the URL.
 
   When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Invidious, as other peoples' usage will be linked to your hosting.
 
