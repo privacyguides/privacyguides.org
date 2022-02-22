@@ -6,7 +6,12 @@ layout: default
   {% if page.description %}<div class="lead">
     {{ page.description | markdownify }}
   </div>{% endif %}
-  {{ content }}
+  {% if page.title == "Blog" %}
+    {{ content }}
+  {% else %}
+    {% capture anchor_body %}<i class="fas fa-link anchor-icon" aria-hidden="true"></i>{% endcapture %}
+    {% include anchor_headings.html html=content beforeHeading=true anchorBody=anchor_body %}
+  {% endif %}
   {% include hr.html %}
   {% include footer.html %}
 </div>
