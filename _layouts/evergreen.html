@@ -1,7 +1,5 @@
 ---
 layout: page
 ---
-{% capture anchor_body %}
-    <i class="fas fa-link anchor-icon"></i>
-{% endcapture %}
-{% include anchor_headings.html html=content beforeHeading=true anchorBody="anchor_body" %}
+{% capture anchor_body %}<i class="fas fa-link anchor-icon"></i>{% endcapture %}
+{% include anchor_headings.html html=content beforeHeading=true anchorBody=anchor_body %}
