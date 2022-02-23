@@ -66,7 +66,7 @@ When self-hosted, users of a federated server can discover and communicate with 
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-      <h3>Advantages</h3>
+      <h4>Advantages</h4>
       <ul>
         <li>Allows for greater control over your own data when running your own server.</li>
         <li>Allows you to choose who to trust your data with by choosing between multiple "public" servers.</li>
@@ -75,7 +75,7 @@ When self-hosted, users of a federated server can discover and communicate with 
       </ul>
     </div>
     <div class="col-md-6">
-      <h3>Disadvantages</h3>
+      <h4>Disadvantages</h4>
       <ul>
         <li>Adding new features is more complex, because these features need to be standardized and tested to ensure they work with all servers on the network.</li>
         <li>Due to the previous point, features can be lacking, or incomplete or working in unexpected ways compared to centralized platforms, such as message relay when offline or message deletion.</li>
@@ -103,14 +103,14 @@ P2P networks do not use servers, as users communicate directly between each othe
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-    <h3>Advantages</h3>
+    <h4>Advantages</h4>
     <ul>
       <li>Minimal information is exposed to third parties.</li>
       <li>Modern P2P platforms implement end-to-end encryption by default. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.</li>
     </ul>
     </div>
     <div class="col-md-6">
-      <h3>Disadvantages</h3>
+      <h4>Disadvantages</h4>
       <ul>
         <li>Reduced feature set:</li>
         <ul>
@@ -138,14 +138,14 @@ Self-hosting a node in an anonymous routing network does not provide the hoster 
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-    <h3>Advantages</h3>
+    <h4>Advantages</h4>
     <ul>
       <li>Minimal to no information is exposed to other parties.</li>
       <li>Messages can be relayed in a decentralized manner even if one of the parties is offline.</li>
     </ul>
     </div>
     <div class="col-md-6">
-      <h3>Disadvantages</h3>
+      <h4>Disadvantages</h4>
       <ul>
         <li>Slow message propagation.</li>
         <li>Often limited to fewer media types, mostly text since the network is slow.</li>
