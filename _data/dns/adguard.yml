@@ -1,6 +1,5 @@
 title: AdGuard
 homepage: 'https://adguard.com/en/adguard-dns/overview.html'
-source: 'https://github.com/AdguardTeam/AdGuardDNS/'
 anycast: true
 privacy_policy:
   link: 'https://adguard.com/en/privacy/dns.html'
@@ -19,4 +18,4 @@ protocols:
   - name: DoT
   - name: DNSCrypt
 ecs: false
-filtering: Based on server choice
+filtering: Based on server choice. Filter list being used can be found [here](https://github.com/AdguardTeam/AdGuardDNS/).

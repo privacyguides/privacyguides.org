@@ -1,6 +1,5 @@
 title: MullvadDNS
 homepage: 'https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/'
-source: 'https://github.com/mullvad/dns-adblock'
 anycast: true
 privacy_policy:
   link: 'https://mullvad.net/en/help/privacy-policy/'
@@ -14,4 +13,4 @@ protocols:
   - name: DoH
   - name: DoT
 ecs: false
-filtering: Based on server choice
+filtering: Based on server choice. Filter list being used can be found [here](https://github.com/mullvad/dns-adblock)
