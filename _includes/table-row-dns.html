@@ -32,4 +32,7 @@
 </td>
 <td>
   {{ data.filtering | escape | default: '<em>Unknown?</em>' }}
+  {% if data.source %}<a href="{{ data.source }}">
+    <span class="fad fa-external-link"></span>
+  </a>{% endif %}
 </td>
