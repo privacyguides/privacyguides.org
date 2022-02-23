@@ -170,7 +170,7 @@ To mitigate these problems, we recommend [Droidify](https://github.com/Iamlooker
 
 {% endfor %}
 
-#### Where to get your applications
+### Where to get your applications
 
 Sometimes the official F-Droid repository may fall behind on updates. F-Droid maintainers reuse package ids while signing apps with their own keys, which is not ideal as it does give the F-Droid team ultimate trust. The Google Play version of some apps may contain unwanted telemetry or lack features that are available in the F-Droid version. The Google Play Store requires a Google account to login which is not great for privacy. The [Aurora Store](https://auroraoss.com/download/AuroraStore/) (a Google Play Store proxy) does not always work, though it does most of the time.
 
