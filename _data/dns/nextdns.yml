@@ -17,4 +17,5 @@ protocols:
   - name: DoT
   - name: DNSCrypt
 ecs: true
+  text: Optional
 filtering: Based on server choice
