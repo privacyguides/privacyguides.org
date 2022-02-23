@@ -84,9 +84,9 @@ As the components of the phone such as the processor and radio technologies rely
 
 Devices that have reached their end-of-life (EoL) and are no longer supported by the SoC manufacturer, cannot receive firmware updates from OEM vendors or after market Android distributors. This means that security issues with those devices will remain unfixed.
 
-### Android versions
+### Android Versions
 
-It's also important to make sure that you're not using an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android not only receive security updates for the operating system but also important privacy enhancing updates too. For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes), any user apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity), whereas now they must be system apps to do so. System apps are only shipped by the OEM or Android distribution.
+It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android not only receive security updates for the operating system but also important privacy enhancing updates too. For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes), any user apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity), whereas now they must be system apps to do so. System apps are only shipped by the OEM or Android distribution.
 
 ### Android Permissions
 
@@ -110,17 +110,45 @@ Be very **careful** about buying second hand phones from online marketplaces. Al
 
 We have these general tips:
 
-*   If you're after a bargain on a Pixel device, we suggest buying an "**a**" model, just after the next flagship is released. Discounts are usually available because Google will be trying to clear their stock.
-*   Consider price beating options and specials offered at [brick and mortar](https://en.wikipedia.org/wiki/Brick_and_mortar) stores.
-*   Look at online community bargain sites in your country. These can alert you to good sales.
-*   The price per day for a device can be calculated as \\({\\text {EoL Date}-\\text{Current Date} \\over \\text{Cost}}\\). Google provides a [list](https://support.google.com/nexus/answer/4457705) of their supported devices.
-*   Do not buy devices that have reached or are near their end-of-life, additional firmware updates must be provided by the manufacturer.
-*   Do not buy preloaded LineageOS or /e/ OS phones or any Android phones without proper [verified boot](https://source.android.com/security/verifiedboot) support and firmware updates. These devices also have no way for you to check whether they've been tampered with.
-*   In short, if a device or Android distribution is not listed here, there is probably a good reason, so check our [discussions](https://github.com/privacyguides/privacyguides.org/discussions) page.
+* If you're after a bargain on a Pixel device, we suggest buying an "**a**" model, just after the next flagship is released. Discounts are usually available because Google will be trying to clear their stock.
+* Consider price beating options and specials offered at [brick and mortar](https://en.wikipedia.org/wiki/Brick_and_mortar) stores.
+* Look at online community bargain sites in your country. These can alert you to good sales.
+* The price per day for a device can be calculated as \\({\\text {EoL Date}-\\text{Current Date} \\over \\text{Cost}}\\). Google provides a [list](https://support.google.com/nexus/answer/4457705) of their supported devices.
+* Do not buy devices that have reached or are near their end-of-life, additional firmware updates must be provided by the manufacturer.
+* Do not buy preloaded LineageOS or /e/ OS phones or any Android phones without proper [verified boot](https://source.android.com/security/verifiedboot) support and firmware updates. These devices also have no way for you to check whether they've been tampered with.
+* In short, if a device or Android distribution is not listed here, there is probably a good reason, so check our [discussions](https://github.com/privacyguides/privacyguides.org/discussions) page.
 
 The installation of GrapheneOS on a Pixel phone is easy with their [web installer](https://grapheneos.org/install/web). If you don't feel comfortable doing it yourself and are willing to spend a bit of extra money, check out the [NitroPhone](https://shop.nitrokey.com/shop) as they come preloaded with GrapheneOS from the reputable [Nitrokey](https://www.nitrokey.com/about) company. The GrapheneOS project is not currently affiliated with any vendor and cannot ensure the quality or security of their products.
 
 A [CalyxOS membership](https://calyxinstitute.org/membership/calyxos) also entitles you to a device preloaded with CalyxOS.
+
+## F-Droid
+F-Droid is often recommended as an alternative to Google Play, particularly in the privacy community. The option to add third party repositories and not be confined to Google's [walled garden](https://en.wikipedia.org/wiki/Closed_platform) have led to it's popularity. F-Droid additionally has [reproducible builds](https://f-droid.org/en/docs/Reproducible_Builds/) for some applications, and is dedicated to free and open source software. However, there are problems with the official F-Droid client, their quality control, and how they build, sign and deliver packages, outlined in this [post](https://wonderfall.dev/fdroid-issues/).
+
+### Recommended Client
+The official F-Droid client targets a [low API level](https://wonderfall.dev/fdroid-issues/#3-low-target-api-level-sdk-for-client--apps) and does not utilize the [seamless updates](https://www.androidcentral.com/google-will-finally-bring-seamless-app-updates-alternative-app-stores-android-12) feature introduced in Android 12. Targetting lower API levels means that the F-Droid client cannot take advantage of the new improvements in the application sandboxes that comes with higher API levels. For automatic updates to work, the F-Droid client requires that the [Privileged Extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged/) be included in the operating system, granting it more privileges than what a normal app would have, which is not great for security.
+
+To mitigate these problems, we recommend [Droidify](https://github.com/Iamlooker/Droid-ify) as it supports seamless updates on Android 12 and above without needing any special privileges and targets a higher API level.
+
+{% for item_hash in site.data.operating-systems.android-fdroid %}
+{% assign item = item_hash[1] %}
+
+{% if item.type == "Recommendation" %}
+{% include recommendation-card.html %}
+{% endif %}
+
+{% endfor %}
+
+#### Where to get your applications
+
+Sometimes the official F-Droid repository may fall behind on updates. F-Droid maintainers reuse package ids while signing apps with their own keys, which is not ideal as it does give the F-Droid team ultimate trust. The Google Play version of some apps may contain unwanted telemetry or lack features that are available in the F-Droid version. The Google Play Store requires a Google account to login which is not great for privacy. The [Aurora Store](https://auroraoss.com/download/AuroraStore/) (a Google Play Store proxy) does not always work, though it does most of the time.
+
+We have these general tips:
+* Check if the app developers have their own F-Droid repository first eg. [Bitwarden](https://bitwarden.com/), [Samourai Wallet](https://www.samouraiwallet.com/), or [Newpipe](https://newpipe.net/), have their own repositories with either less telemetry, additional features or faster updates. This is the ideal situation and you should be using these repositories if possible.
+* Check if an app is available on the [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) repository. The IzzyOnDroid repository pulls builds directly from GitHub and is the next best thing to the developers' own repositories. We recommend that you download the GitHub builds and install them manually first, then use IzzyOnDroid for any subsequent updates. This will ensure that the signature of the applications you get from IzzyOnDroid matches that of the developer and the packages have not been tampered with.
+* Check if there are any differences between the F-Droid version and the Google Play Store version. Some applications like [IVPN](https://www.ivpn.net/) do not include certain features (eg [AntiTracker](https://www.ivpn.net/knowledgebase/general/antitracker-faq/)) in their Google Play Store build out of fear of censorship by Google.
+
+Evaluate whether the additional features in the F-Droid build is worth the slower updates or whether faster updates from the Google Play is worth the potential privacy issues in your [threat model](/threat-modeling/).
 
 ## Security comparison of GrapheneOS and CalyxOS
 
@@ -152,7 +180,7 @@ MicroG is a reimplementation of Google Play Services. This means it needs to be 
 
 Android 12 comes with special support for seamless app updates with [third party app stores](https://android-developers.googleblog.com/2020/09/listening-to-developer-feedback-to.html). The popular Free and Open Source Software (FOSS) repository [F-Droid](https://f-droid.org) doesn't implement this feature and requires a [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged) to be included with the Android distribution in order to have unattended app installation.
 
-GrapheneOS doesn't compromise on security, therefore they do not include the F-Droid extension therefore, users have to confirm all updates manually if they want to use F-Droid. GrapheneOS officially recommends [Sandboxed Play Services](https://grapheneos.org/usage#sandboxed-play-services) instead. Many FOSS Android apps are also in Google Play but sometimes they are not (like [NewPipe]({% link _evergreen/video-streaming.md %})).
+GrapheneOS doesn't compromise on security, therefore they do not include the F-Droid extension therefore, users have to confirm all updates manually if they want to use F-Droid. Alternatively, they can use the Droidify client which does support seamless app updates in Android 12. GrapheneOS officially recommends [Sandboxed Play Services](https://grapheneos.org/usage#sandboxed-play-services) instead. Many FOSS Android apps are also in Google Play but sometimes they are not (like [NewPipe]({% link _evergreen/video-streaming.md %})).
 
 CalyxOS includes the [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged), which may lower device security. Seamless app updates should be possible with [Aurora Store](https://auroraoss.com) in Android 12.
 
