@@ -1,6 +1,5 @@
 title: Cloudflare
 homepage: 'https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/'
-anycast: true
 privacy_policy:
   link: 'https://www.cloudflare.com/privacypolicy/'
 type:

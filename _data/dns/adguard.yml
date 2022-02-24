@@ -1,7 +1,6 @@
 title: AdGuard
 homepage: 'https://adguard.com/en/adguard-dns/overview.html'
 source: 'https://github.com/AdguardTeam/AdGuardDNS/'
-anycast: true
 privacy_policy:
   link: 'https://adguard.com/en/privacy/dns.html'
 type:
