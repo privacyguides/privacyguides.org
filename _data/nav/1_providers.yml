@@ -20,11 +20,11 @@ items:
   - type: link
     title: Social Networks
     icon: fad fa-thumbs-up
-    file: legacy_pages/providers/social-networks.md
+    file: _evergreen/providers/social-networks.md
   - type: link
     title: Social News Aggregators
     icon: fad fa-newspaper
-    file: legacy_pages/providers/social-news-aggregator.md
+    file: _evergreen/providers/social-news-aggregator.md
   - type: link
     title: VPN Services
     icon: fad fa-network-wired

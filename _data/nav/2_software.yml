@@ -13,35 +13,35 @@ items:
   - type: link
     title: Calendar/Contacts Sync Tools
     icon: fad fa-calendar-day
-    file: legacy_pages/software/cal-card.md
+    file: _evergreen/software/cal-card.md
   - type: link
     title: Digital Notebooks
     icon: fad fa-edit
-    file: legacy_pages/software/notebooks.md
+    file: _evergreen/software/notebooks.md
   - type: link
     title: Email Clients
     icon: fad fa-envelope-open-text
-    file: legacy_pages/software/email.md
+    file: _evergreen/software/email.md
   - type: link
     title: File Encryption Tools
     icon: fad fa-file-certificate
-    file: legacy_pages/software/file-encryption.md
+    file: _evergreen/software/file-encryption.md
   - type: link
     title: File Sharing and Sync
     icon: fad fa-file-user
-    file: legacy_pages/software/file-sharing.md
+    file: _evergreen/software/file-sharing.md
   - type: link
     title: Metadata Removal Tools
     icon: fad fa-file-times
-    file: legacy_pages/software/metadata-removal-tools.md
+    file: _evergreen/software/metadata-removal-tools.md
   - type: link
     title: Password Managers
     icon: fad fa-user-lock
-    file: legacy_pages/software/passwords.md
+    file: _evergreen/software/passwords.md
   - type: link
     title: Productivity Tools
     icon: fad fa-briefcase
-    file: legacy_pages/software/productivity.md
+    file: _evergreen/software/productivity.md
   - type: link
     title: Real-Time Communication
     icon: fad fa-comments-alt
@@ -49,7 +49,7 @@ items:
   - type: link
     title: Self-Contained Networks
     icon: fad fa-chart-network
-    file: legacy_pages/software/networks.md
+    file: _evergreen/software/networks.md
   - type: link
     title: Video Streaming
     icon: fad fa-video
