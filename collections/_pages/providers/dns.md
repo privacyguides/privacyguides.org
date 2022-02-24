@@ -19,7 +19,7 @@ description: "The Domain Name System (DNS) is the phonebook of the Internet. DNS
 </p>
 
 <center>
-  <img src="../../../assets/img/dns/dns.svg" alt="DNS flowchart">
+  <img class="flowchart" src="../../../assets/img/dns/dns.svg" alt="DNS flowchart">
 </center>
 
 ## Encrypted DNS Resolvers
