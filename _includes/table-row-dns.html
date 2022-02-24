@@ -28,7 +28,7 @@
 </td>
 <td
   {% unless data.ecs.status %}data-value="No" class="table-success"> No <span title="Doesn't provide ECS" aria-hidden="true" class="fad text-red fa-times-circle"></span><span class="visually-hidden"></span>
-  {% else %}data-value="Yes" class="table-danger"> {{ data.ecs.text }} <span title="Optionally provides ECS" aria-hidden="true" class="fad text-green fa-info-circle"></span><span class="visually-hidden"></span>{% endunless %}
+  {% else %}data-value="Yes" class="table-info"> {{ data.ecs.text }} <span title="Optionally provides ECS" aria-hidden="true" class="fad text-green fa-info-circle"></span><span class="visually-hidden"></span>{% endunless %}
 </td>
 <td>
   {{ data.filtering | escape | default: '<em>Unknown?</em>' }}
