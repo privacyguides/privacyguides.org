@@ -14,5 +14,6 @@ protocols:
   - name: Cleartext
   - name: DoH
   - name: DoT
-ecs: false
+ecs:
+  status: false
 filtering: Based on server choice

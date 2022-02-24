@@ -12,5 +12,6 @@ logs:
 protocols:
   - name: DoH
   - name: DoT
-ecs: false
+ecs:
+  status: false
 filtering: Based on server choice. Filter list being used can be found here.

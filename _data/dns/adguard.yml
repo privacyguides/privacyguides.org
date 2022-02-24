@@ -18,5 +18,6 @@ protocols:
   - name: DoH
   - name: DoT
   - name: DNSCrypt
-ecs: false
+ecs:
+  status: false
 filtering: Based on server choice. Filter list being used can be found here.

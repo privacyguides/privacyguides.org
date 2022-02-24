@@ -11,6 +11,7 @@ protocols:
   - name: DoH
   - name: DoT
   - name: DNSCrypt
-ecs: true
+ecs:
+  status: true
   text: Optional
 filtering: Based on server choice, Malware blocking by default
