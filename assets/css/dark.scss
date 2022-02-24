@@ -20,6 +20,11 @@ $hr-border-color: $body-color;
 @import "./node_modules/bootstrap/scss/variables";
 @import "variables";
 
+.flowchart{
+  width: 50%;
+  align-items: right;
+}
+
 $dm-grays: (
   "dm-white": $black,
   "dm-100": $gray-900,
