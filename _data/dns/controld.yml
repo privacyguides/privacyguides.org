@@ -11,6 +11,7 @@ logs:
     Neither free nor premium service have logging enabled by default. Premium users can enable logging/analytics at will. 
   color: info
 protocols:
+  - name: Cleartext
   - name: DoH
   - name: DoT
 ecs: false

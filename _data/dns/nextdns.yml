@@ -12,6 +12,7 @@ logs:
     Users can choose retention times and log storage locations for any logs they choose to keep.
   color: info
 protocols:
+  - name: Cleartext
   - name: DoH
   - name: DoT
   - name: DNSCrypt

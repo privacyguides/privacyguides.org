@@ -13,6 +13,7 @@ logs:
     The 1.1.1.1 resolver service does not log personal data,
     and the bulk of the limited non-personally identifiable query data is only stored for 25 hours."
 protocols:
+  - name: Cleartext
   - name: DoH
   - name: DoT
 ecs: false
