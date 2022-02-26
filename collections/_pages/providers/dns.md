@@ -18,18 +18,20 @@ description: "The Domain Name System (DNS) is the phonebook of the Internet. DNS
   After going via the flowchart if you decide to use Encrypted DNS over Normal DNS. We recommend the natively supported methods over third party apps.
 </p>
 
-<center>
-  <img class="flowchart" src="../../../assets/img/dns/dns.svg" alt="DNS flowchart">
-</center>
+<section>
+    ## Encrypted DNS Resolvers
+  <p>
+    If you need to use Encrypted DNS Resolvers or change your current DNS provider then listed below are some privacy-centric alternatives to the traditional DNS providers. 
+  </p>
 
-## Encrypted DNS Resolvers
-<p>
-  If you need to use Encrypted DNS Resolvers or change your current DNS provider then listed below are some privacy-centric alternatives to the traditional DNS providers. 
-</p>
+  <p>
+    All recommended public DNS service providers offer <strong><mark>DNS over HTTPS (DoH) and DNS over TLS (DoT), with QNAME minimization and DNSSEC</mark></strong>. For the terms used in the table refer to the <a href="#definitions">definitions</a> below.
+  </p>
 
-<p>
-  All recommended public DNS service providers offer <strong><mark>DNS over HTTPS (DoH) and DNS over TLS (DoT), with QNAME minimization and DNSSEC</mark></strong>. For the terms used in the table refer to the <a href="#definitions">definitions</a> below.
-</p>
+  <center>
+    <img class="flowchart" src="../../../assets/img/dns/dns.svg" alt="DNS flowchart">
+  </center>
+</section>
 
 {% include recommendation-table.html data='dns' %}
 
