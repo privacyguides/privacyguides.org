@@ -1,7 +1,6 @@
 ---
 title: 'Firefox Privacy: 2021 update'
-author:
-  - Daniel Gray
+author: Daniel Gray
 cover: firefox-privacy-2021.png
 color: "linear-gradient(to bottom, rgba(158, 82, 19, 0.5), rgba(158, 82, 19, 0.9))"
 layout: post
