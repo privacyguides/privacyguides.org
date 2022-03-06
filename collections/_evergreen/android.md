@@ -160,7 +160,7 @@ GrapheneOS extends the [user profile](/android/#android-security-privacy) featur
 
 ### INTERNET permission vs packet filtering
 
-[Packet filter](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) based solutions such [Datura Firewall](https://calyxos.org/docs/tech/datura-details), [LineageOS](https://gitlab.com/LineageOS/issues/android/-/issues/3228) (DivestOS), AFWall+ and NetGuard, are not ideal as they can leak and don't prevent an app from proxying a network request through another app using an [intent](https://developer.android.com/guide/components/intents-filters).
+[Packet filter](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) based solutions such [Datura Firewall](https://calyxos.org/docs/tech/datura-details), [LineageOS](https://gitlab.com/LineageOS/issues/android/-/issues/3228), AFWall+ and NetGuard, are not ideal as they can leak and don't prevent an app from proxying a network request through another app using an [intent](https://developer.android.com/guide/components/intents-filters).
 
 Android has a built-in [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) permission. This is enforced by the operating system. On AOSP and most of its derivatives, it is treated as an install time permission. GrapheneOS changes it to [runtime](https://en.wikipedia.org/wiki/Runtime_(program_lifecycle_phase)) permission, meaning that it can be revoked to deny internet access to a specific app.
 
