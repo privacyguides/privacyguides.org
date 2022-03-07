@@ -1,0 +1,18 @@
+title: Phone by Google
+type: Recommendation
+logo: /assets/img/android/phone-by-google.png
+description: |
+  **Phone by Google** is a proprietary phone application with support for [end to end encryption](https://fi.google.com/about/end-to-end-encrypted-calls/) for [Google Fi](https://fi.google.com/about/) users, CallerID and spam blocking.
+
+  If you are a Google Fi customer, and your device meets the [requirements](https://support.google.com/fi/answer/11295314?hl=en), we highly recommend that you use this app to leverage the automatic end to end encryption feature.
+
+website: 'https://orbot.app/'
+downloads:
+  - icon: fab fa-android
+    url: 'https://guardianproject.info/fdroid'
+  - icon: fab fa-google-play
+    url: 'https://play.google.com/store/apps/details?id=org.torproject.android'
+  - icon: fab fa-github
+    url: 'https://github.com/guardianproject/orbot'
+  - icon: fab fa-gitlab
+    url: 'https://gitlab.com/guardianproject/orbot'
