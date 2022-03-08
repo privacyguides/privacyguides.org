@@ -159,15 +159,15 @@ If you have a Google account we suggest enrolling in the [Advanced Protection Pr
 The Advanced Protection Program provides enhanced threat monitoring and enables:
 
 * Stricter two factor authentication; e.g. that [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) **must** be used and disallows the use of [SMS OTPs](https://en.wikipedia.org/wiki/One-time_password#SMS), [TOTP](https://en.wikipedia.org/wiki/Time-based_one-time_password), and [OAuth](https://en.wikipedia.org/wiki/OAuth).
-* Only Google and verified third party apps can access account data
-* Scanning of incoming emails on Gmail accounts for [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing) attempts
-* Stricter [safe browser scanning](https://www.google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
-* Stricter recovery process for accounts with lost credentials
+* Only Google and verified third party apps can access account data.
+* Scanning of incoming emails on Gmail accounts for [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing) attempts.
+* Stricter [safe browser scanning](https://www.google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome.
+* Stricter recovery process for accounts with lost credentials.
 
 For users that are using the privileged Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949?hl=en) such as:
-* Not allowing app installation outside of the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
-* Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
-* Warning the user about unverified applications
+* Not allowing app installation outside of the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge).
+* Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work).
+* Warning the user about unverified applications.
 
 ## Security comparison of GrapheneOS and CalyxOS
 
