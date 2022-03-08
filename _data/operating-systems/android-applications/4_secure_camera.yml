@@ -16,9 +16,9 @@ description: |
 
 website: 'https://github.com/GrapheneOS/Camera'
 downloads:
+  - icon: fab fa-android
+    url: 'https://github.com/GrapheneOS/platform_external_Camera/tree/12/prebuilt'
   - icon: fab fa-google-play
     url: 'https://play.google.com/store/apps/details?id=app.grapheneos.camera.play'
   - icon: fab fa-github
     url: 'https://github.com/GrapheneOS/Camera'
-  - icon: fab fa-android
-    url: 'https://github.com/GrapheneOS/platform_external_Camera/tree/12/prebuilt'
