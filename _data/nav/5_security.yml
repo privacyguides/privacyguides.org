@@ -1,0 +1,7 @@
+type: dropdown
+title: Security
+items:
+  - type: link
+    title: Two-Factor Authentication
+    icon: fad fa-lock-alt
+    file: _evergreen/two-factor-authentication.md
