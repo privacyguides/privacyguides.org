@@ -10,9 +10,9 @@ description: |
   - Microphone permission not required unless you want to record sound
 
   ### Notes
-  Metadata is not currently stripped from video files but that is planned.
+  Metadata is not currently deleted from video files but that is planned.
 
-  The orientation metadata is not stripped, and if you enable location that is not stripped as well.
+  The image orientation metadata is not deleted. If you enable location (GPS) that **won't** be either and you may need to use an external app such as [Scrambled Exif](https://gitlab.com/juanitobananas/scrambled-exif/).
 
 website: 'https://github.com/GrapheneOS/Camera'
 downloads:
