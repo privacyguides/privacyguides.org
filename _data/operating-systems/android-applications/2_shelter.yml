@@ -8,6 +8,8 @@ description: |
 
   #### Notes
   CalyxOS includes a device controller so we recommend using their built in work profile instead.
+
+  Trust of the device controller (Shelter) is important as it has extensive privileges.
 website: 'https://gitea.angry.im/PeterCxy/Shelter'
 downloads:
   - icon: fab fa-android

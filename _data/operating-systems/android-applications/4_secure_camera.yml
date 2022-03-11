@@ -5,14 +5,14 @@ description: |
   **Secure Camera** is an camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
 
   Main privacy features include
-  - Auto stripping of [Exif](https://en.wikipedia.org/wiki/Exif) metadata (enabled by default)
+  - Auto removal of [Exif](https://en.wikipedia.org/wiki/Exif) metadata (enabled by default)
   - Use of the new [Media](https://developer.android.com/training/data-storage/shared/media) API, therefore [storage permissions](https://developer.android.com/training/data-storage) are not required
   - Microphone permission not required unless you want to record sound
 
   ### Notes
   Metadata is not currently deleted from video files but that is planned.
 
-  The image orientation metadata is not deleted. If you enable location (GPS) that **won't** be either and you may need to use an external app such as [Scrambled Exif](https://gitlab.com/juanitobananas/scrambled-exif/).
+  The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [Scrambled Exif](https://gitlab.com/juanitobananas/scrambled-exif/).
 
 website: 'https://github.com/GrapheneOS/Camera'
 downloads:
