@@ -7,7 +7,7 @@ description: |
   Focus also destroys browsing history on quit automatically. This is a good way of automatically clearing cookies and website data regularly which is helpful to prevent tracking.
 
   ##### **Sanitizing on close**
-  Focus sanitizies all data on close by default. Pressing on the <picture><source srcset="/assets/img/browsers/ios-trash-dark.svg" media="(prefers-color-scheme: dark)"><img src="/assets/img/browsers/ios-trash.svg" width="16" height="16"></picture> will immediately destroy all cookies and website data for the entire session.
+  Focus sanitizies all data on close by default. Pressing on the <picture><source srcset="/assets/img/browsers/ios-trash-dark.svg" media="(prefers-color-scheme: dark)"><img src="/assets/img/browsers/ios-trash.svg" alt="trash can icon" width="16" height="16"></picture> will immediately destroy all cookies and website data for the entire session.
 
   #### Notes
   Focus only lets you open one tab at a time.
