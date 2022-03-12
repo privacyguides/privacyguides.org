@@ -2,9 +2,9 @@ title: Bromite
 type: Recommendation
 logo: /assets/img/browsers/bromite.svg
 description: |
-  **Bromite** is a Chromium-based browser with privacy and security enhancements, built-in ad blocking and some fingerprinting randomization.
+  **Bromite** is a [Chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser))-based browser with privacy and security enhancements, built-in ad blocking, and some fingerprinting randomization.
 
-  These options can be found in *Privacy and Security* ( ⁝ → ⚙️ Settings → Privacy and Security)
+  These options can be found in *Privacy and Security* ( ⁝ → ⚙️ Settings → Privacy and Security).
 
   ##### **HTTPS-Only Mode**
   <ul style="list-style-type:none;padding-left:0;">

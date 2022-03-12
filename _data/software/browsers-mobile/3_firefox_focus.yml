@@ -2,9 +2,9 @@ title: Firefox Focus iOS
 type: Recommendation
 logo: /assets/img/browsers/firefox_focus.svg
 description: |
-  **Firefox** Focus iOS includes [Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-ios) which lets you select the blocklists ad trackers, analytic trackers, social trackers and other content tracking.
+  **Firefox** Focus iOS includes [Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-ios) which lets you select blocklists for ad trackers, analytic trackers, social trackers and other tracking content.
 
-  Focus also destroys browsing history on quit automatically which is a good way of automatically clearing cookies and website data regularly which is helpful to prevent tracking.
+  Focus also destroys browsing history on quit automatically. This is a good way of automatically clearing cookies and website data regularly which is helpful to prevent tracking.
 
   ##### **Sanitizing on close**
   Focus sanitizies all data on close by default. Pressing on the <img alt="iOS Garbage Bin icon" width="16" height="16" src="/assets/img/browsers/ios-trash.svg"/> will immediately destroy all cookies and website data for the entire session.
@@ -12,7 +12,7 @@ description: |
   #### Notes
   Focus only lets you open one tab at a time.
 
-website: 'https://firefox.com'
+website: 'https://www.mozilla.org/firefox/browsers/mobile/focus/'
 privacy_policy: 'https://www.mozilla.org/privacy/firefox'
 downloads:
   - icon: fab fa-app-store-ios
