@@ -4,7 +4,7 @@ logo: /assets/img/android/privacyblur.svg
 description: |
   **PrivacyBlur** is a free app which can blur sensitive portions of pictures before sharing them online.
 
-  ### Notes
+  #### Notes
   You should **never** use blur to redact [text in images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, draw a box over the text. For this we suggest [Pocket Paint](https://github.com/Catrobat/Paintroid) or [Imagepipe](https://codeberg.org/Starfish/Imagepipe).
 website: 'https://privacyblur.app/'
 downloads:
