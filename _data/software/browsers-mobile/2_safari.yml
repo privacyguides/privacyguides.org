@@ -1,0 +1,52 @@
+title: Safari
+type: Recommendation
+logo: /assets/img/browsers/safari.svg
+description: |
+  **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as tracking protection, isolated private tabs, iCloud Private Relay to hide your IP address from trackers, anti-fingerprinting measures, and automatic https upgrade.
+
+  These options can be found in *Privacy and Security* (⚙️ Settings → Safari → Privacy and Security).
+
+  ##### **Cross-Site Tracking Prevention**
+  <ul style="list-style-type:none;padding-left:0;">
+    <li>Toggle On: <strong>Prevent Cross-Site Tracking</strong>.</li>
+  </ul>
+
+  ##### **Privacy Preserving Ad Measurement**
+
+  This is Apple's own implementation of private ad tracking. If you don't wish to participate, you can disable this feature.
+
+  <ul style="list-style-type:none;padding-left:0;">
+    <li>Toggle Off: <strong>Privacy Preserving Ad Measurement</strong>.</li>
+  </ul>
+
+  ##### **Apple Pay**
+
+  If you do not use Apple Pay, you can toggle off the ability for websites to check for it.
+
+  <ul style="list-style-type:none;padding-left:0;">
+    <li>Toggle Off: <strong>Check for Apple Pay</strong>.</li>
+  </ul>
+
+  ##### **Always on Private Tabs**
+
+  Open Safari and press the tabs button at the bottom right corner. In the bottom middle is the tab groups selector.
+
+  <ul style="list-style-type:none;padding-left:0;">
+    <li>Select: <strong>Private</strong>.</li>
+  </ul>
+
+  ##### **Search Engines**
+
+  Safari offers a few search engine options by default. If you want to add one that isn't available, you'll have to install another browser such as [Firefox Focus](https://apps.apple.com/us/app/firefox-focus-privacy-browser/id1055677337).
+
+  Under ⚙️ Settings → Safari → Search → Search Engine
+  <ul style="list-style-type:none;padding-left:0;">
+    <li>Select: <strong>DuckDuckGo</strong>.</li>
+  </ul>
+
+
+website: https://www.apple.com/safari/
+privacy_policy: https://www.apple.com/legal/privacy/data/en/safari/
+downloads:
+  - icon: fab fa-app-store-ios
+    url: https://apps.apple.com/us/app/safari/id1146562112
