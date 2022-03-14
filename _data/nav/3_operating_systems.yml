@@ -9,3 +9,11 @@ items:
     title: Linux Desktop
     icon: fab fa-linux
     file: _evergreen/linux-desktop.md
+  - type: link
+    title: Qubes OS
+    icon: fab fa-linux
+    file: _evergreen/qubes.md
+  - type: link
+    title: Router
+    icon: fab fa-linux
+    file: _evergreen/router.md

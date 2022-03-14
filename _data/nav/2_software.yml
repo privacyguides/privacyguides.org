@@ -5,10 +5,6 @@ items:
     title: Browsers
     icon: fad fa-browser
     file: _evergreen/browsers.md
-  - type: link
-    title: Operating Systems (Legacy)
-    icon: fad fa-compact-disc
-    file: legacy_pages/os.html
   - type: divider
   - type: link
     title: Calendar/Contacts Sync Tools

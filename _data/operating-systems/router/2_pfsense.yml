@@ -1,0 +1,11 @@
+title: pfSense
+type: Recommendation
+logo: /assets/img/router/pfsense.svg
+logo_dark: /assets/img/router/pfsense-dark.svg
+description: |
+  pfSense is an open source firewall/router computer software distribution based on FreeBSD. It is installed on a computer to make a dedicated firewall/router for a network and is noted for its reliability and offering features often only found in expensive commercial firewalls. pfSense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and as a VPN endpoint.
+website: 'https://www.pfsense.org'
+privacy_policy: 'https://www.pfsense.org/privacy.html'
+downloads:
+  - icon: fab fa-github
+    url: 'https://github.com/pfsense'
