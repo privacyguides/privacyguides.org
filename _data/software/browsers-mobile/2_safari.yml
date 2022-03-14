@@ -2,7 +2,7 @@ title: Safari
 type: Recommendation
 logo: /assets/img/browsers/safari.svg
 description: |
-  **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as tracking protection, isolated private tabs, iCloud Private Relay to hide your IP address from trackers, anti-fingerprinting measures, and automatic https upgrade.
+  **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as tracking protection, isolated private tabs, iCloud Private Relay to hide your IP address from trackers, and automatic https upgrade.
 
   These options can be found in *Privacy and Security* (⚙️ Settings → Safari → Privacy and Security).
 
