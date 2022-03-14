@@ -7,9 +7,11 @@ description: |
   Shelter supports blocking contact search cross profiles and sharing files across profiles via the default file manager ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
 
   #### Notes
-  CalyxOS includes a device controller so we recommend using their built in work profile instead.
+  As CalyxOS includes a device controller, we recommend using their built in work profile instead.
 
-  Trust of the device controller (Shelter) is important as it has extensive privileges.
+  Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular/) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
+  
+  When using Shelter, you are placing complete trust in its developer as Shelter would be acting as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) for the work profile and has extensive access to the data stored within it. 
 website: 'https://gitea.angry.im/PeterCxy/Shelter'
 downloads:
   - icon: fab fa-android
