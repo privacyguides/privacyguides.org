@@ -29,21 +29,11 @@ description: |
 
   ##### **Always on Private Tabs**
 
-  Open Safari and press the tabs button at the bottom right corner. In the bottom middle is the tab groups selector.
+  Open Safari and press the tabs button at the bottom right corner. In the bottom middle press the downward facing arrow.
 
   <ul style="list-style-type:none;padding-left:0;">
     <li>Select: <strong>Private</strong>.</li>
   </ul>
-
-  ##### **Search Engines**
-
-  Safari offers a few search engine options by default. If you want to add one that isn't available, you'll have to install another browser such as [Firefox Focus](https://apps.apple.com/us/app/firefox-focus-privacy-browser/id1055677337).
-
-  Under ⚙️ Settings → Safari → Search → Search Engine
-  <ul style="list-style-type:none;padding-left:0;">
-    <li>Select: <strong>DuckDuckGo</strong>.</li>
-  </ul>
-
 
 website: https://www.apple.com/safari/
 privacy_policy: https://www.apple.com/legal/privacy/data/en/safari/
