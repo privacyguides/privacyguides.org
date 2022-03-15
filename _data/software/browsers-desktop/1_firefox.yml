@@ -11,16 +11,16 @@ description: |
     <li>Select: <strong>Strict</strong></li>
   </ul>
 
-  ##### **HTTPS-Only Mode**
-  <ul style="list-style-type:none;padding-left:0;">
-    <li>Select: <strong>Enable HTTPS-Only Mode in all windows</strong>.</li>
-  </ul>
-
   ##### **Sanitizing on close**
   <ul style="list-style-type:none;padding-left:0;">
     <li>Select: <strong>Delete cookies and site data when Firefox is closed</strong></li>
   </ul>
   You can still stay logged into websites by allowing exceptions.
+
+  ##### **HTTPS-Only Mode**
+  <ul style="list-style-type:none;padding-left:0;">
+    <li>Select: <strong>Enable HTTPS-Only Mode in all windows</strong>.</li>
+  </ul>
 
   #### Extensions
   We normally do not recommend installing any extensions as they have privileged access within your browser. We make an exception for [uBlock Origin](/browsers/#additional-resources),
