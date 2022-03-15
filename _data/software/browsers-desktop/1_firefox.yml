@@ -37,7 +37,7 @@ description: |
   </ul>
 
   #### Sync
-  The [Firefox sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) service is E2EE (end-to-end encrypted).
+  The [Firefox sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) service is end-to-end encrypted.
 
   #### Extensions
   We generally do not recommend installing any extensions as they increase your [attack surface](https://en.wikipedia.org/wiki/Attack_surface); however, if you want content blocking, [uBlock Origin](/browsers/#additional-resources) might be useful to you. The extension is also a 🏆️[Recommended Extension](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) by Mozilla.
