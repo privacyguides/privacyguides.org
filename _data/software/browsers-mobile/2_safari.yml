@@ -36,7 +36,7 @@ description: |
   The synchronization of data is end-to-end encrypted. Safari does not encrypt bookmarks and they are accessible to Apple.
 
   #### Extensions
-  We normally do not recommend installing any extensions as they have [privileged access](https://www.sentinelone.com/blog/inside-safari-extensions-malware-golden-key-user-data/) within your browser; however, [AdGuard for Safari](/browsers/#additional-resources), is a popular content blocker for iOS and may be useful to you.
+  We generally do not recommend installing [any extensions](https://www.sentinelone.com/blog/inside-safari-extensions-malware-golden-key-user-data/) as they increase your browser's [attack surface](https://en.wikipedia.org/wiki/Attack_surface); however, if you want content blocking, [AdGuard for Safari](/browsers/#additional-resources) might be useful to you.
 
 website: https://www.apple.com/safari/
 privacy_policy: https://www.apple.com/legal/privacy/data/en/safari/
