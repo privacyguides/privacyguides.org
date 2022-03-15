@@ -2,10 +2,9 @@ title: AdGuard for Safari
 type: Recommendation
 logo: /assets/img/browsers/adguard.svg
 description: |
-  **AdGuard for Safari** is a free and open-source) content-blocking extension for Safari.
+  **AdGuard for Safari** is a free and open-source) content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
 
-  There is also [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html) which is able to perform system wide adblocking using the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
-
+  There is also [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html) which is able to perform system wide adblocking.
 website: 'https://adguard.com/en/adguard-safari/overview.html'
 downloads:
   - icon: fab fa-app-store-ios
