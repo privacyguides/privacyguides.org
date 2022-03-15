@@ -17,6 +17,13 @@ description: |
   </ul>
   You can still stay logged into websites by allowing exceptions.
 
+  ##### **Disabling Search Suggestions**
+   <ul style="list-style-type:none;padding-left:0;">
+    <li>Toggle off: <strong>Suggestions from the web</strong></li>
+    <li>Toggle off: <strong>Suggestions from sponsors</strong></li>
+    <li>Toggle off: <strong>Improve the Firefox Suggest experience</strong></li>
+  </ul>
+
   ##### **Disabling Telemetry**
   <ul style="list-style-type:none;padding-left:0;">
     <li>Uncheck: <strong>Allow Firefox to send technical and interaction data to Mozilla</strong></li>
