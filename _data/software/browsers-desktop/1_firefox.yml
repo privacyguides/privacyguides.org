@@ -40,7 +40,7 @@ description: |
   The [Firefox sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) service is E2EE (end-to-end encrypted).
 
   #### Extensions
-  We normally do not recommend installing any extensions as they have privileged access within your browser; however, [uBlock Origin](/browsers/#additional-resources) has some useful features, is a popular content blocker and a 🏆️ [Recommended Extension](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) by Mozilla.
+  We normally do not recommend installing any extensions as they have privileged access within your browser; however, [uBlock Origin](/browsers/#additional-resources) is a popular content blocker and a 🏆️ [Recommended Extension](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) by Mozilla that may be useful to you.
 
   #### Arkenfox (advanced)
   The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. These options are quite strict but a few are subjective and may cause some websites to not work properly. You can easily change these settings to suit your needs. We **strongly recommend** reading through their [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users) support.
