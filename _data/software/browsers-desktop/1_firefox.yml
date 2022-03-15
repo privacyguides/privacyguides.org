@@ -17,7 +17,7 @@ description: |
   </ul>
   You can still stay logged into websites by allowing exceptions.
 
-  ##### **Disable Telemetry**
+  ##### **Disabling Telemetry**
   <ul style="list-style-type:none;padding-left:0;">
     <li>Uncheck: <strong>Allow Firefox to send technical and interaction data to Mozilla</strong></li>
     <li>Uncheck: <strong>Allow Firefox to install and run studies</strong></li>
