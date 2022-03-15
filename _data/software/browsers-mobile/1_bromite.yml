@@ -11,7 +11,7 @@ description: |
     <li>Select: <strong>Always use secure connections</strong>.</li>
   </ul>
 
-  ##### **Always on Incognito Mode**
+  ##### **Always-on Incognito Mode**
   <ul style="list-style-type:none;padding-left:0;">
     <li>Select: <strong>Open links in incognito tabs always</strong>.</li>
     <li>Select: <strong>Close all open tabs on exit</strong>.</li>
