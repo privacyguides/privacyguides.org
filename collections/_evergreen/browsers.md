@@ -31,7 +31,7 @@ description: |
 
 On Android, Mozilla's engine [GeckoView](https://mozilla.github.io/geckoview/) has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196). Firefox on Android also doesn't yet have [HTTPS-Only mode](https://github.com/mozilla-mobile/fenix/issues/16952#issuecomment-907960218) built-in. We do not recommend Firefox or any Gecko based browsers at this time.
 
-On iOS all web browsers use [WKWebView](https://developer.apple.com/documentation/webkit/wkwebview), so all browsers on the App Store are essentially Safari under the hood.
+On iOS all web browsers use the [WebKit](https://en.wikipedia.org/wiki/WebKit) browser engine, including Firefox. However, Firefox includes a few extra features like Tracking Protection and the ability to add search engines.
 
 {% for item_hash in site.data.software.browsers-mobile %}
 {% assign item = item_hash[1] %}
