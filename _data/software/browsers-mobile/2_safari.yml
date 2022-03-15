@@ -12,7 +12,6 @@ description: |
   </ul>
 
   ##### **Privacy Preserving Ad Measurement**
-
   This is Apple's own implementation of private ad tracking. If you don't wish to participate, you can disable this feature.
 
   <ul style="list-style-type:none;padding-left:0;">
@@ -20,7 +19,6 @@ description: |
   </ul>
 
   ##### **Apple Pay**
-
   If you do not use Apple Pay, you can toggle off the ability for websites to check for it.
 
   <ul style="list-style-type:none;padding-left:0;">
@@ -28,12 +26,17 @@ description: |
   </ul>
 
   ##### **Always-on Private Tabs**
-
   Open Safari and press the tabs button at the bottom right corner. In the bottom middle press the downward facing arrow.
 
   <ul style="list-style-type:none;padding-left:0;">
     <li>Select: <strong>Private</strong>.</li>
   </ul>
+
+  #### Sync
+  The synchronization of data is end-to-end encrypted. Safari does not encrypt bookmarks and they are accessible to Apple.
+
+  #### Extensions
+  We generally do not recommend installing [any extensions](https://www.sentinelone.com/blog/inside-safari-extensions-malware-golden-key-user-data/) as they increase your browser's [attack surface](https://en.wikipedia.org/wiki/Attack_surface); however, if you want content blocking, [AdGuard for Safari](/browsers/#additional-resources) might be useful to you.
 
 website: https://www.apple.com/safari/
 privacy_policy: https://www.apple.com/legal/privacy/data/en/safari/
