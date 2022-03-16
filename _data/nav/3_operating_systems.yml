@@ -5,3 +5,7 @@ items:
     title: Android
     icon: fab fa-android
     file: _evergreen/android.md
+  - type: link
+    title: iOS
+    icon: fab fa-apple
+    file: _evergreen/ios.md
