@@ -6,6 +6,7 @@ description: |
 
   There is also [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html) which is able to perform system wide adblocking.
 website: 'https://adguard.com/en/adguard-safari/overview.html'
+privacy_policy: 'https://adguard.com/en/privacy/safari.html'
 downloads:
   - icon: fab fa-app-store-ios
     url: 'https://apps.apple.com/app/adguard-for-safari/id1440147259'
