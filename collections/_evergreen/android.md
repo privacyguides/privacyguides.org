@@ -126,7 +126,7 @@ On Android distributions with the privileged Play Services (such as the stock OS
 * ⚙️ Settings → Google → Ads
 * ⚙️ Settings → Privacy → Ads
 
-Depending on the system, you will either be given the option to delete your advertising ID or to "Opt out of interest-based ads". You should delete the advertising ID if you are given the option to, and if you do not, we recommend that you reset your advertising ID and then opt out of interested-based ads.
+Depending on the system, you will either be given the option to delete your advertising ID or to "Opt out of interest-based ads". You should delete the advertising ID if you are given the option to, and if you do not, we recommend that you opt out of interested-based ads and then reset your advertising ID.
 
 ### Android Device Shopping
 
