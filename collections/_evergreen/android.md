@@ -94,11 +94,39 @@ It's important to not use an [end-of-life](https://endoflife.date/android) versi
 
 Should you want to run an app that you're unsure about, consider using a user or work [profile](/android/#android-security-privacy).
 
+### Advanced Protection Program
+If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection/). It is available at no cost to anyone with two or more hardware security keys with [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) support.
+
+The Advanced Protection Program provides enhanced threat monitoring and enables:
+
+* Stricter two factor authentication; e.g. that [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) **must** be used and disallows the use of [SMS OTPs](https://en.wikipedia.org/wiki/One-time_password#SMS), [TOTP](https://en.wikipedia.org/wiki/Time-based_one-time_password), and [OAuth](https://en.wikipedia.org/wiki/OAuth).
+* Only Google and verified third party apps can access account data
+* Scanning of incoming emails on Gmail accounts for [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing) attempts
+* Stricter [safe browser scanning](https://www.google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
+* Stricter recovery process for accounts with lost credentials
+
+For users that are using the privileged Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949?hl=en) such as:
+* Not allowing app installation outside of the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
+* Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
+* Warning the user about unverified applications
+
 ### SafetyNet and Play Integrity API
 
 [SafetyNet](https://developer.android.com/training/safetynet/attestation) and the [Play Integrity APIs](https://developer.android.com/google/play/integrity) are generally used for [banking apps](https://grapheneos.org/usage#banking-apps). Many banking apps will work fine in GrapheneOS with sandboxed Play services, however some non-financal apps have their own crude anti-tampering mechanisms which might fail. GrapheneOS passes the `basicIntegrity` check, but not the certification check `ctsProfileMatch`. Devices with Android 8 or later have hardware attestation support which cannot be bypassed without leaked keys or serious vulnerabilities.
 
 As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt-out if you don't want your credit rating and personal information shared with affiliate marketing services.
+
+### Advertising ID
+
+All devices with the Play Service installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248?hl=en) used for targetted advertisement. We recommend that you disable this feature to limit the data collected about you.
+
+On Android distributions with the [Sandboxed Play Services](https://grapheneos.org/usage#sandboxed-play-services), go to ⚙️ Settings → Apps -> Sandboxed Google Play -> Google Settings -> Ads and select **Delete advertising ID**.
+
+On Android distributions with the privileged Play Services (such as the stock OS), the setting can be in one of several locations. Check
+* ⚙️ Settings → Google → Ads
+* ⚙️ Settings → Privacy → Ads
+
+Depending on the system, you will either be given the option to delete your advertising ID or to "Opt out of interest-based ads". You should delete the advertising ID if you are given the option to, and if you do not, we recommend that you reset your advertising ID and then opt out of interested-based ads.
 
 ### Android Device Shopping
 
@@ -152,22 +180,6 @@ We have these general tips:
 * Check if there are any differences between the F-Droid version and the Google Play Store version. Some applications like [IVPN](https://www.ivpn.net/) do not include certain features (eg [AntiTracker](https://www.ivpn.net/knowledgebase/general/antitracker-faq/)) in their Google Play Store build out of fear of censorship by Google.
 
 Evaluate whether the additional features in the F-Droid build are worth the slower updates. Also think about whether faster updates from the Google Play Store are worth the potential privacy isues in your [threat model](/threat-modeling/).
-
-## Advanced Protection Program
-If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection/). It is available at no cost to anyone with two or more hardware security keys with [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) support.
-
-The Advanced Protection Program provides enhanced threat monitoring and enables:
-
-* Stricter two factor authentication; e.g. that [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) **must** be used and disallows the use of [SMS OTPs](https://en.wikipedia.org/wiki/One-time_password#SMS), [TOTP](https://en.wikipedia.org/wiki/Time-based_one-time_password), and [OAuth](https://en.wikipedia.org/wiki/OAuth).
-* Only Google and verified third party apps can access account data
-* Scanning of incoming emails on Gmail accounts for [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing) attempts
-* Stricter [safe browser scanning](https://www.google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
-* Stricter recovery process for accounts with lost credentials
-
-For users that are using the privileged Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949?hl=en) such as:
-* Not allowing app installation outside of the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
-* Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
-* Warning the user about unverified applications
 
 ## Security comparison of GrapheneOS and CalyxOS
 
