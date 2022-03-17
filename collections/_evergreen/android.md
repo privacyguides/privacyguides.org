@@ -120,9 +120,9 @@ As for Google Wallet, we don't recommend this due to their [privacy policy](http
 
 All devices with the Play Service installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248?hl=en) used for targetted advertisement. We recommend that you disable this feature to limit the data collected about you.
 
-On Android distributions with the [Sandboxed Play Services](https://grapheneos.org/usage#sandboxed-play-services), go to ⚙️ Settings → Apps -> Sandboxed Google Play -> Google Settings -> Ads and select **Delete advertising ID**.
+On Android distributions with [Sandboxed Play Services](https://grapheneos.org/usage#sandboxed-play-services), go to ⚙️ Settings → Apps -> Sandboxed Google Play -> Google Settings -> Ads and select **Delete advertising ID**.
 
-On Android distributions with the privileged Play Services (such as the stock OS), the setting can be in one of several locations. Check
+On Android distributions with privileged Play Services (such as the stock OS), the setting can be in one of several locations. Check
 * ⚙️ Settings → Google → Ads
 * ⚙️ Settings → Privacy → Ads
 
