@@ -33,7 +33,7 @@ description: |
   </ul>
 
   #### Sync
-  The synchronization of data is [not](https://support.apple.com/en-us/HT202303) end-to-end encrypted. Safari only encrypts Safari Bookmarks in transit and stores in an encrypted format. As the service is not end-to-end encrypted Apple may be able to decrypt and access bookmarks.
+  History, tabs, and iCloud tabs are end-to-end encrypted. However, bookmarks are [not](https://support.apple.com/en-us/HT202303). Although they are stored in an encrypted form, it is possible for Apple to decrypt them.
 
   #### Extensions
   We generally do not recommend installing [any extensions](https://www.sentinelone.com/blog/inside-safari-extensions-malware-golden-key-user-data/) as they increase your browser's [attack surface](https://en.wikipedia.org/wiki/Attack_surface); however, if you want content blocking, [AdGuard for Safari](/browsers/#additional-resources) might be useful to you.
