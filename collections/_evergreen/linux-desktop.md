@@ -131,11 +131,15 @@ Fedora or openSUSE have the microcode updates applied by default.
 
 ## Privacy tweaks
 
-### Mac address randomization
+### MAC address randomization
 
-If you are using Network Manager (the default on Fedora, openSUSE, etc), follow [this guide](https://fedoramagazine.org/randomize-mac-address-nm/) on how to enable randomized mac addresses. We recommend changing the setting to `random` as opposed to `stable` like in the article.
+Many desktop linux distributions (Fedora, openSUSE etc) will come with [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager), to configure ethernet and WiFi settings.
 
-If you are using systemd-networkd, Wicked or another network managing solution, refer to the project's own documentation on how to set this up.
+It is possible to [randomize](https://fedoramagazine.org/randomize-mac-address-nm/) the [MAC address](https://en.wikipedia.org/wiki/MAC_address) when using NetworkManager. This provides a bit more privacy on WiFi networks as it makes it harder to track specific devices on the network you're connected to. It does [**not**](https://papers.mathyvanhoef.com/wisec2016.pdf) make you anonymous.
+
+We recommend changing the setting to **random** instead of **stable**, as suggested in the [article](https://fedoramagazine.org/randomize-mac-address-nm/).
+
+If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components) you will need to set [`MACAddressPolicy=random`](https://www.freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) which will enable [RFC 7844 (Anonymity Profiles for DHCP Clients)](https://www.freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=).
 
 ### Other identifiers
 
