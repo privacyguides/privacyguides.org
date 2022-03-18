@@ -118,18 +118,16 @@ Fedora based distributions [use ZRAM](https://fedoraproject.org/wiki/Changes/Swa
 
 ### Wayland
 
-We recommend using a desktop environment that supports the [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) display protocol as it developed with security [in mind](https://lwn.net/Articles/589147/) unlike it's [predecessor - X11](https://theinvisiblethings.blogspot.com/2011/04/linux-security-circus-on-gui-isolation.html). Fortunately common environments such as [GNOME](https://www.gnome.org), [KDE](https://kde.org) and the window manager [Sway](https://swaywm.org) have support for Wayland. Some distributions like Fedora and Tumbleweed use it by default and some others may do so in the future as X11 is in [hard maitenance mode](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly). If you're using one of those environments it is as easy as selecting the "Wayland" session at the desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [KDM](https://en.wikipedia.org/wiki/KDE_Display_Manager)).
+We recommend using a desktop environment that supports the [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) display protocol as it developed with security [in mind](https://lwn.net/Articles/589147/) unlike it's predecessor, [X11](https://theinvisiblethings.blogspot.com/2011/04/linux-security-circus-on-gui-isolation.html). Fortunately common environments such as [GNOME](https://www.gnome.org), [KDE](https://kde.org) and the window manager [Sway](https://swaywm.org) have support for Wayland. Some distributions like Fedora and Tumbleweed use it by default and some others may do so in the future as X11 is in [hard maitenance mode](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly). If you're using one of those environments it is as easy as selecting the "Wayland" session at the desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [KDM](https://en.wikipedia.org/wiki/KDE_Display_Manager)).
 
 We recommend **against** using desktop environments or window managers that do not have Wayland support such as Cinnamon (default on Linux Mint), Pantheon (default on Elemetary OS) MATE, XFCE and i3.
 
 ### Proprietary firmware (microcode updates)
-Linux distributions such as those which are [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) or DIY (Archlinux), the proprietary microcode updates
+Linux distributions such as those which are [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) or DIY (Archlinux), don't come with the proprietary [microcode](https://en.wikipedia.org/wiki/Microcode) updates. Some notable examples of these vulnerabilities include [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)) and other [hardware vulnerabilities](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
 
+We **highly recommend** that you install the microcode updates, as your CPU is already running the proprietary microcode from the factory.
 
-often do not come installed by default. We **highly recommend** that you install the microcode updates, as your CPU is already running the proprietary microcode anyways. Your choices boil down to using outdated microcode with known security vulnerabilities or updated microcode with the fixes for those vulnerabilities, and there is no reason to choose the former.
-
-
-If you are using Fedora or openSUSE, you do not have to worry about installing the microcode updates, as they are already installed by default.
+Fedora or openSUSE have the microcode updates applied by default.
 
 ## Privacy tweaks
 
