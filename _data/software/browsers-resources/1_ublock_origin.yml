@@ -13,3 +13,6 @@ description: |
   uBlock Origin also has different [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode). The easy mode [might not](https://www.ranum.com/security/computer_security/editorials/dumb/) necessarily keep you safe from every tracker out there, whereas the more advanced modes let you control exactly what needs to run.
 website: 'https://addons.mozilla.org/firefox/addon/ublock-origin/'
 privacy_policy: 'https://github.com/gorhill/uBlock/wiki/Privacy-policy'
+downloads:
+ - icon: fab fa-github
+   url: https://github.com/gorhill/uBlock
