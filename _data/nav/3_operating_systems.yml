@@ -15,5 +15,5 @@ items:
     file: _evergreen/qubes.md
   - type: link
     title: Router
-    icon: fab fa-linux
+    icon: fa-duotone fa-circle-nodes
     file: _evergreen/router.md
