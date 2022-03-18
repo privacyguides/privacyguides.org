@@ -45,6 +45,9 @@ description: |
   #### Arkenfox (advanced)
   The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. These options are quite strict but a few are subjective and may cause some websites to not work properly. You can easily change these settings to suit your needs. We **strongly recommend** reading through their [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users) support.
 
+  #### Telemetry
+  Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+
 website: 'https://firefox.com'
 privacy_policy: 'https://www.mozilla.org/privacy/firefox'
 downloads:
