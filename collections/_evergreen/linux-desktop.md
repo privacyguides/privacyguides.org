@@ -159,15 +159,15 @@ A unique [Machine ID](https://www.man7.org/linux/man-pages/man5/machine-id.5.htm
 
 ### System counting
 
-The Fedora project [counts](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting) how many unique systems access it's mirrors by counting using a ID on the system. They do this to determine load and provision better servers for updates where necessary.
+The Fedora project [counts](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting) how many unique systems access it's mirrors by counting using an ID on the system. They do this to determine load and provision better servers for updates where necessary.
 
-This [option](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) appears to be off by default. We recommend adding `countme=false` to `/etc/dnf/dnf.conf` just in case it is enabled in the future. On systems that use `rpm-ostree` such as Silverblue, the countme option is disabled by [masking the rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems/) timer.
+This [option](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) appears to be off by default. We recommend adding `countme=false` to `/etc/dnf/dnf.conf` just in case it is enabled in the future. On systems that use `rpm-ostree` such as Silverblue, the countme option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems/) timer.
 
 openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, and that can be disabled by deleting the `/var/lib/zypp/AnonymousUniqueId` file.
 
-## Sandboxing
+## Sandboxing and Application confinement
 
-Some sandboxing solutions for desktop Linux distributions do exist, however they are not as strict as those found in MacOS or ChromeOS. Applications installed from the package manager (`dnf`, `apt`, etc.) typically have sandboxing or confinement whatsoever. Below are a few projects that aim to solve this problem:
+Some sandboxing solutions for desktop Linux distributions do exist, however they are not as strict as those found in MacOS or ChromeOS. Applications installed from the package manager (`dnf`, `apt`, etc.) typically have **no** sandboxing or confinement whatsoever. Below are a few projects that aim to solve this problem:
 
 ### Flatpak
 [Flatpak](https://flatpak.org) aims to be a universal package manager for Linux. One of it's main goals is to provide a universal package format which can be used in most Linux distributions. It provides some [permission control](https://docs.flatpak.org/en/latest/sandbox-permissions.html). Madaidan [points out](https://madaidans-insecurities.github.io/linux.html#flatpak) Flatpak sandboxing could be improved as particular Flatpaks often have greater permission than required. There does seem to be [some agreement](https://theevilskeleton.gitlab.io/2021/02/11/response-to-flatkill-org.html) that is the case.
@@ -182,36 +182,40 @@ We generally recommend revoking access to:
 
 If an application works natively with Wayland (and not running through the [XWayland](https://wayland.freedesktop.org/xserver.html) compatibility layer), consider revoking its access to the X11 (`socket=x11`) and [Inter-process communications (IPC)](https://en.wikipedia.org/wiki/Unix_domain_socket) socket  (`share=ipc`) as well.
 
-We also recommend restricting broad filesystem permissions such as `filesystem=home` and `filesystem=host` should be revoked and replaced with just the directories the app should be allowed to access.
+We also recommend restricting broad filesystem permissions such as `filesystem=home` and `filesystem=host` which should be revoked and replaced with just the directories the app need to be accessed.
 
-Hard-coded access to some kernel interfaces like [`/sys`](https://en.wikipedia.org/wiki/Sysfs) and [`/proc`](https://en.wikipedia.org/wiki/Procfs#Linux) and a weak [seccomp](https://en.wikipedia.org/wiki/Seccomp) filters unfortunately cannot be solved by the user.
+Hard-coded access to some kernel interfaces like [`/sys`](https://en.wikipedia.org/wiki/Sysfs) and [`/proc`](https://en.wikipedia.org/wiki/Procfs#Linux) and a weak [seccomp](https://en.wikipedia.org/wiki/Seccomp) filters unfortunately cannot be secured by the user with Flatpak.
 
 ### Firejail
-[Firejail](https://firejail.wordpress.com/) is another method of sandboxing. As is a large [setuid](https://en.wikipedia.org/wiki/Setuid) binary it has a large [attack surface](https://en.wikipedia.org/wiki/Attack_surface) which may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation). The risk is that Firejail may make the system safer from processes confined by it, but make it also less safe from processes running outside of Firejail. We don't recommend the use of Firejail, and more information can be found [here](https://madaidans-insecurities.github.io/linux.html#firejail).
+[Firejail](https://firejail.wordpress.com/) is another method of sandboxing. As it is a large [setuid](https://en.wikipedia.org/wiki/Setuid) binary it has a large [attack surface](https://en.wikipedia.org/wiki/Attack_surface) which may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation).
 
-## Application confinement
-
-### gVisor
-Most container based solutions are not the ideal approach for app sandboxing, as they typically share the same kernel as the host for performance reasons. Vulnerabilities in the host's kernel could lead to container breakouts and sandbox bypasses.
-
-If you are using Docker, it is highly recommended that you use the [gVisor](https://gvisor.dev) runtime which implements a pseudo kernel for each application container and limits their direct access to the host's kernel.
+The main risk is that Firejail may make the system safer from processes confined by it, but make it also less safe from processes running outside of Firejail. We don't recommend the use of Firejail, and more information can be found [here](https://madaidans-insecurities.github.io/linux.html#firejail).
 
 ### Mandatory Access Control
-Mandatory access control systems on Linux Desktop are largely ineffective policies/profiles; however, it is still worth it to keep them enabled.
+[Mandatory access control](https://en.wikipedia.org/wiki/Mandatory_access_control) systems require policy files in order to force constraints on the system.
 
-On Fedora, SELinux comes preconfigured with targetted policies and will confine system daemons out of the box. We recommend that you never turn off SELinux or put it into permissive mode on Fedora.
+The two main control systems are [SELinux](https://en.wikipedia.org/wiki/Security-Enhanced_Linux) (used on Android and Fedora) and [AppArmor](https://en.wikipedia.org/wiki/AppArmor).
 
-On openSUSE, the user has a choice of AppArmor or SELinux during the installation process. We recommend sticking to the default for each variant (AppArmor for Tumbleweed and SELinux for MicroOS). openSUSE's SELinux policies are derived from Fedora.
+Fedora comes with SELinux preconfigured with some policies that will confine [system daemons](https://en.wikipedia.org/wiki/Daemon_(computing)) (background processes). We don't recommend disabling SELinux.
 
-Arch and Arch-based operating systems often do not come with a mandatory access control system out of the box. We highly recommend that you follow the [Arch Wiki](https://wiki.archlinux.org/title/AppArmor) to set up AppArmor.
+openSUSE gives the choice of AppArmor or SELinux during the installation process. We recommend sticking to the default for each variant (AppArmor for [Tumbleweed](https://get.opensuse.org/tumbleweed/) and SELinux for [MicroOS](https://microos.opensuse.org/)). openSUSE's SELinux policies are derived from Fedora.
+
+Arch and Arch-based operating systems often do not come with a mandatory access control system and that must be configured manually for either [AppArmor](https://wiki.archlinux.org/title/AppArmor) or [SELinux](https://wiki.archlinux.org/title/SELinux).
 
 ### Making your own policies/profiles
-For advanced users, you can make your own AppArmor profiles, SELinux policies, Bubblewrap profiles, and Seccomp blacklist to have better confinement of applications. This is quite a tedious and complicated task so we won't go into detail about how to do it here, but we do have a few projects that you could use as reference.
+For advanced users, you can make your own AppArmor profiles, SELinux policies, Bubblewrap profiles, and [seccomp](https://en.wikipedia.org/wiki/Seccomp) blacklist to have better confinement of applications. This is quite a tedious and complicated task so we won't go into detail about how to do it here, but we do have a few projects that you could use as reference.
 
  * Whonix's [AppArmor Everything](https://github.com/Whonix/apparmor-profile-everything)
  * Krathalan's [AppArmor profiles](https://github.com/krathalan/apparmor-profiles)
  * noatsecure's [SELinux templates](https://github.com/noatsecure/hardhat-selinux-templates)
  * Seirdy's [Bubblewrap scripts](https://sr.ht/~seirdy/bwrap-scripts)
+
+### Securing Linux containers
+If you're running a server you may have heard of Linux Containers or Docker, which refer to a kind of [OS-level virtualization](https://en.wikipedia.org/wiki/OS-level_virtualization). Containers are more common in server and development environments where individual apps are built to operate independently.
+
+Products like [GVisor](https://en.wikipedia.org/wiki/GVisor) exist to help secure [Docker](https://en.wikipedia.org/wiki/Docker_(software)) containers. Redhat develops [Podman](https://docs.podman.io/en/latest/) and secures it with SELinux to [isolate](https://www.redhat.com/sysadmin/apparmor-selinux-isolation) containers from eachother. One of the notable differences between Docker and Podman is that Docker requires [root](https://en.wikipedia.org/wiki/Superuser) while Podman can run with [rootless containers](https://developers.redhat.com/blog/2020/09/25/rootless-containers-with-podman-the-basics).
+
+These container technologies can be useful even for enthusiastic home users who may want to run certain web app software on their local area network (LAN) such as [vaultwarden](https://github.com/dani-garcia/vaultwarden) or images provided by [linuxserver.io](https://www.linuxserver.io) to increase privacy by decreasing dependence on various web services.
 
 ## Advanced Hardenening options
 
