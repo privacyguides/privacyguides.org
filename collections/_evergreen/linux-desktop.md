@@ -81,7 +81,7 @@ Atomic updating distributions apply updates in full or not at all. Typically tra
 
 A transactional update system, creates a snapshot that is made before and after an update is applied. If an update fails part of the way through (perhaps because of a power failure), rolling the update back to the "last known good state" is easy.
 
-For fast-moving distributions like [Silverblue](https://www.youtube.com/watch?v=-hpV5l-gJnQ), Tumbleweed and NixOS reliability can be achieved with this model.
+For fast-moving distributions like the [immutable desktop OS, Silverblue](https://www.youtube.com/watch?v=-hpV5l-gJnQ), Tumbleweed and NixOS reliability can be achieved with this model.
 
 ### "Security-focused" distributions
 There is often some confusion about "security-focused" distributions and "pentesting" distributions. A quick search for "the most secure Linux distribution" will often give results like Kali Linux, Black Arch, and Parrot OS.  These distributions are offensive penetration testing distributions, that bundle tools for testing other systems. They don't include any "extra security" or defensive mitigations intended for regular use.
@@ -118,7 +118,9 @@ Fedora based distributions [use ZRAM](https://fedoraproject.org/wiki/Changes/Swa
 
 ### Wayland
 
-We recommend using a desktop environment that supports the [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) display protocol as it developed with security [in mind](https://lwn.net/Articles/589147/) unlike it's predecessor, [X11](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html). Fortunately common environments such as [GNOME](https://www.gnome.org), [KDE](https://kde.org) and the window manager [Sway](https://swaywm.org) have support for Wayland. Some distributions like Fedora and Tumbleweed use it by default and some others may do so in the future as X11 is in [hard maitenance mode](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly). If you're using one of those environments it is as easy as selecting the "Wayland" session at the desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [KDM](https://en.wikipedia.org/wiki/KDE_Display_Manager)).
+We recommend using a desktop environment that supports the [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) display protocol as it developed with security [in mind](https://lwn.net/Articles/589147/) unlike it's predecessor, [X11](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html).
+
+Fortunately common environments such as [GNOME](https://www.gnome.org), [KDE](https://kde.org) and the window manager [Sway](https://swaywm.org) have support for Wayland. Some distributions like Fedora and Tumbleweed use it by default and some others may do so in the future as X11 is in [hard maitenance mode](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly). If you're using one of those environments it is as easy as selecting the "Wayland" session at the desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [KDM](https://en.wikipedia.org/wiki/KDE_Display_Manager)).
 
 We recommend **against** using desktop environments or window managers that do not have Wayland support such as Cinnamon (default on Linux Mint), Pantheon (default on Elemetary OS) MATE, XFCE and i3.
 
