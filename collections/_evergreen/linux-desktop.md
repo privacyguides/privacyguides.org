@@ -169,7 +169,7 @@ openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to
 
 Some sandboxing solutions for desktop Linux distributions do exist, however they are not as strict as those found in MacOS or ChromeOS. Applications installed from the package manager (`dnf`, `apt`, etc.) typically have sandboxing or confinement whatsoever. Below are a few projects that aim to solve this problem:
 
-### **1. Flatpak**
+### Flatpak
 [Flatpak](https://flatpak.org) aims to be a universal package manager for Linux. One of it's main goals is to provide a universal package format which can be used in most Linux distributions. It provides some [permission control](https://docs.flatpak.org/en/latest/sandbox-permissions.html). Madaidan [points out](https://madaidans-insecurities.github.io/linux.html#flatpak) Flatpak sandboxing could be improved as particular Flatpaks often have greater permission than required. There does seem to be [some agreement](https://theevilskeleton.gitlab.io/2021/02/11/response-to-flatkill-org.html) that is the case.
 
 Users can restrict applications further by issuing [flatpak overrides](https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-override) and this can be done with the commandline or by using [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal). Some sample overrides can be founded [here](https://github.com/tommytran732/Flatpak-Overrides).
@@ -186,9 +186,8 @@ We also recommend restricting broad filesystem permissions such as `filesystem=h
 
 Hard-coded access to some kernel interfaces like [`/sys`](https://en.wikipedia.org/wiki/Sysfs) and [`/proc`](https://en.wikipedia.org/wiki/Procfs#Linux) and a weak [seccomp](https://en.wikipedia.org/wiki/Seccomp) filters unfortunately cannot be solved by the user.
 
-#### **2. Firejail**
-
-Firejail is another common sandboxing technique. However, it is a giant SUID binary and has a large attack surface. In short, Firejail makes the system safer from processes that are confined by it, but less safe from processes running outside of it. In general, the usage of Firejail is not recommended. More information on this can be found in Madaidan's [article](https://madaidans-insecurities.github.io/linux.html#firejail).
+### Firejail
+[Firejail](https://firejail.wordpress.com/) is another method of sandboxing. As it uses [setuid](https://en.wikipedia.org/wiki/Setuid), we believe it has a large [attack surface](https://en.wikipedia.org/wiki/Attack_surface) which may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation). The risk is that Firejail may make the system safer from processes confined by it, but make it also less safe from processes running outside of Firejail. We don't recommend the use of Firejail, and more information can be found [here](https://madaidans-insecurities.github.io/linux.html#firejail).
 
 ## Application confinement
 
