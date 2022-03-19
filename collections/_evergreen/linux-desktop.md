@@ -187,7 +187,7 @@ We also recommend restricting broad filesystem permissions such as `filesystem=h
 Hard-coded access to some kernel interfaces like [`/sys`](https://en.wikipedia.org/wiki/Sysfs) and [`/proc`](https://en.wikipedia.org/wiki/Procfs#Linux) and a weak [seccomp](https://en.wikipedia.org/wiki/Seccomp) filters unfortunately cannot be solved by the user.
 
 ### Firejail
-[Firejail](https://firejail.wordpress.com/) is another method of sandboxing. As it uses [setuid](https://en.wikipedia.org/wiki/Setuid), we believe it has a large [attack surface](https://en.wikipedia.org/wiki/Attack_surface) which may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation). The risk is that Firejail may make the system safer from processes confined by it, but make it also less safe from processes running outside of Firejail. We don't recommend the use of Firejail, and more information can be found [here](https://madaidans-insecurities.github.io/linux.html#firejail).
+[Firejail](https://firejail.wordpress.com/) is another method of sandboxing. As is a large [setuid](https://en.wikipedia.org/wiki/Setuid) binary it has a large [attack surface](https://en.wikipedia.org/wiki/Attack_surface) which may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation). The risk is that Firejail may make the system safer from processes confined by it, but make it also less safe from processes running outside of Firejail. We don't recommend the use of Firejail, and more information can be found [here](https://madaidans-insecurities.github.io/linux.html#firejail).
 
 ## Application confinement
 
