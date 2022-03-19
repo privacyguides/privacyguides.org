@@ -165,23 +165,32 @@ This [option](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-bot
 
 openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, and that can be disabled by deleting the `/var/lib/zypp/AnonymousUniqueId` file.
 
-## Application confinement
+## Sandboxing
 
-### Sandboxing
-On Linux, app sandboxing and access control are extremely lacking compared to macOS and ChromeOS. User applications installed via traditional package managers typically have no confinement whatsoever. We will discuss a few common sandboxing methods below:
+Some sandboxing solutions for desktop Linux distributions do exist, however they are not as strict as those found in MacOS or ChromeOS. Applications installed from the package manager (`dnf`, `apt`, etc.) typically have sandboxing or confinement whatsoever. Below are a few projects that aim to solve this problem:
 
-#### **1. Flatpak**
-[Flatpak](https://flatpak.org/) first and foremost is a universal package manager for Linux. Its primary function so to be a package format which can be used in most Linux distributions. However, it does come with the benefit of giving the user some form of permission control.
+### **1. Flatpak**
+[Flatpak](https://flatpak.org) aims to be a universal package manager for Linux. One of it's main goals is to provide a universal package format which can be used in most Linux distributions. It provides some [permission control](https://docs.flatpak.org/en/latest/sandbox-permissions.html). Madaidan [points out](https://madaidans-insecurities.github.io/linux.html#flatpak) Flatpak sandboxing could be improved as particular Flatpaks often have greater permission than required. There does seem to be [some agreement](https://theevilskeleton.gitlab.io/2021/02/11/response-to-flatkill-org.html) that is the case.
 
-It should be noted that Flatpak's sandbox is quite weak, as laid out in [this article](https://madaidans-insecurities.github.io/linux.html#flatpak).
+Users can restrict applications further by issuing [flatpak overrides](https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-override) and this can be done with the commandline or by using [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal). Some sample overrides can be founded [here](https://github.com/tommytran732/Flatpak-Overrides).
 
-The problem with Flatpak's lax high level permissions could be mitigated by using an application called [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal). Consider revoking the access to the network socket (internet access), the pulse audio socket (for both audio in and out), `device=all` (access to all devices including the camera), and `org.freedesktop.secrets` dbus (access to secrets stored on your keychain) for applications which do not need it. If an application works natively with Wayland (and not running through the XWayland compatibility layer), consider revoking its access to the X11 socket as well. Broad filesystem permissions. This entails `filesystem=home` and `filesystem=host` should be revoked and replaced with just the directories the app should be allowed to access. Some sample overrides can be founded [here](https://github.com/tommytran732/Flatpak-Overrides).
+We generally recommend revoking access to:
 
-However, problems like hard-coded access to some kernel interfaces like `/sys` and `/proc` and a weak seccomp filter still remain and cannot be solved by the user.
+* the network socket (internet access)
+* the pulse audio socket (for both audio in and out), `device=all` (access to all devices including the camera)
+* `org.freedesktop.secrets` dbus (access to secrets stored on your keychain) for applications which do not need it.
+
+If an application works natively with Wayland (and not running through the [XWayland](https://wayland.freedesktop.org/xserver.html) compatibility layer), consider revoking its access to the X11 socket as well.
+
+We also recommend restricting broad filesystem permissions such as `filesystem=home` and `filesystem=host` should be revoked and replaced with just the directories the app should be allowed to access.
+
+Hard-coded access to some kernel interfaces like [`/sys`](https://en.wikipedia.org/wiki/Sysfs) and [`/proc`](https://en.wikipedia.org/wiki/Procfs#Linux) and a weak [seccomp](https://en.wikipedia.org/wiki/Seccomp) filters unfortunately cannot be solved by the user.
 
 #### **2. Firejail**
 
 Firejail is another common sandboxing technique. However, it is a giant SUID binary and has a large attack surface. In short, Firejail makes the system safer from processes that are confined by it, but less safe from processes running outside of it. In general, the usage of Firejail is not recommended. More information on this can be found in Madaidan's [article](https://madaidans-insecurities.github.io/linux.html#firejail).
+
+## Application confinement
 
 ### gVisor
 Most container based solutions are not the ideal approach for app sandboxing, as they typically share the same kernel as the host for performance reasons. Vulnerabilities in the host's kernel could lead to container breakouts and sandbox bypasses.
