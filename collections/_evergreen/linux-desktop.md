@@ -211,11 +211,13 @@ For advanced users, you can make your own AppArmor profiles, SELinux policies, B
  * Seirdy's [Bubblewrap scripts](https://sr.ht/~seirdy/bwrap-scripts)
 
 ### Securing Linux containers
-If you're running a server you may have heard of Linux Containers or Docker, which refer to a kind of [OS-level virtualization](https://en.wikipedia.org/wiki/OS-level_virtualization). Containers are more common in server and development environments where individual apps are built to operate independently.
+If you're running a server you may have heard of Linux Containers, Docker, or Podman which refer to a kind of [OS-level virtualization](https://en.wikipedia.org/wiki/OS-level_virtualization). Containers are more common in server and development environments where individual apps are built to operate independently.
+
+Redhat develops [Podman](https://docs.podman.io/en/latest/) and secures it with SELinux to [isolate](https://www.redhat.com/sysadmin/apparmor-selinux-isolation) containers from eachother. One of the notable differences between Docker and Podman is that Docker requires [root](https://en.wikipedia.org/wiki/Superuser) while Podman can run with [rootless containers](https://developers.redhat.com/blog/2020/09/25/rootless-containers-with-podman-the-basics) that are also [daemonless](https://developers.redhat.com/blog/2018/08/29/intro-to-podman).
 
 When using [Docker](https://en.wikipedia.org/wiki/Docker_(software)), we recommend using the [gVisor](https://en.wikipedia.org/wiki/GVisor) runtime which implements an application level kernel. This limits the number of [syscalls](https://en.wikipedia.org/wiki/System_call) an application can make and can help isolate it from the host's kernel.
 
-Redhat develops [Podman](https://docs.podman.io/en/latest/) and secures it with SELinux to [isolate](https://www.redhat.com/sysadmin/apparmor-selinux-isolation) containers from eachother. One of the notable differences between Docker and Podman is that Docker requires [root](https://en.wikipedia.org/wiki/Superuser) while Podman can run with [rootless containers](https://developers.redhat.com/blog/2020/09/25/rootless-containers-with-podman-the-basics), however this is less of an issue if you're using gVisor.
+Another option is [Kata containers](https://katacontainers.io/), where virtual machines masquerade as containers. Each Kata container has its own Linux kernel and is isolated from the host.
 
 These container technologies can be useful even for enthusiastic home users who may want to run certain web app software on their local area network (LAN) such as [vaultwarden](https://github.com/dani-garcia/vaultwarden) or images provided by [linuxserver.io](https://www.linuxserver.io) to increase privacy by decreasing dependence on various web services.
 
