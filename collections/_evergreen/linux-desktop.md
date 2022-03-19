@@ -143,7 +143,7 @@ If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancill
 
 ### Other identifiers
 
-There are other system [identifiers](https://madaidans-insecurities.github.io/guides/linux-hardening.html#identifiers) which you may wish to be careful about. You should give this some thought to see if it applies to your [threat model](/threat-modeling).
+There are other system [identifiers](https://madaidans-insecurities.github.io/guides/linux-hardening.html#identifiers) which you may wish to be careful about. You should give this some thought to see if it applies to your [threat model](/threat-modeling):
 
 #### Hostnames and usernames
 
@@ -159,9 +159,11 @@ A unique [Machine ID](https://www.man7.org/linux/man-pages/man5/machine-id.5.htm
 
 ### System counting
 
-Fedora has fairly interesting [mechanism](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting) which does not involve using unique ID's to count its users. According to their man pages, it appears to be off by default for DNF based systems right now. However, if you are uncomfortable with this, we recommend adding `countme=false` to `/etc/dnf/dnf.conf` just in case it is enabld in the future. On rpm-ostree based systems, follow [this guide](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems/) to disable system counting.
+The Fedora project [counts](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting) how many unique systems access it's mirrors by counting using a ID on the system. They do this to determine load and provision better servers for updates where necessary.
 
-openSUSE uses a unique ID system to track the number of installations by default. Consider following [this guide](https://en.opensuse.org/openSUSE:Statistics) to opt out.
+This [option](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) appears to be off by default. We recommend adding `countme=false` to `/etc/dnf/dnf.conf` just in case it is enabled in the future. On systems that use `rpm-ostree` such as Silverblue, the countme option is disabled by [masking the rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems/) timer.
+
+openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, and that can be disabled by deleting the `/var/lib/zypp/AnonymousUniqueId` file.
 
 ## Application confinement
 
