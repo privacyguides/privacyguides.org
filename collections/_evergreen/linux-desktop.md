@@ -143,7 +143,19 @@ If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancill
 
 ### Other identifiers
 
-Consider following section [10.1](https://madaidans-insecurities.github.io/guides/linux-hardening.html#hostnames), [10.2](https://madaidans-insecurities.github.io/guides/linux-hardening.html#timezones-locales-keymaps), and [10.3](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id) on Madaidan's [hardening guide](https://madaians-insecurities.github.io/guides/linux-hardening.html#identifiers).
+There are other system [identifiers](https://madaidans-insecurities.github.io/guides/linux-hardening.html#identifiers) which you may wish to be careful about. You should give this some thought to see if it applies to your [threat model](/threat-modeling).
+
+#### Hostnames and usernames
+
+Do not put anything uniquely indentifying in your hostname or username. Keep them as generic names, such as "host" and "user", so you cannot be identified by them.
+
+#### Timezones / Locales / Keymaps
+
+If possible, your timezone should be set to "UTC" and your locale and keymap to "US".
+
+#### Machine ID
+
+A unique [Machine ID](https://www.man7.org/linux/man-pages/man5/machine-id.5.html) is stored in `/var/lib/dbus/machine-id` and on systemd systems, `/etc/machine-id` also. These should be edited to something generic, such as the [Whonix ID](https://github.com/Whonix/dist-base-files/blob/master/etc/machine-id): `b08dfa6083e7567a1921a715000001fb`
 
 ### System counting
 
