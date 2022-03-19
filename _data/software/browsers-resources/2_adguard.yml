@@ -2,12 +2,17 @@ title: AdGuard for Safari
 type: Recommendation
 logo: /assets/img/browsers/adguard.svg
 description: |
-  **AdGuard for Safari** is a free and open-source) content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+  **AdGuard for Safari** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker). We suggest enabling the filters labled *#recommended* under the "Ad Blocking" and "Privacy" [content blockers](https://kb.adguard.com/en/safari/overview#content-blockers). The *#recommended* filters can also be enabled for the "Social Widgets" and "Annoyances" content blockers, but they may break some social media functions.
 
-  There is also [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html) which is able to perform system wide adblocking.
+  Additional filter lists do slow things down and may increase your [attack surface](https://en.wikipedia.org/wiki/Attack_surface), so only apply what you need.
+
+  There is also [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html) which is able to perform system-wide content blocking by means of DNS filtering.
 website: 'https://adguard.com/en/adguard-safari/overview.html'
+privacy_policy: 'https://adguard.com/en/privacy/safari.html'
 downloads:
-  - icon: fab fa-app-store-ios
+  - icon: fab fa-safari
     url: 'https://apps.apple.com/app/adguard-for-safari/id1440147259'
+  - icon: fab fa-app-store-ios
+    url: 'https://apps.apple.com/app/apple-store/id1047223162'
   - icon: fab fa-github
     url: 'https://github.com/AdguardTeam/AdGuardForSafari'
