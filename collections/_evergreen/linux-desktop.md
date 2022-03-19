@@ -217,25 +217,35 @@ Products like [GVisor](https://en.wikipedia.org/wiki/GVisor) exist to help secur
 
 These container technologies can be useful even for enthusiastic home users who may want to run certain web app software on their local area network (LAN) such as [vaultwarden](https://github.com/dani-garcia/vaultwarden) or images provided by [linuxserver.io](https://www.linuxserver.io) to increase privacy by decreasing dependence on various web services.
 
-## Advanced Hardenening options
+## Additional Hardening
 
 ### Firewalls
-You should have an inbound Firewall to block connections to your computer at all times. Consider Red Hat's [documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_networking/using-and-configuring-firewalld_configuring-and-managing-networking) on how to setup Firewalld or Ubuntu's [documentation](https://help.ubuntu.com/community/UFW) on how to setup UFW.
 
-Fedora comes with Firewalld by default; however, their rules are very permissive by default. Consider closing port 1000-65535 with both TCP and UDP after the operating system installation. You should also remove the whitelist for `smb-client` and `mdns` services if you do not use them.
+A [firewall](https://en.wikipedia.org/wiki/Firewall_(computing)) may be used to secure connections to your system. If you're on a public network the necessity of this may be greater than if you're on a local trusted network that you control.
 
-For unconfined applications, solutions like [OpenSnitch](https://github.com/evilsocket/opensnitch) and [Portmaster](https://safing.io/portmaster/) may help.
+We would generally recommend that you only block incoming connections only, unless you're using an application firewall such as [OpenSnitch](https://github.com/evilsocket/opensnitch) or [Portmaster](https://safing.io/portmaster/).
 
-Keep in mind that you are still assuming that none of your apps are malicious, because these Firewalls are based on IPTables/Nftables and a malicious app can simply add its own IPTables/Nftables rule higher up in the chain to bypass it.
+Redhat distributions (such as Fedora) are typically configured through [firewalld](https://en.wikipedia.org/wiki/Firewalld). Redhat has plenty of [documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_networking/using-and-configuring-firewalld_configuring-and-managing-networking) regarding this topic. There is also the [uncomplicated firewall](https://en.wikipedia.org/wiki/Uncomplicated_Firewall) which can be used as an alternative.
 
-If you are using Flatpak packages, you can revoke their network socket access using Flatseal and prevent them from accessing your network. This permission is not bypassable.
+As for what to block, consider blocking all ports which are **not** [system or well known](https://en.wikipedia.org/wiki/Registered_port) range such as 1000 up to 65535 with both [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) and [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) after the operating system is installed.
 
-If you are using non-classic Snap packages on a system with proper snap confinement support (with both AppArmor and CGroupsv1 present), you can use the Snap Store to revoke network permission as well. This is also not bypassable.
+If you use Fedora consider removing the whitelist for for [smb](https://en.wikipedia.org/wiki/Server_Message_Block)-client and [mdns](https://en.wikipedia.org/wiki/Multicast_DNS) services if you do not use them.
+
+All these firewalls use the [Netfilter](https://en.wikipedia.org/wiki/Netfilter) framework and therefore cannot protect against malicious programs running on the system. A malicious program could insert it's o wn rules.
+
+If you are using Flatpak packages, you can revoke their network socket access using Flatseal and prevent those applications from accessing your network. This permission is not bypassable.
+
+If you are using non-classic [Snap](https://en.wikipedia.org/wiki/Snap_(package_manager)) packages on a system with proper snap confinement support (with both AppArmor and [CGroupsv1](https://en.wikipedia.org/wiki/Cgroups) present), you can use the Snap Store to revoke network permission as well. This is also not bypassable.
 
 ### Kernel hardening
-Consider following section [2.2](https://madaidans-insecurities.github.io/guides/linux-hardening.html#sysctl), [2.3](https://madaidans-insecurities.github.io/guides/linux-hardening.html#boot-parameters), and [2.5](https://madaidans-insecurities.github.io/guides/linux-hardening.html#kernel-attack-surface-reduction) on Madaidan's [hardening guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html#identifiers) for sysctl and boot parameters hardening and kernel attack surface reduction.
 
-Note that setting `kernel.unprivileged_userns_clone=0` will stop Flatpak, Podman, Docker, and LXC containers from working. Do not set this flag if you are using those technologies.
+There are some additional kernel hardening options such as configuring [sysctl](https://en.wikipedia.org/wiki/Sysctl#Linux) keys, [kernel command-line parameters](https://www.kernel.org/doc/html/latest/admin-guide/kernel-parameters.html) which are described in the following pages. We don't recommend you change these options unless you learn about what they do.
+
+* [2.2 Sysctl](https://madaidans-insecurities.github.io/guides/linux-hardening.html#sysctl)
+* [2.3 Boot parameters](https://madaidans-insecurities.github.io/guides/linux-hardening.html#boot-parameters)
+* [2.5 Kernel attack surface reduction](https://madaidans-insecurities.github.io/guides/linux-hardening.html#kernel-attack-surface-reduction)
+
+Note that setting `kernel.unprivileged_userns_clone=0` will stop Flatpak, Podman, Docker, and LXC containers from working. Do **not** set this flag if you are using container products.
 
 ### Disabling SMT
 SMT has been the cause of numerous hardware vulnerabilities, and subsequent patches for those vulnerabilities often come with performance penalties that negate most of the performance gain given by SMT. If you followed the "kernel hardening" section above, some kernel parameters already disable SMT. However, if you are not following it, or if the option is available to you, we recommend that you disable it in your firmware as well.
