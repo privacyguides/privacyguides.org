@@ -176,11 +176,11 @@ Users can restrict applications further by issuing [flatpak overrides](https://d
 
 We generally recommend revoking access to:
 
-* the network socket (internet access)
+* the Network (`share=network`) socket (internet access)
 * the pulse audio socket (for both audio in and out), `device=all` (access to all devices including the camera)
 * `org.freedesktop.secrets` dbus (access to secrets stored on your keychain) for applications which do not need it.
 
-If an application works natively with Wayland (and not running through the [XWayland](https://wayland.freedesktop.org/xserver.html) compatibility layer), consider revoking its access to the X11 socket as well.
+If an application works natively with Wayland (and not running through the [XWayland](https://wayland.freedesktop.org/xserver.html) compatibility layer), consider revoking its access to the X11 (`socket=x11`) and [Inter-process communications (IPC)](https://en.wikipedia.org/wiki/Unix_domain_socket) socket  (`share=ipc`) as well.
 
 We also recommend restricting broad filesystem permissions such as `filesystem=home` and `filesystem=host` should be revoked and replaced with just the directories the app should be allowed to access.
 
