@@ -18,9 +18,9 @@ description: "The Domain Name System (DNS) is the phonebook of the Internet. DNS
   After going via the flowchart if you decide to use Encrypted DNS over Normal DNS. We recommend the natively supported methods over third party apps.
 </p>
 
-<center>
-  <picture><source srcset="/assets/img/dns/dns-dark.svg" media="(prefers-color-scheme: dark)"><img class="flowchart" src="/assets/img/dns/dns.svg" alt="DNS flowchart"></picture>
-</center>
+<picture>
+  <source srcset="/assets/img/dns/dns-dark.svg" media="(prefers-color-scheme: dark)"><img class="flowchart" src="/assets/img/dns/dns.svg" alt="DNS flowchart">
+</picture>
 
 ## Encrypted DNS Resolvers
 <p>
