@@ -77,7 +77,12 @@ Atomic updating distributions apply updates in full or not at all. Typically tra
 
 A transactional update system, creates a snapshot that is made before and after an update is applied. If an update fails part of the way through (perhaps because of a power failure), rolling the update back to the "last known good state" is easy.
 
-For fast-moving distributions like the [immutable desktop OS, Silverblue](https://www.youtube.com/watch?v=-hpV5l-gJnQ), Tumbleweed and NixOS reliability can be achieved with this model.
+For fast-moving distributions like Silverblue, Tumbleweed and NixOS reliability can be achieved with this model.
+
+<object width="100%" height="333">
+  <param name="movie" value="https://www.youtube-nocookie.com/embed/-hpV5l-gJnQ">
+  <embed src="https://www.youtube-nocookie.com/embed/-hpV5l-gJnQ" width="100%" height="333">
+</object>
 
 ### "Security-focused" distributions
 There is often some confusion about "security-focused" distributions and "pentesting" distributions. A quick search for "the most secure Linux distribution" will often give results like Kali Linux, Black Arch, and Parrot OS.  These distributions are offensive penetration testing distributions, that bundle tools for testing other systems. They don't include any "extra security" or defensive mitigations intended for regular use.
