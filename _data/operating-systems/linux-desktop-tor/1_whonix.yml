@@ -2,11 +2,11 @@ title: Whonix
 type: Recommendation
 logo: /assets/img/linux-desktop/whonix.svg
 description: |
-  **Whonix** is based on [Kicksecure](https://www.whonix.org/wiki/Kicksecure), a security-focused fork of Debian. It aims to provide privacy, security and anonymity on the internet.
+  **Whonix** is based on [Kicksecure](https://www.whonix.org/wiki/Kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and anonymity on the internet.
 
-  Whonix is meant to run as two virtual machines; a "Workstation" and a Tor "Gateway". All communications from the Workstation has to go through the Tor gateway, and will be routed through the Tor Network.
+  Whonix is meant to run as two virtual machines: a "Workstation" and a Tor "Gateway". All communications from the Workstation has to go through the Tor gateway, and will be routed through the Tor Network.
 
-  Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator) and a hardened memory allocator.
+  Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator.
 
   Future versions of Whonix will likely include [full system Apparmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
