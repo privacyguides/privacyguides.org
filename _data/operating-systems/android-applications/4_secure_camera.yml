@@ -1,6 +1,7 @@
 title: Secure Camera
 type: Recommendation
 logo: /assets/img/android/secure_camera.svg
+logo_dark: /assets/img/android/secure_camera-dark.svg
 description: |
   **Secure Camera** is an camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
 

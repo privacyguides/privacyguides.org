@@ -1,0 +1,15 @@
+title: Secure PDF Viewer
+type: Recommendation
+logo: /assets/img/android/secure_pdf_viewer.svg
+logo_dark: /assets/img/android/secure_pdf_viewer-dark.svg
+description: |
+  **Secure PDF Viewer** is a PDF viewer based on [pdf.js](https://en.wikipedia.org/wiki/PDF.js) that doesn't require any permissions. The PDF is fed into a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development)) [webview](https://developer.android.com/guide/webapps/webview). This means that it doesn't require permission directly to access content or files.
+
+  [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) is used to enforce that the JavaScript and styling properties within the WebView are entirely static content.
+
+website: 'https://github.com/GrapheneOS/PdfViewer'
+downloads:
+  - icon: fab fa-google-play
+    url: 'https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play'
+  - icon: fab fa-github
+    url: 'https://github.com/GrapheneOS/PdfViewer/releases'

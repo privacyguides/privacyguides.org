@@ -1,6 +1,7 @@
 title: Auditor
 type: Recommendation
 logo: /assets/img/android/auditor.svg
+logo_dark: /assets/img/android/auditor-dark.svg
 description: |
   **Auditor** is an app which leverages hardware security features to provide device integrity monitoring for [supported devices](https://attestation.app/about#device-support). It currently works with GrapheneOS and the stock operating system. It performs attestation and intrusion detection by:
 
