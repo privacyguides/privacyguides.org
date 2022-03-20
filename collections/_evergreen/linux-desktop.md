@@ -75,7 +75,7 @@ The most common method that Linux distributions use for updating is the traditio
 
 Atomic updating distributions apply updates in full or not at all. Typically transactional update systems are also atomic.
 
-A transactional update system, creates a snapshot that is made before and after an update is applied. If an update fails part of the way through (perhaps because of a power failure), rolling the update back to the "last known good state" is easy.
+A transactional update system creates a snapshot that is made before and after an update is applied. If an update fails part of the way through (perhaps because of a power failure), rolling the update back to the "last known good state" is easy.
 
 For fast-moving distributions like Silverblue, Tumbleweed and NixOS reliability can be achieved with this model.
 
@@ -85,7 +85,7 @@ For fast-moving distributions like Silverblue, Tumbleweed and NixOS reliability 
 </object>
 
 ### "Security-focused" distributions
-There is often some confusion about "security-focused" distributions and "pentesting" distributions. A quick search for "the most secure Linux distribution" will often give results like Kali Linux, Black Arch, and Parrot OS.  These distributions are offensive penetration testing distributions, that bundle tools for testing other systems. They don't include any "extra security" or defensive mitigations intended for regular use.
+There is often some confusion about "security-focused" distributions and "pentesting" distributions. A quick search for "the most secure Linux distribution" will often give results like Kali Linux, Black Arch, and Parrot OS.  These distributions are offensive penetration testing distributions that bundle tools for testing other systems. They don't include any "extra security" or defensive mitigations intended for regular use.
 
 ### Arch-based distributions
 
@@ -113,18 +113,18 @@ If this option isn't set at installation time, the user will have to backup thei
 
 ### Swap
 
-Consider using [ZRAM](https://wiki.archlinux.org/title/Swap#zram-generator) or [encrypted SWAP](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) instead of unencrypted swap to avoid potential security issues with sensitive data being pushed to [swap space](https://en.wikipedia.org/wiki/Memory_paging). Fedora based distributions [use ZRAM](https://fedoraproject.org/wiki/Changes/SwapOnZRAM), by default.
+Consider using [ZRAM](https://wiki.archlinux.org/title/Swap#zram-generator) or [encrypted SWAP](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) instead of unencrypted swap to avoid potential security issues with sensitive data being pushed to [swap space](https://en.wikipedia.org/wiki/Memory_paging). Fedora based distributions [use ZRAM](https://fedoraproject.org/wiki/Changes/SwapOnZRAM) by default.
 
 ### Wayland
 
 We recommend using a desktop environment that supports the [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) display protocol as it developed with security [in mind](https://lwn.net/Articles/589147/) unlike it's predecessor, [X11](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html).
 
-Fortunately common environments such as [GNOME](https://www.gnome.org), [KDE](https://kde.org) and the window manager [Sway](https://swaywm.org) have support for Wayland. Some distributions like Fedora and Tumbleweed use it by default and some others may do so in the future as X11 is in [hard maitenance mode](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly). If you're using one of those environments it is as easy as selecting the "Wayland" session at the desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [KDM](https://en.wikipedia.org/wiki/KDE_Display_Manager)).
+Fortunately, common environments such as [GNOME](https://www.gnome.org), [KDE](https://kde.org) and the window manager [Sway](https://swaywm.org) have support for Wayland. Some distributions like Fedora and Tumbleweed use it by default and some others may do so in the future as X11 is in [hard maitenance mode](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly). If you're using one of those environments it is as easy as selecting the "Wayland" session at the desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [KDM](https://en.wikipedia.org/wiki/KDE_Display_Manager)).
 
 We recommend **against** using desktop environments or window managers that do not have Wayland support such as Cinnamon (default on Linux Mint), Pantheon (default on Elemetary OS) MATE, XFCE and i3.
 
 ### Proprietary firmware (microcode updates)
-Linux distributions such as those which are [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) or DIY (Archlinux), don't come with the proprietary [microcode](https://en.wikipedia.org/wiki/Microcode) updates. Some notable examples of these vulnerabilities include [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)) and other [hardware vulnerabilities](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
+Linux distributions such as those which are [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) or DIY (Archlinux) don't come with the proprietary [microcode](https://en.wikipedia.org/wiki/Microcode) updates. Some notable examples of these vulnerabilities include [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)) and other [hardware vulnerabilities](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
 
 We **highly recommend** that you install the microcode updates, as your CPU is already running the proprietary microcode from the factory.
 
@@ -164,33 +164,33 @@ The Fedora project [counts](https://fedoraproject.org/wiki/Changes/DNF_Better_Co
 
 This [option](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) appears to be off by default. We recommend adding `countme=false` to `/etc/dnf/dnf.conf` just in case it is enabled in the future. On systems that use `rpm-ostree` such as Silverblue, the countme option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems/) timer.
 
-openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, and that can be disabled by deleting the `/var/lib/zypp/AnonymousUniqueId` file.
+openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, which can be disabled by deleting the `/var/lib/zypp/AnonymousUniqueId` file.
 
 ## Sandboxing and Application confinement
 
 Some sandboxing solutions for desktop Linux distributions do exist, however they are not as strict as those found in MacOS or ChromeOS. Applications installed from the package manager (`dnf`, `apt`, etc.) typically have **no** sandboxing or confinement whatsoever. Below are a few projects that aim to solve this problem:
 
 ### Flatpak
-[Flatpak](https://flatpak.org) aims to be a universal package manager for Linux. One of it's main goals is to provide a universal package format which can be used in most Linux distributions. It provides some [permission control](https://docs.flatpak.org/en/latest/sandbox-permissions.html). Madaidan [points out](https://madaidans-insecurities.github.io/linux.html#flatpak) Flatpak sandboxing could be improved as particular Flatpaks often have greater permission than required. There does seem to be [some agreement](https://theevilskeleton.gitlab.io/2021/02/11/response-to-flatkill-org.html) that is the case.
+[Flatpak](https://flatpak.org) aims to be a universal package manager for Linux. One of its main goals is to provide a universal package format which can be used in most Linux distributions. It provides some [permission control](https://docs.flatpak.org/en/latest/sandbox-permissions.html). Madaidan [points out](https://madaidans-insecurities.github.io/linux.html#flatpak) Flatpak sandboxing could be improved as particular Flatpaks often have greater permission than required. There does seem to be [some agreement](https://theevilskeleton.gitlab.io/2021/02/11/response-to-flatkill-org.html) that is the case.
 
-Users can restrict applications further by issuing [flatpak overrides](https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-override) and this can be done with the commandline or by using [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal). Some sample overrides can be founded [here](https://github.com/tommytran732/Flatpak-Overrides).
+Users can restrict applications further by issuing [flatpak overrides](https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-override). This can be done with the commandline or by using [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal). Some sample overrides can be found [here](https://github.com/tommytran732/Flatpak-Overrides).
 
 We generally recommend revoking access to:
 
 * the Network (`share=network`) socket (internet access)
 * the pulse audio socket (for both audio in and out), `device=all` (access to all devices including the camera)
-* `org.freedesktop.secrets` dbus (access to secrets stored on your keychain) for applications which do not need it.
+* `org.freedesktop.secrets` dbus (access to secrets stored on your keychain) for applications which do not need it
 
 If an application works natively with Wayland (and not running through the [XWayland](https://wayland.freedesktop.org/xserver.html) compatibility layer), consider revoking its access to the X11 (`socket=x11`) and [Inter-process communications (IPC)](https://en.wikipedia.org/wiki/Unix_domain_socket) socket  (`share=ipc`) as well.
 
 We also recommend restricting broad filesystem permissions such as `filesystem=home` and `filesystem=host` which should be revoked and replaced with just the directories the app need to be accessed.
 
-Hard-coded access to some kernel interfaces like [`/sys`](https://en.wikipedia.org/wiki/Sysfs) and [`/proc`](https://en.wikipedia.org/wiki/Procfs#Linux) and a weak [seccomp](https://en.wikipedia.org/wiki/Seccomp) filters unfortunately cannot be secured by the user with Flatpak.
+Hard-coded access to some kernel interfaces like [`/sys`](https://en.wikipedia.org/wiki/Sysfs) and [`/proc`](https://en.wikipedia.org/wiki/Procfs#Linux) and weak [seccomp](https://en.wikipedia.org/wiki/Seccomp) filters unfortunately cannot be secured by the user with Flatpak.
 
 ### Firejail
-[Firejail](https://firejail.wordpress.com/) is another method of sandboxing. As it is a large [setuid](https://en.wikipedia.org/wiki/Setuid) binary it has a large [attack surface](https://en.wikipedia.org/wiki/Attack_surface) which may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation).
+[Firejail](https://firejail.wordpress.com/) is another method of sandboxing. As it is a large [setuid](https://en.wikipedia.org/wiki/Setuid) binary, it has a large [attack surface](https://en.wikipedia.org/wiki/Attack_surface) which may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation).
 
-The main risk is that Firejail may make the system safer from processes confined by it, but make it also less safe from processes running outside of Firejail. We don't recommend the use of Firejail, and more information can be found [here](https://madaidans-insecurities.github.io/linux.html#firejail).
+The main risk is that Firejail may make the system safer from processes confined by it, but make it also less safe from processes running outside of Firejail. We [don't recommend](https://madaidans-insecurities.github.io/linux.html#firejail) the use of Firejail.
 
 ### Mandatory Access Control
 [Mandatory access control](https://en.wikipedia.org/wiki/Mandatory_access_control) systems require policy files in order to force constraints on the system.
@@ -214,9 +214,9 @@ For advanced users, you can make your own AppArmor profiles, SELinux policies, B
 ### Securing Linux containers
 If you're running a server you may have heard of Linux Containers, Docker, or Podman which refer to a kind of [OS-level virtualization](https://en.wikipedia.org/wiki/OS-level_virtualization). Containers are more common in server and development environments where individual apps are built to operate independently.
 
-[Docker](https://en.wikipedia.org/wiki/Docker_(software)) is the most popular container solution out there, however, it is not a proper sandbox due to the large kernel attack surface it exposes and it running a big daemon as root, which if it crashes results in your containers all crashing at the same time. The [gVisor](https://en.wikipedia.org/wiki/GVisor) runtime which implements an application level kernel can help limit the number of [syscalls](https://en.wikipedia.org/wiki/System_call) an application can make and can help isolate it from the host's kernel.
+[Docker](https://en.wikipedia.org/wiki/Docker_(software)) is the most popular container solution out there; however, it is not a proper sandbox due to the large kernel attack surface it exposes and it running a big daemon as root, which if it crashes results in your containers all crashing at the same time. The [gVisor](https://en.wikipedia.org/wiki/GVisor) runtime which implements an application level kernel can help limit the number of [syscalls](https://en.wikipedia.org/wiki/System_call) an application can make and can help isolate it from the host's kernel.
 
-Redhat develops [Podman](https://docs.podman.io/en/latest/) and secures it with SELinux to [isolate](https://www.redhat.com/sysadmin/apparmor-selinux-isolation) containers from eachother. One of the notable differences between Docker and Podman is that Docker requires [root](https://en.wikipedia.org/wiki/Superuser) while Podman can run with [rootless containers](https://developers.redhat.com/blog/2020/09/25/rootless-containers-with-podman-the-basics) that are also [daemonless](https://developers.redhat.com/blog/2018/08/29/intro-to-podman), meaning if one crashes they don't all come down.
+Redhat develops [Podman](https://docs.podman.io/en/latest/) and secures it with SELinux to [isolate](https://www.redhat.com/sysadmin/apparmor-selinux-isolation) containers from each other. One of the notable differences between Docker and Podman is that Docker requires [root](https://en.wikipedia.org/wiki/Superuser) while Podman can run with [rootless containers](https://developers.redhat.com/blog/2020/09/25/rootless-containers-with-podman-the-basics) that are also [daemonless](https://developers.redhat.com/blog/2018/08/29/intro-to-podman), meaning if one crashes they don't all come down.
 
 Another option is [Kata containers](https://katacontainers.io/), where virtual machines masquerade as containers. Each Kata container has its own Linux kernel and is isolated from the host.
 
@@ -228,15 +228,15 @@ These container technologies can be useful even for enthusiastic home users who 
 
 A [firewall](https://en.wikipedia.org/wiki/Firewall_(computing)) may be used to secure connections to your system. If you're on a public network the necessity of this may be greater than if you're on a local trusted network that you control.
 
-We would generally recommend that you only block incoming connections only, unless you're using an application firewall such as [OpenSnitch](https://github.com/evilsocket/opensnitch) or [Portmaster](https://safing.io/portmaster/).
+We would generally recommend that you block incoming connections only, unless you're using an application firewall such as [OpenSnitch](https://github.com/evilsocket/opensnitch) or [Portmaster](https://safing.io/portmaster/).
 
 Redhat distributions (such as Fedora) are typically configured through [firewalld](https://en.wikipedia.org/wiki/Firewalld). Redhat has plenty of [documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_networking/using-and-configuring-firewalld_configuring-and-managing-networking) regarding this topic. There is also the [uncomplicated firewall](https://en.wikipedia.org/wiki/Uncomplicated_Firewall) which can be used as an alternative.
 
 As for what to block, consider blocking all ports which are **not** [system or well known](https://en.wikipedia.org/wiki/Registered_port) range such as 1000 up to 65535 with both [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) and [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) after the operating system is installed.
 
-If you use Fedora consider removing the whitelist for for [smb](https://en.wikipedia.org/wiki/Server_Message_Block)-client and [mdns](https://en.wikipedia.org/wiki/Multicast_DNS) services if you do not use them.
+If you use Fedora, consider removing the whitelist for for [smb](https://en.wikipedia.org/wiki/Server_Message_Block)-client and [mdns](https://en.wikipedia.org/wiki/Multicast_DNS) services if you do not use them.
 
-All these firewalls use the [Netfilter](https://en.wikipedia.org/wiki/Netfilter) framework and therefore cannot protect against malicious programs running on the system. A malicious program could insert it's o wn rules.
+All these firewalls use the [Netfilter](https://en.wikipedia.org/wiki/Netfilter) framework and therefore cannot protect against malicious programs running on the system. A malicious program could insert its own rules.
 
 If you are using Flatpak packages, you can revoke their network socket access using Flatseal and prevent those applications from accessing your network. This permission is not bypassable.
 
