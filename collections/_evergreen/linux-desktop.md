@@ -112,9 +112,7 @@ If this option isn't set at installation time, the user will have to backup thei
 
 ### Swap
 
-Consider using [ZRAM](https://wiki.archlinux.org/title/Swap#zram-generator) or [encrypted SWAP](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) instead of unencrypted swap to avoid potential security issues with sensitive data being pushed to [swap space](https://en.wikipedia.org/wiki/Memory_paging).
-
-Fedora based distributions [use ZRAM](https://fedoraproject.org/wiki/Changes/SwapOnZRAM), by default.
+Consider using [ZRAM](https://wiki.archlinux.org/title/Swap#zram-generator) or [encrypted SWAP](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) instead of unencrypted swap to avoid potential security issues with sensitive data being pushed to [swap space](https://en.wikipedia.org/wiki/Memory_paging). Fedora based distributions [use ZRAM](https://fedoraproject.org/wiki/Changes/SwapOnZRAM), by default.
 
 ### Wayland
 
