@@ -64,12 +64,10 @@ For frozen distributions, package maintainers are expected to backport patches t
 
 We don't believe holding packages back and applying interim patches is a good idea, as it diverges from the way the developer might have intended the software to work. [Richard Brown](https://rootco.de) has a great presentation about this:
 
-
 <object width="100%" height="333">
   <param name="movie" value="https://www.youtube-nocookie.com/embed/i8c0mg_mS7U">
-  <embed src="https://www.youtube-nocookie.com/embed/i8c0mg_mS7U" width="100%" height="333" type="application/x-shockwave-flash">
+  <embed src="https://www.youtube-nocookie.com/embed/i8c0mg_mS7U" width="100%" height="333">
 </object>
-
 
 ### Traditional vs Atomic updates
 
