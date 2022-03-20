@@ -60,7 +60,7 @@ This page uses the term "Linux" to describe desktop GNU/Linux distributions. Oth
 ### Release cycle
 We highly recommend that you choose distributions which stay close to the stable upstream software releases. This is because frozen release cycle distributions often don't update package versions and fall behind on security updates.
 
-For frozen distributions, package maintainers are expected to backport patches to fix vulnerabilities (Debian is one such [example](https://www.debian.org/security/faq#handling)) rather than bump the software to the "next version" released by the upstream developer. Some security fixes [do not](https://arxiv.org/abs/2105.14565) recieve a CVE (particularly less popular software) at all and therefore do not make it into the distribution with this patching model. As a result minor security fixes are sometimes held back until the next major release.
+For frozen distributions, package maintainers are expected to backport patches to fix vulnerabilities (Debian is one such [example](https://www.debian.org/security/faq#handling)) rather than bump the software to the "next version" released by the upstream developer. Some security fixes [do not](https://arxiv.org/abs/2105.14565) recieve a [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (particularly less popular software) at all and therefore do not make it into the distribution with this patching model. As a result minor security fixes are sometimes held back until the next major release.
 
 We don't believe holding packages back and applying interim patches is a good idea, as it diverges from the way the developer might have intended the software to work. [Richard Brown](https://rootco.de/aboutme/) has a presentation about this:
 
@@ -133,9 +133,7 @@ We recommend **against** using desktop environments or window managers that do n
 ### Proprietary firmware (microcode updates)
 Linux distributions such as those which are [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) or DIY (Archlinux) don't come with the proprietary [microcode](https://en.wikipedia.org/wiki/Microcode) updates. Some notable examples of these vulnerabilities include [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)), and other [hardware vulnerabilities](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
 
-We **highly recommend** that you install the microcode updates, as your CPU is already running the proprietary microcode from the factory.
-
-Fedora or openSUSE have the microcode updates applied by default.
+We **highly recommend** that you install the microcode updates, as your CPU is already running the proprietary microcode from the factory. Fedora and openSUSE both have the microcode updates applied by default.
 
 ## Privacy tweaks
 
