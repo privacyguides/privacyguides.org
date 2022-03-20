@@ -8,7 +8,7 @@ description: |
 
   Being a DIY distribution, the user is expected to setup and maintain their system. Since September 2020, Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
 
-  A large portion of [Arch Linux's packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org").
+  A large portion of [Arch Linux's packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org).
 
 website: 'https://archlinux.org'
 privacy_policy: 'https://wiki.archlinux.org/index.php/ArchWiki:Privacy_policy'

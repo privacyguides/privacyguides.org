@@ -13,4 +13,4 @@ description: |
   As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/) to create [Podman](https://podman.io) containers with a shared home directory with the host operating system and mimic a traditional Fedora environment, which is a [useful feature](https://containertoolbx.org) for the discerning developer.
 
 website: 'https://silverblue.fedoraproject.org'
-privacy_policy: 'https://fedoraproject.org/wiki/Legal:PrivacyPolicy#:~:text=Fedora%20may%20share%20your%20personal,described%20in%20this%20Privacy%20Statement.'
+privacy_policy: 'https://fedoraproject.org/wiki/Legal:PrivacyPolicy#Sharing_Your_Personal_Data'
