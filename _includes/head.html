@@ -25,6 +25,10 @@
     {{ site.data.schema.organization | jsonify }}
   </script>
 
+  <!-- blog feeds -->
+  <link rel="alternate" title="Blog (JSON feed)" type="application/json" href="/feed.json" />
+  <link rel="alternate" title="Blog (Atom feed)" type="application/rss+xml" href="/feed.xml" />
+
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/layout/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/layout/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/layout/favicon-16x16.png">
