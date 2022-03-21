@@ -98,7 +98,7 @@ description: "Don't let Google see all your DNS traffic. Discover privacy-centri
 </p>
 
 <p>
-  Apple does not provide a native interface for creating encrypted DNS profiles. <a href="Secure DNS profile creator">Secure DNS profile creator</a> is an <strong>unofficial</strong> tool for creating your own encrypted DNS profiles, however they will not be signed. Signed profiles are preferred; signing validates a profile's origin and helps to ensure the integrity of the profiles. A green "Verified" label is given to signed configuration profiles.
+  Apple does not provide a native interface for creating encrypted DNS profiles. <a href="Secure DNS profile creator">Secure DNS profile creator</a> is an <strong>unofficial</strong> tool for creating your own encrypted DNS profiles, however they will not be signed. Signed profiles are preferred; signing validates a profile's origin and helps to ensure the integrity of the profiles. A green "Verified" label is given to signed configuration profiles. For more information on code signing, see <a href="">About Code Signing</a>.
 </p>
 
 <ul>
