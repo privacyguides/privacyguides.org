@@ -24,7 +24,6 @@ Privacy Guides additionally does not warrant that this website will be constantl
 This does not include third-party code embedded in this repository, or code where a superseding license is otherwise noted. The following are notable examples, but this list may not be all-inclusive:
 
 - [Sortable](https://github.com/privacyguides/privacyguides.org/blob/main/assets/js/sortable.min.js) is under the MIT license. See: [github.com/HubSpot/sortable/raw/master/LICENSE](https://github.com/HubSpot/sortable/raw/master/LICENSE)
-- The [PrivacyTools fonts and icons](https://github.com/privacyguides/privacyguides.org/tree/main/assets/fonts/ptio-font) are under ISC license. See: [github.com/privacytools/privacytools.io/blob/master/font/LICENSE](https://github.com/privacytools/privacytools.io/blob/master/font/LICENSE).
 
 Portions of this notice itself were adopted from [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) on GitHub. That resource and this page itself are released under [CC-BY-4.0](https://github.com/github/opensource.guide/blob/master/LICENSE).
 
