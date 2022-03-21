@@ -87,13 +87,22 @@ description: "Don't let Google see all your DNS traffic. Discover privacy-centri
 
 ## Native Operating System Support
 
+### Apple Devices
+
 <p>
-  In iOS, iPadOS, tvOS 14 and macOS 11, DoT and DoH were introduced. DoT and DoH are supported natively by installation of profiles (through mobileconfig files opened in <em>Safari</em>).
-  After installation, the encrypted DNS server can be selected in <em>Settings &rarr; General &rarr; VPN and Network &rarr; DNS</em>.
+  The latest versions of iOS, iPadOS, tvOS, and macOS, support both DoT and DoH. DoT and DoH are supported natively via <a href="https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web">configuration profiles</a> or through the <a href="https://developer.apple.com/documentation/networkextension/dns_settings">DNS Settings API</a>.
+</p>
+
+<p>
+  After installation of either a configuration profile or an app that utilizes the DNS Settings API, the encrypted DNS server can be selected in <em>Settings &rarr; General &rarr; VPN, DNS, & Device Management &rarr; DNS</em>. If a VPN is active, resolution within the VPN tunnel will use the VPN's DNS settings and not your system-wide settings.
+</p>
+
+<p>
+  Apple does not provide a native interface for creating encrypted DNS profiles. <a href="Secure DNS profile creator">Secure DNS profile creator</a> is an <strong>unofficial</strong> tool for creating your own encrypted DNS profiles, however they will not be signed. Signed profiles are preferred; signing validates a profile's origin and helps to ensure the integrity of the profiles. A green "Verified" label is given to signed configuration profiles.
 </p>
 
 <ul>
-  <li><strong>Signed profiles</strong> are offered by <a href="https://adguard.com/en/blog/encrypted-dns-ios-14.html">AdGuard</a> and <a href="https://apple.nextdns.io/">NextDNS</a>.</li>
+  <li><strong>Signed profiles</strong> are offered by <a href="https://adguard.com/en/blog/encrypted-dns-ios-14.html">AdGuard</a>, <a href="https://apple.nextdns.io/">NextDNS</a>, and <a href="https://kb.controld.com/en/tutorials">ControlD</a>.</li>
 </ul>
 
 ## Definitions
