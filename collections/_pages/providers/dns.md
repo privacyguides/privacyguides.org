@@ -90,7 +90,7 @@ description: "Don't let Google see all your DNS traffic. Discover privacy-centri
 ### Apple Devices
 
 <p>
-  The latest versions of iOS, iPadOS, tvOS, and macOS, support both DoT and DoH. DoT and DoH are supported natively via <a href="https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web">configuration profiles</a> or through the <a href="https://developer.apple.com/documentation/networkextension/dns_settings">DNS Settings API</a>.
+  The latest versions of iOS, iPadOS, tvOS, and macOS, support both DoT and DoH. Both protocols are supported natively via <a href="https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web">configuration profiles</a> or through the <a href="https://developer.apple.com/documentation/networkextension/dns_settings">DNS Settings API</a>.
 </p>
 
 <p>
