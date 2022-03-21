@@ -94,7 +94,7 @@ description: "Don't let Google see all your DNS traffic. Discover privacy-centri
 </p>
 
 <p>
-  After installation of either a configuration profile or an app that utilizes the DNS Settings API, the encrypted DNS server can be selected in <em>Settings &rarr; General &rarr; VPN, DNS, & Device Management &rarr; DNS</em>. If a VPN is active, resolution within the VPN tunnel will use the VPN's DNS settings and not your system-wide settings.
+  After installation of either a configuration profile or an app that utilizes the DNS Settings API, the DNS configuration can be selected in <em>Settings &rarr; General &rarr; VPN, DNS, & Device Management &rarr; DNS</em>. If a VPN is active, resolution within the VPN tunnel will use the VPN's DNS settings and not your system-wide settings.
 </p>
 
 <p>
@@ -102,7 +102,7 @@ description: "Don't let Google see all your DNS traffic. Discover privacy-centri
 </p>
 
 <ul>
-  <li><strong>Signed profiles</strong> are offered by <a href="https://adguard.com/en/blog/encrypted-dns-ios-14.html">AdGuard</a>, <a href="https://apple.nextdns.io/">NextDNS</a>, and <a href="https://kb.controld.com/en/tutorials">ControlD</a>.</li>
+  <li><strong>Signed profiles</strong> are offered by <a href="https://adguard.com/en/blog/encrypted-dns-ios-14.html">AdGuard</a>, <a href="https://kb.controld.com/en/tutorials">ControlD</a>, and <a href="https://apple.nextdns.io/">NextDNS</a>.</li>
 </ul>
 
 ## Definitions
