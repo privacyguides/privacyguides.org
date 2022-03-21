@@ -1,3 +1,7 @@
+window.onload = function () {
+  var navbar = document.querySelector('nav');
+  navbar.classList.remove('noscript');
+}
 document.querySelectorAll(".onclick-select").forEach(element => {
   element.addEventListener("click", element.select);
 });

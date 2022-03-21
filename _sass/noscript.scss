@@ -1,0 +1,13 @@
+.noscript {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    right: 0;
+    left: auto;
+  }
+  .navbar-toggler {
+    display: none;
+  }
+  #navbarSupportedContent {
+    display: block;
+  }
+}
