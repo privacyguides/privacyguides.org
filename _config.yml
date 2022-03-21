@@ -31,7 +31,6 @@ kramdown:
 
 # Build settings
 plugins:
-  - jekyll-feed
   - jekyll-brotli
   - jekyll-sitemap
 exclude: [privacytools.io/]
