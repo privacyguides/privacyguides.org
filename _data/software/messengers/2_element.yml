@@ -14,7 +14,7 @@ description: |
 
   Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE, and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Group calls have [no authentication](https://github.com/vector-im/element-web/issues/13074) currently, meaning that non room participants can also join the calls. We recommend that you do not use this feature for private meetings.
 
-  When using [element-web](https://github.com/vector-im/element-web), you must trust the server hosting the Element client. If your [threat model](/threat-modeling) requires stronger protection then use a desktop or mobile client instead.
+  When using [element-web](https://github.com/vector-im/element-web), you must trust the server hosting the Element client. If your [threat model](/threat-modeling) requires stronger protection, then use a desktop or mobile client instead.
 
   #### Technical information
   The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) in 2016. The specification for the Matrix protocol can be found in their [documentation](https://spec.matrix.org/latest/). The [Olm](https://matrix.org/docs/projects/other/olm) cryptographic ratchet used by Matrix is an implementation of Signal's [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).

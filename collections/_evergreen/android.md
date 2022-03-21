@@ -215,7 +215,7 @@ GrapheneOS doesn't compromise on security, therefore they do not include the F-D
 
 CalyxOS includes the [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged), which may lower device security. Seamless app updates should be possible with [Aurora Store](https://auroraoss.com) in Android 12.
 
-### Additional Hardening
+### Additional hardening
 
 GrapheneOS improves upon [AOSP](https://source.android.com/) security with:
 

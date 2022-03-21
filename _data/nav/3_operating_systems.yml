@@ -9,3 +9,14 @@ items:
     title: iOS
     icon: fab fa-apple
     file: _evergreen/ios.md
+    title: Linux Desktop
+    icon: fab fa-linux
+    file: _evergreen/linux-desktop.md
+  - type: link
+    title: Qubes OS
+    icon: pg-qubes
+    file: _evergreen/qubes.md
+  - type: link
+    title: Router
+    icon: fa-duotone fa-circle-nodes
+    file: _evergreen/router.md

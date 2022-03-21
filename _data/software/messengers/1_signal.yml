@@ -6,7 +6,7 @@ labels: 'color==info::icon==fas fa-fw fa-wifi::text==Centralized::tooltip==All c
 description: |
   **Signal** is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling.
 
-  All communications are E2EE. Contact lists are encrypted using your login PIN and the server does not have access to it. Personal profiles are also encrypted and only shared with contacts who add you.
+  All communications are E2EE. Contact lists are encrypted using your login PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts who add you.
 
   Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender/) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server.
 
@@ -16,7 +16,7 @@ description: |
   [Sealed Sender](https://signal.org/blog/sealed-sender/) is only enabled for users on your contact list but can be enabled for all recipients with the increased risk of receiving spam.
 
   #### Technical information
-  The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be founded in their [documentation](https://signal.org/docs/).
+  The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs/).
 website: 'https://signal.org'
 privacy_policy: 'https://signal.org/legal'
 downloads:

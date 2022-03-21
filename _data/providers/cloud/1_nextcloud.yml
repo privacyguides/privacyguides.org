@@ -19,9 +19,9 @@ downloads:
     url: 'https://nextcloud.com/install/#install-clients'
   - icon: fab fa-freebsd
     url: 'https://www.freshports.org/www/nextcloud/'
-  - icon: ptio-openbsd
+  - icon: pg-openbsd
     url: 'http://openports.se/www/nextcloud'
-  - icon: ptio-netbsd
+  - icon: pg-netbsd
     url: 'http://pkgsrc.se/www/php-nextcloud'
   - icon: fab fa-android
     url: 'https://f-droid.org/packages/com.nextcloud.client/'
