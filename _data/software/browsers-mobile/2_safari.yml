@@ -40,7 +40,7 @@ description: |
   </ul>
 
   #### iCloud Sync
-  While synchronization of Safari History, Tab Groups, and iCloud Tabs are end-to-end encrypted, bookmarks are [not](https://support.apple.com/en-us/HT202303); they are only encrypted in transit and stored in an encrypted format on Apple's servers. Apple may be able to decrypt and access them.
+  While synchronization of Safari History, Tab Groups, and iCloud Tabs is end-to-end encrypted, bookmarks are [not](https://support.apple.com/en-us/HT202303); they are only encrypted in transit and stored in an encrypted format on Apple's servers. Apple may be able to decrypt and access them.
 
   If you use iCloud, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in *General* (⚙️ Settings → Safari → General → Downloads).
 
