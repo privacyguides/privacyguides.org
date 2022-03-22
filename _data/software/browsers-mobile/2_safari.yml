@@ -2,17 +2,19 @@ title: Safari
 type: Recommendation
 logo: /assets/img/browsers/safari.svg
 description: |
-  **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as tracking protection, isolated private tabs, iCloud Private Relay to hide your IP address from trackers, and automatic https upgrade.
+  **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as Intelligent Tracking Protection, Privacy Report, isolated Private Browsing tabs, iCloud Private Relay, and automatic HTTPS upgrades.
 
   These options can be found in *Privacy and Security* (⚙️ Settings → Safari → Privacy and Security).
 
   ##### **Cross-Site Tracking Prevention**
+  Toggling this setting enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp).
+
   <ul style="list-style-type:none;padding-left:0;">
     <li>Toggle On: <strong>Prevent Cross-Site Tracking</strong>.</li>
   </ul>
 
   ##### **Privacy Preserving Ad Measurement**
-  This is Apple's own implementation of private ad tracking. If you don't wish to participate, you can disable this feature.
+  This is WebKit's own [implementation](https://webkit.org/blog/8943/privacy-preserving-ad-click-attribution-for-the-web/) of private preserving ad click attribution. If you do not wish to participate, you can disable this feature.
 
   <ul style="list-style-type:none;padding-left:0;">
     <li>Toggle Off: <strong>Privacy Preserving Ad Measurement</strong>.</li>
@@ -26,14 +28,16 @@ description: |
   </ul>
 
   ##### **Always-on Private Tabs**
-  Open Safari and press the tabs button at the bottom right corner. In the bottom middle press the downward facing arrow.
+  Open Safari and press the tabs button at the bottom right corner. Open Tab Groups, located in the bottom middle.
 
   <ul style="list-style-type:none;padding-left:0;">
     <li>Select: <strong>Private</strong>.</li>
   </ul>
 
-  #### Sync
-  History, tabs, and iCloud tabs are end-to-end encrypted. However, bookmarks are [not](https://support.apple.com/en-us/HT202303). Although they are stored in an encrypted form, it is possible for Apple to decrypt them.
+  #### iCloud Sync
+  The synchronization of some data is [not](https://support.apple.com/en-us/HT202303) end-to-end encrypted. While synchronization of Safari History, Tab Groups, and iCloud Tabs are end-to-end encrypted; bookmarks are only encrypted in transit and stored in an encrypted format. As bookmarks are not end-to-end encrypted, Apple may be able to decrypt and access them.
+
+  If you use iCloud, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in *General* (⚙️ Settings → Safari → General → Downloads).
 
   #### Extensions
   We generally do not recommend installing [any extensions](https://www.sentinelone.com/blog/inside-safari-extensions-malware-golden-key-user-data/) as they increase your browser's [attack surface](https://en.wikipedia.org/wiki/Attack_surface); however, if you want content blocking, [AdGuard for Safari](/browsers/#additional-resources) might be useful to you.
