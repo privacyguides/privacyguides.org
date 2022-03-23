@@ -4,10 +4,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="privacy, anonymity, privacy guides, surveillance, encryption">
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="{% if page.description %}{{ page.description | markdownify | strip_html | escape }}{% else %}{{ site.description | escape }}{% endif %}">
   <link rel="canonical" href="{{ page.url | prepend: site.url | replace:'index.html','' }}">
 
-  <!-- title -->
+  <!-- title & Open Graph -->
   {% if page.title %}
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta property="og:title" content="{{ page.title | escape }} | {{ site.title | escape }}" />
@@ -17,7 +17,7 @@
   {% endif %}
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
-  <meta property="og:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}"/>
+  <meta property="og:description" content="{% if page.description %}{{ page.description | markdownify | strip_html | escape }}{% else %}{{ site.description | escape }}{% endif %}"/>
   <meta property="og:locale" content="en_US" />
   <meta property="og:site_name" content="{{ site.title | escape }}" />
 
@@ -29,6 +29,7 @@
   <link rel="alternate" title="Blog (JSON feed)" type="application/json" href="/feed.json" />
   <link rel="alternate" title="Blog (Atom feed)" type="application/rss+xml" href="/feed.xml" />
 
+  <!-- favicons and theme -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/layout/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/layout/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/layout/favicon-16x16.png">
