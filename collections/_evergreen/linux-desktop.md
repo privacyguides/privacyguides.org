@@ -226,13 +226,11 @@ These container technologies can be useful even for enthusiastic home users who 
 
 ### Firewalls
 
-A [firewall](https://en.wikipedia.org/wiki/Firewall_(computing)) may be used to secure connections to your system. If you're on a public network, the necessity of this may be greater than if you're on a local trusted network that you control.
-
-We would generally recommend that you block incoming connections only, unless you're using an application firewall such as [OpenSnitch](https://github.com/evilsocket/opensnitch) or [Portmaster](https://safing.io/portmaster/).
+A [firewall](https://en.wikipedia.org/wiki/Firewall_(computing)) may be used to secure connections to your system. If you're on a public network, the necessity of this may be greater than if you're on a local trusted network that you control. We would generally recommend that you block incoming connections only, unless you're using an application firewall such as [OpenSnitch](https://github.com/evilsocket/opensnitch) or [Portmaster](https://safing.io/portmaster/).
 
 Redhat distributions (such as Fedora) are typically configured through [firewalld](https://en.wikipedia.org/wiki/Firewalld). Redhat has plenty of [documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_networking/using-and-configuring-firewalld_configuring-and-managing-networking) regarding this topic. There is also the [uncomplicated firewall](https://en.wikipedia.org/wiki/Uncomplicated_Firewall) which can be used as an alternative.
 
-As for what to block, consider blocking all ports which are **not** [system or well known](https://en.wikipedia.org/wiki/Registered_port) range such as 1000 up to 65535 with both [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) and [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) after the operating system is installed.
+Consider blocking all ports which are **not** [well known](https://en.wikipedia.org/wiki/Well-known_port#Well-known_ports) or "privileged ports". That is, ports from 1025 up to 65535. Block both [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) and [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) after the operating system is installed.
 
 If you use Fedora, consider removing the whitelist for for [smb](https://en.wikipedia.org/wiki/Server_Message_Block)-client and [mdns](https://en.wikipedia.org/wiki/Multicast_DNS) services if you do not use them.
 
