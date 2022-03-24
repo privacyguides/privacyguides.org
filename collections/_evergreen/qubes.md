@@ -3,7 +3,7 @@ layout: evergreen
 title: Qubes OS
 mathjax: false
 description: |
-   Qubes OS is a distribution of Linux that uses [Xen](https://en.wikipedia.org/wiki/Xen) provide app isolation.
+   Qubes OS is a distribution of Linux that uses [Xen](https://en.wikipedia.org/wiki/Xen) to provide app isolation.
 ---
 
 {% for item_hash in site.data.operating-systems.qubes %}
@@ -14,4 +14,3 @@ description: |
 {% endif %}
 
 {% endfor %}
-
