@@ -28,16 +28,20 @@
   </div>
   <div class="card-body">
     <p class="card-text">
-      <img
-        src="{{include.image}}"
+      <picture>
         {% if include.image-dark %}
-        data-theme-src="{{include.image-dark}}"
-        {% endif %}
-        height="120"
-        width="120"
-        class="panel-pic"
-        alt="{{include.title}} logo"
-      >
+        <source
+          srcset="{{include.image-dark}}"
+          media="(prefers-color-scheme: dark)"
+        >{% endif %}
+        <img
+          src="{{include.image}}"
+          height="120"
+          width="120"
+          class="panel-pic"
+          alt="{{include.title}} logo"
+        >
+      </picture>
       {{ include.description }}
       {% if include.labels %}
       {% assign labels = include.labels | split:"|" %}
