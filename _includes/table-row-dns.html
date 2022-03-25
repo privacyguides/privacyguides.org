@@ -2,11 +2,6 @@
 <th data-value="{{ data.title }}" class="align-middle">
   <a href="{{ data.homepage }}">{{ data.title }}</a>
 </th>
-<td class="text-nowrap">{%- if data.anycast -%}<strong class="text-green-500">Anycast{% if data.anycast contains 'https://' %} (<a href="{{ data.anycast }}">Map</a>){%- endif -%}</strong>{%- endif -%}
-  <ul class="list-unstyled mb-0">{%- for location in data.locations -%}
-  <li>{%- include country.html cc=location -%} {%- if forloop.first == true and data.anycast -%}<span data-bs-toggle="tooltip" data-bs-placement="bottom" title='Service is incorporated or otherwise associated with this jurisdiction, however Anycast DNS providers may utilize many server providers in various regions worldwide.' class="fad fa-info-circle"></span>{%- endif -%}</li>
-  {%- endfor -%}</ul>
-</td>
 <td>
   {% if data.privacy_policy.link %}<a
     {% if data.privacy_policy.tooltip %}data-bs-toggle="tooltip" data-bs-placement="bottom" title='{{ data.privacy_policy.tooltip | escape }}'
@@ -32,23 +27,12 @@
   </span>{% else %}<td class="table-success">No{% endif %}
 </td>
 <td
-  {% unless data.dnssec %}data-value="No" class="table-danger"><span title="Does not validate DNSSEC" aria-hidden="true" class="fad text-red fa-times-circle"></span><span class="visually-hidden">No</span>{% else %}
-  data-value="Yes" class="table-success"><span title="Validates DNSSEC" aria-hidden="true" class="fad text-green fa-check-square"></span><span class="visually-hidden">Yes</span>{% endunless %}
-</td>
-<td
-  {% unless data.qname_minimization %}data-value="No" class="table-danger"><span title="Does not perform QNAME Minimization" aria-hidden="true" class="fad text-red fa-times-circle"></span><span class="visually-hidden">No</span>{% else %}
-  data-value="Yes" class="table-success"><span title="Performs QNAME Minimization" aria-hidden="true" class="fad text-green fa-check-square"></span><span class="visually-hidden">Yes</span>{% endunless %}
+  {% unless data.ecs.status %}data-value="No" class="table-success"> No <span title="Doesn't provide ECS" aria-hidden="true" class="fad text-red fa-times-circle"></span><span class="visually-hidden"></span>
+  {% else %}data-value="Yes" class="table-info"> {{ data.ecs.text }} <span title="Optionally provides ECS" aria-hidden="true" class="fad text-green fa-info-circle"></span><span class="visually-hidden"></span>{% endunless %}
 </td>
 <td>
   {{ data.filtering | escape | default: '<em>Unknown?</em>' }}
-</td>
-<td>
   {% if data.source %}<a href="{{ data.source }}">
     <span class="fad fa-external-link"></span>
   </a>{% endif %}
-</td>
-<td>
-  <ul class="list-unstyled mb-0">{%- for provider in data.providers -%}
-    <li class="text-nowrap">{% if provider.link %}<a href="{{ provider.link }}">{{ provider.name | escape }}</a>{% else %}{{ provider.name | escape }}{% endif %}</li>
-  {%- endfor -%}</ul>
 </td>

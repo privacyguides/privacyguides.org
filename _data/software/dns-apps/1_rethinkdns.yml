@@ -1,0 +1,15 @@
+title: RethinkDNS
+type: Recommendation
+logo: /assets/img/android/rethinkdns.svg
+logo_dark: /assets/img/android/rethinkdns-dark.svg
+description: |
+  **RethinkDNS** is an open-source Android client supporting [DNS-over-HTTPS](/dns/#dns-over-https-doh), [DNS-over-TLS](/dns/#dns-over-tls-dot), [DNSCrypt](/dns/#dnscrypt) and DNS Proxy along with caching DNS responses, locally logging DNS queries and can be used as a firewall too.
+website: 'https://rethinkdns.com'
+privacy_policy: 'https://rethinkdns.com/privacy'
+downloads:
+  - icon: fab fa-google-play
+    url: 'https://play.google.com/store/apps/details?id=com.celzero.bravedns'
+  - icon: pg-f-droid
+    url: 'https://f-droid.org/packages/com.celzero.bravedns'
+  - icon: fab fa-github
+    url: 'https://github.com/celzero/rethink-app'

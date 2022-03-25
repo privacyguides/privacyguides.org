@@ -8,7 +8,7 @@ items:
   - type: link
     title: DNS Servers
     icon: fad fa-map-signs
-    file: _pages/providers/dns.md
+    file: _evergreen/dns.md
   - type: link
     title: Email Providers
     icon: fad fa-envelope

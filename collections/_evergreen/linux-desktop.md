@@ -255,9 +255,9 @@ There is also further hardening to [PAM](https://en.wikipedia.org/wiki/Linux_PAM
 
 On Red Hat distributions you can use [`authselect`](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_authentication_and_authorization_in_rhel/configuring-user-authentication-using-authselect_configuring-authentication-and-authorization-in-rhel) to configure this e.g.:
 
-```
+<pre class=terminal>
 sudo authselect select <profile_id, default: sssd> with-faillock without-nullok with-pamaccess
-```
+</pre>
 
 On systems where [`pam_faillock`](https://man7.org/linux/man-pages/man8/pam_tally.8.html) is not available, consider using [`pam_tally2`](https://man7.org/linux/man-pages/man8/pam_tally.8.html) instead.
 

@@ -1,0 +1,20 @@
+* { margin: 0; padding: 0; }
+
+.terminal {
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  font-family: monospace;
+  overflow: scroll;
+  padding: 10px;
+  border-radius: 10px;
+  -ms-overflow-style: none;  /* Internet Explorer 10+, make scrollbars invisible */
+  scrollbar-width: none;  /* Firefox, make scrollbars invisible */
+  margin: 25px;
+}
+
+.terminal::-webkit-scrollbar { /* WebKit, make scrollbars invisible */
+  width: 0;
+  height: 0;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.4)
+}

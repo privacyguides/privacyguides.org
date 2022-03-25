@@ -1,8 +1,5 @@
 title: Quad9
 homepage: 'https://quad9.net/'
-anycast: 'https://www.quad9.net/locations/'
-locations:
-  - CH
 privacy_policy:
   link: 'https://quad9.net/service/privacy'
 type:
@@ -10,17 +7,11 @@ type:
 logs:
   policy: false
 protocols:
+  - name: Cleartext
   - name: DoH
   - name: DoT
   - name: DNSCrypt
-dnssec: true
-qname_minimization: true
+ecs:
+  status: true
+  text: Optional
 filtering: Based on server choice, Malware blocking by default
-providers:
-  - name: Self
-  - name: Packet Clearing House
-    link: 'https://www.pch.net/'
-  - name: i3D
-    link: 'https://www.i3d.net/'
-  - name: Global Secure Layer
-    link: 'https://globalsecurelayer.com/'

@@ -1,8 +1,5 @@
 title: ControlD
 homepage: 'https://controld.com/'
-anycast: true
-locations:
-  - CA
 privacy_policy:
   link: 'https://controld.com/privacy'
 type:
@@ -14,10 +11,9 @@ logs:
     Neither free nor premium service have logging enabled by default. Premium users can enable logging/analytics at will. 
   color: info
 protocols:
+  - name: Cleartext
   - name: DoH
   - name: DoT
-dnssec: true
-qname_minimization: true
+ecs:
+  status: false
 filtering: Based on server choice
-providers:
-  - name: Self

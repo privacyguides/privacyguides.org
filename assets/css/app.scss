@@ -8,6 +8,13 @@
 @import "./node_modules/bootstrap/scss/mixins";
 @import "./node_modules/bootstrap/scss/utilities";
 
+.flowchart{
+  width: 40vmax;
+  float: center;
+  padding: 10px;
+  background-color: var(--bs-body-bg);
+}
+
 $dm-grays: (
   "dm-white": $white,
   "dm-100": $gray-100,
@@ -76,6 +83,7 @@ h1, h2, h3:not(.h5), h4 {
 @import "./node_modules/bootstrap/scss/bootstrap";
 @import "pg-font";
 @import "flag-icon";
+@import "terminal";
 
 .textColor {
  fill: $dark;
