@@ -98,8 +98,8 @@ description: "Don't let Google see all your DNS traffic. Discover privacy-centri
 </p>
 
 <ul>
-  <li><strong>iOS/iPadOS:</strong><em>Settings &rarr; General &rarr; VPN, DNS, & Device Management &rarr; DNS</em></li>
-  <li><strong>macOS:</strong><em>System Preferences &rarr; Network</em></li>
+  <li><strong>iOS/iPadOS:</strong> <em>Settings &rarr; General &rarr; VPN, DNS, & Device Management &rarr; DNS</em></li>
+  <li><strong>macOS:</strong> <em>System Preferences &rarr; Network</em></li>
 </ul>
 
 <p>
