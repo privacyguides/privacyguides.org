@@ -96,6 +96,10 @@ description: "Don't let Google see all your DNS traffic. Discover privacy-centri
   <li><strong>Signed profiles</strong> are offered by <a href="https://adguard.com/en/blog/encrypted-dns-ios-14.html">AdGuard</a> and <a href="https://apple.nextdns.io/">NextDNS</a>.</li>
 </ul>
 
+<p>
+  Windows 11 supports DNS-over-HTTPS natively. You can you enable it in <em>Settings &rarr; Network & Internet &rarr; Wi-Fi/Ethernet (depending on the type of connection you use) &rarr; Hardware Properties &rarr;  DNS server assignment</em>
+</p>
+
 ## Definitions
 
 <p><strong>DNS-over-TLS (DoT):</strong>
