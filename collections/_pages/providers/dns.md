@@ -88,8 +88,9 @@ description: "Don't let Google see all your DNS traffic. Discover privacy-centri
 ## Native Operating System Support
 
 <p>
-  In iOS, iPadOS, tvOS 14 and macOS 11, DoT and DoH were introduced. DoT and DoH are supported natively by installation of profiles (through mobileconfig files opened in <em>Safari</em>).
-  After installation, the encrypted DNS server can be selected in <em>Settings &rarr; General &rarr; VPN and Network &rarr; DNS</em>.
+  In iOS, iPadOS, tvOS 14 or newer and macOS 11 or newer, DNS-over-TLS and DNS-over-HTTPS are supported natively by installation of profiles (through mobileconfig files opened in <em>Safari</em>).
+  To select the DNS server after downloading the profile on your iOS devices, go to <em>Settings &rarr; General &rarr; VPN and Network &rarr; DNS</em>.
+  On macOS you can do it in <em>System Preferences &rarr; Network</em>.
 </p>
 
 <ul>
