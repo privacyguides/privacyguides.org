@@ -94,8 +94,13 @@ description: "Don't let Google see all your DNS traffic. Discover privacy-centri
 </p>
 
 <p>
-  After installation of either a configuration profile or an app that utilizes the DNS Settings API, the DNS configuration can be selected in <em>Settings &rarr; General &rarr; VPN, DNS, & Device Management &rarr; DNS</em>. If a VPN is active, resolution within the VPN tunnel will use the VPN's DNS settings and not your system-wide settings.
+  After installation of either a configuration profile or an app that utilizes the DNS Settings API, the DNS configuration can be selected. If a VPN is active, resolution within the VPN tunnel will use the VPN's DNS settings and not your system-wide settings.
 </p>
+
+<ul>
+  <li><strong>iOS/iPadOS:</strong><em>Settings &rarr; General &rarr; VPN, DNS, & Device Management &rarr; DNS</em></li>
+  <li><strong>macOS:</strong><em>System Preferences &rarr; Network</em></li>
+</ul>
 
 <p>
   Apple does not provide a native interface for creating encrypted DNS profiles. <a href="https://dns.notjakob.com/tool.html">Secure DNS profile creator</a> is an unofficial tool for creating your own encrypted DNS profiles, however they will not be signed. Signed profiles are preferred; signing validates a profile's origin and helps to ensure the integrity of the profiles. A green "Verified" label is given to signed configuration profiles. For more information on code signing, see <a href="https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html">About Code Signing</a>.
