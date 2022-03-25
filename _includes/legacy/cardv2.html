@@ -28,16 +28,20 @@
   </div>
   <div class="card-body">
     <p class="card-text">
-      <img
-        src="{{include.image}}"
+      <picture>
         {% if include.image-dark %}
-        data-theme-src="{{include.image-dark}}"
-        {% endif %}
-        height="120"
-        width="120"
-        class="panel-pic"
-        alt="{{include.title}} logo"
-      >
+        <source
+          srcset="{{include.image-dark}}"
+          media="(prefers-color-scheme: dark)"
+        >{% endif %}
+        <img
+          src="{{include.image}}"
+          height="120"
+          width="120"
+          class="panel-pic"
+          alt="{{include.title}} logo"
+        >
+      </picture>
       {{ include.description }}
       {% if include.labels %}
       {% assign labels = include.labels | split:"|" %}
@@ -98,7 +102,7 @@
             data-bs-toggle="tooltip"
             data-bs-placement="bottom"
             title="Requires specific software to access: torproject.org">
-            <span class="ptio-tor text-light"></span>
+            <span class="pg-tor text-light"></span>
           </a>
         {% endif %}
         {% if include.i2p %}
@@ -109,7 +113,7 @@
             data-bs-toggle="tooltip"
             data-bs-placement="bottom"
             title="Requires specific software to access: geti2p.net">
-            <span class="ptio-i2p-garlic text-dark"></span>
+            <span class="pg-i2p text-dark"></span>
           </a>
         {% endif %}
       </div>
@@ -128,20 +132,20 @@
           {% if include.mac %}
             {% if include.mac != "" %}
               <a href="{{ include.mac }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="ptio-macos fa-2x fa-fw d-inline pe-1"></i>
+                <i class="pg-macos fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="ptio-macos fa-2x fa-fw d-inline pe-1"></i>
+              <i class="pg-macos fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.linux %}
             {% if include.linux != "" %}
               <a href="{{ include.linux }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="ptio-linux fa-2x fa-fw d-inline pe-1"></i>
+                <i class="pg-linux fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="ptio-linux fa-2x fa-fw d-inline pe-1"></i>
+              <i class="pg-linux fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
@@ -158,20 +162,20 @@
           {% if include.openbsd %}
             {% if include.openbsd != "" %}
               <a href="{{ include.openbsd }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="ptio-openbsd fa-2x fa-fw d-inline pe-1"></i>
+                <i class="pg-openbsd fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="ptio-openbsd fa-2x fa-fw d-inline pe-1"></i>
+              <i class="pg-openbsd fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.netbsd %}
             {% if include.netbsd != "" %}
               <a href="{{ include.netbsd }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="ptio-netbsd fa-2x fa-fw d-inline pe-1"></i>
+                <i class="pg-netbsd fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="ptio-netbsd fa-2x fa-fw d-inline pe-1"></i>
+              <i class="pg-netbsd fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
@@ -228,10 +232,10 @@
           {% if include.fdroid %}
             {% if include.fdroid != "" %}
               <a href="{{ include.fdroid }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="ptio-f-droid fa-2x fa-fw d-inline pe-1"></i>
+                <i class="pg-f-droid fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="ptio-f-droid fa-2x fa-fw d-inline pe-1"></i>
+              <i class="pg-f-droid fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
@@ -258,20 +262,20 @@
           {% if include.ios %}
             {% if include.ios != "" %}
               <a href="{{ include.ios }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="ptio-ios fa-2x fa-fw d-inline pe-1"></i>
+                <i class="pg-ios fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="ptio-ios fa-2x fa-fw d-inline pe-1"></i>
+              <i class="pg-ios fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.sailfish %}
             {% if include.sailfish != "" %}
               <a href="{{ include.sailfish }}" rel="noopener" class="text-decoration-none text-decoration-none">
-                <i class="ptio-sailfish-os fa-2x fa-fw d-inline pe-1"></i>
+                <i class="pg-sailfish-os fa-2x fa-fw d-inline pe-1"></i>
               </a>
             {% else %}
-              <i class="ptio-sailfish-os fa-2x fa-fw d-inline pe-1"></i>
+              <i class="pg-sailfish-os fa-2x fa-fw d-inline pe-1"></i>
             {% endif %}
           {% endif %}
 
