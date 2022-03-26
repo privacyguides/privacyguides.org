@@ -189,16 +189,6 @@ CalyxOS includes a device controller app so there is no need to install a third 
 
 GrapheneOS extends the [user profile](/android/#android-security-privacy) feature allowing a user to press an "End Session" button. This button clears the encryption key from memory. There are plans to add a [cross profile notifications system](https://github.com/GrapheneOS/os-issue-tracker/issues/88) in the future.
 
-### INTERNET permission vs packet filtering
-
-[Packet filter](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) based solutions such [Datura Firewall](https://calyxos.org/docs/tech/datura-details), [LineageOS](https://gitlab.com/LineageOS/issues/android/-/issues/3228), AFWall+ and NetGuard, are not ideal as they can leak and don't prevent an app from proxying a network request through another app using an [intent](https://developer.android.com/guide/components/intents-filters).
-
-Android has a built-in [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) permission. This is enforced by the operating system. On AOSP and most of its derivatives, it is treated as an install time permission. GrapheneOS changes it to [runtime](https://en.wikipedia.org/wiki/Runtime_(program_lifecycle_phase)) permission, meaning that it can be revoked to deny internet access to a specific app.
-
-The [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) permission is a strong way of controlling internet access. It also blocks direct access to the internet and access to other APIs that rely on the [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) permission. The only way for an app to circumvent it is for it to communicate with another app that has been granted [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) permission via mutual consent. Such communication can be prevented by putting apps into seperate profiles.
-
-Some apps might crash if their [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) permission is revoked. CalyxOS instead uses a [firewall](https://calyxos.org/docs/tech/datura-details) to achieve a similar outcome however, in some circumstances CalyxOS's approach may leak ([#572](https://gitlab.com/CalyxOS/calyxos/-/issues/572), [#581](https://gitlab.com/CalyxOS/calyxos/-/issues/581)).
-
 ### Sandboxed Play Services vs Privileged MicroG
 
 When Google Play services are used on GrapheneOS, they run as a user app and are contained within a user or work profile.
