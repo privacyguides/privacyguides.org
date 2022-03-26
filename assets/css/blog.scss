@@ -54,17 +54,6 @@
     }
 }
 
-@media only screen and (min-width: 768px) {
-    .feed-selection-overlay-active .feed-selection-popup {
-        margin-right: 10px !important;
-        margin-left: 10px !important;
-    }
-    
-    .feed-selection-popup {
-        width: 100%;
-    }
-}
-
 @media (prefers-color-scheme: dark) {
     .feed-selection-popup {
         background: #1a2429;
