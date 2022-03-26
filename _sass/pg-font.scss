@@ -34,6 +34,7 @@
 .pg-openbsd:before,
 .pg-sailfish-os:before,
 .pg-qubes:before,
+.pg-docker:before,
 .pg-tor:before {
   display: inline-block;
   font-family: "pg-font";
@@ -59,4 +60,5 @@
 .pg-openbsd:before { content: "\f105"; }
 .pg-sailfish-os:before { content: "\f106"; }
 .pg-tor:before { content: "\f10b"; }
-.pg-qubes:before { content: "\f108" }
+.pg-qubes:before { content: "\f108"; }
+.pg-docker:before { content: "\f109"; }

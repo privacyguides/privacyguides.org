@@ -5,3 +5,7 @@ items:
     title: Multi-Factor Authentication
     icon: fad fa-lock-alt
     file: _evergreen/multi-factor-authentication.md
+  - type: link
+    title: Password Management
+    icon: fad fa-user-lock
+    file: _evergreen/password-management.md
