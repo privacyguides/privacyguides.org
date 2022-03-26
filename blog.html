@@ -1,13 +1,26 @@
 ---
-layout: page
-title: Blog
-permalink: /blog/
+layout: default
 ---
 
-<div class="blog mt-5">
-  <div class="row">
-  {% for post in site.posts %}
-    {% include blog-card.html %}
-  {% endfor %}
+<div class="container my-5">
+  <h1>{{ page.title }} <a class="feed-button" href="#feed-selection"><i class="fas fa-rss rss-icon" aria-label="RSS feed"></i></a></h1>
+  {% if page.description %}<div class="lead">
+    {{ page.description | markdownify }}
+  </div>{% endif %}
+
+  {{ content }}
+  {% include hr.html %}
+  {% include footer.html %}
+
+  <div id="feed-selection" class="feed-selection-overlay feed-selection-overlay-active">
+    <a class="feed-selection-cancel" href="#"></a>
+    <div class="feed-selection-popup">
+      <div class="feed-selection-content">
+        <h2>Blog feeds</h2>
+        <a href="/feed.json" class="btn btn-secondary btn-lg">JSON feed</a>
+        <a href="/feed.xml" class="btn btn-secondary btn-lg">RSS feed</a>
+      </div>
+    </div>
   </div>
+
 </div>
