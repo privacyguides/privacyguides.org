@@ -1,0 +1,13 @@
+title: Ravio OTP
+type: Recommendation
+logo: /assets/img/multi-factor-authentication/ravio-otp.png
+description: |
+  **Ravio OTP** is a native, lightweight and secure time-based (TOTP) & counter-based (HOTP) password client built for iOS.
+
+website: 'https://github.com/raivo-otp'
+privacy_policy: 'https://github.com/raivo-otp/ios-application/blob/master/PRIVACY.md'
+downloads:
+  - icon: fab fa-app-store-ios
+    url: 'https://apps.apple.com/us/app/raivo-otp/id1459042137'
+  - icon: fab fa-github
+    url: 'https://github.com/raivo-otp/ios-application'

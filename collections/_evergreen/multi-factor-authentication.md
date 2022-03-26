@@ -1,8 +1,8 @@
 ---
 layout: evergreen
-title: Two-Factor Authentication
-breadcrumb: Two-Factor Authentication
-description: "Using strong 2FA can stop over 99% of unauthorized account accesses, and it's easy to set up on the services you already use."
+title: Multi-factor Authentication
+breadcrumb: Multi-factor Authentication
+description: "Using strong MFA can stop over 99% of unauthorized account accesses, and it's easy to set up on the services you already use."
 ---
 
 **Two-Factor Authentication** (also known as **2FA**, **Multi-Factor Authentication**, or **MFA**) is a security mechanism that requires additional steps beyond simply your username/email and password. If you've ever had to enter a 6-digit code sent to your phone to log in to a website, that's an example of 2FA.
@@ -15,12 +15,28 @@ The idea behind 2FA is that even if a hacker is able to figure out your password
 
 <mark>If you want to take your security seriously, you should use a dedicated <strong>Authenticator App</strong> on your phone to generate these codes whenever possible.</mark> These authenticator apps follow the same standard, allowing you to keep codes from many different companies in one place for ease-of-use. They also keep the codes securely stored (optionally requiring biometrics on your phone to access them), and make it difficult to duplicate the codes so they cannot be reproduced by a hacker later, even if they briefly had physical access to your phone.
 
+## Hardware Security Keys
 The ultimate form of multi-factor security are **hardware keys**. These are devices that implement a standard such as **FIDO2** or **U2F** that you need to physically attach to your computer to log in to your accounts. They come in a variety of form factors and connect in different ways, such as a USB stick you plug in to your computer, or a Bluetooth/NFC token you connect to your device wirelessly. Some newer computers and mobile devices even have built-in hardware keys! Hardware keys have secure cryptoprocessors (essentially an entire mini computer!) on them which stores and manages your encryption keys. Many of them have specific tamper-resistant mechanisms, but all of them are designed with the idea that they should be impossible to reproduce: The key you have will be the **only** way to gain access to your account.
 
 Ultimately, the best form of two-factor security is the one you will use consistently on every account you have, that doesn't significantly interfere with your life. If you need to log in to an account often or on many devices, a hardware key may prove to be too much of a burden for example.
 
-## Authenticator Apps
+{% for item_hash in site.data.hardware.multi-factor-authentication-security-key %}
+{% assign item = item_hash[1] %}
 
+{% if item.type == "Recommendation" %}
+{% include recommendation-card.html %}
+{% endif %}
+{% endfor %}
+
+## Authenticator Apps
 <mark>Generally speaking, TOTP software authenticator apps are going to be the best bet for most people.</mark> They provide a significantly higher level of security than just SMS or Push Notifications, while remaining very convenient for most people who keep their phones with them at all times.
 
 Authenticator Apps implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. This is a method where websites share a secret with you which is used by your authenticator app to generate a six (usually) digit code based on the current time, which you enter while logging in for the website to check. Typically these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Even if a hacker gets one six-digit code, there is no way for them to reverse that code to get the original secret, or otherwise be able to predict what any future codes might be.
+
+{% for item_hash in site.data.software.multi-factor-authentication-totp %}
+{% assign item = item_hash[1] %}
+
+{% if item.type == "Recommendation" %}
+{% include recommendation-card.html %}
+{% endif %}
+{% endfor %}
