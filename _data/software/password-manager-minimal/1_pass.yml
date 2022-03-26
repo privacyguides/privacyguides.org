@@ -1,0 +1,15 @@
+title: Pass
+type: Recommendation
+logo: /assets/img/password-management/pass.svg
+description: |
+  **Pass** is a bare-bones password store that keeps passwords using gpg2 encrypted files inside a simple directory tree residing at `~/.password-store`. It has a simple terminal interface where the user can perform the usual actions, and it's functionality can be extended by plugins. It can also be used in scripts without having to input the actual password in plain text.
+
+website: 'https://www.passwordstore.org'
+privacy_policy: 'https://bitwarden.com/privacy/'
+downloads:
+  - icon: fab fa-apple
+    url: 'https://www.passwordstore.org'
+  - icon: fab fa-linux
+    url: 'https://www.passwordstore.org'
+  - icon: fab fa-git
+    url: 'https://git.zx2c4.com/password-store'

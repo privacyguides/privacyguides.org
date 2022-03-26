@@ -1,0 +1,24 @@
+title: KeepassXC
+type: Recommendation
+logo: /assets/img/password-management/keepassxc.svg
+description: |
+  **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, fully cross-platform and modern open-source password manager.
+
+  # Notes
+  Notes about export format
+
+website: 'https://keepassxc.org'
+privacy_policy: 'https://keepassxc.org/privacy/'
+downloads:
+  - icon: fab fa-windows
+    url: 'https://keepassxc.org/download/#windows'
+  - icon: fab fa-apple
+    url: 'https://keepassxc.org/download/#mac'
+  - icon: fab fa-linux
+    url: 'https://keepassxc.org/download/#linux'
+  - icon: fab fa-github
+    url: 'https://github.com/keepassxreboot/keepassxc'
+  - icon: fab fa-firefox
+    url: 'https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/'
+  - icon: fab fa-chrome
+    url: 'https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk'

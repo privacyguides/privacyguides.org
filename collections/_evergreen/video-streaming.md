@@ -18,8 +18,6 @@ description: |
 
 ## Web-based Frontends
 
-
-
 {% for item_hash in site.data.software.video-streaming-front-ends %}
 {% assign item = item_hash[1] %}
 

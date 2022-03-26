@@ -31,10 +31,6 @@ items:
     icon: fad fa-file-times
     file: legacy_pages/software/metadata-removal-tools.html
   - type: link
-    title: Password Managers
-    icon: fad fa-user-lock
-    file: legacy_pages/software/passwords.html
-  - type: link
     title: Productivity Tools
     icon: fad fa-briefcase
     file: legacy_pages/software/productivity.html

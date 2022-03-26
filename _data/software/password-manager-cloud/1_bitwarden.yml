@@ -1,0 +1,22 @@
+title: Bitwarden
+type: Recommendation
+logo: /assets/img/password-management/bitwarden.svg
+description: |
+  **Bitwarden** is a free and open-source password manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the easiest and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices. If you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden server.
+
+  ## Browser extension support
+  
+
+  # Notes
+
+website: 'https://bitwarden.com/'
+privacy_policy: 'https://bitwarden.com/privacy/'
+downloads:
+  - icon: fab fa-windows
+    url: 'https://bitwarden.com/download'
+  - icon: fab fa-apple
+    url: 'https://apps.apple.com/app/bitwarden/id1352778147'
+  - icon: fab fa-linux
+    url: 'https://bitwarden.com/download'
+  - icon: fab fa-git
+    url: 'https://hg.mozilla.org/mozilla-central'

@@ -1,0 +1,13 @@
+title: Vaultwarden
+type: Recommendation
+logo: /assets/img/password-management/vaultwarden.svg
+logo_dark: /assets/img/password-management/vaultwarden-dark.svg
+description: |
+  Vaultwarden is an alternative implementation of the Bitwarden server API written in Rust and compatible with upstream Bitwarden clients*, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal.
+
+website: 'https://github.com/dani-garcia/vaultwarden'
+downloads:
+  - icon: fab fa-github
+    url: 'https://github.com/dani-garcia/vaultwarden'
+  - icon: pg-docker
+    url: 'https://hub.docker.com/r/vaultwarden/server'

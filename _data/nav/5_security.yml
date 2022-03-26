@@ -1,0 +1,7 @@
+type: dropdown
+title: Security
+items:
+  - type: link
+    title: Password Management
+    icon: fad fa-user-lock
+    file: _evergreen/password-management.md

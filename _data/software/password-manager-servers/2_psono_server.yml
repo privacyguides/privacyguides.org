@@ -1,0 +1,14 @@
+title: Psono Server
+type: Recommendation
+logo: /assets/img/password-management/psono.svg
+description: |
+
+
+  # Notes
+
+website: 'https://psono.com'
+downloads:
+  - icon: fab fa-gitlab
+    url: 'https://gitlab.com/psono/psono-server'
+  - icon: pg-docker
+    url: 'https://gitlab.com/psono/psono-server/blob/master/DockerfileAlpine'

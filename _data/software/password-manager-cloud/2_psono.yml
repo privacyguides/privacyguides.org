@@ -1,0 +1,24 @@
+title: Psono
+type: Recommendation
+logo: /assets/img/password-management/psono.svg
+description: |
+  [Psono](https://psono.com/) Free and open source password manager for teams with client side encryption and secure sharing of passwords, files, bookmarks, emails. All secrets are protected by a master password. Uses [NACL Crypto](https://nacl.cr.yp.to/), a combination of Curve25519, Salsa20 and Poly1305.
+
+  ## Browser extension support
+
+
+  # Notes
+
+website: 'https://psono.com'
+privacy_policy: 'https://psono.com/privacy-policy'
+downloads:
+  - icon: fab fa-firefox
+    url: 'https://addons.mozilla.org/firefox/addon/psono-pw-password-manager/'
+  - icon: fab fa-chrome
+    url: 'https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo'
+  - icon: fab fa-app-store-ios
+    url: 'https://apps.apple.com/us/app/psono-password-manager/id1545581224'
+  - icon: fab fa-google-play
+    url: 'https://play.google.com/store/apps/details?id=com.psono.psono'
+  - icon: fab fa-gitlab
+    url: 'https://gitlab.com/psono'

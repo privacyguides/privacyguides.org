@@ -1,0 +1,14 @@
+title: KeepassDX
+type: Recommendation
+logo: /assets/img/password-management/keepassdx.svg
+description: |
+
+
+website: 'https://www.keepassdx.com/'
+downloads:
+  - icon: fab fa-google-play
+    url: 'https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free'
+  - icon: pg-f-droid
+    url: 'https://www.f-droid.org/packages/com.kunzisoft.keepass.libre/'
+  - icon: fab fa-github
+    url: 'https://github.com/Kunzisoft/KeePassDX'
