@@ -205,7 +205,9 @@ When Google Play services are used on GrapheneOS, they run as a user app and are
 
 Sandboxed Play Services are confined using the highly restrictive, default [`untrusted_app`](https://source.android.com/security/selinux/concepts) domain provided by [SELinux](https://en.wikipedia.org/wiki/Security-Enhanced_Linux). Permissions for apps to use Play Services can be revoked at any time by the user.
 
-MicroG is a reimplementation of Google Play Services. This means it needs to be updated every time Android has a major version update (or the Android API changes). It also needs to run in the highly privileged [`system_app`](https://source.android.com/security/selinux/concepts) SELinux domain like the normal Play Services and is less secure than the Sandboxed Play Service approach. We do not believe MicroG provides any privacy advantages over Sandboxed Play Services except for the option to _shift trust_ of the location backend from Google to another provider such as Mozilla or DejaVu.
+MicroG is a reimplementation of Google Play Services. This means it needs to be updated every time Android has a major version update (or the Android API changes). It also needs to run in the highly privileged [`system_app`](https://source.android.com/security/selinux/concepts) SELinux domain like the normal Play Services and require access to [signature spoofing](https://madaidans-insecurities.github.io/android.html#microg-signature-spoofing). This less secure than the Sandboxed Play Service approach and we do not believe MicroG provides any privacy advantages over Sandboxed Play Services except for the option to _shift trust_ of the location backend from Google to another provider such as Mozilla or DejaVu.
+
+From a usability point of view, the Sandboxed Play Services also works well with far more applications than MicroG, thanks to its support for services like [Google Play Games](https://play.google.com/googleplaygames) and [In-app Billing API](https://android-doc.github.io/google/play/billing/api.html).
 
 ### Privileged App Extensions
 
