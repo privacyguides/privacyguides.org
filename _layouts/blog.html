@@ -9,6 +9,8 @@ layout: default
   </div>{% endif %}
 
   {{ content }}
+  {% include hr.html %}
+  {% include footer.html %}
 
   <div id="feed-selection" class="feed-selection-overlay feed-selection-overlay-active">
     <a class="feed-selection-cancel" href="#"></a>
@@ -22,6 +24,4 @@ layout: default
     </div>
   </div>
 
-  {% include hr.html %}
-  {% include footer.html %}
 </div>
