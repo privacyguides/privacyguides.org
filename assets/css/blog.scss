@@ -54,6 +54,12 @@
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .feed-selection-popup {
+        width: nil;
+    }
+}
+
 @media (prefers-color-scheme: dark) {
     .feed-selection-popup {
         background: #1a2429;
