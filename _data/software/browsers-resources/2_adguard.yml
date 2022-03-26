@@ -11,8 +11,11 @@ website: 'https://adguard.com/en/adguard-safari/overview.html'
 privacy_policy: 'https://adguard.com/en/privacy/safari.html'
 downloads:
   - icon: fab fa-safari
+  - label: 'safari'
     url: 'https://apps.apple.com/app/adguard-for-safari/id1440147259'
   - icon: fab fa-app-store-ios
+  - label: 'ios'
     url: 'https://apps.apple.com/app/apple-store/id1047223162'
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/AdguardTeam/AdGuardForSafari'

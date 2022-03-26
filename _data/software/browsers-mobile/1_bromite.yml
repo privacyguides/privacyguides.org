@@ -22,6 +22,8 @@ website: 'https://www.bromite.org'
 privacy_policy: 'https://www.bromite.org/privacy'
 downloads:
   - icon: fab fa-android
+  - label: 'android'
     url: 'https://www.bromite.org/fdroid'
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/bromite/bromite'

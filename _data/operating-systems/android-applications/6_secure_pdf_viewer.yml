@@ -10,6 +10,8 @@ description: |
 website: 'https://github.com/GrapheneOS/PdfViewer'
 downloads:
   - icon: fab fa-google-play
+  - label: 'play'
     url: 'https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play'
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/GrapheneOS/PdfViewer/releases'

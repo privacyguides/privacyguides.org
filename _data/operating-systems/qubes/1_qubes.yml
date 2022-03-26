@@ -8,4 +8,5 @@ website_tor: 'http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.on
 privacy_policy: 'https://www.qubes-os.org/privacy/'
 downloads:
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/QubesOS'

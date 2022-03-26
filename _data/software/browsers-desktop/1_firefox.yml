@@ -51,12 +51,17 @@ website: 'https://firefox.com'
 privacy_policy: 'https://www.mozilla.org/privacy/firefox'
 downloads:
   - icon: fab fa-windows
+  - label: 'windows'
     url: 'https://www.mozilla.org/firefox/windows'
   - icon: fab fa-apple
+  - label: 'apple'
     url: 'https://www.mozilla.org/firefox/mac'
   - icon: fab fa-linux
+  - label: 'linux'
     url: 'https://www.mozilla.org/firefox/linux'
   - icon: fab fa-freebsd
+  - label: 'freebsd'
     url: 'https://www.freshports.org/www/firefox'
   - icon: fab fa-git
+  - label: 'git'
     url: 'https://hg.mozilla.org/mozilla-central'

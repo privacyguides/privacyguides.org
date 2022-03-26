@@ -20,6 +20,8 @@ website_tor: 'http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.on
 privacy_policy: 'https://divestos.org/index.php?page=privacy_policy'
 downloads:
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/divested-mobile'
   - icon: fab fa-gitlab
+  - label: 'gitlab'
     url: 'https://gitlab.com/divested-mobile'

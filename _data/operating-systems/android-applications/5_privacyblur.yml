@@ -9,8 +9,11 @@ description: |
 website: 'https://privacyblur.app/'
 downloads:
   - icon: fab fa-android
+  - label: 'android'
     url: 'https://f-droid.org/en/packages/de.mathema.privacyblur/'
   - icon: fab fa-google-play
+  - label: 'play'
     url: 'https://play.google.com/store/apps/details?id=de.mathema.privacyblur'
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/MATHEMA-GmbH/privacyblur'

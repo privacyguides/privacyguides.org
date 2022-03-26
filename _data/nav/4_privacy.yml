@@ -4,4 +4,5 @@ items:
   - type: link
     title: Threat Modeling
     icon: fad fa-bullseye-arrow
+  - label: 'arrow'
     file: _evergreen/threat-modeling.md

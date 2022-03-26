@@ -21,16 +21,23 @@ website: 'https://signal.org'
 privacy_policy: 'https://signal.org/legal'
 downloads:
   - icon: fab fa-windows
+  - label: 'windows'
     url: 'https://signal.org/download'
   - icon: fab fa-apple
+  - label: 'apple'
     url: 'https://signal.org/download'
   - icon: fab fa-linux
+  - label: 'linux'
     url: 'https://signal.org/download'
   - icon: fab fa-android
+  - label: 'android'
     url: 'https://signal.org/android/apk/#apk-danger'
   - icon: fab fa-google-play
+  - label: 'play'
     url: 'https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms'
   - icon: fab fa-app-store-ios
+  - label: 'ios'
     url: 'https://apps.apple.com/app/id874139669'
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/signalapp'

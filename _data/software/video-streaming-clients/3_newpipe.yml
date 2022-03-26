@@ -11,6 +11,8 @@ website: 'https://newpipe.net'
 privacy_policy: 'https://newpipe.net/legal/privacy'
 downloads:
   - icon: fab fa-android
+  - label: 'android'
     url: 'https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo'
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/TeamNewPipe/NewPipe'

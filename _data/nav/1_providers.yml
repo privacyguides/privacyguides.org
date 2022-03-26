@@ -4,28 +4,35 @@ items:
   - type: link
     title: Cloud Storage
     icon: fad fa-cloud
+  - label: 'cloud'
     file: _evergreen/cloud.md
   - type: link
     title: DNS Servers
     icon: fad fa-map-signs
+  - label: 'signs'
     file: _pages/providers/dns.md
   - type: link
     title: Email Providers
     icon: fad fa-envelope
+  - label: 'envelope'
     file: legacy_pages/providers/email.html
   - type: link
     title: Search Engines
     icon: fad fa-search-location
+  - label: 'location'
     file: _evergreen/search-engines.md
   - type: link
     title: Social Networks
     icon: fad fa-thumbs-up
+  - label: 'up'
     file: legacy_pages/providers/social-networks.html
   - type: link
     title: Social News Aggregators
     icon: fad fa-newspaper
+  - label: 'newspaper'
     file: legacy_pages/providers/social-news-aggregator.html
   - type: link
     title: VPN Services
     icon: fad fa-network-wired
+  - label: 'wired'
     file: legacy_pages/providers/vpn.html

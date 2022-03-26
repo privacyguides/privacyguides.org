@@ -13,14 +13,20 @@ website_tor: 'http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.on
 privacy_policy: 'https://support.torproject.org/tbb/tbb-3/'
 downloads:
   - icon: fab fa-windows
+  - label: 'windows'
     url: 'https://www.torproject.org/download/'
   - icon: fab fa-apple
+  - label: 'apple'
     url: 'https://www.torproject.org/download/'
   - icon: fab fa-linux
+  - label: 'linux'
     url: 'https://www.torproject.org/download/'
   - icon: fab fa-android
+  - label: 'android'
     url: 'https://guardianproject.info/fdroid/'
   - icon: fab fa-google-play
+  - label: 'play'
     url: 'https://play.google.com/store/apps/details?id=org.torproject.torbrowser'
   - icon: fab fa-git
+  - label: 'git'
     url: 'https://trac.torproject.org/projects/tor'

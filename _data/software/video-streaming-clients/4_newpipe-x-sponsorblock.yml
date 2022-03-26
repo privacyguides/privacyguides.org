@@ -9,6 +9,8 @@ description: |
   This fork is not endorsed by or affiliated with the upstream project. The NewPipe team has [rejected](https://github.com/TeamNewPipe/NewPipe/pull/3205) integration with SponsorBlock and thus this fork is created to provide this functionality.
 downloads:
   - icon: fab fa-android
+  - label: 'android'
     url: 'https://apt.izzysoft.de/fdroid/index/apk/org.polymorphicshade.newpipe'
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/polymorphicshade/NewPipe'

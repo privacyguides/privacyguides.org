@@ -11,4 +11,5 @@ description: |
 website: 'https://openwrt.org'
 downloads:
   - icon: fab fa-git
+  - label: 'git'
     url: 'https://git.openwrt.org/'

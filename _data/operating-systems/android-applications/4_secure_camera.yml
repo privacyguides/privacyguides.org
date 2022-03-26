@@ -18,6 +18,8 @@ description: |
 website: 'https://github.com/GrapheneOS/Camera'
 downloads:
   - icon: fab fa-google-play
+  - label: 'play'
     url: 'https://play.google.com/store/apps/details?id=app.grapheneos.camera.play'
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/GrapheneOS/Camera/releases'

@@ -17,4 +17,5 @@ website: 'https://grapheneos.org/'
 privacy_policy: 'https://grapheneos.org/faq#privacy-policy'
 downloads:
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/GrapheneOS'

@@ -51,4 +51,5 @@ website: https://www.apple.com/safari/
 privacy_policy: https://www.apple.com/legal/privacy/data/en/safari/
 downloads:
   - icon: fab fa-app-store-ios
+  - label: 'ios'
     url: https://apps.apple.com/us/app/safari/id1146562112

@@ -19,8 +19,11 @@ website: 'https://briarproject.org'
 privacy_policy: 'https://briarproject.org/privacy-policy'
 downloads:
   - icon: fab fa-android
+  - label: 'android'
     url: 'https://f-droid.org/packages/org.briarproject.briar.android'
   - icon: fab fa-google-play
+  - label: 'play'
     url: 'https://play.google.com/store/apps/details?id=org.briarproject.briar.android'
   - icon: fab fa-git
+  - label: 'git'
     url: 'https://code.briarproject.org/briar/briar'

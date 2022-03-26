@@ -49,7 +49,7 @@
         {% endif %}
         {{ item.description | markdownify }}
         {% if item.downloads %}<p>{% for platform in item.downloads %}
-        <a href="{{ platform.url }}"><i class="{{ platform.icon }} fa-fw h2"></i></a>
+        <a href="{{ platform.url }}" aria-label="{{ platform.label }}"><i class="{{ platform.icon }} fa-fw h2"></i></a>
         {% endfor %}
         </p>{% endif %}
         {% if item.website or item.article %}<div class="pb-2">

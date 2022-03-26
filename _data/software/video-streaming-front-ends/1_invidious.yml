@@ -18,6 +18,8 @@ description: |
 website: 'https://invidious.io'
 downloads:
   - icon: fas fa-globe-americas
+  - label: 'americas'
     url: 'https://instances.invidious.io'
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/iv-org/invidious'

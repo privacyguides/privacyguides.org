@@ -12,6 +12,8 @@ website: 'https://protonmail.com'
 privacy_policy: 'https://protonmail.com/privacy-policy'
 downloads:
   - icon: fas fa-globe-americas
+  - label: 'americas'
     url: 'https://protonmail.com'
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/ProtonMail/WebClients'

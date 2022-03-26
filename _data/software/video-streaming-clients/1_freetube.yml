@@ -13,10 +13,14 @@ website: 'https://freetubeapp.io'
 privacy_policy: 'https://freetubeapp.io/privacy.php'
 downloads:
   - icon: fab fa-windows
+  - label: 'windows'
     url: 'https://freetubeapp.io/#download'
   - icon: fab fa-apple
+  - label: 'apple'
     url: 'https://freetubeapp.io/#download'
   - icon: fab fa-linux
+  - label: 'linux'
     url: 'https://freetubeapp.io/#download'
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/FreeTubeApp/FreeTube/'

@@ -21,6 +21,8 @@ website: 'https://attestation.app'
 privacy_policy: 'https://attestation.app/privacy-policy'
 downloads:
   - icon: fab fa-google-play
+  - label: 'play'
     url: 'https://play.google.com/store/apps/details?id=app.attestation.auditor'
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/GrapheneOS/Auditor'

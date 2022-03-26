@@ -20,6 +20,8 @@ website: 'https://calyxos.org'
 privacy_policy: 'https://calyxinstitute.org/legal/privacy-policy'
 downloads:
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/CalyxOS'
   - icon: fab fa-gitlab
+  - label: 'gitlab'
     url: 'https://gitlab.com/calyxos'

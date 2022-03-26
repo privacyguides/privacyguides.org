@@ -23,18 +23,26 @@ website: 'https://element.io'
 privacy_policy: 'https://element.io/privacy'
 downloads:
   - icon: fab fa-windows
+  - label: 'windows'
     url: 'https://element.io/get-started'
   - icon: fab fa-apple
+  - label: 'apple'
     url: 'https://element.io/get-started'
   - icon: fab fa-linux
+  - label: 'linux'
     url: 'https://element.io/get-started'
   - icon: fab fa-android
+  - label: 'android'
     url: 'https://f-droid.org/packages/im.vector.app/'
   - icon: fab fa-google-play
+  - label: 'play'
     url: 'https://play.google.com/store/apps/details?id=im.vector.app'
   - icon: fab fa-app-store-ios
+  - label: 'ios'
     url: 'https://apps.apple.com/app/vector/id1083446067'
   - icon: fas fa-globe-americas
+  - label: 'americas'
     url: 'https://app.element.io'
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/vector-im/element-web'

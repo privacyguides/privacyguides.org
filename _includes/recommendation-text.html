@@ -8,7 +8,7 @@
   {% if item.website %} | <a href="{{ item.website }}">Project Website</a>{% endif %}
   {% if item.downloads %}
   {% for platform in item.downloads %}
-  | <i class="{{ platform.icon }} fa-fw"></i> <a href="{{ platform.url }}"> {{ platform.name }}</a>
+  | <i class="{{ platform.icon }} fa-fw"></i> <a href="{{ platform.url }}" aria-label="{{ platform.label }}"> {{ platform.name }}</a>
   {% endfor %}
   {% endif %}
   {% endcapture %}{{ text | remove_first: '| ' }}

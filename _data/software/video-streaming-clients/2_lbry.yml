@@ -19,10 +19,14 @@ website: 'https://lbry.com/'
 privacy_policy: 'https://lbry.com/privacypolicy'
 downloads:
   - icon: fab fa-windows
+  - label: 'windows'
     url: 'https://lbry.com/get'
   - icon: fab fa-apple
+  - label: 'apple'
     url: 'https://lbry.com/osx'
   - icon: fab fa-linux
+  - label: 'linux'
     url: 'https://lbry.com/linux'
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/lbryio'

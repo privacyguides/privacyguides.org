@@ -9,12 +9,17 @@ description: |
 website: 'https://www.tahoe-lafs.org/'
 downloads:
   - icon: fab fa-windows
+  - label: 'windows'
     url: 'https://github.com/tahoe-lafs/tahoe-lafs#via-pip'
   - icon: fab fa-apple
+  - label: 'apple'
     url: 'https://github.com/tahoe-lafs/tahoe-lafs#via-pip'
   - icon: fab fa-linux
+  - label: 'linux'
     url: 'https://github.com/tahoe-lafs/tahoe-lafs#using-os-packages'
   - icon: pg-netbsd
+  - label: 'netbsd'
     url: 'http://pkgsrc.se/filesystems/tahoe-lafs'
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://www.tahoe-lafs.org/trac/tahoe-lafs/browser'

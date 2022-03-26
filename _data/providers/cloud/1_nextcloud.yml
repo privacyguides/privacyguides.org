@@ -12,22 +12,32 @@ website: 'https://nextcloud.com/'
 privacy_policy: 'https://nextcloud.com/privacy/'
 downloads:
   - icon: fab fa-windows
+  - label: 'windows'
     url: 'https://nextcloud.com/install/#install-clients'
   - icon: fab fa-apple
+  - label: 'apple'
     url: 'https://nextcloud.com/install/#install-clients'
   - icon: fab fa-linux
+  - label: 'linux'
     url: 'https://nextcloud.com/install/#install-clients'
   - icon: fab fa-freebsd
+  - label: 'freebsd'
     url: 'https://www.freshports.org/www/nextcloud/'
   - icon: pg-openbsd
+  - label: 'openbsd'
     url: 'http://openports.se/www/nextcloud'
   - icon: pg-netbsd
+  - label: 'netbsd'
     url: 'http://pkgsrc.se/www/php-nextcloud'
   - icon: fab fa-android
+  - label: 'android'
     url: 'https://f-droid.org/packages/com.nextcloud.client/'
   - icon: fab fa-google-play
+  - label: 'play'
     url: 'https://play.google.com/store/apps/details?id=com.nextcloud.client'
   - icon: fab fa-app-store-ios
+  - label: 'ios'
     url: 'https://apps.apple.com/app/id1125420102'
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/nextcloud'

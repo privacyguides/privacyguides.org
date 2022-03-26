@@ -15,10 +15,14 @@ description: |
 website: 'https://orbot.app/'
 downloads:
   - icon: fab fa-android
+  - label: 'android'
     url: 'https://guardianproject.info/fdroid'
   - icon: fab fa-google-play
+  - label: 'play'
     url: 'https://play.google.com/store/apps/details?id=org.torproject.android'
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/guardianproject/orbot'
   - icon: fab fa-gitlab
+  - label: 'gitlab'
     url: 'https://gitlab.com/guardianproject/orbot'

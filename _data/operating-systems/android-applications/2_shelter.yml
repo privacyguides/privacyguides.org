@@ -15,10 +15,14 @@ description: |
 website: 'https://gitea.angry.im/PeterCxy/Shelter'
 downloads:
   - icon: fab fa-android
+  - label: 'android'
     url: 'https://f-droid.org/en/packages/net.typeblog.shelter'
   - icon: fab fa-google-play
+  - label: 'play'
     url: 'https://play.google.com/store/apps/details?id=net.typeblog.shelter'
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/PeterCxy/Shelter'
   - icon: fab fa-git
+  - label: 'git'
     url: 'https://gitea.angry.im/PeterCxy/Shelter'

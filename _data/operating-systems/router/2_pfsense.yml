@@ -8,4 +8,5 @@ website: 'https://www.pfsense.org'
 privacy_policy: 'https://www.pfsense.org/privacy.html'
 downloads:
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/pfsense'

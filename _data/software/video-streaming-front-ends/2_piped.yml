@@ -17,6 +17,8 @@ description: |
 website: 'https://piped.kavin.rocks/'
 downloads:
   - icon: fas fa-globe-americas
+  - label: 'americas'
     url: 'https://piped.kavin.rocks'
   - icon: fab fa-github
+  - label: 'github'
     url: 'https://github.com/TeamPiped/Piped'

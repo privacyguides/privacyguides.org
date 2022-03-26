@@ -15,4 +15,5 @@ website: 'https://addons.mozilla.org/firefox/addon/ublock-origin/'
 privacy_policy: 'https://github.com/gorhill/uBlock/wiki/Privacy-policy'
 downloads:
  - icon: fab fa-github
+  - label: 'github'
    url: https://github.com/gorhill/uBlock
