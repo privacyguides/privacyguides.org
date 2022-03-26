@@ -2,13 +2,13 @@
 layout: default
 ---
 
-  {{ content }}
-
 <div class="container my-5">
   <h1><a class="feed-button" href="#feed-selection"><i class="fas fa-rss rss-icon"></i></a> {{ page.title }}</h1>
   {% if page.description %}<div class="lead">
     {{ page.description | markdownify }}
   </div>{% endif %}
+
+  {{ content }}
 
   <div id="feed-selection" class="feed-selection-overlay feed-selection-overlay-active">
     <a class="feed-selection-cancel" href="#"></a>
