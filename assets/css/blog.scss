@@ -31,7 +31,7 @@
     padding: 20px;
     background: #fff;
     border: 1px solid 1px solid rgba(0, 0, 0, 0.125);
-    width: 500px;
+    max-width: 500px;
     border-radius: 0.25rem;
     box-shadow: 0 0 50px rgba(0,0,0,0.5);
     position: relative;
@@ -51,12 +51,6 @@
         &:last-child {
             margin: 0;
         }
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .feed-selection-popup {
-        width: nil;
     }
 }
 
