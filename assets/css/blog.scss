@@ -56,8 +56,8 @@
 
 @media only screen and (min-width: 768px) {
     .feed-selection-overlay-active .feed-selection-popup {
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-right: 10px !important;
+        margin-left: 10px !important;
     }
     
     .feed-selection-popup {
