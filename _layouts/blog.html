@@ -20,8 +20,10 @@ layout: default
           <h2>Blog feeds</h2>
           <p>We offer both JSON and RSS feeds for our blog.</p>
           <p>JSON Feed is a newer standard, whereas RSS is older and more compatible. Choose JSON feed if your reader supports it.</p>
-          <a href="/feed.json" class="btn btn-secondary btn-lg">JSON feed</a>
-          <a href="/feed.xml" class="btn btn-secondary btn-lg">RSS feed</a>
+          <div class="feed-selection-buttons">
+            <a id="feed-selection-json-button" href="/feed.json" class="btn btn-secondary btn-lg">JSON feed</a>
+            <a id="feed-selection-rss-button" href="/feed.xml" class="btn btn-secondary btn-lg">RSS feed</a>
+          </div>
         </div>
       </div>
     </div>

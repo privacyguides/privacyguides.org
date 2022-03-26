@@ -59,6 +59,10 @@
     margin-right: 10px;
 }
 
+.feed-selection-buttons #feed-selection-json-button {
+    padding-right: 5px;
+}
+
 @media (prefers-color-scheme: dark) {
     .feed-selection-popup {
         background: #1a2429;
