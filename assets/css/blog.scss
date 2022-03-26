@@ -54,6 +54,10 @@
     }
 }
 
+.feed-selection-overlay-active .feed-selection-popup {
+    margin: 0 10px;
+}
+
 @media (prefers-color-scheme: dark) {
     .feed-selection-popup {
         background: #1a2429;
