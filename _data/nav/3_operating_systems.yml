@@ -4,20 +4,16 @@ items:
   - type: link
     title: Android
     icon: fab fa-android
-  - label: 'android'
-    file: _evergreen/android.md
+  - file: _evergreen/android.md
   - type: link
     title: Linux Desktop
     icon: fab fa-linux
-  - label: 'linux'
-    file: _evergreen/linux-desktop.md
+  - file: _evergreen/linux-desktop.md
   - type: link
     title: Qubes OS
     icon: pg-qubes
-  - label: 'qubes'
-    file: _evergreen/qubes.md
+  - file: _evergreen/qubes.md
   - type: link
     title: Router
     icon: fa-duotone fa-circle-nodes
-  - label: 'nodes'
-    file: _evergreen/router.md
+  - file: _evergreen/router.md
