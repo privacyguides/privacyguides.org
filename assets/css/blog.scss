@@ -55,13 +55,13 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .feed-selection-popup {
-        width: 100%;
-    }
-
     .feed-selection-overlay-active .feed-selection-popup {
         margin-right: 10px;
         margin-left: 10px;
+    }
+    
+    .feed-selection-popup {
+        width: 100%;
     }
 }
 
