@@ -11,7 +11,7 @@
   visibility: hidden;
 	opacity: 0;
 	&.feed-selection-overlay-active {
-    background: rgba(0,0,0,0.25);
+    background: rgba(0,0,0,0.5);
   }
   .feed-selection-cancel {
     position: absolute;
@@ -29,8 +29,9 @@
 	margin: 75px auto;
 	padding: 20px;
 	background: #fff;
-	border: 1px solid #666;
+	border: 1px solid 1px solid rgba(0, 0, 0, 0.125);
 	width: 300px;
+    border-radius: 0.25rem;
 	box-shadow: 0 0 50px rgba(0,0,0,0.5);
 	position: relative;
   .feed-selection-overlay-active & {
@@ -41,22 +42,6 @@
     margin-top: 0;
     color: #666;
     font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
-  }
-  .close {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    top: 20px;
-    right: 20px;
-    opacity: 0.8;
-    transition: all 200ms;
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #666;
-    &:hover {
-      opacity: 1;
-    }
   }
   .content {
     max-height: 400px;
