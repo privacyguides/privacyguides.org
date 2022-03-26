@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="container my-5">
+  <h1><a class="feed-button" href="#feed-selection"><i class="fas fa-rss rss-icon"></i></a>{{ page.title }}</h1>
+  {% if page.description %}<div class="lead">
+    {{ page.description | markdownify }}
+  </div>{% endif %}
+
+  <div id="feed-selection" class="feed-selection-overlay feed-selection-overlay-active">
+    <a class="feed-selection-cancel" href="#"></a>
+    <div class="feed-selection-popup">
+      <div class="feed-selection-content">
+        <p>test</p>
+      </div>
+    </div>
+  </div>
+
+  {{ content }}
+  {% include hr.html %}
+  {% include footer.html %}
+</div>
