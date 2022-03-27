@@ -107,7 +107,7 @@ description: "Don't let Google see all your DNS traffic. Discover privacy-centri
 </p>
 
 <ul>
-  <li><strong>Signed profiles</strong> are offered by <a href="https://adguard.com/en/blog/encrypted-dns-ios-14.html">AdGuard</a>, <a href="https://kb.controld.com/en/tutorials">ControlD</a>, and <a href="https://apple.nextdns.io/">NextDNS</a>.</li>
+  <li><strong>Signed profiles</strong> are offered by <a href="https://adguard.com/en/blog/encrypted-dns-ios-14.html">AdGuard</a>, <a href="https://kb.controld.com/en/tutorials">ControlD</a>, <a href="https://apple.nextdns.io/">NextDNS</a>, and <a href="https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/">Quad9</a>.</li>
 </ul>
 
 ## Definitions
