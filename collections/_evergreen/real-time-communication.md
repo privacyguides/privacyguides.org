@@ -6,7 +6,6 @@ description: |
 ---
 
 ## Encrypted Instant Messengers
-
 {% for item_hash in site.data.software.messengers %}
 {% assign item = item_hash[1] %}
 
@@ -16,11 +15,9 @@ description: |
 {% endfor %}
 
 ## Types of Communication Networks
-
 There are several network architectures commonly used to relay messages between users. These networks can provide different different privacy guarantees, which is why it's worth considering your [threat model](https://en.wikipedia.org/wiki/Threat_model) when making a decision about which app to use.
 
 ### Centralized Networks
-
 {% capture markdown_text %}
 Centralized messengers are those where all participants are on the same server or network of servers controlled by the same organization.
 
@@ -55,7 +52,6 @@ Some self-hosted messengers allow you to set up your own server. Self-hosting ca
 </div>
 
 ### Federated Networks
-
 {% capture markdown_text %}
 Federated messengers use multiple, independent, decentralized servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.
 
@@ -88,7 +84,6 @@ When self-hosted, users of a federated server can discover and communicate with 
 </div>
 
 ### Peer-to-Peer (P2P) Networks
-
 {% capture markdown_text %}
 [P2P](https://en.wikipedia.org/wiki/Peer-to-peer) messengers connect to a [distributed network](https://en.wikipedia.org/wiki/Distributed_networking) of nodes to relay a message to the recepient without a third-party server.
 
@@ -125,7 +120,6 @@ P2P networks do not use servers, as users communicate directly between each othe
 </div>
 
 ### Anonymous Routing
-
 {% capture markdown_text %}
 A messenger using [anonymous routing](https://doi.org/10.1007/978-1-4419-5906-5_628) hides either the identity of the sender, the receiver, or evidence that they have been communicating. Ideally, a messenger should hide all three.
 
