@@ -10,11 +10,12 @@ description: |
   As CalyxOS includes a device controller, we recommend using their built in work profile instead.
 
   Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular/) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
-  
-  When using Shelter, you are placing complete trust in its developer as Shelter would be acting as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) for the work profile and has extensive access to the data stored within it. 
+
+  When using Shelter, you are placing complete trust in its developer as Shelter would be acting as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) for the work profile and has extensive access to the data stored within it.
+
 website: 'https://gitea.angry.im/PeterCxy/Shelter'
 downloads:
-  - icon: fab fa-android
+  - icon: pg-f-droid
     url: 'https://f-droid.org/en/packages/net.typeblog.shelter'
   - icon: fab fa-google-play
     url: 'https://play.google.com/store/apps/details?id=net.typeblog.shelter'
