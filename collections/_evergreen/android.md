@@ -105,7 +105,7 @@ The Advanced Protection Program provides enhanced threat monitoring and enables:
 * Stricter [safe browser scanning](https://www.google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
 * Stricter recovery process for accounts with lost credentials
 
-For users that are using the privileged Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949?hl=en) such as:
+For users that are using the privileged Google Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949?hl=en) such as:
 * Not allowing app installation outside of the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
 * Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
 * Warning the user about unverified applications
@@ -118,11 +118,11 @@ As for Google Wallet, we don't recommend this due to their [privacy policy](http
 
 ### Advertising ID
 
-All devices with Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248?hl=en) used for targeted advertising. Disable this feature to limit the data collected about you.
+All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248?hl=en) used for targeted advertising. Disable this feature to limit the data collected about you.
 
-On Android distributions with [Sandboxed Play Services](https://grapheneos.org/usage#sandboxed-play-services), go to ⚙️ Settings → Apps → Sandboxed Google Play → Google Settings → Ads and select **Delete advertising ID**.
+On Android distributions with [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to ⚙️ Settings → Apps → Sandboxed Google Play → Google Settings → Ads and select **Delete advertising ID**.
 
-On Android distributions with privileged Play Services (such as stock OSes), the setting may be in one of several locations. Check
+On Android distributions with privileged Google Play Services (such as stock OSes), the setting may be in one of several locations. Check
 * ⚙️ Settings → Google → Ads
 * ⚙️ Settings → Privacy → Ads
 
@@ -189,21 +189,21 @@ CalyxOS includes a device controller app so there is no need to install a third 
 
 GrapheneOS extends the [user profile](/android/#android-security-privacy) feature allowing a user to press an "End Session" button. This button clears the encryption key from memory. There are plans to add a [cross profile notifications system](https://github.com/GrapheneOS/os-issue-tracker/issues/88) in the future.
 
-### Sandboxed Play Services vs Privileged MicroG
+### Sandboxed Google Play vs Privileged MicroG
 
 When Google Play services are used on GrapheneOS, they run as a user app and are contained within a user or work profile.
 
-Sandboxed Play Services are confined using the highly restrictive, default [`untrusted_app`](https://source.android.com/security/selinux/concepts) domain provided by [SELinux](https://en.wikipedia.org/wiki/Security-Enhanced_Linux). Permissions for apps to use Play Services can be revoked at any time by the user.
+Sandboxed Google Play is confined using the highly restrictive, default [`untrusted_app`](https://source.android.com/security/selinux/concepts) domain provided by [SELinux](https://en.wikipedia.org/wiki/Security-Enhanced_Linux). Permissions for apps to use Google Play Services can be revoked at any time by the user.
 
-MicroG is a reimplementation of Google Play Services. This means it needs to be updated every time Android has a major version update (or the Android API changes). It also needs to run in the highly privileged [`system_app`](https://source.android.com/security/selinux/concepts) SELinux domain like the normal Play Services and require access to [signature spoofing](https://madaidans-insecurities.github.io/android.html#microg-signature-spoofing). This less secure than the Sandboxed Play Service approach and we do not believe MicroG provides any privacy advantages over Sandboxed Play Services except for the option to _shift trust_ of the location backend from Google to another provider such as Mozilla or DejaVu.
+MicroG is a reimplementation of Google Play Services. This means it needs to be updated every time Android has a major version update (or the Android API changes). It also needs to run in the highly privileged [`system_app`](https://source.android.com/security/selinux/concepts) SELinux domain like normal Google Play Services and requires access to [signature spoofing](https://madaidans-insecurities.github.io/android.html#microg-signature-spoofing) so this is less secure than the Sandboxed Google Play approach. We do not believe MicroG provides any privacy advantages over Sandboxed Google Play except for the option to _shift trust_ of the location backend from Google to another provider such as Mozilla or DejaVu.
 
-From a usability point of view, the Sandboxed Play Services also works well with far more applications than MicroG, thanks to its support for services like [Google Play Games](https://play.google.com/googleplaygames) and [In-app Billing API](https://android-doc.github.io/google/play/billing/api.html).
+From a usability point of view, Sandboxed Google Play also works well with far more applications than MicroG, thanks to its support for services like [Google Play Games](https://play.google.com/googleplaygames) and [In-app Billing API](https://android-doc.github.io/google/play/billing/api.html).
 
 ### Privileged App Extensions
 
 Android 12 comes with special support for seamless app updates with [third party app stores](https://android-developers.googleblog.com/2020/09/listening-to-developer-feedback-to.html). The popular Free and Open Source Software (FOSS) repository [F-Droid](https://f-droid.org) doesn't implement this feature and requires a [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged) to be included with the Android distribution in order to have unattended app installation.
 
-GrapheneOS doesn't compromise on security, therefore they do not include the F-Droid extension therefore, users have to confirm all updates manually if they want to use F-Droid. Alternatively, they can use the Droidify client which does support seamless app updates in Android 12. GrapheneOS officially recommends [Sandboxed Play Services](https://grapheneos.org/usage#sandboxed-play-services) instead. Many FOSS Android apps are also in Google Play but sometimes they are not (like [NewPipe]({% link _evergreen/video-streaming.md %})).
+GrapheneOS doesn't compromise on security; therefore, they do not include the F-Droid extension. Users have to confirm all updates manually if they want to use F-Droid. Alternatively, they can use the Droidify client which does support seamless app updates in Android 12. GrapheneOS officially recommends [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play) instead. Many FOSS Android apps are also in Google Play but sometimes they are not (like [NewPipe]({% link _evergreen/video-streaming.md %})).
 
 CalyxOS includes the [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged), which may lower device security. Seamless app updates should be possible with [Aurora Store](https://auroraoss.com) in Android 12.
 
