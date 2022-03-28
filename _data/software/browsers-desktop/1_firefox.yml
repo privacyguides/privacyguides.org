@@ -17,7 +17,8 @@ description: |
   </ul>
   You can still stay logged into websites by allowing exceptions.
 
-  ##### **Disable Search Suggestions (U.S. Only)**
+  ##### **Disable Search Suggestions**
+  *These features may not be available depending on your region.*
    <ul style="list-style-type:none;padding-left:0;">
     <li>Toggle off: <strong>Suggestions from the web</strong></li>
     <li>Toggle off: <strong>Suggestions from sponsors</strong></li>
