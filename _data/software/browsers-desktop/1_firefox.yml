@@ -17,6 +17,15 @@ description: |
   </ul>
   You can still stay logged into websites by allowing exceptions.
 
+  ##### **History**
+By default Firefox does not [automatically clear the cache](https://support.mozilla.org/en-US/kb/how-clear-firefox-cache#w_automatically-clear-the-cache):
+  <ul style="list-style-type:none;padding-left:0;">
+    <li>Select: Firefox will <strong>Use custom settings for history</strong></li>
+    <li>Select: <strong>Remember browsing and download history</strong></li>
+    <li>Select: <strong>Clear history when Firefox closes</strong></li>
+  </ul>
+  If you use [Arkenfox](/browsers/#arkenfox-advanced) all of your history and data will be cleared when you close Firefox. If you want to customise history settings see the [overrides](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) section.
+
   ##### **Disable Search Suggestions**
   *These features may not be available depending on your region.*
    <ul style="list-style-type:none;padding-left:0;">
