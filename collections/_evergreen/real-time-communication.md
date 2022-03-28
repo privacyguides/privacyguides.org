@@ -44,7 +44,7 @@ Some self-hosted messengers allow you to set up your own server. Self-hosting ca
           <li>Being <a href="https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165">forbidden from connecting third-party clients</a> to the centralized network that might provide for greater customization or better user experience. Often defined in Terms and Conditions of usage.</li>
           <li>Poor or no documentation for third-party developers.</li>
         </ul>
-        <li>The <a href="https://blog.privacytools.io/delisting-wire">ownership</a>, privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.</li>
+        <li>The <a href="https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/">ownership</a>, privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.</li>
         <li>Self hosting requires effort and knowledge of how to set up a service.</li>
       </ul>
     </div>
