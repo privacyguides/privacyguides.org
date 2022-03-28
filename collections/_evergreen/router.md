@@ -3,7 +3,7 @@ layout: evergreen
 title: Router
 mathjax: false
 description: |
-  Below are a few alternative operating systems, that can be used on routers, wifi access points etc.
+  Below are a few alternative operating systems, that can be used on routers, Wi-Fi access points etc.
 ---
 
 {% for item_hash in site.data.operating-systems.router %}
