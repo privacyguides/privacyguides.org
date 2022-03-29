@@ -32,7 +32,7 @@ description: |
     <li>Check: <strong>Cache</strong></li>
     <li>Check: <strong>Form & search history</strong></li>
   </ul>
-  If you use [Arkenfox](/browsers/#arkenfox-advanced) all of your history and data will be cleared when you close Firefox. If you want to customize history settings see the [overrides](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) section.
+  If you use [Arkenfox](/browsers/#arkenfox-advanced), all of your history and data will be cleared when you close Firefox. If you want to customize history settings, see the [overrides](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) section.
 
   ##### **Disable Search Suggestions**
   *These features may not be available depending on your region.*
