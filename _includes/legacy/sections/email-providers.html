@@ -68,7 +68,7 @@
 
     <h5>{% include badge.html color="warning" text="Data Security" %}</h5>
     <p>Mailbox.org allows for encryption of incoming mail using their <a href="https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox">encrypted mailbox</a>. New messages that you receive will then be immediately encrypted with your public key.</p>
-    <p>However, <a href="https://en.wikipedia.org/wiki/Open-Xchange">Open-Exchange</a>, the software platform used by Mailbox.org, <a href="https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book">does not support</a> the encryption of your address book and calendar. A <a href="/software/calendar-contacts/">standalone option</a> may be more appropriate for that information.</p>
+    <p>However, <a href="https://en.wikipedia.org/wiki/Open-Xchange">Open-Exchange</a>, the software platform used by Mailbox.org, <a href="https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book">does not support</a> the encryption of your address book and calendar. A <a href="/calendar-contacts/">standalone option</a> may be more appropriate for that information.</p>
 
     <h5>{% include badge.html color="success" text="Email Encryption" %}</h5>
     <p>Mailbox.org has <a href="https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard">integrated encryption</a> in their webmail, which simplifies sending messages to users with public OpenPGP keys. They also allow <a href="https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP">remote recipients to decrypt an email</a> on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.</p>
@@ -106,7 +106,7 @@
 
     <h5>{% include badge.html color="warning" text="Data Security" %}</h5>
     <p>Disroot uses full disk encryption. However, it doesn't appear to be "zero access", meaning it is technically possible for them to decrypt the data they have.</p>
-    <p>Disroot also uses the standard <a href="https://en.wikipedia.org/wiki/CalDAV">CalDAV</a> and <a href="https://en.wikipedia.org/wiki/CardDAV">CardDAV</a> protocols for calendars and contacts, which do not support E2EE. A <a href="/software/calendar-contacts/">standalone option</a> may be more appropriate.</p>
+    <p>Disroot also uses the standard <a href="https://en.wikipedia.org/wiki/CalDAV">CalDAV</a> and <a href="https://en.wikipedia.org/wiki/CardDAV">CardDAV</a> protocols for calendars and contacts, which do not support E2EE. A <a href="/calendar-contacts/">standalone option</a> may be more appropriate.</p>
 
     <h5>{% include badge.html color="success" text="Email Encryption" %}</h5>
     <p>Disroot allows for encrypted emails to be sent from their webmail application using OpenPGP. However, Disroot has not integrated a <a href="https://wiki.gnupg.org/WKD">Web Key Directory (WKD)</a> for users on their platform.</p>
@@ -186,7 +186,7 @@
     <h5>{% include badge.html color="warning" text="Data Security" %}</h5>
     <p>StartMail has <a href="https://www.startmail.com/en/whitepaper/#_Toc458527835">zero access encryption at rest</a>, using their "user vault" system. When a user logs in, the vault is opened, and the email is then moved to the vault out of the queue where it is decrypted by the corresponding private key.</p>
 
-    <p>StartMail supports importing <a href="https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts">contacts</a> however, they are only accessible in the webmail and not through protocols such as <a href="https://en.wikipedia.org/wiki/CalDAV">CalDAV</a>. Contacts are also not stored using zero knowledge encryption, so a <a href="/software/calendar-contacts/">standalone option</a> may be more appropriate.</p>
+    <p>StartMail supports importing <a href="https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts">contacts</a> however, they are only accessible in the webmail and not through protocols such as <a href="https://en.wikipedia.org/wiki/CalDAV">CalDAV</a>. Contacts are also not stored using zero knowledge encryption, so a <a href="/calendar-contacts/">standalone option</a> may be more appropriate.</p>
 
     <h5>{% include badge.html color="success" text="Email Encryption" %}</h5>
     <p>StartMail has <a href="https://support.startmail.com/hc/en-us/sections/360001889078-Encryption">integrated encryption</a> in their webmail, which simplifies sending messages to users with public OpenPGP keys.</p>

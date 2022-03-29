@@ -9,7 +9,7 @@ items:
   - type: link
     title: Calendar/Contacts Sync Tools
     icon: fad fa-calendar-day
-    file: legacy_pages/software/cal-card.html
+    file: _evergreen/calendar-contacts.md
   - type: link
     title: Digital Notebooks
     icon: fad fa-edit

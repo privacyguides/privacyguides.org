@@ -1,0 +1,12 @@
+title: Proton Calendar
+type: Recommendation
+logo: /assets/img/calendar-contacts/proton-calendar.jpg
+description: |
+  **Proton Calendar** is an calendar app that is available to ProtonMail users. All data stored within it is end-to-end encrypted when stored on ProtonMail's servers.
+website: 'https://calendar.protonmail.com'
+privacy_policy: 'https://protonmail.com/privacy-policy'
+downloads:
+  - icon: fab fa-google-play
+    url: 'https://play.google.com/store/apps/details?id=me.proton.android.calendar'
+  - icon: fab fa-github
+    url: 'https://github.com/ProtonMail/WebClients'
