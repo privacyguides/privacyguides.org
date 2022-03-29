@@ -12,17 +12,25 @@ description: |
   </ul>
 
   ##### **Sanitize on Close**
+  Firefox does not [automatically clear the cache](https://support.mozilla.org/en-US/kb/how-clear-firefox-cache#w_automatically-clear-the-cache).
+  ###### **Cookies and Site Data**
   <ul style="list-style-type:none;padding-left:0;">
     <li>Select: <strong>Delete cookies and site data when Firefox is closed</strong></li>
   </ul>
   You can still stay logged into websites by allowing exceptions.
 
   ##### **History**
-  Firefox does not [automatically clear the cache](https://support.mozilla.org/en-US/kb/how-clear-firefox-cache#w_automatically-clear-the-cache).
   <ul style="list-style-type:none;padding-left:0;">
-    <li>Select: Firefox will <strong>Use custom settings for history</strong></li>
+    <li>Select: Firefox will <strong>"Use custom settings for history"</strong></li>
     <li>Select: <strong>Remember browsing and download history</strong></li>
     <li>Select: <strong>Clear history when Firefox closes</strong></li>
+  </ul>
+
+  Then click "Settings..."
+  <ul style="list-style-type:none;padding-left:0;">
+    <li>Check: <strong>Active logins</strong></li>
+    <li>Check: <strong>Cache</strong></li>
+    <li>Check: <strong>Form & search history</strong></li>
   </ul>
   If you use [Arkenfox](/browsers/#arkenfox-advanced) all of your history and data will be cleared when you close Firefox. If you want to customize history settings see the [overrides](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) section.
 
