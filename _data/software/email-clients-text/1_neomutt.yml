@@ -1,0 +1,13 @@
+title: Neomutt
+type: Recommendation
+logo: /assets/img/email-clients/mutt.svg
+description: |
+  NeoMutt is an open-source command line mail reader (or MUA) for Linux and BSD. It's a fork of [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) with added features.
+website: 'https://neomutt.org'
+downloads:
+  - icon: fab fa-linux
+    url: 'https://neomutt.org/distro'
+  - icon: fab fa-freebsd
+    url: 'https://www.freshports.org/mail/neomutt'
+  - icon: fab fa-github
+    url: 'https://github.com/neomutt/neomutt'

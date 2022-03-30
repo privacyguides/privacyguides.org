@@ -1,0 +1,12 @@
+title: Kontact
+type: Recommendation
+logo: /assets/img/email-clients/kontact.svg
+description: |
+  Kontact is a personal information manager (PIM) application from the [KDE](https://kde.org) project. It provides a mail client, address book, organizer and RSS client.
+website: 'https://kontact.kde.org'
+privacy_policy: 'https://kde.org/privacypolicy-apps/'
+downloads:
+  - icon: fab fa-linux
+    url: 'https://kontact.kde.org/download'
+  - icon: fab fa-git
+    url: 'https://invent.kde.org/pim/kmail'

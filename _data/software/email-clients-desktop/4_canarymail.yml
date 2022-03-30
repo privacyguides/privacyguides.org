@@ -1,0 +1,21 @@
+title: Canary Mail
+type: Recommendation
+logo: /assets/img/email-clients/canarymail.svg
+description: |
+  Canary Mail is a paid email client designed to make end-to-end encryption seamless with security features such as a biometric app lock.
+
+  ## Notes
+  Canary Mail is closed source.
+
+  Canary Mail only recently released a Windows and Android client we don't believe they are as stable as their iOS and Mac counterparts.
+website: 'https://canarymail.io'
+privacy_policy: 'https://canarymail.io/privacy.html'
+downloads:
+  - icon: fab fa-apple
+    url: 'https://apps.apple.com/app/id1236045954'
+  - icon: fab fa-app-store-ios
+    url: 'https://apps.apple.com/app/id1236045954'
+  - icon: fab fa-android
+    url: 'https://play.google.com/store/apps/details?id=io.canarymail.android'
+  - icon: fab fa-windows
+    url: 'https://download.canarymail.io/get_windows'

@@ -17,7 +17,7 @@ items:
   - type: link
     title: Email Clients
     icon: fad fa-envelope-open-text
-    file: legacy_pages/software/email.html
+    file: _evergreen/email-clients.md
   - type: link
     title: File Encryption Tools
     icon: fad fa-file-certificate

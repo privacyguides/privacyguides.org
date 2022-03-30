@@ -1,0 +1,12 @@
+title: GNOME Evolution
+type: Recommendation
+logo: /assets/img/email-clients/evolution.svg
+description: |
+  **Evolution** is a personal information management application that provides integrated mail, calendaring and address book functionality. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable/) to help you get started.
+website: 'https://wiki.gnome.org/Apps/Evolution'
+privacy_policy: 'https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy'
+downloads:
+  - icon: fab fa-linux
+    url: 'https://flathub.org/apps/details/org.gnome.Evolution'
+  - icon: fab fa-gitlab
+    url: 'https://gitlab.gnome.org/GNOME/evolution'
