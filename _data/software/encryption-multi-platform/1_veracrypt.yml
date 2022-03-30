@@ -1,0 +1,16 @@
+title: VeraCrypt
+type: Recommendation
+logo: /assets/img/encryption-software/veracrypt.svg
+description: |
+  **VeraCrypt** is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file, encrypt a partition, or encrypt the entire storage device with pre-boot authentication. VeraCrypt is a fork of the discontinued TrueCrypt project. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed.
+privacy_policy: ''
+website: 'https://veracrypt.fr'
+downloads:
+  - icon: fab fa-windows
+    url: 'https://www.veracrypt.fr/en/Downloads.html'
+  - icon: fab fa-apple
+    url: 'https://www.veracrypt.fr/en/Downloads.html'
+  - icon: fab fa-linux
+    url: 'https://www.veracrypt.fr/en/Downloads.html'
+  - icon: fab fa-github
+    url: 'https://www.veracrypt.fr/code'

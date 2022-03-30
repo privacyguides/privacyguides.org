@@ -1,0 +1,16 @@
+title: Kryptor
+type: Recommendation
+logo: /assets/img/encryption-software/kryptor.png
+description: |
+  **Kryptor** is a free and open source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign/) to provide a simple, user friendly alternative to GPG.
+privacy_policy: ''
+website: 'https://www.kryptor.co.uk'
+downloads:
+  - icon: fab fa-windows
+    url: 'https://www.kryptor.co.uk'
+  - icon: fab fa-apple
+    url: 'https://www.kryptor.co.uk'
+  - icon: fab fa-linux
+    url: 'https://www.kryptor.co.uk'
+  - icon: fab fa-github
+    url: 'https://github.com/samuel-lucas6/Kryptor'

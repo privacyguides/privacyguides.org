@@ -21,7 +21,7 @@ items:
   - type: link
     title: File Encryption Tools
     icon: fad fa-file-certificate
-    file: legacy_pages/software/file-encryption.html
+    file: _evergreen/encryption-software.md
   - type: link
     title: File Sharing and Sync
     icon: fad fa-file-user
