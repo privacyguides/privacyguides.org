@@ -1,0 +1,20 @@
+title: EteSync Notes
+type: Recommendation
+logo: /assets/img/notebooks/etesync-notes.png
+description: |
+  **EteSync Notes** is a secure, end-to-end encrypted, and privacy-respecting note taking app. EteSync also offers optional software as a service for [$24 per year](https://dashboard.etebase.com/user/partner/pricing/), or you can host the server yourself for free.
+
+  [etebase](https://docs.etebase.com), which is the foundation of EteSync, can also be used by other apps as a backend to store data end-to-end encrypted (E2EE).
+privacy_policy: 'https://www.etesync.com/tos/#privacy'
+website: 'https://www.etesync.com'
+downloads:
+  - icon: fas fa-globe-americas
+    url: 'https://notes.etesync.com'
+  - icon: fab fa-google-play
+    url: 'https://play.google.com/store/apps/details?id=com.etesync.notes'
+  - icon: fab fa-app-store-ios
+    url: 'https://apps.apple.com/us/app/etesync-notes/id1533806351'
+  - icon: pg-f-droid
+    url: 'https://f-droid.org/packages/com.etesync.notes'
+  - icon: fab fa-github
+    url: 'https://github.com/etesync'

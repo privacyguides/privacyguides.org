@@ -1,0 +1,9 @@
+title: Org-mode
+type: Recommendation
+logo: /assets/img/notebooks/org-mode.svg
+description: |
+  **Org-mode** is a [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system. Synchronization is possible with [file synchronization](/software/file-sharing/#sync) tools.
+website: 'https://orgmode.org'
+downloads:
+  - icon: fab fa-git
+    url: 'https://git.savannah.gnu.org/cgit/emacs/org-mode.git'

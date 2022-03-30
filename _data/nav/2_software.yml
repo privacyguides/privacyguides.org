@@ -13,7 +13,7 @@ items:
   - type: link
     title: Digital Notebooks
     icon: fad fa-edit
-    file: legacy_pages/software/notebooks.html
+    file: _evergreen/notebooks.md
   - type: link
     title: Email Clients
     icon: fad fa-envelope-open-text

@@ -1,0 +1,26 @@
+title: Standard Notes
+type: Recommendation
+logo: /assets/img/notebooks/standard-notes.svg
+description: |
+  **Standard Notes** is a simple and private notes app that makes your notes easy and available everywhere you are. It features end-to-end encryption on every platform, and a powerful desktop experience with themes and custom editors. It has also been [independently audited (PDF)](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
+
+  Joplin does not support password/pin protection for the [application itself or individual notes/notebooks](https://github.com/laurent22/joplin/issues/289). Data is still encrypted in transit and at the sync location using your master key.
+website: 'https://standardnotes.org'
+privacy_policy: 'https://standardnotes.org/privacy'
+downloads:
+  - icon: fab fa-windows
+    url: 'https://standardnotes.com'
+  - icon: fab fa-apple
+    url: 'https://standardnotes.org'
+  - icon: fab fa-linux
+    url: 'https://standardnotes.org'
+  - icon: fas fa-globe-americas
+    url: 'https://app.standardnotes.com'
+  - icon: fab fa-app-store-ios
+    url: 'https://apps.apple.com/app/id1285392450'
+  - icon: fab fa-google-play
+    url: 'https://play.google.com/store/apps/details?id=com.standardnotes'
+  - icon: pg-f-droid
+    url: 'https://f-droid.org/en/packages/com.standardnotes'
+  - icon: fab fa-github
+    url: 'https://github.com/standardnotes'
