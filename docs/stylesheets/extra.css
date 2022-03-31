@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Bagnard;
+    src: url("/assets/fonts/Bagnard.woff") format("woff"), url("/assets/fonts/Bagnard.ttf") format("truetype"), url("/assets/fonts/Bagnard.otf") format("opentype");
+}
+
+/* Define brand colors */
+:root {
+    --md-primary-fg-color:        #FFD06F;
+    --md-primary-fg-color--light: #ffdd98;
+    --md-primary-fg-color--dark:  #db9d21;
+    --md-primary-bg-color: rgba(0,0,0,.75);
+    --md-primary-bg-color--light: rgba(0,0,0,.54);
+}
+
+/* Hide shadow under navigation */
+.md-header[data-md-state="shadow"] {
+    box-shadow: none;
+}
+
+/* Better contrast link colors */
+[data-md-color-scheme="default"] {
+    --md-typeset-a-color: #3C00E0;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-typeset-a-color: #CBBDFF;
+}
+
+/* Purple buttons */
+.md-typeset .md-button {
+    color: var(--md-typeset-a-color);
+}
+.md-typeset .md-button--primary {
+    color: white;
+    background-color: var(--md-typeset-a-color);
+    border-color: var(--md-typeset-a-color);
+}
+
+h1, h2, h3, .md-header__topic {
+    font-family: Bagnard, serif;
+}
+
+/* Recommendation cards */
+.md-typeset .admonition.recommendation,
+.md-typeset details.recommendation {
+border: none;
+font-size: inherit;
+}
+.md-typeset .recommendation > .admonition-title,
+.md-typeset .recommendation > summary {
+background-color: rgba(43, 155, 70, 0.0);
+border: none;
+padding-left: 0.6rem;
+}
+.md-typeset .recommendation > .admonition-title::before,
+.md-typeset .recommendation > .admonition-title,
+.md-typeset .recommendation > summary::before {
+display: none;
+}

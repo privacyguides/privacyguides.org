@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'overrides/blog.css' | url }}">
+{% endblock %}
+{% block hero %}
+  {{ super() }}
+  <style>.md-content > .md-typeset h1{visibility:hidden;font-size:0;}</style>
+  <section class="mdx-container" {% if page.meta.background %}style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(/assets/img/blog/{{ page.meta.background }});padding-top:8rem;padding-bottom:4rem;background-size:cover;background-position:center;"{% endif %}>
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__content" style>
+          <h1 {% if page.meta.background %}style="color:white"{% endif %}>{{ page.meta.title }}</h1>
+          {% if page.meta.excerpt %}<p {% if page.meta.background %}style="color:white"{% endif %}>{{ page.meta.excerpt }}</p>{% endif %}
+          <nav class="md-tags">
+            <span {% if page.meta.background %}style="color:white"{% endif %} class="md-tag">Author: {{ page.meta.author }}</span>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

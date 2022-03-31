@@ -1,0 +1,85 @@
+site_name: Privacy Guides
+site_description: |
+  Massive organizations are monitoring your online activities. Privacy Guides is your central privacy and security resource to protect yourself online.
+copyright: This content was made available by the Privacy Guides team and contributors. <a href="#">Get involved</a>!
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/privacy_guides
+    - icon: fontawesome/brands/github
+      link: https://github.com/privacyguides
+    - icon: fontawesome/brands/reddit-alien
+      link: https://reddit.com/r/PrivacyGuides
+repo_url: https://github.com/privacyguides/privacyguides.org
+repo_name: privacyguides.org
+
+nav:
+  - Home: 'index.md'
+  - 'Privacy Introduction':
+    - 'Threat Modeling': 'threat-modeling.md'
+  - 'Recommendations':
+    - 'Privacy Tools': 'tools.md'
+    - 'Operating Systems': 
+      - 'Android': 'android.md'
+  - 'Blog':
+    - '2021':
+      - 'December':
+        - 'Firefox Privacy: 2021 Update': 'blog/2021/12/01/firefox-privacy-2021-update.md'
+      - 'November':
+        - 'Virtual Insanity': 'blog/2021/11/01/virtual-insanity.md'
+      - 'September':
+        - 'Welcome to Privacy Guides': 'blog/2021/09/14/welcome-to-privacy-guides.md'
+    - '2019':
+      - 'November':
+        - 'Firefox Privacy': 'blog/2019/11/09/firefox-privacy.md'
+      - 'October':
+        - 'Choosing a VPN': 'blog/2019/10/30/choosing-a-vpn.md'
+        - 'Understanding VPNs': 'blog/2019/10/05/understanding-vpns.md'
+      - 'August':
+        - 'Self Hosting a Shadowsocks VPN with Outline': 'blog/2019/08/22/self-hosting-shadowsocks-vpn-outline.md'
+
+theme:
+  name: material
+  custom_dir: theme
+  logo: assets/logo.svg
+  font: false
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+  palette: 
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      accent: deep purple
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: deep purple
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+plugins:
+  - search
+  - tags
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - meta
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
