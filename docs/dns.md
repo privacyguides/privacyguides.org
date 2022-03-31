@@ -9,9 +9,9 @@ When you visit a website, a numerical address is returned. For example, when you
 
 DNS has existed since the [early days](https://en.wikipedia.org/wiki/Domain_Name_System#History) of the Internet. DNS requests made to and from DNS servers are **not** generally encrypted. In a residential setting, a customer is given servers by the [ISP](https://en.wikipedia.org/wiki/Internet_service_provider) via [Dynamic Host Configuration Protocol (DHCP)](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
 
-Unencrypted DNS requests are able to be easily **surveilled** and **modified** in transit. In some parts of the world ISPs are ordered to do primitive [DNS filtering](https://en.wikipedia.org/wiki/DNS_blocking). When a user requests the IP of a domain that is blocked, the server may not respond or may respond with a different IP address. As the DNS protocol is not encrypted, the ISP (or any network operator) can use [deep packet inspection (DPI)](https://en.wikipedia.org/wiki/Deep_packet_inspection) to monitor requests. ISPs can also block requests based on common characteristics, regardless of which DNS server is used. Unencrypted DNS always uses [port](https://en.wikipedia.org/wiki/Port_(computer_networking)) 53 and always uses the [User Datagram Protocol (UDP)](https://en.wikipedia.org/wiki/User_Datagram_Protocol).
+Unencrypted DNS requests are able to be easily **surveilled** and **modified** in transit. In some parts of the world, ISPs are ordered to do primitive [DNS filtering](https://en.wikipedia.org/wiki/DNS_blocking). When a user requests the IP of a domain that is blocked, the server may not respond or may respond with a different IP address. As the DNS protocol is not encrypted, the ISP (or any network operator) can use [deep packet inspection (DPI)](https://en.wikipedia.org/wiki/Deep_packet_inspection) to monitor requests. ISPs can also block requests based on common characteristics, regardless of which DNS server is used. Unencrypted DNS always uses [port](https://en.wikipedia.org/wiki/Port_(computer_networking)) 53 and always uses the [User Datagram Protocol (UDP)](https://en.wikipedia.org/wiki/User_Datagram_Protocol).
 
-Below we discuss and provide a tutorial to prove what an outside observer may see using regular unencrypted DNS, and [encrypted DNS](/dns/#what-is-encrypted-dns).
+Below, we discuss and provide a tutorial to prove what an outside observer may see using regular unencrypted DNS and [encrypted DNS](/dns/#what-is-encrypted-dns).
 
 ### Unencrypted DNS
 1. Using [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. This command records packets that meet the rules specified:
@@ -19,7 +19,7 @@ Below we discuss and provide a tutorial to prove what an outside observer may se
    tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
    ```
 
-2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS etc) or  [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) on Windows to send the DNS lookup to both servers. Software such as web browsers do these lookups automatically unless they are configured to use [encrypted DNS](/dns/#what-is-encrypted-dns).
+2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS etc) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Software such as web browsers do these lookups automatically, unless they are configured to use [encrypted DNS](/dns/#what-is-encrypted-dns).
 
     === "Linux, MacOS"
 
@@ -34,7 +34,7 @@ Below we discuss and provide a tutorial to prove what an outside observer may se
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Next we want to [analyse](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
+3. Next, we want to [analyse](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
 
     === "Wireshark"
 
@@ -48,7 +48,7 @@ Below we discuss and provide a tutorial to prove what an outside observer may se
         tshark -r /tmp/dns.pcap
         ```
 
-If you ran the Wireguard command above the top pane shows the "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", and the bottom pane shows all the data about the selected frame. Enterprise filtering and monitoring solutions (such as those purchased by governments) can do the process automatically, without human interaction and can aggregate those frames to produce statistical data useful to the network observer.
+If you run the Wireguard command above, the top pane shows the "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", and the bottom pane shows all the data about the selected frame. Enterprise filtering and monitoring solutions (such as those purchased by governments) can do the process automatically, without human interaction, and can aggregate those frames to produce statistical data useful to the network observer.
 
 | No. | Time     | Source    | Destination | Protocol | Length | Info                                                                   |
 |-----|----------|-----------|-------------|----------|--------|------------------------------------------------------------------------|
@@ -66,7 +66,7 @@ Encrypted DNS can refer to one of a number of protocols, the most common ones be
 [**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) was one of the first methods of encrypting DNS queries. The [protocol](https://en.wikipedia.org/wiki/DNSCrypt#Protocol) operates on [port 443](https://en.wikipedia.org/wiki/Well-known_ports) and works with both the [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) or [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) transport protocols. DNSCrypt has never been submitted to the [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nor has it gone through the [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) process, so it has not been used widely outside of a few [implementations](https://dnscrypt.info/implementations). As a result, it has been largely replaced by the more popular [DNS over HTTPS (DoH)](/dns/#dns-over-https-doh).
 
 ### DNS over TLS (DoT)
-[**DNS over TLS (DoT)**](https://en.wikipedia.org/wiki/DNS_over_TLS) is another method for encrypting DNS communication that is defined in [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Support was first implemented in [Android 9](https://en.wikipedia.org/wiki/Android_Pie), [iOS 14](https://en.wikipedia.org/wiki/IOS_14) and on Linux in [systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in version 237. Preference in the industry has been moving away from DoT to [DNS over HTTPS](/dns/#dns-over-https-doh) in recent years as DoT is a [complex protocol](https://dnscrypt.info/faq/) and has varying compliance to the RFC across the implementations that exist. DoT also operates on a dedicated port 853 and that can be blocked easily by restrictive firewalls.
+[**DNS over TLS (DoT)**](https://en.wikipedia.org/wiki/DNS_over_TLS) is another method for encrypting DNS communication that is defined in [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Support was first implemented in [Android 9](https://en.wikipedia.org/wiki/Android_Pie), [iOS 14](https://en.wikipedia.org/wiki/IOS_14), and on Linux in [systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in version 237. Preference in the industry has been moving away from DoT to [DNS over HTTPS](/dns/#dns-over-https-doh) in recent years, as DoT is a [complex protocol](https://dnscrypt.info/faq/) and has varying compliance to the RFC across the implementations that exist. DoT also operates on a dedicated port 853 and that can be blocked easily by restrictive firewalls.
 
 ### DNS over HTTPS (DoH)
 [**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS) as defined in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484) packages queries in the [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol and provides security with [HTTPS](https://en.wikipedia.org/wiki/HTTPS). Support was first added in web browsers such as [Firefox 60](https://support.mozilla.org/en-US/kb/firefox-dns-over-https) and [Chrome 83](https://blog.chromium.org/2020/05/a-safer-and-more-private-browsing-DoH.html).
@@ -76,12 +76,12 @@ Native implementations showed up in [iOS 14](https://en.wikipedia.org/wiki/IOS_1
 ## What can an outside party see?
 In this example we will record what happens when we make a DoH request:
 
-1. Firstly start `tshark`:
+1. First, start `tshark`:
    ```
    tshark -w /tmp/dns_doh.pcap -f "tcp port https and host 1.1.1.1"
    ```
 
-2. Secondly make a request with `curl`:
+2. Second, make a request with `curl`:
    ```
    curl -vI --doh-url https://1.1.1.1/dns-query https://privacyguides.org
    ```
@@ -96,16 +96,16 @@ In this example we will record what happens when we make a DoH request:
 We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/) that occurs with any encrypted connection. When looking at the "application data" packets that follow, none of them contain the domain we requested or the IP address returned.
 
 ## Why **shouldn't** I use encrypted DNS?
-In locations where there is internet filtering (or censorship), visiting forbidden resources may have its own consequences which you should consider in your [threat model](/threat-modeling/). We do **not** suggest the use of encrypted DNS for this purpose. Use [Tor](https://torproject.org), or a [VPN](/providers/vpn/) instead. If you're using a VPN, you should use your VPN's DNS servers. When using a VPN you are already trusting them with all your network activity. We made this flow chart to describe when you *should* use "encrypted DNS":
+In locations where there is internet filtering (or censorship), visiting forbidden resources may have its own consequences which you should consider in your [threat model](/threat-modeling/). We do **not** suggest the use of encrypted DNS for this purpose. Use [Tor](https://torproject.org) or a [VPN](/providers/vpn/) instead. If you're using a VPN, you should use your VPN's DNS servers. When using a VPN, you are already trusting them with all your network activity. We made this flow chart to describe when you *should* use "encrypted DNS":
 
 ``` mermaid
 graph TB
-    Start[Start] --> anonymous{Trying to be anonymous?} 
+    Start[Start] --> anonymous{Trying to be anonymous?}
     anonymous--> | Yes | tor(Use Tor)
     anonymous --> | No | censorship{Avoiding censorship?}
     censorship --> | Yes | vpnOrTor(Use VPN or Tor)
     censorship --> | No | privacy{Want privacy from ISP?}
-    privacy --> | Yes | vpnOrTor(Use VPN or Tor)
+    privacy --> | Yes | vpnOrTor
     privacy --> | No | obnoxious{ISP makes obnoxious redirects?}
     obnoxious --> | Yes | encryptedDNS(Use encrypted DNS with 3rd party)
     obnoxious --> | No | ispDNS{Does ISP support encrypted DNS?}
@@ -113,15 +113,15 @@ graph TB
     ispDNS --> | No | nothing(Do nothing)
 ```
 
-When we do a DNS lookup, it's generally because we want to access a resource. Below we will discuss some of the methods that may disclose your browsing activities even when using encrypted DNS:
+When we do a DNS lookup, it's generally because we want to access a resource. Below, we will discuss some of the methods that may disclose your browsing activities even when using encrypted DNS:
 
 ### IP Address
 The simplest way to determine browsing activity might be to look at the IP addresses your devices are accessing. For example, if the observer knows that `privacyguides.org` is at `198.98.54.105`, and your device is requesting data from `198.98.54.105`, there is a good chance you're visiting Privacy Guides.
 
-This method is only useful when the IP address belongs to a server that only hosts few websites. It's also not very useful if the site is hosted on a shared platform, (e.g. Github Pages, Cloudflare Pages, Netlify, Wordpress, Blogger etc). It also isn't very useful if the server is hosted behind a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), which is very common on the modern Internet.
+This method is only useful when the IP address belongs to a server that only hosts few websites. It's also not very useful if the site is hosted on a shared platform, (e.g. Github Pages, Cloudflare Pages, Netlify, Wordpress, Blogger, etc). It also isn't very useful if the server is hosted behind a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), which is very common on the modern Internet.
 
 ### Server Name Indication (SNI)
-Server Name Indication, is typically used when a IP address hosts many websites. This could be a service like Cloudflare, or some other [Denial-of-service attack](https://en.wikipedia.org/wiki/Denial-of-service_attack) protection.
+Server Name Indication is typically used when a IP address hosts many websites. This could be a service like Cloudflare, or some other [Denial-of-service attack](https://en.wikipedia.org/wiki/Denial-of-service_attack) protection.
 
 1. Start capturing again with `tshark`. We've added a filter with our IP address so you don't capture many packets:
    ```
@@ -152,9 +152,9 @@ Server Name Indication, is typically used when a IP address hosts many websites.
    tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
    ```
 
-This means even if we are using "Encrypted DNS" servers, the domain will likely be disclosed through SNI. The [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) protocol brings with it [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello/) which prevents this kind of leak.
+This means even if we are using "Encrypted DNS" servers, the domain will likely be disclosed through SNI. The [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) protocol brings with it [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello/), which prevents this kind of leak.
 
-Governments, in particular [China](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/) and [Russia](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/), have either already [started blocking](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) it or expressed a desire to do so. Recently Russia has [started blocking foreign websites](https://github.com/net4people/bbs/issues/108) that use the [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) standard. This is because the [QUIC](https://en.wikipedia.org/wiki/QUIC) protocol that is a part of HTTP/3 requires that `ClientHello` be also encrypted.
+Governments, in particular [China](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/) and [Russia](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/), have either already [started blocking](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) it or expressed a desire to do so. Recently, Russia has [started blocking foreign websites](https://github.com/net4people/bbs/issues/108) that use the [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) standard. This is because the [QUIC](https://en.wikipedia.org/wiki/QUIC) protocol that is a part of HTTP/3 requires that `ClientHello` also be encrypted.
 
 ### Online Certificate Status Protocol (OCSP)
 Another way your browser can disclose your browsing activities is with the [Online Certificate Status Protocol](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol). When visiting a [HTTPS](https://en.wikipedia.org/wiki/HTTPS) website, the browser might check to see if the [X.509](https://en.wikipedia.org/wiki/X.509) [certificate](https://en.wikipedia.org/wiki/Public_key_certificate) has been [revoked](https://en.wikipedia.org/wiki/Certificate_revocation_list). This is generally done through the [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) protocol, meaning it is **not** encrypted.
@@ -175,7 +175,7 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
        sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_and_intermediate.cert
    ```
 
-3. The first certificate in `pg_and_intermediate.cert`, is actually the server certificate from step 1. We can use `sed` again to delete until the first instance of END:
+3. The first certificate in `pg_and_intermediate.cert` is actually the server certificate from step 1. We can use `sed` again to delete until the first instance of END:
    ```
    sed -n '/^-*END CERTIFICATE-*$/!d;:a n;p;ba' \
        /tmp/pg_and_intermediate.cert > /tmp/intermediate_chain.cert
@@ -287,23 +287,24 @@ The latest versions of iOS, iPadOS, tvOS, and macOS, support both DoT and DoH. B
 
 After installation of either a configuration profile or an app that utilizes the DNS Settings API, the DNS configuration can be selected. If a VPN is active, resolution within the VPN tunnel will use the VPN's DNS settings and not your system-wide settings.
 
- * **iOS/iPadOS:** *Settings &rarr; General &rarr; VPN, DNS, & Device Management &rarr; DNS*
- * **macOS:** *System Preferences &rarr; Network*
+ - **iOS/iPadOS:** *Settings &rarr; General &rarr; VPN, DNS, & Device Management &rarr; DNS*
+ - **macOS:** *System Preferences &rarr; Profiles* & *System Preferences &rarr; Network*
+ - **tvOS:** *Settings &rarr; General &rarr; Privacy &rarr;* hover on "*Share Apple TV Analytics*" &rarr; press the play button on the remote
 
 Apple does not provide a native interface for creating encrypted DNS profiles. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) is an unofficial tool for creating your own encrypted DNS profiles, however they will not be signed. Signed profiles are preferred; signing validates a profile's origin and helps to ensure the integrity of the profiles. A green "Verified" label is given to signed configuration profiles. For more information on code signing, see [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html).
 
  * **Signed profiles** are offered by [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [ControlD](https://kb.controld.com/en/tutorials), [NextDNS](https://apple.nextdns.io), [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/).
 
 ### Windows
-Windows users can [turn on DoH](https://docs.microsoft.com/en-us/windows-server/networking/dns/doh-client-support), by accessing Windows settings in the control panel.
+Windows users can [turn on DoH](https://docs.microsoft.com/en-us/windows-server/networking/dns/doh-client-support) by accessing Windows settings in the control panel.
 
 Select *Settings* &rarr; *Network & Internet* &rarr; *Ethernet* or *WiFi*, &rarr; *Edit DNS Settings* &rarr; Preferred DNS encryption &rarr; *Encrypted only (DNS over HTTPS)*.
 
 ### Linux
-`systemd-resolved` doesn't [yet support](https://github.com/systemd/systemd/issues/8639), which many Linux distributions use to do their DNS lookups. This means you need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+`systemd-resolved` doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639), which many Linux distributions use to do their DNS lookups. If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
 
 ## Encrypted DNS Proxies
-This software provides third-party encrypted DNS support by pointing the [unencrypted dns](/dns/#unencrypted-dns) resolver to a local [encrypted dns](/dns/#what-is-encrypted-dns) proxy.
+Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](/dns/#unencrypted-dns) resolver to forward to. Typically it is used on platforms that don't natively support [encrypted DNS](/dns/#what-is-encrypted-dns).
 
 ### RethinkDNS
 !!! recommendation

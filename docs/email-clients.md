@@ -4,12 +4,14 @@ icon: material/email-open
 ---
 Discover free, open-source, and secure email clients, along with some email alternatives you may not have considered.
 
-!!! Warning
-    When using end-to-end encryption (E2EE) technology like [OpenPGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy), email will still have some metadata that is not encrypted in the header of the email. [Read more about email metadata](https://privacyguides.org/providers/email/#metadata).
+??? Attention "Email does provide forward secrecy"
+    When using end-to-end encryption (E2EE) technology like [OpenPGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy), email will still have [some metadata](/email/#email-metadata-overview) that is not encrypted in the header of the email.
 
-    OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](/providers/email/#email-encryption)
+    OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](/email/#email-encryption-overview).
 
-    Rather than use email for prolonged conversations, consider using a medium that [**does** support](/real-time-communication/) forward secrecy.
+    Alternatively, consider using a medium that forward secrecy:
+
+    [Real-time Communication](/real-time-communication){ .md-button .md-button--primary }
 
 ### Thunderbird
 !!! recommendation
