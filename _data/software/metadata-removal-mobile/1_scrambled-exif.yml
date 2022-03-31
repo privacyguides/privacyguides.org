@@ -1,0 +1,13 @@
+title: Scrambled Exif
+type: Recommendation
+logo: /assets/img/metadata-removal/scrambled-exif.svg
+description: |
+  **Scrambled Exif** is a metadata removal tool for Android. It can remove [EXIF](https://en.wikipedia.org/wiki/Exif) data for many file formats and has been translated into [many](https://gitlab.com/juanitobananas/scrambled-exif/-/tree/master/app/src/main/res) languages.
+website: 'https://gitlab.com/juanitobananas/scrambled-exif'
+downloads:
+  - icon: fab fa-google-play
+    url: 'https://play.google.com/store/apps/details?id=com.jarsilio.android.scrambledeggsif'
+  - icon: pg-f-droid
+    url: 'https://f-droid.org/en/packages/com.jarsilio.android.scrambledeggsif'
+  - icon: fab fa-github
+    url: 'https://gitlab.com/juanitobananas/scrambled-exif'

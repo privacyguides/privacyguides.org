@@ -1,0 +1,30 @@
+title: Exiftool
+type: Recommendation
+logo: /assets/img/metadata-removal/exiftool.png
+description: |
+  **Exiftool** is the [original](https://en.wikipedia.org/wiki/ExifTool) perl library and command-line application for reading, writing, and editing meta information (EXIF, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
+
+  It's often a component of other EXIF removal applications and is in most Linux distribution repositories.
+
+  To delete data from a directory of files:
+  <pre class=terminal>
+  exiftool -all= *.file_extension
+  </pre>
+website: 'https://exiftool.org'
+downloads:
+  - icon: fab fa-windows
+    url: 'https://exiftool.org'
+  - icon: fab fa-apple
+    url: 'https://exiftool.org'
+  - icon: fab fa-linux
+    url: 'https://exiftool.org'
+  - icon: fab fa-freebsd
+    url: 'https://www.freshports.org/graphics/p5-Image-ExifTool'
+  - icon: pg-openbsd
+    url: 'https://openports.se/graphics/p5-Image-ExifTool'
+  - icon: pg-netbsd
+    url: 'https://pkgsrc.se/graphics/p5-Image-ExifTool'
+  - icon: fab fa-git
+    url: 'https://sourceforge.net/projects/exiftool'
+  - icon: fab fa-github
+    url: 'https://github.com/exiftool/exiftool'

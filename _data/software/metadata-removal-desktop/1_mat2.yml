@@ -1,0 +1,21 @@
+title: MAT2
+type: Recommendation
+logo: /assets/img/metadata-removal/mat2.svg
+description: |
+  **MAT2** is free software, which allows the metadata to be removed from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an [extension for Nautilus](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus), the default file manager of [GNOME](https://www.gnome.org), and [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
+
+  For Linux users, a third party graphical tool [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) powered by MAT2 exists and is [available on Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
+website: 'https://0xacab.org/jvoisin/mat2'
+downloads:
+  - icon: fab fa-windows
+    url: 'https://pypi.org/project/mat2'
+  - icon: fab fa-apple
+    url: 'https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew'
+  - icon: fab fa-linux
+    url: 'https://pypi.org/project/mat2'
+  - icon: fas fa-globe-americas
+    url: 'https://0xacab.org/jvoisin/mat2#web-interface'
+  - icon: fab fa-freebsd
+    url: 'https://www.freshports.org/multimedia/py-mat2/'
+  - icon: fab fa-gitlab
+    url: 'https://0xacab.org/jvoisin/mat2'

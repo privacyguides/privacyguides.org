@@ -1,0 +1,15 @@
+title: Imagepipe
+type: Recommendation
+logo: /assets/img/metadata-removal/imagepipe.svg
+description: |
+  **Imagepipe** is a a paint app for Android that can be used to redact photos and also delete [EXIF](https://en.wikipedia.org/wiki/Exif) metadata. It has been translated into [many](https://codeberg.org/Starfish/Imagepipe#translations) languages.
+
+  ## Note
+  Imagepipe is only available from F-Droid and not in Google Play. If you're looking for a paint app in Google Play we suggest [Pocket Paint](https://play.google.com/store/apps/details?id=org.catrobat.paintroid).
+
+website: 'https://codeberg.org/Starfish/Imagepipe'
+downloads:
+  - icon: pg-f-droid
+    url: 'https://f-droid.org/packages/de.kaffeemitkoffein.imagepipe'
+  - icon: fab fa-git
+    url: 'https://codeberg.org/Starfish/Imagepipe'

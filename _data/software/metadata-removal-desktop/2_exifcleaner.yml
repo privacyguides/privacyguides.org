@@ -1,0 +1,16 @@
+title: ExifCleaner
+type: Recommendation
+logo: /assets/img/metadata-removal/exifcleaner.svg
+description: |
+  **ExifCleaner** is a freeware, open source graphical app that uses [ExifTool](https://exiftool.org) to remove [EXIF](https://en.wikipedia.org/wiki/Exif) metadata from images, videos, and PDF documents using a simple drag and drop interface. It supports multi-core batch processing and dark mode.
+website: 'https://exifcleaner.com'
+privacy_policy: 'https://bitwarden.com/privacy'
+downloads:
+  - icon: fab fa-windows
+    url: 'https://github.com/szTheory/exifcleaner/releases'
+  - icon: fab fa-apple
+    url: 'https://github.com/szTheory/exifcleaner/releases'
+  - icon: fab fa-linux
+    url: 'https://github.com/szTheory/exifcleaner/releases'
+  - icon: fab fa-github
+    url: 'https://github.com/szTheory/exifcleaner'

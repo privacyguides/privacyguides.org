@@ -29,7 +29,7 @@ items:
   - type: link
     title: Metadata Removal Tools
     icon: fad fa-file-times
-    file: legacy_pages/software/metadata-removal-tools.html
+    file: _evergreen/metadata-removal.md
   - type: link
     title: Productivity Tools
     icon: fad fa-briefcase
