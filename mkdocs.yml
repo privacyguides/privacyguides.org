@@ -68,6 +68,9 @@ theme:
   name: material
   custom_dir: theme
   logo: assets/logo.svg
+  favicon: assets/img/layout/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
   font: false
   features:
     - navigation.tracking
@@ -108,3 +111,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - theme/overrides/.icons
