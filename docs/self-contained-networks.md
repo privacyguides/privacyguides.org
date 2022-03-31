@@ -6,7 +6,6 @@ If you are currently browsing clearnet and want to access the dark web, this sec
 ## Self-contained Networks
 
 ### Tor
-
 !!! recommendation
 
     ![Tor logo](./assets/img/self-contained-networks/tor.svg){ align=right }
@@ -20,7 +19,7 @@ If you are currently browsing clearnet and want to access the dark web, this sec
     - [:fontawesome-brands-apple: macOS](https://www.torproject.org/download/)
     - [:fontawesome-brands-linux: Linux](https://www.torproject.org/download/)
     - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/security/tor)
-    - [:pg-openbsd: OpenBSD](http://openports.se/net/tor)
+    - [:pg-openbsd: OpenBSD](https://openports.se/net/tor)
     - [:pg-netbsd: NetBSD](https://pkgsrc.se/net/tor)
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
     - [:pg-f-droid: F-Droid](https://support.torproject.org/tormobile/tormobile-7/)
@@ -28,7 +27,6 @@ If you are currently browsing clearnet and want to access the dark web, this sec
     - [:fontawesome-brands-git: Source](https://gitweb.torproject.org/tor.git)
 
 ### I2P Anonymous Network
-
 !!! recommendation
 
     ![I2P logo](./assets/img/self-contained-networks/i2p.svg){ align=right }
@@ -50,14 +48,13 @@ If you are currently browsing clearnet and want to access the dark web, this sec
     - [:fontawesome-brands-git: Source](https://geti2p.net/en/get-involved/guides/new-developers#getting-the-i2p-code)
 
 ### The Freenet Project
-
 !!! recommendation
 
     ![I2P logo](./assets/img/self-contained-networks/i2p.svg){ align=right }
 
     Freenet is a peer-to-peer platform for censorship-resistant communication. It uses a decentralized distributed data store to keep and deliver information, and has a suite of free software for publishing and communicating on the Web without fear of censorship. Both Freenet and some of its associated tools were originally designed by Ian Clarke, who defined Freenet's goal as providing freedom of speech on the Internet with strong anonymity protection.
 
-    [Visit freenetproject.org/](https://freenetproject.org){ .md-button .md-button--primary } [:pg-i2p:](http://i2p-projekt.i2p){ .md-button }
+    [Visit freenetproject.org/](https://freenetproject.org){ .md-button .md-button--primary }
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://freenetproject.org/pages/download.html#windows)
