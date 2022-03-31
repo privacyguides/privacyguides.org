@@ -22,6 +22,31 @@ nav:
     - 'Privacy Tools': 'tools.md'
     - 'Operating Systems': 
       - 'Android': 'android.md'
+      - 'Linux Desktop': 'linux-desktop.md'
+      - 'QubesOS': 'qubes.md'
+      - 'Router Firmware': 'router.md'
+    - 'Browsers':
+      - 'Web Browsers': 'browsers.md'
+    - 'Providers':
+      - 'Cloud Storage': 'cloud.md'
+      - 'DNS Servers': 'dns.md'
+      - 'Email Providers': 'email.md'
+      - 'Search Engines': 'search-engines.md'
+      - 'Social Networks': 'social-networks.md'
+      - 'Social News Aggregators': 'social-news-aggregators.md'
+      - 'VPN Providers': 'vpn.md'
+    - 'Software':
+      - 'Calendar/Contacts Sync': 'calendar-contacts.md'
+      - 'Digital Notebooks': 'notebooks.md'
+      - 'Email Clients': 'email-clients.md'
+      - 'File Encryption Tools': 'file-encryption.md'
+      - 'File Sharing/Sync': 'file-sharing.md'
+      - 'Metadata Removal Tools': 'metadata-removal-tools.md'
+      - 'Password Managers': 'passwords.md'
+      - 'Productivity Tools': 'productivity.md'
+      - 'Real-Time Communication': 'real-time-communication.md'
+      - 'Self-Contained Networks': 'self-contained-networks.md'
+      - 'Video Streaming': 'video-streaming.md'
   - 'Blog':
     - '2021':
       - 'December':
