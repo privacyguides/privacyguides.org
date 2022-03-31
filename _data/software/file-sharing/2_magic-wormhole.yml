@@ -1,0 +1,21 @@
+title: Magic Wormhole
+type: Recommendation
+logo: /assets/img/file-sharing-sync/magic_wormhole.png
+description: |
+  'Magic Wormhole is a package that provides a library and a command-line tool named wormhole, which makes it possible to get arbitrary-sized files and directories (or short pieces of text) from one computer to another. Their motto: "Get things from one computer to another, safely."'
+website: 'https://magic-wormhole.readthedocs.io'
+downloads:
+  - icon: fab fa-windows
+    url: 'https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation'
+  - icon: fab fa-apple
+    url: 'https://magic-wormhole.readthedocs.io/en/latest/welcome.html#macos-os-x'
+  - icon: fab fa-linux
+    url: 'https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation'
+  - icon: fab fa-freebsd
+    url: 'https://www.freshports.org/net/py-magic-wormhole'
+  - icon: pg-openbsd
+    url: 'https://openports.se/net/magic-wormhole'
+  - icon: pg-netbsd
+    url: 'https://pkgsrc.se/net/py-magic-wormhole'
+  - icon: fab fa-github
+    url: 'https://github.com/magic-wormhole/magic-wormhole'

@@ -1,0 +1,27 @@
+title: Syncthing
+type: Recommendation
+logo: /assets/img/file-sharing-sync/syncthing.svg
+description: |
+  **Syncthing** replaces proprietary sync and cloud services with something open, trustworthy, and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third-party, and how it is transmitted over the Internet.
+website: 'https://syncthing.net'
+downloads:
+  - icon: fab fa-windows
+    url: 'https://syncthing.net/downloads'
+  - icon: fab fa-apple
+    url: 'https://syncthing.net/downloads'
+  - icon: fab fa-linux
+    url: 'https://syncthing.net/downloads'
+  - icon: fab fa-freebsd
+    url: 'https://www.freshports.org/net/syncthing'
+  - icon: pg-openbsd
+    url: 'https://openports.se/net/syncthing'
+  - icon: pg-netbsd
+    url: 'https://pkgsrc.se/net/syncthing'
+  - icon: fab fa-app-store-ios
+    url: 'https://github.com/syncthing/syncthing/issues/102'
+  - icon: fab fa-google-play
+    url: 'https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid'
+  - icon: pg-f-droid
+    url: 'https://f-droid.org/packages/com.nutomic.syncthingandroid'
+  - icon: fab fa-github
+    url: 'https://github.com/syncthing'

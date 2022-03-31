@@ -1,0 +1,17 @@
+title: croc
+type: Recommendation
+logo: /assets/img/file-sharing-sync/croc.jpg
+description: |
+  **Croc** is a way to easily and securely send arbitrary-sized files from one computer to another. Similar to Magic Wormhole but without dependencies, resulting in a smaller application.
+website: 'https://schollz.com/blog/croc6'
+downloads:
+  - icon: fab fa-windows
+    url: 'https://github.com/schollz/croc/releases'
+  - icon: fab fa-apple
+    url: 'https://github.com/schollz/croc/releases'
+  - icon: fab fa-linux
+    url: 'https://github.com/schollz/croc/releases'
+  - icon: fab fa-freebsd
+    url: 'https://www.freshports.org/net/croc'
+  - icon: fab fa-github
+    url: 'https://github.com/schollz/croc'

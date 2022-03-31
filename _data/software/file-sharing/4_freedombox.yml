@@ -1,0 +1,9 @@
+title: FreedomBox
+type: Recommendation
+logo: /assets/img/file-sharing-sync/freedombox.svg
+description: |
+  **FreedomBox** is a operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications that you might want to selfhost.
+website: 'https://freedombox.org'
+downloads:
+  - icon: fab fa-git
+    url: 'https://salsa.debian.org/freedombox-team/freedombox'

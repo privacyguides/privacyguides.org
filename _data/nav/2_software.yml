@@ -25,7 +25,7 @@ items:
   - type: link
     title: File Sharing and Sync
     icon: fad fa-file-user
-    file: legacy_pages/software/file-sharing.html
+    file: _evergreen/file-sharing-sync.md
   - type: link
     title: Metadata Removal Tools
     icon: fad fa-file-times

@@ -1,0 +1,22 @@
+title: git-annex
+type: Recommendation
+logo: /assets/img/file-sharing-sync/gitannex.svg
+description: |
+  **git-annex** allows managing files with git, without checking the file contents into git. While that may seem paradoxical, it is useful when dealing with files larger than git can currently easily handle, whether due to limitations in memory, time, or disk space.
+website: 'https://git-annex.branchable.com'
+privacy_policy: 'https://git-annex.branchable.com/privacy'
+downloads:
+  - icon: fab fa-windows
+    url: 'https://git-annex.branchable.com/install/Windows'
+  - icon: fab fa-apple
+    url: 'https://git-annex.branchable.com/install/OSX'
+  - icon: fab fa-linux
+    url: 'https://git-annex.branchable.com/install'
+  - icon: fab fa-freebsd
+    url: 'https://www.freshports.org/devel/hs-git-annex'
+  - icon: pg-openbsd
+    url: 'https://openports.se/devel/git-annex'
+  - icon: fab fa-android
+    url: 'https://git-annex.branchable.com/install/Android'
+  - icon: fab fa-git
+    url: 'https://git-annex.branchable.com/install/fromsource/'

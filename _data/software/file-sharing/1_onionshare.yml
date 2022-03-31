@@ -1,0 +1,20 @@
+title: OnionShare
+type: Recommendation
+logo: /assets/img/file-sharing-sync/onionshare.svg
+description: |
+  **OnionShare** is an open-source tool that lets you securely and anonymously share a file of any size. It works by starting a web server accessible as a Tor onion service, with an unguessable URL that you can share with the recipients to download or send files.
+website: 'https://onionshare.org'
+website_tor: 'http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion'
+downloads:
+  - icon: fab fa-windows
+    url: 'https://onionshare.org/#download'
+  - icon: fab fa-apple
+    url: 'https://onionshare.org/#download'
+  - icon: fab fa-linux
+    url: 'https://onionshare.org/#download'
+  - icon: fab fa-freebsd
+    url: 'https://www.freshports.org/www/onionshare'
+  - icon: pg-openbsd
+    url: 'http://openports.se/net/onionshare'
+  - icon: fab fa-github
+    url: 'https://github.com/onionshare/onionshare'
