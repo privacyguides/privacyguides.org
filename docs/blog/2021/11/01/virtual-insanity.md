@@ -7,7 +7,7 @@ template: overrides/blog.html
 excerpt: Facebook is dead. Long live Facebook.
 ---
 
-Not so long ago, the world was predicting the end for Facebook. Now it is no more. Gone from the face of the planet-never to be seen again. Except it isn't.
+Not so long ago, the world was predicting the end for Facebook. Now it is no more. Gone from the face of the planet - never to be seen again. Except it isn't.
 
 Facebook has not disappeared. No, not even the damning 'Facebook Papers' can shut it down. Mark Zuckerberg stood up on stage, and announced that it had changed its name to: Meta.
 
