@@ -88,7 +88,7 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
 
 !!! recommendation
 
-    ![Session logo](/assets/img/messengers/briar.svg){ align=right }
+    ![Session logo](/assets/img/messengers/session.svg){ align=right }
 
     **Session** is an encrypted instant messenger that uses three random [service nodes](https://getsession.org/blog/onion-requests-session-new-message-routing-solution) to route messages anonymously on the [Oxen Network](https://oxen.io).
 
