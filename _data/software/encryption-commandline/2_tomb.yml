@@ -1,9 +1,0 @@
-title: Tomb
-type: Recommendation
-logo: /assets/img/encryption-software/tomb.png
-description: |
-  **Tomb** is an is a commandline shell wrapper around LUKS. It includes uses some [third party tools](https://github.com/dyne/Tomb#how-does-it-work) to provide [steganography](https://en.wikipedia.org/wiki/Steganography).
-website: 'https://www.dyne.org/software/tomb'
-downloads:
-  - icon: fab fa-github
-    url: 'https://github.com/dyne/Tomb'

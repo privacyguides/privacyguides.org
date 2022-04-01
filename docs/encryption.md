@@ -59,9 +59,6 @@ The options listed here are multi-platform and great for creating encrypted back
     - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
     - [:fontawesome-brands-github: Source](https://github.com/cryptomator)
 
-## Operating system included Full Disk Encryption (FDE)
-Modern operating systems include [disk encryption](https://en.wikipedia.org/wiki/Disk_encryption) and will utilize a [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor).
-
 ### Picocrypt
 !!! recommendation
 
@@ -71,7 +68,7 @@ Modern operating systems include [disk encryption](https://en.wikipedia.org/wiki
 
     We think the best usecase for this is if you need to encrypt some files, or archives.
 
-    [Visit github.com](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary } [Privacy Policy](){ .md-button }
+    [Visit github.com](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
@@ -79,113 +76,99 @@ Modern operating systems include [disk encryption](https://en.wikipedia.org/wiki
     - [:fontawesome-brands-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
     - [:fontawesome-brands-github: Source](https://github.com/HACKERALERT/Picocrypt)
 
-### 
+## Operating system included Full Disk Encryption (FDE)
+Modern operating systems include [disk encryption](https://en.wikipedia.org/wiki/Disk_encryption) and will utilize a [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor).
+
+### Bitlocker
 !!! recommendation
 
-    ![ logo](/assets/img/search-engines/){ align=right }
+    ![Bitlocker logo](/assets/img/encryption-software/bitlocker.png){ align=right }
+
+    **Bitlocker** is the default full volume encryption that comes with Microsoft Windows. The main reason we recommend it is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). [Elcomsoft](https://en.wikipedia.org/wiki/ElcomSoft), a forensics company, has written about it: [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-bitlocker-tpm-protection/).
 
 
-    [Visit ](){ .md-button .md-button--primary } [Privacy Policy](){ .md-button }
-    [:pg-tor:](){ .md-button }
+    [Visit microsoft.com](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows]()
-    - [:fontawesome-brands-apple: macOS]()
-    - [:fontawesome-brands-linux: Linux]()
-    - [:fontawesome-brands-linux: Linux (Flatpak)]()
-    - [:fontawesome-brands-freebsd: FreeBSD]()
-    - [:pg-openbsd: OpenBSD]()
-    - [:pg-netbsd: NetBSD]()
-    - [:fontawesome-brands-google-play: Google Play]()
-    - [:fontawesome-brands-app-store-ios: App Store]()
-    - [:fontawesome-brands-git: Source]()
-
-### 
+### Filevault
 !!! recommendation
 
-    ![ logo](/assets/img/search-engines/){ align=right }
+    ![Filevault logo](/assets/img/encryption-software/filevault.png){ align=right }
 
+    **Filevault** is the on-the-fly disk encryption that comes with MacOS. We recommend it because tightly intergrates with the [Apple T2 Security Chip](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/1/web/1).
 
-    [Visit ](){ .md-button .md-button--primary } [Privacy Policy](){ .md-button }
-    [:pg-tor:](){ .md-button }
+    [Visit support.apple.com](https://support.apple.com/en-us/HT204837){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows]()
-    - [:fontawesome-brands-apple: macOS]()
-    - [:fontawesome-brands-linux: Linux]()
-    - [:fontawesome-brands-linux: Linux (Flatpak)]()
-    - [:fontawesome-brands-freebsd: FreeBSD]()
-    - [:pg-openbsd: OpenBSD]()
-    - [:pg-netbsd: NetBSD]()
-    - [:fontawesome-brands-google-play: Google Play]()
-    - [:fontawesome-brands-app-store-ios: App Store]()
-    - [:fontawesome-brands-git: Source]()
+### Linux Unified Key Setup (LUKS)
+!!! recommendation
+
+    ![LUKS logo](/assets/img/encryption-software/luks.png){ align=right }
+
+    **LUKS** is the default full disk encryption method for Linux. It can be used to encrypt full volumes, partitions, or create encrypted containers.
+
+    ## Creating encrypted containers
+    ```
+    dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
+    sudo cryptsetup luksFormat /path-to-file
+    ```
+
+    ## Opening encrypted containers
+    We recommend opening containers and volumes with `udisksctl` as this uses [Polkit](https://en.wikipedia.org/wiki/Polkit). Most file managers, such as those included with popular desktop environments, can now unlock encrypted files. Tools like [udiskie](https://github.com/coldfix/udiskie) can run in the system tray and provide a helpful user interface.
+    ```
+    udisksctl loop-setup -f /path-to-file
+    udisksctl unlock -b /dev/loop0
+    ```
+
+    ## Backup of volume headers
+    We recommend you always [backup your LUKS headers](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) in case of partial drive failure. This can be done with:
+
+    ```
+    cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
+    ```
+
+    [Visit gitlab.com](https://gitlab.com/cryptsetup/cryptsetup){ .md-button .md-button--primary }
 
 ## Browser-based
 Web based encryption can be useful when you need to encrypt a file, and you cannot install software or apps on your device.
 
-### 
+### hat.sh
 !!! recommendation
 
-    ![ logo](/assets/img/search-engines/){ align=right }
+    ![hat.sh logo](/assets/img/encryption-software/hat-sh.png#only-light){ align=right }
+    ![hat.sh logo](/assets/img/encryption-software/hat-sh-dark.png#only-dark){ align=right }
 
+    **Hat.sh** is a web application that provides secure client-side file encryption in your browser. It can also be selfhosted and is useful if you need to encrypt a file but cannot install any software on your device due to organizational policies.
 
-    [Visit ](){ .md-button .md-button--primary } [Privacy Policy](){ .md-button }
-    [:pg-tor:](){ .md-button }
+    [Visit hat.sh](https://hat.sh){ .md-button .md-button--primary }
 
     **Downloads**
-    - [:fontawesome-brands-windows: Windows]()
-    - [:fontawesome-brands-apple: macOS]()
-    - [:fontawesome-brands-linux: Linux]()
-    - [:fontawesome-brands-linux: Linux (Flatpak)]()
-    - [:fontawesome-brands-freebsd: FreeBSD]()
-    - [:pg-openbsd: OpenBSD]()
-    - [:pg-netbsd: NetBSD]()
-    - [:fontawesome-brands-google-play: Google Play]()
-    - [:fontawesome-brands-app-store-ios: App Store]()
-    - [:fontawesome-brands-git: Source]()
+    - [:fontawesome-brands-github: Source](https://github.com/sh-dv/hat.sh)
 
 ## Command-line
 Tools with commandline interfaces are useful for intergrating [shell scripts](https://en.wikipedia.org/wiki/Shell_script).
 
-### 
+### Kryptor
 !!! recommendation
 
-    ![ logo](/assets/img/search-engines/){ align=right }
+    ![Kryptor logo](/assets/img/encryption-software/kryptor.png){ align=right }
 
+    **Kryptor** is a free and open source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign/) to provide a simple, user friendly alternative to GPG.
 
-    [Visit ](){ .md-button .md-button--primary } [Privacy Policy](){ .md-button }
-    [:pg-tor:](){ .md-button }
+    [Visit kryptor.co.uk](https://www.kryptor.co.uk){ .md-button .md-button--primary }
 
     **Downloads**
-    - [:fontawesome-brands-windows: Windows]()
-    - [:fontawesome-brands-apple: macOS]()
-    - [:fontawesome-brands-linux: Linux]()
-    - [:fontawesome-brands-linux: Linux (Flatpak)]()
-    - [:fontawesome-brands-freebsd: FreeBSD]()
-    - [:pg-openbsd: OpenBSD]()
-    - [:pg-netbsd: NetBSD]()
-    - [:fontawesome-brands-google-play: Google Play]()
-    - [:fontawesome-brands-app-store-ios: App Store]()
-    - [:fontawesome-brands-git: Source]()
+    - [:fontawesome-brands-windows: Windows](https://www.kryptor.co.uk)
+    - [:fontawesome-brands-apple: macOS](https://www.kryptor.co.uk)
+    - [:fontawesome-brands-linux: Linux](https://www.kryptor.co.uk)
+    - [:fontawesome-brands-github: Source](https://github.com/samuel-lucas6/Kryptor)
 
-### 
+### Tomb
 !!! recommendation
 
-    ![ logo](/assets/img/search-engines/){ align=right }
+    ![Tomb logo](/assets/img/encryption-software/tomb.png){ align=right }
 
+    **Tomb** is an is a commandline shell wrapper around LUKS. It includes uses some [third party tools](https://github.com/dyne/Tomb#how-does-it-work) to provide [steganography](https://en.wikipedia.org/wiki/Steganography).
 
-    [Visit ](){ .md-button .md-button--primary } [Privacy Policy](){ .md-button }
-    [:pg-tor:](){ .md-button }
+    [Visit dyne.org](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
 
     **Downloads**
-    - [:fontawesome-brands-windows: Windows]()
-    - [:fontawesome-brands-apple: macOS]()
-    - [:fontawesome-brands-linux: Linux]()
-    - [:fontawesome-brands-linux: Linux (Flatpak)]()
-    - [:fontawesome-brands-freebsd: FreeBSD]()
-    - [:pg-openbsd: OpenBSD]()
-    - [:pg-netbsd: NetBSD]()
-    - [:fontawesome-brands-google-play: Google Play]()
-    - [:fontawesome-brands-app-store-ios: App Store]()
-    - [:fontawesome-brands-git: Source]()
+    - [:fontawesome-brands-github: Source](https://github.com/dyne/Tomb)

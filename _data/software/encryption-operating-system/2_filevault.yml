@@ -1,6 +1,0 @@
-title: Filevault
-type: Recommendation
-logo: /assets/img/encryption-software/filevault.png
-description: |
-  **Filevault** is the on-the-fly disk encryption that comes with MacOS. We recommend it because tightly intergrates with the [Apple T2 Security Chip](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/1/web/1).
-website: 'https://support.apple.com/en-us/HT204837'

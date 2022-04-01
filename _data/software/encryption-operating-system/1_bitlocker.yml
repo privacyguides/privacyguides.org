@@ -1,6 +1,0 @@
-title: Bitlocker
-type: Recommendation
-logo: /assets/img/encryption-software/bitlocker.png
-description: |
-  **Bitlocker** is the default full volume encryption that comes with Microsoft Windows. The main reason we recommend it is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). [Elcomsoft](https://en.wikipedia.org/wiki/ElcomSoft), a forensics company, has written about it: [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-bitlocker-tpm-protection/).
-website: 'https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview'
