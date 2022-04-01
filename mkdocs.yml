@@ -5,7 +5,7 @@ copyright: This content was made available by the Privacy Guides team and contri
 extra:
   generator: false
   social:
-    - icon: fontawesome/brands/twitter 
+    - icon: fontawesome/brands/twitter
       link: https://twitter.com/privacy_guides
     - icon: fontawesome/brands/github
       link: https://github.com/privacyguides
@@ -22,7 +22,7 @@ nav:
       - 'Multi-Factor Authentication': 'multi-factor-authentication.md'
   - 'Recommendations':
     - 'Privacy Tools': 'tools.md'
-    - 'Operating Systems': 
+    - 'Operating Systems':
       - 'Android': 'android.md'
       - 'Linux Desktop': 'linux-desktop.md'
       - 'QubesOS': 'qubes.md'
@@ -81,12 +81,12 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
-  palette: 
+  palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       accent: deep purple
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -104,6 +104,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
@@ -118,3 +120,5 @@ markdown_extensions:
       options:
         custom_icons:
           - theme/overrides/.icons
+  - tables
+  - footnotes

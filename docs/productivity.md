@@ -12,7 +12,7 @@ Get working and collaborating without sharing your documents with a middleman or
 
     **LibreOffice** is a free and open-source office suite with extensive functionality.
 
-    [Visit libreoffice.org](https://www.torproject.org){ .md-button .md-button--primary } [Privacy Policy](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .md-button }
+    [Visit libreoffice.org](https://www.libreoffice.org){ .md-button .md-button--primary } [Privacy Policy](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .md-button }
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://www.libreoffice.org/download/download/)

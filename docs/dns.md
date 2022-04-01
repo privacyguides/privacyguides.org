@@ -1,8 +1,7 @@
 ---
-layout: page
 title: "DNS Resolvers"
-description: "The [Domain Name System (DNS)](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phonebook of the Internet'. DNS translates domain names to [IP](https://en.wikipedia.org/wiki/Internet_Protocol) addresses so browsers and other services can load Internet resources, through a decentralized network of servers."
 ---
+The [Domain Name System (DNS)](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phonebook of the Internet'. DNS translates domain names to [IP](https://en.wikipedia.org/wiki/Internet_Protocol) addresses so browsers and other services can load Internet resources, through a decentralized network of servers.
 
 ## What is DNS?
 When you visit a website, a numerical address is returned. For example, when you visit `privacyguides.org`, the address `192.98.54.105` is returned.
@@ -11,32 +10,51 @@ DNS has existed since the [early days](https://en.wikipedia.org/wiki/Domain_Name
 
 Unencrypted DNS requests are able to be easily **surveilled** and **modified** in transit. In some parts of the world ISPs are ordered to do primitive [DNS filtering](https://en.wikipedia.org/wiki/DNS_blocking). When a user requests the IP of a domain that is blocked, the server may not respond or may respond with a different IP address. As the DNS protocol is not encrypted, the ISP (or any network operator) can use [deep packet inspection (DPI)](https://en.wikipedia.org/wiki/Deep_packet_inspection) to monitor requests. ISPs can also block requests based on common characteristics, regardless of which DNS server is used. Unencrypted DNS always uses [port](https://en.wikipedia.org/wiki/Port_(computer_networking)) 53 and always uses the [User Datagram Protocol (UDP)](https://en.wikipedia.org/wiki/User_Datagram_Protocol).
 
-Below we discuss what an outside observer may see using regular unencrypted DNS, and [encrypted DNS](/dns/#what-is-encrypted-dns).
+Below we discuss and provide a tutorial to prove what an outside observer may see using regular unencrypted DNS, and [encrypted DNS](/dns/#what-is-encrypted-dns).
 
 ### Unencrypted DNS
 1. Using [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. This command records packets that meet the rules specified:
-   <pre class=terminal>tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8</pre>
+   ```
+   tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
+   ```
 
-2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) to send the DNS lookup to both servers. Software such as web browsers do these lookups automatically unless they are configured to use [encrypted DNS](/dns/#what-is-encrypted-dns).
-   <pre class=terminal>
-   dig +noall +answer privacyguides.org @1.1.1.1
-   dig +noall +answer privacyguides.org @8.8.8.8
-   </pre>
+2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS etc) or  [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) on Windows to send the DNS lookup to both servers. Software such as web browsers do these lookups automatically unless they are configured to use [encrypted DNS](/dns/#what-is-encrypted-dns).
 
-   or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) on Windows:
-   <pre class=terminal>
-   nslookup privacyguides.org 1.1.1.1
-   nslookup privacyguides.org 8.8.8.8
-   </pre>
+    === "Linux, MacOS"
+
+        ```
+        dig +noall +answer privacyguides.org @1.1.1.1
+        dig +noall +answer privacyguides.org @8.8.8.8
+        ```
+    === "Windows"
+
+        ```
+        nslookup privacyguides.org 1.1.1.1
+        nslookup privacyguides.org 8.8.8.8
+        ```
 
 3. Next we want to [analyse](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
-   <pre class=terminal>wireshark -r /tmp/dns.pcap</pre>
-   or:
-   <pre class=terminal>tshark -r /tmp/dns.pcap</pre>
+
+    === "Wireshark"
+
+        ```
+        wireshark -r /tmp/dns.pcap
+        ```
+
+    === "tshark"
+
+        ```
+        tshark -r /tmp/dns.pcap
+        ```
 
 If you ran the Wireguard command above the top pane shows the "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", and the bottom pane shows all the data about the selected frame. Enterprise filtering and monitoring solutions (such as those purchased by governments) can do the process automatically, without human interaction and can aggregate those frames to produce statistical data useful to the network observer.
 
-{% include table-unencrypted-dns.html %}
+| No. | Time     | Source    | Destination | Protocol | Length | Info                                                                   |
+|-----|----------|-----------|-------------|----------|--------|------------------------------------------------------------------------|
+| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1     | DNS      | 104    | Standard query 0x58ba A privacyguides.org OPT                          |
+| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1   | DNS      | 108    | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
+| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8     | DNS      | 104    | Standard query 0xf1a9 A privacyguides.org OPT                          |
+| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1   | DNS      | 108    | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
 An observer could modify any of these packets.
 
@@ -58,29 +76,102 @@ Native implementations showed up in [iOS 14](https://en.wikipedia.org/wiki/IOS_1
 In this example we will record what happens when we make a DoH request:
 
 1. Firstly start `tshark`:
-   <pre class=terminal>
+   ```
    tshark -w /tmp/dns_doh.pcap -f "tcp port https and host 1.1.1.1"
-   </pre>
+   ```
 
 2. Secondly make a request with `curl`:
-   <pre class=terminal>
+   ```
    curl -vI --doh-url https://1.1.1.1/dns-query https://privacyguides.org
-   </pre>
+   ```
 
 3. After making the request, we can stop the packet capture with <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
 4. Analyse the results in Wireshark:
-   <pre class=terminal>wireshark -r /tmp/dns_doh.pcap</pre>
+   ```
+   wireshark -r /tmp/dns_doh.pcap
+   ```
 
 We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/) that occurs with any encrypted connection. When looking at the "application data" packets that follow, none of them contain the domain we requested or the IP address returned.
 
 ## Why **shouldn't** I use encrypted DNS?
 In locations where there is internet filtering (or censorship), visiting forbidden resources may have its own consequences which you should consider in your [threat model](/threat-modeling/). We do **not** suggest the use of encrypted DNS for this purpose. Use [Tor](https://torproject.org), or a [VPN](/providers/vpn/) instead. If you're using a VPN, you should use your VPN's DNS servers. When using a VPN you are already trusting them with all your network activity. We made this flow chart to describe when you *should* use "encrypted DNS":
 
-<picture>
-  <source srcset="/assets/img/dns/dns-dark.svg" media="(prefers-color-scheme: dark)">
-  <img class="flowchart" src="/assets/img/dns/dns.svg" alt="DNS flowchart">
-</picture>
+``` mermaid
+digraph DNS {
+    graph [
+        rankdir = TR
+        compound = true
+        fontname = "monospace"
+        pad = "0.5"
+        ranksep = "0.5"
+        nodesep = "2"
+        splines = ortho
+        bgcolor="transparent"
+    ];
+    edge [
+        fontname = "monospace"
+        arrowhead = open
+    ];
+    node [
+        shape = "box"
+        style = "filled, rounded"
+        color = "#d4bbd2"
+        fontname = "monospace"
+    ] Start, nothing
+    // Condition
+    node [
+        shape = "diamond"
+        style = "filled"
+        color = "#ffebc2"
+        fontname = "monospace"
+        fixedsize = true
+        width = 2
+        height = 1.6
+    ]; anonymous, censorship, privacy, obnoxious, ispDNS
+    // Process
+    node [
+        shape = "record"
+        style="rounded,filled"
+        color = "#7aa0da"
+        fontname = "monospace"
+        fixedsize = true
+        width = 1.8
+        height = 1
+    ]; tor, vpnOrTor, encryptedDNS, ispDNS, useISP
+
+    // Labels
+    anonymous [label="Trying to be\n anonymous?"]
+    censorship [label="Avoiding\n censorship?"]
+    privacy [label="Want privacy\n from ISP?"]
+    ispDNS [label="Does ISP\n support\n encrypted\n DNS?"]
+    tor [label="Use Tor"];
+    vpnOrTor [label="Use VPN\n or Tor"];
+    encryptedDNS [label="Use encrypted\n DNS with 3rd\n party"]
+    obnoxious [label="ISP makes\n obnoxious\n redirects?"]
+    useISP[label="Use encrypted\n DNS with ISP"]
+    nothing[label="Do nothing"]
+
+    // Edges
+    Start -> anonymous;
+    anonymous -> tor [xlabel="Yes"];
+    anonymous -> censorship [xlabel="No"];
+    censorship -> vpnOrTor [xlabel="Yes"];
+    censorship -> privacy [xlabel="No"];
+    privacy -> vpnOrTor [xlabel="Yes"];
+    privacy -> obnoxious [xlabel="No"];
+    obnoxious -> encryptedDNS [xlabel="Yes"];
+    obnoxious -> ispDNS [xlabel="No"];
+    ispDNS -> useISP [xlabel="Yes"];
+    ispDNS -> nothing [xlabel="No"];
+
+    // Rank
+    { rank=same; anonymous, tor; }
+    { rank=same; censorship, vpnOrTor; }
+    { rank=same; obnoxious, encryptedDNS; }
+    { rank=same; ispDNS, useISP; }
+}
+```
 
 When we do a DNS lookup, it's generally because we want to access a resource. Below we will discuss some of the methods that may disclose your browsing activities even when using encrypted DNS:
 
@@ -93,31 +184,33 @@ This method is only useful when the IP address belongs to a server that only hos
 Server Name Indication, is typically used when a IP address hosts many websites. This could be a service like Cloudflare, or some other [Denial-of-service attack](https://en.wikipedia.org/wiki/Denial-of-service_attack) protection.
 
 1. Start capturing again with `tshark`. We've added a filter with our IP address so you don't capture many packets:
-   <pre class=terminal>
+   ```
    tshark -w /tmp/pg.pcap port 443 and host 198.98.54.105
-   </pre>
+   ```
 
 2. Then we visit [https://privacyguides.org](https://privacyguides.org).
 
 3. After visiting the website, we what to stop the packet capture with <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
 4. Next we want to analyze the results:
-   <pre class=terminal>wireshark -r /tmp/pg.pcap</pre>
+   ```
+   wireshark -r /tmp/pg.pcap
+   ```
    We will see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment), followed by the [TLS handshake](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/) for the Privacy Guides website. Around frame 5. you'll see a "Client Hello".
 
 5. Expand the triangle &#9656; next to each field:
-   <pre class=terminal>
+   ```
    ▸ Transport Layer Security
      ▸ TLSv1.3 Record Layer: Handshake Protocol: Client Hello
        ▸ Handshake Protocol: Client Hello
          ▸ Extension: server_name (len=22)
            ▸ Server Name Indication extension
-   </pre>
+   ```
 
 6. We can see the [Server Name Indication (SNI)](https://en.wikipedia.org/wiki/Server_Name_Indication) value which discloses the website we are visiting. The `tshark` command can give you the value directly for all packets containing a SNI value:
-   <pre class=terminal>
-    tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
-   </pre>
+   ```
+   tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
+   ```
 
 This means even if we are using "Encrypted DNS" servers, the domain will likely be disclosed through SNI. The [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) protocol brings with it [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello/) which prevents this kind of leak.
 
@@ -131,59 +224,61 @@ The OCSP request contains the certificate "[serial number](https://en.wikipedia.
 We can simulate what a browser would do using the [`openssl`](https://en.wikipedia.org/wiki/OpenSSL) command.
 
 1. Get the server certificate and use [`sed`](https://en.wikipedia.org/wiki/Sed) to keep just the important part and write it out to a file:
-   <pre class=terminal>
+   ```
    openssl s_client -connect privacyguides.org:443 < /dev/null 2>&1 |
        sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_server.cert
-   </pre>
+   ```
 
 2. Get the intermediate certificate. [Certificate Authorities (CA)](https://en.wikipedia.org/wiki/Certificate_authority) normally don't sign a certificate directly; they use what is known as an "intermediate" certificate.
-   <pre class=terminal>
+   ```
    openssl s_client -showcerts -connect privacyguides.org:443 < /dev/null 2>&1 |
        sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_and_intermediate.cert
-   </pre>
+   ```
 
 3. The first certificate in `pg_and_intermediate.cert`, is actually the server certificate from step 1. We can use `sed` again to delete until the first instance of END:
-   <pre class=terminal>
+   ```
    sed -n '/^-*END CERTIFICATE-*$/!d;:a n;p;ba' \
        /tmp/pg_and_intermediate.cert > /tmp/intermediate_chain.cert
-   </pre>
+   ```
 
 4. Get the OCSP responder for the server certificate:
-   <pre class=terminal>openssl x509 -noout -ocsp_uri -in /tmp/pg_server.cert</pre>
-
+   ```
+   openssl x509 -noout -ocsp_uri -in /tmp/pg_server.cert
+   ```
    If we want to see all the details of the certificate we can use:
-   <pre class=terminal>openssl x509 -text -noout -in /tmp/pg_server.cert</pre>
+   ```
+   openssl x509 -text -noout -in /tmp/pg_server.cert
+   ```
    Our certificate shows the Lets Encrypt certificate responder.
 
 5. Start the packet capture:
-   <pre class=terminal>
+   ```
    tshark -w /tmp/pg_ocsp.pcap -f "tcp port http"
-   </pre>
+   ```
 
 6. Make the OCSP request:
-   <pre class=terminal>
+   ```
    openssl ocsp -issuer /tmp/intermediate_chain.cert \
                 -cert /tmp/pg_server.cert \
                 -text \
                 -url http://r3.o.lencr.org
-   </pre>
+   ```
 
-6. Open the capture:
-   <pre class=terminal>
+7. Open the capture:
+   ```
    wireshark -r /tmp/pg_ocsp.pcap
-   </pre>
-
+   ```
    There will be two packets with the "OCSP" protocol; a "Request" and a "Response". For the "Request" we can see the "serial number" by expanding the triangle &#9656; next to each field:
-   <pre class=terminal>
+   ```
    ▸ Online Certificate Status Protocol
      ▸ tbsRequest
        ▸ requestList: 1 item
          ▸ Request
            ▸ reqCert
              serialNumber
-   </pre>
+   ```
    For the "Response" we can also see the "serial number":
-   <pre class=terminal>
+   ```
    ▸ Online Certificate Status Protocol
      ▸ responseBytes
        ▸ BasicOCSPResponse
@@ -192,12 +287,12 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
              ▸ SingleResponse
                ▸ certID
                  serialNumber
-   </pre>
+   ```
 
 7. Or use `tshark` to filter the packets for the Serial Number:
-   <pre class=terminal>
+   ```
    tshark -r /tmp/pg_ocsp.pcap -Tfields -Y ocsp.serialNumber -e ocsp.serialNumber
-   </pre>
+   ```
 
 If the network observer has the public certificate, which is publicly available, they can match the serial number with that certificate and therefore determine the site you're visiting from that. The process can be automated and can associate IP addresses with serial numbers. It is also possible to check [Certificate Transparency](https://en.wikipedia.org/wiki/Certificate_Transparency) logs for the serial number.
 
@@ -206,12 +301,26 @@ You should only use DNS if your [threat model](/threat-modeling/) doesn't requir
 
 Encrypted DNS can also help if your ISP obnoxiously redirects you to other websites. These are our recommendations for servers:
 
-{% include recommendation-table.html data='dns' %}
+| DNS Provider | Privacy Policy | Type | Protocols | Logging | ECS | Filtering |
+| ------------ | -------------- | ---- | --------- | ------- | --- | --------- |
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html) | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html) | Commercial | Cleartext <br> DoH <br> DoT <br> DNSCrypt | Some[^1] | No | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS)
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://www.cloudflare.com/privacypolicy) | Commercial | Cleartext <br> DoH <br> DoT | Some[^2] | No | Based on server choice.|
+| [**ControlID**](https://controld.com) | [:octicons-link-external-24:](https://controld.com/privacy) | Commercial | Cleartext <br> DoH <br> DoT | Optional[^3] | No |  Based on server choice.  |
+| [**MullvadDNS**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | [:octicons-link-external-24:](https://mullvad.net/en/help/privacy-policy/) [^4] | Commercial | DoH <br> DoT | No | No | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)
+| [**NextDNS**](https://www.nextdns.io) | [:octicons-link-external-24:](https://www.nextdns.io/privacy) | Commercial | Cleartext <br> DoH <br> DoT <br> DNSCrypt | Optional[^5] | No | Based on server choice. |
+| [**Quad9**](https://quad9.net) | [:octicons-link-external-24:](https://quad9.net/service/privacy) | Non-Profit | Cleartext <br> DoH <br> DoT <br> DNSCrypt | No | Optional |  Based on server choice, Malware blocking by default. |
+
+[^1]: We store aggregated performance metrics of our DNS server, namely the number of complete requests to a particular server, the number of blocked requests, the speed of processing requests. We keep and store the database of domains requested in the last 24 hours. We need this information to identify and block new trackers and threats. We also log how many times this or that tracker has been blocked. We need this information to remove outdated rules from our filters.
+[^2]: Cloudflare collects and stores only the limited DNS query data that is sent to the 1.1.1.1 resolver. The 1.1.1.1 resolver service does not log personal data, and the bulk of the limited non-personally identifiable query data is only stored for 25 hours.
+[^3]: Neither free nor premium service have logging enabled by default. Premium users can enable logging/analytics at will.
+[^4]: Our public DNS service offers DNS over HTTPS (DoH) and DNS over TLS (DoT), with QNAME minimization and basic ad blocking. It has been audited by the security experts at Assured. You can use this privacy-enhancing service even if you don't use Mullvad.
+[^5]: NextDNS can provide insights and logging features on an opt-in basis. Users can choose retention times and log storage locations for any logs they choose to keep.
 
 The criteria for servers for this table are:
- * Must support [DNSSEC](/dns/#what-is-dnssec-and-when-is-it-used)
- * Must have [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) support
- * [QNAME Minimization](/dns/#what-is-qname-minimization)
+
+- Must support [DNSSEC](/dns/#what-is-dnssec-and-when-is-it-used)
+- Must have [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) support
+- [QNAME Minimization](/dns/#what-is-qname-minimization)
 
 ## What is DNSSEC and when is it used?
 [Domain Name System Security Extensions (DNSSEC)](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) is used to provide authenticity to the records being fetched from upstream DNS servers. It doesn't provide confidentiality, for that we use one of the [encrypted DNS](/dns#what-is-encrypted-dns) protocols discussed above.
@@ -253,14 +362,47 @@ Select *Settings* &rarr; *Network & Internet* &rarr; *Ethernet* or *WiFi*, &rarr
 ### Linux
 `systemd-resolved` doesn't [yet support](https://github.com/systemd/systemd/issues/8639), which many Linux distributions use to do their DNS lookups. This means you need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
 
-### Encrypted DNS Proxies
+## Encrypted DNS Proxies
 This software provides third-party encrypted DNS support by pointing the [unencrypted dns](/dns/#unencrypted-dns) resolver to a local [encrypted dns](/dns/#what-is-encrypted-dns) proxy.
 
-{% for item_hash in site.data.software.dns-apps %}
-{% assign item = item_hash[1] %}
+### RethinkDNS
+!!! recommendation
 
-{% if item.type == "Recommendation" %}
-{% include recommendation-card.html %}
-{% endif %}
+    ![RethinkDNS logo](/assets/img/android/rethinkdns.svg#only-light){ align=right }
+    ![RethinkDNS logo](/assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
 
-{% endfor %}
+    **RethinkDNS** is an open-source Android client supporting [DNS-over-HTTPS](/dns/#dns-over-https-doh), [DNS-over-TLS](/dns/#dns-over-tls-dot), [DNSCrypt](/dns/#dnscrypt) and DNS Proxy along with caching DNS responses, locally logging DNS queries and can be used as a firewall too.
+
+    [Visit rethinkdns.com](https://rethinkdns.com){ .md-button .md-button--primary } [Privacy Policy](https://rethinkdns.com/privacy){ .md-button }
+
+    **Downloads**
+    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
+    - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.celzero.bravedns)
+    - [:fontawesome-brands-github: Source](https://github.com/celzero/rethink-app)
+
+### DNSCloak
+!!! recommendation
+
+    ![DNSCloak logo](/assets/img/ios/dnscloak.png){ align=right }
+
+    **DNSCloak** is an open-source iOS client supporting [DNS-over-HTTPS](/dns/#dns-over-https-doh), [DNSCrypt](/dns/#dnscrypt), and [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy/wiki) options such as caching DNS responses, locally logging DNS queries, and custom block lists. Users can [add custom resolvers by DNS stamp](https://medium.com/privacyguides/adding-custom-dns-over-https-resolvers-to-dnscloak-20ff5845f4b5).
+
+    [Visit github.com](https://github.com/s-s/dnscloak/blob/master/README.md){ .md-button .md-button--primary } [Privacy Policy](https://drive.google.com/file/d/1050No_pU74CAWUS5-BwQWyO2x_aiMzWc/view){ .md-button }
+
+    **Downloads**
+    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1452162351)
+    - [:fontawesome-brands-github: Source](https://github.com/s-s/dnscloak)
+
+### dnscrypt-proxy
+!!! recommendation
+
+    ![dnscrypt-proxy logo](/assets/img/dns/dnscrypt-proxy.svg){ align=right }
+
+    **dnscrypt-proxy** is a DNS proxy with support for [DNSCrypt](/dns/#dnscrypt), [DNS-over-HTTPS](/dns/#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
+
+    !!! warning "The anonymized DNS feature does [**not**](/dns#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic."
+
+    [Visit github.com](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .md-button .md-button--primary } [Privacy Policy](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .md-button }
+
+    **Downloads**
+    - [:fontawesome-brands-github: Source](https://github.com/DNSCrypt/dnscrypt-proxy)
