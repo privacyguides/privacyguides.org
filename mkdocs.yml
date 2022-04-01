@@ -41,7 +41,7 @@ nav:
       - 'Calendar/Contacts Sync': 'calendar-contacts.md'
       - 'Digital Notebooks': 'notebooks.md'
       - 'Email Clients': 'email-clients.md'
-      - 'File Encryption Tools': 'file-encryption.md'
+      - 'Encryption Tools': 'encryption.md'
       - 'File Sharing/Sync': 'file-sharing.md'
       - 'Metadata Removal Tools': 'metadata-removal-tools.md'
       - 'Password Managers': 'passwords.md'

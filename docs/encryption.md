@@ -67,21 +67,17 @@ Modern operating systems include [disk encryption](https://en.wikipedia.org/wiki
 
     ![Picocrypt logo](/assets/img/encryption-software/picocrypt.svg){ align=right }
 
+    **Picocrypt** is a small and simple encryption tool that provides modern encryption. Picocrypt uses the secure XChaCha20 cipher and the Argon2id key derivation function to provide a high level of security. It uses Go's standard x/crypto modules for its encryption features.
 
-    [Visit ](){ .md-button .md-button--primary } [Privacy Policy](){ .md-button }
-    [:pg-tor:](){ .md-button }
+    We think the best usecase for this is if you need to encrypt some files, or archives.
+
+    [Visit github.com](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary } [Privacy Policy](){ .md-button }
 
     **Downloads**
-    - [:fontawesome-brands-windows: Windows]()
-    - [:fontawesome-brands-apple: macOS]()
-    - [:fontawesome-brands-linux: Linux]()
-    - [:fontawesome-brands-linux: Linux (Flatpak)]()
-    - [:fontawesome-brands-freebsd: FreeBSD]()
-    - [:pg-openbsd: OpenBSD]()
-    - [:pg-netbsd: NetBSD]()
-    - [:fontawesome-brands-google-play: Google Play]()
-    - [:fontawesome-brands-app-store-ios: App Store]()
-    - [:fontawesome-brands-git: Source]()
+    - [:fontawesome-brands-windows: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
+    - [:fontawesome-brands-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
+    - [:fontawesome-brands-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
+    - [:fontawesome-brands-github: Source](https://github.com/HACKERALERT/Picocrypt)
 
 ### 
 !!! recommendation

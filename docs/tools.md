@@ -33,7 +33,7 @@ If you want assistance figuring out the best privacy tools and alternative progr
 - [:material-calendar: Calendar/Contacts Sync](calendar-contacts.md)
 - [:material-notebook-edit-outline: Digital Notebooks](notebooks.md)
 - [:material-email-open: Email Clients](email-clients.md)
-- [:material-file-lock: File Encryption Tools](file-encryption.md)
+- [:material-file-lock: Encryption Tools](encryption.md)
 - [:material-share-variant: File Sharing and Sync](file-sharing.md)
 - [:material-tag-remove: Metadata Removal Tools](metadata-removal-tools.md)
 - [:material-form-textbox-password: Password Managers](passwords.md)
