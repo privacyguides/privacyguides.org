@@ -1,13 +1,2 @@
-_site/
-.sass-cache/
-.jekyll-metadata
-.DS_Store
-font/assets/
-font/_sass/
-font/.fontcustom-manifest.json
-assets/webfonts/ptio-font-preview.html
-vendor
-node_modules
-.bundle
-.jekyll-cache
-.nova
+site
+.cache
