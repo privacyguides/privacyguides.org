@@ -18,6 +18,8 @@ nav:
   - Home: 'index.md'
   - 'Privacy Introduction':
     - 'Threat Modeling': 'threat-modeling.md'
+    - 'Security Basics':
+      - 'Multi-Factor Authentication': 'multi-factor-authentication.md'
   - 'Recommendations':
     - 'Privacy Tools': 'tools.md'
     - 'Operating Systems': 
@@ -49,6 +51,7 @@ nav:
       - 'Self-Contained Networks': 'self-contained-networks.md'
       - 'Video Streaming': 'video-streaming.md'
   - 'Blog':
+    - 'Blog Index': 'blog.md'
     - '2021':
       - 'December':
         - 'Firefox Privacy: 2021 Update': 'blog/2021/12/01/firefox-privacy-2021-update.md'

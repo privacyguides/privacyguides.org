@@ -35,6 +35,9 @@
     background-color: var(--md-typeset-a-color);
     border-color: var(--md-typeset-a-color);
 }
+[data-md-color-scheme="slate"] .md-typeset .md-button--primary {
+    color: var(--md-primary-bg-color);
+}
 
 h1, h2, h3, .md-header__topic {
     font-family: Bagnard, serif;

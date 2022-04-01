@@ -54,7 +54,7 @@
     color: var(--md-primary-bg-color);
 }
 .mdx-hero .md-button--primary {
-    color: var(--md-primary-fg-color);
+    color: var(--md-primary-fg-color)!important;
     background-color: var(--md-primary-bg-color);
     border-color: var(--md-primary-bg-color);
     margin-right: 0.5rem;
