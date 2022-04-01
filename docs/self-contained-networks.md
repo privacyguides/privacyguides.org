@@ -4,7 +4,6 @@ title: Self-Contained Networks
 If you are currently browsing clearnet and want to access the dark web, this section is for you.
 
 ## Self-contained Networks
-
 ### Tor
 !!! recommendation
 
@@ -50,7 +49,7 @@ If you are currently browsing clearnet and want to access the dark web, this sec
 ### The Freenet Project
 !!! recommendation
 
-    ![I2P logo](./assets/img/self-contained-networks/i2p.svg){ align=right }
+    ![Freenet logo](./assets/img/self-contained-networks/freenet.svg){ align=right }
 
     Freenet is a peer-to-peer platform for censorship-resistant communication. It uses a decentralized distributed data store to keep and deliver information, and has a suite of free software for publishing and communicating on the Web without fear of censorship. Both Freenet and some of its associated tools were originally designed by Ian Clarke, who defined Freenet's goal as providing freedom of speech on the Internet with strong anonymity protection.
 
