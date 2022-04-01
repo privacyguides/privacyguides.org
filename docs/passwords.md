@@ -87,7 +87,7 @@ These password managers sync up to a cloud server that may be self-hostable.
     - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
     - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
-    - [:pg-docker: Web Client](https://hub.docker.com/r/psono/psono-client)
+    - [:fontawesome-brands-docker: Dockerhub](https://hub.docker.com/r/psono/psono-client)
     - [:fontawesome-brands-github: Source](https://gitlab.com/psono)
 
 ## Password management servers
@@ -104,7 +104,7 @@ These products are self-hostable synchronization for cloud based password manage
     [Visit github.com](https://github.com/dani-garcia/vaultwarden)
 
     **Downloads**
-    - [:pg-docker: Server](https://hub.docker.com/r/vaultwarden/server)
+    - [:fontawesome-brands-docker: Dockerhub](https://hub.docker.com/r/vaultwarden/server)
     - [:fontawesome-brands-github: Source](https://github.com/dani-garcia/vaultwarden)
 
 ### Psono Server
@@ -118,7 +118,7 @@ These products are self-hostable synchronization for cloud based password manage
     [:pg-tor:](){ .md-button }
 
     **Downloads**
-    - [:pg-docker: Server](https://hub.docker.com/r/psono/psono-server)
+    - [:fontawesome-brands-docker: Dockerhub](https://hub.docker.com/r/psono/psono-server)
     - [:fontawesome-brands-gitlab: Source](https://gitlab.com/psono/psono-server)
 
 ## Minimal Password Managers
