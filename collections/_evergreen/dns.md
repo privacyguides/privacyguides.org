@@ -240,7 +240,7 @@ After installation of either a configuration profile or an app that utilizes the
 
  * **iOS/iPadOS:** *Settings &rarr; General &rarr; VPN, DNS, & Device Management &rarr; DNS*
  * **macOS:** *System Preferences &rarr; Profiles* / *System Preferences &rarr; Network*
- * **tvOS:** *Settings &rarr; General &rarr; Privacy &rarr; hover on "Share Apple TV Analytics" &rarr; press the play button on your remote*
+ * **tvOS:** *Settings &rarr; General &rarr; Privacy &rarr;* hover on "*Share Apple TV Analytics*" &rarr; press the play button on the remote
 
 Apple does not provide a native interface for creating encrypted DNS profiles. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) is an unofficial tool for creating your own encrypted DNS profiles, however they will not be signed. Signed profiles are preferred; signing validates a profile's origin and helps to ensure the integrity of the profiles. A green "Verified" label is given to signed configuration profiles. For more information on code signing, see [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html).
 
