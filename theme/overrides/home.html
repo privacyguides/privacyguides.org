@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'overrides/home.css' | url }}">
+{% endblock %}
+{% block hero %}
+  {{ super() }}
+  <style>.md-content > .md-typeset h1{visibility:hidden;font-size:0;}</style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__content">
+          <h1>The guide to restoring your online privacy.</h1>
+          <p>{{ config.site_description }}</p>
+          <a href="{{ 'tools/' | url }}" title="Recommended services, tools, and knowledge to protect your privacy" class="md-button md-button--primary">
+            Privacy Tools
+          </a>
+          <a href="{{ 'blog/' | url }}" title="Blog posts from Privacy Guides contributors" class="md-button">
+            Read our blog
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

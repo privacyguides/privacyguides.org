@@ -1,0 +1,133 @@
+site_name: Privacy Guides
+site_description: |
+  Massive organizations are monitoring your online activities. Privacy Guides is your central privacy and security resource to protect yourself online.
+copyright: This content was made available by the Privacy Guides team and contributors. <a href="#">Get involved</a>!
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/privacy_guides
+    - icon: fontawesome/brands/github
+      link: https://github.com/privacyguides
+    - icon: fontawesome/brands/reddit-alien
+      link: https://reddit.com/r/PrivacyGuides
+repo_url: https://github.com/privacyguides/privacyguides.org
+repo_name: privacyguides.org
+
+nav:
+  - Home: 'index.md'
+  - 'Privacy Introduction':
+    - 'Threat Modeling': 'threat-modeling.md'
+    - 'Security Basics':
+      - 'Multi-Factor Authentication': 'multi-factor-authentication.md'
+  - 'Recommendations':
+    - 'Privacy Tools': 'tools.md'
+    - 'Operating Systems':
+      - 'Android': 'android.md'
+      - 'Linux Desktop': 'linux-desktop.md'
+      - 'QubesOS': 'qubes.md'
+      - 'Router Firmware': 'router.md'
+    - 'Browsers':
+      - 'Web Browsers': 'browsers.md'
+    - 'Providers':
+      - 'Cloud Storage': 'cloud.md'
+      - 'DNS Servers': 'dns.md'
+      - 'Email Providers': 'email.md'
+      - 'Search Engines': 'search-engines.md'
+      - 'Social Networks': 'social-networks.md'
+      - 'Social News Aggregators': 'social-news-aggregator.md'
+      - 'VPN Providers': 'vpn.md'
+    - 'Software':
+      - 'Calendar/Contacts Sync': 'calendar-contacts.md'
+      - 'Digital Notebooks': 'notebooks.md'
+      - 'Email Clients': 'email-clients.md'
+      - 'Encryption Tools': 'encryption.md'
+      - 'File Sharing/Sync': 'file-sharing.md'
+      - 'Metadata Removal Tools': 'metadata-removal-tools.md'
+      - 'Password Managers': 'passwords.md'
+      - 'Productivity Tools': 'productivity.md'
+      - 'Real-Time Communication': 'real-time-communication.md'
+      - 'Self-Contained Networks': 'self-contained-networks.md'
+      - 'Video Streaming': 'video-streaming.md'
+  - 'Blog':
+    - 'Blog Index': 'blog.md'
+    - '2021':
+      - 'December':
+        - 'Firefox Privacy: 2021 Update': 'blog/2021/12/01/firefox-privacy-2021-update.md'
+      - 'November':
+        - 'Virtual Insanity': 'blog/2021/11/01/virtual-insanity.md'
+      - 'September':
+        - 'Welcome to Privacy Guides': 'blog/2021/09/14/welcome-to-privacy-guides.md'
+    - '2019':
+      - 'November':
+        - 'Firefox Privacy': 'blog/2019/11/09/firefox-privacy.md'
+      - 'October':
+        - 'Choosing a VPN': 'blog/2019/10/30/choosing-a-vpn.md'
+        - 'Understanding VPNs': 'blog/2019/10/05/understanding-vpns.md'
+      - 'August':
+        - 'Self Hosting a Shadowsocks VPN with Outline': 'blog/2019/08/22/self-hosting-shadowsocks-vpn-outline.md'
+
+theme:
+  name: material
+  custom_dir: theme
+  logo: assets/logo.svg
+  favicon: assets/img/layout/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
+  font: false
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      accent: deep purple
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: deep purple
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+plugins:
+  - tags
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - meta
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - theme/.icons
+  - tables
+  - footnotes
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

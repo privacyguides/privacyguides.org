@@ -1,0 +1,73 @@
+name: Deploy Website
+on:
+  push:
+    branches:
+      - main
+
+env:
+  PYTHON_VERSION: 3.x
+
+jobs:
+  build:
+    name: Build website
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python runtime
+        uses: actions/setup-python@v3
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      
+      - name: Cache files
+        uses: actions/cache@v2
+        with:
+          key: ${{ github.ref }}
+          path: .cache
+
+      - name: Install Python dependencies
+        run: |
+          pip install 'mkdocs>=1.3.0'
+
+      - name: Install mkdocs-material Insiders build
+        if: github.event.repository.fork == false
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          git clone --depth 1 https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
+          pip install -e mkdocs-material-insiders
+
+      - name: Build website
+        run: |
+          mkdocs build --config-file mkdocs.production.yml
+          mv .well-known site/
+          tar cvf site.tar site
+          mkdocs --version
+
+      - name: Package website
+        uses: actions/upload-artifact@v2
+        with:
+          name: generated-site
+          path: site.tar
+
+  deploy:
+    name: Rsync Deploy
+    runs-on: ubuntu-latest
+    environment: production
+    needs: build
+
+    steps:
+      - name: Download generated Jekyll site
+        uses: actions/download-artifact@v2
+        with:
+          name: generated-site
+      - run: tar xvf site.tar
+      - name: Copy built site to production
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 700 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+          rsync -azP --delete site/ ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }}:${{ secrets.SSH_PATH }}

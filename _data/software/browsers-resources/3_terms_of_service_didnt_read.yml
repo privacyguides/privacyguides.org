@@ -1,9 +1,0 @@
-title: Terms of Service; Didn't Read
-type: Recommendation
-logo: /assets/img/browsers/terms_of_service_didnt_read.svg
-description: |
-  **Terms of Service; Didn't Read** grades websites based on their terms of service agreements and privacy policies. It also gives short summaries of those agreements. The analyses and ratings are published transparently by a community of reviewers.
-
-  We do not recommend installing ToS;DR as a browser extension. The same information is provided on their website.
-website: 'https://tosdr.org/'
-privacy_policy: 'https://addons.mozilla.org/firefox/addon/terms-of-service-didnt-read/privacy/'

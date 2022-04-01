@@ -1,0 +1,5 @@
+INHERIT: mkdocs.yml
+site_url: "https://www.privacyguides.org/"
+plugins:
+  - search
+  - privacy
