@@ -29,6 +29,8 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     Free accounts have some limitations, such as not being able to search body text and not having access to [ProtonMail Bridge](https://protonmail.com/bridge), which is required to use a [recommended desktop email client](https://privacyguides.org/software/email) (e.g. Thunderbird). Paid accounts are available starting at **€48/y** which include features like ProtonMail Bridge, additional storage, and custom domain support.
 
+    **Free**
+
     [Visit ProtonMail.com](https://protonmail.com){ .md-button .md-button--primary }
 
 ??? check "Custom Domains and Aliases"
@@ -68,6 +70,8 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
     ![Mailbox.org logo](/assets/img/email/mailboxorg.svg){ align=right }
 
     **Mailbox.org** is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with 2 GB of storage, which can be upgraded as needed.
+
+    **EUR €12/year**
 
     [Visit Mailbox.org](https://mailbox.org){ .md-button .md-button--primary }
 
@@ -112,6 +116,8 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     **Disroot** offers email amongst [other services](https://disroot.org/en/#services). The service is maintained by volunteers and its community. They have been in operation since 2015. Disroot is based in Amsterdam. Disroot is free and uses open source software such as Rainloop to provide service. Users support the service through donations and buying extra storage. The mailbox limit is 1 GB, but extra storage can be purchased 0.15€ per GB per month paid yearly.
 
+    **Free**
+
     [Visit Disroot.org](https://disroot.org){ .md-button .md-button--primary }
 
 ??? check "Custom Domains and Aliases"
@@ -151,16 +157,17 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
     ![Tutanota logo](/assets/img/email/tutanota.svg#only-light){ align=right }
     ![Tutanota logo](/assets/img/email/tutanota-dark.svg#only-dark){ align=right }
 
-
     **[Tutanota.com](https://tutanota.com)** is an email service with a focus on security and privacy through the use of encryption. Tutanota has been in operation since **2011** and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan.
 
-    Tutanota [doesn't allow](https://tutanota.com/faq/#imap) the use of third-party [email clients](https://privacyguides.org/software/email/). Tutanota has no plans pull email from [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) using the [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) protocol. [Email import](https://github.com/tutao/tutanota/issues/630) is currently not possible.
-
-    Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail). Tutanota does not allow for [subfolders](https://github.com/tutao/tutanota/issues/927) as you might expect with other email providers.
-
-    Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/desktop-clients/) and they have an app [available in F-Droid](https://f-droid.org/packages/de.tutao.tutanota). They also have their app in conventional stores such as [App Store](https://apps.apple.com/us/app/tutanota/id922429609) on iOS and [Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota) for Android.
+    **Free**
 
     [Visit Tutanota.org](https://tutanota.org){ .md-button .md-button--primary }
+
+Tutanota [doesn't allow](https://tutanota.com/faq/#imap) the use of third-party [email clients](https://privacyguides.org/software/email/). Tutanota has no plans pull email from [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) using the [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) protocol. [Email import](https://github.com/tutao/tutanota/issues/630) is currently not possible.
+
+Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail). Tutanota does not allow for [subfolders](https://github.com/tutao/tutanota/issues/927) as you might expect with other email providers.
+
+Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/desktop-clients/) and they have an app [available in F-Droid](https://f-droid.org/packages/de.tutao.tutanota). They also have their app in conventional stores such as [App Store](https://apps.apple.com/us/app/tutanota/id922429609) on iOS and [Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota) for Android.
 
 ??? check "Custom Domains and Aliases"
 
@@ -203,6 +210,8 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     **StartMail** is an email service with a focus on security and privacy through the use of standard OpenPGP encryption. StartMail has been in operation since 2014 and is based in Boulevard 11, Zeist Netherlands. Accounts start with 10GB. They offer a 30-day trial.
 
+    **USD $59.95/year**
+
     [Visit StartMail.com](https://startmail.com/){ .md-button .md-button--primary }
 
 ??? check "Custom Domains and Aliases"
@@ -243,6 +252,8 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
     ![CTemplar Logo](/assets/img/email/ctemplar-dark.svg#only-dark){ align=right }
 
     **CTemplar** is an email service with a focus on security and privacy through the use of standard OpenPGP encryption. CTemplar has been in operation since **2018** and is run from Iceland. Paid accounts start with 5GB. They offer free accounts by [invitation](https://ctemplar.com/email-creation-restriction/).
+
+    **USD $96/year**
 
     [Visit CTemplar.com](https://ctemplar.com){ .md-button .md-button--primary }
 

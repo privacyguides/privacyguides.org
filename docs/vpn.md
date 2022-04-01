@@ -36,6 +36,8 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     **Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since **2009**. Mullvad is based in Sweden and does not have a free trial.
 
+    **EUR €60/year**
+
     [Visit Mullvad.net](https://mullvad.net){ .md-button .md-button--primary }
 
 ??? check "35 Countries"
@@ -94,6 +96,8 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     **ProtonVPN** is a strong contender in the VPN space, and they have been in operation since 2016. ProtonVPN is based in Switzerland and offers a limited free pricing tier, as well as premium options. They offer a further 14% discount for buying a 2 year subscription.
 
+    **Free** - **Basic Plan USD $48/year** - **Plus Plan USD $96/year**
+
     [Visit ProtonVPN.com](https://protonvpn.com/){ .md-button .md-button--primary }
 
 ??? check "44 Countries"
@@ -139,6 +143,8 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
     ![IVPN logo](/assets/img/vpn/ivpn.svg){ align=right }
 
     **IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN is based in Gibraltar.
+
+    **Standard USD $60/year** - **Pro USD $100/year**
 
     [Visit IVPN.net](https://www.ivpn.net/){ .md-button .md-button--primary }
 
