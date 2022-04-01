@@ -1,5 +1,4 @@
 ---
-title: Privacy Guides
 template: overrides/home.html
 hide:
   - navigation

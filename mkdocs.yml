@@ -27,13 +27,14 @@ nav:
       - 'Router Firmware': 'router.md'
     - 'Browsers':
       - 'Web Browsers': 'browsers.md'
+      - 'Extensions': 'browser-extensions.md'
     - 'Providers':
       - 'Cloud Storage': 'cloud.md'
       - 'DNS Servers': 'dns.md'
       - 'Email Providers': 'email.md'
       - 'Search Engines': 'search-engines.md'
       - 'Social Networks': 'social-networks.md'
-      - 'Social News Aggregators': 'social-news-aggregators.md'
+      - 'Social News Aggregators': 'social-news-aggregator.md'
       - 'VPN Providers': 'vpn.md'
     - 'Software':
       - 'Calendar/Contacts Sync': 'calendar-contacts.md'
