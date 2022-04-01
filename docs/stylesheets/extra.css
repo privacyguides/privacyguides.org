@@ -63,3 +63,19 @@ h1, h2, h3, .md-header__topic {
 .md-typeset .recommendation img[align="right"], .md-typeset svg[align="right"] {
     max-width: 150px;
 }
+
+.md-typeset .admonition.anonyimity,
+.md-typeset details.anonyimity {
+  border-color: rgb(43, 155, 70);
+}
+.md-typeset .anonyimity > .admonition-title,
+.md-typeset .anonyimity > summary {
+  background-color: rgba(43, 155, 70, 0.1);
+  border-color: rgb(43, 155, 70);
+}
+.md-typeset .anonyimity > .admonition-title::before,
+.md-typeset .anonyimity > summary::before {
+  background-color: rgb(43, 155, 70);
+  -webkit-mask-image: var(--md-admonition-icon--success);
+          mask-image: var(--md-admonition-icon--success);
+}
