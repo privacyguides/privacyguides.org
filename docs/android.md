@@ -107,8 +107,8 @@ Modern Android devices have global toggles for disabling [Bluetooth](https://en.
     [Visit orbot.app](https://orbot.app/){ .md-button .md-button--primary }
 
     **Downloads**
-    - [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid)
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
+    - [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid)
     - [:fontawesome-brands-github: GitHub](https://github.com/guardianproject/orbot)
     - [:fontawesome-brands-gitlab: GitLab](https://gitlab.com/guardianproject/orbot)
 
@@ -340,7 +340,6 @@ To mitigate these problems, we recommend [Droid-ify](https://github.com/Iamlooke
     Unlike the official F-Droid client, Droid-ify supports seamless updates on Android 12 and above without the need for a privileged extension. If your Android distribution is on Android 12 or above and does not include the [F-Droid privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged/), it is highly recommended that you use Droid-ify instead of the official client.
 
     **Downloads:**
-    - [:fontawesome-brands-android: APK Download](https://android.izzysoft.de/repo/apk/com.looker.droidify)
     - [:fontawesome-brands-android: APK Download](https://android.izzysoft.de/repo/apk/com.looker.droidify)
     - [:fontawesome-brands-github: GitHub](https://github.com/Iamlooker/Droid-ify)
 
