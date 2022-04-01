@@ -29,19 +29,12 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install 'mkdocs>=1.3.0'
-
-      - name: Install mkdocs-material Insiders build
-        if: github.event.repository.fork == false
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          git clone --depth 1 https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
-          pip install -e mkdocs-material-insiders
+          pip install mkdocs
+          pip install mkdocs-material
 
       - name: Build website
         run: |
-          mkdocs build --config-file mkdocs.production.yml
+          mkdocs build
           mv .well-known site/
           tar cvf site.tar site
           mkdocs --version
