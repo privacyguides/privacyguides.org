@@ -1,4 +1,5 @@
 ---
+icon: material/tools
 hide:
     - navigation
 ---
@@ -16,7 +17,6 @@ If you want assistance figuring out the best privacy tools and alternative progr
 ## Web Browsers
 
 - [:octicons-browser-16: Browsers](browsers.md)
-- [:material-apps: Extensions](browser-extensions.md)
 
 ## Service Providers
 
@@ -24,7 +24,7 @@ If you want assistance figuring out the best privacy tools and alternative progr
 - [:material-dns: DNS Resolvers](dns.md)
 - [:material-email: Email Hosts](email.md)
 - [:material-search-web: Search Engines](search-engines.md)
-- [:fontawesome-solid-users: Social Networks](social-networks.md)
+- [:material-account-supervisor-circle-outline: Social Networks](social-networks.md)
 - [:material-newspaper-variant-outline: News Aggregators](social-news-aggregator.md)
 - [:material-vpn: VPN Services](vpn.md)
 
@@ -41,7 +41,3 @@ If you want assistance figuring out the best privacy tools and alternative progr
 - [:material-chat-processing: Real-Time Communication](real-time-communication.md)
 - [:material-security-network: Self-Contained Networks](self-contained-networks.md)
 - [:material-video-wireless: Video Streaming Clients](video-streaming.md)
-
-!!! danger "privacytools.io considered dangerous"
-
-    Prior to 2021, privacytools.io recommendations were based on team and community contributions. That website was replaced with un-reviewed information by the domain name owner. Most of the original advice, team, and community contributors have preserved the project and continued forward here on **privacyguides.org**. [Learn more](https://www.reddit.com/r/PrivacyGuides/comments/pnhn4a/rprivacyguides_privacyguidesorg_what_you_need_to/)
