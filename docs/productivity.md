@@ -4,7 +4,6 @@ title: Productivity Tools
 Get working and collaborating without sharing your documents with a middleman or trusting a cloud provider.
 
 ## Office Suites
-
 ### LibreOffice
 !!! recommendation
 
@@ -45,7 +44,6 @@ Get working and collaborating without sharing your documents with a middleman or
     - [:fontawesome-brands-github: Source](https://github.com/ONLYOFFICE)
 
 ## Planning
-
 ### Framadate
 !!! recommendation
 
@@ -59,7 +57,6 @@ Get working and collaborating without sharing your documents with a middleman or
     - [:fontawesome-brands-gitlab: Source](https://framagit.org/framasoft/framadate)
 
 ## Paste services
-
 ### PrivateBin
 !!! recommendation
 
@@ -85,11 +82,11 @@ Get working and collaborating without sharing your documents with a middleman or
     - [:fontawesome-brands-github: Source](https://github.com/xwiki-labs/cryptpad)
 
 ## Blogging
-
 ### Write.as
 !!! recommendation
 
-    ![Write.as logo](./assets/img/productivity/writeas.svg){ align=right }
+    ![Write.as logo](./assets/img/productivity/writeas.svg#only-light){ align=right }
+    ![Write.as logo](./assets/img/productivity/writeas-dark.svg#only-dark){ align=right }
 
     **Write.as** is a cross-platform, privacy-oriented blogging platform. It's anonymous by default, letting you publish without signing up. If you create an account, it doesn't require any personal information. No ads, distraction-free, and built on a sustainable business model.
 
@@ -99,13 +96,12 @@ Get working and collaborating without sharing your documents with a middleman or
     - [:fontawesome-brands-windows: Windows](https://github.com/writeas/writeas-cli)
     - [:fontawesome-brands-apple: macOS](https://github.com/writeas/writeas-cli)
     - [:fontawesome-brands-linux: Linux](https://github.com/writeas/writeas-cli)
-    - [:fontawesome-brands-chrome: FreeBSD](https://write.as/apps)
+    - [:fontawesome-brands-freebsd: FreeBSD](https://write.as/apps)
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.abunchtell.writeas)
     - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1531530896)
     - [:fontawesome-brands-git: Source](https://code.as/writeas)
 
 ## Programming
-
 ### VSCodium
 !!! recommendation
 

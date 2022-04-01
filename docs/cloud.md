@@ -8,7 +8,7 @@ Consider reducing the need to trust your provider, by using an alternative below
 ### Nextcloud
 !!! recommendation
 
-    ![Nextcloud logo](./assets/img/cloud/nextcloud.svg){ align=right }
+    ![Nextcloud logo](/assets/img/cloud/nextcloud.svg){ align=right }
 
     **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control. It also comes with experimental end-to-end encryption (E2EE).
 
@@ -33,7 +33,7 @@ Consider reducing the need to trust your provider, by using an alternative below
 ### Proton Drive
 !!! recommendation
 
-    ![Proton Drive logo](./assets/img/productivity/protondrive.svg){ align=right }
+    ![Proton Drive logo](/assets/img/cloud/protondrive.svg){ align=right }
 
     **Proton Drive** is an end-to-end encrypted (E2EE) general file storage service by the popular encrypted email provider [ProtonMail](https://protonmail.com).
 
@@ -49,8 +49,8 @@ Consider reducing the need to trust your provider, by using an alternative below
 ### Cryptee
 !!! recommendation
 
-    ![Cryptee logo](./assets/img/productivity/cryptee.svg#only-light){ align=right }
-    ![Cryptee logo](./assets/img/productivity/cryptee-dark.svg#only-dark){ align=right }
+    ![Cryptee logo](./assets/img/cloud/cryptee.svg#only-light){ align=right }
+    ![Cryptee logo](./assets/img/cloud/cryptee-dark.svg#only-dark){ align=right }
 
     **Cryptee** is an encrypted, secure photo storage service, and an encrypted documents editor to write personal docs, notes, journals, store files & more.
 
@@ -62,8 +62,8 @@ Consider reducing the need to trust your provider, by using an alternative below
 ### Tahoe-LAFS (Advanced)
 !!! recommendation
 
-    ![Tahoe-LAFS logo](./assets/img/productivity/tahoe-lafs.svg#only-light){ align=right }
-    ![Tahoe-LAFS logo](./assets/img/productivity/tahoe-lafs-dark.svg#only-dark){ align=right }
+    ![Tahoe-LAFS logo](./assets/img/cloud/tahoe-lafs.svg#only-light){ align=right }
+    ![Tahoe-LAFS logo](./assets/img/cloud/tahoe-lafs-dark.svg#only-dark){ align=right }
 
     **Tahoe-LAFS** is a free and open decentralized cloud storage system. It distributes your data across multiple servers. Even if some of the servers fail or are taken over by an attacker, the entire file store continues to function correctly, preserving your privacy and security. The servers used as storage pools do not have access to your data.
 
