@@ -29,7 +29,6 @@ nav:
       - 'Router Firmware': 'router.md'
     - 'Browsers':
       - 'Web Browsers': 'browsers.md'
-      - 'Extensions': 'browser-extensions.md'
     - 'Providers':
       - 'Cloud Storage': 'cloud.md'
       - 'DNS Servers': 'dns.md'
@@ -96,7 +95,6 @@ theme:
         name: Switch to light mode
 
 plugins:
-  - search
   - tags
 extra_css:
   - stylesheets/extra.css
@@ -125,10 +123,11 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
       options:
         custom_icons:
-          - theme/overrides/.icons
+          - theme/.icons
   - tables
   - footnotes
 
 extra_javascript:
+  - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
