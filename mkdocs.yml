@@ -13,6 +13,7 @@ extra:
       link: https://reddit.com/r/PrivacyGuides
 repo_url: https://github.com/privacyguides/privacyguides.org
 repo_name: privacyguides.org
+edit_uri: edit/main/docs/
 
 nav:
   - Home: 'index.md'

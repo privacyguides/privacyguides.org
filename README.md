@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://privacyguides.org">
-    <img src="/assets/img/layout/privacy-guides-logo.svg" width="500px" alt="Privacy Guides" />
+    <img src="/docs/assets/img/layout/privacy-guides-logo.svg" width="500px" alt="Privacy Guides" />
   </a>
 
   <p><em>Your central privacy and security resource to protect yourself online.</em></p>
