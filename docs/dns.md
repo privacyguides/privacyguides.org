@@ -98,79 +98,17 @@ We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmis
 In locations where there is internet filtering (or censorship), visiting forbidden resources may have its own consequences which you should consider in your [threat model](/threat-modeling/). We do **not** suggest the use of encrypted DNS for this purpose. Use [Tor](https://torproject.org), or a [VPN](/providers/vpn/) instead. If you're using a VPN, you should use your VPN's DNS servers. When using a VPN you are already trusting them with all your network activity. We made this flow chart to describe when you *should* use "encrypted DNS":
 
 ``` mermaid
-digraph DNS {
-    graph [
-        rankdir = TR
-        compound = true
-        fontname = "monospace"
-        pad = "0.5"
-        ranksep = "0.5"
-        nodesep = "2"
-        splines = ortho
-        bgcolor="transparent"
-    ];
-    edge [
-        fontname = "monospace"
-        arrowhead = open
-    ];
-    node [
-        shape = "box"
-        style = "filled, rounded"
-        color = "#d4bbd2"
-        fontname = "monospace"
-    ] Start, nothing
-    // Condition
-    node [
-        shape = "diamond"
-        style = "filled"
-        color = "#ffebc2"
-        fontname = "monospace"
-        fixedsize = true
-        width = 2
-        height = 1.6
-    ]; anonymous, censorship, privacy, obnoxious, ispDNS
-    // Process
-    node [
-        shape = "record"
-        style="rounded,filled"
-        color = "#7aa0da"
-        fontname = "monospace"
-        fixedsize = true
-        width = 1.8
-        height = 1
-    ]; tor, vpnOrTor, encryptedDNS, ispDNS, useISP
-
-    // Labels
-    anonymous [label="Trying to be\n anonymous?"]
-    censorship [label="Avoiding\n censorship?"]
-    privacy [label="Want privacy\n from ISP?"]
-    ispDNS [label="Does ISP\n support\n encrypted\n DNS?"]
-    tor [label="Use Tor"];
-    vpnOrTor [label="Use VPN\n or Tor"];
-    encryptedDNS [label="Use encrypted\n DNS with 3rd\n party"]
-    obnoxious [label="ISP makes\n obnoxious\n redirects?"]
-    useISP[label="Use encrypted\n DNS with ISP"]
-    nothing[label="Do nothing"]
-
-    // Edges
-    Start -> anonymous;
-    anonymous -> tor [xlabel="Yes"];
-    anonymous -> censorship [xlabel="No"];
-    censorship -> vpnOrTor [xlabel="Yes"];
-    censorship -> privacy [xlabel="No"];
-    privacy -> vpnOrTor [xlabel="Yes"];
-    privacy -> obnoxious [xlabel="No"];
-    obnoxious -> encryptedDNS [xlabel="Yes"];
-    obnoxious -> ispDNS [xlabel="No"];
-    ispDNS -> useISP [xlabel="Yes"];
-    ispDNS -> nothing [xlabel="No"];
-
-    // Rank
-    { rank=same; anonymous, tor; }
-    { rank=same; censorship, vpnOrTor; }
-    { rank=same; obnoxious, encryptedDNS; }
-    { rank=same; ispDNS, useISP; }
-}
+graph TB
+    Start[Start] --> anonymous{Trying to be anonymous?} 
+    anonymous--> | Yes | tor(Use Tor)
+    anonymous --> | No | censorship{Avoiding censorship?}
+    censorship --> | Yes | vpnOrTor(Use VPN or Tor)
+    censorship --> | No | privacy{Want privacy from ISP?}
+    privacy --> | No | obnoxious{ISP makes obnoxious redirects?}
+    obnoxious --> | Yes | encryptedDNS(Use encrypted DNS with 3rd party)
+    obnoxious --> | No | ispDNS{Does ISP support encrypted DNS?}
+    ispDNS --> | Yes | useISP(Use encrypted DNS with ISP)
+    ispDNS --> | No | nothing(Do nothing)
 ```
 
 When we do a DNS lookup, it's generally because we want to access a resource. Below we will discuss some of the methods that may disclose your browsing activities even when using encrypted DNS:

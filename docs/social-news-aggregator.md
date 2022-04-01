@@ -3,14 +3,10 @@ title: Social News Aggregator
 ---
 Stay up-to-date with privacy-respecting online bulletin boards.
 
-!!! warning
-
-     If you are currently using a online bulletin board like Reddit, you should pick an alternative here.
-
 ### Tildes
 !!! recommendation
 
-    ![Tildes logo](./assets/img/social-media-aggregator/tildes.svg){ align=right }
+    ![Tildes logo](/assets/img/social-media-aggregator/tildes.svg){ align=right }
 
     **Tildes** is a web-based self-hostable online bulletin board. It is licensed under [AGPLv3](https://gitlab.com/tildes/tildes/blob/master/LICENSE).
 
@@ -22,7 +18,7 @@ Stay up-to-date with privacy-respecting online bulletin boards.
 ### Lemmy
 !!! recommendation
 
-    ![Lemmy logo](./assets/img/social-media-aggregator/lemmy.svg){ align=right }
+    ![Lemmy logo](/assets/img/social-media-aggregator/lemmy.svg){ align=right }
 
     **Lemmy** is an [AGPL](https://github.com/dessalines/lemmy/blob/master/LICENSE)-licensed self-hostable link aggregator and discussion network designed to serve as an alternative to Reddit within the ActivityPub [Fediverse](https://www.wikipedia.org/wiki/Fediverse).
 
@@ -34,7 +30,7 @@ Stay up-to-date with privacy-respecting online bulletin boards.
 ### Postmill
 !!! recommendation
 
-    ![Postmill logo](./assets/img/social-media-aggregator/postmill.png){ align=right }
+    ![Postmill logo](/assets/img/social-media-aggregator/postmill.png){ align=right }
 
     **Postmill** is a free, web-based, social link aggregator with voting and nested comments.
 
@@ -43,10 +39,10 @@ Stay up-to-date with privacy-respecting online bulletin boards.
     **Downloads**
     - [:fontawesome-brands-gitlab: Source](https://gitlab.com/postmill)
 
-### freebsd
+### Freepost
 !!! recommendation
 
-    ![Freepost logo](./assets/img/social-media-aggregator/freepost.svg){ align=right }
+    ![Freepost logo](/assets/img/social-media-aggregator/freepost.svg){ align=right }
 
     **Freepost** is a free and open-source discussion board based on free software and free culture with a highly motivated community.
 

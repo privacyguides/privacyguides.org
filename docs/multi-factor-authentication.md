@@ -31,7 +31,7 @@ Ultimately, the best form of two-factor security is the one you will use consist
 
     The firmware is not open source and cannot be updated without purchasing a new key.
 
-    [Visit yubico.com](https://www.yubico.com){ .md-button .md-button--primary }
+    [Visit yubico.com](https://www.yubico.com){ .md-button .md-button--primary } [Privacy Policy](https://www.yubico.com/support/terms-conditions/privacy-notice){ .md-button }
 
 ### NitroKey
 
@@ -45,7 +45,7 @@ Ultimately, the best form of two-factor security is the one you will use consist
 
     The Nitrokey has an open source firmware, unlike the Yuibkey.
 
-    [Visit nitrokey.com](https://www.nitrokey.com){ .md-button .md-button--primary }
+    [Visit nitrokey.com](https://www.nitrokey.com){ .md-button .md-button--primary } [Privacy Policy](https://www.nitrokey.com/data-privacy-policy){ .md-button }
 
 ## Authenticator Apps
 ==Generally speaking, TOTP software authenticator apps are going to be the best bet for most people.== They provide a significantly higher level of security than just SMS or Push Notifications, while remaining very convenient for most people who keep their phones with them at all times.
