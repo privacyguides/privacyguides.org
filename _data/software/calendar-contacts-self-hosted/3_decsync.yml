@@ -1,8 +1,0 @@
-title: DecSync
-type: Recommendation
-description: |
-  **DecSync** can be used to synchronize RSS, contacts, calendars and tasks without a server by using file synchronization software such as [Syncthing](/software/file-sharing/#sync).
-website: 'https://github.com/39aldo39/DecSync'
-downloads:
-  - icon: fab fa-github
-    url: 'https://github.com/39aldo39/DecSync'
