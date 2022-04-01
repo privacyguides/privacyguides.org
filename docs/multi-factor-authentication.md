@@ -63,11 +63,10 @@ Authenticator Apps implement a security standard adopted by the Internet Enginee
 
     [Visit getaegis.app](https://getaegis.app){ .md-button .md-button--primary }
 
-**Downloads:**
-
-- [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.beemdevelopment.aegis)
-- [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
-- [:fontawesome-brands-github: GitHub](https://github.com/beemdevelopment/Aegis)
+    **Downloads:**
+    - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.beemdevelopment.aegis)
+    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
+    - [:fontawesome-brands-github: GitHub](https://github.com/beemdevelopment/Aegis)
 
 ### Ravio OTP
 
@@ -78,7 +77,6 @@ Authenticator Apps implement a security standard adopted by the Internet Enginee
     **Ravio OTP** is a native, lightweight and secure time-based (TOTP) & counter-based (HOTP) password client built for iOS.
 
     [Visit website](https://github.com/raivo-otp/ios-application){ .md-button .md-button--primary }
-
-**Downloads:**
-
-- [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
+    
+    **Downloads:**
+    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
