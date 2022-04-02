@@ -54,6 +54,7 @@ nav:
       - 'Encryption Tools': 'encryption.md'
       - 'File Sharing/Sync': 'file-sharing.md'
       - 'Metadata Removal Tools': 'metadata-removal-tools.md'
+      - 'Multi-Factor Authenticators': 'multi-factor-authentication.md'
       - 'Password Managers': 'passwords.md'
       - 'Productivity Tools': 'productivity.md'
       - 'Real-Time Communication': 'real-time-communication.md'

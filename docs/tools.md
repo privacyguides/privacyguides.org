@@ -314,6 +314,19 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 [Learn more...](metadata-removal-tools.md)
 
+### Multi-Factor Authentication Tools
+
+<div class="grid cards" markdown>
+
+- ![YubiKeys](/assets/img/multi-factor-authentication/yubikey.png){ .twemoji } [YubiKey](https://www.yubico.com/)
+- ![Nitrokey](/assets/img/multi-factor-authentication/nitrokey.jpg){ .twemoji } [Nitrokey](https://www.nitrokey.com/)
+- ![Aegis logo](/assets/img/multi-factor-authentication/aegis.png){ .twemoji } [Aegis Authenticator](https://getaegis.app/)
+- ![Raivo OTP logo](/assets/img/multi-factor-authentication/raivo-otp.png){ .twemoji } [Raivo OTP](https://github.com/raivo-otp/ios-application)
+
+</div>
+
+[Learn more...](multi-factor-authentication.md)
+
 ### Password Managers
 
 <div class="grid cards" markdown>
