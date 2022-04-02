@@ -45,7 +45,7 @@
     if (palette && typeof palette.color === "object")
       if (palette.color.scheme === "slate") {
         var giscus = document.querySelector("script[src*=giscus]")
-        giscus.setAttribute("data-theme", "dark") 
+        giscus.setAttribute("data-theme", "transparent_dark") 
 
 
       }
@@ -56,7 +56,7 @@
       ref.addEventListener("change", function() {
         var palette = __md_get("__palette")
         if (palette && typeof palette.color === "object") {
-          var theme = palette.color.scheme === "slate" ? "dark" : "light"
+          var theme = palette.color.scheme === "slate" ? "transparent_dark" : "light"
 
           /* Instruct Giscus to change theme */
           var frame = document.querySelector(".giscus-frame")
