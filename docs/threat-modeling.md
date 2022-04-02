@@ -54,8 +54,6 @@ Only once you have asked yourself these questions will you be in a position to a
 
 Making a security plan will help you to understand the threats that are unique to you and to evaluate your assets, your adversaries, and your adversaries' capabilities, along with the likelihood of risks you face.
 
-{% include card.html %}
-
 Now, let's take a closer look at the questions in our list:
 
 ### What do I want to protect?
