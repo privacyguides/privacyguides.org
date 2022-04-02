@@ -1,7 +1,7 @@
 site_name: Privacy Guides
 site_description: |
   Massive organizations are monitoring your online activities. Privacy Guides is your central privacy and security resource to protect yourself online.
-copyright: This content was made available by the Privacy Guides team and contributors. <a href="#">Get involved</a>!
+copyright: This content was made available by the Privacy Guides team and contributors. <a href="https://github.com/privacyguides/privacyguides">Get involved</a>!
 extra:
   generator: false
   social:
