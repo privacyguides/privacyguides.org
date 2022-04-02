@@ -105,6 +105,7 @@ graph TB
     anonymous --> | No | censorship{Avoiding censorship?}
     censorship --> | Yes | vpnOrTor(Use VPN or Tor)
     censorship --> | No | privacy{Want privacy from ISP?}
+    privacy --> | Yes | vpnOrTor(Use VPN or Tor)
     privacy --> | No | obnoxious{ISP makes obnoxious redirects?}
     obnoxious --> | Yes | encryptedDNS(Use encrypted DNS with 3rd party)
     obnoxious --> | No | ispDNS{Does ISP support encrypted DNS?}
