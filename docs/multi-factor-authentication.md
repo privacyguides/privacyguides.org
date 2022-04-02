@@ -68,13 +68,13 @@ Authenticator Apps implement a security standard adopted by the Internet Enginee
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
     - [:fontawesome-brands-github: GitHub](https://github.com/beemdevelopment/Aegis)
 
-### Ravio OTP
+### Raivo OTP
 
 !!! recommendation
 
-    ![Ravio OTP logo](/assets/img/multi-factor-authentication/ravio-otp.png){ align=right }
+    ![Raivo OTP logo](/assets/img/multi-factor-authentication/ravio-otp.png){ align=right }
 
-    **Ravio OTP** is a native, lightweight and secure time-based (TOTP) & counter-based (HOTP) password client built for iOS.
+    **Raivo OTP** is a native, lightweight and secure time-based (TOTP) & counter-based (HOTP) password client built for iOS.
 
     [Visit website](https://github.com/raivo-otp/ios-application){ .md-button .md-button--primary }
     
