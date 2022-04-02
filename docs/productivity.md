@@ -18,7 +18,7 @@ Get working and collaborating without sharing your documents with a middleman or
     - [:fontawesome-brands-windows: Windows](https://www.libreoffice.org/download/download/)
     - [:fontawesome-brands-apple: macOS](https://www.libreoffice.org/download/download/)
     - [:fontawesome-brands-linux: Linux](https://www.libreoffice.org/download/download/)
-    - [:fontawesome-brands-linux: Linux (Flatpak)](https://www.libreoffice.org/download/download/)
+    - [:pg-flathub: Flatpak](https://www.libreoffice.org/download/download/)
     - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/editors/libreoffice/)
     - [:pg-openbsd: OpenBSD](https://openports.se/editors/libreoffice)
     - [:pg-netbsd: NetBSD](https://pkgsrc.se/misc/libreoffice)

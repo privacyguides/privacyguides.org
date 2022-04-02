@@ -68,7 +68,7 @@ The options listed here are multi-platform and great for creating encrypted back
     - [:fontawesome-brands-windows: Windows](https://cryptomator.org/downloads)
     - [:fontawesome-brands-apple: macOS](https://cryptomator.org/downloads)
     - [:fontawesome-brands-linux: Linux](https://cryptomator.org/downloads)
-    - [:fontawesome-brands-linux: Linux (Flatpak)](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
+    - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
     - [:fontawesome-brands-android: F-Droid repo](https://cryptomator.org/android)
     - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)

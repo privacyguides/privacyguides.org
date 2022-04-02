@@ -24,7 +24,7 @@ Discover free, open-source, and secure email clients, along with some email alte
     - [:fontawesome-brands-windows: Windows](https://www.thunderbird.net)
     - [:fontawesome-brands-apple: macOS](https://www.thunderbird.net)
     - [:fontawesome-brands-linux: Linux](https://www.thunderbird.net)
-    - [:fontawesome-brands-linux: Linux (Flatpak)](https://flathub.org/apps/details/org.mozilla.Thunderbird)
+    - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.Thunderbird)
     - [:fontawesome-brands-git: Source](https://hg.mozilla.org/comm-central)
 
 ### GNOME Evolution
@@ -37,7 +37,7 @@ Discover free, open-source, and secure email clients, along with some email alte
     [Visit gnome.org](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary } [Privacy Policy](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .md-button }
 
     **Downloads**
-    - [:fontawesome-brands-linux: Linux (Flatpak)](https://flathub.org/apps/details/org.gnome.Evolution)
+    - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.gnome.Evolution)
     - [:fontawesome-brands-gitlab: Source](https://gitlab.gnome.org/GNOME/evolution)
 
 ### Kontact
@@ -51,7 +51,7 @@ Discover free, open-source, and secure email clients, along with some email alte
 
     **Downloads**
     - [:fontawesome-brands-linux: Linux](https://kontact.kde.org/download)
-    - [:fontawesome-brands-linux: Linux (Flatpak)](https://flathub.org/apps/details/org.kde.kontact)
+    - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.kde.kontact)
     - [:fontawesome-brands-git: Source](https://invent.kde.org/pim/kmail)
 
 ### Mailvelope

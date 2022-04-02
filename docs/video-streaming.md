@@ -24,7 +24,7 @@ The primary threat when using a video streaming platform is that your streaming 
     - [:fontawesome-brands-windows: Windows](https://freetubeapp.io/#download)
     - [:fontawesome-brands-apple: macOS](https://freetubeapp.io/#download)
     - [:fontawesome-brands-linux: Linux](https://freetubeapp.io/#download)
-    - [:fontawesome-brands-linux: Linux (Flatpak)](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
+    - [:pg-flathub: Flatpak](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
     - [:fontawesome-brands-github: Source](https://github.com/FreeTubeApp/FreeTube/)
 
 ### LBRY
