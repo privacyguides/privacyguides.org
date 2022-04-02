@@ -32,7 +32,6 @@ To identify what could happen to the things you value and determine from whom yo
 4.  How bad are the consequences if I fail?
 5.  How much trouble am I willing to go through to try to prevent potential consequences?
 
-{% capture markdown_text %}
 #### Example: Protecting your belongings
  * To demonstrate how these questions work, let's build a plan to keep your house and possessions safe.
 
@@ -54,7 +53,7 @@ To identify what could happen to the things you value and determine from whom yo
 Only once you have asked yourself these questions will you be in a position to assess what measures to take. If your possessions are valuable, but the probability of a break-in is low, then you may not want to invest too much money in a lock. But, if the probability of a break-in is high, you'll want to get the best lock on the market, and consider adding a security system.
 
 Making a security plan will help you to understand the threats that are unique to you and to evaluate your assets, your adversaries, and your adversaries' capabilities, along with the likelihood of risks you face.
-{% endcapture %}
+
 {% include card.html %}
 
 Now, let's take a closer look at the questions in our list:
