@@ -1,9 +1,7 @@
 ---
 icon: material/chat-processing
 ---
-
 ## Encrypted Instant Messengers
-
 ### Signal
 
 !!! recommendation
@@ -33,7 +31,6 @@ Signal requires your phone number as a personal identifier.
 The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs/).
 
 ### Element
-
 !!! recommendation
 
     ![Element logo](/assets/img/messengers/element.svg){ align=right }
@@ -62,7 +59,6 @@ When using [element-web](https://github.com/vector-im/element-web), you must tru
 The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) in 2016. The specification for the Matrix protocol can be found in their [documentation](https://spec.matrix.org/latest/). The [Olm](https://matrix.org/docs/projects/other/olm) cryptographic ratchet used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
 
 ### Briar
-
 !!! recommendation
 
     ![Briar logo](/assets/img/messengers/briar.svg){ align=right }
@@ -85,7 +81,6 @@ Briar has a fully [published specification](https://code.briarproject.org/briar/
 Briar supports perfect forward secrecy by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
 ### Session
-
 !!! recommendation
 
     ![Session logo](/assets/img/messengers/session.svg){ align=right }
@@ -113,7 +108,6 @@ Session was independently audited in 2020. The protocol is described in a whitep
 There are several network architectures commonly used to relay messages between users. These networks can provide different different privacy guarantees, which is why it's worth considering your [threat model](https://en.wikipedia.org/wiki/Threat_model) when making a decision about which app to use.
 
 ### Centralized Networks
-
 ![Centralized networks diagram](/assets/img/layout/network-centralized.svg){ align=left }
 
 Centralized messengers are those where all participants are on the same server or network of servers controlled by the same organization.
@@ -137,7 +131,6 @@ Some self-hosted messengers allow you to set up your own server. Self-hosting ca
 
 
 ### Federated Networks
-
 ![Federated networks diagram](/assets/img/layout/network-decentralized.svg){ align=left }
 
 Federated messengers use multiple, independent, decentralized servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.
@@ -160,7 +153,6 @@ When self-hosted, users of a federated server can discover and communicate with 
 -   Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with users on those servers.
 
 ### Peer-to-Peer (P2P) Networks
-
 ![P2P diagram](/assets/img/layout/network-distributed.svg){ align=left }
 
 [P2P](https://en.wikipedia.org/wiki/Peer-to-peer) messengers connect to a [distributed network](https://en.wikipedia.org/wiki/Distributed_networking) of nodes to relay a message to the recepient without a third-party server.
@@ -186,7 +178,6 @@ P2P networks do not use servers, as users communicate directly between each othe
 
 
 ### Anonymous Routing
-
 ![Anonymous routing diagram](/assets/img/layout/network-anonymous-routing.svg){ align=left }
 
 A messenger using [anonymous routing](https://doi.org/10.1007/978-1-4419-5906-5_628) hides either the identity of the sender, the receiver, or evidence that they have been communicating. Ideally, a messenger should hide all three.
