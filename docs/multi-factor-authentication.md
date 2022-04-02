@@ -6,7 +6,7 @@ icon: 'material/two-factor-authentication'
 
 **Two-Factor Authentication** (also known as **2FA**, **Multi-Factor Authentication**, or **MFA**) is a security mechanism that requires additional steps beyond simply your username/email and password. If you've ever had to enter a 6-digit code sent to your phone to log in to a website, that's an example of 2FA.
 
-The idea behind 2FA is that even if a hacker is able to figure out your password (something you *know*), they will still need a device you own like your phone (something you *have*) in order to generate the code needed to log in to your account. 2FA methods vary in security based on this premise: The more difficult it is for an attacker to gain access to your 2FA method, the better. Examples of 2FA methods from strongest to weakest are Email or SMS codes, Push Notifications, Software (TOTP) Code-Generating Apps, and Hardware Keys.
+The idea behind 2FA is that even if a hacker is able to figure out your password (something you *know*), they will still need a device you own like your phone (something you *have*) in order to generate the code needed to log in to your account. 2FA methods vary in security based on this premise: The more difficult it is for an attacker to gain access to your 2FA method, the better. 2FA methods include: Email or SMS codes, Push Notifications,Software (TOTP) Code-Generating Apps, Hardware Keys.
 
 ## MFA Method Comparison
 ==**SMS Codes** or Emailed Codes are better than nothing at all, but only marginally.== Getting a code over SMS or Email takes away from the "something you *have*" idea, because there are a variety of ways a hacker could take over your phone number or gain access to your emails without having physical access to any of your devices at all!

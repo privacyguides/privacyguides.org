@@ -2,7 +2,7 @@
 title: Encryption Software
 icon: material/file-lock
 ---
-Encryption of data is the only way to control who can access it. If you are currently not using encryption software for your hard disk, emails, or file archives, you should pick an option here.
+Encryption of data is the only way to control who can access it. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
 ## Multi-platform
 The options listed here are multi-platform and great for creating encrypted backups of your data.
@@ -14,6 +14,11 @@ The options listed here are multi-platform and great for creating encrypted back
     ![VeraCrypt logo](/assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
 
     **VeraCrypt** is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file, encrypt a partition, or encrypt the entire storage device with pre-boot authentication. VeraCrypt is a fork of the discontinued TrueCrypt project. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed.
+
+    Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits) and VeraCrypt has also been [audited seperately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
+
+    !!! attention
+        When encrypting with VeraCrypt, the user has the option to select from different [hash functions](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). We suggest users **only** select [SHA-512](https://en.wikipedia.org/wiki/SHA-512) and should stick to the [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) block cipher.
 
     [Visit veracrypt.fr](https://veracrypt.fr){ .md-button .md-button--primary }
 
@@ -28,7 +33,16 @@ The options listed here are multi-platform and great for creating encrypted back
 
     ![GNU Privacy Guard logo](/assets/img/encryption-software/gnupg.svg){ align=right }
 
-    **GnuPG** is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with RFC 4880, which is the current IETF standards track specification of OpenPGP. Current versions of PGP (and Veridis' Filecrypt) are interoperable with GnuPG and other OpenPGP-compliant systems. GnuPG is a part of the Free Software Foundation's GNU software project, and has received major funding from the German government.
+    **GnuPG** is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with [RFC 4880](https://tools.ietf.org/html/rfc4880), which is the current IETF specification of OpenPGP. The GnuPG project has been working on an [updated draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) in an attempt to modernize [PGP's shortcomings](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html). GnuPG is a part of the Free Software Foundation's GNU software project, and has received major [funding](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) from the German government.
+
+    ??? tip "Future default"
+        When [generating keys](https://www.gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [ed25519](https://ed25519.cr.yp.to/).
+        ```
+        gpg --quick-gen-key alice@example.com future-default
+        ```
+
+    !!! attention
+        When encrypting with GnuPG, the user has the option to select from different [hash functions](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). We suggest users **only** select [SHA-512](https://en.wikipedia.org/wiki/SHA-512) and should stick to the [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) block cipher.
 
     [Visit gnupg.org](https://gnupg.org){ .md-button .md-button--primary } [Privacy Policy](https://gnupg.org/privacy-policy.html){ .md-button }
 
@@ -44,9 +58,9 @@ The options listed here are multi-platform and great for creating encrypted back
 
     ![Cryptomator logo](/assets/img/encryption-software/cryptomator.svg){ align=right }
 
-    **Cryptomator** makes it easy for you to upload files to the cloud in a virtual encrypted filesystem.
+    **Cryptomator** makes it easy for you to upload files to the cloud in a virtual encrypted file system.
 
-    Some of the libraries have been [audited](https://cryptomator.org/open-source/) by [cure53](https://cryptomator.org/audits/2017-11-27%20crypto%20cure53.pdf).
+    Some of the Cryptomator Crypto Libraries have been [audited](https://cryptomator.org/open-source/) by [Cure53](https://cryptomator.org/audits/2017-11-27%20crypto%20cure53.pdf). The scope of those libraries included [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) and [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). It did not include [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift) which is now used on iOS.
 
     [Visit cryptomator.org](https://cryptomator.org){ .md-button .md-button--primary } [Privacy Policy](https://cryptomator.org/privacy){ .md-button }
 
@@ -67,8 +81,6 @@ The options listed here are multi-platform and great for creating encrypted back
 
     **Picocrypt** is a small and simple encryption tool that provides modern encryption. Picocrypt uses the secure XChaCha20 cipher and the Argon2id key derivation function to provide a high level of security. It uses Go's standard x/crypto modules for its encryption features.
 
-    We think the best usecase for this is if you need to encrypt some files, or archives.
-
     [Visit github.com](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
 
     **Downloads**
@@ -80,22 +92,56 @@ The options listed here are multi-platform and great for creating encrypted back
 ## Operating system included Full Disk Encryption (FDE)
 Modern operating systems include [disk encryption](https://en.wikipedia.org/wiki/Disk_encryption) and will utilize a [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor).
 
-### Bitlocker
+### BitLocker
 !!! recommendation
 
-    ![Bitlocker logo](/assets/img/encryption-software/bitlocker.png){ align=right }
+    ![BitLocker logo](/assets/img/encryption-software/bitlocker.png){ align=right }
 
-    **Bitlocker** is the default full volume encryption that comes with Microsoft Windows. The main reason we recommend it is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). [Elcomsoft](https://en.wikipedia.org/wiki/ElcomSoft), a forensics company, has written about it: [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-bitlocker-tpm-protection/).
+    **BitLocker** is the default full volume encryption that comes with Microsoft Windows. The main reason we recommend it is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). [ElcomSoft](https://en.wikipedia.org/wiki/ElcomSoft), a forensics company, has written about it in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
 
+    !!! note
+        BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on Pro, Enterprise, and Education editions of Windows. It can be enabled on Home editions provided that they meet the prequesites.
 
-    [Visit microsoft.com](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview){ .md-button .md-button--primary }
+    ??? tip "Enabling BitLocker on Windows Home"
+        To enable BitLocker on "Home" editions of Windows, you must partitions formatted with formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated [TPM](https://en.wikipedia.org/wiki/Trusted_Platform_Module) (v1.2, 2.0+) module.
 
-### Filevault
+        1. Open Windows [PowerShell](https://en.wikipedia.org/wiki/PowerShell). Start "PowerShell"
+
+        2. Check to see partition table format:
+           ```
+           powershell Get-Disk 0 | findstr GPT && echo This is a GPT system disk!
+           ```
+
+        3. Check TPM version. The value returned must be "3 True". The spec must be 1.2 or above.
+           ```
+           powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm | findstr "IsActivated IsEnabled IsOwned SpecVersion"
+           ```
+
+        4. Access Windows 10 "Advanced Startup Options". (Press "reboot" while holding shift button). *Troubleshoot > Advanced Options > Command Prompt*
+
+        5. Login with your account that has admin privileges and type this to start encryption:
+           ```
+           manage-bde -on c: -used
+           ```
+
+        6. Close the command prompt, and enter into PowerShell:
+        ```
+        manage-bde c: -protectors -add -rp -tpm
+        manage-bde -protectors -enable c:
+        manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
+        ```
+
+        !!! warning
+            Backup `BitLocker-Recovery-Key.txt` on a separate storage device. Loss of this recovery code, may result in loss of data.
+
+    [Visit microsoft.com](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .md-button .md-button--primary }
+
+### FileVault
 !!! recommendation
 
-    ![Filevault logo](/assets/img/encryption-software/filevault.png){ align=right }
+    ![FileVault logo](/assets/img/encryption-software/filevault.png){ align=right }
 
-    **Filevault** is the on-the-fly disk encryption that comes with MacOS. We recommend it because tightly intergrates with the [Apple T2 Security Chip](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/1/web/1).
+    **FileVault** is the on-the-fly disk encryption that comes with macOS. We recommend it because tightly intergrates with the [Apple T2 Security Chip](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/1/web/1).
 
     [Visit support.apple.com](https://support.apple.com/en-us/HT204837){ .md-button .md-button--primary }
 
@@ -106,30 +152,30 @@ Modern operating systems include [disk encryption](https://en.wikipedia.org/wiki
 
     **LUKS** is the default full disk encryption method for Linux. It can be used to encrypt full volumes, partitions, or create encrypted containers.
 
-    ## Creating encrypted containers
-    ```
-    dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
-    sudo cryptsetup luksFormat /path-to-file
-    ```
+    ??? "Creating and opening encrypted containers"
+        ```
+        dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
+        sudo cryptsetup luksFormat /path-to-file
+        ```
 
-    ## Opening encrypted containers
-    We recommend opening containers and volumes with `udisksctl` as this uses [Polkit](https://en.wikipedia.org/wiki/Polkit). Most file managers, such as those included with popular desktop environments, can now unlock encrypted files. Tools like [udiskie](https://github.com/coldfix/udiskie) can run in the system tray and provide a helpful user interface.
-    ```
-    udisksctl loop-setup -f /path-to-file
-    udisksctl unlock -b /dev/loop0
-    ```
+        #### Opening encrypted containers
+        We recommend opening containers and volumes with `udisksctl` as this uses [Polkit](https://en.wikipedia.org/wiki/Polkit). Most file managers, such as those included with popular desktop environments, can unlock encrypted files. Tools like [udiskie](https://github.com/coldfix/udiskie) can run in the system tray and provide a helpful user interface.
+        ```
+        udisksctl loop-setup -f /path-to-file
+        udisksctl unlock -b /dev/loop0
+        ```
 
-    ## Backup of volume headers
-    We recommend you always [backup your LUKS headers](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) in case of partial drive failure. This can be done with:
+    !!! Warning "Back up volume headers"
+        We recommend you always [back up your LUKS headers](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) in case of partial drive failure. This can be done with:
 
-    ```
-    cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
-    ```
+        ```
+        cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
+        ```
 
     [Visit gitlab.com](https://gitlab.com/cryptsetup/cryptsetup){ .md-button .md-button--primary }
 
 ## Browser-based
-Web based encryption can be useful when you need to encrypt a file, and you cannot install software or apps on your device.
+Browser-based encryption can be useful when you need to encrypt a file but cannot install software or apps on your device.
 
 ### hat.sh
 !!! recommendation
@@ -137,7 +183,7 @@ Web based encryption can be useful when you need to encrypt a file, and you cann
     ![hat.sh logo](/assets/img/encryption-software/hat-sh.png#only-light){ align=right }
     ![hat.sh logo](/assets/img/encryption-software/hat-sh-dark.png#only-dark){ align=right }
 
-    **Hat.sh** is a web application that provides secure client-side file encryption in your browser. It can also be selfhosted and is useful if you need to encrypt a file but cannot install any software on your device due to organizational policies.
+    **Hat.sh** is a web application that provides secure client-side file encryption in your browser. It can also be self-hosted and is useful if you need to encrypt a file but cannot install any software on your device due to organizational policies.
 
     [Visit hat.sh](https://hat.sh){ .md-button .md-button--primary }
 
@@ -145,7 +191,7 @@ Web based encryption can be useful when you need to encrypt a file, and you cann
     - [:fontawesome-brands-github: Source](https://github.com/sh-dv/hat.sh)
 
 ## Command-line
-Tools with commandline interfaces are useful for intergrating [shell scripts](https://en.wikipedia.org/wiki/Shell_script).
+Tools with command-line interfaces are useful for intergrating [shell scripts](https://en.wikipedia.org/wiki/Shell_script).
 
 ### Kryptor
 !!! recommendation
@@ -154,7 +200,7 @@ Tools with commandline interfaces are useful for intergrating [shell scripts](ht
 
     **Kryptor** is a free and open source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign/) to provide a simple, user friendly alternative to GPG.
 
-    [Visit kryptor.co.uk](https://www.kryptor.co.uk){ .md-button .md-button--primary }
+    [Visit kryptor.co.uk](https://www.kryptor.co.uk){ .md-button .md-button--primary } [Privacy Policy](https://www.kryptor.co.uk/features#privacy){ .md-button }
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://www.kryptor.co.uk)
@@ -167,7 +213,7 @@ Tools with commandline interfaces are useful for intergrating [shell scripts](ht
 
     ![Tomb logo](/assets/img/encryption-software/tomb.png){ align=right }
 
-    **Tomb** is an is a commandline shell wrapper around LUKS. It includes uses some [third party tools](https://github.com/dyne/Tomb#how-does-it-work) to provide [steganography](https://en.wikipedia.org/wiki/Steganography).
+    **Tomb** is an is a command-line shell wrapper for LUKS. It supports steganography via [third-party tools](https://github.com/dyne/Tomb#how-does-it-work).
 
     [Visit dyne.org](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
 
