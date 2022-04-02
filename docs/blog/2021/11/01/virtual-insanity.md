@@ -13,11 +13,11 @@ Facebook has not disappeared. No, not even the damning 'Facebook Papers' can shu
 
 A key part of this new vision for the company is the idea of the metaverse. If it sounds like something out of a sci-fi movie or novel, that's because it is. The term was first coined by author Neal Stephenson in his 1992 book *Snow Crash*. Zuckerberg's only problem is that novel was dystopian. Here's a brief snippet of Stephenson's description of the metaverse:
 
-*"Your avatar can look any way you want it to, up to the limitations of your equipment. If you're ugly, you can make your avatar beautiful. If you've just gotten out of bed, your avatar can still be wearing beautiful clothes and professionally applied makeup. You can look like a gorilla or a dragon or a giant talking penis in the Metaverse. Spend five minutes walking down the Street and you will see all of these."*
+> "Your avatar can look any way you want it to, up to the limitations of your equipment. If you're ugly, you can make your avatar beautiful. If you've just gotten out of bed, your avatar can still be wearing beautiful clothes and professionally applied makeup. You can look like a gorilla or a dragon or a giant talking penis in the Metaverse. Spend five minutes walking down the Street and you will see all of these."
 
 In fairness, that doesn't seem unlike the sort of content you see on Facebook today. Compare this to what Zuckerberg [wrote](https://about.fb.com/news/2021/10/founders-letter/) in his 2021 Founders Letter:
 
-*"In this future, you will be able to teleport instantly as a hologram to be at the office without a commute, at a concert with friends, or in your parents' living room to catch up. This will open up more opportunity no matter where you live. You'll be able to spend more time on what matters to you, cut down time in traffic, and reduce your carbon footprint."*
+> "In this future, you will be able to teleport instantly as a hologram to be at the office without a commute, at a concert with friends, or in your parents' living room to catch up. This will open up more opportunity no matter where you live. You'll be able to spend more time on what matters to you, cut down time in traffic, and reduce your carbon footprint."
 
 The similarities are uncanny.
 
