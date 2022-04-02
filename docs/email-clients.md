@@ -98,7 +98,6 @@ Discover free, open-source, and secure email clients, along with some email alte
     **Downloads**
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
     - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.fsck.k9)
-    - [:fontawesome-brands-app-store-ios: App Store](https://f-droid.org/en/packages/eu.faircode.email)
     - [:fontawesome-brands-github: Source](https://github.com/M66B/FairEmail)
 
 ### Canary Mail
