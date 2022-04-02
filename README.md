@@ -35,7 +35,8 @@
 
 ## Developing
 
-1. [Install mkdocs](https://www.mkdocs.org/user-guide/installation/): `pip install mkdocs`
-2. [Install mkdocs-material](https://squidfunk.github.io/mkdocs-material/getting-started/): `pip install mkdocs-material`
-3. Serve the site locally: `mkdocs serve`
+1. Clone this repository: `git clone https://github.com/privacyguides/privacyguides.org`
+2. Install [Python 3.6+](https://www.python.org/downloads/)
+3. Install [mkdocs-material](https://squidfunk.github.io/mkdocs-material/getting-started/): `pip install mkdocs-material`
+4. Serve the site locally: `mkdocs serve`
     - The site will be available at `http://localhost:8000/`.
