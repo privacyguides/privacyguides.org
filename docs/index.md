@@ -29,12 +29,13 @@ Trying to protect all your data from everyone all the time is impractical, expen
 </div>
 </div>
 
-<center style="padding:5em;" markdown>
+<center style="padding-top:5em;max-width:960px;margin:auto;" markdown>
 ## We need you! Here's how to get involved
 
 It's important for a website like Privacy Guides to always stay up-to-date. We need our audience to keep an eye on software updates for the applications listed on our site and follow recent news about providers that we recommend. We try our best to keep up, but we're not perfect and the internet is changing fast. If you find an error, think a provider should not be listed here, notice a qualified service provider is missing, believe a browser plugin is not the best choice anymore, or uncover anything else... Talk to us please.
-
-<div class="grid cards" style="max-width:800px" markdown>
+</center>
+<center markdown>
+<div class="grid cards" style="max-width:800px;text-align:center;padding-bottom:5em;" markdown>
 
 - [:fontawesome-brands-reddit: Join the r/PrivacyGuides Subreddit](https://www.reddit.com/r/privacyguides)
 - [:fontawesome-brands-twitter: Follow @Privacy_Guides on Twitter](https://twitter.com/privacy_guides)

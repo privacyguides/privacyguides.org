@@ -30,6 +30,7 @@
 /* Purple buttons */
 .md-typeset .md-button {
     color: var(--md-typeset-a-color);
+    margin-bottom: 5px;
 }
 .md-typeset .md-button--primary {
     color: white;
