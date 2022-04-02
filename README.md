@@ -5,9 +5,6 @@
 
   <p><em>Your central privacy and security resource to protect yourself online.</em></p>
 
-  <p><a href="https://www.privacyguides.org">
-    <img src="https://img.shields.io/uptimerobot/status/m786935055-1117e0819f5c23c651d46a17?label=website%20status">
-  </a>
   <a href="https://opencollective.com/privacyguides">
     <img src="https://img.shields.io/opencollective/all/privacyguides">
   </a></p>
@@ -22,9 +19,6 @@
     <img src="https://img.shields.io/github/stars/privacyguides?style=social">
   </a></p>
 
-  <p><a href="https://app.netlify.com/sites/privacyguides/deploys">
-    <img src="https://img.shields.io/netlify/f40bcb64-a6ed-4650-9ca6-7d3ac293d2be">
-  </a>
   <a href="https://github.com/privacyguides/privacyguides.org/issues">
     <img src="https://img.shields.io/github/issues-raw/privacyguides/privacyguides.org">
   </a>
@@ -36,9 +30,6 @@
   </a>
   <a href="https://github.com/privacyguides/privacyguides.org/pulls?q=is%3Apr+is%3Aclosed">
     <img src="https://img.shields.io/github/issues-pr-closed-raw/privacyguides/privacyguides.org">
-  </a>
-  <a href="https://github.com/privacytools/privacytools.io/issues">
-    <img src="https://img.shields.io/github/issues/privacytools/privacytools.io?color=black&label=upstream%20issues">
   </a></p>
 </div>
 
