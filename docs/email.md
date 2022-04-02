@@ -161,7 +161,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     **Free**
 
-    [Visit Tutanota.org](https://tutanota.org){ .md-button .md-button--primary }
+    [Visit Tutanota.com](https://tutanota.com){ .md-button .md-button--primary }
 
 Tutanota [doesn't allow](https://tutanota.com/faq/#imap) the use of third-party [email clients](https://privacyguides.org/software/email/). Tutanota has no plans pull email from [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) using the [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) protocol. [Email import](https://github.com/tutao/tutanota/issues/630) is currently not possible.
 
