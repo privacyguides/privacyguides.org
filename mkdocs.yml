@@ -18,6 +18,7 @@ edit_uri: edit/main/docs/
 nav:
   - Home: 'index.md'
   - 'Privacy Introduction':
+    - 'Write for us!': 'bounty.md'
     - 'Threat Modeling': 'threat-modeling.md'
     - 'Security Basics':
       - 'Multi-Factor Authentication': 'multi-factor-authentication.md'
