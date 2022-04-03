@@ -30,32 +30,6 @@ The options listed here are multi-platform and great for creating encrypted back
     - [:fontawesome-brands-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
     - [:fontawesome-brands-git: Source](https://www.veracrypt.fr/code)
 
-### GNU Privacy Guard
-
-!!! recommendation
-
-    ![GNU Privacy Guard logo](/assets/img/encryption-software/gnupg.svg){ align=right }
-
-    **GnuPG** is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with [RFC 4880](https://tools.ietf.org/html/rfc4880), which is the current IETF specification of OpenPGP. The GnuPG project has been working on an [updated draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) in an attempt to modernize [PGP's shortcomings](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html). GnuPG is a part of the Free Software Foundation's GNU software project, and has received major [funding](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) from the German government.
-
-    ??? tip "Future default"
-        When [generating keys](https://www.gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [ed25519](https://ed25519.cr.yp.to/).
-        ```
-        gpg --quick-gen-key alice@example.com future-default
-        ```
-
-    !!! attention
-        When encrypting with GnuPG, the user has the option to select from different [hash functions](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). We suggest users **only** select [SHA-512](https://en.wikipedia.org/wiki/SHA-512) and should stick to the [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) block cipher.
-
-    [Visit gnupg.org](https://gnupg.org){ .md-button .md-button--primary } [Privacy Policy](https://gnupg.org/privacy-policy.html){ .md-button }
-
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
-    - [:fontawesome-brands-apple: macOS](https://gpgtools.org)
-    - [:fontawesome-brands-linux: Linux](https://gnupg.org/download/index.html#binary)
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
-    - [:fontawesome-brands-git: Source](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git)
-
 ### Cryptomator
 
 !!! recommendation
@@ -236,3 +210,80 @@ Tools with command-line interfaces are useful for intergrating [shell scripts](h
 
     **Downloads**
     - [:fontawesome-brands-github: Source](https://github.com/dyne/Tomb)
+
+## OpenPGP
+
+[OpenPGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP) is sometimes needed for specific tasks such as digitally signing and encrypting email. PGP has many features and is [complex](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) as it has been around a long time. For tasks such as signing or encrypting files, we suggest the above options.
+
+!!! attention
+    When encrypting with PGP, the user has the option to configure different options in their `gpg.conf` file. We recommend staying with the standard options specified in the [GnuPG user FAQ](https://www.gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
+
+??? tip "Future default"
+    When [generating keys](https://www.gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to/).
+
+    ```bash
+    gpg --quick-gen-key alice@example.com future-default
+    ```
+
+### GNU Privacy Guard
+
+!!! recommendation
+
+    ![GNU Privacy Guard logo](/assets/img/encryption-software/gnupg.svg){ align=right }
+
+    **GnuPG** is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with [RFC 4880](https://tools.ietf.org/html/rfc4880), which is the current IETF specification of OpenPGP. The GnuPG project has been working on an [updated draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) in an attempt to modernize OpenPGP. GnuPG is a part of the Free Software Foundation's GNU software project and has received major [funding](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) from the German government.
+
+    [Visit gnupg.org](https://gnupg.org){ .md-button .md-button--primary } [Privacy Policy](https://gnupg.org/privacy-policy.html){ .md-button }
+
+    **Downloads**
+    - [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
+    - [:fontawesome-brands-apple: macOS](https://gpgtools.org)
+    - [:fontawesome-brands-linux: Linux](https://gnupg.org/download/index.html#binary)
+    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+    - [:fontawesome-brands-git: Source](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git)
+
+### GPG4win
+
+!!! recommendation
+
+    ![GPG4win logo](/assets/img/encryption-software/gpg4win.svg){ align=right }
+
+    **GPG4win** is a package for Windows from [Intevation and g10 Code](https://gpg4win.org/impressum.html). It includes [various tools](https://gpg4win.org/about.html) that assist PGP users on Microsoft Windows. The project was initiated and originally [funded by](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) Germany's Federal Office for Information Security (BSI) in 2005.
+
+    [Visit gpg4win.org](https://gpg4win.org){ .md-button .md-button--primary } [Privacy Policy](https://gpg4win.org/privacy-policy.html){ .md-button }
+
+    **Downloads**
+    - [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
+    - [:fontawesome-brands-git: Source](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary)
+
+### GPGTools
+
+!!! recommendation
+
+    ![GPGTools logo](/assets/img/encryption-software/gpgtools.png){ align=right }
+
+    **GPGTools** is produced by GPGTools GmbH provides native GPG intergration for macOS. It includes intergration into [Apple Mail](https://en.wikipedia.org/wiki/Mail_(Apple)). Commericial support plans are available.
+
+    !!! note
+        On iOS devices we suggest [Canary Mail](/email-clients/#canary-mail).
+
+    [Visit gpgtools.org](https://gpgtools.org){ .md-button .md-button--primary } [Privacy Policy](https://gpgtools.org/privacy){ .md-button }
+
+    **Downloads**
+    - [:fontawesome-brands-apple: macOS](https://gpgtools.org)
+    - [:fontawesome-brands-git: Source](https://github.com/GPGTools/)
+
+### OpenKeychain
+
+!!! recommendation
+
+    ![OpenKeychain logo](/assets/img/encryption-software/openkeychain.svg){ align=right }
+
+    **OpenKeychain** is an Android implementation of GnuPG. It's commonly required by mail clients such as [K-9 Mail](/email-clients/#k-9-mail) and [FairEmail](/email-clients/#fairemail) and other Android apps to provide encryption support. Cure53 completed a [security audit](https://www.openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. Technical details about the audit and OpenKeychain's solutions can be found [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+
+    [Visit openkeychain.org](https://www.openkeychain.org){ .md-button .md-button--primary } [Privacy Policy](https://www.openkeychain.org/help/privacy-policy){ .md-button }
+
+    **Downloads**
+    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+    - [:pg-f-droid: F-Droid](https://f-droid.org/packages/org.sufficientlysecure.keychain/)
+    - [:fontawesome-brands-git: Source](https://github.com/open-keychain/open-keychain)
