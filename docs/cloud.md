@@ -7,6 +7,7 @@ If you are currently using a Cloud Storage Service like Dropbox, Google Drive, M
 Trust your provider by using an alternative below that supports [end-to-end encryption (E2EE)](https://wikipedia.org/wiki/End-to-end_encryption).
 
 ### Nextcloud
+
 !!! recommendation
 
     ![Nextcloud logo](/assets/img/cloud/nextcloud.svg){ align=right }
@@ -32,6 +33,7 @@ Trust your provider by using an alternative below that supports [end-to-end encr
     - [:fontawesome-brands-github: Source](https://github.com/nextcloud)
 
 ### Proton Drive
+
 !!! recommendation
 
     ![Proton Drive logo](/assets/img/cloud/protondrive.svg){ align=right }
@@ -48,6 +50,7 @@ Trust your provider by using an alternative below that supports [end-to-end encr
     - [:fontawesome-brands-github: Source](https://github.com/ProtonMail/WebClients)
 
 ### Cryptee
+
 !!! recommendation
 
     ![Cryptee logo](./assets/img/cloud/cryptee.svg#only-light){ align=right }
@@ -61,6 +64,7 @@ Trust your provider by using an alternative below that supports [end-to-end encr
     - [:fontawesome-brands-github: Source](https://github.com/cryptee/web-client)
 
 ### Tahoe-LAFS (Advanced)
+
 !!! recommendation
 
     ![Tahoe-LAFS logo](./assets/img/cloud/tahoe-lafs.svg#only-light){ align=right }

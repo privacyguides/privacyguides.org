@@ -5,9 +5,11 @@ icon: material/file-lock
 Encryption of data is the only way to control who can access it. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
 ## Multi-platform
+
 The options listed here are multi-platform and great for creating encrypted backups of your data.
 
 ### VeraCrypt
+
 !!! recommendation
 
     ![VeraCrypt logo](/assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
@@ -29,6 +31,7 @@ The options listed here are multi-platform and great for creating encrypted back
     - [:fontawesome-brands-git: Source](https://www.veracrypt.fr/code)
 
 ### GNU Privacy Guard
+
 !!! recommendation
 
     ![GNU Privacy Guard logo](/assets/img/encryption-software/gnupg.svg){ align=right }
@@ -54,6 +57,7 @@ The options listed here are multi-platform and great for creating encrypted back
     - [:fontawesome-brands-git: Source](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git)
 
 ### Cryptomator
+
 !!! recommendation
 
     ![Cryptomator logo](/assets/img/encryption-software/cryptomator.svg){ align=right }
@@ -75,6 +79,7 @@ The options listed here are multi-platform and great for creating encrypted back
     - [:fontawesome-brands-github: Source](https://github.com/cryptomator)
 
 ### Picocrypt
+
 !!! recommendation
 
     ![Picocrypt logo](/assets/img/encryption-software/picocrypt.svg){ align=right }
@@ -90,9 +95,11 @@ The options listed here are multi-platform and great for creating encrypted back
     - [:fontawesome-brands-github: Source](https://github.com/HACKERALERT/Picocrypt)
 
 ## Operating system included Full Disk Encryption (FDE)
+
 Modern operating systems include [disk encryption](https://en.wikipedia.org/wiki/Disk_encryption) and will utilize a [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor).
 
 ### BitLocker
+
 !!! recommendation
 
     ![BitLocker logo](/assets/img/encryption-software/bitlocker.png){ align=right }
@@ -137,6 +144,7 @@ Modern operating systems include [disk encryption](https://en.wikipedia.org/wiki
     [Visit microsoft.com](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .md-button .md-button--primary }
 
 ### FileVault
+
 !!! recommendation
 
     ![FileVault logo](/assets/img/encryption-software/filevault.png){ align=right }
@@ -146,6 +154,7 @@ Modern operating systems include [disk encryption](https://en.wikipedia.org/wiki
     [Visit support.apple.com](https://support.apple.com/en-us/HT204837){ .md-button .md-button--primary }
 
 ### Linux Unified Key Setup (LUKS)
+
 !!! recommendation
 
     ![LUKS logo](/assets/img/encryption-software/luks.png){ align=right }
@@ -175,9 +184,11 @@ Modern operating systems include [disk encryption](https://en.wikipedia.org/wiki
     [Visit gitlab.com](https://gitlab.com/cryptsetup/cryptsetup){ .md-button .md-button--primary }
 
 ## Browser-based
+
 Browser-based encryption can be useful when you need to encrypt a file but cannot install software or apps on your device.
 
 ### hat.sh
+
 !!! recommendation
 
     ![hat.sh logo](/assets/img/encryption-software/hat-sh.png#only-light){ align=right }
@@ -191,9 +202,11 @@ Browser-based encryption can be useful when you need to encrypt a file but canno
     - [:fontawesome-brands-github: Source](https://github.com/sh-dv/hat.sh)
 
 ## Command-line
+
 Tools with command-line interfaces are useful for intergrating [shell scripts](https://en.wikipedia.org/wiki/Shell_script).
 
 ### Kryptor
+
 !!! recommendation
 
     ![Kryptor logo](/assets/img/encryption-software/kryptor.png){ align=right }
@@ -209,6 +222,7 @@ Tools with command-line interfaces are useful for intergrating [shell scripts](h
     - [:fontawesome-brands-github: Source](https://github.com/samuel-lucas6/Kryptor)
 
 ### Tomb
+
 !!! recommendation
 
     ![Tomb logo](/assets/img/encryption-software/tomb.png){ align=right }

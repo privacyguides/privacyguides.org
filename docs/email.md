@@ -301,12 +301,12 @@ Operating outside the five/nine/fourteen-eyes countries is not necessarily a gua
 
 **Minimum to Qualify:**
 
--   Operating outside the USA or other Five Eyes countries.
+- Operating outside the USA or other Five Eyes countries.
 
 **Best Case:**
 
--   Operating outside the USA or other Fourteen Eyes countries.
--   Operating inside a country with strong consumer protection laws.
+- Operating outside the USA or other Fourteen Eyes countries.
+- Operating inside a country with strong consumer protection laws.
 
 ### Technology
 
@@ -314,20 +314,20 @@ We regard these features as important in order to provide a safe and optimal ser
 
 **Minimum to Qualify:**
 
--   Encrypts account data at rest.
--   Integrated webmail encryption provides convenience to users who want improve on having no [E2EE](https://en.wikipedia.org/wiki/End-to-end_encryption) encryption.
+- Encrypts account data at rest.
+- Integrated webmail encryption provides convenience to users who want improve on having no [E2EE](https://en.wikipedia.org/wiki/End-to-end_encryption) encryption.
 
 **Best Case:**
 
--   Encrypts account data at rest with zero-access encryption.
--   Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad, be acquired by another company which doesn't prioritize privacy etc.
--   Support for [WKD](https://wiki.gnupg.org/WKD) to allow improved discovery of public OpenPGP keys via HTTP.  
+- Encrypts account data at rest with zero-access encryption.
+- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad, be acquired by another company which doesn't prioritize privacy etc.
+- Support for [WKD](https://wiki.gnupg.org/WKD) to allow improved discovery of public OpenPGP keys via HTTP.  
     GnuPG users can get a key by typing: `gpg --locate-key example_user@example.com`
--   Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
--   Availability of the email provider's services via an [onion service](https://en.wikipedia.org/wiki/.onion).
--   [Subaddressing](https://en.wikipedia.org/wiki/Email_address#Subaddressing) support.
--   [Catch all](https://en.wikipedia.org/wiki/Email_filtering) or [aliases](https://en.wikipedia.org/wiki/Email_alias) for users who own their own domains.
--   Use of standard email access protocols such as [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol), [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
+- Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
+- Availability of the email provider's services via an [onion service](https://en.wikipedia.org/wiki/.onion).
+- [Subaddressing](https://en.wikipedia.org/wiki/Email_address#Subaddressing) support.
+- [Catch all](https://en.wikipedia.org/wiki/Email_filtering) or [aliases](https://en.wikipedia.org/wiki/Email_alias) for users who own their own domains.
+- Use of standard email access protocols such as [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol), [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 
 ### Privacy
 
@@ -335,13 +335,13 @@ We prefer our recommended providers to collect as little data as possible.
 
 **Minimum to Qualify:**
 
--   Protect sender's IP address. Filter it from showing in the `Received` header field.
--   Don't require personally identifiable information (PII) besides username and password.
--   Privacy policy that meets the requirements defined by the GDPR
+- Protect sender's IP address. Filter it from showing in the `Received` header field.
+- Don't require personally identifiable information (PII) besides username and password.
+- Privacy policy that meets the requirements defined by the GDPR
 
 **Best Case:**
 
--   Accepts Bitcoin, cash, and other forms of cryptocurrency and/or anonymous payment options (gift cards, etc.)
+- Accepts Bitcoin, cash, and other forms of cryptocurrency and/or anonymous payment options (gift cards, etc.)
 
 ### Security
 
@@ -349,32 +349,32 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 
 **Minimum to Qualify:**
 
--   Protection of webmail with [two-factor authentication (2FA)](https://en.wikipedia.org/wiki/Multi-factor_authentication), such as [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm).
--   Encryption at rest, (e.g. [dm-crypt](https://en.wikipedia.org/wiki/dm-crypt)) this protects the contents of the servers in case of unlawful seizure.
--   [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
--   No [TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS) errors/vulnerabilities when being profiled by tools such as [Hardenize](https://www.hardenize.com), [testssl.sh](https://testssl.sh) or [Qualys SSL Labs](https://www.ssllabs.com/ssltest), this includes certificate related errors, poor or weak ciphers suites, weak DH parameters such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
--   A valid [MTA-STS](https://tools.ietf.org/html/rfc8461) and [TLS-RPT](https://tools.ietf.org/html/rfc8460) policy.
--   Valid [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
--   Valid [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
--   Have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or utilize [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
--   A server suite preference of TLS 1.2 or later and a plan for [Deprecating TLSv1.0 and TLSv1.1](https://datatracker.ietf.org/doc/draft-ietf-tls-oldversions-deprecate/).
--   [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
--   Website security standards such as:
+- Protection of webmail with [two-factor authentication (2FA)](https://en.wikipedia.org/wiki/Multi-factor_authentication), such as [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm).
+- Encryption at rest, (e.g. [dm-crypt](https://en.wikipedia.org/wiki/dm-crypt)) this protects the contents of the servers in case of unlawful seizure.
+- [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
+- No [TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS) errors/vulnerabilities when being profiled by tools such as [Hardenize](https://www.hardenize.com), [testssl.sh](https://testssl.sh) or [Qualys SSL Labs](https://www.ssllabs.com/ssltest), this includes certificate related errors, poor or weak ciphers suites, weak DH parameters such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
+- A valid [MTA-STS](https://tools.ietf.org/html/rfc8461) and [TLS-RPT](https://tools.ietf.org/html/rfc8460) policy.
+- Valid [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
+- Valid [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
+- Have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or utilize [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
+- A server suite preference of TLS 1.2 or later and a plan for [Deprecating TLSv1.0 and TLSv1.1](https://datatracker.ietf.org/doc/draft-ietf-tls-oldversions-deprecate/).
+- [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
+- Website security standards such as:
 
--   [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
--   [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
+- [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
+- [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
 
 **Best Case:**
 
--   Support for hardware authentication, ie [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate users, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
--   Zero access encryption, builds on encryption at rest. The difference being the provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
--   [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
--   Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), this is useful for users who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
--   Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
--   Website security standards such as:
+- Support for hardware authentication, ie [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate users, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
+- Zero access encryption, builds on encryption at rest. The difference being the provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
+- [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
+- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), this is useful for users who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
+- Website security standards such as:
 
--   [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
--   [Expect-CT](https://datatracker.ietf.org/doc/draft-ietf-httpbis-expect-ct)
+- [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
+- [Expect-CT](https://datatracker.ietf.org/doc/draft-ietf-httpbis-expect-ct)
 
 ### Trust
 
@@ -382,12 +382,12 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 
 **Minimum to Qualify:**
 
--   Public-facing leadership or ownership.
+- Public-facing leadership or ownership.
 
 **Best Case:**
 
--   Public-facing leadership.
--   Frequent transparency reports.
+- Public-facing leadership.
+- Frequent transparency reports.
 
 ### Marketing
 
@@ -395,19 +395,19 @@ With the email providers we recommend we like to see responsible marketing.
 
 **Minimum to Qualify:**
 
--   Must self host analytics (no Google Analytics etc). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those users who want to opt-out.
+- Must self host analytics (no Google Analytics etc). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those users who want to opt-out.
 
 Must not have any marketing which is irresponsible:
 
--   Claims of "unbreakable encryption". Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
--   Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know users can quite easily deanonymize themselves in a number of ways, e.g.:
+- Claims of "unbreakable encryption". Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
+- Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know users can quite easily deanonymize themselves in a number of ways, e.g.:
 
--   Reusing personal information e.g. (email accounts, unique pseudonyms etc) that they accessed without anonymity software (Tor, VPN etc)
--   [Browser fingerprinting](https://privacyguides.org/browsers/#fingerprint)
+- Reusing personal information e.g. (email accounts, unique pseudonyms etc) that they accessed without anonymity software (Tor, VPN etc)
+- [Browser fingerprinting](https://privacyguides.org/browsers/#fingerprint)
 
 **Best Case:**
 
--   Clear and easy to read documentation. This includes things like, setting up 2FA, email clients, OpenPGP, etc.
+- Clear and easy to read documentation. This includes things like, setting up 2FA, email clients, OpenPGP, etc.
 
 ### Additional Functionality
 
@@ -494,14 +494,13 @@ Advanced users may consider setting up their own email server. Mailservers requi
 
     **[Mailcow](https://mailcow.email)** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: A mailserver with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support. **[Mailcow Dockerized docs](https://mailcow.github.io/mailcow-dockerized-docs/)**
 
-
 For a more manual approach we've picked out these two articles.
 
--   [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
--   [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
+- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
+- [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
 
 ## Additional Reading
 
--   [An NFC PGP SmartCard For Android](https://www.grepular.com/An_NFC_PGP_SmartCard_For_Android)
--   [Aging 'Privacy' Law Leaves Cloud E-Mail Open to Cops (2011)](https://www.wired.com/2011/10/ecpa-turns-twenty-five/)
--   [The Government Can (Still) Read Most Of Your Emails Without A Warrant (2013)](https://thinkprogress.org/the-government-can-still-read-most-of-your-emails-without-a-warrant-322fe6defc7b/)
+- [An NFC PGP SmartCard For Android](https://www.grepular.com/An_NFC_PGP_SmartCard_For_Android)
+- [Aging 'Privacy' Law Leaves Cloud E-Mail Open to Cops (2011)](https://www.wired.com/2011/10/ecpa-turns-twenty-five/)
+- [The Government Can (Still) Read Most Of Your Emails Without A Warrant (2013)](https://thinkprogress.org/the-government-can-still-read-most-of-your-emails-without-a-warrant-322fe6defc7b/)

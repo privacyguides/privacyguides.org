@@ -7,6 +7,7 @@ Discover how to privately share your files between your devices, with your frien
 ## File Sharing
 
 ### OnionShare
+
 !!! recommendation
 
     ![OnionShare logo](/assets/img/file-sharing-sync/onionshare.svg){ align=right }
@@ -22,6 +23,7 @@ Discover how to privately share your files between your devices, with your frien
     - [:fontawesome-brands-github: Source](https://github.com/onionshare/onionshare)
 
 ### Magic Wormhole
+
 !!! recommendation
 
     ![Magic Wormhole logo](/assets/img/file-sharing-sync/magic_wormhole.png){ align=right }
@@ -36,8 +38,8 @@ Discover how to privately share your files between your devices, with your frien
     - [:fontawesome-brands-linux: Linux](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation)
     - [:fontawesome-brands-github: Source](https://github.com/magic-wormhole/magic-wormhole)
 
-
 ### croc
+
 !!! recommendation
 
     ![croc logo](/assets/img/file-sharing-sync/croc.jpg){ align=right }
@@ -53,6 +55,7 @@ Discover how to privately share your files between your devices, with your frien
     - [:fontawesome-brands-github: Source](https://github.com/schollz/croc)
 
 ## FreedomBox
+
 !!! recommendation
 
     ![FreedomBox logo](/assets/img/file-sharing-sync/freedombox.svg){ align=right }
@@ -67,6 +70,7 @@ Discover how to privately share your files between your devices, with your frien
 ## File Sync
 
 ### Syncthing
+
 !!! recommendation
 
     ![Syncthing logo](/assets/img/file-sharing-sync/syncthing.svg){ align=right }
@@ -82,6 +86,7 @@ Discover how to privately share your files between your devices, with your frien
     - [:fontawesome-brands-github: Source](https://github.com/syncthing)
 
 ### git-annex
+
 !!! recommendation
 
     ![git-annex logo](/assets/img/file-sharing-sync/gitannex.svg){ align=right }

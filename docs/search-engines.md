@@ -9,6 +9,7 @@ The recommendations here are based on the merits of each service's privacy polic
 Consider using a [VPN](/providers/vpn) or [Tor](https://www.torproject.org/) if your threat model requires hiding your IP address from the search provider.
 
 ### DuckDuckGo
+
 !!! recommendation
 
     ![DuckDuckGo logo](/assets/img/search-engines/duckduckgo.svg){ align=right }
@@ -25,6 +26,7 @@ Consider using a [VPN](/providers/vpn) or [Tor](https://www.torproject.org/) if 
         The company is based in the 🇺🇸 US. Their [Privacy Policy](https://duckduckgo.com/privacy) states they do log your search query, but not your IP or any other identifying information.
 
 ### Startpage
+
 !!! recommendation
 
     ![Startpage logo](/assets/img/search-engines/startpage.svg){ align=right }
@@ -39,6 +41,7 @@ Consider using a [VPN](/providers/vpn) or [Tor](https://www.torproject.org/) if 
         Startpage's majority shareholder is System1 who is an adtech company. We don't think that is an issue as they have their own Privacy Policy. The Privacy Guides team reached out to Startpage [back in 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/) for clarification and was satisfied by the answers we received.
 
 ### Mojeek
+
 !!! recommendation
 
     ![Mojeek logo](/assets/img/search-engines/mojeek.svg){ align=right }
@@ -51,6 +54,7 @@ Consider using a [VPN](/providers/vpn) or [Tor](https://www.torproject.org/) if 
         The company is based in the 🇬🇧 UK. According to their [Privacy Policy](https://www.mojeek.com/about/privacy/), they log the originating country, time, page requested, and referral data of each query. IP addresses are not logged.
 
 ### Searx
+
 !!! recommendation
 
     ![Searx logo](/assets/img/search-engines/searx.svg){ align=right }

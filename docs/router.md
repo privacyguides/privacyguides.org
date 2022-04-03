@@ -22,6 +22,7 @@ Below are a few alternative operating systems, that can be used on routers, Wi-F
     - [:fontawesome-brands-git: Source](https://git.openwrt.org)
 
 ### pfSense
+
 !!! recommendation
 
     ![pfSense logo](/assets/img/router/pfsense.svg#only-light){ align=right }

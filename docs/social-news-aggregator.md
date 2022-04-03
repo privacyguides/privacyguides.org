@@ -5,6 +5,7 @@ icon: material/newspaper-variant-outline
 Stay up-to-date with privacy-respecting online bulletin boards.
 
 ### Tildes
+
 !!! recommendation
 
     ![Tildes logo](/assets/img/social-media-aggregator/tildes.svg){ align=right }
@@ -17,6 +18,7 @@ Stay up-to-date with privacy-respecting online bulletin boards.
     - [:fontawesome-brands-gitlab: Source](hhttps://gitlab.com/tildes)
 
 ### Lemmy
+
 !!! recommendation
 
     ![Lemmy logo](/assets/img/social-media-aggregator/lemmy.svg){ align=right }
@@ -29,6 +31,7 @@ Stay up-to-date with privacy-respecting online bulletin boards.
     - [:fontawesome-brands-github: Source](https://github.com/LemmyNet)
 
 ### Postmill
+
 !!! recommendation
 
     ![Postmill logo](/assets/img/social-media-aggregator/postmill.png){ align=right }
@@ -41,6 +44,7 @@ Stay up-to-date with privacy-respecting online bulletin boards.
     - [:fontawesome-brands-gitlab: Source](https://gitlab.com/postmill)
 
 ### Freepost
+
 !!! recommendation
 
     ![Freepost logo](/assets/img/social-media-aggregator/freepost.svg){ align=right }

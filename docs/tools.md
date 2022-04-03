@@ -1,4 +1,5 @@
 ---
+title: Privacy Tools
 icon: material/tools
 hide:
     - navigation

@@ -5,7 +5,8 @@ icon: material/video-wireless
 The primary threat when using a video streaming platform is that your streaming habits and subscription lists could be used to profile you. You should combine these tools with a [VPN](/providers/vpn/) or [Tor](https://www.torproject.org/) to make it harder to profile your usage.
 
 ## Clients
-###  FreeTube
+
+### FreeTube
 
 !!! recommendation
 
@@ -28,6 +29,7 @@ The primary threat when using a video streaming platform is that your streaming 
     - [:fontawesome-brands-github: Source](https://github.com/FreeTubeApp/FreeTube/)
 
 ### LBRY
+
 !!! recommendation
 
     ![LBRY logo](/assets/img/video-streaming/lbry.svg){ align=right }
@@ -57,6 +59,7 @@ The primary threat when using a video streaming platform is that your streaming 
     - [:fontawesome-brands-github: Source](https://github.com/lbryio)
 
 ### NewPipe
+
 !!! recommendation
 
     ![Newpipe logo](/assets/img//video-streaming/newpipe.svg){ align=right }
@@ -74,6 +77,7 @@ The primary threat when using a video streaming platform is that your streaming 
     - [:fontawesome-brands-github: Source](https://github.com/TeamNewPipe/NewPipe)
 
 ### NewPipe x SponsorBlock
+
 !!! recommendation
 
     ![NewPipe x SponsorBlock logo](/assets/img/video-streaming/newpipe.svg){ align=right }
@@ -91,7 +95,9 @@ The primary threat when using a video streaming platform is that your streaming 
     - [:fontawesome-brands-github: Source](https://github.com/polymorphicshade/NewPipe)
 
 ## Web-based Frontends
+
 ### Invidious
+
 !!! recommendation
 
     ![Invidious logo](/assets/img/video-streaming/invidious.svg#only-light){ align=right }
@@ -118,6 +124,7 @@ The primary threat when using a video streaming platform is that your streaming 
     - [:fontawesome-brands-github: Source](https://github.com/iv-org/invidious)
 
 ### Piped
+
 !!! recommendation
 
     ![Piped logo](/assets/img/video-streaming/piped.svg){ align=right }

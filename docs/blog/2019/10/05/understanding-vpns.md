@@ -18,6 +18,7 @@ Furthermore, this doesn't only happen at your home. Every network you connect to
 Fortunately, more and more websites are beginning to use HTTPS, thanks to free certificates from Let's Encrypt and Cloudflare. But many sites still don't (at least by default), and even HTTPS doesn't solve the problem that your ISP can see the websites you're visiting.
 
 ## How VPNs can protect us
+
 Luckily, you can hide all this information from your ISP using a VPN. Instead of letting your ISP see all the websites you visit, VPNs only let them see that you are connected (using an **encrypted** connection) to the VPN provider's servers.
 
 *Basically, instead of connecting directly to the Internet, you connect to one of your VPN providers’ servers, which connects you to the Internet.*
@@ -25,6 +26,7 @@ Luckily, you can hide all this information from your ISP using a VPN. Instead of
 So, `you <----> Internet` becomes `you <----> VPN <----> Internet` and your ISP can only see the `you <----> VPN` part.
 
 ## More ways VPNs can protect us
+
 So VPNs are pretty handy, but hiding your traffic from your ISP isn't the only advantage a VPN provides.
 
 Did you know that if you’re on a public Wi-Fi network, <mark>anyone connected to the same network can see as much as your ISP can</mark>? Obviously, this isn’t an issue at home, unless you have very creepy neighbors and an open Wi-Fi network. However, it is a problem in public places with Wi-Fi, such as cafés.
@@ -38,6 +40,7 @@ This also provides an added side-benefit: Most VPN providers have servers in man
 But even if you use a different IP address than your “normal” one,  isn’t it still personally identifiable? Nope. Many people use the same  server, letting the websites you visit see only that you’re using the  same VPN as many other people.
 
 ## Drawbacks of a VPN
+
 But VPNs aren't all powerful tools to protect your privacy. In fact, there are a number of glaring issues that should not be overlooked when making the decision to use one.
 
 Most importantly, using a VPN only *shifts* the power to view your traffic from your ISP to the VPN provider itself. That means that all the traffic your ISP used to be able to see, your VPN provider will still be able to. Therefore, choosing a trustworthy VPN is important. Many will be able to find a provider that they can trust more than their ISP, but some may not.
@@ -47,6 +50,7 @@ Using a commercial VPN provider is almost like entrusting your data to a black b
 Finally, using a VPN will not make you anonymous in any way. Your VPN provider or especially dedicated attackers will be able to trace a connection back to you fairly trivially. Your VPN provider will also likely have a money trail leading back to you.
 
 ## So what?
+
 If you're looking for perfect anonymity, there are better options. Software like the Tor Browser provides privacy and anonymity *by design*, whereas VPNs provide privacy based on trust alone. You cannot rely on "no logging" claims to protect you.
 
 If you just need protection on a public Wi-Fi network, from your ISP, or just from copyright warnings in the mail, a VPN might be the solution for you.

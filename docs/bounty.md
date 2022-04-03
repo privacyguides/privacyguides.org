@@ -1,7 +1,7 @@
 ---
+title: "Write for us!"
 icon: material/currency-usd
 ---
-
 Have some privacy knowledge? We would love your contributions! We are offering bounties between $100 and $300 per article on a variety of privacy-related topics and guides.
 
 If you are interested, please email [jonah@privacyguides.org](mailto:jonah@privacyguides.org) with the topic(s) you'd like to write about. **Written content must be original**, accurate, well-referenced, and meet a number of criteria prior to payout. Articles should typically be around 1000-2000 words, you want to get the point across entirely, but not overfilled with unnecessary information that makes it difficult for beginners to follow. Familiarity with GitHub and Markdown is not a must, but will make the process significantly easier for both of us.

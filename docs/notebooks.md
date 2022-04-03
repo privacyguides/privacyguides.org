@@ -55,6 +55,6 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
 ## Worth Mentioning
 
--   [EteSync](https://www.etesync.com/) - Secure, end-to-end encrypted, and privacy respecting sync for your contacts, calendars, tasks and notes.
--   [Paperwork](https://paperwork.cloud/) - An open-source and self-hosted solution. For PHP / MySQL servers.
--   [Org-mode](https://orgmode.org) - A major mode for GNU Emacs. Org-mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system.
+- [EteSync](https://www.etesync.com/) - Secure, end-to-end encrypted, and privacy respecting sync for your contacts, calendars, tasks and notes.
+- [Paperwork](https://paperwork.cloud/) - An open-source and self-hosted solution. For PHP / MySQL servers.
+- [Org-mode](https://orgmode.org) - A major mode for GNU Emacs. Org-mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system.

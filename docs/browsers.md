@@ -5,7 +5,9 @@ icon: octicons/browser-16
 These are our current web browser recommendations and settings. We recommend keeping extensions to a minimum: they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
 
 ## General Recommendations
+
 ### Tor Browser
+
 !!! recommendation
 
     ![Tor Browser logo](/assets/img/browsers/tor.svg){ align=right }
@@ -29,7 +31,9 @@ These are our current web browser recommendations and settings. We recommend kee
     - [:fontawesome-brands-git: Source](https://trac.torproject.org/projects/tor)
 
 ## Desktop Browser Recommendations
+
 ### Firefox
+
 !!! recommendation
 
     ![Firefox logo](/assets/img/browsers/firefox.svg){ align=right }
@@ -90,11 +94,13 @@ These are our current web browser recommendations and settings. We recommend kee
     - [:fontawesome-brands-git: Source](https://hg.mozilla.org/mozilla-central)
 
 ## Mobile Browser Recommendations
+
 On Android, Mozilla's engine [GeckoView](https://mozilla.github.io/geckoview/) has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196). Firefox on Android also doesn't yet have [HTTPS-Only mode](https://github.com/mozilla-mobile/fenix/issues/16952#issuecomment-907960218) built-in. We do not recommend Firefox or any Gecko based browsers at this time.
 
 On iOS all web browsers use [WKWebView](https://developer.apple.com/documentation/webkit/wkwebview), so all browsers on the App Store are essentially Safari under the hood.
 
 ### Bromite
+
 !!! recommendation
 
     ![Bromite logo](/assets/img/browsers/bromite.svg){ align=right }
@@ -122,6 +128,7 @@ On iOS all web browsers use [WKWebView](https://developer.apple.com/documentatio
     - [:fontawesome-brands-github: Source](https://github.com/bromite/bromite)
 
 ### Safari
+
 !!! recommendation
 
     ![Safari logo](/assets/img/browsers/safari.svg){ align=right }
@@ -173,6 +180,7 @@ On iOS all web browsers use [WKWebView](https://developer.apple.com/documentatio
     - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/safari/id1146562112)
 
 ## Additional Resources
+
 ### uBlock Origin
 
 !!! recommendation
@@ -199,6 +207,7 @@ On iOS all web browsers use [WKWebView](https://developer.apple.com/documentatio
     - [:fontawesome-brands-github: Source](https://github.com/gorhill/uBlock)
 
 ### AdGuard for Safari
+
 !!! recommendation
 
     ![AdGuard logo](/assets/img/browsers/adguard.svg){ align=right }
@@ -217,6 +226,7 @@ On iOS all web browsers use [WKWebView](https://developer.apple.com/documentatio
     - [:fontawesome-brands-git: Source](https://github.com/AdguardTeam/AdGuardForSafari)
 
 ### Terms of Service; Didn't Read
+
 !!! recommendation
 
     ![Terms of Service; Didn't Read logo](/assets/img/browsers/terms_of_service_didnt_read.svg){ align=right }

@@ -5,14 +5,17 @@ icon: material/form-textbox-password
 Stay safe and secure online with an encrypted and open-source password manager.
 
 ## Password best practices
+
 - Always use unique passwords. Don't make yourself a victim of "[credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing)".
 - Store an exported backup of your passwords in an [encrypted container](/file-encryption) on another storage device. This can be useful if something happens to your device or the service you are using.
 - If possible store [Time-based one-time password (TOTP)](https://en.wikipedia.org/wiki/Time-based_one-time_password) tokens in a separate [TOTP app](/multi-factor-authentication) and not your password manager. TOTP codes are generated from a "[shared secret](https://en.wikipedia.org/wiki/Time-based_one-time_password#Security)". If the secret is obtained by an adversary they can generate TOTP values. Typically, mobile platforms have better app isolation and more secure methods for storing sensitive credentials.
 
 ## Local Password Managers
+
 These password managers store the password database locally.
 
 ### KeepassXC
+
 !!! recommendation
 
     ![KeepassXC logo](/assets/img/password-management/keepassxc.svg){ align=right }
@@ -34,6 +37,7 @@ These password managers store the password database locally.
     - [:fontawesome-brands-github: Source](https://github.com/keepassxreboot/keepassxc)
 
 ### KeepassDX
+
 !!! recommendation
 
     ![KeepassDX logo](/assets/img/password-management/keepassdx.svg){ align=right }
@@ -50,9 +54,11 @@ These password managers store the password database locally.
     - [:fontawesome-brands-github: Source](https://github.com/Kunzisoft/KeePassDX)
 
 ## Cloud syncing Password Managers
+
 These password managers sync up to a cloud server that may be self-hostable.
 
 ### Bitwarden
+
 !!! recommendation
 
     ![Bitwarden logo](/assets/img/password-management/bitwarden.svg){ align=right }
@@ -75,6 +81,7 @@ These password managers sync up to a cloud server that may be self-hostable.
     - [:fontawesome-brands-github: Source](https://github.com/bitwarden)
 
 ### Psono
+
 !!! recommendation
 
     ![Psono logo](/assets/img/password-management/psono.svg){ align=right }
@@ -92,9 +99,11 @@ These password managers sync up to a cloud server that may be self-hostable.
     - [:fontawesome-brands-github: Source](https://gitlab.com/psono)
 
 ## Password management servers
+
 These products are self-hostable synchronization for cloud based password managers.
 
 ### Vaultwarden
+
 !!! recommendation
 
     ![Vaultwarden logo](/assets/img/password-management/vaultwarden.svg#only-light){ align=right }
@@ -109,6 +118,7 @@ These products are self-hostable synchronization for cloud based password manage
     - [:fontawesome-brands-github: Source](https://github.com/dani-garcia/vaultwarden)
 
 ### Psono Server
+
 !!! recommendation
 
     ![Psono Server logo](/assets/img/password-management/psono.svg){ align=right }
@@ -123,9 +133,11 @@ These products are self-hostable synchronization for cloud based password manage
     - [:fontawesome-brands-gitlab: Source](https://gitlab.com/psono/psono-server)
 
 ## Minimal Password Managers
+
 These products are minimal password managers that can be used within scripting applications.
 
 ### Pass
+
 !!! recommendation
 
     ![Pass logo](/assets/img/password-management/pass.svg){ align=right }
@@ -140,6 +152,7 @@ These products are minimal password managers that can be used within scripting a
     - [:fontawesome-brands-git: Source](https://git.zx2c4.com/password-store)
 
 ### gopass
+
 !!! recommendation
 
     ![gopass logo](/assets/img/password-management/gopass.svg){ align=right }

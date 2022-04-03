@@ -7,6 +7,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 ## Desktop
 
 ### MAT2
+
 !!! recommendation
 
     ![MAT2 logo](/assets/img/metadata-removal/mat2.svg){ align=right }
@@ -25,6 +26,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
     - [:fontawesome-brands-gitlab: Source](https://0xacab.org/jvoisin/mat2)
 
 ### ExifCleaner
+
 !!! recommendation
 
     ![ExifCleaner logo](/assets/img/metadata-removal/exifcleaner.svg){ align=right }
@@ -42,6 +44,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 ## Mobile
 
 ### Scrambled Exif
+
 !!! recommendation
 
     ![Scrambled Exif logo](/assets/img/metadata-removal/scrambled-exif.svg){ align=right }
@@ -56,6 +59,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
     - [:fontawesome-brands-gitlab: Source](https://gitlab.com/juanitobananas/scrambled-exif)
 
 ### Imagepipe
+
 !!! recommendation
 
     ![Imagepipe logo](/assets/img/metadata-removal/imagepipe.svg){ align=right }
@@ -72,6 +76,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
     - [:fontawesome-brands-git: Source](https://codeberg.org/Starfish/Imagepipe)
 
 ### Metapho
+
 !!! recommendation
 
     ![Metapho logo](/assets/img/metadata-removal/metapho.jpg){ align=right }
@@ -87,7 +92,9 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
     - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/metapho/id914457352)
 
 ## Command-line
+
 ### Exiftool
+
 !!! recommendation
 
     ![Exiftool logo](/assets/img/metadata-removal/exiftool.png){ align=right }

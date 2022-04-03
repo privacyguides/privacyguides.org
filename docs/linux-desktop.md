@@ -1,7 +1,7 @@
 ---
+title: Linux
 icon: fontawesome/brands/linux
 ---
-
 Linux distributions are commonly recommended for privacy protection and user freedom. Below are some suggestions with some general privacy and security improvements.
 
 ## Traditional Distributions
@@ -80,13 +80,13 @@ As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fed
 
 NixOS’s package manager keeps every version of every package in a different folder in the **Nix store**. Due to this you can have different versions of the same package installed on your system. After the package contents have been written to the folder, the folder is made read-only.
 
-NixOS also provides atomic updates; first it downloads (or builds) the packages and files for the new system generation and then switches to it. There are different ways to switch to a new generation; you can tell NixOS to activate it after reboot or you can switch to it at runtime. You can also _test_ the new generation by switching to it at runtime, but not setting it as the current system generation. If something in the update process breaks, you can just reboot and automatically and return to a working version of your system.
+NixOS also provides atomic updates; first it downloads (or builds) the packages and files for the new system generation and then switches to it. There are different ways to switch to a new generation; you can tell NixOS to activate it after reboot or you can switch to it at runtime. You can also *test* the new generation by switching to it at runtime, but not setting it as the current system generation. If something in the update process breaks, you can just reboot and automatically and return to a working version of your system.
 
 Nix the package manager uses a purely functional language - which is also called Nix - to define packages.
 
 [Nixpkgs](https://github.com/nixos/nixpkgs) (the main source of packages) are contained in a single Github repository. You can also define your own packages in the same language and then easily include them in your config.
 
-Nix is a source-based package manager; if there’s no pre-built available in the binary cache, Nix will just build the package from source using its definition. It builds each package in a sandboxed _pure_ environment, which is as independent of the host system as possible, thus making binaries reproducible.
+Nix is a source-based package manager; if there’s no pre-built available in the binary cache, Nix will just build the package from source using its definition. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible, thus making binaries reproducible.
 
 ## Anonymity-Focused Distributions
 
@@ -128,15 +128,15 @@ It is often believed that [open source](https://en.wikipedia.org/wiki/Open-sourc
 
 At the moment, desktop GNU/Linux does have some areas that could be better improved when compared to their proprietary counterparts, e.g:
 
--   A verified boot chain, unlike Apple’s [Secure Boot](https://support.apple.com/guide/security/startup-security-utility-secc7b34e5b5/web) (with [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1)), Android’s [Verified Boot](https://source.android.com/security/verifiedboot) or Microsoft Windows’s [boot process](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process) with [TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). These features and hardware technologies can all help prevent persistent tampering by malware or [evil maid attacks](https://en.wikipedia.org/wiki/Evil_Maid_attack)
--   Strong sandboxing solution such as that found in [MacOS](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html), [ChromeOS](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md), and [Android](https://source.android.com/security/app-sandbox). Commonly used Linux sandboxing solutions such as [Flatpak](https://docs.flatpak.org/en/latest/sandbox-permissions.html) and [Firejail](https://firejail.wordpress.com/) still have a long way to go
--   Strong [exploit mitigations](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations)
+- A verified boot chain, unlike Apple’s [Secure Boot](https://support.apple.com/guide/security/startup-security-utility-secc7b34e5b5/web) (with [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1)), Android’s [Verified Boot](https://source.android.com/security/verifiedboot) or Microsoft Windows’s [boot process](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process) with [TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). These features and hardware technologies can all help prevent persistent tampering by malware or [evil maid attacks](https://en.wikipedia.org/wiki/Evil_Maid_attack)
+- Strong sandboxing solution such as that found in [MacOS](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html), [ChromeOS](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md), and [Android](https://source.android.com/security/app-sandbox). Commonly used Linux sandboxing solutions such as [Flatpak](https://docs.flatpak.org/en/latest/sandbox-permissions.html) and [Firejail](https://firejail.wordpress.com/) still have a long way to go
+- Strong [exploit mitigations](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations)
 
 Despite these drawbacks, desktop GNU/Linux distributions are great if you want to:
 
--   Avoid telemetry that often comes with proprietary operating systems
--   Maintain [software freedom](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
--   Have purpose built systems such as [Whonix](https://www.whonix.org) or [Tails](https://tails.boum.org/)
+- Avoid telemetry that often comes with proprietary operating systems
+- Maintain [software freedom](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
+- Have purpose built systems such as [Whonix](https://www.whonix.org) or [Tails](https://tails.boum.org/)
 
 This page uses the term “Linux” to describe desktop GNU/Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed here.
 
@@ -188,8 +188,8 @@ Any user using the [Arch User Repository (AUR)](https://wiki.archlinux.org/title
 
 For advanced users, we only recommend Arch Linux, not any of its derivatives. We recommend against these two Arch derivatives specifically:
 
--   **Manjaro**: This distribution holds packages back for 2 weeks to make sure that their own changes don’t break, not to make sure that upstream is stable. When AUR packages are used, they are often built against the latest [libraries](https://en.wikipedia.org/wiki/Library_(computing)) from Arch’s repositories.
--   **Garuda**: They use [Chaotic-AUR](https://aur.chaotic.cx/) which automatically and blindly compiles packages from the AUR. There is no verification process to make sure that the AUR packages don’t suffer from supply chain attacks.
+- **Manjaro**: This distribution holds packages back for 2 weeks to make sure that their own changes don’t break, not to make sure that upstream is stable. When AUR packages are used, they are often built against the latest [libraries](https://en.wikipedia.org/wiki/Library_(computing)) from Arch’s repositories.
+- **Garuda**: They use [Chaotic-AUR](https://aur.chaotic.cx/) which automatically and blindly compiles packages from the AUR. There is no verification process to make sure that the AUR packages don’t suffer from supply chain attacks.
 
 ### Linux-libre kernel and “Libre” distributions
 
@@ -241,9 +241,9 @@ There isn’t much point in randomizing the MAC address for Ethernet connections
 
 There are other system [identifiers](https://madaidans-insecurities.github.io/guides/linux-hardening.html#identifiers) which you may wish to be careful about. You should give this some thought to see if it applies to your [threat model](https://privacyguides.org/threat-modeling):
 
--   [10.1 Hostnames and usernames](https://madaidans-insecurities.github.io/guides/linux-hardening.html#hostnames)
--   [10.2 Time zones / Locales / Keymaps](https://madaidans-insecurities.github.io/guides/linux-hardening.html#timezones-locales-keymaps)
--   [10.3 Machine ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id)
+- [10.1 Hostnames and usernames](https://madaidans-insecurities.github.io/guides/linux-hardening.html#hostnames)
+- [10.2 Time zones / Locales / Keymaps](https://madaidans-insecurities.github.io/guides/linux-hardening.html#timezones-locales-keymaps)
+- [10.3 Machine ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id)
 
 ### System counting
 
@@ -265,9 +265,9 @@ Users can restrict applications further by issuing [Flatpak overrides](https://d
 
 We generally recommend revoking access to:
 
--   the Network (`share=network`) socket (internet access)
--   the PulseAudio socket (for both audio in and out), `device=all` (access to all devices including the camera)
--   `org.freedesktop.secrets` dbus (access to secrets stored on your keychain) for applications which do not need it
+- the Network (`share=network`) socket (internet access)
+- the PulseAudio socket (for both audio in and out), `device=all` (access to all devices including the camera)
+- `org.freedesktop.secrets` dbus (access to secrets stored on your keychain) for applications which do not need it
 
 If an application works natively with Wayland (and not running through the [XWayland](https://wayland.freedesktop.org/xserver.html) compatibility layer), consider revoking its access to the X11 (`socket=x11`) and [Inter-process communications (IPC)](https://en.wikipedia.org/wiki/Unix_domain_socket) socket (`share=ipc`) as well.
 
@@ -297,10 +297,10 @@ Arch and Arch-based operating systems often do not come with a mandatory access 
 
 For advanced users, you can make your own AppArmor profiles, SELinux policies, Bubblewrap profiles, and [seccomp](https://en.wikipedia.org/wiki/Seccomp) blacklist to have better confinement of applications. This is quite a tedious and complicated task so we won’t go into detail about how to do it here, but we do have a few projects that you could use as reference.
 
--   Whonix’s [AppArmor Everything](https://github.com/Whonix/apparmor-profile-everything)
--   Krathalan’s [AppArmor profiles](https://github.com/krathalan/apparmor-profiles)
--   noatsecure’s [SELinux templates](https://github.com/noatsecure/hardhat-selinux-templates)
--   Seirdy’s [Bubblewrap scripts](https://sr.ht/~seirdy/bwrap-scripts)
+- Whonix’s [AppArmor Everything](https://github.com/Whonix/apparmor-profile-everything)
+- Krathalan’s [AppArmor profiles](https://github.com/krathalan/apparmor-profiles)
+- noatsecure’s [SELinux templates](https://github.com/noatsecure/hardhat-selinux-templates)
+- Seirdy’s [Bubblewrap scripts](https://sr.ht/~seirdy/bwrap-scripts)
 
 ### Securing Linux containers
 
@@ -336,9 +336,9 @@ If you are using non-classic [Snap](https://en.wikipedia.org/wiki/Snap_(package_
 
 There are some additional kernel hardening options such as configuring [sysctl](https://en.wikipedia.org/wiki/Sysctl#Linux) keys and [kernel command-line parameters](https://www.kernel.org/doc/html/latest/admin-guide/kernel-parameters.html) which are described in the following pages. We don’t recommend you change these options unless you learn about what they do.
 
--   [2.2 Sysctl](https://madaidans-insecurities.github.io/guides/linux-hardening.html#sysctl)
--   [2.3 Boot parameters](https://madaidans-insecurities.github.io/guides/linux-hardening.html#boot-parameters)
--   [2.5 Kernel attack surface reduction](https://madaidans-insecurities.github.io/guides/linux-hardening.html#kernel-attack-surface-reduction)
+- [2.2 Sysctl](https://madaidans-insecurities.github.io/guides/linux-hardening.html#sysctl)
+- [2.3 Boot parameters](https://madaidans-insecurities.github.io/guides/linux-hardening.html#boot-parameters)
+- [2.5 Kernel attack surface reduction](https://madaidans-insecurities.github.io/guides/linux-hardening.html#kernel-attack-surface-reduction)
 
 Note that setting `kernel.unprivileged_userns_clone=0` will stop Flatpak, Snap (that depend on browser-sandbox), Electron based AppImages, Podman, Docker, and LXC containers from working. Do **not** set this flag if you are using container products.
 
@@ -370,7 +370,7 @@ There is also further hardening to [PAM](https://en.wikipedia.org/wiki/Linux_PAM
 
 On Red Hat distributions you can use [`authselect`](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_authentication_and_authorization_in_rhel/configuring-user-authentication-using-authselect_configuring-authentication-and-authorization-in-rhel) to configure this e.g.:
 
-```
+```bash
 sudo authselect select <profile_id, default: sssd> with-faillock without-nullok with-pamaccess
 ```
 
@@ -388,20 +388,20 @@ Another alternative option if you’re using the [linux-hardened](https://privac
 
 For further resources on Secure Boot we suggest taking a look at the following for instructional advice:
 
--   The Archwiki’s [Secure Boot](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot) article. There are two main methods, the first is to use a [shim](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot#shim), the second more complete way is to [use your own keys](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot#Using_your_own_keys).
+- The Archwiki’s [Secure Boot](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot) article. There are two main methods, the first is to use a [shim](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot#shim), the second more complete way is to [use your own keys](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot#Using_your_own_keys).
 
 For background of how Secure Boot works on Linux:
 
--   [The Strange State of Authenticated Boot and Disk Encryption on Generic Linux Distributions](https://0pointer.net/blog/authenticated-boot-and-disk-encryption-on-linux.html)
--   [Rod Smith’s Managing EFI Boot Loaders for Linux](https://www.rodsbooks.com/efi-bootloaders/)
--   [Dealing with Secure Boot](https://www.rodsbooks.com/efi-bootloaders/secureboot.html)
--   [Controlling Secure Boot](https://www.rodsbooks.com/efi-bootloaders/controlling-sb.html)
+- [The Strange State of Authenticated Boot and Disk Encryption on Generic Linux Distributions](https://0pointer.net/blog/authenticated-boot-and-disk-encryption-on-linux.html)
+- [Rod Smith’s Managing EFI Boot Loaders for Linux](https://www.rodsbooks.com/efi-bootloaders/)
+- [Dealing with Secure Boot](https://www.rodsbooks.com/efi-bootloaders/secureboot.html)
+- [Controlling Secure Boot](https://www.rodsbooks.com/efi-bootloaders/controlling-sb.html)
 
 One of the problems with Secure Boot particularly on Linux is that only the [chainloader](https://en.wikipedia.org/wiki/Chain_loading#Chain_loading_in_boot_manager_programs) (shim), the [boot loader](https://en.wikipedia.org/wiki/Bootloader) (GRUB), and the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)) are verified and that’s where verification stops. The [initramfs](https://en.wikipedia.org/wiki/Initial_ramdisk) is often left unverified, unencrypted, and open up the window for an [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attack. There are a few things that can be done to reduce risk such as:
 
--   Creating an [EFI Boot Stub](https://docs.kernel.org/admin-guide/efi-stub.html) that contains the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)), [initramfs](https://en.wikipedia.org/wiki/Initial_ramdisk) and [microcode](https://en.wikipedia.org/wiki/Microcode). This EFI stub can then be signed. If you use [dracut](https://en.wikipedia.org/wiki/Dracut_(software)) this can easily be done with the [`--uefi-stub` switch](https://man7.org/linux/man-pages/man8/dracut.8.html) or the [`uefi_stub` config](https://www.man7.org/linux/man-pages/man5/dracut.conf.5.html) option.
--   [Encrypting the boot partition](https://wiki.archlinux.org/title/GRUB#Encrypted_/boot). However, this has its own issues, the first being that [GRUB](https://en.wikipedia.org/wiki/GNU_GRUB) only supports [LUKS1](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) and not the newer default LUKS2 scheme. As the bootloader runs in [protected mode](https://en.wikipedia.org/wiki/Protected_mode) and the encryption module lacks [SSE acceleration](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions) the boot process will take minutes to complete.
--   Using [TPM](https://en.wikipedia.org/wiki/Trusted_Platform_Module) to perform a [measured boot](https://www.krose.org/~krose/measured_boot).
+- Creating an [EFI Boot Stub](https://docs.kernel.org/admin-guide/efi-stub.html) that contains the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)), [initramfs](https://en.wikipedia.org/wiki/Initial_ramdisk) and [microcode](https://en.wikipedia.org/wiki/Microcode). This EFI stub can then be signed. If you use [dracut](https://en.wikipedia.org/wiki/Dracut_(software)) this can easily be done with the [`--uefi-stub` switch](https://man7.org/linux/man-pages/man8/dracut.8.html) or the [`uefi_stub` config](https://www.man7.org/linux/man-pages/man5/dracut.conf.5.html) option.
+- [Encrypting the boot partition](https://wiki.archlinux.org/title/GRUB#Encrypted_/boot). However, this has its own issues, the first being that [GRUB](https://en.wikipedia.org/wiki/GNU_GRUB) only supports [LUKS1](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) and not the newer default LUKS2 scheme. As the bootloader runs in [protected mode](https://en.wikipedia.org/wiki/Protected_mode) and the encryption module lacks [SSE acceleration](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions) the boot process will take minutes to complete.
+- Using [TPM](https://en.wikipedia.org/wiki/Trusted_Platform_Module) to perform a [measured boot](https://www.krose.org/~krose/measured_boot).
 
 After setting up Secure Boot it is crucial that you set a “firmware password” (also called a “supervisor password, “BIOS password” or “UEFI password”), otherwise an adversary can simply disable Secure Boot.
 

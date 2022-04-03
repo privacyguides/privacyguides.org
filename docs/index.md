@@ -4,7 +4,7 @@ hide:
   - navigation
   - toc
 ---
-
+<!-- markdownlint-disable-next-line -->
 <div style="max-width:50rem;margin:auto;" markdown>
 <div style="max-width:38rem;" markdown>
 ## Why should I care?
@@ -19,7 +19,7 @@ You shouldn't confuse privacy with secrecy. We know what happens in the bathroom
 <div style="margin-left:auto;margin-right:0;text-align:right;max-width:38rem;" markdown>
 ## What should I do?
 
-##### First, you need to make a plan.
+##### First, you need to make a plan
 
 Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. But don't worry! Security is a process, and by thinking ahead you can put together a plan that's right for you. Security isn't just about the tools you use or the software you download. Rather, it begins with understanding the unique threats you face, and how you can counter them.
 

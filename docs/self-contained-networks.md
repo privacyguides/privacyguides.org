@@ -5,7 +5,9 @@ icon: material/security-network
 If you are currently browsing clearnet and want to access the dark web, this section is for you.
 
 ## Self-contained Networks
+
 ### Tor
+
 !!! recommendation
 
     ![Tor logo](./assets/img/self-contained-networks/tor.svg){ align=right }
@@ -27,6 +29,7 @@ If you are currently browsing clearnet and want to access the dark web, this sec
     - [:fontawesome-brands-git: Source](https://gitweb.torproject.org/tor.git)
 
 ### I2P Anonymous Network
+
 !!! recommendation
 
     ![I2P logo](./assets/img/self-contained-networks/i2p.svg){ align=right }
@@ -48,6 +51,7 @@ If you are currently browsing clearnet and want to access the dark web, this sec
     - [:fontawesome-brands-git: Source](https://geti2p.net/en/get-involved/guides/new-developers#getting-the-i2p-code)
 
 ### The Freenet Project
+
 !!! recommendation
 
     ![Freenet logo](./assets/img/self-contained-networks/freenet.svg){ align=right }

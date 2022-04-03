@@ -5,7 +5,9 @@ icon: material/file-sign
 Get working and collaborating without sharing your documents with a middleman or trusting a cloud provider.
 
 ## Office Suites
+
 ### LibreOffice
+
 !!! recommendation
 
     ![LibreOffice logo](/assets/img/productivity/libreoffice.svg){ align=right }
@@ -27,6 +29,7 @@ Get working and collaborating without sharing your documents with a middleman or
     - [:fontawesome-brands-git: Source](https://www.libreoffice.org/about-us/source-code)
 
 ### OnlyOffice
+
 !!! recommendation
 
     ![OnlyOffice logo](/assets/img/productivity/onlyoffice.svg){ align=right }
@@ -45,7 +48,9 @@ Get working and collaborating without sharing your documents with a middleman or
     - [:fontawesome-brands-github: Source](https://github.com/ONLYOFFICE)
 
 ## Planning
+
 ### Framadate
+
 !!! recommendation
 
     ![Framadate logo](/assets/img/productivity/framadate.svg){ align=right }
@@ -58,7 +63,9 @@ Get working and collaborating without sharing your documents with a middleman or
     - [:fontawesome-brands-gitlab: Source](https://framagit.org/framasoft/framadate)
 
 ## Paste services
+
 ### PrivateBin
+
 !!! recommendation
 
     ![PrivateBin logo](/assets/img/productivity/privatebin.svg){ align=right }
@@ -71,6 +78,7 @@ Get working and collaborating without sharing your documents with a middleman or
     - [:fontawesome-brands-github: Source](https://github.com/PrivateBin/PrivateBin)
 
 ### CryptPad
+
 !!! recommendation
 
     ![CryptPad logo](/assets/img/productivity/cryptpad.svg){ align=right }
@@ -83,7 +91,9 @@ Get working and collaborating without sharing your documents with a middleman or
     - [:fontawesome-brands-github: Source](https://github.com/xwiki-labs/cryptpad)
 
 ## Blogging
+
 ### Write.as
+
 !!! recommendation
 
     ![Write.as logo](/assets/img/productivity/writeas.svg#only-light){ align=right }
@@ -103,7 +113,9 @@ Get working and collaborating without sharing your documents with a middleman or
     - [:fontawesome-brands-git: Source](https://code.as/writeas)
 
 ## Programming
+
 ### VSCodium
+
 !!! recommendation
 
     ![VSCodium logo](/assets/img/productivity/vscodium.svg){ align=right }

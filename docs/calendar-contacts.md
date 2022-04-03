@@ -5,9 +5,11 @@ icon: material/calendar
 Calendaring and contacts are some of the most sensitive data posess. Use only products that use end-to-end encryption (E2EE) at rest. This prevents a provider from reading your data.
 
 ## Software as a service (SaaS) only
+
 These products are included with an subscription to the respective [email providers](/providers/email).
 
 ### Tutanota
+
 !!! recommendation
 
     ![Tutanota logo](/assets/img/calendar-contacts/tutanota.svg#only-light){ align=right }
@@ -28,6 +30,7 @@ These products are included with an subscription to the respective [email provid
     - [:fontawesome-brands-github: Source](https://github.com/tutao/tutanota)
 
 ### Proton Calendar
+
 !!! recommendation
 
     ![Proton Calendar logo](/assets/img/calendar-contacts/proton-calendar.jpg){ align=right }
@@ -41,9 +44,11 @@ These products are included with an subscription to the respective [email provid
     - [:fontawesome-brands-github: Source](https://github.com/ProtonMail/WebClients)
 
 ## Self-hostable
+
 Some of these options are self-hostable, or able to be hosted by third party providers for a fee:
 
 ### EteSync
+
 !!! recommendation
 
     ![EteSync logo](/assets/img/calendar-contacts/etesync.svg){ align=right }
@@ -62,6 +67,7 @@ Some of these options are self-hostable, or able to be hosted by third party pro
     - [:fontawesome-brands-github: Source](https://github.com/etesync)
 
 ### Nextcloud
+
 !!! recommendation
 
     ![Nextcloud logo](/assets/img/calendar-contacts/nextcloud.svg){ align=right }
@@ -84,6 +90,7 @@ Some of these options are self-hostable, or able to be hosted by third party pro
     - [:fontawesome-brands-github: Source](https://github.com/nextcloud)
 
 ### DecSync
+
 !!! recommendation
 
     **DecSync** can be used to synchronize RSS, contacts, calendars and tasks without a server by using file synchronization software such as [Syncthing](/software/file-sharing/#sync).

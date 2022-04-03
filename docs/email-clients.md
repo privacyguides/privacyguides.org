@@ -12,6 +12,7 @@ Discover free, open-source, and secure email clients, along with some email alte
     [Real-time Communication](/real-time-communication){ .md-button .md-button--primary }
 
 ### Thunderbird
+
 !!! recommendation
 
     ![Thunderbird logo](/assets/img/email-clients/thunderbird.svg){ align=right }
@@ -28,6 +29,7 @@ Discover free, open-source, and secure email clients, along with some email alte
     - [:fontawesome-brands-git: Source](https://hg.mozilla.org/comm-central)
 
 ### GNOME Evolution
+
 !!! recommendation
 
     ![Evolution logo](/assets/img/email-clients/evolution.svg){ align=right }
@@ -41,6 +43,7 @@ Discover free, open-source, and secure email clients, along with some email alte
     - [:fontawesome-brands-gitlab: Source](https://gitlab.gnome.org/GNOME/evolution)
 
 ### Kontact
+
 !!! recommendation
 
     ![Kontact logo](/assets/img/email-clients/kontact.svg){ align=right }
@@ -55,6 +58,7 @@ Discover free, open-source, and secure email clients, along with some email alte
     - [:fontawesome-brands-git: Source](https://invent.kde.org/pim/kmail)
 
 ### Mailvelope
+
 !!! recommendation
 
     ![Mailvelope logo](/assets/img/email-clients/mailvelope.svg){ align=right }
@@ -69,8 +73,8 @@ Discover free, open-source, and secure email clients, along with some email alte
     - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc)
     - [:fontawesome-brands-github: Source](https://github.com/mailvelope/mailvelope)
 
-
 ### K-9 Mail
+
 !!! recommendation
 
     ![K-9 Mail logo](/assets/img/email-clients/k9mail.svg){ align=right }
@@ -85,6 +89,7 @@ Discover free, open-source, and secure email clients, along with some email alte
     - [:fontawesome-brands-github: Source](https://github.com/k9mail)
 
 ### FairEmail
+
 !!! recommendation
 
     ![FairEmail logo](/assets/img/email-clients/fairemail.svg){ align=right }
@@ -99,6 +104,7 @@ Discover free, open-source, and secure email clients, along with some email alte
     - [:fontawesome-brands-github: Source](https://github.com/M66B/FairEmail)
 
 ### Canary Mail
+
 !!! recommendation
 
     ![Canary Mail logo](/assets/img/email-clients/canarymail.svg){ align=right }
@@ -120,6 +126,7 @@ Discover free, open-source, and secure email clients, along with some email alte
     - [:fontawesome-brands-windows: Windows](https://download.canarymail.io/get_windows)
 
 ### Neomutt
+
 !!! recommendation
 
     ![Neomutt logo](/assets/img/email-clients/mutt.svg){ align=right }
