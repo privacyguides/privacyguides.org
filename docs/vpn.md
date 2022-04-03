@@ -279,10 +279,8 @@ With the VPN providers we recommend we like to see responsible marketing.
 Must not have any marketing which is irresponsible:
 
 - Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know users can quite easily deanonymize themselves in a number of ways, eg:
-
 - Reusing personal information eg. (email accounts, unique pseudonyms etc) that they accessed without anonymity software (Tor, VPN etc)
-- [Browser fingerprinting](https://privacyguides.org/browsers/#fingerprint)
-
+- [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 - Claim that a single circuit VPN is "more anonymous" than Tor, which is a circuit of 3 or more hops that regularly changes.
 - Use responsible language, eg it is okay to say that a VPN is "disconnected" or "not connected", however claiming that a user is "exposed", "vulnerable" or "compromised" is needless use of alarming language that may be incorrect. For example the visiting user might be on another VPN provider's service or using Tor.
 
@@ -290,7 +288,7 @@ Must not have any marketing which is irresponsible:
 
 Responsible marketing that is both educational and useful to the consumer could include:
 
-- An accurate comparison to when Tor or other [Self contained networks](https://privacyguides.org/software/networks/) should be used.
+- An accurate comparison to when Tor or other [self-contained networks](/self-contained-networks) should be used.
 - Availability of the VPN provider's website over a .onion [Hidden Service](https://en.wikipedia.org/wiki/.onion)
 
 ### Additional Functionality
@@ -348,10 +346,11 @@ For use cases like these, or if you have another compelling reason, the VPN prov
 ### Sources and Further Reading
 
 1. [VPN - a Very Precarious Narrative](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
-2. [The self-contained networks](https://privacyguides.org/software/networks/) recommended by Privacy Guides are able to replace a VPN that allows access to services on local area network
+2. [The self-contained networks](/self-contained-networks) recommended by Privacy Guides are able to replace a VPN that allows access to services on local area network
 3. [Slicing Onions: Part 1 – Myth-busting Tor](https://medium.com/privacyguides/slicing-onions-part-1-myth-busting-tor-9ec188ae1904) by blacklight447
 4. [Slicing Onions: Part 2 – Onion recipes; VPN not required](https://web.archive.org/web/20210116140725/https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-2-onion-recipes-vpn-not-required) by blacklight447
-5. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides/)
+5. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
+6. ["Do I need a VPN?"](https://www.doineedavpn.com), a tool developed by IVPN to challenge aggressive VPN marketing and help individuals decide if a VPN is right for them.
 
 [^1]: "WireGuard" and the "WireGuard" logo are registered trademarks of Jason A. Donenfeld.
 
