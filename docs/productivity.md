@@ -108,12 +108,12 @@ Get working and collaborating without sharing your documents with a middleman or
 
     ![VSCodium logo](/assets/img/productivity/vscodium.svg){ align=right }
 
-    **VSCodium** is a free opens ource fork of Microsofts [Visual Studio Code](https://en.wikipedia.org/wiki/Visual_Studio_Code) editor without branding or telemetry.
+    **VSCodium** is a free and open-source project featuring binaries of [Visual Studio Code](https://code.visualstudio.com) without Microsoft's branding/telemetry/licensing.
 
-    [Visit vscodium.com](https://vscodium.com){ .md-button .md-button--primary } [Privacy Policy](){ .md-button }
+    [Visit vscodium.com](https://vscodium.com){ .md-button .md-button--primary }
 
     **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://github.com/VSCodium/vscodium/releases)
-    - [:fontawesome-brands-apple: macOS](https://github.com/VSCodium/vscodium/releases)
-    - [:fontawesome-brands-linux: Linux](https://github.com/VSCodium/vscodium/releases)
+    - [:fontawesome-brands-windows: Windows](https://vscodium.com/#install)
+    - [:fontawesome-brands-apple: macOS](https://vscodium.com/#install)
+    - [:fontawesome-brands-linux: Linux](https://vscodium.com/#install)
     - [:fontawesome-brands-github: Source](https://github.com/VSCodium/vscodium)
