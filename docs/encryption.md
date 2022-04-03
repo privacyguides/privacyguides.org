@@ -107,7 +107,7 @@ Modern operating systems include [disk encryption](https://en.wikipedia.org/wiki
     **BitLocker** is the default full volume encryption that comes with Microsoft Windows. The main reason we recommend it is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). [ElcomSoft](https://en.wikipedia.org/wiki/ElcomSoft), a forensics company, has written about it in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
 
     !!! note
-        BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on Pro, Enterprise, and Education editions of Windows. It can be enabled on Home editions provided that they meet the prequesites.
+        BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on Pro, Enterprise, and Education editions of Windows. It can be enabled on Home editions provided that they meet the prerequisites.
 
     ??? tip "Enabling BitLocker on Windows Home"
         To enable BitLocker on "Home" editions of Windows, you must partitions formatted with formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated [TPM](https://en.wikipedia.org/wiki/Trusted_Platform_Module) (v1.2, 2.0+) module.
@@ -149,7 +149,10 @@ Modern operating systems include [disk encryption](https://en.wikipedia.org/wiki
 
     ![FileVault logo](/assets/img/encryption-software/filevault.png){ align=right }
 
-    **FileVault** is the on-the-fly disk encryption that comes with macOS. We recommend it because tightly intergrates with the [Apple T2 Security Chip](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/1/web/1).
+    **FileVault** is the on-the-fly volume encryption solution built into macOS. FileVault is recommended because it [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) hardware security capabilities present on an Apple silicon SoC or T2 Security Chip.
+
+    !!! note
+        We recommend storing a local recovery key in a secure place as opposed to utilizing iCloud FileVault recovery. As well, FileVault should be enabled **after** a complete macOS installation as more pseudorandom number generator ([PRNG](https://support.apple.com/guide/security/random-number-generation-seca0c73a75b/web)) [entropy](https://en.wikipedia.org/wiki/Entropy_(computing)) will be available.
 
     [Visit support.apple.com](https://support.apple.com/en-us/HT204837){ .md-button .md-button--primary }
 
