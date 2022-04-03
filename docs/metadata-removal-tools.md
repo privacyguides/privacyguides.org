@@ -33,7 +33,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     **ExifCleaner** is a freeware, open source graphical app that uses [ExifTool](https://exiftool.org) to remove [EXIF](https://en.wikipedia.org/wiki/Exif) metadata from images, videos, and PDF documents using a simple drag and drop interface. It supports multi-core batch processing and dark mode.
 
-    [Visit exifcleaner.com](https://exifcleaner.com){ .md-button .md-button--primary } [Privacy Policy](https://bitwarden.com/privacy){ .md-button }
+    [Visit exifcleaner.com](https://exifcleaner.com){ .md-button .md-button--primary }
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://github.com/szTheory/exifcleaner/releases)
