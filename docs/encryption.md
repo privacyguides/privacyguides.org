@@ -256,13 +256,13 @@ Tools with command-line interfaces are useful for intergrating [shell scripts](h
     - [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
     - [:fontawesome-brands-git: Source](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary)
 
-### GPGTools
+### MacGPG
 
 !!! recommendation
 
-    ![GPGTools logo](/assets/img/encryption-software/gpgtools.png){ align=right }
+    ![MacGPG logo](/assets/img/encryption-software/macgpg.png){ align=right }
 
-    **GPGTools** is produced by GPGTools GmbH provides native GPG intergration for macOS. It includes intergration into [Apple Mail](https://en.wikipedia.org/wiki/Mail_(Apple)). Commericial support plans are available.
+    **MacGPG** is produced by GPGTools GmbH provides native GPG intergration for macOS. It includes intergration into [Apple Mail](https://en.wikipedia.org/wiki/Mail_(Apple)). Commericial support plans are available.
 
     !!! note
         On iOS devices we suggest [Canary Mail](/email-clients/#canary-mail).
@@ -271,7 +271,7 @@ Tools with command-line interfaces are useful for intergrating [shell scripts](h
 
     **Downloads**
     - [:fontawesome-brands-apple: macOS](https://gpgtools.org)
-    - [:fontawesome-brands-git: Source](https://github.com/GPGTools/)
+    - [:fontawesome-brands-git: Source](https://github.com/GPGTools)
 
 ### OpenKeychain
 
