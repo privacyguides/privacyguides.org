@@ -73,7 +73,7 @@ Find a social network that doesn’t pry into your data or monetize your profile
     [Visit pleroma.social](https://pleroma.social){ .md-button .md-button--primary }
 
     **Downloads**
-    - [:fontawesome-regular-circle-down:](https://docs-develop.pleroma.social/backend/clients/#pleroma-clients)
+    - [:fontawesome-regular-circle-down: All apps](https://docs-develop.pleroma.social/backend/clients/)
     - [:fontawesome-brands-gitlab: Source](https://git.pleroma.social/pleroma)
 
 ### Movim
