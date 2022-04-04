@@ -18,7 +18,7 @@ Get working and collaborating without sharing your documents with a middleman or
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://www.libreoffice.org/download/download/)
-    - [:fontawesome-brands-apple: macOS](https://www.libreoffice.org/download/download/)
+    - [:fontawesome-brands-app-store: Mac App Store](https://www.libreoffice.org/download/download/)
     - [:fontawesome-brands-linux: Linux](https://www.libreoffice.org/download/download/)
     - [:pg-flathub: Flatpak](https://www.libreoffice.org/download/download/)
     - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/editors/libreoffice/)
@@ -40,7 +40,7 @@ Get working and collaborating without sharing your documents with a middleman or
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://www.onlyoffice.com/download-desktop.aspx?from=default)
-    - [:fontawesome-brands-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx?from=default)
+    - [:fontawesome-brands-app-store: Mac App Store](https://www.onlyoffice.com/download-desktop.aspx?from=default)
     - [:fontawesome-brands-linux: Linux](https://www.libreoffice.org/download/download/)
     - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/www/onlyoffice-documentserver/)
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
@@ -105,7 +105,7 @@ Get working and collaborating without sharing your documents with a middleman or
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://github.com/writeas/writeas-cli)
-    - [:fontawesome-brands-apple: macOS](https://github.com/writeas/writeas-cli)
+    - [:fontawesome-brands-app-store: Mac App Store](https://github.com/writeas/writeas-cli)
     - [:fontawesome-brands-linux: Linux](https://github.com/writeas/writeas-cli)
     - [:fontawesome-brands-freebsd: FreeBSD](https://write.as/apps)
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.abunchtell.writeas)
@@ -126,6 +126,6 @@ Get working and collaborating without sharing your documents with a middleman or
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://vscodium.com/#install)
-    - [:fontawesome-brands-apple: macOS](https://vscodium.com/#install)
+    - [:fontawesome-brands-app-store: Mac App Store](https://vscodium.com/#install)
     - [:fontawesome-brands-linux: Linux](https://vscodium.com/#install)
     - [:fontawesome-brands-github: Source](https://github.com/VSCodium/vscodium)

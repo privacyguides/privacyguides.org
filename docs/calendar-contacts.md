@@ -21,7 +21,7 @@ These products are included with an subscription to the respective [email provid
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://tutanota.com/blog/posts/desktop-clients/)
-    - [:fontawesome-brands-apple: macOS](https://tutanota.com/blog/posts/desktop-clients/)
+    - [:fontawesome-brands-app-store: Mac App Store](https://tutanota.com/blog/posts/desktop-clients/)
     - [:fontawesome-brands-linux: Linux](https://tutanota.com/blog/posts/desktop-clients/)
     - [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.tutanota.Tutanota)
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
@@ -81,7 +81,7 @@ Some of these options are self-hostable, or able to be hosted by third party pro
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
-    - [:fontawesome-brands-apple: macOS](https://nextcloud.com/install/#install-clients)
+    - [:fontawesome-brands-app-store: Mac App Store](https://nextcloud.com/install/#install-clients)
     - [:fontawesome-brands-linux: Linux](https://nextcloud.com/install/#install-clients)
     - [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.nextcloud.desktopclient.nextcloud)
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)

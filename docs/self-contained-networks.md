@@ -18,7 +18,7 @@ If you are currently browsing clearnet and want to access the dark web, this sec
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://www.torproject.org/download/)
-    - [:fontawesome-brands-apple: macOS](https://www.torproject.org/download/)
+    - [:fontawesome-brands-app-store: Mac App Store](https://www.torproject.org/download/)
     - [:fontawesome-brands-linux: Linux](https://www.torproject.org/download/)
     - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/security/tor)
     - [:pg-openbsd: OpenBSD](https://openports.se/net/tor)
@@ -40,7 +40,7 @@ If you are currently browsing clearnet and want to access the dark web, this sec
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://geti2p.net/en/download#windows)
-    - [:fontawesome-brands-apple: macOS](https://geti2p.net/en/download#mac)
+    - [:fontawesome-brands-app-store: Mac App Store](https://geti2p.net/en/download#mac)
     - [:fontawesome-brands-linux: Linux](https://geti2p.net/en/download#unix)
     - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/security/i2p)
     - [:pg-openbsd: OpenBSD](https://openports.se/net/i2pd)
@@ -62,7 +62,7 @@ If you are currently browsing clearnet and want to access the dark web, this sec
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://freenetproject.org/pages/download.html#windows)
-    - [:fontawesome-brands-apple: macOS](https://freenetproject.org/pages/download.html#os-x)
+    - [:fontawesome-brands-app-store: Mac App Store](https://freenetproject.org/pages/download.html#os-x)
     - [:fontawesome-brands-linux: Linux](https://freenetproject.org/pages/download.html#gnulinux-posix)
     - [:fontawesome-brands-freebsd: FreeBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)
     - [:pg-openbsd: OpenBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)

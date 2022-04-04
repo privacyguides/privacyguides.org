@@ -23,7 +23,7 @@ These are our current web browser recommendations and settings. We recommend kee
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://www.torproject.org/download/)
-    - [:fontawesome-brands-apple: macOS](https://www.torproject.org/download/)
+    - [:fontawesome-brands-app-store: Mac App Store](https://www.torproject.org/download/)
     - [:fontawesome-brands-linux: Linux](https://www.torproject.org/download/)
     - [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.github.micahflee.torbrowser-launcher)
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
@@ -88,7 +88,7 @@ These are our current web browser recommendations and settings. We recommend kee
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://www.mozilla.org/firefox/windows)
-    - [:fontawesome-brands-apple: macOS](https://www.mozilla.org/firefox/mac)
+    - [:fontawesome-brands-app-store: Mac App Store](https://www.mozilla.org/firefox/mac)
     - [:fontawesome-brands-linux: Linux](https://www.mozilla.org/firefox/linux)
     - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.firefox)
     - [:fontawesome-brands-git: Source](https://hg.mozilla.org/mozilla-central)

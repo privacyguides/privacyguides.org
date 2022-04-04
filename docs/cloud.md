@@ -22,7 +22,7 @@ Trust your provider by using an alternative below that supports [end-to-end encr
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
-    - [:fontawesome-brands-apple: macOS](https://nextcloud.com/install/#install-clients)
+    - [:fontawesome-brands-app-store: Mac App Store](https://nextcloud.com/install/#install-clients)
     - [:fontawesome-brands-linux: Linux](https://nextcloud.com/install/#install-clients)
     - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
     - [:pg-openbsd: OpenBSD](https://openports.se/www/nextcloud)
@@ -78,7 +78,7 @@ Trust your provider by using an alternative below that supports [end-to-end encr
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://github.com/tahoe-lafs/tahoe-lafs#via-pip)
-    - [:fontawesome-brands-apple: macOS](https://github.com/tahoe-lafs/tahoe-lafs#via-pip)
+    - [:fontawesome-brands-app-store: Mac App Store](https://github.com/tahoe-lafs/tahoe-lafs#via-pip)
     - [:fontawesome-brands-linux: Linux](https://github.com/tahoe-lafs/tahoe-lafs#using-os-packages)
     - [:pg-netbsd: NetBSD](https://pkgsrc.se/filesystems/tahoe-lafs)
     - [:fontawesome-brands-git: Source](https://www.tahoe-lafs.org/trac/tahoe-lafs/browser)

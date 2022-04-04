@@ -20,7 +20,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
-    - [:fontawesome-brands-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
+    - [:fontawesome-brands-app-store: Mac App Store](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
     - [:fontawesome-brands-linux: Linux](https://pypi.org/project/mat2)
     - [:fontawesome-solid-earth-americas: Web](https://0xacab.org/jvoisin/mat2#web-interface)
     - [:fontawesome-brands-gitlab: Source](https://0xacab.org/jvoisin/mat2)
@@ -37,7 +37,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://github.com/szTheory/exifcleaner/releases)
-    - [:fontawesome-brands-apple: macOS](https://github.com/szTheory/exifcleaner/releases)
+    - [:fontawesome-brands-app-store: Mac App Store](https://github.com/szTheory/exifcleaner/releases)
     - [:fontawesome-brands-linux: Linux](https://github.com/szTheory/exifcleaner/releases)
     - [:fontawesome-brands-github: Source](https://github.com/szTheory/exifcleaner)
 
@@ -112,7 +112,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://exiftool.org)
-    - [:fontawesome-brands-apple: macOS](https://exiftool.org)
+    - [:fontawesome-brands-app-store: Mac App Store](https://exiftool.org)
     - [:fontawesome-brands-linux: Linux](https://exiftool.org)
     - [:fontawesome-brands-git: Source](https://sourceforge.net/projects/exiftool)
     - [:fontawesome-brands-github: Source](https://github.com/exiftool/exiftool)

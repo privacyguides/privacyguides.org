@@ -29,7 +29,7 @@ These password managers store the password database locally.
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://keepassxc.org/download/#windows)
-    - [:fontawesome-brands-apple: macOS](https://keepassxc.org/download/#mac)
+    - [:fontawesome-brands-app-store: Mac App Store](https://keepassxc.org/download/#mac)
     - [:fontawesome-brands-linux: Linux](https://keepassxc.org/download/#linux)
     - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
     - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
@@ -69,15 +69,15 @@ These password managers sync up to a cloud server that may be self-hostable.
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://bitwarden.com/download)
-    - [:fontawesome-brands-apple: macOS](https://apps.apple.com/app/bitwarden/id1352778147)
+    - [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/app/bitwarden/id1352778147)
     - [:fontawesome-brands-linux: Linux](https://bitwarden.com/download)
     - [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.bitwarden.desktop)
+    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
+    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
+    - [:pg-f-droid: F-Droid](https://mobileapp.bitwarden.com/fdroid)
     - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
     - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
     - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
-    - [:pg-f-droid: F-Droid](https://mobileapp.bitwarden.com/fdroid)
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
     - [:fontawesome-brands-github: Source](https://github.com/bitwarden)
 
 ### Psono
@@ -147,7 +147,7 @@ These products are minimal password managers that can be used within scripting a
     [Visit passwordstore.org](https://www.passwordstore.org){ .md-button .md-button--primary }
 
     **Downloads**
-    - [:fontawesome-brands-apple: macOS](https://www.passwordstore.org)
+    - [:fontawesome-brands-app-store: Mac App Store](https://www.passwordstore.org)
     - [:fontawesome-brands-linux: Linux](https://www.passwordstore.org)
     - [:fontawesome-brands-git: Source](https://git.zx2c4.com/password-store)
 
@@ -163,7 +163,7 @@ These products are minimal password managers that can be used within scripting a
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://www.gopass.pw/#install-windows)
-    - [:fontawesome-brands-apple: macOS](https://www.gopass.pw/#install-macos)
+    - [:fontawesome-brands-app-store: Mac App Store](https://www.gopass.pw/#install-macos)
     - [:fontawesome-brands-linux: Linux](https://www.gopass.pw/#install-linux)
     - [:fontawesome-brands-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
     - [:fontawesome-brands-github: Source](https://github.com/gopasspw/gopass)
