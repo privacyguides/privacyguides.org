@@ -2,7 +2,7 @@
 {% block extrahead %}
   <link rel="stylesheet" href="{{ 'overrides/blog.css' | url }}">
 {% endblock %}
-{% block hero %}
+{% block tabs %}
   {{ super() }}
   <style>.md-content > .md-typeset h1{visibility:hidden;font-size:0;}</style>
   <section class="mdx-container" {% if page.meta.background %}style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(/assets/img/blog/{{ page.meta.background }});padding-top:8rem;padding-bottom:4rem;background-size:cover;background-position:center;"{% endif %}>

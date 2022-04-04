@@ -24,13 +24,13 @@ nav:
       - 'Multi-Factor Authentication': 'multi-factor-authentication.md'
   - 'Recommendations':
     - 'Privacy Tools': 'tools.md'
+    - 'Browsers':
+      - 'Web Browsers': 'browsers.md'
     - 'Operating Systems':
       - 'Android': 'android.md'
       - 'Linux Desktop': 'linux-desktop.md'
       - 'QubesOS': 'qubes.md'
       - 'Router Firmware': 'router.md'
-    - 'Browsers':
-      - 'Web Browsers': 'browsers.md'
     - 'Providers':
       - 'Cloud Storage': 'cloud.md'
       - 'DNS Servers': 'dns.md'
@@ -80,7 +80,6 @@ theme:
   features:
     - navigation.tracking
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
   palette:
     - media: "(prefers-color-scheme: light)"

@@ -76,8 +76,7 @@ Some of these options are self-hostable, or able to be hosted by third party pro
 
     You can self host Nextcloud or pay for service from a [provider](https://nextcloud.com/signup/).
 
-    [Visit ](){ .md-button .md-button--primary } [Privacy Policy](){ .md-button }
-    [:pg-tor:](){ .md-button }
+    [Visit nextcloud.com](https://nextcloud.com/){ .md-button .md-button--primary }
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
