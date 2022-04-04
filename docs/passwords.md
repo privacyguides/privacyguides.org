@@ -50,7 +50,7 @@ These password managers store the password database locally.
 
     **Downloads**
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
-    - [:fontawesome-brands-app-store-ios: App Store](https://www.f-droid.org/packages/com.kunzisoft.keepass.libre)
+    - [:pg-f-droid: F-Droid](https://www.f-droid.org/packages/com.kunzisoft.keepass.libre)
     - [:fontawesome-brands-github: Source](https://github.com/Kunzisoft/KeePassDX)
 
 ## Cloud syncing Password Managers
