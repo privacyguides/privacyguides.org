@@ -262,7 +262,7 @@ Tools with command-line interfaces are useful for intergrating [shell scripts](h
 
     ![MacGPG logo](/assets/img/encryption-software/macgpg.png){ align=right }
 
-    **MacGPG** is produced by GPGTools GmbH provides native GPG intergration for macOS. It includes intergration into [Apple Mail](https://en.wikipedia.org/wiki/Mail_(Apple)). Commericial support plans are available.
+    **MacGPG** is produced by GPGTools GmbH and provides native GPG intergration for macOS. It includes intergration into [Apple Mail](https://en.wikipedia.org/wiki/Mail_(Apple)). Commericial support plans are available.
 
     !!! note
         On iOS devices we suggest [Canary Mail](/email-clients/#canary-mail).
