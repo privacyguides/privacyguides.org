@@ -2,7 +2,7 @@
 title: Email Clients
 icon: material/email-open
 ---
-Discover free, open-source, and secure email clients, along with some email alternatives you may not have considered.
+Our recommendation list contains email clients that support both [OpenPGP](/encryption/#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth allows you to use [Multi-Factor Authentication](/multi-factor-authentication) and prevent account theft.
 
 ??? Attention "Email does not provide forward secrecy"
     When using end-to-end encryption (E2EE) technology like [OpenPGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy), email will still have [some metadata](/email/#email-metadata-overview) that is not encrypted in the header of the email.
@@ -27,6 +27,19 @@ Discover free, open-source, and secure email clients, along with some email alte
     - [:fontawesome-brands-linux: Linux](https://www.thunderbird.net)
     - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.Thunderbird)
     - [:fontawesome-brands-git: Source](https://hg.mozilla.org/comm-central)
+
+### Apple Mail
+
+!!! recommendation
+
+    ![Apple Mail logo](/assets/img/email-clients/applemail.png){ align=right }
+
+    **Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](/encryption/#gpg-suite), which adds the ability to send encrypted email.
+
+    !!! note
+        For iOS devices we suggest [Canary Mail](/email-clients/#canary-mail) as it has PGP support which means you can send end-to-end encrypted email.
+
+    [Visit apple.com](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary } [Privacy Policy](https://www.apple.com/legal/privacy/en-ww/){ .md-button }
 
 ### GNOME Evolution
 

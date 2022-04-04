@@ -255,9 +255,9 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 <div class="grid cards" markdown>
 
-- ![GnuPG logo](/assets/img/encryption-software/gnupg.svg){ .twemoji } [GnuPG](https://veracrypt.fr/)
-- ![GPG4Win logo](/assets/img/encryption-software/gpg4win.svg){ .twemoji } [GPG4Win (Windows)](https://cryptomator.org/)
-- ![MacGPG logo](/assets/img/encryption-software/macgpg.png){ .twemoji } [MacGPG (macOS)](https://evansu.cc/picocrypt)
+- ![GnuPG logo](/assets/img/encryption-software/gnupg.svg){ .twemoji } [GnuPG](https://gnupg.org)
+- ![GPG4Win logo](/assets/img/encryption-software/gpg4win.svg){ .twemoji } [GPG4Win (Windows)](https://gpg4win.org)
+- ![GPG Suite logo](/assets/img/encryption-software/gpgsuite.png){ .twemoji } [GPG Suite (macOS)](https://gpgtools.org)
 - ![OpenKeychain logo](/assets/img/encryption-software/openkeychain.svg){ .twemoji } [OpenKeychain](https://www.openkeychain.org/)
 
 </div>

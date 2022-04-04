@@ -256,13 +256,15 @@ Tools with command-line interfaces are useful for intergrating [shell scripts](h
     - [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
     - [:fontawesome-brands-git: Source](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary)
 
-### MacGPG
+### GPG Suite
 
 !!! recommendation
 
-    ![MacGPG logo](/assets/img/encryption-software/macgpg.png){ align=right }
+    ![GPG Suite logo](/assets/img/encryption-software/gpgsuite.png){ align=right }
 
-    **MacGPG** is produced by GPGTools GmbH and provides native GPG intergration for macOS. It includes intergration into [Apple Mail](https://en.wikipedia.org/wiki/Mail_(Apple)). Commericial support plans are available.
+    **GPG Suite** provides OpenPGP support for [Apple Mail](/email-clients/#apple-mail) and macOS. GPGTools GmbH costs $24€ yearly for their support plan and includes a 30-day trial.
+
+    We recommend taking a look at their [First steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) and [Knowledge base](https://gpgtools.tenderapp.com/kb) for support.
 
     !!! note
         On iOS devices we suggest [Canary Mail](/email-clients/#canary-mail).
