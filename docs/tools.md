@@ -369,6 +369,20 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 </div>
 
+### News Aggregators
+
+<div class="grid cards" markdown>
+
+- ![Fluent Reader](/assets/img/news-aggregators/fluent-reader.svg){ .twemoji } [Fluent Reader](https://hyliu.me/fluent-reader)
+- ![GNOME Feeds](/assets/img/news-aggregators/gfeeds.svg){ .twemoji } [GNOME Feeds](https://gfeeds.gabmus.org)
+- ![Akregator](/assets/img/news-aggregators/akregator.svg){ .twemoji } [Akregator](https://apps.kde.org/akregator)
+- ![Handy News Reader](/assets/img/news-aggregators/handy-news-reader.svg){ .twemoji } [Handy News Reader](https://github.com/yanus171/Handy-News-Reader)
+- ![NetNewsWire](/assets/img/news-aggregators/netnewswire.png){ .twemoji } [NetNewsWire](https://netnewswire.com)
+- ![Miniflux](/assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](/assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [Miniflux](https://miniflux.app)
+- ![Newsboat](/assets/img/news-aggregators/newsboat.svg){ .twemoji } [Newsboat](https://newsboat.org/)
+
+</div>
+
 [Learn more...](real-time-communication.md)
 
 ### Self-Contained Networks
