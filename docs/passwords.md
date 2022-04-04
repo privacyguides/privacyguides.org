@@ -42,7 +42,7 @@ These password managers store the password database locally.
 
     ![KeepassDX logo](/assets/img/password-management/keepassdx.svg){ align=right }
 
-    **KeepassDX** is a modern password manager which by default stores its database locally and not in the cloud. The [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) package adds some extra features to the app.
+    **KeepassDX** is a Lightweight password manager for Android, allows editing encrypted data in a single file in KeePass format and can fill in the forms in a secure way. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) allows unlocking cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
     For more details, we recommend looking at their [FAQ](https://github.com/Kunzisoft/KeePassDX/wiki/FAQ).
 
