@@ -111,7 +111,7 @@ These products are self-hostable synchronization for cloud based password manage
 
     **Vaultwarden** is an alternative implementation of the Bitwarden server API written in Rust and compatible with upstream Bitwarden clients, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal.
 
-    [Visit github.com](https://github.com/dani-garcia/vaultwarden)
+    [Visit github.com](https://github.com/dani-garcia/vaultwarden){ .md-button .md-button--primary }
 
     **Downloads**
     - [:fontawesome-brands-docker: Dockerhub](https://hub.docker.com/r/vaultwarden/server)
@@ -125,8 +125,7 @@ These products are self-hostable synchronization for cloud based password manage
 
     Psono provides [extensive documentation](https://doc.psono.com/) for their product. The [web-client](https://doc.psono.com/admin/installation/install-webclient.html#installation-with-docker) for Psono can be self hosted; alternatively, you can choose the the full [Community Edition](https://doc.psono.com/admin/installation/install-server-ce.html) or the [Enterprise Edition](https://doc.psono.com/admin/installation/install-server-ee.html) with additional features.
 
-    [Visit ](){ .md-button .md-button--primary } [Privacy Policy](){ .md-button }
-    [:pg-tor:](){ .md-button }
+    [Visit gitlab.com](https://gitlab.com/psono/psono-server) { .md-button .md-button--primary } [Privacy Policy](https://psono.com/privacy-policy){ .md-button }
 
     **Downloads**
     - [:fontawesome-brands-docker: Dockerhub](https://hub.docker.com/r/psono/psono-server)
