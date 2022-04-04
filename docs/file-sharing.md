@@ -46,6 +46,9 @@ Discover how to privately share your files between your devices, with your frien
 
     **Croc** is a way to easily and securely send arbitrary-sized files from one computer to another. Similar to Magic Wormhole but without dependencies, resulting in a smaller application.
 
+    !!! Warning
+        The default encryption curve SIEC is fairly unknown and has not been tested thoroughly. We recommend using the `--curve` [option](https://github.com/schollz/croc/blob/master/README.md#change-encryption-curve) to switch to a more widely known curve such as the p521 curve.
+
     [Visit schollz.com](https://schollz.com/blog/croc6){ .md-button .md-button--primary }
 
     **Downloads**
