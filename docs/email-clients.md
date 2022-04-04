@@ -23,7 +23,7 @@ Discover free, open-source, and secure email clients, along with some email alte
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://www.thunderbird.net)
-    - [:fontawesome-brands-app-store: Mac App Store](https://www.thunderbird.net)
+    - [:fontawesome-brands-apple: macOS](https://www.thunderbird.net)
     - [:fontawesome-brands-linux: Linux](https://www.thunderbird.net)
     - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.Thunderbird)
     - [:fontawesome-brands-git: Source](https://hg.mozilla.org/comm-central)
@@ -120,7 +120,7 @@ Discover free, open-source, and secure email clients, along with some email alte
     [Visit canarymail.io](https://canarymail.io){ .md-button .md-button--primary } [Privacy Policy](https://canarymail.io/privacy.html){ .md-button }
 
     **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://canarymail.io/downloads.html)
+    - [:fontawesome-brands-windows: Windows](https://download.canarymail.io/get_windows)
     - [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/app/id1236045954)
     - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1236045954)
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
@@ -140,5 +140,5 @@ Discover free, open-source, and secure email clients, along with some email alte
 
     **Downloads**
     - [:fontawesome-brands-linux: Linux](https://neomutt.org/distro)
-    - [:fontawesome-brands-app-store: Mac App Store](https://neomutt.org/distro)
+    - [:fontawesome-brands-apple: macOS](https://neomutt.org/distro)
     - [:fontawesome-brands-github: Source](https://github.com/neomutt/neomutt)

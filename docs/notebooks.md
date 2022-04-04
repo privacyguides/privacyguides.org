@@ -21,7 +21,7 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://joplinapp.org/#desktop-applications)
-    - [:fontawesome-brands-app-store: Mac App Store](https://joplinapp.org/#desktop-applications)
+    - [:fontawesome-brands-apple: macOS](https://joplinapp.org/#desktop-applications)
     - [:fontawesome-brands-linux: Linux](https://joplinapp.org/#desktop-applications)
     - [:fontawesome-brands-firefox-browser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
     - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
@@ -46,7 +46,7 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://standardnotes.org/#get-started)
-    - [:fontawesome-brands-app-store: Mac App Store](https://standardnotes.org/#get-started)
+    - [:fontawesome-brands-apple: macOS](https://standardnotes.org/#get-started)
     - [:fontawesome-brands-linux: Linux](https://standardnotes.org/#get-started)
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
     - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1285392450)

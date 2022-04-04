@@ -18,7 +18,7 @@ Discover how to privately share your files between your devices, with your frien
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://onionshare.org/#download)
-    - [:fontawesome-brands-app-store: Mac App Store](https://onionshare.org/#download)
+    - [:fontawesome-brands-apple: macOS](https://onionshare.org/#download)
     - [:fontawesome-brands-linux: Linux](https://onionshare.org/#download)
     - [:fontawesome-brands-github: Source](https://github.com/onionshare/onionshare)
 
@@ -34,7 +34,7 @@ Discover how to privately share your files between your devices, with your frien
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation)
-    - [:fontawesome-brands-app-store: Mac App Store](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#macos-os-x)
+    - [:fontawesome-brands-apple: macOS](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#macos-os-x)
     - [:fontawesome-brands-linux: Linux](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation)
     - [:fontawesome-brands-github: Source](https://github.com/magic-wormhole/magic-wormhole)
 
@@ -50,7 +50,7 @@ Discover how to privately share your files between your devices, with your frien
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://github.com/schollz/croc/releases)
-    - [:fontawesome-brands-app-store: Mac App Store](https://github.com/schollz/croc/releases)
+    - [:fontawesome-brands-apple: macOS](https://github.com/schollz/croc/releases)
     - [:fontawesome-brands-linux: Linux](https://github.com/schollz/croc/releases)
     - [:fontawesome-brands-github: Source](https://github.com/schollz/croc)
 
@@ -81,7 +81,7 @@ Discover how to privately share your files between your devices, with your frien
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://syncthing.net/downloads)
-    - [:fontawesome-brands-app-store: Mac App Store](https://syncthing.net/downloads)
+    - [:fontawesome-brands-apple: macOS](https://syncthing.net/downloads)
     - [:fontawesome-brands-linux: Linux](https://syncthing.net/downloads)
     - [:fontawesome-brands-github: Source](https://github.com/syncthing)
 
@@ -97,6 +97,6 @@ Discover how to privately share your files between your devices, with your frien
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://git-annex.branchable.com/install/Windows)
-    - [:fontawesome-brands-app-store: Mac App Store](https://git-annex.branchable.com/install/OSX)
+    - [:fontawesome-brands-apple: macOS](https://git-annex.branchable.com/install/OSX)
     - [:fontawesome-brands-linux: Linux](https://git-annex.branchable.com/install)
     - [:fontawesome-brands-git: Source](https://git-annex.branchable.com/install/fromsource/)

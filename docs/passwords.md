@@ -29,7 +29,7 @@ These password managers store the password database locally.
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://keepassxc.org/download/#windows)
-    - [:fontawesome-brands-app-store: Mac App Store](https://keepassxc.org/download/#mac)
+    - [:fontawesome-brands-apple: macOS](https://keepassxc.org/download/#mac)
     - [:fontawesome-brands-linux: Linux](https://keepassxc.org/download/#linux)
     - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
     - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
@@ -147,7 +147,7 @@ These products are minimal password managers that can be used within scripting a
     [Visit passwordstore.org](https://www.passwordstore.org){ .md-button .md-button--primary }
 
     **Downloads**
-    - [:fontawesome-brands-app-store: Mac App Store](https://www.passwordstore.org)
+    - [:fontawesome-brands-apple: macOS](https://www.passwordstore.org)
     - [:fontawesome-brands-linux: Linux](https://www.passwordstore.org)
     - [:fontawesome-brands-git: Source](https://git.zx2c4.com/password-store)
 
@@ -163,7 +163,7 @@ These products are minimal password managers that can be used within scripting a
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://www.gopass.pw/#install-windows)
-    - [:fontawesome-brands-app-store: Mac App Store](https://www.gopass.pw/#install-macos)
+    - [:fontawesome-brands-apple: macOS](https://www.gopass.pw/#install-macos)
     - [:fontawesome-brands-linux: Linux](https://www.gopass.pw/#install-linux)
     - [:fontawesome-brands-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
     - [:fontawesome-brands-github: Source](https://github.com/gopasspw/gopass)

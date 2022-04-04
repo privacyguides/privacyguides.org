@@ -18,7 +18,7 @@ icon: material/chat-processing
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://signal.org/download)
-    - [:fontawesome-brands-app-store: Mac App Store](https://signal.org/download)
+    - [:fontawesome-brands-apple: macOS](https://signal.org/download)
     - [:fontawesome-brands-linux: Linux](https://signal.org/download)
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
     - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id874139669)
@@ -46,7 +46,7 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://element.io/get-started)
-    - [:fontawesome-brands-app-store: Mac App Store](https://element.io/get-started)
+    - [:fontawesome-brands-apple: macOS](https://element.io/get-started)
     - [:fontawesome-brands-linux: Linux](https://element.io/get-started)
     - [:fontawesome-brands-android: Android](https://f-droid.org/packages/im.vector.app/)
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
@@ -74,7 +74,6 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
     **Downloads**
     - [:fontawesome-brands-android: Android](https://f-droid.org/packages/org.briarproject.briar.android)
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
-    - [:fontawesome-brands-linux: Linux](https://briarproject.org/download-briar-desktop)
     - [:fontawesome-brands-git: Source](https://code.briarproject.org/briar/briar)
 
 To add a contact on Briar, you must both add each other first. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.
@@ -97,11 +96,12 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://getsession.org/windows)
-    - [:fontawesome-brands-app-store: Mac App Store](https://getsession.org/mac)
-    - [:fontawesome-brands-linux: Linux](https://www.getsession.org/linux)
+    - [:fontawesome-brands-apple: macOS](https://getsession.org/mac)
     - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1470168868)
+    - [:fontawesome-brands-linux: Linux](https://www.getsession.org/linux)
+    - [:fontawesome-brands-android: Android](https://fdroid.getsession.org/)
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
-    - [:pg-f-droid: F-Droid](https://fdroid.getsession.org/)
+    - [:pg-f-droid: F-Droid](https://fdroid.getsession.org)
     - [:fontawesome-brands-github: Source](https://github.com/oxen-io/session-desktop)
 
 Session allows for E2EE in one-to-one or closed rooms that allow up to 100 members. Open rooms have no restriction on the number of members, but anyone can join.

@@ -26,7 +26,7 @@ The options listed here are multi-platform and great for creating encrypted back
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://www.veracrypt.fr/en/Downloads.html)
-    - [:fontawesome-brands-app-store: Mac App Store](https://www.veracrypt.fr/en/Downloads.html)
+    - [:fontawesome-brands-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
     - [:fontawesome-brands-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
     - [:fontawesome-brands-git: Source](https://www.veracrypt.fr/code)
 
@@ -51,7 +51,7 @@ The options listed here are multi-platform and great for creating encrypted back
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
-    - [:fontawesome-brands-app-store: Mac App Store](https://gpgtools.org)
+    - [:fontawesome-brands-apple: macOS](https://gpgtools.org)
     - [:fontawesome-brands-linux: Linux](https://gnupg.org/download/index.html#binary)
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
     - [:fontawesome-brands-git: Source](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git)
@@ -70,7 +70,7 @@ The options listed here are multi-platform and great for creating encrypted back
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://cryptomator.org/downloads)
-    - [:fontawesome-brands-app-store: Mac App Store](https://cryptomator.org/downloads)
+    - [:fontawesome-brands-apple: macOS](https://cryptomator.org/downloads)
     - [:fontawesome-brands-linux: Linux](https://cryptomator.org/downloads)
     - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
@@ -90,7 +90,7 @@ The options listed here are multi-platform and great for creating encrypted back
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
-    - [:fontawesome-brands-app-store: Mac App Store](https://github.com/HACKERALERT/Picocrypt/releases)
+    - [:fontawesome-brands-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
     - [:fontawesome-brands-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
     - [:fontawesome-brands-github: Source](https://github.com/HACKERALERT/Picocrypt)
 
@@ -220,7 +220,7 @@ Tools with command-line interfaces are useful for intergrating [shell scripts](h
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://www.kryptor.co.uk)
-    - [:fontawesome-brands-app-store: Mac App Store](https://www.kryptor.co.uk)
+    - [:fontawesome-brands-apple: macOS](https://www.kryptor.co.uk)
     - [:fontawesome-brands-linux: Linux](https://www.kryptor.co.uk)
     - [:fontawesome-brands-github: Source](https://github.com/samuel-lucas6/Kryptor)
 
