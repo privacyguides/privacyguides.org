@@ -62,7 +62,7 @@ Authenticator Apps implement a security standard adopted by the Internet Enginee
 
     **Aegis Authenticator** is a free, secure and open source app to manage your 2-step verification tokens for your online services.
 
-    [Visit getaegis.app](https://getaegis.app){ .md-button .md-button--primary }
+    [Visit getaegis.app](https://getaegis.app){ .md-button .md-button--primary } [Privacy Policy](https://getaegis.app/aegis/privacy.html){ .md-button }
 
     **Downloads:**
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
@@ -75,10 +75,11 @@ Authenticator Apps implement a security standard adopted by the Internet Enginee
 
     ![Raivo OTP logo](/assets/img/multi-factor-authentication/raivo-otp.png){ align=right }
 
-    **Raivo OTP** is a native, lightweight and secure time-based (TOTP) & counter-based (HOTP) password client built for iOS.
+    **Raivo OTP** is a native, lightweight and secure time-based (TOTP) & counter-based (HOTP) password client for iOS. Raivo OTP offers optional iCloud backup & sync. Raivo OTP is also available for macOS in the form of a status bar application, however the Mac app does not work independently of the iOS app.
 
-    [Visit github.com](https://github.com/raivo-otp/ios-application){ .md-button .md-button--primary }
+    [Visit github.com](https://github.com/raivo-otp/ios-application){ .md-button .md-button--primary } [Privacy Policy](https://github.com/raivo-otp/ios-application/blob/master/PRIVACY.md){ .md-button }
 
     **Downloads:**
     - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
+    - [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/us/app/raivo-otp/id1498497896)
     - [:fontawesome-brands-github: GitHub](https://github.com/raivo-otp/ios-application)
