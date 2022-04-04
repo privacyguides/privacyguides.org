@@ -86,7 +86,7 @@ The options listed here are multi-platform and great for creating encrypted back
 
     **Picocrypt** is a small and simple encryption tool that provides modern encryption. Picocrypt uses the secure XChaCha20 cipher and the Argon2id key derivation function to provide a high level of security. It uses Go's standard x/crypto modules for its encryption features.
 
-    [Visit github.com](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
+    [Visit evansu.cc](https://evansu.cc/picocrypt){ .md-button .md-button--primary }
 
     **Downloads**
     - [:fontawesome-brands-windows: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
