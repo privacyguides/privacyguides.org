@@ -6,9 +6,9 @@ template: overrides/blog.html
 excerpt: "If someone has to tell you that they care about your privacy, they probably don't."
 ---
 
-Mark Zuckerberg does not look comfortable on stage. Yet there he was proclaiming that "the future is private". If someone has to tell you that they care about your privacy, they are unlikely to care about your privacy.
+Mark Zuckerberg does not look comfortable on stage. Yet there he was proclaiming that "the future is private". If someone has to tell you that they care about your privacy, they probably don't.
 
-For someone trying not to appear like a cartoon villain, Zuckerberg doesn't do a great job. He gives the impression of some strange cyborg algorithmically attempting to impersonate human life. His movements are not quite robotic, but he lacks the charisma you might expect from one of the most powerful people on the planet. A *New Yorker* [profile](https://www.newyorker.com/magazine/2018/09/17/can-mark-zuckerberg-fix-facebook-before-it-breaks-democracy) of him revealed that he had an affinity for Emperor Augustus, an ancient greek tyrant. 'Through a really harsh approach, [Augustus] established two hundred years of world peace,' he said.
+For someone trying not to appear like a cartoon villain, Zuckerberg doesn't do a great job. He gives the impression of some strange cyborg algorithmically attempting to impersonate human life. His movements are not quite robotic, but he lacks the charisma you might expect from one of the most powerful people on the planet. A *New Yorker* [profile](https://www.newyorker.com/magazine/2018/09/17/can-mark-zuckerberg-fix-facebook-before-it-breaks-democracy) of him revealed that he had an affinity for Emperor Augustus, an ancient Roman tyrant. 'Through a really harsh approach, [Augustus] established two hundred years of world peace,' he said.
 
 It's the first part of that sentence that is worrying.
 
