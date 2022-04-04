@@ -97,7 +97,7 @@ These are our current web browser recommendations and settings. We recommend kee
 
 On Android, Mozilla's engine [GeckoView](https://mozilla.github.io/geckoview/) has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196). Firefox on Android also doesn't yet have [HTTPS-Only mode](https://github.com/mozilla-mobile/fenix/issues/16952#issuecomment-907960218) built-in. We do not recommend Firefox or any Gecko based browsers at this time.
 
-On iOS all web browsers use [WKWebView](https://developer.apple.com/documentation/webkit/wkwebview), so all browsers on the App Store are essentially Safari under the hood.
+On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so there is little reason to use a third-party web browser.
 
 ### Bromite
 
@@ -175,9 +175,6 @@ On iOS all web browsers use [WKWebView](https://developer.apple.com/documentatio
     We generally do not recommend installing [any extensions](https://www.sentinelone.com/blog/inside-safari-extensions-malware-golden-key-user-data/) as they increase your browser's [attack surface](https://en.wikipedia.org/wiki/Attack_surface); however, if you want content blocking, [AdGuard for Safari](/browsers/#additional-resources) might be useful to you.
 
     [Visit apple.com](https://www.apple.com/safari/){ .md-button .md-button--primary } [Privacy Policy](https://www.apple.com/legal/privacy/data/en/safari/){ .md-button }
-
-    **Downloads**
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/safari/id1146562112)
 
 ## Additional Resources
 
