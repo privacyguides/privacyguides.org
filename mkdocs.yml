@@ -28,6 +28,7 @@ nav:
       - 'DNS': 'technology/dns.md'
     - 'Security Basics':
       - 'Multi-Factor Authentication': 'security/multi-factor-authentication.md'
+      - 'Integrating Metadata Removal': 'security/integrating-metadata-removal.md'
   - 'Recommendations':
     - 'Privacy Tools': 'tools.md'
     - 'Browsers':
