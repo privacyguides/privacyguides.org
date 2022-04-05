@@ -388,9 +388,9 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](/d
 
     **dnscrypt-proxy** is a DNS proxy with support for [DNSCrypt](/dns/#dnscrypt), [DNS-over-HTTPS](/dns/#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
-    !!! warning "The anonymized DNS feature does [**not**](/dns#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic."
-
     [Visit github.com](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .md-button .md-button--primary } [Privacy Policy](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .md-button }
 
     **Downloads**
     - [:fontawesome-brands-github: Source](https://github.com/DNSCrypt/dnscrypt-proxy)
+
+!!! warning "The anonymized DNS feature does [**not**](/dns#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic."
