@@ -294,7 +294,7 @@
             "version": "==1.3.0"
         },
         "mkdocs-material": {
-            "path": "./mkdocs-material-insiders",
+            "path": "./mkdocs-material",
             "version": "==8.2.8+insiders.4.12.0"
         },
         "mkdocs-material-extensions": {

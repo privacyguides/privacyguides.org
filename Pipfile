@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 mkdocs = "*"
-mkdocs-material = {path = "./mkdocs-material-insiders"}
+mkdocs-material = {path = "./mkdocs-material"}
 
 [dev-packages]
 
