@@ -29,13 +29,12 @@ Trying to protect all your data from everyone all the time is impractical, expen
 </div>
 </div>
 
-<center style="padding-top:5em;max-width:960px;margin:auto;" markdown>
+<div style="padding-top:5em;max-width:960px;margin:auto;text-align:center;" markdown>
 ## We need you! Here's how to get involved
 
 It's important for a website like Privacy Guides to always stay up-to-date. We need our audience to keep an eye on software updates for the applications listed on our site and follow recent news about providers that we recommend. We try our best to keep up, but we're not perfect and the internet is changing fast. If you find an error, think a provider should not be listed here, notice a qualified service provider is missing, believe a browser plugin is not the best choice anymore, or uncover anything else... Talk to us please.
-</center>
-<center markdown>
-<div class="grid cards" style="max-width:800px;text-align:center;padding-bottom:5em;" markdown>
+</div>
+<div class="grid cards" style="margin:auto;max-width:800px;text-align:center;" markdown>
 
 - [:fontawesome-brands-reddit: Join the r/PrivacyGuides Subreddit](https://www.reddit.com/r/privacyguides)
 - [:fontawesome-brands-twitter: Follow @Privacy_Guides on Twitter](https://twitter.com/privacy_guides)
@@ -43,4 +42,10 @@ It's important for a website like Privacy Guides to always stay up-to-date. We n
 - [:material-chat: Chat with us on Matrix](https://matrix.to/#/#privacyguides:matrix.org)
 
 </div>
-</center>
+<div style="padding:3em;text-align:center;" markdown>
+## About Privacy Guides
+
+**Privacy Guides** is a non-profit, socially motivated website that provides information for protecting your data security and privacy.
+
+We do not make money from recommending certain products, and we do not utilize affiliate links. [Learn more...](about.md)
+</div>
