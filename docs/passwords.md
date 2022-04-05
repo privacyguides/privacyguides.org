@@ -4,11 +4,11 @@ icon: material/form-textbox-password
 ---
 Stay safe and secure online with an encrypted and open-source password manager.
 
-## Password best practices
+## Password Best Practices
 
 - Always use unique passwords. Don't make yourself a victim of "[credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing)".
 - Store an exported backup of your passwords in an [encrypted container](/file-encryption) on another storage device. This can be useful if something happens to your device or the service you are using.
-- If possible store [Time-based one-time password (TOTP)](https://en.wikipedia.org/wiki/Time-based_one-time_password) tokens in a separate [TOTP app](/multi-factor-authentication) and not your password manager. TOTP codes are generated from a "[shared secret](https://en.wikipedia.org/wiki/Time-based_one-time_password#Security)". If the secret is obtained by an adversary they can generate TOTP values. Typically, mobile platforms have better app isolation and more secure methods for storing sensitive credentials.
+- If possible, store [Time-based one-time password (TOTP)](https://en.wikipedia.org/wiki/Time-based_one-time_password) tokens in a separate [TOTP app](/multi-factor-authentication) and not your password manager. TOTP codes are generated from a "[shared secret](https://en.wikipedia.org/wiki/Time-based_one-time_password#Security)". If the secret is obtained by an adversary they can generate TOTP values. Typically, mobile platforms have better app isolation and more secure methods for storing sensitive credentials.
 
 ## Local Password Managers
 
@@ -22,9 +22,6 @@ These password managers store the password database locally.
 
     **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, fully cross-platform and modern open-source password manager.
 
-    !!! warning
-        KeepassXC stores its export data as [comma-separated values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_values). This may mean data loss if you import this file into another password manager. We advise you check each record manually.
-
     [Visit keepassxc.org](https://keepassxc.org){ .md-button .md-button--primary } [Privacy Policy](https://keepassxc.org/privacy){ .md-button }
 
     **Downloads**
@@ -35,6 +32,10 @@ These password managers store the password database locally.
     - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
     - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
     - [:fontawesome-brands-github: Source](https://github.com/keepassxreboot/keepassxc)
+
+!!! warning
+
+    KeepassXC stores its export data as [comma-separated values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_values). This may mean data loss if you import this file into another password manager. We advise you check each record manually.
 
 ### KeepassDX
 
@@ -53,7 +54,7 @@ These password managers store the password database locally.
     - [:pg-f-droid: F-Droid](https://www.f-droid.org/packages/com.kunzisoft.keepass.libre)
     - [:fontawesome-brands-github: Source](https://github.com/Kunzisoft/KeePassDX)
 
-## Cloud syncing Password Managers
+## Cloud Syncing Password Managers
 
 These password managers sync up to a cloud server that may be self-hostable.
 
@@ -98,7 +99,7 @@ These password managers sync up to a cloud server that may be self-hostable.
     - [:fontawesome-brands-docker: Dockerhub](https://hub.docker.com/r/psono/psono-client)
     - [:fontawesome-brands-github: Source](https://gitlab.com/psono)
 
-## Password management servers
+## Password Management Servers
 
 These products are self-hostable synchronization for cloud based password managers.
 
@@ -125,7 +126,7 @@ These products are self-hostable synchronization for cloud based password manage
 
     Psono provides [extensive documentation](https://doc.psono.com/) for their product. The [web-client](https://doc.psono.com/admin/installation/install-webclient.html#installation-with-docker) for Psono can be self hosted; alternatively, you can choose the the full [Community Edition](https://doc.psono.com/admin/installation/install-server-ce.html) or the [Enterprise Edition](https://doc.psono.com/admin/installation/install-server-ee.html) with additional features.
 
-    [Visit gitlab.com](https://gitlab.com/psono/psono-server) { .md-button .md-button--primary } [Privacy Policy](https://psono.com/privacy-policy){ .md-button }
+    [Visit gitlab.com](https://gitlab.com/psono/psono-server){ .md-button .md-button--primary } [Privacy Policy](https://psono.com/privacy-policy){ .md-button }
 
     **Downloads**
     - [:fontawesome-brands-docker: Dockerhub](https://hub.docker.com/r/psono/psono-server)
