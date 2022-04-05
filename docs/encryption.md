@@ -15,12 +15,7 @@ The options listed here are multi-platform and great for creating encrypted back
     ![VeraCrypt logo](/assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
     ![VeraCrypt logo](/assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
 
-    **VeraCrypt** is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file, encrypt a partition, or encrypt the entire storage device with pre-boot authentication. VeraCrypt is a fork of the discontinued TrueCrypt project. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed.
-
-    Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits) and VeraCrypt has also been [audited seperately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
-
-    !!! attention
-        When encrypting with VeraCrypt, the user has the option to select from different [hash functions](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). We suggest users **only** select [SHA-512](https://en.wikipedia.org/wiki/SHA-512) and should stick to the [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) block cipher.
+    **VeraCrypt** is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file, encrypt a partition, or encrypt the entire storage device with pre-boot authentication.
 
     [Visit veracrypt.fr](https://veracrypt.fr){ .md-button .md-button--primary }
 
@@ -30,6 +25,12 @@ The options listed here are multi-platform and great for creating encrypted back
     - [:fontawesome-brands-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
     - [:fontawesome-brands-git: Source](https://www.veracrypt.fr/code)
 
+VeraCrypt is a fork of the discontinued TrueCrypt project. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed.
+
+When encrypting with VeraCrypt, the user has the option to select from different [hash functions](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). We suggest users **only** select [SHA-512](https://en.wikipedia.org/wiki/SHA-512) and should stick to the [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) block cipher.
+
+Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits) and VeraCrypt has also been [audited seperately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
+
 ### Cryptomator
 
 !!! recommendation
@@ -37,8 +38,6 @@ The options listed here are multi-platform and great for creating encrypted back
     ![Cryptomator logo](/assets/img/encryption-software/cryptomator.svg){ align=right }
 
     **Cryptomator** makes it easy for you to upload files to the cloud in a virtual encrypted file system.
-
-    Some of the Cryptomator Crypto Libraries have been [audited](https://cryptomator.org/open-source/) by [Cure53](https://cryptomator.org/audits/2017-11-27%20crypto%20cure53.pdf). The scope of those libraries included [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) and [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). It did not include [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift) which is now used on iOS.
 
     [Visit cryptomator.org](https://cryptomator.org){ .md-button .md-button--primary } [Privacy Policy](https://cryptomator.org/privacy){ .md-button }
 
@@ -51,6 +50,8 @@ The options listed here are multi-platform and great for creating encrypted back
     - [:fontawesome-brands-android: F-Droid repo](https://cryptomator.org/android)
     - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
     - [:fontawesome-brands-github: Source](https://github.com/cryptomator)
+
+Some of the Cryptomator Crypto Libraries have been [audited](https://cryptomator.org/open-source/) by [Cure53](https://cryptomator.org/audits/2017-11-27%20crypto%20cure53.pdf). The scope of those libraries included [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) and [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). It did not include [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift) which is now used on iOS.
 
 ### Picocrypt
 
@@ -80,42 +81,42 @@ Modern operating systems include [disk encryption](https://en.wikipedia.org/wiki
 
     **BitLocker** is the full volume encryption solution bundled with Microsoft Windows. The main reason we recommend it is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). [ElcomSoft](https://en.wikipedia.org/wiki/ElcomSoft), a forensics company, has written about it in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
 
-    !!! note
-        BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on Pro, Enterprise, and Education editions of Windows. It can be enabled on Home editions provided that they meet the prerequisites.
+    [Visit microsoft.com](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .md-button .md-button--primary }
 
-    ??? tip "Enabling BitLocker on Windows Home"
-        To enable BitLocker on "Home" editions of Windows, you must partitions formatted with formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated [TPM](https://en.wikipedia.org/wiki/Trusted_Platform_Module) (v1.2, 2.0+) module.
+BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on Pro, Enterprise, and Education editions of Windows. It can be enabled on Home editions provided that they meet the prerequisites.
 
-        1. Open Windows [PowerShell](https://en.wikipedia.org/wiki/PowerShell). Start "PowerShell"
+??? example "Enabling BitLocker on Windows Home"
 
-        2. Check to see partition table format:
-           ```
-           powershell Get-Disk 0 | findstr GPT && echo This is a GPT system disk!
-           ```
+    To enable BitLocker on "Home" editions of Windows, you must partitions formatted with formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated [TPM](https://en.wikipedia.org/wiki/Trusted_Platform_Module) (v1.2, 2.0+) module.
 
-        3. Check TPM version. The value returned must be "3 True". The spec must be 1.2 or above.
-           ```
-           powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm | findstr "IsActivated IsEnabled IsOwned SpecVersion"
-           ```
+    1. Open Windows [PowerShell](https://en.wikipedia.org/wiki/PowerShell). Start "PowerShell"
 
-        4. Access Windows 10 "Advanced Startup Options". (Press "reboot" while holding shift button). *Troubleshoot > Advanced Options > Command Prompt*
-
-        5. Login with your account that has admin privileges and type this to start encryption:
-           ```
-           manage-bde -on c: -used
-           ```
-
-        6. Close the command prompt, and enter into PowerShell:
+    2. Check to see partition table format:
         ```
-        manage-bde c: -protectors -add -rp -tpm
-        manage-bde -protectors -enable c:
-        manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
+        powershell Get-Disk 0 | findstr GPT && echo This is a GPT system disk!
         ```
+
+    3. Check TPM version. The value returned must be "3 True". The spec must be 1.2 or above.
+        ```
+        powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm | findstr "IsActivated IsEnabled IsOwned SpecVersion"
+        ```
+
+    4. Access Windows 10 "Advanced Startup Options". (Press "reboot" while holding shift button). *Troubleshoot > Advanced Options > Command Prompt*
+
+    5. Login with your account that has admin privileges and type this to start encryption:
+        ```
+        manage-bde -on c: -used
+        ```
+
+    6. Close the command prompt, and enter into PowerShell:
+    ```
+    manage-bde c: -protectors -add -rp -tpm
+    manage-bde -protectors -enable c:
+    manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
+    ```
 
         !!! warning
             Backup `BitLocker-Recovery-Key.txt` on a separate storage device. Loss of this recovery code, may result in loss of data.
-
-    [Visit microsoft.com](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .md-button .md-button--primary }
 
 ### FileVault
 
@@ -125,10 +126,9 @@ Modern operating systems include [disk encryption](https://en.wikipedia.org/wiki
 
     **FileVault** is the on-the-fly volume encryption solution built into macOS. FileVault is recommended because it [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) hardware security capabilities present on an Apple silicon SoC or T2 Security Chip.
 
-    !!! note
-        We recommend storing a local recovery key in a secure place as opposed to utilizing iCloud FileVault recovery. As well, FileVault should be enabled **after** a complete macOS installation as more pseudorandom number generator ([PRNG](https://support.apple.com/guide/security/random-number-generation-seca0c73a75b/web)) [entropy](https://en.wikipedia.org/wiki/Entropy_(computing)) will be available.
-
     [Visit support.apple.com](https://support.apple.com/en-us/HT204837){ .md-button .md-button--primary }
+
+We recommend storing a local recovery key in a secure place as opposed to utilizing iCloud FileVault recovery. As well, FileVault should be enabled **after** a complete macOS installation as more pseudorandom number generator ([PRNG](https://support.apple.com/guide/security/random-number-generation-seca0c73a75b/web)) [entropy](https://en.wikipedia.org/wiki/Entropy_(computing)) will be available.
 
 ### Linux Unified Key Setup (LUKS)
 
@@ -138,27 +138,29 @@ Modern operating systems include [disk encryption](https://en.wikipedia.org/wiki
 
     **LUKS** is the default full disk encryption method for Linux. It can be used to encrypt full volumes, partitions, or create encrypted containers.
 
-    ??? "Creating and opening encrypted containers"
-        ```
-        dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
-        sudo cryptsetup luksFormat /path-to-file
-        ```
-
-        #### Opening encrypted containers
-        We recommend opening containers and volumes with `udisksctl` as this uses [Polkit](https://en.wikipedia.org/wiki/Polkit). Most file managers, such as those included with popular desktop environments, can unlock encrypted files. Tools like [udiskie](https://github.com/coldfix/udiskie) can run in the system tray and provide a helpful user interface.
-        ```
-        udisksctl loop-setup -f /path-to-file
-        udisksctl unlock -b /dev/loop0
-        ```
-
-    !!! Warning "Back up volume headers"
-        We recommend you always [back up your LUKS headers](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) in case of partial drive failure. This can be done with:
-
-        ```
-        cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
-        ```
-
     [Visit gitlab.com](https://gitlab.com/cryptsetup/cryptsetup){ .md-button .md-button--primary }
+
+??? example "Creating and opening encrypted containers"
+
+    ```
+    dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
+    sudo cryptsetup luksFormat /path-to-file
+    ```
+
+    #### Opening encrypted containers
+    We recommend opening containers and volumes with `udisksctl` as this uses [Polkit](https://en.wikipedia.org/wiki/Polkit). Most file managers, such as those included with popular desktop environments, can unlock encrypted files. Tools like [udiskie](https://github.com/coldfix/udiskie) can run in the system tray and provide a helpful user interface.
+    ```
+    udisksctl loop-setup -f /path-to-file
+    udisksctl unlock -b /dev/loop0
+    ```
+
+!!! Warning "Remember to back up volume headers"
+
+    We recommend you always [back up your LUKS headers](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) in case of partial drive failure. This can be done with:
+
+    ```
+    cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
+    ```
 
 ## Browser-based
 
@@ -215,11 +217,11 @@ Tools with command-line interfaces are useful for intergrating [shell scripts](h
 
 [OpenPGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP) is sometimes needed for specific tasks such as digitally signing and encrypting email. PGP has many features and is [complex](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) as it has been around a long time. For tasks such as signing or encrypting files, we suggest the above options.
 
-!!! attention
-    When encrypting with PGP, the user has the option to configure different options in their `gpg.conf` file. We recommend staying with the standard options specified in the [GnuPG user FAQ](https://www.gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
+When encrypting with PGP, the user has the option to configure different options in their `gpg.conf` file. We recommend staying with the standard options specified in the [GnuPG user FAQ](https://www.gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
 
-??? tip "Future default"
-    When [generating keys](https://www.gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to/).
+??? tip "Use future defaults when generating a key"
+
+    When [generating keys](https://www.gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to/):
 
     ```bash
     gpg --quick-gen-key alice@example.com future-default
@@ -266,14 +268,15 @@ Tools with command-line interfaces are useful for intergrating [shell scripts](h
 
     We recommend taking a look at their [First steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) and [Knowledge base](https://gpgtools.tenderapp.com/kb) for support.
 
-    !!! note
-        On iOS devices we suggest [Canary Mail](/email-clients/#canary-mail).
-
     [Visit gpgtools.org](https://gpgtools.org){ .md-button .md-button--primary } [Privacy Policy](https://gpgtools.org/privacy){ .md-button }
 
     **Downloads**
     - [:fontawesome-brands-apple: macOS](https://gpgtools.org)
     - [:fontawesome-brands-git: Source](https://github.com/GPGTools)
+
+!!! note
+
+    We suggest [Canary Mail](/email-clients/#canary-mail) for using PGP with email on iOS devices.
 
 ### OpenKeychain
 

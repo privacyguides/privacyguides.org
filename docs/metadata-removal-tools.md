@@ -60,14 +60,15 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 ### Imagepipe
 
+!!! info
+
+    Imagepipe is only available from F-Droid and not in Google Play. If you're looking for a paint app in Google Play we suggest [Pocket Paint](https://play.google.com/store/apps/details?id=org.catrobat.paintroid).
+
 !!! recommendation
 
     ![Imagepipe logo](/assets/img/metadata-removal/imagepipe.svg){ align=right }
 
     **Imagepipe** is a a paint app for Android that can be used to redact photos and also delete [EXIF](https://en.wikipedia.org/wiki/Exif) metadata. It has been translated into [many](https://codeberg.org/Starfish/Imagepipe#translations) languages.
-
-    !!! info
-        Imagepipe is only available from F-Droid and not in Google Play. If you're looking for a paint app in Google Play we suggest [Pocket Paint](https://play.google.com/store/apps/details?id=org.catrobat.paintroid).
 
     [Visit codeberg.org](https://codeberg.org/Starfish/Imagepipe){ .md-button .md-button--primary }
 
@@ -77,14 +78,15 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 ### Metapho
 
+!!! attention
+
+    Metapho is closed source. We recommend it, due to the few choices there are for iOS devices.
+
 !!! recommendation
 
     ![Metapho logo](/assets/img/metadata-removal/metapho.jpg){ align=right }
 
     Metapho is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
-
-    !!! attention
-        Metapho is closed source. We recommend it, due to the few choices there are for iOS devices.
 
     [Visit zininworks.com)](https://zininworks.com/metapho){ .md-button .md-button--primary } [Privacy Policy](https://zininworks.com/privacy/){ .md-button }
 
@@ -103,11 +105,6 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     It's often a component of other EXIF removal applications and is in most Linux distribution repositories.
 
-    To delete data from a directory of files:
-    ```
-    exiftool -all= *.file_extension
-    ```
-
     [Visit exiftool.org](https://exiftool.org){ .md-button .md-button--primary }
 
     **Downloads**
@@ -116,3 +113,9 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
     - [:fontawesome-brands-linux: Linux](https://exiftool.org)
     - [:fontawesome-brands-git: Source](https://sourceforge.net/projects/exiftool)
     - [:fontawesome-brands-github: Source](https://github.com/exiftool/exiftool)
+
+To delete data from a directory of files:
+
+```bash
+exiftool -all= *.file_extension
+```

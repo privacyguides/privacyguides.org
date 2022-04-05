@@ -6,3 +6,4 @@ no-hard-tabs:
   spaces-per-tab: 4
 emphasis-style:
   style: "asterisk"
+no-duplicate-header: false
