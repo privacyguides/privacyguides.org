@@ -54,9 +54,13 @@
     color: var(--md-primary-bg-color);
 }
 .mdx-hero .md-button--primary {
-    color: var(--md-primary-fg-color)!important;
+    color: var(--md-primary-fg-color);
     background-color: var(--md-primary-bg-color);
-    border-color: var(--md-primary-bg-color);
+    border-color: transparent;
     margin-right: 0.5rem;
     margin-top: 0.5rem;
+}
+
+.mdx-hero .md-button--primary:is(:focus, :hover) {
+    color: white;
 }
