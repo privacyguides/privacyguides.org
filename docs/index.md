@@ -32,7 +32,7 @@ Trying to protect all your data from everyone all the time is impractical, expen
 <div style="padding-top:5em;max-width:960px;margin:auto;text-align:center;" markdown>
 ## We need you! Here's how to get involved
 
-It's important for a website like Privacy Guides to always stay up-to-date. We need our audience to keep an eye on software updates for the applications listed on our site and follow recent news about providers that we recommend. We try our best to keep up, but we're not perfect and the internet is changing fast. If you find an error, think a provider should not be listed here, notice a qualified service provider is missing, believe a browser plugin is not the best choice anymore, or uncover anything else... Talk to us please.
+It's important for a website like Privacy Guides to always stay up-to-date. We need our audience to keep an eye on software updates for the applications listed on our site and follow recent news about providers that we recommend. It's hard to keep up with the fast pace of the internet, but we try our best. If you spot an error, think a provider should not be listed, notice a qualified provider is missing, believe a browser plugin is no longer the best choice, or uncover any other issue, let us know.
 </div>
 <div class="grid cards" style="margin:auto;max-width:800px;text-align:center;" markdown>
 
