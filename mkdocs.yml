@@ -72,14 +72,6 @@ nav:
         - 'Virtual Insanity': 'blog/2021/11/01/virtual-insanity.md'
       - 'September':
         - 'Welcome to Privacy Guides': 'blog/2021/09/14/welcome-to-privacy-guides.md'
-    - '2019':
-      - 'November':
-        - 'Firefox Privacy': 'blog/2019/11/09/firefox-privacy.md'
-      - 'October':
-        - 'Choosing a VPN': 'blog/2019/10/30/choosing-a-vpn.md'
-        - 'Understanding VPNs': 'blog/2019/10/05/understanding-vpns.md'
-      - 'August':
-        - 'Self Hosting a Shadowsocks VPN with Outline': 'blog/2019/08/22/self-hosting-shadowsocks-vpn-outline.md'
 
 theme:
   name: material
