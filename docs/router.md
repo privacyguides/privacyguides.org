@@ -6,15 +6,15 @@ Below are a few alternative operating systems, that can be used on routers, Wi-F
 
 ### OpenWrt
 
+!!! note
+    Consult the [Table of Hardware](https://openwrt.org/toh/start) to check if your device is supported.
+
 !!! recommendation
 
     ![OpenWrt logo](/assets/img/router/openwrt.svg#only-light){ align=right }
     ![OpenWrt logo](/assets/img/router/openwrt-dark.svg#only-dark){ align=right }
 
     **OpenWrt** is an operating system (in particular, an embedded operating system) based on the Linux kernel, primarily used on embedded devices to route network traffic. The main components are the Linux kernel, util-linux, uClibc, and BusyBox. All components have been optimized for size, to be small enough for fitting into the limited storage and memory available in home routers.
-
-    !!! note
-        Consult the [Table of Hardware](https://openwrt.org/toh/start) to check if your device is supported.
 
     [Visit openwrt.org](https://openwrt.org){ .md-button .md-button--primary }
 
