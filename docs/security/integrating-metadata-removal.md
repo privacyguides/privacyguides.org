@@ -6,15 +6,15 @@ icon: 'material/data-matrix-remove'
 
 When sharing files, it's important to remove associated metadata. Image files commonly include [EXIF](https://en.wikipedia.org/wiki/Exif) data, and sometimes photos even include GPS coordinates within its metadata.
 
-While there are plenty of metadata removal tools, it's hard to beat a native implementation. The guides featured here aim to offer practical metadata removal solutions by integrating in a native fashion.
+While there are plenty of metadata removal tools, it's hard to beat the convenience of ones with native system integration. The guides featured here aim to detail how to integrate metadata removal tools in a simple fashion by utilizing system components.
 
 ## Operating System Integration
 
 ### macOS
 
-[Automator](https://support.apple.com/guide/automator/welcome/mac) is an app used to create workflows for automating repetitive tasks. Automator is developed by Apple and is bundled by default in macOS.
+[Automator](https://support.apple.com/guide/automator/welcome/mac) is an app developed by Apple for the purposing of automating repetitive tasks. Automator is bundled in with macOS by default.
 
-Workflows created in Automator can be easily integrated into macOS menus, making accessing those workflows very convenient. This guide will show you how to integrate a metadata removal workflow using Automator & ExifTool.
+Workflows created in Automator can be easily integrated into macOS menus, making accessing said workflows very convenient. This guide will show you how to integrate a metadata removal workflow using Automator & ExifTool.
 
 ![ExifTool Quick Action](/assets/img/integrating-metadata-removal/preview-macos.jpg)
 
@@ -100,7 +100,7 @@ If you wish to override the original image, add `-overwrite_original` before `-a
 
 Shortcuts can be made accessible through the system Share Sheet, making accessing those shortcuts very convenient. This guide will show you how to build a metadata removal shortcut and integrate it into the system Share Sheet.
 
-**It's important to note that this method of metadata removal is not as comprehensive at removing metadata as utilities like [ExifTool](/metadata-removal-tools/#exiftool) and [mat2](/metadata-removal-tools/#mat2) are.** The lack of *good* metadata removal apps on the App Store is what makes this solution worthwhile.
+**It's important to note that this method of metadata removal is not as comprehensive at removing metadata as utilities like [ExifTool](/metadata-removal-tools/#exiftool) and [mat2](/metadata-removal-tools/#mat2) are.** The lack of *good* metadata removal apps on the App Store is what makes this solution somewhat worthwhile.
 
 #### Prerequisites
 
