@@ -70,12 +70,14 @@ Get working and collaborating without sharing your documents with a middleman or
 
     ![PrivateBin logo](/assets/img/productivity/privatebin.svg){ align=right }
 
-    **PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin. Do note that it uses JavaScript to handle encryption, so you must trust the provider to the extent that they do not inject any malicious JavaScript to get your private key. Consider self-hosting to mitigate this threat.
+    **PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin.
 
     [Visit privatebin.info](https://privatebin.info){ .md-button .md-button--primary }
 
     **Downloads**
     - [:fontawesome-brands-github: Source](https://github.com/PrivateBin/PrivateBin)
+
+Do note that PrivateBin uses JavaScript to handle encryption, so you must trust the provider to the extent that they do not inject any malicious JavaScript to get your private key. Consider self-hosting to mitigate this threat.
 
 ### CryptPad
 
