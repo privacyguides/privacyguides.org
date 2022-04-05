@@ -27,11 +27,13 @@ For your convenience, everything we recommend is listed below with a link to the
 
 - ![uBlock Origin logo](/assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](https://github.com/gorhill/uBlock)
 - ![AdGuard logo](/assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for Safari](https://adguard.com/en/adguard-safari/overview.html)
-- ![ToS;DR logo](/assets/img/browsers/terms_of_service_didnt_read.svg){ .twemoji } [Terms of Service; Didn't Read](https://tosdr.org/)
+- ![ToS;DR logo](/assets/img/browsers/terms_of_service_didnt_read.svg){ .twemoji } [Terms of Service; Didn't Read*](https://tosdr.org/)
 
 </div>
 
 [Learn more...](browsers.md)
+
+\* We do not recommend installing ToS;DR as a browser extension. The same information is provided on their website.
 
 ## Operating Systems
 
