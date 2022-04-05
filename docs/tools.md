@@ -1,5 +1,5 @@
 ---
-title: Privacy Tools
+title: Recommended Privacy Tools
 icon: material/tools
 hide:
     - toc
