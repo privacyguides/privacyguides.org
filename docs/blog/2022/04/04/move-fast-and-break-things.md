@@ -14,7 +14,7 @@ It's the first part of that sentence that is worrying.
 
 Is this what Zuckerberg sees himself as: a modern-day emperor hellbent on using any means he can to gain world peace? Probably not, but it would have been reassuring if he just told us he liked doing Sudoku and dad-dancing with his daughter (interestingly named August).
 
-The Zuck once [joked](https://www.esquire.com/uk/latest-news/a19490586/mark-zuckerberg-called-people-who-handed-over-their-data-dumb-f/) to a friend that he could he could get them 'info' about anyone in Harvard. He had email addresses, pictures, real addresses: the lot. When the friend asked how, this was his repost: 'People just submitted it. I don't know why. They trust me. Dumb f*cks.' We now live in a reality where Zuckerberg can get 'info' about almost anyone in the world.
+The Zuck once [joked](https://www.esquire.com/uk/latest-news/a19490586/mark-zuckerberg-called-people-who-handed-over-their-data-dumb-f/) to a friend that he could get them 'info' about anyone in Harvard. He had email addresses, pictures, real addresses: the lot. When the friend asked how, this was his repost: 'People just submitted it. I don't know why. They trust me. Dumb f*cks.' We now live in a reality where Zuckerberg can get 'info' about almost anyone in the world.
 
 Like a depraved tabloid journalist fishing through a minor celebrity's trash, Facebook collects everything it can about its users. Even if it means sifting through garbage, they want that data. But Facebook is not technically in the data business. It is in what author and professor Carissa Véliz [terms](https://aeon.co/essays/privacy-matters-because-it-empowers-us-all) 'the business of power' - which sounds rather more sinister than flogging off mildly irritating adverts.
 
