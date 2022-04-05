@@ -24,8 +24,10 @@ nav:
   - Home: 'index.md'
   - 'Privacy Introduction':
     - 'Threat Modeling': 'threat-modeling.md'
+    - 'Technology Basics':
+      - 'DNS': 'technology/dns.md'
     - 'Security Basics':
-      - 'Multi-Factor Authentication': 'multi-factor-authentication.md'
+      - 'Multi-Factor Authentication': 'security/multi-factor-authentication.md'
   - 'Recommendations':
     - 'Privacy Tools': 'tools.md'
     - 'Browsers':
