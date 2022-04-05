@@ -1,0 +1,3 @@
+[submodule "mkdocs-material-insiders"]
+	path = mkdocs-material-insiders
+	url = git@github.com:privacyguides/mkdocs-material-insiders.git

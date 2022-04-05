@@ -1,0 +1,2 @@
+mkdocs==1.3.0
+mkdocs-material-insiders @ ./mkdocs-material-insiders
