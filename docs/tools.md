@@ -288,7 +288,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 <div class="grid cards" markdown>
 
-- ![OnionShare logo](/assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [Onionshare](https://onionshare.org/)
+- ![OnionShare logo](/assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [OnionShare](https://onionshare.org/)
 - ![Magic Wormhole logo](/assets/img/file-sharing-sync/magic_wormhole.png){ .twemoji } [Magic Wormhole](https://magic-wormhole.readthedocs.io/)
 - ![croc logo](/assets/img/file-sharing-sync/croc.jpg){ .twemoji } [croc](https://schollz.com/blog/croc6)
 - ![FreedomBox logo](/assets/img/file-sharing-sync/freedombox.svg){ .twemoji } [FreedomBox](https://freedombox.org/)
@@ -308,7 +308,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 - ![Scrambled Exif logo](/assets/img/metadata-removal/scrambled-exif.svg){ .twemoji } [Scrambled Exif (Android)](https://gitlab.com/juanitobananas/scrambled-exif)
 - ![Imagepipe logo](/assets/img/metadata-removal/imagepipe.svg){ .twemoji } [Imagepipe (Android)](https://codeberg.org/Starfish/Imagepipe)
 - ![Metapho logo](/assets/img/metadata-removal/metapho.jpg){ .twemoji } [Metapho (iOS)](https://zininworks.com/metapho)
-- ![Exiftool logo](/assets/img/metadata-removal/exiftool.png){ .twemoji } [Exiftool (CLI)](https://exiftool.org/)
+- ![ExifTool logo](/assets/img/metadata-removal/exiftool.png){ .twemoji } [ExifTool (CLI)](https://exiftool.org/)
 
 </div>
 
@@ -318,13 +318,13 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 <div class="grid cards" markdown>
 
-- ![KeepassXC logo](/assets/img/password-management/keepassxc.svg){ .twemoji } [KeepassXC](https://keepassxc.org/)
-- ![KeepassDX logo](/assets/img/password-management/keepassdx.svg){ .twemoji } [KeepassDX (Android)](https://www.keepassdx.com/)
+- ![KeePassXC logo](/assets/img/password-management/keepassxc.svg){ .twemoji } [KeePassXC](https://keepassxc.org/)
+- ![KeePassDX logo](/assets/img/password-management/keepassdx.svg){ .twemoji } [KeePassDX (Android)](https://www.keepassdx.com/)
 - ![Bitwarden logo](/assets/img/password-management/bitwarden.svg){ .twemoji } [Bitwarden](https://bitwarden.com/)
 - ![Psono logo](/assets/img/password-management/psono.svg){ .twemoji } [Psono](https://psono.com/)
 - ![Pass logo](/assets/img/password-management/pass.svg){ .twemoji } [pass](https://www.passwordstore.org/)
 - ![gopass logo](/assets/img/password-management/gopass.svg){ .twemoji } [gopass](https://www.gopass.pw/)
-- ![Vaultwarden logo](/assets/img/password-management/vaultwarden.svg#only-light){ .twemoji }![Vaultwarden logo](/assets/img/password-management/vaultwarden-dark.svg#only-dark){ .twemoji } [VaultWarden (Bitwarden Server)](https://github.com/dani-garcia/vaultwarden)
+- ![Vaultwarden logo](/assets/img/password-management/vaultwarden.svg#only-light){ .twemoji }![Vaultwarden logo](/assets/img/password-management/vaultwarden-dark.svg#only-dark){ .twemoji } [Vaultwarden (Bitwarden Server)](https://github.com/dani-garcia/vaultwarden)
 
 </div>
 
@@ -377,7 +377,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 - ![FreeTube logo](/assets/img/video-streaming/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](https://freetubeapp.io/)
 - ![LBRY logo](/assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](https://lbry.com/)
-- ![Newpipe logo](/assets/img//video-streaming/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](https://newpipe.net/)
+- ![NewPipe logo](/assets/img//video-streaming/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](https://newpipe.net/)
 - ![NewPipe x SponsorBlock logo](/assets/img/video-streaming/newpipe.svg){ .twemoji } [NewPipe x Sponsorblock](https://github.com/polymorphicshade/NewPipe)
 - ![Invidious logo](/assets/img/video-streaming/invidious.svg#only-light){ .twemoji }![Invidious logo](/assets/img/video-streaming/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](https://invidious.io/)
 - ![Piped logo](/assets/img/video-streaming/piped.svg){ .twemoji } [Piped (YouTube, Web)](https://piped.kavin.rocks/)
