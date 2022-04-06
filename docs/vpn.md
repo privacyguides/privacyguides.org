@@ -62,9 +62,9 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     Mullvad provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/mullvad/mullvadvpn-app).
 
-??? check "Accepts Bitcoin"
+??? check "Accepts Cash"
 
-    Mullvad, in addition to accepting credit/debit cards and PayPal, accepts **Bitcoin**, **Bitcoin Cash**, and **cash/local currency** as anonymous forms of payment. They also accept Swish and bank wire transfers.
+    Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, and **cash/local currency** as anonymous forms of payment. They also accept Swish and bank wire transfers.
 
 ??? check "WireGuard Support"
 
@@ -114,9 +114,9 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     ProtonVPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
 
-??? check "Accepts Bitcoin"
+??? check "Accepts Cash"
 
-    ProtonVPN does technically accept Bitcoin payments; however, you either need to have an existing account, or contact their support team in advance to register with Bitcoin.
+    ProtonVPN, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, and **cash/local currency** as anonymous forms of payment.
 
 ??? check "WireGuard Support"
 
@@ -162,9 +162,9 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     As of Feburary 2020 [IVPN applications are now open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
 
-??? check "Accepts Bitcoin"
+??? check "Accepts Cash and Monero"
 
-    In addition to accepting credit/debit cards and PayPal, IVPN accepts **Bitcoin**, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment.
+    In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment.
 
 ??? check "WireGuard Support"
 
