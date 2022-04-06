@@ -1,0 +1,47 @@
+/* XPM */
+
+/* The Tomb icon is an artwork by Jordi aka MonMort
+   a nomadic graffiti artist from Barcelona */
+
+const char *monmort[] = {
+/* columns rows colors chars-per-pixel */
+"32 32 5 1",
+"  c #000000",
+". c #010101",
+"X c #020202",
+"o c #C1C1C1",
+"O c None",
+/* pixels */
+"OO                            OO",
+"O oooooooooooooooooooooooooooo O",
+" oooooooooooooooooooooooooooooo ",
+" oooooooooooooooooooooooooooooo ",
+" oooooooo  X     oooooo     ooo ",
+" oooooooo        oooooo     ooo ",
+" oooooooo        oooooo     ooo ",
+" oooooooo        oooooo     oooX",
+" oooooooo    X   oooooo     ooo ",
+" oooooooo        oooooo     ooo ",
+" oooooooo       Xoooooo     ooo ",
+" oooooooo        oooooo   X ooo ",
+" oooooooo X      oooooo     ooo ",
+" oooooooooooooooooooooooooooooo ",
+" oooooooooooooooooooooo oooooooX",
+" ooooooooooooooooooooooo oooooo ",
+" oooooooooooooooo      X  ooooo ",
+"O ooooooooooooooooooooooooooooo ",
+"OO          oooooooooooooooooo O",
+"OOOOOOOOOOOO oooo ooo ooo ooo OO",
+"OOOOOOOOOOOOO ooo ooo oooXooo OO",
+"OOOOOOOOOOOOO oooXooo ooo ooo OO",
+"OOOOOOOOOOOOO ooo ooo ooo ooo OO",
+"OOOOOOOOOOOOO ooo ooo ooo ooo OO",
+"OOOOOOOOOOOOO ooo ooo ooo ooo OO",
+"OOOOOOOOOOOOO ooo ooo ooo ooo OO",
+"OOOOOOOOOOOOO ooo ooo ooo oooXOO",
+"OOOOOOOOOOOOO ooo ooo ooo ooo OO",
+"OOOOOOOOOOOOOXooo ooo ooo ooo OO",
+"OOOOOOOOOOOOO ooooooooooooooo OO",
+"OOOOOOOOOOOOOO ooooooooooooo OOO",
+"OOOOOOOOOOOOOOO             OOOO"
+};
