@@ -291,7 +291,6 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 - ![OnionShare logo](/assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [OnionShare](https://onionshare.org/)
 - ![Magic Wormhole logo](/assets/img/file-sharing-sync/magic_wormhole.png){ .twemoji } [Magic Wormhole](https://magic-wormhole.readthedocs.io/)
-- ![croc logo](/assets/img/file-sharing-sync/croc.jpg){ .twemoji } [croc](https://schollz.com/blog/croc6)
 - ![FreedomBox logo](/assets/img/file-sharing-sync/freedombox.svg){ .twemoji } [FreedomBox](https://freedombox.org/)
 - ![Syncthing logo](/assets/img/file-sharing-sync/syncthing.svg){ .twemoji } [Syncthing](https://syncthing.net/)
 - ![git-annex logo](/assets/img/file-sharing-sync/gitannex.svg){ .twemoji } [git-annex](https://git-annex.branchable.com/)

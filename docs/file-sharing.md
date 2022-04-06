@@ -38,26 +38,6 @@ Discover how to privately share your files between your devices, with your frien
     - [:fontawesome-brands-linux: Linux](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation)
     - [:fontawesome-brands-github: Source](https://github.com/magic-wormhole/magic-wormhole)
 
-### croc
-
-!!! recommendation
-
-    ![croc logo](/assets/img/file-sharing-sync/croc.jpg){ align=right }
-
-    **Croc** is a way to easily and securely send arbitrary-sized files from one computer to another. Similar to Magic Wormhole but without dependencies, resulting in a smaller application.
-
-    [Visit schollz.com](https://schollz.com/blog/croc6){ .md-button .md-button--primary }
-
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://github.com/schollz/croc/releases)
-    - [:fontawesome-brands-apple: macOS](https://github.com/schollz/croc/releases)
-    - [:fontawesome-brands-linux: Linux](https://github.com/schollz/croc/releases)
-    - [:fontawesome-brands-github: Source](https://github.com/schollz/croc)
-
-!!! Warning
-
-    The default encryption curve SIEC is fairly unknown and has not been tested thoroughly. We recommend using the `--curve` [option](https://github.com/schollz/croc/blob/master/README.md#change-encryption-curve) to switch to a more widely known curve such as the p521 curve.
-
 ## FreedomBox
 
 !!! recommendation
