@@ -2,8 +2,9 @@
 title: Recommended Privacy Tools
 icon: material/tools
 hide:
-    - toc
+  - toc
 ---
+
 If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your use case.
 
 If you want assistance figuring out the best privacy tools and alternative programs for your workload/use-case, start a discussion in our [Reddit](https://www.reddit.com/r/privacyguides) or [Matrix](https://matrix.to/#/#privacyguides:matrix.org) communities!
@@ -27,7 +28,7 @@ For your convenience, everything we recommend is listed below with a link to the
 
 - ![uBlock Origin logo](/assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](https://github.com/gorhill/uBlock)
 - ![AdGuard logo](/assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for Safari](https://adguard.com/en/adguard-safari/overview.html)
-- ![ToS;DR logo](/assets/img/browsers/terms_of_service_didnt_read.svg){ .twemoji } [Terms of Service; Didn't Read*](https://tosdr.org/)
+- ![ToS;DR logo](/assets/img/browsers/terms_of_service_didnt_read.svg){ .twemoji } [Terms of Service; Didn't Read\*](https://tosdr.org/)
 
 </div>
 
@@ -74,7 +75,7 @@ For your convenience, everything we recommend is listed below with a link to the
 - ![nixOS logo](/assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](https://nixos.org/)
 - ![Whonix logo](/assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](https://www.whonix.org/)
 - ![Tails logo](/assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](https://tails.boum.org/)
-- ![Qubes OS logo](/assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM Distribution)*](https://www.qubes-os.org/)
+- ![Qubes OS logo](/assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM Distribution)\*](https://www.qubes-os.org/)
 
 </div>
 
@@ -163,7 +164,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 <div class="grid cards" markdown>
 
 - ![Mastodon logo](/assets/img/social-networks/mastodon.svg){ .twemoji } [Mastodon](https://joinmastodon.org/)
-- ![diaspora logo](/assets/img/social-networks/diaspora.svg){ .twemoji } [diaspora*](https://diasporafoundation.org/)
+- ![diaspora logo](/assets/img/social-networks/diaspora.svg){ .twemoji } [diaspora\*](https://diasporafoundation.org/)
 - ![Friendica logo](/assets/img/social-networks/friendica.svg){ .twemoji } [Friendica](https://friendi.ca/)
 - ![PixelFed logo](/assets/img/social-networks/pixelfed.svg){ .twemoji } [PixelFed](https://pixelfed.org/)
 - ![Pleroma logo](/assets/img/social-networks/pleroma.svg){ .twemoji } [Pleroma](https://pleroma.social/)
@@ -218,7 +219,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 - ![Proton Calendar logo](/assets/img/calendar-contacts/proton-calendar.jpg){ .twemoji } [Proton Calendar (SaaS)](https://calendar.protonmail.com/)
 - ![EteSync logo](/assets/img/calendar-contacts/etesync.svg){ .twemoji } [EteSync](https://www.etesync.com/)
 - ![Tutanota logo](/assets/img/calendar-contacts/nextcloud.svg){ .twemoji } [Nextcloud](https://nextcloud.com/)
-- [DecSync](https://github.com/39aldo39/DecSync)
+- ![DecSync CC logo](/assets/img/calendar-contacts/decsync.svg){ .twemoji } [DecSync](https://github.com/39aldo39/DecSync)
 
 </div>
 

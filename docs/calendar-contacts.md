@@ -88,11 +88,15 @@ Some of these options are self-hostable, or able to be hosted by third party pro
     - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/nextcloud/id1125420102)
     - [:fontawesome-brands-github: Source](https://github.com/nextcloud)
 
-### DecSync
+### DecSync CC
 
 !!! recommendation
 
-    **DecSync** can be used to synchronize RSS, contacts, calendars and tasks without a server by using file synchronization software such as [Syncthing](/software/file-sharing/#sync).
+    ![DecSync logo](/assets/img/calendar-contacts/decsync.svg){ align=right }
+
+    **DecSync CC** synchronizes contacts, calendars and tasks using DecSync. It stores this data in a shared directory, using [Syncthing](/software/file-sharing/#sync), or any other file synchronization service.
+
+    There are [plugins](https://github.com/39aldo39/DecSync#rss) to sync other types of data such as [RSS](/news-aggregators).
 
     [Visit github.com](https://github.com/39aldo39/DecSync){ .md-button .md-button--primary }
 
