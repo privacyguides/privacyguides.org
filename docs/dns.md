@@ -5,7 +5,7 @@ icon: material/dns
 
 !!! faq "Should I use encrypted DNS?"
 
-    You should only use DNS if your [threat model](/threat-modeling/) doesn't require you to hide any of your browsing activity. Encrypted DNS should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences.
+    Encrypted DNS with third party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Encrypted DNS will not help you hide any of your browsing activity.
 
     [Learn more about DNS](technology/dns.md){ .md-button }
 
