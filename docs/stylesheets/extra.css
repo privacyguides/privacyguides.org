@@ -1,15 +1,74 @@
 @font-face {
-    font-family: Bagnard;
-    src: url("/assets/fonts/bagnard/Bagnard.woff") format("woff"), url("/assets/fonts/bagnard/Bagnard.ttf") format("truetype"), url("/assets/fonts/bagnard/Bagnard.otf") format("opentype");
+    font-family: 'Bagnard';
+    src: url("/assets/fonts/bagnard/Bagnard.woff") format("woff");
+    font-display: swap;
 }
 
-/* Define brand colors */
+@font-face {
+    font-family: 'Public Sans';
+    src: url('/assets/fonts/public_sans/PublicSans-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('/assets/fonts/public_sans/PublicSans-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('/assets/fonts/public_sans/PublicSans-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('/assets/fonts/public_sans/PublicSans-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('/assets/fonts/public_sans/PublicSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Mono';
+    src: url('/assets/fonts/dm_mono/DMMono-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Mono';
+    src: url('/assets/fonts/dm_mono/DMMono-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Define brand */
 :root {
     --md-primary-fg-color:        #FFD06F;
     --md-primary-fg-color--light: #ffdd98;
     --md-primary-fg-color--dark:  #db9d21;
     --md-primary-bg-color: rgba(0,0,0,.75);
     --md-primary-bg-color--light: rgba(0,0,0,.54);
+    --md-text-font: "Public Sans", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    --md-code-font: "DM Mono", SFMono-Regular, Consolas, Menlo, monospace;
 }
 
 /* Hide shadow under navigation */
@@ -42,7 +101,7 @@
 }
 
 h1, h2, h3, .md-header__topic {
-    font-family: Bagnard, serif;
+    font-family: "Bagnard", serif;
 }
 
 /* Recommendation cards */
