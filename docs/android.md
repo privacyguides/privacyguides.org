@@ -39,11 +39,11 @@ Currently, only [Pixel phones](https://grapheneos.org/faq#device-support) meet i
 
     It has some privacy features on top of AOSP, including [Datura firewall](https://calyxos.org/docs/tech/datura-details), [Signal](https://signal.org) integration in the dialer app, and a built in panic button. CalyxOS also comes with firmware updates and signed builds, so [verified boot](https://source.android.com/security/verifiedboot) is fully supported.
 
-    To accomodate users who need Google Play Services, CalyxOS optionally includes [MicroG](https://microg.org/). With MicroG, CalyxOS also bundles in the [Mozilla](https://location.services.mozilla.com/) and [DejaVu](https://github.com/n76/DejaVu) location services.
-
-    Currently, CalyxOS only supports [Pixel phones](https://calyxos.org/docs/guide/device-support/).
-
     [Visit calyxos.org](https://calyxos.org/){ .md-button .md-button--primary } [Privacy Policy](https://calyxinstitute.org/legal/privacy-policy){ .md-button }
+
+To accomodate users who need Google Play Services, CalyxOS optionally includes [MicroG](https://microg.org/). With MicroG, CalyxOS also bundles in the [Mozilla](https://location.services.mozilla.com/) and [DejaVu](https://github.com/n76/DejaVu) location services.
+
+Currently, CalyxOS only supports [Pixel phones](https://calyxos.org/docs/guide/device-support/).
 
 !!! attention
 
@@ -60,9 +60,11 @@ Currently, only [Pixel phones](https://grapheneos.org/faq#device-support) meet i
 
     [Visit divestos.org](https://divestos.org){ .md-button .md-button--primary } [Privacy Policy](https://divestos.org/index.php?page=privacy_policy){ .md-button }
 
-DivestOS has automated kernel vulnerability ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), fewer proprietary blobs, a custom [hosts](https://divested.dev/index.php?page=dnsbl) file, and [F-Droid](https://www.f-droid.org) as the app store. It includes [UnifiedNlp](https://github.com/microg/UnifiedNlp) for network location and some hardening with [Mulch Webview](https://gitlab.com/divested-mobile/mulch). Users can also select the [Bromite SystemWebView](https://www.bromite.org/system_web_view) in ⚙️ Settings → Developer options → Webview implementation. DivestOS also includes kernel patches from GrapheneOS and enables security features in [defconfig](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L698).
+DivestOS has automated kernel vulnerability ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), fewer proprietary blobs, a custom [hosts](https://divested.dev/index.php?page=dnsbl) file, and [F-Droid](https://www.f-droid.org) as the app store. It includes [UnifiedNlp](https://github.com/microg/UnifiedNlp) for network location. It's hardened WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), enables [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) for all architectures and includes [network state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning).
 
-DivestOS 16.0, 17.1, and 18.1 implements GrapheneOS's [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) permission toggle and [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc).
+DivestOS also includes kernel patches from GrapheneOS and enables all available kernel security features via [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). All kernels newer than version 3.4 include full page [sanitization](https://lwn.net/Articles/334747/) and all ~22 Clang-compiled kernels have [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) enabled.
+
+DivestOS 16.0, 17.1, and 18.1 implements GrapheneOS's [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) permission toggle, [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](/android/#additional-hardening), [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) [constification](https://en.wikipedia.org/wiki/Const_(computer_programming)), and partial [bionic](https://en.wikipedia.org/wiki/Bionic_(software)) hardening patchsets. 17.1 and 18.1 feature GrapheneOS's per-network full [MAC randomization](https://en.wikipedia.org/wiki/MAC_address#Randomization) option, and [`ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) control, and automatic reboot/Wi-Fi/Bluetooth [timeout options](https://grapheneos.org/features). All branches additionally have various miscellaneous patches courtesy of GrapheneOS.
 
 !!! attention
 
