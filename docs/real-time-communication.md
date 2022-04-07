@@ -57,7 +57,7 @@ Profile pictures, reactions, and nicknames are not encrypted.
 
 Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE, and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Group calls have [no authentication](https://github.com/vector-im/element-web/issues/13074) currently, meaning that non room participants can also join the calls. We recommend that you do not use this feature for private meetings.
 
-When using [element-web](https://github.com/vector-im/element-web), you must trust the server hosting the Element client. If your [threat model](https://privacyguides.org/threat-modeling) requires stronger protection, then use a desktop or mobile client instead.
+When using [element-web](https://github.com/vector-im/element-web), you must trust the server hosting the Element client. If your [threat model](/threat-modeling) requires stronger protection, then use a desktop or mobile client instead.
 
 The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) in 2016. The specification for the Matrix protocol can be found in their [documentation](https://spec.matrix.org/latest/). The [Olm](https://matrix.org/docs/projects/other/olm) cryptographic ratchet used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
 
@@ -183,7 +183,7 @@ P2P networks do not use servers, as users communicate directly between each othe
 - Messages can only be sent when both peers are online, however, your client may store messages locally to wait for the contact to return online.
 - Generally increases battery usage on mobile devices, because the client must stay connected to the distributed network to learn about who is online.
 - Some common messenger features may not be implemented or incompletely, such as message deletion.
-- Your [IP address](https://en.wikipedia.org/wiki/IP_address) and that of the contacts you're communicating with may be exposed if you do not use the software in conjunction with a [VPN](https://privacyguides.org/providers/vpn) or [self contained network](https://privacyguides.org/software/networks), such as [Tor](https://www.torproject.org) or [I2P](https://geti2p.net/). Many countries have some form of mass surveillance and/or metadata retention.
+- Your [IP address](https://en.wikipedia.org/wiki/IP_address) and that of the contacts you're communicating with may be exposed if you do not use the software in conjunction with a [VPN](/vpn) or [self contained network](/self-contained-networks), such as [Tor](https://www.torproject.org) or [I2P](https://geti2p.net/). Many countries have some form of mass surveillance and/or metadata retention.
 
 ### Anonymous Routing
 

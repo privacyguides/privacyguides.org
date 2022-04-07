@@ -6,7 +6,7 @@ Use a search engine that doesn't build an advertising profile based on your sear
 
 The recommendations here are based on the merits of each service's privacy policy. There is **no guarantee** that these privacy policies are honored.
 
-Consider using a [VPN](/providers/vpn) or [Tor](https://www.torproject.org/) if your threat model requires hiding your IP address from the search provider.
+Consider using a [VPN](/vpn) or [Tor](https://www.torproject.org/) if your threat model requires hiding your IP address from the search provider.
 
 ### DuckDuckGo
 
@@ -32,7 +32,7 @@ DuckDuckGo has a [lite](https://duckduckgo.com/lite) and [html](https://duckduck
 
     ![Startpage logo](/assets/img/search-engines/startpage.svg){ align=right }
 
-    **Startpage** is a search engine that provides Google search results. It is a very convenient way to get Google search results without experiencing dark patterns such as difficult captchas or being refused access because you used a [VPN](/providers/vpn) or [Tor](https://www.torproject.org/download/).
+    **Startpage** is a search engine that provides Google search results. It is a very convenient way to get Google search results without experiencing dark patterns such as difficult captchas or being refused access because you used a [VPN](/vpn) or [Tor](https://www.torproject.org/download/).
 
     [Visit startpage.com](https://www.startpage.com){ .md-button .md-button--primary } [Privacy Policy](https://www.startpage.com/en/privacy-policy){ .md-button }
 

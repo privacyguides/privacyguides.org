@@ -27,7 +27,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     **ProtonMail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since **2013**. ProtonMail is based in Genève, Switzerland. Accounts start with 500 MB storage with their free plan.
 
-    Free accounts have some limitations, such as not being able to search body text and not having access to [ProtonMail Bridge](https://protonmail.com/bridge), which is required to use a [recommended desktop email client](https://privacyguides.org/software/email) (e.g. Thunderbird). Paid accounts are available starting at **€48/y** which include features like ProtonMail Bridge, additional storage, and custom domain support.
+    Free accounts have some limitations, such as not being able to search body text and not having access to [ProtonMail Bridge](https://protonmail.com/bridge), which is required to use a [recommended desktop email client](/email-clients) (e.g. Thunderbird). Paid accounts are available starting at **€48/y** which include features like ProtonMail Bridge, additional storage, and custom domain support.
 
     **Free**
 
@@ -91,7 +91,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). New messages that you receive will then be immediately encrypted with your public key.
 
-    However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](https://privacyguides.org/software/calendar-contacts/) may be more appropriate for that information.
+    However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](/calendar-contacts) may be more appropriate for that information.
 
 ??? check "Email Encryption"
 
@@ -136,7 +136,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     Disroot uses full disk encryption. However, it doesn't appear to be "zero access", meaning it is technically possible for them to decrypt the data they have if it is not additionally encrypted with a tool like OpenPGP.
 
-    Disroot also uses the standard [CalDAV](https://en.wikipedia.org/wiki/CalDAV) and [CardDAV](https://en.wikipedia.org/wiki/CardDAV) protocols for calendars and contacts, which do not support E2EE. A [standalone option](https://privacyguides.org/software/calendar-contacts/) may be more appropriate.
+    Disroot also uses the standard [CalDAV](https://en.wikipedia.org/wiki/CalDAV) and [CardDAV](https://en.wikipedia.org/wiki/CardDAV) protocols for calendars and contacts, which do not support E2EE. A [standalone option](/calendar-contacts) may be more appropriate.
 
 ??? check "Email Encryption"
 
@@ -163,7 +163,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     [Visit Tutanota.com](https://tutanota.com){ .md-button .md-button--primary }
 
-Tutanota [doesn't allow](https://tutanota.com/faq/#imap) the use of third-party [email clients](https://privacyguides.org/software/email/). Tutanota has no plans pull email from [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) using the [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) protocol. [Email import](https://github.com/tutao/tutanota/issues/630) is currently not possible.
+Tutanota [doesn't allow](https://tutanota.com/faq/#imap) the use of third-party [email clients](/email-clients). Tutanota has no plans pull email from [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) using the [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) protocol. [Email import](https://github.com/tutao/tutanota/issues/630) is currently not possible.
 
 Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail). Tutanota does not allow for [subfolders](https://github.com/tutao/tutanota/issues/927) as you might expect with other email providers.
 
@@ -230,7 +230,7 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
     StartMail has [zero access encryption at rest](https://www.startmail.com/en/whitepaper/#_Toc458527835), using their "user vault" system. When a user logs in, the vault is opened, and the email is then moved to the vault out of the queue where it is decrypted by the corresponding private key.
 
-    StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) however, they are only accessible in the webmail and not through protocols such as [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacts are also not stored using zero knowledge encryption, so a [standalone option](https://privacyguides.org/software/calendar-contacts/) may be more appropriate.
+    StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) however, they are only accessible in the webmail and not through protocols such as [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacts are also not stored using zero knowledge encryption, so a [standalone option](/calendar-contacts) may be more appropriate.
 
 ??? check "Email Encryption"
 
@@ -403,7 +403,7 @@ Must not have any marketing which is irresponsible:
 - Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know users can quite easily deanonymize themselves in a number of ways, e.g.:
 
 - Reusing personal information e.g. (email accounts, unique pseudonyms etc) that they accessed without anonymity software (Tor, VPN etc)
-- [Browser fingerprinting](https://privacyguides.org/browsers/#fingerprint)
+- [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Best Case:**
 
@@ -427,7 +427,7 @@ There is another standard that was popular with business called [S/MIME](https:/
 
 ### What software can I use to get E2EE?
 
-Email providers which allow you to use standard access protocols like [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) and [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) can be used with any of the [email clients we recommend](https://privacyguides.org/software/email/). This can be less secure as you are now relying on email providers to ensure that their encryption implementation works and has not been compromised in anyway.
+Email providers which allow you to use standard access protocols like [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) and [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) can be used with any of the [email clients we recommend](/email-clients). This can be less secure as you are now relying on email providers to ensure that their encryption implementation works and has not been compromised in anyway.
 
 ### How do I protect my private keys?
 
