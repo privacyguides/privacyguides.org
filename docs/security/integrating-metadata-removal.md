@@ -22,21 +22,21 @@ Workflows created in Automator can be easily integrated into macOS menus, making
 
 1. [Homebrew](https://brew.sh): a package manager.
 
-	```
-	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-	```
-	
+    ```bash
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+
 2. [ExifTool](https://exiftool.org): a tool for viewing and manipulating image, audio, video, and PDF metadata.
 
-	```
-	brew install exiftool
-	```
+    ```bash
+    brew install exiftool
+    ```
 
 3. [Tag](https://github.com/jdberry/tag/): a tool to manipulate tags on macOS.
 
-	```
-	brew install tag
-	```
+    ```bash
+    brew install tag
+    ```
 
 You can check if ExifTool is installed by running `exiftool -ver`. You should see a version number. Next, confirm that ExifTool is installed at `/opt/homebrew/bin/exiftool` by running `which exiftool`.
 
@@ -52,7 +52,7 @@ You can check if ExifTool is installed by running `exiftool -ver`. You should se
 
 3. Setup the workflow as follows:
 
-	Workflow receives current `files or folders` in `Finder.app`
+    Workflow receives current `files or folders` in `Finder.app`
 
 4. Drag the `Set Spotlight Comments for Finder Items` action to the workflow.
 
@@ -62,17 +62,17 @@ You can check if ExifTool is installed by running `exiftool -ver`. You should se
 
 7. Setup the action as follows:
 
-	Shell: `/bin/zsh` &nbsp; &nbsp; &nbsp; Pass input: `as arguments`
+    Shell: `/bin/zsh` &nbsp; &nbsp; &nbsp; Pass input: `as arguments`
 
 8. In the code box for the action, enter the following:
 
-	```
-	PATH=/opt/homebrew/bin
-	for f in "$@"
-	do	
-	exiftool -all= "$f"; tag -r "*" "$f"
-	done
-	```
+    ```bash
+    PATH=/opt/homebrew/bin
+    for f in "$@"
+    do
+        exiftool -all= "$f"; tag -r "*" "$f"
+    done
+    ```
 
 9. Save the Quick Action workflow and give it a name
 
@@ -114,39 +114,38 @@ Shortcuts can be made accessible through the system Share Sheet, making accessin
 
 3. Set the Share Sheet retrieval options as follows:
 
-	Recieve `Images` input from `Share Sheet`<br>
-	If there's no input: `Continue`
-	
+    Recieve `Images` input from `Share Sheet`<br>
+    If there's no input: `Continue`
+
 4. Add an *If* action
 
 5. Set the *If* action as follows:
 
-	If `Shortcut Input` `has any value`<br>
-	Otherwise<br>
-	Select photos *(add this action)*<br>
-	End If
+    If `Shortcut Input` `has any value`<br>
+    Otherwise<br>
+    Select photos *(add this action)*<br>
+    End If
 
 6. Add the *Convert Image* action after the *End If*
 
-	Convert `If Result` to `Match Input`<br>
-	Preserve Metadata: **false**
+    Convert `If Result` to `Match Input`<br>
+    Preserve Metadata: **false**
 
 7. Add the *Share* action
 
-	Share `Converted Image`
+    Share `Converted Image`
 
 ![Metadata removal shortcut](/assets/img/integrating-metadata-removal/shortcut.png)
 
 #### Enabling & using the Shortcut
 
 1. The shortcut should be available through the system Share Sheet.
-	- If it is not, then a phone restart may be required.
+    - If it is not, then a phone restart may be required.
 2. Optionally, you can add the shortcut to your home screen.
 
 <small>
 *Want to view metadata? Check out the [Metadata Viewer Shortcut](https://www.reddit.com/r/shortcuts/comments/bhi7mg/shortcut_to_view_image_metadata/)!*
 </small>
-
 
 ### Windows
 
@@ -158,7 +157,7 @@ Windows allows users to place files in a *SendTo* folder which then appear in th
 
 1. [ExifTool](https://exiftool.org): a tool for viewing and manipulating image, audio, video, and PDF metadata.
 
-	[Installation instructions](https://exiftool.org/install.html#Windows)
+    [Installation instructions](https://exiftool.org/install.html#Windows)
 
 You can check if ExifTool is present in your [PATH](https://www.computerhope.com/issues/ch000549.htm) by running `exiftool -ver` in Command Prompt. You should see a version number.
 
@@ -170,20 +169,20 @@ You can check if ExifTool is present in your [PATH](https://www.computerhope.com
 
 3. Name the file *ExifTool.bat* (any name works, however it must end in *.bat*)
 
-	You may need to [enable](https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions/) *File name extensions*
+    You may need to [enable](https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions/) *File name extensions*
 
 4. Open *ExifTool.bat* in Notepad
 
 5. Copy the following into the document:
 
-	```
-	exiftool -fast4 -if "$filepermissions =~ /^.w/" %*
-	if not errorlevel 0 (
-	echo Some files are write protected
-	exit /b %errorlevel%
-	)
-	exiftool -all= %*
-	```
+    ```bash
+    exiftool -fast4 -if "$filepermissions =~ /^.w/" %*
+    if not errorlevel 0 (
+        echo Some files are write protected
+        exit /b %errorlevel%
+        )
+    exiftool -all= %*
+    ```
 
 6. Save
 
