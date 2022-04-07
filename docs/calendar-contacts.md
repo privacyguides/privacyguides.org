@@ -6,7 +6,7 @@ Calendaring and contacts are some of the most sensitive data posess. Use only pr
 
 ## Software as a service (SaaS) only
 
-These products are included with an subscription to the respective [email providers](/providers/email).
+These products are included with an subscription to the respective [email providers](/email).
 
 ### Tutanota
 
@@ -94,7 +94,7 @@ Some of these options are self-hostable, or able to be hosted by third party pro
 
     ![DecSync logo](/assets/img/calendar-contacts/decsync.svg){ align=right }
 
-    **DecSync CC** synchronizes contacts, calendars and tasks using DecSync. It stores this data in a shared directory, using [Syncthing](/software/file-sharing/#sync), or any other file synchronization service.
+    **DecSync CC** synchronizes contacts, calendars and tasks using DecSync. It stores this data in a shared directory, using [Syncthing](/file-sharing/#syncthing), or any other file synchronization service.
 
     There are [plugins](https://github.com/39aldo39/DecSync#rss) to sync other types of data such as [RSS](/news-aggregators).
 
