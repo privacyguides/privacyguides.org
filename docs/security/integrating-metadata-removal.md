@@ -43,23 +43,23 @@ You can check if ExifTool is installed by running `exiftool -ver`. You should se
 2. In the shortcut's options, enable *Use as Quick Action*
 
     Beneath this toggle, select *Finder*
-    
+
 3. Setup the retrieval options as follows:
 
     Receive *Images, Media, and PDFs* input from `Quick Actions`<br>
     If there's no input: `Continue`
-    
+
 4. Add the *Run Shell Script* action to the shortcut
 
     You may need to enable *Allow Running Scripts* in Shortcut.app's settings
-    
+
 5. Setup the shell script action as follows:
 
     Shell: `zsh`<br>
     Input: `Shortcut Input`<br>
     Pass Input: `as arguments`<br>
     Run as administrator: `false`
-    
+
 6. Use the following as the body of the script:
 
     ```bash
@@ -70,7 +70,7 @@ You can check if ExifTool is installed by running `exiftool -ver`. You should se
     done
     return $@
     ```
-    
+
     You should set your path to output of `which exiftool`.
 
 ![macOS metadata removal shortcut](/assets/img/integrating-metadata-removal/shortcut-macos.png)
@@ -85,7 +85,7 @@ You can check if ExifTool is installed by running `exiftool -ver`. You should se
 
     In this menu, you can drag to reposition the shortcut.
 
-3. The shortcut will be accessible through *Quick Actions* context menu within Finder.
+2. The shortcut will be accessible through *Quick Actions* context menu within Finder.
 
 ### iOS/iPadOS
 
