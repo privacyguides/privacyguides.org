@@ -35,7 +35,7 @@ nav:
     - 'Operating Systems':
       - 'Android': 'android.md'
       - 'Linux Desktop': 'linux-desktop.md'
-      - 'QubesOS': 'qubes.md'
+      - 'Qubes OS': 'qubes.md'
       - 'Router Firmware': 'router.md'
     - 'Providers':
       - 'Cloud Storage': 'cloud.md'
