@@ -12,11 +12,9 @@ While there are plenty of metadata removal tools, it's hard to beat the convenie
 
 ### macOS
 
-[Automator](https://support.apple.com/guide/automator/welcome/mac) is an app developed by Apple for the purposing of automating repetitive tasks. Automator is bundled in with macOS by default.
+This guide uses the [Shortcuts](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac) app to add an ExifTool script to the *Quick Actions* context menu within Finder. Shortcuts is developed by Apple and bundled in with macOS by default.
 
-Workflows created in Automator can be easily integrated into macOS menus, making accessing said workflows very convenient. This guide will show you how to integrate a metadata removal workflow using Automator & ExifTool.
-
-![ExifTool Quick Action](/assets/img/integrating-metadata-removal/preview-macos.jpg)
+![ExifTool Quick Action](/assets/img/integrating-metadata-removal/preview-macos.png)
 
 #### Prerequisites
 
@@ -32,13 +30,7 @@ Workflows created in Automator can be easily integrated into macOS menus, making
     brew install exiftool
     ```
 
-3. [Tag](https://github.com/jdberry/tag/): a tool to manipulate tags on macOS.
-
-    ```bash
-    brew install tag
-    ```
-
-You can check if ExifTool is installed by running `exiftool -ver`. You should see a version number. Next, confirm that ExifTool is installed at `/opt/homebrew/bin/exiftool` by running `which exiftool`.
+You can check if ExifTool is installed by running `exiftool -ver`. You should see a version number. Next, take note of where ExifTool is installed by running `which exiftool`.
 
 <small>
 *More information on ExifTool can be found on our [metadata removal tools](/metadata-removal-tools/) page.*
@@ -46,53 +38,54 @@ You can check if ExifTool is installed by running `exiftool -ver`. You should se
 
 #### Creating the workflow
 
-1. Open Automator and select *File > New*
+1. Open Shortcuts.app and create a new shortcut
 
-2. Choose to create a *Quick Action* workflow
+2. In the shortcut's options, enable *Use as Quick Action*
 
-3. Setup the workflow as follows:
+    Beneath this toggle, select *Finder*
+    
+3. Setup the retrieval options as follows:
 
-    Workflow receives current `files or folders` in `Finder.app`
+    Receive *Images, Media, and PDFs* input from `Quick Actions`<br>
+    If there's no input: `Continue`
+    
+4. Add the *Run Shell Script* action to the shortcut
 
-4. Drag the `Set Spotlight Comments for Finder Items` action to the workflow.
+    You may need to enable *Allow Running Scripts* in Shortcut.app's settings
+    
+5. Setup the shell script action as follows:
 
-5. Enter a single space (yes, a space) into the Spotlight comments action.
-
-6. Drag the `Run Shell Script` action to the workflow
-
-7. Setup the action as follows:
-
-    Shell: `/bin/zsh` &nbsp; &nbsp; &nbsp; Pass input: `as arguments`
-
-8. In the code box for the action, enter the following:
+    Shell: `zsh`<br>
+    Input: `Shortcut Input`<br>
+    Pass Input: `as arguments`<br>
+    Run as administrator: `false`
+    
+6. Use the following as the body of the script:
 
     ```bash
     PATH=/opt/homebrew/bin
     for f in "$@"
     do
-        exiftool -all= "$f"; tag -r "*" "$f"
+        exiftool -all= "$f";
     done
+    return $@
     ```
+    
+    You should set your path to output of `which exiftool`.
 
-9. Save the Quick Action workflow and give it a name
-
-If you wish to override the original image, add `-overwrite_original` before `-all=`.
-
-![ExifTool workflow](/assets/img/integrating-metadata-removal/workflow.jpg)
+![macOS metadata removal shortcut](/assets/img/integrating-metadata-removal/shortcut-macos.png)
 
 <small>
-*Workflow adapted from [Christopher Anderton](https://gist.github.com/christopheranderton/0cd24b29ee20483f748b54ec79b0958b).*
-<br>
 *Worth mentioning: the open source [ImageOptim](https://imageoptim.com/mac) app integrates into Finder's Services menu by default.*
 </small>
 
 #### Enabling & using the workflow
 
-1. After saving the workflow, it will be placed as a .workflow file in `~/Library/Services/`
+1. Ensure the shortcut is enabled by going to *System Preferences > Extensions > Finder* and enabling the shortcut you created.
 
-2. Ensure the workflow is enabled by going to *System Preferences > Extensions > Finder* and enabling the workflow you created
+    In this menu, you can drag to reposition the shortcut.
 
-3. The workflow will be accessible through *Quick Actions* in the context menu in Finder
+3. The shortcut will be accessible through *Quick Actions* context menu within Finder.
 
 ### iOS/iPadOS
 
@@ -135,17 +128,13 @@ Shortcuts can be made accessible through the system Share Sheet, making accessin
 
     Share `Converted Image`
 
-![Metadata removal shortcut](/assets/img/integrating-metadata-removal/shortcut.png)
+![iOS/iPadOS metadata removal shortcut](/assets/img/integrating-metadata-removal/shortcut-ios.png)
 
 #### Enabling & using the Shortcut
 
 1. The shortcut should be available through the system Share Sheet.
     - If it is not, then a phone restart may be required.
 2. Optionally, you can add the shortcut to your home screen.
-
-<small>
-*Want to view metadata? Check out the [Metadata Viewer Shortcut](https://www.reddit.com/r/shortcuts/comments/bhi7mg/shortcut_to_view_image_metadata/)!*
-</small>
 
 ### Windows
 
