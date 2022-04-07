@@ -36,7 +36,7 @@ You can check if ExifTool is installed by running `exiftool -ver`. You should se
 *More information on ExifTool can be found on our [metadata removal tools](/metadata-removal-tools/) page.*
 </small>
 
-#### Creating the workflow
+#### Creating the Shortcut
 
 1. Open Shortcuts.app and create a new shortcut
 
@@ -79,7 +79,7 @@ You can check if ExifTool is installed by running `exiftool -ver`. You should se
 *Worth mentioning: the open source [ImageOptim](https://imageoptim.com/mac) app integrates into Finder's Services menu by default.*
 </small>
 
-#### Enabling & using the workflow
+#### Enabling & using the Shortcut
 
 1. Ensure the shortcut is enabled by going to *System Preferences > Extensions > Finder* and enabling the shortcut you created.
 
