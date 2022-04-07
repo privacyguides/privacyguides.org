@@ -2,7 +2,7 @@
 title: Video Streaming
 icon: material/video-wireless
 ---
-The primary threat when using a video streaming platform is that your streaming habits and subscription lists could be used to profile you. You should combine these tools with a [VPN](/providers/vpn/) or [Tor](https://www.torproject.org/) to make it harder to profile your usage.
+The primary threat when using a video streaming platform is that your streaming habits and subscription lists could be used to profile you. You should combine these tools with a [VPN](/vpn) or [Tor](https://www.torproject.org/) to make it harder to profile your usage.
 
 ## Clients
 
@@ -10,7 +10,7 @@ The primary threat when using a video streaming platform is that your streaming 
 
 !!! Warning
 
-    When using Freetube, your IP address is still known to YouTube, [Invidious](https://instances.invidious.io) and the SponsorBlock instances that you use. Consider using a [VPN](/providers/vpn) or [Tor](https://www.torproject.org) if your [threat model](/threat-modeling.md) requires hiding your IP address.
+    When using Freetube, your IP address is still known to YouTube, [Invidious](https://instances.invidious.io) and the SponsorBlock instances that you use. Consider using a [VPN](/vpn) or [Tor](https://www.torproject.org) if your [threat model](/threat-modeling.md) requires hiding your IP address.
 
 !!! recommendation
 
@@ -53,7 +53,7 @@ The primary threat when using a video streaming platform is that your streaming 
 
 !!! warning
 
-    While watching and hosting videos, your IP address is visible to the LBRY network. Consider using a [VPN](/providers/vpn) or [Tor](https://www.torproject.org) if your [threat model](/threat-modeling) requires hiding your IP address.
+    While watching and hosting videos, your IP address is visible to the LBRY network. Consider using a [VPN](/vpn) or [Tor](https://www.torproject.org) if your [threat model](/threat-modeling) requires hiding your IP address.
 
 We recommend **against** synchronizing your wallet with LBRY Inc., as synchronizing encrypted wallets is not supported yet. If you synchronize your wallet with LBRY Inc., you have to trust them to not look at your subscription list, [LBC](https://lbry.com/faq/earn-credits) funds, or take control of your channel.
 

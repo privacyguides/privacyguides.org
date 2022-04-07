@@ -8,7 +8,7 @@ Stay safe and secure online with an encrypted and open-source password manager.
 
 - Always use unique passwords. Don't make yourself a victim of "[credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing)".
 - Store an exported backup of your passwords in an [encrypted container](/encryption) on another storage device. This can be useful if something happens to your device or the service you are using.
-- If possible, store [Time-based one-time password (TOTP)](https://en.wikipedia.org/wiki/Time-based_one-time_password) tokens in a separate [TOTP app](/multi-factor-authentication) and not your password manager. TOTP codes are generated from a "[shared secret](https://en.wikipedia.org/wiki/Time-based_one-time_password#Security)". If the secret is obtained by an adversary they can generate TOTP values. Typically, mobile platforms have better app isolation and more secure methods for storing sensitive credentials.
+- If possible, store [Time-based one-time password (TOTP)](https://en.wikipedia.org/wiki/Time-based_one-time_password) tokens in a separate [TOTP app](/security/multi-factor-authentication/#authenticator-apps) and not your password manager. TOTP codes are generated from a "[shared secret](https://en.wikipedia.org/wiki/Time-based_one-time_password#Security)". If the secret is obtained by an adversary they can generate TOTP values. Typically, mobile platforms have better app isolation and more secure methods for storing sensitive credentials.
 
 ## Local Password Managers
 

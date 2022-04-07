@@ -44,7 +44,7 @@ Tumbleweed follows a rolling release model where each update is released as a sn
 
 Arch Linux has a rolling release cycle. There is no fixed release schedule and packages are updated very frequently.
 
-Being a DIY distribution, the user is [expected to setup and maintain](https://privacyguides.org/linux-desktop/#arch-based-distributions) their system. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
+Being a DIY distribution, the user is [expected to setup and maintain](/linux-desktop/#arch-based-distributions) their system. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
 
 A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org).
 
@@ -239,7 +239,7 @@ There isn’t much point in randomizing the MAC address for Ethernet connections
 
 ### Other identifiers
 
-There are other system [identifiers](https://madaidans-insecurities.github.io/guides/linux-hardening.html#identifiers) which you may wish to be careful about. You should give this some thought to see if it applies to your [threat model](https://privacyguides.org/threat-modeling):
+There are other system [identifiers](https://madaidans-insecurities.github.io/guides/linux-hardening.html#identifiers) which you may wish to be careful about. You should give this some thought to see if it applies to your [threat model](/threat-modeling):
 
 - [10.1 Hostnames and usernames](https://madaidans-insecurities.github.io/guides/linux-hardening.html#hostnames)
 - [10.2 Time zones / Locales / Keymaps](https://madaidans-insecurities.github.io/guides/linux-hardening.html#timezones-locales-keymaps)
@@ -346,7 +346,7 @@ Note that setting `kernel.unprivileged_userns_clone=0` will stop Flatpak, Snap (
 
 ### Linux-Hardened
 
-Some distributions like Arch Linux have the [linux-hardened](https://github.com/anthraxx/linux-hardened), kernel package. It includes [hardening patches](https://wiki.archlinux.org/title/security#Kernel_hardening) and more security-conscious defaults. Linux-Hardened has `kernel.unprivileged_userns_clone=0` disabled by default. See the [warning above](https://privacyguides.org/linux-desktop/#kernel-hardening) about how this might impact you.
+Some distributions like Arch Linux have the [linux-hardened](https://github.com/anthraxx/linux-hardened), kernel package. It includes [hardening patches](https://wiki.archlinux.org/title/security#Kernel_hardening) and more security-conscious defaults. Linux-Hardened has `kernel.unprivileged_userns_clone=0` disabled by default. See the [warning above](/linux-desktop/#kernel-hardening) about how this might impact you.
 
 ### Simultaneous multithreading (SMT)
 
@@ -382,7 +382,7 @@ On systems where [`pam_faillock`](https://man7.org/linux/man-pages/man8/pam_tall
 
 To better protect your [USB](https://en.wikipedia.org/wiki/USB) ports from attacks such as [BadUSB](https://en.wikipedia.org/wiki/BadUSB) we recommend [USBGuard](https://github.com/USBGuard/usbguard). USBGuard has [documentation](https://github.com/USBGuard/usbguard#documentation) as does the [Arch Wiki](https://wiki.archlinux.org/title/USBGuard).
 
-Another alternative option if you’re using the [linux-hardened](https://privacyguides.org/linux-desktop/#linux-hardened) is the [`deny_new_usb`](https://github.com/GrapheneOS/linux-hardened/commit/96dc427ab60d28129b36362e1577b6673b0ba5c4) sysctl. See [Preventing USB Attacks with `linux-hardened`](https://blog.lizzie.io/preventing-usb-attacks-with-linux-hardened.html).
+Another alternative option if you’re using the [linux-hardened](/linux-desktop/#linux-hardened) is the [`deny_new_usb`](https://github.com/GrapheneOS/linux-hardened/commit/96dc427ab60d28129b36362e1577b6673b0ba5c4) sysctl. See [Preventing USB Attacks with `linux-hardened`](https://blog.lizzie.io/preventing-usb-attacks-with-linux-hardened.html).
 
 ### Secure Boot
 
