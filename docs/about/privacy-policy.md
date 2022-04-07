@@ -101,6 +101,6 @@ For complaints under GDPR more generally, European Union users may lodge complai
 
 This version of our privacy statement took effect April 4th, 2022.
 
-We will post any new versions of this statement on [this page](/about/privacy-policy.md). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to [this page](/about/privacy-policy.md) for the latest contact information at any time.
+We will post any new versions of this statement on [this page](https://github.com/privacyguides/privacyguides.org/commits/main). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to [this section](#how-can-i-contact-the-privacy-guides-team-about-privacy) for the latest contact information at any time.
 
-A full revision history of this page can be found on GitHub.
+[A full revision history of this page can be found on GitHub](https://github.com/taivlam/privacyguides.org/commits/main/docs/about/privacy-policy.md).
