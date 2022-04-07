@@ -89,11 +89,11 @@ You can check if ExifTool is installed by running `exiftool -ver`. You should se
 
 ### iOS/iPadOS
 
-[Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) is an app for building macros and automations with tight system integration. Shortcuts is developed by Apple.
-
-Shortcuts can be made accessible through the system Share Sheet, making accessing those shortcuts very convenient. This guide will show you how to build a metadata removal shortcut and integrate it into the system Share Sheet.
+[Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) can be made accessible through the system Share Sheet, making accessing those shortcuts very convenient. This guide will show you how to build a metadata removal shortcut and integrate it into the system Share Sheet.
 
 **It's important to note that this method of metadata removal is not as comprehensive at removing metadata as utilities like [ExifTool](/metadata-removal-tools/#exiftool) and [mat2](/metadata-removal-tools/#mat2) are.** The lack of *good* metadata removal apps on the App Store is what makes this solution somewhat worthwhile.
+
+![Don't preserve metadata shortcut](/assets/img/integrating-metadata-removal/preview-ios.png)
 
 #### Prerequisites
 
@@ -140,7 +140,7 @@ Shortcuts can be made accessible through the system Share Sheet, making accessin
 
 Windows allows users to place files in a *SendTo* folder which then appear in the *Send to* context menu. This guide will show you how to add an ExifTool script to this menu.
 
-![Send to metadata removal shortcut](/assets/img/integrating-metadata-removal/sendto.jpg)
+![Send to metadata removal shortcut](/assets/img/integrating-metadata-removal/preview-windows.jpg)
 
 #### Prerequisites
 
