@@ -19,9 +19,9 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
 
 1. Using [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. This command records packets that meet the rules specified:
 
-   ```bash
-   tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
-   ```
+    ```bash
+    tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
+    ```
 
 2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS etc) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Software such as web browsers do these lookups automatically, unless they are configured to use [encrypted DNS](#what-is-encrypted-dns).
 
@@ -87,44 +87,29 @@ In this example we will record what happens when we make a DoH request:
 
 1. First, start `tshark`:
 
-   ```bash
-   tshark -w /tmp/dns_doh.pcap -f "tcp port https and host 1.1.1.1"
-   ```
+    ```bash
+    tshark -w /tmp/dns_doh.pcap -f "tcp port https and host 1.1.1.1"
+    ```
 
 2. Second, make a request with `curl`:
 
-   ```bash
-   curl -vI --doh-url https://1.1.1.1/dns-query https://privacyguides.org
-   ```
+    ```bash
+    curl -vI --doh-url https://1.1.1.1/dns-query https://privacyguides.org
+    ```
 
 3. After making the request, we can stop the packet capture with <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
 4. Analyse the results in Wireshark:
 
-   ```bash
-   wireshark -r /tmp/dns_doh.pcap
-   ```
+    ```bash
+    wireshark -r /tmp/dns_doh.pcap
+    ```
 
 We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/) that occurs with any encrypted connection. When looking at the "application data" packets that follow, none of them contain the domain we requested or the IP address returned.
 
 ## Why **shouldn't** I use encrypted DNS?
 
-In locations where there is internet filtering (or censorship), visiting forbidden resources may have its own consequences which you should consider in your [threat model](/threat-modeling/). We do **not** suggest the use of encrypted DNS for this purpose. Use [Tor](https://torproject.org) or a [VPN](/providers/vpn/) instead. If you're using a VPN, you should use your VPN's DNS servers. When using a VPN, you are already trusting them with all your network activity. We made this flow chart to describe when you *should* use "encrypted DNS":
-
-``` mermaid
-graph TB
-    Start[Start] --> anonymous{Trying to be anonymous?}
-    anonymous--> | Yes | tor(Use Tor)
-    anonymous --> | No | censorship{Avoiding censorship?}
-    censorship --> | Yes | vpnOrTor(Use VPN or Tor)
-    censorship --> | No | privacy{Want privacy from ISP?}
-    privacy --> | Yes | vpnOrTor
-    privacy --> | No | obnoxious{ISP makes obnoxious redirects?}
-    obnoxious --> | Yes | encryptedDNS(Use encrypted DNS with 3rd party)
-    obnoxious --> | No | ispDNS{Does ISP support encrypted DNS?}
-    ispDNS --> | Yes | useISP(Use encrypted DNS with ISP)
-    ispDNS --> | No | nothing(Do nothing)
-```
+In locations where there is internet filtering (or censorship), visiting forbidden resources may have its own consequences which you should consider in your [threat model](/threat-modeling/). We do **not** suggest the use of encrypted DNS for this purpose. Use [Tor](https://torproject.org) or a [VPN](/providers/vpn/) instead. If you're using a VPN, you should use your VPN's DNS servers. When using a VPN, you are already trusting them with all your network activity.
 
 When we do a DNS lookup, it's generally because we want to access a resource. Below, we will discuss some of the methods that may disclose your browsing activities even when using encrypted DNS:
 
@@ -140,9 +125,9 @@ Server Name Indication is typically used when a IP address hosts many websites. 
 
 1. Start capturing again with `tshark`. We've added a filter with our IP address so you don't capture many packets:
 
-   ```bash
-   tshark -w /tmp/pg.pcap port 443 and host 198.98.54.105
-   ```
+    ```bash
+    tshark -w /tmp/pg.pcap port 443 and host 198.98.54.105
+    ```
 
 2. Then we visit [https://privacyguides.org](https://privacyguides.org).
 
@@ -150,27 +135,27 @@ Server Name Indication is typically used when a IP address hosts many websites. 
 
 4. Next we want to analyze the results:
 
-   ```bash
-   wireshark -r /tmp/pg.pcap
-   ```
+    ```bash
+    wireshark -r /tmp/pg.pcap
+    ```
 
-   We will see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment), followed by the [TLS handshake](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/) for the Privacy Guides website. Around frame 5. you'll see a "Client Hello".
+    We will see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment), followed by the [TLS handshake](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/) for the Privacy Guides website. Around frame 5. you'll see a "Client Hello".
 
 5. Expand the triangle &#9656; next to each field:
 
-   ```text
-   ▸ Transport Layer Security
-     ▸ TLSv1.3 Record Layer: Handshake Protocol: Client Hello
-       ▸ Handshake Protocol: Client Hello
-         ▸ Extension: server_name (len=22)
-           ▸ Server Name Indication extension
-   ```
+    ```text
+    ▸ Transport Layer Security
+      ▸ TLSv1.3 Record Layer: Handshake Protocol: Client Hello
+        ▸ Handshake Protocol: Client Hello
+          ▸ Extension: server_name (len=22)
+            ▸ Server Name Indication extension
+    ```
 
 6. We can see the [Server Name Indication (SNI)](https://en.wikipedia.org/wiki/Server_Name_Indication) value which discloses the website we are visiting. The `tshark` command can give you the value directly for all packets containing a SNI value:
 
-   ```bash
-   tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
-   ```
+    ```bash
+    tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
+    ```
 
 This means even if we are using "Encrypted DNS" servers, the domain will likely be disclosed through SNI. The [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) protocol brings with it [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello/), which prevents this kind of leak.
 
@@ -186,95 +171,111 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
 
 1. Get the server certificate and use [`sed`](https://en.wikipedia.org/wiki/Sed) to keep just the important part and write it out to a file:
 
-   ```bash
-   openssl s_client -connect privacyguides.org:443 < /dev/null 2>&1 |
-       sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_server.cert
-   ```
+    ```bash
+    openssl s_client -connect privacyguides.org:443 < /dev/null 2>&1 |
+        sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_server.cert
+    ```
 
 2. Get the intermediate certificate. [Certificate Authorities (CA)](https://en.wikipedia.org/wiki/Certificate_authority) normally don't sign a certificate directly; they use what is known as an "intermediate" certificate.
 
-   ```bash
-   openssl s_client -showcerts -connect privacyguides.org:443 < /dev/null 2>&1 |
-       sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_and_intermediate.cert
-   ```
+    ```bash
+    openssl s_client -showcerts -connect privacyguides.org:443 < /dev/null 2>&1 |
+        sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_and_intermediate.cert
+    ```
 
 3. The first certificate in `pg_and_intermediate.cert` is actually the server certificate from step 1. We can use `sed` again to delete until the first instance of END:
 
-   ```bash
-   sed -n '/^-*END CERTIFICATE-*$/!d;:a n;p;ba' \
-       /tmp/pg_and_intermediate.cert > /tmp/intermediate_chain.cert
-   ```
+    ```bash
+    sed -n '/^-*END CERTIFICATE-*$/!d;:a n;p;ba' \
+        /tmp/pg_and_intermediate.cert > /tmp/intermediate_chain.cert
+    ```
 
 4. Get the OCSP responder for the server certificate:
 
-   ```bash
-   openssl x509 -noout -ocsp_uri -in /tmp/pg_server.cert
-   ```
+    ```bash
+    openssl x509 -noout -ocsp_uri -in /tmp/pg_server.cert
+    ```
 
-   If we want to see all the details of the certificate we can use:
+    Our certificate shows the Lets Encrypt certificate responder.
+    If we want to see all the details of the certificate we can use:
 
-   ```bash
-   openssl x509 -text -noout -in /tmp/pg_server.cert
-   ```
-
-   Our certificate shows the Lets Encrypt certificate responder.
+    ```bash
+    openssl x509 -text -noout -in /tmp/pg_server.cert
+    ```
 
 5. Start the packet capture:
 
-   ```bash
-   tshark -w /tmp/pg_ocsp.pcap -f "tcp port http"
-   ```
+    ```bash
+    tshark -w /tmp/pg_ocsp.pcap -f "tcp port http"
+    ```
 
 6. Make the OCSP request:
 
-   ```bash
-   openssl ocsp -issuer /tmp/intermediate_chain.cert \
-                -cert /tmp/pg_server.cert \
-                -text \
-                -url http://r3.o.lencr.org
-   ```
+    ```bash
+    openssl ocsp -issuer /tmp/intermediate_chain.cert \
+                 -cert /tmp/pg_server.cert \
+                 -text \
+                 -url http://r3.o.lencr.org
+    ```
 
 7. Open the capture:
 
-   ```bash
-   wireshark -r /tmp/pg_ocsp.pcap
-   ```
+    ```bash
+    wireshark -r /tmp/pg_ocsp.pcap
+    ```
 
-   There will be two packets with the "OCSP" protocol; a "Request" and a "Response". For the "Request" we can see the "serial number" by expanding the triangle &#9656; next to each field:
+    There will be two packets with the "OCSP" protocol; a "Request" and a "Response". For the "Request" we can see the "serial number" by expanding the triangle &#9656; next to each field:
 
-   ```bash
-   ▸ Online Certificate Status Protocol
-     ▸ tbsRequest
-       ▸ requestList: 1 item
-         ▸ Request
-           ▸ reqCert
-             serialNumber
-   ```
+    ```bash
+    ▸ Online Certificate Status Protocol
+      ▸ tbsRequest
+        ▸ requestList: 1 item
+          ▸ Request
+            ▸ reqCert
+              serialNumber
+    ```
 
-   For the "Response" we can also see the "serial number":
+    For the "Response" we can also see the "serial number":
 
-   ```bash
-   ▸ Online Certificate Status Protocol
-     ▸ responseBytes
-       ▸ BasicOCSPResponse
-         ▸ tbsResponseData
-           ▸ responses: 1 item
-             ▸ SingleResponse
-               ▸ certID
-                 serialNumber
-   ```
+    ```bash
+    ▸ Online Certificate Status Protocol
+      ▸ responseBytes
+        ▸ BasicOCSPResponse
+          ▸ tbsResponseData
+            ▸ responses: 1 item
+              ▸ SingleResponse
+                ▸ certID
+                  serialNumber
+    ```
 
 8. Or use `tshark` to filter the packets for the Serial Number:
 
-   ```bash
-   tshark -r /tmp/pg_ocsp.pcap -Tfields -Y ocsp.serialNumber -e ocsp.serialNumber
-   ```
+    ```bash
+    tshark -r /tmp/pg_ocsp.pcap -Tfields -Y ocsp.serialNumber -e ocsp.serialNumber
+    ```
 
 If the network observer has the public certificate, which is publicly available, they can match the serial number with that certificate and therefore determine the site you're visiting from that. The process can be automated and can associate IP addresses with serial numbers. It is also possible to check [Certificate Transparency](https://en.wikipedia.org/wiki/Certificate_Transparency) logs for the serial number.
 
 ## Should I use encrypted DNS?
 
-You should only use DNS if your [threat model](/threat-modeling/) doesn't require you to hide any of your browsing activity. Encrypted DNS should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences.
+We made this flow chart to describe when you *should* use encrypted DNS:
+
+``` mermaid
+graph TB
+    Start[Start] --> anonymous{Trying to be<br> anonymous?}
+    anonymous--> | Yes | tor(Use Tor)
+    anonymous --> | No | censorship{Avoiding<br> censorship?}
+    censorship --> | Yes | vpnOrTor(Use<br> VPN or Tor)
+    censorship --> | No | privacy{Want privacy<br> from ISP?}
+    privacy --> | Yes | vpnOrTor
+    privacy --> | No | obnoxious{ISP makes<br> obnoxious<br> redirects?}
+    obnoxious --> | Yes | encryptedDNS(Use<br> encrypted DNS<br> with 3rd party)
+    obnoxious --> | No | ispDNS{Does ISP support<br> encrypted DNS?}
+    ispDNS --> | Yes | useISP(Use<br> encrypted DNS<br> with ISP)
+    ispDNS --> | No | nothing(Do nothing)
+```
+
+Encrypted DNS with a 3rd party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences or you're interested in a provider that does some rudimentary filtering.
 
 [List of recommended DNS servers](../dns.md){ .md-button }
 
