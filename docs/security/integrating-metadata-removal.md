@@ -63,12 +63,13 @@ You can check if ExifTool is installed by running `exiftool -ver`. You should se
 6. Use the following as the body of the script:
 
     ```bash
+    #!/bin/sh
     PATH=/opt/homebrew/bin
     for f in "$@"
     do
         exiftool -all= "$f";
     done
-    return $@
+    return "$@"
     ```
 
     You should set your path to output of `which exiftool`.
@@ -164,12 +165,12 @@ You can check if ExifTool is present in your [PATH](https://www.computerhope.com
 
 5. Copy the following into the document:
 
-    ```bash
+    ```bat
     exiftool -fast4 -if "$filepermissions =~ /^.w/" %*
     if not errorlevel 0 (
         echo Some files are write protected
         exit /b %errorlevel%
-        )
+    )
     exiftool -all= %*
     ```
 
