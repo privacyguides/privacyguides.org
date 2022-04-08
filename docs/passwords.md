@@ -136,21 +136,6 @@ These products are self-hostable synchronization for cloud based password manage
 
 These products are minimal password managers that can be used within scripting applications.
 
-### Pass
-
-!!! recommendation
-
-    ![Pass logo](/assets/img/password-management/pass.svg){ align=right }
-
-    **Pass** is a bare-bones password store that keeps passwords using [GnuPG](https://gnupg.org) encrypted files inside a simple directory tree residing at `~/.password-store`. It has a simple terminal interface where the user can perform the usual actions, and its functionality can be extended by plugins. It can also be used in scripts without having to input the actual password in plain text.
-
-    [Visit passwordstore.org](https://www.passwordstore.org){ .md-button .md-button--primary }
-
-    **Downloads**
-    - [:fontawesome-brands-apple: macOS](https://www.passwordstore.org)
-    - [:fontawesome-brands-linux: Linux](https://www.passwordstore.org)
-    - [:fontawesome-brands-git: Source](https://git.zx2c4.com/password-store)
-
 ### gopass
 
 !!! recommendation

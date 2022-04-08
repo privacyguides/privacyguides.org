@@ -322,7 +322,6 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 - ![KeePassDX logo](/assets/img/password-management/keepassdx.svg){ .twemoji } [KeePassDX (Android)](https://www.keepassdx.com/)
 - ![Bitwarden logo](/assets/img/password-management/bitwarden.svg){ .twemoji } [Bitwarden](https://bitwarden.com/)
 - ![Psono logo](/assets/img/password-management/psono.svg){ .twemoji } [Psono](https://psono.com/)
-- ![Pass logo](/assets/img/password-management/pass.svg){ .twemoji } [pass](https://www.passwordstore.org/)
 - ![gopass logo](/assets/img/password-management/gopass.svg){ .twemoji } [gopass](https://www.gopass.pw/)
 - ![Vaultwarden logo](/assets/img/password-management/vaultwarden.svg#only-light){ .twemoji }![Vaultwarden logo](/assets/img/password-management/vaultwarden-dark.svg#only-dark){ .twemoji } [Vaultwarden (Bitwarden Server)](https://github.com/dani-garcia/vaultwarden)
 
