@@ -32,7 +32,7 @@ Ultimately, the best form of two-factor security is the one you will use consist
 
     ![YubiKeys](/assets/img/multi-factor-authentication/yubikey.png)
 
-    The **Yuibkey** was one of the first security keys. It has a wide range of features such as for [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 WebAuthn](https://en.wikipedia.org/wiki/WebAuthn), PGP and One-Time-Pad (OTP) authentication. One of the benefits of this key is that one key can do everything.
+    The **YubiKey** was one of the first security keys. It has a wide range of features such as for [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 WebAuthn](https://en.wikipedia.org/wiki/WebAuthn), PGP and One-Time-Pad (OTP) authentication. One of the benefits of this key is that one key can do everything.
 
     The firmware is not open source and cannot be updated without purchasing a new key.
 
@@ -48,7 +48,7 @@ Ultimately, the best form of two-factor security is the one you will use consist
 
     The [comparison table](https://www.nitrokey.com/#comparison) shows the features and how the Nitrokeys compare. The Nitrokey 3 listed there will have a combined feature set.
 
-    The Nitrokey has an open source firmware, unlike the Yuibkey.
+    The Nitrokey has an open source firmware, unlike the YubiKey.
 
     [Visit nitrokey.com](https://www.nitrokey.com){ .md-button .md-button--primary } [Privacy Policy](https://www.nitrokey.com/data-privacy-policy){ .md-button }
 
