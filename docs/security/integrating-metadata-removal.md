@@ -77,16 +77,14 @@ You can check if ExifTool is installed by running `exiftool -ver`. You should se
 ![macOS metadata removal shortcut](/assets/img/integrating-metadata-removal/shortcut-macos.png)
 
 <small>
-*Worth mentioning: the open source [ImageOptim](https://imageoptim.com/mac) app integrates into Finder's Services menu by default.*
+*Worth mentioning: the open source [ImageOptim](https://imageoptim.com/mac) app also integrates into Finder's context menu by default. While it is primarily an image optimization app, it also removes metadata.*
 </small>
 
 #### Enabling & using the Shortcut
 
-1. Ensure the shortcut is enabled by going to *System Preferences > Extensions > Finder* and enabling the shortcut you created.
+1. The shortcut will be accessible through *Quick Actions* context menu within Finder.
 
-    In this menu, you can drag to reposition the shortcut.
-
-2. The shortcut will be accessible through *Quick Actions* context menu within Finder.
+2. If you want to reposition the shortcut within the context menu, go to *System Preferences > Extensions > Finder* and drag the shortcut's position.
 
 ### iOS/iPadOS
 
