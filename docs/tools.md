@@ -22,7 +22,7 @@ For your convenience, everything we recommend is listed below with a link to the
 
 </div>
 
-**Browser Extensions:**
+**Additional Resources:**
 
 <div class="grid cards" markdown>
 
