@@ -56,14 +56,11 @@ This guide uses the [Shortcuts](https://support.apple.com/guide/shortcuts-mac/in
 6. Use the following as the body of the script:
 
     ```bash
-    #!/bin/sh
-    PATH=/opt/homebrew/bin
-    exiftoolPath=$(which exiftool)
+    PATH=dirname $(which exiftool)
     for f in "$@"
     do
-        exiftoolPath -all= "$f";
+        exiftool -all= "$f";
     done
-    return "$@"
     ```
 
 ![macOS metadata removal shortcut](/assets/img/integrating-metadata-removal/shortcut-macos.png)
