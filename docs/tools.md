@@ -363,7 +363,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 <div class="grid cards" markdown>
 
 - ![Tor logo](./assets/img/self-contained-networks/tor.svg){ .twemoji } [Tor](https://www.torproject.org/)
-- ![I2P logo](./assets/img/self-contained-networks/i2p.svg){ .twemoji } [I2P](https://geti2p.net/)
+- ![I2P logo](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji } ![I2P logo](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji } [I2P](https://geti2p.net/)
 - ![Freenet logo](./assets/img/self-contained-networks/freenet.svg){ .twemoji } [Freenet](https://freenetproject.org/)
 
 </div>

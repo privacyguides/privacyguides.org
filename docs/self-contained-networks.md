@@ -32,7 +32,8 @@ If you are currently browsing clearnet and want to access the dark web, this sec
 
 !!! recommendation
 
-    ![I2P logo](./assets/img/self-contained-networks/i2p.svg){ align=right }
+    ![I2P logo](./assets/img/self-contained-networks/i2p.svg#only-light){ align=right }
+    ![I2P logo](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
 
     The Invisible Internet Project (I2P) is a computer network layer that allows applications to send messages to each other pseudonymously and securely. Uses include anonymous Web surfing, chatting, blogging, and file transfers. The software that implements this layer is called an I2P router and a computer running I2P is called an I2P node. The software is free and open-source and is published under multiple licenses.
 
