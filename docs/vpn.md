@@ -25,7 +25,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 !!! example "Criteria"
 
-    Our recommended providers are outside the US, use encryption, accept Monero, support WireGuard & OpenVPN, and have a no logging policy. Read our full list of criteria for more information.
+    Our recommended providers are outside the US, use encryption, accept Monero, support WireGuard & OpenVPN, and have a no logging policy. Read our [full list of criteria](#our-criteria) for more information.
 
 ### Mullvad
 
