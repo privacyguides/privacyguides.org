@@ -95,13 +95,13 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 ## Command-line
 
-### Exiftool
+### ExifTool
 
 !!! recommendation
 
-    ![Exiftool logo](/assets/img/metadata-removal/exiftool.png){ align=right }
+    ![ExifTool logo](/assets/img/metadata-removal/exiftool.png){ align=right }
 
-    **Exiftool** is the [original](https://en.wikipedia.org/wiki/ExifTool) perl library and command-line application for reading, writing, and editing meta information (EXIF, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
+    **ExifTool** is the [original](https://en.wikipedia.org/wiki/ExifTool) perl library and command-line application for reading, writing, and editing meta information (EXIF, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
 
     It's often a component of other EXIF removal applications and is in most Linux distribution repositories.
 
