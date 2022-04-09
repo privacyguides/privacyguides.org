@@ -140,7 +140,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 <div class="grid cards" markdown>
 
 - ![Mail-in-a-Box logo](/assets/img/email/mail-in-a-box.svg){ .twemoji } [Mail-in-a-Box](https://mailinabox.email/)
-- ![Mailcow logo](/assets/img/email/mailcow.svg){ .twemoji } [Mailcow](https://mailcow.email/)
+- ![mailcow logo](/assets/img/email/mailcow.svg){ .twemoji } [mailcow](https://mailcow.email/)
 
 </div>
 
