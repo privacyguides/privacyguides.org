@@ -62,6 +62,7 @@ This guide uses the [Shortcuts](https://support.apple.com/guide/shortcuts-mac/in
         exiftool -all= "$f";
     done
     ```
+7. In **Finder**, right click on an image, hover over **Quick Actions** and select **Customize**. Enable your shortcut in the menu.
 
 ![macOS metadata removal shortcut](/assets/img/integrating-metadata-removal/shortcut-macos.png)
 
