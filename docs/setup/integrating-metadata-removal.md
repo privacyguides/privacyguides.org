@@ -56,13 +56,11 @@ This guide uses the [Shortcuts](https://support.apple.com/guide/shortcuts-mac/in
 6. Use the following as the body of the script:
 
     ```bash
-    PATH=dirname $(which exiftool)
     for f in "$@"
     do
         exiftool -all= "$f";
     done
     ```
-7. In **Finder**, right click on an image, hover over **Quick Actions** and select **Customize**. Enable your shortcut in the menu.
 
 ![macOS metadata removal shortcut](/assets/img/integrating-metadata-removal/shortcut-macos.png)
 
