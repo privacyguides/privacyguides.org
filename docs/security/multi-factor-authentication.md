@@ -3,87 +3,106 @@ title: Multi-factor Authentication
 description: "Using strong MFA can stop over 99% of unauthorized account accesses, and it's easy to set up on the services you already use."
 icon: 'material/two-factor-authentication'
 ---
+**Multi-factor authentication** (MFA, or 2FA) is a security mechanism that requires additional steps beyond entering your username (or email) and password. The most common method are time limited codes you might receive from an SMS or app.
 
-**Two-Factor Authentication** (also known as **2FA**, **Multi-Factor Authentication**, or **MFA**) is a security mechanism that requires additional steps beyond simply your username/email and password. If you've ever had to enter a 6-digit code sent to your phone to log in to a website, that's an example of 2FA.
-
-The idea behind 2FA is that even if a hacker is able to figure out your password (something you *know*), they will still need a device you own like your phone (something you *have*) in order to generate the code needed to log in to your account. 2FA methods vary in security based on this premise: The more difficult it is for an attacker to gain access to your 2FA method, the better. 2FA methods include: Email or SMS codes, Push Notifications,Software (TOTP) Code-Generating Apps, Hardware Keys.
+The idea behind MFA is that even if a hacker (or adversary) is able to figure out your password (something you *know*), they will still need a device you own like your phone (something you *have*) in order to generate the code needed to log in to your account. MFA methods vary in security based on this premise: The more difficult it is for an attacker to gain access to your MFA method, the better. Examples of MFA methods (from weakest to strongest) include [SMS codes](https://en.wikipedia.org/wiki/One-time_password#SMS), email codes, app push notifications, [Time-based One-time Passwords (TOTP)](https://en.wikipedia.org/wiki/Time-based_one-time_password), Yubico OTP, and [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) / [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor).
 
 ## MFA Method Comparison
 
-==**SMS Codes** or Emailed Codes are better than nothing at all, but only marginally.== Getting a code over SMS or Email takes away from the "something you *have*" idea, because there are a variety of ways a hacker could take over your phone number or gain access to your emails without having physical access to any of your devices at all!
+### SMS or Email MFA
 
-**Push Notifications** take the form of a message being sent to an app on your phone asking you to confirm new account logins. This is a lot better than SMS or Email, since an attacker typically wouldn't be able to get these push notifications without having an already logged-in device, thus requiring physical access to your device. However, they can be easy to click through and accept accidentally, and are typically sent to *all* your devices at once, widening the availability of the 2FA code if you have many devices. This solution is also generally a proprietary solution, so you are reliant on the company you have an account with to implement their custom solution securely rather than implementing an industry standard. Finally, it requires you to keep an app for every login you have on your mobile device, which may or may not be convenient to you.
+Receiving codes either from **SMS** or **email** is far from the best way to secure your accounts. Obtaining a code by email or SMS takes away from the "something you *have*" idea, because there are a variety of ways a hacker could [take over your phone number](https://en.wikipedia.org/wiki/SIM_swap_scam) or gain access to your email without having physical access to any of your devices at all. If an unauthorized person gained access to your email, they would be able to use that access to both reset your password and receive the authentication code, giving them full access to your account.
 
-==If you want to take your security seriously, you should use a dedicated **Authenticator App** on your phone to generate these codes whenever possible.== These authenticator apps follow the same standard, allowing you to keep codes from many different companies in one place for ease-of-use. They also keep the codes securely stored (optionally requiring biometrics on your phone to access them), and make it difficult to duplicate the codes so they cannot be reproduced by a hacker later, even if they briefly had physical access to your phone.
+### Push Notifications
 
-**Hardware security keys** are a very strong form of multi-factor security. These are devices that implement a standard such as **FIDO2** or **U2F** that you need to physically attach to your computer or phone to log in to your accounts. A hardware key has a secure cryptoprocessor (essentially an entire mini computer) on them which stores and manages your encryption keys. Many of them have specific tamper-resistant mechanisms, but all of them are designed with the goal that they should be impossible to reproduce: The key you have will typically be the **only** way to gain access to your account.
+**Push Notifications** take the form of a message being sent to an app on your phone asking you to confirm new account logins. This method is a lot better than SMS or email, since an attacker typically wouldn't be able to get these push notifications without having an already logged-in device, which means they would need to compromise one of your other devices first.
 
-Hardware keys come in a variety of form factors that can connect to your device in different ways, such as a USB stick you plug in to your computer, or a Bluetooth/NFC token you connect to your device wirelessly. Some newer computers and mobile devices even have built-in hardware keys.
+We all make mistakes, and there is the risk that a user may accept the login attempt by accident. Push notification login authorizations are typically sent to *all* your devices at once, widening the availability of the MFA code if you have many devices.
 
-There are a few risks with using hardware security keys that are similar to the risks of using your house keys. First, if you lose or destroy a hardware key by accident and don't have a backup or other means of account recovery (either of which would reduce the security value of the hardware key), you will completely and irrevocably lose access to your account. Second, hardware keys can be stolen or forcefully taken from you. Finally, it is possibile that a hardware key might be tampered with or replaced with a fake prior to you receiving it, although most hardware key providers have methods to verify that their keys are authentic and uncompromised.
+The security of push notification MFA is dependent on both the quality of the app, the server component and the trust of the developer who produces it. Installing an app may also require you to accept invasive privileges that grant access to other data on your device. An individual app also requires that you have a specific app for each service which may not require a password to open unlike a good [Time-based One-time Password (TOTP)](#time-based-one-time-password-totp) app.
 
-Ultimately, the best form of two-factor security is the one you will use consistently on every account you have, that doesn't significantly interfere with your life. If you need to log in to an account often or on many devices, a hardware key may prove to be too much of a burden for example.
+### Time-based One-time Password (TOTP)
 
-## Hardware Security Keys
+**TOTP** is one of the most commons form of MFA available. When a user sets up TOTP they are generally required to scan a [QR Code](https://en.wikipedia.org/wiki/QR_code) which establishes a "shared secret" with the service that they intend to use. The shared secret is secured inside of the authenticator app's data, and is sometimes protected by a password.
 
-### YubiKey
+The time-limited code is then derived from the shared secret and the current time. As the code is only valid for a short time, without access to the shared secret an adversary cannot generate new new codes.
 
-!!! recommendation
+If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)), we recommend that you store your "shared secrets" on the hardware. Hardware such as the YubiKey was developed with making the "shared secret" difficult to extract and copy. A YubiKey is also not connected to the Internet, unlike a phone with a TOTP app.
 
-    ![YubiKeys](/assets/img/multi-factor-authentication/yubikey.png)
+Unlike [FIDO2 / U2F](#fido2-u2f), TOTP offers no protection against [phishing](https://en.wikipedia.org/wiki/Phishing) attacks.
 
-    The **Yuibkey** was one of the first security keys. It has a wide range of features such as for [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 WebAuthn](https://en.wikipedia.org/wiki/WebAuthn), PGP and One-Time-Pad (OTP) authentication. One of the benefits of this key is that one key can do everything.
+An adversary could set up a website to imitate an official service in an attempt to trick the user to give out their username, password and current TOTP code. If the adversary then uses those recorded credentials they may be able to log into the real service and hijack the account.
 
-    The firmware is not open source and cannot be updated without purchasing a new key.
+Although not perfect it is secure enough for most people, and when [Hardware Security Keys](#hardware-security-keys) are not supported TOTP with [Authenticator Apps](#authenticator-apps) are still a good option.
 
-    [Visit yubico.com](https://www.yubico.com){ .md-button .md-button--primary } [Privacy Policy](https://www.yubico.com/support/terms-conditions/privacy-notice){ .md-button }
+### Yubico OTP
 
-### NitroKey
+**Yubico OTP** is an authentication protocol typically implemented in hardware security keys. When a user decides to use Yubico OTP, the key will generate a public ID, private ID, and a Secret Key which is then uploaded to the Yubico OTP server.
 
-!!! recommendation
+When logging into a website all a user needs to do is to physically touch the security key. The security key will emulate a keyboard and print out a one-time password into the password field.
 
-    ![NitroKey](/assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
+The service will then forward the one-time password to the Yubico OTP server for validation. Yubico does provide a [detailed document](https://developers.yubico.com/OTP/OTPs_Explained.html) about the process.
 
-    **NitroKey** has a security key capable of [FIDO2 WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) called the **Nitrokey FIDO2**. For PGP support, you need to purchase one of their other keys such as the **Nitrokey Start**, **Nitrokey Pro 2** or the **Nitrokey Storage 2**.
+<figure markdown>
+  ![Yubico OTP](/assets/img/multi-factor-authentication/yubico-otp.png)
+</figure>
 
-    The [comparison table](https://www.nitrokey.com/#comparison) shows the features and how the Nitrokeys compare. The Nitrokey 3 listed there will have a combined feature set.
+There are some benefits and disadvantages to using Yubico OTP when compared to [TOTP](#time-based-one-time-password-totp).
 
-    The Nitrokey has an open source firmware, unlike the Yuibkey.
+YubiKeys are quite difficult to copy but in the event an adversary was able to accomplish this, the security key would be rejected when logging in as the counter stored on the key would be lower than what is stored on the Yubico validation server.
 
-    [Visit nitrokey.com](https://www.nitrokey.com){ .md-button .md-button--primary } [Privacy Policy](https://www.nitrokey.com/data-privacy-policy){ .md-button }
+The Yubico validation server is a cloud based service, and users do place trust in Yubico that they are storing data securely and not profiling users. The public ID associated with Yubico OTP is reused on every website and could be another avenue for third parties to profile the user.
 
-## Authenticator Apps
+Like [TOTP](#time-based-one-time-password-totp), Yubico OTP does not provide phishing resistance.
 
-==Generally speaking, TOTP software authenticator apps are going to be the best bet for most people.== They provide a significantly higher level of security than just SMS or Push Notifications, while remaining very convenient for most people who keep their phones with them at all times.
+If your threat model requires you to have different identities on different websites, **do not** use Yubico OTP with the same hardware security key across those websites as public ID is unique to each security key.
 
-Authenticator Apps implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. This is a method where websites share a secret with you which is used by your authenticator app to generate a six (usually) digit code based on the current time, which you enter while logging in for the website to check. Typically these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Even if a hacker gets one six-digit code, there is no way for them to reverse that code to get the original secret, or otherwise be able to predict what any future codes might be.
+### FIDO2 / U2F
 
-### Aegis Authenticator
+[**FIDO2**](https://en.wikipedia.org/wiki/FIDO2_Project) / [**U2F**](https://en.wikipedia.org/wiki/Universal_2nd_Factor) is the most secure and private form of second factor authentication. While the user experience is similar to Yubico OTP, the key does not print out a one-time password and validate with a third party server. Instead FIDO2 (and U2F) use [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) for authentication.
 
-!!! recommendation
+When a user creates an account the public key is sent to the service. When the user logs in the service will require the user to "sign" some data with their private key. The benefit of this is that no password data is ever stored by the service, so there is nothing for an adversary to steal.
 
-    ![Aegis logo](/assets/img/multi-factor-authentication/aegis.png){ align=right }
+This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and discussion of FIDO2 and [WebAuthn](https://webauthn.guide) standards.
 
-    **Aegis Authenticator** is a free, secure and open source app to manage your 2-step verification tokens for your online services.
+<iframe width="100%" style="height:50vh"
+  src="https://www.youtube-nocookie.com/embed/aMo4ZlWznao"
+  title="How FIDO2 and WebAuthn Stop Account Takeovers"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
 
-    [Visit getaegis.app](https://getaegis.app){ .md-button .md-button--primary } [Privacy Policy](https://getaegis.app/aegis/privacy.html){ .md-button }
+FIDO2 / U2F has superior security and privacy properties when compared to any MFA methods.
 
-    **Downloads:**
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
-    - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.beemdevelopment.aegis)
-    - [:fontawesome-brands-github: GitHub](https://github.com/beemdevelopment/Aegis)
+The public key authentication used by FIDO2 / U2F is more secure than shared secrets used in Yubico OTP and TOTP, as it includes the origin name (usually, the domain name) during authentication. Attestation is provided to protect the user from phishing as it helps them to determine that they are using the authentic service and not a fake copy.
 
-### Raivo OTP
+FIDO2 / U2F does not use any public ID, so the key is **not** identifiable across different websites like Yubico OTP. It also does not use any third party cloud server for authentication. All communication is completed between the key and the website the user is logging into. FIDO2 / U2F also uses a counter like Yubico OTP to help detect key cloning.
 
-!!! recommendation
+If a website or service supports FIDO2 / U2F for the authentication, it is highly recommended that you use it over any other form of MFA.
 
-    ![Raivo OTP logo](/assets/img/multi-factor-authentication/raivo-otp.png){ align=right }
+## General Recommendations
 
-    **Raivo OTP** is a native, lightweight and secure time-based (TOTP) & counter-based (HOTP) password client for iOS. Raivo OTP offers optional iCloud backup & sync. Raivo OTP is also available for macOS in the form of a status bar application, however the Mac app does not work independently of the iOS app.
+We have these general recommendations:
 
-    [Visit github.com](https://github.com/raivo-otp/ios-application){ .md-button .md-button--primary } [Privacy Policy](https://github.com/raivo-otp/ios-application/blob/master/PRIVACY.md){ .md-button }
+### Which method to use?
 
-    **Downloads:**
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
-    - [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/us/app/raivo-otp/id1498497896)
-    - [:fontawesome-brands-github: GitHub](https://github.com/raivo-otp/ios-application)
+When configuring your MFA method, keep in mind that it is only as secure as your weakest authentication method you use. This means it is important that you only use the best MFA method available. For instance, if you are already using TOTP, you should disable email and SMS MFA. If you are already using FIDO2 / U2F, you should not be using Yubico OTP or TOTP on your account.
+
+### Backups
+
+You should always have backups for your MFA method. Hardware security keys can get lost, stolen, or simply stop working over time. It is recommended that you have a pair of hardware security keys with the same access to your accounts instead of just one.
+
+When using TOTP with an authenticator app, be sure to back up your recovery keys, the app itself, or copy the "shared secrets" to another instance of the app on a different phone or into an encrypted container (e.g. [VeraCrypt](/encryption/#veracrypt)).
+
+### Initial setup
+
+When buying a security key, it is important that you change the default credentials, setup password protection for the key, and enable touch confirmation if your key supports such feature. Products such as the [YubiKey](#yubikey) have multiple interfaces with seperate credentials for each one of them, so you should go over each interface and set up protection as well.
+
+### Email and SMS
+
+If you have to use email for MFA, make sure that the email account itself is secured with a proper MFA method.
+
+If you use SMS MFA, use a carrier who will not switch your phone number to a new SIM card without account access or use a dedicated VOIP number from a provider with similar security to avoid a [SIM swap](https://en.wikipedia.org/wiki/SIM_swap_scam) attack.
+
+[MFA tools we recommend](../multi-factor-authentication.md){ .md-button }
