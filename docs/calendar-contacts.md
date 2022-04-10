@@ -33,7 +33,7 @@ These products are included with an subscription to the respective [email provid
 
 !!! recommendation
 
-    ![Proton Calendar logo](/assets/img/calendar-contacts/proton-calendar.jpg){ align=right }
+    ![Proton Calendar logo](/assets/img/calendar-contacts/proton-calendar.svg){ align=right }
 
     **Proton Calendar** is an calendar app that is available to ProtonMail users. All data stored within it is end-to-end encrypted when stored on ProtonMail's servers.
 
