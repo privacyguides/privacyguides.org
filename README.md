@@ -1,6 +1,10 @@
 <div align="center">
-  <a href="https://privacyguides.org">
+  <a href="https://privacyguides.org#gh-light-mode-only">
     <img src="/docs/assets/img/layout/privacy-guides-logo.svg" width="500px" alt="Privacy Guides" />
+  </a>
+  
+  <a href="https://privacyguides.org#gh-dark-mode-only">
+    <img src="/docs/assets/img/layout/privacy-guides-logo-dark.svg" width="500px" alt="Privacy Guides" />
   </a>
 
   <p><em>Your central privacy and security resource to protect yourself online.</em></p>
