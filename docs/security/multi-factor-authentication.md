@@ -11,7 +11,7 @@ The idea behind MFA is that even if a hacker (or adversary) is able to figure ou
 
 ### SMS or Email MFA
 
-Receiving codes either from **SMS** or **email** is far from the best way to secure your accounts. Obtaining a code by email or SMS takes away from the "something you *have*" idea, because there are a variety of ways a hacker could [take over your phone number](https://en.wikipedia.org/wiki/SIM_swap_scam) or gain access to your email without having physical access to any of your devices at all. If an unauthorized person gained access to your email, they would be able to use that access to both reset your password and receive the authentication code, giving them full access to your account.
+Receiving codes either from **SMS** or **email** are one of the weaker ways to secure your accounts with MFA. Obtaining a code by email or SMS takes away from the "something you *have*" idea, because there are a variety of ways a hacker could [take over your phone number](https://en.wikipedia.org/wiki/SIM_swap_scam) or gain access to your email without having physical access to any of your devices at all. If an unauthorized person gained access to your email, they would be able to use that access to both reset your password and receive the authentication code, giving them full access to your account.
 
 ### Push Notifications
 
@@ -25,11 +25,11 @@ The security of push notification MFA is dependent on both the quality of the ap
 
 **TOTP** is one of the most commons form of MFA available. When a user sets up TOTP they are generally required to scan a [QR Code](https://en.wikipedia.org/wiki/QR_code) which establishes a "shared secret" with the service that they intend to use. The shared secret is secured inside of the authenticator app's data, and is sometimes protected by a password.
 
-The time-limited code is then derived from the shared secret and the current time. As the code is only valid for a short time, without access to the shared secret an adversary cannot generate new new codes.
+The time-limited code is then derived from the shared secret and the current time. As the code is only valid for a short time, without access to the shared secret an adversary cannot generate new codes.
 
 If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)), we recommend that you store your "shared secrets" on the hardware. Hardware such as the YubiKey was developed with making the "shared secret" difficult to extract and copy. A YubiKey is also not connected to the Internet, unlike a phone with a TOTP app.
 
-Unlike [FIDO2 / U2F](#fido2-u2f), TOTP offers no protection against [phishing](https://en.wikipedia.org/wiki/Phishing) attacks.
+Unlike [FIDO2 / U2F](#fido2-u2f), TOTP offers no protection against [phishing](https://en.wikipedia.org/wiki/Phishing) or reuse attacks. If an adversary obtains a valid code from you they may use it as many times as they like until it expires (generally 60 seconds).
 
 An adversary could set up a website to imitate an official service in an attempt to trick the user to give out their username, password and current TOTP code. If the adversary then uses those recorded credentials they may be able to log into the real service and hijack the account.
 
@@ -47,7 +47,7 @@ Yubico OTP is an authentication protocol typically implemented in hardware secur
 
 When logging into a website all a user needs to do is to physically touch the security key. The security key will emulate a keyboard and print out a one-time password into the password field.
 
-The service will then forward the one-time password to the Yubico OTP server for validation. Yubico does provide a [detailed document](https://developers.yubico.com/OTP/OTPs_Explained.html) about the process.
+The service will then forward the one-time password to the Yubico OTP server for validation. A counter is incremented both on the key and Yubico's validation server. The OTP can only only be used once and when a successful authentication occurs the counter is increased which prevents reuse of the OTP. Yubico does provide a [detailed document](https://developers.yubico.com/OTP/OTPs_Explained.html) about the process.
 
 <figure markdown>
   ![Yubico OTP](/assets/img/multi-factor-authentication/yubico-otp.png)
@@ -55,9 +55,7 @@ The service will then forward the one-time password to the Yubico OTP server for
 
 There are some benefits and disadvantages to using Yubico OTP when compared to [TOTP](#time-based-one-time-password-totp).
 
-The Yubico validation server is a cloud based service, and users do place trust in Yubico that they are storing data securely and not profiling users. The public ID associated with Yubico OTP is reused on every website and could be another avenue for third parties to profile the user.
-
-Like [TOTP](#time-based-one-time-password-totp), Yubico OTP does not provide phishing resistance.
+The Yubico validation server is a cloud based service, and users do place trust in Yubico that they are storing data securely and not profiling users. The public ID associated with Yubico OTP is reused on every website and could be another avenue for third parties to profile the user. Like [TOTP](#time-based-one-time-password-totp), Yubico OTP does not provide phishing resistance.
 
 If your threat model requires you to have different identities on different websites, **do not** use Yubico OTP with the same hardware security key across those websites as public ID is unique to each security key.
 
@@ -79,9 +77,9 @@ This presentation discusses the history of password authentication, the pitfalls
 
 FIDO2 / U2F has superior security and privacy properties when compared to any MFA methods.
 
- Typically for web services it is used with [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). It uses public key authentication and is more secure than shared secrets used in Yubico OTP and TOTP methods, as it includes the origin name (usually, the domain name) during authentication. Attestation is provided to protect the user from phishing as it helps them to determine that they are using the authentic service and not a fake copy.
+Typically for web services it is used with [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). It uses public key authentication and is more secure than shared secrets used in Yubico OTP and TOTP methods, as it includes the origin name (usually, the domain name) during authentication. Attestation is provided to protect the user from phishing as it helps them to determine that they are using the authentic service and not a fake copy.
 
-WebAuthn does not use any public ID, so the key is **not** identifiable across different websites like Yubico OTP. It also does not use any third party cloud server for authentication. All communication is completed between the key and the website the user is logging into. FIDO2 / U2F also uses a counter like Yubico OTP to help detect key cloning.
+WebAuthn does not use any public ID, so the key is **not** identifiable across different websites like Yubico OTP. It also does not use any third party cloud server for authentication. All communication is completed between the key and the website the user is logging into. FIDO2 / U2F also uses a counter which is incremented upon use in order to prevent session reuse.
 
 If a website or service supports FIDO2 / U2F for the authentication, it is highly recommended that you use it over any other form of MFA.
 
