@@ -6,11 +6,16 @@ icon: 'material/data-matrix-remove'
 
 When sharing files, it's important to remove associated metadata. Image files commonly include [EXIF](https://en.wikipedia.org/wiki/Exif) data, and sometimes photos even include GPS coordinates within its metadata.
 
-While there are plenty of metadata removal tools, it's hard to beat the convenience of ones with native system integration. The guide featured here aims to detail how to integrate metadata removal tools in a simple fashion by utilizing system components.
+While there are plenty of metadata removal tools, they typically aren't convenient to use. The guides featured here aim to detail how to integrate metadata removal tools in a simple fashion by utilizing easy-to-access system features.
+
+!!! tip "Related"
+    For a list of the metadata removal tools that we recommend, visit our [metadata removal tools](/metadata-removal-tools/) page.
 
 ## macOS
 
 This guide uses the [Shortcuts](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac) app to add an ExifTool script to the *Quick Actions* context menu within Finder. Shortcuts is developed by Apple and bundled in with macOS by default.
+
+Shortcuts is quite intuitive to work with, so if you don't like the behavior demoed here then experiment with your own solution. For example, you could set the shortcut to take a clipboard input instead. The sky's the limit.
 
 ![ExifTool Quick Action](/assets/img/integrating-metadata-removal/preview-macos.png)
 
@@ -29,10 +34,7 @@ This guide uses the [Shortcuts](https://support.apple.com/guide/shortcuts-mac/in
     ```
 
 !!! note
-    You can check if ExifTool is installed by running `exiftool -ver`. You should see a version number. Next, take note of where ExifTool is installed by running `which exiftool`.
-
-!!! info
-    More information about ExifTool can be found on our [metadata removal tools](/metadata-removal-tools/) page.
+    You can check if ExifTool is installed by running `exiftool -ver`. You should see a version number.
 
 ### Creating the Shortcut
 
@@ -64,8 +66,8 @@ This guide uses the [Shortcuts](https://support.apple.com/guide/shortcuts-mac/in
 
 ![macOS metadata removal shortcut](/assets/img/integrating-metadata-removal/shortcut-macos.png)
 
-!!! info
-    Worth mentioning: the open source [ImageOptim](https://imageoptim.com/mac) app also integrates into Finder's context menu by default. While it is primarily an image optimization app, it also removes metadata.
+!!! tip "Worth Mentioning"
+    The open source [ImageOptim](https://imageoptim.com/mac) app integrates into Finder's *Services* context menu by default. While it is primarily an image optimization app, it also removes metadata.
 
 ### Enabling & using the Shortcut
 
@@ -79,7 +81,7 @@ This guide uses the [Shortcuts](https://support.apple.com/guide/shortcuts-mac/in
 [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) can be made accessible through the system Share Sheet, making accessing those shortcuts very convenient. This guide will show you how to build a metadata removal shortcut and integrate it into the system *Share Sheet*.
 
 !!! attention
-    This method of metadata removal is not as comprehensive at removing metadata as utilities like [ExifTool](/metadata-removal-tools/#exiftool) and [mat2](/metadata-removal-tools/#mat2).
+    This method of metadata removal is not as comprehensive at removing metadata as utilities like [ExifTool](/metadata-removal-tools/#exiftool) and [mat2](/metadata-removal-tools/#mat2) are.
 
 The lack of *good* metadata removal apps on the App Store is what makes this solution worthwhile.
 
@@ -93,9 +95,9 @@ The lack of *good* metadata removal apps on the App Store is what makes this sol
 
 1. Create a new Shortcut
 
-2. Enter the Shortcut's settings and check **Show in Share Sheet**.
+2. Enter the Shortcut's settings and check **Show in Share Sheet**
 
-3. Add a **Receive** action and set it to recieve **Images** from **Share Sheet**
+3. Add a **Receive** action and set it to receive **Images** from **Share Sheet**
 
 4. Add an **If** action
 
@@ -107,7 +109,7 @@ The lack of *good* metadata removal apps on the App Store is what makes this sol
 
 8. Add a **Convert** action and set it to **If Result** and **Match Input**
 
-9. Finally add a **Share** action and set that to **Converted Image**
+9. Finally, add a **Share** action and set that to **Converted Image**
 
 10. Make sure that you uncheck **preserve metadata**
 
@@ -115,12 +117,12 @@ The lack of *good* metadata removal apps on the App Store is what makes this sol
 
 ### Enabling & using the Shortcut
 
-1. The shortcut should be available through the system Share Sheet. If it is not, then a phone restart may be required.
+1. The shortcut should be available through the system Share Sheet. If it is not, then a device restart may be required.
 2. Optionally, you can add the shortcut to your home screen.
 
 ## Windows
 
-Windows allows users to place files in a **SendTo** folder which then appear in the *Send to* context menu. This guide will show you how to add an ExifTool script to this menu.
+Windows allows users to place files in a **SendTo** folder which then appear in the *Send to* context menu. This guide will show you how to add an ExifTool batch script to this menu.
 
 ![Send to metadata removal shortcut](/assets/img/integrating-metadata-removal/preview-windows.jpg)
 
