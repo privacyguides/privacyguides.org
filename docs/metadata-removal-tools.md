@@ -73,7 +73,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
     [Visit codeberg.org](https://codeberg.org/Starfish/Imagepipe){ .md-button .md-button--primary }
 
     **Downloads**
-    - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.jarsilio.android.scrambledeggsif)
+    - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.kaffeemitkoffein.imagepipe/)
     - [:fontawesome-brands-git: Source](https://codeberg.org/Starfish/Imagepipe)
 
 ### Metapho
