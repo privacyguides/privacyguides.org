@@ -8,6 +8,7 @@ mkdocs = "*"
 mkdocs-material = {path = "./mkdocs-material"}
 
 [dev-packages]
+scour = "*"
 
 [requires]
 python_version = "3.8"
