@@ -88,7 +88,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     Metapho is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
 
-    [Visit zininworks.com)](https://zininworks.com/metapho){ .md-button .md-button--primary } [Privacy Policy](https://zininworks.com/privacy/){ .md-button }
+    [Visit zininworks.com](https://zininworks.com/metapho){ .md-button .md-button--primary } [Privacy Policy](https://zininworks.com/privacy/){ .md-button }
 
     **Downloads**
     - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/metapho/id914457352)
