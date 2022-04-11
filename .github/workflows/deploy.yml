@@ -60,7 +60,7 @@ jobs:
 
     steps:
       - name: Download generated Jekyll site
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: generated-site
       - run: tar xvf site.tar
