@@ -31,7 +31,7 @@ If you have a hardware security key with TOTP support (such as a YubiKey with [Y
 
 Unlike [FIDO2 / U2F](#fido2-u2f), TOTP offers no protection against [phishing](https://en.wikipedia.org/wiki/Phishing) or reuse attacks. If an adversary obtains a valid code from you they may use it as many times as they like until it expires (generally 60 seconds).
 
-An adversary could set up a website to imitate an official service in an attempt to trick the user to give out their username, password and current TOTP code. If the adversary then uses those recorded credentials they may be able to log into the real service and hijack the account.
+An adversary could set up a website to imitate an official service in an attempt to trick you into giving out your username, password and current TOTP code. If the adversary then uses those recorded credentials they may be able to log into the real service and hijack the account.
 
 Although not perfect it is secure enough for most people, and when [Hardware Security Keys](#hardware-security-keys) are not supported TOTP with [Authenticator Apps](#authenticator-apps) are still a good option.
 
