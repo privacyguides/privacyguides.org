@@ -331,7 +331,7 @@ We have these general tips:
 - If you're after a bargain on a Pixel device, we suggest buying an "**a**" model, just after the next flagship is released. Discounts are usually available because Google will be trying to clear their stock.
 - Consider price beating options and specials offered at [brick and mortar](https://en.wikipedia.org/wiki/Brick_and_mortar) stores.
 - Look at online community bargain sites in your country. These can alert you to good sales.
-- The price per day for a device can be calculated as  $\text {EoL Date}-\text{Current Date} \over \text{Cost}$. Google provides a [list](https://support.google.com/nexus/answer/4457705) of their supported devices.
+- Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as: $\text{Cost} \over \text {EoL Date }-\text{ Current Date}$, meaning that the longer use of the device the lower cost per day.
 - Do not buy devices that have reached or are near their end-of-life, additional firmware updates must be provided by the manufacturer.
 - Do not buy preloaded LineageOS or /e/ OS phones or any Android phones without proper [Verified Boot](https://source.android.com/security/verifiedboot) support and firmware updates. These devices also have no way for you to check whether they've been tampered with.
 - In short, if a device or Android distribution is not listed here, there is probably a good reason, so check our [discussions](https://github.com/privacyguides/privacyguides.org/discussions) page.
