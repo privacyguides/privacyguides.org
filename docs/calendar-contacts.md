@@ -1,5 +1,5 @@
 ---
-title: Calendar and Contact Sync Tools
+title: Calendar and Contact Sync
 icon: material/calendar
 ---
 Calendaring and contacts are some of the most sensitive data posess. Use only products that use end-to-end encryption (E2EE) at rest. This prevents a provider from reading your data.

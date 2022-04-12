@@ -1,4 +1,4 @@
-INHERIT: mkdocs.yml
+INHERIT: mkdocs.en.yml
 site_url: "https://www.privacyguides.org/"
 watch:
   - theme

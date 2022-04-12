@@ -1,5 +1,5 @@
 ---
-title: Social News Aggregator
+title: Social News Aggregators
 icon: material/newspaper-variant-outline
 ---
 Stay up-to-date with privacy-respecting online bulletin boards.

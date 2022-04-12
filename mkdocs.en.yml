@@ -1,0 +1,56 @@
+INHERIT: mkdocs.yml
+
+site_name: Privacy Guides
+site_description: |
+  Massive organizations are monitoring your online activities. Privacy Guides is your central privacy and security resource to protect yourself online.
+copyright: |
+  <b>Privacy Guides</b> is a non-profit, socially motivated website that provides information for protecting your data security and privacy.<br>
+  We do not make money from recommending certain products, and we do not utilize affiliate links.<br>
+  This content was made available by the Privacy Guides team and contributors. <a href="https://github.com/privacyguides/privacyguides">Get involved</a>!
+
+nav:
+  - Home: 'index.md'
+  - 'Privacy Introduction':
+    - 'threat-modeling.md'
+    - 'Technology Basics':
+      - 'technology/dns.md'
+    - 'Security Basics':
+      - 'security/multi-factor-authentication.md'
+    - 'Setup Guides':
+      - 'setup/integrating-metadata-removal.md'
+  - 'Recommendations':
+    - 'tools.md'
+    - 'Browsers':
+      - 'browsers.md'
+    - 'Operating Systems':
+      - 'android.md'
+      - 'linux-desktop.md'
+      - 'qubes.md'
+      - 'router.md'
+    - 'Providers':
+      - 'cloud.md'
+      - 'dns.md'
+      - 'email.md'
+      - 'search-engines.md'
+      - 'social-networks.md'
+      - 'social-news-aggregator.md'
+      - 'vpn.md'
+    - 'Software':
+      - 'calendar-contacts.md'
+      - 'notebooks.md'
+      - 'email-clients.md'
+      - 'encryption.md'
+      - 'file-sharing.md'
+      - 'metadata-removal-tools.md'
+      - 'multi-factor-authentication.md'
+      - 'passwords.md'
+      - 'productivity.md'
+      - 'real-time-communication.md'
+      - 'news-aggregators.md'
+      - 'self-contained-networks.md'
+      - 'video-streaming.md'
+  - 'About Us':
+    - 'about.md'
+    - 'about/notices.md'
+    - 'about/privacy-policy.md'
+  - 'Blog': 'https://blog.privacyguides.org/'

@@ -1,5 +1,5 @@
 ---
-title: Multi-Factor Authenticator Recommendations
+title: Multi-Factor Authenticators
 icon: 'material/two-factor-authentication'
 ---
 ## Hardware Security Keys
