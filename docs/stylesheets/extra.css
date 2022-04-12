@@ -145,3 +145,8 @@ h1, h2, h3, .md-header__topic {
 .md-nav__link svg {
     width: 22px;
 }
+
+/* Unsticky sidebar without JS */
+.no-js .md-sidebar {
+    align-self: auto;
+}
