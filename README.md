@@ -37,6 +37,21 @@
   </a></p>
 </div>
 
+## About
+
+**Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. We are a non-profit collective operated entirely by volunteer team members and contributors.
+
+Our current list of team members can be found [here](https://github.com/orgs/privacyguides/people). Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project, and you can too!
+
+## Contributing
+
+- 💬 [Start a discussion or suggest an idea](https://github.com/privacyguides/privacyguides.org/discussions)
+- 💖 [Sponsor the project](https://github.com/sponsors/privacyguides)
+- 📝 Edit the site, everything's accessible in this repo
+  - Browse our [open issues](https://github.com/privacyguides/privacyguides.org/issues) to see what needs to be updated
+  - When making more significant (than simple typo fixes, etc.) changes, update the [changelog](/CHANGELOG.md)
+  - View some contribution tips on our [contributor's wiki](https://github.com/privacyguides/privacyguides.org/wiki)
+
 ## Developing
 
 1. Clone this repository: `git clone https://github.com/privacyguides/privacyguides.org`
@@ -44,3 +59,17 @@
 3. Install [mkdocs-material](https://squidfunk.github.io/mkdocs-material/getting-started/): `pip install mkdocs-material`
 4. Serve the site locally: `mkdocs serve`
     - The site will be available at `http://localhost:8000/`.
+  
+Your local site will appear slightly different, because the production version of the website uses a private/custom build of mkdocs-material with additional features.
+
+Team members with access to [mkdocs-material-insiders](https://github.com/privacyguides/mkdocs-material-insiders) should instead:
+
+1. Clone this repository and submodules: `git clone --recurse-submodules https://github.com/privacyguides/privacyguides.org`
+2. Install [Python 3.6+](https://www.python.org/downloads/)
+3. Install **pipenv**: `pip install pipenv`
+4. Start a pipenv shell: `pipenv shell`
+5. Install dependencies: `pipenv install --dev`
+6. Serve the site locally: `mkdocs serve --config-file mkdocs.production.yml`
+    - The site will be available at `http://localhost:8000`
+    - You can build the site locally with `mkdocs build --config-file mkdocs.production.yml`
+    - This version of the site should be identical to the live, production version
