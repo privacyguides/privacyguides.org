@@ -1,0 +1,15 @@
+# Privacy Guides Changelog
+
+<!-- Add the date and any new changes to the TOP of this file, below this line. -->
+
+## 2022-04-11
+
+- Added changelog
+- Switched to release-based deployments (#980)
+- Removed blog from repo, moved to [blog.privacyguides.org](https://blog.privacyguides.org)
+- Add RSS page ([#895](https://github.com/privacyguides/privacyguides.org/pull/895/))
+- MFA/YubiKey clarifications ([#972](https://github.com/privacyguides/privacyguides.org/pull/972))
+
+---
+
+*Massive thanks to [u/SnowCatFalcon](https://www.reddit.com/user/SnowCatFalcon/) for publishing [changelogs on our Subreddit](https://www.reddit.com/r/PrivacyGuides/comments/tu2dvw/privacy_guides_changelogs_march_2022/) before we added this file.*
