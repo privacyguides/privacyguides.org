@@ -1,0 +1,16 @@
+#
+# Choose file structure in Crowdin
+# e.g. true or false
+#
+"preserve_hierarchy": true
+
+#
+# Files configuration
+#
+files: [
+ {
+  "source" : "/docs/**/*.md",
+  "translation" : "/l10n/%two_letters_code%/**/%original_file_name%",
+  "update_option": "update_as_unapproved"
+ }
+]
