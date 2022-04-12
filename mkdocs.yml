@@ -63,21 +63,9 @@ nav:
       - 'Video Streaming': 'video-streaming.md'
   - 'About Us':
     - 'Privacy Guides': 'about.md'
-    - 'Write for us!': 'about/bounty.md'
     - 'Notices': 'about/notices.md'
     - 'Privacy Policy': 'about/privacy-policy.md'
-  - 'Blog':
-    - 'Blog Index': 'blog.md'
-    - '2022':
-      - 'April':
-        - '"Move Fast and Break Things"': 'blog/2022/04/04/move-fast-and-break-things.md'
-    - '2021':
-      - 'December':
-        - 'Firefox Privacy: 2021 Update': 'blog/2021/12/01/firefox-privacy-2021-update.md'
-      - 'November':
-        - 'Virtual Insanity': 'blog/2021/11/01/virtual-insanity.md'
-      - 'September':
-        - 'Welcome to Privacy Guides': 'blog/2021/09/14/welcome-to-privacy-guides.md'
+  - 'Blog': 'https://blog.privacyguides.org/'
 
 theme:
   name: material
