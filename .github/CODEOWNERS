@@ -1,20 +1,12 @@
 # Additional Co-Owners are added to the TOP of this file.
 
 # High-traffic pages
-/index.html @JonahAragon @dngray
-/blog.html @JonahAragon
+/docs/index.md @JonahAragon @dngray
+/theme/overrides/ @JonahAragon
 
-# Org/legal
-/notices.md @JonahAragon
-/privacy-policy.md @JonahAragon
+# Org
+/docs/about/ @JonahAragon
 LICENSE @JonahAragon
-
-# Website dev
-/_sass/ @JonahAragon
-/_layouts/ @JonahAragon
-Gemfile @JonahAragon
-Gemfile.lock @JonahAragon
-_config.yml @JonahAragon
 
 # Ops
 /.github/ @JonahAragon
