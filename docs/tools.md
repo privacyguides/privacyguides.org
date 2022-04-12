@@ -241,6 +241,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 <div class="grid cards" markdown>
 
 - ![Thunderbird logo](/assets/img/email-clients/thunderbird.svg){ .twemoji } [Thunderbird](https://www.thunderbird.net/)
+- ![Apple Mail logo](/assets/img/email-clients/applemail.png){ .twemoji } [Apple Mail](https://support.apple.com/guide/mail/welcome/mac)
 - ![GNOME Evolution logo](/assets/img/email-clients/evolution.svg){ .twemoji } [GNOME Evolution (Linux)](https://wiki.gnome.org/Apps/Evolution)
 - ![Kontact logo](/assets/img/email-clients/kontact.svg){ .twemoji } [Kontact (Linux)](https://kontact.kde.org/)
 - ![Mailvelope logo](/assets/img/email-clients/mailvelope.svg){ .twemoji } [Mailvelope (PGP in standard webmail)](https://www.mailvelope.com/)
