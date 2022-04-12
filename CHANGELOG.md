@@ -5,8 +5,8 @@
 ## 2022-04-11
 
 - Added changelog
-- Switched to release-based deployments (#980)
-- Removed blog from repo, moved to [blog.privacyguides.org](https://blog.privacyguides.org)
+- Switched to release-based deployments ([#987](https://github.com/privacyguides/privacyguides.org/pull/987))
+- Removed blog from repo, moved to [blog.privacyguides.org](https://blog.privacyguides.org) ([#985](https://github.com/privacyguides/privacyguides.org/pull/985))
 - Add RSS page ([#895](https://github.com/privacyguides/privacyguides.org/pull/895/))
 - MFA/YubiKey clarifications ([#972](https://github.com/privacyguides/privacyguides.org/pull/972))
 
