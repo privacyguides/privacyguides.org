@@ -58,7 +58,7 @@ Our current list of team members can be found [here](https://github.com/orgs/pri
 2. Install [Python 3.6+](https://www.python.org/downloads/)
 3. Install [mkdocs-material](https://squidfunk.github.io/mkdocs-material/getting-started/): `pip install mkdocs-material`
 4. Serve the site locally: `mkdocs serve`
-    - The site will be available at `http://localhost:8000/`.
+    - The site will be available at `http://localhost:8000/`
   
 Your local site will appear slightly different, because the production version of the website uses a private/custom build of mkdocs-material with additional features.
 
@@ -73,3 +73,14 @@ Team members with access to [mkdocs-material-insiders](https://github.com/privac
     - The site will be available at `http://localhost:8000`
     - You can build the site locally with `mkdocs build --config-file mkdocs.production.yml`
     - This version of the site should be identical to the live, production version
+
+## Releasing
+
+1. Create a new tag: `git tag -s v2.X.X -m 'Some message'`
+    - [View existing tags](https://github.com/privacyguides/privacyguides.org/tags)
+    - Tag [numbering](https://semver.org/): Increment the MINOR (2nd) number when making significant changes (adding/deleting pages, etc.), increment the PATCH (3rd) number when making minor changes (typos, bug fixes). Probably leave the MAJOR number at 2 until a massive redesign (v1 -> v2 was the Jekyll to MkDocs transition).
+2. Push the tag to GitHub: `git push --tags`
+3. [Create a new release](https://github.com/privacyguides/privacyguides.org/releases/new) selecting the new tag
+    - Title the release the same as the tag version number without the `v`, i.e. `2.X.X`
+    - GitHub should let you auto-generate release notes, otherwise copy notes from the changelog
+4. Publish release, it will be deployed to the live site automatically
