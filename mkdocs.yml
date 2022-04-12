@@ -66,6 +66,7 @@ nav:
     - 'Notices': 'about/notices.md'
     - 'Privacy Policy': 'about/privacy-policy.md'
   - 'Blog': 'https://blog.privacyguides.org/'
+  - 'Discussions': 'https://github.com/orgs/privacyguides/discussions'
 
 theme:
   name: material
