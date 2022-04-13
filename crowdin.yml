@@ -18,3 +18,11 @@ files:
   translation_replace:
     "en.": ""
   update_option: update_as_unapproved
+
+#
+# Integration configuration
+#
+"pull_request_title": "Crowdin translation updates"
+"pull_request_labels": [
+  "l10n"
+]
