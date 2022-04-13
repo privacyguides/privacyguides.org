@@ -10,7 +10,7 @@ The primary threat when using a video streaming platform is that your streaming 
 
 !!! Warning
 
-    When using Freetube, your IP address is still known to YouTube, [Invidious](https://instances.invidious.io) and the SponsorBlock instances that you use. Consider using a [VPN](/vpn) or [Tor](https://www.torproject.org) if your [threat model](/threat-modeling) requires hiding your IP address.
+    When using Freetube, your IP address is still known to YouTube, [Invidious](https://instances.invidious.io) and the SponsorBlock instances that you use. Consider using a [VPN](/vpn) or [Tor](https://www.torproject.org) if your [threat model](threat-modeling.md) requires hiding your IP address.
 
 !!! recommendation
 
