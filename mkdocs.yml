@@ -61,24 +61,6 @@ plugins:
         en:
           name: English
           build: false
-        pt:
-          name: Português
-          build: true
-      nav_translations:
-        pt:
-          "Home": Home2
-          "Privacy Introduction": Privacy Introduction2
-          "Technology Basics": Technology Basics2
-          "Security Basics": Security Basics2
-          "Setup Guides": Setup Guides2
-          "Recommendations": Recommendations2
-          "Browsers": Browsers2
-          "Operating Systems": Operating Systems2
-          "Providers": Providers2
-          "Software": Software2
-          "About Us": About Us2
-          "Discussions": Discussions2
-          "Blog": Blog2
   - tags
   - search
   - privacy:
