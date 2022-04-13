@@ -1,2 +1,14 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+docs/** -linguist-documentation
+.git* text
+*.json text
+*.js text
+*.md text linguist-detectable
+*.{yml,yaml} text
+*.{htm,html} text diff=html
+
+*.svg text
+*.png binary
+*.{jpeg,jpg} binary

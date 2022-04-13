@@ -2,6 +2,11 @@
 
 <!-- Add the date and any new changes to the TOP of this file, below this line. -->
 
+## 2022-04-12
+
+- Enabled organization discussions ([#986](https://github.com/orgs/privacyguides/discussions/986))
+- Added a navbar link to the new [organization discussions](https://github.com/orgs/privacyguides/discussions) ([#994](https://github.com/privacyguides/privacyguides.org/pull/994))
+
 ## 2022-04-11
 
 - Added changelog
