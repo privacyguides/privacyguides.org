@@ -2,6 +2,11 @@
 
 <!-- Add the date and any new changes to the TOP of this file, below this line. -->
 
+## 2022-04-13
+
+- Update Quad9 logging status from "No" to "Some"
+- Revamp footnotes for DNS Servers page
+
 ## 2022-04-12
 
 - Enabled organization discussions ([#986](https://github.com/orgs/privacyguides/discussions/986))

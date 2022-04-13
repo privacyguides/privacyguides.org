@@ -27,7 +27,7 @@ icon: material/dns
 [^5]: NextDNS can provide insights and logging features on an opt-in basis. Users can choose retention times and log storage locations for any logs they choose to keep. If not specifically requested by the user, no data is logged. [https://nextdns.io/privacy](https://nextdns.io/privacy)
 [^6]: Quad9 collects some data for the purposes of threat monitoring and response. That data may then be remixed and shared, such as for the purpose of security research. Quad9 does not collect or record IP addresses or other data they deem personally identifiable. [https://www.quad9.net/privacy/policy/](https://www.quad9.net/privacy/policy/)
 
-The criteria for the servers list above are:
+The criteria for the servers listed above are:
 
 - Must support [DNSSEC](technology/dns.md#what-is-dnssec-and-when-is-it-used)
 - Must have [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) support
