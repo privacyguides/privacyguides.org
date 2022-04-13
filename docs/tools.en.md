@@ -159,34 +159,6 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 [Learn more...](search-engines.md)
 
-### Social Media
-
-<div class="grid cards" markdown>
-
-- ![Mastodon logo](/assets/img/social-networks/mastodon.svg){ .twemoji } [Mastodon](https://joinmastodon.org/)
-- ![diaspora logo](/assets/img/social-networks/diaspora.svg){ .twemoji } [diaspora\*](https://diasporafoundation.org/)
-- ![Friendica logo](/assets/img/social-networks/friendica.svg){ .twemoji } [Friendica](https://friendi.ca/)
-- ![PixelFed logo](/assets/img/social-networks/pixelfed.svg){ .twemoji } [PixelFed](https://pixelfed.org/)
-- ![Pleroma logo](/assets/img/social-networks/pleroma.svg){ .twemoji } [Pleroma](https://pleroma.social/)
-- ![Movim logo](/assets/img/social-networks/movim.svg){ .twemoji } [Movim](https://github.com/movim)
-
-</div>
-
-[Learn more...](social-networks.md)
-
-**News Aggregators:**
-
-<div class="grid cards" markdown>
-
-- ![Tildes logo](/assets/img/social-media-aggregator/tildes.svg){ .twemoji } [Tildes](https://tildes.net/)
-- ![Lemmy logo](/assets/img/social-media-aggregator/lemmy.svg){ .twemoji } [Lemmy](https://lemmy.ml/)
-- ![Postmill logo](/assets/img/social-media-aggregator/postmill.png){ .twemoji } [Postmill](https://postmill.xyz/)
-- ![Freepost logo](/assets/img/social-media-aggregator/freepost.svg){ .twemoji } [Freepost](https://freepo.st/)
-
-</div>
-
-[Learn more...](social-news-aggregator.md)
-
 ### VPN Providers
 
 ??? danger "VPNs do not provide anonymity"
