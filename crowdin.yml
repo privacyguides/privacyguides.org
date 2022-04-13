@@ -13,3 +13,8 @@ files:
   translation_replace:
     "en.": ""
   update_option: update_as_unapproved
+- source: "/theme/overrides/*.en.html"
+  translation: "/theme/overrides/%file_name%.%two_letters_code%.html"
+  translation_replace:
+    "en.": ""
+  update_option: update_as_unapproved

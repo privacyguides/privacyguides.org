@@ -29,15 +29,15 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install mkdocs
-          pip install mkdocs-material
+          pip install pipenv
+          pipenv install
 
       - name: Build website
         run: |
-          mkdocs build
+          pipenv run mkdocs build
           mv .well-known site/
           tar cvf site.tar site
-          mkdocs --version
+          pipenv run mkdocs --version
 
       - name: Package website
         uses: actions/upload-artifact@v3

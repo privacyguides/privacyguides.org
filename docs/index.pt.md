@@ -1,5 +1,5 @@
 ---
-template: overrides/home.html
+template: overrides/home.pt.html
 hide:
   - navigation
   - toc
