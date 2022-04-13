@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 mkdocs = "*"
 mkdocs-material = {path = "./mkdocs-material"}
+mkdocs-static-i18n = "*"
 
 [dev-packages]
 scour = "*"

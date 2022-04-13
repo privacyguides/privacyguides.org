@@ -8,9 +8,8 @@
 # Files configuration
 #
 files:
-- source: "/docs/**/*.md"
-  translation: "/l10n/%two_letters_code%/**/%original_file_name%"
-  update_option: update_as_unapproved
-- source: "/mkdocs.en.yml"
-  translation: "/l10n/mkdocs.%two_letters_code%.yml"
+- source: "/docs/**/*.en.md"
+  translation: "/docs/**/%file_name%.%two_letters_code%.md"
+  translation_replace:
+    "en.": ""
   update_option: update_as_unapproved
