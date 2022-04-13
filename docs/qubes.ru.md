@@ -3,7 +3,7 @@ title: Qubes OS
 icon: pg/qubes-os
 ---
 
-Qubes OS - это дистрибутив Linux, который использует [Xen](https://en.wikipedia.org/wiki/Xen) для полной изоляции приложений.
+Qubes OS - это дистрибутив Linux, который использует [Xen](https://ru.wikipedia.org/wiki/Xen) для полной изоляции приложений.
 
 ### Qubes OS
 
