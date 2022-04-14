@@ -1,8 +1,5 @@
 ---
-layout: page
-permalink: /terms-and-notices/
 title: "Notices and Disclaimers"
-description: "Privacy Guides is provided with good intentions on an &quot;as-is&quot; basis, without warranty, and disclaiming liability for damages."
 icon: material/message-alert
 hide:
     - toc

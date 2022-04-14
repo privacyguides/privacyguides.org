@@ -1,5 +1,5 @@
 ---
-title: Notebooks
+title: "Notebooks"
 icon: material/notebook-edit-outline
 ---
 

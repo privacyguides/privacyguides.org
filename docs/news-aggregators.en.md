@@ -1,5 +1,5 @@
 ---
-title: News Aggregators
+title: "News Aggregators"
 icon: octicons/rss-24
 ---
 
