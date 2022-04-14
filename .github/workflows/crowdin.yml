@@ -1,0 +1,27 @@
+name: Crowdin Upload
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  synchronize-with-crowdin:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: crowdin action
+      uses: crowdin/github-action@1.4.8
+      with:
+        upload_sources: true
+        upload_sources_args: '--auto-update --delete-obsolete'
+        upload_translations: false
+        download_translations: false
+        config: crowdin.yml
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+        CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
