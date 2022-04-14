@@ -6,14 +6,14 @@ Calendaring and contacts are some of the most sensitive data posess. Use only pr
 
 ## Software as a service (SaaS) only
 
-These products are included with an subscription to the respective [email providers](/email).
+These products are included with an subscription to the respective [email providers](email.md).
 
 ### Tutanota
 
 !!! recommendation
 
-    ![Tutanota logo](/assets/img/calendar-contacts/tutanota.svg#only-light){ align=right }
-    ![Tutanota logo](/assets/img/calendar-contacts/tutanota-dark.svg#only-dark){ align=right }
+    ![Tutanota logo](assets/img/calendar-contacts/tutanota.svg#only-light){ align=right }
+    ![Tutanota logo](assets/img/calendar-contacts/tutanota-dark.svg#only-dark){ align=right }
 
     **Tutanota** has an [encrypted calendar](https://tutanota.com/blog/posts/free-encrypted-calendar/) in their desktop and mobile clients.
 
@@ -33,7 +33,7 @@ These products are included with an subscription to the respective [email provid
 
 !!! recommendation
 
-    ![Proton Calendar logo](/assets/img/calendar-contacts/proton-calendar.svg){ align=right }
+    ![Proton Calendar logo](assets/img/calendar-contacts/proton-calendar.svg){ align=right }
 
     **Proton Calendar** is an calendar app that is available to ProtonMail users. All data stored within it is end-to-end encrypted when stored on ProtonMail's servers.
 
@@ -51,7 +51,7 @@ Some of these options are self-hostable, or able to be hosted by third party pro
 
 !!! recommendation
 
-    ![EteSync logo](/assets/img/calendar-contacts/etesync.svg){ align=right }
+    ![EteSync logo](assets/img/calendar-contacts/etesync.svg){ align=right }
 
     **EteSync** is a secure, end-to-end encrypted, and privacy-respecting cloud backup and synchronization software for your personal information (e.g. contacts and calendars). There are native clients for Android, iOS, and the web, and an adapter layer for most desktop clients.
 
@@ -70,7 +70,7 @@ Some of these options are self-hostable, or able to be hosted by third party pro
 
 !!! recommendation
 
-    ![Nextcloud logo](/assets/img/calendar-contacts/nextcloud.svg){ align=right }
+    ![Nextcloud logo](assets/img/calendar-contacts/nextcloud.svg){ align=right }
 
     **Nextcloud** is a suite of client-server software for creating and using file hosting services. This includes calendar sync via CalDAV and contacts sync via CardDAV. Nextcloud is free and open-source, thereby allowing anyone to install and operate it without charge on a private server.
 
@@ -92,11 +92,11 @@ Some of these options are self-hostable, or able to be hosted by third party pro
 
 !!! recommendation
 
-    ![DecSync logo](/assets/img/calendar-contacts/decsync.svg){ align=right }
+    ![DecSync logo](assets/img/calendar-contacts/decsync.svg){ align=right }
 
-    **DecSync CC** synchronizes contacts, calendars and tasks using DecSync. It stores this data in a shared directory, using [Syncthing](/file-sharing/#syncthing), or any other file synchronization service.
+    **DecSync CC** synchronizes contacts, calendars and tasks using DecSync. It stores this data in a shared directory, using [Syncthing](file-sharing/#syncthing), or any other file synchronization service.
 
-    There are [plugins](https://github.com/39aldo39/DecSync#rss) to sync other types of data such as [RSS](/news-aggregators).
+    There are [plugins](https://github.com/39aldo39/DecSync#rss) to sync other types of data such as [RSS](news-aggregators.md).
 
     [Visit github.com](https://github.com/39aldo39/DecSync){ .md-button .md-button--primary }
 

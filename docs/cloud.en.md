@@ -10,7 +10,7 @@ Trust your provider by using an alternative below that supports [end-to-end encr
 
 !!! recommendation
 
-    ![Nextcloud logo](/assets/img/cloud/nextcloud.svg){ align=right }
+    ![Nextcloud logo](assets/img/cloud/nextcloud.svg){ align=right }
 
     **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control. It also comes with experimental end-to-end encryption (E2EE).
 
@@ -36,7 +36,7 @@ When self hosting Nextcloud, you should also remember to enable E2EE to protect 
 
 !!! recommendation
 
-    ![Proton Drive logo](/assets/img/cloud/protondrive.svg){ align=right }
+    ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
     **Proton Drive** is an end-to-end encrypted (E2EE) general file storage service by the popular encrypted email provider [ProtonMail](https://protonmail.com).
 
@@ -47,7 +47,7 @@ When self hosting Nextcloud, you should also remember to enable E2EE to protect 
 
 Proton Drive is currently in beta and only is only available through a web client.
 
-When using a web client, you are placing trust in the server to send you proper JavaScript code to derive the decryption key and authentication token locally in your browser. A compromised server can send you malicious JavaScript code to steal your master password and decrypt your data. If this does not fit your [threat model](/threat-modeling/), consider using an alternative.
+When using a web client, you are placing trust in the server to send you proper JavaScript code to derive the decryption key and authentication token locally in your browser. A compromised server can send you malicious JavaScript code to steal your master password and decrypt your data. If this does not fit your [threat model](threat-modeling.md), consider using an alternative.
 
 ### Cryptee
 

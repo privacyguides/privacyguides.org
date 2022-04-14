@@ -12,7 +12,7 @@ These are our current web browser recommendations and settings. We recommend kee
 
 !!! recommendation
 
-    ![Tor Browser logo](/assets/img/browsers/tor.svg){ align=right }
+    ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
 
     **Tor Browser** is the choice if you need anonymity. This browser provides you with access to the Tor Bridges and [Tor Network](https://en.wikipedia.org/wiki/Tor_(network)), along with extensions that can be automatically configured to fit its three security levels - *Standard*, *Safer* and *Safest*. We recommend that you do not change any of Tor Browser's default configurations outside of the standard security levels.
 
@@ -36,7 +36,7 @@ These are our current web browser recommendations and settings. We recommend kee
 
 !!! recommendation
 
-    ![Firefox logo](/assets/img/browsers/firefox.svg){ align=right }
+    ![Firefox logo](assets/img/browsers/firefox.svg){ align=right }
 
     **Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
@@ -99,7 +99,7 @@ The [Firefox sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) serv
 
 #### Extensions
 
-We generally do not recommend installing any extensions as they increase your [attack surface](https://en.wikipedia.org/wiki/Attack_surface); however, if you want content blocking, [uBlock Origin](/browsers/#additional-resources) might be useful to you. The extension is also a 🏆️ [Recommended Extension](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) by Mozilla.
+We generally do not recommend installing any extensions as they increase your [attack surface](https://en.wikipedia.org/wiki/Attack_surface); however, if you want content blocking, [uBlock Origin](#additional-resources) might be useful to you. The extension is also a 🏆️ [Recommended Extension](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) by Mozilla.
 
 #### Arkenfox (advanced)
 
@@ -115,7 +115,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 !!! recommendation
 
-    ![Bromite logo](/assets/img/browsers/bromite.svg){ align=right }
+    ![Bromite logo](assets/img/browsers/bromite.svg){ align=right }
 
     **Bromite** is a [Chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser))-based browser with privacy and security enhancements, built-in ad blocking, and some fingerprinting randomization.
 
@@ -145,7 +145,7 @@ These options can be found in *Privacy and Security* ( ⁝ → ⚙️ Settings �
 
 !!! recommendation
 
-    ![Safari logo](/assets/img/browsers/safari.svg){ align=right }
+    ![Safari logo](assets/img/browsers/safari.svg){ align=right }
 
     **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as Intelligent Tracking Protection, Privacy Report, isolated Private Browsing tabs, iCloud Private Relay, and automatic HTTPS upgrades.
 
@@ -197,7 +197,7 @@ If you use iCloud, we also recommend checking to ensure Safari's default downloa
 
 #### Extensions
 
-We generally do not recommend installing [any extensions](https://www.sentinelone.com/blog/inside-safari-extensions-malware-golden-key-user-data/) as they increase your browser's [attack surface](https://en.wikipedia.org/wiki/Attack_surface); however, if you want content blocking, [AdGuard for Safari](/browsers/#additional-resources) might be useful to you.
+We generally do not recommend installing [any extensions](https://www.sentinelone.com/blog/inside-safari-extensions-malware-golden-key-user-data/) as they increase your browser's [attack surface](https://en.wikipedia.org/wiki/Attack_surface); however, if you want content blocking, [AdGuard for Safari](#additional-resources) might be useful to you.
 
 ## Additional Resources
 
@@ -205,7 +205,7 @@ We generally do not recommend installing [any extensions](https://www.sentinelon
 
 !!! recommendation
 
-    ![uBlock Origin logo](/assets/img/browsers/ublock_origin.svg){ align=right }
+    ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }
 
     **uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
 
@@ -230,7 +230,7 @@ uBlock Origin also has different [blocking modes](https://github.com/gorhill/uBl
 
 !!! recommendation
 
-    ![AdGuard logo](/assets/img/browsers/adguard.svg){ align=right }
+    ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
 
     **AdGuard for Safari** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker). 
     
@@ -255,7 +255,7 @@ There is also [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html
 
 !!! recommendation
 
-    ![Terms of Service; Didn't Read logo](/assets/img/browsers/terms_of_service_didnt_read.svg){ align=right }
+    ![Terms of Service; Didn't Read logo](assets/img/browsers/terms_of_service_didnt_read.svg){ align=right }
 
     **Terms of Service; Didn't Read** grades websites based on their terms of service agreements and privacy policies. It also gives short summaries of those agreements. The analyses and ratings are published transparently by a community of reviewers.
 

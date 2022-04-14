@@ -10,7 +10,7 @@ Discover how to privately share your files between your devices, with your frien
 
 !!! recommendation
 
-    ![OnionShare logo](/assets/img/file-sharing-sync/onionshare.svg){ align=right }
+    ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
 
     **OnionShare** is an open-source tool that lets you securely and anonymously share a file of any size. It works by starting a web server accessible as a Tor onion service, with an unguessable URL that you can share with the recipients to download or send files.
 
@@ -26,7 +26,7 @@ Discover how to privately share your files between your devices, with your frien
 
 !!! recommendation
 
-    ![Magic Wormhole logo](/assets/img/file-sharing-sync/magic_wormhole.png){ align=right }
+    ![Magic Wormhole logo](assets/img/file-sharing-sync/magic_wormhole.png){ align=right }
 
     Magic Wormhole is a package that provides a library and a command-line tool named wormhole, which makes it possible to get arbitrary-sized files and directories (or short pieces of text) from one computer to another. Their motto: "Get things from one computer to another, safely.
 
@@ -42,7 +42,7 @@ Discover how to privately share your files between your devices, with your frien
 
 !!! recommendation
 
-    ![FreedomBox logo](/assets/img/file-sharing-sync/freedombox.svg){ align=right }
+    ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }
 
     **FreedomBox** is a operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications that you might want to selfhost.
 
@@ -57,7 +57,7 @@ Discover how to privately share your files between your devices, with your frien
 
 !!! recommendation
 
-    ![Syncthing logo](/assets/img/file-sharing-sync/syncthing.svg){ align=right }
+    ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ align=right }
 
     **Syncthing** replaces proprietary sync and cloud services with something open, trustworthy, and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third-party, and how it is transmitted over the Internet.
 
@@ -73,7 +73,7 @@ Discover how to privately share your files between your devices, with your frien
 
 !!! recommendation
 
-    ![git-annex logo](/assets/img/file-sharing-sync/gitannex.svg){ align=right }
+    ![git-annex logo](assets/img/file-sharing-sync/gitannex.svg){ align=right }
 
     **git-annex** allows managing files with git, without checking the file contents into git. While that may seem paradoxical, it is useful when dealing with files larger than git can currently easily handle, whether due to limitations in memory, time, or disk space.
 

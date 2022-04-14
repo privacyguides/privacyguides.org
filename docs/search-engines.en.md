@@ -6,13 +6,13 @@ Use a search engine that doesn't build an advertising profile based on your sear
 
 The recommendations here are based on the merits of each service's privacy policy. There is **no guarantee** that these privacy policies are honored.
 
-Consider using a [VPN](/vpn) or [Tor](https://www.torproject.org/) if your threat model requires hiding your IP address from the search provider.
+Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org/) if your threat model requires hiding your IP address from the search provider.
 
 ### DuckDuckGo
 
 !!! recommendation
 
-    ![DuckDuckGo logo](/assets/img/search-engines/duckduckgo.svg){ align=right }
+    ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
 
     **DuckDuckGo** is a popular search engine and is the default for the Tor Browser.
 
@@ -30,9 +30,9 @@ DuckDuckGo has a [lite](https://duckduckgo.com/lite) and [html](https://duckduck
 
 !!! recommendation
 
-    ![Startpage logo](/assets/img/search-engines/startpage.svg){ align=right }
+    ![Startpage logo](assets/img/search-engines/startpage.svg){ align=right }
 
-    **Startpage** is a search engine that provides Google search results. It is a very convenient way to get Google search results without experiencing dark patterns such as difficult captchas or being refused access because you used a [VPN](/vpn) or [Tor](https://www.torproject.org/download/).
+    **Startpage** is a search engine that provides Google search results. It is a very convenient way to get Google search results without experiencing dark patterns such as difficult captchas or being refused access because you used a [VPN](vpn.md) or [Tor](https://www.torproject.org/download/).
 
     [Visit startpage.com](https://www.startpage.com){ .md-button .md-button--primary } [Privacy Policy](https://www.startpage.com/en/privacy-policy){ .md-button }
 
@@ -46,7 +46,7 @@ Startpage's majority shareholder is System1 who is an adtech company. We don't t
 
 !!! recommendation
 
-    ![Mojeek logo](/assets/img/search-engines/mojeek.svg){ align=right }
+    ![Mojeek logo](assets/img/search-engines/mojeek.svg){ align=right }
 
     **Mojeek** is another privacy friendly search engine. They use their own crawler to provide search data.
 
@@ -60,7 +60,7 @@ Startpage's majority shareholder is System1 who is an adtech company. We don't t
 
 !!! recommendation
 
-    ![Searx logo](/assets/img/search-engines/searx.svg){ align=right }
+    ![Searx logo](assets/img/search-engines/searx.svg){ align=right }
 
     **Searx** is an open-source, self-hostable, metasearch engine, aggregating the results of other search engines while not storing information about its users. There is a [list of public instances](https://searx.space/).
 

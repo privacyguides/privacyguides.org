@@ -2,7 +2,7 @@
 title: "Video Streaming"
 icon: material/video-wireless
 ---
-The primary threat when using a video streaming platform is that your streaming habits and subscription lists could be used to profile you. You should combine these tools with a [VPN](/vpn) or [Tor](https://www.torproject.org/) to make it harder to profile your usage.
+The primary threat when using a video streaming platform is that your streaming habits and subscription lists could be used to profile you. You should combine these tools with a [VPN](vpn.md) or [Tor](https://www.torproject.org/) to make it harder to profile your usage.
 
 ## Clients
 
@@ -10,11 +10,11 @@ The primary threat when using a video streaming platform is that your streaming 
 
 !!! Warning
 
-    When using Freetube, your IP address is still known to YouTube, [Invidious](https://instances.invidious.io) and the SponsorBlock instances that you use. Consider using a [VPN](/vpn) or [Tor](https://www.torproject.org) if your [threat model](threat-modeling.md) requires hiding your IP address.
+    When using Freetube, your IP address is still known to YouTube, [Invidious](https://instances.invidious.io) and the SponsorBlock instances that you use. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](threat-modeling.md) requires hiding your IP address.
 
 !!! recommendation
 
-    ![FreeTube logo](/assets/img/video-streaming/freetube.svg){ align=right }
+    ![FreeTube logo](assets/img/video-streaming/freetube.svg){ align=right }
 
     **FreeTube** is a free and open source desktop application for [YouTube](https://youtube.com). When using FreeTube, your subscription list and playlists are saved locally on your device.
 
@@ -37,7 +37,7 @@ The primary threat when using a video streaming platform is that your streaming 
 
 !!! recommendation
 
-    ![LBRY logo](/assets/img/video-streaming/lbry.svg){ align=right }
+    ![LBRY logo](assets/img/video-streaming/lbry.svg){ align=right }
 
     **The LBRY network** is a decentralized video sharing network. It uses a [BitTorrent](https://wikipedia.org/wiki/BitTorrent)-like network to store the video content, and a [blockchain](https://wikipedia.org/wiki/Blockchain) to store the indexes for those videos. The main benefit of this design is censorship resistance.
 
@@ -53,7 +53,7 @@ The primary threat when using a video streaming platform is that your streaming 
 
 !!! warning
 
-    While watching and hosting videos, your IP address is visible to the LBRY network. Consider using a [VPN](/vpn) or [Tor](https://www.torproject.org) if your [threat model](/threat-modeling) requires hiding your IP address.
+    While watching and hosting videos, your IP address is visible to the LBRY network. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](threat-modeling) requires hiding your IP address.
 
 We recommend **against** synchronizing your wallet with LBRY Inc., as synchronizing encrypted wallets is not supported yet. If you synchronize your wallet with LBRY Inc., you have to trust them to not look at your subscription list, [LBC](https://lbry.com/faq/earn-credits) funds, or take control of your channel.
 
@@ -63,7 +63,7 @@ You can  disable *Save hosting data to help the LBRY network* option (⚙️ Set
 
 !!! recommendation
 
-    ![Newpipe logo](/assets/img//video-streaming/newpipe.svg){ align=right }
+    ![Newpipe logo](assets/img//video-streaming/newpipe.svg){ align=right }
 
     **NewPipe** is a free and open source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [FramaTube](https://framatube.org), and [Bandcamp](https://bandcamp.com).
 
@@ -83,7 +83,7 @@ You can  disable *Save hosting data to help the LBRY network* option (⚙️ Set
 
 !!! recommendation
 
-    ![NewPipe x SponsorBlock logo](/assets/img/video-streaming/newpipe.svg){ align=right }
+    ![NewPipe x SponsorBlock logo](assets/img/video-streaming/newpipe.svg){ align=right }
 
     **NewPipe x SponsorBlock** is a fork of [NewPipe](https://newpipe.net) with [SponsorBlock](https://sponsor.ajay.app) integrated to help you skip sponsored advertisements.
     It also has some experimental settings such as the ability to use the built-in player for local playback, an option to force fullscreen on landscape mode, and an option to disable error reporting prompts.
@@ -106,8 +106,8 @@ This fork is not endorsed by or affiliated with the upstream project. The NewPip
 
 !!! recommendation
 
-    ![Invidious logo](/assets/img/video-streaming/invidious.svg#only-light){ align=right }
-    ![Invidious logo](/assets/img/video-streaming/invidious-dark.svg#only-dark){ align=right }
+    ![Invidious logo](assets/img/video-streaming/invidious.svg#only-light){ align=right }
+    ![Invidious logo](assets/img/video-streaming/invidious-dark.svg#only-dark){ align=right }
 
     **Invidious** is a free and open source front end for YouTube that is also self-hostable. There are list of [public instances](https://instances.invidious.io). Some instances have [Tor](https://www.torproject.org) onion services support.
 
@@ -129,7 +129,7 @@ When you are using an Invidious instance, be sure to go read the Privacy Policy 
 
 !!! recommendation
 
-    ![Piped logo](/assets/img/video-streaming/piped.svg){ align=right }
+    ![Piped logo](assets/img/video-streaming/piped.svg){ align=right }
 
     **Piped** is a free and open source front end for YouTube that is also self-hostable. Alternative instances can be selected from "Preferences".
 
