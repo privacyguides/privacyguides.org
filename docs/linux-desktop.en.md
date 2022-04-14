@@ -10,7 +10,7 @@ Linux distributions are commonly recommended for privacy protection and user fre
 
 !!! recommendation
 
-    ![Fedora logo](/assets/img/linux-desktop/fedora-workstation.svg){ align=right }
+    ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
 
     **Fedora Workstation** is our recommended distribution for users new to Linux. Fedora generally adopts newer technologies before other distributions e.g., [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org), and soon, [FS-Verity](https://fedoraproject.org/wiki/Changes/FsVerityRPM). These new technologies often come with improvements in security, privacy, and usability in general.
 
@@ -22,7 +22,7 @@ Fedora has a semi-[rolling release](https://en.wikipedia.org/wiki/Rolling_releas
 
 !!! recommendation
 
-    ![openSUSE Tumbleweed logo](/assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
+    ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
 
     **openSUSE Tumbleweed** is a stable [rolling release](https://en.wikipedia.org/wiki/Rolling_release) distribution.
 
@@ -36,7 +36,7 @@ Tumbleweed follows a rolling release model where each update is released as a sn
 
 !!! recommendation
 
-    ![Arch logo](/assets/img/linux-desktop/archlinux.svg){ align=right }
+    ![Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }
 
     **Arch Linux** is a lightweight, do-it-yourself (DIY) distribution meaning that you only get what you install. For more information see their [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
 
@@ -44,7 +44,7 @@ Tumbleweed follows a rolling release model where each update is released as a sn
 
 Arch Linux has a rolling release cycle. There is no fixed release schedule and packages are updated very frequently.
 
-Being a DIY distribution, the user is [expected to setup and maintain](/linux-desktop/#arch-based-distributions) their system. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
+Being a DIY distribution, the user is [expected to setup and maintain](#arch-based-distributions) their system. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
 
 A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org).
 
@@ -54,7 +54,7 @@ A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org)
 
 !!! recommendation
 
-    ![Fedora Silverblue logo](/assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
+    ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
 
     **Fedora Silverblue** and **Fedora Kinoite** are immutable variants of Fedora with a strong focus on container workflows. Silverblue comes with the [GNOME](https://www.gnome.org/) desktop environment while Kinoite comes with [KDE](https://kde.org/). Silverblue and Kinoite follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
 
@@ -72,7 +72,7 @@ As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fed
 
 !!! recommendation
 
-    ![NixOS logo](/assets/img/linux-desktop/nixos.svg){ align=right }
+    ![NixOS logo](assets/img/linux-desktop/nixos.svg){ align=right }
 
     NixOS is an independent distribution based on the Nix package manager with a focus on reproducibility and reliability.
 
@@ -94,7 +94,7 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
 !!! recommendation
 
-    ![Whonix logo](/assets/img/linux-desktop/whonix.svg){ align=right }
+    ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
 
     **Whonix** is based on [Kicksecure](https://www.whonix.org/wiki/Kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and anonymity on the internet.
 
@@ -112,7 +112,7 @@ Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qube
 
 !!! recommendation
 
-    ![Tails logo](/assets/img/linux-desktop/tails.svg){ align=right }
+    ![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
 
     **Tails** is a live operating system based on Debian that routes all communications through Tor.
 
@@ -239,7 +239,7 @@ There isn’t much point in randomizing the MAC address for Ethernet connections
 
 ### Other identifiers
 
-There are other system [identifiers](https://madaidans-insecurities.github.io/guides/linux-hardening.html#identifiers) which you may wish to be careful about. You should give this some thought to see if it applies to your [threat model](/threat-modeling):
+There are other system [identifiers](https://madaidans-insecurities.github.io/guides/linux-hardening.html#identifiers) which you may wish to be careful about. You should give this some thought to see if it applies to your [threat model](threat-modeling.md):
 
 - [10.1 Hostnames and usernames](https://madaidans-insecurities.github.io/guides/linux-hardening.html#hostnames)
 - [10.2 Time zones / Locales / Keymaps](https://madaidans-insecurities.github.io/guides/linux-hardening.html#timezones-locales-keymaps)
@@ -346,7 +346,7 @@ Note that setting `kernel.unprivileged_userns_clone=0` will stop Flatpak, Snap (
 
 ### Linux-Hardened
 
-Some distributions like Arch Linux have the [linux-hardened](https://github.com/anthraxx/linux-hardened), kernel package. It includes [hardening patches](https://wiki.archlinux.org/title/security#Kernel_hardening) and more security-conscious defaults. Linux-Hardened has `kernel.unprivileged_userns_clone=0` disabled by default. See the [warning above](/linux-desktop/#kernel-hardening) about how this might impact you.
+Some distributions like Arch Linux have the [linux-hardened](https://github.com/anthraxx/linux-hardened), kernel package. It includes [hardening patches](https://wiki.archlinux.org/title/security#Kernel_hardening) and more security-conscious defaults. Linux-Hardened has `kernel.unprivileged_userns_clone=0` disabled by default. See the [warning above](#kernel-hardening) about how this might impact you.
 
 ### Simultaneous multithreading (SMT)
 
@@ -382,7 +382,7 @@ On systems where [`pam_faillock`](https://man7.org/linux/man-pages/man8/pam_tall
 
 To better protect your [USB](https://en.wikipedia.org/wiki/USB) ports from attacks such as [BadUSB](https://en.wikipedia.org/wiki/BadUSB) we recommend [USBGuard](https://github.com/USBGuard/usbguard). USBGuard has [documentation](https://github.com/USBGuard/usbguard#documentation) as does the [Arch Wiki](https://wiki.archlinux.org/title/USBGuard).
 
-Another alternative option if you’re using the [linux-hardened](/linux-desktop/#linux-hardened) is the [`deny_new_usb`](https://github.com/GrapheneOS/linux-hardened/commit/96dc427ab60d28129b36362e1577b6673b0ba5c4) sysctl. See [Preventing USB Attacks with `linux-hardened`](https://blog.lizzie.io/preventing-usb-attacks-with-linux-hardened.html).
+Another alternative option if you’re using the [linux-hardened](#linux-hardened) is the [`deny_new_usb`](https://github.com/GrapheneOS/linux-hardened/commit/96dc427ab60d28129b36362e1577b6673b0ba5c4) sysctl. See [Preventing USB Attacks with `linux-hardened`](https://blog.lizzie.io/preventing-usb-attacks-with-linux-hardened.html).
 
 ### Secure Boot
 

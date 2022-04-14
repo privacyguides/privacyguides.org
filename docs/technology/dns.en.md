@@ -109,7 +109,7 @@ We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmis
 
 ## Why **shouldn't** I use encrypted DNS?
 
-In locations where there is internet filtering (or censorship), visiting forbidden resources may have its own consequences which you should consider in your [threat model](/threat-modeling/). We do **not** suggest the use of encrypted DNS for this purpose. Use [Tor](https://torproject.org) or a [VPN](/vpn) instead. If you're using a VPN, you should use your VPN's DNS servers. When using a VPN, you are already trusting them with all your network activity.
+In locations where there is internet filtering (or censorship), visiting forbidden resources may have its own consequences which you should consider in your [threat model](../threat-modeling.md). We do **not** suggest the use of encrypted DNS for this purpose. Use [Tor](https://torproject.org) or a [VPN](vpn) instead. If you're using a VPN, you should use your VPN's DNS servers. When using a VPN, you are already trusting them with all your network activity.
 
 When we do a DNS lookup, it's generally because we want to access a resource. Below, we will discuss some of the methods that may disclose your browsing activities even when using encrypted DNS:
 
@@ -281,7 +281,7 @@ Encrypted DNS with a 3rd party should only be used to get around redirects and b
 
 ## What is DNSSEC and when is it used?
 
-[Domain Name System Security Extensions (DNSSEC)](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) is used to provide authenticity to the records being fetched from upstream DNS servers. It doesn't provide confidentiality, for that we use one of the [encrypted DNS](/dns#what-is-encrypted-dns) protocols discussed above.
+[Domain Name System Security Extensions (DNSSEC)](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) is used to provide authenticity to the records being fetched from upstream DNS servers. It doesn't provide confidentiality, for that we use one of the [encrypted DNS](#what-is-encrypted-dns) protocols discussed above.
 
 ## What is QNAME minimization?
 

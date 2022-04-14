@@ -8,7 +8,7 @@ icon: 'material/two-factor-authentication'
 
 !!! recommendation
 
-    ![YubiKeys](/assets/img/multi-factor-authentication/yubikey.png)
+    ![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
 
     The **YubiKeys** are among the most popular security keys. Some YubiKey models have a wide range of features such as: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 WebAuthn](https://en.wikipedia.org/wiki/WebAuthn), [Yubico OTP](https://developers.yubico.com/OTP/), [PIV](https://en.wikipedia.org/wiki/FIPS_201), [OpenPGP](https://developers.yubico.com/PGP/), [TOTP and HOTP](https://developers.yubico.com/OATH/) authentication.
 
@@ -29,7 +29,7 @@ For models which support HOTP and TOTP, there are 2 slots in the OTP interface w
 
 !!! recommendation
 
-    ![Nitrokey](/assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
+    ![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
 
     **Nitrokey** has a security key capable of [FIDO2 WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) called the **Nitrokey FIDO2**. For PGP support, you need to purchase one of their other keys such as the **Nitrokey Start**, **Nitrokey Pro 2** or the **Nitrokey Storage 2**.
 
@@ -67,7 +67,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 !!! recommendation
 
-    ![Aegis logo](/assets/img/multi-factor-authentication/aegis.png){ align=right }
+    ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
 
     **Aegis Authenticator** is a free, secure and open source app to manage your 2-step verification tokens for your online services.
 
@@ -82,7 +82,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 !!! recommendation
 
-    ![Raivo OTP logo](/assets/img/multi-factor-authentication/raivo-otp.png){ align=right }
+    ![Raivo OTP logo](assets/img/multi-factor-authentication/raivo-otp.png){ align=right }
 
     **Raivo OTP** is a native, lightweight and secure time-based (TOTP) & counter-based (HOTP) password client for iOS. Raivo OTP offers optional iCloud backup & sync. Raivo OTP is also available for macOS in the form of a status bar application, however the Mac app does not work independently of the iOS app.
 

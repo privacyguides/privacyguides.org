@@ -8,7 +8,7 @@ icon: material/chat-processing
 
 !!! recommendation
 
-    ![Signal logo](/assets/img/messengers/signal.svg){ align=right }
+    ![Signal logo](assets/img/messengers/signal.svg){ align=right }
 
     **Signal** is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling.
 
@@ -36,7 +36,7 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
 !!! recommendation
 
-    ![Element logo](/assets/img/messengers/element.svg){ align=right }
+    ![Element logo](assets/img/messengers/element.svg){ align=right }
 
     **Element** is the reference client for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
 
@@ -57,7 +57,7 @@ Profile pictures, reactions, and nicknames are not encrypted.
 
 Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE, and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Group calls have [no authentication](https://github.com/vector-im/element-web/issues/13074) currently, meaning that non room participants can also join the calls. We recommend that you do not use this feature for private meetings.
 
-When using [element-web](https://github.com/vector-im/element-web), you must trust the server hosting the Element client. If your [threat model](/threat-modeling) requires stronger protection, then use a desktop or mobile client instead.
+When using [element-web](https://github.com/vector-im/element-web), you must trust the server hosting the Element client. If your [threat model](threat-modeling.md) requires stronger protection, then use a desktop or mobile client instead.
 
 The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) in 2016. The specification for the Matrix protocol can be found in their [documentation](https://spec.matrix.org/latest/). The [Olm](https://matrix.org/docs/projects/other/olm) cryptographic ratchet used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
 
@@ -65,7 +65,7 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
 
 !!! recommendation
 
-    ![Briar logo](/assets/img/messengers/briar.svg){ align=right }
+    ![Briar logo](assets/img/messengers/briar.svg){ align=right }
 
     **Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works/) to other clients using the Tor Network. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
 
@@ -88,7 +88,7 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
 
 !!! recommendation
 
-    ![Session logo](/assets/img/messengers/session.svg){ align=right }
+    ![Session logo](assets/img/messengers/session.svg){ align=right }
 
     **Session** is an encrypted instant messenger that uses three random [service nodes](https://getsession.org/blog/onion-requests-session-new-message-routing-solution) to route messages anonymously on the [Oxen Network](https://oxen.io).
 
@@ -116,7 +116,7 @@ There are several network architectures commonly used to relay messages between 
 
 ### Centralized Networks
 
-![Centralized networks diagram](/assets/img/layout/network-centralized.svg){ align=left }
+![Centralized networks diagram](assets/img/layout/network-centralized.svg){ align=left }
 
 Centralized messengers are those where all participants are on the same server or network of servers controlled by the same organization.
 
@@ -139,7 +139,7 @@ Some self-hosted messengers allow you to set up your own server. Self-hosting ca
 
 ### Federated Networks
 
-![Federated networks diagram](/assets/img/layout/network-decentralized.svg){ align=left }
+![Federated networks diagram](assets/img/layout/network-decentralized.svg){ align=left }
 
 Federated messengers use multiple, independent, decentralized servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.
 
@@ -162,7 +162,7 @@ When self-hosted, users of a federated server can discover and communicate with 
 
 ### Peer-to-Peer (P2P) Networks
 
-![P2P diagram](/assets/img/layout/network-distributed.svg){ align=left }
+![P2P diagram](assets/img/layout/network-distributed.svg){ align=left }
 
 [P2P](https://en.wikipedia.org/wiki/Peer-to-peer) messengers connect to a [distributed network](https://en.wikipedia.org/wiki/Distributed_networking) of nodes to relay a message to the recepient without a third-party server.
 
@@ -183,11 +183,11 @@ P2P networks do not use servers, as users communicate directly between each othe
 - Messages can only be sent when both peers are online, however, your client may store messages locally to wait for the contact to return online.
 - Generally increases battery usage on mobile devices, because the client must stay connected to the distributed network to learn about who is online.
 - Some common messenger features may not be implemented or incompletely, such as message deletion.
-- Your [IP address](https://en.wikipedia.org/wiki/IP_address) and that of the contacts you're communicating with may be exposed if you do not use the software in conjunction with a [VPN](/vpn) or [self contained network](/self-contained-networks), such as [Tor](https://www.torproject.org) or [I2P](https://geti2p.net/). Many countries have some form of mass surveillance and/or metadata retention.
+- Your [IP address](https://en.wikipedia.org/wiki/IP_address) and that of the contacts you're communicating with may be exposed if you do not use the software in conjunction with a [VPN](vpn.md) or [self contained network](self-contained-networks.md), such as [Tor](https://www.torproject.org) or [I2P](https://geti2p.net/). Many countries have some form of mass surveillance and/or metadata retention.
 
 ### Anonymous Routing
 
-![Anonymous routing diagram](/assets/img/layout/network-anonymous-routing.svg){ align=left }
+![Anonymous routing diagram](assets/img/layout/network-anonymous-routing.svg){ align=left }
 
 A messenger using [anonymous routing](https://doi.org/10.1007/978-1-4419-5906-5_628) hides either the identity of the sender, the receiver, or evidence that they have been communicating. Ideally, a messenger should hide all three.
 

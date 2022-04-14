@@ -13,7 +13,7 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
 !!! recommendation
 
-    ![Joplin logo](/assets/img/notebooks/joplin.svg){ align=right }
+    ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
     **Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle a large number of markdown notes organized into notebooks and tags. It offers end-to-end encryption and can sync through Nextcloud, Dropbox, and more. It also offers easy import from Evernote and plain-text notes.
 
@@ -38,7 +38,7 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
 !!! recommendation
 
-    ![Standard Notes logo](/assets/img/notebooks/standard-notes.svg){ align=right }
+    ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
 
     Standard Notes is a simple and private notes app that makes your notes easy and available everywhere you are. It features end-to-end encryption on every platform, and a powerful desktop experience with themes and custom editors. It has also been [independently audited (PDF)](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
 

@@ -8,7 +8,7 @@ Qubes OS is a distribution of Linux that uses [Xen](https://en.wikipedia.org/wik
 
 !!! recommendation
 
-    ![Qubes OS logo](/assets/img/qubes/qubes_os.svg){ align=right }
+    ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
 
     **Qubes** is an open-source operating system designed to provide strong security for desktop computing. Qubes is based on Xen, the X Window System, and Linux, and can run most Linux applications and utilize most of the Linux drivers.
 

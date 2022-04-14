@@ -10,7 +10,7 @@ Get working and collaborating without sharing your documents with a middleman or
 
 !!! recommendation
 
-    ![LibreOffice logo](/assets/img/productivity/libreoffice.svg){ align=right }
+    ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ align=right }
 
     **LibreOffice** is a free and open-source office suite with extensive functionality.
 
@@ -32,7 +32,7 @@ Get working and collaborating without sharing your documents with a middleman or
 
 !!! recommendation
 
-    ![OnlyOffice logo](/assets/img/productivity/onlyoffice.svg){ align=right }
+    ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ align=right }
 
     **OnlyOffice** is alternative, it is free and open-source office suite with extensive functionality.
 
@@ -53,7 +53,7 @@ Get working and collaborating without sharing your documents with a middleman or
 
 !!! recommendation
 
-    ![Framadate logo](/assets/img/productivity/framadate.svg){ align=right }
+    ![Framadate logo](assets/img/productivity/framadate.svg){ align=right }
 
     **Framadate** is a free and open-source online service for planning an appointment or making a decision quickly and easily. No registration is required.
 
@@ -68,7 +68,7 @@ Get working and collaborating without sharing your documents with a middleman or
 
 !!! recommendation
 
-    ![PrivateBin logo](/assets/img/productivity/privatebin.svg){ align=right }
+    ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
 
     **PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin.
 
@@ -83,7 +83,7 @@ Do note that PrivateBin uses JavaScript to handle encryption, so you must trust 
 
 !!! recommendation
 
-    ![CryptPad logo](/assets/img/productivity/cryptpad.svg){ align=right }
+    ![CryptPad logo](assets/img/productivity/cryptpad.svg){ align=right }
 
     **CryptPad** is a private-by-design alternative to popular office tools. All content is end-to-end encrypted. Do note that it uses JavaScript to handle encryption, so you must trust the provider to the extent that they do not inject any malicious JavaScript to get your private key. Consider self-hosting to mitigate this threat.
 
@@ -98,8 +98,8 @@ Do note that PrivateBin uses JavaScript to handle encryption, so you must trust 
 
 !!! recommendation
 
-    ![Write.as logo](/assets/img/productivity/writeas.svg#only-light){ align=right }
-    ![Write.as logo](/assets/img/productivity/writeas-dark.svg#only-dark){ align=right }
+    ![Write.as logo](assets/img/productivity/writeas.svg#only-light){ align=right }
+    ![Write.as logo](assets/img/productivity/writeas-dark.svg#only-dark){ align=right }
 
     **Write.as** is a cross-platform, privacy-oriented blogging platform. It's anonymous by default, letting you publish without signing up. If you create an account, it doesn't require any personal information. No ads, distraction-free, and built on a sustainable business model.
 
@@ -120,7 +120,7 @@ Do note that PrivateBin uses JavaScript to handle encryption, so you must trust 
 
 !!! recommendation
 
-    ![VSCodium logo](/assets/img/productivity/vscodium.svg){ align=right }
+    ![VSCodium logo](assets/img/productivity/vscodium.svg){ align=right }
 
     **VSCodium** is a free and open-source project featuring binaries of [Visual Studio Code](https://code.visualstudio.com) without Microsoft's branding/telemetry/licensing.
 

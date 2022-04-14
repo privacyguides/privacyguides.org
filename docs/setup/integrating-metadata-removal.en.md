@@ -8,7 +8,7 @@ When sharing files, it's important to remove associated metadata. Image files co
 While there are plenty of metadata removal tools, they typically aren't convenient to use. The guides featured here aim to detail how to integrate metadata removal tools in a simple fashion by utilizing easy-to-access system features.
 
 !!! tip "Related"
-    For a list of the metadata removal tools that we recommend, visit our [metadata removal tools](/metadata-removal-tools/) page.
+    For a list of the metadata removal tools that we recommend, visit our [metadata removal tools](../metadata-removal-tools.md) page.
 
 ## macOS
 
@@ -16,7 +16,7 @@ This guide uses the [Shortcuts](https://support.apple.com/guide/shortcuts-mac/in
 
 Shortcuts is quite intuitive to work with, so if you don't like the behavior demoed here then experiment with your own solution. For example, you could set the shortcut to take a clipboard input instead. The sky's the limit.
 
-![ExifTool Quick Action](/assets/img/integrating-metadata-removal/preview-macos.png)
+![ExifTool Quick Action](../assets/img/integrating-metadata-removal/preview-macos.png)
 
 ### Prerequisites
 
@@ -26,7 +26,7 @@ Shortcuts is quite intuitive to work with, so if you don't like the behavior dem
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
-2. [ExifTool](/metadata-removal-tools/#exiftool): a tool for viewing and manipulating image, audio, video, and PDF metadata.
+2. [ExifTool](../metadata-removal-tools.md#exiftool): a tool for viewing and manipulating image, audio, video, and PDF metadata.
 
     ```bash
     brew install exiftool
@@ -63,7 +63,7 @@ Shortcuts is quite intuitive to work with, so if you don't like the behavior dem
     done
     ```
 
-![macOS metadata removal shortcut](/assets/img/integrating-metadata-removal/shortcut-macos.png)
+![macOS metadata removal shortcut](../assets/img/integrating-metadata-removal/shortcut-macos.png)
 
 !!! tip "Worth Mentioning"
     The open source [ImageOptim](https://imageoptim.com/mac) app integrates into Finder's *Services* context menu by default. While it is primarily an image optimization app, it also removes metadata.
@@ -80,11 +80,11 @@ Shortcuts is quite intuitive to work with, so if you don't like the behavior dem
 [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) can be made accessible through the system Share Sheet, making accessing those shortcuts very convenient. This guide will show you how to build a metadata removal shortcut and integrate it into the system *Share Sheet*.
 
 !!! attention
-    This method of metadata removal is not as comprehensive at removing metadata as utilities like [ExifTool](/metadata-removal-tools/#exiftool) and [mat2](/metadata-removal-tools/#mat2) are.
+    This method of metadata removal is not as comprehensive at removing metadata as utilities like [ExifTool](../metadata-removal-tools.md#exiftool) and [mat2](../metadata-removal-tools.md#mat2) are.
 
 The lack of *good* metadata removal apps on the App Store is what makes this solution worthwhile.
 
-![Don't preserve metadata shortcut](/assets/img/integrating-metadata-removal/preview-ios.png)
+![Don't preserve metadata shortcut](../assets/img/integrating-metadata-removal/preview-ios.png)
 
 ### Prerequisites
 
@@ -112,7 +112,7 @@ The lack of *good* metadata removal apps on the App Store is what makes this sol
 
 10. Make sure that you uncheck **preserve metadata**
 
-![iOS/iPadOS metadata removal shortcut](/assets/img/integrating-metadata-removal/shortcut-ios.png)
+![iOS/iPadOS metadata removal shortcut](../assets/img/integrating-metadata-removal/shortcut-ios.png)
 
 ### Enabling & using the Shortcut
 
@@ -123,11 +123,11 @@ The lack of *good* metadata removal apps on the App Store is what makes this sol
 
 Windows allows users to place files in a **SendTo** folder which then appear in the *Send to* context menu. This guide will show you how to add an ExifTool batch script to this menu.
 
-![Send to metadata removal shortcut](/assets/img/integrating-metadata-removal/preview-windows.jpg)
+![Send to metadata removal shortcut](../assets/img/integrating-metadata-removal/preview-windows.jpg)
 
 ### Prerequisites
 
-1. [ExifTool](/metadata-removal-tools/#exiftool): a tool for viewing and manipulating image, audio, video, and PDF metadata. We suggest you read the [Installation instructions](https://exiftool.org/install.html#Windows) on the official website.
+1. [ExifTool](../metadata-removal-tools.md#exiftool): a tool for viewing and manipulating image, audio, video, and PDF metadata. We suggest you read the [Installation instructions](https://exiftool.org/install.html#Windows) on the official website.
 
 !!! note
     You can check if ExifTool is present in your [PATH](https://www.computerhope.com/issues/ch000549.htm) by running `exiftool -ver` in Command Prompt. You should see a version number.

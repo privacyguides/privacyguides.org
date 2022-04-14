@@ -12,8 +12,8 @@ The main privacy concern with most Android devices is that they usually include 
 
 !!! recommendation
 
-    ![GrapheneOS logo](/assets/img/android/grapheneos.svg#only-light){ align=right }
-    ![GrapheneOS logo](/assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
+    ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ align=right }
+    ![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
 
     **GrapheneOS** is the best choice when it comes to privacy and security.
 
@@ -21,7 +21,7 @@ The main privacy concern with most Android devices is that they usually include 
 
     [Visit grapheneos.org](https://grapheneos.org/){ .md-button .md-button--primary } [Privacy Policy](https://grapheneos.org/faq#privacy-policy){ .md-button }
 
-Notably, GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play). Google Play Services can be run fully sandboxed like a regular user app and contained in a work profile or user [profile](/android/#android-security-privacy) of your choice. This means that you can run apps dependant on Play Services, such as those that require push notifications using Google's [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/) service. GrapheneOS allows you to take advantage of most [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) whilst having full user control over their permissions and access.
+Notably, GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play). Google Play Services can be run fully sandboxed like a regular user app and contained in a work profile or user [profile](#android-security-privacy) of your choice. This means that you can run apps dependant on Play Services, such as those that require push notifications using Google's [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/) service. GrapheneOS allows you to take advantage of most [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) whilst having full user control over their permissions and access.
 
 Currently, only [Pixel phones](https://grapheneos.org/faq#device-support) meet its hardware security requirement and are supported.
 
@@ -33,7 +33,7 @@ Currently, only [Pixel phones](https://grapheneos.org/faq#device-support) meet i
 
 !!! recommendation
 
-    ![CalyxOS logo](/assets/img/android/calyxos.svg){ align=right }
+    ![CalyxOS logo](assets/img/android/calyxos.svg){ align=right }
 
     **CalyxOS** is a decent alternative to GrapheneOS.
 
@@ -53,7 +53,7 @@ Currently, CalyxOS only supports [Pixel phones](https://calyxos.org/docs/guide/d
 
 !!! recommendation
 
-    ![DivestOS logo](/assets/img/android/divestos.svg){ align=right }
+    ![DivestOS logo](assets/img/android/divestos.svg){ align=right }
 
     **DivestOS** is a [soft-fork](https://en.wikipedia.org/wiki/Fork_(software_development)#Forking_of_free_and_open-source_software) of [LineageOS](https://lineageos.org/).
     DivestOS inherits many [supported devices](https://divestos.org/index.php?page=devices&base=LineageOS) from LineageOS. It has signed builds, making it possible to have [verified boot](https://source.android.com/security/verifiedboot) on some non-Pixel devices.
@@ -64,7 +64,7 @@ DivestOS has automated kernel vulnerability ([CVE](https://en.wikipedia.org/wiki
 
 DivestOS also includes kernel patches from GrapheneOS and enables all available kernel security features via [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). All kernels newer than version 3.4 include full page [sanitization](https://lwn.net/Articles/334747/) and all ~22 Clang-compiled kernels have [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) enabled.
 
-DivestOS 16.0, 17.1, and 18.1 implements GrapheneOS's [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) permission toggle, [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](/android/#additional-hardening), [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) [constification](https://en.wikipedia.org/wiki/Const_(computer_programming)), and partial [bionic](https://en.wikipedia.org/wiki/Bionic_(software)) hardening patchsets. 17.1 and 18.1 feature GrapheneOS's per-network full [MAC randomization](https://en.wikipedia.org/wiki/MAC_address#Randomization) option, and [`ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) control, and automatic reboot/Wi-Fi/Bluetooth [timeout options](https://grapheneos.org/features). All branches additionally have various miscellaneous patches courtesy of GrapheneOS.
+DivestOS 16.0, 17.1, and 18.1 implements GrapheneOS's [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) permission toggle, [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](#additional-hardening), [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) [constification](https://en.wikipedia.org/wiki/Const_(computer_programming)), and partial [bionic](https://en.wikipedia.org/wiki/Bionic_(software)) hardening patchsets. 17.1 and 18.1 feature GrapheneOS's per-network full [MAC randomization](https://en.wikipedia.org/wiki/MAC_address#Randomization) option, and [`ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) control, and automatic reboot/Wi-Fi/Bluetooth [timeout options](https://grapheneos.org/features). All branches additionally have various miscellaneous patches courtesy of GrapheneOS.
 
 !!! attention
 
@@ -112,7 +112,7 @@ Modern Android devices have global toggles for disabling [Bluetooth](https://en.
 
 !!! recommendation
 
-    ![Orbot logo](/assets/img/android/orbot.svg){ align=right }
+    ![Orbot logo](assets/img/android/orbot.svg){ align=right }
 
     **Orbot** is a free proxy app that routes your connections through the Tor Network.
 
@@ -138,7 +138,7 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
 
 !!! recommendation
 
-    ![Shelter logo](/assets/img/android/shelter.svg){ align=right }
+    ![Shelter logo](assets/img/android/shelter.svg){ align=right }
 
     **Shelter** is an app that helps you leverage the Android work profile to isolate other apps.
 
@@ -164,8 +164,8 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
 
 !!! recommendation
 
-    ![Auditor logo](/assets/img/android/auditor.svg#only-light){ align=right }
-    ![Auditor logo](/assets/img/android/auditor-dark.svg#only-dark){ align=right }
+    ![Auditor logo](assets/img/android/auditor.svg#only-light){ align=right }
+    ![Auditor logo](assets/img/android/auditor-dark.svg#only-dark){ align=right }
 
     **Auditor** is an app which leverages hardware security features to provide device integrity monitoring for [supported devices](https://attestation.app/about#device-support). Currently it works with GrapheneOS and the device's stock operating system.
 
@@ -185,15 +185,15 @@ Auditor performs attestation and intrusion detection by:
 
 No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
 
-If your [threat model](/threat-modeling/) requires privacy you could consider using Orbot or a VPN to hide your IP address from the attestation service.
+If your [threat model](threat-modeling.md) requires privacy you could consider using Orbot or a VPN to hide your IP address from the attestation service.
 To make sure that your hardware and operating system is genuine, [perform local attestation](https://grapheneos.org/install/web#verifying-installation) immediately after the device has been installed and prior to any internet connection.
 
 ### Secure Camera
 
 !!! recommendation
 
-    ![Secure camera logo](/assets/img/android/secure_camera.svg#only-light){ align=right }
-    ![Secure camera logo](/assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
+    ![Secure camera logo](assets/img/android/secure_camera.svg#only-light){ align=right }
+    ![Secure camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
 
       **Secure Camera** is an camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
 
@@ -219,8 +219,8 @@ Main privacy features include:
 
 !!! recommendation
 
-    ![Secure PDF Viewer logo](/assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
-    ![Secure PDF Viewer logo](/assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
+    ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
+    ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
     **Secure PDF Viewer** is a PDF viewer based on [pdf.js](https://en.wikipedia.org/wiki/PDF.js) that doesn't require any permissions. The PDF is fed into a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development)) [webview](https://developer.android.com/guide/webapps/webview). This means that it doesn't require permission directly to access content or files.
 
@@ -236,7 +236,7 @@ Main privacy features include:
 
 !!! recommendation
 
-    ![PrivacyBlur logo](/assets/img/android/privacyblur.svg){ align=right }
+    ![PrivacyBlur logo](assets/img/android/privacyblur.svg){ align=right }
 
     **PrivacyBlur** is a free app which can blur sensitive portions of pictures before sharing them online.
 
@@ -257,7 +257,7 @@ Main privacy features include:
 
 [Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) Android phones can decrease security significantly as it weakens the complete [Android security model](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). This can decrease privacy should there be an exploit that is assisted by the decreased security. Common rooting methods involve directly tampering with the boot partition, making it impossible to perform successful [Verified Boot](https://source.android.com/security/verifiedboot). Apps that require root will also modify the system partition meaning that Verified Boot would have to remain disabled. Having root exposed directly in the user interface also increases the [attack surface](https://en.wikipedia.org/wiki/Attack_surface) of your device and may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation) vulnerabilities and [SELinux](https://en.wikipedia.org/wiki/Security-Enhanced_Linux) policy bypasses.
 
-Adblockers (AdAway) which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. They are also not the correct way to solve their intended purposes. For Adblocking we suggest encrypted [DNS](/dns) or [VPN](/vpn) server blocking solutions instead. RethinkDNS, TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN) preventing you from using privacy enhancing services such as Orbot or a real VPN server.
+Adblockers (AdAway) which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. They are also not the correct way to solve their intended purposes. For Adblocking we suggest encrypted [DNS](dns.md) or [VPN](vpn.md) server blocking solutions instead. RethinkDNS, TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN) preventing you from using privacy enhancing services such as Orbot or a real VPN server.
 
 AFWall+ works based on the [packet filtering](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) approach and may be bypassable in some situations.
 
@@ -279,7 +279,7 @@ It's important to not use an [end-of-life](https://endoflife.date/android) versi
 
 [Permissions on Android](https://developer.android.com/guide/topics/permissions/overview) grant users control over what apps are allowed to access. Google regularly makes [improvements](https://developer.android.com/about/versions/11/privacy/permissions) on the permission system in each successive version. All user installed apps are strictly [sandboxed](https://source.android.com/security/app-sandbox), therefore there is no need to install any antivirus apps. The savings you make from not purchasing or subscribing to security apps is better spent on paying for a supported device in the future.
 
-Should you want to run an app that you're unsure about, consider using a user or work [profile](/android/#android-security-privacy).
+Should you want to run an app that you're unsure about, consider using a user or work [profile](android/#android-security-privacy).
 
 ### Advanced Protection Program
 
@@ -362,7 +362,7 @@ We have these general tips:
 - Check if an app is available on the [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) repository. The IzzyOnDroid repository pulls builds directly from GitHub and is the next best thing to the developers' own repositories. We recommend that you download the GitHub builds and install them manually first, then use IzzyOnDroid for any subsequent updates. This will ensure that the signature of the applications you get from IzzyOnDroid matches that of the developer and the packages have not been tampered with.
 - Check if there are any differences between the F-Droid version and the Google Play Store version. Some applications like [IVPN](https://www.ivpn.net/) do not include certain features (eg [AntiTracker](https://www.ivpn.net/knowledgebase/general/antitracker-faq/)) in their Google Play Store build out of fear of censorship by Google.
 
-Evaluate whether the additional features in the F-Droid build are worth the slower updates. Also think about whether faster updates from the Google Play Store are worth the potential privacy issues in your [threat model](/threat-modeling/).
+Evaluate whether the additional features in the F-Droid build are worth the slower updates. Also think about whether faster updates from the Google Play Store are worth the potential privacy issues in your [threat model](threat-modeling.md).
 
 #### Droid-ify
 
@@ -386,9 +386,9 @@ To mitigate these problems, we recommend [Droid-ify](https://github.com/Iamlooke
 
 ### Profiles
 
-CalyxOS includes a device controller app so there is no need to install a third party app like [Shelter](/android/#recommended-apps). GrapheneOS plans to introduce nested profile support with better isolation in the future.
+CalyxOS includes a device controller app so there is no need to install a third party app like [Shelter](#recommended-apps). GrapheneOS plans to introduce nested profile support with better isolation in the future.
 
-GrapheneOS extends the [user profile](/android/#android-security-privacy) feature allowing a user to press an "End Session" button. This button clears the encryption key from memory. There are plans to add a [cross profile notifications system](https://github.com/GrapheneOS/os-issue-tracker/issues/88) in the future.
+GrapheneOS extends the [user profile](#android-security-privacy) feature allowing a user to press an "End Session" button. This button clears the encryption key from memory. There are plans to add a [cross profile notifications system](https://github.com/GrapheneOS/os-issue-tracker/issues/88) in the future.
 
 ### Sandboxed Google Play vs Privileged MicroG
 
@@ -404,7 +404,7 @@ From a usability point of view, Sandboxed Google Play also works well with far m
 
 Android 12 comes with special support for seamless app updates with [third party app stores](https://android-developers.googleblog.com/2020/09/listening-to-developer-feedback-to.html). The popular Free and Open Source Software (FOSS) repository [F-Droid](https://f-droid.org) doesn't implement this feature and requires a [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged) to be included with the Android distribution in order to have unattended app installation.
 
-GrapheneOS doesn't compromise on security; therefore, they do not include the F-Droid extension. Users have to confirm all updates manually if they want to use F-Droid. Alternatively, they can use the Droid-ify client which does support seamless app updates in Android 12. GrapheneOS officially recommends [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play) instead. Many FOSS Android apps are also in Google Play but sometimes they are not (like [NewPipe](/video-streaming)).
+GrapheneOS doesn't compromise on security; therefore, they do not include the F-Droid extension. Users have to confirm all updates manually if they want to use F-Droid. Alternatively, they can use the Droid-ify client which does support seamless app updates in Android 12. GrapheneOS officially recommends [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play) instead. Many FOSS Android apps are also in Google Play but sometimes they are not (like [NewPipe](video-streaming.md)).
 
 CalyxOS includes the [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged), which may lower device security. Seamless app updates should be possible with [Aurora Store](https://auroraoss.com) in Android 12.
 

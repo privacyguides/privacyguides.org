@@ -23,11 +23,11 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
 !!! recommendation
 
-    ![ProtonMail logo](/assets/img/email/protonmail.svg){ align=right }
+    ![ProtonMail logo](assets/img/email/protonmail.svg){ align=right }
 
     **ProtonMail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since **2013**. ProtonMail is based in Genève, Switzerland. Accounts start with 500 MB storage with their free plan.
 
-    Free accounts have some limitations, such as not being able to search body text and not having access to [ProtonMail Bridge](https://protonmail.com/bridge), which is required to use a [recommended desktop email client](/email-clients) (e.g. Thunderbird). Paid accounts are available starting at **€48/y** which include features like ProtonMail Bridge, additional storage, and custom domain support.
+    Free accounts have some limitations, such as not being able to search body text and not having access to [ProtonMail Bridge](https://protonmail.com/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g. Thunderbird). Paid accounts are available starting at **€48/y** which include features like ProtonMail Bridge, additional storage, and custom domain support.
 
     **Free**
 
@@ -67,7 +67,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
 !!! recommendation
 
-    ![Mailbox.org logo](/assets/img/email/mailboxorg.svg){ align=right }
+    ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
 
     **Mailbox.org** is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with 2 GB of storage, which can be upgraded as needed.
 
@@ -91,7 +91,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). New messages that you receive will then be immediately encrypted with your public key.
 
-    However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](/calendar-contacts) may be more appropriate for that information.
+    However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](calendar-contacts.md) may be more appropriate for that information.
 
 ??? check "Email Encryption"
 
@@ -111,8 +111,8 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
 !!! recommendation
 
-    ![Disroot logo](/assets/img/email/disroot.svg#only-light){ align=right }
-    ![Disroot logo](/assets/img/email/disroot-dark.svg#only-dark){ align=right }
+    ![Disroot logo](assets/img/email/disroot.svg#only-light){ align=right }
+    ![Disroot logo](assets/img/email/disroot-dark.svg#only-dark){ align=right }
 
     **Disroot** offers email amongst [other services](https://disroot.org/en/#services). The service is maintained by volunteers and its community. They have been in operation since 2015. Disroot is based in Amsterdam. Disroot is free and uses open source software such as Rainloop to provide service. Users support the service through donations and buying extra storage. The mailbox limit is 1 GB, but extra storage can be purchased 0.15€ per GB per month paid yearly.
 
@@ -136,7 +136,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     Disroot uses full disk encryption. However, it doesn't appear to be "zero access", meaning it is technically possible for them to decrypt the data they have if it is not additionally encrypted with a tool like OpenPGP.
 
-    Disroot also uses the standard [CalDAV](https://en.wikipedia.org/wiki/CalDAV) and [CardDAV](https://en.wikipedia.org/wiki/CardDAV) protocols for calendars and contacts, which do not support E2EE. A [standalone option](/calendar-contacts) may be more appropriate.
+    Disroot also uses the standard [CalDAV](https://en.wikipedia.org/wiki/CalDAV) and [CardDAV](https://en.wikipedia.org/wiki/CardDAV) protocols for calendars and contacts, which do not support E2EE. A [standalone option](calendar-contacts.md) may be more appropriate.
 
 ??? check "Email Encryption"
 
@@ -154,8 +154,8 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
 !!! recommendation
 
-    ![Tutanota logo](/assets/img/email/tutanota.svg#only-light){ align=right }
-    ![Tutanota logo](/assets/img/email/tutanota-dark.svg#only-dark){ align=right }
+    ![Tutanota logo](assets/img/email/tutanota.svg#only-light){ align=right }
+    ![Tutanota logo](assets/img/email/tutanota-dark.svg#only-dark){ align=right }
 
     **[Tutanota.com](https://tutanota.com)** is an email service with a focus on security and privacy through the use of encryption. Tutanota has been in operation since **2011** and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan.
 
@@ -163,7 +163,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     [Visit Tutanota.com](https://tutanota.com){ .md-button .md-button--primary }
 
-Tutanota [doesn't allow](https://tutanota.com/faq/#imap) the use of third-party [email clients](/email-clients). Tutanota has no plans pull email from [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) using the [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) protocol. [Email import](https://github.com/tutao/tutanota/issues/630) is currently not possible.
+Tutanota [doesn't allow](https://tutanota.com/faq/#imap) the use of third-party [email clients](email-clients.md). Tutanota has no plans pull email from [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) using the [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) protocol. [Email import](https://github.com/tutao/tutanota/issues/630) is currently not possible.
 
 Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail). Tutanota does not allow for [subfolders](https://github.com/tutao/tutanota/issues/927) as you might expect with other email providers.
 
@@ -205,8 +205,8 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
 !!! recommendation
 
-    ![StartMail logo](/assets/img/email/startmail.svg#only-light){ align=right }
-    ![StartMail logo](/assets/img/email/startmail-dark.svg#only-dark){ align=right }
+    ![StartMail logo](assets/img/email/startmail.svg#only-light){ align=right }
+    ![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ align=right }
 
     **StartMail** is an email service with a focus on security and privacy through the use of standard OpenPGP encryption. StartMail has been in operation since 2014 and is based in Boulevard 11, Zeist Netherlands. Accounts start with 10GB. They offer a 30-day trial.
 
@@ -230,7 +230,7 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
     StartMail has [zero access encryption at rest](https://www.startmail.com/en/whitepaper/#_Toc458527835), using their "user vault" system. When a user logs in, the vault is opened, and the email is then moved to the vault out of the queue where it is decrypted by the corresponding private key.
 
-    StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) however, they are only accessible in the webmail and not through protocols such as [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacts are also not stored using zero knowledge encryption, so a [standalone option](/calendar-contacts) may be more appropriate.
+    StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) however, they are only accessible in the webmail and not through protocols such as [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacts are also not stored using zero knowledge encryption, so a [standalone option](calendar-contacts.md) may be more appropriate.
 
 ??? check "Email Encryption"
 
@@ -248,8 +248,8 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
 !!! recommendation
 
-    ![CTemplar Logo](/assets/img/email/ctemplar.svg#only-light){ align=right }
-    ![CTemplar Logo](/assets/img/email/ctemplar-dark.svg#only-dark){ align=right }
+    ![CTemplar Logo](assets/img/email/ctemplar.svg#only-light){ align=right }
+    ![CTemplar Logo](assets/img/email/ctemplar-dark.svg#only-dark){ align=right }
 
     **CTemplar** is an email service with a focus on security and privacy through the use of standard OpenPGP encryption. CTemplar has been in operation since **2018** and is run from Iceland. Paid accounts start with 5GB. They offer free accounts by [invitation](https://ctemplar.com/email-creation-restriction/).
 
@@ -427,7 +427,7 @@ There is another standard that was popular with business called [S/MIME](https:/
 
 ### What software can I use to get E2EE?
 
-Email providers which allow you to use standard access protocols like [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) and [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) can be used with any of the [email clients we recommend](/email-clients). This can be less secure as you are now relying on email providers to ensure that their encryption implementation works and has not been compromised in anyway.
+Email providers which allow you to use standard access protocols like [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) and [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) can be used with any of the [email clients we recommend](email-clients.md). This can be less secure as you are now relying on email providers to ensure that their encryption implementation works and has not been compromised in anyway.
 
 ### How do I protect my private keys?
 
@@ -465,14 +465,14 @@ When emails travel between email providers an encrypted connection is negotiated
 
 !!! recommendation
 
-    ![AnonAddy logo](/assets/img/email/anonaddy.svg#only-light){ align=right }
-    ![AnonAddy logo](/assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
+    ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
+    ![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
 
     **[AnonAddy](https://anonaddy.com)** lets users create aliases that forward to their email address. Can be self-hosted. [Source code on GitHub](https://github.com/anonaddy/anonaddy). 
 
 !!! recommendation
 
-    ![Simplelogin logo](/assets/img/email/simplelogin.svg){ align=right }
+    ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
 
     **[SimpleLogin](https://simplelogin.io)** allows you to easily create aliases for your email. Can be self-hosted. [Source code on GitHub](https://github.com/simple-login/app).
 
@@ -484,13 +484,13 @@ Advanced users may consider setting up their own email server. Mailservers requi
 
 !!! recommendation
 
-    ![Mail-in-a-Box logo](/assets/img/email/mail-in-a-box.svg){ align=right }
+    ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
 
     **[Mail-in-a-Box](https://mailinabox.email)** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for users to set up their own mail server.
 
 !!! recommendation
 
-    ![Mailcow logo](/assets/img/email/mailcow.svg){ align=right }
+    ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
 
     **[Mailcow](https://mailcow.email)** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: A mailserver with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support. **[Mailcow Dockerized docs](https://mailcow.github.io/mailcow-dockerized-docs/)**
 

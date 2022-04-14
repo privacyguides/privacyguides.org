@@ -49,7 +49,7 @@ When logging into a website all a user needs to do is to physically touch the se
 The service will then forward the one-time password to the Yubico OTP server for validation. A counter is incremented both on the key and Yubico's validation server. The OTP can only only be used once and when a successful authentication occurs the counter is increased which prevents reuse of the OTP. Yubico does provide a [detailed document](https://developers.yubico.com/OTP/OTPs_Explained.html) about the process.
 
 <figure markdown>
-  ![Yubico OTP](/assets/img/multi-factor-authentication/yubico-otp.png)
+  ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
 </figure>
 
 There are some benefits and disadvantages to using Yubico OTP when compared to [TOTP](#time-based-one-time-password-totp).
@@ -94,7 +94,7 @@ When configuring your MFA method, keep in mind that it is only as secure as your
 
 You should always have backups for your MFA method. Hardware security keys can get lost, stolen, or simply stop working over time. It is recommended that you have a pair of hardware security keys with the same access to your accounts instead of just one.
 
-When using TOTP with an authenticator app, be sure to back up your recovery keys, the app itself, or copy the "shared secrets" to another instance of the app on a different phone or into an encrypted container (e.g. [VeraCrypt](/encryption/#veracrypt)).
+When using TOTP with an authenticator app, be sure to back up your recovery keys, the app itself, or copy the "shared secrets" to another instance of the app on a different phone or into an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt)).
 
 ### Initial setup
 

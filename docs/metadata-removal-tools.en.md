@@ -10,7 +10,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 !!! recommendation
 
-    ![MAT2 logo](/assets/img/metadata-removal/mat2.svg){ align=right }
+    ![MAT2 logo](assets/img/metadata-removal/mat2.svg){ align=right }
 
     **MAT2** is free software, which allows the metadata to be removed from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an [extension for Nautilus](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus), the default file manager of [GNOME](https://www.gnome.org), and [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
 
@@ -29,7 +29,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 !!! recommendation
 
-    ![ExifCleaner logo](/assets/img/metadata-removal/exifcleaner.svg){ align=right }
+    ![ExifCleaner logo](assets/img/metadata-removal/exifcleaner.svg){ align=right }
 
     **ExifCleaner** is a freeware, open source graphical app that uses [ExifTool](https://exiftool.org) to remove [EXIF](https://en.wikipedia.org/wiki/Exif) metadata from images, videos, and PDF documents using a simple drag and drop interface. It supports multi-core batch processing and dark mode.
 
@@ -47,7 +47,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 !!! recommendation
 
-    ![Scrambled Exif logo](/assets/img/metadata-removal/scrambled-exif.svg){ align=right }
+    ![Scrambled Exif logo](assets/img/metadata-removal/scrambled-exif.svg){ align=right }
 
     **Scrambled Exif** is a metadata removal tool for Android. It can remove [EXIF](https://en.wikipedia.org/wiki/Exif) data for many file formats and has been translated into [many](https://gitlab.com/juanitobananas/scrambled-exif/-/tree/master/app/src/main/res) languages.
 
@@ -66,7 +66,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 !!! recommendation
 
-    ![Imagepipe logo](/assets/img/metadata-removal/imagepipe.svg){ align=right }
+    ![Imagepipe logo](assets/img/metadata-removal/imagepipe.svg){ align=right }
 
     **Imagepipe** is a a paint app for Android that can be used to redact photos and also delete [EXIF](https://en.wikipedia.org/wiki/Exif) metadata. It has been translated into [many](https://codeberg.org/Starfish/Imagepipe#translations) languages.
 
@@ -84,7 +84,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 !!! recommendation
 
-    ![Metapho logo](/assets/img/metadata-removal/metapho.jpg){ align=right }
+    ![Metapho logo](assets/img/metadata-removal/metapho.jpg){ align=right }
 
     Metapho is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
 
@@ -99,7 +99,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 !!! recommendation
 
-    ![ExifTool logo](/assets/img/metadata-removal/exiftool.png){ align=right }
+    ![ExifTool logo](assets/img/metadata-removal/exiftool.png){ align=right }
 
     **ExifTool** is the [original](https://en.wikipedia.org/wiki/ExifTool) perl library and command-line application for reading, writing, and editing meta information (EXIF, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
 

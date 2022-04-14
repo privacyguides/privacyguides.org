@@ -11,9 +11,9 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 !!! recommendation
 
-    ![Fluent Reader logo](/assets/img/news-aggregators/fluent-reader.svg){ align=right }
+    ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ align=right }
 
-    **Fluent Reader** is a secure cross-platform news aggregator that has useful privacy features such as deletion of cookies on exit, strict [content security policies (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) and proxy support, meaning you can use it over [Tor](/self-contained-networks/#tor).
+    **Fluent Reader** is a secure cross-platform news aggregator that has useful privacy features such as deletion of cookies on exit, strict [content security policies (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) and proxy support, meaning you can use it over [Tor](self-contained-networks.md#tor).
 
     [Visit hyliu.me](https://hyliu.me/fluent-reader){ .md-button .md-button--primary } [Privacy Policy](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .md-button }
 
@@ -26,7 +26,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 !!! recommendation
 
-    ![GNOME Feeds logo](/assets/img/news-aggregators/gfeeds.svg){ align=right }
+    ![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ align=right }
 
     **GNOME Feeds** is an [RSS](https://en.wikipedia.org/wiki/RSS) and [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) news reader for [GNOME](https://www.gnome.org). It has a simple interface and is quite fast.
 
@@ -41,7 +41,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 !!! recommendation
 
-    ![Akregator logo](/assets/img/news-aggregators/akregator.svg){ align=right }
+    ![Akregator logo](assets/img/news-aggregators/akregator.svg){ align=right }
 
     **Akregator** is a news feed reader that is a part of the [KDE](https://kde.org) project. It comes with a fast search, advanced archiving functionality and an internal browser for easy news reading.
 
@@ -55,7 +55,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 !!! recommendation
 
-    ![Handy News Reader logo](/assets/img/news-aggregators/handy-news-reader.svg){ align=right }
+    ![Handy News Reader logo](assets/img/news-aggregators/handy-news-reader.svg){ align=right }
 
     **Handy News Reader** is a fork of [Flym](https://github.com/FredJul/Flym) that has many [features](https://github.com/yanus171/Handy-News-Reader#features) and works well with folders of RSS feeds. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) and [RDF](https://en.wikipedia.org/wiki/RDF%2FXML).
 
@@ -70,7 +70,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 !!! recommendation
 
-    ![NetNewsWire logo](/assets/img/news-aggregators/netnewswire.png){ align=right }
+    ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
 
     **NetNewsWire** a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. It supports the typical feed formats alongside built-in support for Twitter and Reddit feeds.
 
@@ -85,8 +85,8 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 !!! recommendation
 
-    ![Miniflux logo](/assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
-    ![Miniflux logo](/assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
+    ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
+    ![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
     **Miniflux** is a web-based news aggregator that you can self-host. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
@@ -99,7 +99,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 !!! recommendation
 
-    ![Newsboat logo](/assets/img/news-aggregators/newsboat.svg){ align=right }
+    ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ align=right }
 
     **Newsboat** is an RSS/Atom feed reader for the text console. It's an actively maintained fork of [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). It is very lightweight, and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
 

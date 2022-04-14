@@ -31,8 +31,8 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 !!! recommendation
 
-    ![Mullvad logo](/assets/img/vpn/mullvad.svg#only-light){ align=right }
-    ![Mullvad logo](/assets/img/vpn/mullvad-dark.svg#only-dark){ align=right }
+    ![Mullvad logo](assets/img/vpn/mullvad.svg#only-light){ align=right }
+    ![Mullvad logo](assets/img/vpn/mullvad-dark.svg#only-dark){ align=right }
 
     **Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since **2009**. Mullvad is based in Sweden and does not have a free trial.
 
@@ -92,7 +92,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 !!! recommendation
 
-    ![ProtonVPN logo](/assets/img/vpn/protonvpn.svg){ align=right }
+    ![ProtonVPN logo](assets/img/vpn/protonvpn.svg){ align=right }
 
     **ProtonVPN** is a strong contender in the VPN space, and they have been in operation since 2016. ProtonVPN is based in Switzerland and offers a limited free pricing tier, as well as premium options. They offer a further 14% discount for buying a 2 year subscription.
 
@@ -140,7 +140,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 !!! recommendation
 
-    ![IVPN logo](/assets/img/vpn/ivpn.svg){ align=right }
+    ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
 
     **IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN is based in Gibraltar.
 
@@ -288,7 +288,7 @@ Must not have any marketing which is irresponsible:
 
 Responsible marketing that is both educational and useful to the consumer could include:
 
-- An accurate comparison to when Tor or other [self-contained networks](/self-contained-networks) should be used.
+- An accurate comparison to when Tor or other [self-contained networks.md](self-contained-networks) should be used.
 - Availability of the VPN provider's website over a .onion [Hidden Service](https://en.wikipedia.org/wiki/.onion)
 
 ### Additional Functionality
@@ -346,7 +346,7 @@ For use cases like these, or if you have another compelling reason, the VPN prov
 ### Sources and Further Reading
 
 1. [VPN - a Very Precarious Narrative](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
-2. [The self-contained networks](/self-contained-networks) recommended by Privacy Guides are able to replace a VPN that allows access to services on local area network
+2. [The self-contained networks](self-contained-networks.md) recommended by Privacy Guides are able to replace a VPN that allows access to services on local area network
 3. [Slicing Onions: Part 1 – Myth-busting Tor](https://medium.com/privacyguides/slicing-onions-part-1-myth-busting-tor-9ec188ae1904) by blacklight447
 4. [Slicing Onions: Part 2 – Onion recipes; VPN not required](https://web.archive.org/web/20210116140725/https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-2-onion-recipes-vpn-not-required) by blacklight447
 5. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
