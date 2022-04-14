@@ -41,7 +41,7 @@ jobs:
 
       - name: Build website
         run: |
-          mkdocs build --config-file mkdocs.production.yml
+          mkdocs build
           mv .well-known site/
           tar cvf site.tar site
           mkdocs --version
