@@ -1,6 +1,5 @@
 ---
-title: Integrating Metadata Removal
-description: "Guides for integrating metadata removal solutions in a native fashion."
+title: "Integrating Metadata Removal"
 icon: 'material/data-matrix-remove'
 ---
 

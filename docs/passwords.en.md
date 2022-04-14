@@ -1,5 +1,5 @@
 ---
-title: Password Managers
+title: "Password Managers"
 icon: material/form-textbox-password
 ---
 Stay safe and secure online with an encrypted and open-source password manager.

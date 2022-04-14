@@ -1,5 +1,5 @@
 ---
-title: VPN Services
+title: "VPN Services"
 icon: material/vpn
 ---
 

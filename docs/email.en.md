@@ -1,5 +1,5 @@
 ---
-title: Private Email Providers
+title: "Private Email Providers"
 icon: material/email
 ---
 
