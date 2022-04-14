@@ -1,6 +1,4 @@
-<!-- Submitting a PR? Awesome!! -->
-
-## Description
+<!-- Please use a descriptive title for your PR, it will be included in our changelog -->
 
 Resolves: # <!-- Did you solve an open GitHub issue? Put the number here so we mark it complete! -->
 

@@ -1,7 +1,6 @@
 ---
 name: "Website Issue"
 about: Report a bug with the website. (NO CONTENT ISSUES)
-title: "Website Issue | "
 ---
 
 <!--
