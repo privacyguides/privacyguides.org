@@ -53,7 +53,6 @@ Our current list of team members can be found [here](https://github.com/orgs/pri
 - 🈴 [Help translate the site](https://crwd.in/privacyguides) [[Matrix chat](https://matrix.to/#/#pg-i18n:aragon.sh)]
 - 📝 Edit the site, everything's accessible in this repo
   - Browse our [open issues](https://github.com/privacyguides/privacyguides.org/issues) to see what needs to be updated
-  - When making more significant (than simple typo fixes, etc.) changes, update the [changelog](/CHANGELOG.md)
   - View some contribution tips on our [contributor's wiki](https://github.com/privacyguides/privacyguides.org/wiki)
 
 ## Developing
@@ -76,5 +75,8 @@ Our current list of team members can be found [here](https://github.com/orgs/pri
 2. Push the tag to GitHub: `git push --tags`
 3. [Create a new release](https://github.com/privacyguides/privacyguides.org/releases/new) selecting the new tag
     - Title the release the same as the tag version number without the `v`, i.e. `2.X.X`
-    - GitHub should let you auto-generate release notes, otherwise copy notes from the changelog
+      - For more significant releases, add a **short** title, for example [2.3.0 - Localization Support](https://github.com/privacyguides/privacyguides.org/releases/tag/v2.3.0) or [2.2.0 - Removing Social Networks](https://github.com/privacyguides/privacyguides.org/releases/tag/v2.2.0)
+    - GitHub should let you auto-generate release notes based on PR titles
+      - Mark more significant changes in bold, see [2.3.0](https://github.com/privacyguides/privacyguides.org/releases/tag/v2.3.0) for example
 4. Publish release, it will be deployed to the live site automatically
+    - When publishing more significant releases (generally any with a MINOR version increment) check the "Create a discussion for this release" box to post an announcement
