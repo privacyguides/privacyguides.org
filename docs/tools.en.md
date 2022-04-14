@@ -24,17 +24,17 @@ For your convenience, everything we recommend is listed below with a link to the
 
 **Additional Resources:**
 
-<div class="grid cards" markdown>
+<div class="grid cards annotate" markdown>
 
 - ![uBlock Origin logo](/assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](https://github.com/gorhill/uBlock)
 - ![AdGuard logo](/assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for Safari](https://adguard.com/en/adguard-safari/overview.html)
-- ![ToS;DR logo](/assets/img/browsers/terms_of_service_didnt_read.svg){ .twemoji } [Terms of Service; Didn't Read\*](https://tosdr.org/)
+- ![ToS;DR logo](/assets/img/browsers/terms_of_service_didnt_read.svg){ .twemoji } [Terms of Service; Didn't Read](https://tosdr.org/) (1)
 
 </div>
 
-[Learn more...](browsers.md)
+1. We do not recommend installing ToS;DR as a browser extension. The same information is provided on their website.
 
-\* We do not recommend installing ToS;DR as a browser extension. The same information is provided on their website.
+[Learn more...](browsers.md)
 
 ## Operating Systems
 
@@ -66,7 +66,7 @@ For your convenience, everything we recommend is listed below with a link to the
 
 ### Linux
 
-<div class="grid cards" markdown>
+<div class="grid cards annotate" markdown>
 
 - ![Fedora logo](/assets/img/linux-desktop/fedora-workstation.svg){ .twemoji } [Fedora Workstation](https://getfedora.org/)
 - ![openSUSE Tumbleweed logo](/assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } [OpenSUSE Tumbleweed](https://get.opensuse.org/tumbleweed/)
@@ -75,13 +75,13 @@ For your convenience, everything we recommend is listed below with a link to the
 - ![nixOS logo](/assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](https://nixos.org/)
 - ![Whonix logo](/assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](https://www.whonix.org/)
 - ![Tails logo](/assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](https://tails.boum.org/)
-- ![Qubes OS logo](/assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM Distribution)\*](https://www.qubes-os.org/)
+- ![Qubes OS logo](/assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM Distribution)](https://www.qubes-os.org/) (1)
 
 </div>
 
-[Learn more...](linux-desktop.md)
+1. Qubes uses Xen to provide strong sandboxing between multiple Linux virtual machine installations, and can run most Linux applications. [Learn more about Qubes...](qubes.md)
 
-\* Qubes uses Xen to provide strong sandboxing between multiple Linux virtual machine installations, and can run most Linux applications. [Learn more about Qubes...](qubes.md)
+[Learn more...](linux-desktop.md)
 
 ### Router Firmware
 
