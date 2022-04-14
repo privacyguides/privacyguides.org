@@ -1,5 +1,5 @@
 ---
-title: Metadata Removal Tools
+title: "Metadata Removal Tools"
 icon: material/tag-remove
 ---
 When sharing files, be sure to remove associated metadata. Image files commonly include [EXIF](https://en.wikipedia.org/wiki/Exif) data. Photos sometimes even include [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System) coordinates in the file metadata.

@@ -1,5 +1,5 @@
 ---
-title: Qubes OS
+title: "Qubes OS"
 icon: pg/qubes-os
 ---
 Qubes OS is a distribution of Linux that uses [Xen](https://en.wikipedia.org/wiki/Xen) to provide app isolation.

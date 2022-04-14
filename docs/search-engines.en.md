@@ -1,5 +1,5 @@
 ---
-title: Search Engines
+title: "Search Engines"
 icon: material/search-web
 ---
 Use a search engine that doesn't build an advertising profile based on your searches.

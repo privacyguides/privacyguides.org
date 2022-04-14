@@ -1,5 +1,5 @@
 ---
-title: File Sharing and Sync
+title: "File Sharing and Sync"
 icon: material/share-variant
 ---
 Discover how to privately share your files between your devices, with your friends and family, or anonymously online.

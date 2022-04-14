@@ -47,22 +47,13 @@ Our current list of team members can be found [here](https://github.com/orgs/pri
 
 - 💬 [Start a discussion or suggest an idea](https://github.com/privacyguides/privacyguides.org/discussions)
 - 💖 [Sponsor the project](https://github.com/sponsors/privacyguides)
+- 🈴 [Help translate the site](https://crwd.in/privacyguides) [[Matrix chat](https://matrix.to/#/#pg-i18n:aragon.sh)]
 - 📝 Edit the site, everything's accessible in this repo
   - Browse our [open issues](https://github.com/privacyguides/privacyguides.org/issues) to see what needs to be updated
   - When making more significant (than simple typo fixes, etc.) changes, update the [changelog](/CHANGELOG.md)
   - View some contribution tips on our [contributor's wiki](https://github.com/privacyguides/privacyguides.org/wiki)
 
 ## Developing
-
-1. Clone this repository: `git clone https://github.com/privacyguides/privacyguides.org`
-2. Install [Python 3.6+](https://www.python.org/downloads/)
-3. Install [mkdocs-material](https://squidfunk.github.io/mkdocs-material/getting-started/): `pip install mkdocs-material`
-4. Serve the site locally: `mkdocs serve`
-    - The site will be available at `http://localhost:8000/`
-  
-Your local site will appear slightly different, because the production version of the website uses a private/custom build of mkdocs-material with additional features.
-
-Team members with access to [mkdocs-material-insiders](https://github.com/privacyguides/mkdocs-material-insiders) should instead:
 
 1. Clone this repository and submodules: `git clone --recurse-submodules https://github.com/privacyguides/privacyguides.org`
 2. Install [Python 3.6+](https://www.python.org/downloads/)

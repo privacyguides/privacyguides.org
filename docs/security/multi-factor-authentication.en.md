@@ -1,6 +1,5 @@
 ---
-title: Multi-factor Authentication
-description: "Using strong MFA can stop over 99% of unauthorized account accesses, and it's easy to set up on the services you already use."
+title: "Multi-factor Authentication"
 icon: 'material/two-factor-authentication'
 ---
 **Multi-factor authentication** (MFA, or 2FA) is a security mechanism that requires additional steps beyond entering your username (or email) and password. The most common method are time limited codes you might receive from an SMS or app.
