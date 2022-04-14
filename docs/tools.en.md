@@ -34,7 +34,7 @@ For your convenience, everything we recommend is listed below with a link to the
 
 1. We do not recommend installing ToS;DR as a browser extension. The same information is provided on their website.
 
-[Learn more...](browsers.md)
+[Learn more :material-arrow-right:](browsers.md)
 
 ## Operating Systems
 
@@ -62,7 +62,7 @@ For your convenience, everything we recommend is listed below with a link to the
 
 </div>
 
-[Learn more...](android.md)
+[Learn more :material-arrow-right:](android.md)
 
 ### Linux
 
@@ -81,7 +81,7 @@ For your convenience, everything we recommend is listed below with a link to the
 
 1. Qubes uses Xen to provide strong sandboxing between multiple Linux virtual machine installations, and can run most Linux applications. [Learn more about Qubes...](qubes.md)
 
-[Learn more...](linux-desktop.md)
+[Learn more :material-arrow-right:](linux-desktop.md)
 
 ### Router Firmware
 
@@ -92,7 +92,7 @@ For your convenience, everything we recommend is listed below with a link to the
 
 </div>
 
-[Learn more...](router.md)
+[Learn more :material-arrow-right:](router.md)
 
 ## Service Providers
 
@@ -107,11 +107,11 @@ For your convenience, everything we recommend is listed below with a link to the
 
 </div>
 
-[Learn more...](cloud.md)
+[Learn more :material-arrow-right:](cloud.md)
 
 ### DNS
 
-We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS servers based on a variety of criteria. Some no-logging choices include [MullvadDNS](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net/), but we recommend you read our full page on DNS before choosing a provider. In many cases using an alternative DNS provider is not recommended. [Learn more...](dns.md)
+We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS servers based on a variety of criteria. Some no-logging choices include [MullvadDNS](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net/), but we recommend you read our full page on DNS before choosing a provider. In many cases using an alternative DNS provider is not recommended. [Learn more :material-arrow-right:](dns.md)
 
 ### Email
 
@@ -144,7 +144,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 </div>
 
-[Learn more...](email.md)
+[Learn more :material-arrow-right:](email.md)
 
 ### Search Engines
 
@@ -157,7 +157,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 </div>
 
-[Learn more...](search-engines.md)
+[Learn more :material-arrow-right:](search-engines.md)
 
 ### VPN Providers
 
@@ -169,7 +169,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
     If you're looking for added **security**, you should always ensure you're connecting to websites using [HTTPS](https://en.wikipedia.org/wiki/HTTPS). A VPN is not a replacement for good security practices.
 
-    [Learn more](vpn.md)
+    [Learn more :material-arrow-right:](vpn.md)
 
 <div class="grid cards" markdown>
 
@@ -179,7 +179,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 </div>
 
-[Learn more...](vpn.md)
+[Learn more :material-arrow-right:](vpn.md)
 
 ## Software
 
@@ -195,7 +195,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 </div>
 
-[Learn more...](calendar-contacts.md)
+[Learn more :material-arrow-right:](calendar-contacts.md)
 
 ### Notebooks
 
@@ -206,7 +206,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 </div>
 
-[Learn more...](notebooks.md)
+[Learn more :material-arrow-right:](notebooks.md)
 
 ### Email Clients
 
@@ -224,7 +224,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 </div>
 
-[Learn more...](email-clients.md)
+[Learn more :material-arrow-right:](email-clients.md)
 
 ### Encryption Tools
 
@@ -232,7 +232,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
     For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are available out of the box and typically utilize hardware encryption elements such as a TPM that other full-disk encryption software like VeraCrypt will not. VeraCrypt is still suitable for non-operating system disks such as external drives, especially drives that may be accessed from multiple operating systems.
 
-    [Learn more](encryption.md##operating-system-included-full-disk-encryption-fde)
+    [Learn more :material-arrow-right:](encryption.md##operating-system-included-full-disk-encryption-fde)
 
 <div class="grid cards" markdown>
 
@@ -256,7 +256,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 </div>
 
-[Learn more...](encryption.md)
+[Learn more :material-arrow-right:](encryption.md)
 
 ### File Sharing
 
@@ -270,7 +270,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 </div>
 
-[Learn more...](file-sharing.md)
+[Learn more :material-arrow-right:](file-sharing.md)
 
 ### Metadata Removal Tools
 
@@ -285,7 +285,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 </div>
 
-[Learn more...](metadata-removal-tools.md)
+[Learn more :material-arrow-right:](metadata-removal-tools.md)
 
 ### Multi-Factor Authentication Tools
 
@@ -298,7 +298,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 </div>
 
-[Learn more...](multi-factor-authentication.md)
+[Learn more :material-arrow-right:](multi-factor-authentication.md)
 
 ### Password Managers
 
@@ -313,7 +313,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 </div>
 
-[Learn more...](passwords.md)
+[Learn more :material-arrow-right:](passwords.md)
 
 ### Productivity Tools
 
@@ -329,7 +329,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 </div>
 
-[Learn more...](productivity.md)
+[Learn more :material-arrow-right:](productivity.md)
 
 ### Real-Time Communication
 
@@ -342,7 +342,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 </div>
 
-[Learn more...](real-time-communication.md)
+[Learn more :material-arrow-right:](real-time-communication.md)
 
 ### News Aggregators
 
@@ -358,7 +358,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 </div>
 
-[Learn more...](news-aggregators.md)
+[Learn more :material-arrow-right:](news-aggregators.md)
 
 ### Self-Contained Networks
 
@@ -370,7 +370,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 </div>
 
-[Learn more...](self-contained-networks.md)
+[Learn more :material-arrow-right:](self-contained-networks.md)
 
 ### Video Streaming Clients
 
@@ -385,4 +385,4 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 </div>
 
-[Learn more...](video-streaming.md)
+[Learn more :material-arrow-right:](video-streaming.md)

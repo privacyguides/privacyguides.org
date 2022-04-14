@@ -47,5 +47,5 @@ It's important for a website like Privacy Guides to always stay up-to-date. We n
 
 **Privacy Guides** is a non-profit, socially motivated website that provides information for protecting your data security and privacy.
 
-We do not make money from recommending certain products, and we do not utilize affiliate links. [Learn more...](about.md)
+We do not make money from recommending certain products, and we do not utilize affiliate links. [Learn more :material-arrow-right:](about.md)
 </div>

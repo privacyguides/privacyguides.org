@@ -124,9 +124,9 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     ProtonVPN [recommends](https://protonvpn.com/blog/wireguard/) the use of WireGuard with their service. On ProtonVPN's Windows, macOS, iOS, Android, ChromeOS, and Android TV apps, WireGuard is the default protocol; however, [support](https://protonvpn.com/support/how-to-change-vpn-protocols/) for the protocol is not present in their Linux app.
 
-??? missing "Remote Port Forwarding"
+??? warning "Remote Port Forwarding"
 
-    ProtonVPN does not currently support remote port forwarding, which may impact some applications. Especially Peer-to-Peer applications like Torrent clients.
+    ProtonVPN currently only supports remote [port forwarding](https://protonvpn.com/support/port-forwarding/) on Windows, which may impact some applications. Especially Peer-to-Peer applications like Torrent clients.
 
 ??? check "Mobile Clients"
 
