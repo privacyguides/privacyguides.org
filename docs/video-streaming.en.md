@@ -1,5 +1,5 @@
 ---
-title: Video Streaming
+title: "Video Streaming"
 icon: material/video-wireless
 ---
 The primary threat when using a video streaming platform is that your streaming habits and subscription lists could be used to profile you. You should combine these tools with a [VPN](/vpn) or [Tor](https://www.torproject.org/) to make it harder to profile your usage.

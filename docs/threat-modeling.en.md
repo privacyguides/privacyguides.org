@@ -1,6 +1,5 @@
 ---
-layout: evergreen
-title: What are threat models?
+title: "What are threat models?"
 icon: 'material/target-account'
 ---
 

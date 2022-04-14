@@ -1,5 +1,5 @@
 ---
-title: Email Clients
+title: "Email Clients"
 icon: material/email-open
 ---
 Our recommendation list contains email clients that support both [OpenPGP](/encryption/#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth allows you to use [Multi-Factor Authentication](/multi-factor-authentication) and prevent account theft.

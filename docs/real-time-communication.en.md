@@ -1,5 +1,5 @@
 ---
-title: Real-Time Communication
+title: "Real-Time Communication"
 icon: material/chat-processing
 ---
 ## Encrypted Instant Messengers
