@@ -37,7 +37,7 @@ The criteria for the servers listed above are:
 
 ### Android
 
-Android 9 and above support DNS over TLS. Android 13 will support DNS over HTTPS. The settings can be found in: *Settings* &rarr; *Network & Internet* &rarr; *Private DNS*.
+Android 9 and above support DNS over TLS. Android 13 will support DNS over HTTPS. The settings can be found in: **Settings** &rarr; **Network & Internet** &rarr; **Private DNS**.
 
 ### Apple Devices
 
@@ -45,23 +45,31 @@ The latest versions of iOS, iPadOS, tvOS, and macOS, support both DoT and DoH. B
 
 After installation of either a configuration profile or an app that utilizes the DNS Settings API, the DNS configuration can be selected. If a VPN is active, resolution within the VPN tunnel will use the VPN's DNS settings and not your system-wide settings.
 
-- **iOS/iPadOS:** *Settings &rarr; General &rarr; VPN, DNS, & Device Management &rarr; DNS*
-- **macOS:** *System Preferences &rarr; Profiles* & *System Preferences &rarr; Network*
-- **tvOS:** *Settings &rarr; General &rarr; Privacy &rarr;* hover on "*Share Apple TV Analytics*" &rarr; press the play button on the remote
+#### Signed Profiles
 
-Apple does not provide a native interface for creating encrypted DNS profiles. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) is an unofficial tool for creating your own encrypted DNS profiles, however they will not be signed. Signed profiles are preferred; signing validates a profile's origin and helps to ensure the integrity of the profiles. A green "Verified" label is given to signed configuration profiles. For more information on code signing, see [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html).
+Apple does not provide a native interface for creating encrypted DNS profiles. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) is an unofficial tool for creating your own encrypted DNS profiles, however they will not be signed. Signed profiles are preferred; signing validates a profile's origin and helps to ensure the integrity of the profiles. A green "Verified" label is given to signed configuration profiles. For more information on code signing, see [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **Signed profiles** are offered by [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [ControlD](https://kb.controld.com/en/tutorials), [NextDNS](https://apple.nextdns.io), [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/).
 
-- **Signed profiles** are offered by [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [ControlD](https://kb.controld.com/en/tutorials), [NextDNS](https://apple.nextdns.io), [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/).
+#### iOS/iPadOS
+
+Select **Settings** &rarr; **General** &rarr; **VPN, DNS, & Device Management** &rarr; **DNS**
+
+#### macOS
+
+Select **System Preferences &rarr; Profiles** or **System Preferences** &rarr; **Network** &rarr; **Advanced**, (depending on if you have configuration profiles installed).
+
+#### tvOS
+
+Select **Settings** &rarr; **General** &rarr; **Privacy** &rarr; **Share Apple TV Analytics** &rarr; then press the *Play* button on the remote.
 
 ### Windows
 
 Windows users can [turn on DoH](https://docs.microsoft.com/en-us/windows-server/networking/dns/doh-client-support) by accessing Windows settings in the control panel.
 
-Select *Settings* &rarr; *Network & Internet* &rarr; *Ethernet* or *WiFi*, &rarr; *Edit DNS Settings* &rarr; Preferred DNS encryption &rarr; *Encrypted only (DNS over HTTPS)*.
+Select **Settings** &rarr; **Network & Internet** &rarr; **Ethernet or WiFi**, &rarr; **Edit DNS Settings** &rarr; **Preferred DNS encryption** &rarr; **Encrypted only (DNS over HTTPS)**.
 
 ### Linux
 
-`systemd-resolved` doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639), which many Linux distributions use to do their DNS lookups. If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
 
 ## Encrypted DNS Proxies
 
