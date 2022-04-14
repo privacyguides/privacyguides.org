@@ -342,6 +342,8 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 </div>
 
+[Learn more...](real-time-communication.md)
+
 ### News Aggregators
 
 <div class="grid cards" markdown>
@@ -356,7 +358,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 </div>
 
-[Learn more...](real-time-communication.md)
+[Learn more...](news-aggregators.md)
 
 ### Self-Contained Networks
 

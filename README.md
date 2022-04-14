@@ -34,6 +34,9 @@
   </a>
   <a href="https://github.com/privacyguides/privacyguides.org/pulls?q=is%3Apr+is%3Aclosed">
     <img src="https://img.shields.io/github/issues-pr-closed-raw/privacyguides/privacyguides.org">
+  </a>
+  <a href="https://crowdin.com/project/privacyguides">
+    <img src="https://badges.crowdin.net/privacyguides/localized.svg">
   </a></p>
 </div>
 
