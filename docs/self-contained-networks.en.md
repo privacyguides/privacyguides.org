@@ -1,5 +1,5 @@
 ---
-title: Self-Contained Networks
+title: "Self-Contained Networks"
 icon: material/security-network
 ---
 If you are currently browsing clearnet and want to access the dark web, this section is for you.

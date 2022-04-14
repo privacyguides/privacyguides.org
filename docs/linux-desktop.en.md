@@ -1,5 +1,5 @@
 ---
-title: Linux
+title: "Linux"
 icon: fontawesome/brands/linux
 ---
 Linux distributions are commonly recommended for privacy protection and user freedom. Below are some suggestions with some general privacy and security improvements.

@@ -1,5 +1,5 @@
 ---
-title: Email Clients
+title: "Email Clients"
 icon: material/email-open
 ---
 Our recommendation list contains email clients that support both [OpenPGP](/encryption/#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth allows you to use [Multi-Factor Authentication](/multi-factor-authentication) and prevent account theft.
@@ -7,7 +7,7 @@ Our recommendation list contains email clients that support both [OpenPGP](/encr
 ??? Attention "Email does not provide forward secrecy"
     When using end-to-end encryption (E2EE) technology like [OpenPGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy), email will still have [some metadata](/email/#email-metadata-overview) that is not encrypted in the header of the email.
 
-    OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](/email/#email-encryption-overview). Consider using a medium that forward secrecy:
+    OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](/email/#email-encryption-overview). Consider using a medium that provides forward secrecy:
 
     [Real-time Communication](/real-time-communication){ .md-button .md-button--primary }
 
