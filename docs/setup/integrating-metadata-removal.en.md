@@ -12,7 +12,7 @@ While there are plenty of metadata removal tools, they typically aren't convenie
 
 ## macOS
 
-This guide uses the [Shortcuts](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac) app to add an ExifTool script to the *Quick Actions* context menu within Finder. Shortcuts is developed by Apple and bundled in with macOS by default.
+This guide uses the [Shortcuts](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac) app to add an [ExifTool](../metadata-removal-tools.md#exiftool) script to the *Quick Actions* context menu within Finder. Shortcuts is developed by Apple and bundled in with macOS by default.
 
 Shortcuts is quite intuitive to work with, so if you don't like the behavior demoed here then experiment with your own solution. For example, you could set the shortcut to take a clipboard input instead. The sky's the limit.
 
@@ -26,7 +26,7 @@ Shortcuts is quite intuitive to work with, so if you don't like the behavior dem
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
-2. [ExifTool](../metadata-removal-tools.md#exiftool): a tool for viewing and manipulating image, audio, video, and PDF metadata.
+2. ExifTool is a tool for viewing and manipulating image, audio, video, and PDF metadata.
 
     ```bash
     brew install exiftool
@@ -121,13 +121,13 @@ The lack of *good* metadata removal apps on the App Store is what makes this sol
 
 ## Windows
 
-Windows allows users to place files in a **SendTo** folder which then appear in the *Send to* context menu. This guide will show you how to add an ExifTool batch script to this menu.
+Windows allows users to place files in a **SendTo** folder which then appear in the *Send to* context menu. This guide will show you how to add an [ExifTool](../metadata-removal-tools.md#exiftool) batch script to this menu.
 
 ![Send to metadata removal shortcut](../assets/img/integrating-metadata-removal/preview-windows.jpg)
 
 ### Prerequisites
 
-1. [ExifTool](../metadata-removal-tools.md#exiftool): a tool for viewing and manipulating image, audio, video, and PDF metadata. We suggest you read the [Installation instructions](https://exiftool.org/install.html#Windows) on the official website.
+1. ExifTool is a tool for viewing and manipulating image, audio, video, and PDF metadata. We suggest you read the [Installation instructions](https://exiftool.org/install.html#Windows) on the official website.
 
 !!! note
     You can check if ExifTool is present in your [PATH](https://www.computerhope.com/issues/ch000549.htm) by running `exiftool -ver` in Command Prompt. You should see a version number.
@@ -160,4 +160,4 @@ Windows allows users to place files in a **SendTo** folder which then appear in 
 
 ### Using the shortcut
 
-1. Right click a supported file and choose **ExifTool.bat** within the *Send to* context menu
+1. Right click a supported file and choose **ExifTool.bat** within the *Send to* context menu.
