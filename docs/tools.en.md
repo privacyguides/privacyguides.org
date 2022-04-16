@@ -191,7 +191,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 - ![Proton Calendar logo](assets/img/calendar-contacts/proton-calendar.svg){ .twemoji } [Proton Calendar (SaaS)](https://calendar.protonmail.com/)
 - ![EteSync logo](assets/img/calendar-contacts/etesync.svg){ .twemoji } [EteSync](https://www.etesync.com/)
 - ![Tutanota logo](assets/img/calendar-contacts/nextcloud.svg){ .twemoji } [Nextcloud](https://nextcloud.com/)
-- ![DecSync CC logo](assets/img/calendar-contacts/decsync.svg){ .twemoji } [DecSync](https://github.com/39aldo39/DecSync)
+- ![DecSync CC logo](assets/img/calendar-contacts/decsync.svg){ .twemoji } [DecSync CC](https://github.com/39aldo39/DecSync)
 
 </div>
 
