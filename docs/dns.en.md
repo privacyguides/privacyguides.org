@@ -32,6 +32,7 @@ The criteria for the servers listed above are:
 - Must support [DNSSEC](technology/dns.md#what-is-dnssec-and-when-is-it-used)
 - Must have [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) support
 - [QNAME Minimization](technology/dns.md#what-is-qname-minimization)
+- Allow for [ECS](technology/dns.md#what-is-edns-client-subnet-ecs) to be disabled
 
 ## Native Operating System Support
 

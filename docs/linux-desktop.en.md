@@ -64,7 +64,7 @@ Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF
 
 After the update is complete the user will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that a user can easily rollback if something breaks in the new deployment. There is also the option to pin more deployments as needed.
 
-[Flatpak](https://www.flatpak.org) is the primary package installation method on these distrbutions, as `rpm-ostree` is only meant to overlay packages that cannot stay inside of a container on top of the base image.
+[Flatpak](https://www.flatpak.org) is the primary package installation method on these distributions, as `rpm-ostree` is only meant to overlay packages that cannot stay inside of a container on top of the base image.
 
 As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/) to create [Podman](https://podman.io) containers with a shared home directory with the host operating system and mimic a traditional Fedora environment, which is a [useful feature](https://containertoolbx.org) for the discerning developer.
 
@@ -84,7 +84,7 @@ NixOS also provides atomic updates; first it downloads (or builds) the packages 
 
 Nix the package manager uses a purely functional language - which is also called Nix - to define packages.
 
-[Nixpkgs](https://github.com/nixos/nixpkgs) (the main source of packages) are contained in a single Github repository. You can also define your own packages in the same language and then easily include them in your config.
+[Nixpkgs](https://github.com/nixos/nixpkgs) (the main source of packages) are contained in a single GitHub repository. You can also define your own packages in the same language and then easily include them in your config.
 
 Nix is a source-based package manager; if there’s no pre-built available in the binary cache, Nix will just build the package from source using its definition. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible, thus making binaries reproducible.
 
@@ -104,7 +104,7 @@ Whonix is meant to run as two virtual machines: a “Workstation” and a Tor �
 
 Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator.
 
-Future versions of Whonix will likely include [full system Apparmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
+Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
 Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers).
 
@@ -116,7 +116,7 @@ Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qube
 
     **Tails** is a live operating system based on Debian that routes all communications through Tor.
 
-    It can boot on almost any computer from a DVD, USB stick, or sdcard. It aims to preserve privacy and anonymity while circumventing censorship and leaving no trace of itself on the computer it is used on.
+    It can boot on almost any computer from a DVD, USB stick, or SD card. It aims to preserve privacy and anonymity while circumventing censorship and leaving no trace of itself on the computer it is used on.
 
     [Visit tails.boum.org](https://tails.boum.org/){ .md-button .md-button--primary }
 
@@ -215,7 +215,7 @@ We recommend using a desktop environment that supports the [Wayland](https://en.
 
 Fortunately, common environments such as [GNOME](https://www.gnome.org), [KDE](https://kde.org), and the window manager [Sway](https://swaywm.org) have support for Wayland. Some distributions like Fedora and Tumbleweed use it by default and some others may do so in the future as X11 is in [hard maintenance mode](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly). If you’re using one of those environments it is as easy as selecting the “Wayland” session at the desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 
-We recommend **against** using desktop environments or window managers that do not have Wayland support such as Cinnamon (default on Linux Mint), Pantheon (default on Elementary OS), MATE, XFCE, and i3.
+We recommend **against** using desktop environments or window managers that do not have Wayland support such as Cinnamon (default on Linux Mint), Pantheon (default on Elementary OS), MATE, Xfce, and i3.
 
 ### Proprietary firmware (microcode updates)
 
@@ -314,7 +314,7 @@ Red Hat develops [Podman](https://docs.podman.io/en/latest/) and secures it with
 
 Another option is [Kata containers](https://katacontainers.io/), where virtual machines masquerade as containers. Each Kata container has its own Linux kernel and is isolated from the host.
 
-These container technologies can be useful even for enthusiastic home users who may want to run certain web app software on their local area network (LAN) such as [vaultwarden](https://github.com/dani-garcia/vaultwarden) or images provided by [linuxserver.io](https://www.linuxserver.io) to increase privacy by decreasing dependence on various web services.
+These container technologies can be useful even for enthusiastic home users who may want to run certain web app software on their local area network (LAN) such as [Vaultwarden](https://github.com/dani-garcia/vaultwarden) or images provided by [linuxserver.io](https://www.linuxserver.io) to increase privacy by decreasing dependence on various web services.
 
 ## Additional hardening
 
