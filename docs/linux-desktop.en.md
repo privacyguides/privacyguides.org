@@ -30,7 +30,7 @@ Fedora has a semi-[rolling release](https://en.wikipedia.org/wiki/Rolling_releas
 
     [Visit get.opensuse.org](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
 
-Tumbleweed follows a rolling release model where each update is released as a snapshot of the distribution. When the user upgrades their system, a new snapshot is downloaded. Each snapshot is run through a series of automated tests ([openQA](https://openqa.opensuse.org)) by the [openSUSE Build Service](https://build.opensuse.org) to ensure its quality.
+Tumbleweed follows a rolling release model where each update is released as a snapshot of the distribution. When the user upgrades their system, a new snapshot is downloaded. Each snapshot is run through a series of automated tests by [openQA](https://openqa.opensuse.org) to ensure its quality.
 
 ### Arch Linux
 
