@@ -108,7 +108,7 @@ When using TOTP with an authenticator app, be sure to back up your recovery keys
 
 ### Initial setup
 
-When buying a security key, it is important that you change the default credentials, setup password protection for the key, and enable touch confirmation if your key supports it. Products such as the [YubiKey](#yubico-otp) have multiple interfaces with seperate credentials for each one of them, so you should go over each interface and set up protection as well.
+When buying a security key, it is important that you change the default credentials, setup password protection for the key, and enable touch confirmation if your key supports it. Products such as the [YubiKey](#yubico-otp) have multiple interfaces with separate credentials for each one of them, so you should go over each interface and set up protection as well.
 
 ### Email and SMS
 
@@ -163,4 +163,4 @@ SSH MFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How
 
 ### KeePass (and KeePassXC)
 
-KeePass and KeePassXC databases can be secured using Challenge-Response or HOTP as a second factor authentication. Yubico has provided a documennt for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
+KeePass and KeePassXC databases can be secured using Challenge-Response or HOTP as a second factor authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
