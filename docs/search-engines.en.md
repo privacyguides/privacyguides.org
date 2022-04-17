@@ -64,7 +64,7 @@ Startpage's majority shareholder is System1 who is an adtech company. We don't t
 
     **Searx** is an open-source, self-hostable, metasearch engine, aggregating the results of other search engines while not storing information about its users. There is a [list of public instances](https://searx.space/).
 
-    [Visit searx.me](https://searx.me){ .md-button .md-button--primary } [:pg-tor:](http://searxspbitokayvkhzhsnljde7rqmn7rvoga6e4waeub3h7ug3nghoad.onion){ .md-button }
+    [Visit searx.github.io](https://searx.github.io/searx){ .md-button .md-button--primary } [:pg-tor:](http://searxspbitokayvkhzhsnljde7rqmn7rvoga6e4waeub3h7ug3nghoad.onion){ .md-button }
 
     **Downloads**
     - [:fontawesome-brands-github: Source](https://github.com/asciimoo/searx)
