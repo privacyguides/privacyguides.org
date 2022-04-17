@@ -112,7 +112,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 Some social media services also support RSS although it's not often advertised.
 
-### Youtube
+### YouTube
 
 You can subscribe YouTube channels without logging in and associating usage information with your Google Account. To subscribe to a YouTube channel with an RSS client, first look for your [channel code](https://support.google.com/youtube/answer/6180214), replace `channel_id` below:
 
