@@ -95,6 +95,8 @@ A [CalyxOS membership](https://calyxinstitute.org/membership/calyxos) also entit
 
 !!! recommendation
 
+    ![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
+
     **Google Pixel** devices are known to have good security and properly support [Verified Boot](https://source.android.com/security/verifiedboot), even when installing custom ROMs.
 
     [Visit store.google.com](https://store.google.com/category/phones?hl=en-US){ .md-button .md-button--primary }
