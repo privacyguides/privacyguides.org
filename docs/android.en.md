@@ -93,6 +93,8 @@ A [CalyxOS membership](https://calyxinstitute.org/membership/calyxos) also entit
 
     **Google Pixel** devices are known to have good security and properly support [Verified Boot](https://source.android.com/security/verifiedboot), even when installing custom operating systems.
 
+    Beginning with the **Pixel 6** and **6 Pro**, Pixel devices receive a minimum of 5 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-4 years competing OEMs typically offer.
+
     [Visit store.google.com](https://store.google.com/category/phones?hl=en-US){ .md-button .md-button--primary }
 
 Unless you know you have a specific need for [CalyxOS/microG features](https://calyxos.org/features/) that are unavailable on GrapheneOS, we strongly recommend GrapheneOS over other operating system choices on Pixel devices.
