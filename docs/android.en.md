@@ -13,6 +13,10 @@ These are the Android operating systems, devices, and apps we recommend to maxim
 
 Generally speaking we recommend installing one of these custom Android operating systems on your device, listed in order of preference, depending on your device's compatibility with these operating systems. If you are unable to run any of the following operating systems on your device, you are likely going to be best off sticking with your stock Android installation (as opposed to an operating system not listed here such as LineageOS), but we would recommend upgrading to a new device if at all possible.
 
+!!! note
+
+    End-of-life devices (such as GrapheneOS or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the original equipment manufacturer (OEM) discontinuing support. These devices cannot be considered completely secure regardless of installed software.
+
 ### GrapheneOS
 
 !!! recommendation
@@ -30,10 +34,6 @@ Notably, GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usag
 
 Currently, only [Pixel phones](https://grapheneos.org/faq#device-support) meet its hardware security requirement and are supported.
 
-!!! attention
-
-    GrapheneOS's "extended support" devices do not have full security patches (firmware updates) due to the original equipment manufacturer (OEM) discontinuing support. These devices cannot be considered completely secure.
-
 ### CalyxOS
 
 !!! recommendation
@@ -47,10 +47,6 @@ Currently, only [Pixel phones](https://grapheneos.org/faq#device-support) meet i
 To accomodate users who need Google Play Services, CalyxOS optionally includes [MicroG](https://microg.org/). With MicroG, CalyxOS also bundles in the [Mozilla](https://location.services.mozilla.com/) and [DejaVu](https://github.com/n76/DejaVu) location services.
 
 Currently, CalyxOS only supports [Pixel phones](https://calyxos.org/docs/guide/device-support/).
-
-!!! attention
-
-    CalyxOS's "extended support" does not have full security patches due to the original equipment manufacturer (OEM) discontinuing support; therefore, they cannot be considered completely secure.
 
 ### DivestOS
 
@@ -135,6 +131,8 @@ DivestOS has support for most OnePlus devices up to the **OnePlus 7T Pro**, with
     This problem is solved when you install a custom operating system such as CalyxOS or DivestOS and trust the developer's signing keys rather than the stock system's. To reiterate, **you must install a custom operating system with custom boot keys to use Fairphone devices in a secure manner.**
 
 CalyxOS has [experimental support](https://calyxos.org/news/2022/04/01/fairphone4-oneplus8t-oneplus9-test-builds/) for the **Fairphone 4**. DivestOS has builds available for the **Fairphone 3**.
+
+While Fairphone markets their devices as receiving 6 years of support, the SOC (Qualcomm Snapdragon 750G on the Fairphone 4) has a considerably sooner EOL date. This means that firmware security updates from Qualcomm for the Fairphone 4 will end in September 2023, regardless of whether Fairphone continues to release software security updates.
 
 ## General Apps
 
