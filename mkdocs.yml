@@ -108,8 +108,12 @@ nav:
       - 'technology/dns.md'
     - 'Security Basics':
       - 'security/multi-factor-authentication.md'
-    - 'Setup Guides':
-      - 'setup/integrating-metadata-removal.md'
+  - 'In-Depth':
+    - 'setup/integrating-metadata-removal.md'
+    - 'Mobile Devices':
+      - 'android/overview.md'
+      - 'android/security.md'
+      - 'android/grapheneos-vs-calyxos.md'
   - 'Recommendations':
     - 'tools.md'
     - 'Browsers':
