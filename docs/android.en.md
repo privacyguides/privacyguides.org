@@ -40,9 +40,7 @@ Currently, only [Pixel phones](https://grapheneos.org/faq#device-support) meet i
 
     ![CalyxOS logo](assets/img/android/calyxos.svg){ align=right }
 
-    **CalyxOS** is a decent alternative to GrapheneOS.
-
-    It has some privacy features on top of AOSP, including [Datura firewall](https://calyxos.org/docs/tech/datura-details), [Signal](https://signal.org) integration in the dialer app, and a built in panic button. CalyxOS also comes with firmware updates and signed builds, so [verified boot](https://source.android.com/security/verifiedboot) is fully supported.
+    **CalyxOS** is a system with some privacy features on top of AOSP, including [Datura firewall](https://calyxos.org/docs/tech/datura-details), [Signal](https://signal.org) integration in the dialer app, and a built in panic button. CalyxOS also comes with firmware updates and signed builds, so [verified boot](https://source.android.com/security/verifiedboot) is fully supported.
 
     [Visit calyxos.org](https://calyxos.org/){ .md-button .md-button--primary } [Privacy Policy](https://calyxinstitute.org/legal/privacy-policy){ .md-button }
 
@@ -116,7 +114,7 @@ A few more tips for purchasing a Google Pixel:
 
 ### Other Devices
 
-Google Pixel phones are the only devices which are fully supported by all of our recommended Android distributions. Additionally, Pixel devices have stronger hardware security than any other Android device currently on the market.
+Google Pixel phones are the only devices which are fully supported by all of our recommended Android distributions. Additionally, Pixel devices have stronger hardware security than any other Android device currently on the market due to Google's custom Titan security chips, which are more limited and have a smaller attack surface than the traditional Trusted Execution Environment used by most other phones.
 
 If you are unable to purchase a Pixel device, any device which is supported by CalyxOS should be reasonably secure and private enough for most users after installing CalyxOS. Any device supported by DivestOS should be good as well, provided that the device properly supports Verified Boot when using a custom operating system. Look at [DivestOS's devices page](https://divestos.org/index.php?page=devices&base=LineageOS) for information on compatibility and Verified Boot status for your particular model.
 
@@ -134,11 +132,9 @@ DivestOS has support for most OnePlus devices up to the **OnePlus 7T Pro**, with
 
     Out of the box, Fairphone devices are incredibly insecure. [Fairphone's stock bootloader trusts the public AVB signing key](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/10), meaning any system can be installed and the phone will trust it as if it is the stock system. This essentially breaks verified boot on a stock Fairphone device.
 
-    This problem is solved when you install a custom operating system such as CalyxOS or DivestOS and trust the developer's signing keys rather than the stock system's. To reiterate, **you must install a custom operating system to use Fairphone devices in a secure manner.**
+    This problem is solved when you install a custom operating system such as CalyxOS or DivestOS and trust the developer's signing keys rather than the stock system's. To reiterate, **you must install a custom operating system with custom boot keys to use Fairphone devices in a secure manner.**
 
-CalyxOS has [experimental support](https://calyxos.org/news/2022/04/01/fairphone4-oneplus8t-oneplus9-test-builds/) for the **Fairphone 4**.
-
-DivestOS has builds available for the **Fairphone 3** and the Fairphone 2, however the Fairphone 2 does not support verified boot and as such is not recommended.
+CalyxOS has [experimental support](https://calyxos.org/news/2022/04/01/fairphone4-oneplus8t-oneplus9-test-builds/) for the **Fairphone 4**. DivestOS has builds available for the **Fairphone 3**.
 
 ## General Apps
 
