@@ -108,6 +108,7 @@ nav:
       - 'technology/dns.md'
     - 'Security Basics':
       - 'security/multi-factor-authentication.md'
+      - 'security/web-e2ee.md'
     - 'Setup Guides':
       - 'setup/integrating-metadata-removal.md'
   - 'Recommendations':
