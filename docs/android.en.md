@@ -97,7 +97,7 @@ A [CalyxOS membership](https://calyxinstitute.org/membership/calyxos) also entit
 
     ![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
 
-    **Google Pixel** devices are known to have good security and properly support [Verified Boot](https://source.android.com/security/verifiedboot), even when installing custom ROMs.
+    **Google Pixel** devices are known to have good security and properly support [Verified Boot](https://source.android.com/security/verifiedboot), even when installing custom operating systems.
 
     [Visit store.google.com](https://store.google.com/category/phones?hl=en-US){ .md-button .md-button--primary }
 
@@ -118,7 +118,7 @@ A few more tips for purchasing a Google Pixel:
 
 Google Pixel phones are the only devices which are fully supported by all of our recommended Android distributions. Additionally, Pixel devices have stronger hardware security than any other Android device currently on the market.
 
-If you are unable to purchase a Pixel device, any device which is supported by CalyxOS should be reasonably secure and private enough for most users after installing CalyxOS. Any device supported by DivestOS should be good as well, provided that the device properly supports Verified Boot when using a custom ROM. Look at [DivestOS's devices page](https://divestos.org/index.php?page=devices&base=LineageOS) for information on compatibility and Verified Boot status for your particular model.
+If you are unable to purchase a Pixel device, any device which is supported by CalyxOS should be reasonably secure and private enough for most users after installing CalyxOS. Any device supported by DivestOS should be good as well, provided that the device properly supports Verified Boot when using a custom operating system. Look at [DivestOS's devices page](https://divestos.org/index.php?page=devices&base=LineageOS) for information on compatibility and Verified Boot status for your particular model.
 
 In any case, when purchasing a device we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible. The following devices are notable, but are not exclusively recommended or recommended over/instead of a Pixel device.
 
@@ -132,9 +132,9 @@ DivestOS has support for most OnePlus devices up to the **OnePlus 7T Pro**, with
 
 !!! danger
 
-    Out of the box, Fairphone devices are incredibly insecure. [Fairphone's stock bootloader trusts the public AVB signing key](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/10), meaning any system can be installed and the phone will trust it as if it is the stock rom. This essentially breaks verified boot on a stock Fairphone device.
+    Out of the box, Fairphone devices are incredibly insecure. [Fairphone's stock bootloader trusts the public AVB signing key](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/10), meaning any system can be installed and the phone will trust it as if it is the stock system. This essentially breaks verified boot on a stock Fairphone device.
 
-    This problem is solved when you install a custom ROM such as CalyxOS or DivestOS and trust that ROM developer's signing keys rather than the stock system's. To reiterate, **you must install a custom ROM to use Fairphone devices in a secure manner.**
+    This problem is solved when you install a custom operating system such as CalyxOS or DivestOS and trust the developer's signing keys rather than the stock system's. To reiterate, **you must install a custom operating system to use Fairphone devices in a secure manner.**
 
 CalyxOS has [experimental support](https://calyxos.org/news/2022/04/01/fairphone4-oneplus8t-oneplus9-test-builds/) for the **Fairphone 4**.
 
