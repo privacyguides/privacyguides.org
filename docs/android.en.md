@@ -116,11 +116,13 @@ Google Pixel phones are the only devices which are fully supported by all of our
 
 If you are unable to purchase a Pixel device, any device which is supported by CalyxOS should be reasonably secure and private enough for most users after installing CalyxOS. Any device supported by DivestOS should be good as well, provided that the device properly supports Verified Boot when using a custom operating system. Look at [DivestOS's devices page](https://divestos.org/index.php?page=devices&base=LineageOS) for information on compatibility and Verified Boot status for your particular model.
 
-In any case, when purchasing a device we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible. The following devices are notable, but are not exclusively recommended or recommended over/instead of a Pixel device.
+In any case, when purchasing a device we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible. 
+
+We do not recommend the following devices over a Google Pixel device, but we do have some notes on devices from other manufacturers:
 
 #### OnePlus
 
-CalyxOS has [experimental support](https://calyxos.org/news/2022/04/01/fairphone4-oneplus8t-oneplus9-test-builds/) for the **OnePlus 8T** and **9**.
+If you are unable to obtain a Google Pixel, recent OnePlus devices provide a good balance of security with custom operating systems and longevity, with OnePlus 8 and later devices receiving 4 years of security updates. CalyxOS has [experimental support](https://calyxos.org/news/2022/04/01/fairphone4-oneplus8t-oneplus9-test-builds/) for the **OnePlus 8T** and **9**.
 
 DivestOS has support for most OnePlus devices up to the **OnePlus 7T Pro**, with varying levels of support.
 
