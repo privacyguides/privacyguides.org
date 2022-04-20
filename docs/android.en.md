@@ -130,7 +130,7 @@ DivestOS has support for most OnePlus devices up to the **OnePlus 7T Pro**, with
 
 !!! danger
 
-    Out of the box, Fairphone devices are incredibly insecure. [Fairphone's stock bootloader trusts the public AVB signing key](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/10), meaning any system can be installed and the phone will trust it as if it is the stock system. This essentially breaks verified boot on a stock Fairphone device.
+    Out of the box, Fairphone devices are incredibly insecure. [Fairphone's stock bootloader trusts the public AVB signing key](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11), meaning any system can be installed and the phone will trust it as if it is the stock system. This essentially breaks verified boot on a stock Fairphone device.
 
     This problem is solved when you install a custom operating system such as CalyxOS or DivestOS and trust the developer's signing keys rather than the stock system's. To reiterate, **you must install a custom operating system with custom boot keys to use Fairphone devices in a secure manner.**
 
