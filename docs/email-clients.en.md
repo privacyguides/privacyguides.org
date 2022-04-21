@@ -138,15 +138,15 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
 Canary Mail is closed source. We recommend it, due to the few choices there are for email clients on iOS that support [Pretty Good Privacy (PGP)](https://en.wikipedia.org/wiki/Pretty_Good_Privacy), end-to-end encryption (E2EE).
 
-### Neomutt
+### NeoMutt
 
 !!! recommendation
 
-    ![Neomutt logo](assets/img/email-clients/mutt.svg){ align=right }
+    ![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
 
     NeoMutt is an open-source command line mail reader (or MUA) for Linux and BSD. It's a fork of [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) with added features.
-    
-    Neomut is a text-based client that has a steep learning curve. It is however, very customizable.
+
+    NeoMutt is a text-based client that has a steep learning curve. It is however, very customizable.
 
     [Visit neomutt.org](https://neomutt.org){ .md-button .md-button--primary }
 
