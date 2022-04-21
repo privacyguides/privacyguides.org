@@ -110,7 +110,9 @@ A few more tips for purchasing a Google Pixel:
 
 ### Other Devices
 
-Google Pixel phones are the only devices which are fully supported by all of our recommended Android distributions. Additionally, Pixel devices have stronger hardware security than any other Android device currently on the market, due to Google's custom Titan security chips acting as the Secure Element for secrets storage and rate limiting. Secure Elements are more limited and have a smaller attack surface than the Trusted Execution Environment (TEE), which is also used to run "trusted" programs. Most other phones do not have a Secure Element and have to using the TEE for both secrets storage, rate limiting, and trusted computing."
+!!! important
+
+    Google Pixel phones are the only devices which are fully supported by all of our recommended Android distributions. Additionally, Pixel devices have stronger hardware security than any other Android device currently on the market, due to Google's custom Titan security chips acting as the Secure Element for secrets storage and rate limiting. Secure Elements are more limited and have a smaller attack surface than the Trusted Execution Environment (TEE), which is also used to run "trusted" programs. Most other phones do not have a Secure Element and have to using the TEE for both secrets storage, rate limiting, and trusted computing."
 
 If you are unable to purchase a Pixel device, any device which is supported by CalyxOS should be reasonably secure and private enough for most users after installing CalyxOS.
 
