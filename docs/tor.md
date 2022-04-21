@@ -15,13 +15,7 @@ The **Tor** network is a group of volunteer-operated servers that allows you to 
 
 Tor works by routing your internet traffic through those volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. This obfuscates where the traffic is coming from, and no server in the connection path is able to see the full path of where the traffic is coming from and going to, meaning even the servers you are using to connect cannot break your anonymity.
 
-<figure markdown>
-  ![Tor path](assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path](assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway - Nodes in the path can only see the servers they are directly connected to, for example the "Entry" node shown can see your IP address, and the address of the "Middle" node, but has no way to see which website you are visiting.</figcaption>
-</figure>
-
-- [More information about how Tor works :material-arrow-right-drop-circle:](advanced/tor-overview.md)
+[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md){ .md-button }
 
 ## Connecting to Tor
 

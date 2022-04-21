@@ -96,6 +96,7 @@ nav:
     - "נושאים מתקדמים":
       - 'advanced/dns-overview.md'
       - 'advanced/tor-overview.md'
+      - 'advanced/payments.md'
       - 'advanced/communication-network-types.md'
     - kb-archive.md
   - "המלצות":
@@ -112,10 +113,12 @@ nav:
       - 'cloud.md'
       - 'dns.md'
       - 'email.md'
+      - 'financial-services.md'
       - 'search-engines.md'
       - 'vpn.md'
     - "תוכנה":
       - 'calendar.md'
+      - 'cryptocurrency.md'
       - 'data-redaction.md'
       - 'email-clients.md'
       - 'encryption.md'

@@ -92,6 +92,7 @@ nav:
     - "Sujets avancés":
       - 'advanced/dns-overview.md'
       - 'advanced/tor-overview.md'
+      - 'advanced/payments.md'
       - 'advanced/communication-network-types.md'
     - kb-archive.md
   - Recommandations:
@@ -108,10 +109,12 @@ nav:
       - 'cloud.md'
       - 'dns.md'
       - 'email.md'
+      - 'financial-services.md'
       - 'search-engines.md'
       - 'vpn.md'
     - "Logiciels":
       - 'calendar.md'
+      - 'cryptocurrency.md'
       - 'data-redaction.md'
       - 'email-clients.md'
       - 'encryption.md'
