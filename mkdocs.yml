@@ -63,6 +63,9 @@ plugins:
           build: false
   - tags
   - search
+  - git-revision-date-localized:
+      exclude:
+        - index.en.md
   - privacy:
       externals_exclude:
         - cdn.jsdelivr.net/npm/mathjax@3/* 
