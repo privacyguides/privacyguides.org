@@ -2,7 +2,7 @@
 title: "Metadata Removal Tools"
 icon: material/tag-remove
 ---
-When sharing files, be sure to remove associated metadata. Image files commonly include [EXIF](https://en.wikipedia.org/wiki/Exif) data. Photos sometimes even include [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System) coordinates in the file metadata.
+When sharing files, be sure to remove associated metadata. Image files commonly include [Exif](https://en.wikipedia.org/wiki/Exif) data. Photos sometimes even include [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System) coordinates in the file metadata.
 
 ## Desktop
 
@@ -31,7 +31,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     ![ExifCleaner logo](assets/img/metadata-removal/exifcleaner.svg){ align=right }
 
-    **ExifCleaner** is a freeware, open source graphical app that uses [ExifTool](https://exiftool.org) to remove EXIF metadata from images, videos, and PDF documents using a simple drag and drop interface. It supports multi-core batch processing and dark mode.
+    **ExifCleaner** is a freeware, open source graphical app that uses [ExifTool](https://exiftool.org) to remove Exif metadata from images, videos, and PDF documents using a simple drag and drop interface. It supports multi-core batch processing and dark mode.
 
     [Visit exifcleaner.com](https://exifcleaner.com){ .md-button .md-button--primary }
 
@@ -49,7 +49,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     ![Scrambled Exif logo](assets/img/metadata-removal/scrambled-exif.svg){ align=right }
 
-    **Scrambled Exif** is a metadata removal tool for Android. It can remove EXIF data for many file formats and has been translated into [many](https://gitlab.com/juanitobananas/scrambled-exif/-/tree/master/app/src/main/res) languages.
+    **Scrambled Exif** is a metadata removal tool for Android. It can remove Exif data for many file formats and has been translated into [many](https://gitlab.com/juanitobananas/scrambled-exif/-/tree/master/app/src/main/res) languages.
 
     [Visit gitlab.com](https://gitlab.com/juanitobananas/scrambled-exif){ .md-button .md-button--primary }
 
@@ -68,7 +68,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     ![Imagepipe logo](assets/img/metadata-removal/imagepipe.svg){ align=right }
 
-    **Imagepipe** is a a paint app for Android that can be used to redact photos and also delete EXIF metadata. It has been translated into [many](https://codeberg.org/Starfish/Imagepipe#translations) languages.
+    **Imagepipe** is a a paint app for Android that can be used to redact photos and also delete Exif metadata. It has been translated into [many](https://codeberg.org/Starfish/Imagepipe#translations) languages.
 
     [Visit codeberg.org](https://codeberg.org/Starfish/Imagepipe){ .md-button .md-button--primary }
 
@@ -101,9 +101,9 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     ![ExifTool logo](assets/img/metadata-removal/exiftool.png){ align=right }
 
-    **ExifTool** is the original perl library and command-line application for reading, writing, and editing meta information (EXIF, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
+    **ExifTool** is the original perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
 
-    It's often a component of other EXIF removal applications and is in most Linux distribution repositories.
+    It's often a component of other Exif removal applications and is in most Linux distribution repositories.
 
     [Visit exiftool.org](https://exiftool.org){ .md-button .md-button--primary }
 
