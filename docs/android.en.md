@@ -83,8 +83,6 @@ A few more tips regarding Android devices and operating system compatibility:
 - Do not buy preloaded LineageOS or /e/ OS phones or any Android phones without proper [Verified Boot](https://source.android.com/security/verifiedboot) support and firmware updates. These devices also have no way for you to check whether they've been tampered with.
 - In short, if a device or Android distribution is not listed here, there is probably a good reason, so check our [discussions](https://github.com/privacyguides/privacyguides.org/discussions) page.
 
-A [CalyxOS membership](https://calyxinstitute.org/membership/calyxos) also entitles you to a device preloaded with CalyxOS.
-
 ### Google Pixel
 
 !!! recommendation
