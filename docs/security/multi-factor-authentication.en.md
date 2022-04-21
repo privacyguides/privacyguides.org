@@ -114,7 +114,7 @@ When buying a security key, it is important that you change the default credenti
 
 If you have to use email for MFA, make sure that the email account itself is secured with a proper MFA method.
 
-If you use SMS MFA, use a carrier who will not switch your phone number to a new SIM card without account access, or use a dedicated VOIP number from a provider with similar security to avoid a [SIM swap](https://en.wikipedia.org/wiki/SIM_swap_scam) attack.
+If you use SMS MFA, use a carrier who will not switch your phone number to a new SIM card without account access, or use a dedicated VoIP number from a provider with similar security to avoid a [SIM swap](https://en.wikipedia.org/wiki/SIM_swap_scam) attack.
 
 [MFA tools we recommend](../multi-factor-authentication.md){ .md-button }
 
