@@ -3,7 +3,7 @@ title: "Integrating Metadata Removal"
 icon: 'material/data-matrix-remove'
 ---
 
-When sharing files, it's important to remove associated metadata. Image files commonly include [EXIF](https://en.wikipedia.org/wiki/Exif) data, and sometimes photos even include GPS coordinates within its metadata.
+When sharing files, it's important to remove associated metadata. Image files commonly include [Exif](https://en.wikipedia.org/wiki/Exif) data, and sometimes photos even include GPS coordinates within its metadata.
 
 While there are plenty of metadata removal tools, they typically aren't convenient to use. The guides featured here aim to detail how to integrate metadata removal tools in a simple fashion by utilizing easy-to-access system features.
 
