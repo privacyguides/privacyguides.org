@@ -96,6 +96,8 @@ markdown_extensions:
           - theme/.icons
   - tables
   - footnotes
+  - toc:
+      permalink: true
 
 extra_javascript:
   - javascripts/mathjax.js
