@@ -1,5 +1,5 @@
 ---
-title: "What are threat models?"
+title: "Threat Modeling"
 icon: 'material/target-account'
 ---
 

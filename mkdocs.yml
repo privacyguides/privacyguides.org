@@ -104,13 +104,16 @@ extra_javascript:
 
 nav:
   - Home: 'index.md'
-  - 'Privacy Introduction':
-    - 'threat-modeling.md'
-    - 'Technology Basics':
+  - 'Knowledge Base':
+    - 'The Basics':
+      - 'threat-modeling.md'
       - 'technology/dns.md'
-    - 'Security Basics':
       - 'security/multi-factor-authentication.md'
-    - 'Setup Guides':
+    - 'Mobile Devices':
+      - 'android/overview.md'
+      - 'android/security.md'
+      - 'android/grapheneos-vs-calyxos.md'
+    - 'Advanced':
       - 'setup/integrating-metadata-removal.md'
   - 'Recommendations':
     - 'tools.md'
