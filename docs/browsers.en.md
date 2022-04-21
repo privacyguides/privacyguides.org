@@ -95,7 +95,7 @@ You can still stay logged into websites by allowing exceptions.
 
 #### Sync
 
-The [Firefox sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) service is end-to-end encrypted.
+The [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) service is end-to-end encrypted.
 
 #### Extensions
 
