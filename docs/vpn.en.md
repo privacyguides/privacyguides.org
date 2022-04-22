@@ -68,7 +68,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? check "WireGuard Support"
 
-    Mullvad supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com)[^1] is a newer protocol that utilizes state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
+    Mullvad supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) is a newer protocol that utilizes state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
 
     Mullvad [recommends](https://mullvad.net/en/help/why-wireguard/) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, whereas Windows users have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
 
@@ -120,7 +120,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? check "WireGuard Support"
 
-    ProtonVPN mostly supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com)[^1] is a newer protocol that utilizes state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
+    ProtonVPN mostly supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) is a newer protocol that utilizes state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
 
     ProtonVPN [recommends](https://protonvpn.com/blog/wireguard/) the use of WireGuard with their service. On ProtonVPN's Windows, macOS, iOS, Android, ChromeOS, and Android TV apps, WireGuard is the default protocol; however, [support](https://protonvpn.com/support/how-to-change-vpn-protocols/) for the protocol is not present in their Linux app.
 
@@ -168,7 +168,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? check "WireGuard Support"
 
-    IVPN supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com)[^1] is a newer protocol that utilizes state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
+    IVPN supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) is a newer protocol that utilizes state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
 
     IVPN [recommends](https://www.ivpn.net/wireguard/) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
 
@@ -351,8 +351,6 @@ For use cases like these, or if you have another compelling reason, the VPN prov
 4. [Slicing Onions: Part 2 – Onion recipes; VPN not required](https://web.archive.org/web/20210116140725/https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-2-onion-recipes-vpn-not-required) by blacklight447
 5. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
 6. ["Do I need a VPN?"](https://www.doineedavpn.com), a tool developed by IVPN to challenge aggressive VPN marketing and help individuals decide if a VPN is right for them.
-
-[^1]: "WireGuard" and the "WireGuard" logo are registered trademarks of Jason A. Donenfeld.
 
 ## Related VPN information
 
