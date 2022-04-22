@@ -150,11 +150,12 @@ While Fairphone markets their devices as receiving 6 years of support, the SOC (
 
     [Visit orbot.app](https://orbot.app/){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-    - [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid)
-    - [:fontawesome-brands-github: GitHub](https://github.com/guardianproject/orbot)
-    - [:fontawesome-brands-gitlab: GitLab](https://gitlab.com/guardianproject/orbot)
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
+        - [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid)
+        - [:fontawesome-brands-github: GitHub](https://github.com/guardianproject/orbot)
+        - [:fontawesome-brands-gitlab: GitLab](https://gitlab.com/guardianproject/orbot)
 
 Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch (⚙️ Settings → Network & internet → VPN → ⚙️ → Block connections without VPN).
 
@@ -178,11 +179,12 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
 
     [Visit gitea.angry.im](https://gitea.angry.im/PeterCxy/Shelter){ .md-button .md-button--primary }
 
-    **Downloads:**
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=net.typeblog.shelter)
-    - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/net.typeblog.shelter)
-    - [:fontawesome-brands-github: GitHub](https://github.com/PeterCxy/Shelter)
-    - [:fontawesome-brands-git-alt: Source](https://gitea.angry.im/PeterCxy/Shelter)
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=net.typeblog.shelter)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/net.typeblog.shelter)
+        - [:fontawesome-brands-github: GitHub](https://github.com/PeterCxy/Shelter)
+        - [:fontawesome-brands-git-alt: Source](https://gitea.angry.im/PeterCxy/Shelter)
 
 !!! attention
 
@@ -203,9 +205,10 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
 
     [Visit attestation.app](https://attestation.app){ .md-button .md-button--primary }
 
-    **Downloads:**
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor)
-    - [:fontawesome-brands-github: GitHub](https://github.com/GrapheneOS/Auditor)
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor)
+        - [:fontawesome-brands-github: GitHub](https://github.com/GrapheneOS/Auditor)
 
 Auditor performs attestation and intrusion detection by:
 
@@ -231,9 +234,10 @@ To make sure that your hardware and operating system is genuine, [perform local 
 
     [Visit github.com](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
 
-    **Downloads:**
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
-    - [:fontawesome-brands-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
+        - [:fontawesome-brands-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
 
 Main privacy features include:
 
@@ -260,9 +264,10 @@ Main privacy features include:
 
     [Visit github.com](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
 
-    **Downloads:**
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
-    - [:fontawesome-brands-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
+        - [:fontawesome-brands-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
 
 ### PrivacyBlur
 
@@ -274,10 +279,11 @@ Main privacy features include:
 
     [Visit privacyblur.app](https://privacyblur.app/){ .md-button .md-button--primary }
 
-    **Downloads:**
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-    - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.mathema.privacyblur/)
-    - [:fontawesome-brands-github: GitHub](https://github.com/MATHEMA-GmbH/privacyblur)
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.mathema.privacyblur/)
+        - [:fontawesome-brands-github: GitHub](https://github.com/MATHEMA-GmbH/privacyblur)
 
 !!! warning
 
@@ -321,8 +327,9 @@ To mitigate these problems, we recommend [Droid-ify](https://github.com/Iamlooke
 
     Unlike the official F-Droid client, Droid-ify supports seamless updates on Android 12 and above without the need for a privileged extension. If your Android distribution is on Android 12 or above and does not include the [F-Droid privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged/), it is highly recommended that you use Droid-ify instead of the official client.
 
-    **Downloads:**
-    - [:fontawesome-brands-android: APK Download](https://android.izzysoft.de/repo/apk/com.looker.droidify)
-    - [:fontawesome-brands-github: GitHub](https://github.com/Iamlooker/Droid-ify)
+    ??? downloads
+    
+        - [:fontawesome-brands-android: APK Download](https://android.izzysoft.de/repo/apk/com.looker.droidify)
+        - [:fontawesome-brands-github: GitHub](https://github.com/Iamlooker/Droid-ify)
 
 --8<-- "includes/abbreviations.en.md"

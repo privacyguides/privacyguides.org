@@ -14,5 +14,6 @@ Qubes OS is a distribution of Linux that uses [Xen](https://en.wikipedia.org/wik
 
     [Visit qubes-os.org](https://www.qubes-os.org/){ .md-button .md-button--primary } [:pg-tor:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .md-button } [Privacy Policy](https://www.qubes-os.org/privacy){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-github: Source](https://github.com/QubesOS)
+    ??? downloads
+
+        - [:fontawesome-brands-github: Source](https://github.com/QubesOS)

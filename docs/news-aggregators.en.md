@@ -17,10 +17,11 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     [Visit hyliu.me](https://hyliu.me/fluent-reader){ .md-button .md-button--primary } [Privacy Policy](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://hyliu.me/fluent-reader)
-    - [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/app/id1520907427)
-    - [:fontawesome-brands-github: Source](https://github.com/yang991178/fluent-reader.git)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://hyliu.me/fluent-reader)
+        - [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/app/id1520907427)
+        - [:fontawesome-brands-github: Source](https://github.com/yang991178/fluent-reader.git)
 
 ### GNOME Feeds
 
@@ -32,10 +33,11 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     [Visit gfeeds.gabmus.org](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-linux: Linux](https://gfeeds.gabmus.org/#install)
-    - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.gabmus.gfeeds)
-    - [:fontawesome-brands-gitlab: Source](https://gitlab.gnome.org/World/gfeeds)
+    ??? downloads
+
+        - [:fontawesome-brands-linux: Linux](https://gfeeds.gabmus.org/#install)
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.gabmus.gfeeds)
+        - [:fontawesome-brands-gitlab: Source](https://gitlab.gnome.org/World/gfeeds)
 
 ### Akregator
 
@@ -47,9 +49,10 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     [Visit kde.org](https://apps.kde.org/akregator){ .md-button .md-button--primary } [Privacy Policy](https://kde.org/privacypolicy-apps){ .md-button }
 
-    **Downloads**
-    - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.kde.akregator)
-    - [:fontawesome-brands-git: Source](https://invent.kde.org/pim/akregator)
+    ??? downloads
+
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.kde.akregator)
+        - [:fontawesome-brands-git: Source](https://invent.kde.org/pim/akregator)
 
 ### Handy News Reader
 
@@ -61,10 +64,11 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     [Visit yanus171.github.io](https://yanus171.github.io/Handy-News-Reader/){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=ru.yanus171.feedexfork)
-    - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/ru.yanus171.feedexfork/)
-    - [:fontawesome-brands-github: Source](https://github.com/yanus171/Handy-News-Reader)
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=ru.yanus171.feedexfork)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/ru.yanus171.feedexfork/)
+        - [:fontawesome-brands-github: Source](https://github.com/yanus171/Handy-News-Reader)
 
 ### NetNewsWire
 
@@ -76,10 +80,11 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     [Visit netnewswire.com](https://netnewswire.com/){ .md-button .md-button--primary } [Privacy Policy](https://netnewswire.com/privacypolicy){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-apple: macOS](https://netnewswire.com)
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
-    - [:fontawesome-brands-github: Source](https://github.com/Ranchero-Software/NetNewsWire)
+    ??? downloads
+
+        - [:fontawesome-brands-apple: macOS](https://netnewswire.com)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
+        - [:fontawesome-brands-github: Source](https://github.com/Ranchero-Software/NetNewsWire)
 
 ### Miniflux
 
@@ -92,8 +97,9 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     [Visit miniflux.app](https://miniflux.app){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-github: Source](https://github.com/miniflux)
+    ??? downloads
+
+        - [:fontawesome-brands-github: Source](https://github.com/miniflux)
 
 ### Newsboat
 
@@ -105,8 +111,9 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     [Visit newsboat.org](https://newsboat.org){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-github: Source](https://github.com/newsboat/newsboat)
+    ??? downloads
+
+        - [:fontawesome-brands-github: Source](https://github.com/newsboat/newsboat)
 
 ## Social media that supports RSS
 

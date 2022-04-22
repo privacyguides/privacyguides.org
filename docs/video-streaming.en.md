@@ -22,12 +22,13 @@ The primary threat when using a video streaming platform is that your streaming 
 
     [Visit freetubeapp.io](https://freetubeapp.io){ .md-button .md-button--primary } [Privacy Policy](https://freetubeapp.io/privacy.php){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://freetubeapp.io/#download)
-    - [:fontawesome-brands-apple: macOS](https://freetubeapp.io/#download)
-    - [:fontawesome-brands-linux: Linux](https://freetubeapp.io/#download)
-    - [:pg-flathub: Flatpak](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
-    - [:fontawesome-brands-github: Source](https://github.com/FreeTubeApp/FreeTube/)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://freetubeapp.io/#download)
+        - [:fontawesome-brands-apple: macOS](https://freetubeapp.io/#download)
+        - [:fontawesome-brands-linux: Linux](https://freetubeapp.io/#download)
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
+        - [:fontawesome-brands-github: Source](https://github.com/FreeTubeApp/FreeTube/)
 
 ### LBRY
 
@@ -45,11 +46,12 @@ The primary threat when using a video streaming platform is that your streaming 
 
     [Visit lbry.com](https://lbry.com){ .md-button .md-button--primary } [Privacy Policy](https://lbry.com/privacypolicy){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://lbry.com/get)
-    - [:fontawesome-brands-apple: macOS](https://lbry.com/osx)
-    - [:fontawesome-brands-linux: Linux](https://lbry.com/linux)
-    - [:fontawesome-brands-github: Source](https://github.com/lbryio)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://lbry.com/get)
+        - [:fontawesome-brands-apple: macOS](https://lbry.com/osx)
+        - [:fontawesome-brands-linux: Linux](https://lbry.com/linux)
+        - [:fontawesome-brands-github: Source](https://github.com/lbryio)
 
 !!! warning
 
@@ -71,9 +73,10 @@ You can  disable *Save hosting data to help the LBRY network* option (⚙️ Set
 
     [Visit newpipe.net](https://newpipe.net){ .md-button .md-button--primary } [Privacy Policy](https://newpipe.net/legal/privacy){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-android: F-Droid repo](https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo)
-    - [:fontawesome-brands-github: Source](https://github.com/TeamNewPipe/NewPipe)
+    ??? downloads
+
+        - [:fontawesome-brands-android: F-Droid repo](https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo)
+        - [:fontawesome-brands-github: Source](https://github.com/TeamNewPipe/NewPipe)
 
 !!! note
 
@@ -106,9 +109,10 @@ This fork is not endorsed by or affiliated with the upstream project. The NewPip
 
     [Visit invidious.io](https://invidious.io){ .md-button .md-button--primary } [Privacy Policy](){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-solid-earth-americas: Instances](https://instances.invidious.io)
-    - [:fontawesome-brands-github: Source](https://github.com/iv-org/invidious)
+    ??? downloads
+
+        - [:fontawesome-solid-earth-americas: Instances](https://instances.invidious.io)
+        - [:fontawesome-brands-github: Source](https://github.com/iv-org/invidious)
 
 !!! tip
 
@@ -130,8 +134,9 @@ When you are using an Invidious instance, be sure to go read the Privacy Policy 
 
     [Visit piped.kavin.rocks](https://piped.kavin.rocks/){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-github: Source](https://github.com/TeamPiped/Piped)
+    ??? downloads
+
+        - [:fontawesome-brands-github: Source](https://github.com/TeamPiped/Piped)
 
 !!! tip
 

@@ -21,23 +21,25 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     [Visit thunderbird.net](https://www.thunderbird.net){ .md-button .md-button--primary } [Privacy Policy](https://www.mozilla.org/privacy/thunderbird){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://www.thunderbird.net)
-    - [:fontawesome-brands-apple: macOS](https://www.thunderbird.net)
-    - [:fontawesome-brands-linux: Linux](https://www.thunderbird.net)
-    - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.Thunderbird)
-    - [:fontawesome-brands-git: Source](https://hg.mozilla.org/comm-central)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://www.thunderbird.net)
+        - [:fontawesome-brands-apple: macOS](https://www.thunderbird.net)
+        - [:fontawesome-brands-linux: Linux](https://www.thunderbird.net)
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.Thunderbird)
+        - [:fontawesome-brands-git: Source](https://hg.mozilla.org/comm-central)
 
 ### Apple Mail
+
+!!! note
+
+    For iOS devices we suggest [Canary Mail](#canary-mail) as it has PGP support which means you can send end-to-end encrypted email.
 
 !!! recommendation
 
     ![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
 
     **Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption/#gpg-suite), which adds the ability to send encrypted email.
-
-    !!! note
-        For iOS devices we suggest [Canary Mail](#canary-mail) as it has PGP support which means you can send end-to-end encrypted email.
 
     [Visit apple.com](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary } [Privacy Policy](https://www.apple.com/legal/privacy/en-ww/){ .md-button }
 
@@ -51,9 +53,10 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     [Visit gnome.org](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary } [Privacy Policy](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .md-button }
 
-    **Downloads**
-    - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.gnome.Evolution)
-    - [:fontawesome-brands-gitlab: Source](https://gitlab.gnome.org/GNOME/evolution)
+    ??? downloads
+
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.gnome.Evolution)
+        - [:fontawesome-brands-gitlab: Source](https://gitlab.gnome.org/GNOME/evolution)
 
 ### Kontact
 
@@ -65,10 +68,11 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     [Visit kontact.kde.org](https://kontact.kde.org){ .md-button .md-button--primary } [Privacy Policy](https://kde.org/privacypolicy-apps){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-linux: Linux](https://kontact.kde.org/download)
-    - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.kde.kontact)
-    - [:fontawesome-brands-git: Source](https://invent.kde.org/pim/kmail)
+    ??? downloads
+
+        - [:fontawesome-brands-linux: Linux](https://kontact.kde.org/download)
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.kde.kontact)
+        - [:fontawesome-brands-git: Source](https://invent.kde.org/pim/kmail)
 
 ### Mailvelope
 
@@ -80,11 +84,12 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     [Visit mailvelope.com](https://www.mailvelope.com){ .md-button .md-button--primary } [Privacy Policy](https://www.mailvelope.com/en/privacy-policy){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
-    - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
-    - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc)
-    - [:fontawesome-brands-github: Source](https://github.com/mailvelope/mailvelope)
+    ??? downloads
+
+        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
+        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
+        - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc)
+        - [:fontawesome-brands-github: Source](https://github.com/mailvelope/mailvelope)
 
 ### K-9 Mail
 
@@ -96,10 +101,11 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     [Visit k9mail.app](https://k9mail.app){ .md-button .md-button--primary } [Privacy Policy](https://k9mail.app/privacy){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
-    - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.fsck.k9)
-    - [:fontawesome-brands-github: Source](https://github.com/k9mail)
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.fsck.k9)
+        - [:fontawesome-brands-github: Source](https://github.com/k9mail)
 
 ### FairEmail
 
@@ -111,10 +117,11 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     [Visit email.faircode.eu](https://email.faircode.eu){ .md-button .md-button--primary } [Privacy Policy](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
-    - [:pg-f-droid: F-Droid](https://f-droid.org/packages/eu.faircode.email/)
-    - [:fontawesome-brands-github: Source](https://github.com/M66B/FairEmail)
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/eu.faircode.email/)
+        - [:fontawesome-brands-github: Source](https://github.com/M66B/FairEmail)
 
 ### Canary Mail
 
@@ -126,11 +133,12 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     [Visit canarymail.io](https://canarymail.io){ .md-button .md-button--primary } [Privacy Policy](https://canarymail.io/privacy.html){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://download.canarymail.io/get_windows)
-    - [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/app/id1236045954)
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1236045954)
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://download.canarymail.io/get_windows)
+        - [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/app/id1236045954)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1236045954)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
 
 !!! attention
 
@@ -150,9 +158,10 @@ Canary Mail is closed source. We recommend it, due to the few choices there are 
 
     [Visit neomutt.org](https://neomutt.org){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-linux: Linux](https://neomutt.org/distro)
-    - [:fontawesome-brands-apple: macOS](https://neomutt.org/distro)
-    - [:fontawesome-brands-github: Source](https://github.com/neomutt/neomutt)
+    ??? downloads
+
+        - [:fontawesome-brands-linux: Linux](https://neomutt.org/distro)
+        - [:fontawesome-brands-apple: macOS](https://neomutt.org/distro)
+        - [:fontawesome-brands-github: Source](https://github.com/neomutt/neomutt)
 
 --8<-- "includes/abbreviations.en.md"

@@ -19,11 +19,12 @@ The options listed here are multi-platform and great for creating encrypted back
 
     [Visit veracrypt.fr](https://veracrypt.fr){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://www.veracrypt.fr/en/Downloads.html)
-    - [:fontawesome-brands-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
-    - [:fontawesome-brands-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
-    - [:fontawesome-brands-git: Source](https://www.veracrypt.fr/code)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://www.veracrypt.fr/en/Downloads.html)
+        - [:fontawesome-brands-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
+        - [:fontawesome-brands-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
+        - [:fontawesome-brands-git: Source](https://www.veracrypt.fr/code)
 
 VeraCrypt is a fork of the discontinued TrueCrypt project. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed.
 
@@ -41,15 +42,16 @@ Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
 
     [Visit cryptomator.org](https://cryptomator.org){ .md-button .md-button--primary } [Privacy Policy](https://cryptomator.org/privacy){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://cryptomator.org/downloads)
-    - [:fontawesome-brands-apple: macOS](https://cryptomator.org/downloads)
-    - [:fontawesome-brands-linux: Linux](https://cryptomator.org/downloads)
-    - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
-    - [:fontawesome-brands-android: F-Droid repo](https://cryptomator.org/android)
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
-    - [:fontawesome-brands-github: Source](https://github.com/cryptomator)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://cryptomator.org/downloads)
+        - [:fontawesome-brands-apple: macOS](https://cryptomator.org/downloads)
+        - [:fontawesome-brands-linux: Linux](https://cryptomator.org/downloads)
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
+        - [:fontawesome-brands-android: F-Droid repo](https://cryptomator.org/android)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
+        - [:fontawesome-brands-github: Source](https://github.com/cryptomator)
 
 Some of the Cryptomator Crypto Libraries have been [audited](https://cryptomator.org/open-source/) by [Cure53](https://cryptomator.org/audits/2017-11-27%20crypto%20cure53.pdf). The scope of those libraries included [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) and [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). It did not include [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift) which is now used on iOS.
 
@@ -63,11 +65,12 @@ Some of the Cryptomator Crypto Libraries have been [audited](https://cryptomator
 
     [Visit github.com](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
-    - [:fontawesome-brands-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
-    - [:fontawesome-brands-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
-    - [:fontawesome-brands-github: Source](https://github.com/HACKERALERT/Picocrypt)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
+        - [:fontawesome-brands-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
+        - [:fontawesome-brands-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
+        - [:fontawesome-brands-github: Source](https://github.com/HACKERALERT/Picocrypt)
 
 ## OS Full Disk Encryption
 
@@ -177,8 +180,9 @@ Browser-based encryption can be useful when you need to encrypt a file but canno
 
     [Visit hat.sh](https://hat.sh){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-github: Source](https://github.com/sh-dv/hat.sh)
+    ??? downloads
+
+        - [:fontawesome-brands-github: Source](https://github.com/sh-dv/hat.sh)
 
 ## Command-line
 
@@ -194,11 +198,12 @@ Tools with command-line interfaces are useful for intergrating [shell scripts](h
 
     [Visit kryptor.co.uk](https://www.kryptor.co.uk){ .md-button .md-button--primary } [Privacy Policy](https://www.kryptor.co.uk/features#privacy){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://www.kryptor.co.uk)
-    - [:fontawesome-brands-apple: macOS](https://www.kryptor.co.uk)
-    - [:fontawesome-brands-linux: Linux](https://www.kryptor.co.uk)
-    - [:fontawesome-brands-github: Source](https://github.com/samuel-lucas6/Kryptor)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://www.kryptor.co.uk)
+        - [:fontawesome-brands-apple: macOS](https://www.kryptor.co.uk)
+        - [:fontawesome-brands-linux: Linux](https://www.kryptor.co.uk)
+        - [:fontawesome-brands-github: Source](https://github.com/samuel-lucas6/Kryptor)
 
 ### Tomb
 
@@ -210,8 +215,9 @@ Tools with command-line interfaces are useful for intergrating [shell scripts](h
 
     [Visit dyne.org](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-github: Source](https://github.com/dyne/Tomb)
+    ??? downloads
+
+        - [:fontawesome-brands-github: Source](https://github.com/dyne/Tomb)
 
 ## OpenPGP
 
@@ -237,12 +243,13 @@ When encrypting with PGP, the user has the option to configure different options
 
     [Visit gnupg.org](https://gnupg.org){ .md-button .md-button--primary } [Privacy Policy](https://gnupg.org/privacy-policy.html){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
-    - [:fontawesome-brands-apple: macOS](https://gpgtools.org)
-    - [:fontawesome-brands-linux: Linux](https://gnupg.org/download/index.html#binary)
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
-    - [:fontawesome-brands-git: Source](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
+        - [:fontawesome-brands-apple: macOS](https://gpgtools.org)
+        - [:fontawesome-brands-linux: Linux](https://gnupg.org/download/index.html#binary)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+        - [:fontawesome-brands-git: Source](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git)
 
 ### GPG4win
 
@@ -254,9 +261,10 @@ When encrypting with PGP, the user has the option to configure different options
 
     [Visit gpg4win.org](https://gpg4win.org){ .md-button .md-button--primary } [Privacy Policy](https://gpg4win.org/privacy-policy.html){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
-    - [:fontawesome-brands-git: Source](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
+        - [:fontawesome-brands-git: Source](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary)
 
 ### GPG Suite
 
@@ -270,9 +278,10 @@ When encrypting with PGP, the user has the option to configure different options
 
     [Visit gpgtools.org](https://gpgtools.org){ .md-button .md-button--primary } [Privacy Policy](https://gpgtools.org/privacy){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-apple: macOS](https://gpgtools.org)
-    - [:fontawesome-brands-git: Source](https://github.com/GPGTools)
+    ??? downloads
+
+        - [:fontawesome-brands-apple: macOS](https://gpgtools.org)
+        - [:fontawesome-brands-git: Source](https://github.com/GPGTools)
 
 !!! note
 
@@ -288,9 +297,10 @@ When encrypting with PGP, the user has the option to configure different options
 
     [Visit openkeychain.org](https://www.openkeychain.org){ .md-button .md-button--primary } [Privacy Policy](https://www.openkeychain.org/help/privacy-policy){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
-    - [:pg-f-droid: F-Droid](https://f-droid.org/packages/org.sufficientlysecure.keychain/)
-    - [:fontawesome-brands-git: Source](https://github.com/open-keychain/open-keychain)
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/org.sufficientlysecure.keychain/)
+        - [:fontawesome-brands-git: Source](https://github.com/open-keychain/open-keychain)
 
 --8<-- "includes/abbreviations.en.md"
