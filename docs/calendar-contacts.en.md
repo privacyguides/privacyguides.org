@@ -2,11 +2,11 @@
 title: "Calendar and Contact Sync"
 icon: material/calendar
 ---
-Calendaring and contacts are some of the most sensitive data posess. Use only products that use end-to-end encryption (E2EE) at rest. This prevents a provider from reading your data.
+Calendaring and contacts are some of the most sensitive data posess. Use only products that use E2EE at rest. This prevents a provider from reading your data.
 
-## Software as a service (SaaS) only
+## Cloud/SaaS Providers
 
-These products are included with an subscription to the respective [email providers](email.md).
+These products are included with an subscription with their respective [email providers](email.md).
 
 ### Tutanota
 
@@ -45,7 +45,7 @@ These products are included with an subscription to the respective [email provid
 
 ## Self-hostable
 
-Some of these options are self-hostable, or able to be hosted by third party providers for a fee:
+Some of these options are self-hostable, but could be offered by third party SaaS providers for a fee:
 
 ### EteSync
 
@@ -104,3 +104,5 @@ Some of these options are self-hostable, or able to be hosted by third party pro
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.decsync.cc)
     - [:pg-f-droid: F-Droid](https://f-droid.org/packages/org.decsync.cc)
     - [:fontawesome-brands-github: Source](https://github.com/39aldo39/DecSync)
+
+--8<-- "includes/abbreviations.en.md"

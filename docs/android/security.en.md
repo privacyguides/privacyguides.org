@@ -21,11 +21,11 @@ This method is generally less secure than a secondary user profile; however, it 
 
 [Verified Boot](https://source.android.com/security/verifiedboot) is an important part of the Android security model. It provides protection against [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, malware persistence, and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
-Android 10 and above has moved away from full-disk encryption (FDE) to more flexible [file-based encryption](https://source.android.com/security/encryption/file-based).
+Android 10 and above has moved away from full-disk encryption to more flexible [file-based encryption](https://source.android.com/security/encryption/file-based).
 
 Each user's data is encrypted using their own unique encryption key, and the operating system files are left unencrypted. Verified Boot ensures the integrity of the operating system files preventing an adversary with physical access from tampering or installing malware on the device. In the unlikely case that malware is able to exploit other parts of the system and gain higher privileged access, Verified Boot will prevent and revert changes to the system partition upon reboot of the device.
 
-Unfortunately, original equipment manufacturers (OEMs) are only obliged to support Verified Boot on their stock Android distribution. Only a few OEMs such as Google support custom Android Verified Boot (AVB) key enrollment on their devices. Some AOSP derivatives such as LineageOS or /e/ OS do not support Verified Boot even on hardware with Verified Boot support for third party operating systems. We recommend that you check for support **before** purchasing a new device. AOSP derivatives which do not support Verified Boot are **not** recommended.
+Unfortunately, OEMs are only obliged to support Verified Boot on their stock Android distribution. Only a few OEMs such as Google support custom AVB key enrollment on their devices. Some AOSP derivatives such as LineageOS or /e/ OS do not support Verified Boot even on hardware with Verified Boot support for third party operating systems. We recommend that you check for support **before** purchasing a new device. AOSP derivatives which do not support Verified Boot are **not** recommended.
 
 ## VPN Killswitch
 
@@ -33,4 +33,6 @@ Android 7 and above supports a VPN killswitch and it is available without the ne
 
 ## Global Toggles
 
-Modern Android devices have global toggles for disabling [Bluetooth](https://en.wikipedia.org/wiki/Bluetooth) and location services. Android 12 introduced toggles for the camera and microphone. When not in use, we recommend disabling these features. Apps cannot use disabled features (even if granted individual permission) until re-enabled.
+Modern Android devices have global toggles for disabling Bluetooth and location services. Android 12 introduced toggles for the camera and microphone. When not in use, we recommend disabling these features. Apps cannot use disabled features (even if granted individual permission) until re-enabled.
+
+--8<-- "includes/abbreviations.en.md"

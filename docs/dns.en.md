@@ -120,3 +120,5 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](te
     - [:fontawesome-brands-github: Source](https://github.com/DNSCrypt/dnscrypt-proxy)
 
 !!! warning "The anonymized DNS feature does [**not**](technology/dns.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic."
+
+--8<-- "includes/abbreviations.en.md"

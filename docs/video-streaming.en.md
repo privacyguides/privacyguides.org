@@ -147,3 +147,5 @@ When you are using an Invidious instance, be sure to go read the Privacy Policy 
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Piped, as other peoples' usage will be linked to your hosting.
 
 When you are using a Piped instance, be sure to go read the Privacy Policy of that specific instance. Piped instances can be modified by their owners and therefore may not reflect their associated privacy policy.
+
+--8<-- "includes/abbreviations.en.md"

@@ -95,7 +95,7 @@ You can still stay logged into websites by allowing exceptions.
 
 #### Sync
 
-The [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) service is end-to-end encrypted.
+The [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) service uses E2EE.
 
 #### Extensions
 
@@ -191,7 +191,7 @@ Open Safari and press the tabs icon in the bottom right corner. Open Tab Groups,
 
 #### iCloud Sync
 
-While synchronization of Safari History, Tab Groups, and iCloud Tabs is end-to-end encrypted, bookmarks are [not](https://support.apple.com/en-us/HT202303); they are only encrypted in transit and stored in an encrypted format on Apple's servers. Apple may be able to decrypt and access them.
+While synchronization of Safari History, Tab Groups, and iCloud Tabs uses E2EE, bookmarks sync does [not](https://support.apple.com/en-us/HT202303); they are only encrypted in transit and stored in an encrypted format on Apple's servers. Apple may be able to decrypt and access them.
 
 If you use iCloud, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in *General* (⚙️ Settings → Safari → General → Downloads).
 
@@ -260,3 +260,5 @@ There is also [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html
     **Terms of Service; Didn't Read** grades websites based on their terms of service agreements and privacy policies. It also gives short summaries of those agreements. The analyses and ratings are published transparently by a community of reviewers.
 
     [Visit tosdr.org](https://tosdr.org){ .md-button .md-button--primary } [Privacy Policy](https://addons.mozilla.org/firefox/addon/terms-of-service-didnt-read/privacy){ .md-button }
+
+--8<-- "includes/abbreviations.en.md"

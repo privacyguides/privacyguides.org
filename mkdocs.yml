@@ -52,6 +52,7 @@ theme:
         name: Switch to light mode
 watch:
   - theme
+  - includes
 
 plugins:
   - i18n:
@@ -88,9 +89,11 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.snippets
   - attr_list
   - md_in_html
   - meta
+  - abbr
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg

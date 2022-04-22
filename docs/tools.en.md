@@ -389,3 +389,5 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 </div>
 
 [Learn more :material-arrow-right:](video-streaming.md)
+
+--8<-- "includes/abbreviations.en.md"

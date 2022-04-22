@@ -34,3 +34,5 @@ Below are a few alternative operating systems, that can be used on routers, Wi-F
 
     **Downloads**
     - [:fontawesome-brands-github: Source](https://github.com/pfsense)
+
+--8<-- "includes/abbreviations.en.md"

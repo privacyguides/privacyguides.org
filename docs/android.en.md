@@ -15,7 +15,7 @@ Generally speaking we recommend installing one of these custom Android operating
 
 !!! note
 
-    End-of-life devices (such as GrapheneOS or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the original equipment manufacturer (OEM) discontinuing support. These devices cannot be considered completely secure regardless of installed software.
+    End-of-life devices (such as GrapheneOS or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.
 
 ### GrapheneOS
 
@@ -26,7 +26,7 @@ Generally speaking we recommend installing one of these custom Android operating
 
     **GrapheneOS** is the best choice when it comes to privacy and security.
 
-    GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wiki/Hardening_(computing)) and privacy improvements. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so [verified boot](https://source.android.com/security/verifiedboot) is fully supported.
+    GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wiki/Hardening_(computing)) and privacy improvements. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
 
     [Visit grapheneos.org](https://grapheneos.org/){ .md-button .md-button--primary } [Privacy Policy](https://grapheneos.org/faq#privacy-policy){ .md-button }
 
@@ -40,7 +40,7 @@ Currently, only [Pixel phones](https://grapheneos.org/faq#device-support) meet i
 
     ![CalyxOS logo](assets/img/android/calyxos.svg){ align=right }
 
-    **CalyxOS** is a system with some privacy features on top of AOSP, including [Datura](https://calyxos.org/docs/tech/datura-details) firewall, [Signal](https://signal.org) integration in the dialer app, and a built in panic button. CalyxOS also comes with firmware updates and signed builds, so [verified boot](https://source.android.com/security/verifiedboot) is fully supported.
+    **CalyxOS** is a system with some privacy features on top of AOSP, including [Datura](https://calyxos.org/docs/tech/datura-details) firewall, [Signal](https://signal.org) integration in the dialer app, and a built in panic button. CalyxOS also comes with firmware updates and signed builds, so verified boot is fully supported.
 
     [Visit calyxos.org](https://calyxos.org/){ .md-button .md-button--primary } [Privacy Policy](https://calyxinstitute.org/legal/privacy-policy){ .md-button }
 
@@ -69,7 +69,7 @@ DivestOS 16.0, 17.1, and 18.1 implements GrapheneOS's [`INTERNET`](https://devel
 
     DivestOS firmware update [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) varies across the devices it supports. For Pixel phones, we still recommend using GrapheneOS or CalyxOS. For other supported devices, DivestOS is a good alternative.
 
-    Not all of the supported devices have [verified boot](https://source.android.com/security/verifiedboot), and some perform it better than others.
+    Not all of the supported devices have verified boot, and some perform it better than others.
 
 ## Android Devices
 
@@ -112,7 +112,7 @@ A few more tips for purchasing a Google Pixel:
 
 !!! important
 
-    Google Pixel phones are the only devices which are fully supported by all of our recommended Android distributions. Additionally, Pixel devices have stronger hardware security than any other Android device currently on the market, due to Google's custom Titan security chips acting as the Secure Element for secrets storage and rate limiting. Secure Elements are more limited and have a smaller attack surface than the Trusted Execution Environment (TEE), which is also used to run "trusted" programs. Most other phones do not have a Secure Element and have to using the TEE for both secrets storage, rate limiting, and trusted computing."
+    Google Pixel phones are the only devices which are fully supported by all of our recommended Android distributions. Additionally, Pixel devices have stronger hardware security than any other Android device currently on the market, due to Google's custom Titan security chips acting as the Secure Element for secrets storage and rate limiting. Secure Elements are more limited and have a smaller attack surface than the Trusted Execution Environment used by most other phones, which is also used to run "trusted" programs. Phones without a Secure Element have to use the TEE for secrets storage, rate limiting, *and* trusted computing."
 
 If you are unable to purchase a Pixel device, any device which is supported by CalyxOS should be reasonably secure and private enough for most users after installing CalyxOS.
 
@@ -324,3 +324,5 @@ To mitigate these problems, we recommend [Droid-ify](https://github.com/Iamlooke
     **Downloads:**
     - [:fontawesome-brands-android: APK Download](https://android.izzysoft.de/repo/apk/com.looker.droidify)
     - [:fontawesome-brands-github: GitHub](https://github.com/Iamlooker/Droid-ify)
+
+--8<-- "includes/abbreviations.en.md"

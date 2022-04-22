@@ -136,7 +136,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     Canary Mail only recently released a Windows and Android client, we don't believe they are as stable as their iOS and Mac counterparts.
 
-Canary Mail is closed source. We recommend it, due to the few choices there are for email clients on iOS that support [Pretty Good Privacy (PGP)](https://en.wikipedia.org/wiki/Pretty_Good_Privacy), end-to-end encryption (E2EE).
+Canary Mail is closed source. We recommend it, due to the few choices there are for email clients on iOS that support [Pretty Good Privacy (PGP)](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) E2EE.
 
 ### NeoMutt
 
@@ -154,3 +154,5 @@ Canary Mail is closed source. We recommend it, due to the few choices there are 
     - [:fontawesome-brands-linux: Linux](https://neomutt.org/distro)
     - [:fontawesome-brands-apple: macOS](https://neomutt.org/distro)
     - [:fontawesome-brands-github: Source](https://github.com/neomutt/neomutt)
+
+--8<-- "includes/abbreviations.en.md"

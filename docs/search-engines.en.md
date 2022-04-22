@@ -74,3 +74,5 @@ Searx is a proxy between the user and the search engines it aggregates from. You
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Searx, as other people looking up illegal content on your instance could draw unwanted attention from authorities.
 
 When you are using a Searx instance, be sure to go read the Privacy Policy of that specific instance. Searx instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
+
+--8<-- "includes/abbreviations.en.md"

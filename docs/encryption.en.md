@@ -69,9 +69,9 @@ Some of the Cryptomator Crypto Libraries have been [audited](https://cryptomator
     - [:fontawesome-brands-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
     - [:fontawesome-brands-github: Source](https://github.com/HACKERALERT/Picocrypt)
 
-## Operating system included Full Disk Encryption (FDE)
+## OS Full Disk Encryption
 
-Modern operating systems include [disk encryption](https://en.wikipedia.org/wiki/Disk_encryption) and will utilize a [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor).
+Modern operating systems include [FDE](https://en.wikipedia.org/wiki/Disk_encryption) and will utilize a [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor).
 
 ### BitLocker
 
@@ -130,13 +130,13 @@ BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-o
 
 We recommend storing a local recovery key in a secure place as opposed to utilizing iCloud FileVault recovery. As well, FileVault should be enabled **after** a complete macOS installation as more pseudorandom number generator ([PRNG](https://support.apple.com/guide/security/random-number-generation-seca0c73a75b/web)) [entropy](https://en.wikipedia.org/wiki/Entropy_(computing)) will be available.
 
-### Linux Unified Key Setup (LUKS)
+### Linux Unified Key Setup
 
 !!! recommendation
 
     ![LUKS logo](assets/img/encryption-software/luks.png){ align=right }
 
-    **LUKS** is the default full disk encryption method for Linux. It can be used to encrypt full volumes, partitions, or create encrypted containers.
+    **LUKS** is the default FDE method for Linux. It can be used to encrypt full volumes, partitions, or create encrypted containers.
 
     [Visit gitlab.com](https://gitlab.com/cryptsetup/cryptsetup){ .md-button .md-button--primary }
 
@@ -292,3 +292,5 @@ When encrypting with PGP, the user has the option to configure different options
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
     - [:pg-f-droid: F-Droid](https://f-droid.org/packages/org.sufficientlysecure.keychain/)
     - [:fontawesome-brands-git: Source](https://github.com/open-keychain/open-keychain)
+
+--8<-- "includes/abbreviations.en.md"

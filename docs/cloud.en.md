@@ -4,7 +4,7 @@ icon: material/file-cloud
 ---
 If you are currently using a Cloud Storage Service like Dropbox, Google Drive, Microsoft OneDrive or Apple iCloud, you are putting complete trust in your service provider to not look at your files.
 
-Trust your provider by using an alternative below that supports [end-to-end encryption (E2EE)](https://wikipedia.org/wiki/End-to-end_encryption).
+Trust your provider by using an alternative below that supports E2EE.
 
 ### Nextcloud
 
@@ -12,7 +12,7 @@ Trust your provider by using an alternative below that supports [end-to-end encr
 
     ![Nextcloud logo](assets/img/cloud/nextcloud.svg){ align=right }
 
-    **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control. It also comes with experimental end-to-end encryption (E2EE).
+    **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control. It also comes with experimental E2EE.
 
     [Visit nextcloud.com](https://nextcloud.com){ .md-button .md-button--primary } [Privacy Policy](https://nextcloud.com/privacy){ .md-button }
 
@@ -38,7 +38,7 @@ When self hosting Nextcloud, you should also remember to enable E2EE to protect 
 
     ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-    **Proton Drive** is an end-to-end encrypted (E2EE) general file storage service by the popular encrypted email provider [ProtonMail](https://protonmail.com).
+    **Proton Drive** is an E2EE general file storage service by the popular encrypted email provider [ProtonMail](https://protonmail.com).
 
     [Visit drive.protonmail.com](https://drive.protonmail.com){ .md-button .md-button--primary } [Privacy Policy](https://protonmail.com/privacy-policy){ .md-button }
 
@@ -84,3 +84,5 @@ When using a web client, you are placing trust in the server to send you proper 
     - [:fontawesome-brands-linux: Linux](https://github.com/tahoe-lafs/tahoe-lafs#using-os-packages)
     - [:pg-netbsd: NetBSD](https://pkgsrc.se/filesystems/tahoe-lafs)
     - [:fontawesome-brands-git: Source](https://www.tahoe-lafs.org/trac/tahoe-lafs/browser)
+
+--8<-- "includes/abbreviations.en.md"

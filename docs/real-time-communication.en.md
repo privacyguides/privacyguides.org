@@ -160,11 +160,11 @@ When self-hosted, users of a federated server can discover and communicate with 
 - Federated servers generally require trusting your server's administrator. They may be a hobbyist or otherwise not a "security professional," and may not serve standard documents like a privacy policy or terms of service detailing how your data is utilized.
 - Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with users on those servers.
 
-### Peer-to-Peer (P2P) Networks
+### Peer-to-Peer Networks
 
 ![P2P diagram](assets/img/layout/network-distributed.svg){ align=left }
 
-[P2P](https://en.wikipedia.org/wiki/Peer-to-peer) messengers connect to a [distributed network](https://en.wikipedia.org/wiki/Distributed_networking) of nodes to relay a message to the recepient without a third-party server.
+P2P messengers connect to a [distributed network](https://en.wikipedia.org/wiki/Distributed_networking) of nodes to relay a message to the recepient without a third-party server.
 
 Clients (peers) usually find each other through the use of a [distributed computing](https://en.wikipedia.org/wiki/Distributed_computing) network. Examples of this include [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), used by [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) and [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) for example. Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://www.scuttlebutt.nz) social network protocol).
 
@@ -175,7 +175,7 @@ P2P networks do not use servers, as users communicate directly between each othe
 **Advantages:**
 
 - Minimal information is exposed to third parties.
-- Modern P2P platforms implement end-to-end encryption by default. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.
+- Modern P2P platforms implement E2EE by default. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.
 
 **Disadvantages:**
 
@@ -183,7 +183,7 @@ P2P networks do not use servers, as users communicate directly between each othe
 - Messages can only be sent when both peers are online, however, your client may store messages locally to wait for the contact to return online.
 - Generally increases battery usage on mobile devices, because the client must stay connected to the distributed network to learn about who is online.
 - Some common messenger features may not be implemented or incompletely, such as message deletion.
-- Your [IP address](https://en.wikipedia.org/wiki/IP_address) and that of the contacts you're communicating with may be exposed if you do not use the software in conjunction with a [VPN](vpn.md) or [self contained network](self-contained-networks.md), such as [Tor](https://www.torproject.org) or [I2P](https://geti2p.net/). Many countries have some form of mass surveillance and/or metadata retention.
+- Your IP address and that of the contacts you're communicating with may be exposed if you do not use the software in conjunction with a [VPN](vpn.md) or [self contained network](self-contained-networks.md), such as [Tor](https://www.torproject.org) or [I2P](https://geti2p.net/). Many countries have some form of mass surveillance and/or metadata retention.
 
 ### Anonymous Routing
 
@@ -207,3 +207,5 @@ Self-hosting a node in an anonymous routing network does not provide the hoster 
 - Less reliable if nodes are selected by randomized routing, some nodes may be very far from the sender and receiver, adding latency or even failing to transmit messages if one of the nodes goes offline.
 - More complex to get started as the creation and secured backup of a cryptographic private key is required.
 - Just like other decentralized platforms, adding features is more complex for developers than on a centralized platform, hence features may be lacking or incompletely implemented, such as offline message relaying or message deletion.
+
+--8<-- "includes/abbreviations.en.md"

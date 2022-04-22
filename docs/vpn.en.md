@@ -368,3 +368,5 @@ For use cases like these, or if you have another compelling reason, the VPN prov
 - [NordVPN HTTP POST bug exposed customer information, no authentication required](https://www.zdnet.com/article/nordvpn-http-post-bug-exposed-sensitive-customer-information/) March 2020
 - [Row erupts over who to blame after NordVPN says: One of our servers was hacked via remote management tool](https://www.theregister.com/2019/10/21/nordvpn_security_issue/) October 2019
 - [VPN servers seized by Ukrainian authorities weren't encrypted and allowed authorities to impersonate Windscribe servers and capture and decrypt traffic passing through them](https://arstechnica.com/gadgets/2021/07/vpn-servers-seized-by-ukrainian-authorities-werent-encrypted/) July 2021
+
+--8<-- "includes/abbreviations.en.md"

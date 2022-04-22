@@ -11,4 +11,8 @@ files:
   translation: "/theme/overrides/%file_name%.%locale_with_underscore%.html"
   translation_replace:
     "en.": ""
+- source: "/includes/*.en.md"
+  translation: "/includes/%file_name%.%locale_with_underscore%.md"
+  translation_replace:
+    "en.": ""
   update_option: update_as_unapproved

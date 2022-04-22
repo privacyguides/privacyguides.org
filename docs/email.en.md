@@ -7,7 +7,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
 !!! warning
 
-    When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have some metadata that is not encrypted in the header of the email. Read more about email metadata.
+    When using E2EE technology like OpenPGP, email will still have some metadata that is not encrypted in the header of the email. Read more about email metadata.
 
     OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. How do I protect my private keys?
 
@@ -43,7 +43,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
 ??? check "Account Security"
 
-    ProtonMail supports [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm) [two factor authentication](https://protonmail.com/support/knowledge-base/two-factor-authentication/) only. The use of a [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) security key is not yet supported. ProtonMail is planning to implement U2F upon completion of their [Single Sign On (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/) code.
+    ProtonMail supports TOTP [two factor authentication](https://protonmail.com/support/knowledge-base/two-factor-authentication/) only. The use of a U2F security key is not yet supported. ProtonMail is planning to implement U2F upon completion of their [Single Sign On (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/) code.
 
 ??? check "Data Security"
 
@@ -85,7 +85,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
 ??? check "Account Security"
 
-    Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm) or a [Yubikey](https://en.wikipedia.org/wiki/YubiKey) via the [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
+    Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [Yubikey](https://en.wikipedia.org/wiki/YubiKey) via the [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
 
 ??? info "Data Security"
 
@@ -130,11 +130,11 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
 ??? check "Account Security"
 
-    Disroot supports [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm) two factor authentication for webmail only. They do not allow [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) security key authentication.
+    Disroot supports TOTP two factor authentication for webmail only. They do not allow U2F security key authentication.
 
 ??? warning "Data Security"
 
-    Disroot uses full disk encryption. However, it doesn't appear to be "zero access", meaning it is technically possible for them to decrypt the data they have if it is not additionally encrypted with a tool like OpenPGP.
+    Disroot uses FDE. However, it doesn't appear to be "zero access", meaning it is technically possible for them to decrypt the data they have if it is not additionally encrypted with a tool like OpenPGP.
 
     Disroot also uses the standard [CalDAV](https://en.wikipedia.org/wiki/CalDAV) and [CardDAV](https://en.wikipedia.org/wiki/CardDAV) protocols for calendars and contacts, which do not support E2EE. A [standalone option](calendar-contacts.md) may be more appropriate.
 
@@ -163,7 +163,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     [Visit Tutanota.com](https://tutanota.com){ .md-button .md-button--primary }
 
-Tutanota [doesn't allow](https://tutanota.com/faq/#imap) the use of third-party [email clients](email-clients.md). Tutanota has no plans pull email from [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) using the [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) protocol. [Email import](https://github.com/tutao/tutanota/issues/630) is currently not possible.
+Tutanota [doesn't allow](https://tutanota.com/faq/#imap) the use of third-party [email clients](email-clients.md). Tutanota has no plans pull email from [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) using the IMAP protocol. [Email import](https://github.com/tutao/tutanota/issues/630) is currently not possible.
 
 Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail). Tutanota does not allow for [subfolders](https://github.com/tutao/tutanota/issues/927) as you might expect with other email providers.
 
@@ -179,7 +179,7 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
 ??? check "Account Security"
 
-    Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa). Users can either use [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm) or [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor). U2F support is [not yet available on Android](https://github.com/tutao/tutanota/issues/443).
+    Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa). Users can either use TOTP or U2F. U2F support is [not yet available on Android](https://github.com/tutao/tutanota/issues/443).
 
 ??? check "Data Security"
 
@@ -224,7 +224,7 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
 ??? check "Account Security"
 
-    StartMail supports [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm) two factor authentication [for webmail only](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). They do not allow [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) security key authentication.
+    StartMail supports TOTP two factor authentication [for webmail only](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). They do not allow U2F security key authentication.
 
 ??? info "Data Security"
 
@@ -267,7 +267,7 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
 ??? check "Account Security"
 
-    CTemplar supports [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm) two factor authentication [for webmail only](https://ctemplar.com/help/answer/setting-up-two-factor-authentication-2fa/). They do not allow [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) security key authentication.
+    CTemplar supports TOTP two factor authentication [for webmail only](https://ctemplar.com/help/answer/setting-up-two-factor-authentication-2fa/). They do not allow U2F security key authentication.
 
 ??? check "Data Security"
 
@@ -315,7 +315,7 @@ We regard these features as important in order to provide a safe and optimal ser
 **Minimum to Qualify:**
 
 - Encrypts account data at rest.
-- Integrated webmail encryption provides convenience to users who want improve on having no [E2EE](https://en.wikipedia.org/wiki/End-to-end_encryption) encryption.
+- Integrated webmail encryption provides convenience to users who want improve on having no E2EE.
 
 **Best Case:**
 
@@ -327,7 +327,7 @@ We regard these features as important in order to provide a safe and optimal ser
 - Availability of the email provider's services via an [onion service](https://en.wikipedia.org/wiki/.onion).
 - [Subaddressing](https://en.wikipedia.org/wiki/Email_address#Subaddressing) support.
 - [Catch all](https://en.wikipedia.org/wiki/Email_filtering) or [aliases](https://en.wikipedia.org/wiki/Email_alias) for users who own their own domains.
-- Use of standard email access protocols such as [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol), [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
+- Use of standard email access protocols such as IMAP, SMTP or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 
 ### Privacy
 
@@ -349,7 +349,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 
 **Minimum to Qualify:**
 
-- Protection of webmail with [two-factor authentication (2FA)](https://en.wikipedia.org/wiki/Multi-factor_authentication), such as [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm).
+- Protection of webmail with 2FA, such as TOTP.
 - Encryption at rest, (e.g. [dm-crypt](https://en.wikipedia.org/wiki/dm-crypt)) this protects the contents of the servers in case of unlawful seizure.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
 - No [TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS) errors/vulnerabilities when being profiled by tools such as [Hardenize](https://www.hardenize.com), [testssl.sh](https://testssl.sh) or [Qualys SSL Labs](https://www.ssllabs.com/ssltest), this includes certificate related errors, poor or weak ciphers suites, weak DH parameters such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
@@ -366,7 +366,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 
 **Best Case:**
 
-- Support for hardware authentication, ie [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate users, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
+- Support for hardware authentication, ie U2F and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate users, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
 - Zero access encryption, builds on encryption at rest. The difference being the provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
 - Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), this is useful for users who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
@@ -415,9 +415,9 @@ While not strictly requirements, there are some other convenience or privacy fac
 
 ## Email Encryption Overview
 
-### What is end-to-end encryption (E2EE) encryption in email?
+### What is end-to-end encryption (E2EE) in email?
 
-[End-to-end encryption (E2EE)](https://en.wikipedia.org/wiki/End-to-end_encryption) is a way of encrypting email contents so that nobody but the recipient(s) can read the email message.
+E2EE is a way of encrypting email contents so that nobody but the recipient(s) can read the email message.
 
 ### How can I encrypt my email?
 
@@ -427,7 +427,7 @@ There is another standard that was popular with business called [S/MIME](https:/
 
 ### What software can I use to get E2EE?
 
-Email providers which allow you to use standard access protocols like [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) and [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) can be used with any of the [email clients we recommend](email-clients.md). This can be less secure as you are now relying on email providers to ensure that their encryption implementation works and has not been compromised in anyway.
+Email providers which allow you to use standard access protocols like IMAP and SMTP can be used with any of the [email clients we recommend](email-clients.md). This can be less secure as you are now relying on email providers to ensure that their encryption implementation works and has not been compromised in anyway.
 
 ### How do I protect my private keys?
 
@@ -504,3 +504,5 @@ For a more manual approach we've picked out these two articles.
 - [An NFC PGP SmartCard For Android](https://www.grepular.com/An_NFC_PGP_SmartCard_For_Android)
 - [Aging 'Privacy' Law Leaves Cloud E-Mail Open to Cops (2011)](https://www.wired.com/2011/10/ecpa-turns-twenty-five/)
 - [The Government Can (Still) Read Most Of Your Emails Without A Warrant (2013)](https://thinkprogress.org/the-government-can-still-read-most-of-your-emails-without-a-warrant-322fe6defc7b/)
+
+--8<-- "includes/abbreviations.en.md"

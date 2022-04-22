@@ -199,7 +199,7 @@ We strongly recommend **against** using the Linux-libre kernel, since it [remove
 
 ### Drive Encryption
 
-Most Linux distributions have an installer option for enabling [Linux Unified Key Setup (LUKS)](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) encryption upon installation.
+Most Linux distributions have an installer option for enabling [LUKS](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) FDE upon installation.
 
 If this option isn’t set at installation time, the user will have to backup their data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning) but before [file systems](https://en.wikipedia.org/wiki/File_system) are [formatted](https://en.wikipedia.org/wiki/Disk_formatting).
 
