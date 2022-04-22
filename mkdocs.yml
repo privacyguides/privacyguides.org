@@ -115,7 +115,7 @@ nav:
       - 'threat-modeling.md'
       - 'technology/dns.md'
       - 'security/multi-factor-authentication.md'
-    - 'Mobile Devices':
+    - 'Android':
       - 'android/overview.md'
       - 'android/security.md'
       - 'android/grapheneos-vs-calyxos.md'

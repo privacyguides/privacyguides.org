@@ -33,6 +33,7 @@
 *[P2P]: Peer-to-Peer
 *[QNAME]: Qualified Name
 *[SaaS]: Software as a Service (cloud software)
+*[SELinux]: Security-Enhanced Linux
 *[SMS]: Short Message Service (standard text messaging)
 *[SMTP]: Simple Mail Transfer Protocol
 *[SNI]: Server Name Indication

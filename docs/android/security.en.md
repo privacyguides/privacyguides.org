@@ -1,5 +1,5 @@
 ---
-title: "Android Security and Privacy Features"
+title: "Security and Privacy Features"
 icon: 'material/cellphone-lock'
 ---
 
