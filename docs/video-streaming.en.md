@@ -79,20 +79,13 @@ You can  disable *Save hosting data to help the LBRY network* option (⚙️ Set
 
     NewPipe is available on the main [F-Droid](https://www.f-droid.org)'s repository. We recommend that you use NewPipe's own [F-Droid repository](https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo) instead to get faster updates.
 
-### NewPipe x SponsorBlock
+#### SponsorBlock
 
-!!! recommendation
+*NewPipe x SponsorBlock* is a fork of [NewPipe](https://newpipe.net) with [SponsorBlock](https://sponsor.ajay.app) integrated to help you skip sponsored advertisements.
 
-    ![NewPipe x SponsorBlock logo](assets/img/video-streaming/newpipe.svg){ align=right }
+It also has integration with [Return YouTube Dislike](https://returnyoutubedislike.com), and some experimental settings such as the ability to use the built-in player for local playback, an option to force fullscreen on landscape mode, and an option to disable error reporting prompts.
 
-    **NewPipe x SponsorBlock** is a fork of [NewPipe](https://newpipe.net) with [SponsorBlock](https://sponsor.ajay.app) integrated to help you skip sponsored advertisements.
-    It also has some experimental settings such as the ability to use the built-in player for local playback, an option to force fullscreen on landscape mode, and an option to disable error reporting prompts.
-
-    [Visit github.com](https://github.com/polymorphicshade/NewPipe){ .md-button .md-button--primary }
-
-    **Downloads**
-    - [:fontawesome-brands-android: F-Droid repo](https://apt.izzysoft.de/fdroid/index/apk/org.polymorphicshade.newpipe)
-    - [:fontawesome-brands-github: Source](https://github.com/polymorphicshade/NewPipe)
+- [github.com/polymorphicshade/NewPipe :material-arrow-right:](https://github.com/polymorphicshade/NewPipe)
 
 This fork is not endorsed by or affiliated with the upstream project. The NewPipe team has [rejected](https://github.com/TeamNewPipe/NewPipe/pull/3205) integration with SponsorBlock and thus this fork is created to provide this functionality.
 
