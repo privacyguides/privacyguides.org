@@ -233,7 +233,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ??? info "Operating System Disk Encryption"
 
-    For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are available out of the box and typically utilize hardware encryption elements such as a TPM that other full-disk encryption software like VeraCrypt will not. VeraCrypt is still suitable for non-operating system disks such as external drives, especially drives that may be accessed from multiple operating systems.
+    For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and typically utilize hardware encryption elements such as a TPM that other full-disk encryption software like VeraCrypt do not. VeraCrypt is still suitable for non-operating system disks such as external drives, especially drives that may be accessed from multiple operating systems.
 
     [Learn more :material-arrow-right:](encryption.md##operating-system-included-full-disk-encryption-fde)
 
