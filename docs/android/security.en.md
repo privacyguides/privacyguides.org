@@ -35,4 +35,45 @@ Android 7 and above supports a VPN killswitch and it is available without the ne
 
 Modern Android devices have global toggles for disabling Bluetooth and location services. Android 12 introduced toggles for the camera and microphone. When not in use, we recommend disabling these features. Apps cannot use disabled features (even if granted individual permission) until re-enabled.
 
+## Google
+
+If you are using a device with Google services, either your stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS, there are a number of additional changes you can make to improve your privacy. We still recommend avoiding Google services entirely, or limiting Google Play services to a specific user/work profile by combining a device controller like *Shelter* with GrapheneOS's Sandboxed Google Play.
+
+### Advanced Protection Program
+
+If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection/). It is available at no cost to anyone with two or more hardware security keys with [FIDO](/security/multi-factor-authentication.md#fido-fast-identity-online) support.
+
+The Advanced Protection Program provides enhanced threat monitoring and enables:
+
+- Stricter two factor authentication; e.g. that [FIDO](/security/multi-factor-authentication/#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](/security/multi-factor-authentication/#sms-or-email-mfa), [TOTP](/security/multi-factor-authentication.md#time-based-one-time-password-totp), and [OAuth](https://en.wikipedia.org/wiki/OAuth)
+- Only Google and verified third party apps can access account data
+- Scanning of incoming emails on Gmail accounts for [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing) attempts
+- Stricter [safe browser scanning](https://www.google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
+- Stricter recovery process for accounts with lost credentials
+
+ For users that are using the privileged Google Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949?hl=en) such as:
+
+- Not allowing app installation outside of the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
+- Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
+- Warning the user about unverified applications
+
+### Advertising ID
+
+All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248?hl=en) used for targeted advertising. Disable this feature to limit the data collected about you.
+
+On Android distributions with [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to ⚙️ Settings → Apps → Sandboxed Google Play → Google Settings → Ads and select **Delete advertising ID**.
+
+On Android distributions with privileged Google Play Services (such as stock OSes), the setting may be in one of several locations. Check
+
+- ⚙️ Settings → Google → Ads
+- ⚙️ Settings → Privacy → Ads
+
+Depending on your system, you will either be given the option to delete your advertising ID or to "Opt out of interest-based ads". You should delete the advertising ID if you are given the option to, and if you are not, we recommend that you opt out of interested-based ads and then reset your advertising ID.
+
+### SafetyNet and Play Integrity API
+
+[SafetyNet](https://developer.android.com/training/safetynet/attestation) and the [Play Integrity APIs](https://developer.android.com/google/play/integrity) are generally used for [banking apps](https://grapheneos.org/usage#banking-apps). Many banking apps will work fine in GrapheneOS with sandboxed Play services, however some non-financal apps have their own crude anti-tampering mechanisms which might fail. GrapheneOS passes the `basicIntegrity` check, but not the certification check `ctsProfileMatch`. Devices with Android 8 or later have hardware attestation support which cannot be bypassed without leaked keys or serious vulnerabilities.
+
+As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt-out if you don't want your credit rating and personal information shared with affiliate marketing services.
+
 --8<-- "includes/abbreviations.en.md"
