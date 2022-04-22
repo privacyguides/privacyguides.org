@@ -119,6 +119,10 @@ nav:
       - 'android/overview.md'
       - 'android/security.md'
       - 'android/grapheneos-vs-calyxos.md'
+    - 'Linux':
+      - 'linux-desktop/overview.md'
+      - 'linux-desktop/hardening.md'
+      - 'linux-desktop/sandboxing.md'
     - 'Advanced':
       - 'setup/integrating-metadata-removal.md'
   - 'Recommendations':
