@@ -6,7 +6,6 @@ icon: 'fontawesome/brands/android'
 These are the Android operating systems, devices, and apps we recommend to maximize your mobile device's security and privacy. We also have additional Android-related information:
 
 - [General Android Overview and Recommendations :material-arrow-right:](android/overview.md)
-- [Android Security and Privacy Features :material-arrow-right:](android/security.md)
 - [GrapheneOS vs CalyxOS Comparison :material-arrow-right:](android/grapheneos-vs-calyxos.md)
 
 ## AOSP Derivatives
@@ -157,9 +156,9 @@ While Fairphone markets their devices as receiving 6 years of support, the SOC (
         - [:fontawesome-brands-github: GitHub](https://github.com/guardianproject/orbot)
         - [:fontawesome-brands-gitlab: GitLab](https://gitlab.com/guardianproject/orbot)
 
-Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch (⚙️ Settings → Network & internet → VPN → ⚙️ → Block connections without VPN).
+Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch (:gear: Settings → Network & internet → VPN → :gear: → Block connections without VPN).
 
-For resistance against traffic analysis attacks, consider enabling *Isolate Destination Address* ( ⁝ →Settings → Connectivity). This will use a completely different Tor Circuit (different middle relay and exit nodes) for every domain you connect to.
+For resistance against traffic analysis attacks, consider enabling *Isolate Destination Address* ( :material-menu: →Settings → Connectivity). This will use a completely different Tor Circuit (different middle relay and exit nodes) for every domain you connect to.
 
 !!! attention
 

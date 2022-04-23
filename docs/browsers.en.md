@@ -56,7 +56,7 @@ These are our current web browser recommendations and settings. We recommend kee
 
 #### Recommended Configuration
 
-These options can be found in the *Privacy & Security* settings page ( ≡ → Settings → Privacy & Security).
+These options can be found in the *Privacy & Security* settings page ( :material-menu: → Settings → Privacy & Security).
 
 **Enhanced Tracking Protection (ETP):**
 
@@ -101,7 +101,7 @@ The [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) serv
 
 #### Extensions
 
-We generally do not recommend installing any extensions as they increase your [attack surface](https://en.wikipedia.org/wiki/Attack_surface); however, if you want content blocking, [uBlock Origin](#additional-resources) might be useful to you. The extension is also a 🏆️ [Recommended Extension](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) by Mozilla.
+We generally do not recommend installing any extensions as they increase your [attack surface](https://en.wikipedia.org/wiki/Attack_surface); however, if you want content blocking, [uBlock Origin](#additional-resources) might be useful to you. The extension is also a :trophy: [Recommended Extension](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) by Mozilla.
 
 #### Arkenfox (advanced)
 
@@ -128,7 +128,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
         - [:fontawesome-brands-android: Android](https://www.bromite.org/fdroid)
         - [:fontawesome-brands-github: Source](https://github.com/bromite/bromite)
 
-These options can be found in *Privacy and Security* ( ⁝ → ⚙️ Settings → Privacy and Security).
+These options can be found in *Privacy and Security* ( :material-menu: → :gear: Settings → Privacy and Security).
 
 **HTTPS-Only Mode:**
 
@@ -156,7 +156,7 @@ These options can be found in *Privacy and Security* ( ⁝ → ⚙️ Settings �
 
 #### Recommended Configuration
 
-These options can be found in *Privacy and Security* (⚙️ Settings → Safari → Privacy and Security).
+These options can be found in *Privacy and Security* (:gear: Settings → Safari → Privacy and Security).
 
 **Cross-Site Tracking Prevention:**
 
@@ -196,7 +196,7 @@ Open Safari and press the tabs icon in the bottom right corner. Open Tab Groups,
 
 While synchronization of Safari History, Tab Groups, and iCloud Tabs uses E2EE, bookmarks sync does [not](https://support.apple.com/en-us/HT202303); they are only encrypted in transit and stored in an encrypted format on Apple's servers. Apple may be able to decrypt and access them.
 
-If you use iCloud, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in *General* (⚙️ Settings → Safari → General → Downloads).
+If you use iCloud, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in *General* (:gear: Settings → Safari → General → Downloads).
 
 #### Extensions
 
@@ -224,7 +224,7 @@ We generally do not recommend installing [any extensions](https://www.sentinelon
         - [:fontawesome-brands-opera: Opera](https://addons.opera.com/extensions/details/ublock)
         - [:fontawesome-brands-github: Source](https://github.com/gorhill/uBlock)
 
-We also suggest adding the [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt) list and any of the regional lists that might apply to your browsing habits. To add this list, first access settings by clicking on the uBO icon, then the settings icon (⚙️). Go to the bottom of the Filter lists pane and place a checkmark next to Import under the Custom section. Paste the URL of the filter list above into the text area that appears below and click "Apply changes".
+We also suggest adding the [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt) list and any of the regional lists that might apply to your browsing habits. To add this list, first access settings by clicking on the uBO icon, then the settings icon (:gear:). Go to the bottom of the Filter lists pane and place a checkmark next to Import under the Custom section. Paste the URL of the filter list above into the text area that appears below and click "Apply changes".
 
 Additional filter lists do slow things down and may increase your [attack surface](https://en.wikipedia.org/wiki/Attack_surface), so only apply what you need.
 

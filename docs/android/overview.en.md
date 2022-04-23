@@ -68,7 +68,7 @@ Unfortunately, OEMs are only obliged to support Verified Boot on their stock And
 
 ## VPN Killswitch
 
-Android 7 and above supports a VPN killswitch and it is available without the need to install third party apps. This feature can prevent leaks if the VPN is disconnected. It can be found in ⚙️ Settings → Network & internet → VPN → ⚙️ → Block connections without VPN.
+Android 7 and above supports a VPN killswitch and it is available without the need to install third party apps. This feature can prevent leaks if the VPN is disconnected. It can be found in :gear: Settings → Network & internet → VPN → :gear: → Block connections without VPN.
 
 ## Global Toggles
 
@@ -100,12 +100,12 @@ The Advanced Protection Program provides enhanced threat monitoring and enables:
 
 All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248?hl=en) used for targeted advertising. Disable this feature to limit the data collected about you.
 
-On Android distributions with [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to ⚙️ Settings → Apps → Sandboxed Google Play → Google Settings → Ads and select **Delete advertising ID**.
+On Android distributions with [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to :gear: Settings → Apps → Sandboxed Google Play → Google Settings → Ads and select **Delete advertising ID**.
 
 On Android distributions with privileged Google Play Services (such as stock OSes), the setting may be in one of several locations. Check
 
-- ⚙️ Settings → Google → Ads
-- ⚙️ Settings → Privacy → Ads
+- :gear: Settings → Google → Ads
+- :gear: Settings → Privacy → Ads
 
 Depending on your system, you will either be given the option to delete your advertising ID or to "Opt out of interest-based ads". You should delete the advertising ID if you are given the option to, and if you are not, we recommend that you opt out of interested-based ads and then reset your advertising ID.
 
