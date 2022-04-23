@@ -18,8 +18,9 @@ Below are a few alternative operating systems, that can be used on routers, Wi-F
 
     [Visit openwrt.org](https://openwrt.org){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-git: Source](https://git.openwrt.org)
+    ??? downloads
+
+        - [:fontawesome-brands-git: Source](https://git.openwrt.org)
 
 ### pfSense
 
@@ -32,7 +33,8 @@ Below are a few alternative operating systems, that can be used on routers, Wi-F
 
     [Visit pfsense.org](https://www.pfsense.org){ .md-button .md-button--primary } [Privacy Policy](https://www.pfsense.org/privacy.html){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-github: Source](https://github.com/pfsense)
+    ??? downloads
+
+        - [:fontawesome-brands-github: Source](https://github.com/pfsense)
 
 --8<-- "includes/abbreviations.en.md"

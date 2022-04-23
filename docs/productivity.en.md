@@ -16,17 +16,18 @@ Get working and collaborating without sharing your documents with a middleman or
 
     [Visit libreoffice.org](https://www.libreoffice.org){ .md-button .md-button--primary } [Privacy Policy](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://www.libreoffice.org/download/download/)
-    - [:fontawesome-brands-apple: macOS](https://www.libreoffice.org/download/download/)
-    - [:fontawesome-brands-linux: Linux](https://www.libreoffice.org/download/download/)
-    - [:pg-flathub: Flatpak](https://www.libreoffice.org/download/download/)
-    - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/editors/libreoffice/)
-    - [:pg-openbsd: OpenBSD](https://openports.se/editors/libreoffice)
-    - [:pg-netbsd: NetBSD](https://pkgsrc.se/misc/libreoffice)
-    - [:fontawesome-brands-google-play: Google Play](https://www.libreoffice.org/download/android-and-ios/)
-    - [:fontawesome-brands-app-store-ios: App Store](https://www.libreoffice.org/download/android-and-ios/)
-    - [:fontawesome-brands-git: Source](https://www.libreoffice.org/about-us/source-code)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://www.libreoffice.org/download/download/)
+        - [:fontawesome-brands-apple: macOS](https://www.libreoffice.org/download/download/)
+        - [:fontawesome-brands-linux: Linux](https://www.libreoffice.org/download/download/)
+        - [:pg-flathub: Flatpak](https://www.libreoffice.org/download/download/)
+        - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/editors/libreoffice/)
+        - [:pg-openbsd: OpenBSD](https://openports.se/editors/libreoffice)
+        - [:pg-netbsd: NetBSD](https://pkgsrc.se/misc/libreoffice)
+        - [:fontawesome-brands-google-play: Google Play](https://www.libreoffice.org/download/android-and-ios/)
+        - [:fontawesome-brands-app-store-ios: App Store](https://www.libreoffice.org/download/android-and-ios/)
+        - [:fontawesome-brands-git: Source](https://www.libreoffice.org/about-us/source-code)
 
 ### OnlyOffice
 
@@ -38,14 +39,15 @@ Get working and collaborating without sharing your documents with a middleman or
 
     [Visit onlyoffice.com](https://www.onlyoffice.com){ .md-button .md-button--primary } [Privacy Policy](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://www.onlyoffice.com/download-desktop.aspx?from=default)
-    - [:fontawesome-brands-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx?from=default)
-    - [:fontawesome-brands-linux: Linux](https://www.libreoffice.org/download/download/)
-    - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/www/onlyoffice-documentserver/)
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/onlyoffice-documents/id944896972)
-    - [:fontawesome-brands-github: Source](https://github.com/ONLYOFFICE)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://www.onlyoffice.com/download-desktop.aspx?from=default)
+        - [:fontawesome-brands-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx?from=default)
+        - [:fontawesome-brands-linux: Linux](https://www.libreoffice.org/download/download/)
+        - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/www/onlyoffice-documentserver/)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/onlyoffice-documents/id944896972)
+        - [:fontawesome-brands-github: Source](https://github.com/ONLYOFFICE)
 
 ## Planning
 
@@ -59,8 +61,9 @@ Get working and collaborating without sharing your documents with a middleman or
 
     [Visit framadate.org](https://framadate.org){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-gitlab: Source](https://framagit.org/framasoft/framadate)
+    ??? downloads
+
+        - [:fontawesome-brands-gitlab: Source](https://framagit.org/framasoft/framadate)
 
 ## Paste services
 
@@ -74,8 +77,9 @@ Get working and collaborating without sharing your documents with a middleman or
 
     [Visit privatebin.info](https://privatebin.info){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-github: Source](https://github.com/PrivateBin/PrivateBin)
+    ??? downloads
+
+        - [:fontawesome-brands-github: Source](https://github.com/PrivateBin/PrivateBin)
 
 Do note that PrivateBin uses JavaScript to handle encryption, so you must trust the provider to the extent that they do not inject any malicious JavaScript to get your private key. Consider self-hosting to mitigate this threat.
 
@@ -89,8 +93,9 @@ Do note that PrivateBin uses JavaScript to handle encryption, so you must trust 
 
     [Visit cryptpad.fr](https://cryptpad.fr){ .md-button .md-button--primary } [Privacy Policy](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-github: Source](https://github.com/xwiki-labs/cryptpad)
+    ??? downloads
+
+        - [:fontawesome-brands-github: Source](https://github.com/xwiki-labs/cryptpad)
 
 ## Blogging
 
@@ -105,14 +110,15 @@ Do note that PrivateBin uses JavaScript to handle encryption, so you must trust 
 
     [Visit write.as](https://write.as){ .md-button .md-button--primary } [:pg-tor:](http://writeasw4b635r4o3vec6mu45s47ohfyro5vayzx2zjwod4pjswyovyd.onion){ .md-button } [Privacy Policy](https://write.as/privacy){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://github.com/writeas/writeas-cli)
-    - [:fontawesome-brands-apple: macOS](https://github.com/writeas/writeas-cli)
-    - [:fontawesome-brands-linux: Linux](https://github.com/writeas/writeas-cli)
-    - [:fontawesome-brands-freebsd: FreeBSD](https://write.as/apps)
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.abunchtell.writeas)
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1531530896)
-    - [:fontawesome-brands-git: Source](https://code.as/writeas)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://github.com/writeas/writeas-cli)
+        - [:fontawesome-brands-apple: macOS](https://github.com/writeas/writeas-cli)
+        - [:fontawesome-brands-linux: Linux](https://github.com/writeas/writeas-cli)
+        - [:fontawesome-brands-freebsd: FreeBSD](https://write.as/apps)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.abunchtell.writeas)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1531530896)
+        - [:fontawesome-brands-git: Source](https://code.as/writeas)
 
 ## Programming
 
@@ -126,8 +132,9 @@ Do note that PrivateBin uses JavaScript to handle encryption, so you must trust 
 
     [Visit vscodium.com](https://vscodium.com){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://vscodium.com/#install)
-    - [:fontawesome-brands-apple: macOS](https://vscodium.com/#install)
-    - [:fontawesome-brands-linux: Linux](https://vscodium.com/#install)
-    - [:fontawesome-brands-github: Source](https://github.com/VSCodium/vscodium)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://vscodium.com/#install)
+        - [:fontawesome-brands-apple: macOS](https://vscodium.com/#install)
+        - [:fontawesome-brands-linux: Linux](https://vscodium.com/#install)
+        - [:fontawesome-brands-github: Source](https://github.com/VSCodium/vscodium)

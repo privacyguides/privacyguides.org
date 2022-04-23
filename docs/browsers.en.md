@@ -18,14 +18,15 @@ These are our current web browser recommendations and settings. We recommend kee
 
     [Visit torproject.org](https://www.torproject.org){ .md-button .md-button--primary } [:pg-tor:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .md-button } [Privacy Policy](https://support.torproject.org/tbb/tbb-3/){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://www.torproject.org/download/)
-    - [:fontawesome-brands-apple: macOS](https://www.torproject.org/download/)
-    - [:fontawesome-brands-linux: Linux](https://www.torproject.org/download/)
-    - [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.github.micahflee.torbrowser-launcher)
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-    - [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid/)
-    - [:fontawesome-brands-git: Source](https://trac.torproject.org/projects/tor)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://www.torproject.org/download/)
+        - [:fontawesome-brands-apple: macOS](https://www.torproject.org/download/)
+        - [:fontawesome-brands-linux: Linux](https://www.torproject.org/download/)
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.github.micahflee.torbrowser-launcher)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
+        - [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid/)
+        - [:fontawesome-brands-git: Source](https://trac.torproject.org/projects/tor)
 
 !!! warning
     You should **never** install any additional extensions on Tor Browser, including the ones we suggest for Firefox. Browser extensions make you stand out from other Tor users and your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
@@ -42,12 +43,13 @@ These are our current web browser recommendations and settings. We recommend kee
 
     [Visit firefox.com](https://firefox.com){ .md-button .md-button--primary } [Privacy Policy](https://www.mozilla.org/privacy/firefox){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://www.mozilla.org/firefox/windows)
-    - [:fontawesome-brands-apple: macOS](https://www.mozilla.org/firefox/mac)
-    - [:fontawesome-brands-linux: Linux](https://www.mozilla.org/firefox/linux)
-    - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.firefox)
-    - [:fontawesome-brands-git: Source](https://hg.mozilla.org/mozilla-central)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://www.mozilla.org/firefox/windows)
+        - [:fontawesome-brands-apple: macOS](https://www.mozilla.org/firefox/mac)
+        - [:fontawesome-brands-linux: Linux](https://www.mozilla.org/firefox/linux)
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.firefox)
+        - [:fontawesome-brands-git: Source](https://hg.mozilla.org/mozilla-central)
 
 !!! warning
     Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
@@ -121,9 +123,10 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
     [Visit bromite.org](https://www.bromite.org){ .md-button .md-button--primary } [Privacy Policy](https://www.bromite.org/privacy){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-android: Android](https://www.bromite.org/fdroid)
-    - [:fontawesome-brands-github: Source](https://github.com/bromite/bromite)
+    ??? downloads
+
+        - [:fontawesome-brands-android: Android](https://www.bromite.org/fdroid)
+        - [:fontawesome-brands-github: Source](https://github.com/bromite/bromite)
 
 These options can be found in *Privacy and Security* ( ⁝ → ⚙️ Settings → Privacy and Security).
 
@@ -213,12 +216,13 @@ We generally do not recommend installing [any extensions](https://www.sentinelon
 
     [Visit github.com](https://github.com/gorhill/uBlock){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin)
-    - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-    - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
-    - [:fontawesome-brands-opera: Opera](https://addons.opera.com/extensions/details/ublock)
-    - [:fontawesome-brands-github: Source](https://github.com/gorhill/uBlock)
+    ??? downloads
+    
+        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin)
+        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+        - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+        - [:fontawesome-brands-opera: Opera](https://addons.opera.com/extensions/details/ublock)
+        - [:fontawesome-brands-github: Source](https://github.com/gorhill/uBlock)
 
 We also suggest adding the [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt) list and any of the regional lists that might apply to your browsing habits. To add this list, first access settings by clicking on the uBO icon, then the settings icon (⚙️). Go to the bottom of the Filter lists pane and place a checkmark next to Import under the Custom section. Paste the URL of the filter list above into the text area that appears below and click "Apply changes".
 
@@ -238,10 +242,11 @@ uBlock Origin also has different [blocking modes](https://github.com/gorhill/uBl
 
     [Visit adguard.com](https://adguard.com/en/adguard-safari/overview.html){ .md-button .md-button--primary } [Privacy Policy](https://adguard.com/en/privacy/safari.html){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-safari: Safari](https://apps.apple.com/app/adguard-for-safari/id1440147259)
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/apple-store/id1047223162)
-    - [:fontawesome-brands-git: Source](https://github.com/AdguardTeam/AdGuardForSafari)
+    ??? downloads
+    
+        - [:fontawesome-brands-safari: Safari](https://apps.apple.com/app/adguard-for-safari/id1440147259)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+        - [:fontawesome-brands-git: Source](https://github.com/AdguardTeam/AdGuardForSafari)
 
 Additional filter lists do slow things down and may increase your [attack surface](https://en.wikipedia.org/wiki/Attack_surface), so only apply what you need.
 

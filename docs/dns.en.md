@@ -87,10 +87,11 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](te
 
     [Visit rethinkdns.com](https://rethinkdns.com){ .md-button .md-button--primary } [Privacy Policy](https://rethinkdns.com/privacy){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
-    - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.celzero.bravedns)
-    - [:fontawesome-brands-github: Source](https://github.com/celzero/rethink-app)
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.celzero.bravedns)
+        - [:fontawesome-brands-github: Source](https://github.com/celzero/rethink-app)
 
 ### DNSCloak
 
@@ -102,9 +103,10 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](te
 
     [Visit github.com](https://github.com/s-s/dnscloak/blob/master/README.md){ .md-button .md-button--primary } [Privacy Policy](https://drive.google.com/file/d/1050No_pU74CAWUS5-BwQWyO2x_aiMzWc/view){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1452162351)
-    - [:fontawesome-brands-github: Source](https://github.com/s-s/dnscloak)
+    ??? downloads
+
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1452162351)
+        - [:fontawesome-brands-github: Source](https://github.com/s-s/dnscloak)
 
 ### dnscrypt-proxy
 
@@ -116,8 +118,9 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](te
 
     [Visit github.com](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .md-button .md-button--primary } [Privacy Policy](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-github: Source](https://github.com/DNSCrypt/dnscrypt-proxy)
+    ??? downloads
+
+        - [:fontawesome-brands-github: Source](https://github.com/DNSCrypt/dnscrypt-proxy)
 
 !!! warning "The anonymized DNS feature does [**not**](technology/dns.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic."
 

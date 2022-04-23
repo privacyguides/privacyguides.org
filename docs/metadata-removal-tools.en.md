@@ -18,12 +18,13 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     [Visit 0xacab.org](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
-    - [:fontawesome-brands-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
-    - [:fontawesome-brands-linux: Linux](https://pypi.org/project/mat2)
-    - [:fontawesome-solid-earth-americas: Web](https://0xacab.org/jvoisin/mat2#web-interface)
-    - [:fontawesome-brands-gitlab: Source](https://0xacab.org/jvoisin/mat2)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
+        - [:fontawesome-brands-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
+        - [:fontawesome-brands-linux: Linux](https://pypi.org/project/mat2)
+        - [:fontawesome-solid-earth-americas: Web](https://0xacab.org/jvoisin/mat2#web-interface)
+        - [:fontawesome-brands-gitlab: Source](https://0xacab.org/jvoisin/mat2)
 
 ### ExifCleaner
 
@@ -35,11 +36,12 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     [Visit exifcleaner.com](https://exifcleaner.com){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://github.com/szTheory/exifcleaner/releases)
-    - [:fontawesome-brands-apple: macOS](https://github.com/szTheory/exifcleaner/releases)
-    - [:fontawesome-brands-linux: Linux](https://github.com/szTheory/exifcleaner/releases)
-    - [:fontawesome-brands-github: Source](https://github.com/szTheory/exifcleaner)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://github.com/szTheory/exifcleaner/releases)
+        - [:fontawesome-brands-apple: macOS](https://github.com/szTheory/exifcleaner/releases)
+        - [:fontawesome-brands-linux: Linux](https://github.com/szTheory/exifcleaner/releases)
+        - [:fontawesome-brands-github: Source](https://github.com/szTheory/exifcleaner)
 
 ## Mobile
 
@@ -53,10 +55,11 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     [Visit gitlab.com](https://gitlab.com/juanitobananas/scrambled-exif){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.jarsilio.android.scrambledeggsif)
-    - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.jarsilio.android.scrambledeggsif)
-    - [:fontawesome-brands-gitlab: Source](https://gitlab.com/juanitobananas/scrambled-exif)
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.jarsilio.android.scrambledeggsif)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.jarsilio.android.scrambledeggsif)
+        - [:fontawesome-brands-gitlab: Source](https://gitlab.com/juanitobananas/scrambled-exif)
 
 ### Imagepipe
 
@@ -72,9 +75,10 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     [Visit codeberg.org](https://codeberg.org/Starfish/Imagepipe){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.kaffeemitkoffein.imagepipe/)
-    - [:fontawesome-brands-git: Source](https://codeberg.org/Starfish/Imagepipe)
+    ??? downloads
+
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.kaffeemitkoffein.imagepipe/)
+        - [:fontawesome-brands-git: Source](https://codeberg.org/Starfish/Imagepipe)
 
 ### Metapho
 
@@ -90,8 +94,9 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     [Visit zininworks.com](https://zininworks.com/metapho){ .md-button .md-button--primary } [Privacy Policy](https://zininworks.com/privacy/){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/metapho/id914457352)
+    ??? downloads
+
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/metapho/id914457352)
 
 ## Command-line
 
@@ -107,12 +112,13 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     [Visit exiftool.org](https://exiftool.org){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://exiftool.org)
-    - [:fontawesome-brands-apple: macOS](https://exiftool.org)
-    - [:fontawesome-brands-linux: Linux](https://exiftool.org)
-    - [:fontawesome-brands-git: Source](https://sourceforge.net/projects/exiftool)
-    - [:fontawesome-brands-github: Source](https://github.com/exiftool/exiftool)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://exiftool.org)
+        - [:fontawesome-brands-apple: macOS](https://exiftool.org)
+        - [:fontawesome-brands-linux: Linux](https://exiftool.org)
+        - [:fontawesome-brands-git: Source](https://sourceforge.net/projects/exiftool)
+        - [:fontawesome-brands-github: Source](https://github.com/exiftool/exiftool)
 
 To delete data from a directory of files:
 

@@ -16,11 +16,12 @@ Discover how to privately share your files between your devices, with your frien
 
     [Visit onionshare.org](https://onionshare.org){ .md-button .md-button--primary } [:pg-tor:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://onionshare.org/#download)
-    - [:fontawesome-brands-apple: macOS](https://onionshare.org/#download)
-    - [:fontawesome-brands-linux: Linux](https://onionshare.org/#download)
-    - [:fontawesome-brands-github: Source](https://github.com/onionshare/onionshare)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://onionshare.org/#download)
+        - [:fontawesome-brands-apple: macOS](https://onionshare.org/#download)
+        - [:fontawesome-brands-linux: Linux](https://onionshare.org/#download)
+        - [:fontawesome-brands-github: Source](https://github.com/onionshare/onionshare)
 
 ### Magic Wormhole
 
@@ -32,11 +33,12 @@ Discover how to privately share your files between your devices, with your frien
 
     [Visit magic-wormhole.readthedocs.io](https://magic-wormhole.readthedocs.io){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation)
-    - [:fontawesome-brands-apple: macOS](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#macos-os-x)
-    - [:fontawesome-brands-linux: Linux](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation)
-    - [:fontawesome-brands-github: Source](https://github.com/magic-wormhole/magic-wormhole)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation)
+        - [:fontawesome-brands-apple: macOS](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#macos-os-x)
+        - [:fontawesome-brands-linux: Linux](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation)
+        - [:fontawesome-brands-github: Source](https://github.com/magic-wormhole/magic-wormhole)
 
 ## FreedomBox
 
@@ -48,8 +50,9 @@ Discover how to privately share your files between your devices, with your frien
 
     [Visit freedombox.org](https://freedombox.org){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-git: Source](https://salsa.debian.org/freedombox-team/freedombox)
+    ??? downloads
+
+        - [:fontawesome-brands-git: Source](https://salsa.debian.org/freedombox-team/freedombox)
 
 ## File Sync
 
@@ -63,11 +66,12 @@ Discover how to privately share your files between your devices, with your frien
 
     [Visit syncthing.net](https://syncthing.net){ .md-button .md-button--primary }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://syncthing.net/downloads)
-    - [:fontawesome-brands-apple: macOS](https://syncthing.net/downloads)
-    - [:fontawesome-brands-linux: Linux](https://syncthing.net/downloads)
-    - [:fontawesome-brands-github: Source](https://github.com/syncthing)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://syncthing.net/downloads)
+        - [:fontawesome-brands-apple: macOS](https://syncthing.net/downloads)
+        - [:fontawesome-brands-linux: Linux](https://syncthing.net/downloads)
+        - [:fontawesome-brands-github: Source](https://github.com/syncthing)
 
 ### git-annex
 
@@ -79,8 +83,9 @@ Discover how to privately share your files between your devices, with your frien
 
     [Visit git-annex.branchable.com](https://git-annex.branchable.com){ .md-button .md-button--primary } [Privacy Policy](https://git-annex.branchable.com/privacy){ .md-button }
 
-    **Downloads**
-    - [:fontawesome-brands-windows: Windows](https://git-annex.branchable.com/install/Windows)
-    - [:fontawesome-brands-apple: macOS](https://git-annex.branchable.com/install/OSX)
-    - [:fontawesome-brands-linux: Linux](https://git-annex.branchable.com/install)
-    - [:fontawesome-brands-git: Source](https://git-annex.branchable.com/install/fromsource/)
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://git-annex.branchable.com/install/Windows)
+        - [:fontawesome-brands-apple: macOS](https://git-annex.branchable.com/install/OSX)
+        - [:fontawesome-brands-linux: Linux](https://git-annex.branchable.com/install)
+        - [:fontawesome-brands-git: Source](https://git-annex.branchable.com/install/fromsource/)
