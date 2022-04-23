@@ -10,7 +10,7 @@ The primary threat when using a video streaming platform is that your streaming 
 
 !!! Warning
 
-    When using FreeTube, your IP address is still known to YouTube, [Invidious](https://instances.invidious.io) and the SponsorBlock instances that you use. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](threat-modeling.md) requires hiding your IP address.
+    When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](threat-modeling.md) requires hiding your IP address.
 
 !!! recommendation
 
@@ -18,7 +18,7 @@ The primary threat when using a video streaming platform is that your streaming 
 
     **FreeTube** is a free and open source desktop application for [YouTube](https://youtube.com). When using FreeTube, your subscription list and playlists are saved locally on your device.
 
-    FreeTube also features [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored advertisements. All YouTube advertisements are also blocked by default.
+    By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
 
     [Visit freetubeapp.io](https://freetubeapp.io){ .md-button .md-button--primary } [Privacy Policy](https://freetubeapp.io/privacy.php){ .md-button }
 
@@ -34,7 +34,7 @@ The primary threat when using a video streaming platform is that your streaming 
 
 !!! note
 
-    Only the **LBRY desktop client** is recommended. The [Odysee](https://odysee.com) website and the LBRY clients in F-Droid, Play Store, and the AppStore have mandatory synchronization and telemetry.
+    Only the **LBRY desktop client** is recommended, as the [Odysee](https://odysee.com) website and the LBRY clients in F-Droid, Play Store, and the App Store have mandatory synchronization and telemetry.
 
 !!! recommendation
 
@@ -84,7 +84,7 @@ You can  disable *Save hosting data to help the LBRY network* option (⚙️ Set
 
 #### SponsorBlock
 
-*NewPipe x SponsorBlock* is a fork of [NewPipe](https://newpipe.net) with [SponsorBlock](https://sponsor.ajay.app) integrated to help you skip sponsored advertisements.
+*NewPipe x SponsorBlock* is a fork of [NewPipe](https://newpipe.net) with [SponsorBlock](https://sponsor.ajay.app) integrated to help you skip sponsored video segments.
 
 It also has integration with [Return YouTube Dislike](https://returnyoutubedislike.com), and some experimental settings such as the ability to use the built-in player for local playback, an option to force fullscreen on landscape mode, and an option to disable error reporting prompts.
 
