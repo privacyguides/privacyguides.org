@@ -4,8 +4,6 @@ icon: material/cellphone-check
 ---
 Android is a secure operating system that has strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
 
-The main privacy concern with most Android devices is that they usually include [Google Play Services](https://developers.google.com/android/guides/overview). This component is proprietary (closed source), has a privileged role on your phone, and may collect private user information. It is neither a part of the [Android Open Source Project](https://source.android.com/) nor is it included with the below derivatives.
-
 ## Choosing an Android Distribution
 
 When you buy an Android phone, the device's default operating system often comes with invasive integration with apps and services which are not part of the [Android Open Source Project](https://source.android.com/). An example of such is Google Play Services, which has unrevokable privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, hardware identifiers, and so on. These apps and services increase the attack surface of your device and are the source of various privacy concerns with Android.
