@@ -1,6 +1,7 @@
 <!-- markdownlint-disable -->
 *[2FA]: 2-Factor Authentication
 *[AOSP]: Android Open Source Project
+*[attack surface]: The attack surface of software or hardware is the sum of the different places an unauthorized user (the "attacker") can try to enter data to or extract data from.
 *[AVB]: Android Verified Boot
 *[CLI]: Command Line Interface
 *[CSV]: Comma-Separated Values

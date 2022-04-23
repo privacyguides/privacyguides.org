@@ -90,7 +90,7 @@ The [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) serv
 
 #### Extensions
 
-We generally do not recommend installing any extensions as they increase your [attack surface](https://en.wikipedia.org/wiki/Attack_surface); however, if you want content blocking, [uBlock Origin](#additional-resources) might be useful to you. The extension is also a :trophy: [Recommended Extension](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) by Mozilla.
+We generally do not recommend installing any extensions as they increase your attack surface; however, if you want content blocking, [uBlock Origin](#additional-resources) might be useful to you. The extension is also a :trophy: [Recommended Extension](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) by Mozilla.
 
 #### Arkenfox (advanced)
 
@@ -183,7 +183,7 @@ If you use iCloud, we also recommend checking to ensure Safari's default downloa
 
 #### Extensions
 
-We generally do not recommend installing [any extensions](https://www.sentinelone.com/blog/inside-safari-extensions-malware-golden-key-user-data/) as they increase your browser's [attack surface](https://en.wikipedia.org/wiki/Attack_surface); however, if you want content blocking, [AdGuard for Safari](#additional-resources) might be useful to you.
+We generally do not recommend installing [any extensions](https://www.sentinelone.com/blog/inside-safari-extensions-malware-golden-key-user-data/) as they increase your browser's attack surface; however, if you want content blocking, [AdGuard for Safari](#additional-resources) might be useful to you.
 
 ## Additional Resources
 
@@ -209,7 +209,7 @@ We generally do not recommend installing [any extensions](https://www.sentinelon
 
 We also suggest adding the [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt) list and any of the regional lists that might apply to your browsing habits. To add this list, first access settings by clicking on the uBO icon, then the settings icon ( :gear: ). Go to the bottom of the Filter lists pane and place a checkmark next to Import under the Custom section. Paste the URL of the filter list above into the text area that appears below and click "Apply changes".
 
-Additional filter lists do slow things down and may increase your [attack surface](https://en.wikipedia.org/wiki/Attack_surface), so only apply what you need.
+Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.
 
 uBlock Origin also has different [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode). The easy mode [might not](https://www.ranum.com/security/computer_security/editorials/dumb/) necessarily keep you safe from every tracker out there, whereas the more advanced modes let you control exactly what needs to run.
 
@@ -231,7 +231,7 @@ uBlock Origin also has different [blocking modes](https://github.com/gorhill/uBl
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/apple-store/id1047223162)
         - [:fontawesome-brands-git: Source](https://github.com/AdguardTeam/AdGuardForSafari)
 
-Additional filter lists do slow things down and may increase your [attack surface](https://en.wikipedia.org/wiki/Attack_surface), so only apply what you need.
+Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.
 
 There is also [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html) which is able to perform system-wide content blocking by means of DNS filtering.
 

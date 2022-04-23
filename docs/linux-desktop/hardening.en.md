@@ -24,9 +24,9 @@ If you are using non-classic [Snap](https://en.wikipedia.org/wiki/Snap_(package_
 
 There are some additional kernel hardening options such as configuring [sysctl](https://en.wikipedia.org/wiki/Sysctl#Linux) keys and [kernel command-line parameters](https://www.kernel.org/doc/html/latest/admin-guide/kernel-parameters.html) which are described in the following pages. We don’t recommend you change these options unless you learn about what they do.
 
-- [2.2 Sysctl](https://madaidans-insecurities.github.io/guides/linux-hardening.html#sysctl)
-- [2.3 Boot parameters](https://madaidans-insecurities.github.io/guides/linux-hardening.html#boot-parameters)
-- [2.5 Kernel attack surface reduction](https://madaidans-insecurities.github.io/guides/linux-hardening.html#kernel-attack-surface-reduction)
+- [Recommended sysctl settings](https://madaidans-insecurities.github.io/guides/linux-hardening.html#sysctl)
+- [Recommended boot parameters](https://madaidans-insecurities.github.io/guides/linux-hardening.html#boot-parameters)
+- [Additional recommendations to reduce the kernel's attack surface](https://madaidans-insecurities.github.io/guides/linux-hardening.html#kernel-attack-surface-reduction)
 
 Note that setting `kernel.unprivileged_userns_clone=0` will stop Flatpak, Snap (that depend on browser-sandbox), Electron based AppImages, Podman, Docker, and LXC containers from working. Do **not** set this flag if you are using container products.
 
@@ -54,7 +54,7 @@ If you use [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/tool
 
 ## Linux Pluggable Authentication Modules (PAM)
 
-There is also further hardening to [PAM](https://en.wikipedia.org/wiki/Linux_PAM) to secure authentication to your system. [14. PAM](https://madaidans-insecurities.github.io/guides/linux-hardening.html#pam) has some tips on this.
+There is also further hardening to [PAM](https://en.wikipedia.org/wiki/Linux_PAM) to secure authentication to your system. [This guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html#pam) has some tips on this.
 
 On Red Hat distributions you can use [`authselect`](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_authentication_and_authorization_in_rhel/configuring-user-authentication-using-authselect_configuring-authentication-and-authorization-in-rhel) to configure this e.g.:
 
@@ -72,7 +72,7 @@ Another alternative option if you’re using the [linux-hardened](#linux-hardene
 
 ## Secure Boot
 
-[Secure Boot](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface#Secure_Boot) can be used to secure the boot process by preventing the loading of [unsigned](https://en.wikipedia.org/wiki/Public-key_cryptography) [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) drivers or [boot loaders](https://en.wikipedia.org/wiki/Bootloader). Some guidance for this is provided in [21. Physical security](https://madaidans-insecurities.github.io/guides/linux-hardening.html#physical-security) and [21.4 Verified boot](https://madaidans-insecurities.github.io/guides/linux-hardening.html#verified-boot).
+[Secure Boot](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface#Secure_Boot) can be used to secure the boot process by preventing the loading of [unsigned](https://en.wikipedia.org/wiki/Public-key_cryptography) [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) drivers or [boot loaders](https://en.wikipedia.org/wiki/Bootloader). Some guidance for this is provided in [this physical security guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html#physical-security) and [this verified boot guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html#verified-boot).
 
 For further resources on Secure Boot we suggest taking a look at the following for instructional advice:
 
