@@ -33,7 +33,7 @@ The primary threat when using a video streaming platform is that your streaming 
 
 !!! note
 
-    Only the **LBRY desktop client** is recommended as the [Odysee](https://odysee.com) website and the LBRY clients in F-Droid, Play Store, and the App Store have mandatory synchronization and telemetry.
+    Only the **LBRY desktop client** is recommended, as the [Odysee](https://odysee.com) website and the LBRY clients in F-Droid, Play Store, and the App Store have mandatory synchronization and telemetry.
 
 !!! recommendation
 
