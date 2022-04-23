@@ -63,10 +63,6 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 ### Imagepipe
 
-!!! info
-
-    Imagepipe is only available from F-Droid and not in Google Play. If you're looking for a paint app in Google Play we suggest [Pocket Paint](https://play.google.com/store/apps/details?id=org.catrobat.paintroid).
-
 !!! recommendation
 
     ![Imagepipe logo](assets/img/metadata-removal/imagepipe.svg){ align=right }
@@ -80,11 +76,11 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
         - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.kaffeemitkoffein.imagepipe/)
         - [:fontawesome-brands-git: Source](https://codeberg.org/Starfish/Imagepipe)
 
+!!! info
+
+    Imagepipe is only available from F-Droid and not in Google Play. If you're looking for a paint app in Google Play we suggest [Pocket Paint](https://play.google.com/store/apps/details?id=org.catrobat.paintroid).
+
 ### Metapho
-
-!!! attention
-
-    Metapho is closed source. We recommend it, due to the few choices there are for iOS devices.
 
 !!! recommendation
 
@@ -97,6 +93,11 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
     ??? downloads
 
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/metapho/id914457352)
+
+!!! attention
+
+    Metapho is closed source. We recommend it, due to the few choices there are for iOS devices.
+
 
 ## Command-line
 
@@ -120,10 +121,11 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
         - [:fontawesome-brands-git: Source](https://sourceforge.net/projects/exiftool)
         - [:fontawesome-brands-github: Source](https://github.com/exiftool/exiftool)
 
-To delete data from a directory of files:
 
-```bash
-exiftool -all= *.file_extension
-```
+??? example "Deleting data from a directory of files"
+
+    ```bash
+    exiftool -all= *.file_extension
+    ```
 
 --8<-- "includes/abbreviations.en.md"

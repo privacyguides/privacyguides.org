@@ -81,7 +81,8 @@ Get working and collaborating without sharing your documents with a middleman or
 
         - [:fontawesome-brands-github: Source](https://github.com/PrivateBin/PrivateBin)
 
-Do note that PrivateBin uses JavaScript to handle encryption, so you must trust the provider to the extent that they do not inject any malicious JavaScript to get your private key. Consider self-hosting to mitigate this threat.
+!!! warning
+    PrivateBin uses JavaScript to handle encryption, so you must trust the provider to the extent that they do not inject any malicious JavaScript to get your private key. Consider self-hosting to mitigate this threat.
 
 ### CryptPad
 
@@ -89,13 +90,16 @@ Do note that PrivateBin uses JavaScript to handle encryption, so you must trust 
 
     ![CryptPad logo](assets/img/productivity/cryptpad.svg){ align=right }
 
-    **CryptPad** is a private-by-design alternative to popular office tools. All content is end-to-end encrypted. Do note that it uses JavaScript to handle encryption, so you must trust the provider to the extent that they do not inject any malicious JavaScript to get your private key. Consider self-hosting to mitigate this threat.
+    **CryptPad** is a private-by-design alternative to popular office tools. All content is end-to-end encrypted.
 
     [Visit cryptpad.fr](https://cryptpad.fr){ .md-button .md-button--primary } [Privacy Policy](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .md-button }
 
     ??? downloads
 
         - [:fontawesome-brands-github: Source](https://github.com/xwiki-labs/cryptpad)
+
+!!! warning
+    CryptPad uses JavaScript to handle encryption, so you must trust the provider to the extent that they do not inject any malicious JavaScript to get your private key. Consider self-hosting to mitigate this threat.
 
 ## Blogging
 

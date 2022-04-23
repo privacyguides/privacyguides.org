@@ -8,10 +8,6 @@ The primary threat when using a video streaming platform is that your streaming 
 
 ### FreeTube
 
-!!! Warning
-
-    When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](threat-modeling.md) requires hiding your IP address.
-
 !!! recommendation
 
     ![FreeTube logo](assets/img/video-streaming/freetube.svg){ align=right }
@@ -30,11 +26,11 @@ The primary threat when using a video streaming platform is that your streaming 
         - [:pg-flathub: Flatpak](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
         - [:fontawesome-brands-github: Source](https://github.com/FreeTubeApp/FreeTube/)
 
+!!! Warning
+
+    When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](threat-modeling.md) requires hiding your IP address.
+
 ### LBRY
-
-!!! note
-
-    Only the **LBRY desktop client** is recommended, as the [Odysee](https://odysee.com) website and the LBRY clients in F-Droid, Play Store, and the App Store have mandatory synchronization and telemetry.
 
 !!! recommendation
 
@@ -52,6 +48,10 @@ The primary threat when using a video streaming platform is that your streaming 
         - [:fontawesome-brands-apple: macOS](https://lbry.com/osx)
         - [:fontawesome-brands-linux: Linux](https://lbry.com/linux)
         - [:fontawesome-brands-github: Source](https://github.com/lbryio)
+
+!!! note
+
+    Only the **LBRY desktop client** is recommended, as the [Odysee](https://odysee.com) website and the LBRY clients in F-Droid, Play Store, and the App Store have mandatory synchronization and telemetry.
 
 !!! warning
 
@@ -96,10 +96,6 @@ This fork is not endorsed by or affiliated with the upstream project. The NewPip
 
 ### Invidious
 
-!!! warning
-
-    Invidious does not proxy the video stream through its server by default. Videos watched through Invidious will still make direct connections to Google's servers (googlevideo.com); however, some instances support video proxying. This can be enabled by adding `&local=true` to the URL.
-
 !!! recommendation
 
     ![Invidious logo](assets/img/video-streaming/invidious.svg#only-light){ align=right }
@@ -113,6 +109,10 @@ This fork is not endorsed by or affiliated with the upstream project. The NewPip
 
         - [:fontawesome-solid-earth-americas: Instances](https://instances.invidious.io)
         - [:fontawesome-brands-github: Source](https://github.com/iv-org/invidious)
+
+!!! warning
+
+    Invidious does not proxy the video stream through its server by default. Videos watched through Invidious will still make direct connections to Google's servers (googlevideo.com); however, some instances support video proxying. This can be enabled by adding `&local=true` to the URL.
 
 !!! tip
 

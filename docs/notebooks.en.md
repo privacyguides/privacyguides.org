@@ -26,14 +26,14 @@ If you are currently using an application like Evernote, Google Keep, or Microso
         - [:fontawesome-brands-linux: Linux](https://joplinapp.org/#desktop-applications)
         - [:fontawesome-brands-firefox-browser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
         - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
         - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/net.cozic.joplin)
-        - [:fontawesome-brands-android: Android](https://joplinapp.org/#mobile-applications)
         - [:fontawesome-brands-github: GitHub](https://github.com/laurent22/joplin)
 
 !!! warning
 
-    Note: As of Dec 2018, Joplin does not support password/pin protection for the application itself or individual notes/notebooks. Data is still encrypted in transit and at sync location using your master key. See [open issue](https://github.com/laurent22/joplin/issues/289).
+    Joplin does not support password/pin protection for the [application itself or individual notes/notebooks](https://github.com/laurent22/joplin/issues/289). Data is still encrypted in transit and at the sync location using your master key.
 
 ### Standard Notes
 
@@ -43,22 +43,53 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
     Standard Notes is a simple and private notes app that makes your notes easy and available everywhere you are. It features E2EE on every platform, and a powerful desktop experience with themes and custom editors. It has also been [independently audited (PDF)](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
 
-    [Visit standardnotes.org](https://standardnotes.org/){ .md-button .md-button--primary }
+    [Visit standardnotes.com](https://standardnotes.com){ .md-button .md-button--primary }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://standardnotes.org/#get-started)
-        - [:fontawesome-brands-apple: macOS](https://standardnotes.org/#get-started)
-        - [:fontawesome-brands-linux: Linux](https://standardnotes.org/#get-started)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
+        - [:fontawesome-brands-windows: Windows](https://standardnotes.com)
+        - [:fontawesome-brands-apple: macOS](https://standardnotes.com)
+        - [:fontawesome-brands-linux: Linux](https://standardnotes.com)
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1285392450)
-        - [:octicons-browser-16: Browser](https://app.standardnotes.org/)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.standardnotes)
+        - [:octicons-browser-16: Browser](https://app.standardnotes.com/)
         - [:fontawesome-brands-github: GitHub](https://github.com/standardnotes)
 
-## Worth Mentioning
+### EteSync Notes
 
-- [EteSync](https://www.etesync.com/) - Secure, end-to-end encrypted, and privacy respecting sync for your contacts, calendars, tasks and notes.
-- [Paperwork](https://paperwork.cloud/) - An open-source and self-hosted solution. For PHP / MySQL servers.
-- [Org-mode](https://orgmode.org) - A major mode for GNU Emacs. Org-mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system.
+!!! recommendation
+
+    ![EteSync Notes logo](assets/img/notebooks/etesync-notes.png){ align=right }
+
+    **EteSync Notes** is a secure, end-to-end encrypted, and privacy-respecting note taking app. EteSync also offers optional software as a service for [$24 per year](https://dashboard.etebase.com/user/partner/pricing/), or you can host the server yourself for free.
+
+    [etebase](https://docs.etebase.com), which is the foundation of EteSync, can also be used by other apps as a backend to store data end-to-end encrypted (E2EE).
+
+    [Visit etesync.com](https://www.etesync.com){ .md-button .md-button--primary }  [Privacy Policy](https://www.etesync.com/tos/#privacy){ .md-button }
+
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.etesync.notes)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.etesync.notes)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/etesync-notes/id1533806351)
+        - [:octicons-browser-16: Browser](https://notes.etesync.com)
+        - [:fontawesome-brands-github: GitHub](https://github.com/etesync)
+
+## Local notebooks
+
+### Org-mode
+
+!!! recommendation
+
+    ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
+
+    **Org-mode** is a [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system. Synchronization is possible with [file synchronization](/software/file-sharing/#sync) tools.
+
+    [Visit orgmode.org](https://orgmode.org){ .md-button .md-button--primary }
+
+    ??? downloads
+
+        - [:fontawesome-brands-git: Source](https://git.savannah.gnu.org/cgit/emacs/org-mode.git)
 
 --8<-- "includes/abbreviations.en.md"

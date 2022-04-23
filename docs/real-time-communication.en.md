@@ -50,8 +50,8 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
         - [:fontawesome-brands-windows: Windows](https://element.io/get-started)
         - [:fontawesome-brands-apple: macOS](https://element.io/get-started)
         - [:fontawesome-brands-linux: Linux](https://element.io/get-started)
-        - [:fontawesome-brands-android: Android](https://f-droid.org/packages/im.vector.app/)
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/im.vector.app/)
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/vector/id1083446067)
         - [:fontawesome-brands-github: Source](https://github.com/vector-im/element-web)
 
@@ -75,8 +75,8 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
 
     ??? downloads
 
-        - [:fontawesome-brands-android: Android](https://f-droid.org/packages/org.briarproject.briar.android)
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/org.briarproject.briar.android)
         - [:fontawesome-brands-git: Source](https://code.briarproject.org/briar/briar)
 
 To add a contact on Briar, you must both add each other first. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.

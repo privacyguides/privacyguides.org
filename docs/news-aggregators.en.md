@@ -121,27 +121,33 @@ Some social media services also support RSS although it's not often advertised.
 
 ### YouTube
 
-You can subscribe YouTube channels without logging in and associating usage information with your Google Account. To subscribe to a YouTube channel with an RSS client, first look for your [channel code](https://support.google.com/youtube/answer/6180214), replace `channel_id` below:
+You can subscribe YouTube channels without logging in and associating usage information with your Google Account.
+!!! example
 
-```text
-https://www.youtube.com/feeds/videos.xml?channel_id={{ channel id }}
-```
+    To subscribe to a YouTube channel with an RSS client, first look for your [channel code](https://support.google.com/youtube/answer/6180214), replace `channel_id` below:
+    ```text
+    https://www.youtube.com/feeds/videos.xml?channel_id={{ channel id }}
+    ```
 
 ### Reddit
 
-Reddit also supports subscription via RSS, just replace `subreddit_name` with the subreddit you wish to subscribe to.
+Reddit also supports subscription via RSS.
 
-```text
-https://www.reddit.com/r/{{ subreddit_name }}/new/.rss
-```
+!!! example
+    Replace `subreddit_name` with the subreddit you wish to subscribe to.
+
+    ```text
+    https://www.reddit.com/r/{{ subreddit_name }}/new/.rss
+    ```
 
 ### Twitter
 
 Using any of the Nitter [instances](https://github.com/zedeus/nitter/wiki/Instances) you can easily subscribe using RSS.
 
-1. Pick an instance and set `nitter_instance`.
-2. Replace `twitter_account` with the account name.
+!!! example
+    1. Pick an instance and set `nitter_instance`.
+    2. Replace `twitter_account` with the account name.
 
-   ```text
-   https://{{ nitter_instance }}/{{ twitter_account }}/rss
-   ```
+       ```text
+       https://{{ nitter_instance }}/{{ twitter_account }}/rss
+       ```

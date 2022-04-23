@@ -44,7 +44,7 @@ When self hosting Nextcloud, you should also remember to enable E2EE to protect 
     [Visit drive.protonmail.com](https://drive.protonmail.com){ .md-button .md-button--primary } [Privacy Policy](https://protonmail.com/privacy-policy){ .md-button }
 
     ??? downloads
-    
+
         - [:fontawesome-brands-github: Source](https://github.com/ProtonMail/WebClients)
 
 Proton Drive is currently in beta and only is only available through a web client.
@@ -68,10 +68,6 @@ When using a web client, you are placing trust in the server to send you proper 
 
 ### Tahoe-LAFS
 
-!!! note
-
-    Due to the complexity of the system and the amount of nodes needed to set it up, Tahoe-LAFS is only recommended for seasoned system administrators.
-
 !!! recommendation
 
     ![Tahoe-LAFS logo](./assets/img/cloud/tahoe-lafs.svg#only-light){ align=right }
@@ -88,5 +84,9 @@ When using a web client, you are placing trust in the server to send you proper 
         - [:fontawesome-brands-linux: Linux](https://github.com/tahoe-lafs/tahoe-lafs#using-os-packages)
         - [:pg-netbsd: NetBSD](https://pkgsrc.se/filesystems/tahoe-lafs)
         - [:fontawesome-brands-git: Source](https://www.tahoe-lafs.org/trac/tahoe-lafs/browser)
+
+!!! note
+
+    Due to the complexity of the system and the amount of nodes needed to set it up, Tahoe-LAFS is only recommended for seasoned system administrators.
 
 --8<-- "includes/abbreviations.en.md"

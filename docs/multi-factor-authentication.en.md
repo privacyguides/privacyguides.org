@@ -90,7 +90,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
     [Visit github.com](https://github.com/raivo-otp/ios-application){ .md-button .md-button--primary } [Privacy Policy](https://github.com/raivo-otp/ios-application/blob/master/PRIVACY.md){ .md-button }
 
     ??? downloads
-    
+
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
         - [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/us/app/raivo-otp/id1498497896)
         - [:fontawesome-brands-github: GitHub](https://github.com/raivo-otp/ios-application)

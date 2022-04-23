@@ -31,10 +31,6 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
 ### Apple Mail
 
-!!! note
-
-    For iOS devices we suggest [Canary Mail](#canary-mail) as it has PGP support which means you can send end-to-end encrypted email.
-
 !!! recommendation
 
     ![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
@@ -42,6 +38,10 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
     **Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption/#gpg-suite), which adds the ability to send encrypted email.
 
     [Visit apple.com](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary } [Privacy Policy](https://www.apple.com/legal/privacy/en-ww/){ .md-button }
+
+!!! note
+
+    For iOS devices we suggest [Canary Mail](#canary-mail) as it has PGP support which means you can send end-to-end encrypted email.
 
 ### GNOME Evolution
 

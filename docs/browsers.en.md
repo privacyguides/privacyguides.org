@@ -56,44 +56,37 @@ These are our current web browser recommendations and settings. We recommend kee
 
 #### Recommended Configuration
 
-These options can be found in the *Privacy & Security* settings page ( :material-menu: → Settings → Privacy & Security).
+These options can be found in the *Privacy & Security* settings page ( :material-menu: → **Settings** → **Privacy & Security**).
 
-**Enhanced Tracking Protection (ETP):**
+##### Enhanced Tracking Protection (ETP)
 
-<ul style="list-style-type:none;padding-left:0;">
-    <li>Select: "Strict"</li>
-</ul>
+- Select **Strict**
 
-**Sanitize on Close:**
+##### Sanitize on Close
 
-<ul style="list-style-type:none;padding-left:0;">
-    <li>Select: "Delete cookies and site data when Firefox is closed"</li>
-</ul>
-You can still stay logged into websites by allowing exceptions.
+- Select **Delete cookies and site data when Firefox is closed**
 
-**Disable Search Suggestions:**
+!!! note
+    You can still stay logged into websites by allowing exceptions (**Cookies and Site Data** → **Manage Exceptions...**)
 
-*These features may not be available depending on your region.*
+##### Disable Search Suggestions
 
-<ul style="list-style-type:none;padding-left:0;">
-    <li>Toggle off: "Suggestions from the web"</li>
-    <li>Toggle off: "Suggestions from sponsors"</li>
-    <li>Toggle off: "Improve the Firefox Suggest experience"</li>
-</ul>
+- Clear **Suggestions from the web**
+- Clear **Suggestions from sponsors**
+- Clear **Improve the Firefox Suggest experience**
 
-**Disable Telemetry:**
+!!! note
+    Search suggestion features may not be available in your region.
 
-<ul style="list-style-type:none;padding-left:0;">
-    <li>Uncheck: "Allow Firefox to send technical and interaction data to Mozilla"</li>
-    <li>Uncheck: "Allow Firefox to install and run studies"</li>
-    <li>Uncheck: "Allow Firefox to send backlogged crash reports on your behalf"</li>
-</ul>
+##### Disable Telemetry
 
-**HTTPS-Only Mode:**
+- Clear **Allow Firefox to send technical and interaction data to Mozilla**
+- Clear **Allow Firefox to install and run studies**
+- Clear **Allow Firefox to send backlogged crash reports on your behalf**
 
-<ul style="list-style-type:none;padding-left:0;">
-    <li>Select: "Enable HTTPS-Only Mode in all windows".</li>
-</ul>
+##### HTTPS-Only Mode
+
+- Select **Enable HTTPS-Only Mode in all windows**
 
 #### Sync
 
@@ -128,21 +121,19 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
         - [:fontawesome-brands-android: Android](https://www.bromite.org/fdroid)
         - [:fontawesome-brands-github: Source](https://github.com/bromite/bromite)
 
-These options can be found in *Privacy and Security* ( :material-menu: → :gear: Settings → Privacy and Security).
+These options can be found in *Privacy and Security* ( :material-menu: → :gear: **Settings** → **Privacy and Security**).
 
-**HTTPS-Only Mode:**
+#### Recommended Configuration
 
-<ul style="list-style-type:none;padding-left:0;">
-    <li>Select: Always use secure connections.</li>
-</ul>
+##### HTTPS-Only Mode
 
-**Always-on Incognito Mode:**
+- Select **Always use secure connections**
 
-<ul style="list-style-type:none;padding-left:0;">
-    <li>Select: "Open links in incognito tabs always"</li>
-    <li>Select: "Close all open tabs on exit"</li>
-    <li>Select: "Open external links in incognito"</li>
-</ul>
+##### Always-on Incognito Mode
+
+- Select **Open links in incognito tabs always**
+- Select **Close all open tabs on exit**
+- Select **Open external links in incognito**
 
 ### Safari
 
@@ -156,47 +147,43 @@ These options can be found in *Privacy and Security* ( :material-menu: → :gear
 
 #### Recommended Configuration
 
-These options can be found in *Privacy and Security* (:gear: Settings → Safari → Privacy and Security).
+These options can be found in *Privacy and Security* ( :gear: **Settings** → **Safari** → **Privacy and Security**).
 
-**Cross-Site Tracking Prevention:**
+##### Cross-Site Tracking Prevention
 
-Toggling this setting enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp).
-<ul style="list-style-type:none;padding-left:0;">
-    <li>Toggle On: "Prevent Cross-Site Tracking".</li>
-</ul>
+Enable WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp).
 
-**Privacy Report:**
+- Select **Prevent Cross-Site Tracking** to enable
+
+##### Privacy Report
 
 Privacy Report provides a snapshot of cross-site trackers currently prevented from profiling you on the website you're visiting. It can also display a weekly report to show which trackers have been blocked over time.
 
 Privacy Report is accessible through the "**Aa**" icon in the URL bar.
 
-**Privacy Preserving Ad Measurement:**
+##### Privacy Preserving Ad Measurement
 
 This is WebKit's own [implementation](https://webkit.org/blog/8943/privacy-preserving-ad-click-attribution-for-the-web/) of privacy preserving ad click attribution. If you do not wish to participate, you can disable this feature.
-<ul style="list-style-type:none;padding-left:0;">
-    <li>Toggle Off: "Privacy Preserving Ad Measurement".</li>
-</ul>
 
-**Apple Pay:**
+- Select **Privacy Preserving Ad Measurement**
+
+##### Apple Pay
 
 If you do not use Apple Pay, you can toggle off the ability for websites to check for it.
-<ul style="list-style-type:none;padding-left:0;">
-    <li>Toggle Off: "Check for Apple Pay".</li>
-</ul>
 
-**Always-on Private Browsing:**
+- Select **Check for Apple Pay**
+
+##### Always-on Private Browsing
 
 Open Safari and press the tabs icon in the bottom right corner. Open Tab Groups, located in the bottom middle.
-<ul style="list-style-type:none;padding-left:0;">
-    <li>Select: "Private".</li>
-</ul>
 
-#### iCloud Sync
+- Select **Private**
+
+##### iCloud Sync
 
 While synchronization of Safari History, Tab Groups, and iCloud Tabs uses E2EE, bookmarks sync does [not](https://support.apple.com/en-us/HT202303); they are only encrypted in transit and stored in an encrypted format on Apple's servers. Apple may be able to decrypt and access them.
 
-If you use iCloud, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in *General* (:gear: Settings → Safari → General → Downloads).
+If you use iCloud, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in *General* ( :gear: **Settings** → **Safari** → **General** → **Downloads**).
 
 #### Extensions
 
@@ -217,14 +204,14 @@ We generally do not recommend installing [any extensions](https://www.sentinelon
     [Visit github.com](https://github.com/gorhill/uBlock){ .md-button .md-button--primary }
 
     ??? downloads
-    
+
         - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin)
         - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
         - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
         - [:fontawesome-brands-opera: Opera](https://addons.opera.com/extensions/details/ublock)
         - [:fontawesome-brands-github: Source](https://github.com/gorhill/uBlock)
 
-We also suggest adding the [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt) list and any of the regional lists that might apply to your browsing habits. To add this list, first access settings by clicking on the uBO icon, then the settings icon (:gear:). Go to the bottom of the Filter lists pane and place a checkmark next to Import under the Custom section. Paste the URL of the filter list above into the text area that appears below and click "Apply changes".
+We also suggest adding the [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt) list and any of the regional lists that might apply to your browsing habits. To add this list, first access settings by clicking on the uBO icon, then the settings icon ( :gear: ). Go to the bottom of the Filter lists pane and place a checkmark next to Import under the Custom section. Paste the URL of the filter list above into the text area that appears below and click "Apply changes".
 
 Additional filter lists do slow things down and may increase your [attack surface](https://en.wikipedia.org/wiki/Attack_surface), so only apply what you need.
 
@@ -237,13 +224,13 @@ uBlock Origin also has different [blocking modes](https://github.com/gorhill/uBl
     ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
 
     **AdGuard for Safari** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker). 
-    
+
     We suggest enabling the filters labled *#recommended* under the "Ad Blocking" and "Privacy" [content blockers](https://kb.adguard.com/en/safari/overview#content-blockers). The *#recommended* filters can also be enabled for the "Social Widgets" and "Annoyances" content blockers, but they may break some social media functions.
 
     [Visit adguard.com](https://adguard.com/en/adguard-safari/overview.html){ .md-button .md-button--primary } [Privacy Policy](https://adguard.com/en/privacy/safari.html){ .md-button }
 
     ??? downloads
-    
+
         - [:fontawesome-brands-safari: Safari](https://apps.apple.com/app/adguard-for-safari/id1440147259)
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/apple-store/id1047223162)
         - [:fontawesome-brands-git: Source](https://github.com/AdguardTeam/AdGuardForSafari)
@@ -254,10 +241,6 @@ There is also [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html
 
 ### Terms of Service; Didn't Read
 
-!!! note
-
-    We do not recommend installing ToS;DR as a browser extension. The same information is provided on their website.
-
 !!! recommendation
 
     ![Terms of Service; Didn't Read logo](assets/img/browsers/terms_of_service_didnt_read.svg){ align=right }
@@ -265,5 +248,9 @@ There is also [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html
     **Terms of Service; Didn't Read** grades websites based on their terms of service agreements and privacy policies. It also gives short summaries of those agreements. The analyses and ratings are published transparently by a community of reviewers.
 
     [Visit tosdr.org](https://tosdr.org){ .md-button .md-button--primary } [Privacy Policy](https://addons.mozilla.org/firefox/addon/terms-of-service-didnt-read/privacy){ .md-button }
+
+!!! note
+
+    We do not recommend installing ToS;DR as a browser extension. The same information is provided on their website.
 
 --8<-- "includes/abbreviations.en.md"
