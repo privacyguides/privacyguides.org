@@ -117,7 +117,6 @@ nav:
       - 'security/multi-factor-authentication.md'
     - 'Android':
       - 'android/overview.md'
-      - 'android/security.md'
       - 'android/grapheneos-vs-calyxos.md'
     - 'Linux':
       - 'linux-desktop/overview.md'
