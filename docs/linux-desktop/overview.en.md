@@ -74,3 +74,5 @@ For advanced users, we only recommend Arch Linux, not any of its derivatives. We
 ## Linux-libre kernel and “Libre” distributions
 
 We strongly recommend **against** using the Linux-libre kernel, since it [removes security mitigations](https://www.phoronix.com/scan.php?page=news_item&px=GNU-Linux-Libre-5.7-Released) and [suppresses kernel warnings](https://news.ycombinator.com/item?id=29674846) about vulnerable microcode for ideological reasons.
+
+--8<-- "includes/abbreviations.en.md"

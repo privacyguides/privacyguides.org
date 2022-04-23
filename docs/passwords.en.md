@@ -36,7 +36,7 @@ These password managers store the password database locally.
 
 !!! warning
 
-    KeePassXC stores its export data as [comma-separated values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_values). This may mean data loss if you import this file into another password manager. We advise you check each record manually.
+    KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files. This may mean data loss if you import this file into another password manager. We advise you check each record manually.
 
 ### KeePassDX
 

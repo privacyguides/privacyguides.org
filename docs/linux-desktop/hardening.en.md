@@ -18,7 +18,7 @@ All these firewalls use the [Netfilter](https://en.wikipedia.org/wiki/Netfilter)
 
 If you are using Flatpak packages, you can revoke their network socket access using Flatseal and prevent those applications from accessing your network. This permission is not bypassable.
 
-If you are using non-classic [Snap](https://en.wikipedia.org/wiki/Snap_(package_manager)) packages on a system with proper snap confinement support (with both AppArmor and [CGroupsv1](https://en.wikipedia.org/wiki/Cgroups) present), you can use the Snap Store to revoke network permission as well. This is also not bypassable.
+If you are using non-classic [Snap](https://en.wikipedia.org/wiki/Snap_(package_manager)) packages on a system with proper snap confinement support (with both AppArmor and [cgroups](https://en.wikipedia.org/wiki/Cgroups) v1 present), you can use the Snap Store to revoke network permission as well. This is also not bypassable.
 
 ## Kernel hardening
 
@@ -94,3 +94,5 @@ One of the problems with Secure Boot particularly on Linux is that only the [cha
 After setting up Secure Boot it is crucial that you set a “firmware password” (also called a “supervisor password, “BIOS password” or “UEFI password”), otherwise an adversary can simply disable Secure Boot.
 
 These recommendations can make you a little more resistant to [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, but they not good as a proper verified boot process such as that found on [Android](https://source.android.com/security/verifiedboot), [ChromeOS](https://support.google.com/chromebook/answer/3438631) or [Windows](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process).
+
+--8<-- "includes/abbreviations.en.md"
