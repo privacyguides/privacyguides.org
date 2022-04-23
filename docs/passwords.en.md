@@ -14,11 +14,11 @@ Stay safe and secure online with an encrypted and open-source password manager.
 
 These password managers store the password database locally.
 
-### KeepassXC
+### KeePassXC
 
 !!! recommendation
 
-    ![KeepassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
+    ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
 
     **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, fully cross-platform and modern open-source password manager.
 
@@ -36,15 +36,15 @@ These password managers store the password database locally.
 
 !!! warning
 
-    KeepassXC stores its export data as [comma-separated values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_values). This may mean data loss if you import this file into another password manager. We advise you check each record manually.
+    KeePassXC stores its export data as [comma-separated values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_values). This may mean data loss if you import this file into another password manager. We advise you check each record manually.
 
-### KeepassDX
+### KeePassDX
 
 !!! recommendation
 
-    ![KeepassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
+    ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
 
-    **KeepassDX** is a lightweight password manager for Android, allows editing encrypted data in a single file in KeePass format and can fill in the forms in a secure way. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) allows unlocking cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
+    **KeePassDX** is a lightweight password manager for Android, allows editing encrypted data in a single file in KeePass format and can fill in the forms in a secure way. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) allows unlocking cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
     For more details, we recommend looking at their [FAQ](https://github.com/Kunzisoft/KeePassDX/wiki/FAQ).
 
