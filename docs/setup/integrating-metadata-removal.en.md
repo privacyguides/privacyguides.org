@@ -41,14 +41,14 @@ Shortcuts is quite intuitive to work with, so if you don't like the behavior dem
 
 2. In the shortcut's options, check **Use as Quick Action** and **Finder**
 
-3. Setup the retrieval options:
+3. Set up the retrieval options:
 
     - Receive **Images, Media, and PDFs** input from **Quick Actions**
     - If there is no input select **Continue**
 
 4. Add the **Run Shell Script** action to the shortcut. You may need to enable **Allow Running Scripts** in Shortcut.app's settings
 
-5. Setup the shell script action:
+5. Set up the shell script action:
      - Select **zsh** from the shell list
      - Set the input to **Shortcut Input**
      - Select **as arguments** for the pass input

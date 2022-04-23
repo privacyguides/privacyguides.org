@@ -96,7 +96,7 @@ If a website or service supports WebAuthn for the authentication, it is highly r
 
 We have these general recommendations:
 
-### Which method should I use?
+### Which Method Should I Use?
 
 When configuring your MFA method, keep in mind that it is only as secure as your weakest authentication method you use. This means it is important that you only use the best MFA method available. For instance, if you are already using TOTP, you should disable email and SMS MFA. If you are already using FIDO2/WebAuthn, you should not be using Yubico OTP or TOTP on your account.
 
@@ -106,9 +106,9 @@ You should always have backups for your MFA method. Hardware security keys can g
 
 When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g [VeraCrypt](../encryption.md#veracrypt)).
 
-### Initial setup
+### Initial Set Up
 
-When buying a security key, it is important that you change the default credentials, setup password protection for the key, and enable touch confirmation if your key supports it. Products such as the YubiKey) have multiple interfaces with separate credentials for each one of them, so you should go over each interface and set up protection as well.
+When buying a security key, it is important that you change the default credentials, set up password protection for the key, and enable touch confirmation if your key supports it. Products such as the YubiKey) have multiple interfaces with separate credentials for each one of them, so you should go over each interface and set up protection as well.
 
 ### Email and SMS
 
@@ -118,7 +118,7 @@ If you use SMS MFA, use a carrier who will not switch your phone number to a new
 
 [MFA tools we recommend](../multi-factor-authentication.md){ .md-button }
 
-## More places to setup MFA
+## More Places to Set Up MFA
 
 Beyond just securing your website logins, multi-factor authentication can be used to secure your local logins, SSH keys or even password databases as well.
 
@@ -144,7 +144,7 @@ The command will prevent an adversary from bypassing MFA when the computer boots
 
 !!! warning
 
-    If the hostname of your system changes (such as due to DHCP), you would be unable to login. It is vital that you setup a proper hostname for your computer before following this guide.
+    If the hostname of your system changes (such as due to DHCP), you would be unable to login. It is vital that you set up a proper hostname for your computer before following this guide.
 
 The `pam_u2f` module on Linux can provide two factor authentication for user login on most popular Linux distributions. If you have a hardware security key that supports U2F, you can set up MFA authentication for your login. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. The package manager commands—such as `apt-get`—and package names may however differ. This guide does **not** apply to Qubes OS.
 
@@ -154,7 +154,7 @@ Qubes OS has support for Challenge-Response authentication with YubiKeys. If you
 
 ### SSH
 
-#### Hardware security keys
+#### Hardware Security Keys
 
 SSH MFA could be set up using multiple different authentication methods that are popular with hardware security keys. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH/) on how to set this up.
 
