@@ -104,6 +104,7 @@ markdown_extensions:
   - footnotes
   - toc:
       permalink: true
+      toc_depth: 4
 
 extra_javascript:
   - javascripts/mathjax.js
