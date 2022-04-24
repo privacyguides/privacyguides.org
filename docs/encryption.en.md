@@ -104,7 +104,7 @@ BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-o
         powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm | findstr "IsActivated IsEnabled IsOwned SpecVersion"
         ```
 
-    4. Access Windows 10 "Advanced Startup Options". (Press "reboot" while holding shift button). *Troubleshoot > Advanced Options > Command Prompt*
+    4. Access [Advanced Startup Options](https://support.microsoft.com/en-us/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). You need to reboot while pressing the F8 key before Windows starts and go into the *command prompt* in **Troubleshoot** → **Advanced Options** → **Command Prompt**.
 
     5. Login with your account that has admin privileges and type this to start encryption:
         ```
@@ -157,7 +157,7 @@ We recommend storing a local recovery key in a secure place as opposed to utiliz
     udisksctl unlock -b /dev/loop0
     ```
 
-!!! Warning "Remember to back up volume headers"
+!!! note "Remember to back up volume headers"
 
     We recommend you always [back up your LUKS headers](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) in case of partial drive failure. This can be done with:
 
@@ -225,7 +225,7 @@ Tools with command-line interfaces are useful for intergrating [shell scripts](h
 
 When encrypting with PGP, the user has the option to configure different options in their `gpg.conf` file. We recommend staying with the standard options specified in the [GnuPG user FAQ](https://www.gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
 
-??? tip "Use future defaults when generating a key"
+!!! tip "Use future defaults when generating a key"
 
     When [generating keys](https://www.gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to/):
 
@@ -268,6 +268,10 @@ When encrypting with PGP, the user has the option to configure different options
 
 ### GPG Suite
 
+!!! note
+
+    We suggest [Canary Mail](email-clients/#canary-mail) for using PGP with email on iOS devices.
+
 !!! recommendation
 
     ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
@@ -282,10 +286,6 @@ When encrypting with PGP, the user has the option to configure different options
 
         - [:fontawesome-brands-apple: macOS](https://gpgtools.org)
         - [:fontawesome-brands-git: Source](https://github.com/GPGTools)
-
-!!! note
-
-    We suggest [Canary Mail](email-clients/#canary-mail) for using PGP with email on iOS devices.
 
 ### OpenKeychain
 

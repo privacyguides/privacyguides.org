@@ -5,11 +5,12 @@ icon: material/email-open
 Our recommendation list contains email clients that support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth allows you to use [Multi-Factor Authentication](multi-factor-authentication) and prevent account theft.
 
 ??? Attention "Email does not provide forward secrecy"
+
     When using end-to-end encryption (E2EE) technology like [OpenPGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy), email will still have [some metadata](email.md#email-metadata-overview) that is not encrypted in the header of the email.
 
     OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](email.md#email-encryption-overview). Consider using a medium that provides forward secrecy:
 
-    [Real-time Communication](real-time-communication.md){ .md-button .md-button--primary }
+    [Real-time Communication](real-time-communication.md){ .md-button }
 
 ### Thunderbird
 
@@ -31,6 +32,10 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
 ### Apple Mail
 
+!!! note
+
+    For iOS devices we suggest [Canary Mail](#canary-mail) as it has PGP support which means you can send end-to-end encrypted email.
+
 !!! recommendation
 
     ![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
@@ -38,10 +43,6 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
     **Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption/#gpg-suite), which adds the ability to send encrypted email.
 
     [Visit apple.com](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary } [Privacy Policy](https://www.apple.com/legal/privacy/en-ww/){ .md-button }
-
-!!! note
-
-    For iOS devices we suggest [Canary Mail](#canary-mail) as it has PGP support which means you can send end-to-end encrypted email.
 
 ### GNOME Evolution
 

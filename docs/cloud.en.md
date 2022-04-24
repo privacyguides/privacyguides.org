@@ -68,6 +68,11 @@ When using a web client, you are placing trust in the server to send you proper 
 
 ### Tahoe-LAFS
 
+!!! note
+
+    Due to the complexity of the system and the amount of nodes needed to set it up, Tahoe-LAFS is only recommended for seasoned system administrators.
+
+
 !!! recommendation
 
     ![Tahoe-LAFS logo](./assets/img/cloud/tahoe-lafs.svg#only-light){ align=right }
@@ -84,9 +89,5 @@ When using a web client, you are placing trust in the server to send you proper 
         - [:fontawesome-brands-linux: Linux](https://github.com/tahoe-lafs/tahoe-lafs#using-os-packages)
         - [:pg-netbsd: NetBSD](https://pkgsrc.se/filesystems/tahoe-lafs)
         - [:fontawesome-brands-git: Source](https://www.tahoe-lafs.org/trac/tahoe-lafs/browser)
-
-!!! note
-
-    Due to the complexity of the system and the amount of nodes needed to set it up, Tahoe-LAFS is only recommended for seasoned system administrators.
 
 --8<-- "includes/abbreviations.en.md"

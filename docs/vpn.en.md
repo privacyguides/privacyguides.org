@@ -15,7 +15,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](https://medium.com/privacyguides/slicing-onions-part-1-myth-busting-tor-9ec188ae1904){ .md-button }
 
-??? info "When are VPNs useful?"
+??? question "When are VPNs useful?"
 
     If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you as long as you understand the risks involved.
 
@@ -23,7 +23,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ## Recommended Providers
 
-!!! example "Criteria"
+!!! summary "Criteria"
 
     Our recommended providers are outside the US, use encryption, accept Monero, support WireGuard & OpenVPN, and have a no logging policy. Read our [full list of criteria](#our-criteria) for more information.
 

@@ -31,9 +31,7 @@ If you are currently using an application like Evernote, Google Keep, or Microso
         - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/net.cozic.joplin)
         - [:fontawesome-brands-github: GitHub](https://github.com/laurent22/joplin)
 
-!!! warning
-
-    Joplin does not support password/pin protection for the [application itself or individual notes/notebooks](https://github.com/laurent22/joplin/issues/289). Data is still encrypted in transit and at the sync location using your master key.
+Joplin does not support password/pin protection for the [application itself or individual notes/notebooks](https://github.com/laurent22/joplin/issues/289). Data is still encrypted in transit and at the sync location using your master key.
 
 ### Standard Notes
 

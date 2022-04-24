@@ -6,9 +6,6 @@ Below are a few alternative operating systems, that can be used on routers, Wi-F
 
 ### OpenWrt
 
-!!! note
-    Consult the [Table of Hardware](https://openwrt.org/toh/start) to check if your device is supported.
-
 !!! recommendation
 
     ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
@@ -21,6 +18,8 @@ Below are a few alternative operating systems, that can be used on routers, Wi-F
     ??? downloads
 
         - [:fontawesome-brands-git: Source](https://git.openwrt.org)
+
+You can consult OpenWrt's [table of hardware](https://openwrt.org/toh/start) to check if your device is supported.
 
 ### pfSense
 

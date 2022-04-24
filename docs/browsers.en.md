@@ -8,8 +8,6 @@ These are our current web browser recommendations and settings. We recommend kee
 
 ### Tor Browser
 
-!!! anonyimity "This product provides anonymity"
-
 !!! recommendation
 
     ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
@@ -64,10 +62,9 @@ These options can be found in the *Privacy & Security* settings page ( :material
 
 ##### Sanitize on Close
 
-- Select **Delete cookies and site data when Firefox is closed**
+If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
 
-!!! note
-    You can still stay logged into websites by allowing exceptions (**Cookies and Site Data** → **Manage Exceptions...**)
+- Select **Delete cookies and site data when Firefox is closed**
 
 ##### Disable Search Suggestions
 
@@ -75,8 +72,7 @@ These options can be found in the *Privacy & Security* settings page ( :material
 - Clear **Suggestions from sponsors**
 - Clear **Improve the Firefox Suggest experience**
 
-!!! note
-    Search suggestion features may not be available in your region.
+Search suggestion features may not be available in your region.
 
 ##### Disable Telemetry
 
@@ -249,8 +245,6 @@ There is also [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html
 
     [Visit tosdr.org](https://tosdr.org){ .md-button .md-button--primary } [Privacy Policy](https://addons.mozilla.org/firefox/addon/terms-of-service-didnt-read/privacy){ .md-button }
 
-!!! note
-
-    We do not recommend installing ToS;DR as a browser extension. The same information is provided on their website.
+We do not recommend installing ToS;DR as a browser extension. The same information is provided on their website.
 
 --8<-- "includes/abbreviations.en.md"
