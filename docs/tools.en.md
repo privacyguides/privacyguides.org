@@ -206,6 +206,8 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![Joplin logo](assets/img/notebooks/joplin.svg){ .twemoji } [Joplin](https://joplinapp.org/)
 - ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ .twemoji } [Standard Notes](https://standardnotes.org/)
+- ![EteSync Notes logo](assets/img/notebooks/etesync-notes.png){ .twemoji } [EteSync Notes](https://www.etesync.com/)
+- ![Org-mode logo](assets/img/notebooks/org-mode.svg){ .twemoji } [Org-mode](https://orgmode.org/)
 
 </div>
 
