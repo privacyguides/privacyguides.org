@@ -8,9 +8,10 @@ mkdocs = "*"
 mkdocs-material = {path = "./mkdocs-material"}
 mkdocs-static-i18n = "*"
 mkdocs-git-revision-date-localized-plugin = "*"
+typing-extensions = "*"
 
 [dev-packages]
 scour = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.7"

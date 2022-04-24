@@ -62,9 +62,9 @@ Our current list of team members can be found [here](https://github.com/orgs/pri
 3. Install **pipenv**: `pip install pipenv`
 4. Start a pipenv shell: `pipenv shell`
 5. Install dependencies: `pipenv install --dev`
-6. Serve the site locally: `mkdocs serve --config-file mkdocs.production.yml`
+6. Serve the site locally: `mkdocs serve`
     - The site will be available at `http://localhost:8000`
-    - You can build the site locally with `mkdocs build --config-file mkdocs.production.yml`
+    - You can build the site locally with `mkdocs build`
     - This version of the site should be identical to the live, production version
 
 ## Releasing
