@@ -14,7 +14,7 @@ These are our current web browser recommendations and settings. We recommend kee
 
     **Tor Browser** is the choice if you need anonymity. This browser provides you with access to the Tor Bridges and [Tor Network](https://en.wikipedia.org/wiki/Tor_(network)), along with extensions that can be automatically configured to fit its three security levels - *Standard*, *Safer* and *Safest*. We recommend that you do not change any of Tor Browser's default configurations outside of the standard security levels.
 
-    [Visit torproject.org](https://www.torproject.org){ .md-button .md-button--primary } [:pg-tor:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .md-button } [Privacy Policy](https://support.torproject.org/tbb/tbb-3/){ .md-button }
+    [Homepage](https://www.torproject.org){ .md-button .md-button--primary } [:pg-tor:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .md-button } [Privacy Policy](https://support.torproject.org/tbb/tbb-3/){ .md-button }
 
     ??? downloads
 
@@ -39,7 +39,7 @@ These are our current web browser recommendations and settings. We recommend kee
 
     **Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
-    [Visit firefox.com](https://firefox.com){ .md-button .md-button--primary } [Privacy Policy](https://www.mozilla.org/privacy/firefox){ .md-button }
+    [Homepage](https://firefox.com){ .md-button .md-button--primary } [Privacy Policy](https://www.mozilla.org/privacy/firefox){ .md-button }
 
     ??? downloads
 
@@ -110,7 +110,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
     **Bromite** is a Chromium-based browser with privacy and security enhancements, built-in ad blocking, and some fingerprinting randomization.
 
-    [Visit bromite.org](https://www.bromite.org){ .md-button .md-button--primary } [Privacy Policy](https://www.bromite.org/privacy){ .md-button }
+    [Homepage](https://www.bromite.org){ .md-button .md-button--primary } [Privacy Policy](https://www.bromite.org/privacy){ .md-button }
 
     ??? downloads
 
@@ -139,7 +139,7 @@ These options can be found in :material-menu: → :gear: **Settings** → **Priv
 
     **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as Intelligent Tracking Protection, Privacy Report, isolated Private Browsing tabs, iCloud Private Relay, and automatic HTTPS upgrades.
 
-    [Visit apple.com](https://www.apple.com/safari/){ .md-button .md-button--primary } [Privacy Policy](https://www.apple.com/legal/privacy/data/en/safari/){ .md-button }
+    [Website](https://www.apple.com/safari/){ .md-button .md-button--primary } [Privacy Policy](https://www.apple.com/legal/privacy/data/en/safari/){ .md-button }
 
 #### Recommended Configuration
 
@@ -197,7 +197,7 @@ We generally do not recommend installing [any extensions](https://www.sentinelon
 
     We suggest enabling all of the [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) under the "Ads," "Privacy," and "Malware domains". The "Annoyances" and "Multipurpose" lists can also be enabled, but they may break some social media functions. The *AdGuard URL Tracking Protection* filter list makes extensions like CleanURLs and NeatURLs redundant.
 
-    [Visit github.com](https://github.com/gorhill/uBlock){ .md-button .md-button--primary }
+    [Extension Info](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -223,7 +223,7 @@ uBlock Origin also has different [blocking modes](https://github.com/gorhill/uBl
 
     We suggest enabling the filters labled *#recommended* under the "Ad Blocking" and "Privacy" [content blockers](https://kb.adguard.com/en/safari/overview#content-blockers). The *#recommended* filters can also be enabled for the "Social Widgets" and "Annoyances" content blockers, but they may break some social media functions.
 
-    [Visit adguard.com](https://adguard.com/en/adguard-safari/overview.html){ .md-button .md-button--primary } [Privacy Policy](https://adguard.com/en/privacy/safari.html){ .md-button }
+    [Website](https://adguard.com/en/adguard-safari/overview.html){ .md-button .md-button--primary } [Privacy Policy](https://adguard.com/en/privacy/safari.html){ .md-button }
 
     ??? downloads
 
@@ -243,7 +243,7 @@ There is also [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html
 
     **Terms of Service; Didn't Read** grades websites based on their terms of service agreements and privacy policies. It also gives short summaries of those agreements. The analyses and ratings are published transparently by a community of reviewers.
 
-    [Visit tosdr.org](https://tosdr.org){ .md-button .md-button--primary } [Privacy Policy](https://addons.mozilla.org/firefox/addon/terms-of-service-didnt-read/privacy){ .md-button }
+    [Website](https://tosdr.org){ .md-button .md-button--primary } [Privacy Policy](https://addons.mozilla.org/firefox/addon/terms-of-service-didnt-read/privacy){ .md-button }
 
 We do not recommend installing ToS;DR as a browser extension. The same information is provided on their website.
 

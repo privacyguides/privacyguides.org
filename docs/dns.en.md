@@ -85,7 +85,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](te
 
     **RethinkDNS** is an open-source Android client supporting [DNS-over-HTTPS](technology/dns.md#dns-over-https-doh), [DNS-over-TLS](technology/dns.md#dns-over-tls-dot), [DNSCrypt](technology/dns.md#dnscrypt) and DNS Proxy along with caching DNS responses, locally logging DNS queries and can be used as a firewall too.
 
-    [Visit rethinkdns.com](https://rethinkdns.com){ .md-button .md-button--primary } [Privacy Policy](https://rethinkdns.com/privacy){ .md-button }
+    [Website](https://rethinkdns.com){ .md-button .md-button--primary } [Privacy Policy](https://rethinkdns.com/privacy){ .md-button }
 
     ??? downloads
 
@@ -101,7 +101,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](te
 
     **DNSCloak** is an open-source iOS client supporting [DNS-over-HTTPS](technology/dns.md#dns-over-https-doh), [DNSCrypt](technology/dns.md#dnscrypt), and [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy/wiki) options such as caching DNS responses, locally logging DNS queries, and custom block lists. Users can [add custom resolvers by DNS stamp](https://medium.com/privacyguides/adding-custom-dns-over-https-resolvers-to-dnscloak-20ff5845f4b5).
 
-    [Visit github.com](https://github.com/s-s/dnscloak/blob/master/README.md){ .md-button .md-button--primary } [Privacy Policy](https://drive.google.com/file/d/1050No_pU74CAWUS5-BwQWyO2x_aiMzWc/view){ .md-button }
+    [Project Info](https://github.com/s-s/dnscloak/blob/master/README.md){ .md-button .md-button--primary } [Privacy Policy](https://drive.google.com/file/d/1050No_pU74CAWUS5-BwQWyO2x_aiMzWc/view){ .md-button }
 
     ??? downloads
 
@@ -118,7 +118,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](te
 
     !!! warning "The anonymized DNS feature does [**not**](technology/dns.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic."
 
-    [Visit github.com](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .md-button .md-button--primary } [Privacy Policy](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .md-button }
+    [Wiki](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .md-button .md-button--primary } [Privacy Policy](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .md-button }
 
     ??? downloads
 

@@ -16,7 +16,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     For Linux users, a third party graphical tool [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) powered by MAT2 exists and is [available on Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
 
-    [Visit 0xacab.org](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
+    [Homepage](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -34,7 +34,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     **ExifCleaner** is a freeware, open source graphical app that uses [ExifTool](https://exiftool.org) to remove Exif metadata from images, videos, and PDF documents using a simple drag and drop interface. It supports multi-core batch processing and dark mode.
 
-    [Visit exifcleaner.com](https://exifcleaner.com){ .md-button .md-button--primary }
+    [Homepage](https://exifcleaner.com){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -53,7 +53,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     **Scrambled Exif** is a metadata removal tool for Android. It can remove Exif data for many file formats and has been translated into [many](https://gitlab.com/juanitobananas/scrambled-exif/-/tree/master/app/src/main/res) languages.
 
-    [Visit gitlab.com](https://gitlab.com/juanitobananas/scrambled-exif){ .md-button .md-button--primary }
+    [Project Info](https://gitlab.com/juanitobananas/scrambled-exif#scrambled-exif){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -69,7 +69,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     **Imagepipe** is a a paint app for Android that can be used to redact photos and also delete Exif metadata. It has been translated into [many](https://codeberg.org/Starfish/Imagepipe#translations) languages.
 
-    [Visit codeberg.org](https://codeberg.org/Starfish/Imagepipe){ .md-button .md-button--primary }
+    [Project Info](https://codeberg.org/Starfish/Imagepipe#imagepipe){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -90,7 +90,7 @@ Imagepipe is only available from F-Droid and not in Google Play. If you're looki
 
     Metapho is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
 
-    [Visit zininworks.com](https://zininworks.com/metapho){ .md-button .md-button--primary } [Privacy Policy](https://zininworks.com/privacy/){ .md-button }
+    [Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary } [Privacy Policy](https://zininworks.com/privacy/){ .md-button }
 
     ??? downloads
 
@@ -108,7 +108,7 @@ Imagepipe is only available from F-Droid and not in Google Play. If you're looki
 
     It's often a component of other Exif removal applications and is in most Linux distribution repositories.
 
-    [Visit exiftool.org](https://exiftool.org){ .md-button .md-button--primary }
+    [Homepage](https://exiftool.org){ .md-button .md-button--primary }
 
     ??? downloads
 

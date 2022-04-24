@@ -17,7 +17,7 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
     **Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle a large number of markdown notes organized into notebooks and tags. It offers E2EE and can sync through Nextcloud, Dropbox, and more. It also offers easy import from Evernote and plain-text notes.
 
-    [Visit joplinapp.org](https://joplinapp.org/){ .md-button .md-button--primary }
+    [Website](https://joplinapp.org/){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -41,7 +41,7 @@ Joplin does not support password/pin protection for the [application itself or i
 
     Standard Notes is a simple and private notes app that makes your notes easy and available everywhere you are. It features E2EE on every platform, and a powerful desktop experience with themes and custom editors. It has also been [independently audited (PDF)](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
 
-    [Visit standardnotes.com](https://standardnotes.com){ .md-button .md-button--primary }
+    [Website](https://standardnotes.com){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -64,7 +64,7 @@ Joplin does not support password/pin protection for the [application itself or i
 
     [etebase](https://docs.etebase.com), which is the foundation of EteSync, can also be used by other apps as a backend to store data end-to-end encrypted (E2EE).
 
-    [Visit etesync.com](https://www.etesync.com){ .md-button .md-button--primary }  [Privacy Policy](https://www.etesync.com/tos/#privacy){ .md-button }
+    [Website](https://www.etesync.com){ .md-button .md-button--primary }  [Privacy Policy](https://www.etesync.com/tos/#privacy){ .md-button }
 
     ??? downloads
 
@@ -84,7 +84,7 @@ Joplin does not support password/pin protection for the [application itself or i
 
     **Org-mode** is a [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system. Synchronization is possible with [file synchronization](/software/file-sharing/#sync) tools.
 
-    [Visit orgmode.org](https://orgmode.org){ .md-button .md-button--primary }
+    [Homepage](https://orgmode.org){ .md-button .md-button--primary }
 
     ??? downloads
 

@@ -15,7 +15,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     **Fluent Reader** is a secure cross-platform news aggregator that has useful privacy features such as deletion of cookies on exit, strict [content security policies (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) and proxy support, meaning you can use it over [Tor](self-contained-networks.md#tor).
 
-    [Visit hyliu.me](https://hyliu.me/fluent-reader){ .md-button .md-button--primary } [Privacy Policy](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .md-button }
+    [Homepage](https://hyliu.me/fluent-reader){ .md-button .md-button--primary } [Privacy Policy](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .md-button }
 
     ??? downloads
 
@@ -31,7 +31,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     **GNOME Feeds** is an [RSS](https://en.wikipedia.org/wiki/RSS) and [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) news reader for [GNOME](https://www.gnome.org). It has a simple interface and is quite fast.
 
-    [Visit gfeeds.gabmus.org](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
+    [Homepage](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -47,7 +47,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     **Akregator** is a news feed reader that is a part of the [KDE](https://kde.org) project. It comes with a fast search, advanced archiving functionality and an internal browser for easy news reading.
 
-    [Visit kde.org](https://apps.kde.org/akregator){ .md-button .md-button--primary } [Privacy Policy](https://kde.org/privacypolicy-apps){ .md-button }
+    [Website](https://apps.kde.org/akregator){ .md-button .md-button--primary } [Privacy Policy](https://kde.org/privacypolicy-apps){ .md-button }
 
     ??? downloads
 
@@ -62,7 +62,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     **Handy News Reader** is a fork of [Flym](https://github.com/FredJul/Flym) that has many [features](https://github.com/yanus171/Handy-News-Reader#features) and works well with folders of RSS feeds. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) and [RDF](https://en.wikipedia.org/wiki/RDF%2FXML).
 
-    [Visit yanus171.github.io](https://yanus171.github.io/Handy-News-Reader/){ .md-button .md-button--primary }
+    [Homepage](https://yanus171.github.io/Handy-News-Reader/){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -78,7 +78,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     **NetNewsWire** a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. It supports the typical feed formats alongside built-in support for Twitter and Reddit feeds.
 
-    [Visit netnewswire.com](https://netnewswire.com/){ .md-button .md-button--primary } [Privacy Policy](https://netnewswire.com/privacypolicy){ .md-button }
+    [Homepage](https://netnewswire.com/){ .md-button .md-button--primary } [Privacy Policy](https://netnewswire.com/privacypolicy){ .md-button }
 
     ??? downloads
 
@@ -95,7 +95,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     **Miniflux** is a web-based news aggregator that you can self-host. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
-    [Visit miniflux.app](https://miniflux.app){ .md-button .md-button--primary }
+    [Homepage](https://miniflux.app){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -109,7 +109,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     **Newsboat** is an RSS/Atom feed reader for the text console. It's an actively maintained fork of [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). It is very lightweight, and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
 
-    [Visit newsboat.org](https://newsboat.org){ .md-button .md-button--primary }
+    [Homepage](https://newsboat.org){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -122,6 +122,7 @@ Some social media services also support RSS although it's not often advertised.
 ### YouTube
 
 You can subscribe YouTube channels without logging in and associating usage information with your Google Account.
+
 !!! example
 
     To subscribe to a YouTube channel with an RSS client, first look for your [channel code](https://support.google.com/youtube/answer/6180214), replace `channel_id` below:

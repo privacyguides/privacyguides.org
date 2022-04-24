@@ -14,7 +14,7 @@ Trust your provider by using an alternative below that supports E2EE.
 
     **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control. It also comes with experimental E2EE.
 
-    [Visit nextcloud.com](https://nextcloud.com){ .md-button .md-button--primary } [Privacy Policy](https://nextcloud.com/privacy){ .md-button }
+    [Homepage](https://nextcloud.com){ .md-button .md-button--primary } [Privacy Policy](https://nextcloud.com/privacy){ .md-button }
 
     ??? downloads
 
@@ -41,7 +41,7 @@ When self hosting Nextcloud, you should also remember to enable E2EE to protect 
 
     **Proton Drive** is an E2EE general file storage service by the popular encrypted email provider [ProtonMail](https://protonmail.com).
 
-    [Visit drive.protonmail.com](https://drive.protonmail.com){ .md-button .md-button--primary } [Privacy Policy](https://protonmail.com/privacy-policy){ .md-button }
+    [Website](https://drive.protonmail.com){ .md-button .md-button--primary } [Privacy Policy](https://protonmail.com/privacy-policy){ .md-button }
 
     ??? downloads
 
@@ -60,7 +60,7 @@ When using a web client, you are placing trust in the server to send you proper 
 
     **Cryptee** is an encrypted, secure photo storage service, and an encrypted documents editor to write personal docs, notes, journals, store files & more.
 
-    [Visit crypt.ee](https://crypt.ee){ .md-button .md-button--primary } [Privacy Policy](https://crypt.ee/privacy){ .md-button }
+    [Website](https://crypt.ee){ .md-button .md-button--primary } [Privacy Policy](https://crypt.ee/privacy){ .md-button }
 
     ??? downloads
 
@@ -80,7 +80,7 @@ When using a web client, you are placing trust in the server to send you proper 
 
     **Tahoe-LAFS** is a free and open decentralized cloud storage system. It distributes your data across multiple servers. Even if some of the servers fail or are taken over by an attacker, the entire file store continues to function correctly, preserving your privacy and security. The servers used as storage pools do not have access to your data.
 
-    [Visit tahoe-lafs.org](https://www.tahoe-lafs.org){ .md-button .md-button--primary }
+    [Homepage](https://www.tahoe-lafs.org){ .md-button .md-button--primary }
 
     ??? downloads
 

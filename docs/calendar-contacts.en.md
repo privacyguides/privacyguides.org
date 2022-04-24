@@ -17,7 +17,7 @@ These products are included with an subscription with their respective [email pr
 
     **Tutanota** has an [encrypted calendar](https://tutanota.com/blog/posts/free-encrypted-calendar/) in their desktop and mobile clients.
 
-    [Visit tutanota.com](https://tutanota.com/calendar){ .md-button .md-button--primary } [Privacy Policy](https://tutanota.com/privacy){ .md-button }
+    [Website](https://tutanota.com/calendar){ .md-button .md-button--primary } [Privacy Policy](https://tutanota.com/privacy){ .md-button }
 
     ??? downloads
 
@@ -38,7 +38,7 @@ These products are included with an subscription with their respective [email pr
 
     **Proton Calendar** is an calendar app that is available to ProtonMail users. All data stored within it is end-to-end encrypted when stored on ProtonMail's servers.
 
-    [Visit calendar.protonmail.com](https://calendar.protonmail.com){ .md-button .md-button--primary } [Privacy Policy](https://protonmail.com/privacy-policy){ .md-button }
+    [Website](https://calendar.protonmail.com){ .md-button .md-button--primary } [Privacy Policy](https://protonmail.com/privacy-policy){ .md-button }
 
     ??? downloads
 
@@ -59,7 +59,7 @@ Some of these options are self-hostable, but could be offered by third party Saa
 
     EteSync also offers optional software as a service for [$24 per year](https://dashboard.etebase.com/user/partner/pricing/) to use, or you can host the server yourself for free.
 
-    [Visit etesync.com](https://www.etesync.com){ .md-button .md-button--primary } [Privacy Policy](https://www.etesync.com/tos/#privacy){ .md-button }
+    [Website](https://www.etesync.com){ .md-button .md-button--primary } [Privacy Policy](https://www.etesync.com/tos/#privacy){ .md-button }
 
     ??? downloads
 
@@ -79,7 +79,7 @@ Some of these options are self-hostable, but could be offered by third party Saa
 
     You can self host Nextcloud or pay for service from a [provider](https://nextcloud.com/signup/).
 
-    [Visit nextcloud.com](https://nextcloud.com/){ .md-button .md-button--primary }
+    [Homepage](https://nextcloud.com/){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -102,12 +102,11 @@ Some of these options are self-hostable, but could be offered by third party Saa
 
     There are [plugins](https://github.com/39aldo39/DecSync#rss) to sync other types of data such as [RSS](news-aggregators.md).
 
-    [Visit github.com](https://github.com/39aldo39/DecSync){ .md-button .md-button--primary }
+    [Project Info](https://github.com/39aldo39/DecSync#readme){ .md-button .md-button--primary }
 
     ??? downloads
 
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.decsync.cc)
         - [:pg-f-droid: F-Droid](https://f-droid.org/packages/org.decsync.cc)
-        - [:fontawesome-brands-github: Source](https://github.com/39aldo39/DecSync)
 
 --8<-- "includes/abbreviations.en.md"

@@ -22,7 +22,7 @@ These password managers store the password database locally.
 
     **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, fully cross-platform and modern open-source password manager.
 
-    [Visit keepassxc.org](https://keepassxc.org){ .md-button .md-button--primary } [Privacy Policy](https://keepassxc.org/privacy){ .md-button }
+    [Homepage](https://keepassxc.org){ .md-button .md-button--primary } [Privacy Policy](https://keepassxc.org/privacy){ .md-button }
 
     ??? downloads
 
@@ -46,7 +46,7 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
     For more details, we recommend looking at their [FAQ](https://github.com/Kunzisoft/KeePassDX/wiki/FAQ).
 
-    [Visit keepassdx.com](https://www.keepassdx.com){ .md-button .md-button--primary }
+    [Homepage](https://www.keepassdx.com){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -66,7 +66,7 @@ These password managers sync up to a cloud server that may be self-hostable.
 
     **Bitwarden** is a free and open-source password manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the easiest and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices. If you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden server.
 
-    [Visit bitwarden.com](https://bitwarden.com){ .md-button .md-button--primary } [Privacy Policy](https://bitwarden.com/privacy){ .md-button }
+    [Website](https://bitwarden.com){ .md-button .md-button--primary } [Privacy Policy](https://bitwarden.com/privacy){ .md-button }
 
     ??? downloads
 
@@ -90,7 +90,7 @@ These password managers sync up to a cloud server that may be self-hostable.
 
     **Psono** is a free and open source password manager from Germany, with a focus on password management for teams. It can be [self-hosted](#password-management-servers). Psono supports secure sharing of passwords, files, bookmarks, and emails. All secrets are protected by a master password.
 
-    [Visit psono.com](https://psono.com){ .md-button .md-button--primary } [Privacy Policy](https://psono.com/privacy-policy){ .md-button }
+    [Website](https://psono.com){ .md-button .md-button--primary } [Privacy Policy](https://psono.com/privacy-policy){ .md-button }
 
     ??? downloads
 
@@ -114,7 +114,7 @@ These products are self-hostable synchronization for cloud based password manage
 
     **Vaultwarden** is an alternative implementation of the Bitwarden server API written in Rust and compatible with upstream Bitwarden clients, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal.
 
-    [Visit github.com](https://github.com/dani-garcia/vaultwarden){ .md-button .md-button--primary }
+    [Project Info](https://github.com/dani-garcia/vaultwarden#readme){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -129,7 +129,7 @@ These products are self-hostable synchronization for cloud based password manage
 
     Psono provides [extensive documentation](https://doc.psono.com/) for their product. The [web-client](https://doc.psono.com/admin/installation/install-webclient.html#installation-with-docker) for Psono can be self hosted; alternatively, you can choose the the full [Community Edition](https://doc.psono.com/admin/installation/install-server-ce.html) or the [Enterprise Edition](https://doc.psono.com/admin/installation/install-server-ee.html) with additional features.
 
-    [Visit gitlab.com](https://gitlab.com/psono/psono-server){ .md-button .md-button--primary } [Privacy Policy](https://psono.com/privacy-policy){ .md-button }
+    [Source Code](https://gitlab.com/psono/psono-server){ .md-button .md-button--primary } [Privacy Policy](https://psono.com/privacy-policy){ .md-button }
 
     ??? downloads
 
@@ -148,7 +148,7 @@ These products are minimal password managers that can be used within scripting a
 
     **gopass** is a password manager for the command line written in Go. It works on all major desktop and server operating systems (Linux, MacOS, BSD, Windows).
 
-    [Visit gopass.pw](https://www.gopass.pw){ .md-button .md-button--primary }
+    [Homepage](https://www.gopass.pw){ .md-button .md-button--primary }
 
     ??? downloads
 

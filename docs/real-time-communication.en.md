@@ -14,7 +14,7 @@ icon: material/chat-processing
 
     All communications are E2EE. Contact lists are encrypted using your login PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts who add you.
 
-    [Visit signal.org](https://signal.org/){ .md-button .md-button--primary }
+    [Homepage](https://signal.org/){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -43,7 +43,7 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
     Messages and files shared in private rooms (those which require an invite) are by default E2EE as are 1 to 1 voice and video calls.
 
-    [Visit element.io](https://element.io/){ .md-button .md-button--primary }
+    [Website](https://element.io/){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -71,7 +71,7 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
 
     **Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works/) to other clients using the Tor Network. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
 
-    [Visit briarproject.org](https://briarproject.org/){ .md-button .md-button--primary }
+    [Homepage](https://briarproject.org/){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -95,7 +95,7 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
 
     **Session** is an encrypted instant messenger that uses three random [service nodes](https://getsession.org/blog/onion-requests-session-new-message-routing-solution) to route messages anonymously on the [Oxen Network](https://oxen.io).
 
-    [Visit getsession.org](https://getsession.org/){ .md-button .md-button--primary }
+    [Homepage](https://getsession.org/){ .md-button .md-button--primary }
 
     ??? downloads
 

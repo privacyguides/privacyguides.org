@@ -38,7 +38,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     **EUR €60/year**
 
-    [Visit Mullvad.net](https://mullvad.net){ .md-button .md-button--primary }
+    [Website](https://mullvad.net){ .md-button .md-button--primary } [:pg-tor:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .md-button }
 
 ??? check "35 Countries"
 
@@ -98,7 +98,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     **Free** - **Basic Plan USD $48/year** - **Plus Plan USD $96/year**
 
-    [Visit ProtonVPN.com](https://protonvpn.com/){ .md-button .md-button--primary }
+    [Website](https://protonvpn.com/){ .md-button .md-button--primary }
 
 ??? check "44 Countries"
 
@@ -146,7 +146,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     **Standard USD $60/year** - **Pro USD $100/year**
 
-    [Visit IVPN.net](https://www.ivpn.net/){ .md-button .md-button--primary }
+    [Website](https://www.ivpn.net/){ .md-button .md-button--primary }
 
 ??? check "32 Countries"
 

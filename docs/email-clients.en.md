@@ -19,7 +19,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     **Thunderbird** is a free, open source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Twitter) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
 
-    [Visit thunderbird.net](https://www.thunderbird.net){ .md-button .md-button--primary } [Privacy Policy](https://www.mozilla.org/privacy/thunderbird){ .md-button }
+    [Homepage](https://www.thunderbird.net){ .md-button .md-button--primary } [Privacy Policy](https://www.mozilla.org/privacy/thunderbird){ .md-button }
 
     ??? downloads
 
@@ -41,7 +41,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     **Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption/#gpg-suite), which adds the ability to send encrypted email.
 
-    [Visit apple.com](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary } [Privacy Policy](https://www.apple.com/legal/privacy/en-ww/){ .md-button }
+    [Website](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary } [Privacy Policy](https://www.apple.com/legal/privacy/en-ww/){ .md-button }
 
 ### GNOME Evolution
 
@@ -51,7 +51,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     **Evolution** is a personal information management application that provides integrated mail, calendaring and address book functionality. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable/) to help you get started.
 
-    [Visit gnome.org](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary } [Privacy Policy](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .md-button }
+    [Website](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary } [Privacy Policy](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .md-button }
 
     ??? downloads
 
@@ -66,7 +66,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     **Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. It provides a mail client, address book, organizer and RSS client.
 
-    [Visit kontact.kde.org](https://kontact.kde.org){ .md-button .md-button--primary } [Privacy Policy](https://kde.org/privacypolicy-apps){ .md-button }
+    [Website](https://kontact.kde.org){ .md-button .md-button--primary } [Privacy Policy](https://kde.org/privacypolicy-apps){ .md-button }
 
     ??? downloads
 
@@ -82,7 +82,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     **Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
 
-    [Visit mailvelope.com](https://www.mailvelope.com){ .md-button .md-button--primary } [Privacy Policy](https://www.mailvelope.com/en/privacy-policy){ .md-button }
+    [Homepage](https://www.mailvelope.com){ .md-button .md-button--primary } [Privacy Policy](https://www.mailvelope.com/en/privacy-policy){ .md-button }
 
     ??? downloads
 
@@ -99,7 +99,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     **K-9 Mail** is an independent mail application that supports both POP3 and IMAP mailboxes, but only supports push mail for IMAP.
 
-    [Visit k9mail.app](https://k9mail.app){ .md-button .md-button--primary } [Privacy Policy](https://k9mail.app/privacy){ .md-button }
+    [Homepage](https://k9mail.app){ .md-button .md-button--primary } [Privacy Policy](https://k9mail.app/privacy){ .md-button }
 
     ??? downloads
 
@@ -115,7 +115,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     **FairEmail** is a minimal, open source email app, using open standards (IMAP, SMTP, OpenPGP) with a low data and battery usage.
 
-    [Visit email.faircode.eu](https://email.faircode.eu){ .md-button .md-button--primary } [Privacy Policy](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .md-button }
+    [Homepage](https://email.faircode.eu){ .md-button .md-button--primary } [Privacy Policy](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .md-button }
 
     ??? downloads
 
@@ -131,7 +131,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     **Canary Mail** is a paid email client designed to make end-to-end encryption seamless with security features such as a biometric app lock.
 
-    [Visit canarymail.io](https://canarymail.io){ .md-button .md-button--primary } [Privacy Policy](https://canarymail.io/privacy.html){ .md-button }
+    [Homepage](https://canarymail.io){ .md-button .md-button--primary } [Privacy Policy](https://canarymail.io/privacy.html){ .md-button }
 
     ??? downloads
 
@@ -156,7 +156,7 @@ Canary Mail is closed source. We recommend it, due to the few choices there are 
 
     NeoMutt is a text-based client that has a steep learning curve. It is however, very customizable.
 
-    [Visit neomutt.org](https://neomutt.org){ .md-button .md-button--primary }
+    [Homepage](https://neomutt.org){ .md-button .md-button--primary }
 
     ??? downloads
 

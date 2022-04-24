@@ -14,7 +14,7 @@ If you are currently browsing clearnet and want to access the dark web, this sec
 
     The **Tor** network is a group of volunteer-operated servers that allows people to improve their privacy and security on the Internet. Tor's users employ this network by connecting through a series of virtual tunnels rather than making a direct connection, thus allowing both organizations and individuals to share information over public networks without compromising their privacy. Tor is an effective censorship circumvention tool.
 
-    [Visit torproject.org](https://www.torproject.org){ .md-button .md-button--primary } [:pg-tor:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .md-button }
+    [Homepage](https://www.torproject.org){ .md-button .md-button--primary } [:pg-tor:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .md-button }
 
     ??? downloads
 
@@ -38,7 +38,7 @@ If you are currently browsing clearnet and want to access the dark web, this sec
 
     **I2P** is a computer network layer that allows applications to send messages to each other pseudonymously and securely. Uses include anonymous Web surfing, chatting, blogging, and file transfers. The software that implements this layer is called an I2P router and a computer running I2P is called an I2P node. The software is free and open-source and is published under multiple licenses.
 
-    [Visit geti2p.net](https://geti2p.net){ .md-button .md-button--primary } [:pg-i2p:](http://i2p-projekt.i2p){ .md-button }
+    [Homepage](https://geti2p.net){ .md-button .md-button--primary } [:pg-i2p:](http://i2p-projekt.i2p){ .md-button }
 
     ??? downloads
 
@@ -61,7 +61,7 @@ If you are currently browsing clearnet and want to access the dark web, this sec
 
     **Freenet** is a peer-to-peer platform for censorship-resistant communication. It uses a decentralized distributed data store to keep and deliver information, and has a suite of free software for publishing and communicating on the Web without fear of censorship. Both Freenet and some of its associated tools were originally designed by Ian Clarke, who defined Freenet's goal as providing freedom of speech on the Internet with strong anonymity protection.
 
-    [Visit freenetproject.org/](https://freenetproject.org){ .md-button .md-button--primary }
+    [Homepage](https://freenetproject.org){ .md-button .md-button--primary }
 
     ??? downloads
 

@@ -27,7 +27,7 @@ We recommend installing one of these custom Android operating systems on your de
 
     GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wiki/Hardening_(computing)) and privacy improvements. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
 
-    [Visit grapheneos.org](https://grapheneos.org/){ .md-button .md-button--primary } [Privacy Policy](https://grapheneos.org/faq#privacy-policy){ .md-button }
+    [Homepage](https://grapheneos.org/){ .md-button .md-button--primary } [Privacy Policy](https://grapheneos.org/faq#privacy-policy){ .md-button }
 
 GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) fully sandboxed like a regular user app. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging/), while having full user control over their permissions and access, and while containing them to a specific work profile or user [profile](android/overview.md#user-profiles) of your choice.
 
@@ -41,7 +41,7 @@ Google Pixel phones are the only devices that currently meet GrapheneOS's [hardw
 
     **CalyxOS** is a system with some privacy features on top of AOSP, including [Datura](https://calyxos.org/docs/tech/datura-details) firewall, [Signal](https://signal.org) integration in the dialer app, and a built in panic button. CalyxOS also comes with firmware updates and signed builds, so verified boot is fully supported.
 
-    [Visit calyxos.org](https://calyxos.org/){ .md-button .md-button--primary } [Privacy Policy](https://calyxinstitute.org/legal/privacy-policy){ .md-button }
+    [Homepage](https://calyxos.org/){ .md-button .md-button--primary } [Privacy Policy](https://calyxinstitute.org/legal/privacy-policy){ .md-button }
 
 To accomodate users who need Google Play Services, CalyxOS optionally includes [microG](https://microg.org/). CalyxOS also includes alternate location services, [Mozilla](https://location.services.mozilla.com/) and [DejaVu](https://github.com/n76/DejaVu).
 
@@ -56,7 +56,7 @@ CalyxOS only [supports](https://calyxos.org/docs/guide/device-support/) Google P
     **DivestOS** is a soft-fork of [LineageOS](https://lineageos.org/).
     DivestOS inherits many [supported devices](https://divestos.org/index.php?page=devices&base=LineageOS) from LineageOS. It has signed builds, making it possible to have [verified boot](https://source.android.com/security/verifiedboot) on some non-Pixel devices.
 
-    [Visit divestos.org](https://divestos.org){ .md-button .md-button--primary } [Privacy Policy](https://divestos.org/index.php?page=privacy_policy){ .md-button }
+    [Homepage](https://divestos.org){ .md-button .md-button--primary } [Privacy Policy](https://divestos.org/index.php?page=privacy_policy){ .md-button }
 
 DivestOS has automated kernel vulnerability ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), fewer proprietary blobs, a custom [hosts](https://divested.dev/index.php?page=dnsbl) file, and [F-Droid](https://www.f-droid.org) as the app store. It includes [UnifiedNlp](https://github.com/microg/UnifiedNlp) for network location. Its hardened WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), enables [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) for all architectures and includes [network state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning).
 
@@ -92,7 +92,7 @@ A few more tips regarding Android devices and operating system compatibility:
 
     Beginning with the **Pixel 6** and **6 Pro**, Pixel devices receive a minimum of 5 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-4 years competing OEMs typically offer.
 
-    [Visit store.google.com](https://store.google.com/category/phones){ .md-button .md-button--primary }
+    [Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
 Unless you have a need for specific [CalyxOS features](https://calyxos.org/features/) that are unavailable on GrapheneOS, we strongly recommend GrapheneOS over other operating system choices on Pixel devices.
 
@@ -145,7 +145,7 @@ Fairphone markets their devices as receiving 6 years of support. However, the So
 
     **Orbot** is a free proxy app that routes your connections through the Tor Network.
 
-    [Visit orbot.app](https://orbot.app/){ .md-button .md-button--primary }
+    [Homepage](https://orbot.app/){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -174,14 +174,13 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
 
     Shelter supports blocking contact search cross profiles and sharing files across profiles via the default file manager ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
 
-    [Visit gitea.angry.im](https://gitea.angry.im/PeterCxy/Shelter){ .md-button .md-button--primary }
+    [Project Info](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
 
     ??? downloads
 
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=net.typeblog.shelter)
         - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/net.typeblog.shelter)
         - [:fontawesome-brands-github: GitHub](https://github.com/PeterCxy/Shelter)
-        - [:fontawesome-brands-git-alt: Source](https://gitea.angry.im/PeterCxy/Shelter)
 
 !!! attention
 
@@ -200,7 +199,7 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
 
     **Auditor** is an app which leverages hardware security features to provide device integrity monitoring for [supported devices](https://attestation.app/about#device-support). Currently it works with GrapheneOS and the device's stock operating system.
 
-    [Visit attestation.app](https://attestation.app){ .md-button .md-button--primary }
+    [Website](https://attestation.app){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -229,7 +228,7 @@ To make sure that your hardware and operating system is genuine, [perform local 
 
       **Secure Camera** is an camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
 
-    [Visit github.com](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
+    [Source Code](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -259,7 +258,7 @@ Main privacy features include:
 
     [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) is used to enforce that the JavaScript and styling properties within the WebView are entirely static content.
 
-    [Visit github.com](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
+    [App Info](https://github.com/GrapheneOS/PdfViewer#readme){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -274,7 +273,7 @@ Main privacy features include:
 
     **PrivacyBlur** is a free app which can blur sensitive portions of pictures before sharing them online.
 
-    [Visit privacyblur.app](https://privacyblur.app/){ .md-button .md-button--primary }
+    [Website](https://privacyblur.app/){ .md-button .md-button--primary }
 
     ??? downloads
 

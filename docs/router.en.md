@@ -13,7 +13,7 @@ Below are a few alternative operating systems, that can be used on routers, Wi-F
 
     **OpenWrt** is an operating system (in particular, an embedded operating system) based on the Linux kernel, primarily used on embedded devices to route network traffic. The main components are the Linux kernel, util-linux, uClibc, and BusyBox. All components have been optimized for size, to be small enough for fitting into the limited storage and memory available in home routers.
 
-    [Visit openwrt.org](https://openwrt.org){ .md-button .md-button--primary }
+    [Homepage](https://openwrt.org){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -30,7 +30,7 @@ You can consult OpenWrt's [table of hardware](https://openwrt.org/toh/start) to 
 
     pfSense is an open source firewall/router computer software distribution based on FreeBSD. It is installed on a computer to make a dedicated firewall/router for a network and is noted for its reliability and offering features often only found in expensive commercial firewalls. pfSense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and VPN endpoint.
 
-    [Visit pfsense.org](https://www.pfsense.org){ .md-button .md-button--primary } [Privacy Policy](https://www.pfsense.org/privacy.html){ .md-button }
+    [Homepage](https://www.pfsense.org){ .md-button .md-button--primary } [Privacy Policy](https://www.pfsense.org/privacy.html){ .md-button }
 
     ??? downloads
 

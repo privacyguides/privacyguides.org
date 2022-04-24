@@ -16,7 +16,7 @@ The primary threat when using a video streaming platform is that your streaming 
 
     By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
 
-    [Visit freetubeapp.io](https://freetubeapp.io){ .md-button .md-button--primary } [Privacy Policy](https://freetubeapp.io/privacy.php){ .md-button }
+    [Homepage](https://freetubeapp.io){ .md-button .md-button--primary } [Privacy Policy](https://freetubeapp.io/privacy.php){ .md-button }
 
     ??? downloads
 
@@ -40,7 +40,7 @@ The primary threat when using a video streaming platform is that your streaming 
 
     **The LBRY desktop client** helps you stream videos from the LBRY network and stores your subscription list in your own LBRY wallet.
 
-    [Visit lbry.com](https://lbry.com){ .md-button .md-button--primary } [Privacy Policy](https://lbry.com/privacypolicy){ .md-button }
+    [Website](https://lbry.com){ .md-button .md-button--primary } [Privacy Policy](https://lbry.com/privacypolicy){ .md-button }
 
     ??? downloads
 
@@ -71,7 +71,7 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
 
     Your subscription list and playlists are saved locally on your Android device.
 
-    [Visit newpipe.net](https://newpipe.net){ .md-button .md-button--primary } [Privacy Policy](https://newpipe.net/legal/privacy){ .md-button }
+    [Homepage](https://newpipe.net){ .md-button .md-button--primary } [Privacy Policy](https://newpipe.net/legal/privacy){ .md-button }
 
     ??? downloads
 
@@ -103,7 +103,7 @@ This fork is not endorsed by or affiliated with the upstream project. The NewPip
 
     **Invidious** is a free and open source front end for YouTube that is also self-hostable. There are list of [public instances](https://instances.invidious.io). Some instances have [Tor](https://www.torproject.org) onion services support.
 
-    [Visit invidious.io](https://invidious.io){ .md-button .md-button--primary } [Privacy Policy](){ .md-button }
+    [Website](https://invidious.io){ .md-button .md-button--primary } [Privacy Policy](){ .md-button }
 
     ??? downloads
 
@@ -132,7 +132,7 @@ When you are using an Invidious instance, be sure to go read the Privacy Policy 
 
     Piped requires JavaScript in order to function.
 
-    [Visit piped.kavin.rocks](https://piped.kavin.rocks/){ .md-button .md-button--primary }
+    [Website](https://piped.kavin.rocks/){ .md-button .md-button--primary }
 
     ??? downloads
 

@@ -14,7 +14,7 @@ Get working and collaborating without sharing your documents with a middleman or
 
     **LibreOffice** is a free and open-source office suite with extensive functionality.
 
-    [Visit libreoffice.org](https://www.libreoffice.org){ .md-button .md-button--primary } [Privacy Policy](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .md-button }
+    [Homepage](https://www.libreoffice.org){ .md-button .md-button--primary } [Privacy Policy](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .md-button }
 
     ??? downloads
 
@@ -37,7 +37,7 @@ Get working and collaborating without sharing your documents with a middleman or
 
     **OnlyOffice** is alternative, it is free and open-source office suite with extensive functionality.
 
-    [Visit onlyoffice.com](https://www.onlyoffice.com){ .md-button .md-button--primary } [Privacy Policy](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .md-button }
+    [Homepage](https://www.onlyoffice.com){ .md-button .md-button--primary } [Privacy Policy](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .md-button }
 
     ??? downloads
 
@@ -59,7 +59,7 @@ Get working and collaborating without sharing your documents with a middleman or
 
     **Framadate** is a free and open-source online service for planning an appointment or making a decision quickly and easily. No registration is required.
 
-    [Visit framadate.org](https://framadate.org){ .md-button .md-button--primary }
+    [Homepage](https://framadate.org){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -75,7 +75,7 @@ Get working and collaborating without sharing your documents with a middleman or
 
     **PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin.
 
-    [Visit privatebin.info](https://privatebin.info){ .md-button .md-button--primary }
+    [Website](https://privatebin.info){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -92,7 +92,7 @@ Get working and collaborating without sharing your documents with a middleman or
 
     **CryptPad** is a private-by-design alternative to popular office tools. All content is end-to-end encrypted.
 
-    [Visit cryptpad.fr](https://cryptpad.fr){ .md-button .md-button--primary } [Privacy Policy](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .md-button }
+    [Website](https://cryptpad.fr){ .md-button .md-button--primary } [Privacy Policy](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .md-button }
 
     ??? downloads
 
@@ -112,7 +112,7 @@ Get working and collaborating without sharing your documents with a middleman or
 
     **Write.as** is a cross-platform, privacy-oriented blogging platform. It's anonymous by default, letting you publish without signing up. If you create an account, it doesn't require any personal information. No ads, distraction-free, and built on a sustainable business model.
 
-    [Visit write.as](https://write.as){ .md-button .md-button--primary } [:pg-tor:](http://writeasw4b635r4o3vec6mu45s47ohfyro5vayzx2zjwod4pjswyovyd.onion){ .md-button } [Privacy Policy](https://write.as/privacy){ .md-button }
+    [Website](https://write.as){ .md-button .md-button--primary } [:pg-tor:](http://writeasw4b635r4o3vec6mu45s47ohfyro5vayzx2zjwod4pjswyovyd.onion){ .md-button } [Privacy Policy](https://write.as/privacy){ .md-button }
 
     ??? downloads
 
@@ -134,7 +134,7 @@ Get working and collaborating without sharing your documents with a middleman or
 
     **VSCodium** is a free and open-source project featuring binaries of [Visual Studio Code](https://code.visualstudio.com) without Microsoft's branding/telemetry/licensing.
 
-    [Visit vscodium.com](https://vscodium.com){ .md-button .md-button--primary }
+    [Homepage](https://vscodium.com){ .md-button .md-button--primary }
 
     ??? downloads
 
