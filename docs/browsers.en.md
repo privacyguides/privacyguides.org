@@ -108,7 +108,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
     ![Bromite logo](assets/img/browsers/bromite.svg){ align=right }
 
-    **Bromite** is a [Chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser))-based browser with privacy and security enhancements, built-in ad blocking, and some fingerprinting randomization.
+    **Bromite** is a Chromium-based browser with privacy and security enhancements, built-in ad blocking, and some fingerprinting randomization.
 
     [Visit bromite.org](https://www.bromite.org){ .md-button .md-button--primary } [Privacy Policy](https://www.bromite.org/privacy){ .md-button }
 

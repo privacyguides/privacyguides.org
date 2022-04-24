@@ -326,7 +326,7 @@ We regard these features as important in order to provide a safe and optimal ser
 - Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
 - Availability of the email provider's services via an [onion service](https://en.wikipedia.org/wiki/.onion).
 - [Subaddressing](https://en.wikipedia.org/wiki/Email_address#Subaddressing) support.
-- [Catch all](https://en.wikipedia.org/wiki/Email_filtering) or [aliases](https://en.wikipedia.org/wiki/Email_alias) for users who own their own domains.
+- Catch-all or alias functionality for users who own their own domains.
 - Use of standard email access protocols such as IMAP, SMTP or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 
 ### Privacy
@@ -421,7 +421,7 @@ E2EE is a way of encrypting email contents so that nobody but the recipient(s) c
 
 ### How can I encrypt my email?
 
-The standard way to do email E2EE and have it work between different email providers is with [OpenPGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP). There are different implementations of the OpenPGP standard, the most common being [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) and [OpenPGP.js](https://openpgpjs.org).
+The standard way to do email E2EE and have it work between different email providers is with OpenPGP. There are different implementations of the OpenPGP standard, the most common being [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) and [OpenPGP.js](https://openpgpjs.org).
 
 There is another standard that was popular with business called [S/MIME](https://en.wikipedia.org/wiki/S/MIME), however it requires a certificate issued from a [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (not all of them issue S/MIME certificates). It has support in [Google Workplace](https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
 

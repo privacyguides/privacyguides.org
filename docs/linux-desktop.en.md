@@ -20,7 +20,7 @@ If you don't already use Linux, below are some distributions we suggest trying o
 
     [Visit getfedora.org](https://getfedora.org/){ .md-button .md-button--primary }
 
-Fedora has a semi-[rolling release](https://en.wikipedia.org/wiki/Rolling_release) cycle. While some packages like [GNOME](https://www.gnome.org) are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Each Fedora release is supported for one year, with a new version released every 6 months.
+Fedora has a semi-rolling release cycle. While some packages like [GNOME](https://www.gnome.org) are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Each Fedora release is supported for one year, with a new version released every 6 months.
 
 ### openSUSE Tumbleweed
 
@@ -28,7 +28,7 @@ Fedora has a semi-[rolling release](https://en.wikipedia.org/wiki/Rolling_releas
 
     ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
 
-    **openSUSE Tumbleweed** is a stable [rolling release](https://en.wikipedia.org/wiki/Rolling_release) distribution.
+    **openSUSE Tumbleweed** is a stable rolling release distribution.
 
     openSUSE Tumbleweed has a [transactional update](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/) system that uses [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) to ensure that snapshots can be rolled back should there be a problem.
 
@@ -130,15 +130,15 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 ### Drive Encryption
 
-Most Linux distributions have an installer option for enabling [LUKS](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) FDE upon installation.
+Most Linux distributions have an installer option for enabling LUKS FDE upon installation.
 
-If this option isn’t set at installation time, the user will have to backup their data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning) but before [file systems](https://en.wikipedia.org/wiki/File_system) are [formatted](https://en.wikipedia.org/wiki/Disk_formatting).
+If this option isn’t set at installation time, the user will have to backup their data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted.
 
-When securely erasing storage devices such as a [Solid-state drive (SSD)](https://en.wikipedia.org/wiki/Solid-state_drive) you should use the [ATA Secure Erase](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) command. This command can be issued from your UEFI setup. If the storage device is a regular [hard drive](https://en.wikipedia.org/wiki/Hard_disk_drive), consider using [`nwipe`](https://en.wikipedia.org/wiki/Nwipe).
+When securely erasing storage devices such as a Solid-state drive (SSD) you should use the [ATA Secure Erase](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) command. This command can be issued from your UEFI setup. If the storage device is a regular hard drive (HDD), consider using [`nwipe`](https://en.wikipedia.org/wiki/Nwipe).
 
 ### Swap
 
-Consider using [ZRAM](https://wiki.archlinux.org/title/Swap#zram-generator) or [encrypted swap](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) instead of unencrypted swap to avoid potential security issues with sensitive data being pushed to [swap space](https://en.wikipedia.org/wiki/Memory_paging). Fedora based distributions [use ZRAM](https://fedoraproject.org/wiki/Changes/SwapOnZRAM) by default.
+Consider using [ZRAM](https://wiki.archlinux.org/title/Swap#zram-generator) or [encrypted swap](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) instead of unencrypted swap to avoid potential security issues with sensitive data being pushed to [swap space](https://en.wikipedia.org/wiki/Memory_paging). Fedora based distributions [use ZRAM by default](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
 
 ### Wayland
 
@@ -183,3 +183,5 @@ The Fedora Project [counts](https://fedoraproject.org/wiki/Changes/DNF_Better_Co
 This [option](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) is currently off by default. We recommend adding `countme=false` to `/etc/dnf/dnf.conf` just in case it is enabled in the future. On systems that use `rpm-ostree` such as Silverblue, the countme option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems/) timer.
 
 openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, which can be disabled by deleting the `/var/lib/zypp/AnonymousUniqueId` file.
+
+--8<-- "includes/abbreviations.en.md"

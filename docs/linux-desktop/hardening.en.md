@@ -89,7 +89,7 @@ One of the problems with Secure Boot particularly on Linux is that only the [cha
 
 - Creating an [EFI Boot Stub](https://docs.kernel.org/admin-guide/efi-stub.html) that contains the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)), [initramfs](https://en.wikipedia.org/wiki/Initial_ramdisk) and [microcode](https://en.wikipedia.org/wiki/Microcode). This EFI stub can then be signed. If you use [dracut](https://en.wikipedia.org/wiki/Dracut_(software)) this can easily be done with the [`--uefi-stub` switch](https://man7.org/linux/man-pages/man8/dracut.8.html) or the [`uefi_stub` config](https://www.man7.org/linux/man-pages/man5/dracut.conf.5.html) option.
 - [Encrypting the boot partition](https://wiki.archlinux.org/title/GRUB#Encrypted_/boot). However, this has its own issues, the first being that [GRUB](https://en.wikipedia.org/wiki/GNU_GRUB) only supports [LUKS1](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) and not the newer default LUKS2 scheme. As the bootloader runs in [protected mode](https://en.wikipedia.org/wiki/Protected_mode) and the encryption module lacks [SSE acceleration](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions) the boot process will take minutes to complete.
-- Using [TPM](https://en.wikipedia.org/wiki/Trusted_Platform_Module) to perform a [measured boot](https://www.krose.org/~krose/measured_boot).
+- Using TPM to perform a [measured boot](https://www.krose.org/~krose/measured_boot).
 
 After setting up Secure Boot it is crucial that you set a “firmware password” (also called a “supervisor password, “BIOS password” or “UEFI password”), otherwise an adversary can simply disable Secure Boot.
 

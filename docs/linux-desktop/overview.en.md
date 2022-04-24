@@ -22,7 +22,7 @@ Our website generally uses the term “Linux” to describe desktop GNU/Linux di
 
 ## Release cycle
 
-We highly recommend that you choose distributions which stay close to the stable upstream software releases. This is because frozen release cycle distributions often don’t update package versions and fall behind on security updates.
+We highly recommend that you choose distributions which stay close to the stable upstream software releases, often referred to as rolling release distributions. This is because frozen release cycle distributions often don’t update package versions and fall behind on security updates.
 
 For frozen distributions, package maintainers are expected to backport patches to fix vulnerabilities (Debian is one such [example](https://www.debian.org/security/faq#handling)) rather than bump the software to the “next version” released by the upstream developer. Some security fixes [do not](https://arxiv.org/abs/2105.14565) receive a [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (particularly less popular software) at all and therefore do not make it into the distribution with this patching model. As a result minor security fixes are sometimes held back until the next major release.
 

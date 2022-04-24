@@ -14,6 +14,7 @@
 *[Exif]: Exchangeable image file format
 *[FDE]: Full Disk Encryption
 *[FIDO]: Fast IDentity Online
+*[fork]: In software development, a fork is created when developers take a copy of source code from one software package and start independent development on it, creating a distinct and separate piece of software.
 *[GPG]: GNU Privacy Guard (PGP implementation)
 *[GPS]: Global Positioning System
 *[GUI]: Graphical User Interface
@@ -41,6 +42,7 @@
 *[P2P]: Peer-to-Peer
 *[PGP]: Pretty Good Privacy (see OpenPGP)
 *[QNAME]: Qualified Name
+*[rolling release]: An update release cycle in which updates are released very frequently, instead of at set intervals.
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux
 *[SMS]: Short Message Service (standard text messaging)
@@ -52,6 +54,7 @@
 *[TEE]: Trusted Execution Environment
 *[TLS]: Transport Layer Security
 *[TOTP]: Time-based One-Time Password
+*[TPM]: Trusted Platform Module
 *[U2F]: Universal 2nd Factor
 *[UDP]: User Datagram Protocol
 *[VPN]: Virtual Private Network

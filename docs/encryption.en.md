@@ -90,7 +90,7 @@ BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-o
 
 ??? example "Enabling BitLocker on Windows Home"
 
-    To enable BitLocker on "Home" editions of Windows, you must partitions formatted with formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated [TPM](https://en.wikipedia.org/wiki/Trusted_Platform_Module) (v1.2, 2.0+) module.
+    To enable BitLocker on "Home" editions of Windows, you must partitions formatted with formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module.
 
     1. Open Windows [PowerShell](https://en.wikipedia.org/wiki/PowerShell). Start "PowerShell"
 
@@ -221,7 +221,7 @@ Tools with command-line interfaces are useful for intergrating [shell scripts](h
 
 ## OpenPGP
 
-[OpenPGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP) is sometimes needed for specific tasks such as digitally signing and encrypting email. PGP has many features and is [complex](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) as it has been around a long time. For tasks such as signing or encrypting files, we suggest the above options.
+OpenPGP is sometimes needed for specific tasks such as digitally signing and encrypting email. PGP has many features and is [complex](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) as it has been around a long time. For tasks such as signing or encrypting files, we suggest the above options.
 
 When encrypting with PGP, the user has the option to configure different options in their `gpg.conf` file. We recommend staying with the standard options specified in the [GnuPG user FAQ](https://www.gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
 
