@@ -54,7 +54,7 @@ These are our current web browser recommendations and settings. We recommend kee
 
 #### Recommended Configuration
 
-These options can be found in the *Privacy & Security* settings page ( :material-menu: → **Settings** → **Privacy & Security**).
+These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
 
 ##### Enhanced Tracking Protection (ETP)
 
@@ -117,7 +117,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
         - [:fontawesome-brands-android: Android](https://www.bromite.org/fdroid)
         - [:fontawesome-brands-github: Source](https://github.com/bromite/bromite)
 
-These options can be found in *Privacy and Security* ( :material-menu: → :gear: **Settings** → **Privacy and Security**).
+These options can be found in :material-menu: → :gear: **Settings** → **Privacy and Security**.
 
 #### Recommended Configuration
 
@@ -143,7 +143,7 @@ These options can be found in *Privacy and Security* ( :material-menu: → :gear
 
 #### Recommended Configuration
 
-These options can be found in *Privacy and Security* ( :gear: **Settings** → **Safari** → **Privacy and Security**).
+These options can be found in :gear: **Settings** → **Safari** → **Privacy and Security**.
 
 ##### Cross-Site Tracking Prevention
 
@@ -179,7 +179,7 @@ Open Safari and press the tabs icon in the bottom right corner. Open Tab Groups,
 
 While synchronization of Safari History, Tab Groups, and iCloud Tabs uses E2EE, bookmarks sync does [not](https://support.apple.com/en-us/HT202303); they are only encrypted in transit and stored in an encrypted format on Apple's servers. Apple may be able to decrypt and access them.
 
-If you use iCloud, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in *General* ( :gear: **Settings** → **Safari** → **General** → **Downloads**).
+If you use iCloud, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in :gear: **Settings** → **Safari** → **General** → **Downloads**.
 
 #### Extensions
 

@@ -1,16 +1,19 @@
 <!-- markdownlint-disable -->
 *[2FA]: 2-Factor Authentication
+*[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[attack surface]: The attack surface of software or hardware is the sum of the different places an unauthorized user (the "attacker") can try to enter data to or extract data from.
 *[AVB]: Android Verified Boot
 *[CLI]: Command Line Interface
 *[CSV]: Comma-Separated Values
+*[CVE]: Common Vulnerabilities and Exposures
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System
 *[DoH]: DNS over HTTPS
 *[DoT]: DNS over TLS
 *[E2EE]: End-to-End Encryption/Encrypted
 *[ECS]: EDNS Client Subnet
+*[EOL]: End-of-Life
 *[Exif]: Exchangeable image file format
 *[FDE]: Full Disk Encryption
 *[FIDO]: Fast IDentity Online
@@ -23,14 +26,19 @@
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: Hypertext Transfer Protocol
 *[I2P]: Invisible Internet Project
+*[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol
+*[IMEI]: International Mobile Equipment Identity
+*[IMSI]: International Mobile Subscriber Identity
 *[IP]: Internet Protocol
 *[IPv4]: Internet Protocol version 4
 *[IPv6]: Internet Protocol version 6
 *[ISP]: Internet Service Provider
 *[ISPs]: Internet Service Providers
+*[JNI]: Java Native Interface
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Media Access Control
+*[MEID]: Mobile Equipment Identifier
 *[MFA]: Multi-Factor Authentication
 *[OCSP]: Online Certificate Status Protocol
 *[OEM]: Original Equipment Manufacturer
@@ -45,11 +53,13 @@
 *[rolling release]: An update release cycle in which updates are released very frequently, instead of at set intervals.
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux
+*[SIM]: Subscriber Identity Module
 *[SMS]: Short Message Service (standard text messaging)
 *[SMTP]: Simple Mail Transfer Protocol
 *[SNI]: Server Name Indication
 *[SSH]: Secure Shell
 *[SaaS]: Software as a Service (cloud software)
+*[SoC]: System on Chip
 *[TCP]: Transmission Control Protocol
 *[TEE]: Trusted Execution Environment
 *[TLS]: Transport Layer Security

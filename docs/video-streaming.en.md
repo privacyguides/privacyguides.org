@@ -59,7 +59,7 @@ The primary threat when using a video streaming platform is that your streaming 
 
 We recommend **against** synchronizing your wallet with LBRY Inc., as synchronizing encrypted wallets is not supported yet. If you synchronize your wallet with LBRY Inc., you have to trust them to not look at your subscription list, [LBC](https://lbry.com/faq/earn-credits) funds, or take control of your channel.
 
-You can  disable *Save hosting data to help the LBRY network* option (:gear: Settings → Advanced Settings) to avoid exposing your IP address and watched videos when using LBRY for a prolonged period of time.
+You can disable *Save hosting data to help the LBRY network* option in :gear: **Settings** → **Advanced Settings**, to avoid exposing your IP address and watched videos when using LBRY for a prolonged period of time.
 
 ### NewPipe
 

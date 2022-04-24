@@ -6,17 +6,25 @@ icon: 'material/cellphone-cog'
 
 CalyxOS includes a device controller app so there is no need to install a third party app like Shelter.
 
-GrapheneOS extends the user profile feature allowing a user to press an "End Session" button. This button clears the encryption key from memory. There are plans to add a [cross profile notifications system](https://github.com/GrapheneOS/os-issue-tracker/issues/88) in the future. GrapheneOS plans to introduce nested profile support with better isolation in the future.
+GrapheneOS extends the user profile feature, allowing you to end a current session. To do this, select *End Session* which will clear the encryption key from memory. There are plans to add a [cross profile notifications system](https://github.com/GrapheneOS/os-issue-tracker/issues/88) in the future. GrapheneOS plans to introduce nested profile support with better isolation in the future.
 
-## Sandboxed Google Play vs Privileged MicroG
+## Sandboxed Google Play vs Privileged microG
 
 When Google Play services are used on GrapheneOS, they run as a user app and are contained within a user or work profile.
 
 Sandboxed Google Play is confined using the highly restrictive, default [`untrusted_app`](https://source.android.com/security/selinux/concepts) domain provided by [SELinux](https://en.wikipedia.org/wiki/Security-Enhanced_Linux). Permissions for apps to use Google Play Services can be revoked at any time by the user.
 
-MicroG is a reimplementation of Google Play Services. This means it needs to be updated every time Android has a major version update (or the Android API changes). It also needs to run in the highly privileged [`system_app`](https://source.android.com/security/selinux/concepts) SELinux domain like normal Google Play Services and requires access to [signature spoofing](https://madaidans-insecurities.github.io/android.html#microg-signature-spoofing) so this is less secure than the Sandboxed Google Play approach. We do not believe MicroG provides any privacy advantages over Sandboxed Google Play except for the option to *shift trust* of the location backend from Google to another provider such as Mozilla or DejaVu.
+microG is an open-source re-implementation of Google Play Services. This means it needs to be updated every time Android has a major version update (or the Android API changes). It also needs to run in the highly privileged [`system_app`](https://source.android.com/security/selinux/concepts) SELinux domain like regular Google Play Services, and it requires an operating system that allows [signature spoofing](https://github.com/microg/GmsCore/wiki/Signature-Spoofing), which allows system apps to insecurely masquerade as other apps. This is less secure than Sandboxed Google Play's approach, which does not need access to sensitive system APIs.
 
-From a usability point of view, Sandboxed Google Play also works well with far more applications than MicroG, thanks to its support for services like [Google Play Games](https://play.google.com/googleplaygames) and [In-app Billing API](https://android-doc.github.io/google/play/billing/api.html).
+When using Sandboxed Play Services, you have the option to reroute location requests to the Play Services API back to the OS location API which uses satellite based location services. With microG, you have the option to either not use a network location backend at all, *shift trust* to another location backend like Mozilla, or use [DejaVu](https://github.com/n76/DejaVu), a location backend that locally collects and saves RF-based location data to an offline database which can be used when GPS is not available.
+
+Network location providers like Play Services or Mozilla rely the on the MAC addresses of surrounding WiFi access points and Bluetooth devices being submitted for location approximation. Choosing a network location like Mozilla to use with microG provides little to no privacy benefit over Google because you are still submitting the same data and trusting them to not profile you.
+
+Local RF location backends like DejaVu require that the phone has a working GPS first for the local RF data collected to be useful. This makes them ineffective as location providers, as the job of a location provider is to assist location approximation when satellite based services are not working.
+
+If your threat model requires protecting your location or the MAC addresses of nearby devices, rerouting location requests to the OS location API is probably the best option. The benefit brought by microG's custom location backend is minimal at best when compared to Sandboxed Play Services.
+
+In terms of application compatibility, Sandboxed Google Play outperforms microG due to its support for many services which microG has not yet implemented, like [Google Play Games](https://play.google.com/googleplaygames) and [In-app Billing API](https://android-doc.github.io/google/play/billing/api.html). Authentication using [FIDO](security/multi-factor-authentication#fido-fast-identity-online) with online services on Android also relies on Play Services, and the feature is not yet implemented in microG.
 
 ## Privileged App Extensions
 
