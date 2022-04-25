@@ -56,7 +56,7 @@ The company is based in the :flag_gb: UK. According to their [Privacy Policy](ht
 
     ![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
 
-    **SearXNG** is an open-source, self-hostable, metasearch engine, aggregating the results of other search engines while not storing information about its users. There is a [list of public instances](https://searx.space/).
+    **SearXNG** is an open-source, self-hostable, metasearch engine, aggregating the results of other search engines while not storing information about its users. It is an actively maintained fork of [SearX](https://github.com/searx/searx) There is a [list of public instances](https://searx.space/).
 
     [Homepage](https://searxng.org){ .md-button .md-button--primary }
     ??? downloads
@@ -65,8 +65,8 @@ The company is based in the :flag_gb: UK. According to their [Privacy Policy](ht
 
 SearXNG is a proxy between the user and the search engines it aggregates from. Your search queries will still be sent to the search engines that SearXNG gets its results from.
 
-When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting SearXNG, as other people looking up illegal content on your instance could draw unwanted attention from authorities.
+When self-hosting, it is important that you have other people using your instance so that the queries would blend in. You should be careful with where and how you are hosting SearXNG, as users looking up illegal content on your instance could draw unwanted attention from authorities.
 
-When you are using a SearXNG instance, be sure to go read the Privacy Policy of that specific instance. SearXNG instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
+When you are using a SearXNG instance, be sure to go read their privacy policy. Since SearXNG instances may be modified by their owners, they do not necessarily reflect their privacy policy. Some instances run as a Tor hidden service, which may grant some privacy as long as your search queries does not contain PII.
 
 --8<-- "includes/abbreviations.en.md"
