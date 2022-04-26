@@ -1,0 +1,50 @@
+name: 🔂 Surge PR Preview
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, closed]
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+      contents: write
+    environment: preview
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: '0'
+          ref: ${{github.event.pull_request.head.ref}}
+          repository: ${{github.event.pull_request.head.repo.full_name}}
+
+      - name: Set up Python runtime
+        uses: actions/setup-python@v3
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install Python dependencies
+        run: |
+          pip install 'mkdocs>=1.3.0'
+          pip install mkdocs-static-i18n
+          pip install mkdocs-git-revision-date-localized-plugin
+
+      - name: Install mkdocs-material Insiders build
+        if: github.event.repository.fork == false
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          git clone --depth 1 https://${GH_TOKEN}@github.com/privacyguides/mkdocs-material-insiders.git
+          pip install -e mkdocs-material-insiders
+
+      - name: Deploy to surge.sh
+        uses: afc163/surge-preview@v1
+        with:
+          surge_token: ${{ secrets.SURGE_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          dist: site
+          teardown: 'true'
+          build: |
+            mkdocs build
