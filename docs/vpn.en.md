@@ -279,8 +279,8 @@ With the VPN providers we recommend we like to see responsible marketing.
 Must not have any marketing which is irresponsible:
 
 - Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know users can quite easily deanonymize themselves in a number of ways, eg:
-- Reusing personal information eg. (email accounts, unique pseudonyms etc) that they accessed without anonymity software (Tor, VPN etc)
-- [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+  - Reusing personal information eg. (email accounts, unique pseudonyms etc) that they accessed without anonymity software (Tor, VPN etc)
+  - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 - Claim that a single circuit VPN is "more anonymous" than Tor, which is a circuit of 3 or more hops that regularly changes.
 - Use responsible language, eg it is okay to say that a VPN is "disconnected" or "not connected", however claiming that a user is "exposed", "vulnerable" or "compromised" is needless use of alarming language that may be incorrect. For example the visiting user might be on another VPN provider's service or using Tor.
 
@@ -288,7 +288,7 @@ Must not have any marketing which is irresponsible:
 
 Responsible marketing that is both educational and useful to the consumer could include:
 
-- An accurate comparison to when Tor or other [self-contained networks.md](self-contained-networks) should be used.
+- An accurate comparison to when Tor or other [self-contained networks](self-contained-networks.md) should be used.
 - Availability of the VPN provider's website over a .onion [Hidden Service](https://en.wikipedia.org/wiki/.onion)
 
 ### Additional Functionality
