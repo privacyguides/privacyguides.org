@@ -125,7 +125,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 - ![Disroot logo](assets/img/email/mini/disroot.svg#only-light){ .twemoji }![Disroot logo](assets/img/email/mini/disroot-dark.svg#only-dark){ .twemoji } [Disroot](https://disroot.org/)
 - ![Tutanota logo](assets/img/email/mini/tutanota.svg){ .twemoji } [Tutanota](https://tutanota.com/)
 - ![StartMail logo](assets/img/email/mini/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/mini/startmail-dark.svg#only-dark){ .twemoji } [StartMail](https://startmail.com/)
-- ![CTemplar logo](assets/img/email/mini/ctemplar.svg#only-light){ .twemoji }![CTemplar logo](assets/img/email/mini/ctemplar-dark.svg#only-dark){ .twemoji } [CTemplar](https://ctemplar.com/)
 
 </div>
 
