@@ -1,6 +1,5 @@
 ---
 title: "About Privacy Guides"
-icon: pg/privacyguides
 ---
 
 **Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. We are a non-profit collective operated entirely by volunteer team members and contributors.

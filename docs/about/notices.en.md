@@ -1,6 +1,5 @@
 ---
 title: "Notices and Disclaimers"
-icon: material/message-alert
 hide:
     - toc
 ---
