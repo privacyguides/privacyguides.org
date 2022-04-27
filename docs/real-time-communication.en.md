@@ -96,7 +96,7 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
 
     **Session** is a decentralized messenger with a focus on private, secure, and anonymous communications. Session offers support for direct messages, group chats, and voice calls.
 
-    Session utilizes the decentralized [Oxen Service Node Network](https://oxen.io/) to store and route messages. Every encrypted message is routed through three nodes in the Oxen Service Node Network, making it virtually impossible for the nodes to compile meaningful information about the users of the network.
+    Session utilizes the decentralized [Oxen Service Node Network](https://oxen.io/) to store and route messages. Every encrypted message is routed through three nodes in the Oxen Service Node Network, making it virtually impossible for the nodes to compile meaningful information on those using the network.
 
     [Homepage](https://getsession.org/){ .md-button .md-button--primary } [Privacy Policy](https://getsession.org/privacy-policy){ .md-button }
 
