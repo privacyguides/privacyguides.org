@@ -12,6 +12,9 @@ copyright: |
 
 extra:
   generator: false
+  analytics:
+    provider: plausible
+    property: privacyguides.org
   social:
     - icon: fontawesome/brands/mastodon
       link: https://mastodon.social/@privacyguides
