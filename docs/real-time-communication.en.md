@@ -112,7 +112,7 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
 
 Session allows for E2EE in one-on-one chats or closed groups which allow for up to 100 members. Open groups have no restriction on the number of members, but are open by design.
 
-Session does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.
+Session does [not](https://getsession.org/blog/session-protocol-technical-information) support perfect forward secrecy.
 
 Oxen requested an independent audit for Session in March of 2020. The audit [concluded](https://getsession.org/session-code-audit) in April of 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
 
