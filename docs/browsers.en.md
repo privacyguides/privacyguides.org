@@ -90,7 +90,7 @@ The [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) serv
 
 #### Extensions
 
-We generally do not recommend installing any extensions as they increase your attack surface; however, if you want content blocking, [uBlock Origin](#additional-resources) might be useful to you. The extension is also a :trophy: [Recommended Extension](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) by Mozilla.
+We generally do not recommend installing any extensions as they increase your attack surface; however, if you want content blocking, [uBlock Origin](#additional-resources) might be useful to you. The extension is also a [Recommended Extension](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) by Mozilla.
 
 #### Arkenfox (advanced)
 
