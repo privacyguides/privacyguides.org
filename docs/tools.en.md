@@ -295,8 +295,8 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![YubiKeys](assets/img/multi-factor-authentication/yubikey.png){ .twemoji } [YubiKey](https://www.yubico.com/)
-- ![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ .twemoji } [Nitrokey](https://www.nitrokey.com/)
+- ![YubiKeys](assets/img/multi-factor-authentication/mini/yubico.svg){ .twemoji } [YubiKey](https://www.yubico.com/)
+- ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji } [Nitrokey](https://www.nitrokey.com/)
 - ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji } [Aegis Authenticator](https://getaegis.app/)
 - ![Raivo OTP logo](assets/img/multi-factor-authentication/raivo-otp.png){ .twemoji } [Raivo OTP](https://github.com/raivo-otp/ios-application)
 
