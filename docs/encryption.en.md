@@ -270,7 +270,7 @@ When encrypting with PGP, the user has the option to configure different options
 
 !!! note
 
-    We suggest [Canary Mail](email-clients/#canary-mail) for using PGP with email on iOS devices.
+    We suggest [Canary Mail](email-clients.md#canary-mail) for using PGP with email on iOS devices.
 
 !!! recommendation
 
