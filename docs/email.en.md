@@ -244,6 +244,44 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
     StartMail allows for proxying of images within emails. If a user allows the remote image to be loaded, the sender won't know what the user's IP address is.
 
+## Email Cloaking Services
+
+!!! recommendation
+
+    ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
+    ![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
+
+    **[AnonAddy](https://anonaddy.com)** lets users create aliases that forward to their email address. Can be self-hosted. [Source code on GitHub](https://github.com/anonaddy/anonaddy). 
+
+!!! recommendation
+
+    ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
+
+    **[SimpleLogin](https://simplelogin.io)** allows you to easily create aliases for your email. Can be self-hosted. [Source code on GitHub](https://github.com/simple-login/app).
+
+## Self-Hosting Email
+
+Advanced users may consider setting up their own email server. Mailservers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.
+
+### Combined software solutions
+
+!!! recommendation
+
+    ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
+
+    **[Mail-in-a-Box](https://mailinabox.email)** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for users to set up their own mail server.
+
+!!! recommendation
+
+    ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
+
+    **[Mailcow](https://mailcow.email)** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: A mailserver with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support. **[Mailcow Dockerized docs](https://mailcow.github.io/mailcow-dockerized-docs/)**
+
+For a more manual approach we've picked out these two articles.
+
+- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
+- [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
+
 ## Our Criteria
 
 **Please note we are not affiliated with any of the providers we recommend.** This allows us to provide completely objective recommendations. We have developed a clear set of requirements for any Email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an Email provider, and conduct your own research to ensure the Email provider you choose is the right choice for you.
@@ -413,44 +451,6 @@ Email metadata is crucial to the most basic functionality of email (where it cam
 ### How is my metadata protected?
 
 When emails travel between email providers an encrypted connection is negotiated using [Opportunistic TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS). This protects the metadata from outside observers, but as it is not E2EE, server administrators can snoop on the metadata of an email.
-
-## Email Cloaking Services
-
-!!! recommendation
-
-    ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
-    ![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
-
-    **[AnonAddy](https://anonaddy.com)** lets users create aliases that forward to their email address. Can be self-hosted. [Source code on GitHub](https://github.com/anonaddy/anonaddy). 
-
-!!! recommendation
-
-    ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
-
-    **[SimpleLogin](https://simplelogin.io)** allows you to easily create aliases for your email. Can be self-hosted. [Source code on GitHub](https://github.com/simple-login/app).
-
-## Self-Hosting Email
-
-Advanced users may consider setting up their own email server. Mailservers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.
-
-### Combined software solutions
-
-!!! recommendation
-
-    ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
-
-    **[Mail-in-a-Box](https://mailinabox.email)** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for users to set up their own mail server.
-
-!!! recommendation
-
-    ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
-
-    **[Mailcow](https://mailcow.email)** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: A mailserver with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support. **[Mailcow Dockerized docs](https://mailcow.github.io/mailcow-dockerized-docs/)**
-
-For a more manual approach we've picked out these two articles.
-
-- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
-- [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
 
 ## Additional Reading
 

@@ -14,7 +14,7 @@ icon: material/chat-processing
 
     All communications are E2EE. Contact lists are encrypted using your login PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts who add you.
 
-    [Homepage](https://signal.org/){ .md-button .md-button--primary }
+    [Homepage](https://signal.org/){ .md-button .md-button--primary } [Privacy Policy](https://signal.org/legal/#privacy-policy){ .md-button }
 
     ??? downloads
 
@@ -43,7 +43,7 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
     Messages and files shared in private rooms (those which require an invite) are by default E2EE as are 1 to 1 voice and video calls.
 
-    [Website](https://element.io/){ .md-button .md-button--primary }
+    [Website](https://element.io/){ .md-button .md-button--primary } [Privacy Policy](https://element.io/privacy){ .md-button }
 
     ??? downloads
 
@@ -72,7 +72,7 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
 
     **Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works/) to other clients using the Tor Network. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
 
-    [Homepage](https://briarproject.org/){ .md-button .md-button--primary }
+    [Homepage](https://briarproject.org/){ .md-button .md-button--primary } [Privacy Policy](https://briarproject.org/privacy-policy/){ .md-button }
 
     ??? downloads
 
@@ -98,7 +98,7 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
 
     Session utilizes the decentralized [Oxen Service Node Network](https://oxen.io/) to store and route messages. Every encrypted message is routed through three nodes in the Oxen Service Node Network, making it virtually impossible for the nodes to compile meaningful information about the users of the network.
 
-    [Homepage](https://getsession.org/){ .md-button .md-button--primary }
+    [Homepage](https://getsession.org/){ .md-button .md-button--primary } [Privacy Policy](https://getsession.org/privacy-policy){ .md-button }
 
     ??? downloads
 
