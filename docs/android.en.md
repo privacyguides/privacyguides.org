@@ -29,7 +29,7 @@ We recommend installing one of these custom Android operating systems on your de
 
     [Homepage](https://grapheneos.org/){ .md-button .md-button--primary } [Privacy Policy](https://grapheneos.org/faq#privacy-policy){ .md-button }
 
-GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) fully sandboxed like a regular user app. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging/), while having full user control over their permissions and access, and while containing them to a specific work profile or user [profile](android/overview.md#user-profiles) of your choice.
+GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) fully sandboxed like any other regular app. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging/), while giving you full control over their permissions and access, and while containing them to a specific work profile or user [profile](android/overview.md#user-profiles) of your choice.
 
 Google Pixel phones are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#device-support).
 
@@ -43,7 +43,7 @@ Google Pixel phones are the only devices that currently meet GrapheneOS's [hardw
 
     [Homepage](https://calyxos.org/){ .md-button .md-button--primary } [Privacy Policy](https://calyxinstitute.org/legal/privacy-policy){ .md-button }
 
-To accomodate users who need Google Play Services, CalyxOS optionally includes [microG](https://microg.org/). CalyxOS also includes alternate location services, [Mozilla](https://location.services.mozilla.com/) and [DejaVu](https://github.com/n76/DejaVu).
+For people who need Google Play Services, CalyxOS optionally includes [microG](https://microg.org/). CalyxOS also includes alternate location services, [Mozilla](https://location.services.mozilla.com/) and [DejaVu](https://github.com/n76/DejaVu).
 
 CalyxOS only [supports](https://calyxos.org/docs/guide/device-support/) Google Pixel phones. However, support for the OnePlus 8T/9 and Fairphone 4 is [currently in beta](https://calyxos.org/news/2022/04/01/fairphone4-oneplus8t-oneplus9-test-builds/).
 
@@ -212,7 +212,7 @@ Auditor performs attestation and intrusion detection by:
 - The *auditor* can either be another instance of the Auditor app or the [Remote Attestation Service](https://attestation.app).
 - The *auditor* records the current state and configuration of the *auditee*.
 - Should tampering with the operating system of the *auditee* after the pairing is complete, the auditor will be aware of the change in the device state and configurations.
-- The user will be alerted to the change.
+- You will be alerted to the change.
 
 No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
 

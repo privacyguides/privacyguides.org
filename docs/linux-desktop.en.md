@@ -2,7 +2,7 @@
 title: "Linux"
 icon: fontawesome/brands/linux
 ---
-Linux distributions are commonly recommended for privacy protection and user freedom.
+Linux distributions are commonly recommended for privacy protection and software freedom.
 
 - [General Linux Overview :material-arrow-right:](linux-desktop/overview.md)
 
@@ -16,7 +16,7 @@ If you don't already use Linux, below are some distributions we suggest trying o
 
     ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
 
-    **Fedora Workstation** is our recommended distribution for users new to Linux. Fedora generally adopts newer technologies before other distributions e.g., [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org), and soon, [FS-Verity](https://fedoraproject.org/wiki/Changes/FsVerityRPM). These new technologies often come with improvements in security, privacy, and usability in general.
+    **Fedora Workstation** is our recommended distribution for people new to Linux. Fedora generally adopts newer technologies before other distributions e.g., [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org), and soon, [FS-Verity](https://fedoraproject.org/wiki/Changes/FsVerityRPM). These new technologies often come with improvements in security, privacy, and usability in general.
 
     [Homepage](https://getfedora.org/){ .md-button .md-button--primary }
 
@@ -34,7 +34,7 @@ Fedora has a semi-rolling release cycle. While some packages like [GNOME](https:
 
     [Homepage](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
 
-Tumbleweed follows a rolling release model where each update is released as a snapshot of the distribution. When the user upgrades their system, a new snapshot is downloaded. Each snapshot is run through a series of automated tests by [openQA](https://openqa.opensuse.org) to ensure its quality.
+Tumbleweed follows a rolling release model where each update is released as a snapshot of the distribution. When you upgrade your system, a new snapshot is downloaded. Each snapshot is run through a series of automated tests by [openQA](https://openqa.opensuse.org) to ensure its quality.
 
 ### Arch Linux
 
@@ -48,7 +48,7 @@ Tumbleweed follows a rolling release model where each update is released as a sn
 
 Arch Linux has a rolling release cycle. There is no fixed release schedule and packages are updated very frequently.
 
-Being a DIY distribution, the user is [expected to set up and maintain](#arch-based-distributions) their system. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
+Being a DIY distribution, you are [expected to set up and maintain](#arch-based-distributions) your system on your own. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
 
 A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org).
 
@@ -66,7 +66,7 @@ A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org)
 
 Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF](https://fedoraproject.org/wiki/DNF) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/). The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
 
-After the update is complete the user will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that a user can easily rollback if something breaks in the new deployment. There is also the option to pin more deployments as needed.
+After the update is complete you will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that you can easily rollback if something breaks in the new deployment. There is also the option to pin more deployments as needed.
 
 [Flatpak](https://www.flatpak.org) is the primary package installation method on these distributions, as `rpm-ostree` is only meant to overlay packages that cannot stay inside of a container on top of the base image.
 
@@ -132,7 +132,7 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 Most Linux distributions have an installer option for enabling LUKS FDE upon installation.
 
-If this option isn’t set at installation time, the user will have to backup their data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted.
+If this option isn’t set at installation time, you will have to backup your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted.
 
 When securely erasing storage devices such as a Solid-state drive (SSD) you should use the [ATA Secure Erase](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) command. This command can be issued from your UEFI setup. If the storage device is a regular hard drive (HDD), consider using [`nwipe`](https://en.wikipedia.org/wiki/Nwipe).
 

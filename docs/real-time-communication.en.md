@@ -29,7 +29,7 @@ Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-
 
 Signal requires your phone number as a personal identifier.
 
-[Sealed Sender](https://signal.org/blog/sealed-sender/) is only enabled for users on your contact list but can be enabled for all recipients with the increased risk of receiving spam.
+[Sealed Sender](https://signal.org/blog/sealed-sender/) is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam.
 
 The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs/).
 
@@ -120,7 +120,7 @@ Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the 
 
 ## Types of Communication Networks
 
-There are several network architectures commonly used to relay messages between users. These networks can provide different different privacy guarantees, which is why it's worth considering your [threat model](https://en.wikipedia.org/wiki/Threat_model) when making a decision about which app to use.
+There are several network architectures commonly used to relay messages between people. These networks can provide different different privacy guarantees, which is why it's worth considering your [threat model](https://en.wikipedia.org/wiki/Threat_model) when making a decision about which app to use.
 
 ### Centralized Networks
 
@@ -140,7 +140,7 @@ Some self-hosted messengers allow you to set up your own server. Self-hosting ca
 **Disadvantages:**
 
 - Can include [restricted control or access](https://drewdevault.com/2018/08/08/Signal.html). This can include things like:
-- Being [forbidden from connecting third-party clients](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) to the centralized network that might provide for greater customization or better user experience. Often defined in Terms and Conditions of usage.
+- Being [forbidden from connecting third-party clients](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) to the centralized network that might provide for greater customization or a better experience. Often defined in Terms and Conditions of usage.
 - Poor or no documentation for third-party developers.
 - The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
 - Self hosting requires effort and knowledge of how to set up a service.
@@ -151,7 +151,7 @@ Some self-hosted messengers allow you to set up your own server. Self-hosting ca
 
 Federated messengers use multiple, independent, decentralized servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.
 
-When self-hosted, users of a federated server can discover and communicate with users of other servers, although some servers may choose to remain private by being non-federated (e.g., work team server).
+When self-hosted, members of a federated server can discover and communicate with members of other servers, although some servers may choose to remain private by being non-federated (e.g., work team server).
 
 **Advantages:**
 
@@ -166,7 +166,7 @@ When self-hosted, users of a federated server can discover and communicate with 
 - Due to the previous point, features can be lacking, or incomplete or working in unexpected ways compared to centralized platforms, such as message relay when offline or message deletion.
 - Some metadata may be available (e.g., information like "who is talking to whom," but not actual message content if E2EE is used).
 - Federated servers generally require trusting your server's administrator. They may be a hobbyist or otherwise not a "security professional," and may not serve standard documents like a privacy policy or terms of service detailing how your data is utilized.
-- Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with users on those servers.
+- Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with members of those servers.
 
 ### Peer-to-Peer Networks
 
@@ -178,7 +178,7 @@ Clients (peers) usually find each other through the use of a [distributed comput
 
 Once a peer has found a route to its contact via any of these methods, a direct connection between them is made. Although messages are usually encrypted, an observer can still deduce the location and identity of the sender and recipient.
 
-P2P networks do not use servers, as users communicate directly between each others, and hence cannot be self-hosted. However, some additional services may rely on centralized servers, such as users discovery or offline messages relaying, which can benefit from self-hosting.
+P2P networks do not use servers, as peers communicate directly between each other, and hence cannot be self-hosted. However, some additional services may rely on centralized servers, such as user discovery or relaying offline messages, which can benefit from self-hosting.
 
 **Advantages:**
 

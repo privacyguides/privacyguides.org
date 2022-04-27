@@ -12,7 +12,7 @@ If you are currently browsing clearnet and want to access the dark web, this sec
 
     ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
-    The **Tor** network is a group of volunteer-operated servers that allows people to improve their privacy and security on the Internet. Tor's users employ this network by connecting through a series of virtual tunnels rather than making a direct connection, thus allowing both organizations and individuals to share information over public networks without compromising their privacy. Tor is an effective censorship circumvention tool.
+    The **Tor** network is a group of volunteer-operated servers that allows people to improve their privacy and security on the Internet. You use the Tor network by connecting through a series of virtual tunnels rather than making a direct connection to the site you're trying to visit, thus allowing both organizations and individuals to share information over public networks without compromising their privacy. Tor is an effective censorship circumvention tool.
 
     [Homepage](https://www.torproject.org){ .md-button .md-button--primary } [:pg-tor:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .md-button }
 

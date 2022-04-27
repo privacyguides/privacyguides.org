@@ -22,9 +22,9 @@ icon: material/dns
 
 [^1]: AdGuard stores aggregated performance metrics of their DNS servers, namely the number of complete requests to a particular server, the number of blocked requests, and the speed of processing requests. They also keep and store the database of domains requested in within last 24 hours. "We need this information to identify and block new trackers and threats." "We also log how many times this or that tracker has been blocked. We need this information to remove outdated rules from our filters." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
 [^2]: Cloudflare collects and stores only the limited DNS query data that is sent to the 1.1.1.1 resolver. The 1.1.1.1 resolver service does not log personal data, and the bulk of the limited non-personally identifiable query data is stored only for 25 hours. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)
-[^3]: Neither free nor premium users of ControlD have logging enabled by default. Premium users can enable logging/analytics at will. [https://controld.com/privacy](https://controld.com/privacy)
+[^3]: Neither ControlD's free nor premium plans have logging enabled by default. Premium subscribers can enable logging/analytics at will. [https://controld.com/privacy](https://controld.com/privacy)
 [^4]: Mullvad's DNS service is available to both subscribers and non-subscribers of Mullvad VPN. Their privacy policy explicitly claims they do not log DNS requests in any way. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy/)
-[^5]: NextDNS can provide insights and logging features on an opt-in basis. Users can choose retention times and log storage locations for any logs they choose to keep. If not specifically requested by the user, no data is logged. [https://nextdns.io/privacy](https://nextdns.io/privacy)
+[^5]: NextDNS can provide insights and logging features on an opt-in basis. You can choose retention times and log storage locations for any logs you choose to keep. If it's not specifically requested, no data is logged. [https://nextdns.io/privacy](https://nextdns.io/privacy)
 [^6]: Quad9 collects some data for the purposes of threat monitoring and response. That data may then be remixed and shared, such as for the purpose of security research. Quad9 does not collect or record IP addresses or other data they deem personally identifiable. [https://www.quad9.net/privacy/policy/](https://www.quad9.net/privacy/policy/)
 
 The criteria for the servers listed above are:
@@ -64,7 +64,7 @@ Select **Settings** &rarr; **General** &rarr; **Privacy** &rarr; **Share Apple T
 
 ### Windows
 
-Windows users can [turn on DoH](https://docs.microsoft.com/en-us/windows-server/networking/dns/doh-client-support) by accessing Windows settings in the control panel.
+You can [turn on DoH](https://docs.microsoft.com/en-us/windows-server/networking/dns/doh-client-support) by accessing Windows settings in the control panel.
 
 Select **Settings** &rarr; **Network & Internet** &rarr; **Ethernet or WiFi**, &rarr; **Edit DNS Settings** &rarr; **Preferred DNS encryption** &rarr; **Encrypted only (DNS over HTTPS)**.
 
@@ -99,7 +99,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](te
 
     ![DNSCloak logo](assets/img/ios/dnscloak.png){ align=right }
 
-    **DNSCloak** is an open-source iOS client supporting [DNS-over-HTTPS](technology/dns.md#dns-over-https-doh), [DNSCrypt](technology/dns.md#dnscrypt), and [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy/wiki) options such as caching DNS responses, locally logging DNS queries, and custom block lists. Users can [add custom resolvers by DNS stamp](https://medium.com/privacyguides/adding-custom-dns-over-https-resolvers-to-dnscloak-20ff5845f4b5).
+    **DNSCloak** is an open-source iOS client supporting [DNS-over-HTTPS](technology/dns.md#dns-over-https-doh), [DNSCrypt](technology/dns.md#dnscrypt), and [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy/wiki) options such as caching DNS responses, locally logging DNS queries, and custom block lists. You can [add custom resolvers by DNS stamp](https://medium.com/privacyguides/adding-custom-dns-over-https-resolvers-to-dnscloak-20ff5845f4b5).
 
     [Project Info](https://github.com/s-s/dnscloak/blob/master/README.md){ .md-button .md-button--primary } [Privacy Policy](https://drive.google.com/file/d/1050No_pU74CAWUS5-BwQWyO2x_aiMzWc/view){ .md-button }
 

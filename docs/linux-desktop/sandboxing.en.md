@@ -8,7 +8,7 @@ Some sandboxing solutions for desktop Linux distributions do exist, however they
 
 [Flatpak](https://flatpak.org) aims to be a universal package manager for Linux. One of its main goals is to provide a universal package format which can be used in most Linux distributions. It provides some [permission control](https://docs.flatpak.org/en/latest/sandbox-permissions.html). It has been [pointed out](https://madaidans-insecurities.github.io/linux.html#flatpak) that Flatpak sandboxing could be improved as particular Flatpaks often have greater permission than required. There does seem to be [some agreement](https://theevilskeleton.gitlab.io/2021/02/11/response-to-flatkill-org.html) that this is the case.
 
-Users can restrict applications further by issuing [Flatpak overrides](https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-override). This can be done with the command-line or by using [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal). Some sample overrides are provided by [tommytran732](https://github.com/tommytran732/Flatpak-Overrides) and [rusty-snake](https://github.com/rusty-snake/kyst/tree/main/flatpak).
+You can restrict applications further by issuing [Flatpak overrides](https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-override). This can be done with the command-line or by using [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal). Some sample overrides are provided by [tommytran732](https://github.com/tommytran732/Flatpak-Overrides) and [rusty-snake](https://github.com/rusty-snake/kyst/tree/main/flatpak).
 
 We generally recommend revoking access to:
 
@@ -18,9 +18,9 @@ We generally recommend revoking access to:
 
 If an application works natively with Wayland (and not running through the [XWayland](https://wayland.freedesktop.org/xserver.html) compatibility layer), consider revoking its access to the X11 (`socket=x11`) and [Inter-process communications (IPC)](https://en.wikipedia.org/wiki/Unix_domain_socket) socket (`share=ipc`) as well.
 
-We also recommend restricting broad filesystem permissions such as `filesystem=home` and `filesystem=host` which should be revoked and replaced with just the directories that the app needs to access. Some applications like [VLC](https://www.flathub.org/apps/details/org.videolan.VLC) implement the [Portals](https://docs.flatpak.org/en/latest/portal-api-reference.html) [API](https://en.wikipedia.org/wiki/API), which allows a file manager to pass files to the Flatpak application (e.g. VLC) without specific filesystem access privileges. VLC is only able to access the specific file that the user wants to open, rather than requiring privileges to particular locations.
+We also recommend restricting broad filesystem permissions such as `filesystem=home` and `filesystem=host` which should be revoked and replaced with just the directories that the app needs to access. Some applications like [VLC](https://www.flathub.org/apps/details/org.videolan.VLC) implement the [Portals](https://docs.flatpak.org/en/latest/portal-api-reference.html) [API](https://en.wikipedia.org/wiki/API), which allows a file manager to pass files to the Flatpak application (e.g. VLC) without specific filesystem access privileges. VLC is only able to access the specific file that you want to open, rather than requiring privileges to particular locations.
 
-Hard-coded access to some kernel interfaces like [`/sys`](https://en.wikipedia.org/wiki/Sysfs) and [`/proc`](https://en.wikipedia.org/wiki/Procfs#Linux) and weak [seccomp](https://en.wikipedia.org/wiki/Seccomp) filters unfortunately cannot be secured by the user with Flatpak.
+Hard-coded access to some kernel interfaces like [`/sys`](https://en.wikipedia.org/wiki/Sysfs) and [`/proc`](https://en.wikipedia.org/wiki/Procfs#Linux) and weak [seccomp](https://en.wikipedia.org/wiki/Seccomp) filters unfortunately cannot be secured with Flatpak.
 
 ### Firejail
 
@@ -44,7 +44,7 @@ Linux desktops don't usually include individual app confinement rules, unlike An
 
 ### Making your own policies/profiles
 
-For advanced users, you can make your own AppArmor profiles, SELinux policies, Bubblewrap profiles, and [seccomp](https://en.wikipedia.org/wiki/Seccomp) blacklist to have better confinement of applications. This is quite a tedious and complicated task so we won’t go into detail about how to do it here, but we do have a few projects that you could use as reference.
+You can make your own AppArmor profiles, SELinux policies, Bubblewrap profiles, and [seccomp](https://en.wikipedia.org/wiki/Seccomp) blacklist to have better confinement of applications. This is an advanced and sometimes tedious task, so we won’t go into detail about how to do it here, but we do have a few projects that you could use as reference.
 
 - Whonix’s [AppArmor Everything](https://github.com/Whonix/apparmor-profile-everything)
 - Krathalan’s [AppArmor profiles](https://github.com/krathalan/apparmor-profiles)
@@ -61,6 +61,6 @@ Red Hat develops [Podman](https://docs.podman.io/en/latest/) and secures it with
 
 Another option is [Kata containers](https://katacontainers.io/), where virtual machines masquerade as containers. Each Kata container has its own Linux kernel and is isolated from the host.
 
-These container technologies can be useful even for enthusiastic home users who may want to run certain web app software on their local area network (LAN) such as [Vaultwarden](https://github.com/dani-garcia/vaultwarden) or images provided by [linuxserver.io](https://www.linuxserver.io) to increase privacy by decreasing dependence on various web services.
+These container technologies can be useful for those who may want to run certain web app software on their local area network (LAN) such as [Vaultwarden](https://github.com/dani-garcia/vaultwarden) or images provided by [linuxserver.io](https://www.linuxserver.io) to increase privacy by decreasing dependence on various web services.
 
 --8<-- "includes/abbreviations.en.md"

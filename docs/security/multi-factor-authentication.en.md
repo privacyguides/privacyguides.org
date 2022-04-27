@@ -18,13 +18,13 @@ Receiving OTP codes via SMS or email are one of the weaker ways to secure your a
 
 Push notification MFA takes the form of a message being sent to an app on your phone asking you to confirm new account logins. This method is a lot better than SMS or email, since an attacker typically wouldn't be able to get these push notifications without having an already logged-in device, which means they would need to compromise one of your other devices first.
 
-We all make mistakes, and there is the risk that a user may accept the login attempt by accident. Push notification login authorizations are typically sent to *all* your devices at once, widening the availability of the MFA code if you have many devices.
+We all make mistakes, and there is the risk that you might accept the login attempt by accident. Push notification login authorizations are typically sent to *all* your devices at once, widening the availability of the MFA code if you have many devices.
 
 The security of push notification MFA is dependent on both the quality of the app, the server component and the trust of the developer who produces it. Installing an app may also require you to accept invasive privileges that grant access to other data on your device. An individual app also requires that you have a specific app for each service which may not require a password to open, unlike a good TOTP generator app.
 
 ### Time-based One-time Password (TOTP)
 
-TOTP is one of the most commons form of MFA available. When a user sets up TOTP they are generally required to scan a [QR Code](https://en.wikipedia.org/wiki/QR_code) which establishes a "[shared secret](https://en.wikipedia.org/wiki/Shared_secret)" with the service that they intend to use. The shared secret is secured inside of the authenticator app's data, and is sometimes protected by a password.
+TOTP is one of the most commons form of MFA available. When you set up TOTP you are generally required to scan a [QR Code](https://en.wikipedia.org/wiki/QR_code) which establishes a "[shared secret](https://en.wikipedia.org/wiki/Shared_secret)" with the service that you intend to use. The shared secret is secured inside of the authenticator app's data, and is sometimes protected by a password.
 
 The time-limited code is then derived from the shared secret and the current time. As the code is only valid for a short time, without access to the shared secret an adversary cannot generate new codes.
 
@@ -44,9 +44,9 @@ These keys are generally multi-function and provide a number of methods to authe
 
 #### Yubico OTP
 
-Yubico OTP is an authentication protocol typically implemented in hardware security keys. When a user decides to use Yubico OTP, the key will generate a public ID, private ID, and a Secret Key which is then uploaded to the Yubico OTP server.
+Yubico OTP is an authentication protocol typically implemented in hardware security keys. When you decide to use Yubico OTP, the key will generate a public ID, private ID, and a Secret Key which is then uploaded to the Yubico OTP server.
 
-When logging into a website, all a user needs to do is to physically touch the security key. The security key will emulate a keyboard and print out a one-time password into the password field.
+When logging into a website, all you need to do is to physically touch the security key. The security key will emulate a keyboard and print out a one-time password into the password field.
 
 The service will then forward the one-time password to the Yubico OTP server for validation. A counter is incremented both on the key and Yubico's validation server. The OTP can only only be used once, and when a successful authentication occurs the counter is increased which prevents reuse of the OTP. Yubico provides a [detailed document](https://developers.yubico.com/OTP/OTPs_Explained.html) about the process.
 
@@ -56,7 +56,7 @@ The service will then forward the one-time password to the Yubico OTP server for
 
 There are some benefits and disadvantages to using Yubico OTP when compared to TOTP.
 
-The Yubico validation server is a cloud based service, and users place trust in Yubico that they are storing data securely and not profiling users. The public ID associated with Yubico OTP is reused on every website and could be another avenue for third parties to profile the user. Like TOTP, Yubico OTP does not provide phishing resistance.
+The Yubico validation server is a cloud based service, and you're placing trust in Yubico that they are storing data securely and not profiling you. The public ID associated with Yubico OTP is reused on every website and could be another avenue for third parties to profile you. Like TOTP, Yubico OTP does not provide phishing resistance.
 
 If your threat model requires you to have different identities on different websites, **do not** use Yubico OTP with the same hardware security key across those websites as public ID is unique to each security key.
 
@@ -66,13 +66,13 @@ If your threat model requires you to have different identities on different webs
 
 U2F and FIDO2 refer to the [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), which is the protocol between the security key and the computer, such as a laptop or phone. It complements WebAuthn which is the component used to authenticate with the website (the "Relying Party") you're trying to log in on.
 
-WebAuthn is the most secure and private form of second factor authentication. While the user experience is similar to Yubico OTP, the key does not print out a one-time password and validate with a third party server. Instead it uses [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) for authentication.
+WebAuthn is the most secure and private form of second factor authentication. While the authentication experience is similar to Yubico OTP, the key does not print out a one-time password and validate with a third party server. Instead it uses [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) for authentication.
 
 <figure markdown>
   ![FIDO](../assets/img/multi-factor-authentication/fido.png)
 </figure>
 
-When a user creates an account the public key is sent to the service, then when the user logs in, the service will require the user to "sign" some data with their private key. The benefit of this is that no password data is ever stored by the service, so there is nothing for an adversary to steal.
+When you create an account the public key is sent to the service, then when you log in, the service will require you to "sign" some data with your private key. The benefit of this is that no password data is ever stored by the service, so there is nothing for an adversary to steal.
 
 This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and discussion of FIDO2 and [WebAuthn](https://webauthn.guide) standards.
 
@@ -86,9 +86,9 @@ This presentation discusses the history of password authentication, the pitfalls
 
 FIDO2 and WebAuthn have superior security and privacy properties when compared to any MFA methods.
 
-Typically for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). It uses public key authentication and is more secure than shared secrets used in Yubico OTP and TOTP methods, as it includes the origin name (usually, the domain name) during authentication. Attestation is provided to protect the user from phishing, as it helps them to determine that they are using the authentic service and not a fake copy.
+Typically for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). It uses public key authentication and is more secure than shared secrets used in Yubico OTP and TOTP methods, as it includes the origin name (usually, the domain name) during authentication. Attestation is provided to protect you from phishing attacks, as it helps you to determine that you are using the authentic service and not a fake copy.
 
-Unlike Yubico OTP, WebAuthn does not use any public ID, so the key is **not** identifiable across different websites. It also does not use any third party cloud server for authentication. All communication is completed between the key and the website the user is logging into. FIDO also uses a counter which is incremented upon use in order to prevent session reuse and cloned keys.
+Unlike Yubico OTP, WebAuthn does not use any public ID, so the key is **not** identifiable across different websites. It also does not use any third party cloud server for authentication. All communication is completed between the key and the website you are logging into. FIDO also uses a counter which is incremented upon use in order to prevent session reuse and cloned keys.
 
 If a website or service supports WebAuthn for the authentication, it is highly recommended that you use it over any other form of MFA.
 
@@ -146,7 +146,7 @@ The command will prevent an adversary from bypassing MFA when the computer boots
 
     If the hostname of your system changes (such as due to DHCP), you would be unable to login. It is vital that you set up a proper hostname for your computer before following this guide.
 
-The `pam_u2f` module on Linux can provide two factor authentication for user login on most popular Linux distributions. If you have a hardware security key that supports U2F, you can set up MFA authentication for your login. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. The package manager commands—such as `apt-get`—and package names may however differ. This guide does **not** apply to Qubes OS.
+The `pam_u2f` module on Linux can provide two factor authentication for logging in on most popular Linux distributions. If you have a hardware security key that supports U2F, you can set up MFA authentication for your login. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. The package manager commands—such as `apt-get`—and package names may however differ. This guide does **not** apply to Qubes OS.
 
 ### Qubes OS
 

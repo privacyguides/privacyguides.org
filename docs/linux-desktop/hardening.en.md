@@ -44,7 +44,7 @@ The [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc) f
 
 ## Umask
 
-If you are not using openSUSE, consider changing the default [umask](https://en.wikipedia.org/wiki/Umask) for both regular users and root to 077. Changing umask to 077 can break snapper on openSUSE and is **not** recommended.
+If you are not using openSUSE, consider changing the default [umask](https://en.wikipedia.org/wiki/Umask) for both regular user accounts and root to 077. Changing umask to 077 can break snapper on openSUSE and is **not** recommended.
 
 ## Mountpoint hardening
 

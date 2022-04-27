@@ -49,7 +49,7 @@ jonah@privacyguides.org
 
 For all other inquiries, you can contact any member of our team.
 
-For complaints under GDPR more generally, European Union users may lodge complaints with their local data protection supervisory authorities.
+For complaints under GDPR more generally, you may lodge complaints with your local data protection supervisory authorities.
 
 ## About This Policy
 

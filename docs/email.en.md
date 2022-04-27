@@ -35,7 +35,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
 ??? check "Custom Domains and Aliases"
 
-    Paid ProtonMail users can use their own domain with the service. [Catch-all](https://protonmail.com/support/knowledge-base/catch-all/) addresses are supported with custom domains for Professional and Visionary plans. ProtonMail also supports [subaddressing](https://protonmail.com/support/knowledge-base/creating-aliases/), which is useful for users who don't want to purchase a domain.
+    Paid ProtonMail subscribers can use their own domain with the service. [Catch-all](https://protonmail.com/support/knowledge-base/catch-all/) addresses are supported with custom domains for Professional and Visionary plans. ProtonMail also supports [subaddressing](https://protonmail.com/support/knowledge-base/creating-aliases/), which is useful for people who don't want to purchase a domain.
 
 ??? check "Private Payment Methods"
 
@@ -51,9 +51,9 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
 ??? check "Email Encryption"
 
-    ProtonMail has [integrated OpenPGP encryption](https://protonmail.com/support/knowledge-base/how-to-use-pgp) in their webmail. Emails to other ProtonMail users are encrypted automatically, and encryption to non-ProtonMail users with an OpenPGP key can be enabled easily in your account settings. They also allow you to [encrypt messages to non-ProtonMail users](https://protonmail.com/support/knowledge-base/encrypt-for-outside-users) without the need for them to sign up for a ProtonMail account or use software like OpenPGP.
+    ProtonMail has [integrated OpenPGP encryption](https://protonmail.com/support/knowledge-base/how-to-use-pgp) in their webmail. Emails to other ProtonMail accounts are encrypted automatically, and encryption to non-ProtonMail addresses with an OpenPGP key can be enabled easily in your account settings. They also allow you to [encrypt messages to non-ProtonMail addresses](https://protonmail.com/support/knowledge-base/encrypt-for-outside-users) without the need for them to sign up for a ProtonMail account or use software like OpenPGP.
 
-    ProtonMail also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows users outside of ProtonMail to find the OpenPGP keys of ProtonMail users easily, for cross-provider E2EE.
+    ProtonMail also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use ProtonMail to find the OpenPGP keys of ProtonMail accounts easily, for cross-provider E2EE.
 
 ??? check ".onion Service"
 
@@ -77,7 +77,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
 ??? check "Custom Domains and Aliases"
 
-    Mailbox.org lets users use their own domain and they support [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) addresses. Mailbox.org also supports [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), which is useful for users who don't want to purchase a domain.
+    Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) addresses. Mailbox.org also supports [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), which is useful if you don't want to purchase a domain.
 
 ??? info "Private Payment Methods"
 
@@ -95,13 +95,13 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
 ??? check "Email Encryption"
 
-    Mailbox.org has [integrated encryption](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in their webmail, which simplifies sending messages to users with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
+    Mailbox.org has [integrated encryption](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
 
-    Mailbox.org also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows users outside of Mailbox.org to find the OpenPGP keys of Mailbox.org users easily, for cross-provider E2EE.
+    Mailbox.org also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily, for cross-provider E2EE.
 
 ??? info ".onion Service"
 
-    You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). However, their webmail interface cannot be accessed via their .onion service, and users may experience TLS certificate errors.
+    You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
 
 ??? info "Additional Functionality"
 
@@ -114,7 +114,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
     ![Disroot logo](assets/img/email/disroot.svg#only-light){ align=right }
     ![Disroot logo](assets/img/email/disroot-dark.svg#only-dark){ align=right }
 
-    **Disroot** offers email amongst [other services](https://disroot.org/en/#services). The service is maintained by volunteers and its community. They have been in operation since 2015. Disroot is based in Amsterdam. Disroot is free and uses open source software such as Rainloop to provide service. Users support the service through donations and buying extra storage. The mailbox limit is 1 GB, but extra storage can be purchased 0.15€ per GB per month paid yearly.
+    **Disroot** offers email amongst [other services](https://disroot.org/en/#services). The service is maintained by volunteers and its community. They have been in operation since 2015. Disroot is based in Amsterdam. Disroot is free and uses open source software such as Rainloop to provide service. You can support the service through donations and buying extra storage. The mailbox limit is 1 GB, but extra storage can be purchased 0.15€ per GB per month paid yearly.
 
     **Free**
 
@@ -122,7 +122,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
 ??? check "Custom Domains and Aliases"
 
-    Disroot lets users use their own domain. They have aliases, however you must [manually apply](https://disroot.org/en/forms/alias-request-form) for them.
+    Disroot lets you use your own domain. They have aliases, however you must [manually apply](https://disroot.org/en/forms/alias-request-form) for them.
 
 ??? check "Private Payment Methods"
 
@@ -140,7 +140,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
 ??? check "Email Encryption"
 
-    Disroot allows for encrypted emails to be sent from their webmail application using OpenPGP. However, Disroot has not integrated a Web Key Directory (WKD) for users on their platform.
+    Disroot allows for encrypted emails to be sent from their webmail application using OpenPGP. However, Disroot has not integrated a Web Key Directory (WKD) for email accounts on their platform.
 
 ??? missing ".onion Service"
 
@@ -179,7 +179,7 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
 ??? check "Account Security"
 
-    Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa). Users can either use TOTP or U2F. U2F support is [not yet available on Android](https://github.com/tutao/tutanota/issues/443).
+    Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with either TOTP or U2F. U2F support is [not yet available on Android](https://github.com/tutao/tutanota/issues/443).
 
 ??? check "Data Security"
 
@@ -187,9 +187,9 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
 ??? warning "Email Encryption"
 
-    Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota users can only receive encrypted emails when external users send them through a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
+    Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
 
-    Tutanota [does have plans](https://github.com/tutao/tutanota/issues/198) to support [AutoCrypt](https://autocrypt.org). This would allow for external users to send encrypted emails to Tutanota users as long as their email client supports the AutoCrypt headers.
+    Tutanota [does have plans](https://github.com/tutao/tutanota/issues/198) to support [AutoCrypt](https://autocrypt.org). This would allow for non-Tutanota emails to send encrypted emails to Tutanota accounts as long as their email client supports the AutoCrypt headers.
 
 ??? missing ".onion Service"
 
@@ -228,13 +228,13 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
 ??? info "Data Security"
 
-    StartMail has [zero access encryption at rest](https://www.startmail.com/en/whitepaper/#_Toc458527835), using their "user vault" system. When a user logs in, the vault is opened, and the email is then moved to the vault out of the queue where it is decrypted by the corresponding private key.
+    StartMail has [zero access encryption at rest](https://www.startmail.com/en/whitepaper/#_Toc458527835), using their "user vault" system. When you log in, the vault is opened, and the email is then moved to the vault out of the queue where it is decrypted by the corresponding private key.
 
     StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) however, they are only accessible in the webmail and not through protocols such as [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacts are also not stored using zero knowledge encryption, so a [standalone option](calendar-contacts.md) may be more appropriate.
 
 ??? check "Email Encryption"
 
-    StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending messages to users with public OpenPGP keys.
+    StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys.
 
 ??? missing ".onion Service"
 
@@ -242,7 +242,7 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
 ??? info "Additional Functionality"
 
-    StartMail allows for proxying of images within emails. If a user allows the remote image to be loaded, the sender won't know what the user's IP address is.
+    StartMail allows for proxying of images within emails. If you allow the remote image to be loaded, the sender won't know what your IP address is.
 
 ## Email Cloaking Services
 
@@ -251,7 +251,7 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
     ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
     ![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
 
-    **[AnonAddy](https://anonaddy.com)** lets users create aliases that forward to their email address. Can be self-hosted. [Source code on GitHub](https://github.com/anonaddy/anonaddy). 
+    **[AnonAddy](https://anonaddy.com)** lets you create aliases that forward to their email address. Can be self-hosted. [Source code on GitHub](https://github.com/anonaddy/anonaddy). 
 
 !!! recommendation
 
@@ -261,7 +261,7 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
 ## Self-Hosting Email
 
-Advanced users may consider setting up their own email server. Mailservers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.
+Advanced system administrators may consider setting up their own email server. Mailservers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.
 
 ### Combined software solutions
 
@@ -269,7 +269,7 @@ Advanced users may consider setting up their own email server. Mailservers requi
 
     ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
 
-    **[Mail-in-a-Box](https://mailinabox.email)** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for users to set up their own mail server.
+    **[Mail-in-a-Box](https://mailinabox.email)** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
 
 !!! recommendation
 
@@ -301,23 +301,23 @@ Operating outside the five/nine/fourteen-eyes countries is not necessarily a gua
 
 ### Technology
 
-We regard these features as important in order to provide a safe and optimal service to users. Users should consider the provider which has the features they require.
+We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider which has the features you require.
 
 **Minimum to Qualify:**
 
 - Encrypts account data at rest.
-- Integrated webmail encryption provides convenience to users who want improve on having no E2EE.
+- Integrated webmail encryption provides convenience to those who want an improvement on having no E2EE.
 
 **Best Case:**
 
 - Encrypts account data at rest with zero-access encryption.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad, be acquired by another company which doesn't prioritize privacy etc.
+- Allow you to use your own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important, because they allow you to maintain your agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy, etc.
 - Support for [WKD](https://wiki.gnupg.org/WKD) to allow improved discovery of public OpenPGP keys via HTTP.  
-    GnuPG users can get a key by typing: `gpg --locate-key example_user@example.com`
-- Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
+    You can get a key by typing: `gpg --locate-key example_user@example.com`
+- Support for a temporary mailbox for outside accounts. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
 - Availability of the email provider's services via an [onion service](https://en.wikipedia.org/wiki/.onion).
 - [Subaddressing](https://en.wikipedia.org/wiki/Email_address#Subaddressing) support.
-- Catch-all or alias functionality for users who own their own domains.
+- Catch-all or alias functionality for those who own their own domains.
 - Use of standard email access protocols such as IMAP, SMTP or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 
 ### Privacy
@@ -336,7 +336,7 @@ We prefer our recommended providers to collect as little data as possible.
 
 ### Security
 
-Email servers deal with a lot of very sensitive data. We expect that providers will adopt best industry practices in order to protect their users.
+Email servers deal with a lot of very sensitive data. We expect that providers will adopt best industry practices in order to protect their members.
 
 **Minimum to Qualify:**
 
@@ -357,10 +357,10 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 
 **Best Case:**
 
-- Support for hardware authentication, ie U2F and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate users, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
+- Support for hardware authentication, ie U2F and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate people, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
 - Zero access encryption, builds on encryption at rest. The difference being the provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
-- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), this is useful for users who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), this is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
 - Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
 - Website security standards such as:
 
@@ -386,12 +386,12 @@ With the email providers we recommend we like to see responsible marketing.
 
 **Minimum to Qualify:**
 
-- Must self host analytics (no Google Analytics etc). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those users who want to opt-out.
+- Must self host analytics (no Google Analytics etc). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt-out.
 
 Must not have any marketing which is irresponsible:
 
 - Claims of "unbreakable encryption". Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
-- Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know users can quite easily deanonymize themselves in a number of ways, e.g.:
+- Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
 
 - Reusing personal information e.g. (email accounts, unique pseudonyms etc) that they accessed without anonymity software (Tor, VPN etc)
 - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
@@ -438,7 +438,7 @@ Email software will often show some visible headers that you may have seen such 
 
 ### When is email metadata used?
 
-Client software may use it to show who a message is from and what time it was received. Servers may use it to determine where an email message must be sent, among [other purposes](https://en.wikipedia.org/wiki/Email#Message_header) not transparent to the user.
+Client software may use it to show who a message is from and what time it was received. Servers may use it to determine where an email message must be sent, among [other purposes](https://en.wikipedia.org/wiki/Email#Message_header) which are not always transparent.
 
 ### Where is the email metadata?
 

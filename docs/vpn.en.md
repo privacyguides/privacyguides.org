@@ -70,19 +70,19 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     Mullvad supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) is a newer protocol that utilizes state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
 
-    Mullvad [recommends](https://mullvad.net/en/help/why-wireguard/) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, whereas Windows users have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
+    Mullvad [recommends](https://mullvad.net/en/help/why-wireguard/) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
 
 ??? check "IPv6 Support"
 
-    Mullvad supports the future of networking [IPv6](https://en.wikipedia.org/wiki/IPv6). Their network allows users to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/) as opposed to other providers who block IPv6 connections.
+    Mullvad supports the future of networking [IPv6](https://en.wikipedia.org/wiki/IPv6). Their network allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/) as opposed to other providers who block IPv6 connections.
 
 ??? check "Remote Port Forwarding"
 
-    Remote [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is allowed for users who make one-time payments, and not allowed for accounts with a recurring/subscription-based payment method. This is to prevent Mullvad from being able to identify port users based on stored subscription information. See [Port forwarding with Mullvad VPN](https://mullvad.net/help/port-forwarding-and-mullvad/) for more information.
+    Remote [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is allowed for people who make one-time payments, but not allowed for accounts with a recurring/subscription-based payment method. This is to prevent Mullvad from being able to identify you based on your port usage and stored subscription information. See [Port forwarding with Mullvad VPN](https://mullvad.net/help/port-forwarding-and-mullvad/) for more information.
 
 ??? check "Mobile Clients"
 
-    Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to use interface as opposed to requiring users to manual configure their WireGuard connections. The mobile client on Android is also available in [F-Droid](https://f-droid.org/packages/net.mullvad.mullvadvpn), which ensures that it is compiled with [reproducible builds](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
+    Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to use interface as opposed to requiring you to manually configure your WireGuard connection. The mobile client on Android is also available in [F-Droid](https://f-droid.org/packages/net.mullvad.mullvadvpn), which ensures that it is compiled with [reproducible builds](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
 
 ??? info "Additional Functionality"
 
@@ -108,7 +108,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? check "Independently Audited"
 
-    As of January 2020 ProtonVPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in ProtonVPN's Windows, Android, and iOS applications, all of which were "properly fixed" by ProtonVPN before the reports were published. None of the issues identified would have provided an attacker remote access to a user's device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/).
+    As of January 2020 ProtonVPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in ProtonVPN's Windows, Android, and iOS applications, all of which were "properly fixed" by ProtonVPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/).
 
 ??? check "Open Source Clients"
 
@@ -214,14 +214,14 @@ We require all our recommended VPN providers to provide OpenVPN configuration fi
 - Support for strong protocols such as WireGuard & OpenVPN.
 - Killswitch built in to clients.
 - Multihop support. Multihopping is important to keep data private in case of a single node compromise.
-- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency to the user about what their device is actually doing. We like to see these applications [available in F-Droid](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
+- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what your device is actually doing. We like to see these applications [available in F-Droid](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
 
 **Best Case:**
 
 - WireGuard and OpenVPN support.
 - Killswitch with highly configurable options (enable/disable on certain networks, on boot, etc.)
 - Easy-to-use VPN clients
-- Supports [IPv6](https://en.wikipedia.org/wiki/IPv6). We expect that servers will allow incoming connections via IPv6 and allow users to access services hosted on IPv6 addresses.
+- Supports [IPv6](https://en.wikipedia.org/wiki/IPv6). We expect that servers will allow incoming connections via IPv6 and allow you to access services hosted on IPv6 addresses.
 - Capability of [remote port forwarding](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) assists in creating connections when using P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) filesharing software, Freenet, or hosting a server (e.g., Mumble).
 
 ### Privacy
@@ -274,15 +274,15 @@ With the VPN providers we recommend we like to see responsible marketing.
 
 **Minimum to Qualify:**
 
-- Must self host analytics (no Google Analytics etc). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those users who want to opt-out.
+- Must self host analytics (no Google Analytics etc). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt-out.
 
 Must not have any marketing which is irresponsible:
 
-- Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know users can quite easily deanonymize themselves in a number of ways, eg:
+- Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, eg:
   - Reusing personal information eg. (email accounts, unique pseudonyms etc) that they accessed without anonymity software (Tor, VPN etc)
   - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 - Claim that a single circuit VPN is "more anonymous" than Tor, which is a circuit of 3 or more hops that regularly changes.
-- Use responsible language, eg it is okay to say that a VPN is "disconnected" or "not connected", however claiming that a user is "exposed", "vulnerable" or "compromised" is needless use of alarming language that may be incorrect. For example the visiting user might be on another VPN provider's service or using Tor.
+- Use responsible language, eg it is okay to say that a VPN is "disconnected" or "not connected", however claiming that someone is "exposed", "vulnerable" or "compromised" is needless use of alarming language that may be incorrect. For example, that person might simply be on another VPN provider's service or using Tor.
 
 **Best Case:**
 

@@ -27,7 +27,7 @@ These are our current web browser recommendations and settings. We recommend kee
         - [:fontawesome-brands-git: Source](https://trac.torproject.org/projects/tor)
 
 !!! warning
-    You should **never** install any additional extensions on Tor Browser, including the ones we suggest for Firefox. Browser extensions make you stand out from other Tor users and your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
+    You should **never** install any additional extensions on Tor Browser, including the ones we suggest for Firefox. Browser extensions make you stand out from other people on the Tor network, and make your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
 ## Desktop Browser Recommendations
 

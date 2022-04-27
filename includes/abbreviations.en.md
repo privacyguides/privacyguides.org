@@ -69,7 +69,7 @@
 *[VoIP]: Voice over IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol
-*[attack surface]: The attack surface of software or hardware is the sum of the different places an unauthorized user (the "attacker") can try to enter data to or extract data from.
+*[attack surface]: The attack surface of software or hardware is the sum of the different places an attacker can try to enter data to or extract data from.
 *[cgroups]: Control Groups
 *[fork]: In software development, a fork is created when developers take a copy of source code from one software package and start independent development on it, creating a distinct and separate piece of software.
 *[rolling release]: An update release cycle in which updates are released very frequently, instead of at set intervals.

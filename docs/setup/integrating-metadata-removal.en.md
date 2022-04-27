@@ -120,7 +120,7 @@ The lack of *good* metadata removal apps on the App Store is what makes this sol
 
 ## Windows
 
-Windows allows users to place files in a **SendTo** folder which then appear in the *Send to* context menu. This guide will show you how to add an [ExifTool](../metadata-removal-tools.md#exiftool) batch script to this menu.
+Windows allows you to place files in a **SendTo** folder which then appear in the *Send to* context menu. This guide will show you how to add an [ExifTool](../metadata-removal-tools.md#exiftool) batch script to this menu.
 
 ![Send to metadata removal shortcut](../assets/img/integrating-metadata-removal/preview-windows.jpg)
 
