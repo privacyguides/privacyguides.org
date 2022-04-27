@@ -94,26 +94,29 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
 
     ![Session logo](assets/img/messengers/session.svg){ align=right }
 
-    **Session** is an encrypted instant messenger that uses three random [service nodes](https://getsession.org/blog/onion-requests-session-new-message-routing-solution) to route messages anonymously on the [Oxen Network](https://oxen.io).
+    **Session** is a decentralized messenger with a focus on private, secure, and anonymous communications. Session offers support for direct messages, group chats, and voice calls.
+
+    Session utilizes the decentralized [Oxen Service Node Network](https://oxen.io/) to store and route messages. Every encrypted message is routed through three nodes in the Oxen Service Node Network, making it virtually impossible for the nodes to compile meaningful information about the users of the network.
 
     [Homepage](https://getsession.org/){ .md-button .md-button--primary }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://getsession.org/windows)
-        - [:fontawesome-brands-apple: macOS](https://getsession.org/mac)
+        - [:fontawesome-brands-windows: Windows](https://getsession.org/download)
+        - [:fontawesome-brands-apple: macOS](https://getsession.org/download)
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1470168868)
-        - [:fontawesome-brands-linux: Linux](https://www.getsession.org/linux)
-        - [:fontawesome-brands-android: Android](https://fdroid.getsession.org/)
+        - [:fontawesome-brands-linux: Linux](https://getsession.org/download)
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
         - [:pg-f-droid: F-Droid](https://fdroid.getsession.org)
-        - [:fontawesome-brands-github: Source](https://github.com/oxen-io/session-desktop)
+        - [:fontawesome-brands-github: Source](https://github.com/oxen-io)
 
-Session allows for E2EE in one-to-one or closed rooms that allow up to 100 members. Open rooms have no restriction on the number of members, but anyone can join.
+Session allows for E2EE in one-on-one chats or closed groups which allow for up to 100 members. Open groups have no restriction on the number of members, but are open by design.
 
-Session does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy. The key pair for each conversation is not rotated.
+Session does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.
 
-Session was independently audited in 2020. The protocol is described in a whitepaper.
+Oxen requested an independent audit for Session in March of 2020. The audit [concluded](https://getsession.org/session-code-audit) in April of 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
+
+Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technicals of the app and protocol.
 
 ## Types of Communication Networks
 
