@@ -2,7 +2,7 @@ name: 🔂 Surge PR Preview
 
 on:
   pull_request_target:
-    types: [opened, synchronize, reopened, closed]
+    types: [opened, synchronize, reopened]
 
 jobs:
   preview:
@@ -33,7 +33,6 @@ jobs:
           surge_token: ${{ secrets.SURGE_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           dist: site
-          teardown: 'true'
           failOnError: 'true'
           build: |
             pip install pipenv
