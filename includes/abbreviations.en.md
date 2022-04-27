@@ -46,7 +46,6 @@
 *[OTPs]: One-Time Passwords
 *[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
 *[P2P]: Peer-to-Peer
-*[PFS]: Perfect Forward Secrecy
 *[PGP]: Pretty Good Privacy (see OpenPGP)
 *[PII]: Personally Identifiable Information
 *[QNAME]: Qualified Name
@@ -74,4 +73,3 @@
 *[cgroups]: Control Groups
 *[fork]: In software development, a fork is created when developers take a copy of source code from one software package and start independent development on it, creating a distinct and separate piece of software.
 *[rolling release]: An update release cycle in which updates are released very frequently, instead of at set intervals.
-*[perfect forward secrecy]: When a piece of an encryption system automatically and frequently changes the keys it uses to encrypt and decrypt information, such that if the latest key is compromised, it exposes only a small portion of the user’s sensitive data.
