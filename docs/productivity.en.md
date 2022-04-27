@@ -73,7 +73,7 @@ Get working and collaborating without sharing your documents with a middleman or
 
     ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
 
-    **PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin.
+    **PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin. There is a [list of instances](https://privatebin.info/directory/).
 
     [Website](https://privatebin.info){ .md-button .md-button--primary }
 
