@@ -1,9 +1,9 @@
 ---
-title: "Private Email Providers"
+title: "Email Services"
 icon: material/email
 ---
 
-Find a secure email provider that will keep your privacy in mind. Don’t settle for ad-supported platforms. Never trust any company with your privacy, always encrypt.
+Find a secure email service provider that will keep your privacy in mind. Don’t settle for ad-supported platforms. Never trust any company with your privacy, always encrypt.
 
 !!! warning
 
@@ -17,7 +17,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     [Recommended Instant Messengers](real-time-communication.md){ .md-button }
 
-## Recommended Email Services
+## Recommended Email Providers
 
 ### ProtonMail
 
@@ -230,20 +230,82 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
     StartMail allows for proxying of images within emails. If you allow the remote image to be loaded, the sender won't know what your IP address is.
 
-## Email Cloaking Services
+## Email Aliasing Services
+
+An email aliasing service allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your email provider. True email aliasing is better than the plus (+) "alias" trick commonly used and supported by many providers, which allows you to create aliases like yourname+[anythinghere]@example.com, because websites, advertisers, and tracking networks can trivially remove anything after the + sign to know your true email address.
+
+Using a dedicated email aliasing service also has a number of benefits over a catch-all alias on a custom domain:
+
+- Aliases can be turned on and off individually when you need them, preventing websites from emailing you randomly.
+- Replies are sent from the alias address, shielding your real email address.
+
+They also have a number of benefits over "temporary email" services:
+
+- Aliases are permanent, and can be turned on again if you need to receive something like a password reset.
+- Emails are sent to your trusted mailbox rather than stored by the alias provider.
+- Temporary email services typically have public mailboxes which can be accessed by anyone who knows the address, aliases are private to you.
+
+Our email aliasing recommendations are providers that allow you to create aliases on domains they own, as well as custom domains for a modest yearly fee. They can also be self-hosted on your custom domain if you want maximum control. However, using a custom domain can have privacy-related drawbacks: If you are the only user on your custom domain your actions can be easily tracked across websites simply by looking at the domain name in the email, ignoring everything before the at (@) sign.
+
+Using an aliasing service requires trusting both your email provider and your aliasing provider with your unencrypted messages. Some providers mitigate this slightly with automatic PGP encryption, which reduces the number of parties you need to trust from 2 to 1 by encrypting incoming emails before they are delivered to your final mailbox provider.
+
+### SimpleLogin
+
+!!! recommendation
+
+    ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
+
+    **[SimpleLogin](https://simplelogin.io)** (now owned by ProtonMail) is a free service which provides email aliases on a variety of shared domain names, and optionally provides features like unlimited aliases and custom domains for $30/year. [Source code on GitHub](https://github.com/simple-login/app).
+
+    [Website](https://simplelogin.io){ .md-button .md-button--primary } [Privacy Policy](https://simplelogin.io/privacy/){ .md-button }
+
+    ??? downloads
+        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/)
+        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
+        - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
+        - [:fontawesome-brands-safari: Safari](https://apps.apple.com/app/id1494051017)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1494359858)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/io.simplelogin.android.fdroid/)
+        - [:fontawesome-brands-github: Source](https://github.com/simple-login)
+
+SimpleLogin [is owned by ProtonMail](https://protonmail.com/blog/proton-and-simplelogin-join-forces/) as of April 8, 2022. If you use ProtonMail for your primary mailbox, this makes SimpleLogin a great choice, because you now only have to trust a single email provider, and SimpleLogin will be more closely integrated with ProtonMail's offerings in the future. However, SimpleLogin continues to support forwarding to any provider, not ProtonMail exclusively.
+
+Free features:
+
+- [x] 15 Shared Aliases
+- [x] Unlimited Replies
+- [x] 1 Recepient Mailbox
+
+### AnonAddy
 
 !!! recommendation
 
     ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
     ![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
 
-    **[AnonAddy](https://anonaddy.com)** lets you create aliases that forward to their email address. Can be self-hosted. [Source code on GitHub](https://github.com/anonaddy/anonaddy). 
+    **[AnonAddy](https://anonaddy.com)** lets you create 20 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous. It has two premium plans at $12/year and $36/year which provide additional features. [Source code on GitHub](https://github.com/anonaddy/anonaddy).
 
-!!! recommendation
+    [Website](https://anonaddy.com){ .md-button .md-button--primary } [Privacy Policy](https://anonaddy.com/privacy/){ .md-button }
 
-    ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
+    ??? downloads
+        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
+        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
+        - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
+        - [:fontawesome-brands-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
+        - [:fontawesome-brands-github: Source](https://github.com/anonaddy)
 
-    **[SimpleLogin](https://simplelogin.io)** allows you to easily create aliases for your email. Can be self-hosted. [Source code on GitHub](https://github.com/simple-login/app).
+AnonAddy differentiates between "shared aliases" and "standard aliases": The number of shared aliases (which end in a domain like @anonaddy.me which is shared by other users) you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/month plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however as noted above this can be detrimental to privacy, because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared alias are available for $36/year.
+
+Free features:
+
+- [x] 20 Shared Aliases
+- [x] Unlimited Standard Aliases
+- [ ] No Outgoing Replies
+- [x] 2 Receipent Mailboxes
+- [x] Automatic PGP Encryption
+
+*[Automatic PGP Encryption]: Allows you to encrypt non-encrypted incoming emails before they are forwarded to your mailbox, making sure your primary mailbox provider never sees unencrypted email content.
 
 ## Self-Hosting Email
 
