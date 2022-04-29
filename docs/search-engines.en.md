@@ -31,7 +31,8 @@ DuckDuckGo offers two other [versions](https://help.duckduckgo.com/features/non-
 
 !!! recommendation
 
-    ![Startpage logo](assets/img/search-engines/startpage.svg){ align=right }
+    ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
+    ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
 
     **Startpage** is a search engine that provides Google search results. It is a very convenient way to get Google search results without experiencing dark patterns such as difficult captchas or being refused access because you used a [VPN](vpn.md) or [Tor](https://www.torproject.org/download/).
 
