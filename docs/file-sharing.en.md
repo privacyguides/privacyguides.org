@@ -71,6 +71,8 @@ Discover how to privately share your files between your devices, with your frien
         - [:fontawesome-brands-windows: Windows](https://syncthing.net/downloads)
         - [:fontawesome-brands-apple: macOS](https://syncthing.net/downloads)
         - [:fontawesome-brands-linux: Linux](https://syncthing.net/downloads)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.nutomic.syncthingandroid/)
         - [:fontawesome-brands-github: Source](https://github.com/syncthing)
 
 ### git-annex
