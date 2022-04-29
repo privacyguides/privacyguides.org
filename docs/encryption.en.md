@@ -276,7 +276,7 @@ When encrypting with PGP, you have the option to configure different options in 
 
     ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
 
-    **GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail) and macOS. GPGTools GmbH costs $24€ yearly for their support plan and includes a 30-day trial.
+    **GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail) and macOS. GPG Mail costs $24€ yearly for their support plan and includes a 30-day trial. For more details see the [FAQ](https://gpgtools.org/faq).
 
     We recommend taking a look at their [First steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) and [Knowledge base](https://gpgtools.tenderapp.com/kb) for support.
 
