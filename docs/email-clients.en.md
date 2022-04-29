@@ -39,7 +39,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     ![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
 
-    **Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption/#gpg-suite), which adds the ability to send encrypted email.
+    **Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](/encryption/#gpg-suite), which adds the ability to send encrypted email.
 
     [Website](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary } [Privacy Policy](https://www.apple.com/legal/privacy/en-ww/){ .md-button }
 
