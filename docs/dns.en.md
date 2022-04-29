@@ -121,7 +121,10 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](te
     [Wiki](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .md-button .md-button--primary } [Privacy Policy](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .md-button }
 
     ??? downloads
-
+    
+        - [:fontawesome-brands-windows: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
+        - [:fontawesome-brands-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
+        - [:fontawesome-brands-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
         - [:fontawesome-brands-github: Source](https://github.com/DNSCrypt/dnscrypt-proxy)
 
 --8<-- "includes/abbreviations.en.md"
