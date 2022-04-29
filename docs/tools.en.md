@@ -152,7 +152,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ .twemoji } [DuckDuckGo](https://duckduckgo.com/)
+- ![DuckDuckGo logo](assets/img/search-engines/mini/duckduckgo.svg){ .twemoji } [DuckDuckGo](https://duckduckgo.com/)
 - ![Startpage logo](assets/img/search-engines/startpage.svg){ .twemoji } [Startpage](https://www.startpage.com/)
 - ![Mojeek logo](assets/img/search-engines/mini/mojeek.svg){ .twemoji } [Mojeek](https://www.mojeek.com/)
 - ![SearXNG logo](assets/img/search-engines/mini/searxng-wordmark.svg){ .twemoji } [SearXNG](https://searxng.org)
