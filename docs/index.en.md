@@ -3,6 +3,7 @@ template: overrides/home.en.html
 hide:
   - navigation
   - toc
+  - feedback
 ---
 <!-- markdownlint-disable-next-line -->
 <div style="max-width:50rem;margin:auto;" markdown>

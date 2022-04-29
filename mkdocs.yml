@@ -15,6 +15,17 @@ extra:
   analytics:
     provider: plausible
     property: privacyguides.org
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: Helpful
+          note: Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: Needs Improvement
+          note: Thanks for your feedback! Help us improve this page by opening a <a href="https://github.com/orgs/privacyguides/discussions" target=_blank>discusson on GitHub</a>.
   social:
     - icon: pg/matrix
       link: https://matrix.to/#/#privacyguides:matrix.org
@@ -120,6 +131,7 @@ markdown_extensions:
 
 extra_javascript:
   - javascripts/mathjax.js
+  - javascripts/feedback.js
 
 nav:
   - Home: 'index.md'
