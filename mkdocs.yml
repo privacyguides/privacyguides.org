@@ -16,14 +16,21 @@ extra:
     provider: plausible
     property: privacyguides.org
   social:
-    - icon: fontawesome/brands/mastodon
-      link: https://mastodon.social/@privacyguides
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/privacy_guides
-    - icon: fontawesome/brands/github
-      link: https://github.com/privacyguides
+    - icon: pg/matrix
+      link: https://matrix.to/#/#privacyguides:matrix.org
+      name: Matrix
     - icon: fontawesome/brands/reddit-alien
       link: https://reddit.com/r/PrivacyGuides
+      name: Reddit
+    - icon: fontawesome/brands/mastodon
+      link: https://mastodon.social/@privacyguides
+      name: Mastodon
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/privacy_guides
+      name: Twitter
+    - icon: fontawesome/brands/github
+      link: https://github.com/privacyguides
+      name: GitHub
 repo_url: https://github.com/privacyguides/privacyguides.org
 repo_name: privacyguides.org
 edit_uri: edit/main/docs/
