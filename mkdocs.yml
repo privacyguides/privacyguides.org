@@ -91,7 +91,7 @@ plugins:
   - privacy:
       externals_exclude:
         - cdn.jsdelivr.net/npm/mathjax@3/*
-        - stats.privacyguides.net/*
+        - api.privacyguides.net/*
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:
