@@ -31,7 +31,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     **Free**
 
-    [Website](https://protonmail.com){ .md-button .md-button--primary }
+    [Website](https://protonmail.com){ .md-button .md-button--primary } [Privacy Policy](https://protonmail.com/privacy-policy){ .md-button }
 
 ??? check "Custom Domains and Aliases"
 
@@ -73,7 +73,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     **EUR €12/year**
 
-    [Website](https://mailbox.org){ .md-button .md-button--primary }
+    [Website](https://mailbox.org){ .md-button .md-button--primary } [Privacy Policy](https://mailbox.org/en/data-protection-privacy-policy){ .md-button }
 
 ??? check "Custom Domains and Aliases"
 
@@ -118,7 +118,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     **Free**
 
-    [Website](https://disroot.org){ .md-button .md-button--primary }
+    [Website](https://disroot.org){ .md-button .md-button--primary } [Privacy Policy](https://disroot.org/en/privacy_policy){ .md-button }
 
 ??? check "Custom Domains and Aliases"
 
@@ -161,7 +161,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     **Free**
 
-    [Website](https://tutanota.com){ .md-button .md-button--primary }
+    [Website](https://tutanota.com){ .md-button .md-button--primary } [Privacy Policy](https://tutanota.com/privacy){ .md-button }
 
 Tutanota [doesn't allow](https://tutanota.com/faq/#imap) the use of third-party [email clients](email-clients.md). Tutanota has no plans pull email from [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) using the IMAP protocol. [Email import](https://github.com/tutao/tutanota/issues/630) is currently not possible.
 
@@ -212,7 +212,7 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
     **USD $59.95/year**
 
-    [Website](https://startmail.com/){ .md-button .md-button--primary }
+    [Website](https://startmail.com/){ .md-button .md-button--primary } [Privacy Policy](https://www.startmail.com/en/privacy/){ .md-button }
 
 ??? check "Custom Domains and Aliases"
 
