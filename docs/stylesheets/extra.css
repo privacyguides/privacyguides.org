@@ -61,7 +61,7 @@
 }
 
 /* Define brand */
-:root {
+:root, [data-md-color-scheme="default"] {
     --md-primary-fg-color:        #FFD06F;
     --md-primary-fg-color--light: #ffdd98;
     --md-primary-fg-color--dark:  #db9d21;
@@ -78,7 +78,7 @@
 }
 
 /* Better contrast link colors */
-[data-md-color-scheme="default"] {
+[data-md-color-scheme="default"] > * {
     --md-typeset-a-color: #3C00E0;
 }
 
