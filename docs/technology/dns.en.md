@@ -131,7 +131,7 @@ Server Name Indication is typically used when a IP address hosts many websites. 
 
 2. Then we visit [https://privacyguides.org](https://privacyguides.org).
 
-3. After visiting the website, we what to stop the packet capture with <kbd>CTRL</kbd> + <kbd>C</kbd>.
+3. After visiting the website, we want to stop the packet capture with <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
 4. Next we want to analyze the results:
 
