@@ -35,7 +35,7 @@ Get working and collaborating without sharing your documents with a middleman or
 
     ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ align=right }
 
-    **OnlyOffice** is alternative, it is free and open-source office suite with extensive functionality.
+    **OnlyOffice** is a web-based free and open-source office suite with extensive functionality.
 
     [Homepage](https://www.onlyoffice.com){ .md-button .md-button--primary } [Privacy Policy](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .md-button }
 
