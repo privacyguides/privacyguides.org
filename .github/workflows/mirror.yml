@@ -1,0 +1,31 @@
+name: 🪞 Push to Mirrors
+
+on: [ push, delete, create ]
+
+# Ensures that only one mirror task will run at a time.
+concurrency:
+  group: git-mirror
+
+jobs:
+  git-mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mirror to GitLab
+        uses: wearerequired/git-mirror-action@v1
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
+        with:
+          source-repo: "git@github.com:privacyguides/privacyguides.org.git"
+          destination-repo: "git@gitlab.com:privacyguides/privacyguides.org.git"
+
+      - name: Cleanup
+        run: |
+          sudo rm -rf privacyguides.org.git
+
+      - name: Mirror to Codeberg
+        uses: wearerequired/git-mirror-action@v1
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
+        with:
+          source-repo: "git@github.com:privacyguides/privacyguides.org.git"
+          destination-repo: "git@codeberg.org:privacyguides/privacyguides.org.git"

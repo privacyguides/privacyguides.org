@@ -3,6 +3,10 @@ name: 🔂 Surge PR Preview
 on:
   pull_request_target:
     types: [opened, synchronize, reopened]
+  
+# Ensures that only one mirror task will run at a time.
+concurrency:
+  group: surge-sh
 
 jobs:
   preview:
