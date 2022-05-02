@@ -182,6 +182,7 @@ nav:
     - 'about.md'
     - 'Online Services': 'https://privacyguides.net'
     - 'about/donate.md'
+    - 'Website Statistics': 'https://stats.privacyguides.net/privacyguides.org'
     - 'about/notices.md'
     - 'about/privacy-policy.md'
   - 'Donate': '/about/donate/'

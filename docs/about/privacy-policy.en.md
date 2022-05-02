@@ -14,9 +14,11 @@ The privacy of our website visitors is important to us, so we do not track any i
 - No information is mined and harvested for personal and behavioral trends
 - No information is monetized
 
-We run a self-hosted version of [Plausible Analytics](https://plausible.io) to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only. No personal data is collected.
+You can view the data we collect at [stats.privacyguides.net/privacyguides.org](https://stats.privacyguides.net/privacyguides.org).
 
-Data collected includes referral sources, top pages, visit duration, information from the devices (device type, operating system, country and browser) used during the visit and more.
+We run a self-hosted installation of [Plausible Analytics](https://plausible.io) to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only. No personal data is collected.
+
+Data collected includes referral sources, top pages, visit duration, information from the devices (device type, operating system, country and browser) used during the visit and more. You can learn more about how Plausible works and collects information in a privacy-respecting manner [here](https://plausible.io/data-policy).
 
 ## Data We Collect From Account Holders
 
