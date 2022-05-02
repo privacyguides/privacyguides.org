@@ -55,11 +55,9 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     ProtonMail also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use ProtonMail to find the OpenPGP keys of ProtonMail accounts easily, for cross-provider E2EE.
 
-??? check ".onion Service"
+??? info "Additional Functionality"
 
     ProtonMail's login and services are accessible over Tor, [protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion/)
-
-??? info "Additional Functionality"
 
     ProtonMail offers a "Visionary" account for €24/Month, which also enables access to ProtonVPN in addition to providing multiple accounts, domains, aliases, and extra storage.
 
@@ -99,11 +97,9 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     Mailbox.org also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily, for cross-provider E2EE.
 
-??? info ".onion Service"
+??? info "Additional Functionality"
 
     You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
-
-??? info "Additional Functionality"
 
     All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
@@ -141,10 +137,6 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 ??? check "Email Encryption"
 
     Disroot allows for encrypted emails to be sent from their webmail application using OpenPGP. However, Disroot has not integrated a Web Key Directory (WKD) for email accounts on their platform.
-
-??? missing ".onion Service"
-
-    Disroot does not operate a .onion service.
 
 ??? info "Additional Functionality"
 
@@ -191,15 +183,13 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
     Tutanota [does have plans](https://github.com/tutao/tutanota/issues/198) to support [AutoCrypt](https://autocrypt.org). This would allow for non-Tutanota emails to send encrypted emails to Tutanota accounts as long as their email client supports the AutoCrypt headers.
 
-??? missing ".onion Service"
-
-    Tutanota does not operate a .onion service but [may consider](https://github.com/tutao/tutanota/issues/528) it in the future.
-
 ??? info "Additional Functionality"
 
     Tutanota offers the business version of [Tutanota to non-profit organizations](https://tutanota.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
 
     Tutanota also has a business feature called [Secure Connect](https://tutanota.com/secure-connect/). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
+
+    Tutanota does not operate a .onion service but [may consider](https://github.com/tutao/tutanota/issues/528) it in the future.
 
 ### StartMail
 
@@ -235,10 +225,6 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 ??? check "Email Encryption"
 
     StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys.
-
-??? missing ".onion Service"
-
-    StartMail does not operate a .onion service.
 
 ??? info "Additional Functionality"
 
