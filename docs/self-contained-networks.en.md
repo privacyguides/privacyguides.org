@@ -48,9 +48,9 @@ If you are currently browsing clearnet and want to access the dark web, this sec
         - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/security/i2p)
         - [:pg-openbsd: OpenBSD](https://openports.se/net/i2pd)
         - [:pg-netbsd: NetBSD](https://pkgsrc.se/wip/i2pd)
+        - [:fontawesome-brands-android: Android](https://geti2p.net/en/download#android)
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=net.i2p.android)
         - [:pg-f-droid: F-Droid](https://f-droid.org/app/net.i2p.android.router)
-        - [:fontawesome-brands-android: Android](https://download.i2p2.de/android/current/)
         - [:fontawesome-brands-git: Source](https://geti2p.net/en/get-involved/guides/new-developers#getting-the-i2p-code)
 
 ### The Freenet Project
