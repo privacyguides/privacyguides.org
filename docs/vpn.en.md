@@ -62,9 +62,9 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     Mullvad provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/mullvad/mullvadvpn-app).
 
-??? check "Accepts Cash"
+??? check "Accepts Cash and Monero"
 
-    Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, and **cash/local currency** as anonymous forms of payment. They also accept Swish and bank wire transfers.
+    Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. They also accept Swish and bank wire transfers.
 
 ??? check "WireGuard Support"
 
