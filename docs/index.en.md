@@ -38,9 +38,9 @@ It's important for a website like Privacy Guides to always stay up-to-date. We n
 <div class="grid cards" style="margin:auto;max-width:800px;text-align:center;" markdown>
 
 - [:fontawesome-brands-reddit: Join the r/PrivacyGuides Subreddit](https://www.reddit.com/r/privacyguides)
-- [:fontawesome-brands-twitter: Follow @Privacy_Guides on Twitter](https://twitter.com/privacy_guides)
+- [:fontawesome-brands-mastodon: Follow us on Mastodon](https://mastodon.social/@privacyguides)
 - [:material-book-edit: Contribute to this website](https://github.com/privacyguides/privacyguides.org)
-- [:material-chat: Chat with us on Matrix](https://matrix.to/#/#privacyguides:matrix.org)
+- [:pg-matrix: Chat with us on Matrix](https://matrix.to/#/#privacyguides:matrix.org)
 
 </div>
 <div style="padding:3em;text-align:center;" markdown>
