@@ -1,9 +1,7 @@
 ---
-title: Donation Methods
+title: Supporting Us
 ---
 <!-- markdownlint-disable MD036 -->
-:heart: Thank you for supporting Privacy Guides.
-
 It takes a lot of [people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spreading the word about privacy and mass surveillance. If you like what we do, the best way to help out is by getting involved by [editing the site](https://github.com/privacyguides/privacyguides.org) or [contributing translations](https://crowdin.com/project/privacyguides).
 
 If you want to support us financially, the most convenient method for us is contributing via Open Collective, a website operated by our fiscal host. Open Collective accepts payments via credit/debit card, PayPal, and bank transfers.
@@ -15,6 +13,16 @@ Donations made directly to us Open Collective are generally tax-deductible in th
 If you already make use of GitHub sponsorships, you can also sponsor our organization there.
 
 [Sponsor us on GitHub](https://github.com/sponsors/privacyguides){ .md-button }
+
+## Backers
+
+A special thanks to all those who support our mission! :heart:
+
+*Please note: This section loads a widget directly from Open Collective. This section does not reflect donations made outside of Open Collective, and we have no control over the specific donors featured in this section.*
+
+<script src="https://opencollective.com/privacyguides/banner.js"></script>
+
+## How We Use Donations
 
 Privacy Guides is a **non-profit** organization. We use donations for a variety of purposes, including:
 

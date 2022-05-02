@@ -182,8 +182,8 @@ nav:
       - 'video-streaming.md'
   - 'About':
     - 'about.md'
-    - 'Online Services': 'https://privacyguides.net'
     - 'about/donate.md'
+    - 'Online Services': 'https://privacyguides.net'
     - 'Website Statistics': 'https://stats.privacyguides.net/privacyguides.org'
     - 'about/notices.md'
     - 'about/privacy-policy.md'
