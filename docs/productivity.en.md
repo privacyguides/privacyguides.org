@@ -41,12 +41,12 @@ Get working and collaborating without sharing your documents with a middleman or
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://www.onlyoffice.com/download-desktop.aspx?from=default)
-        - [:fontawesome-brands-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx?from=default)
-        - [:fontawesome-brands-linux: Linux](https://www.libreoffice.org/download/download/)
+        - [:fontawesome-brands-windows: Windows](https://www.onlyoffice.com/download-desktop.aspx)
+        - [:fontawesome-brands-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx)
+        - [:fontawesome-brands-linux: Linux](https://www.onlyoffice.com/download-desktop.aspx)
         - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/www/onlyoffice-documentserver/)
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/onlyoffice-documents/id944896972)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id944896972)
         - [:fontawesome-brands-github: Source](https://github.com/ONLYOFFICE)
 
 ## Planning
