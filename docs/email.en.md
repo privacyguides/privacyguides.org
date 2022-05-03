@@ -295,7 +295,7 @@ Notable free features:
         - [:fontawesome-brands-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
         - [:fontawesome-brands-github: Source](https://github.com/anonaddy)
 
-AnonAddy differentiates between "shared aliases" and "standard aliases": The number of shared aliases (e.g., @anonaddy.me which is shared by other members) that you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/month plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared alias are available for $36/year.
+The number of shared aliases (which end in a shared domain like @anonaddy.me) that you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/month plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared alias are available for $36/year.
 
 Notable free features:
 
