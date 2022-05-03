@@ -2,20 +2,17 @@
 title: "Email Services"
 icon: material/email
 ---
+Email is practically a necessity for using any online service, however we do not recommend it for person-to-person conversations. Rather than using email to contact other people, consider using an instant messaging medium that supports forward secrecy.
 
-Find a secure email service provider that will keep your privacy in mind. Don’t settle for ad-supported platforms. Never trust any company with your privacy, always encrypt.
+[Recommended Instant Messengers](real-time-communication.md){ .md-button }
+
+For everything else, we recommend a variety of email providers based on sustainable business models and built-in security and privacy features.
 
 !!! warning
 
     When using E2EE technology like OpenPGP, email will still have some metadata that is not encrypted in the header of the email. Read more about email metadata.
 
     OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. How do I protect my private keys?
-
-??? example "Email Alternatives"
-
-    Rather than use email for prolonged conversations, consider using a medium that does support Forward secrecy.
-
-    [Recommended Instant Messengers](real-time-communication.md){ .md-button }
 
 ## Recommended Email Providers
 
@@ -189,8 +186,6 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
     Tutanota also has a business feature called [Secure Connect](https://tutanota.com/secure-connect/). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
 
-    Tutanota does not operate a .onion service but [may consider](https://github.com/tutao/tutanota/issues/528) it in the future.
-
 ### StartMail
 
 !!! recommendation
@@ -247,7 +242,7 @@ They also have a number of benefits over "temporary email" services:
 - Emails are sent to your trusted mailbox rather than stored by the alias provider.
 - Temporary email services typically have public mailboxes which can be accessed by anyone who knows the address, aliases are private to you.
 
-Our email aliasing recommendations are providers that allow you to create aliases on domains they control, as well as your own custom domain(s) for a modest yearly fee. They can also be self-hosted on your custom domain if you want maximum control. However, using a custom domain can have privacy-related drawbacks: If you are the only user on your custom domain your actions can be easily tracked across websites simply by looking at the domain name in the email, ignoring everything before the at (@) sign.
+Our email aliasing recommendations are providers that allow you to create aliases on domains they control, as well as your own custom domain(s) for a modest yearly fee. They can also be self-hosted if you want maximum control. However, using a custom domain can have privacy-related drawbacks: If you are the only person using your custom domain, your actions can be easily tracked across websites simply by looking at the domain name in the email address and ignoring everything before the at (@) sign.
 
 Using an aliasing service requires trusting both your email provider and your aliasing provider with your unencrypted messages. Some providers mitigate this slightly with automatic PGP encryption, which reduces the number of parties you need to trust from 2 to 1 by encrypting incoming emails before they are delivered to your final mailbox provider.
 
@@ -271,7 +266,7 @@ Using an aliasing service requires trusting both your email provider and your al
         - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/io.simplelogin.android.fdroid/)
         - [:fontawesome-brands-github: Source](https://github.com/simple-login)
 
-SimpleLogin [is owned by ProtonMail](https://protonmail.com/blog/proton-and-simplelogin-join-forces/) as of April 8, 2022. If you use ProtonMail for your primary mailbox, this makes SimpleLogin a great choice: you now only have to trust a single email provider and SimpleLogin will be more tightly integrated with ProtonMail's offerings in the future. Nonetheless, SimpleLogin continues to support forwarding to any email provider of your chosing.
+SimpleLogin [is owned by ProtonMail](https://protonmail.com/blog/proton-and-simplelogin-join-forces/) as of April 8, 2022. If you use ProtonMail for your primary mailbox, this makes SimpleLogin a great choice: You now only have to trust a single email provider and SimpleLogin will be more tightly integrated with ProtonMail's offerings in the future. Nonetheless, SimpleLogin continues to support forwarding to any email provider of your chosing.
 
 Notable free features:
 
@@ -297,7 +292,7 @@ Notable free features:
         - [:fontawesome-brands-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
         - [:fontawesome-brands-github: Source](https://github.com/anonaddy)
 
-AnonAddy differentiates between "shared aliases" and "standard aliases": The number of shared aliases (e.g., @anonaddy.me which is shared by other users) that you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/month plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared alias are available for $36/year.
+The number of shared aliases (which end in a shared domain like @anonaddy.me) that you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/month plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared aliases are available for $36/year.
 
 Notable free features:
 
