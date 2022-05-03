@@ -350,7 +350,7 @@ For use cases like these, or if you have another compelling reason, the VPN prov
 3. [Slicing Onions: Part 1 – Myth-busting Tor](https://medium.com/privacyguides/slicing-onions-part-1-myth-busting-tor-9ec188ae1904) by blacklight447
 4. [Slicing Onions: Part 2 – Onion recipes; VPN not required](https://web.archive.org/web/20210116140725/https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-2-onion-recipes-vpn-not-required) by blacklight447
 5. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
-6. ["Do I need a VPN?"](https://www.doineedavpn.com), a tool developed by IVPN to challenge aggressive VPN marketing and help individuals decide if a VPN is right for them.
+6. ["Do I need a VPN?"](https://www.doineedavpn.com), a tool developed by IVPN to challenge aggressive VPN marketing by helping individuals decide if a VPN is right for them.
 
 ## Related VPN information
 
