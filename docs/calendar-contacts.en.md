@@ -15,12 +15,13 @@ These products are included with an subscription with their respective [email pr
     ![Tutanota logo](assets/img/calendar-contacts/tutanota.svg#only-light){ align=right }
     ![Tutanota logo](assets/img/calendar-contacts/tutanota-dark.svg#only-dark){ align=right }
 
-    **Tutanota** has an [encrypted calendar](https://tutanota.com/blog/posts/free-encrypted-calendar/) in their desktop and mobile clients.
+    **Tutanota** offers a free and encrypted calendar across their supported platforms. Features include: automatic E2EE of all data, sharing features, import/export functionality, and [more](https://tutanota.com/calendar-app-comparison/). Multiple calendars and extended sharing functionality is limited to paid subscribers.
 
     [Website](https://tutanota.com/calendar){ .md-button .md-button--primary } [Privacy Policy](https://tutanota.com/privacy){ .md-button }
 
     ??? downloads
 
+        - [:fontawesome-solid-earth-americas: Web](https://mail.tutanota.com/)
         - [:fontawesome-brands-windows: Windows](https://tutanota.com/blog/posts/desktop-clients/)
         - [:fontawesome-brands-apple: macOS](https://tutanota.com/blog/posts/desktop-clients/)
         - [:fontawesome-brands-linux: Linux](https://tutanota.com/blog/posts/desktop-clients/)
@@ -36,12 +37,13 @@ These products are included with an subscription with their respective [email pr
 
     ![Proton Calendar logo](assets/img/calendar-contacts/proton-calendar.svg){ align=right }
 
-    **Proton Calendar** is an calendar app that is available to ProtonMail members. All data stored within it is end-to-end encrypted when stored on ProtonMail's servers.
+    **Proton Calendar** is an encrypted calendar serivce available to ProtonMail members. Features include: automatic E2EE of all data, sharing features, import/export functionality, and [more](https://protonmail.com/support/knowledge-base/proton-calendar-guide/). Those on the free tier get access to a single calendar, whereas paid subscribers can create up to 20 calendars. Extended sharing functionality is also limited to paid subscribers. Proton Calendar is currently only available for the web and Android.
 
     [Website](https://calendar.protonmail.com){ .md-button .md-button--primary } [Privacy Policy](https://protonmail.com/privacy-policy){ .md-button }
 
     ??? downloads
 
+        - [:fontawesome-solid-earth-americas: Web](https://calendar.protonmail.com)
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
         - [:fontawesome-brands-github: Source](https://github.com/ProtonMail/WebClients)
 
