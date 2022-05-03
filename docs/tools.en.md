@@ -52,7 +52,7 @@ For your convenience, everything we recommend is listed below with a link to the
 
 <div class="grid cards" markdown>
 
-- ![Droid-ify logo](assets/img/android/droid-ify.png){ .twemoji } [Droid-ify (F-Droid Client)](https://github.com/Iamlooker/Droid-ify)
+- ![Neo-Store logo](assets/img/android/neo-store.png){ .twemoji } [Neo-Store (F-Droid Client)](https://github.com/NeoApplications/Neo-Store)
 - ![Orbot logo](assets/img/android/orbot.svg){ .twemoji } [Orbot (Tor Proxy)](https://orbot.app/)
 - ![Shelter logo](assets/img/android/shelter.svg){ .twemoji } [Shelter (Work Profiles)](https://gitea.angry.im/PeterCxy/Shelter)
 - ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](https://attestation.app/)

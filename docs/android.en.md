@@ -311,23 +311,23 @@ We have these general tips:
 
 Evaluate whether the additional features in the F-Droid build are worth the slower updates. Also think about whether faster updates from the Google Play Store are worth the potential privacy issues in your [threat model](threat-modeling.md).
 
-#### Droid-ify
+#### Neo-Store
 
 The official F-Droid client targets a [low API level](https://wonderfall.dev/fdroid-issues/#3-low-target-api-level-sdk-for-client--apps) and does not utilize the [seamless updates](https://www.androidcentral.com/google-will-finally-bring-seamless-app-updates-alternative-app-stores-android-12) feature introduced in Android 12. Targeting lower API levels means that the F-Droid client cannot take advantage of the new improvements in the application sandboxes that comes with higher API levels. For automatic updates to work, the F-Droid client requires that the [Privileged Extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged/) be included in the operating system, granting it more privileges than what a normal app would have, which is not great for security.
 
-To mitigate these problems, we recommend [Droid-ify](https://github.com/Iamlooker/Droid-ify) as it supports seamless updates on Android 12 and above without needing any special privileges and targets a higher API level.
+To mitigate these problems, we recommend [Neo-Store](https://github.com/NeoApplications/Neo-Store) as it supports seamless updates on Android 12 and above without needing any special privileges and targets a higher API level.
 
 !!! recommendation
 
-    ![Droid-ify logo](assets/img/android/droid-ify.png){ align=right }
+    ![Neo-Store logo](assets/img/android/neo-store.png){ align=right }
 
-    **Droid-ify** is a modern F-Droid client made with MaterialUI, forked from [Foxy Droid](https://github.com/kitsunyan/foxy-droid).
+    **Neo-Store** is a modern F-Droid client made with MaterialUI, forked from [Foxy Droid](https://github.com/kitsunyan/foxy-droid).
 
-    Unlike the official F-Droid client, Droid-ify supports seamless updates on Android 12 and above without the need for a privileged extension. If your Android distribution is on Android 12 or above and does not include the [F-Droid privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged/), it is highly recommended that you use Droid-ify instead of the official client.
+    Unlike the official F-Droid client, Neo-Store supports seamless updates on Android 12 and above without the need for a privileged extension. If your Android distribution is on Android 12 or above and does not include the [F-Droid privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged/), it is highly recommended that you use Neo-Store instead of the official client.
 
     ??? downloads
 
         - [:fontawesome-brands-android: APK Download](https://android.izzysoft.de/repo/apk/com.looker.droidify)
-        - [:fontawesome-brands-github: GitHub](https://github.com/Iamlooker/Droid-ify)
+        - [:fontawesome-brands-github: GitHub](https://github.com/NeoApplications/Neo-Store)
 
 --8<-- "includes/abbreviations.en.md"
