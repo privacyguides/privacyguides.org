@@ -189,8 +189,6 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
     Tutanota also has a business feature called [Secure Connect](https://tutanota.com/secure-connect/). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
 
-    Tutanota does not operate a .onion service but [may consider](https://github.com/tutao/tutanota/issues/528) it in the future.
-
 ### StartMail
 
 !!! recommendation
