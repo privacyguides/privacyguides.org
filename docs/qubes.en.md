@@ -16,4 +16,5 @@ Qubes OS is a distribution of Linux that uses [Xen](https://en.wikipedia.org/wik
 
     ??? downloads
 
+        - [:fontawesome-solid-compact-disc: Disc image](https://www.qubes-os.org/downloads/)
         - [:fontawesome-brands-github: Source](https://github.com/QubesOS)
