@@ -245,7 +245,7 @@ They also have a number of benefits over "temporary email" services:
 - Emails are sent to your trusted mailbox rather than stored by the alias provider.
 - Temporary email services typically have public mailboxes which can be accessed by anyone who knows the address, aliases are private to you.
 
-Our email aliasing recommendations are providers that allow you to create aliases on domains they control, as well as your own custom domain(s) for a modest yearly fee. They can also be self-hosted if you want maximum control. However, using a custom domain can have privacy-related drawbacks: if you are the only user on your custom domain, your actions can be easily tracked across websites simply by looking at the domain name in the email address and ignoring everything before the at (@) sign.
+Our email aliasing recommendations are providers that allow you to create aliases on domains they control, as well as your own custom domain(s) for a modest yearly fee. They can also be self-hosted if you want maximum control. However, using a custom domain can have privacy-related drawbacks: If you are the only user on your custom domain, your actions can be easily tracked across websites simply by looking at the domain name in the email address and ignoring everything before the at (@) sign.
 
 Using an aliasing service requires trusting both your email provider and your aliasing provider with your unencrypted messages. Some providers mitigate this slightly with automatic PGP encryption, which reduces the number of parties you need to trust from 2 to 1 by encrypting incoming emails before they are delivered to your final mailbox provider.
 
@@ -269,7 +269,7 @@ Using an aliasing service requires trusting both your email provider and your al
         - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/io.simplelogin.android.fdroid/)
         - [:fontawesome-brands-github: Source](https://github.com/simple-login)
 
-SimpleLogin [is owned by ProtonMail](https://protonmail.com/blog/proton-and-simplelogin-join-forces/) as of April 8, 2022. If you use ProtonMail for your primary mailbox, this makes SimpleLogin a great choice: you now only have to trust a single email provider and SimpleLogin will be more tightly integrated with ProtonMail's offerings in the future. Nonetheless, SimpleLogin continues to support forwarding to any email provider of your chosing.
+SimpleLogin [is owned by ProtonMail](https://protonmail.com/blog/proton-and-simplelogin-join-forces/) as of April 8, 2022. If you use ProtonMail for your primary mailbox, this makes SimpleLogin a great choice: You now only have to trust a single email provider and SimpleLogin will be more tightly integrated with ProtonMail's offerings in the future. Nonetheless, SimpleLogin continues to support forwarding to any email provider of your chosing.
 
 Notable free features:
 
