@@ -146,6 +146,8 @@ nav:
       - 'basics/multi-factor-authentication.md'
       - 'basics/dns.md'
       - 'basics/erasing-data.md'
+      - 'basics/email-security.md'
+      - 'basics/vpn-overview.md'
     - 'Android':
       - 'android/overview.md'
       - 'android/grapheneos-vs-calyxos.md'

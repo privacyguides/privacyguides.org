@@ -24,7 +24,7 @@ Local RF location backends like DejaVu require that the phone has a working GPS 
 
 If your threat model requires protecting your location or the MAC addresses of nearby devices, rerouting location requests to the OS location API is probably the best option. The benefit brought by microG's custom location backend is minimal at best when compared to Sandboxed Play Services.
 
-In terms of application compatibility, Sandboxed Google Play outperforms microG due to its support for many services which microG has not yet implemented, like [Google Play Games](https://play.google.com/googleplaygames) and [In-app Billing API](https://android-doc.github.io/google/play/billing/api.html). Authentication using [FIDO](security/multi-factor-authentication#fido-fast-identity-online) with online services on Android also relies on Play Services, and the feature is not yet implemented in microG.
+In terms of application compatibility, Sandboxed Google Play outperforms microG due to its support for many services which microG has not yet implemented, like [Google Play Games](https://play.google.com/googleplaygames) and [In-app Billing API](https://android-doc.github.io/google/play/billing/api.html). Authentication using [FIDO](basics/multi-factor-authentication#fido-fast-identity-online) with online services on Android also relies on Play Services, and the feature is not yet implemented in microG.
 
 ## Privileged App Extensions
 

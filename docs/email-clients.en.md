@@ -7,7 +7,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 ??? Attention "Email does not provide forward secrecy"
     When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](email.md#email-metadata-overview) that is not encrypted in the header of the email.
 
-    OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](email.md#email-encryption-overview). Consider using a medium that provides forward secrecy:
+    OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](basics/email-security.md). Consider using a medium that provides forward secrecy:
 
     [Real-time Communication](real-time-communication.md){ .md-button }
 
@@ -155,7 +155,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
     [:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=Documentation}
 
     ??? downloads
-    
+
         [:fontawesome-brands-app-store:](https://apps.apple.com/app/id1236045954){ .card-link title="Mac App Store" }
         [:fontawesome-brands-app-store-ios:](https://apps.apple.com/app/id1236045954){ .card-link title="App Store" }
         [:fontawesome-brands-windows:](https://canarymail.io/downloads.html){ .card-link title=Windows }
