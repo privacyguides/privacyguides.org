@@ -2,20 +2,17 @@
 title: "Email Services"
 icon: material/email
 ---
+Email is practically a necessity for using any online service, however we do not recommend it for person-to-person conversations. Rather than using email to contact other people, consider using an instant messaging medium that supports forward secrecy.
 
-Find a secure email service provider that will keep your privacy in mind. Don’t settle for ad-supported platforms. Never trust any company with your privacy, always encrypt.
+[Recommended Instant Messengers](real-time-communication.md){ .md-button }
+
+For everything else, we recommend a variety of email providers based on sustainable business models and built-in security and privacy features.
 
 !!! warning
 
     When using E2EE technology like OpenPGP, email will still have some metadata that is not encrypted in the header of the email. Read more about email metadata.
 
     OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. How do I protect my private keys?
-
-??? example "Email Alternatives"
-
-    Rather than use email for prolonged conversations, consider using a medium that does support Forward secrecy.
-
-    [Recommended Instant Messengers](real-time-communication.md){ .md-button }
 
 ## Recommended Email Providers
 
@@ -295,7 +292,7 @@ Notable free features:
         - [:fontawesome-brands-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
         - [:fontawesome-brands-github: Source](https://github.com/anonaddy)
 
-The number of shared aliases (which end in a shared domain like @anonaddy.me) that you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/month plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared alias are available for $36/year.
+The number of shared aliases (which end in a shared domain like @anonaddy.me) that you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/month plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared aliases are available for $36/year.
 
 Notable free features:
 
