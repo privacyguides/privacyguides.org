@@ -232,7 +232,9 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
 ## Email Aliasing Services
 
-An email aliasing service allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your email provider. True email aliasing is better than the plus (+) "alias" trick commonly used and supported by many providers, which allows you to create aliases like yourname+[anythinghere]@example.com, because websites, advertisers, and tracking networks can trivially remove anything after the + sign to know your true email address.
+An email aliasing service allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your email provider. True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like yourname+[anythinghere]@example.com, because websites, advertisers, and tracking networks can trivially remove anything after the + sign to know your true email address.
+
+Email aliasing can act as a safeguard in case your email provider ever ceases operation. In that scenario, you can easily re-route your aliases to a new email address. In turn, however, you are placing trust in the aliasing service to continue functioning.
 
 Using a dedicated email aliasing service also has a number of benefits over a catch-all alias on a custom domain:
 
@@ -245,7 +247,7 @@ They also have a number of benefits over "temporary email" services:
 - Emails are sent to your trusted mailbox rather than stored by the alias provider.
 - Temporary email services typically have public mailboxes which can be accessed by anyone who knows the address, aliases are private to you.
 
-Our email aliasing recommendations are providers that allow you to create aliases on domains they own, as well as custom domains for a modest yearly fee. They can also be self-hosted on your custom domain if you want maximum control. However, using a custom domain can have privacy-related drawbacks: If you are the only user on your custom domain your actions can be easily tracked across websites simply by looking at the domain name in the email, ignoring everything before the at (@) sign.
+Our email aliasing recommendations are providers that allow you to create aliases on domains they control, as well as your own custom domain(s) for a modest yearly fee. They can also be self-hosted on your custom domain if you want maximum control. However, using a custom domain can have privacy-related drawbacks: If you are the only user on your custom domain your actions can be easily tracked across websites simply by looking at the domain name in the email, ignoring everything before the at (@) sign.
 
 Using an aliasing service requires trusting both your email provider and your aliasing provider with your unencrypted messages. Some providers mitigate this slightly with automatic PGP encryption, which reduces the number of parties you need to trust from 2 to 1 by encrypting incoming emails before they are delivered to your final mailbox provider.
 
@@ -269,9 +271,9 @@ Using an aliasing service requires trusting both your email provider and your al
         - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/io.simplelogin.android.fdroid/)
         - [:fontawesome-brands-github: Source](https://github.com/simple-login)
 
-SimpleLogin [is owned by ProtonMail](https://protonmail.com/blog/proton-and-simplelogin-join-forces/) as of April 8, 2022. If you use ProtonMail for your primary mailbox, this makes SimpleLogin a great choice, because you now only have to trust a single email provider, and SimpleLogin will be more closely integrated with ProtonMail's offerings in the future. However, SimpleLogin continues to support forwarding to any provider, not ProtonMail exclusively.
+SimpleLogin [is owned by ProtonMail](https://protonmail.com/blog/proton-and-simplelogin-join-forces/) as of April 8, 2022. If you use ProtonMail for your primary mailbox, this makes SimpleLogin a great choice: you now only have to trust a single email provider and SimpleLogin will be more tightly integrated with ProtonMail's offerings in the future. Nonetheless, SimpleLogin continues to support forwarding to any email provider of your chosing.
 
-Free features:
+Notable free features:
 
 - [x] 15 Shared Aliases
 - [x] Unlimited Replies
@@ -295,9 +297,9 @@ Free features:
         - [:fontawesome-brands-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
         - [:fontawesome-brands-github: Source](https://github.com/anonaddy)
 
-AnonAddy differentiates between "shared aliases" and "standard aliases": The number of shared aliases (which end in a domain like @anonaddy.me which is shared by other users) you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/month plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however as noted above this can be detrimental to privacy, because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared alias are available for $36/year.
+AnonAddy differentiates between "shared aliases" and "standard aliases": The number of shared aliases (e.g., @anonaddy.me which is shared by other users) that you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/month plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared alias are available for $36/year.
 
-Free features:
+Notable free features:
 
 - [x] 20 Shared Aliases
 - [x] Unlimited Standard Aliases
