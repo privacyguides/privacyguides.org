@@ -17,7 +17,7 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
     **Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle a large number of markdown notes organized into notebooks and tags. It offers E2EE and can sync through Nextcloud, Dropbox, and more. It also offers easy import from Evernote and plain-text notes.
 
-    [Website](https://joplinapp.org/){ .md-button .md-button--primary }
+    [Website](https://joplinapp.org/){ .md-button .md-button--primary } [Privacy Policy](https://joplinapp.org/privacy/){ .md-button }
 
     ??? downloads
 
