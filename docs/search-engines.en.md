@@ -34,13 +34,15 @@ DuckDuckGo offers two other [versions](https://help.duckduckgo.com/features/non-
     ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
     ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
 
-    **Startpage** is a search engine that provides Google search results. It is a very convenient way to get Google search results without experiencing dark patterns such as difficult captchas or being refused access because you used a [VPN](vpn.md) or [Tor](https://www.torproject.org/download/).
+    **Startpage** is a private search engine known for serving Google search results. Startpage's flagship feature is [Anonoymous View](https://www.startpage.com/en/anonymous-view/), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the Tor Browser instead. The feature can be useful for hiding some network and browser properties—see the [technical document](https://support.startpage.com/index.php?/Knowledgebase/Article/View/1185/0/the-anonymous-view-proxy---technical-details=undefined) for more details.
+
+    Startpage has been known to refuse access to those using a VPN service or Tor, so your mileage may vary.
 
     [Website](https://www.startpage.com){ .md-button .md-button--primary } [Privacy Policy](https://www.startpage.com/en/privacy-policy){ .md-button }
 
-Startpage is based in the :flag_nl: Netherlands. According to their [Privacy Policy](https://www.startpage.com/en/privacy-policy/), they only log details such as: operating system, type of browser and language. They do not log your IP address, search queries or other identifying information. Startpage proxies Google Search so Google does have access to your search queries.
+Startpage is based in the :flag_nl: Netherlands. According to their [privacy policy](https://www.startpage.com/en/privacy-policy/), they only log details such as: operating system, type of browser, and language. They do not log your IP address, search queries, or other personally identifying information.
 
-Startpage's majority shareholder is System1 who is an adtech company. We don't think that is an issue as they have their own Privacy Policy. The Privacy Guides team reached out to Startpage [back in 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/) for clarification and was satisfied by the answers we received.
+Startpage's majority shareholder is System1 who is an adtech company. We don't believe that to be an issue as they have an distinctly separate [privacy policy](https://system1.com/terms/privacy-policy). The Privacy Guides team reached out to Startpage [back in 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/) to clear up any concerns with System1's sizeable investment into the service. We were satisfied with the answers we received.
 
 ### Mojeek
 
