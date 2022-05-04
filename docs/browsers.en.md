@@ -62,7 +62,7 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
 
 - [x] Enable **Strict** Enhanced Tracking Protection
 
-This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. It protects from many common threats, but does not completely block all tracking avenues, because it is designed to never have any impact on site functionality which limits its filters.
+This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
 
 ##### Sanitize on Close
 
@@ -70,7 +70,7 @@ If you want to stay logged in to particular sites, you can allow exceptions in *
 
 - [x] Check **Delete cookies and site data when Firefox is closed**
 
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled you know you can easily clear your browser of all cookies by simply closing or restarting Firefox.
+This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
 ##### Disable Search Suggestions
 
@@ -94,7 +94,7 @@ Search suggestions send everything you type in the address bar to the default se
 
 - [x] Select **Enable HTTPS-Only Mode in all windows**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. The HTTP protocol is extremely uncommon nowadays, so this should have little impact on your day to day browsing.
+This prevents you from unintentionally connecting to a website in plain-text HTTP. The HTTP protocol is extremely uncommon nowadays, so this should have little to no impact on your day to day browsing.
 
 #### Sync
 
@@ -137,7 +137,7 @@ These options can be found in :material-menu: → :gear: **Settings** → **Priv
 
 - [x] Select **Always use secure connections**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. The HTTP protocol is extremely uncommon nowadays, so this should have little impact on your day to day browsing.
+This prevents you from unintentionally connecting to a website in plain-text HTTP. The HTTP protocol is extremely uncommon nowadays, so this should have little to no impact on your day to day browsing.
 
 ##### Always-on Incognito Mode
 
