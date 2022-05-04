@@ -49,7 +49,7 @@ Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
         - [:fontawesome-brands-linux: Linux](https://cryptomator.org/downloads)
         - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
-        - [:fontawesome-brands-android: F-Droid repo](https://cryptomator.org/android)
+        - [:pg-f-droid: F-Droid](https://cryptomator.org/android)
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
         - [:fontawesome-brands-github: Source](https://github.com/cryptomator)
 
