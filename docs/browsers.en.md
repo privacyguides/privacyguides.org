@@ -238,6 +238,21 @@ Additional filter lists do slow things down and may increase your attack surface
 
 There is also [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html) which is able to perform system-wide content blocking by means of DNS filtering.
 
+### Snowflake
+
+!!! recommendation
+
+    ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
+    ![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
+
+    **Snowflake** is a browser extension which allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser. People who are censored can use Snowflake proxies to connect to the Tor network. Installing this extension is a great way to contribute to the network even if you don't have the technical know-how to run a Tor relay or bridge.
+
+    [Website](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+
+The Snowflake browser extension does not increase your privacy in any way, nor is it used to connect to the Tor network within your personal browser. However, if your internet connection is uncensored, you should consider running it to help people in censored networks achieve better privacy themselves. There is no need to worry about which websites people are accessing through your proxy. Their visible browsing IP address will match their Tor exit node, not yours.
+
+Running a Snowflake proxy is low-risk, even moreso than running a Tor relay or bridge which are already not particularly risky endeavours. However, it does still proxy traffic through your network which can be impactful in some ways, especially if your network is bandwidth-limited. Make sure you understand [how Snowflake works](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) before deciding whether to run a proxy.
+
 ### Terms of Service; Didn't Read
 
 !!! recommendation

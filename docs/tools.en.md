@@ -28,11 +28,14 @@ For your convenience, everything we recommend is listed below with a link to the
 
 - ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](https://github.com/gorhill/uBlock)
 - ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for Safari](https://adguard.com/en/adguard-safari/overview.html)
-- ![ToS;DR logo](assets/img/browsers/terms_of_service_didnt_read.svg){ .twemoji } [Terms of Service; Didn't Read](https://tosdr.org/) (1)
+- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](https://snowflake.torproject.org/) (1)
+- ![ToS;DR logo](assets/img/browsers/terms_of_service_didnt_read.svg){ .twemoji } [Terms of Service; Didn't Read](https://tosdr.org/) (2)
 
 </div>
 
-1. We do not recommend installing ToS;DR as a browser extension. The same information is provided on their website.
+1. Snowflake does not increase privacy, however it allows you to easily contribute to the Tor network and help people in censored networks achieve better privacy. [Learn more :material-arrow-right:](browsers.md#snowflake)
+2. We do not recommend installing ToS;DR as a browser extension. The same information is provided on their website.
+
 
 [Learn more :material-arrow-right:](browsers.md)
 
