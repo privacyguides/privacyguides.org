@@ -54,7 +54,7 @@ For your convenience, everything we recommend is listed below with a link to the
 
 - ![Neo Store logo](assets/img/android/neo-store.png){ .twemoji } [Neo Store (F-Droid Client)](https://github.com/NeoApplications/Neo-Store)
 - ![Orbot logo](assets/img/android/orbot.svg){ .twemoji } [Orbot (Tor Proxy)](https://orbot.app/)
-- ![Shelter logo](assets/img/android/shelter.svg){ .twemoji } [Shelter (Work Profiles)](https://gitea.angry.im/PeterCxy/Shelter)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](https://gitea.angry.im/PeterCxy/Shelter)
 - ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](https://attestation.app/)
 - ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](https://github.com/GrapheneOS/Camera)
 - ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](https://github.com/GrapheneOS/PdfViewer)
