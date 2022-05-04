@@ -38,7 +38,7 @@ Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
 
     ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
 
-    **Cryptomator** makes it easy for you to upload files to the cloud in a virtual encrypted file system.
+    **Cryptomator** is a cloud storage encryption solution, designed to solve privacy issues when saving files to cloud storages. It allows you to create vaults that are stored on a virtual drive, in which the data of the vaults are encrypted and synced with a cloud storage provider.
 
     [Homepage](https://cryptomator.org){ .md-button .md-button--primary } [Privacy Policy](https://cryptomator.org/privacy){ .md-button }
 
@@ -53,7 +53,11 @@ Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
         - [:fontawesome-brands-github: Source](https://github.com/cryptomator)
 
-Some of the Cryptomator Crypto Libraries have been [audited](https://cryptomator.org/open-source/) by [Cure53](https://cryptomator.org/audits/2017-11-27%20crypto%20cure53.pdf). The scope of those libraries included [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) and [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). It did not include [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift) which is now used on iOS.
+Cryptomator utilizes the AES encryption standard with a 256 bit key length (AES-256) to encrypt both files and filenames. Cryptomator cannot encrypt access, modification, and creation timestamps nor the number and size of files and folders.
+
+Some of the Cryptomator Crypto Libraries have been [audited](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) by Cure53. The scope of the libraries audited include: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) and [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). The audit did not extend to [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), which is a library used on Cryptomator for iOS.
+
+For more information on Cryptomator and it’s security, visit their documented [security section](https://docs.cryptomator.org/en/latest/security/security-target/).
 
 ### Picocrypt
 
