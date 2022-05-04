@@ -42,7 +42,7 @@ DuckDuckGo offers two other [versions](https://help.duckduckgo.com/features/non-
 
 Startpage is based in the :flag_nl: Netherlands. According to their [privacy policy](https://www.startpage.com/en/privacy-policy/), they only log details such as: operating system, type of browser and language. They do not log your IP address, search queries, or other personally identifying information.
 
-Startpage's majority shareholder is System1 who is an adtech company. We don't believe that to be an issue as they have an distinctly separate [privacy policy](https://system1.com/terms/privacy-policy). The Privacy Guides team reached out to Startpage [back in 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/) for clarification and was satisfied by the answers we received.
+Startpage's majority shareholder is System1 who is an adtech company. We don't believe that to be an issue as they have an distinctly separate [privacy policy](https://system1.com/terms/privacy-policy). The Privacy Guides team reached out to Startpage [back in 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/) to clear up any concerns with System1's sizeable investment into the service. We were satisfied with the answers we received.
 
 ### Mojeek
 
