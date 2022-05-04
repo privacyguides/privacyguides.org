@@ -1,9 +1,6 @@
 ---
 title: "Web Browsers"
 icon: octicons/browser-16
-tags:
-  - HTML5
-  - JavaScript
 ---
 These are our current web browser recommendations and settings. We recommend keeping extensions to a minimum: they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
 
@@ -57,43 +54,55 @@ These are our current web browser recommendations and settings. We recommend kee
 
 #### Recommended Configuration
 
+Tor Browser is the only way to truly browse the internet anonymously. When you use Firefox we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than Tor will be traceable by *somebody* in some regard or another.
+
 These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
 
-##### Enhanced Tracking Protection (ETP)
+##### Enhanced Tracking Protection
 
-- Select **Strict**
+- [x] Enable **Strict** Enhanced Tracking Protection
+
+This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. It protects from many common threats, but does not completely block all tracking avenues, because it is designed to never have any impact on site functionality which limits its filters.
 
 ##### Sanitize on Close
 
 If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
 
-- Select **Delete cookies and site data when Firefox is closed**
+- [x] Check **Delete cookies and site data when Firefox is closed**
+
+This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled you know you can easily clear your browser of all cookies by simply closing or restarting Firefox.
 
 ##### Disable Search Suggestions
 
-- Clear **Suggestions from the web**
-- Clear **Suggestions from sponsors**
-- Clear **Improve the Firefox Suggest experience**
+- [ ] Uncheck **Suggestions from the web**
+- [ ] Uncheck **Suggestions from sponsors**
+- [ ] Uncheck **Improve the Firefox Suggest experience**
 
 Search suggestion features may not be available in your region.
 
+Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+
 ##### Disable Telemetry
 
-- Clear **Allow Firefox to send technical and interaction data to Mozilla**
-- Clear **Allow Firefox to install and run studies**
-- Clear **Allow Firefox to send backlogged crash reports on your behalf**
+- [ ] Uncheck **Allow Firefox to send technical and interaction data to Mozilla**
+- [ ] Uncheck **Allow Firefox to install and run studies**
+- [ ] Uncheck **Allow Firefox to send backlogged crash reports on your behalf**
+
+> Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
 
 ##### HTTPS-Only Mode
 
-- Select **Enable HTTPS-Only Mode in all windows**
+- [x] Select **Enable HTTPS-Only Mode in all windows**
+
+This prevents you from unintentionally connecting to a website in plain-text HTTP. The HTTP protocol is extremely uncommon nowadays, so this should have little impact on your day to day browsing.
 
 #### Sync
 
-The [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) service uses E2EE.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices. It is fully E2EE, so it should be safe to use.
 
 #### Extensions
 
-We generally do not recommend installing any extensions as they increase your attack surface; however, if you want content blocking, [uBlock Origin](#additional-resources) might be useful to you. The extension is also a :trophy: [Recommended Extension](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) by Mozilla.
+We generally do not recommend installing any extensions as they increase your attack surface. However, if you want content blocking, [uBlock Origin](#additional-resources) might be useful to you. The extension is also a :trophy: [Recommended Extension](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) by Mozilla.
 
 #### Arkenfox (advanced)
 
@@ -126,13 +135,15 @@ These options can be found in :material-menu: → :gear: **Settings** → **Priv
 
 ##### HTTPS-Only Mode
 
-- Select **Always use secure connections**
+- [x] Select **Always use secure connections**
+
+This prevents you from unintentionally connecting to a website in plain-text HTTP. The HTTP protocol is extremely uncommon nowadays, so this should have little impact on your day to day browsing.
 
 ##### Always-on Incognito Mode
 
-- Select **Open links in incognito tabs always**
-- Select **Close all open tabs on exit**
-- Select **Open external links in incognito**
+- [x] Select **Open links in incognito tabs always**
+- [x] Select **Close all open tabs on exit**
+- [x] Select **Open external links in incognito**
 
 ### Safari
 
@@ -152,7 +163,7 @@ These options can be found in :gear: **Settings** → **Safari** → **Privacy a
 
 Enable WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp).
 
-- Select **Prevent Cross-Site Tracking** to enable
+- [x] Select **Prevent Cross-Site Tracking** to enable
 
 ##### Privacy Report
 
@@ -164,19 +175,19 @@ Privacy Report is accessible through the "**Aa**" icon in the URL bar.
 
 This is WebKit's own [implementation](https://webkit.org/blog/8943/privacy-preserving-ad-click-attribution-for-the-web/) of privacy preserving ad click attribution. If you do not wish to participate, you can disable this feature.
 
-- Select **Privacy Preserving Ad Measurement**
+- [x] Select **Privacy Preserving Ad Measurement**
 
 ##### Apple Pay
 
 If you do not use Apple Pay, you can toggle off the ability for websites to check for it.
 
-- Select **Check for Apple Pay**
+- [x] Select **Check for Apple Pay**
 
 ##### Always-on Private Browsing
 
 Open Safari and press the tabs icon in the bottom right corner. Open Tab Groups, located in the bottom middle.
 
-- Select **Private**
+- [x] Select **Private**
 
 ##### iCloud Sync
 
