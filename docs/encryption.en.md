@@ -38,7 +38,7 @@ Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
 
     ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
 
-    **Cryptomator** is a cloud storage encryption solution designed to solve privacy issues when saving files to cloud storages. It allows you to create vaults that are stored on a virtual drive, in which the data of the vaults are encrypted and synced with a cloud storage provider.
+    **Cryptomator** is a cloud storage encryption solution designed to solve privacy issues when saving files to cloud storages. It allows you to create vaults that are stored on a virtual drive, in which the contents of the vaults are encrypted and synced with a cloud storage provider.
 
     [Homepage](https://cryptomator.org){ .md-button .md-button--primary } [Privacy Policy](https://cryptomator.org/privacy){ .md-button }
 
