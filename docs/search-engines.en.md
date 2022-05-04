@@ -36,7 +36,7 @@ DuckDuckGo offers two other [versions](https://help.duckduckgo.com/features/non-
 
     **Startpage** is a private search engine known for serving Google search results. Startpage's flagship feature is [Anonoymous View](https://www.startpage.com/en/anonymous-view/), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the Tor Browser instead. The feature can be useful for hiding some network and browser properties—see the [technical document](https://support.startpage.com/index.php?/Knowledgebase/Article/View/1185/0/the-anonymous-view-proxy---technical-details=undefined) for more details.
 
-    Startpage has been known to strictly block access to those using a VPN service or Tor, so your mileage may vary.
+    Startpage has been known to refuse access to those using a VPN service or Tor, so your mileage may vary.
 
     [Website](https://www.startpage.com){ .md-button .md-button--primary } [Privacy Policy](https://www.startpage.com/en/privacy-policy){ .md-button }
 
