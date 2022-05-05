@@ -163,7 +163,7 @@ These options can be found in :gear: **Settings** → **Safari** → **Privacy a
 
 Enable WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp).
 
-- [x] Select **Prevent Cross-Site Tracking** to enable
+- [x] Enable **Prevent Cross-Site Tracking**
 
 ##### Privacy Report
 
@@ -175,13 +175,13 @@ Privacy Report is accessible through the "**Aa**" icon in the URL bar.
 
 This is WebKit's own [implementation](https://webkit.org/blog/8943/privacy-preserving-ad-click-attribution-for-the-web/) of privacy preserving ad click attribution. If you do not wish to participate, you can disable this feature.
 
-- [x] Select **Privacy Preserving Ad Measurement**
+- [ ] Uncheck **Privacy Preserving Ad Measurement**
 
 ##### Apple Pay
 
 If you do not use Apple Pay, you can toggle off the ability for websites to check for it.
 
-- [x] Select **Check for Apple Pay**
+- [ ] Uncheck **Allow websites to check for Apple Pay and Apple Card**
 
 ##### Always-on Private Browsing
 
