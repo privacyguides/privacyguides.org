@@ -53,7 +53,7 @@ Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
         - [:fontawesome-brands-github: Source](https://github.com/cryptomator)
 
-Cryptomator utilizes the AES encryption standard with a 256 bit key length (AES-256) to encrypt both files and filenames. Cryptomator cannot encrypt access, modification, and creation timestamps nor the number and size of files and folders.
+Cryptomator utilizes AES-256 encryption to encrypt both files and filenames. Cryptomator cannot encrypt some metadata such as access, modification, and creation timestamps, nor the number and size of files and folders.
 
 Some Cryptomator cryptographic libraries have been [audited](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) by Cure53. The scope of the audited libraries include: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) and [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). The audit did not extend to [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), which is a library used by Cryptomator for iOS.
 
