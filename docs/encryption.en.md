@@ -38,7 +38,7 @@ Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
 
     ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
 
-    **Cryptomator** makes it easy for you to upload files to the cloud in a virtual encrypted file system.
+    **Cryptomator** is an encryption solution designed for privately saving files to any cloud provider. It allows you to create vaults that are stored on a virtual drive, the contents of which are encrypted and synced with your cloud storage provider.
 
     [Homepage](https://cryptomator.org){ .md-button .md-button--primary } [Privacy Policy](https://cryptomator.org/privacy){ .md-button }
 
@@ -49,11 +49,15 @@ Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
         - [:fontawesome-brands-linux: Linux](https://cryptomator.org/downloads)
         - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
-        - [:fontawesome-brands-android: F-Droid repo](https://cryptomator.org/android)
+        - [:pg-f-droid: F-Droid](https://cryptomator.org/android)
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
         - [:fontawesome-brands-github: Source](https://github.com/cryptomator)
 
-Some of the Cryptomator Crypto Libraries have been [audited](https://cryptomator.org/open-source/) by [Cure53](https://cryptomator.org/audits/2017-11-27%20crypto%20cure53.pdf). The scope of those libraries included [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) and [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). It did not include [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift) which is now used on iOS.
+Cryptomator utilizes AES-256 encryption to encrypt both files and filenames. Cryptomator cannot encrypt some metadata such as access, modification, and creation timestamps, nor the number and size of files and folders.
+
+Some Cryptomator cryptographic libraries have been [audited](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) by Cure53. The scope of the audited libraries include: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) and [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). The audit did not extend to [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), which is a library used by Cryptomator for iOS.
+
+Cryptomator's documentation details its intended [security target](https://docs.cryptomator.org/en/latest/security/security-target/), [security architecture](https://docs.cryptomator.org/en/latest/security/architecture/), and [best practices](https://docs.cryptomator.org/en/latest/security/best-practices/) for use in further detail.
 
 ### Picocrypt
 
