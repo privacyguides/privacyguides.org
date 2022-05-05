@@ -161,9 +161,9 @@ These options can be found in :gear: **Settings** → **Safari** → **Privacy a
 
 ##### Cross-Site Tracking Prevention
 
-Enable WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp).
-
 - [x] Enable **Prevent Cross-Site Tracking**
+
+This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but it does not block all tracking avenues because it is designed to not interfere with website usability.
 
 ##### Privacy Report
 
@@ -173,9 +173,11 @@ Privacy Report is accessible through the "**Aa**" icon in the URL bar.
 
 ##### Privacy Preserving Ad Measurement
 
-This is WebKit's own [implementation](https://webkit.org/blog/8943/privacy-preserving-ad-click-attribution-for-the-web/) of privacy preserving ad click attribution. If you do not wish to participate, you can disable this feature.
-
 - [ ] Uncheck **Privacy Preserving Ad Measurement**
+
+Ad click measurement has traditionally used tracking technology that infringes on user privacy. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
+
+The feature has little privacy concerns on its own, so while you can choose to leave it on, we consider the fact that it's automatically disabled in Private Browsing to be an indicator for disabling the feature.
 
 ##### Apple Pay
 
