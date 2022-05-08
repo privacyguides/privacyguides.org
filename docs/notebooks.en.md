@@ -82,7 +82,7 @@ Joplin does not support password/pin protection for the [application itself or i
 
     ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
 
-    **Org-mode** is a [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system. Synchronization is possible with [file synchronization](/software/file-sharing/#sync) tools.
+    **Org-mode** is a [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system. Synchronization is possible with [file synchronization](/file-sharing/#file-sync) tools.
 
     [Homepage](https://orgmode.org){ .md-button .md-button--primary }
 
