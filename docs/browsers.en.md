@@ -94,7 +94,7 @@ Search suggestions send everything you type in the address bar to the default se
 
 - [x] Select **Enable HTTPS-Only Mode in all windows**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. The HTTP protocol is extremely uncommon nowadays, so this should have little to no impact on your day to day browsing.
+This prevents you from unintentionally connecting to a website in plain-text HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day to day browsing.
 
 #### Sync
 
