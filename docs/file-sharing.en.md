@@ -62,7 +62,7 @@ Discover how to privately share your files between your devices, with your frien
 
     ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ align=right }
 
-    **Syncthing** replaces proprietary sync and cloud services with something open, trustworthy, and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third-party, and how it is transmitted over the Internet.
+    **Syncthing** is an open-source peer-to-peer continuous file synchronization utility. It is used to synchronize files between two or more devices over the local network or the internet. Syncthing does not use a centralized server; it uses the [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) to transfer data between devices. All data is encrypted using TLS.
 
     [Homepage](https://syncthing.net){ .md-button .md-button--primary }
 
