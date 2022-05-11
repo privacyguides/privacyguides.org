@@ -46,7 +46,7 @@ Discover how to privately share your files between your devices, with your frien
 
     ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }
 
-    **FreedomBox** is a operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications that you might want to selfhost.
+    **FreedomBox** is an operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications that you might want to selfhost.
 
     [Homepage](https://freedombox.org){ .md-button .md-button--primary }
 
