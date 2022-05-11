@@ -98,7 +98,7 @@ This prevents you from unintentionally connecting to a website in plain-text HTT
 
 #### Sync
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices. It is fully E2EE, so it should be safe to use.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices. It is fully E2EE.
 
 #### Extensions
 
