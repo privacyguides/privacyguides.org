@@ -187,7 +187,19 @@ If you do not use Apple Pay, you can toggle off the ability for websites to chec
 
 ##### Always-on Private Browsing
 
-Open Safari and press the tabs icon in the bottom right corner. Open Tab Groups, located in the bottom middle.
+Safari's Private Browsing mode offers additional privacy protections. Private Browsing uses a new [ephemeral](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) session for each tab, meaning tabs are isolated from one another. There are also other smaller privacy benefits with Private Browsing, such as not sending a webpage’s address to Apple when using Safari's translation feature.
+
+Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed into sites. This may be an inconvenience.
+
+###### macOS
+
+Open Safari preferences and view the General tab.
+
+- [x] Select **Safari opens with: A new private window**
+
+###### iOS
+
+Open Safari and tap the Tabs button, located in the bottom right. Then, open the Tab Groups list.
 
 - [x] Select **Private**
 
