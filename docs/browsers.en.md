@@ -187,7 +187,7 @@ If you do not use Apple Pay, you can toggle off the ability for websites to chec
 
 ##### Always-on Private Browsing
 
-Open Safari and tap the Tabs button, located in the bottom right. Then, open the Tab Groups list.
+Open Safari and tap the Tabs button, located in the bottom right. Then, expand the Tab Groups list.
 
 - [x] Select **Private**
 
