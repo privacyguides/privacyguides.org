@@ -191,14 +191,6 @@ Safari's Private Browsing mode offers additional privacy protections. Private Br
 
 Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed into sites. This may be an inconvenience.
 
-###### macOS
-
-Open Safari preferences and view the General tab.
-
-- [x] Select **Safari opens with: A new private window**
-
-###### iOS
-
 Open Safari and tap the Tabs button, located in the bottom right. Then, open the Tab Groups list.
 
 - [x] Select **Private**
