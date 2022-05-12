@@ -6,7 +6,7 @@ If you are currently using a Cloud Storage Service like Dropbox, Google Drive, M
 
 Eliminate the need for trust in your provider by using an alternative below that supports E2EE.
 
-### Nextcloud
+## Nextcloud
 
 !!! recommendation
 
@@ -33,7 +33,7 @@ We recommend checking if your Nextcloud provider supports E2EE, otherwise you ha
 
 When self hosting Nextcloud, you should also enable E2EE to protect against your hosting provider snooping on your data.
 
-### Proton Drive
+## Proton Drive
 
 !!! recommendation
 
@@ -51,7 +51,7 @@ Proton Drive is currently in beta and only is only available through a web clien
 
 When using a web client, you are placing trust in the server to send you proper JavaScript code to derive the decryption key and authentication token locally in your browser. A compromised server can send you malicious JavaScript code to steal your master password and decrypt your data. If this does not fit your [threat model](threat-modeling.md), consider using an alternative.
 
-### Cryptee
+## Cryptee
 
 !!! recommendation
 
@@ -66,7 +66,7 @@ When using a web client, you are placing trust in the server to send you proper 
 
         - [:fontawesome-brands-github: Source](https://github.com/cryptee/web-client)
 
-### Tahoe-LAFS
+## Tahoe-LAFS
 
 !!! note
 

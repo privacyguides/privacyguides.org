@@ -11,7 +11,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     [Real-time Communication](real-time-communication.md){ .md-button }
 
-### Thunderbird
+## Thunderbird
 
 !!! recommendation
 
@@ -29,7 +29,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
         - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.Thunderbird)
         - [:fontawesome-brands-git: Source](https://hg.mozilla.org/comm-central)
 
-### Apple Mail
+## Apple Mail
 
 !!! note
 
@@ -43,7 +43,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     [Website](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary } [Privacy Policy](https://www.apple.com/legal/privacy/en-ww/){ .md-button }
 
-### GNOME Evolution
+## GNOME Evolution
 
 !!! recommendation
 
@@ -58,7 +58,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
         - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.gnome.Evolution)
         - [:fontawesome-brands-gitlab: Source](https://gitlab.gnome.org/GNOME/evolution)
 
-### Kontact
+## Kontact
 
 !!! recommendation
 
@@ -74,7 +74,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
         - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.kde.kontact)
         - [:fontawesome-brands-git: Source](https://invent.kde.org/pim/kmail)
 
-### Mailvelope
+## Mailvelope
 
 !!! recommendation
 
@@ -91,7 +91,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
         - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc)
         - [:fontawesome-brands-github: Source](https://github.com/mailvelope/mailvelope)
 
-### K-9 Mail
+## K-9 Mail
 
 !!! recommendation
 
@@ -107,7 +107,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
         - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.fsck.k9)
         - [:fontawesome-brands-github: Source](https://github.com/k9mail)
 
-### FairEmail
+## FairEmail
 
 !!! recommendation
 
@@ -123,7 +123,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
         - [:pg-f-droid: F-Droid](https://f-droid.org/packages/eu.faircode.email/)
         - [:fontawesome-brands-github: Source](https://github.com/M66B/FairEmail)
 
-### Canary Mail
+## Canary Mail
 
 !!! recommendation
 
@@ -146,7 +146,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
 Canary Mail is closed source. We recommend it, due to the few choices there are for email clients on iOS that support PGP E2EE.
 
-### NeoMutt
+## NeoMutt
 
 !!! recommendation
 
