@@ -4,7 +4,7 @@ icon: material/security-network
 ---
 These networks are designed to keep your traffic anonymous.
 
-### Tor
+## Tor
 
 !!! recommendation
 
@@ -27,7 +27,7 @@ These networks are designed to keep your traffic anonymous.
         - [:fontawesome-brands-android: Android](https://www.torproject.org/download/#android)
         - [:fontawesome-brands-git: Source](https://gitweb.torproject.org/tor.git)
 
-### Invisible Internet Project
+## Invisible Internet Project
 
 !!! recommendation
 
@@ -51,7 +51,7 @@ These networks are designed to keep your traffic anonymous.
         - [:pg-f-droid: F-Droid](https://f-droid.org/app/net.i2p.android.router)
         - [:fontawesome-brands-git: Source](https://geti2p.net/en/get-involved/guides/new-developers#getting-the-i2p-code)
 
-### The Freenet Project
+## The Freenet Project
 
 !!! recommendation
 

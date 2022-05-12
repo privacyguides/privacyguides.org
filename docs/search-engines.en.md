@@ -8,7 +8,7 @@ The recommendations here are based on the merits of each service's privacy polic
 
 Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org/) if your threat model requires hiding your IP address from the search provider.
 
-### DuckDuckGo
+## DuckDuckGo
 
 !!! recommendation
 
@@ -27,7 +27,7 @@ DuckDuckGo is based in the :flag_us: United States. Their [privacy policy](https
 
 DuckDuckGo offers two other [versions](https://help.duckduckgo.com/features/non-javascript/) of their search engine, both of which do not require JavaScript. These versions do lack features, however. These versions can also be used in conjunction with their [Tor onion address](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/) by appending [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version.
 
-### Startpage
+## Startpage
 
 !!! recommendation
 
@@ -44,7 +44,7 @@ Startpage is based in the :flag_nl: Netherlands. According to their [privacy pol
 
 Startpage's majority shareholder is System1 who is an adtech company. We don't believe that to be an issue as they have an distinctly separate [privacy policy](https://system1.com/terms/privacy-policy). The Privacy Guides team reached out to Startpage [back in 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/) to clear up any concerns with System1's sizeable investment into the service. We were satisfied with the answers we received.
 
-### Mojeek
+## Mojeek
 
 !!! recommendation
 
@@ -56,7 +56,7 @@ Startpage's majority shareholder is System1 who is an adtech company. We don't b
 
 The company is based in the :flag_gb: UK. According to their [Privacy Policy](https://www.mojeek.com/about/privacy/), they log the originating country, time, page requested, and referral data of each query. IP addresses are not logged.
 
-### SearXNG
+## SearXNG
 
 !!! recommendation
 
