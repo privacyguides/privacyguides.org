@@ -60,7 +60,7 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
 
 ##### Enhanced Tracking Protection
 
-- [x] Enable **Strict** Enhanced Tracking Protection
+- [x] Select **Strict** Enhanced Tracking Protection
 
 This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
 
@@ -72,17 +72,17 @@ If you want to stay logged in to particular sites, you can allow exceptions in *
 
 This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
-##### Disable Search Suggestions
+##### Search Suggestions
 
-- [ ] Uncheck **Suggestions from the web**
-- [ ] Uncheck **Suggestions from sponsors**
-- [ ] Uncheck **Improve the Firefox Suggest experience**
+- [ ] Disable **Suggestions from the web**
+- [ ] Disable **Suggestions from sponsors**
+- [ ] Disable **Improve the Firefox Suggest experience**
 
 Search suggestion features may not be available in your region.
 
 Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
-##### Disable Telemetry
+##### Telemetry
 
 - [ ] Uncheck **Allow Firefox to send technical and interaction data to Mozilla**
 - [ ] Uncheck **Allow Firefox to install and run studies**
@@ -110,7 +110,7 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
 
 ## Mobile Browser Recommendations
 
-Firefox on Android is still less secure than Chromium-based alternatives: Mozilla's engine [GeckoView](https://mozilla.github.io/geckoview/) has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
+Firefox on Android is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview/), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
 
 On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so there is little reason to use a third-party web browser.
 
@@ -173,7 +173,7 @@ Privacy Report is accessible through the "**Aa**" icon in the URL bar.
 
 ##### Privacy Preserving Ad Measurement
 
-- [ ] Uncheck **Privacy Preserving Ad Measurement**
+- [ ] Disable **Privacy Preserving Ad Measurement**
 
 Ad click measurement has traditionally used tracking technology that infringes on user privacy. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
 
@@ -183,7 +183,7 @@ The feature has little privacy concerns on its own, so while you can choose to l
 
 If you do not use Apple Pay, you can toggle off the ability for websites to check for it.
 
-- [ ] Uncheck **Allow websites to check for Apple Pay and Apple Card**
+- [ ] Disable **Allow websites to check for Apple Pay and Apple Card**
 
 ##### Always-on Private Browsing
 
