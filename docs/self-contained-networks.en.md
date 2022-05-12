@@ -2,6 +2,7 @@
 title: "Self-Contained Networks"
 icon: material/security-network
 ---
+These networks are designed to keep your traffic anonymous.
 
 ### Tor
 
