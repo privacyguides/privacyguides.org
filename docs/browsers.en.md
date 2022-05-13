@@ -60,7 +60,7 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
 
 ##### Enhanced Tracking Protection
 
-- [x] Enable **Strict** Enhanced Tracking Protection
+- [x] Select **Strict** Enhanced Tracking Protection
 
 This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
 
@@ -72,17 +72,17 @@ If you want to stay logged in to particular sites, you can allow exceptions in *
 
 This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
-##### Disable Search Suggestions
+##### Search Suggestions
 
-- [ ] Uncheck **Suggestions from the web**
-- [ ] Uncheck **Suggestions from sponsors**
-- [ ] Uncheck **Improve the Firefox Suggest experience**
+- [ ] Disable **Suggestions from the web**
+- [ ] Disable **Suggestions from sponsors**
+- [ ] Disable **Improve the Firefox Suggest experience**
 
 Search suggestion features may not be available in your region.
 
 Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
-##### Disable Telemetry
+##### Telemetry
 
 - [ ] Uncheck **Allow Firefox to send technical and interaction data to Mozilla**
 - [ ] Uncheck **Allow Firefox to install and run studies**
@@ -98,7 +98,7 @@ This prevents you from unintentionally connecting to a website in plain-text HTT
 
 #### Sync
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices. It is fully E2EE, so it should be safe to use.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
 
 #### Extensions
 
@@ -110,7 +110,7 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
 
 ## Mobile Browser Recommendations
 
-Firefox on Android is still less secure than Chromium-based alternatives: Mozilla's engine [GeckoView](https://mozilla.github.io/geckoview/) has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
+Firefox on Android is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview/), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
 
 On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so there is little reason to use a third-party web browser.
 
@@ -174,7 +174,7 @@ Privacy Report is accessible through the "**Aa**" icon in the URL bar.
 
 ##### Privacy Preserving Ad Measurement
 
-- [ ] Uncheck **Privacy Preserving Ad Measurement**
+- [ ] Disable **Privacy Preserving Ad Measurement**
 
 Ad click measurement has traditionally used tracking technology that infringes on user privacy. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
 
@@ -184,13 +184,17 @@ The feature has little privacy concerns on its own, so while you can choose to l
 
 If you do not use Apple Pay, you can toggle off the ability for websites to check for it.
 
-- [ ] Uncheck **Allow websites to check for Apple Pay and Apple Card**
+- [ ] Disable **Allow websites to check for Apple Pay and Apple Card**
 
 ##### Always-on Private Browsing
 
-Open Safari and press the tabs icon in the bottom right corner. Open Tab Groups, located in the bottom middle.
+Open Safari and tap the Tabs button, located in the bottom right. Then, expand the Tab Groups list.
 
 - [x] Select **Private**
+
+Safari's Private Browsing mode offers additional privacy protections. Private Browsing uses a new [ephemeral](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) session for each tab, meaning tabs are isolated from one another. There are also other smaller privacy benefits with Private Browsing, such as not sending a webpage’s address to Apple when using Safari's translation feature.
+
+Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed into sites. This may be an inconvenience.
 
 ##### iCloud Sync
 

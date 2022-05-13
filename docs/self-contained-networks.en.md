@@ -2,11 +2,9 @@
 title: "Self-Contained Networks"
 icon: material/security-network
 ---
-If you are currently browsing clearnet and want to access the dark web, this section is for you.
+These networks are designed to keep your traffic anonymous.
 
-## Self-contained Networks
-
-### Tor
+## Tor
 
 !!! recommendation
 
@@ -29,7 +27,7 @@ If you are currently browsing clearnet and want to access the dark web, this sec
         - [:fontawesome-brands-android: Android](https://www.torproject.org/download/#android)
         - [:fontawesome-brands-git: Source](https://gitweb.torproject.org/tor.git)
 
-### Invisible Internet Project
+## Invisible Internet Project
 
 !!! recommendation
 
@@ -53,7 +51,7 @@ If you are currently browsing clearnet and want to access the dark web, this sec
         - [:pg-f-droid: F-Droid](https://f-droid.org/app/net.i2p.android.router)
         - [:fontawesome-brands-git: Source](https://geti2p.net/en/get-involved/guides/new-developers#getting-the-i2p-code)
 
-### The Freenet Project
+## The Freenet Project
 
 !!! recommendation
 
