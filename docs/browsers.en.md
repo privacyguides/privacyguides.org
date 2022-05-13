@@ -126,7 +126,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
     ??? downloads
 
-        - [:fontawesome-brands-android: Android](https://www.bromite.org/fdroid)
+        - [:pg-f-droid: F-Droid](https://www.bromite.org/fdroid) ([Neo Store](/android/#neo-store) users can enable the *Bromite repository* in :material-dots-vertical: → **Repositories**)
         - [:fontawesome-brands-github: Source](https://github.com/bromite/bromite)
 
 These options can be found in :material-menu: → :gear: **Settings** → **Privacy and Security**.
