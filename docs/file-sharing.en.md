@@ -29,7 +29,7 @@ Discover how to privately share your files between your devices, with your frien
 
     ![Magic Wormhole logo](assets/img/file-sharing-sync/magic_wormhole.png){ align=right }
 
-    Magic Wormhole is a package that provides a library and a command-line tool named wormhole, which makes it possible to get arbitrary-sized files and directories (or short pieces of text) from one computer to another. Their motto: "Get things from one computer to another, safely.
+    **Magic Wormhole** is a package that provides a library and a command-line tool named wormhole, which makes it possible to get arbitrary-sized files and directories (or short pieces of text) from one computer to another. Their motto: "Get things from one computer to another, safely.
 
     [Homepage](https://magic-wormhole.readthedocs.io){ .md-button .md-button--primary }
 
