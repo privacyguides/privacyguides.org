@@ -24,7 +24,7 @@ The security of push notification MFA is dependent on both the quality of the ap
 
 ### Time-based One-time Password (TOTP)
 
-TOTP is one of the most commons form of MFA available. When you set up TOTP you are generally required to scan a [QR Code](https://en.wikipedia.org/wiki/QR_code) which establishes a "[shared secret](https://en.wikipedia.org/wiki/Shared_secret)" with the service that you intend to use. The shared secret is secured inside of the authenticator app's data, and is sometimes protected by a password.
+TOTP is one of the most common forms of MFA available. When you set up TOTP you are generally required to scan a [QR Code](https://en.wikipedia.org/wiki/QR_code) which establishes a "[shared secret](https://en.wikipedia.org/wiki/Shared_secret)" with the service that you intend to use. The shared secret is secured inside of the authenticator app's data, and is sometimes protected by a password.
 
 The time-limited code is then derived from the shared secret and the current time. As the code is only valid for a short time, without access to the shared secret an adversary cannot generate new codes.
 
