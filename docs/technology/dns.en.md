@@ -25,7 +25,7 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
 
 2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS etc) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Software such as web browsers do these lookups automatically, unless they are configured to use encrypted DNS.
 
-    === "Linux, MacOS"
+    === "Linux, macOS"
 
         ```
         dig +noall +answer privacyguides.org @1.1.1.1

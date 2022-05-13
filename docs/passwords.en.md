@@ -146,7 +146,7 @@ These products are minimal password managers that can be used within scripting a
 
     ![gopass logo](assets/img/password-management/gopass.svg){ align=right }
 
-    **gopass** is a password manager for the command line written in Go. It works on all major desktop and server operating systems (Linux, MacOS, BSD, Windows).
+    **gopass** is a password manager for the command line written in Go. It works on all major desktop and server operating systems (Linux, macOS, BSD, Windows).
 
     [Homepage](https://www.gopass.pw){ .md-button .md-button--primary }
 
