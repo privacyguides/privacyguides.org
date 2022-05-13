@@ -50,7 +50,9 @@ When logging into a website, all you need to do is to physically touch the secur
 
 The service will then forward the one-time password to the Yubico OTP server for validation. A counter is incremented both on the key and Yubico's validation server. The OTP can only only be used once, and when a successful authentication occurs the counter is increased which prevents reuse of the OTP. Yubico provides a [detailed document](https://developers.yubico.com/OTP/OTPs_Explained.html) about the process.
 
-![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
+<figure markdown>
+  ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
+</figure>
 
 There are some benefits and disadvantages to using Yubico OTP when compared to TOTP.
 
@@ -66,7 +68,9 @@ U2F and FIDO2 refer to the [Client to Authenticator Protocol](https://en.wikiped
 
 WebAuthn is the most secure and private form of second factor authentication. While the authentication experience is similar to Yubico OTP, the key does not print out a one-time password and validate with a third party server. Instead it uses [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) for authentication.
 
-![FIDO](../assets/img/multi-factor-authentication/fido.png)
+<figure markdown>
+  ![FIDO](../assets/img/multi-factor-authentication/fido.png)
+</figure>
 
 When you create an account the public key is sent to the service, then when you log in, the service will require you to "sign" some data with your private key. The benefit of this is that no password data is ever stored by the service, so there is nothing for an adversary to steal.
 
