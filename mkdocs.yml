@@ -142,6 +142,7 @@ nav:
       - 'threat-modeling.md'
       - 'technology/dns.md'
       - 'security/multi-factor-authentication.md'
+      - 'security/account-deletion.md'
     - 'Android':
       - 'android/overview.md'
       - 'android/grapheneos-vs-calyxos.md'
