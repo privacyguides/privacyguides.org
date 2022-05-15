@@ -138,6 +138,8 @@ We recommend setting *Aggressive* which can be found in :material-menu: **Settin
 
 We also suggest changing the fingerprinting blocker to *Strict* in :material-menu: **Settings** → **Shields** → **Fingerprint blocking**. You can always downgrade it if you need to on a per-site basis.
 
+??? danger Brave allows users to select additional adblock filters by visiting brave://adblock. We recommend that you do not use this feature and stick to the default settings provided by the Brave Shield to not stand out from other braves users and to not increase your attack surface.
+
 ##### Social media blocking
 
 Disable social media components in :material-menu: **Settings** → **Social media blocking**.
