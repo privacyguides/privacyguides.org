@@ -80,7 +80,7 @@ Imagepipe is only available from F-Droid and not in Google Play. If you're looki
 
 ### Metapho
 
-!!! attention
+!!! warning
 
     Metapho is closed source. We recommend it, due to the few choices there are for iOS devices.
 
