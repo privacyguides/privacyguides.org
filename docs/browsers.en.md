@@ -298,7 +298,7 @@ We generally do not recommend installing [any extensions](https://www.sentinelon
 
 !!! danger "Stick to the default filter lists"
     
-    Additional filter lists do slow things down and may increase your attack surface, so only apply what you need. If there is a vulnerability in uBlockOrigin, third party filters can provide malicious rules to exploit it.
+    Additional filter lists do slow things down and may increase your attack surface, so only apply what you need. If there is a vulnerability in uBlock Origin, third party filters can provide malicious rules to exploit it.
 
 ### AdGuard for Safari
 
