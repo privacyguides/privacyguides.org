@@ -12,10 +12,12 @@
 *[DoT]: DNS over TLS
 *[E2EE]: End-to-End Encryption/Encrypted
 *[ECS]: EDNS Client Subnet
+*[EEA]: European Economic Area
 *[EOL]: End-of-Life
 *[Exif]: Exchangeable image file format
 *[FDE]: Full Disk Encryption
 *[FIDO]: Fast IDentity Online
+*[GDPR]: General Data Protection Regulation
 *[GPG]: GNU Privacy Guard (PGP implementation)
 *[GPS]: Global Positioning System
 *[GUI]: Graphical User Interface
