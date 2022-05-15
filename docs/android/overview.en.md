@@ -82,11 +82,11 @@ If you are using a device with Google services, either your stock operating syst
 
 ### Advanced Protection Program
 
-If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection/). It is available at no cost to anyone with two or more hardware security keys with [FIDO](../security/multi-factor-authentication.md#fido-fast-identity-online) support.
+If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection/). It is available at no cost to anyone with two or more hardware security keys with [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) support.
 
 The Advanced Protection Program provides enhanced threat monitoring and enables:
 
-- Stricter two factor authentication; e.g. that [FIDO](/security/multi-factor-authentication/#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](/security/multi-factor-authentication/#sms-or-email-mfa), [TOTP](/security/multi-factor-authentication.md#time-based-one-time-password-totp), and [OAuth](https://en.wikipedia.org/wiki/OAuth)
+- Stricter two factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp), and [OAuth](https://en.wikipedia.org/wiki/OAuth)
 - Only Google and verified third party apps can access account data
 - Scanning of incoming emails on Gmail accounts for [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing) attempts
 - Stricter [safe browser scanning](https://www.google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome

@@ -170,7 +170,7 @@ There isn’t much point in randomizing the MAC address for Ethernet connections
 
 ### Other Identifiers
 
-There are other system identifiers which you may wish to be careful about. You should give this some thought to see if it applies to your [threat model](threat-modeling.md):
+There are other system identifiers which you may wish to be careful about. You should give this some thought to see if it applies to your [threat model](basics/threat-modeling.md):
 
 - **Hostnames:** Your system's hostname is shared with the networks you connect to. You should avoid including identifying terms like your name or operating system in your hostname, instead sticking to generic terms or random strings.
 - **Usernames:** Similarly, your username is used in a variety of ways across your system. Consider using generic terms like "user" rather than your actual name.

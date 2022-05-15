@@ -73,3 +73,4 @@
 *[cgroups]: Control Groups
 *[fork]: In software development, a fork is created when developers take a copy of source code from one software package and start independent development on it, creating a distinct and separate piece of software.
 *[rolling release]: An update release cycle in which updates are released very frequently, instead of at set intervals.
+*[walled garden]: A walled garden (or closed platform) is one in which the service provider has control over applications, content, and/or media, and restricts convenient access to non-approved applicants or content.
