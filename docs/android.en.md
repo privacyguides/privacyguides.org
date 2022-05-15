@@ -182,7 +182,7 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
         - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/net.typeblog.shelter)
         - [:fontawesome-brands-github: GitHub](https://github.com/PeterCxy/Shelter)
 
-!!! attention
+!!! warning
 
     As CalyxOS includes a device controller, we recommend using their built in work profile instead.
 
