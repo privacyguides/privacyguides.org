@@ -76,13 +76,9 @@ When you create an account the public key is sent to the service, then when you 
 
 This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and discussion of FIDO2 and [WebAuthn](https://webauthn.guide) standards.
 
-<iframe width="100%" style="height:50vh"
-  src="https://www.youtube-nocookie.com/embed/aMo4ZlWznao"
-  title="How FIDO2 and WebAuthn Stop Account Takeovers"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
+<div class="yt-embed">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aMo4ZlWznao" title="How FIDO2 and WebAuthn Stop Account Takeovers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 FIDO2 and WebAuthn have superior security and privacy properties when compared to any MFA methods.
 
