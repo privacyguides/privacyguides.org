@@ -108,6 +108,71 @@ We generally do not recommend installing any extensions as they increase your at
 
 The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly - [which you can easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users) support.
 
+### Brave
+
+!!! recommendation
+
+    ![Brave logo](assets/img/browsers/brave.svg){ align=right }
+
+    **Brave** is built upon the Chromium browser, featuring a built in ad blocker and some [privacy features](https://brave.com/privacy-features/) enabled by default.
+
+    We only recommend Brave as a desktop browser. There are better [alternatives](#mobile-browser-recommendations) on mobile platforms.
+
+    [Visit Homepage](https://brave.com/){ .md-button .md-button--primary } [Privacy Policy](https://brave.com/privacy/browser/){ .md-button }
+
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://laptop-updates.brave.com/latest/winx64)
+        - [:fontawesome-brands-apple: macOS](https://laptop-updates.brave.com/latest/osxarm64)
+        - [:fontawesome-brands-linux: Linux](https://brave.com/linux/#linux)
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.brave.Browser)
+        - [:fontawesome-brands-github: Source](https://github.com/brave/brave-browse)
+
+#### Recommended Configuration
+
+##### Shields
+
+Brave has privacy options such as ad and tracker blocking. It also includes some anti fingerprinting features in the [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) component. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
+
+We recommend setting *Aggressive* which can be found in :material-menu: **Settings** → **Shields** → **Trackers & ads blocking**.
+
+We also suggest changing the fingerprinting blocker to *Strict* in :material-menu: **Settings** → **Shields** → **Fingerprint blocking**. You can always downgrade it if you need to on a per-site basis.
+
+##### Social media blocking
+
+Disable social media components in :material-menu: **Settings** → **Social media blocking**.
+
+##### Privacy and Security
+
+There are a few options in here you may want to change:
+
+- Set the [*WebRTC IP Handling Policy*](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc) to *Disable Non-Proxied UDP* in :material-menu: **Settings** → **Privacy and Security**.
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- Enable *Always use secure connections* in :material-menu: **Settings** → **Privacy and Security** → **Security**.
+
+##### Sanitizing on close
+
+Select all items in *Clear browsing data* except for *Site and Shields Settings* in :material-menu: **Settings** → **Privacy and Security** → **Clear browsing data** → **On exit**.
+
+##### Extensions
+
+Disable the extensions you do not use in :material-menu: **Settings** → **Extensions**
+
+- [ ] Uncheck **Hangouts**
+- [ ] Uncheck **Private window with Tor**
+- [ ] Uncheck **WebTorrent**
+
+Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. Where [strong anonymity is required](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) use the [Tor Browser](#tor-browser).
+
+##### IPFS
+
+InterPlanetary File System (IPFS) is a decentralized peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use it set *Method to resolve IPFS resources* to *Disabled* in :material-menu: **Settings** → **IPFS**.
+
+##### Background apps
+
+Disable background apps in :material-menu: **Settings** → **Additional settings** → **System** → **Continue running apps when Brave is closed**.
+
 ## Mobile Browser Recommendations
 
 Firefox on Android is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview/), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
