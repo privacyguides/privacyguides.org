@@ -155,3 +155,19 @@ h1, h2, h3, .md-header__topic {
 .no-js .md-sidebar {
     align-self: auto;
 }
+
+/* Maintain 16:9 aspect ratio on embedded YT videos */
+.yt-embed {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+}
+
+.yt-embed iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
