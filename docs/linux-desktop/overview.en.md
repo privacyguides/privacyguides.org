@@ -28,7 +28,7 @@ For frozen distributions, package maintainers are expected to backport patches t
 
 We don’t believe holding packages back and applying interim patches is a good idea, as it diverges from the way the developer might have intended the software to work. [Richard Brown](https://rootco.de/aboutme/) has a presentation about this:
 
-<iframe width="100%" height="100px"
+<iframe width="100%" height="250px"
   src="https://www.youtube-nocookie.com/embed/i8c0mg_mS7U"
   title="Regular Releases are Wrong, Roll for your life"
   frameborder="0"
