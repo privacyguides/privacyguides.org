@@ -28,13 +28,9 @@ For frozen distributions, package maintainers are expected to backport patches t
 
 We don’t believe holding packages back and applying interim patches is a good idea, as it diverges from the way the developer might have intended the software to work. [Richard Brown](https://rootco.de/aboutme/) has a presentation about this:
 
-<iframe width="100%" style="height:50vh"
-  src="https://www.youtube-nocookie.com/embed/i8c0mg_mS7U"
-  title="Regular Releases are Wrong, Roll for your life"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
+<div class="yt-embed">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/i8c0mg_mS7U" title="Regular Releases are Wrong, Roll for your life" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Traditional vs Atomic updates
 
@@ -46,13 +42,9 @@ A transactional update system creates a snapshot that is made before and after a
 
 The Atomic update method is used for immutable distributions like Silverblue, Tumbleweed, and NixOS and can achieve reliability with this model. [Adam Šamalík](https://twitter.com/adsamalik) provided a presentation on how `rpm-ostree` works with Silverblue:
 
-<iframe width="100%" style="height:50vh"
-  src="https://www.youtube-nocookie.com/embed/-hpV5l-gJnQ"
-  title="Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalik"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
+<div class="yt-embed">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-hpV5l-gJnQ" title="Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## “Security-focused” distributions
 
