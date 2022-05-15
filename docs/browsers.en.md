@@ -138,7 +138,7 @@ We recommend setting *Aggressive* which can be found in :material-menu: **Settin
 
 We also suggest changing the fingerprinting blocker to *Strict* in :material-menu: **Settings** → **Shields** → **Fingerprint blocking**. You can always downgrade it if you need to on a per-site basis.
 
-??? danger Brave allows users to select additional adblock filters by visiting brave://adblock. We recommend that you do not use this feature and stick to the default settings provided by the Brave Shield to not stand out from other braves users and to not increase your attack surface. If there is a vulnerability in the Shield, third party filters can provide malicious rules to exploit it.
+!!! danger Brave allows users to select additional adblock filters by visiting brave://adblock. We recommend that you do not use this feature and stick to the default settings provided by the Brave Shield to not stand out from other braves users and to not increase your attack surface. If there is a vulnerability in the Shield, third party filters can provide malicious rules to exploit it.
 
 ##### Social media blocking
 
@@ -294,7 +294,7 @@ We generally do not recommend installing [any extensions](https://www.sentinelon
         - [:fontawesome-brands-opera: Opera](https://addons.opera.com/extensions/details/ublock)
         - [:fontawesome-brands-github: Source](https://github.com/gorhill/uBlock)
 
-??? danger Additional filter lists do slow things down and may increase your attack surface, so only apply what you need. If there is a vulnerability in uBlockOrigin, third party filters can provide malicious rules to exploit it.
+!!! danger Additional filter lists do slow things down and may increase your attack surface, so only apply what you need. If there is a vulnerability in uBlockOrigin, third party filters can provide malicious rules to exploit it.
 
 ### AdGuard for Safari
 
