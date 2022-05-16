@@ -2,9 +2,9 @@
 title: "Cloud Storage"
 icon: material/file-cloud
 ---
-If you are currently using a Cloud Storage Service like Dropbox, Google Drive, Microsoft OneDrive, or Apple iCloud, you are putting complete trust in your service provider to not look at your files.
+Many cloud storage providers require your full trust that they will not look at your files. The alternatives listed below eliminate the need for trust by either putting you in control of your data or by implementing E2EE.
 
-Eliminate the need for trust in your provider by using an alternative below that supports E2EE.
+If these alternatives do not fit your needs, we suggest you look into [Encryption Software](encryption.md).
 
 ## Nextcloud
 
