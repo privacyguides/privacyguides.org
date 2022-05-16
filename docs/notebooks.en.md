@@ -29,7 +29,7 @@ If you are currently using an application like Evernote, Google Keep, or Microso
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
         - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/net.cozic.joplin)
-        - [:fontawesome-brands-github: GitHub](https://github.com/laurent22/joplin)
+        - [:fontawesome-brands-github: Source](https://github.com/laurent22/joplin)
 
 Joplin does not support password/pin protection for the [application itself or individual notes/notebooks](https://github.com/laurent22/joplin/issues/289). Data is still encrypted in transit and at the sync location using your master key.
 
@@ -52,7 +52,7 @@ Joplin does not support password/pin protection for the [application itself or i
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
         - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.standardnotes)
         - [:octicons-browser-16: Browser](https://app.standardnotes.com/)
-        - [:fontawesome-brands-github: GitHub](https://github.com/standardnotes)
+        - [:fontawesome-brands-github: Source](https://github.com/standardnotes)
 
 ### EteSync Notes
 
@@ -72,7 +72,7 @@ Joplin does not support password/pin protection for the [application itself or i
         - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.etesync.notes)
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/etesync-notes/id1533806351)
         - [:octicons-browser-16: Browser](https://notes.etesync.com)
-        - [:fontawesome-brands-github: GitHub](https://github.com/etesync)
+        - [:fontawesome-brands-github: Source](https://github.com/etesync)
 
 ## Local notebooks
 

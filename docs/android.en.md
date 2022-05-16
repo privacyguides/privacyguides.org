@@ -151,8 +151,8 @@ Fairphone markets their devices as receiving 6 years of support. However, the So
 
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
         - [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid)
-        - [:fontawesome-brands-github: GitHub](https://github.com/guardianproject/orbot)
-        - [:fontawesome-brands-gitlab: GitLab](https://gitlab.com/guardianproject/orbot)
+        - [:fontawesome-brands-github: Source](https://github.com/guardianproject/orbot)
+        - [:fontawesome-brands-gitlab: Source](https://gitlab.com/guardianproject/orbot)
 
 Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
@@ -180,7 +180,7 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
 
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=net.typeblog.shelter)
         - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/net.typeblog.shelter)
-        - [:fontawesome-brands-github: GitHub](https://github.com/PeterCxy/Shelter)
+        - [:fontawesome-brands-github: Source](https://github.com/PeterCxy/Shelter)
 
 !!! warning
 
@@ -204,7 +204,7 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
     ??? downloads
 
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor)
-        - [:fontawesome-brands-github: GitHub](https://github.com/GrapheneOS/Auditor)
+        - [:fontawesome-brands-github: Source](https://github.com/GrapheneOS/Auditor)
 
 Auditor performs attestation and intrusion detection by:
 
@@ -233,7 +233,7 @@ To make sure that your hardware and operating system is genuine, [perform local 
     ??? downloads
 
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
-        - [:fontawesome-brands-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
+        - [:fontawesome-brands-github: Source](https://github.com/GrapheneOS/Camera/releases)
 
 Main privacy features include:
 
@@ -263,7 +263,7 @@ Main privacy features include:
     ??? downloads
 
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
-        - [:fontawesome-brands-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
+        - [:fontawesome-brands-github: Source](https://github.com/GrapheneOS/PdfViewer/releases)
 
 ### PrivacyBlur
 
@@ -279,7 +279,7 @@ Main privacy features include:
 
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
         - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.mathema.privacyblur/)
-        - [:fontawesome-brands-github: GitHub](https://github.com/MATHEMA-GmbH/privacyblur)
+        - [:fontawesome-brands-github: Source](https://github.com/MATHEMA-GmbH/privacyblur)
 
 !!! warning
 
@@ -326,6 +326,6 @@ To mitigate these problems, we recommend [Neo Store](https://github.com/NeoAppli
     ??? downloads
 
         - [:fontawesome-brands-android: APK Download](https://android.izzysoft.de/repo/apk/com.looker.droidify)
-        - [:fontawesome-brands-github: GitHub](https://github.com/NeoApplications/Neo-Store)
+        - [:fontawesome-brands-github: Source](https://github.com/NeoApplications/Neo-Store)
 
 --8<-- "includes/abbreviations.en.md"
