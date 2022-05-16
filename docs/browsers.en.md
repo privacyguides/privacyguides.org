@@ -138,6 +138,10 @@ We recommend setting *Aggressive* which can be found in :material-menu: **Settin
 
 We also suggest changing the fingerprinting blocker to *Strict* in :material-menu: **Settings** → **Shields** → **Fingerprint blocking**. You can always downgrade it if you need to on a per-site basis.
 
+!!! danger "Do not use brave://adblock!" 
+    
+    Brave allows users to select additional adblock filters by visiting brave://adblock. We recommend that you do not use this feature and stick to the default settings provided by the Brave Shield to not stand out from other braves users and to not increase your attack surface. If there is a vulnerability in the Shield, third party filters can provide malicious rules to exploit it.
+
 ##### Social media blocking
 
 Disable social media components in :material-menu: **Settings** → **Social media blocking**.
@@ -262,7 +266,7 @@ Do note that Private Browsing does not save cookies and website data, so it won'
 
 ##### iCloud Sync
 
-While synchronization of Safari History, Tab Groups, and iCloud Tabs uses E2EE, bookmarks sync does [not](https://support.apple.com/en-us/HT202303); they are only encrypted in transit and stored in an encrypted format on Apple's servers. Apple may be able to decrypt and access them.
+Synchronization of Safari History, Tab Groups, iCloud Tabs, and saved passwords are E2EE. However, bookmarks are [not](https://support.apple.com/en-us/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://www.apple.com/legal/privacy/en-ww/).
 
 If you use iCloud, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in :gear: **Settings** → **Safari** → **General** → **Downloads**.
 
@@ -280,7 +284,7 @@ We generally do not recommend installing [any extensions](https://www.sentinelon
 
     **uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
 
-    We suggest enabling all of the [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) under the "Ads," "Privacy," and "Malware domains". The "Annoyances" and "Multipurpose" lists can also be enabled, but they may break some social media functions. The *AdGuard URL Tracking Protection* filter list makes extensions like CleanURLs and NeatURLs redundant.
+    We suggest leaving the extension in its default configuration, as extra filter lists can add additional [attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
     [Extension Info](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
 
@@ -292,11 +296,9 @@ We generally do not recommend installing [any extensions](https://www.sentinelon
         - [:fontawesome-brands-opera: Opera](https://addons.opera.com/extensions/details/ublock)
         - [:fontawesome-brands-github: Source](https://github.com/gorhill/uBlock)
 
-We also suggest adding the [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt) list and any of the regional lists that might apply to your browsing habits. To add this list, first access settings by clicking on the uBO icon, then the settings icon ( :gear: ). Go to the bottom of the Filter lists pane and place a checkmark next to Import under the Custom section. Paste the URL of the filter list above into the text area that appears below and click "Apply changes".
-
-Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.
-
-uBlock Origin also has different [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode). The easy mode [might not](https://www.ranum.com/security/computer_security/editorials/dumb/) necessarily keep you safe from every tracker out there, whereas the more advanced modes let you control exactly what needs to run.
+!!! danger "Stick to the default filter lists"
+    
+    Additional filter lists do slow things down and may increase your attack surface, so only apply what you need. If there is a vulnerability in uBlock Origin, third party filters can provide malicious rules to exploit it.
 
 ### AdGuard for Safari
 
