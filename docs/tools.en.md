@@ -138,12 +138,12 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right:](email.md)
 
-**Email Cloaking Services:**
+**Email Aliasing Services:**
 
 <div class="grid cards" markdown>
 
-- ![AnonAddy logo](assets/img/email/mini/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/mini/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](https://anonaddy.com/)
 - ![SimpleLogin logo](assets/img/email/mini/simplelogin.svg){ .twemoji } [SimpleLogin](https://simplelogin.io/)
+- ![AnonAddy logo](assets/img/email/mini/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/mini/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](https://anonaddy.com/)
 
 </div>
 
