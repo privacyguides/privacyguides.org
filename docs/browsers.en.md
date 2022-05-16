@@ -284,7 +284,7 @@ We generally do not recommend installing [any extensions](https://www.sentinelon
 
     **uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
 
-    We suggest leaving the extension in its default configuration, as extra filter lists can add additional [attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css). Only enable the AdGuard URL Tracking Protection filter list, as it makes extensions like CleanURLs and NeatURLs redundant.
+    We suggest leaving the extension in its default configuration, as extra filter lists can add additional [attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
     [Extension Info](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
 
