@@ -100,45 +100,6 @@ For everything else, we recommend a variety of email providers based on sustaina
 
     All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
-### Disroot
-
-!!! recommendation
-
-    ![Disroot logo](assets/img/email/disroot.svg#only-light){ align=right }
-    ![Disroot logo](assets/img/email/disroot-dark.svg#only-dark){ align=right }
-
-    **Disroot** offers email amongst [other services](https://disroot.org/en/#services). The service is maintained by volunteers and its community. They have been in operation since 2015. Disroot is based in Amsterdam. Disroot is free and uses open source software such as Rainloop to provide service. You can support the service through donations and buying extra storage. The mailbox limit is 1 GB, but extra storage can be purchased 0.15€ per GB per month paid yearly.
-
-    **Free**
-
-    [Website](https://disroot.org){ .md-button .md-button--primary } [Privacy Policy](https://disroot.org/en/privacy_policy){ .md-button }
-
-??? check "Custom Domains and Aliases"
-
-    Disroot lets you use your own domain. They have aliases, however you must [manually apply](https://disroot.org/en/forms/alias-request-form) for them.
-
-??? check "Private Payment Methods"
-
-    Disroot accepts Bitcoin and Faircoin as payment methods. They also accept PayPal, direct bank deposit, and Patreon payments. Disroot is a not-for-profit organization that also accepts donations through Liberapay, Flattr, and Monero, but these payment methods cannot be used to purchase services.
-
-??? check "Account Security"
-
-    Disroot supports TOTP two factor authentication for webmail only. They do not allow U2F security key authentication.
-
-??? warning "Data Security"
-
-    Disroot uses FDE. However, it doesn't appear to be "zero access", meaning it is technically possible for them to decrypt the data they have if it is not additionally encrypted with a tool like OpenPGP.
-
-    Disroot also uses the standard [CalDAV](https://en.wikipedia.org/wiki/CalDAV) and [CardDAV](https://en.wikipedia.org/wiki/CardDAV) protocols for calendars and contacts, which do not support E2EE. A [standalone option](calendar-contacts.md) may be more appropriate.
-
-??? check "Email Encryption"
-
-    Disroot allows for encrypted emails to be sent from their webmail application using OpenPGP. However, Disroot has not integrated a Web Key Directory (WKD) for email accounts on their platform.
-
-??? info "Additional Functionality"
-
-    They offer [other services](https://disroot.org/en/#services) such as NextCloud, XMPP Chat, Etherpad, Ethercalc, Pastebin, Online polls and a Gitea instance. They also have an app [available in F-Droid](https://f-droid.org/packages/org.disroot.disrootapp/).
-
 ### Tutanota
 
 !!! recommendation
@@ -350,16 +311,16 @@ We regard these features as important in order to provide a safe and optimal ser
 
 **Minimum to Qualify:**
 
-- Encrypts account data at rest.
-- Integrated webmail encryption provides convenience to those who want an improvement on having no E2EE.
+- Encrypts email account data at rest with zero-access encryption.
+- Integrated webmail E2EE/PGP encryption provided as a convenience.
 
 **Best Case:**
 
-- Encrypts account data at rest with zero-access encryption.
-- Allow you to use your own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important, because they allow you to maintain your agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy, etc.
-- Support for [WKD](https://wiki.gnupg.org/WKD) to allow improved discovery of public OpenPGP keys via HTTP.  
-    You can get a key by typing: `gpg --locate-key example_user@example.com`
-- Support for a temporary mailbox for outside accounts. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
+- Encrypts all account data (Contacts, Calendars etc) at rest with zero-access encryption.
+- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy etc.
+- Support for [WKD](https://wiki.gnupg.org/WKD) to allow improved discovery of public OpenPGP keys via HTTP.
+    GnuPG users can get a key by typing: `gpg --locate-key example_user@example.com`
+- Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
 - Availability of the email provider's services via an [onion service](https://en.wikipedia.org/wiki/.onion).
 - [Subaddressing](https://en.wikipedia.org/wiki/Email_address#Subaddressing) support.
 - Catch-all or alias functionality for those who own their own domains.
@@ -396,9 +357,8 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 - A server suite preference of TLS 1.2 or later and a plan for [Deprecating TLSv1.0 and TLSv1.1](https://datatracker.ietf.org/doc/draft-ietf-tls-oldversions-deprecate/).
 - [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
 - Website security standards such as:
-
-- [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
-- [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
+    - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
+    - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
 
 **Best Case:**
 
@@ -408,9 +368,8 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 - Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), this is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
 - Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
 - Website security standards such as:
-
-- [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
-- [Expect-CT](https://datatracker.ietf.org/doc/draft-ietf-httpbis-expect-ct)
+    - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
+    - [Expect-CT](https://datatracker.ietf.org/doc/draft-ietf-httpbis-expect-ct)
 
 ### Trust
 
@@ -504,3 +463,4 @@ When emails travel between email providers an encrypted connection is negotiated
 - [The Government Can (Still) Read Most Of Your Emails Without A Warrant (2013)](https://thinkprogress.org/the-government-can-still-read-most-of-your-emails-without-a-warrant-322fe6defc7b/)
 
 --8<-- "includes/abbreviations.en.md"
+

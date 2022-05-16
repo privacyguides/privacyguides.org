@@ -130,7 +130,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![ProtonMail logo](assets/img/email/mini/protonmail.svg){ .twemoji } [ProtonMail](https://protonmail.com/)
 - ![Mailbox.org logo](assets/img/email/mini/mailboxorg.svg){ .twemoji } [Mailbox.org](https://mailbox.org/)
-- ![Disroot logo](assets/img/email/mini/disroot.svg#only-light){ .twemoji }![Disroot logo](assets/img/email/mini/disroot-dark.svg#only-dark){ .twemoji } [Disroot](https://disroot.org/)
 - ![Tutanota logo](assets/img/email/mini/tutanota.svg){ .twemoji } [Tutanota](https://tutanota.com/)
 - ![StartMail logo](assets/img/email/mini/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/mini/startmail-dark.svg#only-dark){ .twemoji } [StartMail](https://startmail.com/)
 
