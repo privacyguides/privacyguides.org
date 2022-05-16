@@ -28,7 +28,7 @@ icon: material/dns
 
 The criteria for the servers listed above are:
 
-- Must support [DNSSEC](basics/dns.md#what-is-dnssec)
+- Must support [DNSSEC](basics/dns.md/#what-is-dnssec)
 - Must have [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) support
 - [QNAME Minimization](basics/dns.md#what-is-qname-minimization)
 - Allow for [ECS](basics/dns.md#what-is-edns-client-subnet-ecs) to be disabled
