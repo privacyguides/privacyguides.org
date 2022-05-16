@@ -2,7 +2,7 @@
 title: "Account Deletion"
 icon: 'material/account-remove'
 ---
-It can be easy to accumulate a number of online accounts over time, many of which you may no longer use. Deleting these unused accounts is an important step in reclaiming your privacy, as dormant accounts are vulnerable to having their credentials stolen and for abuse to occur without your knowledge. A data breach is when a service's security is breached by hackers and they are able to exfiltrate a copy of the user database. Data breaches are unfortunately all [too common](https://haveibeenpwned.com/PwnedWebsites) these days; practicing good digital hygiene is the best way to minimize the impact these have on your life. [Deceptive design](https://www.deceptive.design/) patterns can often introduce inconveniences along the way, this guide aims to help you navigate through the account deletion process.
+It can be easy to accumulate a number of online accounts over time, many of which you may no longer use. Deleting these unused accounts is an important step in reclaiming your privacy, as dormant accounts are vulnerable to having their credentials stolen and misused without your knowledge. A data breach is when a service's security is breached by hackers and they are able to exfiltrate a copy of the user database. Data breaches are unfortunately all [too common](https://haveibeenpwned.com/PwnedWebsites) these days; practicing good digital hygiene is the best way to minimize the impact these have on your life. This guide aims to help you navigate the [deceptive design](https://www.deceptive.design/) patterns that modern websites use and achieve that goal.
 
 ## Finding Old Accounts
 
@@ -32,7 +32,7 @@ If you didn't use a password manager in the past or you think you have accounts 
 
 ### Log In
 
-In order to delete your old accounts, you'll need to first make sure you can log in to them. Again, if the account was in your password manager, this step is easy. If not, you can try to guess your password. Failing that, there is usually a "forgot password?" link toward the bottom of the login screen. It may also be possible that accounts you've abandoned have already been deleted, sometimes services prune all old accounts.
+In order to delete your old accounts, you'll need to first make sure you can log in to them. Again, if the account was in your password manager, this step is easy. If not, you can try to guess your password. Failing that, there is usually a "forgot password?" link toward the bottom of the login screen. It may also be possible that accounts you've abandoned have already been deleted; sometimes services prune all old accounts.
 
 When you click it, it will most likely ask you for your email that you signed up with. Type in the email you think you used and see if you are sent a reset link. If the site returns an error message saying that email is not associated with an account, or you never receive a reset link after multiple attempts, then you do not have an account under that email address; try a different one. If you can't figure out which email address you used, or you no longer have access to that email, you can try contacting the service's support. Unfortunately there is no guarantee that you will be able to reclaim access your account.
 
