@@ -2,7 +2,7 @@
 title: "Web Browsers"
 icon: octicons/browser-16
 ---
-These are our current web browser recommendations and settings. We recommend keeping extensions to a minimum: they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
+These are our currently recommended web browsers and configurations. In general, we recommend keeping extensions to a minimum: they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
 
 ## General Recommendations
 
@@ -12,7 +12,7 @@ These are our current web browser recommendations and settings. We recommend kee
 
     ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
 
-    **Tor Browser** is the choice if you need anonymity. This browser provides you with access to the Tor Bridges and [Tor Network](https://en.wikipedia.org/wiki/Tor_(network)), along with extensions that can be automatically configured to fit its three security levels - *Standard*, *Safer* and *Safest*. We recommend that you do not change any of Tor Browser's default configurations outside of the standard security levels.
+    **Tor Browser** is the choice if you need anonymity. This browser provides you with access to the Tor Bridges and [Tor Network](https://en.wikipedia.org/wiki/Tor_(network)), along with extensions that can be automatically configured to fit its three security levels: *Standard*, *Safer* and *Safest*. We recommend that you do not change any of Tor Browser's default configurations outside of the standard security levels.
 
     [Homepage](https://www.torproject.org){ .md-button .md-button--primary } [:pg-tor:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .md-button } [Privacy Policy](https://support.torproject.org/tbb/tbb-3/){ .md-button }
 
@@ -27,9 +27,9 @@ These are our current web browser recommendations and settings. We recommend kee
         - [:fontawesome-brands-git: Source](https://trac.torproject.org/projects/tor)
 
 !!! warning
-    You should **never** install any additional extensions on Tor Browser, including the ones we suggest for Firefox. Browser extensions make you stand out from other people on the Tor network, and make your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
+    You should **never** install any additional extensions on Tor Browser, including the ones we suggest for Firefox. Browser extensions make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
-## Desktop Browser Recommendations
+## Desktop Recommendations
 
 ### Firefox
 
@@ -54,7 +54,7 @@ These are our current web browser recommendations and settings. We recommend kee
 
 #### Recommended Configuration
 
-Tor Browser is the only way to truly browse the internet anonymously. When you use Firefox we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than Tor will be traceable by *somebody* in some regard or another.
+Tor Browser is the only way to truly browse the internet anonymously. When you use Firefox we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than [Tor Browser](#tor-browser) will be traceable by *somebody* in some regard or another.
 
 These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
 
@@ -114,72 +114,101 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
 
     ![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-    **Brave** is built upon the Chromium browser, featuring a built in ad blocker and some [privacy features](https://brave.com/privacy-features/) enabled by default.
+    **Brave Browser** includes a built in content blocker and [privacy features](https://brave.com/privacy-features/), many of which are enabled by default.
 
-    We only recommend Brave as a desktop browser. There are better [alternatives](#mobile-browser-recommendations) on mobile platforms.
+    Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
 
-    [Visit Homepage](https://brave.com/){ .md-button .md-button--primary } [Privacy Policy](https://brave.com/privacy/browser/){ .md-button }
+    We don't recommend Brave's mobile browser offerings as there are better [options](#mobile-recommendations) for mobile platforms.
 
-    ??? downloads
+    [Homepage](https://brave.com/){ .md-button .md-button--primary } [Privacy Policy](https://brave.com/privacy/browser/){ .md-button }
 
-        - [:fontawesome-brands-windows: Windows](https://laptop-updates.brave.com/latest/winx64)
-        - [:fontawesome-brands-apple: macOS](https://laptop-updates.brave.com/latest/osxarm64)
-        - [:fontawesome-brands-linux: Linux](https://brave.com/linux/#linux)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.brave.Browser)
-        - [:fontawesome-brands-github: Source](https://github.com/brave/brave-browse)
+    ??? downloads annotate
+
+        - [:fontawesome-brands-windows: Windows](https://brave.com/download/)
+        - [:fontawesome-brands-apple: macOS](https://brave.com/download/)
+        - [:fontawesome-brands-linux: Linux](https://brave.com/linux/) (1)
+        - [:fontawesome-brands-github: Source](https://github.com/brave/brave-browser)
+
+    1. We advise against using the Flatpak version of Brave as it is believed to feature a weaker sandboxing system. As well, the package is **not** maintained by Brave Software, Inc.
 
 #### Recommended Configuration
 
+Tor Browser is the only way to truly browse the internet anonymously. When you use Brave we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](#tor-browser) will be traceable by *somebody* in some regard or another.
+
+These options can be found in :material-menu: → **Settings**.
+
 ##### Shields
 
-Brave has privacy options such as ad and tracker blocking. It also includes some anti fingerprinting features in the [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) component. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
+Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
 
-We recommend setting *Aggressive* which can be found in :material-menu: **Settings** → **Shields** → **Trackers & ads blocking**.
+Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
 
-We also suggest changing the fingerprinting blocker to *Strict* in :material-menu: **Settings** → **Shields** → **Fingerprint blocking**. You can always downgrade it if you need to on a per-site basis.
+<div class="annotate" markdown>
 
-!!! danger "Do not use brave://adblock!" 
-    
-    Brave allows users to select additional adblock filters by visiting brave://adblock. We recommend that you do not use this feature and stick to the default settings provided by the Brave Shield to not stand out from other braves users and to not increase your attack surface. If there is a vulnerability in the Shield, third party filters can provide malicious rules to exploit it.
+- [x] Select **Aggressive** under Trackers & ads blocking
+
+    ??? warning "Use default filter lists"
+        Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
+
+</div>
+
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
 
 ##### Social media blocking
 
-Disable social media components in :material-menu: **Settings** → **Social media blocking**.
+- [ ] Uncheck all social media components
 
 ##### Privacy and Security
 
-There are a few options in here you may want to change:
-
-- Set the [*WebRTC IP Handling Policy*](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc) to *Disable Non-Proxied UDP* in :material-menu: **Settings** → **Privacy and Security**.
+- [ ] Select **Disable Non-Proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Use Google services for push messaging**
 - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
 - [ ] Uncheck **Automatically send daily usage ping to Brave**
-- Enable *Always use secure connections* in :material-menu: **Settings** → **Privacy and Security** → **Security**.
+- [x] Select **Always use secure connections** in the **Security** menu
 
-##### Sanitizing on close
+    !!! important "Sanitizing on Close"
+        - [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
 
-Select all items in *Clear browsing data* except for *Site and Shields Settings* in :material-menu: **Settings** → **Privacy and Security** → **Clear browsing data** → **On exit**.
+        If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
 ##### Extensions
 
-Disable the extensions you do not use in :material-menu: **Settings** → **Extensions**
+Disable the extensions you do not use in **Extensions**
+
+<div class="annotate" markdown>
 
 - [ ] Uncheck **Hangouts**
-- [ ] Uncheck **Private window with Tor**
+- [ ] Uncheck **Private window with Tor** (1)
 - [ ] Uncheck **WebTorrent**
 
-Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. Where [strong anonymity is required](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) use the [Tor Browser](#tor-browser).
+</div>
+
+1. Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. Where [strong anonymity is required](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) use the [Tor Browser](#tor-browser).
 
 ##### IPFS
 
-InterPlanetary File System (IPFS) is a decentralized peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use it set *Method to resolve IPFS resources* to *Disabled* in :material-menu: **Settings** → **IPFS**.
+InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
 
-##### Background apps
+- [ ] Select **Disabled** on Method to resolve IPFS resources
 
-Disable background apps in :material-menu: **Settings** → **Additional settings** → **System** → **Continue running apps when Brave is closed**.
+##### Additional settings
 
-## Mobile Browser Recommendations
+Under the system *System* menu
 
-Firefox on Android is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview/), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
+<div class="annotate" markdown>
+
+- [ ] Uncheck **Continue running apps when Brave is closed** to disable background apps (1)
+
+</div>
+
+1. This option is not present on all platforms.
+
+## Mobile Recommendations
+
+On Android, Firefox is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview/), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
 
 On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so there is little reason to use a third-party web browser.
 
@@ -193,10 +222,11 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
     [Homepage](https://www.bromite.org){ .md-button .md-button--primary } [Privacy Policy](https://www.bromite.org/privacy){ .md-button }
 
-    ??? downloads
+    ??? downloads annotate
 
-        - [:pg-f-droid: F-Droid](https://www.bromite.org/fdroid) ([Neo Store](/android/#neo-store) users can enable the *Bromite repository* in :material-dots-vertical: → **Repositories**)
+        - [:pg-f-droid: F-Droid](https://www.bromite.org/fdroid) (1)
         - [:fontawesome-brands-github: Source](https://github.com/bromite/bromite)
+    1. [Neo Store](/android/#neo-store) users can enable the *Bromite repository* in :material-dots-vertical: → **Repositories**
 
 These options can be found in :material-menu: → :gear: **Settings** → **Privacy and Security**.
 
@@ -296,9 +326,9 @@ We generally do not recommend installing [any extensions](https://www.sentinelon
         - [:fontawesome-brands-opera: Opera](https://addons.opera.com/extensions/details/ublock)
         - [:fontawesome-brands-github: Source](https://github.com/gorhill/uBlock)
 
-!!! danger "Stick to the default filter lists"
-    
-    Additional filter lists do slow things down and may increase your attack surface, so only apply what you need. If there is a vulnerability in uBlock Origin, third party filters can provide malicious rules to exploit it.
+!!! warning "Use default filter lists"
+
+    Additional filter lists can impact performance may increase attack surface. Only apply what you need. If there is a [vulnerability in uBlock Origin](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css) a third party filter could add malicious rules that can potentially steal user data.
 
 ### AdGuard for Safari
 
@@ -306,7 +336,7 @@ We generally do not recommend installing [any extensions](https://www.sentinelon
 
     ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
 
-    **AdGuard for Safari** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker). 
+    **AdGuard for Safari** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
 
     We suggest enabling the filters labled *#recommended* under the "Ad Blocking" and "Privacy" [content blockers](https://kb.adguard.com/en/safari/overview#content-blockers). The *#recommended* filters can also be enabled for the "Social Widgets" and "Annoyances" content blockers, but they may break some social media functions.
 
@@ -345,7 +375,7 @@ Running a Snowflake proxy is low-risk, even moreso than running a Tor relay or b
 
     **Terms of Service; Didn't Read** grades websites based on their terms of service agreements and privacy policies. It also gives short summaries of those agreements. The analyses and ratings are published transparently by a community of reviewers.
 
-    [Website](https://tosdr.org){ .md-button .md-button--primary } [Privacy Policy](https://addons.mozilla.org/firefox/addon/terms-of-service-didnt-read/privacy){ .md-button }
+    [Website](https://tosdr.org){ .md-button .md-button--primary } [Privacy Policy](https://docs.tosdr.org/sp/tosdr.org-Privacy-Policy.89456373.html){ .md-button }
 
 We do not recommend installing ToS;DR as a browser extension; the same information is also provided on their website.
 
