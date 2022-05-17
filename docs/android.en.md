@@ -285,9 +285,9 @@ Main privacy features include:
 
     You should **never** use blur to redact [text in images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, draw a box over the text. For this we suggest [Pocket Paint](https://github.com/Catrobat/Paintroid) or [Imagepipe](https://codeberg.org/Starfish/Imagepipe).
 
-## App Stores
+## Obtaining Applications
 
-### GrapheneOS's App Store
+### GrapheneOS App Store
 
 GrapheneOS's app store is available on [GitHub](https://github.com/GrapheneOS/Apps/releases). It supports Android 12 and above and is capable of updating itself. The app store has standalone applications built by the GrapheneOS project such as the [Auditor](https://attestation.app/), [Camera](https://github.com/GrapheneOS/Camera), and [PDF Viewer](https://github.com/GrapheneOS/PdfViewer). If you are looking for these applications, we highly recommend that you get them from GrapheneOS's app store instead of the Play Store, as the apps on their store are signed by the GrapheneOS's project own signature that Google does not have access to.
 
@@ -327,5 +327,45 @@ To mitigate these problems, we recommend [Neo Store](https://github.com/NeoAppli
 
         - [:fontawesome-brands-android: APK Download](https://android.izzysoft.de/repo/apk/com.looker.droidify)
         - [:fontawesome-brands-github: Source](https://github.com/NeoApplications/Neo-Store)
+
+### Manually with RSS Notifications
+
+If an app is released on a platform like GitHub, you may be able to add an RSS feed to your [news aggregator](/news-aggregators) that will help you be aware of new releases. Using [Secure Camera](#secure-camera) as an example, you would navigate to its [releases page](https://github.com/GrapheneOS/Camera/releases) on GitHub and append `.atom` to the URL:
+
+`https://github.com/GrapheneOS/Camera/releases.atom`
+
+![RSS Feed](./assets/img/android/gfeeds-light.png#only-light)
+![RSS Feed](./assets/img/android/gfeeds-dark.png#only-dark)
+
+#### Verifying APK Fingerprints
+
+If you download APK files to install manually, you can verify their signature with the [`apksigner`](https://developer.android.com/studio/command-line/apksigner) tool, which is a part of Android [build-tools](https://developer.android.com/studio/releases/build-tools).
+
+1. Install [Java JDK](https://www.oracle.com/java/technologies/downloads/).
+
+2. Download the [Android Studio command line tools](https://developer.android.com/studio#command-tools).
+
+3. Extract the downloaded archive:
+
+    ```bash
+    unzip commandlinetools-*.zip
+    cd cmdline-tools
+    ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
+    ```
+
+4. Run the signature verification command:
+
+    ```bash
+    ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
+    ```
+
+5. The resulting hashes can then be compared with another source. Some developers such as Signal [show the fingerprints](https://signal.org/android/apk/) on their website.
+
+    ```bash
+    Signer #1 certificate DN: CN=GrapheneOS
+    Signer #1 certificate SHA-256 digest: 6436b155b917c2f9a9ed1d15c4993a5968ffabc94947c13f2aeee14b7b27ed59
+    Signer #1 certificate SHA-1 digest: 23e108677a2e1b1d6e6b056f3bb951df7ad5570c
+    Signer #1 certificate MD5 digest: dbbcd0cac71bd6fa2102a0297c6e0dd3
+    ```
 
 --8<-- "includes/abbreviations.en.md"
