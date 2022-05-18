@@ -328,7 +328,7 @@ We generally do not recommend installing [any extensions](https://www.sentinelon
 
 !!! warning "Use default filter lists"
 
-    Additional filter lists can impact performance may increase attack surface. Only apply what you need. If there is a [vulnerability in uBlock Origin](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css) a third party filter could add malicious rules that can potentially steal user data.
+    Additional filter lists can impact performance and may increase attack surface, so only apply what you need. If there is a [vulnerability in uBlock Origin](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css) a third party filter could add malicious rules that can potentially steal user data.
 
 ### AdGuard for Safari
 
