@@ -184,6 +184,8 @@ Disable the extensions you do not use in **Extensions**
 - [ ] Uncheck **Private window with Tor** (1)
 - [ ] Uncheck **WebTorrent**
 
+In addition, avoid installing third-party extensions.
+
 </div>
 
 1. Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. Where [strong anonymity is required](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) use the [Tor Browser](#tor-browser).
