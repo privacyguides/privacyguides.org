@@ -40,11 +40,13 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     [Website](https://mullvad.net){ .md-button .md-button--primary } [:pg-tor:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .md-button }
 
-??? check "35 Countries"
+??? check annotate "38 Countries"
 
-    Mullvad has [servers in 35 countries](https://mullvad.net/en/servers/) at the time of writing this page. Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (less hops) to the destination.
+    Mullvad has [servers in 38 countries](https://mullvad.net/servers/) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (less hops) to the destination.
 
     We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+
+1. As of 2022/05/17
 
 ??? check "Independently Audited"
 
@@ -100,11 +102,13 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     [Website](https://protonvpn.com/){ .md-button .md-button--primary }
 
-??? check "44 Countries"
+??? check annotate "63 Countries"
 
-    ProtonVPN has [servers in 44 countries](https://protonvpn.com/vpn-servers) at the time of writing this page. Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (less hops) to the destination.
+    ProtonVPN has [servers in 63 countries](https://protonvpn.com/vpn-servers) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (less hops) to the destination.
 
     We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+
+1. As of 2022/05/17
 
 ??? check "Independently Audited"
 
@@ -148,11 +152,13 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     [Website](https://www.ivpn.net/){ .md-button .md-button--primary }
 
-??? check "32 Countries"
+??? check annotate "32 Countries"
 
-    IVPN has [servers in 32 countries](https://www.ivpn.net/server-locations) at the time of writing this page. Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (less hops) to the destination.
+    IVPN has [servers in 32 countries](https://www.ivpn.net/server-locations) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (less hops) to the destination.
 
     We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+
+1. As of 2022/05/17
 
 ??? check "Independently Audited"
 
