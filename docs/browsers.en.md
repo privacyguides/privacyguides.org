@@ -26,7 +26,7 @@ These are our currently recommended web browsers and configurations. In general,
         - [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid/)
         - [:fontawesome-brands-git: Source](https://trac.torproject.org/projects/tor)
 
-!!! warning
+!!! danger
     You should **never** install any additional extensions on Tor Browser, including the ones we suggest for Firefox. Browser extensions make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
 ## Desktop Recommendations
