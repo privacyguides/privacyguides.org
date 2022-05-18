@@ -131,6 +131,10 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
 
     1. We advise against using the Flatpak version of Brave as it is believed to feature a weaker sandboxing system. As well, the package is **not** maintained by Brave Software, Inc.
 
+!!! warning
+
+    You shouldn't use ublock Origin addon on Brave Browser as it would be redundant with the **Shield** feature. Doing so would just increase your attack surface and would add mere impact of what the **Shield** feature can already bring you.
+
 #### Recommended Configuration
 
 Tor Browser is the only way to truly browse the internet anonymously. When you use Brave we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](#tor-browser) will be traceable by *somebody* in some regard or another.
