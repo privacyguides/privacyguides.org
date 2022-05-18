@@ -131,9 +131,9 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
 
     1. We advise against using the Flatpak version of Brave as it is believed to feature a weaker sandboxing system. As well, the package is **not** maintained by Brave Software, Inc.
 
-!!! warning
+## Don't install uBlock Origin
 
-    You shouldn't use ublock Origin addon on Brave Browser as it would be redundant with the **Shield** feature. Doing so would just increase your attack surface and would add mere impact of what the **Shield** feature can already bring you.
+    You shouldn't use uBlock Origin addon on Brave Browser as it would be redundant with the **Shield** feature. Doing so would just increase your attack surface and would add mere impact of what the **Shield** feature can already bring you.
 
 #### Recommended Configuration
 
