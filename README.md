@@ -68,14 +68,25 @@ Our current list of team members can be found [here](https://github.com/orgs/pri
 
 ## Developing
 
-1. Clone this repository and submodules: `git clone --recurse-submodules https://github.com/privacyguides/privacyguides.org`
+This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdocs-material/insiders/) which offers additional functionality over the open-source `mkdocs-material` project. For obvious reasons we cannot distribute access to the insiders repository. You can install the website locally with the open-source version of `mkdocs-material`:
+
+1. Clone this repository: `git clone https://github.com/privacyguides/privacyguides.org.git`
 2. Install [Python 3.6+](https://www.python.org/downloads/)
-3. Install **pipenv**: `pip install pipenv`
-4. Start a pipenv shell: `pipenv shell`
-5. Install dependencies: `pipenv install --dev`
-6. Serve the site locally: `mkdocs serve`
+3. Install [dependencies](/Pipfile): `pip install mkdocs mkdocs-material mkdocs-static-i18n mkdocs-git-revision-date-localized-plugin typing-extensions`
+4. Serve the site locally: `mkdocs serve`
     - The site will be available at `http://localhost:8000`
     - You can build the site locally with `mkdocs build`
+    - Your local version of the site may be missing functionality, which is expected. If you are submitting a PR, please ensure the automatic preview generated for your PR looks correct, as that site will be built with the production insiders build.
+
+**Team members** should clone the repository with `mkdocs-material-insiders` directly. This method is identical to production:
+
+1. Clone this repository and submodules: `git clone --recurse-submodules https://github.com/privacyguides/privacyguides.org.git`
+2. Install [Python 3.6+](https://www.python.org/downloads/)
+3. Install **pipenv**: `pip install pipenv`
+4. Install dependencies: `pipenv install --dev`
+5. Serve the site locally: `pipenv run mkdocs serve`
+    - The site will be available at `http://localhost:8000`
+    - You can build the site locally with `pipenv run mkdocs build`
     - This version of the site should be identical to the live, production version
 
 ## Releasing
