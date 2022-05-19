@@ -369,7 +369,7 @@ Snowflake does not increase your privacy in any way, nor is it used to connect t
 
 Running a Snowflake proxy is low-risk, even moreso than running a Tor relay or bridge which are already not particularly risky endeavours. However, it does still proxy traffic through your network which can be impactful in some ways, especially if your network is bandwidth-limited. Make sure you understand [how Snowflake works](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) before deciding whether to run a proxy.
 
-We do not recomment installing Snowflake as a browser extension as extensions increase your browser's [attack surface](https://en.wikipedia.org/wiki/Attack_surface).
+We do not recommend installing Snowflake as a browser extension as extensions increase your browser's [attack surface](https://en.wikipedia.org/wiki/Attack_surface).
 
 ### Terms of Service; Didn't Read
 
