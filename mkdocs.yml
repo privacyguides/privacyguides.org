@@ -141,6 +141,7 @@ nav:
   - 'Knowledge Base':
     - 'The Basics':
       - 'basics/threat-modeling.md'
+      - 'basics/common-threats.md'
       - 'basics/dns.md'
       - 'basics/multi-factor-authentication.md'
       - 'basics/account-deletion.md'
