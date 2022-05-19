@@ -363,7 +363,7 @@ There is also [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html
 
     **Snowflake** allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser. People who are censored can use Snowflake proxies to connect to the Tor network. Snowflake is a great way to contribute to the network even if you don't have the technical know-how to run a Tor relay or bridge.
 
-    [Website](https://snowflake.torproject.org/embed.html){ .md-button .md-button--primary }
+    [Website](https://support.torproject.org/censorship/how-to-help-running-snowflake/){ .md-button .md-button--primary }
 
 Snowflake does not increase your privacy in any way, nor is it used to connect to the Tor network within your personal browser. However, if your internet connection is uncensored, you should consider running it to help people in censored networks achieve better privacy themselves. There is no need to worry about which websites people are accessing through your proxy. Their visible browsing IP address will match their Tor exit node, not yours.
 
