@@ -1,27 +1,29 @@
 version: 2
 
-registries:
-
-  fortawesome:
-    type: npm-registry
-    url: https://npm.fontawesome.com/
-    token: ${{ secrets.FONTAWESOME_NPM_AUTH_TOKEN }}
-
 updates:
 
+  # Maintain dependencies for GitHub Actions
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
+    assignees:
+      - "jonaharagon"
+    reviewers:
+      - "jonaharagon"
+    labels:
+      - "fix:github_actions"
 
-  - package-ecosystem: "bundler" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule:
-      interval: "daily"
-
-  - package-ecosystem: "npm"
+  # Maintain dependencies for pipenv
+  - package-ecosystem: "pip"
     directory: "/"
-    registries:
-      - fortawesome
+    ignore:
+      - dependency-name: "mkdocs-material"
     schedule:
       interval: "daily"
+    assignees:
+      - "jonaharagon"
+    reviewers:
+      - "jonaharagon"
+    labels:
+      - "fix:python"
