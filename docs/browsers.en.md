@@ -8,6 +8,9 @@ These are our currently recommended web browsers and configurations. In general,
 
 ### Tor Browser
 
+<span class="pg-purple" title="Protects your activities from being tied to your real-life identity">:fontawesome-solid-user-secret: Anonymity</span> ·
+<span class="pg-blue" title="Protects you from mass surveillance programs">:material-eye-outline: Mass Surveillance</span>
+
 !!! recommendation
 
     ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
@@ -32,6 +35,8 @@ These are our currently recommended web browsers and configurations. In general,
 ## Desktop Recommendations
 
 ### Firefox
+
+<span class="pg-brown" title="Protects you from big tech companies and advertising network tracking">:material-advertisements: AdTech Tracking</span>
 
 !!! recommendation
 
@@ -109,6 +114,9 @@ We generally do not recommend installing any extensions as they increase your at
 The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly - [which you can easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users) support.
 
 ### Brave
+
+<span class="pg-orange" title="Protects you from malware and other untargeted attacks">:material-bug-outline: Untargeted Attacks</span> ·
+<span class="pg-brown" title="Protects you from big tech companies and advertising network tracking">:material-advertisements: AdTech Tracking</span>
 
 !!! recommendation
 
@@ -216,6 +224,9 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 ### Bromite
 
+<span class="pg-orange" title="Protects you from malware and other untargeted attacks">:material-bug-outline: Untargeted Attacks</span> ·
+<span class="pg-brown" title="Protects you from big tech companies and advertising network tracking">:material-advertisements: AdTech Tracking</span>
+
 !!! recommendation
 
     ![Bromite logo](assets/img/browsers/bromite.svg){ align=right }
@@ -247,6 +258,8 @@ This prevents you from unintentionally connecting to a website in plain-text HTT
 - [x] Select **Open external links in incognito**
 
 ### Safari
+
+<span class="pg-brown" title="Protects you from big tech companies and advertising network tracking">:material-advertisements: AdTech Tracking</span>
 
 !!! recommendation
 
@@ -310,6 +323,8 @@ We generally do not recommend installing [any extensions](https://www.sentinelon
 
 ### uBlock Origin
 
+<span class="pg-brown" title="Protects you from big tech companies and advertising network tracking">:material-advertisements: AdTech Tracking</span>
+
 !!! recommendation
 
     ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }
@@ -333,6 +348,8 @@ We generally do not recommend installing [any extensions](https://www.sentinelon
     Additional filter lists can impact performance and may increase attack surface, so only apply what you need. If there is a [vulnerability in uBlock Origin](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css) a third party filter could add malicious rules that can potentially steal user data.
 
 ### AdGuard for Safari
+
+<span class="pg-brown" title="Protects you from big tech companies and advertising network tracking">:material-advertisements: AdTech Tracking</span>
 
 !!! recommendation
 
@@ -372,6 +389,8 @@ Running a Snowflake proxy is low-risk, even moreso than running a Tor relay or b
 We do not recommend installing Snowflake as a browser extension as extensions increase your browser's attack surface.
 
 ### Terms of Service; Didn't Read
+
+<span class="pg-green" title="Protects your data from being publicly accessible">:material-account-search: Public Exposure</span>
 
 !!! recommendation
 
