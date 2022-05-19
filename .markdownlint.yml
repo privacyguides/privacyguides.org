@@ -1,5 +1,7 @@
 default: true
 line-length: false
+ul-indent:
+  indent: 4
 no-inline-html: false
 code-block-style: false
 no-hard-tabs:
