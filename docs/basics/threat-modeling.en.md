@@ -5,11 +5,11 @@ icon: 'material/target-account'
 
 Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, et cetera. Often people find that the problem with the tools they see recommended is they're just too hard to start using!
 
-If you wanted to use the **most** secure tools available, you'd have to sacrifice *a lot* of usability. And even then, <mark>nothing is ever fully secure.</mark> There's **high** security, but never **full** security. That's why threat models are important.
+If you wanted to use the **most** secure tools available, you'd have to sacrifice *a lot* of usability. And even then, ==nothing is ever fully secure.== There's **high** security, but never **full** security. That's why threat models are important.
 
 **So, what are these threat models anyways?**
 
-<mark>A threat model is a list of the most probable threats to your security/privacy endeavors.</mark> Since it's impossible to protect yourself against **every** attack(er), you should focus on the **most probable** threats. In computer security, a threat is a potential event that could undermine your efforts to stay private and secure.
+==A threat model is a list of the most probable threats to your security/privacy endeavors.== Since it's impossible to protect yourself against **every** attack(er), you should focus on the **most probable** threats. In computer security, a threat is a potential event that could undermine your efforts to stay private and secure.
 
 By focusing on the threats that matter to you, this narrows down your thinking about the protection you need, so you can choose the tools that are right for the job.
 
@@ -61,13 +61,13 @@ Now, let's take a closer look at the questions in our list:
 
 ### What do I want to protect?
 
-An “asset” is something you value and want to protect. In the context of digital security, <mark>an asset is usually some kind of information.</mark> For example, your emails, contact lists, instant messages, location, and files are all possible assets. Your devices themselves may also be assets.
+An “asset” is something you value and want to protect. In the context of digital security, ==an asset is usually some kind of information.== For example, your emails, contact lists, instant messages, location, and files are all possible assets. Your devices themselves may also be assets.
 
 *Make a list of your assets: data that you keep, where it's kept, who has access to it, and what stops others from accessing it.*
 
 ### Who do I want to protect it from?
 
-To answer this question, it's important to identify who might want to target you or your information. <mark>A person or entity that poses a threat to your assets is an “adversary.”</mark> Examples of potential adversaries are your boss, your former partner, your business competition, your government, or a hacker on a public network.
+To answer this question, it's important to identify who might want to target you or your information. ==A person or entity that poses a threat to your assets is an “adversary.”== Examples of potential adversaries are your boss, your former partner, your business competition, your government, or a hacker on a public network.
 
 *Make a list of your adversaries, or those who might want to get ahold of your assets. Your list may include individuals, a government agency, or corporations.*
 
@@ -75,7 +75,7 @@ Depending on who your adversaries are, under some circumstances this list might 
 
 ### How likely is it that I will need to protect it?
 
-<mark>Risk is the likelihood that a particular threat against a particular asset will actually occur.</mark> It goes hand-in-hand with capability. While your mobile phone provider has the capability to access all of your data, the risk of them posting your private data online to harm your reputation is low.
+==Risk is the likelihood that a particular threat against a particular asset will actually occur.== It goes hand-in-hand with capability. While your mobile phone provider has the capability to access all of your data, the risk of them posting your private data online to harm your reputation is low.
 
 It is important to distinguish between what might happen and the probability it may happen. For instance, there is a threat that your building might collapse, but the risk of this happening is far greater in San Francisco (where earthquakes are common) than in Stockholm (where they are not).
 
@@ -87,7 +87,7 @@ Assessing risks is both a personal and a subjective process. Many people find ce
 
 There are many ways that an adversary could gain access to your data. For example, an adversary can read your private communications as they pass through the network, or they can delete or corrupt your data.
 
-<mark>The motives of adversaries differ widely, as do their tactics.</mark> A government trying to prevent the spread of a video showing police violence may be content to simply delete or reduce the availability of that video. In contrast, a political opponent may wish to gain access to secret content and publish that content without you knowing.
+==The motives of adversaries differ widely, as do their tactics.== A government trying to prevent the spread of a video showing police violence may be content to simply delete or reduce the availability of that video. In contrast, a political opponent may wish to gain access to secret content and publish that content without you knowing.
 
 Security planning involves understanding how bad the consequences could be if an adversary successfully gains access to one of your assets. To determine this, you should consider the capability of your adversary. For example, your mobile phone provider has access to all your phone records. A hacker on an open Wi-Fi network can access your unencrypted communications. Your government might have stronger capabilities.
 
@@ -95,7 +95,7 @@ Security planning involves understanding how bad the consequences could be if an
 
 ### How much trouble am I willing to go through to try to prevent potential consequences?
 
-<mark>There is no perfect option for security.</mark> Not everyone has the same priorities, concerns, or access to resources. Your risk assessment will allow you to plan the right strategy for you, balancing convenience, cost, and privacy.
+==There is no perfect option for security.== Not everyone has the same priorities, concerns, or access to resources. Your risk assessment will allow you to plan the right strategy for you, balancing convenience, cost, and privacy.
 
 For example, an attorney representing a client in a national security case may be willing to go to greater lengths to protect communications about that case, such as using encrypted email, than a mother who regularly emails her daughter funny cat videos.
 
