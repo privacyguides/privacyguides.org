@@ -58,6 +58,7 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
+    - content.tooltips
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
