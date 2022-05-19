@@ -100,10 +100,6 @@ This prevents you from unintentionally connecting to a website in plain-text HTT
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
 
-#### Extensions
-
-We generally do not recommend installing any extensions as they increase your attack surface. However, if you want content blocking, [uBlock Origin](#additional-resources) might be useful to you. The extension is also a :trophy: [Recommended Extension](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) by Mozilla.
-
 #### Arkenfox (advanced)
 
 The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly - [which you can easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users) support.
@@ -176,15 +172,13 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 ##### Extensions
 
-Disable the extensions you do not use in **Extensions**
+Disable built-in extensions you do not use in **Extensions**
 
 <div class="annotate" markdown>
 
 - [ ] Uncheck **Hangouts**
 - [ ] Uncheck **Private window with Tor** (1)
 - [ ] Uncheck **WebTorrent**
-
-In addition, avoid installing third-party extensions.
 
 </div>
 
@@ -302,11 +296,9 @@ Synchronization of Safari History, Tab Groups, iCloud Tabs, and saved passwords 
 
 If you use iCloud, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in :gear: **Settings** → **Safari** → **General** → **Downloads**.
 
-#### Extensions
-
-We generally do not recommend installing [any extensions](https://www.sentinelone.com/blog/inside-safari-extensions-malware-golden-key-user-data/) as they increase your browser's attack surface; however, if you want content blocking, [AdGuard for Safari](#additional-resources) might be useful to you.
-
 ## Additional Resources
+
+We generally do not recommend installing any extensions as they increase your attack surface. However, uBlock Origin or AdGuard may prove useful if you value content blocking functionality.
 
 ### uBlock Origin
 
@@ -315,8 +307,6 @@ We generally do not recommend installing [any extensions](https://www.sentinelon
     ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }
 
     **uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
-
-    We suggest leaving the extension in its default configuration, as extra filter lists can add additional [attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
     [Extension Info](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
 
@@ -328,9 +318,9 @@ We generally do not recommend installing [any extensions](https://www.sentinelon
         - [:fontawesome-brands-opera: Opera](https://addons.opera.com/extensions/details/ublock)
         - [:fontawesome-brands-github: Source](https://github.com/gorhill/uBlock)
 
-!!! warning "Use default filter lists"
+We suggest leaving the extension in its default configuration. Additional filter lists can impact performance and may increase attack surface, so only apply what you need. If there is a [vulnerability in uBlock Origin](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css) a third party filter could add malicious rules that can potentially steal user data.
 
-    Additional filter lists can impact performance and may increase attack surface, so only apply what you need. If there is a [vulnerability in uBlock Origin](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css) a third party filter could add malicious rules that can potentially steal user data.
+uBlock Origin is also a Mozilla :trophy: [Recommended Extension](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions). Recommended extensions are manually reviewed by Mozilla staff security experts to ensure they meet the highest standards of security, functionality, and user experience.
 
 ### AdGuard for Safari
 
@@ -363,13 +353,21 @@ There is also [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html
 
     **Snowflake** allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser. People who are censored can use Snowflake proxies to connect to the Tor network. Snowflake is a great way to contribute to the network even if you don't have the technical know-how to run a Tor relay or bridge.
 
-    [Website](https://support.torproject.org/censorship/how-to-help-running-snowflake/){ .md-button .md-button--primary }
+    [Website](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+
+    ??? downloads
+
+        - [:octicons-browser-16: Browser](https://snowflake.torproject.org/embed) (Leave page open to continue being a Snowflake proxy)
+        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/)
+        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
 
 Snowflake does not increase your privacy in any way, nor is it used to connect to the Tor network within your personal browser. However, if your internet connection is uncensored, you should consider running it to help people in censored networks achieve better privacy themselves. There is no need to worry about which websites people are accessing through your proxy—their visible browsing IP address will match their Tor exit node, not yours.
 
 Running a Snowflake proxy is low-risk, even moreso than running a Tor relay or bridge which are already not particularly risky endeavours. However, it does still proxy traffic through your network which can be impactful in some ways, especially if your network is bandwidth-limited. Make sure you understand [how Snowflake works](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) before deciding whether to run a proxy.
 
-We do not recommend installing Snowflake as a browser extension as extensions increase your browser's attack surface.
+You can enable Snowflake in your browser by clicking the switch below and ==leaving this page open==. You can also install Snowflake as a browser extension to have it always run while your browser is open, however adding third-party extensions can increase your attack surface.
+
+<center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
 
 ### Terms of Service; Didn't Read
 
