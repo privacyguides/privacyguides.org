@@ -81,7 +81,7 @@ Targeted attacks against a specific user is the most problematic one to deal wit
 
 * Browser: The browser is a very hostile environment, as it is constantly executing untrusted code from different parties as you browse the web. To protect yourself against a browser exploit, use different virtual machines for different browsing purposes and do not use the browser directly on the host system. Disposable virtual machines on QubesOS and Microsoft Defender Application Guard on Windows provide you with a convenient method of doing so.
 
-* Email client: The email client is another dangerous application to run, as an adversary can send malicious files to your address and the it will automatically download them to your computer. We highly recommended that you use a dedicated virtual machine for your email client, and if you are not using an email provider with zero access encryption, just use their webmail client.
+* Email client: The email client is another dangerous application to run, as an adversary can send malicious files to your address and the it will automatically download them to your computer. We highly recommended that you use a dedicated virtual machine for your email client, and if you are not using an email provider with zero access encryption or PGP, just use their webmail client.
 
 * Office applications: Office applications are often targetted for various attacks, including malicious macros to exploits of vulnerabilities in the application's parser. Thus, it is highly recommended that you run your office applications inside of a virtual machine to open and edit your documents. Disposable virtual machines on QubesOS and Microsoft Defender Application Guard with Microsoft Office on Windows provide you with a convenient method of doing so.
 
