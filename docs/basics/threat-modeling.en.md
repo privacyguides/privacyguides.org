@@ -72,6 +72,8 @@ Unfortunately, the reality is that we generally do not know if a certain piece o
 
 To minimize the potential damage that a malicious piece of software can do, employ security by compartmentalization. This could come in the form of using different computers for different jobs, using virtual machines groups of related applications, or use a secure operating system with an strong focus on application sandboxing and mandatory access control.
 
+Mobile operating systems are generally safer than desktop operating systems when it comes to application sandboxing. On iOS and Android, apps practically cannot access things you do not grant them access to, and a user installed app cannot elevate its permission to use admin/root permission.
 
+With desktop operating systems, ChromeOS has the best applicaiton sandbox, followed by macOS. On ChromeOS, apps are strictly confined as if they were on Android (except Linux applications which are not isolated from each other inside of the same Crostini container). 
 
 ## Privacy Theatre
