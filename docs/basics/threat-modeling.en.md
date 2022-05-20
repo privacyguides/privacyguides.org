@@ -13,12 +13,6 @@ If you wanted to use the **most** secure tools available, you'd have to sacrific
 
 By focusing on the threats that matter to you, this narrows down your thinking about the protection you need, so you can choose the tools that are right for the job.
 
-## Examples of threat models
-
-* An investigative journalist's threat model might be <span class="text-muted">(protecting themselves against)</span> a foreign government.
-* A company's manager's threat model might be <span class="text-muted">(protecting themselves against)</span> a hacker hired by competition to do corporate espionage.
-* The average citizen's threat model might be <span class="text-muted">(hiding their data from)</span> large tech corporations.
-
 ## Creating your threat model
 
 To identify what could happen to the things you value and determine from whom you need to protect them, you want to answer these five questions:

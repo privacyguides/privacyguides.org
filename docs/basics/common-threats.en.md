@@ -25,59 +25,63 @@ Whistleblowers and journalists, for example, can have a much more extreme threat
 
 ## Privacy From Service Providers
 
-<span class="pg-teal" title="Protects your data from being readable by your service provider">:material-server-network: Service Providers</span> ·
-<span class="pg-brown" title="Protects you from big tech companies and advertising network tracking">:material-advertisements: AdTech Tracking</span>
+<span class="pg-teal" title="Protects your data from being readable by your service provider">:material-server-network: Service Providers</span>
 
 We live in a world where almost everything is connected to the internet. Our "private" messages, emails, social interactions are typilically stored on a server somewhere. Generally, when you send someone a message, that message is then stored on a server, and when your friend wants to read the message, the server will show it to them.
 
-The obvious problem with this model is that the service provider, the server operator, or a hacker who has compromised the server can look into your "private" conversations whenever and however they want to do it, without you ever knowing. Privacy policies are not to be trusted, as they are nothing more than a pinky promise that you cannot verify. This applies to common services like Discord, non "Secret Chat" on Telegram, SMS messages, and so on.
+The obvious problem with this is that the service provider (or a hacker who has compromised the server) can look into your "private" conversations whenever and however they want to do it, without you ever knowing. This applies to many common services like Discord, Telegram, SMS messages, and so on.
 
-Thankfully, we could use end to end encryption to eliviate this issue. In a typical end to end encrypted setup, both users will generate a pair of asymetric encryption keys - a public and private key. One person can encrypt a message using the other user's public key, and the user on the recieving end can decrypt the message using their private key. The confidentiality of their messages are guaranteed by math, so long as the service provider does not have access to the user's private key.
+Thankfully, end-to-end encryption can alleviate this issue by encrypting communications between parties before they are even sent to the server. The confidentiality of their messages are guaranteed, so long as the service provider does not have access to the user's private key.
 
-In practice, the effectiveness of different end to end encryption implementations varies. Applications such as Signal, Briar, Sessions run natively on the user's system, and every copy of of the application is the same across different installations. If the service provider was to backdoor their applications, such backdoor could be detected later on using reverse engineering, and there will be no plausible deniability for the service provider. On the other hand, web based end to end encryption implementation such as ProtonMail web client, Bitwarden web vault, etc rely on the server dynamically serving javascript code to the browser to handle cryptographic operations. A malicious server could target a specific user and send them malicious javascript code to steal their encryption key and it would be extremely hard for the user to ever notice such a thing. Even if the user do notice the attempt to steal their key, it would be incredibly hard to prove that it is the provider trying to do so, because the server can choose to serve different web clients to different users. As such, to protect the confidentiality of your data from the service provider, use an end to end encryption implementation that does **not** rely on web clients.
+??? note "Note on web-based encryption"
 
-Another avenue in which the provider can still profile the user is using the metadata, which is not typically protected. While the service provider, with end to end encryption, cannot see what the user are saying, they can still observe who the user is talking to, how often they talk to said person, what time they usually have a conversation, and so on. Protection of metadata is extremely problematic, and the if your threat model calls for protection of such information, pay close attention to the technical documentation of the software you are using to see if there is any metadata reduction or protection at all.
+    In practice, the effectiveness of different end-to-end encryption implementations varies. Applications such as Signal run natively on the user's system, and every copy of of the application is the same across different installations. If the service provider was to backdoor their applications to try and steal your private keys, that could be detected later using reverse engineering. 
+    
+    On the other hand, web based end-to-end encryption implementations such as ProtonMail's webmail or Bitwarden's web vault rely on the server dynamically serving Javascript code to the browser to handle cryptographic operations. A malicious server could target a specific user and send them malicious Javascript code to steal their encryption key, and it would be extremely hard for the user to ever notice such a thing. Even if the user does notice the attempt to steal their key, it would be incredibly hard to prove that it is the provider trying to do so, because the server can choose to serve different web clients to different users. 
+    
+    Therefore, whenever possible you should choose to use native applications which implement end-to-end encryption rather than web clients.
+
+Even with end-to-end encryption, service providers can still profile you based on **metadata**, which is not typically protected. While the service provider could not read your messages to see what you're saying, they can still observe things like who you're talking to, how often you message them, and what times you're typically active. Protection of metadata is fairly uncommon, and you should pay close attention to the technical documentation of the software you are using to see if there is any metadata reduction or protection at all, if that is a concern for you.
 
 ## Security and Privacy
 
-<span class="pg-red" title="Protects you from malicious agents targeting you specifically">:material-target-account: Targeted Attacks</span> ·
 <span class="pg-orange" title="Protects you from malware and other passive attacks">:material-bug-outline: Passive Attacks</span>
 
-Unfortunately, the reality is that we generally do not know if a certain piece of software that we use is malicious or would one day turn malicious or not. Even if assume the developers to be trustworthy, there is generally no guarantee that their software does not have a serious vulnerability that can be exploited.
+Security and privacy are often conflated, because you need security to obtain any semblance of privacy—Using tools which appear private is futile if they could easily be exploited by attackers to release your data later. However the inverse is not necessarily true, the most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google, who have never lost data to breaches and employ industry-leading security experts to secure their services. Even though Google provides a very secure service, very few would consider their data private in their hands.
 
-To minimize the potential damage that a malicious piece of software can do, employ security by compartmentalization. This could come in the form of using different computers for different jobs, using virtual machines groups of related applications, or use a secure operating system with an strong focus on application sandboxing and mandatory access control.
+When it comes to application security, we generally do not (and sometimes cannot) know if the software that we use is malicious, or might one day become malicious. Even with the most trustworthy developers, there is generally no guarantee that their software does not have a serious vulnerability that could later be exploited.
 
-    - Mobile operating systems are generally safer than desktop operating systems when it comes to application sandboxing. On iOS and Android, apps practically cannot access things you do not grant them access to, and a user installed app cannot elevate its permission to use admin/root permission.
-    - With desktop operating systems, ChromeOS has the best application sandbox, followed by macOS. On ChromeOS, apps are strictly confined as if they were on Android (except Linux applications which are not isolated from each other inside of the same Crostini container). On macOS, the application is opt-in, however, even apps not using the sandbox still have to play by the rules of the permission system. The downside with these operating systems is that they do collect your hardware ID, and often force you to sign in with an online account (in the case of ChromeOS) or coerece you into doing so (in the case of macOS). Linux on the other hand, has poor protection again malicious or vulnerable application, however, they do tend to respect your wish to not submit any information to the operating system vendor. Some of Linux's deficiencies can be eliviated by using a specialized distribution like QubesOS, which is technically a Xen hypverisor made up of multiple Linux virtual machines, with each virtual machine running a group of related applications.
+To minimize the potential damage that a malicious piece of software can do, you should employ security by compartmentalization. This could come in the form of using different computers for different jobs, using virtual machines groups of related applications, or using a secure operating system with an strong focus on application sandboxing and mandatory access control.
 
-When doing threat modeling, you typically have to balance between protection against malware and freedom from mass surveillance with desktop operating systems. For most average users, a phone with a privacy and security Android distribution such as GrapheneOS and laptop with macOS with iCloud disabled would strike a reasonable balance.
+!!! tip
 
-Targeted attacks against a specific user is the most problematic one to deal with. The common attack avenues include sending malicious documents via emails, exploiting vulnerabilities in the browser and operating systems, and physical attacks. There are a couple of strategy the user could employ to protect themselves against such attacks:
+    Mobile operating systems are generally safer than desktop operating systems when it comes to application sandboxing. Apps cannot obtain root access and only have access to system resources which you grant them.
 
-    - Browser: The browser is a very hostile environment, as it is constantly executing untrusted code from different parties as you browse the web. To protect yourself against a browser exploit, use different virtual machines for different browsing purposes and do not use the browser directly on the host system. Disposable virtual machines on QubesOS and Microsoft Defender Application Guard on Windows provide you with a convenient method of doing so.
-    - Email client: The email client is another dangerous application to run, as an adversary can send malicious files to your address and the it will automatically download them to your computer. We highly recommended that you use a dedicated virtual machine for your email client, and if you are not using an email provider with zero access encryption or PGP, just use their webmail client.
-    - Office applications: Office applications are often targetted for various attacks, including malicious macros to exploits of vulnerabilities in the application's parser. Thus, it is highly recommended that you run your office applications inside of a virtual machine to open and edit your documents. Disposable virtual machines on QubesOS and Microsoft Defender Application Guard with Microsoft Office on Windows provide you with a convenient method of doing so.
-    - Physical attacks: Use an operating system with verified boot implemented such as Android, iOS, macOS, and ChromeOS. Ideally, you should also make sure that your drive is encrypted, and that the operating system uses the TPM or Secure Element for rate limiting attempts to enter the encryption passphrase. If you have to share your computer with another user, ChromeOS is the only viable option for desktop, as it implements per user encryption keys. Set firmware passwords on your computer, and try not to leave your devices unattended.
+    Desktop operating systems generally lag behind on proper sandboxing. ChromeOS has similar sandboxing properties to Android, and macOS has opt-in (for developers) sandboxing and strong permissions, however these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make heavy use of VMs or containers, such as QubesOS.
+
+<span class="pg-red" title="Protects you from malicious agents targeting you specifically">:material-target-account: Targeted Attacks</span>
+
+Targeted attacks against a specific user are more problematic to deal with. Common avenues of attack include sending malicious documents via emails, exploiting vulnerabilities in the browser and operating systems, and physical attacks. If this is a concern for you, you may have to employ more advanced threat mitigation strategies.
+
+!!! tip
+
+    **Web browsers**, **email clients**, and **office applications** all typically run untrusted code sent to you from third-parties by design. Running multiple virtual machines separating applications like these from your main system and each other is one technique you can use to avoid an exploit in these applications from gaining access to the rest of your system. Technologies like QubesOS or Microsoft Defender Application Guard on Windows provide convenient methods to seamlessly do this, for example.
+
+If you are concerned about **physical attacks** you should use an operating system with a verified boot implementation, such as Android, iOS, or macOS. You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure Element for rate limiting attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems do not encrypt data separately per-user.
 
 ## Mass Surveillance Programs
 
-<span class="pg-blue" title="Protects you from mass surveillance programs">:material-eye-outline: Mass Surveillance</span> ·
-<span class="pg-brown" title="Protects you from big tech companies and advertising network tracking">:material-advertisements: AdTech Tracking</span>
+<span class="pg-blue" title="Protects you from mass surveillance programs">:material-eye-outline: Mass Surveillance</span>
 
-Mass surveillance is typically service providers working together, sharing user data among each other and even possibly the government. Such data can be used to figure out what the user is doing across the internet.
+Mass surveillance refers to organizations and sometimes governments working together to share user data and track your activities across the internet. You can be tracked via a wide variety of methods, including but not limited to:
 
-In order to solve this problem, the user needs segregation of their online identities, to blend in with other users, and to not give out their real information as much as possible.
+- Your IP address
+- Browser cookies
+- Data you submit to websites
+- Your browser fingerprint
+- Payment method correlation
 
-Here are the most common avenues in which the user can be tracked and their potential solution:
-
-    - IP based tracking: This can be solved by using a VPN or Tor. Both solutions will help you blend in with other users using the same VPN provider or Tor network, and thus making IP based tracking useless. Do note that when you use a VPN provider, you are only protected from service providers other than the VPN providers from tracking you, as a VPN provider can see which sites you are visiting.
-    - Cross site cookie based tracking: Most modern browsers have an option to block third party cookies which will thrwat this threat. All you need to do is enable it.
-    - Persistent tracking using cookies and site data: Clearing your cookies and site data upon exiting the browser will prevent this type of tracking.
-    - Cross site tracking using user submitted data: Use email aliases, secondary phone numbers, and lie about your real information (name, birthday, "security" questions) whenever possible. If you have already submitted your real information to various different sites, employ disinformation and submitted various fake information related to the same online identity and make your real information indistinguishable from the fake one.
-    - Cross site tracking using browser fingerprint: Use browsers with fingerprinting resistance such as Tor, Brave, or Firefox with Arkenfox.
-    - Tracking using payment method: Use virtual cards (preferably from your bank if they support it), prepaid cards, giftcards, cryptocurrencies, etc.
-
-Instead of relying on privacy policies (which are promises that could be violated), try to obfuscate your information in such a way that it is very difficult for different providers to correlate data with each other and build a profile on you.
+Therefore your goals could be to segregate your online identities from each other, to blend in with other users, and simply to avoid giving out identifying information to anyone as much as possible.
 
 ## Limiting Public Information
 
