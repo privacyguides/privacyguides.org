@@ -1,11 +1,10 @@
 <!-- markdownlint-disable MD041 -->
 <div align="center">
-  <a href="https://privacyguides.org#gh-light-mode-only">
-    <img src="/docs/assets/img/layout/privacy-guides-logo.svg" width="500px" alt="Privacy Guides" />
-  </a>
-  
-  <a href="https://privacyguides.org#gh-dark-mode-only">
-    <img src="/docs/assets/img/layout/privacy-guides-logo-dark.svg" width="500px" alt="Privacy Guides" />
+  <a href="https://www.privacyguides.org/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://privacyguides.org/assets/img/layout/privacy-guides-logo-dark.svg">
+      <img alt="Privacy Guides" width="500px" src="https://privacyguides.org/assets/img/layout/privacy-guides-logo.svg">
+    </picture>
   </a>
 
   <p><em>Your central privacy and security resource to protect yourself online.</em></p>
