@@ -3,7 +3,7 @@ title: "Common Threats"
 icon: 'material/eye-outline'
 ---
 
-Broadly speaking, we categorize our recommendations into seven categories of threats or goals that apply to most people. You may be concerned with one, a few, or all of these possibilities, and the tools and services you use depends on what your goals are. You may also have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortfallings of the tools you choose to use, because virtually none of them will protect you from every threat imaginable.
+Broadly speaking, we categorize our recommendations into these general categories of threats or goals that apply to most people. You may be concerned with one, a few, or all of these possibilities, and the tools and services you use depends on what your goals are. You may also have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortfallings of the tools you choose to use, because virtually none of them will protect you from every threat imaginable.
 
 - <span class="pg-purple" title="Protects your activities from being tied to your real-life identity">:material-incognito: Anonymity</span> - Shielding your online activity from your real-life identity, protecting you from people who are trying to uncover your identity specifically.
 - <span class="pg-red" title="Protects you from malicious agents targeting you specifically">:material-target-account: Targeted Attacks</span> - Being protected  from dedicated hackers or other malicious agents trying to gain access to *your* data or devices specifically.
@@ -12,6 +12,7 @@ Broadly speaking, we categorize our recommendations into seven categories of thr
 - <span class="pg-blue" title="Protects you from state mass surveillance programs">:material-eye-outline: State Surveillance</span> - Protection from government agencies, organizations, websites, and services working together to track your activities.
 - <span class="pg-brown" title="Protects you from third-party tracking networks">:material-account-cash: Surveillance Capitalism</span> - Protecting yourself from big advertising networks like Google and Facebook, as well as a myriad of other third-party trackers.
 - <span class="pg-green" title="Protects your data from being publicly accessible">:material-account-search: Public Exposure</span> - Limiting the information about you online that is accessible to search engines or the general public.
+- <span class="pg-blue-gray" title="Protects you from state or corporate censorship">:material-close-outline: Censorship</span> - Avoiding censored access to information and being censored yourself when speaking online.
 
 Some of these threats may weigh more than others. For example, a software developer might have a hacker as their primary threat, but beyond that they would also want privacy from the websites they visit and so on. Likewise, an average Joe may have mass surveillance programs and service provider data access as their primary threat, but beyond that they also need to have decent security to prevent malware from stealing their data.
 
@@ -97,12 +98,18 @@ Despite growing mass surveillance in the United States, the government has found
 
 Tracking and surveillance by private corporations is a growing concern for many as well. Massive ad networks operated by Google and Facebook span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like adblockers to block network requests to their servers, and reading privacy policies of the services you use to ensure your data isn't being used or shared for marketing purposes are some effective things you can do to avoid the misuse of your data.
 
-[^1]: ACLU [The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)
-[^2]: United States Privacy and Civil Liberties Oversight Board: [Report on the Telephone Records Program Conducted under Section 215](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
-[^3]: Wikipedia: [Surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-
 ## Limiting Public Information
 
 <span class="pg-green" title="Protects your data from being publicly accessible">:material-account-search: Public Exposure</span>
 
 The best way to ensure your data is private is to simply not put it out there in the first place. Deleting information you can find about yourself online is one of the best first steps you can take to regain your privacy. On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, if your accounts have a "private mode", enable it to make sure your account isn't being indexed by search engines and can't be viewed by people you don't vet beforehand.
+
+## Avoiding Censorship
+
+<span class="pg-blue-gray" title="Protects you from state or corporate censorship">:material-close-outline: Censorship</span>
+
+Censorship online can be carried out by totalitarian governments,
+
+[^1]: ACLU [The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)
+[^2]: United States Privacy and Civil Liberties Oversight Board: [Report on the Telephone Records Program Conducted under Section 215](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
+[^3]: Wikipedia: [Surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)
