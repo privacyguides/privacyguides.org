@@ -52,10 +52,15 @@ Mass surveillance is typically service providers working together, sharing user 
 In order to solve this problem, the user needs segregation of their online identities, to blend in with other users, and to not give out their real information as much as possible.
 
 Here are the most common avenues in which the user can be tracked and their potential solution:
+
 - IP based tracking: This can be solved by using a VPN or Tor. Both solutions will help you blend in with other users using the same VPN provider or Tor network, and thus making IP based tracking useless. Do note that when you use a VPN provider, you are only protected from service providers other than the VPN providers from tracking you, as a VPN provider can see which sites you are visiting.
+
 - Cross site cookie based tracking: Most modern browsers have an option to block third party cookies which will thrwat this threat. All you need to do is enable it.
+
 - Persistent tracking using cookies and site data: Clearing your cookies and site data upon exiting the browser will prevent this type of tracking.
+
 - Cross site tracking using user submitted data: Use email aliases, secondary phone numbers, and lie about your real information (name, birthday, "security" questions) whenever possible. If you have already submitted your real information to various different sites, employ disinformation and submitted various fake information related to the same online identity and make your real information indistinguishable from the fake one. 
+
 - Tracking using payment method: Use virtual cards (preferably from your bank if they support it), prepaid cards, giftcards, cryptocurrencies, etc.
 
 Instead of relying on privacy policies (which are practically pinky promises that could be violated), try to obfuscate your information in such a way that it is very difficult for different providers to correlate data with each other and build a profile on you.
