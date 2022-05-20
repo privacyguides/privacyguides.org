@@ -49,7 +49,7 @@ Thankfully, end-to-end encryption can alleviate this issue by encrypting communi
 
     On the other hand, web based end-to-end encryption implementations such as ProtonMail's webmail or Bitwarden's web vault rely on the server dynamically serving Javascript code to the browser to handle cryptographic operations. A malicious server could target a specific user and send them malicious Javascript code to steal their encryption key, and it would be extremely hard for the user to ever notice such a thing. Even if the user does notice the attempt to steal their key, it would be incredibly hard to prove that it is the provider trying to do so, because the server can choose to serve different web clients to different users. 
 
-    Therefore, whenever possible you should choose to use native applications which implement end-to-end encryption rather than web clients.
+    Therefore, to protect the confidentiality of your data from the service provider, use an end to end encryption implementation that does not rely on web clients.
 
 Even with end-to-end encryption, service providers can still profile you based on **metadata**, which is not typically protected. While the service provider could not read your messages to see what you're saying, they can still observe things like who you're talking to, how often you message them, and what times you're typically active. Protection of metadata is fairly uncommon, and you should pay close attention to the technical documentation of the software you are using to see if there is any metadata reduction or protection at all, if that is a concern for you.
 
