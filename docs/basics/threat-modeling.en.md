@@ -29,7 +29,7 @@ Some of these threats may weigh more than others. For example, a software develo
 
 <span class="pg-purple" title="Protects your activities from being tied to your real-life identity">:fontawesome-solid-user-secret: Anonymity</span>
 
-Anonymity is often confused for privacy, but it's a distinct concept. While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real-life identity.
+Anonymity is often confused for privacy, but it's a distinct concept. While privacy is a set of choices you make about how your data is used and shared, anonymity is eliminating any trace of your identity on the internet.
 
 Whistleblowers and journalists, for example, can have a much more extreme threat model requiring total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by hackers or governments, but also hiding who they are entirely. They will sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, as their lives could depend on it. Most regular people do not need to go so far.
 
@@ -98,3 +98,13 @@ Bare in mind that companies can hide their ownership or or share your informatio
 ## Limiting Public Information
 
 The best way to ensure your data is private is to simply not put it out there in the first place. Deleting information you can find about yourself online is one of the best first steps you can take to regain your privacy. Use email aliases, secondary phone numbers, and lie about your real information (name, birthday, "security" questions) whenever possible. If you have already submitted your real information to various different sites, employ disinformation and submitted various fake information related to the same online identity and make your real information indistinguishable from the fake one.
+
+## Bad Practices
+
+As a beginner, you may often fall into some bad practices while making a threat model. These include:
+
+- Solely focusing on advertising networks instead of service providers as a whole
+- Heavy reliance on badness enumeration for privacy instead of systematically solving the problem
+- Blindly trusting open source software
+- Heavy reliance on privacy policies
+- Blindly shifting trust from one service provider to another
