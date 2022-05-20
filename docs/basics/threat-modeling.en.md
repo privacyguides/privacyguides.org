@@ -37,7 +37,6 @@ Whistleblowers and journalists, for example, can have a much more extreme threat
 ## Privacy From Service Providers
 
 <span class="pg-teal" title="Protects your data from being readable by your service provider">:material-server-network: Service Providers</span> ·
-<span class="pg-brown" title="Protects you from big tech companies and advertising network tracking">:material-advertisements: AdTech Tracking</span>
 
 We live in a world where almost everything is connected to the internet. Our "private" messages, emails, social interactions are typilically stored on a server somewhere. Generally, when you send someone a message, that message is then stored on a server, and when your friend wants to read the message, the server will show it to them.
 
@@ -53,8 +52,5 @@ Thankfully, we could use end to end encryption to eliviate this issue. In a typi
 ## Mass Surveillance Programs
 
 <span class="pg-blue" title="Protects you from mass surveillance programs">:material-eye-outline: Mass Surveillance</span> ·
-<span class="pg-brown" title="Protects you from big tech companies and advertising network tracking">:material-advertisements: AdTech Tracking</span>
 
 ## Limiting Public Information
-
-<span class="pg-green" title="Protects your data from being publicly accessible">:material-account-search: Public Exposure</span>
