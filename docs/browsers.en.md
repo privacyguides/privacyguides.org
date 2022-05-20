@@ -36,7 +36,7 @@ These are our currently recommended web browsers and configurations. In general,
 
 ### Firefox
 
-<span class="pg-brown" title="Protects you from big tech companies and advertising network tracking">:material-advertisements: AdTech Tracking</span>
+<span class="pg-brown" title="Protects you from advertising network tracking">:material-advertisements: AdTech Tracking</span>
 
 !!! recommendation
 
@@ -112,7 +112,7 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
 ### Brave
 
 <span class="pg-orange" title="Protects you from malware and other untargeted attacks">:material-bug-outline: Untargeted Attacks</span> ·
-<span class="pg-brown" title="Protects you from big tech companies and advertising network tracking">:material-advertisements: AdTech Tracking</span>
+<span class="pg-brown" title="Protects you from advertising network tracking">:material-advertisements: AdTech Tracking</span>
 
 !!! recommendation
 
@@ -219,7 +219,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 ### Bromite
 
 <span class="pg-orange" title="Protects you from malware and other untargeted attacks">:material-bug-outline: Untargeted Attacks</span> ·
-<span class="pg-brown" title="Protects you from big tech companies and advertising network tracking">:material-advertisements: AdTech Tracking</span>
+<span class="pg-brown" title="Protects you from advertising network tracking">:material-advertisements: AdTech Tracking</span>
 
 !!! recommendation
 
@@ -253,7 +253,7 @@ This prevents you from unintentionally connecting to a website in plain-text HTT
 
 ### Safari
 
-<span class="pg-brown" title="Protects you from big tech companies and advertising network tracking">:material-advertisements: AdTech Tracking</span>
+<span class="pg-brown" title="Protects you from advertising network tracking">:material-advertisements: AdTech Tracking</span>
 
 !!! recommendation
 
@@ -315,7 +315,7 @@ We generally do not recommend installing any extensions as they increase your at
 
 ### uBlock Origin
 
-<span class="pg-brown" title="Protects you from big tech companies and advertising network tracking">:material-advertisements: AdTech Tracking</span>
+<span class="pg-brown" title="Protects you from advertising network tracking">:material-advertisements: AdTech Tracking</span>
 
 !!! recommendation
 
@@ -339,7 +339,7 @@ uBlock Origin is also a Mozilla :trophy: [Recommended Extension](https://support
 
 ### AdGuard for Safari
 
-<span class="pg-brown" title="Protects you from big tech companies and advertising network tracking">:material-advertisements: AdTech Tracking</span>
+<span class="pg-brown" title="Protects you from advertising network tracking">:material-advertisements: AdTech Tracking</span>
 
 !!! recommendation
 

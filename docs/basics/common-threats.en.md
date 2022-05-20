@@ -10,7 +10,7 @@ Broadly speaking, we categorize our recommendations into seven categories of thr
 - <span class="pg-orange" title="Protects you from malware and other passive attacks">:material-bug-outline: Passive Attacks</span> - Using tools which protect you from things like malware, data breaches, and other attacks that are made against many people at once.
 - <span class="pg-teal" title="Protects your data from being readable by your service provider">:material-server-network: Service Providers</span> - Using tools which protect your data from service providers, e.g. with end-to-end encryption rendering your data unreadable to the server.
 - <span class="pg-blue" title="Protects you from mass surveillance programs">:material-eye-outline: Mass Surveillance</span> - Using tools that protect you from government agencies, organizations, websites, and services working together to track your activities.
-- <span class="pg-brown" title="Protects you from big tech companies and advertising network tracking">:material-advertisements: AdTech Tracking</span> - Related to both service providers and mass surveillance programs, you may wish to use tools which protect you from Big Tech companies or Advertising Networks specifically, although non-commercial/governmental surveillance programs can still be more pervasive.
+- <span class="pg-brown" title="Protects you from advertising network tracking">:material-advertisements: AdTech Tracking</span> - Related to both service providers and mass surveillance programs, you may wish to use tools which protect you from big advertising networks like Google and Facebook specifically, although non-commercial/governmental surveillance programs can still be more pervasive.
 - <span class="pg-green" title="Protects your data from being publicly accessible">:material-account-search: Public Exposure</span> - Limiting the information about you online that is accessible to search engines or the general public.
 
 Some of these threats may weigh more than others. For example, a software developer might have a hacker as their primary threat, but beyond that they would also want privacy from the websites they visit and so on. Likewise, an average Joe may have mass surveillance programs and service provider data access as their primary threat, but beyond that they also need to have decent security to prevent malware from stealing their data.
@@ -82,6 +82,10 @@ Mass surveillance refers to organizations and sometimes governments working toge
 - Payment method correlation
 
 Therefore your goals could be to segregate your online identities from each other, to blend in with other users, and simply to avoid giving out identifying information to anyone as much as possible.
+
+<span class="pg-brown" title="Protects you from advertising network tracking">:material-advertisements: AdTech Tracking</span>
+
+A subset of this many people are concerned about is tracking by the advertising industry. Massive ad networks operated by Google and Facebook span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like adblockers to block network requests to their servers, and reading privacy policies of the services you use to ensure your data isn't being used or shared for marketing purposes are some effective things you can do to avoid the misuse of your data.
 
 ## Limiting Public Information
 
