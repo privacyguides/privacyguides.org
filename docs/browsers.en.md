@@ -8,9 +8,6 @@ These are our currently recommended web browsers and configurations. In general,
 
 ### Tor Browser
 
-<span class="pg-purple" title="Protects your activities from being tied to your real-life identity">:fontawesome-solid-user-secret: Anonymity</span> ·
-<span class="pg-blue" title="Protects you from mass surveillance programs">:material-eye-outline: Mass Surveillance</span>
-
 !!! recommendation
 
     ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
@@ -35,8 +32,6 @@ These are our currently recommended web browsers and configurations. In general,
 ## Desktop Recommendations
 
 ### Firefox
-
-<span class="pg-brown" title="Protects you from advertising network tracking">:material-advertisements: AdTech Tracking</span>
 
 !!! recommendation
 
@@ -110,9 +105,6 @@ This prevents you from unintentionally connecting to a website in plain-text HTT
 The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly - [which you can easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users) support.
 
 ### Brave
-
-<span class="pg-orange" title="Protects you from malware and other untargeted attacks">:material-bug-outline: Untargeted Attacks</span> ·
-<span class="pg-brown" title="Protects you from advertising network tracking">:material-advertisements: AdTech Tracking</span>
 
 !!! recommendation
 
@@ -218,9 +210,6 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 ### Bromite
 
-<span class="pg-orange" title="Protects you from malware and other untargeted attacks">:material-bug-outline: Untargeted Attacks</span> ·
-<span class="pg-brown" title="Protects you from advertising network tracking">:material-advertisements: AdTech Tracking</span>
-
 !!! recommendation
 
     ![Bromite logo](assets/img/browsers/bromite.svg){ align=right }
@@ -252,8 +241,6 @@ This prevents you from unintentionally connecting to a website in plain-text HTT
 - [x] Select **Open external links in incognito**
 
 ### Safari
-
-<span class="pg-brown" title="Protects you from advertising network tracking">:material-advertisements: AdTech Tracking</span>
 
 !!! recommendation
 
@@ -315,8 +302,6 @@ We generally do not recommend installing any extensions as they increase your at
 
 ### uBlock Origin
 
-<span class="pg-brown" title="Protects you from advertising network tracking">:material-advertisements: AdTech Tracking</span>
-
 !!! recommendation
 
     ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }
@@ -338,8 +323,6 @@ We suggest leaving the extension in its default configuration. Additional filter
 uBlock Origin is also a Mozilla :trophy: [Recommended Extension](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions). Recommended extensions are manually reviewed by Mozilla staff security experts to ensure they meet the highest standards of security, functionality, and user experience.
 
 ### AdGuard for Safari
-
-<span class="pg-brown" title="Protects you from advertising network tracking">:material-advertisements: AdTech Tracking</span>
 
 !!! recommendation
 
@@ -387,8 +370,6 @@ You can enable Snowflake in your browser by clicking the switch below and ==leav
 <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
 
 ### Terms of Service; Didn't Read
-
-<span class="pg-green" title="Protects your data from being publicly accessible">:material-account-search: Public Exposure</span>
 
 !!! recommendation
 
