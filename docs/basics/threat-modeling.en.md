@@ -25,27 +25,27 @@ To identify what could happen to the things you value and determine from whom yo
 
 ### Example: Protecting your belongings
 
-* To demonstrate how these questions work, let's build a plan to keep your house and possessions safe.
+To demonstrate how these questions work, let's build a plan to keep your house and possessions safe.
 
-#### What do you want to protect? (Or, *what do you have that is worth protecting?*)
+**What do you want to protect? (Or, *what do you have that is worth protecting?*)**
 
-* Your assets might include jewelry, electronics, important documents, or photos.
+:   Your assets might include jewelry, electronics, important documents, or photos.
 
-#### Who do you want to protect it from?
+**Who do you want to protect it from?**
 
-* Your adversaries might include burglars, roommates, or guests.
+:   Your adversaries might include burglars, roommates, or guests.
 
-#### How likely is it that you will need to protect it?
+**How likely is it that you will need to protect it?**
 
-* Does your neighborhood have a history of burglaries? How trustworthy are your roommates/guests? What are the capabilities of your adversaries? What are the risks you should consider?
+:   Does your neighborhood have a history of burglaries? How trustworthy are your roommates/guests? What are the capabilities of your adversaries? What are the risks you should consider?
 
-#### How bad are the consequences if you fail?
+**How bad are the consequences if you fail?**
 
-* Do you have anything in your house that you cannot replace? Do you have the time or money to replace these things? Do you have insurance that covers goods stolen from your home?
+:   Do you have anything in your house that you cannot replace? Do you have the time or money to replace these things? Do you have insurance that covers goods stolen from your home?
 
-#### How much trouble are you willing to go through to prevent these consequences?
+**How much trouble are you willing to go through to prevent these consequences?**
 
-* Are you willing to buy a safe for sensitive documents? Can you afford to buy a high-quality lock? Do you have time to open a security box at your local bank and keep your valuables there?
+:   Are you willing to buy a safe for sensitive documents? Can you afford to buy a high-quality lock? Do you have time to open a security box at your local bank and keep your valuables there?
 
 Only once you have asked yourself these questions will you be in a position to assess what measures to take. If your possessions are valuable, but the probability of a break-in is low, then you may not want to invest too much money in a lock. But, if the probability of a break-in is high, you'll want to get the best lock on the market, and consider adding a security system.
 
@@ -95,17 +95,12 @@ For example, an attorney representing a client in a national security case may b
 
 *Write down what options you have available to you to help mitigate your unique threats. Note if you have any financial constraints, technical constraints, or social constraints.*
 
-<div class="row">
-  <div class="col-12 col-lg-6">
-    <h2>Further reading</h2>
-    <ul>
-      <li><a href="https://en.wikipedia.org/wiki/Threat_model">Wikipedia: Threat model</a></li>
-    </ul>
-  </div>
-  <div class="col-12 col-lg-6">
-    <h2>Sources</h2>
-    <ul>
-      <li><a href="https://ssd.eff.org/en/module/your-security-plan">EFF Surveillance Self Defense: Your Security Plan</a></li>
-    </ul>
-  </div>
-</div>
+## Further reading
+
+For people looking to increase their privacy and security online, we've compiled a list of common threats our visitors face or goals our visitors have, to give you some inspiration and demonstrate the basis of our recommendations. [Common Threats :material-arrow-right:](common-threats.md)
+
+- [Wikipedia: Threat model](https://en.wikipedia.org/wiki/Threat_model)
+
+## Sources
+
+- [EFF Surveillance Self Defense: Your Security Plan](https://ssd.eff.org/en/module/your-security-plan)
