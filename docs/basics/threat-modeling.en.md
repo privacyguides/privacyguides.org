@@ -9,8 +9,6 @@ icon: 'material/eye-outline'
 
 By focusing on the threats that matter to you, this narrows down your thinking about the protection you need, so you can choose the tools that are right for the job.
 
-Broadly speaking, we categorize our recommendations into four categories of threats or goals that apply to most people. You may be concerned with one, a few, or all of these possibilities, and the tools and services you use depends on what your goals are. You may also have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortfallings of the tools you choose to use, because virtually none of them will protect you from every threat imaginable.
-
 
 ## Defining a threat
 
@@ -18,13 +16,14 @@ To make a threat model, we must first define a threat. A common mistake made by 
 
 Why are we not trusting "big-tech companies", but then shift our trust to "small-tech companies"? What happens if those "small-tech companies" turn out to be malicious? What happens when our favorite "small-tech company" becomes successful and grow exponentially? The proper way to define the threat here is the "service provider", not "big-tech".
 
+Broadly speaking, there are four primary threats concerning an average user. You may be concerned with one, a few, or all of these possibilities, and the tools and services you use depends on what your goals are. You may also have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortfallings of the tools you choose to use, because virtually none of them will protect you from every threat imaginable.
 
-- <span class="pg-red" title="Protects you from malicious agents targeting you specifically">:material-target-account: Targeted Attacks</span> - Using tools which protect you from dedicated hackers or other malicious agents trying to gain access to *your* data or devices specifically.
-- <span class="pg-orange" title="Protects you from malware and other untargeted attacks">:material-bug-outline: Untargeted Attacks</span> - Using tools which protect you from things like malware, phishing campaigns, and other attacks that are made against many people at once.
-- <span class="pg-teal" title="Protects your data from being readable by your service provider">:material-server-network: Service Providers</span> - Using tools which protect your data from service providers, e.g. with end-to-end encryption rendering your data unreadable to the server.
-- <span class="pg-blue" title="Protects you from mass surveillance programs">:material-eye-outline: Mass Surveillance</span> - Using tools that protect you from government agencies, organizations, websites, and services working together to track your activities.
+- <span class="pg-red">:material-target-account: Targeted Attacks</span> - An adversary specifically targetting a user to steal their data or persistently spy on them.
+- <span class="pg-orange">:material-bug-outline: Mass Malware Attacks</span> - An adversary spreading malware to the masses, turning infected devices to part of a botnet or stealing user data at scale.
+- <span class="pg-teal">:material-server-network: Service Providers</span> - Service providers spying on users using data submitted to their platforms
+- <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> -  Websites and services working together to track the user across the internet.
 
-Some of these threats may weigh more than others. For example, a software developer might have a hacker as their primary threat, but beyond that they would also want privacy from the websites they visit and so on. Likewise, an average Joe may have mass surveillance programs and service provider data access as their primary threat, but beyond that they also need to have decent security to prevent malware from stealing their data.
+Some of these threats may weigh more than others. For example, a software developer might have targetted attacks as their primary threat, but beyond that they would also want privacy from the websites they visit and so on. Likewise, an average Joe may have mass surveillance programs and service provider data access as their primary threat, but beyond that they also need to have decent security to prevent malware from stealing their data.
 
 ## Anonymity vs Privacy
 
