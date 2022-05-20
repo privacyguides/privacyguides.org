@@ -27,8 +27,6 @@ Some of these threats may weigh more than others. For example, a software develo
 
 ## Anonymity vs Privacy
 
-<span class="pg-purple" title="Protects your activities from being tied to your real-life identity">:fontawesome-solid-user-secret: Anonymity</span>
-
 Anonymity is often confused for privacy, but it's a distinct concept. While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real-life identity.
 
 Whistleblowers and journalists, for example, can have a much more extreme threat model requiring total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by hackers or governments, but also hiding who they are entirely. They will sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, as their lives could depend on it. Most regular people do not need to go so far.
@@ -74,6 +72,6 @@ To minimize the potential damage that a malicious piece of software can do, empl
 
 Mobile operating systems are generally safer than desktop operating systems when it comes to application sandboxing. On iOS and Android, apps practically cannot access things you do not grant them access to, and a user installed app cannot elevate its permission to use admin/root permission.
 
-With desktop operating systems, ChromeOS has the best applicaiton sandbox, followed by macOS. On ChromeOS, apps are strictly confined as if they were on Android (except Linux applications which are not isolated from each other inside of the same Crostini container). 
+With desktop operating systems, ChromeOS has the best application sandbox, followed by macOS. On ChromeOS, apps are strictly confined as if they were on Android (except Linux applications which are not isolated from each other inside of the same Crostini container). On macOS, the application is opt-in, however, even apps not using the sandbox still have to play by the rules of the permission system. The downside with these operating systems is that they do collect your hardware ID, and often force you to sign in with an online account (in the case of ChromeOS) or coerece you into doing so (in the case of macOS). Linux on the other hand, has poor protection again malicious or vulnerable application, however, they do tend to respect your wish to not submit any information to the developers.
 
 ## Privacy Theatre
