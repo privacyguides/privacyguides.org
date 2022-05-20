@@ -90,7 +90,7 @@ Targeted attacks against a specific user is the most problematic one to deal wit
 ## Privacy Theatre
 As a beginner, it is very easy to fall into the trap of implementing solutions that don't actually do anything much for privacy and getting a false sense of security. Sometimes, this might even lead the user into doing things that are harmful for their actual privacy and security. Here are some common privacy theatre that you should be aware of:
 
-* Anti Big Tech mentality.
+* Anti Big-Tech mentality: As explained at the beginning of this page, big companies are not inherently bad, and small companies are not inherently good. Corporations are amoral entities, and sometimes their business interest align with the interest of the users, sometimes they do not. It is vital that you analyze their products and services on a case by case basis, and if there is something you do not like, try to define the root cause of the problem before looking for an alternative. For example, you may not like Google Drive because Google themselves have access to all of your files. The problem here is the lack of encryption, and thus you should be using something like Cryptomator to encrypt your files before uploading them to Google Drive, or use a provider that offers end to end encryption like ProtonDrive. Blindly switching from Google Drive to a random Nextcloud host without end to end encryption does not help. Likewise, you may not like Facebook for profiling your pictures or posts that you post publicly. The only viable solution to this problem is to stop posting your thoughts and photos publicly on the internet, not switching to the Fediverse and start doing the same thing all over again.
 
 * Badness enumeration.
 
