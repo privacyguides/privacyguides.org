@@ -108,7 +108,11 @@ The best way to ensure your data is private is to simply not put it out there in
 
 <span class="pg-blue-gray" title="Protects you from state or corporate censorship">:material-close-outline: Censorship</span>
 
-Censorship online can be carried out by totalitarian governments,
+Censorship online can be carried out to varying degrees by actors including totalitarian governments, network administrators, and service providers seeking to control the speech of their users and the information they can access. These efforts to filter the internet will always be incompatible with the ideals of free speech.
+
+Censorship on corporate platforms is increasingly common as platforms like Twitter and Facebook give in to public demand, market pressures, and pressures from government agencies. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video; or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
+
+People concerned with the threat of censorship can use technologies like Tor to circumvent it, and support platforms which provide censorship-resistant communication such as Matrix, which has no centralized account authority which can close down accounts arbitrarily.
 
 [^1]: ACLU [The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)
 [^2]: United States Privacy and Civil Liberties Oversight Board: [Report on the Telephone Records Program Conducted under Section 215](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
