@@ -25,7 +25,7 @@ Broadly speaking, there are four primary threats concerning an average user. You
 
 Some of these threats may weigh more than others. For example, a software developer might have targetted attacks as their primary threat, but beyond that they would also want privacy from the websites they visit and so on. Likewise, an average Joe may have mass surveillance programs and service provider data access as their primary threat, but beyond that they also need to have decent security to prevent malware from stealing their data.
 
-## Anonymity vs Privacy
+### Anonymity vs Privacy
 
 <span class="pg-purple" title="Protects your activities from being tied to your real-life identity">:fontawesome-solid-user-secret: Anonymity</span>
 
@@ -33,7 +33,7 @@ Anonymity is often confused for privacy, but it's a distinct concept. While priv
 
 Whistleblowers and journalists, for example, can have a much more extreme threat model requiring total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by hackers or governments, but also hiding who they are entirely. They will sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, as their lives could depend on it. Most regular people do not need to go so far.
 
-## Privacy From Service Providers
+### Privacy From Service Providers
 
 <span class="pg-teal" title="Protects your data from being readable by your service provider">:material-server-network: Service Providers</span>
 
@@ -53,7 +53,7 @@ Thankfully, end-to-end encryption can alleviate this issue by encrypting communi
 
 Even with end-to-end encryption, service providers can still profile you based on **metadata**, which is not typically protected. While the service provider could not read your messages to see what you're saying, they can still observe things like who you're talking to, how often you message them, and what times you're typically active. Protection of metadata is fairly uncommon, and you should pay close attention to the technical documentation of the software you are using to see if there is any metadata reduction or protection at all, if that is a concern for you.
 
-## Security and Privacy
+### Security and Privacy
 
 <span class="pg-orange" title="Protects you from malware and other passive attacks">:material-bug-outline: Passive Attacks</span>
 
@@ -79,7 +79,7 @@ Targeted attacks against a specific user are more problematic to deal with. Comm
 
 If you are concerned about **physical attacks** you should use an operating system with a verified boot implementation, such as Android, iOS, macOS, or ChromeOS. You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure Element for rate limiting attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems outside of ChromeOS do not encrypt data separately per-user.
 
-## Mass Surveillance
+### Mass Surveillance
 
 Mass surveillance refers to organizations and sometimes governments working together to share user data and track your activities across the internet. You can be tracked via a wide variety of methods, including but not limited to:
 
@@ -95,6 +95,6 @@ Instead of relying on privacy policies (which are promises that could be violate
 
 Bare in mind that if you define the threat as "the service provider" or "third party providers" and take proper precautions, all "Big-Tech" or "Ad-Tech" related threats are also thwarted, since they are only a subset of what you are protected against.
 
-## Limiting Public Information
+### Limiting Public Information
 
 The best way to ensure your data is private is to simply not put it out there in the first place. Deleting information you can find about yourself online is one of the best first steps you can take to regain your privacy. On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, if your accounts have a "private mode", enable it to make sure your account isn't being indexed by search engines and can't be viewed by people you don't vet beforehand.
