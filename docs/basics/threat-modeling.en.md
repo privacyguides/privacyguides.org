@@ -83,6 +83,8 @@ Targeted attacks against a specific user is the most problematic one to deal wit
 
 * Email client: The email client is another dangerous application to run, as an adversary can send malicious files to your address and the it will automatically download them to your computer. We highly recommended that you use a dedicated virtual machine for your email client, and if you are not using an email provider with zero access encryption, just use their webmail client.
 
-* Office applications: Office applications are often targetted for 
+* Office applications: Office applications are often targetted for various attacks, including malicious macros to exploits of vulnerabilities in the application's parser. Thus, it is highly recommended that you run your office applications inside of a virtual machine to open and edit your documents. Disposable virtual machines on QubesOS and Microsoft Defender Application Guard with Microsoft Office on Windows provide you with a convenient method of doing so.
+
+* Physical attacks: Use an operating system with verified boot implemented such as Android, iOS, macOS, and ChromeOS. Ideally, you should also make sure that your drive is encrypted, and that the operating system uses the TPM or Secure Element for rate limiting attempts to enter the encryption passphrase. If you have to share your computer with another user, ChromeOS is the only viable option for desktop, as it implements per user encryption keys. Set firmware passwords on your computer, and try not to leave your devices unattended.
 
 ## Privacy Theatre
