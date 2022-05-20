@@ -65,7 +65,7 @@ Here are the most common avenues in which the user can be tracked and their pote
 
 Instead of relying on privacy policies (which are promises that could be violated), try to obfuscate your information in such a way that it is very difficult for different providers to correlate data with each other and build a profile on you.
 
-### Mass malware attacks
+### Mass Malware Attacks
 Unfortunately, the reality is that we generally do not know if a certain piece of software that we use is malicious or would one day turn malicious or not. Even if assume the developers to be trustworthy, there is generally no guarantee that their software does not have a serious vulnerability that can be exploited.
 
 To minimize the potential damage that a malicious piece of software can do, employ security by compartmentalization. This could come in the form of using different computers for different jobs, using virtual machines groups of related applications, or use a secure operating system with an strong focus on application sandboxing and mandatory access control.
@@ -88,3 +88,10 @@ Targeted attacks against a specific user is the most problematic one to deal wit
 * Physical attacks: Use an operating system with verified boot implemented such as Android, iOS, macOS, and ChromeOS. Ideally, you should also make sure that your drive is encrypted, and that the operating system uses the TPM or Secure Element for rate limiting attempts to enter the encryption passphrase. If you have to share your computer with another user, ChromeOS is the only viable option for desktop, as it implements per user encryption keys. Set firmware passwords on your computer, and try not to leave your devices unattended.
 
 ## Privacy Theatre
+As a beginner, it is very easy to fall into the trap of implementing solutions that don't actually do anything much for privacy and getting a false sense of security. Sometimes, this might even lead the user into doing things that are harmful for their actual privacy and security. Here are some common privacy theatre that you should be aware of:
+
+* Anti Big Tech mentality.
+
+* Badness enumeration.
+
+* Open source = privacy & security.
