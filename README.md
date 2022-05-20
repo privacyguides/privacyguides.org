@@ -1,9 +1,11 @@
 <!-- markdownlint-disable MD041 -->
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/100533118/169622905-58b29d79-afde-4e60-b35a-2e308246beee.svg">
-    <img alt="Privacy Guides" width="500px" src="https://user-images.githubusercontent.com/100533118/169622923-38edf4b3-1960-48ab-b440-63cc149f1bec.svg">
-  </picture>
+  <a href="https://www.privacyguides.org/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/100533118/169622905-58b29d79-afde-4e60-b35a-2e308246beee.svg">
+      <img alt="Privacy Guides" width="500px" src="https://user-images.githubusercontent.com/100533118/169622923-38edf4b3-1960-48ab-b440-63cc149f1bec.svg">
+    </picture>
+  </a>
 
   <p><em>Your central privacy and security resource to protect yourself online.</em></p>
 
