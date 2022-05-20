@@ -5,19 +5,19 @@ icon: 'material/eye-outline'
 
 Broadly speaking, we categorize our recommendations into seven categories of threats or goals that apply to most people. You may be concerned with one, a few, or all of these possibilities, and the tools and services you use depends on what your goals are. You may also have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortfallings of the tools you choose to use, because virtually none of them will protect you from every threat imaginable.
 
-- <span class="pg-purple" title="Protects your activities from being tied to your real-life identity">:fontawesome-solid-user-secret: Anonymity</span> - Shielding your online activity from your real-life identity, protecting you from people who are trying to uncover your identity specifically.
+- <span class="pg-purple" title="Protects your activities from being tied to your real-life identity">:material-incognito: Anonymity</span> - Shielding your online activity from your real-life identity, protecting you from people who are trying to uncover your identity specifically.
 - <span class="pg-red" title="Protects you from malicious agents targeting you specifically">:material-target-account: Targeted Attacks</span> - Being protected  from dedicated hackers or other malicious agents trying to gain access to *your* data or devices specifically.
 - <span class="pg-orange" title="Protects you from malware and other passive attacks">:material-bug-outline: Passive Attacks</span> - Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
 - <span class="pg-teal" title="Protects your data from being readable by your service provider">:material-server-network: Service Providers</span> - Protecting your data from service providers, e.g. with end-to-end encryption rendering your data unreadable to the server.
-- <span class="pg-blue" title="Protects you from mass surveillance programs">:material-eye-outline: State Surveillance</span> - Protection from government agencies, organizations, websites, and services working together to track your activities.
-- <span class="pg-brown" title="Protects you from third-party tracking networks">:material-advertisements: Corporate Tracking</span> - Protecting yourself from big advertising networks like Google and Facebook, as well as a myriad of other third-party trackers.
+- <span class="pg-blue" title="Protects you from state mass surveillance programs">:material-eye-outline: State Surveillance</span> - Protection from government agencies, organizations, websites, and services working together to track your activities.
+- <span class="pg-brown" title="Protects you from third-party tracking networks">:material-account-cash: Surveillance Capitalism</span> - Protecting yourself from big advertising networks like Google and Facebook, as well as a myriad of other third-party trackers.
 - <span class="pg-green" title="Protects your data from being publicly accessible">:material-account-search: Public Exposure</span> - Limiting the information about you online that is accessible to search engines or the general public.
 
 Some of these threats may weigh more than others. For example, a software developer might have a hacker as their primary threat, but beyond that they would also want privacy from the websites they visit and so on. Likewise, an average Joe may have mass surveillance programs and service provider data access as their primary threat, but beyond that they also need to have decent security to prevent malware from stealing their data.
 
 ## Anonymity vs Privacy
 
-<span class="pg-purple" title="Protects your activities from being tied to your real-life identity">:fontawesome-solid-user-secret: Anonymity</span>
+<span class="pg-purple" title="Protects your activities from being tied to your real-life identity">:material-incognito: Anonymity</span>
 
 Anonymity is often confused for privacy, but it's a distinct concept. While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real-life identity.
 
@@ -71,9 +71,9 @@ If you are concerned about **physical attacks** you should use an operating syst
 
 ## Mass Surveillance Programs
 
-<span class="pg-blue" title="Protects you from mass surveillance programs">:material-eye-outline: Mass Surveillance</span>
+Mass surveillance is the surveillance of many or all of a population to monitor that group of citizens. It often refers to government programs such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)), however it can also be carried out by corporations, either on behalf of government agencies or by their own initiative. 
 
-Mass surveillance refers to organizations and sometimes governments working together to share user data and track your activities across the internet. You can be tracked via a wide variety of methods, including but not limited to:
+Online, you can be tracked via a wide variety of methods, including but not limited to:
 
 - Your IP address
 - Browser cookies
@@ -83,9 +83,17 @@ Mass surveillance refers to organizations and sometimes governments working toge
 
 Therefore your goals could be to segregate your online identities from each other, to blend in with other users, and simply to avoid giving out identifying information to anyone as much as possible.
 
-<span class="pg-brown" title="Protects you from advertising network tracking">:material-advertisements: AdTech Tracking</span>
+<span class="pg-blue" title="Protects you from state mass surveillance programs">:material-eye-outline: State Surveillance</span>
 
-A subset of this many people are concerned about is tracking by the advertising industry. Massive ad networks operated by Google and Facebook span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like adblockers to block network requests to their servers, and reading privacy policies of the services you use to ensure your data isn't being used or shared for marketing purposes are some effective things you can do to avoid the misuse of your data.
+TODO
+
+<span class="pg-brown" title="Protects you from third-party tracking networks">:material-account-cash: Surveillance Capitalism</span>
+
+> Surveillance capitalism is an economic system centered around the capture and commodification of personal data for the core purpose of profit-making.[^1]
+
+[^1]: Wikipedia: [Surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)
+
+Tracking and surveillance by private corporations is a growing concern for many as well. Massive ad networks operated by Google and Facebook span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like adblockers to block network requests to their servers, and reading privacy policies of the services you use to ensure your data isn't being used or shared for marketing purposes are some effective things you can do to avoid the misuse of your data.
 
 ## Limiting Public Information
 
