@@ -97,7 +97,7 @@ For example, an attorney representing a client in a national security case may b
 
 ## Further reading
 
-For people looking to increase their privacy and security online, we've compiled a list of common threats our visitors face or goals our visitors have, to give you some inspiration and demonstrate the basis of our recommendations. [Common Threats :material-arrow-right:](common-threats.md)
+For people looking to increase their privacy and security online, we've compiled a list of common threats our visitors face or goals our visitors have, to give you some inspiration and demonstrate the basis of our recommendations. [Common Goals and Threats :material-arrow-right:](common-goals.md)
 
 - [Wikipedia: Threat model](https://en.wikipedia.org/wiki/Threat_model)
 

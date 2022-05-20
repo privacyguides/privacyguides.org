@@ -1,9 +1,9 @@
 ---
-title: "Common Threats"
+title: "Common Goals"
 icon: 'material/eye-outline'
 ---
 
-Broadly speaking, we categorize our recommendations into these general categories of threats or goals that apply to most people. You may be concerned with one, a few, or all of these possibilities, and the tools and services you use depends on what your goals are. You may also have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortfallings of the tools you choose to use, because virtually none of them will protect you from every threat imaginable.
+Broadly speaking, we categorize our recommendations into these general categories of threats or goals that apply to most people. ==You may be concerned with one, a few, or all of these possibilities==, and the tools and services you use depends on what your goals are. You may also have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortfallings of the tools you choose to use, because virtually none of them will protect you from every threat imaginable.
 
 - <span class="pg-purple" title="Protects your activities from being tied to your real-life identity">:material-incognito: Anonymity</span> - Shielding your online activity from your real-life identity, protecting you from people who are trying to uncover your identity specifically.
 - <span class="pg-red" title="Protects you from malicious agents targeting you specifically">:material-target-account: Targeted Attacks</span> - Being protected  from dedicated hackers or other malicious agents trying to gain access to *your* data or devices specifically.
