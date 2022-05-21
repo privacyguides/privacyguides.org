@@ -88,13 +88,15 @@ Therefore your goals could be to segregate your online identities from each othe
 
 Governments often cite mass surveillance programs as necessary to combat terrorism and prevent crime, however it is most often used to disproportionately target minorities, political dissidents, and many other groups to create a chilling effect on free speech.
 
-> In the face of [Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. This kind of information, when amassed by the NSA day after day, can reveal incredibly sensitive details about people’s lives and associations, such as whether they have called a pastor, an abortion provider, an addiction counselor, or a suicide hotline.[^1]
+!!! quote "ACLU: [The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
 
-Despite growing mass surveillance in the United States, the government has found that mass surveillance programs like Section 215 have had "little unique value" with respect to stopping actual crimes or terrorist plots, with efforts largely duplicating the FBI's own targeted surveillance programs.[^2]
+    In the face of [Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. This kind of information, when amassed by the NSA day after day, can reveal incredibly sensitive details about people’s lives and associations, such as whether they have called a pastor, an abortion provider, an addiction counselor, or a suicide hotline.
+
+Despite growing mass surveillance in the United States, the government has found that mass surveillance programs like Section 215 have had "little unique value" with respect to stopping actual crimes or terrorist plots, with efforts largely duplicating the FBI's own targeted surveillance programs.[^1]
 
 <span class="pg-brown" title="Protects you from third-party tracking networks">:material-account-cash: Surveillance Capitalism</span>
 
-> Surveillance capitalism is an economic system centered around the capture and commodification of personal data for the core purpose of profit-making.[^3]
+> Surveillance capitalism is an economic system centered around the capture and commodification of personal data for the core purpose of profit-making.[^2]
 
 Tracking and surveillance by private corporations is a growing concern for many as well. Massive ad networks operated by Google and Facebook span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like adblockers to block network requests to their servers, and reading privacy policies of the services you use to ensure your data isn't being used or shared for marketing purposes are some effective things you can do to avoid the misuse of your data.
 
@@ -128,6 +130,5 @@ People concerned with the threat of censorship can use technologies like Tor to 
 
 You must always consider the risks involved with trying to bypass censorship, what the potential consequences are, and how sophistcated your adversary may be. Be extra cautious with your software selection, and have a back up plan in case you are caught.
 
-[^1]: ACLU: [The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)
-[^2]: United States Privacy and Civil Liberties Oversight Board: [Report on the Telephone Records Program Conducted under Section 215](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
-[^3]: Wikipedia: [Surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)
+[^1]: United States Privacy and Civil Liberties Oversight Board: [Report on the Telephone Records Program Conducted under Section 215](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
+[^2]: Wikipedia: [Surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)
