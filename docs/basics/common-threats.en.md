@@ -46,7 +46,7 @@ Targeted attacks against a specific user are more problematic to deal with. Comm
 
 !!! tip
 
-    **Web browsers**, **email clients**, and **office applications** all typically run untrusted code sent to you from third-parties by design. Running multiple virtual machines separating applications like these from your main system and each other is one technique you can use to avoid an exploit in these applications from gaining access to the rest of your system. Technologies like Qubes OS or Microsoft Defender Application Guard on Windows provide convenient methods to seamlessly do this, for example.
+    **Web browsers**, **email clients**, and **office applications** all typically run untrusted code sent to you from third-parties by design. Running multiple virtual machines to separate applications like these from your host system as well as each other is one technique you can use to avoid an exploit in these applications from compromising the rest of your system. Technologies like Qubes OS or Microsoft Defender Application Guard on Windows provide convenient methods to do this seamlessly, for example.
 
 If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, or macOS. You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure Element for rate limiting attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems do not encrypt data separately per-user.
 
@@ -56,9 +56,9 @@ If you are concerned about **physical attacks** you should use an operating syst
 
 We live in a world where almost everything is connected to the internet. Our "private" messages, emails, social interactions are typically stored on a server somewhere. Generally, when you send someone a message, that message is then stored on a server, and when your friend wants to read the message, the server will show it to them.
 
-The obvious problem with this is that the service provider (or a hacker who has compromised the server) can look into your "private" conversations whenever and however they want to do it, without you ever knowing. This applies to many common services like SMS messaging, Telegram, Discord, and so on.
+The obvious problem with this is that the service provider (or a hacker who has compromised the server) can look into your "private" conversations whenever and however they want, without you ever knowing. This applies to many common services like SMS messaging, Telegram, Discord, and so on.
 
-Thankfully, end-to-end encryption can alleviate this issue by encrypting communications between parties before they are even sent to the server. The confidentiality of their messages are guaranteed, so long as the service provider does not have access to the user's private key.
+Thankfully, end-to-end encryption can alleviate this issue by encrypting communications between you and your desired recipients before they are even sent to the server. The confidentiality of your messages is guaranteed, so long as the service provider does not have access to yours or your recipient's keys.
 
 ??? note "Note on web-based encryption"
 
