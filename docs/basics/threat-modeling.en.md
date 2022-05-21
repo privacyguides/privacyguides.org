@@ -61,7 +61,7 @@ To minimize the potential damage that a malicious piece of software can do, you 
 
     Mobile operating systems are generally safer than desktop operating systems when it comes to application sandboxing. Apps cannot obtain root access and only have access to system resources which you grant them.
 
-    Desktop operating systems generally lag behind on proper sandboxing. ChromeOS has similar sandboxing properties to Android, and macOS has app permission control and opt-in (for developers) sandboxing; however, these operating systems transmit identifying information to their respective vendor. Traditional Linux desktop tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make heavy use of VMs or containers, such as QubesOS.
+    Desktop operating systems generally lag behind on proper sandboxing. ChromeOS has similar sandboxing properties to Android, and macOS has app permission control and opt-in (for developers) sandboxing; however, these operating systems transmit hardware identifiers to their respective vendor. Traditional Linux desktop tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make heavy use of VMs or containers, such as QubesOS.
 
 Targeted attacks against a specific person are more problematic to deal with. Common avenues of attack include sending malicious documents via emails, exploiting vulnerabilities in the browser and operating systems, and physical attacks. If this is a concern for you, you may have to employ more advanced threat mitigation strategies.
 
