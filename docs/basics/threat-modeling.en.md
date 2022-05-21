@@ -99,6 +99,14 @@ Bare in mind that companies can hide their ownership or or share your informatio
 
 The best way to ensure your data is private is to simply not put it out there in the first place. Deleting information you can find about yourself online is one of the best first steps you can take to regain your privacy. Use email aliases, secondary phone numbers, and lie about your real information (name, birthday, "security" questions) whenever possible. If you have already submitted your real information to various different sites, employ disinformation and submitted various fake information related to the same online identity and make your real information indistinguishable from the fake one.
 
+## Censorship Evasion
+
+Censorship online can be carried out to varying degrees by actors including totalitarian governments, network administrators, and service providers seeking to control the speech of their users and the information they can access. While evading censorship, for the most part, is relative easy, hiding the fact that you are evading the censorship system can be very problematic.
+
+The primary thing you must consider is what your adversary can observe on the network and whether there is plausible denialbility for what you doing. Take Encrypted DNS for example, as covered in our [Introduction to DNS](/basics/dns/) section, can help bypass rudimentary censorship systems based solely on DNS, but cannot truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from the network administrators, but cannot hide that you are using those networks. Pluggable transports like Obfs4proxy, Meek or Shadowsocks can help you evade firewalls that block common VPN protocols or Tor, but an adversary can still figure out that you are actively trying to bypass their censorship system as opposed to just protecting your privacy through probing or deep packet inspection. 
+
+When making a threat model, you must always consider the risks involved with trying to bypass censorship, what the potential consequences are, and how sophistcated your adversary may be. Be extra cautious with your software selection, and have a back up plan in case you are caught.
+
 ## Bad Practices
 
 As a beginner, you may often fall into some bad practices while making a threat model. These include:
