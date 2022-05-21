@@ -51,9 +51,7 @@ Even with end-to-end encryption, service providers can still profile you based o
 
 ### Security and Privacy
 
-<span class="pg-orange" title="Protects you from malware and other passive attacks">:material-bug-outline: Passive Attacks</span>
-
-Security and privacy are often conflated, because you need security to obtain any semblance of privacy—using tools which appear private is futile if they could easily be exploited by attackers to release your data later. However, the inverse is not necessarily true; the most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google, who have never lost data to breaches and employ industry-leading security experts to secure their services. Even though Google provides a very secure service, very few would consider their data private in Google's hands.
+Privacy cannot exist without a reasonable degree of security. Beyond not collecting sensitive data about a user, a piece of software must be reasonably secure to protect the user from adversaries who would try to exploit their system. A common pitfall people often run into in their quest to strip any sort of telemetry data from their life, no matter how trivial, non-invasive or optional is that they sometimes end up with software with significantly worse security properties and cannot even protect them from basic attackers. When making a threat model, it is **extremely important** that you be rational about what type of data a piece of software collects, whether it is acceptable to you or not, and how secure that particular piece of software is.
 
 When it comes to application security, you generally do not (and sometimes cannot) know if the software that you use is malicious, or might one day become malicious. Even with the most trustworthy developers, there is generally no guarantee that their software does not have serious vulnerabilities that could later be exploited.
 
