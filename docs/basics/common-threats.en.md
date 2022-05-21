@@ -38,7 +38,7 @@ To minimize the potential damage that a malicious piece of software can do, you 
 
     Mobile operating systems are generally safer than desktop operating systems when it comes to application sandboxing. Apps cannot obtain root access and only have access to system resources which you grant them.
 
-    Desktop operating systems generally lag behind on proper sandboxing. Chrome OS has similar sandboxing properties to Android, and macOS has opt-in (for developers) sandboxing and strong permissions, however these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make heavy use of VMs or containers, such as Qubes OS.
+    Desktop operating systems generally lag behind on proper sandboxing. Chrome OS has similar sandboxing properties to Android, and macOS has full system permission control and opt-in (for developers) sandboxing for applications, however these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make heavy use of VMs or containers, such as Qubes OS.
 
 <span class="pg-red">:material-target-account: Targeted Attacks</span>
 
@@ -153,7 +153,7 @@ We talk about "shifting trust" a lot when discussing solutions like VPNs, which 
 
 :material-numeric-3-circle: **Privacy-focused solutions are inherently trustworthy**
 
-Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a privacy solution you should determine what the root problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The root problem in this case is a lack of end-to-end encryption, so you should make sure the provider you switch to actually implements end-to-end encryption, or use a tool like Cryptomator which provides end-to-end encryption on any cloud provider. Blindly switching to a "privacy-focused" provider which does not provide end-to-end encryption does not solve your problem, it merely shifts trust from Google to that provider.
+Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a privacy solution you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is a lack of end-to-end encryption, so you should make sure the provider you switch to actually implements end-to-end encryption, or use a tool like Cryptomator which provides end-to-end encryption on any cloud provider. Blindly switching to a "privacy-focused" provider which does not provide end-to-end encryption does not solve your problem, it merely shifts trust from Google to that provider.
 
 The privacy policies and business practices of a provider you choose are very important, but should be considered secondary to technical guarantees of your privacy: Don't elect to merely shift trust to another provider when trusting a provider isn't a requirement at all.
 
