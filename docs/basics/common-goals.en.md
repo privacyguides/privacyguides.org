@@ -146,7 +146,7 @@ At the end of the day, it is **vital** that you research and evaluate the privac
 
 :material-numeric-2-circle: **Shifting trust can increase privacy**
 
-We talk about "shifting trust" a lot when discussing solutions like VPNs, which shift the trust you place in your ISP to the VPN provider. But while this protects your browsing data from your ISP specifically, the VPN provider you choose still has access to your browsing data: Your data is not yet completely secured from all parties. This means that:
+We talk about "shifting trust" a lot when discussing solutions like VPNs, which shift the trust you place in your ISP to the VPN provider. While this protects your browsing data from your ISP specifically, the VPN provider you choose still has access to your browsing data: Your data is not yet completely secured from all parties. This means that:
 
 1. You need to exercise caution when choosing a provider to shift trust to, rather than choosing blindly.
 2. You still need to employ other techniques like end-to-end encryption to protect your data completely, merely distrusting one provider to trust another is not hiding your data.
