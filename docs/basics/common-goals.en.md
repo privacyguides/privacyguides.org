@@ -98,6 +98,8 @@ Despite growing mass surveillance in the United States, the government has found
 
 Tracking and surveillance by private corporations is a growing concern for many as well. Massive ad networks operated by Google and Facebook span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like adblockers to block network requests to their servers, and reading privacy policies of the services you use to ensure your data isn't being used or shared for marketing purposes are some effective things you can do to avoid the misuse of your data.
 
+Additionally, even companies outside of the ad-tech/tracking space can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (like Cambridge Analytica, Experian, or Datalogix) or other parties, so you can't automatically assume your data is safe merely because the service you are using doesn't fall within a typical data sharing/tracking category. The strongest protection against corporate data collection is to always encrypt or obfuscate your data whenever possible to make it as difficult as possible for different providers to correlate data with each other and build a profile on you.
+
 ## Limiting Public Information
 
 <span class="pg-green" title="Protects your data from being publicly accessible">:material-account-search: Public Exposure</span>
