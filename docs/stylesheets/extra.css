@@ -174,26 +174,50 @@ h1, h2, h3, .md-header__topic {
 
 /* Badge colors */
 .pg-purple {
-    color: #7e56c2;
+    color: #603aa0;
+}
+[data-md-color-scheme="slate"] .pg-purple {
+    color: #af94de;
 }
 .pg-red {
-    color: #ef5552;
+    color: #c0322f;
+}
+[data-md-color-scheme="slate"] .pg-red {
+    color: #ff6c6a;
 }
 .pg-orange {
-    color: #ff6e42;
+    color: #ac2f09;
+}
+[data-md-color-scheme="slate"] .pg-orange {
+    color: #e97b5a;
 }
 .pg-teal {
-    color: #009485;
+    color: #04756a;
+}
+[data-md-color-scheme="slate"] .pg-teal {
+    color: #8dc6c1;
 }
 .pg-brown {
     color: #8d6e62;
 }
+[data-md-color-scheme="slate"] .pg-brown {
+    color: #b6988c;
+}
 .pg-blue {
-    color: #2094f3;
+    color: #0e66ae;
+}
+[data-md-color-scheme="slate"] .pg-blue {
+    color: #74b9f1;
 }
 .pg-green {
-    color: #4cae4f;
+    color: #2e7e31;
+}
+[data-md-color-scheme="slate"] .pg-green {
+    color: #72cd75;
 }
 .pg-blue-gray {
     color: #546d78;
+}
+[data-md-color-scheme="slate"] .pg-blue-gray {
+    color: #9ab2bc;
 }
