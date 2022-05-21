@@ -103,7 +103,7 @@ The best way to ensure your data is private is to simply not put it out there in
 
 Censorship online can be carried out to varying degrees by actors including totalitarian governments, network administrators, and service providers seeking to control the speech of their users and the information they can access. While evading censorship, for the most part, is relative easy, hiding the fact that you are evading the censorship system can be very problematic.
 
-The primary thing you must consider is what your adversary can observe on the network and whether there is plausible denialbility for what you doing. Take Encrypted DNS for example, as covered in our [Introduction to DNS](/basics/dns/) section, can help bypass rudimentary censorship systems based solely on DNS, but cannot truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from the network administrators, but cannot hide that you are using those networks. Pluggable transports like Obfs4proxy, Meek or Shadowsocks can help you evade firewalls that block common VPN protocols or Tor, but an adversary can still figure out that you are actively trying to bypass their censorship system as opposed to just protecting your privacy through probing or deep packet inspection. 
+The primary thing you must consider is what your adversary can observe on the network and whether there is plausible denialbility for what you doing. Take [encrypted DNS](basics/dns/#why-shouldnt-i-use-encrypted-dns) for example, while it can help bypass rudimentary censorship systems based solely on DNS, it cannot truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from the network administrators, but cannot hide that you are using those networks. Pluggable transports like Obfs4proxy, Meek or Shadowsocks can help you evade firewalls that block common VPN protocols or Tor, but an adversary can still figure out that you are actively trying to bypass their censorship system as opposed to just protecting your privacy through probing or deep packet inspection. 
 
 When making a threat model, you must always consider the risks involved with trying to bypass censorship, what the potential consequences are, and how sophistcated your adversary may be. Be extra cautious with your software selection, and have a back up plan in case you are caught.
 
@@ -112,7 +112,9 @@ When making a threat model, you must always consider the risks involved with try
 As a beginner, you may often fall into some bad practices while making a threat model. These include:
 
 - Solely focusing on advertising networks instead of service providers as a whole
-- Heavy reliance on badness enumeration for privacy instead of systematically solving the problem
-- Blindly trusting open source software
 - Heavy reliance on privacy policies
 - Blindly shifting trust from one service provider to another
+- Heavy reliance on badness enumeration for privacy instead of systematically solving the problem
+- Blindly trusting open source software
+
+As discussed various times on this page, focusing solely on advertising network does not make up a sensible threat model, as companies can simply obfuscate their ownership and secretly send your information to data brokers anyways. Likewise, privacy policies are not to be trusted as they could easily be violated and should only be relied upon as a last resort. When switching away from a service provider, try to determine what the root problem is and see if your new provider has any technical solution to the problem or not. For example, you may not like Google Drive as it means giving Google access to all of your data. The root problem here is the lack of end to end encryption, which you can solve by using an encryption tool like Cryptomator or by switching to a provider who provides end to end encryption out of the box like ProtonDrive. On the other hand, blindly switching from Google Drive to a provider who does not provide end to end encryption and rerelying solely on their privacy policy like the /e/ Foundation's cloud services do not make sense.
