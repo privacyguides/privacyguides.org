@@ -23,36 +23,6 @@ To identify what could happen to the things you value and determine from whom yo
 4. How bad are the consequences if I fail?
 5. How much trouble am I willing to go through to try to prevent potential consequences?
 
-### Example: Protecting your belongings
-
-To demonstrate how these questions work, let's build a plan to keep your house and possessions safe.
-
-**What do you want to protect? (Or, *what do you have that is worth protecting?*)**
-
-:   Your assets might include jewelry, electronics, important documents, or photos.
-
-**Who do you want to protect it from?**
-
-:   Your adversaries might include burglars, roommates, or guests.
-
-**How likely is it that you will need to protect it?**
-
-:   Does your neighborhood have a history of burglaries? How trustworthy are your roommates/guests? What are the capabilities of your adversaries? What are the risks you should consider?
-
-**How bad are the consequences if you fail?**
-
-:   Do you have anything in your house that you cannot replace? Do you have the time or money to replace these things? Do you have insurance that covers goods stolen from your home?
-
-**How much trouble are you willing to go through to prevent these consequences?**
-
-:   Are you willing to buy a safe for sensitive documents? Can you afford to buy a high-quality lock? Do you have time to open a security box at your local bank and keep your valuables there?
-
-Only once you have asked yourself these questions will you be in a position to assess what measures to take. If your possessions are valuable, but the probability of a break-in is low, then you may not want to invest too much money in a lock. But, if the probability of a break-in is high, you'll want to get the best lock on the market, and consider adding a security system.
-
-Making a security plan will help you to understand the threats that are unique to you and to evaluate your assets, your adversaries, and your adversaries' capabilities, along with the likelihood of risks you face.
-
-Now, let's take a closer look at the questions in our list:
-
 ### What do I want to protect?
 
 An “asset” is something you value and want to protect. In the context of digital security, ==an asset is usually some kind of information.== For example, your emails, contact lists, instant messages, location, and files are all possible assets. Your devices themselves may also be assets.
@@ -94,6 +64,34 @@ Security planning involves understanding how bad the consequences could be if an
 For example, an attorney representing a client in a national security case may be willing to go to greater lengths to protect communications about that case, such as using encrypted email, than a mother who regularly emails her daughter funny cat videos.
 
 *Write down what options you have available to you to help mitigate your unique threats. Note if you have any financial constraints, technical constraints, or social constraints.*
+
+### Try it yourself: Protecting your belongings
+
+These questions can apply to a wide variety of situations, online and offline. As a generic demonstration of how these questions work, let's build a plan to keep your house and possessions safe.
+
+**What do you want to protect? (Or, *what do you have that is worth protecting?*)**
+
+:   Your assets might include jewelry, electronics, important documents, or photos.
+
+**Who do you want to protect it from?**
+
+:   Your adversaries might include burglars, roommates, or guests.
+
+**How likely is it that you will need to protect it?**
+
+:   Does your neighborhood have a history of burglaries? How trustworthy are your roommates/guests? What are the capabilities of your adversaries? What are the risks you should consider?
+
+**How bad are the consequences if you fail?**
+
+:   Do you have anything in your house that you cannot replace? Do you have the time or money to replace these things? Do you have insurance that covers goods stolen from your home?
+
+**How much trouble are you willing to go through to prevent these consequences?**
+
+:   Are you willing to buy a safe for sensitive documents? Can you afford to buy a high-quality lock? Do you have time to open a security box at your local bank and keep your valuables there?
+
+Only once you have asked yourself these questions will you be in a position to assess what measures to take. If your possessions are valuable, but the probability of a break-in is low, then you may not want to invest too much money in a lock. But, if the probability of a break-in is high, you'll want to get the best lock on the market, and consider adding a security system.
+
+Making a security plan will help you to understand the threats that are unique to you and to evaluate your assets, your adversaries, and your adversaries' capabilities, along with the likelihood of risks you face.
 
 ## Further reading
 
