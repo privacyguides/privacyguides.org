@@ -87,7 +87,7 @@ Therefore your goals could be to segregate your online identities from each othe
 
 Instead of relying on privacy policies (which are promises that could be violated), try to obfuscate your information in such a way that it is very difficult for different providers to correlate data with each other and build a profile on you. This could come in the form of using encryption tools like Cryptomator prior to uploading your data to cloud services, using prepaid cards or cryptocurrency to protect your credit/debit card information, using a VPN to hide your IP address from websites and services on the internet, etc. The privacy policy should only be relied upon as a last resort, when you have exhausted all of your option for true privacy and need to put complete trust in your service provider.
 
-Bare in mind that companies can hide their ownership or or share your information with data brokers, even if they are not in the advertising business. Thus, it makes little sense to solely focus on the "ad-tech" industry as a threat in your threat model. Rather, it makes a lot more sense to protect yourself from service providers as a whole, and any kind of corporate surveillance threat that most people are concerned about will be thwrated along with the rest.
+Bear in mind that companies can hide their ownership or or share your information with data brokers, even if they are not in the advertising business. Thus, it makes little sense to solely focus on the "ad-tech" industry as a threat in your threat model. Rather, it makes a lot more sense to protect yourself from service providers as a whole, and any kind of corporate surveillance threat that most people are concerned about will be thwrated along with the rest.
 
 ## Limiting Public Information
 
