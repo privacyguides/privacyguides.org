@@ -1,5 +1,5 @@
 ---
-title: "Common Goals"
+title: "Common Threats"
 icon: 'material/eye-outline'
 ---
 
