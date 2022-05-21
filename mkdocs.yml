@@ -60,18 +60,18 @@ theme:
     - navigation.sections
     - content.tooltips
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      accent: deep purple
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       accent: deep purple
       toggle:
-        icon: material/toggle-switch
+        icon: material/toggle-switch-off-outline
         name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      accent: deep purple
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
 watch:
   - theme
   - includes
