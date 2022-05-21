@@ -58,21 +58,21 @@ We live in a world where almost everything is connected to the internet. Our "pr
 
 The obvious problem with this is that the service provider (or a hacker who has compromised the server) can look into your "private" conversations whenever and however they want, without you ever knowing. This applies to many common services like SMS messaging, Telegram, Discord, and so on.
 
-Thankfully, end-to-end encryption can alleviate this issue by encrypting communications between you and your desired recipients before they are even sent to the server. The confidentiality of your messages is guaranteed, so long as the service provider does not have access to yours or your recipient's keys.
+Thankfully, end-to-end encryption can alleviate this issue by encrypting communications between you and your desired recipients before they are even sent to the server. The confidentiality of your messages is guaranteed, so long as the service provider does not have access to yours or your recipient's private keys.
 
 ??? note "Note on web-based encryption"
 
-    In practice, the effectiveness of different end-to-end encryption implementations varies. Applications such as [Signal](../real-time-communication.md#signal) run natively on the user's system, and every copy of of the application is the same across different installations. If the service provider was to backdoor their applications to try and steal your private keys, that could be detected later using reverse engineering. 
+    In practice, the effectiveness of different end-to-end encryption implementations varies. Applications such as [Signal](../real-time-communication.md#signal) run natively on your device, and every copy of the application is the same across different installations. If the service provider were to backdoor their application in an attempt to steal yours or your recipient's private keys, that could later be detected using reverse engineering.
     
     On the other hand, web based end-to-end encryption implementations such as ProtonMail's webmail or Bitwarden's web vault rely on the server dynamically serving JavaScript code to the browser to handle cryptographic operations. A malicious server could target a specific user and send them malicious JavaScript code to steal their encryption key, and it would be extremely hard for the user to ever notice such a thing. Even if the user does notice the attempt to steal their key, it would be incredibly hard to prove that it is the provider trying to do so, because the server can choose to serve different web clients to different users. 
     
     Therefore, when relying on end-to-end encryption, you should choose to use native applications over web clients whenever possible.
 
-Even with end-to-end encryption, service providers can still profile you based on **metadata**, which is not typically protected. While the service provider could not read your messages to see what you're saying, they can still observe things like who you're talking to, how often you message them, and what times you're typically active. Protection of metadata is fairly uncommon, and you should pay close attention to the technical documentation of the software you are using to see if there is any metadata reduction or protection at all, if that is a concern for you.
+Even with end-to-end encryption, service providers can still profile you based on **metadata**, which is typically not protected. While the service provider could not read your messages to see what you're saying, they can still observe things like who you're talking to, how often you message them, and what times you're typically active. Protection of metadata is fairly uncommon, and you should pay close attention to the technical documentation of the software you are using to see if there is any metadata redaction or protection at all, if that is a concern for you.
 
 ## Mass Surveillance Programs
 
-Mass surveillance is an effort to surveil many or all of a given population. It often refers to government programs such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)), however it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
+Mass surveillance is an effort to surveil many or all of a given population. It often refers to government programs such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). However, it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
 
 Online, you can be tracked via a wide variety of methods, including but not limited to:
 
@@ -82,7 +82,7 @@ Online, you can be tracked via a wide variety of methods, including but not limi
 - Your browser or device fingerprint
 - Payment method correlation
 
-Therefore your goals could be to segregate your online identities from each other, to blend in with other users, and simply to avoid giving out identifying information to anyone as much as possible.
+Therefore your goals could be to segregate your online identities from each other, to blend in with other users, and to simply avoid giving out identifying information to anyone as much as possible.
 
 <span class="pg-blue">:material-eye-outline: Mass Surveillance</span>
 
