@@ -98,7 +98,7 @@ Despite growing mass surveillance in the United States, the government has found
 
 > Surveillance capitalism is an economic system centered around the capture and commodification of personal data for the core purpose of profit-making.[^2]
 
-Tracking and surveillance by private corporations is a growing concern for many as well. Massive ad networks operated by Google and Facebook span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like adblockers to block network requests to their servers, and reading the privacy policies of the services you use can help you avoid many basic adversaries, but can never completely protect you from all tracking.[^3]
+Tracking and surveillance by private corporations is a growing concern for many as well. Massive ad networks like those operated by Google and Facebook span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like content blockers to limit network requests to their servers, and reading the privacy policies of the services you use can help you avoid many basic adversaries, but can never completely protect you from all tracking.[^3]
 
 Additionally, even companies outside of the ad-tech/tracking space can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (like Cambridge Analytica, Experian, or Datalogix) or other parties, so you can't automatically assume your data is safe merely because the service you are using doesn't fall within a typical data sharing/tracking category. The strongest protection against corporate data collection is to always encrypt or obfuscate your data whenever possible to make it as difficult as possible for different providers to correlate data with each other and build a profile on you.
 
@@ -106,13 +106,13 @@ Additionally, even companies outside of the ad-tech/tracking space can share you
 
 <span class="pg-green">:material-account-search: Public Exposure</span>
 
-The best way to ensure your data is private is to simply not put it out there in the first place. Deleting information you can find about yourself online is one of the best first steps you can take to regain your privacy.
+The best way to ensure your data is private is to simply not put it out there in the first place. Deleting information you find about yourself online is one of the best first steps you can take to regain your privacy.
 
 - [View our guide on account deletion :material-arrow-right:](account-deletion.md)
 
 On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, if your accounts have a "private mode," enable it to make sure your account isn't being indexed by search engines and can't be viewed by people you don't vet beforehand.
 
-If you have already submitted your real information to various different sites which shouldn't have it, consider employing disinformation tactics such as submitting various fake information related to the same online identity, to make your real information indistinguishable from the fake information.
+If you have already submitted your real information to a number of sites which shouldn't have it, consider employing disinformation tactics such as submitting fictitious information related to the same online identity to make your real information indistinguishable from the false information.
 
 ## Avoiding Censorship
 
@@ -126,11 +126,11 @@ People concerned with the threat of censorship can use technologies like Tor to 
 
 !!! important
 
-    While simply evading censorship in itself is relatively easy, hiding the fact that you are evading the censorship system from the censors can be very problematic.
+    While simply evading censorship itself is relatively easy, hiding the fact that you are evading the censorship system from the censors can be very problematic.
 
     You should consider what aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. For example, using encrypted DNS can help you bypass rudimentary censorship systems based solely on DNS, but it cannot truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from the network administrators, but cannot hide that you are using those networks. Pluggable transports like Obfs4proxy, Meek or Shadowsocks can help you evade firewalls that block common VPN protocols or Tor, but an adversary can still figure out that you are actively trying to bypass their censorship system as opposed to just protecting your privacy through probing or deep packet inspection.
 
-You must always consider the risks involved with trying to bypass censorship, what the potential consequences are, and how sophistcated your adversary may be. Be extra cautious with your software selection, and have a back up plan in case you are caught.
+You must always consider the risks involved with trying to bypass censorship, what the potential consequences are, and how sophisticated your adversary may be. Be extra cautious with your software selection, and have a backup plan in case you are caught.
 
 ## Common Misconceptions
 
