@@ -68,7 +68,7 @@ Targeted attacks against a specific user are more problematic to deal with. Comm
 
     **Web browsers**, **email clients**, and **office applications** all typically run untrusted code sent to you from third-parties by design. Running multiple virtual machines separating applications like these from your main system and each other is one technique you can use to avoid an exploit in these applications from gaining access to the rest of your system. Technologies like QubesOS or Microsoft Defender Application Guard on Windows provide convenient methods to seamlessly do this, for example.
 
-If you are concerned about **physical attacks** you should use an operating system with a verified boot implementation, such as Android, iOS, or macOS. You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure Element for rate limiting attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems do not encrypt data separately per-user.
+If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, or macOS. You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure Element for rate limiting attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems do not encrypt data separately per-user.
 
 ## Mass Surveillance Programs
 
@@ -130,5 +130,31 @@ People concerned with the threat of censorship can use technologies like Tor to 
 
 You must always consider the risks involved with trying to bypass censorship, what the potential consequences are, and how sophistcated your adversary may be. Be extra cautious with your software selection, and have a back up plan in case you are caught.
 
+## Common Misconceptions
+
+:material-numeric-1-circle: **Open source software is always secure** or **Proprietary software is more secure**
+
+These myths stem from a number of prejudices, but the source-availability and licensure of a software product does not inherently affect its security in any way. ==Open-source software has the *potential* to be more secure than proprietary software, but there is absolutely no guarantee this is the case.== When you evaluate software, you need to look at the reputation and security of each tool on an individual basis.
+
+Open-source software *can* be audited by third-parties, and are often more transparent regarding potential vulnerabilities than their proprietary counterparts. They can also be more flexible, allowing you to delve into the code and disable any suspicious functionality you find yourself. However, unless you review the code yourself there is no guarantee that code has ever been evaluated, especially with smaller software projects, and the open development process can sometimes be exploited by malicious parties to introduce new vulnerabilities into even large projects.[^3]
+
+On the flip side, proprietary software is less transparent, but that does not imply it is not secure. Major proprietary software projects can be audited internally and by third-party agencies, and independent security researchers can still find vulnerabilities with techniques like reverse engineering.
+
+At the end of the day, it is **vital** that you research and evaluate the privacy and security properties of each piece of software being used, and avoid making decisions based on biases.
+
+:material-numeric-2-circle: **Shifting trust can increase privacy**
+
+We talk about "shifting trust" a lot when discussing solutions like VPNs, which shift the trust you place in your ISP to the VPN provider. But while this protects your browsing data from your ISP specifically, the VPN provider you choose still has access to your browsing data: Your data is not yet completely secured from all parties. This means that:
+
+1. You need to exercise caution when choosing a provider to shift trust to, rather than choosing blindly.
+2. You still need to employ other techniques like end-to-end encryption to protect your data completely, merely distrusting one provider to trust another is not hiding your data.
+
+:material-numeric-3-circle: **Privacy-focused service providers are inherently trustworthy**
+
+Focusing solely on the privacy policies and marketing of a provider can blind you to its weaknesses. When you're looking for a new provider you should determine what the root problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The root problem in this case is a lack of end-to-end encryption, so you should make sure the provider you switch to actually implements end-to-end encryption, or use a tool like Cryptomator which provides end-to-end encryption on any cloud provider. Blindly switching to a "privacy-focused" provider which does not provide end-to-end encryption does not solve your problem, it merely shifts trust from Google to that provider.
+
+The privacy policies and business practices of a provider you choose are very important, but should be considered secondary to technical guarantees of your privacy: Don't elect to merely shift trust to another provider when trusting a provider isn't a requirement at all.
+
 [^1]: United States Privacy and Civil Liberties Oversight Board: [Report on the Telephone Records Program Conducted under Section 215](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^2]: Wikipedia: [Surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)
+[^3]: One notable example of this is the [2021 incident in which University of Minnesota researchers introduced three vulnerabilities into the Linux kernel development project](https://cse.umn.edu/cs/linux-incident).
