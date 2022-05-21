@@ -10,7 +10,7 @@ Broadly speaking, we categorize our recommendations into these general categorie
 - <span class="pg-orange">:material-bug-outline: Passive Attacks</span> - Being protected from things like malware, data breaches, and other attacks that are made against many people at once
 - <span class="pg-teal">:material-server-network: Service Providers</span> - Protecting your data from service providers, e.g. with end-to-end encryption rendering your data unreadable to the server
 - <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> - Protection from government agencies, organizations, websites, and services working together to track your activities
-- <span class="pg-brown">:material-account-cash: Surveillance Capitalism</span> - Protecting yourself from big advertising networks like Google and Facebook, as well as a myriad of other third-party trackers
+- <span class="pg-brown">:material-account-cash: Surveillance Capitalism</span> - Protecting yourself from big advertising networks like Google and Facebook, as well as a myriad of other third-party data collectors
 - <span class="pg-green">:material-account-search: Public Exposure</span> - Limiting the information about you online that is accessible to search engines or the general public
 - <span class="pg-blue-gray">:material-close-outline: Censorship</span> - Avoiding censored access to information and being censored yourself when speaking online
 
@@ -30,7 +30,7 @@ Whistleblowers and journalists, for example, can have a much more extreme threat
 
 We live in a world where almost everything is connected to the internet. Our "private" messages, emails, social interactions are typically stored on a server somewhere. Generally, when you send someone a message, that message is then stored on a server, and when your friend wants to read the message, the server will show it to them.
 
-The obvious problem with this is that the service provider (or a hacker who has compromised the server) can look into your "private" conversations whenever and however they want to do it, without you ever knowing. This applies to many common services like Discord, Telegram, SMS messages, and so on.
+The obvious problem with this is that the service provider (or a hacker who has compromised the server) can look into your "private" conversations whenever and however they want to do it, without you ever knowing. This applies to many common services like SMS messaging, Telegram, Discord, and so on.
 
 Thankfully, end-to-end encryption can alleviate this issue by encrypting communications between parties before they are even sent to the server. The confidentiality of their messages are guaranteed, so long as the service provider does not have access to the user's private key.
 
@@ -38,9 +38,9 @@ Thankfully, end-to-end encryption can alleviate this issue by encrypting communi
 
     In practice, the effectiveness of different end-to-end encryption implementations varies. Applications such as [Signal](../real-time-communication.md#signal) run natively on the user's system, and every copy of of the application is the same across different installations. If the service provider was to backdoor their applications to try and steal your private keys, that could be detected later using reverse engineering. 
     
-    On the other hand, web based end-to-end encryption implementations such as ProtonMail's webmail or Bitwarden's web vault rely on the server dynamically serving Javascript code to the browser to handle cryptographic operations. A malicious server could target a specific user and send them malicious Javascript code to steal their encryption key, and it would be extremely hard for the user to ever notice such a thing. Even if the user does notice the attempt to steal their key, it would be incredibly hard to prove that it is the provider trying to do so, because the server can choose to serve different web clients to different users. 
+    On the other hand, web based end-to-end encryption implementations such as ProtonMail's webmail or Bitwarden's web vault rely on the server dynamically serving JavaScript code to the browser to handle cryptographic operations. A malicious server could target a specific user and send them malicious JavaScript code to steal their encryption key, and it would be extremely hard for the user to ever notice such a thing. Even if the user does notice the attempt to steal their key, it would be incredibly hard to prove that it is the provider trying to do so, because the server can choose to serve different web clients to different users. 
     
-    Therefore, whenever possible you should choose to use native applications which implement end-to-end encryption rather than web clients.
+    Therefore, when relying on end-to-end encryption, you should choose to use native applications over web clients whenever possible.
 
 Even with end-to-end encryption, service providers can still profile you based on **metadata**, which is not typically protected. While the service provider could not read your messages to see what you're saying, they can still observe things like who you're talking to, how often you message them, and what times you're typically active. Protection of metadata is fairly uncommon, and you should pay close attention to the technical documentation of the software you are using to see if there is any metadata reduction or protection at all, if that is a concern for you.
 
@@ -48,7 +48,7 @@ Even with end-to-end encryption, service providers can still profile you based o
 
 <span class="pg-orange">:material-bug-outline: Passive Attacks</span>
 
-Security and privacy are often conflated, because you need security to obtain any semblance of privacy—Using tools which appear private is futile if they could easily be exploited by attackers to release your data later. However the inverse is not necessarily true, the most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google, who have never lost data to breaches and employ industry-leading security experts to secure their services. Even though Google provides a very secure service, very few would consider their data private in their hands.
+Security and privacy are often conflated, because you need security to obtain any semblance of privacy: Using tools which appear private is futile if they could easily be exploited by attackers to release your data later. However the inverse is not necessarily true, the most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google, who have never lost data to breaches and employ industry-leading security experts to secure their services. Even though Google provides a very secure service, very few would consider their data private in their hands.
 
 When it comes to application security, we generally do not (and sometimes cannot) know if the software that we use is malicious, or might one day become malicious. Even with the most trustworthy developers, there is generally no guarantee that their software does not have a serious vulnerability that could later be exploited.
 
@@ -58,7 +58,7 @@ To minimize the potential damage that a malicious piece of software can do, you 
 
     Mobile operating systems are generally safer than desktop operating systems when it comes to application sandboxing. Apps cannot obtain root access and only have access to system resources which you grant them.
 
-    Desktop operating systems generally lag behind on proper sandboxing. ChromeOS has similar sandboxing properties to Android, and macOS has opt-in (for developers) sandboxing and strong permissions, however these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make heavy use of VMs or containers, such as QubesOS.
+    Desktop operating systems generally lag behind on proper sandboxing. Chrome OS has similar sandboxing properties to Android, and macOS has opt-in (for developers) sandboxing and strong permissions, however these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make heavy use of VMs or containers, such as Qubes OS.
 
 <span class="pg-red">:material-target-account: Targeted Attacks</span>
 
@@ -66,20 +66,20 @@ Targeted attacks against a specific user are more problematic to deal with. Comm
 
 !!! tip
 
-    **Web browsers**, **email clients**, and **office applications** all typically run untrusted code sent to you from third-parties by design. Running multiple virtual machines separating applications like these from your main system and each other is one technique you can use to avoid an exploit in these applications from gaining access to the rest of your system. Technologies like QubesOS or Microsoft Defender Application Guard on Windows provide convenient methods to seamlessly do this, for example.
+    **Web browsers**, **email clients**, and **office applications** all typically run untrusted code sent to you from third-parties by design. Running multiple virtual machines separating applications like these from your main system and each other is one technique you can use to avoid an exploit in these applications from gaining access to the rest of your system. Technologies like Qubes OS or Microsoft Defender Application Guard on Windows provide convenient methods to seamlessly do this, for example.
 
 If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, or macOS. You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure Element for rate limiting attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems do not encrypt data separately per-user.
 
 ## Mass Surveillance Programs
 
-Mass surveillance is the surveillance of many or all of a population to monitor that group of citizens. It often refers to government programs such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)), however it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
+Mass surveillance is an effort to surveil many or all of a given population. It often refers to government programs such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)), however it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
 
 Online, you can be tracked via a wide variety of methods, including but not limited to:
 
 - Your IP address
 - Browser cookies
 - Data you submit to websites
-- Your browser fingerprint
+- Your browser or device fingerprint
 - Payment method correlation
 
 Therefore your goals could be to segregate your online identities from each other, to blend in with other users, and simply to avoid giving out identifying information to anyone as much as possible.
@@ -110,7 +110,7 @@ The best way to ensure your data is private is to simply not put it out there in
 
 - [View our guide on account deletion :material-arrow-right:](account-deletion.md)
 
-On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, if your accounts have a "private mode", enable it to make sure your account isn't being indexed by search engines and can't be viewed by people you don't vet beforehand.
+On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, if your accounts have a "private mode," enable it to make sure your account isn't being indexed by search engines and can't be viewed by people you don't vet beforehand.
 
 If you have already submitted your real information to various different sites which shouldn't have it, consider employing disinformation tactics such as submitting various fake information related to the same online identity, to make your real information indistinguishable from the fake information.
 
@@ -151,13 +151,13 @@ We talk about "shifting trust" a lot when discussing solutions like VPNs, which 
 1. You need to exercise caution when choosing a provider to shift trust to, rather than choosing blindly.
 2. You still need to employ other techniques like end-to-end encryption to protect your data completely, merely distrusting one provider to trust another is not hiding your data.
 
-:material-numeric-3-circle: **Privacy-focused service providers are inherently trustworthy**
+:material-numeric-3-circle: **Privacy-focused solutions are inherently trustworthy**
 
-Focusing solely on the privacy policies and marketing of a provider can blind you to its weaknesses. When you're looking for a new provider you should determine what the root problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The root problem in this case is a lack of end-to-end encryption, so you should make sure the provider you switch to actually implements end-to-end encryption, or use a tool like Cryptomator which provides end-to-end encryption on any cloud provider. Blindly switching to a "privacy-focused" provider which does not provide end-to-end encryption does not solve your problem, it merely shifts trust from Google to that provider.
+Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a privacy solution you should determine what the root problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The root problem in this case is a lack of end-to-end encryption, so you should make sure the provider you switch to actually implements end-to-end encryption, or use a tool like Cryptomator which provides end-to-end encryption on any cloud provider. Blindly switching to a "privacy-focused" provider which does not provide end-to-end encryption does not solve your problem, it merely shifts trust from Google to that provider.
 
 The privacy policies and business practices of a provider you choose are very important, but should be considered secondary to technical guarantees of your privacy: Don't elect to merely shift trust to another provider when trusting a provider isn't a requirement at all.
 
 [^1]: United States Privacy and Civil Liberties Oversight Board: [Report on the Telephone Records Program Conducted under Section 215](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^2]: Wikipedia: [Surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^3]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" or "listing all the bad things that we know about", as many adblockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. You need to additionally employ other mitigation techniques to be fully protected.
+[^3]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (or, "listing all the bad things that we know about") as many adblockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. You need to additionally employ other mitigation techniques to be fully protected.
 [^4]: One notable example of this is the [2021 incident in which University of Minnesota researchers introduced three vulnerabilities into the Linux kernel development project](https://cse.umn.edu/cs/linux-incident).
