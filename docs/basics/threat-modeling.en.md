@@ -7,7 +7,7 @@ icon: 'material/eye-outline'
 
 ==A threat model is a list of the most probable threats to your security/privacy endeavors.== Since it's impossible to protect yourself against **every** attack(er), you should focus on the **most probable** threats. In computer security, a threat is a potential event that could undermine your efforts to stay private and secure.
 
-By focusing on the threats that matter to you, this narrows down your thinking about the protection you need, so you can choose the tools that are right for the job.
+Focusing on the threats that matter to you narrows down your thinking about the protection you need, so you can choose the tools that are right for the job.
 
 
 ## Defining a threat
