@@ -142,9 +142,9 @@ nav:
     - 'The Basics':
       - 'basics/threat-modeling.md'
       - 'basics/common-goals.md'
-      - 'basics/dns.md'
-      - 'basics/multi-factor-authentication.md'
       - 'basics/account-deletion.md'
+      - 'basics/multi-factor-authentication.md'
+      - 'basics/dns.md'
     - 'Android':
       - 'android/overview.md'
       - 'android/grapheneos-vs-calyxos.md'
