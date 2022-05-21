@@ -114,6 +114,14 @@ Censorship on corporate platforms is increasingly common as platforms like Twitt
 
 People concerned with the threat of censorship can use technologies like Tor to circumvent it, and support platforms which provide censorship-resistant communication such as Matrix, which has no centralized account authority which can close down accounts arbitrarily.
 
+!!! important
+
+    While simply evading censorship in itself is relatively easy, hiding the fact that you are evading the censorship system from the censors can be very problematic.
+
+    You should consider what aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. Take encrypted DNS for example, while it can help bypass rudimentary censorship systems based solely on DNS, it cannot truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from the network administrators, but cannot hide that you are using those networks. Pluggable transports like Obfs4proxy, Meek or Shadowsocks can help you evade firewalls that block common VPN protocols or Tor, but an adversary can still figure out that you are actively trying to bypass their censorship system as opposed to just protecting your privacy through probing or deep packet inspection.
+
+You must always consider the risks involved with trying to bypass censorship, what the potential consequences are, and how sophistcated your adversary may be. Be extra cautious with your software selection, and have a back up plan in case you are caught.
+
 [^1]: ACLU: [The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)
 [^2]: United States Privacy and Civil Liberties Oversight Board: [Report on the Telephone Records Program Conducted under Section 215](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [Surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)
