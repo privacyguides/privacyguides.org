@@ -171,3 +171,29 @@ h1, h2, h3, .md-header__topic {
     width: 100%;
     height: 100%;
 }
+
+/* Badge colors */
+.pg-purple {
+    color: #7e56c2;
+}
+.pg-red {
+    color: #ef5552;
+}
+.pg-orange {
+    color: #ff6e42;
+}
+.pg-teal {
+    color: #009485;
+}
+.pg-brown {
+    color: #8d6e62;
+}
+.pg-blue {
+    color: #2094f3;
+}
+.pg-green {
+    color: #4cae4f;
+}
+.pg-blue-gray {
+    color: #546d78;
+}
