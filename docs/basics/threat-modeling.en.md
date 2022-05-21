@@ -27,15 +27,11 @@ Some of these threats may weigh more than others. For example, a software develo
 
 ### Anonymity vs Privacy
 
-<span class="pg-purple" title="Protects your activities from being tied to your real-life identity">:fontawesome-solid-user-secret: Anonymity</span>
-
 Anonymity is often confused for privacy, but it's a distinct concept. While privacy is a set of choices you make about how your data is used and shared, anonymity is eliminating any trace of your identity on the internet.
 
 Whistleblowers and journalists, for example, can have a much more extreme threat model requiring total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by hackers or governments, but also hiding who they are entirely. They will sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, as their lives could depend on it. Most regular people do not need to go so far.
 
 ### Privacy From Service Providers
-
-<span class="pg-teal" title="Protects your data from being readable by your service provider">:material-server-network: Service Providers</span>
 
 We live in a world where almost everything is connected to the internet. Our "private" messages, emails, social interactions are typilically stored on a server somewhere. Generally, when you send someone a message, that message is then stored on a server, and when your friend wants to read the message, the server will show it to them.
 
@@ -67,9 +63,7 @@ To minimize the potential damage that a malicious piece of software can do, you 
 
     Mobile operating systems are generally safer than desktop operating systems when it comes to application sandboxing. Apps cannot obtain root access and only have access to system resources which you grant them.
 
-    Desktop operating systems generally lag behind on proper sandboxing. ChromeOS has similar sandboxing properties to Android, and macOS has opt-in (for developers) sandboxing and strong permissions, however these operating systems do transmit identifying information to their respective vendor. Traditional Linux desktop tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make heavy use of VMs or containers, such as QubesOS.
-
-<span class="pg-red" title="Protects you from malicious agents targeting you specifically">:material-target-account: Targeted Attacks</span>
+    Desktop operating systems generally lag behind on proper sandboxing. ChromeOS has similar sandboxing properties to Android, and macOS has app permission control and opt-in (for developers) sandboxing, however these operating systems do transmit identifying information to their respective vendor. Traditional Linux desktop tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make heavy use of VMs or containers, such as QubesOS.
 
 Targeted attacks against a specific user are more problematic to deal with. Common avenues of attack include sending malicious documents via emails, exploiting vulnerabilities in the browser and operating systems, and physical attacks. If this is a concern for you, you may have to employ more advanced threat mitigation strategies.
 
@@ -118,3 +112,7 @@ As a beginner, you may often fall into some bad practices while making a threat 
 - Blindly trusting open source software
 
 As discussed various times on this page, focusing solely on advertising network does not make up a sensible threat model, as companies can simply obfuscate their ownership and secretly send your information to data brokers anyways. Likewise, privacy policies are not to be trusted as they could easily be violated and should only be relied upon as a last resort. When switching away from a service provider, try to determine what the root problem is and see if your new provider has any technical solution to the problem or not. For example, you may not like Google Drive as it means giving Google access to all of your data. The root problem here is the lack of end to end encryption, which you can solve by using an encryption tool like Cryptomator or by switching to a provider who provides end to end encryption out of the box like ProtonDrive. On the other hand, blindly switching from Google Drive to a provider who does not provide end to end encryption and rerelying solely on their privacy policy like the /e/ Foundation's cloud services do not make sense.
+
+Badness enumeration cannot provide any privacy guarantee and should not be relied upon against real threat actors. While things like adblockers may help block the low hanging fruits that is common tracking domains, they are trivially bypassable by just using a new domain that is not on common blacklists, or [proxying](https://gist.github.com/paivaric/211ca15afd48c5686226f5f747539e8b) third party tracking code on the first part domain. At best, they should be viewed solely as a convenience feature to make browsing the web more tolerable, but nothing more. Likewise, antiviruses may help you quickly detect common malware with known signatures, but they can never fully protect you from said threat.
+
+Another common myth among privacy communities is that open source software is automatically private or secure. In reality, there is no such guarantee, as the person who compiles the code can compile it from an entirely different source. Even if you were to compile the code yourself or verify that the compiled version matches the source using reproducible builds, there is no guarantee that the source code, imported libraries, and toolchain used are not malicious unless someone actually spend their time auditing every single line of code. Even if the code itself is not malicious, a piece of software may just happen to have worse security properties than its proprietary counterpart. An example of this would be traditional Linux desktop lacking verified boot, system integrity protection, or a full system access control for apps when compared to macOS. When doing threat modeling, it is vital that you evaluate the privacy and security properties of each piece of software being used, rather than just blindly trusting it because it is open source.
