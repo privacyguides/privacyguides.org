@@ -15,6 +15,8 @@ hide:
 Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, we didn't always have the right to privacy. In several dictatorships, many still don't. Generations before ours fought for our right to privacy. ==Privacy is a human right inherent to all of us== that we are entitled to without discrimination.
 
 You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to hide, privacy is something that makes you human.
+
+[:material-target-account: Common Internet Threats](basics/common-goals.md){ .md-button .md-button--primary }
 </div>
 
 <div style="margin-left:auto;margin-right:0;text-align:right;max-width:38rem;" markdown>
