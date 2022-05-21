@@ -3,16 +3,16 @@ title: "Common Goals"
 icon: 'material/eye-outline'
 ---
 
-Broadly speaking, we categorize our recommendations into these general categories of threats or goals that apply to most people. ==You may be concerned with one, a few, or all of these possibilities==, and the tools and services you use depends on what your goals are. You may also have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortfallings of the tools you choose to use, because virtually none of them will protect you from every threat imaginable.
+Broadly speaking, we categorize our recommendations into these general categories of threats or goals that apply to most people. ==You may be concerned with one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat imaginable.
 
-- <span class="pg-purple" title="Protects your activities from being tied to your real-life identity">:material-incognito: Anonymity</span> - Shielding your online activity from your real-life identity, protecting you from people who are trying to uncover your identity specifically.
-- <span class="pg-red" title="Protects you from malicious agents targeting you specifically">:material-target-account: Targeted Attacks</span> - Being protected  from dedicated hackers or other malicious agents trying to gain access to *your* data or devices specifically.
-- <span class="pg-orange" title="Protects you from malware and other passive attacks">:material-bug-outline: Passive Attacks</span> - Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
-- <span class="pg-teal" title="Protects your data from being readable by your service provider">:material-server-network: Service Providers</span> - Protecting your data from service providers, e.g. with end-to-end encryption rendering your data unreadable to the server.
-- <span class="pg-blue" title="Protects you from state mass surveillance programs">:material-eye-outline: State Surveillance</span> - Protection from government agencies, organizations, websites, and services working together to track your activities.
-- <span class="pg-brown" title="Protects you from third-party tracking networks">:material-account-cash: Surveillance Capitalism</span> - Protecting yourself from big advertising networks like Google and Facebook, as well as a myriad of other third-party trackers.
-- <span class="pg-green" title="Protects your data from being publicly accessible">:material-account-search: Public Exposure</span> - Limiting the information about you online that is accessible to search engines or the general public.
-- <span class="pg-blue-gray" title="Protects you from state or corporate censorship">:material-close-outline: Censorship</span> - Avoiding censored access to information and being censored yourself when speaking online.
+- <span class="pg-purple" title="Protects your activities from being tied to your real-life identity">:material-incognito: Anonymity</span> - Shielding your online activity from your real-life identity, protecting you from people who are trying to uncover *your* identity specifically
+- <span class="pg-red" title="Protects you from malicious agents targeting you specifically">:material-target-account: Targeted Attacks</span> - Being protected  from dedicated hackers or other malicious agents trying to gain access to *your* data or devices specifically
+- <span class="pg-orange" title="Protects you from malware and other passive attacks">:material-bug-outline: Passive Attacks</span> - Being protected from things like malware, data breaches, and other attacks that are made against many people at once
+- <span class="pg-teal" title="Protects your data from being readable by your service provider">:material-server-network: Service Providers</span> - Protecting your data from service providers, e.g. with end-to-end encryption rendering your data unreadable to the server
+- <span class="pg-blue" title="Protects you from state mass surveillance programs">:material-eye-outline: State Surveillance</span> - Protection from government agencies, organizations, websites, and services working together to track your activities
+- <span class="pg-brown" title="Protects you from third-party tracking networks">:material-account-cash: Surveillance Capitalism</span> - Protecting yourself from big advertising networks like Google and Facebook, as well as a myriad of other third-party trackers
+- <span class="pg-green" title="Protects your data from being publicly accessible">:material-account-search: Public Exposure</span> - Limiting the information about you online that is accessible to search engines or the general public
+- <span class="pg-blue-gray" title="Protects you from state or corporate censorship">:material-close-outline: Censorship</span> - Avoiding censored access to information and being censored yourself when speaking online
 
 Some of these threats may weigh more than others. For example, a software developer might have a hacker as their primary threat, but beyond that they would also want privacy from the websites they visit and so on. Likewise, an average Joe may have mass surveillance programs and service provider data access as their primary threat, but beyond that they also need to have decent security to prevent malware from stealing their data.
 
@@ -28,7 +28,7 @@ Whistleblowers and journalists, for example, can have a much more extreme threat
 
 <span class="pg-teal" title="Protects your data from being readable by your service provider">:material-server-network: Service Providers</span>
 
-We live in a world where almost everything is connected to the internet. Our "private" messages, emails, social interactions are typilically stored on a server somewhere. Generally, when you send someone a message, that message is then stored on a server, and when your friend wants to read the message, the server will show it to them.
+We live in a world where almost everything is connected to the internet. Our "private" messages, emails, social interactions are typically stored on a server somewhere. Generally, when you send someone a message, that message is then stored on a server, and when your friend wants to read the message, the server will show it to them.
 
 The obvious problem with this is that the service provider (or a hacker who has compromised the server) can look into your "private" conversations whenever and however they want to do it, without you ever knowing. This applies to many common services like Discord, Telegram, SMS messages, and so on.
 
@@ -36,7 +36,7 @@ Thankfully, end-to-end encryption can alleviate this issue by encrypting communi
 
 ??? note "Note on web-based encryption"
 
-    In practice, the effectiveness of different end-to-end encryption implementations varies. Applications such as Signal run natively on the user's system, and every copy of of the application is the same across different installations. If the service provider was to backdoor their applications to try and steal your private keys, that could be detected later using reverse engineering. 
+    In practice, the effectiveness of different end-to-end encryption implementations varies. Applications such as [Signal](../real-time-communication.md#signal) run natively on the user's system, and every copy of of the application is the same across different installations. If the service provider was to backdoor their applications to try and steal your private keys, that could be detected later using reverse engineering. 
     
     On the other hand, web based end-to-end encryption implementations such as ProtonMail's webmail or Bitwarden's web vault rely on the server dynamically serving Javascript code to the browser to handle cryptographic operations. A malicious server could target a specific user and send them malicious Javascript code to steal their encryption key, and it would be extremely hard for the user to ever notice such a thing. Even if the user does notice the attempt to steal their key, it would be incredibly hard to prove that it is the provider trying to do so, because the server can choose to serve different web clients to different users. 
     
