@@ -151,7 +151,7 @@ h1, h2, h3, .md-header__topic {
     width: 22px;
 }
 
-/* Unsticky sidebar without JS */
+/* Un-sticky sidebar without JS */
 .no-js .md-sidebar {
     align-self: auto;
 }
@@ -220,4 +220,9 @@ h1, h2, h3, .md-header__topic {
 }
 [data-md-color-scheme="slate"] .pg-blue-gray {
     color: #9ab2bc;
+
+/* Make light/dark mode icon smaller */
+label[class="md-header__button md-icon"] svg {
+    height: 1rem;
+    width: 1rem;
 }
