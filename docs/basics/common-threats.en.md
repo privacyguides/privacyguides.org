@@ -68,7 +68,7 @@ Thankfully, end-to-end encryption can alleviate this issue by encrypting communi
     
     Therefore, when relying on end-to-end encryption, you should choose to use native applications over web clients whenever possible.
 
-Even with end-to-end encryption, service providers can still profile you based on **metadata**, which is typically not protected. While the service provider could not read your messages to see what you're saying, they can still observe things like who you're talking to, how often you message them, and what times you're typically active. Protection of metadata is fairly uncommon, and you should pay close attention to the technical documentation of the software you are using to see if there is any metadata redaction or protection at all, if that is a concern for you.
+Even with end-to-end encryption, service providers can still profile you based on **metadata**, which is typically not protected. While the service provider could not read your messages to see what you're saying, they can still observe things like who you're talking to, how often you message them, and what times you're typically active. Protection of metadata is fairly uncommon, and you should pay close attention to the technical documentation of the software you are using to see if there is any metadata minimization or protection at all, if that is a concern for you.
 
 ## Mass Surveillance Programs
 
