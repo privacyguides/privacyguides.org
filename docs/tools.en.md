@@ -163,7 +163,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![DuckDuckGo logo](assets/img/search-engines/mini/duckduckgo.svg){ .twemoji } [DuckDuckGo](search-engines.md#duckduckgo)
 - ![Startpage logo](assets/img/search-engines/mini/startpage.svg#only-light){ .twemoji }![Startpage logo](assets/img/search-engines/mini/startpage-dark.svg#only-dark){ .twemoji } [Startpage](search-engines.md#startpage)
-- ![Mojeek logo](assets/img/search-engines/mini/mojeek.svg){ .twemoji } [Mojeek](search-engines.md#mojeek)
 - ![SearXNG logo](assets/img/search-engines/mini/searxng-wordmark.svg){ .twemoji } [SearXNG](search-engines.md#searxng)
 
 </div>
