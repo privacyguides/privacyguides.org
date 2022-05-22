@@ -151,7 +151,7 @@ h1, h2, h3, .md-header__topic {
     width: 22px;
 }
 
-/* Unsticky sidebar without JS */
+/* Un-sticky sidebar without JS */
 .no-js .md-sidebar {
     align-self: auto;
 }
@@ -196,4 +196,9 @@ h1, h2, h3, .md-header__topic {
 }
 .pg-blue-gray {
     color: #546d78;
+}
+
+.md-header__option > label:nth-child(2) > svg:nth-child(1) {
+    height: 1rem;
+    width: 1rem;
 }
