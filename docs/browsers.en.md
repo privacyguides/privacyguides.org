@@ -269,11 +269,11 @@ This prevents you from unintentionally connecting to a website in plain-text HTT
 
 #### Recommended Configuration
 
-These options can be found in :gear: **Settings** → **Safari** → **Privacy and Security**.
+These options can be found in :gear: **Settings** → :material-apple-safari: **Safari** → **Privacy and Security**
 
 ##### Cross-Site Tracking Prevention
 
-- [x] Enable **Prevent Cross-Site Tracking**
+Prevent Cross-Site Tracking :material-toggle-switch:
 
 This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but it does not block all tracking avenues because it is designed to not interfere with website usability.
 
@@ -285,7 +285,7 @@ Privacy Report is accessible via the Page Settings menu (:pg-textformat-size:).
 
 ##### Privacy Preserving Ad Measurement
 
-- [ ] Disable **Privacy Preserving Ad Measurement**
+Privacy Preserving Ad Measurement :material-toggle-switch-off-outline:
 
 Ad click measurement has traditionally used tracking technology that infringes on user privacy. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
 
@@ -295,7 +295,7 @@ The feature has little privacy concerns on its own, so while you can choose to l
 
 If you do not use Apple Pay, you can toggle off the ability for websites to check for it.
 
-- [ ] Disable **Allow websites to check for Apple Pay and Apple Card**
+Check for Apple Pay :material-toggle-switch-off-outline:
 
 ##### Always-on Private Browsing
 
