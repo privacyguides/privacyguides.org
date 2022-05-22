@@ -198,6 +198,7 @@ h1, h2, h3, .md-header__topic {
     color: #546d78;
 }
 
+/* Make light/dark mode icon smaller */
 label[class="md-header__button md-icon"] svg {
     height: 1rem;
     width: 1rem;
