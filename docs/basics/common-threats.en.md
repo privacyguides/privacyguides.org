@@ -58,11 +58,11 @@ We live in a world where almost everything is connected to the internet. Our "pr
 
 The obvious problem with this is that the service provider (or a hacker who has compromised the server) can look into your "private" conversations whenever and however they want, without you ever knowing. This applies to many common services like SMS messaging, Telegram, Discord, and so on.
 
-Thankfully, end-to-end encryption can alleviate this issue by encrypting communications between you and your desired recipients before they are even sent to the server. The confidentiality of your messages is guaranteed, so long as the service provider does not have access to yours or your recipient's private keys.
+Thankfully, end-to-end encryption can alleviate this issue by encrypting communications between you and your desired recipients before they are even sent to the server. The confidentiality of your messages is guaranteed, so long as the service provider does not have access to the private keys of either party.
 
 ??? note "Note on web-based encryption"
 
-    In practice, the effectiveness of different end-to-end encryption implementations varies. Applications such as [Signal](../real-time-communication.md#signal) run natively on your device, and every copy of the application is the same across different installations. If the service provider were to backdoor their application in an attempt to steal yours or your recipient's private keys, that could later be detected using reverse engineering.
+    In practice, the effectiveness of different end-to-end encryption implementations varies. Applications such as [Signal](../real-time-communication.md#signal) run natively on your device, and every copy of the application is the same across different installations. If the service provider were to backdoor their application in an attempt to steal your private keys, that could later be detected using reverse engineering.
     
     On the other hand, web based end-to-end encryption implementations such as ProtonMail's webmail or Bitwarden's web vault rely on the server dynamically serving JavaScript code to the browser to handle cryptographic operations. A malicious server could target a specific user and send them malicious JavaScript code to steal their encryption key, and it would be extremely hard for the user to ever notice such a thing. Even if the user does notice the attempt to steal their key, it would be incredibly hard to prove that it is the provider trying to do so, because the server can choose to serve different web clients to different users. 
     
