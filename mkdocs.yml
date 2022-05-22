@@ -64,13 +64,13 @@ theme:
       scheme: default
       accent: deep purple
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: octicons/moon-16
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       accent: deep purple
       toggle:
-        icon: material/toggle-switch
+        icon: octicons/sun-16
         name: Switch to light mode
 watch:
   - theme
