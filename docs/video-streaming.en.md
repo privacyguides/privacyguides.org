@@ -63,11 +63,11 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
 
 ### NewPipe
 
-!!! recommendation
+!!! recommendation annotate
 
     ![Newpipe logo](assets/img//video-streaming/newpipe.svg){ align=right }
 
-    **NewPipe** is a free and open source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [FramaTube](https://framatube.org), and [Bandcamp](https://bandcamp.com).
+    **NewPipe** is a free and open source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org/) (1).
 
     Your subscription list and playlists are saved locally on your Android device.
 
@@ -78,9 +78,15 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
         - [:fontawesome-brands-android: F-Droid repo](https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo)
         - [:fontawesome-brands-github: Source](https://github.com/TeamNewPipe/NewPipe)
 
+1. The default instance is [FramaTube](https://framatube.org/), however more can be added via **Settings** → **Content** → **PeerTube instances**
+
 !!! note
 
     NewPipe is available on the main [F-Droid](https://www.f-droid.org)'s repository. We recommend that you use NewPipe's own [F-Droid repository](https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo) instead to get faster updates.
+
+!!! Warning
+    
+    When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 #### SponsorBlock
 
