@@ -301,12 +301,12 @@ Check for Apple Pay :material-toggle-switch-off-outline:
 
 Open Safari and tap the Tabs button, located in the bottom right. Then, expand the Tab Groups list.
 
-| Edit | Tab Groups   |  Done  |
-| :--- | :-------- | -----: |
-| :material-cellphone:   Start Page | | |
-| :material-hand-back-left:   Private | | :material-check: |
-| | | |
-| :material-plus:   New Empty Tab Group | | |
+| Edit | Tab Groups |  Done  |
+| :--- | :--------- | -----: |
+| :material-cellphone:   Start Page |       |         |
+| :material-hand-back-left:   Private |          | :material-check: |
+|      |        |       |
+| :material-plus:   New Empty Tab Group |       |       |
 
 Safari's Private Browsing mode offers additional privacy protections. Private Browsing uses a new [ephemeral](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) session for each tab, meaning tabs are isolated from one another. There are also other smaller privacy benefits with Private Browsing, such as not sending a webpage’s address to Apple when using Safari's translation feature.
 
