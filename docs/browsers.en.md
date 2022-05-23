@@ -12,7 +12,7 @@ These are our currently recommended web browsers and configurations. In general,
 
     ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
 
-    **Tor Browser** is the choice if you need anonymity, as it provides you with access to the Tor Bridges and [Tor Network](https://en.wikipedia.org/wiki/Tor_(network)), along with extensions that can be automatically configured to fit its three security levels: *Standard*, *Safer* and *Safest*.
+    **Tor Browser** is the choice if you need anonymity, as it provides you with access to the Tor Bridges and [Tor Network](https://en.wikipedia.org/wiki/Tor_(network)), along with settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
     
     The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative to **not** configure the browser beyond the default security levels.
 
