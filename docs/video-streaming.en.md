@@ -67,7 +67,7 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
 
     ![Newpipe logo](assets/img//video-streaming/newpipe.svg){ align=right }
 
-    **NewPipe** is a free and open source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org/) instances (1).
+    **NewPipe** is a free and open source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org/) (1).
 
     Your subscription list and playlists are saved locally on your Android device.
 
