@@ -322,6 +322,8 @@ To mitigate these problems, we recommend [Neo Store](https://github.com/NeoAppli
     **Neo Store** is a modern F-Droid client made with MaterialUI, forked from [Foxy Droid](https://github.com/kitsunyan/foxy-droid).
 
     Unlike the official F-Droid client, Neo Store supports seamless updates on Android 12 and above without the need for a privileged extension. If your Android distribution is on Android 12 or above and does not include the [F-Droid privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged/), it is highly recommended that you use Neo Store instead of the official client.
+    
+    <small>Neo Store is a recent rebrand of Droid-ify</small>
 
     ??? downloads
 
