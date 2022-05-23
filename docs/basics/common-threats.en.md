@@ -28,11 +28,11 @@ Whistleblowers and journalists, for example, can have a much more extreme threat
 
 <span class="pg-orange">:material-bug-outline: Passive Attacks</span>
 
-Security and privacy are often conflated, because you need security to obtain any semblance of privacy: Using tools which appear private is futile if they could easily be exploited by attackers to release your data later. However the inverse is not necessarily true, the most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google, who have never lost data to breaches and employ industry-leading security experts to secure their services. Even though Google provides a very secure service, very few would consider their data private in their hands.
+Security and privacy are often conflated, because you need security to obtain any semblance of privacy: Using tools which appear private is futile if they could easily be exploited by attackers to release your data later. However, the inverse is not necessarily true; the most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google, who, given their scale, have had minimal security incidents by employing industry-leading security experts to secure their infrastructure. Even though Google provides a very secure service, very few would consider their data private in their hands.
 
 When it comes to application security, we generally do not (and sometimes cannot) know if the software that we use is malicious, or might one day become malicious. Even with the most trustworthy developers, there is generally no guarantee that their software does not have a serious vulnerability that could later be exploited.
 
-To minimize the potential damage that a malicious piece of software can do, you should employ security by compartmentalization. This could come in the form of using different computers for different jobs, using virtual machines groups of related applications, or using a secure operating system with an strong focus on application sandboxing and mandatory access control.
+To minimize the potential damage that a malicious piece of software can do, you should employ security by compartmentalization. This could come in the form of using different computers for different jobs, using virtual machines to separate different groups of related applications, or using a secure operating system with a strong focus on application sandboxing and mandatory access control.
 
 !!! tip
 
@@ -46,7 +46,7 @@ Targeted attacks against a specific user are more problematic to deal with. Comm
 
 !!! tip
 
-    **Web browsers**, **email clients**, and **office applications** all typically run untrusted code sent to you from third-parties by design. Running multiple virtual machines separating applications like these from your main system and each other is one technique you can use to avoid an exploit in these applications from gaining access to the rest of your system. Technologies like Qubes OS or Microsoft Defender Application Guard on Windows provide convenient methods to seamlessly do this, for example.
+    **Web browsers**, **email clients**, and **office applications** all typically run untrusted code sent to you from third-parties by design. Running multiple virtual machines to separate applications like these from your host system as well as each other is one technique you can use to avoid an exploit in these applications from compromising the rest of your system. Technologies like Qubes OS or Microsoft Defender Application Guard on Windows provide convenient methods to do this seamlessly, for example.
 
 If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, or macOS. You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure Element for rate limiting attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems do not encrypt data separately per-user.
 
@@ -56,23 +56,23 @@ If you are concerned about **physical attacks** you should use an operating syst
 
 We live in a world where almost everything is connected to the internet. Our "private" messages, emails, social interactions are typically stored on a server somewhere. Generally, when you send someone a message, that message is then stored on a server, and when your friend wants to read the message, the server will show it to them.
 
-The obvious problem with this is that the service provider (or a hacker who has compromised the server) can look into your "private" conversations whenever and however they want to do it, without you ever knowing. This applies to many common services like SMS messaging, Telegram, Discord, and so on.
+The obvious problem with this is that the service provider (or a hacker who has compromised the server) can look into your "private" conversations whenever and however they want, without you ever knowing. This applies to many common services like SMS messaging, Telegram, Discord, and so on.
 
-Thankfully, end-to-end encryption can alleviate this issue by encrypting communications between parties before they are even sent to the server. The confidentiality of their messages are guaranteed, so long as the service provider does not have access to the user's private key.
+Thankfully, end-to-end encryption can alleviate this issue by encrypting communications between you and your desired recipients before they are even sent to the server. The confidentiality of your messages is guaranteed, so long as the service provider does not have access to the private keys of either party.
 
 ??? note "Note on web-based encryption"
 
-    In practice, the effectiveness of different end-to-end encryption implementations varies. Applications such as [Signal](../real-time-communication.md#signal) run natively on the user's system, and every copy of of the application is the same across different installations. If the service provider was to backdoor their applications to try and steal your private keys, that could be detected later using reverse engineering. 
+    In practice, the effectiveness of different end-to-end encryption implementations varies. Applications such as [Signal](../real-time-communication.md#signal) run natively on your device, and every copy of the application is the same across different installations. If the service provider were to backdoor their application in an attempt to steal your private keys, that could later be detected using reverse engineering.
     
     On the other hand, web based end-to-end encryption implementations such as ProtonMail's webmail or Bitwarden's web vault rely on the server dynamically serving JavaScript code to the browser to handle cryptographic operations. A malicious server could target a specific user and send them malicious JavaScript code to steal their encryption key, and it would be extremely hard for the user to ever notice such a thing. Even if the user does notice the attempt to steal their key, it would be incredibly hard to prove that it is the provider trying to do so, because the server can choose to serve different web clients to different users. 
     
     Therefore, when relying on end-to-end encryption, you should choose to use native applications over web clients whenever possible.
 
-Even with end-to-end encryption, service providers can still profile you based on **metadata**, which is not typically protected. While the service provider could not read your messages to see what you're saying, they can still observe things like who you're talking to, how often you message them, and what times you're typically active. Protection of metadata is fairly uncommon, and you should pay close attention to the technical documentation of the software you are using to see if there is any metadata reduction or protection at all, if that is a concern for you.
+Even with end-to-end encryption, service providers can still profile you based on **metadata**, which is typically not protected. While the service provider could not read your messages to see what you're saying, they can still observe things like who you're talking to, how often you message them, and what times you're typically active. Protection of metadata is fairly uncommon, and you should pay close attention to the technical documentation of the software you are using to see if there is any metadata minimization or protection at all, if that is a concern for you.
 
 ## Mass Surveillance Programs
 
-Mass surveillance is an effort to surveil many or all of a given population. It often refers to government programs such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)), however it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
+Mass surveillance is an effort to surveil many or all of a given population. It often refers to government programs such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). However, it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
 
 Online, you can be tracked via a wide variety of methods, including but not limited to:
 
@@ -82,7 +82,7 @@ Online, you can be tracked via a wide variety of methods, including but not limi
 - Your browser or device fingerprint
 - Payment method correlation
 
-Therefore your goals could be to segregate your online identities from each other, to blend in with other users, and simply to avoid giving out identifying information to anyone as much as possible.
+Therefore your goals could be to segregate your online identities from each other, to blend in with other users, and to simply avoid giving out identifying information to anyone as much as possible.
 
 <span class="pg-blue">:material-eye-outline: Mass Surveillance</span>
 
@@ -98,7 +98,7 @@ Despite growing mass surveillance in the United States, the government has found
 
 > Surveillance capitalism is an economic system centered around the capture and commodification of personal data for the core purpose of profit-making.[^2]
 
-Tracking and surveillance by private corporations is a growing concern for many as well. Massive ad networks operated by Google and Facebook span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like adblockers to block network requests to their servers, and reading the privacy policies of the services you use can help you avoid many basic adversaries, but can never completely protect you from all tracking.[^3]
+Tracking and surveillance by private corporations is a growing concern for many as well. Pervasive ad networks like those operated by Google and Facebook span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like content blockers to limit network requests to their servers, and reading the privacy policies of the services you use can help you avoid many basic adversaries, but can never completely protect you from all tracking.[^3]
 
 Additionally, even companies outside of the ad-tech/tracking space can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (like Cambridge Analytica, Experian, or Datalogix) or other parties, so you can't automatically assume your data is safe merely because the service you are using doesn't fall within a typical data sharing/tracking category. The strongest protection against corporate data collection is to always encrypt or obfuscate your data whenever possible to make it as difficult as possible for different providers to correlate data with each other and build a profile on you.
 
@@ -106,13 +106,13 @@ Additionally, even companies outside of the ad-tech/tracking space can share you
 
 <span class="pg-green">:material-account-search: Public Exposure</span>
 
-The best way to ensure your data is private is to simply not put it out there in the first place. Deleting information you can find about yourself online is one of the best first steps you can take to regain your privacy.
+The best way to ensure your data is private is to simply not put it out there in the first place. Deleting information you find about yourself online is one of the best first steps you can take to regain your privacy.
 
 - [View our guide on account deletion :material-arrow-right:](account-deletion.md)
 
 On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, if your accounts have a "private mode," enable it to make sure your account isn't being indexed by search engines and can't be viewed by people you don't vet beforehand.
 
-If you have already submitted your real information to various different sites which shouldn't have it, consider employing disinformation tactics such as submitting various fake information related to the same online identity, to make your real information indistinguishable from the fake information.
+If you have already submitted your real information to a number of sites which shouldn't have it, consider employing disinformation tactics such as submitting fictitious information related to the same online identity to make your real information indistinguishable from the false information.
 
 ## Avoiding Censorship
 
@@ -126,11 +126,11 @@ People concerned with the threat of censorship can use technologies like Tor to 
 
 !!! important
 
-    While simply evading censorship in itself is relatively easy, hiding the fact that you are evading the censorship system from the censors can be very problematic.
+    While simply evading censorship itself is relatively easy, hiding the fact that you are evading the censorship system from the censors can be very problematic.
 
     You should consider what aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. For example, using encrypted DNS can help you bypass rudimentary censorship systems based solely on DNS, but it cannot truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from the network administrators, but cannot hide that you are using those networks. Pluggable transports like Obfs4proxy, Meek or Shadowsocks can help you evade firewalls that block common VPN protocols or Tor, but an adversary can still figure out that you are actively trying to bypass their censorship system as opposed to just protecting your privacy through probing or deep packet inspection.
 
-You must always consider the risks involved with trying to bypass censorship, what the potential consequences are, and how sophistcated your adversary may be. Be extra cautious with your software selection, and have a back up plan in case you are caught.
+You must always consider the risks involved with trying to bypass censorship, what the potential consequences are, and how sophisticated your adversary may be. Be extra cautious with your software selection, and have a backup plan in case you are caught.
 
 ## Common Misconceptions
 
@@ -138,7 +138,7 @@ You must always consider the risks involved with trying to bypass censorship, wh
 
 These myths stem from a number of prejudices, but the source-availability and licensure of a software product does not inherently affect its security in any way. ==Open-source software has the *potential* to be more secure than proprietary software, but there is absolutely no guarantee this is the case.== When you evaluate software, you need to look at the reputation and security of each tool on an individual basis.
 
-Open-source software *can* be audited by third-parties, and are often more transparent regarding potential vulnerabilities than their proprietary counterparts. They can also be more flexible, allowing you to delve into the code and disable any suspicious functionality you find yourself. However, unless you review the code yourself there is no guarantee that code has ever been evaluated, especially with smaller software projects, and the open development process can sometimes be exploited by malicious parties to introduce new vulnerabilities into even large projects.[^4]
+Open-source software *can* be audited by third-parties, and is often more transparent regarding potential vulnerabilities than their proprietary counterparts. They can also be more flexible, allowing you to delve into the code and disable any suspicious functionality you find yourself. However, unless you review the code yourself there is no guarantee that code has ever been evaluated, especially with smaller software projects, and the open development process can sometimes be exploited by malicious parties to introduce new vulnerabilities into even large projects.[^4]
 
 On the flip side, proprietary software is less transparent, but that does not imply it is not secure. Major proprietary software projects can be audited internally and by third-party agencies, and independent security researchers can still find vulnerabilities with techniques like reverse engineering.
 

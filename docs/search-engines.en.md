@@ -40,21 +40,23 @@ DuckDuckGo offers two other [versions](https://help.duckduckgo.com/features/non-
 
     [Website](https://www.startpage.com){ .md-button .md-button--primary } [Privacy Policy](https://www.startpage.com/en/privacy-policy){ .md-button }
 
-Startpage is based in the :flag_nl: Netherlands. According to their [privacy policy](https://www.startpage.com/en/privacy-policy/), they only log details such as: operating system, type of browser, and language. They do not log your IP address, search queries, or other personally identifying information.
+Startpage is based in the :flag_nl: Netherlands. According to their [privacy policy](https://www.startpage.com/en/privacy-policy/), they log details such as: operating system, type of browser, and language. They do not log your IP address, search queries, or other personally identifying information.
 
 Startpage's majority shareholder is System1 who is an adtech company. We don't believe that to be an issue as they have an distinctly separate [privacy policy](https://system1.com/terms/privacy-policy). The Privacy Guides team reached out to Startpage [back in 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/) to clear up any concerns with System1's sizeable investment into the service. We were satisfied with the answers we received.
 
-## Mojeek
+## Brave Search
 
 !!! recommendation
 
-    ![Mojeek logo](assets/img/search-engines/mojeek.svg){ align=right }
+    ![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
 
-    **Mojeek** is another privacy friendly search engine. They use their own crawler to provide search data.
+    **Brave Search** is developed by Brave and serves results primarily from its own, independent index. The index is optimized against Google Search and therefore may provide more contextually accurate results compared to other alternatives.
 
-    [Website](https://www.mojeek.com){ .md-button .md-button--primary } [Privacy Policy](https://www.mojeek.com/about/privacy){ .md-button }
+    Brave Search includes unique features such as Discussions, which highlights conversation-focused results—such as forum posts.
 
-The company is based in the :flag_gb: UK. According to their [Privacy Policy](https://www.mojeek.com/about/privacy/), they log the originating country, time, page requested, and referral data of each query. IP addresses are not logged.
+    We recommend you disable [Anonymous usage metrics](https://search.brave.com/help/usage-metrics)—it is enabled by default and can be disabled within settings.
+
+Brave Search is based in the :flag_us:. Their [privacy policy](https://search.brave.com/help/privacy-policy) states they collect aggregated usage metrics, which includes the operating system and browser in use, however no personally identifiable information is collected. IP addresses are temporarily processed, but are not retained.
 
 ## SearXNG
 
