@@ -54,6 +54,22 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
         - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.kde.akregator)
         - [:fontawesome-brands-git: Source](https://invent.kde.org/pim/akregator)
 
+### Feeder
+
+!!! recommendation
+
+    ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
+
+    **Feeder** is a modern RSS client for Android that has many [features](https://gitlab.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. It supports it supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) and [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+
+    [Homepage](https://gitlab.com/spacecowboy/Feeder){ .md-button .md-button--primary }
+
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.nononsenseapps.feeder/)
+        - [:fontawesome-brands-gitlab: Source](https://gitlab.com/spacecowboy/Feeder)
+
 ### Handy News Reader
 
 !!! recommendation
