@@ -302,7 +302,7 @@ Check for Apple Pay :material-toggle-switch-off-outline:
 Open Safari and tap the Tabs button, located in the bottom right. Then, expand the Tab Groups list.
 
 | Edit | Tab Groups   |  Done  |
-| :--- | :--------: | -----: |
+| :--- | :-------- | -----: |
 | :material-cellphone:   Start Page | | |
 | :material-hand-back-left:   Private | | :material-check: |
 | | | |
