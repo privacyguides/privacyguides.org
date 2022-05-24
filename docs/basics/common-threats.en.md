@@ -159,15 +159,15 @@ The privacy policies and business practices of a provider you choose are very im
 
 :material-numeric-4-circle: **Complicated is better**
 
-We often see people describing privacy threat models that are overly complex. Often these solutions include problems like many different email accounts or complicated setups with a lot of moving parts and conditions. The replies are usually answers to, "What is the best way to do X?".
+We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like many different email accounts or complicated setups with a lot of moving parts and conditions. The replies are usually answers to, "What is the best way to do X?".
 
-Finding the "best" solution for yourself doesn't always necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience. Below, we provide some tips:
+Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience. Below, we provide some tips:
 
 1. <mark>Actions need to serve a particular purpose</mark>, think about how to do what you want with the least amount of actions.
 2. <mark>Remove human failure points</mark> (don't have a bunch of conditions you must remember to do what with which accounts). Humans fail, they get tired, they forget things... don't have many conditions or manual processes you must remember in order to maintain operational security.
-3. <mark>Use the right level of protection for what you intend.</mark> We often see recommendations of so-called law-enforcement, subpoena proof solutions. These require **a lot** of special case knowledge (knowing about how things truly work under the hood) and are generally **not** what people want. There is no point in building a super anonymous threat model if you can be easily de-anonymized by something you simply didn't think about.
+3. <mark>Use the right level of protection for what you intend.</mark> We often see recommendations of so-called law-enforcement, subpoena proof solutions. These require a lot of special case knowledge (knowing about how things truly work under the hood) and are generally not what people want. There is no point in building an intricately anonymous threat model if you can be easily de-anonymized by a simple oversight.
 
-So how might this look?
+So, how might this look?
 
 One of the clearest threat models is one where people *know who you are* and one where they do not. There will always be situations where you must declare your legal name and places where you can get away without doing so.
 
