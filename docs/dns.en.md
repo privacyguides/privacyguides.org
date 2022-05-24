@@ -132,6 +132,24 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ba
 
 ## Self-hosted Solutions
 
+A self-hosted DNS solution is useful for providing filtering on controlled platforms, such as Smart TVs and other IOT devices, as no client-side software is needed.
+
+### AdGuard Home
+
+!!! recommendation
+
+    ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
+    
+    **AdGuard Home** is an open source [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) to block unwanted web content, such as advertisements.
+    
+    AdGuard Home features a polished web interface to view insights and manage blocked content.
+    
+    [Website](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary } [Privacy Policy](https://adguard.com/privacy/home.html){ .md-button }
+    
+    ??? downloads
+    
+        - [:fontawesome-brands-github: Source](https://github.com/AdguardTeam/AdguardHome)
+
 ### Pi-hole
 
 !!! recommendation
