@@ -163,13 +163,12 @@ When you are using a Piped instance, be sure to go read the privacy policy of th
 
     **Librarian** is a free and open source frontend for the LBRY/Odysee video sharing network that is also self-hostable.
     
-    There is a list of [public instances](https://codeberg.org/librarian/librarian#instances), with some instances having [Tor](https://www.torproject.org) onion services support.
+    There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
 
-    [Website](https://codeberg.org/librarian/librarian#librarian){ .md-button .md-button--primary }
+    [Website](https://librarian.codeberg.page/){ .md-button .md-button--primary }
 
     ??? downloads
 
-        - [:fontawesome-solid-earth-americas: Instances](https://codeberg.org/librarian/librarian#instances)
         - [:fontawesome-brands-git: Source](https://codeberg.org/librarian/librarian)
 
 !!! warning
