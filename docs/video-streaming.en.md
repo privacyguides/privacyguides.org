@@ -120,7 +120,7 @@ This fork is not endorsed by or affiliated with the upstream project. The NewPip
 
 !!! warning
 
-    Invidious does not proxy the video stream through its server by default. Videos watched through Invidious will still make direct connections to Google's servers (googlevideo.com); however, some instances support video proxying. This can be enabled by adding `&local=true` to the URL.
+    Invidious does not proxy the video streams by default. Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying. This can be enabled by adding `&local=true` to the URL.
 
 !!! tip
 
@@ -128,7 +128,7 @@ This fork is not endorsed by or affiliated with the upstream project. The NewPip
 
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Invidious, as other peoples' usage will be linked to your hosting.
 
-When you are using an Invidious instance, be sure to go read the privacy policy of that specific instance. Invidious instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
+When you are using an Invidious instance, make sure to read the privacy policy of that specific instance. Invidious instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
 
 ### Piped
 
@@ -152,7 +152,7 @@ When you are using an Invidious instance, be sure to go read the privacy policy 
 
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Piped, as other peoples' usage will be linked to your hosting.
 
-When you are using a Piped instance, be sure to go read the privacy policy of that specific instance. Piped instances can be modified by their owners and therefore may not reflect their associated privacy policy.
+When you are using a Piped instance, make sure to read the privacy policy of that specific instance. Piped instances can be modified by their owners and therefore may not reflect their associated privacy policy.
 
 ### Librarian
 
@@ -173,7 +173,7 @@ When you are using a Piped instance, be sure to go read the privacy policy of th
 
 !!! warning
 
-    Librarian does not proxy the video stream through its server. Videos watched through Librarian will still make direct connections to `odycdn.com` and `stackpathcdn.com`.
+    Librarian does not proxy the video streams by default. Videos watched through Librarian will still make direct connections to Odysee's servers (e.g. `odycdn.com`); however, some instances may enable proxying which would be detailed in the instance's privacy policy.
 
 !!! tip
 
@@ -181,6 +181,6 @@ When you are using a Piped instance, be sure to go read the privacy policy of th
 
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Librarian, as other peoples' usage will be linked to your hosting.
 
-When you are using a Librarian instance, be sure to go read the privacy policy of that specific instance. Librarian instances can be modified by their owners and therefore may not reflect the default policy. Librarian instances feature a "privacy nutrition label" to provide an overview of their policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
+When you are using a Librarian instance, make sure to read the privacy policy of that specific instance. Librarian instances can be modified by their owners and therefore may not reflect the default policy. Librarian instances feature a "privacy nutrition label" to provide an overview of their policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
 
 --8<-- "includes/abbreviations.en.md"
