@@ -31,8 +31,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 !!! recommendation
 
-    ![Mullvad logo](assets/img/vpn/mullvad.svg#only-light){ align=right }
-    ![Mullvad logo](assets/img/vpn/mullvad-dark.svg#only-dark){ align=right }
+    ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
 
     **Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since **2009**. Mullvad is based in Sweden and does not have a free trial.
 
@@ -201,6 +200,53 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 ??? info "Additional Functionality"
 
     IVPN clients support two factor authentication (Mullvad and Proton VPN clients do not). IVPN also provides "[AntiTracker](https://www.ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
+
+### Windscribe
+
+!!! recommendation
+
+    ![Windscribe logo](assets/img/vpn/windscribe.svg#only-light){ align=right }
+    ![Windscribe logo](assets/img/vpn/windscribe-dark.svg#only-dark){ align=right }
+
+    **Windscribe** is VPN provider, which has been around since 2016 and is based in Canada.
+
+    **Free** - **Yearly Plan USD $48.96/year**
+
+    [:octicons-home-16: Homepage](https://windscribe.com){ .md-button .md-button--primary }
+
+??? check "69 Countries"
+
+    Windscribe has [servers in 69 countries](https://windscribe.com/features/large-network), as of 2022/06/01. Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (less hops) to the destination.
+
+    We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+
+??? note "Independently Audited"
+
+
+
+??? check "Open Source Clients"
+
+    As of May 2022 [Windscribe applications are now open source](https://github.com/Windscribe).
+
+??? check "Accepts Monero"
+
+    In addition to accepting credit/debit cards and PayPal, Windscribe accepts Monero, Bitcoin, and a variety of other cryptocurrencies as payment.
+
+??? check "WireGuard Support"
+
+    Windscribe [supports Wireguard](https://blog.windscribe.com/introducing-wireguard-76a1670700a6/) and it is supported by their [config generator](https://windscribe.com/features/config-generators). [WireGuard](https://www.wireguard.com) is a newer protocol that utilizes state-of-the-art [cryptography](https://www.wireguard.com/protocol/), and aims to be simpler and more performant.
+
+??? check "Remote Port Forwarding"
+
+    Remote ephemeral [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is possible with a [Pro plan](https://windscribe.com/features/port-forwarding). For a permanent port forward, you need to purchase a [static IP](https://windscribe.com/staticips).
+
+??? check "Mobile Clients"
+
+    In addition to providing standard OpenVPN configuration files, Windscribe has mobile clients for [App Store](https://apps.apple.com/app/id1129435228) and [Google Play](https://play.google.com/store/apps/details?id=com.windscribe.vpn) allowing for easy connections to their servers.
+
+??? info "Additional Functionality"
+
+    Windscribe offers [R.O.B.E.R.T.](https://windscribe.com/features/robert), a customizable server-side domain and IP blocking tool. They also offer static IP addresses, team accounts, and support for two-factor authentication.
 
 ## Our Criteria
 
