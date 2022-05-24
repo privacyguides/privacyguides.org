@@ -67,7 +67,6 @@ For use cases like these, or if you have another compelling reason, the VPN prov
 
 - [The Trouble with VPN and Privacy Review Sites](https://medium.com/privacyguides/the-trouble-with-vpn-and-privacy-review-sites-ae9b29eda8fd)
 - [blackVPN announced to delete connection logs after disconnection](https://medium.com/@blackVPN/no-logs-6d65d95a3016)
-- [Don't use LT2P IPSec, use other protocols.](https://gist.github.com/kennwhite/1f3bc4d889b02b35d8aa)
 - [Free VPN App Investigation](https://www.top10vpn.com/free-vpn-app-investigation/)
 - [Hidden VPN owners unveiled: 101 VPN products run by just 23 companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
 - [This Chinese company is secretly behind 24 popular apps seeking dangerous permissions](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
