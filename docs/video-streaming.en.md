@@ -120,7 +120,7 @@ This fork is not endorsed by or affiliated with the upstream project. The NewPip
 
 !!! warning
 
-    Invidious does not proxy video streams by default. Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying. This can be enabled by adding `&local=true` to the URL.
+    Invidious does not proxy video streams by default. Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying—simply enable *Proxy videos* within the instances's settings or add `&local=true` to the URL.
 
 !!! tip
 
