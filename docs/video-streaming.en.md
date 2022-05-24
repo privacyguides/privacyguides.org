@@ -107,9 +107,11 @@ This fork is not endorsed by or affiliated with the upstream project. The NewPip
     ![Invidious logo](assets/img/video-streaming/invidious.svg#only-light){ align=right }
     ![Invidious logo](assets/img/video-streaming/invidious-dark.svg#only-dark){ align=right }
 
-    **Invidious** is a free and open source front end for YouTube that is also self-hostable. There are list of [public instances](https://instances.invidious.io). Some instances have [Tor](https://www.torproject.org) onion services support.
+    **Invidious** is a free and open source frontend for YouTube that is also self-hostable.
+    
+    There is a list of [public instances](https://instances.invidious.io), with some instances having [Tor](https://www.torproject.org) onion services support.
 
-    [Website](https://invidious.io){ .md-button .md-button--primary } [Privacy Policy](){ .md-button }
+    [Website](https://invidious.io){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -118,15 +120,15 @@ This fork is not endorsed by or affiliated with the upstream project. The NewPip
 
 !!! warning
 
-    Invidious does not proxy the video stream through its server by default. Videos watched through Invidious will still make direct connections to Google's servers (googlevideo.com); however, some instances support video proxying. This can be enabled by adding `&local=true` to the URL.
+    Invidious does not proxy video streams by default. Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying—simply enable *Proxy videos* within the instances's settings or add `&local=true` to the URL.
 
 !!! tip
 
-    Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security setting. It does not provide privacy by itself and we don’t recommend logging into any accounts.
+    Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level. It does not provide privacy by itself and we don’t recommend logging into any accounts.
 
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Invidious, as other peoples' usage will be linked to your hosting.
 
-When you are using an Invidious instance, be sure to go read the Privacy Policy of that specific instance. Invidious instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
+When you are using an Invidious instance, make sure to read the privacy policy of that specific instance. Invidious instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
 
 ### Piped
 
@@ -134,7 +136,7 @@ When you are using an Invidious instance, be sure to go read the Privacy Policy 
 
     ![Piped logo](assets/img/video-streaming/piped.svg){ align=right }
 
-    **Piped** is a free and open source front end for YouTube that is also self-hostable. Alternative instances can be selected from "Preferences".
+    **Piped** is a free and open source frontend for YouTube that is also self-hostable. Alternative instances can be selected from "Preferences".
 
     Piped requires JavaScript in order to function.
 
@@ -150,6 +152,35 @@ When you are using an Invidious instance, be sure to go read the Privacy Policy 
 
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Piped, as other peoples' usage will be linked to your hosting.
 
-When you are using a Piped instance, be sure to go read the Privacy Policy of that specific instance. Piped instances can be modified by their owners and therefore may not reflect their associated privacy policy.
+When you are using a Piped instance, make sure to read the privacy policy of that specific instance. Piped instances can be modified by their owners and therefore may not reflect their associated privacy policy.
+
+### Librarian
+
+!!! recommendation
+
+    ![Librarian logo](assets/img/video-streaming/librarian.svg#only-light){ align=right }
+    ![Librarian logo](assets/img/video-streaming/librarian-dark.svg#only-dark){ align=right }
+
+    **Librarian** is a free and open source frontend for the LBRY/Odysee video sharing network that is also self-hostable.
+    
+    There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
+
+    [Website](https://librarian.codeberg.page/){ .md-button .md-button--primary }
+
+    ??? downloads
+
+        - [:fontawesome-brands-git: Source](https://codeberg.org/librarian/librarian)
+
+!!! warning
+
+    Librarian does not proxy video streams by default. Videos watched through Librarian will still make direct connections to Odysee's servers (e.g. `odycdn.com`); however, some instances may enable proxying which would be detailed in the instance's privacy policy.
+
+!!! tip
+
+    Librarian is useful if you want watch LBRY content on mobile without mandatory telemetry and if you want to disable JavaScript in your browser, as is the case with [Tor Browser](https://www.torproject.org/) on the Safest security level.
+
+When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Librarian, as other peoples' usage will be linked to your hosting.
+
+When you are using a Librarian instance, make sure to read the privacy policy of that specific instance. Librarian instances can be modified by their owners and therefore may not reflect the default policy. Librarian instances feature a "privacy nutrition label" to provide an overview of their policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
 
 --8<-- "includes/abbreviations.en.md"
