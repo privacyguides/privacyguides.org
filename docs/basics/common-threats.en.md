@@ -175,8 +175,9 @@ One of the clearest threat models is one where people *know who you are* and one
 
 We don't suggest using a VPN or Tor for any of these things as your identity is already known through other means.
 
-``` tip
-    If buying an item the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) may help keep your physical address private.
+!!! tip
+
+    When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
 
 2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're a part of an online community you may wish to retain persona that others know. The reason this is not anonymous is because if monitored over a period of time details about the owner may reveal further information, such as the way they write (lingustics), general knowledge about topics of interest etc.
 
