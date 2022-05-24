@@ -120,7 +120,7 @@ This fork is not endorsed by or affiliated with the upstream project. The NewPip
 
 !!! warning
 
-    Invidious does not proxy the video streams by default. Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying. This can be enabled by adding `&local=true` to the URL.
+    Invidious does not proxy video streams by default. Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying. This can be enabled by adding `&local=true` to the URL.
 
 !!! tip
 
@@ -173,7 +173,7 @@ When you are using a Piped instance, make sure to read the privacy policy of tha
 
 !!! warning
 
-    Librarian does not proxy the video streams by default. Videos watched through Librarian will still make direct connections to Odysee's servers (e.g. `odycdn.com`); however, some instances may enable proxying which would be detailed in the instance's privacy policy.
+    Librarian does not proxy video streams by default. Videos watched through Librarian will still make direct connections to Odysee's servers (e.g. `odycdn.com`); however, some instances may enable proxying which would be detailed in the instance's privacy policy.
 
 !!! tip
 
