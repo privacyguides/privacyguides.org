@@ -72,13 +72,4 @@ For use cases like these, or if you have another compelling reason, the VPN prov
 - [Hidden VPN owners unveiled: 101 VPN products run by just 23 companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
 - [This Chinese company is secretly behind 24 popular apps seeking dangerous permissions](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
 
-## VPN Security Breaches
-
-Some examples of why external security auditing is important:
-
-- ["Zero logs" VPN exposes millions of logs including user passwords, claims data is anonymous](https://www.comparitech.com/blog/vpn-privacy/ufo-vpn-data-exposure/) July 2020
-- [NordVPN HTTP POST bug exposed customer information, no authentication required](https://www.zdnet.com/article/nordvpn-http-post-bug-exposed-sensitive-customer-information/) March 2020
-- [Row erupts over who to blame after NordVPN says: One of our servers was hacked via remote management tool](https://www.theregister.com/2019/10/21/nordvpn_security_issue/) October 2019
-- [VPN servers seized by Ukrainian authorities weren't encrypted and allowed authorities to impersonate Windscribe servers and capture and decrypt traffic passing through them](https://arstechnica.com/gadgets/2021/07/vpn-servers-seized-by-ukrainian-authorities-werent-encrypted/) July 2021
-
 --8<-- "includes/abbreviations.en.md"
