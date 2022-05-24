@@ -173,19 +173,19 @@ One of the clearest threat models is one where people *know who you are* and one
 
 1. **Known identity** - A known identity is used for things where you must declare your name. There are many such legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, a customs declaration when importing an item or otherwise dealing with your Government. These things will usually always lead back credentials such as credit cards, credit rating checks, account numbers and possibly physical addresses.
 
-We don't suggest using a VPN or Tor for any of these things as your identity is already known through other means.
+    We don't suggest using a VPN or Tor for any of these things as your identity is already known through other means.
 
-!!! tip
+    !!! tip
 
-    When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
+        When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
 
 2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're a part of an online community you may wish to retain persona that others know. The reason this is not anonymous is because if monitored over a period of time details about the owner may reveal further information, such as the way they write (lingustics), general knowledge about topics of interest etc.
 
-You may wish to use a VPN for this to mask your IP address. Financial transactions are more difficult and for this we'd suggest using anonymous cryptocurrencies such as Monero. Employing alt-coin shifting may also help disguise where your currency originated. Typically exchanges require KYC (know your customer) to be completed before they will allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution, however those often are more expensive and sometimes also require KYC.
+    You may wish to use a VPN for this to mask your IP address. Financial transactions are more difficult and for this we'd suggest using anonymous cryptocurrencies such as Monero. Employing alt-coin shifting may also help disguise where your currency originated. Typically exchanges require KYC (know your customer) to be completed before they will allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution, however those often are more expensive and sometimes also require KYC.
 
 3. **Anonymous identity** - Anonymous identities are difficult to maintain over long periods of time for even the most experienced. They should be short-term and short lived identities which are rotated regularly.
 
-Using Tor can help with this, it's also worth noting greater anonymity is possible through asynchronous (not real time communication). Real time communication is vulnerable to typing analysis patterns more than a slab of text distributed on a forum, email) etc that you've had time to think about, maybe even put through a translator and back again.
+    Using Tor can help with this, it's also worth noting greater anonymity is possible through asynchronous (not real time communication). Real time communication is vulnerable to typing analysis patterns more than a slab of text distributed on a forum, email) etc that you've had time to think about, maybe even put through a translator and back again.
 
 [^1]: United States Privacy and Civil Liberties Oversight Board: [Report on the Telephone Records Program Conducted under Section 215](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^2]: Wikipedia: [Surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)
