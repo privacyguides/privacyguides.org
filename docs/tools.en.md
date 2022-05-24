@@ -396,6 +396,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 - ![NewPipe x SponsorBlock logo](assets/img/video-streaming/newpipe.svg){ .twemoji } [NewPipe x Sponsorblock](video-streaming.md#sponsorblock)
 - ![Invidious logo](assets/img/video-streaming/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/video-streaming/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](video-streaming.md#invidious)
 - ![Piped logo](assets/img/video-streaming/piped.svg){ .twemoji } [Piped (YouTube, Web)](video-streaming.md#piped)
+- ![Librarian logo](assets/img/video-streaming/librarian.svg#only-light){ .twemoji }![Librarian logo](assets/img/video-streaming/librarian-dark.svg#only-dark){ .twemoji } [Librarian (LBRY, Web)](video-streaming.md#librarian)
 
 </div>
 

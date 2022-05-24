@@ -107,9 +107,11 @@ This fork is not endorsed by or affiliated with the upstream project. The NewPip
     ![Invidious logo](assets/img/video-streaming/invidious.svg#only-light){ align=right }
     ![Invidious logo](assets/img/video-streaming/invidious-dark.svg#only-dark){ align=right }
 
-    **Invidious** is a free and open source front end for YouTube that is also self-hostable. There are list of [public instances](https://instances.invidious.io). Some instances have [Tor](https://www.torproject.org) onion services support.
+    **Invidious** is a free and open source front end for YouTube that is also self-hostable.
+    
+    There is a list of [public instances](https://instances.invidious.io), with some instances having [Tor](https://www.torproject.org) onion services support.
 
-    [Website](https://invidious.io){ .md-button .md-button--primary } [Privacy Policy](){ .md-button }
+    [Website](https://invidious.io){ .md-button .md-button--primary }
 
     ??? downloads
 
@@ -122,11 +124,11 @@ This fork is not endorsed by or affiliated with the upstream project. The NewPip
 
 !!! tip
 
-    Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security setting. It does not provide privacy by itself and we don’t recommend logging into any accounts.
+    Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level. It does not provide privacy by itself and we don’t recommend logging into any accounts.
 
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Invidious, as other peoples' usage will be linked to your hosting.
 
-When you are using an Invidious instance, be sure to go read the Privacy Policy of that specific instance. Invidious instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
+When you are using an Invidious instance, be sure to go read the privacy policy of that specific instance. Invidious instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
 
 ### Piped
 
@@ -150,6 +152,36 @@ When you are using an Invidious instance, be sure to go read the Privacy Policy 
 
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Piped, as other peoples' usage will be linked to your hosting.
 
-When you are using a Piped instance, be sure to go read the Privacy Policy of that specific instance. Piped instances can be modified by their owners and therefore may not reflect their associated privacy policy.
+When you are using a Piped instance, be sure to go read the privacy policy of that specific instance. Piped instances can be modified by their owners and therefore may not reflect their associated privacy policy.
+
+### Librarian
+
+!!! recommendation
+
+    ![Librarian logo](assets/img/video-streaming/librarian.svg#only-light){ align=right }
+    ![Librarian logo](assets/img/video-streaming/librarian-dark.svg#only-dark){ align=right }
+
+    **Librarian** is a free and open source front end for the LBRY/Odysee video sharing network that is also self-hostable.
+    
+    There is a list of [public instances](https://codeberg.org/librarian/librarian#instances), with some instances having [Tor](https://www.torproject.org) onion services support.
+
+    [Website](https://codeberg.org/librarian/librarian#librarian){ .md-button .md-button--primary }
+
+    ??? downloads
+
+        - [:fontawesome-solid-earth-americas: Instances](https://codeberg.org/librarian/librarian#instances)
+        - [:fontawesome-brands-git: Source](https://codeberg.org/librarian/librarian)
+
+!!! warning
+
+    Librarian does not proxy the video stream through its server. Videos watched through Librarian will still make direct connections to `odycdn.com` and `stackpathcdn.com`.
+
+!!! tip
+
+    Librarian is useful if you want watch LBRY content on mobile without mandatory telemetry and if you want to disable JavaScript in your browser, as is the case with [Tor Browser](https://www.torproject.org/) on the Safest security level.
+
+When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Librarian, as other peoples' usage will be linked to your hosting.
+
+When you are using a Librarian instance, be sure to go read the privacy policy of that specific instance. Librarian instances can be modified by their owners and therefore may not reflect the default policy. Librarian instances feature a "privacy nutrition label" to provide an overview of their policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
 
 --8<-- "includes/abbreviations.en.md"
