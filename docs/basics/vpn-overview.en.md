@@ -66,7 +66,6 @@ For use cases like these, or if you have another compelling reason, the VPN prov
 ## Related VPN Information
 
 - [The Trouble with VPN and Privacy Review Sites](https://medium.com/privacyguides/the-trouble-with-vpn-and-privacy-review-sites-ae9b29eda8fd)
-- [Proxy.sh VPN Provider Sniffed Server Traffic to Catch Hacker](https://torrentfreak.com/proxy-sh-vpn-provider-monitored-traffic-to-catch-hacker-130930/)
 - [blackVPN announced to delete connection logs after disconnection](https://medium.com/@blackVPN/no-logs-6d65d95a3016)
 - [Don't use LT2P IPSec, use other protocols.](https://gist.github.com/kennwhite/1f3bc4d889b02b35d8aa)
 - [Free VPN App Investigation](https://www.top10vpn.com/free-vpn-app-investigation/)
