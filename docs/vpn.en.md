@@ -13,7 +13,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
 
-    [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](https://medium.com/privacyguides/slicing-onions-part-1-myth-busting-tor-9ec188ae1904){ .md-button }
+    [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](/basics/how-tor-works){ .md-button }
 
 ??? question "When are VPNs useful?"
 
