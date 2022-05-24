@@ -292,19 +292,6 @@ For a more manual approach we've picked out these two articles.
 
 **Please note we are not affiliated with any of the providers we recommend.** This allows us to provide completely objective recommendations. We have developed a clear set of requirements for any Email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an Email provider, and conduct your own research to ensure the Email provider you choose is the right choice for you.
 
-### Jurisdiction
-
-Operating outside the five/nine/fourteen-eyes countries is not necessarily a guarantee of privacy, and there are other factors to consider.
-
-**Minimum to Qualify:**
-
-- Operating outside the USA or other Five Eyes countries.
-
-**Best Case:**
-
-- Operating outside the USA or other Fourteen Eyes countries.
-- Operating inside a country with strong consumer protection laws.
-
 ### Technology
 
 We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider which has the features you require.

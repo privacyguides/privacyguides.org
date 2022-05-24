@@ -198,19 +198,6 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 **Please note we are not affiliated with any of the providers we recommend. This allows us to provide completely objective recommendations.** We have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.
 
-### Jurisdiction
-
-Operating outside the five/nine/fourteen-eyes countries is not a guarantee of privacy necessarily, and there are other factors to consider. However, we believe that avoiding these countries is important if you wish to avoid mass government dragnet surveillance, especially from the United States.
-
-**Minimum to Qualify:**
-
-- Operating outside the USA or other Five Eyes countries.
-
-**Best Case:**
-
-- Operating outside the USA or other Fourteen Eyes countries.
-- Operating inside a country with strong consumer protection laws.
-
 ### Technology
 
 We require all our recommended VPN providers to provide OpenVPN configuration files to be used in any client. **If** a VPN provides their own custom client, we require a killswitch to block network data leaks when disconnected.
