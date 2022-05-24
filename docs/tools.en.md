@@ -118,9 +118,33 @@ For your convenience, everything we recommend is listed below with a link to the
 
 ### DNS
 
+**DNS Providers:**
+
 We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net/) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
 
 [Learn more :material-arrow-right:](dns.md)
+
+**Encrypted DNS Proxies:**
+
+<div class="grid cards" markdown>
+
+- ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ .twemoji }![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji } [RethinkDNS](dns.md#rethinkdns)
+- ![DNSCloak logo](assets/img/ios/dnscloak.png){ .twemoji } [DNSCloak](dns.md#dnscloak)
+- ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ .twemoji } [dnscrypt-proxy](dns.md#dnscrypt-proxy)
+
+</div>
+
+[Learn more :material-arrow-right:](dns.md#encrypted-dns-proxies)
+
+**Self-hosted Solutions:**
+
+<div class="grid cards" markdown>
+
+- ![Pi-hole logo](assets/img/dns/pi-hole.svg){ .twemoji } [Pi-hole](dns.md#pi-hole)
+
+</div>
+
+[Learn more :material-arrow-right:](dns.md#self-hosted-solutions)
 
 ### Email
 

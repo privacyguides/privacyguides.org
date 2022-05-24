@@ -125,4 +125,22 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ba
         - [:fontawesome-brands-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
         - [:fontawesome-brands-github: Source](https://github.com/DNSCrypt/dnscrypt-proxy)
 
+## Self-hosted Solutions
+
+### Pi-hole
+
+!!! recommendation
+
+    ![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
+
+    **Pi-hole** is an open-source [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) to block unwanted web content, such as advertisements.
+
+    Pi-hole is designed to be hosted on a Raspberry Pi, but it is not limited to such hardware. The software features a friendly web interface to view insights and manage blocked content.
+
+    [Website](https://pi-hole.net/){ .md-button .md-button--primary } [Privacy Policy](https://pi-hole.net/privacy/){ .md-button }
+
+    ??? downloads
+
+        - [:fontawesome-brands-github: Source](https://github.com/pi-hole/pi-hole)
+
 --8<-- "includes/abbreviations.en.md"
