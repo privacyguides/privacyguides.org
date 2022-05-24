@@ -107,7 +107,7 @@ This fork is not endorsed by or affiliated with the upstream project. The NewPip
     ![Invidious logo](assets/img/video-streaming/invidious.svg#only-light){ align=right }
     ![Invidious logo](assets/img/video-streaming/invidious-dark.svg#only-dark){ align=right }
 
-    **Invidious** is a free and open source front end for YouTube that is also self-hostable.
+    **Invidious** is a free and open source frontend for YouTube that is also self-hostable.
     
     There is a list of [public instances](https://instances.invidious.io), with some instances having [Tor](https://www.torproject.org) onion services support.
 
@@ -136,7 +136,7 @@ When you are using an Invidious instance, be sure to go read the privacy policy 
 
     ![Piped logo](assets/img/video-streaming/piped.svg){ align=right }
 
-    **Piped** is a free and open source front end for YouTube that is also self-hostable. Alternative instances can be selected from "Preferences".
+    **Piped** is a free and open source frontend for YouTube that is also self-hostable. Alternative instances can be selected from "Preferences".
 
     Piped requires JavaScript in order to function.
 
@@ -161,7 +161,7 @@ When you are using a Piped instance, be sure to go read the privacy policy of th
     ![Librarian logo](assets/img/video-streaming/librarian.svg#only-light){ align=right }
     ![Librarian logo](assets/img/video-streaming/librarian-dark.svg#only-dark){ align=right }
 
-    **Librarian** is a free and open source front end for the LBRY/Odysee video sharing network that is also self-hostable.
+    **Librarian** is a free and open source frontend for the LBRY/Odysee video sharing network that is also self-hostable.
     
     There is a list of [public instances](https://codeberg.org/librarian/librarian#instances), with some instances having [Tor](https://www.torproject.org) onion services support.
 
