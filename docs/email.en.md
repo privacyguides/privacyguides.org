@@ -16,47 +16,49 @@ For everything else, we recommend a variety of email providers based on sustaina
 
 ## Recommended Email Providers
 
-### ProtonMail
+### Proton Mail
 
 !!! recommendation
 
-    ![ProtonMail logo](assets/img/email/protonmail.svg){ align=right }
+    ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-    **ProtonMail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since **2013**. ProtonMail is based in Genève, Switzerland. Accounts start with 500 MB storage with their free plan.
+    **Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since **2013**. Proton AG is based in Genève, Switzerland. Accounts start with 500 MB storage with their free plan.
 
-    Free accounts have some limitations, such as not being able to search body text and not having access to [ProtonMail Bridge](https://protonmail.com/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g. Thunderbird). Paid accounts are available starting at **€48/y** which include features like ProtonMail Bridge, additional storage, and custom domain support.
+    Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g. Thunderbird). Paid accounts are available starting at **€48/y** which include features like Proton Mail Bridge, additional storage, and custom domain support.
+
+    With the [transition to Proton.me](https://proton.me/news/updated-proton), paid plans have changed. Existing users before the 25 May 2022 will get to keep their [existing plan](https://proton.me/support/upgrading-to-new-proton-plan) pricing.
 
     **Free**
 
-    [Website](https://protonmail.com){ .md-button .md-button--primary } [Privacy Policy](https://protonmail.com/privacy-policy){ .md-button }
+    [Website](https://proton.me/){ .md-button .md-button--primary } [Privacy Policy](https://proton.me/legal/privacy){ .md-button }
 
 ??? check "Custom Domains and Aliases"
 
-    Paid ProtonMail subscribers can use their own domain with the service. [Catch-all](https://protonmail.com/support/knowledge-base/catch-all/) addresses are supported with custom domains for Professional and Visionary plans. ProtonMail also supports [subaddressing](https://protonmail.com/support/knowledge-base/creating-aliases/), which is useful for people who don't want to purchase a domain.
+    Paid Proton Mail subscribers can use their own domain with the service. [Catch-all](https://proton.me/support/catch-all) addresses are supported with custom domains for Professional and Visionary plans. Proton Mail also supports [subaddressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
 
 ??? check "Private Payment Methods"
 
-    ProtonMail accepts Bitcoin in addition to accepting credit/debit cards and PayPal.
+    Proton Mail accepts Bitcoin in addition to accepting credit/debit cards and PayPal.
 
 ??? check "Account Security"
 
-    ProtonMail supports TOTP [two factor authentication](https://protonmail.com/support/knowledge-base/two-factor-authentication/) only. The use of a U2F security key is not yet supported. ProtonMail is planning to implement U2F upon completion of their [Single Sign On (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/) code.
+    Proton Mail supports TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) only. The use of a U2F security key is not yet supported. Proton Mail is planning to implement U2F upon completion of their [Single Sign On (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/) code.
 
 ??? check "Data Security"
 
-    ProtonMail has [zero access encryption](https://protonmail.com/blog/zero-access-encryption) at rest for your emails, [address book contacts](https://protonmail.com/blog/encrypted-contacts-manager), and [calendars](https://protonmail.com/blog/protoncalendar-security-model). This means the messages and other data stored in your account are only readable by you.
+    Proton Mail has [zero access encryption](https://proton.me/blog/zero-access-encryption) at rest for your emails, [address book contacts](https://proton.me/support/proton-contacts), and [calendars](https://proton.me/news/protoncalendar-security-model). This means the messages and other data stored in your account are only readable by you.
 
 ??? check "Email Encryption"
 
-    ProtonMail has [integrated OpenPGP encryption](https://protonmail.com/support/knowledge-base/how-to-use-pgp) in their webmail. Emails to other ProtonMail accounts are encrypted automatically, and encryption to non-ProtonMail addresses with an OpenPGP key can be enabled easily in your account settings. They also allow you to [encrypt messages to non-ProtonMail addresses](https://protonmail.com/support/knowledge-base/encrypt-for-outside-users) without the need for them to sign up for a ProtonMail account or use software like OpenPGP.
+    Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to-use-pgp) in their webmail. Emails to other Proton Mail accounts are encrypted automatically, and encryption to non-Proton Mail addresses with an OpenPGP key can be enabled easily in your account settings. They also allow you to [encrypt messages to non-Proton Mail addresses](https://proton.me/support/password-protected-emails) without the need for them to sign up for a Proton Mail account or use software like OpenPGP.
 
-    ProtonMail also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use ProtonMail to find the OpenPGP keys of ProtonMail accounts easily, for cross-provider E2EE.
+    Proton Mail also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily, for cross-provider E2EE.
 
 ??? info "Additional Functionality"
 
-    ProtonMail's login and services are accessible over Tor, [protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion/)
+    Proton Mail's login and services are accessible over Tor, [protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion/)
 
-    ProtonMail offers a "Visionary" account for €24/Month, which also enables access to ProtonVPN in addition to providing multiple accounts, domains, aliases, and extra storage.
+        Proton Mail offers an "Unlimited" account for €9.99/Month, which also enables access to Proton VPN in addition to providing multiple accounts, domains, aliases, and 500GB of storage.
 
 ### Mailbox.org
 
@@ -213,7 +215,7 @@ Using an aliasing service requires trusting both your email provider and your al
 
     ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
 
-    **[SimpleLogin](https://simplelogin.io)** (now owned by ProtonMail) is a free service which provides email aliases on a variety of shared domain names, and optionally provides features like unlimited aliases and custom domains for $30/year. [Source code on GitHub](https://github.com/simple-login/app).
+    **[SimpleLogin](https://simplelogin.io)** is a free service which provides email aliases on a variety of shared domain names, and optionally provides features like unlimited aliases and custom domains for $30/year. [Source code on GitHub](https://github.com/simple-login/app).
 
     [Website](https://simplelogin.io){ .md-button .md-button--primary } [Privacy Policy](https://simplelogin.io/privacy/){ .md-button }
 
@@ -227,7 +229,7 @@ Using an aliasing service requires trusting both your email provider and your al
         - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/io.simplelogin.android.fdroid/)
         - [:fontawesome-brands-github: Source](https://github.com/simple-login)
 
-SimpleLogin [is owned by ProtonMail](https://protonmail.com/blog/proton-and-simplelogin-join-forces/) as of April 8, 2022. If you use ProtonMail for your primary mailbox, this makes SimpleLogin a great choice: You now only have to trust a single email provider and SimpleLogin will be more tightly integrated with ProtonMail's offerings in the future. Nonetheless, SimpleLogin continues to support forwarding to any email provider of your chosing.
+SimpleLogin was [acquired by Proton AG](https://protonmail.com/blog/proton-and-simplelogin-join-forces/) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing.
 
 Notable free features:
 

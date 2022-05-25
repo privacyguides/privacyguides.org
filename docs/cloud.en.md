@@ -39,9 +39,9 @@ When self hosting Nextcloud, you should also enable E2EE to protect against your
 
     ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-    **Proton Drive** is an E2EE general file storage service by the popular encrypted email provider [ProtonMail](https://protonmail.com).
+    **Proton Drive** is an E2EE general file storage service by the popular encrypted email provider [Proton Mail](https://proton.me/mail).
 
-    [Website](https://drive.protonmail.com){ .md-button .md-button--primary } [Privacy Policy](https://protonmail.com/privacy-policy){ .md-button }
+    [Website](https://proton.me/drive){ .md-button .md-button--primary } [Privacy Policy](https://proton.me/legal/privacy){ .md-button }
 
     ??? downloads
 

@@ -21,7 +21,6 @@ These products are included with an subscription with their respective [email pr
 
     ??? downloads
 
-        - [:fontawesome-solid-earth-americas: Web](https://mail.tutanota.com/)
         - [:fontawesome-brands-windows: Windows](https://tutanota.com/blog/posts/desktop-clients/)
         - [:fontawesome-brands-apple: macOS](https://tutanota.com/blog/posts/desktop-clients/)
         - [:fontawesome-brands-linux: Linux](https://tutanota.com/blog/posts/desktop-clients/)
@@ -37,13 +36,12 @@ These products are included with an subscription with their respective [email pr
 
     ![Proton Calendar logo](assets/img/calendar-contacts/proton-calendar.svg){ align=right }
 
-    **Proton Calendar** is an encrypted calendar serivce available to ProtonMail members. Features include: automatic E2EE of all data, sharing features, import/export functionality, and [more](https://protonmail.com/support/knowledge-base/proton-calendar-guide/). Those on the free tier get access to a single calendar, whereas paid subscribers can create up to 20 calendars. Extended sharing functionality is also limited to paid subscribers. Proton Calendar is currently only available for the web and Android.
+    **Proton Calendar** is an encrypted calendar serivce available to Proton Mail members. Features include: automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to a single calendar, whereas paid subscribers can create up to 20 calendars. Extended sharing functionality is also limited to paid subscribers. Proton Calendar is currently only available for the web and Android.
 
-    [Website](https://calendar.protonmail.com){ .md-button .md-button--primary } [Privacy Policy](https://protonmail.com/privacy-policy){ .md-button }
+    [Website](https://proton.me/calendar){ .md-button .md-button--primary } [Privacy Policy](https://proton.me/legal/privacy){ .md-button }
 
     ??? downloads
 
-        - [:fontawesome-solid-earth-americas: Web](https://calendar.protonmail.com)
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
         - [:fontawesome-brands-github: Source](https://github.com/ProtonMail/WebClients)
 
