@@ -30,11 +30,11 @@ For everything else, we recommend a variety of email providers based on sustaina
 
     **Free**
 
-    [Website](https://proton.me/){ .md-button .md-button--primary } [Privacy Policy](https://proton.me/legal/privacy){ .md-button }
+    [Website](https://proton.me/){ .md-button .md-button--primary } [:pg-tor:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .md-button } [Privacy Policy](https://proton.me/legal/privacy){ .md-button }
 
 ??? check "Custom Domains and Aliases"
 
-    Paid Proton Mail subscribers can use their own domain with the service. [Catch-all](https://proton.me/support/catch-all) addresses are supported with custom domains for Professional and Visionary plans. Proton Mail also supports [subaddressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+    Paid Proton Mail subscribers can use their own domain with the service or a [catch-all](https://proton.me/support/catch-all) address. Proton Mail also supports [subaddressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
 
 ??? check "Private Payment Methods"
 
@@ -56,9 +56,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 
 ??? info "Additional Functionality"
 
-    Proton Mail's login and services are accessible over Tor, [protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion/)
-
-        Proton Mail offers an "Unlimited" account for €9.99/Month, which also enables access to Proton VPN in addition to providing multiple accounts, domains, aliases, and 500GB of storage.
+    Proton Mail offers an "Unlimited" account for €9.99/Month, which also enables access to Proton VPN in addition to providing multiple accounts, domains, aliases, and 500GB of storage.
 
 ### Mailbox.org
 
@@ -229,7 +227,7 @@ Using an aliasing service requires trusting both your email provider and your al
         - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/io.simplelogin.android.fdroid/)
         - [:fontawesome-brands-github: Source](https://github.com/simple-login)
 
-SimpleLogin was [acquired by Proton AG](https://protonmail.com/blog/proton-and-simplelogin-join-forces/) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing.
+SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing.
 
 Notable free features:
 

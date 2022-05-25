@@ -13,7 +13,6 @@ To erase a storage device **thoroughly**, you should securely erase the whole de
 
 When you delete a file, the operating system marks the space where the deleted file was as "empty". That "empty" space can be fairly easily undeleted, yielding the original file.
 
-
 ### Magnetic storage
 
 If the disk is a magnetic storage device such as spinning hard disk we suggest using [`nwipe`](https://en.wikipedia.org/wiki/Nwipe). `nwipe` can be installed in most Linux distributions. If you wish to use a complete boot environment on a system, consider using [ShredOS Disk Eraser](https://github.com/PartialVolume/shredos.x86_64). ShredOS boots straight into `nwipe` and allows you to erase available disks. To install it to a flash USB stick see the [installation methods](https://github.com/PartialVolume/shredos.x86_64/blob/master/README.md#obtaining-and-writing-shredos-to-a-usb-flash-drive-the-easy-way-).

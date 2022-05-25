@@ -13,7 +13,7 @@ These are our currently recommended web browsers and configurations. In general,
     ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
 
     **Tor Browser** is the choice if you need anonymity, as it provides you with access to the Tor Bridges and [Tor Network](https://en.wikipedia.org/wiki/Tor_(network)), along with settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
-    
+
     The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default security levels.
 
     [Homepage](https://www.torproject.org){ .md-button .md-button--primary } [:pg-tor:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .md-button } [Privacy Policy](https://support.torproject.org/tbb/tbb-3/){ .md-button }
@@ -118,7 +118,7 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
 
     We don't recommend Brave's mobile browser offerings as there are better [options](#mobile-recommendations) for mobile platforms.
 
-    [Homepage](https://brave.com/){ .md-button .md-button--primary } [Privacy Policy](https://brave.com/privacy/browser/){ .md-button }
+    [Homepage](https://brave.com/){ .md-button .md-button--primary } [:pg-tor:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .md-button } [Privacy Policy](https://brave.com/privacy/browser/){ .md-button }
 
     ??? downloads annotate
 

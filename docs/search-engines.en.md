@@ -54,9 +54,11 @@ Startpage's majority shareholder is System1 who is an adtech company. We don't b
 
     Brave Search includes unique features such as Discussions, which highlights conversation-focused results—such as forum posts.
 
-    We recommend you disable [Anonymous usage metrics](https://search.brave.com/help/usage-metrics)—it is enabled by default and can be disabled within settings.
+    We recommend you disable [Anonymous usage metrics](https://search.brave.com/help/usage-metrics), this option is enabled by default and can be disabled within settings.
 
-Brave Search is based in the :flag_us:. Their [privacy policy](https://search.brave.com/help/privacy-policy) states they collect aggregated usage metrics, which includes the operating system and browser in use, however no personally identifiable information is collected. IP addresses are temporarily processed, but are not retained.
+    Brave Search is based in the :flag_us: United States. Their [privacy policy](https://search.brave.com/help/privacy-policy) states they collect aggregated usage metrics, which includes the operating system and browser in use, however no personally identifiable information is collected. IP addresses are temporarily processed, but are not retained.
+
+    [Homepage](https://search.brave.com){ .md-button .md-button--primary } [:pg-tor:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .md-button } [Privacy Policy](https://search.brave.com/help/privacy-policy){ .md-button }
 
 ## SearXNG
 
