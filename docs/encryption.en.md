@@ -314,7 +314,7 @@ When encrypting with PGP, you have the option to configure different options in 
 
     ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
 
-    **OpenKeychain** is an Android implementation of GnuPG. It's commonly required by mail clients, such as [K-9 Mail](email-clients.md#k-9-mail), and other Android apps to provide encryption support. Cure53 completed a [security audit](https://www.openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. Technical details about the audit and OpenKeychain's solutions can be found [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+    **OpenKeychain** is an Android implementation of GnuPG. It's commonly required by mail clients such as [K-9 Mail](email-clients.md#k-9-mail) and [FairEmail](email-clients.md#fairemail) and other Android apps to provide encryption support. Cure53 completed a [security audit](https://www.openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. Technical details about the audit and OpenKeychain's solutions can be found [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
 
     [:octicons-home-16: Homepage](https://www.openkeychain.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }

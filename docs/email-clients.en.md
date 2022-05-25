@@ -123,6 +123,25 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
         [:pg-f-droid:](https://f-droid.org/packages/com.fsck.k9){ .card-link title=F-Droid }
         [:fontawesome-brands-github:](https://github.com/k9mail/k-9/releases){ .card-link title=GitHub }
 
+## FairEmail
+
+!!! recommendation
+
+    ![FairEmail logo](assets/img/email-clients/fairemail.svg){ align=right }
+
+    **FairEmail** is a minimal, open source email app, using open standards (IMAP, SMTP, OpenPGP) with a low data and battery usage.
+
+    [:octicons-home-16: Homepage](https://email.faircode.eu){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=Contribute }
+
+    ??? downloads
+
+        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=eu.faircode.email){ .card-link title="Google Play" }
+        [:pg-f-droid:](https://f-droid.org/packages/eu.faircode.email/){ .card-link title=F-Droid }
+
 ## Canary Mail
 
 !!! recommendation
