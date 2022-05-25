@@ -61,6 +61,6 @@ Red Hat develops [Podman](https://docs.podman.io/en/latest/) and secures it with
 
 Another option is [Kata containers](https://katacontainers.io/), where virtual machines masquerade as containers. Each Kata container has its own Linux kernel and is isolated from the host.
 
-These container technologies can be useful for those who may want to run certain web app software on their local area network (LAN) such as [Vaultwarden](https://github.com/dani-garcia/vaultwarden) or images provided by [linuxserver.io](https://www.linuxserver.io) to increase privacy by decreasing dependence on various web services.
+The above container technologies can be useful if you want to run certain web app software on your local network, such as [Vaultwarden](https://github.com/dani-garcia/vaultwarden) or images provided by [LinuxServer.io](https://www.linuxserver.io), to increase privacy by decreasing dependence on various web services. A guide on [hardening Docker and OCI](https://wonderfall.dev/docker-hardening) has been written by the author "Wonderfall."
 
 --8<-- "includes/abbreviations.en.md"

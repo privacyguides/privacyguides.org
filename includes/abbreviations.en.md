@@ -2,6 +2,7 @@
 *[2FA]: 2-Factor Authentication
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
+*[ATA]: Advanced Technology Attachment
 *[AVB]: Android Verified Boot
 *[CLI]: Command Line Interface
 *[CSV]: Comma-Separated Values
@@ -22,6 +23,7 @@
 *[GPS]: Global Positioning System
 *[GUI]: Graphical User Interface
 *[GnuPG]: GNU Privacy Guard (PGP implementation)
+*[HDD]: Hard Disk Drive
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: Hypertext Transfer Protocol
@@ -40,6 +42,8 @@
 *[MAC]: Media Access Control
 *[MEID]: Mobile Equipment Identifier
 *[MFA]: Multi-Factor Authentication
+*[NVMe]: Nonvolatile Memory Express
+*[OCI]: Open Container Initiative
 *[OCSP]: Online Certificate Status Protocol
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
@@ -57,6 +61,7 @@
 *[SMS]: Short Message Service (standard text messaging)
 *[SMTP]: Simple Mail Transfer Protocol
 *[SNI]: Server Name Indication
+*[SSD]: Solid-State Drive
 *[SSH]: Secure Shell
 *[SaaS]: Software as a Service (cloud software)
 *[SoC]: System on Chip
