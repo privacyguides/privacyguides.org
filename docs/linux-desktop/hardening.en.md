@@ -28,11 +28,19 @@ There are some additional kernel hardening options such as configuring [sysctl](
 - [Recommended boot parameters](https://madaidans-insecurities.github.io/guides/linux-hardening.html#boot-parameters)
 - [Additional recommendations to reduce the kernel's attack surface](https://madaidans-insecurities.github.io/guides/linux-hardening.html#kernel-attack-surface-reduction)
 
-Note that setting `kernel.unprivileged_userns_clone=0` will stop Flatpak, Snap (that depend on browser-sandbox), Electron based AppImages, Podman, Docker, and LXC containers from working. Do **not** set this flag if you are using container products.
+Do **not** disable unprivileged user namespaces if you use software that relies on it, like: Podman, Docker and LXC containers. The option will prevent this software from working.
 
 ## Linux-Hardened
 
 Some distributions like Arch Linux have the [linux-hardened](https://github.com/anthraxx/linux-hardened), kernel package. It includes [hardening patches](https://wiki.archlinux.org/title/security#Kernel_hardening) and more security-conscious defaults. Linux-Hardened has `kernel.unprivileged_userns_clone=0` disabled by default. See the [warning above](#kernel-hardening) about how this might impact you.
+
+## Linux Kernel Runtime Guard (LKRG)
+
+LKRG is a kernel module that performs runtime integrity check on the kernel to help detect detect exploits against the kernel. LKRG works in a *post*-detect fashion, meaning that it attempts to respond to unauthorized modifications to the running Linux kernel. The intention is that it will defeat many pre-existing exploits as well as undiscovered vulnerabilities. Some hardened distributions, such as [Kicksecure](https://www.kicksecure.com/wiki/Linux_Kernel_Runtime_Guard_LKRG), have documentation.
+
+## GRSecurity
+
+GRSecurity is a set of kernel patches that attempt to improve security of the Linux kernel. Open source  access, however, requires [subscription to a paid model](https://grsecurity.net/passing_the_baton).
 
 ## Simultaneous multithreading (SMT)
 
@@ -40,7 +48,9 @@ Some distributions like Arch Linux have the [linux-hardened](https://github.com/
 
 ## Hardened memory allocator
 
-The [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc) from [GrapheneOS](https://grapheneos.org) can be used on Linux distributions. It is available by default on Whonix and is available as an [AUR package](https://wiki.archlinux.org/title/Security#Hardened_malloc) on Arch based distributions. If you are using the AUR package, consider setting up `LD_PRELOAD` as described in the [Arch Wiki](https://wiki.archlinux.org/title/Security#Hardened_malloc).
+The [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc) from [GrapheneOS](https://grapheneos.org) can also be used on general Linux distributions. It is available as an [AUR package](https://wiki.archlinux.org/title/Security#Hardened_malloc) on Arch based distributions, and (though not enabled by default) on Whonix and Kicksecure.
+
+If you are using Whonix, Kicksecure or the AUR package, consider setting up `LD_PRELOAD` as described in the [Kicksecure Documentation](https://www.kicksecure.com/wiki/Hardened_Malloc) or [Arch Wiki](https://wiki.archlinux.org/title/Security#Hardened_malloc).
 
 ## Umask
 

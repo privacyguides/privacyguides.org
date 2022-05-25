@@ -43,6 +43,7 @@
 *[MEID]: Mobile Equipment Identifier
 *[MFA]: Multi-Factor Authentication
 *[NVMe]: Nonvolatile Memory Express
+*[OCI]: Open Container Initiative
 *[OCSP]: Online Certificate Status Protocol
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
