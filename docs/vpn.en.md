@@ -96,7 +96,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
 
-    **Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG is based in Switzerland and offers a limited free pricing tier, as well as a paid one. They offer a further 10% discount for buying a 2 year subscription.
+    **Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG is based in Switzerland and offers a limited free pricing tier, as well as a premium option. They offer a further 10% discount for buying a 2 year subscription.
 
     **Free** - **Plus Plan USD $71.88/year**
 
