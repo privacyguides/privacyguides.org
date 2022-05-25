@@ -70,22 +70,6 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
         - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.nononsenseapps.feeder/)
         - [:fontawesome-brands-gitlab: Source](https://gitlab.com/spacecowboy/Feeder)
 
-### Handy News Reader
-
-!!! recommendation
-
-    ![Handy News Reader logo](assets/img/news-aggregators/handy-news-reader.svg){ align=right }
-
-    **Handy News Reader** is a fork of [Flym](https://github.com/FredJul/Flym) that has many [features](https://github.com/yanus171/Handy-News-Reader#features) and works well with folders of RSS feeds. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) and [RDF](https://en.wikipedia.org/wiki/RDF%2FXML).
-
-    [Homepage](https://yanus171.github.io/Handy-News-Reader/){ .md-button .md-button--primary }
-
-    ??? downloads
-
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=ru.yanus171.feedexfork)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/ru.yanus171.feedexfork/)
-        - [:fontawesome-brands-github: Source](https://github.com/yanus171/Handy-News-Reader)
-
 ### NetNewsWire
 
 !!! recommendation
