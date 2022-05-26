@@ -92,15 +92,17 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ### Proton VPN
 
-!!! recommendation
+!!! recommendation annotate
 
     ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
 
-    **Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG is based in Switzerland and offers a limited free pricing tier, as well as premium options. They offer a further 14% discount for buying a 2 year subscription.
+    **Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG is based in Switzerland and offers a limited free tier, as well as a more featured premium option.
 
-    **Free** - **Basic Plan USD $48/year** - **Plus Plan USD $96/year**
+    **Free** — **Plus Plan USD $71.88/year** (1)
 
     [Website](https://protonvpn.com/){ .md-button .md-button--primary }
+
+1. A further 10% is discounted with a 2-year subscription ($119.76).
 
 ??? check annotate "63 Countries"
 
@@ -148,7 +150,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     **IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN is based in Gibraltar.
 
-    **Standard USD $60/year** - **Pro USD $100/year**
+    **Standard USD $60/year** — **Pro USD $100/year**
 
     [Website](https://www.ivpn.net/){ .md-button .md-button--primary }
 
