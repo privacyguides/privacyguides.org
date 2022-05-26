@@ -76,6 +76,7 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
 
     ??? downloads
 
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.briarproject.Briar)
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
         - [:pg-f-droid: F-Droid](https://f-droid.org/packages/org.briarproject.briar.android)
         - [:fontawesome-brands-git: Source](https://code.briarproject.org/briar/briar)
