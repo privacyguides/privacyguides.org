@@ -46,7 +46,9 @@ For everything else, we recommend a variety of email providers based on sustaina
 
 ??? check "Data Security"
 
-    Proton Mail has [zero access encryption](https://proton.me/blog/zero-access-encryption) at rest for your emails, [address book contacts](https://proton.me/support/proton-contacts), and [calendars](https://proton.me/news/protoncalendar-security-model). This means the messages and other data stored in your account are only readable by you.
+    Proton Mail has [zero-access encryption](https://proton.me/blog/zero-access-encryption) at rest for your emails and [calendars](https://proton.me/news/protoncalendar-security-model). Data secured with zero-access encryption is only accessible by you.
+    
+    Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are not secured with zero-access encryption. Contact fields that support zero-access encryption, such as phone numbers, are indicated with a padlock icon.
 
 ??? check "Email Encryption"
 
