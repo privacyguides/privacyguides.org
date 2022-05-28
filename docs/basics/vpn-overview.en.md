@@ -43,7 +43,7 @@ VPNs cannot provide anonymity. Your VPN provider will still see your real IP add
 
 Do not use that feature. The point of using Tor is that you do not trust your VPN provider. Currently Tor only supports the [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) protocol. [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (used in [WebRTC](https://en.wikipedia.org/wiki/WebRTC) for voice and video sharing, the new [http3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) protocol, etc), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) and other packets will be dropped. To compensate for this, VPN providers typically will route all non TCP packets through their VPN server (your first hop). This is the case with [ProtonVPN](https://protonvpn.com/support/tor-vpn/). Additionally, when using this Tor over VPN setup, you do not have control over other important Tor features such as [Isolated Destination Address](https://www.whonix.org/wiki/Stream_Isolation) (using a different Tor circuit for every domain you visit).
 
-Thus, this feature should be viewed as a convenient way to access the Tor Network, not to stay annonymous. For true anonimity, use the Tor Browser Bundle, TorSocks, or a Tor gateway.
+Thus, this feature should be viewed as a convenient way to access the Tor Network, not to stay anonymous. For true anonymity, use the Tor Browser Bundle, TorSocks, or a Tor gateway.
 
 ## When are VPNs useful?
 
