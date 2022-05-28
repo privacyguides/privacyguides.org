@@ -19,15 +19,17 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     **Thunderbird** is a free, open source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Twitter) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
 
-    [Homepage](https://www.thunderbird.net){ .md-button .md-button--primary } [Privacy Policy](https://www.mozilla.org/privacy/thunderbird){ .md-button }
+    [:octicons-home-16: Homepage](https://www.thunderbird.net){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Documentation}
+    [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Source Code" }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://www.thunderbird.net)
-        - [:fontawesome-brands-apple: macOS](https://www.thunderbird.net)
-        - [:fontawesome-brands-linux: Linux](https://www.thunderbird.net)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.Thunderbird)
-        - [:fontawesome-brands-git: Source](https://hg.mozilla.org/comm-central)
+        [:fontawesome-brands-windows:](https://www.thunderbird.net){ .card-link title=Windows }
+        [:fontawesome-brands-apple:](https://www.thunderbird.net){ .card-link title=macOS }
+        [:fontawesome-brands-linux:](https://www.thunderbird.net){ .card-link title=Linux }
+        [:pg-flathub:](https://flathub.org/apps/details/org.mozilla.Thunderbird){ .card-link title=Flatpak }
 
 ## Apple Mail
 
@@ -41,7 +43,9 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     **Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](/encryption/#gpg-suite), which adds the ability to send encrypted email.
 
-    [Website](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary } [Privacy Policy](https://www.apple.com/legal/privacy/en-ww/){ .md-button }
+    [:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.apple.com/guide/mail/toc){ .card-link title=Documentation}
 
 ## GNOME Evolution
 
@@ -51,12 +55,15 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     **Evolution** is a personal information management application that provides integrated mail, calendaring and address book functionality. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable/) to help you get started.
 
-    [Website](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary } [Privacy Policy](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .md-button }
+    [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://help.gnome.org/users/evolution/stable/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.gnome.Evolution)
-        - [:fontawesome-brands-gitlab: Source](https://gitlab.gnome.org/GNOME/evolution)
+        [:pg-flathub:](https://flathub.org/apps/details/org.gnome.Evolution){ .card-link title=Flatpak }
 
 ## Kontact
 
@@ -66,13 +73,16 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     **Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. It provides a mail client, address book, organizer and RSS client.
 
-    [Website](https://kontact.kde.org){ .md-button .md-button--primary } [Privacy Policy](https://kde.org/privacypolicy-apps){ .md-button }
+    [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://kontact.kde.org/users/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-linux: Linux](https://kontact.kde.org/download)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.kde.kontact)
-        - [:fontawesome-brands-git: Source](https://invent.kde.org/pim/kmail)
+        [:fontawesome-brands-linux:](https://kontact.kde.org/download){ .card-link title=Linux }
+        [:pg-flathub:](https://flathub.org/apps/details/org.kde.kontact){ .card-link title=Flatpak }
 
 ## Mailvelope
 
@@ -82,14 +92,16 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     **Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
 
-    [Homepage](https://www.mailvelope.com){ .md-button .md-button--primary } [Privacy Policy](https://www.mailvelope.com/en/privacy-policy){ .md-button }
+    [:octicons-home-16: Homepage](https://www.mailvelope.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
 
     ??? downloads
 
-        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
-        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
-        - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc)
-        - [:fontawesome-brands-github: Source](https://github.com/mailvelope/mailvelope)
+        [:fontawesome-brands-firefox:](https://addons.mozilla.org/firefox/addon/mailvelope){ .card-link title=Firefox }
+        [:fontawesome-brands-chrome:](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke){ .card-link title=Chrome }
+        [:fontawesome-brands-edge:](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc){ .card-link title=Edge }
 
 ## K-9 Mail
 
@@ -99,13 +111,17 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     **K-9 Mail** is an independent mail application that supports both POP3 and IMAP mailboxes, but only supports push mail for IMAP.
 
-    [Homepage](https://k9mail.app){ .md-button .md-button--primary } [Privacy Policy](https://k9mail.app/privacy){ .md-button }
+    [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/k9mail/k-9){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.fsck.k9)
-        - [:fontawesome-brands-github: Source](https://github.com/k9mail)
+        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=com.fsck.k9){ .card-link title="Google Play" }
+        [:pg-f-droid:](https://f-droid.org/packages/com.fsck.k9){ .card-link title=F-Droid }
+        [:fontawesome-brands-github:](https://github.com/k9mail/k-9/releases){ .card-link title=GitHub }
 
 ## Canary Mail
 
@@ -115,20 +131,22 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     **Canary Mail** is a paid email client designed to make end-to-end encryption seamless with security features such as a biometric app lock.
 
-    [Homepage](https://canarymail.io){ .md-button .md-button--primary } [Privacy Policy](https://canarymail.io/privacy.html){ .md-button }
+    [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=Documentation}
 
     ??? downloads
-
-        - [:fontawesome-brands-windows: Windows](https://download.canarymail.io/get_windows)
-        - [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/app/id1236045954)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1236045954)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
+    
+        [:fontawesome-brands-app-store:](https://apps.apple.com/app/id1236045954){ .card-link title="Mac App Store" }
+        [:fontawesome-brands-app-store-ios:](https://apps.apple.com/app/id1236045954){ .card-link title="App Store" }
+        [:fontawesome-brands-windows:](https://canarymail.io/downloads.html){ .card-link title=Windows }
+        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=io.canarymail.android){ .card-link title="Google Play" }
 
 !!! attention
 
-    Canary Mail only recently released a Windows and Android client, we don't believe they are as stable as their iOS and Mac counterparts.
+    Canary Mail only recently released a Windows and Android client, though we don't believe they are as stable as their iOS and Mac counterparts.
 
-Canary Mail is closed source. We recommend it, due to the few choices there are for email clients on iOS that support PGP E2EE.
+Canary Mail is closed source. We recommend it due to the few choices there are for email clients on iOS that support PGP E2EE.
 
 ## NeoMutt
 
@@ -140,12 +158,14 @@ Canary Mail is closed source. We recommend it, due to the few choices there are 
 
     NeoMutt is a text-based client that has a steep learning curve. It is however, very customizable.
 
-    [Homepage](https://neomutt.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://neomutt.org/guide/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-linux: Linux](https://neomutt.org/distro)
-        - [:fontawesome-brands-apple: macOS](https://neomutt.org/distro)
-        - [:fontawesome-brands-github: Source](https://github.com/neomutt/neomutt)
+        [:fontawesome-brands-linux:](https://neomutt.org/distro){ .card-link title=Linux }
+        [:fontawesome-brands-apple:](https://neomutt.org/distro){ .card-link title=macOS }
 
 --8<-- "includes/abbreviations.en.md"

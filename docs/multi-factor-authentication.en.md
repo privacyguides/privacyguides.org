@@ -14,7 +14,9 @@ icon: 'material/two-factor-authentication'
 
     One of the benefits of the YubiKey is that one key can do almost everything (YubiKey 5), you could expect from a hardware security key. We do encourage you to take the [quiz](https://www.yubico.com/quiz/) before purchasing in order to make sure you make the right choice.
 
-    [Website](https://www.yubico.com){ .md-button .md-button--primary } [Privacy Policy](https://www.yubico.com/support/terms-conditions/privacy-notice){ .md-button }
+    [:octicons-home-16: Homepage](https://www.yubico.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://docs.yubico.com/){ .card-link title=Documentation}
 
 The [comparison table](https://www.yubico.com/store/compare/) shows the features and how the YubiKeys compare. We highly recommend that you select keys from the YubiKey 5 Series.
 
@@ -33,7 +35,9 @@ For models which support HOTP and TOTP, there are 2 slots in the OTP interface w
 
     **Nitrokey** has a security key capable of [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) called the **Nitrokey FIDO2**. For PGP support, you need to purchase one of their other keys such as the **Nitrokey Start**, **Nitrokey Pro 2** or the **Nitrokey Storage 2**.
 
-    [Website](https://www.nitrokey.com){ .md-button .md-button--primary } [Privacy Policy](https://www.nitrokey.com/data-privacy-policy){ .md-button }
+    [:octicons-home-16: Homepage](https://www.nitrokey.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://docs.nitrokey.com/){ .card-link title=Documentation}
 
 The [comparison table](https://www.nitrokey.com/#comparison) shows the features and how the Nitrokey models compare. The **Nitrokey 3** listed will have a combined feature set.
 
@@ -71,13 +75,17 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
     **Aegis Authenticator** is a free, secure and open source app to manage your 2-step verification tokens for your online services.
 
-    [Homepage](https://getaegis.app){ .md-button .md-button--primary } [Privacy Policy](https://getaegis.app/aegis/privacy.html){ .md-button }
+    [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.beemdevelopment.aegis)
-        - [:fontawesome-brands-github: Source](https://github.com/beemdevelopment/Aegis)
+        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis){ .card-link title="Google Play" }
+        [:pg-f-droid:](https://f-droid.org/en/packages/com.beemdevelopment.aegis){ .card-link title=F-Droid }
+        [:fontawesome-brands-github:](https://github.com/beemdevelopment/Aegis/releases){ .card-link title=GitHub }
 
 ### Raivo OTP
 
@@ -87,12 +95,14 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
     **Raivo OTP** is a native, lightweight and secure time-based (TOTP) & counter-based (HOTP) password client for iOS. Raivo OTP offers optional iCloud backup & sync. Raivo OTP is also available for macOS in the form of a status bar application, however the Mac app does not work independently of the iOS app.
 
-    [Project Info](https://github.com/raivo-otp/ios-application#readme){ .md-button .md-button--primary } [Privacy Policy](https://github.com/raivo-otp/ios-application/blob/master/PRIVACY.md){ .md-button }
+    [:octicons-repo-16: Repository](https://github.com/raivo-otp/ios-application){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/raivo-otp/ios-application/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }
+    [:octicons-code-16:](https://github.com/raivo-otp/ios-application){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://github.com/sponsors/tijme){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
-        - [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/us/app/raivo-otp/id1498497896)
-        - [:fontawesome-brands-github: Source](https://github.com/raivo-otp/ios-application)
+        [:fontawesome-brands-app-store-ios:](https://apps.apple.com/us/app/raivo-otp/id1459042137){ .card-link title="App Store" }
+        [:fontawesome-brands-app-store:](https://apps.apple.com/us/app/raivo-otp/id1498497896){ .card-link title="Mac App Store" }
 
 --8<-- "includes/abbreviations.en.md"

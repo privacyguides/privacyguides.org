@@ -6,11 +6,14 @@ icon: pg/qubes-os
 
     ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
 
-    **Qubes** is an open-source operating system designed to provide strong security for desktop computing. Qubes is based on Xen, the X Window System, and Linux, and can run most Linux applications and utilize most of the Linux drivers.
+    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing. Qubes is based on Xen, the X Window System, and Linux, and can run most Linux applications and utilize most of the Linux drivers.
 
-    [Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary } [:pg-tor:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .md-button } [Privacy Policy](https://www.qubes-os.org/privacy){ .md-button }
+    [:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
+    [:pg-tor:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title=Onion }
+    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
 
-    ??? downloads
+!!! info
 
-        - [:fontawesome-solid-compact-disc: Disc image](https://www.qubes-os.org/downloads/)
-        - [:fontawesome-brands-github: Source](https://github.com/QubesOS)
+    This page is a work-in-progress. Expect more thorough information on Qubes OS in the future.

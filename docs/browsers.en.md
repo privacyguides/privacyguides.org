@@ -16,17 +16,20 @@ These are our currently recommended web browsers and configurations. In general,
 
     The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default security levels.
 
-    [Homepage](https://www.torproject.org){ .md-button .md-button--primary } [:pg-tor:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .md-button } [Privacy Policy](https://support.torproject.org/tbb/tbb-3/){ .md-button }
+    [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
+    [:pg-tor:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title=Onion }
+    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
+    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://www.torproject.org/download/)
-        - [:fontawesome-brands-apple: macOS](https://www.torproject.org/download/)
-        - [:fontawesome-brands-linux: Linux](https://www.torproject.org/download/)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.github.micahflee.torbrowser-launcher)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-        - [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid/)
-        - [:fontawesome-brands-git: Source](https://trac.torproject.org/projects/tor)
+        [:fontawesome-brands-windows:](https://www.torproject.org/download/){ title=Windows }
+        [:fontawesome-brands-apple:](https://www.torproject.org/download/){ title=macOS }
+        [:fontawesome-brands-linux:](https://www.torproject.org/download/){ title=Linux }
+        [:pg-flathub:](https://flathub.org/apps/details/com.github.micahflee.torbrowser-launcher){ title=Flatpak }
+        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=org.torproject.torbrowser){ title="Google Play" }
+        [:pg-f-droid:](https://guardianproject.info/fdroid/){ title=F-Droid }
 
 !!! danger
     You should **never** install any additional extensions on Tor Browser, including the ones we suggest for Firefox. Browser extensions make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
@@ -41,15 +44,18 @@ These are our currently recommended web browsers and configurations. In general,
 
     **Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
-    [Homepage](https://firefox.com){ .md-button .md-button--primary } [Privacy Policy](https://www.mozilla.org/privacy/firefox){ .md-button }
+    [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://www.mozilla.org/firefox/windows)
-        - [:fontawesome-brands-apple: macOS](https://www.mozilla.org/firefox/mac)
-        - [:fontawesome-brands-linux: Linux](https://www.mozilla.org/firefox/linux)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.firefox)
-        - [:fontawesome-brands-git: Source](https://hg.mozilla.org/mozilla-central)
+        [:fontawesome-brands-windows:](https://www.mozilla.org/firefox/windows){ title=Windows }
+        [:fontawesome-brands-apple:](https://www.mozilla.org/firefox/mac){ title=macOS }
+        [:fontawesome-brands-linux:](https://www.mozilla.org/firefox/linux){ title=Linux }
+        [:pg-flathub:](https://flathub.org/apps/details/org.mozilla.firefox){ title=Flatpak }
 
 !!! warning
     Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
@@ -118,16 +124,19 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
 
     We don't recommend Brave's mobile browser offerings as there are better [options](#mobile-recommendations) for mobile platforms.
 
-    [Homepage](https://brave.com/){ .md-button .md-button--primary } [:pg-tor:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .md-button } [Privacy Policy](https://brave.com/privacy/browser/){ .md-button }
+    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+    [:pg-tor:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title=Onion }
+    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
     ??? downloads annotate
 
-        - [:fontawesome-brands-windows: Windows](https://brave.com/download/)
-        - [:fontawesome-brands-apple: macOS](https://brave.com/download/)
-        - [:fontawesome-brands-linux: Linux](https://brave.com/linux/) (1)
-        - [:fontawesome-brands-github: Source](https://github.com/brave/brave-browser)
+        [:fontawesome-brands-windows:](https://brave.com/download/){ title=Windows }
+        [:fontawesome-brands-apple:](https://brave.com/download/){ title=macOS }
+        [:fontawesome-brands-linux:](https://brave.com/linux/){ title=Linux } (1)
 
-    1. We advise against using the Flatpak version of Brave as it is believed to feature a weaker sandboxing system. As well, the package is **not** maintained by Brave Software, Inc.
+    1. We advise against using the Flatpak version of Brave, as it replaces Chromium's sandbox with Flatpak's, which is less effective. Additionally, the package is not maintained by Brave Software, Inc.
 
 #### Recommended Configuration
 
@@ -218,13 +227,17 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
     **Bromite** is a Chromium-based browser with privacy and security enhancements, built-in ad blocking, and some fingerprinting randomization.
 
-    [Homepage](https://www.bromite.org){ .md-button .md-button--primary } [Privacy Policy](https://www.bromite.org/privacy){ .md-button }
+    [:octicons-home-16: Homepage](https://www.bromite.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.bromite.org/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://github.com/bromite/bromite/wiki){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/bromite/bromite){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://github.com/bromite/bromite#donate){ .card-link title=Contribute }
 
     ??? downloads annotate
 
-        - [:pg-f-droid: F-Droid](https://www.bromite.org/fdroid) (1)
-        - [:fontawesome-brands-github: Source](https://github.com/bromite/bromite)
-    1. [Neo Store](/android/#neo-store) users can enable the *Bromite repository* in :material-dots-vertical: → **Repositories**
+        [:pg-f-droid:](https://www.bromite.org/fdroid){ title=F-Droid } (1)
+
+    1. If you use [Neo Store](/android/#neo-store), you can enable the *Bromite repository* in:<br> :material-dots-vertical: → **Repositories**
 
 These options can be found in :material-menu: → :gear: **Settings** → **Privacy and Security**.
 
@@ -250,7 +263,9 @@ This prevents you from unintentionally connecting to a website in plain-text HTT
 
     **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as Intelligent Tracking Protection, Privacy Report, isolated Private Browsing tabs, iCloud Private Relay, and automatic HTTPS upgrades.
 
-    [Website](https://www.apple.com/safari/){ .md-button .md-button--primary } [Privacy Policy](https://www.apple.com/legal/privacy/data/en/safari/){ .md-button }
+    [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
 
 #### Recommended Configuration
 
@@ -310,37 +325,37 @@ We generally do not recommend installing any extensions as they increase your at
 
     **uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
 
-    [Extension Info](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
+    [:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
 
     ??? downloads
 
-        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin)
-        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-        - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
-        - [:fontawesome-brands-opera: Opera](https://addons.opera.com/extensions/details/ublock)
-        - [:fontawesome-brands-github: Source](https://github.com/gorhill/uBlock)
+        [:fontawesome-brands-firefox:](https://addons.mozilla.org/firefox/addon/ublock-origin/){ .card-link title=Firefox }
+        [:fontawesome-brands-chrome:](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm){ .card-link title=Chrome }
+        [:fontawesome-brands-edge:](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak){ .card-link title=Edge }
 
 We suggest leaving the extension in its default configuration. Additional filter lists can impact performance and may increase attack surface, so only apply what you need. If there is a [vulnerability in uBlock Origin](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css) a third party filter could add malicious rules that can potentially steal user data.
 
-uBlock Origin is also a Mozilla :trophy: [Recommended Extension](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions). Recommended extensions are manually reviewed by Mozilla staff security experts to ensure they meet the highest standards of security, functionality, and user experience.
-
-### AdGuard for Safari
+### AdGuard for iOS
 
 !!! recommendation
 
     ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
 
-    **AdGuard for Safari** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+    **AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
 
-    We suggest enabling the filters labled *#recommended* under the "Ad Blocking" and "Privacy" [content blockers](https://kb.adguard.com/en/safari/overview#content-blockers). The *#recommended* filters can also be enabled for the "Social Widgets" and "Annoyances" content blockers, but they may break some social media functions.
+    AdGuard for iOS has some premium features, however the standard Safari content blocking is free of charge.
 
-    [Website](https://adguard.com/en/adguard-safari/overview.html){ .md-button .md-button--primary } [Privacy Policy](https://adguard.com/en/privacy/safari.html){ .md-button }
+    [:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
 
     ??? downloads
 
-        - [:fontawesome-brands-safari: Safari](https://apps.apple.com/app/adguard-for-safari/id1440147259)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/apple-store/id1047223162)
-        - [:fontawesome-brands-git: Source](https://github.com/AdguardTeam/AdGuardForSafari)
+        [:fontawesome-brands-app-store-ios:](https://apps.apple.com/app/apple-store/id1047223162){ .card-link title="App Store" }
 
 Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.
 
@@ -353,15 +368,20 @@ There is also [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html
     ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
     ![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
 
-    **Snowflake** allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser. People who are censored can use Snowflake proxies to connect to the Tor network. Snowflake is a great way to contribute to the network even if you don't have the technical know-how to run a Tor relay or bridge.
+    **Snowflake** allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser.
 
-    [Website](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+    People who are censored can use Snowflake proxies to connect to the Tor network. Snowflake is a great way to contribute to the network even if you don't have the technical know-how to run a Tor relay or bridge.
+
+    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
+    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:octicons-browser-16: Browser](https://snowflake.torproject.org/embed) (Leave page open to continue being a Snowflake proxy)
-        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/)
-        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
+        [:fontawesome-brands-firefox:](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/){ .card-link title=Firefox }
+        [:fontawesome-brands-chrome:](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie){ .card-link title=Chrome }
+        [:octicons-browser-16:](https://snowflake.torproject.org/embed){ .card-link title="Web (leave this page open to be a Snowflake proxy)" }
 
 Snowflake does not increase your privacy in any way, nor is it used to connect to the Tor network within your personal browser. However, if your internet connection is uncensored, you should consider running it to help people in censored networks achieve better privacy themselves. There is no need to worry about which websites people are accessing through your proxy—their visible browsing IP address will match their Tor exit node, not yours.
 
@@ -379,7 +399,10 @@ You can enable Snowflake in your browser by clicking the switch below and ==leav
 
     **Terms of Service; Didn't Read** grades websites based on their terms of service agreements and privacy policies. It also gives short summaries of those agreements. The analyses and ratings are published transparently by a community of reviewers.
 
-    [Website](https://tosdr.org){ .md-button .md-button--primary } [Privacy Policy](https://docs.tosdr.org/sp/tosdr.org-Privacy-Policy.89456373.html){ .md-button }
+    [:octicons-globe-16: Website](https://tosdr.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://docs.tosdr.org/sp/tosdr.org-Privacy-Policy.89456373.html){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://docs.tosdr.org/index.html){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://tosdr.org/donate){ .card-link title=Contribute }
 
 We do not recommend installing ToS;DR as a browser extension; the same information is also provided on their website.
 

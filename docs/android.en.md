@@ -27,7 +27,11 @@ We recommend installing one of these custom Android operating systems on your de
 
     GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wiki/Hardening_(computing)) and privacy improvements. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
 
-    [Homepage](https://grapheneos.org/){ .md-button .md-button--primary } [Privacy Policy](https://grapheneos.org/faq#privacy-policy){ .md-button }
+    [:octicons-home-16: Homepage](https://grapheneos.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentation}
+    [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
 GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) fully sandboxed like any other regular app. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging/), while giving you full control over their permissions and access, and while containing them to a specific work profile or user [profile](android/overview.md#user-profiles) of your choice.
 
@@ -41,7 +45,11 @@ Google Pixel phones are the only devices that currently meet GrapheneOS's [hardw
 
     **CalyxOS** is a system with some privacy features on top of AOSP, including [Datura](https://calyxos.org/docs/tech/datura-details) firewall, [Signal](https://signal.org) integration in the dialer app, and a built in panic button. CalyxOS also comes with firmware updates and signed builds, so verified boot is fully supported.
 
-    [Homepage](https://calyxos.org/){ .md-button .md-button--primary } [Privacy Policy](https://calyxinstitute.org/legal/privacy-policy){ .md-button }
+    [:octicons-home-16: Homepage](https://calyxos.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://calyxinstitute.org/legal/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://calyxos.org/docs/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/CalyxOS){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://members.calyxinstitute.org/donate){ .card-link title=Contribute }
 
 For people who need Google Play Services, CalyxOS optionally includes [microG](https://microg.org/). CalyxOS also includes alternate location services, [Mozilla](https://location.services.mozilla.com/) and [DejaVu](https://github.com/n76/DejaVu).
 
@@ -56,7 +64,11 @@ CalyxOS only [supports](https://calyxos.org/docs/guide/device-support/) Google P
     **DivestOS** is a soft-fork of [LineageOS](https://lineageos.org/).
     DivestOS inherits many [supported devices](https://divestos.org/index.php?page=devices&base=LineageOS) from LineageOS. It has signed builds, making it possible to have [verified boot](https://source.android.com/security/verifiedboot) on some non-Pixel devices.
 
-    [Homepage](https://divestos.org){ .md-button .md-button--primary } [Privacy Policy](https://divestos.org/index.php?page=privacy_policy){ .md-button }
+    [:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://divested.dev/index.php?page=donate){ .card-link title=Contribute }
 
 DivestOS has automated kernel vulnerability ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), fewer proprietary blobs, a custom [hosts](https://divested.dev/index.php?page=dnsbl) file, and [F-Droid](https://www.f-droid.org) as the app store. It includes [UnifiedNlp](https://github.com/microg/UnifiedNlp) for network location. Its hardened WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), enables [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) for all architectures and includes [network state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning).
 
@@ -92,7 +104,7 @@ A few more tips regarding Android devices and operating system compatibility:
 
     Beginning with the **Pixel 6** and **6 Pro**, Pixel devices receive a minimum of 5 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-4 years competing OEMs typically offer.
 
-    [Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
+    [:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
 Unless you have a need for specific [CalyxOS features](https://calyxos.org/features/) that are unavailable on GrapheneOS, we strongly recommend GrapheneOS over other operating system choices on Pixel devices.
 
@@ -145,14 +157,16 @@ Fairphone markets their devices as receiving 6 years of support. However, the So
 
     **Orbot** is a free proxy app that routes your connections through the Tor Network.
 
-    [Homepage](https://orbot.app/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/guardianproject/orbot){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-        - [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid)
-        - [:fontawesome-brands-github: Source](https://github.com/guardianproject/orbot)
-        - [:fontawesome-brands-gitlab: Source](https://gitlab.com/guardianproject/orbot)
+        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=org.torproject.android){ .card-link title="Google Play" }
+        [:pg-f-droid:](https://guardianproject.info/fdroid){ .card-link title=F-Droid }
 
 Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
@@ -174,13 +188,14 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
 
     Shelter supports blocking contact search cross profiles and sharing files across profiles via the default file manager ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
 
-    [Project Info](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
+    [:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=net.typeblog.shelter)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/net.typeblog.shelter)
-        - [:fontawesome-brands-github: Source](https://github.com/PeterCxy/Shelter)
+        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=net.typeblog.shelter){ .card-link title="Google Play" }
+        [:pg-f-droid:](https://f-droid.org/en/packages/net.typeblog.shelter){ .card-link title=F-Droid }
 
 !!! warning
 
@@ -199,12 +214,16 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
 
     **Auditor** is an app which leverages hardware security features to provide device integrity monitoring for [supported devices](https://attestation.app/about#device-support). Currently it works with GrapheneOS and the device's stock operating system.
 
-    [Website](https://attestation.app){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://attestation.app){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://attestation.app/about){ .card-link title=Documentation}
+    [:octicons-code-16:](https://attestation.app/source){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor)
-        - [:fontawesome-brands-github: Source](https://github.com/GrapheneOS/Auditor)
+        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=app.attestation.auditor){ .card-link title="Google Play" }
+        [:fontawesome-brands-github:](https://github.com/GrapheneOS/Auditor/releases){ .card-link title=GitHub }
 
 Auditor performs attestation and intrusion detection by:
 
@@ -228,12 +247,15 @@ To make sure that your hardware and operating system is genuine, [perform local 
 
       **Secure Camera** is an camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
 
-    [Source Code](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
+    [:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
-        - [:fontawesome-brands-github: Source](https://github.com/GrapheneOS/Camera/releases)
+        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play){ .card-link title="Google Play" }
+        [:fontawesome-brands-github:](https://github.com/GrapheneOS/Camera/releases){ .card-link title=GitHub }
 
 Main privacy features include:
 
@@ -258,12 +280,14 @@ Main privacy features include:
 
     [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) is used to enforce that the JavaScript and styling properties within the WebView are entirely static content.
 
-    [App Info](https://github.com/GrapheneOS/PdfViewer#readme){ .md-button .md-button--primary }
+    [:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
-        - [:fontawesome-brands-github: Source](https://github.com/GrapheneOS/PdfViewer/releases)
+        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play){ .card-link title="Google Play" }
+        [:fontawesome-brands-github:](https://github.com/GrapheneOS/PdfViewer/releases){ .card-link title=GitHub }
 
 ### PrivacyBlur
 
@@ -273,13 +297,15 @@ Main privacy features include:
 
     **PrivacyBlur** is a free app which can blur sensitive portions of pictures before sharing them online.
 
-    [Website](https://privacyblur.app/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://privacyblur.app/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.mathema.privacyblur/)
-        - [:fontawesome-brands-github: Source](https://github.com/MATHEMA-GmbH/privacyblur)
+        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=de.mathema.privacyblur){ .card-link title="Google Play" }
+        [:pg-f-droid:](https://f-droid.org/en/packages/de.mathema.privacyblur/){ .card-link title=F-Droid }
 
 !!! warning
 
@@ -324,11 +350,14 @@ To mitigate these problems, we recommend [Neo Store](https://github.com/NeoAppli
     **Neo Store** is a modern F-Droid client made with MaterialUI, forked from [Foxy Droid](https://github.com/kitsunyan/foxy-droid).
 
     Unlike the official F-Droid client, Neo Store supports seamless updates on Android 12 and above without the need for a privileged extension. If your Android distribution is on Android 12 or above and does not include the [F-Droid privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged/), it is highly recommended that you use Neo Store instead of the official client.
+    
+    [:octicons-repo-16: Repository](https://github.com/NeoApplications/Neo-Store){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://github.com/NeoApplications/Neo-Store){ .card-link title="Source Code" }
 
     ??? downloads
 
-        - [:fontawesome-brands-android: APK Download](https://android.izzysoft.de/repo/apk/com.looker.droidify)
-        - [:fontawesome-brands-github: Source](https://github.com/NeoApplications/Neo-Store)
+        [:fontawesome-brands-android:](https://android.izzysoft.de/repo/apk/com.looker.droidify){ .card-link title="IzzyOnDroid (APK)" }
+        [:fontawesome-brands-github:](https://github.com/NeoApplications/Neo-Store/releases){ .card-link title=GitHub }
 
 ### Manually with RSS Notifications
 

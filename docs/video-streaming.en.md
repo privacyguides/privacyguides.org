@@ -16,15 +16,18 @@ The primary threat when using a video streaming platform is that your streaming 
 
     By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
 
-    [Homepage](https://freetubeapp.io){ .md-button .md-button--primary } [Privacy Policy](https://freetubeapp.io/privacy.php){ .md-button }
+    [:octicons-home-16: Homepage](https://freetubeapp.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://docs.freetubeapp.io/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://freetubeapp.io/#download)
-        - [:fontawesome-brands-apple: macOS](https://freetubeapp.io/#download)
-        - [:fontawesome-brands-linux: Linux](https://freetubeapp.io/#download)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
-        - [:fontawesome-brands-github: Source](https://github.com/FreeTubeApp/FreeTube/)
+        [:fontawesome-brands-windows:](https://freetubeapp.io/#download){ .card-link title=Windows }
+        [:fontawesome-brands-apple:](https://freetubeapp.io/#download){ .card-link title=macOS }
+        [:fontawesome-brands-linux:](https://freetubeapp.io/#download){ .card-link title=Linux }
+        [:pg-flathub:](https://flathub.org/apps/details/io.freetubeapp.FreeTube){ .card-link title=Flatpak }
 
 !!! Warning
 
@@ -40,14 +43,16 @@ The primary threat when using a video streaming platform is that your streaming 
 
     **The LBRY desktop client** helps you stream videos from the LBRY network and stores your subscription list in your own LBRY wallet.
 
-    [Website](https://lbry.com){ .md-button .md-button--primary } [Privacy Policy](https://lbry.com/privacypolicy){ .md-button }
+    [:octicons-home-16: Homepage](https://lbry.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://lbry.com/privacypolicy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://lbry.com/faq){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/lbryio/lbry-desktop){ .card-link title="Source Code" }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://lbry.com/get)
-        - [:fontawesome-brands-apple: macOS](https://lbry.com/osx)
-        - [:fontawesome-brands-linux: Linux](https://lbry.com/linux)
-        - [:fontawesome-brands-github: Source](https://github.com/lbryio)
+        [:fontawesome-brands-windows:](https://lbry.com/windows){ .card-link title=Windows }
+        [:fontawesome-brands-apple:](https://lbry.com/osx){ .card-link title=macOS }
+        [:fontawesome-brands-linux:](https://lbry.com/linux){ .card-link title=Linux }
 
 !!! note
 
@@ -71,12 +76,16 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
 
     Your subscription list and playlists are saved locally on your Android device.
 
-    [Homepage](https://newpipe.net){ .md-button .md-button--primary } [Privacy Policy](https://newpipe.net/legal/privacy){ .md-button }
+    [:octicons-home-16: Homepage](https://newpipe.net){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://teamnewpipe.github.io/documentation/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://newpipe.net/donate/){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-android: F-Droid repo](https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo)
-        - [:fontawesome-brands-github: Source](https://github.com/TeamNewPipe/NewPipe)
+        [:pg-f-droid:](https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo){ .card-link title=F-Droid}
+        [:fontawesome-brands-github:](https://github.com/TeamNewPipe/NewPipe/releases){ .card-link title=GitHub }
 
 1. The default instance is [FramaTube](https://framatube.org/), however more can be added via **Settings** → **Content** → **PeerTube instances**
 
@@ -108,15 +117,14 @@ This fork is not endorsed by or affiliated with the upstream project. The NewPip
     ![Invidious logo](assets/img/video-streaming/invidious-dark.svg#only-dark){ align=right }
 
     **Invidious** is a free and open source frontend for YouTube that is also self-hostable.
-    
-    There is a list of [public instances](https://instances.invidious.io), with some instances having [Tor](https://www.torproject.org) onion services support.
 
-    [Website](https://invidious.io){ .md-button .md-button--primary }
+    There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
 
-    ??? downloads
-
-        - [:fontawesome-solid-earth-americas: Instances](https://instances.invidious.io)
-        - [:fontawesome-brands-github: Source](https://github.com/iv-org/invidious)
+    [:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://instances.invidious.io){ .card-link title="Public Instances"}
+    [:octicons-info-16:](https://docs.invidious.io/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://invidious.io/donate/){ .card-link title=Contribute }
 
 !!! warning
 
@@ -136,15 +144,15 @@ When you are using an Invidious instance, make sure to read the privacy policy o
 
     ![Piped logo](assets/img/video-streaming/piped.svg){ align=right }
 
-    **Piped** is a free and open source frontend for YouTube that is also self-hostable. Alternative instances can be selected from "Preferences".
+    **Piped** is a free and open source frontend for YouTube that is also self-hostable.
 
-    Piped requires JavaScript in order to function.
+    Piped requires JavaScript in order to function and there are a number of public instances.
 
-    [Website](https://piped.kavin.rocks/){ .md-button .md-button--primary }
-
-    ??? downloads
-
-        - [:fontawesome-brands-github: Source](https://github.com/TeamPiped/Piped)
+    [:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://piped.kavin.rocks/preferences#ddlInstanceSelection){ .card-link title="Public Instances"}
+    [:octicons-info-16:](https://piped-docs.kavin.rocks/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribute }
 
 !!! tip
 
@@ -165,11 +173,10 @@ When you are using a Piped instance, make sure to read the privacy policy of tha
     
     There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
 
-    [Website](https://librarian.codeberg.page/){ .md-button .md-button--primary }
-
-    ??? downloads
-
-        - [:fontawesome-brands-git: Source](https://codeberg.org/librarian/librarian)
+    [:octicons-repo-16: Repository](https://codeberg.org/librarian/librarian){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://librarian.codeberg.page/){ .card-link title="Public Instances"}
+    [:octicons-info-16:](https://codeberg.org/librarian/librarian/wiki){ .card-link title=Documentation}
+    [:octicons-code-16:](https://codeberg.org/librarian/librarian){ .card-link title="Source Code" }
 
 !!! warning
 

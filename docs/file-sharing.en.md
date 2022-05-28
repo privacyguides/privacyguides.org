@@ -14,14 +14,16 @@ Discover how to privately share your files between your devices, with your frien
 
     **OnionShare** is an open-source tool that lets you securely and anonymously share a file of any size. It works by starting a web server accessible as a Tor onion service, with an unguessable URL that you can share with the recipients to download or send files.
 
-    [Homepage](https://onionshare.org){ .md-button .md-button--primary } [:pg-tor:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .md-button }
+    [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
+    [:pg-tor:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title=Onion }
+    [:octicons-info-16:](https://docs.onionshare.org/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://onionshare.org/#download)
-        - [:fontawesome-brands-apple: macOS](https://onionshare.org/#download)
-        - [:fontawesome-brands-linux: Linux](https://onionshare.org/#download)
-        - [:fontawesome-brands-github: Source](https://github.com/onionshare/onionshare)
+        [:fontawesome-brands-windows:](https://onionshare.org/#download){ .card-link title=Windows }
+        [:fontawesome-brands-apple:](https://onionshare.org/#download){ .card-link title=macOS }
+        [:fontawesome-brands-linux:](https://onionshare.org/#download){ .card-link title=Linux }
 
 ### Magic Wormhole
 
@@ -31,14 +33,15 @@ Discover how to privately share your files between your devices, with your frien
 
     **Magic Wormhole** is a package that provides a library and a command-line tool named wormhole, which makes it possible to get arbitrary-sized files and directories (or short pieces of text) from one computer to another. Their motto: "Get things from one computer to another, safely.
 
-    [Homepage](https://magic-wormhole.readthedocs.io){ .md-button .md-button--primary }
+    [:octicons-repo-16: Repository](https://github.com/magic-wormhole/magic-wormhole){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://magic-wormhole.readthedocs.io/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/magic-wormhole/magic-wormhole){ .card-link title="Source Code" }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation)
-        - [:fontawesome-brands-apple: macOS](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#macos-os-x)
-        - [:fontawesome-brands-linux: Linux](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation)
-        - [:fontawesome-brands-github: Source](https://github.com/magic-wormhole/magic-wormhole)
+        [:fontawesome-brands-windows:](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation){ .card-link title=Windows }
+        [:fontawesome-brands-apple:](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#macos-os-x){ .card-link title=macOS }
+        [:fontawesome-brands-linux:](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation){ .card-link title=Linux }
 
 ## FreedomBox
 
@@ -48,11 +51,10 @@ Discover how to privately share your files between your devices, with your frien
 
     **FreedomBox** is an operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications that you might want to selfhost.
 
-    [Homepage](https://freedombox.org){ .md-button .md-button--primary }
-
-    ??? downloads
-
-        - [:fontawesome-brands-git: Source](https://salsa.debian.org/freedombox-team/freedombox)
+    [:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
+    [:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://freedomboxfoundation.org/donate/){ .card-link title=Contribute }
 
 ## File Sync
 
@@ -64,19 +66,21 @@ Discover how to privately share your files between your devices, with your frien
 
     **Syncthing** is an open-source peer-to-peer continuous file synchronization utility. It is used to synchronize files between two or more devices over the local network or the internet. Syncthing does not use a centralized server; it uses the [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) to transfer data between devices. All data is encrypted using TLS.
 
-    [Homepage](https://syncthing.net){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://syncthing.net/downloads)
-        - [:fontawesome-brands-apple: macOS](https://syncthing.net/downloads)
-        - [:fontawesome-brands-linux: Linux](https://syncthing.net/downloads)
-        - [:fontawesome-brands-freebsd: FreeBSD](https://syncthing.net/downloads/)
-        - [:pg-openbsd: OpenBSD](https://syncthing.net/downloads/)
-        - [:pg-netbsd: NetBSD](https://syncthing.net/downloads/)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.nutomic.syncthingandroid/)
-        - [:fontawesome-brands-github: Source](https://github.com/syncthing)
+        [:fontawesome-brands-windows:](https://syncthing.net/downloads/){ .card-link title=Windows }
+        [:fontawesome-brands-apple:](https://syncthing.net/downloads/){ .card-link title=macOS }
+        [:fontawesome-brands-linux:](https://syncthing.net/downloads/){ .card-link title=Linux }
+        [:fontawesome-brands-freebsd:](https://syncthing.net/downloads/){ .card-link title=FreeBSD }
+        [:pg-openbsd:](https://syncthing.net/downloads/){ .card-link title=OpenBSD }
+        [:pg-netbsd:](https://syncthing.net/downloads/){ .card-link title=NetBSD }
+        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid){ .card-link title="Google Play" }
+        [:pg-f-droid:](https://f-droid.org/packages/com.nutomic.syncthingandroid/){ .card-link title=F-Droid }
 
 ### git-annex
 
@@ -86,11 +90,14 @@ Discover how to privately share your files between your devices, with your frien
 
     **git-annex** allows managing files with git, without checking the file contents into git. While that may seem paradoxical, it is useful when dealing with files larger than git can currently easily handle, whether due to limitations in memory, time, or disk space.
 
-    [Homepage](https://git-annex.branchable.com){ .md-button .md-button--primary } [Privacy Policy](https://git-annex.branchable.com/privacy){ .md-button }
+    [:octicons-home-16: Homepage](https://git-annex.branchable.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://git-annex.branchable.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://git-annex.branchable.com/walkthrough/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://git-annex.branchable.com/install/fromsource/){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://git-annex.branchable.com/thanks/){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://git-annex.branchable.com/install/Windows)
-        - [:fontawesome-brands-apple: macOS](https://git-annex.branchable.com/install/OSX)
-        - [:fontawesome-brands-linux: Linux](https://git-annex.branchable.com/install)
-        - [:fontawesome-brands-git: Source](https://git-annex.branchable.com/install/fromsource/)
+        [:fontawesome-brands-windows:](https://git-annex.branchable.com/install/Windows){ .card-link title=Windows }
+        [:fontawesome-brands-apple:](https://git-annex.branchable.com/install/OSX){ .card-link title=macOS }
+        [:fontawesome-brands-linux:](https://git-annex.branchable.com/install){ .card-link title=Linux }
