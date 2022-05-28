@@ -146,6 +146,26 @@ h1, h2, h3, .md-header__topic {
     right:auto;
 }
 
+.downloads .card-link {
+  font-size: 1.25em;
+  padding: 1em 0 !important;
+}
+
+.downloads p {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+@media screen and (min-width: 400px) {
+  .downloads p {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+}
 .downloads p > a:not(:last-child) {
     padding-right: 0.5em;
 }
