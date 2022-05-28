@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Bagnard';
-    src: url("/assets/fonts/bagnard/Bagnard.woff") format("woff");
+    src: url("/assets/brand/WOFF/bagnard/Bagnard.woff") format("woff");
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/assets/fonts/public_sans/PublicSans-Bold.woff2') format('woff2');
+    src: url('/assets/brand/WOFF/public_sans/PublicSans-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/assets/fonts/public_sans/PublicSans-BoldItalic.woff2') format('woff2');
+    src: url('/assets/brand/WOFF/public_sans/PublicSans-BoldItalic.woff2') format('woff2');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -22,7 +22,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/assets/fonts/public_sans/PublicSans-Light.woff2') format('woff2');
+    src: url('/assets/brand/WOFF/public_sans/PublicSans-Light.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -30,7 +30,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/assets/fonts/public_sans/PublicSans-Italic.woff2') format('woff2');
+    src: url('/assets/brand/WOFF/public_sans/PublicSans-Italic.woff2') format('woff2');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -38,7 +38,7 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('/assets/fonts/public_sans/PublicSans-Regular.woff2') format('woff2');
+    src: url('/assets/brand/WOFF/public_sans/PublicSans-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -46,7 +46,7 @@
 
 @font-face {
     font-family: 'DM Mono';
-    src: url('/assets/fonts/dm_mono/DMMono-Regular.woff2') format('woff2');
+    src: url('/assets/brand/WOFF/dm_mono/DMMono-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -54,7 +54,7 @@
 
 @font-face {
     font-family: 'DM Mono';
-    src: url('/assets/fonts/dm_mono/DMMono-Medium.woff2') format('woff2');
+    src: url('/assets/brand/WOFF/dm_mono/DMMono-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;

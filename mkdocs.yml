@@ -49,8 +49,8 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   custom_dir: theme
-  logo: assets/logo.svg
-  favicon: assets/img/layout/favicon.ico
+  logo: assets/brand/SVG/Logo/privacy-guides-logo-notext-colorbg.svg
+  favicon: assets/brand/PNG/Favicon/favicon-32x32.png
   icon:
     repo: fontawesome/brands/github
   font: false
@@ -94,7 +94,7 @@ plugins:
         - cdn.jsdelivr.net/npm/mathjax@3/*
         - api.privacyguides.net/*
 extra_css:
-  - stylesheets/extra.css
+  - assets/stylesheets/extra.css
 markdown_extensions:
   - admonition
   - pymdownx.details

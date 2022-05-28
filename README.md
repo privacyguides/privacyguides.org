@@ -2,8 +2,8 @@
 <div align="center">
   <a href="https://www.privacyguides.org/">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://privacyguides.org/assets/img/layout/privacy-guides-logo-dark.svg">
-      <img alt="Privacy Guides" width="500px" src="https://privacyguides.org/assets/img/layout/privacy-guides-logo.svg">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/privacyguides/brand/main/SVG/Logo/privacy-guides-logo-dark.svg">
+      <img alt="Privacy Guides" width="500px" src="https://raw.githubusercontent.com/privacyguides/brand/main/SVG/Logo/privacy-guides-logo.svg">
     </picture>
   </a>
 
@@ -69,7 +69,10 @@ Our current list of team members can be found [here](https://github.com/orgs/pri
 
 This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdocs-material/insiders/) which offers additional functionality over the open-source `mkdocs-material` project. For obvious reasons we cannot distribute access to the insiders repository. You can install the website locally with the open-source version of `mkdocs-material`:
 
-1. Clone this repository: `git clone https://github.com/privacyguides/privacyguides.org.git`
+1. Clone this repository: 
+    - `git clone https://github.com/privacyguides/privacyguides.org.git`
+    - `git submodule init`
+    - `git submodule update docs/assets/brand`
 2. Install [Python 3.6+](https://www.python.org/downloads/)
 3. Install [dependencies](/Pipfile): `pip install mkdocs mkdocs-material mkdocs-static-i18n mkdocs-git-revision-date-localized-plugin typing-extensions`
 4. Serve the site locally: `mkdocs serve`
