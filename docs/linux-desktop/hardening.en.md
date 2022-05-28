@@ -38,11 +38,11 @@ Some distributions like Arch Linux have the [linux-hardened](https://github.com/
 
 LKRG is a kernel module that performs runtime integrity check on the kernel to help detect detect exploits against the kernel. LKRG works in a *post*-detect fashion, attempting to respond to unauthorized modifications to the running Linux kernel. While it is [bypassable by design](https://lkrg.org/), it does stop off-the-shelf malware that does not specifically target LKRG itself. This may make exploits harder to develop and execute on vulnerable systems.
 
-If you can get LKRG and maintain module updates it provides a worthwhile improvement to security. Debian based distributions can get the LKRG DKMS from KickSecure's secure repository and the [KickSecure documentation](https://www.kicksecure.com/wiki/Linux_Kernel_Runtime_Guard_LKRG) has instructions on how this can be achieved. There is no LKRG package for Fedora yet, however the Qubes OS project has a COPR repository which [may become]((https://github.com/QubesOS/qubes-issues/issues/5461) part of the main distribution in the future. Archlinux based systems provide LKRG DKMS modules via an [AUR package](https://aur.archlinux.org/packages/lkrg-dkms).
+If you can get LKRG and maintain module updates it provides a worthwhile improvement to security. Debian based distributions can get the LKRG DKMS from KickSecure's secure repository and the [KickSecure documentation](https://www.kicksecure.com/wiki/Linux_Kernel_Runtime_Guard_LKRG) has instructions on how this can be achieved. There is no LKRG package for Fedora yet, however the Qubes OS project has a COPR repository which [may become](https://github.com/QubesOS/qubes-issues/issues/5461) part of the main distribution in the future. Archlinux based systems provide LKRG DKMS modules via an [AUR package](https://aur.archlinux.org/packages/lkrg-dkms).
 
 ## GRSecurity
 
-GRSecurity is a set of kernel patches that attempt to improve security of the Linux kernel.  It requires [payment to access]((https://github.com/QubesOS/qubes-issues/issues/5461) the code.
+GRSecurity is a set of kernel patches that attempt to improve security of the Linux kernel.  It requires [payment to access](https://github.com/QubesOS/qubes-issues/issues/5461) the code.
 
 ## Simultaneous multithreading (SMT)
 
