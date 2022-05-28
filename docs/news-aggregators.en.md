@@ -15,13 +15,16 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     **Fluent Reader** is a secure cross-platform news aggregator that has useful privacy features such as deletion of cookies on exit, strict [content security policies (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) and proxy support, meaning you can use it over [Tor](self-contained-networks.md#tor).
 
-    [Homepage](https://hyliu.me/fluent-reader){ .md-button .md-button--primary } [Privacy Policy](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .md-button }
+    [:octicons-home-16: Homepage](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://hyliu.me/fluent-reader)
-        - [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/app/id1520907427)
-        - [:fontawesome-brands-github: Source](https://github.com/yang991178/fluent-reader.git)
+        [:fontawesome-brands-windows:](https://hyliu.me/fluent-reader){ .card-link title=Windows }
+        [:fontawesome-brands-app-store:](https://apps.apple.com/app/id1520907427){ .card-link title="Mac App Store" }
 
 ### GNOME Feeds
 
@@ -31,13 +34,14 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     **GNOME Feeds** is an [RSS](https://en.wikipedia.org/wiki/RSS) and [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) news reader for [GNOME](https://www.gnome.org). It has a simple interface and is quite fast.
 
-    [Homepage](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-linux: Linux](https://gfeeds.gabmus.org/#install)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.gabmus.gfeeds)
-        - [:fontawesome-brands-gitlab: Source](https://gitlab.gnome.org/World/gfeeds)
+        [:fontawesome-brands-linux:](https://gfeeds.gabmus.org/#install){ .card-link title=Linux }
+        [:pg-flathub:](https://flathub.org/apps/details/org.gabmus.gfeeds){ .card-link title=Flatpak }
 
 ### Akregator
 
@@ -47,12 +51,15 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     **Akregator** is a news feed reader that is a part of the [KDE](https://kde.org) project. It comes with a fast search, advanced archiving functionality and an internal browser for easy news reading.
 
-    [Website](https://apps.kde.org/akregator){ .md-button .md-button--primary } [Privacy Policy](https://kde.org/privacypolicy-apps){ .md-button }
+    [:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentation}
+    [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.kde.akregator)
-        - [:fontawesome-brands-git: Source](https://invent.kde.org/pim/akregator)
+        [:pg-flathub:](https://flathub.org/apps/details/org.kde.akregator){ .card-link title=Flatpak }
 
 ### Feeder
 
@@ -62,13 +69,14 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     **Feeder** is a modern RSS client for Android that has many [features](https://gitlab.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. It supports it supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) and [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
-    [Homepage](https://gitlab.com/spacecowboy/Feeder){ .md-button .md-button--primary }
+    [:octicons-repo-16: Repository](https://gitlab.com/spacecowboy/Feeder){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.com/spacecowboy/Feeder){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.nononsenseapps.feeder/)
-        - [:fontawesome-brands-gitlab: Source](https://gitlab.com/spacecowboy/Feeder)
+        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play){ .card-link title="Google Play" }
+        [:pg-f-droid:](https://f-droid.org/en/packages/com.nononsenseapps.feeder/){ .card-link title=F-Droid }
 
 ### NetNewsWire
 
@@ -78,13 +86,15 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     **NetNewsWire** a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. It supports the typical feed formats alongside built-in support for Twitter and Reddit feeds.
 
-    [Homepage](https://netnewswire.com/){ .md-button .md-button--primary } [Privacy Policy](https://netnewswire.com/privacypolicy){ .md-button }
+    [:octicons-home-16: Homepage](https://netnewswire.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
 
     ??? downloads
 
-        - [:fontawesome-brands-apple: macOS](https://netnewswire.com)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
-        - [:fontawesome-brands-github: Source](https://github.com/Ranchero-Software/NetNewsWire)
+        [:fontawesome-brands-apple:](https://netnewswire.com){ .card-link title=macOS }
+        [:fontawesome-brands-app-store-ios:](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210){ .card-link title="App Store" }
 
 ### Miniflux
 
@@ -95,11 +105,10 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     **Miniflux** is a web-based news aggregator that you can self-host. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
-    [Homepage](https://miniflux.app){ .md-button .md-button--primary }
-
-    ??? downloads
-
-        - [:fontawesome-brands-github: Source](https://github.com/miniflux)
+    [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title=Contribute }
 
 ### Newsboat
 
@@ -109,11 +118,9 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     **Newsboat** is an RSS/Atom feed reader for the text console. It's an actively maintained fork of [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). It is very lightweight, and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
 
-    [Homepage](https://newsboat.org){ .md-button .md-button--primary }
-
-    ??? downloads
-
-        - [:fontawesome-brands-github: Source](https://github.com/newsboat/newsboat)
+    [:octicons-home-16: Homepage](https://newsboat.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://newsboat.org/releases/2.27/docs/newsboat.html){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Source Code" }
 
 ## Social media that supports RSS
 

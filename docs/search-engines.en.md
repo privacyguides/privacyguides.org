@@ -21,7 +21,10 @@ Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org/) if your thr
 
     DuckDuckGo is the default search engine for the Tor Browser and is one of the few available options on Apple’s Safari browser.
 
-    [Website](https://duckduckgo.com){ .md-button .md-button--primary } [:pg-tor:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .md-button } [Privacy Policy](https://duckduckgo.com/privacy){ .md-button }
+    [:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
+    [:pg-tor:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title=Onion }
+    [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=Documentation}
 
 DuckDuckGo is based in the :flag_us: United States. Their [privacy policy](https://duckduckgo.com/privacy) states they **do** log your searches for product improvement purposes, but not your IP address or any other personally identifying information.
 
@@ -38,7 +41,9 @@ DuckDuckGo offers two other [versions](https://help.duckduckgo.com/features/non-
 
     Startpage has been known to refuse access to those using a VPN service or Tor, so your mileage may vary.
 
-    [Website](https://www.startpage.com){ .md-button .md-button--primary } [Privacy Policy](https://www.startpage.com/en/privacy-policy){ .md-button }
+    [:octicons-home-16: Homepage](https://www.startpage.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.startpage.com/index.php?/Knowledgebase/List){ .card-link title=Documentation}
 
 Startpage is based in the :flag_nl: Netherlands. According to their [privacy policy](https://www.startpage.com/en/privacy-policy/), they log details such as: operating system, type of browser, and language. They do not log your IP address, search queries, or other personally identifying information.
 
@@ -56,9 +61,12 @@ Startpage's majority shareholder is System1 who is an adtech company. We don't b
 
     We recommend you disable [Anonymous usage metrics](https://search.brave.com/help/usage-metrics), this option is enabled by default and can be disabled within settings.
 
-    Brave Search is based in the :flag_us: United States. Their [privacy policy](https://search.brave.com/help/privacy-policy) states they collect aggregated usage metrics, which includes the operating system and browser in use, however no personally identifiable information is collected. IP addresses are temporarily processed, but are not retained.
+    [:octicons-home-16: Homepage](https://search.brave.com/){ .md-button .md-button--primary }
+    [:pg-tor:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title=Onion }
+    [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
 
-    [Homepage](https://search.brave.com){ .md-button .md-button--primary } [:pg-tor:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .md-button } [Privacy Policy](https://search.brave.com/help/privacy-policy){ .md-button }
+Brave Search is based in the :flag_us: United States. Their [privacy policy](https://search.brave.com/help/privacy-policy) states they collect aggregated usage metrics, which includes the operating system and browser in use, however no personally identifiable information is collected. IP addresses are temporarily processed, but are not retained.
 
 ## SearXNG
 
@@ -66,12 +74,11 @@ Startpage's majority shareholder is System1 who is an adtech company. We don't b
 
     ![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
 
-    **SearXNG** is an open-source, self-hostable, metasearch engine, aggregating the results of other search engines while not storing any information itself. It is an actively maintained fork of [SearX](https://github.com/searx/searx). There is a [list of public instances](https://searx.space/).
+    **SearXNG** is an open-source, self-hostable, metasearch engine, aggregating the results of other search engines while not storing any information itself. It is an actively maintained fork of [SearX](https://github.com/searx/searx).
 
-    [Homepage](https://searxng.org){ .md-button .md-button--primary }
-    ??? downloads
-
-        - [:fontawesome-brands-github: Source](https://github.com/searxng/searxng)
+    [:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://searx.space/){ .card-link title="Public Instances"}
+    [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
 
 SearXNG is a proxy between you and the search engines it aggregates from. Your search queries will still be sent to the search engines that SearXNG gets its results from.
 

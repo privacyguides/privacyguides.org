@@ -83,13 +83,15 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ba
 
     **RethinkDNS** is an open-source Android client supporting [DNS-over-HTTPS](basics/dns.md#dns-over-https-doh), [DNS-over-TLS](basics/dns.md#dns-over-tls-dot), [DNSCrypt](basics/dns.md#dnscrypt) and DNS Proxy along with caching DNS responses, locally logging DNS queries and can be used as a firewall too.
 
-    [Website](https://rethinkdns.com){ .md-button .md-button--primary } [Privacy Policy](https://rethinkdns.com/privacy){ .md-button }
+    [:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.celzero.bravedns)
-        - [:fontawesome-brands-github: Source](https://github.com/celzero/rethink-app)
+        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=com.celzero.bravedns){ .card-link title="Google Play" }
+        [:pg-f-droid:](https://f-droid.org/packages/com.celzero.bravedns){ .card-link title=F-Droid }
 
 ### DNSCloak
 
@@ -99,12 +101,13 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ba
 
     **DNSCloak** is an open-source iOS client supporting [DNS-over-HTTPS](basics/dns.md#dns-over-https-doh), [DNSCrypt](basics/dns.md#dnscrypt), and [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy/wiki) options such as caching DNS responses, locally logging DNS queries, and custom block lists. You can [add custom resolvers by DNS stamp](https://medium.com/privacyguides/adding-custom-dns-over-https-resolvers-to-dnscloak-20ff5845f4b5).
 
-    [Project Info](https://github.com/s-s/dnscloak/blob/master/README.md){ .md-button .md-button--primary } [Privacy Policy](https://drive.google.com/file/d/1050No_pU74CAWUS5-BwQWyO2x_aiMzWc/view){ .md-button }
+    [:octicons-repo-16: Repository](https://github.com/s-s/dnscloak){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://drive.google.com/file/d/1050No_pU74CAWUS5-BwQWyO2x_aiMzWc/view){ .card-link title="Privacy Policy" }
+    [:octicons-code-16:](https://github.com/s-s/dnscloak){ .card-link title="Source Code" }
 
     ??? downloads
 
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1452162351)
-        - [:fontawesome-brands-github: Source](https://github.com/s-s/dnscloak)
+        [:fontawesome-brands-app-store-ios:](https://apps.apple.com/app/id1452162351){ .card-link title="App Store" }
 
 ### dnscrypt-proxy
 
@@ -116,14 +119,16 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ba
 
     !!! warning "The anonymized DNS feature does [**not**](basics/dns.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic."
 
-    [Wiki](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .md-button .md-button--primary } [Privacy Policy](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .md-button }
+    [:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
-        - [:fontawesome-brands-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
-        - [:fontawesome-brands-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
-        - [:fontawesome-brands-github: Source](https://github.com/DNSCrypt/dnscrypt-proxy)
+        [:fontawesome-brands-windows:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows){ .card-link title=Windows }
+        [:fontawesome-brands-apple:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS){ .card-link title=macOS }
+        [:fontawesome-brands-linux:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux){ .card-link title=Linux }
 
 ## Self-hosted Solutions
 
@@ -137,10 +142,10 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ba
 
     Pi-hole is designed to be hosted on a Raspberry Pi, but it is not limited to such hardware. The software features a friendly web interface to view insights and manage blocked content.
 
-    [Website](https://pi-hole.net/){ .md-button .md-button--primary } [Privacy Policy](https://pi-hole.net/privacy/){ .md-button }
-
-    ??? downloads
-
-        - [:fontawesome-brands-github: Source](https://github.com/pi-hole/pi-hole)
+    [:octicons-home-16: Homepage](https://pi-hole.net/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
 
 --8<-- "includes/abbreviations.en.md"

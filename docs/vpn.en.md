@@ -38,7 +38,11 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     **EUR €60/year**
 
-    [Website](https://mullvad.net){ .md-button .md-button--primary } [:pg-tor:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .md-button }
+    [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+    [:pg-tor:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title=Onion }
+    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
 
 ??? check annotate "38 Countries"
 
@@ -100,7 +104,10 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     **Free** — **Plus Plan USD $71.88/year** (1)
 
-    [Website](https://protonvpn.com/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
 
 1. A further 10% is discounted with a 2-year subscription ($119.76).
 
@@ -152,7 +159,10 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     **Standard USD $60/year** — **Pro USD $100/year**
 
-    [Website](https://www.ivpn.net/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
 
 ??? check annotate "32 Countries"
 
@@ -269,7 +279,7 @@ With the VPN providers we recommend we like to see responsible marketing.
 
 **Minimum to Qualify:**
 
-- Must self host analytics (no Google Analytics etc). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt-out.
+- Must self-host analytics (no Google Analytics etc). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt-out.
 
 Must not have any marketing which is irresponsible:
 

@@ -13,11 +13,10 @@ Below are a few alternative operating systems, that can be used on routers, Wi-F
 
     **OpenWrt** is an operating system (in particular, an embedded operating system) based on the Linux kernel, primarily used on embedded devices to route network traffic. The main components are the Linux kernel, util-linux, uClibc, and BusyBox. All components have been optimized for size, to be small enough for fitting into the limited storage and memory available in home routers.
 
-    [Homepage](https://openwrt.org){ .md-button .md-button--primary }
-
-    ??? downloads
-
-        - [:fontawesome-brands-git: Source](https://git.openwrt.org)
+    [:octicons-home-16: Homepage](https://openwrt.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/openwrt/openwrt){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://openwrt.org/donate){ .card-link title=Contribute }
 
 You can consult OpenWrt's [table of hardware](https://openwrt.org/toh/start) to check if your device is supported.
 
@@ -30,10 +29,9 @@ You can consult OpenWrt's [table of hardware](https://openwrt.org/toh/start) to 
 
     pfSense is an open source firewall/router computer software distribution based on FreeBSD. It is installed on a computer to make a dedicated firewall/router for a network and is noted for its reliability and offering features often only found in expensive commercial firewalls. pfSense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and VPN endpoint.
 
-    [Homepage](https://www.pfsense.org){ .md-button .md-button--primary } [Privacy Policy](https://www.pfsense.org/privacy.html){ .md-button }
-
-    ??? downloads
-
-        - [:fontawesome-brands-github: Source](https://github.com/pfsense)
+    [:octicons-home-16: Homepage](https://www.pfsense.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.netgate.com/pfsense/en/latest/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/pfsense/pfsense){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.pfsense.org/get-involved/){ .card-link title=Contribute }
 
 --8<-- "includes/abbreviations.en.md"

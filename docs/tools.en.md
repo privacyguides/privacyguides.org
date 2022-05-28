@@ -30,7 +30,7 @@ For your convenience, everything we recommend is listed below with a link to the
 <div class="grid cards annotate" markdown>
 
 - ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](browsers.md#ublock-origin)
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for Safari](browsers.md#adguard-for-safari)
+- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](browsers.md#adguard-for-ios)
 - ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](browsers.md#snowflake) (1)
 - ![ToS;DR logo](assets/img/browsers/terms_of_service_didnt_read.svg){ .twemoji } [Terms of Service; Didn't Read](browsers.md#terms-of-service-didnt-read) (2)
 

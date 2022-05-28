@@ -146,6 +146,26 @@ h1, h2, h3, .md-header__topic {
     right:auto;
 }
 
+.downloads p > a:not(:last-child) {
+    padding-right: 0.5em;
+}
+details[class="downloads annotate"] > p .md-annotation span span::before {
+    vertical-align: 0;
+}
+
+/* Card links */
+.md-typeset .card-link {
+    color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .card-link:hover {
+    color: var(--md-accent-fg-color);
+}
+
+.md-typeset .card-link:not(:first-child) {
+    padding-left: 0.5em;
+}
+
 /* Correct page icon size */
 .md-nav__link svg {
     width: 22px;

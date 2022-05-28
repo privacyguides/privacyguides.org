@@ -30,7 +30,11 @@ For everything else, we recommend a variety of email providers based on sustaina
 
     **Free**
 
-    [Website](https://proton.me/){ .md-button .md-button--primary } [:pg-tor:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .md-button } [Privacy Policy](https://proton.me/legal/privacy){ .md-button }
+    [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
+    [:pg-tor:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title=Onion }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
 
 ??? check "Custom Domains and Aliases"
 
@@ -47,7 +51,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 ??? check "Data Security"
 
     Proton Mail has [zero-access encryption](https://proton.me/blog/zero-access-encryption) at rest for your emails and [calendars](https://proton.me/news/protoncalendar-security-model). Data secured with zero-access encryption is only accessible by you.
-    
+
     Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are not secured with zero-access encryption. Contact fields that support zero-access encryption, such as phone numbers, are indicated with a padlock icon.
 
 ??? check "Email Encryption"
@@ -70,7 +74,9 @@ For everything else, we recommend a variety of email providers based on sustaina
 
     **EUR €12/year**
 
-    [Website](https://mailbox.org){ .md-button .md-button--primary } [Privacy Policy](https://mailbox.org/en/data-protection-privacy-policy){ .md-button }
+    [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
 
 ??? check "Custom Domains and Aliases"
 
@@ -113,7 +119,11 @@ For everything else, we recommend a variety of email providers based on sustaina
 
     **Free**
 
-    [Website](https://tutanota.com){ .md-button .md-button--primary } [Privacy Policy](https://tutanota.com/privacy){ .md-button }
+    [:octicons-home-16: Homepage](https://tutanota.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribute }
 
 Tutanota [doesn't allow](https://tutanota.com/faq/#imap) the use of third-party [email clients](email-clients.md). Tutanota has no plans pull email from [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) using the IMAP protocol. [Email import](https://github.com/tutao/tutanota/issues/630) is currently not possible.
 
@@ -160,7 +170,9 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
     **USD $59.95/year**
 
-    [Website](https://startmail.com/){ .md-button .md-button--primary } [Privacy Policy](https://www.startmail.com/en/privacy/){ .md-button }
+    [:octicons-home-16: Homepage](https://startmail.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentation}
 
 ??? check "Custom Domains and Aliases"
 
@@ -217,17 +229,19 @@ Using an aliasing service requires trusting both your email provider and your al
 
     **[SimpleLogin](https://simplelogin.io)** is a free service which provides email aliases on a variety of shared domain names, and optionally provides features like unlimited aliases and custom domains for $30/year. [Source code on GitHub](https://github.com/simple-login/app).
 
-    [Website](https://simplelogin.io){ .md-button .md-button--primary } [Privacy Policy](https://simplelogin.io/privacy/){ .md-button }
+    [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
 
     ??? downloads
-        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/)
-        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-        - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-        - [:fontawesome-brands-safari: Safari](https://apps.apple.com/app/id1494051017)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1494359858)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/io.simplelogin.android.fdroid/)
-        - [:fontawesome-brands-github: Source](https://github.com/simple-login)
+        [:fontawesome-brands-firefox:](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/){ .card-link title=Firefox }
+        [:fontawesome-brands-chrome:](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn){ .card-link title=Chrome }
+        [:fontawesome-brands-edge:](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff){ .card-link title=Edge }
+        [:fontawesome-brands-safari:](https://apps.apple.com/app/id1494051017){ .card-link title=Safari }
+        [:fontawesome-brands-app-store-ios:](https://apps.apple.com/app/id1494359858){ .card-link title="App Store" }
+        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=io.simplelogin.android){ .card-link title="Google Play" }
+        [:pg-f-droid:](https://f-droid.org/en/packages/io.simplelogin.android.fdroid/){ .card-link title=F-Droid }
 
 SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing.
 
@@ -246,14 +260,16 @@ Notable free features:
 
     **[AnonAddy](https://anonaddy.com)** lets you create 20 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous. It has two premium plans at $12/year and $36/year which provide additional features. [Source code on GitHub](https://github.com/anonaddy/anonaddy).
 
-    [Website](https://anonaddy.com){ .md-button .md-button--primary } [Privacy Policy](https://anonaddy.com/privacy/){ .md-button }
+    [:octicons-home-16: Homepage](https://anonaddy.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribute }
 
     ??? downloads
-        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
-        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
-        - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
-        - [:fontawesome-brands-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
-        - [:fontawesome-brands-github: Source](https://github.com/anonaddy)
+        [:fontawesome-brands-firefox:](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/){ .card-link title=Firefox }
+        [:fontawesome-brands-chrome:](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe){ .card-link title=Chrome }
+        [:material-apple-ios:](https://anonaddy.com/faq/#is-there-an-ios-app){ .card-link title=iOS }
+        [:fontawesome-brands-android:](https://anonaddy.com/faq/#is-there-an-android-app){ .card-link title=Android }
 
 The number of shared aliases (which end in a shared domain like @anonaddy.me) that you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/month plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared aliases are available for $36/year.
 
@@ -277,13 +293,22 @@ Advanced system administrators may consider setting up their own email server. M
 
     ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
 
-    **[Mail-in-a-Box](https://mailinabox.email)** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
+    **Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
+    
+    [:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
 
 !!! recommendation
 
     ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
 
-    **[Mailcow](https://mailcow.email)** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: A mailserver with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support. **[Mailcow Dockerized docs](https://mailcow.github.io/mailcow-dockerized-docs/)**
+    **Mailcow** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: A mailserver with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
+    
+    [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
 
 For a more manual approach we've picked out these two articles.
 
@@ -379,7 +404,7 @@ With the email providers we recommend we like to see responsible marketing.
 
 **Minimum to Qualify:**
 
-- Must self host analytics (no Google Analytics etc). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt-out.
+- Must self-host analytics (no Google Analytics etc). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt-out.
 
 Must not have any marketing which is irresponsible:
 

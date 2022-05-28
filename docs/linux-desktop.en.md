@@ -18,7 +18,9 @@ If you don't already use Linux, below are some distributions we suggest trying o
 
     **Fedora Workstation** is our recommended distribution for people new to Linux. Fedora generally adopts newer technologies before other distributions e.g., [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org), and soon, [FS-Verity](https://fedoraproject.org/wiki/Changes/FsVerityRPM). These new technologies often come with improvements in security, privacy, and usability in general.
 
-    [Homepage](https://getfedora.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://getfedora.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
 Fedora has a semi-rolling release cycle. While some packages like [GNOME](https://www.gnome.org) are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Each Fedora release is supported for one year, with a new version released every 6 months.
 
@@ -32,7 +34,9 @@ Fedora has a semi-rolling release cycle. While some packages like [GNOME](https:
 
     openSUSE Tumbleweed has a [transactional update](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/) system that uses [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) to ensure that snapshots can be rolled back should there be a problem.
 
-    [Homepage](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://doc.opensuse.org/){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://shop.opensuse.org/){ .card-link title=Contribute }
 
 Tumbleweed follows a rolling release model where each update is released as a snapshot of the distribution. When you upgrade your system, a new snapshot is downloaded. Each snapshot is run through a series of automated tests by [openQA](https://openqa.opensuse.org) to ensure its quality.
 
@@ -44,7 +48,9 @@ Tumbleweed follows a rolling release model where each update is released as a sn
 
     **Arch Linux** is a lightweight, do-it-yourself (DIY) distribution meaning that you only get what you install. For more information see their [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
 
-    [Homepage](https://archlinux.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://archlinux.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=Contribute }
 
 Arch Linux has a rolling release cycle. There is no fixed release schedule and packages are updated very frequently.
 
@@ -62,7 +68,9 @@ A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org)
 
     **Fedora Silverblue** and **Fedora Kinoite** are immutable variants of Fedora with a strong focus on container workflows. Silverblue comes with the [GNOME](https://www.gnome.org/) desktop environment while Kinoite comes with [KDE](https://kde.org/). Silverblue and Kinoite follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
 
-    [Homepage](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://silverblue.fedoraproject.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
 Silverblue (and Kinoite) differ from Fedora Workstation as they replace the [DNF](https://fedoraproject.org/wiki/DNF) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/package-management/rpm-ostree/). The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
 
@@ -80,7 +88,9 @@ As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fed
 
     NixOS is an independent distribution based on the Nix package manager with a focus on reproducibility and reliability.
 
-    [Homepage](https://nixos.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://nixos.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=Contribute }
 
 NixOS’s package manager keeps every version of every package in a different folder in the **Nix store**. Due to this you can have different versions of the same package installed on your system. After the package contents have been written to the folder, the folder is made read-only.
 
@@ -102,7 +112,9 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
     **Whonix** is based on [Kicksecure](https://www.whonix.org/wiki/Kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and anonymity on the internet.
 
-    [Homepage](https://www.whonix.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://www.whonix.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=Contribute }
 
 Whonix is meant to run as two virtual machines: a “Workstation” and a Tor “Gateway”. All communications from the Workstation has to go through the Tor gateway, and will be routed through the Tor Network.
 
@@ -122,7 +134,9 @@ Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qube
 
     It can boot on almost any computer from a DVD, USB stick, or SD card. It aims to preserve privacy and anonymity while circumventing censorship and leaving no trace of itself on the computer it is used on.
 
-    [Homepage](https://tails.boum.org/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://tails.boum.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://tails.boum.org/doc/index.en.html){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://tails.boum.org/donate/){ .card-link title=Contribute }
 
 By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.boum.org/doc/first_steps/persistence/index.en.html) can be configured to store some data.
 

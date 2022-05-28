@@ -16,15 +16,16 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     On Linux, a third party graphical tool [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) powered by MAT2 exists and is [available on Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
 
-    [Homepage](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
+    [:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentation}
+    [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Source Code" }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
-        - [:fontawesome-brands-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
-        - [:fontawesome-brands-linux: Linux](https://pypi.org/project/mat2)
-        - [:fontawesome-solid-earth-americas: Web](https://0xacab.org/jvoisin/mat2#web-interface)
-        - [:fontawesome-brands-gitlab: Source](https://0xacab.org/jvoisin/mat2)
+        [:fontawesome-brands-windows:](https://pypi.org/project/mat2){ .card-link title=Windows }
+        [:fontawesome-brands-apple:](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew){ .card-link title=macOS }
+        [:fontawesome-brands-linux:](https://pypi.org/project/mat2){ .card-link title=Linux }
+        [:octicons-globe-16:](https://0xacab.org/jvoisin/mat2#web-interface){ .card-link title=Web }
 
 ### ExifCleaner
 
@@ -34,14 +35,15 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     **ExifCleaner** is a freeware, open source graphical app that uses [ExifTool](https://exiftool.org) to remove Exif metadata from images, videos, and PDF documents using a simple drag and drop interface. It supports multi-core batch processing and dark mode.
 
-    [Homepage](https://exifcleaner.com){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://exifcleaner.com){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://github.com/szTheory/exifcleaner#readme){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/szTheory/exifcleaner){ .card-link title="Source Code" }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://github.com/szTheory/exifcleaner/releases)
-        - [:fontawesome-brands-apple: macOS](https://github.com/szTheory/exifcleaner/releases)
-        - [:fontawesome-brands-linux: Linux](https://github.com/szTheory/exifcleaner/releases)
-        - [:fontawesome-brands-github: Source](https://github.com/szTheory/exifcleaner)
+        [:fontawesome-brands-windows:](https://github.com/szTheory/exifcleaner/releases){ .card-link title=Windows }
+        [:fontawesome-brands-apple:](https://github.com/szTheory/exifcleaner/releases){ .card-link title=macOS }
+        [:fontawesome-brands-linux:](https://github.com/szTheory/exifcleaner/releases){ .card-link title=Linux }
 
 ## Mobile
 
@@ -53,13 +55,16 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     **Scrambled Exif** is a metadata removal tool for Android. It can remove Exif data for many file formats and has been translated into [many](https://gitlab.com/juanitobananas/scrambled-exif/-/tree/master/app/src/main/res) languages.
 
-    [Project Info](https://gitlab.com/juanitobananas/scrambled-exif#scrambled-exif){ .md-button .md-button--primary }
+    [:octicons-repo-16: Repository](https://gitlab.com/juanitobananas/scrambled-exif){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://gitlab.com/juanitobananas/scrambled-exif/-/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://gitlab.com/juanitobananas/scrambled-exif/-/blob/master/README.md){ .card-link title=Documentation}
+    [:octicons-code-16:](https://gitlab.com/juanitobananas/scrambled-exif){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://gitlab.com/juanitobananas/scrambled-exif#donating){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.jarsilio.android.scrambledeggsif)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.jarsilio.android.scrambledeggsif)
-        - [:fontawesome-brands-gitlab: Source](https://gitlab.com/juanitobananas/scrambled-exif)
+        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=com.jarsilio.android.scrambledeggsif){ .card-link title="Google Play" }
+        [:pg-f-droid:](https://f-droid.org/en/packages/com.jarsilio.android.scrambledeggsif){ .card-link title=F-Droid }
 
 ### Imagepipe
 
@@ -69,32 +74,32 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     **Imagepipe** is a a paint app for Android that can be used to redact photos and also delete Exif metadata. It has been translated into [many](https://codeberg.org/Starfish/Imagepipe#translations) languages.
 
-    [Project Info](https://codeberg.org/Starfish/Imagepipe#imagepipe){ .md-button .md-button--primary }
+    [:octicons-repo-16: Repository](https://codeberg.org/Starfish/Imagepipe){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://codeberg.org/Starfish/Imagepipe/src/branch/master/README.md){ .card-link title=Documentation}
+    [:octicons-code-16:](https://codeberg.org/Starfish/Imagepipe){ .card-link title="Source Code" }
 
     ??? downloads
 
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.kaffeemitkoffein.imagepipe/)
-        - [:fontawesome-brands-git: Source](https://codeberg.org/Starfish/Imagepipe)
+        [:pg-f-droid:](https://f-droid.org/en/packages/de.kaffeemitkoffein.imagepipe/){ .card-link title=F-Droid }
 
 Imagepipe is only available from F-Droid and not in Google Play. If you're looking for a paint app in Google Play we suggest [Pocket Paint](https://play.google.com/store/apps/details?id=org.catrobat.paintroid).
 
 ### Metapho
-
-!!! warning
-
-    Metapho is closed source. We recommend it, due to the few choices there are for iOS devices.
 
 !!! recommendation
 
     ![Metapho logo](assets/img/metadata-removal/metapho.jpg){ align=right }
 
     Metapho is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
+    
+    Metapho is closed source, however we recommend it due to the few choices there are for iOS.
 
-    [Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary } [Privacy Policy](https://zininworks.com/privacy/){ .md-button }
+    [:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
 
     ??? downloads
 
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/metapho/id914457352)
+        [:fontawesome-brands-app-store-ios:](https://apps.apple.com/us/app/metapho/id914457352){ .card-link title="App Store" }
 
 ## Command-line
 
@@ -108,15 +113,16 @@ Imagepipe is only available from F-Droid and not in Google Play. If you're looki
 
     It's often a component of other Exif removal applications and is in most Linux distribution repositories.
 
-    [Homepage](https://exiftool.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://exiftool.org)
-        - [:fontawesome-brands-apple: macOS](https://exiftool.org)
-        - [:fontawesome-brands-linux: Linux](https://exiftool.org)
-        - [:fontawesome-brands-git: Source](https://sourceforge.net/projects/exiftool)
-        - [:fontawesome-brands-github: Source](https://github.com/exiftool/exiftool)
+        [:fontawesome-brands-windows:](https://exiftool.org){ .card-link title=Windows }
+        [:fontawesome-brands-apple:](https://exiftool.org){ .card-link title=macOS }
+        [:fontawesome-brands-linux:](https://exiftool.org){ .card-link title=Linux }
 
 
 !!! example "Deleting data from a directory of files"
