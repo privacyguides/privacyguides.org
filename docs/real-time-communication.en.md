@@ -85,7 +85,7 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
 
     ??? downloads
 
-        [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.briarproject.Briar){ .card-link title=Flatpak }
+        [:pg-flathub:](https://flathub.org/apps/details/org.briarproject.Briar){ .card-link title=Flatpak }
         [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=org.briarproject.briar.android){ .card-link title="Google Play" }
         [:pg-f-droid:](https://f-droid.org/packages/org.briarproject.briar.android){ .card-link title=F-Droid }
 
