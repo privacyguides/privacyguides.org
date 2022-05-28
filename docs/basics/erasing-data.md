@@ -11,11 +11,11 @@ To erase a storage device **thoroughly**, you should securely erase the whole de
 
 ## Erasing Your Entire Drive
 
-When you delete a file, the operating system marks the space where the deleted file was as "empty". That "empty" space can be fairly easily undeleted, yielding the original file.
+When you delete a file, the operating system marks the space where the deleted file was as "empty." That "empty" space can be fairly easily undeleted, yielding the original file.
 
 ### Magnetic storage
 
-If the disk is a magnetic storage device such as spinning hard disk we suggest using [`nwipe`](https://en.wikipedia.org/wiki/Nwipe). `nwipe` can be installed in most Linux distributions. If you wish to use a complete boot environment on a system, consider using [ShredOS Disk Eraser](https://github.com/PartialVolume/shredos.x86_64). ShredOS boots straight into `nwipe` and allows you to erase available disks. To install it to a flash USB stick see the [installation methods](https://github.com/PartialVolume/shredos.x86_64/blob/master/README.md#obtaining-and-writing-shredos-to-a-usb-flash-drive-the-easy-way-).
+If the disk is a magnetic storage device, such as a spinning hard disk, we suggest using [`nwipe`](https://en.wikipedia.org/wiki/Nwipe). `nwipe` can be installed in most Linux distributions. If you wish to use a complete boot environment on a system, consider using [ShredOS Disk Eraser](https://github.com/PartialVolume/shredos.x86_64). ShredOS boots straight into `nwipe` and allows you to erase available disks. To install it to a flash USB stick see the [installation methods](https://github.com/PartialVolume/shredos.x86_64/blob/master/README.md#obtaining-and-writing-shredos-to-a-usb-flash-drive-the-easy-way-).
 
 Once you have your boot media, enter your system's UEFI settings and boot from the USB stick. Commonly used keys to access UEFI are ++f2++, ++f12++, or ++del++. Follow the on-screen prompts to wipe your data.
 
@@ -33,6 +33,6 @@ Physical destruction may be necessary to securely erase devices such as memory c
 
 Securely shredding **individual files** is difficult if not impossible. Copies can exist in a variety of ways such as through manual, or automatic backups, [wear leveling](https://en.wikipedia.org/wiki/Wear_leveling) (on modern [flash storage](https://en.wikipedia.org/wiki/Solid-state_drive)), caching and filesystem [journaling](https://en.wikipedia.org/wiki/Journaling_file_system).
 
-Wear leveled devices do not guarantee a fixed relationship between [logical blocks addressed](https://en.wikipedia.org/wiki/Logical_block_addressing) through the interface. This means that the physical locations in which the data is stored may be different to where it is actually located, therefore shredding may not provide adequate security.
+Wear leveled devices do not guarantee a fixed relationship between [logical blocks addressed](https://en.wikipedia.org/wiki/Logical_block_addressing) through the interface. This means that the physical locations in which the data is stored may be different to where it is actually located, so shredding may not provide adequate security.
 
 --8<-- "includes/abbreviations.en.md"
