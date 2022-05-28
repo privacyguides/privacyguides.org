@@ -139,16 +139,15 @@ A self-hosted DNS solution is useful for providing filtering on controlled platf
 !!! recommendation
 
     ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
-    
+
     **AdGuard Home** is an open source [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) to block unwanted web content, such as advertisements.
-    
+
     AdGuard Home features a polished web interface to view insights and manage blocked content.
-    
-    [Website](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary } [Privacy Policy](https://adguard.com/privacy/home.html){ .md-button }
-    
-    ??? downloads
-    
-        - [:fontawesome-brands-github: Source](https://github.com/AdguardTeam/AdguardHome)
+
+    [:octicons-home-16: Homepage](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="Source Code" }
 
 ### Pi-hole
 
