@@ -77,6 +77,10 @@ watch:
   - includes
 
 plugins:
+  - minify:
+      minify_html: true
+      htmlmin_opts:
+          remove_comments: true
   - i18n:
       default_language: en
       material_alternate: true
@@ -133,8 +137,8 @@ markdown_extensions:
       toc_depth: 4
 
 extra_javascript:
-  - javascripts/mathjax.js
-  - javascripts/feedback.js
+  - assets/javascripts/mathjax.js
+  - assets/javascripts/feedback.js
 
 nav:
   - Home: 'index.md'
