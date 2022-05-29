@@ -271,14 +271,14 @@ label[class="md-header__button md-icon"] svg {
 [data-md-color-scheme="default"] .md-search__form {
     background-color: hsla(0,0%,100%,.3);
 }
+.md-search__form {
+    border-radius: 6px;
+}
 .md-search__form:hover {
     background-color: hsla(0,0%,100%,.9);
 }
 [data-md-color-scheme="slate"] .md-search__form:hover {
     background-color: rgba(0, 0, 0, 0.4);
-}
-.md-search__form, .md-typeset .grid.cards > :is(ul, ol) > li, .md-typeset .grid > .card {
-    border-radius: 6px;
 }
 [data-md-toggle="search"]:checked ~ .md-header .md-search__form {
     border-radius: 6px 6px 0 0;
@@ -293,7 +293,10 @@ label[class="md-header__button md-icon"] svg {
     box-shadow: none;
     border: 1px solid rgba(128, 128, 128, 0.3);
 }
+.md-typeset .grid.cards > :is(ul, ol) > li, .md-typeset .grid > .card {
+    border-radius: 6px!important;
+}
 .md-typeset .grid.cards > :is(ul, ol) > li:is(:focus-within, :hover), .md-typeset .grid > .card:is(:focus-within, :hover) {
-    box-shadow: none;
-    border-color: rgba(128, 128, 128, 0.5);
+    box-shadow: none!important;
+    border-color: rgba(128, 128, 128, 0.5)!important;
 }
