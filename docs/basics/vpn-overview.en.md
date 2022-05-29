@@ -58,7 +58,7 @@ For use cases like these, or if you have another compelling reason, the VPN prov
 ## Sources and Further Reading
 
 1. [VPN - a Very Precarious Narrative](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
-2. [The self-contained networks](self-contained-networks.md) recommended by Privacy Guides are able to replace a VPN that allows access to services on local area network
+2. [The self-contained networks](../self-contained-networks.md) recommended by Privacy Guides are able to replace a VPN that allows access to services on local area network
 3. [Slicing Onions: Part 1 – Myth-busting Tor](https://medium.com/privacyguides/slicing-onions-part-1-myth-busting-tor-9ec188ae1904) by blacklight447
 4. [Slicing Onions: Part 2 – Onion recipes; VPN not required](https://web.archive.org/web/20210116140725/https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-2-onion-recipes-vpn-not-required) by blacklight447
 5. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)

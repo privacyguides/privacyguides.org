@@ -19,7 +19,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you as long as you understand the risks involved.
 
-    [More Info](technology/vpn-overview.md){ .md-button }
+    [More Info](basics/vpn-overview.md){ .md-button }
 
 ## Recommended Providers
 
