@@ -122,6 +122,9 @@
 
 /* header font */
 
+.md-header__topic:first-child {
+    font-weight: 300;
+}
 h1, h2, h3, .md-header__topic {
     font-family: "Bagnard", serif;
 }
