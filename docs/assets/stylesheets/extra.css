@@ -72,6 +72,14 @@
     --md-code-font: "DM Mono", SFMono-Regular, Consolas, Menlo, monospace;
     --pg-light-border: rgb(229, 231, 235);
     --pg-hero-color: rgb(45, 45, 45);
+    --pg-purple: #603aa0;
+    --pg-red: #c0322f;
+    --pg-orange: #ac2f09;
+    --pg-teal: #04756a;
+    --pg-brown: #8d6e62;
+    --pg-blue: #0e66ae;
+    --pg-green: #2e7e31;
+    --pg-blue-gray: #546d78;
 }
 :root, [data-md-color-scheme="slate"] {
     --md-default-bg-color: rgb(26, 26, 27);
@@ -84,6 +92,14 @@
     --md-code-font: "DM Mono", SFMono-Regular, Consolas, Menlo, monospace;
     --pg-light-border: rgb(47, 47, 47);
     --pg-hero-color: rgb(229, 231, 235);
+    --pg-purple: #af94de;
+    --pg-red: #ff6c6a;
+    --pg-orange: #e97b5a;
+    --pg-teal: #8dc6c1;
+    --pg-brown: #b6988c;
+    --pg-blue: #74b9f1;
+    --pg-green: #72cd75;
+    --pg-blue-gray: #9ab2bc;
 }
 
 /* Better contrast link colors */
@@ -225,52 +241,28 @@ details[class="downloads annotate"] > p .md-annotation span span::before {
 
 /* Badge colors */
 .pg-purple {
-    color: #603aa0;
-}
-[data-md-color-scheme="slate"] .pg-purple {
-    color: #af94de;
+    color: var(--pg-purple);
 }
 .pg-red {
-    color: #c0322f;
-}
-[data-md-color-scheme="slate"] .pg-red {
-    color: #ff6c6a;
+    color: var(--pg-red);
 }
 .pg-orange {
-    color: #ac2f09;
-}
-[data-md-color-scheme="slate"] .pg-orange {
-    color: #e97b5a;
+    color: var(--pg-orange);
 }
 .pg-teal {
-    color: #04756a;
-}
-[data-md-color-scheme="slate"] .pg-teal {
-    color: #8dc6c1;
+    color: var(--pg-teal);
 }
 .pg-brown {
-    color: #8d6e62;
-}
-[data-md-color-scheme="slate"] .pg-brown {
-    color: #b6988c;
+    color: var(--pg-brown);
 }
 .pg-blue {
-    color: #0e66ae;
-}
-[data-md-color-scheme="slate"] .pg-blue {
-    color: #74b9f1;
+    color: var(--pg-blue);
 }
 .pg-green {
-    color: #2e7e31;
-}
-[data-md-color-scheme="slate"] .pg-green {
-    color: #72cd75;
+    color: var(--pg-green);
 }
 .pg-blue-gray {
-    color: #546d78;
-}
-[data-md-color-scheme="slate"] .pg-blue-gray {
-    color: #9ab2bc;
+    color: var(--pg-blue-gray);
 }
 
 /* Make light/dark mode icon smaller */
@@ -378,5 +370,6 @@ div[class="md-source__icon md-icon"], div[class="md-source__repository md-source
 
 /* 3.0 tooltips */
 .md-tooltip {
+    background-color: var(--md-primary-fg-color);
     border-radius: 6px;
 }
