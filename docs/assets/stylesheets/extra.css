@@ -138,12 +138,8 @@ h1, h2, h3, .md-header__topic {
 /* Recommendation cards */
 .md-typeset .admonition.recommendation,
 .md-typeset details.recommendation {
-    border: 1px solid #ccc;
+    border: 1px solid var(--pg-light-border);
     font-size: inherit;
-}
-[data-md-color-scheme="slate"] .md-typeset .admonition.recommendation,
-[data-md-color-scheme="slate"] .md-typeset details.recommendation {
-    border: 1px solid #666;
 }
 .md-typeset .recommendation > .admonition-title,
 .md-typeset .recommendation > summary {
