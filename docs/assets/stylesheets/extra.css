@@ -323,18 +323,28 @@ div[class="md-source__icon md-icon"], div[class="md-source__repository md-source
 }
 
 /* 3.0 admonitions */
-.md-typeset .admonition {
-    box-shadow: none;
-    border-radius: 6px;
-}
-
-.md-typeset :is(.admonition,details) {
-    background-color: var(--md-primary-fg-color);
-    box-shadow: none;
-}
 
 .md-typeset .admonition.recommendation {
     border: 1px solid rgb(229, 231, 235);
+}
+
+.md-typeset :is(.admonition, details) {
+    background-color: var(--md-primary-fg-color);
+    box-shadow: none;
+    border-radius: 6px;
+    border: 1px solid;
+    border-left-width: 1px!important;
+}
+.md-typeset :is(.admonition-title, summary) {
+    margin-left: -0.6rem!important;
+}
+
+.md-typeset details:not(.downloads, [open]) summary:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.6);
+}
+
+[data-md-color-scheme="slate"] .md-typeset details:not(.downloads, [open]) summary:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
 }
 
 .md-typeset .recommendation img[align="right"] {
