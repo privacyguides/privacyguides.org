@@ -287,6 +287,18 @@ label[class="md-header__button md-icon"] svg {
     backdrop-filter: blur(12px);
 }
 
+.md-header, .md-tabs { /* firefox fallback */
+    background-color: rgba(255, 255, 255, .95);
+}
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    .md-header, .md-tabs {
+        background-color: rgba(255, 255, 255, .6);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+    }
+}
+
 header[class="md-header md-header--shadow"], nav[class="md-tabs"] {
     border-bottom: 1px solid rgb(229, 231, 235);
 }
@@ -315,9 +327,11 @@ div[class="md-source__icon md-icon"], div[class="md-source__repository md-source
     width: initial;
     margin-right: 1em;
 }
+
 [dir="ltr"] .md-source__icon + .md-source__repository {
     padding-left: 0;
 }
+
 .md-source__repository {
     max-width: initial;
 }
@@ -335,6 +349,7 @@ div[class="md-source__icon md-icon"], div[class="md-source__repository md-source
     border: 1px solid;
     border-left-width: 1px!important;
 }
+
 .md-typeset :is(.admonition-title, summary) {
     margin-left: -0.6rem!important;
 }
