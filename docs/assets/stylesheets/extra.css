@@ -312,6 +312,14 @@ div[class="md-source__icon md-icon"], div[class="md-source__repository md-source
 
 .md-header__source {
     text-align: right;
+    width: initial;
+    margin-right: 1em;
+}
+[dir="ltr"] .md-source__icon + .md-source__repository {
+    padding-left: 0;
+}
+.md-source__repository {
+    max-width: initial;
 }
 
 /* 3.0 admonitions */
