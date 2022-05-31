@@ -514,3 +514,9 @@ button[class="md-feedback__icon md-icon"] svg {
 .md-top {
     background-color: white;
 }
+
+/* Text selection */
+::selection {
+    color: var(--md-default-bg-color);
+    background-color: var(--md-accent-fg-color);
+}
