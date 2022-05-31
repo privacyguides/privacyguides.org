@@ -366,6 +366,10 @@ div[class="md-source__icon md-icon"], div[class="md-source__repository md-source
     color: var(--md-default-fg-color--light);
 }
 
+.md-header__option {
+    transition: max-width 0ms,opacity 0ms;
+}
+
 .md-header__source {
     text-align: right;
     width: initial;
