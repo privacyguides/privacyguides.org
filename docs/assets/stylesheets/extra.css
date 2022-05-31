@@ -82,6 +82,7 @@
     --pg-blue: #0e66ae;
     --pg-green: #2e7e31;
     --pg-blue-gray: #546d78;
+    --md-details-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' fill-rule='evenodd' d='M9.293 16.695a1 1 0 0 1 0-1.414l3.293-3.293-3.293-3.293a1 1 0 0 1 1.414-1.414l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1-1.414 0Z'/%3E%3C/svg%3E");
 }
 :root, [data-md-color-scheme="slate"] {
     --md-default-bg-color: rgb(26, 26, 27);
