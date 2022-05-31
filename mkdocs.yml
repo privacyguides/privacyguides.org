@@ -67,7 +67,7 @@ theme:
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      accent: deep purple
+      accent: amber
       toggle:
         icon: hero/moon
         name: Switch to light mode

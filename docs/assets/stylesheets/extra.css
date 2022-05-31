@@ -107,7 +107,7 @@
     --md-typeset-a-color: rgb(79, 70, 229);
 }
 [data-md-color-scheme="slate"] > * {
-    --md-typeset-a-color: rgb(203, 189, 255);
+    --md-typeset-a-color: rgb(255, 208, 111);
 }
 
 /* Hide shadow under navigation */
