@@ -417,7 +417,13 @@ form[class="md-header__option"] > label[class="md-header__button md-icon"] > svg
 }
 
 .md-tabs__link--active {
-    border-bottom: 3px solid var(--md-accent-fg-color);
+    background:
+        radial-gradient(farthest-side, var(--md-primary-fg-color--light) 98%,transparent 100%) bottom right/3px 3px,
+        radial-gradient(farthest-side, var(--md-primary-fg-color--light) 98%,transparent 100%) bottom left /3px 3px,
+        linear-gradient(var(--md-primary-fg-color--light),var(--md-primary-fg-color--light)) bottom/calc(100% - 3px) 3px;
+    background-repeat:no-repeat;
+    background-origin: padding-box;
+    padding-bottom: 3px;
 }
 
 /* Redesigned admonitions */
