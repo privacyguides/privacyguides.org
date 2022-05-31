@@ -514,7 +514,7 @@ button[class="md-feedback__icon md-icon"] svg {
 
 /* Back to top button */
 .md-top {
-    background-color: white;
+    background-color: var(--md-primary-fg-color);
 }
 
 /* Text selection */
