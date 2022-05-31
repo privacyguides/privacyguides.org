@@ -7,7 +7,7 @@ When sharing files, it's important to remove associated metadata. Image files co
 
 While there are plenty of metadata removal tools, they typically aren't convenient to use. The guides featured here aim to detail how to integrate metadata removal tools in a simple fashion by utilizing easy-to-access system features.
 
-- [Recommended metadata removal tools :material-arrow-right:](../metadata-removal-tools.md)
+- [Recommended metadata removal tools :hero-arrow-circle-right-fill:](../metadata-removal-tools.md)
 
 ## macOS
 

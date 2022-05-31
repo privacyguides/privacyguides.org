@@ -103,7 +103,7 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
 
 It also has integration with [Return YouTube Dislike](https://returnyoutubedislike.com), and some experimental settings such as the ability to use the built-in player for local playback, an option to force fullscreen on landscape mode, and an option to disable error reporting prompts.
 
-- [github.com/polymorphicshade/NewPipe :material-arrow-right:](https://github.com/polymorphicshade/NewPipe)
+- [github.com/polymorphicshade/NewPipe :hero-arrow-circle-right-fill:](https://github.com/polymorphicshade/NewPipe)
 
 This fork is not endorsed by or affiliated with the upstream project. The NewPipe team has [rejected](https://github.com/TeamNewPipe/NewPipe/pull/3205) integration with SponsorBlock and thus this fork is created to provide this functionality.
 

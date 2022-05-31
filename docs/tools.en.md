@@ -23,7 +23,7 @@ For your convenience, everything we recommend is listed below with a link to the
 
 </div>
 
-[Learn more :material-arrow-right:](browsers.md)
+[Learn more :hero-arrow-circle-right-fill:](browsers.md)
 
 **Additional Resources:**
 
@@ -39,7 +39,7 @@ For your convenience, everything we recommend is listed below with a link to the
 1. Snowflake does not increase privacy, however it allows you to easily contribute to the Tor network and help people in censored networks achieve better privacy.
 2. We do not recommend installing ToS;DR as a browser extension. The same information is provided on their website.
 
-[Learn more :material-arrow-right:](browsers.md#additional-resources)
+[Learn more :hero-arrow-circle-right-fill:](browsers.md#additional-resources)
 
 ## Operating Systems
 
@@ -53,7 +53,7 @@ For your convenience, everything we recommend is listed below with a link to the
 
 </div>
 
-[Learn more :material-arrow-right:](android.md)
+[Learn more :hero-arrow-circle-right-fill:](android.md)
 
 **Android Apps:**
 
@@ -69,7 +69,7 @@ For your convenience, everything we recommend is listed below with a link to the
 
 </div>
 
-[Learn more :material-arrow-right:](android.md#general-apps)
+[Learn more :hero-arrow-circle-right-fill:](android.md#general-apps)
 
 ### Linux
 
@@ -88,7 +88,7 @@ For your convenience, everything we recommend is listed below with a link to the
 
 1. Qubes uses Xen to provide strong sandboxing between multiple Linux virtual machine installations, and can run most Linux applications. [Learn more about Qubes...](qubes.md)
 
-[Learn more :material-arrow-right:](linux-desktop.md)
+[Learn more :hero-arrow-circle-right-fill:](linux-desktop.md)
 
 ### Router Firmware
 
@@ -99,7 +99,7 @@ For your convenience, everything we recommend is listed below with a link to the
 
 </div>
 
-[Learn more :material-arrow-right:](router.md)
+[Learn more :hero-arrow-circle-right-fill:](router.md)
 
 ## Service Providers
 
@@ -108,13 +108,13 @@ For your convenience, everything we recommend is listed below with a link to the
 <div class="grid cards" markdown>
 
 - ![Nextcloud logo](assets/img/cloud/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](cloud.md#nextcloud)
-- ![Proton Drive logo](assets/img/cloud/mini/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
+- ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
 - ![Cryptee logo](assets/img/cloud/cryptee.svg#only-light){ .twemoji }![Cryptee logo](assets/img/cloud/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](cloud.md#cryptee)
 - ![Tahoe-LAFS logo](assets/img/cloud/tahoe-lafs.svg#only-light){ .twemoji }![Tahoe-LAFS logo](assets/img/cloud/tahoe-lafs-dark.svg#only-dark){ .twemoji } [Tahoe-LAFS (Advanced)](cloud.md#tahoe-lafs)
 
 </div>
 
-[Learn more :material-arrow-right:](cloud.md)
+[Learn more :hero-arrow-circle-right-fill:](cloud.md)
 
 ### DNS
 
@@ -122,7 +122,7 @@ For your convenience, everything we recommend is listed below with a link to the
 
 We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net/) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
 
-[Learn more :material-arrow-right:](dns.md)
+[Learn more :hero-arrow-circle-right-fill:](dns.md)
 
 **Encrypted DNS Proxies:**
 
@@ -134,7 +134,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right:](dns.md#encrypted-dns-proxies)
+[Learn more :hero-arrow-circle-right-fill:](dns.md#encrypted-dns-proxies)
 
 **Self-hosted Solutions:**
 
@@ -145,20 +145,20 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right:](dns.md#self-hosted-solutions)
+[Learn more :hero-arrow-circle-right-fill:](dns.md#self-hosted-solutions)
 
 ### Email
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/mini/protonmail.svg){ .twemoji } [Proton Mail](email.md#protonmail)
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#protonmail)
 - ![Mailbox.org logo](assets/img/email/mini/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 - ![Tutanota logo](assets/img/email/mini/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 - ![StartMail logo](assets/img/email/mini/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/mini/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
 
 </div>
 
-[Learn more :material-arrow-right:](email.md)
+[Learn more :hero-arrow-circle-right-fill:](email.md)
 
 **Email Aliasing Services:**
 
@@ -169,7 +169,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right:](email.md#email-aliasing-services)
+[Learn more :hero-arrow-circle-right-fill:](email.md#email-aliasing-services)
 
 **Self-Hosting Email:**
 
@@ -180,7 +180,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right:](email.md#self-hosting-email)
+[Learn more :hero-arrow-circle-right-fill:](email.md#self-hosting-email)
 
 ### Search Engines
 
@@ -193,7 +193,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right:](search-engines.md)
+[Learn more :hero-arrow-circle-right-fill:](search-engines.md)
 
 ### VPN Providers
 
@@ -205,17 +205,17 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
     If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
 
-    [Learn more :material-arrow-right:](vpn.md)
+    [Learn more :hero-arrow-circle-right-fill:](vpn.md)
 
 <div class="grid cards" markdown>
 
 - ![Mullvad logo](assets/img/vpn/mini/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
-- ![Proton VPN logo](assets/img/vpn/mini/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#protonvpn)
+- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#protonvpn)
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
 
 </div>
 
-[Learn more :material-arrow-right:](vpn.md)
+[Learn more :hero-arrow-circle-right-fill:](vpn.md)
 
 ## Software
 
@@ -224,14 +224,14 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <div class="grid cards" markdown>
 
 - ![Tutanota logo](assets/img/calendar-contacts/tutanota.svg){ .twemoji } [Tutanota (SaaS)](calendar-contacts.md#tutanota)
-- ![Proton Calendar logo](assets/img/calendar-contacts/mini/proton-calendar.svg){ .twemoji } [Proton Calendar (SaaS)](calendar-contacts.md#proton-calendar)
+- ![Proton Calendar logo](assets/img/calendar-contacts/proton-calendar.svg){ .twemoji } [Proton Calendar (SaaS)](calendar-contacts.md#proton-calendar)
 - ![EteSync logo](assets/img/calendar-contacts/etesync.svg){ .twemoji } [EteSync](calendar-contacts.md#etesync)
 - ![Tutanota logo](assets/img/calendar-contacts/nextcloud.svg){ .twemoji } [Nextcloud](calendar-contacts.md#nextcloud)
 - ![DecSync CC logo](assets/img/calendar-contacts/decsync.svg){ .twemoji } [DecSync CC](calendar-contacts.md#decsync-cc)
 
 </div>
 
-[Learn more :material-arrow-right:](calendar-contacts.md)
+[Learn more :hero-arrow-circle-right-fill:](calendar-contacts.md)
 
 ### Notebooks
 
@@ -244,7 +244,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right:](notebooks.md)
+[Learn more :hero-arrow-circle-right-fill:](notebooks.md)
 
 ### Email Clients
 
@@ -262,7 +262,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right:](email-clients.md)
+[Learn more :hero-arrow-circle-right-fill:](email-clients.md)
 
 ### Encryption Tools
 
@@ -270,7 +270,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
     For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and typically utilize hardware encryption elements such as a TPM that other full-disk encryption software like VeraCrypt do not. VeraCrypt is still suitable for non-operating system disks such as external drives, especially drives that may be accessed from multiple operating systems.
 
-    [Learn more :material-arrow-right:](encryption.md##operating-system-included-full-disk-encryption-fde)
+    [Learn more :hero-arrow-circle-right-fill:](encryption.md##operating-system-included-full-disk-encryption-fde)
 
 <div class="grid cards" markdown>
 
@@ -283,7 +283,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right:](encryption.md)
+[Learn more :hero-arrow-circle-right-fill:](encryption.md)
 
 **OpenPGP Clients:**
 
@@ -296,7 +296,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right:](encryption.md#openpgp)
+[Learn more :hero-arrow-circle-right-fill:](encryption.md#openpgp)
 
 ### File Sharing
 
@@ -310,7 +310,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right:](file-sharing.md)
+[Learn more :hero-arrow-circle-right-fill:](file-sharing.md)
 
 ### Metadata Removal Tools
 
@@ -325,7 +325,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right:](metadata-removal-tools.md)
+[Learn more :hero-arrow-circle-right-fill:](metadata-removal-tools.md)
 
 ### Multi-Factor Authentication Tools
 
@@ -338,7 +338,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right:](multi-factor-authentication.md)
+[Learn more :hero-arrow-circle-right-fill:](multi-factor-authentication.md)
 
 ### Password Managers
 
@@ -353,7 +353,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right:](passwords.md)
+[Learn more :hero-arrow-circle-right-fill:](passwords.md)
 
 ### Productivity Tools
 
@@ -369,7 +369,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right:](productivity.md)
+[Learn more :hero-arrow-circle-right-fill:](productivity.md)
 
 ### Real-Time Communication
 
@@ -382,7 +382,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right:](real-time-communication.md)
+[Learn more :hero-arrow-circle-right-fill:](real-time-communication.md)
 
 ### News Aggregators
 
@@ -398,7 +398,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right:](news-aggregators.md)
+[Learn more :hero-arrow-circle-right-fill:](news-aggregators.md)
 
 ### Self-Contained Networks
 
@@ -410,7 +410,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right:](self-contained-networks.md)
+[Learn more :hero-arrow-circle-right-fill:](self-contained-networks.md)
 
 ### Video Streaming Clients
 
@@ -426,6 +426,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right:](video-streaming.md)
+[Learn more :hero-arrow-circle-right-fill:](video-streaming.md)
 
 --8<-- "includes/abbreviations.en.md"
