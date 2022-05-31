@@ -102,6 +102,7 @@
     --pg-blue: #74b9f1;
     --pg-green: #72cd75;
     --pg-blue-gray: #9ab2bc;
+    --md-footer-bg-color--dark: var(--md-default-bg-color);
 }
 
 /* Better contrast link colors */
