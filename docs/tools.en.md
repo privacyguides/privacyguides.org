@@ -108,7 +108,7 @@ For your convenience, everything we recommend is listed below with a link to the
 <div class="grid cards" markdown>
 
 - ![Nextcloud logo](assets/img/cloud/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](cloud.md#nextcloud)
-- ![Proton Drive logo](assets/img/cloud/mini/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
+- ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
 - ![Cryptee logo](assets/img/cloud/cryptee.svg#only-light){ .twemoji }![Cryptee logo](assets/img/cloud/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](cloud.md#cryptee)
 - ![Tahoe-LAFS logo](assets/img/cloud/tahoe-lafs.svg#only-light){ .twemoji }![Tahoe-LAFS logo](assets/img/cloud/tahoe-lafs-dark.svg#only-dark){ .twemoji } [Tahoe-LAFS (Advanced)](cloud.md#tahoe-lafs)
 
@@ -151,7 +151,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/mini/protonmail.svg){ .twemoji } [Proton Mail](email.md#protonmail)
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#protonmail)
 - ![Mailbox.org logo](assets/img/email/mini/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 - ![Tutanota logo](assets/img/email/mini/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 - ![StartMail logo](assets/img/email/mini/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/mini/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
@@ -210,7 +210,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <div class="grid cards" markdown>
 
 - ![Mullvad logo](assets/img/vpn/mini/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
-- ![Proton VPN logo](assets/img/vpn/mini/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#protonvpn)
+- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#protonvpn)
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
 
 </div>
@@ -224,7 +224,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <div class="grid cards" markdown>
 
 - ![Tutanota logo](assets/img/calendar-contacts/tutanota.svg){ .twemoji } [Tutanota (SaaS)](calendar-contacts.md#tutanota)
-- ![Proton Calendar logo](assets/img/calendar-contacts/mini/proton-calendar.svg){ .twemoji } [Proton Calendar (SaaS)](calendar-contacts.md#proton-calendar)
+- ![Proton Calendar logo](assets/img/calendar-contacts/proton-calendar.svg){ .twemoji } [Proton Calendar (SaaS)](calendar-contacts.md#proton-calendar)
 - ![EteSync logo](assets/img/calendar-contacts/etesync.svg){ .twemoji } [EteSync](calendar-contacts.md#etesync)
 - ![Tutanota logo](assets/img/calendar-contacts/nextcloud.svg){ .twemoji } [Nextcloud](calendar-contacts.md#nextcloud)
 - ![DecSync CC logo](assets/img/calendar-contacts/decsync.svg){ .twemoji } [DecSync CC](calendar-contacts.md#decsync-cc)
