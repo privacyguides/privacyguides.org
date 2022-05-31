@@ -280,8 +280,8 @@ label[class="md-header__button md-icon"] svg {
     color: #fff;
 }
 
-[data-md-color-scheme="slate"] .md-header__button {
-    color: var(--md-primary-fg-color--light);
+.md-header__button {
+    color: var(--md-default-fg-color--light);
 }
 
 .md-header, .md-tabs { /* firefox fallback */
@@ -329,7 +329,7 @@ div[class="md-source__icon md-icon"], div[class="md-source__repository md-source
 }
 
 .md-source__fact::before {
-    color: var(--md-primary-fg-color--light);
+    color: var(--md-default-fg-color--light);
 }
 
 .md-header__source {
