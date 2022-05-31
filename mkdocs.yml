@@ -102,6 +102,7 @@ plugins:
       externals_exclude:
         - cdn.jsdelivr.net/npm/mathjax@3/*
         - api.privacyguides.net/*
+        - giscus.app/*
 extra_css:
   - assets/stylesheets/extra.css?v=2.10.0
 markdown_extensions:
