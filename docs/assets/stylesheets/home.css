@@ -62,6 +62,9 @@
     margin-right: 0.5rem;
     margin-top: 0.5rem;
 }
+.mdx-hero .md-button:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
 nav[class="md-tabs"] {
     border-bottom: none;
 }
