@@ -305,7 +305,11 @@ label[class="md-header__button md-icon"] svg {
     }
 }
 
-[data-md-color-scheme="default"] img[src$="#only-dark"] {
+[data-md-color-scheme="default"] .md-header__button.md-logo img[src$="#only-dark"] {
+    display: none;
+}
+
+[data-md-color-scheme="slate"] .md-header__button.md-logo img[src$="#only-light"] {
     display: none;
 }
 
