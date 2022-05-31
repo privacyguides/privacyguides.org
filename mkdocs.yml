@@ -44,7 +44,7 @@ extra:
       name: GitHub
     - icon: material/rss
       link: /feed_rss_created.xml
-      name: RSS
+      name: Blog Feed
 repo_url: https://github.com/privacyguides/privacyguides.org
 repo_name: ""
 edit_uri: edit/main/docs/

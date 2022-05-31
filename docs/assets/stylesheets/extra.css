@@ -512,6 +512,27 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
 button[class="md-feedback__icon md-icon"] svg {
     fill: none !important;
 }
+.md-footer {
+    background-color: var(--md-default-bg-color);
+    border-top: 1px solid var(--pg-light-border);
+}
+.md-footer-meta {
+    background: none;
+}
+.md-copyright__highlight {
+    color: var(--md-typeset-color);
+    opacity: .75;
+}
+html .md-footer-meta.md-typeset a {
+    color: var(--md-typeset-a-color);
+}
+html .md-footer-meta.md-typeset a:hover {
+    color: var(--md-accent-fg-color);
+}
+.md-social > a {
+    color: var(--md-typeset-color) !important;
+    opacity: .75;
+}
 
 /* Back to top button */
 .md-top {
