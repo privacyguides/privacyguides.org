@@ -341,6 +341,19 @@ header[class="md-header md-header--shadow"], nav[class="md-tabs"] {
     height: 1.4rem;
 }
 
+[data-md-toggle="search"]:checked ~ .md-header .md-search__form {
+    border-radius: 6px 6px 0 0;
+}
+
+[dir="ltr"] .md-search__output {
+    top: initial;
+    border-radius: 0 0 6px 6px;
+}
+
+[data-md-toggle="search"]:checked ~ .md-header .md-search__output {
+    box-shadow: 0 0 .6rem rgba(0,0,0,.07);
+}
+
 .md-search__input {
     font-size: .6rem;
 }
