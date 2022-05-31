@@ -28,9 +28,6 @@
   {% if page.meta.image %}
     <img src="{{ page.meta.image | url }}"> 
   {% endif %}
-  <a href="{{ '/feed_rss_created.xml' | url }}" title="Open RSS Feed" class="md-content__button md-icon">
-    {% include ".icons/material/rss.svg" %}
-  </a>
   {% if "tags" in config.plugins %}
     {% include "partials/tags.html" %}
   {% endif %}
