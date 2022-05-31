@@ -128,6 +128,7 @@
 }
 .md-typeset .md-button--primary {
     color: var(--md-typeset-a-color);
+    background-color: var(--md-primary-fg-color);
 }
 
 .md-typeset .grid.cards > :is(ul, ol) > li, .md-typeset .grid > .card { /* Firefox */
