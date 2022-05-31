@@ -344,50 +344,52 @@ header[class="md-header md-header--shadow"], nav[class="md-tabs"] {
     border-bottom: 1px solid var(--pg-light-border);
 }
 
-.md-search__overlay {
-    background-color: transparent;
-}
+@media screen and (min-width: 60em) {
+    .md-search__overlay {
+        background-color: transparent;
+    }
 
-.md-search__form {
-    border: 1px solid var(--pg-light-border);
-    background-color: var(--md-primary-fg-color) !important;
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(0, 0, 0, 0.02) 0px 1px 2px -1px;
-    border-radius: 6px;
-    height: 1.4rem;
-}
+    .md-search__form {
+        border: 1px solid var(--pg-light-border);
+        background-color: var(--md-primary-fg-color) !important;
+        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(0, 0, 0, 0.02) 0px 1px 2px -1px;
+        border-radius: 6px;
+        height: 1.4rem;
+    }
 
-[data-md-toggle="search"]:checked ~ .md-header .md-search__form {
-    border-radius: 6px 6px 0 0;
-}
+    [data-md-toggle="search"]:checked ~ .md-header .md-search__form {
+        border-radius: 6px 6px 0 0;
+    }
 
-[dir="ltr"] .md-search__output {
-    top: initial;
-    border-radius: 0 0 6px 6px;
-}
+    [dir="ltr"] .md-search__output {
+        top: initial;
+        border-radius: 0 0 6px 6px;
+    }
 
-[data-md-toggle="search"]:checked ~ .md-header .md-search__output {
-    box-shadow: 0 0 .6rem rgba(0,0,0,.07);
-}
+    [data-md-toggle="search"]:checked ~ .md-header .md-search__output {
+        box-shadow: 0 0 .6rem rgba(0,0,0,.07);
+    }
 
-.md-search__input {
-    font-size: .6rem;
-}
+    .md-search__input {
+        font-size: .6rem;
+    }
 
-.md-search__options {
-    top: .05rem;
-}
+    .md-search__options {
+        top: .05rem;
+    }
 
-.md-search__icon, .md-search__input::placeholder {
-    color: var(--md-default-fg-color--light) !important;
+    .md-search__icon, .md-search__input::placeholder {
+        color: var(--md-default-fg-color--light) !important;
+    }
+
+    .md-search__icon svg {
+        width: .75rem;
+        height: .75rem;
+    }
 }
 
 div[class="md-source__icon md-icon"], div[class="md-source__repository md-source__repository--active"] *:not(.md-source__facts):not(.md-source__fact) {
     display: none;
-}
-
-.md-search__icon svg {
-    width: .75rem;
-    height: .75rem;
 }
 
 .md-source__fact::before {
