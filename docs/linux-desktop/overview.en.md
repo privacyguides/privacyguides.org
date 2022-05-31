@@ -18,7 +18,7 @@ Despite these drawbacks, desktop GNU/Linux distributions are great if you want t
 
 Our website generally uses the term “Linux” to describe desktop GNU/Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed here.
 
-[Our Linux Recommendations :material-arrow-right:](../linux-desktop.md){ .md-button }
+[Our Linux Recommendations :hero-arrow-circle-right-fill:](../linux-desktop.md){ .md-button }
 
 ## Choosing your distribution
 
@@ -77,7 +77,7 @@ We strongly recommend **against** using the Linux-libre kernel, since it [remove
 
 Most Linux distributions have an option within its installer for enabling [LUKS](/encryption.md#linux-unified-key-setup) FDE. If this option isn’t set at installation time, you will have to backup your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. We also suggest securely erasing your storage device:
 
-- [Secure Data Erasure :material-arrow-right:](../basics/erasing-data.md)
+- [Secure Data Erasure :hero-arrow-circle-right-fill:](../basics/erasing-data.md)
 
 ### Swap
 
