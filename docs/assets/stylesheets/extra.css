@@ -301,7 +301,7 @@ label[class="md-header__button md-icon"] svg {
         backdrop-filter: blur(12px);
     }
     [data-md-color-scheme="slate"] .md-header, [data-md-color-scheme="slate"] .md-tabs {
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.5);
         -webkit-backdrop-filter: blur(12px);
         backdrop-filter: blur(12px);
     }
