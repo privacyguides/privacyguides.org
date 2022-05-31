@@ -51,6 +51,7 @@
 .mdx-hero .md-button {
     color: var(--pg-hero-color);
     border-color: var(--pg-hero-color);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
 }
 [data-md-color-scheme="slate"] .mdx-hero .md-button--primary {
     color: var(--md-primary-fg-color);
