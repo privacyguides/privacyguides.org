@@ -436,3 +436,8 @@ form[class="md-header__option"] > label[class="md-header__button md-icon"] > svg
     background-color: var(--md-primary-fg-color);
     border-radius: 6px;
 }
+
+/* Custom footer */
+button[class="md-feedback__icon md-icon"] svg {
+    fill: none !important;
+}
