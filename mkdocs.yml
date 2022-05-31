@@ -97,7 +97,7 @@ plugins:
         - cdn.jsdelivr.net/npm/mathjax@3/*
         - api.privacyguides.net/*
 extra_css:
-  - assets/stylesheets/extra.css
+  - assets/stylesheets/extra.css?v=2.10.0
 markdown_extensions:
   - admonition
   - pymdownx.details
