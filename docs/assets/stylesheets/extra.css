@@ -69,7 +69,7 @@
     --md-primary-bg-color: rgba(0,0,0,.75);
     --md-primary-bg-color--light: rgba(0,0,0,.54);
     --md-accent-fg-color: #4e30e6;
-    --md-selection-bg-color: rgba(78, 48, 230,.2);
+    --md-selection-bg-color: rgba(78, 48, 230,.25);
     --md-text-font: "Public Sans", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
     --md-code-font: "DM Mono", SFMono-Regular, Consolas, Menlo, monospace;
     --pg-light-border: rgb(229, 231, 235);
@@ -91,7 +91,7 @@
     --md-primary-bg-color: rgba(0,0,0,.75);
     --md-primary-bg-color--light: rgba(0,0,0,.54);
     --md-accent-fg-color: #ffdb57;
-    --md-selection-bg-color: rgba(255, 219, 87, 0.2);
+    --md-selection-bg-color: rgba(255, 219, 87, 0.25);
     --md-text-font: "Public Sans", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
     --md-code-font: "DM Mono", SFMono-Regular, Consolas, Menlo, monospace;
     --pg-light-border: rgb(47, 47, 47);
