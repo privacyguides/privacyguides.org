@@ -51,9 +51,9 @@ Google Pixel phones are the only devices that currently meet GrapheneOS's [hardw
     [:octicons-code-16:](https://github.com/CalyxOS){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://members.calyxinstitute.org/donate){ .card-link title=Contribute }
 
-For people who need Google Play Services, CalyxOS optionally includes [microG](https://microg.org/). CalyxOS also includes alternate location services, [Mozilla](https://location.services.mozilla.com/) and [DejaVu](https://github.com/n76/DejaVu).
+CalyxOS optionally includes [microG](https://microg.org/), a partially open source reimplementation of Play Services which provides broader app compatibility. It also bundles in alternate location services: [Mozilla](https://location.services.mozilla.com/) and [DejaVu](https://github.com/n76/DejaVu).
 
-CalyxOS only [supports](https://calyxos.org/docs/guide/device-support/) Google Pixel phones. However, support for the OnePlus 8T/9 and Fairphone 4 is [currently in beta](https://calyxos.org/news/2022/04/01/fairphone4-oneplus8t-oneplus9-test-builds/).
+CalyxOS [supports](https://calyxos.org/docs/guide/device-support/) Google Pixel phones, the OnePlus 8T/9 and the Fairphone 4. We only recommend CalyxOS as a harm reduction measure for the OnePlus 8T, OnePlus 9, and especially the Fairphone 4.
 
 ### DivestOS
 
@@ -85,6 +85,8 @@ DivestOS implements some system hardening patches originally developed for Graph
 
 ## Android Devices
 
+When purchasing a device, we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible.
+
 Avoid buying phones from mobile network operators. These often have a **locked bootloader** and do not support [OEM unlocking](https://source.android.com/devices/bootloader/locking_unlocking). These phone variants will prevent you from installing any kind of alternative Android distribution.
 
 Be very **careful** about buying second hand phones from online marketplaces. Always check the reputation of the seller. If the device is stolen there's a possibility of [IMEI blacklisting](https://www.gsma.com/security/resources/imei-blacklisting/). There is also a risk involved with you being associated with the activity of the previous owner.
@@ -97,6 +99,8 @@ A few more tips regarding Android devices and operating system compatibility:
 
 ### Google Pixel
 
+Google Pixel phones are the **only** devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third party operating systems and Google's custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element.
+
 !!! recommendation
 
     ![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
@@ -107,7 +111,9 @@ A few more tips regarding Android devices and operating system compatibility:
 
     [:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
-Unless you have a need for specific [CalyxOS features](https://calyxos.org/features/) that are unavailable on GrapheneOS, we strongly recommend GrapheneOS over other operating system choices on Pixel devices.
+Secure Elements like the Titan M2 are more limited than the processor's Trusted Execution Environment used by most other phones as they are only used for secrets storage, hardware attestation, and rate limiting, not for running "trusted" programs. Phones without a Secure Element have to use the TEE for *all* of those functions, resulting in a larger attack surface.
+
+Google Pixel phones use a TEE OS called Trusty which is [open source](https://source.android.com/security/trusty#whyTrusty), unlike many other phones.
 
 The installation of GrapheneOS on a Pixel phone is easy with their [web installer](https://grapheneos.org/install/web). If you don't feel comfortable doing it yourself and are willing to spend a bit of extra money, check out the [NitroPhone](https://shop.nitrokey.com/shop) as they come preloaded with GrapheneOS from the reputable [Nitrokey](https://www.nitrokey.com/about) company.
 
@@ -120,15 +126,7 @@ A few more tips for purchasing a Google Pixel:
 
 ### Other Devices
 
-!!! important
-
-    Google Pixel phones are the **only** devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third party operating systems and Google's custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element.
-
-    Secure Elements are more limited than the processor's Trusted Execution Environment used by most other phones as they are only used for secrets storage, hardware attestation and rate limiting but not running "trusted" programs. Phones without a Secure Element have to use the TEE for secrets storage, rate limiting, *and* trusted computing, which results in a larger attack surface.
-
-    The following OEMs are only mentioned as they have phones compatible with the operating systems recommended by us. If you are purchasing a new device, we only recommend purchasing a Google Pixel.
-
-When purchasing a device, we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible.
+The following OEMs are only mentioned as they have phones compatible with the operating systems recommended by us. If you are purchasing a new device, we only recommend purchasing a Google Pixel.
 
 #### OnePlus
 

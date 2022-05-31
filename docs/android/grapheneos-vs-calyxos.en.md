@@ -10,21 +10,29 @@ GrapheneOS extends the user profile feature, allowing you to end a current sessi
 
 ## Sandboxed Google Play vs Privileged microG
 
-When Google Play services are used on GrapheneOS, they run as a user app and are contained within a user or work profile.
+When Google Play services are used on GrapheneOS, they run as a user app and are contained within a user or work profile. Sandboxed Google Play is confined using the highly restrictive, default [`untrusted_app`](https://source.android.com/security/selinux/concepts) domain provided by [SELinux](https://en.wikipedia.org/wiki/Security-Enhanced_Linux). Permissions for apps to use Google Play Services can be revoked at any time.
 
-Sandboxed Google Play is confined using the highly restrictive, default [`untrusted_app`](https://source.android.com/security/selinux/concepts) domain provided by [SELinux](https://en.wikipedia.org/wiki/Security-Enhanced_Linux). Permissions for apps to use Google Play Services can be revoked at any time.
+microG is a partially open-source re-implementation of Google Play Services.[^1] On CalyxOS, it runs in the highly privileged [`system_app`](https://source.android.com/security/selinux/concepts) SELinux domain like regular Google Play Services, and it uses [signature spoofing](https://github.com/microg/GmsCore/wiki/Signature-Spoofing) to masquerade as Google Play Services. This is less secure than Sandboxed Google Play's approach, which does not need access to sensitive system APIs.
 
-microG is an open-source re-implementation of Google Play Services. This means it needs to be updated every time Android has a major version update (or the Android API changes). It also needs to run in the highly privileged [`system_app`](https://source.android.com/security/selinux/concepts) SELinux domain like regular Google Play Services, and it requires an operating system that allows [signature spoofing](https://github.com/microg/GmsCore/wiki/Signature-Spoofing), which allows system apps to insecurely masquerade as other apps. This is less secure than Sandboxed Google Play's approach, which does not need access to sensitive system APIs.
-
-When using Sandboxed Play Services, you have the option to reroute location requests to the Play Services API back to the OS location API which uses satellite based location services. With microG, you have the option to either not use a network location backend at all, *shift trust* to another location backend like Mozilla, or use [DejaVu](https://github.com/n76/DejaVu), a location backend that locally collects and saves RF-based location data to an offline database which can be used when GPS is not available.
+When using Sandboxed Play Services, you have the option to reroute location requests to the Play Services API back to the OS location API, which uses satellite based location services. With microG, you have the option to choose between different backend location providers, including *shifting trust* to another location backend, like Mozilla; using [DejaVu](https://github.com/n76/DejaVu), a location backend that locally collects and saves RF-based location data to an offline database which can be used when GPS is not available; or to simply not use a network location backend at all.
 
 Network location providers like Play Services or Mozilla rely the on the MAC addresses of surrounding WiFi access points and Bluetooth devices being submitted for location approximation. Choosing a network location like Mozilla to use with microG provides little to no privacy benefit over Google because you are still submitting the same data and trusting them to not profile you.
 
-Local RF location backends like DejaVu require that the phone has a working GPS first for the local RF data collected to be useful. This makes them ineffective as location providers, as the job of a location provider is to assist location approximation when satellite based services are not working.
+Local RF location backends like DejaVu require that the phone has a working GPS first for the local RF data collected to be useful. This makes them less effective as location providers, as the job of a location provider is to assist location approximation when satellite based services are not working.
 
 If your threat model requires protecting your location or the MAC addresses of nearby devices, rerouting location requests to the OS location API is probably the best option. The benefit brought by microG's custom location backend is minimal at best when compared to Sandboxed Play Services.
 
-In terms of application compatibility, Sandboxed Google Play outperforms microG due to its support for many services which microG has not yet implemented, like [Google Play Games](https://play.google.com/googleplaygames) and [In-app Billing API](https://android-doc.github.io/google/play/billing/api.html). Authentication using [FIDO](basics/multi-factor-authentication#fido-fast-identity-online) with online services on Android also relies on Play Services, and the feature is not yet implemented in microG.
+In terms of application compatibility, Sandboxed Google Play on GrapheneOS outperforms microG on CalyxOS due to its support for many services which microG has not yet implemented, like [Google Play Games](https://play.google.com/googleplaygames) and [In-app Billing API](https://android-doc.github.io/google/play/billing/api.html). Larger apps, especially games, require Play Delivery to be installed, which is currently not implemented in microG. Authentication using [FIDO](security/multi-factor-authentication#fido-fast-identity-online) with online services on Android also relies on Play Services, and does not currently work with microG.
+
+[^1]: It should be noted that microG still uses proprietary Google binaries for some of its components such as DroidGuard. Push notifications, if enabled, still go through Google's servers just like with Play Services. Outisde of default microG setups like on CalyxOS, it is possible to run microG in the unprivileged `untrusted app` SELinux domain and without the signature spoofing patch. However, microG's functionality and compatibility, which is already not nearly as broad as Sandboxed Play Services, will greatly diminish.
+
+## Privileged eSIM Activation Application
+
+Currently, eSIM activation is tied to a privileged proprietary application by Google. The app has the `READ_PRIVILEGED_PHONE_STATE` permission, giving Google access to your hardware identifiers such as the IMEI.
+
+On GrapheneOS, the app comes disabled, and can be *optionally* enabled by the user after they have installed Sandboxed Play Services.
+
+On CalyxOS, the app comes installed by default (regardless of whether you choose to have microG or not) and cannot be opted out. This is particularly problematic, as it means Google still has access to the user's hardware identifiers regardless of whether they even need the eSIM activation or not, and can access them persistently.
 
 ## Privileged App Extensions
 
@@ -34,7 +42,7 @@ GrapheneOS does not include F-Droid, because all updates have to be manually ins
 
 CalyxOS includes the [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged), which may lower device security. Seamless app updates should be possible with [Aurora Store](https://auroraoss.com) in Android 12.
 
-## Additional hardening
+## Additional Hardening
 
 GrapheneOS improves upon [AOSP](https://source.android.com/) security with:
 
