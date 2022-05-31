@@ -42,7 +42,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/privacyguides
       name: GitHub
-    - icon: material/rss
+    - icon: hero/rss-solid
       link: /feed_rss_created.xml
       name: RSS
 repo_url: https://github.com/privacyguides/privacyguides.org
