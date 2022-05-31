@@ -271,7 +271,7 @@ label[class="md-header__button md-icon"] svg {
     width: 1rem;
 }
 
-/* 3.0 header + nav */
+/* Custom header + nav */
 .md-header >*, .md-tabs {
     background: none;   
 }
@@ -368,7 +368,7 @@ form[class="md-header__option"] > label[class="md-header__button md-icon"] > svg
     fill: none !important;
 }
 
-/* 3.0 admonitions */
+/* Redesigned admonitions */
 
 .md-typeset .admonition.recommendation {
     border: 1px solid var(--pg-light-border);
@@ -398,7 +398,7 @@ form[class="md-header__option"] > label[class="md-header__button md-icon"] > svg
     width: 100px;
 }
 
-/* 3.0 tooltips */
+/* Custom tooltips */
 .md-tooltip {
     background-color: var(--md-primary-fg-color);
     border-radius: 6px;
