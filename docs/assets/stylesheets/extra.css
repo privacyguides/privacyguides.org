@@ -516,6 +516,18 @@ button[class="md-feedback__icon md-icon"] svg {
 .md-top {
     background-color: var(--md-primary-fg-color);
 }
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    .md-top {
+        background-color: rgba(255, 255, 255, .6);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+    }
+    [data-md-color-scheme="slate"] .md-top {
+        background-color: rgba(0, 0, 0, 0.5);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+    }
+}
 path[d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"] {
     d: path('M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18Zm-.795 4.83L7.83 11.205a1.125 1.125 0 0 0 1.59 1.59l1.455-1.454v4.034a1.125 1.125 0 1 0 2.25 0v-4.034l1.455 1.454a1.125 1.125 0 0 0 1.59-1.59L12.795 7.83a1.125 1.125 0 0 0-1.59 0Z');
 }
