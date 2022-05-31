@@ -336,6 +336,15 @@ header[class="md-header md-header--shadow"], nav[class="md-tabs"] {
     background-color: var(--md-primary-fg-color) !important;
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(0, 0, 0, 0.02) 0px 1px 2px -1px;
     border-radius: 6px;
+    height: 1.4rem;
+}
+
+.md-search__input {
+    font-size: .6rem;
+}
+
+.md-search__options {
+    top: .05rem;
 }
 
 .md-search__icon, .md-search__input::placeholder {
@@ -344,6 +353,11 @@ header[class="md-header md-header--shadow"], nav[class="md-tabs"] {
 
 div[class="md-source__icon md-icon"], div[class="md-source__repository md-source__repository--active"] *:not(.md-source__facts):not(.md-source__fact) {
     display: none;
+}
+
+.md-search__icon svg {
+    width: .75rem;
+    height: .75rem;
 }
 
 .md-source__fact::before {
