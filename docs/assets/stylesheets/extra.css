@@ -547,6 +547,7 @@ html .md-footer-meta.md-typeset a:hover {
 /* Back to top button */
 .md-top {
     background-color: var(--md-primary-fg-color);
+    transition: color 250ms,background-color 250ms,transform 250ms cubic-bezier(.4,0,.2,1),opacity 250ms;
 }
 @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
     .md-top {
