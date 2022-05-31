@@ -49,7 +49,6 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   custom_dir: theme
-  logo: assets/brand/SVG/Logo/privacy-guides-logo-notext.svg
   favicon: assets/brand/PNG/Favicon/favicon-32x32.png
   icon:
     repo: fontawesome/brands/github
