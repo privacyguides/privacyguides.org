@@ -158,7 +158,7 @@ nav:
       - 'basics/erasing-data.md'
       - 'basics/email-security.md'
       - 'basics/vpn-overview.md'
-      - 'basics/how-tor-works.md'
+      - 'basics/tor-overview.md'
     - 'Android':
       - 'android/overview.md'
       - 'android/grapheneos-vs-calyxos.md'
