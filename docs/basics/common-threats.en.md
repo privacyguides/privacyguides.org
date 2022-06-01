@@ -28,7 +28,7 @@ Whistleblowers and journalists, for example, can have a much more extreme threat
 
 <span class="pg-orange">:material-bug-outline: Passive Attacks</span>
 
-Security and privacy are often conflated, because you need security to obtain any semblance of privacy: Using tools which appear private is futile if they could easily be exploited by attackers to release your data later. However, the inverse is not necessarily true; the most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google, who, given their scale, have had minimal security incidents by employing industry-leading security experts to secure their infrastructure. Even though Google provides a very secure service, very few would consider their data private in their hands.
+Security and privacy are often conflated, because you need security to obtain any semblance of privacy: Using tools which appear private is futile if they could easily be exploited by attackers to release your data later. However, the inverse is not necessarily true; the most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google, who, given their scale, have had minimal security incidents by employing industry-leading security experts to secure their infrastructure. Even though Google provides a very secure service, very few would consider their data private in Google's free consumer products (Gmail, YouTube etc).
 
 When it comes to application security, we generally do not (and sometimes cannot) know if the software that we use is malicious, or might one day become malicious. Even with the most trustworthy developers, there is generally no guarantee that their software does not have a serious vulnerability that could later be exploited.
 
@@ -38,7 +38,7 @@ To minimize the potential damage that a malicious piece of software can do, you 
 
     Mobile operating systems are generally safer than desktop operating systems when it comes to application sandboxing. Apps cannot obtain root access and only have access to system resources which you grant them.
 
-    Desktop operating systems generally lag behind on proper sandboxing. Chrome OS has similar sandboxing properties to Android, and macOS has full system permission control and opt-in (for developers) sandboxing for applications, however these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make heavy use of VMs or containers, such as Qubes OS.
+    Desktop operating systems generally lag behind on proper sandboxing. Chrome OS has similar sandboxing properties to Android, and macOS has full system permission control and opt-in (for developers) sandboxing for applications, however these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make heavy use of virtual machines or containers, such as Qubes OS.
 
 <span class="pg-red">:material-target-account: Targeted Attacks</span>
 
@@ -48,7 +48,7 @@ Targeted attacks against a specific user are more problematic to deal with. Comm
 
     **Web browsers**, **email clients**, and **office applications** all typically run untrusted code sent to you from third-parties by design. Running multiple virtual machines to separate applications like these from your host system as well as each other is one technique you can use to avoid an exploit in these applications from compromising the rest of your system. Technologies like Qubes OS or Microsoft Defender Application Guard on Windows provide convenient methods to do this seamlessly, for example.
 
-If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, or macOS. You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure Element for rate limiting attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems do not encrypt data separately per-user.
+If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, [Windows (with TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process). You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) or [Element](https://developers.google.com/android/security/android-ready-se) for rate limiting attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems do not encrypt data separately per-user.
 
 ## Privacy From Service Providers
 
@@ -156,6 +156,36 @@ We talk about "shifting trust" a lot when discussing solutions like VPNs, which 
 Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a privacy solution you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is a lack of end-to-end encryption, so you should make sure the provider you switch to actually implements end-to-end encryption, or use a tool like Cryptomator which provides end-to-end encryption on any cloud provider. Blindly switching to a "privacy-focused" provider which does not provide end-to-end encryption does not solve your problem, it merely shifts trust from Google to that provider.
 
 The privacy policies and business practices of a provider you choose are very important, but should be considered secondary to technical guarantees of your privacy: Don't elect to merely shift trust to another provider when trusting a provider isn't a requirement at all.
+
+:material-numeric-4-circle: **Complicated is better**
+
+We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like many different email accounts or complicated setups with a lot of moving parts and conditions. The replies are usually answers to, "What is the best way to do X?".
+
+Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience. Below, we provide some tips:
+
+1. <mark>Actions need to serve a particular purpose</mark>, think about how to do what you want with the least amount of actions.
+2. <mark>Remove human failure points</mark> (don't have a bunch of conditions you must remember to do what with which accounts). Humans fail, they get tired, they forget things... don't have many conditions or manual processes you must remember in order to maintain operational security.
+3. <mark>Use the right level of protection for what you intend.</mark> We often see recommendations of so-called law-enforcement, subpoena proof solutions. These require a lot of special case knowledge (knowing about how things truly work under the hood) and are generally not what people want. There is no point in building an intricately anonymous threat model if you can be easily de-anonymized by a simple oversight.
+
+So, how might this look?
+
+One of the clearest threat models is one where people *know who you are* and one where they do not. There will always be situations where you must declare your legal name and places where you can get away without doing so.
+
+1. **Known identity** - A known identity is used for things where you must declare your name. There are many such legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, a customs declaration when importing an item or otherwise dealing with your Government. These things will usually always lead back credentials such as credit cards, credit rating checks, account numbers and possibly physical addresses.
+
+    We don't suggest using a VPN or Tor for any of these things as your identity is already known through other means.
+
+    !!! tip
+
+        When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
+
+2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're a part of an online community you may wish to retain persona that others know. The reason this is not anonymous is because if monitored over a period of time details about the owner may reveal further information, such as the way they write (lingustics), general knowledge about topics of interest etc.
+
+    You may wish to use a VPN for this to mask your IP address. Financial transactions are more difficult and for this we'd suggest using anonymous cryptocurrencies such as Monero. Employing alt-coin shifting may also help disguise where your currency originated. Typically exchanges require KYC (know your customer) to be completed before they will allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution, however those often are more expensive and sometimes also require KYC.
+
+3. **Anonymous identity** - Anonymous identities are difficult to maintain over long periods of time for even the most experienced. They should be short-term and short lived identities which are rotated regularly.
+
+    Using Tor can help with this, it's also worth noting greater anonymity is possible through asynchronous (not real time communication). Real time communication is vulnerable to typing analysis patterns more than a slab of text distributed on a forum, email) etc that you've had time to think about, maybe even put through a translator and back again.
 
 [^1]: United States Privacy and Civil Liberties Oversight Board: [Report on the Telephone Records Program Conducted under Section 215](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^2]: Wikipedia: [Surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)
