@@ -33,7 +33,7 @@ Needless to say, **you shouldn't use encrypted DNS with Tor**. This would direct
 
 ## Should I use Tor *and* a VPN?
 
-By using a VPN with Tor, you're creating essentially a permanent entry node, often with a money trail attached. This provides zero additional benefit to you, while increasing the attack surface of your connection dramatically. If you wish to hide your Tor usage from your ISP or your government, Tor has a built-in solution for that: Tor bridges. [Read more about Tor bridges and why using a VPN is not necessary](how-tor-works.md).
+By using a VPN with Tor, you're creating essentially a permanent entry node, often with a money trail attached. This provides zero additional benefit to you, while increasing the attack surface of your connection dramatically. If you wish to hide your Tor usage from your ISP or your government, Tor has a built-in solution for that: Tor bridges. [Read more about Tor bridges and why using a VPN is not necessary](tor-overview.md).
 
 ## What if I need anonymity?
 
@@ -59,9 +59,9 @@ For use cases like these, or if you have another compelling reason, the VPN prov
 
 1. [VPN - a Very Precarious Narrative](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
 2. [The self-contained networks](../self-contained-networks.md) recommended by Privacy Guides are able to replace a VPN that allows access to services on local area network
-3. [How tor Works](how-tor-works.md) by blacklight447
-5. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
-6. ["Do I need a VPN?"](https://www.doineedavpn.com), a tool developed by IVPN to challenge aggressive VPN marketing by helping individuals decide if a VPN is right for them.
+3. [Tor Network Overview](tor-overview.md) by blacklight447
+4. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
+5. ["Do I need a VPN?"](https://www.doineedavpn.com), a tool developed by IVPN to challenge aggressive VPN marketing by helping individuals decide if a VPN is right for them.
 
 ## Related VPN Information
 
