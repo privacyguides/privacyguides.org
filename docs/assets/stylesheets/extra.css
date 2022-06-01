@@ -214,6 +214,11 @@ h1, h2, h3, .md-header__topic {
 .downloads > ul > li {
     padding: 0.5em 0 !important;
 }
+
+.downloads > ul .twemoji {
+    width: .9rem
+}
+
 details[class="downloads annotate"] > p .md-annotation span span::before {
     vertical-align: 0;
 }
