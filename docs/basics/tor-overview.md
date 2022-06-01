@@ -47,7 +47,7 @@ Even with the strong privacy guarantees that Tor provides, one must be aware tha
 
 Another downside is that exit nodes can watch your traffic, even if they do not know where it came from. This is especially problematic for websites that do not utilize HTTPS, which means that the exit node can read all data that’s  being send through it, which in turn can lead to deanonymization if it contains personal data. 
 
-We recommend using HTTPS over Tor where possible, but do not alter any settings inside Tor browser aside from the build security slider, that means also not manually enabling HTTPS only mode, as this can be used for browser fingerprinting.
+We recommend using HTTPS over Tor where possible, but do not alter any settings inside Tor browser aside from the build in security slider, that means also not manually enabling HTTPS only mode, as this can be used for browser fingerprinting.
 If you are interested in trying out Tor, then we recommend using the official Tor browser. Keep in mind that you should expect added network latency and reduced bandwidth because of the routing have nature of Tor.
 
 ## Further Reading
