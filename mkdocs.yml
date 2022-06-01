@@ -154,10 +154,11 @@ nav:
       - 'basics/common-threats.md'
       - 'basics/account-deletion.md'
       - 'basics/multi-factor-authentication.md'
+      - 'basics/vpn-overview.md'
+      - 'basics/tor-overview.md'
       - 'basics/dns.md'
       - 'basics/erasing-data.md'
       - 'basics/email-security.md'
-      - 'basics/vpn-overview.md'
     - 'Android':
       - 'android/overview.md'
       - 'android/grapheneos-vs-calyxos.md'
