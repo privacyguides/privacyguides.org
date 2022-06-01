@@ -495,13 +495,22 @@ path[d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5
     box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
 }
 
-.downloads summary {
+.downloads summary, .downloads > p {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+aside[class="md-annotation"] > div[class="md-tooltip md-tooltip--active"] > div[class="md-tooltip__inner md-typeset"] {
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
 }
 
 .md-typeset .recommendation img[align="right"] {
