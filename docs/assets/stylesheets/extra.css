@@ -211,23 +211,22 @@ h1, h2, h3, .md-header__topic {
     right:auto;
 }
 
-.downloads > p > a {
-    font-size: 1.25em;
-    padding: 1em 0 !important;
+.downloads > ul > li {
+    padding: 0.5em 0 !important;
 }
 details[class="downloads annotate"] > p .md-annotation span span::before {
     vertical-align: 0;
 }
 
-.downloads > p {
-    display: grid;
-    grid-auto-flow: row;
+.downloads > ul {
+    display: grid!important;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
+    list-style-type: none;
 }
 
 @media screen and (max-width: 600px) {
-  .downloads > p {
+  .downloads > ul {
     grid-template-columns: repeat(2, 1fr);
   }
 }

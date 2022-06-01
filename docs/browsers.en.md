@@ -24,12 +24,12 @@ These are our currently recommended web browsers and configurations. In general,
 
     ??? downloads
 
-        [:fontawesome-brands-windows: Windows](https://www.torproject.org/download/)
-        [:fontawesome-brands-apple: macOS](https://www.torproject.org/download/)
-        [:fontawesome-brands-linux: Linux](https://www.torproject.org/download/)
-        [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.github.micahflee.torbrowser-launcher)
-        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-        [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid/)
+        - [:fontawesome-brands-windows: Windows](https://www.torproject.org/download/)
+        - [:fontawesome-brands-apple: macOS](https://www.torproject.org/download/)
+        - [:fontawesome-brands-linux: Linux](https://www.torproject.org/download/)
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.github.micahflee.torbrowser-launcher)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
+        - [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid/)
 
 !!! danger
     You should **never** install any additional extensions on Tor Browser, including the ones we suggest for Firefox. Browser extensions make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
@@ -52,11 +52,11 @@ These are our currently recommended web browsers and configurations. In general,
 
     ??? downloads
 
-        [:fontawesome-brands-windows: Windows](https://www.mozilla.org/firefox/windows)
-        [:fontawesome-brands-apple: macOS](https://www.mozilla.org/firefox/mac)
-        [:fontawesome-brands-linux: Linux](https://www.mozilla.org/firefox/linux)
-        [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.firefox)
-        
+        - [:fontawesome-brands-windows: Windows](https://www.mozilla.org/firefox/windows)
+        - [:fontawesome-brands-apple: macOS](https://www.mozilla.org/firefox/mac)
+        - [:fontawesome-brands-linux: Linux](https://www.mozilla.org/firefox/linux)
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.firefox)
+
 !!! warning
     Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
@@ -132,9 +132,9 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
 
     ??? downloads annotate
 
-        [:fontawesome-brands-windows: Windows](https://brave.com/download/)
-        [:fontawesome-brands-apple: macOS](https://brave.com/download/)
-        [:fontawesome-brands-linux: Linux](https://brave.com/linux/) (1)
+        - [:fontawesome-brands-windows: Windows](https://brave.com/download/)
+        - [:fontawesome-brands-apple: macOS](https://brave.com/download/)
+        - [:fontawesome-brands-linux: Linux](https://brave.com/linux/) (1)
 
     1. We advise against using the Flatpak version of Brave, as it replaces Chromium's sandbox with Flatpak's, which is less effective. Additionally, the package is not maintained by Brave Software, Inc.
 
@@ -235,7 +235,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
     ??? downloads annotate
 
-        [:pg-f-droid: F-Droid](https://www.bromite.org/fdroid) (1)
+        - [:pg-f-droid: F-Droid](https://www.bromite.org/fdroid) (1)
 
     1. If you use [Neo Store](/android/#neo-store), you can enable the *Bromite repository* in:<br> :material-dots-vertical: → **Repositories**
 
@@ -332,9 +332,9 @@ We generally do not recommend installing any extensions as they increase your at
 
     ??? downloads
 
-        [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
-        [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-        [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
+        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+        - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 
 We suggest leaving the extension in its default configuration. Additional filter lists can impact performance and may increase attack surface, so only apply what you need. If there is a [vulnerability in uBlock Origin](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css) a third party filter could add malicious rules that can potentially steal user data.
 
@@ -355,7 +355,7 @@ We suggest leaving the extension in its default configuration. Additional filter
 
     ??? downloads
 
-        [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 
 Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.
 
@@ -379,9 +379,9 @@ There is also [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html
 
     ??? downloads
 
-        [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/){ .card-link title=Firefox }
-        [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie){ .card-link title=Chrome }
-        [:octicons-browser-16: Web](https://snowflake.torproject.org/embed "Leave this page open to be a Snowflake proxy")
+        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/){ .card-link title=Firefox }
+        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie){ .card-link title=Chrome }
+        - [:octicons-browser-16: Web](https://snowflake.torproject.org/embed "Leave this page open to be a Snowflake proxy")
 
 Snowflake does not increase your privacy in any way, nor is it used to connect to the Tor network within your personal browser. However, if your internet connection is uncensored, you should consider running it to help people in censored networks achieve better privacy themselves. There is no need to worry about which websites people are accessing through your proxy—their visible browsing IP address will match their Tor exit node, not yours.
 
