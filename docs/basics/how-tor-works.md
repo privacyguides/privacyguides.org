@@ -21,6 +21,8 @@ Every time you connect to Tor, it will choose three nodes to build a path to the
   <figcaption>Tor circuit pathway</figcaption>
 </figure>
 
+## Encryption
+
 The Encryption Tor will encrypt each packet three times, with each key in turn from the exit, middle and entry node in that order. Once Tor has built a circuit, browsing is done as follows:
 
 1. When the packet arrives at the entry node the first layer of encryption is removed. In this encrypted packet it will find another encrypted packet with the middle node’s address. The entry node will then forward that to the middle node.
@@ -38,3 +40,10 @@ Here is an alternative visualization of the process. Note how each node removes 
 </figure>
 
 So, what do we learn from this? We learn that Tor allows us to connect to a website without any single party knowing the entire path. The entry node knows who you are, but not where you are going; the middle node doesn’t know who you are or where you are going; and the exit node knows where you are going, but not who you are. Because the exit node makes the connection, the destination website will never know who you are (your IP address).
+
+## Not a Silver bullet.
+Even with the strong privacy guarantees that Tor provides, one must be aware that tor is not infallible. Global adversaries with the capability to passively watch most network traffic over the globe have a chance of deanonymizing tor via traffic analyses. Furthermore, Tor does not protect you from exposing yourself. If you share to much data about your real identity, you may be deanonymized.
+
+
+Another downside is that exit nodes can watch your traffic, even if they do not know where it came from. This is especially problematic for websites that do not utilize HTTPS, which means that the exit node can read all data that’s  being send through it, which in turn can lead to deanonymization if it contain personal data. We recommend using always using HTTPS over Tor where possible.
+If you are interested in trying out Tor, then we recommend using the official Tor browser. Keep in mind that you should expect added network latency and reduced bandwidth because of the routing have nature of Tor
