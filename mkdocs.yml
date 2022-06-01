@@ -156,8 +156,7 @@ nav:
       - 'basics/multi-factor-authentication.md'
       - 'basics/vpn-overview.md'
       - 'basics/tor-overview.md'
-      - 'basics/dns.md'
-      - 'basics/erasing-data.md'
+      - 'basics/dns-overview.md'
       - 'basics/email-security.md'
     - 'Android':
       - 'android/overview.md'
@@ -167,7 +166,8 @@ nav:
       - 'linux-desktop/hardening.md'
       - 'linux-desktop/sandboxing.md'
     - 'Advanced':
-      - 'setup/integrating-metadata-removal.md'
+      - 'advanced/integrating-metadata-removal.md'
+      - 'advanced/erasing-data.md'
   - 'Recommendations':
     - 'tools.md'
     - 'Browsers':
