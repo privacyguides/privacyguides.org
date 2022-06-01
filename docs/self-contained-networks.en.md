@@ -20,15 +20,15 @@ These networks are designed to keep your traffic anonymous.
 
     ??? downloads
 
-        [:fontawesome-brands-windows: Windows](https://www.torproject.org/download/)
-        [:fontawesome-brands-apple: macOS](https://www.torproject.org/download/)
-        [:fontawesome-brands-linux: Linux](https://www.torproject.org/download/)
-        [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/security/tor)
-        [:pg-openbsd: OpenBSD](https://openports.se/net/tor)
-        [:pg-netbsd: NetBSD](https://pkgsrc.se/net/tor)
-        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-        [:pg-f-droid: F-Droid](https://support.torproject.org/tormobile/tormobile-7/)
-        [:fontawesome-brands-android: Android](https://www.torproject.org/download/#android)
+        - [:fontawesome-brands-windows: Windows](https://www.torproject.org/download/)
+        - [:fontawesome-brands-apple: macOS](https://www.torproject.org/download/)
+        - [:fontawesome-brands-linux: Linux](https://www.torproject.org/download/)
+        - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/security/tor)
+        - [:pg-openbsd: OpenBSD](https://openports.se/net/tor)
+        - [:pg-netbsd: NetBSD](https://pkgsrc.se/net/tor)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
+        - [:pg-f-droid: F-Droid](https://support.torproject.org/tormobile/tormobile-7/)
+        - [:fontawesome-brands-android: Android](https://www.torproject.org/download/#android)
 
 ## Invisible Internet Project
 
@@ -46,15 +46,15 @@ These networks are designed to keep your traffic anonymous.
 
     ??? downloads
 
-        [:fontawesome-brands-windows: Windows](https://geti2p.net/en/download#windows)
-        [:fontawesome-brands-apple: macOS](https://geti2p.net/en/download#mac)
-        [:fontawesome-brands-linux: Linux](https://geti2p.net/en/download#unix)
-        [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/security/i2p)
-        [:pg-openbsd: OpenBSD](https://openports.se/net/i2pd)
-        [:pg-netbsd: NetBSD](https://pkgsrc.se/wip/i2pd)
-        [:fontawesome-brands-android: Android](https://geti2p.net/en/download#android)
-        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=net.i2p.android)
-        [:pg-f-droid: F-Droid](https://f-droid.org/app/net.i2p.android.router)
+        - [:fontawesome-brands-windows: Windows](https://geti2p.net/en/download#windows)
+        - [:fontawesome-brands-apple: macOS](https://geti2p.net/en/download#mac)
+        - [:fontawesome-brands-linux: Linux](https://geti2p.net/en/download#unix)
+        - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/security/i2p)
+        - [:pg-openbsd: OpenBSD](https://openports.se/net/i2pd)
+        - [:pg-netbsd: NetBSD](https://pkgsrc.se/wip/i2pd)
+        - [:fontawesome-brands-android: Android](https://geti2p.net/en/download#android)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=net.i2p.android)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/app/net.i2p.android.router)
 
 ## The Freenet Project
 
@@ -71,11 +71,11 @@ These networks are designed to keep your traffic anonymous.
 
     ??? downloads
 
-        [:fontawesome-brands-windows: Windows](https://freenetproject.org/pages/download.html#windows)
-        [:fontawesome-brands-apple: macOS](https://freenetproject.org/pages/download.html#os-x)
-        [:fontawesome-brands-linux: Linux](https://freenetproject.org/pages/download.html#gnulinux-posix)
-        [:fontawesome-brands-freebsd: FreeBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)
-        [:pg-openbsd: OpenBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)
-        [:pg-netbsd: NetBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)
+        - [:fontawesome-brands-windows: Windows](https://freenetproject.org/pages/download.html#windows)
+        - [:fontawesome-brands-apple: macOS](https://freenetproject.org/pages/download.html#os-x)
+        - [:fontawesome-brands-linux: Linux](https://freenetproject.org/pages/download.html#gnulinux-posix)
+        - [:fontawesome-brands-freebsd: FreeBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)
+        - [:pg-openbsd: OpenBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)
+        - [:pg-netbsd: NetBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)
 
 --8<-- "includes/abbreviations.en.md"

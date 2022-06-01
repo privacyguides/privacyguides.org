@@ -21,9 +21,9 @@ Discover how to privately share your files between your devices, with your frien
 
     ??? downloads
 
-        [:fontawesome-brands-windows: Windows](https://onionshare.org/#download)
-        [:fontawesome-brands-apple: macOS](https://onionshare.org/#download)
-        [:fontawesome-brands-linux: Linux](https://onionshare.org/#download)
+        - [:fontawesome-brands-windows: Windows](https://onionshare.org/#download)
+        - [:fontawesome-brands-apple: macOS](https://onionshare.org/#download)
+        - [:fontawesome-brands-linux: Linux](https://onionshare.org/#download)
 
 ### Magic Wormhole
 
@@ -39,9 +39,9 @@ Discover how to privately share your files between your devices, with your frien
 
     ??? downloads
 
-        [:fontawesome-brands-windows: Windows](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation)
-        [:fontawesome-brands-apple: macOS](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#macos-os-x)
-        [:fontawesome-brands-linux: Linux](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation)
+        - [:fontawesome-brands-windows: Windows](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation)
+        - [:fontawesome-brands-apple: macOS](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#macos-os-x)
+        - [:fontawesome-brands-linux: Linux](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation)
 
 ## FreedomBox
 
@@ -73,14 +73,14 @@ Discover how to privately share your files between your devices, with your frien
 
     ??? downloads
 
-        [:fontawesome-brands-windows: Windows](https://syncthing.net/downloads/)
-        [:fontawesome-brands-apple: macOS](https://syncthing.net/downloads/)
-        [:fontawesome-brands-linux: Linux](https://syncthing.net/downloads/)
-        [:fontawesome-brands-freebsd: FreeBSD](https://syncthing.net/downloads/)
-        [:pg-openbsd: OpenBSD](https://syncthing.net/downloads/)
-        [:pg-netbsd: NetBSD](https://syncthing.net/downloads/)
-        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
-        [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.nutomic.syncthingandroid/)
+        - [:fontawesome-brands-windows: Windows](https://syncthing.net/downloads/)
+        - [:fontawesome-brands-apple: macOS](https://syncthing.net/downloads/)
+        - [:fontawesome-brands-linux: Linux](https://syncthing.net/downloads/)
+        - [:fontawesome-brands-freebsd: FreeBSD](https://syncthing.net/downloads/)
+        - [:pg-openbsd: OpenBSD](https://syncthing.net/downloads/)
+        - [:pg-netbsd: NetBSD](https://syncthing.net/downloads/)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.nutomic.syncthingandroid/)
 
 ### git-annex
 
@@ -98,6 +98,6 @@ Discover how to privately share your files between your devices, with your frien
 
     ??? downloads
 
-        [:fontawesome-brands-windows: Windows](https://git-annex.branchable.com/install/Windows)
-        [:fontawesome-brands-apple: macOS](https://git-annex.branchable.com/install/OSX)
-        [:fontawesome-brands-linux: Linux](https://git-annex.branchable.com/install)
+        - [:fontawesome-brands-windows: Windows](https://git-annex.branchable.com/install/Windows)
+        - [:fontawesome-brands-apple: macOS](https://git-annex.branchable.com/install/OSX)
+        - [:fontawesome-brands-linux: Linux](https://git-annex.branchable.com/install)

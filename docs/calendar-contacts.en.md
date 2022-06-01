@@ -25,14 +25,14 @@ These products are included with an subscription with their respective [email pr
 
     ??? downloads
 
-        [:octicons-browser-16: Web](https://mail.tutanota.com/)
-        [:fontawesome-brands-windows: Windows](https://tutanota.com/blog/posts/desktop-clients/)
-        [:fontawesome-brands-apple: macOS](https://tutanota.com/blog/posts/desktop-clients/)
-        [:fontawesome-brands-linux: Linux](https://tutanota.com/blog/posts/desktop-clients/)
-        [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.tutanota.Tutanota)
-        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-        [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.tutao.tutanota)
-        [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
+        - [:octicons-browser-16: Web](https://mail.tutanota.com/)
+        - [:fontawesome-brands-windows: Windows](https://tutanota.com/blog/posts/desktop-clients/)
+        - [:fontawesome-brands-apple: macOS](https://tutanota.com/blog/posts/desktop-clients/)
+        - [:fontawesome-brands-linux: Linux](https://tutanota.com/blog/posts/desktop-clients/)
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.tutanota.Tutanota)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.tutao.tutanota)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
 
 ### Proton Calendar
 
@@ -49,8 +49,8 @@ These products are included with an subscription with their respective [email pr
 
     ??? downloads
 
-        [:octicons-browser-16: Web](https://calendar.proton.me)
-        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
+        - [:octicons-browser-16: Web](https://calendar.proton.me)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
 
 ## Self-hostable
 
@@ -74,10 +74,10 @@ Some of these options are self-hostable, but could be offered by third party Saa
 
     ??? downloads
 
-        [:octicons-device-desktop-16: Client Setup](https://github.com/etesync/etesync-dav/blob/master/README.md#specific-client-notes-and-instructions)
-        [:fontawesome-brands-google-play: Google PLay](https://play.google.com/store/apps/details?id=com.etesync.syncadapter)
-        [:pg-f-droid: F-Droid](https://f-droid.org/app/com.etesync.syncadapter)
-        [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/apple-store/id1489574285)
+        - [:octicons-device-desktop-16: Client Setup](https://github.com/etesync/etesync-dav/blob/master/README.md#specific-client-notes-and-instructions)
+        - [:fontawesome-brands-google-play: Google PLay](https://play.google.com/store/apps/details?id=com.etesync.syncadapter)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/app/com.etesync.syncadapter)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/apple-store/id1489574285)
 
 ### Nextcloud
 
@@ -97,13 +97,13 @@ Some of these options are self-hostable, but could be offered by third party Saa
 
     ??? downloads
 
-        [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
-        [:fontawesome-brands-apple: macOS](https://nextcloud.com/install/#install-clients)
-        [:fontawesome-brands-linux: Linux](https://nextcloud.com/install/#install-clients)
-        [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.nextcloud.desktopclient.nextcloud)
-        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-        [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.nextcloud.client)
-        [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/nextcloud/id1125420102)
+        - [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
+        - [:fontawesome-brands-apple: macOS](https://nextcloud.com/install/#install-clients)
+        - [:fontawesome-brands-linux: Linux](https://nextcloud.com/install/#install-clients)
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.nextcloud.desktopclient.nextcloud)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.nextcloud.client)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/nextcloud/id1125420102)
 
 ### DecSync CC
 
@@ -122,7 +122,7 @@ Some of these options are self-hostable, but could be offered by third party Saa
 
     ??? downloads
 
-        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.decsync.cc)
-        [:pg-f-droid: F-Droid](https://f-droid.org/packages/org.decsync.cc)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.decsync.cc)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/org.decsync.cc)
 
 --8<-- "includes/abbreviations.en.md"

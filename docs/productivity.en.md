@@ -22,15 +22,15 @@ Get working and collaborating without sharing your documents with a middleman or
 
     ??? downloads
 
-        [:fontawesome-brands-windows: Windows](https://www.libreoffice.org/download/download/)
-        [:fontawesome-brands-apple: macOS](https://www.libreoffice.org/download/download/)
-        [:fontawesome-brands-linux: Linux](https://www.libreoffice.org/download/download/)
-        [:pg-flathub: Flatpak](https://www.libreoffice.org/download/download/)
-        [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/editors/libreoffice/)
-        [:pg-openbsd: OpenBSD](https://openports.se/editors/libreoffice)
-        [:pg-netbsd: NetBSD](https://pkgsrc.se/misc/libreoffice)
-        [:fontawesome-brands-google-play: Google Play](https://www.libreoffice.org/download/android-and-ios/)
-        [:fontawesome-brands-app-store-ios: App Store](https://www.libreoffice.org/download/android-and-ios/)
+        - [:fontawesome-brands-windows: Windows](https://www.libreoffice.org/download/download/)
+        - [:fontawesome-brands-apple: macOS](https://www.libreoffice.org/download/download/)
+        - [:fontawesome-brands-linux: Linux](https://www.libreoffice.org/download/download/)
+        - [:pg-flathub: Flatpak](https://www.libreoffice.org/download/download/)
+        - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/editors/libreoffice/)
+        - [:pg-openbsd: OpenBSD](https://openports.se/editors/libreoffice)
+        - [:pg-netbsd: NetBSD](https://pkgsrc.se/misc/libreoffice)
+        - [:fontawesome-brands-google-play: Google Play](https://www.libreoffice.org/download/android-and-ios/)
+        - [:fontawesome-brands-app-store-ios: App Store](https://www.libreoffice.org/download/android-and-ios/)
 
 ### OnlyOffice
 
@@ -47,12 +47,12 @@ Get working and collaborating without sharing your documents with a middleman or
 
     ??? downloads
 
-        [:fontawesome-brands-windows: Windows](https://www.onlyoffice.com/download-desktop.aspx)
-        [:fontawesome-brands-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx)
-        [:fontawesome-brands-linux: Linux](https://www.onlyoffice.com/download-desktop.aspx)
-        [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/www/onlyoffice-documentserver/)
-        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
-        [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id944896972)
+        - [:fontawesome-brands-windows: Windows](https://www.onlyoffice.com/download-desktop.aspx)
+        - [:fontawesome-brands-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx)
+        - [:fontawesome-brands-linux: Linux](https://www.onlyoffice.com/download-desktop.aspx)
+        - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/www/onlyoffice-documentserver/)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id944896972)
 
 ## Planning
 
@@ -122,11 +122,11 @@ Get working and collaborating without sharing your documents with a middleman or
 
     ??? downloads
 
-        [:fontawesome-brands-windows: Windows](https://github.com/writeas/writeas-cli)
-        [:fontawesome-brands-apple: macOS](https://github.com/writeas/writeas-cli)
-        [:fontawesome-brands-linux: Linux](https://github.com/writeas/writeas-cli)
-        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.abunchtell.writeas)
-        [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1531530896)
+        - [:fontawesome-brands-windows: Windows](https://github.com/writeas/writeas-cli)
+        - [:fontawesome-brands-apple: macOS](https://github.com/writeas/writeas-cli)
+        - [:fontawesome-brands-linux: Linux](https://github.com/writeas/writeas-cli)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.abunchtell.writeas)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1531530896)
 
 ## Programming
 
@@ -144,8 +144,8 @@ Get working and collaborating without sharing your documents with a middleman or
 
     ??? downloads
 
-        [:fontawesome-brands-windows: Windows](https://vscodium.com/#install)
-        [:fontawesome-brands-apple: macOS](https://vscodium.com/#install)
-        [:fontawesome-brands-linux: Linux](https://vscodium.com/#install)
+        - [:fontawesome-brands-windows: Windows](https://vscodium.com/#install)
+        - [:fontawesome-brands-apple: macOS](https://vscodium.com/#install)
+        - [:fontawesome-brands-linux: Linux](https://vscodium.com/#install)
 
 --8<-- "includes/abbreviations.en.md"
