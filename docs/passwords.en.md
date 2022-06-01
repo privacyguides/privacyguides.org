@@ -30,12 +30,12 @@ These password managers store the password database locally.
 
     ??? downloads
 
-        [:fontawesome-brands-windows:](https://keepassxc.org/download/#windows){ .card-link title=Windows }
-        [:fontawesome-brands-apple:](https://keepassxc.org/download/#mac){ .card-link title=macOS }
-        [:fontawesome-brands-linux:](https://keepassxc.org/download/#linux){ .card-link title=Linux }
-        [:pg-flathub:](https://flathub.org/apps/details/org.keepassxc.KeePassXC){ .card-link title=Flatpak }
-        [:fontawesome-brands-firefox:](https://addons.mozilla.org/firefox/addon/keepassxc-browser){ .card-link title=Firefox }
-        [:fontawesome-brands-chrome:](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk){ .card-link title=Chrome }
+        [:fontawesome-brands-windows: Windows](https://keepassxc.org/download/#windows)
+        [:fontawesome-brands-apple: macOS](https://keepassxc.org/download/#mac)
+        [:fontawesome-brands-linux: Linux](https://keepassxc.org/download/#linux)
+        [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
+        [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
+        [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
 
 KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files. This may mean data loss if you import this file into another password manager. We advise you check each record manually.
 
@@ -54,9 +54,9 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
     ??? downloads
 
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free){ .card-link title="Google Play" }
-        [:pg-f-droid:](https://www.f-droid.org/packages/com.kunzisoft.keepass.libre){ .card-link title=F-Droid }
-        [:fontawesome-brands-github:](https://github.com/Kunzisoft/KeePassDX/releases){ .card-link title=GitHub }
+        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
+        [:pg-f-droid: F-Droid](https://www.f-droid.org/packages/com.kunzisoft.keepass.libre)
+        [:fontawesome-brands-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
 
 ## Cloud Syncing Password Managers
 
@@ -77,16 +77,16 @@ These password managers sync up to a cloud server that may be self-hostable.
 
     ??? downloads
 
-        [:fontawesome-brands-windows:](https://bitwarden.com/download){ .card-link title=Windows }
-        [:fontawesome-brands-app-store:](https://apps.apple.com/app/bitwarden/id1352778147){ .card-link title="Mac App Store" }
-        [:fontawesome-brands-linux:](https://bitwarden.com/download){ .card-link title=Linux }
-        [:pg-flathub:](https://flathub.org/apps/details/com.bitwarden.desktop){ .card-link title=Flatpak }
-        [:fontawesome-brands-app-store-ios:](https://apps.apple.com/app/bitwarden-password-manager/id1137397744){ .card-link title="App Store" }
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden){ .card-link title="Google Play" }
-        [:pg-f-droid:](https://mobileapp.bitwarden.com/fdroid){ .card-link title=F-Droid }
-        [:fontawesome-brands-firefox:](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager){ .card-link title=Firefox }
-        [:fontawesome-brands-chrome:](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb){ .card-link title=Chrome }
-        [:fontawesome-brands-edge:](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh){ .card-link title=Edge }
+        [:fontawesome-brands-windows: Windows](https://bitwarden.com/download)
+        [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/app/bitwarden/id1352778147)
+        [:fontawesome-brands-linux: Linux](https://bitwarden.com/download)
+        [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.bitwarden.desktop)
+        [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
+        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
+        [:pg-f-droid: F-Droid](https://mobileapp.bitwarden.com/fdroid)
+        [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
+        [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
+        [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
 
 ### Psono
 
@@ -103,11 +103,11 @@ These password managers sync up to a cloud server that may be self-hostable.
 
     ??? downloads
 
-        [:fontawesome-brands-firefox:](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager){ .card-link title=Firefox }
-        [:fontawesome-brands-chrome:](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo){ .card-link title=Chrome }
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=com.psono.psono){ .card-link title="Google Play" }
-        [:fontawesome-brands-app-store-ios:](https://apps.apple.com/us/app/psono-password-manager/id1545581224){ .card-link title="App Store" }
-        [:fontawesome-brands-docker:](https://hub.docker.com/r/psono/psono-client){ .card-link title="Docker Hub" }
+        [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
+        [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
+        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
+        [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
+        [:fontawesome-brands-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
 
 ## Password Management Servers
 
@@ -129,7 +129,7 @@ These products are self-hostable synchronization for cloud based password manage
 
     ??? downloads
 
-        [:fontawesome-brands-docker:](https://hub.docker.com/r/vaultwarden/server){ .card-link title="Docker Hub" }
+        [:fontawesome-brands-docker: Docker Hub](https://hub.docker.com/r/vaultwarden/server)
 
 ### Psono Server
 
@@ -146,7 +146,7 @@ These products are self-hostable synchronization for cloud based password manage
 
     ??? downloads
 
-        [:fontawesome-brands-docker:](https://hub.docker.com/r/psono/psono-server){ .card-link title="Docker Hub" }
+        [:fontawesome-brands-docker: Docker Hub](https://hub.docker.com/r/psono/psono-server)
 
 ## Minimal Password Managers
 
@@ -167,9 +167,9 @@ These products are minimal password managers that can be used within scripting a
 
     ??? downloads
 
-        [:fontawesome-brands-windows:](https://www.gopass.pw/#install-windows){ .card-link title=Windows }
-        [:fontawesome-brands-apple:](https://www.gopass.pw/#install-macos){ .card-link title=macOS }
-        [:fontawesome-brands-linux:](https://www.gopass.pw/#install-linux){ .card-link title=Linux }
-        [:fontawesome-brands-freebsd:](https://www.gopass.pw/#install-bsd){ .card-link title=FreeBSD }
+        [:fontawesome-brands-windows: Windows](https://www.gopass.pw/#install-windows)
+        [:fontawesome-brands-apple: macOS](https://www.gopass.pw/#install-macos)
+        [:fontawesome-brands-linux: Linux](https://www.gopass.pw/#install-linux)
+        [:fontawesome-brands-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
 
 --8<-- "includes/abbreviations.en.md"

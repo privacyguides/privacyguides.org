@@ -22,15 +22,15 @@ If these alternatives do not fit your needs, we suggest you look into [Encryptio
 
     ??? downloads
 
-        [:fontawesome-brands-windows:](https://nextcloud.com/install/#install-clients){ .card-link title=Windows }
-        [:fontawesome-brands-apple:](https://nextcloud.com/install/#install-clients){ .card-link title=macOS }
-        [:fontawesome-brands-linux:](https://nextcloud.com/install/#install-clients){ .card-link title=Linux }
-        [:fontawesome-brands-freebsd:](https://www.freshports.org/www/nextcloud){ .card-link title=FreeBSD }
-        [:pg-openbsd:](https://openports.se/www/nextcloud){ .card-link title=OpenBSD }
-        [:pg-netbsd:](https://pkgsrc.se/www/php-nextcloud){ .card-link title=NetBSD }
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=com.nextcloud.client){ .card-link title="Google Play" }
-        [:pg-f-droid:](https://f-droid.org/packages/com.nextcloud.client){ .card-link title=F-Droid }
-        [:fontawesome-brands-app-store-ios:](https://apps.apple.com/app/id1125420102){ .card-link title=App Store }
+        [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
+        [:fontawesome-brands-apple: macOS](https://nextcloud.com/install/#install-clients)
+        [:fontawesome-brands-linux: Linux](https://nextcloud.com/install/#install-clients)
+        [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
+        [:pg-openbsd: OpenBSD](https://openports.se/www/nextcloud)
+        [:pg-netbsd: NetBSD](https://pkgsrc.se/www/php-nextcloud)
+        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
+        [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.nextcloud.client)
+        [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1125420102)
 
 We recommend checking if your Nextcloud provider supports E2EE, otherwise you have to trust the provider to not look at your files.
 
@@ -88,9 +88,9 @@ When using a web client, you are placing trust in the server to send you proper 
 
     ??? downloads
 
-        [:fontawesome-brands-windows:](https://tahoe-lafs.readthedocs.io/en/latest/Installation/install-tahoe.html#microsoft-windows){ .card-link title=Windows }
-        [:fontawesome-brands-apple:](https://tahoe-lafs.readthedocs.io/en/latest/Installation/install-tahoe.html#linux-bsd-or-macos){ .card-link title=macOS }
-        [:fontawesome-brands-linux:](https://tahoe-lafs.readthedocs.io/en/latest/Installation/install-tahoe.html#linux-bsd-or-macos){ .card-link title=Linux }
-        [:pg-netbsd:](https://tahoe-lafs.readthedocs.io/en/latest/Installation/install-tahoe.html#linux-bsd-or-macos){ .card-link title=NetBSD }
+        [:fontawesome-brands-windows: Windows](https://tahoe-lafs.readthedocs.io/en/latest/Installation/install-tahoe.html#microsoft-windows)
+        [:fontawesome-brands-apple: macOS](https://tahoe-lafs.readthedocs.io/en/latest/Installation/install-tahoe.html#linux-bsd-or-macos)
+        [:fontawesome-brands-linux: Linux](https://tahoe-lafs.readthedocs.io/en/latest/Installation/install-tahoe.html#linux-bsd-or-macos)
+        [:pg-netbsd: NetBSD](https://tahoe-lafs.readthedocs.io/en/latest/Installation/install-tahoe.html#linux-bsd-or-macos)
 
 --8<-- "includes/abbreviations.en.md"

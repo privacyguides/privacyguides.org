@@ -22,10 +22,10 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     ??? downloads
 
-        [:fontawesome-brands-windows:](https://pypi.org/project/mat2){ .card-link title=Windows }
-        [:fontawesome-brands-apple:](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew){ .card-link title=macOS }
-        [:fontawesome-brands-linux:](https://pypi.org/project/mat2){ .card-link title=Linux }
-        [:octicons-globe-16:](https://0xacab.org/jvoisin/mat2#web-interface){ .card-link title=Web }
+        [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
+        [:fontawesome-brands-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
+        [:fontawesome-brands-linux: Linux](https://pypi.org/project/mat2)
+        [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
 
 ### ExifCleaner
 
@@ -41,9 +41,9 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     ??? downloads
 
-        [:fontawesome-brands-windows:](https://github.com/szTheory/exifcleaner/releases){ .card-link title=Windows }
-        [:fontawesome-brands-apple:](https://github.com/szTheory/exifcleaner/releases){ .card-link title=macOS }
-        [:fontawesome-brands-linux:](https://github.com/szTheory/exifcleaner/releases){ .card-link title=Linux }
+        [:fontawesome-brands-windows: Windows](https://github.com/szTheory/exifcleaner/releases)
+        [:fontawesome-brands-apple: macOS](https://github.com/szTheory/exifcleaner/releases)
+        [:fontawesome-brands-linux: Linux](https://github.com/szTheory/exifcleaner/releases)
 
 ## Mobile
 
@@ -63,8 +63,8 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     ??? downloads
 
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=com.jarsilio.android.scrambledeggsif){ .card-link title="Google Play" }
-        [:pg-f-droid:](https://f-droid.org/en/packages/com.jarsilio.android.scrambledeggsif){ .card-link title=F-Droid }
+        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.jarsilio.android.scrambledeggsif)
+        [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.jarsilio.android.scrambledeggsif)
 
 ### Imagepipe
 
@@ -80,7 +80,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     ??? downloads
 
-        [:pg-f-droid:](https://f-droid.org/en/packages/de.kaffeemitkoffein.imagepipe/){ .card-link title=F-Droid }
+        [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.kaffeemitkoffein.imagepipe/)
 
 Imagepipe is only available from F-Droid and not in Google Play. If you're looking for a paint app in Google Play we suggest [Pocket Paint](https://play.google.com/store/apps/details?id=org.catrobat.paintroid).
 
@@ -99,7 +99,7 @@ Imagepipe is only available from F-Droid and not in Google Play. If you're looki
 
     ??? downloads
 
-        [:fontawesome-brands-app-store-ios:](https://apps.apple.com/us/app/metapho/id914457352){ .card-link title="App Store" }
+        [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/metapho/id914457352)
 
 ## Command-line
 
@@ -120,9 +120,9 @@ Imagepipe is only available from F-Droid and not in Google Play. If you're looki
 
     ??? downloads
 
-        [:fontawesome-brands-windows:](https://exiftool.org){ .card-link title=Windows }
-        [:fontawesome-brands-apple:](https://exiftool.org){ .card-link title=macOS }
-        [:fontawesome-brands-linux:](https://exiftool.org){ .card-link title=Linux }
+        [:fontawesome-brands-windows: Windows](https://exiftool.org)
+        [:fontawesome-brands-apple: macOS](https://exiftool.org)
+        [:fontawesome-brands-linux: Linux](https://exiftool.org)
 
 
 !!! example "Deleting data from a directory of files"

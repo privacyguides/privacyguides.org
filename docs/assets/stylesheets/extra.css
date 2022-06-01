@@ -211,11 +211,25 @@ h1, h2, h3, .md-header__topic {
     right:auto;
 }
 
-.downloads p > a {
-    padding-left: 0.5em;
+.downloads > p > a {
+    font-size: 1.25em;
+    padding: 1em 0 !important;
 }
 details[class="downloads annotate"] > p .md-annotation span span::before {
     vertical-align: 0;
+}
+
+.downloads > p {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .downloads > p {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Card links */

@@ -83,9 +83,9 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
     ??? downloads
 
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis){ .card-link title="Google Play" }
-        [:pg-f-droid:](https://f-droid.org/en/packages/com.beemdevelopment.aegis){ .card-link title=F-Droid }
-        [:fontawesome-brands-github:](https://github.com/beemdevelopment/Aegis/releases){ .card-link title=GitHub }
+        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
+        [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.beemdevelopment.aegis)
+        [:fontawesome-brands-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
 
 ### Raivo OTP
 
@@ -102,7 +102,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
     ??? downloads
 
-        [:fontawesome-brands-app-store-ios:](https://apps.apple.com/us/app/raivo-otp/id1459042137){ .card-link title="App Store" }
-        [:fontawesome-brands-app-store:](https://apps.apple.com/us/app/raivo-otp/id1498497896){ .card-link title="Mac App Store" }
+        [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
+        [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/us/app/raivo-otp/id1498497896)
 
 --8<-- "includes/abbreviations.en.md"

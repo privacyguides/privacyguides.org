@@ -23,8 +23,8 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     ??? downloads
 
-        [:fontawesome-brands-windows:](https://hyliu.me/fluent-reader){ .card-link title=Windows }
-        [:fontawesome-brands-app-store:](https://apps.apple.com/app/id1520907427){ .card-link title="Mac App Store" }
+        [:fontawesome-brands-windows: Windows](https://hyliu.me/fluent-reader)
+        [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/app/id1520907427)
 
 ### GNOME Feeds
 
@@ -40,8 +40,8 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     ??? downloads
 
-        [:fontawesome-brands-linux:](https://gfeeds.gabmus.org/#install){ .card-link title=Linux }
-        [:pg-flathub:](https://flathub.org/apps/details/org.gabmus.gfeeds){ .card-link title=Flatpak }
+        [:fontawesome-brands-linux: Linux](https://gfeeds.gabmus.org/#install)
+        [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.gabmus.gfeeds)
 
 ### Akregator
 
@@ -59,7 +59,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     ??? downloads
 
-        [:pg-flathub:](https://flathub.org/apps/details/org.kde.akregator){ .card-link title=Flatpak }
+        [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.kde.akregator)
 
 ### Feeder
 
@@ -75,8 +75,8 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     ??? downloads
 
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play){ .card-link title="Google Play" }
-        [:pg-f-droid:](https://f-droid.org/en/packages/com.nononsenseapps.feeder/){ .card-link title=F-Droid }
+        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
+        [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.nononsenseapps.feeder/)
 
 ### NetNewsWire
 
@@ -93,8 +93,8 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     ??? downloads
 
-        [:fontawesome-brands-apple:](https://netnewswire.com){ .card-link title=macOS }
-        [:fontawesome-brands-app-store-ios:](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210){ .card-link title="App Store" }
+        [:fontawesome-brands-apple: macOS](https://netnewswire.com)
+        [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
 
 ### Miniflux
 

@@ -26,10 +26,10 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     ??? downloads
 
-        [:fontawesome-brands-windows:](https://www.thunderbird.net){ .card-link title=Windows }
-        [:fontawesome-brands-apple:](https://www.thunderbird.net){ .card-link title=macOS }
-        [:fontawesome-brands-linux:](https://www.thunderbird.net){ .card-link title=Linux }
-        [:pg-flathub:](https://flathub.org/apps/details/org.mozilla.Thunderbird){ .card-link title=Flatpak }
+        [:fontawesome-brands-windows: Windows](https://www.thunderbird.net)
+        [:fontawesome-brands-apple: macOS](https://www.thunderbird.net)
+        [:fontawesome-brands-linux: Linux](https://www.thunderbird.net)
+        [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.Thunderbird)
 
 ## Apple Mail
 
@@ -63,7 +63,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     ??? downloads
 
-        [:pg-flathub:](https://flathub.org/apps/details/org.gnome.Evolution){ .card-link title=Flatpak }
+        [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.gnome.Evolution)
 
 ## Kontact
 
@@ -81,8 +81,8 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     ??? downloads
 
-        [:fontawesome-brands-linux:](https://kontact.kde.org/download){ .card-link title=Linux }
-        [:pg-flathub:](https://flathub.org/apps/details/org.kde.kontact){ .card-link title=Flatpak }
+        [:fontawesome-brands-linux: Linux](https://kontact.kde.org/download)
+        [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.kde.kontact)
 
 ## Mailvelope
 
@@ -99,9 +99,9 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     ??? downloads
 
-        [:fontawesome-brands-firefox:](https://addons.mozilla.org/firefox/addon/mailvelope){ .card-link title=Firefox }
-        [:fontawesome-brands-chrome:](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke){ .card-link title=Chrome }
-        [:fontawesome-brands-edge:](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc){ .card-link title=Edge }
+        [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
+        [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
+        [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc)
 
 ## K-9 Mail
 
@@ -119,9 +119,9 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     ??? downloads
 
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=com.fsck.k9){ .card-link title="Google Play" }
-        [:pg-f-droid:](https://f-droid.org/packages/com.fsck.k9){ .card-link title=F-Droid }
-        [:fontawesome-brands-github:](https://github.com/k9mail/k-9/releases){ .card-link title=GitHub }
+        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
+        [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.fsck.k9)
+        [:fontawesome-brands-github: GitHub](https://github.com/k9mail/k-9/releases)
 
 ## FairEmail
 
@@ -139,8 +139,8 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     ??? downloads
 
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=eu.faircode.email){ .card-link title="Google Play" }
-        [:pg-f-droid:](https://f-droid.org/packages/eu.faircode.email/){ .card-link title=F-Droid }
+        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
+        [:pg-f-droid: F-Droid](https://f-droid.org/packages/eu.faircode.email/)
 
 ## Canary Mail
 
@@ -156,10 +156,10 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     ??? downloads
 
-        [:fontawesome-brands-app-store:](https://apps.apple.com/app/id1236045954){ .card-link title="Mac App Store" }
-        [:fontawesome-brands-app-store-ios:](https://apps.apple.com/app/id1236045954){ .card-link title="App Store" }
-        [:fontawesome-brands-windows:](https://canarymail.io/downloads.html){ .card-link title=Windows }
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=io.canarymail.android){ .card-link title="Google Play" }
+        [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/app/id1236045954)
+        [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1236045954)
+        [:fontawesome-brands-windows: Windows](https://canarymail.io/downloads.html)
+        [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
 
 !!! attention
 
@@ -184,7 +184,7 @@ Canary Mail is closed source. We recommend it due to the few choices there are f
 
     ??? downloads
 
-        [:fontawesome-brands-linux:](https://neomutt.org/distro){ .card-link title=Linux }
-        [:fontawesome-brands-apple:](https://neomutt.org/distro){ .card-link title=macOS }
+        [:fontawesome-brands-linux: Linux](https://neomutt.org/distro)
+        [:fontawesome-brands-apple: macOS](https://neomutt.org/distro)
 
 --8<-- "includes/abbreviations.en.md"
