@@ -24,9 +24,9 @@ The options listed here are multi-platform and great for creating encrypted back
 
     ??? downloads
 
-        [:fontawesome-brands-windows:](https://www.veracrypt.fr/en/Downloads.html){ .card-link title=Windows }
-        [:fontawesome-brands-apple:](https://www.veracrypt.fr/en/Downloads.html){ .card-link title=macOS }
-        [:fontawesome-brands-linux:](https://www.veracrypt.fr/en/Downloads.html){ .card-link title=Linux }
+        - [:fontawesome-brands-windows: Windows](https://www.veracrypt.fr/en/Downloads.html)
+        - [:fontawesome-brands-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
+        - [:fontawesome-brands-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
 
 VeraCrypt is a fork of the discontinued TrueCrypt project. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed.
 
@@ -50,13 +50,13 @@ Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
 
     ??? downloads
 
-        [:fontawesome-brands-windows:](https://cryptomator.org/downloads){ .card-link title=Windows }
-        [:fontawesome-brands-apple:](https://cryptomator.org/downloads){ .card-link title=macOS }
-        [:fontawesome-brands-linux:](https://cryptomator.org/downloads){ .card-link title=Linux }
-        [:pg-flathub:](https://flathub.org/apps/details/org.cryptomator.Cryptomator){ .card-link title=Flatpak }
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=org.cryptomator){ .card-link title="Google Play" }
-        [:fontawesome-brands-android:](https://cryptomator.org/android){ .card-link title=Android }
-        [:fontawesome-brands-app-store-ios:](https://apps.apple.com/us/app/cryptomator-2/id1560822163){ .card-link title="App Store" }
+        - [:fontawesome-brands-windows: Windows](https://cryptomator.org/downloads)
+        - [:fontawesome-brands-apple: macOS](https://cryptomator.org/downloads)
+        - [:fontawesome-brands-linux: Linux](https://cryptomator.org/downloads)
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
+        - [:fontawesome-brands-android: Android](https://cryptomator.org/android)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
 
 Cryptomator utilizes AES-256 encryption to encrypt both files and filenames. Cryptomator cannot encrypt some metadata such as access, modification, and creation timestamps, nor the number and size of files and folders.
 
@@ -78,9 +78,9 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
     ??? downloads
 
-        [:fontawesome-brands-windows:](https://github.com/HACKERALERT/Picocrypt/releases){ .card-link title=Windows }
-        [:fontawesome-brands-apple:](https://github.com/HACKERALERT/Picocrypt/releases){ .card-link title=macOS }
-        [:fontawesome-brands-linux:](https://github.com/HACKERALERT/Picocrypt/releases){ .card-link title=Linux }
+        - [:fontawesome-brands-windows: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
+        - [:fontawesome-brands-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
+        - [:fontawesome-brands-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
 
 ## OS Full Disk Encryption
 
@@ -216,9 +216,9 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
     ??? downloads
 
-        [:fontawesome-brands-windows:](https://www.kryptor.co.uk){ .card-link title=Windows }
-        [:fontawesome-brands-apple:](https://www.kryptor.co.uk){ .card-link title=macOS }
-        [:fontawesome-brands-linux:](https://www.kryptor.co.uk){ .card-link title=Linux }
+        - [:fontawesome-brands-windows: Windows](https://www.kryptor.co.uk)
+        - [:fontawesome-brands-apple: macOS](https://www.kryptor.co.uk)
+        - [:fontawesome-brands-linux: Linux](https://www.kryptor.co.uk)
 
 ### Tomb
 
@@ -262,10 +262,10 @@ When encrypting with PGP, you have the option to configure different options in 
 
     ??? downloads
 
-        [:fontawesome-brands-windows:](https://gpg4win.org/download.html){ .card-link title=Windows }
-        [:fontawesome-brands-apple:](https://gpgtools.org){ .card-link title=macOS }
-        [:fontawesome-brands-linux:](https://gnupg.org/download/index.html#binary){ .card-link title=Linux }
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain){ .card-link title="Google Play" }
+        - [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
+        - [:fontawesome-brands-apple: macOS](https://gpgtools.org)
+        - [:fontawesome-brands-linux: Linux](https://gnupg.org/download/index.html#binary)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 
 ### GPG4win
 
@@ -283,7 +283,7 @@ When encrypting with PGP, you have the option to configure different options in 
 
     ??? downloads
 
-        [:fontawesome-brands-windows:](https://gpg4win.org/download.html){ .card-link title=Windows }
+        - [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
 
 ### GPG Suite
 
@@ -306,7 +306,7 @@ When encrypting with PGP, you have the option to configure different options in 
 
     ??? downloads
 
-        [:fontawesome-brands-apple:](https://gpgtools.org){ .card-link title=macOS }
+        - [:fontawesome-brands-apple: macOS](https://gpgtools.org)
 
 ### OpenKeychain
 
@@ -324,7 +324,7 @@ When encrypting with PGP, you have the option to configure different options in 
 
     ??? downloads
 
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain){ .card-link title="Google Play" }
-        [:pg-f-droid:](https://f-droid.org/packages/org.sufficientlysecure.keychain/){ .card-link title=F-Droid }
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/org.sufficientlysecure.keychain/)
 
 --8<-- "includes/abbreviations.en.md"

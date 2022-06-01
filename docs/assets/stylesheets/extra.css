@@ -211,11 +211,29 @@ h1, h2, h3, .md-header__topic {
     right:auto;
 }
 
-.downloads p > a {
-    padding-left: 0.5em;
+.downloads > ul > li {
+    padding: 0.5em 0 !important;
 }
+
+.downloads > ul .twemoji {
+    width: .9rem
+}
+
 details[class="downloads annotate"] > p .md-annotation span span::before {
     vertical-align: 0;
+}
+
+.downloads > ul {
+    display: grid!important;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 600px) {
+  .downloads > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Card links */

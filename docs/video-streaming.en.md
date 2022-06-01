@@ -24,10 +24,10 @@ The primary threat when using a video streaming platform is that your streaming 
 
     ??? downloads
 
-        [:fontawesome-brands-windows:](https://freetubeapp.io/#download){ .card-link title=Windows }
-        [:fontawesome-brands-apple:](https://freetubeapp.io/#download){ .card-link title=macOS }
-        [:fontawesome-brands-linux:](https://freetubeapp.io/#download){ .card-link title=Linux }
-        [:pg-flathub:](https://flathub.org/apps/details/io.freetubeapp.FreeTube){ .card-link title=Flatpak }
+        - [:fontawesome-brands-windows: Windows](https://freetubeapp.io/#download)
+        - [:fontawesome-brands-apple: macOS](https://freetubeapp.io/#download)
+        - [:fontawesome-brands-linux: Linux](https://freetubeapp.io/#download)
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
 
 !!! Warning
 
@@ -50,9 +50,9 @@ The primary threat when using a video streaming platform is that your streaming 
 
     ??? downloads
 
-        [:fontawesome-brands-windows:](https://lbry.com/windows){ .card-link title=Windows }
-        [:fontawesome-brands-apple:](https://lbry.com/osx){ .card-link title=macOS }
-        [:fontawesome-brands-linux:](https://lbry.com/linux){ .card-link title=Linux }
+        - [:fontawesome-brands-windows: Windows](https://lbry.com/windows)
+        - [:fontawesome-brands-apple: macOS](https://lbry.com/osx)
+        - [:fontawesome-brands-linux: Linux](https://lbry.com/linux)
 
 !!! note
 
@@ -84,8 +84,8 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
 
     ??? downloads
 
-        [:pg-f-droid:](https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo){ .card-link title=F-Droid}
-        [:fontawesome-brands-github:](https://github.com/TeamNewPipe/NewPipe/releases){ .card-link title=GitHub }
+        - [:pg-f-droid: F-Droid](https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo)
+        - [:fontawesome-brands-github: GitHub](https://github.com/TeamNewPipe/NewPipe/releases)
 
 1. The default instance is [FramaTube](https://framatube.org/), however more can be added via **Settings** → **Content** → **PeerTube instances**
 

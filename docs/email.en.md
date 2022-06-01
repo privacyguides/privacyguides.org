@@ -235,13 +235,13 @@ Using an aliasing service requires trusting both your email provider and your al
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
 
     ??? downloads
-        [:fontawesome-brands-firefox:](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/){ .card-link title=Firefox }
-        [:fontawesome-brands-chrome:](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn){ .card-link title=Chrome }
-        [:fontawesome-brands-edge:](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff){ .card-link title=Edge }
-        [:fontawesome-brands-safari:](https://apps.apple.com/app/id1494051017){ .card-link title=Safari }
-        [:fontawesome-brands-app-store-ios:](https://apps.apple.com/app/id1494359858){ .card-link title="App Store" }
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=io.simplelogin.android){ .card-link title="Google Play" }
-        [:pg-f-droid:](https://f-droid.org/en/packages/io.simplelogin.android.fdroid/){ .card-link title=F-Droid }
+        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/)
+        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
+        - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
+        - [:fontawesome-brands-safari: Safari](https://apps.apple.com/app/id1494051017)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1494359858)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/io.simplelogin.android.fdroid/)
 
 SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing.
 
@@ -266,10 +266,10 @@ Notable free features:
     [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribute }
 
     ??? downloads
-        [:fontawesome-brands-firefox:](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/){ .card-link title=Firefox }
-        [:fontawesome-brands-chrome:](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe){ .card-link title=Chrome }
-        [:material-apple-ios:](https://anonaddy.com/faq/#is-there-an-ios-app){ .card-link title=iOS }
-        [:fontawesome-brands-android:](https://anonaddy.com/faq/#is-there-an-android-app){ .card-link title=Android }
+        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
+        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
+        - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
+        - [:fontawesome-brands-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
 
 The number of shared aliases (which end in a shared domain like @anonaddy.me) that you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/month plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared aliases are available for $36/year.
 
@@ -424,4 +424,3 @@ Must not have any marketing which is irresponsible:
 While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
 
 --8<-- "includes/abbreviations.en.md"
-

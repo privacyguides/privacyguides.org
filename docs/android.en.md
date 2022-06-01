@@ -164,8 +164,8 @@ Fairphone markets their devices as receiving 6 years of support. However, the So
 
     ??? downloads
 
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=org.torproject.android){ .card-link title="Google Play" }
-        [:pg-f-droid:](https://guardianproject.info/fdroid){ .card-link title=F-Droid }
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
+        - [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid)
 
 Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
@@ -193,8 +193,8 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
 
     ??? downloads
 
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=net.typeblog.shelter){ .card-link title="Google Play" }
-        [:pg-f-droid:](https://f-droid.org/en/packages/net.typeblog.shelter){ .card-link title=F-Droid }
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=net.typeblog.shelter)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/net.typeblog.shelter)
 
 !!! warning
 
@@ -221,8 +221,8 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
 
     ??? downloads
 
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=app.attestation.auditor){ .card-link title="Google Play" }
-        [:fontawesome-brands-github:](https://github.com/GrapheneOS/Auditor/releases){ .card-link title=GitHub }
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor)
+        - [:fontawesome-brands-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
 
 Auditor performs attestation and intrusion detection by:
 
@@ -253,8 +253,8 @@ To make sure that your hardware and operating system is genuine, [perform local 
 
     ??? downloads
 
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play){ .card-link title="Google Play" }
-        [:fontawesome-brands-github:](https://github.com/GrapheneOS/Camera/releases){ .card-link title=GitHub }
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
+        - [:fontawesome-brands-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
 
 Main privacy features include:
 
@@ -285,8 +285,8 @@ Main privacy features include:
 
     ??? downloads
 
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play){ .card-link title="Google Play" }
-        [:fontawesome-brands-github:](https://github.com/GrapheneOS/PdfViewer/releases){ .card-link title=GitHub }
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
+        - [:fontawesome-brands-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
 
 ### PrivacyBlur
 
@@ -303,8 +303,8 @@ Main privacy features include:
 
     ??? downloads
 
-        [:fontawesome-brands-google-play:](https://play.google.com/store/apps/details?id=de.mathema.privacyblur){ .card-link title="Google Play" }
-        [:pg-f-droid:](https://f-droid.org/en/packages/de.mathema.privacyblur/){ .card-link title=F-Droid }
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.mathema.privacyblur/)
 
 !!! warning
 
@@ -355,8 +355,8 @@ To mitigate these problems, we recommend [Neo Store](https://github.com/NeoAppli
 
     ??? downloads
 
-        [:fontawesome-brands-android:](https://android.izzysoft.de/repo/apk/com.looker.droidify){ .card-link title="IzzyOnDroid (APK)" }
-        [:fontawesome-brands-github:](https://github.com/NeoApplications/Neo-Store/releases){ .card-link title=GitHub }
+        - [:fontawesome-brands-android: IzzyOnDroid (APK)](https://android.izzysoft.de/repo/apk/com.looker.droidify)
+        - [:fontawesome-brands-github: GitHub](https://github.com/NeoApplications/Neo-Store/releases)
 
 ### Manually with RSS Notifications
 
