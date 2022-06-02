@@ -6,6 +6,24 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 ## Desktop
 
+### ExifCleaner
+
+!!! recommendation
+
+    ![ExifCleaner logo](assets/img/metadata-removal/exifcleaner.svg){ align=right }
+
+    **ExifCleaner** is a freeware, open source graphical app that uses [ExifTool](https://exiftool.org) to remove Exif metadata from images, videos, and PDF documents using a simple drag and drop interface. It supports multi-core batch processing and dark mode.
+
+    [:octicons-home-16: Homepage](https://exifcleaner.com){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://github.com/szTheory/exifcleaner#readme){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/szTheory/exifcleaner){ .card-link title="Source Code" }
+
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://github.com/szTheory/exifcleaner/releases)
+        - [:fontawesome-brands-apple: macOS](https://github.com/szTheory/exifcleaner/releases)
+        - [:fontawesome-brands-linux: Linux](https://github.com/szTheory/exifcleaner/releases)
+
 ### MAT2
 
 !!! recommendation
@@ -27,46 +45,9 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
         - [:fontawesome-brands-linux: Linux](https://pypi.org/project/mat2)
         - [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
 
-### ExifCleaner
-
-!!! recommendation
-
-    ![ExifCleaner logo](assets/img/metadata-removal/exifcleaner.svg){ align=right }
-
-    **ExifCleaner** is a freeware, open source graphical app that uses [ExifTool](https://exiftool.org) to remove Exif metadata from images, videos, and PDF documents using a simple drag and drop interface. It supports multi-core batch processing and dark mode.
-
-    [:octicons-home-16: Homepage](https://exifcleaner.com){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/szTheory/exifcleaner#readme){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/szTheory/exifcleaner){ .card-link title="Source Code" }
-
-    ??? downloads
-
-        - [:fontawesome-brands-windows: Windows](https://github.com/szTheory/exifcleaner/releases)
-        - [:fontawesome-brands-apple: macOS](https://github.com/szTheory/exifcleaner/releases)
-        - [:fontawesome-brands-linux: Linux](https://github.com/szTheory/exifcleaner/releases)
-
 ## Mobile
 
-### Scrambled Exif
-
-!!! recommendation
-
-    ![Scrambled Exif logo](assets/img/metadata-removal/scrambled-exif.svg){ align=right }
-
-    **Scrambled Exif** is a metadata removal tool for Android. It can remove Exif data for many file formats and has been translated into [many](https://gitlab.com/juanitobananas/scrambled-exif/-/tree/master/app/src/main/res) languages.
-
-    [:octicons-repo-16: Repository](https://gitlab.com/juanitobananas/scrambled-exif){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gitlab.com/juanitobananas/scrambled-exif/-/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://gitlab.com/juanitobananas/scrambled-exif/-/blob/master/README.md){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.com/juanitobananas/scrambled-exif){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://gitlab.com/juanitobananas/scrambled-exif#donating){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.jarsilio.android.scrambledeggsif)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.jarsilio.android.scrambledeggsif)
-
-### Imagepipe
+### Imagepipe (Android)
 
 !!! recommendation
 
@@ -84,7 +65,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 Imagepipe is only available from F-Droid and not in Google Play. If you're looking for a paint app in Google Play we suggest [Pocket Paint](https://play.google.com/store/apps/details?id=org.catrobat.paintroid).
 
-### Metapho
+### Metapho (iOS)
 
 !!! recommendation
 
@@ -100,6 +81,25 @@ Imagepipe is only available from F-Droid and not in Google Play. If you're looki
     ??? downloads
 
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/metapho/id914457352)
+
+### Scrambled Exif (Android)
+
+!!! recommendation
+
+    ![Scrambled Exif logo](assets/img/metadata-removal/scrambled-exif.svg){ align=right }
+
+    **Scrambled Exif** is a metadata removal tool for Android. It can remove Exif data for many file formats and has been translated into [many](https://gitlab.com/juanitobananas/scrambled-exif/-/tree/master/app/src/main/res) languages.
+
+    [:octicons-repo-16: Repository](https://gitlab.com/juanitobananas/scrambled-exif){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://gitlab.com/juanitobananas/scrambled-exif/-/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://gitlab.com/juanitobananas/scrambled-exif/-/blob/master/README.md){ .card-link title=Documentation}
+    [:octicons-code-16:](https://gitlab.com/juanitobananas/scrambled-exif){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://gitlab.com/juanitobananas/scrambled-exif#donating){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.jarsilio.android.scrambledeggsif)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.jarsilio.android.scrambledeggsif)
 
 ## Command-line
 
@@ -123,7 +123,6 @@ Imagepipe is only available from F-Droid and not in Google Play. If you're looki
         - [:fontawesome-brands-windows: Windows](https://exiftool.org)
         - [:fontawesome-brands-apple: macOS](https://exiftool.org)
         - [:fontawesome-brands-linux: Linux](https://exiftool.org)
-
 
 !!! example "Deleting data from a directory of files"
 

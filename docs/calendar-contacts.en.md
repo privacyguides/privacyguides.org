@@ -8,6 +8,24 @@ Calendaring and contacts are some of the most sensitive data posess. Use only pr
 
 These products are included with an subscription with their respective [email providers](email.md).
 
+### Proton Calendar
+
+!!! recommendation
+
+    ![Proton Calendar logo](assets/img/calendar-contacts/proton-calendar.svg){ align=right }
+
+    **Proton Calendar** is an encrypted calendar serivce available to Proton Mail members. Features include: automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to a single calendar, whereas paid subscribers can create up to 20 calendars. Extended sharing functionality is also limited to paid subscribers. Proton Calendar is currently only available for the web and Android.
+
+    [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+
+    ??? downloads
+
+        - [:octicons-browser-16: Web](https://calendar.proton.me)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
+
 ### Tutanota
 
 !!! recommendation
@@ -34,27 +52,29 @@ These products are included with an subscription with their respective [email pr
         - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.tutao.tutanota)
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
 
-### Proton Calendar
-
-!!! recommendation
-
-    ![Proton Calendar logo](assets/img/calendar-contacts/proton-calendar.svg){ align=right }
-
-    **Proton Calendar** is an encrypted calendar serivce available to Proton Mail members. Features include: automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to a single calendar, whereas paid subscribers can create up to 20 calendars. Extended sharing functionality is also limited to paid subscribers. Proton Calendar is currently only available for the web and Android.
-
-    [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
-
-    ??? downloads
-
-        - [:octicons-browser-16: Web](https://calendar.proton.me)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
-
 ## Self-hostable
 
 Some of these options are self-hostable, but could be offered by third party SaaS providers for a fee:
+
+### DecSync CC
+
+!!! recommendation
+
+    ![DecSync logo](assets/img/calendar-contacts/decsync.svg){ align=right }
+
+    **DecSync CC** synchronizes contacts, calendars and tasks using DecSync. It stores this data in a shared directory, using [Syncthing](file-sharing/#syncthing), or any other file synchronization service.
+
+    There are [plugins](https://github.com/39aldo39/DecSync#rss) to sync other types of data such as [RSS](news-aggregators.md).
+
+    [:octicons-repo-16: Repository](https://github.com/39aldo39/DecSync){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://github.com/39aldo39/DecSync/blob/master/design.md){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/39aldo39/DecSync){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://github.com/39aldo39/DecSync#donations){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.decsync.cc)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/org.decsync.cc)
 
 ### EteSync
 
@@ -104,25 +124,5 @@ Some of these options are self-hostable, but could be offered by third party Saa
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.nextcloud.client)
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/nextcloud/id1125420102)
-
-### DecSync CC
-
-!!! recommendation
-
-    ![DecSync logo](assets/img/calendar-contacts/decsync.svg){ align=right }
-
-    **DecSync CC** synchronizes contacts, calendars and tasks using DecSync. It stores this data in a shared directory, using [Syncthing](file-sharing/#syncthing), or any other file synchronization service.
-
-    There are [plugins](https://github.com/39aldo39/DecSync#rss) to sync other types of data such as [RSS](news-aggregators.md).
-
-    [:octicons-repo-16: Repository](https://github.com/39aldo39/DecSync){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/39aldo39/DecSync/blob/master/design.md){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/39aldo39/DecSync){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/39aldo39/DecSync#donations){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.decsync.cc)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/org.decsync.cc)
 
 --8<-- "includes/abbreviations.en.md"

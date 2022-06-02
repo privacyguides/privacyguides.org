@@ -6,6 +6,20 @@ Many cloud storage providers require your full trust that they will not look at 
 
 If these alternatives do not fit your needs, we suggest you look into [Encryption Software](encryption.md).
 
+## Cryptee
+
+!!! recommendation
+
+    ![Cryptee logo](./assets/img/cloud/cryptee.svg#only-light){ align=right }
+    ![Cryptee logo](./assets/img/cloud/cryptee-dark.svg#only-dark){ align=right }
+
+    **Cryptee** is a web-based, encrypted, secure photo storage service and documents editor.
+
+    [:octicons-home-16: Homepage](https://crypt.ee){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://crypt.ee/help){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/cryptee){ .card-link title="Source Code" }
+
 ## Nextcloud
 
 !!! recommendation
@@ -52,20 +66,6 @@ When self-hosting Nextcloud, you should also enable E2EE to protect against your
 Proton Drive is currently in beta and only is only available through a web client.
 
 When using a web client, you are placing trust in the server to send you proper JavaScript code to derive the decryption key and authentication token locally in your browser. A compromised server can send you malicious JavaScript code to steal your master password and decrypt your data. If this does not fit your [threat model](basics/threat-modeling.md), consider using an alternative.
-
-## Cryptee
-
-!!! recommendation
-
-    ![Cryptee logo](./assets/img/cloud/cryptee.svg#only-light){ align=right }
-    ![Cryptee logo](./assets/img/cloud/cryptee-dark.svg#only-dark){ align=right }
-
-    **Cryptee** is a web-based, encrypted, secure photo storage service and documents editor.
-
-    [:octicons-home-16: Homepage](https://crypt.ee){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://crypt.ee/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/cryptee){ .card-link title="Source Code" }
 
 ## Tahoe-LAFS
 

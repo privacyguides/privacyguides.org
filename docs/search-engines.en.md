@@ -8,6 +8,25 @@ The recommendations here are based on the merits of each service's privacy polic
 
 Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org/) if your threat model requires hiding your IP address from the search provider.
 
+## Brave Search
+
+!!! recommendation
+
+    ![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
+
+    **Brave Search** is developed by Brave and serves results primarily from its own, independent index. The index is optimized against Google Search and therefore may provide more contextually accurate results compared to other alternatives.
+
+    Brave Search includes unique features such as Discussions, which highlights conversation-focused results—such as forum posts.
+
+    We recommend you disable [Anonymous usage metrics](https://search.brave.com/help/usage-metrics), this option is enabled by default and can be disabled within settings.
+
+    [:octicons-home-16: Homepage](https://search.brave.com/){ .md-button .md-button--primary }
+    [:pg-tor:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title=Onion }
+    [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
+
+Brave Search is based in the :flag_us: United States. Their [privacy policy](https://search.brave.com/help/privacy-policy) states they collect aggregated usage metrics, which includes the operating system and browser in use, however no personally identifiable information is collected. IP addresses are temporarily processed, but are not retained.
+
 ## DuckDuckGo
 
 !!! recommendation
@@ -30,6 +49,24 @@ DuckDuckGo is based in the :flag_us: United States. Their [privacy policy](https
 
 DuckDuckGo offers two other [versions](https://help.duckduckgo.com/features/non-javascript/) of their search engine, both of which do not require JavaScript. These versions do lack features, however. These versions can also be used in conjunction with their [Tor onion address](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/) by appending [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version.
 
+## SearXNG
+
+!!! recommendation
+
+    ![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
+
+    **SearXNG** is an open-source, self-hostable, metasearch engine, aggregating the results of other search engines while not storing any information itself. It is an actively maintained fork of [SearX](https://github.com/searx/searx).
+
+    [:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://searx.space/){ .card-link title="Public Instances"}
+    [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
+
+SearXNG is a proxy between you and the search engines it aggregates from. Your search queries will still be sent to the search engines that SearXNG gets its results from.
+
+When self-hosting, it is important that you have other people using your instance so that the queries would blend in. You should be careful with where and how you are hosting SearXNG, as people looking up illegal content on your instance could draw unwanted attention from authorities.
+
+When you are using a SearXNG instance, be sure to go read their privacy policy. Since SearXNG instances may be modified by their owners, they do not necessarily reflect their privacy policy. Some instances run as a Tor hidden service, which may grant some privacy as long as your search queries does not contain PII.
+
 ## Startpage
 
 !!! recommendation
@@ -48,42 +85,5 @@ DuckDuckGo offers two other [versions](https://help.duckduckgo.com/features/non-
 Startpage is based in the :flag_nl: Netherlands. According to their [privacy policy](https://www.startpage.com/en/privacy-policy/), they log details such as: operating system, type of browser, and language. They do not log your IP address, search queries, or other personally identifying information.
 
 Startpage's majority shareholder is System1 who is an adtech company. We don't believe that to be an issue as they have an distinctly separate [privacy policy](https://system1.com/terms/privacy-policy). The Privacy Guides team reached out to Startpage [back in 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/) to clear up any concerns with System1's sizeable investment into the service. We were satisfied with the answers we received.
-
-## Brave Search
-
-!!! recommendation
-
-    ![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
-
-    **Brave Search** is developed by Brave and serves results primarily from its own, independent index. The index is optimized against Google Search and therefore may provide more contextually accurate results compared to other alternatives.
-
-    Brave Search includes unique features such as Discussions, which highlights conversation-focused results—such as forum posts.
-
-    We recommend you disable [Anonymous usage metrics](https://search.brave.com/help/usage-metrics), this option is enabled by default and can be disabled within settings.
-
-    [:octicons-home-16: Homepage](https://search.brave.com/){ .md-button .md-button--primary }
-    [:pg-tor:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title=Onion }
-    [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
-
-Brave Search is based in the :flag_us: United States. Their [privacy policy](https://search.brave.com/help/privacy-policy) states they collect aggregated usage metrics, which includes the operating system and browser in use, however no personally identifiable information is collected. IP addresses are temporarily processed, but are not retained.
-
-## SearXNG
-
-!!! recommendation
-
-    ![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
-
-    **SearXNG** is an open-source, self-hostable, metasearch engine, aggregating the results of other search engines while not storing any information itself. It is an actively maintained fork of [SearX](https://github.com/searx/searx).
-
-    [:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://searx.space/){ .card-link title="Public Instances"}
-    [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
-
-SearXNG is a proxy between you and the search engines it aggregates from. Your search queries will still be sent to the search engines that SearXNG gets its results from.
-
-When self-hosting, it is important that you have other people using your instance so that the queries would blend in. You should be careful with where and how you are hosting SearXNG, as people looking up illegal content on your instance could draw unwanted attention from authorities.
-
-When you are using a SearXNG instance, be sure to go read their privacy policy. Since SearXNG instances may be modified by their owners, they do not necessarily reflect their privacy policy. Some instances run as a Tor hidden service, which may grant some privacy as long as your search queries does not contain PII.
 
 --8<-- "includes/abbreviations.en.md"

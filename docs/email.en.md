@@ -16,6 +16,50 @@ For everything else, we recommend a variety of email providers based on sustaina
 
 ## Recommended Email Providers
 
+### Mailbox.org
+
+!!! recommendation
+
+    ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
+
+    **Mailbox.org** is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with 2 GB of storage, which can be upgraded as needed.
+
+    **EUR €12/year**
+
+    [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+
+??? check "Custom Domains and Aliases"
+
+    Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) addresses. Mailbox.org also supports [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), which is useful if you don't want to purchase a domain.
+
+??? info "Private Payment Methods"
+
+    Mailbox.org doesn't accept Bitcoin or any other cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept Cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
+
+??? check "Account Security"
+
+    Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [Yubikey](https://en.wikipedia.org/wiki/YubiKey) via the [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
+
+??? info "Data Security"
+
+    Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). New messages that you receive will then be immediately encrypted with your public key.
+
+    However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](calendar-contacts.md) may be more appropriate for that information.
+
+??? check "Email Encryption"
+
+    Mailbox.org has [integrated encryption](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
+
+    Mailbox.org also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily, for cross-provider E2EE.
+
+??? info "Additional Functionality"
+
+    You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
+
+    All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+
 ### Proton Mail
 
 !!! recommendation
@@ -64,49 +108,46 @@ For everything else, we recommend a variety of email providers based on sustaina
 
     Proton Mail offers an "Unlimited" account for €9.99/Month, which also enables access to Proton VPN in addition to providing multiple accounts, domains, aliases, and 500GB of storage.
 
-### Mailbox.org
+### StartMail
 
 !!! recommendation
 
-    ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
+    ![StartMail logo](assets/img/email/startmail.svg#only-light){ align=right }
+    ![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ align=right }
 
-    **Mailbox.org** is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with 2 GB of storage, which can be upgraded as needed.
+    **StartMail** is an email service with a focus on security and privacy through the use of standard OpenPGP encryption. StartMail has been in operation since 2014 and is based in Boulevard 11, Zeist Netherlands. Accounts start with 10GB. They offer a 30-day trial.
 
-    **EUR €12/year**
+    **USD $59.95/year**
 
-    [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+    [:octicons-home-16: Homepage](https://startmail.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentation}
 
 ??? check "Custom Domains and Aliases"
 
-    Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) addresses. Mailbox.org also supports [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), which is useful if you don't want to purchase a domain.
+    Personal accounts can use [Custom or Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) aliases. [Custom domains](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) are also available.
 
-??? info "Private Payment Methods"
+??? warning "Private Payment Methods"
 
-    Mailbox.org doesn't accept Bitcoin or any other cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept Cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
+    StartMail accepts Visa, MasterCard, American Express and Paypal. StartMail also has other [payment options](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) such as Bitcoin (currently only for Personal accounts) and SEPA Direct Debit for accounts older than a year.
 
 ??? check "Account Security"
 
-    Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [Yubikey](https://en.wikipedia.org/wiki/YubiKey) via the [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
+    StartMail supports TOTP two factor authentication [for webmail only](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). They do not allow U2F security key authentication.
 
 ??? info "Data Security"
 
-    Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). New messages that you receive will then be immediately encrypted with your public key.
+    StartMail has [zero access encryption at rest](https://www.startmail.com/en/whitepaper/#_Toc458527835), using their "user vault" system. When you log in, the vault is opened, and the email is then moved to the vault out of the queue where it is decrypted by the corresponding private key.
 
-    However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](calendar-contacts.md) may be more appropriate for that information.
+    StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) however, they are only accessible in the webmail and not through protocols such as [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacts are also not stored using zero knowledge encryption, so a [standalone option](calendar-contacts.md) may be more appropriate.
 
 ??? check "Email Encryption"
 
-    Mailbox.org has [integrated encryption](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
-
-    Mailbox.org also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily, for cross-provider E2EE.
+    StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys.
 
 ??? info "Additional Functionality"
 
-    You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
-
-    All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+    StartMail allows for proxying of images within emails. If you allow the remote image to be loaded, the sender won't know what your IP address is.
 
 ### Tutanota
 
@@ -159,47 +200,6 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
     Tutanota also has a business feature called [Secure Connect](https://tutanota.com/secure-connect/). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
 
-### StartMail
-
-!!! recommendation
-
-    ![StartMail logo](assets/img/email/startmail.svg#only-light){ align=right }
-    ![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ align=right }
-
-    **StartMail** is an email service with a focus on security and privacy through the use of standard OpenPGP encryption. StartMail has been in operation since 2014 and is based in Boulevard 11, Zeist Netherlands. Accounts start with 10GB. They offer a 30-day trial.
-
-    **USD $59.95/year**
-
-    [:octicons-home-16: Homepage](https://startmail.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentation}
-
-??? check "Custom Domains and Aliases"
-
-    Personal accounts can use [Custom or Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) aliases. [Custom domains](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) are also available.
-
-??? warning "Private Payment Methods"
-
-    StartMail accepts Visa, MasterCard, American Express and Paypal. StartMail also has other [payment options](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) such as Bitcoin (currently only for Personal accounts) and SEPA Direct Debit for accounts older than a year.
-
-??? check "Account Security"
-
-    StartMail supports TOTP two factor authentication [for webmail only](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). They do not allow U2F security key authentication.
-
-??? info "Data Security"
-
-    StartMail has [zero access encryption at rest](https://www.startmail.com/en/whitepaper/#_Toc458527835), using their "user vault" system. When you log in, the vault is opened, and the email is then moved to the vault out of the queue where it is decrypted by the corresponding private key.
-
-    StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) however, they are only accessible in the webmail and not through protocols such as [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacts are also not stored using zero knowledge encryption, so a [standalone option](calendar-contacts.md) may be more appropriate.
-
-??? check "Email Encryption"
-
-    StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys.
-
-??? info "Additional Functionality"
-
-    StartMail allows for proxying of images within emails. If you allow the remote image to be loaded, the sender won't know what your IP address is.
-
 ## Email Aliasing Services
 
 An email aliasing service allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your email provider. True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like yourname+[anythinghere]@example.com, because websites, advertisers, and tracking networks can trivially remove anything after the + sign to know your true email address.
@@ -220,36 +220,6 @@ They also have a number of benefits over "temporary email" services:
 Our email aliasing recommendations are providers that allow you to create aliases on domains they control, as well as your own custom domain(s) for a modest yearly fee. They can also be self-hosted if you want maximum control. However, using a custom domain can have privacy-related drawbacks: If you are the only person using your custom domain, your actions can be easily tracked across websites simply by looking at the domain name in the email address and ignoring everything before the at (@) sign.
 
 Using an aliasing service requires trusting both your email provider and your aliasing provider with your unencrypted messages. Some providers mitigate this slightly with automatic PGP encryption, which reduces the number of parties you need to trust from 2 to 1 by encrypting incoming emails before they are delivered to your final mailbox provider.
-
-### SimpleLogin
-
-!!! recommendation
-
-    ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
-
-    **[SimpleLogin](https://simplelogin.io)** is a free service which provides email aliases on a variety of shared domain names, and optionally provides features like unlimited aliases and custom domains for $30/year. [Source code on GitHub](https://github.com/simple-login/app).
-
-    [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
-
-    ??? downloads
-        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/)
-        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-        - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-        - [:fontawesome-brands-safari: Safari](https://apps.apple.com/app/id1494051017)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1494359858)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/io.simplelogin.android.fdroid/)
-
-SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing.
-
-Notable free features:
-
-- [x] 15 Shared Aliases
-- [x] Unlimited Replies
-- [x] 1 Recepient Mailbox
 
 ### AnonAddy
 
@@ -281,6 +251,36 @@ Notable free features:
 - [x] 2 Receipent Mailboxes
 - [x] Automatic PGP Encryption
 
+### SimpleLogin
+
+!!! recommendation
+
+    ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
+
+    **[SimpleLogin](https://simplelogin.io)** is a free service which provides email aliases on a variety of shared domain names, and optionally provides features like unlimited aliases and custom domains for $30/year. [Source code on GitHub](https://github.com/simple-login/app).
+
+    [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
+
+    ??? downloads
+        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/)
+        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
+        - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
+        - [:fontawesome-brands-safari: Safari](https://apps.apple.com/app/id1494051017)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1494359858)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/io.simplelogin.android.fdroid/)
+
+SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing.
+
+Notable free features:
+
+- [x] 15 Shared Aliases
+- [x] Unlimited Replies
+- [x] 1 Recepient Mailbox
+
 *[Automatic PGP Encryption]: Allows you to encrypt non-encrypted incoming emails before they are forwarded to your mailbox, making sure your primary mailbox provider never sees unencrypted email content.
 
 ## Self-Hosting Email
@@ -288,16 +288,6 @@ Notable free features:
 Advanced system administrators may consider setting up their own email server. Mailservers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.
 
 ### Combined software solutions
-
-!!! recommendation
-
-    ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
-
-    **Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
-
-    [:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
 
 !!! recommendation
 
@@ -309,6 +299,16 @@ Advanced system administrators may consider setting up their own email server. M
     [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
+
+!!! recommendation
+
+    ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
+
+    **Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
+
+    [:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
 
 For a more manual approach we've picked out these two articles.
 

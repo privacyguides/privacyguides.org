@@ -8,33 +8,7 @@ Encryption of data is the only way to control who can access it. If you are curr
 
 The options listed here are multi-platform and great for creating encrypted backups of your data.
 
-### VeraCrypt
-
-!!! recommendation
-
-    ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
-    ![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
-
-    **VeraCrypt** is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file, encrypt a partition, or encrypt the entire storage device with pre-boot authentication.
-
-    [:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:fontawesome-brands-windows: Windows](https://www.veracrypt.fr/en/Downloads.html)
-        - [:fontawesome-brands-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
-        - [:fontawesome-brands-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
-
-VeraCrypt is a fork of the discontinued TrueCrypt project. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed.
-
-When encrypting with VeraCrypt, you have the option to select from different [hash functions](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). We suggest you **only** select [SHA-512](https://en.wikipedia.org/wiki/SHA-512) and stick to the [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) block cipher.
-
-Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits) and VeraCrypt has also been [audited seperately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
-
-### Cryptomator
+### Cryptomator (Cloud)
 
 !!! recommendation
 
@@ -64,7 +38,7 @@ Some Cryptomator cryptographic libraries have been [audited](https://community.c
 
 Cryptomator's documentation details its intended [security target](https://docs.cryptomator.org/en/latest/security/security-target/), [security architecture](https://docs.cryptomator.org/en/latest/security/architecture/), and [best practices](https://docs.cryptomator.org/en/latest/security/best-practices/) for use in further detail.
 
-### Picocrypt
+### Picocrypt (File)
 
 !!! recommendation
 
@@ -81,6 +55,32 @@ Cryptomator's documentation details its intended [security target](https://docs.
         - [:fontawesome-brands-windows: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
         - [:fontawesome-brands-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
         - [:fontawesome-brands-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
+
+### VeraCrypt (Disk)
+
+!!! recommendation
+
+    ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
+    ![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
+
+    **VeraCrypt** is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file, encrypt a partition, or encrypt the entire storage device with pre-boot authentication.
+
+    [:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=Documentation}
+    [:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://www.veracrypt.fr/en/Downloads.html)
+        - [:fontawesome-brands-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
+        - [:fontawesome-brands-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
+
+VeraCrypt is a fork of the discontinued TrueCrypt project. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed.
+
+When encrypting with VeraCrypt, you have the option to select from different [hash functions](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). We suggest you **only** select [SHA-512](https://en.wikipedia.org/wiki/SHA-512) and stick to the [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) block cipher.
+
+Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits) and VeraCrypt has also been [audited seperately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
 ## OS Full Disk Encryption
 

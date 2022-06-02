@@ -11,7 +11,9 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     [Real-time Communication](real-time-communication.md){ .md-button }
 
-## Thunderbird
+## Cross-Platform
+
+### Thunderbird
 
 !!! recommendation
 
@@ -31,11 +33,9 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
         - [:fontawesome-brands-linux: Linux](https://www.thunderbird.net)
         - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.Thunderbird)
 
-## Apple Mail
+## Platform Specific
 
-!!! note
-
-    For iOS devices we suggest [Canary Mail](#canary-mail) as it has PGP support which means you can send end-to-end encrypted email.
+### Apple Mail (macOS)
 
 !!! recommendation
 
@@ -47,102 +47,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.apple.com/guide/mail/toc){ .card-link title=Documentation}
 
-## GNOME Evolution
-
-!!! recommendation
-
-    ![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
-
-    **Evolution** is a personal information management application that provides integrated mail, calendaring and address book functionality. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable/) to help you get started.
-
-    [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://help.gnome.org/users/evolution/stable/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.gnome.Evolution)
-
-## Kontact
-
-!!! recommendation
-
-    ![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }
-
-    **Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. It provides a mail client, address book, organizer and RSS client.
-
-    [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kontact.kde.org/users/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:fontawesome-brands-linux: Linux](https://kontact.kde.org/download)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.kde.kontact)
-
-## Mailvelope
-
-!!! recommendation
-
-    ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ align=right }
-
-    **Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
-
-    [:octicons-home-16: Homepage](https://www.mailvelope.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
-
-    ??? downloads
-
-        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
-        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
-        - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc)
-
-## K-9 Mail
-
-!!! recommendation
-
-    ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ align=right }
-
-    **K-9 Mail** is an independent mail application that supports both POP3 and IMAP mailboxes, but only supports push mail for IMAP.
-
-    [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/k9mail/k-9){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.fsck.k9)
-        - [:fontawesome-brands-github: GitHub](https://github.com/k9mail/k-9/releases)
-
-## FairEmail
-
-!!! recommendation
-
-    ![FairEmail logo](assets/img/email-clients/fairemail.svg){ align=right }
-
-    **FairEmail** is a minimal, open source email app, using open standards (IMAP, SMTP, OpenPGP) with a low data and battery usage.
-
-    [:octicons-home-16: Homepage](https://email.faircode.eu){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/eu.faircode.email/)
-
-## Canary Mail
+### Canary Mail (iOS)
 
 !!! recommendation
 
@@ -167,7 +72,102 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
 Canary Mail is closed source. We recommend it due to the few choices there are for email clients on iOS that support PGP E2EE.
 
-## NeoMutt
+### FairEmail (Android)
+
+!!! recommendation
+
+    ![FairEmail logo](assets/img/email-clients/fairemail.svg){ align=right }
+
+    **FairEmail** is a minimal, open source email app, using open standards (IMAP, SMTP, OpenPGP) with a low data and battery usage.
+
+    [:octicons-home-16: Homepage](https://email.faircode.eu){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/eu.faircode.email/)
+
+### GNOME Evolution (GNOME)
+
+!!! recommendation
+
+    ![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
+
+    **Evolution** is a personal information management application that provides integrated mail, calendaring and address book functionality. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable/) to help you get started.
+
+    [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://help.gnome.org/users/evolution/stable/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.gnome.Evolution)
+
+### K-9 Mail (Android)
+
+!!! recommendation
+
+    ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ align=right }
+
+    **K-9 Mail** is an independent mail application that supports both POP3 and IMAP mailboxes, but only supports push mail for IMAP.
+
+    [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/k9mail/k-9){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.fsck.k9)
+        - [:fontawesome-brands-github: GitHub](https://github.com/k9mail/k-9/releases)
+
+### Kontact (KDE)
+
+!!! recommendation
+
+    ![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }
+
+    **Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. It provides a mail client, address book, organizer and RSS client.
+
+    [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://kontact.kde.org/users/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:fontawesome-brands-linux: Linux](https://kontact.kde.org/download)
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.kde.kontact)
+
+### Mailvelope (Browser)
+
+!!! recommendation
+
+    ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ align=right }
+
+    **Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
+
+    [:octicons-home-16: Homepage](https://www.mailvelope.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
+
+    ??? downloads
+
+        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
+        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
+        - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc)
+
+### NeoMutt (CLI)
 
 !!! recommendation
 
