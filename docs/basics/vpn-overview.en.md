@@ -33,7 +33,7 @@ Needless to say, **you shouldn't use encrypted DNS with Tor**. This would direct
 
 ## Should I use Tor *and* a VPN?
 
-By using a VPN with Tor, you're creating essentially a permanent entry node, often with a money trail attached. This provides zero additional benefit to you, while increasing the attack surface of your connection dramatically. If you wish to hide your Tor usage from your ISP or your government, Tor has a built-in solution for that: Tor bridges. [Read more about Tor bridges and why using a VPN is not necessary](https://web.archive.org/web/20210116140725/https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-2-onion-recipes-vpn-not-required).
+By using a VPN with Tor, you're creating essentially a permanent entry node, often with a money trail attached. This provides zero additional benefit to you, while increasing the attack surface of your connection dramatically. If you wish to hide your Tor usage from your ISP or your government, Tor has a built-in solution for that: Tor bridges. [Read more about Tor bridges and why using a VPN is not necessary](tor-overview.md).
 
 ## What if I need anonymity?
 
@@ -59,28 +59,15 @@ For use cases like these, or if you have another compelling reason, the VPN prov
 
 1. [VPN - a Very Precarious Narrative](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
 2. [The self-contained networks](../self-contained-networks.md) recommended by Privacy Guides are able to replace a VPN that allows access to services on local area network
-3. [Slicing Onions: Part 1 – Myth-busting Tor](https://medium.com/privacyguides/slicing-onions-part-1-myth-busting-tor-9ec188ae1904) by blacklight447
-4. [Slicing Onions: Part 2 – Onion recipes; VPN not required](https://web.archive.org/web/20210116140725/https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-2-onion-recipes-vpn-not-required) by blacklight447
-5. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
-6. ["Do I need a VPN?"](https://www.doineedavpn.com), a tool developed by IVPN to challenge aggressive VPN marketing by helping individuals decide if a VPN is right for them.
+3. [Tor Network Overview](tor-overview.md) by blacklight447
+4. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
+5. ["Do I need a VPN?"](https://www.doineedavpn.com), a tool developed by IVPN to challenge aggressive VPN marketing by helping individuals decide if a VPN is right for them.
 
 ## Related VPN Information
 
-- [The Trouble with VPN and Privacy Review Sites](https://medium.com/privacyguides/the-trouble-with-vpn-and-privacy-review-sites-ae9b29eda8fd)
-- [Proxy.sh VPN Provider Sniffed Server Traffic to Catch Hacker](https://torrentfreak.com/proxy-sh-vpn-provider-monitored-traffic-to-catch-hacker-130930/)
-- [blackVPN announced to delete connection logs after disconnection](https://medium.com/@blackVPN/no-logs-6d65d95a3016)
-- [Don't use LT2P IPSec, use other protocols.](https://gist.github.com/kennwhite/1f3bc4d889b02b35d8aa)
+- [The Trouble with VPN and Privacy Review Sites](https://jonaharagon.com/2019/11/the-trouble-with-vpn-and-privacy-review-sites/)
 - [Free VPN App Investigation](https://www.top10vpn.com/free-vpn-app-investigation/)
 - [Hidden VPN owners unveiled: 101 VPN products run by just 23 companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
 - [This Chinese company is secretly behind 24 popular apps seeking dangerous permissions](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
-
-## VPN Security Breaches
-
-Some examples of why external security auditing is important:
-
-- ["Zero logs" VPN exposes millions of logs including user passwords, claims data is anonymous](https://www.comparitech.com/blog/vpn-privacy/ufo-vpn-data-exposure/) July 2020
-- [NordVPN HTTP POST bug exposed customer information, no authentication required](https://www.zdnet.com/article/nordvpn-http-post-bug-exposed-sensitive-customer-information/) March 2020
-- [Row erupts over who to blame after NordVPN says: One of our servers was hacked via remote management tool](https://www.theregister.com/2019/10/21/nordvpn_security_issue/) October 2019
-- [VPN servers seized by Ukrainian authorities weren't encrypted and allowed authorities to impersonate Windscribe servers and capture and decrypt traffic passing through them](https://arstechnica.com/gadgets/2021/07/vpn-servers-seized-by-ukrainian-authorities-werent-encrypted/) July 2021
 
 --8<-- "includes/abbreviations.en.md"
