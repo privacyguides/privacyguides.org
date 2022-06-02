@@ -14,7 +14,7 @@ We recommend installing one of these custom Android operating systems on your de
 
 !!! note
 
-    End-of-life devices (such as GrapheneOS or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.
+    End-of-life devices such as GrapheneOS "extended support" devices do not have full security patches (firmware updates) due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.
 
 ### GrapheneOS
 
@@ -36,24 +36,6 @@ We recommend installing one of these custom Android operating systems on your de
 GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) fully sandboxed like any other regular app. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging/), while giving you full control over their permissions and access, and while containing them to a specific work profile or user [profile](android/overview.md#user-profiles) of your choice.
 
 Google Pixel phones are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#device-support).
-
-### CalyxOS
-
-!!! recommendation
-
-    ![CalyxOS logo](assets/img/android/calyxos.svg){ align=right }
-
-    **CalyxOS** is a system with some privacy features on top of AOSP, including [Datura](https://calyxos.org/docs/tech/datura-details) firewall, [Signal](https://signal.org) integration in the dialer app, and a built in panic button. CalyxOS also comes with firmware updates and signed builds, so verified boot is fully supported.
-
-    [:octicons-home-16: Homepage](https://calyxos.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://calyxinstitute.org/legal/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://calyxos.org/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/CalyxOS){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://members.calyxinstitute.org/donate){ .card-link title=Contribute }
-
-CalyxOS optionally includes [microG](https://microg.org/), a partially open source reimplementation of Play Services which provides broader app compatibility. It also bundles in alternate location services: [Mozilla](https://location.services.mozilla.com/) and [DejaVu](https://github.com/n76/DejaVu).
-
-CalyxOS [supports](https://calyxos.org/docs/guide/device-support/) Google Pixel phones, the OnePlus 8T/9 and the Fairphone 4. We only recommend CalyxOS as a harm reduction measure for the OnePlus 8T, OnePlus 9, and especially the Fairphone 4.
 
 ### DivestOS
 
@@ -79,7 +61,7 @@ DivestOS implements some system hardening patches originally developed for Graph
 
 !!! warning
 
-    DivestOS firmware update [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) and quality control varies across the devices it supports. We still recommend GrapheneOS or CalyxOS depending on your device's compatibility. For other devices, DivestOS is a good alternative.
+    DivestOS firmware update [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) and quality control varies across the devices it supports. We still recommend GrapheneOS if you have a Pixel, and DivestOS as an alternative.
 
     Not all of the supported devices have verified boot, and some perform it better than others.
 
@@ -123,28 +105,6 @@ A few more tips for purchasing a Google Pixel:
 - Consider price beating options and specials offered at brick and mortar stores.
 - Look at online community bargain sites in your country. These can alert you to good sales.
 - Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as: $\text{Cost} \over \text {EOL Date }-\text{ Current Date}$, meaning that the longer use of the device the lower cost per day.
-
-### Other Devices
-
-The following OEMs are only mentioned as they have phones compatible with the operating systems recommended by us. If you are purchasing a new device, we only recommend purchasing a Google Pixel.
-
-#### OnePlus
-
-If you are unable to obtain a Google Pixel, recent OnePlus devices are the next best option if you want to run a custom OS without privileged Play Services. OnePlus 8 and later devices will receive 4 years of security updates from their initial launch date. CalyxOS has [experimental support](https://calyxos.org/news/2022/04/01/fairphone4-oneplus8t-oneplus9-test-builds/) for the **OnePlus 8T** and **9**.
-
-DivestOS has support for most OnePlus devices up to the **OnePlus 7T Pro**, with varying levels of support.
-
-#### Fairphone
-
-!!! danger
-
-    The Fairphone 3 and 4 are not secure by default, as the [stock bootloader trusts the public AVB signing key](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems such (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
-
-    This problem is somewhat mitigated when you install a custom operating system such as CalyxOS or DivestOS and trust the developer's signing keys rather than the stock system keys, however a vulnerability in CalyxOS or DivestOS's recovery environments could still potentially allow an attacker to bypass AVB. **To reiterate, you must install a custom operating system with custom boot keys to use Fairphone devices in a secure manner.**
-
-CalyxOS has [experimental support](https://calyxos.org/news/2022/04/01/fairphone4-oneplus8t-oneplus9-test-builds/) for the **Fairphone 4**. DivestOS has builds available for the **Fairphone 3**.
-
-Fairphone markets their devices as receiving 6 years of support. However, the SoC (Qualcomm Snapdragon 750G on the Fairphone 4) has a considerably shorter EOL date. This means that firmware security updates from Qualcomm for the Fairphone 4 will end in September 2023, regardless of whether Fairphone continues to release software security updates.
 
 ## General Apps
 
@@ -197,8 +157,6 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
         - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/net.typeblog.shelter)
 
 !!! warning
-
-    As CalyxOS includes a device controller, we recommend using their built in work profile instead.
 
     Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular/) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
 
@@ -349,7 +307,7 @@ To mitigate these problems, we recommend [Neo Store](https://github.com/NeoAppli
     **Neo Store** is a modern F-Droid client made with MaterialUI, forked from [Foxy Droid](https://github.com/kitsunyan/foxy-droid).
 
     Unlike the official F-Droid client, Neo Store supports seamless updates on Android 12 and above without the need for a privileged extension. If your Android distribution is on Android 12 or above and does not include the [F-Droid privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged/), it is highly recommended that you use Neo Store instead of the official client.
-    
+
     [:octicons-repo-16: Repository](https://github.com/NeoApplications/Neo-Store){ .md-button .md-button--primary }
     [:octicons-code-16:](https://github.com/NeoApplications/Neo-Store){ .card-link title="Source Code" }
 

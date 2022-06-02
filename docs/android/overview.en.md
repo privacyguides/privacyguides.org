@@ -123,4 +123,26 @@ You will either be given the option to delete your advertising ID or to *Opt out
 
 As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt-out if you don't want your credit rating and personal information shared with affiliate marketing services.
 
+## Device Support
+
+The following OEMs are often asked about so we provide some notes here about them. If you are purchasing a new device, we only recommend purchasing a Google Pixel at this time.
+
+### OnePlus
+
+If you are unable to obtain a Google Pixel, recent OnePlus devices are the next best option if you want to run a custom OS without privileged Play Services. OnePlus 8 and later devices will receive 4 years of security updates from their initial launch date. CalyxOS has [experimental support](https://calyxos.org/news/2022/04/01/fairphone4-oneplus8t-oneplus9-test-builds/) for the **OnePlus 8T** and **9**.
+
+DivestOS has support for most OnePlus devices up to the **OnePlus 7T Pro**, with varying levels of support.
+
+### Fairphone
+
+!!! danger
+
+    The Fairphone 3 and 4 are not secure by default, as the [stock bootloader trusts the public AVB signing key](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems such (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
+
+    This problem is somewhat mitigated when you install a custom operating system such as CalyxOS or DivestOS and trust the developer's signing keys rather than the stock system keys, however a vulnerability in CalyxOS or DivestOS's recovery environments could still potentially allow an attacker to bypass AVB. **To reiterate, you must install a custom operating system with custom boot keys to use Fairphone devices in a secure manner.**
+
+CalyxOS has [experimental support](https://calyxos.org/news/2022/04/01/fairphone4-oneplus8t-oneplus9-test-builds/) for the **Fairphone 4**. DivestOS has builds available for the **Fairphone 3**.
+
+Fairphone markets their devices as receiving 6 years of support. However, the SoC (Qualcomm Snapdragon 750G on the Fairphone 4) has a considerably shorter EOL date. This means that firmware security updates from Qualcomm for the Fairphone 4 will end in September 2023, regardless of whether Fairphone continues to release software security updates.
+
 --8<-- "includes/abbreviations.en.md"

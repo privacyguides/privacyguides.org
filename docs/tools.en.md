@@ -48,7 +48,6 @@ For your convenience, everything we recommend is listed below with a link to the
 <div class="grid cards" markdown>
 
 - ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji } [GrapheneOS](android.md#grapheneos)
-- ![CalyxOS logo](assets/img/android/calyxos.svg){ .twemoji } [CalyxOS](android.md#calyxos)
 - ![DivestOS logo](assets/img/android/divestos.svg){ .twemoji } [DivestOS](android.md#divestos)
 
 </div>
