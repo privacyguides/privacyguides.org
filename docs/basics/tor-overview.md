@@ -53,4 +53,6 @@ If you are interested in trying out Tor we recommend using the official Tor Brow
 
 ## Further Reading
 
-For people who want to know more about the Tor project and the Tor Browser, we recommend reading the [Tor Browser manual](https://tb-manual.torproject.org/about/).
+- [Tor Browser manual](https://tb-manual.torproject.org/about/)
+- Tor network [video explanation](https://www.youtube-nocookie.com/embed/QRYzre4bf7I) by Computerphile
+- Hidden service [video explanation](https://www.youtube-nocookie.com/embed/lVcbq_a5N9I) by Computerphile
