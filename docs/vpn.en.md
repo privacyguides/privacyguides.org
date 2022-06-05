@@ -13,7 +13,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
 
-    [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](/basics/tor-overview.md){ .md-button }
+    [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](basics/tor-overview.md){ .md-button }
 
 ??? question "When are VPNs useful?"
 
@@ -178,7 +178,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? check "Open Source Clients"
 
-    Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/Proton VPN).
+    Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
 
 ??? check "Accepts Cash"
 

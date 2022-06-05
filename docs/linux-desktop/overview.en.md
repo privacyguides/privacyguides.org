@@ -75,9 +75,9 @@ We strongly recommend **against** using the Linux-libre kernel, since it [remove
 
 ### Drive Encryption
 
-Most Linux distributions have an option within its installer for enabling [LUKS](/encryption.md#linux-unified-key-setup) FDE. If this option isn’t set at installation time, you will have to backup your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. We also suggest securely erasing your storage device:
+Most Linux distributions have an option within its installer for enabling [LUKS](../encryption.md#linux-unified-key-setup) FDE. If this option isn’t set at installation time, you will have to backup your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. We also suggest securely erasing your storage device:
 
-- [Secure Data Erasure :hero-arrow-circle-right-fill:](../basics/erasing-data.md)
+- [Secure Data Erasure :hero-arrow-circle-right-fill:](../advanced/erasing-data.md)
 
 ### Swap
 

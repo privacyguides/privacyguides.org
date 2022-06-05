@@ -7,7 +7,7 @@ icon: material/dns
 
     Encrypted DNS with third party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Encrypted DNS will not help you hide any of your browsing activity.
 
-    [Learn more about DNS](basics/dns.md){ .md-button }
+    [Learn more about DNS](basics/dns-overview.md){ .md-button }
 
 ## Recommended Providers
 
@@ -27,10 +27,10 @@ icon: material/dns
 
 The criteria for the servers listed above are:
 
-- Must support [DNSSEC](basics/dns.md#what-is-dnssec)
+- Must support [DNSSEC](basics/dns-overview.md#what-is-dnssec)
 - Must have [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) support
-- [QNAME Minimization](basics/dns.md#what-is-qname-minimization)
-- Allow for [ECS](basics/dns.md#what-is-edns-client-subnet-ecs) to be disabled
+- [QNAME Minimization](basics/dns-overview.md#what-is-qname-minimization)
+- Allow for [ECS](basics/dns-overview.md#what-is-edns-client-subnet-ecs) to be disabled
 
 ## Native Operating System Support
 
@@ -72,7 +72,7 @@ Select **Settings** &rarr; **Network & Internet** &rarr; **Ethernet or WiFi**, &
 
 ## Encrypted DNS Proxies
 
-Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](basics/dns.md#unencrypted-dns) resolver to forward to. Typically it is used on platforms that don't natively support [encrypted DNS](basics/dns.md#what-is-encrypted-dns).
+Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](basics/dns-overview.md#unencrypted-dns) resolver to forward to. Typically it is used on platforms that don't natively support [encrypted DNS](basics/dns-overview.md#what-is-encrypted-dns).
 
 ### RethinkDNS
 
@@ -81,7 +81,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ba
     ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
     ![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
 
-    **RethinkDNS** is an open-source Android client supporting [DNS-over-HTTPS](basics/dns.md#dns-over-https-doh), [DNS-over-TLS](basics/dns.md#dns-over-tls-dot), [DNSCrypt](basics/dns.md#dnscrypt) and DNS Proxy along with caching DNS responses, locally logging DNS queries and can be used as a firewall too.
+    **RethinkDNS** is an open-source Android client supporting [DNS-over-HTTPS](basics/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](basics/dns-overview.md#dns-over-tls-dot), [DNSCrypt](basics/dns-overview.md#dnscrypt) and DNS Proxy along with caching DNS responses, locally logging DNS queries and can be used as a firewall too.
 
     [:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
@@ -99,7 +99,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ba
 
     ![DNSCloak logo](assets/img/ios/dnscloak.png){ align=right }
 
-    **DNSCloak** is an open-source iOS client supporting [DNS-over-HTTPS](basics/dns.md#dns-over-https-doh), [DNSCrypt](basics/dns.md#dnscrypt), and [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy/wiki) options such as caching DNS responses, locally logging DNS queries, and custom block lists. You can [add custom resolvers by DNS stamp](https://medium.com/privacyguides/adding-custom-dns-over-https-resolvers-to-dnscloak-20ff5845f4b5).
+    **DNSCloak** is an open-source iOS client supporting [DNS-over-HTTPS](basics/dns-overview.md#dns-over-https-doh), [DNSCrypt](basics/dns-overview.md#dnscrypt), and [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy/wiki) options such as caching DNS responses, locally logging DNS queries, and custom block lists. You can [add custom resolvers by DNS stamp](https://medium.com/privacyguides/adding-custom-dns-over-https-resolvers-to-dnscloak-20ff5845f4b5).
 
     [:octicons-repo-16: Repository](https://github.com/s-s/dnscloak){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://drive.google.com/file/d/1050No_pU74CAWUS5-BwQWyO2x_aiMzWc/view){ .card-link title="Privacy Policy" }
@@ -115,9 +115,9 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ba
 
     ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
 
-    **dnscrypt-proxy** is a DNS proxy with support for [DNSCrypt](basics/dns.md#dnscrypt), [DNS-over-HTTPS](basics/dns.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
+    **dnscrypt-proxy** is a DNS proxy with support for [DNSCrypt](basics/dns-overview.md#dnscrypt), [DNS-over-HTTPS](basics/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
-    !!! warning "The anonymized DNS feature does [**not**](basics/dns.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic."
+    !!! warning "The anonymized DNS feature does [**not**](basics/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic."
 
     [:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
     [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}

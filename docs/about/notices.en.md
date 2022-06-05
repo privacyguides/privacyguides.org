@@ -20,7 +20,7 @@ Unless otherwise noted, all content on this website is made freely available und
 
 This does not include third-party code embedded in this repository, or code where a superseding license is otherwise noted. The following are notable examples, but this list may not be all-inclusive:
 
-* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/docs/javascripts/mathjax.js) is licensed under the [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/javascripts/LICENSE.mathjax.txt).
+* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/mathjax.js) is licensed under the [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
 
 Portions of this notice itself were adopted from [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) on GitHub. That resource and this page itself are released under [CC-BY-4.0](https://github.com/github/opensource.guide/blob/master/LICENSE).
 

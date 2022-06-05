@@ -74,13 +74,13 @@ When you are using a SearXNG instance, be sure to go read their privacy policy. 
     ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
     ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
 
-    **Startpage** is a private search engine known for serving Google search results. Startpage's flagship feature is [Anonymous View](https://www.startpage.com/en/anonymous-view/), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the Tor Browser instead. The feature can be useful for hiding some network and browser properties—see the [technical document](https://support.startpage.com/index.php?/Knowledgebase/Article/View/1185/0/the-anonymous-view-proxy---technical-details=undefined) for more details.
+    **Startpage** is a private search engine known for serving Google search results. Startpage's flagship feature is [Anonymous View](https://www.startpage.com/en/anonymous-view/), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the Tor Browser instead. The feature can be useful for hiding some network and browser properties—see the [technical document](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) for more details.
 
     Startpage has been known to refuse access to those using a VPN service or Tor, so your mileage may vary.
 
     [:octicons-home-16: Homepage](https://www.startpage.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.startpage.com/index.php?/Knowledgebase/List){ .card-link title=Documentation}
+    [:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
 
 Startpage is based in the :flag_nl: Netherlands. According to their [privacy policy](https://www.startpage.com/en/privacy-policy/), they log details such as: operating system, type of browser, and language. They do not log your IP address, search queries, or other personally identifying information.
 

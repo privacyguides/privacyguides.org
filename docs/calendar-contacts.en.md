@@ -62,7 +62,7 @@ Some of these options are self-hostable, but could be offered by third party Saa
 
     ![DecSync logo](assets/img/calendar-contacts/decsync.svg){ align=right }
 
-    **DecSync CC** synchronizes contacts, calendars and tasks using DecSync. It stores this data in a shared directory, using [Syncthing](file-sharing/#syncthing), or any other file synchronization service.
+    **DecSync CC** synchronizes contacts, calendars and tasks using DecSync. It stores this data in a shared directory, using [Syncthing](file-sharing.md#syncthing), or any other file synchronization service.
 
     There are [plugins](https://github.com/39aldo39/DecSync#rss) to sync other types of data such as [RSS](news-aggregators.md).
 
