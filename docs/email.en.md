@@ -86,7 +86,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 
 ??? check "Private Payment Methods"
 
-    Proton Mail [accepts](https://proton.me/support/payment-options) Bitcoin in addition to accepting credit/debit cards and PayPal. They also accept cash by mail
+    Proton Mail [accepts](https://proton.me/support/payment-options) Bitcoin and cash by mail, in addition to standard credit/debit card and PayPal payments.
 
 ??? check "Account Security"
 
