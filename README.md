@@ -74,7 +74,7 @@ This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdoc
     - `git submodule init`
     - `git submodule update docs/assets/brand`
 2. Install [Python 3.6+](https://www.python.org/downloads/)
-3. Install [dependencies](/Pipfile): `pip install mkdocs mkdocs-material mkdocs-static-i18n mkdocs-git-revision-date-localized-plugin mkdocs-minify-plugin typing-extensions`
+3. Install [dependencies](/Pipfile): `pip install mkdocs mkdocs-material mkdocs-static-i18n mkdocs-git-revision-date-localized-plugin mkdocs-minify-plugin mkdocs-rss-plugin typing-extensions`
 4. Serve the site locally: `mkdocs serve`
     - The site will be available at `http://localhost:8000`
     - You can build the site locally with `mkdocs build`
