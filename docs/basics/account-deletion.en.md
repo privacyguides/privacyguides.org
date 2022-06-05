@@ -50,7 +50,7 @@ For the account email, either create a new alternate email account via your prov
 
 You can check [JustDeleteMe](https://justdeleteme.xyz) for instructions on deleting the account for a specific service. Some sites will graciously have a "Delete Account" option, while others will go as far as to force you to speak with a support agent. The deletion process can vary from site to site, with account deletion being impossible on some.
 
-For services that don't allow account deletion, the best thing to do is falsify all your information as previously mentioned and strengthen account security. To do so, enable [MFA](basics/multi-factor-authentication) and any extra security features offered. As well, change the password to a randomly-generated one that is the maximum allowed size (a [password manager](/passwords/#local-password-managers) can be useful for this).
+For services that don't allow account deletion, the best thing to do is falsify all your information as previously mentioned and strengthen account security. To do so, enable [MFA](multi-factor-authentication.md) and any extra security features offered. As well, change the password to a randomly-generated one that is the maximum allowed size (a [password manager](/passwords/#local-password-managers) can be useful for this).
 
 If you're satisfied that all information you care about is removed, you can safely forget about this account. If not, it might be a good idea to keep the credentials stored with your other passwords and occasionally re-login to reset the password.
 

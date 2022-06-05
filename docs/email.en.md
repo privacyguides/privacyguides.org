@@ -119,7 +119,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 
     **USD $59.95/year**
 
-    [:octicons-home-16: Homepage](https://startmail.com/){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://www.startmail.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentation}
 

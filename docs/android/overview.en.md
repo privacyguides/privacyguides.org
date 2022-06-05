@@ -50,7 +50,7 @@ It's important to not use an [end-of-life](https://endoflife.date/android) versi
 
 [Permissions on Android](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. Google regularly makes [improvements](https://developer.android.com/about/versions/11/privacy/permissions) on the permission system in each successive version. All apps you install are strictly [sandboxed](https://source.android.com/security/app-sandbox), therefore there is no need to install any antivirus apps. The savings you make from not purchasing or subscribing to security apps is better spent on paying for a supported device in the future.
 
-Should you want to run an app that you're unsure about, consider using a user or work [profile](android/#android-security-privacy).
+Should you want to run an app that you're unsure about, consider using a user or work profile.
 
 ## User Profiles
 

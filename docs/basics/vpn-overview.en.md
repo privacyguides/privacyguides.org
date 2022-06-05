@@ -5,7 +5,7 @@ icon: material/vpn
 
 Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world. An ISP can see the flow of internet traffic entering and exiting your network termination device (ie. modem).
 
-Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading but they can get an idea of the [domains you request](/basics/dns.md/#why-shouldnt-i-use-encrypted-dns).
+Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading but they can get an idea of the [domains you request](dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
 A VPN can help as it can shift trust to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing into it.
 

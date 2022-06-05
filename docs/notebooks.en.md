@@ -55,7 +55,6 @@ If you are currently using an application like Evernote, Google Keep, or Microso
         - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/net.cozic.joplin)
 
 Joplin does not support password/pin protection for the [application itself or individual notes/notebooks](https://github.com/laurent22/joplin/issues/289). Data is still encrypted in transit and at the sync location using your master key.
 
