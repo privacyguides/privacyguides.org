@@ -84,6 +84,23 @@ Joplin does not support password/pin protection for the [application itself or i
 
 ## Local notebooks
 
+### Markor
+
+!!! recommendation
+
+    ![Markor logo](assets/img/notebooks/markor.png){ align=right }
+
+    **Markor** is a text editor for Android. It's versatile and lightweight and able to edit formats like Markdown and [todo.txt](http://todotxt.org). It can also be used for keeping bookmarks, copying to clipboard, fast opening a link from text and lots more. Created files are interoperable with any other plaintext software on any platform. Synchronization is possible with [file synchronization](/file-sharing/#file-sync) tools.
+
+    [:octicons-home-16: Homepage](https://gsantner.net/project/markor.html){ .md-button .md-button--primary }
+
+    [:octicons-info-16:](https://gsantner.net/project/markor.html#frequently-asked-questions-faq--help){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/gsantner/markor){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://gsantner.net/page/supportme.html){ .card-link title=Contribute }
+
+    ??? downloads
+        -  [:pg-f-droid: F-Droid](https://f-droid.org/packages/net.gsantner.markor)
+
 ### Org-mode
 
 !!! recommendation
