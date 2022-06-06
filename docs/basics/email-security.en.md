@@ -17,7 +17,7 @@ Even if you use OpenPGP, it does not support [forward secrecy](https://en.wikipe
 
 ### What Email Clients Support E2EE?
 
-Email providers which allow you to use standard access protocols like IMAP and SMTP can be used with any of the [email clients we recommend](../email-clients.md). This can be less secure as you are now relying on email providers to ensure that their encryption implementation works and has not been compromised in anyway.
+Email providers which allow you to use standard access protocols like IMAP and SMTP can be used with any of the [email clients we recommend](../email-clients.md). Depending on the authentication method, this may lead to the decrease security if either the provider or the email client does not support OATH or a bridge application as [multi-factor authentication](/basics/multi-factor-authentication/) is not possible with plain password authentication.
 
 ### How Do I Protect My Private Keys?
 
@@ -38,5 +38,7 @@ Email metadata is protected from outside observers with [Opportunistic TLS](http
 ### Why Can't Metadata be E2EE?
 
 Email metadata is crucial to the most basic functionality of email (where it came from, and where it has to go). E2EE was not built into the email protocols originally, instead requiring add-on software like OpenPGP. Because OpenPGP messages still have to work with traditional email providers, it cannot encrypt email metadata, only the message body itself. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as who you're emailing, the subject lines, when you're emailing, etc.
+
+## Email provider security
 
 --8<-- "includes/abbreviations.en.md"

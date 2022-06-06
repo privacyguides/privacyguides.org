@@ -326,12 +326,12 @@ We regard these features as important in order to provide a safe and optimal ser
 **Minimum to Qualify:**
 
 - Encrypts email account data at rest with zero-access encryption.
-- Integrated webmail E2EE/PGP encryption provided as a convenience.
 
 **Best Case:**
 
 - Encrypts all account data (Contacts, Calendars etc) at rest with zero-access encryption.
 - Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy etc.
+- Integrated webmail E2EE/PGP encryption provided as a convenience.
 - Support for [WKD](https://wiki.gnupg.org/WKD) to allow improved discovery of public OpenPGP keys via HTTP.
     GnuPG users can get a key by typing: `gpg --locate-key example_user@example.com`
 - Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
@@ -362,7 +362,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 **Minimum to Qualify:**
 
 - Protection of webmail with 2FA, such as TOTP.
-- Encryption at rest, (e.g. [dm-crypt](https://en.wikipedia.org/wiki/dm-crypt)) this protects the contents of the servers in case of unlawful seizure.
+- Zero access encryption, builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
 - No [TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS) errors/vulnerabilities when being profiled by tools such as [Hardenize](https://www.hardenize.com), [testssl.sh](https://testssl.sh) or [Qualys SSL Labs](https://www.ssllabs.com/ssltest), this includes certificate related errors, poor or weak ciphers suites, weak DH parameters such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - A valid [MTA-STS](https://tools.ietf.org/html/rfc8461) and [TLS-RPT](https://tools.ietf.org/html/rfc8460) policy.
@@ -378,7 +378,6 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 **Best Case:**
 
 - Support for hardware authentication, ie U2F and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate people, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
-- Zero access encryption, builds on encryption at rest. The difference being the provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
 - Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), this is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
 - Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
