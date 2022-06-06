@@ -31,8 +31,7 @@ Brave Search is based in the :flag_us: United States. Their [privacy policy](htt
 
 !!! recommendation
 
-    ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg#only-light){ align=right }
-    ![DuckDuckGo logo](assets/img/search-engines/duckduckgo-dark.svg#only-dark){ align=right }
+    ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
 
     **DuckDuckGo** is one of the more mainstream private search engine options. Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and many [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). The search engine relies on a commercial Bing API to serve most results, but it does use numerous [other sources](https://help.duckduckgo.com/results/sources/) for instant answers and other non-primary results.
 

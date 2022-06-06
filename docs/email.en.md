@@ -153,8 +153,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 
 !!! recommendation
 
-    ![Tutanota logo](assets/img/email/tutanota.svg#only-light){ align=right }
-    ![Tutanota logo](assets/img/email/tutanota-dark.svg#only-dark){ align=right }
+    ![Tutanota logo](assets/img/email/tutanota.svg){ align=right }
 
     **[Tutanota.com](https://tutanota.com)** is an email service with a focus on security and privacy through the use of encryption. Tutanota has been in operation since **2011** and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan.
 

@@ -84,8 +84,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 !!! recommendation
 
-    ![Mullvad logo](assets/img/vpn/mullvad.svg#only-light){ align=right }
-    ![Mullvad logo](assets/img/vpn/mullvad-dark.svg#only-dark){ align=right }
+    ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
 
     **Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since **2009**. Mullvad is based in Sweden and does not have a free trial.
 

@@ -151,10 +151,10 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Mailbox.org logo](assets/img/email/mini/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 - ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#protonmail)
-- ![StartMail logo](assets/img/email/mini/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/mini/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
-- ![Tutanota logo](assets/img/email/mini/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![StartMail logo](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
+- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
 
@@ -164,8 +164,8 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![AnonAddy logo](assets/img/email/mini/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/mini/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
-- ![SimpleLogin logo](assets/img/email/mini/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
+- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
 </div>
 
@@ -187,9 +187,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <div class="grid cards" markdown>
 
 - ![Brave Search logo](assets/img/search-engines/brave-search.svg){ .twemoji } [Brave Search](search-engines.md#brave-search)
-- ![DuckDuckGo logo](assets/img/search-engines/mini/duckduckgo.svg){ .twemoji } [DuckDuckGo](search-engines.md#duckduckgo)
-- ![SearXNG logo](assets/img/search-engines/mini/searxng-wordmark.svg){ .twemoji } [SearXNG](search-engines.md#searxng)
-- ![Startpage logo](assets/img/search-engines/mini/startpage.svg#only-light){ .twemoji }![Startpage logo](assets/img/search-engines/mini/startpage-dark.svg#only-dark){ .twemoji } [Startpage](search-engines.md#startpage)
+- ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ .twemoji } [DuckDuckGo](search-engines.md#duckduckgo)
+- ![SearXNG logo](assets/img/search-engines/searxng.svg){ .twemoji } [SearXNG](search-engines.md#searxng)
+- ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ .twemoji }![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji } [Startpage](search-engines.md#startpage)
 
 </div>
 
@@ -210,7 +210,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <div class="grid cards" markdown>
 
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
-- ![Mullvad logo](assets/img/vpn/mini/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
+- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
 - ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#protonvpn)
 
 </div>
