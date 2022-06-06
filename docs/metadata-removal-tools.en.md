@@ -6,24 +6,6 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 ## Desktop
 
-### ExifCleaner
-
-!!! recommendation
-
-    ![ExifCleaner logo](assets/img/metadata-removal/exifcleaner.svg){ align=right }
-
-    **ExifCleaner** is a freeware, open source graphical app that uses [ExifTool](https://exiftool.org) to remove Exif metadata from images, videos, and PDF documents using a simple drag and drop interface. It supports multi-core batch processing and dark mode.
-
-    [:octicons-home-16: Homepage](https://exifcleaner.com){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/szTheory/exifcleaner#readme){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/szTheory/exifcleaner){ .card-link title="Source Code" }
-
-    ??? downloads
-
-        - [:fontawesome-brands-windows: Windows](https://github.com/szTheory/exifcleaner/releases)
-        - [:fontawesome-brands-apple: macOS](https://github.com/szTheory/exifcleaner/releases)
-        - [:fontawesome-brands-linux: Linux](https://github.com/szTheory/exifcleaner/releases)
-
 ### MAT2
 
 !!! recommendation
@@ -45,44 +27,27 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
         - [:fontawesome-brands-linux: Linux](https://pypi.org/project/mat2)
         - [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
 
+### ExifCleaner
+
+!!! recommendation
+
+    ![ExifCleaner logo](assets/img/metadata-removal/exifcleaner.svg){ align=right }
+
+    **ExifCleaner** is a freeware, open source graphical app that uses [ExifTool](https://exiftool.org) to remove Exif metadata from images, videos, and PDF documents using a simple drag and drop interface. It supports multi-core batch processing and dark mode.
+
+    [:octicons-home-16: Homepage](https://exifcleaner.com){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://github.com/szTheory/exifcleaner#readme){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/szTheory/exifcleaner){ .card-link title="Source Code" }
+
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://github.com/szTheory/exifcleaner/releases)
+        - [:fontawesome-brands-apple: macOS](https://github.com/szTheory/exifcleaner/releases)
+        - [:fontawesome-brands-linux: Linux](https://github.com/szTheory/exifcleaner/releases)
+
 ## Mobile
 
-### Imagepipe (Android)
-
-!!! recommendation
-
-    ![Imagepipe logo](assets/img/metadata-removal/imagepipe.svg){ align=right }
-
-    **Imagepipe** is a a paint app for Android that can be used to redact photos and also delete Exif metadata. It has been translated into [many](https://codeberg.org/Starfish/Imagepipe#translations) languages.
-
-    [:octicons-repo-16: Repository](https://codeberg.org/Starfish/Imagepipe){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://codeberg.org/Starfish/Imagepipe/src/branch/master/README.md){ .card-link title=Documentation}
-    [:octicons-code-16:](https://codeberg.org/Starfish/Imagepipe){ .card-link title="Source Code" }
-
-    ??? downloads
-
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.kaffeemitkoffein.imagepipe/)
-
-Imagepipe is only available from F-Droid and not in Google Play. If you're looking for a paint app in Google Play we suggest [Pocket Paint](https://play.google.com/store/apps/details?id=org.catrobat.paintroid).
-
-### Metapho (iOS)
-
-!!! recommendation
-
-    ![Metapho logo](assets/img/metadata-removal/metapho.jpg){ align=right }
-
-    Metapho is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
-    
-    Metapho is closed source, however we recommend it due to the few choices there are for iOS.
-
-    [:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
-
-    ??? downloads
-
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/metapho/id914457352)
-
-### Scrambled Exif (Android)
+### Scrambled Exif
 
 !!! recommendation
 
@@ -100,6 +65,41 @@ Imagepipe is only available from F-Droid and not in Google Play. If you're looki
 
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.jarsilio.android.scrambledeggsif)
         - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.jarsilio.android.scrambledeggsif)
+
+### Imagepipe
+
+!!! recommendation
+
+    ![Imagepipe logo](assets/img/metadata-removal/imagepipe.svg){ align=right }
+
+    **Imagepipe** is a a paint app for Android that can be used to redact photos and also delete Exif metadata. It has been translated into [many](https://codeberg.org/Starfish/Imagepipe#translations) languages.
+
+    [:octicons-repo-16: Repository](https://codeberg.org/Starfish/Imagepipe){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://codeberg.org/Starfish/Imagepipe/src/branch/master/README.md){ .card-link title=Documentation}
+    [:octicons-code-16:](https://codeberg.org/Starfish/Imagepipe){ .card-link title="Source Code" }
+
+    ??? downloads
+
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.kaffeemitkoffein.imagepipe/)
+
+Imagepipe is only available from F-Droid and not in Google Play. If you're looking for a paint app in Google Play we suggest [Pocket Paint](https://play.google.com/store/apps/details?id=org.catrobat.paintroid).
+
+### Metapho
+
+!!! recommendation
+
+    ![Metapho logo](assets/img/metadata-removal/metapho.jpg){ align=right }
+
+    Metapho is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
+    
+    Metapho is closed source, however we recommend it due to the few choices there are for iOS.
+
+    [:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
+
+    ??? downloads
+
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/metapho/id914457352)
 
 ## Command-line
 
@@ -123,6 +123,7 @@ Imagepipe is only available from F-Droid and not in Google Play. If you're looki
         - [:fontawesome-brands-windows: Windows](https://exiftool.org)
         - [:fontawesome-brands-apple: macOS](https://exiftool.org)
         - [:fontawesome-brands-linux: Linux](https://exiftool.org)
+
 
 !!! example "Deleting data from a directory of files"
 

@@ -97,11 +97,13 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
     
     When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
-**NewPipe x SponsorBlock** is a fork of [NewPipe](https://newpipe.net) with [SponsorBlock](https://sponsor.ajay.app) integrated to help you skip sponsored video segments.
+#### SponsorBlock
+
+*NewPipe x SponsorBlock* is a fork of [NewPipe](https://newpipe.net) with [SponsorBlock](https://sponsor.ajay.app) integrated to help you skip sponsored video segments.
 
 It also has integration with [Return YouTube Dislike](https://returnyoutubedislike.com), and some experimental settings such as the ability to use the built-in player for local playback, an option to force fullscreen on landscape mode, and an option to disable error reporting prompts.
 
-[:octicons-repo-16: "NewPipe x SponsorBlock" on GitHub](https://github.com/polymorphicshade/NewPipe){ .md-button }
+- [github.com/polymorphicshade/NewPipe :hero-arrow-circle-right-fill:](https://github.com/polymorphicshade/NewPipe)
 
 This fork is not endorsed by or affiliated with the upstream project. The NewPipe team has [rejected](https://github.com/TeamNewPipe/NewPipe/pull/3205) integration with SponsorBlock and thus this fork is created to provide this functionality.
 
@@ -136,6 +138,30 @@ When self-hosting, it is important that you have other people using your instanc
 
 When you are using an Invidious instance, make sure to read the privacy policy of that specific instance. Invidious instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
 
+### Piped
+
+!!! recommendation
+
+    ![Piped logo](assets/img/video-streaming/piped.svg){ align=right }
+
+    **Piped** is a free and open source frontend for YouTube that is also self-hostable.
+
+    Piped requires JavaScript in order to function and there are a number of public instances.
+
+    [:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://piped.kavin.rocks/preferences#ddlInstanceSelection){ .card-link title="Public Instances"}
+    [:octicons-info-16:](https://piped-docs.kavin.rocks/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribute }
+
+!!! tip
+
+    Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension or to access age-restricted content without an account. It does not provide privacy by itself and we don’t recommend logging into any accounts.
+
+When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Piped, as other peoples' usage will be linked to your hosting.
+
+When you are using a Piped instance, make sure to read the privacy policy of that specific instance. Piped instances can be modified by their owners and therefore may not reflect their associated privacy policy.
+
 ### Librarian
 
 !!! recommendation
@@ -163,29 +189,5 @@ When you are using an Invidious instance, make sure to read the privacy policy o
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Librarian, as other peoples' usage will be linked to your hosting.
 
 When you are using a Librarian instance, make sure to read the privacy policy of that specific instance. Librarian instances can be modified by their owners and therefore may not reflect the default policy. Librarian instances feature a "privacy nutrition label" to provide an overview of their policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
-
-### Piped
-
-!!! recommendation
-
-    ![Piped logo](assets/img/video-streaming/piped.svg){ align=right }
-
-    **Piped** is a free and open source frontend for YouTube that is also self-hostable.
-
-    Piped requires JavaScript in order to function and there are a number of public instances.
-
-    [:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://piped.kavin.rocks/preferences#ddlInstanceSelection){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://piped-docs.kavin.rocks/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribute }
-
-!!! tip
-
-    Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension or to access age-restricted content without an account. It does not provide privacy by itself and we don’t recommend logging into any accounts.
-
-When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Piped, as other peoples' usage will be linked to your hosting.
-
-When you are using a Piped instance, make sure to read the privacy policy of that specific instance. Piped instances can be modified by their owners and therefore may not reflect their associated privacy policy.
 
 --8<-- "includes/abbreviations.en.md"

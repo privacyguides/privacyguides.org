@@ -4,27 +4,31 @@ icon: material/security-network
 ---
 These networks are designed to keep your traffic anonymous.
 
-## Freenet
+## Tor
 
 !!! recommendation
 
-    ![Freenet logo](assets/img/self-contained-networks/freenet.svg){ align=right }
+    ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
-    **Freenet** is a peer-to-peer platform for censorship-resistant communication. It uses a decentralized distributed data store to keep and deliver information, and has a suite of free software for publishing and communicating on the Web without fear of censorship. Both Freenet and some of its associated tools were originally designed by Ian Clarke, who defined Freenet's goal as providing freedom of speech on the Internet with strong anonymity protection.
+    The **Tor** network is a group of volunteer-operated servers that allows people to improve their privacy and security on the Internet. You use the Tor network by connecting through a series of virtual tunnels rather than making a direct connection to the site you're trying to visit, thus allowing both organizations and individuals to share information over public networks without compromising their privacy. Tor is an effective censorship circumvention tool.
 
-    [:octicons-home-16: Homepage](https://freenetproject.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://freenetproject.org/pages/documentation.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/freenet/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://freenetproject.org/pages/donate.html){ .card-link title=Contribute }
+    [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
+    [:pg-tor:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title=Onion }
+    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://freenetproject.org/pages/download.html#windows)
-        - [:fontawesome-brands-apple: macOS](https://freenetproject.org/pages/download.html#os-x)
-        - [:fontawesome-brands-linux: Linux](https://freenetproject.org/pages/download.html#gnulinux-posix)
-        - [:fontawesome-brands-freebsd: FreeBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)
-        - [:pg-openbsd: OpenBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)
-        - [:pg-netbsd: NetBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)
+        - [:fontawesome-brands-windows: Windows](https://www.torproject.org/download/)
+        - [:fontawesome-brands-apple: macOS](https://www.torproject.org/download/)
+        - [:fontawesome-brands-linux: Linux](https://www.torproject.org/download/)
+        - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/security/tor)
+        - [:pg-openbsd: OpenBSD](https://openports.se/net/tor)
+        - [:pg-netbsd: NetBSD](https://pkgsrc.se/net/tor)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
+        - [:pg-f-droid: F-Droid](https://support.torproject.org/tormobile/tormobile-7/)
+        - [:fontawesome-brands-android: Android](https://www.torproject.org/download/#android)
 
 ## Invisible Internet Project
 
@@ -52,30 +56,26 @@ These networks are designed to keep your traffic anonymous.
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=net.i2p.android)
         - [:pg-f-droid: F-Droid](https://f-droid.org/app/net.i2p.android.router)
 
-## Tor
+## The Freenet Project
 
 !!! recommendation
 
-    ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
+    ![Freenet logo](assets/img/self-contained-networks/freenet.svg){ align=right }
 
-    The **Tor** network is a group of volunteer-operated servers that allows people to improve their privacy and security on the Internet. You use the Tor network by connecting through a series of virtual tunnels rather than making a direct connection to the site you're trying to visit, thus allowing both organizations and individuals to share information over public networks without compromising their privacy. Tor is an effective censorship circumvention tool.
+    **Freenet** is a peer-to-peer platform for censorship-resistant communication. It uses a decentralized distributed data store to keep and deliver information, and has a suite of free software for publishing and communicating on the Web without fear of censorship. Both Freenet and some of its associated tools were originally designed by Ian Clarke, who defined Freenet's goal as providing freedom of speech on the Internet with strong anonymity protection.
 
-    [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
-    [:pg-tor:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title=Onion }
-    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+    [:octicons-home-16: Homepage](https://freenetproject.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://freenetproject.org/pages/documentation.html){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/freenet/){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://freenetproject.org/pages/donate.html){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://www.torproject.org/download/)
-        - [:fontawesome-brands-apple: macOS](https://www.torproject.org/download/)
-        - [:fontawesome-brands-linux: Linux](https://www.torproject.org/download/)
-        - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/security/tor)
-        - [:pg-openbsd: OpenBSD](https://openports.se/net/tor)
-        - [:pg-netbsd: NetBSD](https://pkgsrc.se/net/tor)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-        - [:pg-f-droid: F-Droid](https://support.torproject.org/tormobile/tormobile-7/)
-        - [:fontawesome-brands-android: Android](https://www.torproject.org/download/#android)
+        - [:fontawesome-brands-windows: Windows](https://freenetproject.org/pages/download.html#windows)
+        - [:fontawesome-brands-apple: macOS](https://freenetproject.org/pages/download.html#os-x)
+        - [:fontawesome-brands-linux: Linux](https://freenetproject.org/pages/download.html#gnulinux-posix)
+        - [:fontawesome-brands-freebsd: FreeBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)
+        - [:pg-openbsd: OpenBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)
+        - [:pg-netbsd: NetBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)
 
 --8<-- "includes/abbreviations.en.md"

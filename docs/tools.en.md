@@ -107,9 +107,9 @@ For your convenience, everything we recommend is listed below with a link to the
 
 <div class="grid cards" markdown>
 
-- ![Cryptee logo](assets/img/cloud/cryptee.svg#only-light){ .twemoji }![Cryptee logo](assets/img/cloud/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](cloud.md#cryptee)
 - ![Nextcloud logo](assets/img/cloud/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](cloud.md#nextcloud)
 - ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
+- ![Cryptee logo](assets/img/cloud/cryptee.svg#only-light){ .twemoji }![Cryptee logo](assets/img/cloud/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](cloud.md#cryptee)
 - ![Tahoe-LAFS logo](assets/img/cloud/tahoe-lafs.svg#only-light){ .twemoji }![Tahoe-LAFS logo](assets/img/cloud/tahoe-lafs-dark.svg#only-dark){ .twemoji } [Tahoe-LAFS (Advanced)](cloud.md#tahoe-lafs)
 
 </div>
@@ -151,10 +151,10 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Mailbox.org logo](assets/img/email/mini/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 - ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#protonmail)
-- ![StartMail logo](assets/img/email/mini/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/mini/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
+- ![Mailbox.org logo](assets/img/email/mini/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 - ![Tutanota logo](assets/img/email/mini/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![StartMail logo](assets/img/email/mini/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/mini/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
 
 </div>
 
@@ -164,8 +164,8 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![AnonAddy logo](assets/img/email/mini/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/mini/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
 - ![SimpleLogin logo](assets/img/email/mini/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![AnonAddy logo](assets/img/email/mini/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/mini/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
 
 </div>
 
@@ -175,8 +175,8 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![mailcow logo](assets/img/email/mailcow.svg){ .twemoji } [mailcow](email.md#self-hosting-email)
 - ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji } [Mail-in-a-Box](email.md#self-hosting-email)
+- ![mailcow logo](assets/img/email/mailcow.svg){ .twemoji } [mailcow](email.md#self-hosting-email)
 
 </div>
 
@@ -186,10 +186,10 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Brave Search logo](assets/img/search-engines/brave-search.svg){ .twemoji } [Brave Search](search-engines.md#brave-search)
 - ![DuckDuckGo logo](assets/img/search-engines/mini/duckduckgo.svg){ .twemoji } [DuckDuckGo](search-engines.md#duckduckgo)
-- ![SearXNG logo](assets/img/search-engines/mini/searxng-wordmark.svg){ .twemoji } [SearXNG](search-engines.md#searxng)
 - ![Startpage logo](assets/img/search-engines/mini/startpage.svg#only-light){ .twemoji }![Startpage logo](assets/img/search-engines/mini/startpage-dark.svg#only-dark){ .twemoji } [Startpage](search-engines.md#startpage)
+- ![Brave Search logo](assets/img/search-engines/brave-search.svg){ .twemoji } [Brave Search](search-engines.md#brave-search)
+- ![SearXNG logo](assets/img/search-engines/mini/searxng-wordmark.svg){ .twemoji } [SearXNG](search-engines.md#searxng)
 
 </div>
 
@@ -209,9 +209,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
 - ![Mullvad logo](assets/img/vpn/mini/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
 - ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#protonvpn)
+- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
 
 </div>
 
@@ -223,11 +223,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![DecSync CC logo](assets/img/calendar-contacts/decsync.svg){ .twemoji } [DecSync CC](calendar-contacts.md#decsync-cc)
-- ![EteSync logo](assets/img/calendar-contacts/etesync.svg){ .twemoji } [EteSync](calendar-contacts.md#etesync)
-- ![Nextcloud logo](assets/img/calendar-contacts/nextcloud.svg){ .twemoji } [Nextcloud](calendar-contacts.md#nextcloud)
-- ![Proton Calendar logo](assets/img/calendar-contacts/proton-calendar.svg){ .twemoji } [Proton Calendar (SaaS)](calendar-contacts.md#proton-calendar)
 - ![Tutanota logo](assets/img/calendar-contacts/tutanota.svg){ .twemoji } [Tutanota (SaaS)](calendar-contacts.md#tutanota)
+- ![Proton Calendar logo](assets/img/calendar-contacts/proton-calendar.svg){ .twemoji } [Proton Calendar (SaaS)](calendar-contacts.md#proton-calendar)
+- ![EteSync logo](assets/img/calendar-contacts/etesync.svg){ .twemoji } [EteSync](calendar-contacts.md#etesync)
+- ![Tutanota logo](assets/img/calendar-contacts/nextcloud.svg){ .twemoji } [Nextcloud](calendar-contacts.md#nextcloud)
+- ![DecSync CC logo](assets/img/calendar-contacts/decsync.svg){ .twemoji } [DecSync CC](calendar-contacts.md#decsync-cc)
 
 </div>
 
@@ -237,9 +237,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![EteSync Notes logo](assets/img/notebooks/etesync-notes.png){ .twemoji } [EteSync Notes](notebooks.md#etesync-notes)
 - ![Joplin logo](assets/img/notebooks/joplin.svg){ .twemoji } [Joplin](notebooks.md#joplin)
 - ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ .twemoji } [Standard Notes](notebooks.md#standard-notes)
+- ![EteSync Notes logo](assets/img/notebooks/etesync-notes.png){ .twemoji } [EteSync Notes](notebooks.md#etesync-notes)
 - ![Org-mode logo](assets/img/notebooks/org-mode.svg){ .twemoji } [Org-mode](notebooks.md#org-mode)
 
 </div>
@@ -252,12 +252,12 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ .twemoji } [Thunderbird](email-clients.md#thunderbird)
 - ![Apple Mail logo](assets/img/email-clients/applemail.png){ .twemoji } [Apple Mail (macOS)](email-clients.md#apple-mail)
-- ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ .twemoji } [Canary Mail (iOS)](email-clients.md#canary-mail)
-- ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji } [FairEmail (Android)](email-clients.md#fairemail)
 - ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution)
-- ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ .twemoji } [K-9 Mail (Android)](email-clients.md#k-9-mail)
 - ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji } [Kontact (Linux)](email-clients.md#kontact)
 - ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope)
+- ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ .twemoji } [K-9 Mail (Android)](email-clients.md#k-9-mail)
+- ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji } [FairEmail (Android)](email-clients.md#fairemail)
+- ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ .twemoji } [Canary Mail (iOS)](email-clients.md#canary-mail)
 - ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji } [NeoMutt (CLI)](email-clients.md#neomutt)
 
 </div>
@@ -274,9 +274,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
+- ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji } [VeraCrypt (FDE)](encryption.md#veracrypt)
 - ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ .twemoji } [Cryptomator](encryption.md#cryptomator)
 - ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ .twemoji } [Picocrypt](encryption.md#picocrypt)
-- ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji } [VeraCrypt (FDE)](encryption.md#veracrypt)
 - ![Hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ .twemoji }![Hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ .twemoji } [Hat.sh (Browser-based)](encryption.md#hatsh)
 - ![Kryptor logo](assets/img/encryption-software/kryptor.png){ .twemoji } [Kryptor](encryption.md#kryptor)
 - ![Tomb logo](assets/img/encryption-software/tomb.png){ .twemoji } [Tomb](encryption.md#tomb)
@@ -302,11 +302,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Magic Wormhole logo](assets/img/file-sharing-sync/magic_wormhole.png){ .twemoji } [Magic Wormhole](file-sharing.md#magic-wormhole)
 - ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [OnionShare](file-sharing.md#onionshare)
+- ![Magic Wormhole logo](assets/img/file-sharing-sync/magic_wormhole.png){ .twemoji } [Magic Wormhole](file-sharing.md#magic-wormhole)
 - ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji } [FreedomBox](file-sharing.md#freedombox)
-- ![git-annex logo](assets/img/file-sharing-sync/gitannex.svg){ .twemoji } [git-annex](file-sharing.md#git-annex)
 - ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji } [Syncthing](file-sharing.md#syncthing)
+- ![git-annex logo](assets/img/file-sharing-sync/gitannex.svg){ .twemoji } [git-annex](file-sharing.md#git-annex)
 
 </div>
 
@@ -316,11 +316,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![ExifCleaner logo](assets/img/metadata-removal/exifcleaner.svg){ .twemoji } [ExifCleaner](metadata-removal-tools.md#exifcleaner)
 - ![MAT2 logo](assets/img/metadata-removal/mat2.svg){ .twemoji } [MAT2](metadata-removal-tools.md#mat2)
+- ![ExifCleaner logo](assets/img/metadata-removal/exifcleaner.svg){ .twemoji } [ExifCleaner](metadata-removal-tools.md#exifcleaner)
+- ![Scrambled Exif logo](assets/img/metadata-removal/scrambled-exif.svg){ .twemoji } [Scrambled Exif (Android)](metadata-removal-tools.md#scrambled-exif)
 - ![Imagepipe logo](assets/img/metadata-removal/imagepipe.svg){ .twemoji } [Imagepipe (Android)](metadata-removal-tools.md#imagepipe)
 - ![Metapho logo](assets/img/metadata-removal/metapho.jpg){ .twemoji } [Metapho (iOS)](metadata-removal-tools.md#metapho)
-- ![Scrambled Exif logo](assets/img/metadata-removal/scrambled-exif.svg){ .twemoji } [Scrambled Exif (Android)](metadata-removal-tools.md#scrambled-exif)
 - ![ExifTool logo](assets/img/metadata-removal/exiftool.png){ .twemoji } [ExifTool (CLI)](metadata-removal-tools.md#exiftool)
 
 </div>
@@ -331,8 +331,8 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji } [Nitrokey](multi-factor-authentication.md#nitrokey-librem-key)
 - ![YubiKeys](assets/img/multi-factor-authentication/mini/yubico.svg){ .twemoji } [YubiKey](multi-factor-authentication.md#yubikey)
+- ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji } [Nitrokey](multi-factor-authentication.md#nitrokey-librem-key)
 - ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji } [Aegis Authenticator](multi-factor-authentication.md#aegis-authenticator)
 - ![Raivo OTP logo](assets/img/multi-factor-authentication/raivo-otp.png){ .twemoji } [Raivo OTP](multi-factor-authentication.md#raivo-otp)
 
@@ -344,12 +344,12 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji } [KeePassDX (Android)](passwords.md#keepassdx)
 - ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji } [KeePassXC](passwords.md#keepassxc)
+- ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji } [KeePassDX (Android)](passwords.md#keepassdx)
 - ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ .twemoji } [Bitwarden](passwords.md#bitwarden)
-- ![Vaultwarden logo](assets/img/password-management/vaultwarden.svg#only-light){ .twemoji }![Vaultwarden logo](assets/img/password-management/vaultwarden-dark.svg#only-dark){ .twemoji } [Vaultwarden (Bitwarden Server)](passwords.md#vaultwarden)
 - ![Psono logo](assets/img/password-management/psono.svg){ .twemoji } [Psono](passwords.md#psono)
 - ![gopass logo](assets/img/password-management/gopass.svg){ .twemoji } [gopass](passwords.md#gopass)
+- ![Vaultwarden logo](assets/img/password-management/vaultwarden.svg#only-light){ .twemoji }![Vaultwarden logo](assets/img/password-management/vaultwarden-dark.svg#only-dark){ .twemoji } [Vaultwarden (Bitwarden Server)](passwords.md#vaultwarden)
 
 </div>
 
@@ -362,8 +362,8 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 - ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ .twemoji } [LibreOffice](productivity.md#libreoffice)
 - ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ .twemoji } [OnlyOffice](productivity.md#onlyoffice)
 - ![Framadate logo](assets/img/productivity/framadate.svg){ .twemoji } [Framadate (Appointment Planning)](productivity.md#framadate)
-- ![CryptPad logo](assets/img/productivity/cryptpad.svg){ .twemoji } [CryptPad](productivity.md#cryptpad)
 - ![PrivateBin logo](assets/img/productivity/privatebin.svg){ .twemoji } [PrivateBin (Pastebin)](productivity.md#privatebin)
+- ![CryptPad logo](assets/img/productivity/cryptpad.svg){ .twemoji } [CryptPad](productivity.md#cryptpad)
 - ![Write.as logo](assets/img/productivity/writeas.svg#only-light){ .twemoji }![Write.as logo](assets/img/productivity/writeas-dark.svg#only-dark){ .twemoji } [Write.as (Blogging Platform)](productivity.md#writeas)
 - ![VSCodium logo](assets/img/productivity/vscodium.svg){ .twemoji } [VSCodium (Source-Code Editor)](productivity.md#vscodium)
 
@@ -375,10 +375,10 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Element logo](assets/img/messengers/element.svg){ .twemoji } [Element](real-time-communication.md#element)
-- ![Session logo](assets/img/messengers/session.svg){ .twemoji } [Session](real-time-communication.md#session)
 - ![Signal logo](assets/img/messengers/signal.svg){ .twemoji } [Signal](real-time-communication.md#signal)
+- ![Element logo](assets/img/messengers/element.svg){ .twemoji } [Element](real-time-communication.md#element)
 - ![Briar logo](assets/img/messengers/briar.svg){ .twemoji } [Briar (Android)](real-time-communication.md#briar)
+- ![Session logo](assets/img/messengers/session.svg){ .twemoji } [Session](real-time-communication.md#session)
 
 </div>
 
@@ -388,12 +388,12 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Akregator logo](assets/img/news-aggregators/akregator.svg){ .twemoji } [Akregator](news-aggregators.md#akregator)
-- ![Feeder logo](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder](news-aggregators.md#feeder)
 - ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ .twemoji } [Fluent Reader](news-aggregators.md#fluent-reader)
 - ![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ .twemoji } [GNOME Feeds](news-aggregators.md#gnome-feeds)
-- ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [Miniflux](news-aggregators.md#miniflux)
+- ![Akregator logo](assets/img/news-aggregators/akregator.svg){ .twemoji } [Akregator](news-aggregators.md#akregator)
+- ![Feeder logo](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder](news-aggregators.md#feeder)
 - ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ .twemoji } [NetNewsWire](news-aggregators.md#netnewswire)
+- ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [Miniflux](news-aggregators.md#miniflux)
 - ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ .twemoji } [Newsboat](news-aggregators.md#newsboat)
 
 </div>
@@ -404,9 +404,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Freenet logo](./assets/img/self-contained-networks/freenet.svg){ .twemoji } [Freenet](self-contained-networks.md#the-freenet-project)
-- ![I2P logo](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji } ![I2P logo](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji } [I2P](self-contained-networks.md#invisible-internet-project)
 - ![Tor logo](./assets/img/self-contained-networks/tor.svg){ .twemoji } [Tor](self-contained-networks.md#tor)
+- ![I2P logo](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji } ![I2P logo](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji } [I2P](self-contained-networks.md#invisible-internet-project)
+- ![Freenet logo](./assets/img/self-contained-networks/freenet.svg){ .twemoji } [Freenet](self-contained-networks.md#the-freenet-project)
 
 </div>
 
@@ -419,9 +419,10 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 - ![FreeTube logo](assets/img/video-streaming/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](video-streaming.md#freetube)
 - ![LBRY logo](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
 - ![NewPipe logo](assets/img//video-streaming/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](video-streaming.md#newpipe)
+- ![NewPipe x SponsorBlock logo](assets/img/video-streaming/newpipe.svg){ .twemoji } [NewPipe x Sponsorblock](video-streaming.md#sponsorblock)
 - ![Invidious logo](assets/img/video-streaming/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/video-streaming/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](video-streaming.md#invidious)
-- ![Librarian logo](assets/img/video-streaming/librarian.svg#only-light){ .twemoji }![Librarian logo](assets/img/video-streaming/librarian-dark.svg#only-dark){ .twemoji } [Librarian (LBRY, Web)](video-streaming.md#librarian)
 - ![Piped logo](assets/img/video-streaming/piped.svg){ .twemoji } [Piped (YouTube, Web)](video-streaming.md#piped)
+- ![Librarian logo](assets/img/video-streaming/librarian.svg#only-light){ .twemoji }![Librarian logo](assets/img/video-streaming/librarian-dark.svg#only-dark){ .twemoji } [Librarian (LBRY, Web)](video-streaming.md#librarian)
 
 </div>
 

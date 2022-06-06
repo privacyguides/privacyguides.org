@@ -7,41 +7,6 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 ## Aggregator clients
 
-### Akregator
-
-!!! recommendation
-
-    ![Akregator logo](assets/img/news-aggregators/akregator.svg){ align=right }
-
-    **Akregator** is a news feed reader that is a part of the [KDE](https://kde.org) project. It comes with a fast search, advanced archiving functionality and an internal browser for easy news reading.
-
-    [:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentation}
-    [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.kde.akregator)
-
-### Feeder
-
-!!! recommendation
-
-    ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
-
-    **Feeder** is a modern RSS client for Android that has many [features](https://gitlab.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. It supports it supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) and [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
-
-    [:octicons-repo-16: Repository](https://gitlab.com/spacecowboy/Feeder){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.com/spacecowboy/Feeder){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.nononsenseapps.feeder/)
-
 ### Fluent Reader
 
 !!! recommendation
@@ -78,19 +43,40 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
         - [:fontawesome-brands-linux: Linux](https://gfeeds.gabmus.org/#install)
         - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.gabmus.gfeeds)
 
-### Miniflux
+### Akregator
 
 !!! recommendation
 
-    ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
-    ![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
+    ![Akregator logo](assets/img/news-aggregators/akregator.svg){ align=right }
 
-    **Miniflux** is a web-based news aggregator that you can self-host. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+    **Akregator** is a news feed reader that is a part of the [KDE](https://kde.org) project. It comes with a fast search, advanced archiving functionality and an internal browser for easy news reading.
 
-    [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title=Contribute }
+    [:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentation}
+    [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.kde.akregator)
+
+### Feeder
+
+!!! recommendation
+
+    ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
+
+    **Feeder** is a modern RSS client for Android that has many [features](https://gitlab.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. It supports it supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) and [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+
+    [:octicons-repo-16: Repository](https://gitlab.com/spacecowboy/Feeder){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.com/spacecowboy/Feeder){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.nononsenseapps.feeder/)
 
 ### NetNewsWire
 
@@ -110,6 +96,20 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
         - [:fontawesome-brands-apple: macOS](https://netnewswire.com)
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
 
+### Miniflux
+
+!!! recommendation
+
+    ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
+    ![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
+
+    **Miniflux** is a web-based news aggregator that you can self-host. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+
+    [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title=Contribute }
+
 ### Newsboat
 
 !!! recommendation
@@ -122,13 +122,24 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
     [:octicons-info-16:](https://newsboat.org/releases/2.27/docs/newsboat.html){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Source Code" }
 
-## Social Media RSS Support
+## Social media that supports RSS
 
 Some social media services also support RSS although it's not often advertised.
 
+### YouTube
+
+You can subscribe YouTube channels without logging in and associating usage information with your Google Account.
+
+!!! example
+
+    To subscribe to a YouTube channel with an RSS client, first look for your [channel code](https://support.google.com/youtube/answer/6180214), replace `channel_id` below:
+    ```text
+    https://www.youtube.com/feeds/videos.xml?channel_id={{ channel id }}
+    ```
+
 ### Reddit
 
-Reddit allows you to subscribe to subreddits via RSS.
+Reddit also supports subscription via RSS.
 
 !!! example
     Replace `subreddit_name` with the subreddit you wish to subscribe to.
@@ -148,14 +159,3 @@ Using any of the Nitter [instances](https://github.com/zedeus/nitter/wiki/Instan
        ```text
        https://{{ nitter_instance }}/{{ twitter_account }}/rss
        ```
-
-### YouTube
-
-You can subscribe YouTube channels without logging in and associating usage information with your Google Account.
-
-!!! example
-
-    To subscribe to a YouTube channel with an RSS client, first look for your [channel code](https://support.google.com/youtube/answer/6180214), replace `channel_id` below:
-    ```text
-    https://www.youtube.com/feeds/videos.xml?channel_id={{ channel id }}
-    ```

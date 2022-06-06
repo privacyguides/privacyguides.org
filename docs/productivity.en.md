@@ -71,9 +71,21 @@ Get working and collaborating without sharing your documents with a middleman or
 
 ## Paste services
 
-!!! warning
+### PrivateBin
 
-    Encrypted Pastebin websites like the ones recommended here use JavaScript to handle encryption, so you must trust the provider to the extent that they do not inject any malicious JavaScript to get your private key. Consider self-hosting to mitigate this threat.
+!!! recommendation
+
+    ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
+
+    **PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin. There is a [list of instances](https://privatebin.info/directory/).
+
+    [:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Public Instances"}
+    [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
+
+!!! warning
+    PrivateBin uses JavaScript to handle encryption, so you must trust the provider to the extent that they do not inject any malicious JavaScript to get your private key. Consider self-hosting to mitigate this threat.
 
 ### CryptPad
 
@@ -89,18 +101,8 @@ Get working and collaborating without sharing your documents with a middleman or
     [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribute }
 
-### PrivateBin
-
-!!! recommendation
-
-    ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
-
-    **PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin. There is a [list of instances](https://privatebin.info/directory/).
-
-    [:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
+!!! warning
+    CryptPad uses JavaScript to handle encryption, so you must trust the provider to the extent that they do not inject any malicious JavaScript to get your private key. Consider self-hosting to mitigate this threat.
 
 ## Blogging
 
