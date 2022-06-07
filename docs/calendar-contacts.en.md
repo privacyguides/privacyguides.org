@@ -2,7 +2,7 @@
 title: "Calendar and Contact Sync"
 icon: material/calendar
 ---
-Calendaring and contacts are some of the most sensitive data posess. Use only products that use E2EE at rest. This prevents a provider from reading your data.
+Calendaring and contacts are some of the most sensitive data possess. Use only products that use E2EE at rest. This prevents a provider from reading your data.
 
 ## Cloud/SaaS Providers
 
@@ -14,7 +14,7 @@ These products are included with an subscription with their respective [email pr
 
     ![Proton Calendar logo](assets/img/calendar-contacts/proton-calendar.svg){ align=right }
 
-    **Proton Calendar** is an encrypted calendar serivce available to Proton Mail members. Features include: automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to a single calendar, whereas paid subscribers can create up to 20 calendars. Extended sharing functionality is also limited to paid subscribers. Proton Calendar is currently only available for the web and Android.
+    **Proton Calendar** is an encrypted calendar service available to Proton Mail members. Features include: automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to a single calendar, whereas paid subscribers can create up to 20 calendars. Extended sharing functionality is also limited to paid subscribers. Proton Calendar is currently only available for the web and Android.
 
     [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }

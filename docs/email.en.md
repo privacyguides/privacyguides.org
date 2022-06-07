@@ -247,7 +247,7 @@ Notable free features:
 - [x] 20 Shared Aliases
 - [x] Unlimited Standard Aliases
 - [ ] No Outgoing Replies
-- [x] 2 Receipent Mailboxes
+- [x] 2 Recipient Mailboxes
 - [x] Automatic PGP Encryption
 
 ### SimpleLogin
@@ -278,7 +278,7 @@ Notable free features:
 
 - [x] 15 Shared Aliases
 - [x] Unlimited Replies
-- [x] 1 Recepient Mailbox
+- [x] 1 Recipient Mailbox
 
 *[Automatic PGP Encryption]: Allows you to encrypt non-encrypted incoming emails before they are forwarded to your mailbox, making sure your primary mailbox provider never sees unencrypted email content.
 

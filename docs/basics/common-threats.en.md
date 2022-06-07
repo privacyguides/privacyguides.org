@@ -179,7 +179,7 @@ One of the clearest threat models is one where people *know who you are* and one
 
         When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
 
-2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're a part of an online community you may wish to retain persona that others know. The reason this is not anonymous is because if monitored over a period of time details about the owner may reveal further information, such as the way they write (lingustics), general knowledge about topics of interest etc.
+2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're a part of an online community you may wish to retain persona that others know. The reason this is not anonymous is because if monitored over a period of time details about the owner may reveal further information, such as the way they write (linguistics), general knowledge about topics of interest etc.
 
     You may wish to use a VPN for this to mask your IP address. Financial transactions are more difficult and for this we'd suggest using anonymous cryptocurrencies such as Monero. Employing alt-coin shifting may also help disguise where your currency originated. Typically exchanges require KYC (know your customer) to be completed before they will allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution, however those often are more expensive and sometimes also require KYC.
 

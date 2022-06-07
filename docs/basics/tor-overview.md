@@ -36,7 +36,7 @@ Here is an alternative visualization of the process. Note how each node removes 
 <figure markdown>
   ![Tor encryption](../assets/img/how-tor-works/tor-encryption.svg#only-light)
   ![Tor encryption](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
-  <figcaption>Sending and recieving data through the Tor Network</figcaption>
+  <figcaption>Sending and receiving data through the Tor Network</figcaption>
 </figure>
 
 So, what do we learn from this? We learn that Tor allows us to connect to a website without any single party knowing the entire path. The entry node knows who you are, but not where you are going; the middle node doesn’t know who you are or where you are going; and the exit node knows where you are going, but not who you are. Because the exit node makes the connection, the destination website will never know who you are (your IP address).
