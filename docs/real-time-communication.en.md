@@ -2,7 +2,41 @@
 title: "Real-Time Communication"
 icon: material/chat-processing
 ---
-## Cross-Platform Messengers
+## Centralized
+
+### Signal
+
+!!! recommendation
+
+    ![Signal logo](assets/img/messengers/signal.svg){ align=right }
+
+    **Signal** is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling.
+
+    All communications are E2EE. Contact lists are encrypted using your login PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts who add you.
+
+    [:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://signal.org/download)
+        - [:fontawesome-brands-apple: macOS](https://signal.org/download)
+        - [:fontawesome-brands-linux: Linux](https://signal.org/download)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id874139669)
+
+Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender/) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server.
+
+Signal requires your phone number as a personal identifier.
+
+[Sealed Sender](https://signal.org/blog/sealed-sender/) is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam.
+
+The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs/).
+
+## Federated
 
 ### Element
 
@@ -37,71 +71,7 @@ When using [element-web](https://github.com/vector-im/element-web), you must tru
 
 The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) in 2016. The specification for the Matrix protocol can be found in their [documentation](https://spec.matrix.org/latest/). The [Olm](https://matrix.org/docs/projects/other/olm) cryptographic ratchet used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
 
-### Session
-
-!!! recommendation
-
-    ![Session logo](assets/img/messengers/session.svg){ align=right }
-
-    **Session** is a decentralized messenger with a focus on private, secure, and anonymous communications. Session offers support for direct messages, group chats, and voice calls.
-
-    Session utilizes the decentralized [Oxen Service Node Network](https://oxen.io/) to store and route messages. Every encrypted message is routed through three nodes in the Oxen Service Node Network, making it virtually impossible for the nodes to compile meaningful information on those using the network.
-
-    [:octicons-home-16: Homepage](https://getsession.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
-
-    ??? downloads
-
-        - [:fontawesome-brands-windows: Windows](https://getsession.org/download)
-        - [:fontawesome-brands-apple: macOS](https://getsession.org/download)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1470168868)
-        - [:fontawesome-brands-linux: Linux](https://getsession.org/download)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
-        - [:pg-f-droid: F-Droid](https://fdroid.getsession.org)
-
-Session allows for E2EE in one-on-one chats or closed groups which allow for up to 100 members. Open groups have no restriction on the number of members, but are open by design.
-
-Session does [not](https://getsession.org/blog/session-protocol-technical-information) support perfect forward secrecy, which is when an encryption system automatically and frequently changes the keys it uses to encrypt and decrypt information, such that if the latest key is compromised it exposes a smaller portion of sensitive information.
-
-Oxen requested an independent audit for Session in March of 2020. The audit [concluded](https://getsession.org/session-code-audit) in April of 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
-
-Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technicals of the app and protocol.
-
-### Signal
-
-!!! recommendation
-
-    ![Signal logo](assets/img/messengers/signal.svg){ align=right }
-
-    **Signal** is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling.
-
-    All communications are E2EE. Contact lists are encrypted using your login PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts who add you.
-
-    [:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:fontawesome-brands-windows: Windows](https://signal.org/download)
-        - [:fontawesome-brands-apple: macOS](https://signal.org/download)
-        - [:fontawesome-brands-linux: Linux](https://signal.org/download)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id874139669)
-
-Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender/) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server.
-
-Signal requires your phone number as a personal identifier.
-
-[Sealed Sender](https://signal.org/blog/sealed-sender/) is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam.
-
-The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs/).
-
-## Other Messengers
+## Anonymous Routing
 
 ### Briar (Android)
 
@@ -130,6 +100,36 @@ The client software was independently [audited](https://briarproject.org/news/20
 Briar has a fully [published specification](https://code.briarproject.org/briar/briar-spec).
 
 Briar supports perfect forward secrecy by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
+
+### Session
+
+!!! recommendation
+
+    ![Session logo](assets/img/messengers/session.svg){ align=right }
+
+    **Session** is a decentralized messenger with a focus on private, secure, and anonymous communications. Session offers support for direct messages, group chats, and voice calls.
+
+    Session utilizes the decentralized [Oxen Service Node Network](https://oxen.io/) to store and route messages. Every encrypted message is routed through three nodes in the Oxen Service Node Network, making it virtually impossible for the nodes to compile meaningful information on those using the network.
+
+    [:octicons-home-16: Homepage](https://getsession.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
+
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://getsession.org/download)
+        - [:fontawesome-brands-apple: macOS](https://getsession.org/download)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1470168868)
+        - [:fontawesome-brands-linux: Linux](https://getsession.org/download)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
+        - [:pg-f-droid: F-Droid](https://fdroid.getsession.org)
+
+Session allows for E2EE in one-on-one chats or closed groups which allow for up to 100 members. Open groups have no restriction on the number of members, but are open by design.
+
+Session does [not](https://getsession.org/blog/session-protocol-technical-information) support perfect forward secrecy, which is when an encryption system automatically and frequently changes the keys it uses to encrypt and decrypt information, such that if the latest key is compromised it exposes a smaller portion of sensitive information.
+
+Oxen requested an independent audit for Session in March of 2020. The audit [concluded](https://getsession.org/session-code-audit) in April of 2021, “The overall security level of this application is good and makes it usable for priva### Signal
 
 ## Types of Communication Networks
 
