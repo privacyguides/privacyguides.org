@@ -186,8 +186,8 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Brave Search logo](assets/img/search-engines/brave-search.svg){ .twemoji } [Brave Search](search-engines.md#brave-search)
 - ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ .twemoji } [DuckDuckGo](search-engines.md#duckduckgo)
+- ![Brave Search logo](assets/img/search-engines/brave-search.svg){ .twemoji } [Brave Search](search-engines.md#brave-search)
 - ![SearXNG logo](assets/img/search-engines/searxng.svg){ .twemoji } [SearXNG](search-engines.md#searxng)
 - ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ .twemoji }![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji } [Startpage](search-engines.md#startpage)
 

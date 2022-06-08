@@ -35,8 +35,6 @@ Brave Search is based in the :flag_us: United States. Their [privacy policy](htt
 
     **DuckDuckGo** is one of the more mainstream private search engine options. Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and many [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). The search engine relies on a commercial Bing API to serve most results, but it does use numerous [other sources](https://help.duckduckgo.com/results/sources/) for instant answers and other non-primary results.
 
-    While DuckDuckGo’s primary service is its search engine, the company has recently been branching out by offering various other services and products. This includes their web browsers, email relay service, etc.
-
     DuckDuckGo is the default search engine for the Tor Browser and is one of the few available options on Apple’s Safari browser.
 
     [:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
@@ -46,7 +44,7 @@ Brave Search is based in the :flag_us: United States. Their [privacy policy](htt
 
 DuckDuckGo is based in the :flag_us: United States. Their [privacy policy](https://duckduckgo.com/privacy) states they **do** log your searches for product improvement purposes, but not your IP address or any other personally identifying information.
 
-DuckDuckGo offers two other [versions](https://help.duckduckgo.com/features/non-javascript/) of their search engine, both of which do not require JavaScript. These versions do lack features, however. These versions can also be used in conjunction with their [Tor onion address](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/) by appending [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version.
+DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-javascript/) of their search engine, both of which do not require JavaScript. These versions do lack features, however. These versions can also be used in conjunction with their [Tor onion address](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/) by appending [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version.
 
 ## SearXNG
 
@@ -73,13 +71,15 @@ When you are using a SearXNG instance, be sure to go read their privacy policy. 
     ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
     ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
 
-    **Startpage** is a private search engine known for serving Google search results. Startpage's flagship feature is [Anonymous View](https://www.startpage.com/en/anonymous-view/), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the Tor Browser instead. The feature can be useful for hiding some network and browser properties—see the [technical document](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) for more details.
-
-    Startpage has been known to refuse access to those using a VPN service or Tor, so your mileage may vary.
+    **Startpage** is a private search engine known for serving Google search results.  One of Startpage's unique features is the [Anonymous View](https://www.startpage.com/en/anonymous-view/), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the [Tor Browser](browsers.md#tor-browser) instead.
 
     [:octicons-home-16: Homepage](https://www.startpage.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
+
+!!! warning
+
+    Startpage regularly limits service access to certain IP addresses, such as IPs reserved for VPNs or Tor. [DuckDuckGo](#duckduckgo) and [Brave Search](#brave-search) are friendlier options if your threat model requires hiding your IP address from the search provider.
 
 Startpage is based in the :flag_nl: Netherlands. According to their [privacy policy](https://www.startpage.com/en/privacy-policy/), they log details such as: operating system, type of browser, and language. They do not log your IP address, search queries, or other personally identifying information.
 
