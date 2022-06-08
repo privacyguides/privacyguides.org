@@ -73,9 +73,8 @@ From this, we learn that Tor allows us to connect to a server without any single
 
 Though Tor does provide strong privacy guarantees, one must be aware that Tor is not perfect:
 
-Well-funded adversaries with the capability to passively watch most network traffic over the globe have a chance of deanonymizing Tor users by means of advanced traffic analysis. Nor does Tor does not protect you from exposing yourself by mistake, such as if you share to much information about your real identity.
-
-Tor exit nodes can also monitor traffic that passes through them. This means traffic which is not encrypted, such as plain HTTP traffic, can be recorded and monitored. If such traffic contains personally identifiable information, then it can denonymize you to that exit node. Thus, we recommend using HTTPS over Tor where possible.
+- Well-funded adversaries with the capability to passively watch most network traffic over the globe have a chance of deanonymizing Tor users by means of advanced traffic analysis. Nor does Tor does not protect you from exposing yourself by mistake, such as if you share to much information about your real identity.
+- Tor exit nodes can also monitor traffic that passes through them. This means traffic which is not encrypted, such as plain HTTP traffic, can be recorded and monitored. If such traffic contains personally identifiable information, then it can denonymize you to that exit node. Thus, we recommend using HTTPS over Tor where possible.
 
 If you are using Tor for browsing the web, we only recommend the official Tor Browser:
 
