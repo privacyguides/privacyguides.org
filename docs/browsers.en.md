@@ -14,7 +14,7 @@ These are our currently recommended web browsers and configurations. In general,
 
     **Tor Browser** is the choice if you need anonymity, as it provides you with access to the Tor Bridges and [Tor Network](https://en.wikipedia.org/wiki/Tor_(network)), along with settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest* :material-menu: → **Settings** → **Privacy & Security** → **Security Level**.
 
-    The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings/), this includes installing extensions and modifying settings in `about:config`).
+    The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings/).
 
     For further information about the Tor Browser we suggest taking a look at the [manual](https://tb-manual.torproject.org/about/).
 
