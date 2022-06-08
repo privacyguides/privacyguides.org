@@ -15,7 +15,7 @@ Every time you connect to Tor, it will choose three nodes to build a path to the
 
 The entry node, often called the guard node, is the first node to which your Tor client connects. The entry node is able to see your IP address, however it is unable to see what you are connecting to.
 
-Unlike the other nodes, the Tor client will randomly select an entry node, and stick with it for 2 to 3 months to protect you from certain attacks.[^1]
+Unlike the other nodes, the Tor client will randomly select an entry node, and stick with it for two to three months to protect you from certain attacks.[^1]
 
 [^1]: The first relay in your circuit is called an "entry guard" or "guard". It is a fast and stable relay that remains the first one in your circuit for 2-3 months in order to protect against a known anonymity-breaking attack. The rest of your circuit changes with every new website you visit, and all together these relays provide the full privacy protections of Tor. For more information on how guard relays work, see this [blog post](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) and [paper](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) on entry guards. ([https://support.torproject.org/tbb/tbb-2/(https://support.torproject.org/tbb/tbb-2/)](https://support.torproject.org/tbb/tbb-2/))
 
