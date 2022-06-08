@@ -102,28 +102,4 @@ Get working and collaborating without sharing your documents with a middleman or
     [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
 
-## Blogging
-
-### Write.as
-
-!!! recommendation
-
-    ![Write.as logo](assets/img/productivity/writeas.svg#only-light){ align=right }
-    ![Write.as logo](assets/img/productivity/writeas-dark.svg#only-dark){ align=right }
-
-    **Write.as** is a cross-platform, privacy-oriented blogging platform. It's anonymous by default, letting you publish without signing up. If you create an account, it doesn't require any personal information. No ads, distraction-free, and built on a sustainable business model.
-
-    [:octicons-home-16: Homepage](https://write.as){ .md-button .md-button--primary }
-    [:pg-tor:](http://writeasw4b635r4o3vec6mu45s47ohfyro5vayzx2zjwod4pjswyovyd.onion){ .card-link title=Onion }
-    [:octicons-eye-16:](https://write.as/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-code-16:](https://code.as/writeas){ .card-link title="Source Code" }
-
-    ??? downloads
-
-        - [:fontawesome-brands-windows: Windows](https://github.com/writeas/writeas-cli)
-        - [:fontawesome-brands-apple: macOS](https://github.com/writeas/writeas-cli)
-        - [:fontawesome-brands-linux: Linux](https://github.com/writeas/writeas-cli)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.abunchtell.writeas)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1531530896)
-
 --8<-- "includes/abbreviations.en.md"
