@@ -51,7 +51,7 @@ Once Tor has built a circuit, data transmission is done as follows:
 
 3. Lastly: when the exit node receives its packet, it will remove the last layer of encryption with its key. The exit node will see the destination address and forward the packet to that address.
 
-Below is an alternative visualization of this process. Note how each node removes its own layer of encryption, and when the destination server returns data, the same process happens entirely in reverse. For example, the exit node does not know who you are, but it does know which node it came from, and so it adds its own layer of encryption and sends it back.
+Below is an alternative diagram showing the process. Each node removes its own layer of encryption, and when the destination server returns data, the same process happens entirely in reverse. For example, the exit node does not know who you are, but it does know which node it came from, and so it adds its own layer of encryption and sends it back.
 
 <figure markdown>
   ![Tor encryption](../assets/img/how-tor-works/tor-encryption.svg#only-light)
@@ -59,7 +59,7 @@ Below is an alternative visualization of this process. Note how each node remove
   <figcaption>Sending and receiving data through the Tor Network</figcaption>
 </figure>
 
-From this, we learn that Tor allows us to connect to a server without any single party knowing the entire path. The entry node knows who you are, but not where you are going; the middle node doesn’t know who you are or where you are going; and the exit node knows where you are going, but not who you are. Because the exit node is what makes the final connection, the destination server will never know your IP address.
+Tor allows us to connect to a server without any single party knowing the entire path. The entry node knows who you are, but not where you are going; the middle node doesn’t know who you are or where you are going; and the exit node knows where you are going, but not who you are. Because the exit node is what makes the final connection, the destination server will never know your IP address.
 
 ## Caveats
 
