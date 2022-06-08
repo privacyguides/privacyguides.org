@@ -11,7 +11,7 @@ Tor works by routing your traffic through a network comprised of thousands of vo
 
 Every time you connect to Tor, it will choose three nodes to build a path to the internet—this path is called a "circuit." Each of these nodes has its own function:
 
-- **The Entry Node**: Often called the guard node, this is the first node your computer connects to. The entry node sees your IP address, but does not see what you are connecting to. Unlike the other nodes, the Tor client will randomly select an entry node, and stick with it for 2 to 3 months to protect you from certain attacks.
+- **The Entry Node**: Often called the guard node, this is the first node your computer connects to. The entry node sees your IP address, but does not see what you are connecting to. Unlike the other nodes, the Tor client will randomly select an entry node, and stick with it for two to three months to protect you from certain attacks.
 - **The Middle Node**: The second node to which your Tor client connects. This node can see which node traffic came from (the entry node) and which it goes to next. It does not, however, see your IP address, or the domain you are connecting to. This node is randomly picked from all Tor nodes for each circuit.
 - **The Exit Node**: This is where your traffic leaves the Tor network and is forwarded to your desired destination. The exit node does not know your IP (who you are) but it knows what you are connecting to. The exit node will, like the middle node, be chosen at random from the Tor nodes (if it runs with an exit flag).
 
