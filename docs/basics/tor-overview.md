@@ -39,10 +39,6 @@ The exit node will be chosen at random from all available Tor nodes ran with an 
   <figcaption>Tor circuit pathway</figcaption>
 </figure>
 
-<div class="yt-embed">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QRYzre4bf7I" title="How Tor works?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
 ## Encryption
 
 Tor encrypts each packet (a block of transmitted data) three times with the keys from the exit, middle, and entry node—in that order.
@@ -65,10 +61,6 @@ Below is an alternative visualization of this process. Note how each node remove
 
 From this, we learn that Tor allows us to connect to a server without any single party knowing the entire path. The entry node knows who you are, but not where you are going; the middle node doesn’t know who you are or where you are going; and the exit node knows where you are going, but not who you are. Because the exit node is what makes the final connection, the destination server will never know your IP address.
 
-<div class="yt-embed">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lVcbq_a5N9I" title="Onion Services" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
 ## Caveats
 
 Though Tor does provide strong privacy guarantees, one must be aware that Tor is not perfect:
@@ -79,3 +71,9 @@ Though Tor does provide strong privacy guarantees, one must be aware that Tor is
 If you are using Tor for browsing the web, we only recommend the official Tor Browser:
 
 - [Tor Browser :hero-arrow-circle-right-fill:](../browsers.md#tor-browser)
+
+## Additional Resources
+
+- [Tor Browser User Manual](https://tb-manual.torproject.org)
+- [How TOR Works- Computerphile](https://www.youtube-nocookie.com/embed/QRYzre4bf7I) <small>(video)</small>
+- [TOR Hidden Services - Computerphile](https://www.youtube-nocookie.com/embed/lVcbq_a5N9I) <small>(video)</small>
