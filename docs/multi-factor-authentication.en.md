@@ -4,40 +4,6 @@ icon: 'material/two-factor-authentication'
 ---
 ## Hardware Security Keys
 
-### Nitrokey / Librem Key
-
-!!! recommendation
-
-    ![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
-
-    **Nitrokey** has a security key capable of [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) called the **Nitrokey FIDO2**. For PGP support, you need to purchase one of their other keys such as the **Nitrokey Start**, **Nitrokey Pro 2** or the **Nitrokey Storage 2**.
-
-    [:octicons-home-16: Homepage](https://www.nitrokey.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.nitrokey.com/){ .card-link title=Documentation}
-
-The [comparison table](https://www.nitrokey.com/#comparison) shows the features and how the Nitrokey models compare. The **Nitrokey 3** listed will have a combined feature set.
-
-Nitrokey models can be configured using the [Nitrokey app](https://www.nitrokey.com/download).
-
-For the models which support HOTP and TOTP, there are 3 slots for HOTP and 15 for TOTP. Some Nitrokeys can act as a password manager. They can store 16 different credentials and encrypt them using the same password as the OpenPGP interface.
-
-!!! warning
-
-    While Nitrokeys do not release the HOTP/TOTP secrets to the device they are plugged into, the HOTP and TOTP storage is **not** encrypted and is vulnerable to physical attacks.
-
-!!! warning
-
-    Resetting the OpenPGP interface on a Nitrokey will also make the password database [inaccessible](https://docs.nitrokey.com/pro/factory-reset.html).
-
- The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports system integrity verification for laptops with the [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware. Purism's [Librem Key](https://puri.sm/products/librem-key/) is a rebranded NitroKey Pro 2 with similar firmware and can also be used for the same purposes.
-
- The Nitrokey has an open source firmware, unlike the YubiKey. The firmware on modern NitroKey models (except the **NitroKey Pro 2**) is updatable.
-
-!!! tip
-
-    The Nitrokey app, while compatible with Librem Keys, requires `libnitrokey` version 3.6 or above to recognize them. Currently, the package is outdated on Windows, macOS, and most Linux distributions' repository, so you will likely have to compile the Nitrokey app yourself to get it working with the Librem Key. On Linux, you can obtain an up-to-date version from [Flathub](https://flathub.org/apps/details/com.nitrokey.nitrokey-app).
-
 ### YubiKey
 
 !!! recommendation
@@ -60,6 +26,40 @@ For models which support HOTP and TOTP, there are 2 slots in the OTP interface w
 
 !!! warning
     The firmware of YubiKeys are not open source and are not updatable. If you want features in newer firmware versions, or if there is a vulnerability in the firmware version you are using, you would need to purchase a new key.
+
+### Nitrokey / Librem Key
+
+!!! recommendation
+
+    ![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
+
+    **Nitrokey** has a security key capable of [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) called the **Nitrokey FIDO2**. For PGP support, you need to purchase one of their other keys such as the **Nitrokey Start**, **Nitrokey Pro 2** or the **Nitrokey Storage 2**.
+
+    [:octicons-home-16: Homepage](https://www.nitrokey.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://docs.nitrokey.com/){ .card-link title=Documentation}
+
+The [comparison table](https://www.nitrokey.com/#comparison) shows the features and how the Nitrokey models compare. The **Nitrokey 3** listed will have a combined feature set.
+
+Nitrokey models can be configured using the [Nitrokey app](https://www.nitrokey.com/download).
+
+For the models which support HOTP and TOTP, there are 3 slots for HOTP and 15 for TOTP. Some Nitrokeys can act as a password manager. They can store 16 different credentials and encrypt them using the same password as the OpenPGP interface.
+
+!!! warning
+
+    While Nitrokeys do not release the HOTP/TOTP secrets to the device they are plugged into, the HOTP and TOTP storage is **not** encrypted and is vulnerable to physical attacks. If you are looking to store HOTP or TOTP these secrets, we highly recommend that you use a Yubikey instead.
+
+!!! warning
+
+    Resetting the OpenPGP interface on a Nitrokey will also make the password database [inaccessible](https://docs.nitrokey.com/pro/factory-reset.html).
+
+ The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports system integrity verification for laptops with the [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware. Purism's [Librem Key](https://puri.sm/products/librem-key/) is a rebranded NitroKey Pro 2 with similar firmware and can also be used for the same purposes.
+
+ The Nitrokey has an open source firmware, unlike the YubiKey. The firmware on modern NitroKey models (except the **NitroKey Pro 2**) is updatable.
+
+!!! tip
+
+    The Nitrokey app, while compatible with Librem Keys, requires `libnitrokey` version 3.6 or above to recognize them. Currently, the package is outdated on Windows, macOS, and most Linux distributions' repository, so you will likely have to compile the Nitrokey app yourself to get it working with the Librem Key. On Linux, you can obtain an up-to-date version from [Flathub](https://flathub.org/apps/details/com.nitrokey.nitrokey-app).
 
 ## Authenticator Apps
 
