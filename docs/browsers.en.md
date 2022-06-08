@@ -14,7 +14,9 @@ These are our currently recommended web browsers and configurations. In general,
 
     **Tor Browser** is the choice if you need anonymity, as it provides you with access to the Tor Bridges and [Tor Network](https://en.wikipedia.org/wiki/Tor_(network)), along with settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
-    The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default security levels.
+    The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings/).
+
+    For further information about the Tor Browser we suggest taking a look at the [manual](https://tb-manual.torproject.org/about/).
 
     [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
     [:pg-tor:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title=Onion }
@@ -32,7 +34,8 @@ These are our currently recommended web browsers and configurations. In general,
         - [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid/)
 
 !!! danger
-    You should **never** install any additional extensions on Tor Browser, including the ones we suggest for Firefox. Browser extensions make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
+
+    You should **never** install any additional extensions on Tor Browser, including the ones we suggest for Firefox. Nor should you manually enable HTTPS-only mode or edit `about:config` settings. Browser extensions and non-standard settings make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
 ## Desktop Recommendations
 
