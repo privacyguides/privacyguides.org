@@ -223,11 +223,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![DecSync CC logo](assets/img/calendar-contacts/decsync.svg){ .twemoji } [DecSync CC](calendar-contacts.md#decsync-cc)
+- ![Tutanota logo](assets/img/calendar-contacts/tutanota.svg){ .twemoji } [Tutanota](calendar-contacts.md#tutanota)
 - ![EteSync logo](assets/img/calendar-contacts/etesync.svg){ .twemoji } [EteSync](calendar-contacts.md#etesync)
-- ![Nextcloud logo](assets/img/calendar-contacts/nextcloud.svg){ .twemoji } [Nextcloud](calendar-contacts.md#nextcloud)
-- ![Proton Calendar logo](assets/img/calendar-contacts/proton-calendar.svg){ .twemoji } [Proton Calendar (SaaS)](calendar-contacts.md#proton-calendar)
-- ![Tutanota logo](assets/img/calendar-contacts/tutanota.svg){ .twemoji } [Tutanota (SaaS)](calendar-contacts.md#tutanota)
+- ![Proton Calendar logo](assets/img/calendar-contacts/proton-calendar.svg){ .twemoji } [Proton](calendar-contacts.md#proton-calendar)
 
 </div>
 
