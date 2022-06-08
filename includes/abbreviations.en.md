@@ -56,6 +56,7 @@
 *[PII]: Personally Identifiable Information
 *[QNAME]: Qualified Name
 *[RSS]: Really Simple Syndication
+*[SaaS]: Software as a service
 *[SELinux]: Security-Enhanced Linux
 *[SIM]: Subscriber Identity Module
 *[SMS]: Short Message Service (standard text messaging)
