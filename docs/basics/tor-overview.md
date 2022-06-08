@@ -21,6 +21,10 @@ Every time you connect to Tor, it will choose three nodes to build a path to the
   <figcaption>Tor circuit pathway</figcaption>
 </figure>
 
+<div class="yt-embed">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QRYzre4bf7I" title="How Tor works?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## Encryption
 
 Tor encrypts each packet three times, with the keys from the exit, middle, and entry node in that order. Once Tor has built a circuit, browsing is done as follows:
@@ -41,18 +45,14 @@ Here is an alternative visualization of the process. Note how each node removes 
 
 So, what do we learn from this? We learn that Tor allows us to connect to a website without any single party knowing the entire path. The entry node knows who you are, but not where you are going; the middle node doesn’t know who you are or where you are going; and the exit node knows where you are going, but not who you are. Because the exit node makes the connection, the destination website will never know who you are (your IP address).
 
-## Drawbacks
+<div class="yt-embed">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lVcbq_a5N9I" title="Onion Services" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
-Even with the strong privacy guarantees that Tor provides, one must be aware that Tor is not infallible. Global adversaries with the capability to passively watch most network traffic over the globe have a chance of deanonymizing Tor via advanced traffic analysis. Furthermore, Tor does not protect you from exposing yourself. If you share to much data about your real identity, you may be deanonymized.
+## Caveats
 
-Another downside is that exit nodes can watch your traffic, even if they do not know where it came from. This is especially problematic for websites which do not utilize HTTPS, meaning that the exit node can read all data that’s being sent through it. This in turn can lead to deanonymization if the traffic contains personal data.
+The strong privacy guarantees that Tor provides, one must be aware that Tor is not perfect. Well funded adversaries with the capability to passively watch most network traffic over the globe have a chance of deanonymizing Tor users via advanced traffic analysis. Tor does not protect you from exposing yourself through mistake such as if you share to much data about your identity.
 
-We recommend using HTTPS over Tor where possible, but do not alter any settings inside Tor Browser aside from the [security settings](https://tb-manual.torproject.org/security-settings/) in the upper right corner of the Tor Browser, including not manually enabling HTTPS only mode, as this can be used for browser fingerprinting.
+Tor exit nodes can monitor traffic that passes through them. This means traffic which is not encrypted (such as with HTTPS) can be recorded. If the traffic contains PII then it can denonymize you to that exit node. We recommend using HTTPS over Tor where possible.
 
-If you are interested in trying out Tor we recommend using the official Tor Browser. Keep in mind that you should expect added network latency and reduced bandwidth because of the multi-hop routing nature of Tor.
-
-## Further Reading
-
-- [Tor Browser manual](https://tb-manual.torproject.org/about/)
-- Tor network [video explanation](https://www.youtube-nocookie.com/embed/QRYzre4bf7I) by Computerphile
-- Hidden service [video explanation](https://www.youtube-nocookie.com/embed/lVcbq_a5N9I) by Computerphile
+If you are using Tor for browsing the web we only recommend the official [Tor Browser](../browsers.md#tor-browser).
