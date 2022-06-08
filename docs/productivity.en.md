@@ -2,9 +2,13 @@
 title: "Productivity Tools"
 icon: material/file-sign
 ---
-Get working and collaborating without sharing your documents with a middleman or trusting a cloud provider.
+Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do. The privacy policy may legally protect your rights, it does not provide technical access constraints.
 
 ## Office Suites
+
+We recommend a locally run Office suite. If you're using Microsoft Windows, we suggest Microsoft Office as it has support from [MDAG](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview) which prevents untrusted Word, PowerPoint and Excel files from accessing trusted resources. Application Guard opens untrusted files in an isolated [Hyper-V](https://en.wikipedia.org/wiki/Hyper-V)-enabled container. On macOS [iWork](https://www.apple.com/iwork) has [App Sandbox](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html).
+
+For other platforms, consider below:
 
 ### LibreOffice
 
@@ -53,21 +57,6 @@ Get working and collaborating without sharing your documents with a middleman or
         - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/www/onlyoffice-documentserver/)
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id944896972)
-
-## Planning
-
-### Framadate
-
-!!! recommendation
-
-    ![Framadate logo](assets/img/productivity/framadate.svg){ align=right }
-
-    **Framadate** is a free and open-source online service for planning an appointment or making a decision quickly and easily. No registration is required.
-
-    [:octicons-home-16: Homepage](https://framadate.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://framagit.org/framasoft/framadate/framadate/-/wikis/home){ .card-link title=Documentation}
-    [:octicons-code-16:](https://framagit.org/framasoft/framadate){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://framadate.org/abc/en/#f-sfs-form){ .card-link title=Contribute }
 
 ## Paste services
 
