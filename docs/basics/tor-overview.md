@@ -21,7 +21,7 @@ Unlike the other nodes, the Tor client will randomly select an entry node, and s
 
 ### The Middle Node
 
-The middle node is the second node to which your Tor client connects. It can see which node the traffic came from—the entry node—and to which node it goes to next. The middle node cannot, however, see your IP address or the domain you are connecting to.
+The middle node is the second node to which your Tor client connects. It can see which node the traffic came from—the entry node—and to which node it goes to next. The middle node cannot, see your IP address or the domain you are connecting to.
 
 For each new circuit, the middle node is randomly selected out of all available Tor nodes.
 
