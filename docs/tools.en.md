@@ -359,7 +359,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ .twemoji } [LibreOffice](productivity.md#libreoffice)
 - ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ .twemoji } [OnlyOffice](productivity.md#onlyoffice)
-- ![Framadate logo](assets/img/productivity/framadate.svg){ .twemoji } [Framadate (Appointment Planning)](productivity.md#framadate)
 - ![CryptPad logo](assets/img/productivity/cryptpad.svg){ .twemoji } [CryptPad](productivity.md#cryptpad)
 - ![PrivateBin logo](assets/img/productivity/privatebin.svg){ .twemoji } [PrivateBin (Pastebin)](productivity.md#privatebin)
 
