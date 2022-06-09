@@ -4,6 +4,38 @@ icon: material/chat-processing
 ---
 ## Cross-Platform Messengers
 
+### Signal
+
+!!! recommendation
+
+    ![Signal logo](assets/img/messengers/signal.svg){ align=right }
+
+    **Signal** is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling.
+
+    All communications are E2EE. Contact lists are encrypted using your login PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts who add you.
+
+    [:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://signal.org/download)
+        - [:fontawesome-brands-apple: macOS](https://signal.org/download)
+        - [:fontawesome-brands-linux: Linux](https://signal.org/download)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id874139669)
+
+Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender/) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server.
+
+Signal requires your phone number as a personal identifier.
+
+[Sealed Sender](https://signal.org/blog/sealed-sender/) is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam.
+
+The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs/).
+
 ### Element
 
 !!! recommendation
@@ -68,38 +100,6 @@ Session does [not](https://getsession.org/blog/session-protocol-technical-inform
 Oxen requested an independent audit for Session in March of 2020. The audit [concluded](https://getsession.org/session-code-audit) in April of 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
 
 Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technicals of the app and protocol.
-
-### Signal
-
-!!! recommendation
-
-    ![Signal logo](assets/img/messengers/signal.svg){ align=right }
-
-    **Signal** is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling.
-
-    All communications are E2EE. Contact lists are encrypted using your login PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts who add you.
-
-    [:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:fontawesome-brands-windows: Windows](https://signal.org/download)
-        - [:fontawesome-brands-apple: macOS](https://signal.org/download)
-        - [:fontawesome-brands-linux: Linux](https://signal.org/download)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id874139669)
-
-Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender/) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server.
-
-Signal requires your phone number as a personal identifier.
-
-[Sealed Sender](https://signal.org/blog/sealed-sender/) is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam.
-
-The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs/).
 
 ## Other Messengers
 
