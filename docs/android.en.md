@@ -61,7 +61,7 @@ DivestOS implements some system hardening patches originally developed for Graph
 
 !!! warning
 
-    DivestOS firmware update [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) and quality control varies across the devices it supports. We still recommend GrapheneOS or CalyxOS depending on your device's compatibility. For other devices, DivestOS is a good alternative.
+    DivestOS firmware update [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) and quality control varies across the devices it supports. We still recommend GrapheneOS depending on your device's compatibility. For other devices, DivestOS is a good alternative.
 
     Not all of the supported devices have verified boot, and some perform it better than others.
     
