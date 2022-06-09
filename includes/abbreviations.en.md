@@ -40,6 +40,7 @@
 *[JNI]: Java Native Interface
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Media Access Control
+*[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier
 *[MFA]: Multi-Factor Authentication
 *[NVMe]: Nonvolatile Memory Express
@@ -56,7 +57,6 @@
 *[PII]: Personally Identifiable Information
 *[QNAME]: Qualified Name
 *[RSS]: Really Simple Syndication
-*[SaaS]: Software as a service
 *[SELinux]: Security-Enhanced Linux
 *[SIM]: Subscriber Identity Module
 *[SMS]: Short Message Service (standard text messaging)

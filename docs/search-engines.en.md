@@ -8,25 +8,6 @@ The recommendations here are based on the merits of each service's privacy polic
 
 Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org/) if your threat model requires hiding your IP address from the search provider.
 
-## DuckDuckGo
-
-!!! recommendation
-
-    ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
-
-    **DuckDuckGo** is one of the more mainstream private search engine options. Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and many [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). The search engine relies on a commercial Bing API to serve most results, but it does use numerous [other sources](https://help.duckduckgo.com/results/sources/) for instant answers and other non-primary results.
-
-    DuckDuckGo is the default search engine for the Tor Browser and is one of the few available options on Apple’s Safari browser.
-
-    [:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
-    [:pg-tor:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title=Onion }
-    [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=Documentation}
-
-DuckDuckGo is based in the :flag_us: United States. Their [privacy policy](https://duckduckgo.com/privacy) states they **do** log your searches for product improvement purposes, but not your IP address or any other personally identifying information.
-
-DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-javascript/) of their search engine, both of which do not require JavaScript. These versions do lack features, however. These versions can also be used in conjunction with their [Tor onion address](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/) by appending [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version.
-
 ## Brave Search
 
 !!! recommendation
@@ -45,6 +26,25 @@ DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-
     [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
 
 Brave Search is based in the :flag_us: United States. Their [privacy policy](https://search.brave.com/help/privacy-policy) states they collect aggregated usage metrics, which includes the operating system and browser in use, however no personally identifiable information is collected. IP addresses are temporarily processed, but are not retained.
+
+## DuckDuckGo
+
+!!! recommendation
+
+    ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
+
+    **DuckDuckGo** is one of the more mainstream private search engine options. Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and many [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). The search engine relies on a commercial Bing API to serve most results, but it does use numerous [other sources](https://help.duckduckgo.com/results/sources/) for instant answers and other non-primary results.
+
+    DuckDuckGo is the default search engine for the Tor Browser and is one of the few available options on Apple’s Safari browser.
+
+    [:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
+    [:pg-tor:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title=Onion }
+    [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=Documentation}
+
+DuckDuckGo is based in the :flag_us: United States. Their [privacy policy](https://duckduckgo.com/privacy) states they **do** log your searches for product improvement purposes, but not your IP address or any other personally identifying information.
+
+DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-javascript/) of their search engine, both of which do not require JavaScript. These versions do lack features, however. These versions can also be used in conjunction with their [Tor onion address](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/) by appending [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version.
 
 ## SearXNG
 
