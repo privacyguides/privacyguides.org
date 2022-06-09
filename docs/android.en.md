@@ -81,7 +81,7 @@ DivestOS implements some system hardening patches originally developed for Graph
 
 CalyxOS optionally includes [microG](https://microg.org/), a partially open source reimplementation of Play Services which provides broader app compatibility. It also bundles in alternate location services: [Mozilla](https://location.services.mozilla.com/) and [DejaVu](https://github.com/n76/DejaVu).
 
-CalyxOS [supports](https://calyxos.org/docs/guide/device-support/) Google Pixel phones, the OnePlus 8T/9 and the Fairphone 4 if you can't use DivestOS. 
+CalyxOS [supports](https://calyxos.org/docs/guide/device-support/) Google Pixel phones, the OnePlus 8T/9/9 Pro and the Fairphone 4. 
 
 ## Android Devices
 
