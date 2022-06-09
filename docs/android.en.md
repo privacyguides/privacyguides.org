@@ -71,7 +71,9 @@ DivestOS implements some system hardening patches originally developed for Graph
 
     ![CalyxOS logo](assets/img/android/calyxos.svg){ align=right }
 
-    **CalyxOS** is a system with some privacy features on top of AOSP, including [Datura](https://calyxos.org/docs/tech/datura-details) firewall, [Signal](https://signal.org) integration in the dialer app, and a built in panic button. CalyxOS also comes with firmware updates and signed builds, so verified boot is fully supported. We only recommend CalyxOS as a harm reduction measure for the OnePlus 8T, OnePlus 9, and especially the Fairphone 4.
+    **CalyxOS** is a system with some privacy features on top of AOSP, including [Datura](https://calyxos.org/docs/tech/datura-details) firewall, [Signal](https://signal.org) integration in the dialer app, and a built in panic button. CalyxOS also comes with firmware updates and signed builds, so verified boot is fully supported. 
+    
+    We only recommend CalyxOS as a harm reduction measure for the OnePlus 8T, OnePlus 9, and especially the Fairphone 4.
 
     [:octicons-home-16: Homepage](https://calyxos.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://calyxinstitute.org/legal/privacy-policy){ .card-link title="Privacy Policy" }
