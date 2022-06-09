@@ -37,24 +37,6 @@ GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usage#sandbox
 
 Google Pixel phones are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#device-support).
 
-### CalyxOS
-
-!!! recommendation
-
-    ![CalyxOS logo](assets/img/android/calyxos.svg){ align=right }
-
-    **CalyxOS** is a system with some privacy features on top of AOSP, including [Datura](https://calyxos.org/docs/tech/datura-details) firewall, [Signal](https://signal.org) integration in the dialer app, and a built in panic button. CalyxOS also comes with firmware updates and signed builds, so verified boot is fully supported.
-
-    [:octicons-home-16: Homepage](https://calyxos.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://calyxinstitute.org/legal/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://calyxos.org/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/CalyxOS){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://members.calyxinstitute.org/donate){ .card-link title=Contribute }
-
-CalyxOS optionally includes [microG](https://microg.org/), a partially open source reimplementation of Play Services which provides broader app compatibility. It also bundles in alternate location services: [Mozilla](https://location.services.mozilla.com/) and [DejaVu](https://github.com/n76/DejaVu).
-
-CalyxOS [supports](https://calyxos.org/docs/guide/device-support/) Google Pixel phones, the OnePlus 8T/9 and the Fairphone 4. We only recommend CalyxOS as a harm reduction measure for the OnePlus 8T, OnePlus 9, and especially the Fairphone 4.
-
 ### DivestOS
 
 !!! recommendation
@@ -79,9 +61,29 @@ DivestOS implements some system hardening patches originally developed for Graph
 
 !!! warning
 
-    DivestOS firmware update [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) and quality control varies across the devices it supports. We still recommend GrapheneOS or CalyxOS depending on your device's compatibility. For other devices, DivestOS is a good alternative.
+    DivestOS firmware update [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) and quality control varies across the devices it supports. We still recommend GrapheneOS depending on your device's compatibility. For other devices, DivestOS is a good alternative.
 
     Not all of the supported devices have verified boot, and some perform it better than others.
+    
+### CalyxOS
+
+!!! recommendation
+
+    ![CalyxOS logo](assets/img/android/calyxos.svg){ align=right }
+
+    **CalyxOS** is a system with some privacy features on top of AOSP, including [Datura](https://calyxos.org/docs/tech/datura-details) firewall, [Signal](https://signal.org) integration in the dialer app, and a built in panic button. CalyxOS also comes with firmware updates and signed builds, so verified boot is fully supported. 
+    
+    We only recommend CalyxOS as a harm reduction measure for the OnePlus 8T, OnePlus 9, and especially the Fairphone 4 if you need microG.
+
+    [:octicons-home-16: Homepage](https://calyxos.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://calyxinstitute.org/legal/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://calyxos.org/docs/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/CalyxOS){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://members.calyxinstitute.org/donate){ .card-link title=Contribute }
+
+CalyxOS optionally includes [microG](https://microg.org/), a partially open source reimplementation of Play Services which provides broader app compatibility. It also bundles in alternate location services: [Mozilla](https://location.services.mozilla.com/) and [DejaVu](https://github.com/n76/DejaVu).
+
+CalyxOS [supports](https://calyxos.org/docs/guide/device-support/) Google Pixel phones, the OnePlus 8T/9/9 Pro and the Fairphone 4. 
 
 ## Android Devices
 
