@@ -132,7 +132,7 @@ The following OEMs are only mentioned as they have phones compatible with the op
 
 If you are unable to obtain a Google Pixel, recent OnePlus devices are the next best option if you want to run a custom OS without privileged Play Services. OnePlus 8 and later devices will receive 4 years of security updates from their initial launch date. CalyxOS has [experimental support](https://calyxos.org/news/2022/04/01/fairphone4-oneplus8t-oneplus9-test-builds/) for the **OnePlus 8T** and **9**.
 
-DivestOS has support for most OnePlus devices up to the **OnePlus 7T Pro**, with varying levels of support.
+DivestOS has support for most OnePlus devices up to the **OnePlus 9 Pro**, with varying levels of support.
 
 #### Fairphone
 
