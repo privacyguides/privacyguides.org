@@ -34,7 +34,7 @@ These are our currently recommended web browsers and configurations. In general,
         - [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid/)
 
 !!! danger
-    You should **never** install any additional extensions on Tor Browser, including the ones we suggest for Firefox. Nor should you manually enable the HTTPS-only mode. Non-standard settings and browser extensions make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
+    You should **never** install any additional extensions on Tor Browser, including the ones we suggest for Firefox. Nor should you manually enable HTTPS-only mode or edit `about:config` settings. Browser extensions and non-standard settings make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
 ## Desktop Recommendations
 
