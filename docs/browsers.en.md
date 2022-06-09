@@ -349,7 +349,7 @@ We suggest leaving the extension in its default configuration. Additional filter
 
     **AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
 
-    AdGuard for iOS has some premium features, however the standard Safari content blocking is free of charge.
+    AdGuard for iOS has some premium features, however standard Safari content blocking is free of charge.
 
     [:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
@@ -361,8 +361,6 @@ We suggest leaving the extension in its default configuration. Additional filter
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 
 Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.
-
-There is also [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html) which is able to perform system-wide content blocking by means of DNS filtering.
 
 ### Snowflake
 
