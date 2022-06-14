@@ -2,7 +2,7 @@
 title: "Calendar and Contact Sync"
 icon: material/calendar
 ---
-Calendaring and contacts are some of the most sensitive data possess. Use products that implement E2EE at rest to prevent a provider from reading your data.
+Calendars and contacts contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
 
 ## Tutanota
 
