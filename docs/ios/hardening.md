@@ -10,7 +10,27 @@ You should consider changing these settings to improve your privacy.
 
 ### iCloud
 
-Apple uses **iCloud** to sync your settings, photos, documents, apps, etc to your other devices. Some of these are E2EE, 
+Apple uses **iCloud** to sync your settings, photos, documents, apps, etc to your other devices. Some of these are E2EE, while others are merely encrypted in transit. You can check [Apple's documentation](https://support.apple.com/en-us/HT202303) for information on which services are E2EE. If something is not E2EE, it may be possible for Apple to access it without your permission. You should disable anything you do not want backed up to **iCloud**.
+
+!!! warning
+
+    Enabling iCloud Backup stores a key for your iMessage messages in iCloud. If you do not wish to store a copy of your iMessage keys, disable iCloud Backup.
+
+On the top of the page, there will be an option with your name on it. Select it, then
+
+Select **Photos**
+
+- [ ] Turn off **iCloud Photos**
+
+Select **iCloud Backup**
+
+- [ ] Turn off **iCloud Backup**
+
+Select **Keychain**
+
+- [ ] Turn off **iCloud Keychain**
+
+
 
 ### Airplane Mode
 
@@ -26,7 +46,7 @@ On the network you are currently connected to, press the :material-information: 
 
 - [x] Turn on **Private Wi-Fi Address**
 
-Limit IP Address Tracking :material-toggle-switch:
+- [x] Turn on **Limit IP Address Tracking**
 
 ### Bluetooth
 
@@ -92,7 +112,7 @@ Follow the onscreen prompts to set up Touch ID.
 
 You can set your phone to wipe itself after 10 failed passcode attempts, keeping you safe from brute-force attacks; however, your phone will already resist these by making you wait long periods of time after multiple failed attempts.
 
-- [ ] Turn on **Erase Data**
+- [x] Turn on **Erase Data**
 
 
 ### Privacy
@@ -131,7 +151,7 @@ Select **Apple Advertising**
 
 Select **App Privacy Report**
 
-- [ ] Select **Turn On App Privacy Report**
+- [x] Select **Turn On App Privacy Report**
 
 ## Avoid Jailbreaking
 
