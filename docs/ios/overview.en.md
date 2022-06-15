@@ -30,6 +30,50 @@ Select **Keychain**
 
 - [ ] Turn off **iCloud Keychain**
 
+**Private Relay** is a proxy service that relays your Safari traffic through two servers: one owned by Apple and one owned by Cloudflare. You must purchase [**iCloud+**](https://support.apple.com/en-us/HT201318) to utilize this feature.
+
+Select **Private Relay (Beta)**
+
+- [x] Turn on **Private Relay (Beta)**
+
+You can choose to either to either **Maintain your general location** to get more localized results or just use you **country and time zone** to get a broader IP address location.
+
+Select **IP Address Location**
+
+- [x] Select **Use country and time zone**
+
+**Hide My Email** is Apple's email aliasing service for iCloud mail. You must purchase [**iCloud+**](https://support.apple.com/en-us/HT201318) to utilize this feature.
+
+- [ ] Turn off **iCloud Drive**
+
+- [ ] Turn off **Contacts**
+
+- [ ] Turn off **Calendars**
+
+- [ ] Turn off **Reminders**
+
+- [ ] Turn off **Notes**
+
+- [ ] Turn off **Messages**
+
+- [ ] Turn off **Safari**
+
+- [ ] Turn off **Stocks**
+
+- [ ] Turn off **Home**
+
+- [ ] Turn off **Health**
+
+- [ ] Turn off **Fitness+**
+
+- [ ] Turn off **Wallet**
+
+- [ ] Turn off **Game Center**
+
+- [ ] Turn of **Siri**
+
+The apps you see here might vary depending on which apps you have installed that support iCloud.
+
 ### Media & Purchases
 
 You can disable **Personalized Recommendations** on Apple services.
@@ -39,6 +83,20 @@ On the top of the page, there will be an option with your name on it. Select it,
 Select **Media & Purchases**
 
 - [ ] Turn off **Personalized Recommendations**
+
+### Find My
+
+**Find My** is a service that lets you track your Apple devices and share your location with your friends and family. You can disable it if you do not wish to use this feature.
+
+On the top of the page, there will be an option with your name on it. Select it, then
+
+Select **Find My** > **Find My iPhone**
+
+- [ ] Turn off **Find My iPhone**
+
+- [ ] Turn off **Find My network**
+
+- [ ] Turn off **Send Last Location**
 
 ### Airplane Mode
 
