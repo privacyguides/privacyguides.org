@@ -8,6 +8,16 @@ iOS is the operating system that runs on iPhones. iOS is a good choice if you wa
 
 You should consider changing these settings to improve your privacy.
 
+### iCloud
+
+Apple uses **iCloud** to sync your settings, photos, documents, apps, etc to your other devices. Some of these are E2EE, 
+
+### Airplane Mode
+
+Enabling **Airplane Mode** will allow you to stop your phone from contacting cell towers. Obviously, you won't be able to use cellular data while it is enabled. You will still be able to connect to wifi and bluetooth, so whenever you are connected to wifi you can turn this setting on.
+
+- [x] Turn on **Airplane Mode**
+
 ### Wi-Fi
 
 You can enable hardware address randomization to protect you from tracking across Wi-Fi networks.
@@ -26,6 +36,13 @@ Limit IP Address Tracking :material-toggle-switch:
 
 ### General
 
+It is important to install **Software Updates** frequently to get the latest security fixes. You can enable **Automatic Updates** to keep you phone up-to-date without needing to constantly check for updates.
+
+Select **Software Update** > **Automatic Updates**
+
+- [x] Turn on **Download iOS Updates**
+- [x] Turn on **Install iOS Updates**
+
 **AirDrop** allows you to easily transfer files, but it can allow strangers to send you files you do not want.
 
 - [x] Select **AirDrop** > **Receiving Off**
@@ -36,7 +53,7 @@ Select **AirPlay & Handoff** > **Automatically AirPlay to TVs**
 
 - [x] Select **Never**
 
-**Background App Refresh** allows your apps to refresh their content while you're not using them. This may cause them to make unwanted connections.
+**Background App Refresh** allows your apps to refresh their content while you're not using them. This may cause them to make unwanted connections. Turning this off can also save battery life.
 
 Select **Background App Refresh** > **Background App Refresh**
 
@@ -120,4 +137,4 @@ Select **App Privacy Report**
 
 Jailbreaking an iPhone defeats its security and makes you vulnerable.
 
-
+--8<-- "includes/abbreviations.en.md"
