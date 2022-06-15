@@ -30,7 +30,15 @@ Select **Keychain**
 
 - [ ] Turn off **iCloud Keychain**
 
+### Media & Purchases
 
+You can disable **Personalized Recommendations** on Apple services.
+
+On the top of the page, there will be an option with your name on it. Select it, then
+
+Select **Media & Purchases**
+
+- [ ] Turn off **Personalized Recommendations**
 
 ### Airplane Mode
 
