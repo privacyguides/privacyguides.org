@@ -64,6 +64,12 @@ On the network you are currently connected to, press the :material-information: 
 
 ### General
 
+Your iPhone's device name will by default contain your Apple ID. You should change this to something more generic, like "iPhone."
+
+Select **About** > **Name**
+
+Enter the device name you prefer.
+
 It is important to install **Software Updates** frequently to get the latest security fixes. You can enable **Automatic Updates** to keep you phone up-to-date without needing to constantly check for updates.
 
 Select **Software Update** > **Automatic Updates**
