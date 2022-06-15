@@ -173,7 +173,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 ##### Privacy and Security
 
-- [ ] Select **Disable Non-Proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [x] Select **Disable Non-Proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
 - [ ] Uncheck **Use Google services for push messaging**
 - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
 - [ ] Uncheck **Automatically send daily usage ping to Brave**
@@ -202,7 +202,7 @@ Disable built-in extensions you do not use in **Extensions**
 
 InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
 
-- [ ] Select **Disabled** on Method to resolve IPFS resources
+- [x] Select **Disabled** on Method to resolve IPFS resources
 
 ##### Additional settings
 
@@ -242,7 +242,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
     1. If you use [Neo Store](/android/#neo-store), you can enable the *Bromite repository* in:<br> :material-dots-vertical: → **Repositories**
 
-These options can be found in :material-menu: → :gear: **Settings** → **Privacy and Security**.
+These options can be found in :material-menu: → :gear: **Settings** → **Privacy and security**.
 
 #### Recommended Configuration
 
@@ -254,7 +254,7 @@ This prevents you from unintentionally connecting to a website in plain-text HTT
 
 ##### Always-on Incognito Mode
 
-- [x] Select **Open links in incognito tabs always**
+- [x] Select **Always open links in incognito** in the **Incognito mode** menu
 - [x] Select **Close all open tabs on exit**
 - [x] Select **Open external links in incognito**
 
