@@ -225,6 +225,41 @@ Select **App Privacy Report**
 
 - [x] Select **Turn On App Privacy Report**
 
+### Safari
+
+**Prevent Cross-Site Tracking** enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but it does not block all tracking avenues because it is designed to not interfere with website usability.
+
+- [x] Turn on **Prevent Cross-Site Tracking**
+
+Privacy Report provides a snapshot of cross-site trackers currently prevented from profiling you on the website you're visiting. It can also display a weekly report to show which trackers have been blocked over time.
+
+Privacy Report is accessible via the Page Settings menu (:pg-textformat-size:).
+
+Ad click measurement has traditionally used tracking technology that infringes on user privacy. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
+
+- [ ] Turn off **Privacy Preserving Ad Measurement**
+
+The feature has little privacy concerns on its own, so while you can choose to leave it on, we consider the fact that it's automatically disabled in Private Browsing to be an indicator for disabling the feature.
+
+If you do not use Apple Pay, you can toggle off the ability for websites to check for it.
+
+- [ ] Turn off **Allow websites to check for Apple Pay and Apple Card**
+
+Safari can be set to always open in a private tab. Open Safari and tap the Tabs button, located in the bottom right. Then, expand the Tab Groups list.
+
+- [x] Select **Private**
+
+Safari's Private Browsing mode offers additional privacy protections. Private Browsing uses a new [ephemeral](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) session for each tab, meaning tabs are isolated from one another. There are also other smaller privacy benefits with Private Browsing, such as not sending a webpage’s address to Apple when using Safari's translation feature.
+
+Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed into sites. This may be an inconvenience.
+
+##### iCloud Sync
+
+Synchronization of Safari History, Tab Groups, iCloud Tabs, and saved passwords are E2EE. However, bookmarks are [not](https://support.apple.com/en-us/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://www.apple.com/legal/privacy/en-ww/).
+
+If you use iCloud, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in :gear: **Settings** → **Safari** → **General** → **Downloads**.
+
+
 ## Avoid Jailbreaking
 
 Jailbreaking an iPhone defeats its security and makes you vulnerable.
