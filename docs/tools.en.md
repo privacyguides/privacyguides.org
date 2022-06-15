@@ -225,7 +225,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![Tutanota logo](assets/img/calendar-contacts/tutanota.svg){ .twemoji } [Tutanota](calendar-contacts.md#tutanota)
 - ![EteSync logo](assets/img/calendar-contacts/etesync.svg){ .twemoji } [EteSync](calendar-contacts.md#etesync)
-- ![Proton Calendar logo](assets/img/calendar-contacts/proton-calendar.svg){ .twemoji } [Proton](calendar-contacts.md#proton-calendar)
+- ![Proton Calendar logo](assets/img/calendar-contacts/proton-calendar.svg){ .twemoji } [Proton Calendar](calendar-contacts.md#proton-calendar)
 
 </div>
 
