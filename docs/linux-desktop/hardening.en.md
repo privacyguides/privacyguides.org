@@ -12,7 +12,7 @@ Red Hat distributions (such as Fedora) are typically configured through [firewal
 
 Consider blocking all ports which are **not** [well known](https://en.wikipedia.org/wiki/Well-known_port#Well-known_ports) or “privileged ports”. That is, ports from 1025 up to 65535. Block both [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) and [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) after the operating system is installed.
 
-If you use Fedora, consider removing the whitelist for for [smb](https://en.wikipedia.org/wiki/Server_Message_Block)-client and [mdns](https://en.wikipedia.org/wiki/Multicast_DNS) services if you do not use them.
+If you use Fedora, consider removing the whitelist for [smb](https://en.wikipedia.org/wiki/Server_Message_Block)-client and [mdns](https://en.wikipedia.org/wiki/Multicast_DNS) services if you do not use them.
 
 All these firewalls use the [Netfilter](https://en.wikipedia.org/wiki/Netfilter) framework and therefore cannot protect against malicious programs running on the system. A malicious program could insert its own rules.
 
