@@ -117,6 +117,8 @@ Canary Mail is closed source. We recommend it due to the few choices there are f
 
     **K-9 Mail** is an independent mail application that supports both POP3 and IMAP mailboxes, but only supports push mail for IMAP.
 
+    In the future, K-9 Mail will be the [officially branded](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) Thunderbird client for Android.
+
     [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentation}
