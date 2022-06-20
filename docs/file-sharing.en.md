@@ -24,6 +24,18 @@ Discover how to privately share your files between your devices, with your frien
         - [:fontawesome-brands-apple: macOS](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#macos-os-x)
         - [:fontawesome-brands-linux: Linux](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation)
 
+### Bitwarden Send
+
+!!! recommendation
+
+    ![Bitwarden logo](assets/img/file-sharing-sync/bitwarden.svg){ align=right }
+
+    **Bitwarden Send** is a tool provided by the password manager [Bitwarden](https://bitwarden.com/). It allows you to share files securely by [end to end encryption](https://bitwarden.com/help/send-encryption/). You can protect it with [password](https://bitwarden.com/help/send-privacy/#send-passwords) and [automatic deletion](https://bitwarden.com/help/send-lifespan/).
+
+    [:octicons-home-16: Homepage](https://bitwarden.com/products/send/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://bitwarden.com/help/about-send/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/bitwarden/clients){ .card-link title="Source Code" }
+        
 ### OnionShare
 
 !!! recommendation
