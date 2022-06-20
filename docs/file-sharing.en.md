@@ -32,7 +32,7 @@ Discover how to privately share your files between your devices, with your frien
 
     **Bitwarden Send** is a tool provided by the password manager [Bitwarden](https://bitwarden.com/). It allows you to share text & files securely by [end to end encryption](https://bitwarden.com/help/send-encryption/). You can protect it with [password](https://bitwarden.com/help/send-privacy/#send-passwords) and [automatic deletion](https://bitwarden.com/help/send-lifespan/).
     
-    You need the [Premium Plan](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) to be able to share files. Free plan only allow text sharing.
+    You need the [Premium Plan](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) to be able to share files. Free plan only allows text sharing.
 
     [:octicons-home-16: Homepage](https://bitwarden.com/products/send/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://bitwarden.com/help/about-send/){ .card-link title=Documentation}
