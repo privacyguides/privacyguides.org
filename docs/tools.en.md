@@ -316,7 +316,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![ExifCleaner logo](assets/img/metadata-removal/exifcleaner.svg){ .twemoji } [ExifCleaner](metadata-removal-tools.md#exifcleaner)
 - ![MAT2 logo](assets/img/metadata-removal/mat2.svg){ .twemoji } [MAT2](metadata-removal-tools.md#mat2)
-- ![ExifEraser](---){ .twemoji } [ExifEraser (Android)](metadata-removal-tools.md#exiferaser)
+- ![ExifEraser logo](---){ .twemoji } [ExifEraser (Android)](metadata-removal-tools.md#exiferaser-android)
 - ![Metapho logo](assets/img/metadata-removal/metapho.jpg){ .twemoji } [Metapho (iOS)](metadata-removal-tools.md#metapho)
 - ![ExifTool logo](assets/img/metadata-removal/exiftool.png){ .twemoji } [ExifTool (CLI)](metadata-removal-tools.md#exiftool)
 
