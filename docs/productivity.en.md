@@ -58,25 +58,25 @@ For other platforms, consider below:
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id944896972)
 
-## Paste services
-
-!!! warning
-
-    Encrypted Pastebin websites like the ones recommended here use JavaScript to handle encryption, so you must trust the provider to the extent that they do not inject any malicious JavaScript to get your private key. Consider self-hosting to mitigate this threat.
-
 ### CryptPad
 
 !!! recommendation
 
     ![CryptPad logo](assets/img/productivity/cryptpad.svg){ align=right }
 
-    **CryptPad** is a private-by-design alternative to popular office tools. All content is end-to-end encrypted.
+    **CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is end-to-end encrypted and can be shared with other users easily.
 
     [:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://docs.cryptpad.fr/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribute }
+
+## Paste services
+
+!!! warning
+
+    Encrypted Pastebin websites like the ones recommended here use JavaScript to handle encryption, so you must trust the provider to the extent that they do not inject any malicious JavaScript to get your private key. Consider self-hosting to mitigate this threat.
 
 ### PrivateBin
 
