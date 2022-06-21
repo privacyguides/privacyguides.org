@@ -259,9 +259,24 @@ Synchronization of Safari History, Tab Groups, iCloud Tabs, and saved passwords 
 
 If you use iCloud, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in :gear: **Settings** → **Safari** → **General** → **Downloads**.
 
+## Privacy/Security Tips
 
-## Avoid Jailbreaking
+### E2EE Calls
 
-Jailbreaking an iPhone defeats its security and makes you vulnerable.
+Normal phone calls made with the Phone app are not e2ee. For e2ee audio and video calls, you can use Facetime or another app like Signal.
+
+Open **Contacts**
+
+Select the name of the person you wish to call
+
+Under FaceTime, there is a camera icon and a phone handset icon. Select the camera to make a video call and the phone icon to make an audio-only call.
+
+### Avoid Jailbreaking
+
+Jailbreaking an iPhone defeats its security and makes you vulnerable. Running untrusted, third-party software could cause your device to be infected with malware.
+
+### SIM PIN
+
+### Spam Blocking
 
 --8<-- "includes/abbreviations.en.md"
