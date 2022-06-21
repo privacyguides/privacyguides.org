@@ -62,6 +62,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
     [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
 
     ??? downloads
+    
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
         - [:fontawesome-brands-android: IzzyOnDroid (APK)](https://android.izzysoft.de/repo/apk/com.none.tom.exiferaser)
         - [:fontawesome-brands-github: GitHub](https://github.com/Tommy-Geenexus/exif-eraser/releases)
