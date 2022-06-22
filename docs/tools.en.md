@@ -16,8 +16,8 @@ For your convenience, everything we recommend is listed below with a link to the
 <div class="grid cards" markdown>
 
 - ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](browsers.md#tor-browser)
-- ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } [Firefox (Desktop)](browsers.md#firefox)
 - ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Desktop)](browsers.md#brave)
+- ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } [Firefox (Desktop)](browsers.md#firefox)
 - ![Bromite logo](assets/img/browsers/bromite.svg){ .twemoji } [Bromite (Android)](browsers.md#bromite)
 - ![Safari logo](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](browsers.md#safari)
 
