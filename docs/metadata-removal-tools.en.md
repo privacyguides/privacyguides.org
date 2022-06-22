@@ -53,9 +53,11 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     ![ExifEraser logo](assets/img/metadata-removal/exiferaser.svg){ align=right }
 
-    **ExifEraser** is a modern, permissionless image metadata erasing application for Android 6.0+.
+    **ExifEraser** is a modern, permissionless image metadata erasing application for Android.
 
     It currently supports JPEG, PNG and WebP.
+    
+    Specifically, it removes ICC Profile, EXIF, Photoshop Image Resources and XMP/ExtendedXMP metadata from JPEG files, ICC Profile, EXIF and XMP metadata from PNG files, and ICC Profile, EXIF and XMP metadata from WebP files.
 
     [:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
     [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentation}
