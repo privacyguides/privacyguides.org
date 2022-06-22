@@ -65,7 +65,7 @@ Shortcuts is quite intuitive to work with, so if you don't like the behavior dem
 ![macOS metadata removal shortcut](../assets/img/integrating-metadata-removal/shortcut-macos.png)
 
 !!! tip "Worth Mentioning"
-    The open source [ImageOptim](https://imageoptim.com/mac) app integrates into Finder's *Services* context menu by default. While it is primarily an image optimization app, it also removes metadata.
+    The open-source [ImageOptim](https://imageoptim.com/mac) app integrates into Finder's *Services* context menu by default. While it is primarily an image optimization app, it also removes metadata.
 
 ### Enabling & using the Shortcut
 

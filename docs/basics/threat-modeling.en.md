@@ -3,7 +3,7 @@ title: "Threat Modeling"
 icon: 'material/target-account'
 ---
 
-Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, et cetera. Often people find that the problem with the tools they see recommended is they're just too hard to start using!
+Balancing security, privacy and usability is one of the first and most difficult tasks you'll face on your privacy journey. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, et cetera. Often people find that the problem with the tools they see recommended is they're just too hard to start using!
 
 If you wanted to use the **most** secure tools available, you'd have to sacrifice *a lot* of usability. And even then, ==nothing is ever fully secure.== There's **high** security, but never **full** security. That's why threat models are important.
 
@@ -31,11 +31,11 @@ An “asset” is something you value and want to protect. In the context of dig
 
 ### Who do I want to protect it from?
 
-To answer this question, it's important to identify who might want to target you or your information. ==A person or entity that poses a threat to your assets is an “adversary.”== Examples of potential adversaries are your boss, your former partner, your business competition, your government, or a hacker on a public network.
+To answer this question, it's important to identify who might want to target you or your information. ==A person or entity that poses a threat to your assets is an “adversary”.== Examples of potential adversaries are your boss, your former partner, your business competition, your government, or a hacker on a public network.
 
-*Make a list of your adversaries, or those who might want to get ahold of your assets. Your list may include individuals, a government agency, or corporations.*
+*Make a list of your adversaries or those who might want to get ahold of your assets. Your list may include individuals, a government agency, or corporations.*
 
-Depending on who your adversaries are, under some circumstances this list might be something you want to destroy after you're done security planning.
+Depending on who your adversaries are, under some circumstances, this list might be something you want to destroy after you're done security planning.
 
 ### How likely is it that I will need to protect it?
 
@@ -61,7 +61,7 @@ Security planning involves understanding how bad the consequences could be if an
 
 ==There is no perfect option for security.== Not everyone has the same priorities, concerns, or access to resources. Your risk assessment will allow you to plan the right strategy for you, balancing convenience, cost, and privacy.
 
-For example, an attorney representing a client in a national security case may be willing to go to greater lengths to protect communications about that case, such as using encrypted email, than a mother who regularly emails her daughter funny cat videos.
+For example, an attorney representing a client in a national security case may be willing to go to greater lengths to protect communications about that case, such as using encrypted email than a mother who regularly emails her daughter funny cat videos.
 
 *Write down what options you have available to you to help mitigate your unique threats. Note if you have any financial constraints, technical constraints, or social constraints.*
 
@@ -69,7 +69,7 @@ For example, an attorney representing a client in a national security case may b
 
 These questions can apply to a wide variety of situations, online and offline. As a generic demonstration of how these questions work, let's build a plan to keep your house and possessions safe.
 
-**What do you want to protect? (Or, *what do you have that is worth protecting?*)**
+**What do you want to protect? (Or *what do you have that is worth protecting?*)**
 
 :   Your assets might include jewelry, electronics, important documents, or photos.
 
@@ -89,7 +89,7 @@ These questions can apply to a wide variety of situations, online and offline. A
 
 :   Are you willing to buy a safe for sensitive documents? Can you afford to buy a high-quality lock? Do you have time to open a security box at your local bank and keep your valuables there?
 
-Only once you have asked yourself these questions will you be in a position to assess what measures to take. If your possessions are valuable, but the probability of a break-in is low, then you may not want to invest too much money in a lock. But, if the probability of a break-in is high, you'll want to get the best lock on the market, and consider adding a security system.
+Only once you have asked yourself these questions will you be in a position to assess what measures to take. If your possessions are valuable, but the probability of a break-in is low, then you may not want to invest too much money in a lock. But, if the probability of a break-in is high, you'll want to get the best lock on the market and consider adding a security system.
 
 Making a security plan will help you to understand the threats that are unique to you and to evaluate your assets, your adversaries, and your adversaries' capabilities, along with the likelihood of risks you face.
 

@@ -53,7 +53,7 @@ You can make your own AppArmor profiles, SELinux policies, Bubblewrap profiles, 
 
 ### Securing Linux containers
 
-If you’re running a server you may have heard of Linux Containers, Docker, or Podman which refer to a kind of [OS-level virtualization](https://en.wikipedia.org/wiki/OS-level_virtualization). Containers are more common in server and development environments where individual apps are built to operate independently.
+If you’re running a server, you may have heard of Linux Containers, Docker, or Podman which refer to a kind of [OS-level virtualization](https://en.wikipedia.org/wiki/OS-level_virtualization). Containers are more common in server and development environments where individual apps are built to operate independently.
 
 [Docker](https://en.wikipedia.org/wiki/Docker_(software)) is one of the most common container solutions. It does not run a proper sandbox, and this means that there is a large kernel attack surface. The [daemon](https://en.wikipedia.org/wiki/Daemon_(computing)) controls everything and [typically](https://docs.docker.com/engine/security/rootless/#known-limitations) runs as root. If it crashes for some reason, all the containers will crash too. The [gVisor](https://en.wikipedia.org/wiki/GVisor) runtime which implements an application level kernel can help limit the number of [syscalls](https://en.wikipedia.org/wiki/System_call) an application can make and can help isolate it from the host’s [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)).
 
