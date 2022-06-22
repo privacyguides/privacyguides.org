@@ -58,6 +58,6 @@ Even when you are able to delete an account, there is no guarantee that all your
 
 ## Avoid New Accounts
 
-As the old saying goes, "an ounce of prevention is worth a pound of cure." Whenever you feel tempted to sign up for a new account, ask yourself "Do I really need this? Can I accomplish what I need to without an account?" It can often be much harder to delete an account than to create one. And even after deleting or changing the info on your account, there might be a cached version from a third party—like the [Internet Archive](https://archive.org/). Avoid the temptation when you're able to—your future self will thank you!
+As the old saying goes, "an ounce of prevention is worth a pound of cure." Whenever you feel tempted to sign up for a new account, ask yourself "Do I really need this? Can I accomplish what I need to without an account?" It can often be much harder to delete an account than to create one. And even after deleting or changing the info on your account, there might be a cached version from a third-party—like the [Internet Archive](https://archive.org/). Avoid the temptation when you're able to—your future self will thank you!
 
 --8<-- "includes/abbreviations.en.md"
