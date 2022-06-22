@@ -39,7 +39,7 @@ These are our currently recommended web browsers and configurations. In general,
 
 ## Desktop Recommendations
 
-We recommend Brave over Firefox as it is easier to configure for most people, neither of them are better than the other. You can chose either one.
+We recommend Brave over Firefox as it is easier to configure for most people, neither of them are better than the other. They're both equal in terms of anti-fingerprinting features. You can chose either one.
 
 ### Brave
 
