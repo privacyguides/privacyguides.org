@@ -11,11 +11,11 @@ A VPN can help as it can shift trust to a server somewhere else in the world. As
 
 ## Should I use a VPN?
 
-**Yes**, unless you are already using Tor. A VPN does 2 things: shifting the risks from your Internet Service Provider to itself and hiding your IP from a thirdparty service.
+**Yes**, unless you are already using Tor. A VPN does 2 things: shifting the risks from your Internet Service Provider to itself and hiding your IP from a third party service.
 
 VPNs cannot encrypt data outside of the connection between your device and the VPN server. VPN providers can see and modify your traffic the same way your ISP could. And there is no way to verify a VPN provider's "no logging" policies in any way.
 
-However, they do hide your actual IP from a third-party service, provided that there are no IP leaks. They help you blend in with others and mitigate IP based tracking.
+However, they do hide your actual IP from a third party service, provided that there are no IP leaks. They help you blend in with others and mitigate IP based tracking.
 
 ## What about encryption?
 
@@ -25,7 +25,7 @@ In order to keep what you actually do on the websites you visit private and secu
 
 ## Should I use encrypted DNS with a VPN?
 
-Unless your VPN provider hosts the encrypted DNS servers, **no**. Using DOH/DOT (or any other form of encrypted DNS) with third-party servers will simply add more entities to trust, and does **absolutely nothing** to improve your privacy/security. Your VPN provider can still see which websites you visit based on the IP addresses and other methods. Instead of just trusting your VPN provider, you are now trusting both the VPN provider and the DNS provider.
+Unless your VPN provider hosts the encrypted DNS servers, **no**. Using DOH/DOT (or any other form of encrypted DNS) with third party servers will simply add more entities to trust, and does **absolutely nothing** to improve your privacy/security. Your VPN provider can still see which websites you visit based on the IP addresses and other methods. Instead of just trusting your VPN provider, you are now trusting both the VPN provider and the DNS provider.
 
 A common reason to recommend encrypted DNS is that it helps against DNS spoofing. However, your browser should already be checking for [TLS certificates](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) with **HTTPS** and warn you about it. If you are not using **HTTPS**, then an adversary can still just modify anything other than your DNS queries and the end result will be little different.
 
@@ -51,7 +51,7 @@ A VPN may still be useful to you in a variety of scenarios, such as:
 
 1. Hiding your traffic from **only** your Internet Service Provider.
 2. Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.
-3. Hiding your IP from third-party websites and services, preventing IP based tracking.
+3. Hiding your IP from third party websites and services, preventing IP based tracking.
 
 For use cases like these, or if you have another compelling reason, the VPN providers we listed above are who we think are the most trustworthy. However, using a VPN provider still means you're *trusting* the provider. In pretty much any other scenario you should be using a secure**-by-design** tool such as Tor.
 
