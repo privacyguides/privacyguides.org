@@ -4,7 +4,7 @@ icon: 'material/cellphone-cog'
 ---
 ## Profiles
 
-CalyxOS includes a device controller app so there is no need to install a third-party app like Shelter.
+CalyxOS includes a device controller app so there is no need to install a third party app like Shelter.
 
 GrapheneOS extends the user profile feature, allowing you to end a current session. To do this, select *End Session* which will clear the encryption key from memory. There are plans to add a [cross profile notifications system](https://github.com/GrapheneOS/os-issue-tracker/issues/88) in the future. GrapheneOS plans to introduce nested profile support with better isolation in the future.
 
@@ -36,7 +36,7 @@ On CalyxOS, the app comes installed by default (regardless of whether you choose
 
 ## Privileged App Extensions
 
-Android 12 comes with special support for seamless app updates with [third-party app stores](https://android-developers.googleblog.com/2020/09/listening-to-developer-feedback-to.html). The popular Free and Open Source Software (FOSS) repository [F-Droid](https://f-droid.org) doesn't implement this feature and requires a [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged) to be included with the Android distribution in order to have unattended app installation.
+Android 12 comes with special support for seamless app updates with [third party app stores](https://android-developers.googleblog.com/2020/09/listening-to-developer-feedback-to.html). The popular Free and Open Source Software (FOSS) repository [F-Droid](https://f-droid.org) doesn't implement this feature and requires a [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged) to be included with the Android distribution in order to have unattended app installation.
 
 GrapheneOS does not include F-Droid, because all updates have to be manually installed, which poses a security risk. However, you can use the [Neo Store](../android.md#neo-store) client for F-Droid which does support seamless (background) app updates in Android 12. GrapheneOS officially recommends [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play) instead. Many FOSS Android apps are also in Google Play but sometimes they are not (like [NewPipe](../video-streaming.md)).
 
