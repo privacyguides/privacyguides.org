@@ -39,81 +39,7 @@ These are our currently recommended web browsers and configurations. In general,
 
 ## Desktop Recommendations
 
-### Firefox
-
-!!! recommendation
-
-    ![Firefox logo](assets/img/browsers/firefox.svg){ align=right }
-
-    **Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
-
-    [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:fontawesome-brands-windows: Windows](https://www.mozilla.org/firefox/windows)
-        - [:fontawesome-brands-apple: macOS](https://www.mozilla.org/firefox/mac)
-        - [:fontawesome-brands-linux: Linux](https://www.mozilla.org/firefox/linux)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.firefox)
-
-!!! warning
-    Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
-
-#### Recommended Configuration
-
-Tor Browser is the only way to truly browse the internet anonymously. When you use Firefox we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than [Tor Browser](#tor-browser) will be traceable by *somebody* in some regard or another.
-
-These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
-
-##### Enhanced Tracking Protection
-
-- [x] Select **Strict** Enhanced Tracking Protection
-
-This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
-
-##### Sanitize on Close
-
-If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
-
-- [x] Check **Delete cookies and site data when Firefox is closed**
-
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
-
-##### Search Suggestions
-
-- [ ] Disable **Suggestions from the web**
-- [ ] Disable **Suggestions from sponsors**
-- [ ] Disable **Improve the Firefox Suggest experience**
-
-Search suggestion features may not be available in your region.
-
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
-
-##### Telemetry
-
-- [ ] Uncheck **Allow Firefox to send technical and interaction data to Mozilla**
-- [ ] Uncheck **Allow Firefox to install and run studies**
-- [ ] Uncheck **Allow Firefox to send backlogged crash reports on your behalf**
-
-> Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
-
-##### HTTPS-Only Mode
-
-- [x] Select **Enable HTTPS-Only Mode in all windows**
-
-This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day to day browsing.
-
-#### Sync
-
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
-
-#### Arkenfox (advanced)
-
-The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly - [which you can easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users) support.
+We recommend Brave over Firefox as it is easier to configure for most people, neither of them are better than the other. You can chose either one.
 
 ### Brave
 
@@ -215,6 +141,82 @@ Under the system *System* menu
 </div>
 
 1. This option is not present on all platforms.
+
+### Firefox
+
+!!! recommendation
+
+    ![Firefox logo](assets/img/browsers/firefox.svg){ align=right }
+
+    **Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+
+    [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://www.mozilla.org/firefox/windows)
+        - [:fontawesome-brands-apple: macOS](https://www.mozilla.org/firefox/mac)
+        - [:fontawesome-brands-linux: Linux](https://www.mozilla.org/firefox/linux)
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.firefox)
+
+!!! warning
+    Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+
+#### Recommended Configuration
+
+Tor Browser is the only way to truly browse the internet anonymously. When you use Firefox we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than [Tor Browser](#tor-browser) will be traceable by *somebody* in some regard or another.
+
+These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
+
+##### Enhanced Tracking Protection
+
+- [x] Select **Strict** Enhanced Tracking Protection
+
+This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+
+##### Sanitize on Close
+
+If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+
+- [x] Check **Delete cookies and site data when Firefox is closed**
+
+This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+
+##### Search Suggestions
+
+- [ ] Disable **Suggestions from the web**
+- [ ] Disable **Suggestions from sponsors**
+- [ ] Disable **Improve the Firefox Suggest experience**
+
+Search suggestion features may not be available in your region.
+
+Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+
+##### Telemetry
+
+- [ ] Uncheck **Allow Firefox to send technical and interaction data to Mozilla**
+- [ ] Uncheck **Allow Firefox to install and run studies**
+- [ ] Uncheck **Allow Firefox to send backlogged crash reports on your behalf**
+
+> Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
+
+##### HTTPS-Only Mode
+
+- [x] Select **Enable HTTPS-Only Mode in all windows**
+
+This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day to day browsing.
+
+#### Sync
+
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
+
+#### Arkenfox (advanced)
+
+The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly - [which you can easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users) support.
 
 ## Mobile Recommendations
 
