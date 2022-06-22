@@ -69,9 +69,9 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
        
 The metadata that is erased depends on the image's file type:
         
-* JPEG: ICC Profile, EXIF, Photoshop Image Resources and XMP/ExtendedXMP metadata will be erased if it exists.
-* PNG: ICC Profile, EXIF and XMP metadata will be erased if it exists.
-* WebP: ICC Profile, EXIF and XMP metadata will be erased if it exists.
+* **JPEG**: ICC Profile, Exif, Photoshop Image Resources and XMP/ExtendedXMP metadata will be erased if it exists.
+* **PNG**: ICC Profile, Exif and XMP metadata will be erased if it exists.
+* **WebP**: ICC Profile, Exif and XMP metadata will be erased if it exists.
         
 After processing the images, ExifEraser provides you with a full report about what exactly was removed from each image.
 
