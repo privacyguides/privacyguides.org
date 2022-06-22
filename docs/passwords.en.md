@@ -10,55 +10,7 @@ Stay safe and secure online with an encrypted and open-source password manager.
 - Store an exported backup of your passwords in an [encrypted container](encryption.md) on another storage device. This can be useful if something happens to your device or the service you are using.
 - If possible, store TOTP tokens in a separate [TOTP app](basics/multi-factor-authentication.md#authenticator-apps) and not your password manager. TOTP codes are generated from a "[shared secret](https://en.wikipedia.org/wiki/Time-based_one-time_password#Security)". If the secret is obtained by an adversary they can generate TOTP values. Typically, mobile platforms have better app isolation and more secure methods for storing sensitive credentials.
 
-## Local Storage
-
-These password managers store the password database locally.
-
-### KeePassDX
-
-!!! recommendation
-
-    ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
-
-    **KeePassDX** is a lightweight password manager for Android, allows editing encrypted data in a single file in KeePass format and can fill in the forms in a secure way. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) allows unlocking cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
-
-    [:octicons-home-16: Homepage](https://www.keepassdx.com){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
-        - [:pg-f-droid: F-Droid](https://www.f-droid.org/packages/com.kunzisoft.keepass.libre)
-        - [:fontawesome-brands-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
-
-### KeePassXC
-
-!!! recommendation
-
-    ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
-
-    **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, fully cross-platform and modern open-source password manager.
-
-    [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:fontawesome-brands-windows: Windows](https://keepassxc.org/download/#windows)
-        - [:fontawesome-brands-apple: macOS](https://keepassxc.org/download/#mac)
-        - [:fontawesome-brands-linux: Linux](https://keepassxc.org/download/#linux)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
-        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
-        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
-
-KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files. This may mean data loss if you import this file into another password manager. We advise you check each record manually.
-
-## Cloud Sync
+## Cloud-Based
 
 These password managers sync your passwords to a cloud server for easy accessibility from all your devices. Our recommendations have open-source server-side code which is optionally self-hostable.
 
@@ -122,6 +74,54 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
         - [:fontawesome-brands-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
 
 Psono provides [extensive documentation](https://doc.psono.com/) for their product. The [web-client](https://doc.psono.com/admin/installation/install-webclient.html#installation-with-docker) for Psono can be self-hosted; alternatively, you can choose the the full [Community Edition](https://doc.psono.com/admin/installation/install-server-ce.html) or the [Enterprise Edition](https://doc.psono.com/admin/installation/install-server-ee.html) with additional features.
+
+## Local Storage
+
+These password managers store the password database locally.
+
+### KeePassDX
+
+!!! recommendation
+
+    ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
+
+    **KeePassDX** is a lightweight password manager for Android, allows editing encrypted data in a single file in KeePass format and can fill in the forms in a secure way. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) allows unlocking cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
+
+    [:octicons-home-16: Homepage](https://www.keepassdx.com){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
+        - [:pg-f-droid: F-Droid](https://www.f-droid.org/packages/com.kunzisoft.keepass.libre)
+        - [:fontawesome-brands-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
+
+### KeePassXC
+
+!!! recommendation
+
+    ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
+
+    **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, fully cross-platform and modern open-source password manager.
+
+    [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://keepassxc.org/download/#windows)
+        - [:fontawesome-brands-apple: macOS](https://keepassxc.org/download/#mac)
+        - [:fontawesome-brands-linux: Linux](https://keepassxc.org/download/#linux)
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
+        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
+        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
+
+KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files. This may mean data loss if you import this file into another password manager. We advise you check each record manually.
 
 ## Minimal Password Managers
 
