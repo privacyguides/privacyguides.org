@@ -51,7 +51,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 !!! recommendation
 
-    ![ExifEraser logo](---){ align=right }
+    ![ExifEraser logo](assets/img/metadata-removal/exiferaser.svg){ align=right }
 
     **ExifEraser** is a modern, permissionless image metadata erasing application for Android 6.0+.
 
