@@ -14,7 +14,7 @@ hide:
 
 Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, we didn't always have the right to privacy. In several dictatorships, many still don't. Generations before ours fought for our right to privacy. ==Privacy is a human right inherent to all of us== that we are entitled to without discrimination.
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to hide, privacy is something that makes you human.
+You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes you human.
 
 [:material-target-account: Common Internet Threats](basics/common-threats.md){ .md-button .md-button--primary }
 </div>
@@ -24,7 +24,7 @@ You shouldn't confuse privacy with secrecy. We know what happens in the bathroom
 
 ##### First, you need to make a plan
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. But don't worry! Security is a process, and by thinking ahead you can put together a plan that's right for you. Security isn't just about the tools you use or the software you download. Rather, it begins with understanding the unique threats you face, and how you can counter them.
+Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. But don't worry! Security is a process, and by thinking ahead you can put together a plan that's right for you. Security isn't just about the tools you use or the software you download. Rather, it begins by understanding the unique threats you face, and how you can counter them.
 
 ==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
