@@ -9,7 +9,7 @@ If you're looking for a specific solution to something, these are the hardware a
 
 If you want assistance figuring out the best privacy tools and alternative programs for your workload/use-case, start a discussion in our [Reddit](https://www.reddit.com/r/privacyguides) or [Matrix](https://matrix.to/#/#privacyguides:matrix.org) communities!
 
-For your convenience, everything we recommend is listed below with a link to the project's homepage. For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section.
+For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
 
 ## Web Browsers
 
@@ -48,8 +48,8 @@ For your convenience, everything we recommend is listed below with a link to the
 <div class="grid cards" markdown>
 
 - ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji } [GrapheneOS](android.md#grapheneos)
-- ![CalyxOS logo](assets/img/android/calyxos.svg){ .twemoji } [CalyxOS](android.md#calyxos)
 - ![DivestOS logo](assets/img/android/divestos.svg){ .twemoji } [DivestOS](android.md#divestos)
+- ![CalyxOS logo](assets/img/android/calyxos.svg){ .twemoji } [CalyxOS](android.md#calyxos)
 
 </div>
 
@@ -185,8 +185,8 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ .twemoji } [DuckDuckGo](search-engines.md#duckduckgo)
 - ![Brave Search logo](assets/img/search-engines/brave-search.svg){ .twemoji } [Brave Search](search-engines.md#brave-search)
+- ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ .twemoji } [DuckDuckGo](search-engines.md#duckduckgo)
 - ![SearXNG logo](assets/img/search-engines/searxng.svg){ .twemoji } [SearXNG](search-engines.md#searxng)
 - ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ .twemoji }![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji } [Startpage](search-engines.md#startpage)
 
@@ -208,9 +208,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
+- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#protonvpn)
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
 - ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#protonvpn)
 
 </div>
 
@@ -261,7 +261,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :hero-arrow-circle-right-fill:](email-clients.md)
 
-### Encryption Tools
+### Encryption Software
 
 ??? info "Operating System Disk Encryption"
 
@@ -300,6 +300,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <div class="grid cards" markdown>
 
 - ![Magic Wormhole logo](assets/img/file-sharing-sync/magic_wormhole.png){ .twemoji } [Magic Wormhole](file-sharing.md#magic-wormhole)
+- ![Bitwarden logo](assets/img/file-sharing-sync/bitwarden.svg){ .twemoji } [Bitwarden](file-sharing.md#bitwarden-send)
 - ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [OnionShare](file-sharing.md#onionshare)
 - ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji } [FreedomBox](file-sharing.md#freedombox)
 - ![git-annex logo](assets/img/file-sharing-sync/gitannex.svg){ .twemoji } [git-annex](file-sharing.md#git-annex)
