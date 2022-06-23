@@ -110,7 +110,6 @@ For your convenience, everything we recommend is listed below with a link to the
 - ![Cryptee logo](assets/img/cloud/cryptee.svg#only-light){ .twemoji }![Cryptee logo](assets/img/cloud/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](cloud.md#cryptee)
 - ![Nextcloud logo](assets/img/cloud/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](cloud.md#nextcloud)
 - ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
-- ![Tahoe-LAFS logo](assets/img/cloud/tahoe-lafs.svg#only-light){ .twemoji }![Tahoe-LAFS logo](assets/img/cloud/tahoe-lafs-dark.svg#only-dark){ .twemoji } [Tahoe-LAFS (Advanced)](cloud.md#tahoe-lafs)
 
 </div>
 

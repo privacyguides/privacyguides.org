@@ -67,29 +67,4 @@ Proton Drive is currently in beta and only is only available through a web clien
 
 When using a web client, you are placing trust in the server to send you proper JavaScript code to derive the decryption key and authentication token locally in your browser. A compromised server can send you malicious JavaScript code to steal your master password and decrypt your data. If this does not fit your [threat model](basics/threat-modeling.md), consider using an alternative.
 
-## Tahoe-LAFS
-
-!!! note
-
-    Due to the complexity of the system and the amount of nodes needed to set it up, Tahoe-LAFS is only recommended for seasoned system administrators.
-
-!!! recommendation
-
-    ![Tahoe-LAFS logo](./assets/img/cloud/tahoe-lafs.svg#only-light){ align=right }
-    ![Tahoe-LAFS logo](./assets/img/cloud/tahoe-lafs-dark.svg#only-dark){ align=right }
-
-    **Tahoe-LAFS** is a free, open, and decentralized cloud storage system. It distributes your data across multiple servers. Even if some of the servers fail or are taken over by an attacker, the entire file store continues to function correctly, preserving your privacy and security. The servers used as storage pools do not have access to your data.
-
-    [:octicons-home-16: Homepage](https://www.tahoe-lafs.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://tahoe-lafs.readthedocs.io/en/latest/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://www.tahoe-lafs.org/trac/tahoe-lafs/browser){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://tahoe-lafs.readthedocs.io/en/latest/donations.html){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:fontawesome-brands-windows: Windows](https://tahoe-lafs.readthedocs.io/en/latest/Installation/install-tahoe.html#microsoft-windows)
-        - [:fontawesome-brands-apple: macOS](https://tahoe-lafs.readthedocs.io/en/latest/Installation/install-tahoe.html#linux-bsd-or-macos)
-        - [:fontawesome-brands-linux: Linux](https://tahoe-lafs.readthedocs.io/en/latest/Installation/install-tahoe.html#linux-bsd-or-macos)
-        - [:pg-netbsd: NetBSD](https://tahoe-lafs.readthedocs.io/en/latest/Installation/install-tahoe.html#linux-bsd-or-macos)
-
 --8<-- "includes/abbreviations.en.md"
