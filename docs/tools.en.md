@@ -303,7 +303,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 - ![Bitwarden logo](assets/img/file-sharing-sync/bitwarden.svg){ .twemoji } [Bitwarden](file-sharing.md#bitwarden-send)
 - ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [OnionShare](file-sharing.md#onionshare)
 - ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji } [FreedomBox](file-sharing.md#freedombox)
-- ![git-annex logo](assets/img/file-sharing-sync/gitannex.svg){ .twemoji } [git-annex](file-sharing.md#git-annex)
 - ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji } [Syncthing](file-sharing.md#syncthing)
 
 </div>

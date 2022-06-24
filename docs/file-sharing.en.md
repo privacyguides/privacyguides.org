@@ -72,26 +72,6 @@ Discover how to privately share your files between your devices, with your frien
 
 ## File Sync
 
-### git-annex
-
-!!! recommendation
-
-    ![git-annex logo](assets/img/file-sharing-sync/gitannex.svg){ align=right }
-
-    **git-annex** allows managing files with git, without checking the file contents into git. While that may seem paradoxical, it is useful when dealing with files larger than git can currently easily handle, whether due to limitations in memory, time, or disk space.
-
-    [:octicons-home-16: Homepage](https://git-annex.branchable.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://git-annex.branchable.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://git-annex.branchable.com/walkthrough/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://git-annex.branchable.com/install/fromsource/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://git-annex.branchable.com/thanks/){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:fontawesome-brands-windows: Windows](https://git-annex.branchable.com/install/Windows)
-        - [:fontawesome-brands-apple: macOS](https://git-annex.branchable.com/install/OSX)
-        - [:fontawesome-brands-linux: Linux](https://git-annex.branchable.com/install)
-
 ### Syncthing
 
 !!! recommendation
