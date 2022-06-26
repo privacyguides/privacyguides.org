@@ -44,7 +44,7 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
     **Element** is the reference client for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
 
-    Messages and files shared in private rooms (those which require an invite) are by default E2EE as are 1 to 1 voice and video calls.
+    Messages and files shared in private rooms (those which require an invite) are by default E2EE as are one to one voice and video calls.
 
     [:octicons-home-16: Homepage](https://element.io/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
@@ -63,7 +63,7 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
 Profile pictures, reactions, and nicknames are not encrypted.
 
-Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE, and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Group calls have [no authentication](https://github.com/vector-im/element-web/issues/13074) currently, meaning that non room participants can also join the calls. We recommend that you do not use this feature for private meetings.
+Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE, and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Group calls have [no authentication](https://github.com/vector-im/element-web/issues/13074) currently, meaning that non-room participants can also join the calls. We recommend that you do not use this feature for private meetings.
 
 When using [element-web](https://github.com/vector-im/element-web), you must trust the server hosting the Element client. If your [threat model](basics/threat-modeling.md) requires stronger protection, then use a desktop or mobile client instead.
 
@@ -125,7 +125,7 @@ Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the 
 
 To add a contact on Briar, you must both add each other first. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.
 
-The client software was independently [audited](https://briarproject.org/news/2017-beta-released-security-audit/) and the anonymous routing protocol uses the Tor network which has also been audited.
+The client software was independently [audited](https://briarproject.org/news/2017-beta-released-security-audit/), and the anonymous routing protocol uses the Tor network which has also been audited.
 
 Briar has a fully [published specification](https://code.briarproject.org/briar/briar-spec).
 
@@ -170,8 +170,8 @@ When self-hosted, members of a federated server can discover and communicate wit
 
 - Allows for greater control over your own data when running your own server.
 - Allows you to choose who to trust your data with by choosing between multiple "public" servers.
-- Often allows for third party clients which can provide a more native, customized, or accessible experience.
-- Server software can be verified that it matches public source code, assuming you have access to the server or you trust the person who does (e.g., a family member)
+- Often allows for third-party clients which can provide a more native, customized, or accessible experience.
+- Server software can be verified that it matches public source code, assuming you have access to the server or you trust the person who does (e.g., a family member).
 
 **Disadvantages:**
 
@@ -191,11 +191,11 @@ Clients (peers) usually find each other through the use of a [distributed comput
 
 Once a peer has found a route to its contact via any of these methods, a direct connection between them is made. Although messages are usually encrypted, an observer can still deduce the location and identity of the sender and recipient.
 
-P2P networks do not use servers, as peers communicate directly between each other, and hence cannot be self-hosted. However, some additional services may rely on centralized servers, such as user discovery or relaying offline messages, which can benefit from self-hosting.
+P2P networks do not use servers, as peers communicate directly between each other and hence cannot be self-hosted. However, some additional services may rely on centralized servers, such as user discovery or relaying offline messages, which can benefit from self-hosting.
 
 **Advantages:**
 
-- Minimal information is exposed to third parties.
+- Minimal information is exposed to third-parties.
 - Modern P2P platforms implement E2EE by default. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.
 
 **Disadvantages:**
@@ -204,15 +204,15 @@ P2P networks do not use servers, as peers communicate directly between each othe
 - Messages can only be sent when both peers are online, however, your client may store messages locally to wait for the contact to return online.
 - Generally increases battery usage on mobile devices, because the client must stay connected to the distributed network to learn about who is online.
 - Some common messenger features may not be implemented or incompletely, such as message deletion.
-- Your IP address and that of the contacts you're communicating with may be exposed if you do not use the software in conjunction with a [VPN](vpn.md) or [self contained network](self-contained-networks.md), such as [Tor](https://www.torproject.org) or [I2P](https://geti2p.net/). Many countries have some form of mass surveillance and/or metadata retention.
+- Your IP address and that of the contacts you're communicating with may be exposed if you do not use the software in conjunction with a [VPN](vpn.md) or [self-contained network](self-contained-networks.md), such as [Tor](https://www.torproject.org) or [I2P](https://geti2p.net/). Many countries have some form of mass surveillance and/or metadata retention.
 
 ### Anonymous Routing
 
 ![Anonymous routing diagram](assets/img/layout/network-anonymous-routing.svg){ align=left }
 
-A messenger using [anonymous routing](https://doi.org/10.1007/978-1-4419-5906-5_628) hides either the identity of the sender, the receiver, or evidence that they have been communicating. Ideally, a messenger should hide all three.
+A messenger using [anonymous routing](https://doi.org/10.1007/978-1-4419-5906-5_628) hides either the identity of the sender, the receiver or evidence that they have been communicating. Ideally, a messenger should hide all three.
 
-There are [many](https://doi.org/10.1145/3182658) different ways to implement anonymous routing. One of the most famous is [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (i.e. [Tor](https://en.wikipedia.org/wiki/Tor_(anonymity_network))), which communicates encrypted messages through a virtual [overlay network](https://en.wikipedia.org/wiki/Overlay_network) that hides the location of each node as well as the recipient and sender of each message. The sender and recipient never interact directly, and only meet through a secret rendezvous node, so that there is no leak of IP addresses nor physical location. Nodes cannot decrypt messages nor the final destination, only the recipient can. Each intermediary node can only decrypt a part that indicates where to send the still encrypted message next, until it arrives at the recipient who can fully decrypt it, hence the "onion layers".
+There are [many](https://doi.org/10.1145/3182658) different ways to implement anonymous routing. One of the most famous is [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (i.e. [Tor](https://en.wikipedia.org/wiki/Tor_(anonymity_network))), which communicates encrypted messages through a virtual [overlay network](https://en.wikipedia.org/wiki/Overlay_network) that hides the location of each node as well as the recipient and sender of each message. The sender and recipient never interact directly and only meet through a secret rendezvous node, so that there is no leak of IP addresses nor physical location. Nodes cannot decrypt messages nor the final destination; only the recipient can. Each intermediary node can only decrypt a part that indicates where to send the still encrypted message next, until it arrives at the recipient who can fully decrypt it, hence the "onion layers."
 
 Self-hosting a node in an anonymous routing network does not provide the hoster with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
 

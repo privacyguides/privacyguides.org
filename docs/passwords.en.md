@@ -6,9 +6,9 @@ Stay safe and secure online with an encrypted and open-source password manager.
 
 ## Password Best Practices
 
-- Always use unique passwords. Don't make yourself a victim of "[credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing)".
-- Store an exported backup of your passwords in an [encrypted container](encryption.md) on another storage device. This can be useful if something happens to your device or the service you are using.
-- If possible, store TOTP tokens in a separate [TOTP app](basics/multi-factor-authentication.md#authenticator-apps) and not your password manager. TOTP codes are generated from a "[shared secret](https://en.wikipedia.org/wiki/Time-based_one-time_password#Security)". If the secret is obtained by an adversary they can generate TOTP values. Typically, mobile platforms have better app isolation and more secure methods for storing sensitive credentials.
+- Always use unique passwords. Don't make yourself a victim of "[credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing)"
+- Store an exported backup of your passwords in an [encrypted container](encryption.md) on another storage device. This can be useful if something happens to your device or the service you are using
+- If possible, store TOTP tokens in a separate [TOTP app](basics/multi-factor-authentication.md#authenticator-apps) and not your password manager. TOTP codes are generated from a "[shared secret](https://en.wikipedia.org/wiki/Time-based_one-time_password#Security)." If the secret is obtained by an adversary, he can generate TOTP values. Typically, mobile platforms have better app isolation and more secure methods for storing sensitive credentials
 
 ## Local Storage
 
@@ -39,7 +39,7 @@ These password managers store the password database locally.
 
     ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
 
-    **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, fully cross-platform and modern open-source password manager.
+    **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, cross-platform and modern open-source password manager.
 
     [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
@@ -88,7 +88,7 @@ These password managers sync your passwords to a cloud server for easy accessibi
         - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
         - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
 
-Bitwarden's server-side code is [open source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
+Bitwarden's server-side code is [open-source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
 
 ![Vaultwarden logo](assets/img/password-management/vaultwarden.svg#only-light){ align=right }
 ![Vaultwarden logo](assets/img/password-management/vaultwarden-dark.svg#only-dark){ align=right }
@@ -106,7 +106,7 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 
     ![Psono logo](assets/img/password-management/psono.svg){ align=right }
 
-    **Psono** is a free and open source password manager from Germany, with a focus on password management for teams. Psono supports secure sharing of passwords, files, bookmarks, and emails. All secrets are protected by a master password.
+    **Psono** is a free and open-source password manager from Germany, with a focus on password management for teams. Psono supports secure sharing of passwords, files, bookmarks, and emails. All secrets are protected by a master password.
 
     [:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -121,7 +121,7 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
         - [:fontawesome-brands-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
 
-Psono provides [extensive documentation](https://doc.psono.com/) for their product. The [web-client](https://doc.psono.com/admin/installation/install-webclient.html#installation-with-docker) for Psono can be self-hosted; alternatively, you can choose the the full [Community Edition](https://doc.psono.com/admin/installation/install-server-ce.html) or the [Enterprise Edition](https://doc.psono.com/admin/installation/install-server-ee.html) with additional features.
+Psono provides [extensive documentation](https://doc.psono.com/) for their product. The [web-client](https://doc.psono.com/admin/installation/install-webclient.html#installation-with-docker) for Psono can be self-hosted; alternatively, you can choose the full [Community Edition](https://doc.psono.com/admin/installation/install-server-ce.html) or the [Enterprise Edition](https://doc.psono.com/admin/installation/install-server-ee.html) with additional features.
 
 ## Minimal Password Managers
 

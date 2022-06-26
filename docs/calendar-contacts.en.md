@@ -64,7 +64,7 @@ Calendars and contacts contain some of your most sensitive data; use products th
 
     **Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Features include: automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to a single calendar, whereas paid subscribers can create up to 20 calendars. Extended sharing functionality is also limited to paid subscribers.
 
-    **Proton Mail** can be used to synchronize contacts. Likewise, the service is currently only available via web and mobile clients.
+    **Proton Mail** can be used to synchronize contacts. Likewise, the service is currently only available via the web and mobile clients.
 
     [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }

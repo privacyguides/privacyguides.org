@@ -2,7 +2,7 @@
 title: "Router Firmware"
 icon: material/router-wireless
 ---
-Below are a few alternative operating systems, that can be used on routers, Wi-Fi access points etc.
+Below are a few alternative operating systems, that can be used on routers, Wi-Fi access points, etc.
 
 ## OpenWrt
 
@@ -27,7 +27,7 @@ You can consult OpenWrt's [table of hardware](https://openwrt.org/toh/start) to 
     ![pfSense logo](assets/img/router/pfsense.svg#only-light){ align=right }
     ![pfSense logo](assets/img/router/pfsense-dark.svg#only-dark){ align=right }
 
-    pfSense is an open source firewall/router computer software distribution based on FreeBSD. It is installed on a computer to make a dedicated firewall/router for a network and is noted for its reliability and offering features often only found in expensive commercial firewalls. pfSense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and VPN endpoint.
+    pfSense is an open-source firewall/router computer software distribution based on FreeBSD. It is installed on a computer to make a dedicated firewall/router for a network and is noted for its reliability and offering features often only found in expensive commercial firewalls. pfSense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and VPN endpoint.
 
     [:octicons-home-16: Homepage](https://www.pfsense.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.netgate.com/pfsense/en/latest/){ .card-link title=Documentation}

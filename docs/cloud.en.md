@@ -48,7 +48,7 @@ If these alternatives do not fit your needs, we suggest you look into [Encryptio
 
 We recommend checking if your Nextcloud provider supports E2EE, otherwise you have to trust the provider to not look at your files.
 
-When self-hosting Nextcloud, you should also enable E2EE to protect against your hosting provider snooping on your data.
+When self-hosting, you should also enable E2EE to protect against your hosting provider snooping on your data.
 
 ## Proton Drive
 

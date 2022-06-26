@@ -5,7 +5,7 @@ icon: material/dns
 
 !!! faq "Should I use encrypted DNS?"
 
-    Encrypted DNS with third party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Encrypted DNS will not help you hide any of your browsing activity.
+    Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Encrypted DNS will not help you hide any of your browsing activity.
 
     [Learn more about DNS](basics/dns-overview.md){ .md-button }
 
@@ -134,7 +134,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ba
 
 ## Self-hosted Solutions
 
-A self-hosted DNS solution is useful for providing filtering on controlled platforms, such as Smart TVs and other IOT devices, as no client-side software is needed.
+A self-hosted DNS solution is useful for providing filtering on controlled platforms, such as Smart TVs and other IoT devices, as no client-side software is needed.
 
 ### AdGuard Home
 
@@ -142,7 +142,7 @@ A self-hosted DNS solution is useful for providing filtering on controlled platf
 
     ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
 
-    **AdGuard Home** is an open source [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) to block unwanted web content, such as advertisements.
+    **AdGuard Home** is an open-source [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) to block unwanted web content, such as advertisements.
 
     AdGuard Home features a polished web interface to view insights and manage blocked content.
 
