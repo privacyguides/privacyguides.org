@@ -78,7 +78,7 @@ Shortcuts is quite intuitive to work with, so if you don't like the behavior dem
 
 [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) can be made accessible through the system Share Sheet, making accessing those shortcuts very convenient. This guide will show you how to build a metadata removal shortcut and integrate it into the system *Share Sheet*.
 
-!!! attention
+!!! warning
     This method of metadata removal is not as comprehensive at removing metadata as utilities like [ExifTool](../metadata-removal-tools.md#exiftool) and [mat2](../metadata-removal-tools.md#mat2) are.
 
 The lack of *good* metadata removal apps on the App Store is what makes this solution worthwhile.
