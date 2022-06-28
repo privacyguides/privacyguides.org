@@ -16,7 +16,7 @@ These are our currently recommended web browsers and configurations. In general,
 
     The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings/).
 
-    For further information about the Tor Browser we suggest taking a look at the [manual](https://tb-manual.torproject.org/about/).
+    For further information about the Tor Browser, we suggest taking a look at the [manual](https://tb-manual.torproject.org/about/).
 
     [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
     [:pg-tor:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title=Onion }
@@ -65,7 +65,7 @@ These are our currently recommended web browsers and configurations. In general,
 
 #### Recommended Configuration
 
-Tor Browser is the only way to truly browse the internet anonymously. When you use Firefox we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than [Tor Browser](#tor-browser) will be traceable by *somebody* in some regard or another.
+Tor Browser is the only way to truly browse the internet anonymously. When you use Firefox, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than [Tor Browser](#tor-browser) will be traceable by *somebody* in some regard or another.
 
 These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
 
@@ -121,7 +121,7 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
 
     ![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-    **Brave Browser** includes a built in content blocker and [privacy features](https://brave.com/privacy-features/), many of which are enabled by default.
+    **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features/), many of which are enabled by default.
 
     Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
 
@@ -143,7 +143,7 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
 
 #### Recommended Configuration
 
-Tor Browser is the only way to truly browse the internet anonymously. When you use Brave we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](#tor-browser) will be traceable by *somebody* in some regard or another.
+Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](#tor-browser) will be traceable by *somebody* in some regard or another.
 
 These options can be found in :material-menu: → **Settings**.
 
@@ -173,7 +173,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 ##### Privacy and Security
 
-- [ ] Select **Disable Non-Proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [x] Select **Disable Non-Proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
 - [ ] Uncheck **Use Google services for push messaging**
 - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
 - [ ] Uncheck **Automatically send daily usage ping to Brave**
@@ -202,11 +202,11 @@ Disable built-in extensions you do not use in **Extensions**
 
 InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
 
-- [ ] Select **Disabled** on Method to resolve IPFS resources
+- [x] Select **Disabled** on Method to resolve IPFS resources
 
 ##### Additional settings
 
-Under the system *System* menu
+Under the *System* menu
 
 <div class="annotate" markdown>
 
@@ -242,7 +242,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
     1. If you use [Neo Store](/android/#neo-store), you can enable the *Bromite repository* in:<br> :material-dots-vertical: → **Repositories**
 
-These options can be found in :material-menu: → :gear: **Settings** → **Privacy and Security**.
+These options can be found in :material-menu: → :gear: **Settings** → **Privacy and security**.
 
 #### Recommended Configuration
 
@@ -254,7 +254,7 @@ This prevents you from unintentionally connecting to a website in plain-text HTT
 
 ##### Always-on Incognito Mode
 
-- [x] Select **Open links in incognito tabs always**
+- [x] Select **Always open links in incognito** in the **Incognito mode** menu
 - [x] Select **Close all open tabs on exit**
 - [x] Select **Open external links in incognito**
 
@@ -312,7 +312,7 @@ Do note that Private Browsing does not save cookies and website data, so it won'
 
 ##### iCloud Sync
 
-Synchronization of Safari History, Tab Groups, iCloud Tabs, and saved passwords are E2EE. However, bookmarks are [not](https://support.apple.com/en-us/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://www.apple.com/legal/privacy/en-ww/).
+Synchronization of Safari History, Tab Groups, iCloud Tabs and saved passwords are E2EE. However, bookmarks are [not](https://support.apple.com/en-us/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://www.apple.com/legal/privacy/en-ww/).
 
 If you use iCloud, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in :gear: **Settings** → **Safari** → **General** → **Downloads**.
 
@@ -339,7 +339,7 @@ We generally do not recommend installing any extensions as they increase your at
         - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
         - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 
-We suggest leaving the extension in its default configuration. Additional filter lists can impact performance and may increase attack surface, so only apply what you need. If there is a [vulnerability in uBlock Origin](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css) a third party filter could add malicious rules that can potentially steal user data.
+We suggest leaving the extension in its default configuration. Additional filter lists can impact performance and may increase attack surface, so only apply what you need. If there is a [vulnerability in uBlock Origin](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css) a third-party filter could add malicious rules that can potentially steal user data.
 
 ### AdGuard for iOS
 

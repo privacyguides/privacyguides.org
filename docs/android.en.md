@@ -64,15 +64,15 @@ DivestOS implements some system hardening patches originally developed for Graph
     DivestOS firmware update [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) and quality control varies across the devices it supports. We still recommend GrapheneOS depending on your device's compatibility. For other devices, DivestOS is a good alternative.
 
     Not all of the supported devices have verified boot, and some perform it better than others.
-    
+
 ### CalyxOS
 
 !!! recommendation
 
     ![CalyxOS logo](assets/img/android/calyxos.svg){ align=right }
 
-    **CalyxOS** is a system with some privacy features on top of AOSP, including [Datura](https://calyxos.org/docs/tech/datura-details) firewall, [Signal](https://signal.org) integration in the dialer app, and a built in panic button. CalyxOS also comes with firmware updates and signed builds, so verified boot is fully supported. 
-    
+    **CalyxOS** is a system with some privacy features on top of AOSP, including [Datura](https://calyxos.org/docs/tech/datura-details) firewall, [Signal](https://signal.org) integration in the dialer app, and a built in panic button. CalyxOS also comes with firmware updates and signed builds, so verified boot is fully supported.
+
     We only recommend CalyxOS as a harm reduction measure for the OnePlus 8T, OnePlus 9, and especially the Fairphone 4 if you need microG.
 
     [:octicons-home-16: Homepage](https://calyxos.org/){ .md-button .md-button--primary }
@@ -81,9 +81,9 @@ DivestOS implements some system hardening patches originally developed for Graph
     [:octicons-code-16:](https://github.com/CalyxOS){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://members.calyxinstitute.org/donate){ .card-link title=Contribute }
 
-CalyxOS optionally includes [microG](https://microg.org/), a partially open source reimplementation of Play Services which provides broader app compatibility. It also bundles in alternate location services: [Mozilla](https://location.services.mozilla.com/) and [DejaVu](https://github.com/n76/DejaVu).
+CalyxOS optionally includes [microG](https://microg.org/), a partially open-source reimplementation of Play Services which provides broader app compatibility. It also bundles in alternate location services: [Mozilla](https://location.services.mozilla.com/) and [DejaVu](https://github.com/n76/DejaVu).
 
-CalyxOS [supports](https://calyxos.org/docs/guide/device-support/) Google Pixel phones, the OnePlus 8T/9/9 Pro and the Fairphone 4. 
+CalyxOS [supports](https://calyxos.org/docs/guide/device-support/) Google Pixel phones, the OnePlus 8T/9/9 Pro and the Fairphone 4.
 
 ## Android Devices
 
@@ -91,7 +91,7 @@ When purchasing a device, we recommend getting one as new as possible. The softw
 
 Avoid buying phones from mobile network operators. These often have a **locked bootloader** and do not support [OEM unlocking](https://source.android.com/devices/bootloader/locking_unlocking). These phone variants will prevent you from installing any kind of alternative Android distribution.
 
-Be very **careful** about buying second hand phones from online marketplaces. Always check the reputation of the seller. If the device is stolen there's a possibility of [IMEI blacklisting](https://www.gsma.com/security/resources/imei-blacklisting/). There is also a risk involved with you being associated with the activity of the previous owner.
+Be very **careful** about buying second hand phones from online marketplaces. Always check the reputation of the seller. If the device is stolen, there's a possibility of [IMEI blacklisting](https://www.gsma.com/security/resources/imei-blacklisting/). There is also a risk involved with you being associated with the activity of the previous owner.
 
 A few more tips regarding Android devices and operating system compatibility:
 
@@ -101,7 +101,7 @@ A few more tips regarding Android devices and operating system compatibility:
 
 ### Google Pixel
 
-Google Pixel phones are the **only** devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third party operating systems and Google's custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element.
+Google Pixel phones are the **only** devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third-party operating systems and Google's custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element.
 
 !!! recommendation
 
@@ -115,7 +115,7 @@ Google Pixel phones are the **only** devices we recommend for purchase. Pixel ph
 
 Secure Elements like the Titan M2 are more limited than the processor's Trusted Execution Environment used by most other phones as they are only used for secrets storage, hardware attestation, and rate limiting, not for running "trusted" programs. Phones without a Secure Element have to use the TEE for *all* of those functions, resulting in a larger attack surface.
 
-Google Pixel phones use a TEE OS called Trusty which is [open source](https://source.android.com/security/trusty#whyTrusty), unlike many other phones.
+Google Pixel phones use a TEE OS called Trusty which is [open-source](https://source.android.com/security/trusty#whyTrusty), unlike many other phones.
 
 The installation of GrapheneOS on a Pixel phone is easy with their [web installer](https://grapheneos.org/install/web). If you don't feel comfortable doing it yourself and are willing to spend a bit of extra money, check out the [NitroPhone](https://shop.nitrokey.com/shop) as they come preloaded with GrapheneOS from the reputable [Nitrokey](https://www.nitrokey.com/about) company.
 
@@ -142,7 +142,9 @@ DivestOS has support for most OnePlus devices up to the **OnePlus 9 Pro**, with 
 
     The Fairphone 3 and 4 are not secure by default, as the [stock bootloader trusts the public AVB signing key](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems such (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
 
-    This problem is somewhat mitigated when you install a custom operating system such as CalyxOS or DivestOS and trust the developer's signing keys rather than the stock system keys, however a vulnerability in CalyxOS or DivestOS's recovery environments could still potentially allow an attacker to bypass AVB. **To reiterate, you must install a custom operating system with custom boot keys to use Fairphone devices in a secure manner.**
+    This problem is somewhat mitigated when you install a custom operating system such as CalyxOS or DivestOS and trust the developer's signing keys rather than the stock system keys, however a vulnerability in CalyxOS or DivestOS's recovery environments could still potentially allow an attacker to bypass AVB.
+
+    **To reiterate, you must install a custom operating system with custom boot keys to use Fairphone devices in a secure manner.**
 
 CalyxOS has [experimental support](https://calyxos.org/news/2022/04/01/fairphone4-oneplus8t-oneplus9-test-builds/) for the **Fairphone 4**. DivestOS has builds available for the **Fairphone 3**.
 
@@ -200,7 +202,7 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
 
 !!! warning
 
-    As CalyxOS includes a device controller, we recommend using their built in work profile instead.
+    As CalyxOS includes a device controller, we recommend using their built-in work profile instead.
 
     Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular/) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
 
@@ -213,7 +215,7 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
     ![Auditor logo](assets/img/android/auditor.svg#only-light){ align=right }
     ![Auditor logo](assets/img/android/auditor-dark.svg#only-dark){ align=right }
 
-    **Auditor** is an app which leverages hardware security features to provide device integrity monitoring for [supported devices](https://attestation.app/about#device-support). Currently it works with GrapheneOS and the device's stock operating system.
+    **Auditor** is an app which leverages hardware security features to provide device integrity monitoring for [supported devices](https://attestation.app/about#device-support). Currently, it only works with GrapheneOS and the device's stock operating system.
 
     [:octicons-home-16: Homepage](https://attestation.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Privacy Policy" }
@@ -236,7 +238,7 @@ Auditor performs attestation and intrusion detection by:
 
 No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
 
-If your [threat model](basics/threat-modeling.md) requires privacy you could consider using Orbot or a VPN to hide your IP address from the attestation service.
+If your [threat model](basics/threat-modeling.md) requires privacy, you could consider using Orbot or a VPN to hide your IP address from the attestation service.
 To make sure that your hardware and operating system is genuine, [perform local attestation](https://grapheneos.org/install/web#verifying-installation) immediately after the device has been installed and prior to any internet connection.
 
 ### Secure Camera
@@ -246,7 +248,7 @@ To make sure that your hardware and operating system is genuine, [perform local 
     ![Secure camera logo](assets/img/android/secure_camera.svg#only-light){ align=right }
     ![Secure camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
 
-      **Secure Camera** is an camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
+      **Secure Camera** is a camera app focused on privacy and security which can capture images, videos and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
 
     [:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
     [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
@@ -320,11 +322,11 @@ GrapheneOS's app store is available on [GitHub](https://github.com/GrapheneOS/Ap
 
 ### Aurora Store
 
-The Google Play Store requires a Google account to login which is not great for privacy. The [Aurora Store](https://auroraoss.com/download/AuroraStore/) (a Google Play Store proxy) does not, and works most of the time.
+The Google Play Store requires a Google account to login which is not great for privacy. The [Aurora Store](https://auroraoss.com/download/AuroraStore/) (a Google Play Store proxy) does not and works most of the time.
 
 ### F-Droid
 
-F-Droid is often recommended as an alternative to Google Play, particularly in the privacy community. The option to add third party repositories and not be confined to Google's walled garden has led to its popularity. F-Droid additionally has [reproducible builds](https://f-droid.org/en/docs/Reproducible_Builds/) for some applications, and is dedicated to free and open source software. However, there are problems with the official F-Droid client, their quality control, and how they build, sign and deliver packages, outlined in this [post](https://wonderfall.dev/fdroid-issues/).
+F-Droid is often recommended as an alternative to Google Play, particularly in the privacy community. The option to add third-party repositories and not be confined to Google's walled garden has led to its popularity. F-Droid additionally has [reproducible builds](https://f-droid.org/en/docs/Reproducible_Builds/) for some applications and is dedicated to free and open-source software. However, there are problems with the official F-Droid client, their quality control, and how they build, sign and deliver packages, outlined in this [post](https://wonderfall.dev/fdroid-issues/).
 
 Sometimes the official F-Droid repository may fall behind on updates. F-Droid maintainers reuse package IDs while signing apps with their own keys, which is not ideal as it does give the F-Droid team ultimate trust. The Google Play version of some apps may contain unwanted telemetry or lack features that are available in the F-Droid version.
 
@@ -351,7 +353,7 @@ To mitigate these problems, we recommend [Neo Store](https://github.com/NeoAppli
     **Neo Store** is a modern F-Droid client made with MaterialUI, forked from [Foxy Droid](https://github.com/kitsunyan/foxy-droid).
 
     Unlike the official F-Droid client, Neo Store supports seamless updates on Android 12 and above without the need for a privileged extension. If your Android distribution is on Android 12 or above and does not include the [F-Droid privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged/), it is highly recommended that you use Neo Store instead of the official client.
-    
+
     [:octicons-repo-16: Repository](https://github.com/NeoApplications/Neo-Store){ .md-button .md-button--primary }
     [:octicons-code-16:](https://github.com/NeoApplications/Neo-Store){ .card-link title="Source Code" }
 

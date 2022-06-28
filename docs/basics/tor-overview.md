@@ -15,7 +15,7 @@ Every time you connect to Tor, it will choose three nodes to build a path to the
 
 The entry node, often called the guard node, is the first node to which your Tor client connects. The entry node is able to see your IP address, however it is unable to see what you are connecting to.
 
-Unlike the other nodes, the Tor client will randomly select an entry node, and stick with it for two to three months to protect you from certain attacks.[^1]
+Unlike the other nodes, the Tor client will randomly select an entry node and stick with it for two to three months to protect you from certain attacks.[^1]
 
 [^1]: The first relay in your circuit is called an "entry guard" or "guard". It is a fast and stable relay that remains the first one in your circuit for 2-3 months in order to protect against a known anonymity-breaking attack. The rest of your circuit changes with every new website you visit, and all together these relays provide the full privacy protections of Tor. For more information on how guard relays work, see this [blog post](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) and [paper](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) on entry guards. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
 
@@ -47,7 +47,7 @@ Once Tor has built a circuit, data transmission is done as follows:
 
 1. Firstly: when the packet arrives at the entry node, the first layer of encryption is removed. In this encrypted packet, the entry node will find another encrypted packet with the middle node’s address. The entry node will then forward the packet to the middle node.
 
-2. Secondly: when the middle node receives the packet from the entry node, it too will remove a layer of encryption with its key, and this time find an encrypted packet with the exit node's address. The middle node will then forward the packet to the exit node.
+2. Secondly: when the middle node receives the packet from the entry node, it too will remove a layer of encryption with its key, and this time finds an encrypted packet with the exit node's address. The middle node will then forward the packet to the exit node.
 
 3. Lastly: when the exit node receives its packet, it will remove the last layer of encryption with its key. The exit node will see the destination address and forward the packet to that address.
 
@@ -65,7 +65,7 @@ Tor allows us to connect to a server without any single party knowing the entire
 
 Though Tor does provide strong privacy guarantees, one must be aware that Tor is not perfect:
 
-- Well-funded adversaries with the capability to passively watch most network traffic over the globe have a chance of deanonymizing Tor users by means of advanced traffic analysis. Nor does Tor does not protect you from exposing yourself by mistake, such as if you share to much information about your real identity.
+- Well-funded adversaries with the capability to passively watch most network traffic over the globe have a chance of deanonymizing Tor users by means of advanced traffic analysis. Nor Tor does not protect you from exposing yourself by mistake, such as if you share to much information about your real identity.
 - Tor exit nodes can also monitor traffic that passes through them. This means traffic which is not encrypted, such as plain HTTP traffic, can be recorded and monitored. If such traffic contains personally identifiable information, then it can deanonymize you to that exit node. Thus, we recommend using HTTPS over Tor where possible.
 
 If you wish to use Tor for browsing the web, we only recommend the **official** Tor Browser—it is designed to prevent fingerprinting.

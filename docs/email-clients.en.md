@@ -7,7 +7,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 ??? Attention "Email does not provide forward secrecy"
     When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](email.md#email-metadata-overview) that is not encrypted in the header of the email.
 
-    OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](basics/email-security.md). Consider using a medium that provides forward secrecy:
+    OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](basics/email-security.md) Consider using a medium that provides forward secrecy:
 
     [Real-time Communication](real-time-communication.md){ .md-button }
 
@@ -19,7 +19,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ align=right }
 
-    **Thunderbird** is a free, open source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Twitter) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
+    **Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Twitter) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
 
     [:octicons-home-16: Homepage](https://www.thunderbird.net){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }
@@ -70,7 +70,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     Canary Mail only recently released a Windows and Android client, though we don't believe they are as stable as their iOS and Mac counterparts.
 
-Canary Mail is closed source. We recommend it due to the few choices there are for email clients on iOS that support PGP E2EE.
+Canary Mail is closed-source. We recommend it due to the few choices there are for email clients on iOS that support PGP E2EE.
 
 ### FairEmail (Android)
 
@@ -78,7 +78,7 @@ Canary Mail is closed source. We recommend it due to the few choices there are f
 
     ![FairEmail logo](assets/img/email-clients/fairemail.svg){ align=right }
 
-    **FairEmail** is a minimal, open source email app, using open standards (IMAP, SMTP, OpenPGP) with a low data and battery usage.
+    **FairEmail** is a minimal, open-source email app, using open standards (IMAP, SMTP, OpenPGP) with a low data and battery usage.
 
     [:octicons-home-16: Homepage](https://email.faircode.eu){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }

@@ -2,11 +2,11 @@
 title: "Productivity Tools"
 icon: material/file-sign
 ---
-Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do. The privacy policy may legally protect your rights, it does not provide technical access constraints.
+Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do. The privacy policy may legally protect your rights, but it does not provide technical access constraints.
 
 ## Office Suites
 
-We recommend a locally run Office suite. If you're using Microsoft Windows, we suggest Microsoft Office as it has support from [MDAG](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview) which prevents untrusted Word, PowerPoint and Excel files from accessing trusted resources. Application Guard opens untrusted files in an isolated [Hyper-V](https://en.wikipedia.org/wiki/Hyper-V)-enabled container. On macOS [iWork](https://www.apple.com/iwork) has [App Sandbox](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html).
+We recommend running a local Office suite. If you're using Microsoft Windows, we suggest Microsoft Office as it has support from [MDAG](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview) which prevents untrusted Word, PowerPoint and Excel files from accessing trusted resources. Application Guard opens untrusted files in an isolated [Hyper-V](https://en.wikipedia.org/wiki/Hyper-V)-enabled container. On macOS [iWork](https://www.apple.com/iwork) has [App Sandbox](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html).
 
 For other platforms, consider below:
 

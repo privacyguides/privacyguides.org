@@ -116,7 +116,7 @@ Nix is a source-based package manager; if there’s no pre-built available in th
     [:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=Documentation}
     [:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=Contribute }
 
-Whonix is meant to run as two virtual machines: a “Workstation” and a Tor “Gateway”. All communications from the Workstation has to go through the Tor gateway, and will be routed through the Tor Network.
+Whonix is meant to run as two virtual machines: a “Workstation” and a Tor “Gateway.” All communications from the Workstation has to go through the Tor gateway and will be routed through the Tor Network.
 
 Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator.
 

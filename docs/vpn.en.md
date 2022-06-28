@@ -46,7 +46,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? check annotate "63 Countries"
 
-    Proton VPN has [servers in 63 countries](https://protonvpn.com/vpn-servers) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (less hops) to the destination.
+    Proton VPN has [servers in 63 countries](https://protonvpn.com/vpn-servers) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 
     We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -54,9 +54,9 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? check "Independently Audited"
 
-    As of January 2020 Proton VPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/).
+    As of January 2020 Proton VPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit/) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf).
 
-??? check "Open Source Clients"
+??? check "Open-Source Clients"
 
     Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
 
@@ -72,7 +72,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? warning "Remote Port Forwarding"
 
-    Proton VPN currently only supports remote [port forwarding](https://protonvpn.com/support/port-forwarding/) on Windows, which may impact some applications. Especially Peer-to-Peer applications like Torrent clients.
+    Proton VPN currently only supports remote [port forwarding](https://protonvpn.com/support/port-forwarding/) on Windows, which may impact some applications. Especially Peer-to-peer applications like Torrent clients.
 
 ??? check "Mobile Clients"
 
@@ -80,8 +80,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? info "Additional Functionality"
 
-    Proton VPN have their own servers and datacenters in Switzerland, Iceland and Sweden. They offer adblocking and known malware domains blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
-
+    Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer adblocking and known malware domains blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
 
 ### IVPN
 
@@ -100,7 +99,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? check annotate "32 Countries"
 
-    IVPN has [servers in 32 countries](https://www.ivpn.net/server-locations) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (less hops) to the destination.
+    IVPN has [servers in 32 countries](https://www.ivpn.net/server-locations) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 
     We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -108,11 +107,11 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? check "Independently Audited"
 
-    IVPN has undergone a [no-logging audit from Cure53](https://cure53.de/audit-report_ivpn.pdf) which concluded in agreement with IVPN's no-logging claim. IVPN has also completed a [comprehensive pentest report Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) in January 2020. IVPN has also said they plan to have [annual reports](https://www.ivpn.net/blog/independent-security-audit-concluded) in the future.
+    IVPN has undergone a [no-logging audit from Cure53](https://cure53.de/audit-report_ivpn.pdf) which concluded in agreement with IVPN's no-logging claim. IVPN has also completed a [comprehensive pentest report Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) in January 2020. IVPN has also said they plan to have [annual reports](https://www.ivpn.net/blog/independent-security-audit-concluded) in the future. A further review was conducted [in April 2022](https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) and was produced by Cure53 [on their website](https://cure53.de/pentest-report_IVPN_2022.pdf).
 
-??? check "Open Source Clients"
+??? check "Open-Source Clients"
 
-    As of February 2020 [IVPN applications are now open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
+    As of February 2020 [IVPN applications are now open-source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
 
 ??? check "Accepts Cash and Monero"
 
@@ -154,7 +153,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? check annotate "38 Countries"
 
-    Mullvad has [servers in 38 countries](https://mullvad.net/servers/) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (less hops) to the destination.
+    Mullvad has [servers in 38 countries](https://mullvad.net/servers/) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 
     We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -170,9 +169,9 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     > The results of this May-June 2020 project targeting the Mullvad complex are quite positive. [...] The overall application ecosystem used by Mullvad leaves a sound and structured impression. The overall structure of the application makes it easy to roll out patches and fixes in a structured manner. More than anything, the findings spotted by Cure53 showcase the importance of constantly auditing and re-assessing the current leak vectors, in order to always ensure privacy of the end-users. With that being said, Mullvad does a great job protecting the end-user from common PII leaks and privacy related risks.
 
-    In 2021 an infrastructure audit [was announced](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) and the [final audit report](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) was made available on Cure53's website.
+    In 2021 an infrastructure audit [was announced](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) and the [final audit report](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) was made available on Cure53's website. Another report was commissioned [in June 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) and is available on [Assured's website](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
 
-??? check "Open Source Clients"
+??? check "Open-Source Clients"
 
     Mullvad provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/mullvad/mullvadvpn-app).
 
@@ -196,7 +195,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? check "Mobile Clients"
 
-    Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to use interface as opposed to requiring you to manually configure your WireGuard connection. The mobile client on Android is also available in [F-Droid](https://f-droid.org/packages/net.mullvad.mullvadvpn), which ensures that it is compiled with [reproducible builds](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
+    Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The mobile client on Android is also available in [F-Droid](https://f-droid.org/packages/net.mullvad.mullvadvpn), which ensures that it is compiled with [reproducible builds](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
 
 ??? info "Additional Functionality"
 
@@ -219,7 +218,7 @@ We require all our recommended VPN providers to provide OpenVPN configuration fi
 - Support for strong protocols such as WireGuard & OpenVPN.
 - Killswitch built in to clients.
 - Multihop support. Multihopping is important to keep data private in case of a single node compromise.
-- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what your device is actually doing. We like to see these applications [available in F-Droid](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
+- If VPN clients are provided, they should be [open-source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what your device is actually doing. We like to see these applications [available in F-Droid](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
 
 **Best Case:**
 
@@ -284,9 +283,9 @@ With the VPN providers we recommend we like to see responsible marketing.
 Must not have any marketing which is irresponsible:
 
 - Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
-    - Reusing personal information (e.g., email accounts, unique pseudonyms etc) that they accessed without anonymity software (Tor, VPN, etc.)
+    - Reusing personal information (e.g., email accounts, unique pseudonyms, etc) that they accessed without anonymity software (Tor, VPN, etc.)
     - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
-- Claim that a single circuit VPN is "more anonymous" than Tor, which is a circuit of 3 or more hops that regularly changes.
+- Claim that a single circuit VPN is "more anonymous" than Tor, which is a circuit of three or more hops that regularly changes.
 - Use responsible language: i.e., it is okay to say that a VPN is "disconnected" or "not connected", however claiming that someone is "exposed", "vulnerable" or "compromised" is needless use of alarming language that may be incorrect. For example, that person might simply be on another VPN provider's service or using Tor.
 
 **Best Case:**

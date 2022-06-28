@@ -30,7 +30,7 @@ Discover how to privately share your files between your devices, with your frien
 
     ![Bitwarden logo](assets/img/file-sharing-sync/bitwarden.svg){ align=right }
 
-    **Bitwarden Send** is a tool provided by the [Bitwarden](passwords.md#bitwarden) password manager. It allows you to share text and files securely with [end-to end-encryption](https://bitwarden.com/help/send-encryption). A [password](https://bitwarden.com/help/send-privacy/#send-passwords) can be required along with the send link. Bitwarden Send also features [automatic deletion](https://bitwarden.com/help/send-lifespan).
+    **Bitwarden Send** is a tool provided by the [Bitwarden](passwords.md#bitwarden) password manager. It allows you to share text and files securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). A [password](https://bitwarden.com/help/send-privacy/#send-passwords) can be required along with the send link. Bitwarden Send also features [automatic deletion](https://bitwarden.com/help/send-lifespan).
 
     You need the [Premium Plan](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) to be able to share files. Free plan only allows text sharing.
 
@@ -63,7 +63,7 @@ Discover how to privately share your files between your devices, with your frien
 
     ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }
 
-    **FreedomBox** is an operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications that you might want to selfhost.
+    **FreedomBox** is an operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications that you might want to self-host.
 
     [:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
@@ -71,26 +71,6 @@ Discover how to privately share your files between your devices, with your frien
     [:octicons-heart-16:](https://freedomboxfoundation.org/donate/){ .card-link title=Contribute }
 
 ## File Sync
-
-### git-annex
-
-!!! recommendation
-
-    ![git-annex logo](assets/img/file-sharing-sync/gitannex.svg){ align=right }
-
-    **git-annex** allows managing files with git, without checking the file contents into git. While that may seem paradoxical, it is useful when dealing with files larger than git can currently easily handle, whether due to limitations in memory, time, or disk space.
-
-    [:octicons-home-16: Homepage](https://git-annex.branchable.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://git-annex.branchable.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://git-annex.branchable.com/walkthrough/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://git-annex.branchable.com/install/fromsource/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://git-annex.branchable.com/thanks/){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:fontawesome-brands-windows: Windows](https://git-annex.branchable.com/install/Windows)
-        - [:fontawesome-brands-apple: macOS](https://git-annex.branchable.com/install/OSX)
-        - [:fontawesome-brands-linux: Linux](https://git-annex.branchable.com/install)
 
 ### Syncthing
 

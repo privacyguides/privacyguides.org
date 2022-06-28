@@ -28,7 +28,7 @@ Whistleblowers and journalists, for example, can have a much more extreme threat
 
 <span class="pg-orange">:material-bug-outline: Passive Attacks</span>
 
-Security and privacy are often conflated, because you need security to obtain any semblance of privacy: Using tools which appear private is futile if they could easily be exploited by attackers to release your data later. However, the inverse is not necessarily true; the most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google, who, given their scale, have had minimal security incidents by employing industry-leading security experts to secure their infrastructure. Even though Google provides a very secure service, very few would consider their data private in Google's free consumer products (Gmail, YouTube etc).
+Security and privacy are often conflated, because you need security to obtain any semblance of privacy: Using tools which appear private is futile if they could easily be exploited by attackers to release your data later. However, the inverse is not necessarily true; the most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google, who, given their scale, have had minimal security incidents by employing industry-leading security experts to secure their infrastructure. Even though Google provides a very secure service, very few would consider their data private in Google's free consumer products (Gmail, YouTube, etc).
 
 When it comes to application security, we generally do not (and sometimes cannot) know if the software that we use is malicious, or might one day become malicious. Even with the most trustworthy developers, there is generally no guarantee that their software does not have a serious vulnerability that could later be exploited.
 
@@ -82,11 +82,11 @@ Online, you can be tracked via a wide variety of methods, including but not limi
 - Your browser or device fingerprint
 - Payment method correlation
 
-Therefore your goals could be to segregate your online identities from each other, to blend in with other users, and to simply avoid giving out identifying information to anyone as much as possible.
+Therefore, your goals could be to segregate your online identities from each other, to blend in with other users, and to simply avoid giving out identifying information to anyone as much as possible.
 
 <span class="pg-blue">:material-eye-outline: Mass Surveillance</span>
 
-Governments often cite mass surveillance programs as necessary to combat terrorism and prevent crime, however it is most often used to disproportionately target minorities, political dissidents, and many other groups to create a chilling effect on free speech.
+Governments often cite mass surveillance programs as necessary to combat terrorism and prevent crime, however it is most often used to disproportionately target minorities, political dissidents and many other groups to create a chilling effect on free speech.
 
 !!! quote "ACLU: [The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
 
@@ -130,19 +130,19 @@ People concerned with the threat of censorship can use technologies like Tor to 
 
     You should consider what aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. For example, using encrypted DNS can help you bypass rudimentary censorship systems based solely on DNS, but it cannot truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from the network administrators, but cannot hide that you are using those networks. Pluggable transports like Obfs4proxy, Meek or Shadowsocks can help you evade firewalls that block common VPN protocols or Tor, but an adversary can still figure out that you are actively trying to bypass their censorship system as opposed to just protecting your privacy through probing or deep packet inspection.
 
-You must always consider the risks involved with trying to bypass censorship, what the potential consequences are, and how sophisticated your adversary may be. Be extra cautious with your software selection, and have a backup plan in case you are caught.
+You must always consider the risks involved with trying to bypass censorship, what the potential consequences are, and how sophisticated your adversary may be. Be extra cautious with your software selection and have a backup plan in case you are caught.
 
 ## Common Misconceptions
 
-:material-numeric-1-circle: **Open source software is always secure** or **Proprietary software is more secure**
+:material-numeric-1-circle: **Open-source software is always secure** or **Proprietary software is more secure**
 
 These myths stem from a number of prejudices, but the source-availability and licensure of a software product does not inherently affect its security in any way. ==Open-source software has the *potential* to be more secure than proprietary software, but there is absolutely no guarantee this is the case.== When you evaluate software, you need to look at the reputation and security of each tool on an individual basis.
 
-Open-source software *can* be audited by third-parties, and is often more transparent regarding potential vulnerabilities than their proprietary counterparts. They can also be more flexible, allowing you to delve into the code and disable any suspicious functionality you find yourself. However, unless you review the code yourself there is no guarantee that code has ever been evaluated, especially with smaller software projects, and the open development process can sometimes be exploited by malicious parties to introduce new vulnerabilities into even large projects.[^4]
+Open-source software *can* be audited by third-parties and is often more transparent regarding potential vulnerabilities than their proprietary counterparts. They can also be more flexible, allowing you to delve into the code and disable any suspicious functionality you find yourself. However, unless you review the code yourself there is no guarantee that code has ever been evaluated, especially with smaller software projects, and the open development process can sometimes be exploited by malicious parties to introduce new vulnerabilities into even large projects.[^4]
 
 On the flip side, proprietary software is less transparent, but that does not imply it is not secure. Major proprietary software projects can be audited internally and by third-party agencies, and independent security researchers can still find vulnerabilities with techniques like reverse engineering.
 
-At the end of the day, it is **vital** that you research and evaluate the privacy and security properties of each piece of software being used, and avoid making decisions based on biases.
+At the end of the day, it is **vital** that you research and evaluate the privacy and security properties of each piece of software being used and avoid making decisions based on biases.
 
 :material-numeric-2-circle: **Shifting trust can increase privacy**
 
@@ -153,7 +153,7 @@ We talk about "shifting trust" a lot when discussing solutions like VPNs, which 
 
 :material-numeric-3-circle: **Privacy-focused solutions are inherently trustworthy**
 
-Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a privacy solution you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is a lack of end-to-end encryption, so you should make sure the provider you switch to actually implements end-to-end encryption, or use a tool like Cryptomator which provides end-to-end encryption on any cloud provider. Blindly switching to a "privacy-focused" provider which does not provide end-to-end encryption does not solve your problem, it merely shifts trust from Google to that provider.
+Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a privacy solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem, in this case, is a lack of end-to-end encryption, so you should make sure the provider you switch to actually implements end-to-end encryption or use a tool like Cryptomator which provides end-to-end encryption on any cloud provider. Blindly switching to a "privacy-focused" provider which does not provide end-to-end encryption does not solve your problem, it merely shifts trust from Google to that provider.
 
 The privacy policies and business practices of a provider you choose are very important, but should be considered secondary to technical guarantees of your privacy: Don't elect to merely shift trust to another provider when trusting a provider isn't a requirement at all.
 
@@ -179,13 +179,13 @@ One of the clearest threat models is one where people *know who you are* and one
 
         When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
 
-2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're a part of an online community you may wish to retain persona that others know. The reason this is not anonymous is because if monitored over a period of time details about the owner may reveal further information, such as the way they write (linguistics), general knowledge about topics of interest etc.
+2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're a part of an online community, you may wish to retain a persona that others know. The reason this is not anonymous is that if monitored over a period of time details about the owner may reveal further information, such as the way they write (linguistics), general knowledge about topics of interest, etc.
 
     You may wish to use a VPN for this to mask your IP address. Financial transactions are more difficult and for this we'd suggest using anonymous cryptocurrencies such as Monero. Employing alt-coin shifting may also help disguise where your currency originated. Typically exchanges require KYC (know your customer) to be completed before they will allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution, however those often are more expensive and sometimes also require KYC.
 
 3. **Anonymous identity** - Anonymous identities are difficult to maintain over long periods of time for even the most experienced. They should be short-term and short lived identities which are rotated regularly.
 
-    Using Tor can help with this, it's also worth noting greater anonymity is possible through asynchronous (not real time communication). Real time communication is vulnerable to typing analysis patterns more than a slab of text distributed on a forum, email) etc that you've had time to think about, maybe even put through a translator and back again.
+    Using Tor can help with this, it's also worth noting greater anonymity is possible through asynchronous (not real-time communication). Real-time communication is vulnerable to typing analysis patterns (more than a slab of text distributed on a forum, email, etc) that you've had time to think about, maybe even put through a translator and back again.
 
 [^1]: United States Privacy and Civil Liberties Oversight Board: [Report on the Telephone Records Program Conducted under Section 215](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^2]: Wikipedia: [Surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)

@@ -18,7 +18,7 @@ Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org/) if your thr
 
     Brave Search includes unique features such as Discussions, which highlights conversation-focused results—such as forum posts.
 
-    We recommend you disable [Anonymous usage metrics](https://search.brave.com/help/usage-metrics), this option is enabled by default and can be disabled within settings.
+    We recommend you disable [Anonymous usage metrics](https://search.brave.com/help/usage-metrics) as it is enabled by default and can be disabled within settings.
 
     [:octicons-home-16: Homepage](https://search.brave.com/){ .md-button .md-button--primary }
     [:pg-tor:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title=Onion }

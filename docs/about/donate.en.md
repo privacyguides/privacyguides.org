@@ -42,4 +42,4 @@ Privacy Guides is a **non-profit** organization. We use donations for a variety 
 
 :   We occasionally purchase products and services for the purposes of testing our [recommended tools](../tools.md).
 
-We are still working with our fiscal host (the Open Collective Foundation) to receive cryptocurrency donations, at the moment the accounting is unfeasible for many smaller transactions, but this should change in the future. In the meantime, if you wish to make a sizable (> $100) cryptocurrency donation please reach out to [jonah@privacyguides.org](mailto:jonah@privacyguides.org).
+We are still working with our fiscal host (the Open Collective Foundation) to receive cryptocurrency donations, at the moment the accounting is unfeasible for many smaller transactions, but this should change in the future. In the meantime, if you wish to make a sizable (> $100) cryptocurrency donation, please reach out to [jonah@privacyguides.org](mailto:jonah@privacyguides.org).

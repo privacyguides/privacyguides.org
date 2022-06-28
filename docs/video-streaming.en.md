@@ -12,7 +12,7 @@ The primary threat when using a video streaming platform is that your streaming 
 
     ![FreeTube logo](assets/img/video-streaming/freetube.svg){ align=right }
 
-    **FreeTube** is a free and open source desktop application for [YouTube](https://youtube.com). When using FreeTube, your subscription list and playlists are saved locally on your device.
+    **FreeTube** is a free and open-source desktop application for [YouTube](https://youtube.com). When using FreeTube, your subscription list and playlists are saved locally on your device.
 
     By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
 
@@ -31,7 +31,7 @@ The primary threat when using a video streaming platform is that your streaming 
 
 !!! Warning
 
-    When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 ### LBRY
 
@@ -72,7 +72,7 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
 
     ![Newpipe logo](assets/img//video-streaming/newpipe.svg){ align=right }
 
-    **NewPipe** is a free and open source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org/) (1).
+    **NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org/) (1).
 
     Your subscription list and playlists are saved locally on your Android device.
 
@@ -105,7 +105,7 @@ It also has integration with [Return YouTube Dislike](https://returnyoutubedisli
 
 This fork is not endorsed by or affiliated with the upstream project. The NewPipe team has [rejected](https://github.com/TeamNewPipe/NewPipe/pull/3205) integration with SponsorBlock and thus this fork is created to provide this functionality.
 
-## Web-based Frontends
+## Web-based frontends
 
 ### Invidious
 
@@ -114,7 +114,7 @@ This fork is not endorsed by or affiliated with the upstream project. The NewPip
     ![Invidious logo](assets/img/video-streaming/invidious.svg#only-light){ align=right }
     ![Invidious logo](assets/img/video-streaming/invidious-dark.svg#only-dark){ align=right }
 
-    **Invidious** is a free and open source frontend for YouTube that is also self-hostable.
+    **Invidious** is a free and open-source frontend for YouTube that is also self-hostable.
 
     There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
 
@@ -126,11 +126,11 @@ This fork is not endorsed by or affiliated with the upstream project. The NewPip
 
 !!! warning
 
-    Invidious does not proxy video streams by default. Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying—simply enable *Proxy videos* within the instances's settings or add `&local=true` to the URL.
+    Invidious does not proxy video streams by default. Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying—simply enable *Proxy videos* within the instances' settings or add `&local=true` to the URL.
 
 !!! tip
 
-    Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level. It does not provide privacy by itself and we don’t recommend logging into any accounts.
+    Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
 
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Invidious, as other peoples' usage will be linked to your hosting.
 
@@ -143,7 +143,7 @@ When you are using an Invidious instance, make sure to read the privacy policy o
     ![Librarian logo](assets/img/video-streaming/librarian.svg#only-light){ align=right }
     ![Librarian logo](assets/img/video-streaming/librarian-dark.svg#only-dark){ align=right }
 
-    **Librarian** is a free and open source frontend for the LBRY/Odysee video sharing network that is also self-hostable.
+    **Librarian** is a free and open-source frontend for the LBRY/Odysee video sharing network that is also self-hostable.
     
     There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
 
@@ -170,7 +170,7 @@ When you are using a Librarian instance, make sure to read the privacy policy of
 
     ![Piped logo](assets/img/video-streaming/piped.svg){ align=right }
 
-    **Piped** is a free and open source frontend for YouTube that is also self-hostable.
+    **Piped** is a free and open-source frontend for YouTube that is also self-hostable.
 
     Piped requires JavaScript in order to function and there are a number of public instances.
 
@@ -182,7 +182,7 @@ When you are using a Librarian instance, make sure to read the privacy policy of
 
 !!! tip
 
-    Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension or to access age-restricted content without an account. It does not provide privacy by itself and we don’t recommend logging into any accounts.
+    Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension or to access age-restricted content without an account. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
 
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Piped, as other peoples' usage will be linked to your hosting.
 

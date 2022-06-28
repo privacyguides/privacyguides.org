@@ -10,7 +10,7 @@ A [firewall](https://en.wikipedia.org/wiki/Firewall_(computing)) may be used to 
 
 Red Hat distributions (such as Fedora) are typically configured through [firewalld](https://en.wikipedia.org/wiki/Firewalld). Red Hat has plenty of [documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_networking/using-and-configuring-firewalld_configuring-and-managing-networking) regarding this topic. There is also the [Uncomplicated Firewall](https://en.wikipedia.org/wiki/Uncomplicated_Firewall) which can be used as an alternative.
 
-Consider blocking all ports which are **not** [well known](https://en.wikipedia.org/wiki/Well-known_port#Well-known_ports) or “privileged ports”. That is, ports from 1025 up to 65535. Block both [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) and [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) after the operating system is installed.
+Consider blocking all ports which are **not** [well-known](https://en.wikipedia.org/wiki/Well-known_port#Well-known_ports) or “privileged ports.” That is, ports from 1025 up to 65535. Block both [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) and [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) after the operating system is installed.
 
 If you use Fedora, consider removing the whitelist for [smb](https://en.wikipedia.org/wiki/Server_Message_Block)-client and [mdns](https://en.wikipedia.org/wiki/Multicast_DNS) services if you do not use them.
 
@@ -36,7 +36,7 @@ Some distributions like Arch Linux have the [linux-hardened](https://github.com/
 
 ## Linux Kernel Runtime Guard (LKRG)
 
-LKRG is a kernel module that performs runtime integrity check on the kernel to help detect detect exploits against the kernel. LKRG works in a *post*-detect fashion, attempting to respond to unauthorized modifications to the running Linux kernel. While it is [bypassable by design](https://lkrg.org/), it does stop off-the-shelf malware that does not specifically target LKRG itself. This may make exploits harder to develop and execute on vulnerable systems.
+LKRG is a kernel module that performs runtime integrity check on the kernel to help detect exploits against the kernel. LKRG works in a *post*-detect fashion, attempting to respond to unauthorized modifications to the running Linux kernel. While it is [bypassable by design](https://lkrg.org/), it does stop off-the-shelf malware that does not specifically target LKRG itself. This may make exploits harder to develop and execute on vulnerable systems.
 
 If you can get LKRG and maintain module updates it provides a worthwhile improvement to security. Debian based distributions can get the LKRG DKMS from KickSecure's secure repository and the [KickSecure documentation](https://www.kicksecure.com/wiki/Linux_Kernel_Runtime_Guard_LKRG) has instructions on how this can be achieved. There is no LKRG package for Fedora yet, however the Qubes OS project has a COPR repository which [may become](https://github.com/QubesOS/qubes-issues/issues/5461) part of the main distribution in the future. Archlinux based systems provide LKRG DKMS modules via an [AUR package](https://aur.archlinux.org/packages/lkrg-dkms).
 
@@ -80,7 +80,7 @@ On systems where [`pam_faillock`](https://man7.org/linux/man-pages/man8/pam_tall
 
 ## USB port protection
 
-To better protect your [USB](https://en.wikipedia.org/wiki/USB) ports from attacks such as [BadUSB](https://en.wikipedia.org/wiki/BadUSB) we recommend [USBGuard](https://github.com/USBGuard/usbguard). USBGuard has [documentation](https://github.com/USBGuard/usbguard#documentation) as does the [Arch Wiki](https://wiki.archlinux.org/title/USBGuard).
+To better protect your [USB](https://en.wikipedia.org/wiki/USB) ports from attacks such as [BadUSB](https://en.wikipedia.org/wiki/BadUSB), we recommend [USBGuard](https://github.com/USBGuard/usbguard). USBGuard has [documentation](https://github.com/USBGuard/usbguard#documentation) as does the [Arch Wiki](https://wiki.archlinux.org/title/USBGuard).
 
 Another alternative option if you’re using the [linux-hardened](#linux-hardened) is the [`deny_new_usb`](https://github.com/GrapheneOS/linux-hardened/commit/96dc427ab60d28129b36362e1577b6673b0ba5c4) sysctl. See [Preventing USB Attacks with `linux-hardened`](https://blog.lizzie.io/preventing-usb-attacks-with-linux-hardened.html).
 
@@ -88,11 +88,11 @@ Another alternative option if you’re using the [linux-hardened](#linux-hardene
 
 [Secure Boot](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface#Secure_Boot) can be used to secure the boot process by preventing the loading of [unsigned](https://en.wikipedia.org/wiki/Public-key_cryptography) [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) drivers or [boot loaders](https://en.wikipedia.org/wiki/Bootloader). Some guidance for this is provided in [this physical security guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html#physical-security) and [this verified boot guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html#verified-boot).
 
-For further resources on Secure Boot we suggest taking a look at the following for instructional advice:
+For further resources on Secure Boot, we suggest taking a look at the following for instructional advice:
 
 - The Archwiki’s [Secure Boot](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot) article. There are two main methods, the first is to use a [shim](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot#shim), the second more complete way is to [use your own keys](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot#Using_your_own_keys).
 
-For background of how Secure Boot works on Linux:
+For the background of how Secure Boot works on Linux:
 
 - [The Strange State of Authenticated Boot and Disk Encryption on Generic Linux Distributions](https://0pointer.net/blog/authenticated-boot-and-disk-encryption-on-linux.html)
 - [Rod Smith’s Managing EFI Boot Loaders for Linux](https://www.rodsbooks.com/efi-bootloaders/)

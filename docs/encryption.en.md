@@ -2,7 +2,7 @@
 title: "Encryption Software"
 icon: material/file-lock
 ---
-Encryption of data is the only way to control who can access it. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
+Encryption of data is the only way to control who can access it. If you are currently not using encryption software for your hard disk, emails or files, you should pick an option here.
 
 ## Multi-platform
 
@@ -32,9 +32,9 @@ The options listed here are multi-platform and great for creating encrypted back
         - [:fontawesome-brands-android: Android](https://cryptomator.org/android)
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
 
-Cryptomator utilizes AES-256 encryption to encrypt both files and filenames. Cryptomator cannot encrypt some metadata such as access, modification, and creation timestamps, nor the number and size of files and folders.
+Cryptomator utilizes AES-256 encryption to encrypt both files and filenames. Cryptomator cannot encrypt metadata such as access, modification, and creation timestamps, nor the number and size of files and folders.
 
-Some Cryptomator cryptographic libraries have been [audited](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) by Cure53. The scope of the audited libraries include: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) and [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). The audit did not extend to [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), which is a library used by Cryptomator for iOS.
+Some Cryptomator cryptographic libraries have been [audited](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) by Cure53. The scope of the audited libraries includes: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) and [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). The audit did not extend to [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), which is a library used by Cryptomator for iOS.
 
 Cryptomator's documentation details its intended [security target](https://docs.cryptomator.org/en/latest/security/security-target/), [security architecture](https://docs.cryptomator.org/en/latest/security/architecture/), and [best practices](https://docs.cryptomator.org/en/latest/security/best-practices/) for use in further detail.
 
@@ -80,7 +80,7 @@ VeraCrypt is a fork of the discontinued TrueCrypt project. According to its deve
 
 When encrypting with VeraCrypt, you have the option to select from different [hash functions](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). We suggest you **only** select [SHA-512](https://en.wikipedia.org/wiki/SHA-512) and stick to the [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) block cipher.
 
-Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits) and VeraCrypt has also been [audited seperately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
+Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
 ## OS Full Disk Encryption
 
@@ -96,13 +96,13 @@ Modern operating systems include [FDE](https://en.wikipedia.org/wiki/Disk_encryp
 
     [:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentation}
 
-BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on Pro, Enterprise, and Education editions of Windows. It can be enabled on Home editions provided that they meet the prerequisites.
+BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on Pro, Enterprise and Education editions of Windows. It can be enabled on Home editions provided that they meet the prerequisites.
 
 ??? example "Enabling BitLocker on Windows Home"
 
-    To enable BitLocker on "Home" editions of Windows, you must partitions formatted with formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module.
+    To enable BitLocker on "Home" editions of Windows, you must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module.
 
-    1. Open Windows [PowerShell](https://en.wikipedia.org/wiki/PowerShell). Start "PowerShell"
+    1. Open Windows [PowerShell](https://en.wikipedia.org/wiki/PowerShell).
 
     2. Check to see partition table format:
         ```
@@ -206,7 +206,7 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
     ![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }
 
-    **Kryptor** is a free and open source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign/) to provide a simple, easier alternative to GPG.
+    **Kryptor** is a free and open-source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign/) to provide a simple, easier alternative to GPG.
 
     [:octicons-home-16: Homepage](https://www.kryptor.co.uk){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="Privacy Policy" }

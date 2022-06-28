@@ -104,7 +104,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 
 ??? info "Additional Functionality"
 
-    You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
+    You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). However, their webmail interface cannot be accessed via their .onion service and you may experience TLS certificate errors.
 
     All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
@@ -212,13 +212,13 @@ Using a dedicated email aliasing service also has a number of benefits over a ca
 
 They also have a number of benefits over "temporary email" services:
 
-- Aliases are permanent, and can be turned on again if you need to receive something like a password reset.
+- Aliases are permanent and can be turned on again if you need to receive something like a password reset.
 - Emails are sent to your trusted mailbox rather than stored by the alias provider.
 - Temporary email services typically have public mailboxes which can be accessed by anyone who knows the address, aliases are private to you.
 
 Our email aliasing recommendations are providers that allow you to create aliases on domains they control, as well as your own custom domain(s) for a modest yearly fee. They can also be self-hosted if you want maximum control. However, using a custom domain can have privacy-related drawbacks: If you are the only person using your custom domain, your actions can be easily tracked across websites simply by looking at the domain name in the email address and ignoring everything before the at (@) sign.
 
-Using an aliasing service requires trusting both your email provider and your aliasing provider with your unencrypted messages. Some providers mitigate this slightly with automatic PGP encryption, which reduces the number of parties you need to trust from 2 to 1 by encrypting incoming emails before they are delivered to your final mailbox provider.
+Using an aliasing service requires trusting both your email provider and your aliasing provider with your unencrypted messages. Some providers mitigate this slightly with automatic PGP encryption, which reduces the number of parties you need to trust from two to one by encrypting incoming emails before they are delivered to your final mailbox provider.
 
 ### AnonAddy
 
@@ -284,7 +284,7 @@ Notable free features:
 
 ## Self-Hosting Email
 
-Advanced system administrators may consider setting up their own email server. Mailservers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.
+Advanced system administrators may consider setting up their own email server. Mail servers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.
 
 ### Combined software solutions
 
@@ -292,7 +292,7 @@ Advanced system administrators may consider setting up their own email server. M
 
     ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
 
-    **Mailcow** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: A mailserver with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
+    **Mailcow** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: A mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
     [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
     [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentation}
@@ -309,7 +309,7 @@ Advanced system administrators may consider setting up their own email server. M
     [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
 
-For a more manual approach we've picked out these two articles.
+For a more manual approach we've picked out these two articles:
 
 - [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
 - [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
@@ -328,8 +328,8 @@ We regard these features as important in order to provide a safe and optimal ser
 
 **Best Case:**
 
-- Encrypts all account data (Contacts, Calendars etc) at rest with zero-access encryption.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy etc.
+- Encrypts all account data (Contacts, Calendars, etc) at rest with zero-access encryption.
+- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
 - Integrated webmail E2EE/PGP encryption provided as a convenience.
 - Support for [WKD](https://wiki.gnupg.org/WKD) to allow improved discovery of public OpenPGP keys via HTTP.
     GnuPG users can get a key by typing: `gpg --locate-key example_user@example.com`
@@ -346,7 +346,7 @@ We prefer our recommended providers to collect as little data as possible.
 **Minimum to Qualify:**
 
 - Protect sender's IP address. Filter it from showing in the `Received` header field.
-- Don't require personally identifiable information (PII) besides username and password.
+- Don't require personally identifiable information (PII) besides a username and a password.
 - Privacy policy that meets the requirements defined by the GDPR
 - Must not be hosted in the US due to [ECPA](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act#Criticism) which has [yet to be reformed](https://epic.org/ecpa/).
 
@@ -376,7 +376,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 
 **Best Case:**
 
-- Support for hardware authentication, ie U2F and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate people, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
+- Support for hardware authentication, i.e. U2F and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate people, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
 - Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), this is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
 - Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
@@ -403,14 +403,14 @@ With the email providers we recommend we like to see responsible marketing.
 
 **Minimum to Qualify:**
 
-- Must self-host analytics (no Google Analytics etc). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt-out.
+- Must self-host analytics (no Google Analytics, Adobe Analytics, etc). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt-out.
 
 Must not have any marketing which is irresponsible:
 
-- Claims of "unbreakable encryption". Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
+- Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
 - Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
 
-- Reusing personal information e.g. (email accounts, unique pseudonyms etc) that they accessed without anonymity software (Tor, VPN etc)
+- Reusing personal information e.g. (email accounts, unique pseudonyms, etc) that they accessed without anonymity software (Tor, VPN, etc)
 - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Best Case:**
