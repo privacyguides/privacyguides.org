@@ -345,7 +345,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 - ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji } [KeePassXC](passwords.md#keepassxc)
 - ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ .twemoji } [Bitwarden](passwords.md#bitwarden)
 - ![Vaultwarden logo](assets/img/password-management/vaultwarden.svg#only-light){ .twemoji }![Vaultwarden logo](assets/img/password-management/vaultwarden-dark.svg#only-dark){ .twemoji } [Vaultwarden (Bitwarden Server)](passwords.md#bitwarden)
-- ![Psono logo](assets/img/password-management/psono.svg){ .twemoji } [Psono](passwords.md#psono)
 - ![gopass logo](assets/img/password-management/gopass.svg){ .twemoji } [gopass](passwords.md#gopass)
 
 </div>
