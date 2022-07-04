@@ -44,6 +44,7 @@
 *[MEID]: Mobile Equipment Identifier
 *[MFA]: Multi-Factor Authentication
 *[NVMe]: Nonvolatile Memory Express
+*[NTP]: Network Time Protocol
 *[OCI]: Open Container Initiative
 *[OCSP]: Online Certificate Status Protocol
 *[OEM]: Original Equipment Manufacturer
@@ -53,6 +54,7 @@
 *[OTPs]: One-Time Passwords
 *[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
 *[P2P]: Peer-to-Peer
+*[PAM]: Linux Pluggable Authentication Modules
 *[PGP]: Pretty Good Privacy (see OpenPGP)
 *[PII]: Personally Identifiable Information
 *[QNAME]: Qualified Name
@@ -64,6 +66,7 @@
 *[SNI]: Server Name Indication
 *[SSD]: Solid-State Drive
 *[SSH]: Secure Shell
+*[SUID]: Set Owner User ID
 *[SaaS]: Software as a Service (cloud software)
 *[SoC]: System on Chip
 *[TCP]: Transmission Control Protocol
@@ -72,6 +75,7 @@
 *[TOTP]: Time-based One-Time Password
 *[TPM]: Trusted Platform Module
 *[U2F]: Universal 2nd Factor
+*[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: User Datagram Protocol
 *[VPN]: Virtual Private Network
 *[VoIP]: Voice over IP (Internet Protocol)
@@ -80,5 +84,6 @@
 *[attack surface]: The attack surface of software or hardware is the sum of the different places an attacker can try to enter data to or extract data from.
 *[cgroups]: Control Groups
 *[fork]: In software development, a fork is created when developers take a copy of source code from one software package and start independent development on it, creating a distinct and separate piece of software.
+*[hypervisor]: A hypervisor is computer software, firmware, or hardware that allows partitioning the resource of a CPU among multiple operating systems or independent programs.
 *[rolling release]: An update release cycle in which updates are released very frequently, instead of at set intervals.
 *[walled garden]: A walled garden (or closed platform) is one in which the service provider has control over applications, content, and/or media, and restricts convenient access to non-approved applicants or content.

@@ -10,9 +10,14 @@ A [firewall](https://en.wikipedia.org/wiki/Firewall_(computing)) may be used to 
 
 Red Hat distributions (such as Fedora) are typically configured through [firewalld](https://en.wikipedia.org/wiki/Firewalld). Red Hat has plenty of [documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_networking/using-and-configuring-firewalld_configuring-and-managing-networking) regarding this topic. There is also the [Uncomplicated Firewall](https://en.wikipedia.org/wiki/Uncomplicated_Firewall) which can be used as an alternative.
 
-Consider blocking all ports which are **not** [well-known](https://en.wikipedia.org/wiki/Well-known_port#Well-known_ports) or “privileged ports.” That is, ports from 1025 up to 65535. Block both [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) and [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) after the operating system is installed.
+You could also set your default firewall zone to drop packets. If you're on a Redhat based distribution, such as Fedora this can be done with the following commands:
 
-If you use Fedora, consider removing the whitelist for [smb](https://en.wikipedia.org/wiki/Server_Message_Block)-client and [mdns](https://en.wikipedia.org/wiki/Multicast_DNS) services if you do not use them.
+!!! Example
+    ```
+    firewall-cmd --set-default-zone=drop;
+    firewall-cmd --add-protocol=ipv6-icmp --permanent;
+    firewall-cmd --add-service=dhcpv6-client --permanent;
+    ```
 
 All these firewalls use the [Netfilter](https://en.wikipedia.org/wiki/Netfilter) framework and therefore cannot protect against malicious programs running on the system. A malicious program could insert its own rules.
 
@@ -22,13 +27,14 @@ If you are using non-classic [Snap](https://en.wikipedia.org/wiki/Snap_(package_
 
 ## Kernel hardening
 
-There are some additional kernel hardening options such as configuring [sysctl](https://en.wikipedia.org/wiki/Sysctl#Linux) keys and [kernel command-line parameters](https://www.kernel.org/doc/html/latest/admin-guide/kernel-parameters.html) which are described in the following pages. We don’t recommend you change these options unless you learn about what they do.
+Kernel hardening options such as configuring [sysctl](https://en.wikipedia.org/wiki/Sysctl#Linux) keys and [kernel command-line parameters](https://www.kernel.org/doc/html/latest/admin-guide/kernel-parameters.html) can help harden your system. We suggest looking at the following [sysctl settings](https://madaidans-insecurities.github.io/guides/linux-hardening.html#sysctl) and [boot parameters](https://madaidans-insecurities.github.io/guides/linux-hardening.html#boot-parameters).
 
-- [Recommended sysctl settings](https://madaidans-insecurities.github.io/guides/linux-hardening.html#sysctl)
-- [Recommended boot parameters](https://madaidans-insecurities.github.io/guides/linux-hardening.html#boot-parameters)
-- [Additional recommendations to reduce the kernel's attack surface](https://madaidans-insecurities.github.io/guides/linux-hardening.html#kernel-attack-surface-reduction)
+We **strongly** recommend that you learn what these options do before applying them. There are also some methods of [kernel attack surface reduction](https://madaidans-insecurities.github.io/guides/linux-hardening.html#kernel-attack-surface-reduction) and [access restrictions to sysfs](https://madaidans-insecurities.github.io/guides/linux-hardening.html#restricting-sysfs) that can further improve security.
 
-Do **not** disable unprivileged user namespaces if you use software that relies on it, like: Podman, Docker and LXC containers. The option will prevent this software from working.
+!!! Note
+    Unprivileged [user namespaces](https://madaidans-insecurities.github.io/linux.html#kernel) can be disabled, due to it being responsible for various privileged escalation vulnerabilities. Some software such as Docker, Podman, and LXC require unprivileged user namespaces to function. If you use these tools you should not disable `kernel.unprivileged_userns_clone`.
+
+    Disabling access to `/sys` without a proper whitelist will lead to various applications breaking. This will unfortunately be an extremely tedious process for most users. Kicksecure, and by extension, Whonix, has an experimental [hide hardware info service](https://github.com/Kicksecure/security-misc/blob/master/lib/systemd/system/hide-hardware-info.service) which does just this. From our testing, these work perfectly fine on minimal Kicksecure installations and both Qubes-Whonix Workstation and Gateway. If you are using Kicksecure or Whonix, we recommend that you follow the [Kicksecure Wiki](https://www.kicksecure.com/wiki/Security-misc) to enable hide hardware info service.
 
 ## Linux-Hardened
 
@@ -38,11 +44,13 @@ Some distributions like Arch Linux have the [linux-hardened](https://github.com/
 
 LKRG is a kernel module that performs runtime integrity check on the kernel to help detect exploits against the kernel. LKRG works in a *post*-detect fashion, attempting to respond to unauthorized modifications to the running Linux kernel. While it is [bypassable by design](https://lkrg.org/), it does stop off-the-shelf malware that does not specifically target LKRG itself. This may make exploits harder to develop and execute on vulnerable systems.
 
-If you can get LKRG and maintain module updates it provides a worthwhile improvement to security. Debian based distributions can get the LKRG DKMS from KickSecure's secure repository and the [KickSecure documentation](https://www.kicksecure.com/wiki/Linux_Kernel_Runtime_Guard_LKRG) has instructions on how this can be achieved. There is no LKRG package for Fedora yet, however the Qubes OS project has a COPR repository which [may become](https://github.com/QubesOS/qubes-issues/issues/5461) part of the main distribution in the future. Archlinux based systems provide LKRG DKMS modules via an [AUR package](https://aur.archlinux.org/packages/lkrg-dkms).
+If you can get LKRG and maintain module updates, it provides a worthwhile improvement to security. Debian based distributions can get the LKRG DKMS package from KickSecure's secure repository and the [KickSecure documentation](https://www.kicksecure.com/wiki/Linux_Kernel_Runtime_Guard_LKRG) has instructions.
+
+On Fedora, [fepitre](https://github.com/fepitre), a QubesOS developer has a [COPR repository](https://copr.fedorainfracloud.org/coprs/fepitre/lkrg/) where you can install it. Arch based systems can obtain the LKRG DKMS package via an [AUR package](https://aur.archlinux.org/packages/lkrg-dkms).
 
 ## GRSecurity
 
-GRSecurity is a set of kernel patches that attempt to improve security of the Linux kernel.  It requires [payment to access](https://github.com/QubesOS/qubes-issues/issues/5461) the code.
+GRSecurity is a set of kernel patches that attempt to improve security of the Linux kernel. It requires [payment to access](https://grsecurity.net/purchase) the code and is worth using if you have a subscription.
 
 ## Simultaneous multithreading (SMT)
 
@@ -66,9 +74,25 @@ These flags could also be applied to `/home` and `/root` as well, however, `noex
 
 If you use [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/), `/var/log/journal` must not have any of those options. If you are on Arch Linux, do not apply `noexec` to `/var/tmp`.
 
+## Disabling SUID
+
+SUID allows a user to execute an application as the owner of that application, which in many cases, would be the `root` user. Vulnerable SUID executables could lead to privilege escalation vulnerabilities.
+
+It is desirable to remove SUID from as many binaries as possible; however, this takes substantial effort and trial and error on the user's part, as some applications require SUID to function.
+
+Kicksecure, and by extension, Whonix has an experimental [permission hardening service](https://github.com/Kicksecure/security-misc/blob/master/lib/systemd/system/permission-hardening.service) and [application whitelist](https://github.com/Kicksecure/security-misc/tree/master/etc/permission-hardening.d) to automate SUID removal from most binaries and libraries on the system. From our testing, these work perfectly fine on a minimal Kicksecure installation and both Qubes-Whonix Workstation and Gateway.
+
+If you are using Kicksecure or Whonix, we recommend that you follow the [Kicksecure Wiki](https://www.kicksecure.com/wiki/SUID_Disabler_and_Permission_Hardener) to enable the permission hardener.
+
+Users of other distributions can adapt the permission hardener to their own system based on the source code linked above.
+
+## Secure Time Synchronization
+
+Most Linux distributions by default (especially Arch based distributions with `systemd-timesyncd`) use un-encrypted NTP for time synchronization. Securing NTP can be achieved by [configuring NTS with chronyd](https://fedoramagazine.org/secure-ntp-with-nts/) or by using [swdate](https://github.com/Kicksecure/sdwdate) on Debian based distributions.
+
 ## Linux Pluggable Authentication Modules (PAM)
 
-There is also further hardening to [PAM](https://en.wikipedia.org/wiki/Linux_PAM) to secure authentication to your system. [This guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html#pam) has some tips on this.
+The security of [PAM](https://en.wikipedia.org/wiki/Linux_PAM) can be [hardened](https://madaidans-insecurities.github.io/guides/linux-hardening.html#pam) to allow secure authentication to your system.
 
 On Red Hat distributions you can use [`authselect`](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_authentication_and_authorization_in_rhel/configuring-user-authentication-using-authselect_configuring-authentication-and-authorization-in-rhel) to configure this e.g.:
 
@@ -86,24 +110,24 @@ Another alternative option if you’re using the [linux-hardened](#linux-hardene
 
 ## Secure Boot
 
-[Secure Boot](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface#Secure_Boot) can be used to secure the boot process by preventing the loading of [unsigned](https://en.wikipedia.org/wiki/Public-key_cryptography) [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) drivers or [boot loaders](https://en.wikipedia.org/wiki/Bootloader). Some guidance for this is provided in [this physical security guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html#physical-security) and [this verified boot guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html#verified-boot).
+[Secure Boot](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface#Secure_Boot) can be used to secure the boot process by preventing the loading of [unsigned](https://en.wikipedia.org/wiki/Public-key_cryptography) [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) drivers or [boot loaders](https://en.wikipedia.org/wiki/Bootloader).
 
-For further resources on Secure Boot, we suggest taking a look at the following for instructional advice:
+One of the problems with Secure Boot, particularly on Linux is, that only the [chainloader](https://en.wikipedia.org/wiki/Chain_loading#Chain_loading_in_boot_manager_programs) (shim), the [boot loader](https://en.wikipedia.org/wiki/Bootloader) (GRUB), and the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)) are verified and that's where verification stops. The [initramfs](https://en.wikipedia.org/wiki/Initial_ramdisk) is often left unverified, unencrypted, and open up the window for an [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attack. The firmware on most devices is also configured to trust Microsoft's keys for Windows and its partners, leading to a large attacks surface.
 
-- The Archwiki’s [Secure Boot](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot) article. There are two main methods, the first is to use a [shim](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot#shim), the second more complete way is to [use your own keys](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot#Using_your_own_keys).
+To eliminate the need to trust Microsoft's keys, follow the "Using your own keys" section on the [Arch Wiki](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot). The important thing that needs to be done here is to replace the OEM's key with your own Platform Key.
 
-For the background of how Secure Boot works on Linux:
+There are several ways to work around the unverified initramfs:
 
-- [The Strange State of Authenticated Boot and Disk Encryption on Generic Linux Distributions](https://0pointer.net/blog/authenticated-boot-and-disk-encryption-on-linux.html)
-- [Rod Smith’s Managing EFI Boot Loaders for Linux](https://www.rodsbooks.com/efi-bootloaders/)
-- [Dealing with Secure Boot](https://www.rodsbooks.com/efi-bootloaders/secureboot.html)
-- [Controlling Secure Boot](https://www.rodsbooks.com/efi-bootloaders/controlling-sb.html)
+The first way is to [encrypt the /boot partition](https://wiki.archlinux.org/title/GRUB#Encrypted_/boot). If you are on Fedora Workstation (not Silverblue), you can follow [this guide](https://mutschler.eu/linux/install-guides/fedora-btrfs-33/) to convert the existing installation to encrypted `/boot`. openSUSE comes with this that by default.
 
-One of the problems with Secure Boot particularly on Linux is that only the [chainloader](https://en.wikipedia.org/wiki/Chain_loading#Chain_loading_in_boot_manager_programs) (shim), the [boot loader](https://en.wikipedia.org/wiki/Bootloader) (GRUB), and the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)) are verified and that’s where verification stops. The [initramfs](https://en.wikipedia.org/wiki/Initial_ramdisk) is often left unverified, unencrypted, and open up the window for an [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attack. There are a few things that can be done to reduce risk such as:
+Encrypting `/boot` however have its own issues, one being that [GRUB](https://en.wikipedia.org/wiki/GNU_GRUB) only supports [LUKS1](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) and not the newer default LUKS2 scheme. As the bootloader runs in [protected mode](https://en.wikipedia.org/wiki/Protected_mode) and the encryption module lacks [SSE acceleration](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions) so the boot process will take minutes to complete. Another problem with this is that you have to type the encryption password twice, which could be solved by following the [openSUSE Wiki](https://en.opensuse.org/SDB:Encrypted_root_file_system#Avoiding_to_type_the_passphrase_twice).
 
-- Creating an [EFI Boot Stub](https://docs.kernel.org/admin-guide/efi-stub.html) that contains the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)), [initramfs](https://en.wikipedia.org/wiki/Initial_ramdisk) and [microcode](https://en.wikipedia.org/wiki/Microcode). This EFI stub can then be signed. If you use [dracut](https://en.wikipedia.org/wiki/Dracut_(software)) this can easily be done with the [`--uefi-stub` switch](https://man7.org/linux/man-pages/man8/dracut.8.html) or the [`uefi_stub` config](https://www.man7.org/linux/man-pages/man5/dracut.conf.5.html) option.
-- [Encrypting the boot partition](https://wiki.archlinux.org/title/GRUB#Encrypted_/boot). However, this has its own issues, the first being that [GRUB](https://en.wikipedia.org/wiki/GNU_GRUB) only supports [LUKS1](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) and not the newer default LUKS2 scheme. As the bootloader runs in [protected mode](https://en.wikipedia.org/wiki/Protected_mode) and the encryption module lacks [SSE acceleration](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions) the boot process will take minutes to complete.
-- Using TPM to perform a [measured boot](https://www.krose.org/~krose/measured_boot).
+There are a few options depending on your configuration:
+
+- If you enroll your own keys as described above, and your distribution supports Secure Boot by default, you can add your distribution's EFI Key into the list of trusted keys (db keys). It can then be enrolled into the firmware. Then, you should move all of your keys off your local storage device.
+- If you enroll your own keys as described above, and your distribution does **not** support Secure Boot out of the box (like Arch Linux), you have to leave the keys on the disk and setup automatic signing of the [kernel](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot#Signing_the_kernel_with_a_pacman_hook) and bootloader. If you are using Grub, you can install it with the `--no-shim-lock` option and remove the need for the chainloader.
+
+The second option is to creating an [EFI Boot Stub](https://wiki.archlinux.org/title/Unified_kernel_image) that contains the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)), [initramfs](https://en.wikipedia.org/wiki/Initial_ramdisk), and [microcode](https://en.wikipedia.org/wiki/Microcode). This EFI stub can then be signed. If you use [dracut](https://en.wikipedia.org/wiki/Dracut_(software)) this can easily be done with the [`--uefi-stub` switch](https://man7.org/linux/man-pages/man8/dracut.8.html) or the [`uefi_stub` config](https://www.man7.org/linux/man-pages/man5/dracut.conf.5.html) option. This option also requires you to leave the keys on the disk to setup automatic signing, which weakens the security model.
 
 After setting up Secure Boot it is crucial that you set a “firmware password” (also called a “supervisor password, “BIOS password” or “UEFI password”), otherwise an adversary can simply disable Secure Boot.
 

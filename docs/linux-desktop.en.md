@@ -116,13 +116,13 @@ Nix is a source-based package manager; if there’s no pre-built available in th
     [:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=Documentation}
     [:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=Contribute }
 
-Whonix is meant to run as two virtual machines: a “Workstation” and a Tor “Gateway.” All communications from the Workstation has to go through the Tor gateway and will be routed through the Tor Network.
+Whonix is meant to run as two virtual machines: a “Workstation” and a Tor “Gateway.” All communications from the Workstation must go through the Tor gateway. This means that even if the Workstation is compromised by malware of some kind, the true IP address remains hidden.
 
 Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator.
 
 Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
-Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers).
+Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers), Qubes-Whonix has various [disadvantages](https://forums.whonix.org/t/qubes-whonix-security-disadvantages-help-wanted/8581) when compared to other hypervisors.
 
 ### Tails
 
@@ -139,5 +139,7 @@ Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qube
     [:octicons-heart-16:](https://tails.boum.org/donate/){ .card-link title=Contribute }
 
 By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.boum.org/doc/first_steps/persistence/index.en.html) can be configured to store some data.
+
+Tails is great for counter forensics due to amnesia (meaning nothing is written to the disk); it is not a hardened distribution like Whonix. It lacks many anonymity and security features that Whonix has and gets updated much less often (only once every six weeks). A Tails system that is compromised by malware may potentially bypass the transparent proxy allowing for the user to be deanonymized.
 
 --8<-- "includes/abbreviations.en.md"
