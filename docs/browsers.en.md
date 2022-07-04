@@ -155,6 +155,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 <div class="annotate" markdown>
 
+- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
 - [x] Select **Aggressive** under Trackers & ads blocking
 
     ??? warning "Use default filter lists"
