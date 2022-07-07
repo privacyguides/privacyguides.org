@@ -369,6 +369,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <div class="grid cards" markdown>
 
 - ![Signal logo](assets/img/messengers/signal.svg){ .twemoji } [Signal](real-time-communication.md#signal)
+- ![Molly logo](assets/img/messengers/molly.svg){ .twemoji } [Molly (Hardened Signal fork for Android)](/advanced/signal-configuration-hardening/#hardening-signal-with-molly-on-android)
 - ![Element logo](assets/img/messengers/element.svg){ .twemoji } [Element](real-time-communication.md#element)
 - ![Session logo](assets/img/messengers/session.svg){ .twemoji } [Session](real-time-communication.md#session)
 - ![Briar logo](assets/img/messengers/briar.svg){ .twemoji } [Briar (Android)](real-time-communication.md#briar)

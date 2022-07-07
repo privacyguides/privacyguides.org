@@ -168,6 +168,7 @@ nav:
     - 'Advanced':
       - 'advanced/integrating-metadata-removal.md'
       - 'advanced/erasing-data.md'
+      - 'advanced/signal-configuration-hardening.md'
   - 'Recommendations':
     - 'tools.md'
     - 'Browsers':

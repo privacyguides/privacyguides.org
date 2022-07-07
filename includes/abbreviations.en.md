@@ -16,6 +16,7 @@
 *[EEA]: European Economic Area
 *[EOL]: End-of-Life
 *[Exif]: Exchangeable image file format
+*[FCM]: Firebase Cloud Messaging
 *[FDE]: Full Disk Encryption
 *[FIDO]: Fast IDentity Online
 *[GDPR]: General Data Protection Regulation
