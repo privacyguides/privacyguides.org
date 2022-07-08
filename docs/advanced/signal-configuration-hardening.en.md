@@ -3,9 +3,9 @@ title: "Signal Configuration and Hardening"
 icon: 'material/chat-processing'
 ---
 
-[Signal](../real-time-communication.md#signal) is a widely regarded instant messaging service that is not only easy to use but is also private and secure. Signal's strong E2EE implementation and metadata protections provide a level of assurance that only you and the intended recipients are able to read communications.
+[Signal](../real-time-communication.md#signal) is a widely regarded instant messaging service that is not only easy to use but is also private and secure. Signal's strong E2EE implementation and metadata protections provide a level of assurance that only you and your intended recipients are able to read communications.
 
-This guide details actions you can take to configure and set up Signal in accordance with your [threat model](../basics/threat-modeling.md).
+This guide details actions you can take to configure and harden Signal in accordance with your [threat model](../basics/threat-modeling.md).
 
 ## Signal Configuration
 
@@ -215,7 +215,7 @@ We recommend an up-to-date [GrapheneOS](/android/#grapheneos) or iOS device.
 
 Molly offers two variants of the app: **Molly** and **Molly-FOSS**.
 
-The former is identical to Signal with the addition of Molly's improvements and security features. The latter, Molly-FOSS, removes Google's proprietary code, ([FCM](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) and Google Maps intergration), which is used for some key features, in an effort to make it fully open-source.
+The former is identical to Signal with the addition of Molly's improvements and security features. The latter, Molly-FOSS, removes Google's proprietary code, which is used for some key features (e.g., [FCM](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) and Google Maps integration), in an effort to make it fully open-source.
 
 A comparison of the two versions is available in the [project's repository](https://github.com/mollyim/mollyim-android#readme).
 
