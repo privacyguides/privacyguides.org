@@ -91,24 +91,6 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
         - [:pg-f-droid: F-Droid](https://f-droid.org/packages/eu.faircode.email/)
 
-### GNOME Evolution (GNOME)
-
-!!! recommendation
-
-    ![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
-
-    **Evolution** is a personal information management application that provides integrated mail, calendaring and address book functionality. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable/) to help you get started.
-
-    [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://help.gnome.org/users/evolution/stable/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.gnome.Evolution)
-
 ### K-9 Mail (Android)
 
 !!! recommendation
@@ -130,25 +112,6 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
         - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.fsck.k9)
         - [:fontawesome-brands-github: GitHub](https://github.com/k9mail/k-9/releases)
-
-### Kontact (KDE)
-
-!!! recommendation
-
-    ![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }
-
-    **Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. It provides a mail client, address book, organizer and RSS client.
-
-    [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kontact.kde.org/users/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:fontawesome-brands-linux: Linux](https://kontact.kde.org/download)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.kde.kontact)
 
 ### Mailvelope (Browser)
 
