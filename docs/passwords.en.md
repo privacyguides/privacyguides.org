@@ -62,7 +62,7 @@ These password managers store the password database locally.
 
     ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
 
-    **KeePassDX** is a lightweight password manager for Android, allows editing encrypted data in a single file in KeePass format and can fill in the forms in a secure way. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) allows unlocking cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
+    **KeePassDX** is a lightweight password manager for Android that allows you to edit encrypted data in KeePass format. It can also fill in forms in a secure way. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) allows unlocking cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
     [:octicons-home-16: Homepage](https://www.keepassdx.com){ .md-button .md-button--primary }
     [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
