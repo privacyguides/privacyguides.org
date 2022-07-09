@@ -221,6 +221,72 @@ On Android, Firefox is still less secure than Chromium-based alternatives: Mozil
 
 On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so there is little reason to use a third-party web browser.
 
+### Brave (Android)
+
+!!! recommendation
+
+    ![Brave logo](assets/img/browsers/brave.svg){ align=right }
+
+    **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features/), many of which are enabled by default.
+
+    Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+
+    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+    [:pg-tor:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title=Onion }
+    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+
+    ??? downloads annotate
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
+
+#### Recommended Configuration
+
+Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](#tor-browser) will be traceable by *somebody* in some regard or another.
+
+These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**
+
+##### Shields
+
+Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
+
+Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+
+<div class="annotate" markdown>
+
+- [x] Select **Aggressive** under Block trackers & ads
+
+    ??? warning "Use default filter lists"
+        Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
+
+</div>
+
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
+
+##### Social Media Blocking
+
+- [ ] Uncheck all social media components
+
+##### IPFS
+
+InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+
+- [ ] Uncheck **IPFS Gateway**
+
+##### Other privacy settings
+
+- [x] Select **Disable Non-Proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [x] Select **Always use secure connections**
+- [x] Select **Close tabs on exit**
+- [x] Select **Clear data on exit**
+
 ### Safari
 
 !!! recommendation
