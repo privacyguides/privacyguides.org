@@ -99,7 +99,7 @@ These password managers store the password database locally.
         - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
         - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
 
-KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files. This may mean data loss if you import this file into another password manager. We advise you check each record manually.
+KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files. You may lose data if you import this file into another password manager. We advise you check each record manually.
 
 ## Minimal Password Managers
 
