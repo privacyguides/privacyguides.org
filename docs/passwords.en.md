@@ -81,7 +81,8 @@ These password managers store the password database locally.
 
     ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
 
-    **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, fully cross-platform and modern open-source password manager.
+    **KeePassXC** is a community for of KeePassX, a native cross-platform port of KeePass Password Safe. Its goal is to extend and improve on its predecessor with new features and bug fixes.
+
 
     [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
