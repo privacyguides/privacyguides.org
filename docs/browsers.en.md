@@ -125,8 +125,6 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
 
     Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
 
-    We don't recommend Brave's mobile browser offerings as there are better [options](#mobile-recommendations) for mobile platforms.
-
     [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
     [:pg-tor:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title=Onion }
     [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
@@ -222,42 +220,6 @@ Under the *System* menu
 On Android, Firefox is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview/), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
 
 On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so there is little reason to use a third-party web browser.
-
-### Bromite
-
-!!! recommendation
-
-    ![Bromite logo](assets/img/browsers/bromite.svg){ align=right }
-
-    **Bromite** is a Chromium-based browser with privacy and security enhancements, built-in ad blocking, and some fingerprinting randomization.
-
-    [:octicons-home-16: Homepage](https://www.bromite.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.bromite.org/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/bromite/bromite/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/bromite/bromite){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/bromite/bromite#donate){ .card-link title=Contribute }
-
-    ??? downloads annotate
-
-        - [:pg-f-droid: F-Droid](https://www.bromite.org/fdroid) (1)
-
-    1. If you use [Neo Store](/android/#neo-store), you can enable the *Bromite repository* in:<br> :material-dots-vertical: → **Repositories**
-
-These options can be found in :material-menu: → :gear: **Settings** → **Privacy and security**.
-
-#### Recommended Configuration
-
-##### HTTPS-Only Mode
-
-- [x] Select **Always use secure connections**
-
-This prevents you from unintentionally connecting to a website in plain-text HTTP. The HTTP protocol is extremely uncommon nowadays, so this should have little to no impact on your day to day browsing.
-
-##### Always-on Incognito Mode
-
-- [x] Select **Always open links in incognito** in the **Incognito mode** menu
-- [x] Select **Close all open tabs on exit**
-- [x] Select **Open external links in incognito**
 
 ### Safari
 
