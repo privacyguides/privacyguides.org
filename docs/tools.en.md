@@ -49,7 +49,6 @@ For more details about each project, why they were chosen, and additional tips o
 
 - ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji } [GrapheneOS](android.md#grapheneos)
 - ![DivestOS logo](assets/img/android/divestos.svg){ .twemoji } [DivestOS](android.md#divestos)
-- ![CalyxOS logo](assets/img/android/calyxos.svg){ .twemoji } [CalyxOS](android.md#calyxos)
 
 </div>
 
