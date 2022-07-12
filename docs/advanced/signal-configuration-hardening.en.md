@@ -136,17 +136,11 @@ Even when your phone is locked, anyone who can lay eyes on the device can read m
 
 On Signal, you have the ability to hide message content and sender name, or just the message content itself.
 
-On Android:
+On Android/iOS:
 
 - Select :material-dots-vertical: **Settings** > **Notifications**
 - Select **Show**
 - Select **No name or message** or **Name only** respectively.
-
-On iOS:
-
-- Select :material-dots-vertical: **Settings** > **Notifications**
-- Select **Show**
-- Select **No name or Content** or **Name Only** respectively.
 
 ### Call Relaying
 
