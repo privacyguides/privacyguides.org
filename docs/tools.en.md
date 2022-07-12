@@ -299,6 +299,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <div class="grid cards" markdown>
 
 - ![Magic Wormhole logo](assets/img/file-sharing-sync/magic_wormhole.png){ .twemoji } [Magic Wormhole](file-sharing.md#magic-wormhole)
+- ![Firefox Send Fork logo](assets/img/file-sharing-sync/firefox-send.svg){ .twemoji } [Firefox Send Fork](file-sharing.md#firefox-send-fork)
 - ![Bitwarden logo](assets/img/file-sharing-sync/bitwarden.svg){ .twemoji } [Bitwarden](file-sharing.md#bitwarden-send)
 - ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [OnionShare](file-sharing.md#onionshare)
 - ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji } [FreedomBox](file-sharing.md#freedombox)
