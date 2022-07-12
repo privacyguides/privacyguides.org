@@ -24,13 +24,13 @@ Discover how to privately share your files between your devices, with your frien
         - [:fontawesome-brands-apple: macOS](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#macos-os-x)
         - [:fontawesome-brands-linux: Linux](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation)
 
-### Firefox Send Fork
+### Send
 
 !!! recommendation
 
-    ![Firefox Send Fork logo](assets/img/file-sharing-sync/firefox-send.svg){ align=right }
+    ![Send logo](assets/img/file-sharing-sync/firefox-send.svg){ align=right }
 
-    **Firefox Send Fork** is a fork from the discontinued project Firefox Send. It provides [end-to-end encryption](https://github.com/timvisee/send/blob/master/docs/encryption.md) with optional password. You can run your [own instance](https://github.com/timvisee/send-instances/#host-your-own-instance). The author of this fork also provides a [command-line client](https://github.com/timvisee/ffsend) to send files from your terminal to the Firefox Send instances.
+    **Send** is a fork from the discontinued project Firefox Send. It provides [end-to-end encryption](https://github.com/timvisee/send/blob/master/docs/encryption.md) with optional password. You can run your [own instance](https://github.com/timvisee/send-instances/#host-your-own-instance). The author of this fork also provides a [command-line client](https://github.com/timvisee/ffsend) to send files from your terminal to the Firefox Send instances.
 
     Many [instances](https://github.com/timvisee/send-instances) are available, with different characteristics, such as more storage or longer available time. 
 
