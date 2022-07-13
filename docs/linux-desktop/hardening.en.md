@@ -129,7 +129,7 @@ There are a few options depending on your configuration:
 
 The second option is to creating an [EFI Boot Stub](https://wiki.archlinux.org/title/Unified_kernel_image) that contains the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)), [initramfs](https://en.wikipedia.org/wiki/Initial_ramdisk), and [microcode](https://en.wikipedia.org/wiki/Microcode). This EFI stub can then be signed. If you use [dracut](https://en.wikipedia.org/wiki/Dracut_(software)) this can easily be done with the [`--uefi-stub` switch](https://man7.org/linux/man-pages/man8/dracut.8.html) or the [`uefi_stub` config](https://www.man7.org/linux/man-pages/man5/dracut.conf.5.html) option. This option also requires you to leave the keys on the disk to setup automatic signing, which weakens the security model.
 
-After setting up Secure Boot it is crucial that you set a “firmware password” (also called a “supervisor password, “BIOS password” or “UEFI password”), otherwise an adversary can simply disable Secure Boot.
+After setting up Secure Boot it is crucial that you set a “firmware password” (also called a “supervisor password”, “BIOS password” or “UEFI password”), otherwise an adversary can simply disable Secure Boot.
 
 These recommendations can make you a little more resistant to [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, but they not good as a proper verified boot process such as that found on [Android](https://source.android.com/security/verifiedboot), [ChromeOS](https://support.google.com/chromebook/answer/3438631) or [Windows](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process).
 
