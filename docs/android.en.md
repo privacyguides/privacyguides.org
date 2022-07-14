@@ -6,7 +6,7 @@ icon: 'fontawesome/brands/android'
 These are the Android operating systems, devices, and apps we recommend to maximize your mobile device's security and privacy. We also have additional Android-related information:
 
 - [General Android Overview and Recommendations :hero-arrow-circle-right-fill:](android/overview.md)
-- [Why we recommend GrapheneOS over CalyxOS? :hero-arrow-circle-right-fill:](android/grapheneos-vs-calyxos.md)
+- [Why we recommend GrapheneOS over CalyxOS :hero-arrow-circle-right-fill:](android/grapheneos-vs-calyxos.md)
 
 ## AOSP Derivatives
 

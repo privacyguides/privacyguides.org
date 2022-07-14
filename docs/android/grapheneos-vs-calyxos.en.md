@@ -1,9 +1,9 @@
 ---
-title: "Why we recommend GrapheneOS over CalyxOS?"
+title: "Why we recommend GrapheneOS over CalyxOS"
 icon: 'material/cellphone-cog'
 ---
 
-GrapheneOS and CalyxOS are commonly compared as similar options for people looking for an alternative Android OS for their Pixel devices. Below are some of the reasons we recommend GrapheneOS over CalyxOS.
+GrapheneOS and CalyxOS are commonly compared as similar options for people looking for an alternative Android OS for their Pixel devices. Below are some of the reasons why we recommend GrapheneOS over CalyxOS.
 
 ## Profiles
 
