@@ -42,6 +42,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/privacyguides
       name: GitHub
+    - icon: material/rss
+      link: /feed_rss_created.xml
+      name: Blog Feed
 repo_url: https://github.com/privacyguides/privacyguides.org
 repo_name: ""
 edit_uri: edit/main/docs/
@@ -54,10 +57,12 @@ theme:
     repo: fontawesome/brands/github
   font: false
   features:
-    - navigation.tracking
+    - navigation.instant
     - navigation.tabs
     - navigation.sections
+    - navigation.top
     - content.tooltips
+    - toc.follow
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
