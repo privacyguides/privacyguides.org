@@ -1,8 +1,8 @@
 ---
-title: "Multifactor Authentication"
+title: "Multi-factor Authentication"
 icon: 'material/two-factor-authentication'
 ---
-**Multifactor authentication** is a security mechanism that requires additional steps beyond entering your username (or email) and password. The most common method is time limited codes you might receive from SMS or an app.
+**Multi-factor authentication** is a security mechanism that requires additional steps beyond entering your username (or email) and password. The most common method is time limited codes you might receive from SMS or an app.
 
 Normally, if a hacker (or adversary) is able to figure out your password then they’d gain access to the account that password belongs to. An account with MFA forces the hacker to have both the password (something you *know*) and a device that you own (something you *have*), like your phone.
 
@@ -40,7 +40,7 @@ Although not perfect, TOTP is secure enough for most people, and when [hardware 
 
 The YubiKey stores data on a tamper-resistant solid-state chip which is [impossible to access](https://security.stackexchange.com/a/245772) non-destructively without an expensive process and a forensics laboratory.
 
-These keys are generally multifunction and provide a number of methods to authenticate. Below are the most common ones.
+These keys are generally multi-function and provide a number of methods to authenticate. Below are the most common ones.
 
 #### Yubico OTP
 
@@ -116,7 +116,7 @@ If you use SMS MFA, use a carrier who will not switch your phone number to a new
 
 ## More Places to Set Up MFA
 
-Beyond just securing your website logins, multifactor authentication can be used to secure your local logins, SSH keys or even password databases as well.
+Beyond just securing your website logins, multi-factor authentication can be used to secure your local logins, SSH keys or even password databases as well.
 
 ### Windows
 
@@ -156,7 +156,7 @@ SSH MFA could be set up using multiple different authentication methods that are
 
 #### Time-based One-time Password (TOTP)
 
-SSH MFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How To Set Up MultiFactor Authentication for SSH on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Most things should be the same regardless of distribution, however the package manager commands—such as `apt-get`—and package names may differ.
+SSH MFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Most things should be the same regardless of distribution, however the package manager commands—such as `apt-get`—and package names may differ.
 
 ### KeePass (and KeePassXC)
 
