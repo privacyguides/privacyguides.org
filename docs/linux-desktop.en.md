@@ -54,7 +54,7 @@ Tumbleweed follows a rolling release model where each update is released as a sn
 
 Arch Linux has a rolling release cycle. There is no fixed release schedule and packages are updated very frequently.
 
-Being a DIY distribution, you are [expected to set up and maintain](#arch-based-distributions) your system on your own. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
+Being a DIY distribution, you are [expected to set up and maintain](linux-desktop/overview.md#arch-based-distributions) your system on your own. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
 
 A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org).
 
