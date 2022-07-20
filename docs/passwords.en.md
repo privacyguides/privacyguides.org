@@ -151,7 +151,7 @@ These products are minimal password managers that can be used within scripting a
 
 !!! recommendation
 
-    **pass** is a Unix command-line password manager. It stores credentials as `gpg` encrypted files that can be organized in folder hierarchies.
+    **pass** is a Unix command-line password manager. It stores credentials as `gpg` encrypted files that can be organized into folder hierarchies.
 
     [:octicons-home-16: Homepage](https://www.passwordstore.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://git.zx2c4.com/password-store/about){ .card-link title=Documentation}
