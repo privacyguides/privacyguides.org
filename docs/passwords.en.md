@@ -147,4 +147,20 @@ These products are minimal password managers that can be used within scripting a
         - [:fontawesome-brands-linux: Linux](https://www.gopass.pw/#install-linux)
         - [:fontawesome-brands-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
 
+### pass
+
+!!! recommendation
+
+    **pass** is a Unix command-line password manager. It stores credentials as `gpg` encrypted files that can be organized in folder hierarchies.
+
+    [:octicons-home-16: Homepage](https://www.passwordstore.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://git.zx2c4.com/password-store/about){ .card-link title=Documentation}
+    [:octicons-code-16:](https://git.zx2c4.com/password-store){ .card-link title="Source Code" }
+
+    ??? downloads
+
+        - [:fontawesome-brands-apple: macOS](https://www.passwordstore.org/#macintosh)
+        - [:fontawesome-brands-linux: Linux](https://www.passwordstore.org/#deb)
+        - [:fontawesome-brands-freebsd: FreeBSD](https://www.passwordstore.org/#freebsd)
+
 --8<-- "includes/abbreviations.en.md"
