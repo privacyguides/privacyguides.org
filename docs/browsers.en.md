@@ -121,7 +121,7 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
 
     ![Librewolf logo](assets/img/browsers/librewolf.svg){ align=right }
 
-    **Librewolf** is a fork of the upstream project fo Firefox. It aims to be a hardened Firefox version by using the [Arkenfox](https://github.com/arkenfox/user.js) project out-of-the-box. It is worth noting that they rely a lot on the Arkenfox project but they set up their [own preferences](https://librewolf.net/license-disclaimers/).
+    **Librewolf** is a fork of the upstream project of Firefox. It aims to be a hardened Firefox version by using the [Arkenfox](https://github.com/arkenfox/user.js) project out-of-the-box. It is worth noting that they rely a lot on the Arkenfox project but they set up their [own preferences](https://librewolf.net/license-disclaimers/).
 
     [:octicons-home-16: Homepage](https://librewolf.net/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://librewolf.net/privacy-policy/){ .card-link title="Privacy Policy" }
