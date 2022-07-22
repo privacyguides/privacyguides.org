@@ -115,6 +115,68 @@ This prevents you from unintentionally connecting to a website in plain-text HTT
 
 The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly - [which you can easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users) support.
 
+### Librewolf
+
+!!! recommendation
+
+    ![Librewolf logo](assets/img/browsers/librewolf.svg){ align=right }
+
+    **Librewolf** is a fork of the upstream project fo Firefox. It aims to be a hardened Firefox version by using the [Arkenfox](https://github.com/arkenfox/user.js) project out-of-the-box. It is worth noting that they rely a lot on the Arkenfox project but they set up their [own preferences](https://librewolf.net/license-disclaimers/).
+
+    [:octicons-home-16: Homepage](https://librewolf.net/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://librewolf.net/privacy-policy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://librewolf.net/docs/faq/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://gitlab.com/librewolf-community/browser){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://librewolf.net/docs/faq/#why-dont-you-accept-donations){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://librewolf.net/installation/windows/)
+        - [:fontawesome-brands-apple: macOS](https://librewolf.net/installation/macos/)
+        - [:fontawesome-brands-linux: Linux](https://librewolf.net/installation/fedora/)
+        - [:pg-flathub: Flatpak](https://librewolf.net/installation/linux/#flatpak)
+
+!!! warning
+    By using Librewolf, you are not more private, if you want anonymity, use [Tor Browser](#tor-browser). Firefox setup with the Arkenfox project will have the [same configuration + document.referrer](https://privacytests.org/) than Librewolf by default. Librewolf is intended for those who want to use Arkenfox in a simple way.
+    Updates are not automatic on Windows, you **must** absolutely keep Librewolf up to date by using either the [unofficial script](https://github.com/ltGuillaume/LibreWolf-WinUpdater) or the [unofficial addon](https://addons.mozilla.org/en-US/firefox/addon/librewolf-updater/) (both are recommended by Librewolf). We recommend using the script, as it is more convenient.
+
+#### Recommended Configuration
+
+All of the recommended options can be found in
+:material-menu: → **Settings** → **Librewolf**.
+
+##### Firefox Sync
+
+ Firefox Sync uses E2EE, so if you rely on it, you can safely enable it.
+ 
+##### Privacy
+
+- [x] Select **Limit cross-origin referrers**
+
+This may cause breakage on some websites.
+
+##### Fingerprinting
+
+- [x] Select **Enable letterboxing**
+
+This will prevent websites to identify you with your screen size.
+
+##### Security
+
+- [x] Select **Enable Google Safe Browsing**
+- [x] Select **Scan downloads**
+
+Google Safe Browsing is an excellent security tool and [should be used](https://gitlab.com/librewolf-community/settings/-/issues/126#note_806368764).
+All the cheks happen locally.
+
+##### Sanitize on Close
+
+If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+
+If you want to open your previous windows and tabs:
+:material-menu: → **Settings** → **General**
+- [x] Enable **Open previous windows and tabs**
+
 ### Brave
 
 !!! recommendation
