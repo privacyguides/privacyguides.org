@@ -149,6 +149,7 @@ All of the recommended options can be found in
 ##### Firefox Sync
 
  Firefox Sync uses E2EE, so if you rely on it, you can safely enable it.
+ - [x] Select **Enable Firefox Sync**
  
 ##### Privacy
 
