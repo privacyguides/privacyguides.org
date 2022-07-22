@@ -137,7 +137,7 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
         - [:pg-flathub: Flatpak](https://librewolf.net/installation/linux/#flatpak)
 
 !!! warning
-    By using Librewolf, you are not more private, if you want anonymity, use [Tor Browser](#tor-browser). Firefox setup with the Arkenfox project will have the [same configuration + document.referrer](https://privacytests.org/) than Librewolf by default. Librewolf is intended for those who want to use Arkenfox in a simple way.
+    By using Librewolf, you are not more private, if you want anonymity, use [Tor Browser](#tor-browser). Firefox set up with the Arkenfox project will have the [same configuration + document.referrer](https://privacytests.org/) than Librewolf by default. Librewolf is intended for those who want to use Arkenfox in a simple way.
     
     Updates are not automatic on Windows, you **must** absolutely keep Librewolf up to date by using either the [unofficial script](https://github.com/ltGuillaume/LibreWolf-WinUpdater) or the [unofficial addon](https://addons.mozilla.org/en-US/firefox/addon/librewolf-updater/) (both are recommended by Librewolf). We recommend using the script, as it is more convenient.
 
