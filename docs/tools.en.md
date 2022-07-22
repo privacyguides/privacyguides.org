@@ -17,6 +17,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 - ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](browsers.md#tor-browser)
 - ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } [Firefox (Desktop)](browsers.md#firefox)
+- ![Librewolf logo](assets/img/browsers/librewolf.svg){ .twemoji } [Librewolf (Desktop)](browsers.md#librewolf)
 - ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Desktop)](browsers.md#brave)
 - ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Android)](browsers.md#brave-android)
 - ![Safari logo](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](browsers.md#safari)
