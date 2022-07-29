@@ -172,7 +172,8 @@ nav:
   - 'Recommendations':
     - 'tools.md'
     - 'Browsers':
-      - 'browsers.md'
+      - 'desktop-browsers.md'
+      - 'mobile-browsers.md'
     - 'Operating Systems':
       - 'android.md'
       - 'linux-desktop.md'

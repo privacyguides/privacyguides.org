@@ -15,31 +15,31 @@ For more details about each project, why they were chosen, and additional tips o
 
 <div class="grid cards" markdown>
 
-- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](browsers.md#tor-browser)
-- ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } [Firefox (Desktop)](browsers.md#firefox)
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Desktop)](browsers.md#brave)
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Android)](browsers.md#brave-android)
-- ![Safari logo](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](browsers.md#safari)
+- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](desktop-browsers.md#tor-browser)
+- ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } [Firefox (Desktop)](desktop-browsers.md#firefox)
+- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Desktop)](desktop-browsers.md#brave)
+- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Android)](mobile-browsers.md#brave-android)
+- ![Safari logo](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](mobile-browsers.md#safari)
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](browsers.md)
+[Learn more :hero-arrow-circle-right-fill:](desktop-browsers.md)
 
 **Additional Resources:**
 
 <div class="grid cards annotate" markdown>
 
-- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](browsers.md#ublock-origin)
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](browsers.md#adguard-for-ios)
-- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](browsers.md#snowflake) (1)
-- ![ToS;DR logo](assets/img/browsers/terms_of_service_didnt_read.svg){ .twemoji } [Terms of Service; Didn't Read](browsers.md#terms-of-service-didnt-read) (2)
+- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
+- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](mobile-browsers.md#adguard-for-ios)
+- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](desktop-browsers.md#snowflake) (1)
+- ![ToS;DR logo](assets/img/browsers/terms_of_service_didnt_read.svg){ .twemoji } [Terms of Service; Didn't Read](desktop-browsers.md#terms-of-service-didnt-read) (2)
 
 </div>
 
 1. Snowflake does not increase privacy, however it allows you to easily contribute to the Tor network and help people in censored networks achieve better privacy.
 2. We do not recommend installing ToS;DR as a browser extension. The same information is provided on their website.
 
-[Learn more :hero-arrow-circle-right-fill:](browsers.md#additional-resources)
+[Learn more :hero-arrow-circle-right-fill:](desktop-browsers.md#additional-resources)
 
 ## Operating Systems
 
