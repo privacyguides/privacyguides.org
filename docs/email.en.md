@@ -274,6 +274,8 @@ Notable free features:
 
 SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin is a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing. Securitum [audited](https://simplelogin.io/blog/security-audit/) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
 
+You can link your SimpleLogin account in the settings with your Proton account. If you have Proton Unlimited, Business or Visionary Plan, you will have SimpleLogin Premium for free.
+
 Notable free features:
 
 - [x] 15 Shared Aliases
