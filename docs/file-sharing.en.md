@@ -6,24 +6,6 @@ Discover how to privately share your files between your devices, with your frien
 
 ## File Sharing
 
-### Magic Wormhole
-
-!!! recommendation
-
-    ![Magic Wormhole logo](assets/img/file-sharing-sync/magic_wormhole.png){ align=right }
-
-    **Magic Wormhole** is a package that provides a library and a command-line tool named wormhole, which makes it possible to get arbitrary-sized files and directories (or short pieces of text) from one computer to another.
-
-    [:octicons-repo-16: Repository](https://github.com/magic-wormhole/magic-wormhole){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://magic-wormhole.readthedocs.io/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/magic-wormhole/magic-wormhole){ .card-link title="Source Code" }
-
-    ??? downloads
-
-        - [:fontawesome-brands-windows: Windows](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation)
-        - [:fontawesome-brands-apple: macOS](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#macos-os-x)
-        - [:fontawesome-brands-linux: Linux](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation)
-
 ### Bitwarden Send
 
 !!! recommendation
