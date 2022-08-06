@@ -63,7 +63,11 @@ When self-hosting, you should also enable E2EE to protect against your hosting p
     [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
 
-Proton Drive is currently in beta and only is only available through a web client.
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
+
+Proton Drive is currently in beta and is only available through a web client and an Android app.
 
 When using a web client, you are placing trust in the server to send you proper JavaScript code to derive the decryption key and authentication token locally in your browser. A compromised server can send you malicious JavaScript code to steal your master password and decrypt your data. If this does not fit your [threat model](basics/threat-modeling.md), consider using an alternative.
 
