@@ -18,7 +18,7 @@ For more details about each project, why they were chosen, and additional tips o
 - ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](desktop-browsers.md#tor-browser)
 - ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } [Firefox (Desktop)](desktop-browsers.md#firefox)
 - ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Desktop)](desktop-browsers.md#brave)
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Android)](mobile-browsers.md#brave-android)
+- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Android)](mobile-browsers.md#brave)
 - ![Safari logo](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](mobile-browsers.md#safari)
 
 </div>
@@ -30,7 +30,7 @@ For more details about each project, why they were chosen, and additional tips o
 <div class="grid cards annotate" markdown>
 
 - ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](mobile-browsers.md#adguard-for-ios)
+- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](mobile-browsers.md#adguard)
 - ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](desktop-browsers.md#snowflake) (1)
 - ![ToS;DR logo](assets/img/browsers/terms_of_service_didnt_read.svg){ .twemoji } [Terms of Service; Didn't Read](desktop-browsers.md#terms-of-service-didnt-read) (2)
 
@@ -149,7 +149,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#protonmail)
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
 - ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 - ![StartMail logo](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
 - ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
@@ -207,7 +207,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#protonvpn)
+- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
 - ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
 
@@ -247,14 +247,14 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <div class="grid cards" markdown>
 
 - ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ .twemoji } [Thunderbird](email-clients.md#thunderbird)
-- ![Apple Mail logo](assets/img/email-clients/applemail.png){ .twemoji } [Apple Mail (macOS)](email-clients.md#apple-mail)
-- ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ .twemoji } [Canary Mail (iOS)](email-clients.md#canary-mail)
-- ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji } [FairEmail (Android)](email-clients.md#fairemail)
-- ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution)
-- ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ .twemoji } [K-9 Mail (Android)](email-clients.md#k-9-mail)
-- ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji } [Kontact (Linux)](email-clients.md#kontact)
-- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope)
-- ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji } [NeoMutt (CLI)](email-clients.md#neomutt)
+- ![Apple Mail logo](assets/img/email-clients/applemail.png){ .twemoji } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
+- ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ .twemoji } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
+- ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji } [FairEmail (Android)](email-clients.md#fairemail-android)
+- ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
+- ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ .twemoji } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
+- ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji } [Kontact (Linux)](email-clients.md#kontact-kde)
+- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
+- ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
 
 </div>
 
@@ -270,9 +270,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ .twemoji } [Cryptomator](encryption.md#cryptomator)
-- ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ .twemoji } [Picocrypt](encryption.md#picocrypt)
-- ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji } [VeraCrypt (FDE)](encryption.md#veracrypt)
+- ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ .twemoji } [Cryptomator](encryption.md#cryptomator-cloud)
+- ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ .twemoji } [Picocrypt](encryption.md#picocrypt-file)
+- ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
 - ![Hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ .twemoji }![Hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ .twemoji } [Hat.sh (Browser-based)](encryption.md#hatsh)
 - ![Kryptor logo](assets/img/encryption-software/kryptor.png){ .twemoji } [Kryptor](encryption.md#kryptor)
 - ![Tomb logo](assets/img/encryption-software/tomb.png){ .twemoji } [Tomb](encryption.md#tomb)
@@ -314,7 +314,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 - ![ExifCleaner logo](assets/img/metadata-removal/exifcleaner.svg){ .twemoji } [ExifCleaner](metadata-removal-tools.md#exifcleaner)
 - ![MAT2 logo](assets/img/metadata-removal/mat2.svg){ .twemoji } [MAT2](metadata-removal-tools.md#mat2)
 - ![ExifEraser logo](assets/img/metadata-removal/exiferaser.svg){ .twemoji } [ExifEraser (Android)](metadata-removal-tools.md#exiferaser-android)
-- ![Metapho logo](assets/img/metadata-removal/metapho.jpg){ .twemoji } [Metapho (iOS)](metadata-removal-tools.md#metapho)
+- ![Metapho logo](assets/img/metadata-removal/metapho.jpg){ .twemoji } [Metapho (iOS)](metadata-removal-tools.md#metapho-ios)
 - ![ExifTool logo](assets/img/metadata-removal/exiftool.png){ .twemoji } [ExifTool (CLI)](metadata-removal-tools.md#exiftool)
 
 </div>
@@ -370,7 +370,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 - ![Molly logo](assets/img/messengers/molly.svg){ .twemoji } [Molly (Hardened Signal fork for Android)](/advanced/signal-configuration-hardening/#hardening-signal-with-molly-on-android)
 - ![Element logo](assets/img/messengers/element.svg){ .twemoji } [Element](real-time-communication.md#element)
 - ![Session logo](assets/img/messengers/session.svg){ .twemoji } [Session](real-time-communication.md#session)
-- ![Briar logo](assets/img/messengers/briar.svg){ .twemoji } [Briar (Android)](real-time-communication.md#briar)
+- ![Briar logo](assets/img/messengers/briar.svg){ .twemoji } [Briar (Android)](real-time-communication.md#briar-android)
 
 </div>
 
@@ -396,7 +396,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Freenet logo](./assets/img/self-contained-networks/freenet.svg){ .twemoji } [Freenet](self-contained-networks.md#the-freenet-project)
+- ![Freenet logo](./assets/img/self-contained-networks/freenet.svg){ .twemoji } [Freenet](self-contained-networks.md#freenet)
 - ![I2P logo](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji } ![I2P logo](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji } [I2P](self-contained-networks.md#invisible-internet-project)
 - ![Tor logo](./assets/img/self-contained-networks/tor.svg){ .twemoji } [Tor](self-contained-networks.md#tor)
 
