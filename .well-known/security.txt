@@ -1,5 +1,5 @@
-Contact: jonah@triplebit.net
-Encryption: https://www.jonaharagon.com/keys/
+Contact: mailto:jonah@triplebit.net
+Expires: 2024-01-01T18:00:00.000Z
 Preferred-Languages: en
-Canonical: https://privacyguides.org/.well-known/security.txt
+Canonical: https://www.privacyguides.org/.well-known/security.txt
 Policy: https://github.com/privacyguides/privacyguides.org/security/policy
