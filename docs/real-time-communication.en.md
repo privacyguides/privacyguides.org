@@ -238,5 +238,3 @@ Self-hosting a node in an anonymous routing network does not provide the hoster 
 - Less reliable if nodes are selected by randomized routing, some nodes may be very far from the sender and receiver, adding latency or even failing to transmit messages if one of the nodes goes offline.
 - More complex to get started as the creation and secured backup of a cryptographic private key is required.
 - Just like other decentralized platforms, adding features is more complex for developers than on a centralized platform, hence features may be lacking or incompletely implemented, such as offline message relaying or message deletion.
-
---8<-- "includes/abbreviations.en.md"

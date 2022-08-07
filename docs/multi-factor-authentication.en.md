@@ -104,5 +104,3 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
         - [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/us/app/raivo-otp/id1498497896)
-
---8<-- "includes/abbreviations.en.md"

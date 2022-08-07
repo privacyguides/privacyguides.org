@@ -150,5 +150,3 @@ If you use iCloud, we also recommend checking to ensure Safari's default downloa
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 
 Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.
-
---8<-- "includes/abbreviations.en.md"

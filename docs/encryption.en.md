@@ -326,5 +326,3 @@ When encrypting with PGP, you have the option to configure different options in 
 
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
         - [:pg-f-droid: F-Droid](https://f-droid.org/packages/org.sufficientlysecure.keychain/)
-
---8<-- "includes/abbreviations.en.md"

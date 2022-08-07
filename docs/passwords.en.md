@@ -146,5 +146,3 @@ These products are minimal password managers that can be used within scripting a
         - [:fontawesome-brands-apple: macOS](https://www.gopass.pw/#install-macos)
         - [:fontawesome-brands-linux: Linux](https://www.gopass.pw/#install-linux)
         - [:fontawesome-brands-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
-
---8<-- "includes/abbreviations.en.md"

@@ -77,5 +77,3 @@ These networks are designed to keep your traffic anonymous.
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
         - [:pg-f-droid: F-Droid](https://support.torproject.org/tormobile/tormobile-7/)
         - [:fontawesome-brands-android: Android](https://www.torproject.org/download/#android)
-
---8<-- "includes/abbreviations.en.md"

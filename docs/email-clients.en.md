@@ -188,5 +188,3 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 
         - [:fontawesome-brands-linux: Linux](https://neomutt.org/distro)
         - [:fontawesome-brands-apple: macOS](https://neomutt.org/distro)
-
---8<-- "includes/abbreviations.en.md"

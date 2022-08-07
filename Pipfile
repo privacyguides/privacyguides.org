@@ -11,6 +11,7 @@ mkdocs-git-revision-date-localized-plugin = "*"
 typing-extensions = "*"
 mkdocs-minify-plugin = "*"
 mkdocs-rss-plugin = "*"
+mkdocs-git-committers-plugin-2 = "*"
 
 [dev-packages]
 scour = "*"

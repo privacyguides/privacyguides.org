@@ -40,6 +40,8 @@ jobs:
           pipenv install
 
       - name: Build website
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pipenv run mkdocs build
           mv .well-known site/

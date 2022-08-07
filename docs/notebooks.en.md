@@ -96,5 +96,3 @@ Joplin does not support password/pin protection for the [application itself or i
     [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Documentation}
     [:octicons-code-16:](https://git.savannah.gnu.org/cgit/emacs/org-mode.git){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title=Contribute }
-
---8<-- "includes/abbreviations.en.md"

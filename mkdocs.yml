@@ -103,6 +103,10 @@ plugins:
         - cdn.jsdelivr.net/npm/mathjax@3/*
         - api.privacyguides.net/*
         - giscus.app/*
+  - git-committers:
+      repository: privacyguides/privacyguides.org
+      branch: main
+      token: !ENV GH_TOKEN
 extra_css:
   - assets/stylesheets/extra.css?v=2.10.0
 markdown_extensions:
@@ -122,7 +126,9 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.en.md
   - pymdownx.tasklist:
       custom_checkbox: true
   - attr_list

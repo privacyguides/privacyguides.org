@@ -78,5 +78,3 @@ Calendars and contacts contain some of your most sensitive data; use products th
 
 !!! warning
     Proton [does not](https://proton.me/support/proton-contacts#verify) use E2EE for your contact names and email addresses.
-
---8<-- "includes/abbreviations.en.md"

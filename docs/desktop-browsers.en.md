@@ -281,5 +281,3 @@ Running a Snowflake proxy is low-risk, even moreso than running a Tor relay or b
     [:octicons-heart-16:](https://tosdr.org/donate){ .card-link title=Contribute }
 
 We do not recommend installing ToS;DR as a browser extension; the same information is also provided on their website.
-
---8<-- "includes/abbreviations.en.md"

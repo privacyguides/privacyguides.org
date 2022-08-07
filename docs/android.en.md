@@ -357,5 +357,3 @@ If you download APK files to install manually, you can verify their signature wi
     Signer #1 certificate SHA-1 digest: 23e108677a2e1b1d6e6b056f3bb951df7ad5570c
     Signer #1 certificate MD5 digest: dbbcd0cac71bd6fa2102a0297c6e0dd3
     ```
-
---8<-- "includes/abbreviations.en.md"

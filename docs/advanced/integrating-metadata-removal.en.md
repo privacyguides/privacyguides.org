@@ -160,5 +160,3 @@ Windows allows you to place files in a **SendTo** folder which then appear in th
 ### Using the shortcut
 
 1. Right click a supported file and choose **ExifTool.bat** within the *Send to* context menu.
-
---8<-- "includes/abbreviations.en.md"

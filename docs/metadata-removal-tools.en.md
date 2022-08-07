@@ -128,5 +128,3 @@ The app offers multiple ways to erase metadata from images. Namely:
     ```bash
     exiftool -all= *.file_extension
     ```
-
---8<-- "includes/abbreviations.en.md"

@@ -422,5 +422,3 @@ Must not have any marketing which is irresponsible:
 ### Additional Functionality
 
 While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
-
---8<-- "includes/abbreviations.en.md"

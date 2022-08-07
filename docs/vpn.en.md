@@ -298,5 +298,3 @@ Responsible marketing that is both educational and useful to the consumer could 
 ### Additional Functionality
 
 While not strictly requirements, there are some factors we looked into when determining which providers to recommend. These include adblocking/tracker-blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.
-
---8<-- "includes/abbreviations.en.md"

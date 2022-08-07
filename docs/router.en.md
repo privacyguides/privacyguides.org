@@ -33,5 +33,3 @@ You can consult OpenWrt's [table of hardware](https://openwrt.org/toh/start) to 
     [:octicons-info-16:](https://docs.netgate.com/pfsense/en/latest/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/pfsense/pfsense){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.pfsense.org/get-involved/){ .card-link title=Contribute }
-
---8<-- "includes/abbreviations.en.md"

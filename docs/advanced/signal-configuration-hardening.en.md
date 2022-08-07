@@ -256,5 +256,3 @@ You can find a full list of Molly's [features](https://github.com/mollyim/mollyi
 - Molly removes Signal's Mobilecoin integration.
 - Molly is updated every two weeks to include the latest features and bug fixes from Signal. The exception is security issues, that are patched as soon as possible. That said, you should be aware that there might be a slight delay compared to upstream.
 - By using Molly, you are extending your trust to another party, as you now need to trust the Signal team, as well as the Molly team.
-
---8<-- "includes/abbreviations.en.md"
