@@ -42,6 +42,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 <div class="grid cards" markdown>
 
+- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser (Android)](mobile-browsers.md#tor-browser)
 - ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Android)](mobile-browsers.md#brave-android)
 - ![Safari logo](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](mobile-browsers.md#safari)
 
