@@ -100,6 +100,33 @@ Bitwarden's server-side code is [open-source](https://github.com/bitwarden/serve
 [:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title=Contribute }
 
+### Passky
+
+!!! recommendation
+
+    ![Passky logo](assets/img/password-management/passky.svg){ align=right }
+
+    **Passky** is a simple, modern, lightweight, open-source and secure password manager.
+
+    [:octicons-home-16: Homepage](https://passky.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://passky.org/PrivacyPolicy.pdf){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://passky.org/contact){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/Rabbit-Company){ .card-link title="Source Code" }
+
+    ??? downloads
+
+        - [:fontawesome-brands-windows: Windows](https://rabbitstore.net/?app=com.rabbit-company.passky)
+        - [:fontawesome-brands-linux: Linux](https://rabbitstore.net/?app=com.rabbit-company.passky)
+        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.rabbit_company.passky)
+        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/passky-password-manager/ngncpgfjhnkgfcjamgljadegplonbihi)
+        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/passky/)
+        - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/passky-password-manager/cnbhnfmejoecfinfbgidmnlkgddaihpn)
+        - [:fontawesome-brands-opera: Opera](https://addons.opera.com/en/extensions/details/passky)
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.rabbitcompany.passky)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.rabbitcompany.passky)
+
+While Passky welcome anyone to their free instances, they actively encourage self-hosting of [Passky Server](https://github.com/Rabbit-Company/Passky-Server).
+
 ### Psono
 
 !!! recommendation
