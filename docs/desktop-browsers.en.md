@@ -266,18 +266,3 @@ We suggest following the [developer's documentation](https://github.com/gorhill/
 Snowflake does not increase your privacy in any way, nor is it used to connect to the Tor network within your personal browser. However, if your internet connection is uncensored, you should consider running it to help people in censored networks achieve better privacy themselves. There is no need to worry about which websites people are accessing through your proxy—their visible browsing IP address will match their Tor exit node, not yours.
 
 Running a Snowflake proxy is low-risk, even moreso than running a Tor relay or bridge which are already not particularly risky endeavours. However, it does still proxy traffic through your network which can be impactful in some ways, especially if your network is bandwidth-limited. Make sure you understand [how Snowflake works](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) before deciding whether to run a proxy.
-
-### Terms of Service; Didn't Read
-
-!!! recommendation
-
-    ![Terms of Service; Didn't Read logo](assets/img/browsers/terms_of_service_didnt_read.svg){ align=right }
-
-    **Terms of Service; Didn't Read** grades websites based on their terms of service agreements and privacy policies. It also gives short summaries of those agreements. The analyses and ratings are published transparently by a community of reviewers.
-
-    [:octicons-globe-16: Website](https://tosdr.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://docs.tosdr.org/sp/tosdr.org-Privacy-Policy.89456373.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.tosdr.org/index.html){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://tosdr.org/donate){ .card-link title=Contribute }
-
-We do not recommend installing ToS;DR as a browser extension; the same information is also provided on their website.

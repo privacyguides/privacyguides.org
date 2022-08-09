@@ -29,12 +29,10 @@ For more details about each project, why they were chosen, and additional tips o
 
 - ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
 - ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](desktop-browsers.md#snowflake) (1)
-- ![ToS;DR logo](assets/img/browsers/terms_of_service_didnt_read.svg){ .twemoji } [Terms of Service; Didn't Read](desktop-browsers.md#terms-of-service-didnt-read) (2)
 
 </div>
 
 1. Snowflake does not increase privacy, however it allows you to easily contribute to the Tor network and help people in censored networks achieve better privacy.
-2. We do not recommend installing ToS;DR as a browser extension. The same information is provided on their website.
 
 [Learn more :hero-arrow-circle-right-fill:](desktop-browsers.md#additional-resources)
 
