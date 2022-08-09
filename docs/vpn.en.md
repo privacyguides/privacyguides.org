@@ -44,9 +44,9 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 1. A further 10% is discounted with a 2-year subscription ($119.76).
 
-??? check annotate "63 Countries"
+??? check annotate "64 Countries"
 
-    Proton VPN has [servers in 63 countries](https://protonvpn.com/vpn-servers) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+    Proton VPN has [servers in 64 countries](https://protonvpn.com/vpn-servers) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 
     We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -80,7 +80,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? info "Additional Functionality"
 
-    Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer adblocking and known malware domains blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
+    Proton VPN clients support two factor authentication on all platforms except Linux at the moment. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer adblocking and known malware domains blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
 
 ### IVPN
 
@@ -133,7 +133,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? info "Additional Functionality"
 
-    IVPN clients support two factor authentication (Mullvad and Proton VPN clients do not). IVPN also provides "[AntiTracker](https://www.ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
+    IVPN clients support two factor authentication (Mullvad's clients do not). IVPN also provides "[AntiTracker](https://www.ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
 
 ### Mullvad
 
