@@ -23,7 +23,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 [Learn more :hero-arrow-circle-right-fill:](desktop-browsers.md)
 
-**Additional Resources:**
+### Additional Resources
 
 <div class="grid cards annotate" markdown>
 
@@ -43,18 +43,18 @@ For more details about each project, why they were chosen, and additional tips o
 <div class="grid cards" markdown>
 
 - ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser (Android)](mobile-browsers.md#tor-browser)
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Android)](mobile-browsers.md#brave-android)
+- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Android)](mobile-browsers.md#brave)
 - ![Safari logo](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](mobile-browsers.md#safari)
 
 </div>
 
 [Learn more :hero-arrow-circle-right-fill:](mobile-browsers.md)
 
-**Additional Resources**
+### Additional Resources
 
 <div class="grid cards annotate" markdown>
 
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](mobile-browsers.md#adguard-for-ios)
+- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](mobile-browsers.md#adguard)
 
 </div>
 
@@ -73,7 +73,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 [Learn more :hero-arrow-circle-right-fill:](android.md)
 
-**Android Apps:**
+### Android Apps
 
 <div class="grid cards" markdown>
 
@@ -135,13 +135,13 @@ For more details about each project, why they were chosen, and additional tips o
 
 ### DNS
 
-**DNS Providers:**
+#### DNS Providers
 
 We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net/) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
 
 [Learn more :hero-arrow-circle-right-fill:](dns.md)
 
-**Encrypted DNS Proxies:**
+#### Encrypted DNS Proxies
 
 <div class="grid cards" markdown>
 
@@ -153,7 +153,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :hero-arrow-circle-right-fill:](dns.md#encrypted-dns-proxies)
 
-**Self-hosted Solutions:**
+#### Self-hosted Solutions
 
 <div class="grid cards" markdown>
 
@@ -177,7 +177,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :hero-arrow-circle-right-fill:](email.md)
 
-**Email Aliasing Services:**
+#### Email Aliasing Services
 
 <div class="grid cards" markdown>
 
@@ -188,7 +188,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :hero-arrow-circle-right-fill:](email.md#email-aliasing-services)
 
-**Self-Hosting Email:**
+#### Self-Hosting Email
 
 <div class="grid cards" markdown>
 
@@ -300,7 +300,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :hero-arrow-circle-right-fill:](encryption.md)
 
-**OpenPGP Clients:**
+#### OpenPGP Clients
 
 <div class="grid cards" markdown>
 
