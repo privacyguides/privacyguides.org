@@ -278,7 +278,7 @@ You can link your SimpleLogin account in the settings with your Proton account. 
 
 Notable free features:
 
-- [x] 15 Shared Aliases
+- [x] 10 Shared Aliases
 - [x] Unlimited Replies
 - [x] 1 Recipient Mailbox
 
