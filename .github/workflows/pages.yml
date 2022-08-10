@@ -1,0 +1,82 @@
+name: 🛠️ Deploy to GitHub Pages
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+env:
+  PYTHON_VERSION: 3.x
+
+jobs:
+  build:
+    name: Build
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: '0'
+          ref: ${{github.event.pull_request.head.ref}}
+          repository: ${{github.event.pull_request.head.repo.full_name}}
+          ssh-key: ${{ secrets.ACTIONS_SSH_KEY }}
+          submodules: 'true'
+      
+      - name: Pages setup
+        uses: actions/configure-pages@v1
+
+      - name: Python setup
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.7'
+      
+      - name: Cache files
+        uses: actions/cache@v3.0.5
+        with:
+          key: ${{ github.ref }}
+          path: .cache
+
+      - name: Install Python dependencies
+        run: |
+          pip install pipenv
+          pipenv install
+
+      - name: Build website
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          pipenv run mkdocs build
+          mv .well-known site/
+          pipenv run mkdocs --version
+
+      - name: Package website
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: site
+
+
+
+  deploy:
+    name: Deploy
+    needs: build
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@main
