@@ -4,6 +4,3 @@
 [submodule "docs/assets/brand"]
 	path = docs/assets/brand
 	url = https://github.com/privacyguides/brand.git
-[submodule "docs/blog"]
-	path = docs/blog
-	url = https://github.com/privacyguides/blog.git

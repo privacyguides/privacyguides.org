@@ -58,6 +58,14 @@ Our current list of team members can be found [here](https://github.com/orgs/pri
   - Browse our [open issues](https://github.com/privacyguides/privacyguides.org/issues) to see what needs to be updated
   - View some contribution tips on our [contributor's wiki](https://github.com/privacyguides/privacyguides.org/wiki)
 
+### Blog
+
+We aspire to publish the best articles about privacy on the net. From hot-takes to long-form essays, we are looking for stylish and well-written pieces.
+
+This not a place for sponsored content or SEO-obsessed posts. Please do **not** pitch us this, as we don't take kindly to it and your email will be blocked. *Caveat scriptor.*
+
+Submit stories or requests to: `freddy@privacyguides.org`
+
 ## Mirrors
 
 [![GitHub](https://img.shields.io/static/v1?logo=github&label=&message=GitHub&color=000&style=for-the-badge)](https://github.com/privacyguides/privacyguides.org)
@@ -95,12 +103,12 @@ This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdoc
 
 1. Create a new tag: `git tag -s v2.X.X -m 'Some message'`
     - [View existing tags](https://github.com/privacyguides/privacyguides.org/tags)
-    - Tag [numbering](https://semver.org/): Increment the MINOR (2nd) number when making significant changes (adding/deleting pages, etc.), increment the PATCH (3rd) number when making minor changes (typos, bug fixes). Probably leave the MAJOR number at 2 until a massive redesign (v1 -> v2 was the Jekyll to MkDocs transition).
+    - Tag [numbering](https://semver.org/): Increment the MINOR (2nd) number when making significant changes (adding/deleting pages, etc.), increment the PATCH (3rd) number when making minor changes (typos, bug fixes). Probably leave the MAJOR number at 2 until a massive revamp (v1 -> v2 was the Jekyll to MkDocs transition).
 2. Push the tag to GitHub: `git push --tags`
 3. [Create a new release](https://github.com/privacyguides/privacyguides.org/releases/new) selecting the new tag
-    - Title the release the same as the tag version number without the `v`, i.e. `2.X.X`
-      - For more significant releases, add a **short** title, for example [2.3.0 - Localization Support](https://github.com/privacyguides/privacyguides.org/releases/tag/v2.3.0) or [2.2.0 - Removing Social Networks](https://github.com/privacyguides/privacyguides.org/releases/tag/v2.2.0)
+    - Title the release the same as the tag version number, i.e. `v2.X.X`
+      - For more significant releases, add a **short** title, for example [v2.3.0 - Localization Support](https://github.com/privacyguides/privacyguides.org/releases/tag/v2.3.0) or [v2.2.0 - Removing Social Networks](https://github.com/privacyguides/privacyguides.org/releases/tag/v2.2.0)
     - GitHub should let you auto-generate release notes based on PR titles
-      - Mark more significant changes in bold, see [2.3.0](https://github.com/privacyguides/privacyguides.org/releases/tag/v2.3.0) for example
+      - Mark more significant changes in bold, see [v2.12.0](https://github.com/privacyguides/privacyguides.org/releases/tag/v2.12.0) for example
 4. Publish release, it will be deployed to the live site automatically
     - When publishing more significant releases (generally any with a MINOR version increment) check the "Create a discussion for this release" box to post an announcement
