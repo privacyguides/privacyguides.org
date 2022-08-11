@@ -11,21 +11,6 @@ copyright: |
   This content was made available by the Privacy Guides team and contributors. <a href="https://github.com/privacyguides/privacyguides">Get involved</a>!
 
 extra:
-  generator: false
-  analytics:
-    provider: plausible
-    property: privacyguides.org
-    feedback:
-      title: Was this page helpful?
-      ratings:
-        - icon: hero/emoji-happy
-          name: This page was helpful
-          data: Helpful
-          note: Thanks for your feedback!
-        - icon: hero/emoji-sad
-          name: This page could be improved
-          data: Needs Improvement
-          note: Thanks for your feedback! Help us improve this page by opening a <a href="https://github.com/orgs/privacyguides/discussions" target=_blank>discusson on GitHub</a>.
   social:
     - icon: pg/matrix
       link: https://matrix.to/#/#privacyguides:matrix.org
@@ -57,97 +42,74 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
-    - content.tooltips
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
       accent: deep purple
       toggle:
         icon: hero/sun
         name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       accent: amber
       toggle:
         icon: hero/moon
         name: Switch to light mode
+
 watch:
   - theme
   - includes
 
 plugins:
-  - minify:
-      minify_html: true
-      htmlmin_opts:
-          remove_comments: true
-  - i18n:
-      default_language: en
-      material_alternate: true
-      languages:
-        en:
-          name: English
-          build: false
-  - tags
-  - search
-  - git-revision-date-localized:
-      exclude:
-        - index.en.md
-  - rss:
-      match_path: "blog/.*"
-      pretty_print: true
-      date_from_meta:
-        as_creation: "created"
-        datetime_format: "%Y-%m-%d"
-  - privacy:
-      externals_exclude:
-        - cdn.jsdelivr.net/npm/mathjax@3/*
-        - api.privacyguides.net/*
-        - giscus.app/*
-  - git-committers:
-      repository: privacyguides/privacyguides.org
-      branch: main
-      token: !ENV GH_TOKEN
+  i18n:
+    default_language: en
+    material_alternate: true
+    languages:
+      en:
+        name: English
+        build: false
+  tags: {}
+  search: {}
+
+markdown_extensions:
+  admonition: {}
+  pymdownx.details: {}
+  pymdownx.superfences:
+    custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
+  pymdownx.tabbed:
+    alternate_style: true
+  pymdownx.arithmatex:
+    generic: true
+  pymdownx.critic: {}
+  pymdownx.caret: {}
+  pymdownx.keys: {}
+  pymdownx.mark: {}
+  pymdownx.tilde: {}
+  pymdownx.snippets:
+    auto_append:
+      - includes/abbreviations.en.md
+  pymdownx.tasklist:
+    custom_checkbox: true
+  attr_list: {}
+  def_list: {}
+  md_in_html: {}
+  meta: {}
+  abbr: {}
+  pymdownx.emoji:
+    emoji_index: !!python/name:materialx.emoji.twemoji
+    emoji_generator: !!python/name:materialx.emoji.to_svg
+    options:
+      custom_icons:
+        - theme/.icons
+  tables: {}
+  footnotes: {}
+  toc:
+    permalink: true
+    toc_depth: 4
+
 extra_css:
   - assets/stylesheets/extra.css?v=2.10.0
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-  - pymdownx.snippets:
-      auto_append:
-        - includes/abbreviations.en.md
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - attr_list
-  - def_list
-  - md_in_html
-  - meta
-  - abbr
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      options:
-        custom_icons:
-          - theme/.icons
-  - tables
-  - footnotes
-  - toc:
-      permalink: true
-      toc_depth: 4
-
 extra_javascript:
   - assets/javascripts/mathjax.js
   - assets/javascripts/feedback.js

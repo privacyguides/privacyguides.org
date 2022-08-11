@@ -82,7 +82,7 @@ This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdoc
     - `git submodule init`
     - `git submodule update docs/assets/brand`
 2. Install [Python 3.6+](https://www.python.org/downloads/)
-3. Install [dependencies](/Pipfile): `pip install mkdocs mkdocs-material mkdocs-static-i18n mkdocs-git-revision-date-localized-plugin mkdocs-minify-plugin mkdocs-rss-plugin typing-extensions`
+3. Install [dependencies](/Pipfile): `pip install mkdocs mkdocs-material mkdocs-static-i18n typing-extensions`
 4. Serve the site locally: `mkdocs serve`
     - The site will be available at `http://localhost:8000`
     - You can build the site locally with `mkdocs build`
@@ -91,10 +91,10 @@ This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdoc
 **Team members** should clone the repository with `mkdocs-material-insiders` directly. This method is identical to production:
 
 1. Clone this repository and submodules: `git clone --recurse-submodules https://github.com/privacyguides/privacyguides.org.git`
-2. Install [Python 3.6+](https://www.python.org/downloads/)
+2. Install Python **3.7**
 3. Install **pipenv**: `pip install pipenv`
 4. Install dependencies: `pipenv install --dev`
-5. Serve the site locally: `pipenv run mkdocs serve`
+5. Serve the site locally: `pipenv run mkdocs serve --config-file mkdocs.production.yml`
     - The site will be available at `http://localhost:8000`
     - You can build the site locally with `pipenv run mkdocs build`
     - This version of the site should be identical to the live, production version

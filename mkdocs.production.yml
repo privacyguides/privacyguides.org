@@ -1,0 +1,70 @@
+INHERIT: mkdocs.yml
+plugins:
+  minify:
+    minify_html: true
+    htmlmin_opts:
+        remove_comments: true
+  privacy:
+    externals_exclude:
+      - cdn.jsdelivr.net/npm/mathjax@3/*
+      - api.privacyguides.net/*
+      - giscus.app/*
+  git-committers:
+    repository: privacyguides/privacyguides.org
+    branch: main
+    token: !ENV GH_TOKEN
+  git-revision-date-localized:
+      exclude:
+        - index.en.md
+  rss:
+    match_path: "blog/.*"
+    pretty_print: true
+    date_from_meta:
+      as_creation: "created"
+      datetime_format: "%Y-%m-%d"
+
+extra:
+  generator: false
+  analytics:
+    provider: plausible
+    property: privacyguides.org
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: hero/emoji-happy
+          name: This page was helpful
+          data: Helpful
+          note: Thanks for your feedback!
+        - icon: hero/emoji-sad
+          name: This page could be improved
+          data: Needs Improvement
+          note: Thanks for your feedback! Help us improve this page by opening a <a href="https://github.com/orgs/privacyguides/discussions" target=_blank>discusson on GitHub</a>.
+
+theme:
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - content.tooltips
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: hero/sparkles
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: amber
+      toggle:
+        icon: hero/moon
+        name: Switch to system theme
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      accent: deep purple
+      toggle:
+        icon: hero/sun
+        name: Switch to dark mode
+
+watch:
+  - theme
+  - includes
+  - mkdocs.yml

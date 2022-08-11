@@ -43,4 +43,4 @@ jobs:
           build: |
             pip install pipenv
             pipenv install
-            pipenv run mkdocs build
+            pipenv run mkdocs build --config-file mkdocs.production.yml
