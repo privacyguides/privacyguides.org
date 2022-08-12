@@ -320,12 +320,21 @@ To mitigate these problems, we recommend [Neo Store](https://github.com/NeoAppli
 
 ### Manually with RSS Notifications
 
-If an app is released on a platform like GitHub, you may be able to add an RSS feed to your [news aggregator](/news-aggregators) that will help you be aware of new releases. Using [Secure Camera](#secure-camera) as an example, you would navigate to its [releases page](https://github.com/GrapheneOS/Camera/releases) on GitHub and append `.atom` to the URL:
+For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](/news-aggregators) that will help you keep track of new releases.
+
+![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](./assets/img/android/rss-changes-light.png#only-light) ![APK Changes](./assets/img/android/rss-changes-dark.png#only-dark)
+
+#### GitHub
+
+On GitHub, using [Secure Camera](#secure-camera) as an example, you would navigate to its [releases page](https://github.com/GrapheneOS/Camera/releases) and append `.atom` to the URL:
 
 `https://github.com/GrapheneOS/Camera/releases.atom`
 
-![RSS Feed](./assets/img/android/gfeeds-light.png#only-light)
-![RSS Feed](./assets/img/android/gfeeds-dark.png#only-dark)
+#### GitLab
+
+On GitLab, using [Aurora Store](#aurora-store) as an example, you would navigate to its [project repository](https://gitlab.com/AuroraOSS/AuroraStore) and append `/-/tags?format=atom` to the URL:
+
+`https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
 #### Verifying APK Fingerprints
 
