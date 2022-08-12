@@ -126,9 +126,6 @@ These products are minimal password managers that can be used within scripting a
         - [:fontawesome-brands-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
         
   
-## Additional Resources
-
-- [How Password Managers Work - Computerphile](https://www.youtube-nocookie.com/embed/w68BBPDAWr8) (YouTube)
 
 
 --8<-- "includes/abbreviations.en.md"
