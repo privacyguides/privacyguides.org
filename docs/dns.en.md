@@ -95,22 +95,6 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ba
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
         - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.celzero.bravedns)
 
-### DNSCloak
-
-!!! recommendation
-
-    ![DNSCloak logo](assets/img/ios/dnscloak.png){ align=right }
-
-    **DNSCloak** is an open-source iOS client supporting [DNS-over-HTTPS](basics/dns-overview.md#dns-over-https-doh), [DNSCrypt](basics/dns-overview.md#dnscrypt), and [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy/wiki) options such as caching DNS responses, locally logging DNS queries, and custom block lists. You can [add custom resolvers by DNS stamp](https://medium.com/privacyguides/adding-custom-dns-over-https-resolvers-to-dnscloak-20ff5845f4b5).
-
-    [:octicons-repo-16: Repository](https://github.com/s-s/dnscloak){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://drive.google.com/file/d/1050No_pU74CAWUS5-BwQWyO2x_aiMzWc/view){ .card-link title="Privacy Policy" }
-    [:octicons-code-16:](https://github.com/s-s/dnscloak){ .card-link title="Source Code" }
-
-    ??? downloads
-
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1452162351)
-
 ### dnscrypt-proxy
 
 !!! recommendation
