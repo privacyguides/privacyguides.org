@@ -171,7 +171,7 @@ So, how might this look?
 
 One of the clearest threat models is one where people *know who you are* and one where they do not. There will always be situations where you must declare your legal name and places where you can get away without doing so.
 
-1. **Known identity** - A known identity is used for things where you must declare your name. There are many such legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, a customs declaration when importing an item or otherwise dealing with your Government. These things will usually always lead back credentials such as credit cards, credit rating checks, account numbers and possibly physical addresses.
+1. **Known identity** - A known identity is used for things where you must declare your name. There are many such legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, a customs declaration when importing an item or otherwise dealing with your Government. These things will usually lead back credentials such as credit cards, credit rating checks, account numbers and possibly physical addresses.
 
     We don't suggest using a VPN or Tor for any of these things as your identity is already known through other means.
 

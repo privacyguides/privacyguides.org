@@ -143,7 +143,7 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
 
 ## Types of Communication Networks
 
-There are several network architectures commonly used to relay messages between people. These networks can provide different different privacy guarantees, which is why it's worth considering your [threat model](https://en.wikipedia.org/wiki/Threat_model) when making a decision about which app to use.
+There are several network architectures commonly used to relay messages between people. These networks can provide different privacy guarantees, which is why it's worth considering your [threat model](https://en.wikipedia.org/wiki/Threat_model) when making a decision about which app to use.
 
 ### Centralized Networks
 
