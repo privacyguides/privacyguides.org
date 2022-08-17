@@ -211,7 +211,7 @@ Under the *System* menu
 
 ## Additional Resources
 
-We generally do not recommend installing any extensions as they increase your attack surface. However, uBlock Origin or AdGuard may prove useful if you value content blocking functionality.
+We generally do not recommend installing any extensions as they increase your attack surface. However, uBlock Origin may prove useful if you value content blocking functionality.
 
 ### uBlock Origin
 
