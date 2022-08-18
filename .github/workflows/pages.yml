@@ -54,6 +54,12 @@ jobs:
           pipenv run mkdocs build --config-file mkdocs.production.yml
           mv .well-known site/
           pipenv run mkdocs --version
+      
+      - name: Matrix homeserver configuration
+        run: |
+          mkdir -p site/.well-known/matrix
+          curl -o site/.well-known/matrix/server https://matrix.privacyguides.org/.well-known/matrix/server
+          curl -o site/.well-known/matrix/client https://matrix.privacyguides.org/.well-known/matrix/client
 
       - name: Package website
         uses: actions/upload-pages-artifact@v1
