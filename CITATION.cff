@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+title: Privacy Guides
+message: 'If you reference this website, please cite it in your work.'
+type: software
+authors:
+  - email: jonah@privacyguides.org
+    given-names: Jonah
+    family-names: Aragon
+    orcid: 'https://orcid.org/0000-0001-6996-4965'
+  - name: The Privacy Guides team
+    website: 'https://github.com/orgs/privacyguides/people'
+repository-code: 'https://github.com/privacyguides/privacyguides.org'
+references:
+  - authors:
+    - family-names: Donath
+      given-names: Martin
+    title: 'mkdocs-material'
+    type: software
+    repository-code: 'https://github.com/squidfunk/mkdocs-material'
+preferred-citation:
+  type: website
+  title: Privacy Guides
+  authors:
+    - email: jonah@privacyguides.org
+      given-names: Jonah
+      family-names: Aragon
+      orcid: 'https://orcid.org/0000-0001-6996-4965'
+    - given-names: Daniel
+      family-names: Gray
+      email: dngray@privacyguides.org
+    - name: The Privacy Guides team
+      website: 'https://github.com/orgs/privacyguides/people'
+    - name: Various project contributors
+  url: 'https://www.privacyguides.org'
+  abstract: >-
+    Privacy Guides is a socially motivated website that
+    provides information for protecting your data
+    security and privacy. We are a non-profit
+    collective operated entirely by volunteer team
+    members and contributors.
+  keywords:
+    - privacy
+    - surveillance
+    - encryption
+    - website
+    - markdown
+  license: CC0-1.0
