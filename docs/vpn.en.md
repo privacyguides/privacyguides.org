@@ -195,7 +195,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? check "Mobile Clients"
 
-    In addition to providing standard OpenVPN configuration files, IVPN has mobile clients for [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683) and [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) allowing for easy connections to their servers. The mobile client on Android is also available in [F-Droid](https://f-droid.org/en/packages/net.ivpn.client), which ensures that it is compiled with [reproducible builds](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
+    In addition to providing standard OpenVPN configuration files, IVPN offers mobile clients in the [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683) and [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) allowing for easy connections to their servers. The mobile client on Android is also available in [F-Droid](https://f-droid.org/en/packages/net.ivpn.client), which ensures that it is compiled with [reproducible builds](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
 
 ??? info "Additional Functionality"
 
