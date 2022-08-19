@@ -1,13 +1,16 @@
-# Additional Co-Owners are added to the TOP of this file.
+# Additional Co-Owners are added to the TOP of this file
 
 # High-traffic pages
-/docs/index.md @JonahAragon @dngray
-/theme/overrides/ @JonahAragon
+/docs/index.en.md @jonaharagon @dngray
+/theme/overrides/ @jonaharagon
 
 # Org
-/docs/about/ @JonahAragon
-LICENSE @JonahAragon
+/docs/about/ @jonaharagon
+LICENSE @jonaharagon
+README.md @jonaharagon @dngray
 
 # Ops
-/.github/ @JonahAragon
-/.well-known/ @JonahAragon
+/Pipfile @jonaharagon
+/Pipfile.lock @jonaharagon
+/.github/ @jonaharagon
+/.well-known/ @jonaharagon
