@@ -208,7 +208,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
     ![Windscribe logo](assets/img/vpn/windscribe.svg#only-light){ align=right }
     ![Windscribe logo](assets/img/vpn/windscribe-dark.svg#only-dark){ align=right }
 
-    **Windscribe** is VPN provider, which has been around since 2016 and is based in Canada.
+    **Windscribe** is a VPN provider, which has been around since 2016 and is based in Canada.
 
     **Free** - **Yearly Plan USD $48.96/year**
 
