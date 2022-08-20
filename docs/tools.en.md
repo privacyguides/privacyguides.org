@@ -111,7 +111,7 @@ For more details about each project, why they were chosen, and additional tips o
 <div class="grid cards" markdown>
 
 - ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ .twemoji }![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
-- ![pfSense logo](assets/img/router/pfsense.svg#only-light){ .twemoji }![pfSense logo](assets/img/router/pfsense-dark.svg#only-dark){ .twemoji } [pfSense](router.md#pfsense)
+- ![OPNsense logo](assets/img/router/opnsense.svg){ .twemoji } [OPNsense](router.md#opnsense)
 
 </div>
 
