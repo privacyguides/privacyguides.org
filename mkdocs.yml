@@ -175,7 +175,7 @@ nav:
     - 'about/notices.md'
     - 'about/privacy-policy.md'
   - 'Donate': '/about/donate/'
-  - 'Discussions': 'https://github.com/orgs/privacyguides/discussions'
+  - 'Discussions': 'https://github.com/privacyguides/privacyguides.org/discussions'
   - 'Blog':
     - '2022':
       - '"Hide Nothing"': 'blog/2022/06/09/hide-nothing.md'
