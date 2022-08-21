@@ -357,7 +357,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 - ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji } [KeePassDX (Android)](passwords.md#keepassdx)
 - ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji } [KeePassXC](passwords.md#keepassxc)
 - ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ .twemoji } [Bitwarden](passwords.md#bitwarden)
-- ![Vaultwarden logo](assets/img/password-management/vaultwarden.svg#only-light){ .twemoji }![Vaultwarden logo](assets/img/password-management/vaultwarden-dark.svg#only-dark){ .twemoji } [Vaultwarden (Bitwarden Server)](passwords.md#bitwarden)
 - ![Psono logo](assets/img/password-management/psono.svg){ .twemoji } [Psono](passwords.md#psono)
 - ![gopass logo](assets/img/password-management/gopass.svg){ .twemoji } [gopass](passwords.md#gopass)
 
@@ -383,7 +382,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <div class="grid cards" markdown>
 
 - ![Signal logo](assets/img/messengers/signal.svg){ .twemoji } [Signal](real-time-communication.md#signal)
-- ![Molly logo](assets/img/messengers/molly.svg){ .twemoji } [Molly (Hardened Signal fork for Android)](/advanced/signal-configuration-hardening/#hardening-signal-with-molly-on-android)
 - ![Element logo](assets/img/messengers/element.svg){ .twemoji } [Element](real-time-communication.md#element)
 - ![Session logo](assets/img/messengers/session.svg){ .twemoji } [Session](real-time-communication.md#session)
 - ![Briar logo](assets/img/messengers/briar.svg){ .twemoji } [Briar (Android)](real-time-communication.md#briar-android)

@@ -32,17 +32,7 @@ Signal supports [private groups](https://signal.org/blog/signal-private-group-sy
 
 The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs/).
 
-We also suggest Molly as an alternative to the official Signal app.
-
-![Molly logo](/assets/img/messengers/molly.svg){ align=right }
-
-**Molly** is a Signal fork for Android that provides additional hardening and security features to Signal.
-
-[:octicons-home-16: Homepage](https://molly.im/){ .md-button }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/mollyim/mollyim-android#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title=Contribute }
+We have some additional tips on configuring and hardening your Signal installation:
 
 [Signal Configuration and Hardening :hero-arrow-circle-right-fill:](./advanced/signal-configuration-hardening.md)
 

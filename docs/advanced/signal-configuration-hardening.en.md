@@ -169,7 +169,7 @@ If Signal is blocked in your country, Signal allows you to set up a proxy to byp
 
 You can learn more about Signal's proxy support on their [website](https://support.signal.org/hc/en-us/articles/360056052052-Proxy-Support).
 
-### Keep Your Signal Call History off iCloud (iOS only)
+### Disable Signal Call History (iOS)
 
 Signal allows you to see your call history from your regular phone app. This allows your iOS device to sync your call history with iCloud, including who you spoke to, when, and for how long.
 
@@ -180,7 +180,7 @@ If you use iCloud and you don’t want to share call history on Signal, confirm 
 
 ## Signal Hardening
 
-### Avoid Linking Your Signal Account to a Desktop Device
+### Avoid Device Linking
 
 While it may be tempting to link your Signal account to your desktop device for convenience, keep in mind that this extends your trust to an additional and potentially less secure operating system.
 
@@ -194,13 +194,15 @@ It is very important to take device security on both ends into account to ensure
 
 We recommend an up-to-date [GrapheneOS](/android/#grapheneos) or iOS device.
 
-### Hardening Signal with Molly on Android
+### Molly (Android)
+
+On Android you can consider using **Molly**, a fork of the Signal mobile client which aims to provide extensive hardening and anti-forensic features.
 
 !!! recommendation
 
     ![Molly logo](../assets/img/messengers/molly.svg){ align=right }
 
-    **Molly** is a security-focused [Signal](../real-time-communication/#signal) fork that aims to provide extensive hardening and anti-forensic features to people who use Signal.
+    **Molly** is an independent Signal fork which offers additional security features, including locking the app at rest, securely shredding unused RAM data, routing via Tor, and more.
 
     [:octicons-home-16: Homepage](https://molly.im/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }

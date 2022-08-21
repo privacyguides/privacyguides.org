@@ -90,9 +90,6 @@ These password managers sync your passwords to a cloud server for easy accessibi
 
 Bitwarden's server-side code is [open-source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
 
-![Vaultwarden logo](assets/img/password-management/vaultwarden.svg#only-light){ align=right }
-![Vaultwarden logo](assets/img/password-management/vaultwarden-dark.svg#only-dark){ align=right }
-
 **Vaultwarden** is an alternative implementation of the Bitwarden server API written in Rust and compatible with upstream Bitwarden clients, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal.
 
 [:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden){ .md-button }
