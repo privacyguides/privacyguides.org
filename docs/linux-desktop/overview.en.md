@@ -6,15 +6,15 @@ It is often believed that [open-source](https://en.wikipedia.org/wiki/Open-sourc
 
 At the moment, desktop GNU/Linux does have some areas that could be better improved when compared to their proprietary counterparts, e.g.:
 
-- A verified boot chain, unlike Apple’s [Secure Boot](https://support.apple.com/guide/security/startup-security-utility-secc7b34e5b5/web) (with [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1)), Android’s [Verified Boot](https://source.android.com/security/verifiedboot) or Microsoft Windows’s [boot process](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process) with [TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). These features and hardware technologies can all help prevent persistent tampering by malware or [evil maid attacks](https://en.wikipedia.org/wiki/Evil_Maid_attack)
-- Strong sandboxing solution such as that found in [macOS](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html), [ChromeOS](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md), and [Android](https://source.android.com/security/app-sandbox). Commonly used Linux sandboxing solutions such as [Flatpak](https://docs.flatpak.org/en/latest/sandbox-permissions.html) and [Firejail](https://firejail.wordpress.com/) still have a long way to go
+- A verified boot chain, like Apple’s [Secure Boot](https://support.apple.com/guide/security/startup-security-utility-secc7b34e5b5/web) (with [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1)), Android’s [Verified Boot](https://source.android.com/security/verifiedboot), ChromeOS' [Verified boot](https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview/#verified-boot), or Microsoft Windows’s [boot process](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process) with [TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). These features and hardware technologies can all help prevent persistent tampering by malware or [evil maid attacks](https://en.wikipedia.org/wiki/Evil_Maid_attack)
+- A strong sandboxing solution such as that found in [macOS](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html), [ChromeOS](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md), and [Android](https://source.android.com/security/app-sandbox). Commonly used Linux sandboxing solutions such as [Flatpak](https://docs.flatpak.org/en/latest/sandbox-permissions.html) and [Firejail](https://firejail.wordpress.com/) still have a long way to go
 - Strong [exploit mitigations](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations)
 
 Despite these drawbacks, desktop GNU/Linux distributions are great if you want to:
 
 - Avoid telemetry that often comes with proprietary operating systems
 - Maintain [software freedom](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- Have purpose built systems such as [Whonix](https://www.whonix.org) or [Tails](https://tails.boum.org/)
+- Have privacy focused systems such as [Whonix](https://www.whonix.org) or [Tails](https://tails.boum.org/)
 
 Our website generally uses the term “Linux” to describe desktop GNU/Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed here.
 
@@ -28,7 +28,7 @@ Not all Linux distributions are created equal. While our Linux recommendation pa
 
 We highly recommend that you choose distributions which stay close to the stable upstream software releases, often referred to as rolling release distributions. This is because frozen release cycle distributions often don’t update package versions and fall behind on security updates.
 
-For frozen distributions, package maintainers are expected to backport patches to fix vulnerabilities (Debian is one such [example](https://www.debian.org/security/faq#handling)) rather than bump the software to the “next version” released by the upstream developer. Some security fixes [do not](https://arxiv.org/abs/2105.14565) receive a [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (particularly less popular software) at all and therefore do not make it into the distribution with this patching model. As a result minor security fixes are sometimes held back until the next major release.
+For frozen distributions, such as [Debian](https://www.debian.org/security/faq#handling) package maintainers are expected to backport patches to fix vulnerabilities rather than bump the software to the “next version” released by the upstream developer. Some security fixes [do not](https://arxiv.org/abs/2105.14565) receive a [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (particularly less popular software) at all and therefore do not make it into the distribution with this patching model. As a result minor security fixes are sometimes held back until the next major release.
 
 We don’t believe holding packages back and applying interim patches is a good idea, as it diverges from the way the developer might have intended the software to work. [Richard Brown](https://rootco.de/aboutme/) has a presentation about this:
 
@@ -52,7 +52,7 @@ The Atomic update method is used for immutable distributions like Silverblue, Tu
 
 ### “Security-focused” distributions
 
-There is often some confusion about “security-focused” distributions and “pentesting” distributions. A quick search for “the most secure Linux distribution” will often give results like Kali Linux, Black Arch and Parrot OS. These distributions are offensive penetration testing distributions that bundle tools for testing other systems. They don’t include any “extra security” or defensive mitigations intended for regular use.
+There is often some confusion between “security-focused” distributions and “pentesting” distributions. A quick search for “the most secure Linux distribution” will often give results like Kali Linux, Black Arch and Parrot OS. These distributions are offensive penetration testing distributions that bundle tools for testing other systems. They don’t include any “extra security” or defensive mitigations intended for regular use.
 
 ### Arch-based distributions
 
@@ -62,14 +62,14 @@ For a secure system, you are also expected to have sufficient Linux knowledge to
 
 Anyone using the [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository), **must** be comfortable in auditing PKGBUILDs that they install from that service. AUR packages are community-produced content and are not vetted in any way, and therefore are vulnerable to software supply chain attacks, which has in fact happened [in the past](https://www.bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository/). AUR should always be used sparingly and often there is a lot of bad advice on various pages which direct people to blindly use [AUR helpers](https://wiki.archlinux.org/title/AUR_helpers) without sufficient warning. Similar warnings apply to use third-party Personal Package Archives (PPAs) on Debian based distributions or Community Projects (COPR) on Fedora.
 
-If you are experienced with Linux and wish to use an Arch-based distribution, we only recommend Arch Linux proper, not any of its derivatives. We recommend against these two Arch derivatives specifically:
+If you are experienced with Linux and wish to use an Arch-based distribution, we only recommend mainline Arch Linux, not any of its derivatives. We recommend against these two Arch derivatives specifically:
 
 - **Manjaro**: This distribution holds packages back for 2 weeks to make sure that their own changes don’t break, not to make sure that upstream is stable. When AUR packages are used, they are often built against the latest [libraries](https://en.wikipedia.org/wiki/Library_(computing)) from Arch’s repositories.
 - **Garuda**: They use [Chaotic-AUR](https://aur.chaotic.cx/) which automatically and blindly compiles packages from the AUR. There is no verification process to make sure that the AUR packages don’t suffer from supply chain attacks.
 
 ### Kicksecure
 
-While we strongly recommend against using outdated distributions like Debian, if you decide to use it, we suggest that you [convert](https://www.kicksecure.com/wiki/Debian) it into [Kicksecure](https://www.kicksecure.com/). Kicksecure, in oversimplified terms, is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. It covers a lot of privacy and hardening recommendations by default.
+While we strongly recommend against using outdated distributions like Debian, there is a Debian based operating system that has been hardened to be much more secure than typical Linux distributions: [Kicksecure](https://www.kicksecure.com/). Kicksecure, in oversimplified terms, is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. It covers a lot of privacy and hardening recommendations by default.
 
 ### Linux-libre kernel and “Libre” distributions
 
@@ -93,7 +93,7 @@ We recommend using a desktop environment that supports the [Wayland](https://en.
 
 Fortunately, common environments such as [GNOME](https://www.gnome.org), [KDE](https://kde.org), and the window manager [Sway](https://swaywm.org) have support for Wayland. Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly). If you’re using one of those environments it is as easy as selecting the “Wayland” session at the desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 
-We recommend **against** using desktop environments or window managers that do not have Wayland support such as Cinnamon (default on Linux Mint), Pantheon (default on Elementary OS), MATE, Xfce, and i3.
+We recommend **against** using desktop environments or window managers that do not have Wayland support, such as Cinnamon (default on Linux Mint), Pantheon (default on Elementary OS), MATE, Xfce, and i3.
 
 ### Proprietary Firmware (Microcode Updates)
 
