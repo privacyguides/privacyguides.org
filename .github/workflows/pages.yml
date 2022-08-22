@@ -29,7 +29,7 @@ jobs:
           submodules: 'true'
       
       - name: Pages setup
-        uses: actions/configure-pages@v1
+        uses: actions/configure-pages@v2
 
       - name: Python setup
         uses: actions/setup-python@v4
