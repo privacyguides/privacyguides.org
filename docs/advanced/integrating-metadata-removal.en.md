@@ -7,11 +7,11 @@ When sharing files, it's important to remove associated metadata. Image files co
 
 While there are plenty of metadata removal tools, they typically aren't convenient to use. The guides featured here aim to detail how to integrate metadata removal tools in a simple fashion by utilizing easy-to-access system features.
 
-- [Recommended metadata removal tools :hero-arrow-circle-right-fill:](../metadata-removal-tools.md)
+- [Recommended metadata removal tools :hero-arrow-circle-right-fill:](../data-redaction.md)
 
 ## macOS
 
-This guide uses the [Shortcuts](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac) app to add an [ExifTool](../metadata-removal-tools.md#exiftool) script to the *Quick Actions* context menu within Finder. Shortcuts is developed by Apple and bundled in with macOS by default.
+This guide uses the [Shortcuts](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac) app to add an [ExifTool](../data-redaction.md#exiftool) script to the *Quick Actions* context menu within Finder. Shortcuts is developed by Apple and bundled in with macOS by default.
 
 Shortcuts is quite intuitive to work with, so if you don't like the behavior demoed here then experiment with your own solution. For example, you could set the shortcut to take a clipboard input instead. The sky's the limit.
 
@@ -79,7 +79,7 @@ Shortcuts is quite intuitive to work with, so if you don't like the behavior dem
 [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) can be made accessible through the system Share Sheet, making accessing those shortcuts very convenient. This guide will show you how to build a metadata removal shortcut and integrate it into the system *Share Sheet*.
 
 !!! warning
-    This method of metadata removal is not as comprehensive at removing metadata as utilities like [ExifTool](../metadata-removal-tools.md#exiftool) and [mat2](../metadata-removal-tools.md#mat2) are.
+    This method of metadata removal is not as comprehensive at removing metadata as utilities like [ExifTool](../data-redaction.md#exiftool) and [mat2](../data-redaction.md#mat2) are.
 
 The lack of *good* metadata removal apps on the App Store is what makes this solution worthwhile.
 
@@ -120,7 +120,7 @@ The lack of *good* metadata removal apps on the App Store is what makes this sol
 
 ## Windows
 
-Windows allows you to place files in a **SendTo** folder which then appear in the *Send to* context menu. This guide will show you how to add an [ExifTool](../metadata-removal-tools.md#exiftool) batch script to this menu.
+Windows allows you to place files in a **SendTo** folder which then appear in the *Send to* context menu. This guide will show you how to add an [ExifTool](../data-redaction.md#exiftool) batch script to this menu.
 
 ![Send to metadata removal shortcut](../assets/img/integrating-metadata-removal/preview-windows.jpg)
 

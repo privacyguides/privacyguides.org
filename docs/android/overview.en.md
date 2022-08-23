@@ -57,6 +57,7 @@ It's important to not use an [end-of-life](https://endoflife.date/android) versi
 Should you want to run an app that you're unsure about, consider using a user or work profile.
 
 ## Media Access
+
 Quite a few applications allows you to "share" a file with them for media upload. If you want to, for example, tweet a picture to Twitter, do not grant Twitter access to your "media and photos", because it will have access to all of your pictures then. Instead, go to your file manager (documentsUI), hold onto the picture, then share it with Twitter.
 
 ## User Profiles
@@ -69,7 +70,7 @@ With user profiles, you can impose restrictions on a specific profile, such as: 
 
 [Work Profiles](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
 
-A **device controller** such as [Shelter](#recommended-apps) is required, unless you're using CalyxOS which includes one.
+A **device controller** app such as [Shelter](#recommended-apps) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 The work profile is dependent on a device controller to function. Features such as *File Shuttle* and *contact search blocking* or any kind of isolation features must be implemented by the controller. You must also fully trust the device controller app, as it has full access to your data inside of the work profile.
 

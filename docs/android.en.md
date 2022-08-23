@@ -108,34 +108,7 @@ A few more tips for purchasing a Google Pixel:
 
 ## General Apps
 
-### Orbot
-
-!!! recommendation
-
-    ![Orbot logo](assets/img/android/orbot.svg){ align=right }
-
-    **Orbot** is a free proxy app that routes your connections through the Tor Network.
-
-    [:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/guardianproject/orbot){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-        - [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid)
-
-Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
-
-For resistance against traffic analysis attacks, consider enabling *Isolate Destination Address* in :material-menu: → **Settings** → **Connectivity**. This will use a completely different Tor Circuit (different middle relay and exit nodes) for every domain you connect to.
-
-!!! tip
-
-    Orbot is often outdated on the Guardian Project's [F-Droid repository](https://guardianproject.info/fdroid) and [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) so consider downloading directly from the [GitHub repository](https://github.com/guardianproject/orbot) instead.
-
-    All versions are signed using the same signature so they should be compatible with each other.
+We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
 
 ### Shelter
 
@@ -143,7 +116,7 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
 
     ![Shelter logo](assets/img/android/shelter.svg){ align=right }
 
-    **Shelter** is an app that helps you leverage the Android work profile to isolate other apps.
+    **Shelter** is an app that helps you leverage Android's Work Profile functionality to isolate or duplicate apps on your device.
 
     Shelter supports blocking contact search cross profiles and sharing files across profiles via the default file manager ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
 
@@ -158,11 +131,9 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
 
 !!! warning
 
-    As CalyxOS includes a device controller, we recommend using their built-in work profile instead.
-
     Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular/) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
 
-    When using Shelter, you are placing complete trust in its developer as Shelter would be acting as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) for the work profile and has extensive access to the data stored within it.
+    When using Shelter, you are placing complete trust in its developer, as Shelter acts as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) to create the Work Profile, and it has extensive access to the data stored within the Work Profile.
 
 ### Auditor
 
@@ -183,6 +154,7 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
 
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor)
         - [:fontawesome-brands-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
+        - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 
 Auditor performs attestation and intrusion detection by:
 
@@ -194,7 +166,7 @@ Auditor performs attestation and intrusion detection by:
 
 No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
 
-If your [threat model](basics/threat-modeling.md) requires privacy, you could consider using Orbot or a VPN to hide your IP address from the attestation service.
+If your [threat model](basics/threat-modeling.md) requires privacy, you could consider using [Orbot](self-contained-networks.md#orbot) or a VPN to hide your IP address from the attestation service.
 To make sure that your hardware and operating system is genuine, [perform local attestation](https://grapheneos.org/install/web#verifying-installation) immediately after the device has been installed and prior to any internet connection.
 
 ### Secure Camera
@@ -215,6 +187,7 @@ To make sure that your hardware and operating system is genuine, [perform local 
 
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
         - [:fontawesome-brands-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
+        - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 
 Main privacy features include:
 
@@ -247,28 +220,7 @@ Main privacy features include:
 
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
         - [:fontawesome-brands-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
-
-### PrivacyBlur
-
-!!! recommendation
-
-    ![PrivacyBlur logo](assets/img/android/privacyblur.svg){ align=right }
-
-    **PrivacyBlur** is a free app which can blur sensitive portions of pictures before sharing them online.
-
-    [:octicons-home-16: Homepage](https://privacyblur.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
-
-    ??? downloads
-
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.mathema.privacyblur/)
-
-!!! warning
-
-    You should **never** use blur to redact [text in images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, draw a box over the text. For this we suggest [Pocket Paint](https://github.com/Catrobat/Paintroid) or [Imagepipe](https://codeberg.org/Starfish/Imagepipe).
+        - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 
 ## Obtaining Applications
 
@@ -278,9 +230,27 @@ GrapheneOS's app store is available on [GitHub](https://github.com/GrapheneOS/Ap
 
 ### Aurora Store
 
-The Google Play Store requires a Google account to login which is not great for privacy. The [Aurora Store](https://auroraoss.com/download/AuroraStore/) (a Google Play Store proxy) does not and works most of the time.
+The Google Play Store requires a Google account to login which is not great for privacy. You can get around this by using an alternative client, such as Aurora Store.
+
+!!! recommendation
+
+    ![Aurora Store logo](assets/img/android/aurora-store.webp){ align=right }
+
+    **Aurora Store** is a Google Play Store client which does not require a Google Account, Google Play Services, or microG to download apps.
+
+    [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
+
+    ??? downloads
+
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.aurora.store/)
+        - [:fontawesome-brands-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
+
+Aurora Store does not allow you to download paid apps with their anonymous account feature. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google, however you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
 
 ### F-Droid
+
+![F-Droid logo](assets/img/android/f-droid.svg){ align=right width=120px }
 
 F-Droid is often recommended as an alternative to Google Play, particularly in the privacy community. The option to add third-party repositories and not be confined to Google's walled garden has led to its popularity. F-Droid additionally has [reproducible builds](https://f-droid.org/en/docs/Reproducible_Builds/) for some applications and is dedicated to free and open-source software. However, there are problems with the official F-Droid client, their quality control, and how they build, sign and deliver packages, outlined in this [post](https://wonderfall.dev/fdroid-issues/).
 

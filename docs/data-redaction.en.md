@@ -1,5 +1,5 @@
 ---
-title: "Metadata Removal Tools"
+title: "Data and Metadata Redaction"
 icon: material/tag-remove
 ---
 When sharing files, be sure to remove associated metadata. Image files commonly include [Exif](https://en.wikipedia.org/wiki/Exif) data. Photos sometimes even include GPS coordinates in the file metadata.
@@ -10,7 +10,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 !!! recommendation
 
-    ![ExifCleaner logo](assets/img/metadata-removal/exifcleaner.svg){ align=right }
+    ![ExifCleaner logo](assets/img/data-redaction/exifcleaner.svg){ align=right }
 
     **ExifCleaner** is a freeware, open-source graphical app that uses [ExifTool](https://exiftool.org) to remove Exif metadata from images, videos, and PDF documents using a simple drag and drop interface. It supports multi-core batch processing and dark mode.
 
@@ -28,7 +28,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 !!! recommendation
 
-    ![MAT2 logo](assets/img/metadata-removal/mat2.svg){ align=right }
+    ![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
 
     **MAT2** is free software, which allows the metadata to be removed from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an [extension for Nautilus](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus), the default file manager of [GNOME](https://www.gnome.org), and [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
 
@@ -51,7 +51,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 !!! recommendation
 
-    ![ExifEraser logo](assets/img/metadata-removal/exiferaser.svg){ align=right }
+    ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ align=right }
 
     **ExifEraser** is a modern, permissionless image metadata erasing application for Android.
 
@@ -87,7 +87,7 @@ The app offers multiple ways to erase metadata from images. Namely:
 
 !!! recommendation
 
-    ![Metapho logo](assets/img/metadata-removal/metapho.jpg){ align=right }
+    ![Metapho logo](assets/img/data-redaction/metapho.jpg){ align=right }
 
     Metapho is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
 
@@ -100,13 +100,35 @@ The app offers multiple ways to erase metadata from images. Namely:
 
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/metapho/id914457352)
 
+### PrivacyBlur (Android)
+
+!!! recommendation
+
+    ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ align=right }
+
+    **PrivacyBlur** is a free app which can blur sensitive portions of pictures before sharing them online.
+
+    [:octicons-home-16: Homepage](https://privacyblur.app/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
+
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
+        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.mathema.privacyblur/)
+
+!!! warning
+
+    You should **never** use blur to redact [text in images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, draw a box over the text. For this we suggest [Pocket Paint](https://github.com/Catrobat/Paintroid) or [Imagepipe](https://codeberg.org/Starfish/Imagepipe).
+
 ## Command-line
 
 ### ExifTool
 
 !!! recommendation
 
-    ![ExifTool logo](assets/img/metadata-removal/exiftool.png){ align=right }
+    ![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
 
     **ExifTool** is the original perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
 

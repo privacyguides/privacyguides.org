@@ -76,12 +76,11 @@ For more details about each project, why they were chosen, and additional tips o
 <div class="grid cards" markdown>
 
 - ![Neo Store logo](assets/img/android/neo-store.png){ .twemoji } [Neo Store (F-Droid Client)](android.md#neo-store)
-- ![Orbot logo](assets/img/android/orbot.svg){ .twemoji } [Orbot (Tor Proxy)](android.md#orbot)
+- ![Aurora Store logo](/assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
 - ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
 - ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
 - ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
 - ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
-- ![PrivacyBlur logo](assets/img/android/privacyblur.svg){ .twemoji } [PrivacyBlur](android.md#privacyblur)
 
 </div>
 
@@ -323,19 +322,20 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :hero-arrow-circle-right-fill:](file-sharing.md)
 
-### Metadata Removal Tools
+### Data and Metadata Redaction
 
 <div class="grid cards" markdown>
 
-- ![ExifCleaner logo](assets/img/metadata-removal/exifcleaner.svg){ .twemoji } [ExifCleaner](metadata-removal-tools.md#exifcleaner)
-- ![MAT2 logo](assets/img/metadata-removal/mat2.svg){ .twemoji } [MAT2](metadata-removal-tools.md#mat2)
-- ![ExifEraser logo](assets/img/metadata-removal/exiferaser.svg){ .twemoji } [ExifEraser (Android)](metadata-removal-tools.md#exiferaser-android)
-- ![Metapho logo](assets/img/metadata-removal/metapho.jpg){ .twemoji } [Metapho (iOS)](metadata-removal-tools.md#metapho-ios)
-- ![ExifTool logo](assets/img/metadata-removal/exiftool.png){ .twemoji } [ExifTool (CLI)](metadata-removal-tools.md#exiftool)
+- ![ExifCleaner logo](assets/img/data-redaction/exifcleaner.svg){ .twemoji } [ExifCleaner](data-redaction.md#exifcleaner)
+- ![MAT2 logo](assets/img/data-redaction/mat2.svg){ .twemoji } [MAT2](data-redaction.md#mat2)
+- ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
+- ![Metapho logo](assets/img/data-redaction/metapho.jpg){ .twemoji } [Metapho (iOS)](data-redaction.md#metapho-ios)
+- ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ .twemoji } [PrivacyBlur](data-redaction.md#privacyblur)
+- ![ExifTool logo](assets/img/data-redaction/exiftool.png){ .twemoji } [ExifTool (CLI)](data-redaction.md#exiftool)
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](metadata-removal-tools.md)
+[Learn more :hero-arrow-circle-right-fill:](data-redaction.md)
 
 ### Multi-Factor Authentication Tools
 
@@ -413,6 +413,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 - ![Freenet logo](./assets/img/self-contained-networks/freenet.svg){ .twemoji } [Freenet](self-contained-networks.md#freenet)
 - ![I2P logo](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji } ![I2P logo](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji } [I2P](self-contained-networks.md#invisible-internet-project)
 - ![Tor logo](./assets/img/self-contained-networks/tor.svg){ .twemoji } [Tor](self-contained-networks.md#tor)
+- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Smartphone Tor Proxy)](self-contained-networks.md#orbot)
 
 </div>
 

@@ -77,3 +77,33 @@ These networks are designed to keep your traffic anonymous.
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
         - [:pg-f-droid: F-Droid](https://support.torproject.org/tormobile/tormobile-7/)
         - [:fontawesome-brands-android: Android](https://www.torproject.org/download/#android)
+
+### Orbot
+
+!!! recommendation
+
+    ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+
+    **Orbot** is a free Tor VPN for smartphones which routes traffic from any app on your device through the Tor network.
+
+    [:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
+    [:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
+        - [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid)
+        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
+
+For resistance against traffic analysis attacks, consider enabling *Isolate Destination Address* in :material-menu: → **Settings** → **Connectivity**. This will use a completely different Tor Circuit (different middle relay and exit nodes) for every domain you connect to.
+
+!!! tip "Tips for Android"
+
+    Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+
+    Orbot is often outdated on the Guardian Project's [F-Droid repository](https://guardianproject.info/fdroid) and [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android), so consider downloading directly from the [GitHub repository](https://github.com/guardianproject/orbot) instead.
+
+    All versions are signed using the same signature so they should be compatible with each other.
