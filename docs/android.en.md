@@ -33,7 +33,9 @@ We recommend installing one of these custom Android operating systems on your de
     [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
-GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) fully sandboxed like any other regular app. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging/), while giving you full control over their permissions and access, and while containing them to a specific work profile or user [profile](android/overview.md#user-profiles) of your choice.
+GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) fully sandboxed like any other regular app. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging/), while giving you full control over their permissions and access, and while containing them to a specific [work profile](https://developer.android.com/work/managed-profiles) (through [Shelter](#shelter) for instance) or [user profile](android/overview.md#user-profiles) of your choice.
+
+GrapheneOS has [recently added](https://grapheneos.org/releases#2022063000) a [Notification Forwarding](https://grapheneos.org/features#notification-forwarding) feature which allows applications to send notifications across profiles.
 
 Google Pixel phones are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#device-support).
 
