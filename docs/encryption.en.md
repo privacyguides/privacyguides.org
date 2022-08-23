@@ -102,34 +102,39 @@ BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-o
 
     To enable BitLocker on "Home" editions of Windows, you must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module.
 
-    1. Open Windows [PowerShell](https://en.wikipedia.org/wiki/PowerShell).
+    1. Open a command prompt and check your drive's partition table format with the following command. You should see "**GPT**" listed under "Partition Style":
 
-    2. Check to see partition table format:
         ```
-        powershell Get-Disk 0 | findstr GPT && echo This is a GPT system disk!
-        ```
-
-    3. Check TPM version. The value returned must be "3 True". The spec must be 1.2 or above.
-        ```
-        powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm | findstr "IsActivated IsEnabled IsOwned SpecVersion"
+        powershell Get-Disk
         ```
 
-    4. Access [Advanced Startup Options](https://support.microsoft.com/en-us/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). You need to reboot while pressing the F8 key before Windows starts and go into the *command prompt* in **Troubleshoot** → **Advanced Options** → **Command Prompt**.
+    2. Run this command (in an admin command prompt) to check your TPM version. You should see `2.0` or `1.2` listed next to `SpecVersion`:
 
-    5. Login with your account that has admin privileges and type this to start encryption:
+        ```
+        powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
+        ```
+
+    3. Access [Advanced Startup Options](https://support.microsoft.com/en-us/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). You need to reboot while pressing the F8 key before Windows starts and go into the *command prompt* in **Troubleshoot** → **Advanced Options** → **Command Prompt**.
+
+    4. Login with your admin account and type this in the command prompt to start encryption:
+
         ```
         manage-bde -on c: -used
         ```
 
-    6. Close the command prompt, and enter into PowerShell:
-    ```
-    manage-bde c: -protectors -add -rp -tpm
-    manage-bde -protectors -enable c:
-    manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
-    ```
+    5. Close the command prompt and continue booting to regular Windows.
+    
+    6. Open an admin command prompt and run the following commands:
 
-        !!! warning
-            Backup `BitLocker-Recovery-Key.txt` on a separate storage device. Loss of this recovery code, may result in loss of data.
+        ```
+        manage-bde c: -protectors -add -rp -tpm
+        manage-bde -protectors -enable c:
+        manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
+        ```
+
+        !!! important
+
+            Backup `BitLocker-Recovery-Key.txt` on your Desktop to a separate storage device. Loss of this recovery code may result in loss of data.
 
 ### FileVault
 
