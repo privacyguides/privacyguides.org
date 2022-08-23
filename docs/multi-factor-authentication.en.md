@@ -95,10 +95,10 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
     **Raivo OTP** is a native, lightweight and secure time-based (TOTP) & counter-based (HOTP) password client for iOS. Raivo OTP offers optional iCloud backup & sync. Raivo OTP is also available for macOS in the form of a status bar application, however the Mac app does not work independently of the iOS app.
 
-    [:octicons-repo-16: Repository](https://github.com/raivo-otp/ios-application){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/raivo-otp/ios-application/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }
+    [:octicons-home-16: Homepage](https://raivo-otp.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://raivo-otp.com/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-code-16:](https://github.com/raivo-otp/ios-application){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sponsors/tijme){ .card-link title=Contribute }
+    [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title=Contribute }
 
     ??? downloads
 
