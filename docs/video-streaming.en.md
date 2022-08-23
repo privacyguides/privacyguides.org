@@ -97,14 +97,6 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
     
     When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
-**NewPipe x SponsorBlock** is a fork of [NewPipe](https://newpipe.net) with [SponsorBlock](https://sponsor.ajay.app) integrated to help you skip sponsored video segments.
-
-It also has integration with [Return YouTube Dislike](https://returnyoutubedislike.com), and some experimental settings such as the ability to use the built-in player for local playback, an option to force fullscreen on landscape mode, and an option to disable error reporting prompts.
-
-[:octicons-repo-16: "NewPipe x SponsorBlock" on GitHub](https://github.com/polymorphicshade/NewPipe){ .md-button }
-
-This fork is not endorsed by or affiliated with the upstream project. The NewPipe team has [rejected](https://github.com/TeamNewPipe/NewPipe/pull/3205) integration with SponsorBlock and thus this fork is created to provide this functionality.
-
 ## Web-based frontends
 
 ### Invidious
