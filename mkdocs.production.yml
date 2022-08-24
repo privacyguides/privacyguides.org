@@ -48,6 +48,8 @@ theme:
     - content.tooltips
   palette:
     - media: "(prefers-color-scheme)"
+      scheme: default
+      accent: deep purple
       toggle:
         icon: hero/sparkles
         name: Switch to light mode
