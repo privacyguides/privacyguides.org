@@ -29,12 +29,13 @@ jobs:
       - name: Set up Python runtime
         uses: actions/setup-python@v4
         with:
-          python-version: '3.7'
+          python-version: '3.10'
 
       - name: Deploy to surge.sh
         uses: afc163/surge-preview@v1
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CARDS: true
         with:
           surge_token: ${{ secrets.SURGE_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
