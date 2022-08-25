@@ -111,10 +111,5 @@ If you commit to `main` with commits signed with your SSH key, you should add yo
     - [View existing tags](https://github.com/privacyguides/privacyguides.org/tags)
     - Tag [numbering](https://semver.org/): Increment the MINOR (2nd) number when making significant changes (adding/deleting pages, etc.), increment the PATCH (3rd) number when making minor changes (typos, bug fixes). Probably leave the MAJOR number at 2 until a massive revamp (v1 -> v2 was the Jekyll to MkDocs transition).
 2. Push the tag to GitHub: `git push --tags`
-3. [Create a new release](https://github.com/privacyguides/privacyguides.org/releases/new) selecting the new tag
-    - Title the release the same as the tag version number, i.e. `v2.X.X`
-      - For more significant releases, add a **short** title, for example [v2.3.0 - Localization Support](https://github.com/privacyguides/privacyguides.org/releases/tag/v2.3.0) or [v2.2.0 - Removing Social Networks](https://github.com/privacyguides/privacyguides.org/releases/tag/v2.2.0)
-    - GitHub should let you auto-generate release notes based on PR titles
-      - Mark more significant changes in bold, see [v2.12.0](https://github.com/privacyguides/privacyguides.org/releases/tag/v2.12.0) for example
-4. Publish release, it will be deployed to the live site automatically
+3. A draft release will be created on GitHub. Publish the release and it will be deployed to the live site automatically.
     - When publishing more significant releases (generally any with a MINOR version increment) check the "Create a discussion for this release" box to post an announcement

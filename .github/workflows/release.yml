@@ -1,0 +1,20 @@
+name: 📦 Releases
+
+on: 
+  push:
+    tags:
+      - '*'
+
+jobs:
+  release:
+    name: Create Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ncipollo/release-action@v1
+        with:
+          draft: true
+          generateReleaseNotes: true
+          token: ${{ secrets.REPO_TOKEN }}
