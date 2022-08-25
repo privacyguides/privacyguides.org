@@ -4,7 +4,7 @@ site_dir: 'site'
 
 site_name: Privacy Guides
 site_description: |
-  Massive organizations are monitoring your online activities. Privacy Guides is your central privacy and security resource to protect yourself online.
+  Privacy Guides is your central privacy and security resource to protect yourself online.
 copyright: |
   <b>Privacy Guides</b> is a non-profit, socially motivated website that provides information for protecting your data security and privacy.<br>
   We do not make money from recommending certain products, and we do not utilize affiliate links.<br>
@@ -34,6 +34,7 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   custom_dir: theme
+  logo: assets/brand/SVG/Logo/privacy-guides-logo-notext-colorbg.svg
   favicon: assets/brand/PNG/Favicon/favicon-32x32.png
   icon:
     repo: fontawesome/brands/github

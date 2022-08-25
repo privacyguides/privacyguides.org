@@ -84,7 +84,7 @@ This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdoc
     - `git submodule init`
     - `git submodule update docs/assets/brand`
     - `git config gpg.ssh.allowedSignersFile .allowed_signers`
-2. Install [Python 3.6+](https://www.python.org/downloads/)
+2. Install [Python 3.6+](https://www.python.org/downloads/) (currently only tested with 3.10)
 3. Install [dependencies](/Pipfile): `pip install mkdocs mkdocs-material mkdocs-static-i18n typing-extensions`
 4. Serve the site locally: `mkdocs serve`
     - The site will be available at `http://localhost:8000`
@@ -95,10 +95,10 @@ This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdoc
 
 1. Clone this repository and submodules: `git clone --recurse-submodules https://github.com/privacyguides/privacyguides.org.git`
 2. Enable SSH commit verification with our local [`.allowed_signers`](/.allowed_signers) file: `git config gpg.ssh.allowedSignersFile .allowed_signers`
-3. Install Python **3.7**
+3. Install Python **3.10**
 4. Install **pipenv**: `pip install pipenv`
-5. Install dependencies: `pipenv install --dev`
-6. Serve the site locally: `pipenv run mkdocs serve --config-file mkdocs.production.yml`
+5. Install dependencies: `pipenv install --dev` (install [Pillow and CairoSVG](https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/#dependencies) as well to generate social cards)
+6. Serve the site locally: `pipenv run mkdocs serve --config-file mkdocs.production.yml` (set `CARDS=true` to generate social cards)
     - The site will be available at `http://localhost:8000`
     - You can build the site locally with `pipenv run mkdocs build`
     - This version of the site should be identical to the live, production version

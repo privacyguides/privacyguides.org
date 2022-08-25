@@ -22,6 +22,13 @@ plugins:
     date_from_meta:
       as_creation: "created"
       datetime_format: "%Y-%m-%d"
+  social:
+    cards: !ENV [CARDS, false]
+    cards_color:
+      fill: "#FFD06F"
+      text: "#2d2d2d"
+    cards_dir: assets/img/social
+    cards_font: 'Public Sans'
 
 extra:
   generator: false
