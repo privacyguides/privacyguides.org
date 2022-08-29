@@ -91,8 +91,6 @@ The app offers multiple ways to erase metadata from images. Namely:
 
     Metapho is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
 
-    Metapho is closed-source, however we recommend it due to the few choices there are for iOS.
-
     [:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
 
@@ -120,7 +118,7 @@ The app offers multiple ways to erase metadata from images. Namely:
 
 !!! warning
 
-    You should **never** use blur to redact [text in images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, draw a box over the text. For this we suggest [Pocket Paint](https://github.com/Catrobat/Paintroid) or [Imagepipe](https://codeberg.org/Starfish/Imagepipe).
+    You should **never** use blur to redact [text in images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, draw a box over the text. For this, we suggest apps like [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
 ## Command-line
 
