@@ -29,3 +29,15 @@ jobs:
         with:
           source-repo: "git@github.com:privacyguides/privacyguides.org.git"
           destination-repo: "git@codeberg.org:privacyguides/privacyguides.org.git"
+
+      - name: Cleanup
+        run: |
+          sudo rm -rf privacyguides.org.git
+
+      - name: Mirror to SourceHut
+        uses: wearerequired/git-mirror-action@v1
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
+        with:
+          source-repo: "git@github.com:privacyguides/privacyguides.org.git"
+          destination-repo: "git@git.sr.ht:~jonaharagon/privacyguides.org"
