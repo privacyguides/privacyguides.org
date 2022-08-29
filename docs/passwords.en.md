@@ -60,7 +60,7 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 ## Cloud Sync
 
-These password managers sync your passwords to a cloud server for easy accessibility from all your devices. Our recommendations have open-source server-side code which is optionally self-hostable.
+These password managers sync your passwords to a cloud server for easy accessibility from all your devices and safety against device loss.
 
 ### Bitwarden
 
@@ -68,7 +68,7 @@ These password managers sync your passwords to a cloud server for easy accessibi
 
     ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
 
-    **Bitwarden** is a free and open-source password manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the easiest and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices.
+    **Bitwarden** is a free and open-source password manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the best and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices.
 
     [:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
@@ -94,12 +94,32 @@ You need the [Premium Plan](https://bitwarden.com/help/about-bitwarden-plans/#co
 
 Bitwarden's server-side code is [open-source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
 
-**Vaultwarden** is an alternative implementation of the Bitwarden server API written in Rust and compatible with upstream Bitwarden clients, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal.
+**Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal. If you are looking to self-host Bitwarden on your own server, you almost certainly want to use Vaultwarden over Bitwarden's official server code.
 
 [:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden){ .md-button }
 [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title=Contribute }
+
+### 1Password
+
+1Password is a very capable, paid password manager with many features geared towards families and less technical people, as well as advanced functionality. Traditionally, 1Password has offered the best password manager user experience for people using macOS and iOS, however it has now achieved feature-parity across all platforms.
+
+!!! recommendation
+
+    ![1Password logo](assets/img/password-management/1password.svg){ align=right }
+
+    **1Password** is a password manager with a strong focus on security and ease-of-use, which allows you to store passwords, credit cards, software licenses, and any other sensitive information in a secure digital vault. Your vault is hosted on 1Password's servers for a monthly fee. 1Password is [audited](https://support.1password.com/security-assessments/) on a regular basis, provides exceptional customer support. 1Password is closed source however, the security of the product is thoroughly documented in their [security white paper](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
+
+    [:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://support.1password.com/1password-privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
+
+Your 1Password vault is secured with both your master password and a randomized 34-character security key to encrypt your data on their servers. This security key adds a layer of protection to your data because your data is secured with high entropy regardless of your master password. Many other password manager solutions are entirely reliant on the strength of your master password to secure your data.
+
+One advantage 1Password has over Bitwarden is its first-class support for native clients. While Bitwarden relegates many duties to their web vault interface, especially account management features, 1Password makes nearly every feature available within its native mobile or desktop clients. 1Password's clients also have a more intuitive UI, which makes them easier to use and navigate.
+
+Another consideration we made with this recommendation was 1Password's track record of customer support, available in a wide variety of channels including over the phone. For some less technical people or family members, being able to call and talk to a real person can make the difference between using a password manager and giving up. The best password manager is the one you use, and you virtually can't go wrong with any of the options on this page.
 
 ### Psono
 
