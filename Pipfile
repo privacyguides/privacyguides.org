@@ -12,6 +12,7 @@ typing-extensions = "*"
 mkdocs-minify-plugin = "*"
 mkdocs-rss-plugin = "*"
 mkdocs-git-committers-plugin-2 = "*"
+mkdocs-macros-plugin = "*"
 
 [dev-packages]
 scour = "*"

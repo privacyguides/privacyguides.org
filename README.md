@@ -58,14 +58,6 @@ Our current list of team members can be found [here](https://github.com/orgs/pri
   - Browse our [open issues](https://github.com/privacyguides/privacyguides.org/issues) to see what needs to be updated
   - View some contribution tips on our [contributor's wiki](https://github.com/privacyguides/privacyguides.org/wiki)
 
-### Blog
-
-We aspire to publish the best articles about privacy on the net. From hot-takes to long-form essays, we are looking for stylish and well-written pieces.
-
-This not a place for sponsored content or SEO-obsessed posts. Please do **not** pitch us this, as we don't take kindly to it and your email will be blocked. *Caveat scriptor.*
-
-Submit stories or requests to: `freddy@privacyguides.org`
-
 ## Mirrors
 
 [![GitHub](https://img.shields.io/static/v1?logo=github&label=&message=GitHub&color=000&style=for-the-badge)](https://github.com/privacyguides/privacyguides.org)
@@ -86,7 +78,7 @@ This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdoc
     - `git submodule update docs/assets/brand`
     - `git config gpg.ssh.allowedSignersFile .allowed_signers`
 2. Install [Python 3.6+](https://www.python.org/downloads/) (currently only tested with 3.10)
-3. Install [dependencies](/Pipfile): `pip install mkdocs mkdocs-material mkdocs-static-i18n typing-extensions`
+3. Install [dependencies](/Pipfile): `pip install mkdocs mkdocs-material mkdocs-static-i18n mkdocs-macros-plugin typing-extensions`
 4. Serve the site locally: `mkdocs serve`
     - The site will be available at `http://localhost:8000`
     - You can build the site locally with `mkdocs build`

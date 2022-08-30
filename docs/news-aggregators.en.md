@@ -155,7 +155,7 @@ You can subscribe YouTube channels without logging in and associating usage info
 
 !!! example
 
-    To subscribe to a YouTube channel with an RSS client, first look for your [channel code](https://support.google.com/youtube/answer/6180214), replace `channel_id` below:
+    To subscribe to a YouTube channel with an RSS client, first look for your [channel code](https://support.google.com/youtube/answer/6180214), replace `[CHANNEL ID]` below:
     ```text
-    https://www.youtube.com/feeds/videos.xml?channel_id={{ channel id }}
+    https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
     ```

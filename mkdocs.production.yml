@@ -76,3 +76,4 @@ watch:
   - theme
   - includes
   - mkdocs.yml
+  - data

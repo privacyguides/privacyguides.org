@@ -69,6 +69,10 @@ plugins:
         build: false
   tags: {}
   search: {}
+  macros:
+    on_error_fail: true
+    include_yaml:
+      - data/articles.yml
 
 markdown_extensions:
   admonition: {}
@@ -178,7 +182,8 @@ nav:
     - 'about/privacy-policy.md'
   - 'Donate': '/about/donate/'
   - 'Discussions': 'https://github.com/privacyguides/privacyguides.org/discussions'
-  - 'Blog':
+  - 'Articles':
+    - 'articles.md'
     - '2022':
       - '"Hide Nothing"': 'blog/2022/06/09/hide-nothing.md'
       - '"Move Fast and Break Things"': 'blog/2022/04/04/move-fast-and-break-things.md'
