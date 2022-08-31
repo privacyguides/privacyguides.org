@@ -77,7 +77,7 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
 
     **Session** is a decentralized messenger with a focus on private, secure, and anonymous communications. Session offers support for direct messages, group chats, and voice calls.
 
-    Session utilizes the decentralized [Oxen Service Node Network](https://oxen.io/) to store and route messages. Every encrypted message is routed through three nodes in the Oxen Service Node Network, making it virtually impossible for the nodes to compile meaningful information on those using the network.
+    Session uses the decentralized [Oxen Service Node Network](https://oxen.io/) to store and route messages. Every encrypted message is routed through three nodes in the Oxen Service Node Network, making it virtually impossible for the nodes to compile meaningful information on those using the network.
 
     [:octicons-home-16: Homepage](https://getsession.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
@@ -178,7 +178,7 @@ When self-hosted, members of a federated server can discover and communicate wit
 - Adding new features is more complex, because these features need to be standardized and tested to ensure they work with all servers on the network.
 - Due to the previous point, features can be lacking, or incomplete or working in unexpected ways compared to centralized platforms, such as message relay when offline or message deletion.
 - Some metadata may be available (e.g., information like "who is talking to whom," but not actual message content if E2EE is used).
-- Federated servers generally require trusting your server's administrator. They may be a hobbyist or otherwise not a "security professional," and may not serve standard documents like a privacy policy or terms of service detailing how your data is utilized.
+- Federated servers generally require trusting your server's administrator. They may be a hobbyist or otherwise not a "security professional," and may not serve standard documents like a privacy policy or terms of service detailing how your data is used.
 - Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with members of those servers.
 
 ### Peer-to-Peer Networks

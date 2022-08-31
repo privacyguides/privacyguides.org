@@ -32,7 +32,7 @@ The options listed here are multi-platform and great for creating encrypted back
         - [:fontawesome-brands-android: Android](https://cryptomator.org/android)
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
 
-Cryptomator utilizes AES-256 encryption to encrypt both files and filenames. Cryptomator cannot encrypt metadata such as access, modification, and creation timestamps, nor the number and size of files and folders.
+Cryptomator uses AES-256 encryption to encrypt both files and filenames. Cryptomator cannot encrypt metadata such as access, modification, and creation timestamps, nor the number and size of files and folders.
 
 Some Cryptomator cryptographic libraries have been [audited](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) by Cure53. The scope of the audited libraries includes: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) and [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). The audit did not extend to [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), which is a library used by Cryptomator for iOS.
 
@@ -84,7 +84,7 @@ Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
 
 ## OS Full Disk Encryption
 
-Modern operating systems include [FDE](https://en.wikipedia.org/wiki/Disk_encryption) and will utilize a [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor).
+Modern operating systems include [FDE](https://en.wikipedia.org/wiki/Disk_encryption) and will have a [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor).
 
 ### BitLocker
 
@@ -146,7 +146,7 @@ BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-o
 
     [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title=Documentation}
 
-We recommend storing a local recovery key in a secure place as opposed to utilizing iCloud FileVault recovery. As well, FileVault should be enabled **after** a complete macOS installation as more pseudorandom number generator ([PRNG](https://support.apple.com/guide/security/random-number-generation-seca0c73a75b/web)) [entropy](https://en.wikipedia.org/wiki/Entropy_(computing)) will be available.
+We recommend storing a local recovery key in a secure place as opposed to using iCloud FileVault recovery. As well, FileVault should be enabled **after** a complete macOS installation as more pseudorandom number generator ([PRNG](https://support.apple.com/guide/security/random-number-generation-seca0c73a75b/web)) [entropy](https://en.wikipedia.org/wiki/Entropy_(computing)) will be available.
 
 ### Linux Unified Key Setup
 
