@@ -35,7 +35,7 @@ A lot of password managers will also notify you when a data breach that is relev
 
 Diceware is a method for creating passphrases which are easy to remember, but hard to guess.
 
-The method traditionally involves using a six-sided die. Every five rolls correspond to a word in a cryptographic list. For example, 43146 in the traditional list corresponds to "munch". You would then continue rolling until your passphrase has as many words as you need.
+The method traditionally involves using a six-sided die. Every five rolls correspond to a word in a cryptographic list. For example, 43146 in the traditional list corresponds to "munch". You would then continue rolling until your passphrase has as many words as you need, separated by spaces.
 
 The die method ensures that you're generating the passphrase in a completely offline way. If you choose to go that route, you should ideally use unbiased die to ensure that they are as random as possible.
 
