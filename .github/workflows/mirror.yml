@@ -7,7 +7,7 @@ concurrency:
   group: git-mirror
 
 jobs:
-  git-mirror:
+  gitlab:
     runs-on: ubuntu-latest
     steps:
       - name: Mirror to GitLab
@@ -18,10 +18,9 @@ jobs:
           source-repo: "git@github.com:privacyguides/privacyguides.org.git"
           destination-repo: "git@gitlab.com:privacyguides/privacyguides.org.git"
 
-      - name: Cleanup
-        run: |
-          sudo rm -rf privacyguides.org.git
-
+  codeberg:
+    runs-on: ubuntu-latest
+    steps:
       - name: Mirror to Codeberg
         uses: wearerequired/git-mirror-action@v1
         env:
@@ -30,10 +29,9 @@ jobs:
           source-repo: "git@github.com:privacyguides/privacyguides.org.git"
           destination-repo: "git@codeberg.org:privacyguides/privacyguides.org.git"
 
-      - name: Cleanup
-        run: |
-          sudo rm -rf privacyguides.org.git
-
+  sourcehut:
+    runs-on: ubuntu-latest
+    steps:
       - name: Mirror to SourceHut
         uses: wearerequired/git-mirror-action@v1
         env:
