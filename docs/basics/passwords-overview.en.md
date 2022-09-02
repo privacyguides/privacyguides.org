@@ -21,4 +21,10 @@ Passwords are an essential part of our everyday digital lives. We use them to pr
 
 ### Password Managers
 
+The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud with the use of a master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
+
+There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a 8-10 word [diceware](#diceware) passphrase.
+
+[List of recommended password managers](../passwords.md){ .md-button }
+
 ### Backups
