@@ -44,7 +44,7 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install pipenv
+          pip install -Iv pipenv==2022.8.24
           pipenv install
 
       - name: Build website
