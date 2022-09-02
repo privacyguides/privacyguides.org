@@ -49,7 +49,7 @@ The best way to store your passwords is by using a password manager. They allow 
 
 If you're using TOTP as a [multi-factor authentication](../multi-factor-authentication.md) method for any of your accounts, do not store these tokens in your password manager, as that negates their benefit. You should use a dedicated [TOTP app](../multi-factor-authentication.md/#authenticator-apps) instead.
 
-There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with word [diceware](#diceware) passphrase comprised of at least 6 words.
+There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware](#diceware) passphrase comprised of at least 6 words.
 
 [List of recommended password managers](../passwords.md){ .md-button }
 
