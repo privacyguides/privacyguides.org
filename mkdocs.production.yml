@@ -12,7 +12,6 @@ plugins:
   git-committers:
     repository: privacyguides/privacyguides.org
     branch: main
-    token: !ENV GH_TOKEN
   git-revision-date-localized:
       exclude:
         - index.en.md
