@@ -45,7 +45,7 @@ Alternatively, you can use a password generator (your password manager can most 
 
 ### Password Managers
 
-The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud with the use of a master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
+The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
 
 If you're using TOTP as a [multi-factor authentication](../multi-factor-authentication.md) method for any of your accounts, do not store these tokens in your password manager, as that negates their benefit. You should use a dedicated [TOTP app](../multi-factor-authentication.md/#authenticator-apps) instead.
 
