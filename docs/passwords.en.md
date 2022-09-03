@@ -58,6 +58,12 @@ These password managers store the password database locally.
 
 KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files. This may mean data loss if you import this file into another password manager. We advise you check each record manually.
 
+### Strongbox
+
+!!! recommendation
+
+    ![Strongbox logo]()
+
 ## Cloud Sync
 
 These password managers sync your passwords to a cloud server for easy accessibility from all your devices and safety against device loss.
