@@ -15,15 +15,13 @@ This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_st
 
 ### Use randomly generated passwords
 
-You should **never** rely on yourself to create a good password. You should use randomly generated passwords or passphrases (generated via the diceware method) with sufficient entropy to protect your accounts and devices.
+==You should **never** rely on yourself to create a good password.== You should use randomly generated passwords or passphrases (generated via the diceware method) with sufficient entropy to protect your accounts and devices.
 
 All of our recommended password managers have a built-in password generator that you can use instead of something that you come up with yourself.
 
 ### When you should change your password, and when you shouldn't
 
-You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised.
-
-Changing it too often exposes you to the risk of forgetting it, or weakening it in order to make it easier to remember.
+You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised as changing it too often exposes you to the risk of forgetting it.
 
 Regarding passwords that you don't have to remember (such as passwords stored inside your password manager), you should make a habit of going through them and changing them every few months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
 
