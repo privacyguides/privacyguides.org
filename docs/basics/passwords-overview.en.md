@@ -13,7 +13,7 @@ Imagine this; you've signed up for an account with your e-mail and the same pass
 
 This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing) and it is one of the most common ways that your accounts can be compromised by bad actors. To avoid this, make sure that you never re-use the same password twice.
 
-### Use Randomly Generated Passwords
+### Use randomly generated passwords
 
 Human beings are bad at coming up with strong passwords. You should use randomly generated passwords with sufficient entropy to protect your accounts and devices.
 
