@@ -35,15 +35,19 @@ A lot of password managers will also notify you when a data breach that is relev
 
 Diceware is a method for creating passphrases which are easy to remember, but hard to guess.
 
-The method traditionally involves using  six-sided dice. Every five rolls correspond to a word in a cryptographic list. For example, 43146 in the traditional list corresponds to "munch". You would then continue rolling until your passphrase has as many words as you need, separated by spaces.
+The method traditionally involves using six-sided dice. Every five rolls correspond to a word in a cryptographic list. For example, 2-5-2-6-6 in [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) corresponds to "encrypt". This process is then repeated until your passphrase contains enough words, which you separate with spaces.
 
-If your diceware passphrase has enough words, you can assure that it is uncrackable by today's standards even if the attacker knows that you used the diceware method, knows the specific wordlist that you used as well as how many words it contains.
+If your diceware passphrase contains enough words, you can assure that it is uncrackable by today's standards even if the following things are true:
+
+- The attacker knows that you used the diceware method.
+- The attacker knows the specific wordlist that you used.
+- The attacker knows how many words your passphrase contains.
 
 The dice method ensures that you're generating the passphrase in a completely offline way. Alternatively, you can use a password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
 
-We recommend that you use diceware passphrases for everything that requires you to remember your credentials, such as your password manager's master password or your device's encryption key.
+Diceware passphrases are great for everything that requires you to memorize your manually input your credentials, such as your password manager's master password or your device's encryption key.
 
-The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) offers the exact same security as the original list, while containing words that are easier to remember. ==Your passphrase should contain at least 6 words separated by spaces to be sufficiently secure.==
+The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) should be used, as it offers the exact same security as the original list, while containing words that are easier to memorize. ==Your passphrase should contain at least 6 words separated by spaces to be sufficiently secure.==
 
 ## Storing Passwords
 
