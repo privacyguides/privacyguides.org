@@ -61,9 +61,9 @@ To generate a diceware passphrase using real dice, follow these steps:
 
 4. Repeat this process until your passphrase has as many words as you need, which you should separate with a space.
 
-!!! Important
+!!! Warning "Important"
 
-    You should not re-roll words until you get a combination of words that appeal to you. The process should be completely random.
+    You should **not** re-roll words until you get a combination of words that appeal to you. The process should be completely random.
 
 If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
 
@@ -85,9 +85,9 @@ There are many good options to choose from, both cloud-based and local. Choose o
 
 [List of recommended password managers](../passwords.md){ .md-button }
 
-!!! Important
+!!! Warning "Don't place your passwords and TOTP tokens inside the same password manager"
 
-    If you're using TOTP as a [multi-factor authentication](../multi-factor-authentication.md) method for any of your accounts, ==do not store these tokens, any backup codes for them, or the TOTP secrets themselves in your password manager==, as that negates the benefit of multi factor authentication. You should use a dedicated [TOTP app](../multi-factor-authentication.md/#authenticator-apps) instead.
+    If you're using TOTP as a [multi-factor authentication](../multi-factor-authentication.md) method for any of your accounts, do not store these tokens, any backup codes for them, or the TOTP secrets themselves in your password manager, as that negates the benefit of multi factor authentication. You should use a dedicated [TOTP app](../multi-factor-authentication.md/#authenticator-apps) instead.
 
 ### Backups
 
