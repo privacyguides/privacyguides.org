@@ -25,9 +25,9 @@ You should avoid changing passwords that you have to remember (such as your pass
 
 When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), you should make a habit of going through them and changing them every few months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
 
-For public data breaches, you can use tools like [Have I been Pwned](https://haveibeenpwned.com/) to check whether your e-mail (and thus potentially your password on a given service as well) has been compromised, at which point you should change it immediately.
+!!! Tip "Checking for data breaches"
 
-A lot of password managers will also notify you when a data breach that is relevant to you has occurred, at which point you should change the password on the affected service as soon as possible.
+    You should periodically use tools like [Have I been Pwned](https://haveibeenpwned.com/) to check whether your e-mail (and thus potentially your password on a given service as well) has been compromised, at which point you should change it immediately. A lot of password managers will also automatically notify you when a data breach that is relevant to you is made public, so that you can act accordingly.
 
 ## Creating strong passwords
 
@@ -59,7 +59,9 @@ To generate a diceware passphrase using real dice, follow these steps:
 
 4. Repeat this process until your passphrase has as many words as you need, which you should separate with a space.
 
-==You should not keep rolling until you get a combination of words that appeals to you. The process should be completely random.==
+!!! Important
+
+    You should not keep rolling until you get a combination of words that appeals to you. The process should be completely random.
 
 If you don't have access to or would prefer not to use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
 
@@ -77,11 +79,13 @@ Each word in the aforementioned list results in ~12.9 bits of entropy. A seven w
 
 The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
 
-If you're using TOTP as a [multi-factor authentication](../multi-factor-authentication.md) method for any of your accounts, ==do not store these tokens, any backup codes for them, or the TOTP secrets themselves in your password manager==, as that negates the benefit of multi factor authentication. You should use a dedicated [TOTP app](../multi-factor-authentication.md/#authenticator-apps) instead.
-
 There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware](#diceware) passphrase comprised of at least seven words.
 
 [List of recommended password managers](../passwords.md){ .md-button }
+
+!!! Important
+
+    If you're using TOTP as a [multi-factor authentication](../multi-factor-authentication.md) method for any of your accounts, ==do not store these tokens, any backup codes for them, or the TOTP secrets themselves in your password manager==, as that negates the benefit of multi factor authentication. You should use a dedicated [TOTP app](../multi-factor-authentication.md/#authenticator-apps) instead.
 
 ### Backups
 
