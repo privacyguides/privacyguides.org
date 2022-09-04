@@ -37,7 +37,7 @@ Diceware is a method for creating passphrases which are easy to remember, but ha
 
 Diceware passphrases are a great option when you need to memorize or manually input your credentials. Examples of that would be your password manager's master password or your device's encryption key.
 
-The method traditionally involves using six-sided dice. Every five rolls correspond to a word in a cryptographic list. For example, 2-5-2-6-6 in [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) corresponds to "encrypt". This process is then repeated until your passphrase contains enough words, which you separate with spaces. ==You should not keep rolling until you get a combination of words that appeals to you, as that reduce's the passphrase's randomness and might make it easier to guess.==
+The method traditionally involves using six-sided dice. Every five rolls correspond to a word in a cryptographic list. For example, 2-5-2-6-6 in [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) corresponds to "encrypt". This process is then repeated until your passphrase contains enough words, which you separate with spaces. ==You should not keep rolling until you get a combination of words that appeals to you, as that reduces the passphrase's randomness and might make it easier to guess.==
 
 The dice method ensures that you're generating the passphrase in a completely offline way. Alternatively, you can use your password manager's password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
 
