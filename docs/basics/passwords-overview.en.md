@@ -19,11 +19,11 @@ This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_st
 
 All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
 
-### When you should change your password, and when you shouldn't
+### Rotating Passwords
 
-You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised as changing it too often exposes you to the risk of forgetting it.
+You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised, as changing it too often exposes you to the risk of forgetting it.
 
-Regarding passwords that you don't have to remember (such as passwords stored inside your password manager), you should make a habit of going through them and changing them every few months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
+When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), you should make a habit of going through them and changing them every few months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
 
 For public data breaches, you can use tools like [Have I been Pwned](https://haveibeenpwned.com/) to check whether your e-mail (and thus potentially your password on a given service as well) has been compromised, at which point you should change it immediately.
 
@@ -33,7 +33,7 @@ A lot of password managers will also notify you when a data breach that is relev
 
 ### Passwords
 
-A lot of services impose certain criteria when it comes to passwords such as a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
+A lot of services impose certain criteria when it comes to passwords, including a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
 
 If you need a password you can memorize, we recommend a [diceware passphrase](#diceware).
 
@@ -41,15 +41,27 @@ If you need a password you can memorize, we recommend a [diceware passphrase](#d
 
 Diceware is a method for creating passphrases which are easy to remember, but hard to guess.
 
-An example of a diceware passphrase would be `viewable fastness reluctant squishy seventeen shown pencil`.
+Diceware passphrases are a great option when you need to memorize or manually input your credentials, such as for your password manager's master password or your device's encryption password.
 
-Diceware passphrases are a great option when you need to memorize or manually input your credentials. Examples of that would be your password manager's master password or your device's encryption key.
+An example of a diceware passphrase is `viewable fastness reluctant squishy seventeen shown pencil`.
 
-The method traditionally involves using six-sided dice. Every five rolls correspond to a word in a cryptographic list. For example, `2-5-2-6-6` in [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) corresponds to `encrypt`. This process is then repeated until your passphrase contains enough words, which you separate with spaces. ==You should not keep rolling until you get a combination of words that appeals to you, as that reduces the passphrase's randomness and might make it easier to guess.==
+#### Directions
 
-The dice method ensures that you're generating the passphrase in a completely offline way. Alternatively, you can use your password manager's password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
+These steps assume that you are using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word.
 
-We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also other wordlists that cater to different languages, if you do not want your passphrase to be in English.
+1. Roll a six-sided dice five times, noting the number after each roll.
+
+2. As an example, let's say you rolled `2-5-2-6-6`. Look through the wordlist for the word that corresponds to `25266`.
+
+3. You will find the word `encrypt`. Write that word down.
+
+4. Repeat this process until your passphrase has as many words as you need, which you should separate with a space.
+
+==You should not keep rolling until you get a combination of words that appeals to you, the process should be completely random.==
+
+The dice method described above ensures that you're generating the passphrase in a completely offline way. Alternatively, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
+
+We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also other wordlists that in different languages, if you do not want your passphrase to be in English.
 
 Each word in the aforementioned list results in ~12.9 bits of entropy. A seven word passphrase generated from it has ~90.47 bits of entropy. This means that even if your adversary is capable of 1,000,000,000,000 guesses per second, it would still take them millions of years to guess your passphrase. That is the case even if the following things are true:
 
