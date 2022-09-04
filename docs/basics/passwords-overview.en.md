@@ -39,7 +39,7 @@ An example of a diceware passphrase would be `viewable fastness reluctant squish
 
 Diceware passphrases are a great option when you need to memorize or manually input your credentials. Examples of that would be your password manager's master password or your device's encryption key.
 
-The method traditionally involves using six-sided dice. Every five rolls correspond to a word in a cryptographic list. For example, 2-5-2-6-6 in [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) corresponds to `encrypt`. This process is then repeated until your passphrase contains enough words, which you separate with spaces. ==You should not keep rolling until you get a combination of words that appeals to you, as that reduces the passphrase's randomness and might make it easier to guess.==
+The method traditionally involves using six-sided dice. Every five rolls correspond to a word in a cryptographic list. For example, `2-5-2-6-6` in [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) corresponds to `encrypt`. This process is then repeated until your passphrase contains enough words, which you separate with spaces. ==You should not keep rolling until you get a combination of words that appeals to you, as that reduces the passphrase's randomness and might make it easier to guess.==
 
 The dice method ensures that you're generating the passphrase in a completely offline way. Alternatively, you can use your password manager's password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
 
@@ -53,7 +53,7 @@ Each word in the aforementioned list results in ~12.9 bits of entropy. A seven w
 
 ### Passwords
 
-A lot of services impose certain criteria when it comes to passwords such as a minimum or maximum length, as well as whether special characters can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
+A lot of services impose certain criteria when it comes to passwords such as a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
 
 If you need a password you can memorize, we recommend a [diceware passphrase](#diceware).
 
