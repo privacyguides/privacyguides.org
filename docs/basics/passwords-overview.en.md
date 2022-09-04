@@ -90,4 +90,4 @@ There are many good options to choose from, both cloud-based and local. Choose o
 
 ### Backups
 
-You should store an encrypted exported backup of your passwords or your password database itself on multiple storage devices. This can be useful if something happens to your primary device or the service you are using.
+You should store an encrypted backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.
