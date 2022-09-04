@@ -35,19 +35,19 @@ A lot of password managers will also notify you when a data breach that is relev
 
 Diceware is a method for creating passphrases which are easy to remember, but hard to guess.
 
+Diceware passphrases are a great option when you need to memorize or manually input your credentials. Examples of that would be your password manager's master password or your device's encryption key.
+
 The method traditionally involves using six-sided dice. Every five rolls correspond to a word in a cryptographic list. For example, 2-5-2-6-6 in [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) corresponds to "encrypt". This process is then repeated until your passphrase contains enough words, which you separate with spaces. ==You should not keep rolling until you get a combination of words that appeals to you, as that reduce's the passphrase's randomness and might make it easier to guess.==
 
-If your diceware passphrase contains enough words, you can assure that it is uncrackable by today's standards even if the following things are true:
+The dice method ensures that you're generating the passphrase in a completely offline way. Alternatively, you can use your password manager's password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
 
-- The attacker knows that you used the diceware method.
-- The attacker knows the specific wordlist that you used.
-- The attacker knows how many words your passphrase contains.
+We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. ==When using this list, your passphrase should contain at least seven words separated by spaces.==
 
-The dice method ensures that you're generating the passphrase in a completely offline way. Alternatively, you can use a password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
+Each word in the aforementioned list results in ~12.9 bits of entropy. A seven word passphrase generated from it has ~90.47 bits of entropy. This means that even if your adversary is capable of 1,000,000,000,000 guesses per second, it would still take them millions of years to guess your passphrase. That is the case even if the following things are true:
 
-Diceware passphrases are great for everything that requires you to memorize or manually input your credentials, such as your password manager's master password or your device's encryption key.
-
-We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. ==Your passphrase should contain at least 7 words separated by spaces.==
+- Your adversary knows that you used the diceware method.
+- Your adversary knows the specific wordlist that you used.
+- Your adversary knows how many words your passphrase contains.
 
 ## Storing Passwords
 
