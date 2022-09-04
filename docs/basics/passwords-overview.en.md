@@ -69,7 +69,7 @@ If you don't have access to or would prefer to not use real dice, you can use yo
 
 We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also other wordlists that in different languages, if you do not want your passphrase to be in English.
 
-Each word in the aforementioned list results in ~12.9 bits of entropy. A seven word passphrase generated from it has ~90.47 bits of entropy. This means that even if your adversary is capable of 1,000,000,000,000 guesses per second, it would still take them millions of years to guess your passphrase. That is the case even if the following things are true:
+Each word in the aforementioned list results in ~12.9 bits of entropy. A seven word passphrase derived from it has ~90.47 bits of entropy. This means that even if your adversary is capable of 1,000,000,000,000 guesses per second, it would still take them millions of years to guess your passphrase. That is the case even if the following things are true:
 
 - Your adversary knows that you used the diceware method.
 - Your adversary knows the specific wordlist that you used.
