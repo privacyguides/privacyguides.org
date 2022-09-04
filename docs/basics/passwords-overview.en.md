@@ -15,7 +15,7 @@ This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_st
 
 ### Use randomly generated passwords
 
-==You should **never** rely on yourself to come up with a good password.== You should use randomly generated passwords or [diceware](#diceware) passphrases with sufficient entropy to protect your accounts and devices.
+==You should **never** rely on yourself to come up with a good password.== You should use randomly generated passwords or [diceware passphrases](#diceware) with sufficient entropy to protect your accounts and devices.
 
 All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
 
@@ -31,7 +31,7 @@ A lot of password managers will also notify you when a data breach that is relev
 
 ## Creating strong passwords
 
-### Diceware
+### Diceware Passphrases
 
 Diceware is a method for creating passphrases which are easy to remember, but hard to guess.
 
@@ -50,6 +50,12 @@ Each word in the aforementioned list results in ~12.9 bits of entropy. A seven w
 - Your adversary knows that you used the diceware method.
 - Your adversary knows the specific wordlist that you used.
 - Your adversary knows how many words your passphrase contains.
+
+### Passwords
+
+A lot of services impose certain criteria when it comes to passwords such as a minimum or maximum length, as well as whether special characters can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
+
+If you need a password you can memorize, we recommend a [diceware passphrase](#diceware).
 
 ## Storing Passwords
 
