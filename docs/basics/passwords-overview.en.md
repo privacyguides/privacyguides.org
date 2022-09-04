@@ -31,6 +31,12 @@ A lot of password managers will also notify you when a data breach that is relev
 
 ## Creating strong passwords
 
+### Passwords
+
+A lot of services impose certain criteria when it comes to passwords such as a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
+
+If you need a password you can memorize, we recommend a [diceware passphrase](#diceware).
+
 ### Diceware Passphrases
 
 Diceware is a method for creating passphrases which are easy to remember, but hard to guess.
@@ -50,12 +56,6 @@ Each word in the aforementioned list results in ~12.9 bits of entropy. A seven w
 - Your adversary knows that you used the diceware method.
 - Your adversary knows the specific wordlist that you used.
 - Your adversary knows how many words your passphrase contains.
-
-### Passwords
-
-A lot of services impose certain criteria when it comes to passwords such as a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
-
-If you need a password you can memorize, we recommend a [diceware passphrase](#diceware).
 
 ## Storing Passwords
 
