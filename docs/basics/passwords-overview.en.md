@@ -25,7 +25,7 @@ You should avoid changing passwords that you have to remember (such as your pass
 
 Regarding passwords that you don't have to remember (such as passwords stored inside your password manager), you should make a habit of going through them and changing them every few months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
 
-For public data breaches, you can use tools like [Have I been Pwned](https://haveibeenpwned.com/) to check whether your e-mail (and thus potentially your password for a given service as well) has been compromised, at which point you should change it immediately.
+For public data breaches, you can use tools like [Have I been Pwned](https://haveibeenpwned.com/) to check whether your e-mail (and thus potentially your password on a given service as well) has been compromised, at which point you should change it immediately.
 
 A lot of password managers will also notify you when a data breach that is relevant to you has occurred, at which point you should change the password on the affected service as soon as possible.
 
