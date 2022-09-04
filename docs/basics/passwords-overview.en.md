@@ -15,9 +15,9 @@ This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_st
 
 ### Use randomly generated passwords
 
-==You should **never** rely on yourself to create a good password.== You should use randomly generated passwords or passphrases (generated via the diceware method) with sufficient entropy to protect your accounts and devices.
+==You should **never** rely on yourself to come up with a good password.== You should use randomly generated passwords or passphrases (generated via the diceware method) with sufficient entropy to protect your accounts and devices.
 
-All of our recommended password managers have a built-in password generator that you can use instead of something that you come up with yourself.
+All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
 
 ### When you should change your password, and when you shouldn't
 
