@@ -35,7 +35,7 @@ A lot of password managers will also notify you when a data breach that is relev
 
 Diceware is a method for creating passphrases which are easy to remember, but hard to guess.
 
-The method traditionally involves using six-sided dice. Every five rolls correspond to a word in a cryptographic list. For example, 2-5-2-6-6 in [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) corresponds to "encrypt". This process is then repeated until your passphrase contains enough words, which you separate with spaces.
+The method traditionally involves using six-sided dice. Every five rolls correspond to a word in a cryptographic list. For example, 2-5-2-6-6 in [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) corresponds to "encrypt". This process is then repeated until your passphrase contains enough words, which you separate with spaces. ==You should not keep rolling until you get a combination of words that appeals to you, as that reduce's the passphrase's randomness and might make it easier to guess.==
 
 If your diceware passphrase contains enough words, you can assure that it is uncrackable by today's standards even if the following things are true:
 
