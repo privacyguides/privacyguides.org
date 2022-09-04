@@ -27,7 +27,9 @@ When it comes to passwords that you don't have to remember (such as passwords st
 
 !!! Tip "Checking for data breaches"
 
-    You should periodically use tools like [Have I been Pwned](https://haveibeenpwned.com/) to check whether your e-mail (and thus potentially your password on a given service as well) has been compromised, at which point you should change it immediately. A lot of password managers will also automatically notify you when a data breach that is relevant to you is made public, so that you can act accordingly.
+    You should periodically use tools like [Have I been Pwned](https://haveibeenpwned.com/) to check whether your e-mail (and thus potentially your password on a given service as well) has been compromised, at which point you should change it immediately.
+    
+    A lot of password managers will also automatically notify you when a data breach that is relevant to you is made public, so that you can act accordingly.
 
 ## Creating strong passwords
 
