@@ -3,7 +3,7 @@ title: "Introduction to Passwords"
 icon: 'material/shield-key-outline'
 ---
 
-Passwords are an essential part of our everyday digital lives. We use them to protect our accounts, our devices and our secrets. Despite often being the only thing between us and and an adversary who's after our private information, not a lot of thought is put into them which often leads to people using passwords that can be easily guessed or brute-forced.
+Passwords are an essential part of our everyday digital lives. We use them to protect our accounts, our devices and our secrets. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them which often leads to people using passwords that can be easily guessed or brute-forced.
 
 ## Best Practices
 
