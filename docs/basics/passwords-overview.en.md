@@ -9,7 +9,7 @@ Passwords are an essential part of our everyday digital lives. We use them to pr
 
 ### Use unique passwords for every service
 
-Imagine this; you've signed up for an account with your e-mail and the same password on multiple online services. If a service provider is malicious, or one of those services has a data breach that exposes your password in an unencrypted format, all a bad actor would have to do is try that e-mail and password combination across multiple popular services until they get a hit. It doesn't matter how strong that one password is, because they already have it.
+Imagine this; you sign up for an account with the same e-mail and password on multiple online services. If one of those service providers is malicious, or their service has a data breach that exposes your password in an unencrypted format, all a bad actor would have to do is try that e-mail and password combination across multiple popular services until they get a hit. It doesn't matter how strong that one password is, because they already have it.
 
 This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing) and it is one of the most common ways that your accounts can be compromised by bad actors. To avoid this, make sure that you never re-use the same password twice.
 
@@ -61,9 +61,9 @@ To generate a diceware passphrase using real dice, follow these steps:
 
 !!! Important
 
-    You should not keep rolling until you get a combination of words that appeals to you. The process should be completely random.
+    You should not re-roll words until you get a combination of words that appeal to you. The process should be completely random.
 
-If you don't have access to or would prefer not to use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
+If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
 
 We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also other wordlists that in different languages, if you do not want your passphrase to be in English.
 
