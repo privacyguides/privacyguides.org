@@ -55,7 +55,7 @@ Each word in the aforementioned list results in ~12.9 bits of entropy. A seven w
 
 The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
 
-If you're using TOTP as a [multi-factor authentication](../multi-factor-authentication.md) method for any of your accounts, ==do not store these tokens, any backup codes for them, or the TOTP secret itself in your password manager,== as that negates the benefit of multi factor authentication. You should use a dedicated [TOTP app](../multi-factor-authentication.md/#authenticator-apps) instead.
+If you're using TOTP as a [multi-factor authentication](../multi-factor-authentication.md) method for any of your accounts, ==do not store these tokens, any backup codes for them, or the TOTP secrets themselves in your password manager,== as that negates the benefit of multi factor authentication. You should use a dedicated [TOTP app](../multi-factor-authentication.md/#authenticator-apps) instead.
 
 There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware](#diceware) passphrase comprised of at least 6 words.
 
