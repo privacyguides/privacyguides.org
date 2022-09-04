@@ -45,21 +45,23 @@ Diceware passphrases are a great option when you need to memorize or manually in
 
 An example of a diceware passphrase is `viewable fastness reluctant squishy seventeen shown pencil`.
 
-#### Directions
+To generate a diceware passphrase using real dice, follow these steps:
 
-These steps assume that you are using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word.
+!!! Note
+
+    These instructions assume that you are using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other wordlists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
 
 1. Roll a six-sided dice five times, noting the number after each roll.
 
-2. As an example, let's say you rolled `2-5-2-6-6`. Look through the wordlist for the word that corresponds to `25266`.
+2. As an example, let's say you rolled `2-5-2-6-6`. Look through the [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
 
 3. You will find the word `encrypt`. Write that word down.
 
 4. Repeat this process until your passphrase has as many words as you need, which you should separate with a space.
 
-==You should not keep rolling until you get a combination of words that appeals to you, the process should be completely random.==
+==You should not keep rolling until you get a combination of words that appeals to you. The process should be completely random.==
 
-The dice method described above ensures that you're generating the passphrase in a completely offline way. Alternatively, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
+If you don't have access to or would prefer not to use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
 
 We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also other wordlists that in different languages, if you do not want your passphrase to be in English.
 
