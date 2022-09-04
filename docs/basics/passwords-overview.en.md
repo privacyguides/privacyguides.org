@@ -15,7 +15,7 @@ This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_st
 
 ### Use randomly generated passwords
 
-==You should **never** rely on yourself to come up with a good password.== We recommend using randomly generated passwords or [diceware passphrases](#diceware) with sufficient entropy to protect your accounts and devices.
+==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware) with sufficient entropy to protect your accounts and devices.
 
 All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
 
@@ -52,7 +52,7 @@ To generate a diceware passphrase using real dice, follow these steps:
 
     These instructions assume that you are using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other wordlists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
 
-1. Roll a six-sided die five times, noting the number after each roll.
+1. Roll a six-sided die five times, noting down the number after each roll.
 
 2. As an example, let's say you rolled `2-5-2-6-6`. Look through the [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
 
