@@ -11,7 +11,7 @@ Passwords are an essential part of our everyday digital lives. We use them to pr
 
 Imagine this; you sign up for an account with the same e-mail and password on multiple online services. If one of those service providers is malicious, or their service has a data breach that exposes your password in an unencrypted format, all a bad actor would have to do is try that e-mail and password combination across multiple popular services until they get a hit. It doesn't matter how strong that one password is, because they already have it.
 
-This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing) and it is one of the most common ways that your accounts can be compromised by bad actors. To avoid this, make sure that you never re-use the same password twice.
+This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing) and it is one of the most common ways that your accounts can be compromised by bad actors. To avoid this, make sure that you never re-use your passwords.
 
 ### Use randomly generated passwords
 
