@@ -47,7 +47,7 @@ The dice method ensures that you're generating the passphrase in a completely of
 
 Diceware passphrases are great for everything that requires you to memorize or manually input your credentials, such as your password manager's master password or your device's encryption key.
 
-We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. ==Your passphrase should contain at least 6 words separated by spaces to be sufficiently secure.==
+We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. ==Your passphrase should contain at least 7 words separated by spaces.==
 
 ## Storing Passwords
 
