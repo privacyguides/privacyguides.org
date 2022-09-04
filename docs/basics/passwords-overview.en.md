@@ -52,7 +52,7 @@ To generate a diceware passphrase using real dice, follow these steps:
 
     These instructions assume that you are using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other wordlists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
 
-1. Roll a six-sided dice five times, noting the number after each roll.
+1. Roll a six-sided die five times, noting the number after each roll.
 
 2. As an example, let's say you rolled `2-5-2-6-6`. Look through the [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
 
