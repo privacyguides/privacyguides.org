@@ -2,7 +2,7 @@
 title: "Password Managers"
 icon: material/form-textbox-password
 ---
-Stay safe and secure online with an encrypted password manager.
+Password managers allow you to securely store and manage passwords and other credentials with the use of a master password.
 
 [Introduction to Passwords :hero-arrow-circle-right-fill:](./basics/passwords-overview.md)
 
