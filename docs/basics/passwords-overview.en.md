@@ -70,7 +70,7 @@ We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/e
 
 Password and passphrase strength is measured by how much entropy it has. The entropy per word in a diceware passphrase is calculated as $log_2{WordsInList}$. The overall entropy of the passphrase is calculated as $log_2(WordsInList^{WordsInPhrase})$.
 
-Each word in the aforementioned list results in ~12.9 bits of entropy ($log_2(7776)$). A seven word passphrase derived from it has ~90.47 bits of entropy ($log_2(7776^7)$).
+Therefore, each word in the aforementioned list results in ~12.9 bits of entropy ($log_2(7776)$), and a seven word passphrase derived from it has ~90.47 bits of entropy ($log_2(7776^7)$).
 
 Let's put all of this in perspective: the list that we used contains 7776 unique words. A seven word passphrase using that list is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases. That is calculated as $WordsInList^{WordsInPhrase}$, or in our case, $7776^7$.
 
