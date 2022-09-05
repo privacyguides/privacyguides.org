@@ -68,7 +68,7 @@ If you don't have access to or would prefer to not use real dice, you can use yo
 
 We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also other wordlists in different languages, if you do not want your passphrase to be in English.
 
-Password and passphrase strength is measured by how much entropy it has. The entropy per word in a diceware passphrase is calculated as $log_2{WordsInList}$. The overall entropy of the passphrase is calculated as $log_2(WordsInList^{WordsInPhrase})$.
+Password and passphrase strength is measured by how much entropy it has. The entropy per word in a diceware passphrase is calculated as $log_2({WordsInList})$. The overall entropy of the passphrase is calculated as $log_2(WordsInList^{WordsInPhrase})$.
 
 Therefore, each word in the aforementioned list results in ~12.9 bits of entropy ($log_2(7776)$), and a seven word passphrase derived from it has ~90.47 bits of entropy ($log_2(7776^7)$).
 
