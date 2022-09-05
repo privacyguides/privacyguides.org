@@ -80,7 +80,7 @@ We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/e
 
     Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of *~1,719,070,799,748,422,500,000,000,000* possible passphrases.
 
-    On average, it takes trying 50% of all the possible combinations to guess your phrase. With that in mind, even if your adversary is capable of *~1,000,000,000,000* guesses per second, it would still take them *~27,255,689 years* to guess your passphrase. That is the case even if the following things are true:
+    On average, it takes trying *50%* of all the possible combinations to guess your phrase. With that in mind, even if your adversary is capable of *~1,000,000,000,000* guesses per second, it would still take them *~27,255,689 years* to guess your passphrase. That is the case even if the following things are true:
 
     - Your adversary knows that you used the diceware method.
     - Your adversary knows the specific wordlist that you used.
