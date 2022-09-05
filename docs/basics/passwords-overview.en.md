@@ -23,7 +23,7 @@ All of our [recommended password managers](../passwords.md) include a built-in p
 
 You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised, as changing it too often exposes you to the risk of forgetting it.
 
-When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), you should make a habit of going through them and changing them every few months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
+When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts accounts (especially accounts that don't use multi-factor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
 
 !!! Tip "Checking for data breaches"
 
