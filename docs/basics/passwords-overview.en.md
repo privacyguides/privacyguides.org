@@ -68,17 +68,23 @@ If you don't have access to or would prefer to not use real dice, you can use yo
 
 We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also other wordlists in different languages, if you do not want your passphrase to be in English.
 
-Password and passphrase strength is measured by how much entropy it has. The entropy per word in a diceware passphrase is calculated as $log_2({WordsInList})$. The overall entropy of the passphrase is calculated as $log_2(WordsInList^{WordsInPhrase})$.
+??? Note "Explanation of entropy and stregth of diceware passphrases"
 
-Therefore, each word in the aforementioned list results in ~12.9 bits of entropy ($log_2(7776)$), and a seven word passphrase derived from it has ~90.47 bits of entropy ($log_2(7776^7)$).
+    To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
-Let's put all of this in perspective: the list that we used contains 7776 unique words. A seven word passphrase using that list is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases. That is calculated as $WordsInList^{WordsInPhrase}$, or in our case, $7776^7$.
+    One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as $log_2({WordsInList})$ and the overall entropy of the passphrase is calculated as $log_2(WordsInList^{WordsInPhrase})$.
 
-On average, it takes trying 50% of all the possible combinations to guess your phrase. With that in mind, even if your adversary is capable of ~1,000,000,000,000 guesses per second, it would still take them ~27,255,689 years to guess your passphrase. That is the case even if the following things are true:
+    Therefore, each word in the aforementioned list results in *~12.9* bits of entropy ($log_2(7776)$), and a seven word passphrase derived from it has *~90.47* bits of entropy ($log_2(7776^7)$).
 
-- Your adversary knows that you used the diceware method.
-- Your adversary knows the specific wordlist that you used.
-- Your adversary knows how many words your passphrase contains.
+    The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contains *7776* unique words. To calculate the amount of possible passphrases, all we have to do is $WordsInList^{WordsInPhrase}$, or in our case, $7776^7$.
+
+    Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of *~1,719,070,799,748,422,500,000,000,000* possible passphrases.
+
+    On average, it takes trying 50% of all the possible combinations to guess your phrase. With that in mind, even if your adversary is capable of *~1,000,000,000,000* guesses per second, it would still take them *~27,255,689 years* to guess your passphrase. That is the case even if the following things are true:
+
+    - Your adversary knows that you used the diceware method.
+    - Your adversary knows the specific wordlist that you used.
+    - Your adversary knows how many words your passphrase contains.
 
 To sum it up, diceware passphrases are your best option when you need something that is both easy to remember *and* exceptionally strong.
 
