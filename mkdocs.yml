@@ -121,12 +121,13 @@ nav:
     - 'The Basics':
       - 'basics/threat-modeling.md'
       - 'basics/common-threats.md'
-      - 'basics/account-deletion.md'
+      - 'basics/passwords-overview.md'
       - 'basics/multi-factor-authentication.md'
+      - 'basics/account-deletion.md'
+      - 'basics/email-security.md'
       - 'basics/vpn-overview.md'
       - 'basics/tor-overview.md'
       - 'basics/dns-overview.md'
-      - 'basics/email-security.md'
     - 'Android':
       - 'android/overview.md'
       - 'android/grapheneos-vs-calyxos.md'

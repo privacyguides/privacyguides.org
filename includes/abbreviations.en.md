@@ -88,3 +88,4 @@
 *[hypervisor]: A hypervisor is computer software, firmware, or hardware that allows partitioning the resource of a CPU among multiple operating systems or independent programs.
 *[rolling release]: An update release cycle in which updates are released very frequently, instead of at set intervals.
 *[walled garden]: A walled garden (or closed platform) is one in which the service provider has control over applications, content, and/or media, and restricts convenient access to non-approved applicants or content.
+*[entropy]: Password entropy is a measurement of how unpredictable a password is.
