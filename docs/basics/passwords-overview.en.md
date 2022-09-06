@@ -72,11 +72,11 @@ We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/e
 
     To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
-    One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as $\text{log_2}(\text{WordsInList})$ and the overall entropy of the passphrase is calculated as $\text{log_2}\text{(WordsInList^{WordsInPhrase})}$.
+    One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as $\text{log}_2(\text{WordsInList})$ and the overall entropy of the passphrase is calculated as $\text{log_2}\text{(WordsInList^{WordsInPhrase})}$.
 
-    Therefore, each word in the aforementioned list results in ~12.9 bits of entropy ($\text{log_2}(7776)$), and a seven word passphrase derived from it has ~90.47 bits of entropy ($\text{log_2}(7776^7)$).
+    Therefore, each word in the aforementioned list results in ~12.9 bits of entropy ($\text{log}_2(7776)$), and a seven word passphrase derived from it has ~90.47 bits of entropy ($\text{log}_2(7776^7)$).
 
-    The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is $WordsInList^{WordsInPhrase}$, or in our case, $7776^7$.
+    The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is $\text{WordsInList}^\text{WordsInPhrase}$, or in our case, $7776^7$.
 
     Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
 
