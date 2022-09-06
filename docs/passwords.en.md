@@ -94,7 +94,7 @@ Psono provides [extensive documentation](https://doc.psono.com/) for their produ
 
 ## Local Storage
 
-These password managers store the password database locally.
+These options allow you to manage an encrypted password database locally.
 
 ### KeePassXC
 
