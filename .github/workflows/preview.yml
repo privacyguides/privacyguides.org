@@ -42,6 +42,6 @@ jobs:
           dist: site
           failOnError: 'true'
           build: |
-            pip install -Iv pipenv==2022.8.24
+            pip install pipenv
             pipenv install
             pipenv run mkdocs build --config-file mkdocs.production.yml
