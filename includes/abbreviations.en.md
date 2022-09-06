@@ -78,9 +78,11 @@
 *[SUID]: Set Owner User ID
 *[SaaS]: Software as a Service (cloud software)
 *[SoC]: System on Chip
+*[SSO]: Single sign-on
 *[TCP]: Transmission Control Protocol
 *[TEE]: Trusted Execution Environment
 *[TLS]: Transport Layer Security
+*[ToS]: Terms of Service
 *[TOTP]: Time-based One-Time Password
 *[TPM]: Trusted Platform Module
 *[U2F]: Universal 2nd Factor

@@ -120,6 +120,7 @@ nav:
     - 'basics/threat-modeling.md'
     - 'basics/common-threats.md'
     - 'basics/common-misconceptions.md'
+    - 'basics/account-creation.md'
     - 'basics/account-deletion.md'
     - 'Technology Essentials':
       - 'basics/passwords-overview.md'
