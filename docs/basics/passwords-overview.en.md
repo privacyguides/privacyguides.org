@@ -68,7 +68,7 @@ If you don't have access to or would prefer to not use real dice, you can use yo
 
 We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also other wordlists in different languages, if you do not want your passphrase to be in English.
 
-??? Note "Explanation of entropy and stregth of diceware passphrases"
+??? Note "Explanation of entropy and strength of diceware passphrases"
 
     To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
