@@ -26,7 +26,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 
     Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g. Thunderbird). Paid accounts are available starting at **€48/y** which include features like Proton Mail Bridge, additional storage, and custom domain support.
 
-    If you have the Proton Unlimited, Business or Visionary Plan, you also get [SimpleLogin](#simplelogin) Premium for free.
+    If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](#simplelogin) Premium for free.
 
     **Free**
 
