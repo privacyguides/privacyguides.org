@@ -26,7 +26,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 
     Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g. Thunderbird). Paid accounts are available starting at **€48/y** which include features like Proton Mail Bridge, additional storage, and custom domain support.
 
-    With the [transition to Proton.me](https://proton.me/news/updated-proton), paid plans have changed. Existing users before the 25 May 2022 will get to keep their [existing plan](https://proton.me/support/upgrading-to-new-proton-plan) pricing.
+    If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](#simplelogin) Premium for free.
 
     **Free**
 
@@ -274,7 +274,7 @@ Notable free features:
 
 SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin is a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing. Securitum [audited](https://simplelogin.io/blog/security-audit/) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
 
-You can link your SimpleLogin account in the settings with your Proton account. If you have Proton Unlimited, Business or Visionary Plan, you will have SimpleLogin Premium for free.
+You can link your SimpleLogin account in the settings with your Proton account. If you have the Proton Unlimited, Business, or Visionary Plan, you will have SimpleLogin Premium for free.
 
 Notable free features:
 
