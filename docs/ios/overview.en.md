@@ -159,7 +159,7 @@ If you don't want anyone to be able to control your phone with Siri when it is l
 
 ### Touch ID & Passcode
 
-Setting a strong password on your phone is probably the most important step you can take for security and privacy. You'll have to make tradeoffs here between security and convenience; a longer password will be annoying to type in every time, but a shorter password or pin will be easier to guess. Setting up Touch ID or Face ID along with a stong password can be a good compromise between usability and security.
+Setting a strong password on your phone is probably the most important step you can take for security and privacy. You'll have to make tradeoffs here between security and convenience; a longer password will be annoying to type in every time, but a shorter password or pin will be easier to guess. Setting up Touch ID or Face ID along with a strong password can be a good compromise between usability and security.
 
 Select **Turn Passcode On** > **Passcode Options** > **Custom Alphanumeric Code**
 
