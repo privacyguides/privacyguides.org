@@ -36,7 +36,7 @@ Select **Private Relay (Beta)**
 
 - [x] Turn on **Private Relay (Beta)**
 
-You can choose to either to either **Maintain your general location** to get more localized results or just use you **country and time zone** to get a broader IP address location.
+You can choose to either **Maintain your general location** to get more localized results, or just use your **country and time zone** to get a broader IP address location.
 
 Select **IP Address Location**
 
