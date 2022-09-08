@@ -163,7 +163,7 @@ Setting a strong password on your phone is probably the most important step you 
 
 Select **Turn Passcode On** > **Passcode Options** > **Custom Alphanumeric Code**
 
-Set a password that you won't forget. The longer the better. It might be easier for you to string a few words together and break them up with numbers and symbols.
+Set a password that you won't forget. The longer, the better. It might be easier for you to string a few words together and break them up with numbers and symbols.
 
 If you wish to use Touch ID, you can go ahead and set it up now. Your phone will use the password you set up earlier as a fallback in case your fingerprint verification fails. This is just for convenience; if someone gets your fingerprint, they can unlock your phone (although after turning off your phone it will require the password and won't accept your fingerprint).
 
