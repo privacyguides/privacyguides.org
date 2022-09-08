@@ -100,7 +100,7 @@ Select **Find My** > **Find My iPhone**
 
 ### Airplane Mode
 
-Enabling **Airplane Mode** will allow you to stop your phone from contacting cell towers. Obviously, you won't be able to use cellular data while it is enabled. You will still be able to connect to wifi and bluetooth, so whenever you are connected to wifi you can turn this setting on.
+Enabling **Airplane Mode** will allow you to stop your phone from contacting cell towers. Obviously, you won't be able to use cellular data while it is enabled. You will still be able to connect to Wi-Fi and Bluetooth, so whenever you are connected to Wi-Fi you can turn this setting on.
 
 - [x] Turn on **Airplane Mode**
 
