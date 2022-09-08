@@ -139,7 +139,7 @@ Select **Software Update** > **Automatic Updates**
 
 - [x] Select **AirDrop** > **Receiving Off**
 
-**AirPlay** lets you seemlessly stream content from your iPhone to a TV; however, you might not always want this.
+**AirPlay** lets you seamlessly stream content from your iPhone to a TV; however, you might not always want this.
 
 Select **AirPlay & Handoff** > **Automatically AirPlay to TVs**
 
