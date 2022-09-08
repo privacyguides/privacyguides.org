@@ -37,11 +37,11 @@ extra:
     feedback:
       title: Was this page helpful?
       ratings:
-        - icon: hero/emoji-happy
+        - icon: material/robot-happy-outline
           name: This page was helpful
           data: Helpful
           note: Thanks for your feedback!
-        - icon: hero/emoji-sad
+        - icon: material/robot-confused
           name: This page could be improved
           data: Needs Improvement
           note: Thanks for your feedback! Help us improve this page by opening a <a href="https://github.com/orgs/privacyguides/discussions" target=_blank>discusson on GitHub</a>.
@@ -57,19 +57,19 @@ theme:
       scheme: default
       accent: deep purple
       toggle:
-        icon: hero/sparkles
+        icon: material/brightness-auto
         name: Switch to light mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       accent: amber
       toggle:
-        icon: hero/moon
+        icon: material/brightness-2
         name: Switch to system theme
     - media: "(prefers-color-scheme: light)"
       scheme: default
       accent: deep purple
       toggle:
-        icon: hero/sun
+        icon: material/brightness-5
         name: Switch to dark mode
 
 watch:

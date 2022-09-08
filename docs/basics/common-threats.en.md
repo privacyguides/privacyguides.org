@@ -108,7 +108,7 @@ Additionally, even companies outside of the ad-tech/tracking space can share you
 
 The best way to ensure your data is private is to simply not put it out there in the first place. Deleting information you find about yourself online is one of the best first steps you can take to regain your privacy.
 
-- [View our guide on account deletion :hero-arrow-circle-right-fill:](account-deletion.md)
+- [View our guide on account deletion :material-arrow-right-drop-circle:](account-deletion.md)
 
 On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, if your accounts have a "private mode," enable it to make sure your account isn't being indexed by search engines and can't be viewed by people you don't vet beforehand.
 

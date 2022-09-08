@@ -393,7 +393,7 @@
         },
         "mkdocs-material": {
             "path": "./mkdocs-material",
-            "version": "==8.4.0+insiders.4.21.1"
+            "version": "==8.4.3+insiders.4.22.1"
         },
         "mkdocs-material-extensions": {
             "hashes": [

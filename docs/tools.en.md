@@ -21,7 +21,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](desktop-browsers.md)
+[Learn more :material-arrow-right-drop-circle:](desktop-browsers.md)
 
 ### Additional Resources
 
@@ -34,7 +34,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 1. Snowflake does not increase privacy, however it allows you to easily contribute to the Tor network and help people in censored networks achieve better privacy.
 
-[Learn more :hero-arrow-circle-right-fill:](desktop-browsers.md#additional-resources)
+[Learn more :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
 
 ## Mobile Web Browsers
 
@@ -46,7 +46,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](mobile-browsers.md)
+[Learn more :material-arrow-right-drop-circle:](mobile-browsers.md)
 
 ### Additional Resources
 
@@ -56,7 +56,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](mobile-browsers.md#adguard)
+[Learn more :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
 
 ## Operating Systems
 
@@ -69,7 +69,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](android.md)
+[Learn more :material-arrow-right-drop-circle:](android.md)
 
 ### Android Apps
 
@@ -84,7 +84,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](android.md#general-apps)
+[Learn more :material-arrow-right-drop-circle:](android.md#general-apps)
 
 ### Linux
 
@@ -103,7 +103,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 1. Qubes uses Xen to provide strong sandboxing between multiple Linux virtual machine installations, and can run most Linux applications. [Learn more about Qubes...](qubes.md)
 
-[Learn more :hero-arrow-circle-right-fill:](linux-desktop.md)
+[Learn more :material-arrow-right-drop-circle:](linux-desktop.md)
 
 ### Router Firmware
 
@@ -114,7 +114,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](router.md)
+[Learn more :material-arrow-right-drop-circle:](router.md)
 
 ## Service Providers
 
@@ -128,7 +128,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](cloud.md)
+[Learn more :material-arrow-right-drop-circle:](cloud.md)
 
 ### DNS
 
@@ -136,7 +136,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net/) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
 
-[Learn more :hero-arrow-circle-right-fill:](dns.md)
+[Learn more :material-arrow-right-drop-circle:](dns.md)
 
 #### Encrypted DNS Proxies
 
@@ -147,7 +147,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](dns.md#encrypted-dns-proxies)
+[Learn more :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
 #### Self-hosted Solutions
 
@@ -158,7 +158,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](dns.md#self-hosted-solutions)
+[Learn more :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
 
 ### Email
 
@@ -171,7 +171,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](email.md)
+[Learn more :material-arrow-right-drop-circle:](email.md)
 
 #### Email Aliasing Services
 
@@ -182,7 +182,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](email.md#email-aliasing-services)
+[Learn more :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
 
 #### Self-Hosting Email
 
@@ -193,7 +193,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](email.md#self-hosting-email)
+[Learn more :material-arrow-right-drop-circle:](email.md#self-hosting-email)
 
 ### Search Engines
 
@@ -206,7 +206,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](search-engines.md)
+[Learn more :material-arrow-right-drop-circle:](search-engines.md)
 
 ### VPN Providers
 
@@ -218,7 +218,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
     If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
 
-    [Learn more :hero-arrow-circle-right-fill:](vpn.md)
+    [Learn more :material-arrow-right-drop-circle:](vpn.md)
 
 <div class="grid cards" markdown>
 
@@ -228,7 +228,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](vpn.md)
+[Learn more :material-arrow-right-drop-circle:](vpn.md)
 
 ## Software
 
@@ -242,7 +242,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](calendar-contacts.md)
+[Learn more :material-arrow-right-drop-circle:](calendar-contacts.md)
 
 ### Notebooks
 
@@ -255,7 +255,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](notebooks.md)
+[Learn more :material-arrow-right-drop-circle:](notebooks.md)
 
 ### Email Clients
 
@@ -273,7 +273,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](email-clients.md)
+[Learn more :material-arrow-right-drop-circle:](email-clients.md)
 
 ### Encryption Software
 
@@ -281,7 +281,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
     For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and typically use hardware encryption elements such as a TPM that other full-disk encryption software like VeraCrypt do not. VeraCrypt is still suitable for non-operating system disks such as external drives, especially drives that may be accessed from multiple operating systems.
 
-    [Learn more :hero-arrow-circle-right-fill:](encryption.md##operating-system-included-full-disk-encryption-fde)
+    [Learn more :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
 
 <div class="grid cards" markdown>
 
@@ -294,7 +294,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](encryption.md)
+[Learn more :material-arrow-right-drop-circle:](encryption.md)
 
 #### OpenPGP Clients
 
@@ -307,7 +307,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](encryption.md#openpgp)
+[Learn more :material-arrow-right-drop-circle:](encryption.md#openpgp)
 
 ### File Sharing
 
@@ -319,7 +319,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](file-sharing.md)
+[Learn more :material-arrow-right-drop-circle:](file-sharing.md)
 
 ### Data and Metadata Redaction
 
@@ -334,7 +334,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](data-redaction.md)
+[Learn more :material-arrow-right-drop-circle:](data-redaction.md)
 
 ### Multi-Factor Authentication Tools
 
@@ -347,7 +347,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](multi-factor-authentication.md)
+[Learn more :material-arrow-right-drop-circle:](multi-factor-authentication.md)
 
 ### Password Managers
 
@@ -362,7 +362,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](passwords.md)
+[Learn more :material-arrow-right-drop-circle:](passwords.md)
 
 ### Productivity Tools
 
@@ -375,7 +375,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](productivity.md)
+[Learn more :material-arrow-right-drop-circle:](productivity.md)
 
 ### Real-Time Communication
 
@@ -388,7 +388,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](real-time-communication.md)
+[Learn more :material-arrow-right-drop-circle:](real-time-communication.md)
 
 ### News Aggregators
 
@@ -404,7 +404,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](news-aggregators.md)
+[Learn more :material-arrow-right-drop-circle:](news-aggregators.md)
 
 ### Self-Contained Networks
 
@@ -417,7 +417,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](self-contained-networks.md)
+[Learn more :material-arrow-right-drop-circle:](self-contained-networks.md)
 
 ### Video Streaming Clients
 
@@ -432,4 +432,4 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :hero-arrow-circle-right-fill:](video-streaming.md)
+[Learn more :material-arrow-right-drop-circle:](video-streaming.md)

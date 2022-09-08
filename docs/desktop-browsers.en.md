@@ -17,17 +17,17 @@ These are our currently recommended desktop web browsers and configurations. In 
     For further information about the Tor Browser, we suggest taking a look at the [manual](https://tb-manual.torproject.org/about/).
 
     [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
-    [:pg-tor:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title=Onion }
+    [:simple-torproject:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title=Onion }
     [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
     [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://www.torproject.org/download/)
-        - [:fontawesome-brands-apple: macOS](https://www.torproject.org/download/)
-        - [:fontawesome-brands-linux: Linux](https://www.torproject.org/download/)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.github.micahflee.torbrowser-launcher)
+        - [:simple-windows11: Windows](https://www.torproject.org/download/)
+        - [:simple-apple: macOS](https://www.torproject.org/download/)
+        - [:simple-linux: Linux](https://www.torproject.org/download/)
+        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/com.github.micahflee.torbrowser-launcher)
 
 !!! danger
 
@@ -49,10 +49,10 @@ These are our currently recommended desktop web browsers and configurations. In 
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://www.mozilla.org/firefox/windows)
-        - [:fontawesome-brands-apple: macOS](https://www.mozilla.org/firefox/mac)
-        - [:fontawesome-brands-linux: Linux](https://www.mozilla.org/firefox/linux)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.firefox)
+        - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
+        - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
+        - [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
+        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.firefox)
 
 !!! warning
     Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
@@ -120,16 +120,16 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
     Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
 
     [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
-    [:pg-tor:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title=Onion }
+    [:simple-torproject:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title=Onion }
     [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
     ??? downloads annotate
 
-        - [:fontawesome-brands-windows: Windows](https://brave.com/download/)
-        - [:fontawesome-brands-apple: macOS](https://brave.com/download/)
-        - [:fontawesome-brands-linux: Linux](https://brave.com/linux/) (1)
+        - [:simple-windows11: Windows](https://brave.com/download/)
+        - [:simple-apple: macOS](https://brave.com/download/)
+        - [:simple-linux: Linux](https://brave.com/linux/) (1)
 
     1. We advise against using the Flatpak version of Brave, as it replaces Chromium's sandbox with Flatpak's, which is less effective. Additionally, the package is not maintained by Brave Software, Inc.
 
@@ -228,9 +228,9 @@ We generally do not recommend installing any extensions as they increase your at
 
     ??? downloads
 
-        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
-        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-        - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 
 We suggest following the [developer's documentation](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and picking one of the "modes". Additional filter lists can impact performance and may increase attack surface, so only apply what you need. If there is a [vulnerability in uBlock Origin](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css) a third-party filter could add malicious rules that can potentially steal user data.
 
@@ -252,8 +252,8 @@ We suggest following the [developer's documentation](https://github.com/gorhill/
 
     ??? downloads
 
-        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/){ .card-link title=Firefox }
-        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie){ .card-link title=Chrome }
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/){ .card-link title=Firefox }
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie){ .card-link title=Chrome }
         - [:octicons-browser-16: Web](https://snowflake.torproject.org/embed "Leave this page open to be a Snowflake proxy")
 
 ??? tip "Embedded Snowflake"

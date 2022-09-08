@@ -146,7 +146,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
     **EUR €60/year**
 
     [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
-    [:pg-tor:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title=Onion }
+    [:simple-torproject:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title=Onion }
     [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }

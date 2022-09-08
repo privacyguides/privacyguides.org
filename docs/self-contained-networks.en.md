@@ -19,12 +19,12 @@ These networks are designed to keep your traffic anonymous.
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://freenetproject.org/pages/download.html#windows)
-        - [:fontawesome-brands-apple: macOS](https://freenetproject.org/pages/download.html#os-x)
-        - [:fontawesome-brands-linux: Linux](https://freenetproject.org/pages/download.html#gnulinux-posix)
-        - [:fontawesome-brands-freebsd: FreeBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)
-        - [:pg-openbsd: OpenBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)
-        - [:pg-netbsd: NetBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)
+        - [:simple-windows11: Windows](https://freenetproject.org/pages/download.html#windows)
+        - [:simple-apple: macOS](https://freenetproject.org/pages/download.html#os-x)
+        - [:simple-linux: Linux](https://freenetproject.org/pages/download.html#gnulinux-posix)
+        - [:simple-freebsd: FreeBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)
+        - [:simple-openbsd: OpenBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)
+        - [:simple-netbsd: NetBSD](https://freenetproject.org/pages/download.html#gnulinux-posix)
 
 ## Invisible Internet Project
 
@@ -42,15 +42,15 @@ These networks are designed to keep your traffic anonymous.
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://geti2p.net/en/download#windows)
-        - [:fontawesome-brands-apple: macOS](https://geti2p.net/en/download#mac)
-        - [:fontawesome-brands-linux: Linux](https://geti2p.net/en/download#unix)
-        - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/security/i2p)
-        - [:pg-openbsd: OpenBSD](https://openports.se/net/i2pd)
-        - [:pg-netbsd: NetBSD](https://pkgsrc.se/wip/i2pd)
-        - [:fontawesome-brands-android: Android](https://geti2p.net/en/download#android)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=net.i2p.android)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/app/net.i2p.android.router)
+        - [:simple-windows11: Windows](https://geti2p.net/en/download#windows)
+        - [:simple-apple: macOS](https://geti2p.net/en/download#mac)
+        - [:simple-linux: Linux](https://geti2p.net/en/download#unix)
+        - [:simple-freebsd: FreeBSD](https://www.freshports.org/security/i2p)
+        - [:simple-openbsd: OpenBSD](https://openports.se/net/i2pd)
+        - [:simple-netbsd: NetBSD](https://pkgsrc.se/wip/i2pd)
+        - [:simple-android: Android](https://geti2p.net/en/download#android)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.i2p.android)
+        - [:simple-fdroid: F-Droid](https://f-droid.org/app/net.i2p.android.router)
 
 ## Tor
 
@@ -61,22 +61,22 @@ These networks are designed to keep your traffic anonymous.
     The **Tor** network is a group of volunteer-operated servers that allows people to improve their privacy and security on the Internet. You use the Tor network by connecting through a series of virtual tunnels rather than making a direct connection to the site you're trying to visit, thus allowing both organizations and individuals to share information over public networks without compromising their privacy. Tor is an effective censorship circumvention tool.
 
     [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
-    [:pg-tor:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title=Onion }
+    [:simple-torproject:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title=Onion }
     [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
     [:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://www.torproject.org/download/)
-        - [:fontawesome-brands-apple: macOS](https://www.torproject.org/download/)
-        - [:fontawesome-brands-linux: Linux](https://www.torproject.org/download/)
-        - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/security/tor)
-        - [:pg-openbsd: OpenBSD](https://openports.se/net/tor)
-        - [:pg-netbsd: NetBSD](https://pkgsrc.se/net/tor)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-        - [:pg-f-droid: F-Droid](https://support.torproject.org/tormobile/tormobile-7/)
-        - [:fontawesome-brands-android: Android](https://www.torproject.org/download/#android)
+        - [:simple-windows11: Windows](https://www.torproject.org/download/)
+        - [:simple-apple: macOS](https://www.torproject.org/download/)
+        - [:simple-linux: Linux](https://www.torproject.org/download/)
+        - [:simple-freebsd: FreeBSD](https://www.freshports.org/security/tor)
+        - [:simple-openbsd: OpenBSD](https://openports.se/net/tor)
+        - [:simple-netbsd: NetBSD](https://pkgsrc.se/net/tor)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
+        - [:simple-fdroid: F-Droid](https://support.torproject.org/tormobile/tormobile-7/)
+        - [:simple-android: Android](https://www.torproject.org/download/#android)
 
 ### Orbot
 
@@ -94,9 +94,9 @@ These networks are designed to keep your traffic anonymous.
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-        - [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
+        - [:simple-fdroid: F-Droid](https://guardianproject.info/fdroid)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
 
 For resistance against traffic analysis attacks, consider enabling *Isolate Destination Address* in :material-menu: → **Settings** → **Connectivity**. This will use a completely different Tor Circuit (different middle relay and exit nodes) for every domain you connect to.
 

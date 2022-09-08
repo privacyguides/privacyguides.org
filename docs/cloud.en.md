@@ -36,15 +36,15 @@ If these alternatives do not fit your needs, we suggest you look into [Encryptio
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
-        - [:fontawesome-brands-apple: macOS](https://nextcloud.com/install/#install-clients)
-        - [:fontawesome-brands-linux: Linux](https://nextcloud.com/install/#install-clients)
-        - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
-        - [:pg-openbsd: OpenBSD](https://openports.se/www/nextcloud)
-        - [:pg-netbsd: NetBSD](https://pkgsrc.se/www/php-nextcloud)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.nextcloud.client)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1125420102)
+        - [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
+        - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
+        - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
+        - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
+        - [:simple-openbsd: OpenBSD](https://openports.se/www/nextcloud)
+        - [:simple-netbsd: NetBSD](https://pkgsrc.se/www/php-nextcloud)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
+        - [:simple-fdroid: F-Droid](https://f-droid.org/packages/com.nextcloud.client)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
 
 We recommend checking if your Nextcloud provider supports E2EE, otherwise you have to trust the provider to not look at your files.
 
@@ -65,7 +65,7 @@ When self-hosting, you should also enable E2EE to protect against your hosting p
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
 
 Proton Drive is currently in beta and is only available through a web client and an Android app.
 

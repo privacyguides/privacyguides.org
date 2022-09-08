@@ -22,11 +22,11 @@ icon: material/chat-processing
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://signal.org/download)
-        - [:fontawesome-brands-apple: macOS](https://signal.org/download)
-        - [:fontawesome-brands-linux: Linux](https://signal.org/download)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id874139669)
+        - [:simple-windows11: Windows](https://signal.org/download)
+        - [:simple-apple: macOS](https://signal.org/download)
+        - [:simple-linux: Linux](https://signal.org/download)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
 
 Signal supports [private groups](https://signal.org/blog/signal-private-group-system/). The server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender/) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server. Sealed Sender is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam. Signal requires your phone number as a personal identifier.
 
@@ -34,7 +34,7 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
 We have some additional tips on configuring and hardening your Signal installation:
 
-[Signal Configuration and Hardening :hero-arrow-circle-right-fill:](./advanced/signal-configuration-hardening.md)
+[Signal Configuration and Hardening :material-arrow-right-drop-circle:](./advanced/signal-configuration-hardening.md)
 
 ### Element
 
@@ -53,13 +53,13 @@ We have some additional tips on configuring and hardening your Signal installati
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://element.io/get-started)
-        - [:fontawesome-brands-apple: macOS](https://element.io/get-started)
-        - [:fontawesome-brands-linux: Linux](https://element.io/get-started)
+        - [:simple-windows11: Windows](https://element.io/get-started)
+        - [:simple-apple: macOS](https://element.io/get-started)
+        - [:simple-linux: Linux](https://element.io/get-started)
         - [:octicons-globe-16: Web](https://app.element.io)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/im.vector.app/)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/vector/id1083446067)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
+        - [:simple-fdroid: F-Droid](https://f-droid.org/packages/im.vector.app/)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
 
 Profile pictures, reactions, and nicknames are not encrypted.
 
@@ -86,12 +86,12 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://getsession.org/download)
-        - [:fontawesome-brands-apple: macOS](https://getsession.org/download)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1470168868)
-        - [:fontawesome-brands-linux: Linux](https://getsession.org/download)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
-        - [:pg-f-droid: F-Droid](https://fdroid.getsession.org)
+        - [:simple-windows11: Windows](https://getsession.org/download)
+        - [:simple-apple: macOS](https://getsession.org/download)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
+        - [:simple-linux: Linux](https://getsession.org/download)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
+        - [:simple-fdroid: F-Droid](https://fdroid.getsession.org)
 
 Session allows for E2EE in one-on-one chats or closed groups which allow for up to 100 members. Open groups have no restriction on the number of members, but are open by design.
 
@@ -119,9 +119,9 @@ Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the 
 
     ??? downloads
 
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.briarproject.Briar)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/org.briarproject.briar.android)
+        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.briarproject.Briar)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
+        - [:simple-fdroid: F-Droid](https://f-droid.org/packages/org.briarproject.briar.android)
 
 To add a contact on Briar, you must both add each other first. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.
 

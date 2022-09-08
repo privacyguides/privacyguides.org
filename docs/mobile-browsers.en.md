@@ -19,15 +19,15 @@ On Android, Firefox is still less secure than Chromium-based alternatives: Mozil
     The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings/).
 
     [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
-    [:pg-tor:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title=Onion }
+    [:simple-torproject:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title=Onion }
     [:octicons-info-16:](https://tb-manual.torproject.org/mobile-tor/){ .card-link title=Documentation }
     [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/fenix){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-        - [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid/)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
+        - [:simple-fdroid: F-Droid](https://guardianproject.info/fdroid/)
 
 ### Brave
 
@@ -40,14 +40,14 @@ On Android, Firefox is still less secure than Chromium-based alternatives: Mozil
     Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
 
     [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
-    [:pg-tor:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title=Onion }
+    [:simple-torproject:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title=Onion }
     [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
     ??? downloads annotate
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 
 #### Recommended Configuration
 
@@ -125,7 +125,7 @@ This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/track
 
 Privacy Report provides a snapshot of cross-site trackers currently prevented from profiling you on the website you're visiting. It can also display a weekly report to show which trackers have been blocked over time.
 
-Privacy Report is accessible via the Page Settings menu (:pg-textformat-size:).
+Privacy Report is accessible via the Page Settings menu.
 
 ##### Privacy Preserving Ad Measurement
 
@@ -168,6 +168,6 @@ If you use iCloud, we also recommend checking to ensure Safari's default downloa
 
     ??? downloads
 
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 
 Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.

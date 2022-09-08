@@ -24,13 +24,13 @@ Calendars and contacts contain some of your most sensitive data; use products th
     ??? downloads
 
         - [:octicons-browser-16: Web](https://mail.tutanota.com/)
-        - [:fontawesome-brands-windows: Windows](https://tutanota.com/blog/posts/desktop-clients/)
-        - [:fontawesome-brands-apple: macOS](https://tutanota.com/blog/posts/desktop-clients/)
-        - [:fontawesome-brands-linux: Linux](https://tutanota.com/blog/posts/desktop-clients/)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.tutanota.Tutanota)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.tutao.tutanota)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
+        - [:simple-windows11: Windows](https://tutanota.com/blog/posts/desktop-clients/)
+        - [:simple-apple: macOS](https://tutanota.com/blog/posts/desktop-clients/)
+        - [:simple-linux: Linux](https://tutanota.com/blog/posts/desktop-clients/)
+        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/com.tutanota.Tutanota)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
+        - [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/de.tutao.tutanota)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
 
 ## EteSync
 
@@ -51,10 +51,10 @@ Calendars and contacts contain some of your most sensitive data; use products th
     ??? downloads
 
         - [:octicons-device-desktop-16: Client Setup](https://github.com/etesync/etesync-dav/blob/master/README.md#specific-client-notes-and-instructions)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.etesync.syncadapter)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/app/com.etesync.syncadapter)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/apple-store/id1489574285)
-        - [:fontawesome-brands-docker: Docker Hub](https://hub.docker.com/r/victorrds/etesync)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.etesync.syncadapter)
+        - [:simple-fdroid: F-Droid](https://f-droid.org/app/com.etesync.syncadapter)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/apple-store/id1489574285)
+        - [:simple-docker: Docker Hub](https://hub.docker.com/r/victorrds/etesync)
 
 ## Proton Calendar
 
@@ -74,7 +74,7 @@ Calendars and contacts contain some of your most sensitive data; use products th
     ??? downloads
 
         - [:octicons-browser-16: Web](https://calendar.proton.me)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
 
 !!! warning
     Proton [does not](https://proton.me/support/proton-contacts#verify) use E2EE for your contact names and email addresses.

@@ -4,7 +4,7 @@ icon: material/form-textbox-password
 ---
 Password managers allow you to securely store and manage passwords and other credentials with the use of a master password.
 
-[Introduction to Passwords :hero-arrow-circle-right-fill:](./basics/passwords-overview.md)
+[Introduction to Passwords :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 
 ## Cloud-based
 
@@ -25,16 +25,16 @@ These password managers sync your passwords to a cloud server for easy accessibi
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://bitwarden.com/download)
-        - [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/app/bitwarden/id1352778147)
-        - [:fontawesome-brands-linux: Linux](https://bitwarden.com/download)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.bitwarden.desktop)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
-        - [:pg-f-droid: F-Droid](https://mobileapp.bitwarden.com/fdroid)
-        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
-        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
-        - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
+        - [:simple-windows11: Windows](https://bitwarden.com/download)
+        - [:simple-apple: Mac App Store](https://apps.apple.com/app/bitwarden/id1352778147)
+        - [:simple-linux: Linux](https://bitwarden.com/download)
+        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/com.bitwarden.desktop)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
+        - [:simple-fdroid: F-Droid](https://mobileapp.bitwarden.com/fdroid)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
+        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
 
 Bitwarden also features [Bitwarden Send](https://bitwarden.com/products/send/), which allows you to share text and files securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). A [password](https://bitwarden.com/help/send-privacy/#send-passwords) can be required along with the send link. Bitwarden Send also features [automatic deletion](https://bitwarden.com/help/send-lifespan).
 
@@ -82,11 +82,11 @@ One advantage 1Password has over Bitwarden is its first-class support for native
 
     ??? downloads
 
-        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
-        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
-        - [:fontawesome-brands-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
+        - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
 
 Psono provides [extensive documentation](https://doc.psono.com/) for their product. The [web-client](https://doc.psono.com/admin/installation/install-webclient.html#installation-with-docker) for Psono can be self-hosted; alternatively, you can choose the full [Community Edition](https://doc.psono.com/admin/installation/install-server-ce.html) or the [Enterprise Edition](https://doc.psono.com/admin/installation/install-server-ee.html) with additional features.
 
@@ -110,12 +110,12 @@ These options allow you to manage an encrypted password database locally.
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://keepassxc.org/download/#windows)
-        - [:fontawesome-brands-apple: macOS](https://keepassxc.org/download/#mac)
-        - [:fontawesome-brands-linux: Linux](https://keepassxc.org/download/#linux)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
-        - [:fontawesome-brands-firefox: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
-        - [:fontawesome-brands-chrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
+        - [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
+        - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
+        - [:simple-linux: Linux](https://keepassxc.org/download/#linux)
+        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
 
 KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files. This may mean data loss if you import this file into another password manager. We advise you check each record manually.
 
@@ -134,9 +134,9 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
-        - [:pg-f-droid: F-Droid](https://www.f-droid.org/packages/com.kunzisoft.keepass.libre)
-        - [:fontawesome-brands-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
+        - [:simple-fdroid: F-Droid](https://www.f-droid.org/packages/com.kunzisoft.keepass.libre)
+        - [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
 
 ## Command-line
 
@@ -157,7 +157,7 @@ These products are minimal password managers that can be used within scripting a
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://www.gopass.pw/#install-windows)
-        - [:fontawesome-brands-apple: macOS](https://www.gopass.pw/#install-macos)
-        - [:fontawesome-brands-linux: Linux](https://www.gopass.pw/#install-linux)
-        - [:fontawesome-brands-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
+        - [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
+        - [:simple-apple: macOS](https://www.gopass.pw/#install-macos)
+        - [:simple-linux: Linux](https://www.gopass.pw/#install-linux)
+        - [:simple-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)

@@ -15,15 +15,15 @@ Discover how to privately share your files between your devices, with your frien
     **OnionShare** is an open-source tool that lets you securely and anonymously share a file of any size. It works by starting a web server accessible as a Tor onion service, with an unguessable URL that you can share with the recipients to download or send files.
 
     [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
-    [:pg-tor:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title=Onion }
+    [:simple-torproject:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title=Onion }
     [:octicons-info-16:](https://docs.onionshare.org/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://onionshare.org/#download)
-        - [:fontawesome-brands-apple: macOS](https://onionshare.org/#download)
-        - [:fontawesome-brands-linux: Linux](https://onionshare.org/#download)
+        - [:simple-windows11: Windows](https://onionshare.org/#download)
+        - [:simple-apple: macOS](https://onionshare.org/#download)
+        - [:simple-linux: Linux](https://onionshare.org/#download)
 
 ## FreedomBox
 
@@ -55,11 +55,11 @@ Discover how to privately share your files between your devices, with your frien
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://syncthing.net/downloads/)
-        - [:fontawesome-brands-apple: macOS](https://syncthing.net/downloads/)
-        - [:fontawesome-brands-linux: Linux](https://syncthing.net/downloads/)
-        - [:fontawesome-brands-freebsd: FreeBSD](https://syncthing.net/downloads/)
-        - [:pg-openbsd: OpenBSD](https://syncthing.net/downloads/)
-        - [:pg-netbsd: NetBSD](https://syncthing.net/downloads/)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.nutomic.syncthingandroid/)
+        - [:simple-windows11: Windows](https://syncthing.net/downloads/)
+        - [:simple-apple: macOS](https://syncthing.net/downloads/)
+        - [:simple-linux: Linux](https://syncthing.net/downloads/)
+        - [:simple-freebsd: FreeBSD](https://syncthing.net/downloads/)
+        - [:simple-openbsd: OpenBSD](https://syncthing.net/downloads/)
+        - [:simple-netbsd: NetBSD](https://syncthing.net/downloads/)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
+        - [:simple-fdroid: F-Droid](https://f-droid.org/packages/com.nutomic.syncthingandroid/)

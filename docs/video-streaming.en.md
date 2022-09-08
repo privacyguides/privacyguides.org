@@ -24,10 +24,10 @@ The primary threat when using a video streaming platform is that your streaming 
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://freetubeapp.io/#download)
-        - [:fontawesome-brands-apple: macOS](https://freetubeapp.io/#download)
-        - [:fontawesome-brands-linux: Linux](https://freetubeapp.io/#download)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
+        - [:simple-windows11: Windows](https://freetubeapp.io/#download)
+        - [:simple-apple: macOS](https://freetubeapp.io/#download)
+        - [:simple-linux: Linux](https://freetubeapp.io/#download)
+        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
 
 !!! Warning
 
@@ -50,9 +50,9 @@ The primary threat when using a video streaming platform is that your streaming 
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://lbry.com/windows)
-        - [:fontawesome-brands-apple: macOS](https://lbry.com/osx)
-        - [:fontawesome-brands-linux: Linux](https://lbry.com/linux)
+        - [:simple-windows11: Windows](https://lbry.com/windows)
+        - [:simple-apple: macOS](https://lbry.com/osx)
+        - [:simple-linux: Linux](https://lbry.com/linux)
 
 !!! note
 
@@ -84,8 +84,8 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
 
     ??? downloads
 
-        - [:pg-f-droid: F-Droid](https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo)
-        - [:fontawesome-brands-github: GitHub](https://github.com/TeamNewPipe/NewPipe/releases)
+        - [:simple-fdroid: F-Droid](https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo)
+        - [:simple-github: GitHub](https://github.com/TeamNewPipe/NewPipe/releases)
 
 1. The default instance is [FramaTube](https://framatube.org/), however more can be added via **Settings** → **Content** → **PeerTube instances**
 

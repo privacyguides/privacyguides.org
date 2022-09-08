@@ -39,10 +39,10 @@ It's important for a website like Privacy Guides to always stay up-to-date. We n
 </div>
 <div class="grid cards" style="margin:auto;max-width:800px;text-align:center;" markdown>
 
-- [:fontawesome-brands-reddit: Join the r/PrivacyGuides Subreddit](https://www.reddit.com/r/privacyguides)
-- [:fontawesome-brands-mastodon: Follow us on Mastodon](https://mastodon.social/@privacyguides){ rel=me }
+- [:simple-reddit: Join the r/PrivacyGuides Subreddit](https://www.reddit.com/r/privacyguides)
+- [:simple-mastodon: Follow us on Mastodon](https://mastodon.social/@privacyguides){ rel=me }
 - [:material-book-edit: Contribute to this website](https://github.com/privacyguides/privacyguides.org)
-- [:pg-matrix: Chat with us on Matrix](https://matrix.to/#/#privacyguides:matrix.org)
+- [:simple-matrix: Chat with us on Matrix](https://matrix.to/#/#privacyguides:matrix.org)
 
 </div>
 <div style="padding:3em;text-align:center;" markdown>

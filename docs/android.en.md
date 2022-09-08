@@ -1,12 +1,12 @@
 ---
 title: "Android"
-icon: 'fontawesome/brands/android'
+icon: 'simple/android'
 ---
 
 These are the Android operating systems, devices, and apps we recommend to maximize your mobile device's security and privacy. We also have additional Android-related information:
 
-- [General Android Overview and Recommendations :hero-arrow-circle-right-fill:](android/overview.md)
-- [Why we recommend GrapheneOS over CalyxOS :hero-arrow-circle-right-fill:](android/grapheneos-vs-calyxos.md)
+- [General Android Overview and Recommendations :material-arrow-right-drop-circle:](android/overview.md)
+- [Why we recommend GrapheneOS over CalyxOS :material-arrow-right-drop-circle:](android/grapheneos-vs-calyxos.md)
 
 ## AOSP Derivatives
 
@@ -47,7 +47,7 @@ Google Pixel phones are the only devices that currently meet GrapheneOS's [hardw
     DivestOS inherits many [supported devices](https://divestos.org/index.php?page=devices&base=LineageOS) from LineageOS. It has signed builds, making it possible to have [verified boot](https://source.android.com/security/verifiedboot) on some non-Pixel devices.
 
     [:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
-    [:pg-tor:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title=Onion }
+    [:simple-torproject:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title=Onion }
     [:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
@@ -126,8 +126,8 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=net.typeblog.shelter)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/net.typeblog.shelter)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.typeblog.shelter)
+        - [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/net.typeblog.shelter)
 
 !!! warning
 
@@ -152,8 +152,8 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor)
-        - [:fontawesome-brands-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor)
+        - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
         - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 
 Auditor performs attestation and intrusion detection by:
@@ -185,8 +185,8 @@ To make sure that your hardware and operating system is genuine, [perform local 
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
-        - [:fontawesome-brands-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
+        - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
         - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 
 Main privacy features include:
@@ -218,8 +218,8 @@ Main privacy features include:
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
-        - [:fontawesome-brands-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
+        - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
         - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 
 ## Obtaining Applications
@@ -243,8 +243,8 @@ The Google Play Store requires a Google account to login which is not great for 
 
     ??? downloads
 
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/com.aurora.store/)
-        - [:fontawesome-brands-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
+        - [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/com.aurora.store/)
+        - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
 Aurora Store does not allow you to download paid apps with their anonymous account feature. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google, however you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
 
@@ -283,8 +283,8 @@ To mitigate these problems, we recommend [Neo Store](https://github.com/NeoAppli
 
     ??? downloads
 
-        - [:fontawesome-brands-android: IzzyOnDroid (APK)](https://android.izzysoft.de/repo/apk/com.machiav3lli.fdroid)
-        - [:fontawesome-brands-github: GitHub](https://github.com/NeoApplications/Neo-Store/releases)
+        - [:simple-android: IzzyOnDroid (APK)](https://android.izzysoft.de/repo/apk/com.machiav3lli.fdroid)
+        - [:simple-github: GitHub](https://github.com/NeoApplications/Neo-Store/releases)
 
 ### Manually with RSS Notifications
 

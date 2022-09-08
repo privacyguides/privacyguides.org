@@ -20,9 +20,9 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://github.com/szTheory/exifcleaner/releases)
-        - [:fontawesome-brands-apple: macOS](https://github.com/szTheory/exifcleaner/releases)
-        - [:fontawesome-brands-linux: Linux](https://github.com/szTheory/exifcleaner/releases)
+        - [:simple-windows11: Windows](https://github.com/szTheory/exifcleaner/releases)
+        - [:simple-apple: macOS](https://github.com/szTheory/exifcleaner/releases)
+        - [:simple-linux: Linux](https://github.com/szTheory/exifcleaner/releases)
 
 ### MAT2
 
@@ -40,9 +40,9 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
-        - [:fontawesome-brands-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
-        - [:fontawesome-brands-linux: Linux](https://pypi.org/project/mat2)
+        - [:simple-windows11: Windows](https://pypi.org/project/mat2)
+        - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
+        - [:simple-linux: Linux](https://pypi.org/project/mat2)
         - [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
 
 ## Mobile
@@ -63,9 +63,9 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
-        - [:fontawesome-brands-android: IzzyOnDroid (APK)](https://android.izzysoft.de/repo/apk/com.none.tom.exiferaser)
-        - [:fontawesome-brands-github: GitHub](https://github.com/Tommy-Geenexus/exif-eraser/releases)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
+        - [:simple-android: IzzyOnDroid (APK)](https://android.izzysoft.de/repo/apk/com.none.tom.exiferaser)
+        - [:simple-github: GitHub](https://github.com/Tommy-Geenexus/exif-eraser/releases)
 
 The metadata that is erased depends on the image's file type:
 
@@ -96,7 +96,7 @@ The app offers multiple ways to erase metadata from images. Namely:
 
     ??? downloads
 
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/metapho/id914457352)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
 
 ### PrivacyBlur (Android)
 
@@ -113,8 +113,8 @@ The app offers multiple ways to erase metadata from images. Namely:
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.mathema.privacyblur/)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
+        - [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/de.mathema.privacyblur/)
 
 !!! warning
 
@@ -139,9 +139,9 @@ The app offers multiple ways to erase metadata from images. Namely:
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://exiftool.org)
-        - [:fontawesome-brands-apple: macOS](https://exiftool.org)
-        - [:fontawesome-brands-linux: Linux](https://exiftool.org)
+        - [:simple-windows11: Windows](https://exiftool.org)
+        - [:simple-apple: macOS](https://exiftool.org)
+        - [:simple-linux: Linux](https://exiftool.org)
 
 !!! example "Deleting data from a directory of files"
 

@@ -92,8 +92,8 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ba
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.celzero.bravedns)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
+        - [:simple-fdroid: F-Droid](https://f-droid.org/packages/com.celzero.bravedns)
 
 ### dnscrypt-proxy
 
@@ -112,9 +112,9 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ba
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
-        - [:fontawesome-brands-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
-        - [:fontawesome-brands-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
+        - [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
+        - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
+        - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
 
 ## Self-hosted Solutions
 

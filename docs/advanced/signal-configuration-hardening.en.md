@@ -1,6 +1,6 @@
 ---
 title: "Signal Configuration and Hardening"
-icon: 'material/chat-processing'
+icon: 'simple/signal'
 ---
 
 [Signal](../real-time-communication.md#signal) is a widely regarded instant messaging service that is not only easy to use but is also private and secure. Signal's strong E2EE implementation and metadata protections provide a level of assurance that only you and your intended recipients are able to read communications.
@@ -212,8 +212,8 @@ On Android you can consider using **Molly**, a fork of the Signal mobile client 
 
     ??? downloads
 
-         - [:pg-f-droid: F-Droid](https://molly.im/download/fdroid/)
-         - [:fontawesome-brands-github: GitHub](https://github.com/mollyim/mollyim-android/releases)
+         - [:simple-fdroid: F-Droid](https://molly.im/download/fdroid/)
+         - [:simple-github: GitHub](https://github.com/mollyim/mollyim-android/releases)
 
 Molly offers two variants of the app: **Molly** and **Molly-FOSS**.
 

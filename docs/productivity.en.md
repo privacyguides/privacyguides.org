@@ -26,15 +26,15 @@ For other platforms, consider below:
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://www.libreoffice.org/download/download/)
-        - [:fontawesome-brands-apple: macOS](https://www.libreoffice.org/download/download/)
-        - [:fontawesome-brands-linux: Linux](https://www.libreoffice.org/download/download/)
-        - [:pg-flathub: Flatpak](https://www.libreoffice.org/download/download/)
-        - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/editors/libreoffice/)
-        - [:pg-openbsd: OpenBSD](https://openports.se/editors/libreoffice)
-        - [:pg-netbsd: NetBSD](https://pkgsrc.se/misc/libreoffice)
-        - [:fontawesome-brands-google-play: Google Play](https://www.libreoffice.org/download/android-and-ios/)
-        - [:fontawesome-brands-app-store-ios: App Store](https://www.libreoffice.org/download/android-and-ios/)
+        - [:simple-windows11: Windows](https://www.libreoffice.org/download/download/)
+        - [:simple-apple: macOS](https://www.libreoffice.org/download/download/)
+        - [:simple-linux: Linux](https://www.libreoffice.org/download/download/)
+        - [:simple-flathub: Flatpak](https://www.libreoffice.org/download/download/)
+        - [:simple-freebsd: FreeBSD](https://www.freshports.org/editors/libreoffice/)
+        - [:simple-openbsd: OpenBSD](https://openports.se/editors/libreoffice)
+        - [:simple-netbsd: NetBSD](https://pkgsrc.se/misc/libreoffice)
+        - [:simple-googleplay: Google Play](https://www.libreoffice.org/download/android-and-ios/)
+        - [:simple-appstore: App Store](https://www.libreoffice.org/download/android-and-ios/)
 
 ### OnlyOffice
 
@@ -51,12 +51,12 @@ For other platforms, consider below:
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://www.onlyoffice.com/download-desktop.aspx)
-        - [:fontawesome-brands-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx)
-        - [:fontawesome-brands-linux: Linux](https://www.onlyoffice.com/download-desktop.aspx)
-        - [:fontawesome-brands-freebsd: FreeBSD](https://www.freshports.org/www/onlyoffice-documentserver/)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id944896972)
+        - [:simple-windows11: Windows](https://www.onlyoffice.com/download-desktop.aspx)
+        - [:simple-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx)
+        - [:simple-linux: Linux](https://www.onlyoffice.com/download-desktop.aspx)
+        - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/onlyoffice-documentserver/)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
 
 ### CryptPad
 

@@ -1,6 +1,6 @@
 ---
 title: Linux Overview
-icon: fontawesome/brands/linux
+icon: simple/linux
 ---
 It is often believed that [open-source](https://en.wikipedia.org/wiki/Open-source_software) software is inherently secure because the source code is available. There is an expectation that community verification occurs regularly; however, this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security/). It does depend on a number of factors, such as project activity, developer experience, level of rigour applied to [code reviews](https://en.wikipedia.org/wiki/Code_review), and how often attention is given to specific parts of the [codebase](https://en.wikipedia.org/wiki/Codebase) that may go untouched for years.
 
@@ -18,7 +18,7 @@ Despite these drawbacks, desktop GNU/Linux distributions are great if you want t
 
 Our website generally uses the term “Linux” to describe desktop GNU/Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed here.
 
-[Our Linux Recommendations :hero-arrow-circle-right-fill:](../linux-desktop.md){ .md-button }
+[Our Linux Recommendations :material-arrow-right-drop-circle:](../linux-desktop.md){ .md-button }
 
 ## Choosing your distribution
 
@@ -81,7 +81,7 @@ We strongly recommend **against** using the Linux-libre kernel, since it [remove
 
 Most Linux distributions have an option within its installer for enabling [LUKS](../encryption.md#linux-unified-key-setup) FDE. If this option isn’t set at installation time, you will have to backup your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. We also suggest securely erasing your storage device:
 
-- [Secure Data Erasure :hero-arrow-circle-right-fill:](../advanced/erasing-data.md)
+- [Secure Data Erasure :material-arrow-right-drop-circle:](../advanced/erasing-data.md)
 
 ### Swap
 

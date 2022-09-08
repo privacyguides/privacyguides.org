@@ -1,6 +1,6 @@
 ---
 title: "Tor Overview"
-icon: 'pg/tor'
+icon: 'simple/torproject'
 ---
 
 Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible. If used properly, the network enables private and anonymous browsing and communications.
@@ -70,7 +70,7 @@ Though Tor does provide strong privacy guarantees, one must be aware that Tor is
 
 If you wish to use Tor for browsing the web, we only recommend the **official** Tor Browser—it is designed to prevent fingerprinting.
 
-- [Browsers: Tor Browser :hero-arrow-circle-right-fill:](../desktop-browsers.md#tor-browser)
+- [Browsers: Tor Browser :material-arrow-right-drop-circle:](../desktop-browsers.md#tor-browser)
 
 ## Additional Resources
 

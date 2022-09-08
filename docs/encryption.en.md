@@ -24,13 +24,13 @@ The options listed here are multi-platform and great for creating encrypted back
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://cryptomator.org/downloads)
-        - [:fontawesome-brands-apple: macOS](https://cryptomator.org/downloads)
-        - [:fontawesome-brands-linux: Linux](https://cryptomator.org/downloads)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
-        - [:fontawesome-brands-android: Android](https://cryptomator.org/android)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
+        - [:simple-windows11: Windows](https://cryptomator.org/downloads)
+        - [:simple-apple: macOS](https://cryptomator.org/downloads)
+        - [:simple-linux: Linux](https://cryptomator.org/downloads)
+        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
+        - [:simple-android: Android](https://cryptomator.org/android)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
 
 Cryptomator uses AES-256 encryption to encrypt both files and filenames. Cryptomator cannot encrypt metadata such as access, modification, and creation timestamps, nor the number and size of files and folders.
 
@@ -52,9 +52,9 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
-        - [:fontawesome-brands-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
-        - [:fontawesome-brands-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
+        - [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
+        - [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
+        - [:simple-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
 
 ### VeraCrypt (Disk)
 
@@ -72,9 +72,9 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://www.veracrypt.fr/en/Downloads.html)
-        - [:fontawesome-brands-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
-        - [:fontawesome-brands-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
+        - [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
+        - [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
+        - [:simple-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
 
 VeraCrypt is a fork of the discontinued TrueCrypt project. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed.
 
@@ -221,9 +221,9 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://www.kryptor.co.uk)
-        - [:fontawesome-brands-apple: macOS](https://www.kryptor.co.uk)
-        - [:fontawesome-brands-linux: Linux](https://www.kryptor.co.uk)
+        - [:simple-windows11: Windows](https://www.kryptor.co.uk)
+        - [:simple-apple: macOS](https://www.kryptor.co.uk)
+        - [:simple-linux: Linux](https://www.kryptor.co.uk)
 
 ### Tomb
 
@@ -267,10 +267,10 @@ When encrypting with PGP, you have the option to configure different options in 
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
-        - [:fontawesome-brands-apple: macOS](https://gpgtools.org)
-        - [:fontawesome-brands-linux: Linux](https://gnupg.org/download/index.html#binary)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+        - [:simple-windows11: Windows](https://gpg4win.org/download.html)
+        - [:simple-apple: macOS](https://gpgtools.org)
+        - [:simple-linux: Linux](https://gnupg.org/download/index.html#binary)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 
 ### GPG4win
 
@@ -288,7 +288,7 @@ When encrypting with PGP, you have the option to configure different options in 
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
+        - [:simple-windows11: Windows](https://gpg4win.org/download.html)
 
 ### GPG Suite
 
@@ -311,7 +311,7 @@ When encrypting with PGP, you have the option to configure different options in 
 
     ??? downloads
 
-        - [:fontawesome-brands-apple: macOS](https://gpgtools.org)
+        - [:simple-apple: macOS](https://gpgtools.org)
 
 ### OpenKeychain
 
@@ -329,5 +329,5 @@ When encrypting with PGP, you have the option to configure different options in 
 
     ??? downloads
 
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/packages/org.sufficientlysecure.keychain/)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+        - [:simple-fdroid: F-Droid](https://f-droid.org/packages/org.sufficientlysecure.keychain/)
