@@ -10,7 +10,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 
 !!! warning
 
-    When using E2EE technology like OpenPGP, email will still have some metadata that is not encrypted in the header of the email. Read more about email metadata.
+    When using E2EE technology like OpenPGP, email will still have some metadata that is not encrypted in the header of the email. Read more about [email metadata](basics/email-security.md#email-metadata-overview).
 
     OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](email.md#how-do-i-protect-my-private-keys)
 
