@@ -128,7 +128,7 @@ Select **About** > **Name**
 
 Enter the device name you prefer.
 
-It is important to install **Software Updates** frequently to get the latest security fixes. You can enable **Automatic Updates** to keep you phone up-to-date without needing to constantly check for updates.
+It is important to install **Software Updates** frequently to get the latest security fixes. You can enable **Automatic Updates** to keep your phone up-to-date without needing to constantly check for updates.
 
 Select **Software Update** > **Automatic Updates**
 
