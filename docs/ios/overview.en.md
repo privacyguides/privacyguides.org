@@ -263,7 +263,7 @@ If you use iCloud, we also recommend checking to ensure Safari's default downloa
 
 ### E2EE Calls
 
-Normal phone calls made with the Phone app are not e2ee. For e2ee audio and video calls, you can use Facetime or another app like Signal.
+Normal phone calls made with the Phone app are not E2EE. For E2EE audio and video calls, you can use FaceTime or another app like Signal.
 
 Open **Contacts**
 
