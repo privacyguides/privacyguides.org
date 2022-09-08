@@ -10,7 +10,7 @@ You should consider changing these settings to improve your privacy.
 
 ### iCloud
 
-Apple uses **iCloud** to sync your settings, photos, documents, apps, etc to your other devices. Some of these are E2EE, while others are merely encrypted in transit. You can check [Apple's documentation](https://support.apple.com/en-us/HT202303) for information on which services are E2EE. If something is not E2EE, it may be possible for Apple to access it without your permission. You should disable anything you do not want backed up to **iCloud**.
+Apple uses **iCloud** to sync your settings, photos, documents, apps, etc. to your other devices. Some of these are E2EE, while others are merely encrypted in transit. You can check [Apple's documentation](https://support.apple.com/en-us/HT202303) for information on which services are E2EE. If something is not E2EE, it may be possible for Apple to access it without your permission. You should disable anything you do not want backed up to **iCloud**.
 
 !!! warning
 
