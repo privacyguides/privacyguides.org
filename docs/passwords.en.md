@@ -138,6 +138,24 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
         - [:simple-fdroid: F-Droid](https://www.f-droid.org/packages/com.kunzisoft.keepass.libre)
         - [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
 
+### Strongbox (iOS & MacOS)
+
+    !!! recommendation
+
+    ![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
+
+    **Strongbox** is an open-source password manager for iOS and MacOS that supports Keepass and Password Safe formats.
+
+    [:octicons-home-16: Homepage](){ .md-button .md-button--primary }
+    [:octicons-eye-16:](){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](){ .card-link title=Documentation}
+    [:octicons-code-16:](){ .card-link title="Source Code" }
+    [:octicons-heart-16:](){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
+
 ## Command-line
 
 These products are minimal password managers that can be used within scripting applications.
