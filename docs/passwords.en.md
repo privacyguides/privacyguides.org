@@ -144,7 +144,7 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
     ![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
 
-    **Strongbox** is an open-source password manager for iOS and macOS that supports Keepass and Password Safe formats. It offers a [premium version](https://strongboxsafe.com/pricing/) with more features such as TouchID and FaceID unlocking.
+    **Strongbox** is an open-source password manager for iOS and macOS that supports KeePass and Password Safe formats. It offers a [premium version](https://strongboxsafe.com/pricing/) with more features such as TouchID and FaceID unlocking.
 
     [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Privacy Policy" }
@@ -154,7 +154,7 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
     ??? downloads
 
-        - [:simple-apple: macOS & iOS](https://apps.apple.com/us/app/strongbox-keepass-pwsafe/id897283731)
+        - [:simple-apple: iOS](https://apps.apple.com/us/app/strongbox-keepass-pwsafe/id897283731)
 
 There is also an offline-only version available called [Strongbox Zero](https://apps.apple.com/us/app/strongbox-keepass-pwsafe/id1581589638) if you don't need syncing; this version is stripped down so it has less attack surface.
 
