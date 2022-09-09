@@ -6,7 +6,7 @@ Password managers allow you to securely store and manage passwords and other cre
 
 [Introduction to Passwords :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 
-## Cloud Sync
+## Cloud-based
 
 These password managers sync your passwords to a cloud server for easy accessibility from all your devices and safety against device loss.
 
