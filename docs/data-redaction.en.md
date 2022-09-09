@@ -98,7 +98,7 @@ The app offers multiple ways to erase metadata from images. Namely:
 
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
 
-### PrivacyBlur (Android)
+### PrivacyBlur
 
 !!! recommendation
 
@@ -115,6 +115,7 @@ The app offers multiple ways to erase metadata from images. Namely:
 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
         - [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/de.mathema.privacyblur/)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
 
 !!! warning
 
