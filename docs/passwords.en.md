@@ -140,7 +140,7 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 ### Strongbox (iOS & MacOS)
 
-    !!! recommendation
+!!! recommendation
 
     ![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
 
