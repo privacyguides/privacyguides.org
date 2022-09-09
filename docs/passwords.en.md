@@ -144,7 +144,7 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
     ![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
 
-    **Strongbox** is an open-source password manager for iOS and MacOS that supports Keepass and Password Safe formats.
+    **Strongbox** is an open-source password manager for iOS and macOS that supports Keepass and Password Safe formats.
 
     [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Privacy Policy" }
