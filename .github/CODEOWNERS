@@ -6,6 +6,8 @@
 
 # Org
 /docs/about/ @jonaharagon
+CODE_OF_CONDUCT.md @jonaharagon
+CITATION.cff
 LICENSE @jonaharagon
 README.md @jonaharagon @dngray
 

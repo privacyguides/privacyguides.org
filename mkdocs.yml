@@ -175,6 +175,7 @@ nav:
       - 'video-streaming.md'
   - 'About':
     - 'about.md'
+    - 'coc.md'
     - 'about/donate.md'
     - 'Online Services': 'https://privacyguides.net'
     - 'Website Statistics': 'https://stats.privacyguides.net/privacyguides.org'
