@@ -80,7 +80,7 @@ On the network you are currently connected to, press the :material-information: 
 
 ### General
 
-Your iPhone's device name will by default contain your Apple ID. You should change this to something more generic, like "iPhone."
+Your iPhone's device name will by default contain your Apple ID, and this will be visible on networks you connect to. You should change this to something more generic, like "iPhone."
 
 Select **About** > **Name**
 
@@ -141,6 +141,10 @@ Follow the onscreen prompts to set up Touch ID.
 - [ ] Turn off **USB Accessories**
 
 You can set your phone to wipe itself after 10 failed passcode attempts, keeping you safe from brute-force attacks; however, your phone will already resist these by making you wait long periods of time after multiple failed attempts.
+
+!!! warning
+
+    With this setting enabled, someone could intentially wipe your phone by entering the wrong password many times. Make sure you have proper backups and only enable this setting if it fits your threat model.
 
 - [x] Turn on **Erase Data**
 
