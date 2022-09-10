@@ -16,19 +16,7 @@ Apple uses **iCloud** to sync your settings, photos, documents, apps, etc. to yo
 
     Enabling iCloud Backup stores a key for your iMessage messages in iCloud. If you do not wish to store a copy of your iMessage keys, disable iCloud Backup.
 
-On the top of the page, there will be an option with your name on it. Select it, then
-
-Select **Photos**
-
-- [ ] Turn off **iCloud Photos**
-
-Select **iCloud Backup**
-
-- [ ] Turn off **iCloud Backup**
-
-Select **Keychain**
-
-- [ ] Turn off **iCloud Keychain**
+On the top of the page, there will be an option with your name on it. Select it, then turn off the switch for services you don't want to sync with iCloud. The apps you see here might vary depending on which apps you have installed that support iCloud, so we won't list them. Instead, here are some highlights:
 
 **Private Relay** is a proxy service that relays your Safari traffic through two servers: one owned by Apple and one owned by Cloudflare. You must purchase [**iCloud+**](https://support.apple.com/en-us/HT201318) to utilize this feature.
 
@@ -43,36 +31,6 @@ Select **IP Address Location**
 - [x] Select **Use country and time zone**
 
 **Hide My Email** is Apple's email aliasing service for iCloud mail. You must purchase [**iCloud+**](https://support.apple.com/en-us/HT201318) to utilize this feature.
-
-- [ ] Turn off **iCloud Drive**
-
-- [ ] Turn off **Contacts**
-
-- [ ] Turn off **Calendars**
-
-- [ ] Turn off **Reminders**
-
-- [ ] Turn off **Notes**
-
-- [ ] Turn off **Messages**
-
-- [ ] Turn off **Safari**
-
-- [ ] Turn off **Stocks**
-
-- [ ] Turn off **Home**
-
-- [ ] Turn off **Health**
-
-- [ ] Turn off **Fitness+**
-
-- [ ] Turn off **Wallet**
-
-- [ ] Turn off **Game Center**
-
-- [ ] Turn of **Siri**
-
-The apps you see here might vary depending on which apps you have installed that support iCloud.
 
 ### Media & Purchases
 
