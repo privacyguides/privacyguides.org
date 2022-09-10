@@ -9,10 +9,6 @@
 
   <p><em>Your central privacy and security resource to protect yourself online.</em></p>
 
-  <a href="https://opencollective.com/privacyguides">
-    <img src="https://img.shields.io/opencollective/all/privacyguides">
-  </a></p>
-
   <p><a href="https://www.reddit.com/r/PrivacyGuides/">
     <img src="https://img.shields.io/reddit/subreddit-subscribers/PrivacyGuides?label=Subscribe%20to%20r%2FPrivacyGuides&style=social">
   </a>
@@ -37,6 +33,9 @@
   </a>
   <a href="https://github.com/privacyguides/privacyguides.org/pulls?q=is%3Apr+is%3Aclosed">
     <img src="https://img.shields.io/github/issues-pr-closed-raw/privacyguides/privacyguides.org">
+  </a>
+  <a href="https://opencollective.com/privacyguides">
+    <img src="https://img.shields.io/opencollective/all/privacyguides">
   </a>
   <a href="https://crowdin.com/project/privacyguides">
     <img src="https://badges.crowdin.net/privacyguides/localized.svg">
