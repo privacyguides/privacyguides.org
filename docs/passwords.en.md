@@ -154,7 +154,7 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
     ??? downloads
 
-        - [:simple-apple: macOS](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
+        - [:simple-apple: Mac App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
         - [:simple-appstore: iOS](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
 
 There is also an offline-only version available called [Strongbox Zero](https://apps.apple.com/us/app/strongbox-keepass-pwsafe/id1581589638) if you don't need syncing; this version is stripped down so it has less attack surface.
