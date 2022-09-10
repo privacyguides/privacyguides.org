@@ -237,4 +237,16 @@ Under FaceTime, there is a camera icon and a phone handset icon. Select the came
 
 Jailbreaking an iPhone defeats its security and makes you vulnerable. Running untrusted, third-party software could cause your device to be infected with malware.
 
+### Encrypted iMessage
+
+The color of the message bubble in iMessage indicates whether your messages are E2EE or not. A blue bubble indicates that your messages are using E2EE, while a green bubble indicates they are using the outdated SMS and MMS protocols. Currently, the only way to get E2EE in iMessage is for both parties to be using Apple devices.
+
+If either you or your messaging partner have iCloud backup enabled, the encryption key will be stored on Apple's servers, meaning they can access your messages. Disabling this setting will mean that Apple won't be able to access your messages.
+
+### Password or TouchID/FaceID?
+
+Whether you choose to use TouchID/FaceID or just a regular password on your phone will be determined by your threatmodel. If you are worried about people accessing your phone without your knowledge who might use your fingerprint/face to unlock your phone, such as a roommate or a partner, then you should only use a regular password.
+
+If you are worried about people looking over your shoulder and seeing your password when you enter it, then you should use TouchID/FaceID.
+
 --8<-- "includes/abbreviations.en.md"
