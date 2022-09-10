@@ -237,8 +237,6 @@ Under FaceTime, there is a camera icon and a phone handset icon. Select the came
 
 Jailbreaking an iPhone defeats its security and makes you vulnerable. Running untrusted, third-party software could cause your device to be infected with malware.
 
-### SIM PIN
-
 ### Spam Blocking
 
 --8<-- "includes/abbreviations.en.md"
