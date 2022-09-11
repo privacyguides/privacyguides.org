@@ -144,7 +144,7 @@ You can set your phone to wipe itself after 10 failed passcode attempts, keeping
 
 !!! warning
 
-    With this setting enabled, someone could intentially wipe your phone by entering the wrong password many times. Make sure you have proper backups and only enable this setting if it fits your threat model.
+    With this setting enabled, someone could intentionally wipe your phone by entering the wrong password many times. Make sure you have proper backups and only enable this setting if it fits your threat model.
 
 - [x] Turn on **Erase Data**
 
