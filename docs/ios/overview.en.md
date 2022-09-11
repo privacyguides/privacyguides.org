@@ -243,7 +243,7 @@ The color of the message bubble in iMessage indicates whether your messages are 
 
 If either you or your messaging partner have iCloud backup enabled, the encryption key will be stored on Apple's servers, meaning they can access your messages. Disabling this setting will mean that Apple won't be able to access your messages.
 
-### Password or TouchID/FaceID?
+### Password or Touch ID/Face ID?
 
 Whether you choose to use TouchID/FaceID or just a regular password on your phone will be determined by your threat model. If you are worried about people accessing your phone without your knowledge who might use your fingerprint/face to unlock your phone, such as a roommate or a partner, then you should only use a regular password.
 
