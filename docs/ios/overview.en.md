@@ -245,7 +245,7 @@ If either you or your messaging partner have iCloud backup enabled, the encrypti
 
 ### Password or Touch ID/Face ID?
 
-Whether you choose to use TouchID/FaceID or just a regular password on your phone will be determined by your threat model. If you are worried about people accessing your phone without your knowledge who might use your fingerprint/face to unlock your phone, such as a roommate or a partner, then you should only use a regular password.
+Whether you choose to use Touch ID/Face ID or just a regular password on your phone will be determined by your threatmodel. If you are worried about people accessing your phone without your knowledge who might use your fingerprint/face to unlock your phone, such as a roommate or a partner, then you should only use a regular password.
 
 If you are worried about people looking over your shoulder and seeing your password when you enter it, then you should use TouchID/FaceID.
 
