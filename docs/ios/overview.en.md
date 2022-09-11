@@ -255,6 +255,6 @@ Airplane mode will disable your phone's cellular modem, so it will not be able t
 
 ### Blacking Out Faces/Information
 
-If you need to hide information in a photon, you can use Apple's built-in tools to do so. Open the photo you want to edit, press edit at the top right corner of the screen, then press the markup symbol at the top right. Press the plus at the bottom right of the screen, then press the rectangle icon. Now you can place a rectangle anywhere on the image. Make sure to press the shape icon at the bottom left and select the filled-in rectangle.
+If you need to hide information in a photo, you can use Apple's built-in tools to do so. Open the photo you want to edit, press edit at the top right corner of the screen, then press the markup symbol at the top right. Press the plus at the bottom right of the screen, then press the rectangle icon. Now you can place a rectangle anywhere on the image. Make sure to press the shape icon at the bottom left and select the filled-in rectangle.
 
 --8<-- "includes/abbreviations.en.md"
