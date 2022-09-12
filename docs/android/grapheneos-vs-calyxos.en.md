@@ -51,7 +51,7 @@ Android 12 comes with special support for seamless app updates with [third-party
 
 CalyxOS includes the [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged), which may lower device security and is not opt-in, which means that you're potentially lowering your device's security even if you don't want to use F-droid.
 
-On the other hand, GrapheneOS officially recommends [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play) instead. Many FOSS Android apps are also in Google Play but sometimes they are not (like [NewPipe](../video-streaming.md)). In those cases, you can [keep up with updates using RSS](../android.md#manually-with-rss-notifications).
+On the other hand, GrapheneOS officially recommends [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play) instead. Many FOSS Android apps are also in Google Play but sometimes they are not (like [NewPipe](../video-streaming.md#newpipe)). In those cases, you can [keep up with updates using RSS](../android.md#manually-with-rss-notifications).
 
 ## Additional Hardening
 
