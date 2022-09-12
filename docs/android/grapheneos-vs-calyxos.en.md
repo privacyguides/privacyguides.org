@@ -5,11 +5,9 @@ icon: 'material/cellphone-cog'
 
 GrapheneOS and CalyxOS are commonly compared as similar options for people looking for an alternative Android OS for their Pixel devices. Below are some of the reasons why we recommend GrapheneOS over CalyxOS.
 
-## Profiles
+## Update Frequency
 
-CalyxOS includes a device controller app so there is no need to install a third-party app like Shelter.
-
-GrapheneOS extends the user profile feature, allowing you to end a current session. To do this, select *End Session* which will clear the encryption key from memory. GrapheneOS also provides [cross-profile notification forwarding](https://grapheneos.org/features#notification-forwarding). GrapheneOS plans to introduce nested profile support with better isolation in the future.
+Historically, CalyxOS has been a lot slower to update than GrapheneOS. This includes not only regular security updates, but updates to major Android versions as well. Security updates are arguably the most important things when it comes to considering an operating system secure, and therefore private.
 
 ## Sandboxed Google Play vs Privileged microG
 
@@ -31,6 +29,14 @@ Larger apps, especially games, require Play Delivery to be installed, which is c
 
 [^1]: It should be noted that microG still uses proprietary Google binaries for some of its components such as DroidGuard. Push notifications, if enabled, still go through Google's servers just like with Play Services. Outside of default microG setups like on CalyxOS, it is possible to run microG in the unprivileged [`untrusted app`](https://source.android.com/security/selinux/concepts) SELinux domain and without the signature spoofing patch. However, microG's functionality and compatibility, which is already not nearly as broad as Sandboxed Play Services, will greatly diminish.
 
+## Profiles
+
+GrapheneOS significantly improves [user profiles](overview.md#user-profiles) in [multiple ways](https://grapheneos.org/features#improved-user-profiles), such as increasing the limit of how many profiles you can create (16 instead of the standard 4), allowing you to log out of user profiles, disabling app installation and notification forwarding.
+
+All of these improvements make it so user profiles can be daily driven without sacrificng too much usability.
+
+CalyxOS includes a device controller app so there is no need to install a third-party app like Shelter, however [work profiles](overview.md/#work-profile) are not nearly as flexible (as you're limited to only one) and don't provide the same amount of isolation and security.
+
 ## Privileged eSIM Activation Application
 
 Currently, eSIM activation is tied to a privileged proprietary application by Google. The app has the `READ_PRIVILEGED_PHONE_STATE` permission, giving Google access to your hardware identifiers such as the IMEI.
@@ -43,9 +49,9 @@ On CalyxOS, the app comes installed by default (regardless of whether you choose
 
 Android 12 comes with special support for seamless app updates with [third-party app stores](https://android-developers.googleblog.com/2020/09/listening-to-developer-feedback-to.html). The popular Free and Open-Source Software (FOSS) repository [F-Droid](https://f-droid.org) doesn't implement this feature and requires a [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged) to be included with the Android distribution in order to have unattended app installation.
 
-GrapheneOS does not include F-Droid, because all updates have to be manually installed, which poses a security risk. However, you can use the [Neo Store](../android.md#neo-store) client for F-Droid which does support seamless (background) app updates in Android 12. GrapheneOS officially recommends [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play) instead. Many FOSS Android apps are also in Google Play but sometimes they are not (like [NewPipe](../video-streaming.md)).
+CalyxOS includes the [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged), which may lower device security and is not opt-in, which means that you're potentially lowering your device's security even if you don't want to use F-droid.
 
-CalyxOS includes the [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged), which may lower device security. Seamless app updates should be possible with [Aurora Store](https://auroraoss.com) in Android 12.
+On the other hand, GrapheneOS officially recommends [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play) instead. Many FOSS Android apps are also in Google Play but sometimes they are not (like [NewPipe](../video-streaming.md)). In those cases, you can [keep up with updates using RSS](../android.md#manually-with-rss-notifications).
 
 ## Additional Hardening
 
