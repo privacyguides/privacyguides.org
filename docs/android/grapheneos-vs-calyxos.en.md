@@ -31,25 +31,23 @@ Larger apps, especially games, require Play Delivery to be installed, which is c
 
 ## Profiles
 
-GrapheneOS significantly improves [user profiles](overview.md#user-profiles) in [multiple ways](https://grapheneos.org/features#improved-user-profiles), such as increasing the limit of how many profiles you can create (16 instead of the standard 4), allowing you to log out of user profiles, disabling app installation and notification forwarding.
+GrapheneOS significantly improves [user profiles](overview.md#user-profiles) in [multiple ways](https://grapheneos.org/features#improved-user-profiles), such as increasing the limit of how many profiles you can create (16 instead of the standard 4), allowing you to log out of user profiles, disabling app installation and notification forwarding. All of these improvements make it so user profiles can be daily driven without sacrificng too much usability.
 
-All of these improvements make it so user profiles can be daily driven without sacrificng too much usability.
-
-CalyxOS includes a device controller app so there is no need to install a third-party app like Shelter, however [work profiles](overview.md/#work-profile) are not nearly as flexible (as you're limited to only one) and don't provide the same amount of isolation and security.
+CalyxOS doesn't feature any improvements to user profiles over AOSP, and instead includes a device controller app so that the [work profile](overview.md#work-profile) can be used. However, work profiles are not nearly as flexible (as you're limited to only one) and don't provide the same amount of isolation and security.
 
 ## Privileged eSIM Activation Application
 
 Currently, eSIM activation is tied to a privileged proprietary application by Google. The app has the `READ_PRIVILEGED_PHONE_STATE` permission, giving Google access to your hardware identifiers such as the IMEI.
 
-On GrapheneOS, the app comes disabled and can be *optionally* enabled by the user after they have installed Sandboxed Play Services.
+On GrapheneOS, the app comes disabled and you can *optionally* enable it after installing Sandboxed Google Play.
 
-On CalyxOS, the app comes installed by default (regardless of whether you choose to have microG or not) and cannot be opted out. This means Google still has access to your hardware identifiers regardless of whether or not you need eSIM activation and can be accessed persistently.
+On CalyxOS, the app comes installed by default (regardless of whether you choose to have microG or not) and cannot be opted out. This means that Google still has access to your hardware identifiers regardless of whether or not you need eSIM activation and can be accessed persistently.
 
 ## Privileged App Extensions
 
 Android 12 comes with special support for seamless app updates with [third-party app stores](https://android-developers.googleblog.com/2020/09/listening-to-developer-feedback-to.html). The popular Free and Open-Source Software (FOSS) repository [F-Droid](https://f-droid.org) doesn't implement this feature and requires a [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged) to be included with the Android distribution in order to have unattended app installation.
 
-CalyxOS includes the [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged), which may lower device security and is not opt-in, which means that you're potentially lowering your device's security even if you don't want to use F-droid.
+CalyxOS includes the [privileged extension](https://f-droid.org/en/packages/org.fdroid.fdroid.privileged), which may lower device security.
 
 On the other hand, GrapheneOS officially recommends [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play) instead. Many FOSS Android apps are also in Google Play but sometimes they are not (like [NewPipe](../video-streaming.md#newpipe)). In those cases, you can [keep up with updates using RSS](../android.md#manually-with-rss-notifications).
 
