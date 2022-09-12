@@ -3,11 +3,15 @@ title: "Why we recommend GrapheneOS over CalyxOS"
 icon: 'material/cellphone-cog'
 ---
 
-GrapheneOS and CalyxOS are commonly compared as similar options for people looking for an alternative Android OS for their Pixel devices. Below are some of the reasons why we recommend GrapheneOS over CalyxOS.
+GrapheneOS and CalyxOS are often compared as similar options for people looking for an alternative Android OS for their Pixel devices. Below are some of the reasons why we recommend GrapheneOS over CalyxOS.
 
 ## Update Frequency
 
-Historically, CalyxOS has been a lot slower to update than GrapheneOS. This includes not only regular security updates, but updates to major Android versions as well. Security updates are arguably the most important things when it comes to considering an operating system secure, and therefore private.
+CalyxOS has a track record of being slower to apply security and feature updates to its OS and core applications than other custom Android operating systems. Timely security updates are one of the most important factors to consider when determining whether an OS is secure enough for regular use, which is a requirement for privacy.
+
+In contrast to that, GrapheneOS manages to stay close to upstream and in some cases even [deliver updates even before the stock OS does](https://grapheneos.org/features#more-complete-patching).
+
+As an example, [GrapheneOS's first Android 12 release](https://grapheneos.org/releases#2021102020) was in October 2021, whereas [CalyxOS moved to Android 12](https://calyxos.org/news/2022/01/19/android-12-changelog/) in January 2022.
 
 ## Sandboxed Google Play vs Privileged microG
 
