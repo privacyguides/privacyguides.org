@@ -21,7 +21,7 @@ Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org/) if your thr
     We recommend you disable [Anonymous usage metrics](https://search.brave.com/help/usage-metrics) as it is enabled by default and can be disabled within settings.
 
     [:octicons-home-16: Homepage](https://search.brave.com/){ .md-button .md-button--primary }
-    [:simple-torproject:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title=Onion }
+    [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
     [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
 
@@ -38,7 +38,7 @@ Brave Search is based in the United States. Their [privacy policy](https://searc
     DuckDuckGo is the default search engine for the Tor Browser and is one of the few available options on Apple’s Safari browser.
 
     [:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
-    [:simple-torproject:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title=Onion }
+    [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
     [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=Documentation}
 
@@ -71,7 +71,7 @@ When you are using a SearXNG instance, be sure to go read their privacy policy. 
     ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
     ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
 
-    **Startpage** is a private search engine known for serving Google search results.  One of Startpage's unique features is the [Anonymous View](https://www.startpage.com/en/anonymous-view/), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the [Tor Browser](desktop-browsers.md#tor-browser) instead.
+    **Startpage** is a private search engine known for serving Google search results.  One of Startpage's unique features is the [Anonymous View](https://www.startpage.com/en/anonymous-view/), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the [Tor Browser](tor.md#tor-browser) instead.
 
     [:octicons-home-16: Homepage](https://www.startpage.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }

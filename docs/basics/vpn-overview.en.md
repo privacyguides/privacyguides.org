@@ -50,18 +50,17 @@ Thus, this feature should be viewed as a convenient way to access the Tor Networ
 A VPN may still be useful to you in a variety of scenarios, such as:
 
 1. Hiding your traffic from **only** your Internet Service Provider.
-2. Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.
-3. Hiding your IP from third-party websites and services, preventing IP based tracking.
+1. Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.
+1. Hiding your IP from third-party websites and services, preventing IP based tracking.
 
 For use cases like these, or if you have another compelling reason, the VPN providers we listed above are who we think are the most trustworthy. However, using a VPN provider still means you're *trusting* the provider. In pretty much any other scenario you should be using a secure**-by-design** tool such as Tor.
 
 ## Sources and Further Reading
 
 1. [VPN - a Very Precarious Narrative](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
-2. [The self-contained networks](../self-contained-networks.md) recommended by Privacy Guides are able to replace a VPN that allows access to services on local area network
-3. [Tor Network Overview](tor-overview.md) by blacklight447
-4. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
-5. ["Do I need a VPN?"](https://www.doineedavpn.com), a tool developed by IVPN to challenge aggressive VPN marketing by helping individuals decide if a VPN is right for them.
+1. [Tor Network Overview](tor-overview.md) by blacklight447
+1. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
+1. ["Do I need a VPN?"](https://www.doineedavpn.com), a tool developed by IVPN to challenge aggressive VPN marketing by helping individuals decide if a VPN is right for them.
 
 ## Related VPN Information
 

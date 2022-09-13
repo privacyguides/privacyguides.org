@@ -145,7 +145,8 @@ nav:
       - 'advanced/signal-configuration-hardening.md'
   - 'Recommendations':
     - 'tools.md'
-    - 'Browsers':
+    - 'Internet Browsing':
+      - 'tor.md'
       - 'desktop-browsers.md'
       - 'mobile-browsers.md'
     - 'Operating Systems':
@@ -171,7 +172,6 @@ nav:
       - 'passwords.md'
       - 'productivity.md'
       - 'real-time-communication.md'
-      - 'self-contained-networks.md'
       - 'video-streaming.md'
   - 'About':
     - 'about.md'

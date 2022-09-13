@@ -204,7 +204,7 @@ P2P networks do not use servers, as peers communicate directly between each othe
 - Messages can only be sent when both peers are online, however, your client may store messages locally to wait for the contact to return online.
 - Generally increases battery usage on mobile devices, because the client must stay connected to the distributed network to learn about who is online.
 - Some common messenger features may not be implemented or incompletely, such as message deletion.
-- Your IP address and that of the contacts you're communicating with may be exposed if you do not use the software in conjunction with a [VPN](vpn.md) or [self-contained network](self-contained-networks.md), such as [Tor](https://www.torproject.org) or [I2P](https://geti2p.net/). Many countries have some form of mass surveillance and/or metadata retention.
+- Your IP address and that of the contacts you're communicating with may be exposed if you do not use the software in conjunction with a [VPN](vpn.md) or [Tor](tor.md). Many countries have some form of mass surveillance and/or metadata retention.
 
 ### Anonymous Routing
 

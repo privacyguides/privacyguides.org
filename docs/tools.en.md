@@ -11,11 +11,23 @@ If you want assistance figuring out the best privacy tools and alternative progr
 
 For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
 
+## Tor Network
+
+<div class="grid cards annotate" markdown>
+
+- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](tor.md#tor-browser)
+- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
+- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](tor.md#snowflake) (1)
+
+</div>
+
+1. Snowflake does not increase privacy, however it allows you to easily contribute to the Tor network and help people in censored networks achieve better privacy.
+
+[Learn more :material-arrow-right-drop-circle:](tor.md)
 ## Desktop Web Browsers
 
 <div class="grid cards" markdown>
 
-- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](desktop-browsers.md#tor-browser)
 - ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } [Firefox](desktop-browsers.md#firefox)
 - ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave](desktop-browsers.md#brave)
 
@@ -25,14 +37,11 @@ For more details about each project, why they were chosen, and additional tips o
 
 ### Additional Resources
 
-<div class="grid cards annotate" markdown>
+<div class="grid cards" markdown>
 
 - ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
-- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](desktop-browsers.md#snowflake) (1)
 
 </div>
-
-1. Snowflake does not increase privacy, however it allows you to easily contribute to the Tor network and help people in censored networks achieve better privacy.
 
 [Learn more :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
 
@@ -40,7 +49,6 @@ For more details about each project, why they were chosen, and additional tips o
 
 <div class="grid cards" markdown>
 
-- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser (Android)](mobile-browsers.md#tor-browser)
 - ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Android)](mobile-browsers.md#brave)
 - ![Safari logo](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](mobile-browsers.md#safari)
 
@@ -406,19 +414,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 </div>
 
 [Learn more :material-arrow-right-drop-circle:](news-aggregators.md)
-
-### Self-Contained Networks
-
-<div class="grid cards" markdown>
-
-- ![Freenet logo](./assets/img/self-contained-networks/freenet.svg){ .twemoji } [Freenet](self-contained-networks.md#freenet)
-- ![I2P logo](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji } ![I2P logo](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji } [I2P](self-contained-networks.md#invisible-internet-project)
-- ![Tor logo](./assets/img/self-contained-networks/tor.svg){ .twemoji } [Tor](self-contained-networks.md#tor)
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Smartphone Tor Proxy)](self-contained-networks.md#orbot)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](self-contained-networks.md)
 
 ### Video Streaming Clients
 

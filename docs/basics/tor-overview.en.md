@@ -70,7 +70,7 @@ Though Tor does provide strong privacy guarantees, one must be aware that Tor is
 
 If you wish to use Tor for browsing the web, we only recommend the **official** Tor Browser—it is designed to prevent fingerprinting.
 
-- [Browsers: Tor Browser :material-arrow-right-drop-circle:](../desktop-browsers.md#tor-browser)
+- [Tor Browser :material-arrow-right-drop-circle:](../tor.md#tor-browser)
 
 ## Additional Resources
 

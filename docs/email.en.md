@@ -31,7 +31,7 @@ For everything else, we recommend a variety of email providers based on sustaina
     **Free**
 
     [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-    [:simple-torproject:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title=Onion }
+    [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }

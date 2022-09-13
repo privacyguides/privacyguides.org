@@ -1,6 +1,6 @@
 ---
 title: "News Aggregators"
-icon: octicons/rss-24
+icon: material/rss
 ---
 
 A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to keep up with your favourite blogs and news sites.
@@ -48,7 +48,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ align=right }
 
-    **Fluent Reader** is a secure cross-platform news aggregator that has useful privacy features such as deletion of cookies on exit, strict [content security policies (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) and proxy support, meaning you can use it over [Tor](self-contained-networks.md#tor).
+    **Fluent Reader** is a secure cross-platform news aggregator that has useful privacy features such as deletion of cookies on exit, strict [content security policies (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) and proxy support, meaning you can use it over [Tor](tor.md).
 
     [:octicons-home-16: Homepage](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Privacy Policy" }

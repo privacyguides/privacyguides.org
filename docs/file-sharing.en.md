@@ -15,7 +15,7 @@ Discover how to privately share your files between your devices, with your frien
     **OnionShare** is an open-source tool that lets you securely and anonymously share a file of any size. It works by starting a web server accessible as a Tor onion service, with an unguessable URL that you can share with the recipients to download or send files.
 
     [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
-    [:simple-torproject:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title=Onion }
+    [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
     [:octicons-info-16:](https://docs.onionshare.org/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
 

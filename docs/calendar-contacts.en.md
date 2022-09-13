@@ -1,6 +1,6 @@
 ---
 title: "Calendar and Contact Sync"
-icon: material/calendar
+icon: material/calendar-account
 ---
 Calendars and contacts contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
 

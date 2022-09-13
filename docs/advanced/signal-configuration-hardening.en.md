@@ -244,7 +244,7 @@ To supplement the database encryption feature, Molly securely wipes your device'
 
 While Molly is running, your data is kept in RAM. When any app closes, its data remains in RAM until another app takes the same physical memory pages. That can take seconds or days, depending on many factors. To prevent anyone from dumping the RAM to disk and extracting your data after Molly is locked, the app overrides all free RAM memory with random data when you lock the database.
 
-There is also the ability to configure a SOCKS proxy in Molly to route its traffic through the proxy or Tor (via [Orbot](../self-contained-networks.md#orbot)). When enabled, all traffic is routed through the proxy and there are no known IP or DNS leaks. When using this feature, [call relaying](#call-relaying) will always be enabled, regardless of the setting.
+There is also the ability to configure a SOCKS proxy in Molly to route its traffic through the proxy or [Tor via Orbot](../tor.md#orbot). When enabled, all traffic is routed through the proxy and there are no known IP or DNS leaks. When using this feature, [call relaying](#call-relaying) will always be enabled, regardless of the setting.
 
 Signal adds everyone who you have communicated with to its database. Molly allows you to delete those contacts and stop sharing your profile with them.
 
