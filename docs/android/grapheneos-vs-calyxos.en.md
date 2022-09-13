@@ -9,7 +9,7 @@ GrapheneOS and CalyxOS are often compared as similar options for people looking 
 
 CalyxOS has a track record of being slower to apply security and feature updates to its OS and core applications than other custom Android operating systems. Timely security updates are one of the most important factors to consider when determining whether an OS is secure enough for regular use, which is a requirement for privacy.
 
-In contrast to that, GrapheneOS manages to stay close to upstream and in some cases even [deliver updates even before the stock OS does](https://grapheneos.org/features#more-complete-patching).
+In contrast to that, GrapheneOS manages to stay close to upstream and in some cases even [deliver updates before the stock OS does](https://grapheneos.org/features#more-complete-patching).
 
 As an example, [GrapheneOS's first Android 12 release](https://grapheneos.org/releases#2021102020) was in October 2021, whereas [CalyxOS moved to Android 12](https://calyxos.org/news/2022/01/19/android-12-changelog/) in January 2022.
 
@@ -51,7 +51,7 @@ On the other hand, GrapheneOS officially recommends [Sandboxed Google Play](http
 
 ## Profiles
 
-GrapheneOS significantly improves [user profiles](overview.md#user-profiles) in [multiple ways](https://grapheneos.org/features#improved-user-profiles), such as increasing the limit of how many profiles you can create (16 instead of the standard 4), allowing you to log out of user profiles, disabling app installation, and notification forwarding. All of these improvements make it so user profiles can be daily driven without sacrificng too much usability.
+GrapheneOS significantly improves [user profiles](overview.md#user-profiles) in [multiple ways](https://grapheneos.org/features#improved-user-profiles), such as increasing the limit of how many profiles you can create (32 instead of the standard 4), allowing you to log out of user profiles, disabling app installation, and notification forwarding. All of these improvements make it so user profiles can be daily driven without sacrificng too much usability.
 
 CalyxOS doesn't feature any improvements to user profiles over AOSP, and instead includes a device controller app so that the [work profile](overview.md#work-profile) can be used without needing to download a third party app such as [Shelter](../android.md#shelter). However, work profiles are not nearly as flexible (as you're limited to only one) and don't provide the same amount of isolation and security.
 
