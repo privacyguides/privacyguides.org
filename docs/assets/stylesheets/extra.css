@@ -186,7 +186,7 @@ h1, h2, h3, .md-header__topic {
 .md-typeset .recommendation > summary::before {
     display: none;
 }
-.md-typeset .recommendation img[align="right"], .md-typeset svg[align="right"] {
+img[align="right"], svg[align="right"] {
     width: 150px;
 }
 
