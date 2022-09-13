@@ -110,7 +110,7 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
     ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
 
-    **Whonix** is based on [Kicksecure](https://www.whonix.org/wiki/Kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and anonymity on the internet.
+    **Whonix** is based on [Kicksecure](https://www.whonix.org/wiki/Kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and anonymity on the internet. Whonix is best used in conjunction with [Qubes OS](qubes.md).
 
     [:octicons-home-16: Homepage](https://www.whonix.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=Documentation}
@@ -130,14 +130,14 @@ Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qube
 
     ![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
 
-    **Tails** is a live operating system based on Debian that routes all communications through Tor.
-
-    It can boot on almost any computer from a DVD, USB stick, or SD card. It aims to preserve privacy and anonymity while circumventing censorship and leaving no trace of itself on the computer it is used on.
+    **Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. It uses [Tor](tor.md) to preserve privacy and anonymity while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
 
     [:octicons-home-16: Homepage](https://tails.boum.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://tails.boum.org/doc/index.en.html){ .card-link title=Documentation}
     [:octicons-heart-16:](https://tails.boum.org/donate/){ .card-link title=Contribute }
 
-By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.boum.org/doc/first_steps/persistence/index.en.html) can be configured to store some data.
-
 Tails is great for counter forensics due to amnesia (meaning nothing is written to the disk); however, it is not a hardened distribution like Whonix. It lacks many anonymity and security features that Whonix has and gets updated much less often (only once every six weeks). A Tails system that is compromised by malware may potentially bypass the transparent proxy allowing for the user to be deanonymized.
+
+Tails also installs uBlock Origin in Tor Browser by default, which potentially makes it easier for adversaries to fingerprint Tails users, and increases the attack surface of the browser. For all of these reasons, if your only goal is to browse the internet anonymously, Tails is not as good of a choice as using [Whonix](linux-desktop.md/#whonix) with [Qubes OS](qubes.md), which is much more secure and leakproof. If your goal is to use a computer without leaving any trace afterwards, Tails may be a good solution for you.
+
+By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.boum.org/doc/first_steps/persistence/index.en.html) can be configured to store some data between reboots.
