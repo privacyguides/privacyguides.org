@@ -1,9 +1,5 @@
 INHERIT: mkdocs.yml
 plugins:
-  minify:
-    minify_html: true
-    htmlmin_opts:
-        remove_comments: true
   privacy:
     externals_exclude:
       - cdn.jsdelivr.net/npm/mathjax@3/*
