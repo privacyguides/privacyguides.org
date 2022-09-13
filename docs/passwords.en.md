@@ -138,7 +138,7 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
         - [:simple-fdroid: F-Droid](https://www.f-droid.org/packages/com.kunzisoft.keepass.libre)
         - [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
 
-### Strongbox (iOS & MacOS)
+### Strongbox (iOS & macOS)
 
 !!! recommendation
 
