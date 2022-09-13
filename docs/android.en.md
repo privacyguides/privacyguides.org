@@ -3,9 +3,17 @@ title: "Android"
 icon: 'simple/android'
 ---
 
-These are the Android operating systems, devices, and apps we recommend to maximize your mobile device's security and privacy. We also have additional Android-related information:
+![Android logo](assets/img/android/android.svg){ align=right }
 
-- [General Android Overview and Recommendations :material-arrow-right-drop-circle:](android/overview.md)
+The **Android Open Source Project** is an open-source mobile operating system led by Google which powers the majority of the world's mobile devices. Most phones sold with Android are modified to include invasive integrations and apps such as Google Play Services, so you can significantly improve your privacy on your mobile device by replacing your phone's default installation with a version of Android without these invasive features.
+
+[:octicons-home-16:](https://source.android.com/){ .card-link title=Homepage }
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/){ .card-link title="Source Code" }
+
+These are the Android operating systems, devices, and apps we recommend to maximize your mobile device's security and privacy. To learn more about Android:
+
+- [General Android Overview :material-arrow-right-drop-circle:](android/overview.md)
 - [Why we recommend GrapheneOS over CalyxOS :material-arrow-right-drop-circle:](android/grapheneos-vs-calyxos.md)
 
 ## AOSP Derivatives
