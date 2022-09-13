@@ -39,7 +39,7 @@ Currently, eSIM activation is tied to a privileged proprietary application by Go
 
 On GrapheneOS, the app comes disabled and you can *optionally* enable it after installing Sandboxed Google Play.
 
-On CalyxOS, the app comes installed by default (regardless of whether you choose to have microG or not) and cannot be opted out of. This means that Google still has access to your hardware identifiers regardless of whether or not you need eSIM activation and can be accessed persistently.
+On CalyxOS, the app comes installed by default (regardless of whether you choose to have microG or not) and you cannot opt out of it. This means that Google still has access to your hardware identifiers regardless of whether or not you need eSIM activation and they can be accessed persistently.
 
 ## Privileged App Extensions
 
