@@ -25,7 +25,7 @@ Tor works by routing your internet traffic through those volunteer-operated serv
 
 ## Connecting to Tor
 
-There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for anonymous browsing for desktop computers and Android. In addition to the apps listed below, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](linux-desktop.md/#whonix) and [Qubes](qubes.md), which provide even greater security and protections than the standard Tor Browser.
+There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for anonymous browsing for desktop computers and Android. In addition to the apps listed below, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](linux-desktop.md/#whonix) and [Tails](linux-desktop.md/#tails), which provide even greater security and protections than the standard Tor Browser.
 
 ### Tor Browser
 
