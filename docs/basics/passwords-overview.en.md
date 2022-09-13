@@ -27,7 +27,7 @@ When it comes to passwords that you don't have to remember (such as passwords st
 
 !!! Tip "Checking for data breaches"
 
-    If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach.
+    If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach. Alternatively, you could follow [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) with the help of a [news aggregator](../news-aggregators.md).
 
 
 ## Creating strong passwords
