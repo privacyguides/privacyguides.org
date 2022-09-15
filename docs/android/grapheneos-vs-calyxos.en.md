@@ -1,5 +1,5 @@
 ---
-title: "Why we recommend GrapheneOS over CalyxOS"
+title: "GrapheneOS or CalyxOS?"
 icon: 'material/cellphone-cog'
 ---
 
