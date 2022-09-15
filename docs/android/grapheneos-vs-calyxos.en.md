@@ -1,5 +1,5 @@
 ---
-title: "GrapheneOS vs. CalyxOS"
+title: "GrapheneOS or CalyxOS?"
 icon: 'material/cellphone-cog'
 ---
 
