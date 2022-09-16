@@ -155,7 +155,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 
     ![Tutanota logo](assets/img/email/tutanota.svg){ align=right }
 
-    **Tutanota.com** is an email service with a focus on security and privacy through the use of encryption. Tutanota has been in operation since **2011** and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan.
+    **Tutanota** is an email service with a focus on security and privacy through the use of encryption. Tutanota has been in operation since **2011** and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan.
 
     **Free**
 
