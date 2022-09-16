@@ -89,7 +89,7 @@ The app offers multiple ways to erase metadata from images. Namely:
 
     ![Metapho logo](assets/img/data-redaction/metapho.jpg){ align=right }
 
-    Metapho is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
+    **Metapho** is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
 
     [:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
