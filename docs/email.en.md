@@ -231,6 +231,7 @@ Using an aliasing service requires trusting both your email provider and your al
 
     [:octicons-home-16: Homepage](https://anonaddy.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribute }
 
