@@ -175,7 +175,7 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 
     ![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
 
-    NeoMutt is an open-source command line mail reader (or MUA) for Linux and BSD. It's a fork of [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) with added features.
+    **NeoMutt** is an open-source command line mail reader (or MUA) for Linux and BSD. It's a fork of [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) with added features.
 
     NeoMutt is a text-based client that has a steep learning curve. It is however, very customizable.
 
