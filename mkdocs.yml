@@ -139,10 +139,12 @@ nav:
       - 'linux-desktop/overview.md'
       - 'linux-desktop/hardening.md'
       - 'linux-desktop/sandboxing.md'
+    - 'Real-Time Communication':
+      - 'real-time-communication/communication-network-types.md'
+      - 'real-time-communication/signal-configuration-hardening.md'
     - 'Advanced':
       - 'advanced/integrating-metadata-removal.md'
       - 'advanced/erasing-data.md'
-      - 'advanced/signal-configuration-hardening.md'
   - 'Recommendations':
     - 'tools.md'
     - 'Internet Browsing':

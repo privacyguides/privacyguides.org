@@ -21,14 +21,14 @@ Additionally, your Signal PIN can also double as a registration lock that preven
 
 If you haven't set up a Signal PIN, or have previously opted out of setting one up, follow these steps on Android/iOS:
 
-- Select :material-dots-vertical: **Settings** > **Account** > **Signal PIN**
+- Select :material-dots-vertical: > **Settings** > **Account** > **Signal PIN**
 - Select **Create new PIN**
 
 Signal will prompt you to enter a PIN. We suggest using a strong alphanumeric PIN that can be stored in a [password manager](../passwords.md).
 
 Once you have done that, or if you already have set up a PIN, make sure that **Registration Lock** is also enabled.
 
-- Select :material-dots-vertical: **Settings** > **Account** > **Signal PIN**
+- Select :material-dots-vertical: > **Settings** > **Account** > **Signal PIN**
 - [x] Turn on **Registration Lock**
 
 !!! Important
@@ -75,7 +75,7 @@ It is good practice to set up disappearing messages in Signal's settings so that
 
 On Android/iOS:
 
-- Select :material-dots-vertical: **Settings** > **Privacy**
+- Select :material-dots-vertical: > **Settings** > **Privacy**
 - Under **Disappearing messages**, select **Default timer for new chats**
 - Select the desired amount of time and select **Save**
 
@@ -102,7 +102,7 @@ Your recipient doesn't make any requests unless they open the link on their end.
 
 On Android/iOS:
 
-- Select :material-dots-vertical: **Settings** > **Chats**
+- Select :material-dots-vertical: > **Settings** > **Chats**
 - [ ] Turn off **Generate link previews**
 
 ### Screen Security
@@ -111,12 +111,12 @@ Signal allows you to prevent a preview of the app being shown (i.e., in the app 
 
 On Android:
 
-- Select :material-dots-vertical: **Settings** > **Privacy**
+- Select :material-dots-vertical: > **Settings** > **Privacy**
 - [x] Turn on **Screen Security**
 
 On iOS:
 
-- Select :material-dots-vertical: **Settings** > **Privacy**
+- Select :material-dots-vertical: > **Settings** > **Privacy**
 - [x] Turn on **Hide Screen in App Switcher**
 
 ### Screen Lock
@@ -127,7 +127,7 @@ To mitigate this, you can leverage the Screen Lock option to require additional 
 
 On Android/iOS:
 
-- Select :material-dots-vertical: **Settings** > **Privacy**
+- Select :material-dots-vertical: > **Settings** > **Privacy**
 - [x] Turn on **Screen Lock**
 
 ### Notification Privacy
@@ -138,13 +138,13 @@ On Signal, you have the ability to hide message content and sender name, or just
 
 On Android:
 
-- Select :material-dots-vertical: **Settings** > **Notifications**
+- Select :material-dots-vertical: > **Settings** > **Notifications**
 - Select **Show**
 - Select **No name or message** or **Name only** respectively.
 
 On iOS:
 
-- Select :material-dots-vertical: **Settings** > **Notifications**
+- Select :material-dots-vertical: > **Settings** > **Notifications**
 - Select **Show**
 - Select **No name or Content** or **Name Only** respectively.
 
@@ -154,7 +154,7 @@ Signal allows you to relay all calls (including video calls) through the Signal 
 
 On Android/iOS:
 
-- Select :material-dots-vertical: **Settings** > **Privacy** > **Advanced**
+- Select :material-dots-vertical: > **Settings** > **Privacy** > **Advanced**
 - [x] Turn on **Always Relay Calls**
 
 For incoming calls from people who are not in your Contacts app, the call will be relayed through the Signal server regardless of how you've set it up.
@@ -175,7 +175,7 @@ Signal allows you to see your call history from your regular phone app. This all
 
 If you use iCloud and you don’t want to share call history on Signal, confirm it’s turned off:
 
-- Select :material-dots-vertical: **Settings** > **Privacy**
+- Select :material-dots-vertical: > **Settings** > **Privacy**
 - [ ] Turn off **Show Calls in Recents**
 
 ## Signal Hardening
