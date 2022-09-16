@@ -43,18 +43,8 @@ It's important for a website like Privacy Guides to always stay up-to-date. We n
 - [:simple-mastodon: Follow us on Mastodon](https://mastodon.social/@privacyguides){ rel=me }
 - [:material-book-edit: Contribute to this website](https://github.com/privacyguides/privacyguides.org)
 - [:simple-matrix: Chat with us on Matrix](https://matrix.to/#/#privacyguides:matrix.org)
-
-</div>
-<div style="padding:3em;text-align:center;" markdown>
-## About Privacy Guides
-
-**Privacy Guides** is a non-profit, socially motivated website that provides information for protecting your data security and privacy.
-
-We do not make money from recommending certain products, and we do not use affiliate links.
-<div class="grid cards" style="margin:auto;max-width:800px;text-align:center;" markdown>
-
 - [:material-information-outline: Learn More About Us](about/)
-- [:material-hand-coin-outline: Donation Info & Project Backers](about/donate/)
+- [:material-hand-coin-outline: Support the Project](about/donate/)
 
 </div>
 </div>
