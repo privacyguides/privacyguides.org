@@ -32,29 +32,19 @@ Trying to protect all your data from everyone all the time is impractical, expen
 </div>
 </div>
 
-<div style="padding-top:5em;max-width:960px;margin:auto;text-align:center;" markdown>
+<div style="padding:3em;max-width:960px;margin:auto;text-align:center;" markdown>
 ## We need you! Here's how to get involved
 
 It's important for a website like Privacy Guides to always stay up-to-date. We need our audience to keep an eye on software updates for the applications listed on our site and follow recent news about providers that we recommend. It's hard to keep up with the fast pace of the internet, but we try our best. If you spot an error, think a provider should not be listed, notice a qualified provider is missing, believe a browser plugin is no longer the best choice, or uncover any other issue, please let us know.
-</div>
+
 <div class="grid cards" style="margin:auto;max-width:800px;text-align:center;" markdown>
 
 - [:simple-reddit: Join the r/PrivacyGuides Subreddit](https://www.reddit.com/r/privacyguides)
 - [:simple-mastodon: Follow us on Mastodon](https://mastodon.social/@privacyguides){ rel=me }
 - [:material-book-edit: Contribute to this website](https://github.com/privacyguides/privacyguides.org)
 - [:simple-matrix: Chat with us on Matrix](https://matrix.to/#/#privacyguides:matrix.org)
-
-</div>
-<div style="padding:3em;text-align:center;" markdown>
-## About Privacy Guides
-
-**Privacy Guides** is a non-profit, socially motivated website that provides information for protecting your data security and privacy.
-
-We do not make money from recommending certain products, and we do not use affiliate links.
-<div class="grid cards" style="margin:auto;max-width:800px;text-align:center;" markdown>
-
-- [:material-information-outline: Learn More About Us](about/)
-- [:material-hand-coin-outline: Donation Info & Project Backers](about/donate/)
+- [:material-information-outline: Learn More About Us](about.md)
+- [:material-hand-coin-outline: Support the Project](about/donate.md)
 
 </div>
 </div>
