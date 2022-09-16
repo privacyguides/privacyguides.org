@@ -10,6 +10,8 @@
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System
 *[DoH]: DNS over HTTPS
+*[DoQ]: DNS over QUIC
+*[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
 *[E2EE]: End-to-End Encryption/Encrypted
 *[ECS]: EDNS Client Subnet
