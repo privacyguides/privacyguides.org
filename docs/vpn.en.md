@@ -218,7 +218,7 @@ We require all our recommended VPN providers to provide OpenVPN configuration fi
 - Support for strong protocols such as WireGuard & OpenVPN.
 - Killswitch built in to clients.
 - Multihop support. Multihopping is important to keep data private in case of a single node compromise.
-- If VPN clients are provided, they should be [open-source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what your device is actually doing. We like to see these applications [available in F-Droid](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
+- If VPN clients are provided, they should be [open-source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what your device is actually doing.
 
 **Best Case:**
 
@@ -293,7 +293,7 @@ Must not have any marketing which is irresponsible:
 Responsible marketing that is both educational and useful to the consumer could include:
 
 - An accurate comparison to when [Tor](tor.md) should be used instead.
-- Availability of the VPN provider's website over a .onion [Hidden Service](https://en.wikipedia.org/wiki/.onion)
+- Availability of the VPN provider's website over a .onion [Onion Service](https://en.wikipedia.org/wiki/.onion)
 
 ### Additional Functionality
 
