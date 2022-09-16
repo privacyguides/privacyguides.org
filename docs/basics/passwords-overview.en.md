@@ -15,7 +15,7 @@ This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_st
 
 ### Use randomly generated passwords
 
-==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware) with sufficient entropy to protect your accounts and devices.
+==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware-passphrases) with sufficient entropy to protect your accounts and devices.
 
 All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
 
@@ -36,7 +36,7 @@ When it comes to passwords that you don't have to remember (such as passwords st
 
 A lot of services impose certain criteria when it comes to passwords, including a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
 
-If you need a password you can memorize, we recommend a [diceware passphrase](#diceware).
+If you need a password you can memorize, we recommend a [diceware passphrase](#diceware-passphrases).
 
 ### Diceware Passphrases
 
@@ -94,7 +94,7 @@ To sum it up, diceware passphrases are your best option when you need something 
 
 The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
 
-There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware](#diceware) passphrase comprised of at least seven words.
+There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware passphrase](#diceware-passphrases) comprised of at least seven words.
 
 [List of recommended password managers](../passwords.md){ .md-button }
 
