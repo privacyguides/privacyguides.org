@@ -50,6 +50,8 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
+1. Last checked: 2022/09/16
+
 ??? check "Independently Audited"
 
     As of January 2020 Proton VPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit/) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf).
@@ -100,6 +102,8 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
     IVPN has [servers in 34 countries](https://www.ivpn.net/server-locations) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 
     We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+
+1. Last checked: 2022/09/16
 
 ??? check "Independently Audited"
 
@@ -152,6 +156,8 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
     Mullvad has [servers in 39 countries](https://mullvad.net/servers/) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 
     We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+
+1. Last checked: 2022/09/16
 
 ??? check "Independently Audited"
 
