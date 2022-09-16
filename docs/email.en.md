@@ -227,7 +227,7 @@ Using an aliasing service requires trusting both your email provider and your al
     ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
     ![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
 
-    **[AnonAddy](https://anonaddy.com)** lets you create 20 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous. It has two premium plans at $12/year and $36/year which provide additional features.
+    **AnonAddy** lets you create 20 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous. It has two premium plans at $12/year and $36/year which provide additional features.
 
     [:octicons-home-16: Homepage](https://anonaddy.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Privacy Policy" }
@@ -257,7 +257,7 @@ Notable free features:
 
     ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
 
-    **[SimpleLogin](https://simplelogin.io)** is a free service which provides email aliases on a variety of shared domain names, and optionally provides features like unlimited aliases and custom domains for $30/year.
+    **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides features like unlimited aliases and custom domains for $30/year.
 
     [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
