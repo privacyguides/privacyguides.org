@@ -50,7 +50,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-1. As of 2022/05/17
+1. Last checked: 2022-09-16
 
 ??? check "Independently Audited"
 
@@ -97,13 +97,13 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
     [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
 
-??? check annotate "32 Countries"
+??? check annotate "34 Countries"
 
-    IVPN has [servers in 32 countries](https://www.ivpn.net/server-locations) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+    IVPN has [servers in 34 countries](https://www.ivpn.net/server-locations) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 
     We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-1. As of 2022/05/17
+1. Last checked: 2022-09-16
 
 ??? check "Independently Audited"
 
@@ -151,13 +151,13 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
     [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
 
-??? check annotate "38 Countries"
+??? check annotate "39 Countries"
 
-    Mullvad has [servers in 38 countries](https://mullvad.net/servers/) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+    Mullvad has [servers in 39 countries](https://mullvad.net/servers/) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 
     We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-1. As of 2022/05/17
+1. Last checked: 2022-09-16
 
 ??? check "Independently Audited"
 
