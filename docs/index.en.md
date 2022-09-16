@@ -43,8 +43,8 @@ It's important for a website like Privacy Guides to always stay up-to-date. We n
 - [:simple-mastodon: Follow us on Mastodon](https://mastodon.social/@privacyguides){ rel=me }
 - [:material-book-edit: Contribute to this website](https://github.com/privacyguides/privacyguides.org)
 - [:simple-matrix: Chat with us on Matrix](https://matrix.to/#/#privacyguides:matrix.org)
-- [:material-information-outline: Learn More About Us](about/)
-- [:material-hand-coin-outline: Support the Project](about/donate/)
+- [:material-information-outline: Learn More About Us](about.md)
+- [:material-hand-coin-outline: Support the Project](about/donate.md)
 
 </div>
 </div>
