@@ -50,7 +50,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-1. As of 2022/05/17
+1. As of 2022/08/09
 
 ??? check "Independently Audited"
 
