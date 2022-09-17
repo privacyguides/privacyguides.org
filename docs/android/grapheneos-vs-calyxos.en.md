@@ -25,7 +25,7 @@ Network location providers like Play Services or Mozilla rely the on the MAC add
 
 Local RF location backends like DejaVu require that the phone has a working GPS first for the local RF data collected to be useful. This makes them less effective as location providers, as the job of a location provider is to assist location approximation when satellite based services are not working.
 
-If your [threat model](threat-modeling.md) requires protecting your location or the MAC addresses of nearby devices, rerouting location requests to the OS location API is probably the best option. The benefit brought by microG's custom location backend is minimal at best when compared to Sandboxed Google Play.
+If your [threat model](../basics/threat-modeling.md) requires protecting your location or the MAC addresses of nearby devices, rerouting location requests to the OS location API is probably the best option. The benefit brought by microG's custom location backend is minimal at best when compared to Sandboxed Google Play.
 
 In terms of application compatibility, ==Sandboxed Google Play on GrapheneOS is always going to be more compatible== as it is the same code as what is released by Google. microG is a reimplementation of these services. As a result, it only supports the various parts that have been reimplemented, meaning some things such as [Google Play Games](https://play.google.com/googleplaygames) and [In-app Billing API](https://android-doc.github.io/google/play/billing/api.html) are not yet supported.
 

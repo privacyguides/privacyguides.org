@@ -192,7 +192,7 @@ Signal takes security very seriously, however there is only so much an app can d
 
 It is very important to take device security on both ends into account to ensure that your conversations are kept private.
 
-We recommend an up-to-date [GrapheneOS](/android/#grapheneos) or iOS device.
+We recommend an up-to-date [GrapheneOS](../android.md#grapheneos) or iOS device.
 
 ### Molly (Android)
 

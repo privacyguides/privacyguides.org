@@ -34,7 +34,7 @@ Unlike [WebAuthn](#fido-fast-identity-online), TOTP offers no protection against
 
 An adversary could set up a website to imitate an official service in an attempt to trick you into giving out your username, password and current TOTP code. If the adversary then uses those recorded credentials they may be able to log into the real service and hijack the account.
 
-Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](/multi-factor-authentication/#hardware-security-keys) are not supported [authenticator apps](/multi-factor-authentication/#authenticator-apps) are still a good option.
+Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../multi-factor-authentication.md#hardware-security-keys) are not supported [authenticator apps](../multi-factor-authentication.md#authenticator-apps) are still a good option.
 
 ### Hardware security keys
 

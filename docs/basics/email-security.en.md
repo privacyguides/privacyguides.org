@@ -17,7 +17,7 @@ Even if you use OpenPGP, it does not support [forward secrecy](https://en.wikipe
 
 ### What Email Clients Support E2EE?
 
-Email providers which allow you to use standard access protocols like IMAP and SMTP can be used with any of the [email clients we recommend](../email-clients.md). Depending on the authentication method, this may lead to the decrease security if either the provider or the email client does not support OATH or a bridge application as [multi-factor authentication](/basics/multi-factor-authentication/) is not possible with plain password authentication.
+Email providers which allow you to use standard access protocols like IMAP and SMTP can be used with any of the [email clients we recommend](../email-clients.md). Depending on the authentication method, this may lead to the decrease security if either the provider or the email client does not support OATH or a bridge application as [multi-factor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
 
 ### How Do I Protect My Private Keys?
 
