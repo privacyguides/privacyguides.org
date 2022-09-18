@@ -31,7 +31,7 @@ The primary threat when using streaming platforms is that your streaming habits 
 
 !!! Warning
 
-    When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 ### LBRY
 
@@ -60,7 +60,7 @@ The primary threat when using streaming platforms is that your streaming habits 
 
 !!! warning
 
-    While watching and hosting videos, your IP address is visible to the LBRY network. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    While watching and hosting videos, your IP address is visible to the LBRY network. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 We recommend **against** synchronizing your wallet with LBRY Inc., as synchronizing encrypted wallets is not supported yet. If you synchronize your wallet with LBRY Inc., you have to trust them to not look at your subscription list, [LBC](https://lbry.com/faq/earn-credits) funds, or take control of your channel.
 
@@ -95,7 +95,7 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
 
 !!! Warning
     
-    When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 ## Web-based frontends
 
@@ -108,7 +108,7 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
 
     **Invidious** is a free and open-source frontend for YouTube that is also self-hostable.
 
-    There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
+    There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
 
     [:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
     [:octicons-server-16:](https://instances.invidious.io){ .card-link title="Public Instances"}
@@ -122,11 +122,11 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
 
 !!! tip
 
-    Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
+    Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
 
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Invidious, as other peoples' usage will be linked to your hosting.
 
-When you are using an Invidious instance, make sure to read the privacy policy of that specific instance. Invidious instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
+When you are using an Invidious instance, make sure to read the privacy policy of that specific instance. Invidious instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have [Tor](tor.md) .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
 
 ### Librarian
 
@@ -137,7 +137,7 @@ When you are using an Invidious instance, make sure to read the privacy policy o
 
     **Librarian** is a free and open-source frontend for the LBRY/Odysee video sharing network that is also self-hostable.
     
-    There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
+    There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
 
     [:octicons-repo-16: Repository](https://codeberg.org/librarian/librarian){ .md-button .md-button--primary }
     [:octicons-server-16:](https://librarian.codeberg.page/){ .card-link title="Public Instances"}
@@ -150,11 +150,11 @@ When you are using an Invidious instance, make sure to read the privacy policy o
 
 !!! tip
 
-    Librarian is useful if you want watch LBRY content on mobile without mandatory telemetry and if you want to disable JavaScript in your browser, as is the case with [Tor Browser](https://www.torproject.org/) on the Safest security level.
+    Librarian is useful if you want watch LBRY content on mobile without mandatory telemetry and if you want to disable JavaScript in your browser, as is the case with [Tor Browser](tor.md#tor-browser) on the Safest security level.
 
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Librarian, as other peoples' usage will be linked to your hosting.
 
-When you are using a Librarian instance, make sure to read the privacy policy of that specific instance. Librarian instances can be modified by their owners and therefore may not reflect the default policy. Librarian instances feature a "privacy nutrition label" to provide an overview of their policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
+When you are using a Librarian instance, make sure to read the privacy policy of that specific instance. Librarian instances can be modified by their owners and therefore may not reflect the default policy. Librarian instances feature a "privacy nutrition label" to provide an overview of their policy. Some instances have [Tor](tor.md) .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
 
 ### Piped
 
