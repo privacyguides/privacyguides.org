@@ -1,8 +1,8 @@
 ---
-title: "Video Streaming"
-icon: material/video-wireless
+title: "Media Streaming"
+icon: material/multimedia
 ---
-The primary threat when using a video streaming platform is that your streaming habits and subscription lists could be used to profile you. You should combine these tools with a [VPN](vpn.md) or [Tor](https://www.torproject.org/) to make it harder to profile your usage.
+The primary threat when using streaming platforms is that your streaming habits and subscription lists could be used to profile you. You should combine these tools with a [VPN](vpn.md) or [Tor](tor.md) to make it harder to profile your usage.
 
 ## Clients
 
@@ -10,7 +10,7 @@ The primary threat when using a video streaming platform is that your streaming 
 
 !!! recommendation
 
-    ![FreeTube logo](assets/img/video-streaming/freetube.svg){ align=right }
+    ![FreeTube logo](assets/img/media-streaming/freetube.svg){ align=right }
 
     **FreeTube** is a free and open-source desktop application for [YouTube](https://youtube.com). When using FreeTube, your subscription list and playlists are saved locally on your device.
 
@@ -37,7 +37,7 @@ The primary threat when using a video streaming platform is that your streaming 
 
 !!! recommendation
 
-    ![LBRY logo](assets/img/video-streaming/lbry.svg){ align=right }
+    ![LBRY logo](assets/img/media-streaming/lbry.svg){ align=right }
 
     **The LBRY network** is a decentralized video sharing network. It uses a [BitTorrent](https://wikipedia.org/wiki/BitTorrent)-like network to store the video content, and a [blockchain](https://wikipedia.org/wiki/Blockchain) to store the indexes for those videos. The main benefit of this design is censorship resistance.
 
@@ -70,7 +70,7 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
 
 !!! recommendation annotate
 
-    ![Newpipe logo](assets/img//video-streaming/newpipe.svg){ align=right }
+    ![Newpipe logo](assets/img//media-streaming/newpipe.svg){ align=right }
 
     **NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org/) (1).
 
@@ -103,8 +103,8 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
 
 !!! recommendation
 
-    ![Invidious logo](assets/img/video-streaming/invidious.svg#only-light){ align=right }
-    ![Invidious logo](assets/img/video-streaming/invidious-dark.svg#only-dark){ align=right }
+    ![Invidious logo](assets/img/media-streaming/invidious.svg#only-light){ align=right }
+    ![Invidious logo](assets/img/media-streaming/invidious-dark.svg#only-dark){ align=right }
 
     **Invidious** is a free and open-source frontend for YouTube that is also self-hostable.
 
@@ -132,8 +132,8 @@ When you are using an Invidious instance, make sure to read the privacy policy o
 
 !!! recommendation
 
-    ![Librarian logo](assets/img/video-streaming/librarian.svg#only-light){ align=right }
-    ![Librarian logo](assets/img/video-streaming/librarian-dark.svg#only-dark){ align=right }
+    ![Librarian logo](assets/img/media-streaming/librarian.svg#only-light){ align=right }
+    ![Librarian logo](assets/img/media-streaming/librarian-dark.svg#only-dark){ align=right }
 
     **Librarian** is a free and open-source frontend for the LBRY/Odysee video sharing network that is also self-hostable.
     
@@ -160,7 +160,7 @@ When you are using a Librarian instance, make sure to read the privacy policy of
 
 !!! recommendation
 
-    ![Piped logo](assets/img/video-streaming/piped.svg){ align=right }
+    ![Piped logo](assets/img/media-streaming/piped.svg){ align=right }
 
     **Piped** is a free and open-source frontend for YouTube that is also self-hostable.
 

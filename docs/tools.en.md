@@ -415,17 +415,17 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](news-aggregators.md)
 
-### Video Streaming Clients
+### Media Streaming
 
 <div class="grid cards" markdown>
 
-- ![FreeTube logo](assets/img/video-streaming/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](video-streaming.md#freetube)
-- ![LBRY logo](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
-- ![NewPipe logo](assets/img//video-streaming/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](video-streaming.md#newpipe)
-- ![Invidious logo](assets/img/video-streaming/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/video-streaming/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](video-streaming.md#invidious)
-- ![Librarian logo](assets/img/video-streaming/librarian.svg#only-light){ .twemoji }![Librarian logo](assets/img/video-streaming/librarian-dark.svg#only-dark){ .twemoji } [Librarian (LBRY, Web)](video-streaming.md#librarian)
-- ![Piped logo](assets/img/video-streaming/piped.svg){ .twemoji } [Piped (YouTube, Web)](video-streaming.md#piped)
+- ![FreeTube logo](assets/img/media-streaming/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](media-streaming.md#freetube)
+- ![LBRY logo](assets/img/media-streaming/lbry.svg){ .twemoji } [LBRY](media-streaming.md#lbry)
+- ![NewPipe logo](assets/img//media-streaming/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](media-streaming.md#newpipe)
+- ![Invidious logo](assets/img/media-streaming/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/media-streaming/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](media-streaming.md#invidious)
+- ![Librarian logo](assets/img/media-streaming/librarian.svg#only-light){ .twemoji }![Librarian logo](assets/img/media-streaming/librarian-dark.svg#only-dark){ .twemoji } [Librarian (LBRY, Web)](media-streaming.md#librarian)
+- ![Piped logo](assets/img/media-streaming/piped.svg){ .twemoji } [Piped (YouTube, Web)](media-streaming.md#piped)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](video-streaming.md)
+[Learn more :material-arrow-right-drop-circle:](media-streaming.md)
