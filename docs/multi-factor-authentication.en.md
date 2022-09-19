@@ -65,7 +65,7 @@ Nitrokey's firmware is open-source, unlike the YubiKey. The firmware on modern N
 
 Authenticator Apps implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. This is a method where websites share a secret with you which is used by your authenticator app to generate a six (usually) digit code based on the current time, which you enter while logging in for the website to check. Typically these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Even if a hacker gets one six-digit code, there is no way for them to reverse that code to get the original secret or otherwise be able to predict what any future codes might be.
 
-We highly recommend that you use mobile TOTP apps instead of desktop alternatives as Android and IOS have better security and app isolation than most desktop operating systems.
+We highly recommend that you use mobile TOTP apps instead of desktop alternatives as Android and iOS have better security and app isolation than most desktop operating systems.
 
 ### Aegis Authenticator
 
