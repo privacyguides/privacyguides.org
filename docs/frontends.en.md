@@ -5,9 +5,7 @@ icon: material/flip-to-front
 
 ## YouTube
 
-### Clients
-
-#### FreeTube
+### FreeTube
 
 !!! recommendation
 
@@ -35,7 +33,7 @@ icon: material/flip-to-front
     When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 
-#### NewPipe (Android)
+### NewPipe (Android)
 
 !!! recommendation annotate
 
@@ -66,9 +64,7 @@ icon: material/flip-to-front
     
     When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
-### Web-based frontends
-
-#### Invidious
+### Invidious
 
 !!! recommendation
 
@@ -97,7 +93,7 @@ When self-hosting, it is important that you have other people using your instanc
 
 When you are using an Invidious instance, make sure to read the privacy policy of that specific instance. Invidious instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
 
-#### Piped
+### Piped
 
 !!! recommendation
 
@@ -123,9 +119,7 @@ When you are using a Piped instance, make sure to read the privacy policy of tha
 
 ## LBRY/Odysee
 
-### Web-based Frontends
-
-#### Librarian
+### Librarian
 
 !!! recommendation
 
