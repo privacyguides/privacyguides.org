@@ -415,16 +415,25 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](news-aggregators.md)
 
+### Frontends
+
+<div class="grid cards" markdown>
+
+- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
+- ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
+- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
+- ![Librarian logo](assets/img/frontends/librarian.svg#only-light){ .twemoji }![Librarian logo](assets/img/frontends/librarian-dark.svg#only-dark){ .twemoji } [Librarian (LBRY, Web)](frontends.md#librarian)
+- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](frontends.md)
+
 ### Video Streaming Clients
 
 <div class="grid cards" markdown>
 
-- ![FreeTube logo](assets/img/video-streaming/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](video-streaming.md#freetube)
 - ![LBRY logo](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
-- ![NewPipe logo](assets/img//video-streaming/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](video-streaming.md#newpipe)
-- ![Invidious logo](assets/img/video-streaming/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/video-streaming/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](video-streaming.md#invidious)
-- ![Librarian logo](assets/img/video-streaming/librarian.svg#only-light){ .twemoji }![Librarian logo](assets/img/video-streaming/librarian-dark.svg#only-dark){ .twemoji } [Librarian (LBRY, Web)](video-streaming.md#librarian)
-- ![Piped logo](assets/img/video-streaming/piped.svg){ .twemoji } [Piped (YouTube, Web)](video-streaming.md#piped)
 
 </div>
 
