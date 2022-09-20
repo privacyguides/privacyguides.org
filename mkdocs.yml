@@ -168,6 +168,7 @@ nav:
       - 'email-clients.md'
       - 'encryption.md'
       - 'file-sharing.md'
+      - 'frontends.md'
       - 'multi-factor-authentication.md'
       - 'news-aggregators.md'
       - 'notebooks.md'

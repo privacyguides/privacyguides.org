@@ -252,18 +252,20 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](calendar-contacts.md)
 
-### Notebooks
+### Data and Metadata Redaction
 
 <div class="grid cards" markdown>
 
-- ![EteSync Notes logo](assets/img/notebooks/etesync-notes.png){ .twemoji } [EteSync Notes](notebooks.md#etesync-notes)
-- ![Joplin logo](assets/img/notebooks/joplin.svg){ .twemoji } [Joplin](notebooks.md#joplin)
-- ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ .twemoji } [Standard Notes](notebooks.md#standard-notes)
-- ![Org-mode logo](assets/img/notebooks/org-mode.svg){ .twemoji } [Org-mode](notebooks.md#org-mode)
+- ![ExifCleaner logo](assets/img/data-redaction/exifcleaner.svg){ .twemoji } [ExifCleaner](data-redaction.md#exifcleaner)
+- ![MAT2 logo](assets/img/data-redaction/mat2.svg){ .twemoji } [MAT2](data-redaction.md#mat2)
+- ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
+- ![Metapho logo](assets/img/data-redaction/metapho.jpg){ .twemoji } [Metapho (iOS)](data-redaction.md#metapho-ios)
+- ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ .twemoji } [PrivacyBlur](data-redaction.md#privacyblur)
+- ![ExifTool logo](assets/img/data-redaction/exiftool.png){ .twemoji } [ExifTool (CLI)](data-redaction.md#exiftool)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](notebooks.md)
+[Learn more :material-arrow-right-drop-circle:](data-redaction.md)
 
 ### Email Clients
 
@@ -317,7 +319,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](encryption.md#openpgp)
 
-### File Sharing
+### File Sharing and Sync
 
 <div class="grid cards" markdown>
 
@@ -329,20 +331,19 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](file-sharing.md)
 
-### Data and Metadata Redaction
+### Frontends
 
 <div class="grid cards" markdown>
 
-- ![ExifCleaner logo](assets/img/data-redaction/exifcleaner.svg){ .twemoji } [ExifCleaner](data-redaction.md#exifcleaner)
-- ![MAT2 logo](assets/img/data-redaction/mat2.svg){ .twemoji } [MAT2](data-redaction.md#mat2)
-- ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
-- ![Metapho logo](assets/img/data-redaction/metapho.jpg){ .twemoji } [Metapho (iOS)](data-redaction.md#metapho-ios)
-- ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ .twemoji } [PrivacyBlur](data-redaction.md#privacyblur)
-- ![ExifTool logo](assets/img/data-redaction/exiftool.png){ .twemoji } [ExifTool (CLI)](data-redaction.md#exiftool)
+- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
+- ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
+- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
+- ![Librarian logo](assets/img/frontends/librarian.svg#only-light){ .twemoji }![Librarian logo](assets/img/frontends/librarian-dark.svg#only-dark){ .twemoji } [Librarian (LBRY, Web)](frontends.md#librarian)
+- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](data-redaction.md)
+[Learn more :material-arrow-right-drop-circle:](frontends.md)
 
 ### Multi-Factor Authentication Tools
 
@@ -356,6 +357,35 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 </div>
 
 [Learn more :material-arrow-right-drop-circle:](multi-factor-authentication.md)
+
+### News Aggregators
+
+<div class="grid cards" markdown>
+
+- ![Akregator logo](assets/img/news-aggregators/akregator.svg){ .twemoji } [Akregator](news-aggregators.md#akregator)
+- ![Feeder logo](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder](news-aggregators.md#feeder)
+- ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ .twemoji } [Fluent Reader](news-aggregators.md#fluent-reader)
+- ![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ .twemoji } [GNOME Feeds](news-aggregators.md#gnome-feeds)
+- ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [Miniflux](news-aggregators.md#miniflux)
+- ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ .twemoji } [NetNewsWire](news-aggregators.md#netnewswire)
+- ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ .twemoji } [Newsboat](news-aggregators.md#newsboat)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](news-aggregators.md)
+
+### Notebooks
+
+<div class="grid cards" markdown>
+
+- ![EteSync Notes logo](assets/img/notebooks/etesync-notes.png){ .twemoji } [EteSync Notes](notebooks.md#etesync-notes)
+- ![Joplin logo](assets/img/notebooks/joplin.svg){ .twemoji } [Joplin](notebooks.md#joplin)
+- ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ .twemoji } [Standard Notes](notebooks.md#standard-notes)
+- ![Org-mode logo](assets/img/notebooks/org-mode.svg){ .twemoji } [Org-mode](notebooks.md#org-mode)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](notebooks.md)
 
 ### Password Managers
 
@@ -399,32 +429,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### News Aggregators
-
-<div class="grid cards" markdown>
-
-- ![Akregator logo](assets/img/news-aggregators/akregator.svg){ .twemoji } [Akregator](news-aggregators.md#akregator)
-- ![Feeder logo](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder](news-aggregators.md#feeder)
-- ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ .twemoji } [Fluent Reader](news-aggregators.md#fluent-reader)
-- ![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ .twemoji } [GNOME Feeds](news-aggregators.md#gnome-feeds)
-- ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [Miniflux](news-aggregators.md#miniflux)
-- ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ .twemoji } [NetNewsWire](news-aggregators.md#netnewswire)
-- ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ .twemoji } [Newsboat](news-aggregators.md#newsboat)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](news-aggregators.md)
-
 ### Video Streaming Clients
 
 <div class="grid cards" markdown>
 
-- ![FreeTube logo](assets/img/video-streaming/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](video-streaming.md#freetube)
 - ![LBRY logo](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
-- ![NewPipe logo](assets/img//video-streaming/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](video-streaming.md#newpipe)
-- ![Invidious logo](assets/img/video-streaming/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/video-streaming/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](video-streaming.md#invidious)
-- ![Librarian logo](assets/img/video-streaming/librarian.svg#only-light){ .twemoji }![Librarian logo](assets/img/video-streaming/librarian-dark.svg#only-dark){ .twemoji } [Librarian (LBRY, Web)](video-streaming.md#librarian)
-- ![Piped logo](assets/img/video-streaming/piped.svg){ .twemoji } [Piped (YouTube, Web)](video-streaming.md#piped)
 
 </div>
 
