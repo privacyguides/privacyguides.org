@@ -40,7 +40,7 @@ extra:
         - icon: material/robot-confused
           name: This page could be improved
           data: Needs Improvement
-          note: Thanks for your feedback! Help us improve this page by opening a <a href="https://github.com/orgs/privacyguides/discussions" target=_blank>discusson on GitHub</a>.
+          note: Thanks for your feedback! Help us improve this page by opening a <a href="https://github.com/privacyguides/privacyguides.org/discussions" target=_blank>discussion on GitHub</a>.
 
 theme:
   features:
