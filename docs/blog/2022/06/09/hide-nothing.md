@@ -21,7 +21,7 @@ In countries were organizing around political dissent is legal, that doesn't mea
 
 And even if you break away from the legal aspects, we all have something to hide. You may not be ready to reveal your sexual or gender identity, but your internet usage could potentially do that for you. You don't want to make your bank account public; you have that information to hide. And you can continue to list things about your life you'd just rather not make public, regardless of potential legality.
 
-In July of 2021, a Catholic priest by the name of Jeffrey Burrill lost his job and was forced to resign after data collected through his cell phone showed that he was active on the Gay dating app Grindr, and that he had visited multiple gay bars in the area. [According](https://www.washingtonpost.com/religion/2021/07/20/bishop-misconduct-resign-burrill/) to the *Washington Post*:
+In July of 2021, a Catholic priest by the name of Jeffrey Burrill lost his job and was forced to resign after data collected through his cell phone showed that he was active on the gay dating app Grindr, and that he had visited multiple gay bars in the area. [According](https://www.washingtonpost.com/religion/2021/07/20/bishop-misconduct-resign-burrill/) to the *Washington Post*:
 
 > “A mobile device correlated to Burrill emitted app data signals from the location-based hookup app Grindr on a near-daily basis during parts of 2018, 2019, and 2020 —– at both his USCCB office and his USCCB-owned residence, as well as during USCCB meetings and events in other cities,” the Pillar reported.
 
@@ -33,7 +33,7 @@ While it was not clear who was tracking Burrill's device, the Post went on to sa
 
 > Privacy experts have long raised concerns about “anonymized” data collected by apps and sold to or shared with aggregators and marketing companies. While the information is typically stripped of obviously identifying fields, like a user's name or phone number, it can contain everything from age and gender to a device ID. It's possible for experts to de-anonymize some of this data and connect it to real people.
 
-While Burrill was without a doubt in violation of his works own code of conduct, he did decide on his own to be a priest. However, his personal life was not harming others and was just that, his personal life. While the question looms about who was tracking him to begin with and why, the fact it was so easy to do is alarming.
+While Burrill was without a doubt in violation of his work's own code of conduct, he did decide on his own to be a priest. However, his personal life was not harming others and was just that, his personal life. While the question looms about who was tracking him to begin with and why, the fact it was so easy to do is alarming.
 
 What if Burrill wasn't a priest, but just happened to work for someone who held anti-homosexual views who used this data to out him, humiliate him, and fire him under false pretenses? This data, which should be private could (and likely did in the real-life circumstance) ruin his life.
 
