@@ -259,7 +259,7 @@ Notable free features:
 
     ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
 
-    **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides features like unlimited aliases and custom domains.
+    **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides features like unlimited aliases and custom domains in the premium plan.
     
     **Free** — **USD $4/month**
 
