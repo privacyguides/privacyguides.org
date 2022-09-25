@@ -51,7 +51,7 @@ On the other hand, GrapheneOS officially recommends [Sandboxed Google Play](http
 
 ## Profiles
 
-GrapheneOS significantly improves [user profiles](overview.md#user-profiles) in [multiple ways](https://grapheneos.org/features#improved-user-profiles), such as increasing the limit of how many profiles you can create (32 instead of the standard 4), allowing you to log out of user profiles, disabling app installation, and notification forwarding. All of these improvements make it so user profiles can be daily driven without sacrificng too much usability.
+GrapheneOS significantly improves [user profiles](overview.md#user-profiles) in [multiple ways](https://grapheneos.org/features#improved-user-profiles), such as increasing the limit of how many profiles you can create (32 instead of the standard 4), allowing you to log out of user profiles, disabling app installation, and notification forwarding. All of these improvements make it so user profiles can be daily driven without sacrificing too much usability.
 
 CalyxOS doesn't feature any improvements to user profiles over AOSP, and instead includes a device controller app so that the [work profile](overview.md#work-profile) can be used without needing to download a third party app such as [Shelter](../android.md#shelter). However, work profiles are not nearly as flexible (as you're limited to only one) and don't provide the same amount of isolation and security.
 
