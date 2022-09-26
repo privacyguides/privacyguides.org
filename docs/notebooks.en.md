@@ -15,7 +15,7 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
     ![EteSync Notes logo](assets/img/notebooks/etesync-notes.png){ align=right }
 
-    **EteSync Notes** is a secure, end-to-end encrypted, and privacy-respecting note taking app. EteSync also offers optional software as a service for [$24 per year](https://dashboard.etebase.com/user/partner/pricing/), or you can host the server yourself for free.
+    **EteSync Notes** is a secure, end-to-end encrypted, and privacy-respecting note taking app. EteSync also offers optional [software as a service](https://dashboard.etebase.com/user/partner/pricing/), or you can host the server yourself for free.
 
     [etebase](https://docs.etebase.com), which is the foundation of EteSync, can also be used by other apps as a backend to store data end-to-end encrypted (E2EE).
 

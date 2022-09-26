@@ -28,8 +28,6 @@ For everything else, we recommend a variety of email providers based on sustaina
 
     If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](#simplelogin) Premium for free.
 
-    **Free**
-
     [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
@@ -71,8 +69,6 @@ For everything else, we recommend a variety of email providers based on sustaina
     ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
 
     **Mailbox.org** is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with 2 GB of storage, which can be upgraded as needed.
-
-    **EUR €12/year**
 
     [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
@@ -117,8 +113,6 @@ For everything else, we recommend a variety of email providers based on sustaina
 
     **StartMail** is an email service with a focus on security and privacy through the use of standard OpenPGP encryption. StartMail has been in operation since 2014 and is based in Boulevard 11, Zeist Netherlands. Accounts start with 10GB. They offer a 30-day trial.
 
-    **USD $59.95/year**
-
     [:octicons-home-16: Homepage](https://www.startmail.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentation}
@@ -156,8 +150,6 @@ For everything else, we recommend a variety of email providers based on sustaina
     ![Tutanota logo](assets/img/email/tutanota.svg){ align=right }
 
     **Tutanota** is an email service with a focus on security and privacy through the use of encryption. Tutanota has been in operation since **2011** and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan.
-
-    **Free**
 
     [:octicons-home-16: Homepage](https://tutanota.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Privacy Policy" }
@@ -227,7 +219,7 @@ Using an aliasing service requires trusting both your email provider and your al
     ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
     ![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
 
-    **AnonAddy** lets you create 20 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous. It has two premium plans at $12/year and $36/year which provide additional features.
+    **AnonAddy** lets you create 20 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
 
     [:octicons-home-16: Homepage](https://anonaddy.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Privacy Policy" }
@@ -257,7 +249,7 @@ Notable free features:
 
     ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
 
-    **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides features like unlimited aliases and custom domains for $30/year.
+    **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
 
     [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
