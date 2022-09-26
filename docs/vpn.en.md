@@ -35,14 +35,10 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     **Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG is based in Switzerland and offers a limited free tier, as well as a more featured premium option.
 
-    **Free** — **Plus Plan USD $71.88/year** (1)
-
     [:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
-
-1. A further 10% is discounted with a 2-year subscription ($119.76).
 
 ??? check annotate "64 Countries"
 
@@ -89,8 +85,6 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
     ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
 
     **IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN is based in Gibraltar.
-
-    **Standard USD $60/year** — **Pro USD $100/year**
 
     [:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
@@ -142,8 +136,6 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
     ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
 
     **Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since **2009**. Mullvad is based in Sweden and does not have a free trial.
-
-    **EUR €60/year**
 
     [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
