@@ -100,7 +100,11 @@ There are many good options to choose from, both cloud-based and local. Choose o
 
 !!! Warning "Don't place your passwords and TOTP tokens inside the same password manager"
 
-    If you're using TOTP as a [multi-factor authentication](../multi-factor-authentication.md) method for any of your accounts, do not store these tokens, any backup codes for them, or the TOTP secrets themselves in your password manager, as that negates the benefit of multi-factor authentication. You should use a dedicated [TOTP app](../multi-factor-authentication.md#authenticator-apps) instead.
+    When using TOTP codes as [multi-factor authentication](../multi-factor-authentication.md), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md#authenticator-apps).
+
+    Storing your TOTP tokens in the same place as your passwords, while convenient, reduces the accounts to a single factor in the event that an adversary gains access to your password manager.
+
+    Furthermore, we do not recommend storing single-use recovery codes in your password manager. Those should be stored separately such as in an encrypted container on an offline storage device.
 
 ### Backups
 
