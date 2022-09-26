@@ -3,6 +3,64 @@ title: "Frontends"
 icon: material/flip-to-front
 ---
 
+Sometimes services will try to force you to sign up for an account by blocking access to content with annoying popups. They might also break without JavaScript enabled. These frontends can allow you to get around these restrictions.
+
+## LBRY
+
+### Librarian
+
+!!! recommendation
+
+    ![Librarian logo](assets/img/frontends/librarian.svg#only-light){ align=right }
+    ![Librarian logo](assets/img/frontends/librarian-dark.svg#only-dark){ align=right }
+
+    **Librarian** is a free and open-source frontend for [Odysee](https://odysee.com/) (LBRY) that is also self-hostable.
+    
+    There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
+
+    [:octicons-repo-16: Repository](https://codeberg.org/librarian/librarian){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://librarian.codeberg.page/){ .card-link title="Public Instances"}
+    [:octicons-info-16:](https://codeberg.org/librarian/librarian/wiki){ .card-link title=Documentation}
+    [:octicons-code-16:](https://codeberg.org/librarian/librarian){ .card-link title="Source Code" }
+
+!!! warning
+
+    Librarian does not proxy video streams by default. Videos watched through Librarian will still make direct connections to Odysee's servers (e.g. `odycdn.com`); however, some instances may enable proxying which would be detailed in the instance's privacy policy.
+
+!!! tip
+
+    Librarian is useful if you want watch LBRY content on mobile without mandatory telemetry and if you want to disable JavaScript in your browser, as is the case with [Tor Browser](https://www.torproject.org/) on the Safest security level.
+
+When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Librarian, as other peoples' usage will be linked to your hosting.
+
+When you are using a Librarian instance, make sure to read the privacy policy of that specific instance. Librarian instances can be modified by their owners and therefore may not reflect the default policy. Librarian instances feature a "privacy nutrition label" to provide an overview of their policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
+
+## Twitter
+
+### Nitter
+
+!!! recommendation
+
+    ![Nitter logo](assets/img/frontends/nitter.svg){ align=right }
+
+    **Nitter** is a free and open-source frontend for [Twitter](https://twitter.com) that is also self-hostable.
+
+    There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
+
+    [:octicons-repo-16: Repository](https://github.com/zedeus/nitter){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://github.com/zedeus/nitter/wiki/Instances){ .card-link title="Public Instances"}
+    [:octicons-info-16:](https://github.com/zedeus/nitter/wiki){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=Contribute }
+
+!!! tip
+
+    Nitter is useful if you want to browser Twitter content without having to log in and if you want to disable JavaScript in your browser, as is the case with [Tor Browser](https://www.torproject.org/) on the Safest security level. It also allows you to [create RSS feeds for Twitter](news-aggregators.md#twitter).
+
+When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Nitter, as other peoples' usage will be linked to your hosting.
+
+When you are using a Nitter instance, make sure to read the privacy policy of that specific instance. Nitter instances can be modified by their owners and therefore may not reflect the default policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
+
 ## YouTube
 
 ### FreeTube
@@ -71,7 +129,7 @@ icon: material/flip-to-front
     ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ align=right }
     ![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ align=right }
 
-    **Invidious** is a free and open-source frontend for YouTube that is also self-hostable.
+    **Invidious** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
 
     There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
 
@@ -99,7 +157,7 @@ When you are using an Invidious instance, make sure to read the privacy policy o
 
     ![Piped logo](assets/img/frontends/piped.svg){ align=right }
 
-    **Piped** is a free and open-source frontend for YouTube that is also self-hostable.
+    **Piped** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
 
     Piped requires JavaScript in order to function and there are a number of public instances.
 
@@ -116,33 +174,3 @@ When you are using an Invidious instance, make sure to read the privacy policy o
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Piped, as other peoples' usage will be linked to your hosting.
 
 When you are using a Piped instance, make sure to read the privacy policy of that specific instance. Piped instances can be modified by their owners and therefore may not reflect their associated privacy policy.
-
-## LBRY/Odysee
-
-### Librarian
-
-!!! recommendation
-
-    ![Librarian logo](assets/img/frontends/librarian.svg#only-light){ align=right }
-    ![Librarian logo](assets/img/frontends/librarian-dark.svg#only-dark){ align=right }
-
-    **Librarian** is a free and open-source frontend for the LBRY/Odysee video sharing network that is also self-hostable.
-    
-    There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
-
-    [:octicons-repo-16: Repository](https://codeberg.org/librarian/librarian){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://librarian.codeberg.page/){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://codeberg.org/librarian/librarian/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://codeberg.org/librarian/librarian){ .card-link title="Source Code" }
-
-!!! warning
-
-    Librarian does not proxy video streams by default. Videos watched through Librarian will still make direct connections to Odysee's servers (e.g. `odycdn.com`); however, some instances may enable proxying which would be detailed in the instance's privacy policy.
-
-!!! tip
-
-    Librarian is useful if you want watch LBRY content on mobile without mandatory telemetry and if you want to disable JavaScript in your browser, as is the case with [Tor Browser](https://www.torproject.org/) on the Safest security level.
-
-When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Librarian, as other peoples' usage will be linked to your hosting.
-
-When you are using a Librarian instance, make sure to read the privacy policy of that specific instance. Librarian instances can be modified by their owners and therefore may not reflect the default policy. Librarian instances feature a "privacy nutrition label" to provide an overview of their policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
