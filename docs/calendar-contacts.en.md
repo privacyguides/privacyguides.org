@@ -46,6 +46,8 @@ Calendars and contacts contain some of your most sensitive data; use products th
     [:octicons-code-16:](https://github.com/etesync){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.etesync.com/contribute/){ .card-link title=Contribute }
 
+    EteSync offers a [SaaS](https://dashboard.etebase.com/user/partner/pricing/), or you can host the server yourself for free.
+
     ??? downloads
 
         - [:octicons-device-desktop-16: Client Setup](https://github.com/etesync/etesync-dav/blob/master/README.md#specific-client-notes-and-instructions)
