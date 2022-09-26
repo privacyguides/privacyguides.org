@@ -40,6 +40,8 @@ Calendars and contacts contain some of your most sensitive data; use products th
 
     **EteSync** is a secure, end-to-end encrypted, and privacy-respecting cloud backup and synchronization software for your personal information, including contacts and calendars. There are native clients for Android, iOS, with a web client and an adapter layer for most desktop clients available too. Etesync does [not](https://www.etesync.com/faq/#2fa) currently support multi-factor authentication.
 
+    EteSync offers a [SaaS](https://dashboard.etebase.com/user/partner/pricing/), or you can host the server yourself for free.
+
     [:octicons-home-16: Homepage](https://www.etesync.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.etesync.com/tos/#privacy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://www.etesync.com/user-guide/){ .card-link title=Documentation}
@@ -53,8 +55,6 @@ Calendars and contacts contain some of your most sensitive data; use products th
         - [:simple-fdroid: F-Droid](https://f-droid.org/app/com.etesync.syncadapter)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/apple-store/id1489574285)
         - [:simple-docker: Docker Hub](https://hub.docker.com/r/victorrds/etesync)
-
-    EteSync offers a [SaaS](https://dashboard.etebase.com/user/partner/pricing/), or you can host the server yourself for free.
 
 ## Proton Calendar
 
