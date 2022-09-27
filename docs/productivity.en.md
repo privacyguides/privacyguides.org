@@ -74,10 +74,6 @@ For other platforms, consider below:
 
 ## Paste services
 
-!!! warning
-
-    Encrypted Pastebin websites like the ones recommended here use JavaScript to handle encryption, so you must trust the provider to the extent that they do not inject any malicious JavaScript to get your private key. Consider self-hosting to mitigate this threat.
-
 ### PrivateBin
 
 !!! recommendation

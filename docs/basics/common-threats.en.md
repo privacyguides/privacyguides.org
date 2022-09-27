@@ -60,7 +60,7 @@ The obvious problem with this is that the service provider (or a hacker who has 
 
 Thankfully, end-to-end encryption can alleviate this issue by encrypting communications between you and your desired recipients before they are even sent to the server. The confidentiality of your messages is guaranteed, so long as the service provider does not have access to the private keys of either party.
 
-??? note "Note on web-based encryption"
+!!! note "Note on web-based encryption"
 
     In practice, the effectiveness of different end-to-end encryption implementations varies. Applications such as [Signal](../real-time-communication.md#signal) run natively on your device, and every copy of the application is the same across different installations. If the service provider were to backdoor their application in an attempt to steal your private keys, that could later be detected using reverse engineering.
 
