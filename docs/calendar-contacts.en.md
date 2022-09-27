@@ -38,7 +38,7 @@ Calendars and contacts contain some of your most sensitive data; use products th
 
     ![EteSync logo](assets/img/calendar-contacts/etesync.svg){ align=right }
 
-    **EteSync** is a secure, end-to-end encrypted, and privacy-respecting cloud backup and synchronization software for your personal information, including contacts and calendars. There are native clients for Android, iOS, with a web client and an adapter layer for most desktop clients available too. Etesync does [not](https://www.etesync.com/faq/#2fa) currently support multi-factor authentication.
+    **EteSync** is a secure, E2EE, and privacy-respecting cloud backup and synchronization software for your personal information, including contacts and calendars. There are native clients for Android, iOS, with a web client and an adapter layer for most desktop clients available too. Etesync does [not](https://www.etesync.com/faq/#2fa) currently support multi-factor authentication.
 
     EteSync offers a [SaaS](https://dashboard.etebase.com/user/partner/pricing/), or you can host the server yourself for free.
 
