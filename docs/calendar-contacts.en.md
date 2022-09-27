@@ -38,7 +38,7 @@ Calendars and contacts contain some of your most sensitive data; use products th
 
     ![EteSync logo](assets/img/calendar-contacts/etesync.svg){ align=right }
 
-    **EteSync** is a secure, end-to-end encrypted, and privacy-respecting cloud backup and synchronization software for your personal information, including contacts and calendars. There are native clients for Android, iOS, with a web client and an adapter layer for most desktop clients available too. Etesync does [not](https://www.etesync.com/faq/#2fa) currently support multi-factor authentication.
+    **EteSync** is a secure, E2EE, and privacy-respecting cloud backup and synchronization software for your personal information, including contacts and calendars. There are native clients for Android, iOS, with a web client and an adapter layer for most desktop clients available too. Etesync does [not](https://www.etesync.com/faq/#2fa) currently support multi-factor authentication.
 
     EteSync offers a [SaaS](https://dashboard.etebase.com/user/partner/pricing/), or you can host the server yourself for free.
 
@@ -62,7 +62,7 @@ Calendars and contacts contain some of your most sensitive data; use products th
 
     ![Proton](assets/img/calendar-contacts/proton-calendar.svg){ align=right }
 
-    **Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Features include: automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to a single calendar, whereas paid subscribers can create up to 20 calendars. Extended sharing functionality is also limited to paid subscribers.
+    **Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Features include: automatic E2EE of all data [except for contact names and email addresses](https://proton.me/support/proton-contacts#verify), sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to a single calendar, whereas paid subscribers can create up to 20 calendars. Extended sharing functionality is also limited to paid subscribers.
 
     **Proton Mail** can be used to synchronize contacts. Likewise, the service is currently only available via the web and mobile clients.
 
@@ -75,6 +75,3 @@ Calendars and contacts contain some of your most sensitive data; use products th
 
         - [:octicons-browser-16: Web](https://calendar.proton.me)
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
-
-!!! warning
-    Proton [does not](https://proton.me/support/proton-contacts#verify) use E2EE for your contact names and email addresses.
