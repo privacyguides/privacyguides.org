@@ -62,7 +62,7 @@ Calendars and contacts contain some of your most sensitive data; use products th
 
     ![Proton](assets/img/calendar-contacts/proton-calendar.svg){ align=right }
 
-    **Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Features include: automatic E2EE of all data [except for contact names and email addresses](https://proton.me/support/proton-contacts#verify), sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to a single calendar, whereas paid subscribers can create up to 20 calendars. Extended sharing functionality is also limited to paid subscribers.
+    **Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Features include: automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to a single calendar, whereas paid subscribers can create up to 20 calendars. Extended sharing functionality is also limited to paid subscribers.
 
     **Proton Mail** can be used to synchronize contacts. Likewise, the service is currently only available via the web and mobile clients.
 
@@ -75,3 +75,6 @@ Calendars and contacts contain some of your most sensitive data; use products th
 
         - [:octicons-browser-16: Web](https://calendar.proton.me)
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
+
+!!! warning
+    Proton [does not](https://proton.me/support/proton-contacts#verify) use E2EE for your contact names and email addresses.
