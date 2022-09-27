@@ -13,7 +13,9 @@ If these alternatives do not fit your needs, we suggest you look into [Encryptio
     ![Cryptee logo](./assets/img/cloud/cryptee.svg#only-light){ align=right }
     ![Cryptee logo](./assets/img/cloud/cryptee-dark.svg#only-dark){ align=right }
 
-    **Cryptee** is a web-based, encrypted, secure photo storage service and documents editor.
+    **Cryptee** is a web-based and end-to-end encrypted data storage service. It primarily focuses on photo and video storage as well document editing. Cryptee is a PWA, which means that it works seamlessly across all modern devices without requiring native apps for each respective platform.
+
+    Cryptee offers 100MB storage for free, with paid options if you need more.
 
     [:octicons-home-16: Homepage](https://crypt.ee){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="Privacy Policy" }
