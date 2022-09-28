@@ -1,10 +1,7 @@
-<!-- READ ENTIRELY BEFORE SUBMITTING:
-Please use a descriptive title for your PR, it will be included in our changelog!
 
-**********
-By submitting a PR, you are agreeing to release your work to the public domain
-persuant to the terms described in our LICENSE file (CC0 1.0 Universal).
-**********
+
+<!-- SCROLL TO BOTTOM TO AGREE!:
+Please use a descriptive title for your PR, it will be included in our changelog!
 
 Please share with us what you've changed.
 If you are adding a software recommendation, give us a link to its website or
@@ -24,3 +21,11 @@ If you have a conflict of interest, you MUST disclose who is paying you for
 this contribution, who the client is (if for example, you are being paid by
 an advertising agency), and any other relevant affiliations.
 -->
+
+<!-- Place an x in the boxes below, like: [x] -->
+- [ ] Please check this box to confirm you have disclosed any relevant conflicts of interest in your post.
+- [ ] Please check this box to confirm your agreement to publish your work under the [Creative Commons Attribution-NoDerivatives 4.0 International](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE) license, and to grant Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
+
+<!-- What's this? When you submit a PR, you keep the Copyright for the work you
+are contributing. We need you to agree to the above terms in order for us to
+publish this contribution to our website. -->

@@ -16,7 +16,7 @@ Privacy Guides additionally does not warrant that this website will be constantl
 
 ## Licenses
 
-Unless otherwise noted, all content on this website is made freely available under the terms of the [Creative Commons CC0 1.0 Universal](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE).
+Unless otherwise noted, all content on this website is made available under the terms of the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE).
 
 This does not include third-party code embedded in this repository, or code where a superseding license is otherwise noted. The following are notable examples, but this list may not be all-inclusive:
 
@@ -24,17 +24,17 @@ This does not include third-party code embedded in this repository, or code wher
 
 Portions of this notice itself were adopted from [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) on GitHub. That resource and this page itself are released under [CC-BY-4.0](https://github.com/github/opensource.guide/blob/master/LICENSE).
 
-This means that you can use the human-readable content in this repository for your own project, per the terms outlined in the CC0 1.0 Universal text. You **may not** use the Privacy Guides branding in your own project without express approval from this project. Privacy Guides's brand trademarks include the "Privacy Guides" wordmark and shield logo.
+This means that you can use the human-readable content in this repository for your own project, per the terms outlined in the Creative Commons Attribution-NoDerivatives 4.0 International Public License text. You may do so in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use. You **may not** use the Privacy Guides branding in your own project without express approval from this project. Privacy Guides's brand trademarks include the "Privacy Guides" wordmark and shield logo.
 
 We believe that the logos and other images in `assets` obtained from third-party providers are either in the public domain or **fair use**. In a nutshell, legal [fair use doctrine](https://www.copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject matter for purposes of public comment. However, these logos and other images may still be subject to trademark laws in one or more jurisdictions. Before using this content, please ensure that it is used to identify the entity or organization that owns the trademark and that you have the right to use it under the laws which apply in the circumstances of your intended use. *When copying content from this website, you are solely responsible for ensuring that you do not infringe someone else's trademark or copyright.*
 
-When you contribute to this repository you are doing so under the above licenses.
+When you contribute to this repository you are doing so under the above licenses, and you are granting Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
 
 ## Acceptable Use
 
 You may not use this website in any way that causes or may cause damage to the website or impairment of the availability or accessibility of Privacy Guides, or in any way which is unlawful, illegal, fraudulent, harmful, or in connection with any unlawful, illegal, fraudulent, or harmful purpose or activity.
 
-You must not conduct any systematic or automated data collection activities on or in relation to this website without express written consent from Aragon Ventures LLC, including:
+You must not conduct any systematic or automated data collection activities on or in relation to this website without express written consent, including:
 
 * Excessive Automated Scans
 * Denial of Service Attacks
