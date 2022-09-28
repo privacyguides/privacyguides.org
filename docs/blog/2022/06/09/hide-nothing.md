@@ -5,6 +5,9 @@ created: "2022-06-09"
 author: 'Dan Arel'
 template: overrides/blog.en.html
 ---
+<script>
+    window.location.href = "https://discuss.privacyguides.org/t/hide-nothing/35";
+</script>
 In the wake of the September 11, 2001, attack on the United States, the US government enacted laws that weakened citizen privacy in the name of national emergency. This sent up many red flags for human rights and privacy advocates.
 
 These concerns were met with “if you have nothing to hide, you have nothing to fear.” The argument goes that if you're not doing anything illegal, then these violations of your privacy shouldn't bother you. If you care about privacy, you clearly can't be up to anything good.

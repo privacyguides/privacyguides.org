@@ -186,13 +186,5 @@ nav:
     - 'about/notices.md'
     - 'about/privacy-policy.md'
   - 'Donate': '/about/donate/'
-  - 'Discussions': 'https://github.com/privacyguides/privacyguides.org/discussions'
-  - 'Articles':
-    - 'articles.md'
-    - '2022':
-      - '"Hide Nothing"': 'blog/2022/06/09/hide-nothing.md'
-      - '"Move Fast and Break Things"': 'blog/2022/04/04/move-fast-and-break-things.md'
-    - '2021':
-      - 'Firefox Privacy: 2021 Update': 'blog/2021/12/01/firefox-privacy-2021-update.md'
-      - 'Virtual Insanity': 'blog/2021/11/01/virtual-insanity.md'
-      - 'Welcome to Privacy Guides': 'blog/2021/09/14/welcome-to-privacy-guides.md'
+  - 'Forum': 'https://discuss.privacyguides.org/'
+  - 'Blog': 'https://discuss.privacyguides.org/c/blog/10'

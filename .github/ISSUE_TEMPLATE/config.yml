@@ -1,12 +1,12 @@
 contact_links:
   - name: Suggest a New Provider or Software
-    url: https://github.com/privacyguides/privacyguides.org/discussions/new
+    url: https://discuss.privacyguides.org/c/suggestions
     about: Suggest something new for us to look at, or something we should remove.
   - name: Ask a Question
-    url: https://github.com/privacyguides/privacyguides.org/discussions/new
+    url: https://discuss.privacyguides.org/c/questions
     about: Let us know if something doesn't make sense!
   - name: Share an Idea
-    url: https://github.com/privacyguides/privacyguides.org/discussions/new
+    url: https://discuss.privacyguides.org/c/site-development
     about: Suggest a new feature/section/page or anything else for the website.
   - name: Report a Translation Issue
     url: https://crowdin.com/project/privacyguides/discussions

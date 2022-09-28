@@ -50,7 +50,7 @@ Our current list of team members can be found [here](https://github.com/orgs/pri
 
 ## Contributing
 
-- 💬 [Start a discussion or suggest an idea](https://github.com/privacyguides/privacyguides.org/discussions)
+- 💬 [Start a discussion or suggest an idea](https://discuss.privacyguides.org/)
 - 💖 [Sponsor the project](https://github.com/sponsors/privacyguides)
 - 🈴 [Help translate the site](https://crwd.in/privacyguides) [[Matrix chat](https://matrix.to/#/#pg-i18n:aragon.sh)]
 - 📝 Edit the site, everything's accessible in this repo
