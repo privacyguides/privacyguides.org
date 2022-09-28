@@ -304,7 +304,7 @@ If you download APK files to install manually, you can verify their signature wi
     Signer #1 certificate SHA-1 digest: 23e108677a2e1b1d6e6b056f3bb951df7ad5570c
     Signer #1 certificate MD5 digest: dbbcd0cac71bd6fa2102a0297c6e0dd3
     ```
-    
+
 ### F-Droid
 
 ![F-Droid logo](assets/img/android/f-droid.svg){ align=right width=120px }
@@ -314,3 +314,9 @@ If you download APK files to install manually, you can verify their signature wi
 Due to their process of building apps, apps in the official F-Droid repository often fall behind on updates. F-Droid maintainers also reuse package IDs while signing apps with their own keys, which is not ideal as it gives the F-Droid team ultimate trust.
 
 Other popular third-party repositories such as[IzzyOnDroid](https://apt.izzysoft.de/fdroid/) alleviate some of these concerns. The IzzyOnDroid repository pulls builds directly from GitHub and is the next best thing to the developers' own repositories. However, it is not something that we can recommend, as apps are typically [removed](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) from that respository when they make it to the main F-droid repository. While that makes sense as the goal of that particular repository is to host apps before they're accepted into the main F-droid repository, it can potentially put you in a situation where an app you've installed from it no longer gets updates.
+
+That said, the [F-droid repository](https://f-droid.org/en/packages/) as well as the [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) are home to a very large amount of apps, so you can use them as a way to search for and disover open-source apps that you can then download through Play Store, Aurora Store, or by getting the APK from the developer directly.. It is important to keep in mind that not all of the apps in these repositories are ideal, as many of them have not been updated in years, which poses a potential security risk. You should use your best judgement when looking for new apps via this method.
+
+!!! note
+
+    In some rare cases, the developer of an app will only distribute it through F-droid ([Gadgetbridge] is one example of this). If you really need an app like that, we recommend using [Neo Store](https://github.com/NeoApplications/Neo-Store/) instead of the official F-droid app to obtain it.
