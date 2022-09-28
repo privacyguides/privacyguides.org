@@ -319,4 +319,4 @@ That said, the [F-droid repository](https://f-droid.org/en/packages/) as well as
 
 !!! note
 
-    In some rare cases, the developer of an app will only distribute it through F-droid ([Gadgetbridge] is one example of this). If you really need an app like that, we recommend using [Neo Store](https://github.com/NeoApplications/Neo-Store/) instead of the official F-droid app to obtain it.
+    In some rare cases, the developer of an app will only distribute it through F-droid ([Gadgetbridge](https://gadgetbridge.org/) is one example of this). If you really need an app like that, we recommend using [Neo Store](https://github.com/NeoApplications/Neo-Store/) instead of the official F-droid app to obtain it.
