@@ -15,9 +15,9 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
     ![EteSync Notes logo](assets/img/notebooks/etesync-notes.png){ align=right }
 
-    **EteSync Notes** is a secure, end-to-end encrypted, and privacy-respecting note taking app. EteSync also offers optional [software as a service](https://dashboard.etebase.com/user/partner/pricing/), or you can host the server yourself for free.
+    **EteSync Notes** is a secure, E2EE, and privacy-respecting note taking app. EteSync also offers optional [software as a service](https://dashboard.etebase.com/user/partner/pricing/), or you can host the server yourself for free.
 
-    [etebase](https://docs.etebase.com), which is the foundation of EteSync, can also be used by other apps as a backend to store data end-to-end encrypted (E2EE).
+    [etebase](https://docs.etebase.com), which is the foundation of EteSync, can also be used by other apps as a backend to store data with E2EE.
 
     [:octicons-home-16: Homepage](https://www.etesync.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.etesync.com/tos/#privacy){ .card-link title="Privacy Policy" }
@@ -56,8 +56,8 @@ If you are currently using an application like Evernote, Google Keep, or Microso
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
 
-Joplin does not support password/pin protection for the [application itself or individual notes/notebooks](https://github.com/laurent22/joplin/issues/289). Data is still encrypted in transit and at the sync location using your master key.
-
+Joplin does not support password/PIN protection for the [application itself or individual notes and notebooks](https://github.com/laurent22/joplin/issues/289). However, your data is still encrypted in transit and at the sync location using your master key.
+  
 ### Standard Notes
 
 !!! recommendation
