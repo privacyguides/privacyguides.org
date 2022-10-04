@@ -15,9 +15,9 @@ extra:
     - icon: simple/matrix
       link: https://matrix.to/#/#privacyguides:matrix.org
       name: Matrix
-    - icon: simple/reddit
-      link: https://reddit.com/r/PrivacyGuides
-      name: Reddit
+    - icon: simple/discourse
+      link: https://discuss.privacyguides.org/
+      name: Forum
     - icon: simple/mastodon
       link: https://mastodon.social/@privacyguides
       name: Mastodon
