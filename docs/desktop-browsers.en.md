@@ -23,7 +23,7 @@ These are our currently recommended desktop web browsers and configurations for 
         - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
         - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
         - [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
-        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.firefox)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
 
 !!! warning
     Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
@@ -98,6 +98,7 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
 
     ??? downloads annotate
 
+        - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
         - [:simple-windows11: Windows](https://brave.com/download/)
         - [:simple-apple: macOS](https://brave.com/download/)
         - [:simple-linux: Linux](https://brave.com/linux/) (1)

@@ -55,11 +55,10 @@ Discover how to privately share your files between your devices, with your frien
 
     ??? downloads
 
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
         - [:simple-windows11: Windows](https://syncthing.net/downloads/)
         - [:simple-apple: macOS](https://syncthing.net/downloads/)
         - [:simple-linux: Linux](https://syncthing.net/downloads/)
         - [:simple-freebsd: FreeBSD](https://syncthing.net/downloads/)
         - [:simple-openbsd: OpenBSD](https://syncthing.net/downloads/)
         - [:simple-netbsd: NetBSD](https://syncthing.net/downloads/)
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
-        - [:simple-fdroid: F-Droid](https://f-droid.org/packages/com.nutomic.syncthingandroid/)

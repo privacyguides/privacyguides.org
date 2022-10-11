@@ -31,7 +31,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
         - [:simple-windows11: Windows](https://www.thunderbird.net)
         - [:simple-apple: macOS](https://www.thunderbird.net)
         - [:simple-linux: Linux](https://www.thunderbird.net)
-        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.Thunderbird)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.Thunderbird)
 
 ## Platform Specific
 
@@ -61,10 +61,9 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
     ??? downloads
 
-        - [:simple-apple: Mac App Store](https://apps.apple.com/app/id1236045954)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
         - [:simple-windows11: Windows](https://canarymail.io/downloads.html)
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
 
 !!! attention
 
@@ -89,7 +88,7 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
     ??? downloads
 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
-        - [:simple-fdroid: F-Droid](https://f-droid.org/packages/eu.faircode.email/)
+        - [:simple-github: GitHub](https://github.com/M66B/FairEmail/releases)
 
 ### GNOME Evolution (GNOME)
 
@@ -107,7 +106,7 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 
     ??? downloads
 
-        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.gnome.Evolution)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gnome.Evolution)
 
 ### K-9 Mail (Android)
 
@@ -128,7 +127,6 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
     ??? downloads
 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
-        - [:simple-fdroid: F-Droid](https://f-droid.org/packages/com.fsck.k9)
         - [:simple-github: GitHub](https://github.com/k9mail/k-9/releases)
 
 ### Kontact (KDE)
@@ -148,7 +146,7 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
     ??? downloads
 
         - [:simple-linux: Linux](https://kontact.kde.org/download)
-        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.kde.kontact)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.kontact)
 
 ### Mailvelope (Browser)
 
@@ -186,5 +184,5 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 
     ??? downloads
 
-        - [:simple-linux: Linux](https://neomutt.org/distro)
         - [:simple-apple: macOS](https://neomutt.org/distro)
+        - [:simple-linux: Linux](https://neomutt.org/distro)

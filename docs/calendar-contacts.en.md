@@ -23,14 +23,13 @@ Calendars and contacts contain some of your most sensitive data; use products th
 
     ??? downloads
 
-        - [:octicons-browser-16: Web](https://mail.tutanota.com/)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
         - [:simple-windows11: Windows](https://tutanota.com/blog/posts/desktop-clients/)
         - [:simple-apple: macOS](https://tutanota.com/blog/posts/desktop-clients/)
         - [:simple-linux: Linux](https://tutanota.com/blog/posts/desktop-clients/)
-        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/com.tutanota.Tutanota)
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-        - [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/de.tutao.tutanota)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/details/com.tutanota.Tutanota)
+        - [:octicons-browser-16: Web](https://mail.tutanota.com/)
 
 ## EteSync
 
@@ -50,10 +49,9 @@ Calendars and contacts contain some of your most sensitive data; use products th
 
     ??? downloads
 
-        - [:octicons-device-desktop-16: Client Setup](https://github.com/etesync/etesync-dav/blob/master/README.md#specific-client-notes-and-instructions)
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.etesync.syncadapter)
-        - [:simple-fdroid: F-Droid](https://f-droid.org/app/com.etesync.syncadapter)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/apple-store/id1489574285)
+        - [:octicons-device-desktop-16: Client Setup](https://github.com/etesync/etesync-dav/blob/master/README.md#specific-client-notes-and-instructions)
         - [:simple-docker: Docker Hub](https://hub.docker.com/r/victorrds/etesync)
 
 ## Proton Calendar
@@ -73,8 +71,8 @@ Calendars and contacts contain some of your most sensitive data; use products th
 
     ??? downloads
 
-        - [:octicons-browser-16: Web](https://calendar.proton.me)
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
+        - [:octicons-browser-16: Web](https://calendar.proton.me)
 
 !!! warning
     Proton [does not](https://proton.me/support/proton-contacts#verify) use E2EE for your contact names and email addresses.

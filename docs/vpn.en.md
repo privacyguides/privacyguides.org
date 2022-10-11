@@ -40,6 +40,14 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
     [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
 
+    ??? downloads
+
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
+        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
+        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+
 ??? check annotate "64 Countries"
 
     Proton VPN has [servers in 64 countries](https://protonvpn.com/vpn-servers) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
@@ -90,6 +98,15 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
     [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+
+    ??? downloads
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683)
+        - [:simple-github: GitHub](https://github.com/ivpn/android-app/releases)
+        - [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
+        - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
+        - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
 
 ??? check annotate "34 Countries"
 
@@ -142,6 +159,15 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
     [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+
+    ??? downloads
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
+        - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
+        - [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
+        - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
+        - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
 
 ??? check annotate "39 Countries"
 

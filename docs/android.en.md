@@ -136,7 +136,6 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
     ??? downloads
 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.typeblog.shelter)
-        - [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/net.typeblog.shelter)
 
 !!! warning
 
@@ -252,7 +251,6 @@ The Google Play Store requires a Google account to login which is not great for 
 
     ??? downloads
 
-        - [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/com.aurora.store/)
         - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
 Aurora Store does not allow you to download paid apps with their anonymous account feature. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google, however you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.

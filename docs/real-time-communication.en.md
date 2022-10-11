@@ -27,11 +27,12 @@ These are our recommendations for encrypted real-time communication.
 
     ??? downloads
 
-        - [:simple-windows11: Windows](https://signal.org/download)
-        - [:simple-apple: macOS](https://signal.org/download)
-        - [:simple-linux: Linux](https://signal.org/download)
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
+        - [:simple-android: Android](https://signal.org/android/apk/)
+        - [:simple-windows11: Windows](https://signal.org/download/windows)
+        - [:simple-apple: macOS](https://signal.org/download/macos)
+        - [:simple-linux: Linux](https://signal.org/download/linux)
 
 Signal supports [private groups](https://signal.org/blog/signal-private-group-system/). The server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender/) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server. Sealed Sender is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam. Signal requires your phone number as a personal identifier.
 
@@ -58,13 +59,13 @@ We have some additional tips on configuring and hardening your Signal installati
 
     ??? downloads
 
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
+        - [:simple-github: GitHub](https://github.com/vector-im/element-android/releases)
         - [:simple-windows11: Windows](https://element.io/get-started)
         - [:simple-apple: macOS](https://element.io/get-started)
         - [:simple-linux: Linux](https://element.io/get-started)
         - [:octicons-globe-16: Web](https://app.element.io)
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-        - [:simple-fdroid: F-Droid](https://f-droid.org/packages/im.vector.app/)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
 
 Profile pictures, reactions, and nicknames are not encrypted.
 
@@ -89,12 +90,12 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
 
     ??? downloads
 
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
+        - [:simple-github: GitHub](https://github.com/oxen-io/session-android/releases)
         - [:simple-windows11: Windows](https://getsession.org/download)
         - [:simple-apple: macOS](https://getsession.org/download)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
         - [:simple-linux: Linux](https://getsession.org/download)
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
-        - [:simple-fdroid: F-Droid](https://fdroid.getsession.org)
 
 Session allows for E2EE in one-on-one chats or closed groups which allow for up to 100 members. Open groups have no restriction on the number of members, but are open by design.
 
@@ -122,9 +123,8 @@ Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the 
 
     ??? downloads
 
-        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.briarproject.Briar)
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
-        - [:simple-fdroid: F-Droid](https://f-droid.org/packages/org.briarproject.briar.android)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.briarproject.Briar)
 
 To add a contact on Briar, you must both add each other first. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.
 

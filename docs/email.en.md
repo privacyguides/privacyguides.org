@@ -34,6 +34,16 @@ For everything else, we recommend a variety of email providers based on sustaina
     [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
 
+    ??? downloads
+
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
+        - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
+        - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
+        - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
+        - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
+        - [:octicons-browser-16: Web](https://mail.proton.me)
+
 ??? check "Custom Domains and Aliases"
 
     Paid Proton Mail subscribers can use their own domain with the service or a [catch-all](https://proton.me/support/catch-all) address. Proton Mail also supports [subaddressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
@@ -73,6 +83,10 @@ For everything else, we recommend a variety of email providers based on sustaina
     [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+
+    ??? downloads
+
+        - [:octicons-browser-16: Web](https://login.mailbox.org)
 
 ??? check "Custom Domains and Aliases"
 
@@ -117,6 +131,10 @@ For everything else, we recommend a variety of email providers based on sustaina
     [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentation}
 
+    ??? downloads
+
+        - [:octicons-browser-16: Web](https://mail.startmail.com/login)
+
 ??? check "Custom Domains and Aliases"
 
     Personal accounts can use [Custom or Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) aliases. [Custom domains](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) are also available.
@@ -157,11 +175,19 @@ For everything else, we recommend a variety of email providers based on sustaina
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribute }
 
+    ??? downloads
+
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
+        - [:simple-appstore: App Store](https://itunes.apple.com/de/app/tutanota/id922429609)
+        - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
+        - [:simple-windows11: Windows](https://tutanota.com/#download)
+        - [:simple-apple: macOS](https://tutanota.com/#download)
+        - [:simple-linux: Linux](https://tutanota.com/#download)
+        - [:octicons-browser-16: Web](https://mail.tutanota.com/)
+
 Tutanota [doesn't allow](https://tutanota.com/faq/#imap) the use of third-party [email clients](email-clients.md). Tutanota has no plans pull email from [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) using the IMAP protocol. [Email import](https://github.com/tutao/tutanota/issues/630) is currently not possible.
 
 Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail). Tutanota does not allow for [subfolders](https://github.com/tutao/tutanota/issues/927) as you might expect with other email providers.
-
-Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/desktop-clients/) and they have an app [available in F-Droid](https://f-droid.org/packages/de.tutao.tutanota). They also have their app in conventional stores such as [App Store](https://apps.apple.com/us/app/tutanota/id922429609) on iOS and [Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota) for Android.
 
 ??? check "Custom Domains and Aliases"
 
@@ -228,10 +254,11 @@ Using an aliasing service requires trusting both your email provider and your al
     [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribute }
 
     ??? downloads
+
+        - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
+        - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
-        - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
-        - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
 
 The number of shared aliases (which end in a shared domain like @anonaddy.me) that you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/year plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared aliases are available for $36/year.
 
@@ -257,13 +284,14 @@ Notable free features:
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
 
     ??? downloads
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
+        - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-        - [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/io.simplelogin.android.fdroid/)
 
 SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin is a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing. Securitum [audited](https://simplelogin.io/blog/security-audit/) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
 

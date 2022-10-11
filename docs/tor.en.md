@@ -43,15 +43,14 @@ There are a variety of ways to connect to the Tor network from your device, the 
 
     ??? downloads
 
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
+        - [:simple-android: Android](https://www.torproject.org/download/#android)
         - [:simple-windows11: Windows](https://www.torproject.org/download/)
         - [:simple-apple: macOS](https://www.torproject.org/download/)
         - [:simple-linux: Linux](https://www.torproject.org/download/)
         - [:simple-freebsd: FreeBSD](https://www.freshports.org/security/tor)
         - [:simple-openbsd: OpenBSD](https://openports.se/net/tor)
         - [:simple-netbsd: NetBSD](https://pkgsrc.se/net/tor)
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-        - [:simple-fdroid: F-Droid](https://support.torproject.org/tormobile/tormobile-7/)
-        - [:simple-android: Android](https://www.torproject.org/download/#android)
 
 !!! danger
 
@@ -76,9 +75,8 @@ The Tor Browser is designed to prevent fingerprinting, or identifying you based 
     ??? downloads
 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-        - [:simple-fdroid: F-Droid](https://guardianproject.info/fdroid)
-        - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
+        - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
 
 For resistance against traffic analysis attacks, consider enabling *Isolate Destination Address* in :material-menu: → **Settings** → **Connectivity**. This will use a completely different Tor Circuit (different middle relay and exit nodes) for every domain you connect to.
 

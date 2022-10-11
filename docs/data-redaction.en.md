@@ -64,7 +64,6 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
     ??? downloads
 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
-        - [:simple-android: IzzyOnDroid (APK)](https://android.izzysoft.de/repo/apk/com.none.tom.exiferaser)
         - [:simple-github: GitHub](https://github.com/Tommy-Geenexus/exif-eraser/releases)
 
 The metadata that is erased depends on the image's file type:
@@ -114,7 +113,6 @@ The app offers multiple ways to erase metadata from images. Namely:
     ??? downloads
 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-        - [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/de.mathema.privacyblur/)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
 
 !!! warning

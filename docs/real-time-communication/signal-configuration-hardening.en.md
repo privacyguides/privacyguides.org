@@ -212,7 +212,6 @@ On Android you can consider using **Molly**, a fork of the Signal mobile client 
 
     ??? downloads
 
-         - [:simple-fdroid: F-Droid](https://molly.im/download/fdroid/)
          - [:simple-github: GitHub](https://github.com/mollyim/mollyim-android/releases)
 
 Molly offers two variants of the app: **Molly** and **Molly-FOSS**.
