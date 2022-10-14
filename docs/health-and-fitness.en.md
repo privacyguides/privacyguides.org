@@ -49,9 +49,43 @@ If you need to keep track of menstrual cycles or any other sexual-health-related
 
 iOS users should consider using Apple Health's built-in [Cycle Tracking](https://support.apple.com/en-us/HT210407) feature, which lets you log your period, record symptoms like cramps, and track cycle factors like lactation in your Apple Health app, rather than relying on one of these third party solutions. Using native, locally-based solutions instead of third-party apps reduces your attack surface by limiting the number of parties that may have access to or be responsible for protecting your data.
 
-### Drip
+### Drip (Android & iOS)
 
-### Euki
+!!! recommendation
+
+![Drip logo](assets/img/health/drip.svg){ align=right }
+
+**Drip** is a minimal, open-source period tracker app. All data is stored locally on your device. It features data import and export, and a pin to lock the app.
+
+[:octicons-home-16: Homepage](https://bloodyhealth.gitlab.io/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://bloodyhealth.gitlab.io/privacy-policy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gitlab.com/bloodyhealth/drip/-/blob/main/README.md){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.com/bloodyhealth/drip){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://gitlab.com/bloodyhealth/drip/-/blob/main/CONTRIBUTING.md){ .card-link title=Contribute }
+
+??? downloads
+
+    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/drip./id1584564949)
+    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.drip)
+    - [:pg-f-droid: F-Droid](https://f-droid.org/packages/com.drip/)
+
+
+### Euki (Android & iOS)
+
+!!! recommendation
+
+![Euki logo](assets/img/health/euki.svg){ align=right }
+
+**Euki** is a free period tracker app that features comprehensive sexual and reproductive health information. It can be locked with a pin.
+
+[:octicons-home-16: Homepage](https://eukiapp.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://eukiapp.com/privacy-policy){ .card-link title="Privacy Policy" }
+
+??? downloads
+
+    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/euki/id1469213846)
+    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=com.kollectivemobile.euki)
+
 
 ### Periodical
 
