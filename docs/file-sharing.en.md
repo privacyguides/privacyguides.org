@@ -6,6 +6,26 @@ Discover how to privately share your files between your devices, with your frien
 
 ## File Sharing
 
+### Send
+
+!!! recommendation
+
+    ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
+
+    **Send** is a fork of Mozilla’s discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well. The maintainer of Send hosts a [public instance](https://send.vis.ee/). You can use other public instances, or you can host Send yourself.
+
+    [:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
+    [:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title=Contribute }
+
+Send can be used via its web interface or via the [ffsend](https://github.com/timvisee/ffsend) CLI. If you are familiar with the command-line and send files frequently, we recommend using the CLI client to avoid JavaScript-based encryption. You can specify the `--host` flag to use a specific server:
+
+```bash
+ffsend upload --host https://send.vis.ee/ FILE
+```
+
 ### OnionShare
 
 !!! recommendation
@@ -16,7 +36,7 @@ Discover how to privately share your files between your devices, with your frien
 
     [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
-    [:octicons-info-16:](https://docs.onionshare.org/){ .card-link title=Documentation}
+    [:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
 
     ??? downloads
