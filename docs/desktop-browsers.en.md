@@ -143,6 +143,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
 - [ ] Uncheck **Automatically send daily usage ping to Brave**
 - [x] Select **Always use secure connections** in the **Security** menu
+- [ ] Uncheck **Private window with Tor** (1)
 
     !!! important "Sanitizing on Close"
         - [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
@@ -156,7 +157,6 @@ Disable built-in extensions you do not use in **Extensions**
 <div class="annotate" markdown>
 
 - [ ] Uncheck **Hangouts**
-- [ ] Uncheck **Private window with Tor** (1)
 - [ ] Uncheck **WebTorrent**
 
 </div>
