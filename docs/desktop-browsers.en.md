@@ -145,6 +145,8 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 - [x] Select **Always use secure connections** in the **Security** menu
 - [ ] Uncheck **Private window with Tor** (1)
 
+1. Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. Where [strong anonymity is required](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) use the [Tor Browser](tor.md#tor-browser).
+
     !!! important "Sanitizing on Close"
         - [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
 
@@ -160,8 +162,6 @@ Disable built-in extensions you do not use in **Extensions**
 - [ ] Uncheck **WebTorrent**
 
 </div>
-
-1. Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. Where [strong anonymity is required](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) use the [Tor Browser](tor.md#tor-browser).
 
 ##### IPFS
 
