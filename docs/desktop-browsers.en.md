@@ -138,6 +138,8 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 ##### Privacy and Security
 
+<div class="annotate" markdown>
+
 - [x] Select **Disable Non-Proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
 - [ ] Uncheck **Use Google services for push messaging**
 - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
@@ -150,18 +152,16 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
         If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
+</div>
+
+1. Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. Where [strong anonymity is required](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) use the [Tor Browser](tor.md#tor-browser).
+
 ##### Extensions
 
 Disable built-in extensions you do not use in **Extensions**
 
-<div class="annotate" markdown>
-
 - [ ] Uncheck **Hangouts**
 - [ ] Uncheck **WebTorrent**
-
-</div>
-
-1. Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. Where [strong anonymity is required](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) use the [Tor Browser](tor.md#tor-browser).
 
 ##### IPFS
 
