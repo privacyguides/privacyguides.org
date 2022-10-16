@@ -5,6 +5,9 @@ icon: 'material/cellphone-cog'
 
 GrapheneOS and CalyxOS are often compared as similar options for people looking for an alternative Android OS for their Pixel devices. Below are some of the reasons why we recommend GrapheneOS over CalyxOS.
 
+- [General Android Overview :material-arrow-right-drop-circle:](overview.md)
+- [Android Recommendations :material-arrow-right-drop-circle:](../android.md)
+
 ## Update Frequency
 
 CalyxOS has a track record of being slower to apply security and feature updates to its OS and core applications than other custom Android operating systems. Timely security updates are one of the most important factors to consider when determining whether an OS is secure enough for regular use, which is a requirement for privacy.
