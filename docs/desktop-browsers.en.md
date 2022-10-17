@@ -23,7 +23,7 @@ These are our currently recommended desktop web browsers and configurations for 
         - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
         - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
         - [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
-        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.firefox)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
 
 !!! warning
     Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
@@ -98,6 +98,7 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
 
     ??? downloads annotate
 
+        - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
         - [:simple-windows11: Windows](https://brave.com/download/)
         - [:simple-apple: macOS](https://brave.com/download/)
         - [:simple-linux: Linux](https://brave.com/linux/) (1)
@@ -137,30 +138,30 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 ##### Privacy and Security
 
+<div class="annotate" markdown>
+
 - [x] Select **Disable Non-Proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
 - [ ] Uncheck **Use Google services for push messaging**
 - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
 - [ ] Uncheck **Automatically send daily usage ping to Brave**
 - [x] Select **Always use secure connections** in the **Security** menu
+- [ ] Uncheck **Private window with Tor** (1)
 
     !!! important "Sanitizing on Close"
         - [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
 
         If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
+</div>
+
+1. Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. Where [strong anonymity is required](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) use the [Tor Browser](tor.md#tor-browser).
+
 ##### Extensions
 
 Disable built-in extensions you do not use in **Extensions**
 
-<div class="annotate" markdown>
-
 - [ ] Uncheck **Hangouts**
-- [ ] Uncheck **Private window with Tor** (1)
 - [ ] Uncheck **WebTorrent**
-
-</div>
-
-1. Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. Where [strong anonymity is required](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) use the [Tor Browser](tor.md#tor-browser).
 
 ##### IPFS
 

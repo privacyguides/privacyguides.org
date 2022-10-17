@@ -93,7 +93,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ba
     ??? downloads
 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
-        - [:simple-fdroid: F-Droid](https://f-droid.org/packages/com.celzero.bravedns)
+        - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
 
 ### dnscrypt-proxy
 

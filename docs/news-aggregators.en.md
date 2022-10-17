@@ -23,7 +23,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     ??? downloads
 
-        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.kde.akregator)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
 ### Feeder
 
@@ -40,7 +40,6 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
     ??? downloads
 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
-        - [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/com.nononsenseapps.feeder/)
 
 ### Fluent Reader
 
@@ -59,7 +58,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
     ??? downloads
 
         - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
-        - [:simple-apple: Mac App Store](https://apps.apple.com/app/id1520907427)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
 
 ### GNOME Feeds
 
@@ -76,7 +75,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
     ??? downloads
 
         - [:simple-linux: Linux](https://gfeeds.gabmus.org/#install)
-        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.gabmus.gfeeds)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gabmus.gfeeds)
 
 ### Miniflux
 
@@ -107,8 +106,8 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
     ??? downloads
 
-        - [:simple-apple: macOS](https://netnewswire.com)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
+        - [:simple-apple: macOS](https://netnewswire.com)
 
 ### Newsboat
 

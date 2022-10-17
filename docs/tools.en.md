@@ -7,7 +7,7 @@ hide:
 
 If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your use case.
 
-If you want assistance figuring out the best privacy tools and alternative programs for your workload/use-case, start a discussion in our [Reddit](https://www.reddit.com/r/privacyguides) or [Matrix](https://matrix.to/#/#privacyguides:matrix.org) communities!
+If you want assistance figuring out the best privacy tools and alternative programs for your workload/use-case, start a discussion on our [forum](https://discuss.privacyguides.org/) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
 
 For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
 
@@ -322,6 +322,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
+- ![Send logo](assets/img/file-sharing-sync/send.svg){ .twemoji } [Send](file-sharing.md#send)
 - ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [OnionShare](file-sharing.md#onionshare)
 - ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji } [FreedomBox](file-sharing.md#freedombox)
 - ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji } [Syncthing](file-sharing.md#syncthing)

@@ -25,13 +25,12 @@ These password managers sync your passwords to a cloud server for easy accessibi
 
     ??? downloads
 
-        - [:simple-windows11: Windows](https://bitwarden.com/download)
-        - [:simple-apple: Mac App Store](https://apps.apple.com/app/bitwarden/id1352778147)
-        - [:simple-linux: Linux](https://bitwarden.com/download)
-        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/com.bitwarden.desktop)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
-        - [:simple-fdroid: F-Droid](https://mobileapp.bitwarden.com/fdroid)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
+        - [:simple-github: GitHub](https://github.com/bitwarden/mobile/releases)
+        - [:simple-windows11: Windows](https://bitwarden.com/download)
+        - [:simple-linux: Linux](https://bitwarden.com/download)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/details/com.bitwarden.desktop)
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
@@ -61,6 +60,15 @@ Bitwarden's server-side code is [open-source](https://github.com/bitwarden/serve
     [:octicons-eye-16:](https://support.1password.com/1password-privacy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
 
+    ??? downloads
+
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
+        - [:simple-windows11: Windows](https://1password.com/downloads/windows/)
+        - [:simple-apple: macOS](https://1password.com/downloads/mac/)
+        - [:simple-linux: Linux](https://1password.com/downloads/linux/)
+        
+
 Traditionally, **1Password** has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature-parity across all platforms. It boasts many features geared towards families and less technical people, as well as advanced functionality.
 
 Your 1Password vault is secured with both your master password and a randomized 34-character security key to encrypt your data on their servers. This security key adds a layer of protection to your data because your data is secured with high entropy regardless of your master password. Many other password manager solutions are entirely reliant on the strength of your master password to secure your data.
@@ -82,10 +90,10 @@ One advantage 1Password has over Bitwarden is its first-class support for native
 
     ??? downloads
 
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
         - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
 
 Psono provides [extensive documentation](https://doc.psono.com/) for their product. The [web-client](https://doc.psono.com/admin/installation/install-webclient.html#installation-with-docker) for Psono can be self-hosted; alternatively, you can choose the full [Community Edition](https://doc.psono.com/admin/installation/install-server-ce.html) or the [Enterprise Edition](https://doc.psono.com/admin/installation/install-server-ee.html) with additional features.
@@ -135,7 +143,6 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
     ??? downloads
 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
-        - [:simple-fdroid: F-Droid](https://www.f-droid.org/packages/com.kunzisoft.keepass.libre)
         - [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
 
 ### Strongbox (iOS & macOS)
@@ -144,7 +151,7 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
     ![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
 
-    **Strongbox** is an open-source password manager for iOS and macOS that supports KeePass and Password Safe formats. It offers a [premium version](https://strongboxsafe.com/pricing/) with more features such as TouchID and FaceID unlocking.
+    **Strongbox** is a native, open-source password manager for iOS and macOS. Supporting both KeePass and Password Safe formats, Strongbox can be used in tandem with other password managers, like KeePassXC, on non-Apple platforms. By employing a [freemium model](https://strongboxsafe.com/pricing/), Strongbox offers most features under its free tier with more convenience-oriented [features](https://strongboxsafe.com/comparison/)—such as biometric authentication—locked behind a subscription or perpetual license.
 
     [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Privacy Policy" }
@@ -154,10 +161,9 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
     ??? downloads
 
-        - [:simple-apple: Mac App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
         - [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
 
-There is also an offline-only version available called [Strongbox Zero](https://apps.apple.com/us/app/strongbox-keepass-pwsafe/id1581589638) if you don't need syncing; this version is stripped down so it has less attack surface.
+Additionally, there is an offline-only version offered: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). This version is stripped down in an attempt to reduce attack surface.
 
 ## Command-line
 

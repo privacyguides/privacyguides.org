@@ -24,13 +24,13 @@ The options listed here are multi-platform and great for creating encrypted back
 
     ??? downloads
 
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
+        - [:simple-android: Android](https://cryptomator.org/android)
         - [:simple-windows11: Windows](https://cryptomator.org/downloads)
         - [:simple-apple: macOS](https://cryptomator.org/downloads)
         - [:simple-linux: Linux](https://cryptomator.org/downloads)
-        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
-        - [:simple-android: Android](https://cryptomator.org/android)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
 
 Cryptomator uses AES-256 encryption to encrypt both files and filenames. Cryptomator cannot encrypt metadata such as access, modification, and creation timestamps, nor the number and size of files and folders.
 
@@ -267,10 +267,10 @@ When encrypting with PGP, you have the option to configure different options in 
 
     ??? downloads
 
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
         - [:simple-windows11: Windows](https://gpg4win.org/download.html)
         - [:simple-apple: macOS](https://gpgtools.org)
         - [:simple-linux: Linux](https://gnupg.org/download/index.html#binary)
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 
 ### GPG4win
 
@@ -330,4 +330,3 @@ When encrypting with PGP, you have the option to configure different options in 
     ??? downloads
 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
-        - [:simple-fdroid: F-Droid](https://f-droid.org/packages/org.sufficientlysecure.keychain/)

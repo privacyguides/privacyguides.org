@@ -28,7 +28,6 @@ If you are currently using an application like Evernote, Google Keep, or Microso
     ??? downloads
 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.etesync.notes)
-        - [:simple-fdroid: F-Droid](https://f-droid.org/packages/com.etesync.notes)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/etesync-notes/id1533806351)
         - [:octicons-globe-16: Web](https://notes.etesync.com)
 
@@ -48,13 +47,14 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
     ??? downloads
 
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
+        - [:simple-github: GitHub](https://github.com/laurent22/joplin-android/releases)
         - [:simple-windows11: Windows](https://joplinapp.org/#desktop-applications)
         - [:simple-apple: macOS](https://joplinapp.org/#desktop-applications)
         - [:simple-linux: Linux](https://joplinapp.org/#desktop-applications)
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
 
 Joplin does not support password/PIN protection for the [application itself or individual notes and notebooks](https://github.com/laurent22/joplin/issues/289). However, your data is still encrypted in transit and at the sync location using your master key.
   
@@ -74,12 +74,12 @@ Joplin does not support password/PIN protection for the [application itself or i
 
     ??? downloads
 
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
+        - [:simple-github: GitHub](https://github.com/standardnotes/app/releases)
         - [:simple-windows11: Windows](https://standardnotes.com)
         - [:simple-apple: macOS](https://standardnotes.com)
         - [:simple-linux: Linux](https://standardnotes.com)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
-        - [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/com.standardnotes)
         - [:octicons-globe-16: Web](https://app.standardnotes.com/)
 
 ## Local notebooks

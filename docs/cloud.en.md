@@ -22,6 +22,10 @@ If these alternatives do not fit your needs, we suggest you look into [Encryptio
     [:octicons-info-16:](https://crypt.ee/help){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/cryptee){ .card-link title="Source Code" }
 
+    ??? downloads
+    
+        - [:octicons-globe-16: PWA](https://crypt.ee/download)
+
 ## Nextcloud
 
 !!! recommendation
@@ -38,15 +42,15 @@ If these alternatives do not fit your needs, we suggest you look into [Encryptio
 
     ??? downloads
 
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
+        - [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
         - [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
         - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
         - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
         - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
         - [:simple-openbsd: OpenBSD](https://openports.se/www/nextcloud)
         - [:simple-netbsd: NetBSD](https://pkgsrc.se/www/php-nextcloud)
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-        - [:simple-fdroid: F-Droid](https://f-droid.org/packages/com.nextcloud.client)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
 
 We recommend checking if your Nextcloud provider supports E2EE, otherwise you have to trust the provider to not look at your files.
 
