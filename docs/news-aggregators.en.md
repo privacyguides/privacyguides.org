@@ -9,9 +9,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 ### Akregator
 
-!!! recommendation
-
-    ![Akregator logo](assets/img/news-aggregators/akregator.svg){ align=right }
+!!! recommendation "![Akregator logo](assets/img/news-aggregators/akregator.svg){ align=right }"
 
     **Akregator** is a news feed reader that is a part of the [KDE](https://kde.org) project. It comes with a fast search, advanced archiving functionality and an internal browser for easy news reading.
 
@@ -27,9 +25,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 ### Feeder
 
-!!! recommendation
-
-    ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
+!!! recommendation "![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }"
 
     **Feeder** is a modern RSS client for Android that has many [features](https://gitlab.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
@@ -43,9 +39,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 ### Fluent Reader
 
-!!! recommendation
-
-    ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ align=right }
+!!! recommendation "![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ align=right }"
 
     **Fluent Reader** is a secure cross-platform news aggregator that has useful privacy features such as deletion of cookies on exit, strict [content security policies (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) and proxy support, meaning you can use it over [Tor](tor.md).
 
@@ -62,9 +56,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 ### GNOME Feeds
 
-!!! recommendation
-
-    ![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ align=right }
+!!! recommendation "![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ align=right }"
 
     **GNOME Feeds** is an [RSS](https://en.wikipedia.org/wiki/RSS) and [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) news reader for [GNOME](https://www.gnome.org). It has a simple interface and is quite fast.
 
@@ -79,10 +71,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 ### Miniflux
 
-!!! recommendation
-
-    ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
-    ![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
+!!! recommendation "![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }"
 
     **Miniflux** is a web-based news aggregator that you can self-host. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
@@ -93,9 +82,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 ### NetNewsWire
 
-!!! recommendation
-
-    ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
+!!! recommendation "![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }"
 
     **NetNewsWire** a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. It supports the typical feed formats alongside built-in support for Twitter and Reddit feeds.
 
@@ -111,9 +98,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 ### Newsboat
 
-!!! recommendation
-
-    ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ align=right }
+!!! recommendation "![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ align=right }"
 
     **Newsboat** is an RSS/Atom feed reader for the text console. It's an actively maintained fork of [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). It is very lightweight, and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
 

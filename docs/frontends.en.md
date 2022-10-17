@@ -9,10 +9,7 @@ Sometimes services will try to force you to sign up for an account by blocking a
 
 ### Librarian
 
-!!! recommendation
-
-    ![Librarian logo](assets/img/frontends/librarian.svg#only-light){ align=right }
-    ![Librarian logo](assets/img/frontends/librarian-dark.svg#only-dark){ align=right }
+!!! recommendation "![Librarian logo](assets/img/frontends/librarian.svg#only-light){ align=right }![Librarian logo](assets/img/frontends/librarian-dark.svg#only-dark){ align=right }"
 
     **Librarian** is a free and open-source frontend for [Odysee](https://odysee.com/) (LBRY) that is also self-hostable.
     
@@ -39,9 +36,7 @@ When you are using a Librarian instance, make sure to read the privacy policy of
 
 ### Nitter
 
-!!! recommendation
-
-    ![Nitter logo](assets/img/frontends/nitter.svg){ align=right }
+!!! recommendation "![Nitter logo](assets/img/frontends/nitter.svg){ align=right }"
 
     **Nitter** is a free and open-source frontend for [Twitter](https://twitter.com) that is also self-hostable.
 
@@ -65,9 +60,7 @@ When you are using a Nitter instance, make sure to read the privacy policy of th
 
 ### FreeTube
 
-!!! recommendation
-
-    ![FreeTube logo](assets/img/frontends/freetube.svg){ align=right }
+!!! recommendation "![FreeTube logo](assets/img/frontends/freetube.svg){ align=right }"
 
     **FreeTube** is a free and open-source desktop application for [YouTube](https://youtube.com). When using FreeTube, your subscription list and playlists are saved locally on your device.
 
@@ -93,9 +86,7 @@ When you are using a Nitter instance, make sure to read the privacy policy of th
 
 ### NewPipe (Android)
 
-!!! recommendation annotate
-
-    ![Newpipe logo](assets/img/frontends/newpipe.svg){ align=right }
+!!! recommendation annotate "![Newpipe logo](assets/img/frontends/newpipe.svg){ align=right }"
 
     **NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org/) (1).
 
@@ -119,10 +110,7 @@ When you are using a Nitter instance, make sure to read the privacy policy of th
 
 ### Invidious
 
-!!! recommendation
-
-    ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ align=right }
-    ![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ align=right }
+!!! recommendation "![Invidious logo](assets/img/frontends/invidious.svg#only-light){ align=right }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ align=right }"
 
     **Invidious** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
 
@@ -148,9 +136,7 @@ When you are using an Invidious instance, make sure to read the privacy policy o
 
 ### Piped
 
-!!! recommendation
-
-    ![Piped logo](assets/img/frontends/piped.svg){ align=right }
+!!! recommendation "![Piped logo](assets/img/frontends/piped.svg){ align=right }"
 
     **Piped** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
 

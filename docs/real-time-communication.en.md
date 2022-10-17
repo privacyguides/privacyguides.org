@@ -11,9 +11,7 @@ These are our recommendations for encrypted real-time communication.
 
 ### Signal
 
-!!! recommendation
-
-    ![Signal logo](assets/img/messengers/signal.svg){ align=right }
+!!! recommendation "![Signal logo](assets/img/messengers/signal.svg){ align=right }"
 
     **Signal** is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling.
 
@@ -44,9 +42,7 @@ We have some additional tips on configuring and hardening your Signal installati
 
 ### Element
 
-!!! recommendation
-
-    ![Element logo](assets/img/messengers/element.svg){ align=right }
+!!! recommendation "![Element logo](assets/img/messengers/element.svg){ align=right }"
 
     **Element** is the reference client for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
 
@@ -75,9 +71,7 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
 
 ### Session
 
-!!! recommendation
-
-    ![Session logo](assets/img/messengers/session.svg){ align=right }
+!!! recommendation "![Session logo](assets/img/messengers/session.svg){ align=right }"
 
     **Session** is a decentralized messenger with a focus on private, secure, and anonymous communications. Session offers support for direct messages, group chats, and voice calls.
 
@@ -109,9 +103,7 @@ Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the 
 
 ### Briar (Android)
 
-!!! recommendation
-
-    ![Briar logo](assets/img/messengers/briar.svg){ align=right }
+!!! recommendation "![Briar logo](assets/img/messengers/briar.svg){ align=right }"
 
     **Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works/) to other clients using the Tor Network. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
 

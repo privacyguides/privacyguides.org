@@ -12,9 +12,7 @@ These password managers sync your passwords to a cloud server for easy accessibi
 
 ### Bitwarden
 
-!!! recommendation
-
-    ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
+!!! recommendation "![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }"
 
     **Bitwarden** is a free and open-source password manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the best and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices.
 
@@ -50,9 +48,7 @@ Bitwarden's server-side code is [open-source](https://github.com/bitwarden/serve
 
 ### 1Password
 
-!!! recommendation
-
-    ![1Password logo](assets/img/password-management/1password.svg){ align=right }
+!!! recommendation "![1Password logo](assets/img/password-management/1password.svg){ align=right }"
 
     **1Password** is a password manager with a strong focus on security and ease-of-use, which allows you to store passwords, credit cards, software licenses, and any other sensitive information in a secure digital vault. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up/). 1Password is [audited](https://support.1password.com/security-assessments/) on a regular basis and provides exceptional customer support. 1Password is closed source; however, the security of the product is thoroughly documented in their [security white paper](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
 
@@ -77,9 +73,7 @@ One advantage 1Password has over Bitwarden is its first-class support for native
 
 ### Psono
 
-!!! recommendation
-
-    ![Psono logo](assets/img/password-management/psono.svg){ align=right }
+!!! recommendation "![Psono logo](assets/img/password-management/psono.svg){ align=right }"
 
     **Psono** is a free and open-source password manager from Germany, with a focus on password management for teams. Psono supports secure sharing of passwords, files, bookmarks, and emails. All secrets are protected by a master password.
 
@@ -104,9 +98,7 @@ These options allow you to manage an encrypted password database locally.
 
 ### KeePassXC
 
-!!! recommendation
-
-    ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
+!!! recommendation "![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }"
 
     **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, cross-platform and modern open-source password manager.
 
@@ -129,9 +121,7 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 ### KeePassDX (Android)
 
-!!! recommendation
-
-    ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
+!!! recommendation "![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }"
 
     **KeePassDX** is a lightweight password manager for Android, allows editing encrypted data in a single file in KeePass format and can fill in the forms in a secure way. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) allows unlocking cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
@@ -147,9 +137,7 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 ### Strongbox (iOS & macOS)
 
-!!! recommendation
-
-    ![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
+!!! recommendation "![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }"
 
     **Strongbox** is a native, open-source password manager for iOS and macOS. Supporting both KeePass and Password Safe formats, Strongbox can be used in tandem with other password managers, like KeePassXC, on non-Apple platforms. By employing a [freemium model](https://strongboxsafe.com/pricing/), Strongbox offers most features under its free tier with more convenience-oriented [features](https://strongboxsafe.com/comparison/)—such as biometric authentication—locked behind a subscription or perpetual license.
 
@@ -171,9 +159,7 @@ These products are minimal password managers that can be used within scripting a
 
 ### gopass
 
-!!! recommendation
-
-    ![gopass logo](assets/img/password-management/gopass.svg){ align=right }
+!!! recommendation "![gopass logo](assets/img/password-management/gopass.svg){ align=right }"
 
     **gopass** is a password manager for the command line written in Go. It works on all major desktop and server operating systems (Linux, macOS, BSD, Windows).
 

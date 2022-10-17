@@ -8,10 +8,7 @@ If these alternatives do not fit your needs, we suggest you look into [Encryptio
 
 ## Cryptee
 
-!!! recommendation
-
-    ![Cryptee logo](./assets/img/cloud/cryptee.svg#only-light){ align=right }
-    ![Cryptee logo](./assets/img/cloud/cryptee-dark.svg#only-dark){ align=right }
+!!! recommendation "![Cryptee logo](./assets/img/cloud/cryptee.svg#only-light){ align=right }![Cryptee logo](./assets/img/cloud/cryptee-dark.svg#only-dark){ align=right }"
 
     **Cryptee** is a web-based E2EE data storage service. It primarily focuses on photo and video storage as well document editing. Cryptee is a PWA, which means that it works seamlessly across all modern devices without requiring native apps for each respective platform.
 
@@ -28,9 +25,7 @@ If these alternatives do not fit your needs, we suggest you look into [Encryptio
 
 ## Nextcloud
 
-!!! recommendation
-
-    ![Nextcloud logo](assets/img/cloud/nextcloud.svg){ align=right }
+!!! recommendation "![Nextcloud logo](assets/img/cloud/nextcloud.svg){ align=right }"
 
     **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control. It also comes with experimental E2EE.
 
@@ -58,9 +53,7 @@ When self-hosting, you should also enable E2EE to protect against your hosting p
 
 ## Proton Drive
 
-!!! recommendation
-
-    ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
+!!! recommendation "![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }"
 
     **Proton Drive** is an E2EE general file storage service by the popular encrypted email provider [Proton Mail](https://proton.me/mail).
 

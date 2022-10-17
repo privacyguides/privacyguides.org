@@ -15,9 +15,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
 ### Thunderbird
 
-!!! recommendation
-
-    ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ align=right }
+!!! recommendation "![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ align=right }"
 
     **Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Twitter) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
 
@@ -37,9 +35,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
 ### Apple Mail (macOS)
 
-!!! recommendation
-
-    ![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
+!!! recommendation "![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }"
 
     **Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption.md#gpg-suite), which adds the ability to send encrypted email.
 
@@ -49,9 +45,7 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
 
 ### Canary Mail (iOS)
 
-!!! recommendation
-
-    ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ align=right }
+!!! recommendation "![Canary Mail logo](assets/img/email-clients/canarymail.svg){ align=right }"
 
     **Canary Mail** is a paid email client designed to make end-to-end encryption seamless with security features such as a biometric app lock.
 
@@ -73,9 +67,7 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 
 ### FairEmail (Android)
 
-!!! recommendation
-
-    ![FairEmail logo](assets/img/email-clients/fairemail.svg){ align=right }
+!!! recommendation "![FairEmail logo](assets/img/email-clients/fairemail.svg){ align=right }"
 
     **FairEmail** is a minimal, open-source email app, using open standards (IMAP, SMTP, OpenPGP) with a low data and battery usage.
 
@@ -92,9 +84,7 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 
 ### GNOME Evolution (GNOME)
 
-!!! recommendation
-
-    ![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
+!!! recommendation "![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }"
 
     **Evolution** is a personal information management application that provides integrated mail, calendaring and address book functionality. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable/) to help you get started.
 
@@ -110,9 +100,7 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 
 ### K-9 Mail (Android)
 
-!!! recommendation
-
-    ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ align=right }
+!!! recommendation "![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ align=right }"
 
     **K-9 Mail** is an independent mail application that supports both POP3 and IMAP mailboxes, but only supports push mail for IMAP.
 
@@ -131,9 +119,7 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 
 ### Kontact (KDE)
 
-!!! recommendation
-
-    ![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }
+!!! recommendation "![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }"
 
     **Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. It provides a mail client, address book, organizer and RSS client.
 
@@ -150,9 +136,7 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 
 ### Mailvelope (Browser)
 
-!!! recommendation
-
-    ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ align=right }
+!!! recommendation "![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ align=right }"
 
     **Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
 
@@ -169,9 +153,7 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 
 ### NeoMutt (CLI)
 
-!!! recommendation
-
-    ![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
+!!! recommendation "![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }"
 
     **NeoMutt** is an open-source command line mail reader (or MUA) for Linux and BSD. It's a fork of [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) with added features.
 

@@ -12,9 +12,7 @@ For other platforms, consider below:
 
 ### LibreOffice
 
-!!! recommendation
-
-    ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ align=right }
+!!! recommendation "![LibreOffice logo](assets/img/productivity/libreoffice.svg){ align=right }"
 
     **LibreOffice** is a free and open-source office suite with extensive functionality.
 
@@ -38,9 +36,7 @@ For other platforms, consider below:
 
 ### OnlyOffice
 
-!!! recommendation
-
-    ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ align=right }
+!!! recommendation "![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ align=right }"
 
     **OnlyOffice** is a cloud-based free and open-source office suite with extensive functionality, including integration with Nextcloud.
 
@@ -60,9 +56,7 @@ For other platforms, consider below:
 
 ### CryptPad
 
-!!! recommendation
-
-    ![CryptPad logo](assets/img/productivity/cryptpad.svg){ align=right }
+!!! recommendation "![CryptPad logo](assets/img/productivity/cryptpad.svg){ align=right }"
 
     **CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is end-to-end encrypted and can be shared with other users easily.
 
@@ -76,9 +70,7 @@ For other platforms, consider below:
 
 ### PrivateBin
 
-!!! recommendation
-
-    ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
+!!! recommendation "![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }"
 
     **PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin. There is a [list of instances](https://privatebin.info/directory/).
 

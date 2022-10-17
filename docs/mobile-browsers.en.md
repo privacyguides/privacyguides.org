@@ -10,9 +10,7 @@ On Android, Firefox is still less secure than Chromium-based alternatives: Mozil
 
 ### Brave
 
-!!! recommendation
-
-    ![Brave logo](assets/img/browsers/brave.svg){ align=right }
+!!! recommendation "![Brave logo](assets/img/browsers/brave.svg){ align=right }"
 
     **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features/), many of which are enabled by default.
 
@@ -81,9 +79,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 ### Safari
 
-!!! recommendation
-
-    ![Safari logo](assets/img/browsers/safari.svg){ align=right }
+!!! recommendation "![Safari logo](assets/img/browsers/safari.svg){ align=right }"
 
     **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as Intelligent Tracking Protection, Privacy Report, isolated Private Browsing tabs, iCloud Private Relay, and automatic HTTPS upgrades.
 
@@ -133,9 +129,7 @@ If you use iCloud, we also recommend checking to ensure Safari's default downloa
 
 ### AdGuard
 
-!!! recommendation
-
-    ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
+!!! recommendation "![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }"
 
     **AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
 

@@ -29,9 +29,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ### Proton VPN
 
-!!! recommendation annotate
-
-    ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
+!!! recommendation annotate "![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }"
 
     **Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG is based in Switzerland and offers a limited free tier, as well as a more featured premium option.
 
@@ -88,9 +86,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ### IVPN
 
-!!! recommendation
-
-    ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
+!!! recommendation "![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }"
 
     **IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN is based in Gibraltar.
 
@@ -148,9 +144,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ### Mullvad
 
-!!! recommendation
-
-    ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
+!!! recommendation "![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }"
 
     **Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since **2009**. Mullvad is based in Sweden and does not have a free trial.
 

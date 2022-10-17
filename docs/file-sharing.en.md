@@ -8,9 +8,7 @@ Discover how to privately share your files between your devices, with your frien
 
 ### Send
 
-!!! recommendation
-
-    ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
+!!! recommendation "![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }"
 
     **Send** is a fork of Mozilla’s discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well. The maintainer of Send hosts a [public instance](https://send.vis.ee/). You can use other public instances, or you can host Send yourself.
 
@@ -28,9 +26,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 ### OnionShare
 
-!!! recommendation
-
-    ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
+!!! recommendation "![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }"
 
     **OnionShare** is an open-source tool that lets you securely and anonymously share a file of any size. It works by starting a web server accessible as a Tor onion service, with an unguessable URL that you can share with the recipients to download or send files.
 
@@ -47,9 +43,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 ## FreedomBox
 
-!!! recommendation
-
-    ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }
+!!! recommendation "![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }"
 
     **FreedomBox** is an operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications that you might want to self-host.
 
@@ -62,9 +56,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 ### Syncthing
 
-!!! recommendation
-
-    ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ align=right }
+!!! recommendation "![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ align=right }"
 
     **Syncthing** is an open-source peer-to-peer continuous file synchronization utility. It is used to synchronize files between two or more devices over the local network or the internet. Syncthing does not use a centralized server; it uses the [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) to transfer data between devices. All data is encrypted using TLS.
 

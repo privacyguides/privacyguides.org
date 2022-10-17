@@ -169,6 +169,10 @@ h1, h2, h3, .md-header__topic {
     font-family: "Bagnard", serif;
 }
 
+img[align="right"], svg[align="right"] {
+    width: 150px;
+}
+
 /* Recommendation cards */
 .md-typeset .admonition.recommendation,
 .md-typeset details.recommendation {
@@ -182,14 +186,46 @@ h1, h2, h3, .md-header__topic {
     padding-left: 0.6rem;
 }
 .md-typeset .recommendation > .admonition-title::before,
-.md-typeset .recommendation > .admonition-title,
 .md-typeset .recommendation > summary::before {
     display: none;
 }
-img[align="right"], svg[align="right"] {
-    width: 150px;
+.md-typeset .recommendation img[align="right"] {
+    width: 100px;
+    margin-top: 1em;
+}
+.md-typeset .recommendation > p:nth-of-type(2) {
+    margin-top: 0;
 }
 
+/* Tool cards */
+.md-typeset .admonition.tool,
+.md-typeset details.tool {
+    border: 1px solid var(--pg-light-border);
+    font-size: inherit;
+}
+.md-typeset .tool > .admonition-title,
+.md-typeset .tool > summary {
+    background-color: rgba(43, 155, 70, 0.0);
+    border: none;
+    padding-left: 0.6rem;
+    font-weight: 400;
+}
+.md-typeset .tool > .admonition-title::before,
+.md-typeset .tool > summary::before {
+    display: none;
+}
+.md-typeset .tool > .admonition-title {
+    font-size: 1rem;
+}
+.md-typeset .tool img[align="right"] {
+    width: 100px;
+}
+.md-typeset .tool > p {
+    margin-block-start: 0;
+    margin-block-end: .3em;
+}
+
+/* Download Section */
 .md-typeset .admonition.downloads,
 .md-typeset details.downloads {
     border: none;
@@ -467,10 +503,6 @@ div[class="md-source__icon md-icon"], div[class="md-source__repository md-source
 
 [data-md-color-scheme="slate"] .md-typeset details:not(.downloads, [open]) summary:hover {
     box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
-}
-
-.md-typeset .recommendation img[align="right"] {
-    width: 100px;
 }
 
 /* Custom tooltips */

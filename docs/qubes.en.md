@@ -2,9 +2,7 @@
 title: "Qubes OS"
 icon: simple/qubesos
 ---
-!!! recommendation
-
-    ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
+!!! recommendation "![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }"
 
     **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing. Qubes is based on Xen, the X Window System, and Linux, and can run most Linux applications and use most of the Linux drivers.
 

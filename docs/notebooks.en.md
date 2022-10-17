@@ -11,9 +11,7 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
 ### EteSync Notes
 
-!!! recommendation
-
-    ![EteSync Notes logo](assets/img/notebooks/etesync-notes.png){ align=right }
+!!! recommendation "![EteSync Notes logo](assets/img/notebooks/etesync-notes.png){ align=right }"
 
     **EteSync Notes** is a secure, E2EE, and privacy-respecting note taking app. EteSync also offers optional [software as a service](https://dashboard.etebase.com/user/partner/pricing/), or you can host the server yourself for free.
 
@@ -33,9 +31,7 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
 ### Joplin
 
-!!! recommendation
-
-    ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
+!!! recommendation "![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }"
 
     **Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle a large number of markdown notes organized into notebooks and tags. It offers E2EE and can sync through Nextcloud, Dropbox, and more. It also offers easy import from Evernote and plain-text notes.
 
@@ -60,9 +56,7 @@ Joplin does not support password/PIN protection for the [application itself or i
   
 ### Standard Notes
 
-!!! recommendation
-
-    ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
+!!! recommendation "![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }"
 
     **Standard Notes** is a simple and private notes app that makes your notes easy and available everywhere you are. It features E2EE on every platform, and a powerful desktop experience with themes and custom editors. It has also been [independently audited (PDF)](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
 
@@ -86,9 +80,7 @@ Joplin does not support password/PIN protection for the [application itself or i
 
 ### Org-mode
 
-!!! recommendation
-
-    ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
+!!! recommendation "![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }"
 
     **Org-mode** is a [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system. Synchronization is possible with [file synchronization](file-sharing.md#file-sync) tools.
 

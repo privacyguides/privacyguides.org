@@ -6,10 +6,7 @@ Calendars and contacts contain some of your most sensitive data; use products th
 
 ## Tutanota
 
-!!! recommendation
-
-    ![Tutanota logo](assets/img/calendar-contacts/tutanota.svg#only-light){ align=right }
-    ![Tutanota logo](assets/img/calendar-contacts/tutanota-dark.svg#only-dark){ align=right }
+!!! recommendation "![Tutanota logo](assets/img/calendar-contacts/tutanota.svg#only-light){ align=right }![Tutanota logo](assets/img/calendar-contacts/tutanota-dark.svg#only-dark){ align=right }"
 
     **Tutanota** offers a free and encrypted calendar across their supported platforms. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tutanota.com/calendar-app-comparison/).
 
@@ -33,9 +30,7 @@ Calendars and contacts contain some of your most sensitive data; use products th
 
 ## EteSync
 
-!!! recommendation
-
-    ![EteSync logo](assets/img/calendar-contacts/etesync.svg){ align=right }
+!!! recommendation "![EteSync logo](assets/img/calendar-contacts/etesync.svg){ align=right }"
 
     **EteSync** is a secure, E2EE, and privacy-respecting cloud backup and synchronization software for your personal information, including contacts and calendars. There are native clients for Android, iOS, with a web client and an adapter layer for most desktop clients available too. Etesync does [not](https://www.etesync.com/faq/#2fa) currently support multi-factor authentication.
 
@@ -56,9 +51,7 @@ Calendars and contacts contain some of your most sensitive data; use products th
 
 ## Proton Calendar
 
-!!! recommendation
-
-    ![Proton](assets/img/calendar-contacts/proton-calendar.svg){ align=right }
+!!! recommendation "![Proton](assets/img/calendar-contacts/proton-calendar.svg){ align=right }"
 
     **Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Features include: automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to a single calendar, whereas paid subscribers can create up to 20 calendars. Extended sharing functionality is also limited to paid subscribers.
 
@@ -75,4 +68,5 @@ Calendars and contacts contain some of your most sensitive data; use products th
         - [:octicons-browser-16: Web](https://calendar.proton.me)
 
 !!! warning
+
     Proton [does not](https://proton.me/support/proton-contacts#verify) use E2EE for your contact names and email addresses.

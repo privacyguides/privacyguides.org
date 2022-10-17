@@ -10,9 +10,7 @@ The options listed here are multi-platform and great for creating encrypted back
 
 ### Cryptomator (Cloud)
 
-!!! recommendation
-
-    ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
+!!! recommendation "![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }"
 
     **Cryptomator** is an encryption solution designed for privately saving files to any cloud provider. It allows you to create vaults that are stored on a virtual drive, the contents of which are encrypted and synced with your cloud storage provider.
 
@@ -40,9 +38,7 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 ### Picocrypt (File)
 
-!!! recommendation
-
-    ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
+!!! recommendation "![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }"
 
     **Picocrypt** is a small and simple encryption tool that provides modern encryption. Picocrypt uses the secure XChaCha20 cipher and the Argon2id key derivation function to provide a high level of security. It uses Go's standard x/crypto modules for its encryption features.
 
@@ -58,10 +54,7 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 ### VeraCrypt (Disk)
 
-!!! recommendation
-
-    ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
-    ![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
+!!! recommendation "![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }"
 
     **VeraCrypt** is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file, encrypt a partition, or encrypt the entire storage device with pre-boot authentication.
 
@@ -88,9 +81,7 @@ Modern operating systems include [FDE](https://en.wikipedia.org/wiki/Disk_encryp
 
 ### BitLocker
 
-!!! recommendation
-
-    ![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
+!!! recommendation "![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }"
 
     **BitLocker** is the full volume encryption solution bundled with Microsoft Windows. The main reason we recommend it is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). [ElcomSoft](https://en.wikipedia.org/wiki/ElcomSoft), a forensics company, has written about it in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
 
@@ -138,9 +129,7 @@ BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-o
 
 ### FileVault
 
-!!! recommendation
-
-    ![FileVault logo](assets/img/encryption-software/filevault.png){ align=right }
+!!! recommendation "![FileVault logo](assets/img/encryption-software/filevault.png){ align=right }"
 
     **FileVault** is the on-the-fly volume encryption solution built into macOS. FileVault is recommended because it [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) hardware security capabilities present on an Apple silicon SoC or T2 Security Chip.
 
@@ -150,9 +139,7 @@ We recommend storing a local recovery key in a secure place as opposed to using 
 
 ### Linux Unified Key Setup
 
-!!! recommendation
-
-    ![LUKS logo](assets/img/encryption-software/luks.png){ align=right }
+!!! recommendation "![LUKS logo](assets/img/encryption-software/luks.png){ align=right }"
 
     **LUKS** is the default FDE method for Linux. It can be used to encrypt full volumes, partitions, or create encrypted containers.
 
@@ -188,10 +175,7 @@ Browser-based encryption can be useful when you need to encrypt a file but canno
 
 ### hat.sh
 
-!!! recommendation
-
-    ![hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ align=right }
-    ![hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ align=right }
+!!! recommendation "![hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ align=right }![hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ align=right }"
 
     **Hat.sh** is a web application that provides secure client-side file encryption in your browser. It can also be self-hosted and is useful if you need to encrypt a file but cannot install any software on your device due to organizational policies.
 
@@ -207,9 +191,7 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
 ### Kryptor
 
-!!! recommendation
-
-    ![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }
+!!! recommendation "![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }"
 
     **Kryptor** is a free and open-source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign/) to provide a simple, easier alternative to GPG.
 
@@ -227,9 +209,7 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
 ### Tomb
 
-!!! recommendation
-
-    ![Tomb logo](assets/img/encryption-software/tomb.png){ align=right }
+!!! recommendation "![Tomb logo](assets/img/encryption-software/tomb.png){ align=right }"
 
     **Tomb** is a command-line shell wrapper for LUKS. It supports steganography via [third-party tools](https://github.com/dyne/Tomb#how-does-it-work).
 
@@ -254,9 +234,7 @@ When encrypting with PGP, you have the option to configure different options in 
 
 ### GNU Privacy Guard
 
-!!! recommendation
-
-    ![GNU Privacy Guard logo](assets/img/encryption-software/gnupg.svg){ align=right }
+!!! recommendation "![GNU Privacy Guard logo](assets/img/encryption-software/gnupg.svg){ align=right }"
 
     **GnuPG** is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with [RFC 4880](https://tools.ietf.org/html/rfc4880), which is the current IETF specification of OpenPGP. The GnuPG project has been working on an [updated draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) in an attempt to modernize OpenPGP. GnuPG is a part of the Free Software Foundation's GNU software project and has received major [funding](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) from the German government.
 
@@ -274,9 +252,7 @@ When encrypting with PGP, you have the option to configure different options in 
 
 ### GPG4win
 
-!!! recommendation
-
-    ![GPG4win logo](assets/img/encryption-software/gpg4win.svg){ align=right }
+!!! recommendation "![GPG4win logo](assets/img/encryption-software/gpg4win.svg){ align=right }"
 
     **GPG4win** is a package for Windows from [Intevation and g10 Code](https://gpg4win.org/impressum.html). It includes [various tools](https://gpg4win.org/about.html) that can assist you in using GPG on Microsoft Windows. The project was initiated and originally [funded by](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) Germany's Federal Office for Information Security (BSI) in 2005.
 
@@ -296,9 +272,7 @@ When encrypting with PGP, you have the option to configure different options in 
 
     We suggest [Canary Mail](email-clients.md#canary-mail) for using PGP with email on iOS devices.
 
-!!! recommendation
-
-    ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
+!!! recommendation "![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }"
 
     **GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail) and macOS.
 
@@ -315,9 +289,7 @@ When encrypting with PGP, you have the option to configure different options in 
 
 ### OpenKeychain
 
-!!! recommendation
-
-    ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
+!!! recommendation "![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }"
 
     **OpenKeychain** is an Android implementation of GnuPG. It's commonly required by mail clients such as [K-9 Mail](email-clients.md#k-9-mail) and [FairEmail](email-clients.md#fairemail) and other Android apps to provide encryption support. Cure53 completed a [security audit](https://www.openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. Technical details about the audit and OpenKeychain's solutions can be found [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
 

@@ -198,9 +198,7 @@ We recommend an up-to-date [GrapheneOS](../android.md#grapheneos) or iOS device.
 
 On Android you can consider using **Molly**, a fork of the Signal mobile client which aims to provide extensive hardening and anti-forensic features.
 
-!!! recommendation
-
-    ![Molly logo](../assets/img/messengers/molly.svg){ align=right }
+!!! recommendation "![Molly logo](../assets/img/messengers/molly.svg){ align=right }"
 
     **Molly** is an independent Signal fork which offers additional security features, including locking the app at rest, securely shredding unused RAM data, routing via Tor, and more.
 

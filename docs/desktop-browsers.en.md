@@ -6,9 +6,7 @@ These are our currently recommended desktop web browsers and configurations for 
 
 ### Firefox
 
-!!! recommendation
-
-    ![Firefox logo](assets/img/browsers/firefox.svg){ align=right }
+!!! recommendation "![Firefox logo](assets/img/browsers/firefox.svg){ align=right }"
 
     **Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
@@ -26,6 +24,7 @@ These are our currently recommended desktop web browsers and configurations for 
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
 
 !!! warning
+
     Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 #### Recommended Configuration
@@ -82,9 +81,7 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
 
 ### Brave
 
-!!! recommendation
-
-    ![Brave logo](assets/img/browsers/brave.svg){ align=right }
+!!! recommendation "![Brave logo](assets/img/browsers/brave.svg){ align=right }"
 
     **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features/), many of which are enabled by default.
 
@@ -187,9 +184,7 @@ We generally do not recommend installing any extensions as they increase your at
 
 ### uBlock Origin
 
-!!! recommendation
-
-    ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }
+!!! recommendation "![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }"
 
     **uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
 

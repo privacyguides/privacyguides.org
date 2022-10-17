@@ -26,10 +26,7 @@ We recommend installing one of these custom Android operating systems on your de
 
 ### GrapheneOS
 
-!!! recommendation
-
-    ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ align=right }
-    ![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
+!!! recommendation "![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ align=right }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }"
 
     **GrapheneOS** is the best choice when it comes to privacy and security.
 
@@ -47,9 +44,7 @@ Google Pixel phones are the only devices that currently meet GrapheneOS's [hardw
 
 ### DivestOS
 
-!!! recommendation
-
-    ![DivestOS logo](assets/img/android/divestos.svg){ align=right }
+!!! recommendation "![DivestOS logo](assets/img/android/divestos.svg){ align=right }"
 
     **DivestOS** is a soft-fork of [LineageOS](https://lineageos.org/).
     DivestOS inherits many [supported devices](https://divestos.org/index.php?page=devices&base=LineageOS) from LineageOS. It has signed builds, making it possible to have [verified boot](https://source.android.com/security/verifiedboot) on some non-Pixel devices.
@@ -92,9 +87,7 @@ A few more tips regarding Android devices and operating system compatibility:
 
 Google Pixel phones are the **only** devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third-party operating systems and Google's custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element.
 
-!!! recommendation
-
-    ![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
+!!! recommendation "![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }"
 
     **Google Pixel** devices are known to have good security and properly support [Verified Boot](https://source.android.com/security/verifiedboot), even when installing custom operating systems.
 
@@ -121,9 +114,7 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
 
 ### Shelter
 
-!!! recommendation
-
-    ![Shelter logo](assets/img/android/shelter.svg){ align=right }
+!!! recommendation "![Shelter logo](assets/img/android/shelter.svg){ align=right }"
 
     **Shelter** is an app that helps you leverage Android's Work Profile functionality to isolate or duplicate apps on your device.
 
@@ -145,10 +136,7 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
 
 ### Auditor
 
-!!! recommendation
-
-    ![Auditor logo](assets/img/android/auditor.svg#only-light){ align=right }
-    ![Auditor logo](assets/img/android/auditor-dark.svg#only-dark){ align=right }
+!!! recommendation "![Auditor logo](assets/img/android/auditor.svg#only-light){ align=right }![Auditor logo](assets/img/android/auditor-dark.svg#only-dark){ align=right }"
 
     **Auditor** is an app which leverages hardware security features to provide device integrity monitoring for [supported devices](https://attestation.app/about#device-support). Currently, it only works with GrapheneOS and the device's stock operating system.
 
@@ -179,10 +167,7 @@ To make sure that your hardware and operating system is genuine, [perform local 
 
 ### Secure Camera
 
-!!! recommendation
-
-    ![Secure camera logo](assets/img/android/secure_camera.svg#only-light){ align=right }
-    ![Secure camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
+!!! recommendation "![Secure camera logo](assets/img/android/secure_camera.svg#only-light){ align=right }![Secure camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ align=right }"
 
       **Secure Camera** is a camera app focused on privacy and security which can capture images, videos and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
 
@@ -211,10 +196,7 @@ Main privacy features include:
 
 ### Secure PDF Viewer
 
-!!! recommendation
-
-    ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
-    ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
+!!! recommendation "![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }"
 
     **Secure PDF Viewer** is a PDF viewer based on [pdf.js](https://en.wikipedia.org/wiki/PDF.js) that doesn't require any permissions. The PDF is fed into a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development)) [webview](https://developer.android.com/guide/webapps/webview). This means that it doesn't require permission directly to access content or files.
 
@@ -240,9 +222,7 @@ GrapheneOS's app store is available on [GitHub](https://github.com/GrapheneOS/Ap
 
 The Google Play Store requires a Google account to login which is not great for privacy. You can get around this by using an alternative client, such as Aurora Store.
 
-!!! recommendation
-
-    ![Aurora Store logo](assets/img/android/aurora-store.webp){ align=right }
+!!! recommendation "![Aurora Store logo](assets/img/android/aurora-store.webp){ align=right }"
 
     **Aurora Store** is a Google Play Store client which does not require a Google Account, Google Play Services, or microG to download apps.
 

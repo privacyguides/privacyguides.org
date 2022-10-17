@@ -18,9 +18,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 
 ### Proton Mail
 
-!!! recommendation
-
-    ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
+!!! recommendation "![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }"
 
     **Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since **2013**. Proton AG is based in Genève, Switzerland. Accounts start with 500 MB storage with their free plan.
 
@@ -74,9 +72,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 
 ### Mailbox.org
 
-!!! recommendation
-
-    ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
+!!! recommendation "![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }"
 
     **Mailbox.org** is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with 2 GB of storage, which can be upgraded as needed.
 
@@ -120,10 +116,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 
 ### StartMail
 
-!!! recommendation
-
-    ![StartMail logo](assets/img/email/startmail.svg#only-light){ align=right }
-    ![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ align=right }
+!!! recommendation "![StartMail logo](assets/img/email/startmail.svg#only-light){ align=right }![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ align=right }"
 
     **StartMail** is an email service with a focus on security and privacy through the use of standard OpenPGP encryption. StartMail has been in operation since 2014 and is based in Boulevard 11, Zeist Netherlands. Accounts start with 10GB. They offer a 30-day trial.
 
@@ -163,9 +156,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 
 ### Tutanota
 
-!!! recommendation
-
-    ![Tutanota logo](assets/img/email/tutanota.svg){ align=right }
+!!! recommendation "![Tutanota logo](assets/img/email/tutanota.svg){ align=right }"
 
     **Tutanota** is an email service with a focus on security and privacy through the use of encryption. Tutanota has been in operation since **2011** and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan.
 
@@ -240,10 +231,7 @@ Using an aliasing service requires trusting both your email provider and your al
 
 ### AnonAddy
 
-!!! recommendation
-
-    ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
-    ![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
+!!! recommendation "![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }"
 
     **AnonAddy** lets you create 20 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
 
@@ -272,9 +260,7 @@ Notable free features:
 
 ### SimpleLogin
 
-!!! recommendation
-
-    ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
+!!! recommendation "![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }"
 
     **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
 
@@ -311,9 +297,7 @@ Advanced system administrators may consider setting up their own email server. M
 
 ### Combined software solutions
 
-!!! recommendation
-
-    ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
+!!! recommendation "![Mailcow logo](assets/img/email/mailcow.svg){ align=right }"
 
     **Mailcow** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: A mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
@@ -322,9 +306,7 @@ Advanced system administrators may consider setting up their own email server. M
     [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
 
-!!! recommendation
-
-    ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
+!!! recommendation "![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }"
 
     **Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
 

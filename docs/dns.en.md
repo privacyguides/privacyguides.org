@@ -78,10 +78,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ba
 
 ### RethinkDNS
 
-!!! recommendation
-
-    ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
-    ![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
+!!! recommendation "![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }"
 
     **RethinkDNS** is an open-source Android client supporting [DNS-over-HTTPS](basics/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](basics/dns-overview.md#dns-over-tls-dot), [DNSCrypt](basics/dns-overview.md#dnscrypt) and DNS Proxy along with caching DNS responses, locally logging DNS queries and can be used as a firewall too.
 
@@ -97,9 +94,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ba
 
 ### dnscrypt-proxy
 
-!!! recommendation
-
-    ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
+!!! recommendation "![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }"
 
     **dnscrypt-proxy** is a DNS proxy with support for [DNSCrypt](basics/dns-overview.md#dnscrypt), [DNS-over-HTTPS](basics/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
@@ -122,9 +117,7 @@ A self-hosted DNS solution is useful for providing filtering on controlled platf
 
 ### AdGuard Home
 
-!!! recommendation
-
-    ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
+!!! recommendation "![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }"
 
     **AdGuard Home** is an open-source [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) to block unwanted web content, such as advertisements.
 
@@ -137,9 +130,7 @@ A self-hosted DNS solution is useful for providing filtering on controlled platf
 
 ### Pi-hole
 
-!!! recommendation
-
-    ![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
+!!! recommendation "![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }"
 
     **Pi-hole** is an open-source [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) to block unwanted web content, such as advertisements.
 

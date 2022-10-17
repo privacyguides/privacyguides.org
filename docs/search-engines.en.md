@@ -10,9 +10,7 @@ Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org/) if your thr
 
 ## Brave Search
 
-!!! recommendation
-
-    ![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
+!!! recommendation "![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }"
 
     **Brave Search** is developed by Brave and serves results primarily from its own, independent index. The index is optimized against Google Search and therefore may provide more contextually accurate results compared to other alternatives.
 
@@ -29,9 +27,7 @@ Brave Search is based in the United States. Their [privacy policy](https://searc
 
 ## DuckDuckGo
 
-!!! recommendation
-
-    ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
+!!! recommendation "![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }"
 
     **DuckDuckGo** is one of the more mainstream private search engine options. Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and many [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). The search engine relies on a commercial Bing API to serve most results, but it does use numerous [other sources](https://help.duckduckgo.com/results/sources/) for instant answers and other non-primary results.
 
@@ -48,9 +44,7 @@ DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-
 
 ## SearXNG
 
-!!! recommendation
-
-    ![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
+!!! recommendation "![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }"
 
     **SearXNG** is an open-source, self-hostable, metasearch engine, aggregating the results of other search engines while not storing any information itself. It is an actively maintained fork of [SearX](https://github.com/searx/searx).
 
@@ -66,10 +60,7 @@ When you are using a SearXNG instance, be sure to go read their privacy policy. 
 
 ## Startpage
 
-!!! recommendation
-
-    ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
-    ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
+!!! recommendation "![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }"
 
     **Startpage** is a private search engine known for serving Google search results.  One of Startpage's unique features is the [Anonymous View](https://www.startpage.com/en/anonymous-view/), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the [Tor Browser](tor.md#tor-browser) instead.
 

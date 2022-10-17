@@ -29,9 +29,7 @@ There are a variety of ways to connect to the Tor network from your device, the 
 
 ### Tor Browser
 
-!!! recommendation
-
-    ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
+!!! recommendation "![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }"
 
     **Tor Browser** is the choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
@@ -60,9 +58,7 @@ The Tor Browser is designed to prevent fingerprinting, or identifying you based 
 
 ### Orbot
 
-!!! recommendation
-
-    ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+!!! recommendation "![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }"
 
     **Orbot** is a free Tor VPN for smartphones which routes traffic from any app on your device through the Tor network.
 
@@ -92,10 +88,7 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
 
 ### Snowflake
 
-!!! recommendation
-
-    ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
-    ![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
+!!! recommendation "![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }"
 
     **Snowflake** allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser.
 

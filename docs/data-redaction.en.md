@@ -8,9 +8,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 ### ExifCleaner
 
-!!! recommendation
-
-    ![ExifCleaner logo](assets/img/data-redaction/exifcleaner.svg){ align=right }
+!!! recommendation "![ExifCleaner logo](assets/img/data-redaction/exifcleaner.svg){ align=right }"
 
     **ExifCleaner** is a freeware, open-source graphical app that uses [ExifTool](https://exiftool.org) to remove Exif metadata from images, videos, and PDF documents using a simple drag and drop interface. It supports multi-core batch processing and dark mode.
 
@@ -26,9 +24,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 ### MAT2
 
-!!! recommendation
-
-    ![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
+!!! recommendation "![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }"
 
     **MAT2** is free software, which allows the metadata to be removed from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an [extension for Nautilus](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus), the default file manager of [GNOME](https://www.gnome.org), and [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
 
@@ -49,9 +45,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 ### ExifEraser (Android)
 
-!!! recommendation
-
-    ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ align=right }
+!!! recommendation "![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ align=right }"
 
     **ExifEraser** is a modern, permissionless image metadata erasing application for Android.
 
@@ -84,9 +78,7 @@ The app offers multiple ways to erase metadata from images. Namely:
 
 ### Metapho (iOS)
 
-!!! recommendation
-
-    ![Metapho logo](assets/img/data-redaction/metapho.jpg){ align=right }
+!!! recommendation "![Metapho logo](assets/img/data-redaction/metapho.jpg){ align=right }"
 
     **Metapho** is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
 
@@ -99,9 +91,7 @@ The app offers multiple ways to erase metadata from images. Namely:
 
 ### PrivacyBlur
 
-!!! recommendation
-
-    ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ align=right }
+!!! recommendation "![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ align=right }"
 
     **PrivacyBlur** is a free app which can blur sensitive portions of pictures before sharing them online.
 
@@ -123,9 +113,7 @@ The app offers multiple ways to erase metadata from images. Namely:
 
 ### ExifTool
 
-!!! recommendation
-
-    ![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
+!!! recommendation "![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }"
 
     **ExifTool** is the original perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
 

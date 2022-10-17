@@ -12,9 +12,7 @@ If you don't already use Linux, below are some distributions we suggest trying o
 
 ### Fedora Workstation
 
-!!! recommendation
-
-    ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
+!!! recommendation "![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ align=right }"
 
     **Fedora Workstation** is our recommended distribution for people new to Linux. Fedora generally adopts newer technologies before other distributions e.g., [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org), and soon, [FS-Verity](https://fedoraproject.org/wiki/Changes/FsVerityRPM). These new technologies often come with improvements in security, privacy, and usability in general.
 
@@ -26,9 +24,7 @@ Fedora has a semi-rolling release cycle. While some packages like [GNOME](https:
 
 ### openSUSE Tumbleweed
 
-!!! recommendation
-
-    ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
+!!! recommendation "![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }"
 
     **openSUSE Tumbleweed** is a stable rolling release distribution.
 
@@ -42,9 +38,7 @@ Tumbleweed follows a rolling release model where each update is released as a sn
 
 ### Arch Linux
 
-!!! recommendation
-
-    ![Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }
+!!! recommendation "![Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }"
 
     **Arch Linux** is a lightweight, do-it-yourself (DIY) distribution meaning that you only get what you install. For more information see their [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
 
@@ -62,9 +56,7 @@ A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org)
 
 ### Fedora Silverblue
 
-!!! recommendation
-
-    ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
+!!! recommendation "![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }"
 
     **Fedora Silverblue** and **Fedora Kinoite** are immutable variants of Fedora with a strong focus on container workflows. Silverblue comes with the [GNOME](https://www.gnome.org/) desktop environment while Kinoite comes with [KDE](https://kde.org/). Silverblue and Kinoite follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
 
@@ -82,9 +74,7 @@ As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fed
 
 ### NixOS
 
-!!! recommendation
-
-    ![NixOS logo](assets/img/linux-desktop/nixos.svg){ align=right }
+!!! recommendation "![NixOS logo](assets/img/linux-desktop/nixos.svg){ align=right }"
 
     NixOS is an independent distribution based on the Nix package manager with a focus on reproducibility and reliability.
 
@@ -106,9 +96,7 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
 ### Whonix
 
-!!! recommendation
-
-    ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
+!!! recommendation "![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }"
 
     **Whonix** is based on [Kicksecure](https://www.whonix.org/wiki/Kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and anonymity on the internet. Whonix is best used in conjunction with [Qubes OS](qubes.md).
 
@@ -126,9 +114,7 @@ Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qube
 
 ### Tails
 
-!!! recommendation
-
-    ![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
+!!! recommendation "![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }"
 
     **Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. It uses [Tor](tor.md) to preserve privacy and anonymity while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
 

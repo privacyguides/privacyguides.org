@@ -8,9 +8,7 @@ The primary threat when using a video streaming platform is that your streaming 
 
 ### LBRY
 
-!!! recommendation
-
-    ![LBRY logo](assets/img/video-streaming/lbry.svg){ align=right }
+!!! recommendation "![LBRY logo](assets/img/video-streaming/lbry.svg){ align=right }"
 
     **The LBRY network** is a decentralized video sharing network. It uses a [BitTorrent](https://wikipedia.org/wiki/BitTorrent)-like network to store the video content, and a [blockchain](https://wikipedia.org/wiki/Blockchain) to store the indexes for those videos. The main benefit of this design is censorship resistance.
 

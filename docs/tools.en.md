@@ -7,64 +7,55 @@ hide:
 
 If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your use case.
 
-If you want assistance figuring out the best privacy tools and alternative programs for your workload/use-case, start a discussion on our [forum](https://discuss.privacyguides.org/) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
+## Tor Anonymity Network Resources
 
-For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
+!!! tool "[![Tor Browser logo](assets/img/browsers/tor.svg){ align=right } **Tor Browser**: Best For Browsing The Web Anonymously](tor.md#tor-browser)"
 
-## Tor Network
+    Tor Browser is your choice if you need anonymity. It's a fork of Firefox designed for anonymous browsing for desktop computers and Android, and it includes default settings and extensions that are automatically configured based on your set security level.
 
-<div class="grid cards annotate" markdown>
+    <small>More information: [Tor Overview](basics/tor-overview.md)</small>
 
-- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](tor.md#tor-browser)
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](tor.md#snowflake) (1)
+!!! tool "[![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right } **Orbot**: Proxy All Your Traffic on iOS and Android Over Tor](tor.md#orbot)"
 
-</div>
+    Orbot is a free Tor VPN for smartphones which routes traffic from any app on your device through the Tor network. Orbot is often outdated on the Guardian Project's F-Droid repository and Google Play, so consider downloading directly from the [GitHub repository](https://github.com/guardianproject/orbot/releases) instead.
 
-1. Snowflake does not increase privacy, however it allows you to easily contribute to the Tor network and help people in censored networks achieve better privacy.
+!!! tool annotate "[![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right } **Snowflake**: Easily Support the Tor Network by Donating Bandwidth](tor.md#orbot)"
+
+    Snowflake allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser. Snowflake does not increase your privacy, it allows you to easily contribute to the Tor network and help people in censored networks achieve better privacy.
 
 [Learn more :material-arrow-right-drop-circle:](tor.md)
-## Desktop Web Browsers
 
-<div class="grid cards" markdown>
+## Desktop Web Browsing
 
-- ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } [Firefox](desktop-browsers.md#firefox)
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave](desktop-browsers.md#brave)
+!!! tool "[![Firefox logo](assets/img/browsers/firefox.svg){ align=right } **Firefox**: Browse With Strong Privacy Protections](desktop-browsers.md#firefox)"
 
-</div>
+    Firefox is a fast, reliable, and secure web browser which provides strong privacy settings such as Enhanced Tracking Protection, which can help block various types of tracking.
+
+!!! tool "[![Brave logo](assets/img/browsers/brave.svg){ align=right } **Brave**: Best Chromium-Based Privacy Browser](desktop-browsers.md#brave)"
+
+    Brave Browser is a private web browser based on the open-source Chromium web browser project, so it should feel familiar to people switching from Google Chrome and have minimal website compatibility issues.
+
+!!! tool "[![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right } **uBlock Origin**: Block Ads, Trackers, and Fingerprinting Scripts](desktop-browsers.md#ublock-origin)"
+
+    uBlock Origin is a popular content blocker for Firefox and Chromium-based browsers that could help you block ads, trackers, and fingerprinting scripts.
 
 [Learn more :material-arrow-right-drop-circle:](desktop-browsers.md)
 
-### Additional Resources
+## Mobile Web Browsing
 
-<div class="grid cards" markdown>
+!!! tool "[![Brave logo](assets/img/browsers/brave.svg){ align=right } **Brave**: Best Web Browser for Android](mobile-browsers.md#brave)"
 
-- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
+    Chromium-based browsers like Brave are the most secure options on Android, because alternative browser platforms do not meet modern security standards. Brave is a great choice, and securely syncs with Brave Browser on the desktop!
 
-</div>
+!!! tool "[![Safari logo](assets/img/browsers/safari.svg){ align=right } **Safari**: Best Web Browser for iOS](mobile-browsers.md#safari)"
 
-[Learn more :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
+    We recommend Safari for iOS users, because iOS requires all browsers to use Safari's web engine under the hood. If you have to trust iOS and Safari anyways, there's little reason to also trust a third-party browser developer.
 
-## Mobile Web Browsers
+!!! tool "[![AdGuard logo](assets/img/browsers/adguard.svg){ align=right } **AdGuard**: Best Content Blocking Extension for iOS](mobile-browsers.md#safari)"
 
-<div class="grid cards" markdown>
-
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Android)](mobile-browsers.md#brave)
-- ![Safari logo](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](mobile-browsers.md#safari)
-
-</div>
+    AdGuard for iOS is a free and open-source content-blocking extension for Safari that uses the native Content Blocker API. AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
 
 [Learn more :material-arrow-right-drop-circle:](mobile-browsers.md)
-
-### Additional Resources
-
-<div class="grid cards annotate" markdown>
-
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](mobile-browsers.md#adguard)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
 
 ## Operating Systems
 
