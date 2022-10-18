@@ -3,7 +3,9 @@
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[ATA]: Advanced Technology Attachment
+*[attack surface]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: Android Verified Boot
+*[cgroups]: Control Groups
 *[CLI]: Command Line Interface
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
@@ -16,11 +18,13 @@
 *[E2EE]: End-to-End Encryption/Encrypted
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area
+*[entropy]: A measurement of how unpredictable something is
 *[EOL]: End-of-Life
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Full Disk Encryption
 *[FIDO]: Fast IDentity Online
+*[fork]: A new software project created by copying an existing project and adding to it independently
 *[GDPR]: General Data Protection Regulation
 *[GPG]: GNU Privacy Guard (PGP implementation)
 *[GPS]: Global Positioning System
@@ -30,6 +34,7 @@
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: Hypertext Transfer Protocol
+*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol
 *[IMEI]: International Mobile Equipment Identity
@@ -60,6 +65,7 @@
 *[PGP]: Pretty Good Privacy (see OpenPGP)
 *[PII]: Personally Identifiable Information
 *[QNAME]: Qualified Name
+*[rolling release]: Updates which are released frequently rather than set intervals
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux
 *[SIM]: Subscriber Identity Module
@@ -83,11 +89,4 @@
 *[VoIP]: Voice over IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol
-*[attack surface]: The attack surface of software or hardware is the sum of the different places an attacker can try to enter data to or extract data from.
-*[cgroups]: Control Groups
-*[fork]: In software development, a fork is created when developers take a copy of source code from one software package and start independent development on it, creating a distinct and separate piece of software.
-*[hypervisor]: A hypervisor is computer software, firmware, or hardware that allows partitioning the resource of a CPU among multiple operating systems or independent programs.
-*[rolling release]: An update release cycle in which updates are released very frequently, instead of at set intervals.
-*[walled garden]: A walled garden (or closed platform) is one in which the service provider has control over applications, content, and/or media, and restricts convenient access to non-approved applicants or content.
-*[entropy]: Password entropy is a measurement of how unpredictable a password is.
 *[PWA]: Progressive Web App

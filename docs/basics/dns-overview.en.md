@@ -1,5 +1,5 @@
 ---
-title: "Introduction to DNS"
+title: "DNS Overview"
 icon: material/dns
 ---
 

@@ -122,12 +122,13 @@ extra_javascript:
 nav:
   - Home: 'index.md'
   - 'Knowledge Base':
-    - 'The Basics':
-      - 'basics/threat-modeling.md'
-      - 'basics/common-threats.md'
+    - 'basics/threat-modeling.md'
+    - 'basics/common-threats.md'
+    - 'basics/common-misconceptions.md'
+    - 'basics/account-deletion.md'
+    - 'Technology Introduction':
       - 'basics/passwords-overview.md'
       - 'basics/multi-factor-authentication.md'
-      - 'basics/account-deletion.md'
       - 'basics/email-security.md'
       - 'basics/vpn-overview.md'
       - 'basics/tor-overview.md'
