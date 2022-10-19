@@ -113,6 +113,7 @@ Nix is a source-based package manager; if there’s no pre-built available in th
     **Whonix** is based on [Kicksecure](https://www.whonix.org/wiki/Kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and anonymity on the internet. Whonix is best used in conjunction with [Qubes OS](qubes.md).
 
     [:octicons-home-16: Homepage](https://www.whonix.org/){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
     [:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=Documentation}
     [:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=Contribute }
 
