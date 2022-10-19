@@ -75,6 +75,10 @@ InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for s
 - [x] Select **Close tabs on exit**
 - [x] Select **Clear data on exit**
 
+#### Brave Sync
+
+[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+
 ## iOS
 
 On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so there is little reason to use a third-party web browser.

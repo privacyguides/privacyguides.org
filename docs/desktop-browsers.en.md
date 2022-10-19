@@ -72,7 +72,7 @@ Search suggestions send everything you type in the address bar to the default se
 
 This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day to day browsing.
 
-#### Sync
+#### Firefox Sync
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
 
@@ -180,6 +180,10 @@ Under the *System* menu
 </div>
 
 1. This option is not present on all platforms.
+
+#### Brave Sync
+
+[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
 ## Additional Resources
 
