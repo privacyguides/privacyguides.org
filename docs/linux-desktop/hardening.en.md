@@ -116,14 +116,6 @@ One of the problems with Secure Boot, particularly on Linux is, that only the [c
 
 To eliminate the need to trust Microsoft's keys, follow the "Using your own keys" section on the [Arch Wiki](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot). The important thing that needs to be done here is to replace the OEM's key with your own Platform Key.
 
-There are several ways to work around the unverified initramfs:
-
-The first way is to [encrypt the /boot partition](https://wiki.archlinux.org/title/GRUB#Encrypted_/boot). If you are on Fedora Workstation (not Silverblue), you can follow [this guide](https://mutschler.eu/linux/install-guides/fedora-btrfs-33/) to convert the existing installation to encrypted `/boot`. openSUSE comes with this that by default.
-
-Encrypting `/boot` however have its own issues, one being that [GRUB](https://en.wikipedia.org/wiki/GNU_GRUB) only supports [LUKS1](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) and not the newer default LUKS2 scheme. As the bootloader runs in [protected mode](https://en.wikipedia.org/wiki/Protected_mode) and the encryption module lacks [SSE acceleration](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions) so the boot process will take minutes to complete. Another problem with this is that you have to type the encryption password twice, which could be solved by following the [openSUSE Wiki](https://en.opensuse.org/SDB:Encrypted_root_file_system#Avoiding_to_type_the_passphrase_twice).
-
-There are a few options depending on your configuration:
-
 - If you enroll your own keys as described above, and your distribution supports Secure Boot by default, you can add your distribution's EFI Key into the list of trusted keys (db keys). It can then be enrolled into the firmware. Then, you should move all of your keys off your local storage device.
 - If you enroll your own keys as described above, and your distribution does **not** support Secure Boot out of the box (like Arch Linux), you have to leave the keys on the disk and setup automatic signing of the [kernel](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot#Signing_the_kernel_with_a_pacman_hook) and bootloader. If you are using Grub, you can install it with the `--no-shim-lock` option and remove the need for the chainloader.
 
