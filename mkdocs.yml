@@ -136,6 +136,8 @@ nav:
     - 'Android':
       - 'android/overview.md'
       - 'android/grapheneos-vs-calyxos.md'
+    - 'iOS':
+      - 'ios/configuration.md'
     - 'Linux':
       - 'linux-desktop/overview.md'
       - 'linux-desktop/hardening.md'
