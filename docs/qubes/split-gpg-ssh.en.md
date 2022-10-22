@@ -26,7 +26,7 @@ This part is based on the Qubes Community's [guide](https://github.com/Qubes-Com
 ### In `vault` AppVM
 - Add `enable-ssh-support` to the end of `~/.gnupg/gpg-agent.conf`
 - Get your keygrip with `gpg --with-keygrip -k`
-- Add your keygrip to the end of `~/.gnupg/sshconrol`
+- Add your keygrip to the end of `~/.gnupg/sshcontrol`
 
 ![PGP Keygrip](/assets/img/qubes//keygrip.png)
 
