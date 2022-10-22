@@ -5,7 +5,7 @@ icon: simple/qubesos
 
 #####This post is a derivative work of Tommy from [PrivSec.dev](https://privsec.dev/posts/qubes/using-split-gpg-and-split-ssh-on-qubes-os/)
 
-![Split GPG & SSH](assets/img/qubes/split-gpg-ssh.png)
+![Split GPG & SSH](/assets/img/qubes/split-gpg-ssh.png)
 
 This post will go over setting up Split GPG, then setting up Split SSH with the same PGP keys. Effectively, we are emulating what you can do with a PGP smartcard on Qubes OS.
 
@@ -28,7 +28,7 @@ This part is based on the Qubes Community's [guide](https://github.com/Qubes-Com
 - Get your keygrip with `gpg --with-keygrip -k`
 - Add your keygrip to the end of `~/.gnupg/sshconrol`
 
-![PGP Keygrip](assets/img/qubes//keygrip.png)
+![PGP Keygrip](/assets/img/qubes//keygrip.png)
 
 ### In `vault`'s TemplateVM
 
