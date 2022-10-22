@@ -24,7 +24,8 @@ an advertising agency), and any other relevant affiliations.
 
 <!-- Place an x in the boxes below, like: [x] -->
 - [ ] Please check this box to confirm you have disclosed any relevant conflicts of interest in your post.
-- [ ] Please check this box to confirm your agreement to publish your work under the [Creative Commons Attribution-NoDerivatives 4.0 International](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE) license, and to grant Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
+- [ ] Please check this box to confirm your agreement to grant Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform, relicense, and distribute your contribution as part of our project.
+- [ ] Please check this box to confirm you are the sole author of this work, or that any additional authors will also reply to this PR on GitHub confirming their agreement to these terms.
 
 <!-- What's this? When you submit a PR, you keep the Copyright for the work you
 are contributing. We need you to agree to the above terms in order for us to
