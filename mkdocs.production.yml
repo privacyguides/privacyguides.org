@@ -1,7 +1,7 @@
 INHERIT: mkdocs.yml
 plugins:
   privacy:
-    externals_exclude:
+    externals_assets_exclude:
       - cdn.jsdelivr.net/npm/mathjax@3/*
       - api.privacyguides.net/*
       - giscus.app/*
@@ -48,6 +48,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - content.tooltips
+    - search.highlight
   palette:
     - media: "(prefers-color-scheme)"
       scheme: default
