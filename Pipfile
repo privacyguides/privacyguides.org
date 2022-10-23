@@ -9,7 +9,6 @@ mkdocs-material = {path = "./mkdocs-material"}
 mkdocs-static-i18n = "*"
 mkdocs-git-revision-date-localized-plugin = "*"
 typing-extensions = "*"
-mkdocs-rss-plugin = "*"
 mkdocs-git-committers-plugin-2 = "*"
 mkdocs-macros-plugin = "*"
 

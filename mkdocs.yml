@@ -62,6 +62,7 @@ watch:
 plugins:
   i18n:
     default_language: en
+    default_language_only: true
     material_alternate: true
     languages:
       en:
@@ -69,10 +70,6 @@ plugins:
         build: false
   tags: {}
   search: {}
-  macros:
-    on_error_fail: true
-    include_yaml:
-      - data/articles.yml
 
 markdown_extensions:
   admonition: {}
@@ -190,4 +187,4 @@ nav:
     - 'about/privacy-policy.md'
   - 'Donate': '/about/donate/'
   - 'Forum': 'https://discuss.privacyguides.org/'
-  - 'Blog': 'https://discuss.privacyguides.org/c/blog/10'
+  - 'Blog': 'https://blog.privacyguides.org/'

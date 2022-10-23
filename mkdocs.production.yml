@@ -1,7 +1,8 @@
 INHERIT: mkdocs.yml
 plugins:
+  meta: {}
   privacy:
-    externals_assets_exclude:
+    external_assets_exclude:
       - cdn.jsdelivr.net/npm/mathjax@3/*
       - api.privacyguides.net/*
       - giscus.app/*
@@ -11,12 +12,6 @@ plugins:
   git-revision-date-localized:
       exclude:
         - index.en.md
-  rss:
-    match_path: "blog/.*"
-    pretty_print: true
-    date_from_meta:
-      as_creation: "created"
-      datetime_format: "%Y-%m-%d"
   social:
     cards: !ENV [CARDS, false]
     cards_color:
@@ -73,4 +68,3 @@ watch:
   - theme
   - includes
   - mkdocs.yml
-  - data

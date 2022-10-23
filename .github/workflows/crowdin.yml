@@ -1,8 +1,9 @@
 name: 💬 Crowdin Upload
 
 on:
-  push:
-    branches: [ main ]
+  workflow_dispatch:
+  release:
+    types: [published]
 
 jobs:
   synchronize-with-crowdin:
