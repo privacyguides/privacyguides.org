@@ -21,7 +21,7 @@ Tor works by routing your internet traffic through those volunteer-operated serv
   <figcaption>Tor circuit pathway - Nodes in the path can only see the servers they are directly connected to, for example the "Entry" node shown can see your IP address, and the address of the "Middle" node, but has no way to see which website you are visiting.</figcaption>
 </figure>
 
-- [More information about how Tor works :material-arrow-right-drop-circle:](basics/tor-overview.md)
+- [More information about how Tor works :material-arrow-right-drop-circle:](advanced/tor-overview.md)
 
 ## Connecting to Tor
 

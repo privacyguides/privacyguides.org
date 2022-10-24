@@ -42,3 +42,55 @@
 [[redirects]]
     from = "/blog/2021/11/01/virtual-insanity"
     to = "https://blog.privacyguides.org/2021/11/01/virtual-insanity"
+
+[[redirects]]
+    from = "/basics/dns-overview"
+    to = "/advanced/dns-overview/"
+
+[[redirects]]
+    from = "/basics/tor-overview"
+    to = "/advanced/tor-overview/"
+
+[[redirects]]
+    from = "/real-time-communication/communication-network-types"
+    to = "/advanced/communication-network-types"
+
+[[redirects]]
+    from = "/android/overview"
+    to = "/os/android-overview/"
+
+[[redirects]]
+    from = "/linux-desktop/overview"
+    to = "/os/linux-overview/"
+
+[[redirects]]
+    from = "/android/grapheneos-vs-calyxos"
+    to = "https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/"
+
+[[redirects]]
+    from = "/ios/configuration"
+    to = "https://blog.privacyguides.org/2022/10/22/ios-configuration-guide/"
+
+[[redirects]]
+    from = "/linux-desktop/hardening"
+    to = "https://blog.privacyguides.org/2022/04/22/linux-system-hardening/"
+
+[[redirects]]
+    from = "/linux-desktop/sandboxing"
+    to = "https://blog.privacyguides.org/2022/04/22/linux-application-sandboxing/"
+
+[[redirects]]
+    from = "/advanced/signal-configuration-hardening"
+    to = "https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/"
+
+[[redirects]]
+    from = "/real-time-communication/signal-configuration-hardening"
+    to = "https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/"
+
+[[redirects]]
+    from = "/advanced/integrating-metadata-removal"
+    to = "https://blog.privacyguides.org/2022/04/09/integrating-metadata-removal/"
+
+[[redirects]]
+    from = "/advanced/erasing-data"
+    to = "https://blog.privacyguides.org/2022/05/25/secure-data-erasure/"

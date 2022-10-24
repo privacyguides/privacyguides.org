@@ -123,28 +123,19 @@ nav:
     - 'basics/common-threats.md'
     - 'basics/common-misconceptions.md'
     - 'basics/account-deletion.md'
-    - 'Technology Introduction':
+    - 'Technology Essentials':
       - 'basics/passwords-overview.md'
       - 'basics/multi-factor-authentication.md'
       - 'basics/email-security.md'
       - 'basics/vpn-overview.md'
-      - 'basics/tor-overview.md'
-      - 'basics/dns-overview.md'
-    - 'Android':
-      - 'android/overview.md'
-      - 'android/grapheneos-vs-calyxos.md'
-    - 'iOS':
-      - 'ios/configuration.md'
-    - 'Linux':
-      - 'linux-desktop/overview.md'
-      - 'linux-desktop/hardening.md'
-      - 'linux-desktop/sandboxing.md'
-    - 'Real-Time Communication':
-      - 'real-time-communication/communication-network-types.md'
-      - 'real-time-communication/signal-configuration-hardening.md'
-    - 'Advanced':
-      - 'advanced/integrating-metadata-removal.md'
-      - 'advanced/erasing-data.md'
+    - 'Operating Systems':
+      - 'os/android-overview.md'
+      - 'os/linux-overview.md'
+    - 'Advanced Topics':
+      - 'advanced/dns-overview.md'
+      - 'advanced/tor-overview.md'
+      - 'advanced/communication-network-types.md'
+    - kb-archive.md
   - 'Recommendations':
     - 'tools.md'
     - 'Internet Browsing':

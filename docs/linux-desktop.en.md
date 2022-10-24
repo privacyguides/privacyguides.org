@@ -4,7 +4,7 @@ icon: simple/linux
 ---
 Linux distributions are commonly recommended for privacy protection and software freedom.
 
-- [General Linux Overview :material-arrow-right-drop-circle:](linux-desktop/overview.md)
+- [General Linux Overview :material-arrow-right-drop-circle:](os/linux-overview.md)
 
 If you don't already use Linux, below are some distributions we suggest trying out, as well as some general privacy and security improvement tips that are applicable to many Linux distributions.
 
@@ -54,7 +54,7 @@ Tumbleweed follows a rolling release model where each update is released as a sn
 
 Arch Linux has a rolling release cycle. There is no fixed release schedule and packages are updated very frequently.
 
-Being a DIY distribution, you are [expected to set up and maintain](linux-desktop/overview.md#arch-based-distributions) your system on your own. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
+Being a DIY distribution, you are [expected to set up and maintain](os/linux-overview.md#arch-based-distributions) your system on your own. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
 
 A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org).
 

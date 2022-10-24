@@ -5,7 +5,7 @@ icon: material/chat-processing
 
 These are our recommendations for encrypted real-time communication.
 
-[Types of Communication Networks :material-arrow-right-drop-circle:](./real-time-communication/communication-network-types.md)
+[Types of Communication Networks :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 
 ## Cross-Platform Messengers
 
@@ -40,7 +40,7 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
 We have some additional tips on configuring and hardening your Signal installation:
 
-[Signal Configuration and Hardening :material-arrow-right-drop-circle:](./real-time-communication/signal-configuration-hardening.md)
+[Signal Configuration and Hardening :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/)
 
 ### Element
 
