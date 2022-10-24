@@ -1,0 +1,44 @@
+[build]
+    publish = "site/"
+    command = "mkdocs build --config-file mkdocs.production.yml"
+
+[context.production.environment]
+    CARDS = "true"
+
+[[redirects]]
+    from = "/.well-known/matrix/*"
+    to = "https://matrix.privacyguides.org/.well-known/matrix/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "/kb"
+    to = "/basics/threat-modeling/"
+
+[[redirects]]
+    from = "/browsers"
+    to = "/desktop-browsers/"
+
+[[redirects]]
+    from = "/blog"
+    to = "https://blog.privacyguides.org"
+
+[[redirects]]
+    from = "/blog/2021/12/01/firefox-privacy-2021-update"
+    to = "https://blog.privacyguides.org/2021/12/01/firefox-privacy-2021-update/"
+
+[[redirects]]
+    from = "/blog/2021/09/14/welcome-to-privacy-guides"
+    to = "https://blog.privacyguides.org/2021/09/14/welcome-to-privacy-guides/"
+
+[[redirects]]
+    from = "/blog/2022/06/09/hide-nothing"
+    to = "https://blog.privacyguides.org/2022/06/09/hide-nothing/"
+
+[[redirects]]
+    from = "/blog/2022/04/04/move-fast-and-break-things"
+    to = "https://blog.privacyguides.org/2022/04/04/move-fast-and-break-things/"
+
+[[redirects]]
+    from = "/blog/2021/11/01/virtual-insanity"
+    to = "https://blog.privacyguides.org/2021/11/01/virtual-insanity"
