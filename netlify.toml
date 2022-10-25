@@ -56,6 +56,10 @@
     to = "/advanced/communication-network-types"
 
 [[redirects]]
+    from = "/advanced/real-time-communication"
+    to = "/advanced/communication-network-types"
+
+[[redirects]]
     from = "/android/overview"
     to = "/os/android-overview/"
 
@@ -93,4 +97,120 @@
 
 [[redirects]]
     from = "/advanced/erasing-data"
+    to = "https://blog.privacyguides.org/2022/05/25/secure-data-erasure/"
+
+[[redirects]]
+    from = "/providers/dns"
+    to = "/dns/"
+
+[[redirects]]
+    from = "/software/video-streaming"
+    to = "/video-streaming/"
+
+[[redirects]]
+    from = "/providers/vpn"
+    to = "/vpn/"
+
+[[redirects]]
+    from = "/operating-systems"
+    to = "/linux-desktop/"
+
+[[redirects]]
+    from = "/providers/email"
+    to = "/email/"
+
+[[redirects]]
+    from = "/threat-modeling"
+    to = "/basics/threat-modeling/"
+
+[[redirects]]
+    from = "/software/passwords"
+    to = "/passwords/"
+
+[[redirects]]
+    from = "/self-contained-networks"
+    to = "/tor/"
+
+[[redirects]]
+    from = "/privacy-policy"
+    to = "/about/privacy-policy/"
+
+[[redirects]]
+    from = "/metadata-removal-tools"
+    to = "/data-redaction/"
+
+[[redirects]]
+    from = "/basics"
+    to = "/kb"
+
+[[redirects]]
+    from = "/software/file-encryption"
+    to = "/encryption/"
+
+[[redirects]]
+    from = "/providers"
+    to = "/tools/#service-providers"
+
+[[redirects]]
+    from = "/software/notebooks"
+    to = "/notebooks/"
+
+[[redirects]]
+    from = "/software/calendar-contacts"
+    to = "/calendar-contacts/"
+
+[[redirects]]
+    from = "/software/metadata-removal-tools"
+    to = "/data-redaction/"
+
+[[redirects]]
+    from = "/contact"
+    to = "/about/"
+
+[[redirects]]
+    from = "/welcome-to-privacy-guides"
+    to = "https://blog.privacyguides.org/2021/09/14/welcome-to-privacy-guides/"
+
+[[redirects]]
+    from = "/software/email"
+    to = "/email-clients/"
+
+[[redirects]]
+    from = "/providers/paste"
+    to = "/tools/"
+
+[[redirects]]
+    from = "/providers/search-engines"
+    to = "/search-engines/"
+
+[[redirects]]
+    from = "/software/productivity"
+    to = "/productivity/"
+
+[[redirects]]
+    from = "/software/real-time-communication"
+    to = "/real-time-communication/"
+
+[[redirects]]
+    from = "/blog/2019/10/05/understanding-vpns"
+    to = "https://www.jonaharagon.com/posts/understanding-vpns/"
+
+[[redirects]]
+    from = "/terms-and-notices"
+    to = "/about/notices/"
+
+[[redirects]]
+    from = "/software/file-sharing"
+    to = "/file-sharing/"
+
+[[redirects]]
+    from = "/software/networks"
+    to = "/tor/"
+
+[[redirects]]
+    from = "/social-news-aggregator"
+    to = "/news-aggregators/"
+
+[[redirects]]
+    from = "/basics/erasing-data"
     to = "https://blog.privacyguides.org/2022/05/25/secure-data-erasure/"
