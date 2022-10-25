@@ -169,7 +169,7 @@ nav:
       - 'real-time-communication.md'
       - 'video-streaming.md'
   - 'About':
-    - 'about.md'
+    - 'about/index.md'
     - 'coc.md'
     - 'about/donate.md'
     - 'Online Services': 'https://privacyguides.net'
