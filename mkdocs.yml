@@ -70,6 +70,7 @@ plugins:
         build: false
   tags: {}
   search: {}
+  macros: {}
 
 markdown_extensions:
   admonition: {}
