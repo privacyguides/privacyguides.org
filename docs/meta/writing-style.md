@@ -30,8 +30,6 @@ Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/ad
 
 Avoid calling people "users", in favor of "people", or a more specific description of the group of people you are writing for.
 
-Source: [#1080](https://github.com/orgs/privacyguides/discussions/1080)
-
 ## Organizing content
 
 Organization is key. Content should flow from most to least important information, and use headers as much as needed to logically separate different ideas.
