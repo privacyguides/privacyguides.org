@@ -43,7 +43,7 @@ We will store your account data as long as your account remains open. After clos
 
 The Privacy Guides team generally does not have access to personal data outside of limited access granted via some moderation panels. Inquiries regarding your personal information should be sent directly to:
 
-```
+```text
 Jonah Aragon
 Services Administrator
 jonah@privacyguides.org
@@ -55,6 +55,6 @@ For complaints under GDPR more generally, you may lodge complaints with your loc
 
 ## About This Policy
 
-We will post any new versions of this statement [here](privacy-policy.en.md). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to the [Privacy Policy](privacy-policy.en.md) for the latest contact information at any time.
+We will post any new versions of this statement [here](privacy-policy.md). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to the [Privacy Policy](privacy-policy.md) for the latest contact information at any time.
 
-A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.en.md) of this page can be found on GitHub.
+A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) of this page can be found on GitHub.

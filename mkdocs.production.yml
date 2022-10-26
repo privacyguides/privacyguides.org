@@ -7,13 +7,15 @@ plugins:
       - api.privacyguides.net/*
       - giscus.app/*
   git-committers:
+    enabled: !ENV [PRODUCTION, false]
     repository: privacyguides/privacyguides.org
     branch: main
   git-revision-date-localized:
-      exclude:
-        - index.en.md
+    enabled: !ENV [PRODUCTION, false]
+    exclude:
+      - index.en.md
   social:
-    cards: !ENV [CARDS, false]
+    cards: !ENV [PRODUCTION, false]
     cards_color:
       fill: "#FFD06F"
       text: "#2d2d2d"
@@ -42,6 +44,7 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
+    - navigation.expand
     - content.tooltips
     - search.highlight
   palette:
