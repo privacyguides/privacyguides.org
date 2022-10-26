@@ -24,13 +24,13 @@ We're writing *for* a wide variety of people, but we are writing *to* the person
 >
 > When you use “you” to address users, they are more likely to understand what their responsibility is.
 
-<https://www.plainlanguage.gov/guidelines/audience/address-the-user/>
+Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
 
 ### Avoid "users"
 
 Avoid calling people "users", in favor of "people", or a more specific description of the group of people you are writing for.
 
-<https://github.com/orgs/privacyguides/discussions/1080>
+Source: [#1080](https://github.com/orgs/privacyguides/discussions/1080)
 
 ## Organizing content
 
@@ -39,7 +39,7 @@ Organization is key. Content should flow from most to least important informatio
 - Limit the document to around five or six sections. Long documents should probably be broken up into separate pages.
 - Mark important ideas with **bold** or *italics*.
 
-<https://www.plainlanguage.gov/guidelines/design/>
+Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
 
 ### Begin with a topic sentence
 
@@ -47,7 +47,7 @@ Organization is key. Content should flow from most to least important informatio
 >
 > We often write the way we think, putting our premises first and then our conclusion. It may be the natural way to develop thoughts, but we wind up with the topic sentence at the end of the paragraph. Move it up front and let users know where you’re going. Don’t make readers hold a lot of information in their heads before getting to the point.
 
-<https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/>
+Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
 
 ## Choose your words carefully
 
@@ -67,7 +67,7 @@ We should try to avoid abbreviations where possible, but technology is full of a
 
 > Unnecessary words waste your audience’s time. Great writing is like a conversation. Omit information that the audience doesn’t need to know. This can be difficult as a subject matter expert so it’s important to have someone look at the information from the audience’s perspective.
 
-<https://www.plainlanguage.gov/guidelines/concise/>
+Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
 ## Keep text conversational
 
@@ -79,7 +79,7 @@ We should try to avoid abbreviations where possible, but technology is full of a
 
 > Active voice makes it clear who is supposed to do what. It eliminates ambiguity about responsibilities. Not “It must be done,” but “You must do it.”
 
-<https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/>
+Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
 
 ### Use "must" for requirements
 
