@@ -80,7 +80,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? check "Mobile Clients"
 
-    In addition to providing standard OpenVPN configuration files, Proton VPN has mobile clients for [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085) and [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US) allowing for easy connections to their servers. The mobile client on Android is also available in [F-Droid](https://f-droid.org/en/packages/ch.protonvpn.android), which ensures that it is compiled with [reproducible builds](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
+    In addition to providing standard OpenVPN configuration files, Proton VPN has mobile clients for [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), and [GitHub](https://github.com/ProtonVPN/android-app/releases) allowing for easy connections to their servers.
 
 ??? info "Additional Functionality"
 
@@ -140,7 +140,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? check "Mobile Clients"
 
-    In addition to providing standard OpenVPN configuration files, IVPN has mobile clients for [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683) and [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) allowing for easy connections to their servers. The mobile client on Android is also available in [F-Droid](https://f-droid.org/en/packages/net.ivpn.client), which ensures that it is compiled with [reproducible builds](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
+    In addition to providing standard OpenVPN configuration files, IVPN has mobile clients for [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), and [GitHub](https://github.com/ivpn/android-app/releases) allowing for easy connections to their servers.
 
 ??? info "Additional Functionality"
 
@@ -213,7 +213,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? check "Mobile Clients"
 
-    Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The mobile client on Android is also available in [F-Droid](https://f-droid.org/packages/net.mullvad.mullvadvpn), which ensures that it is compiled with [reproducible builds](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
+    Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
 
 ??? info "Additional Functionality"
 
