@@ -180,7 +180,7 @@ nav:
       - 'Code of Conduct': 'CODE_OF_CONDUCT.md'
       - 'about/privacytools.md'
     - 'Contributing':
-      - 'Style Guide':
+      - 'Writing Guides':
         - 'meta/writing-style.md'
         - 'meta/brand.md'
       - 'Technical Guides':
