@@ -31,6 +31,8 @@ title: "About Privacy Guides"
     - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/freddy)
     - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
     - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
+    - [:fontawesome-solid-envelope: Email](mailto:freddy@privacyguides.org)
+    - [:fontawesome-solid-house: Homepage](https://freddy.omg.lol)
 
 ??? person "@mfwmyfacewhen"
 
