@@ -20,6 +20,10 @@
     to = "/CODE_OF_CONDUCT/"
 
 [[redirects]]
+    from = "/team"
+    to = "/about/"
+
+[[redirects]]
     from = "/browsers"
     to = "/desktop-browsers/"
 

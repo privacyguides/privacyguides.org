@@ -2,11 +2,57 @@
 title: "About Privacy Guides"
 ---
 
-**Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. We are a non-profit collective operated entirely by volunteer team members and contributors.
+**Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. We are a non-profit collective operated entirely by volunteer [team members](https://discuss.privacyguides.org/g/team) and contributors.
 
-Our current list of team members can be found [here on GitHub](https://github.com/orgs/privacyguides/people). Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open sourced on GitHub!
+## Our Team
+
+??? person "@jonah"
+
+    - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/jonah)
+    - [:simple-github: GitHub](https://github.com/jonaharagon "@jonaharagon")
+    - [:simple-mastodon: Mastodon](https://aragon.sh/@jonah "@jonah@aragon.sh"){rel=me}
+    - [:fontawesome-solid-house: Homepage](https://www.jonaharagon.com)
+
+??? person "@niek-de-wilde"
+
+    - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/Niek-de-Wilde)
+    - [:simple-github: GitHub](https://github.com/blacklight447 "@blacklight447")
+    - [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
+
+??? person "@dngray"
+
+    - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/dngray)
+    - [:simple-github: GitHub](https://github.com/dngray "@dngray")
+    - [:simple-mastodon: Mastodon](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
+    - [:fontawesome-solid-envelope: Email](mailto:dngray@privacyguides.org)
+
+??? person "@freddy"
+
+    - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/freddy)
+    - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
+    - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
+
+??? person "@mfwmyfacewhen"
+
+    - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/mfwmyfacewhen)
+    - [:simple-github: GitHub](https://github.com/mfwmyfacewhen "@mfwmyfacewhen")
+
+??? person "@matchboxbananasynergy"
+
+    - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/matchboxbananasynergy)
+    - [:simple-github: GitHub](https://github.com/matchboxbananasynergy "@matchboxbananasynergy")
+    - [:simple-mastodon: Mastodon](https://mstdn.social/@matchboxbananasynergy "@matchboxbananasynergy@mstdn.social"){rel=me}
+
+??? person "@kai"
+
+    - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/Kai)
+    - [:simple-github: GitHub](https://github.com/KaiTebay "@KaiTebay")
+
+Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open sourced on GitHub!
 
 Our team members review all changes made to the website and handle administrative duties such as web hosting and financials, however they do not personally profit from any contributions made to this site. Our financials are transparently hosted by the Open Collective Foundation 501(c)(3) at [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Donations to Privacy Guides are generally tax deductible in the United States.
+
+## Site License
 
 *The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE):*
 
