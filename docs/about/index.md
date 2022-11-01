@@ -38,6 +38,7 @@ title: "About Privacy Guides"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/mfwmyfacewhen)
     - [:simple-github: GitHub](https://github.com/mfwmyfacewhen "@mfwmyfacewhen")
+    - [:fontawesome-solid-house: Homepage](https://mfw.omg.lol)
 
 ??? person "@matchboxbananasynergy"
 
