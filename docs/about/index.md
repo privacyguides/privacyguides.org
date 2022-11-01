@@ -52,6 +52,7 @@ title: "About Privacy Guides"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/Kai)
     - [:simple-github: GitHub](https://github.com/KaiTebay "@KaiTebay")
+    - [:fontawesome-solid-house: Homepage](https://kaitebay.com) 
 
 Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open sourced on GitHub!
 
