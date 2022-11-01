@@ -169,14 +169,23 @@ nav:
       - 'real-time-communication.md'
       - 'video-streaming.md'
   - 'About':
-    - 'about.md'
-    - 'coc.md'
-    - 'about/donate.md'
-    - 'Online Services': 'https://privacyguides.net'
-    - 'about/privacytools.md'
+    - 'about/index.md'
+    - 'about/criteria.md'
     - 'about/statistics.md'
     - 'about/notices.md'
     - 'about/privacy-policy.md'
+    - 'Community':
+      - 'about/donate.md'
+      - 'Online Services': 'about/services.md'
+      - 'Code of Conduct': 'CODE_OF_CONDUCT.md'
+      - 'about/privacytools.md'
+    - 'Contributing':
+      - 'Writing Guides':
+        - 'meta/writing-style.md'
+        - 'meta/brand.md'
+      - 'Technical Guides':
+        - 'meta/uploading-images.md'
+        - 'meta/git-recommendations.md'
   - 'Donate': '/about/donate/'
   - 'Forum': 'https://discuss.privacyguides.org/'
   - 'Blog': 'https://blog.privacyguides.org/'

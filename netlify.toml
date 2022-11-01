@@ -3,7 +3,7 @@
     command = "mkdocs build --config-file mkdocs.production.yml"
 
 [context.production.environment]
-    CARDS = "true"
+    PRODUCTION = "true"
 
 [[redirects]]
     from = "/.well-known/matrix/*"
@@ -14,6 +14,14 @@
 [[redirects]]
     from = "/kb"
     to = "/basics/threat-modeling/"
+
+[[redirects]]
+    from = "/coc"
+    to = "/CODE_OF_CONDUCT/"
+
+[[redirects]]
+    from = "/team"
+    to = "/about/"
 
 [[redirects]]
     from = "/browsers"
