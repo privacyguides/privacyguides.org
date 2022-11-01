@@ -36,38 +36,38 @@ In Inkscape:
 
 In the **Options** tab:
 
-1. Number of significant digits for coordinates: 5
-2. [x] Shorten color values
-3. [x] Convert CSS attributes to XML attributes
-4. [x] Collapse groups
-5. [x] Create groups for similar attributes
-6. [ ] Keep editor data
-7. [ ] Keep unreferenced definitions
-8. [x] Work around renderer bugs
+- **Number of significant digits for coordinates** > **5**
+- [x] Turn on **Shorten color values**
+- [x] Turn on **Convert CSS attributes to XML attributes**
+- [x] Turn on **Collapse groups**
+- [x] Turn on **Create groups for similar attributes**
+- [ ] Turn off **Keep editor data**
+- [ ] Turn off **Keep unreferenced definitions**
+- [x] Turn on **Work around renderer bugs**
 
 In the **SVG Output** tab under **Document options**:
 
-1. [ ] Remove the XML declaration
-2. [x] Remove metadata
-3. [x] Remove comments
-4. [x] Embeded raster images
-5. [x] Enable viewboxing
+- [ ] Turn off **Remove the XML declaration**
+- [x] Turn on **Remove metadata**
+- [x] Turn on **Remove comments**
+- [x] Turn on **Embeded raster images**
+- [x] Turn on **Enable viewboxing**
 
 In the **SVG Output** under **Pretty-printing**:
 
-1. [ ] Format output with line-breaks and indentation
-2. Indentation characters: Space
-3. Depth of indentation: 1
-4. [ ] Strip the "xml:space" attribute from the root SVG element
+- [ ] Turn off **Format output with line-breaks and indentation**
+- **Indentation characters** > Select **Space**
+- **Depth of indentation** > **1**
+- [ ] Turn off **Strip the "xml:space" attribute from the root SVG element**
 
 In the **IDs** tab:
 
-1. [x] Remove unused IDs
-2. [ ] Shorten IDs
-3. Prefix shortened IDs with: `leave blank`
-4. [x] Preserve manually created IDs not ending with digits
-5. Preserve the following IDs: `leave blank`
-6. Preserve IDs starting with: `leave blank`
+- [x] Turn on **Remove unused IDs**
+- [ ] Turn off **Shorten IDs**
+- **Prefix shortened IDs with** > `leave blank`
+- [x] Turn on **Preserve manually created IDs not ending with digits**
+- **Preserve the following IDs** > `leave blank`
+- **Preserve IDs starting with** > `leave blank`
 
 #### CLI
 
