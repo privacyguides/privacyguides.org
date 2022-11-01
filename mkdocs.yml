@@ -176,7 +176,7 @@ nav:
     - 'about/privacy-policy.md'
     - 'Community':
       - 'about/donate.md'
-      - 'Online Services': 'https://privacyguides.net'
+      - 'Online Services': 'about/services.md'
       - 'Code of Conduct': 'CODE_OF_CONDUCT.md'
       - 'about/privacytools.md'
     - 'Contributing':
