@@ -44,7 +44,7 @@ title: "About Privacy Guides"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/matchboxbananasynergy)
     - [:simple-github: GitHub](https://github.com/matchboxbananasynergy "@matchboxbananasynergy")
-    - [:simple-mastodon: Mastodon](https://mstdn.social/@matchboxbananasynergy "@matchboxbananasynergy@mstdn.social"){rel=me}
+    - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@banana "@banana@neat.computer"){rel=me}
     - [:fontawesome-solid-envelope: Email](mailto:matchboxbananasynergy@privacyguides.org)
     - [:fontawesome-solid-house: Homepage](https://banana.omg.lol)
 
