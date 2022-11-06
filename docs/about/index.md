@@ -10,7 +10,7 @@ title: "About Privacy Guides"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/jonah)
     - [:simple-github: GitHub](https://github.com/jonaharagon "@jonaharagon")
-    - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me} 
+    - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
     - [:fontawesome-solid-house: Homepage](https://www.jonaharagon.com)
 
 ??? person "@niek-de-wilde"
