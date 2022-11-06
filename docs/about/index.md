@@ -10,7 +10,7 @@ title: "About Privacy Guides"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/jonah)
     - [:simple-github: GitHub](https://github.com/jonaharagon "@jonaharagon")
-    - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@jonah) "@jonah@neat.computer"){rel=me} 
+    - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me} 
     - [:fontawesome-solid-house: Homepage](https://www.jonaharagon.com)
 
 ??? person "@niek-de-wilde"
@@ -52,7 +52,7 @@ title: "About Privacy Guides"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/Kai)
     - [:simple-github: GitHub](https://github.com/KaiTebay "@KaiTebay")
-    - [:simple-mastodon: Mastodon](https://indieweb.social/@kaitebay) "@kaitebay@indieweb.social"){rel=me}
+    - [:simple-mastodon: Mastodon](https://indieweb.social/@kaitebay "@kaitebay@indieweb.social"){rel=me}
     - [:fontawesome-solid-house: Homepage](https://kaitebay.com) 
 
 Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open sourced on GitHub!
