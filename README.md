@@ -9,26 +9,20 @@
 
   <p><em>Your central privacy and security resource to protect yourself online.</em></p>
 
-  <p><a href="https://www.reddit.com/r/PrivacyGuides/">
-    <img src="https://img.shields.io/reddit/subreddit-subscribers/PrivacyGuides?label=Subscribe%20to%20r%2FPrivacyGuides&style=social">
-  </a>
-  <a href="https://mastodon.social/@privacyguides">
-    <img src="https://img.shields.io/mastodon/follow/107604420394178246?style=social">
+  <p><a href="https://mastodon.neat.computer/@privacyguides">
+    <img src="https://img.shields.io/mastodon/follow/109298532634697668?domain=https%3A%2F%2Fmastodon.neat.computer&label=Follow%20%40privacyguides%40neat.computer&style=social">
   </a>
   <a href="https://twitter.com/privacy_guides">
     <img src="https://img.shields.io/twitter/follow/privacy_guides?style=social">
+  </a>
+  <a href="https://discuss.privacyguides.net/">
+    <img src="https://img.shields.io/discourse/users?label=Join%20our%20forum&logo=discourse&server=https%3A%2F%2Fdiscuss.privacyguides.net&style=social">
   </a>
   <a href="https://github.com/privacyguides/privacyguides.org/stargazers">
     <img src="https://img.shields.io/github/stars/privacyguides?style=social">
   </a></p>
 
-  <a href="https://github.com/privacyguides/privacyguides.org/issues">
-    <img src="https://img.shields.io/github/issues-raw/privacyguides/privacyguides.org">
-  </a>
-  <a href="https://github.com/privacyguides/privacyguides.org/issues?q=is%3Aissue+is%3Aclosed">
-    <img src="https://img.shields.io/github/issues-closed-raw/privacyguides/privacyguides.org">
-  </a>
-  <a href="https://github.com/privacyguides/privacyguides.org/pulls">
+  <p><a href="https://github.com/privacyguides/privacyguides.org/pulls">
     <img src="https://img.shields.io/github/issues-pr-raw/privacyguides/privacyguides.org">
   </a>
   <a href="https://github.com/privacyguides/privacyguides.org/pulls?q=is%3Apr+is%3Aclosed">
@@ -36,9 +30,6 @@
   </a>
   <a href="https://opencollective.com/privacyguides">
     <img src="https://img.shields.io/opencollective/all/privacyguides">
-  </a>
-  <a href="https://crowdin.com/project/privacyguides">
-    <img src="https://badges.crowdin.net/privacyguides/localized.svg">
   </a></p>
 </div>
 

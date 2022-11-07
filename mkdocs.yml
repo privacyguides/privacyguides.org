@@ -19,7 +19,7 @@ extra:
       link: https://discuss.privacyguides.org/
       name: Forum
     - icon: simple/mastodon
-      link: https://mastodon.social/@privacyguides
+      link: https://mastodon.neat.computer/@privacyguides
       name: Mastodon
     - icon: simple/twitter
       link: https://twitter.com/privacy_guides
