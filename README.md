@@ -12,8 +12,8 @@
   <p><a href="https://www.reddit.com/r/PrivacyGuides/">
     <img src="https://img.shields.io/reddit/subreddit-subscribers/PrivacyGuides?label=Subscribe%20to%20r%2FPrivacyGuides&style=social">
   </a>
-  <a href="https://mastodon.social/@privacyguides">
-    <img src="https://img.shields.io/mastodon/follow/107604420394178246?style=social">
+  <a href="https://mastodon.neat.computer/@privacyguides">
+    <img src="https://img.shields.io/mastodon/follow/109298532634697668?domain=https%3A%2F%2Fmastodon.neat.computer&label=Follow%20%40privacyguides%40neat.computer&style=social">
   </a>
   <a href="https://twitter.com/privacy_guides">
     <img src="https://img.shields.io/twitter/follow/privacy_guides?style=social">
