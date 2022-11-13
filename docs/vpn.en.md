@@ -101,9 +101,8 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     ??? downloads
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683)
-        - [:simple-github: GitHub](https://github.com/ivpn/android-app/releases)
+        - [:simple-android: Android](https://www.ivpn.net/apps-android/)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
         - [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
         - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
         - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
