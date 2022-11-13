@@ -54,7 +54,7 @@ There are a variety of ways to connect to the Tor network from your device, the 
 
 !!! danger
 
-    You should **never** install any additional extensions on Tor Browser, including the ones we suggest for Firefox. Nor should you manually enable HTTPS-only mode or edit `about:config` settings. Browser extensions and non-standard settings make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
+    You should **never** install any additional extensions on Tor Browser or edit `about:config` settings, including the ones we suggest for Firefox. Browser extensions and non-standard settings make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
 The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings/).
 
