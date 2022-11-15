@@ -39,21 +39,12 @@ title: "About Privacy Guides"
     - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/mfwmyfacewhen)
     - [:simple-github: GitHub](https://github.com/mfwmyfacewhen "@mfwmyfacewhen")
     - [:fontawesome-solid-house: Homepage](https://mfw.omg.lol)
+    
+??? person "@olivia"
 
-??? person "@matchboxbananasynergy"
-
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/matchboxbananasynergy)
-    - [:simple-github: GitHub](https://github.com/matchboxbananasynergy "@matchboxbananasynergy")
-    - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@banana "@banana@neat.computer"){rel=me}
-    - [:fontawesome-solid-envelope: Email](mailto:matchboxbananasynergy@privacyguides.org)
-    - [:fontawesome-solid-house: Homepage](https://banana.omg.lol)
-
-??? person "@kai"
-
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/Kai)
-    - [:simple-github: GitHub](https://github.com/KaiTebay "@KaiTebay")
-    - [:simple-mastodon: Mastodon](https://indieweb.social/@kaitebay "@kaitebay@indieweb.social"){rel=me}
-    - [:fontawesome-solid-house: Homepage](https://kaitebay.com) 
+    - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/olivia)
+    - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
+    - [:simple-mastodon: Mastodon](https://https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
 Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open sourced on GitHub!
 
