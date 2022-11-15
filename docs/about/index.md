@@ -4,6 +4,8 @@ title: "About Privacy Guides"
 
 **Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. We are a non-profit collective operated entirely by volunteer [team members](https://discuss.privacyguides.org/g/team) and contributors.
 
+[:material-hand-coin-outline: Support the project](donate.md){ .md-button .md-button--primary }
+
 ## Our Team
 
 ??? person "@jonah"

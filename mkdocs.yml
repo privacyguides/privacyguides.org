@@ -186,6 +186,6 @@ nav:
       - 'Technical Guides':
         - 'meta/uploading-images.md'
         - 'meta/git-recommendations.md'
-  - 'Donate': '/about/donate/'
+  - 'Changelog': 'https://github.com/privacyguides/privacyguides.org/releases'
   - 'Forum': 'https://discuss.privacyguides.org/'
   - 'Blog': 'https://blog.privacyguides.org/'
