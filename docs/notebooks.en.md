@@ -9,28 +9,6 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
 ## Cloud-based
 
-### EteSync Notes
-
-!!! recommendation
-
-    ![EteSync Notes logo](assets/img/notebooks/etesync-notes.png){ align=right }
-
-    **EteSync Notes** is a secure, E2EE, and privacy-respecting note taking app. EteSync also offers optional [software as a service](https://dashboard.etebase.com/user/partner/pricing/), or you can host the server yourself for free.
-
-    [etebase](https://docs.etebase.com), which is the foundation of EteSync, can also be used by other apps as a backend to store data with E2EE.
-
-    [:octicons-home-16: Homepage](https://www.etesync.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.etesync.com/tos/#privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.etesync.com/user-guide/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/etesync){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.etesync.com/contribute/){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.etesync.notes)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/etesync-notes/id1533806351)
-        - [:octicons-globe-16: Web](https://notes.etesync.com)
-
 ### Joplin
 
 !!! recommendation
