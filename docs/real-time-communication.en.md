@@ -81,16 +81,16 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
 
     **SimpleX** Chat is an instant messenger that is decentralized and doesn't depend on any unique identifiers such as phone numbers or usernames. Users of SimpleX Chat can scan a QR code or click an invite link to participate in group conversations.
 
-[:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
+    [:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
 
-??? downloads
+    ??? downloads
 
-    - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
-    - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
-    - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
+        - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
 
 SimpleX Chat [was audited](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) by Trail of Bits in October 2022.
 
