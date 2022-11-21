@@ -31,29 +31,6 @@ Calendars and contacts contain some of your most sensitive data; use products th
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/com.tutanota.Tutanota)
         - [:octicons-browser-16: Web](https://mail.tutanota.com/)
 
-## EteSync
-
-!!! recommendation
-
-    ![EteSync logo](assets/img/calendar-contacts/etesync.svg){ align=right }
-
-    **EteSync** is a secure, E2EE, and privacy-respecting cloud backup and synchronization software for your personal information, including contacts and calendars. There are native clients for Android, iOS, with a web client and an adapter layer for most desktop clients available too. Etesync does [not](https://www.etesync.com/faq/#2fa) currently support multi-factor authentication.
-
-    EteSync offers a [SaaS](https://dashboard.etebase.com/user/partner/pricing/), or you can host the server yourself for free.
-
-    [:octicons-home-16: Homepage](https://www.etesync.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.etesync.com/tos/#privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.etesync.com/user-guide/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/etesync){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.etesync.com/contribute/){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.etesync.syncadapter)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/apple-store/id1489574285)
-        - [:octicons-device-desktop-16: Client Setup](https://github.com/etesync/etesync-dav/blob/master/README.md#specific-client-notes-and-instructions)
-        - [:simple-docker: Docker Hub](https://hub.docker.com/r/victorrds/etesync)
-
 ## Proton Calendar
 
 !!! recommendation
