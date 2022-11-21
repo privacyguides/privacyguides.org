@@ -79,7 +79,7 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
 
     ![Simplex logo](assets/img/messengers/simplex.svg){ align=right }
 
-    **SimpleX** Chat is an instant messenger that is decentralised and doesn't depend on any unique identifiers such as phone numbers, or usernames. Users of SimpleX Chat can scan a QR code or click an invite link to participate in group conversations.
+    **SimpleX** Chat is an instant messenger that is decentralized and doesn't depend on any unique identifiers such as phone numbers or usernames. Users of SimpleX Chat can scan a QR code or click an invite link to participate in group conversations.
 
 [:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Privacy Policy" }
