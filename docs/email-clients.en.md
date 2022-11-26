@@ -33,6 +33,25 @@ Our recommendation list contains email clients that support both [OpenPGP](encry
         - [:simple-linux: Linux](https://www.thunderbird.net)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.Thunderbird)
 
+#### Recommended Configuration
+
+We recommend changing some of these settings to make Thunderbird a little more private.
+
+These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
+
+##### Web Content
+
+- [ ] Uncheck  **Remember websites and links I've visited**
+- [ ] Uncheck  **Accept cookies from sites**
+
+##### Telemetry
+
+- [ ] Uncheck  **Allow Thunderbird to send technical and interaction data to Mozilla**
+
+#### Thunderbird-user.js (advanced)
+
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js), is a set of configurations options that aims to disable as many of the web-browsing features within Thunderbird as possible in order to reduce surface area and maintain privacy. Some of the changes are backported from the [Arkenfox project](https://github.com/arkenfox/user.js).
+
 ## Platform Specific
 
 ### Apple Mail (macOS)
