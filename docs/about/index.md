@@ -46,7 +46,7 @@ title: "About Privacy Guides"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/olivia)
     - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
-    - [:simple-mastodon: Mastodon](https://https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
+    - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
 Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open sourced on GitHub!
 
