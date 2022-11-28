@@ -1,12 +1,10 @@
 ---
-title: "Linux"
+title: "Desktop/PC"
 icon: simple/linux
 ---
-Linux distributions are commonly recommended for privacy protection and software freedom.
+Linux distributions are commonly recommended for privacy protection and software freedom. If you don't already use Linux, below are some distributions we suggest trying out, as well as some general privacy and security improvement tips that are applicable to many Linux distributions.
 
 - [General Linux Overview :material-arrow-right-drop-circle:](os/linux-overview.md)
-
-If you don't already use Linux, below are some distributions we suggest trying out, as well as some general privacy and security improvement tips that are applicable to many Linux distributions.
 
 ## Traditional Distributions
 
@@ -110,7 +108,7 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
     ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
 
-    **Whonix** is based on [Kicksecure](https://www.whonix.org/wiki/Kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and anonymity on the internet. Whonix is best used in conjunction with [Qubes OS](qubes.md).
+    **Whonix** is based on [Kicksecure](https://www.whonix.org/wiki/Kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and anonymity on the internet. Whonix is best used in conjunction with [Qubes OS](#qubes-os).
 
     [:octicons-home-16: Homepage](https://www.whonix.org/){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
@@ -139,6 +137,28 @@ Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qube
 
 Tails is great for counter forensics due to amnesia (meaning nothing is written to the disk); however, it is not a hardened distribution like Whonix. It lacks many anonymity and security features that Whonix has and gets updated much less often (only once every six weeks). A Tails system that is compromised by malware may potentially bypass the transparent proxy allowing for the user to be deanonymized.
 
-Tails also installs uBlock Origin in Tor Browser by default, which potentially makes it easier for adversaries to fingerprint Tails users, and increases the attack surface of the browser. For all of these reasons, if your only goal is to browse the internet anonymously, Tails is not as good of a choice as using [Whonix](linux-desktop.md/#whonix) with [Qubes OS](qubes.md), which is much more secure and leakproof. If your goal is to use a computer without leaving any trace afterwards, Tails may be a good solution for you.
+Tails includes [uBlock Origin](desktop-browsers.md#ublock-origin) in Tor Browser by default, which may potentially make it easier for adversaries to fingerprint Tails users. [Whonix](desktop.md#whonix) virtual machines may be more leak-proof, however they are not amnesic, meaning data may be recovered from your storage device.
 
 By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.boum.org/doc/first_steps/persistence/index.en.html) can be configured to store some data between reboots.
+
+## Security-focused Distributions
+
+### Qubes OS
+
+!!! recommendation
+
+    ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
+
+    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing. Qubes is based on Xen, the X Window System, and Linux, and can run most Linux applications and use most of the Linux drivers.
+
+    [:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
+    [:material-arrow-right-drop-circle: Overview](os/qubes-overview.md){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
+    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
+    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
+
+Qubes OS is a Xen-based operating system meant to provide strong security for desktop computing through secure virtual machines (VMs), also known as *Qubes*.
+
+The Qubes OS operating system secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate VMs. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the system. For further details see the Qubes [FAQ](https://www.qubes-os.org/faq/).

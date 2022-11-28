@@ -121,7 +121,7 @@
 
 [[redirects]]
     from = "/operating-systems"
-    to = "/linux-desktop/"
+    to = "/desktop/"
 
 [[redirects]]
     from = "/providers/email"
@@ -222,3 +222,7 @@
 [[redirects]]
     from = "/basics/erasing-data"
     to = "https://blog.privacyguides.org/2022/05/25/secure-data-erasure/"
+
+[[redirects]]
+    from = "/linux-desktop"
+    to = "/desktop/"

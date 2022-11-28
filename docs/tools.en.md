@@ -68,7 +68,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 ## Operating Systems
 
-### Android
+### Mobile
 
 <div class="grid cards" markdown>
 
@@ -79,7 +79,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 [Learn more :material-arrow-right-drop-circle:](android.md)
 
-### Android Apps
+#### Android Apps
 
 <div class="grid cards" markdown>
 
@@ -93,24 +93,22 @@ For more details about each project, why they were chosen, and additional tips o
 
 [Learn more :material-arrow-right-drop-circle:](android.md#general-apps)
 
-### Linux
+### Desktop/PC
 
-<div class="grid cards annotate" markdown>
+<div class="grid cards" markdown>
 
-- ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ .twemoji } [Fedora Workstation](linux-desktop.md#fedora-workstation)
-- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } [OpenSUSE Tumbleweed](linux-desktop.md#opensuse-tumbleweed)
-- ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji } [Arch Linux](linux-desktop.md#arch-linux)
-- ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ .twemoji } [Fedora Silverblue & Kinoite](linux-desktop.md#fedora-silverblue)
-- ![nixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](linux-desktop.md#nixos)
-- ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](linux-desktop.md#whonix)
-- ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](linux-desktop.md#tails)
-- ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM Distribution)](qubes.md) (1)
+- ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
+- ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ .twemoji } [Fedora Workstation](desktop.md#fedora-workstation)
+- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
+- ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji } [Arch Linux](desktop.md#arch-linux)
+- ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ .twemoji } [Fedora Silverblue & Kinoite](desktop.md#fedora-silverblue)
+- ![nixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](desktop.md#nixos)
+- ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](desktop.md#whonix)
+- ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](desktop.md#tails)
 
 </div>
 
-1. Qubes uses Xen to provide strong sandboxing between multiple Linux virtual machine installations, and can run most Linux applications. [Learn more about Qubes...](qubes.md)
-
-[Learn more :material-arrow-right-drop-circle:](linux-desktop.md)
+[Learn more :material-arrow-right-drop-circle:](desktop.md)
 
 ### Router Firmware
 

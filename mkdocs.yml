@@ -132,6 +132,7 @@ nav:
     - 'Operating Systems':
       - 'os/android-overview.md'
       - 'os/linux-overview.md'
+      - 'os/qubes-overview.md'
     - 'Advanced Topics':
       - 'advanced/dns-overview.md'
       - 'advanced/tor-overview.md'
@@ -145,8 +146,7 @@ nav:
       - 'mobile-browsers.md'
     - 'Operating Systems':
       - 'android.md'
-      - 'linux-desktop.md'
-      - 'qubes.md'
+      - 'desktop.md'
       - 'router.md'
     - 'Providers':
       - 'cloud.md'

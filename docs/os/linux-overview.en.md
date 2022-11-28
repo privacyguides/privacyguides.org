@@ -18,7 +18,7 @@ Despite these drawbacks, desktop GNU/Linux distributions are great if you want t
 
 Our website generally uses the term “Linux” to describe desktop GNU/Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed here.
 
-[Our Linux Recommendations :material-arrow-right-drop-circle:](../linux-desktop.md){ .md-button }
+[Our Linux Recommendations :material-arrow-right-drop-circle:](../desktop.md){ .md-button }
 
 ## Choosing your distribution
 
