@@ -73,4 +73,4 @@ Proton Drive is currently only available through a web client and an Android app
 
 !!! danger
 
-    We don't recommend the use of the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss, is highly experimental and not production quality.
+    We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality.
