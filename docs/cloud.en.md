@@ -26,13 +26,32 @@ If these alternatives do not fit your needs, we suggest you look into [Encryptio
     
         - [:octicons-globe-16: PWA](https://crypt.ee/download)
 
+## Proton Drive
+
+!!! recommendation
+
+    ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
+
+    **Proton Drive** is an E2EE general file storage service by the popular encrypted email provider [Proton Mail](https://proton.me/mail).
+
+    [:octicons-home-16: Homepage](https://proton.me/drive){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+
+    ??? downloads
+
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
+
+Proton Drive is currently only available through a web client and an Android app.
+
 ## Nextcloud
 
 !!! recommendation
 
     ![Nextcloud logo](assets/img/cloud/nextcloud.svg){ align=right }
 
-    **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control. It also comes with experimental E2EE.
+    **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
 
     [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
@@ -52,25 +71,6 @@ If these alternatives do not fit your needs, we suggest you look into [Encryptio
         - [:simple-openbsd: OpenBSD](https://openports.se/www/nextcloud)
         - [:simple-netbsd: NetBSD](https://pkgsrc.se/www/php-nextcloud)
 
-We recommend checking if your Nextcloud provider supports E2EE, otherwise you have to trust the provider to not look at your files.
+!!! danger
 
-When self-hosting, you should also enable E2EE to protect against your hosting provider snooping on your data.
-
-## Proton Drive
-
-!!! recommendation
-
-    ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
-
-    **Proton Drive** is an E2EE general file storage service by the popular encrypted email provider [Proton Mail](https://proton.me/mail).
-
-    [:octicons-home-16: Homepage](https://proton.me/drive){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
-
-    ??? downloads
-
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
-
-Proton Drive is currently only available through a web client and an Android app.
+    We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality.
