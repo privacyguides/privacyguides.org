@@ -50,9 +50,7 @@ This protects you from persistent cookies, but does not protect you against cook
 
 ##### Search Suggestions
 
-- [ ] Disable **Suggestions from the web**
-- [ ] Disable **Suggestions from sponsors**
-- [ ] Disable **Improve the Firefox Suggest experience**
+- [ ] Uncheck **Provide search suggestions**
 
 Search suggestion features may not be available in your region.
 
