@@ -1,7 +1,10 @@
 contact_links:
   - name: Suggest a New Provider or Software
-    url: https://discuss.privacyguides.org/c/suggestions
+    url: https://discuss.privacyguides.org/c/site-development/suggestions
     about: Suggest something new for us to look at, or something we should remove.
+  - name: Suggest a Guide
+    url: https://discuss.privacyguides.net/c/site-development/guide-suggestions
+    about: Suggest an area where you think guidance might be required.
   - name: Ask a Question
     url: https://discuss.privacyguides.org/c/questions
     about: Let us know if something doesn't make sense!
