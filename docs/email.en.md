@@ -178,16 +178,14 @@ For everything else, we recommend a variety of email providers based on sustaina
     ??? downloads
 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-        - [:simple-appstore: App Store](https://itunes.apple.com/de/app/tutanota/id922429609)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
         - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
         - [:simple-windows11: Windows](https://tutanota.com/#download)
         - [:simple-apple: macOS](https://tutanota.com/#download)
         - [:simple-linux: Linux](https://tutanota.com/#download)
         - [:octicons-browser-16: Web](https://mail.tutanota.com/)
 
-Tutanota [doesn't allow](https://tutanota.com/faq/#imap) the use of third-party [email clients](email-clients.md). Tutanota has no plans pull email from [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) using the IMAP protocol. [Email import](https://github.com/tutao/tutanota/issues/630) is currently not possible.
-
-Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail). Tutanota does not allow for [subfolders](https://github.com/tutao/tutanota/issues/927) as you might expect with other email providers.
+Tutanota doesn't use the [IMAP protocol](https://tutanota.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tutanota app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tutanota.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail).
 
 ??? check "Custom Domains and Aliases"
 
@@ -199,7 +197,7 @@ Emails can be exported [individually or by bulk selection](https://tutanota.com/
 
 ??? check "Account Security"
 
-    Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with either TOTP or U2F. U2F support is [not yet available on Android](https://github.com/tutao/tutanota/issues/443).
+    Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with either TOTP or U2F.
 
 ??? check "Data Security"
 
