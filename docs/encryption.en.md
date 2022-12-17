@@ -146,7 +146,7 @@ BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-o
 
     [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title=Documentation}
 
-We recommend storing a local recovery key in a secure place as opposed to using iCloud FileVault recovery. As well, FileVault should be enabled **after** a complete macOS installation as more pseudorandom number generator ([PRNG](https://support.apple.com/guide/security/random-number-generation-seca0c73a75b/web)) [entropy](https://en.wikipedia.org/wiki/Entropy_(computing)) will be available.
+We recommend enabling [Advanced Data Protection](https://support.apple.com/en-us/HT212520) so your backups are E2EE. If you don't have this enabled, you should store a local recovery key in a secure place as opposed to using iCloud FileVault recovery.
 
 ### Linux Unified Key Setup
 
