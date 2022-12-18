@@ -233,6 +233,14 @@ Tutanota doesn't use the [IMAP protocol](https://tutanota.com/faq/#imap) or the 
 
     Tutanota [does have plans](https://github.com/tutao/tutanota/issues/198) to support [AutoCrypt](https://autocrypt.org). This would allow for non-Tutanota emails to send encrypted emails to Tutanota accounts as long as their email client supports the AutoCrypt headers.
 
+??? warning "Digital Legacy"
+
+    Tutanota doesn't offer a digital legacy feature.
+
+??? check "Account Termination"
+
+    Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
+
 ??? info "Additional Functionality"
 
     Tutanota offers the business version of [Tutanota to non-profit organizations](https://tutanota.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
