@@ -91,7 +91,7 @@ iOS users should consider using Apple Health's built-in [Cycle Tracking](https:/
 
 ## Sleep Tracking
 
-Apple Watch users should consider using WatchOS' native sleep tracking functionality. Using native, locally-based solutions instead of third-party apps reduces your attack surface by limiting the number of parties that may have access to or be responsible for protecting your data.
+Apple Watch users should consider using watchOS' native sleep tracking functionality. Using native, locally-based solutions instead of third-party apps reduces your attack surface by limiting the number of parties that may have access to or be responsible for protecting your data.
 
 ### AutoSleep
 
