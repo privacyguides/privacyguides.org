@@ -72,7 +72,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 
     Proton Mail doesn't offer a digital legacy feature.
 
-??? check "Account Termination"
+??? info "Account Termination"
 
     If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinguent and won't receive incoming mail. You will continue to be billed during this period.
 
@@ -237,7 +237,7 @@ Tutanota doesn't use the [IMAP protocol](https://tutanota.com/faq/#imap) or the 
 
     Tutanota doesn't offer a digital legacy feature.
 
-??? check "Account Termination"
+??? info "Account Termination"
 
     Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
 
