@@ -68,6 +68,14 @@ For everything else, we recommend a variety of email providers based on sustaina
 
     Proton Mail also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily, for cross-provider E2EE.
 
+??? warning "Digital Legacy"
+
+    Proton Mail doesn't offer a digital legacy feature.
+
+??? check "Account Termination"
+
+    If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinguent and won't receive incoming mail. You will continue to be billed during this period.
+
 ??? info "Additional Functionality"
 
     Proton Mail offers an "Unlimited" account for €9.99/Month, which also enables access to Proton VPN in addition to providing multiple accounts, domains, aliases, and 500GB of storage.
