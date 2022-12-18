@@ -165,6 +165,14 @@ For everything else, we recommend a variety of email providers based on sustaina
 
     StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys.
 
+??? warning "Digital Legacy"
+
+    StartMail does not offer a digital legacy feature.
+
+??? info "Account Termination"
+
+    On account expiration, StartMail will permanently delete your account after [6 months in 3 phases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
+
 ??? info "Additional Functionality"
 
     StartMail allows for proxying of images within emails. If you allow the remote image to be loaded, the sender won't know what your IP address is.
