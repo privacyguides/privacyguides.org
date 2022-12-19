@@ -12,18 +12,15 @@ copyright: |
 
 extra:
   social:
+    - icon: simple/mastodon
+      link: https://mastodon.neat.computer/@privacyguides
+      name: Mastodon
     - icon: simple/matrix
       link: https://matrix.to/#/#privacyguides:matrix.org
       name: Matrix
     - icon: simple/discourse
       link: https://discuss.privacyguides.org/
       name: Forum
-    - icon: simple/mastodon
-      link: https://mastodon.neat.computer/@privacyguides
-      name: Mastodon
-    - icon: simple/twitter
-      link: https://twitter.com/privacy_guides
-      name: Twitter
     - icon: simple/github
       link: https://github.com/privacyguides
       name: GitHub
