@@ -68,6 +68,14 @@ For everything else, we recommend a variety of email providers based on sustaina
 
     Proton Mail also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily, for cross-provider E2EE.
 
+??? warning "Digital Legacy"
+
+    Proton Mail doesn't offer a digital legacy feature.
+
+??? info "Account Termination"
+
+    If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinguent and won't receive incoming mail. You will continue to be billed during this period.
+
 ??? info "Additional Functionality"
 
     Proton Mail offers an "Unlimited" account for €9.99/Month, which also enables access to Proton VPN in addition to providing multiple accounts, domains, aliases, and 500GB of storage.
@@ -111,6 +119,14 @@ For everything else, we recommend a variety of email providers based on sustaina
     Mailbox.org has [integrated encryption](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
 
     Mailbox.org also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily, for cross-provider E2EE.
+
+??? check "Digital Legacy"
+
+    Mailbox.org has a digital legacy feature for all plans.
+
+??? info "Account Termination"
+
+    Your account will be set to a restricted user account when your contract ends, after [30 days it will be irrevocably deleted](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 ??? info "Additional Functionality"
 
@@ -156,6 +172,14 @@ For everything else, we recommend a variety of email providers based on sustaina
 ??? check "Email Encryption"
 
     StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys.
+
+??? warning "Digital Legacy"
+
+    StartMail does not offer a digital legacy feature.
+
+??? info "Account Termination"
+
+    On account expiration, StartMail will permanently delete your account after [6 months in 3 phases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
 
 ??? info "Additional Functionality"
 
@@ -208,6 +232,14 @@ Tutanota doesn't use the [IMAP protocol](https://tutanota.com/faq/#imap) or the 
     Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
 
     Tutanota [does have plans](https://github.com/tutao/tutanota/issues/198) to support [AutoCrypt](https://autocrypt.org). This would allow for non-Tutanota emails to send encrypted emails to Tutanota accounts as long as their email client supports the AutoCrypt headers.
+
+??? warning "Digital Legacy"
+
+    Tutanota doesn't offer a digital legacy feature.
+
+??? info "Account Termination"
+
+    Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
 
 ??? info "Additional Functionality"
 
