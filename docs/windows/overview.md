@@ -30,13 +30,13 @@ With the launch of Windows 11, a lot of [other](https://www.windowscentral.com/o
 
 While using Windows, it is better to select either Windows **Enterprise** Edition or **Education** Edition because it gives more control over the system for hardening it for privacy and security by giving access to stops the OS from sending any Telemetry data using GP Editor.
 
-If you cannot get the above editions, you must opt for **Professional** Edition.
+If you cannot get the above editions, you should opt for **Professional** Edition.
 
 #### Editions to avoid 
 
 - It is not recommended to use forks or modified versions of Windows such as Windows AME. It should be avoided at all cost. Since modified versions of Windows, such as AME, don't get updates, antivirus programs like Defender can fall out of date or be disabled entirely, opening you up to attacks.
 
-- Windows **Home** edition is **not** recommended as it does not have many advantages that Professional edition provides such as BitLocker Drive Encryption, Hyper-V, Windows Sandbox, etc. It also uploads Bitlocker Encryption keys to Microsoft servers which actually defies the aspect of encryption implemented in a different way.
+- Windows **Home** edition is **not** recommended as it does not have many advantages that Professional edition provides such as BitLocker Drive Encryption, Hyper-V, Windows Sandbox, etc. It also uploads Bitlocker Encryption keys to Microsoft servers which actually defies the aspect of the encryption implemented as the key was supposed to be hold by the user.
 
 ##### Recommendations
 
@@ -77,6 +77,8 @@ If you are currently using Pro and want to upgrade to Enterprise. Then, Follow t
 
 !!! danger "Warning"
     If you are going to install Windows 11, Then install it only on supported devices and it is not recommended to use tools/scripts that are available online to bypass the requirements which totally breaks the security of Windows 11 which it is aimed for.
+
+    Never download **Pirated ISO Files**
 
 *[GP]: Group Policy
 *[VBS]: Virtualization-Based Security
