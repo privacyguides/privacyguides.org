@@ -7,6 +7,8 @@ icon: material/incognito
 
 You should never sign-in to Windows with a Microsoft account. Signing-in to applications like Microsoft Office (which some users are required to do for their school or company) will trigger a dark pattern offering you to sign in to Windows, which will connect your device to your Microsoft account, and make it easier to send data to Microsoft servers and it is critical to reject this offer.
 
+It’s worth noting that according to [this study](https://www.autoriteitpersoonsgegevens.nl/sites/default/files/atoms/files/public_version_dutch_dpa_informal_translation_summary_of_investigation_report.pdf) it seems that Windows collects more telemetry when signed into a Microsoft Account.
+
 ![Using account for specific app](/assets/img/windows/signin-one-app.webp)
 
 You should log in to that specific app only if you need to.

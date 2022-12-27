@@ -3,8 +3,6 @@ title: System Hardening
 icon: material/monitor-lock
 ---
 
-If on Win11 be sure that you use it on supported hardware on 
-
 ## Setting up Windows after Installation
 
 If you wish to limit the amount of data Microsoft obtains from your device, an [offline/local account](https://answers.microsoft.com/en-us/windows/forum/all/how-to-create-a-local-or-offline-account-in/95097c32-40c4-48c0-8f3b-3bcb67afaf7c) is **recommended**. 
@@ -23,21 +21,18 @@ For security, it's recommended to set up Windows Hello on all of your accounts b
 - [ ] Toggle off all privacy related settings as shown in the image:
 
 ![Privacy Settings](/assets/img/windows/privacy-settings.webp)
-
-## Security
-
-UAC with password
-
 ## Encrypting the Drive
 
 After you have installed Windows, turn on full disk encryption (FDE) using BitLocker via the Control Panel. 
 
 !!! info "Choosing the Way to Encrypt"
-    It is recommended to use only the Control Panel because if you go to encrypt via settings app, Microsoft named it as `Device Encryption` and designed it in a way that the encryption keys for BitLocker would be stored on Microsoft's server which is attached to your Microsoft account. This can be dangerous to your privacy and security as Microsoft could easily view your encrypted files, as could an attacker if they were able to gain access to Microsoft's servers or any Law Enforcement could by a Gag order. 
+    It is recommended to use only the Control Panel because if you go to encrypt via settings app, Microsoft named it as `Device Encryption` and designed it in a way that the encryption keys for BitLocker would be stored on Microsoft's server which is attached to your Microsoft account. This can be dangerous to your privacy and security as anyone who gains access to your account, as could an attacker if they were able to gain access to Microsoft's servers or any Law Enforcement could by a Gag order. 
 
 The best way is to go to the Control Panel by searching for it in the Start Menu or from the context menu (right-click) in File Explorer and set it up for all of the drives that you have.
 
 ![Bitlocker in Control Panel](/assets/img/windows/Bitlocker%20Group%20Policies/bitlocker-control%20panel.webp)
+
+Bitlocker is suggested because of the native implementation by the OS and along with the usage of hardware to be resistant against encryption flaws.
 
 ### Security policies for Bitlocker
 
@@ -188,7 +183,7 @@ You can also know how to check if it is enabled or not in the guide.
 
 ## Apps
 
-- Avoid any types of Cleaning software at all cost.
+- Avoid any types of Cleaning software at all cost. As Microsoft is working on its own implementation specfically designed for windows.
 - To Install apps, using the `winget` (Windows Package manager). More details in [Sandboxing page](/windows/sandboxing/#using-winget-to-install-sofwaret)
 ## Security Improvements
 
