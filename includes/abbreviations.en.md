@@ -9,6 +9,7 @@
 *[CLI]: Command Line Interface
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
+*[Digital Legacy]: Digital Legacy refers to features that allow you to give other people access to your data when you die
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System
 *[DoH]: DNS over HTTPS

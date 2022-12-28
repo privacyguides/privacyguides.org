@@ -122,7 +122,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 
 ??? check "Digital Legacy"
 
-    Mailbox.org has a digital legacy feature for all plans.
+    Mailbox.org has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
 
 ??? info "Account Termination"
 
