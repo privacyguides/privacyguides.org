@@ -38,7 +38,7 @@ The criteria for the servers listed above are:
 
 ### Android
 
-Android 9 and above support DNS over TLS. Android 13 will support DNS over HTTPS. The settings can be found in: **Settings** &rarr; **Network & Internet** &rarr; **Private DNS**.
+Android 9 and above support DNS over TLS. The settings can be found in: **Settings** &rarr; **Network & Internet** &rarr; **Private DNS**.
 
 ### Apple Devices
 
