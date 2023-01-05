@@ -33,7 +33,7 @@ Sometimes services will try to force you to sign up for an account by blocking a
 
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Librarian, as other peoples' usage will be linked to your hosting.
 
-When you are using a Librarian instance, make sure to read the privacy policy of that specific instance. Librarian instances can be modified by their owners and therefore may not reflect the default policy. Librarian instances feature a "privacy nutrition label" to provide an overview of their policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
+When you are using a Librarian instance, make sure to read the privacy policy of that specific instance. Librarian instances can be modified by their owners and therefore may not reflect the default policy. Librarian instances feature a "privacy nutrition label" to provide an overview of their policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII.
 
 ## Twitter
 
@@ -59,7 +59,7 @@ When you are using a Librarian instance, make sure to read the privacy policy of
 
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Nitter, as other peoples' usage will be linked to your hosting.
 
-When you are using a Nitter instance, make sure to read the privacy policy of that specific instance. Nitter instances can be modified by their owners and therefore may not reflect the default policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
+When you are using a Nitter instance, make sure to read the privacy policy of that specific instance. Nitter instances can be modified by their owners and therefore may not reflect the default policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII.
 
 ## TikTok
 
@@ -167,7 +167,7 @@ When you are using a ProxiTok instance, make sure to read the privacy policy of 
 
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Invidious, as other peoples' usage will be linked to your hosting.
 
-When you are using an Invidious instance, make sure to read the privacy policy of that specific instance. Invidious instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
+When you are using an Invidious instance, make sure to read the privacy policy of that specific instance. Invidious instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII.
 
 ### Piped
 
