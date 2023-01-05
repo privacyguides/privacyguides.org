@@ -83,7 +83,7 @@ When you are using a Nitter instance, make sure to read the privacy policy of th
 
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting ProxiTok, as other peoples' usage will be linked to your hosting.
 
-When you are using an ProxiTok instance, make sure to read the privacy policy of that specific instance. ProxiTok instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
+When you are using a ProxiTok instance, make sure to read the privacy policy of that specific instance. ProxiTok instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII.
 
 ## YouTube
 
