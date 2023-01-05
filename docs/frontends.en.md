@@ -61,7 +61,7 @@ When self-hosting, it is important that you have other people using your instanc
 
 When you are using a Nitter instance, make sure to read the privacy policy of that specific instance. Nitter instances can be modified by their owners and therefore may not reflect the default policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII (Personally Identifiable Information).
 
-## Tik Tok
+## TikTok
 
 ### ProxiTok
 
