@@ -67,12 +67,13 @@ When you are using a Nitter instance, make sure to read the privacy policy of th
 
 !!! recommendation
 
-    ![ProxiTok logo](assets/img/frontends/proxitok.png){ align=right }
+    ![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
 
     **ProxiTok** is an open source frontend to the [TikTok](https://www.tiktok.com) website that is also self-hostable.
 
     There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
 
+    [:octicons-repo-16: Repository](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
     [:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Public Instances"}
     [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Source Code" }
