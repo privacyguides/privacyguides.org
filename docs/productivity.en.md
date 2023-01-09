@@ -56,6 +56,7 @@ For other platforms, consider below:
         - [:simple-windows11: Windows](https://www.onlyoffice.com/download-desktop.aspx)
         - [:simple-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx)
         - [:simple-linux: Linux](https://www.onlyoffice.com/download-desktop.aspx)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
         - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/onlyoffice-documentserver/)
 
 ### CryptPad
