@@ -6,6 +6,12 @@ Password managers allow you to securely store and manage passwords and other cre
 
 [Introduction to Passwords :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 
+!!! info
+
+    Built-in password managers in software like browsers and operating systems can be hit or miss. The advantage of a built-in password manager is good integration with the software, but you should make sure you're comfortable with the privacy/security features it offers.
+
+    For example, the password manager in Microsoft Edge doesn't offer E2EE at all. Google's password manager has [optional](https://support.google.com/accounts/answer/11350823) E2EE, and [Apple's](https://support.apple.com/en-us/HT202303) offers E2EE by default.
+
 ## Cloud-based
 
 These password managers sync your passwords to a cloud server for easy accessibility from all your devices and safety against device loss.
