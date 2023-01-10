@@ -8,7 +8,7 @@ Password managers allow you to securely store and manage passwords and other cre
 
 !!! info
 
-    Built-in password managers in software like browsers and operating systems can be hit or miss. The advantage of a built-in password manager is good integration with the software, but you should make sure you're comfortable with the privacy/security features it offers.
+    Built-in password managers in software like browsers and operating systems are sometimes not as good as dedicated password manager software. The advantage of a built-in password manager is good integration with the software, but it can often be very simple and lack privacy and security features standalone offerings have.
 
     For example, the password manager in Microsoft Edge doesn't offer E2EE at all. Google's password manager has [optional](https://support.google.com/accounts/answer/11350823) E2EE, and [Apple's](https://support.apple.com/en-us/HT202303) offers E2EE by default.
 
@@ -73,7 +73,6 @@ Bitwarden's server-side code is [open-source](https://github.com/bitwarden/serve
         - [:simple-windows11: Windows](https://1password.com/downloads/windows/)
         - [:simple-apple: macOS](https://1password.com/downloads/mac/)
         - [:simple-linux: Linux](https://1password.com/downloads/linux/)
-        
 
 Traditionally, **1Password** has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature-parity across all platforms. It boasts many features geared towards families and less technical people, as well as advanced functionality.
 
