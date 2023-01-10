@@ -67,7 +67,6 @@ Bitwarden's server-side code is [open-source](https://github.com/bitwarden/serve
         - [:simple-windows11: Windows](https://1password.com/downloads/windows/)
         - [:simple-apple: macOS](https://1password.com/downloads/mac/)
         - [:simple-linux: Linux](https://1password.com/downloads/linux/)
-        
 
 Traditionally, **1Password** has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature-parity across all platforms. It boasts many features geared towards families and less technical people, as well as advanced functionality.
 
@@ -85,7 +84,7 @@ One advantage 1Password has over Bitwarden is its first-class support for native
 
     [:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://doc.psono.com/){ .card-link title=Documentation}
+    [:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentation}
     [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
 
     ??? downloads
@@ -96,7 +95,7 @@ One advantage 1Password has over Bitwarden is its first-class support for native
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
         - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
 
-Psono provides [extensive documentation](https://doc.psono.com/) for their product. The [web-client](https://doc.psono.com/admin/installation/install-webclient.html#installation-with-docker) for Psono can be self-hosted; alternatively, you can choose the full [Community Edition](https://doc.psono.com/admin/installation/install-server-ce.html) or the [Enterprise Edition](https://doc.psono.com/admin/installation/install-server-ee.html) with additional features.
+Psono provides extensive documentation for their product. The web-client for Psono can be self-hosted; alternatively, you can choose the full Community Edition or the Enterprise Edition with additional features.
 
 ## Local Storage
 
