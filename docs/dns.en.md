@@ -50,27 +50,9 @@ After installation of either a configuration profile or an app that uses the DNS
 
 Apple does not provide a native interface for creating encrypted DNS profiles. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) is an unofficial tool for creating your own encrypted DNS profiles, however they will not be signed. Signed profiles are preferred; signing validates a profile's origin and helps to ensure the integrity of the profiles. A green "Verified" label is given to signed configuration profiles. For more information on code signing, see [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **Signed profiles** are offered by [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), and [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/).
 
-#### iOS/iPadOS
+!!! info
 
-Select **Settings** &rarr; **General** &rarr; **VPN, DNS, & Device Management** &rarr; **DNS**
-
-#### macOS
-
-Select **System Preferences &rarr; Profiles** or **System Preferences** &rarr; **Network** &rarr; **Advanced**, (depending on if you have configuration profiles installed).
-
-#### tvOS
-
-Select **Settings** &rarr; **General** &rarr; **Privacy** &rarr; **Share Apple TV Analytics** &rarr; then press the *Play* button on the remote.
-
-### Windows
-
-You can [turn on DoH](https://docs.microsoft.com/en-us/windows-server/networking/dns/doh-client-support) by accessing Windows settings in the control panel.
-
-Select **Settings** &rarr; **Network & Internet** &rarr; **Ethernet or WiFi**, &rarr; **Edit DNS Settings** &rarr; **Preferred DNS encryption** &rarr; **Encrypted only (DNS over HTTPS)**.
-
-### Linux
-
-`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+    `systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
 
 ## Encrypted DNS Proxies
 
