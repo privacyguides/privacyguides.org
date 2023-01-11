@@ -58,7 +58,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? check "Independently Audited"
 
-    As of January 2020 Proton VPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit/) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf).
+    As of January 2020, Proton VPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit/) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf).
 
 ??? check "Open-Source Clients"
 
@@ -314,7 +314,7 @@ Must not have any marketing which is irresponsible:
 Responsible marketing that is both educational and useful to the consumer could include:
 
 - An accurate comparison to when [Tor](tor.md) should be used instead.
-- Availability of the VPN provider's website over a .onion [Onion Service](https://en.wikipedia.org/wiki/.onion)
+- Availability of the VPN provider's website over a [.onion service](https://en.wikipedia.org/wiki/.onion)
 
 ### Additional Functionality
 

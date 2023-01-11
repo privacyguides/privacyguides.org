@@ -17,7 +17,7 @@ The Privacy Policy is how the service says they will use your data and it is wor
 
 We recommend looking for particular terms such as "data collection", "data analysis", "cookies", "ads" or "3rd-party" services. Sometimes you will be able to opt-out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
 
-You also also placing your trust in the company or organization to actually comply with their own privacy policy.
+Keep in mind you're also placing your trust in the company or organization and that they will comply with their own privacy policy.
 
 ## Authentication methods
 
