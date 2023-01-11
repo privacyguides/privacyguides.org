@@ -42,8 +42,7 @@ If these alternatives do not fit your needs, we suggest you look into [Encryptio
     ??? downloads
 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
-
-Proton Drive is currently only available through a web client and an Android app.
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
 
 ## Nextcloud
 
