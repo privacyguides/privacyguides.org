@@ -30,9 +30,9 @@ icon: material/dns
 The criteria for the servers listed above are:
 
 - Must support [DNSSEC](advanced/dns-overview.md#what-is-dnssec)
-- Must have [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) support
 - [QNAME Minimization](advanced/dns-overview.md#what-is-qname-minimization)
 - Allow for [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) to be disabled
+- Prefer [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) support or geo-steering support
 
 ## Native Operating System Support
 
