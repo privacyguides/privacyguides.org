@@ -172,13 +172,13 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
         - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
         - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
 
-??? check annotate "40 Countries"
+??? check annotate "41 Countries"
 
-    Mullvad has [servers in 40 countries](https://mullvad.net/servers/) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+    Mullvad has [servers in 41 countries](https://mullvad.net/servers/) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 
     We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-1. Last checked: 2022-09-16
+1. Last checked: 2023-01-19
 
 ??? check "Independently Audited"
 
