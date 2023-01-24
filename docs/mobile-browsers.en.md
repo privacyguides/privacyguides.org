@@ -39,6 +39,8 @@ These options can be found in :material-menu: → **Settings** → **Brave Shiel
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
 
+##### Brave shields global defaults
+
 Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
 
 <div class="annotate" markdown>
@@ -48,32 +50,37 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     ??? warning "Use default filter lists"
         Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
 
+- [x] Select **Upgrade connections to HTTPS**
 - [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Select **Strict, may break sites** under **Block fingerprinting**
 
 </div>
 
 1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
 
+##### Clear browsing data
+
+- [x] Select **Clear data on exit**
+
 ##### Social Media Blocking
 
 - [ ] Uncheck all social media components
 
-##### IPFS
-
-InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
-
-- [ ] Uncheck **IPFS Gateway**
-
 ##### Other privacy settings
 
-- [x] Select **Disable Non-Proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [x] Select **Always use secure connections**
+<div class="annotate" markdown>
+
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (1)
 - [x] Select **Close tabs on exit**
-- [x] Select **Clear data on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
+
+1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+
+</div>
 
 #### Brave Sync
 

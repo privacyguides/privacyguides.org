@@ -134,14 +134,15 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 - [ ] Uncheck all social media components
 
-##### Privacy and Security
+##### Privacy and security
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable Non-Proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
 - [ ] Uncheck **Use Google services for push messaging**
 - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
 - [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [ ] Uncheck **Automatically send diagnostic reports**
 - [x] Select **Always use secure connections** in the **Security** menu
 - [ ] Uncheck **Private window with Tor** (1)
 
