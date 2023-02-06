@@ -149,6 +149,8 @@ Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the 
     ??? downloads
 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
+        - [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop/)
+        - [:simple-linux: Linux](https://briarproject.org/download-briar-desktop/)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.briarproject.Briar)
 
 To add a contact on Briar, you must both add each other first. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.
