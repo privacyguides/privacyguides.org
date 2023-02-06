@@ -67,8 +67,6 @@ If these alternatives do not fit your needs, we suggest you look into [Encryptio
         - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
         - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
         - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
-        - [:simple-openbsd: OpenBSD](https://openports.se/www/nextcloud)
-        - [:simple-netbsd: NetBSD](https://pkgsrc.se/www/php-nextcloud)
 
 !!! danger
 

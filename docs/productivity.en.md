@@ -33,8 +33,6 @@ For other platforms, consider below:
         - [:simple-linux: Linux](https://www.libreoffice.org/download/download/)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.libreoffice.LibreOffice)
         - [:simple-freebsd: FreeBSD](https://www.freshports.org/editors/libreoffice/)
-        - [:simple-openbsd: OpenBSD](https://openports.se/editors/libreoffice)
-        - [:simple-netbsd: NetBSD](https://pkgsrc.se/misc/libreoffice)
 
 ### OnlyOffice
 

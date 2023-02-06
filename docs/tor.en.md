@@ -49,8 +49,6 @@ There are a variety of ways to connect to the Tor network from your device, the 
         - [:simple-apple: macOS](https://www.torproject.org/download/)
         - [:simple-linux: Linux](https://www.torproject.org/download/)
         - [:simple-freebsd: FreeBSD](https://www.freshports.org/security/tor)
-        - [:simple-openbsd: OpenBSD](https://openports.se/net/tor)
-        - [:simple-netbsd: NetBSD](https://pkgsrc.se/net/tor)
 
 !!! danger
 
