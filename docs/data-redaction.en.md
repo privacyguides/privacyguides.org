@@ -64,6 +64,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
     ??? downloads
 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
+        - [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
         - [:simple-github: GitHub](https://github.com/Tommy-Geenexus/exif-eraser/releases)
 
 The metadata that is erased depends on the image's file type:
