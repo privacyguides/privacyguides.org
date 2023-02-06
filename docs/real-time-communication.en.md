@@ -7,9 +7,7 @@ These are our recommendations for encrypted real-time communication.
 
 [Types of Communication Networks :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 
-## Cross-Platform Messengers
-
-### Signal
+## Signal
 
 !!! recommendation
 
@@ -42,7 +40,7 @@ We have some additional tips on configuring and hardening your Signal installati
 
 [Signal Configuration and Hardening :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/)
 
-### Element
+## Element
 
 !!! recommendation
 
@@ -73,7 +71,7 @@ Group voice and video calls are [not](https://github.com/vector-im/element-web/i
 
 The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) in 2016. The specification for the Matrix protocol can be found in their [documentation](https://spec.matrix.org/latest/). The [Olm](https://matrix.org/docs/projects/other/olm) cryptographic ratchet used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
 
-### SimpleX Chat
+## SimpleX Chat
 
 !!! recommendation
 
@@ -98,7 +96,7 @@ Currently SimpleX Chat only provides a client for Android and iOS. Basic group c
 
 Your data can be exported, and imported onto another device, as there are no central servers where this is backed up.
 
-### Session
+## Session
 
 !!! recommendation
 
@@ -130,9 +128,7 @@ Oxen requested an independent audit for Session in March of 2020. The audit [con
 
 Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technicals of the app and protocol.
 
-## Other Messengers
-
-### Briar (Android)
+## Briar
 
 !!! recommendation
 
