@@ -24,7 +24,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 
     **Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since **2013**. Proton AG is based in Genève, Switzerland. Accounts start with 500 MB storage with their free plan.
 
-    Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g. Thunderbird). Paid accounts include features like Proton Mail Bridge, additional storage, and custom domain support.
+    Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g. Thunderbird). Paid accounts include features like Proton Mail Bridge, additional storage, and custom domain support. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
     If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](#simplelogin) Premium for free.
 
