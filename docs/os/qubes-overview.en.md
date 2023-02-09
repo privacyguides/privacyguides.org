@@ -33,7 +33,7 @@ You can [copy and paste text](https://www.qubes-os.org/doc/how-to-copy-and-paste
 
 ### File Exchange
 
-To copy and paste files and directories (folders) from one VM to another, you can use the option **Copy to Other AppVM...** or **Move to Other AppVM...**. The difference is that the **Move** option will delete the original file. Either option will protect your clipboard from being leaked to any other Qubes. This is more security than air-gapped file transfer because an air-gapped computer will still be forced to parse partitions or file systems. That is not required with the inter-qube copy system.
+To copy and paste files and directories (folders) from one VM to another, you can use the option **Copy to Other AppVM...** or **Move to Other AppVM...**. The difference is that the **Move** option will delete the original file. Either option will protect your clipboard from being leaked to any other Qubes. This is more secure than air-gapped file transfer because an air-gapped computer will still be forced to parse partitions or file systems. That is not required with the inter-qube copy system.
 
 ??? info "AppVMs or qubes do not have their own file systems"
 
