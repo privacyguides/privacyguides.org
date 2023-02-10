@@ -13,17 +13,3 @@ updates:
       - "jonaharagon"
     labels:
       - "fix:github_actions"
-
-  # Maintain dependencies for pipenv
-  - package-ecosystem: "pip"
-    directory: "/"
-    ignore:
-      - dependency-name: "mkdocs-material"
-    schedule:
-      interval: "daily"
-    assignees:
-      - "jonaharagon"
-    reviewers:
-      - "jonaharagon"
-    labels:
-      - "fix:python"
