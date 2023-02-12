@@ -7,7 +7,7 @@ Often people sign up for services without thinking. Maybe it's a streaming servi
 
 There are risks associated with every new service that you use. Data breaches; disclosure of customer information to third parties; rogue employees accessing data; all are possibilities that must be considered when giving your information out. You need to be confident that you can trust the service, which is why we don't recommend storing valuable data on anything but the most mature and battle-tested products. That usually means services which provide E2EE and have undergone a cryptographic audit. An audit increases assurance that the product was designed without glaring security issues caused by an inexperienced developer.
 
-It can also be difficult to delete the accounts on some services. Sometimes [overwriting data](account-deletion.en.md#overwriting-account-information) associated with an account can be possible, but in other cases the service will keep an entire history of changes to the account.
+It can also be difficult to delete the accounts on some services. Sometimes [overwriting data](account-deletion.md#overwriting-account-information) associated with an account can be possible, but in other cases the service will keep an entire history of changes to the account.
 
 ## Terms of Service & Privacy Policy
 
