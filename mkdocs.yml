@@ -59,11 +59,40 @@ watch:
 plugins:
   i18n:
     default_language: en
-    default_language_only: true
     material_alternate: true
     languages:
       en:
         name: English
+        build: true
+      he_IL:
+        name: עִברִית
+        build: false
+      fr_FR:
+        name: fr
+        build: false
+      bn_IN:
+        name: bn
+        build: false
+      es_ES:
+        name: es
+        build: false
+      hu_HU:
+        name: hu
+        build: false
+      it_IT:
+        name: it
+        build: false
+      nl_NL:
+        name: nl
+        build: false
+      pt_BR:
+        name: pt
+        build: false
+      ru_RU:
+        name: ru
+        build: false
+      zh_CN:
+        name: zh
         build: false
   tags: {}
   search: {}

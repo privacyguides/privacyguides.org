@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block extrahead %}
+  <link rel="preload" href="{{ 'assets/brand/WOFF/bagnard/Bagnard.woff' | url }}" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=2.10.0' | url }}">
+{% endblock %}
+{% block tabs %}
+{{ super() }}
+  <style>.md-content > .md-typeset h1{visibility:hidden;font-size:0;}.md-button{margin-top:.5rem;}</style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__content">
+          <h1>আপনার অনলাইন প্রাইভেসী রক্ষা করার জন্য গাইড।</h1>
+          <p>বড়ো কোম্পানিগুলি আপনার অনলাইন কার্যক্রম-এর ওপর নজরদারি করছে। প্রাইভেসী গাইডস হলো আপনার অনলাইন প্রাইভেসী এবং সিকিউরিটি সম্পর্কে জানবার প্রধান জায়গা।</p>
+          <a href="kb/" title="আপনার প্রাইভেসি এর যাত্রার প্রথম পদক্ষেপ" class="md-button md-button--primary">
+            আপনার প্রাইভেসি এর যাত্রা শুরু করুন
+          </a>
+          <a href="tools/" title="প্রস্তাবিত প্রাইভেসী টুলস, পরিষেবা এবং তথ্য" class="md-button">
+            প্রস্তাবিত সরঞ্জাম
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

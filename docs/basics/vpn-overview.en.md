@@ -19,7 +19,7 @@ However, they do hide your actual IP from a third-party service, provided that t
 
 ## When shouldn't I use a VPN?
 
-Using a VPN in cases where you're using your [known identity](../basics/common-threats.en.md#common-misconceptions) is unlikely be useful.
+Using a VPN in cases where you're using your [known identity](common-threats.md#common-misconceptions) is unlikely be useful.
 
 Doing so may trigger spam and fraud detection systems, such as if you were to log into your bank's website.
 
