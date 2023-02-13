@@ -11,7 +11,7 @@ icon: material/file-lock
 
 ### Cryptomator (ענן)
 
-!!! המלצה
+!!! recommendation
 
     ![Cryptomator לוגו](assets/img/encryption-software/cryptomator.svg){ align=right }
     
@@ -23,7 +23,7 @@ icon: material/file-lock
     [:octicons-code-16:](https://github.com/cryptomator){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=לתרומה }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
@@ -41,7 +41,7 @@ Cryptomator משתמש בהצפנת AES-256 כדי להצפין קבצים וש�
 
 ### Picocrypt (קובץ)
 
-!!! המלצה
+!!! recommendation
 
     ![Picocrypt לוגו](assets/img/encryption-software/picocrypt.svg){ align=right }
     
@@ -51,7 +51,7 @@ Cryptomator משתמש בהצפנת AES-256 כדי להצפין קבצים וש�
     [:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=לתרומה }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
         - [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
@@ -59,7 +59,7 @@ Cryptomator משתמש בהצפנת AES-256 כדי להצפין קבצים וש�
 
 ### VeraCrypt (דיסק)
 
-!!! המלצה
+!!! recommendation
 
     ![לוגו של VeraCrypt](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
     ![לוגו של VeraCrypt](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }}
@@ -71,7 +71,7 @@ Cryptomator משתמש בהצפנת AES-256 כדי להצפין קבצים וש�
     [:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=לתרומה }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
         - [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
@@ -89,7 +89,7 @@ Truecrypt נבדק [מספר פעמים](https://en.wikipedia.org/wiki/TrueCrypt
 
 ### ביטלוקר - BitLocker
 
-!!! המלצה
+!!! recommendation
 
     ![BitLocker logo ](assets/img/encryption-software/bitlocker.png){ align=right }
     
@@ -151,7 +151,7 @@ BitLocker [נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-de
 
 ### הגדרת מפתח מאוחדת של לינוקס
 
-!!! המלצה
+!!! recommendation
 
     ![LUKS לוגו](assets/img/encryption-software/luks.png){ align=right }
     
@@ -190,7 +190,7 @@ BitLocker [נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-de
 
 ### hat.sh
 
-!!! המלצה
+!!! recommendation
 
     ![hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ align=right }
     ![hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ align=right }
@@ -209,7 +209,7 @@ BitLocker [נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-de
 
 ### Kryptor
 
-!!! המלצה
+!!! recommendation
 
     ![לוגו קריפטור ](assets/img/encryption-software/kryptor.png){ align=right }
     
@@ -221,7 +221,7 @@ BitLocker [נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-de
     [:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=לתרומה }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows](https://www.kryptor.co.uk)
         - [:simple-apple: macOS](https://www.kryptor.co.uk)
@@ -229,7 +229,7 @@ BitLocker [נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-de
 
 ### Tomb
 
-!!! המלצה
+!!! recommendation
 
     ![Tomb לוגו](assets/img/encryption-software/tomb.png){ align=right }
     
@@ -256,7 +256,7 @@ OpenPGP נחוץ לעתים למשימות ספציפיות כגון חתימה 
 
 ### GNU Privacy Guard
 
-!!! המלצה
+!!! recommendation
 
     ![GNU Privacy Guard logo](assets/img/encryption-software/gnupg.svg){ align=right }
     
@@ -267,8 +267,7 @@ OpenPGP נחוץ לעתים למשימות ספציפיות כגון חתימה 
     [:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=תיעוד}
     [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="קוד מקור" }
     
-    ??? הורדות
-    
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
         - [:simple-windows11: Windows](https://gpg4win.org/download.html)
@@ -277,7 +276,7 @@ OpenPGP נחוץ לעתים למשימות ספציפיות כגון חתימה 
 
 ### GPG4win
 
-!!! המלצה
+!!! recommendation
 
     ![GPG4win לוגו](assets/img/encryption-software/gpg4win.svg){ align=right }
     
@@ -289,8 +288,7 @@ OpenPGP נחוץ לעתים למשימות ספציפיות כגון חתימה 
     [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=לתרומה }
     
-    ??? הורדות
-    
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows](https://gpg4win.org/download.html)
 
@@ -300,7 +298,7 @@ OpenPGP נחוץ לעתים למשימות ספציפיות כגון חתימה 
 
     אנו מציעים [Canary Mail](email-clients.md#canary-eail) לשימוש ב - PGP עם דוא"ל במכשירי iOS.
 
-!!! המלצה
+!!! recommendation
 
     ![GPG Suite לוגו](assets/img/encryption-software/gpgsuite.png){ align=right }
     
@@ -313,14 +311,13 @@ OpenPGP נחוץ לעתים למשימות ספציפיות כגון חתימה 
     [:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/GPGTools){ .card-link title="קוד מקור" }
     
-    ??? הורדות
-    
+    ??? downloads "הורדות"
     
         - [:simple-apple: macOS](https://gpgtools.org)
 
 ### OpenKeychain
 
-!!! המלצה
+!!! recommendation
 
     ![OpenKeychain לוגו](assets/img/encryption-software/openkeychain.svg){ align=right }
     
@@ -332,7 +329,6 @@ OpenPGP נחוץ לעתים למשימות ספציפיות כגון חתימה 
     [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="קוד מקור" }
     :octicons-heart-16:{ .card-link title="ניתן לתרום בתוך האפליקציה" }
     
-    ??? הורדות
-    
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)

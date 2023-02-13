@@ -9,7 +9,7 @@ icon: material/rss
 
 ### Akregator
 
-!!! המלצה
+!!! recommendation
 
     ![Akregator logo](assets/img/news-aggregators/akregator.svg){ align=right }
     
@@ -21,13 +21,13 @@ icon: material/rss
     [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
 ### Feeder
 
-!!! המלצה
+!!! recommendation
 
     ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
     
@@ -37,13 +37,13 @@ icon: material/rss
     [:octicons-code-16:](https://gitlab.com/spacecowboy/Feeder){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
 
 ### Fluent Reader
 
-!!! המלצה
+!!! recommendation
 
     ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ align=right }
     
@@ -55,14 +55,14 @@ icon: material/rss
     [:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
 
 ### GNOME Feeds
 
-!!! המלצה
+!!! recommendation
 
     ![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ align=right }
     
@@ -72,14 +72,14 @@ icon: material/rss
     [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-linux: Linux](https://gfeeds.gabmus.org/#install)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gabmus.gfeeds)
 
 ### Miniflux
 
-!!! המלצה
+!!! recommendation
 
     ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
     ![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
@@ -93,7 +93,7 @@ icon: material/rss
 
 ### NetNewsWire
 
-!!! המלצה
+!!! recommendation
 
     ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
     
@@ -104,14 +104,14 @@ icon: material/rss
     [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
         - [:simple-apple: macOS](https://netnewswire.com)
 
 ### Newsboat
 
-!!! המלצה
+!!! recommendation
 
     ![לוגו של Newsboat](assets/img/news-aggregators/newsboat.svg){ align=right }
     

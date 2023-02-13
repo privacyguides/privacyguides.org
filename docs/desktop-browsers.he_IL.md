@@ -7,11 +7,11 @@ icon: material/laptop
 
 ### Firefox
 
-!!! המלצה
+!!! recommendation
 
     ![לוגו Firefox](/assets/img/browsers/firefox.svg){ align=right }
     
-    **Firefox ** מספק הגדרות פרטיות חזקות כגון [Enhanced Tracking Protection ]( https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), שיכול לעזור לחסום [סוגי מעקב] שונים (https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-protection-blocks).
+    **Firefox ** מספק הגדרות פרטיות חזקות כגון [Enhanced Tracking Protection ]( https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), שיכול לעזור לחסום [סוגי מעקב](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-protection-blocks) שונים.
     
     [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
@@ -19,7 +19,7 @@ icon: material/laptop
     [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
         - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
@@ -60,7 +60,7 @@ icon: material/laptop
 ##### טלמטריה
 
 - [ ] בטל את הסימון **אפשר ל - Thunderbird לשלוח נתונים טכניים ונתוני אינטראקציה ל - Mozilla**
-- [] בטל את הסימון **אפשר ל - Firefox להתקין ולהריץ מחקרים**
+- [ ] בטל את הסימון **אפשר ל - Firefox להתקין ולהריץ מחקרים**
 - [ ] בטל את הסימון **אפשר ל - Firefox לשלוח דוחות קריסה עמוסים בשמך**
 
 > Firefox שולח נתונים על הגרסה והשפה של Firefox; תצורת מערכת ההפעלה והחומרה של המכשיר; זיכרון, מידע בסיסי על קריסות ושגיאות; תוצאה של תהליכים אוטומטיים כמו עדכונים, גלישה בטוחה והפעלה אלינו. כאשר Firefox שולח אלינו נתונים, כתובת ה - IP שלך נאספת באופן זמני כחלק מיומני השרת שלנו.
@@ -81,7 +81,7 @@ icon: material/laptop
 
 ### Brave
 
-!!! המלצה
+!!! recommendation
 
     ![Brave לוגו](assets/img/browsers/brave.svg){ align=right }
     
@@ -146,10 +146,11 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
 - [x] בחר**השתמש תמיד בחיבורים מאובטחים** בתוך **אבטחה** תפריט
 - [ ] בטל **חלון פרטי עם טור(1)
 
-    !!! חשוב"חיטוי בסגירה"
-        - [x] בחר**נקה קבצי עוגיות ונתוני אתר בעת סגירת כל החלונות**בתפריט *עוגיות ונתוני אתר אחרים*
+!!! note "חיטוי בסגירה"
 
-        אם ברצונך להישאר מחובר לאתר מסוים שבו אתה מבקר לעתים קרובות, באפשרותך להגדיר חריגים על בסיס לכל אתר תחת *התנהגויות מותאמות אישית* section.
+    - [x] בחר**נקה קבצי עוגיות ונתוני אתר בעת סגירת כל החלונות**בתפריט *עוגיות ונתוני אתר אחרים*
+
+    אם ברצונך להישאר מחובר לאתר מסוים שבו אתה מבקר לעתים קרובות, באפשרותך להגדיר חריגים על בסיס לכל אתר תחת *התנהגויות מותאמות אישית* section.
 
 </div>
 
@@ -174,7 +175,7 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
 
 <div class="annotate" markdown>
 
-- [] בטל את הסימון **המשך להפעיל אפליקציות כאשר Brave סגור** כדי להשבית אפליקציות רקע (1)
+- [ ] בטל את הסימון **המשך להפעיל אפליקציות כאשר Brave סגור** כדי להשבית אפליקציות רקע (1)
 
 </div>
 
@@ -190,7 +191,7 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
 
 ### uBlock Origin
 
-!!! המלצה
+!!! recommendation
 
     ![הלוגו של uBlock Origin ](/assets/img/browsers/ublock_origin.svg){ align=right }
     
@@ -201,7 +202,7 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
     [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)

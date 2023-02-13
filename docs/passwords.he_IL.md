@@ -7,7 +7,13 @@ icon: material/form-textbox-password
 
 [מבוא לסיסמאות :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 
-!!! מידע
+## מבוסס ענן
+
+מנהלי סיסמאות אלה מסנכרנים את הסיסמאות שלך לשרת בענן כדי לאפשר נגישות נוחה מכל המכשירים שלך ובטיחות מפני אובדן מכשירים.
+
+### Bitwarden
+
+!!! recommendation
 
     ![Bitwarden logo ](assets/img/password-management/bitwarden.svg){ align=right }
     
@@ -17,26 +23,6 @@ icon: material/form-textbox-password
     [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
-    
-    ???
-
-## מבוסס ענן
-
-מנהלי סיסמאות אלה מסנכרנים את הסיסמאות שלך לשרת בענן כדי לאפשר נגישות נוחה מכל המכשירים שלך ובטיחות מפני אובדן מכשירים.
-
-### Bitwarden
-
-!!! המלצה
-
-    ![1Password logo ](assets/img/password-management/1password.svg){ align=right }
-    
-    **1Password ** הוא מנהל סיסמאות עם מיקוד חזק באבטחה ובקלות השימוש, המאפשר לך לאחסן סיסמאות, כרטיסי אשראי, רישיונות תוכנה וכל מידע רגיש אחר בכספת דיגיטלית מאובטחת. הכספת שלך מתארחת בשרתים של 1Password בתשלום חודשי [https://1password.com/signup/). 1Password הוא [audited](https://support.1password.com/security-assessments/) על בסיס קבוע ומספק תמיכת לקוחות יוצאת דופן.
-    
-    1Password הוא מקור סגור; עם זאת, האבטחה של המוצר מתועדת ביסודיות [נייר אבטחה לבן]( https://1passwordstatic.com/files/security/1password-white-paper.pdf). [:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://support.1password.com/1password-privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
-    
-    ???
 
 אתה צריך את תוכנית [הפרימיום](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) כדי שתוכל לשתף קבצים. התוכנית החינמית מאפשרת שיתוף טקסט בלבד. Bitwarden Send כולל גם [מחיקה אוטומטית](https://bitwarden.com/help/send-lifespan).
 
@@ -54,23 +40,18 @@ icon: material/form-textbox-password
 
 באופן מסורתי, **1Password** הציע את חוויית המשתמש הטובה ביותר של מנהל הסיסמאות עבור אנשים שמשתמשים ב - macOS וב - iOS; עם זאת, כעת הוא השיג תכונות שונות בכל הפלטפורמות. הוא מתהדר בתכונות רבות המכוונות למשפחות ולאנשים פחות טכניים, כמו גם פונקציונליות מתקדמות.
 
-    ![Psono logo ](assets/img/password-management/psono.svg){ align=right }
+!!! recommendation
+
+    ![1Password logo ](assets/img/password-management/1password.svg){ align=right }
     
-    ** Psono ** הוא מנהל סיסמאות חופשי ופתוח מגרמניה, עם התמקדות בניהול סיסמאות המיועד לצוותים. Psono תומכת בשיתוף מאובטח של סיסמאות, קבצים, סימניות ואימיילים. כל הסודות מוגנים באמצעות סיסמת מאסטר. [:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://doc.psono.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
+    **1Password ** הוא מנהל סיסמאות עם מיקוד חזק באבטחה ובקלות השימוש, המאפשר לך לאחסן סיסמאות, כרטיסי אשראי, רישיונות תוכנה וכל מידע רגיש אחר בכספת דיגיטלית מאובטחת. הכספת שלך מתארחת בשרתים של 1Password בתשלום חודשי [https://1password.com/signup/). 1Password הוא [audited](https://support.1password.com/security-assessments/) על בסיס קבוע ומספק תמיכת לקוחות יוצאת דופן.
     
-    ???
+    1Password הוא מקור סגור; עם זאת, האבטחה של המוצר מתועדת ביסודיות [נייר אבטחה לבן]( https://1passwordstatic.com/files/security/1password-white-paper.pdf). [:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://support.1password.com/1password-privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
     
-    הורדות
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
-        - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client) הורדות
-    
+    ??? downloads
+
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
         - [:simple-windows11: Windows](https://1password.com/downloads/windows/)
@@ -85,37 +66,24 @@ icon: material/form-textbox-password
 
 ### Psono
 
-!!! [קליינט האינטרנט](https://doc.psono.com/admin/installation/install-webclient.html#installation-with-docker) עבור Psono יכול להיות באחסון עצמי; לחלופין, אתה יכול לבחור את מהדורת הקהילה [המלאה](https://doc.psono.com/admin/installation/install-server-ce.html) או מהדורת מיזם [](https://doc.psono.com/admin/installation/install-server-ee.html) עם תכונות נוספות.
+!!! recommendation
 
-    ![KeePassXC logo ](assets/img/password-management/keepassxc.svg){ align=right }
+    ![Psono logo ](assets/img/password-management/psono.svg){ align=right }
     
-    ** KeePassXC ** הוא נגזר קהילתי של KeePassX, יציאת חוצה פלטפורמות מקורית של KeePass Password Safe, במטרה להרחיב ולשפר אותו עם תכונות חדשות ותיקוני באגים כדי לספק מנהל סיסמאות עשיר בתכונות, חוצה פלטפורמות ומודרני בקוד פתוח. [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribute }
-    
-    ??? הורדות
-    
-        - [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
-        - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
-        - [:simple-linux: Linux](https://keepassxc.org/download/#linux)
-        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
-    
-    [:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
+    ** Psono ** הוא מנהל סיסמאות חופשי ופתוח מגרמניה, עם התמקדות בניהול סיסמאות המיועד לצוותים. Psono תומכת בשיתוף מאובטח של סיסמאות, קבצים, סימניות ואימיילים. כל הסודות מוגנים באמצעות סיסמת מאסטר. [:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentation}
+    [:octicons-info-16:](https://doc.psono.com/){ .card-link title=Documentation}
     [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
         - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
+
+!!! [קליינט האינטרנט](https://doc.psono.com/admin/installation/install-webclient.html#installation-with-docker) עבור Psono יכול להיות באחסון עצמי; לחלופין, אתה יכול לבחור את מהדורת הקהילה [המלאה](https://doc.psono.com/admin/installation/install-server-ce.html) או מהדורת מיזם [](https://doc.psono.com/admin/installation/install-server-ee.html) עם תכונות נוספות.
 
 Psono מספק תיעוד נרחב למוצר שלהם. לקוח האינטרנט של Psono יכול להיות באחסון עצמי; לחלופין, ניתן לבחור את המהדורה הקהילתית המלאה או את המהדורה הארגונית עם תכונות נוספות.
 
@@ -125,7 +93,32 @@ Psono מספק תיעוד נרחב למוצר שלהם. לקוח האינטרנ�
 
 ### KeePassXC
 
+!!! recommendation
+
+    ![KeePassXC logo ](assets/img/password-management/keepassxc.svg){ align=right }
+    
+    ** KeePassXC ** הוא נגזר קהילתי של KeePassX, יציאת חוצה פלטפורמות מקורית של KeePass Password Safe, במטרה להרחיב ולשפר אותו עם תכונות חדשות ותיקוני באגים כדי לספק מנהל סיסמאות עשיר בתכונות, חוצה פלטפורמות ומודרני בקוד פתוח. [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribute }
+    
+    ??? downloads "הורדות"
+    
+        - [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
+        - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
+        - [:simple-linux: Linux](https://keepassxc.org/download/#linux)
+        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
+
 !!! משמעות הדבר שעלול להיות אובדן נתונים אם תייבא קובץ זה למנהל סיסמאות אחר.
+
+KeePassXC מאחסן את נתוני הייצוא שלו כ - [קבצי CSV](https://en.wikipedia.org/wiki/Comma-separated_values). משמעות הדבר שעלול להיות אובדן נתונים אם תייבא קובץ זה למנהל סיסמאות אחר. מומלץ לבדוק כל רשומה באופן ידני.
+
+### KeePassDX (אנדרואיד)
+
+!!! recommendation
 
     ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
     
@@ -138,11 +131,11 @@ Psono מספק תיעוד נרחב למוצר שלהם. לקוח האינטרנ�
     
     ???
 
-KeePassXC מאחסן את נתוני הייצוא שלו כ - [קבצי CSV](https://en.wikipedia.org/wiki/Comma-separated_values). משמעות הדבר שעלול להיות אובדן נתונים אם תייבא קובץ זה למנהל סיסמאות אחר. מומלץ לבדוק כל רשומה באופן ידני.
+### Strongbox (iOS & macOS)
 
-### KeePassDX (אנדרואיד)
+בנוסף, קיימת גרסה לא מקוונת בלבד המוצעת: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). גרסה זו מופשטת בניסיון להפחית את שטח ההתקפה.
 
-!!! המלצה
+!!! recommendation
 
     ![לוגו של Strongbox](assets/img/password-management/strongbox.svg){ align=right }
     
@@ -153,28 +146,8 @@ KeePassXC מאחסן את נתוני הייצוא שלו כ - [קבצי CSV](htt
     [:octicons-info-16:](https://strongboxsafe.com/getting-started/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribute }
-    
-    ???
 
-### Strongbox (iOS & macOS)
-
-בנוסף, קיימת גרסה לא מקוונת בלבד המוצעת: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). גרסה זו מופשטת בניסיון להפחית את שטח ההתקפה.
-
-    ![gopass logo ](assets/img/password-management/gopass.svg){ align=right }
-    
-    ** gopass** הוא מנהל סיסמאות עבור שורת הפקודה הכתובה ב - Go. הוא פועל על כל מערכות ההפעלה העיקריות של מחשבים שולחניים ושרתים (Linux, macOS, BSD, Windows). [:octicons-home-16: Homepage](https://www.gopass.pw){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribute }
-    
-    ???
-    
-    הורדות
-    
-        - [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
-        - [:simple-apple: macOS](https://www.gopass.pw/#install-macos)
-        - [:simple-linux: Linux](https://www.gopass.pw/#install-linux)
-        - [:simple-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd) הורדות
+    ??? downloads
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
 
@@ -186,7 +159,7 @@ KeePassXC מאחסן את נתוני הייצוא שלו כ - [קבצי CSV](htt
 
 ### gopass
 
-!!! המלצה
+!!! recommendation
 
     ![gopass לוגו](assets/img/password-management/gopass.svg){ align=right }
     
@@ -197,7 +170,14 @@ KeePassXC מאחסן את נתוני הייצוא שלו כ - [קבצי CSV](htt
     [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
+    
+        - [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
+        - [:simple-apple: macOS](https://www.gopass.pw/#install-macos)
+        - [:simple-linux: Linux](https://www.gopass.pw/#install-linux)
+        - [:simple-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
+
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
         - [:simple-apple: macOS](https://www.gopass.pw/#install-macos)

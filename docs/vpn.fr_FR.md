@@ -44,7 +44,7 @@ Trouvez un opérateur VPN sans journalisation qui n'est pas là pour vendre ou l
         - [:simple-windows11: Windows](https://protonvpn.com/fr/download-windows)
         - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
-??? check annotate "38 Pays"
+??? success annotate "38 Pays"
 
     Mullvad possède [des serveurs dans 38 pays] (https://mullvad.net/servers/) (1). En choisissant un fournisseur de VPN dont le serveur est le plus proche de vous vous réduirez la latence du trafic réseau que vous envoyez. Cela est dû à un itinéraire plus court (moins de sauts) vers la destination.
     
@@ -52,35 +52,35 @@ Trouvez un opérateur VPN sans journalisation qui n'est pas là pour vendre ou l
 
 1. En date du 17/05/2022
 
-??? check "Audités de manière indépendante"
+??? success "Audités de manière indépendante"
 
     Les clients VPN de Mullvad ont été audités par Cure53 et Assured AB dans un rapport de test de pénétration [publié sur cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf). Les chercheurs en sécurité ont conclu :
     
     > Cure53 et Assured AB sont satisfaits des résultats de l'audit et le logiciel laisse une impression globalement positive. Grâce au dévouement de l'équipe interne du complexe VPN de Mullvad, les testeurs n'ont aucun doute sur le fait que le projet est sur la bonne voie du point de vue de la sécurité. Vous pouvez consulter les rapports individuels pour chaque plateforme à l'adresse [protonvpn.com](https://protonvpn.com/blog/open-source/). En avril 2022, Proton VPN a fait l'objet d'un [autre audit] (https://protonvpn.com/blog/no-logs-audit/) et le rapport a été [produit par Securitum] (https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). Une [lettre d'attestation] (https://proton.me/blog/security-audit-all-proton-apps) a été fournie pour les applications de Proton VPN le 9 novembre 2021 par [Securitum](https://research.securitum.com).
 
-??? check "Clients Open Source"
+??? success "Clients Open Source"
 
     Proton VPN fournit le code source de ses clients de bureau et mobiles dans son [organisation GitHub] (https://github.com/ProtonVPN).
 
-??? check "Accepte l'Argent Liquide et le Monero"
+??? success "Accepte l'Argent Liquide et le Monero"
 
     En plus d'accepter les cartes de crédit/débit et PayPal, IVPN accepte le Bitcoin, le **Monero** et **l'argent liquide/la monnaie locale** (sur les plans annuels) comme formes de paiement anonymes.
 
-??? check "Supporte WireGuard"
+??? success "Supporte WireGuard"
 
     Mullvad prend en charge le protocole WireGuard®. [WireGuard](https://www.wireguard.com) est un protocole plus récent qui utilise de la [cryptographie](https://www.wireguard.com/protocol/) de pointe. De plus, WireGuard vise à être plus simple et plus performant.
     
     Mullvad [recommande](https://mullvad.net/en/help/why-wireguard/) l'utilisation de WireGuard avec leur service. Il s'agit du seul protocole ou celui par défaut sur les applications Android, iOS, macOS et Linux de Mullvad, mais sous Windows, vous devez [activer manuellement](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard.
 
-??? check "Supporte IPv6"
+??? success "Supporte IPv6"
 
     Mullvad soutient l'avenir du réseau [IPv6](https://en.wikipedia.org/wiki/IPv6). Leur réseau vous permet [d'accéder à des services hébergés sur IPv6] (https://mullvad.net/en/blog/2014/9/15/ipv6-support/), contrairement à d'autres fournisseurs qui bloquent les connexions IPv6.
 
-??? check "Redirection de port distant"
+??? success "Redirection de port distant"
 
     En plus de fournir des fichiers de configuration OpenVPN standard, Proton VPN dispose de clients mobiles pour [App Store] (https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play] (https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), et [GitHub](https://github.com/ProtonVPN/android-app/releases) permettant de se connecter facilement à leurs serveurs.
 
-??? check "Clients Mobile"
+??? success "Clients Mobile"
 
     Mullvad a publié des clients [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) et [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn), qui prennent tous deux en charge une interface facile à utiliser, au lieu de vous demander de configurer manuellement votre connexion WireGuard. Le client mobile sur Android est également disponible dans [F-Droid](https://f-droid.org/packages/net.mullvad.mullvadvpn), ce qui garantit qu'il est compilé avec des [builds reproductibles] (https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html). De plus, Proton VPN propose également des serveurs "Tor" vous permettant de vous connecter facilement aux sites oignon, mais nous vous recommandons toujours fortement d'utiliser [le navigateur officiel Tor] (https://www.torproject.org/fr/) à cet effet. De plus, Proton VPN propose également des serveurs "Tor" vous permettant de vous connecter facilement aux sites oignon, mais nous vous recommandons toujours fortement d'utiliser [le navigateur officiel Tor] (https://www.torproject.org/fr/) à cet effet.
 
@@ -100,7 +100,7 @@ Trouvez un opérateur VPN sans journalisation qui n'est pas là pour vendre ou l
     
     [Page d'accueil](https://protonvpn.com/){ .md-button .md-button--primary } Nous pensons également qu'il est préférable pour la sécurité des clés privées du fournisseur de VPN qu'il utilise des [serveurs dédiés] (https://en.wikipedia.org/wiki/Dedicated_hosting_service), plutôt que des solutions partagées moins chères (avec d'autres clients) telles que les [serveurs privés virtuels] (https://en.wikipedia.org/wiki/Virtual_private_server).
 
-??? check annotate "63 Pays"
+??? success annotate "63 Pays"
 
     Proton VPN a [des serveurs dans 63 pays] (https://protonvpn.com/vpn-servers) (1). En choisissant un fournisseur de VPN dont le serveur est le plus proche de vous vous réduirez la latence du trafic réseau que vous envoyez. Cela est dû à un itinéraire plus court (moins de sauts) vers la destination.
     
@@ -108,19 +108,19 @@ Trouvez un opérateur VPN sans journalisation qui n'est pas là pour vendre ou l
 
 1. Une réduction supplémentaire de 10% est accordée pour un abonnement de 2 ans (119,76€).
 
-??? check "Audités de manière indépendante"
+??? success "Audités de manière indépendante"
 
     Depuis février 2020 [les applications IVPN sont désormais open source] (https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Le code source peut être obtenu auprès de leur [organisation GitHub] (https://github.com/ivpn). IVPN a également déclaré qu'il prévoyait de publier des [rapports annuels] (https://www.ivpn.net/blog/independent-security-audit-concluded) à l'avenir. Une autre étude a été réalisée [en avril 2022] (https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) et a été fournie par Cure53 [sur leur site web] (https://cure53.de/pentest-report_IVPN_2022.pdf).
 
-??? check "Clients Open Source"
+??? success "Clients Open Source"
 
     Depuis février 2020 [les applications IVPN sont désormais open source] (https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Le code source peut être obtenu auprès de leur [organisation GitHub] (https://github.com/ivpn).
 
-??? check "Accepte l'Argent Liquide et le Monero"
+??? success "Accepte l'Argent Liquide et le Monero"
 
     En plus d'accepter les cartes de crédit/débit et PayPal, IVPN accepte le Bitcoin, le **Monero** et **l'argent liquide/la monnaie locale** (sur les plans annuels) comme formes de paiement anonymes.
 
-??? check "Supporte WireGuard"
+??? success "Supporte WireGuard"
 
     Proton VPN supporte le protocole WireGuard® la plupart du temps. [WireGuard](https://www.wireguard.com) est un protocole plus récent qui utilise de la [cryptographie](https://www.wireguard.com/protocol/) de pointe. La redirection de port n'est disponible sur IVPN que lorsque l'on utilise les protocoles WireGuard ou OpenVPN et est [désactivée sur les serveurs américains] (https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
     
@@ -130,11 +130,11 @@ Trouvez un opérateur VPN sans journalisation qui n'est pas là pour vendre ou l
 
     La [redirection de port](https://fr.wikipedia.org/wiki/Redirection_de_port) distants est possible avec une offre Pro. La redirection de port [peut être activée](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html) via l'espace client. La redirection de port n'est disponible sur IVPN que lorsque l'on utilise les protocoles WireGuard ou OpenVPN et est [désactivée sur les serveurs US] (https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
 
-??? check "Clients Mobile"
+??? success "Clients Mobile"
 
     En plus de fournir des fichiers de configuration OpenVPN standard, IVPN dispose de clients mobiles pour [App Store] (https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683), [Google Play] (https://play.google.com/store/apps/details?id=net.ivpn.client), et [GitHub](https://github.com/ivpn/android-app/releases) permettant de se connecter facilement à leurs serveurs.
 
-??? check "Clients Mobile"
+??? success "Clients Mobile"
 
     Proton VPN possède ses propres serveurs et centres de données en Suisse, en Islande et en Suède. Ils proposent le blocage des publicités et des domaines de logiciels malveillants connus avec leur service DNS.
 
@@ -157,7 +157,7 @@ Trouvez un opérateur VPN sans journalisation qui n'est pas là pour vendre ou l
         - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
         - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
 
-??? check annotate "32 Pays"
+??? success annotate "32 Pays"
 
     IVPN possède [des serveurs dans 32 pays] (https://www.ivpn.net/server-locations) (1). En choisissant un fournisseur de VPN dont le serveur est le plus proche de vous vous réduirez la latence du trafic réseau que vous envoyez. Cela est dû à un itinéraire plus court (moins de sauts) vers la destination.
     
@@ -165,7 +165,7 @@ Trouvez un opérateur VPN sans journalisation qui n'est pas là pour vendre ou l
 
 1. En date du 17/05/2022
 
-??? check "Audités de manière indépendante"
+??? success "Audités de manière indépendante"
 
     Les clients VPN de Mullvad ont été audités par Cure53 et Assured AB dans un rapport de test de pénétration [publié sur cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf). Les chercheurs en sécurité ont conclu :
     
@@ -177,25 +177,25 @@ Trouvez un opérateur VPN sans journalisation qui n'est pas là pour vendre ou l
     
     En 2021, un audit des infrastructures [a été annoncé] (https://mullvad.net/fr/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) et le [rapport d'audit final] (https://cure53.de/pentest-report_mullvad_2021_v1.pdf) a été mis à disposition sur le site web de Cure53. Un autre rapport a été commandé [en juin 2022] (https://mullvad.net/fr/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) et est disponible sur [le site web d'Assured] (https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
 
-??? check "Clients Open Source"
+??? success "Clients Open Source"
 
     Mullvad fournit le code source de ses clients de bureau et mobiles dans son [organisation GitHub] (https://github.com/mullvad/mullvadvpn-app).
 
-??? check "Accepte l'Argent Liquide et le Monero"
+??? success "Accepte l'Argent Liquide et le Monero"
 
     Mullvad prend en charge le protocole WireGuard®. [WireGuard](https://www.wireguard.com) est un protocole plus récent qui utilise de la [cryptographie](https://www.wireguard.com/protocol/) de pointe.
 
-??? check "Supporte WireGuard"
+??? success "Supporte WireGuard"
 
     IVPN supporte le protocole WireGuard®. [WireGuard](https://www.wireguard.com) est un protocole plus récent qui utilise de la [cryptographie](https://www.wireguard.com/protocol/) de pointe. De plus, WireGuard vise à être plus simple et plus performant.
     
     Mullvad [recommande](https://mullvad.net/fr/help/why-wireguard/) l'utilisation de WireGuard avec leur service. Il s'agit du seul protocole ou celui par défaut sur les applications Android, iOS, macOS et Linux de Mullvad, mais sous Windows, vous devez l'[activer manuellement](https://mullvad.net/fr/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad propose également un générateur de configuration WireGuard à utiliser avec l'[application](https://www.wireguard.com/install/) officielle WireGuard.
 
-??? check "Redirection de port distant"
+??? success "Redirection de port distant"
 
     La [redirection de port](https://en.wikipedia.org/wiki/Port_forwarding) à distance est possible avec une offre Pro. La redirection de port [peut être activée](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html) via l'espace client.
 
-??? check "Clients Mobile"
+??? success "Clients Mobile"
 
     En plus de fournir des fichiers de configuration OpenVPN standard, IVPN dispose de clients mobiles pour [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683) et [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) permettant de se connecter facilement à leurs serveurs. Le client mobile sur Android est également disponible dans [F-Droid](https://f-droid.org/en/packages/net.ivpn.client), ce qui garantit qu'il est compilé avec des [builds reproductibles](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html). Voir [Redirection de port avec Mullvad VPN](https://mullvad.net/help/port-forwarding-and-mullvad/) pour plus d'informations.
 

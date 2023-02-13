@@ -26,7 +26,7 @@ icon: 'simple/android'
 
 ### GrapheneOS
 
-!!! המלצה
+!!! recommendation
 
     ![לוגו GrapheneOS ](assets/img/android/grapheneos.svg#only-light){ align=right }
     ![לוגו GrapheneOS ](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
@@ -47,7 +47,7 @@ GrapheneOS תומך [ארגז חול Google Play](https://grapheneos.org/usage#s
 
 ### DivestOS
 
-!!! המלצה
+!!! recommendation
 
     ![לוגו של DivestOS ](/assets/img/android/divestos.svg){ align=right }
     
@@ -91,7 +91,7 @@ DivestOS משתמשת ב - F - Droid כחנות האפליקציות המוגד�
 
 טלפונים של גוגל פיקסל הם המכשירים החזקים **היחידים** שאנו ממליצים עליהם לרכישה. לטלפונים של פיקסל יש אבטחת חומרה חזקה יותר מכל מכשירי אנדרואיד אחרים הקיימים בשוק, בשל תמיכת AVB נאותה במערכות הפעלה של צד שלישי ושבבי האבטחה המותאמים אישית של Google [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) המשמשים כאלמנט המאובטח.
 
-!!! המלצה
+!!! recommendation
 
     ![Google Pixel 6 ](/assets/img/android/google-pixel.png){ align=right }
     
@@ -120,7 +120,7 @@ DivestOS משתמשת ב - F - Droid כחנות האפליקציות המוגד�
 
 ### Shelter
 
-!!! המלצה
+!!! recommendation
 
     ![Shelter logo ](/assets/img/android/shelter.svg){ align=right }
     
@@ -130,9 +130,11 @@ DivestOS משתמשת ב - F - Droid כחנות האפליקציות המוגד�
     
     [:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribute }??? הורדות
+    [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribute }
     
-        -[:simple-googleplay: Google Play]( https://play.google.com/store/apps/details?id=net.typeblog.shelter)
+    ??? downloads "הורדות"
+    
+        - [:simple-googleplay: Google Play]( https://play.google.com/store/apps/details?id=net.typeblog.shelter)
 
 !!! אזהרה
 
@@ -142,7 +144,7 @@ DivestOS משתמשת ב - F - Droid כחנות האפליקציות המוגד�
 
 ### Auditor
 
-!!! המלצה
+!!! recommendation
 
     ![Auditor logo](assets/img/android/auditor.svg#only-light){ align=right }
     ![Auditor logo](assets/img/android/auditor-dark.svg#only-dark){ align=right }
@@ -153,7 +155,11 @@ DivestOS משתמשת ב - F - Droid כחנות האפליקציות המוגד�
     [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://attestation.app/about){ .card-link title=Documentation}
     [:octicons-code-16:](https://attestation.app/source){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribute }??? - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor)
+    [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribute }
+    
+    ??? downloads "הורדות"
+
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
         - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 
@@ -171,7 +177,7 @@ Auditor מבצע אימות וזיהוי חדירה על ידי:
 
 ### מצלמה מאובטחת
 
-!!! המלצה
+!!! recommendation
 
     ![Secure camera לוגו](assets/img/android/secure_camera.svg#only-light){ align=right }
     ![Secure camera לוגו](assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
@@ -183,7 +189,7 @@ Auditor מבצע אימות וזיהוי חדירה על ידי:
     [:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
@@ -203,7 +209,7 @@ Auditor מבצע אימות וזיהוי חדירה על ידי:
 
 ### מציג PDF מאובטח
 
-!!! המלצה
+!!! recommendation
 
     ![Secure PDF Viewer לוגו](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
     ![Secure PDF Viewer לוגו](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
@@ -216,7 +222,7 @@ Auditor מבצע אימות וזיהוי חדירה על ידי:
     [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
@@ -232,7 +238,7 @@ Auditor מבצע אימות וזיהוי חדירה על ידי:
 
 'חנות Google Play' דורשת מחשבון Google להתחבר לחשבון שאינו מתאים לפרטיות. אתה יכול לעקוף את זה על ידי שימוש בקליינט חלופי, כגון חנות אורורה.
 
-!!! המלצה
+!!! recommendation
 
     ![לוגו של חנות אורורה ](/assets/img/android/aurora-store.webp){ align=right }
     
@@ -241,7 +247,7 @@ Auditor מבצע אימות וזיהוי חדירה על ידי:
     [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
     
-    ??? הורדת
+    ??? downloads "הורדות"
     
         - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
@@ -300,7 +306,7 @@ Aurora Store אינה מאפשרת לך להוריד אפליקציות בתשל
 
 ![לוגו F - Droid](assets/img/android/f-droid.svg){ align=right width=120px }
 
-== כיום אנו **לא** ממליצים על F-Droid כדרך להשגת אפליקציות. F-Droid מומלץ לעיתים קרובות כחלופה ל - Google Play, בעיקר בקהילת הפרטיות. האפשרות להוסיף מאגרים של צד שלישי ולא להיות מוגבל לגינה המוקפת חומה של Google הובילה לפופולריות שלה. F-Droid יש גם [גרסאות לשחזור](https://f-droid.org/en/docs/Reproducible_Builds/) עבור יישומים מסוימים והוא מוקדש תוכנה חופשית קוד פתוח. עם זאת, יש [בעיות בולטות](https://privsec.dev/posts/android/f-droid-security-issues/) עם הלקוח הרשמי F-Droid, בקרת האיכות שלהם, וכיצד הם בונים, לחתום, ולספק חבילות.
+==כיום אנו **לא** ממליצים על F-Droid כדרך להשגת אפליקציות.== F-Droid מומלץ לעיתים קרובות כחלופה ל - Google Play, בעיקר בקהילת הפרטיות. האפשרות להוסיף מאגרים של צד שלישי ולא להיות מוגבל לגינה המוקפת חומה של Google הובילה לפופולריות שלה. F-Droid יש גם [גרסאות לשחזור](https://f-droid.org/en/docs/Reproducible_Builds/) עבור יישומים מסוימים והוא מוקדש תוכנה חופשית קוד פתוח. עם זאת, יש [בעיות בולטות](https://privsec.dev/posts/android/f-droid-security-issues/) עם הלקוח הרשמי F-Droid, בקרת האיכות שלהם, וכיצד הם בונים, לחתום, ולספק חבילות.
 
 בשל תהליך בניית האפליקציות שלהם, אפליקציות במאגר F - Droid הרשמי מפגרות לעתים קרובות אחרי עדכונים. מתחזקיF-Droid גם משתמשים מחדש במזהי חבילות בזמן שהם חותמים על אפליקציות עם המפתחות שלהם, וזה לא אידיאלי כי זה נותן אמון אולטימטיבי לצוות F-Droid.
 

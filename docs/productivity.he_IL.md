@@ -13,7 +13,7 @@ icon: material/file-sign
 
 ### LibreOffice
 
-!!! המלצה
+!!! recommendation
 
     ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ align=right }
     
@@ -25,7 +25,7 @@ icon: material/file-sign
     [:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=לתרומה }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://www.libreoffice.org/download/android-and-ios/)
         - [:simple-appstore: App Store](https://www.libreoffice.org/download/android-and-ios/)
@@ -39,7 +39,7 @@ icon: material/file-sign
 
 ### OnlyOffice
 
-!!! המלצה
+!!! recommendation
 
     ![OnlyOffice לוגו](assets/img/productivity/onlyoffice.svg){ align=right }
     
@@ -50,7 +50,7 @@ icon: material/file-sign
     [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="קוד מקור" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
@@ -62,7 +62,7 @@ icon: material/file-sign
 
 ### CryptPad
 
-!!! המלצה
+!!! recommendation
 
     ![CryptPad לוגו](assets/img/productivity/cryptpad.svg){ align=right }
     
@@ -78,7 +78,7 @@ icon: material/file-sign
 
 ### PrivateBin
 
-!!! המלצה
+!!! recommendation
 
     ![PrivateBin לוגו](assets/img/productivity/privatebin.svg){ align=right }
     

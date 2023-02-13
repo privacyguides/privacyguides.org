@@ -9,7 +9,7 @@ icon: material/chat-processing
 
 ## מסנגר'ים חוצי פלטפורמות
 
-!!! המלצה
+!!! recommendation
 
     ![Signal logo ](assets/img/messengers/signal.svg){ align=right }
     
@@ -23,7 +23,7 @@ icon: material/chat-processing
     [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
@@ -42,7 +42,7 @@ Signal תומכת [בקבוצות פרטיות](https://signal.org/blog/signal-p
 
 ## מסנג'רים אחרים
 
-!!! המלצה
+!!! recommendation
 
     ![Element logo ](assets/img/messengers/element.svg){ align=right }
     
@@ -55,7 +55,7 @@ Signal תומכת [בקבוצות פרטיות](https://signal.org/blog/signal-p
     [:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/vector-im){ .card-link title="Source Code" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
         - [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
@@ -73,7 +73,7 @@ Signal תומכת [בקבוצות פרטיות](https://signal.org/blog/signal-p
 
 ## SimpleX Chat
 
-!!! המלצה
+!!! recommendation
 
     ![Simplex logo ](assets/img/messengers/simplex.svg){ align=right }
     
@@ -84,7 +84,7 @@ Signal תומכת [בקבוצות פרטיות](https://signal.org/blog/signal-p
     [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
@@ -98,7 +98,7 @@ SimpleX צ'אט [נבדק על ידי](https://simplex.chat/blog/20221108-simple
 
 ## Session
 
-!!! המלצה
+!!! recommendation
 
     ![Session logo ](assets/img/messengers/session.svg){ align=right }
     
@@ -111,7 +111,7 @@ SimpleX צ'אט [נבדק על ידי](https://simplex.chat/blog/20221108-simple
     [:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
@@ -130,7 +130,7 @@ Session מאפשר E2EE בשיחות אחד על אחד או בקבוצות סג
 
 ## Briar
 
-!!! המלצה
+!!! recommendation
 
     ![Briar logo](assets/img/messengers/briar.svg){ align=right }
     
@@ -142,7 +142,7 @@ Session מאפשר E2EE בשיחות אחד על אחד או בקבוצות סג
     [:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://briarproject.org/){ .card-link title="אפשרויות התרומה מפורטות בתחתית דף הבית" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.briarproject.Briar)

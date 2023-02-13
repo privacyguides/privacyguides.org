@@ -5,17 +5,19 @@ icon: material/email-open
 
 רשימת ההמלצות שלנו מכילה לקוחות דוא"ל התומכים הן ב[OpenPGP](encryption.md#openpgp) והן באימות חזק כגון [הרשאת פתוחה ](https://en.wikipedia.org/wiki/OAuth)(OAuth). OAuth מאפשר לך להשתמש ב - [אימות רב - גורמי](basics/multi-factor-authentication.md) ולמנוע גניבת חשבון.
 
-??? שים לב "דוא"ל אינו מספק סודיות קדימה" בעת שימוש בטכנולוגיית הצפנה מקצה לקצה (E2EE) כמו OpenPGP, דואר אלקטרוני עדיין יהיה [כמה metadata](email.md#email-metadata-overview) שאינו מוצפן בכותרת של הדואר האלקטרוני.
+??? note "דוא"ל אינו מספק סודיות קדימה"
+
+    בעת שימוש בטכנולוגיית הצפנה מקצה לקצה (E2EE) כמו OpenPGP, דואר אלקטרוני עדיין יהיה [כמה metadata](email.md#email-metadata-overview) שאינו מוצפן בכותרת של הדואר האלקטרוני.
 
     OpenPGP גם לא תומך ב [forward secrecy ]( https://en.wikipedia.org/wiki/Forward_secrecy), כלומר אם המפתח הפרטי שלך או של הנמען ייגנב אי פעם, כל ההודעות הקודמות המוצפנות בו ייחשפו: [כיצד אוכל להגן על המפתחות הפרטיים שלי ?]( basics/email - security.md) שקול להשתמש במדיום המספק סודיות קדימה:
     
-    [Real - time Communication](real - time - communication.md){ .md-button }
+    [Real-Time Communication](real-time-communication.md){ .md-button }
 
 ## חוצה פלטפורמות
 
 ### Thunderbird
 
-!!! המלצה
+!!! recommendation
 
     ![Thunderbird logo ](assets/img/email-clients/thunderbird.svg){ align=right }
     
@@ -26,7 +28,7 @@ icon: material/email-open
     [:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Documentation}
     [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Source Code" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows](https://www.thunderbird.net)
         - [:simple-apple: macOS](https://www.thunderbird.net)
@@ -56,7 +58,7 @@ icon: material/email-open
 
 ### Apple Mail ‏ (macOS)
 
-!!! המלצה
+!!! recommendation
 
     ![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
     
@@ -68,7 +70,7 @@ icon: material/email-open
 
 ### Canary Mail (iOS)
 
-!!! המלצה
+!!! recommendation
 
     ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ align=right }
     
@@ -78,7 +80,7 @@ icon: material/email-open
     [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=Documentation}
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
@@ -92,7 +94,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
 
 ### FairEmail (אנדרואיד)
 
-!!! המלצה
+!!! recommendation
 
     ![FairEmail logo ](assets/img/email-clients/fairemail.svg){ align=right }
     
@@ -104,14 +106,14 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
     [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
         - [:simple-github: GitHub](https://github.com/M66B/FairEmail/releases)
 
 ### GNOME Evolution (GNOME)
 
-!!! המלצה
+!!! recommendation
 
     ![Evolution logo ](assets/img/email-clients/evolution.svg){ align=right }
     
@@ -123,13 +125,13 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
     [:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gnome.Evolution)
 
 ### K -9 Mail (אנדרואיד)
 
-!!! המלצה
+!!! recommendation
 
     ![K -9 Mail logo ](assets/img/email-clients/k9mail.svg){ align=right }
     
@@ -143,14 +145,14 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
     [:octicons-code-16:](https://github.com/k9mail/k-9){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
         - [:simple-github: GitHub](https://github.com/k9mail/k-9/releases)
 
 ### Kontact (KDE)
 
-!!! המלצה
+!!! recommendation
 
     ![Kontact logo ](assets/img/email-clients/kontact.svg){ align=right }
     
@@ -162,14 +164,14 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
     [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-linux: Linux](https://kontact.kde.org/download)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.kontact)
 
 ### Mailvelope (דפדפן)
 
-!!! המלצה
+!!! recommendation
 
     ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ align=right }
     
@@ -180,7 +182,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
     [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
@@ -188,7 +190,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
 
 ### NeoMutt (CLI)
 
-!!! המלצה
+!!! recommendation
 
     ![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
     
@@ -201,7 +203,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
     [:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-apple: macOS](https://neomutt.org/distro)
         - [:simple-linux: Linux](https://neomutt.org/distro)

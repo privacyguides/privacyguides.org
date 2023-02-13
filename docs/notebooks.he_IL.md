@@ -11,7 +11,7 @@ icon: material/notebook-edit-outline
 
 ### Joplin
 
-!!! המלצה
+!!! recommendation
 
     ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
     
@@ -23,7 +23,7 @@ icon: material/notebook-edit-outline
     [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
@@ -38,7 +38,7 @@ Joplin אינה תומכת בהגנה באמצעות סיסמה/PIN עבור ה�
 
 ### Standard Notes
 
-!!! המלצה
+!!! recommendation
 
     ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
     
@@ -50,7 +50,7 @@ Joplin אינה תומכת בהגנה באמצעות סיסמה/PIN עבור ה�
     [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
@@ -64,7 +64,7 @@ Joplin אינה תומכת בהגנה באמצעות סיסמה/PIN עבור ה�
 
 ### Org-mode
 
-!!! המלצה
+!!! recommendation
 
     ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
     

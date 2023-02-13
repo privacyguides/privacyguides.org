@@ -9,7 +9,7 @@ icon: material/video-wireless
 
 ### LBRY
 
-!!! המלצה
+!!! recommendation
 
     ![LBRY logo ](assets/img/video-streaming/lbry.svg){ align=right }
     
@@ -20,7 +20,9 @@ icon: material/video-wireless
     [:octicons-home-16: Homepage](https://lbry.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://lbry.com/privacypolicy){ .card-link title="מדיניות-הפרטיות" }
     [:octicons-info-16:](https://lbry.com/faq){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/lbryio/lbry-desktop){ .card-link title="קוד מקור" }??? הורדות
+    [:octicons-code-16:](https://github.com/lbryio/lbry-desktop){ .card-link title="קוד מקור" }
+    
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows]( https://lbry.com/windows)
         - [:simple-apple: macOS]( https://lbry.com/osx)
