@@ -1,6 +1,6 @@
 ---
 title: "אימות רב-שלבי"
-icon: 'חומר/אימות דו-שלבי'
+icon: 'material/two-factor-authentication'
 ---
 
 **אימות רב - גורמי** (**MFA**) הוא מנגנון אבטחה הדורש צעדים נוספים מעבר להזנת שם המשתמש (או הדוא"ל) והסיסמה שלך. השיטה הנפוצה ביותר היא קודים מוגבלים בזמן שאתה עשוי לקבל מ - SMS או אפליקציה.
@@ -54,7 +54,7 @@ Yubico OTP הוא פרוטוקול אימות המיושם בדרך כלל במ�
 מפורט על התהליך.</p>
 
 <figure markdown>
-  ![Yubico OTP](../assets/img/multi - factor - authentication/yubico - otp.png)
+  ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
 </figure>
 
 מפורט על התהליך.

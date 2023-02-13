@@ -1,6 +1,6 @@
 ---
 title: ארכיון KB
-icon: חומר/ארכיון
+icon: material/archive
 ---
 
 # דפים הועברו לבלוג

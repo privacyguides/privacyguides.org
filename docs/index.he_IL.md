@@ -17,7 +17,7 @@ hide:
 
 אין לבלבל בין פרטיות לסודיות. אנחנו יודעים מה קורה בחדר האמבטיה, אבל אתה עדיין סוגר את הדלת. זה בגלל שאתה רוצה פרטיות, לא סודיות. **לכל אחד** יש על מה להגן. פרטיות היא משהו שהופך אותך לאנושי.
 
-[:material-target-account: איומים נפוצים באינטרנט ]( basic/common-threats.md){ .md-button .md-button--primary }
+[:material-target-account: איומים נפוצים באינטרנט ](basics/common-threats.md){ .md-button .md-button--primary }
 </div>
 
 <div style="margin-left:auto;margin-right:0;text-align:right;max-width:38rem;" markdown>
@@ -29,7 +29,7 @@ hide:
 
 ==תהליך זה של זיהוי איומים והגדרת אמצעי נגד נקרא **מידול איומים**==, והוא מהווה את הבסיס לכל תוכנית אבטחה ופרטיות טובה.
 
-[:material-book-outline: למידע נוסף על מידול איומים](basic/threat-modeling.md){ .md-button .md-button--primary }
+[:material-book-outline: למידע נוסף על מידול איומים](basics/threat-modeling.md){ .md-button .md-button--primary }
 </div>
 </div>
 

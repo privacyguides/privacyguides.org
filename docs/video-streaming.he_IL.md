@@ -1,6 +1,6 @@
 ---
 title: "הזרמת וידאו"
-icon: חומר/וידאו - אלחוטי
+icon: material/video-wireless
 ---
 
 האיום העיקרי בעת שימוש בפלטפורמת הזרמת וידאו הוא שניתן להשתמש בהרגלי הסטרימינג וברשימות המנויים שלך כדי ליצור פרופיל שלך. כדאי לשלב את הכלים האלה עם VPN [](vpn.md) או [Tor](https://www.torproject.org/) כדי להקשות על פרופיל השימוש שלכם.
@@ -11,7 +11,7 @@ icon: חומר/וידאו - אלחוטי
 
 !!! המלצה
 
-    ![LBRY logo ]( assets/img/video - streaming/lbry.svg){ align=right }
+    ![LBRY logo ](assets/img/video-streaming/lbry.svg){ align=right }
     
     **רשתLBRY** היא רשת שיתוף וידאו מבוזרת. הוא משתמש ברשת [BitTorrent](https://wikipedia.org/wiki/BitTorrent)- Like כדי לאחסן את תוכן הווידאו, וברשת [blockchain](https://wikipedia.org/wiki/Blockchain) כדי לאחסן את האינדקסים עבור סרטונים אלה. התועלת העיקרית של עיצוב זה היא התנגדות הצנזורה.
     

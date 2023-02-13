@@ -1,6 +1,6 @@
 ---
 title: "כלי פרטיות"
-icon: חומר/כלים
+icon: material/tools
 hide:
   - toc
 ---

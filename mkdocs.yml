@@ -66,7 +66,7 @@ plugins:
         build: true
       he_IL:
         name: עִברִית
-        build: false
+        build: true
       fr_FR:
         name: fr
         build: false

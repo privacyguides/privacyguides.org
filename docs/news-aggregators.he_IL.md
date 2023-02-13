@@ -113,7 +113,7 @@ icon: material/rss
 
 !!! המלצה
 
-    ![לוגו של Newsboat]( assets/img/news - aggregators/newsboat.svg){ align=right }
+    ![לוגו של Newsboat](assets/img/news-aggregators/newsboat.svg){ align=right }
     
     **Newsboat** הוא קורא הזנת RSS/Atom עבור קונסולת הטקסט. זהו נגזר מתוחזק באופן פעיל של [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). הוא קל מאוד, ואידיאלי לשימוש מעל [Secure Shell]( https://en.wikipedia.org/wiki/Secure_Shell).
     

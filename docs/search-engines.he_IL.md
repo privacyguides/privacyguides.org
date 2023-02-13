@@ -1,6 +1,6 @@
 ---
 title: "מנועי חיפוש"
-icon: חומר/חיפוש - אינטרנט
+icon: material/search-web
 ---
 
 השתמש במנוע חיפוש שאינו בונה פרופיל פרסום המבוסס על החיפושים שלך.
@@ -13,7 +13,7 @@ icon: חומר/חיפוש - אינטרנט
 
 !!! המלצה
 
-    ![Brave Search logo ]( assets/img/search - engine/brave-sarch.svg){ align=right }
+    ![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
     
     **Brave Search ** פותח על ידי Brave ומשרת בעיקר תוצאות מהאינדקס העצמאי שלה. האינדקס ממוטב כנגד חיפוש גוגל ולכן עשוי לספק תוצאות מדויקות יותר מבחינה הקשרית בהשוואה לחלופות אחרות.
     
@@ -32,7 +32,7 @@ icon: חומר/חיפוש - אינטרנט
 
 !!! המלצה
 
-    ![DuckDuckGo logo ](property/img/search - engines/duckduckgo.svg){ align=right }
+    ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
     
     **DuckDuckGo** היא אחת מאפשרויות מנוע החיפוש הפרטיות הפופולריות יותר של הזרם המרכזי. תכונות חיפוש ראויות לציון של DuckDuckGo כוללות [bangs](https://duckduckgo.com/bang) והרבה [תשובות מיידיות]( https://help.duckduckgo.com/duckgo-help-pages/features/instant-answers-and-other-features/). מנוע החיפוש מסתמך על ממשק API מסחרי של Bing כדי להציג את רוב התוצאות, אך הוא משתמש במספר רב של [מקורות אחרים]( https://help.duckduckgo.com/results/sources/) כדי לקבל תשובות מיידיות ותוצאות אחרות שאינן ראשיות.
     
@@ -72,7 +72,7 @@ SearXNG הוא פרוקסי בינך לבין מנועי החיפוש שהוא �
     ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
     ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
     
-    **Startpage** הוא מנוע חיפוש פרטי הידוע בכך שהוא מציג תוצאות חיפוש של גוגל.  אחד המאפיינים הייחודיים של Startpage הוא [תצוגה אנונימית]( https://www.startpage.com/en/anonymous-view/‎), אשר משקיע מאמצים בסטנדרטיזציה של פעילות משתמשים כדי להקשות על זיהוי ייחודי. התכונה יכולה להיות שימושית להסתרת [some](https://support.startpage.com/hc/en-us/articles/4455540212116-the-onymous-View-proxy-technical-details) מאפייני הרשת והדפדפן. שלא כמו שהשם מרמז, אין להסתמך על התכונה לאנונימיות. אם אתה מחפש אנונימיות, השתמש במקום זאת ב [Tor Browser]( tor.md#tor - browser).
+    **Startpage** הוא מנוע חיפוש פרטי הידוע בכך שהוא מציג תוצאות חיפוש של גוגל.  אחד המאפיינים הייחודיים של Startpage הוא [תצוגה אנונימית]( https://www.startpage.com/en/anonymous-view/), אשר משקיע מאמצים בסטנדרטיזציה של פעילות משתמשים כדי להקשות על זיהוי ייחודי. התכונה יכולה להיות שימושית להסתרת [some](https://support.startpage.com/hc/en-us/articles/4455540212116-the-onymous-View-proxy-technical-details) מאפייני הרשת והדפדפן. שלא כמו שהשם מרמז, אין להסתמך על התכונה לאנונימיות. אם אתה מחפש אנונימיות, השתמש במקום זאת ב [Tor Browser]( tor.md#tor - browser).
     
     [:octicons-home-16: Homepage](https://www.startpage.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }

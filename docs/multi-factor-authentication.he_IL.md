@@ -1,6 +1,6 @@
 ---
 title: "מאמתים רב - שלבים"
-icon: 'חומר/אימות דו-שלבי'
+icon: 'material/two-factor-authentication'
 ---
 
 ## מפתחות אבטחה לחומרה
@@ -11,7 +11,7 @@ icon: 'חומר/אימות דו-שלבי'
 
     ![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
     
-    **YubiKeys ** הם בין מפתחות האבטחה הפופולריים ביותר. לדגמים מסוימים של YubiKey יש מגוון רחב של תכונות כגון: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi - factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi - factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)] (https://developers.yubico.com/PIV), [OpenPGP](https://developers.ubico.com/PGP/),[ TOOTTP and HPP (https://developers.OATico.com/pication).
+    **YubiKeys ** הם בין מפתחות האבטחה הפופולריים ביותר. לדגמים מסוימים של YubiKey יש מגוון רחב של תכונות כגון: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)] (https://developers.yubico.com/PIV), [OpenPGP](https://developers.ubico.com/PGP/),[ TOOTTP and HPP (https://developers.OATico.com/pication).
     
     אחד היתרונות של YubiKey הוא שמפתח אחד יכול לעשות כמעט הכל (YubiKey 5), אתה יכול לצפות ממפתח אבטחת חומרה. אנו ממליצים לך לקחת את [quiz](https://www.yubico.com/quiz/) לפני הרכישה כדי לוודא שאתה עושה את הבחירה הנכונה.
     
@@ -34,7 +34,7 @@ icon: 'חומר/אימות דו-שלבי'
 
     ![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
     
-    ** ל - Nitrokey ** יש מפתח אבטחה המסוגל [FIDO2 and WebAuthn ]( basic/multi - factor - authentication.md#fido-fast- Identity-online) בשם ** Nitrokey FIDO2 **. לקבלת תמיכה PGP, אתה צריך לרכוש אחד המפתחות האחרים שלהם כגון ** Nitrokey Start **,** Nitrokey Pro 2** או **Nitrokey Storage 2 **.
+    ** ל - Nitrokey ** יש מפתח אבטחה המסוגל [FIDO2 and WebAuthn ](basics/multi-factor-authentication.md#fido-fast- Identity-online) בשם ** Nitrokey FIDO2 **. לקבלת תמיכה PGP, אתה צריך לרכוש אחד המפתחות האחרים שלהם כגון ** Nitrokey Start **,** Nitrokey Pro 2** או **Nitrokey Storage 2 **.
     
     [:octicons-home-16: Homepage](https://www.nitrokey.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="מדיניות פרטיות" }

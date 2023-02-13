@@ -1,6 +1,6 @@
 ---
 title: "אנדרואיד"
-icon: 'פשוט/אנדרואיד'
+icon: 'simple/android'
 ---
 
 ![לוגו אנדרואיד](assets/img/android/android.svg){ align=right }
@@ -28,8 +28,8 @@ icon: 'פשוט/אנדרואיד'
 
 !!! המלצה
 
-    ![לוגו GrapheneOS ](property/img/android/grapheneos.svg#only-light){ align=right }
-    ![לוגו GrapheneOS ]( property/img/android/grapheneos - dark.svg#only-dark){ align=right }
+    ![לוגו GrapheneOS ](assets/img/android/grapheneos.svg#only-light){ align=right }
+    ![לוגו GrapheneOS ](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
     
     ** GrapheneOS ** היא הבחירה הטובה ביותר בכל הנוגע לפרטיות ואבטחה.
     
@@ -49,7 +49,7 @@ GrapheneOS תומך [ארגז חול Google Play](https://grapheneos.org/usage#s
 
 !!! המלצה
 
-    ![לוגו של DivestOS ]( נכסים/img/android/divestos.svg){ align=right }
+    ![לוגו של DivestOS ](/assets/img/android/divestos.svg){ align=right }
     
     **DivestOS ** הוא נגזרת של [LineageOS](https://lineageos.org/).
     DivestOS יורשת הרבה [התקנים נתמכים](https://divestos.org/index.php?page=devices&base=LineageOS) מ - LineageOS. הוא חתם על הבניות, מה שמאפשר לו [אתחול מאומת]( https://source.android.com/security/verifiedboot) במכשירים מסוימים שאינם של פיקסל.
@@ -93,7 +93,7 @@ DivestOS משתמשת ב - F - Droid כחנות האפליקציות המוגד�
 
 !!! המלצה
 
-    ![Google Pixel 6 ]( assets/img/android/google-pixel.png){ align=right }
+    ![Google Pixel 6 ](/assets/img/android/google-pixel.png){ align=right }
     
     ** מכשירי גוגל פיקסלl ** ידועים כבעלי אבטחה טובה ותמיכה נאותה [אתחול מאומת ]( https://source.android.com/security/verifiedboot), גם בעת התקנת מערכות הפעלה מותאמות אישית.
     
@@ -122,7 +122,7 @@ DivestOS משתמשת ב - F - Droid כחנות האפליקציות המוגד�
 
 !!! המלצה
 
-    ![Shelter logo ]( property/img/android/shelter.svg){ align=right }
+    ![Shelter logo ](/assets/img/android/shelter.svg){ align=right }
     
     **Shelter** היא אפליקציה שעוזרת לך למנף את הפונקציונליות של פרופיל העבודה של Android כדי לבודד או לשכפל אפליקציות במכשיר שלך.
     
@@ -199,7 +199,7 @@ Auditor מבצע אימות וזיהוי חדירה על ידי:
 
     מטא - נתונים אינם נמחקים כרגע מקובצי וידאו, אך הם מתוכננים.
     
-    המטא נתונים של כיוון התמונה אינם נמחקים. אם תפעיל מיקום (במצלמה מאובטחת) גם המיקום **לא יימחק**. אם ברצונך למחוק זאת מאוחר יותר, יהיה עליך להשתמש באפליקציה חיצונית כגון [ExifEraser](data - redaction.md#exiferaser).
+    המטא נתונים של כיוון התמונה אינם נמחקים. אם תפעיל מיקום (במצלמה מאובטחת) גם המיקום **לא יימחק**. אם ברצונך למחוק זאת מאוחר יותר, יהיה עליך להשתמש באפליקציה חיצונית כגון [ExifEraser](data-redaction.md#exiferaser).
 
 ### מציג PDF מאובטח
 
@@ -234,7 +234,7 @@ Auditor מבצע אימות וזיהוי חדירה על ידי:
 
 !!! המלצה
 
-    ![לוגו של חנות אורורה ]( property/img/android/aurora-store.webp){ align=right }
+    ![לוגו של חנות אורורה ](/assets/img/android/aurora-store.webp){ align=right }
     
     ** חנות אורורה ** היא לקוחה של חנות Google Play שאינה דורשת חשבון Google, שירותי Google Play או microG כדי להוריד יישומים.
     

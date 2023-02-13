@@ -1,6 +1,6 @@
 ---
 title: סקירה כללית של אנדרואיד
-icon: פשוט/אנדרואיד
+icon: simple/android
 ---
 
 אנדרואיד היא מערכת הפעלה מאובטחת עם ארגז חול חזק [אפליקציות](https://source.android.com/security/app-sandbox), [אתחול מאומת](https://source.android.com/security/verifiedboot) (AVB) ומערכת בקרה חזקה של [הרשאות](https://developer.android.com/guide/topics/permissions/overview).
