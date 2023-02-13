@@ -130,7 +130,7 @@ Censorship on corporate platforms is increasingly common, as platforms like Twit
 
 People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../real-time-communication.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 
-!!! important
+!!! tip
 
     While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.
 

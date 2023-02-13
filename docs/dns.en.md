@@ -3,7 +3,7 @@ title: "DNS Resolvers"
 icon: material/dns
 ---
 
-!!! faq "Should I use encrypted DNS?"
+!!! question "Should I use encrypted DNS?"
 
     Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Encrypted DNS will not help you hide any of your browsing activity.
 
