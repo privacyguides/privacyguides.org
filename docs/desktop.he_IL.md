@@ -11,7 +11,7 @@ icon: simple/linux
 
 ### Fedora Workstation
 
-!!! המלצה
+!!! recommendation
 
     ![Fedora לוגו](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
     
@@ -25,7 +25,7 @@ icon: simple/linux
 
 ### openSUSE Tumbleweed
 
-!!! המלצה
+!!! recommendation
 
     ![openSUSE Tumbleweed לוגו](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
     
@@ -105,7 +105,7 @@ Nix הוא מנהל חבילות מבוסס מקור; אם אין מוכן מר�
 
 ### Whonix
 
-!!! המלצה
+!!! recommendation
 
     ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
     
@@ -126,7 +126,7 @@ Whonix הוא הטוב ביותר בשימוש [בשילוב עם Qubes](https:/
 
 ### Tails
 
-!!! המלצה
+!!! recommendation
 
     ![Tails לוגו](assets/img/linux-desktop/tails.svg){ align=right }
     
@@ -146,7 +146,7 @@ Tailsכולל[uBlock Origin](desktop-browsers.md#ublock-origin) בדפדפן Tor
 
 ### Qubes OS
 
-!!! המלצה
+!!! recommendation
 
     ![לוגו של מערכת ההפעלה Qubes ]( assets/img/qubes/qubes_os.svg){ align=right }
     

@@ -19,7 +19,7 @@ icon: material/email
 
 ### פרוטון מייל (ProtonMail)
 
-!!! המלצה
+!!! recommendation
 
     ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
     
@@ -28,15 +28,13 @@ icon: material/email
     לחשבונות חינמיים יש מגבלות מסוימות, כגון אי - יכולת לחפש טקסט בגוף האתר ואי - גישה ל - [Proton Mail Bridge]( https://proton.me/mail/bridge), הנדרשת כדי להשתמש ב - [email client שולחני מומלץ](email-clients.md) (למשל Thunderbird). חשבונות בתשלום כוללים תכונות כגון Proton Mail Bridge, שטח אחסון נוסף ותמיכה בדומיינים מותאמים אישית. אם יש לך את הפרוטון ללא הגבלה, עסקים, או תוכנית חזון, אתה גם מקבל [SimpleLogin](# simplelogin) פרימיום בחינם.
     
     [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+    [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="שירותי בצל" }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="מדיניות פרטיות" }
+    [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="קוד מקור" }
     
-    ???
-    
-    הורדות
-    
+    ??? downloads "הורדות"
+        
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
         - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
@@ -44,23 +42,8 @@ icon: material/email
         - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
         - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
         - [:octicons-browser-16: Web](https://mail.proton.me) [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="שירותי בצל" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="קוד מקור" }
-    
-    ???
-    
-    הורדות
-    
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
-        - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
-        - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
-        - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
-        - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
-        - [:octicons-browser-16: Web](https://mail.proton.me) downloads
+   
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
@@ -70,25 +53,25 @@ icon: material/email
         - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
         - [:octicons-browser-16: Web](https://mail.proton.me)
 
-??? check "דומיינים וכינויים מותאמים אישית"
+??? success "דומיינים וכינויים מותאמים אישית"
 
     מנויי ProtonMail בתשלום יכולים להשתמש בדומיין משלהם עם השירות או עם כתובת [catch-all](https://proton.me/support/catch-all). ProtonMail תומך גם[subaddressing](https://proton.me/support/creating-aliases), שהוא שימושי לאנשים שלא רוצים לרכוש דומיין.
 
-??? "check" אמצעי תשלום פרטי
+??? success אמצעי תשלום פרטי
 
     Proton Mail [accepts](https://proton.me/support/payment-options) ביטקוין ומזומן בדואר בנוסף לכרטיסי אשראי/חיוב רגילים ותשלומי PayPal.
 
-??? check "Account Security"
+??? success "Account Security"
 
     ProtonMail תומך ב - TOTP [אימות דו - שלבי]( https://proton.me/support/two-factor- authentication-2fa) בלבד. השימוש במפתח אבטחה U2F עדיין אינו נתמך. ProtonMail מתכננת ליישם את U2F עם השלמת הקוד [Single Sign On (SSO)]( https://reddit.com/comments/cheoy6/comment/feh2lw0/) שלהם.
 
-??? check "Account Security"
+??? success "Account Security"
 
     ל - Proton Mail יש [הצפנת אפס גישה](https://proton.me/blog/zero-access-encryption) ב - מנוחה עבור המיילים שלך ו - [calendars](https://proton.me/news/protoncalendar-security-model). נתונים המאובטחים באמצעות הצפנת אפס גישה נגישים רק לך.
     
     מידע מסוים המאוחסן ב-[Proton Contacts](https://proton.me/support/proton-contacts), כגון שמות תצוגה וכתובות דוא"ל, אינו מאובטח באמצעות הצפנת אפס גישה. שדות אנשי קשר התומכים בהצפנת אפס גישה, כגון מספרי טלפון, מסומנים בסמל מנעול.
 
-??? check "הצפנת דוא"ל"
+??? success "הצפנת דוא"ל"
 
     ל-Proton Mail יש [הצפנת OpenPGP משולבת](https://proton.me/support/how-to-use-pgp) בדואר האינטרנט שלהם. הודעות דוא"ל לחשבונות דואר אחרים של Proton מוצפנות באופן אוטומטי, והצפנה לכתובות דואר שאינן של Proton באמצעות מפתח OpenPGP יכולה להיות מופעלת בקלות בהגדרות החשבון שלך. הם גם מאפשרים לך [להצפין הודעות לכתובות דואר שאינן של פרוטון](הודעות דוא"ל מוגנות https://proton.me/support/password) ללא צורך שהם יירשמו לחשבון דואר פרוטון או ישתמשו בתוכנה כמו OpenPGP.
     
@@ -108,7 +91,7 @@ icon: material/email
 
 ### Mailbox.org
 
-!!! המלצה
+!!! recommendation
 
     ![Mailbox.org לוגו](assets/img/email/mailboxorg.svg){ align=right }
     
@@ -118,12 +101,11 @@ icon: material/email
     [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="מדיניות פרטיות" }
     [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=תיעוד}
     
-    ??? הורדות
-    
+    ??? downloads "הורדות"
     
         - [:octicons-browser-16: Web](https://login.mailbox.org)
 
-??? check "דומיינים וכינויים מותאמים אישית"
+??? success "דומיינים וכינויים מותאמים אישית"
 
     Mailbox.org מאפשר לך להשתמש בתחום משלך, והם תומכים בכתובות [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain). Mailbox.org תומך גם ב-[subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), וזה שימושי אם אינך רוצה לרכוש דומיין.
 
@@ -131,7 +113,7 @@ icon: material/email
 
     Mailbox.org אינה מקבלת ביטקוין או כל מטבע קריפטוגרפי אחר כתוצאה מכך שמעבד התשלומים שלהם BitPay משעה את פעילותו בגרמניה. עם זאת, הם מקבלים מזומן בדואר, תשלום במזומן לחשבון בנק, העברה בנקאית, כרטיס אשראי, PayPal וכמה מעבדים ספציפיים לגרמנית: paydirekt ו- Sofortüberweisung.
 
-??? check "אבטחת חשבון"
+??? success "אבטחת חשבון"
 
     Mailbox.org תומך ב-[אימות דו-שלבי](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-גורם+אימות+-+2FA) עבור דואר האינטרנט שלהם בלבד. אתה יכול להשתמש ב-TOTP או ב-[Yubikey](https://en.wikipedia.org/wiki/YubiKey) דרך [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). תקני אינטרנט כגון [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) עדיין אינם נתמכים.
 
@@ -141,13 +123,13 @@ icon: material/email
     
     עם זאת, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), פלטפורמת התוכנה המשמשת Mailbox.org, [אינה תומכת](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) בהצפנה של פנקס הכתובות ולוח השנה שלך. [אפשרות עצמאית](calendar-contacts.md) עשויה להתאים יותר למידע זה.
 
-??? check "הצפנת דוא"ל"
+??? success "הצפנת דוא"ל"
 
     יש Mailbox.org [הצפנה משולבת](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard)בדואר האינטרנט שלהם, מה שמפשט את שליחת ההודעות לאנשים עם מפתחות OpenPGP ציבוריים. הם גם מאפשרים [לנמענים מרוחקים לפענח דוא"ל](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) בשרתים של Mailbox.org. תכונה זו שימושית כאשר לנמען המרוחק אין OpenPGP ואין באפשרותו לפענח עותק של הדואר האלקטרוני בתיבת הדואר שלו.
     
     Mailbox.org תומך גם בגילוי מפתחות ציבוריים באמצעות HTTP מספריית [מפתח האינטרנט (WKD)](https://wiki.gnupg.org/WKD). זה מאפשר לאנשים מחוץ Mailbox.org למצוא את מפתחות OpenPGP של חשבונות Mailbox.org בקלות, עבור E2EE חוצה ספקים.
 
-??? check "מורשת דיגיטלית"
+??? success "מורשת דיגיטלית"
 
     Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכניות. אתה יכול לבחור אם אתה רוצה שכל הנתונים שלך יועברו ליורשים בתנאי שהם חלים ומספקים את הצוואה שלך. לחלופין, ניתן למנות אדם לפי שם וכתובת.
 
@@ -163,7 +145,7 @@ icon: material/email
 
 ### StartMail
 
-!!! המלצה
+!!! recommendation
 
     ![StartMail לוגו](assets/img/email/startmail.svg#only-light){ align=right }
     ![StartMail לוגו](assets/img/email/startmail-dark.svg#only-dark){ align=right }
@@ -174,12 +156,11 @@ icon: material/email
     [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="מדיניות פרטיות" }
     [:octicons-info-16:](https://support.startmail.com){ .card-link title=תיעוד}
     
-    ??? הורדות
-    
+    ??? downloads "הורדות"
     
         - [:octicons-browser-16: Web](https://mail.startmail.com/login)
 
-??? check "דומיינים וכינויים מותאמים אישית"
+??? success "דומיינים וכינויים מותאמים אישית"
 
     חשבונות אישיים יכולים להשתמש בכינויים [Custom or Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases). [דומיינים מותאמים אישית](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) זמינים גם כן.
 
@@ -187,7 +168,7 @@ icon: material/email
 
     StartMail מקבלת ויזה, מאסטרקארד, אמריקן אקספרס ו - Paypal. ל - StartMail יש גם [אפשרויות תשלום] אחרות (https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) כגון Bitcoin (כרגע רק עבור חשבונות אישיים) ו - SEPA Direct Debit עבור חשבונות ישנים יותר משנה.
 
-??? check "Account Security"
+??? success "Account Security"
 
     StartMail תומך באימות דו-גורמי TOTP [עבור דואר אינטרנט בלבד](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). הם אינם מאפשרים אימות מפתח אבטחה U2F.
 
@@ -197,7 +178,7 @@ icon: material/email
     
     StartMail תומך בייבוא [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) עם זאת, הם נגישים רק בדואר האינטרנט ולא באמצעות פרוטוקולים כגון [CalDAV](https://en.wikipedia.org/wiki/CalDAV). אנשי קשר גם אינם מאוחסנים באמצעות הצפנת אפס ידע, כך ש[אפשרות עצמאית](calendar-contacts.md) עשויה להיות מתאימה יותר.
 
-??? check "הצפנת דוא"ל"
+??? success "הצפנת דוא"ל"
 
     ל - StartMail יש [הצפנה משולבת](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) בדוא"ל האינטרנט שלהם, אשר מפשט שליחת הודעות מוצפנות עם מפתחות OpenPGP ציבוריים.
 
@@ -226,8 +207,7 @@ icon: material/email
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=לתרומה }
     
-    ??? הורדות
-    
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
@@ -239,28 +219,19 @@ icon: material/email
 
 Tutanota אינה משתמשת בפרוטוקול [IMAP](https://tutanota.com/faq/#imap) או בשימוש של [לקוחות דואר אלקטרוני של צד שלישי](email-clients.md), וגם לא תוכל להוסיף [חשבונות דואר אלקטרוני חיצוניים](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) לאפליקציית Tutanota. לא [ייבוא דוא"ל](https://github.com/tutao/tutanota/issues/630) או [תיקיות משנה](https://github.com/tutao/tutanota/issues/927) נתמכים כעת, אם כי זה [אמור להשתנות](https://tutanota.com/blog/posts/kickoff-import). הודעות דוא"ל ניתן לייצא [בנפרד או על ידי בחירה בכמות גדולה](https://tutanota.com/howto#generalMail) לכל תיקייה, דבר שעלול להיות לא נוח אם יש לך תיקיות רבות.
 
-??? check "דומיינים וכינויים מותאמים אישית"
+??? success "Custom Domains and Aliases"
 
-    ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
-    ![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
-    
-    ** AnonAddy ** מאפשר לך ליצור 20 כינויים של דומיינים בדומיין משותף בחינם, או כינויים "סטנדרטיים" ללא הגבלה שהם פחות אנונימיים. [:octicons-home-16: Homepage](https://anonaddy.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribute }
-    
-    ???
+    Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias) and [custom domains](https://tutanota.com/faq#custom-domain). Tutanota doesn't allow for [subaddressing (plus addresses)](https://tutanota.com/faq#plus), but you can use a [catch-all](https://tutanota.com/howto#settings-global) with a custom domain.
 
-??? כינויי הדוא"ל שאתה מייצר מועברים לאחר מכן לכתובת דוא"ל שבחרת, ומסתירים את כתובת הדוא"ל "הראשית" שלך ואת זהות ספק הדוא"ל שלך.
+??? warning "אמצעי תשלום פרטיים"
 
     Tutanota מקבלת רק כרטיסי אשראי PayPal ישירות, אולם ניתן להשתמש בביטקוין ובמונרו לרכישת כרטיסי מתנה באמצעות [partnership](https://tutanota.com/faq/#cryptocurrency) שלהם עם Proxystore.
 
-??? check "אבטחת חשבון"
+??? success "אבטחת חשבון"
 
     Tutanota תומכת ב [אימות דו - שלבי](https://tutanota.com/faq#2fa) באמצעות TOTP או U2F.
 
-??? check "Account Security"
+??? success "Account Security"
 
     ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
     
@@ -272,7 +243,7 @@ Tutanota אינה משתמשת בפרוטוקול [IMAP](https://tutanota.com/fa
     
     Tutanota [יש תוכניות](https://github.com/tutao/tutanota/issues/198) כדי לתמוך [AutoCrypt](https://autocrypt.org). זה יאפשר להודעות דוא"ל שאינן של Tutanota לשלוח הודעות דוא"ל מוצפנות לחשבונות Tutanota כל עוד לקוח הדוא"ל שלהם תומך בכותרות AutoCrypt.
 
-ההמלצות שלנו לכינוי באימייל הן ספקים שמאפשרים לך ליצור כינויים בדומיינים שבשליטתך, כמו גם בדומיינים מותאמים אישית משלך תמורת תשלום שנתי צנוע. הם יכולים גם להיות באיחסון עצמי אם אתה רוצה שליטה מקסימלית.
+??? warning "מורשת דיגיטלית"
 
     Tutanota לא מציעה פיצ'ר מורשת דיגיטלית.
 
@@ -309,7 +280,9 @@ Tutanota אינה משתמשת בפרוטוקול [IMAP](https://tutanota.com/fa
 
 ### AnonAddy
 
-מנהלי מערכת מתקדמים עשויים לשקול להגדיר שרת דוא"ל משלהם. שרתי דואר דורשים תשומת לב ותחזוקה מתמשכת על מנת לשמור על אבטחה ומשלוח דואר אמין.
+!!! recommendation
+
+    מנהלי מערכת מתקדמים עשויים לשקול להגדיר שרת דוא"ל משלהם. שרתי דואר דורשים תשומת לב ותחזוקה מתמשכת על מנת לשמור על אבטחה ומשלוח דואר אמין.
 
     ![AnonAddy לוגו](assets/img/email/anonaddy.svg#only-light){ align=right }
     ![AnonAddy לוגו](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
@@ -322,8 +295,7 @@ Tutanota אינה משתמשת בפרוטוקול [IMAP](https://tutanota.com/fa
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=לתרומה }
     
-    ??? הורדות
-    
+    ??? downloads "הורדות"
     
         - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
@@ -336,13 +308,13 @@ Tutanota אינה משתמשת בפרוטוקול [IMAP](https://tutanota.com/fa
 
 - [x] 20 כינויים משותפים
 - [x] כינויים סטנדרטיים ללא הגבלה
-- [] אין תגובות יוצאות
+- [ ] אין תגובות יוצאות
 - [x] 2 תיבות דואר של נמען
 - [x] הצפנת PGP אוטומטית
 
 ### SimpleLogin
 
-!!! המלצה
+!!! recommendation
 
     ![Simplelogin לוגו](assets/img/email/simplelogin.svg){ align=right }
     
@@ -353,8 +325,7 @@ Tutanota אינה משתמשת בפרוטוקול [IMAP](https://tutanota.com/fa
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="קוד מקור" }
     
-    ??? הורדות
-    
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
@@ -380,7 +351,7 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 
 ### פתרונות תוכנה משולבים
 
-!!! המלצה
+!!! recommendation
 
     ![Mailcow לוגו](assets/img/email/mailcow.svg){ align=right }
     

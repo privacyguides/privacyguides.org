@@ -9,7 +9,7 @@ icon: material/file-cloud
 
 ## Cryptee
 
-!!! המלצה
+!!! recommendation
 
     ![Cryptee לוגו](./assets/img/cloud/cryptee.svg#only-light){ align=right }
     ![Cryptee לוגו](./assets/img/cloud/cryptee-dark.svg#only-dark){ align=right }
@@ -23,13 +23,13 @@ icon: material/file-cloud
     [:octicons-info-16:](https://crypt.ee/help){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/cryptee){ .card-link title="Source Code" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:octicons-globe-16: PWA](https://crypt.ee/download)
 
 ## Proton Drive
 
-!!! המלצה
+!!! recommendation
 
     ![Proton Drive לוגו](assets/img/cloud/protondrive.svg){ align=right }
     
@@ -40,14 +40,14 @@ icon: material/file-cloud
     [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
 
 ## Nextcloud
 
-!!! המלצה
+!!! recommendation
 
     ![Nextcloud לוגו](assets/img/cloud/nextcloud.svg){ align=right }
     
@@ -59,7 +59,7 @@ icon: material/file-cloud
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)

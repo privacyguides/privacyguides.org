@@ -11,7 +11,7 @@ icon: material/cellphone-information
 
 ### Brave
 
-!!! המלצה
+!!! recommendation
 
     ![לוגו אמיץ ]( assets/img/browsers/brave.svg){ align=right }
     
@@ -25,7 +25,7 @@ icon: material/cellphone-information
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
@@ -93,7 +93,7 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
 
 ### Safari
 
-!!! המלצה
+!!! recommendation
 
     ![Safari logo](assets/img/browsers/safari.svg){ align=right }
     
@@ -149,7 +149,7 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
 
 ### AdGuard
 
-!!! המלצה
+!!! recommendation
 
     ![AdGuard logo ]( assets/img/browsers/adguard.svg){ align=right }
     
@@ -162,7 +162,7 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
     [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 

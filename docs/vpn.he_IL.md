@@ -5,7 +5,7 @@ icon: material/vpn
 
 מחפשים מפעילי VPN ללא רישום שלא רוצים למכור או לקרוא את הפעילות שלכם באינטרנט.
 
-??? סכנה: "רשתות VPN לא מספקות אנונימיות"
+??? warning "רשתות VPN לא מספקות אנונימיות"
 
     השימוש ב - VPN לא ישמור על אנונימיות הרגלי הגלישה שלכם, ולא יוסיף אבטחה נוספת לתנועה לא מאובטחת (HTTP).
     
@@ -15,7 +15,7 @@ icon: material/vpn
     
     [הורד Tor ](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
-??? השאלה "מתי שירותי VPN שימושיים?"
+??? question "מתי שירותי VPN שימושיים?"
 
     אם אתם מחפשים * פרטיות** נוספת מספק האינטרנט שלכם, ברשת Wi - Fi ציבורית או בקובצי אינטרנט אלחוטי, VPN עשוי להיות הפתרון עבורכם כל עוד אתם מבינים את הסיכונים הכרוכים בכך.
     
@@ -40,35 +40,35 @@ icon: material/vpn
     [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="קוד מקור" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
-        -[:simple-googleplay: Google Play]( https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+        - [:simple-googleplay: Google Play]( https://play.google.com/store/apps/details?id=ch.protonvpn.android)
         - [:simple-appstore: App Store]( https://apps.apple.com/app/id1437005085)
-        -[:simple-github: GitHub]( https://github.com/Proton.com//android-app/releases)
-        -[:simple-windows11: Windows]( https://protonvpn.com/download-windows)
+        - [:simple-github: GitHub]( https://github.com/Proton.com//android-app/releases)
+        - [:simple-windows11: Windows]( https://protonvpn.com/download-windows)
         - [:simple-linux: Linux]( https://protonvpn.com/support/linux-vpn-setup/)
 
-??? check annotate ב 67 מדינות
+??? success annotate "ב 67 מדינות"
 
-    ל - ProtonVPN יש [שרתים ב -64 מדינות]( https://protonvpn.com/vpn-servers)( 1). בחירת ספק VPN עם שרת קרוב אליכם תפחית את זמן האחזור של תעבורת הרשת שאתם שולחים. הסיבה לכך היא מסלול קצר יותר (פחות קפיצות) אל היעד.
+    ל - ProtonVPN יש [שרתים ב -64 מדינות]( https://protonvpn.com/vpn-servers).(1) בחירת ספק VPN עם שרת קרוב אליכם תפחית את זמן האחזור של תעבורת הרשת שאתם שולחים. הסיבה לכך היא מסלול קצר יותר (פחות קפיצות) אל היעד.
     
     אנחנו גם חושבים שעדיף לאבטח את המפתחות הפרטיים של ספק ה - VPN אם הם משתמשים ב -[ שרתים ייעודיים]( https://en.wikipedia.org/wiki/Dedicated_hosting_service), במקום בפתרונות משותפים זולים יותר (עם לקוחות אחרים) כמו [שרתים פרטיים וירטואליים]( https://en.wikipedia.org/wiki/Virtual_private_server).
 
 1. נבדק לאחרונה: 2022 -09 -16
 
-??? check "מבוקרת עצמאית"
+??? success "מבוקרת עצמאית"
 
     החל מינואר 2020, ProtonVPN עברה ביקורת עצמאית על ידי SEC Consult. חברת הייעוץ SEC מצאה נקודות תורפה בסיכון בינוני ונמוך ביישומי Windows, Android ו - iOS של ProtonVPN, שכולם "תוקנו כראוי" על ידי ProtonVPN לפני פרסום הדוחות. אף אחת מהבעיות שזוהו לא הייתה מספקת לתוקף גישה מרחוק למכשיר או למידע שלך. באפשרותך להציג דוחות בודדים עבור כל פלטפורמה בכתובת [protonvpn.com](https://protonvpn.com/blog/open-source/). באפריל 2022, Proton VPN עבר [ביקורת נוספת](https://protonvpn.com/blog/no-logs-audit/) הדוח הופק על ידי [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). [מכתב הצהרה]( https://proton.me/blog/security-audit-all-proton-apps) סופק עבור האפליקציות של Proton VPN ב -9 בנובמבר 2021 על ידי [Securitum](https://research.securitum.com).
 
-??? check "קליינטים קוד פתוח"
+??? success "קליינטים קוד פתוח"
 
     Proton VPN מספק את קוד המקור עבור לקוחות שולחניים וניידים שלהם בארגון [GitHub]( https://github.com/Proton_end}).
 
-??? check "מקבלת מזומן"
+??? success "מקבלת מזומן"
 
     Proton VPN, בנוסף לקבלת כרטיסי אשראי/חיוב ו - PayPal, מקבל ביטקוין, ו **מזומן/מטבע מקומי ** כצורות תשלום אנונימיות.
 
-??? checkתמיכת "WireGuard
+??? success "תמיכת WireGuard"
 
     פרוטוקול Proton VPN תומך בעיקר בפרוטוקול WireGuard®. [WireGuard](https://www.wireguard.com) הוא פרוטוקול חדש יותר המשתמש ב - state - of - the - art [cryptography](https://www.wireguard.com/protocol/). בנוסף, WireGuard שואף להיות פשוט יותר וביצועי יותר.
     
@@ -78,7 +78,7 @@ icon: material/vpn
 
     נכון לעכשיו, Proton VPN תומך רק בהעברה מרחוק של [port forwarding](https://protonvpn.com/support/port-forwarding/) ב - Windows, דבר שעשוי להשפיע על יישומים מסוימים. במיוחד יישומי Peer - to - peer כמו לקוחות Torrent.
 
-??? check "קליינטים ניידים"
+??? success "קליינטים ניידים"
 
     בנוסף לאספקת קבצי תצורה סטנדרטיים של OpenVPN, ל-Proton VPN יש לקוחות ניידים עבור [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), and [GitHub](https://github.com/ProtonVPN/android-app/releases)מה שמאפשר חיבורים קלים לשרתים שלהם.
 
@@ -92,7 +92,7 @@ icon: material/vpn
 
 ### IVPN
 
-!!! המלצה
+!!! recommendation
 
     ![IVPN לוגו](assets/img/vpn/ivpn.svg){ align=right }
     
@@ -103,7 +103,7 @@ icon: material/vpn
     [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-android: Android](https://www.ivpn.net/apps-android/)
         - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
@@ -111,7 +111,7 @@ icon: material/vpn
         - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
         - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
 
-??? check annotate ב" 35 מדינות"
+??? success annotate "ב 35 מדינות"
 
     ל - IVPN יש [שרתים ב -35 מדינות ](https://www.ivpn.net/server-locations) (1). בחירת ספק VPN עם שרת קרוב אליכם תפחית את זמן האחזור של תעבורת הרשת שאתם שולחים. הסיבה לכך היא מסלול קצר יותר (פחות קפיצות) אל היעד.
     
@@ -119,29 +119,29 @@ icon: material/vpn
 
 1. נבדק לאחרונה: 2022 -09 -16
 
-??? check "מבוקרת עצמאית"
+??? success "מבוקרת עצמאית"
 
     IVPN עבר ביקורת [ביקורת אי-תיעוד מ-Cure53](https://cure53.de/audit-report_ivpn.pdf) שהסתיימה בהסכמה עם תביעת האי - רישום של IVPN. IVPN גם השלים [דוח pentest מקיף Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) בינואר 2020. IVPN גם אמר שהם מתכננים לקבל [דוחות שנתיים]( https://www.ivpn.net/blog/independent-security-audit-concluded) בעתיד. בדיקה נוספת נערכה [באפריל 2022](https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) והופק על ידי Cure53 [באתר האינטרנט שלהם]( https://cure53.de/pentest-report_IVPN_2022.pdf).
 
-??? check "קליינטים קוד פתוח"
+??? success "קליינטים קוד פתוח"
 
     החל מפברואר 2020 [יישומי IVPN הם כעת קוד פתוח](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). ניתן לקבל את קוד המקור מ[GitHub organization](https://github.com/ivpn).
 
-??? check "מקבלת מזומן וMonero"
+??? success "מקבלת מזומן וMonero"
 
     בנוסף לקבלת כרטיסי אשראי/חיוב וכרטיסי PayPal, IVPN מקבל ביטקוין, **Monero** ו**מזומן/מטבע מקומי** (בחבילות שנתיות) כאמצעי תשלום אנונימיים.
 
-??? checkתמיכת "WireGuard
+??? success "תמיכת WireGuard"
 
     IVPN תומך בפרוטוקול WireGuard®. [WireGuard](https://www.wireguard.com) הוא פרוטוקול חדש יותר המשתמש ב - state - of - the - art [cryptography](https://www.wireguard.com/protocol/). בנוסף, WireGuard שואף להיות פשוט יותר וביצועי יותר.
     
     IVPN [recommends](https://www.ivpn.net/wireguard/) משתמש ב-WireGuard עם השירות שלהם, וככזה, הפרוטוקול הוא ברירת המחדל בכל האפליקציות של IVPN. IVPN מציע גם מחולל תצורת WireGuard לשימוש עם WireGuard הרשמי [apps](https://www.wireguard.com/install/).
 
-??? check "העברת יציאות מרחוק"
+??? success "העברת יציאות מרחוק"
 
     העברת פורט מרחוק [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) אפשרית עם תוכנית Pro. העברת יציאות [ניתן להפעיל](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html) דרך אזור הלקוח. העברת פורט זמינה רק ב - IVPN בעת שימוש בפרוטוקולי WireGuard או OpenVPN והיא [מושבתת בשרתים בארה"ב]( https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
 
-??? check "קליינטים ניידים"
+??? success "קליינטים ניידים"
 
     בנוסף לאספקת קבצי תצורה סטנדרטיים של OpenVPN, ל-IVPN יש לקוחות ניידים עבור [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), ו [GitHub](https://github.com/ivpn/android-app/releases) המאפשרים חיבורים קלים לשרתים שלהם.
 
@@ -151,7 +151,7 @@ icon: material/vpn
 
 ### Mullvad
 
-!!! המלצה
+!!! recommendation
 
     ![לוגו של Mullvad ](assets/img/vpn/mullvad.svg){ align=right }
     
@@ -163,7 +163,7 @@ icon: material/vpn
     [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
         - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
@@ -172,15 +172,15 @@ icon: material/vpn
         - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
         - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
 
-??? check annotate ב" 40 מדינות"
+??? success annotate "ב 40 מדינות"
 
-    ל - Mullvad יש [שרתים ב -40 מדינות]( https://mullvad.net/servers/)( 1). בחירת ספק VPN עם שרת קרוב אליכם תפחית את זמן האחזור של תעבורת הרשת שאתם שולחים. הסיבה לכך היא מסלול קצר יותר (פחות קפיצות) אל היעד.
+    ל - Mullvad יש [שרתים ב -40 מדינות]( https://mullvad.net/servers/)(1). בחירת ספק VPN עם שרת קרוב אליכם תפחית את זמן האחזור של תעבורת הרשת שאתם שולחים. הסיבה לכך היא מסלול קצר יותר (פחות קפיצות) אל היעד.
     
     אנחנו גם חושבים שעדיף לאבטח את המפתחות הפרטיים של ספק ה - VPN אם הם משתמשים ב -[ שרתים ייעודיים]( https://en.wikipedia.org/wiki/Dedicated_hosting_service), במקום בפתרונות משותפים זולים יותר (עם לקוחות אחרים) כמו [שרתים פרטיים וירטואליים]( https://en.wikipedia.org/wiki/Virtual_private_server).
 
 1. נבדק לאחרונה: 2022 -09 -16
 
-??? check "מבוקרת עצמאית"
+??? success "מבוקרת עצמאית"
 
     הקליינטים VPN של Mullvad נבדקו על ידי Cure53 ו - Assured AB בדוח pentest [שפורסם בכתובת cure53.de]( https://cure53.de/pentest-report_mullvad_v2.pdf). החוקרים סיכמו:
     
@@ -192,29 +192,29 @@ icon: material/vpn
     
     בשנת 2021 [הוכרזה] ביקורת תשתית [https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacyleaks-found-cure53s-infrastructure-audit/] ו [דוח הביקורת הסופי](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) הפך לזמין באתר האינטרנט של Cure53. דוח נוסף הוזמן [ביוני 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) and is available on [Assured's website](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
 
-??? check "קליינטים קוד פתוח"
+??? success "קליינטים קוד פתוח"
 
     Mullvad מספקת את קוד המקור עבור הלקוחות שלהם בשולחן העבודה ובנייד בארגון שלהם [GitHub organization](https://github.com/mullvad/mullvadvpn-app).
 
-??? check "מקבלת מזומן וMonero"
+??? success "מקבלת מזומן וMonero"
 
     Mullvad, בנוסף לקבלת כרטיסי אשראי/חיוב ו - PayPal, מקבל Bitcoin, Bitcoin Cash, **Monero ** ו **מזומנים/מטבע מקומי ** כצורות אנונימיות של תשלום. הם גם מקבלים Swish והעברות בנקאיות.
 
-??? checkתמיכת "WireGuard
+??? success "תמיכת WireGuard"
 
     Mullvad תומך בפרוטוקול WireGuard®. [WireGuard](https://www.wireguard.com) הוא פרוטוקול חדש יותר המשתמש ב - state - of - the - art [cryptography](https://www.wireguard.com/protocol/). בנוסף, WireGuard שואף להיות פשוט יותר וביצועי יותר.
     
     Mullvad [recommends](https://mullvad.net/en/help/why-wireguard/) משתמש ב WireGuard בשירות שלהם. זהו פרוטוקול ברירת המחדל או הפרוטוקול היחיד באפליקציות Android, iOS, macOS ו - Linux של Mullvad, אך ב - Windows עליך [להפעיל ידנית](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad גם מציע גנרטור תצורה WireGuard לשימוש עם הרשמי [apps](https://www.wireguard.com/install/)./install/).
 
-??? check "תמיכת IPv6"
+??? success "תמיכת IPv6"
 
     Mullvad תומך בעתיד של הרשתות [IPv6](https://en.wikipedia.org/wiki/IPv6). הרשת שלהם מאפשרת לך [לגשת לשירותים המתארחים ב - IPv6]( https://mullvad.net/en/blog/2014/9/15/ipv6-support/) בניגוד לספקים אחרים שחוסמים חיבורי IPv6.
 
-??? check "העברת יציאות מרחוק"
+??? success "העברת יציאות מרחוק"
 
     [העברת יציאות] (https://en.wikipedia.org/wiki/Port_forwarding) מרחוק מותרת לאנשים המבצעים תשלומים חד-פעמיים, אך אינה מותרת עבור חשבונות עם אמצעי תשלום חוזר/מבוסס מנוי. זה כדי למנוע מ - Mullvad להיות מסוגל לזהות אותך בהתבסס על השימוש שלך בפורט ופרטי המנוי המאוחסנים. ראה [Port forwarding with Mullvad VPN](https://mullvad.net/help/port-forwarding-and-mullvad/) לקבלת מידע נוסף.
 
-??? check "קליינטים ניידים"
+??? success "קליינטים ניידים"
 
     Mullvad פרסם את [App Store]( https://apps.apple.com/app/mullvad-vpn/id1488466513) ואת [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) לקוחות, שניהם תומכים בממשק קל לשימוש במקום לדרוש ממך להגדיר באופן ידני את חיבור WireGuard שלך. קליינט של אנדרואיד מפורסם גם ב [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
 

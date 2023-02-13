@@ -7,7 +7,7 @@ icon: material/router-wireless
 
 ## OpenWrt
 
-!!! המלצה
+!!! recommendation
 
     ![OpenWrt לוגו](assets/img/router/openwrt.svg#only-light){ align=right }
     ![OpenWrt לוגו](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
@@ -26,7 +26,7 @@ icon: material/router-wireless
 
 ## OPNsense
 
-!!! המלצה
+!!! recommendation
 
     ![pfSense לוגו](assets/img/router/opnsense.svg){ align=right }
     

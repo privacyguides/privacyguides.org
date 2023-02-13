@@ -11,7 +11,7 @@ icon: material/search-web
 
 ## חיפוש Brave
 
-!!! המלצה
+!!! recommendation
 
     ![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
     
@@ -30,7 +30,7 @@ icon: material/search-web
 
 ## DuckDuckGo
 
-!!! המלצה
+!!! recommendation
 
     ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
     
@@ -49,7 +49,7 @@ DuckDuckGo מציעה שתי [גרסאות נוספות](https://help.duckduckgo
 
 ## SearXNG
 
-!!! המלצה
+!!! recommendation
 
     ![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
     
@@ -67,7 +67,7 @@ SearXNG הוא פרוקסי בינך לבין מנועי החיפוש שהוא �
 
 ## Startpage
 
-!!! המלצה
+!!! recommendation
 
     ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
     ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }

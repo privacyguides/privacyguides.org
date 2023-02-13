@@ -9,7 +9,7 @@ icon: material/share-variant
 
 ### Send
 
-!!! המלצה
+!!! recommendation
 
     ![Send לוגו](assets/img/file-sharing-sync/send.svg){ align=right }
     
@@ -29,7 +29,7 @@ ffsend upload -- host https://send.vis.ee/ FILE
 
 ### OnionShare
 
-!!! המלצה
+!!! recommendation
 
     ![OnionShare לוגו](assets/img/file-sharing-sync/onionshare.svg){ align=right }
     
@@ -40,7 +40,7 @@ ffsend upload -- host https://send.vis.ee/ FILE
     [:octicons-info-16:](https://docs.onionshare.org){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="קוד מקור" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows](https://onionshare.org/#download)
         - [:simple-apple: macOS](https://onionshare.org/#download)
@@ -48,7 +48,7 @@ ffsend upload -- host https://send.vis.ee/ FILE
 
 ## FreedomBox
 
-!!! המלצה
+!!! recommendation
 
     ![FreedomBox לוגו](assets/img/file-sharing-sync/freedombox.svg){ align=right }
     
@@ -63,7 +63,7 @@ ffsend upload -- host https://send.vis.ee/ FILE
 
 ### Syncthing
 
-!!! המלצה
+!!! recommendation
 
     ![Syncthing לוגו](assets/img/file-sharing-sync/syncthing.svg){ align=right }
     
@@ -74,7 +74,7 @@ ffsend upload -- host https://send.vis.ee/ FILE
     [:octicons-code-16:](https://github.com/syncthing){ .card-link title="קוד פתוח" }
     [:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=לתרומה }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
         - [:simple-windows11: Windows](https://syncthing.net/downloads/)

@@ -53,7 +53,7 @@ Apple אינה מספקת ממשק מקורי ליצירת פרופילי DNS מ
 
 ### RethinkDNS
 
-!!! המלצה
+!!! recommendation
 
     ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
     ![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
@@ -65,14 +65,14 @@ Apple אינה מספקת ממשק מקורי ליצירת פרופילי DNS מ
     [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="קוד מקור" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
         - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
 
 ### dnscrypt-proxy
 
-!!! המלצה
+!!! recommendation
 
     ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
     
@@ -85,7 +85,7 @@ Apple אינה מספקת ממשק מקורי ליצירת פרופילי DNS מ
     [:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
         - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
@@ -97,7 +97,7 @@ Apple אינה מספקת ממשק מקורי ליצירת פרופילי DNS מ
 
 ### AdGuard Home
 
-!!! המלצה
+!!! recommendation
 
     ![AdGuard Home לוגו](assets/img/dns/adguard-home.svg){ align=right }
     
@@ -112,7 +112,7 @@ Apple אינה מספקת ממשק מקורי ליצירת פרופילי DNS מ
 
 ### Pi-hole
 
-!!! המלצה
+!!! recommendation
 
     ![Pi-hole לוגו](assets/img/dns/pi-hole.svg){ align=right }
     

@@ -7,7 +7,7 @@ icon: material/calendar-account
 
 ## Tutanota
 
-!!! המלצה
+!!! recommendation
 
     ![Tutanota logo](assets/img/calendar-contacts/tutanota.svg#only-light){ align=right }
     ![Tutanota logo](assets/img/calendar-contacts/tutanota-dark.svg#only-dark){ align=right }
@@ -22,7 +22,7 @@ icon: material/calendar-account
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
@@ -34,7 +34,7 @@ icon: material/calendar-account
 
 ## Proton Calendar
 
-!!! המלצה
+!!! recommendation
 
     ![Proton](assets/img/calendar-contacts/proton-calendar.svg){ align=right }
     
@@ -47,7 +47,7 @@ icon: material/calendar-account
     [:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
         - [:octicons-browser-16: Web](https://calendar.proton.me)

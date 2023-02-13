@@ -7,7 +7,7 @@ icon: 'material/two-factor-authentication'
 
 ### YubiKey
 
-!!! המלצה
+!!! recommendation
 
     ![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
     
@@ -30,7 +30,7 @@ icon: 'material/two-factor-authentication'
 
 ### Nitrokey / Librem Key
 
-!!! המלצה
+!!! recommendation
 
     ![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
     
@@ -70,7 +70,7 @@ icon: 'material/two-factor-authentication'
 
 ### Aegis Authenticator
 
-!!! המלצה
+!!! recommendation
 
     ![Aegis לוגו](assets/img/multi-factor-authentication/aegis.png){ align=right }
     
@@ -82,14 +82,14 @@ icon: 'material/two-factor-authentication'
     [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=לתרומה }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
         - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
 
 ### Raivo OTP
 
-!!! המלצה
+!!! recommendation
 
     ![Raivo OTP לוגו](assets/img/multi-factor-authentication/raivo-otp.png){ align=right }
     
@@ -100,7 +100,6 @@ icon: 'material/two-factor-authentication'
     [:octicons-code-16:](https://github.com/raivo-otp/ios-application){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title=לתרומה }
     
-    ??? הורדות
-    
+    ??? downloads "הורדות"
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)

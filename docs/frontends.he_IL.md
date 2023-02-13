@@ -9,7 +9,7 @@ icon: material/flip-to-front
 
 ### Librarian
 
-!!! המלצה
+!!! recommendation
 
     ![Librarian לוגו](assets/img/frontends/librarian.svg#only-light){ align=right }
     ![Librarian לוגו](assets/img/frontends/librarian-dark.svg#only-dark){ align=right }
@@ -39,7 +39,7 @@ icon: material/flip-to-front
 
 ### Nitter
 
-!!! המלצה
+!!! recommendation
 
     ![לוגו של Nitter]( assets/img/frontends/nitter.svg){ align=right }
     
@@ -65,7 +65,7 @@ icon: material/flip-to-front
 
 ### ProxiTok
 
-!!! המלצה
+!!! recommendation
 
     ![ProxiTok לוגו](assets/img/frontends/proxitok.svg){ align=right }
     
@@ -90,7 +90,7 @@ icon: material/flip-to-front
 
 ### FreeTube
 
-!!! המלצה
+!!! recommendation
 
     ![לוגו של FreeTube](assets/img/frontends/freetube.svg){ align=right }
     
@@ -104,7 +104,7 @@ icon: material/flip-to-front
     [:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=לתרומה }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows](https://freetubeapp.io/#download)
         - [:simple-apple: macOS](https://freetubeapp.io/#download)
@@ -131,7 +131,7 @@ icon: material/flip-to-front
     [:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://newpipe.net/donate/){ .card-link title=לתרומה }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-github: GitHub](https://github.com/TeamNewPipe/NewPipe/releases)
 
@@ -143,7 +143,7 @@ icon: material/flip-to-front
 
 ### Invidious
 
-!!! המלצה
+!!! recommendation
 
     ![Invidious לוגו](assets/img/frontends/invidious.svg#only-light){ align=right }
     ![Invidious לוגו](assets/img/frontends/invidious-dark.svg#only-dark){ align=right }
@@ -172,7 +172,7 @@ icon: material/flip-to-front
 
 ### Piped
 
-!!! המלצה
+!!! recommendation
 
     ![לוגו של Nitter]( assets/img/frontends/piped.svg){ align=right }
     
