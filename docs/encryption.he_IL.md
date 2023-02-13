@@ -1,6 +1,6 @@
 ---
 title: "תוכנת הצפנה"
-icon: חומר/נעילת קובץ
+icon: material/file-lock
 ---
 
 הצפנה של נתונים היא הדרך היחידה לשלוט מי יכול לגשת אליו. אם אינך משתמש כעת בתוכנת הצפנה עבור הדיסק הקשיח, הודעות הדוא"ל או הקבצים שלך, עליך לבחור אפשרות כאן.
@@ -61,8 +61,8 @@ Cryptomator משתמש בהצפנת AES-256 כדי להצפין קבצים וש�
 
 !!! המלצה
 
-    ![לוגו של VeraCrypt](property/img/encryption - Software/veracrypt.svg#only-light){ align=right }
-    ![לוגו של VeraCrypt]( property/img/encryption - Software/veracrypt-dark.svg#only-dark){ align=right }}
+    ![לוגו של VeraCrypt](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
+    ![לוגו של VeraCrypt](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }}
     
     **VeraCrypt** הוא כלי תוכנה חופשית זמין במקור המשמש להצפנה תוך כדי תנועה. הוא יכול ליצור דיסק מוצפן וירטואלי בתוך קובץ, להצפין מחיצה או להצפין את התקן האחסון כולו באמצעות אימות טרום-אתחול.
     
@@ -91,7 +91,7 @@ Truecrypt נבדק [מספר פעמים](https://en.wikipedia.org/wiki/TrueCrypt
 
 !!! המלצה
 
-    ![BitLocker logo ]( assets/img/encryption - Software/bitlocker.png){ align=right }
+    ![BitLocker logo ](assets/img/encryption-software/bitlocker.png){ align=right }
     
     **BitLocker ** הוא פתרון ההצפנה בנפח מלא עם חלונות של מייקרוסופט. הסיבה העיקרית להמלצה היא [השימוש ב - TPM]( https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). [ElcomSoft](https://en.wikipedia.org/wiki/ElcomSoft), חברת זיהוי פלילי, כתבה על כך ב -[ הבנה של BitLocker TPM Protection]( https://blog.elcomsoft.com/2021/01/understanding-bitLocker-tpm-protection/).
     
@@ -141,7 +141,7 @@ BitLocker [נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-de
 
 !!! recommendation
 
-    ![FileVault logo ]( assets/img/encryption - Software/filevault.png){ align=right }
+    ![FileVault logo ](assets/img/encryption-software/filevault.png){ align=right }
     
     **FileVault** הוא פתרון הצפנת אמצעי אחסון תוך כדי תנועה המובנה ב-macOS. FileVault מומלץ מכיוון שהוא מכיל [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) יכולות אבטחת חומרה הנמצאות על שבב אבטחת סיליקון מסוג Apple SoC או T2.
     
@@ -211,7 +211,7 @@ BitLocker [נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-de
 
 !!! המלצה
 
-    ![לוגו קריפטור ]( property/img/encryption - Software/kryptor.png){ align=right }
+    ![לוגו קריפטור ](assets/img/encryption-software/kryptor.png){ align=right }
     
     ** Kryptor ** הוא כלי הצפנה וחתימה של קבצים בקוד פתוח אשר עושה שימוש באלגוריתמים קריפטוגרפיים מודרניים ומאובטחים. מטרתו להיות גרסה טובה יותר [age](https://github.com/FiloSottile/age) ו [Minisign](https://jedisct1.github.io/minisign/) כדי לספק חלופה פשוטה וקלה יותר ל-GPG.
     

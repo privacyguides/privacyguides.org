@@ -1,6 +1,6 @@
 ---
 title: "תקשורת בזמן אמת"
-icon: עיבודצ'אט/חומר
+icon: material/chat-processing
 ---
 
 אלה ההמלצות שלנו לתקשורת מוצפנת בזמן אמת.
@@ -11,7 +11,7 @@ icon: עיבודצ'אט/חומר
 
 !!! המלצה
 
-    ![Signal logo ]( assets/img/Messenger/signal.svg){ align=right }
+    ![Signal logo ](assets/img/messengers/signal.svg){ align=right }
     
     **Signal** היא אפליקציה לנייד שפותחה על ידי Signal Messenger LLC. האפליקציה מספקת מסרים מיידיים, גם שיחות קוליות ווידאו.
     
@@ -44,7 +44,7 @@ Signal תומכת [בקבוצות פרטיות](https://signal.org/blog/signal-p
 
 !!! המלצה
 
-    ![Element logo ]( assets/img/Messenger/element.svg){ align=right }
+    ![Element logo ](assets/img/messengers/element.svg){ align=right }
     
     **אלמנט ** הוא קליינט ההפניה עבור פרוטוקול [Matrix](https://matrix.org/docs/guides/introduction), [תקן פתוח ]( https://matrix.org/docs/spec) לתקשורת מבוזרת מאובטחת בזמן אמת.
     
@@ -75,7 +75,7 @@ Signal תומכת [בקבוצות פרטיות](https://signal.org/blog/signal-p
 
 !!! המלצה
 
-    ![Simplex logo ]( property/img/Messenger/Simplex.svg){ align=right }
+    ![Simplex logo ](assets/img/messengers/simplex.svg){ align=right }
     
     ** SimpleX ** צ'אט הוא מסנג'ר מיידי מבוזר ואינו תלוי במזהים ייחודיים כגון מספרי טלפון או שמות משתמשים. משתמשים של SimpleX צ'אט יכולים לסרוק קוד QR או ללחוץ על קישור הזמנה כדי להשתתף בשיחות קבוצתיות.
     
@@ -100,7 +100,7 @@ SimpleX צ'אט [נבדק על ידי](https://simplex.chat/blog/20221108-simple
 
 !!! המלצה
 
-    ![Session logo ]( assets/img/Messenger/session.svg){ align=right }
+    ![Session logo ](assets/img/messengers/session.svg){ align=right }
     
     **סשן ** הוא מסנג'ר מבוזר המתמקד בתקשורת פרטית, מאובטחת ואנונימית. סשן מציעה תמיכה בהודעות ישירות, בצ'אטים קבוצתיים ובשיחות קוליות.
     

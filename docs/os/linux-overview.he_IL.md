@@ -1,6 +1,6 @@
 ---
 title: סקירת לינוקס
-icon: פשוט/לינוקס
+icon: simple/linux
 ---
 
 לעתים קרובות מאמינים כי תוכנת [קוד פתוח](https://en.wikipedia.org/wiki/Open-source_software) היא מאובטחת לחלוטין כי קוד המקור זמין. יש ציפייה שאימות קהילתי מתרחש באופן קבוע. עם זאת, זה לא תמיד [במקרה](https://seirdy.one/posts/2022/02/02/floss-security/). הוא תלוי במספר גורמים, כגון פעילות בפרויקט, ניסיון במפתחים, רמת ההקפדה החלה על [ביקורות קוד](https://en.wikipedia.org/wiki/Code_review), ותדירות תשומת הלב הניתנת לחלקים ספציפיים של [בסיס קוד](https://en.wikipedia.org/wiki/Codebase) העשויים לעבור ללא מגע במשך שנים.

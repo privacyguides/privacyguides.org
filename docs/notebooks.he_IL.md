@@ -68,7 +68,7 @@ Joplin אינה תומכת בהגנה באמצעות סיסמה/PIN עבור ה�
 
     ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
     
-    ** מצב ארגון ** הוא [major mode ]( https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) עבור GNU Emacs. Org-mode נועד לשמירה על הערות, שמירה על רשימות מטלות, תכנון פרויקטים ועריכת מסמכים באמצעות מערכת טקסט פשוטה מהירה ויעילה. סינכרון אפשרי באמצעות הכלי [file synchronization](file sharing.md#file-sync).
+    ** מצב ארגון ** הוא [major mode ]( https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) עבור GNU Emacs. Org-mode נועד לשמירה על הערות, שמירה על רשימות מטלות, תכנון פרויקטים ועריכת מסמכים באמצעות מערכת טקסט פשוטה מהירה ויעילה. סינכרון אפשרי באמצעות הכלי [file synchronization](file-sharing.md#file-sync).
     
     [:octicons-home-16: Homepage](https://orgmode.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Documentation}

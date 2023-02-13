@@ -1,6 +1,6 @@
 ---
 title: "קליינטים של דוא\"ל"
-icon: חומר/אימייל - פתוח
+icon: material/email-open
 ---
 
 רשימת ההמלצות שלנו מכילה לקוחות דוא"ל התומכים הן ב[OpenPGP](encryption.md#openpgp) והן באימות חזק כגון [הרשאת פתוחה ](https://en.wikipedia.org/wiki/OAuth)(OAuth). OAuth מאפשר לך להשתמש ב - [אימות רב - גורמי](basics/multi-factor-authentication.md) ולמנוע גניבת חשבון.
@@ -17,7 +17,7 @@ icon: חומר/אימייל - פתוח
 
 !!! המלצה
 
-    ![Thunderbird logo ]( property/img/email - customers/Thunderbird.svg){ align=right }
+    ![Thunderbird logo ](assets/img/email-clients/thunderbird.svg){ align=right }
     
     **Thunderbird** הוא קליינט חופשי, בקוד פתוח, דואר אלקטרוני חוצה פלטפורמות, מקבץ חדשות, עדכון חדשות וצ'אט (XMPP, IRC, Twitter) שפותח על ידי קהילת Thunderbird, ובעבר על ידי קרן Mozilla.
     
@@ -94,7 +94,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
 
 !!! המלצה
 
-    ![FairEmail logo ]( property/img/email - customers/fairemail.svg){ align=right }
+    ![FairEmail logo ](assets/img/email-clients/fairemail.svg){ align=right }
     
     ** FairEmail ** היא אפליקציה מינימלית לדואר אלקטרוני בקוד פתוח, המשתמשת בסטנדרטים פתוחים (IMAP, SMTP, OpenPGP) עם שימוש דל בנתונים ובסוללות.
     
@@ -113,7 +113,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
 
 !!! המלצה
 
-    ![Evolution logo ]( assets/img/email - customers/evolution.svg){ align=right }
+    ![Evolution logo ](assets/img/email-clients/evolution.svg){ align=right }
     
     **Evolution ** הוא יישום לניהול מידע אישי המספק דואר משולב, לוח שנה ופונקציונליות של פנקס כתובות. ל - Evolution יש [documentation](https://help.gnome.org/users/evolution/stable/) נרחב כדי לעזור לך להתחיל.
     
@@ -131,7 +131,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
 
 !!! המלצה
 
-    ![K -9 Mail logo ]( assets/img/email - customers/k9mail.svg){ align=right }
+    ![K -9 Mail logo ](assets/img/email-clients/k9mail.svg){ align=right }
     
     **K -9 Mail ** היא יישום דואר עצמאי התומך בתיבות דואר POP3 ו - IMAP, אך תומך בדואר דחיפה עבור IMAP בלבד.
     
@@ -152,7 +152,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
 
 !!! המלצה
 
-    ![Kontact logo ]( property/img/email - customers/kontact.svg){ align=right }
+    ![Kontact logo ](assets/img/email-clients/kontact.svg){ align=right }
     
     **Kontact ** הוא יישום של מנהל מידע אישי (PIM) מהפרויקט [KDE](https://kde.org). הוא מספק קליינט דואר, פנקס כתובות, ארגון וקליינט RSS.
     

@@ -1,6 +1,6 @@
 ---
 title: "דפדפנים שולחניים"
-icon: חומר/מחשב נייד
+icon: material/laptop
 ---
 
 אלה הדפדפנים והתצורות המומלצים כרגע לגלישה רגילה/לא אנונימית. אם אתה צריך לגלוש באינטרנט באופן אנונימי, אתה צריך להשתמש [Tor](tor.md) במקום. באופן כללי, אנו ממליצים לשמור על הרחבות הדפדפן שלך למינימום; יש להם גישה מורשית בתוך הדפדפן שלך, דורשים ממך לסמוך על המפתח, יכולים לגרום לך [להתבלט](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), ו[להחליש](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) את בידוד האתר.
@@ -9,7 +9,7 @@ icon: חומר/מחשב נייד
 
 !!! המלצה
 
-    ![לוגו Firefox](נכסים/img/דפדפנים/firefox.svg){ align=right }
+    ![לוגו Firefox](/assets/img/browsers/firefox.svg){ align=right }
     
     **Firefox ** מספק הגדרות פרטיות חזקות כגון [Enhanced Tracking Protection ]( https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), שיכול לעזור לחסום [סוגי מעקב] שונים (https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-protection-blocks).
     
@@ -192,7 +192,7 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
 
 !!! המלצה
 
-    ![הלוגו של uBlock Origin ]( property/img/browsers/ublock_origin.svg){ align=right }
+    ![הלוגו של uBlock Origin ](/assets/img/browsers/ublock_origin.svg){ align=right }
     
     **uBlock Origin * הוא חוסם תוכן פופולרי שיכול לעזור לך לחסום מודעות, עוקבים וסקריפטים של טביעות אצבע.
     
