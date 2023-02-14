@@ -220,3 +220,24 @@ When you are using an Invidious instance, make sure to read the privacy policy o
 When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Piped, as other peoples' usage will be linked to your hosting.
 
 When you are using a Piped instance, make sure to read the privacy policy of that specific instance. Piped instances can be modified by their owners and therefore may not reflect their associated privacy policy.
+
+## Extensions
+
+### Libredirect
+
+!!! recommendation
+
+    ![Libredirect logo](assets/img/frontends/libredirect.svg){ align=right }
+
+    Libredirect is a web extension that redirects to various frontends such as those mentioned above. You can enable or disable frontends so that it is only used for specific services. Libredirect also has options to specify specific instances, randomly select one from a list or use .onion services only.
+
+    [:octicons-home-16: Homepage](https://libredirect.github.io/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/libredirect/libredirect/blob/master/Privacy-Policy.md){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://libredirect.github.io/docs.html){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/libredirect/libredirect){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://libredirect.github.io/donate.html){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:simple-firefoxbrowser: Firefox](https://libredirect.github.io/download_chromium.html)
+        - [:simple-googlechrome: Chrome](https://libredirect.github.io/download_chromium.html)
