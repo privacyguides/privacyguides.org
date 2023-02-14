@@ -8,13 +8,15 @@ Email is practically a necessity for using any online service, however we do not
 
 For everything else, we recommend a variety of email providers based on sustainable business models and built-in security and privacy features.
 
+## OpenPGP Compatible Services
+
+These providers natively support OpenPGP encryption/decryption, allowing for provider-agnostic E2EE emails. For example, a Proton Mail user could send an E2EE message to a Mailbox.org user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+
 !!! warning
 
     When using E2EE technology like OpenPGP, email will still have some metadata that is not encrypted in the header of the email. Read more about [email metadata](basics/email-security.md#email-metadata-overview).
 
     OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
-
-## Recommended Email Providers
 
 ### Proton Mail
 
@@ -23,12 +25,6 @@ For everything else, we recommend a variety of email providers based on sustaina
     ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
     **Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since **2013**. Proton AG is based in Genève, Switzerland. Accounts start with 500 MB storage with their free plan.
-
-    Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g. Thunderbird). Paid accounts include features like Proton Mail Bridge, additional storage, and custom domain support. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
-
-    If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](#simplelogin) Premium for free.
-
-    Proton Mail has internal crash reports that they **do not** share with third parties. This can be disabled in: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
 
     [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -45,6 +41,12 @@ For everything else, we recommend a variety of email providers based on sustaina
         - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
         - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
         - [:octicons-browser-16: Web](https://mail.proton.me)
+
+Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g. Thunderbird). Paid accounts include features like Proton Mail Bridge, additional storage, and custom domain support. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+
+If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](#simplelogin) Premium for free.
+
+Proton Mail has internal crash reports that they **do not** share with third parties. This can be disabled in: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
 
 ??? success "Custom Domains and Aliases"
 
@@ -186,6 +188,10 @@ For everything else, we recommend a variety of email providers based on sustaina
 ??? info "Additional Functionality"
 
     StartMail allows for proxying of images within emails. If you allow the remote image to be loaded, the sender won't know what your IP address is.
+
+## More Providers
+
+These providers store your emails with zero-knowledge encryption, making them great options for keeping your stored emails secure. However, they don't support interoperable encryption standards for E2EE communications between providers.
 
 ### Tutanota
 
@@ -379,11 +385,12 @@ We regard these features as important in order to provide a safe and optimal ser
 
 - Encrypts email account data at rest with zero-access encryption.
 - Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322/) standard.
+- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
+- Operates on owned infrastructure, i.e. not built upon third-party email service providers.
 
 **Best Case:**
 
 - Encrypts all account data (Contacts, Calendars, etc) at rest with zero-access encryption.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
 - Integrated webmail E2EE/PGP encryption provided as a convenience.
 - Support for [WKD](https://wiki.gnupg.org/WKD) to allow improved discovery of public OpenPGP keys via HTTP.
     GnuPG users can get a key by typing: `gpg --locate-key example_user@example.com`
