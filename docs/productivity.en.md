@@ -6,10 +6,6 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 
 ## Office Suites
 
-We recommend running a local Office suite. If you're using Microsoft Windows, we suggest Microsoft Office as it has support from [MDAG](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview) which prevents untrusted Word, PowerPoint and Excel files from accessing trusted resources. Application Guard opens untrusted files in an isolated [Hyper-V](https://en.wikipedia.org/wiki/Hyper-V)-enabled container. On macOS [iWork](https://www.apple.com/iwork) has [App Sandbox](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html).
-
-For other platforms, consider below:
-
 ### LibreOffice
 
 !!! recommendation
