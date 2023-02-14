@@ -24,6 +24,7 @@ For more details about each project, why they were chosen, and additional tips o
 1. Snowflake does not increase privacy, however it allows you to easily contribute to the Tor network and help people in censored networks achieve better privacy.
 
 [Learn more :material-arrow-right-drop-circle:](tor.md)
+
 ## Desktop Web Browsers
 
 <div class="grid cards" markdown>
@@ -127,7 +128,6 @@ For more details about each project, why they were chosen, and additional tips o
 
 <div class="grid cards" markdown>
 
-- ![Cryptee logo](assets/img/cloud/cryptee.svg#only-light){ .twemoji }![Cryptee logo](assets/img/cloud/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](cloud.md#cryptee)
 - ![Nextcloud logo](assets/img/cloud/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](cloud.md#nextcloud)
 - ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
 
@@ -378,6 +378,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![Joplin logo](assets/img/notebooks/joplin.svg){ .twemoji } [Joplin](notebooks.md#joplin)
 - ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ .twemoji } [Standard Notes](notebooks.md#standard-notes)
+- ![Cryptee logo](assets/img/notebooks/cryptee.svg#only-light){ .twemoji }![Cryptee logo](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](notebooks.md#cryptee)
 - ![Org-mode logo](assets/img/notebooks/org-mode.svg){ .twemoji } [Org-mode](notebooks.md#org-mode)
 
 </div>

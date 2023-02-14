@@ -6,26 +6,6 @@ Many cloud storage providers require your full trust that they will not look at 
 
 If these alternatives do not fit your needs, we suggest you look into [Encryption Software](encryption.md).
 
-## Cryptee
-
-!!! recommendation
-
-    ![Cryptee logo](./assets/img/cloud/cryptee.svg#only-light){ align=right }
-    ![Cryptee logo](./assets/img/cloud/cryptee-dark.svg#only-dark){ align=right }
-
-    **Cryptee** is a web-based E2EE data storage service. It primarily focuses on photo and video storage as well document editing. Cryptee is a PWA, which means that it works seamlessly across all modern devices without requiring native apps for each respective platform.
-
-    Cryptee offers 100MB of storage for free, with paid options if you need more. Sign-up doesn't require an e-mail or other personally identifiable information.
-
-    [:octicons-home-16: Homepage](https://crypt.ee){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://crypt.ee/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/cryptee){ .card-link title="Source Code" }
-
-    ??? downloads
-    
-        - [:octicons-globe-16: PWA](https://crypt.ee/download)
-
 ## Proton Drive
 
 !!! recommendation
