@@ -121,6 +121,17 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
     [:octicons-info-16:](https://newsboat.org/releases/2.27/docs/newsboat.html){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Source Code" }
 
+## Criteria
+
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+
+!!! example "This section is new"
+
+    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+
+- Must be open-source.
+- Must operate locally, i.e. must not be a cloud service.
+
 ## Social Media RSS Support
 
 Some social media services also support RSS although it's not often advertised.

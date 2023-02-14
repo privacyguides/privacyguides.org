@@ -4,7 +4,7 @@ icon: material/laptop
 ---
 These are our currently recommended desktop web browsers and configurations for standard/non-anonymous browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. In general, we recommend keeping your browser extensions to a minimum; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
 
-### Firefox
+## Firefox
 
 !!! recommendation
 
@@ -28,7 +28,7 @@ These are our currently recommended desktop web browsers and configurations for 
 !!! warning
     Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
-#### Recommended Configuration
+### Recommended Configuration
 
 Tor Browser is the only way to truly browse the internet anonymously. When you use Firefox, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
 
@@ -75,15 +75,15 @@ Additionally, the Firefox Accounts service collects [some technical data](https:
 
 This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day to day browsing.
 
-#### Firefox Sync
+### Firefox Sync
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
 
-#### Arkenfox (advanced)
+### Arkenfox (advanced)
 
 The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly - [which you can easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users) support.
 
-### Brave
+## Brave
 
 !!! recommendation
 
@@ -108,7 +108,7 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
 
     1. We advise against using the Flatpak version of Brave, as it replaces Chromium's sandbox with Flatpak's, which is less effective. Additionally, the package is not maintained by Brave Software, Inc.
 
-#### Recommended Configuration
+### Recommended Configuration
 
 Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
 
@@ -185,7 +185,7 @@ Under the *System* menu
 
 1. This option is not present on all platforms.
 
-#### Brave Sync
+### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
@@ -220,3 +220,41 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 
 - [x] Check **Privacy** > **AdGuard URL Tracking Protection**
 - Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
+
+## Criteria
+
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+
+!!! example "This section is new"
+
+    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+
+### Minimum Requirements
+
+- Open-source.
+- Supports automatic updates.
+- Receives engine updates in 0-1 days from upstream release.
+- Available on Linux, macOS, and Windows.
+- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
+- Blocks third-party cookies by default.
+- Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+
+[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).
+
+### Best-Case
+
+Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+
+- Includes built-in content blocking functionality.
+- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
+- Supports Progressive Web Apps.  
+  PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
+- Does not include add-on functionality (bloatware) that does not impact user privacy.
+- Does not collect telemetry by default.
+- Provides open-source sync server implementation.
+- Defaults to a [private search engine](search-engines.md).
+
+### Extension Criteria
+
+- Must not replicate built-in browser or OS functionality.
+- Must directly impact user privacy, i.e. must not simply provide information.

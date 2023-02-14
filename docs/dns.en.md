@@ -27,12 +27,18 @@ icon: material/dns
 [^5]: NextDNS can provide insights and logging features on an opt-in basis. You can choose retention times and log storage locations for any logs you choose to keep. If it's not specifically requested, no data is logged. [https://nextdns.io/privacy](https://nextdns.io/privacy)
 [^6]: Quad9 collects some data for the purposes of threat monitoring and response. That data may then be remixed and shared, such as for the purpose of security research. Quad9 does not collect or record IP addresses or other data they deem personally identifiable. [https://www.quad9.net/privacy/policy/](https://www.quad9.net/privacy/policy/)
 
-The criteria for the servers listed above are:
+## Criteria
 
-- Must support [DNSSEC](advanced/dns-overview.md#what-is-dnssec)
-- [QNAME Minimization](advanced/dns-overview.md#what-is-qname-minimization)
-- Allow for [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) to be disabled
-- Prefer [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) support or geo-steering support
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+
+!!! example "This section is new"
+
+    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+
+- Must support [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
+- [QNAME Minimization](advanced/dns-overview.md#what-is-qname-minimization).
+- Allow for [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) to be disabled.
+- Prefer [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) support or geo-steering support.
 
 ## Native Operating System Support
 

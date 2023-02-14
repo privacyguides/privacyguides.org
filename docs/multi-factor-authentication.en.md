@@ -61,13 +61,37 @@ Nitrokey's firmware is open-source, unlike the YubiKey. The firmware on modern N
 
     The Nitrokey app, while compatible with Librem Keys, requires `libnitrokey` version 3.6 or above to recognize them. Currently, the package is outdated on Windows, macOS, and most Linux distributions' repository, so you will likely have to compile the Nitrokey app yourself to get it working with the Librem Key. On Linux, you can obtain an up-to-date version from [Flathub](https://flathub.org/apps/details/com.nitrokey.nitrokey-app).
 
+### Criteria
+
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+
+!!! example "This section is new"
+
+    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+
+#### Minimum Requirements
+
+- Must use high quality, tamper resistant hardware security modules.
+- Must support the latest FIDO2 specification.
+- Must not allow private key extraction.
+- Devices which cost over $35 must support handling OpenPGP and S/MIME.
+
+#### Best-Case
+
+Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+
+- Should be available in USB-C form-factor.
+- Should be available with NFC.
+- Should support TOTP secret storage.
+- Should support secure firmware updates.
+
 ## Authenticator Apps
 
 Authenticator Apps implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. This is a method where websites share a secret with you which is used by your authenticator app to generate a six (usually) digit code based on the current time, which you enter while logging in for the website to check. Typically these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Even if a hacker gets one six-digit code, there is no way for them to reverse that code to get the original secret or otherwise be able to predict what any future codes might be.
 
 We highly recommend that you use mobile TOTP apps instead of desktop alternatives as Android and iOS have better security and app isolation than most desktop operating systems.
 
-### Aegis Authenticator
+### Aegis Authenticator (Android)
 
 !!! recommendation
 
@@ -86,7 +110,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
         - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
 
-### Raivo OTP
+### Raivo OTP (iOS)
 
 !!! recommendation
 
@@ -102,3 +126,16 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
     ??? downloads
 
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
+
+### Criteria
+
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+
+!!! example "This section is new"
+
+    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+
+- Must be open-source.
+- Must not require internet connectivity.
+- Must not sync to a third-party cloud sync/backup service.
+    - **Optional** E2EE sync support with OS-native tools is acceptable, e.g. encrypted sync via iCloud.

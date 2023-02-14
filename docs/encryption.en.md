@@ -330,3 +330,25 @@ When encrypting with PGP, you have the option to configure different options in 
     ??? downloads
 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+
+## Criteria
+
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+
+!!! example "This section is new"
+
+    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+
+### Minimum Qualifications
+
+- Cross-platform encryption apps must be open-source.
+- File encryption apps must support decryption on Linux, macOS, and Windows.
+- External disk encryption apps must support decryption on Linux, macOS, and Windows.
+- Internal (OS) disk encryption apps must be cross-platform or built in to the operating system natively.
+
+### Best-Case
+
+Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+
+- Operating System (FDE) encryption apps should utilize hardware security such as a TPM or Secure Enclave.
+- File encryption apps should have first- or third-party support for mobile platforms.

@@ -92,7 +92,7 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
 
 SimpleX Chat [was audited](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) by Trail of Bits in October 2022.
 
-Currently SimpleX Chat only provides a client for Android and iOS. Basic group chatting functionality, direct messaging, editing of messages and markdown are supported. E2EE Audio and Video calls are also supported. 
+Currently SimpleX Chat only provides a client for Android and iOS. Basic group chatting functionality, direct messaging, editing of messages and markdown are supported. E2EE Audio and Video calls are also supported.
 
 Your data can be exported, and imported onto another device, as there are no central servers where this is backed up.
 
@@ -156,3 +156,25 @@ The client software was independently [audited](https://briarproject.org/news/20
 Briar has a fully [published specification](https://code.briarproject.org/briar/briar-spec).
 
 Briar supports perfect forward secrecy by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
+
+## Criteria
+
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+
+!!! example "This section is new"
+
+    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+
+- Must have open-source clients.
+- Must use E2EE for private messages by default.
+- Must support E2EE for all messages.
+- Must have been independently audited.
+
+### Best-Case
+
+Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+
+- Should have open-source servers.
+- Should be decentralized, i.e. federated or P2P.
+- Should use E2EE for all messages by default.
+- Should support Linux, macOS, Windows, Android, and iOS.

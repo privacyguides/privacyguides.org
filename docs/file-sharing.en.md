@@ -45,6 +45,18 @@ ffsend upload --host https://send.vis.ee/ FILE
         - [:simple-apple: macOS](https://onionshare.org/#download)
         - [:simple-linux: Linux](https://onionshare.org/#download)
 
+### Criteria
+
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+
+!!! example "This section is new"
+
+    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+
+- Must not store decrypted data on a remote server.
+- Must be open-source.
+- Must either have clients for Linux, macOS, and Windows; or have a web interface.
+
 ## FreedomBox
 
 !!! recommendation
@@ -60,7 +72,35 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 ## File Sync
 
-### Syncthing
+### Nextcloud (Client-Server)
+
+!!! recommendation
+
+    ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
+
+    **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
+
+    [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
+        - [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
+        - [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
+        - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
+        - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
+        - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
+
+!!! danger
+
+    We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality.
+
+### Syncthing (P2P)
 
 !!! recommendation
 
@@ -82,3 +122,24 @@ ffsend upload --host https://send.vis.ee/ FILE
         - [:simple-freebsd: FreeBSD](https://syncthing.net/downloads/)
         - [:simple-openbsd: OpenBSD](https://syncthing.net/downloads/)
         - [:simple-netbsd: NetBSD](https://syncthing.net/downloads/)
+
+### Criteria
+
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+
+!!! example "This section is new"
+
+    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+
+#### Minimum Requirements
+
+- Must not require a third-party remote/cloud server.
+- Must be open-source.
+- Must either have clients for Linux, macOS, and Windows; or have a web interface.
+
+#### Best-Case
+
+Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+
+- Has mobile clients for iOS and Android, which at least support document previews.
+- Supports photo backup from iOS and Android, and optionally supports file/folder sync on Android.

@@ -153,7 +153,7 @@ nav:
       - 'search-engines.md'
       - 'vpn.md'
     - 'Software':
-      - 'calendar-contacts.md'
+      - 'calendar.md'
       - 'data-redaction.md'
       - 'email-clients.md'
       - 'encryption.md'

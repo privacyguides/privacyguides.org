@@ -103,6 +103,29 @@ One advantage 1Password has over Bitwarden is its first-class support for native
 
 Psono provides extensive documentation for their product. The web-client for Psono can be self-hosted; alternatively, you can choose the full Community Edition or the Enterprise Edition with additional features.
 
+### Criteria
+
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+
+!!! example "This section is new"
+
+    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+
+#### Minimum Requirements
+
+- Must utilize strong, standards-based/modern E2EE.
+- Must have thoroughly documented encryption and security practices.
+- Must have a published audit from a reputable, independent third-party.
+- All non-essential telemetry must be optional.
+- Must not collect more PII than is necessary for billing purposes.
+
+#### Best-Case
+
+Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+
+- Telemetry should be opt-in (disabled by default) or not collected at all.
+- Should be open-source and reasonably self-hostable.
+
 ## Local Storage
 
 These options allow you to manage an encrypted password database locally.
@@ -170,11 +193,11 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 Additionally, there is an offline-only version offered: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). This version is stripped down in an attempt to reduce attack surface.
 
-## Command-line
+### Command-line
 
 These products are minimal password managers that can be used within scripting applications.
 
-### gopass
+#### gopass
 
 !!! recommendation
 
@@ -193,3 +216,13 @@ These products are minimal password managers that can be used within scripting a
         - [:simple-apple: macOS](https://www.gopass.pw/#install-macos)
         - [:simple-linux: Linux](https://www.gopass.pw/#install-linux)
         - [:simple-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
+
+### Criteria
+
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+
+!!! example "This section is new"
+
+    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+
+- Must be cross-platform.

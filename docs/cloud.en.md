@@ -6,6 +6,10 @@ Many cloud storage providers require your full trust that they will not look at 
 
 If these alternatives do not fit your needs, we suggest you look into [Encryption Software](encryption.md).
 
+??? question "Looking for Nextcloud?"
+
+    Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do not recommend Nextcloud's built-in E2EE functionality for home users.
+
 ## Proton Drive
 
 !!! recommendation
@@ -24,30 +28,32 @@ If these alternatives do not fit your needs, we suggest you look into [Encryptio
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
 
-## Nextcloud
+Proton Drive's mobile clients were released in December 2022 and are not yet open-source. Proton has historically delayed their source code releases until after initial product releases, and [plans to](https://www.reddit.com/r/ProtonDrive/comments/zf14i8/comment/izdwmme/?utm_source=share&utm_medium=web2x&context=3) release the source code by the end of 2023. Proton Drive desktop clients are still in development.
 
-!!! recommendation
+## Criteria
 
-    ![Nextcloud logo](assets/img/cloud/nextcloud.svg){ align=right }
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-    **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
+!!! example "This section is new"
 
-    [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
+    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
-    ??? downloads
+### Minimum Requirements
 
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
-        - [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-        - [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
-        - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
-        - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
+- Must enforce end-to-end encryption.
+- Must offer a free plan or trial period for testing.
+- Must support TOTP or FIDO2 multi-factor authentication support, or Passkey logins.
+- Must offer a web interface which supports basic file management functionality.
+- Must allow for easy exports of all files/documents.
+- Must use standard, audited encryption.
 
-!!! danger
+### Best-Case
 
-    We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality.
+Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+
+- Clients should be open-source.
+- Clients should be audited in their entirety by an independent third-party.
+- Should offer native clients for Linux, Android, Windows, macOS, and iOS.
+    - These clients should integrate with native OS tools for cloud storage providers, such as Files app integration on iOS, or DocumentsProvider functionality on Android.
+- Should support easy file-sharing with other users.
+- Should offer at least basic file preview and editing functionality on the web interface.

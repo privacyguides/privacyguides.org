@@ -319,3 +319,35 @@ That said, the [F-droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](htt
 !!! note
 
     In some rare cases, the developer of an app will only distribute it through F-droid ([Gadgetbridge](https://gadgetbridge.org/) is one example of this). If you really need an app like that, we recommend using [Neo Store](https://github.com/NeoApplications/Neo-Store/) instead of the official F-droid app to obtain it.
+
+## Criteria
+
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+
+!!! example "This section is new"
+
+    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+
+### Operating Systems
+
+- Must be open-source software.
+- Must support bootloader locking with custom AVB key support.
+- Must receive major Android updates within 0-1 months of release.
+- Must receive Android feature updates (minor version) within 0-14 days of release.
+- Must receive regular security patches within 0-5 days of release.
+- Must **not** be "rooted" out of the box.
+- Must **not** enable Google Play Services by default.
+- Must **not** require system modification to support Google Play Services.
+
+### Devices
+
+- Must support at least one of our recommended custom operating systems.
+- Must be currently sold new in stores.
+- Must receive a minimum of 5 years of security updates.
+- Must have dedicated secure element hardware.
+
+### Applications
+
+- Applications on this page must not be applicable to any other software category on the site.
+- General applications should extend or replace core system functionality.
+- Applications should receive regular updates and maintenance.

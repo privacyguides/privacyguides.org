@@ -165,7 +165,11 @@
 
 [[redirects]]
     from = "/software/calendar-contacts"
-    to = "/calendar-contacts/"
+    to = "/calendar/"
+
+[[redirects]]
+    from = "/calendar-contacts"
+    to = "/calendar/"
 
 [[redirects]]
     from = "/software/metadata-removal-tools"

@@ -166,3 +166,25 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend chec
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 
 Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.
+
+## Criteria
+
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+
+!!! example "This section is new"
+
+    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+
+### Minimum Requirements
+
+- Must support automatic updates.
+- Must receive engine updates in 0-1 days from upstream release.
+- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
+- Android browsers must use the Chromium engine.
+    - Unfortunately, Mozilla GeckoView is still less secure than Chromium on Android.
+    - iOS browsers are limited to WebKit.
+
+### Extension Criteria
+
+- Must not replicate built-in browser or OS functionality.
+- Must directly impact user privacy, i.e. must not simply provide information.
