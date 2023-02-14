@@ -233,8 +233,6 @@ Tutanota doesn't use the [IMAP protocol](https://tutanota.com/faq/#imap) or the 
 
     Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
 
-    Tutanota [does have plans](https://github.com/tutao/tutanota/issues/198) to support [AutoCrypt](https://autocrypt.org). This would allow for non-Tutanota emails to send encrypted emails to Tutanota accounts as long as their email client supports the AutoCrypt headers.
-
 ??? warning "Digital Legacy"
 
     Tutanota doesn't offer a digital legacy feature.
