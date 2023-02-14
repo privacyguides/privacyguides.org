@@ -37,7 +37,7 @@ extra:
         - icon: material/robot-confused
           name: This page could be improved
           data: Needs Improvement
-          note: Thanks for your feedback! Help us improve this page by opening a <a href="https://discuss.privacyguides.org/">discussion on our forum</a>.
+          note: Thanks for your feedback! Help us improve this page by opening a <a href="https://discuss.privacyguides.net/">discussion on our forum</a>.
 
 theme:
   features:

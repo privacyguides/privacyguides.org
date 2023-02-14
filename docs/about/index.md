@@ -2,7 +2,7 @@
 title: "About Privacy Guides"
 ---
 
-**Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. We are a non-profit collective operated entirely by volunteer [team members](https://discuss.privacyguides.org/g/team) and contributors.
+**Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. We are a non-profit collective operated entirely by volunteer [team members](https://discuss.privacyguides.net/g/team) and contributors.
 
 [:material-hand-coin-outline: Support the project](donate.md){ .md-button .md-button--primary }
 
@@ -10,27 +10,27 @@ title: "About Privacy Guides"
 
 ??? person "@jonah"
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/jonah)
+    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/jonah)
     - [:simple-github: GitHub](https://github.com/jonaharagon "@jonaharagon")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
     - [:fontawesome-solid-house: Homepage](https://www.jonaharagon.com)
 
 ??? person "@niek-de-wilde"
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/Niek-de-Wilde)
+    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/Niek-de-Wilde)
     - [:simple-github: GitHub](https://github.com/blacklight447 "@blacklight447")
     - [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
 
 ??? person "@dngray"
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/dngray)
+    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/dngray)
     - [:simple-github: GitHub](https://github.com/dngray "@dngray")
     - [:simple-mastodon: Mastodon](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
     - [:fontawesome-solid-envelope: Email](mailto:dngray@privacyguides.org)
 
 ??? person "@freddy"
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/freddy)
+    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/freddy)
     - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
     - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
     - [:fontawesome-solid-envelope: Email](mailto:freddy@privacyguides.org)
@@ -38,13 +38,13 @@ title: "About Privacy Guides"
 
 ??? person "@mfwmyfacewhen"
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/mfwmyfacewhen)
+    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/mfwmyfacewhen)
     - [:simple-github: GitHub](https://github.com/mfwmyfacewhen "@mfwmyfacewhen")
     - [:fontawesome-solid-house: Homepage](https://mfw.omg.lol)
     
 ??? person "@olivia"
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/olivia)
+    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/olivia)
     - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 

@@ -19,7 +19,7 @@ extra:
       link: https://matrix.to/#/#privacyguides:matrix.org
       name: Matrix
     - icon: simple/discourse
-      link: https://discuss.privacyguides.org/
+      link: https://discuss.privacyguides.net/
       name: Forum
     - icon: simple/github
       link: https://github.com/privacyguides
@@ -185,5 +185,5 @@ nav:
         - 'meta/uploading-images.md'
         - 'meta/git-recommendations.md'
   - 'Changelog': 'https://github.com/privacyguides/privacyguides.org/releases'
-  - 'Forum': 'https://discuss.privacyguides.org/'
+  - 'Forum': 'https://discuss.privacyguides.net/'
   - 'Blog': 'https://blog.privacyguides.org/'

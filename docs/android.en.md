@@ -86,7 +86,7 @@ A few more tips regarding Android devices and operating system compatibility:
 
 - Do not buy devices that have reached or are near their end-of-life, additional firmware updates must be provided by the manufacturer.
 - Do not buy preloaded LineageOS or /e/ OS phones or any Android phones without proper [Verified Boot](https://source.android.com/security/verifiedboot) support and firmware updates. These devices also have no way for you to check whether they've been tampered with.
-- In short, if a device or Android distribution is not listed here, there is probably a good reason. Check out our [forum](https://discuss.privacyguides.org/) to find details!
+- In short, if a device or Android distribution is not listed here, there is probably a good reason. Check out our [forum](https://discuss.privacyguides.net/) to find details!
 
 ### Google Pixel
 

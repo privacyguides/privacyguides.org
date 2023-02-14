@@ -39,7 +39,7 @@ It's important for a website like Privacy Guides to always stay up-to-date. We n
 
 <div class="grid cards" style="margin:auto;max-width:800px;text-align:center;" markdown>
 
-- [:simple-discourse: Join our forum](https://discuss.privacyguides.org/)
+- [:simple-discourse: Join our forum](https://discuss.privacyguides.net/)
 - [:simple-mastodon: Follow us on Mastodon](https://mastodon.neat.computer/@privacyguides){ rel=me }
 - [:material-book-edit: Contribute to this website](https://github.com/privacyguides/privacyguides.org)
 - [:simple-matrix: Chat with us on Matrix](https://matrix.to/#/#privacyguides:matrix.org)
