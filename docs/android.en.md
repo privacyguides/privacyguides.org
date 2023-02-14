@@ -169,7 +169,7 @@ Auditor performs attestation and intrusion detection by:
 - Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an *auditor* and *auditee*, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore/) of the *Auditor*.
 - The *auditor* can either be another instance of the Auditor app or the [Remote Attestation Service](https://attestation.app).
 - The *auditor* records the current state and configuration of the *auditee*.
-- Should tampering with the operating system of the *auditee* after the pairing is complete, the auditor will be aware of the change in the device state and configurations.
+- Should tampering with the operating system of the *auditee* happen after the pairing is complete, the auditor will be aware of the change in the device state and configurations.
 - You will be alerted to the change.
 
 No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.

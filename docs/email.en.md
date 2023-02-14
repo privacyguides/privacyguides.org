@@ -76,7 +76,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 
 ??? info "Account Termination"
 
-    If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinguent and won't receive incoming mail. You will continue to be billed during this period.
+    If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinquent and won't receive incoming mail. You will continue to be billed during this period.
 
 ??? info "Additional Functionality"
 
