@@ -96,38 +96,6 @@ Currently SimpleX Chat only provides a client for Android and iOS. Basic group c
 
 Your data can be exported, and imported onto another device, as there are no central servers where this is backed up.
 
-## Session
-
-!!! recommendation
-
-    ![Session logo](assets/img/messengers/session.svg){ align=right }
-
-    **Session** is a decentralized messenger with a focus on private, secure, and anonymous communications. Session offers support for direct messages, group chats, and voice calls.
-
-    Session uses the decentralized [Oxen Service Node Network](https://oxen.io/) to store and route messages. Every encrypted message is routed through three nodes in the Oxen Service Node Network, making it virtually impossible for the nodes to compile meaningful information on those using the network.
-
-    [:octicons-home-16: Homepage](https://getsession.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
-
-    ??? downloads
-
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
-        - [:simple-github: GitHub](https://github.com/oxen-io/session-android/releases)
-        - [:simple-windows11: Windows](https://getsession.org/download)
-        - [:simple-apple: macOS](https://getsession.org/download)
-        - [:simple-linux: Linux](https://getsession.org/download)
-
-Session allows for E2EE in one-on-one chats or closed groups which allow for up to 100 members. Open groups have no restriction on the number of members, but are open by design.
-
-Session does [not](https://getsession.org/blog/session-protocol-technical-information) support perfect forward secrecy, which is when an encryption system automatically and frequently changes the keys it uses to encrypt and decrypt information, such that if the latest key is compromised it exposes a smaller portion of sensitive information.
-
-Oxen requested an independent audit for Session in March of 2020. The audit [concluded](https://getsession.org/session-code-audit) in April of 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
-
-Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technicals of the app and protocol.
-
 ## Briar
 
 !!! recommendation
