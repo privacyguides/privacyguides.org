@@ -64,6 +64,11 @@ Search suggestions send everything you type in the address bar to the default se
 
 > Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
 
+Additionally, the Firefox Accounts service collects [some technical data](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts). If you use a Firefox Account you can opt-out:
+
+1. Open your [profile settings on accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
+2. Uncheck **Data Collection and Use** > **Help improve Firefox Accounts**
+
 ##### HTTPS-Only Mode
 
 - [x] Select **Enable HTTPS-Only Mode in all windows**
