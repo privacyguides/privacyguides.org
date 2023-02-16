@@ -421,10 +421,10 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <div class="grid cards" markdown>
 
 - ![Signal logo](assets/img/messengers/signal.svg){ .twemoji } [Signal](real-time-communication.md#signal)
-- ![Element logo](assets/img/messengers/element.svg){ .twemoji } [Element](real-time-communication.md#element)
-- ![Session logo](assets/img/messengers/session.svg){ .twemoji } [Session](real-time-communication.md#session)
 - ![Briar logo](assets/img/messengers/briar.svg){ .twemoji } [Briar](real-time-communication.md#briar)
 - ![SimpleX Chat logo](assets/img/messengers/simplex.svg){ .twemoji } [SimpleX Chat](real-time-communication.md#simplex-chat)
+- ![Element logo](assets/img/messengers/element.svg){ .twemoji } [Element](real-time-communication.md#element)
+- ![Session logo](assets/img/messengers/session.svg){ .twemoji } [Session](real-time-communication.md#session)
 
 </div>
 
