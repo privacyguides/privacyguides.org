@@ -251,7 +251,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![ExifCleaner logo](assets/img/data-redaction/exifcleaner.svg){ .twemoji } [ExifCleaner](data-redaction.md#exifcleaner)
 - ![MAT2 logo](assets/img/data-redaction/mat2.svg){ .twemoji } [MAT2](data-redaction.md#mat2)
 - ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
 - ![Metapho logo](assets/img/data-redaction/metapho.jpg){ .twemoji } [Metapho (iOS)](data-redaction.md#metapho-ios)
