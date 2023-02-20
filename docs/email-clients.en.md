@@ -148,6 +148,10 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
         - [:simple-github: GitHub](https://github.com/k9mail/k-9/releases)
 
+!!! warning
+
+    When replying to someone on a mailing list the "reply" option may also include the mailing list. For more information see [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738).
+
 ### Kontact (KDE)
 
 !!! recommendation
