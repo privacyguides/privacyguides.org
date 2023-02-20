@@ -123,7 +123,7 @@ When you are using a ProxiTok instance, make sure to read the privacy policy of 
 
     **Yattee** is a free and open-source privacy oriented video player for iOS, tvOS and macOS for [YouTube](https://youtube.com). When using Yattee, your subscription list are saved locally on your device.
 
-    By default, Yattee blocks all YouTube advertisements. In addition, Yattee optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
+    You will need to take a few [extra steps](https://gonzoknows.com/posts/Yattee/) before you can use Yattee to watch YouTube, due to App Store restrictions.
 
     [:octicons-home-16: Homepage](https://github.com/yattee/yattee){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Privacy Policy" }
@@ -136,11 +136,37 @@ When you are using a ProxiTok instance, make sure to read the privacy policy of 
         - [:simple-apple: App Store](https://apps.apple.com/us/app/yattee/id1595136629)
         - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
 
-Due to App Store restrictions, you'll need to take a few [extra steps](https://gonzoknows.com/posts/Yattee/) before you can use Yattee.
-
 !!! Warning
 
     When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+
+By default, Yattee blocks all YouTube advertisements. In addition, Yattee optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
+
+### LibreTube (Android)
+
+!!! recommendation
+
+    ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ align=right }
+    ![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ align=right }
+
+    **LibreTube** is a free and open-source Android application for [YouTube](https://youtube.com) which uses the [Piped](#piped) API.
+
+    LibreTube allows you to store your subscription list and playlists locally on your Android device, or to an account on your Piped instance of choice, which allows you to access them seamlessly on other devices as well.
+
+    [:octicons-home-16: Homepage](https://libre-tube.github.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/libre-tube/LibreTube#privacy-policy-and-disclaimer){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Source Code" }
+
+    ??? downloads
+
+        - [:simple-github: GitHub](https://github.com/libre-tube/LibreTube/releases)
+
+!!! Warning
+
+    When using LibreTube, your IP address will be visible to the [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) and/or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+
+By default, LibreTube blocks all YouTube advertisements. In addition, Libretube uses [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments. You are able to fully configure the types of segments that SponsorBlock will skip, or disable it completely. There is also a button on the video player itself to disable it for a specific video if desired.
 
 ### NewPipe (Android)
 
