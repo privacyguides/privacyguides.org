@@ -41,7 +41,7 @@ Tor עובד על ידי ניתוב התנועה שלך באינטרנט דרך 
     [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
     
-    ??? downloads "הורדות"
+    ??? הורדות
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
         - [:simple-android: Android](https://www.torproject.org/download/#android)
@@ -72,7 +72,7 @@ Tor עובד על ידי ניתוב התנועה שלך באינטרנט דרך 
     [:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
     
-    ??? downloads "הורדות"
+    ??? הורדות
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
@@ -106,7 +106,7 @@ Tor עובד על ידי ניתוב התנועה שלך באינטרנט דרך 
     [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
     
-    ??? downloads "הורדות"
+    ??? הורדות
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)

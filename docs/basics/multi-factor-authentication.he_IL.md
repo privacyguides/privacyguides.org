@@ -82,7 +82,7 @@ WebAuthn היא הצורה המאובטחת והפרטית ביותר של אי�
 מצגת זו דנה בהיסטוריה של אימות סיסמאות, במלכודות (כגון שימוש חוזר בסיסמאות) ובדיון על FIDO2 ו-[WebAuthn](https://webauthn.guide) סטנדרטים.
 
 <div class="yt-embed">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aMo4ZlWznao" title="כיצד FIDO2 ו - WebAuthn עוצרים את ההשתלטות על החשבון" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aMo4ZlWznao" title="כיצד FIDO2 ו- WebAuthn עוצרים השתלטויות על חשבונות" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 מצגת זו דנה בהיסטוריה של אימות סיסמאות, במלכודות (כגון שימוש חוזר בסיסמאות) ובדיון על FIDO2 ו-[WebAuthn](https://webauthn.guide) סטנדרטים.
@@ -158,7 +158,7 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLog
 ```
 
 
-לאחר הגדרת הכרטיס החכם/מפתח האבטחה, מומלץ להפעיל פקודה זו במסוף:
+ליוביקו יש מדריך [לשימוש ב - YubiKey ככרטיס חכם ב - macOS](https://support.yubico.com/hc/en-us/articles/360016649059) שיכול לעזור לך להגדיר את YubiKey ב - macOS.
 
 
 
@@ -197,4 +197,4 @@ SSH MFA יכול להיות מוגדר באמצעות שיטות אימות שו
 
 ### KeePass (ו - KeePassXC)
 
-ניתן לאבטח את מסדי הנתונים KeePass ו - KeePassXC באמצעות Challenge - Response או HOTP כגורם שני לאימות. יוביקו סיפקה מסמך עבור KeePass[שימוש ב-YubiKey שלכם עם KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) ויש גם אחד על [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) אתר.
+ניתן לאבטח את מסדי הנתונים KeePass ו - KeePassXC באמצעות Challenge - Response או HOTP כגורם שני לאימות. יוביקו סיפקה מסמך עבור KeePass[ שימוש ב-YubiKey שלכם עם KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) ויש גם אחד על [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) אתר.

@@ -24,6 +24,7 @@ hide:
 1. פתית שלג אינו מגביר את הפרטיות, אולם הוא מאפשר לך לתרום בקלות לרשת Tor ולעזור לאנשים ברשתות מצונזרות להשיג פרטיות טובה יותר.
 
 [מידע נוסף :material-arrow-right-drop-circle:](tor.md)
+
 ## דפדפני אינטרנט שולחניים
 
 <div class="grid cards" markdown>
@@ -215,15 +216,15 @@ hide:
 
 ### ספקי VPN
 
-??? סכנה: "רשתות VPN לא מספקות אנונימיות"
+??? danger "רשתות VPN לא מספקות אנונימיות"
 
-    השימוש ב - VPN לא ישמור על אנונימיות הרגלי הגלישה שלכם, ולא יוסיף אבטחה נוספת לתנועה לא מאובטחת (HTTP).
+    שימוש ב-VPN **לא** ישמור על הרגלי הגלישה שלכם אנונימיים, וגם לא יוסיף אבטחה נוספת לתעבורה לא מאובטחת (HTTP).
     
-    אם אתם מחפשים אנונימיות***, כדאי להשתמש בדפדפן Tor ***במקום ב - VPN.
+    אם אתם מחפשים **אנונימיות**, עליכם להשתמש בדפדפן Tor **במקום** של VPN.
     
-    אם ברצונך להוסיף **אבטחה**, עליך תמיד לוודא שאתה מתחבר לאתרים באמצעות HTTPS. VPN אינו תחליף לשיטות אבטחה טובות.
+    אם אתם מחפשים תוספת **אבטחה**, עליכם תמיד לוודא שאתם מתחברים לאתרים באמצעות HTTPS. VPN אינו תחליף לשיטות אבטחה טובות.
     
-    [מידע נוסף :material-arrow-right-drop-circle:](vpn.md)
+    [למד עוד :material-arrow-right-drop-circle:](vpn.md)
 
 <div class="grid cards" markdown>
 
@@ -233,7 +234,7 @@ hide:
 
 </div>
 
-[מידע נוסף :material-arrow-right-drop-circle:](vpn.md)
+[למד עוד :material-arrow-right-drop-circle:](vpn.md)
 
 ## תוכנה
 
@@ -246,7 +247,7 @@ hide:
 
 </div>
 
-[מידע נוסף :material-arrow-right-drop-circle:](calendar-contacts.md)
+[למד עוד :material-arrow-right-drop-circle:](calendar-contacts.md)
 
 ### הפחתת נתונים ומטא נתונים
 

@@ -1,6 +1,6 @@
 ---
 title: "שירותי דוא\"ל"
-icon: material/email
+icon: חומר/דוא"ל
 ---
 
 אימייל הוא למעשה הכרחי לשימוש בשירות מקוון כלשהו, אך איננו ממליצים עליו לשיחות פנים אל פנים. במקום להשתמש בדואר אלקטרוני כדי ליצור קשר עם אנשים אחרים, שקול להשתמש באמצעי העברת הודעות מיידיות התומך בסודיות מקדימה.
@@ -9,41 +9,31 @@ icon: material/email
 
 לכל השאר, אנו ממליצים על מגוון ספקי דוא"ל המבוססים על מודלים עסקיים בני קיימא ועל תכונות אבטחה ופרטיות מובנות.
 
-!!! אזהרה
-
-    בעת שימוש בטכנולוגיית E2EE כמו OpenPGP, הדואר האלקטרוני עדיין יכלול כמה מטא-נתונים שאינם מוצפנים בכותרת(header) הדוא"ל. למידע נוסף על [מטה-נתונים של דואר אלקטרוני](basics/email-security.md#email-metadata-overview).
-    
-    OpenPGP גם אינו תומך בסודיות קדימה, כלומר אם המפתח הפרטי שלך או של הנמען ייגנב אי פעם, כל ההודעות הקודמות שהוצפנו איתו ייחשפו. [כיצד אוכל להגן על המפתחות הפרטיים שלי?](basics/email-security.md#how-do-i-protect-my-private-keys)
-
 ## ספקי דוא"ל מומלצים
+
+ספקים אלה תומכים באופן מקורי בהצפנה/פענוח של OpenPGP, ומאפשרים הודעות דוא"ל E2EE שאינן תלויות בספק. לדוגמה, משתמש Proton Mail יכול לשלוח הודעת E2EE למשתמש Mailbox.org, או שאתה יכול לקבל הודעות מוצפנות OpenPGP משירותי אינטרנט התומכים בו.
+
+!!! warning
+
+    בעת שימוש בטכנולוגיית E2EE כמו OpenPGP, לדוא"ל עדיין יהיו כמה מטא נתונים שאינם מוצפנים בכותרת הדוא"ל. קרא עוד על [email metadata](basic/email-security.md#email-metadata-overview).
+    
+    OpenPGP גם אינו תומך בסודיות קדימה, מה שאומר שאם המפתח הפרטי שלך או של הנמען ייגנב אי פעם, כל ההודעות הקודמות שהוצפנו באמצעותו ייחשפו. [כיצד אוכל להגן על המפתחות הפרטיים שלי?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### פרוטון מייל (ProtonMail)
 
-!!! recommendation
+!!! check "דומיינים וכינויים מותאמים אישית"
 
-    ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
+    ![Proton Mail לוגו](assets/img/email/protonmail.svg){ align=right }
     
-    **Proton Mail** הוא שירות דוא"ל עם דגש על פרטיות, הצפנה, אבטחה ושימוש בקלות. הם פועלים מאז שנת 2013. Proton AG ממוקמת בג'נבה, שווייץ. חשבונות מתחילים עם אחסון של 500 MB עם התוכנית החינמית שלהם.
+    **Proton Mail** הוא שירות דוא"ל עם דגש על פרטיות, הצפנה, אבטחה ושימוש בקלות. הם פועלים מאז **2013**. Proton AG ממוקמת בג'נבה, שווייץ. חשבונות מתחילים עם אחסון של 500 MB עם התוכנית החינמית שלהם.
     
-    לחשבונות חינמיים יש מגבלות מסוימות, כגון אי - יכולת לחפש טקסט בגוף האתר ואי - גישה ל - [Proton Mail Bridge]( https://proton.me/mail/bridge), הנדרשת כדי להשתמש ב - [email client שולחני מומלץ](email-clients.md) (למשל Thunderbird). חשבונות בתשלום כוללים תכונות כגון Proton Mail Bridge, שטח אחסון נוסף ותמיכה בדומיינים מותאמים אישית. אם יש לך את הפרוטון ללא הגבלה, עסקים, או תוכנית חזון, אתה גם מקבל [SimpleLogin](# simplelogin) פרימיום בחינם.
-    
-    [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="שירותי בצל" }
+    [:octicons-home-16: דף הבית](https://proton.me/mail){ .md-button .md-button--primary }
+    [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="שירות בצל" }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="מדיניות פרטיות" }
     [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="קוד מקור" }
     
-    ??? downloads "הורדות"
-        
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
-        - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
-        - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
-        - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
-        - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
-        - [:octicons-browser-16: Web](https://mail.proton.me) [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-   
-    ??? downloads "הורדות"
+    ??? הורדות
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
@@ -53,19 +43,25 @@ icon: material/email
         - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
         - [:octicons-browser-16: Web](https://mail.proton.me)
 
-??? success "דומיינים וכינויים מותאמים אישית"
+לחשבונות חינמיים יש מגבלות מסוימות, כגון חוסר יכולת לחפש בטקסט הגוף וחוסר גישה ל - [Proton Mail Bridge](https://proton.me/mail/bridge), הנדרש לשימוש ב - [לקוחות דוא"ל שולחניים מומלצים](email-clients.md) (למשל Thunderbird). חשבונות בתשלום כוללים תכונות כגון Proton Mail Bridge, אחסון נוסף ותמיכה בתחומים מותאמים אישית. [מכתב עדות](https://proton.me/blog/security-audit-all-proton-apps) סופק לאפליקציות של פרוטון מייל ב-9 בנובמבר 2021 על ידי [Securitum](https://research.securitum.com).
+
+אם יש לך את הפרוטון ללא הגבלה, עסקים, או תוכנית חזון, אתה גם מקבל [SimpleLogin](#simplelogin) פרימיום בחינם.
+
+לפרוטון מייל יש דוחות קריסה פנימיים שהם לא משתפים עם צדדים שלישיים. יש דוחות קריסה פנימיים **הם לא** משתפים עם צדדים שלישיים. ניתן להשבית אפשרות זו ב: **הגדרות** > **עבור אל הגדרות** > **חשבון** > **אבטחה ופרטיות** > **שלח דוחות קריסה**.
+
+??? check "דומיינים וכינויים מותאמים אישית"
 
     מנויי ProtonMail בתשלום יכולים להשתמש בדומיין משלהם עם השירות או עם כתובת [catch-all](https://proton.me/support/catch-all). ProtonMail תומך גם[subaddressing](https://proton.me/support/creating-aliases), שהוא שימושי לאנשים שלא רוצים לרכוש דומיין.
 
-??? success אמצעי תשלום פרטי
+??? warning "מורשת דיגיטלית"
 
     Proton Mail [accepts](https://proton.me/support/payment-options) ביטקוין ומזומן בדואר בנוסף לכרטיסי אשראי/חיוב רגילים ותשלומי PayPal.
 
-??? success "Account Security"
+??? info "סגירת חשבון"
 
     ProtonMail תומך ב - TOTP [אימות דו - שלבי]( https://proton.me/support/two-factor- authentication-2fa) בלבד. השימוש במפתח אבטחה U2F עדיין אינו נתמך. ProtonMail מתכננת ליישם את U2F עם השלמת הקוד [Single Sign On (SSO)]( https://reddit.com/comments/cheoy6/comment/feh2lw0/) שלהם.
 
-??? success "Account Security"
+??? success "אבטחת מידע"
 
     ל - Proton Mail יש [הצפנת אפס גישה](https://proton.me/blog/zero-access-encryption) ב - מנוחה עבור המיילים שלך ו - [calendars](https://proton.me/news/protoncalendar-security-model). נתונים המאובטחים באמצעות הצפנת אפס גישה נגישים רק לך.
     
@@ -81,41 +77,41 @@ icon: material/email
 
     Proton Mail אינו מציע תכונה מורשת דיגיטלית.
 
-??? info "סגירת חשבון"
+??? info "שיטות תשלום פרטיות"
 
     אם יש לך חשבון בתשלום ו[החשבון לא שולם](https://proton.me/support/delinquency) לאחר 14 יום, לא תוכל לגשת לנתונים שלך. לאחר 30 יום, החשבון שלך יהפוך לבלתי פעיל ולא יקבל דואר נכנס. אתה תמשיך להיות מחויב במהלך תקופה זו.
 
-??? info "פונקציונליות נוספת"
+??? check "אבטחת חשבון"
 
     Proton Mail מציע חשבון "ללא הגבלה" במחיר של €9.99/חודש, המאפשר גם גישה ל-Proton VPN בנוסף לאספקת מספר חשבונות, דומיינים, כינויים ושטח אחסון של 500GB.
 
 ### Mailbox.org
 
-!!! recommendation
+!!! info "אבטחת מידע"
 
     ![Mailbox.org לוגו](assets/img/email/mailboxorg.svg){ align=right }
     
     **Mailbox.org** הוא שירות דוא"ל עם דגש על אבטחה, ללא פרסומות ומופעל באופן פרטי על ידי 100% אנרגיה ידידותית לסביבה. הם פועלים מאז 2014. Mailbox.org ממוקם בברלין, גרמניה. חשבונות מתחילים עם שטח אחסון של 2 GB, שניתן לשדרג לפי הצורך.
     
-    [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
+    [:octicons-home-16: דף הבית](https://mailbox.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="מדיניות פרטיות" }
     [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=תיעוד}
     
-    ??? downloads "הורדות"
+    ??? הורדות
     
         - [:octicons-browser-16: Web](https://login.mailbox.org)
 
-??? success "דומיינים וכינויים מותאמים אישית"
+??? check "דומיינים וכינויים מותאמים אישית"
 
     Mailbox.org מאפשר לך להשתמש בתחום משלך, והם תומכים בכתובות [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain). Mailbox.org תומך גם ב-[subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), וזה שימושי אם אינך רוצה לרכוש דומיין.
 
-??? info "שיטות תשלום פרטיות"
+??? check "מורשת דיגיטלית"
 
     Mailbox.org אינה מקבלת ביטקוין או כל מטבע קריפטוגרפי אחר כתוצאה מכך שמעבד התשלומים שלהם BitPay משעה את פעילותו בגרמניה. עם זאת, הם מקבלים מזומן בדואר, תשלום במזומן לחשבון בנק, העברה בנקאית, כרטיס אשראי, PayPal וכמה מעבדים ספציפיים לגרמנית: paydirekt ו- Sofortüberweisung.
 
-??? success "אבטחת חשבון"
+??? info "סגירת חשבון"
 
-    Mailbox.org תומך ב-[אימות דו-שלבי](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-גורם+אימות+-+2FA) עבור דואר האינטרנט שלהם בלבד. אתה יכול להשתמש ב-TOTP או ב-[Yubikey](https://en.wikipedia.org/wiki/YubiKey) דרך [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). תקני אינטרנט כגון [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) עדיין אינם נתמכים.
+    Mailbox.org תומך ב-[אימות דו-שלבי](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) עבור דואר האינטרנט שלהם בלבד. אתה יכול להשתמש ב-TOTP או ב [Yubikey](https://en.wikipedia.org/wiki/YubiKey) דרך [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). תקני אינטרנט כגון [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) עדיין אינם נתמכים.
 
 ??? info "אבטחת מידע"
 
@@ -129,11 +125,11 @@ icon: material/email
     
     Mailbox.org תומך גם בגילוי מפתחות ציבוריים באמצעות HTTP מספריית [מפתח האינטרנט (WKD)](https://wiki.gnupg.org/WKD). זה מאפשר לאנשים מחוץ Mailbox.org למצוא את מפתחות OpenPGP של חשבונות Mailbox.org בקלות, עבור E2EE חוצה ספקים.
 
-??? success "מורשת דיגיטלית"
+??? check "דומיינים וכינויים מותאמים אישית"
 
     Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכניות. אתה יכול לבחור אם אתה רוצה שכל הנתונים שלך יועברו ליורשים בתנאי שהם חלים ומספקים את הצוואה שלך. לחלופין, ניתן למנות אדם לפי שם וכתובת.
 
-??? info "סגירת חשבון"
+??? warning "אמצעי תשלום פרטיים"
 
     החשבון שלך יוגדר לחשבון משתמש מוגבל כאשר החוזה שלך יסתיים, לאחר [30 יום הוא יימחק באופן בלתי הפיך](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
@@ -141,11 +137,11 @@ icon: material/email
 
     אתה יכול לגשת לחשבון Mailbox.org שלך באמצעות IMAP / SMTP באמצעות[.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). עם זאת, לא ניתן לגשת לממשק דואר האינטרנט שלהם באמצעות שירות.onion שלהם ואתה עלול להיתקל בשגיאות אישור TLS.
     
-    כל החשבונות מגיעים עם שטח אחסון מוגבל בענן ש[ניתן להצפין](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org מציע גם את הכינוי [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), אשר אוכף את הצפנת TLS על החיבור בין שרתי דואר, אחרת ההודעה לא תישלח כלל. Mailbox.org תומך גם ב -[Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) בנוסף לפרוטוקולי גישה סטנדרטיים כמו IMAP ו - POP3.
+    כל החשבונות מגיעים עם שטח אחסון מוגבל בענן ש[ניתן להצפין](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org מציע גם את הכינוי [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), אשר אוכף את הצפנת TLS על החיבור בין שרתי דואר, אחרת ההודעה לא תישלח כלל. Mailbox.org תומך גם ב-[Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) בנוסף לפרוטוקולי גישה סטנדרטיים כגון IMAP ו-POP3.
 
 ### StartMail
 
-!!! recommendation
+!!! info "אבטחת מידע"
 
     ![StartMail לוגו](assets/img/email/startmail.svg#only-light){ align=right }
     ![StartMail לוגו](assets/img/email/startmail-dark.svg#only-dark){ align=right }
@@ -156,19 +152,20 @@ icon: material/email
     [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="מדיניות פרטיות" }
     [:octicons-info-16:](https://support.startmail.com){ .card-link title=תיעוד}
     
-    ??? downloads "הורדות"
+    ??? הורדות
+    
     
         - [:octicons-browser-16: Web](https://mail.startmail.com/login)
 
-??? success "דומיינים וכינויים מותאמים אישית"
+??? check "הצפנת דוא"ל"
 
     חשבונות אישיים יכולים להשתמש בכינויים [Custom or Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases). [דומיינים מותאמים אישית](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) זמינים גם כן.
 
-??? warning "אמצעי תשלום פרטיים"
+??? warning "מורשת דיגיטלית"
 
     StartMail מקבלת ויזה, מאסטרקארד, אמריקן אקספרס ו - Paypal. ל - StartMail יש גם [אפשרויות תשלום] אחרות (https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) כגון Bitcoin (כרגע רק עבור חשבונות אישיים) ו - SEPA Direct Debit עבור חשבונות ישנים יותר משנה.
 
-??? success "Account Security"
+??? info "סגירת חשבון"
 
     StartMail תומך באימות דו-גורמי TOTP [עבור דואר אינטרנט בלבד](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). הם אינם מאפשרים אימות מפתח אבטחה U2F.
 
@@ -180,26 +177,31 @@ icon: material/email
 
 ??? success "הצפנת דוא"ל"
 
-    ל - StartMail יש [הצפנה משולבת](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) בדוא"ל האינטרנט שלהם, אשר מפשט שליחת הודעות מוצפנות עם מפתחות OpenPGP ציבוריים.
+    ל-StartMail יש [הצפנה משולבת](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) בדואר האינטרנט שלהם, מה שמפשט את שליחת הודעות מוצפנות עם מפתחות OpenPGP ציבוריים.
 
-??? warning "מורשת דיגיטלית"
+Tutanota אינה משתמשת בפרוטוקול [IMAP](https://tutanota.com/faq/#imap) או בשימוש של [לקוחות דואר אלקטרוני של צד שלישי](email-clients.md), וגם לא תוכל להוסיף [חשבונות דואר אלקטרוני חיצוניים](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) לאפליקציית Tutanota. warning "מורשת דיגיטלית"
 
     StartMail אינו מציע תכונה דיגיטלית מדור קודם.
 
 ??? info "סגירת חשבון"
 
-    בפקיעת תוקף החשבון, StartMail תמחק לצמיתות את החשבון שלך לאחר [6 חודשים ב -3 שלבים](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
+    עם פקיעת תוקף החשבון, StartMail ימחק את חשבונך לצמיתות לאחר [6 חודשים בשלושה שלבים](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
 
 ??? info "פונקציונליות נוספת"
 
     StartMail מאפשר פרוקסי של תמונות בתוך הודעות דוא"ל. אם תאפשרו את טעינת התמונה המרוחקת, השולח לא יידע מהי כתובת ה-IP שלכם.
+
+## שירותי כינויי דוא"ל
+
+ספקים אלה מאחסנים את המיילים שלך עם הצפנת אפס ידע, מה שהופך אותם לאפשרויות נהדרות לשמירה על אבטחת המיילים המאוחסנים שלך. עם זאת, הם אינם תומכים בתקני הצפנה הניתנים להפעלה הדדית עבור תקשורת E2EE בין ספקים.
 
 ### Tutanota
 
 !!! recommendation
 
     ![Tutanota לוגו](assets/img/email/tutanota.svg){ align=right }
-    **Tutanota** הוא שירות דוא"ל עם דגש על אבטחה ופרטיות באמצעות הצפנה. Tutanota פועלת מאז **2011** ובסיסה בHanover, גרמניה. חשבונות מתחילים עם שטח אחסון של 1GB עם התוכנית החינמית שלהם.
+    
+    **Tutanota** הוא שירות דוא"ל עם דגש על אבטחה ופרטיות באמצעות הצפנה. Tutanota פועלת מאז **2011** ובסיסה בהנובר, גרמניה. חשבונות מתחילים עם שטח אחסון של 1GB עם התוכנית החינמית שלהם.
     
     [:octicons-home-16: Homepage](https://tutanota.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="מדיניות פרטיות" }
@@ -207,7 +209,7 @@ icon: material/email
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=לתרומה }
     
-    ??? downloads "הורדות"
+    ??? הורדות
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
@@ -217,85 +219,76 @@ icon: material/email
         - [:simple-linux: Linux](https://tutanota.com/#download)
         - [:octicons-browser-16: Web](https://mail.tutanota.com/)
 
-Tutanota אינה משתמשת בפרוטוקול [IMAP](https://tutanota.com/faq/#imap) או בשימוש של [לקוחות דואר אלקטרוני של צד שלישי](email-clients.md), וגם לא תוכל להוסיף [חשבונות דואר אלקטרוני חיצוניים](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) לאפליקציית Tutanota. לא [ייבוא דוא"ל](https://github.com/tutao/tutanota/issues/630) או [תיקיות משנה](https://github.com/tutao/tutanota/issues/927) נתמכים כעת, אם כי זה [אמור להשתנות](https://tutanota.com/blog/posts/kickoff-import). הודעות דוא"ל ניתן לייצא [בנפרד או על ידי בחירה בכמות גדולה](https://tutanota.com/howto#generalMail) לכל תיקייה, דבר שעלול להיות לא נוח אם יש לך תיקיות רבות.
+Tutanota אינה משתמשת בפרוטוקול [IMAP](https://tutanota.com/faq/#imap) או בשימוש של [לקוחות דואר אלקטרוני של צד שלישי](email-clients.md), וגם לא תוכל להוסיף [חשבונות דואר אלקטרוני חיצוניים](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) לאפליקציית Tutanota. לא [ייבוא דוא"ל](https://github.com/tutao/tutanota/issues/630) או [תיקיות משנה](https://github.com/tutao/tutanota/issues/927) נתמכים כעת, אם כי זה [בשל להיות שונה](https://tutanota.com/blog/posts/kickoff-import). הודעות דוא"ל ניתן לייצא [בנפרד או על ידי בחירה בכמות גדולה](https://tutanota.com/howto#generalMail) לכל תיקייה, דבר שעלול להיות לא נוח אם יש לך תיקיות רבות.
 
-??? success "Custom Domains and Aliases"
+??? success "דומיינים וכינויים מותאמים אישית"
 
-    Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias) and [custom domains](https://tutanota.com/faq#custom-domain). Tutanota doesn't allow for [subaddressing (plus addresses)](https://tutanota.com/faq#plus), but you can use a [catch-all](https://tutanota.com/howto#settings-global) with a custom domain.
+    חשבונות Tutanota בתשלום יכולים להשתמש עד 5 [aliases](https://tutanota.com/faq#alias) ו [דומיינים מותאמים אישית](https://tutanota.com/faq#custom-domain). Tutanota אינה מאפשרת [כתובות משנה (בתוספת כתובות)](https://tutanota.com/faq#plus), אך באפשרותך להשתמש ב-[catch-all](https://tutanota.com/howto#settings-global) עם דומיין מותאם אישית.
 
-??? warning "אמצעי תשלום פרטיים"
+??? info "סיום חשבון"
 
     Tutanota מקבלת רק כרטיסי אשראי PayPal ישירות, אולם ניתן להשתמש בביטקוין ובמונרו לרכישת כרטיסי מתנה באמצעות [partnership](https://tutanota.com/faq/#cryptocurrency) שלהם עם Proxystore.
 
-??? success "אבטחת חשבון"
+??? info "סגירת חשבון"
 
-    Tutanota תומכת ב [אימות דו - שלבי](https://tutanota.com/faq#2fa) באמצעות TOTP או U2F.
+    Tutanota תומך ב[אימות דו-גורמי](https://tutanota.com/faq#2fa) עם TOTP או U2F.
 
-??? success "Account Security"
+שירות כינוי דוא"ל מאפשר לך ליצור בקלות כתובת דוא"ל חדשה עבור כל אתר שאתה נרשם אליו. success "אבטחת מידע"
 
-    ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
-    
-    ** Mail - in - a - Box ** הוא סקריפט התקנה אוטומטי לפריסת שרת דואר באובונטו. המטרה שלו היא להקל על אנשים להקים שרת דואר משלהם.
+    ל-Tutanota יש [הצפנת אפס גישה במנוחה](https://tutanota.com/faq#what-encrypted) עבור הודעות הדוא"ל שלך, [אנשי קשר מפנקס הכתובות](https://tutanota.com/faq#encrypted-address-book), ו [calendars](https://tutanota.com/faq#calendar). משמעות הדבר היא שההודעות ונתונים אחרים המאוחסנים בחשבונך ניתנים לקריאה רק על ידך.
 
-??? warning "הצפנת דוא"ל"
+כינוי דוא"ל יכול לשמש כאמצעי הגנה למקרה שספק הדוא"ל שלך יפסיק אי פעם לפעול. warning "הצפנת דוא"ל"
 
-    Tutanota [אינה משתמשת ב - OpenPGP](https://www.tutanota.com/faq/#pgp). חשבונות Tutanota יכולים לקבל הודעות דוא"ל מוצפנות מחשבונות דוא"ל שאינם Tutanota רק כאשר הם נשלחים באמצעות [תיבת דואר זמנית של Tutanota](https://www.tutanota.com/howto/#encrypted-email-external).
-    
-    Tutanota [יש תוכניות](https://github.com/tutao/tutanota/issues/198) כדי לתמוך [AutoCrypt](https://autocrypt.org). זה יאפשר להודעות דוא"ל שאינן של Tutanota לשלוח הודעות דוא"ל מוצפנות לחשבונות Tutanota כל עוד לקוח הדוא"ל שלהם תומך בכותרות AutoCrypt.
+    Tutanota [אינו משתמש ב- OpenPGP](https://www.tutanota.com/faq/#pgp). חשבונות Tutanota יכולים לקבל הודעות דוא"ל מוצפנות מחשבונות דוא"ל שאינם Tutanota רק כאשר הם נשלחים באמצעות [תיבת דואר זמנית של Tutanota](https://www.tutanota.com/howto/#encrypted-email-external).
 
 ??? warning "מורשת דיגיטלית"
 
     Tutanota לא מציעה פיצ'ר מורשת דיגיטלית.
 
-??? info "סיום חשבון"
+??? info "שיטות תשלום פרטיות"
 
-    Tutanota [תמחק חשבונות חינמיים לא פעילים](https://tutanota.com/faq#inactive-accounts) לאחר שישה חודשים. אתה יכול לעשות שימוש חוזר בחשבון חינמי מושבת אם אתה משלם.
+    Tutanota [מחק חשבונות לא פעילים בחינם](https://tutanota.com/faq#inactive-accounts) לאחר שישה חודשים. אם ברצונך לשלם, באפשרותך להשתמש שוב בחשבון חינמי שהושבת.
 
-??? info "פונקציונליות נוספת"
+תוכל לקשר את חשבון SimpleLogin שלך בהגדרות עם חשבון Proton שלך. info "פונקציונליות נוספת"
 
     Tutanota מציעה את הגרסה העסקית של [Tutanota לארגונים ללא כוונת רווח](https://tutanota.com/blog/posts/secure-email-for-non-profit) בחינם או בהנחה כבדה.
     
     ל-Tutanota יש גם פיצ'ר עסקי שנקרא [חיבור מאובטח](https://tutanota.com/secure-connect/). זה מבטיח שיצירת קשר עם הלקוח לעסק משתמשת ב- E2EE. התכונה עולה 240 אירו לשנה.
 
-## שירותי כינויי דוא"ל
+## אימייל באיחסון עצמי
 
-שירות כינוי דוא"ל מאפשר לך ליצור בקלות כתובת דוא"ל חדשה עבור כל אתר שאתה נרשם אליו. ניתן ליצור כינויים סטנדרטיים ללא הגבלה (שמסתיימים בדומיין כמו @[username].anonaddy.com או דומיין אישי בתוכניות בתשלום), אולם, כפי שצוין בעבר, הדבר עלול לפגוע בפרטיות מכיוון שאנשים יכולים לקשר את הכינויים הסטנדרטיים שלך יחד באופן טריוויאלי על סמך שם הדומיין בלבד. כינויים משותפים ללא הגבלה זמינים עבור $ 36 לשנה.
+השימוש בשירות כינויים מחייב מתן אמון הן לספק הדואר האלקטרוני שלך והן לספק הכינוי שלך בהודעות הלא מוצפנות שלך. חלק מהספקים מפחיתים זאת מעט באמצעות הצפנת PGP אוטומטית, שמפחיתה את מספר הצדדים שאתה צריך לסמוך עליהם משניים לאחד על ידי הצפנת הודעות דוא"ל נכנסות לפני שהן מועברות לספק תיבת הדואר הסופי שלך. כינויי דואר אלקטרוני אמיתיים עדיפים על פני כתובת נפוצה ונתמכת על ידי ספקים רבים, מה שמאפשר לך ליצור כינויים כמו yourname+[anythinghere]@example.com, מכיוון שאתרי אינטרנט, מפרסמים ורשתות מעקב יכולים להסיר באופן טריוויאלי כל דבר אחרי הסימן + כדי לדעת את כתובת הדוא"ל האמיתית שלך.
 
 כינוי דוא"ל יכול לשמש כאמצעי הגנה למקרה שספק הדוא"ל שלך יפסיק אי פעם לפעול. בתרחיש זה, באפשרותך לנתב מחדש בקלות את הכינויים שלך לכתובת דואר אלקטרוני חדשה. עם זאת, אתה נותן אמון בשירות הכינוי כדי להמשיך לתפקד.
 
-לשימוש בשירות ייעודי לכינויי דואר אלקטרוני יש גם מספר יתרונות על פני כינוי catch-all בתחום מותאם אישית:
+שימוש בשירות ייעודי של כינוי דואר אלקטרוני יש גם מספר יתרונות על פני כינוי 'לתפוס-הכל' על תחום מותאם אישית:
 
 - ניתן להפעיל ולכבות כינויים באופן אישי בעת הצורך, וכך למנוע מאתרי אינטרנט לשלוח לך דוא"ל באופן אקראי.
 - התגובות נשלחות מכתובת הכינוי, ומגינות על כתובת הדוא"ל האמיתית שלך.
 
-יש להם גם מספר יתרונות על פני שירותי "דואר אלקטרוני זמניים":
+תכונות חינמיות בולטות:
 
 - כינויים הם קבועים וניתן להפעיל אותם שוב אם אתה צריך לקבל משהו כמו איפוס סיסמה.
 - הודעות דוא"ל נשלחות לתיבת הדואר המהימנה שלך ולא מאוחסנות על ידי ספק הכינויים.
 - שירותי דואר אלקטרוני זמניים בדרך כלל יש תיבות דואר ציבוריות אשר ניתן לגשת על ידי כל מי שמכיר את הכתובת, כינויים פרטיים שלך.
 
-תוכל לקשר את חשבון SimpleLogin שלך בהגדרות עם חשבון Proton שלך. אם יש לך את הפרוטון ללא הגבלה, עסקים, או תוכנית חזון, אתה גם מקבל (# simplelogin) פרימיום בחינם. עם זאת, לשימוש בתחום מותאם אישית יכולים להיות חסרונות הקשורים לפרטיות: אם אתה האדם היחיד שמשתמש בתחום המותאם אישית שלך, ניתן לעקוב בקלות אחר הפעולות שלך באתרי אינטרנט פשוט על ידי התבוננות בשם התחום בכתובת הדואר האלקטרוני והתעלמות מכל מה שלפני הסימן at (@).
+ההמלצות שלנו לכינויי דוא"ל הן ספקים המאפשרים לך ליצור כינויים בדומיינים שהם שולטים בהם, כמו גם דומיינים מותאמים אישית משלך תמורת תשלום שנתי צנוע. הם יכולים גם להיות באיחסון עצמי אם אתה רוצה שליטה מקסימלית. עם זאת, לשימוש בדומיין אישי יכולים להיות חסרונות הקשורים לפרטיות: אם אתה האדם היחיד שמשתמש בדומיין האישי שלך, ניתן לעקוב בקלות אחר הפעולות שלך באתרי אינטרנט על ידי הסתכלות על שם הדומיין בכתובת הדוא"ל והתעלמות מכל מה שהיה לפני סימן ה -(@).
 
-השימוש בשירות כינויים מחייב מתן אמון הן לספק הדואר האלקטרוני שלך והן לספק הכינוי שלך בהודעות הלא מוצפנות שלך. חלק מהספקים מפחיתים זאת מעט באמצעות הצפנת PGP אוטומטית, שמפחיתה את מספר הצדדים שאתה צריך לסמוך עליהם משניים לאחד על ידי הצפנת הודעות דוא"ל נכנסות לפני שהן מועברות לספק תיבת הדואר הסופי שלך.
+SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) נכון ל-8 באפריל 2022. אם אתה משתמש ב-Proton Mail עבור תיבת הדואר הראשית שלך, SimpleLogin היא בחירה מצוינת.
 
 ### AnonAddy
 
-!!! recommendation
+אתה יכול לקשר את חשבון SimpleLogin שלך בהגדרות עם חשבון Proton שלך. אם יש לכם את תוכנית Proton Unlimited, Business או Visionary, תקבלו את SimpleLogin Premium בחינם.
 
-    מנהלי מערכת מתקדמים עשויים לשקול להגדיר שרת דוא"ל משלהם. שרתי דואר דורשים תשומת לב ותחזוקה מתמשכת על מנת לשמור על אבטחה ומשלוח דואר אמין.
-
-    ![AnonAddy לוגו](assets/img/email/anonaddy.svg#only-light){ align=right }
-    ![AnonAddy לוגו](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
-    
     **AnonAddy** מאפשר לכם ליצור 20 כינויי דומיין בדומיין משותף בחינם, או כינויים "סטנדרטיים" ללא הגבלה שהם פחות אנונימיים.
     
-    [:octicons-home-16: Homepage](https://anonaddy.com){ .md-button .md-button--primary }
+    [:octicons-home-16: דף הבית](https://anonaddy.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="מדיניות פרטיות" }
     [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=לתרומה }
     
-    ??? downloads "הורדות"
+    ??? הורדות
     
         - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
@@ -308,7 +301,7 @@ Tutanota אינה משתמשת בפרוטוקול [IMAP](https://tutanota.com/fa
 
 - [x] 20 כינויים משותפים
 - [x] כינויים סטנדרטיים ללא הגבלה
-- [ ] אין תגובות יוצאות
+- [] אין תגובות יוצאות
 - [x] 2 תיבות דואר של נמען
 - [x] הצפנת PGP אוטומטית
 
@@ -320,12 +313,12 @@ Tutanota אינה משתמשת בפרוטוקול [IMAP](https://tutanota.com/fa
     
     **SimpleLogin** הוא שירות חינמי המספק כינויי דוא"ל על מגוון שמות דומיין משותפים, ובאופן אופציונלי מספק תכונות בתשלום כמו כינויים בלתי מוגבלים ודומיינים מותאמים אישית.
     
-    [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
+    [:octicons-home-16: דף הבית](https://simplelogin.io){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="מדיניות פרטיות" }
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="קוד מקור" }
     
-    ??? downloads "הורדות"
+    ??? הורדות
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
@@ -335,9 +328,9 @@ Tutanota אינה משתמשת בפרוטוקול [IMAP](https://tutanota.com/fa
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
 
-SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) נכון ל-8 באפריל 2022. אם אתה משתמש ב-Proton Mail עבור תיבת הדואר הראשית שלך, SimpleLogin היא בחירה מצוינת. מכיוון ששני המוצרים נמצאים כעת בבעלות אותה חברה, כעת עליך לסמוך רק על ישות אחת. אנו גם מצפים ש-SimpleLogin תשתלב בצורה הדוקה יותר עם ההיצע של Proton בעתיד. SimpleLogin ממשיכה לתמוך בהעברה לכל ספק דוא"ל שתבחרו. Securitum [מבוקר](https://simplelogin.io/blog/security-audit/) SimpleLogin בתחילת 2022 וכל הבעיות [טופלו](https://simplelogin.io/audit2022/web.pdf).
+SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) נכון ל-8 באפריל 2022. אם אתה משתמש ב-Proton Mail עבור תיבת הדואר הראשית שלך, SimpleLogin היא בחירה מצוינת. מכיוון ששני המוצרים נמצאים כעת בבעלות אותה חברה, כעת עליך לסמוך רק על ישות אחת. אנו גם מצפים ש-SimpleLogin תשתלב בצורה הדוקה יותר עם ההיצע של Proton בעתיד. SimpleLogin ממשיכה לתמוך בהעברה לכל ספק דוא"ל שתבחרו. Securitum [ביקרה את SimpleLogin](https://simplelogin.io/blog/security-audit/) בתחילת 2022 וכל הבעיות [טופלו](https://simplelogin.io/audit2022/web.pdf).
 
-אתה יכול לקשר את חשבון SimpleLogin שלך בהגדרות עם חשבון Proton שלך. אם יש לכם את תוכנית Proton Unlimited, Business או Visionary, תקבלו את SimpleLogin Premium בחינם.
+תוכל לקשר את חשבון SimpleLogin שלך בהגדרות עם חשבון Proton שלך. אם יש לך את הפרוטון ללא הגבלה, עסקים, או תוכנית חזון, יהיה לך SimpleLogin פרימיום בחינם.
 
 תכונות חינמיות בולטות:
 
@@ -345,9 +338,9 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 - [x] תשובות ללא הגבלה
 - [x] 1 תיבת דואר נמען
 
-## אימייל באיחסון עצמי
+## הקריטריונים שלנו
 
-מנהלי מערכת מתקדמים עשויים לשקול הגדרת שרת דואר אלקטרוני משלהם. שרתי דואר דורשים תשומת לב ותחזוקה שוטפת על מנת לשמור על דברים מאובטחים ועל משלוח דואר אמין.
+אנו רואים בתכונות אלה חשיבות על מנת לספק שירות בטוח ומיטבי. עליך לשקול אם הספק שיש לו את התכונות הדרושות לך.
 
 ### פתרונות תוכנה משולבים
 
@@ -368,7 +361,7 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
     
     **Mail-in-a-Box** הוא סקריפט התקנה אוטומטי לפריסת שרת דואר באובונטו. מטרתו היא להקל על אנשים להגדיר שרת דואר משלהם.
     
-    [:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
+    [:octicons-home-16: דף הבית](https://mailinabox.email){ .md-button .md-button--primary }
     [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="קוד מקור" }
 
@@ -377,36 +370,37 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 - [הגדרת שרת דואר עם OpenSMTPD, Dovecot ו - Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
 - [כיצד להפעיל שרת דואר משלך](https://www.c0ffee.net/blog/mail-server-guide/) (אוגוסט 2017)
 
-## הקריטריונים שלנו
+## קריטריונים
 
-שרתי דוא"ל מתמודדים עם הרבה מאוד נתונים רגישים. אנו צופים כי ספקים יאמצו את נוהלי התעשייה הטובים ביותר כדי להגן על המשתמשים. אנו מציעים לך להכיר את הרשימה לפני שתבחר ספק דוא"ל, ולערוך מחקר משלך כדי להבטיח שספק הדוא"ל שבחרת הוא הבחירה הנכונה עבורך.
+**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף [לקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה לפני שתבחר ספק דוא"ל, ולערוך מחקר משלך כדי להבטיח שספק הדוא"ל שבחרת הוא הבחירה הנכונה עבורך.
 
 ### טכנולוגיה
 
-אנו רואים בתכונות אלה חשיבות על מנת לספק שירות בטוח ומיטבי. עליך לשקול אם הספק שיש לו את התכונות הדרושות לך.
+אנו רואים בתכונות אלה חשיבות על מנת לספק שירות בטוח ומיטבי. אתה צריך לשקול אם לספק יש לו את התכונות שאתה צריך.
 
 **מינימום כדי לעמוד בדרישות:**
 
 - מצפין נתוני חשבון דוא"ל במנוחה עם הצפנת אפס גישה.
 - יכולת ייצוא כמו [Mbox](https://en.wikipedia.org/wiki/Mbox) או .EML בודדים עם תקן [RFC5322](https://datatracker.ietf.org/doc/rfc5322/).
+- מאפשר למשתמשים להשתמש ב[שם דומיין](https://en.wikipedia.org/wiki/Domain_name) משלהם. שמות דומיין מותאמים אישית חשובים למשתמשים מכיוון שהם מאפשרים להם לתחזק את הסוכנות שלהם מהשירות, אם היא תהפוך לגרועה או תירכש על ידי חברה אחרת שאינה מתעדפת פרטיות.
+- פועל על תשתית בבעלות, כלומר לא בנוי על ספקי שירותי דואר אלקטרוני של צד שלישי.
 
 **המקרה הטוב ביותר:**
 
-- מצפין את כל נתוני החשבון (אנשי קשר, לוחות שנה וכו ') במנוחה עם הצפנת אפס גישה.
-- מאפשר למשתמשים להשתמש ב[שם דומיין](https://en.wikipedia.org/wiki/Domain_name) משלהם. שמות דומיין מותאמים אישית חשובים למשתמשים מכיוון שהם מאפשרים להם לתחזק את הסוכנות שלהם מהשירות, אם היא תהפוך לגרועה או תירכש על ידי חברה אחרת שאינה מתעדפת פרטיות.
-- הצפנת דואר אינטרנט משולב E2EE/PGP מסופקת לנוחות.
-- תמיכה ב-[WKD](https://wiki.gnupg.org/WKD) כדי לאפשר גילוי משופר של מקשי OpenPGP ציבוריים באמצעות HTTP. משתמשי GnuPG יכולים לקבל מפתח על ידי הקלדה `gpg --locate-key example_user@example.com`
+- מצפין את כל נתוני החשבון (אנשי קשר, לוחות שנה וכו') במנוחה עם הצפנת אפס גישה.
+- הצפנת דואר אינטרנט משולבת E2EE/PGP מסופקת לנוחיותך.
+- תמיכה עבור [WKD](https://wiki.gnupg.org/WKD) כדי לאפשר גילוי משופר של מפתחות OpenPGP ציבוריים באמצעות HTTP. משתמשי GnuPG יכולים לקבל מפתח על ידי הקלדה `gpg --locate-key example_user@example.com`
 - תמיכה בתיבת דואר זמנית למשתמשים חיצוניים. פעולה זו שימושית כאשר ברצונך לשלוח דוא"ל מוצפן, מבלי לשלוח עותק בפועל לנמען שלך. להודעות דוא"ל אלה יש בדרך כלל תוחלת חיים מוגבלת ולאחר מכן הן נמחקות באופן אוטומטי. הם גם לא דורשים מהנמען להגדיר קריפטוגרפיה כלשהי כמו OpenPGP.
-- זמינות שירותי ספק הדואר האלקטרוני באמצעות שירות [בצל](https://en.wikipedia.org/wiki/.onion).
+- זמינות שירותי ספק הדואר האלקטרוני באמצעות [שירות בצל](https://en.wikipedia.org/wiki/.onion).
 - [תמיכה בתת - כתובת](https://en.wikipedia.org/wiki/Email_address#Subaddressing).
 - פונקציונליות של תפוס - הכל או כינוי עבור בעלי דומיינים משלהם.
-- שימוש בפרוטוקולי גישה סטנדרטיים לדואר אלקטרוני כגון IMAP, SMTP או [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). פרוטוקולי גישה סטנדרטיים מבטיחים שלקוחות יוכלו להוריד בקלות את כל הדוא"ל שלהם, אם ירצו לעבור לספק אחר.
+- שימוש בפרוטוקולי גישה סטנדרטיים לדואר אלקטרוני כגון IMAP, SMTP או [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). פרוטוקולי גישה סטנדרטיים מבטיחים שלקוחות יוכלו להוריד בקלות את כל הדואר האלקטרוני שלהם, אם ירצו לעבור לספק אחר.
 
 ### פרטיות
 
 אנו מעדיפים שהספקים המומלצים שלנו יאספו כמה שפחות נתונים.
 
-**המקרה הטוב ביותר:**
+**מינימום כדי לעמוד בדרישות:**
 
 - להגן על כתובת ה - IP של השולח. מסנן אותו כך שלא יוצג בשדה `השולח` header.
 - אין צורך במידע המאפשר זיהוי אישי (PII) מלבד שם משתמש וסיסמה.
@@ -441,7 +435,7 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 
 **המקרה הטוב ביותר:**
 
-- תמיכה באימות חומרה, לדוגמא. U2F ו - [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F ו - WebAuthn מאובטחים יותר כאשר הם משתמשים במפתח פרטי המאוחסן בהתקן חומרה בצד הלקוח כדי לאמת אנשים, בניגוד לסוד משותף המאוחסן בשרת האינטרנט ובצד הלקוח בעת שימוש ב - TOTP. יתר על כן, U2F ו- WebAuthn עמידים יותר בפני דיוג מכיוון שתגובת האימות שלהם מבוססת על האימות [שם הדומיין](https://en.wikipedia.org/wiki/Domain_name).
+- תמיכה באימות חומרה, כלומר. U2F ו - [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F ו - WebAuthn מאובטחים יותר כאשר הם משתמשים במפתח פרטי המאוחסן בהתקן חומרה בצד הלקוח כדי לאמת אנשים, בניגוד לסוד משותף המאוחסן בשרת האינטרנט ובצד הלקוח בעת שימוש ב - TOTP. יתר על כן, U2F ו- WebAuthn עמידים יותר בפני דיוג מכיוון שתגובת האימות שלהם מבוססת על האימות [שם הדומיין](https://en.wikipedia.org/wiki/Domain_name).
 - [אישור רשות ההסמכה של DNS (CAA) רשומת משאבים](https://tools.ietf.org/html/rfc6844) בנוסף לתמיכת DANE.
 - יישום של [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), זה שימושי עבור אנשים שמפרסמים לרשימות דיוור [RFC8617](https://tools.ietf.org/html/rfc8617).
 - תוכניות לחיפוש באגים ו/או תהליך גילוי - פגיעות מתואם.
@@ -451,7 +445,7 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 
 ### אמון
 
-לא הייתם סומכים על הכספים שלכם למישהו עם זהות מזויפת, אז למה לסמוך עליו עם הדוא"ל שלכם? אנו דורשים מהספקים המומלצים שלנו להיות פומביים לגבי הבעלות או המנהיגות שלהם. כמו כן, היינו רוצים לראות דיווחי שקיפות תכופים, במיוחד בכל הנוגע לאופן הטיפול בבקשות ממשלתיות.
+לא הייתם סומכים על הכספים שלכם למישהו שיש זהות מזויפת, אז למה לסמוך עליו עם הדוא"ל שלכם? אנו דורשים מהספקים המומלצים שלנו להיות פומביים לגבי הבעלות או המנהיגות שלהם. כמו כן, היינו רוצים לראות דיווחי שקיפות תכופים, במיוחד בכל הנוגע לאופן הטיפול בבקשות ממשלתיות.
 
 **מינימום כדי לעמוד בדרישות:**
 
@@ -464,13 +458,13 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 
 ### שיווק
 
-עם ספקי הדוא"ל אנו ממליצים לנו לראות שיווק אחראי.
+עם ספקי הדוא"ל אנו ממליצים לראות שיווק אחראי.
 
 **מינימום כדי לעמוד בדרישות:**
 
 - יש לבצע ניתוח של אחסון עצמי (ללא Google Analytics, Adobe Analytics וכו '). האתר של הספק חייב גם לציית ל [DNT (לא לעקוב)](https://en.wikipedia.org/wiki/Do_Not_Track) למי שרוצה לבטל את הסכמתו.
 
-אסור שיהיה שום שיווק שהוא חסר אחריות:
+אסור שיהיה שיווק שהוא חסר אחריות:
 
 - טענות של "הצפנה בלתי שבירה " יש להשתמש בהצפנה מתוך כוונה שהיא לא תהיה סודית בעתיד כאשר הטכנולוגיה קיימת כדי לפצח אותה.
 - ביצוע ערבויות של הגנה על 100% אנונימיות. כשמישהו טוען שמשהו הוא 100% זה אומר שאין ודאות לכישלון. אנחנו יודעים שאנשים יכולים בקלות להפוך את עצמם לאיאנונימיים במספר דרכים, למשל.:
@@ -484,4 +478,4 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 
 ### פונקציונליות נוספת
 
-אמנם לא בדיוק דרישות, אבל יש כמה גורמי נוחות או פרטיות אחרים שבדקנו כשקבענו על אילו ספקים להמליץ.
+אמנם לא דרישות קפדניות, יש כמה גורמי נוחות או פרטיות אחרים שבדקנו בעת קביעת אילו ספקים להמליץ.

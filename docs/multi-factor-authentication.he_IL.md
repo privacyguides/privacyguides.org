@@ -11,7 +11,7 @@ icon: 'material/two-factor-authentication'
 
     ![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
     
-    **YubiKeys ** הם בין מפתחות האבטחה הפופולריים ביותר. לדגמים מסוימים של YubiKey יש מגוון רחב של תכונות כגון: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)] (https://developers.yubico.com/PIV), [OpenPGP](https://developers.ubico.com/PGP/),[ TOOTTP and HPP (https://developers.OATico.com/pication).
+    **YubiKeys ** הם בין מפתחות האבטחה הפופולריים ביותר. לדגמים מסוימים של YubiKey יש מגוון רחב של תכונות כגון: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi - factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi - factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)] (https://developers.yubico.com/PIV), [OpenPGP](https://developers.ubico.com/PGP/),[ TOOTTP and HPP (https://developers.OATico.com/pication).
     
     אחד היתרונות של YubiKey הוא שמפתח אחד יכול לעשות כמעט הכל (YubiKey 5), אתה יכול לצפות ממפתח אבטחת חומרה. אנו ממליצים לך לקחת את [quiz](https://www.yubico.com/quiz/) לפני הרכישה כדי לוודא שאתה עושה את הבחירה הנכונה.
     
@@ -34,7 +34,7 @@ icon: 'material/two-factor-authentication'
 
     ![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
     
-    ** ל - Nitrokey ** יש מפתח אבטחה המסוגל [FIDO2 and WebAuthn ](basics/multi-factor-authentication.md#fido-fast- Identity-online) בשם ** Nitrokey FIDO2 **. לקבלת תמיכה PGP, אתה צריך לרכוש אחד המפתחות האחרים שלהם כגון ** Nitrokey Start **,** Nitrokey Pro 2** או **Nitrokey Storage 2 **.
+    ** ל - Nitrokey ** יש מפתח אבטחה המסוגל [FIDO2 and WebAuthn ]( basic/multi - factor - authentication.md#fido-fast- Identity-online) בשם ** Nitrokey FIDO2 **. לקבלת תמיכה PGP, אתה צריך לרכוש אחד המפתחות האחרים שלהם כגון ** Nitrokey Start **,** Nitrokey Pro 2** או **Nitrokey Storage 2 **.
     
     [:octicons-home-16: Homepage](https://www.nitrokey.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="מדיניות פרטיות" }
@@ -58,9 +58,33 @@ icon: 'material/two-factor-authentication'
 
 הקושחה של Nitrokey היא קוד פתוח, בניגוד ל YubiKey. הקושחה בדגמי NitroKey מודרניים (למעט **NitroKey Pro 2**) ניתנת לעדכון.
 
-!!! טיפ
+!!! tip
 
     אפליקציית Nitrokey, למרות שהיא תואמת ל-Librem Keys, דורשת 'libnitrokey' מגרסה 3.6 ומעלה כדי לזהות אותם. נכון לעכשיו, החבילה מיושנת ב-Windows, macOS ומאגר רוב הפצות הלינוקס, כך שסביר להניח שתצטרכו להרכיב את אפליקציית Nitrokey בעצמכם כדי לגרום לה לעבוד עם מפתח ליברם. על לינוקס, אתה יכול לקבל גרסה מעודכנת מ [Flathub](https://flathub.org/apps/details/com.nitrokey.nitrokey-app).
+
+### Aegis Authenticator
+
+**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף [לקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+
+!!! דוגמה: "חלק זה הוא חדש"
+
+    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו]( https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו בעת ביצוע ההמלצות שלנו אם זה לא מופיע כאן. ישנם גורמים רבים שנלקחים בחשבון ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+#### דרישות מינימליות
+
+- יש להשתמש במודולי אבטחה עמידים לחומרה באיכות גבוהה.
+- חייב לתמוך במפרט האחרון של FIDO2.
+- אסור לאפשר חילוץ מפתח פרטי.
+- מכשירים שעולים מעל $35 חייבים לתמוך בטיפול ב-OpenPGP וב-S/MIME.
+
+#### המקרה הטוב ביותר
+
+הקריטריונים שלנו במקרה הטוב ביותר מייצגים את מה שהיינו רוצים לראות מהפרויקט המושלם בקטגוריה זו. ההמלצות שלנו לא יכולות לכלול את כל הפונקציונליות הזו או את כולה, אך אלה שכן דורגו גבוה יותר מאחרים בדף זה.
+
+- אמור להיות זמין בגורם צורה של USB-C.
+- צריך להיות זמין עם NFC.
+- אמור לתמוך באחסון סודי של TOTP.
+- צריך לתמוך בעדכוני קושחה מאובטחים.
 
 ## אפליקציות מאמתות
 
@@ -68,7 +92,7 @@ icon: 'material/two-factor-authentication'
 
 אנו ממליצים בחום להשתמש באפליקציות TOTP למכשירים ניידים במקום בחלופות לשולחן העבודה, מכיוון שלאנדרואיד ול-iOS יש אבטחה ובידוד אפליקציות טובים יותר מרוב מערכות ההפעלה השולחניות.
 
-### Aegis Authenticator
+### Raivo OTP
 
 !!! recommendation
 
@@ -82,12 +106,12 @@ icon: 'material/two-factor-authentication'
     [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=לתרומה }
     
-    ??? downloads "הורדות"
+    ??? הורדות
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
         - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
 
-### Raivo OTP
+### Raivo OTP (iOS)
 
 !!! recommendation
 
@@ -100,6 +124,20 @@ icon: 'material/two-factor-authentication'
     [:octicons-code-16:](https://github.com/raivo-otp/ios-application){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title=לתרומה }
     
-    ??? downloads "הורדות"
+    ??? הורדות
+    
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
+
+### קריטריונים
+
+**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף [לקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+
+!!! דוגמה: "חלק זה הוא חדש"
+
+    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו]( https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו בעת ביצוע ההמלצות שלנו אם זה לא מופיע כאן. ישנם גורמים רבים שנשקלים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+- זה חייב להיות קוד פתוח.
+- אין צורך בחיבור לאינטרנט.
+- לא יכול להסתנכרן עם שירות סנכרון/גיבוי ענן של צד שלישי.
+    - **אופציונלי** תמיכה בסנכרון E2EE עם כלים מקוריים של מערכת ההפעלה מקובלת, למשל סנכרון מוצפן דרך iCloud.

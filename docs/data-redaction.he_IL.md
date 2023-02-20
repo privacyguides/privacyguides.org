@@ -19,7 +19,7 @@ icon: material/tag-remove
     [:octicons-info-16:](https://github.com/szTheory/exifcleaner#readme){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/szTheory/exifcleaner){ .card-link title="Source Code" }
     
-    ??? downloads "הורדות"
+    ??? הורדות
     
         - [:simple-windows11: Windows](https://github.com/szTheory/exifcleaner/releases)
         - [:simple-apple: macOS](https://github.com/szTheory/exifcleaner/releases)
@@ -39,7 +39,7 @@ icon: material/tag-remove
     [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=תיעוד}
     [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="קוד מקור" }
     
-    ??? downloads "הורדות"
+    ??? הורדות
     
         - [:simple-windows11: Windows](https://pypi.org/project/mat2)
         - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
@@ -62,7 +62,7 @@ icon: material/tag-remove
     [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
     
-    ??? downloads "הורדות"
+    ??? הורדות
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
         - [:simple-github: GitHub](https://github.com/Tommy-Geenexus/exif-eraser/releases)
@@ -94,7 +94,7 @@ icon: material/tag-remove
     [:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
     
-    ??? downloads "הורדות"
+    ??? הורדות
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
 
@@ -111,7 +111,7 @@ icon: material/tag-remove
     [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
     
-    ??? downloads "הורדות"
+    ??? הורדות
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
@@ -137,7 +137,7 @@ icon: material/tag-remove
     [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
     
-    ??? downloads "הורדות"
+    ??? הורדות
     
         - [:simple-windows11: Windows](https://exiftool.org)
         - [:simple-apple: macOS](https://exiftool.org)
@@ -148,3 +148,14 @@ icon: material/tag-remove
     ```bash
     exiftool -all= *.file_extension
     ```
+
+## קריטריונים
+
+**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף [לקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+
+!!! דוגמה: "חלק זה הוא חדש"
+
+    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו]( https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו בעת ביצוע ההמלצות שלנו אם זה לא מופיע כאן. ישנם גורמים רבים שנלקחים בחשבון ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+- יישומים שפותחו עבור מערכות הפעלה בקוד פתוח חייבים להיות קוד פתוח.
+- יישומים חייבים להיות חינמיים ולא לכלול מודעות או מגבלות אחרות.

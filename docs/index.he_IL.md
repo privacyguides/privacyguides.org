@@ -9,7 +9,7 @@ hide:
 <!-- markdownlint-disable-next-line -->
 <div style="max-width:50rem;margin:auto;" markdown>
 <div style="max-width:38rem;" markdown>
-##למה שיהיה אכפת לי?
+##למה שיהיה לי אכפת?
 
 ##### “אין לי מה להסתיר. למה אני צריך לדאוג לפרטיות שלי?"
 
@@ -17,7 +17,7 @@ hide:
 
 אין לבלבל בין פרטיות לסודיות. אנחנו יודעים מה קורה בחדר האמבטיה, אבל אתה עדיין סוגר את הדלת. זה בגלל שאתה רוצה פרטיות, לא סודיות. **לכל אחד** יש על מה להגן. פרטיות היא משהו שהופך אותך לאנושי.
 
-[:material-target-account: איומים נפוצים באינטרנט ](basics/common-threats.md){ .md-button .md-button--primary }
+[:material-target-account: איומים נפוצים באינטרנט ]( basic/common-threats.md){ .md-button .md-button--primary }
 </div>
 
 <div style="margin-left:auto;margin-right:0;text-align:right;max-width:38rem;" markdown>
@@ -29,7 +29,7 @@ hide:
 
 ==תהליך זה של זיהוי איומים והגדרת אמצעי נגד נקרא **מידול איומים**==, והוא מהווה את הבסיס לכל תוכנית אבטחה ופרטיות טובה.
 
-[:material-book-outline: למידע נוסף על מידול איומים](basics/threat-modeling.md){ .md-button .md-button--primary }
+[:material-book-outline: למידע נוסף על מידול איומים](basic/threat-modeling.md){ .md-button .md-button--primary }
 </div>
 </div>
 
@@ -40,12 +40,12 @@ hide:
 
 <div class="grid cards" style="margin:auto;max-width:800px;text-align:center;" markdown>
 
-- [:simple-discourse: הצטרף לפורום שלנו](https://discuss.privacyguides.org/)
-- [:simple-mastodon: עקבו אחרינו במסטודון](https://mastodon.neat.computer/@privacyguides){ rel=me }
-- [:material-book-edit: תרומה לאתר זה](https://github.com/privacyguides/privacyguides.org)
-- [:simple-matrix: שוחח איתנו בצ'אט בMatrix.](https://matrix.to/#/#privacyguides:matrix.org)
-- [:material-information-outline: תלמד עלינו עוד](about/index.md)
-- [:material-hand-coin-outline: תמוך בפרויקט](about/donate.md)
+- [:simple-discourse: הצטרף לפורום שלנו](https://discuss.privacyguides.net/)
+- [:simple-mastodon: עקוב אחרינו ב - Mastodon](https://mastodon.neat.computer/@ privacyguides){ rel=me }
+- [:material-book-edit: תרום לאתר זה](https://github.com/privacyguides/privacyguides.org)
+- [:simple-matrix: שוחח איתנו ב - Matrix](https://matrix.to/##privacyguides: matrix.org)
+- [:material-information-outline: למידע נוסף אודותינו](about/index.md)
+- [:material-hand-coin-outline: תמיכה בפרויקט](about/donate.mate)
 
 </div>
 </div>

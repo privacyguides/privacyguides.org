@@ -40,41 +40,86 @@ ffsend upload -- host https://send.vis.ee/ FILE
     [:octicons-info-16:](https://docs.onionshare.org){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="קוד מקור" }
     
-    ??? downloads "הורדות"
+    ??? הורדות
     
         - [:simple-windows11: Windows](https://onionshare.org/#download)
         - [:simple-apple: macOS](https://onionshare.org/#download)
         - [:simple-linux: Linux](https://onionshare.org/#download)
 
-## FreedomBox
+### Syncthing
 
-!!! recommendation
+**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+
+!!! דוגמה: "חלק זה הוא חדש"
 
     ![FreedomBox לוגו](assets/img/file-sharing-sync/freedombox.svg){ align=right }
     
-    **FreedomBox ** היא מערכת הפעלה שתוכננה לפעול במחשב [single - board computer (SBC )]( https://en.wikipedia.org/wiki/Single-board_computer). המטרה היא להקל על הגדרת יישומי שרת שאולי תרצו לארח בעצמכם.
-    
-    [:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
+    **FreedomBox ** היא מערכת הפעלה שתוכננה לפעול במחשב [single - board computer (SBC )]( https://en.wikipedia.org/wiki/Single-board_computer). המטרה היא להקל על הגדרת יישומי שרת שאולי תרצו לארח בעצמכם. [:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=תיעוד}
     [:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://freedomboxfoundation.org/donate/){ .card-link title=לתרומה }
 
-## סנכרון קבצים
+- אסור לאחסן נתונים מפוענחים בשרת מרוחק.
+- זה חייב להיות קוד פתוח.
+- חייבים להיות לקוחות עבור לינוקס, macOS ו- Windows; או שיהיה לך ממשק אינטרנט.
 
-### Syncthing
+## FreedomBox
 
 !!! recommendation
 
     ![Syncthing לוגו](assets/img/file-sharing-sync/syncthing.svg){ align=right }
     
-    ** Syncthing** הוא קוד פתוח עמית - ל - עמית רציף קבצים כלי שירות. הוא משמש לסנכרון קבצים בין שני מכשירים או יותר ברשת המקומית או באינטרנט. הסינכרון אינו משתמש בשרת מרכזי; הוא משתמש ב [Block Exchange Protocol]( https://docs.syncthing.net/specs/bep-v1.html # bep - v1) כדי להעביר נתונים בין מכשירים. כל הנתונים מוצפנים באמצעות TLS.
+    ** Syncthing** הוא קוד פתוח עמית - ל - עמית רציף קבצים כלי שירות. הוא משמש לסנכרון קבצים בין שני מכשירים או יותר ברשת המקומית או באינטרנט.
     
-    [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
+    הסינכרון אינו משתמש בשרת מרכזי; הוא משתמש ב [Block Exchange Protocol]( https://docs.syncthing.net/specs/bep-v1.html # bep - v1) כדי להעביר נתונים בין מכשירים.
+
+## סנכרון קבצים
+
+### Nextcloud (שרת-לקוח)
+
+!!! recommendation
+
+    ![Nextcloud לוגו](assets/img/productivity/nextcloud.svg){ align=right }
+    
+    **Nextcloud** היא חבילה של תוכנת שרת-לקוח חינמית וקוד פתוח ליצירת שירותי אירוח קבצים משלך בשרת פרטי בשליטתך.
+    
+    [:octicons-home-16: דף הבית](https://nextcloud.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="מדיניות פרטיות" }
+    [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="קוד מקור" }
+    [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=לתרומה }
+    
+    ??? הורדות
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
+        - [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
+        - [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
+        - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
+        - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
+        - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
+
+!!! danger
+
+    ![OnlyOffice לוגו](assets/img/productivity/onlyoffice.svg){ align=right }
+    
+    **OnlyOffice** היא חבילת משרדים חינמית וקוד פתוח מבוססת ענן עם פונקציונליות נרחבת, כולל אינטגרציה עם Nextcloud.
+
+### סינכרון (P2P)
+
+!!! recommendation
+
+    ![Syncthing לוגו](assets/img/file-sharing-sync/syncthing.svg){ align=right }
+    
+    **Syncthing** הוא כלי קוד פתוח לסינכרון קבצים רציף מסוג עמית לעמית. הוא משמש לסנכרון קבצים בין שני מכשירים או יותר ברשת המקומית או באינטרנט. הסינכרון אינו משתמש בשרת מרכזי; הוא משתמש ב [Block Exchange Protocol]( https://docs.syncthing.net/specs/bep-v1.html # bep - v1) כדי להעביר נתונים בין מכשירים. כל הנתונים מוצפנים באמצעות TLS.
+    
+    [:octicons-home-16: דף הבית](https://syncthing.net){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/syncthing){ .card-link title="קוד פתוח" }
+    [:octicons-code-16:](https://github.com/syncthing){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=לתרומה }
     
-    ??? downloads "הורדות"
+    ??? הורדות
+    
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
         - [:simple-windows11: Windows](https://syncthing.net/downloads/)
@@ -83,3 +128,24 @@ ffsend upload -- host https://send.vis.ee/ FILE
         - [:simple-freebsd: FreeBSD](https://syncthing.net/downloads/)
         - [:simple-openbsd: OpenBSD](https://syncthing.net/downloads/)
         - [:simple-netbsd: NetBSD](https://syncthing.net/downloads/)
+
+### קריטריונים
+
+**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף [לקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+
+!!! דוגמה: "חלק זה הוא חדש"
+
+    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו]( https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו בעת ביצוע ההמלצות שלנו אם זה לא מופיע כאן. ישנם גורמים רבים שנשקלים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+#### דרישות מינימליות
+
+- אין לדרוש שרת מרוחק/ענן של צד שלישי.
+- זה חייב להיות קוד פתוח.
+- חייבים להיות לקוחות עבור לינוקס, macOS ו- Windows; או שיהיה לך ממשק אינטרנט.
+
+#### המקרה הטוב ביותר
+
+הקריטריונים שלנו במקרה הטוב ביותר מייצגים את מה שהיינו רוצים לראות מהפרויקט המושלם בקטגוריה זו. ההמלצות שלנו לא יכולות לכלול את כל הפונקציונליות הזו או את כולה, אך אלה שכן דורגו גבוה יותר מאחרים בדף זה.
+
+- יש לו לקוחות ניידים עבור iOS ו- אנדרואיד, שלפחות תומכים בתצוגות מקדימות של מסמכים.
+- תומך בגיבוי תמונות מ - iOS ו - אנדרואיד, ותומך באופן אופציונלי בסנכרון קבצים/תיקיות ב - אנדרואיד.

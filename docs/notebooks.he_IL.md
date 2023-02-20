@@ -11,7 +11,7 @@ icon: material/notebook-edit-outline
 
 ### Joplin
 
-!!! recommendation
+!!! המלצה
 
     ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
     
@@ -23,7 +23,7 @@ icon: material/notebook-edit-outline
     [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribute }
     
-    ??? downloads "הורדות"
+    ??? הורדות
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
@@ -38,7 +38,7 @@ Joplin אינה תומכת בהגנה באמצעות סיסמה/PIN עבור ה�
 
 ### Standard Notes
 
-!!! recommendation
+!!! המלצה
 
     ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
     
@@ -50,7 +50,7 @@ Joplin אינה תומכת בהגנה באמצעות סיסמה/PIN עבור ה�
     [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribute }
     
-    ??? downloads "הורדות"
+    ??? הורדות
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
@@ -60,17 +60,49 @@ Joplin אינה תומכת בהגנה באמצעות סיסמה/PIN עבור ה�
         - [:simple-linux: Linux](https://standardnotes.com)
         - [:octicons-globe-16: Web](https://app.standardnotes.com/)
 
-## מחברות מקומיות
-
 ### Org-mode
 
-!!! recommendation
+!!! המלצה
 
     ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
     
-    ** מצב ארגון ** הוא [major mode ]( https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) עבור GNU Emacs. Org-mode נועד לשמירה על הערות, שמירה על רשימות מטלות, תכנון פרויקטים ועריכת מסמכים באמצעות מערכת טקסט פשוטה מהירה ויעילה. סינכרון אפשרי באמצעות הכלי [file synchronization](file-sharing.md#file-sync).
+    ** מצב ארגון ** הוא [major mode ]( https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) עבור GNU Emacs. Org-mode נועד לשמירה על הערות, שמירה על רשימות מטלות, תכנון פרויקטים ועריכת מסמכים באמצעות מערכת טקסט פשוטה מהירה ויעילה.
     
-    [:octicons-home-16: Homepage](https://orgmode.org){ .md-button .md-button--primary }
+    סינכרון אפשרי באמצעות הכלי [file synchronization](file sharing.md#file-sync). [:octicons-home-16: Homepage](https://orgmode.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Documentation}
     [:octicons-code-16:](https://git.savannah.gnu.org/cgit/emacs/org-mode.git){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title=Contribute }
+
+Cryptee מציע 100MB של אחסון בחינם, עם אפשרויות בתשלום אם אתה צריך יותר. ההרשמה אינה דורשת דואר אלקטרוני או מידע מזהה אישי אחר.
+
+## מחברות מקומיות
+
+### מצב ארגון
+
+!!! recommendation
+
+    ![Org-mode לוגו](assets/img/notebooks/org-mode.svg){ align=right }
+    
+    **מצב ארגוני** הוא [מצב ראשי](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) עבור גנו Emacs. מצב ארגוני מיועד לשמירת הערות, שמירה על רשימות TODO, תכנון פרויקטים ועריכת מסמכים באמצעות מערכת טקסט רגיל מהירה ויעילה. סינכרון אפשרי באמצעות הכלי [file synchronization](file sharing.md#file-sync).
+    
+    [:octicons-home-16: דף הבית](https://orgmode.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://git.savannah.gnu.org/cgit/emacs/org-mode.git){ .card-link title="קוד מקור" }
+    [:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title=לתרומה }
+
+## קריטריונים
+
+**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף [לקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+
+!!! דוגמה: "חלק זה הוא חדש"
+
+    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו]( https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו בעת ביצוע ההמלצות שלנו אם זה לא מופיע כאן. ישנם גורמים רבים שנשקלים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+- הלקוחות צריכים להיות בקוד פתוח.
+- כל פונקציונליות של סנכרון ענן חייבת להיות E2EE.
+- חייב לתמוך בייצוא מסמכים לפורמט סטנדרטי.
+
+### המקרה הטוב ביותר
+
+- פונקציונליות גיבוי/סנכרון מקומית אמורה לתמוך בהצפנה.
+- פלטפורמות מבוססות ענן צריכות לתמוך בשיתוף מסמכים.

@@ -7,11 +7,9 @@ icon: material/video-wireless
 
 ## קליינטים
 
-### LBRY
+!!! המלצה
 
-!!! recommendation
-
-    ![LBRY logo ](assets/img/video-streaming/lbry.svg){ align=right }
+    ![LBRY logo ]( assets/img/video - streaming/lbry.svg){ align=right }
     
     **רשתLBRY** היא רשת שיתוף וידאו מבוזרת. הוא משתמש ברשת [BitTorrent](https://wikipedia.org/wiki/BitTorrent)- Like כדי לאחסן את תוכן הווידאו, וברשת [blockchain](https://wikipedia.org/wiki/Blockchain) כדי לאחסן את האינדקסים עבור סרטונים אלה. התועלת העיקרית של עיצוב זה היא התנגדות הצנזורה.
     
@@ -20,9 +18,7 @@ icon: material/video-wireless
     [:octicons-home-16: Homepage](https://lbry.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://lbry.com/privacypolicy){ .card-link title="מדיניות-הפרטיות" }
     [:octicons-info-16:](https://lbry.com/faq){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/lbryio/lbry-desktop){ .card-link title="קוד מקור" }
-    
-    ??? downloads "הורדות"
+    [:octicons-code-16:](https://github.com/lbryio/lbry-desktop){ .card-link title="קוד מקור" }??? הורדות
     
         - [:simple-windows11: Windows]( https://lbry.com/windows)
         - [:simple-apple: macOS]( https://lbry.com/osx)
@@ -39,3 +35,14 @@ icon: material/video-wireless
 אנו ממליצים **נגד** סנכרון הארנק שלך עם LBRY Inc., מכיוון שסנכרון ארנקים מוצפנים עדיין אינו נתמך. אם אתה מסנכרן את הארנק שלך עם LBRY Inc.‎, עליך לסמוך עליהם שלא יסתכלו על רשימת המנויים שלך, [LBC](https://lbry.com/faq/earn-credits) Fund או ישתלטו על הערוץ שלך.
 
 ניתן להשבית *שמירת נתוני אירוח כדי לעזור לרשת LBRY* באפשרות :gear: **הגדרות** → **הגדרות מתקדמות**, כדי להימנע מחשיפת כתובת ה - IP שלך והצפייה בסרטונים בעת השימוש ב - LBRY במשך תקופה ממושכת.
+
+## קריטריונים
+
+**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף [לקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+
+!!! דוגמה: "חלק זה הוא חדש"
+
+    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו]( https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו בעת ביצוע ההמלצות שלנו אם זה לא מופיע כאן. ישנם גורמים רבים שנשקלים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+- אין צורך בחשבון ריכוזי כדי להציג סרטונים.
+    - אימות מבוזר, כגון באמצעות המפתח הפרטי של הארנק הנייד מקובל.
