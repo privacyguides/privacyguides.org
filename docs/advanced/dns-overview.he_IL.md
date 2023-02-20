@@ -294,9 +294,9 @@ DNSSEC מיישמת מדיניות חתימה דיגיטלית היררכית ב
 
 QNAME הוא "שם מוסמך", לדוגמה`privacyguides.org`. מזעור QName מצמצם את כמות המידע הנשלחת משרת ה - DNS לשרת [שם סמכותי](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server).
 
-במקום לשלוח את הדומיין `privacyguides.org`, מזעור QNAME פירושו ששרת ה- DNS ישאל בשביל כל הרשומות המסתיימות ב-`.org`. תיאור טכני נוסף מוגדר ב[RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
+במקום לשלוח את הדומיין `privacyguides.org`, מזעור QNAME פירושו ששרת ה- DNS ישאל בשביל כל הרשומות המסתיימות ב-`.org`. תיאור טכני נוסף מוגדר ב [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
 
-## מהי EDNS Client Subnet (ECS)?
+## מהי רשת משנה של לקוח EDNS (ECS)?
 
 [EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) היא שיטה לפתרון DNS רקורסיבי כדי לציין [subnetwork](https://en.wikipedia.org/wiki/Subnetwork) עבור מארח [או לקוח](https://en.wikipedia.org/wiki/Client_(computing)) אשר עושה את שאילתת ה - DNS.
 

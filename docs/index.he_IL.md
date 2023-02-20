@@ -1,5 +1,5 @@
 ---
-template: overrides/home.en.html
+template: overrides/home.he.html
 hide:
   - navigation
   - toc
@@ -9,15 +9,15 @@ hide:
 <!-- markdownlint-disable-next-line -->
 <div style="max-width:50rem;margin:auto;" markdown>
 <div style="max-width:38rem;" markdown>
-##למה שיהיה אכפת לי?
+##למה שיהיה לי אכפת?
 
-##### “אין לי מה להסתיר. למה אני צריך לדאוג לפרטיות שלי?"
+##### “אין לי מה להסתיר. למה שאדאג לפרטיות שלי?"
 
-בדומה לזכות לנישואים בין - גזעיים, זכות הבחירה של נשים, חופש הביטוי ורבים אחרים, לא תמיד נשמרה זכותנו לפרטיות. בכמה דיקטטורות זה עדיין לא כך. הדורות שקדמו לנו נלחמו על זכותנו לפרטיות. ==פרטיות היא זכות אנושית, הטבועה בכולנו == שאנו זכאים לה (ללא אפליה).
+בדומה לזכות לנישואים בין-גזעיים, זכות בחירה לאישה, חופש הביטוי ורבים אחרים, זכותנו לפרטיות לא תמיד נשמרה. בכמה דיקטטורות, זה עדיין לא. דורות לפנינו נלחמו על זכותנו לפרטיות. ==פרטיות היא זכות אדם, הטבועה בכולנו,== שמגיעה לנו (ללא אפליה).
 
-אין לבלבל בין פרטיות לסודיות. אנחנו יודעים מה קורה בחדר האמבטיה, אבל אתה עדיין סוגר את הדלת. זה בגלל שאתה רוצה פרטיות, לא סודיות. **לכל אחד** יש על מה להגן. פרטיות היא משהו שהופך אותך לאנושי.
+אתה לא צריך לבלבל פרטיות עם סודיות. אנחנו יודעים מה קורה בשירותים, אבל אתה עדיין סוגר את הדלת. זה בגלל שאתה רוצה פרטיות, לא סודיות. **לכל אחד** יש על מה להגן. פרטיות היא משהו שהופך אותך לאנושי.
 
-[:material-target-account: איומים נפוצים באינטרנט ](basics/common-threats.md){ .md-button .md-button--primary }
+[:material-target-account: איומים נפוצים באינטרנט](basics/common-threats.md){ .md-button .md-button--primary }
 </div>
 
 <div style="margin-left:auto;margin-right:0;text-align:right;max-width:38rem;" markdown>
@@ -34,18 +34,18 @@ hide:
 </div>
 
 <div style="padding:3em;max-width:960px;margin:auto;text-align:center;" markdown>
-## אנחנו צריכים אותך! הנה איך להיות מעורב:
+## אנחנו זקוקים לך! הנה איך להיות מעורב:
 
-זה חשוב עבור אתר כמו Privacy Guides תמיד להישאר מעודכן. אנו זקוקים לקהל שלנו כדי לפקוח עין על עדכוני תוכנה עבור היישומים המפורטים באתר שלנו ולעקוב אחר החדשות האחרונות על ספקים שאנו ממליצים. קשה לעמוד בקצב המהיר של האינטרנט, אבל אנחנו מנסים כמיטב יכולתנו. אם אתה מזהה שגיאה, חושב שספק לא צריך להיות רשום, שם לב שספק מוסמך חסר, מאמין שתוסף דפדפן הוא כבר לא הבחירה הטובה ביותר, או לחשוף כל בעיה אחרת, אנא יידע אותנו.
+חשוב שאתר כמו Privacy Guides יישאר תמיד מעודכן. אנחנו צריכים שהקהל שלנו יפקח עין על עדכוני תוכנה עבור היישומים הרשומים באתר שלנו ויעקוב אחר החדשות האחרונות לגבי ספקים שאנחנו ממליצים עליהם. קשה לעמוד בקצב המהיר של האינטרנט, אבל אנחנו מנסים כמיטב יכולתנו. אם אתה מזהה שגיאה, חושב שספק לא צריך להיות רשום, שם לב שחסר ספק מוסמך, מאמין שתוסף דפדפן הוא כבר לא הבחירה הטובה ביותר, או חשף כל בעיה אחרת, אנא הודע לנו.
 
 <div class="grid cards" style="margin:auto;max-width:800px;text-align:center;" markdown>
 
-- [:simple-discourse: הצטרף לפורום שלנו](https://discuss.privacyguides.org/)
-- [:simple-mastodon: עקבו אחרינו במסטודון](https://mastodon.neat.computer/@privacyguides){ rel=me }
+- [:simple-discourse: הצטרף לפורום שלנו](https://discuss.privacyguides.net/)
+- [:simple-mastodon: עקבו אחרינו ב-Mastodon](https://mastodon.neat.computer/@privacyguides){ rel=me }
 - [:material-book-edit: תרומה לאתר זה](https://github.com/privacyguides/privacyguides.org)
-- [:simple-matrix: שוחח איתנו בצ'אט בMatrix.](https://matrix.to/#/#privacyguides:matrix.org)
-- [:material-information-outline: תלמד עלינו עוד](about/index.md)
-- [:material-hand-coin-outline: תמוך בפרויקט](about/donate.md)
+- [:simple-matrix: שוחח איתנו ב-Matrix](https://matrix.to/#/#privacyguides:matrix.org)
+- [:material-information-outline: למידע נוסף עלינו](about/index.md)
+- [:material-hand-coin-outline: תמכו בפרויקט](about/donate.md)
 
 </div>
 </div>

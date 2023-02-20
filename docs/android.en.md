@@ -111,7 +111,7 @@ The installation of GrapheneOS on a Pixel phone is easy with their [web installe
 A few more tips for purchasing a Google Pixel:
 
 - If you're after a bargain on a Pixel device, we suggest buying an "**a**" model, just after the next flagship is released. Discounts are usually available because Google will be trying to clear their stock.
-- Consider price beating options and specials offered at brick and mortar stores.
+- Consider price beating options and specials offered at physical stores.
 - Look at online community bargain sites in your country. These can alert you to good sales.
 - Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as: $\text{Cost} \over \text {EOL Date }-\text{ Current Date}$, meaning that the longer use of the device the lower cost per day.
 
@@ -184,7 +184,7 @@ To make sure that your hardware and operating system is genuine, [perform local 
     ![Secure camera logo](assets/img/android/secure_camera.svg#only-light){ align=right }
     ![Secure camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
 
-      **Secure Camera** is a camera app focused on privacy and security which can capture images, videos and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
+    **Secure Camera** is a camera app focused on privacy and security which can capture images, videos and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
 
     [:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
     [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}

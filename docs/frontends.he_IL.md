@@ -23,11 +23,11 @@ icon: material/flip-to-front
     [:octicons-info-16:](https://codeberg.org/librarian/librarian/wiki){ .card-link title=תיעוד}
     [:octicons-code-16:](https://codeberg.org/librarian/librarian){ .card-link title="קוד מקור" }
 
-!!! warning
+!!! warning "אזהרה"
 
     Librarian אינו מציג זרמי וידאו כברירת מחדל. סרטונים שנצפו דרך ספרן עדיין ייצרו חיבורים ישירים לשרתים של Odysee (למשל 'odycdn.com'); עם זאת, מקרים מסוימים עשויים לאפשר Proxy אשר יפורט במדיניות הפרטיות של המופע.
 
-!!! טיפ
+!!! tip "טיפ"
 
     Librarian שימושי אם אתה רוצה לצפות בתוכן LBRY בנייד ללא טלמטריה חובה ואם אתה רוצה להשבית JavaScript בדפדפן שלך, כמו במקרה של [דפדפן Tor](https://www.torproject.org/) ברמת האבטחה הבטוחה ביותר.
 
@@ -53,7 +53,7 @@ icon: material/flip-to-front
     [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=לתרומה }
 
-!!! טיפ
+!!! tip "טיפ"
 
     Nitter שימושי אם ברצונך לדפדף בתוכן של טוויטר ללא צורך בהתחברות ואם ברצונך להשבית את JavaScript בדפדפן שלך, כפי שקורה עם [Tor Browser](https://www.torproject.org/) ברמת האבטחה הבטוחה ביותר. זה גם מאפשר לך [ליצור הזנות RSS עבור טוויטר](news-aggregators.md#twitter).
 
@@ -69,7 +69,7 @@ icon: material/flip-to-front
 
     ![ProxiTok לוגו](assets/img/frontends/proxitok.svg){ align=right }
     
-    ** ProxiTok** הוא ממשק קוד פתוח לאתר [TikTok](https://www.tiktok.com) שגם הוא ניתן לאירוח עצמי.
+    **ProxiTok** הוא ממשק קוד פתוח לאתר [TikTok](https://www.tiktok.com) שגם הוא ניתן לאירוח עצמי.
     
     ישנם מספר מקרים ציבוריים, עם כמה מקרים שיש [Tor](https://www.torproject.org) תמיכה בשירותי בצל.
     
@@ -78,7 +78,7 @@ icon: material/flip-to-front
     [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="קוד מקור" }
 
-!!! טיפ
+!!! tip "טיפ"
 
     ProxiTok שימושי אם ברצונך להשבית את JavaScript בדפדפן שלך, כגון [Tor Browser](https://www.torproject.org/) ברמת האבטחה הבטוחה ביותר.
 
@@ -94,7 +94,7 @@ icon: material/flip-to-front
 
     ![לוגו של FreeTube](assets/img/frontends/freetube.svg){ align=right }
     
-    ** FreeTube** הוא יישום שולחן עבודה חינמי בקוד פתוח עבור [YouTube](https://youtube.com). בעת השימוש ב - FreeTube, רשימת ההרשמות ורשימות ההשמעה שלך נשמרות באופן מקומי במכשיר שלך.
+    **FreeTube** הוא יישום שולחן עבודה חינמי בקוד פתוח עבור [YouTube](https://youtube.com). בעת השימוש ב - FreeTube, רשימת ההרשמות ורשימות ההשמעה שלך נשמרות באופן מקומי במכשיר שלך.
     
     כברירת מחדל, FreeTube חוסם את כל הפרסומות ב - YouTube. בנוסף, FreeTube משתלב באופן אופציונלי עם [SponsorBlock](https://sponsor.ajay.app) כדי לעזור לך לדלג על פלחי וידאו ממומנים.
     
@@ -111,13 +111,40 @@ icon: material/flip-to-front
         - [:simple-linux: Linux](https://freetubeapp.io/#download)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
 
-!!! אזהרה
+!!! warning "אזהרה"
 
     בעת השימוש ב- FreeTube, כתובת ה- IP שלך עשויה עדיין להיות ידועה ל- YouTube, [Invidious](https://instances.invidious.io) או [SponsorBlock](https://sponsor.ajay.app/) בהתאם לתצורה שלך. שקלו להשתמש ב-[VPN](vpn.md) או ב-[Tor](https://www.torproject.org) אם [מודל האיומים] שלכם (יסודות/modeling.md איומים) דורש הסתרת כתובת ה-IP שלכם.
 
+### Yattee
+
+!!! recommendation
+
+    ![Yattee לוגו](assets/img/frontends/yattee.svg){ align=right }
+    
+    **Yattee** הוא נגן וידאו חינמי וקוד פתוח מוכוון פרטיות עבור iOS, tvOS ו-macOS עבור [YouTube](https://youtube.com). בעת השימוש ב - Yattee, רשימת המנויים שלך נשמרת באופן מקומי במכשיר שלך.
+    
+    כברירת מחדל, Yattee חוסם את כל הפרסומות ב - YouTube. בנוסף, Yattee משתלב באופן אופציונלי עם [SponsorBlock](https://sponsor.ajay.app) כדי לעזור לך לדלג על קטעי וידאו ממומנים.
+    
+    [:octicons-home-16: דף הבית](https://github.com/yattee/yattee){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="מדיניות פרטיות" }
+    [:octicons-info-16:](https://github.com/yattee/yattee/wiki){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="קוד מקור" }
+    [:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title=לתרומה }
+    
+    ??? downloads "הורדות"
+    
+        - [:simple-apple: App Store](https://apps.apple.com/us/app/yattee/id1595136629)
+        - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
+
+בשל המגבלות של App Store, עליך לבצע כמה [שלבים נוספים](https://gonzoknows.com/posts/Yattee/) לפני שתוכל להשתמש ב - Yattee.
+
+!!! warning "אזהרה"
+
+    בעת השימוש ב- Yattee, כתובת ה- IP שלך עשויה עדיין להיות ידועה ליוטיוב, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) או [SponsorBlock](https://sponsor.ajay.app/) בהתאם לתצורה שלך. שקלו להשתמש ב-[VPN](vpn.md) או ב-[Tor](https://www.torproject.org) אם [מודל האיומים] שלכם (יסודות/modeling.md איומים) דורש הסתרת כתובת ה-IP שלכם.
+
 ### NewPipe (אנדרואיד)
 
-!!! ביאור המלצה
+!!! recommendation annotate
 
     ! [לוגו Newpipe] (assets/img/frontends/newpipe.svg) { align=right }
     
@@ -137,7 +164,7 @@ icon: material/flip-to-front
 
 1. מופע ברירת המחדל הוא [FramaTube](https://framatube.org/), עם זאת ניתן להוסיף יותר דרך **הגדרות** → **תוכן** → **מופעים PeerTube**
 
-!!! אזהרה
+!!! warning "אזהרה"
 
     בעת שימוש ב - NewPipe, כתובת ה - IP שלך תהיה גלויה לספקי הסרטונים שבהם נעשה שימוש. שקלו להשתמש ב-[VPN](vpn.md) או ב-[Tor](https://www.torproject.org) אם [מודל האיומים] שלכם (יסודות/modeling.md איומים) דורש הסתרת כתובת ה-IP שלכם.
 
@@ -158,11 +185,11 @@ icon: material/flip-to-front
     [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://invidious.io/donate/){ .card-link title=לתרומה }
 
-!!! אזהרה
+!!! warning "אזהרה"
 
     Invidious אינו מתווך זרמי וידאו כברירת מחדל. סרטונים שנצפו דרך Invidious עדיין יבצעו חיבורים ישירים לשרתים של Google (למשל `googlevideo.com '); עם זאת, יש מקרים שתומכים ב - proxying - פשוט מפעילים * סרטוני Proxy * בהגדרות המופעים או מוסיפים`&local=true `לכתובת האתר.
 
-!!! טיפ
+!!! tip "טיפ"
 
     Invidious שימושי אם ברצונך להשבית את JavaScript בדפדפן שלך, כגון [Tor Browser]( https://www.torproject.org/) ברמת האבטחה הבטוחה ביותר. הוא אינו מספק פרטיות בפני עצמו, ואנחנו לא ממליצים להיכנס לחשבונות כלשהם.
 
@@ -186,10 +213,28 @@ icon: material/flip-to-front
     [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=לתרומה }
 
-!!! טיפ
+!!! tip "טיפ"
 
     Piped שימושי אם ברצונך להשתמש ב - [SponsorBlock](https://sponsor.ajay.app) מבלי להתקין תוסף או לגשת לתוכן מוגבל לגיל ללא חשבון. הוא אינו מספק פרטיות בפני עצמו, ואנחנו לא ממליצים להיכנס לחשבונות כלשהם.
 
 בעת אירוח עצמי, חשוב כי יש לך אנשים אחרים באמצעות המקרה שלך, כמו גם על מנת שתוכל להשתלב. עליכם להיות זהירים לגבי המיקום והאופן שבו אתם מארחים Piped, מכיוון שהשימוש של אנשים אחרים יקושר לאירוח שלכם.
 
 כאשר אתה משתמש ב - Piped instance, הקפד לקרוא את מדיניות הפרטיות של אותו מופע ספציפי. בעליהם יכולים לשנות מופעים מקוטעים ולכן ייתכן שהם לא ישקפו את מדיניות הפרטיות המשויכת אליהם.
+
+## קריטריונים
+
+**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף [לקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+
+!!! example "חלק זה הוא חדש"
+
+    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו]( https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו בעת ביצוע ההמלצות שלנו אם זה לא מופיע כאן. ישנם גורמים רבים שנלקחים בחשבון ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+חזיתות מומלצות...
+
+- זה חייב להיות קוד פתוח.
+- חייב להיות ניתן לאירוח עצמי.
+- חייב לספק את כל הפונקציונליות הבסיסית של אתר האינטרנט הזמינה למשתמשים אנונימיים.
+
+אנו רואים רק חזיתות עבור אתרי אינטרנט שהם...
+
+- לא נגיש בדרך כלל ללא JavaScript.

@@ -3,7 +3,7 @@ title: "דפדפני אינטרנט לנייד"
 icon: material/cellphone-information
 ---
 
-אלה הם דפדפני האינטרנט הניידים המומלצים שלנו והגדרות לגלישה רגילה/לא אנונימית באינטרנט. אם אתה צריך לגלוש באינטרנט באופן אנונימי, אתה צריך להשתמש [Tor](tor.md) במקום. באופן כללי, אנו ממליצים לשמור על מינימום תוספים: יש להם הרשאות גישה בתוך הדפדפן שלך, דורשים ממך לבטוח במפתח, יכולים לגרום לך [להיות בולט](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), [ולהחליש](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ)את בידוד האתר.
+אלה הם דפדפני האינטרנט הניידים המומלצים שלנו והגדרות לגלישה רגילה/לא אנונימית באינטרנט. אם אתה צריך לגלוש באינטרנט באופן אנונימי, אתה צריך להשתמש [Tor](tor.md) במקום. באופן כללי, אנו ממליצים לשמור על מינימום תוספים: יש להם הרשאות גישה בתוך הדפדפן שלך, דורשים ממך לבטוח במפתח, יכולים לגרום לך [להיות בולט](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), [ולהחליש](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) את בידוד האתר.
 
 ## אנדרואיד
 
@@ -15,17 +15,17 @@ icon: material/cellphone-information
 
     ![לוגו אמיץ ]( assets/img/browsers/brave.svg){ align=right }
     
-    ** דפדפן Brave ** כולל חוסם תוכן מובנה ו [תכונות פרטיות ]( https://brave.com/privacy-features/), רבים מהם מופעלים כברירת מחדל.
+    **דפדפן Brave** כולל חוסם תוכן מובנה ו [תכונות פרטיות ]( https://brave.com/privacy-features/), רבים מהם מופעלים כברירת מחדל.
     
     Brave בנוי על פרויקט דפדפן Chromium, כך שהוא אמור להרגיש מוכר ושיהיו לו בעיות תאימות מינימליות לאתר.
     
-    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+    [:octicons-home-16: דף הבית](https://brave.com/){ .md-button .md-button--primary }
+    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="שירותי בצל" }
+    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="מדיניות פרטיות" }
+    [:octicons-info-16:](https://support.brave.com/){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="קוד מקור" }
     
-    ??? downloads "הורדות"
+    ??? downloads annotate "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
@@ -46,9 +46,9 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
 
 <div class="annotate" markdown>
 
-- [x] בחר **אגרסיבי ** תחת חסימת עוקבים ומודעות
+- [x] בחר **אגרסיבי** תחת חסימת עוקבים ומודעות
 
-    ??? אזהרה "השתמש ברשימות סינון המוגדרות כברירת מחדל"
+    ??? warning "השתמש ברשימות סינון המוגדרות כברירת מחדל"
         Brave מאפשר לך לבחור מסנני תוכן נוספים בתוך הדף `brave://adblock` הפנימי. אנו ממליצים שלא להשתמש בתכונה זו; במקום זאת, שמור את רשימות המסננים המוגדרות כברירת מחדל. שימוש ברשימות נוספות יגרום לך להתבלט ממשתמשים אמיצים אחרים ועשוי גם להגדיל את שטח ההתקפה אם יש ניצול של Brave וכלל זדוני מתווסף לאחת מהרשימות שבהן אתה משתמש.
 
 - [x] בחר **שדרג חיבורים ל- HTTPS**
@@ -95,7 +95,7 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
 
 !!! recommendation
 
-    ![Safari logo](assets/img/browsers/safari.svg){ align=right }
+    ![Safari לוגו](assets/img/browsers/safari.svg){ align=right }
     
     **Safari** הוא דפדפן ברירת המחדל ב - iOS. הוא כולל [תכונות פרטיות]( https://support.apple.com/guide/iphone/browse-theweb-privately-iphb01fc3c85/15.0/ios/15.0) כגון הגנת מעקב חכמה, דוח פרטיות, כרטיסיות גלישה פרטיות מבודדות, iCloud Private Relay ושדרוגים אוטומטיים של HTTPS.
     
@@ -153,17 +153,39 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
 
     ![AdGuard logo ]( assets/img/browsers/adguard.svg){ align=right }
     
-    ** AdGuard עבור iOS** היא הרחבה חינמית וחוסמת תוכן בקוד פתוח עבור Safari שמשתמשת ב [Content Blocker API ](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+    **AdGuard עבור iOS** היא הרחבה חינמית וחוסמת תוכן בקוד פתוח עבור Safari שמשתמשת ב [Content Blocker API ](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
     
     ל - AdGuard עבור iOS יש כמה תכונות פרימיום; עם זאת, חסימת תוכן ספארי רגילה היא ללא תשלום.
     
-    [:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+    [:octicons-home-16: דף הבית](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="מדיניות פרטיות" }
+    [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="קוד מקור" }
     
     ??? downloads "הורדות"
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 
 רשימות מסננים נוספות אכן מאטות דברים ועשויות להגדיל את שטח ההתקפה שלך, לכן החל רק את מה שאתה צריך.
+
+## קריטריונים
+
+**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף [לקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+
+!!! example "חלק זה הוא חדש"
+
+    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו]( https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו בעת ביצוע ההמלצות שלנו אם זה לא מופיע כאן. ישנם גורמים רבים שנלקחים בחשבון ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+### דרישות מינימליות
+
+- חייב לתמוך בעדכונים אוטומטיים.
+- חייב לקבל עדכוני מנוע בתוך 0 -1 ימים משחרורו במעלה הזרם.
+- כל שינוי שיידרש כדי להפוך את הדפדפן ליותר מכבד פרטיות לא צריך להשפיע לרעה על חוויית המשתמש.
+- דפדפני אנדרואיד חייבים להשתמש במנוע ה - Chromium.
+    - למרבה הצער, Mozilla GeckoView הוא עדיין פחות מאובטח מאשר Chromium על אנדרואיד.
+    - דפדפני iOS מוגבלים ל - WebKit.
+
+### קריטריונים להרחבה
+
+- אסור לשכפל דפדפן מובנה או פונקציונליות מערכת הפעלה.
+- חייב להשפיע ישירות על פרטיות המשתמש, כלומר לא חייב פשוט לספק מידע.

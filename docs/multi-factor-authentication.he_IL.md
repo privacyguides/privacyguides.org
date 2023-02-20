@@ -11,11 +11,11 @@ icon: 'material/two-factor-authentication'
 
     ![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
     
-    **YubiKeys ** הם בין מפתחות האבטחה הפופולריים ביותר. לדגמים מסוימים של YubiKey יש מגוון רחב של תכונות כגון: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)] (https://developers.yubico.com/PIV), [OpenPGP](https://developers.ubico.com/PGP/),[ TOOTTP and HPP (https://developers.OATico.com/pication).
+    **YubiKeys** הם בין מפתחות האבטחה הפופולריים ביותר. לחלק מדגמי YubiKey יש מגוון רחב של תכונות כגון: [גורם שני אוניברסלי (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 ו-WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [אימות זהות אישית (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP/),[TOTP ו HOTP](https://developers.yubico.com/OATH).
     
-    אחד היתרונות של YubiKey הוא שמפתח אחד יכול לעשות כמעט הכל (YubiKey 5), אתה יכול לצפות ממפתח אבטחת חומרה. אנו ממליצים לך לקחת את [quiz](https://www.yubico.com/quiz/) לפני הרכישה כדי לוודא שאתה עושה את הבחירה הנכונה.
+    אחד היתרונות של YubiKey הוא שמפתח אחד יכול לעשות כמעט הכל (YubiKey 5), שאפשר לצפות ממפתח אבטחת חומרה. אנו ממליצים לך לקחת את [חידון](https://www.yubico.com/quiz/) לפני הרכישה כדי לוודא שאתה עושה את הבחירה הנכונה.
     
-    [:octicons-home-16: Homepage](https://www.yubico.com){ .md-button .md-button--primary }
+    [:octicons-home-16: דף הבית](https://www.yubico.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="מדיניות פרטיות" }
     [:octicons-info-16:](https://docs.yubico.com/){ .card-link title=תיעוד}
 
@@ -25,8 +25,8 @@ icon: 'material/two-factor-authentication'
 
 עבור דגמים התומכים ב - HOTP וב - TOTP, ישנם 2 חריצים בממשק ה - OTP שניתן להשתמש בהם עבור HOTP ו -32 חריצים לאחסון סודות TOTP. סודות אלה מאוחסנים מוצפנים על המפתח ואף פעם לא לחשוף אותם למכשירים הם מחוברים. ברגע שזרע (סוד משותף) ניתן למאמת Yubico, הוא ייתן רק את הקודים בני שש הספרות, אך לעולם לא את הזרע. מודל אבטחה זה עוזר להגביל את מה שתוקף יכול לעשות אם הוא מסכן את אחד המכשירים המריצים את המאמת של Yubico והופך את ה - YubiKey לעמיד בפני תוקף פיזי.
 
-!!! אזהרה
-    הקושחה של YubiKey אינה קוד פתוח ואינה ניתנת לעדכון. אם אתה רוצה תכונות בגירסאות קושחה חדשות יותר, או אם יש פגיעות בגירסת הקושחה בה אתה משתמש, אתה צריך לרכוש מפתח חדש.
+!!! warning "אזהרה"
+     הקושחה של YubiKey אינה קוד פתוח ואינה ניתנת לעדכון. אם אתה רוצה תכונות בגרסאות קושחה חדשות יותר, או אם ישנה פגיעות בגרסת הקושחה שבה אתה משתמש, תצטרך לרכוש מפתח חדש.
 
 ### Nitrokey / Librem Key
 
@@ -34,33 +34,57 @@ icon: 'material/two-factor-authentication'
 
     ![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
     
-    ** ל - Nitrokey ** יש מפתח אבטחה המסוגל [FIDO2 and WebAuthn ](basics/multi-factor-authentication.md#fido-fast- Identity-online) בשם ** Nitrokey FIDO2 **. לקבלת תמיכה PGP, אתה צריך לרכוש אחד המפתחות האחרים שלהם כגון ** Nitrokey Start **,** Nitrokey Pro 2** או **Nitrokey Storage 2 **.
+    **ל - Nitrokey** יש מפתח אבטחה המסוגל ל- [FIDO2 ו- WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) בשם **Nitrokey FIDO2**. לתמיכה ב-PGP, עליך לרכוש אחד מהמפתחות האחרים שלהם כגון **Nitrokey Start**, **Nitrokey Pro 2** או **Nitrokey Storage 2**.
     
-    [:octicons-home-16: Homepage](https://www.nitrokey.com){ .md-button .md-button--primary }
+    [:octicons-home-16: דף הבית](https://www.nitrokey.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="מדיניות פרטיות" }
     [:octicons-info-16:](https://docs.nitrokey.com/){ .card-link title=תיעוד}
 
-[טבלת ההשוואה](https://www.nitrokey.com/#comparison) מציגה את התכונות ואת ההשוואה בין המודלים של Nitrokey. ל-**Nitrokey 3** המופיע ברשימה תהיה ערכת תכונות משולבת.
+[טבלת ההשוואה](https://www.nitrokey.com/#comparison) מציגה את התכונות ואת ההשוואה בין דגמי Nitrokey. ל**Nitrokey 3** המופיע ברשימה תהיה ערכת תכונות משולבת.
 
-ניתן להגדיר מודלים של Nitrokey באמצעות [אפליקציית Nitrokey](https://www.nitrokey.com/download).
+ניתן להגדיר דגמי Nitrokey באמצעות [Nitrokey app](https://www.nitrokey.com/download).
 
 עבור הדגמים התומכים ב - HOTP וב - TOTP, ישנם 3 חריצים עבור HOTP ו -15 עבור TOTP. Nitrokeys מסוימים יכולים לשמש כמנהל סיסמאות. הם יכולים לאחסן 16 אישורים שונים ולהצפין אותם באמצעות אותה סיסמה כמו ממשק OpenPGP.
 
-!!! אזהרה
+!!! warning "אזהרה"
 
     בעוד ש-Nitrokeys אינם משחררים את סודות ה-HOTP/TOTP למכשיר שאליו הם מחוברים, אחסון ה-HOTP וה-TOTP **לא** מוצפן ופגיע להתקפות פיזיות. אם אתם מחפשים לאחסן HOTP או TOTP סודות אלה, אנו ממליצים בחום להשתמש ב- Yubikey במקום זאת.
 
-!!! אזהרה
+!!! warning "אזהרה"
 
     איפוס ממשק OpenPGP על Nitrokey גם יגרום למסד הנתונים סיסמה [inaccessible](https://docs.nitrokey.com/pro/factory-reset.html).
 
- Nitrokey Pro 2, Nitrokey Storage 2, ואת Nitrokey 3 הקרוב תומך אימות שלמות המערכת עבור מחשבים ניידים עם [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) הקושחה. [מפתח Librem ](https://puri.sm/products/librem-key/)של Purism הוא NitroKey Pro 2 ממותג מחדש עם קושחה דומה וניתן להשתמש בו גם לאותן מטרות.
+ Nitrokey Pro 2, Nitrokey Storage 2 וה-Nitrokey 3 הקרובים תומכים באימות שלמות המערכת עבור מחשבים ניידים עם הקושחה [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/). [Librem Key](https://puri.sm/products/librem-key/) של Purism הוא NitroKey Pro 2 ממותג מחדש עם קושחה דומה וניתן להשתמש בו גם לאותן מטרות.
 
-הקושחה של Nitrokey היא קוד פתוח, בניגוד ל YubiKey. הקושחה בדגמי NitroKey מודרניים (למעט **NitroKey Pro 2**) ניתנת לעדכון.
+הקושחה של Nitrokey היא קוד פתוח, שלא כמו YubiKey. הקושחה בדגמי NitroKey המודרניים (למעט ה**NitroKey Pro 2**) ניתנת לעדכון.
 
-!!! טיפ
+!!! tip "טיפ"
 
-    אפליקציית Nitrokey, למרות שהיא תואמת ל-Librem Keys, דורשת 'libnitrokey' מגרסה 3.6 ומעלה כדי לזהות אותם. נכון לעכשיו, החבילה מיושנת ב-Windows, macOS ומאגר רוב הפצות הלינוקס, כך שסביר להניח שתצטרכו להרכיב את אפליקציית Nitrokey בעצמכם כדי לגרום לה לעבוד עם מפתח ליברם. על לינוקס, אתה יכול לקבל גרסה מעודכנת מ [Flathub](https://flathub.org/apps/details/com.nitrokey.nitrokey-app).
+    אפליקציית Nitrokey, על אף שהיא תואמת ל-Librem Keys, דורשת 'libnitrokey' גרסה 3.6 ומעלה כדי לזהות אותם. נכון לעכשיו, החבילה מיושנת ב-Windows, macOS ורוב ההפצות של לינוקס, כך שסביר להניח שתצטרך להרכיב את אפליקציית Nitrokey בעצמך כדי לגרום לה לעבוד עם מפתח Librem. על לינוקס, אתה יכול לקבל גרסה מעודכנת מ [Flathub](https://flathub.org/apps/details/com.nitrokey.nitrokey-app).
+
+### Aegis Authenticator
+
+**שימו לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל[קריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו מערכת ברורה של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+
+!!! example "חלק זה הוא חדש"
+
+    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+#### דרישות מינימליות
+
+- יש להשתמש במודולי אבטחה עמידים לחומרה באיכות גבוהה.
+- חייב לתמוך במפרט FIDO2 העדכני ביותר.
+- אסור לאפשר חילוץ מפתח פרטי.
+- מכשירים שעולים מעל $35 חייבים לתמוך בטיפול ב-OpenPGP וב-S/MIME.
+
+#### המקרה הטוב ביותר
+
+הקריטריונים הטובים ביותר שלנו מייצגים את מה שהיינו רוצים לראות מהפרויקט המושלם בקטגוריה זו. ייתכן שההמלצות שלנו לא יכללו חלק מהפונקציונליות הזו או את כולה, אך אלו שכן כן עשויות לדרג גבוה יותר מאחרות בדף זה.
+
+- אמור להיות זמין בפורמט USB-C.
+- אמור להיות זמין עם NFC.
+- אמור לתמוך באחסון סודי ב-TOTP.
+- אמור לתמוך בעדכוני קושחה מאובטחים.
 
 ## אפליקציות מאמתות
 
@@ -68,13 +92,13 @@ icon: 'material/two-factor-authentication'
 
 אנו ממליצים בחום להשתמש באפליקציות TOTP למכשירים ניידים במקום בחלופות לשולחן העבודה, מכיוון שלאנדרואיד ול-iOS יש אבטחה ובידוד אפליקציות טובים יותר מרוב מערכות ההפעלה השולחניות.
 
-### Aegis Authenticator
+### Aegis Authenticator (אנדרואיד)
 
 !!! recommendation
 
     ![Aegis לוגו](assets/img/multi-factor-authentication/aegis.png){ align=right }
     
-    **Aegis Authenticator** היא אפליקציית קוד פתוח חינמית, מאובטחת ופתוחה לניהול אסימוני האימות הדו-שלביים שלכם עבור השירותים המקוונים שלכם.
+    **Aegis Authenticator** היא אפליקציה חינמית, מאובטחת וקוד פתוח לניהול אסימוני האימות הדו-שלביים שלך עבור השירותים המקוונים שלך.
     
     [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="מדיניות פרטיות" }
@@ -87,7 +111,7 @@ icon: 'material/two-factor-authentication'
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
         - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
 
-### Raivo OTP
+### Raivo OTP (iOS)
 
 !!! recommendation
 
@@ -95,7 +119,7 @@ icon: 'material/two-factor-authentication'
     
     **Raivo OTP** הוא קליינט סיסמאות מקורי, קל משקל ומאובטח מבוסס זמן (TOTP) & ומבוסס נגד (HOTP) עבור iOS. Raivo OTP מציע אופציונלי גיבוי iCloud & סנכרון. Raivo OTP זמין גם עבור macOS בצורה של יישום שורת מצב, אולם יישום Mac אינו פועל ללא תלות ביישום iOS.
     
-    [:octicons-home-16: Homepage](https://raivo-otp.com){ .md-button .md-button--primary }
+    [:octicons-home-16: דף הבית](https://raivo-otp.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://raivo-otp.com/privacy-policy){ .card-link title="מדיניות פרטיות" }
     [:octicons-code-16:](https://github.com/raivo-otp/ios-application){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title=לתרומה }
@@ -103,3 +127,16 @@ icon: 'material/two-factor-authentication'
     ??? downloads "הורדות"
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
+
+### קריטריונים
+
+**שימו לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל[קריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו מערכת ברורה של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+
+!!! example "חלק זה הוא חדש"
+
+    אנו עובדים על קביעת קריטריונים מוגדרים עבור כל חלק באתר שלנו, וזה עשוי להיות נתון לשינויים. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+- זה חייב להיות קוד פתוח.
+- אין צורך בחיבור לאינטרנט.
+- אסור לסנכרן לשירות סנכרון/גיבוי בענן של צד שלישי.
+    - **אופציונלי** תמיכה בסנכרון E2EE עם כלים מקוריים של מערכת ההפעלה מקובלת, למשל. סנכרון מוצפן באמצעות iCloud.

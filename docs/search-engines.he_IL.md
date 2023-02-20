@@ -13,53 +13,53 @@ icon: material/search-web
 
 !!! recommendation
 
-    ![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
+    ![Brave Search לוגו](assets/img/search-engines/brave-search.svg){ align=right }
     
-    **Brave Search ** פותח על ידי Brave ומשרת בעיקר תוצאות מהאינדקס העצמאי שלה. האינדקס ממוטב כנגד חיפוש גוגל ולכן עשוי לספק תוצאות מדויקות יותר מבחינה הקשרית בהשוואה לחלופות אחרות.
+    **Brave Search** פותח על ידי Brave ומגיש תוצאות בעיקר מאינדקס עצמאי משלו. האינדקס מותאם לחיפוש Google ולכן עשוי לספק תוצאות מדויקות יותר מבחינה הקשרית בהשוואה לחלופות אחרות.
     
-    מנוע חיפוש Brave כולל תכונות ייחודיות כגון דיונים, אשר מדגישות תוצאות ממוקדות בשיחה - כגון פוסטים בפורום.
+    Brave Search כולל תכונות ייחודיות כגון דיונים, המדגישים תוצאות הממוקדות בשיחה - כגון הודעות בפורום.
     
-    אנו ממליצים לך להשבית את [מדדי השימוש האנונימיים]( https://search.brave.com/help/usage-metrics) מכיוון שהוא מופעל כברירת מחדל וניתן להשבית אותו בתוך הגדרות.
+    אנו ממליצים להשבית את [מדדי שימוש אנונימיים](https://search.brave.com/help/usage-metrics) מכיוון שהוא מופעל כברירת מחדל וניתן להשבית אותו בהגדרות.
     
-    [:octicons-home-16: Homepage](https://search.brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
+    [:octicons-home-16: דף הבית](https://search.brave.com/){ .md-button .md-button--primary }
+    [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="שירותי בצל" }
+    [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="מדיניות פרטיות" }
+    [:octicons-info-16:](https://search.brave.com/help){ .card-link title=תיעוד}
 
-חיפוש Brave מבוסס בארצות הברית. מדיניות הפרטיות [שלהם](https://search.brave.com/help/privacy-policy) קובעת כי הם אוספים מדדי שימוש מצטברים, הכוללים את מערכת ההפעלה והדפדפן שבשימוש, אך לא נאסף מידע המאפשר זיהוי אישי. כתובות ה - IP מעובדות באופן זמני, אך אינן נשמרות.
+Brave Search מבוסס בארצות הברית. [מדיניות הפרטיות](https://search.brave.com/help/privacy-policy) שלהם קובעת שהם אוספים מדדי שימוש מצטברים, הכוללים את מערכת ההפעלה והדפדפן שבשימוש, אולם לא נאסף מידע המאפשר זיהוי אישי. כתובות ה - IP מעובדות באופן זמני, אך אינן נשמרות.
 
 ## DuckDuckGo
 
 !!! recommendation
 
-    ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
+    ![DuckDuckGo לוגו](assets/img/search-engines/duckduckgo.svg){ align=right }
     
-    **DuckDuckGo** היא אחת מאפשרויות מנוע החיפוש הפרטיות הפופולריות יותר של הזרם המרכזי. תכונות חיפוש ראויות לציון של DuckDuckGo כוללות [bangs](https://duckduckgo.com/bang) והרבה [תשובות מיידיות]( https://help.duckduckgo.com/duckgo-help-pages/features/instant-answers-and-other-features/). מנוע החיפוש מסתמך על ממשק API מסחרי של Bing כדי להציג את רוב התוצאות, אך הוא משתמש במספר רב של [מקורות אחרים]( https://help.duckduckgo.com/results/sources/) כדי לקבל תשובות מיידיות ותוצאות אחרות שאינן ראשיות.
+    **DuckDuckGo** היא אחת האפשרויות היותר מיינסטרימיות של מנועי חיפוש פרטיים. תכונות חיפוש בולטות של DuckDuckGo כוללות [bangs](https://duckduckgo.com/bang) ורבים[instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). מנוע החיפוש מסתמך על API מסחרי של Bing כדי לשרת את רוב התוצאות, אך הוא משתמש במספר רב של [מקורות אחרים](https://help.duckduckgo.com/results/sources/) לתשובות מיידיות ולתוצאות אחרות שאינן ראשוניות.
     
-    DuckDuckGo הוא מנוע החיפוש המוגדר כברירת מחדל עבור דפדפן Tor והוא אחת מהאפשרויות הבודדות הזמינות בדפדפן Safari של אפל.
+    DuckDuckGo הוא מנוע החיפוש המוגדר כברירת מחדל עבור דפדפן Tor והוא אחת האפשרויות הבודדות הזמינות בדפדפן ספארי של אפל.
     
-    [:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=Documentation}
+    [:octicons-home-16: דף הביץ](https://duckduckgo.com){ .md-button .md-button--primary }
+    [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="שירותי בצל" }
+    [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="מדיניות פרטיות" }
+    [:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=תיעוד}
 
-DuckDuckGo ממוקם בארצות הברית. מדיניות הפרטיות [שלהם](https://duckduckgo.com/privacy) קובעת שהם **או** שומרים את החיפושים שלך למטרות שיפור מוצרים, אך לא את כתובת ה-IP שלך או כל מידע מזהה אישי אחר.
+DuckDuckGo מבוססת בארצות הברית. [מדיניות הפרטיות](https://duckduckgo.com/privacy) שלהם קובעת **שהם** שומרים את החיפושים שלך למטרות שיפור מוצרים, אך לא את כתובת ה-IP שלך או כל מידע מזהה אישי אחר.
 
-DuckDuckGo מציעה שתי [גרסאות נוספות](https://help.duckduckgo.com/features/non-javascript/) של מנוע החיפוש שלהם, שתיהן אינן דורשות JavaScript. עם זאת, בגרסאות אלה חסר תכונות. ניתן להשתמש בגרסאות אלו גם בשילוב עם כתובת הבצל [Tor שלהם](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/) על ידי סיפוח [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) או [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) עבור הגרסה המתאימה.
+DuckDuckGo מציעה שתי [גרסאות נוספות](https://help.duckduckgo.com/features/non-javascript/) של מנוע החיפוש שלהם, שניהם אינם דורשים JavaScript. עם זאת, בגרסאות אלה חסר תכונות. ניתן להשתמש בגרסאות אלה גם בשילוב עם [כתובת הבצל ](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/)Tor שלהם על ידי צירוף [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) או [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) עבור הגרסה המתאימה.
 
 ## SearXNG
 
 !!! recommendation
 
-    ![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
+    ![SearXNG לוגו](assets/img/search-engines/searxng.svg){ align=right }
     
-    ** SearXNG ** הוא מנוע מטא חיפוש פתוח, המאפשר אחסון עצמי, המקבץ את התוצאות של מנועי חיפוש אחרים ואינו מאחסן מידע בעצמו. זהו נגזר מתוחזק באופן פעיל של [SearX](https://github.com/searx/searx).
+    **SearXNG** הוא מנוע מטא-חיפוש בקוד פתוח, הניתן לאירוח עצמי, וצובר את התוצאות של מנועי חיפוש אחרים תוך שהוא אינו מאחסן מידע כלשהו. זהו נגזר מתוחזק באופן פעיל של [SearX](https://github.com/searx/searx).
     
-    [:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://searx.space/){ .card-link title="Public Instances"}
-    [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
+    [:octicons-home-16: דף הבית](https://searxng.org){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://searx.space/){ .card-link title="מופעים ציבוריים"}
+    [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="קוד מקור" }
 
-SearXNG הוא פרוקסי בינך לבין מנועי החיפוש שהוא צובר. שאילתות החיפוש שלך עדיין יישלחו למנועי החיפוש שמהם SearXNG תקבל את תוצאותיה.
+SearXNG הוא פרוקסי בינך לבין מנועי החיפוש שמהם הוא צובר. שאילתות החיפוש שלך עדיין יישלחו למנועי החיפוש שמהם SearXNG מקבל את תוצאותיו.
 
 בעת אירוח עצמי, חשוב שאנשים אחרים ישתמשו במקרה שלך כדי שהשאילתות ישתלבו. עליכם להיזהר היכן וכיצד אתם מארחים את SearXNG, מכיוון שאנשים שמחפשים תוכן לא חוקי בהפצה שלכם עלולים למשוך תשומת לב לא רצויה מהרשויות.
 
@@ -69,19 +69,39 @@ SearXNG הוא פרוקסי בינך לבין מנועי החיפוש שהוא �
 
 !!! recommendation
 
-    ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
-    ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
+    ![Startpage לוגו](assets/img/search-engines/startpage.svg#only-light){ align=right }
+    ![Startpage לוגו](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
     
-    **Startpage** הוא מנוע חיפוש פרטי הידוע בכך שהוא מציג תוצאות חיפוש של גוגל.  אחד המאפיינים הייחודיים של Startpage הוא [תצוגה אנונימית]( https://www.startpage.com/en/anonymous-view/), אשר משקיע מאמצים בסטנדרטיזציה של פעילות משתמשים כדי להקשות על זיהוי ייחודי. התכונה יכולה להיות שימושית להסתרת [some](https://support.startpage.com/hc/en-us/articles/4455540212116-the-onymous-View-proxy-technical-details) מאפייני הרשת והדפדפן. שלא כמו שהשם מרמז, אין להסתמך על התכונה לאנונימיות. אם אתה מחפש אנונימיות, השתמש במקום זאת ב [Tor Browser]( tor.md#tor - browser).
+    **Startpage** הוא מנוע חיפוש פרטי הידוע בכך שהוא משרת את תוצאות החיפוש של גוגל.  אחת התכונות הייחודיות של Startpage היא [תצוגה אנונימית](https://www.startpage.com/en/anonymous-view/), שמשקיעה מאמצים בסטנדרטיזציה של פעילות המשתמשים כדי להקשות על זיהוי ייחודי. התכונה יכולה להיות שימושית להסתרת [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) מאפייני הרשת והדפדפן. שלא כמו שהשם מרמז, אין להסתמך על התכונה לאנונימיות. אם אתה מחפש אנונימיות, השתמש במקום זאת ב [Tor Browser]( tor.md#tor - browser).
     
-    [:octicons-home-16: Homepage](https://www.startpage.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
+    [:octicons-home-16: דף הבית](https://www.startpage.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="מדיניות פרטיות" }
+    [:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=תיעוד}
 
-!!! אזהרה
+!!! warning "אזהרה"
 
-    Startpage מגביל באופן קבוע את גישת השירות לכתובות IP מסוימות, כגון כתובות IP המיוחסות לשירותי VPN או Tor. [DuckDuckGo](# duckduckgo) ו -[ Brave Search](# brave - search) הן אפשרויות ידידותיות יותר אם מודל האיום שלך דורש להסתיר את כתובת ה - IP שלך מספק החיפוש.
+    Startpage מגביל באופן קבוע את גישת השירות לכתובות IP מסוימות, כגון כתובות IP שמורות ל-VPN או Tor. [DuckDuckGo](#duckduckgo) ו-[Brave Search](#brave-search) הן אפשרויות ידידותיות יותר אם מודל האיום שלך דורש הסתרת כתובת ה-IP שלך מספק החיפוש.
 
-אתר StartPage ממוקם בהולנד. בהתאם למדיניות הפרטיות [שלהם](https://www.startpage.com/en/privacy-policy/), הם שומרים פרטים כגון: מערכת הפעלה, סוג דפדפן ושפה. הם לא שומרים את כתובת ה - IP, שאילתות החיפוש או פרטים מזהים אחרים.
+Startpage מבוסס בהולנד. לפי [מדיניות הפרטיות](https://www.startpage.com/en/privacy-policy/) שלהם, הם רושמים פרטים כגון: מערכת הפעלה, סוג הדפדפן והשפה. הם לא רושמים את כתובת ה-IP שלך, שאילתות חיפוש או מידע אישי מזהה אחר.
 
-בעלת המניות העיקרית של Startpage היא System1, שהיא חברה פרסומית. אנחנו לא מאמינים שזו בעיה מכיוון שיש להם מדיניות פרטיות [נפרדת באופן מובהק](https://system1.com/terms/privacy-policy). צוות מדריכי הפרטיות פנה ל - Startpage [בשנת 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/) כדי להבהיר את החששות לגבי ההשקעה הגדולה של System1 בשירות. היינו מרוצים מהתשובות שקיבלנו.
+בעלת המניות הרוב של Startpage היא System1 שהיא חברת adtech. אנחנו לא מאמינים שזו בעיה מכיוון שיש להם [מדיניות פרטיות](https://system1.com/terms/privacy-policy) נפרדת באופן מובהק. צוות Privacy Guides פנה אל Startpage [בשנת 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/) כדי לפתור את כל החששות מההשקעה הגדולה של System1 בשירות. היינו מרוצים מהתשובות שקיבלנו.
+
+## קריטריונים
+
+**שימו לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל[קריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו מערכת ברורה של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+
+!!! example "חלק זה הוא חדש"
+
+    אנו עובדים על קביעת קריטריונים מוגדרים עבור כל חלק באתר שלנו, וזה עשוי להיות נתון לשינויים. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+### דרישות מינימליות
+
+- אסור לאסוף מידע המאפשר זיהוי אישי בהתאם למדיניות הפרטיות שלהם.
+- אסור לאפשר למשתמשים ליצור חשבון אצלם.
+
+### המקרה הטוב ביותר
+
+הקריטריונים הטובים ביותר שלנו מייצגים את מה שהיינו רוצים לראות מהפרויקט המושלם בקטגוריה זו. ייתכן שההמלצות שלנו לא יכללו חלק מהפונקציונליות הזו או את כולה, אך אלו שכן כן עשויות לדרג גבוה יותר מאחרות בדף זה.
+
+- צריך להיות מבוסס על תוכנת קוד פתוח.
+- אין לחסום את כתובות ה - IP של צומת היציאה של Tor.

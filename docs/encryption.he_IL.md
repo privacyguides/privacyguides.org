@@ -61,12 +61,12 @@ Cryptomator משתמש בהצפנת AES-256 כדי להצפין קבצים וש�
 
 !!! recommendation
 
-    ![לוגו של VeraCrypt](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
-    ![לוגו של VeraCrypt](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }}
+    ![VeraCrypt לוגו](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
+    ![VeraCrypt לוגו](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
     
     **VeraCrypt** הוא כלי תוכנה חופשית זמין במקור המשמש להצפנה תוך כדי תנועה. הוא יכול ליצור דיסק מוצפן וירטואלי בתוך קובץ, להצפין מחיצה או להצפין את התקן האחסון כולו באמצעות אימות טרום-אתחול.
     
-    [:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
+    [:octicons-home-16: דף הבית](https://veracrypt.fr){ .md-button .md-button--primary }
     [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=תיעוד}
     [:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=לתרומה }
@@ -87,19 +87,19 @@ Truecrypt נבדק [מספר פעמים](https://en.wikipedia.org/wiki/TrueCrypt
 
 מערכות הפעלה מודרניות כוללות [FDE](https://en.wikipedia.org/wiki/Disk_encryption) ויהיה [מעבד קריפטו מאובטח](https://en.wikipedia.org/wiki/Secure_cryptoprocessor).
 
-### ביטלוקר - BitLocker
+### BitLocker
 
 !!! recommendation
 
-    ![BitLocker logo ](assets/img/encryption-software/bitlocker.png){ align=right }
+    ![BitLocker נתיב](assets/img/encryption-software/bitlocker.png){ align=right }
     
-    **BitLocker ** הוא פתרון ההצפנה בנפח מלא עם חלונות של מייקרוסופט. הסיבה העיקרית להמלצה היא [השימוש ב - TPM]( https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). [ElcomSoft](https://en.wikipedia.org/wiki/ElcomSoft), חברת זיהוי פלילי, כתבה על כך ב -[ הבנה של BitLocker TPM Protection]( https://blog.elcomsoft.com/2021/01/understanding-bitLocker-tpm-protection/).
+    **BitLocker** הוא פתרון ההצפנה בנפח מלא עם חלונות של מייקרוסופט. הסיבה העיקרית להמלצה היא [השימוש ב - TPM]( https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). [ElcomSoft](https://en.wikipedia.org/wiki/ElcomSoft), חברת זיהוי פלילי, כתבה על כך ב -[ הבנה של BitLocker TPM Protection]( https://blog.elcomsoft.com/2021/01/understanding-bitLocker-tpm-protection/).
     
     [:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentation}
 
 BitLocker [נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) במהדורות Pro, Enterprise ו- Education של Windows. זה יכול להיות מופעל במהדורות הבית בתנאי שהם עומדים בדרישות המוקדמות.
 
-??? דוגמה "הפיכת BitLocker לזמין ב- Windows Home"
+??? example "הפיכת BitLocker לזמין ב- Windows Home"
 
     כדי להפוך את BitLocker לזמין במהדורות "בית" של Windows, עליך לאתחל מחיצות באמצעות [טבלת מחיצות GUID](https://en.wikipedia.org/wiki/GUID_Partition_Table) ומודול TPM ייעודי (v1.2, 2.0+).
 
@@ -133,7 +133,7 @@ BitLocker [נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-de
         manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
         ```
 
-        !!! חשוב
+        !!! tip
    
         גיבוי `BitLocker-Recovery-Key.txt` בשולחן העבודה שלך למכשיר אחסון נפרד. אובדן קוד שחזור זה עלול לגרום לאובדן נתונים.
 
@@ -141,7 +141,7 @@ BitLocker [נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-de
 
 !!! recommendation
 
-    ![FileVault logo ](assets/img/encryption-software/filevault.png){ align=right }
+    ![FileVault נתיב](assets/img/encryption-software/filevault.png){ align=right }
     
     **FileVault** הוא פתרון הצפנת אמצעי אחסון תוך כדי תנועה המובנה ב-macOS. FileVault מומלץ מכיוון שהוא מכיל [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) יכולות אבטחת חומרה הנמצאות על שבב אבטחת סיליקון מסוג Apple SoC או T2.
     
@@ -161,13 +161,12 @@ BitLocker [נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-de
     [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=תיעוד}
     [:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup/){ .card-link title="קוד מקור" }
 
-??? דוגמה "יצירה ופתיחה של גורמים מכילים מוצפנים"
+??? example "יצירה ופתיחה של גורמים מכילים מוצפנים"
 
     ```
     dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
     sudo cryptsetup luksFormat /path-to-file
     ```
-
 
     #### פתיחת קונטיינרים מוצפנים
     אנו ממליצים לפתוח קונטיינרים ואמצעי אחסון עם `udisksctl' מכיוון שמשתמש עם זה [Polkit](https://en.wikipedia.org/wiki/Polkit). רוב מנהלי הקבצים, כגון אלה הכלולים בסביבות שולחן עבודה פופולריות, יכולים לבטל את הנעילה של קבצים מוצפנים. כלים כמו [udiskie](https://github.com/coldfix/udiskie) יכול לפעול במגש המערכת ולספק ממשק משתמש מועיל.
@@ -176,7 +175,7 @@ BitLocker [נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-de
     udisksctl unlock -b /dev/loop0
     ```
 
-!!! note "זכור לגבות כותרות של אמצעי אחסון"
+!!! note "זכור לגבות את כותרות עוצמת הקול"
 
     אנו ממליצים לך תמיד [לגבות את כותרות LUKS שלך](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) במקרה של כשל חלקי בכונן. ניתן לעשות זאת באמצעות:
 
@@ -192,10 +191,10 @@ BitLocker [נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-de
 
 !!! recommendation
 
-    ![hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ align=right }
-    ![hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ align=right }
+    ![hat.sh לוגו](assets/img/encryption-software/hat-sh.png#only-light){ align=right }
+    ![hat.sh לוגו](assets/img/encryption-software/hat-sh-dark.png#only-dark){ align=right }
     
-    ***Hat.sh** הוא יישום אינטרנט המספק הצפנת קבצים מאובטחת בצד הלקוח בדפדפן שלך. הוא גם יכול להיות באחסון עצמי והוא שימושי אם אתה צריך להצפין קובץ אבל לא יכול להתקין שום תוכנה במכשיר שלך בגלל מדיניות ארגונית.
+    **Hat.sh** הוא יישום אינטרנט המספק הצפנת קבצים מאובטחת בצד הלקוח בדפדפן שלך. הוא גם יכול להיות באחסון עצמי והוא שימושי אם אתה צריך להצפין קובץ אבל לא יכול להתקין שום תוכנה במכשיר שלך בגלל מדיניות ארגונית.
     
     [:octicons-globe-16: Website](https://hat.sh){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://hat.sh/about/){ .card-link title="מדיניות פרטיות" }
@@ -211,9 +210,9 @@ BitLocker [נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-de
 
 !!! recommendation
 
-    ![לוגו קריפטור ](assets/img/encryption-software/kryptor.png){ align=right }
+    ![Kryptor לוגו](assets/img/encryption-software/kryptor.png){ align=right }
     
-    ** Kryptor ** הוא כלי הצפנה וחתימה של קבצים בקוד פתוח אשר עושה שימוש באלגוריתמים קריפטוגרפיים מודרניים ומאובטחים. מטרתו להיות גרסה טובה יותר [age](https://github.com/FiloSottile/age) ו [Minisign](https://jedisct1.github.io/minisign/) כדי לספק חלופה פשוטה וקלה יותר ל-GPG.
+    **Kryptor** הוא כלי חופשי וקוד פתוח להצפנה וחתימה על קבצים העושה שימוש באלגוריתמים קריפטוגרפיים מודרניים ומאובטחים. מטרתו להיות גרסה טובה יותר [age](https://github.com/FiloSottile/age) ו [Minisign](https://jedisct1.github.io/minisign/) כדי לספק חלופה פשוטה וקלה יותר ל-GPG.
     
     [:octicons-home-16: Homepage](https://www.kryptor.co.uk){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="מדיניות פרטיות" }
@@ -235,10 +234,10 @@ BitLocker [נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-de
     
     **Tomb** הוא עטיפת מעטפת שורת פקודה עבור LUKS. הוא תומך סטגנוגרפיה באמצעות [כלי צד שלישי](https://github.com/dyne/Tomb#how-does-it-work).
     
-    [:octicons-home-16: Homepage](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.dyne.org/donate){ .card-link title=Contribute }
+    [:octicons-home-16: דף הבית](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="קוד מקור" }
+    [:octicons-heart-16:](https://www.dyne.org/donate){ .card-link title=לתרומה }
 
 ## OpenPGP
 
@@ -258,9 +257,9 @@ OpenPGP נחוץ לעתים למשימות ספציפיות כגון חתימה 
 
 !!! recommendation
 
-    ![GNU Privacy Guard logo](assets/img/encryption-software/gnupg.svg){ align=right }
+    ![GNU Privacy Guard לוגו](assets/img/encryption-software/gnupg.svg){ align=right }
     
-    **GnuPG** היא חלופה ברישיון GPL לחבילת תוכנות ההצפנה PGP. GnuPG עומד בתקן [RFC 4880]( https://tools.ietf.org/html/rfc4880), שהוא המפרט הנוכחי של IETF ב OpenPGP. הפרויקט GnuPG עבד על [טיוטה מעודכנת](https://datracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) בניסיון לחדש את OpenPGP. GnuPG הוא חלק מפרויקט התוכנה GNU של קרן התוכנה החופשית וקיבל [funding]מרכזי (https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) מממשלת גרמניה.
+    **GnuPG** היא חלופה ברישיון GPL לחבילת תוכנות ההצפנה PGP. GnuPGGnuPG תואם ל-[RFC 4880](https://tools.ietf.org/html/rfc4880), שהוא מפרט ה-IETF הנוכחי של OpenPGP. פרויקט GnuPG עובד על [טיוטה מעודכנת](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) בניסיון להפוך את OpenPGP למודרני. GnuPG הוא חלק מפרויקט התוכנה GNU של קרן התוכנה החופשית וקיבל [funding]מרכזי (https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) מממשלת גרמניה.
     
     [:octicons-home-16: Homepage](https://gnupg.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="מדיניות פרטיות" }
@@ -294,9 +293,9 @@ OpenPGP נחוץ לעתים למשימות ספציפיות כגון חתימה 
 
 ### GPG Suite
 
-!!! הערה
+!!! note "הערה"
 
-    אנו מציעים [Canary Mail](email-clients.md#canary-eail) לשימוש ב - PGP עם דוא"ל במכשירי iOS.
+    אנו מציעים [דואר קנרי](email-clients.md#canary-mail) לשימוש ב-PGP עם דוא"ל במכשירי iOS.
 
 !!! recommendation
 
@@ -323,7 +322,7 @@ OpenPGP נחוץ לעתים למשימות ספציפיות כגון חתימה 
     
     **OpenKeychain ** הוא יישום אנדרואיד של GnuPG. זה נדרש בדרך כלל על ידי לקוחות דואר כגון [K-9 Mail](email-clients.md#k-9-mail) ו-[FairEmail](email-clients.md#fairemail) ואפליקציות אנדרואיד אחרות כדי לספק תמיכה בהצפנה. Cure53 השלימה [ביקורת אבטחה](https://www.openkeychain.org/openkeychain-3-6) של OpenKeychain 3.6 באוקטובר 2015. פרטים טכניים על הביקורת ועל הפתרונות של OpenKeychain ניתן למצוא [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
     
-    [:octicons-home-16: Homepage](https://www.openkeychain.org){ .md-button .md-button--primary }
+    [:octicons-home-16: דף הבית](https://www.openkeychain.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="מדיניות פרטיות" }
     [:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="קוד מקור" }
@@ -332,3 +331,25 @@ OpenPGP נחוץ לעתים למשימות ספציפיות כגון חתימה 
     ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+
+## קריטריונים
+
+**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף [לקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+
+!!! example "חלק זה הוא חדש"
+
+    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו]( https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו בעת ביצוע ההמלצות שלנו אם זה לא מופיע כאן. ישנם גורמים רבים שנלקחים בחשבון ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+### כישורים מינימליים
+
+- אפליקציות הצפנה חוצות פלטפורמות חייבות להיות בקוד פתוח.
+- יישומי הצפנת קבצים חייבים לתמוך בפענוח ב - Linux, MacOS ו - Windows.
+- יישומי הצפנת דיסק חיצוניים חייבים לתמוך בפענוח ב - Linux, MacOS ו - Windows.
+- יישומי הצפנת דיסק פנימיים (OS) חייבים להיות חוצי פלטפורמות או מובנים במערכת ההפעלה באופן מקורי.
+
+### המקרה הטוב ביותר
+
+הקריטריונים שלנו במקרה הטוב ביותר מייצגים את מה שהיינו רוצים לראות מהפרויקט המושלם בקטגוריה זו. ההמלצות שלנו לא יכולות לכלול את כל הפונקציונליות הזו או את כולה, אך אלה שכן דורגו גבוה יותר מאחרים בדף זה.
+
+- יישומי הצפנה של מערכת הפעלה (FDE) צריכים להשתמש באבטחת חומרה כגון TPM או Secure Enclave.
+- אפליקציות להצפנת קבצים צריכות לקבל תמיכה ראשונה או שלישית בפלטפורמות לנייד.
