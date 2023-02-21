@@ -11,7 +11,7 @@ icon: material/laptop
 
     ![לוגו Firefox](נכסים/img/דפדפנים/firefox.svg){ align=right }
     
-    **Firefox ** מספק הגדרות פרטיות חזקות כגון [Enhanced Tracking Protection ]( https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), שיכול לעזור לחסום [סוגי מעקב] שונים (https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-protection-blocks).
+    **Firefox** מספק הגדרות פרטיות חזקות כגון [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), שיכול לעזור לחסום שונים [סוגי מעקב](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-protection-blocks).
     
     [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
@@ -19,17 +19,17 @@ icon: material/laptop
     [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
         - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
         - [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
 
-!!! warning
+!!! warning "אַזהָרָה"
     פיירפוקס כולל [אסימון הורדה](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) בהורדות מאתר האינטרנט של מוזילה ומשתמש בטלמטריה בפיירפוקס כדי לשלוח את האסימון. האסימון הוא **ולא** כלול במהדורה מ [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
-### Firefox
+### תצורה מומלצת
 
 דפדפן Tor הוא הדרך היחידה לגלוש באינטרנט באופן אנונימי. כאשר אתה משתמש ב - Firefox, אנו ממליצים לשנות את ההגדרות הבאות כדי להגן על הפרטיות שלך מצדדים מסוימים, אך כל הדפדפנים שאינם [Tor Browser](tor.md#tor-browser) יהיו ניתנים למעקב על ידי *מישהו* במובן זה או אחר.
 
@@ -60,7 +60,7 @@ icon: material/laptop
 ##### טלמטריה
 
 - [ ] בטל את הסימון **אפשר ל - Thunderbird לשלוח נתונים טכניים ונתוני אינטראקציה ל - Mozilla**
-- [] בטל את הסימון **אפשר ל - Firefox להתקין ולהריץ מחקרים**
+- [ ] בטל את הסימון **אפשר ל - Firefox להתקין ולהריץ מחקרים**
 - [ ] בטל את הסימון **אפשר ל - Firefox לשלוח דוחות קריסה עמוסים בשמך**
 
 > Firefox שולח נתונים על הגרסה והשפה של Firefox; תצורת מערכת ההפעלה והחומרה של המכשיר; זיכרון, מידע בסיסי על קריסות ושגיאות; תוצאה של תהליכים אוטומטיים כמו עדכונים, גלישה בטוחה והפעלה אלינו. כאשר Firefox שולח אלינו נתונים, כתובת ה - IP שלך נאספת באופן זמני כחלק מיומני השרת שלנו.
@@ -82,7 +82,7 @@ icon: material/laptop
 
 ### Arkenfox (מתקדם)
 
-פרויקט [Arkenfox](https://github.com/arkenfox/user.js) מספק קבוצה של אפשרויות שנשקלו בקפידה עבור Firefox. אם תחליט [](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) להשתמש ב - Arkenfox, [אפשרויות](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) הן קפדניות באופן סובייקטיבי ו/או עלולות לגרום לאתרים מסוימים לא לעבוד כראוי - [שבו אתה יכול בקלות לשנות](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) כדי שיתאימו לצרכים שלך. אנו ממליצים בחום **** קריאה דרך [ויקי](https://github.com/arkenfox/user.js/wiki)המלא שלהם. Arkenfox מאפשר גם תמיכה ב - [מכולה](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users).
+פרויקט [Arkenfox](https://github.com/arkenfox/user.js) מספק קבוצה של אפשרויות שנשקלו בקפידה עבור Firefox. אם [תחליט](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) להשתמש ב - Arkenfox, [אפשרויות](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) הן קפדניות באופן סובייקטיבי ו/או עלולות לגרום לאתרים מסוימים לא לעבוד כראוי - [שבו אתה יכול בקלות לשנות](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) כדי שיתאימו לצרכים שלך. אנו **ממליצים בחום** קריאה דרך [ויקי](https://github.com/arkenfox/user.js/wiki)המלא שלהם. Arkenfox מאפשר גם תמיכה ב - [מכולה](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users).
 
 ## Brave
 
@@ -90,7 +90,7 @@ icon: material/laptop
 
     ![Brave לוגו](assets/img/browsers/brave.svg){ align=right }
     
-    ** דפדפן Brave ** כולל חוסם תוכן מובנה ו [תכונות פרטיות ]( https://brave.com/privacy-features/), רבים מהם מופעלים כברירת מחדל.
+    **דפדפן Brave** כולל חוסם תוכן מובנה ו [תכונות פרטיות ]( https://brave.com/privacy-features/), רבים מהם מופעלים כברירת מחדל.
     
     Brave בנוי על פרויקט דפדפן Chromium, כך שהוא אמור להרגיש מוכר ושיהיו לו בעיות תאימות מינימליות לאתר.
     
@@ -100,7 +100,7 @@ icon: material/laptop
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="קוד פתוח" }
     
-    ??? annotate הורדות
+    ??? downloads annotate "הורדות"
     
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
         - [:simple-windows11: Windows](https://brave.com/download/)
@@ -123,10 +123,10 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
 
 <div class="annotate" markdown>
 
-- [x] בחר **מנע מאתרים לקחת ממני טביעות אצבע בהתבסס על העדפות השפה שלי **
-- [x] בחר **אגרסיבי ** תחת חסימת עוקבים ומודעות
+- [x] בחר **מנע מאתרים לקחת ממני טביעות אצבע בהתבסס על העדפות השפה שלי**
+- [x] בחר **אגרסיבי** תחת חסימת עוקבים ומודעות
 
-    ??? אזהרה "השתמש ברשימות סינון המוגדרות כברירת מחדל"
+    ??? warning "השתמש ברשימות סינון המוגדרות כברירת מחדל"
         Brave מאפשר לך לבחור מסנני תוכן נוספים בתוך הדף `brave://adblock` הפנימי. אנו ממליצים שלא להשתמש בתכונה זו; במקום זאת, שמור את רשימות המסננים המוגדרות כברירת מחדל. שימוש ברשימות נוספות יגרום לך להתבלט ממשתמשים אמיצים אחרים ועשוי גם להגדיל את שטח ההתקפה אם יש ניצול של Brave וכלל זדוני מתווסף לאחת מהרשימות שבהן אתה משתמש.
 
 - [x] (אופציונלי) בחר **בלוק סקריפטים** (1)
@@ -144,12 +144,12 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
 
 <div class="annotate" markdown>
 
-- [x] בחר**Disable Non-Proxied UDP** מתחת [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] בטל**שימוש בשירותי Google להעברת הודעות בדחיפה**
-- [ ] בטל**אפשר ניתוח מוצרים ששומר על הפרטיות (P3A)**
+- [x] בחר **Disable Non-Proxied UDP** מתחת [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] בטל **שימוש בשירותי Google להעברת הודעות בדחיפה**
+- [ ] בטל **אפשר ניתוח מוצרים ששומר על הפרטיות (P3A)**
 - [ ] בטל **שליחה אוטומטית של פינג שימוש יומי ל-Brave**
-- [x] בחר**השתמש תמיד בחיבורים מאובטחים** בתוך **אבטחה** תפריט
-- [ ] בטל **חלון פרטי עם טור(1)
+- [x] בחר **השתמש תמיד בחיבורים מאובטחים** בתוך **אבטחה** תפריט
+- [ ] בטל **חלון פרטי עם טור** (1)
 
     !!! חשוב"חיטוי בסגירה"
         - [x] בחר**נקה קבצי עוגיות ונתוני אתר בעת סגירת כל החלונות**בתפריט *עוגיות ונתוני אתר אחרים*
@@ -158,7 +158,7 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
 
 </div>
 
-1. Brave הוא **לא** עמיד בפני טביעת אצבע כמו דפדפן Tor והרבה פחות אנשים משתמשים אמיץ עם Tor, כך תוכל להתבלט. כאשר נדרשת אנונימיות חזקה [](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) השתמש בדפדפן [Tor](tor.md#tor-browser).
+1. Brave הוא **לא** עמיד בפני טביעת אצבע כמו דפדפן Tor והרבה פחות אנשים משתמשים אמיץ עם Tor, כך תוכל להתבלט. כאשר [נדרשת אנונימיות חזקה](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) השתמש בדפדפן [Tor](tor.md#tor-browser).
 
 ##### הרחבות
 
@@ -197,9 +197,9 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
 
 !!! recommendation
 
-    ![הלוגו של uBlock Origin ]( property/img/browsers/ublock_origin.svg){ align=right }
+    ![הלוגו של uBlock Origin]( property/img/browsers/ublock_origin.svg){ align=right }
     
-    **uBlock Origin * הוא חוסם תוכן פופולרי שיכול לעזור לך לחסום מודעות, עוקבים וסקריפטים של טביעות אצבע.
+    **uBlock Origin** הוא חוסם תוכן פופולרי שיכול לעזור לך לחסום מודעות, עוקבים וסקריפטים של טביעות אצבע.
     
     [:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
@@ -225,7 +225,7 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף [לקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
-!!! דוגמה: "חלק זה הוא חדש"
+!!! example "מחיקת נתונים מספריית קבצים"
 
     אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו]( https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו בעת ביצוע ההמלצות שלנו אם זה לא מופיע כאן. ישנם גורמים רבים שנשקלים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
 

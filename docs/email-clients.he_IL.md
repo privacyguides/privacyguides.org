@@ -5,11 +5,11 @@ icon: material/email-open
 
 רשימת ההמלצות שלנו מכילה לקוחות דוא"ל התומכים הן ב[OpenPGP](encryption.md#openpgp) והן באימות חזק כגון [הרשאת פתוחה ](https://en.wikipedia.org/wiki/OAuth)(OAuth). OAuth מאפשר לך להשתמש ב - [אימות רב - גורמי](basics/multi-factor-authentication.md) ולמנוע גניבת חשבון.
 
-??? שים לב "דוא"ל אינו מספק סודיות קדימה" בעת שימוש בטכנולוגיית הצפנה מקצה לקצה (E2EE) כמו OpenPGP, דואר אלקטרוני עדיין יהיה [כמה metadata](email.md#email-metadata-overview) שאינו מוצפן בכותרת של הדואר האלקטרוני.
+??? warning דוא"ל אינו מספק סודיות קדימה" בעת שימוש בטכנולוגיית הצפנה מקצה לקצה (E2EE) כמו OpenPGP, דואר אלקטרוני עדיין יהיה [כמה metadata](email.md#email-metadata-overview) שאינו מוצפן בכותרת של הדואר האלקטרוני.
 
     OpenPGP גם לא תומך ב [forward secrecy ]( https://en.wikipedia.org/wiki/Forward_secrecy), כלומר אם המפתח הפרטי שלך או של הנמען ייגנב אי פעם, כל ההודעות הקודמות המוצפנות בו ייחשפו: [כיצד אוכל להגן על המפתחות הפרטיים שלי ?]( basics/email - security.md) שקול להשתמש במדיום המספק סודיות קדימה:
     
-    [Real - time Communication](real - time - communication.md){ .md-button }
+    [Real-time Communication](real-time-communication.md){ .md-button }
 
 ## חוצה פלטפורמות
 
@@ -26,7 +26,7 @@ icon: material/email-open
     [:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=תיעוד}
     [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="קוד מקור" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-windows11: ווינדוס](https://www.thunderbird.net)
         - [:simple-apple: macOS](https://www.thunderbird.net)
@@ -56,7 +56,7 @@ icon: material/email-open
 
 ### Apple Mail ‏ (macOS)
 
-!!! המלצה
+!!! recommendation
 
     ![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
     
@@ -78,13 +78,13 @@ icon: material/email-open
     [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=Documentation}
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
         - [:simple-windows11: Windows](https://canarymail.io/downloads.html)
 
-!!! שים לב
+!!! warning "אַזהָרָה"
 
     Canary Mail הוציאה רק לאחרונה קליינט של ווידוס ו - אנדרואיד, אם כי אנחנו לא מאמינים שהם יציבים כמו עמיתיהם ב - iOS וב - Mac.
 
@@ -92,7 +92,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
 
 ### FairEmail (אנדרואיד)
 
-!!! המלצה
+!!! recommendation
 
     ![FairEmail לוגו](assets/img/email-clients/fairemail.svg){ align=right }
     
@@ -104,14 +104,14 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
     [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=לתרומה }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
         - [:simple-github: GitHub](https://github.com/M66B/FairEmail/releases)
 
 ### GNOME Evolution (GNOME)
 
-!!! המלצה
+!!! recommendation
 
     ![Evolution לוגו](assets/img/email-clients/evolution.svg){ align=right }
     
@@ -123,13 +123,13 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
     [:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=לתרומה }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gnome.Evolution)
 
 ### K -9 Mail (אנדרואיד)
 
-!!! המלצה
+!!! recommendation
 
     ![K -9 Mail logo ]( assets/img/email - customers/k9mail.svg){ align=right }
     
@@ -143,14 +143,14 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
     [:octicons-code-16:](https://github.com/k9mail/k-9){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=לתרומה }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
         - [:simple-github: GitHub](https://github.com/k9mail/k-9/releases)
 
 ### Kontact (KDE)
 
-!!! המלצה
+!!! recommendation
 
     ![Kontact לוגו](assets/img/email-clients/kontact.svg){ align=right }
     
@@ -162,14 +162,14 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
     [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=לתרומה }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-linux: Linux](https://kontact.kde.org/download)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.kontact)
 
 ### Mailvelope (דפדפן)
 
-!!! המלצה
+!!! recommendation
 
     ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ align=right }
     
@@ -180,7 +180,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
     [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="קוד מקור" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
@@ -188,7 +188,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
 
 ### NeoMutt (CLI)
 
-!!! המלצה
+!!! recommendation
 
     ![NeoMutt לוגו](assets/img/email-clients/mutt.svg){ align=right }
     
@@ -201,7 +201,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
     [:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=לתרומה }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-apple: macOS](https://neomutt.org/distro)
         - [:simple-linux: Linux](https://neomutt.org/distro)
@@ -210,7 +210,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על כך בשל הא�
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף [לקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
-!!! דוגמה: "חלק זה הוא חדש"
+!!! example "חלק זה הוא חדש"
 
     אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו]( https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו בעת ביצוע ההמלצות שלנו אם זה לא מופיע כאן. ישנם גורמים רבים שנלקחים בחשבון ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
 

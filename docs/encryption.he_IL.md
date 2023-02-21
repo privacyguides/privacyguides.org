@@ -23,7 +23,7 @@ icon: material/file-lock
     [:octicons-code-16:](https://github.com/cryptomator){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=לתרומה }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
@@ -51,7 +51,7 @@ Cryptomator משתמש בהצפנת AES-256 כדי להצפין קבצים וש�
     [:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=לתרומה }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
         - [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
@@ -71,7 +71,7 @@ Cryptomator משתמש בהצפנת AES-256 כדי להצפין קבצים וש�
     [:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=לתרומה }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
         - [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
@@ -168,7 +168,6 @@ BitLocker [נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-de
     sudo cryptsetup luksFormat /path-to-file
     ```
 
-
     #### פתיחת קונטיינרים מוצפנים
     אנו ממליצים לפתוח קונטיינרים ואמצעי אחסון עם `udisksctl' מכיוון שמשתמש עם זה [Polkit](https://en.wikipedia.org/wiki/Polkit). רוב מנהלי הקבצים, כגון אלה הכלולים בסביבות שולחן עבודה פופולריות, יכולים לבטל את הנעילה של קבצים מוצפנים. כלים כמו [udiskie](https://github.com/coldfix/udiskie) יכול לפעול במגש המערכת ולספק ממשק משתמש מועיל.
     ```
@@ -221,7 +220,7 @@ BitLocker [נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-de
     [:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=לתרומה }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows](https://www.kryptor.co.uk)
         - [:simple-apple: macOS](https://www.kryptor.co.uk)
@@ -267,7 +266,7 @@ OpenPGP נחוץ לעתים למשימות ספציפיות כגון חתימה 
     [:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=תיעוד}
     [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="קוד מקור" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
         - [:simple-windows11: Windows](https://gpg4win.org/download.html)
@@ -288,14 +287,13 @@ OpenPGP נחוץ לעתים למשימות ספציפיות כגון חתימה 
     [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=לתרומה }
     
-    ??? הורדות
-    
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows](https://gpg4win.org/download.html)
 
 ### GPG Suite
 
-!!! הערה
+!!! note "הערה"
 
     אנו מציעים [דואר קנרי](email-clients.md#canary-mail) לשימוש ב-PGP עם דוא"ל במכשירי iOS.
 
@@ -312,8 +310,7 @@ OpenPGP נחוץ לעתים למשימות ספציפיות כגון חתימה 
     [:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/GPGTools){ .card-link title="קוד מקור" }
     
-    ??? הורדות
-    
+    ??? downloads "הורדות"
     
         - [:simple-apple: macOS](https://gpgtools.org)
 
@@ -331,7 +328,7 @@ OpenPGP נחוץ לעתים למשימות ספציפיות כגון חתימה 
     [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="קוד מקור" }
     :octicons-heart-16:{ .card-link title="ניתן לתרום בתוך האפליקציה" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 

@@ -19,7 +19,7 @@ icon: material/tag-remove
     [:octicons-info-16:](https://github.com/szTheory/exifcleaner#readme){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/szTheory/exifcleaner){ .card-link title="Source Code" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows](https://github.com/szTheory/exifcleaner/releases)
         - [:simple-apple: macOS](https://github.com/szTheory/exifcleaner/releases)
@@ -31,7 +31,7 @@ icon: material/tag-remove
 
     ![MAT2 לוגו](assets/img/data-redaction/mat2.svg){ align=right }
     
-    ** MAT2 ** היא תוכנה חופשית, המאפשרת להסיר את המטא נתונים מסוגים של תמונות, אודיו, טורנטים ומסמכים. הוא מספק גם כלי שורת פקודה וגם ממשק משתמש גרפי באמצעות [סיומת עבור Nautilus](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus), מנהל הקבצים המוגדר כברירת מחדל של [GNOME](https://www.gnome.org), ו-[Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), מנהל הקבצים המוגדר כברירת מחדל של [KDE](https://kde.org).
+    **MAT2** היא תוכנה חופשית, המאפשרת להסיר את המטא נתונים מסוגים של תמונות, אודיו, טורנטים ומסמכים. הוא מספק גם כלי שורת פקודה וגם ממשק משתמש גרפי באמצעות [סיומת עבור Nautilus](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus), מנהל הקבצים המוגדר כברירת מחדל של [GNOME](https://www.gnome.org), ו-[Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), מנהל הקבצים המוגדר כברירת מחדל של [KDE](https://kde.org).
     
     בלינוקס, כלי גרפי של צד שלישי [מנקה מטה-נתונים](מנקה https://gitlab.com/rmnvgr/metadata) המופעל על ידי MAT2 קיים והוא [זמין ב- Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
     
@@ -39,7 +39,7 @@ icon: material/tag-remove
     [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=תיעוד}
     [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="קוד מקור" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows](https://pypi.org/project/mat2)
         - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
@@ -54,7 +54,7 @@ icon: material/tag-remove
 
     ![לוגו של ExifEraser](assets/img/data-redaction/exiferaser.svg){ align=right }
     
-    ** ExifEraser** הוא יישום מודרני למחיקת מטא נתונים של תמונות ללא הרשאה עבור אנדרואיד.
+    **ExifEraser** הוא יישום מודרני למחיקת מטא נתונים של תמונות ללא הרשאה עבור אנדרואיד.
     
     בשלב זה הוא תומך בקבצי JPEG, PNG ו - WebP.
     
@@ -62,7 +62,7 @@ icon: material/tag-remove
     [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
         - [:simple-github: GitHub](https://github.com/Tommy-Geenexus/exif-eraser/releases)
@@ -87,14 +87,14 @@ icon: material/tag-remove
 
 !!! recommendation
 
-    ![Metapho logo](assets/img/data-redaction/metapho.jpg){ align=right }
+    ![Metapho לוגו](assets/img/data-redaction/metapho.jpg){ align=right }
     
-    ** Metapho ** הוא צופה פשוט ונקי עבור מטא נתונים של תמונות כגון תאריך, שם קובץ, גודל, מודל מצלמה, מהירות צמצם ומיקום.
+    **Metapho** הוא צופה פשוט ונקי עבור מטא נתונים של תמונות כגון תאריך, שם קובץ, גודל, מודל מצלמה, מהירות צמצם ומיקום.
     
     [:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
 
@@ -111,14 +111,14 @@ icon: material/tag-remove
     [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
 
-!!! warning
+!!! warning "אַזהָרָה"
 
-    עליך ***לעולם לא*** להשתמש בטשטוש כדי למחוק [טקסט בתמונות]( https://bishopfox.com/blog/unredacter-tool-never-pixelation). אם ברצונך לצנזר טקסט בתמונה, צייר תיבה מעל הטקסט. לשם כך, אנו מציעים אפליקציות כמו [Pocket Paint](https://github.com/Catrobat/Paintroid).
+    עליך ***לעולם לא*** להשתמש בטשטוש כדי למחוק [טקסט בתמונות](https://bishopfox.com/blog/unredacter-tool-never-pixelation). אם ברצונך לצנזר טקסט בתמונה, צייר תיבה מעל הטקסט. לשם כך, אנו מציעים אפליקציות כמו [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
 ## שורת פקודה
 
@@ -128,7 +128,7 @@ icon: material/tag-remove
 
     ![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
     
-    **ExifTool ** הוא יישום ספריית Perl ושורת הפקודה המקורי לקריאה, כתיבה ועריכה של מידע מטא (Exif, IPTC, XMP ועוד) במגוון רחב של פורמטים של קבצים (JPEG, TIFF, PNG, PDF, RAW ועוד).
+    **ExifTool** הוא יישום ספריית Perl ושורת הפקודה המקורי לקריאה, כתיבה ועריכה של מידע מטא (Exif, IPTC, XMP ועוד) במגוון רחב של פורמטים של קבצים (JPEG, TIFF, PNG, PDF, RAW ועוד).
     
     זה לעתים קרובות רכיב של יישומי הסרת Exif אחרים והוא ברוב מאגרי ההפצה של לינוקס.
     
@@ -137,23 +137,23 @@ icon: material/tag-remove
     [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-windows11: Windows](https://exiftool.org)
         - [:simple-apple: macOS](https://exiftool.org)
         - [:simple-linux: Linux](https://exiftool.org)
 
-!!! דוגמה "מחיקת נתונים מספריית קבצים"
+!!! example "מחיקת נתונים מספריית קבצים"
 
     ```bash
-    exiftool -all= *.file_extension
+    exiftool -all= *.סיומת קובץ
     ```
 
 ## קריטריונים
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף [לקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
-!!! דוגמה: "חלק זה הוא חדש"
+!!! example "חלק זה הוא חדש"
 
     אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו]( https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו בעת ביצוע ההמלצות שלנו אם זה לא מופיע כאן. ישנם גורמים רבים שנלקחים בחשבון ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
 

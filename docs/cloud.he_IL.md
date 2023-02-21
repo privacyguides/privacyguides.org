@@ -11,7 +11,7 @@ icon: material/file-cloud
 
     NextCloud הוא [עדיין כלי מומלץ](productivity.md) לאחסון עצמי של חבילת ניהול קבצים, אך איננו ממליצים כרגע על ספקי אחסון צד שלישי של Nextcloud, מכיוון שאיננו ממליצים על הפונקציונליות המובנית של Nextcloud ב - E2EE עבור משתמשים ביתיים.
 
-## Cryptee
+## Proton Drive
 
 !!! recommendation
 
@@ -24,18 +24,18 @@ icon: material/file-cloud
     [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
 
 הלקוחות הניידים של Proton Drive שוחררו בדצמבר 2022 ועדיין אינם קוד פתוח. Proton עיכבה באופן היסטורי את שחרורי קוד המקור שלהם עד לאחר שחרור המוצר הראשוני, [ומתכננת](https://www.reddit.com/r/ProtonDrive/comments/zf14i8/comment/izdwmme/?utm_source=share&utm_medium=web2x&context=3) לשחרר את קוד המקור עד סוף 2023. לקוחות שולחן העבודה של Proton Drive עדיין בפיתוח.
 
-## Proton Drive
+## Criteria
 
-**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. danger
+**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
-!!! דוגמה: "חלק זה הוא חדש"
+!!! example "חלק זה הוא חדש"
 
     אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו בעת מתן ההמלצות שלנו אם זה לא מופיע כאן. ישנם גורמים רבים שנשקלים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
 
