@@ -27,7 +27,7 @@ icon: material/flip-to-front
 
     Librarian אינו מציג זרמי וידאו כברירת מחדל. סרטונים שנצפו דרך ספרן עדיין ייצרו חיבורים ישירים לשרתים של Odysee (למשל 'odycdn.com'); עם זאת, מקרים מסוימים עשויים לאפשר Proxy אשר יפורט במדיניות הפרטיות של המופע.
 
-!!! tip "עֵצָה"
+!!! tip "טיפ"
 
     Librarian שימושי אם אתה רוצה לצפות בתוכן LBRY בנייד ללא טלמטריה חובה ואם אתה רוצה להשבית JavaScript בדפדפן שלך, כמו במקרה של [דפדפן Tor](https://www.torproject.org/) ברמת האבטחה הבטוחה ביותר.
 
@@ -53,7 +53,7 @@ icon: material/flip-to-front
     [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=לתרומה }
 
-!!! tip "עֵצָה"
+!!! tip "טיפ"
 
     Nitter שימושי אם ברצונך לדפדף בתוכן של טוויטר ללא צורך בהתחברות ואם ברצונך להשבית את JavaScript בדפדפן שלך, כפי שקורה עם [Tor Browser](https://www.torproject.org/) ברמת האבטחה הבטוחה ביותר. זה גם מאפשר לך [ליצור הזנות RSS עבור טוויטר](news-aggregators.md#twitter).
 
@@ -78,7 +78,7 @@ icon: material/flip-to-front
     [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="קוד מקור" }
 
-!!! tip "עֵצָה"
+!!! tip "טיפ"
 
     ProxiTok שימושי אם ברצונך להשבית את JavaScript בדפדפן שלך, כגון [Tor Browser](https://www.torproject.org/) ברמת האבטחה הבטוחה ביותר.
 
@@ -189,7 +189,7 @@ icon: material/flip-to-front
 
     Invidious אינו מתווך זרמי וידאו כברירת מחדל. סרטונים שנצפו דרך Invidious עדיין יבצעו חיבורים ישירים לשרתים של Google (למשל `googlevideo.com '); עם זאת, יש מקרים שתומכים ב - proxying - פשוט מפעילים * סרטוני Proxy * בהגדרות המופעים או מוסיפים`&local=true `לכתובת האתר.
 
-!!! tip "עֵצָה"
+!!! tip "טיפ"
 
     Invidious שימושי אם ברצונך להשבית את JavaScript בדפדפן שלך, כגון [Tor Browser]( https://www.torproject.org/) ברמת האבטחה הבטוחה ביותר. הוא אינו מספק פרטיות בפני עצמו, ואנחנו לא ממליצים להיכנס לחשבונות כלשהם.
 
@@ -213,7 +213,7 @@ icon: material/flip-to-front
     [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=לתרומה }
 
-!!! tip "עֵצָה"
+!!! tip "טיפ"
 
     Piped שימושי אם ברצונך להשתמש ב - [SponsorBlock](https://sponsor.ajay.app) מבלי להתקין תוסף או לגשת לתוכן מוגבל לגיל ללא חשבון. הוא אינו מספק פרטיות בפני עצמו, ואנחנו לא ממליצים להיכנס לחשבונות כלשהם.
 
