@@ -64,7 +64,7 @@ plugins:
       en:
         name: English
         build: true
-      he_IL:
+      he:
         name: עִברִית
         build: true
       fr_FR:
