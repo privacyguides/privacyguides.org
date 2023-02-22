@@ -84,7 +84,7 @@ icon: material/email-open
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
         - [:simple-windows11: Windows](https://canarymail.io/downloads.html)
 
-!!! warning "אַזהָרָה"
+!!! warning "אזהרה"
 
     Canary Mail הוציאה רק לאחרונה קליינט של ווידוס ו - אנדרואיד, אם כי אנחנו לא מאמינים שהם יציבים כמו עמיתיהם ב - iOS וב - Mac.
 

@@ -13,7 +13,7 @@ icon: material/email
 
 ספקים אלה תומכים באופן מקורי בהצפנה/פענוח של OpenPGP, ומאפשרים הודעות דוא"ל E2EE שאינן תלויות בספק. לדוגמה, משתמש Proton Mail יכול לשלוח הודעת E2EE למשתמש Mailbox.org, או שאתה יכול לקבל הודעות מוצפנות OpenPGP משירותי אינטרנט התומכים בו.
 
-!!! warning "אַזהָרָה"
+!!! warning "אזהרה"
 
     בעת שימוש בטכנולוגיית E2EE כמו OpenPGP, לדוא"ל עדיין יהיו כמה מטא נתונים שאינם מוצפנים בכותרת הדוא"ל. קרא עוד על [email metadata](basic/email-security.md#email-metadata-overview).
     

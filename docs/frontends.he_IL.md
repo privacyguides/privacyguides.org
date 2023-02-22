@@ -23,7 +23,7 @@ icon: material/flip-to-front
     [:octicons-info-16:](https://codeberg.org/librarian/librarian/wiki){ .card-link title=תיעוד}
     [:octicons-code-16:](https://codeberg.org/librarian/librarian){ .card-link title="קוד מקור" }
 
-!!! warning "אַזהָרָה"
+!!! warning "אזהרה"
 
     Librarian אינו מציג זרמי וידאו כברירת מחדל. סרטונים שנצפו דרך ספרן עדיין ייצרו חיבורים ישירים לשרתים של Odysee (למשל 'odycdn.com'); עם זאת, מקרים מסוימים עשויים לאפשר Proxy אשר יפורט במדיניות הפרטיות של המופע.
 

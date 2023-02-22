@@ -26,7 +26,7 @@ icon: material/laptop
         - [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
 
-!!! warning "אַזהָרָה"
+!!! warning "אזהרה"
     פיירפוקס כולל [אסימון הורדה](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) בהורדות מאתר האינטרנט של מוזילה ומשתמש בטלמטריה בפיירפוקס כדי לשלוח את האסימון. האסימון הוא **ולא** כלול במהדורה מ [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 ### תצורה מומלצת

@@ -81,7 +81,7 @@ Apple אינה מספקת ממשק מקורי ליצירת פרופילי DNS מ
     
     **dnscrypt-proxy** הוא פרוקסי DNS עם תמיכה ב-[DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https -doh), ו-[DNS אנונימי](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
     
-    !!! warning "אַזהָרָה"
+    !!! warning "אזהרה"
         תכונת ה-DNS האנונימית עושה [**לא**](advanced/dns-overview.md#why-shouldn't-i-use-encrypted-dns) אנונימית לתעבורת רשת אחרת.
     
     [:octicons-repo-16: מאגר](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }

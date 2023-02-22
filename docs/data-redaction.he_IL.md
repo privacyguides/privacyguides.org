@@ -116,7 +116,7 @@ icon: material/tag-remove
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
 
-!!! warning "אַזהָרָה"
+!!! warning "אזהרה"
 
     עליך ***לעולם לא*** להשתמש בטשטוש כדי למחוק [טקסט בתמונות](https://bishopfox.com/blog/unredacter-tool-never-pixelation). אם ברצונך לצנזר טקסט בתמונה, צייר תיבה מעל הטקסט. לשם כך, אנו מציעים אפליקציות כמו [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
