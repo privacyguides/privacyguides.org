@@ -15,7 +15,7 @@ icon: material/cellphone-information
 
     ![לוגו אמיץ ]( assets/img/browsers/brave.svg){ align=right }
     
-    ** דפדפן Brave ** כולל חוסם תוכן מובנה ו [תכונות פרטיות ]( https://brave.com/privacy-features/), רבים מהם מופעלים כברירת מחדל.
+    **דפדפן Brave** כולל חוסם תוכן מובנה ו [תכונות פרטיות ]( https://brave.com/privacy-features/), רבים מהם מופעלים כברירת מחדל.
     
     Brave בנוי על פרויקט דפדפן Chromium, כך שהוא אמור להרגיש מוכר ושיהיו לו בעיות תאימות מינימליות לאתר.
     
@@ -25,7 +25,7 @@ icon: material/cellphone-information
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="קוד מקור" }
     
-    ??? annotate הורדות
+    ??? downloads annotate "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
@@ -46,9 +46,9 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
 
 <div class="annotate" markdown>
 
-- [x] בחר **אגרסיבי ** תחת חסימת עוקבים ומודעות
+- [x] בחר **אגרסיבי** תחת חסימת עוקבים ומודעות
 
-    ??? אזהרה "השתמש ברשימות סינון המוגדרות כברירת מחדל"
+    ??? warning "השתמש ברשימות סינון המוגדרות כברירת מחדל"
         Brave מאפשר לך לבחור מסנני תוכן נוספים בתוך הדף `brave://adblock` הפנימי. אנו ממליצים שלא להשתמש בתכונה זו; במקום זאת, שמור את רשימות המסננים המוגדרות כברירת מחדל. שימוש ברשימות נוספות יגרום לך להתבלט ממשתמשים אמיצים אחרים ועשוי גם להגדיל את שטח ההתקפה אם יש ניצול של Brave וכלל זדוני מתווסף לאחת מהרשימות שבהן אתה משתמש.
 
 - [x] בחר **שדרג חיבורים ל- HTTPS**
@@ -153,7 +153,7 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
 
     ![AdGuard logo ]( assets/img/browsers/adguard.svg){ align=right }
     
-    ** AdGuard עבור iOS** היא הרחבה חינמית וחוסמת תוכן בקוד פתוח עבור Safari שמשתמשת ב [Content Blocker API ](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+    **AdGuard עבור iOS** היא הרחבה חינמית וחוסמת תוכן בקוד פתוח עבור Safari שמשתמשת ב [Content Blocker API ](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
     
     ל - AdGuard עבור iOS יש כמה תכונות פרימיום; עם זאת, חסימת תוכן ספארי רגילה היא ללא תשלום.
     
@@ -162,7 +162,7 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
     [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="קוד מקור" }
     
-    ??? הורדות
+    ??? downloads "הורדות"
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 
@@ -172,7 +172,7 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף [לקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
-!!! דוגמה: "חלק זה הוא חדש"
+!!! example "חלק זה הוא חדש"
 
     אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו]( https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו בעת ביצוע ההמלצות שלנו אם זה לא מופיע כאן. ישנם גורמים רבים שנלקחים בחשבון ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
 
