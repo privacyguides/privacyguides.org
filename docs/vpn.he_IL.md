@@ -1,6 +1,6 @@
 ---
 title: "שירותי VPN"
-icon: חומר/vpn
+icon: material/vpn
 ---
 
 מחפשים מפעילי VPN ללא רישום שלא רוצים למכור או לקרוא את הפעילות שלכם באינטרנט.
@@ -153,7 +153,7 @@ icon: חומר/vpn
 
 !!! recommendation
 
-    ![לוגו של Mullvad ]( נכסים/img/vpn/mullvad.svg){ align=right }
+    ![לוגו של Mullvad ]( assets/img/vpn/mullvad.svg){ align=right }
     
     **Mullvad ** הוא VPN מהיר וזול עם התמקדות רצינית בשקיפות ואבטחה. הם פועלים מאז שנת **2009**. Mullvad מבוסס בשוודיה ואין ניסיון חינם.
     
