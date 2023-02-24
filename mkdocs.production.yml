@@ -2,10 +2,8 @@ INHERIT: mkdocs.yml
 plugins:
   meta: {}
   privacy:
-    external_assets_exclude:
-      - cdn.jsdelivr.net/npm/mathjax@3/*
-      - api.privacyguides.net/*
-      - giscus.app/*
+    external_assets_exclude: ['https://cdn.jsdelivr.net/npm/mathjax@3/*', 'https://api.privacyguides.net/*']
+    external_links_noopener: true
   git-committers:
     enabled: !ENV [PRODUCTION, false]
     repository: privacyguides/privacyguides.org

@@ -5,6 +5,20 @@
 [context.production.environment]
     PRODUCTION = "true"
 
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "0"
+    X-Content-Type-Options = "nosniff"
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+    Content-Security-Policy = "default-src 'none'; script-src https://www.privacyguides.org https://api.privacyguides.net 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src data: 'self'; connect-src https://api.github.com https://api.privacyguides.net 'self'"
+
+[[headers]]
+  for = "/about/donate/"
+  [headers.values]
+    Content-Security-Policy = "default-src 'none'; script-src https://opencollective.com https://www.privacyguides.org https://api.privacyguides.net 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src https://opencollective.com data: 'self'; connect-src https://api.github.com https://api.privacyguides.net 'self'; frame-src https://opencollective.com"
+
 [[redirects]]
     from = "/.well-known/matrix/*"
     to = "https://matrix.privacyguides.org/.well-known/matrix/:splat"
