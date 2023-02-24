@@ -111,7 +111,7 @@ When you are using a ProxiTok instance, make sure to read the privacy policy of 
         - [:simple-linux: Linux](https://freetubeapp.io/#download)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
 
-!!! Warning
+!!! warning
 
     When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
@@ -138,7 +138,7 @@ When you are using a ProxiTok instance, make sure to read the privacy policy of 
 
 Due to App Store restrictions, you'll need to take a few [extra steps](https://gonzoknows.com/posts/Yattee/) before you can use Yattee.
 
-!!! Warning
+!!! warning
 
     When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
@@ -164,7 +164,7 @@ Due to App Store restrictions, you'll need to take a few [extra steps](https://g
 
 1. The default instance is [FramaTube](https://framatube.org/), however more can be added via **Settings** → **Content** → **PeerTube instances**
 
-!!! Warning
+!!! warning
 
     When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 

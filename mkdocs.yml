@@ -67,9 +67,9 @@ plugins:
       he:
         name: עִברִית
         build: true
-      fr_FR:
-        name: fr
-        build: false
+      fr:
+        name: French
+        build: true
       bn_IN:
         name: bn
         build: false
@@ -82,9 +82,9 @@ plugins:
       it_IT:
         name: it
         build: false
-      nl_NL:
-        name: nl
-        build: false
+      nl:
+        name: Dutch
+        build: true
       pt_BR:
         name: pt
         build: false

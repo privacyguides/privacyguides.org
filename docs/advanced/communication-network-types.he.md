@@ -5,7 +5,7 @@ icon: 'material/transit-connection-variant'
 
 ישנם מספר ארכיטקטורות רשת המשמשות בדרך כלל להעברת הודעות בין אנשים. רשתות אלה יכולות לספק ערבויות פרטיות שונות, ולכן כדאי לשקול מודל איום [שלך](../basics/threat-modeling.md) כאשר מחליטים באיזו אפליקציה להשתמש.
 
-[הודעות מיידיות מומלצות](../real-time-communication.md ""){.md-button}
+[הודעות מיידיות מומלצות](../real-time-communication.md){ .md-button }
 
 ## רשתות מרכזיות
 

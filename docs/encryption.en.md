@@ -199,7 +199,7 @@ Browser-based encryption can be useful when you need to encrypt a file but canno
     [:octicons-eye-16:](https://hat.sh/about/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://hat.sh/about/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/sh-dv/hat.sh){ .card-link title="Source Code" }
-    :octicons-heart-16:{ .card-link title="Donations methods can be found at the bottom of the website" }
+    [:octicons-heart-16:](https://github.com/sh-dv/hat.sh#donations){ .card-link title="Donations methods can be found at the bottom of the website" }
 
 ## Command-line
 
@@ -325,7 +325,6 @@ When encrypting with PGP, you have the option to configure different options in 
     [:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Source Code" }
-    :octicons-heart-16:{ .card-link title="Donations can be made within the app" }
 
     ??? downloads
 
