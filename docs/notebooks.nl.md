@@ -11,9 +11,9 @@ Als je momenteel een toepassing zoals Evernote, Google Keep of Microsoft OneNote
 
 ### Joplin
 
-!!! aanbeveling
+!!! recommendation
 
-    Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
+    ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
     
     **Joplin** is een gratis, open-source, en volledig uitgeruste applicatie voor het maken van notities en to-do's die een groot aantal markdown notities kan verwerken, georganiseerd in notitieblokken en tags. Het biedt E2EE en kan synchroniseren via Nextcloud, Dropbox, en meer. Het biedt ook een gemakkelijke import vanuit Evernote en notities in gewone tekst.
     
@@ -23,7 +23,7 @@ Als je momenteel een toepassing zoals Evernote, Google Keep of Microsoft OneNote
     [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
@@ -32,15 +32,15 @@ Als je momenteel een toepassing zoals Evernote, Google Keep of Microsoft OneNote
         - [:simple-apple: macOS](https://joplinapp.org/#desktop-applications)
         - [:simple-linux: Linux](https://joplinapp.org/#desktop-applications)
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmk
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
 Joplin ondersteunt geen wachtwoord/PIN beveiliging voor de [applicatie zelf of individuele notities en notebooks](https://github.com/laurent22/joplin/issues/289). Gegevens worden nog steeds versleuteld tijdens het transport en op de synchronisatielocatie met behulp van jouw hoofdsleutel.
 
 ### Standard Notes
 
-!!! Gegevens worden nog steeds versleuteld tijdens het transport en op de synchronisatielocatie met behulp van uw hoofdsleutel.
+!!! recommendation
 
-    Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
+    ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
     
     Standard Notes is een eenvoudige en persoonlijke notitie app die jouw notities gemakkelijk en overal beschikbaar maakt. Het biedt E2EE op elk platform, en een krachtige desktop-ervaring met thema's en aangepaste editors. Het is ook [door een onafhankelijke instantie gecontroleerd (PDF)](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
     
@@ -50,7 +50,7 @@ Joplin ondersteunt geen wachtwoord/PIN beveiliging voor de [applicatie zelf of i
     [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
@@ -62,10 +62,10 @@ Joplin ondersteunt geen wachtwoord/PIN beveiliging voor de [applicatie zelf of i
 
 ### Cryptee
 
-!!! aanbeveling
+!!! recommendation
 
-    Cryptee-logo](./assets/img/cloud/cryptee.svg#only-light){ align=right }
-    ![Cryptee-logo](./assets/img/cloud/cryptee-dark.svg#only-dark){ align=right }
+    ![Cryptee logo](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
+    ![Cryptee logo](./assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
     
     **Cryptee** is een web-gebaseerde, versleutelde, veilige foto opslag service en documenten editor. Cryptee is een PWA, wat betekent dat het naadloos werkt op alle moderne apparaten zonder dat er native apps voor elk platform nodig zijn.
     
@@ -74,7 +74,7 @@ Joplin ondersteunt geen wachtwoord/PIN beveiliging voor de [applicatie zelf of i
     [:octicons-info-16:](https://crypt.ee/help){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/cryptee){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:octicons-globe-16: PWA](https://crypt.ee/download)
 
@@ -86,7 +86,7 @@ Cryptee biedt gratis 100MB opslag, met betaalde opties als je meer nodig hebt. A
 
 !!! recommendation
 
-    Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
+    ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
     
     **Org-mode** is een [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) voor GNU Emacs. Org-mode is voor het bijhouden van notities, het bijhouden van TODO lijsten, het plannen van projecten, en het schrijven van documenten met een snel en effectief plain-text systeem. Synchronisatie is mogelijk met [bestandssynchronisatie](file-sharing.md#file-sync) tools.
     

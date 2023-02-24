@@ -7,20 +7,20 @@ Het grootste gevaar bij het gebruik van een videostreamingplatform is dat uw str
 
 ## Cliënten
 
-!!! aanbeveling
+!!! recommendation
 
-    LBRY logo](assets/img/video-streaming/lbry.svg){ align=right }
+    ![LBRY logo](assets/img/video-streaming/lbry.svg){ align=right }
     
     **Het LBRY netwerk** is een gedecentraliseerd video-sharing netwerk. Het gebruikt een [BitTorrent](https://wikipedia.org/wiki/BitTorrent)-achtig netwerk om de video-inhoud op te slaan, en een [blockchain](https://wikipedia.org/wiki/Blockchain) om de indexen voor die video's op te slaan. Het belangrijkste voordeel van dit ontwerp is de censuurbestendigheid.
     
     **De LBRY desktop client** helpt je bij het streamen van video's van het LBRY netwerk en slaat jouw abonnementenlijst op in jouw eigen LBRY portemonnee.
     
     [:octicons-home-16: Homepage](https://lbry.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://lbry.com/privacypolicy){ .card-link title="Privacy Policy" }
+    [:octicons-eye-16:](https://lbry.com/privacypolicy){ .card-link title="Privacybeleid" }
     [:octicons-info-16:](https://lbry.com/faq){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/lbryio/lbry-desktop){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-windows11: Windows](https://lbry.com/windows)
         - [:simple-apple: macOS](https://lbry.com/osx)

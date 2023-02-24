@@ -257,7 +257,7 @@ Si l'observateur du réseau dispose du certificat public, qui est accessible au 
 
 ## Devrais-je utiliser un DNS chiffré ?
 
-Nous avons créé cet organigramme pour décrire quand vous *devriez* utiliser des DNS cryptés :
+Nous avons créé cet organigramme pour décrire quand vous *devriez* utiliser des DNS cryptés:
 
 ``` mermaid
 graph TB
@@ -266,8 +266,8 @@ graph TB
     anonyme --> | Non | censure{Eviter la<br> censure ?}
     censure --> | Oui | vpnOuTor(Utilisez<br> VPN ou Tor)
     censure --> | Non | viePrivée{Protéger votre vie privée<br> du FAI ?}
-    vie privée --> | Oui | vpnOuTor
-    vie privée --> | Non | nuisible{FAI fait des<br> redirections<br> nuisibles ?}
+    p(vie privée) --> | Oui | vpnOuTor
+    p(vie privée) --> | Non | nuisible{FAI fait des<br> redirections<br> nuisibles ?}
     nuisible --> | Oui | DNScryptés(Utilisez <br> DNS cryptés<br> avec application tierce)
     nuisible --> | Non | DNSfai{FAI supporte les<br> DNS cryptés ?}
     DNSfai --> | Oui | utilisezFAI(Utilisez<br> DNS cryptés<br> avec FAI)

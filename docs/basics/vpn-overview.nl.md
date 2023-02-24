@@ -5,7 +5,7 @@ icon: material/vpn
 
 Virtual Private Networks zijn een manier om het einde van uw netwerk uit te breiden tot een uitgang ergens anders in de wereld. Een ISP kan de stroom van internetverkeer zien dat uw netwerkaansluitapparaat (d.w.z. modem) binnenkomt en verlaat.
 
-Encryptieprotocollen zoals HTTPS worden algemeen gebruikt op het internet, zodat zij misschien niet precies kunnen zien wat u post of leest, maar zij kunnen wel een idee krijgen van de [domeinen die u opvraagt](dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Encryptieprotocollen zoals HTTPS worden algemeen gebruikt op het internet, zodat zij misschien niet precies kunnen zien wat u post of leest, maar zij kunnen wel een idee krijgen van de [domeinen die u opvraagt](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
 Een VPN kan helpen omdat het vertrouwen kan verschuiven naar een server ergens anders in de wereld. Het resultaat is dat de ISP dan alleen ziet dat je verbonden bent met een VPN en niets over de activiteit die je erin doorgeeft.
 
@@ -19,7 +19,7 @@ Zij verbergen echter wel uw werkelijke IP-adres voor een dienst van derden, op v
 
 ## Wanneer zou ik geen VPN moeten gebruiken?
 
-Het gebruik van een VPN in gevallen waarin u uw [bekende identiteit](../basics/common-threats.en.md#common-misconceptions) gebruikt, is waarschijnlijk niet nuttig.
+Het gebruik van een VPN in gevallen waarin u uw [bekende identiteit](common-threats.md#common-misconceptions) gebruikt, is waarschijnlijk niet nuttig.
 
 Dit kan spam- en fraudedetectiesystemen alarmeren, zoals wanneer u zou inloggen op de website van uw bank.
 
@@ -39,7 +39,7 @@ Onnodig te zeggen, **dat je geen versleutelde DNS moet gebruiken met Tor**. Dit 
 
 ## Moet ik Tor *gebruiken en* een VPN?
 
-Door een VPN met Tor te gebruiken, creëer je in wezen een permanent toegangsknooppunt, vaak met een geldspoor eraan vast. Dit levert u geen enkel extra voordeel op, terwijl het aanvalsoppervlak van uw verbinding drastisch wordt vergroot. Als je je Tor gebruik wilt verbergen voor je ISP of je overheid, dan heeft Tor daar een ingebouwde oplossing voor: Tor bridges. [Lees meer over Tor bridges en waarom het gebruik van een VPN niet nodig is](tor-overview.md).
+Door een VPN met Tor te gebruiken, creëer je in wezen een permanent toegangsknooppunt, vaak met een geldspoor eraan vast. Dit levert u geen enkel extra voordeel op, terwijl het aanvalsoppervlak van uw verbinding drastisch wordt vergroot. Als je je Tor gebruik wilt verbergen voor je ISP of je overheid, dan heeft Tor daar een ingebouwde oplossing voor: Tor bridges. [Lees meer over Tor bridges en waarom het gebruik van een VPN niet nodig is](../advanced/tor-overview.md).
 
 ## Wat als ik anonimiteit nodig heb?
 
@@ -59,7 +59,7 @@ Een VPN kan nog steeds nuttig zijn voor u in een aantal scenario's, zoals:
 1. Het verbergen van je downloads (zoals torrents) voor je ISP en anti-piraterij organisaties.
 1. Het verbergen van uw IP-adres voor websites en diensten van derden, zodat IP-gebaseerde tracering wordt voorkomen.
 
-Voor dit soort gevallen, of als je een andere dwingende reden hebt, zijn de VPN-providers die we hierboven hebben genoemd volgens ons het meest betrouwbaar. Het gebruik van een VPN-provider betekent echter nog steeds dat u *vertrouwt op* de provider. In vrijwel elk ander scenario zou je een veilige**-by-design** tool zoals Tor moeten gebruiken.
+Voor dit soort situaties, of als je een andere dwingende reden hebt, zijn de VPN-providers die we hierboven hebben opgesomd volgens ons de meest betrouwbare. Het gebruik van een VPN-provider betekent echter nog steeds dat u *vertrouwt op* de provider. In vrijwel elk ander scenario zou je een veilige**-by-design** tool zoals Tor moeten gebruiken.
 
 ## Bronnen en verdere lectuur
 

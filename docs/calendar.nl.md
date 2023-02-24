@@ -9,8 +9,8 @@ Kalenders en contactpersonen bevatten enkele van uw gevoeligste gegevens; gebrui
 
 !!! recommendation
 
-    ![Tutanota logo](assets/img/calendar-contacts/tutanota.svg#only-light){ align=right }
-    ![Tutanota logo](assets/img/calendar-contacts/tutanota-dark.svg#only-dark){ align=right }
+    ![Tutanota logo](assets/img/calendar/tutanota.svg#only-light){ align=right }
+    ![Tutanota logo](assets/img/calendar/tutanota-dark.svg#only-dark){ align=right }
     
     **Tutanota** biedt een gratis en gecodeerde kalender op hun ondersteunde platforms. Functies zijn onder meer: automatische E2EE van alle gegevens, functies voor delen, import-/exportfunctionaliteit, multifactorauthenticatie, en [more](https://tutanota.com/calendar-app-comparison/).
     
@@ -22,22 +22,21 @@ Kalenders en contactpersonen bevatten enkele van uw gevoeligste gegevens; gebrui
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
+        - [:simple-windows11: Windows](https://tutanota.com/blog/posts/desktop-clients/)
+        - [:simple-apple: macOS](https://tutanota.com/blog/posts/desktop-clients/)
+        - [:simple-linux: Linux](https://tutanota.com/blog/posts/desktop-clients/)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/details/com.tutanota.Tutanota)
         - [:octicons-browser-16: Web](https://mail.tutanota.com/)
-        - [:fontawesome-brands-windows: Windows](https://tutanota.com/blog/posts/desktop-clients/)
-        - [:fontawesome-brands-apple: macOS](https://tutanota.com/blog/posts/desktop-clients/)
-        - [:fontawesome-brands-linux: Linux](https://tutanota.com/blog/posts/desktop-clients/)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/com.tutanota.Tutanota)
-        - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-        - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.tutao.tutanota)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
 
 ## Proton Calendar
 
 !!! recommendation
 
-    ![Proton](assets/img/calendar-contacts/proton-calendar.svg){ align=right }
+    ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
     
     **Proton Calendar** is een versleutelde kalenderdienst die beschikbaar is voor Proton-leden via web- of mobiele clients. Functies zijn onder meer: automatische E2EE van alle gegevens, functies voor delen, import/export-functionaliteit, en [more](https://proton.me/support/proton-calendar-guide). Gratis abonnees krijgen toegang tot één agenda, terwijl betalende abonnees tot 20 agenda's kunnen aanmaken. De uitgebreide functionaliteit voor delen is ook beperkt tot betaalde abonnees.
     
@@ -46,7 +45,7 @@ Kalenders en contactpersonen bevatten enkele van uw gevoeligste gegevens; gebrui
     [:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
         - [:octicons-browser-16: Web](https://calendar.proton.me)

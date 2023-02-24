@@ -5,9 +5,9 @@ hide:
   - toc
 ---
 
-Si vous cherchez une solution spécifique à un problème, voici les outils matériels et logiciels que nous recommandons dans diverses catégories. Les outils de protection de la vie privée que nous recommandons sont principalement choisis en fonction de leurs fonctionnalités de sécurité, tout en mettant l'accent sur les outils décentralisés et à code source ouvert. Ils sont applicables à divers modèles de menaces, allant de la protection contre les programmes mondiaux de surveillance de masse et éviter les géants du web à l'atténuation des attaques, mais vous seul pouvez déterminer ce qui fonctionnera le mieux pour votre cas d'utilisation.
+Si vous cherchez une solution spécifique à un problème, voici les outils matériels et logiciels que nous recommandons dans diverses catégories. Les outils de protection de la vie privée que nous recommandons sont principalement choisis en fonction de leurs fonctionnalités de sécurité, tout en mettant l'accent sur les outils décentralisés et à code source ouvert. Ils sont applicables à divers modèles de menaces, allant de la protection contre les programmes mondiaux de surveillance de masse à l'atténuation des attaques en passant par l'évitement des grandes entreprises technologiques, mais vous seul pouvez déterminer ce qui répondra le mieux à vos besoins.
 
-Si vous voulez de l'aide pour déterminer les meilleurs outils de protection de la vie privée et les programmes alternatifs pour votre charge de travail/cas d'utilisation, lancez une discussion dans nos communautés [Reddit](https://www.reddit.com/r/privacyguides) ou [Matrix](https://matrix.to/#/#privacyguides:matrix.org)!
+Si vous souhaitez obtenir de l'aide pour déterminer les meilleurs outils de protection de la vie privée et les programmes alternatifs adaptés à vos besoins, lancez une discussion sur notre [forum](https://discuss.privacyguides.net/) ou sur notre communauté [Matrix](https://matrix.to/#/#privacyguides:matrix.org) !
 
 Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont été choisis, et d'autres conseils ou astuces que nous recommandons, cliquez sur le lien "En savoir plus" dans chaque section, ou cliquez sur la recommandation en question pour accéder à cette section spécifique de la page.
 
@@ -23,7 +23,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 1. Snowflake n'augmente pas la confidentialité, mais il vous permet de contribuer facilement au réseau Tor et d'aider les personnes dans les réseaux censurés à obtenir une meilleure confidentialité.
 
-[En savoir plus :material-arrow-right:](tor.md)
+[En savoir plus :material-arrow-right-drop-circle:](tor.md)
 
 ## Navigateurs de Bureau
 
@@ -34,7 +34,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 </div>
 
-[En savoir plus :material-arrow-right:](desktop-browsers.md)
+[En savoir plus :material-arrow-right-drop-circle:](desktop-browsers.md)
 
 ### Ressources Supplémentaires
 
@@ -44,7 +44,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 </div>
 
-[En savoir plus :material-arrow-right:](desktop-browsers.md#additional-resources)
+[En savoir plus :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
 
 ## Navigateurs mobiles
 
@@ -55,7 +55,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 </div>
 
-[En savoir plus :material-arrow-right:](mobile-browsers.md)
+[En savoir plus :material-arrow-right-drop-circle:](mobile-browsers.md)
 
 ### Ressources Supplémentaires
 
@@ -65,7 +65,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 </div>
 
-[En savoir plus :material-arrow-right:](mobile-browsers.md#adguard)
+[En savoir plus :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
 
 ## Systèmes d'exploitation
 
@@ -78,7 +78,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 </div>
 
-[En savoir plus :material-arrow-right:](android.md)
+[En savoir plus :material-arrow-right-drop-circle:](android.md)
 
 #### Applications Android
 
@@ -87,12 +87,12 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 - ![Logo Aurora Store](/assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
 - ![Logo Shelter](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
 - ![Logo Auditeur](assets/img/android/auditor.svg#only-light){ .twemoji }![Logo GrapheneOS](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditeur (Appareils pris en charge)](android.md#auditor)
-- ![Logo caméra sécurisée](assets/img/android/secure_camera.svg#only-light){ .twemoji }! [Logo caméra sécurisée](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Caméra sécurisée](android.md#secure-camera)
-- !Logo [Secure PDF Viewer](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }! [Logo GrapheneOS](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+- ![Logo caméra sécurisée](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Logo caméra sécurisée](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Caméra sécurisée](android.md#secure-camera)
+- ![Logo Secure PDF Viewer](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![Logo Secure PDF Viewer](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
 
 </div>
 
-[En savoir plus :material-arrow-right:](android.md#general-apps)
+[En savoir plus :material-arrow-right-drop-circle:](android.md#general-apps)
 
 ### Bureau/PC
 
@@ -109,7 +109,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 </div>
 
-[En savoir plus :material-arrow-right:](desktop.md)
+[En savoir plus :material-arrow-right-drop-circle:](desktop.md)
 
 ### Firmware du routeur
 
@@ -120,7 +120,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 </div>
 
-[En savoir plus :material-arrow-right:](router.md)
+[En savoir plus :material-arrow-right-drop-circle:](router.md)
 
 ## Fournisseurs de Services
 
@@ -132,7 +132,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 </div>
 
-[En savoir plus :material-arrow-right:](cloud.md)
+[En savoir plus :material-arrow-right-drop-circle:](cloud.md)
 
 ### DNS
 
@@ -140,7 +140,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs DNS chiffrés en fonction de divers critères, tels que [Mullvad](https://mullvad.net/fr/help/dns-over-https-and-dns-over-tls) et [Quad9](https://quad9.net/) entre autres. Nous vous recommandons de lire nos pages sur les DNS avant de choisir un fournisseur. Dans de nombreux cas, l'utilisation d'un autre fournisseur de DNS n'est pas recommandée.
 
-[En savoir plus :material-arrow-right:](dns.md)
+[En savoir plus :material-arrow-right-drop-circle:](dns.md)
 
 #### Proxys DNS chiffrés
 
@@ -151,7 +151,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 </div>
 
-[En savoir plus :material-arrow-right:](dns.md#encrypted-dns-proxies)
+[En savoir plus :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
 #### Solutions Auto-hébergées
 
@@ -162,7 +162,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 </div>
 
-[En savoir plus :material-arrow-right:](dns.md#self-hosted-solutions)
+[En savoir plus :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
 
 ### Email
 
@@ -175,7 +175,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 </div>
 
-[En savoir plus :material-arrow-right:](email.md)
+[En savoir plus :material-arrow-right-drop-circle:](email.md)
 
 #### Services d'alias d'e-mails
 
@@ -186,7 +186,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 </div>
 
-[En savoir plus :material-arrow-right:](email.md#email-aliasing-services)
+[En savoir plus :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
 
 #### E-mail auto-hébergé
 
@@ -197,7 +197,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 </div>
 
-[En savoir plus :material-arrow-right:](email.md#self-hosting-email)
+[En savoir plus :material-arrow-right-drop-circle:](email.md#self-hosting-email)
 
 ### Moteurs de Recherche
 
@@ -210,7 +210,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 </div>
 
-[En savoir plus :material-arrow-right:](search-engines.md)
+[En savoir plus :material-arrow-right-drop-circle:](search-engines.md)
 
 ### Fournisseurs de VPN
 
@@ -226,13 +226,13 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 <div class="grid cards" markdown>
 
-- ! [Logo Proton VPN](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
+- ![Logo Proton VPN](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
 - ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
 
 </div>
 
-[En savoir plus :material-arrow-right:](vpn.md)
+[En savoir plus :material-arrow-right-drop-circle:](vpn.md)
 
 ## Logiciels
 
@@ -245,22 +245,21 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 </div>
 
-[En savoir plus :material-arrow-right:](calendar.md)
+[En savoir plus :material-arrow-right-drop-circle:](calendar.md)
 
 ### Rédaction de données et de métadonnées
 
 <div class="grid cards" markdown>
 
-- ![Logo ExifCleaner](assets/img/data-redaction/exifcleaner.svg){ .twemoji } [ExifCleaner](data-redaction.md#exifcleaner)
 - ![Logo MAT2](assets/img/data-redaction/mat2.svg){ .twemoji } [MAT2](data-redaction.md#mat2)
 - ![Logo ExifEraser](assets/img/data-redaction/exiferaser.svg){ .twemoji } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
 - ![Logo Metapho](assets/img/data-redaction/metapho.jpg){ .twemoji } [Metapho (iOS)](data-redaction.md#metapho-ios)
-- ! [Logo PrivacyBlur](assets/img/data-redaction/privacyblur.svg){ .twemoji } [PrivacyBlur](data-redaction.md#privacyblur)
+- ![Logo PrivacyBlur](assets/img/data-redaction/privacyblur.svg){ .twemoji } [PrivacyBlur](data-redaction.md#privacyblur)
 - ![Logo ExifTool](assets/img/data-redaction/exiftool.png){ .twemoji } [ExifTool (CLI)](data-redaction.md#exiftool)
 
 </div>
 
-[En savoir plus :material-arrow-right:](data-redaction.md)
+[En savoir plus :material-arrow-right-drop-circle:](data-redaction.md)
 
 ### Logiciels de messagerie électronique
 
@@ -278,7 +277,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 </div>
 
-[En savoir plus :material-arrow-right:](email-clients.md)
+[En savoir plus :material-arrow-right-drop-circle:](email-clients.md)
 
 ### Logiciels de Chiffrement
 
@@ -299,7 +298,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 </div>
 
-[En savoir plus :material-arrow-right:](encryption.md)
+[En savoir plus :material-arrow-right-drop-circle:](encryption.md)
 
 #### Clients OpenPGP
 
@@ -312,7 +311,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 </div>
 
-[En savoir plus :material-arrow-right:](encryption.md#openpgp)
+[En savoir plus :material-arrow-right-drop-circle:](encryption.md#openpgp)
 
 ### Partage et synchronisation de fichiers
 
@@ -326,7 +325,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 </div>
 
-[En savoir plus :material-arrow-right:](file-sharing.md)
+[En savoir plus :material-arrow-right-drop-circle:](file-sharing.md)
 
 ### Clients Applicatifs
 
@@ -342,7 +341,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 </div>
 
-[En savoir plus :material-arrow-right:](frontends.md)
+[En savoir plus :material-arrow-right-drop-circle:](frontends.md)
 
 ### Outils d'Authentification Multi-Facteurs
 
@@ -355,7 +354,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 </div>
 
-[En savoir plus :material-arrow-right:](multi-factor-authentication.md)
+[En savoir plus :material-arrow-right-drop-circle:](multi-factor-authentication.md)
 
 ### Agrégateurs d'Actualités
 
@@ -371,7 +370,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 </div>
 
-[En savoir plus :material-arrow-right:](news-aggregators.md)
+[En savoir plus :material-arrow-right-drop-circle:](news-aggregators.md)
 
 ### Bloc-notes
 
@@ -379,12 +378,12 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 - ![Logo Joplin](assets/img/notebooks/joplin.svg){ .twemoji } [Joplin](notebooks.md#joplin)
 - ![Logo Standard Notes](assets/img/notebooks/standard-notes.svg){ .twemoji } [Standard Notes](notebooks.md#standard-notes)
-- !![Logo Cryptee](assets/img/notebooks/cryptee.svg#only-light){ .twemoji }![Logo Cryptee](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](notebooks.md#cryptee)
+- ![Logo Cryptee](assets/img/notebooks/cryptee.svg#only-light){ .twemoji }![Logo Cryptee](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](notebooks.md#cryptee)
 - ![Logo Org-mode](assets/img/notebooks/org-mode.svg){ .twemoji } [Org-mode](notebooks.md#org-mode)
 
 </div>
 
-[En savoir plus :material-arrow-right:](notebooks.md)
+[En savoir plus :material-arrow-right-drop-circle:](notebooks.md)
 
 ### Gestionnaires de mots de passe
 
@@ -400,7 +399,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 </div>
 
-[En savoir plus :material-arrow-right:](passwords.md)
+[En savoir plus :material-arrow-right-drop-circle:](passwords.md)
 
 ### Outils de Productivité
 
@@ -414,7 +413,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 </div>
 
-[En savoir plus :material-arrow-right:](productivity.md)
+[En savoir plus :material-arrow-right-drop-circle:](productivity.md)
 
 ### Communication en temps réel
 
@@ -428,7 +427,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 </div>
 
-[En savoir plus :material-arrow-right:](real-time-communication.md)
+[En savoir plus :material-arrow-right-drop-circle:](real-time-communication.md)
 
 ### Clients de Streaming Vidéo
 
@@ -438,4 +437,4 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 </div>
 
-[En savoir plus :material-arrow-right:](video-streaming.md)
+[En savoir plus :material-arrow-right-drop-circle:](video-streaming.md)

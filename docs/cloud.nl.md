@@ -13,18 +13,18 @@ Als deze alternatieven niet aan uw behoeften voldoen, raden wij u aan te kijken 
 
 ## Proton Drive
 
-!!! aanbeveling
+!!! recommendation
 
-    Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
+    ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
     
     **Proton Drive** is een E2EE algemene bestandsopslagdienst van de populaire versleutelde e-mailprovider [Proton Mail](https://proton.me/mail).
     
     [:octicons-home-16: Homepage](https://proton.me/drive){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacybeleid" }
     [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)

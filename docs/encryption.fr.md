@@ -93,7 +93,7 @@ Les systèmes d'exploitation modernes incluent le [Chiffrement de Disque](https:
 
     ![Logo BitLocker](assets/img/encryption-software/bitlocker.png){ align=right }
     
-    **BitLocker** est la solution de chiffrement intégral de volume fournie avec Microsoft Windows. La principale raison pour laquelle nous le recommandons est son [utilisation du TPM] (https://docs.microsoft.com/fr-fr/windows/security/information-protection/tpm/how-windows-uses-the-tpm). [ElcomSoft](https://en.wikipedia.org/wiki/ElcomSoft), une entreprise de forensique, a écrit à ce sujet dans [Understanding BitLocker TPM Protection] (https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
+    **BitLocker** est la solution de chiffrement intégral de volume fournie avec Microsoft Windows. La principale raison pour laquelle nous le recommandons est son [utilisation du TPM] (https://docs.microsoft.com/fr-fr/windows/security/information-protection/tpm/how-windows-uses-the-tpm). [ElcomSoft](https://en.wikipedia.org/wiki/ElcomSoft), une entreprise de forensique, a écrit à ce sujet dans [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
     
     [:octicons-info-16:](https://docs.microsoft.com/fr-fr/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentation}
 
@@ -338,7 +338,7 @@ Lorsque vous chiffrez avec PGP, vous avez la possibilité de configurer différe
 
 !!! example "Cette section est récente"
 
-    Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum] (https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
+    Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum](https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
 
 ### Qualifications minimales
 

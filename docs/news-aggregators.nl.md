@@ -1,6 +1,6 @@
 ---
 title: "Nieuws Aggregators"
-icon: octicons/rss-24
+icon: material/rss
 ---
 
 Een [nieuwsaggregator](https://en.wikipedia.org/wiki/News_aggregator) is een manier om op de hoogte te blijven van jouw favoriete blogs en nieuwssites.
@@ -9,9 +9,9 @@ Een [nieuwsaggregator](https://en.wikipedia.org/wiki/News_aggregator) is een man
 
 ### Akregator
 
-!!! aanbeveling
+!!! recommendation
 
-    Akregator logo](assets/img/news-aggregators/akregator.svg){ align=right }
+    ![Akregator logo](assets/img/news-aggregators/akregator.svg){ align=right }
     
     **Akregator** is een nieuwsfeedlezer die deel uitmaakt van het [KDE](https://kde.org) project. Het wordt geleverd met een snelle zoekfunctie, geavanceerde archiveringsfunctionaliteit en een interne browser voor het gemakkelijk lezen van nieuws.
     
@@ -21,13 +21,13 @@ Een [nieuwsaggregator](https://en.wikipedia.org/wiki/News_aggregator) is een man
     [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.kde.akregator)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
 ### Feeder
 
-!!! aanbeveling
+!!! recommendation
 
     ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
     
@@ -37,17 +37,17 @@ Een [nieuwsaggregator](https://en.wikipedia.org/wiki/News_aggregator) is een man
     [:octicons-code-16:](https://gitlab.com/spacecowboy/Feeder){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
 
 ### Fluent Reader
 
-!!! aanbeveling
+!!! recommendation
 
-    Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ align=right }
+    ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ align=right }
     
-    **Fluent Reader** is een veilige cross-platform nieuwsaggregator met handige privacy-functies, zoals het verwijderen van cookies bij afsluiten, strikte [content security policies (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) en proxy-ondersteuning, wat betekent dat je het kunt gebruiken via [Tor](self-contained-networks.md#tor).
+    **Fluent Reader** is een veilige cross-platform nieuwsaggregator met handige privacy-functies, zoals het verwijderen van cookies bij afsluiten, strikte [content security policies (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) en proxy-ondersteuning, wat betekent dat je het kunt gebruiken via [Tor](tor.md).
     
     [:octicons-home-16: Homepage](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Privacybeleid" }
@@ -55,14 +55,14 @@ Een [nieuwsaggregator](https://en.wikipedia.org/wiki/News_aggregator) is een man
     [:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
-        - [:fontawesome-brands-windows: Windows](https://hyliu.me/fluent-reader)
-        - [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/app/id1520907427)
+        - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
 
 ### Gnome Feeds
 
-!!! aanbeveling
+!!! recommendation
 
     ![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ align=right }
     
@@ -72,14 +72,14 @@ Een [nieuwsaggregator](https://en.wikipedia.org/wiki/News_aggregator) is een man
     [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
-        - [:fontawesome-brands-linux: Linux](https://gfeeds.gabmus.org/#install)
-        - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.gabmus.gfeeds)
+        - [:simple-linux: Linux](https://gfeeds.gabmus.org/#install)
+        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gabmus.gfeeds)
 
 ### Miniflux
 
-!!! aanbeveling
+!!! recommendation
 
     ![Miniflux-logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
     ![Miniflux-logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
@@ -93,9 +93,9 @@ Een [nieuwsaggregator](https://en.wikipedia.org/wiki/News_aggregator) is een man
 
 ### NetNewsWire
 
-!!! aanbeveling
+!!! recommendation
 
-    NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
+    ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
     
     **NetNewsWire** een gratis en open-source feedlezer voor macOS en iOS met een focus op een native ontwerp en functieset. Het ondersteunt de typische feedformaten naast ingebouwde ondersteuning voor Twitter- en Reddit-feeds.
     
@@ -104,14 +104,14 @@ Een [nieuwsaggregator](https://en.wikipedia.org/wiki/News_aggregator) is een man
     [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
-        - [:fontawesome-brands-apple: macOS](https://netnewswire.com)
-        - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
+        - [:simple-apple: macOS](https://netnewswire.com)
 
 ### Newsboat
 
-!!! aanbeveling
+!!! recommendation
 
     ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ align=right }
     

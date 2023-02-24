@@ -17,15 +17,15 @@ icon: material/chat-processing
 
     ![Signal לוגו](assets/img/messengers/signal.svg){ align=right }
     
-    **סיגנל** היא אפליקציה לנייד שפותחה על ידי סיגנל מסנג'ר LLC. האפליקציה מספקת הודעות מיידיות, כמו גם שיחות קוליות ושיחות וידאו.
+    **Signal** היא אפליקציה לנייד שפותחה על ידי סיגנל מסנג'ר LLC. האפליקציה מספקת הודעות מיידיות, כמו גם שיחות קוליות ושיחות וידאו.
     
     כל התקשורת היא E2EE. רשימות אנשי קשר מוצפנות באמצעות קוד ה - PIN שלך ולשרת אין גישה אליהן. גם פרופילים אישיים מוצפנים ומשותפים רק עם אנשי קשר שאיתם אתה משוחח בצ'אט.
     
-    [:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-home-16: דף הבית](https://signal.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="מדיניות פרטיות" }
     [:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
+    [:octicons-code-16:](https://github.com/signalapp){ .card-link title="קוד מקור" }
+    [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=לתרומה }
     
     ??? downloads "הורדות"
     
@@ -50,7 +50,7 @@ Signal תומך ב[קבוצות פרטיות](https://signal.org/blog/signal-pri
 
     ![לוגו Simplex](assets/img/messengers/simplex.svg){ align=right }
     
-    **SimpleX** Chat הוא מסגר מיידי מבוזר ואינו תלוי במזהים ייחודיים כגון מספרי טלפון או שמות משתמש. משתמשי SimpleX Chat יכולים לסרוק קוד QR או ללחוץ על קישור הזמנה כדי להשתתף בשיחות קבוצתיות.
+    **SimpleX** Chat הוא מסנג'ר מיידי מבוזר ואינו תלוי במזהים ייחודיים כגון מספרי טלפון או שמות משתמש. משתמשי SimpleX Chat יכולים לסרוק קוד QR או ללחוץ על קישור הזמנה כדי להשתתף בשיחות קבוצתיות.
     
     [:octicons-home-16: דף הבית](https://simplex.chat){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="מדיניות פרטיות" }
@@ -102,7 +102,7 @@ Briar תומך בסודיות קדימה מושלמת על ידי שימוש ב-
 
 !!! warning "אזהרה"
 
-    לשליחים אלה אין סודיות מושלמת [Forward Secrecy]( https://en.wikipedia.org/wiki/Forward_secrecy)( PFS), ובעוד שהם מקיימים מקרי שימוש מסוימים שההמלצות הקודמות שלנו אינן יכולות, אנו לא ממליצים עליהם לתקשורת ארוכת טווח או רגישה. כל פשרה מרכזית בין מקבלי ההודעה תשפיע על הסודיות של **כל** התקשורת בעבר.
+    למסנג'רים האלה אין [סודיות קדימה](https://en.wikipedia.org/wiki/Forward_secrecy) מושלם (PFS), ולמרות שהם ממלאים צרכים מסוימים שהמלצות קודמות שלנו אולי לא, אנחנו לא ממליצים עליהם לאורך זמן- מונחים או תקשורת רגישה. כל פשרה מרכזית בין מקבלי ההודעות תשפיע על הסודיות של **כל** התקשורת העבר.
 
 ### Element
 
@@ -135,7 +135,7 @@ Briar תומך בסודיות קדימה מושלמת על ידי שימוש ב-
 
 פרוטוקול Matrix עצמו [תומך תיאורטית ב-PFS](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy), עם זאת, זה [לא נתמך כרגע ב-Element](https://github.com/vector-im/element-web/issues/7101) בגלל שהוא שובר היבטים מסוימים של חוויית המשתמש, כגון גיבויי מפתח והיסטוריית הודעות משותפת.
 
-הפרוטוקול היה מבוקר [באופן עצמאי](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) בשנת 2016. את המפרט לפרוטוקול מטריקס ניתן למצוא [בתיעוד שלהם](https://spec.matrix.org/latest/). ה - [Olm](https://matrix.org/docs/projects/other/olm) מחגר קריפטוגרפי המשמש את מטריקס הוא יישום של סיגנל [Double Ratchet של Signal](https://signal.org/docs/specifications/doubleratchet/).
+הפרוטוקול היה מבוקר [באופן עצמאי](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) בשנת 2016. את המפרט לפרוטוקול מטריקס ניתן למצוא [בתיעוד שלהם](https://spec.matrix.org/latest/). מחגר ההצפנה [Olm](https://matrix.org/docs/projects/other/olm) המשמש את Matrix הוא יישום של [אלגוריתם ה-Double Ratchet](https://signal.org/docs/specifications/doubleratchet/) של Signal.
 
 ### Session
 
@@ -161,11 +161,11 @@ Briar תומך בסודיות קדימה מושלמת על ידי שימוש ב-
         - [:simple-apple: macOS](https://getsession.org/download)
         - [:simple-linux: Linux](https://getsession.org/download)
 
-Session מאפשר E2EE בצ'אטים אחד על אחד או קבוצות סגורות המאפשרות עד 100 חברים. לקבוצות פתוחות אין הגבלה על מספר החברים, אך הן פתוחות על פי עיצוב.
+Session מאפשרת E2EE בצ'אטים אחד על אחד או קבוצות סגורות המאפשרות עד 100 חברים. לקבוצות פתוחות אין הגבלה על מספר החברים, אך הן פתוחות על פי עיצוב.
 
 Session [לא](https://getsession.org/blog/session-protocol-technical-information) תומך ב-PFS, כלומר כאשר מערכת הצפנה משנה באופן אוטומטי ותדיר את המפתחות שבה היא משתמשת להצפנה ולפענח מידע, כך שאם המפתח האחרון נפגע הוא חושף חלק קטן יותר של מידע רגיש.
 
-Oxen ביקש ביקורת בלתי תלויה למפגש במרץ 2020. הביקורת [הסתיימה](https://getsession.org/session-code-audit) באפריל 2021, "רמת האבטחה הכוללת של אפליקציה זו טובה והופכת אותה לשמישה לפרטיות אֲנָשִׁים."
+Oxen ביקשה ביקורת בלתי תלויה למפגש במרץ 2020. הביקורת [הסתיימה](https://getsession.org/session-code-audit) באפריל 2021, "רמת האבטחה הכללית של האפליקציה הזו טובה והופכת אותה לשמישה לפרטיות אנשים."
 
 להפעלה יש [נייר לבן](https://arxiv.org/pdf/2002.04609.pdf) המתאר את התכונות הטכניות של האפליקציה והפרוטוקול.
 

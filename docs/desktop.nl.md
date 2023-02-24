@@ -1,6 +1,6 @@
 ---
 title: "Desktop/PC"
-icon: fontawesome/brands/linux
+icon: simple/linux
 ---
 
 Linux-distributies worden algemeen aanbevolen voor privacybescherming en softwarevrijheid. Als je nog geen Linux gebruikt, zijn hieronder enkele distributies die we aanraden om uit te proberen, evenals enkele algemene tips om je privacy en veiligheid te verbeteren die op veel Linux-distributies van toepassing zijn.
@@ -13,9 +13,9 @@ Linux-distributies worden algemeen aanbevolen voor privacybescherming en softwar
 
 !!! recommendation
 
-    Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
+    ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
     
-    **Fedora Workstation** is onze aanbevolen distributie voor mensen die nieuw zijn met Linux. Fedora adopteert over het algemeen nieuwere technologieën dan andere distributies, b.v. [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org), en binnenkort, [FS-Verity](https://fedoraproject.org/wiki/Changes/FsVerityRPM). Deze nieuwe technologieën gaan vaak gepaard met verbeteringen op het gebied van veiligheid, privacy en bruikbaarheid in het algemeen.
+    **Fedora Workstation** is onze aanbevolen distributie voor mensen die nieuw zijn met Linux. Fedora adopteert over het algemeen nieuwere technologieën dan andere distributies, b.v. [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org), en binnenkort. Deze nieuwe technologieën gaan vaak gepaard met verbeteringen op het gebied van veiligheid, privacy en bruikbaarheid in het algemeen.
     
     [:octicons-home-16: Homepage](https://getfedora.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentatie}
@@ -27,7 +27,7 @@ Fedora heeft een semi-rollende release cyclus. Terwijl sommige pakketten zoals [
 
 !!! recommendation
 
-    openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
+    ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
     
     **openSUSE Tumbleweed** is een stabiele distributie met rollende release.
     
@@ -43,7 +43,7 @@ Tumbleweed volgt een rollend release-model waarbij elke update wordt vrijgegeven
 
 !!! recommendation
 
-    Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }
+    ![Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }
     
     **Arch Linux** is een lichtgewicht, doe-het-zelf (DIY) distributie, wat betekent dat u alleen krijgt wat u installeert. Zie voor meer informatie hun [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
     
@@ -63,7 +63,7 @@ Een groot deel van [Arch Linux's pakketten](https://reproducible.archlinux.org) 
 
 !!! recommendation
 
-    Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
+    ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
     
     **Fedora Silverblue** en **Fedora Kinoite** zijn immutable varianten van Fedora met een sterke focus op container workflows. Silverblue wordt geleverd met de [GNOME](https://www.gnome.org/) desktop omgeving terwijl Kinoite wordt geleverd met [KDE](https://kde.org/). Silverblue en Kinoite volgen hetzelfde release schema als Fedora Workstation, profiteren van dezelfde snelle updates en blijven zeer dicht bij de upstream.
     
@@ -107,7 +107,7 @@ Nix is een source-based package manager; als er geen pre-built beschikbaar is in
 
 !!! recommendation
 
-    Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
+    ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
     
     **Whonix** is gebaseerd op [Kicksecure](https://www.whonix.org/wiki/Kicksecure), een op beveiliging gerichte vork van Debian. Het is gefocust op privacy, veiligheid en anonimiteit op het internet te bieden. Whonix wordt het best gebruikt in combinatie met [Qubes OS](#qubes-os).
     
@@ -146,7 +146,7 @@ Het is de bedoeling dat Tails zichzelf volledig reset na elke herstart. Een vers
 
 !!! recommendation
 
-    Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
+    ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
     
     **Qubes OS** is een open-source besturingssysteem ontworpen om sterke beveiliging te bieden voor desktop computergebruik. Qubes is gebaseerd op Xen, het X Window System, en Linux, en kan de meeste Linux-toepassingen draaien en de meeste Linux-stuurprogramma's gebruiken.
     

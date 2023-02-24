@@ -9,9 +9,9 @@ De meeste online office suites ondersteunen geen E2EE, wat betekent dat de cloud
 
 ### Nextcloud
 
-!!! Als u Microsoft Windows gebruikt, raden wij Microsoft Office aan, omdat het ondersteuning heeft van [MDAG](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview), dat voorkomt dat onvertrouwde Word-, PowerPoint- en Excel-bestanden toegang krijgen tot vertrouwde bronnen.
+!!! recommendation
 
-    Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
+    ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
     
     **Nextcloud** is een suite van gratis en open-source client-server software voor het creëren van jouw eigen bestandshosting diensten op een prive-server die jij controleert.
     
@@ -21,7 +21,7 @@ De meeste online office suites ondersteunen geen E2EE, wat betekent dat de cloud
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -37,9 +37,9 @@ De meeste online office suites ondersteunen geen E2EE, wat betekent dat de cloud
 
 ### CryptPad
 
-!!! aanbeveling
+!!! recommendation
 
-    CryptPad logo](assets/img/productivity/cryptpad.svg){ align=right }
+    ![CryptPad logo](assets/img/productivity/cryptpad.svg){ align=right }
     
     **CryptPad** is een privé alternatief voor populaire office tools. Alle inhoud op deze webdienst is end-to-end versleutelden kan gemakkelijk met andere gebruikers worden gedeeld.
     
@@ -79,7 +79,7 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
 
 !!! recommendation
 
-    LibreOffice logo](assets/img/productivity/libreoffice.svg){ align=right }
+    ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ align=right }
     
     **LibreOffice** is een gratis en open-source kantoorpakket met uitgebreide functionaliteit.
     
@@ -89,7 +89,7 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
     [:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://www.libreoffice.org/download/android-and-ios/)
         - [:simple-appstore: App Store](https://www.libreoffice.org/download/android-and-ios/)
@@ -103,16 +103,16 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
 
 !!! recommendation
 
-    OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ align=right }
+    ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ align=right }
     
     **OnlyOffice** is een gratis en open-source kantoorpakket in de cloud met uitgebreide functionaliteit, inclusief integratie met Nextcloud.
     
-    :octicons-home-16: Homepage](https://www.onlyoffice.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Privacy Policy" } [ https://www.onlyoffice.com ]( ){ .card-link title="Documentatie" }.
+    [:octicons-home-16: Homepage](https://www.onlyoffice.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Privacybeleid" }
     [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
@@ -130,7 +130,7 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
 
     We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
 
-In het algemeen definiëren wij kantoorsuites als toepassingen die voor de meeste toepassingen redelijkerwijs als vervanging van Microsoft Word kunnen dienen.
+In het algemeen definiëren wij kantoorsuites als toepassingen die voor de meeste behoeften redelijkerwijs als vervanging van Microsoft Word kunnen dienen.
 
 - Moet cross-platform zijn.
 - Moet open-source zijn.
@@ -144,7 +144,7 @@ In het algemeen definiëren wij kantoorsuites als toepassingen die voor de meest
 
 !!! recommendation
 
-    PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
+    ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
     
     **PrivateBin** is een minimalistische, open-source online pastebin waar de server geen kennis heeft van geplakte data. Gegevens worden in de browser versleuteld/ontsleuteld met 256-bit AES. Het is de verbeterde versie van ZeroBin. Er is een [lijst van instanties](https://privatebin.info/directory/).
     

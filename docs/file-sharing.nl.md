@@ -9,7 +9,7 @@ Ontdek hoe je jouw bestanden privé kunt delen tussen jouw apparaten, met jouw v
 
 ### Send
 
-!!! aanbeveling
+!!! recommendation
 
     ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
     
@@ -29,18 +29,18 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 ### OnionShare
 
-!!! aanbeveling
+!!! recommendation
 
-    OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
+    ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
     
     **OnionShare** is een open-source tool waarmee je veilig en anoniem een bestand van elke grootte kunt delen. Het werkt door een webserver te starten die toegankelijk is als een Tor onion service, met een onleesbare URL die je met de ontvangers kunt delen om bestanden te downloaden of te verzenden.
     
     [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
-    [:pg-tor:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title=Onion }
-    [:octicons-info-16:](https://docs.onionshare.org/){ .card-link title=Documentatie}
+    [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
+    [:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-windows11: Windows](https://onionshare.org/#download)
         - [:simple-apple: macOS](https://onionshare.org/#download)
@@ -62,7 +62,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 !!! recommendation
 
-    FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }
+    ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }
     
     **FreedomBox** is een besturingssysteem ontworpen om te draaien op een [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). Het doel is om het gemakkelijk te maken om servertoepassingen op te zetten die je misschien zelf wilt hosten.
     
@@ -77,7 +77,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 !!! recommendation
 
-    Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
+    ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
     
     **Nextcloud** is een suite van gratis en open-source client-server software voor het creëren van jouw eigen bestandshosting diensten op een prive-server die je controleert.
     
@@ -105,7 +105,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 !!! recommendation
 
-    Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ align=right }
+    ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ align=right }
     
     **Syncthing** is een open-source peer-to-peer continue bestandssynchronisatie hulpprogramma. Het wordt gebruikt om bestanden te synchroniseren tussen twee of meer toestellen via het lokale netwerk of het internet. Syncthing gebruikt geen gecentraliseerde server; het gebruikt het [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) om gegevens tussen apparaten over te dragen. Alle gegevens worden versleuteld met behulp van TLS.
     

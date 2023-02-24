@@ -13,7 +13,7 @@ Zoek een no-logging VPN-operator die er niet op uit is jouw webverkeer te verkop
     
     Als je op zoek bent naar extra **veiligheid**, moet je er altijd voor zorgen dat je verbinding maakt met websites via HTTPS. Een VPN is geen vervanging voor goede beveiligingspraktijken.
     
-    [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Mythen & FAQ](basics/tor-overview.md){ .md-button }
+    [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Mythen & FAQ](advanced/tor-overview.md){ .md-button }
 
 ??? question "Wanneer zijn VPN's nuttig?"
 
@@ -31,9 +31,9 @@ Zoek een no-logging VPN-operator die er niet op uit is jouw webverkeer te verkop
 
 !!! recommendation annotate
 
-    [Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
+    ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
     
-    **Proton VPN** is een sterke speler in de VPN-ruimte, en ze zijn in bedrijf sinds 2016. Proton AG is gevestigd in Zwitserland en biedt een beperkte gratis versie aan, evenals een meer uitgebreide premium optie.
+    **Proton VPN** is een sterke speler in de VPN-ruimte, en ze zijn in bedrijf sinds 2016. Proton AG is gevestigd in Zwitserland en biedt een beperkt gratis niveau en een meer uitgebreide premium optie.
     
     [:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -58,7 +58,7 @@ Zoek een no-logging VPN-operator die er niet op uit is jouw webverkeer te verkop
 
 ??? success "Onafhankelijk Gecontroleerd"
 
-    Vanaf januari 2020 heeft Proton VPN een onafhankelijke audit door SEC Consult ondergaan. SEC Consult vond enkele kwetsbaarheden met een gemiddeld en laag risico in de Windows-, Android- en iOS-applicaties van Proton VPN, die allemaal door Proton VPN "naar behoren waren verholpen" voordat de rapporten werden gepubliceerd. Geen van de geconstateerde problemen zou een aanvaller op afstand toegang hebben verschaft tot jouw apparaat of verkeer. Je kunt de afzonderlijke verslagen voor elk platform bekijken op [protonvpn.com](https://protonvpn.com/blog/open-source/). In april 2022 onderging Proton VPN [nog een audit](https://protonvpn.com/blog/no-logs-audit/) en het verslag werd [opgesteld door Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). Voor de apps van Proton VPN is op 9 november 2021 een [attestbrief](https://proton.me/blog/security-audit-all-proton-apps) verstrekt door [Securitum](https://research.securitum.com).
+    Vanaf januari 2020, heeft Proton VPN een onafhankelijke audit door SEC Consult ondergaan. SEC Consult vond enkele kwetsbaarheden met een gemiddeld en laag risico in de Windows-, Android- en iOS-applicaties van Proton VPN, die allemaal door Proton VPN "naar behoren waren verholpen" voordat de rapporten werden gepubliceerd. Geen van de geconstateerde problemen zou een aanvaller op afstand toegang hebben verschaft tot jouw apparaat of verkeer. Je kunt de afzonderlijke verslagen voor elk platform bekijken op [protonvpn.com](https://protonvpn.com/blog/open-source/). In april 2022 onderging Proton VPN [nog een audit](https://protonvpn.com/blog/no-logs-audit/) en het verslag werd [opgesteld door Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). Voor de apps van Proton VPN is op 9 november 2021 een [attestbrief](https://proton.me/blog/security-audit-all-proton-apps) verstrekt door [Securitum](https://research.securitum.com).
 
 ??? success "Open-Source Cliënts"
 
@@ -94,14 +94,16 @@ Zoek een no-logging VPN-operator die er niet op uit is jouw webverkeer te verkop
 
 !!! recommendation
 
-    IVPN heeft [servers in 32 landen](https://www.ivpn.net/server-locations) (1). IVPN is gevestigd in Gibraltar.
+    ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
+    
+    **IVPN** is een andere premium VPN provider, en ze zijn actief sinds 2009. IVPN is gevestigd in Gibraltar.
     
     [:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-android: Android](https://www.ivpn.net/apps-android/)
         - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
@@ -109,7 +111,7 @@ Zoek een no-logging VPN-operator die er niet op uit is jouw webverkeer te verkop
         - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
         - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
 
-??? success annotate "63 Landen"
+??? success annotate "35 Landen"
 
     IVPN heeft [servers in 35 landen](https://www.ivpn.net/server-locations) (1). Door een VPN-provider te kiezen met een server het dichtst bij je in de buurt zal de latentie van het netwerkverkeer dat je verstuurt verminderen. Dit komt door een kortere route (minder hops) naar de bestemming.
     
@@ -125,7 +127,7 @@ Zoek een no-logging VPN-operator die er niet op uit is jouw webverkeer te verkop
 
     Sinds februari 2020 zijn [IVPN applicaties nu open-source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Broncode kan worden verkregen van hun [GitHub organisatie](https://github.com/ivpn).
 
-??? succes "Accepteert contant geld en Monero"
+??? success "Accepteert contant geld en Monero"
 
     Naast creditcards/debetkaarten en PayPal accepteert IVPN ook Bitcoin, **Monero** en **cash/lokale valuta** (op jaarplannen) als anonieme betalingsvormen.
 
@@ -151,7 +153,7 @@ Zoek een no-logging VPN-operator die er niet op uit is jouw webverkeer te verkop
 
 !!! recommendation
 
-    Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
+    ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
     
     **Mullvad** is een snelle en goedkope VPN met een serieuze focus op transparantie en veiligheid. Zij zijn in bedrijf sinds **2009**. Mullvad is gevestigd in Zweden en heeft geen gratis proefversie.
     
@@ -161,7 +163,7 @@ Zoek een no-logging VPN-operator die er niet op uit is jouw webverkeer te verkop
     [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
         - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
@@ -194,7 +196,7 @@ Zoek een no-logging VPN-operator die er niet op uit is jouw webverkeer te verkop
 
     Mullvad biedt de broncode voor hun desktop en mobiele clients in hun [GitHub organisatie](https://github.com/mullvad/mullvadvpn-app).
 
-??? succes "Accepteert contant geld en Monero"
+??? success "Accepteert contant geld en Monero"
 
     Mullvad accepteert naast creditcards en PayPal ook Bitcoin, Bitcoin Cash, **Monero** en **contant geld/lokale valuta** als anonieme vormen van betaling. Zij aanvaarden ook Swish en bankoverschrijvingen.
 
@@ -311,7 +313,7 @@ Mag geen marketing hebben die onverantwoord is:
 
 Verantwoorde marketing die zowel educatief als nuttig is voor de consument zou kunnen bestaan uit:
 
-- Een nauwkeurige vergelijking met wanneer Tor of andere [op zichzelf staande netwerken](self-contained-networks.md) moeten worden gebruikt.
+- Een nauwkeurige vergelijking met wanneer Tor of andere [op zichzelf staande netwerken](tor.md) moeten worden gebruikt.
 - Beschikbaarheid van de website van de VPN-provider via een .onion [Verborgen service](https://en.wikipedia.org/wiki/.onion)
 
 ### Extra functionaliteit

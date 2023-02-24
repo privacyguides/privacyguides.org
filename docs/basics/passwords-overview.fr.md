@@ -29,7 +29,6 @@ En ce qui concerne les mots de passe que vous n'avez pas à retenir (comme les m
 
     Si votre gestionnaire de mots de passe vous permet de vérifier les mots de passe compromis, assurez-vous de le faire et changez rapidement tout mot de passe qui pourrait avoir été exposé dans une fuite de données. Vous pouvez également suivre le flux [Dernières Brèches de Have I Been Pwned](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) à l'aide d'un [agrégateur d'actualités](../news-aggregators.md).
 
-
 ## Créer des mots de passe forts
 
 ### Mots de passe

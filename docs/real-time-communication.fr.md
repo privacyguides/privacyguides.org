@@ -102,7 +102,7 @@ Briar prend en charge la confidentialité persistante en utilisant le protocole 
 
 !!! warning "Avertissement"
 
-    Ces messageries instantanées ne disposent pas de [Confidentialité Persistante] (https://fr.wikipedia.org/wiki/Confidentialit%C3%A9_persistante) et, bien qu'ils répondent à certains cas d'utilisation que nos recommandations précédentes ne permettent pas, nous ne les recommandons pas pour les communications sensibles ou long terme. Toute compromission de la clé parmi les destinataires du message affecterait la confidentialité de **toutes** les communications passées.
+    Ces messagers ne disposent pas de la fonction Perfect [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) (PFS), et bien qu'ils répondent à certains besoins que nos recommandations précédentes ne peuvent pas satisfaire, nous ne les recommandons pas pour les communications sensibles ou à long terme. Toute compromission de la clé parmi les destinataires du message affecterait la confidentialité de **toutes** les communications passées.
 
 ### Element
 

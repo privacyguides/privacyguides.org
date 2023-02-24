@@ -7,7 +7,7 @@ icon: material/dns
 
     יש להשתמש ב-DNS מוצפן עם שרתי צד שלישי רק כדי לעקוף [חסימת DNS] בסיסית (https://en.wikipedia.org/wiki/DNS_blocking) כאשר אתה יכול להיות בטוח שלא יהיו לכך השלכות. DNS מוצפן לא יעזור לך להסתיר את פעילות הגלישה שלך.
     
-    [Learn more about DNS](advanced/dns-overview.md){ .md-button }
+    [למידע נוסף על DNS](advanced/dns-overview.md){ .md-button }
 
 ## ספקים מומלצים
 
@@ -22,7 +22,7 @@ icon: material/dns
 
 ## קריטריונים
 
-**שימו לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף[ לקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו מערכת ברורה של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+**שימו לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל[קריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו מערכת ברורה של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
 !!! example "חלק זה הוא חדש"
 
@@ -51,7 +51,7 @@ Apple אינה מספקת ממשק מקורי ליצירת פרופילי DNS מ
 
 !!! info "מידע"
 
-    `systemd-resolved`, שהפצות לינוקס רבות משתמשות בו כדי לבצע את חיפושי ה-DNS שלהם, עדיין לא [תומך ב-DoH](https://github.com/systemd/systemd/issues/8639). אם אתה רוצה להשתמש ב-DoH, תצטרך להתקין פרוקסי כמו [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) ו-[להגדיר אותו](https://wiki.archlinux.org/title/Dnscrypt-proxy) כדי לקחת את כל שאילתות ה-DNS מפותר המערכת ולהעביר אותן באמצעות HTTPS.
+    `systemd-resolved`, שהפצות לינוקס רבות משתמשות בו כדי לבצע את חיפושי ה-DNS שלהם, עדיין לא [תומך ב-DoH](https://github.com/systemd/systemd/issues/8639). אם אתה רוצה להשתמש ב-DoH, תצטרך להתקין פרוקסי כמו [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) ו[להגדיר אותו](https://wiki.archlinux.org/title/Dnscrypt-proxy) כדי לקחת את כל שאילתות ה-DNS מפותר המערכת ולהעביר אותן באמצעות HTTPS.
 
 ## פרוקסי DNS מוצפנים
 
@@ -64,14 +64,17 @@ Apple אינה מספקת ממשק מקורי ליצירת פרופילי DNS מ
     ![RethinkDNS לוגו](assets/img/android/rethinkdns.svg#only-light){ align=right }
     ![RethinkDNS לוגו](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
     
-    **RethinkDNS** הוא לקוח אנדרואיד בקוד פתוח התומך ב-[DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) ו-DNS Proxy יחד עם שמירה במטמון של תגובות DNS, רישום מקומי של שאילתות DNS וניתן להשתמש בהם גם בתור חומת אש.
+    **RethinkDNS** הוא לקוח אנדרואיד בקוד פתוח התומך ב [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) ו-DNS Proxy יחד עם שמירה במטמון של תגובות DNS, רישום מקומי של שאילתות DNS וניתן להשתמש בהם גם בתור חומת אש.
     
     [:octicons-home-16: דף הבית](https://rethinkdns.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="מדיניות פרטיות" }
     [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="קוד מקור" }
     
-    ??? תכונת ה - Dns האנונימית [**לא**](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) הופכת תעבורת רשת אחרת לאנונימית
+    ??? downloads "הורדות"
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
+        - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
 
 ### dnscrypt-proxy
 
@@ -105,14 +108,14 @@ Apple אינה מספקת ממשק מקורי ליצירת פרופילי DNS מ
 
     ![AdGuard Home לוגו](assets/img/dns/adguard-home.svg){ align=right }
     
-    **AdGuard Home** is an open-source [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) to block unwanted web content, such as advertisements.
+    **AdGuard Home** הוא קוד פתוח [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) שמשתמש ב[סינון DNS](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) כדי לחסום תוכן אינטרנט לא רצוי, כגון פרסומות.
     
     AdGuard Home כולל ממשק אינטרנט משופשף כדי להציג תובנות ולנהל תוכן חסום.
     
-    [:octicons-home-16: Homepage](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="Source Code" }
+    [:octicons-home-16: דף הבית](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="מדיניות פרטיות" }
+    [:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="קוד מקור" }
 
 ### Pi-hole
 

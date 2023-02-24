@@ -5,11 +5,11 @@ hide:
   - toc
 ---
 
-אם אתם מחפשים פתרון ספציפי למשהו, אלה הם כלי החומרה והתוכנה שאנו ממליצים עליהם במגוון קטגוריות. כלי הפרטיות המומלצים שלנו נבחרים בעיקר על סמך תכונות אבטחה, עם דגש נוסף על כלים מבוזרים וקוד פתוח. הם חלים על מגוון רחב של מודלים איום החל הגנה מפני תוכניות מעקב המוני העולמי הימנעות חברות טק גדולות כדי להקל על התקפות, אבל רק אתה יכול לקבוע מה יעבוד הכי טוב עבור מקרה השימוש שלך.
+אם אתם מחפשים פתרון ספציפי למשהו, אלו הם כלי החומרה והתוכנה שאנו ממליצים עליהם במגוון קטגוריות. כלי הפרטיות המומלצים שלנו נבחרים בעיקר על סמך תכונות אבטחה, עם דגש נוסף על כלים מבוזרים וקוד פתוח. הם ישימים למגוון מודלים של איומים, החל מהגנה מפני תוכניות מעקב המונים גלובליות והימנעות מחברות טכנולוגיה גדולות וכלה בהתקפות מפחיתות, אבל רק אתה יכול לקבוע מה יעבוד הכי טוב עבור הצרכים שלך.
 
-אם ברצונך לקבל סיוע בהבנת הכלים הטובים ביותר לפרטיות ותוכניות חלופיות עבור עומס העבודה/מקרה השימוש שלך, התחל דיון על פורום [](https://discuss.privacyguides.org/) או על קהילת [המטריקס](https://matrix.to/#/#privacyguides:matrix.org) שלנו!
+אם אתה רוצה עזרה בזיהוי כלי הפרטיות והתוכניות החלופיות הטובות ביותר לצרכים שלך, התחל דיון ב[פורום](https://discuss.privacyguides.net/) או בקהילת ה- [Matrix](https://matrix.to/#/#privacyguides:matrix.org) שלנו!
 
-לקבלת פרטים נוספים על כל פרויקט, מדוע הם נבחרו, וטיפים או טריקים נוספים שאנו ממליצים, לחץ על הקישור "למידע נוסף" בכל מקטע, או לחץ על ההמלצה עצמה כדי להילקח לאותו מקטע ספציפי של הדף.
+לפרטים נוספים על כל פרויקט, מדוע הם נבחרו וטיפים או טריקים נוספים שאנו ממליצים עליו, לחץ על הקישור "למד עוד" בכל חלק, או לחץ על ההמלצה עצמה כדי לעבור לאותו חלק ספציפי של העמוד.
 
 ## רשת טור (Tor Network)
 
@@ -240,18 +240,17 @@ hide:
 
 <div class="grid cards" markdown>
 
-- ![Tutanota לוגו](assets/img/calendar/tutanota.svg){ .twemoji } [Tutanota](calendar.md#tutanota)
-- ![Proton Calendar לוגו](assets/img/calendar/proton-calendar.svg){ .twemoji } [Proton Calendar](calendar.md#proton-calendar)
+- ![Tutanota לוגו של](assets/img/calendar/tutanota.svg){ .twemoji } [Tutanota](calendar.md#tutanota)
+- ![Proton Calendar לוגו של](assets/img/calendar/proton-calendar.svg){ .twemoji } [Proton Calendar](calendar.md#proton-calendar)
 
 </div>
 
-[למד עוד :material-arrow-right-drop-circle:](calendar-contacts.md)
+[למד עוד :material-arrow-right-drop-circle:](calendar.md)
 
 ### הפחתת נתונים ומטא נתונים
 
 <div class="grid cards" markdown>
 
-- ![ExifCleaner לוגו](assets/img/data-redaction/exifcleaner.svg){ .twemoji } [ExifCleaner](data-redaction.md#exifcleaner)
 - ![MAT2 לוגו](assets/img/data-redaction/mat2.svg){ .twemoji } [MAT2](data-redaction.md#mat2)
 - ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
 - ![Metapho לוגו](assets/img/data-redaction/metapho.jpg){ .twemoji } [Metapho (iOS)](data-redaction.md#metapho-ios)
@@ -262,7 +261,7 @@ hide:
 
 [למד עוד :material-arrow-right-drop-circle:](data-redaction.md)
 
-### אימייל ללקוחות
+### לקוחות אימייל
 
 <div class="grid cards" markdown>
 

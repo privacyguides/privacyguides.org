@@ -7,7 +7,7 @@ Vaak melden mensen zich aan voor diensten zonder na te denken. Misschien is het 
 
 Aan elke nieuwe dienst die je gebruikt, zijn risico's verbonden. Datalekken; onthulling van klanteninformatie aan derden; malafide werknemers die toegang krijgen tot gegevens; het zijn allemaal mogelijkheden die moeten worden overwogen wanneer je jouw informatie verstrekt. Je moet er zeker van zijn dat je de service kunt vertrouwen, daarom raden we niet aan om waardevolle gegevens op te slaan over iets anders dan de meest volwassen en stressgeteste producten. Dat betekent meestal diensten die end-to-end encryptie leveren en een cryptografische audit hebben ondergaan. Een audit vergroot de zekerheid dat het product is ontworpen zonder opvallende beveiligingsproblemen die zijn veroorzaakt door een onervaren ontwikkelaar.
 
-Bij sommige diensten kan het ook moeilijk zijn om de accounts te verwijderen. Soms kan [gegevens overschrijven](account-deletion.en.md#overwriting-account-information) die aan een account zijn gekoppeld, maar in andere gevallen bewaart de dienst een hele geschiedenis van wijzigingen in de account.
+Bij sommige diensten kan het ook moeilijk zijn om de accounts te verwijderen. Soms kan [gegevens overschrijven](account-deletion.md#overwriting-account-information) die aan een account zijn gekoppeld, maar in andere gevallen bewaart de dienst een hele geschiedenis van wijzigingen in de account.
 
 ## Servicevoorwaarden en Privacybeleid
 

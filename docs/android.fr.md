@@ -33,7 +33,7 @@ Nous vous recommandons d'installer l'un de ces systèmes d'exploitation Android 
     
     **GrapheneOS** est le meilleur choix en matière de confidentialité et de sécurité.
     
-    GrapheneOS apporte des améliorations supplémentaires en matière de [renforcement de la sécurité] (https://fr.wikipedia.org/wiki/Durcissement_%28informatique%29) et de confidentialité. Il dispose d'un [allocateur de mémoire renforcé] (https://github.com/GrapheneOS/hardened_malloc), d'autorisations pour le réseau et les capteurs, et de diverses autres [fonctions de sécurité] (https://grapheneos.org/features). GrapheneOS est également livré avec des mises à jour complètes du micrologiciel et des versions signées, de sorte que le démarrage vérifié est entièrement pris en charge.
+    GrapheneOS apporte des améliorations supplémentaires en matière de [renforcement de la sécurité](https://fr.wikipedia.org/wiki/Durcissement_%28informatique%29) et de confidentialité. Il dispose d'un [allocateur de mémoire renforcé](https://github.com/GrapheneOS/hardened_malloc), d'autorisations pour le réseau et les capteurs, et de diverses autres [fonctions de sécurité](https://grapheneos.org/features). GrapheneOS est également livré avec des mises à jour complètes du micrologiciel et des versions signées, de sorte que le démarrage vérifié est entièrement pris en charge.
     
     [:octicons-home-16: Page d'accueil ](https://grapheneos.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Politique de confidentialité" }
@@ -52,7 +52,7 @@ Les téléphones Google Pixel sont les seuls appareils qui répondent actuelleme
     ![Logo DivestOS](assets/img/android/divestos.svg){ align=right }
     
     **DivestOS** est un léger dérivé de [LineageOS](https://lineageos.org/).
-    DivestOS hérite de nombreux [appareils pris en charge] (https://divestos.org/index.php?page=devices&base=LineageOS) de LineageOS. Il a des versions signées, ce qui permet d'avoir un [démarrage vérifié](https://source.android.com/security/verifiedboot) sur certains appareils non-Pixel.
+    DivestOS hérite de nombreux [appareils pris en charge](https://divestos.org/index.php?page=devices&base=LineageOS) de LineageOS. Il a des versions signées, ce qui permet d'avoir un [démarrage vérifié](https://source.android.com/security/verifiedboot) sur certains appareils non-Pixel.
     
     [:octicons-home-16: Page d'accueil](https://divestos.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Service oignon" }
@@ -93,7 +93,7 @@ Les téléphones Google Pixel sont les **seuls** appareils dont nous recommandon
 
 !!! recommendation
 
-    !Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
+    ![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
     
     Les appareils **Google Pixel** sont connus pour avoir une bonne sécurité et prendre correctement en charge le [Démarrage Vérifié](https://source.android.com/security/verifiedboot), même lors de l'installation de systèmes d'exploitation personnalisés.
     
@@ -112,7 +112,7 @@ Quelques conseils supplémentaires pour l'achat d'un Google Pixel :
 - Si vous cherchez une bonne affaire pour un appareil Pixel, nous vous suggérons d'acheter un modèle "**a**", juste après la sortie du prochain produit phare de la marque. Les remises sont généralement disponibles parce que Google essaie d'écouler son stock.
 - Tenez compte des offres spéciales et réductions proposées par les magasins physiques.
 - Consultez les sites communautaires de bonnes affaires en ligne dans votre pays. Ils peuvent vous signaler les bonnes ventes.
-- Google fournit une liste indiquant le [cycle de support](https://support.google.com/nexus/answer/4457705) pour chacun de ses appareils. Le prix par jour d'un appareil peut être calculé comme suit :\text{Coût} - \text {Date fin de vie }-\text{ Date du jour}$, ce qui signifie que plus l'utilisation de l'appareil est longue, plus le coût par jour est faible.
+- Google fournit une liste indiquant le [cycle de support](https://support.google.com/nexus/answer/4457705) pour chacun de ses appareils. Le prix par jour d'un appareil peut être calculé comme suit :\text{Coût} - \text {Date fin de vie}-\text{Date du jour}$, ce qui signifie que plus l'utilisation de l'appareil est longue, plus le coût par jour est faible.
 
 ## Applications générales
 
@@ -138,9 +138,9 @@ Nous recommandons une grande variété d'applications Android sur ce site. Les a
 
 !!! warning "Avertissement"
 
-    Shelter est recommandé par rapport à [Insular](https://secure-system.gitlab.io/Insular/) et [Island](https://github.com/oasisfeng/island) car il prend en charge le [blocage de la recherche de contact] (https://secure-system.gitlab.io/Insular/faq.html).
+    Shelter est recommandé par rapport à [Insular](https://secure-system.gitlab.io/Insular/) et [Island](https://github.com/oasisfeng/island) car il prend en charge le [blocage de la recherche de contact](https://secure-system.gitlab.io/Insular/faq.html).
     
-    En utilisant Shelter, vous accordez une confiance totale à son développeur, car Shelter agit en tant qu'[Administrateur de l'appareil] (https://developer.android.com/guide/topics/admin/device-admin) pour créer le Profil de Travail, et il a un accès étendu aux données stockées dans ce dernier.
+    En utilisant Shelter, vous accordez une confiance totale à son développeur, car Shelter agit en tant qu'[Administrateur de l'appareil](https://developer.android.com/guide/topics/admin/device-admin) pour créer le Profil de Travail, et il a un accès étendu aux données stockées dans ce dernier.
 
 ### Auditor
 
@@ -240,7 +240,7 @@ Le Google Play Store nécessite un compte Google pour se connecter, ce qui n'est
 
 !!! recommendation
 
-    !Logo Aurora Store](assets/img/android/aurora-store.webp){ align=right }
+    ![Logo Aurora Store](assets/img/android/aurora-store.webp){ align=right }
     
     **Aurora Store** est un client Google Play Store qui ne nécessite pas de compte Google, de services Google Play ou microG pour télécharger des applications.
     
@@ -316,7 +316,7 @@ Cela dit, les dépôts [F-droid](https://f-droid.org/en/packages/) et [IzzyOnDro
 
 !!! note "À noter"
 
-    Dans certains cas rares, le développeur d'une application ne la distribue que par le biais de F-droid ([Gadgetbridge](https://gadgetbridge.org/) en est un exemple). Si vous avez vraiment besoin d'une telle application, nous vous recommandons d'utiliser [Neo Store] (https://github.com/NeoApplications/Neo-Store/) au lieu de l'application officielle F-droid pour l'obtenir.
+    Dans certains cas rares, le développeur d'une application ne la distribue que par le biais de F-droid ([Gadgetbridge](https://gadgetbridge.org/) en est un exemple). Si vous avez vraiment besoin d'une telle application, nous vous recommandons d'utiliser [Neo Store](https://github.com/NeoApplications/Neo-Store/) au lieu de l'application officielle F-droid pour l'obtenir.
 
 ## Critères
 

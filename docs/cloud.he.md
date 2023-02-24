@@ -17,12 +17,12 @@ icon: material/file-cloud
 
     ![Proton Drive לוגו](assets/img/cloud/protondrive.svg){ align=right }
     
-    **Proton Drive ** הוא שירות אחסון קבצים כללי של E2EE על ידי ספק הדוא"ל המוצפן הפופולרי [Proton Mail ]( https://proton.me/mail).
+    **Proton Drive** הוא שירות אחסון קבצים כללי E2EE של ספק הדוא"ל המוצפן הפופולרי [Proton Mail](https://proton.me/mail).
     
-    [:octicons-home-16: Homepage](https://proton.me/drive){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+    [:octicons-home-16: דף הבית](https://proton.me/drive){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="מדיניות פרטיות" }
+    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="קוד מקור" }
     
     ??? downloads "הורדות"
     
@@ -31,13 +31,13 @@ icon: material/file-cloud
 
 הלקוחות הניידים של Proton Drive שוחררו בדצמבר 2022 ועדיין אינם קוד פתוח. Proton עיכבה באופן היסטורי את שחרורי קוד המקור שלהם עד לאחר שחרור המוצר הראשוני, [ומתכננת](https://www.reddit.com/r/ProtonDrive/comments/zf14i8/comment/izdwmme/?utm_source=share&utm_medium=web2x&context=3) לשחרר את קוד המקור עד סוף 2023. לקוחות שולחן העבודה של Proton Drive עדיין בפיתוח.
 
-## Criteria
+## קריטריונים
 
-**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+**שימו לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל[קריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו מערכת ברורה של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
 !!! example "חלק זה הוא חדש"
 
-    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו בעת מתן ההמלצות שלנו אם זה לא מופיע כאן. ישנם גורמים רבים שנשקלים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו בעת מתן ההמלצות שלנו אם זה לא מופיע כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
 
 ### דרישות מינימליות
 

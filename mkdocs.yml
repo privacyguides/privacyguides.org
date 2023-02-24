@@ -59,24 +59,23 @@ watch:
 plugins:
   i18n:
     default_language: en
-    default_language_only: true
     material_alternate: true
     languages:
       en:
         name: English
-        build: true
-      he:
-        name: עִברִית
-        build: false
-      fr:
-        name: French
-        build: false
+        build: false # should be disabled to avoid duplicate /en/ pages
       bn:
         name: bn
         build: false
       es:
         name: es
         build: false
+      fr:
+        name: Français
+        build: true
+      he:
+        name: עִברִית
+        build: true
       hu:
         name: hu
         build: false
@@ -84,17 +83,66 @@ plugins:
         name: it
         build: false
       nl:
-        name: Dutch
-        build: false
+        name: Nederlands
+        build: true
       pt:
         name: pt
         build: false
       ru:
         name: ru
         build: false
+      tr:
+        name: tr
+        build: false
+      uk:
+        name: uk
+        build: false
       zh:
         name: zh
         build: false
+    nav_translations:
+      he:
+        'Home': 'דף הבית'
+        'Knowledge Base': 'ידע בסיסי'
+        'Technology Essentials': 'יסודות הטכנולוגיה'
+        'Operating Systems': 'מערכות הפעלה'
+        'Advanced Topics': 'נושאים מתקדמים'
+        'Recommendations': 'המלצות'
+        'Internet Browsing': 'גלישה באינטרנט'
+        'Providers': 'ספקים'
+        'Software': 'תוכנה'
+        'About': 'על אודות'
+        'Changelog': 'יומן שינויים'
+        'Forum': 'פורום'
+        'Blog': 'בלוג'
+      fr:
+        'Home': 'Accueil'
+        'Knowledge Base': 'Base de connaissances'
+        'Technology Essentials': 'Les essentiels de la technologie'
+        'Operating Systems': "Systèmes d'exploitation"
+        'Advanced Topics': 'Sujets avancés'
+        'Recommendations': 'Recommandations'
+        'Internet Browsing': 'Navigation internet'
+        'Providers': 'Fournisseurs'
+        'Software': 'Logiciels'
+        'About': 'À propos'
+        'Changelog': 'Journal des modifications'
+        'Forum': 'Forum'
+        'Blog': 'Blog'
+      nl:
+        'Home': 'Home'
+        'Knowledge Base': 'Kennisbank'
+        'Technology Essentials': 'Technologie essenties'
+        'Operating Systems': 'Besturings systemen'
+        'Advanced Topics': 'Gevorderde onderwerpen'
+        'Recommendations': 'Recommendaties'
+        'Internet Browsing': 'Surfen op het internet'
+        'Providers': 'Providers'
+        'Software': 'Software'
+        'About': 'Over ons'
+        'Changelog': 'Changelog'
+        'Forum': 'Forum'
+        'Blog': 'Blog'
   tags: {}
   search: {}
   macros: {}

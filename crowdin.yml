@@ -6,7 +6,6 @@ files:
   translation: "/docs/**/%file_name%.%two_letters_code%.%file_extension%"
   translation_replace:
     "en.": ""
-  update_option: update_as_unapproved
 - source: "/theme/overrides/*.en.html"
   translation: "/theme/overrides/%file_name%.%two_letters_code%.html"
   translation_replace:
@@ -15,4 +14,3 @@ files:
   translation: "/includes/%file_name%.%two_letters_code%.md"
   translation_replace:
     "en.": ""
-  update_option: update_as_unapproved

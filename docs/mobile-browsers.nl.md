@@ -1,6 +1,6 @@
 ---
 title: "Mobiele browsers"
-icon: octicons/device-mobile-16
+icon: material/cellphone-information
 ---
 
 Dit zijn onze momenteel aanbevolen mobiele webbrowsers en configuraties voor standaard/niet-anoniem internetten. Als je anoniem op het internet moet surfen, gebruik dan [Tor](tor.md). In het algemeen raden we aan om extensies tot een minimum te beperken: ze hebben geprivilegieerde toegang binnen jouw browser, vereisen dat u de ontwikkelaar vertrouwt, kunnen je [doen opvallen](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), en [verzwakken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site-isolatie.
@@ -13,7 +13,7 @@ Op Android is Firefox nog steeds minder veilig dan op Chromium gebaseerde altern
 
 !!! recommendation
 
-    Brave-logo](assets/img/browsers/brave.svg){ align=right }
+    ![Brave logo](assets/img/browsers/brave.svg){ align=right }
     
     **Brave Browser** bevat een ingebouwde adblocker en [privacyfuncties](https://brave.com/privacy-features/), waarvan vele standaard zijn ingeschakeld.
     
@@ -25,7 +25,7 @@ Op Android is Firefox nog steeds minder veilig dan op Chromium gebaseerde altern
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Broncode" }
     
-    ??? downloads annoteren
+    ??? downloads annoteren "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
@@ -111,7 +111,7 @@ Deze opties zijn te vinden onder :gear: **Instellingen** → **Safari** → **Pr
 
 - [x] Activeer **Voorkom Cross-Site Tracking**
 
-Dit maakt WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)mogelijk. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) is een WebKit-functie en een voorgestelde webnorm die adverteerders in staat moet stellen de doeltreffendheid van webcampagnes te meten zonder afbreuk te doen aan de privacy van de gebruiker. ITP beschermt tegen veel voorkomende bedreigingen, maar blokkeert niet alle tracking-wegen omdat het is ontworpen om de bruikbaarheid van websites niet te hinderen.
+Dit maakt WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)mogelijk. De functie helpt beschermen tegen ongewenste tracking door gebruik te maken van on-device machine learning om trackers te stoppen. ITP beschermt tegen veel voorkomende bedreigingen, maar blokkeert niet alle tracking-wegen omdat het is ontworpen om de bruikbaarheid van websites niet te hinderen.
 
 ##### Privacyrapport
 
@@ -162,11 +162,11 @@ Als je iCloud gebruikt terwijl Geavanceerde gegevensbescherming is uitgeschakeld
     [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 
-Wij raden niet aan ToS;DR als browserextensie te installeren; dezelfde informatie wordt ook op hun website verstrekt.
+Extra filterlijsten vertragen de zaken en kunnen uw aanvalsoppervlak vergroten, dus pas alleen toe wat u nodig hebt.
 
 ## Criteria
 

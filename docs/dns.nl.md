@@ -7,7 +7,7 @@ icon: material/dns
 
     Gecodeerde DNS met servers van derden mag alleen worden gebruikt om basis [DNS-blokkering](https://en.wikipedia.org/wiki/DNS_blocking) te omzeilen als u er zeker van kunt zijn dat er geen gevolgen zullen zijn. Gecodeerde DNS zal u niet helpen uw surfactiviteiten te verbergen.
     
-    [Leer meer over DNS](basics/dns-overview.md){ .md-button }
+    [Leer meer over DNS](advanced/dns-overview.md){ .md-button }
 
 ## Aanbevolen Aanbieders
 
@@ -24,14 +24,14 @@ icon: material/dns
 
 **Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je zich vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat het de juiste keuze voor je is.
 
-Android 9 en hoger ondersteunen DNS over TLS. example "Deze sectie is nieuw"
+!!! example "Deze sectie is nieuw"
 
     We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als u vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
 
-- Moet [DNSSEC](basics/dns-overview.md#what-is-dnssec)ondersteunen
+- Moet [DNSSEC](advanced/dns-overview.md#what-is-dnssec)ondersteunen
 - [QNAME Minimalisatie](advanced/dns-overview.md#what-is-qname-minimization).
 - Toestaan dat [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) wordt uitgeschakeld.
-- Toestaan dat [ECS](basics/dns-overview.md#what-is-edns-client-subnet-ecs) wordt uitgeschakeld
+- Voorkeur voor [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) ondersteuning of geo-steering ondersteuning.
 
 ## Ondersteuning voor besturingssystemen
 
@@ -54,7 +54,7 @@ Apple biedt geen native interface voor het maken van versleutelde DNS-profielen.
     `<code>systemd-resolved, die veel Linux distributies gebruiken om hun DNS lookups te doen, ondersteunt nog niet [DoH](https://github.com/systemd/systemd/issues/8639)). Als je DoH wilt gebruiken, moet je een proxy installeren zoals [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) en [configureren](https://wiki.archlinux.org/title/Dnscrypt-proxy) om alle DNS queries van je systeem-resolver te nemen en ze over HTTPS door te sturen.
     </code>
 
-## Versleutelde DNS-proxy 's
+## Versleutelde DNS-proxy
 
 Versleutelde DNS proxy software biedt een lokale proxy voor de [onversleutelde DNS](advanced/dns-overview.md#unencrypted-dns) resolver om naar door te sturen. Typisch wordt het gebruikt op platformen die [versleutelde DNS](advanced/dns-overview.md#what-is-encrypted-dns)niet ond ersteunen.
 
@@ -62,7 +62,7 @@ Versleutelde DNS proxy software biedt een lokale proxy voor de [onversleutelde D
 
 !!! recommendation
 
-    RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
+    ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
     RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
     
     **RethinkDNS** is een open-source Android client met ondersteuning voor [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) en DNS Proxy samen met het cachen van DNS antwoorden, lokaal loggen van DNS queries en kan ook gebruikt worden als firewall.
@@ -72,7 +72,7 @@ Versleutelde DNS proxy software biedt een lokale proxy voor de [onversleutelde D
     [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
         - [:simple-github: Web](https://github.com/celzero/rethink-app/releases)
@@ -81,18 +81,18 @@ Versleutelde DNS proxy software biedt een lokale proxy voor de [onversleutelde D
 
 !!! recommendation
 
-    dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
+    ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
     
     **dnscrypt-proxy** is een DNS-proxy met ondersteuning voor [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), en [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
     
-    AdGuard Home beschikt over een gepolijste webinterface om inzichten te bekijken en geblokkeerde inhoud te beheren. warning "De geanonimiseerde DNS-functie anonimiseert [**niet**](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) ander netwerkverkeer."
+    !!! warning "De geanonimiseerde DNS-functie anonimiseert [**niet**](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) ander netwerkverkeer."
     
     [:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
     [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Bijdrage leveren }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
         - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
@@ -104,9 +104,9 @@ Een zelf gehoste DNS-oplossing is handig voor het bieden van filtering op gecont
 
 ### AdGuard Home
 
-Gecodeerde DNS proxy software biedt een lokale proxy voor de [onversleutelde DNS](basics/dns-overview.md#unencrypted-dns) resolver om naar door te sturen. Typisch wordt het gebruikt op platformen die [gecodeerde DNS](basics/dns-overview.md#what-is-encrypted-dns)niet ond ersteunen.
+!!! recommendation
 
-    AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
+    ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
     
     **AdGuard Home** is een open-source [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) die gebruik maakt van [DNS filtering](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) om ongewenste webinhoud, zoals advertenties, te blokkeren.
     
@@ -121,7 +121,7 @@ Gecodeerde DNS proxy software biedt een lokale proxy voor de [onversleutelde DNS
 
 !!! recommendation
 
-    Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
+    ![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
     
     **Pi-hole** is een open-source [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) die [DNS filtering](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) gebruikt om ongewenste webinhoud, zoals advertenties, te blokkeren.
     

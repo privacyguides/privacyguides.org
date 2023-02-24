@@ -11,7 +11,7 @@ Wanneer je bestanden deelt, is het belangrijk om de bijbehorende metadata te ver
 
 !!! recommendation
 
-    MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
+    ![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
     
     **MAT2** is gratis software, waarmee de metadata uit beeld-, audio-, torrent- en documentbestanden kan worden verwijderd. Het biedt zowel een opdrachtregelprogramma als een grafische gebruikersinterface via een [extensie voor Nautilus](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus), de standaard bestandsbeheerder van [GNOME](https://www.gnome.org), en [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), de standaard bestandsbeheerder van [KDE](https://kde.org).
     
@@ -21,7 +21,7 @@ Wanneer je bestanden deelt, is het belangrijk om de bijbehorende metadata te ver
     [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentatie}
     [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-windows11: Windows](https://pypi.org/project/mat2)
         - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
@@ -34,7 +34,7 @@ Wanneer je bestanden deelt, is het belangrijk om de bijbehorende metadata te ver
 
 !!! recommendation
 
-    ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ align=right }
+    ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ align=right }
     
     **ExifEraser** is een moderne, toestemmingsvrije applicatie voor het wissen van beeldmetadata voor Android.
     
@@ -44,7 +44,7 @@ Wanneer je bestanden deelt, is het belangrijk om de bijbehorende metadata te ver
     [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
@@ -70,14 +70,14 @@ De app biedt meerdere manieren om metadata uit afbeeldingen te wissen. Namelijk:
 
 !!! recommendation
 
-    ![Metapho logo](assets/img/metadata-removal/metapho.jpg){ align=right }
+    ![Metapho logo](assets/img/data-redaction/metapho.jpg){ align=right }
     
     Metapho is een eenvoudige en nette viewer voor foto metadata zoals datum, bestandsnaam, grootte, camera model, sluitertijd, en locatie.
     
     [:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
 
@@ -85,18 +85,23 @@ De app biedt meerdere manieren om metadata uit afbeeldingen te wissen. Namelijk:
 
 !!! recommendation
 
-    PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ align=right }
+    ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ align=right }
     
     **PrivacyBlur** is een gratis app die gevoelige delen van foto's kan vervagen voordat je ze online deelt.
     
-    De metagegevens over de beeldoriëntatie worden niet gewist. Als je locatie inschakelt (in Beveiligde Camera) zal die **ook niet** worden verwijderd.
+    [:octicons-home-16: Homepage](https://privacyblur.app/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacybeleid" }
+    [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentatie}
+    [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Broncode" }
+    
+    ??? downloads "Downloaden"
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
 
 !!! warning
 
-    ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
-    ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
-    
-    **Secure PDF Viewer** is een PDF-viewer gebaseerd op [pdf.js](https://en.wikipedia.org/wiki/PDF.js) die geen rechten vereist. De PDF wordt ingevoerd in een [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development)) [webview](https://developer.android.com/guide/webapps/webview). Dit betekent dat het niet direct toestemming nodig heeft om toegang te krijgen tot inhoud of bestanden.
+    Je moet **nooit** vervaging gebruiken om [tekst in afbeeldingen](https://bishopfox.com/blog/unredacter-tool-never-pixelation) te redigeren. Als u tekst in een afbeelding wilt redigeren, tekent u een kader over de tekst. Hiervoor stellen wij apps voor zoals [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
 ## Command-line
 
@@ -104,7 +109,7 @@ De app biedt meerdere manieren om metadata uit afbeeldingen te wissen. Namelijk:
 
 !!! recommendation
 
-    ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
+    ![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
     
     **ExifTool** is de originele perl library en command-line applicatie voor het lezen, schrijven en bewerken van meta-informatie (Exif, IPTC, XMP, en meer) in een groot aantal bestandsformaten (JPEG, TIFF, PNG, PDF, RAW, en meer).
     
@@ -115,7 +120,7 @@ De app biedt meerdere manieren om metadata uit afbeeldingen te wissen. Namelijk:
     [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-windows11: Windows](https://exiftool.org)
         - [:simple-apple: macOS](https://exiftool.org)

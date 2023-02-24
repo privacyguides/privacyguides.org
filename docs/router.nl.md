@@ -9,10 +9,10 @@ Hieronder staan een paar alternatieve besturingssystemen, die gebruikt kunnen wo
 
 !!! recommendation
 
-    OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
+    ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
     ![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
     
-    **OpenWrt** is een besturingssysteem (in het bijzonder een embedded besturingssysteem) gebaseerd op de Linux-kernel, voornamelijk gebruikt op embedded apparaten om netwerkverkeer te routeren. De belangrijkste onderdelen zijn de Linux kernel, util-linux, uClibc, en BusyBox. Alle componenten zijn geoptimaliseerd voor afmetingen, zodat ze klein genoeg zijn om in de beperkte opslagruimte en het beperkte geheugen van thuisrouters te passen.
+    **OpenWrt** is een op Linux gebaseerd besturingssysteem; het wordt voornamelijk gebruikt op embedded apparaten om netwerkverkeer te routeren. De belangrijkste onderdelen zijn de Linux kernel, util-linux, uClibc, en BusyBox. Alle componenten zijn geoptimaliseerd voor afmetingen, zodat ze klein genoeg zijn om in de beperkte opslagruimte en het beperkte geheugen van thuisrouters te passen.
     
     [:octicons-home-16: Homepage](https://openwrt.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Documentatie}
@@ -23,9 +23,9 @@ Je kunt OpenWrt's [tabel van hardware](https://openwrt.org/toh/start) raadplegen
 
 ## OPNsense
 
-!!! aanbeveling
+!!! recommendation
 
-    pfSense logo](assets/img/router/opnsense.svg){ align=right }
+    ![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
     
     **OPNsense** is een open source, op FreeBSD gebaseerde firewall en routing platform dat veel geavanceerde functies bevat zoals traffic shaping, load balancing en VPN mogelijkheden, met nog veel meer functies beschikbaar in de vorm van plugins. OPNsense wordt gewoonlijk ingezet als perimeter firewall, router, draadloos toegangspunt, DHCP server, DNS server en VPN eindpunt.
     

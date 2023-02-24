@@ -19,7 +19,7 @@ Elke Qube-applicatie heeft een [gekleurde rand](https://www.qubes-os.org/screens
 
 ## Waarom zou ik Qubes gebruiken?
 
-Qubes OS is nuttig als uw [bedreigingsmodel](../basics/threat-modeling.md) een sterke compartimentering en beveiliging vereist, bijvoorbeeld als u denkt dat u onvertrouwde bestanden van onvertrouwde bronnen zult openen. Een typische use-case voor Qubes OS is het openen van documenten van een onbekende bron.
+Qubes OS is nuttig als uw [bedreigingsmodel](../basics/threat-modeling.md) een sterke compartimentering en beveiliging vereist, bijvoorbeeld als u denkt dat u onvertrouwde bestanden van onvertrouwde bronnen zult openen. Een typische reden om Qubes OS te gebruiken is het openen van documenten van onbekende bronnen.
 
 Qubes OS maakt gebruik van [Dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM (dwz een "AdminVM") voor het besturen van andere gast-VM 's of Qubes op het host-besturingssysteem. Andere VM 's geven individuele toepassingsvensters weer binnen de desktopomgeving van Dom0. Hiermee kun je vensters een kleurcode geven op basis van vertrouwensniveaus en apps draaien die met elkaar kunnen communiceren met zeer fijnmazige controle.
 

@@ -59,7 +59,7 @@ Un VPN peut toujours vous être utile dans divers scénarios, tels que :
 1. Cacher vos téléchargements (tels que les torrents) à votre FAI et aux organisations anti-piratage.
 1. Cacher votre adresse IP des sites web et services tiers, empêchant le suivi basé sur l'adresse IP.
 
-Pour des cas d'utilisation comme ceux-ci, ou si vous avez une autre raison convaincante, les fournisseurs VPN que nous avons énumérés ci-dessus sont ceux qui nous semblent les plus dignes de confiance. Cependant, l'utilisation d'un fournisseur de VPN signifie toujours que vous *faites confiance* à ce fournisseur. Dans presque tous les autres cas, vous devriez utiliser un outil sécurisé **par conception** tel que Tor.
+Pour des situations comme celles-ci, ou si vous avez une autre raison impérieuse, les fournisseurs de VPN que nous avons listés ci-dessus sont ceux que nous pensons être les plus dignes de confiance. Cependant, l'utilisation d'un fournisseur de VPN signifie toujours que vous *faites confiance* à ce fournisseur. Dans presque tous les autres cas, vous devriez utiliser un outil sécurisé **par conception** tel que Tor.
 
 ## Sources et Lectures Complémentaires
 

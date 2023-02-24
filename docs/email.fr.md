@@ -15,15 +15,15 @@ Ces fournisseurs prennent en charge le chiffrement/déchiffrement OpenPGP native
 
 !!! warning "Avertissement"
 
-    Lors de l'utilisation d'une technologie E2EE telle que OpenPGP, le courrier électronique contiendra toujours certaines métadonnées non chiffrées dans l'en-tête du courrier. En savoir plus sur les [métadonnées de messagerie] (basics/email-security.md#email-metadata-overview).
+    Lors de l'utilisation d'une technologie E2EE telle que OpenPGP, le courrier électronique contiendra toujours certaines métadonnées non chiffrées dans l'en-tête du courrier. En savoir plus sur les [métadonnées de messagerie](basics/email-security.md#email-metadata-overview).
     
     OpenPGP ne prend pas non plus en charge le secret de transfert, ce qui signifie que si votre clé privée ou celle du destinataire est volée, tous les messages précédents chiffrés avec elle seront exposés. [Comment protéger mes clés privées ?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### Proton Mail
 
-!!! check "Domaines personnalisés et alias"
+!!! recommendation
 
-    !Logo Proton Mail](assets/img/email/protonmail.svg){ align=right }
+    ![Logo Proton Mail](assets/img/email/protonmail.svg){ align=right }
     
     **Proton Mail** est un service de messagerie électronique qui met l'accent sur la confidentialité, le chiffrement, la sécurité et la facilité d'utilisation. Ils sont en activité depuis **2013**. Proton AG a son siège à Genève, en Suisse. Les comptes commencent avec 500 Mo de stockage avec leur offre gratuite.
     
@@ -59,19 +59,19 @@ Proton Mail dispose de rapports de plantages internes qu'il **ne partage pas** a
 
 ??? success "Sécurité du compte"
 
-    Proton Mail ne prend en charge que l'[authentification à deux facteurs] (https://proton.me/support/two-factor-authentication-2fa) TOTP. L'utilisation d'une clé de sécurité U2F n'est pas encore prise en charge. Proton Mail prévoit d'implémenter U2F dès l'achèvement de son système d'[Authentification unique (SSO - Single Sign On)] (https://reddit.com/comments/cheoy6/comment/feh2lw0/).
+    Proton Mail ne prend en charge que l'[authentification à deux facteurs](https://proton.me/support/two-factor-authentication-2fa) TOTP. L'utilisation d'une clé de sécurité U2F n'est pas encore prise en charge. Proton Mail prévoit d'implémenter U2F dès l'achèvement de son système d'[Authentification unique (SSO - Single Sign On)] (https://reddit.com/comments/cheoy6/comment/feh2lw0/).
 
 ??? success "Sécurité des données"
 
     Proton Mail dispose d'un [chiffrement à accès zéro](https://proton.me/blog/zero-access-encryption) au repos pour vos e-mails et [calendriers](https://proton.me/news/protoncalendar-security-model). Les données sécurisées par un chiffrmeent à accès zéro ne sont accessibles que par vous.
     
-    Certaines informations stockées dans [Proton Contacts] (https://proton.me/support/proton-contacts), telles que les noms et les adresses e-mail, ne sont pas sécurisées par un chiffrement à accès zéro. Les champs de contact qui prennent en charge le chiffrement à accès zéro, comme les numéros de téléphone, sont indiqués par une icône de cadenas.
+    Certaines informations stockées dans [Proton Contacts](https://proton.me/support/proton-contacts), telles que les noms et les adresses e-mail, ne sont pas sécurisées par un chiffrement à accès zéro. Les champs de contact qui prennent en charge le chiffrement à accès zéro, comme les numéros de téléphone, sont indiqués par une icône de cadenas.
 
 ??? success "Chiffrement des e-mails"
 
-    Proton Mail a [intégré le chiffrement OpenPGP] (https://proton.me/support/how-to-use-pgp) dans son webmail. Les e-mails destinés à d'autres comptes Proton Mail sont chiffrés automatiquement, et le chiffrement vers des adresses autres que Proton Mail avec une clé OpenPGP peut être activé facilement dans les paramètres de votre compte. Ils vous permettent également de [chiffrer les messages destinés à des adresses autres que celles de Proton Mail] (https://proton.me/support/password-protected-emails) sans qu'ils aient besoin de s'inscrire à un compte Proton Mail ou d'utiliser un logiciel comme OpenPGP.
+    Proton Mail a [intégré le chiffrement OpenPGP](https://proton.me/support/how-to-use-pgp) dans son webmail. Les e-mails destinés à d'autres comptes Proton Mail sont chiffrés automatiquement, et le chiffrement vers des adresses autres que Proton Mail avec une clé OpenPGP peut être activé facilement dans les paramètres de votre compte. Ils vous permettent également de [chiffrer les messages destinés à des adresses autres que celles de Proton Mail](https://proton.me/support/password-protected-emails) sans qu'ils aient besoin de s'inscrire à un compte Proton Mail ou d'utiliser un logiciel comme OpenPGP.
     
-    Proton Mail prend également en charge la découverte de clés publiques via HTTP à partir de son [Répertoire de Clés Web (WKD - Web Key Directory)] (https://wiki.gnupg.org/WKD). Cela permet aux personnes qui n'utilisent pas Proton Mail de trouver facilement les clés OpenPGP des comptes Proton Mail, pour un E2EE inter-fournisseurs.
+    Proton Mail prend également en charge la découverte de clés publiques via HTTP à partir de son [Répertoire de Clés Web (WKD - Web Key Directory)](https://wiki.gnupg.org/WKD). Cela permet aux personnes qui n'utilisent pas Proton Mail de trouver facilement les clés OpenPGP des comptes Proton Mail, pour un E2EE inter-fournisseurs.
 
 ??? warning "Héritage numérique"
 
@@ -79,7 +79,7 @@ Proton Mail dispose de rapports de plantages internes qu'il **ne partage pas** a
 
 ??? info "Résiliation du compte"
 
-    Si vous avez un compte payant et que votre [facture est impayée] (https://proton.me/support/delinquency) après 14 jours, vous ne pourrez pas accéder à vos données. Après 30 jours, votre compte sera en impayé et ne recevra plus d'e-mail entrant. Vous continuerez à être facturé pendant cette période.
+    Si vous avez un compte payant et que votre [facture est impayée](https://proton.me/support/delinquency) après 14 jours, vous ne pourrez pas accéder à vos données. Après 30 jours, votre compte sera en impayé et ne recevra plus d'e-mail entrant. Vous continuerez à être facturé pendant cette période.
 
 ??? info "Fonctionnalités supplémentaires"
 

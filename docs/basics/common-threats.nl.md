@@ -60,7 +60,7 @@ Het voor de hand liggende probleem hierbij is dat de dienstverlener (of een hack
 
 Gelukkig kan end-to-end encryptie dit probleem verlichten door de communicatie tussen jou en de gewenste ontvangers te versleutelen voordat ze zelfs maar naar de server worden verzonden. De vertrouwelijkheid van jouw berichten is gewaarborgd, zolang de dienstverlener geen toegang heeft tot de particuliere sleutels van beide partijen.
 
-!!! notitie "Opmerking op webgebaseerde encryptie"
+!!! note "Opmerking op webgebaseerde encryptie"
 
     In de praktijk varieert de doeltreffendheid van verschillende implementaties van end-to-end encryptie. Toepassingen zoals [Signal](../real-time-communication.md#signal) draaien op het toestel zelf, en elke kopie van de toepassing is hetzelfde voor verschillende installaties. Als de dienstverlener een backdoor in zijn applicatie zou aanbrengen om te proberen jouw privé-sleutels te stelen, zou dat later met reverse engineering kunnen worden opgespoord.
     

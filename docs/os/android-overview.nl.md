@@ -1,6 +1,6 @@
 ---
 title: Android Overzicht
-icon: fontawesome/brands/android
+icon: simple/android
 ---
 
 Android is een veilig besturingssysteem met sterke [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), en een robuust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.

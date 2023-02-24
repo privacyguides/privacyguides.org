@@ -3,7 +3,7 @@ title: "מנועי חיפוש"
 icon: material/search-web
 ---
 
-השתמש במנוע חיפוש שאינו בונה פרופיל פרסום המבוסס על החיפושים שלך.
+השתמש במנוע חיפוש שאינו בונה פרופיל פרסום על סמך החיפושים שלך.
 
 ההמלצות כאן מבוססות על היתרונות של מדיניות הפרטיות של כל שירות. אין **ערובה לכך** שמדיניות פרטיות זו תכובד.
 
@@ -22,11 +22,11 @@ icon: material/search-web
     אנו ממליצים להשבית את [מדדי שימוש אנונימיים](https://search.brave.com/help/usage-metrics) מכיוון שהוא מופעל כברירת מחדל וניתן להשבית אותו בהגדרות.
     
     [:octicons-home-16: דף הבית](https://search.brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="שירותי בצל" }
+    [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
     [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="מדיניות פרטיות" }
     [:octicons-info-16:](https://search.brave.com/help){ .card-link title=תיעוד}
 
-Brave Search מבוסס בארצות הברית. [מדיניות הפרטיות](https://search.brave.com/help/privacy-policy) שלהם קובעת שהם אוספים מדדי שימוש מצטברים, הכוללים את מערכת ההפעלה והדפדפן שבשימוש, אולם לא נאסף מידע המאפשר זיהוי אישי. כתובות ה - IP מעובדות באופן זמני, אך אינן נשמרות.
+Brave Search מבוסס בארצות הברית. [מדיניות הפרטיות](https://search.brave.com/help/privacy-policy) שלהם קובעת שהם אוספים מדדי שימוש מצטברים, הכוללים את מערכת ההפעלה והדפדפן שבשימוש, אולם לא נאסף מידע המאפשר זיהוי אישי. כתובות IP מעובדות באופן זמני, אך אינן נשמרות.
 
 ## DuckDuckGo
 
@@ -34,18 +34,18 @@ Brave Search מבוסס בארצות הברית. [מדיניות הפרטיות]
 
     ![DuckDuckGo לוגו](assets/img/search-engines/duckduckgo.svg){ align=right }
     
-    **DuckDuckGo** היא אחת האפשרויות היותר מיינסטרימיות של מנועי חיפוש פרטיים. תכונות חיפוש בולטות של DuckDuckGo כוללות [bangs](https://duckduckgo.com/bang) ורבים[instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). מנוע החיפוש מסתמך על API מסחרי של Bing כדי לשרת את רוב התוצאות, אך הוא משתמש במספר רב של [מקורות אחרים](https://help.duckduckgo.com/results/sources/) לתשובות מיידיות ולתוצאות אחרות שאינן ראשוניות.
+    **DuckDuckGo** היא אחת האפשרויות היותר מיינסטרים במנועי חיפוש פרטיים. תכונות החיפוש הבולטות של DuckDuckGo כוללות [bangs](https://duckduckgo.com/bang) והרבה [תשובות מיידיות](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). מנוע החיפוש מסתמך על Bing API מסחרי כדי להגיש את רוב התוצאות, אך הוא משתמש במספר [מקורות אחרים](https://help.duckduckgo.com/results/sources/) לתשובות מיידיות ולתוצאות אחרות שאינן ראשוניות.
     
-    DuckDuckGo הוא מנוע החיפוש המוגדר כברירת מחדל עבור דפדפן Tor והוא אחת האפשרויות הבודדות הזמינות בדפדפן ספארי של אפל.
+    DuckDuckGo הוא מנוע החיפוש המוגדר כברירת מחדל עבור דפדפן Tor והוא אחת האפשרויות הבודדות הזמינות בדפדפן הספארי של אפל.
     
-    [:octicons-home-16: דף הביץ](https://duckduckgo.com){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="שירותי בצל" }
+    [:octicons-home-16: דף הבית](https://duckduckgo.com){ .md-button .md-button--primary }
+    [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
     [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="מדיניות פרטיות" }
     [:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=תיעוד}
 
 DuckDuckGo מבוססת בארצות הברית. [מדיניות הפרטיות](https://duckduckgo.com/privacy) שלהם קובעת **שהם** שומרים את החיפושים שלך למטרות שיפור מוצרים, אך לא את כתובת ה-IP שלך או כל מידע מזהה אישי אחר.
 
-DuckDuckGo מציעה שתי [גרסאות נוספות](https://help.duckduckgo.com/features/non-javascript/) של מנוע החיפוש שלהם, שניהם אינם דורשים JavaScript. עם זאת, בגרסאות אלה חסר תכונות. ניתן להשתמש בגרסאות אלה גם בשילוב עם [כתובת הבצל ](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/)Tor שלהם על ידי צירוף [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) או [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) עבור הגרסה המתאימה.
+DuckDuckGo מציעה שתי [גרסאות אחרות](https://help.duckduckgo.com/features/non-javascript/) של מנוע החיפוש שלהם, שתיהן אינן דורשות JavaScript. עם זאת, גרסאות אלו חסרות תכונות. ניתן להשתמש בגרסאות אלה גם יחד עם [Tor כתובת בצל](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/) על-ידי צירוף [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) או [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) עבור הגרסה המתאימה.
 
 ## SearXNG
 
@@ -53,7 +53,7 @@ DuckDuckGo מציעה שתי [גרסאות נוספות](https://help.duckduckgo
 
     ![SearXNG לוגו](assets/img/search-engines/searxng.svg){ align=right }
     
-    **SearXNG** הוא מנוע מטא-חיפוש בקוד פתוח, הניתן לאירוח עצמי, וצובר את התוצאות של מנועי חיפוש אחרים תוך שהוא אינו מאחסן מידע כלשהו. זהו נגזר מתוחזק באופן פעיל של [SearX](https://github.com/searx/searx).
+    **SearXNG** הוא מנוע חיפוש מטה-חיפוש, מתארח בעצמו, קוד-פתוח, אוסף את התוצאות של מנועי חיפוש אחרים מבלי לאחסן מידע בעצמו. זהו מזלג מתוחזק פעיל של [SearX](https://github.com/searx/searx).
     
     [:octicons-home-16: דף הבית](https://searxng.org){ .md-button .md-button--primary }
     [:octicons-server-16:](https://searx.space/){ .card-link title="מופעים ציבוריים"}

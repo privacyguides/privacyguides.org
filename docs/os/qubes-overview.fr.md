@@ -19,7 +19,7 @@ Chaque application Qubes possède une [bordure colorée](https://www.qubes-os.or
 
 ## Pourquoi devrais-je utiliser Qubes ?
 
-Qubes OS est utile si votre [modèle de menace](../basics/threat-modeling.md) exige une compartimentation et une sécurité fortes, par exemple si vous pensez ouvrir des fichiers non fiables provenant de sources non fiables. Un cas d'utilisation typique de Qubes OS est l'ouverture de documents provenant d'une source inconnue.
+Qubes OS est utile si votre [modèle de menace](../basics/threat-modeling.md) exige une compartimentation et une sécurité fortes, par exemple si vous pensez ouvrir des fichiers non fiables provenant de sources non fiables. Une raison typique d'utiliser Qubes OS est d'ouvrir des documents provenant de sources inconnues.
 
 Qubes OS utilise la VM Xen [Dom0](https://wiki.xenproject.org/wiki/Dom0) (c'est-à-dire une "AdminVM") pour contrôler d'autres VM invitées ou Qubes sur l'OS hôte. Les autres VMs affichent des fenêtres d'applications individuelles dans l'environnement de bureau de Dom0. Cela vous permet d'attribuer un code de couleur aux fenêtres en fonction des niveaux de confiance et d'exécuter des applications qui peuvent interagir les unes avec les autres avec un contrôle très granulaire.
 

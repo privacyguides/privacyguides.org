@@ -9,15 +9,15 @@ Si ces alternatives ne répondent pas à vos besoins, nous vous suggérons de vo
 
 ??? question "Vous cherchez Nextcloud ?"
 
-    Nextcloud est [toujours un outil recommandé] (productivity.md) pour l'auto-hébergement d'une suite de gestion de fichiers, mais nous ne recommandons pas de fournisseurs de stockage Nextcloud tiers pour le moment, car nous ne recommandons pas la fonctionnalité E2EE intégrée de Nextcloud pour les utilisateurs moyens.
+    Nextcloud est [toujours un outil recommandé](productivity.md) pour l'auto-hébergement d'une suite de gestion de fichiers, mais nous ne recommandons pas de fournisseurs de stockage Nextcloud tiers pour le moment, car nous ne recommandons pas la fonctionnalité E2EE intégrée de Nextcloud pour les utilisateurs moyens.
 
 ## Proton Drive
 
 !!! recommendation
 
-    !Logo Proton Drive](assets/img/cloud/protondrive.svg){ align=right }
+    ![Logo Proton Drive](assets/img/cloud/protondrive.svg){ align=right }
     
-    **Proton Drive** est un service de stockage de fichiers E2EE proposé par le célèbre fournisseur de courriers électroniques chiffrés [Proton Mail] (https://proton.me/mail).
+    **Proton Drive** est un service de stockage de fichiers E2EE proposé par le célèbre fournisseur de courriers électroniques chiffrés [Proton Mail](https://proton.me/mail).
     
     [:octicons-home-16: Page d'accueil](https://proton.me/drive){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Politique de confidentialité" }
@@ -37,7 +37,7 @@ Les clients mobiles de Proton Drive ont été publiés en décembre 2022 et ne s
 
 !!! example "Cette section est récente"
 
-    Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum] (https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
+    Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum](https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
 
 ### Exigences minimales
 

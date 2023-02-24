@@ -11,19 +11,19 @@ Voor al het andere raden wij verschillende e-mailproviders aan op basis van duur
 
 ## OpenPGP compatibele diensten
 
-Deze providers ondersteunen native OpenPGP-encryptie/decryptie, waardoor provider-agnostische E2EE-e-mails mogelijk zijn. waarschuwing
+Deze providers ondersteunen native OpenPGP-encryptie/decryptie, waardoor provider-agnostische E2EE-e-mails mogelijk zijn. Een Proton Mail-gebruiker zou bijvoorbeeld een E2EE-bericht kunnen sturen naar een Mailbox.org-gebruiker, of u zou OpenPGP-versleutelde meldingen kunnen ontvangen van internetdiensten die dit ondersteunen.
 
 !!! warning
 
-    Wanneer gebruik wordt gemaakt van E2EE-technologie zoals OpenPGP, zullen e-mailberichten nog steeds metagegevens bevatten die niet in de header van het e-mailbericht zijn gecodeerd. Lees meer over e-mail metadata.
+    Wanneer gebruik wordt gemaakt van E2EE-technologie zoals OpenPGP, zullen e-mailberichten nog steeds metagegevens bevatten die niet in de header van het e-mailbericht zijn gecodeerd. Lees meer over [e-mail metadata](basics/email-security.md#email-metadata-overview).
     
-    OpenPGP ondersteunt ook geen Forward secrecy, wat betekent dat als uw of de geadresseerde's private sleutel ooit wordt gestolen, alle eerdere berichten die ermee zijn versleuteld, openbaar worden. [Hoe bescherm ik mijn privé sleutels?](email. md#hoe-bescherm-ik-mijn-privé-sleutels)
+    OpenPGP ondersteunt ook geen Forward secrecy, wat betekent dat als uw of de geadresseerde's private sleutel ooit wordt gestolen, alle eerdere berichten die ermee zijn versleuteld, openbaar worden. [Hoe bescherm ik mijn privé sleutels?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### Proton Mail
 
-!!! check "Eigen domeinen en Aliassen"
+!!! recommendation
 
-    Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
+    ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
     
     **Proton Mail** is een e-maildienst met de nadruk op privacy, encryptie, veiligheid en gebruiksgemak. Ze zijn al actief sinds **2013**. Proton AG is gevestigd in Genève, Zwitserland. Accounts beginnen met 500 MB opslagruimte met hun gratis plan.
     
@@ -33,7 +33,7 @@ Deze providers ondersteunen native OpenPGP-encryptie/decryptie, waardoor provide
     [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
@@ -49,7 +49,7 @@ Als je Proton Unlimited, Business of Visionary hebt, krijg je ook [SimpleLogin](
 
 Proton Mail heeft interne crash rapporten die ze **niet** delen met derden. Dit kan worden uitgeschakeld in: **Instellingen** > **Ga naar Instellingen** > **Account** > **Beveiliging en privacy** > **Crashmeldingen versturen**.
 
-??? succes "Aangepaste domeinen en aliassen"
+??? success "Aangepaste domeinen en aliassen"
 
     Betalende Proton Mail-abonnees kunnen hun eigen domein bij de dienst gebruiken of een [catch-all](https://proton.me/support/catch-all) adres. Proton Mail ondersteunt ook [subaddressing](https://proton.me/support/creating-aliases), wat handig is voor mensen die geen domein willen kopen.
 
@@ -87,7 +87,7 @@ Proton Mail heeft interne crash rapporten die ze **niet** delen met derden. Dit 
 
 ### Mailbox.org
 
-!!! info "Aanvullende Functionaliteit"
+!!! recommendation
 
     ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
     
@@ -97,7 +97,7 @@ Proton Mail heeft interne crash rapporten die ze **niet** delen met derden. Dit 
     [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentatie}
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:octicons-browser-16: Web](https://login.mailbox.org)
 
@@ -117,7 +117,7 @@ Proton Mail heeft interne crash rapporten die ze **niet** delen met derden. Dit 
 
     Mailbox.org maakt versleuteling van inkomende mail mogelijk door gebruik te maken van hun [versleutelde mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). Nieuwe berichten die je ontvangt, worden dan onmiddellijk versleuteld met jouw openbare sleutel.
     
-    [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), het softwareplatform dat door Mailbox.org wordt gebruikt, [ondersteunt echter niet](https://kb.mailbox.org/display/BMBOKBEN/Encryption+van+kalender+en+adres+boek) de encryptie van jouw adresboek en agenda. Een [standalone optie](kalender-contacten.md) is misschien meer geschikt voor die informatie.
+    [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), het softwareplatform dat door Mailbox.org wordt gebruikt, [ondersteunt echter niet](https://kb.mailbox.org/display/BMBOKBEN/Encryption+van+kalender+en+adres+boek) de encryptie van jouw adresboek en agenda. Een [standalone optie](calendar.md) is misschien meer geschikt voor die informatie.
 
 ??? success "Email Encryption"
 
@@ -141,18 +141,18 @@ Proton Mail heeft interne crash rapporten die ze **niet** delen met derden. Dit 
 
 ### StartMail
 
-!!! Tutanota heeft geen plannen om e-mail te trekken van [externe e-mailaccounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) met behulp van het IMAP-protocol.
+!!! recommendation
 
     ![StartMail-logo](assets/img/email/startmail.svg#only-light){ align=right }
     ![StartMail-logo](assets/img/email/startmail-dark.svg#only-dark){ align=right }
     
     **StartMail** is een e-maildienst met de nadruk op veiligheid en privacy door het gebruik van standaard OpenPGP-versleuteling. StartMail is sinds 2014 actief en is gevestigd in Boulevard 11, Zeist Nederland. Accounts beginnen met 10GB. Ze bieden een 30 dagen proefperiode.
     
-    [Usd $/jaar**
-    
     [:octicons-home-16: Homepage](https://www.startmail.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentatie??? downloads
+    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentatie}
+    
+    ??? downloads "Downloaden"
     
         - [:octicons-browser-16: Web](https://mail.startmail.com/login)
 
@@ -200,15 +200,15 @@ Deze providers slaan jouw e-mails op met zero-knowledge encryptie, waardoor ze g
 
     ![Tutanota logo](assets/img/email/tutanota.svg){ align=right }
     
-    **()** is een e-maildienst met de nadruk op veiligheid en privacy door het gebruik van encryptie. Tutanota is actief sinds **2011** en is gevestigd in Hannover, Duitsland. Accounts beginnen met 1GB opslagruimte met hun gratis plan.
+    **Tutanota** is een e-maildienst met de nadruk op veiligheid en privacy door het gebruik van encryptie. Tutanota is actief sinds **2011** en is gevestigd in Hannover, Duitsland. Accounts beginnen met 1GB opslagruimte met hun gratis plan.
     
-    [:octicons-home-16: Homepage](https://tutanota.com/calendar){ .md-button .md-button--primary }
+    [:octicons-home-16: Homepage](https://tutanota.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Privacybeleid" }
     [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
@@ -248,7 +248,7 @@ Tutanota ondersteunt het [IMAP protocol](https://tutanota.com/faq/#imap) em het 
 
     Tutanota zal [inactieve gratis accounts verwijderen](https://tutanota.com/faq#inactive-accounts) na zes maanden. Je kunt een gedeactiveerd gratis account opnieuw gebruiken als je betaalt.
 
-SimpleLogin werd [overgenomen door Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) met ingang van 8 april 2022. info "Extra Functionaliteit"
+??? info "Extra Functionaliteit"
 
     Tutanota biedt de zakelijke versie van [Tutanota gratis of met zware korting aan organisaties zonder winstoogmerk](https://tutanota.com/blog/posts/secure-email-for-non-profit).
     
@@ -277,9 +277,9 @@ Het gebruik van een aliasingdienst vereist dat je zowel jouw e-mailprovider als 
 
 ### AnonAddy
 
-Wij beschouwen deze kenmerken als belangrijk om een veilige en optimale dienst te kunnen verlenen. U moet nagaan of de provider de functies heeft die u nodig heeft.
+!!! recommendation
 
-    [AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
+    ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
     AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
     
     **AnonAddy** laat je gratis 20 domein aliassen aanmaken op een gedeeld domein, of onbeperkt "standaard" aliassen die minder anoniem zijn.
@@ -290,7 +290,7 @@ Wij beschouwen deze kenmerken als belangrijk om een veilige en optimale dienst t
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
@@ -311,7 +311,7 @@ Opmerkelijke gratis functies:
 
 !!! recommendation
 
-    Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
+    ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
     
     **SimpleLogin** is een gratis dienst die e-mailaliassen op verschillende gedeelde domeinnamen biedt, en optioneel betaalde functies zoals onbeperkte aliassen en aangepaste domeinen.
     
@@ -320,7 +320,7 @@ Opmerkelijke gratis functies:
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)

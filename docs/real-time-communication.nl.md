@@ -15,7 +15,7 @@ Deze boodschappers zijn geweldig voor het beveiligen van jouw gevoelige communic
 
 !!! recommendation
 
-    Signal logo](assets/img/messengers/signal.svg){ align=right }
+    ![Signal logo](assets/img/messengers/signal.svg){ align=right }
     
     **Signal** is een mobiele app ontwikkeld door Signal Messenger LLC. De app biedt instant messaging en spraak- en videobellen.
     
@@ -27,7 +27,7 @@ Deze boodschappers zijn geweldig voor het beveiligen van jouw gevoelige communic
     [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
@@ -48,7 +48,7 @@ We hebben nog enkele extra tips over het configureren en verharden van jouw sign
 
 !!! recommendation
 
-    Simplex logo](assets/img/messengers/simplex.svg){ align=right }
+    ![Simplex logo](assets/img/messengers/simplex.svg){ align=right }
     
     **SimpleX** Chat is een instant messenger die gedecentraliseerd is en niet afhankelijk is van unieke identifiers zoals telefoonnummers of gebruikersnamen. Berichten en bestanden die in privéruimten worden gedeeld (waarvoor een uitnodiging nodig is) zijn standaard E2EE, net als één-op-één spraak- en videogesprekken.
     
@@ -57,7 +57,7 @@ We hebben nog enkele extra tips over het configureren en verharden van jouw sign
     [:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
@@ -73,7 +73,7 @@ Jouw gegevens kunnen worden geëxporteerd en geïmporteerd naar een ander appara
 
 !!! recommendation
 
-    Briar logo](assets/img/messengers/briar.svg){ align=right }
+    ![Briar logo](assets/img/messengers/briar.svg){ align=right }
     
     **Briar** is een versleutelde instant messenger die [connects](https://briarproject.org/how-it-works/) gebruikt voor andere clients via het Tor Netwerk. Briar kan ook verbinding maken via Wi-Fi of Bluetooth wanneer hij in de buurt is. Briar's lokale mesh-modus kan nuttig zijn wanneer de beschikbaarheid van internet een probleem is.
     
@@ -83,7 +83,7 @@ Jouw gegevens kunnen worden geëxporteerd en geïmporteerd naar een ander appara
     [:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://briarproject.org/){ .card-link title="Donatiemogelijkheden staan onderaan de homepage" } }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
         - [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop/)
@@ -102,13 +102,13 @@ Briar ondersteunt perfect forward secrecy door het gebruik van jet Bramble [Hand
 
 !!! warning
 
-    Deze boodschappers hebben geen Perfect [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) (PFS), en hoewel zij aan bepaalde gebruikscriteria voldoen die onze eerdere aanbevelingen niet kunnen vervullen, bevelen wij ze niet aan voor langdurige of gevoelige communicatie. Elke compromittering van sleutels tussen ontvangers van berichten zou de vertrouwelijkheid van **alle** eerdere communicaties aantasten.
+    Deze boodschappers hebben geen Perfect [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) (PFS), en hoewel zij in bepaalde behoeften voorzien die onze vorige aanbevelingen niet hebben, bevelen wij ze niet aan voor langdurige of gevoelige communicatie. Elke compromittering van sleutels tussen ontvangers van berichten zou de vertrouwelijkheid van **alle** eerdere communicaties aantasten.
 
 ### Element
 
 !!! recommendation
 
-    Element logo](assets/img/messengers/element.svg){ align=right }
+    ![Element logo](assets/img/messengers/element.svg){ align=right }
     
     **Element** is de referentieclient voor het [Matrix](https://matrix.org/docs/guides/introduction) protocol, een [open standaard](https://matrix.org/docs/spec) voor veilige gedecentraliseerde real-time communicatie.
     
@@ -119,7 +119,7 @@ Briar ondersteunt perfect forward secrecy door het gebruik van jet Bramble [Hand
     [:octicons-info-16:](https://element.io/help){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/vector-im){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
         - [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
@@ -141,18 +141,18 @@ Het protocol is in 2016 onafhankelijk [gecontroleerd](https://matrix.org/blog/20
 
 !!! recommendation
 
-    Session logo](assets/img/messengers/session.svg){ align=right }
+    ![Session logo](assets/img/messengers/session.svg){ align=right }
     
     **Session** is een gedecentraliseerde messenger met een focus op private, veilige en anonieme communicatie. Session biedt ondersteuning voor directe berichten, groepschats en spraakoproepen.
     
     Session maakt gebruik van het gedecentraliseerde [Oxen Service Node Network](https://oxen.io/) om berichten op te slaan en te routeren. Elk versleuteld bericht wordt door drie knooppunten in het Oxen Service Node Network geleid, waardoor het voor de knooppunten vrijwel onmogelijk wordt zinvolle informatie te verzamelen over degenen die het netwerk gebruiken.
     
     [:octicons-home-16: Homepage](https://getsession.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacybeleid" }
     [:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)

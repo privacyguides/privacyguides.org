@@ -12,9 +12,9 @@ icon: material/calendar
     ![Tutanota לוגו](assets/img/calendar/tutanota.svg#only-light){ align=right }
     ![Tutanota לוגו](assets/img/calendar/tutanota-dark.svg#only-dark){ align=right }
     
-    **Tutanota** מציעה לוח שנה חופשי ומוצפן בפלטפורמות הנתמכות שלהם. התכונות כוללות: E2EE אוטומטי של כל הנתונים, תכונות שיתוף, פונקציונליות ייבוא/ייצוא, אימות רב-גורמי ו[more](https://tutanota.com/calendar-app-comparison/).
+    **Tutanota** מציעה לוח שנה בחינם ומוצפן על פני הפלטפורמות הנתמכות שלהם. התכונות כוללות: E2EE אוטומטי של כל הנתונים, תכונות שיתוף, פונקציונליות ייבוא/ייצוא, אימות רב-גורמי ו-[עוד](https://tutanota.com/calendar-app-comparison/).
     
-    לוחות שנה מרובים ופונקציונליות שיתוף מורחבת מוגבלים למנויים בתשלום.
+    מספר לוחות שנה ופונקציונליות שיתוף מורחבת מוגבלים למנויים בתשלום.
     
     [:octicons-home-16: דף הבית](https://tutanota.com/calendar){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="מדיניות פרטיות" }

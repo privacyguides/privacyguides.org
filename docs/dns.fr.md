@@ -51,7 +51,7 @@ Apple ne fournit pas d'interface native pour la création de profils DNS chiffr�
 
 !!! info "Information"
 
-    `systemd-resolved`, que de nombreuses distributions Linux utilisent pour effectuer leurs recherches DNS, ne [supporte pas encore DoH](https://github.com/systemd/systemd/issues/8639). Si vous voulez utiliser DoH, vous devez installer un proxy comme [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) et [le configurer] (https://wiki.archlinux.org/title/Dnscrypt-proxy) pour prendre toutes les requêtes DNS du résolveur de votre système et les transmettre via HTTPS.
+    `systemd-resolved`, que de nombreuses distributions Linux utilisent pour effectuer leurs recherches DNS, ne [supporte pas encore DoH](https://github.com/systemd/systemd/issues/8639). Si vous voulez utiliser DoH, vous devez installer un proxy comme [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) et [le configurer](https://wiki.archlinux.org/title/Dnscrypt-proxy) pour prendre toutes les requêtes DNS du résolveur de votre système et les transmettre via HTTPS.
 
 ## Proxys DNS chiffrés
 

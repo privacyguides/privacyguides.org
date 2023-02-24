@@ -1,6 +1,6 @@
 ---
 title: Linux Overzicht
-icon: fontawesome/brands/linux
+icon: simple/linux
 ---
 
 Vaak wordt aangenomen dat [open-source](https://en.wikipedia.org/wiki/Open-source_software) software inherent veilig is omdat de broncode beschikbaar is. Er wordt verwacht dat er regelmatig communautaire verificatie plaatsvindt; dit is echter niet altijd [het geval](https://seirdy.one/posts/2022/02/02/floss-security/). Het hangt af van een aantal factoren, zoals de activiteit van het project, de ervaring van de ontwikkelaar, de striktheid waarmee [code wordt gereviewd](https://en.wikipedia.org/wiki/Code_review), en hoe vaak aandacht wordt besteed aan specifieke delen van de [codebase](https://en.wikipedia.org/wiki/Codebase) die misschien jarenlang onaangeroerd zijn gebleven.

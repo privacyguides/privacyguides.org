@@ -9,7 +9,7 @@ Dit zijn momenteel onze aanbevolen mobiele webbrowsers en configuraties. In het 
 
 !!! recommendation
 
-    Firefox-logo](assets/img/browsers/firefox.svg){ align=right }
+    ![Firefox-logo](assets/img/browsers/firefox.svg){ align=right }
     
     **Firefox** biedt krachtige privacy-instellingen zoals [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), die kunnen helpen bij het blokkeren van verschillende [soorten tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
     
@@ -19,7 +19,7 @@ Dit zijn momenteel onze aanbevolen mobiele webbrowsers en configuraties. In het 
     [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
         - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
@@ -88,7 +88,7 @@ Het [Arkenfox-project](https://github.com/arkenfox/user.js) biedt een reeks zorg
 
 !!! recommendation
 
-    Brave-logo](assets/img/browsers/brave.svg){ align=right }
+    ![Brave-logo](assets/img/browsers/brave.svg){ align=right }
     
     **Brave Browser** bevat een ingebouwde inhoudsblokker en [privacyfuncties](https://brave.com/privacy-features/), waarvan vele standaard zijn ingeschakeld.
     
@@ -100,7 +100,7 @@ Het [Arkenfox-project](https://github.com/arkenfox/user.js) biedt een reeks zorg
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Broncode" }
     
-    ??? downloads annotate
+    ??? downloads annotate "Downloaden"
     
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
         - [:simple-windows11: Windows](https://brave.com/download/)
@@ -208,7 +208,7 @@ Wij raden over het algemeen af om extensies te installeren omdat ze jouw aanvals
     [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)

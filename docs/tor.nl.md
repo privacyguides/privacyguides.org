@@ -29,7 +29,7 @@ Er zijn verschillende manieren om verbinding te maken met het Tor-netwerk vanaf 
 
 !!! recommendation
 
-    Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
+    ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
     
     **Tor Browser** is de keuze als je anonimiteit nodig hebt, omdat het je toegang geeft tot het Tor netwerk en bruggen, en het bevat standaard instellingen en extensies die automatisch geconfigureerd worden door de standaard beveiligingsniveaus: *Standard*, *Safer* en *Safest*.
     
@@ -39,7 +39,7 @@ Er zijn verschillende manieren om verbinding te maken met het Tor-netwerk vanaf 
     [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
         - [:simple-android: Android](https://www.torproject.org/download/#android)
@@ -58,7 +58,7 @@ De Tor Browser is ontworpen om fingerprinting, of het identificeren van jou op b
 
 !!! recommendation
 
-    Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+    ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
     
     **Orbot** is een gratis Tor VPN voor smartphones die het verkeer van elke app op je toestel door het Tor-netwerk leidt.
     
@@ -68,7 +68,7 @@ De Tor Browser is ontworpen om fingerprinting, of het identificeren van jou op b
     [:octicons-code-16:](https://orbot.app/code){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
@@ -90,8 +90,8 @@ Om weerstand te bieden tegen verkeersanalyse aanvallen, kunt je overwegen om *Is
 
 !!! recommendation
 
-    Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
-    Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
+    ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
+    ![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
     
     **Met Snowflake** kun je bandbreedte doneren aan het Tor Project door een "Snowflake proxy" in je browser te gebruiken.
     
@@ -102,13 +102,13 @@ Om weerstand te bieden tegen verkeersanalyse aanvallen, kunt je overwegen om *Is
     [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Documentatie}
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
         - [:octicons-browser-16: Web](https://snowflake.torproject.org/embed "Laat deze pagina open om een Snowflake proxy te zijn")
 
-??? tip "embedded Snowflake"
+??? tip "Embedded Snowflake"
 
     Je kunt Snowflake in jouw browser inschakelen door op de schakelaar hieronder te klikken en ==deze pagina open laten==. Je kunt Snowflake ook installeren als een browserextensie om het altijd te laten draaien terwijl jouw browser open is, maar het toevoegen van extensies van derden kan uw aanvalsoppervlak vergroten.
     

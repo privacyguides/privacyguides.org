@@ -21,7 +21,7 @@ Deze wachtwoordbeheerders synchroniseren jouw wachtwoorden met een cloudserver v
 
 !!! recommendation
 
-    Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
+    ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
     
     **Bitwarden** is een gratis en open-source wachtwoord manager. Het is gericht op het oplossen van problemen op het gebied van wachtwoordbeheer voor individuen, teams en bedrijfsorganisaties. Bitwarden is een van de makkelijkste en veiligste oplossingen om al jouw logins en wachtwoorden op te slaan terwijl ze gemakkelijk gesynchroniseerd blijven tussen al jouw apparaten.
     
@@ -30,7 +30,7 @@ Deze wachtwoordbeheerders synchroniseren jouw wachtwoorden met een cloudserver v
     [:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Broncode" }
     
-    ??? :simple-microsoftedge: downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
         - [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
@@ -39,7 +39,8 @@ Deze wachtwoordbeheerders synchroniseren jouw wachtwoorden met een cloudserver v
         - [:simple-linux: Linux](https://bitwarden.com/download)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/com.bitwarden.desktop)
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
+        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
 
 Bitwarden beschikt ook over de tool genaamd [Bitwarden Send](https://bitwarden.com/products/send/), waarmee je veilig tekst en bestanden kunt delen met [end-to-end encryptie](https://bitwarden.com/help/send-encryption). Een [wachtwoord](https://bitwarden.com/help/send-privacy/#send-passwords) kan nodig zijn samen met de verzendlink. Bitwarden Send beschikt ook over [automatische verwijdering](https://bitwarden.com/help/send-lifespan).
 
@@ -57,7 +58,7 @@ De server-side code van Bitwarden is [open-source](https://github.com/bitwarden/
 
 !!! recommendation
 
-    1Password logo](assets/img/password-management/1password.svg){ align=right }
+    ![1Password logo](assets/img/password-management/1password.svg){ align=right }
     
     **1Password** is een wachtwoordmanager met een sterke focus op veiligheid en gebruiksgemak, waarmee je wachtwoorden, creditcards, softwarelicenties en andere gevoelige informatie kunt opslaan in een veilige digitale kluis. Uw kluis wordt gehost op de servers van 1Password voor een [maandelijkse vergoeding](https://1password.com/sign-up/). 1Password is [audited](https://support.1password.com/security-assessments/) op regelmatige basis en biedt uitzonderlijke klantenondersteuning. 1Password is closed source; de beveiliging van het product is echter grondig gedocumenteerd in hun [security white paper] (https://1passwordstatic.com/files/security/1password-white-paper.pdf).
     
@@ -65,7 +66,7 @@ De server-side code van Bitwarden is [open-source](https://github.com/bitwarden/
     [:octicons-eye-16:](https://support.1password.com/1password-privacy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentatie}
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
@@ -83,7 +84,7 @@ Een voordeel van 1Password ten opzichte van Bitwarden is de eersteklas ondersteu
 
 !!! recommendation
 
-    Psono logo](assets/img/password-management/psono.svg){ align=right }
+    ![Psono logo](assets/img/password-management/psono.svg){ align=right }
     
     **Psono** is een gratis en open-source wachtwoordmanager uit Duitsland, met een focus op wachtwoordbeheer voor teams. Psono ondersteunt het veilig delen van wachtwoorden, bestanden, bladwijzers en e-mails. Alle geheimen worden beschermd door een hoofdwachtwoord.
     
@@ -92,7 +93,7 @@ Een voordeel van 1Password ten opzichte van Bitwarden is de eersteklas ondersteu
     [:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentatie}
     [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Broncode" }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
@@ -133,7 +134,7 @@ Met deze opties kunt je een versleutelde wachtwoorddatabase lokaal beheren.
 
 !!! recommendation
 
-    KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
+    ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
     
     **KeePassXC** is een community fork van KeePassX, een native cross-platform port van KeePass Password Safe, met als doel het uit te breiden en te verbeteren met nieuwe functies en bugfixes om een feature-rijke, cross-platform en moderne open-source password manager te bieden.
     
@@ -143,7 +144,7 @@ Met deze opties kunt je een versleutelde wachtwoorddatabase lokaal beheren.
     [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
         - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
@@ -158,7 +159,7 @@ KeePassXC slaat zijn exportgegevens op als [CSV](https://en.wikipedia.org/wiki/C
 
 !!! recommendation
 
-    KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
+    ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
     
     **KeePassDX** is een lichtgewicht wachtwoordmanager voor Android, waarmee versleutelde gegevens in een enkel bestand in KeePass-formaat kunnen worden bewerkt en de formulieren op een veilige manier kunnen worden ingevuld. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) maakt het mogelijk om cosmetische inhoud en niet-standaard protocolfuncties vrij te spelen, maar belangrijker nog, het helpt en stimuleert de ontwikkeling.
     
@@ -167,7 +168,7 @@ KeePassXC slaat zijn exportgegevens op als [CSV](https://en.wikipedia.org/wiki/C
     [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Bijdrage leveren }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
         - [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
@@ -176,7 +177,7 @@ KeePassXC slaat zijn exportgegevens op als [CSV](https://en.wikipedia.org/wiki/C
 
 !!! recommendation
 
-    Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
+    ![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
     
     **Strongbox** is een native, open-source wachtwoordmanager voor iOS en macOS. Strongbox ondersteunt zowel KeePass als Password Safe formaten en kan worden gebruikt in combinatie met andere wachtwoordmanagers, zoals KeePassXC, op niet-Apple platforms. Door gebruik te maken van een [freemium model](https://strongboxsafe.com/pricing/), biedt Strongbox de meeste functies aan in zijn gratis plan met meer op gemak gerichte [features](https://strongboxsafe.com/comparison/)-zoals biometrische authenticatie- vergrendeld achter een abonnement of eeuwigdurende licentie.
     
@@ -186,7 +187,7 @@ KeePassXC slaat zijn exportgegevens op als [CSV](https://en.wikipedia.org/wiki/C
     [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
 
@@ -200,7 +201,7 @@ Deze producten zijn minimale wachtwoordmanagers die kunnen worden gebruikt binne
 
 !!! recommendation
 
-    gopass logo](assets/img/password-management/gopass.svg){ align=right }
+    ![gopass logo](assets/img/password-management/gopass.svg){ align=right }
     
     **gopass** is een wachtwoordmanager voor de commandoregel geschreven in Go. Het werkt op alle belangrijke desktop- en serverbesturingssystemen (Linux, macOS, BSD, Windows).
     
@@ -209,7 +210,7 @@ Deze producten zijn minimale wachtwoordmanagers die kunnen worden gebruikt binne
     [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Bijdrage leveren }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
         - [:simple-apple: macOS](https://www.gopass.pw/#install-macos)

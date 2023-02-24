@@ -13,11 +13,11 @@ icon: material/laptop
     
     **Firefox** מספק הגדרות פרטיות חזקות כגון [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), שיכול לעזור לחסום שונים [סוגי מעקב](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-protection-blocks).
     
-    [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
+    [:octicons-home-16: דף הבית](https://firefox.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="מדיניות פרטיות" }
+    [:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="קוד מקור" }
+    [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=לתרומה }
     
     ??? downloads "הורדות"
     
@@ -94,7 +94,7 @@ icon: material/laptop
     
     Brave בנוי על פרויקט דפדפן Chromium, כך שהוא אמור להרגיש מוכר ושיהיו לו בעיות תאימות מינימליות לאתר.
     
-    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+    [:octicons-home-16: דף הבית](https://brave.com/){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="שירות בצל" }
     [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="מדיניות פרטיות" }
     [:octicons-info-16:](https://support.brave.com/){ .card-link title=תיעוד}
@@ -201,10 +201,10 @@ Brave כוללת כמה אמצעים נגד הדפסה בתכונה [Shields](ht
     
     **uBlock Origin** הוא חוסם תוכן פופולרי שיכול לעזור לך לחסום מודעות, עוקבים וסקריפטים של טביעות אצבע.
     
-    [:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
+    [:octicons-repo-16: מאגר](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="מדיניות פרטיות" }
+    [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="קוד מקור" }
     
     ??? הורדות
     

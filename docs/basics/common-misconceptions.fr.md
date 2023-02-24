@@ -33,7 +33,7 @@ Nous voyons souvent des personnes décrire des modèles de menace pour protéger
 Trouver la "meilleure" solution pour soi ne signifie pas nécessairement que l'on recherche une solution infaillible avec des dizaines de conditions - ces solutions sont souvent difficiles à utiliser de manière réaliste. Comme nous l'avons vu précédemment, la sécurité se fait souvent au détriment de la commodité. Nous vous donnons ci-dessous quelques conseils :
 
 1. ==Les actions doivent servir un objectif particulier:== réfléchissez à la manière de faire ce que vous voulez avec le moins d'actions possible.
-2. ==Supprimer les points d'échec humains : nous échouons, nous nous fatiguons et nous oublions des choses. Pour maintenir la sécurité, évitez de vous appuyer sur des conditions et des processus manuels dont vous devez vous souvenir.
+2. ==Supprimer les points d'échec humains:== nous échouons, nous nous fatiguons et nous oublions des choses. Pour maintenir la sécurité, évitez de vous appuyer sur des conditions et des processus manuels dont vous devez vous souvenir.
 3. ==Utilisez le bon niveau de protection pour ce que vous voulez faire.== Nous voyons souvent des recommandations de solutions soi-disant à l'épreuve des forces de l'ordre et des assignations/mandats. Celles-ci nécessitent souvent des connaissances spécialisées et ne sont généralement pas ce que les gens recherchent. Il ne sert à rien de construire un modèle de menace complexe pour l'anonymat si vous pouvez être facilement désanonymisé par un simple oubli.
 
 Alors, à quoi ça pourrait ressembler ?
@@ -46,7 +46,7 @@ Les modèles de menace les plus clairs sont ceux où les gens *savent qui vous �
 
     !!! tip "Conseil"
    
-        Lorsque vous effectuez des achats en ligne, l'utilisation d'une [consigne à colis] (https://en.wikipedia.org/wiki/Parcel_locker) peut contribuer à préserver la confidentialité de votre adresse physique.
+        Lorsque vous effectuez des achats en ligne, l'utilisation d'une [consigne à colis](https://en.wikipedia.org/wiki/Parcel_locker) peut contribuer à préserver la confidentialité de votre adresse physique.
 
 2. **Identité inconnue** - Une identité inconnue pourrait être un pseudonyme stable que vous utilisez régulièrement. Il n'est pas anonyme car il ne change pas. Si vous faites partie d'une communauté en ligne, vous souhaiterez peut-être conserver un personnage que les autres connaissent. Ce pseudonyme n'est pas anonyme car, s'il est surveillé suffisamment longtemps, les détails concernant le propriétaire peuvent révéler d'autres informations, telles que sa façon d'écrire, ses connaissances générales sur des sujets d'intérêt, etc.
 

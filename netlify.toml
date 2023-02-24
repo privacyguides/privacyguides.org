@@ -12,12 +12,12 @@
     X-XSS-Protection = "0"
     X-Content-Type-Options = "nosniff"
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
-    Content-Security-Policy = "default-src 'none'; script-src https://www.privacyguides.org https://api.privacyguides.net 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src data: 'self'; connect-src https://api.github.com https://api.privacyguides.net 'self'"
+    Content-Security-Policy = "default-src 'none'; script-src https://www.privacyguides.org https://api.privacyguides.net 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src data: 'self'; connect-src https://api.github.com https://api.privacyguides.net 'self'; frame-src https://stats.privacyguides.net; frame-ancestors 'none'"
 
 [[headers]]
   for = "/about/donate/"
   [headers.values]
-    Content-Security-Policy = "default-src 'none'; script-src https://opencollective.com https://www.privacyguides.org https://api.privacyguides.net 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src https://opencollective.com data: 'self'; connect-src https://api.github.com https://api.privacyguides.net 'self'; frame-src https://opencollective.com"
+    Content-Security-Policy = "default-src 'none'; script-src https://opencollective.com https://www.privacyguides.org https://api.privacyguides.net 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src https://opencollective.com data: 'self'; connect-src https://api.github.com https://api.privacyguides.net 'self'; frame-src https://opencollective.com; frame-ancestors 'none'"
 
 [[redirects]]
     from = "/.well-known/matrix/*"
@@ -28,6 +28,10 @@
 [[redirects]]
     from = "/kb"
     to = "/basics/threat-modeling/"
+
+[[redirects]]
+    from = "/:lang/kb"
+    to = "/:lang/basics/threat-modeling/"
 
 [[redirects]]
     from = "/coc"

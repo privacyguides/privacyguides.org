@@ -32,7 +32,7 @@ Voor modellen die HOTP en TOTP ondersteunen, zijn er 2 slots in de OTP-interface
 
 !!! recommendation
 
-    ![Nitrokey](assets/img/multifactor-authenticatie/nitrokey.jpg){ align=right }
+    ![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
     
     **Nitrokey** heeft een beveiligingssleutel die geschikt is voor [FIDO2 en WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) genaamd de **Nitrokey FIDO2**. Voor PGP-ondersteuning moet je een van hun andere sleutels kopen, zoals de **Nitrokey Start**, **Nitrokey Pro 2** of de **Nitrokey Storage 2**.
     
@@ -96,7 +96,7 @@ Wij raden je ten zeerste aan om mobiele TOTP apps te gebruiken in plaats van des
 
 !!! recommendation
 
-    Aegis-logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
+    ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
     
     **Aegis Authenticator** is een gratis, veilige en open-source app om jouw 2-staps verificatie tokens voor uw online diensten te beheren.
     
@@ -106,7 +106,7 @@ Wij raden je ten zeerste aan om mobiele TOTP apps te gebruiken in plaats van des
     [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
         - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
@@ -115,7 +115,7 @@ Wij raden je ten zeerste aan om mobiele TOTP apps te gebruiken in plaats van des
 
 !!! recommendation
 
-    Raivo OTP logo](assets/img/multi-factor-authentication/raivo-otp.png){ align=right }
+    ![Raivo OTP logo](assets/img/multi-factor-authentication/raivo-otp.png){ align=right }
     
     **Raivo OTP** is een native, lichtgewicht en veilige time-based (TOTP) & counter-based (HOTP) password client voor iOS. Raivo OTP biedt optionele iCloud back-up & sync. Raivo OTP is ook beschikbaar voor macOS in de vorm van een statusbalkapplicatie, maar de Mac-app werkt niet onafhankelijk van de iOS-app.
     
@@ -123,7 +123,7 @@ Wij raden je ten zeerste aan om mobiele TOTP apps te gebruiken in plaats van des
     [:octicons-eye-16:](https://raivo-otp.com/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-code-16:](https://github.com/raivo-otp/ios-application){ .card-link title="Broncode" }. [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
 

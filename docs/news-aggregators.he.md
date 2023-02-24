@@ -66,7 +66,7 @@ icon: material/rss
 
     ![GNOME Feeds לוגו](assets/img/news-aggregators/gfeeds.svg){ align=right }
     
-    **GNOME Feeds** is an [RSS](https://en.wikipedia.org/wiki/RSS) and [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) קורא חדשות עבור [GNOME](https://www.gnome.org). יש לו ממשק פשוט והוא די מהיר.
+    **Feeds GNOME** הם [RSS](https://en.wikipedia.org/wiki/RSS) ו-[Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) קורא חדשות עבור [GNOME](https://www.gnome.org). יש לו ממשק פשוט והוא די מהיר.
     
     [:octicons-home-16: Homepage](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Source Code" }
@@ -84,7 +84,7 @@ icon: material/rss
     ![Miniflux לוגו](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
     ![Miniflux לוגו](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
     
-    **Miniflux** הוא צובר חדשות מבוסס אינטרנט שתוכלו לארח בעצמכם. הוא תומך ב [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+    **Miniflux** הוא צובר חדשות מבוסס אינטרנט שתוכלו לארח בעצמכם. הוא תומך ב [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) ו- [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
     
     [:octicons-home-16: דף הבית](https://miniflux.app){ .md-button .md-button--primary }
     [:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=תיעוד}
@@ -97,7 +97,7 @@ icon: material/rss
 
     ![NetNewsWire לוגו](assets/img/news-aggregators/netnewswire.png){ align=right }
     
-    **NetNewsWire** קורא הזנות חינמי וקוד פתוח עבור macOS ו-iOS עם דגש על עיצוב וערכת תכונות מקוריים. הוא תומך בפורמטי הפיד הטיפוסיים לצד תמיכה מובנית בפיד של טוויטר ו-Reddit.
+    **NetNewsWire** קורא עדכונים חינמי וקוד פתוח עבור macOS ו-iOS עם התמקדות בעיצוב ותכונות מקוריות. הוא תומך בפורמטי הפיד הטיפוסיים לצד תמיכה מובנית בפיד של טוויטר ו-Reddit.
     
     [:octicons-home-16: דף הבית](https://netnewswire.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="מדיניות פרטיות" }

@@ -110,19 +110,19 @@ DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת 
 עוד כמה טיפים לרכישת Google Pixel:
 
 - אם אתה מחפש מציאה על מכשיר פיקסל, אנו מציעים לקנות דגם "**a**", מיד לאחר יציאת ספינת הדגל הבאה. הנחות זמינות בדרך כלל מכיוון שגוגל תנסה לסלק את המלאי שלה.
-- שקול מחיר מכה אפשרויות ומבצעים המוצעים בחנויות לבנים וטיט.
-- באפשרותך לעיין באתרי המציאה המקוונים של הקהילה במדינה שלך. אלה יכולים להתריע על מכירות טובות.
-- Google מספקת רשימה המציגה את [מחזור התמיכה](https://support.google.com/nexus/answer/4457705) עבור כל אחד מהמכשירים שלהם. המחיר ליום עבור מכשיר יכול להיות מחושב כך: $\text{לוּת} \over \text {תאריך סוף החיים}-\text{דייט נוכחי}$, כלומר, ככל שהשימוש במכשיר ארוך יותר, העלות ליום נמוכה יותר.
+- שקול אפשרויות מכות מחיר ומבצעים המוצעים בחנויות פיזיות.
+- עיין באתרי עסקאות מקוונים של קהילות במדינה שלך. אלה יכולים להתריע על מכירות טובות.
+- Google מספקת רשימה המציגה את [מחזור התמיכה](https://support.google.com/nexus/answer/4457705) עבור כל אחד מהמכשירים שלהם. ניתן לחשב את המחיר ליום למכשיר כך: $\text{עלות} \over \text {EOL Date}-\text{Current Date}$, כלומר ככל שהשימוש ארוך יותר במכשיר כך העלות ליום נמוכה יותר.
 
 ## אפליקציות כלליות
 
-אנו ממליצים על מגוון רחב של אפליקציות אנדרואיד ברחבי אתר זה. האפליקציות המפורטות כאן הן בלעדיות ל - אנדרואיד ובפרט משפרות או מחליפות פונקציונליות של מערכת מפתח.
+אנו ממליצים על מגוון רחב של אפליקציות אנדרואיד ברחבי אתר זה. האפליקציות המפורטות כאן הן בלעדיות לאנדרואיד ומשפרות או מחליפות באופן ספציפי את פונקציונליות המערכת המרכזית.
 
 ### Shelter
 
 !!! recommendation
 
-    ![לוגו Shelter](assets/img/android/shelter.svg){ align=right }
+    ![Shelter לוגו](assets/img/android/shelter.svg){ align=right }
     
     **Shelter** היא אפליקציה שעוזרת לך למנף את הפונקציונליות של פרופיל העבודה של אנדרואיד כדי לבודד או לשכפל אפליקציות במכשיר שלך.
     
@@ -149,42 +149,45 @@ DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת 
     ![Auditor לוגו](assets/img/android/auditor.svg#only-light){ align=right }
     ![Auditor לוגו](assets/img/android/auditor-dark.svg#only-dark){ align=right }
     
-    **Auditor** היא אפליקציה אשר ממנפת תכונות אבטחה בחומרה כדי לספק ניטור תקינות מכשירים עבור [התקנים נתמכים ]( https://attestation.app/about#device-support). כיום, הוא עובד רק עם GrapheneOS ומערכת ההפעלה של המכשיר.
+    **Auditor** היא אפליקציה הממנפת תכונות אבטחת חומרה כדי לספק ניטור שלמות המכשיר עבור [מכשירים נתמכים](https://attestation.app/about#device-support). נכון לעכשיו, זה עובד רק עם GrapheneOS ומערכת ההפעלה הסטוק של המכשיר.
     
-    [:octicons-home-16: Homepage](https://attestation.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://attestation.app/about){ .card-link title=Documentation}
-    [:octicons-code-16:](https://attestation.app/source){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribute } ??? downloads "הורדות"
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor)
+    [:octicons-home-16: דף הבית](https://attestation.app){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="מדיניות פרטיות" }
+    [:octicons-info-16:](https://attestation.app/about){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://attestation.app/source){ .card-link title="קוד מקור" }
+    [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=לתרומה }
+    
+    ??? ??? downloads "הורדות"
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
         - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 
-Auditor מבצע אימות וזיהוי חדירה על ידי:
+Auditor מבצע אישור וזיהוי חדירה על ידי:
 
-- שימוש ב [אמון בשימוש הראשון (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) מודל between an *auditor* and *auditee*, השניים מקימים מפתח פרטי ב[מאגר מפתחות מגובה חומרה](https://source.android.com/security/keystore/) של ה *Auditor*.
-- המבקר ** יכול להיות מקרה אחר של אפליקציית המבקר או [שירות ההצהרה מרחוק](https://attestation.app).
-- מבקר **מתעד את המצב והתצורה הנוכחיים של מבקר**.
-- במקרה של חבלה במערכת ההפעלה של ה*נבדק* לאחר השלמת החיבור, המבקר יהיה מודע לשינוי במצב ההתקן ובתצורות.
-- אתה תקבל התראה על השינוי.
+- שימוש במודל [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) בין *מבקר* ו*בודק*, הזוג יוצר מפתח פרטי ב[מגובת החומרה מאגר המפתחות](https://source.android.com/security/keystore/) של *מבקר*.
+- *auditor* יכול להיות מופע אחר של אפליקציית Auditor או [שירות אישור מרחוק](https://attestation.app).
+- ה*auditor* מתעד את המצב והתצורה הנוכחיים של ה*auditee*.
+- אם התעסקות במערכת ההפעלה של ה*auditee* תתרחש לאחר השלמת ההתאמה, המבקר יהיה מודע לשינוי במצב המכשיר ובתצורות.
+- תקבל התראה על השינוי.
 
-לא נשלח מידע אישי הניתן לזיהוי לשירות ההצהרה. אנו ממליצים להירשם באמצעות חשבון אנונימי ולהפעיל הצהרה מרחוק למעקב רציף.
+לא נמסר מידע מזהה אישי לשירות האישורים. אנו ממליצים להירשם עם חשבון אנונימי ולאפשר אישור מרחוק לניטור רציף.
 
-אם [מודל האיום](basics/threat-modeling.md) שלכם דורש פרטיות, תוכלו לשקול להשתמש ב [Orbot](tor.md#orbot) או ב-VPN כדי להסתיר את כתובת ה-IP שלכם משירות האישור. כדי לוודא שחומרתך ומערכת ההפעלה שלך אמינה, בצע [הצהרה מקומית](https://grapheneos.org/install/web#verifying-installation) מיד לאחר התקנת המכשיר ולפני כל חיבור לאינטרנט.
+אם [מודל האיום](basics/threat-modeling.md) שלך דורש פרטיות, תוכל לשקול להשתמש ב-[Orbot](tor.md#orbot) או ב-VPN כדי הסתר את כתובת ה-IP שלך משירות האישורים. כדי לוודא שהחומרה ומערכת ההפעלה שלך מקוריות, [בצע אישור מקומי](https://grapheneos.org/install/web#verifying-installation) מיד לאחר התקנת ההתקן ולפני כן לכל חיבור לאינטרנט.
 
-### מצלמה מאובטחת
+### Secure Camera
 
 !!! recommendation
 
     ![Secure camera לוגו](assets/img/android/secure_camera.svg#only-light){ align=right }
     ![Secure camera לוגו](assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
     
-    **Secure Camera** היא אפליקציית מצלמה המתמקדת בפרטיות ובאבטחה שיכולה ללכוד תמונות, סרטונים וקודי QR. הרחבות ספק CameraX (דיוקן, HDR, ראיית לילה, ריטוש פנים ואוטומטי) נתמכות גם במכשירים זמינים.
+    **Secure Camera** היא אפליקציית מצלמה המתמקדת בפרטיות ואבטחה שיכולה לצלם תמונות, סרטונים וקודי QR. הרחבות של ספקי CameraX (פורטרט, HDR, ראיית לילה, ריטוש פנים ואוטומטי) נתמכות גם במכשירים זמינים.
     
-    [:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+    [:octicons-repo-16: מאגר](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=תיעוד}
+    [:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="קוד מקור" }
+    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=לתרומה }
     
     ??? downloads "הורדות"
     
@@ -194,30 +197,30 @@ Auditor מבצע אימות וזיהוי חדירה על ידי:
 
 תכונות הפרטיות העיקריות כוללות:
 
-- הסרה אוטומטית של מטא נתונים מסוג [Exif](https://en.wikipedia.org/wiki/Exif) (מופעלת כברירת מחדל)
-- השימוש ב [Media](https://developer.android.com/training/data-storage/shared/media) API החדש, לכן [הרשאות אחסון](https://developer.android.com/training/data-storage) אינם נדרשים
-- הרשאת מיקרופון אינה נדרשת אלא אם כן ברצונך להקליט קול
+- הסרה אוטומטית של מטא נתונים של [Exif](https://en.wikipedia.org/wiki/Exif) (מופעל כברירת מחדל)
+- שימוש בממשק ה-API החדש של [מדיה](https://developer.android.com/training/data-storage/shared/media), לכן [הרשאות אחסון](https://developer.android.com/training/data-storage) אינן נדרשות
+- אין צורך בהרשאת מיקרופון אלא אם ברצונך להקליט קול
 
 !!! note "הערה"
 
-    מטא - נתונים אינם נמחקים כרגע מקובצי וידאו, אך הם מתוכננים.
+    מטא נתונים אינם נמחקים כעת מקבצי וידאו אבל זה מתוכנן.
     
-    המטא נתונים של כיוון התמונה אינם נמחקים. אם תפעיל מיקום (בSecure Camera) זה גם **לא** יימחק. אם ברצונך למחוק זאת מאוחר יותר, יהיה עליך להשתמש באפליקציה חיצונית כגון [ExifEraser](data-redaction.md#exiferaser).
+    המטא נתונים של כיוון התמונה לא נמחקים. אם תפעיל מיקום (בSecure Camera) זה גם **לא** יימחק. אם ברצונך למחוק זאת מאוחר יותר, יהיה עליך להשתמש באפליקציה חיצונית כגון [ExifEraser](data-redaction.md#exiferaser).
 
-### מציג PDF מאובטח
+### Secure PDF Viewer
 
 !!! recommendation
 
     ![Secure PDF Viewer לוגו](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
     ![Secure PDF Viewer לוגו](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
     
-    *Secure PDF Viewer** הוא מציג PDF המבוסס על [pdf.js](https://en.wikipedia.org/wiki/PDF.js) שאינו דורש הרשאות כלשהן. PDF מוזן לתוך [sandboxed](https://en.wikipedia.org/wiki/Sandbox_ (software_development)) [webview](https://developer.android.com/guide/webapps/webview). המשמעות היא שאין צורך באישור כדי לגשת ישירות לתוכן או לקבצים.
+    **Secure PDF Viewer** הוא מציג PDF המבוסס על [pdf.js](https://en.wikipedia.org/wiki/PDF.js) שאינו דורש הרשאות כלשהן. ה-PDF מוזן לתוך [ארגז חול](https://en.wikipedia.org/wiki/Sandbox_(software_development))[webview](https://developer.android.com/guide/webapps/webview). המשמעות היא שזה לא דורש הרשאה ישירה כדי לגשת לתוכן או לקבצים.
     
     [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) משמש כדי לאכוף שמאפייני JavaScript והעיצוב בתוך WebView הם תוכן סטטי לחלוטין.
     
-    [:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+    [:octicons-repo-16: מאגר](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="קוד מקור" }
+    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=לתרומה }
     
     ??? downloads "הורדות"
     
@@ -229,52 +232,52 @@ Auditor מבצע אימות וזיהוי חדירה על ידי:
 
 ### GrapheneOS App Store
 
-חנות האפליקציות של GrapheneOS זמינה ב - [GitHub](https://github.com/GrapheneOS/Apps/releases). הוא תומך אנדרואיד 12 ומעלה והוא מסוגל לעדכן את עצמו. חנות האפליקציות יש יישומים עצמאיים שנבנו על ידי פרויקט GrapheneOS כגון [מבקר](https://attestation.app/), [מצלמה](https://github.com/GrapheneOS/Camera), ו [PDF Viewer](https://github.com/GrapheneOS/PdfViewer). אם אתם מחפשים יישומים אלה, אנו ממליצים בחום כי אתה מקבל אותם מחנות האפליקציות של GrapheneOS במקום בחנות Play, כמו היישומים בחנות שלהם חתומים על ידי חתימת הפרויקט של GrapheneOS כי גוגל אין גישה.
+חנות האפליקציות של GrapheneOS זמינה ב-[GitHub](https://github.com/GrapheneOS/Apps/releases). הוא תומך באנדרואיד 12 ומעלה ומסוגל לעדכן את עצמו. לחנות האפליקציות יש יישומים עצמאיים שנבנו על ידי פרויקט GrapheneOS כגון [Auditor](https://attestation.app/), [Camera](https://github.com/GrapheneOS/Camera) ו-[PDF Viewer](https://github.com/GrapheneOS/PdfViewer). אם אתם מחפשים אפליקציות אלו, אנו ממליצים בחום להשיג אותן מחנות האפליקציות של GrapheneOS במקום מחנות Play, שכן האפליקציות בחנות שלהן חתומות על ידי חתימת הפרויקט של ה-GrapheneOS שלגוגל אין גישה אליה.
 
 ### Aurora Store
 
-'חנות Google Play' דורשת מחשבון Google להתחבר לחשבון שאינו מתאים לפרטיות. אתה יכול לעקוף את זה על ידי שימוש בקליינט חלופי, כגון חנות אורורה.
+חנות Google Play דורשת חשבון Google כדי להתחבר וזה לא נהדר לפרטיות. אתה יכול לעקוף את זה על ידי שימוש בלקוח חלופי, כגון Aurora Store.
 
 !!! recommendation
 
-    ![לוגו של חנות אורורה](assets/img/android/aurora-store.webp){ align=right }
+    ![Aurora Store לוגו](assets/img/android/aurora-store.webp){ align=right }
     
-    **חנות אורורה** היא לקוחה של חנות Google Play שאינה דורשת חשבון Google, שירותי Google Play או microG כדי להוריד יישומים.
+    **Aurora Store** היא לקוח של חנות Google Play שאינה דורשת חשבון Google, שירותי Google Play או microG כדי להוריד אפליקציות.
     
-    [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
+    [:octicons-home-16: דף הבית](https://auroraoss.com/){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="קוד מקור" }
     
     ??? downloads "הורדות"
     
         - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
-Aurora Store אינה מאפשרת לך להוריד אפליקציות בתשלום עם תכונת החשבון האנונימי שלהם. אתה יכול להיכנס עם חשבון Google שלך עם Aurora Store כדי להוריד אפליקציות שרכשת, מה שכן נותן גישה לרשימת האפליקציות שהתקנת ב-Google, אולם אתה עדיין נהנה מכך שאינך זקוק ללקוח Google Play המלא ולשירותי Google Play או microG במכשיר שלך.
+Aurora Store לא מאפשרת להוריד אפליקציות בתשלום עם תכונת החשבון האנונימי שלהן. אתה יכול לחלופין להתחבר עם חשבון Google שלך עם Aurora Store כדי להוריד אפליקציות שרכשת, מה שאכן נותן גישה לרשימת האפליקציות שהתקנת ל-Google, אולם אתה עדיין נהנה מכך שאינך דורש את לקוח Google Play המלא ואת Google Play שירותים או microG במכשיר שלך.
 
 ### התראות RSS באופן ידני
 
-עבור אפליקציות שמשוחררות בפלטפורמות כמו GitHub ו - GitLab, ייתכן שתוכל להוסיף הזנת RSS ל - [צובר החדשות שלך](/news-aggregators) שיעזור לך לעקוב אחר מהדורות חדשות.
+עבור אפליקציות ששוחררו בפלטפורמות כמו GitHub ו-GitLab, ייתכן שתוכל להוסיף עדכון RSS ל[צובר החדשות](/news-aggregators) שלך שיעזור לך לעקוב אחר מהדורות חדשות.
 
-![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![שינויים ב - APK](./assets/img/android/rss-changes-light.png#only-light) ![שינויים ב - APK](./assets/img/android/rss-changes-dark.png#only-dark)
+![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![שינויים ב-APK](./assets/img/android/rss-changes-light.png#only-light) ![שינויים ב-APK](./assets/img/android/rss-changes-dark.png#only-dark)
 
 #### Github
 
-ב GitHub, באמצעות [מצלמה מאובטחת](#secure-camera) כדוגמה, היית לנווט לדף [מהדורות](https://github.com/GrapheneOS/Camera/releases) ולצרף `.atom` לכתובת האתר:
+ב-GitHub, באמצעות [Secure Camera](#secure-camera) כדוגמה, תנווט אל [ שלה. דף מהדורות](https://github.com/GrapheneOS/Camera/releases) וצרף את `.atom` לכתובת האתר:
 
 `https://github.com/GrapheneOS/Camera/releases.atom`
 
 #### GitLab
 
-ב - GitLab, באמצעות [Aurora Store](#aurora-store) כדוגמה, היית מנווט למאגר [הפרויקטים שלה](https://gitlab.com/AuroraOSS/AuroraStore) ומוסיף `/-/ tags?format=atom` לכתובת האתר:
+ב-GitLab, באמצעות [Aurora Store](#aurora-store) כדוגמה, תנווט אל [מאגר הפרויקטים שלה ](https://gitlab.com/AuroraOSS/AuroraStore) והוסף את `/-/tags?format=atom` לכתובת האתר:
 
 `https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
-#### אימות טביעות אצבע APK
+#### אימות טביעות אצבע של APK
 
-אם אתה מוריד קבצי APK כדי להתקין באופן ידני, אתה יכול לאמת את החתימה שלהם עם [`apksigner`](https://developer.android.com/studio/command-line/apksigner) כלי, המהווה חלק אנדרואיד [לבנות כלים](https://developer.android.com/studio/releases/build-tools).
+אם אתה מוריד קבצי APK להתקנה ידנית, תוכל לאמת את החתימה שלהם באמצעות [`apksigner`](https://developer.android.com/studio/command-line/apksigner) כלי, שהוא חלק מ[כלי בנייה](https://developer.android.com/studio/releases/build-tools) של אנדרואיד.
 
 1. התקן [Java JDK](https://www.oracle.com/java/technologies/downloads/).
 
-2. הורד את [הכלים של שורת הפקודה של אולפן Android](https://developer. android. com/studio#command-tools).
+2. הורד את [כלי שורת הפקודה של אנדרואיד סטודיו](https://developer.android.com/studio#command-tools).
 
 3. חלץ את הארכיון שהורד:
 
@@ -290,7 +293,7 @@ Aurora Store אינה מאפשרת לך להוריד אפליקציות בתשל
     ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
     ```
 
-5. לאחר מכן ניתן להשוות את הhashes שנוצר למקור אחר. חלק מהמפתחים כגון Signal [מציגים את טביעות האצבע](https://signal.org/android/apk/) באתר שלהם.
+5. לאחר מכן ניתן להשוות את ה-hashes המתקבלים עם מקור אחר. מפתחים מסוימים כגון Signal [מראים את טביעות האצבע](https://signal.org/android/apk/) באתר האינטרנט שלהם.
 
     ```bash
     Signer #1 certificate DN: CN=GrapheneOS
@@ -301,48 +304,48 @@ Aurora Store אינה מאפשרת לך להוריד אפליקציות בתשל
 
 ### F-Droid
 
-![לוגו F - Droid](assets/img/android/f-droid.svg){ align=right width=120px }
+![לוגו F-Droid](assets/img/android/f-droid.svg){ align=right width=120px }
 
-== כיום אנו **לא** ממליצים על F-Droid כדרך להשגת אפליקציות. F-Droid מומלץ לעיתים קרובות כחלופה ל - Google Play, בעיקר בקהילת הפרטיות. האפשרות להוסיף מאגרים של צד שלישי ולא להיות מוגבל לגינה המוקפת חומה של Google הובילה לפופולריות שלה. F-Droid יש גם [גרסאות לשחזור](https://f-droid.org/en/docs/Reproducible_Builds/) עבור יישומים מסוימים והוא מוקדש תוכנה חופשית קוד פתוח. עם זאת, יש [בעיות בולטות](https://privsec.dev/posts/android/f-droid-security-issues/) עם הלקוח הרשמי F-Droid, בקרת האיכות שלהם, וכיצד הם בונים, לחתום, ולספק חבילות.
+==אנחנו **לא** ממליצים כרגע על F-Droid כדרך להשיג אפליקציות.== F-Droid מומלצת לעתים קרובות כחלופה ל-Google Play, במיוחד בפרטיות קהילה. האפשרות להוסיף מאגרי צד שלישי ולא להיות מוגבלים לגן המוקף חומה של גוגל הובילה לפופולריות שלו. ל-F-Droid יש בנוסף [בניינים הניתנים לשחזור](https://f-droid.org/en/docs/Reproducible_Builds/) עבור יישומים מסוימים והוא מוקדש לתוכנות חינמיות וקוד פתוח. עם זאת, יש [בעיות בולטות](https://privsec.dev/posts/android/f-droid-security-issues/) עם לקוח F-Droid הרשמי, בקרת האיכות שלו, כיצד הם בונים, חותמים ומספקים חבילות.
 
-בשל תהליך בניית האפליקציות שלהם, אפליקציות במאגר F - Droid הרשמי מפגרות לעתים קרובות אחרי עדכונים. מתחזקיF-Droid גם משתמשים מחדש במזהי חבילות בזמן שהם חותמים על אפליקציות עם המפתחות שלהם, וזה לא אידיאלי כי זה נותן אמון אולטימטיבי לצוות F-Droid.
+בשל תהליך בניית האפליקציות שלהם, אפליקציות במאגר ה-F-Droid הרשמי מפגרות לעתים קרובות בפיגור לגבי עדכונים. מנהלי F-Droid גם עושים שימוש חוזר במזהי חבילה בזמן חתימת אפליקציות עם המפתחות שלהם, וזה לא אידיאלי מכיוון שהוא נותן אמון אולטימטיבי לצוות F-Droid.
 
-מאגרי צד שלישי פופולריים אחרים כגון [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) מקלים על כמה חששות אלה. המאגר IzzyOnDroid מושך בונה ישירות מ - GitHub והוא הדבר הטוב הבא למאגרים של המפתחים עצמם. עם זאת, זה לא משהו שאנחנו יכולים להמליץ עליו, מכיוון שאפליקציות [בדרך כלל מוסרות](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) ממאגר הנשימה כאשר הן מגיעות למאגר F -droid הראשי. אמנם זה הגיוני (מכיוון שהמטרה של המאגר המסוים הזה היא לארח אפליקציות לפני שהן מתקבלות למאגר F-Droid הראשי), אבל זה יכול להשאיר אותך עם אפליקציות מותקנות שכבר לא מקבלות עדכונים.
+מאגרים פופולריים אחרים של צד שלישי כגון [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) מקלים על חלק מהחששות הללו. מאגר IzzyOnDroid מושך רכיבים ישירות מ-GitHub והוא הדבר הטוב הבא למאגרים של המפתחים עצמם. עם זאת, זה לא משהו שאנחנו יכולים להמליץ עליו, מכיוון שאפליקציות בדרך כלל [מסירים](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) מהמאגר הזה כאשר הם מגיעים למאגר F-droid הראשי. למרות שזה הגיוני (מכיוון שהמטרה של המאגר המסוים הזה היא לארח אפליקציות לפני שהן מתקבלות למאגר ה-F-Droid הראשי), זה יכול להשאיר אותך עם אפליקציות מותקנות שכבר לא מקבלים עדכונים.
 
-עם זאת, מאגרי [F-droid](https://f-droid.org/en/packages/) ו [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) הם ביתם של אינספור אפליקציות, כך שהם יכולים להיות כלי שימושי לחיפוש וגילוי אפליקציות קוד פתוח שתוכל להוריד דרך חנות Play, חנות אורורה, או על ידי קבלת ה- APK ישירות מהמפתח. חשוב לזכור שאפליקציות מסוימות במאגרים אלה לא עודכנו במשך שנים ועשויות להסתמך על ספריות שאינן נתמכות, בין היתר, ומהוות סיכון אבטחה פוטנציאלי. עליך להפעיל את שיקול דעתך הטוב ביותר כאשר אתה מחפש אפליקציות חדשות בשיטה זו.
+עם זאת, [F-droid](https://f-droid.org/en/packages/) ו-[IzzyOnDroid](https://apt.izzysoft.de/fdroid/) הם ביתם של אינספור אפליקציות, כך שהם יכולים להוות כלי שימושי לחיפוש ולגלות אפליקציות קוד פתוח שתוכל להוריד דרך חנות Play, Aurora Store, או על ידי קבלת ה-APK ישירות מה- מפתח. חשוב לזכור שחלק מהאפליקציות במאגרים אלו לא עודכנו במשך שנים ועשויות להסתמך על ספריות שאינן נתמכות, בין היתר, מהוות סיכון אבטחה פוטנציאלי. אתה צריך להשתמש במיטב שיקול הדעת שלך כשאתה מחפש אפליקציות חדשות בשיטה זו.
 
 !!! note "הערה"
 
-    במקרים נדירים, מפתח אפליקציה יפיץ אותה רק באמצעות F-droid ([Gadgetbridge](https://gadgetbridge.org/) הוא דוגמה אחת לכך). אם אתה באמת זקוק לאפליקציה כזו, מומלץ להשתמש ב - [ Neo Store]( https://github.com/NeoApplications/NeoStore/) במקום באפליקציית F -Droid הרשמית כדי להשיג אותה.
+    במקרים נדירים מסוימים, מפתח אפליקציה יפיץ אותה רק באמצעות F-droid ([Gadgetbridge](https://gadgetbridge.org/) היא דוגמה אחת לכך). אם אתה באמת צריך אפליקציה כזו, אנו ממליצים להשתמש ב-[Neo Store](https://github.com/NeoApplications/Neo-Store/) במקום באפליקציית F-droid הרשמית כדי להשיג אותה.
 
 ## קריטריונים
 
-**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף [לקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+**שימו לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל[קריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו מערכת ברורה של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
 !!! example "חלק זה הוא חדש"
 
-    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו]( https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו בעת ביצוע ההמלצות שלנו אם זה לא מופיע כאן. ישנם גורמים רבים שנשקלים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+    אנו עובדים על קביעת קריטריונים מוגדרים עבור כל חלק באתר שלנו, וזה עשוי להיות נתון לשינויים. אם יש לך שאלות לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו בעת מתן ההמלצות שלנו אם זה לא מופיע כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
 
 ### מערכות הפעלה
 
 - חייבת להיות תוכנת קוד פתוח.
-- חייב לתמוך נעילת bootloader עם תמיכת מפתח AVB מותאמת אישית.
-- יש לקבל עדכונים לאנדרואיד בתוך 0 -1 חודשים מיום השקתו.
-- חייב לקבל עדכוני תכונות אנדרואיד (גרסה משנית) בתוך 0 -14 ימים מיום השחרור.
-- חייב לקבל תיקוני אבטחה רגילים בתוך 0 -5 ימים מיום השחרור.
-- חייב **לא** להיות "מושרש" מחוץ לקופסה.
-- חייב **לא** לאפשר שירותי Google Play כברירת מחדל.
-- חייב **שלא** ידורש שינוי מערכת כדי לתמוך בשירותי Google Play.
+- חייב לתמוך בנעילת bootloader עם תמיכת מפתח AVB מותאמת אישית.
+- חייב לקבל עדכוני אנדרואיד גדולים בתוך 0-1 חודשים מהשחרור.
+- חייב לקבל עדכוני תכונות אנדרואיד (גרסה מינורית) בתוך 0-14 ימים מהשחרור.
+- חייב לקבל תיקוני אבטחה רגילים בתוך 0-5 ימים מהשחרור.
+- חייבים **לא** להיות "rooted" מהקופסה.
+- חייב **לא** להפעיל את שירותי Google Play כברירת מחדל.
+- חייב **לא** לדרוש שינוי מערכת כדי לתמוך בשירותי Google Play.
 
 ### מכשירים
 
-- חייב לתמוך לפחות באחת ממערכות ההפעלה המותאמות אישית המומלצות שלנו.
-- חייב שיהיה מלאי חדש בחנויות.
-- חייב לקבל מינימום של 5 שנים של עדכוני אבטחה.
-- חייב להיות בעל חומרת אלמנט מאובטחת ייעודית.
+- חייב לתמוך לפחות באחת ממערכות ההפעלה המומלצות שלנו.
+- חייב להימכר כרגע חדש בחנויות.
+- חייב לקבל לפחות 5 שנים של עדכוני אבטחה.
+- חייבת להיות חומרה ייעודית לרכיב מאובטח.
 
 ### יישומים
 
-- יישומים בדף זה אינם חלים על כל קטגוריית תוכנה אחרת באתר.
-- יישומים כלליים צריכים להרחיב או להחליף את הפונקציונליות של מערכת הליבה.
-- יישומים צריכים לקבל עדכונים שוטפים ותחזוקה.
+- יישומים בדף זה לא חייבים להיות ישימים לכל קטגוריית תוכנה אחרת באתר.
+- יישומים כלליים צריכים להרחיב או להחליף את פונקציונליות הליבה של המערכת.
+- יישומים צריכים לקבל עדכונים ותחזוקה שוטפים.

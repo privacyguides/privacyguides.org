@@ -90,9 +90,9 @@ If you commit to `main` with commits signed with your SSH key, you should add yo
 
 ## Releasing
 
-1. Create a new tag: `git tag -s v2.X.X -m 'Some message'`
+1. Create a new tag: `git tag -s v3.X.X -m 'Some message'`
     - [View existing tags](https://github.com/privacyguides/privacyguides.org/tags)
-    - Tag [numbering](https://semver.org/): Increment the MINOR (2nd) number when making significant changes (adding/deleting pages, etc.), increment the PATCH (3rd) number when making minor changes (typos, bug fixes). Probably leave the MAJOR number at 2 until a massive revamp (v1 -> v2 was the Jekyll to MkDocs transition).
+    - Tag [numbering](https://semver.org/): Increment the MINOR (2nd) number when making significant changes (adding/deleting pages, etc.), increment the PATCH (3rd) number when making minor changes (typos, bug fixes). Probably leave the MAJOR number at 3 until a massive revamp (v1 -> v2 was the Jekyll to MkDocs transition, v2 -> v3 was the introduction of translations).
     - Consider enabling GPG tag signing by default (`git config tag.gpgSign true`) to avoid missing signatures
 2. Push the tag to GitHub: `git push --tags`
 3. A GitHub Release will be automatically created and deployed to the live site.

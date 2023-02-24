@@ -25,10 +25,9 @@ Wachtwoorden die je moet onthouden (zoals het hoofdwachtwoord van jouw wachtwoor
 
 Als het gaat om wachtwoorden die je niet hoeft te onthouden (zoals wachtwoorden die zijn opgeslagen in jouw wachtwoordmanager), adviseren wij, als jouw [dreigingsmodel](threat-modeling.md) daarom vraagt, belangrijke accounts door te nemen (vooral accounts die geen multi-factor authenticatie gebruiken) en hun wachtwoord om de paar maanden te wijzigen, voor het geval ze zijn gecompromitteerd in een datalek dat nog niet openbaar is geworden. Bij de meeste wachtwoordbeheerders kunt u een vervaldatum voor uw wachtwoord instellen om dit gemakkelijker te beheren.
 
-!!! Tip "Controleren op datalekken"
+!!! tip "Controleren op datalekken"
 
     Als je met jouw wachtwoord manager kunt controleren op gecompromitteerde wachtwoorden, doe dat dan en wijzig onmiddellijk alle wachtwoorden die bij een datalek bekend zijn geworden. Je kunt ook de [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) volgen met behulp van een [nieuwsaggregator](../news-aggregators.md).
-
 
 ## Sterke wachtwoorden maken
 
@@ -48,7 +47,7 @@ Een voorbeeld van een diceware wachtwoord zin is:  `zichtbaar snelheid hond teru
 
 Volg deze stappen om een diceware passphrase te genereren met echte dobbelstenen:
 
-!!! Note
+!!! note
 
     Deze instructies gaan ervan uit dat je [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) gebruikt om de wachtwoord zin te genereren, waarvoor vijf dobbelsteenworpen per woord nodig zijn. Andere woordenlijsten kunnen meer of minder rollen per woord vereisen, en kunnen een ander aantal woorden nodig hebben om dezelfde entropie te bereiken.
 
@@ -60,7 +59,7 @@ Volg deze stappen om een diceware passphrase te genereren met echte dobbelstenen
 
 4. Herhaal dit proces totdat uw wachtwoord zoveel woorden bevat als u nodig hebt, die u moet scheiden met een spatie.
 
-!!! Warning "Belangrijk"
+!!! warning "Belangrijk"
 
     Je moet **niet** opnieuw woorden rollen totdat je een combinatie van woorden krijgt die je aanspreekt. Het proces moet volledig willekeurig zijn.
 
@@ -68,7 +67,7 @@ Als je geen toegang hebt tot of liever geen echte dobbelstenen gebruikt, kunt je
 
 Wij adviseren het gebruik van [EFF's grote woordenlijst](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) om jouw diceware wachtwoord zinnen te genereren, omdat het exact dezelfde veiligheid biedt als de originele lijst, terwijl het woorden bevat die gemakkelijker te onthouden zijn. Er zijn ook andere woordenlijsten in verschillende talen, als u niet wilt dat uw wachtwoord in het Engels is.
 
-??? Note "Uitleg van entropie en sterkte van diceware wachtwoord zinnen"
+??? note "Uitleg van entropie en sterkte van diceware wachtwoord zinnen"
 
     Om aan te tonen hoe sterk diceware wachtwoord zin zijn, gebruiken we de eerder genoemde wachtwoord zin van zeven woorden (`kijkbaar snel terughoudend hond zeventien getoond potlood`) en [EFF's grote woordenlijst](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) als voorbeeld.
     
@@ -98,7 +97,7 @@ Er zijn veel goede opties om uit te kiezen, zowel cloud-gebaseerd als lokaal. Ki
 
 [Lijst van aanbevolen wachtwoordbeheerders](../passwords.md ""){.md-button}
 
-!!! Warning "Plaats uw wachtwoorden en TOTP-tokens niet in dezelfde wachtwoordmanager"
+!!! warning "Plaats uw wachtwoorden en TOTP-tokens niet in dezelfde wachtwoordmanager"
 
     Wanneer u TOTP-codes gebruikt als [multi-factor authenticatie](../multi-factor-authentication.md), is de beste beveiligingspraktijk om uw TOTP-codes in een [aparte app] te bewaren(../multi-factor-authentication.md#authenticator-apps).
     

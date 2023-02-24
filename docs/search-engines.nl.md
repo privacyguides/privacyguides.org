@@ -11,7 +11,7 @@ Overweeg het gebruik van een [VPN](vpn.md) of [Tor](https://www.torproject.org/)
 
 ## Brave Search
 
-!!! aanbeveling
+!!! recommendation
 
     ![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
     
@@ -22,7 +22,7 @@ Overweeg het gebruik van een [VPN](vpn.md) of [Tor](https://www.torproject.org/)
     Wij raden je aan [Anonymous usage metrics](https://search.brave.com/help/usage-metrics) uit te schakelen, aangezien deze standaard is ingeschakeld en kan worden uitgeschakeld in de instellingen.
     
     [:octicons-home-16: Homepage](https://search.brave.com/){ .md-button .md-button--primary }
-    [:pg-tor:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title=Onion }
+    [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion" }
     [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacybeleid" }
     [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentatie}
 
@@ -30,16 +30,16 @@ Brave Search is gevestigd in de Verenigde Staten. In hun [privacybeleid](https:/
 
 ## DuckDuckGo
 
-!!! aanbeveling
+!!! recommendation
 
-    DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
+    ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
     
     **DuckDuckGo** is een van de meer mainstream privé zoekmachine opties. Opmerkelijke DuckDuckGo-zoekfuncties zijn [bangs](https://duckduckgo.com/bang) en vele [instant antwoorden] (https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). De zoekmachine maakt gebruik van een commerciële Bing API voor de meeste resultaten, maar gebruikt ook talrijke [andere bronnen](https://help.duckduckgo.com/results/sources/) voor directe antwoorden en andere niet-primaire resultaten.
     
     DuckDuckGo is de standaard zoekmachine voor de Tor Browser en is één van de weinige beschikbare opties op Apple's Safari browser.
     
     [:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
-    [:pg-tor:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title=Onion }
+    [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion" }
     [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacybeleid" }
     [:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=Documentatie}
 
@@ -49,7 +49,7 @@ DuckDuckGo biedt twee [andere versies](https://help.duckduckgo.com/features/non-
 
 ## SearXNG
 
-!!! aanbeveling
+!!! recommendation
 
     ![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
     
@@ -65,14 +65,14 @@ Bij zelf-hosting is het belangrijk dat er ook andere mensen gebruik maken van jo
 
 Wanneer je een SearXNG-instantie gebruikt, moet je zeker hun privacybeleid lezen. Aangezien SearXNG-instanties door hun eigenaars kunnen worden gewijzigd, weerspiegelen zij niet noodzakelijk hun privacybeleid. Sommige instanties draaien als een verborgen Tor-service, die enige privacy kan bieden zolang jouw zoekopdrachten geen PII bevatten.
 
-## Startpagina
+## Startpage
 
-!!! aanbeveling
+!!! recommendation
 
-    ![Startpagina-logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
+    ![Startpage-logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
     ![Startpage-logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
     
-    **Startpage** is een private zoekmachine die bekend staat om haar Google zoekresultaten.  Eén van Startpage's unieke eigenschappen is de [Anonymous View](https://www.startpage.com/en/anonymous-view/), die inspanningen levert om gebruikersactiviteit te standaardiseren zodat het moeilijker is om uniek geïdentificeerd te worden. De functie kan nuttig zijn voor het verbergen van [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) netwerk- en browsereigenschappen. In tegenstelling tot wat de naam suggereert, mag deze functie niet worden gebruikt voor anonimiteit. Als u op zoek bent naar anonimiteit, gebruik dan de [Tor Browser](browsers.md#tor-browser).
+    **Startpage** is een private zoekmachine die bekend staat om haar Google zoekresultaten.  Eén van Startpage's unieke eigenschappen is de [Anonymous View](https://www.startpage.com/en/anonymous-view/), die inspanningen levert om gebruikersactiviteit te standaardiseren zodat het moeilijker is om uniek geïdentificeerd te worden. De functie kan nuttig zijn voor het verbergen van [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) netwerk- en browsereigenschappen. In tegenstelling tot wat de naam suggereert, mag deze functie niet worden gebruikt voor anonimiteit. Als u op zoek bent naar anonimiteit, gebruik dan de [Tor Browser](tor.md#tor-browser).
     
     [:octicons-home-16: Homepage](https://www.startpage.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Privacybeleid" }
