@@ -59,7 +59,6 @@ watch:
 plugins:
   i18n:
     default_language: en
-    default_language_only: true
     material_alternate: true
     languages:
       en:
@@ -67,10 +66,10 @@ plugins:
         build: true
       he:
         name: עִברִית
-        build: false
+        build: true
       fr:
-        name: French
-        build: false
+        name: Français
+        build: true
       bn:
         name: bn
         build: false
@@ -84,8 +83,8 @@ plugins:
         name: it
         build: false
       nl:
-        name: Dutch
-        build: false
+        name: Nederlands
+        build: true
       pt:
         name: pt
         build: false
@@ -95,6 +94,52 @@ plugins:
       zh:
         name: zh
         build: false
+    nav_translations:
+      he:
+        'Home': 'HEHome'
+        'Knowledge Base': 'HEKnowledge Base'
+        'Technology Essentials': 'HETechnology Essentials'
+        'Operating Systems': 'HEOperating Systems'
+        'Advanced Topics': 'HEAdvanced Topics'
+        'Recommendations': 'HERecommendations'
+        'Internet Browsing': 'HEInternet Browsing'
+        'Operating Systems': 'HEOperating Systems'
+        'Providers': 'HEProviders'
+        'Software': 'HESoftware'
+        'About': 'HEAbout'
+        'Changelog': 'HEChangelog'
+        'Forum': 'HEForum'
+        'Blog': 'HEBlog'
+      fr:
+        'Home': 'FRHome'
+        'Knowledge Base': 'FRKnowledge Base'
+        'Technology Essentials': 'FRTechnology Essentials'
+        'Operating Systems': 'FROperating Systems'
+        'Advanced Topics': 'FRAdvanced Topics'
+        'Recommendations': 'FRRecommendations'
+        'Internet Browsing': 'FRInternet Browsing'
+        'Operating Systems': 'FROperating Systems'
+        'Providers': 'FRProviders'
+        'Software': 'FRSoftware'
+        'About': 'FRAbout'
+        'Changelog': 'FRChangelog'
+        'Forum': 'FRForum'
+        'Blog': 'FRBlog'
+      nl:
+        'Home': 'NLHome'
+        'Knowledge Base': 'NLKnowledge Base'
+        'Technology Essentials': 'NLTechnology Essentials'
+        'Operating Systems': 'NLOperating Systems'
+        'Advanced Topics': 'NLAdvanced Topics'
+        'Recommendations': 'NLRecommendations'
+        'Internet Browsing': 'NLInternet Browsing'
+        'Operating Systems': 'NLOperating Systems'
+        'Providers': 'NLProviders'
+        'Software': 'NLSoftware'
+        'About': 'NLAbout'
+        'Changelog': 'NLChangelog'
+        'Forum': 'NLForum'
+        'Blog': 'NLBlog'
   tags: {}
   search: {}
   macros: {}

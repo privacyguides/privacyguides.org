@@ -18,7 +18,6 @@ jobs:
       uses: crowdin/github-action@v1.7.0
       with:
         upload_sources: false
-        upload_sources_args: '--auto-update --delete-obsolete'
         upload_translations: false
         download_translations: true
         localization_branch_name: crowdin/l10n_translations
