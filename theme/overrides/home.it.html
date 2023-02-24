@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block extrahead %}
+  <link rel="preload" href="{{ 'assets/brand/WOFF/bagnard/Bagnard.woff' | url }}" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=2.10.0' | url }}">
+{% endblock %}
+{% block tabs %}
+  {{ super() }}
+  <style>.md-content > .md-typeset h1{visibility:hidden;font-size:0;}.md-button{margin-top:.5rem;}</style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__content">
+          <h1>La guida per ripristinare la tua privacy online.</h1>
+          <p>Le grandi organizzazioni stanno monitorando le tue attività online. Privacy Guides è la risorsa centrale per la privacy e la sicurezza per proteggersi online.</p>
+          <a href="kb/" title="Il primo passo del tuo viaggio sulla privacy" class="md-button md-button--primary">
+            Inizia il tuo viaggio sulla privacy
+          </a>
+          <a href="tools/" title="Strumenti per la privacy, servizi e conoscenze consigliati" class="md-button">
+            Strumenti consigliati
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
