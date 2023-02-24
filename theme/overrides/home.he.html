@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block extrahead %}
+  <link rel="preload" href="{{ 'assets/brand/WOFF/bagnard/Bagnard.woff' | url }}" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=2.10.0' | url }}">
+{% endblock %}
+{% block tabs %}
+  {{ super() }}
+  <style>.md-content > .md-typeset h1{visibility:hidden;font-size:0;}.md-button{margin-top:.5rem;}</style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__content">
+          <h1>המדריך לשחזור הפרטיות המקוונת שלך.</h1>
+          <p>ארגונים גדולים עוקבים אחר הפעילות שלכם באינטרנט. Privacy Guides (מדריכי פרטיות) הם משאב הפרטיות והאבטחה המרכזי שלכם כדי להגן על עצמכם באופן מקוון.</p>
+          <a href="kb/" title="השלב הראשון במסע הפרטיות שלך" class="md-button md-button--primary">
+            התחל את מסע הפרטיות שלך
+          </a>
+          <a href="tools/" title="כלי פרטיות מומלצים, שירותים וידע" class="md-button">
+            כלים מומלצים
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

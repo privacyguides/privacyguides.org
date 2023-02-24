@@ -64,6 +64,36 @@ plugins:
     languages:
       en:
         name: English
+        build: true
+      he:
+        name: עִברִית
+        build: false
+      fr:
+        name: French
+        build: false
+      bn:
+        name: bn
+        build: false
+      es:
+        name: es
+        build: false
+      hu:
+        name: hu
+        build: false
+      it:
+        name: it
+        build: false
+      nl:
+        name: Dutch
+        build: false
+      pt:
+        name: pt
+        build: false
+      ru:
+        name: ru
+        build: false
+      zh:
+        name: zh
         build: false
   tags: {}
   search: {}
