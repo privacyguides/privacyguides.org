@@ -1,0 +1,35 @@
+name: 💬 Crowdin Download
+
+on:
+  workflow_dispatch:
+  release:
+    types: [ published ]
+
+permissions: write-all
+
+jobs:
+  synchronize-with-crowdin:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: crowdin action
+      uses: crowdin/github-action@v1.7.0
+      with:
+        upload_sources: false
+        upload_sources_args: '--auto-update --delete-obsolete'
+        upload_translations: false
+        download_translations: true
+        localization_branch_name: crowdin/l10n_translations
+        create_pull_request: true
+        pull_request_title: 'New Crowdin Translations'
+        pull_request_body: 'New Crowdin translations by [Crowdin GitHub Action](https://github.com/crowdin/github-action)'
+        pull_request_base_branch_name: 'main'
+        config: crowdin.yml
+      env:
+        GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
+        CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+        CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}

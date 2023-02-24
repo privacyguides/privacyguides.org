@@ -2,8 +2,12 @@ name: 💬 Crowdin Upload
 
 on:
   workflow_dispatch:
-  release:
-    types: [published]
+  push:
+    branches: [ main ]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   synchronize-with-crowdin:

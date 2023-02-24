@@ -3,16 +3,16 @@ api_token_env: CROWDIN_PERSONAL_TOKEN
 "preserve_hierarchy": true
 files:
 - source: "/docs/**/*.en.*"
-  translation: "/docs/**/%file_name%.%locale_with_underscore%.%file_extension%"
+  translation: "/docs/**/%file_name%.%two_letters_code%.%file_extension%"
   translation_replace:
     "en.": ""
   update_option: update_as_unapproved
 - source: "/theme/overrides/*.en.html"
-  translation: "/theme/overrides/%file_name%.%locale_with_underscore%.html"
+  translation: "/theme/overrides/%file_name%.%two_letters_code%.html"
   translation_replace:
     "en.": ""
 - source: "/includes/*.en.md"
-  translation: "/includes/%file_name%.%locale_with_underscore%.md"
+  translation: "/includes/%file_name%.%two_letters_code%.md"
   translation_replace:
     "en.": ""
   update_option: update_as_unapproved
