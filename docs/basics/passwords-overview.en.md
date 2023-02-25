@@ -25,10 +25,9 @@ You should avoid changing passwords that you have to remember (such as your pass
 
 When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multi-factor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
 
-!!! Tip "Checking for data breaches"
+!!! tip "Checking for data breaches"
 
     If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach. Alternatively, you could follow [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) with the help of a [news aggregator](../news-aggregators.md).
-
 
 ## Creating strong passwords
 
@@ -48,7 +47,7 @@ An example of a diceware passphrase is `viewable fastness reluctant squishy seve
 
 To generate a diceware passphrase using real dice, follow these steps:
 
-!!! Note
+!!! note
 
     These instructions assume that you are using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other wordlists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
 
@@ -60,7 +59,7 @@ To generate a diceware passphrase using real dice, follow these steps:
 
 4. Repeat this process until your passphrase has as many words as you need, which you should separate with a space.
 
-!!! Warning "Important"
+!!! warning "Important"
 
     You should **not** re-roll words until you get a combination of words that appeal to you. The process should be completely random.
 
@@ -68,7 +67,7 @@ If you don't have access to or would prefer to not use real dice, you can use yo
 
 We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also other wordlists in different languages, if you do not want your passphrase to be in English.
 
-??? Note "Explanation of entropy and strength of diceware passphrases"
+??? note "Explanation of entropy and strength of diceware passphrases"
 
     To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
@@ -98,7 +97,7 @@ There are many good options to choose from, both cloud-based and local. Choose o
 
 [List of recommended password managers](../passwords.md){ .md-button }
 
-!!! Warning "Don't place your passwords and TOTP tokens inside the same password manager"
+!!! warning "Don't place your passwords and TOTP tokens inside the same password manager"
 
     When using TOTP codes as [multi-factor authentication](../multi-factor-authentication.md), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md#authenticator-apps).
 

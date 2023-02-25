@@ -63,6 +63,7 @@
 *[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
 *[P2P]: Peer-to-Peer
 *[PAM]: Linux Pluggable Authentication Modules
+*[POP3]: Post Office Protocol 3
 *[PGP]: Pretty Good Privacy (see OpenPGP)
 *[PII]: Personally Identifiable Information
 *[QNAME]: Qualified Name
