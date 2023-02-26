@@ -8,7 +8,7 @@ Privacy Guides is a community project operated by a number of active volunteer c
 The privacy of our website visitors is important to us, so we do not track any individual people. As a visitor to our website:
 
 - No personal information is collected
-- No information such as cookies is stored in the browser
+- No information such as cookies are stored in the browser
 - No information is shared with, sent to or sold to third-parties
 - No information is shared with advertising companies
 - No information is mined and harvested for personal and behavioral trends

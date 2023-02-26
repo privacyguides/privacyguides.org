@@ -102,7 +102,7 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
 
 !!! warning
 
-    These messengers do not have Perfect [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) (PFS), and while they fulfill certain use-cases that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. Any key compromise among message recipients would affect the confidentiality of **all** past communications.
+    These messengers do not have Perfect [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) (PFS), and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. Any key compromise among message recipients would affect the confidentiality of **all** past communications.
 
 ### Element
 

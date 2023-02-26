@@ -129,7 +129,7 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
-In general, we define office suites as applications which could reasonably act as a replacement for Microsoft Word for most use-cases.
+In general, we define office suites as applications which could reasonably act as a replacement for Microsoft Word for most needs.
 
 - Must be cross-platform.
 - Must be open-source.

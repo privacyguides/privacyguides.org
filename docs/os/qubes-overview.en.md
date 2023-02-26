@@ -18,7 +18,7 @@ Each Qubes application has a [colored border](https://www.qubes-os.org/screensho
 
 ## Why Should I use Qubes?
 
-Qubes OS is useful if your [threat model](../basics/threat-modeling.md) requires strong compartmentalization and security, such as if you think you'll be opening untrusted files from untrusted sources. A typical use-case for Qubes OS is for opening documents from an unknown source.
+Qubes OS is useful if your [threat model](../basics/threat-modeling.md) requires strong compartmentalization and security, such as if you think you'll be opening untrusted files from untrusted sources. A typical reason for using Qubes OS is to open documents from unknown sources.
 
 Qubes OS utilizes [Dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM (i.e., an "AdminVM") for controlling other guest VMs or Qubes on the host OS. Other VMs display individual application windows within Dom0's desktop environment. It allows you to color code windows based on trust levels and run apps that can interact with each other with very granular control.
 

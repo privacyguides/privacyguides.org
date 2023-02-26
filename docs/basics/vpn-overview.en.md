@@ -59,7 +59,7 @@ A VPN may still be useful to you in a variety of scenarios, such as:
 1. Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.
 1. Hiding your IP from third-party websites and services, preventing IP based tracking.
 
-For use cases like these, or if you have another compelling reason, the VPN providers we listed above are who we think are the most trustworthy. However, using a VPN provider still means you're *trusting* the provider. In pretty much any other scenario you should be using a secure**-by-design** tool such as Tor.
+For situations like these, or if you have another compelling reason, the VPN providers we listed above are who we think are the most trustworthy. However, using a VPN provider still means you're *trusting* the provider. In pretty much any other scenario you should be using a secure**-by-design** tool such as Tor.
 
 ## Sources and Further Reading
 
