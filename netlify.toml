@@ -248,3 +248,23 @@
 [[redirects]]
     from = "/linux-desktop"
     to = "/desktop/"
+
+[[redirects]]
+    from = "/fr/*"
+    to = "/fr/404/index.html"
+    status = 404
+
+[[redirects]]
+    from = "/he/*"
+    to = "/he/404/index.html"
+    status = 404
+
+[[redirects]]
+    from = "/nl/*"
+    to = "/nl/404/index.html"
+    status = 404
+
+[[redirects]]
+    from = "/*"
+    to = "/404/index.html"
+    status = 404

@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  PYTHON_VERSION: 3.x
+  PYTHON_VERSION: 3.8
 
 jobs:
   build:
@@ -34,7 +34,7 @@ jobs:
       - name: Python setup
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.8'
       
       - name: Cache files
         uses: actions/cache@v3.2.6
