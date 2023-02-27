@@ -26,16 +26,16 @@ extra:
     provider: plausible
     property: privacyguides.org
     feedback:
-      title: Was this page helpful?
+      title: feedback.title
       ratings:
         - icon: material/robot-happy-outline
-          name: This page was helpful
+          name: feedback.helpful.name
           data: Helpful
-          note: Thanks for your feedback!
+          note: feedback.helpful.note
         - icon: material/robot-confused
-          name: This page could be improved
+          name: feedback.improve.name
           data: Needs Improvement
-          note: Thanks for your feedback! Help us improve this page by opening a <a href="https://discuss.privacyguides.net/">discussion on our forum</a>.
+          note: feedback.improve.note
 
 theme:
   features:
@@ -51,19 +51,19 @@ theme:
       accent: deep purple
       toggle:
         icon: material/brightness-auto
-        name: Switch to light mode
+        name: theme.light
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       accent: amber
       toggle:
         icon: material/brightness-2
-        name: Switch to system theme
+        name: theme.auto
     - media: "(prefers-color-scheme: light)"
       scheme: default
       accent: deep purple
       toggle:
         icon: material/brightness-5
-        name: Switch to dark mode
+        name: theme.dark
 
 watch:
   - theme
