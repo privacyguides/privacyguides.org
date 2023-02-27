@@ -33,6 +33,6 @@ Access may be granted upon request to Privacy Guides team members, Matrix modera
 ## Invidious
 
 - Domain: [invidious.privacyguides.net](https://invidious.privacyguides.net)
-- Availability: Semi-Public
+- Availability: Semi-Public  
 We host Invidious primarily to serve embedded YouTube videos on our website, this instance is not intended for general-purpose use and may be limited at any time.
 - Source: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)
