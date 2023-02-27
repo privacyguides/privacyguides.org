@@ -5,6 +5,8 @@ on:
   release:
     types: [ published ]
 
+permissions: write-all
+
 jobs:
   synchronize-with-crowdin:
     runs-on: ubuntu-latest
