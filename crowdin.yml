@@ -12,8 +12,8 @@ files:
   translation_replace:
     "en.": ""
   skip_untranslated_files: true
-- source: "/includes/*.en.md"
-  translation: "/includes/%file_name%.%two_letters_code%.md"
+- source: "/includes/*.en.*"
+  translation: "/includes/%file_name%.%two_letters_code%.%file_extension%"
   translation_replace:
     "en.": ""
   skip_untranslated_files: true

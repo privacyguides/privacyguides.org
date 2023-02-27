@@ -33,5 +33,6 @@
 ## Invidious
 
 - דומיין: [invidious.privacyguides.net](https://invidious.privacyguides.net)
-- זמינות: חצי ציבורי אנו מארחים את Invidious בעיקר כדי להגיש סרטוני YouTube משובצים באתר האינטרנט שלנו, מופע זה אינו מיועד לשימוש כללי ועשוי להיות מוגבל בכל עת.
+- זמינות: חצי ציבורי  
+  אנו מארחים את Invidious בעיקר כדי להגיש סרטוני YouTube משובצים באתר האינטרנט שלנו, מופע זה אינו מיועד לשימוש כללי ועשוי להיות מוגבל בכל עת.
 - מקור: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)

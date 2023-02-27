@@ -3,8 +3,6 @@ site_url: "https://www.privacyguides.org/"
 site_dir: 'site'
 
 site_name: Privacy Guides
-site_description: |
-  Privacy Guides is your central privacy and security resource to protect yourself online.
 
 extra:
   social:
@@ -162,7 +160,7 @@ markdown_extensions:
   pymdownx.tilde: {}
   pymdownx.snippets:
     auto_append:
-      - includes/abbreviations.en.md
+      - includes/abbreviations.en.txt
   pymdownx.tasklist:
     custom_checkbox: true
   attr_list: {}
