@@ -115,7 +115,7 @@ Un [agrégateur d'actualités](https://en.wikipedia.org/wiki/News_aggregator) es
 
     ![Logo Newsboat](assets/img/news-aggregators/newsboat.svg){ align=right }
     
-    **Newsboat** est un lecteur de flux RSS/Atom pour les consoles texte. C'est un fork activement maintenu de [Newsbeuter](https://fr.wikipedia.org/wiki/Newsbeuter). Il est très léger et idéal pour une utilisation via [Secure Shell] (https://fr.wikipedia.org/wiki/Secure_Shell).
+    **Newsboat** est un lecteur de flux RSS/Atom pour les consoles texte. C'est un fork activement maintenu de [Newsbeuter](https://fr.wikipedia.org/wiki/Newsbeuter). Il est très léger et idéal pour une utilisation via [Secure Shell](https://fr.wikipedia.org/wiki/Secure_Shell).
     
     [:octicons-home-16: Page d'accueil](https://newsboat.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://newsboat.org/releases/2.27/docs/newsboat.html){ .card-link title=Documentation}
@@ -129,7 +129,7 @@ Un [agrégateur d'actualités](https://en.wikipedia.org/wiki/News_aggregator) es
 
     Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum](https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
 
-- Doivent être open-source.
+- Doit être un logiciel open source.
 - Doit fonctionner localement, c'est-à-dire qu'il ne doit pas s'agir d'un service cloud.
 
 ## Support RSS pour les médias sociaux
@@ -165,7 +165,7 @@ Vous pouvez vous abonner aux chaînes YouTube sans vous connecter et sans associ
 
 !!! example "Exemple"
 
-    Pour s'abonner à une chaîne YouTube avec un client RSS, cherchez d'abord votre [code de chaîne] (https://support.google.com/youtube/answer/6180214), remplacez `[CHANNEL ID]` ci-dessous :
+    Pour s'abonner à une chaîne YouTube avec un client RSS, cherchez d'abord votre [code de chaîne](https://support.google.com/youtube/answer/6180214), remplacez `[CHANNEL ID]` ci-dessous :
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
     ```

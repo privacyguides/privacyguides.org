@@ -3,47 +3,47 @@ title: VPN-overzicht
 icon: material/vpn
 ---
 
-Virtual Private Networks zijn een manier om het einde van uw netwerk uit te breiden tot een uitgang ergens anders in de wereld. Een ISP kan de stroom van internetverkeer zien dat uw netwerkaansluitapparaat (d.w.z. modem) binnenkomt en verlaat.
+Virtual Private Networks zijn een manier om het einde van jouw netwerk uit te breiden tot een uitgang ergens anders in de wereld. Een ISP kan de stroom van internetverkeer zien dat jouw netwerkaansluitapparaat (d.w.z. modem) binnenkomt en verlaat.
 
-Encryptieprotocollen zoals HTTPS worden algemeen gebruikt op het internet, zodat zij misschien niet precies kunnen zien wat u post of leest, maar zij kunnen wel een idee krijgen van de [domeinen die u opvraagt](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Encryptieprotocollen zoals HTTPS worden algemeen gebruikt op het internet, zodat zij misschien niet precies kunnen zien wat je post of leest, maar zij kunnen wel een idee krijgen van de [domeinen die je opvraagt](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
 Een VPN kan helpen omdat het vertrouwen kan verschuiven naar een server ergens anders in de wereld. Het resultaat is dat de ISP dan alleen ziet dat je verbonden bent met een VPN en niets over de activiteit die je erin doorgeeft.
 
 ## Moet ik een VPN gebruiken?
 
-**Ja**, tenzij je Tor al gebruikt. Een VPN doet twee dingen: het verschuift de risico's van uw Internet Service Provider naar zichzelf en het verbergt uw IP voor een dienst van derden.
+**Ja**, tenzij je Tor al gebruikt. Een VPN doet twee dingen: het verschuift de risico's van jouw Internet Service Provider naar zichzelf en het verbergt jouw IP voor een dienst van derden.
 
-VPN's kunnen geen gegevens versleutelen buiten de verbinding tussen uw toestel en de VPN-server. VPN providers kunnen uw verkeer zien en wijzigen op dezelfde manier als uw ISP dat kan. En er is geen enkele manier om het "no logging" beleid van een VPN provider te verifiëren.
+VPN's kunnen geen gegevens versleutelen buiten de verbinding tussen jouw toestel en de VPN-server. VPN providers kunnen jouw verkeer zien en wijzigen op dezelfde manier als jouw ISP dat kan. En er is geen enkele manier om het "no logging" beleid van een VPN provider te verifiëren.
 
-Zij verbergen echter wel uw werkelijke IP-adres voor een dienst van derden, op voorwaarde dat er geen IP-lekken zijn. Ze helpen je op te gaan in anderen en IP-gebaseerde opsporing te beperken.
+Zij verbergen echter wel jouw werkelijke IP-adres voor een dienst van derden, op voorwaarde dat er geen IP-lekken zijn. Ze helpen je op te gaan in anderen en IP-gebaseerde opsporing te beperken.
 
 ## Wanneer zou ik geen VPN moeten gebruiken?
 
-Het gebruik van een VPN in gevallen waarin u uw [bekende identiteit](common-threats.md#common-misconceptions) gebruikt, is waarschijnlijk niet nuttig.
+Het gebruik van een VPN in gevallen waarin je jouw [bekende identiteit](common-threats.md#common-misconceptions) gebruikt, is waarschijnlijk niet nuttig.
 
-Dit kan spam- en fraudedetectiesystemen alarmeren, zoals wanneer u zou inloggen op de website van uw bank.
+Dit kan spam- en fraudedetectiesystemen alarmeren, zoals wanneer je zou inloggen op de website van uw bank.
 
 ## Hoe zit het met encryptie?
 
-De encryptie die door VPN-aanbieders wordt aangeboden, bevindt zich tussen uw apparaten en hun servers. Het garandeert dat deze specifieke link veilig is. Dit is een stap verder dan het gebruik van onversleutelde proxies, waarbij een tegenstander op het netwerk de communicatie tussen uw apparaten en deze proxies kan onderscheppen en wijzigen. De versleuteling tussen uw apps of browsers en de dienstverleners wordt echter niet door deze versleuteling afgehandeld.
+De encryptie die door VPN-aanbieders wordt aangeboden, bevindt zich tussen jouw apparaten en hun servers. Het garandeert dat deze specifieke link veilig is. Dit is een stap verder dan het gebruik van onversleutelde proxies, waarbij een tegenstander op het netwerk de communicatie tussen jouw apparaten en deze proxies kan onderscheppen en wijzigen. De versleuteling tussen jouw apps of browsers en de dienstverleners wordt echter niet door deze versleuteling afgehandeld.
 
-Om wat u doet op de websites die u bezoekt privé en veilig te houden, moet u HTTPS gebruiken. Dit houdt uw wachtwoorden, sessietokens en zoekopdrachten veilig voor de VPN-provider. Overweeg om "HTTPS everywhere" in uw browser in te schakelen om downgrade-aanvallen zoals [SSL Strip](https://www.blackhat.com/presentations/bh-dc-09/Marlinspike/BlackHat-DC-09-Marlinspike-Defeating-SSL.pdf)tegen te gaan.
+Om wat je doet op de websites die je bezoekt privé en veilig te houden, moet je HTTPS gebruiken. Dit houdt jouw wachtwoorden, sessietokens en zoekopdrachten veilig voor de VPN-provider. Overweeg om "HTTPS everywhere" in jouw browser in te schakelen om downgrade-aanvallen zoals [SSL Strip](https://www.blackhat.com/presentations/bh-dc-09/Marlinspike/BlackHat-DC-09-Marlinspike-Defeating-SSL.pdf)tegen te gaan.
 
-## Moet ik gecodeerde DNS gebruiken met een VPN?
+## Moet ik versleutelde DNS gebruiken met een VPN?
 
-Tenzij uw VPN-provider de gecodeerde DNS-servers host, **no**. Het gebruik van DOH/DOT (of een andere vorm van gecodeerde DNS) met servers van derden zal gewoon meer entiteiten toevoegen om te vertrouwen en doet **absoluut niets** om uw privacy/veiligheid te verbeteren. Uw VPN-provider kan nog steeds zien welke websites u bezoekt op basis van de IP-adressen en andere methoden. In plaats van alleen uw VPN-provider te vertrouwen, vertrouwt u nu zowel de VPN-provider als de DNS-provider.
+Tenzij jouw VPN-provider de versleuteldeDNS-servers host, **nee**. Het gebruik van DOH/DOT (of een andere vorm van versleutelde DNS) met servers van derden zal gewoon meer entiteiten toevoegen om te vertrouwen en doet **absoluut niets** om jouw privacy/veiligheid te verbeteren. Jouw VPN-provider kan nog steeds zien welke websites je bezoekt op basis van de IP-adressen en andere methoden. In plaats van alleen jouw VPN-provider te vertrouwen, vertrouwt je nu zowel de VPN-provider als de DNS-provider.
 
-Een veelgehoorde reden om gecodeerde DNS aan te bevelen is dat het helpt tegen DNS spoofing. Uw browser zou echter al moeten controleren op [TLS-certificaten](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) met **HTTPS** en u daarvoor moeten waarschuwen. Als u **HTTPS**niet gebruikt, dan kan een tegenstander nog steeds gewoon iets anders dan uw DNS-query's wijzigen en zal het eindresultaat weinig anders zijn.
+Een veelgehoorde reden om versleutelde DNS aan te bevelen is dat het helpt tegen DNS spoofing. Jouw browser zou echter al moeten controleren op [TLS-certificaten](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) met **HTTPS** en je daarvoor moeten waarschuwen. Als je **HTTPS** niet gebruikt, dan kan een tegenstander nog steeds gewoon iets anders dan jouw DNS-query's wijzigen en zal het eindresultaat weinig anders zijn.
 
-Onnodig te zeggen, **dat je geen versleutelde DNS moet gebruiken met Tor**. Dit zou al uw DNS-verzoeken via één enkel circuit leiden en de gecodeerde DNS-provider in staat stellen u te deanonimiseren.
+Niet onnodig te zeggen, **dat je geen versleutelde DNS moet gebruiken met Tor**. Dit zou al jouw DNS-verzoeken via één enkel circuit leiden en de gecodeerde DNS-provider in staat stellen je te deanonimiseren.
 
 ## Moet ik Tor *gebruiken en* een VPN?
 
-Door een VPN met Tor te gebruiken, creëer je in wezen een permanent toegangsknooppunt, vaak met een geldspoor eraan vast. Dit levert u geen enkel extra voordeel op, terwijl het aanvalsoppervlak van uw verbinding drastisch wordt vergroot. Als je je Tor gebruik wilt verbergen voor je ISP of je overheid, dan heeft Tor daar een ingebouwde oplossing voor: Tor bridges. [Lees meer over Tor bridges en waarom het gebruik van een VPN niet nodig is](../advanced/tor-overview.md).
+Door een VPN met Tor te gebruiken, creëer je in wezen een permanent toegangsknooppunt, vaak met een geldspoor eraan vast. Dit levert je geen enkel extra voordeel op, terwijl het aanvalsoppervlak van jouw verbinding drastisch wordt vergroot. Als je je Tor gebruik wilt verbergen voor je ISP of je overheid, dan heeft Tor daar een ingebouwde oplossing voor: Tor bridges. [Lees meer over Tor bridges en waarom het gebruik van een VPN niet nodig is](../advanced/tor-overview.md).
 
 ## Wat als ik anonimiteit nodig heb?
 
-VPN's kunnen geen anonimiteit bieden. Uw VPN-provider ziet nog steeds uw echte IP-adres, en heeft vaak een geldspoor dat direct naar u kan worden teruggeleid. U kunt niet vertrouwen op een "no logging"-beleid om uw gegevens te beschermen. Gebruik in plaats daarvan [Tor](https://www.torproject.org/).
+VPN's kunnen geen anonimiteit bieden. Jouw VPN-provider ziet nog steeds jouw echte IP-adres, en heeft vaak een geldspoor dat direct naar u kan worden teruggeleid. Je kunt niet vertrouwen op een "no logging"-beleid om jouw gegevens te beschermen. Gebruik in plaats daarvan [Tor](https://www.torproject.org/).
 
 ## Hoe zit het met VPN providers die Tor nodes aanbieden?
 
@@ -53,13 +53,13 @@ De functie moet gezien worden als een handige manier om toegang te krijgen tot h
 
 ## Wanneer zijn VPN's nuttig?
 
-Een VPN kan nog steeds nuttig zijn voor u in een aantal scenario's, zoals:
+Een VPN kan nog steeds nuttig zijn voor je in een aantal scenario's, zoals:
 
-1. Het verbergen van uw verkeer van **is alleen** uw Internet Service Provider.
+1. Het verbergen van jouw verkeer van **is alleen** jouw Internet Service Provider.
 1. Het verbergen van je downloads (zoals torrents) voor je ISP en anti-piraterij organisaties.
-1. Het verbergen van uw IP-adres voor websites en diensten van derden, zodat IP-gebaseerde tracering wordt voorkomen.
+1. Het verbergen van jouw IP-adres voor websites en diensten van derden, zodat IP-gebaseerde tracering wordt voorkomen.
 
-Voor dit soort situaties, of als je een andere dwingende reden hebt, zijn de VPN-providers die we hierboven hebben opgesomd volgens ons de meest betrouwbare. Het gebruik van een VPN-provider betekent echter nog steeds dat u *vertrouwt op* de provider. In vrijwel elk ander scenario zou je een veilige**-by-design** tool zoals Tor moeten gebruiken.
+Voor dit soort situaties, of als je een andere dwingende reden hebt, zijn de VPN-providers die we hierboven hebben opgesomd volgens ons de meest betrouwbare. Het gebruik van een VPN-provider betekent echter nog steeds dat je *vertrouwt op* de provider. In vrijwel elk ander scenario zou je een veilige **"by-design"** tool zoals Tor moeten gebruiken.
 
 ## Bronnen en verdere lectuur
 

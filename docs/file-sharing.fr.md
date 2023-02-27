@@ -52,10 +52,10 @@ ffsend upload --host https://send.vis.ee/ FICHIER
 
 !!! example "Cette section est récente"
 
-    Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum] (https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
+    Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum](https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
 
 - Ne doit pas stocker des données déchiffrées sur un serveur distant.
-- Doivent être open-source.
+- Doit être un logiciel open source.
 - Doit avoir soit des clients pour Linux, macOS et Windows, soit une interface web.
 
 ## FreedomBox
@@ -99,7 +99,7 @@ ffsend upload --host https://send.vis.ee/ FICHIER
 
 !!! danger
 
-    Nous ne recommandons pas l'utilisation de [l'Application E2EE] (https://apps.nextcloud.com/apps/end_to_end_encryption) pour Nextcloud car elle peut entraîner une perte de données ; elle est hautement expérimentale et n'est pas de qualité de production.
+    Nous ne recommandons pas l'utilisation de [l'Application E2EE](https://apps.nextcloud.com/apps/end_to_end_encryption) pour Nextcloud car elle peut entraîner une perte de données ; elle est hautement expérimentale et n'est pas de qualité de production.
 
 ### Syncthing (P2P)
 
@@ -135,7 +135,7 @@ ffsend upload --host https://send.vis.ee/ FICHIER
 #### Exigences minimales
 
 - Ne doit pas nécessiter un serveur distant/cloud tiers.
-- Doivent être open-source.
+- Doit être un logiciel open source.
 - Doit avoir soit des clients pour Linux, macOS et Windows, soit une interface web.
 
 #### Dans le meilleur des cas

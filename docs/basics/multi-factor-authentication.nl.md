@@ -57,12 +57,12 @@ Deze sleutels zijn over het algemeen multifunctioneel en bieden een aantal metho
 
 Yubico OTP is een authenticatieprotocol dat typisch wordt geïmplementeerd in hardware beveiligingssleutels. Wanneer je besluit Yubico OTP te gebruiken, zal de sleutel een publiek ID, privaat ID, en een Geheime Sleutel genereren die dan geupload wordt naar de Yubico OTP server.
 
-Wanneer u inlogt op een website, hoeft u alleen maar de beveiligingssleutel fysiek aan te raken. De beveiligingssleutel zal een toetsenbord emuleren en een eenmalig wachtwoord in het wachtwoordveld afdrukken.
+Wanneer je inlogt op een website, hoeft je alleen maar de beveiligingssleutel fysiek aan te raken. De beveiligingssleutel zal een toetsenbord emuleren en een eenmalig wachtwoord in het wachtwoordveld afdrukken.
 
 De dienst zal dan het eenmalige wachtwoord doorsturen naar de Yubico OTP server voor validatie. Zowel op de sleutel als op de validatieserver van Yubico wordt een teller opgehoogd. De OTP kan slechts één keer worden gebruikt, en wanneer een authenticatie met succes plaatsvindt, wordt de teller verhoogd, waardoor hergebruik van de OTP wordt voorkomen. Yubico geeft een [gedetailleerd document](https://developers.yubico.com/OTP/OTPs_Explained.html) over het proces.
 
 <figure markdown>
-  Yubico OTP] (../assets/img/multi-factor-authentication/yubico-otp.png)
+  Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
 </figure>
 
 Er zijn enkele voor- en nadelen aan het gebruik van Yubico OTP in vergelijking met TOTP.
@@ -111,29 +111,29 @@ Wij hebben deze algemene aanbevelingen:
 
 ### Welke methode moet ik gebruiken?
 
-Wanneer u uw MFA-methode configureert, moet u in gedachten houden dat deze slechts zo veilig is als de zwakste authenticatiemethode die u gebruikt. Dit betekent dat het belangrijk is dat u alleen de beste beschikbare MFA-methode gebruikt. Als u bijvoorbeeld al TOTP gebruikt, moet u e-mail en SMS MFA uitschakelen. Als u al FIDO2/WebAuthn gebruikt, moet u geen Yubico OTP of TOTP gebruiken op uw account.
+Wanneer je jouw MFA-methode configureert, moet je in gedachten houden dat deze slechts zo veilig is als de zwakste authenticatiemethode die je gebruikt. Dit betekent dat het belangrijk is dat je alleen de beste beschikbare MFA-methode gebruikt. Als je bijvoorbeeld al TOTP gebruikt, moet je e-mail en SMS MFA uitschakelen. Als je al FIDO2/WebAuthn gebruikt, moet je geen Yubico OTP of TOTP gebruiken op jouw account.
 
 
 
 ### Back-ups
 
-U moet altijd back-ups hebben voor uw MFA-methode. Hardwaresleutels kunnen zoekraken, gestolen worden of na verloop van tijd niet meer werken. Het is aan te bevelen om een paar hardware beveiligingssleutels te hebben met dezelfde toegang tot uw accounts in plaats van slechts één.
+Je moet altijd back-ups hebben voor jouw MFA-methode. Hardwaresleutels kunnen zoekraken, gestolen worden of na verloop van tijd niet meer werken. Het is aan te bevelen om een paar hardware beveiligingssleutels te hebben met dezelfde toegang tot jouw accounts in plaats van slechts één.
 
-Wanneer u TOTP gebruikt met een authenticatie app, zorg er dan voor dat u een back-up maakt van uw herstel sleutels of de app zelf, of kopieer de "gedeelde geheimen" naar een ander exemplaar van de app op een andere telefoon of naar een versleutelde container (bijv. [VeraCrypt](../encryption.md#veracrypt)).
+Wanneer je TOTP gebruikt met een authenticatie app, zorg er dan voor dat je een back-up maakt van jouw herstel sleutels of de app zelf, of kopieer de "gedeelde geheimen" naar een ander exemplaar van de app op een andere telefoon of naar een versleutelde container (bijv. [VeraCrypt](../encryption.md#veracrypt)).
 
 
 
 ### Eerste installatie
 
-Wanneer u een beveiligingssleutel koopt, is het belangrijk dat u de standaardgegevens wijzigt, wachtwoordbeveiliging voor de sleutel instelt, en aanraakbevestiging inschakelt als uw sleutel dit ondersteunt. Producten zoals de YubiKey hebben meerdere interfaces met afzonderlijke referenties voor elk ervan, dus u moet elke interface overlopen en ook bescherming instellen.
+Wanneer je een beveiligingssleutel koopt, is het belangrijk dat je de standaardgegevens wijzigt, wachtwoordbeveiliging voor de sleutel instelt, en aanraakbevestiging inschakelt als jouw sleutel dit ondersteunt. Producten zoals de YubiKey hebben meerdere interfaces met afzonderlijke referenties voor elk ervan, dus je moet elke interface overlopen en ook bescherming instellen.
 
 
 
 ### E-mail en SMS
 
-Als u e-mail moet gebruiken voor MFA, zorg er dan voor dat de e-mailaccount zelf beveiligd is met een goede MFA-methode.
+Als je e-mail moet gebruiken voor MFA, zorg er dan voor dat de e-mailaccount zelf beveiligd is met een goede MFA-methode.
 
-Als u SMS MFA gebruikt, gebruik dan een provider die uw telefoonnummer niet zonder accounttoegang naar een nieuwe SIM-kaart wisselt, of gebruik een speciaal VoIP-nummer van een provider met vergelijkbare beveiliging om een [SIM-swapaanval te voorkomen](https://en.wikipedia.org/wiki/SIM_swap_scam).
+Als je SMS MFA gebruikt, gebruik dan een provider die jouw telefoonnummer niet zonder accounttoegang naar een nieuwe SIM-kaart wisselt, of gebruik een speciaal VoIP-nummer van een provider met vergelijkbare beveiliging om een [SIM-swapaanval te voorkomen](https://en.wikipedia.org/wiki/SIM_swap_scam).
 
 [MFA tools die wij aanbevelen](../multi-factor-authentication.md ""){.md-button}
 
@@ -141,23 +141,23 @@ Als u SMS MFA gebruikt, gebruik dan een provider die uw telefoonnummer niet zond
 
 ## Meer plaatsen om MFA op te zetten
 
-Naast het beveiligen van uw website logins, kan multifactor authenticatie ook worden gebruikt om uw lokale logins, SSH sleutels of zelfs wachtwoord databases te beveiligen.
+Naast het beveiligen van jouw website logins, kan multifactor authenticatie ook worden gebruikt om jouw lokale logins, SSH sleutels of zelfs wachtwoord databases te beveiligen.
 
 
 
 ### Windows
 
-Yubico heeft een speciale [Credential Provider](https://docs.microsoft.com/en-us/windows/win32/secauthn/credential-providers-in-windows) die Challenge-Response authenticatie toevoegt voor de gebruikersnaam + wachtwoord login flow voor lokale Windows accounts. Als u een YubiKey hebt met ondersteuning voor Challenge-Response authenticatie, kijk dan eens naar de [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/en-us/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), waarmee u MFA kunt instellen op uw Windows-computer.
+Yubico heeft een speciale [Credential Provider](https://docs.microsoft.com/en-us/windows/win32/secauthn/credential-providers-in-windows) die Challenge-Response authenticatie toevoegt voor de gebruikersnaam + wachtwoord login flow voor lokale Windows accounts. Als je een YubiKey hebt met ondersteuning voor Challenge-Response authenticatie, kijk dan eens naar de [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/en-us/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), waarmee je MFA kunt instellen op jouw Windows-computer.
 
 
 
 ### macOS
 
-macOS heeft [native ondersteuning](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) voor authenticatie met smartcards (PIV). Indien u een smartcard of een hardware beveiligingssleutel heeft die de PIV interface ondersteunt, zoals de YubiKey, raden wij u aan om de documentatie van uw smartcard/hardware beveiligingsleverancier te volgen en tweede factor authenticatie voor uw macOS computer in te stellen.
+macOS heeft [native ondersteuning](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) voor authenticatie met smartcards (PIV). Indien je een smartcard of een hardware beveiligingssleutel heeft die de PIV interface ondersteunt, zoals de YubiKey, raden wij je aan om de documentatie van jouw smartcard/hardware beveiligingsleverancier te volgen en tweede factor authenticatie voor jouw macOS computer in te stellen.
 
-Yubico heeft een gids [Uw YubiKey als Smart Card gebruiken in macOS](https://support.yubico.com/hc/en-us/articles/360016649059) die u kan helpen bij het instellen van uw YubiKey op macOS.
+Yubico heeft een gids [je YubiKey als Smart Card gebruiken in macOS](https://support.yubico.com/hc/en-us/articles/360016649059) die je kan helpen bij het instellen van jouw YubiKey op macOS.
 
-Nadat uw smartcard/security key is ingesteld, raden wij u aan dit commando in de Terminal uit te voeren:
+Nadat jouw smartcard/security key is ingesteld, raden wij je aan dit commando in de Terminal uit te voeren:
 
 
 
@@ -174,16 +174,16 @@ Het commando zal voorkomen dat een tegenstander MFA omzeilt wanneer de computer 
 
 !!! warning
 
-    Als de hostnaam van uw systeem verandert (bijvoorbeeld door DHCP), zou u niet kunnen inloggen. Het is van vitaal belang dat u een correcte hostnaam instelt voor uw computer alvorens deze gids te volgen.
+    Als de hostnaam van jouw systeem verandert (bijvoorbeeld door DHCP), zou je niet kunnen inloggen. Het is van vitaal belang dat je een correcte hostnaam instelt voor jouw computer alvorens deze gids te volgen.
     
 
-De `pam_u2f` module op Linux kan twee-factor authenticatie bieden om in te loggen op de meeste populaire Linux distributies. Als u een hardware beveiligingssleutel hebt die U2F ondersteunt, kunt u MFA verificatie instellen voor uw aanmelding. Yubico heeft een gids [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) die zou moeten werken op elke distributie. De commando's van de pakketbeheerder - zoals `apt-get`- en de pakketnamen kunnen echter verschillen. Deze gids is **niet** van toepassing op Qubes OS.
+De `pam_u2f` module op Linux kan twee-factor authenticatie bieden om in te loggen op de meeste populaire Linux distributies. Als je een hardware beveiligingssleutel hebt die U2F ondersteunt, kun je MFA verificatie instellen voor jouw aanmelding. Yubico heeft een gids [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) die zou moeten werken op elke distributie. De commando's van de pakketbeheerder - zoals `apt-get`- en de pakketnamen kunnen echter verschillen. Deze gids is **niet** van toepassing op Qubes OS.
 
 
 
 ### Qubes OS
 
-Qubes OS heeft ondersteuning voor Challenge-Response authenticatie met YubiKeys. Als u een YubiKey heeft met ondersteuning voor Challenge-Response authenticatie, kijk dan eens naar de Qubes OS [YubiKey documentatie](https://www.qubes-os.org/doc/yubikey/) als u MFA wilt instellen op Qubes OS.
+Qubes OS heeft ondersteuning voor Challenge-Response authenticatie met YubiKeys. Als je een YubiKey heeft met ondersteuning voor Challenge-Response authenticatie, kijk dan eens naar de Qubes OS [YubiKey documentatie](https://www.qubes-os.org/doc/yubikey/) als je MFA wilt instellen op Qubes OS.
 
 
 
@@ -193,7 +193,7 @@ Qubes OS heeft ondersteuning voor Challenge-Response authenticatie met YubiKeys.
 
 #### Hardware Veiligheidssleutels
 
-SSH MFA kan worden ingesteld met behulp van meerdere verschillende authenticatiemethoden die populair zijn met hardware beveiligingssleutels. Wij raden u aan om de Yubico documentatie [te raadplegen](https://developers.yubico.com/SSH/) over hoe dit in te stellen.
+SSH MFA kan worden ingesteld met behulp van meerdere verschillende authenticatiemethoden die populair zijn met hardware beveiligingssleutels. Wij raden je aan om de Yubico documentatie [te raadplegen](https://developers.yubico.com/SSH/) over hoe dit in te stellen.
 
 
 

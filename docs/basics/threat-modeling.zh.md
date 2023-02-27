@@ -102,7 +102,7 @@ icon: '资料/目标账户'
 
 对于希望增加网上隐私和安全的人来说，我们汇编了一份我们的访问者面临的常见威胁或访问者的目标的清单，以给你一些启发，并且展示了一些我们的基础建议。
 
-- [常见的目标和威胁 :hero-arrow-circle-right-fill:](common-threats.md)
+- [常见的目标和威胁 :material-arrow-right-drop-circle:](common-threats.md)
 
 ## 资料来源
 

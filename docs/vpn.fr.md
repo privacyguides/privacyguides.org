@@ -25,7 +25,7 @@ Trouvez un opérateur VPN sans journalisation qui n'est pas là pour vendre ou l
 
 !!! abstract "Citères"
 
-    Les fournisseurs que nous recommandons utilisent le chiffrement, acceptent le Monero, prennent en charge WireGuard & OpenVPN, et ont une politique de non journalisation. Lisez notre [liste complète de critères] (#our-criteria) pour plus d'informations.
+    Les fournisseurs que nous recommandons utilisent le chiffrement, acceptent le Monero, prennent en charge WireGuard & OpenVPN, et ont une politique de non journalisation. Lisez notre [liste complète de critères](#our-criteria) pour plus d'informations.
 
 ### Proton VPN
 
@@ -50,19 +50,19 @@ Trouvez un opérateur VPN sans journalisation qui n'est pas là pour vendre ou l
 
 ??? success annotate "67 Pays"
 
-    Proton VPN a [des serveurs dans 63 pays] (https://protonvpn.com/vpn-servers) (1). En choisissant un fournisseur de VPN dont le serveur est le plus proche de vous vous réduirez la latence du trafic réseau que vous envoyez. Cela est dû à un itinéraire plus court (moins de sauts) vers la destination.
+    Proton VPN a [des serveurs dans 63 pays](https://protonvpn.com/vpn-servers) (1). En choisissant un fournisseur de VPN dont le serveur est le plus proche de vous vous réduirez la latence du trafic réseau que vous envoyez. Cela est dû à un itinéraire plus court (moins de sauts) vers la destination.
     
-    Nous pensons également qu'il est préférable pour la sécurité des clés privées du fournisseur de VPN qu'il utilise des [serveurs dédiés] (https://en.wikipedia.org/wiki/Dedicated_hosting_service), plutôt que des solutions partagées moins chères (avec d'autres clients) telles que les [serveurs privés virtuels] (https://en.wikipedia.org/wiki/Virtual_private_server).
+    Nous pensons également qu'il est préférable pour la sécurité des clés privées du fournisseur de VPN qu'il utilise des [serveurs dédiés](https://en.wikipedia.org/wiki/Dedicated_hosting_service), plutôt que des solutions partagées moins chères (avec d'autres clients) telles que les [serveurs privés virtuels](https://en.wikipedia.org/wiki/Virtual_private_server).
 
 1. En date du 2022-09-16
 
 ??? success "Audités de manière indépendante"
 
-    Depuis janvier 2020, Proton VPN a fait l'objet d'un audit indépendant réalisé par SEC Consult. SEC Consult a trouvé quelques vulnérabilités à risque moyen et faible dans les applications Windows, Android et iOS de Proton VPN, qui ont toutes été "correctement corrigées" par Proton VPN avant la publication des rapports. Aucun des problèmes identifiés n'aurait permis à un attaquant d'accéder à distance à votre appareil ou à votre trafic. Vous pouvez consulter les rapports individuels pour chaque plateforme à l'adresse [protonvpn.com](https://protonvpn.com/blog/open-source/). En avril 2022, Proton VPN a fait l'objet d'un [autre audit] (https://protonvpn.com/blog/no-logs-audit/) et le rapport a été [produit par Securitum] (https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). Une [lettre d'attestation] (https://proton.me/blog/security-audit-all-proton-apps) a été fournie pour les applications de Proton VPN le 9 novembre 2021 par [Securitum](https://research.securitum.com).
+    Depuis janvier 2020, Proton VPN a fait l'objet d'un audit indépendant réalisé par SEC Consult. SEC Consult a trouvé quelques vulnérabilités à risque moyen et faible dans les applications Windows, Android et iOS de Proton VPN, qui ont toutes été "correctement corrigées" par Proton VPN avant la publication des rapports. Aucun des problèmes identifiés n'aurait permis à un attaquant d'accéder à distance à votre appareil ou à votre trafic. Vous pouvez consulter les rapports individuels pour chaque plateforme à l'adresse [protonvpn.com](https://protonvpn.com/blog/open-source/). En avril 2022, Proton VPN a fait l'objet d'un [autre audit](https://protonvpn.com/blog/no-logs-audit/) et le rapport a été [produit par Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). Une [lettre d'attestation](https://proton.me/blog/security-audit-all-proton-apps) a été fournie pour les applications de Proton VPN le 9 novembre 2021 par [Securitum](https://research.securitum.com).
 
 ??? success "Clients Open Source"
 
-    Proton VPN fournit le code source de ses clients de bureau et mobiles dans son [organisation GitHub] (https://github.com/ProtonVPN).
+    Proton VPN fournit le code source de ses clients de bureau et mobiles dans son [organisation GitHub](https://github.com/ProtonVPN).
 
 ??? check "Accepte l'Argent Liquide"
 
@@ -80,15 +80,15 @@ Trouvez un opérateur VPN sans journalisation qui n'est pas là pour vendre ou l
 
 ??? success "Clients Mobile"
 
-    En plus de fournir des fichiers de configuration OpenVPN standard, Proton VPN dispose de clients mobiles pour [App Store] (https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play] (https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), et [GitHub](https://github.com/ProtonVPN/android-app/releases) permettant de se connecter facilement à leurs serveurs.
+    En plus de fournir des fichiers de configuration OpenVPN standard, Proton VPN dispose de clients mobiles pour [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), et [GitHub](https://github.com/ProtonVPN/android-app/releases) permettant de se connecter facilement à leurs serveurs.
 
 ??? info "Fonctionnalités supplémentaires"
 
-    Les clients VPN de Proton prennent en charge l'authentification à deux facteurs sur toutes les plateformes, sauf Linux pour le moment. Proton VPN possède ses propres serveurs et centres de données en Suisse, en Islande et en Suède. Ils proposent le blocage des publicités et des domaines de logiciels malveillants connus avec leur service DNS. De plus, Proton VPN propose également des serveurs "Tor" vous permettant de vous connecter facilement aux sites oignon, mais nous vous recommandons toujours fortement d'utiliser [le navigateur officiel Tor] (https://www.torproject.org/fr/) à cet effet.
+    Les clients VPN de Proton prennent en charge l'authentification à deux facteurs sur toutes les plateformes, sauf Linux pour le moment. Proton VPN possède ses propres serveurs et centres de données en Suisse, en Islande et en Suède. Ils proposent le blocage des publicités et des domaines de logiciels malveillants connus avec leur service DNS. De plus, Proton VPN propose également des serveurs "Tor" vous permettant de vous connecter facilement aux sites oignon, mais nous vous recommandons toujours fortement d'utiliser [le navigateur officiel Tor](https://www.torproject.org/fr/) à cet effet.
 
 !!! danger "La fonction Killswitch ne fonctionne pas sur les Macs à processeur Intel".
 
-    Des crashs système [peuvent se produire] (https://protonvpn.com/support/macos-t2-chip-kill-switch/) sur les Macs basés sur Intel lors de l'utilisation du killswitch VPN. Si vous avez besoin de cette fonction, et que vous utilisez un Mac avec un chipset Intel, vous devriez envisager d'utiliser un autre service VPN.
+    Des crashs système [peuvent se produire](https://protonvpn.com/support/macos-t2-chip-kill-switch/) sur les Macs basés sur Intel lors de l'utilisation du killswitch VPN. Si vous avez besoin de cette fonction, et que vous utilisez un Mac avec un chipset Intel, vous devriez envisager d'utiliser un autre service VPN.
 
 ### IVPN
 
@@ -113,19 +113,19 @@ Trouvez un opérateur VPN sans journalisation qui n'est pas là pour vendre ou l
 
 ??? success annotate "35 Pays"
 
-    IVPN possède [des serveurs dans 35 pays] (https://www.ivpn.net/server-locations) (1). En choisissant un fournisseur de VPN dont le serveur est le plus proche de vous vous réduirez la latence du trafic réseau que vous envoyez. Cela est dû à un itinéraire plus court (moins de sauts) vers la destination.
+    IVPN possède [des serveurs dans 35 pays](https://www.ivpn.net/server-locations) (1). En choisissant un fournisseur de VPN dont le serveur est le plus proche de vous vous réduirez la latence du trafic réseau que vous envoyez. Cela est dû à un itinéraire plus court (moins de sauts) vers la destination.
     
-    Nous pensons également qu'il est préférable pour la sécurité des clés privées du fournisseur de VPN qu'il utilise des [serveurs dédiés] (https://en.wikipedia.org/wiki/Dedicated_hosting_service), plutôt que des solutions partagées moins chères (avec d'autres clients) telles que les [serveurs privés virtuels] (https://en.wikipedia.org/wiki/Virtual_private_server).
+    Nous pensons également qu'il est préférable pour la sécurité des clés privées du fournisseur de VPN qu'il utilise des [serveurs dédiés](https://en.wikipedia.org/wiki/Dedicated_hosting_service), plutôt que des solutions partagées moins chères (avec d'autres clients) telles que les [serveurs privés virtuels](https://en.wikipedia.org/wiki/Virtual_private_server).
 
 1. En date du 2022-09-16
 
 ??? success "Audités de manière indépendante"
 
-    IVPN a fait l'objet d'un [audit de non-journalisation de Cure53](https://cure53.de/audit-report_ivpn.pdf) qui s'est conclu en accord avec la déclaration de non-journalisation d'IVPN. IVPN a également réalisé un [rapport complet de tests de pénétration par Cure53] (https://cure53.de/summary-report_ivpn_2019.pdf) en janvier 2020. IVPN a également déclaré qu'il prévoyait de publier des [rapports annuels] (https://www.ivpn.net/blog/independent-security-audit-concluded) à l'avenir. Une autre étude a été réalisée [en avril 2022] (https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) et a été fournie par Cure53 [sur leur site web] (https://cure53.de/pentest-report_IVPN_2022.pdf).
+    IVPN a fait l'objet d'un [audit de non-journalisation de Cure53](https://cure53.de/audit-report_ivpn.pdf) qui s'est conclu en accord avec la déclaration de non-journalisation d'IVPN. IVPN a également réalisé un [rapport complet de tests de pénétration par Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) en janvier 2020. IVPN a également déclaré qu'il prévoyait de publier des [rapports annuels](https://www.ivpn.net/blog/independent-security-audit-concluded) à l'avenir. Une autre étude a été réalisée [en avril 2022](https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) et a été fournie par Cure53 [sur leur site web](https://cure53.de/pentest-report_IVPN_2022.pdf).
 
 ??? success "Clients Open Source"
 
-    Depuis février 2020 [les applications IVPN sont désormais open source] (https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Le code source peut être obtenu auprès de leur [organisation GitHub] (https://github.com/ivpn).
+    Depuis février 2020 [les applications IVPN sont désormais open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Le code source peut être obtenu auprès de leur [organisation GitHub](https://github.com/ivpn).
 
 ??? success "Accepte l'Argent Liquide et le Monero"
 
@@ -139,7 +139,7 @@ Trouvez un opérateur VPN sans journalisation qui n'est pas là pour vendre ou l
 
 ??? success "Redirection de Port Distant"
 
-    La [redirection de port](https://fr.wikipedia.org/wiki/Redirection_de_port) distants est possible avec une offre Pro. La redirection de port [peut être activée](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html) via l'espace client. La redirection de port n'est disponible sur IVPN que lorsque l'on utilise les protocoles WireGuard ou OpenVPN et est [désactivée sur les serveurs US] (https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
+    La [redirection de port](https://fr.wikipedia.org/wiki/Redirection_de_port) distants est possible avec une offre Pro. La redirection de port [peut être activée](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html) via l'espace client. La redirection de port n'est disponible sur IVPN que lorsque l'on utilise les protocoles WireGuard ou OpenVPN et est [désactivée sur les serveurs US](https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
 
 ??? success "Clients Mobile"
 
@@ -174,9 +174,9 @@ Trouvez un opérateur VPN sans journalisation qui n'est pas là pour vendre ou l
 
 ??? success annotate "41 Pays"
 
-    Mullvad possède [des serveurs dans 41 pays] (https://mullvad.net/servers/) (1). En choisissant un fournisseur de VPN dont le serveur est le plus proche de vous vous réduirez la latence du trafic réseau que vous envoyez. Cela est dû à un itinéraire plus court (moins de sauts) vers la destination.
+    Mullvad possède [des serveurs dans 41 pays](https://mullvad.net/servers/) (1). En choisissant un fournisseur de VPN dont le serveur est le plus proche de vous vous réduirez la latence du trafic réseau que vous envoyez. Cela est dû à un itinéraire plus court (moins de sauts) vers la destination.
     
-    Nous pensons également qu'il est préférable pour la sécurité des clés privées du fournisseur de VPN qu'il utilise des [serveurs dédiés] (https://en.wikipedia.org/wiki/Dedicated_hosting_service), plutôt que des solutions partagées moins chères (avec d'autres clients) telles que les [serveurs privés virtuels] (https://en.wikipedia.org/wiki/Virtual_private_server).
+    Nous pensons également qu'il est préférable pour la sécurité des clés privées du fournisseur de VPN qu'il utilise des [serveurs dédiés](https://en.wikipedia.org/wiki/Dedicated_hosting_service), plutôt que des solutions partagées moins chères (avec d'autres clients) telles que les [serveurs privés virtuels](https://en.wikipedia.org/wiki/Virtual_private_server).
 
 1. En date du 2023-01-19
 
@@ -190,11 +190,11 @@ Trouvez un opérateur VPN sans journalisation qui n'est pas là pour vendre ou l
     
     > Les résultats de ce projet de mai-juin 2020 ciblant le complexe Mullvad sont plutôt positifs. [...] L'écosystème applicatif utilisé par Mullvad laisse une impression solide et structurée. La structure globale de l'application permet de déployer facilement des correctifs et corrections de manière structurée. Plus que tout, les résultats repérés par Cure53 montrent l'importance d'un audit et d'une réévaluation constante des vecteurs de fuite actuels, afin de toujours garantir la confidentialité des utilisateurs finaux. Ceci étant dit, Mullvad fait un excellent travail en protégeant l'utilisateur final contre les fuites courantes de DCP et les risques liés à la confidentialité.
     
-    En 2021, un audit des infrastructures [a été annoncé] (https://mullvad.net/fr/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) et le [rapport d'audit final] (https://cure53.de/pentest-report_mullvad_2021_v1.pdf) a été mis à disposition sur le site web de Cure53. Un autre rapport a été commandé [en juin 2022] (https://mullvad.net/fr/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) et est disponible sur [le site web d'Assured] (https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
+    En 2021, un audit des infrastructures [a été annoncé] (https://mullvad.net/fr/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) et le [rapport d'audit final] (https://cure53.de/pentest-report_mullvad_2021_v1.pdf) a été mis à disposition sur le site web de Cure53. Un autre rapport a été commandé [en juin 2022](https://mullvad.net/fr/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) et est disponible sur [le site web d'Assured](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
 
 ??? success "Clients Open Source"
 
-    Mullvad fournit le code source de ses clients de bureau et mobiles dans son [organisation GitHub] (https://github.com/mullvad/mullvadvpn-app).
+    Mullvad fournit le code source de ses clients de bureau et mobiles dans son [organisation GitHub](https://github.com/mullvad/mullvadvpn-app).
 
 ??? success "Accepte l'Argent Liquide et le Monero"
 
@@ -208,7 +208,7 @@ Trouvez un opérateur VPN sans journalisation qui n'est pas là pour vendre ou l
 
 ??? success "Supporte IPv6"
 
-    Mullvad soutient l'avenir du réseau [IPv6](https://en.wikipedia.org/wiki/IPv6). Leur réseau vous permet [d'accéder à des services hébergés sur IPv6] (https://mullvad.net/en/blog/2014/9/15/ipv6-support/), contrairement à d'autres fournisseurs qui bloquent les connexions IPv6.
+    Mullvad soutient l'avenir du réseau [IPv6](https://en.wikipedia.org/wiki/IPv6). Leur réseau vous permet [d'accéder à des services hébergés sur IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), contrairement à d'autres fournisseurs qui bloquent les connexions IPv6.
 
 ??? success "Redirection de Port Distant"
 
@@ -220,7 +220,7 @@ Trouvez un opérateur VPN sans journalisation qui n'est pas là pour vendre ou l
 
 ??? info "Fonctionnalités supplémentaires"
 
-    Mullvad est très transparent quant aux nœuds qu'il [possède ou loue] (https://mullvad.net/en/servers/). Ils utilisent [ShadowSocks](https://shadowsocks.org) dans leur configuration ShadowSocks OpenVPN, ce qui les rend plus résistants aux pare-feu avec l'[Inspection Approfondie des Paquets] (https://en.wikipedia.org/wiki/Deep_packet_inspection) qui tentent de bloquer les VPN. Supposément, [la Chine doit utiliser une méthode différente pour bloquer les serveurs ShadowSocks](https://github.com/net4people/bbs/issues/22). Le site web de Mullvad est également accessible via Tor à l'adresse [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
+    Mullvad est très transparent quant aux nœuds qu'il [possède ou loue](https://mullvad.net/en/servers/). Ils utilisent [ShadowSocks](https://shadowsocks.org) dans leur configuration ShadowSocks OpenVPN, ce qui les rend plus résistants aux pare-feu avec l'[Inspection Approfondie des Paquets](https://en.wikipedia.org/wiki/Deep_packet_inspection) qui tentent de bloquer les VPN. Supposément, [la Chine doit utiliser une méthode différente pour bloquer les serveurs ShadowSocks](https://github.com/net4people/bbs/issues/22). Le site web de Mullvad est également accessible via Tor à l'adresse [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
 
 ## Critères
 

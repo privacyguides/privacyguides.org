@@ -71,7 +71,7 @@ In het algemeen definiëren wij samenwerkingsplatforms als volwaardige suites di
 Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte project in deze categorie. Het is mogelijk dat onze aanbevelingen geen of niet alle functies bevatten, maar degene die dat wel doen kunnen hoger gerangschikt worden dan andere op deze pagina.
 
 - Moet bestanden opslaan in een conventioneel bestandssysteem.
-- Moet TOTP of WebAuthn multi-factor authenticatie, of Passkey authenticatie ondersteunen.
+- Moet TOTP of FIDO2 multi-factor authenticatie ondersteunen, of Passkey-logins.
 
 ## Office Suites
 
@@ -133,7 +133,7 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
 In het algemeen definiëren wij kantoorsuites als toepassingen die voor de meeste behoeften redelijkerwijs als vervanging van Microsoft Word kunnen dienen.
 
 - Moet cross-platform zijn.
-- Moet open-source zijn.
+- Moet open-source software zijn.
 - Moet offline functioneren.
 - Moet het bewerken van documenten, spreadsheets en diavoorstellingen ondersteunen.
 - Moet bestanden exporteren naar standaard documentformaten.

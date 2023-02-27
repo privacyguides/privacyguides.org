@@ -29,7 +29,7 @@ Parfois, des services tentent de vous obliger à créer un compte en bloquant l'
 
 !!! tip "Conseil"
 
-    Librarian est utile si vous voulez regarder du contenu LBRY sur votre mobile sans télémétrie obligatoire et si vous voulez désactiver JavaScript dans votre navigateur, comme c'est le cas avec [le navigateur Tor] (https://www.torproject.org/) au niveau de sécurité Le plus sûr.
+    Librarian est utile si vous voulez regarder du contenu LBRY sur votre mobile sans télémétrie obligatoire et si vous voulez désactiver JavaScript dans votre navigateur, comme c'est le cas avec [le navigateur Tor](https://www.torproject.org/) au niveau de sécurité Le plus sûr.
 
 Lorsque vous auto-hébergez, il est important que d'autres personnes utilisent également votre instance pour que vous puissiez vous fondre dans la masse. Vous devez faire attention à l'endroit et à la manière dont vous hébergez Librarian, car l'utilisation par d'autres personnes sera liée à votre hébergement.
 
@@ -55,7 +55,7 @@ Lorsque vous utilisez une instance de Librarian, veillez à lire la politique de
 
 !!! tip "Conseil"
 
-    Nitter est utile si vous souhaitez naviguer sur le contenu de Twitter sans avoir à vous connecter et si vous souhaitez désactiver JavaScript dans votre navigateur, comme c'est le cas avec [Tor Browser] (https://www.torproject.org/) au niveau de sécurité le plus sûr. Il vous permet également de [créer des flux RSS pour Twitter] (news-aggregators.md#twitter).
+    Nitter est utile si vous souhaitez naviguer sur le contenu de Twitter sans avoir à vous connecter et si vous souhaitez désactiver JavaScript dans votre navigateur, comme c'est le cas avec [Tor Browser](https://www.torproject.org/) au niveau de sécurité le plus sûr. Il vous permet également de [créer des flux RSS pour Twitter] (news-aggregators.md#twitter).
 
 Lorsque vous auto-hébergez, il est important que d'autres personnes utilisent également votre instance pour que vous puissiez vous fondre dans la masse. Vous devez faire attention à l'endroit et à la manière dont vous hébergez Nitter, car l'utilisation par d'autres personnes sera liée à votre hébergement.
 
@@ -80,7 +80,7 @@ Lorsque vous utilisez une instance de Nitter, assurez-vous de lire la politique 
 
 !!! tip "Conseil"
 
-    ProxiTok est utile si vous souhaitez désactiver JavaScript dans votre navigateur, comme avec le [Navigateur Tor] (https://www.torproject.org/) sur le niveau de sécurité Le plus sûr.
+    ProxiTok est utile si vous souhaitez désactiver JavaScript dans votre navigateur, comme avec le [Navigateur Tor](https://www.torproject.org/) sur le niveau de sécurité Le plus sûr.
 
 Lorsque vous auto-hébergez, il est important que d'autres personnes utilisent également votre instance pour que vous puissiez vous fondre dans la masse. Vous devez faire attention à l'endroit et à la manière dont vous hébergez ProxiTok, car l'utilisation par d'autres personnes sera liée à votre hébergement.
 
@@ -113,7 +113,7 @@ Lorsque vous utilisez une instance de ProxiTok, veillez à lire la politique de 
 
 !!! warning "Avertissement"
 
-    Lorsque vous utilisez FreeTube, votre adresse IP peut encore être connue de YouTube, [Invidious](https://instances.invidious.io) ou [SponsorBlock](https://sponsor.ajay.app/) selon votre configuration. Envisagez d'utiliser un [VPN](vpn.md) ou [Tor](https://www.torproject.org) si votre [modèle de menace] (basics/threat-modeling.md) nécessite de masquer votre adresse IP.
+    Lorsque vous utilisez FreeTube, votre adresse IP peut encore être connue de YouTube, [Invidious](https://instances.invidious.io) ou [SponsorBlock](https://sponsor.ajay.app/) selon votre configuration. Envisagez d'utiliser un [VPN](vpn.md) ou [Tor](https://www.torproject.org) si votre [modèle de menace](basics/threat-modeling.md) nécessite de masquer votre adresse IP.
 
 ### Yattee
 
@@ -138,7 +138,7 @@ Lorsque vous utilisez une instance de ProxiTok, veillez à lire la politique de 
 
 !!! warning "Avertissement"
 
-    Lorsque vous utilisez Yattee, votre adresse IP peut encore être connue de YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) ou [SponsorBlock](https://sponsor.ajay.app/) selon votre configuration. Envisagez d'utiliser un [VPN](vpn.md) ou [Tor](https://www.torproject.org) si votre [modèle de menace] (basics/threat-modeling.md) nécessite de masquer votre adresse IP.
+    Lorsque vous utilisez Yattee, votre adresse IP peut encore être connue de YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) ou [SponsorBlock](https://sponsor.ajay.app/) selon votre configuration. Envisagez d'utiliser un [VPN](vpn.md) ou [Tor](https://www.torproject.org) si votre [modèle de menace](basics/threat-modeling.md) nécessite de masquer votre adresse IP.
 
 Par défaut, Yattee bloque toutes les publicités YouTube. En outre, Yattee s'intègre en option à [SponsorBlock](https://sponsor.ajay.app) pour vous aider à sauter les segments vidéo sponsorisés.
 
@@ -164,7 +164,7 @@ Par défaut, Yattee bloque toutes les publicités YouTube. En outre, Yattee s'in
 
 !!! warning "Avertissement"
 
-    Lorsque vous utilisez LibreTube, votre adresse IP sera visible par l'instance [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) que vous avez choisie et/ou [SponsorBlock](https://sponsor.ajay.app/) en fonction de votre configuration. Envisagez d'utiliser un [VPN](vpn.md) ou [Tor](https://www.torproject.org) si votre [modèle de menace] (basics/threat-modeling.md) nécessite de masquer votre adresse IP.
+    Lorsque vous utilisez LibreTube, votre adresse IP sera visible par l'instance [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) que vous avez choisie et/ou [SponsorBlock](https://sponsor.ajay.app/) en fonction de votre configuration. Envisagez d'utiliser un [VPN](vpn.md) ou [Tor](https://www.torproject.org) si votre [modèle de menace](basics/threat-modeling.md) nécessite de masquer votre adresse IP.
 
 Par défaut, LibreTube bloque toutes les publicités YouTube. En outre, Libretube utilise [SponsorBlock](https://sponsor.ajay.app) pour vous aider à sauter les segments vidéo sponsorisés. Vous pouvez configurer entièrement les types de segments que SponsorBlock va ignorer, ou le désactiver complètement. Il existe également un bouton sur le lecteur vidéo lui-même pour le désactiver pour une vidéo spécifique si vous le souhaitez.
 
@@ -217,7 +217,7 @@ Par défaut, LibreTube bloque toutes les publicités YouTube. En outre, Libretub
 
 !!! tip "Conseil"
 
-    Invidious est utile si vous souhaitez désactiver JavaScript dans votre navigateur, comme c'est le cas avec [le navigateur Tor] (https://www.torproject.org/) au niveau de sécurité le plus sûr. Il ne garantit pas la vie privée en soi, et nous ne recommandons pas de vous connecter à un compte quelconque.
+    Invidious est utile si vous souhaitez désactiver JavaScript dans votre navigateur, comme c'est le cas avec [le navigateur Tor](https://www.torproject.org/) au niveau de sécurité le plus sûr. Il ne garantit pas la vie privée en soi, et nous ne recommandons pas de vous connecter à un compte quelconque.
 
 Lorsque vous auto-hébergez, il est important que d'autres personnes utilisent également votre instance pour que vous puissiez vous fondre dans la masse. Vous devez faire attention à l'endroit et à la manière dont vous hébergez Invidious, car l'utilisation par d'autres personnes sera liée à votre hébergement.
 
@@ -253,11 +253,11 @@ Lorsque vous utilisez une instance de Piped, veillez à lire la politique de con
 
 !!! example "Cette section est récente"
 
-    Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum] (https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
+    Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum](https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
 
 Clients recommandés...
 
-- Doivent être open-source.
+- Doit être un logiciel open source.
 - Doit être auto-hébergeable.
 - Doit fournir toutes les fonctionnalités de base du site web accessibles aux utilisateurs anonymes.
 

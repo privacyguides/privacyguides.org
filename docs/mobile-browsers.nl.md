@@ -71,7 +71,7 @@ De opties van Shields kunnen naar behoefte per site worden aangepast, maar stand
 
 <div class="annotate" markdown>
 
-- [x] Selecteer **Disable non-proxied UDP** onder [WebRTC IP Handling Policy] (https://support.brave.com/hc/nl-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [x] Selecteer **Disable non-proxied UDP** onder [WebRTC IP Handling Policy](https://support.brave.com/hc/nl-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
 - [ ] Selecteer **Sites toestaan te controleren of je betaalmethoden hebt opgeslagen**
 - [ ] Selecteer **IPFS Gateway** uit (1)
 - [ ] Selecteer **Het vinkje uit. [x] Selecteer **Tabbladen sluiten bij afsluiten**

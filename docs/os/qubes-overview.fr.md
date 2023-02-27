@@ -38,7 +38,7 @@ Pour copier et coller des fichiers et des répertoires (dossiers) d'une VM à l'
 
 ??? info "Les AppVMs ou les qubes n'ont pas leur propre système de fichiers"
 
-    Vous pouvez [copier et déplacer des fichiers] (https://www.qubes-os.org/doc/how-to-copy-and-move-files/) entre les Qubes. Ce faisant, les changements ne sont pas immédiats et peuvent être facilement annulés en cas d'accident.
+    Vous pouvez [copier et déplacer des fichiers](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) entre les Qubes. Ce faisant, les changements ne sont pas immédiats et peuvent être facilement annulés en cas d'accident.
 
 ### Interactions inter-VM
 

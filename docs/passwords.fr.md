@@ -59,8 +59,8 @@ Le code côté serveur de Bitwarden est [open-source](https://github.com/bitward
 !!! recommendation
 
     ![Logo 1Password](assets/img/password-management/1password.svg){ align=right }
-    
-    **1Password** est un gestionnaire de mots de passe qui met l'accent sur la sécurité et la facilité d'utilisation. Il vous permet de stocker des mots de passe, des cartes de crédit, des licences de logiciels et toute autre information sensible dans un coffre-fort numérique sécurisé. Votre chambre forte est hébergée sur les serveurs de 1Password pour un [tarif mensuel](https://1password.com/sign-up/). 1Password est [audité](https://support.1password.com/security-assessments/) régulièrement et fournit un support client exceptionnel. 1Password est closed source ; cependant, la sécurité du produit est documentée de manière approfondie dans leur [livre blanc sur la sécurité] (https://1passwordstatic.com/files/security/1password-white-paper.pdf).
+
+    **1Password** est un gestionnaire de mots de passe qui met l'accent sur la sécurité et la facilité d'utilisation. Il vous permet de stocker des mots de passe, des cartes de crédit, des licences de logiciels et toute autre information sensible dans un coffre-fort numérique sécurisé. Votre chambre forte est hébergée sur les serveurs de 1Password pour un [tarif mensuel](https://1password.com/sign-up/). 1Password est [audité](https://support.1password.com/security-assessments/) régulièrement et fournit un support client exceptionnel. 1Password est closed source ; cependant, la sécurité du produit est documentée de manière approfondie dans leur [livre blanc sur la sécurité](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
     
     [:octicons-home-16: Page d'accueil](https://1password.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://support.1password.com/1password-privacy/){ .card-link title="Politique de confidentialité" }
@@ -109,7 +109,7 @@ Psono fournit une documentation complète pour son produit. Le client web de Pso
 
 !!! example "Cette section est récente"
 
-    Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum] (https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
+    Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum](https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
 
 #### Exigences minimales
 

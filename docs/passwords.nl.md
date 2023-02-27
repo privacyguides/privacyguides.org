@@ -60,7 +60,7 @@ De server-side code van Bitwarden is [open-source](https://github.com/bitwarden/
 
     ![1Password logo](assets/img/password-management/1password.svg){ align=right }
     
-    **1Password** is een wachtwoordmanager met een sterke focus op veiligheid en gebruiksgemak, waarmee je wachtwoorden, creditcards, softwarelicenties en andere gevoelige informatie kunt opslaan in een veilige digitale kluis. Uw kluis wordt gehost op de servers van 1Password voor een [maandelijkse vergoeding](https://1password.com/sign-up/). 1Password is [audited](https://support.1password.com/security-assessments/) op regelmatige basis en biedt uitzonderlijke klantenondersteuning. 1Password is closed source; de beveiliging van het product is echter grondig gedocumenteerd in hun [security white paper] (https://1passwordstatic.com/files/security/1password-white-paper.pdf).
+    **1Password** is een wachtwoordmanager met een sterke focus op veiligheid en gebruiksgemak, waarmee je wachtwoorden, creditcards, softwarelicenties en andere gevoelige informatie kunt opslaan in een veilige digitale kluis. Uw kluis wordt gehost op de servers van 1Password voor een [maandelijkse vergoeding](https://1password.com/sign-up/). 1Password is [audited](https://support.1password.com/security-assessments/) op regelmatige basis en biedt uitzonderlijke klantenondersteuning. 1Password is closed source; de beveiliging van het product is echter grondig gedocumenteerd in hun [security white paper](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
     
     [:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://support.1password.com/1password-privacy/){ .card-link title="Privacy Policy" }

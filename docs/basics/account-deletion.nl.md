@@ -3,7 +3,7 @@ title: "Account verwijderen"
 icon: 'material/account-remove'
 ---
 
-Na verloop van tijd kan het gemakkelijk zijn om een aantal online accounts te verzamelen, waarvan je er vele misschien niet meer gebruikt. Het verwijderen van deze ongebruikte accounts is een belangrijke stap in het terugwinnen van jouw privacy, aangezien slapende accounts kwetsbaar zijn voor gegevensinbreuken. Van een datalek is sprake wanneer de beveiliging van een dienst wordt gecompromitteerd en beschermde informatie door onbevoegden wordt ingezien, doorgegeven of gestolen. Inbreuken op gegevens zijn tegenwoordig helaas al [te gewoon](https://haveibeenpwned.com/PwnedWebsites), en dus is een goede digitale hygiëne de beste manier om de impact ervan op jouwleven te minimaliseren. Het doel van deze gids is je door het vervelende proces van accountverwijdering te loodsen, vaak bemoeilijkt door [bedrieglijk ontwerp](https://www.deceptive.design/), ten voordele van uw online aanwezigheid.
+Na verloop van tijd kan het gemakkelijk zijn om een aantal online accounts te verzamelen, waarvan je er vele misschien niet meer gebruikt. Het verwijderen van deze ongebruikte accounts is een belangrijke stap in het terugwinnen van jouw privacy, aangezien slapende accounts kwetsbaar zijn voor gegevensinbreuken. Van een datalek is sprake wanneer de beveiliging van een dienst wordt gecompromitteerd en beschermde informatie door onbevoegden wordt ingezien, doorgegeven of gestolen. Inbreuken op gegevens zijn tegenwoordig helaas al [te gewoon](https://haveibeenpwned.com/PwnedWebsites), en dus is een goede digitale hygiëne de beste manier om de impact ervan op jouw leven te minimaliseren. Het doel van deze gids is je door het vervelende proces van accountverwijdering te loodsen, vaak bemoeilijkt door [bedrieglijk ontwerp](https://www.deceptive.design/), ten voordele van uw online aanwezigheid.
 
 ## Oude accounts vinden
 
@@ -26,7 +26,7 @@ Desktopplatforms hebben vaak ook een wachtwoordmanager waarmee je vergeten wacht
 
 ### E-mail
 
-Als je in het verleden geen wachtwoord manager hebt gebruikt of je denkt dat je accounts hebt die nooit aan uw wachtwoord manager zijn toegevoegd, is een andere optie om de e-mailaccount(s) te doorzoeken waarop je zich volgens je hebt aangemeld. Zoek in jouw e-mailprogramma op trefwoorden als "verifiëren" of "welkom" Bijna elke keer dat je een online account aanmaakt, zal de dienst een verificatielink of een inleidend bericht naar jouw e-mail sturen. Dit kan een goede manier zijn om oude, vergeten accounts te vinden.
+Als je in het verleden geen wachtwoord manager hebt gebruikt of je denkt dat je accounts hebt die nooit aan jouw wachtwoord manager zijn toegevoegd, is een andere optie om de e-mailaccount(s) te doorzoeken waarop je zich volgens je hebt aangemeld. Zoek in jouw e-mailprogramma op trefwoorden als "verifiëren" of "welkom" Bijna elke keer dat je een online account aanmaakt, zal de dienst een verificatielink of een inleidend bericht naar jouw e-mail sturen. Dit kan een goede manier zijn om oude, vergeten accounts te vinden.
 
 ## Oude accounts verwijderen
 

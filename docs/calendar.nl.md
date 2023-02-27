@@ -3,7 +3,7 @@ title: "Kalendersynchronisatie"
 icon: material/calendar
 ---
 
-Kalenders en contactpersonen bevatten enkele van uw gevoeligste gegevens; gebruik producten die E2EE in rust implementeren om te voorkomen dat een provider ze kan lezen.
+Kalenders en contactpersonen bevatten enkele van jouw gevoeligste gegevens; gebruik producten die E2EE in rust implementeren om te voorkomen dat een provider ze kan lezen.
 
 ## Tutanota
 
@@ -52,7 +52,7 @@ Kalenders en contactpersonen bevatten enkele van uw gevoeligste gegevens; gebrui
 
 ## Criteria
 
-**Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je zich vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat het de juiste keuze voor je is.
+**Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaard criteria](about/criteria.md) hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je zich vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat het de juiste keuze voor je is.
 
 !!! example "Deze sectie is nieuw"
 

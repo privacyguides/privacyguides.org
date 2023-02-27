@@ -101,7 +101,7 @@ icon: material/tag-remove
 
 !!! 警告
 
-    您应该* *从不* *使用模糊来编辑[图片中的文本] (https://bishopfox.com/blog/unredacter-tool-never-pixelation)。 如果你想编辑图像中的文本，在文本上画一个方框。 为此，我们建议使用[Pocket Paint]（https://github.com/Catrobat/Paintroid）等应用程序。
+    您应该* *从不* *使用模糊来编辑[图片中的文本](https://bishopfox.com/blog/unredacter-tool-never-pixelation)。 如果你想编辑图像中的文本，在文本上画一个方框。 为此，我们建议使用[Pocket Paint]（https://github.com/Catrobat/Paintroid）等应用程序。
 
 ## 命令行
 

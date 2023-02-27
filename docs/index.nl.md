@@ -1,5 +1,5 @@
 ---
-template: overrides/home.en.html
+template: overrides/home.nl.html
 hide:
   - navigation
   - toc
@@ -25,9 +25,7 @@ Je moet privacy niet verwarren met geheimzinnigheid. We weten wat er in de badka
 
 ##### Eerst moet je een plan maken
 
-Het is onpraktisch, duur en vermoeiend om te proberen al jouw gegevens altijd tegen iedereen te beschermen.
-
-Maar maak je geen zorgen! Maar maak je geen zorgen! Veiligheid is een proces, en door vooruit te denken kunt je een plan samenstellen dat voor je geschikt is. Veiligheid gaat niet alleen over de tools die je gebruikt of de software die je downloadt. Integendeel, het begint met het begrijpen van de unieke bedreigingen waarmee je wordt geconfronteerd en hoe je deze kunt verminderen.
+Het is onpraktisch, duur en vermoeiend om te proberen al jouw gegevens altijd tegen iedereen te beschermen. Maar maak je geen zorgen! Veiligheid is een proces, en door vooruit te denken kunt je een plan samenstellen dat voor je geschikt is. Veiligheid gaat niet alleen over de tools die je gebruikt of de software die je downloadt. Integendeel, het begint met het begrijpen van de unieke bedreigingen waarmee je wordt geconfronteerd en hoe je deze kunt verminderen.
 
 ==Dit proces van het identificeren van bedreigingen en het vaststellen van tegenmaatregelen wordt **bedreigingsmodellering**== genoemd, en het vormt de basis van elk goed beveiligings- en privacyplan.
 
@@ -42,9 +40,9 @@ Het is belangrijk voor een website als Privacy Guides om altijd up-to-date te bl
 
 <div class="grid cards" style="margin:auto;max-width:800px;text-align:center;" markdown>
 
--:simple-discourse: Word lid van ons forum](https://discuss.privacyguides.net/)
+- [:simple-discourse: Word lid van ons forum](https://discuss.privacyguides.net/)
 - [:simple-mastodon: Volg ons op Mastodon](https://mastodon.neat.computer/@privacyguides){ rel=me }
--:material-book-edit: Draag bij aan deze website](https://github.com/privacyguides/privacyguides.org)
+- [:material-book-edit: Draag bij aan deze website](https://github.com/privacyguides/privacyguides.org)
 - [:simple-matrix: Chat met ons op Matrix](https://matrix.to/#/#privacyguides:matrix.org)
 - [:material-information-outline: Leer meer over ons](about/index.md)
 - [:material-hand-coin-outline: Steun het project](about/donate.md)

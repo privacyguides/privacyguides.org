@@ -5,9 +5,9 @@ hide:
   - toc
 ---
 
-Als je op zoek bent naar een specifieke oplossing voor iets, dan zijn dit de hardware en software tools die wij aanbevelen in verschillende categorieën. Onze aanbevolen privacytools zijn in de eerste plaats gekozen op basis van beveiligingskenmerken, met extra nadruk op gedecentraliseerde en open-source tools. Ze zijn van toepassing op een verscheidenheid aan dreigingsmodellen, variërend van bescherming tegen wereldwijde massasurveillanceprogramma's en het vermijden van grote technologiebedrijven tot het beperken van aanvallen, maar alleen u kunt bepalen wat het beste werkt voor uw behoeften.
+Als je op zoek bent naar een specifieke oplossing voor iets, dan zijn dit de hardware en software tools die wij aanbevelen in verschillende categorieën. Onze aanbevolen privacytools zijn in de eerste plaats gekozen op basis van beveiligingskenmerken, met extra nadruk op gedecentraliseerde en open-source tools. Ze zijn van toepassing op een verscheidenheid aan dreigingsmodellen, variërend van bescherming tegen wereldwijde massasurveillanceprogramma's en het vermijden van grote technologiebedrijven tot het beperken van aanvallen, maar alleen jij kunt bepalen wat het beste werkt voor jouw behoeften.
 
-Als u hulp wilt bij het uitzoeken van de beste privacytools en alternatieve programma's voor uw behoeften, start dan een discussie op ons [forum](https://discuss.privacyguides.net/) of onze [Matrix](https://matrix.to/#/#privacyguides:matrix.org) gemeenschap!
+Als je hulp wilt bij het uitzoeken van de beste privacytools en alternatieve programma's voor jouw behoeften, start dan een discussie op ons [forum](https://discuss.privacyguides.net/) of onze [Matrix](https://matrix.to/#/#privacyguides:matrix.org) gemeenschap!
 
 Voor meer details over elk project, waarom ze werden gekozen, en extra tips of trucs die we aanbevelen, klik op de "Meer informatie"-link in elke sectie, of klik op de aanbeveling zelf om naar die specifieke sectie van de pagina te gaan.
 
