@@ -59,7 +59,7 @@ Proton Mail dispose de rapports de plantages internes qu'il **ne partage pas** a
 
 ??? success "Sécurité du compte"
 
-    Proton Mail ne prend en charge que l'[authentification à deux facteurs](https://proton.me/support/two-factor-authentication-2fa) TOTP. L'utilisation d'une clé de sécurité U2F n'est pas encore prise en charge. Proton Mail prévoit d'implémenter U2F dès l'achèvement de son système d'[Authentification unique (SSO - Single Sign On)] (https://reddit.com/comments/cheoy6/comment/feh2lw0/).
+    Proton Mail ne prend en charge que l'[authentification à deux facteurs](https://proton.me/support/two-factor-authentication-2fa) TOTP. L'utilisation d'une clé de sécurité U2F n'est pas encore prise en charge. Proton Mail prévoit d'implémenter U2F dès l'achèvement de son système d'[Authentification unique (SSO - Single Sign On)](https://reddit.com/comments/cheoy6/comment/feh2lw0/).
 
 ??? success "Sécurité des données"
 
@@ -111,7 +111,7 @@ Proton Mail dispose de rapports de plantages internes qu'il **ne partage pas** a
 
 ??? success "Sécurité du compte"
 
-    Mailbox.org prend en charge [l'authentification à deux facteurs] (https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) pour son webmail uniquement. Vous pouvez utiliser soit TOTP soit un [Yubikey](https://fr.wikipedia.org/wiki/YubiKey) via le [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Les normes web telles que [WebAuthn](https://fr.wikipedia.org/wiki/WebAuthn) ne sont pas encore prises en charge.
+    Mailbox.org prend en charge [l'authentification à deux facteurs](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) pour son webmail uniquement. Vous pouvez utiliser soit TOTP soit un [Yubikey](https://fr.wikipedia.org/wiki/YubiKey) via le [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Les normes web telles que [WebAuthn](https://fr.wikipedia.org/wiki/WebAuthn) ne sont pas encore prises en charge.
 
 ??? info "Sécurité des données"
 
@@ -121,7 +121,7 @@ Proton Mail dispose de rapports de plantages internes qu'il **ne partage pas** a
 
 ??? success "Chiffrement des e-mails"
 
-    Mailbox.org a [intégré le chiffrement](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) dans son webmail, ce qui simplifie l'envoi de messages aux personnes disposant de clés OpenPGP publiques. Ils permettent également [aux destinataires distants de déchiffrer un e-mail] (https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) sur les serveurs de Mailbox.org. Cette fonction est utile lorsque le destinataire distant ne dispose pas d'OpenPGP et ne peut pas déchiffrer une copie de l'e-mail dans sa propre boîte mail.
+    Mailbox.org a [intégré le chiffrement](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) dans son webmail, ce qui simplifie l'envoi de messages aux personnes disposant de clés OpenPGP publiques. Ils permettent également [aux destinataires distants de déchiffrer un e-mail](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) sur les serveurs de Mailbox.org. Cette fonction est utile lorsque le destinataire distant ne dispose pas d'OpenPGP et ne peut pas déchiffrer une copie de l'e-mail dans sa propre boîte mail.
     
     Mailbox.org supporte également la découverte de clés publiques via HTTP à partir de leur [Répertoire de Clés Web (WKD - Web Key Directory)](https://wiki.gnupg.org/WKD). Cela permet aux personnes extérieures à Mailbox.org de trouver facilement les clés OpenPGP des comptes Mailbox.org, pour un E2EE inter-fournisseurs.
 
@@ -135,7 +135,7 @@ Proton Mail dispose de rapports de plantages internes qu'il **ne partage pas** a
 
 ??? info "Fonctionnalités supplémentaires"
 
-    Vous pouvez accéder à votre compte Mailbox.org via IMAP/SMTP en utilisant leur [service .onion] (https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+de+mailbox.org). Cependant, leur interface webmail n'est pas accessible via leur service .onion et vous pouvez rencontrer des erreurs de certificat TLS.
+    Vous pouvez accéder à votre compte Mailbox.org via IMAP/SMTP en utilisant leur [service .onion](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+de+mailbox.org). Cependant, leur interface webmail n'est pas accessible via leur service .onion et vous pouvez rencontrer des erreurs de certificat TLS.
     
     Tous les comptes sont dotés d'un espace de stockage cloud limité qui [peut être chiffré](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+sur+votre+Drive). Mailbox.org propose également l'alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely) qui impose le chiffrement TLS sur la connexion entre les serveurs de messagerie, sinon le message ne sera pas envoyé du tout. Mailbox.org supporte également [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) en plus des protocoles d'accès standard comme IMAP et POP3.
 
@@ -158,7 +158,7 @@ Proton Mail dispose de rapports de plantages internes qu'il **ne partage pas** a
 
 ??? success "Domaines personnalisés et alias"
 
-    Les comptes personnels peuvent utiliser des alias [Personnalisés ou Rapides] (https://support.startmail.com/hc/en-us/articles/360007297457-Aliases). Des [domaines personnalisés](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) sont également disponibles.
+    Les comptes personnels peuvent utiliser des alias [Personnalisés ou Rapides](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases). Des [domaines personnalisés](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) sont également disponibles.
 
 ??? warning "Modes de paiement privés"
 
@@ -176,7 +176,7 @@ Proton Mail dispose de rapports de plantages internes qu'il **ne partage pas** a
 
 ??? success "Chiffrement des e-mails"
 
-    StartMail dispose d'un [chiffrement intégré] (https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) dans son webmail, ce qui simplifie l'envoi de messages chiffrés avec des clés OpenPGP publiques.
+    StartMail dispose d'un [chiffrement intégré](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) dans son webmail, ce qui simplifie l'envoi de messages chiffrés avec des clés OpenPGP publiques.
 
 ??? warning "Héritage numérique"
 
@@ -184,7 +184,7 @@ Proton Mail dispose de rapports de plantages internes qu'il **ne partage pas** a
 
 ??? info "Résiliation du compte"
 
-    À l'expiration du compte, StartMail supprimera définitivement votre compte après [6 mois en 3 phases] (https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
+    À l'expiration du compte, StartMail supprimera définitivement votre compte après [6 mois en 3 phases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
 
 ??? info "Fonctionnalités supplémentaires"
 
@@ -222,7 +222,7 @@ Tutanota ne prend pas en charge le [protocole IMAP](https://tutanota.com/faq/#im
 
 ??? success "Domaines personnalisés et alias"
 
-    Les comptes Tutanota payants peuvent utiliser jusqu'à 5 [alias](https://tutanota.com/faq#alias) et [domaines personnalisés] (https://tutanota.com/faq#custom-domain). Tutanota ne permet pas le [sous-adressage (adresses plus)] (https://tutanota.com/faq#plus), mais vous pouvez utiliser un [fourre-tout](https://tutanota.com/howto#settings-global) avec un domaine personnalisé.
+    Les comptes Tutanota payants peuvent utiliser jusqu'à 5 [aliases](https://tutanota.com/faq#alias) et [domaines personnalisés](https://tutanota.com/faq#custom-domain). Tutanota ne permet pas le [sous-adressage (adresses plus)](https://tutanota.com/faq#plus), mais vous pouvez utiliser un [fourre-tout](https://tutanota.com/howto#settings-global) avec un domaine personnalisé.
 
 ??? warning "Modes de paiement privés"
 
@@ -230,15 +230,15 @@ Tutanota ne prend pas en charge le [protocole IMAP](https://tutanota.com/faq/#im
 
 ??? success "Sécurité du compte"
 
-    Tutanota prend en charge l'[authentification à deux facteurs] (https://tutanota.com/faq#2fa) avec TOTP ou U2F.
+    Tutanota prend en charge l'[authentification à deux facteurs](https://tutanota.com/faq#2fa) avec TOTP ou U2F.
 
 ??? success "Sécurité des données"
 
-    Tutanota dispose d'un [chiffrement à accès zéro au repos] (https://tutanota.com/faq#what-encrypted) pour vos e-mails, [contacts du carnet d'adresses] (https://tutanota.com/faq#encrypted-address-book) et [calendriers](https://tutanota.com/faq#calendar). Cela signifie que les messages et autres données stockés dans votre compte ne sont lisibles que par vous.
+    Tutanota dispose d'un [chiffrement à accès zéro au repos](https://tutanota.com/faq#what-encrypted) pour vos e-mails, [contacts du carnet d'adresses](https://tutanota.com/faq#encrypted-address-book) et [calendriers](https://tutanota.com/faq#calendar). Cela signifie que les messages et autres données stockés dans votre compte ne sont lisibles que par vous.
 
 ??? warning "Chiffrement des e-mails"
 
-    Tutanota [n'utilise pas OpenPGP] (https://www.tutanota.com/faq/#pgp). Les comptes Tutanota peuvent uniquement recevoir des e-mails chiffrés provenant de comptes de messagerie non Tutanota lorsqu'ils sont envoyés via une [boîte aux lettres temporaire Tutanota] (https://www.tutanota.com/howto/#encrypted-email-external).
+    Tutanota [n'utilise pas OpenPGP](https://www.tutanota.com/faq/#pgp). Les comptes Tutanota peuvent uniquement recevoir des e-mails chiffrés provenant de comptes de messagerie non Tutanota lorsqu'ils sont envoyés via une [boîte aux lettres temporaire Tutanota] (https://www.tutanota.com/howto/#encrypted-email-external).
 
 ??? warning "Héritage numérique"
 
@@ -246,13 +246,13 @@ Tutanota ne prend pas en charge le [protocole IMAP](https://tutanota.com/faq/#im
 
 ??? info "Résiliation du compte"
 
-    Tutanota [supprimera les comptes gratuits inactifs] (https://tutanota.com/faq#inactive-accounts) après six mois. Vous pouvez réutiliser un compte gratuit désactivé si vous payez.
+    Tutanota [supprimera les comptes gratuits inactifs](https://tutanota.com/faq#inactive-accounts) après six mois. Vous pouvez réutiliser un compte gratuit désactivé si vous payez.
 
 ??? info "Fonctionnalités supplémentaires"
 
-    Tutanota propose la version professionnelle de [Tutanota pour les organisations à but non lucratif] (https://tutanota.com/blog/posts/secure-email-for-non-profit) gratuitement ou avec une grosse réduction.
+    Tutanota propose la version professionnelle de [Tutanota pour les organisations à but non lucratif](https://tutanota.com/blog/posts/secure-email-for-non-profit) gratuitement ou avec une grosse réduction.
     
-    Tutanota dispose également d'une fonction commerciale appelée [Secure Connect] (https://tutanota.com/secure-connect/). Cela garantit que le contact du client avec l'entreprise utilise E2EE. La fonctionnalité coûte 240 €/an.
+    Tutanota dispose également d'une fonction commerciale appelée [Secure Connect](https://tutanota.com/secure-connect/). Cela garantit que le contact du client avec l'entreprise utilise E2EE. La fonctionnalité coûte 240 €/an.
 
 ## Services d'alias d'e-mails
 

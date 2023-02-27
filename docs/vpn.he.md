@@ -139,7 +139,7 @@ icon: material/vpn
 
 ??? success "העברת יציאות מרחוק"
 
-    [העברת יציאות] מרחוק (https://en.wikipedia.org/wiki/Port_forwarding) אפשרית עם תוכנית Pro. העברת יציאות [ניתן להפעיל](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html) דרך אזור הלקוח. העברת פורט זמינה רק ב - IVPN בעת שימוש בפרוטוקולי WireGuard או OpenVPN והיא [מושבתת בשרתים בארה"ב]( https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
+    מרחוק [העברת יציאות](https://en.wikipedia.org/wiki/Port_forwarding) אפשרית עם תוכנית Pro. העברת יציאות [ניתן להפעיל](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html) דרך אזור הלקוח. העברת פורט זמינה רק ב - IVPN בעת שימוש בפרוטוקולי WireGuard או OpenVPN והיא [מושבתת בשרתים בארה"ב]( https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
 
 ??? check "קליינטים ניידים"
 

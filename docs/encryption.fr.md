@@ -48,7 +48,7 @@ La documentation de Cryptomator détaille sa [cible de sécurité](https://docs.
     **Picocrypt** est un outil de chiffrement léger et simple qui fournit un chiffrement moderne. Picocrypt utilise le chiffrement sécurisé XChaCha20 et la fonction de dérivation de clé Argon2id pour assurer un haut niveau de sécurité. Il utilise les modules x/crypto standards de Go pour ses fonctions de chiffrement.
     
     [:octicons-repo-16: Dépôt](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Code Source" }
+    [:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Code source" }
     [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribuer }
     
     ??? downloads "Téléchargements"
@@ -68,7 +68,7 @@ La documentation de Cryptomator détaille sa [cible de sécurité](https://docs.
     
     [:octicons-home-16: Page d'accueil](https://veracrypt.fr){ .md-button .md-button--primary }
     [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Code Source" }
+    [:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Code source" }
     [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribuer }
     
     ??? downloads "Téléchargements"
@@ -159,7 +159,7 @@ Nous recommandons de stocker une clé de récupération locale dans un endroit s
     
     [:octicons-home-16: Page d'accueil](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
     [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup/){ .card-link title="Code Source" }
+    [:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup/){ .card-link title="Code source" }
 
 ??? example "Créer et ouvrir des conteneurs chiffrés"
 
@@ -198,9 +198,9 @@ Le chiffrement basé sur le navigateur peut être utile lorsque vous avez besoin
     **Hat.sh** est une application web qui fournit un chiffrement sécurisé des fichiers dans votre navigateur. Il peut également être auto-hébergé et est utile si vous devez chiffrer un fichier mais que vous ne pouvez pas installer de logiciel sur votre appareil en raison de politiques d'entreprises.
     
     [:octicons-globe-16: Page d'accueil](https://hat.sh){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://hat.sh/about/){ .card-link title="Politique de Confidentialité" }
+    [:octicons-eye-16:](https://hat.sh/about/){ .card-link title="Politique de confidentialité" }
     [:octicons-info-16:](https://hat.sh/about/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/sh-dv/hat.sh){ .card-link title="Code Source" }
+    [:octicons-code-16:](https://github.com/sh-dv/hat.sh){ .card-link title="Code source" }
     [:octicons-heart-16:](https://github.com/sh-dv/hat.sh#donations){ .card-link title="Les méthodes de dons se trouvent au bas du site web" }
 
 ## Ligne de commande
@@ -216,9 +216,9 @@ Les outils dotés d'une interface de ligne de commande sont utiles pour intégre
     **Kryptor** est un outil gratuit et open source de chiffrement et de signature de fichiers qui utilise des algorithmes cryptographiques modernes et sécurisés. Il vise à être une meilleure version d'[age](https://github.com/FiloSottile/age) et [Minisign](https://jedisct1.github.io/minisign/) pour fournir une alternative simple et facile à GPG.
     
     [:octicons-home-16: Page d'accueil](https://www.kryptor.co.uk){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="Politique de Confidentialité" }
+    [:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="Politique de confidentialité" }
     [:octicons-info-16:](https://www.kryptor.co.uk/tutorial){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Code Source" }
+    [:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Code source" }
     [:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Contribuer }
     
     ??? downloads "Téléchargements"
@@ -237,7 +237,7 @@ Les outils dotés d'une interface de ligne de commande sont utiles pour intégre
     
     [:octicons-home-16: Page d'accueil](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
     [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="Code Source" }
+    [:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="Code source" }
     [:octicons-heart-16:](https://www.dyne.org/donate){ .card-link title=Contribuer }
 
 ## OpenPGP
@@ -263,9 +263,9 @@ Lorsque vous chiffrez avec PGP, vous avez la possibilité de configurer différe
     **GnuPG** est une alternative sous licence GPL de la suite de logiciels cryptographiques PGP. GnuPG est conforme [RFC 4880](https://tools.ietf.org/html/rfc4880), qui est la spécification actuelle de l'IETF pour OpenPGP. Le projet GnuPG a travaillé sur une [nouvelle ébauche](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) dans le but de moderniser OpenPGP. GnuPG fait partie du projet logiciel GNU de la Free Software Foundation et a reçu un [financement](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) majeur du gouvernement allemand.
     
     [:octicons-home-16: Page d'accueil](https://gnupg.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Politique de Confidentialité" }
+    [:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Politique de confidentialité" }
     [:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Code Source" }
+    [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Code source" }
     
     ??? downloads "Téléchargements"
     
@@ -283,9 +283,9 @@ Lorsque vous chiffrez avec PGP, vous avez la possibilité de configurer différe
     **GPG4win** est un paquet pour Windows de [Intevation et g10 Code](https://gpg4win.org/impressum.html). Il comprend [divers outils](https://gpg4win.org/about.html) qui peuvent vous aider à utiliser GPG sous Microsoft Windows. Le projet a été lancé et initialement [financé par](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) l'Office Fédéral allemand pour la Sécurité de l'Information (BSI) en 2005.
     
     [:octicons-home-16: Page d'accueil](https://gpg4win.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Politique de Confidentialité" }
+    [:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Politique de confidentialité" }
     [:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Code Source" }
+    [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Code source" }
     [:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribuer }
     
     ??? downloads "Téléchargements"
@@ -307,9 +307,9 @@ Lorsque vous chiffrez avec PGP, vous avez la possibilité de configurer différe
     Nous vous recommandons de consulter leurs [Premiers pas](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) et leur [Base de connaissances](https://gpgtools.tenderapp.com/kb) pour obtenir de l'aide.
     
     [:octicons-home-16: Page d'accueil](https://gpgtools.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Politique de Confidentialité" }
+    [:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Politique de confidentialité" }
     [:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Code Source" }
+    [:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Code source" }
     
     ??? downloads "Téléchargements"
     
@@ -324,9 +324,9 @@ Lorsque vous chiffrez avec PGP, vous avez la possibilité de configurer différe
     **OpenKeychain** est une implémentation Android de GnuPG. Elle est généralement requise par les clients de messagerie comme [K-9 Mail](email-clients.md#k-9-mail) et [FairEmail](email-clients.md#fairemail) et d'autres applications Android pour fournir la prise en charge du chiffrement. Cure53 a réalisé un [audit de sécurité](https://www.openkeychain.org/openkeychain-3-6) d'OpenKeychain 3.6 en octobre 2015. Les détails techniques concernant l'audit et les solutions d'OpenKeychain peuvent être trouvés [ici](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
     
     [:octicons-home-16: Page d'accueil](https://www.openkeychain.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Politique de Confidentialité" }
+    [:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Politique de confidentialité" }
     [:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Code Source" }
+    [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Code source" }
     
     ??? downloads "Téléchargements"
     

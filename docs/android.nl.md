@@ -5,20 +5,20 @@ icon: 'simple/android'
 
 ![Android logo](assets/img/android/android.svg){ align=right }
 
-Het **Android Open Source Project** is een open-source mobiel besturingssysteem onder leiding van Google dat de meerderheid van de mobiele apparaten van de wereld aandrijft. De meeste telefoons die met Android worden verkocht zijn aangepast om invasieve integraties en apps zoals Google Play Services op te nemen, dus u kunt uw privacy op uw mobiele apparaat aanzienlijk verbeteren door de standaardinstallatie van uw telefoon te vervangen door een versie van Android zonder deze invasieve functies.
+Het **Android Open Source Project** is een open-source mobiel besturingssysteem onder leiding van Google dat de meerderheid van de mobiele apparaten van de wereld aandrijft. De meeste telefoons die met Android worden verkocht zijn aangepast om invasieve integraties en apps zoals Google Play Services op te nemen, dus je kunt jouw privacy op jouw mobiele apparaat aanzienlijk verbeteren door de standaardinstallatie van jouw telefoon te vervangen door een versie van Android zonder deze invasieve functies.
 
 [:octicons-home-16:](https://source.android.com/){ .card-link title=Homepage }
 [:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentatie}
 [:octicons-code-16:](https://cs.android.com/android/platform/superproject/){ .card-link title="Broncode" }
 
-Dit zijn de Android-besturingssystemen, apparaten en apps die wij aanbevelen om de beveiliging en privacy van uw mobiele apparaat te maximaliseren. aanbeveling
+Dit zijn de Android-besturingssystemen, apparaten en apps die wij aanbevelen om de beveiliging en privacy van jouw mobiele apparaat te maximaliseren. aanbeveling
 
-- [Algemeen Android-overzicht en -aanbevelingen :hero-arrow-circle-right-fill:](os/android-overview.md)
-- [Waarom we GrapheneOS aanbevelen boven CalyxOS :hero-arrow-circle-right-fill:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/)
+- [Algemeen Android-overzicht en -aanbevelingen :material-arrow-right-drop-circle:](os/android-overview.md)
+- [Waarom we GrapheneOS aanbevelen boven CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/)
 
 ## AOSP-derivaten
 
-Wij raden u aan een van deze aangepaste Android-besturingssystemen op uw toestel te installeren, in volgorde van voorkeur, afhankelijk van de compatibiliteit van uw toestel met deze besturingssystemen.
+Wij raden je aan een van deze aangepaste Android-besturingssystemen op jouw toestel te installeren, in volgorde van voorkeur, afhankelijk van de compatibiliteit van jouw toestel met deze besturingssystemen.
 
 !!! note
 
@@ -65,7 +65,7 @@ DivestOS heeft geautomatiseerde kernel kwetsbaarheden ([CVE](https://en.wikipedi
 
 DivestOS implementeert enkele systeemhardingspatches die oorspronkelijk voor GrapheneOS zijn ontwikkeld. De software en firmware van mobiele toestellen worden slechts een beperkte tijd ondersteund, dus door nieuw te kopen wordt die levensduur zoveel mogelijk verlengd. 17.1 en hoger bevat GrapheneOS's per-netwerk volledige [MAC randomisatie](https://en.wikipedia.org/wiki/MAC_address#Randomization) optie, [`ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) controle, en automatische reboot/Wi-Fi/Bluetooth [timeout opties](https://grapheneos.org/features).
 
-CalyxOS bevat optioneel [microG](https://microg.org/), een gedeeltelijk open-source herimplementatie van Play Services die een bredere app compatibiliteit biedt. Het bundelt ook alternatieve locatiediensten: [Mozilla](https://location.services.mozilla.com/) en [DejaVu](https://github.com/n76/DejaVu). Deze telefoon varianten zullen voorkomen dat u enige vorm van alternatieve Android distributie installeert. Wij raden aan de officiële F-Droid app uit te schakelen en [Neo Store](https://github.com/NeoApplications/Neo-Store/) te gebruiken met de DivestOS repositories ingeschakeld om die componenten up-to-date te houden. Voor andere apps gelden nog steeds onze aanbevolen methoden om ze te verkrijgen.
+CalyxOS bevat optioneel [microG](https://microg.org/), een gedeeltelijk open-source herimplementatie van Play Services die een bredere app compatibiliteit biedt. Het bundelt ook alternatieve locatiediensten: [Mozilla](https://location.services.mozilla.com/) en [DejaVu](https://github.com/n76/DejaVu). Op DivestOS is dat echter niet mogelijk; de ontwikkelaars werken hun apps bij via hun eigen F-Droid repositories ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) en [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). Wij raden aan de officiële F-Droid app uit te schakelen en [Neo Store](https://github.com/NeoApplications/Neo-Store/) te gebruiken met de DivestOS repositories ingeschakeld om die componenten up-to-date te houden. Voor andere apps gelden nog steeds onze aanbevolen methoden om ze te verkrijgen.
 
 !!! warning
 
@@ -75,11 +75,11 @@ CalyxOS bevat optioneel [microG](https://microg.org/), een gedeeltelijk open-sou
 
 ## Android-apparaten
 
-Wanneer u een apparaat koopt, raden wij u aan er een zo nieuw als mogelijk te kopen. De software en firmware van mobiele apparaten worden slechts een beperkte tijd ondersteund, dus door nieuw te kopen wordt die levensduur zoveel mogelijk verlengd.
+Wanneer je een apparaat koopt, raden wij je aan er een zo nieuw als mogelijk te kopen. De software en firmware van mobiele apparaten worden slechts een beperkte tijd ondersteund, dus door nieuw te kopen wordt die levensduur zoveel mogelijk verlengd.
 
-Vermijd het kopen van telefoons van mobiele netwerkoperatoren. Deze hebben vaak een **vergrendelde bootloader** en bieden geen ondersteuning voor [OEM-ontgrendeling](https://source.android.com/devices/bootloader/locking_unlocking). Deze telefoonvarianten voorkomen dat u enige vorm van alternatieve Android-distributie installeert.
+Vermijd het kopen van telefoons van mobiele netwerkoperatoren. Deze hebben vaak een **vergrendelde bootloader** en bieden geen ondersteuning voor [OEM-ontgrendeling](https://source.android.com/devices/bootloader/locking_unlocking). Deze telefoonvarianten voorkomen dat je enige vorm van alternatieve Android-distributie installeert.
 
-Wees zeer **voorzichtig** met het kopen van tweedehands telefoons van online marktplaatsen. Controleer altijd de reputatie van de verkoper. Als het apparaat is gestolen, is het mogelijk [IMEI geblacklist](https://www.gsma.com/security/resources/imei-blacklisting/) is. Er is ook een risico dat u in verband wordt gebracht met de activiteiten van de vorige eigenaar.
+Wees zeer **voorzichtig** met het kopen van tweedehands telefoons van online marktplaatsen. Controleer altijd de reputatie van de verkoper. Als het apparaat is gestolen, is het mogelijk [IMEI geblacklist](https://www.gsma.com/security/resources/imei-blacklisting/) is. Er is ook een risico dat je in verband wordt gebracht met de activiteiten van de vorige eigenaar.
 
 Nog een paar tips met betrekking tot Android toestellen en compatibiliteit van het besturingssysteem:
 
@@ -89,7 +89,7 @@ Nog een paar tips met betrekking tot Android toestellen en compatibiliteit van h
 
 ### Google Pixel
 
-Google Pixel-telefoons zijn de **enige** -toestellen die we aanraden om te kopen. Pixel-telefoons hebben een sterkere hardwarebeveiliging dan alle andere Android-toestellen die momenteel op de markt zijn, dankzij de juiste AVB-ondersteuning voor besturingssystemen van derden en Google's aangepaste [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) -beveiligingschips die functioneren als het Secure Element.
+Google Pixel-telefoons zijn de **enige** toestellen die we aanraden om te kopen. Pixel-telefoons hebben een sterkere hardwarebeveiliging dan alle andere Android-toestellen die momenteel op de markt zijn, dankzij de juiste AVB-ondersteuning voor besturingssystemen van derden en Google's aangepaste [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) -beveiligingschips die functioneren als het Secure Element.
 
 !!! recommendation
 
@@ -105,13 +105,13 @@ Secure Elements zoals de Titan M2 zijn beperkter dan de Trusted Execution Enviro
 
 Google Pixel-telefoons gebruiken een TEE OS genaamd Trusty dat [open-source](https://source.android.com/security/trusty#whyTrusty)is, in tegenstelling tot veel andere telefoons.
 
-De installatie van GrapheneOS op een Pixel telefoon is eenvoudig met hun [web installer](https://grapheneos.org/install/web). Als u zich niet op uw gemak voelt om het zelf te doen en bereid bent om een beetje extra geld uit te geven, kijk dan eens naar de [NitroPhone](https://shop.nitrokey.com/shop). Deze zijn voorgeladen met GrapheneOS van het gerenommeerde bedrijf [Nitrokey](https://www.nitrokey.com/about).
+De installatie van GrapheneOS op een Pixel telefoon is eenvoudig met hun [web installer](https://grapheneos.org/install/web). Als je zich niet op jouw gemak voelt om het zelf te doen en bereid bent om een beetje extra geld uit te geven, kijk dan eens naar de [NitroPhone](https://shop.nitrokey.com/shop). Deze zijn voorgeladen met GrapheneOS van het gerenommeerde bedrijf [Nitrokey](https://www.nitrokey.com/about).
 
 Nog een paar tips voor de aanschaf van een Google Pixel:
 
-- Als u op zoek bent naar een koopje voor een Pixel-toestel, raden wij u aan een "**a**"-model te kopen, net nadat het volgende vlaggenschip is uitgebracht. Kortingen zijn meestal beschikbaar omdat Google zal proberen om hun voorraad op te ruimen.
+- Als je op zoek bent naar een koopje voor een Pixel-toestel, raden wij je aan een "**a**"-model te kopen, net nadat het volgende vlaggenschip is uitgebracht. Kortingen zijn meestal beschikbaar omdat Google zal proberen om hun voorraad op te ruimen.
 - Overweeg de mogelijkheden om de prijzen te verlagen en de speciale aanbiedingen van de fysieke winkels.
-- Kijk naar online gemeenschap koopjes sites in uw land. Deze kunnen je waarschuwen voor goede verkopen.
+- Kijk naar online naar de koopjes sites in jouw land. Deze kunnen je waarschuwen voor goede uitverkopen.
 - Google geeft een lijst met de [ondersteuningscyclus](https://support.google.com/nexus/answer/4457705) voor elk van hun toestellen. De prijs per dag voor een apparaat kan worden berekend als: $\text{Kosten} \over \text {Datum einde levensduur}-\text{Huidige datum}$, wat betekent dat hoe langer het apparaat wordt gebruikt, hoe lager de kosten per dag zijn.
 
 ## Algemene toepassingen
@@ -124,7 +124,7 @@ De volgende OEM's worden alleen genoemd omdat zij telefoons hebben die compatibe
 
     ![Shelter logo](assets/img/android/shelter.svg){ align=right }
     
-    **Shelter** is een app waarmee u gebruik kunt maken van de functie Werkprofiel van Android om apps op uw apparaat te isoleren of te dupliceren.
+    **Shelter** is een app waarmee je gebruik kunt maken van de functie Werkprofiel van Android om apps op uw apparaat te isoleren of te dupliceren.
     
     Shelter ondersteunt het blokkeren van het zoeken naar contacten tussen profielen en het delen van bestanden tussen profielen via de standaard bestandsbeheerder ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
     
@@ -138,9 +138,9 @@ De volgende OEM's worden alleen genoemd omdat zij telefoons hebben die compatibe
 
 !!! warning
 
-    Shelter wordt aanbevolen boven [Insular](https://secure-system.gitlab.io/Insular/) en [Island](https://github.com/oasisfeng/island) omdat het [blokkeren van contact zoeken] (https://secure-system.gitlab.io/Insular/faq.html) ondersteunt.
+    Shelter wordt aanbevolen boven [Insular](https://secure-system.gitlab.io/Insular/) en [Island](https://github.com/oasisfeng/island) omdat het [blokkeren van contact zoeken](https://secure-system.gitlab.io/Insular/faq.html) ondersteunt.
     
-    Wanneer u Shelter gebruikt, stelt u uw volledige vertrouwen in de ontwikkelaar, aangezien Shelter optreedt als [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) voor het werkprofiel en uitgebreide toegang heeft tot de gegevens die erin zijn opgeslagen.
+    Wanneer je Shelter gebruikt, stelt je jouw volledige vertrouwen in de ontwikkelaar, aangezien Shelter optreedt als [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) voor het werkprofiel en uitgebreide toegang heeft tot de gegevens die erin zijn opgeslagen.
 
 ### Auditor
 
@@ -173,7 +173,7 @@ Auditor voert attest en inbraakdetectie uit door:
 
 Er wordt geen persoonlijk identificeerbare informatie aan de attestatiedienst verstrekt. Wij raden je aan je aan te melden met een anonieme account en attestatie op afstand in te schakelen voor voortdurende controle.
 
-Als jouw [bedreigingsmodel](basics/threat-modeling.md) privacy vereist, kunt u overwegen [Orbot](tor.md#orbot) of een VPN te gebruiken om uw IP-adres voor de attestatiedienst te verbergen. Om er zeker van te zijn dat uw hardware en besturingssysteem echt zijn, voert [onmiddellijk na de installatie van het apparaat en vóór elke internetverbinding een lokale attestatie uit:](https://grapheneos.org/install/web#verifying-installation).
+Als jouw [bedreigingsmodel](basics/threat-modeling.md) privacy vereist, kunt je overwegen [Orbot](tor.md#orbot) of een VPN te gebruiken om jouw IP-adres voor de attestatiedienst te verbergen. Om er zeker van te zijn dat jouw hardware en besturingssysteem echt zijn, voert [onmiddellijk na de installatie van het apparaat en vóór elke internetverbinding een lokale attestatie uit:](https://grapheneos.org/install/web#verifying-installation).
 
 ### Secure Camera
 
@@ -205,7 +205,7 @@ De belangrijkste privacyfuncties zijn:
 
     Metadata worden momenteel niet verwijderd uit videobestanden, maar dat is wel de bedoeling.
     
-    De metadata over de beeldoriëntatie worden niet gewist. Als u locatie inschakelt (in Secure camera), wordt deze **niet** verwijderd. Als je dat later wilt verwijderen moet je een externe app gebruiken zoals [ExifEraser](data-redaction.md#exiferaser).
+    De metadata over de beeldoriëntatie worden niet gewist. Als je gps locatie inschakelt (in Secure camera), wordt deze **niet** verwijderd. Als je dat later wilt verwijderen moet je een externe app gebruiken zoals [ExifEraser](data-redaction.md#exiferaser).
 
 ### Secure PDF Viewer
 
@@ -232,7 +232,7 @@ De belangrijkste privacyfuncties zijn:
 
 ### GrapheneOS App Store
 
-De app store van GrapheneOS is beschikbaar op [GitHub](https://github.com/GrapheneOS/Apps/releases). Het ondersteunt Android 12 en hoger en is in staat om zichzelf te updaten. De app store heeft standalone applicaties gebouwd door het GrapheneOS project zoals de [Auditor](https://attestation.app/), [Camera](https://github.com/GrapheneOS/Camera), en [PDF Viewer](https://github.com/GrapheneOS/PdfViewer). Als u op zoek bent naar deze applicaties, raden wij u ten zeerste aan ze te halen uit de app-winkel van GrapheneOS in plaats van de Play Store, omdat de apps in hun winkel zijn ondertekend door de eigen handtekening van het GrapheneOS-project waar Google geen toegang toe heeft.
+De app store van GrapheneOS is beschikbaar op [GitHub](https://github.com/GrapheneOS/Apps/releases). Het ondersteunt Android 12 en hoger en is in staat om zichzelf te updaten. De app store heeft standalone applicaties gebouwd door het GrapheneOS project zoals de [Auditor](https://attestation.app/), [Camera](https://github.com/GrapheneOS/Camera), en [PDF Viewer](https://github.com/GrapheneOS/PdfViewer). Als je op zoek bent naar deze applicaties, raden wij je ten zeerste aan ze te halen uit de app-winkel van GrapheneOS in plaats van de Play Store, omdat de apps in hun winkel zijn ondertekend door de eigen handtekening van het GrapheneOS-project waar Google geen toegang toe heeft.
 
 ### Aurora Store
 
@@ -251,7 +251,7 @@ De Google Play Store vereist een Google-account om in te loggen, wat de privacy 
     
         - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
-Met de Aurora Store kun je geen betaalde apps downloaden met hun anonieme accountfunctie. U kunt optioneel inloggen met uw Google-account bij de Aurora Store om apps te downloaden die u hebt gekocht, waardoor Google toegang krijgt tot de lijst van apps die u hebt geïnstalleerd, maar u profiteert nog steeds van het feit dat u niet de volledige Google Play-client en Google Play Services of microG op uw toestel nodig hebt.
+Met de Aurora Store kun je geen betaalde apps downloaden met hun anonieme accountfunctie. Je kunt optioneel inloggen met jouw Google-account bij de Aurora Store om apps te downloaden die je hebt gekocht, waardoor Google toegang krijgt tot de lijst van apps die je hebt geïnstalleerd, maar je profiteert nog steeds van het feit dat je niet de volledige Google Play-client en Google Play Services of microG op jouw toestel nodig hebt.
 
 ### Handmatig met RSS-meldingen
 
@@ -273,7 +273,7 @@ Op GitLab, met [Aurora Store](#aurora-store) als voorbeeld, zou je naar zijn [pr
 
 #### Verifiëren van APK vingerafdrukken
 
-Als u APK-bestanden downloadt om handmatig te installeren, kunt u hun handtekening verifiëren met de tool [`apksigner`](https://developer.android.com/studio/command-line/apksigner), die deel uitmaakt van Android [build-tools](https://developer.android.com/studio/releases/build-tools).
+Als u APK-bestanden downloadt om handmatig te installeren, kunt je hun handtekening verifiëren met de tool [`apksigner`](https://developer.android.com/studio/command-line/apksigner), die deel uitmaakt van Android [build-tools](https://developer.android.com/studio/releases/build-tools).
 
 1. Installeer [Java JDK](https://www.oracle.com/java/technologies/downloads/).
 
@@ -312,7 +312,7 @@ Vanwege hun proces van het bouwen van apps lopen apps in de officiële F-Droid-r
 
 Andere populaire repositories van derden zoals [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) verlichten enkele van deze zorgen. De IzzyOnDroid repository haalt builds rechtstreeks van GitHub en is het op één na beste optie naast het direct downloaden vanaf de eigen repositories van de ontwikkelaars. Het is echter niet iets dat we kunnen aanbevelen, aangezien apps meestal [worden verwijderd](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) van die respository wanneer ze in de hoofdrepository van F-droid terechtkomen. Hoewel dat logisch is (omdat het doel van die specifieke repository is om apps te hosten voordat ze worden geaccepteerd in de belangrijkste F-Droid-repository), kan het je achterlaten met geïnstalleerde apps die niet langer updates ontvangen.
 
-Dat gezegd zijnde, de [F-droid](https://f-droid.org/en/packages/) en [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) repositories zijn de thuisbasis van talloze apps, dus ze kunnen een nuttig hulpmiddel zijn om open-source apps te zoeken en te ontdekken die u vervolgens kunt downloaden via Play Store, Aurora Store, of door het verkrijgen van de APK rechtstreeks van de ontwikkelaar. Het is belangrijk om in gedachten te houden dat sommige apps in deze repositories al jaren niet zijn bijgewerkt en mogelijk afhankelijk zijn van niet-ondersteunde bibliotheken, onder andere, die een potentieel beveiligingsrisico vormen. U moet uw beste oordeel gebruiken bij het zoeken naar nieuwe apps via deze methode.
+Dat gezegd zijnde, de [F-droid](https://f-droid.org/en/packages/) en [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) repositories zijn de thuisbasis van talloze apps, dus ze kunnen een nuttig hulpmiddel zijn om open-source apps te zoeken en te ontdekken die je vervolgens kunt downloaden via Play Store, Aurora Store, of door het verkrijgen van de APK rechtstreeks van de ontwikkelaar. Het is belangrijk om in gedachten te houden dat sommige apps in deze repositories al jaren niet zijn bijgewerkt en mogelijk afhankelijk zijn van niet-ondersteunde bibliotheken, onder andere, die een potentieel beveiligingsrisico vormen. Je moet jouw beste oordeel gebruiken bij het zoeken naar nieuwe apps via deze methode.
 
 !!! note
 

@@ -23,18 +23,18 @@ E-mailproviders die je in staat stellen standaard toegangsprotocollen zoals IMAP
 
 Een smartcard (zoals een [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) of [Nitrokey](https://www.nitrokey.com)) werkt door een geëncrypteerd e-mailbericht te ontvangen van een apparaat (telefoon, tablet, computer, enz.) waarop een e-mail/webmailclient draait. Het bericht wordt vervolgens door de smartcard ontsleuteld en de ontsleutelde inhoud wordt teruggestuurd naar het apparaat.
 
-Het is gunstig dat de ontcijfering op de smartcard gebeurt om te voorkomen dat uw privé-sleutel aan een gecompromitteerd apparaat wordt blootgesteld.
+Het is gunstig dat de ontcijfering op de smartcard gebeurt om te voorkomen dat jouw privé-sleutel aan een gecompromitteerd apparaat wordt blootgesteld.
 
 ## Overzicht e-mailmetagegevens
 
-E-mail metadata wordt opgeslagen in de [message header](https://en.wikipedia.org/wiki/Email#Message_header) van het e-mailbericht en omvat een aantal zichtbare headers die je wellicht hebt gezien, zoals: `Aan`, `Van`, `Cc`, `Datum`, `Onderwerp`. Veel e-mailclients en -providers hebben ook een aantal verborgen headers die informatie over uw account kunnen onthullen.
+E-mail metadata wordt opgeslagen in de [message header](https://en.wikipedia.org/wiki/Email#Message_header) van het e-mailbericht en omvat een aantal zichtbare headers die je wellicht hebt gezien, zoals: `Aan`, `Van`, `Cc`, `Datum`, `Onderwerp`. Veel e-mailclients en -providers hebben ook een aantal verborgen headers die informatie over jouw account kunnen onthullen.
 
 Client-software kan metagegevens over e-mail gebruiken om aan te geven van wie een bericht afkomstig is en hoe laat het werd ontvangen. Servers kunnen het gebruiken om te bepalen waar een e-mailbericht naartoe moet worden gestuurd, naast [andere doeleinden](https://en.wikipedia.org/wiki/Email#Message_header) die niet altijd transparant zijn.
 
 ### Wie kan e-mailmetagegevens bekijken?
 
-E-mail metadata wordt beschermd tegen externe waarnemers met [Opportunistic TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS), maar kan nog steeds worden gezien door jouw e-mail client software (of webmail) en alle servers die het bericht van je doorsturen naar alle ontvangers, inclusief uw e-mail provider. Soms maken e-mailservers ook gebruik van diensten van derden ter bescherming tegen spam, die over het algemeen ook toegang hebben tot jouw berichten.
+E-mail metadata wordt beschermd tegen externe waarnemers met [Opportunistic TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS), maar kan nog steeds worden gezien door jouw e-mail client software (of webmail) en alle servers die het bericht van je doorsturen naar alle ontvangers, inclusief jouw e-mail provider. Soms maken e-mailservers ook gebruik van diensten van derden ter bescherming tegen spam, die over het algemeen ook toegang hebben tot jouw berichten.
 
 ### Waarom kan metadata niet E2EE zijn?
 
-E-mail metadata is van cruciaal belang voor de meest elementaire functionaliteit van e-mail (waar het vandaan komt, en waar het naartoe moet). E2EE was oorspronkelijk niet in de e-mailprotocollen ingebouwd; in plaats daarvan was extra software zoals OpenPGP nodig. Omdat OpenPGP-berichten nog steeds met traditionele e-mailproviders moeten werken, kan het niet de metagegevens van e-mail versleutelen, alleen de inhoud van het bericht zelf. Dat betekent dat zelfs wanneer OpenPGP wordt gebruikt, externe waarnemers veel informatie over uw berichten kunnen zien, zoals wie je e-mailt, de onderwerpregels, wanneer je e-mailt, enz.
+E-mail metadata is van cruciaal belang voor de meest elementaire functionaliteit van e-mail (waar het vandaan komt, en waar het naartoe moet). E2EE was oorspronkelijk niet in de e-mailprotocollen ingebouwd; in plaats daarvan was extra software zoals OpenPGP nodig. Omdat OpenPGP-berichten nog steeds met traditionele e-mailproviders moeten werken, kan het niet de metagegevens van e-mail versleutelen, alleen de inhoud van het bericht zelf. Dat betekent dat zelfs wanneer OpenPGP wordt gebruikt, externe waarnemers veel informatie over jouw berichten kunnen zien, zoals wie je e-mailt, de onderwerpregels, wanneer je e-mailt, enz.

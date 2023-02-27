@@ -321,7 +321,7 @@ Quando cripti con PGP, puoi configurare diverse opzioni nel file `gpg.conf`. Rac
 
     ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
     
-    **OpenKeychain** è un'implementazione Android di GnuPG. È comunementa richiesta da client mail come [K-9 Mail] (email-clients.md#k-9-mail) e [FairEmail](email-clients.md#fairemail) e da alltre applicazioni Android per fornire supporto alla crittografia. Cure53 ha completato un'[ispezione di sicurezza](https://www.openkeychain.org/openkeychain-3-6) di OpenKeychain 3.6 nell'ottobre 2015. Dettagli tecnici riguardo all'audit e alle soluzioni di OpenKeychain possono essere trovate [qui](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+    **OpenKeychain** è un'implementazione Android di GnuPG. È comunementa richiesta da client mail come [K-9 Mail](email-clients.md#k-9-mail) e [FairEmail](email-clients.md#fairemail) e da alltre applicazioni Android per fornire supporto alla crittografia. Cure53 ha completato un'[ispezione di sicurezza](https://www.openkeychain.org/openkeychain-3-6) di OpenKeychain 3.6 nell'ottobre 2015. Dettagli tecnici riguardo all'audit e alle soluzioni di OpenKeychain possono essere trovate [qui](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
     
     [:octicons-home-16: Pagina principale](https://www.openkeychain.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Informativa sulla privacy" }

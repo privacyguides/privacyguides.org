@@ -19,7 +19,7 @@ Ondanks deze nadelen zijn desktop GNU/Linux distributies geweldig als je dat wil
 
 Op onze website wordt de term "Linux" doorgaans gebruikt om desktop GNU/Linux-distributies te beschrijven. Andere besturingssystemen die ook de Linux-kernel gebruiken, zoals ChromeOS, Android en Qubes OS, worden hier niet besproken.
 
-[Onze Linux-aanbevelingen :hero-arrow-circle-right-fill:](../desktop.md ""){.md-button}
+[Onze Linux-aanbevelingen :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
 ## Uw distributie kiezen
 
@@ -27,7 +27,7 @@ Niet alle Linux-distributies zijn gelijk geschapen. Hoewel onze Linux-aanbevelin
 
 ### Vrijgave cyclus
 
-Wij raden u ten zeerste aan distributies te kiezen die dicht bij de stabiele upstream software releases blijven, vaak aangeduid als rolling release distributies. Dit komt omdat distributies met een bevroren releasecyclus vaak de pakketversies niet bijwerken en achterlopen op beveiligingsupdates.
+Wij raden je ten zeerste aan distributies te kiezen die dicht bij de stabiele upstream software releases blijven, vaak aangeduid als rolling release distributies. Dit komt omdat distributies met een bevroren releasecyclus vaak de pakketversies niet bijwerken en achterlopen op beveiligingsupdates.
 
 Voor bevroren distributies wordt van pakketbeheerders verwacht dat ze patches backporteren om kwetsbaarheden te verhelpen (Debian is zo'n [voorbeeld](https://www.debian.org/security/faq#handling)) in plaats van de software aan te passen aan de "volgende versie" die door de upstream-ontwikkelaar wordt uitgebracht. Sommige beveiligingsfixes [krijgen](https://arxiv.org/abs/2105.14565) helemaal geen [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (vooral minder populaire software) en komen daarom niet in de distributie met dit patchingmodel. Als gevolg daarvan worden kleine beveiligingsupdates soms uitgesteld tot de volgende grote release.
 
@@ -57,20 +57,20 @@ Er bestaat vaak enige verwarring over "op veiligheid gerichte" distributies en "
 
 ### Arch-gebaseerde distributies
 
-Arch-gebaseerde distributies worden niet aanbevolen voor mensen die nieuw zijn met Linux, ongeacht de distributie. Arch heeft geen distributie update mechanisme voor de onderliggende software keuzes. Als gevolg daarvan moet u op de hoogte blijven van de huidige trends en technologieën overnemen naarmate deze oudere praktijken verdringen.
+Arch-gebaseerde distributies worden niet aanbevolen voor mensen die nieuw zijn met Linux, ongeacht de distributie. Arch heeft geen distributie update mechanisme voor de onderliggende software keuzes. Als gevolg daarvan moet je op de hoogte blijven van de huidige trends en technologieën overnemen naarmate deze oudere praktijken verdringen.
 
 Voor een veilig systeem wordt ook verwacht dat je voldoende Linux kennis hebt om de beveiliging van hun systeem goed in te stellen, zoals het aannemen van een [mandatory access control](https://en.wikipedia.org/wiki/Mandatory_access_control) systeem, het opzetten van [kernel module](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) blacklists, het harden van boot parameters, het manipuleren van [sysctl](https://en.wikipedia.org/wiki/Sysctl) parameters, en weten welke componenten ze nodig hebben zoals [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
 Iedereen die gebruik maakt van de [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository), **moet zich** comfortabel voelen bij het auditen van PKGBUILDs die ze vanuit die service installeren. AUR-pakketten zijn door de gemeenschap geproduceerde inhoud en worden op geen enkele manier doorgelicht, en zijn daarom kwetsbaar voor aanvallen op de softwareketen, wat in het verleden inderdaad is gebeurd [](https://www.bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository/). AUR moet altijd met mate worden gebruikt en vaak is er veel slecht advies op verschillende pagina's die mensen zonder voldoende waarschuwing opdragen om blindelings [AUR helpers](https://wiki.archlinux.org/title/AUR_helpers) te gebruiken. Vergelijkbare waarschuwingen gelden voor het gebruik van Personal Package Archives (PPA's) van derden op Debian gebaseerde distributies of Community Projects (COPR) op Fedora.
 
-Als u ervaring hebt met Linux en een Arch-gebaseerde distributie wilt gebruiken, raden wij alleen Arch Linux zelf aan, niet een van zijn afgeleiden. Wij raden deze twee Arch-derivaten specifiek af:
+Als je ervaring hebt met Linux en een Arch-gebaseerde distributie wilt gebruiken, raden wij alleen Arch Linux zelf aan, niet een van zijn afgeleiden. Wij raden deze twee Arch-derivaten specifiek af:
 
 - **Manjaro**: Deze distributie houdt pakketten 2 weken achter om er zeker van te zijn dat hun eigen veranderingen niet kapot gaan, niet om er zeker van te zijn dat upstream stabiel is. Wanneer AUR pakketten worden gebruikt, worden ze vaak gebouwd tegen de laatste [bibliotheken](https://en.wikipedia.org/wiki/Library_(computing)) uit Arch's repositories.
 - **Garuda**: Zij gebruiken [Chaotic-AUR](https://aur.chaotic.cx/) die automatisch en blindelings pakketten compileert uit de AUR. Er is geen verificatieproces om ervoor te zorgen dat de AUR-pakketten niet te lijden hebben van aanvallen op de toeleveringsketen.
 
 ### Kicksecure
 
-Hoewel we sterk afraden om verouderde distributies zoals Debian te gebruiken, als u besluit om het te gebruiken, stellen we voor dat u [](https://www.kicksecure.com/wiki/Debian) omzet in [Kicksecure](https://www.kicksecure.com/). Kicksecure is, in oversimplistische termen, een verzameling scripts, configuraties en pakketten die het aanvalsoppervlak van Debian aanzienlijk verkleinen. Het dekt standaard een heleboel aanbevelingen voor privacy en hardening.
+Hoewel we sterk afraden om verouderde distributies zoals Debian te gebruiken, als je besluit om het te gebruiken, stellen we voor dat je [](https://www. kicksecure. com/wiki/Debian) omzet in [Kicksecure](https://www.kicksecure.com/). Kicksecure is, in oversimplistische termen, een verzameling scripts, configuraties en pakketten die het aanvalsoppervlak van Debian aanzienlijk verkleinen. Het dekt standaard een heleboel aanbevelingen voor privacy en hardening.
 
 ### Linux-libre kernel en "Libre" distributies
 
@@ -80,9 +80,9 @@ Wij raden **sterk af om** de Linux-libre kernel te gebruiken, aangezien [beveili
 
 ### Schijfversleuteling
 
-De meeste Linux-distributies hebben een optie in het installatieprogramma om [LUKS](../encryption.md#linux-unified-key-setup) FDE in te schakelen. Als deze optie niet is ingesteld tijdens de installatie, zult u een back-up van uw gegevens moeten maken en opnieuw moeten installeren, aangezien de versleuteling wordt toegepast na [schijfpartitionering](https://en.wikipedia.org/wiki/Disk_partitioning), maar voordat [bestandssystemen](https://en.wikipedia.org/wiki/File_system) worden geformatteerd. We raden u ook aan uw opslagapparaat veilig te wissen:
+De meeste Linux-distributies hebben een optie in het installatieprogramma om [LUKS](../encryption.md#linux-unified-key-setup) FDE in te schakelen. Als deze optie niet is ingesteld tijdens de installatie, zult je een back-up van jouw gegevens moeten maken en opnieuw moeten installeren, aangezien de versleuteling wordt toegepast na [schijfpartitionering](https://en.wikipedia.org/wiki/Disk_partitioning), maar voordat [bestandssystemen](https://en.wikipedia.org/wiki/File_system) worden geformatteerd. We raden je ook aan jouw opslagapparaat veilig te wissen:
 
-- [Veilig wissen van gegevens :hero-arrow-circle-right-fill:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure/)
+- [Veilig wissen van gegevens :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure/)
 
 ### Wissel
 
@@ -100,15 +100,15 @@ Wij raden **aan tegen** door desktop omgevingen of window managers te gebruiken 
 
 Linux-distributies zoals die van [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) of DIY (Arch Linux) worden niet geleverd met de propriëtaire [microcode](https://en.wikipedia.org/wiki/Microcode) updates die vaak kwetsbaarheden patchen. Enkele opmerkelijke voorbeelden van deze kwetsbaarheden zijn [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)), en andere [hardwarekwetsbaarheden](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
 
-Wij **bevelen** ten zeerste aan dat u de microcode-updates installeert, aangezien uw CPU al vanaf de fabriek op de eigen microcode draait. Fedora en openSUSE hebben beide standaard de microcode updates toegepast.
+Wij **bevelen** ten zeerste aan dat je de microcode-updates installeert, aangezien jouw CPU al vanaf de fabriek op de eigen microcode draait. Fedora en openSUSE hebben beide standaard de microcode updates toegepast.
 
 ### Updates
 
-De meeste Linux-distributies zullen automatisch updates installeren of u eraan herinneren om dat te doen. Het is belangrijk om uw besturingssysteem up-to-date te houden, zodat uw software wordt gepatcht wanneer een kwetsbaarheid wordt gevonden.
+De meeste Linux-distributies zullen automatisch updates installeren of u eraan herinneren om dat te doen. Het is belangrijk om jouw besturingssysteem up-to-date te houden, zodat jouw software wordt gepatcht wanneer een kwetsbaarheid wordt gevonden.
 
 Sommige distributies (vooral die gericht zijn op gevorderde gebruikers) zijn aan de kale kant en verwachten dat je dingen zelf doet (bijvoorbeeld Arch of Debian). Hiervoor moet de "pakketbeheerder" (`apt`, `pacman`, `dnf`, enz.) handmatig worden uitgevoerd om belangrijke beveiligingsupdates te ontvangen.
 
-Bovendien downloaden sommige distributies firmware-updates niet automatisch. Daarvoor moet u [`fwupd`](https://wiki.archlinux.org/title/Fwupd)installeren.
+Bovendien downloaden sommige distributies firmware-updates niet automatisch. Daarvoor moet je [`fwupd`](https://wiki.archlinux.org/title/Fwupd)installeren.
 
 ## Privacy Tweaks
 
@@ -120,17 +120,17 @@ Het is mogelijk om [te randomiseren](https://fedoramagazine.org/randomize-mac-ad
 
 Wij raden aan de instelling te wijzigen in **random** in plaats van **stable**, zoals voorgesteld in het [artikel](https://fedoramagazine.org/randomize-mac-address-nm/).
 
-Als u [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components)gebruikt, moet u [`MACAddressPolicy=random`](https://www.freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) instellen, waardoor [RFC 7844 (Anonymity Profiles for DHCP Clients)](https://www.freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=)wordt ingeschakeld.
+Als je [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components)gebruikt, moet je [`MACAddressPolicy=random`](https://www.freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) instellen, waardoor [RFC 7844 (Anonymity Profiles for DHCP Clients)](https://www.freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=)wordt ingeschakeld.
 
-Het heeft niet veel zin om het MAC-adres voor Ethernetverbindingen te randomiseren, aangezien een systeembeheerder u kan vinden door te kijken naar de poort die u gebruikt op de [netwerkswitch](https://en.wikipedia.org/wiki/Network_switch). Het willekeurig maken van Wi-Fi MAC-adressen hangt af van de ondersteuning door de firmware van de Wi-Fi.
+Het heeft niet veel zin om het MAC-adres voor Ethernetverbindingen te randomiseren, aangezien een systeembeheerder je kan vinden door te kijken naar de poort die je gebruikt op de [netwerkswitch](https://en.wikipedia.org/wiki/Network_switch). Het willekeurig maken van Wi-Fi MAC-adressen hangt af van de ondersteuning door de firmware van de Wi-Fi.
 
 ### Andere identificatiemiddelen
 
-Er zijn andere systeemidentifiers waar u misschien voorzichtig mee moet zijn. U moet hier eens over nadenken om te zien of dit van toepassing is op uw [dreigingsmodel](../basics/threat-modeling.md):
+Er zijn andere systeemidentifiers waar u misschien voorzichtig mee moet zijn. Je moet hier eens over nadenken om te zien of dit van toepassing is op jouw [dreigingsmodel](../basics/threat-modeling.md):
 
-- **Hostnamen:** De hostnaam van uw systeem wordt gedeeld met de netwerken waarmee u verbinding maakt. U kunt beter geen identificerende termen zoals uw naam of besturingssysteem in uw hostnaam opnemen, maar het bij algemene termen of willekeurige strings houden.
-- **Gebruikersnamen:** Ook uw gebruikersnaam wordt op verschillende manieren in uw systeem gebruikt. Gebruik liever algemene termen als "gebruiker" dan uw eigenlijke naam.
-- **Machine ID:**: Tijdens de installatie wordt een unieke machine ID gegenereerd en opgeslagen op uw toestel. Overweeg [het in te stellen op een generieke ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
+- **Hostnamen:** De hostnaam van jouw systeem wordt gedeeld met de netwerken waarmee je verbinding maakt. Je kunt beter geen identificerende termen zoals jouw naam of besturingssysteem in jouw hostnaam opnemen, maar het bij algemene termen of willekeurige strings houden.
+- **Gebruikersnamen:** Ook jouw gebruikersnaam wordt op verschillende manieren in jouw systeem gebruikt. Gebruik liever algemene termen als "gebruiker" dan jouw eigenlijke naam.
+- **Machine ID:**: Tijdens de installatie wordt een unieke machine ID gegenereerd en opgeslagen op jouw toestel. Overweeg [het in te stellen op een generieke ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
 
 ### Systeemtelling
 

@@ -121,9 +121,9 @@ DivestOS使用F-Droid作为其默认应用商店。 通常情况下，我们会�
 
 !!! recommendation
 
-    ! [Shelter logo] (assets/img/android/shelter.svg) {align = right}
+    ![Shelter logo](assets/img/android/shelter.svg){ align=right }
     
-    * * Shelter * *是一款应用程序，可帮助您利用Android的工作配置文件功能隔离或复制设备上的应用程序。
+    * *Shelter* *是一款应用程序，可帮助您利用Android的工作配置文件功能隔离或复制设备上的应用程序。
     
     Shelter支持阻止联系人跨档案搜索，并通过默认文件管理器([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui))跨档案共享文件。
     
@@ -145,20 +145,20 @@ DivestOS使用F-Droid作为其默认应用商店。 通常情况下，我们会�
 
 !!! recommendation
 
-    ! [Auditor logo] (assets/img/android/auditor.svg#only-light) {align = right}
-    ! [Auditor logo] (assets/img/android/auditor-dark.svg#only-dark) {align = right}
+    ![Auditor logo](assets/img/android/auditor.svg#only-light){ align=right }
+    ![Auditor logo](assets/img/android/auditor-dark.svg#only-dark){ align=right }
     
-    * * Auditor * *是一款利用硬件安全功能为[支持的设备] (https://attestation.app/about#device-support)提供设备完整性监控的应用程序。 目前，它只适用于GrapheneOS和设备的库存操作系统。
+    * *Auditor* * 是一款利用硬件安全功能为[支持的设备](https://attestation.app/about#device-support) 提供设备完整性监控的应用程序。 目前，它只适用于GrapheneOS和设备的库存操作系统。
     
     [:octicons-home-16: 主页](https://grapheneos.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://attestation.app/about#privacy-policy){ .card-link title="隐私政策" }
     [:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=文档}
     [:octicons-code-16:](https://attestation.app/source){ .card-link title="源代码" }
-    [:octicons-heart-16:](https://attestation.app/donate){ .card-link title="贡献" } 下载
+    [:octicons-heart-16:](https://attestation.app/donate){ .card-link title="贡献" } downloads "下载"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
-        - [:material-cube-outline: GrapheneOS App Store] (https://github.com/GrapheneOS/Apps/releases)
+        - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 
 Auditor通过以下方式进行鉴证和入侵检测。
 
@@ -180,8 +180,8 @@ Auditor通过以下方式进行鉴证和入侵检测。
 
 !!! recommendation
 
-    ![Secure 摄像头标志](gassets/img/android/secure_camera.svg#only-light)format@@align=right }
-    ![Secure 摄像头标志](aassets/img/android/secure_camara-dark) vg#only-dark@un.org校准=right }
+    ![Secure 摄像头标志](assets/img/android/secure_camera.svg#only-light){ align=right }
+    ![Secure 摄像头标志](assets/img/android/secure_camara-dark#only-dark){ aligh=right }
     
     **Secure Camera** 是一个专注于隐私和安全的相机应用，它可以捕捉图像、视频和二维码。 CameraX供应商扩展（肖像、HDR、夜视、面部修饰和自动）也在可用设备上得到支持。
     
@@ -190,11 +190,11 @@ Auditor通过以下方式进行鉴证和入侵检测。
     [:octicons-info-16:](https://github.com/GrapheneOS/Camera#privacy-policy){ .card-link title="隐私政策" }
     [:octicons-code-16:](https://grapheneos.org/faq){ .card-link title=文档}
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title="源代码" }
-    [](){ .card-link title="贡献" } 下载
+    [](){ .card-link title="贡献" } downloads "下载"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
-        - [:material-cube-outline: GrapheneOS App Store] (https://github.com/GrapheneOS/Apps/releases)
+        - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
     
 
 主要隐私功能包括：
@@ -227,11 +227,11 @@ Auditor通过以下方式进行鉴证和入侵检测。
     [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="源代码" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=贡献 }
     
-    ??? 下载
+    ??? downloads "下载"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
-        - [:material-cube-outline: GrapheneOS App Store] (https://github.com/GrapheneOS/Apps/releases)
+        - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
     
 
 
@@ -252,9 +252,9 @@ Google Play商店需要一个Google账户来登录，这对隐私来说不是很
 
 !!! recommendation
 
-    ! [Aurora Store徽标] (assets/img/android/aurora-store.webp) {align = right}
+    ![Aurora Store徽标](assets/img/android/aurora-store.webp){ align=right }
     
-    * * Aurora Store * *是Google Play Store客户端，无需Google帐户、Google Play服务或microG即可下载应用程序。
+    * *Aurora Store* *是Google Play Store客户端，无需Google帐户、Google Play服务或microG即可下载应用程序。
     
     [:octicons-home-16: 主页](https://auroraoss.com/){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="源代码" }

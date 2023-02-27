@@ -11,7 +11,7 @@ Voor al het andere raden wij verschillende e-mailproviders aan op basis van duur
 
 ## OpenPGP compatibele diensten
 
-Deze providers ondersteunen native OpenPGP-encryptie/decryptie, waardoor provider-agnostische E2EE-e-mails mogelijk zijn. Een Proton Mail-gebruiker zou bijvoorbeeld een E2EE-bericht kunnen sturen naar een Mailbox.org-gebruiker, of u zou OpenPGP-versleutelde meldingen kunnen ontvangen van internetdiensten die dit ondersteunen.
+Deze providers ondersteunen native OpenPGP-encryptie/decryptie, waardoor provider-agnostische E2EE-e-mails mogelijk zijn. Een Proton Mail-gebruiker zou bijvoorbeeld een E2EE-bericht kunnen sturen naar een Mailbox.org-gebruiker, of je zou OpenPGP-versleutelde meldingen kunnen ontvangen van internetdiensten die dit ondersteunen.
 
 !!! warning
 
@@ -59,7 +59,7 @@ Proton Mail heeft interne crash rapporten die ze **niet** delen met derden. Dit 
 
 ??? success "Account beveiliging"
 
-    Proton Mail ondersteunt alleen TOTP [tweefactorauthenticatie] (https://proton.me/support/two-factor-authentication-2fa). Het gebruik van een U2F beveiligingssleutel wordt nog niet ondersteund. Proton Mail is van plan U2F te implementeren na voltooiing van hun [Single Sign On (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/) code.
+    Proton Mail ondersteunt alleen TOTP [tweefactorauthenticatie](https://proton.me/support/two-factor-authentication-2fa). Het gebruik van een U2F beveiligingssleutel wordt nog niet ondersteund. Proton Mail is van plan U2F te implementeren na voltooiing van hun [Single Sign On (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/) code.
 
 ??? success "Gegevens beveiliging"
 
@@ -111,7 +111,7 @@ Proton Mail heeft interne crash rapporten die ze **niet** delen met derden. Dit 
 
 ??? success "Account beveiliging"
 
-    Mailbox.org ondersteunt [tweefactorauthenticatie] (https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) alleen voor hun webmail. U kunt zowel TOTP als een [Yubikey](https://en.wikipedia.org/wiki/YubiKey) gebruiken via de [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Webstandaarden zoals [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) worden nog niet ondersteund.
+    Mailbox.org ondersteunt [tweefactorauthenticatie](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) alleen voor hun webmail. U kunt zowel TOTP als een [Yubikey](https://en.wikipedia.org/wiki/YubiKey) gebruiken via de [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Webstandaarden zoals [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) worden nog niet ondersteund.
 
 ??? info "Gegevens beveiliging"
 
@@ -166,7 +166,7 @@ Proton Mail heeft interne crash rapporten die ze **niet** delen met derden. Dit 
 
 ??? success "Account beveiliging"
 
-    StartMail ondersteunt TOTP tweefactorauthenticatie [alleen voor webmail] (https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). Zij staan geen U2F-authenticatie met beveiligingssleutel toe.
+    StartMail ondersteunt TOTP tweefactorauthenticatie [alleen voor webmail](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). Zij staan geen U2F-authenticatie met beveiligingssleutel toe.
 
 ??? info "Gegevens beveiliging"
 

@@ -257,7 +257,7 @@ Wanneer je een Piped-instantie gebruikt, moet je het privacybeleid van die speci
 
 Aanbevolen frontends...
 
-- Moet open-source zijn.
+- Moet open-source software zijn.
 - Moet zelf te hosten zijn.
 - Moet alle basisfuncties van de website beschikbaar stellen aan anonieme gebruikers.
 

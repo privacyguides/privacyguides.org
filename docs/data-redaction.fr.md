@@ -101,7 +101,7 @@ L'application offre plusieurs façons d'effacer les métadonnées des images. À
 
 !!! warning "Avertissement"
 
-    Vous ne devez **jamais** utiliser le flou pour expurger [du texte dans les images] (https://bishopfox.com/blog/unredacter-tool-never-pixelation). Si vous voulez expurger du texte dans une image, dessinez une case sur le texte. Pour cela, nous vous suggérons [Pocket Paint] (https://github.com/Catrobat/Paintroid) ou [Imagepipe](https://codeberg.org/Starfish/Imagepipe).
+    Vous ne devez **jamais** utiliser le flou pour expurger [du texte dans les images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). Si vous voulez expurger du texte dans une image, dessinez une case sur le texte. Pour cela, nous vous suggérons [Pocket Paint](https://github.com/Catrobat/Paintroid) ou [Imagepipe](https://codeberg.org/Starfish/Imagepipe).
 
 ## Ligne de commande
 
@@ -138,7 +138,7 @@ L'application offre plusieurs façons d'effacer les métadonnées des images. À
 
 !!! example "Cette section est récente"
 
-    Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum] (https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
+    Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum](https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
 
 - Les applications développées pour les systèmes d'exploitation open source doivent être open source.
 - Les applications doivent être gratuites et ne doivent pas comporter de publicités ou d'autres limitations.

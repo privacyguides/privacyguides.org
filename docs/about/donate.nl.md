@@ -3,7 +3,7 @@ title: Ons steunen
 ---
 
 <!-- markdownlint-disable MD036 -->
-Het vergt veel [mensen](https://github.com/privacyguides/privacyguides.org/graphs/contributors) en [werk](https://github.com/privacyguides/privacyguides.org/pulse/monthly) om Privacy Guides up-to-date te houden en het woord te verspreiden over privacy en massabewaking. Als je het leuk vindt wat we doen, is de beste manier om te helpen door mee te doen [bewerken van de site](https://github.com/privacyguides/privacyguides.org) of [vertalingen toevoegen](https://crowdin.com/project/privacyguides).
+Het vergt veel [mensen](https://github.com/privacyguides/privacyguides.org/graphs/contributors) en [werk](https://github.com/privacyguides/privacyguides.org/pulse/monthly) om Privacy Guides up-to-date te houden en het woord te verspreiden over privacy en massabewaking. Als je het leuk vindt wat we doen, overweeg dan om mee te doen door [de site](https://github.com/privacyguides/privacyguides.org) te bewerken of aan de [vertalingen bij te dragen](https://crowdin.com/project/privacyguides).
 
 Als je ons financieel wilt steunen, is de handigste methode voor ons om bij te dragen via Open Collective, een website die wordt beheerd door onze fiscale gastheer. Open Collective accepteert betalingen via creditcards, PayPal en bankoverschrijvingen.
 

@@ -144,7 +144,7 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** onder [WebRTC IP Handling Policy] (https://support.brave.com/hc/nl-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [x] Select **Disable non-proxied UDP** onder [WebRTC IP Handling Policy](https://support.brave.com/hc/nl-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
 - [ ] Uncheck **Google services gebruiken voor push messaging**
 - [ ] Uncheck **Privacy-preserving product analytics (P3A) toestaan**
 - [ ] Uncheck **Automatisch dagelijks gebruik ping sturen naar Brave**.
@@ -233,7 +233,7 @@ Dit zijn enkele andere [filterlijsten](https://github.com/gorhill/uBlock/wiki/Da
 
 ### Minimale vereisten
 
-- Open source.
+- Moet open-source software zijn.
 - Ondersteunt automatische updates.
 - Ontvangt engine updates in 0-1 dagen na upstream release.
 - Beschikbaar op Linux, macOS en Windows.

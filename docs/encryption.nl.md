@@ -103,7 +103,7 @@ BitLocker is [alleen ondersteund](https://support.microsoft.com/en-us/windows/tu
 
     Om BitLocker in te schakelen op "Home"-edities van Windows, moet je partities hebben die zijn geformatteerd met een [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) en beschikken over een speciale TPM-module (v1.2, 2.0+).
 
-    1. Open een opdrachtprompt en controleer de indeling van de partitietabel van jouw schijf met het volgende commando. U zou "**GPT**" moeten zien staan onder "Partition Style":
+    1. Open een opdrachtprompt en controleer de indeling van de partitietabel van jouw schijf met het volgende commando. Je zou "**GPT**" moeten zien staan onder "Partition Style":
 
         ```
         powershell Get-Disk

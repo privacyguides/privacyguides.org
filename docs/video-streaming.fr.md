@@ -44,7 +44,7 @@ Vous pouvez désactiver l'option *Enregistrer les données d'hébergement pour a
 
 !!! example "Cette section est récente"
 
-    Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et ceci peut être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum] (https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
+    Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et ceci peut être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum](https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
 
 - Ne doit pas nécessiter un compte centralisé pour visionner les vidéos.
     - L'authentification décentralisée, par exemple via la clé privée d'un portefeuille mobile, est acceptable.

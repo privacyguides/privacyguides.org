@@ -82,7 +82,7 @@ Pour résister aux attaques par analyse de trafic, pensez à activer l'option *I
 
     Orbot peut proxy des applications individuelles si elles supportent le proxying SOCKS ou HTTP. Il peut également proxy toutes vos connexions réseau en utilisant [VpnService](https://developer.android.com/reference/android/net/VpnService) et peut être utilisé avec le killswitch VPN dans :gear: **Paramètres** → **Réseau & internet** → **VPN** → :gear: → **Bloquer les connexions sans VPN**.
     
-    Orbot est souvent obsolète sur le [dépôt F-Droid] (https://guardianproject.info/fdroid) du Guardian Project et sur le [Google Play] (https://play.google.com/store/apps/details?id=org.torproject.android), alors envisagez à la place de télécharger directement depuis le [dépôt GitHub] (https://github.com/guardianproject/orbot/releases).
+    Orbot est souvent obsolète sur le [dépôt F-Droid](https://guardianproject.info/fdroid) du Guardian Project et sur le [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android), alors envisagez à la place de télécharger directement depuis le [dépôt GitHub](https://github.com/guardianproject/orbot/releases).
     
     Toutes les versions sont signées en utilisant la même signature, elles devraient donc être compatibles entre elles.
 
@@ -115,7 +115,7 @@ Pour résister aux attaques par analyse de trafic, pensez à activer l'option *I
     Vous pouvez activer Snowflake dans votre navigateur en cliquant sur le bouton ci-dessous et en laissant cette page ouverte. Vous pouvez également installer Snowflake en tant qu'extension de navigateur pour qu'il s'exécute toujours lorsque votre navigateur est ouvert, mais l'ajout d'extensions tierces peut augmenter votre surface d'attaque.
     
     <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
-    <small>Si l'intégration n'apparaît pas pour vous, assurez-vous que vous ne bloquez pas le cadre tiers de `torproject.org`. Vous pouvez également consulter [cette page] (https://snowflake.torproject.org/embed.html).</small>
+    <small>Si l'intégration n'apparaît pas pour vous, assurez-vous que vous ne bloquez pas le cadre tiers de `torproject.org`. Vous pouvez également consulter [cette page](https://snowflake.torproject.org/embed.html).
 
 Snowflake n'améliore en rien votre vie privée et n'est pas utilisé pour se connecter au réseau Tor dans votre navigateur personnel. Toutefois, si votre connexion Internet n'est pas censurée, vous devriez envisager de l'utiliser pour aider les personnes se trouvant sur des réseaux censurés à améliorer elles-mêmes leur vie privée. Il n'y a pas besoin de s'inquiéter des sites web auxquels les gens accèdent via votre proxy - leur adresse IP de navigation visible correspondra à leur nœud de sortie Tor, pas à la vôtre.
 

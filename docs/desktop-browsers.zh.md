@@ -272,7 +272,7 @@ InterPlanetary File System（IPFS）是一个分散的、点对点的网络，�
 
 ### 最低要求
 
-- 开源
+- 它必须是开源软件。
 - 支持自动更新。
 - 在上游发布后0-1天内收到引擎更新。
 - 可用于Linux、macOS和Windows。

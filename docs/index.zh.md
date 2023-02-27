@@ -1,7 +1,7 @@
 ---
 template: overrides/home.en.html
 hide:
-  - 导航
+  - navigation
   - toc
   - feedback
 ---
@@ -17,7 +17,7 @@ hide:
 
 您不应将隐私与保密混为一谈。 我们知道浴室里发生了什么，但你还是关上了门。 那是因为你想要隐私，而不是保密。 **每个人**都有需要保护的东西。 隐私是我们之所以为人的原因。
 
-[:material-target-account: 常见互联网威胁] (basics/common-treats.md){ .md-button .md-button--primary }
+[:material-target-account: 常见互联网威胁](basics/common-treats.md){ .md-button .md-button--primary }
 </div>
 
 <div style="margin-left:auto;margin-right:0;text-align:right;max-width:38rem;" markdown>

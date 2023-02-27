@@ -129,7 +129,7 @@ Een [nieuwsaggregator](https://en.wikipedia.org/wiki/News_aggregator) is een man
 
     We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als u vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
 
-- Moet open-source zijn.
+- Moet open-source software zijn.
 - Moet lokaal werken, d.w.z. mag geen clouddienst zijn.
 
 ## RSS-ondersteuning voor sociale media

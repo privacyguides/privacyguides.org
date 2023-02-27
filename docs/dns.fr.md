@@ -26,7 +26,7 @@ icon: material/dns
 
 !!! example "Cette section est récente"
 
-    Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum] (https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
+    Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum](https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
 
 - Doit supporter [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
 - [Minimisation QNAME](advanced/dns-overview.md#what-is-qname-minimization).
@@ -84,7 +84,7 @@ Un logiciel de proxy DNS chiffré fourni un proxy local vers lequel le résolveu
     
     **dnscrypt-proxy** est un proxy DNS qui prend en charge [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh) et [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
     
-    !!! warning "La fonction DNS anonyme n'anonymise [**pas**] (advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) le reste du trafic réseau."
+    !!! warning "La fonction DNS anonyme n'anonymise [**pas**](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) le reste du trafic réseau."
     
     [:octicons-repo-16: Dépôt](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
     [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}
@@ -120,7 +120,7 @@ Une solution DNS auto-hébergée est utile pour assurer le filtrage sur les plat
 
 !!! recommendation
 
-    ! [Logo Pi-hole](assets/img/dns/pi-hole.svg){ align=right }
+    ![Logo Pi-hole](assets/img/dns/pi-hole.svg){ align=right }
     
     **Pi-hole** est un [gouffre DNS](https://wikipedia.org/wiki/DNS_sinkhole) open-source qui utilise le [filtrage DNS](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) pour bloquer les contenus web indésirables, tels que les publicités.
     
