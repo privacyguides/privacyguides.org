@@ -90,7 +90,7 @@ Wanneer je een account aanmaakt, wordt de openbare sleutel naar de dienst gestuu
 Deze presentatie bespreekt de geschiedenis van wachtwoordauthenticatie, de valkuilen (zoals hergebruik van wachtwoorden), en bespreking van de FIDO2- en [WebAuthn](https://webauthn.guide) -normen.
 
 <div class="yt-embed">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aMo4ZlWznao" title="Hoe FIDO2 en WebAuthn accountovernames stoppen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/aMo4ZlWznao?local=true" title="Hoe FIDO2 en WebAuthn accountovernames stoppen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 FIDO2 en WebAuthn hebben superieure beveiligings- en privacy-eigenschappen in vergelijking met andere MFA-methoden.

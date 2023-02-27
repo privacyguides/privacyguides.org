@@ -34,7 +34,7 @@ icon: simple/linux
 אנחנו לא מאמינים שהחזקת חבילות והחלת תיקוני ביניים הם רעיון טוב, מכיוון שהוא שונה מהדרך שבה המפתח התכוון שהתוכנה תעבוד. ל [Richard Brown](https://rootco.de/aboutme/) יש מצגת על נושא זה:
 
 <div class="yt-embed">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/i8c0mg_mS7U" title="מהדורות רגילות הן שגויות, גלגלו על החיים שלכם" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/i8c0mg_mS7U?local=true" title="מהדורות רגילות הן שגויות, גלגלו על החיים שלכם" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### עדכונים מסורתיים לעומת עדכונים אטומיים
@@ -48,7 +48,7 @@ icon: simple/linux
 שיטת העדכון Atomic משמשת להפצות בלתי ניתנות לשינוי כמו Silverblue, Tumbleweed ו-NixOS ויכולה להשיג אמינות עם מודל זה. [Adam Šamalík](https://twitter.com/adsamalik) סיפק מצגת על האופן שבו `rpm-ostree` עובד עם Silverblue:
 
 <div class="yt-embed">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-hpV5l-gJnQ" title="בואו ננסה את Fedora Silverblue - מערכת הפעלה שולחנית בלתי ניתנת לשינוי! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="בואו ננסה את Fedora Silverblue - מערכת הפעלה שולחנית בלתי ניתנת לשינוי! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### הפצות "ממוקדות אבטחה"

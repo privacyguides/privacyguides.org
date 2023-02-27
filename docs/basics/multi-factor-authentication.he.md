@@ -78,7 +78,7 @@ WebAuthn היא הצורה המאובטחת והפרטית ביותר של אי�
 מצגת זו דנה בהיסטוריה של אימות סיסמאות, במלכודות (כגון שימוש חוזר בסיסמה) ודיון בתקני FIDO2 ו[WebAuthn](https://webauthn.guide).
 
 <div class="yt-embed">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aMo4ZlWznao" title="כיצד FIDO2 ו-WebAuthn עוצרים השתלטות על חשבון" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/aMo4ZlWznao?local=true" title="כיצד FIDO2 ו-WebAuthn עוצרים השתלטות על חשבון" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ל-FIDO2 ול-WebAuthn יש מאפייני אבטחה ופרטיות מעולים בהשוואה לכל שיטות MFA.
