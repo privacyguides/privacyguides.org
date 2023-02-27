@@ -1,4 +1,3 @@
-<!-- markdownlint-disable -->
 *[2FA]: 2-Factor Authentication
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project

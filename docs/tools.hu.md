@@ -36,7 +36,7 @@ Ha további információt szeretnél megtudni az egyes projektekről, hogy miér
 
 [További információ :material-arrow-right-drop-circle:](desktop-browsers.md)
 
-### További Erőforrások
+### Android
 
 <div class="grid cards" markdown>
 
