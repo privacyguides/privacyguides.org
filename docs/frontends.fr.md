@@ -123,7 +123,7 @@ Lorsque vous utilisez une instance de ProxiTok, veillez à lire la politique de 
     
     **Yattee** est un lecteur vidéo gratuit et open-source orienté vie privée pour iOS, tvOS et macOS pour [YouTube](https://youtube.com). Lorsque vous utilisez Yattee, votre liste d'abonnement est enregistrée localement sur votre appareil.
     
-    Vous devrez suivre quelques [étapes supplémentaires] (https://gonzoknows.com/posts/Yattee/) avant de pouvoir utiliser Yattee pour regarder YouTube, en raison des restrictions de l'App Store.
+    Vous devrez suivre quelques [étapes supplémentaires](https://gonzoknows.com/posts/Yattee/) avant de pouvoir utiliser Yattee pour regarder YouTube, en raison des restrictions de l'App Store.
     
     [:octicons-home-16: Page d'accueil](https://github.com/yattee/yattee){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Politique de Confidentialité" }
@@ -227,7 +227,7 @@ Lorsque vous utilisez une instance d'Invidious, veillez à lire la politique de 
 
 !!! recommendation
 
-    !Logo Piped](assets/img/frontends/piped.svg){ align=right }
+    ![Logo Piped](assets/img/frontends/piped.svg){ align=right }
     
     **Piped** est une interface gratuite et open-source pour [YouTube](https://youtube.com) qui est également auto-hébergeable.
     

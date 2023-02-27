@@ -13,7 +13,7 @@ Découvrez comment partager vos fichiers en toute confidentialité entre vos app
 
     ![Logo de Send](assets/img/file-sharing-sync/send.svg){ align=right }
     
-    **Send** est un dérivé du service Firefox Send de Mozilla, qui a été abandonné, et qui vous permet d'envoyer des fichiers à d'autres personnes à l'aide d'un lien. Les fichiers sont cryptés sur votre appareil afin qu'ils ne puissent pas être lus par le serveur, et ils peuvent également être protégés par un mot de passe. Le responsable de Send héberge une [instance publique] (https://send.vis.ee/). Vous pouvez utiliser d'autres instances publiques, ou vous pouvez héberger Send vous-même.
+    **Send** est un dérivé du service Firefox Send de Mozilla, qui a été abandonné, et qui vous permet d'envoyer des fichiers à d'autres personnes à l'aide d'un lien. Les fichiers sont cryptés sur votre appareil afin qu'ils ne puissent pas être lus par le serveur, et ils peuvent également être protégés par un mot de passe. Le responsable de Send héberge une [instance publique](https://send.vis.ee/). Vous pouvez utiliser d'autres instances publiques, ou vous pouvez héberger Send vous-même.
     
     [:octicons-home-16: Page d'accueil](https://send.vis.ee){ .md-button .md-button--primary }
     [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Instances Publiques"}
@@ -64,7 +64,7 @@ ffsend upload --host https://send.vis.ee/ FICHIER
 
     ![Logo FreedomBox](assets/img/file-sharing-sync/freedombox.svg){ align=right }
     
-    **FreedomBox** est un système d'exploitation conçu pour être exécuté sur un [single-board computer (SBC)] (https://en.wikipedia.org/wiki/Single-board_computer). L'objectif est de faciliter la mise en place d'applications serveur que vous pourriez vouloir auto-héberger.
+    **FreedomBox** est un système d'exploitation conçu pour être exécuté sur un [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). L'objectif est de faciliter la mise en place d'applications serveur que vous pourriez vouloir auto-héberger.
     
     [:octicons-home-16: Page d'accueil](https://freedombox.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
@@ -107,7 +107,7 @@ ffsend upload --host https://send.vis.ee/ FICHIER
 
     ![Logo de Syncthing](assets/img/file-sharing-sync/syncthing.svg){ align=right }
     
-    **Syncthing** est un utilitaire open-source de synchronisation continue de fichiers de pair à pair. Il est utilisé pour synchroniser des fichiers entre deux ou plusieurs appareils via le réseau local ou internet. Syncthing n'utilise pas de serveur centralisé ; il utilise le [Protocole d'Échange de Blocs] (https://docs.syncthing.net/specs/bep-v1.html#bep-v1) pour transférer les données entre appareils. Toutes les données sont chiffrées à l'aide de TLS.
+    **Syncthing** est un utilitaire open-source de synchronisation continue de fichiers de pair à pair. Il est utilisé pour synchroniser des fichiers entre deux ou plusieurs appareils via le réseau local ou internet. Syncthing n'utilise pas de serveur centralisé ; il utilise le [Protocole d'Échange de Blocs](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) pour transférer les données entre appareils. Toutes les données sont chiffrées à l'aide de TLS.
     
     [:octicons-home-16: Page d'accueil](https://syncthing.net){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}

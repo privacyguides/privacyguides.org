@@ -7,7 +7,7 @@ Souvent, les gens s'inscrivent à des services sans réfléchir. Il s'agit peut-
 
 Chaque nouveau service que vous utilisez comporte des risques. Les fuites de données, la divulgation d'informations sur les clients à des tiers, l'accès à des données par des employés véreux sont autant de possibilités qui doivent être envisagées avant de founir vos informations. Vous devez être sûr que vous pouvez faire confiance au service, c'est pourquoi nous ne recommandons pas de stocker des données précieuses sur autre chose que les produits les plus matures et les plus éprouvés. Il s'agit généralement de services qui fournissent E2EE et qui ont fait l'objet d'un audit cryptographique. Un audit renforce l'assurance que le produit a été conçu sans problèmes de sécurité flagrants causés par un développeur inexpérimenté.
 
-Il peut également être difficile de supprimer les comptes sur certains services. Il est parfois possible \[d'écraser les données\](account-deletion.md#overwriting-account-information) associées à un compte, mais dans d'autres cas, le service conservera un historique complet des modifications apportées au compte.
+Il peut également être difficile de supprimer les comptes sur certains services. Il est parfois possible [d'écraser les données](account-deletion.md#overwriting-account-information) associées à un compte, mais dans d'autres cas, le service conservera un historique complet des modifications apportées au compte.
 
 ## Conditions Générales d'Utilisation & Politique de Confidentialité
 

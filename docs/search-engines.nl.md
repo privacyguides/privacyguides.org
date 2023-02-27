@@ -34,7 +34,7 @@ Brave Search is gevestigd in de Verenigde Staten. In hun [privacybeleid](https:/
 
     ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
     
-    **DuckDuckGo** is een van de meer mainstream privé zoekmachine opties. Opmerkelijke DuckDuckGo-zoekfuncties zijn [bangs](https://duckduckgo.com/bang) en vele [instant antwoorden] (https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). De zoekmachine maakt gebruik van een commerciële Bing API voor de meeste resultaten, maar gebruikt ook talrijke [andere bronnen](https://help.duckduckgo.com/results/sources/) voor directe antwoorden en andere niet-primaire resultaten.
+    **DuckDuckGo** is een van de meer mainstream privé zoekmachine opties. Opmerkelijke DuckDuckGo-zoekfuncties zijn [bangs](https://duckduckgo.com/bang) en vele [instant antwoorden](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). De zoekmachine maakt gebruik van een commerciële Bing API voor de meeste resultaten, maar gebruikt ook talrijke [andere bronnen](https://help.duckduckgo.com/results/sources/) voor directe antwoorden en andere niet-primaire resultaten.
     
     DuckDuckGo is de standaard zoekmachine voor de Tor Browser en is één van de weinige beschikbare opties op Apple's Safari browser.
     

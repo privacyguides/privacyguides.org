@@ -5,7 +5,7 @@ icon: material/dns
 
 !!! question "האם להשתמש ב - DNS מוצפן?"
 
-    יש להשתמש ב-DNS מוצפן עם שרתי צד שלישי רק כדי לעקוף [חסימת DNS] בסיסית (https://en.wikipedia.org/wiki/DNS_blocking) כאשר אתה יכול להיות בטוח שלא יהיו לכך השלכות. DNS מוצפן לא יעזור לך להסתיר את פעילות הגלישה שלך.
+    יש להשתמש ב-DNS מוצפן עם שרתי צד שלישי רק כדי לעקוף [חסימת DNS](https://en.wikipedia.org/wiki/DNS_blocking) בסיסית כאשר אתה יכול להיות בטוח שלא יהיו לכך השלכות. DNS מוצפן לא יעזור לך להסתיר את פעילות הגלישה שלך.
     
     [למידע נוסף על DNS](advanced/dns-overview.md){ .md-button }
 

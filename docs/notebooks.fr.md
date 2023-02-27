@@ -42,7 +42,7 @@ Joplin ne prend pas en charge la protection par mot de passe/PIN de [l'applicati
 
     ![Logo de Standard Notes](assets/img/notebooks/standard-notes.svg){ align=right }
     
-    Standard Notes est une application de notes simple et privée qui rend vos prises de notes faciles et disponibles partout où vous êtes. Il propose E2EE sur toutes les plateformes et une expérience de bureau puissante avec des thèmes et des éditeurs personnalisés. Il a également fait l'objet d'un [audit indépendant (PDF)] (https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
+    Standard Notes est une application de notes simple et privée qui rend vos prises de notes faciles et disponibles partout où vous êtes. Il propose E2EE sur toutes les plateformes et une expérience de bureau puissante avec des thèmes et des éditeurs personnalisés. Il a également fait l'objet d'un [audit indépendant (PDF)](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
     
     [:octicons-home-16: Page d'accueil](https://standardnotes.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Politique de confidentialité" }
@@ -88,7 +88,7 @@ Cryptee offre 100 Mo de stockage gratuit, avec des options payantes si vous avez
 
     ! [Logo Org-mode](assets/img/notebooks/org-mode.svg){ align=right }
     
-    **Org-mode** est un [mode majeur] (https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) pour GNU Emacs. Org-mode permet de prendre des notes, de tenir à jour des listes TODO, de planifier des projets et de rédiger des documents à l'aide d'un système de texte brut rapide et efficace. La synchronisation est possible avec des outils de [synchronisation de fichiers](file-sharing.md#file-sync).
+    **Org-mode** est un [mode majeur](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) pour GNU Emacs. Org-mode permet de prendre des notes, de tenir à jour des listes TODO, de planifier des projets et de rédiger des documents à l'aide d'un système de texte brut rapide et efficace. La synchronisation est possible avec des outils de [synchronisation de fichiers](file-sharing.md#file-sync).
     
     [:octicons-home-16: Page d'accueil](https://orgmode.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Documentation}

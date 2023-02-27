@@ -3,7 +3,7 @@ template: overrides/home.en.html
 hide:
   - 导航
   - toc
-  - 反馈
+  - feedback
 ---
 
 <!-- markdownlint-disable-next-line -->
@@ -27,9 +27,9 @@ hide:
 
 想一直保护你所有的数据不被任何人发现很不切实际，并且花费高昂且令人疲惫。 但是别担心！ 安全是一个过程，并且通过向前思考，你可以制定出一个适合你的计划。 安全并不仅仅是指你使用的工具或你下载的软件。 相反，它始于了解你所面临的独特的威胁，以及解决它们的办法。
 
-==这种了解威胁和给出对策的过程称作**威胁建模**==，而它又构成了所有良好的安全和隐私计划的基础
+==这种了解威胁和给出对策的过程称作**威胁模型分析**==，而它又构成了所有良好的安全和隐私计划的基础
 
-[:material-book-outline: 了解有关威胁建模的更多信息](basics/threat-modeling.md){ .md-button .md-button--primary }
+[:material-book-outline: 了解有关威胁模型分析的更多信息](basics/threat-modeling.md){ .md-button .md-button--primary }
 </div>
 </div>
 

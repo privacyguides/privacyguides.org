@@ -108,7 +108,7 @@ Briar prend en charge la confidentialité persistante en utilisant le protocole 
 
 !!! recommendation
 
-    !Logo d'Element](assets/img/messengers/element.svg){ align=right }
+    ![Logo d'Element](assets/img/messengers/element.svg){ align=right }
     
     **Element** est le client de référence pour le protocole [Matrix](https://matrix.org/docs/guides/introduction), un [standard ouvert](https://matrix.org/docs/spec) pour la communication décentralisée sécurisée en temps réel.
     
@@ -145,7 +145,7 @@ Le protocole a fait l'objet d'un [audit](https://matrix.org/blog/2016/11/21/matr
     
     **Session** est une messagerie décentralisée axée sur les communications privées, sécurisées et anonymes. Session prend en charge les messages directs, les discussions de groupe et les appels vocaux.
     
-    Session utilise le réseau décentralisé [Oxen Service Node Network] (https://oxen.io/) pour stocker et acheminer les messages. Chaque message chiffré est acheminé via trois nœuds dans le Oxen Service Node Network, ce qui rend pratiquement impossible pour les nœuds de compiler des informations significatives sur ceux qui utilisent le réseau.
+    Session utilise le réseau décentralisé [Oxen Service Node Network](https://oxen.io/) pour stocker et acheminer les messages. Chaque message chiffré est acheminé via trois nœuds dans le Oxen Service Node Network, ce qui rend pratiquement impossible pour les nœuds de compiler des informations significatives sur ceux qui utilisent le réseau.
     
     [:octicons-home-16: Page d'accueil](https://getsession.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Politique de confidentialité" }

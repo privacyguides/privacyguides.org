@@ -5,9 +5,11 @@ icon: material/email-open
 
 רשימת ההמלצות שלנו מכילה לקוחות אימייל התומכים הן ב[OpenPGP](encryption.md#openpgp) והן באימות חזק כגון [הרשאת פתוחה ](https://en.wikipedia.org/wiki/OAuth)(OAuth). OAuth מאפשר לך להשתמש ב - [אימות רב - גורמי](basics/multi-factor-authentication.md) ולמנוע גניבת חשבון.
 
-??? warning אימייל אינו מספק סודיות קדימה" בעת שימוש בטכנולוגיית הצפנה מקצה לקצה (E2EE) כמו OpenPGP, האימייל עדיין יכיל [כמה מטא נתונים](email.md#email-metadata-overview) שאינם מוצפנים בכותרת של האימייל.
+??? warning "אזהרה" אימייל אינו מספק סודיות העברה
 
-    OpenPGP גם אינו תומך ב[סודיות העברה](https://en.wikipedia.org/wiki/Forward_secrecy), כלומר אם המפתח הפרטי שלך או של הנמען ייגנב אי פעם, כל ההודעות הקודמות שהוצפנו איתו ייחשפו: [כיצד אוכל להגן על המפתחות הפרטיים שלי?](basics/email-security.md) שקול להשתמש באמצעי המספק סודיות קדימה:
+    בעת שימוש בטכנולוגיית הצפנה מקצה לקצה (E2EE) כמו OpenPGP, לאימייל עדיין יהיו [כמה מטא נתונים](email.md#email-metadata-overview) שאינם מוצפנים בכותרת האימייל.
+    
+    OpenPGP גם לא תומך ב[סודיות העברה](https://en.wikipedia.org/wiki/Forward_secrecy), כלומר אם המפתח הפרטי שלך או של הנמען ייגנב אי פעם, כל ההודעות הקודמות שהוצפנו איתו ייחשפו: [ כיצד אוכל להגן על המפתחות הפרטיים שלי?](basics/email-security.md) שקול להשתמש באמצעי המספק סודיות קדימה:
     
     [תקשורת בזמן אמת](real-time-communication.md){ .md-button }
 

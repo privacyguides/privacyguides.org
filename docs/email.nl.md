@@ -67,7 +67,7 @@ Proton Mail heeft interne crash rapporten die ze **niet** delen met derden. Dit 
     
     Bepaalde in [Proton Contacts](https://proton.me/support/proton-contacts) opgeslagen informatie, zoals namen en e-mailadressen, zijn niet beveiligd met zero access encryptie. Contact velden die zero-access encryptie ondersteunen, zoals telefoonnummers, worden aangegeven met een hangslot pictogram.
 
-??? success "Email Encryption"
+??? success "Email Encryptiie"
 
     Proton Mail heeft [geïntegreerde OpenPGP-encryptie](https://proton.me/support/how-to-use-pgp) in hun webmail. E-mails naar andere Proton Mail-accounts worden automatisch versleuteld, en versleuteling naar niet-Proton Mail-adressen met een OpenPGP-sleutel kan eenvoudig worden ingeschakeld in jouw accountinstellingen. Zij laten u ook toe [berichten te coderen naar niet-Proton Mail adressen](https://proton.me/support/password-protected-emails) zonder dat zij zich moeten aanmelden voor een Proton Mail account of software zoals OpenPGP moeten gebruiken.
     
@@ -119,7 +119,7 @@ Proton Mail heeft interne crash rapporten die ze **niet** delen met derden. Dit 
     
     [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), het softwareplatform dat door Mailbox.org wordt gebruikt, [ondersteunt echter niet](https://kb.mailbox.org/display/BMBOKBEN/Encryption+van+kalender+en+adres+boek) de encryptie van jouw adresboek en agenda. Een [standalone optie](calendar.md) is misschien meer geschikt voor die informatie.
 
-??? success "Email Encryption"
+??? success "Email Encryptiie"
 
     Mailbox.org heeft [geïntegreerde encryptie](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in hun webmail, wat het verzenden van berichten naar mensen met openbare OpenPGP-sleutels vereenvoudigt. Zij staan ook [ontvangers op afstand toe een e-mail te ontsleutelen](https://kb.mailbox.org/display/MBOKBEN/My+ontvanger+gebruikt+geen+PGP) op de servers van Mailbox.org. Deze functie is nuttig wanneer de ontvanger op afstand geen OpenPGP heeft en geen kopie van de e-mail in zijn eigen mailbox kan ontsleutelen.
     
@@ -280,7 +280,7 @@ Het gebruik van een aliasingdienst vereist dat je zowel jouw e-mailprovider als 
 !!! recommendation
 
     ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
-    AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
+    ![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
     
     **AnonAddy** laat je gratis 20 domein aliassen aanmaken op een gedeeld domein, of onbeperkt "standaard" aliassen die minder anoniem zijn.
     

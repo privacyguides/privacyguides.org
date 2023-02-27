@@ -19,7 +19,7 @@ Cependant, ils cachent votre IP réelle d'un service tiers, à condition qu'il n
 
 ## Quand ne devrais-je pas utiliser un VPN ?
 
-L'utilisation d'un VPN dans les cas où vous utilisez votre \[identité connue\](common-threats.md#common-misconceptions) ne sera probablement pas utile.
+L'utilisation d'un VPN dans les cas où vous utilisez votre [identité connue](common-threats.md#common-misconceptions) ne sera probablement pas utile.
 
 Cela peut déclencher des systèmes de détection de spam et de fraude, par exemple si vous vous connectez au site web de votre banque.
 

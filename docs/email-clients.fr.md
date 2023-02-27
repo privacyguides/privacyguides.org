@@ -5,8 +5,10 @@ icon: material/email-open
 
 Notre liste de recommandations contient des clients de messagerie qui prennent en charge à la fois [OpenPGP](encryption.md#openpgp) et l'authentification forte telle que [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth vous permet d'utiliser l'[Authentification à Multi-Facteurs](multi-factor-authentication) et d'empêcher le vol de compte.
 
-??? warning "L'e-mail ne fournit pas de confidentialité persistante" Lors de l'utilisation de la technologie de chiffrement de bout en bout (E2EE) comme OpenPGP, l'e-mail aura toujours [certaines métadonnées](email.md#email-metadata-overview) qui ne sont pas chiffrées dans l'en-tête de l'e-mail.
+??? warning "L'email ne fournit pas de secret de transmission"
 
+    Lors de l'utilisation d'une technologie de chiffrement de bout en bout (E2EE) comme OpenPGP, le courrier électronique contiendra toujours [certaines métadonnées](email.md#email-metadata-overview) qui ne sont pas chiffrées dans l'en-tête du courrier électronique.
+    
     OpenPGP ne prend pas non plus en charge la [confidentialité persistante](https://fr.wikipedia.org/wiki/Confidentialit%C3%A9_persistante), ce qui signifie que si votre clé privée ou celle du destinataire est volée, tous les messages précédents chiffrés avec cette clé seront exposés: [Comment protéger mes clés privées ?](basics/email-security.md) Envisagez l'utilisation d'un support qui assure la confidentialité persistante:
     
     [Communication en temps réel](real-time-communication.md){ .md-button }

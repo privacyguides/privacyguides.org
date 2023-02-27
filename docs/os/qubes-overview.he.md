@@ -3,21 +3,21 @@ title: "סקירה כללית של Qubes"
 icon: simple/qubesos
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) היא מערכת הפעלה המשתמשת ב[Xen](https://en.wikipedia.org/wiki/Xen) לספק אבטחה חזקה למחשוב שולחני באמצעות מכונות וירטואליות מבודדות. כל VM נקרא *קובייה* ואתה יכול להקצות כל קובייה רמה של אמון על פי מטרתו. מכיוון שמערכת ההפעלה Qubes מספקת אבטחה על ידי שימוש בבידוד, ומתירה פעולות רק על בסיס כל מקרה, זה ההפך מ[badness enumeration](https://www.ranum.com/security/computer_security/editorials/dumb/).
+[**Qubes OS**](../desktop.md#qubes-os) היא מערכת הפעלה המשתמשת ב [Xen](https://en.wikipedia.org/wiki/Xen) היפרוויזר לספק אבטחה חזקה עבור מחשוב שולחני באמצעות מכונות וירטואליות מבודדות. כל VM נקרא *Qube* ואתה יכול להקצות לכל Qube רמת אמון על סמך מטרתו. מכיוון שמערכת ההפעלה Qubes מספקת אבטחה על ידי שימוש בבידוד, ומתירה רק פעולות על בסיס כל מקרה, זה ההפך מ[ספירת רעות](https://www.ranum.com/security/computer_security/editorials/dumb/).
 
-## איך Qubes OS עובדת?
+## איך עובדת מערכת ההפעלה של Qubes?
 
-Qubes משתמש ב - [מידור](https://www.qubes-os.org/intro/) כדי לשמור על המערכת מאובטחת. קוביות נוצרים מתבניות, ברירת המחדל היא עבור Fedora, Debian ו - [Whonix](../desktop.md#whonix). מערכת הפעלה Qubes מאפשר לך ליצור מכונות ויטואליות [חד פעמיות](https://www.qubes-os.org/doc/how-to-use-disposables/).
+Qubes משתמשת ב[מידור](https://www.qubes-os.org/intro/) כדי לשמור על אבטחת המערכת. Qubes נוצרים מתבניות, ברירת המחדל היא עבור Fedora, Debian ו-[Whonix](../desktop.md#whonix). מערכת ההפעלה Qubes מאפשרת לך גם ליצור מכונות וירטואליות לשימוש [חד פעמי](https://www.qubes-os.org/doc/how-to-use-disposables/).
 
 ![ארכיטקטורת Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
-<figcaption>אדריכלות Qubes, קרדיט: מהו Qubes OS Intro</figcaption>
+<figcaption>ארכיטקטורת Qubes, קרדיט: מהי הקדמה למערכת ההפעלה של Qubes</figcaption>
 
-כל יישום Qubes יש [גבול צבעוני](https://www.qubes-os.org/screenshots/) שיכול לעזור לך לעקוב אחר המחשב הווירטואלי הוא פועל. לדוגמה, תוכל להשתמש בצבע מסוים עבור הדפדפן הבנקאי שלך, תוך שימוש בצבע אחר עבור דפדפן כללי שאינו מהימן.
+לכל אפליקציה של Qubes יש [גבול צבעוני](https://www.qubes-os.org/screenshots/) שיכול לעזור לך לעקוב אחר המכונה הוירטואלית שבה היא פועלת. אתה יכול, למשל, להשתמש בצבע ספציפי עבור הדפדפן הבנקאי שלך, תוך שימוש בצבע אחר עבור דפדפן כללי שאינו מהימן.
 
 ![גבול צבוע](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
-<figcaption>גבולות החלון של Qubes, קרדיט: צילומי מסך של Qubes</figcaption>
+<figcaption>גבולות החלונות של Qubes, קרדיט: צילומי מסך של Qubes</figcaption>
 
-## למה כדאי להשתמש ב - Qubes?
+## מדוע עלי להשתמש ב-Qubes?
 
 מערכת ההפעלה של Qubes שימושית אם [מודל האיום](../basics/threat-modeling.md) שלך דורש מידור ואבטחה חזקות, כגון אם אתה חושב שתפתח קבצים לא מהימנים ממקורות לא מהימנים. סיבה טיפוסית לשימוש ב-Qubes OS היא פתיחת מסמכים ממקורות לא ידועים.
 

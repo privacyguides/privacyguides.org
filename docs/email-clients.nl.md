@@ -5,8 +5,10 @@ icon: material/email-open
 
 Onze aanbevelingslijst bevat e-mailcliënten die zowel [OpenPGP](encryption.md#openpgp) als sterke authenticatie ondersteunen, zoals [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). Met OAuth kunt u [Multi-Factor Authentication](basics/multi-factor-authentication.md) gebruiken en accountdiefstal voorkomen.
 
-??? Opgelet "Email does not provide forward secrecy" Bij gebruik van end-to-end encryptie (E2EE) technologie zoals OpenPGP, zal e-mail nog steeds [bepaalde metadata](email.md#email-metadata-overview) bevatten die niet in de header van de e-mail zijn geëncrypteerd.
+??? warning "E-mail biedt geen forward secrecy"
 
+    Bij gebruik van end-to-end encryptie (E2EE) technologie zoals OpenPGP, zal e-mail nog steeds [enkele metadata](email.md#email-metadata-overzicht) bevatten die niet versleuteld zijn in de header van de e-mail.
+    
     OpenPGP ondersteunt ook geen [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), wat betekent dat als uw of de geadresseerde's private sleutel ooit wordt gestolen, alle voorgaande berichten die ermee zijn versleuteld zullen worden blootgelegd: [How do I protect my private keys?](basics/email-security.md) Overweeg het gebruik van een medium dat forward secrecy biedt:
     
     [Real-time Communication](real-time-communication.md){ .md-button }

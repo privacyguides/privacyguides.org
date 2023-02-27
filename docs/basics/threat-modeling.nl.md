@@ -25,7 +25,7 @@ Om na te gaan wat er zou kunnen gebeuren met de dingen die u waardeert en om te 
 
 ### Wat wil ik beschermen?
 
-Een "asset" is iets waar u waarde aan hecht en dat u wilt beschermen. In de context van digitale beveiliging is een activum meestal een soort informatie.== Bijvoorbeeld, uw e-mails, contactlijsten, instant-berichten, locatie en bestanden zijn allemaal mogelijke activa. Uw apparaten zelf kunnen ook activa zijn.
+Een "asset" is iets waar u waarde aan hecht en dat u wilt beschermen. In de context van digitale beveiliging is een activum meestal een soort informatie.== Bijvoorbeeld, uw e-mails, contactlijsten, instant-berichten, locatie en bestanden zijn allemaal mogelijke activa.== Uw apparaten zelf kunnen ook activa zijn.
 
 *Maak een lijst van uw activa: gegevens die u bewaart, waar ze worden bewaard, wie er toegang toe heeft en wat anderen ervan weerhoudt er toegang toe te krijgen.*
 
@@ -39,7 +39,7 @@ Afhankelijk van wie uw tegenstanders zijn, kan deze lijst onder bepaalde omstand
 
 ### Hoe groot is de kans dat ik het zal moeten beschermen?
 
-== Risico is de kans dat een bepaalde dreiging tegen een bepaald goed zich voordoet.== Het gaat hand in hand met vermogen. Hoewel uw mobiele-telefoonprovider toegang heeft tot al uw gegevens, is het risico klein dat hij uw privégegevens online plaatst om uw reputatie te schaden.
+==Risico is de kans dat een bepaalde dreiging tegen een bepaald goed zich voordoet.== Het gaat hand in hand met vermogen. Hoewel uw mobiele-telefoonprovider toegang heeft tot al uw gegevens, is het risico klein dat hij uw privégegevens online plaatst om uw reputatie te schaden.
 
 Het is belangrijk onderscheid te maken tussen wat zou kunnen gebeuren en de waarschijnlijkheid dat het gebeurt. Er bestaat bijvoorbeeld een risico dat uw gebouw instort, maar het risico dat dit gebeurt is veel groter in San Francisco (waar aardbevingen vaak voorkomen) dan in Stockholm (waar dit niet het geval is).
 
@@ -51,7 +51,7 @@ Risico's inschatten is zowel een persoonlijk als een subjectief proces. Veel men
 
 Er zijn vele manieren waarop een tegenstander toegang tot uw gegevens kan krijgen. Een tegenstander kan bijvoorbeeld uw privécommunicatie lezen terwijl die door het netwerk gaat, of hij kan uw gegevens wissen of beschadigen.
 
-==Een regering die de verspreiding van een video met politiegeweld wil verhinderen, kan ermee volstaan die video te verwijderen of de beschikbaarheid ervan te beperken. Daarentegen kan een politieke tegenstander toegang willen krijgen tot geheime inhoud en die inhoud publiceren zonder dat u dat weet.
+Een regering die de verspreiding van een video met politiegeweld wil verhinderen, kan ermee volstaan die video te verwijderen of de beschikbaarheid ervan te beperken. ==Daarentegen kan een politieke tegenstander toegang willen krijgen tot geheime inhoud en die inhoud publiceren zonder dat u dat weet.==
 
 Bij beveiligingsplanning gaat het erom te begrijpen wat de gevolgen kunnen zijn als een tegenstander zich met succes toegang verschaft tot een van uw bedrijfsmiddelen. Om dit te bepalen, moet u het vermogen van uw tegenstander in overweging nemen. De provider van uw mobiele telefoon heeft bijvoorbeeld toegang tot al uw telefoongegevens. Een hacker op een open Wi-Fi-netwerk kan toegang krijgen tot uw onversleutelde communicatie. Uw regering heeft misschien meer mogelijkheden.
 

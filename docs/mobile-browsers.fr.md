@@ -15,7 +15,7 @@ Sur Android, Firefox est toujours moins sûr que les alternatives basées sur Ch
 
     ![Logo Brave](assets/img/browsers/brave.svg){ align=right }
     
-    **Brave Browser** comprend un bloqueur de contenu intégré et des [fonctions de confidentialité] (https://brave.com/privacy-features/), dont la plupart sont activées par défaut.
+    **Brave Browser** comprend un bloqueur de contenu intégré et des [fonctions de confidentialité](https://brave.com/privacy-features/), dont la plupart sont activées par défaut.
     
     Brave est basé sur le projet de navigateur Web Chromium. Il devrait donc vous être familier et présenter un minimum de problèmes de compatibilité avec les sites Web.
     
@@ -97,7 +97,7 @@ Sur iOS, toute application capable de naviguer sur le web est [](https://develop
 
     ![Logo Safari](assets/img/browsers/safari.svg){ align=right }
     
-    **Safari** est le navigateur par défaut dans iOS. Il comprend des [fonctions de confidentialité] (https://support.apple.com/fr-fr/guide/iphone/iphb01fc3c85/15.0/ios/15.0) telles que la Protection Intelligente contre le Pistage, le Rapport de Confidentialité, les Onglets de Navigation Privée isolés, le Relais Privé iCloud et les mises à niveau HTTPS automatiques.
+    **Safari** est le navigateur par défaut dans iOS. Il comprend des [fonctions de confidentialité](https://support.apple.com/fr-fr/guide/iphone/iphb01fc3c85/15.0/ios/15.0) telles que la Protection Intelligente contre le Pistage, le Rapport de Confidentialité, les Onglets de Navigation Privée isolés, le Relais Privé iCloud et les mises à niveau HTTPS automatiques.
     
     [:octicons-home-16: Page d'accueil](https://www.apple.com/fr/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/fr/safari/){ .card-link title="Politique de Confidentialité" }

@@ -1,5 +1,5 @@
 ---
-title: סקירת לינוקס
+title: סקירה כללית של לינוקס
 icon: simple/linux
 ---
 
@@ -90,7 +90,7 @@ icon: simple/linux
 
 ### Wayland
 
-אנו ממליצים להשתמש בסביבת שולחן עבודה התומכת בפרוטוקול התצוגה [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) כפי שפותח עם האבטחה[לזכור](https://lwn.net/Articles/589147/). קודמו, [X11](https://en.wikipedia.org/wiki/X_Window_System), אינו תומך בבידוד GUI, מה שמאפשר לכל החלונות [רשום מסך, רישום והכנס קלט בחלונות אחרים](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), מה שהופך כל ניסיון לארגז חול לחסר תועלת. אמנם יש אפשרויות לעשות X11 מקונן כגון [Xpra](https://en.wikipedia.org/wiki/Xpra) או [Xephyr](https://en.wikipedia.org/wiki/Xephyr), לעתים קרובות הם מגיעים עם השלכות ביצועים שליליות ואינם נוחים להגדרה ואינם עדיפים על פני Wayland.
+אנו ממליצים להשתמש בסביבת שולחן עבודה התומכת בפרוטוקול התצוגה [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) כפי שפותח [תוך מחשבה](https://lwn.net/Articles/589147/) על אבטחה. קודמו, [X11](https://en.wikipedia.org/wiki/X_Window_System), אינו תומך בבידוד GUI, מה שמאפשר לכל החלונות [רשום מסך, רישום והכנס קלט בחלונות אחרים](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), מה שהופך כל ניסיון לארגז חול לחסר תועלת. אמנם יש אפשרויות לעשות X11 מקונן כגון [Xpra](https://en.wikipedia.org/wiki/Xpra) או [Xephyr](https://en.wikipedia.org/wiki/Xephyr), לעתים קרובות הם מגיעים עם השלכות ביצועים שליליות ואינם נוחים להגדרה ואינם עדיפים על פני Wayland.
 
 למרבה המזל, סביבות נפוצות כגון [GNOME](https://www.gnome.org), [KDE](https://kde.org) וה- למנהל החלונות [Sway](https://swaywm.org) יש תמיכה ב-Wayland. חלק מההפצות כמו Fedora ו- Tumbleweed משתמשות בו כברירת מחדל, וחלק אחרות עשויות לעשות זאת בעתיד מכיוון ש-X11 נמצא ב[מצב תחזוקה קשה](https://www.phoronix.com/scan.php?page=news_item&px=X.Org-Maintenance-Mode-Quickly). אם אתה משתמש באחת מהסביבות האלה זה קל כמו לבחור את הפגישה "Wayland" במנהל התצוגה של שולחן העבודה ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 
@@ -130,7 +130,7 @@ icon: simple/linux
 
 - **שמות מארח:** שם המארח של המערכת שלך משותף עם הרשתות שאליהן אתה מתחבר. עליך להימנע מלכלול מונחים מזהים כמו השם או מערכת ההפעלה שלך בשם המארח שלך, במקום להיצמד למונחים גנריים או מחרוזות אקראיות.
 - **שמות משתמש:** באופן דומה, שם המשתמש שלך משמש במגוון דרכים במערכת שלך. שקול להשתמש במונחים גנריים כמו "משתמש" ולא בשמך האמיתי.
-- **מזהה מכונה:**: במהלך ההתקנה נוצר מזהה מכונה ייחודי ומאוחסן במכשיר שלך. שקול [להגדיר אותו למזהה גנרי](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
+- **מזהה מכונה:** במהלך ההתקנה נוצר מזהה מכונה ייחודי ומאוחסן במכשיר שלך. שקול [להגדיר אותו למזהה גנרי](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
 
 ### ספירת מערכת
 

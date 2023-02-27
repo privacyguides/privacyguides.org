@@ -30,7 +30,7 @@ De exit node is het punt waar je webverkeer het Tor netwerk verlaat en wordt doo
 De exit node wordt willekeurig gekozen uit alle beschikbare Tor-knooppunten met een exit-relaisvlag.[^2]
 
 <figure markdown>
-  Tor-pad](../assets/img/how-tor-works/tor-path.svg#only-light)
+  ![Tor-pad](../assets/img/how-tor-works/tor-path.svg#only-light)
   ![Tor-pad](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
   <figcaption>Tor-circuitpad</figcaption>
 </figure>

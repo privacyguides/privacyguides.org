@@ -149,7 +149,7 @@ Nous recommandons une grande variété d'applications Android sur ce site. Les a
     ![Logo d'Auditor](assets/img/android/auditor.svg#only-light){ align=right }
     ![Logo d'Auditor](assets/img/android/auditor-dark.svg#only-dark){ align=right }
     
-    **Auditor** est une application qui exploite les fonctions de sécurité matérielle pour assurer le contrôle de l'intégrité des [appareils pris en charge] (https://attestation.app/about#device-support). Actuellement, il ne fonctionne qu'avec GrapheneOS et le système d'exploitation d'origine de l'appareil.
+    **Auditor** est une application qui exploite les fonctions de sécurité matérielle pour assurer le contrôle de l'intégrité des [appareils pris en charge](https://attestation.app/about#device-support). Actuellement, il ne fonctionne qu'avec GrapheneOS et le système d'exploitation d'origine de l'appareil.
     
     [:octicons-home-16: Page d'accueil](https://attestation.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Politique de confidentialité" }
@@ -182,7 +182,7 @@ Si votre [modèle de menace](basics/threat-modeling.md) nécessite une certaine 
     ![Logo de Secure Camera](assets/img/android/secure_camera.svg#only-light){ align=right }
     ![Logo de Secure Camera](assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
     
-      **Secure Camera** est une application de caméra axée sur la confidentialité et la sécurité qui peut capturer des images, des vidéos et des QR codes. Les extensions du vendeur CameraX (Portrait, HDR, Night Sight, Face Retouch et Auto) sont également prises en charge sur les appareils disponibles.
+    **Secure Camera** est une application de caméra axée sur la confidentialité et la sécurité qui peut capturer des images, des vidéos et des QR codes. Les extensions du vendeur CameraX (Portrait, HDR, Night Sight, Face Retouch et Auto) sont également prises en charge sur les appareils disponibles.
     
     [:octicons-repo-16: Dépôt](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
     [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}

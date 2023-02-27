@@ -11,7 +11,7 @@ Ce sont les navigateurs web de bureau et les configurations que nous recommandon
 
     ![Logo Firefox](assets/img/browsers/firefox.svg){ align=right }
     
-    **Firefox** offre de solides paramètres de confidentialité, tels que la [protection renforcée contre le suivi] (https://support.mozilla.org/fr/kb/protection-renforcee-contre-pistage-firefox-ordinateur), qui peut contribuer à bloquer divers [types de suivi] (https://support.mozilla.org/fr/kb/protection-renforcee-contre-pistage-firefox-ordinateur#w_what-enhanced-tracking-protection-blocks).
+    **Firefox** offre de solides paramètres de confidentialité, tels que la [protection renforcée contre le suivi](https://support.mozilla.org/fr/kb/protection-renforcee-contre-pistage-firefox-ordinateur), qui peut contribuer à bloquer divers [types de suivi](https://support.mozilla.org/fr/kb/protection-renforcee-contre-pistage-firefox-ordinateur#w_what-enhanced-tracking-protection-blocks).
     
     [:octicons-home-16: Accueil](https://firefox.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.mozilla.org/fr/privacy/firefox/){ .card-link title="Politique de confidentialité" }

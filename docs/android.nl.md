@@ -28,8 +28,8 @@ Wij raden u aan een van deze aangepaste Android-besturingssystemen op uw toestel
 
 !!! recommendation
 
-    GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ align=right }
-    GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
+    ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ align=right }
+    ![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
     
     **GrapheneOS** is de beste keuze als het gaat om privacy en veiligheid.
     
@@ -118,7 +118,7 @@ Nog een paar tips voor de aanschaf van een Google Pixel:
 
 De volgende OEM's worden alleen genoemd omdat zij telefoons hebben die compatibel zijn met de door ons aanbevolen besturingssystemen. Als je een nieuw toestel koopt, raden we alleen aan om een Google Pixel te kopen.
 
-### Google Pixel
+### Shelter
 
 !!! recommendation
 
@@ -132,7 +132,7 @@ De volgende OEM's worden alleen genoemd omdat zij telefoons hebben die compatibe
     [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Bijdragen }
     
-    ??? downloads
+    ??? downloads "Downloaden"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.typeblog.shelter)
 
@@ -149,7 +149,7 @@ De volgende OEM's worden alleen genoemd omdat zij telefoons hebben die compatibe
     ![Auditor logo](assets/img/android/auditor.svg#only-light){ align=right }
     ![Auditor logo](assets/img/android/auditor-dark.svg#only-dark){ align=right }
     
-    **Auditor** is een app die hardwarebeveiligingsfuncties gebruikt om de integriteit van het apparaat te bewaken voor [ondersteunde apparaten] (https://attestation.app/about#device-support). Momenteel werkt het alleen met GrapheneOS en het standaard besturingssysteem van het toestel.
+    **Auditor** is een app die hardwarebeveiligingsfuncties gebruikt om de integriteit van het apparaat te bewaken voor [ondersteunde apparaten](https://attestation.app/about#device-support). Momenteel werkt het alleen met GrapheneOS en het standaard besturingssysteem van het toestel.
     
     [:octicons-home-16: Homepage](https://attestation.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Privacybeleid" }
@@ -306,7 +306,7 @@ Als u APK-bestanden downloadt om handmatig te installeren, kunt u hun handtekeni
 
 ![F-Droid logo](assets/img/android/f-droid.svg){ align=right width=120px }
 
-==We raden **momenteel niet** F-Droid aan als een manier om apps te verkrijgen. = F-Droid wordt vaak aanbevolen als alternatief voor Google Play, vooral in de privacygemeenschap. De optie om repositories van derden toe te voegen en niet beperkt te zijn tot het ecosysteem van Google heeft geleid tot de populariteit. F-Droid heeft bovendien [reproduceerbare builds](https://f-droid.org/en/docs/Reproducible_Builds/) voor sommige toepassingen en zet zich in voor vrije en open-source software. Er zijn echter [opmerkelijke problemen](https://privsec.dev/posts/android/f-droid-security-issues/) met de officiële F-Droid-client, hun kwaliteitscontrole en hoe ze pakketten bouwen, ondertekenen en leveren.
+==We raden **momenteel niet** F-Droid aan als een manier om apps te verkrijgen.== F-Droid wordt vaak aanbevolen als alternatief voor Google Play, vooral in de privacygemeenschap. De optie om repositories van derden toe te voegen en niet beperkt te zijn tot het ecosysteem van Google heeft geleid tot de populariteit. F-Droid heeft bovendien [reproduceerbare builds](https://f-droid.org/en/docs/Reproducible_Builds/) voor sommige toepassingen en zet zich in voor vrije en open-source software. Er zijn echter [opmerkelijke problemen](https://privsec.dev/posts/android/f-droid-security-issues/) met de officiële F-Droid-client, hun kwaliteitscontrole en hoe ze pakketten bouwen, ondertekenen en leveren.
 
 Vanwege hun proces van het bouwen van apps lopen apps in de officiële F-Droid-repository vaak achter op updates. F-Droid maintainers hergebruiken ook pakket-ID's tijdens het ondertekenen van apps met hun eigen sleutels, wat niet ideaal is omdat het F-Droid team dan het ultieme vertrouwen krijgt.
 

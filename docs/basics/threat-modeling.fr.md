@@ -3,13 +3,13 @@ title: "Modélisation des Menaces"
 icon: 'material/target-account'
 ---
 
-Trouver le bon équilibre entre la sécurité, la confidentialité et l'ergonomie est l'une des premières et des plus difficiles tâches que vous aurez à accomplir dans votre voyage de la récupération de votre vie privée. Tout est une histoire de compromis : plus quelque chose est sécurisé, plus il est limité ou peu pratique, etc. Souvent, les gens trouvent que le problème avec les outils qui leurs sont recommandés est qu'ils sont trop difficiles à utiliser !
+Trouver le bon équilibre entre la sécurité, la confidentialité et la commodité est l'une des premières et plus difficiles tâches que vous aurez à accomplir dans votre parcours pour regagner votre vie privée en ligne. Tout est une histoire de compromis : plus quelque chose est sécurisé, plus il est limité ou peu pratique, etc. Souvent, les gens trouvent que le problème avec les outils qui leurs sont recommandés est qu'ils sont trop difficiles à utiliser !
 
-Si vous vouliez utiliser les outils les **plus** sécurisés actuellement disponibles, vous devriez sacrifier *beaucoup* de facilité d'utilisation. Et même dans ce cas, ==rien n'est jamais totalement sécurisé.== On parle de sécurité **élevée**, mais jamais de sécurité **totale**. C'est pourquoi les modèles de menace sont importants.
+Si vous vouliez utiliser les outils les **plus** sécurisés actuellement disponibles, vous devriez sacrifier *beaucoup* de commodité. Et même dans ce cas, ==rien n'est jamais totalement sécurisé.== On parle de sécurité **élevée**, mais jamais de sécurité **totale**. C'est pourquoi les modèles de menace sont importants.
 
 **Alors, quels sont ces modèles de menace ?**
 
-==Un modèle de menace est une liste des menaces les plus probables pour votre sécurité/vie privée.== Puisqu'il est impossible de se protéger contre **toutes** les attaques(ants), vous devriez vous concentrer sur les menaces **les plus probables**. En matière de sécurité informatique, une menace est un événement potentiel qui pourrait saper vos efforts pour protéger votre vie privée et voter sécurité.
+==Un modèle de menace est une liste des menaces les plus probables pour votre sécurité/vie privée.== Puisqu'il est impossible de se protéger contre **toutes** les attaques(ants), vous devriez vous concentrer sur les menaces **les plus probables**. En matière de sécurité informatique, une menace est un événement potentiel qui pourrait saper vos efforts pour protéger votre vie privée et votre sécurité.
 
 En vous concentrant sur les menaces qui comptent pour vous, vous affinez votre réflexion sur la protection dont vous avez besoin, ce qui vous permet de choisir les outils qui conviennent le mieux.
 
@@ -31,7 +31,7 @@ Un "actif" est quelque chose que vous valorisez et que vous voulez protéger. Da
 
 ### De qui je veux le protéger ?
 
-Pour répondre à cette question, il est important d'identifier qui pourrait vouloir vous cibler, vous ou vos informations. ==Une personne ou une entité qui représente une menace pour vos actifs est un “adversaire.”== Des exemples d'adversaires potentiels sont votre patron, votre ancien partenaire, votre concurrence d'affaires, votre gouvernement ou un pirate informatique sur un réseau public.
+Pour répondre à cette question, il est important d'identifier qui pourrait vouloir vous cibler, vous ou vos informations. ==Une personne ou une entité qui représente une menace pour vos actifs est un “adversaire.”== Des exemples d'adversaires potentiels sont votre patron, votre ancien partenaire, une entreprise concurrentielle, votre gouvernement ou un pirate informatique sur un réseau public.
 
 *Dressez une liste de vos adversaires, ou de ceux qui pourraient vouloir s'emparer de vos actifs. Votre liste peut comprendre des particuliers, une agence gouvernementale ou des sociétés.*
 

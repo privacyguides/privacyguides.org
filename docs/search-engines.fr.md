@@ -17,9 +17,9 @@ Envisagez d'utiliser un [VPN](vpn.md) ou [Tor](https://www.torproject.org/) si v
     
     **Brave Search** est développé par Brave et fournit des résultats provenant principalement de son propre index indépendant. L'index est optimisé en se basant sur Google Search et peut donc fournir des résultats contextuellement plus précis que d'autres solutions.
     
-    Le moteur de recherche s'appuie sur une API commerciale de Bing pour fournir la plupart des résultats, mais il utilise également de nombreuses [autres sources] (https://help.duckduckgo.com/results/sources/) pour les réponses instantanées et d'autres résultats non primaires.
+    Brave Search comprend des fonctionnalités uniques telles que Discussions, qui met en évidence les résultats axés sur la conversation, comme les messages des forums.
     
-    Nous vous recommandons de désactiver [Mesures d'utilisation anonymes] (https://search.brave.com/help/usage-metrics) car ells sont activées par défaut et peuvent être désactivées dans les paramètres.
+    Nous vous recommandons de désactiver [Mesures d'utilisation anonymes](https://search.brave.com/help/usage-metrics) car ells sont activées par défaut et peuvent être désactivées dans les paramètres.
     
     [:octicons-home-16: Page d'accueil](https://search.brave.com/){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Service onion" }
@@ -34,7 +34,7 @@ Brave Search est basé aux États-Unis. Leur [politique de confidentialité](htt
 
     ![Logo DuckDuckGo](assets/img/search-engines/duckduckgo.svg){ align=right }
     
-    **DuckDuckGo** est l'un des moteurs de recherche privés les plus populaires. Parmi les fonctionnalités de recherche notables de DuckDuckGo figurent les [bangs](https://duckduckgo.com/bang) et de nombreuses [réponses instantanées] (https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). Le moteur de recherche s'appuie sur une API commerciale de Bing pour fournir la plupart des résultats, mais il utilise également de nombreuses [autres sources] (https://help.duckduckgo.com/results/sources/) pour les réponses instantanées et d'autres résultats non primaires.
+    **DuckDuckGo** est l'un des moteurs de recherche privés les plus populaires. Parmi les fonctionnalités de recherche notables de DuckDuckGo figurent les [bangs](https://duckduckgo.com/bang) et de nombreuses [réponses instantanées](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). Le moteur de recherche s'appuie sur une API commerciale de Bing pour fournir la plupart des résultats, mais il utilise également de nombreuses [autres sources](https://help.duckduckgo.com/results/sources/) pour les réponses instantanées et d'autres résultats non primaires.
     
     DuckDuckGo est le moteur de recherche par défaut du navigateur Tor et l'une des rares options disponibles sur le navigateur Safari d'Apple.
     
@@ -72,7 +72,7 @@ Lorsque vous utilisez une instance SearXNG, assurez-vous d'aller lire sa politiq
     ![Logo de Startpage](assets/img/search-engines/startpage.svg#only-light){ align=right }
     ![Logo de Startpage](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
     
-    **Startpage** est un moteur de recherche privé connu pour servir les résultats de recherche de Google.  L'une des caractéristiques uniques de Startpage est la [Vue anonyme] (https://www.startpage.com/en/anonymous-view/), qui s'efforce de normaliser l'activité des utilisateurs afin de rendre plus difficile leur identification. Cette fonction peut être utile pour masquer [quelques](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) propriétés du réseau et du navigateur. Contrairement à ce que son nom suggère, il ne faut pas compter sur cette fonction pour assurer l'anonymat. Si vous recherchez l'anonymat, utilisez plutôt le [Navigateur Tor] (tor.md#tor-browser).
+    **Startpage** est un moteur de recherche privé connu pour servir les résultats de recherche de Google.  L'une des caractéristiques uniques de Startpage est la [Vue anonyme](https://www.startpage.com/en/anonymous-view/), qui s'efforce de normaliser l'activité des utilisateurs afin de rendre plus difficile leur identification. Cette fonction peut être utile pour masquer [quelques](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) propriétés du réseau et du navigateur. Contrairement à ce que son nom suggère, il ne faut pas compter sur cette fonction pour assurer l'anonymat. Si vous recherchez l'anonymat, utilisez plutôt le [Navigateur Tor](tor.md#tor-browser).
     
     [:octicons-home-16: Page d'accueil](https://www.startpage.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Politique de confidentialité" }

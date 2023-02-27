@@ -32,9 +32,9 @@ We zien vaak dat mensen overdreven ingewikkelde dreigingsmodellen voor privacybe
 
 Het vinden van de "beste" oplossing voor jezelf betekent niet noodzakelijk dat je op zoek bent naar een onfeilbare oplossing met tientallen voorwaarden - deze oplossingen zijn vaak moeilijk om realistisch mee te werken. Zoals we eerder hebben besproken, gaat veiligheid vaak ten koste van gemak. Hieronder geven we enkele tips:
 
-1. ==Acties moeten een bepaald doel dienen, denk na over hoe je met zo weinig mogelijk acties kunt doen wat je wilt.
+1. ==Acties moeten een bepaald doel dienen==, denk na over hoe je met zo weinig mogelijk acties kunt doen wat je wilt.
 2. ==Verwijder menselijke faalpunten:== We maken fouten, worden moe, en vergeten dingen. Om de veiligheid te behouden, moet je voorkomen dat je vertrouwt op handmatige acties en processen die je moet onthouden.
-3. ==Gebruik het juiste niveau van bescherming voor wat je van plan bent. Wij zien vaak aanbevelingen van zogenaamde politie, en legerbestendige oplossingen. Deze vereisen vaak specialistische kennis en zijn over het algemeen niet wat de mensen willen. Het heeft geen zin een ingewikkeld dreigingsmodel voor anonimiteit op te stellen als je gemakkelijk kunt worden gedeanonimiseerd door een eenvoudige vergissing.
+3. ==Gebruik het juiste niveau van bescherming voor wat je van plan bent.== Wij zien vaak aanbevelingen van zogenaamde politie, en legerbestendige oplossingen. Deze vereisen vaak specialistische kennis en zijn over het algemeen niet wat de mensen willen. Het heeft geen zin een ingewikkeld dreigingsmodel voor anonimiteit op te stellen als je gemakkelijk kunt worden gedeanonimiseerd door een eenvoudige vergissing.
 
 Dus, hoe zou dit eruit zien?
 

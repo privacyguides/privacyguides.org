@@ -11,7 +11,7 @@ icon: material/form-textbox-password
 
     מנהלי סיסמאות מובנים בתוכנות כמו דפדפנים ומערכות הפעלה אינם טובים לפעמים כמו תוכנות ייעודיות למנהל סיסמאות. היתרון של מנהל סיסמאות מובנה הוא אינטגרציה טובה עם התוכנה, אך לרוב זה יכול להיות פשוט מאוד וחסר תכונות פרטיות ואבטחה שיש להצעות עצמאיות.
     
-    לדוגמה, מנהל הסיסמאות ב-Microsoft Edge אינו מציע E2EE כלל. למנהל הסיסמאות של Google יש [אופציונלי](https://support.google.com/accounts/answer/11350823) E2EE, ו-[של Apple](https://support.apple.com/en-us/HT202303) מציע E2EE על ידי ברירת מחדל.
+    לדוגמה, מנהל הסיסמאות ב-Microsoft Edge אינו מציע E2EE כלל. למנהל הסיסמאות של Google יש E2EE [אופציונלי](https://support.google.com/accounts/answer/11350823), ו-[של Apple](https://support.apple.com/en-us/HT202303) מציע E2EE על ידי ברירת מחדל.
 
 ## מבוסס ענן
 
@@ -60,7 +60,7 @@ Bitwarden כולל גם [Bitwarden Send](https://bitwarden.com/products/send/), 
 
     ![1Password לוגו](assets/img/password-management/1password.svg){ align=right }
     
-    **1Password** הוא מנהל סיסמאות עם דגש חזק על אבטחה וקלות שימוש, המאפשר לך לאחסן סיסמאות, כרטיסי אשראי, רישיונות תוכנה וכל מידע רגיש אחר בכספת דיגיטלית מאובטחת. הכספת שלכם מתארחת בשרתים של 1Password תמורת [תשלום חודשי](https://1password.com/sign-up/). 1Password [מבוקרת](https://support.1password.com/security-assessments/) על בסיס קבוע ומספקת תמיכת לקוחות יוצאת דופן. 1Password הוא מקור סגור; עם זאת, האבטחה של המוצר מתועדת ביסודיות ב[מסמך האבטחה הלבן] שלהם (https://1passwordstatic.com/files/security/1password-white-paper.pdf).
+    **1Password** הוא מנהל סיסמאות עם דגש חזק על אבטחה וקלות שימוש, המאפשר לך לאחסן סיסמאות, כרטיסי אשראי, רישיונות תוכנה וכל מידע רגיש אחר בכספת דיגיטלית מאובטחת. הכספת שלכם מתארחת בשרתים של 1Password תמורת [תשלום חודשי](https://1password.com/sign-up/). 1Password [מבוקרת](https://support.1password.com/security-assessments/) על בסיס קבוע ומספקת תמיכת לקוחות יוצאת דופן. 1Password הוא מקור סגור; עם זאת, האבטחה של המוצר מתועדת ביסודיות ב[מסמך האבטחה הלבן](https://1passwordstatic.com/files/security/1password-white-paper.pdf) שלהם.
     
     [:octicons-home-16: דף הבית](https://1password.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://support.1password.com/1password-privacy/){ .card-link title="מדיניות פרטיות" }
@@ -179,7 +179,7 @@ KeePassXC מאחסן את נתוני הייצוא שלו כקובצי [CSV](http
 
     ![לוגו Strongbox](assets/img/password-management/strongbox.svg){ align=right }
     
-    **Strongbox** הוא מנהל סיסמאות מקורי בקוד פתוח עבור iOS ו-macOS. תמיכה בפורמטים של KeePass ו- Password Safe, ניתן להשתמש ב-Strongbox במקביל למנהלי סיסמאות אחרים, כמו KeePassXC, בפלטפורמות שאינן של אפל. על ידי שימוש ב[מודל freemium](https://strongboxsafe.com/pricing/), Strongbox מציעה את רוב התכונות תחת השכבה החינמית שלה עם [תכונות] יותר מוכוונות נוחות (https://strongboxsafe.com/comparison/) - כגון כאימות ביומטרי - נעול מאחורי מנוי או רישיון תמידי.
+    **Strongbox** הוא מנהל סיסמאות מקורי בקוד פתוח עבור iOS ו-macOS. תמיכה בפורמטים של KeePass ו- Password Safe, ניתן להשתמש ב-Strongbox במקביל למנהלי סיסמאות אחרים, כמו KeePassXC, בפלטפורמות שאינן של אפל. על ידי שימוש ב[מודל freemium](https://strongboxsafe.com/pricing/), Strongbox מציעה את רוב התכונות תחת השכבה החינמית שלה עם [תכונות](https://strongboxsafe.com/comparison/) יותר מוכוונות נוחות - כגון כאימות ביומטרי - נעול מאחורי מנוי או רישיון תמידי.
     
     [:octicons-home-16: דף הבית](https://strongboxsafe.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="מדיניות פרטיות" }

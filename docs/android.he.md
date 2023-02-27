@@ -33,7 +33,7 @@ icon: 'simple/android'
     
     **GrapheneOS** היא הבחירה הטובה ביותר בכל הנוגע לפרטיות ואבטחה.
     
-    GrapheneOS מספק [התקשות אבטחה](https://en.wikipedia.org/wiki/Hardening_(computing))ושיפורים בפרטיות. יש לו [מקצה זיכרון מוקשה](https://github.com/GrapheneOS/hardened_malloc), הרשאות רשת וחיישן, ועוד [תכונות אבטחה] שונים (https://grapheneos.org/features). GrapheneOS מגיע גם עם עדכוני קושחה מלאים וחתום בונה, כך אתחול מאומת נתמך במלואו.
+    GrapheneOS מספקת [הקשחת אבטחה](https://en.wikipedia.org/wiki/Hardening_(computing)) ושיפורי פרטיות נוספים. יש לו [מקצה זיכרון מוקשה](https://github.com/GrapheneOS/hardened_malloc), הרשאות רשת וחיישנים ועוד [תכונות אבטחה] שונות (https://grapheneos.org/features). GrapheneOS מגיעה גם עם עדכוני קושחה מלאים ו-builds חתומים, כך שאתחול מאומת נתמך באופן מלא.
     
     [:octicons-home-16: דף הבית](https://grapheneos.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="מדיניות פרטיות" }
@@ -51,35 +51,35 @@ GrapheneOS תומך ב-[Sandboxed Google Play](https://grapheneos.org/usage#sand
 
     ![לוגו של DivestOS](assets/img/android/divestos.svg){ align=right }
     
-    **DivestOS** הוא נגזרת של [LineageOS](https://lineageos.org/).
-    DivestOS יורשת [מכשירים נתמכים] רבים (https://divestos.org/index.php?page=devices&base=LineageOS) מ - LineageOS. יש לו builds חתומים, מה שמאפשר לקבל [אתחול מאומת](https://source.android.com/security/verifiedboot) בחלק מהמכשירים שאינם Pixel.
+    **DivestOS** הוא נגזרת חלקית של [LineageOS](https://lineageos.org/).
+    DivestOS יורשת [מכשירים נתמכים](https://divestos.org/index.php?page=devices&base=LineageOS) רבים מ-LineageOS. יש לו builds חתומים, מה שמאפשר לקבל [אתחול מאומת](https://source.android.com/security/verifiedboot) בחלק מהמכשירים שאינם Pixel.
     
     [:octicons-home-16: דף הבית](https://divestos.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="שירות בצל" }
-    [:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="מדיניות הפרטיות" }
+    [:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="מדיניות פרטיות" }
     [:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
+    [:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://divested.dev/index.php?page=donate){ .card-link title=לתרומה }
 
-ל - DivestOS יש פגיעות ליבה ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [שמתוקן](https://gitlab.com/divested-mobile/cve_checker) אוטומטית, פחות בועות קנייניות, וקובץ [מארחים](https://divested.dev/index.php?page=dnsbl) מותאם. זה מקשיח WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), מאפשר [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) לכל הארכיטקטורות ו [חלוקת מצב רשת למחיצות](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning), ומקבל עדכונים "מחוץ-ללהקה". DivestOS כולל גם תיקוני ליבה מ - GrapheneOS ומאפשר את כל תכונות אבטחת הליבה הזמינות באמצעות התקשות [defconfig](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). כל הגרעינים החדשים יותר מגרסה 3.4 כוללים עמוד מלא [חיטוי](https://lwn.net/Articles/334747/) וכל ~22 הגרעינים המורכבים מ - Clang מופעלים [`- flatrivial - auto - var - init =0`](https://reviews.llvm.org/D54604?id=174471).
+ל - DivestOS יש פגיעות ליבה ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [שמתוקן](https://gitlab.com/divested-mobile/cve_checker) אוטומטית, פחות בועות קנייניות, וקובץ [מארחים](https://divested.dev/index.php?page=dnsbl) מותאם. ה-WebView המוקשה שלו, [Mulch](https://gitlab.com/divested-mobile/mulch), מאפשר [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) עבור כל הארכיטקטורות ו[חלוקת מצבי רשת](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning), ומקבל עדכונים מחוץ לפס. DivestOS כוללת גם תיקוני ליבה מ-GrapheneOS ומאפשרת את כל תכונות האבטחה הזמינות של הליבה באמצעות [הקשחת defconfig](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). כל הליבות החדשות יותר מגרסה 3.4 כוללים עמוד מלא [חיטוי](https://lwn.net/Articles/334747/) ולכל ~22 הליבות המחוברים יש Clang [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) מופעל.
 
-DivestOS מיישמת כמה תיקוני התקשות מערכת שפותחו במקור עבור GrapheneOS. DivestOS 16.0 ומעלה מיישמת את מתג ההרשאה ל[`אינטרנט`](https://developer.android.com/training/basics/network-ops/connecting) וחיישנים של GrapheneOS, [מקצה זיכרון מוקשה](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/#additional-hardening), [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) [constification](https://en.wikipedia.org/wiki/Const_(computer_programming)), ו partial [bionic](https://en.wikipedia.org/wiki/Bionic_(software)) תיקוני הקשחה. 17.1 תכונות גבוהות יותר GrapheneOS של רשת מלאה [MAC הקצאה אקראית](https://en.wikipedia.org/wiki/MAC_address#Randomization) אפשרות, [`ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) שליטה, ואתחול מחדש אוטומטי/Wi - Fi/Bluetooth [אפשרויות פסק זמן](https://grapheneos.org/features).
+DivestOS מיישמת כמה תיקוני הקשחת מערכת שפותחו במקור עבור GrapheneOS. DivestOS 16.0 ומעלה מיישמת את החלפת הרשאות [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) וחיישנים של GrapheneOS, [מקצית זיכרון מוקשחת](https://github.com/GrapheneOS/hardened_malloc), [השרצת מנהלים](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/#additional-hardening), [קונסטיפיקציה](https://en.wikipedia.org/wiki/Const_(computer_programming)) של [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) ותיקוני התקשות [ביונית](https://en.wikipedia.org/wiki/Bionic_(software)) חלקית. תכונות 17.1 ומעלה של GrapheneOS לכל רשת [אפשרות אקראיות מלאה של ](https://en.wikipedia.org/wiki/MAC_address#Randomization)MAC, בקרת [`ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) ואתחול אוטומטי/Wi-Fi/Bluetooth [אפשרויות פסק זמן](https://grapheneos.org/features).
 
 DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת כברירת מחדל. בדרך כלל, אנו ממליצים להימנע מ-F-Droid עקב [בעיות האבטחה](#f-droid) הרבות שלו. עם זאת, לעשות זאת ב-DivestOS לא כדאי; המפתחים מעדכנים את האפליקציות שלהם באמצעות מאגרי F-Droid משלהם ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) ו- [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). אנו ממליצים להשבית את אפליקציית F-Droid הרשמית ולהשתמש ב[Neo Store](https://github.com/NeoApplications/Neo-Store/) כאשר מאגרי DivestOS מופעלים כדי לשמור על רכיבים אלה מעודכנים. לגבי אפליקציות אחרות, השיטות המומלצות שלנו להשגתן עדיין חלות.
 
 !!! warning "אזהרה"
 
-    עדכון קושחה של DivestOS [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) ובקרת איכות משתנים בין המכשירים שבהם הוא תומך. אנו עדיין ממליצים על GrapheneOS בהתאם לתאימות המכשיר שלך. עבור מכשירים אחרים, DivestOS היא אלטרנטיבה טובה.
+    עדכון קושחה של DivestOS [סטטוס](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) ובקרת איכות משתנים בין המכשירים שבהם הוא תומך. אנו עדיין ממליצים על GrapheneOS בהתאם לתאימות המכשיר שלך. עבור מכשירים אחרים, DivestOS היא אלטרנטיבה טובה.
     
     לא לכל המכשירים הנתמכים יש אתחול מאומת, וחלקם מבצעים אותו טוב יותר מאחרים.
 
 ## מכשירי אנדרואיד
 
-בעת רכישת מכשיר, אנו ממליצים לקבל אחד חדש ככל האפשר. התוכנה והקושחה של מכשירים ניידים נתמכים רק לזמן מוגבל, ולכן רכישת חדש מאריך את תוחלת החיים ככל האפשר.
+בעת רכישת מכשיר, אנו ממליצים לרכוש אחד חדש ככל האפשר. התוכנה והקושחה של מכשירים ניידים נתמכות רק לזמן מוגבל, כך שקנייה חדשה מאריכה את תוחלת החיים עד כמה שניתן.
 
-הימנע מקניית טלפונים ממפעילי רשתות סלולריות. אלה לעתים קרובות יש **נעול bootloader** ואינו תומך [OEM ביטול נעילה](https://source.android.com/devices/bootloader/locking_unlocking). גרסאות טלפון אלה ימנעו ממך להתקין כל סוג של הפצת אנדרואידחלופית.
+הימנע מרכישת טלפונים ממפעילי רשתות סלולריות. לעתים קרובות יש להם **מטען אתחול נעול** ואינם תומכים ב[פתיחת נעילה של OEM](https://source.android.com/devices/bootloader/locking_unlocking). גרסאות טלפון אלה ימנעו ממך להתקין כל סוג של הפצת אנדרואיד חלופית.
 
-היה מאוד **זהיר** בקניית טלפונים יד שנייה משוק מקוון. בדוק תמיד את המוניטין של המוכר. אם המכשיר נגנב, קיימת אפשרות ל[רשימה שחורה של IMEI](https://www.gsma.com/security/resources/imei-blacklisting/). קיים גם סיכון שכרוך בהיותך קשור לפעילות של הבעלים הקודם.
+היה מאוד **זהיר** לגבי קניית טלפונים יד שניה משוק מקוון. בדוק תמיד את המוניטין של המוכר. אם המכשיר נגנב, קיימת אפשרות ל[רשימה שחורה של IMEI](https://www.gsma.com/security/resources/imei-blacklisting/). קיים גם סיכון שכרוך בהיותך קשור לפעילות של הבעלים הקודם.
 
 עוד כמה טיפים לגבי מכשירי אנדרואיד ותאימות מערכות הפעלה:
 
@@ -99,20 +99,20 @@ DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת 
     
     החל מ-**Pixel 6** ו-**6 Pro**, מכשירי Pixel מקבלים לפחות 5 שנים של עדכוני אבטחה מובטחים, מה שמבטיח תוחלת חיים ארוכה בהרבה בהשוואה ל-2-4 שנים שמציעות יצרניות OEM מתחרות בדרך כלל.
     
-    [:material-shopping: Store:](https://store.google.com/category/phones){ .md-button .md-button--primary }
+    [:material-shopping: חנות](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
 רכיבים מאובטחים כמו Titan M2 מוגבלים יותר מסביבת הביצוע המהימנה של המעבד המשמשת את רוב הטלפונים האחרים מכיוון שהם משמשים רק לאחסון סודות, אישור חומרה והגבלת קצב, לא להפעלת תוכניות "מהימנות". טלפונים ללא Secure Element חייבים להשתמש ב-TEE עבור *כל* הפונקציות הללו, וכתוצאה מכך משטח התקפה גדול יותר.
 
 טלפונים של Google Pixel משתמשים במערכת הפעלה TEE בשם Trusty שהיא [קוד פתוח](https://source.android.com/security/trusty#whyTrusty), בניגוד לטלפונים רבים אחרים.
 
-ההתקנה של GrapheneOS בטלפון Pixel קלה עם [מתקין האינטרנט](https://grapheneos.org/install/web) שלהם. אם אתה לא מרגיש בנוח לעשות את זה בעצמך ומוכן להוציא קצת כסף נוסף, בדוק את[NitroPhone](https://shop.nitrokey.com/shop)שהם מגיעים טעונים מראש עם GrapheneOS מחברת [Nitrokey](https://www.nitrokey.com/about) המכובדת.
+ההתקנה של GrapheneOS בטלפון Pixel קלה עם [מתקין האינטרנט](https://grapheneos.org/install/web) שלהם. אם אתה לא מרגיש בנוח לעשות את זה בעצמך ומוכן להוציא קצת כסף נוסף, בדוק את [NitroPhone](https://shop.nitrokey.com/shop) שהם מגיעים טעונים מראש עם GrapheneOS מחברת [Nitrokey](https://www.nitrokey.com/about) המכובדת.
 
 עוד כמה טיפים לרכישת Google Pixel:
 
 - אם אתה מחפש מציאה על מכשיר פיקסל, אנו מציעים לקנות דגם "**a**", מיד לאחר יציאת ספינת הדגל הבאה. הנחות זמינות בדרך כלל מכיוון שגוגל תנסה לסלק את המלאי שלה.
 - שקול אפשרויות מכות מחיר ומבצעים המוצעים בחנויות פיזיות.
 - עיין באתרי עסקאות מקוונים של קהילות במדינה שלך. אלה יכולים להתריע על מכירות טובות.
-- Google מספקת רשימה המציגה את [מחזור התמיכה](https://support.google.com/nexus/answer/4457705) עבור כל אחד מהמכשירים שלהם. ניתן לחשב את המחיר ליום למכשיר כך: $\text{עלות} \over \text {EOL Date}-\text{Current Date}$, כלומר ככל שהשימוש ארוך יותר במכשיר כך העלות ליום נמוכה יותר.
+- Google מספקת רשימה המציגה את [מחזור התמיכה](https://support.google.com/nexus/answer/4457705) עבור כל אחד מהמכשירים שלהם. המחיר ליום עבור מכשיר יכול להיות מחושב כך: $\text{עלות} \over \text {תאריך סוף החיים}-\text{דייט נוכחי}$, כלומר, ככל שהשימוש במכשיר ארוך יותר, העלות ליום נמוכה יותר.
 
 ## אפליקציות כלליות
 
@@ -138,9 +138,9 @@ DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת 
 
 !!! warning "אזהרה"
 
-    Shelter מומלץ על פני [Insular](https://secure-system.gitlab.io/Insular/) וגם [Island](https://github.com/oasisfeng/island) כפי שהוא תומך [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
+    Shelter מומלץ מעל [Insular](https://secure-system.gitlab.io/Insular/) ו-[Island](https://github.com/oasisfeng/island) מכיוון שהוא תומך ב[חסימת חיפוש אנשי קשר](https://secure-system.gitlab.io/Insular/faq.html).
     
-    כאשר אתה משתמש ב - Shelter, אתה נותן אמון מלא במפתח שלה, מאחר שה - Shelter פועל כמנהל [מכשיר]( https://developer.android.com/guide/topics/admin/device-admin) ליצירת פרופיל העבודה, ויש לו גישה נרחבת לנתונים המאוחסנים בתוך פרופיל העבודה.
+    כשאתה משתמש ב-Shelter, אתה נותן אמון מלא במפתח שלו, שכן Shelter פועל כ[מנהל מכשיר](https://developer.android.com/guide/topics/admin/device-admin) כדי ליצור את פרופיל העבודה, וכן יש לו גישה נרחבת לנתונים המאוחסנים בפרופיל העבודה.
 
 ### Auditor
 
@@ -157,7 +157,7 @@ DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת 
     [:octicons-code-16:](https://attestation.app/source){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=לתרומה }
     
-    ??? ??? downloads "הורדות"
+    ??? downloads "הורדות"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
@@ -205,7 +205,7 @@ Auditor מבצע אישור וזיהוי חדירה על ידי:
 
     מטא נתונים אינם נמחקים כעת מקבצי וידאו אבל זה מתוכנן.
     
-    המטא נתונים של כיוון התמונה לא נמחקים. אם תפעיל מיקום (בSecure Camera) זה גם **לא** יימחק. אם ברצונך למחוק זאת מאוחר יותר, יהיה עליך להשתמש באפליקציה חיצונית כגון [ExifEraser](data-redaction.md#exiferaser).
+    המטא נתונים של כיוון התמונה לא נמחקים. אם תפעיל מיקום ב(Secure Camera) זה גם **לא** יימחק. אם ברצונך למחוק זאת מאוחר יותר, יהיה עליך להשתמש באפליקציה חיצונית כגון [ExifEraser](data-redaction.md#exiferaser).
 
 ### Secure PDF Viewer
 
@@ -216,7 +216,7 @@ Auditor מבצע אישור וזיהוי חדירה על ידי:
     
     **Secure PDF Viewer** הוא מציג PDF המבוסס על [pdf.js](https://en.wikipedia.org/wiki/PDF.js) שאינו דורש הרשאות כלשהן. ה-PDF מוזן לתוך [ארגז חול](https://en.wikipedia.org/wiki/Sandbox_(software_development))[webview](https://developer.android.com/guide/webapps/webview). המשמעות היא שזה לא דורש הרשאה ישירה כדי לגשת לתוכן או לקבצים.
     
-    [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) משמש כדי לאכוף שמאפייני JavaScript והעיצוב בתוך WebView הם תוכן סטטי לחלוטין.
+    [תוכן-אבטחה-מדיניות](https://en.wikipedia.org/wiki/Content_Security_Policy) משמש כדי לאכוף שמאפייני JavaScript והסגנון ב-WebView הם תוכן סטטי לחלוטין.
     
     [:octicons-repo-16: מאגר](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
     [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="קוד מקור" }
