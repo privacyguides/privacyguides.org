@@ -54,7 +54,7 @@ ffsend upload --host https://send.vis.ee/ FILE
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
 - Must not store decrypted data on a remote server.
-- Must be open-source.
+- Must be open-source software.
 - Must either have clients for Linux, macOS, and Windows; or have a web interface.
 
 ## FreedomBox
@@ -134,7 +134,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 #### Minimum Requirements
 
 - Must not require a third-party remote/cloud server.
-- Must be open-source.
+- Must be open-source software.
 - Must either have clients for Linux, macOS, and Windows; or have a web interface.
 
 #### Best-Case

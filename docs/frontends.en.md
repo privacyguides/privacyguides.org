@@ -257,7 +257,7 @@ When you are using a Piped instance, make sure to read the privacy policy of tha
 
 Recommended frontends...
 
-- Must be open-source.
+- Must be open-source software.
 - Must be self-hostable.
 - Must provide all basic website functionality available to anonymous users.
 

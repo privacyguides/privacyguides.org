@@ -231,7 +231,7 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 
 ### Minimum Requirements
 
-- Open-source.
+- Must be open-source software.
 - Supports automatic updates.
 - Receives engine updates in 0-1 days from upstream release.
 - Available on Linux, macOS, and Windows.

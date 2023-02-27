@@ -132,7 +132,7 @@ Our best-case criteria represents what we would like to see from the perfect pro
 In general, we define office suites as applications which could reasonably act as a replacement for Microsoft Word for most needs.
 
 - Must be cross-platform.
-- Must be open-source.
+- Must be open-source software.
 - Must function offline.
 - Must support editing documents, spreadsheets, and slideshows.
 - Must export files to standard document formats.
