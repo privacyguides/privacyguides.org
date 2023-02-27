@@ -52,6 +52,7 @@ jonah@privacyguides.org
 For all other inquiries, you can contact any member of our team.
 
 For complaints under GDPR more generally, you may lodge complaints with your local data protection supervisory authorities.
+In France it's the Commission Nationale de l'Informatique et des Libertés which take care and handle the complaints. They provide a [template of complaint letter](https://www.cnil.fr/en/plaintes) to use.
 
 ## About This Policy
 
