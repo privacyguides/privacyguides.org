@@ -75,5 +75,5 @@ If you wish to use Tor for browsing the web, we only recommend the **official** 
 ## Additional Resources
 
 - [Tor Browser User Manual](https://tb-manual.torproject.org)
-- [How Tor Works - Computerphile](https://www.youtube-nocookie.com/embed/QRYzre4bf7I) <small>(YouTube)</small>
-- [Tor Onion Services - Computerphile](https://www.youtube-nocookie.com/embed/lVcbq_a5N9I) <small>(YouTube)</small>
+- [How Tor Works - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
+- [Tor Onion Services - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
