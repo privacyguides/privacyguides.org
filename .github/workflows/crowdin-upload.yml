@@ -23,7 +23,8 @@ jobs:
       with:
         upload_sources: true
         upload_sources_args: '--auto-update --delete-obsolete'
-        upload_translations: false
+        upload_translations: true
+        auto_approve_imported: false
         download_translations: false
         config: crowdin.yml
       env:
