@@ -169,3 +169,5 @@ You can subscribe YouTube channels without logging in and associating usage info
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
     ```
+
+--8<-- "includes/abbreviations.en.txt"

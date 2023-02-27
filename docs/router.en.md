@@ -46,3 +46,5 @@ OPNsense was originally developed as a fork of [pfSense](https://en.wikipedia.or
 - Must be open source.
 - Must receive regular updates.
 - Must support a wide variety of hardware.
+
+--8<-- "includes/abbreviations.en.txt"

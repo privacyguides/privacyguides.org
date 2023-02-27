@@ -141,3 +141,5 @@ The app offers multiple ways to erase metadata from images. Namely:
 
 - Apps developed for open-source operating systems must be open-source.
 - Apps must be free and should not include ads or other limitations.
+
+--8<-- "includes/abbreviations.en.txt"

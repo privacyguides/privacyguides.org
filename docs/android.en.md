@@ -351,3 +351,5 @@ That said, the [F-droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](htt
 - Applications on this page must not be applicable to any other software category on the site.
 - General applications should extend or replace core system functionality.
 - Applications should receive regular updates and maintenance.
+
+--8<-- "includes/abbreviations.en.txt"

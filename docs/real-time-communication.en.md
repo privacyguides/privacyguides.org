@@ -191,3 +191,5 @@ Our best-case criteria represents what we would like to see from the perfect pro
 - Should be decentralized, i.e. federated or P2P.
 - Should use E2EE for all messages by default.
 - Should support Linux, macOS, Windows, Android, and iOS.
+
+--8<-- "includes/abbreviations.en.txt"

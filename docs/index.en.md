@@ -48,3 +48,5 @@ It's important for a website like Privacy Guides to always stay up-to-date. We n
 
 </div>
 </div>
+
+--8<-- "includes/abbreviations.en.txt"

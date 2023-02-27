@@ -104,3 +104,5 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - Should be based on open-source software.
 - Should not block Tor exit node IP addresses.
+
+--8<-- "includes/abbreviations.en.txt"

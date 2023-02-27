@@ -111,3 +111,5 @@ Cryptee offers 100MB of storage for free, with paid options if you need more. Si
 
 - Local backup/sync functionality should support encryption.
 - Cloud-based platforms should support document sharing.
+
+--8<-- "includes/abbreviations.en.txt"

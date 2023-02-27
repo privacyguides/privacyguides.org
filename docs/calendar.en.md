@@ -66,3 +66,5 @@ Calendars contain some of your most sensitive data; use products that implement 
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
 - Should integrate with native OS calendar and contact management apps if applicable.
+
+--8<-- "includes/abbreviations.en.txt"

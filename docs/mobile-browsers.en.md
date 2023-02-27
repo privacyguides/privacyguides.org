@@ -188,3 +188,5 @@ Additional filter lists do slow things down and may increase your attack surface
 
 - Must not replicate built-in browser or OS functionality.
 - Must directly impact user privacy, i.e. must not simply provide information.
+
+--8<-- "includes/abbreviations.en.txt"
