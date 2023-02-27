@@ -78,7 +78,7 @@ Lorsque vous créez un compte, la clé publique est envoyée au service, puis lo
 Cette présentation aborde l'histoire de l'authentification par mot de passe, les pièges (tels que la réutilisation du mot de passe), et discute des normes FIDO2 et [WebAuthn](https://webauthn.guide) .
 
 <div class="yt-embed">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aMo4ZlWznao" title="Comment FIDO2 et WebAuthn empêchent les vols de compte" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/aMo4ZlWznao?local=true" title="Comment FIDO2 et WebAuthn empêchent les vols de compte" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 FIDO2 et WebAuthn présentent des propriétés de sécurité et de confidentialité supérieures à celles de toute autre méthode MFA.

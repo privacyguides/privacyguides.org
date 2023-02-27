@@ -1,7 +1,7 @@
-{% extends "base.html" %}
+{% extends "main.html" %}
 {% block extrahead %}
-  <link rel="preload" href="{{ 'assets/brand/WOFF/bagnard/Bagnard.woff' | url }}" as="font" type="font/woff" crossorigin>
   <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=2.10.0' | url }}">
+  {{ super() }}
 {% endblock %}
 {% block tabs %}
   {{ super() }}

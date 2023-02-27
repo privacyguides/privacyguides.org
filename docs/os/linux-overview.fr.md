@@ -34,7 +34,7 @@ Pour les distributions gelées telles que [Debian](https://www.debian.org/securi
 Nous ne pensons pas que retenir les paquets et appliquer des correctifs provisoires soit une bonne idée, car cela s'écarte de la manière dont le développeur aurait pu vouloir que le logiciel fonctionne. [Richard Brown](https://rootco.de/aboutme/) propose une présentation à ce sujet :
 
 <div class="yt-embed">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/i8c0mg_mS7U" title="Les publications régulières sont une erreur, les publications continues c'est la vie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/i8c0mg_mS7U?local=true" title="Les publications régulières sont une erreur, les publications continues c'est la vie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Mises à jour traditionnelles et atomiques
@@ -48,7 +48,7 @@ Un système de mise à jour transactionnelle crée un instantané qui est réali
 La méthode de mise à jour atomique est utilisée pour les distributions immuables comme Silverblue, Tumbleweed et NixOS et permet d'atteindre la fiabilité avec ce modèle. [Adam Šamalík](https://twitter.com/adsamalik) a fait une présentation sur le fonctionnement de `rpm-ostree` avec Silverblue :
 
 <div class="yt-embed">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-hpV5l-gJnQ" title="Essayons Fedora Silverblue — un OS de bureau immuable ! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="Essayons Fedora Silverblue — un OS de bureau immuable ! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### "Distributions "axées sur la sécurité

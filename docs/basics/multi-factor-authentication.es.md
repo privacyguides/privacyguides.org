@@ -78,7 +78,7 @@ Cuando creas una cuenta, la clave pública se envía al servicio, luego cuando i
 Esta presentación habla de la historia de la autenticación de contraseñas, los tropiezos (como la reutilización de contraseñas) y el debate de los estándares FIDO2 y [WebAuthn](https://webauthn.guide).
 
 <div class="yt-embed">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aMo4ZlWznao" title="Cómo FIDO2 y WebAuthn impiden las tomas de posesión de cuentas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/aMo4ZlWznao?local=true" title="Cómo FIDO2 y WebAuthn impiden las tomas de posesión de cuentas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 FIDO2 y WebAuthn tienen propiedades de seguridad y privacidad superiores en comparación con cualquier método MFA.

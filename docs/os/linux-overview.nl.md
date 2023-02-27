@@ -34,7 +34,7 @@ Voor bevroren distributies wordt van pakketbeheerders verwacht dat ze patches ba
 Wij geloven niet dat het een goed idee is om pakketten tegen te houden en tussentijdse patches toe te passen, aangezien dit afwijkt van de manier waarop de ontwikkelaar de software bedoeld zou kunnen hebben. [Richard Brown](https://rootco.de/aboutme/) heeft hier een presentatie over:
 
 <div class="yt-embed">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/i8c0mg_mS7U" title="Regelmatig uitbrengen is verkeerd, Roll voor je leven" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/i8c0mg_mS7U?local=true" title="Regelmatig uitbrengen is verkeerd, Roll voor je leven" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Traditionele vs. Atomische updates
@@ -48,7 +48,7 @@ Een transactioneel updatesysteem creëert een momentopname die wordt gemaakt voo
 De Atomic update methode wordt gebruikt voor immutable distributies zoals Silverblue, Tumbleweed, en NixOS en kan betrouwbaarheid bereiken met dit model. [Adam Šamalík](https://twitter.com/adsamalik) gaf een presentatie over hoe `rpm-ostree` werkt met Silverblue:
 
 <div class="yt-embed">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-hpV5l-gJnQ" title="Laten we Fedora Silverblue proberen - een onveranderbaar desktop OS! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="Laten we Fedora Silverblue proberen - een onveranderbaar desktop OS! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### "Beveiligingsgerichte" distributies

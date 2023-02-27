@@ -71,8 +71,8 @@ Tor מאפשר לנו להתחבר לשרת מבלי שאף גורם אחד יד
 ## משאבים נוספים
 
 - [מדריך למשתמש של דפדפן Tor](https://tb-manual.torproject.org)
-- [איך Tor Works - Computerphile](https://www.youtube-nocookie.com/embed/QRYzre4bf7I) <small>(YouTube)</small>
-- [Tor Onion שירותי - Computerphile](https://www.youtube-nocookie.com/embed/lVcbq_a5N9I) <small>(YouTube)</small>
+- [How Tor Works - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(יוטיוב)</small>
+- [Tor Onion Services - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(יוטיוב)</small>
 
 [^1]: הממסר הראשון במעגל שלך נקרא "שומר כניסה" או "שומר". זהו ממסר מהיר ויציב שנשאר הראשון במעגל שלך למשך 2-3 חודשים על מנת להגן מפני התקפה ידועה לשבירת אנונימיות. שאר המעגל שלך משתנה עם כל אתר חדש שאתה מבקר בו, וכולם ביחד מספקים ממסרים אלה את הגנת הפרטיות המלאה של Tor. לקבלת מידע נוסף על אופן הפעולה של ממסרי מגן, עיין במאמר זה [בלוג פוסט](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) וגם [דף](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) על שומרי כניסה. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
 

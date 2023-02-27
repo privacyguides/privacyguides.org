@@ -36,7 +36,7 @@ icon: simple/linux
 我们不认为保留软件包和应用临时补丁是一个好主意，因为它偏离了开发者可能打算让软件工作的方式。 [理查德-布朗](https://rootco.de/aboutme/) ，有一个关于这个问题的介绍。
 
 <div class="yt-embed">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/i8c0mg_mS7U" title="定期发布是错误的，为你的生活而滚动" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/i8c0mg_mS7U?local=true" title="定期发布是错误的，为你的生活而滚动" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### 传统vs原子更新
@@ -50,7 +50,7 @@ icon: simple/linux
 原子更新法用于Silverblue、Tumbleweed和NixOS等不可变的发行版，可以通过这种模式实现可靠性。 [Adam Šamalík](https://twitter.com/adsamalik) 提供了一个关于 `rpm-ostree` 如何与Silverblue一起工作的演讲。
 
 <div class="yt-embed">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-hpV5l-gJnQ" title="让我们试试Fedora Silverblue--一个不可改变的桌面操作系统! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="让我们试试Fedora Silverblue--一个不可改变的桌面操作系统! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### “以安全为重点”的分发
