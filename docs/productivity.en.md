@@ -70,7 +70,7 @@ In general, we define collaboration platforms as full-fledged suites which could
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
 - Should store files in a conventional filesystem.
-- Should support TOTP or WebAuthn multi-factor authentication, or Passkey authentication.
+- Should support TOTP or FIDO2 multi-factor authentication support, or Passkey logins.
 
 ## Office Suites
 
