@@ -33,7 +33,7 @@ La plupart des suites bureautiques en ligne ne prennent pas en charge l'E2EE, ce
 
 !!! danger "Danger"
 
-    Nous ne recommandons pas l'utilisation de [l'application E2EE] (https://apps.nextcloud.com/apps/end_to_end_encryption) pour Nextcloud car elle peut entraîner une perte de données ; elle est hautement expérimentale et n'est pas de qualité de production. Pour cette raison, nous ne recommandons pas les fournisseurs Nextcloud tiers.
+    Nous ne recommandons pas l'utilisation de [l'application E2EE](https://apps.nextcloud.com/apps/end_to_end_encryption) pour Nextcloud car elle peut entraîner une perte de données ; elle est hautement expérimentale et n'est pas de qualité de production. Pour cette raison, nous ne recommandons pas les fournisseurs Nextcloud tiers.
 
 ### CryptPad
 
@@ -71,7 +71,7 @@ En général, nous définissons les plateformes de collaboration comme des suite
 Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
 - Devrait stocker les fichiers dans un système de fichiers conventionnel.
-- Devrait prendre en charge l'authentification multifactorielle TOTP ou WebAuthn, ou l'authentification Passkey.
+- Devrait prendre en charge l'authentification multifactorielle TOTP ou FIDO2, ou les connexions par Passkey.
 
 ## Suites bureautiques
 
@@ -133,7 +133,7 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
 En général, nous définissons les suites bureautiques comme des applications qui pourraient raisonnablement remplacer Microsoft Word pour la plupart des besoins.
 
 - Doit être multiplateforme.
-- Doivent être open-source.
+- Doit être un logiciel open source.
 - Doit fonctionner hors ligne.
 - Doit prendre en charge l'édition de documents, de feuilles de calcul et de diaporamas.
 - Doit exporter les fichiers vers des formats de document standard.
@@ -146,7 +146,7 @@ En général, nous définissons les suites bureautiques comme des applications q
 
     ![Logo PrivateBin](assets/img/productivity/privatebin.svg){ align=right }
     
-    **PrivateBin** est un service de collage en ligne minimaliste et open-source où le serveur n'a aucune connaissance des données collées. Les données sont chiffrées/déchiffrées dans le navigateur en utilisant AES 256 bits. Il s'agit de la version améliorée de ZeroBin. Il existe une [liste d'instances] (https://privatebin.info/directory/).
+    **PrivateBin** est un service de collage en ligne minimaliste et open-source où le serveur n'a aucune connaissance des données collées. Les données sont chiffrées/déchiffrées dans le navigateur en utilisant AES 256 bits. Il s'agit de la version améliorée de ZeroBin. Il existe une [liste d'instances](https://privatebin.info/directory/).
     
     [:octicons-home-16: Page d'accueil](https://privatebin.info){ .md-button .md-button--primary }
     [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Instances publiques"}

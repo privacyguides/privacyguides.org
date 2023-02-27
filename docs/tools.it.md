@@ -5,9 +5,9 @@ hide:
   - toc
 ---
 
-Se stai cercando una soluzione specifica per qualcosa, questi sono gli strumenti hardware e software che ti consigliamo in una varietà di categorie. I nostri strumenti di privacy consigliati sono scelti principalmente in base alle funzionalità di sicurezza, con maggiore enfasi sugli strumenti decentralizzati e open-source. Essi sono applicabili a diversi di modelli di minaccia che vanno dalla protezione contro i programmi di sorveglianza di massa globale e l'elusione di grandi aziende tecnologiche, alla mitigazione degli attacchi, ma solo tu puoi determinare cosa si addice meglio al tuo caso.
+Se stai cercando una soluzione specifica per qualcosa, questi sono gli strumenti hardware e software che ti consigliamo in una varietà di categorie. I nostri strumenti di privacy consigliati sono scelti principalmente in base alle funzionalità di sicurezza, con maggiore enfasi sugli strumenti decentralizzati e open-source. Sono applicabili a una varietà di modelli di minaccia che vanno dalla protezione contro i programmi di sorveglianza di massa globali e evitare le grandi aziende tecnologiche alla mitigazione degli attacchi, ma solo tu puoi determinare cosa funzionerà meglio per le tue esigenze.
 
-Se vuoi assistenza per trovare i migliori strumenti per la privacy e programmi alternativi per il lavoro o l'uso personale, inizia una discussione nel nostro[forum](https://discuss.privacyguides.org/) o sulla nostra community [Matrix](https://matrix.to/#/#privacyguides:matrix.org)!
+Se vuoi assistenza per capire i migliori strumenti per la privacy e programmi alternativi più adatti alle tue esigenze, inizia una discussione sul nostro forum [](https://discuss.privacyguides.net/) o sulla nostra community [Matrix](https://matrix.to/#/#privacyguides:matrix.org)!
 
 Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su ulteriori suggerimenti o trucchi che consigliamo, clicca il link "Maggiori informazioni" in ogni sezione, oppure clicca il suggerimento stesso per essere indirizzato a quella specifica sezione della pagina.
 

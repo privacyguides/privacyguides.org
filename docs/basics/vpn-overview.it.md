@@ -55,11 +55,11 @@ La funzione deve essere vista come un modo comodo per accedere alla rete Tor, no
 
 Una VPN può comunque essere utile in diversi scenari, ad esempio:
 
-1. Nascondere il proprio traffico a **solo** al proprio Internet Service Provider.
+1. Nascondere il proprio traffico **solo** al proprio Internet Service Provider.
 1. Nascondere i propri download (come i torrent) al proprio ISP e alle organizzazioni antipirateria.
 1. Nascondere il proprio IP da siti e servizi di terze parti, impedendone il tracciamento.
 
-Per casi d'uso come questi, o se hai un'altra ragione valida, i fornitori di VPN che abbiamo elencato sopra sono quelli che riteniamo più affidabili. Tuttavia, utilizzare un provider VPN significa comunque *fidarsi* del provider. In quasi tutti gli altri scenari si dovrebbe utilizzare uno strumento progettato con la **sicurezza come obiettivo** come Tor.
+Per situazioni come queste, o se hai un altro motivo valido, i provider VPN che abbiamo elencato sopra sono quelli che riteniamo più affidabili. Tuttavia, utilizzare un provider VPN significa comunque *fidarsi* del provider. In quasi tutti gli altri scenari si dovrebbe utilizzare uno strumento progettato con la **sicurezza come obiettivo** come Tor.
 
 ## Fonti e approfondimenti
 

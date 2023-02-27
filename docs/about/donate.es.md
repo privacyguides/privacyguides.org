@@ -3,7 +3,7 @@ title: Apoyándonos
 ---
 
 <!-- markdownlint-disable MD036 -->
-Se necesita a un montón de [personas](https://github.com/privacyguides/privacyguides.org/graphs/contributors) y [trabajo](https://github.com/privacyguides/privacyguides.org/pulse/monthly) para mantener Privacy Guides actualizado y difundiendo la palabra sobre la privacidad y la vigilancia masiva. Si te gusta lo que hacemos, la mejor manera de ayudar es involucrándote en [editar el sitio](https://github.com/privacyguides/privacyguides.org) o [contribuyendo a las traducciones](https://crowdin.com/project/privacyguides).
+Se necesita a un montón de [personas](https://github.com/privacyguides/privacyguides.org/graphs/contributors) y [trabajo](https://github.com/privacyguides/privacyguides.org/pulse/monthly) para mantener Privacy Guides actualizado y difundiendo la palabra sobre la privacidad y la vigilancia masiva. Si te gusta lo que hacemos, considera formar parte [editando el sitio web](https://github.com/privacyguides/privacyguides.org) o [contribuyendo a las traducciones](https://crowdin.com/project/privacyguides).
 
 Si nos quieres ayudar financialmente, el método más conveniente para nosotros es que contribuyas vía Open Collective, un sitio web operado por nuestro anfitrión fiscal. Open Collective acepta pagos vía tarjeta de crédito o débito, PayPal, y transferencias bancarias.
 

@@ -1,7 +1,7 @@
-{% extends "base.html" %}
+{% extends "main.html" %}
 {% block extrahead %}
-  <link rel="preload" href="{{ 'assets/brand/WOFF/bagnard/Bagnard.woff' | url }}" as="font" type="font/woff" crossorigin>
   <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=2.10.0' | url }}">
+  {{ super() }}
 {% endblock %}
 {% block tabs %}
   {{ super() }}
@@ -10,8 +10,8 @@
     <div class="md-grid md-typeset">
       <div class="mdx-hero">
         <div class="mdx-hero__content">
-          <h1>Az útmutató az online magánéleted helyreállításához.</h1>
-          <p>Hatalmas szervezetek figyelik az online tevékenységedet. A Privacy Guides a te központi adatvédelmi és adatbiztonsági erőforrásod magad megvédéséhez online.</p>
+          <h1>Útmutató az online magánéleted helyreállításához.</h1>
+          <p>Hatalmas szervezetek figyelik az online tevékenységeidet. A Privacy Guides a te központi adatvédelmi és adatbiztonsági erőforrásod magad megvédéséhez online.</p>
           <a href="kb/" title="Az adatvédelmi utazásod első lépése" class="md-button md-button--primary">
             Kezdj Bele Adatvédelmi Utazásodba
           </a>

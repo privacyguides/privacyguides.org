@@ -1,5 +1,5 @@
 ---
-title: "PrivacyTools FAQ"
+title: "FAQ PrivacyTools"
 ---
 
 # Pourquoi nous avons abandonné PrivacyTools
@@ -73,13 +73,13 @@ Suite à cela, BurungHantu a lancé de fausses accusations selon lesquelles Jona
 
 BurungHantu a également publié [un message sur Twitter](https://twitter.com/privacytoolsIO/status/1510560676967710728) prétendant qu'un "avocat" l'avait contacté sur Twitter et lui donnait des conseils, dans une autre tentative de nous intimider pour que nous lui donnions le contrôle de notre subreddit, et dans le cadre de sa campagne de diffamation visant à brouiller les pistes concernant le lancement de Privacy Guides tout en prétendant être une victime.
 
-## PrivacyTools.io Maintenant
+## PrivacyTools.io maintenant
 
 Depuis le 25 septembre 2022, nous voyons les plans de BurungHantu se dessiner sur privacytools.io, et c'est la raison pour laquelle nous avons décidé de créer cette page explicative aujourd'hui. Le site qu'il exploite semble être une version fortement optimisée pour le référencement du site qui recommande des outils en échange d'une compensation financière. Très récemment, IVPN et Mullvad, deux fournisseurs de VPN presque universellement [recommandés](../vpn.md) par la communauté de la protection de la vie privée et remarquables pour leur position contre les programmes d'affiliation ont été retirés de PrivacyTools. A leur place ? NordVPN, Surfshark, ExpressVPN, et hide.me; Des géantes sociétés de VPN avec des plateformes et des pratiques commerciales peu fiables, connues pour leur marketing agressif et leurs programmes d'affiliation.
 
-==**PrivacyTools est devenu exactement le type de site que nous [avons mis en garde contre](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews/) sur le blog PrivacyTools en 2019.**== Nous avons essayé de garder notre distance avec PrivacyTools depuis la transition, mais leur harcèlement continu à l'égard de notre projet et maintenant leur abus absurde de la crédibilité de leur marque gagnée depuis plus de 6 ans de contributions open source est extrêmement troublant pour nous. Ceux d'entre nous qui luttent vraiment pour la protection de la vie privée ne se battent pas les uns contre les autres et ne reçoivent pas leurs conseils des plus offrant.
+==**PrivacyTools est devenu exactement le type de site contre lequel nous [avons mis en garde](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews/) sur le blog PrivacyTools en 2019.**== Nous avons essayé de garder notre distance avec PrivacyTools depuis la transition, mais leur harcèlement continu à l'égard de notre projet et maintenant leur abus absurde de la crédibilité que leur marque a gagné depuis plus de 6 ans de contributions open source est extrêmement troublant à nos yeux. Ceux d'entre nous qui luttent vraiment pour la protection de la vie privée ne se battent pas les uns contre les autres et ne reçoivent pas leurs conseils des plus offrant.
 
-## r/privacytoolsIO Maintenant
+## r/privacytoolsIO maintenant
 
 Après le lancement de [r/PrivacyGuides](https://www.reddit.com/r/privacyguides), il n'était pas pratique pour u/trai_dep de continuer à modérer les deux subreddits, et avec l'adhésion de la communauté à la transition, r/privacytoolsIO a été [transformé en](https://www.reddit.com/r/privacytoolsIO/comments/qk7qrj/a_new_era_why_rptio_is_now_a_restricted_sub/) en un subreddit restreint dans un post du 1er novembre 2021 :
 

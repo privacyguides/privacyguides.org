@@ -25,7 +25,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 [En savoir plus :material-arrow-right-drop-circle:](tor.md)
 
-## Navigateurs de Bureau
+## Navigateurs web de bureau
 
 <div class="grid cards" markdown>
 
@@ -36,7 +36,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 [En savoir plus :material-arrow-right-drop-circle:](desktop-browsers.md)
 
-### Ressources Supplémentaires
+### Ressources supplémentaires
 
 <div class="grid cards" markdown>
 
@@ -46,7 +46,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 [En savoir plus :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
 
-## Navigateurs mobiles
+## Navigateurs web mobiles
 
 <div class="grid cards" markdown>
 
@@ -57,7 +57,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 [En savoir plus :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-### Ressources Supplémentaires
+### Ressources supplémentaires
 
 <div class="grid cards annotate" markdown>
 
@@ -111,7 +111,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 [En savoir plus :material-arrow-right-drop-circle:](desktop.md)
 
-### Firmware du routeur
+### Micrologiciel de routeur
 
 <div class="grid cards" markdown>
 
@@ -122,9 +122,9 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 [En savoir plus :material-arrow-right-drop-circle:](router.md)
 
-## Fournisseurs de Services
+## Fournisseurs de services
 
-### Stockage Cloud
+### Stockage cloud
 
 <div class="grid cards" markdown>
 
@@ -153,7 +153,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-#### Solutions Auto-hébergées
+#### Solutions auto-hébergées
 
 <div class="grid cards" markdown>
 
@@ -177,7 +177,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](email.md)
 
-#### Services d'alias d'e-mails
+#### Services d'alias d'emails
 
 <div class="grid cards" markdown>
 
@@ -188,7 +188,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
 
-#### E-mail auto-hébergé
+#### Email auto-hébergé
 
 <div class="grid cards" markdown>
 
@@ -199,7 +199,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](email.md#self-hosting-email)
 
-### Moteurs de Recherche
+### Moteurs de recherche
 
 <div class="grid cards" markdown>
 
@@ -236,7 +236,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 ## Logiciels
 
-### Synchronisation du calendrier
+### Synchronisation de calendrier
 
 <div class="grid cards" markdown>
 
@@ -279,9 +279,9 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](email-clients.md)
 
-### Logiciels de Chiffrement
+### Logiciels de chiffrement
 
-??? info "Chiffrement du Disque du Système d'Exploitation"
+??? info "Chiffrement du disque du système d'exploitation"
 
     Pour chiffrer le disque de votre système d'exploitation, nous recommandons généralement d'utiliser l'outil de chiffrement fourni par votre système d'exploitation, qu'il s'agisse de **BitLocker** sur Windows, **FileVault** sur macOS ou **LUKS** sur Linux. Ces outils sont inclus dans le système d'exploitation et utilisent généralement des éléments de chiffrement matériel tels qu'un TPM, ce que ne font pas d'autres logiciels de chiffrement intégral de disque comme VeraCrypt. VeraCrypt convient toujours aux disques qui ne contiennent pas de systèmes d'exploitation, comme les disques externes, en particulier les disques auxquels on peut accéder à partir de plusieurs systèmes d'exploitation.
     
@@ -327,7 +327,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](file-sharing.md)
 
-### Clients Applicatifs
+### Clients applicatifs
 
 <div class="grid cards" markdown>
 
@@ -343,7 +343,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](frontends.md)
 
-### Outils d'Authentification Multi-Facteurs
+### Outils d'authentification multi-facteurs
 
 <div class="grid cards" markdown>
 
@@ -356,7 +356,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](multi-factor-authentication.md)
 
-### Agrégateurs d'Actualités
+### Agrégateurs d'actualités
 
 <div class="grid cards" markdown>
 
@@ -401,7 +401,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](passwords.md)
 
-### Outils de Productivité
+### Outils de productivité
 
 <div class="grid cards" markdown>
 
@@ -429,7 +429,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### Clients de Streaming Vidéo
+### Clients de streaming vidéo
 
 <div class="grid cards" markdown>
 

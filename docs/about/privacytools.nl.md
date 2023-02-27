@@ -63,7 +63,7 @@ Op 14 september 2021 hebben we [](https://www.privacyguides.org/blog/2021/09/14/
 
 Deze verandering [hield in:](https://www.reddit.com/r/PrivacyGuides/comments/pnhn4a/rprivacyguides_privacyguidesorg_what_you_need_to/)
 
-- Www.privacytools.io omleiden naar [www.privacyguides.org](https://www.privacyguides.org).
+- www.privacytools.io omleiden naar [www.privacyguides.org](https://www.privacyguides.org).
 - Het archiveren van de broncode op GitHub om ons werk uit het verleden en de issue tracker te bewaren, die we bleven gebruiken voor maanden van toekomstige ontwikkeling van deze site.
 - Aankondigingen plaatsen op onze subreddit en diverse andere gemeenschappen om mensen te informeren over de officiële verandering.
 - Formeel sluiten van privacytools.io-diensten, zoals Matrix en Mastodon, en bestaande gebruikers aanmoedigen om zo snel mogelijk te migreren.

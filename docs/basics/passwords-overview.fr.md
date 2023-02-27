@@ -5,7 +5,7 @@ icon: 'material/form-textbox-password'
 
 Les mots de passe sont un élément essentiel de notre vie numérique quotidienne. Nous les utilisons pour protéger nos comptes, nos appareils et nos secrets. Bien qu'ils soient souvent la seule chose qui nous sépare d'un adversaire qui en veut à nos informations privées, ils ne font pas l'objet d'une réflexion approfondie, ce qui conduit souvent les gens à utiliser des mots de passe faciles à deviner ou à forcer.
 
-## Bonnes Pratiques
+## Bonnes pratiques
 
 ### Utiliser des mots de passe uniques pour chaque service
 
@@ -19,7 +19,7 @@ C'est ce qu'on appelle le [bourrage d'identifiants](https://en.wikipedia.org/wik
 
 Tous nos [gestionnaires de mots de passe recommandés](../passwords.md) comprennent un générateur de mots de passe intégré que vous pouvez utiliser.
 
-### Rotation des Mots de Passe
+### Rotation des mots de passe
 
 Vous devez éviter de changer trop souvent les mots de passe que vous devez retenir (comme le mot de passe principal de votre gestionnaire de mots de passe), sauf si vous avez des raisons de penser qu'ils ont été compromis, car le fait de les changer trop souvent vous expose au risque de les oublier.
 
@@ -49,7 +49,7 @@ Pour générer une phrase secrète diceware à l'aide de vrais dés, suivez ces 
 
 !!! note "À noter"
 
-    Ces instructions supposent que vous utilisez la [grande liste de mots de l'EFF] (https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) pour générer la phrase secrète, ce qui nécessite cinq lancers de dés par mot. D'autres listes de mots peuvent nécessiter plus ou moins de lancers par mot, et peuvent nécessiter un nombre différent de mots pour obtenir la même entropie.
+    Ces instructions supposent que vous utilisez la [grande liste de mots de l'EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) pour générer la phrase secrète, ce qui nécessite cinq lancers de dés par mot. D'autres listes de mots peuvent nécessiter plus ou moins de lancers par mot, et peuvent nécessiter un nombre différent de mots pour obtenir la même entropie.
 
 1. Lancez cinq fois un dé à six faces, en notant le nombre après chaque lancer.
 
@@ -75,9 +75,9 @@ Nous vous recommandons d'utiliser la [grande liste de mots de l'EFF](https://www
     
     Par conséquent, chaque mot de la liste susmentionnée génère ~12,9 bits d'entropie ($\text{log}_2(7776)$), et une phrase secrète de sept mots dérivée de cette liste a ~90,47 bits d'entropie ($\text{log}_2(7776^7)$).
     
-    La [grande liste de mots de l'EFF] (https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contient 7776 mots uniques. Pour calculer le nombre de phrases secrètes possibles, il suffit de faire $\text{WordsInList}^\text{WordsInPhrase}$, ou dans notre cas, $7776^7$.
+    La [grande liste de mots de l'EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contient 7776 mots uniques. Pour calculer le nombre de phrases secrètes possibles, il suffit de faire $\text{WordsInList}^\text{WordsInPhrase}$, ou dans notre cas, $7776^7$.
     
-    Mettons tout cela en perspective : Une phrase secrète de sept mots utilisant la [grande liste de mots de l'EFF] (https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) est l'une des ~1 719 070 799 748 422 500 000 000 000 phrases secrètes possibles.
+    Mettons tout cela en perspective : Une phrase secrète de sept mots utilisant la [grande liste de mots de l'EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) est l'une des ~1 719 070 799 748 422 500 000 000 000 phrases secrètes possibles.
     
     En moyenne, il faut essayer 50 % de toutes les combinaisons possibles pour deviner votre phrase. En gardant cela à l'esprit, même si votre adversaire est capable de faire ~1 000 000 000 000 de suppositions par seconde, il lui faudrait toujours ~27 255 689 ans pour deviner votre phrase secrète. C'est le cas même si les choses suivantes sont vraies :
 

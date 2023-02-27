@@ -3,9 +3,9 @@ title: "Veel voorkomende bedreigingen"
 icon: 'material/eye-outline'
 ---
 
-In grote lijnen delen wij onze aanbevelingen in in deze algemene categorieën van [bedreigingen](threat-modeling.md) of doelstellingen die voor de meeste mensen gelden. ==U kunt zich bezighouden met geen, een, enkele, of al deze mogelijkheden==, en de instrumenten en diensten die je gebruikt hangen af van wat jouw doelstellingen zijn. Misschien hebt je ook specifieke bedreigingen buiten deze categorieën, en dat is prima! Het belangrijkste is dat je inzicht krijgt in de voordelen en tekortkomingen van de middelen die je gebruikt, want vrijwel geen enkel middel beschermt je tegen elke denkbare bedreiging.
+In grote lijnen delen wij onze aanbevelingen in in deze algemene categorieën van [bedreigingen](threat-modeling.md) of doelstellingen die voor de meeste mensen gelden. ==U kunt zich bezighouden met geen, een, enkele, of al deze mogelijkheden==, en de instrumenten en diensten die je gebruikt hangen af van wat jouw doelstellingen zijn. Misschien heb je ook specifieke bedreigingen buiten deze categorieën, en dat is prima! Het belangrijkste is dat je inzicht krijgt in de voordelen en tekortkomingen van de middelen die je gebruikt, want vrijwel geen enkel middel beschermt je tegen elke denkbare bedreiging.
 
-- <span class="pg-purple">:material-incognito: Anonimiteit</span> - Het afschermen van jouw online activiteiten van uw echte identiteit, waardoor je beschermd bent tegen mensen die proberen te achterhalen *jouw* identiteit specifiek.
+- <span class="pg-purple">:material-incognito: Anonimiteit</span> - Het afschermen van jouw online activiteiten van jouw echte identiteit, waardoor je beschermd bent tegen mensen die proberen te achterhalen *jouw* identiteit specifiek.
 - <span class="pg-red">:material-target-account: Gerichte aanvallen</span> - Beschermd zijn tegen gerichte hackers of andere kwaadwillenden die toegang proberen te krijgen tot *jouw* gegevens of apparaten specifiek.
 - <span class="pg-orange">:material-bug-outline: Passieve aanvallen</span> - Beschermd zijn tegen zaken als malware, inbreuken op gegevens en andere aanvallen die tegen veel mensen tegelijk worden uitgevoerd
 - <span class="pg-teal">:material-server-network: Dienstverleners</span> - Bescherming van jouw gegevens tegen dienstverleners, bv. met end-to-endencryptie waardoor jouw gegevens onleesbaar worden voor de server.
@@ -28,7 +28,7 @@ Voor klokkenluiders en journalisten, bijvoorbeeld, kan een veel extremer bedreig
 
 <span class="pg-orange">:material-bug-outline: Passieve aanvallen</span>
 
-Beveiliging en privacy worden vaak door elkaar gehaald, omdat je beveiliging nodig hebt om enige schijn van privacy te krijgen: Hulpmiddelen gebruiken die privé lijken, is zinloos als ze gemakkelijk door aanvallers kunnen worden misbruikt om uw gegevens later vrij te geven. Het omgekeerde is echter niet noodzakelijk waar; de veiligste dienst ter wereld *is niet noodzakelijk* privé. Het beste voorbeeld hiervan is het toevertrouwen van gegevens aan Google, dat, gezien zijn omvang, minimale veiligheidsincidenten heeft gekend door vooraanstaande beveiligingsexperts in te zetten om zijn infrastructuur te beveiligen. Hoewel Google een zeer veilige dienst aanbiedt, zouden maar weinigen hun gegevens als privé beschouwen in de gratis consumentenproducten van Google (Gmail, YouTube, enz.).
+Beveiliging en privacy worden vaak door elkaar gehaald, omdat je beveiliging nodig hebt om enige schijn van privacy te krijgen: Hulpmiddelen gebruiken die privé lijken, is zinloos als ze gemakkelijk door aanvallers kunnen worden misbruikt om jouw gegevens later vrij te geven. Het omgekeerde is echter niet noodzakelijk waar; de veiligste dienst ter wereld *is niet noodzakelijk* privé. Het beste voorbeeld hiervan is het toevertrouwen van gegevens aan Google, dat, gezien zijn omvang, minimale veiligheidsincidenten heeft gekend door vooraanstaande beveiligingsexperts in te zetten om zijn infrastructuur te beveiligen. Hoewel Google een zeer veilige dienst aanbiedt, zouden maar weinigen hun gegevens als privé beschouwen in de gratis consumentenproducten van Google (Gmail, YouTube, enz.).
 
 Wat de beveiliging van toepassingen betreft, weten we over het algemeen niet (en kunnen we soms niet) weten of de software die we gebruiken kwaadaardig is, of dat op een dag zou kunnen worden. Zelfs bij de meest betrouwbare ontwikkelaars is er meestal geen garantie dat hun software geen ernstige kwetsbaarheid bevat die later kan worden uitgebuit.
 
@@ -42,7 +42,7 @@ Om de potentiële schade van kwaadaardige software tot een minimum te beperken, 
 
 <span class="pg-red">:material-target-account: Gerichte aanvallen</span>
 
-Gerichte aanvallen tegen een specifieke gebruiker zijn moeilijker aan te pakken. Gangbare aanvalsmethoden zijn het verzenden van schadelijke documenten via e-mails, het uitbuiten van kwetsbaarheden in de browser en het besturingssysteem, en fysieke aanvallen. Als dit voor je een punt van zorg is, moet u mogelijk meer geavanceerde strategieën ter beperking van bedreigingen toepassen.
+Gerichte aanvallen tegen een specifieke gebruiker zijn moeilijker aan te pakken. Gangbare aanvalsmethoden zijn het verzenden van schadelijke documenten via e-mails, het uitbuiten van kwetsbaarheden in de browser en het besturingssysteem, en fysieke aanvallen. Als dit voor je een punt van zorg is, moet je mogelijk meer geavanceerde strategieën ter beperking van bedreigingen toepassen.
 
 !!! tip
 
@@ -79,6 +79,8 @@ Massasurveillance is een poging om een groot deel van of een gehele bevolking te
 !!! abstract "Atlas of Surveillance"
 
     Als je meer wilt weten over bewakingsmethoden en hoe die in jouw stad worden toegepast, kunt je ook de [Atlas of Surveillance](https://atlasofsurveillance.org/) van de [Electronic Frontier Foundation](https://www.eff.org/) bekijken.
+    
+    In Frankrijk kunt u een kijkje nemen op de [Technolopolice website](https://technopolice.fr/villes/) die wordt onderhouden door de non-profit vereniging La Quadrature du Net.
 
 Regeringen rechtvaardigen massasurveillanceprogramma's vaak als noodzakelijke middelen om terrorisme te bestrijden en misdaad te voorkomen. Het schendt echter de mensenrechten en wordt meestal gebruikt om zich buitenproportioneel te richten op onder andere minderheidsgroepen en politieke dissidenten.
 
@@ -114,7 +116,7 @@ Op sites waar je informatie deelt, is het heel belangrijk dat je de privacyinste
 
 De beste manier om ervoor te zorgen dat jouw gegevens privé blijven, is ze in de eerste plaats gewoon niet openbaar te maken. Het verwijderen van ongewenste informatie die je online over jezelf vindt, is een van de beste eerste stappen die je kunt nemen om jouw privacy te terug te winnen.
 
-- [Bekijk onze gids over het verwijderen van accounts :hero-arrow-circle-right-fill:](account-deletion.md)
+- [Bekijk onze gids over het verwijderen van accounts :material-arrow-right-drop-circle:](account-deletion.md)
 
 Online-censuur kan in verschillende mate worden uitgeoefend door actoren zoals totalitaire regeringen, netwerkbeheerders en dienstverleners die de meningsuiting van hun gebruikers en de informatie waartoe zij toegang hebben, willen controleren. Deze pogingen om het internet te filteren zullen altijd onverenigbaar zijn met de idealen van vrije meningsuiting.
 

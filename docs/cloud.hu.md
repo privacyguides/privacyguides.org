@@ -31,7 +31,7 @@ Ha ezek az alternatívák nem felelnek meg az igényeidnek, javasoljuk, hogy tek
 
 A Proton Drive mobil kliensei 2022 decemberében jelentek meg, és még nem nyílt forráskódúak. Proton szokás szerint a forráskód közzétételét a termék első kiadásának utánra halasztja, és [a terveik szerint](https://www.reddit.com/r/ProtonDrive/comments/zf14i8/comment/izdwmme/?utm_source=share&utm_medium=web2x&context=3) 2023 végére teszi közzé a forráskódot. A Proton Drive asztali kliensek még fejlesztés alatt állnak.
 
-## Kritériumok
+## Követelmények
 
 **Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** A [szabványos kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
 
@@ -48,7 +48,7 @@ A Proton Drive mobil kliensei 2022 decemberében jelentek meg, és még nem nyí
 
 - Végponttól végpontig terjedő titkosítást kell érvényesítenie.
 - Ingyenes csomagot vagy próbaidőszakot kell kínálnia a teszteléshez.
-- Támogatnia kell a TOTP vagy FIDO2 többfaktoros hitelesítés használatát, vagy a Passkey bejelentkezéseket.
+- Támogatnia kell TOTP vagy FIDO2 többfaktoros hitelesítés használatát, vagy Passkey bejelentkezéseket.
 - Olyan webes felületet kell kínálnia, amely támogat alapvető fájlkezelési funkciókat.
 - Lehetővé kell tennie az összes fájl/dokumentum egyszerű exportálását.
 - Szabványos, felülvizsgált titkosítást kell használnia.

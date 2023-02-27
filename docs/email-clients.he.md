@@ -5,7 +5,7 @@ icon: material/email-open
 
 רשימת ההמלצות שלנו מכילה לקוחות אימייל התומכים הן ב[OpenPGP](encryption.md#openpgp) והן באימות חזק כגון [הרשאת פתוחה ](https://en.wikipedia.org/wiki/OAuth)(OAuth). OAuth מאפשר לך להשתמש ב - [אימות רב - גורמי](basics/multi-factor-authentication.md) ולמנוע גניבת חשבון.
 
-??? warning "אזהרה" אימייל אינו מספק סודיות העברה
+??? warning "אימייל אינו מספק סודיות העברה"
 
     בעת שימוש בטכנולוגיית הצפנה מקצה לקצה (E2EE) כמו OpenPGP, לאימייל עדיין יהיו [כמה מטא נתונים](email.md#email-metadata-overview) שאינם מוצפנים בכותרת האימייל.
     
@@ -44,7 +44,7 @@ icon: material/email-open
 ##### תוכן אינטרנט
 
 - [ ] בטל את הסימון  **זכור אתרים וקישורים שביקרתי**
-- [ ] בטל את הסימון  **קבל קובצי Cookie מאתרים**
+- [ ] בטל את הסימון של **קבל קובצי Cookie מאתרים**
 
 ##### טלמטריה
 
@@ -117,7 +117,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על זה בגלל ה�
 
     ![Evolution לוגו](assets/img/email-clients/evolution.svg){ align=right }
     
-    **Evolution** הוא יישום לניהול מידע אישי המספק פונקציונליות משולבת של דואר, לוחות שנה ופנקס כתובות. ל-Evolution יש [תיעוד] נרחב (https://help.gnome.org/users/evolution/stable/) שיעזור לך להתחיל.
+    **Evolution** הוא יישום לניהול מידע אישי המספק פונקציונליות משולבת של דואר, לוחות שנה ופנקס כתובות. ל-Evolution יש [תיעוד](https://help.gnome.org/users/evolution/stable/) נרחב שיעזור לך להתחיל.
     
     [:octicons-home-16: דף הבית](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="מדיניות פרטיות" }
@@ -152,9 +152,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על זה בגלל ה�
 
 !!! warning "אזהרה"
 
-    ![Kontact לוגו](assets/img/email-clients/kontact.svg){ align=right }
-    
-    **Kontact** היא אפליקציית מנהל מידע אישי (PIM) מפרויקט [KDE](https://kde.org). הוא מספק קליינט דואר, פנקס כתובות, ארגון וקליינט RSS.
+    כשמשיבים למישהו ברשימת תפוצה, אפשרות ה"תשובה" עשויה לכלול גם את רשימת התפוצה. למידע נוסף ראה [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738).
 
 ### Kontact (KDE)
 
@@ -179,9 +177,9 @@ Canary Mail הוא קוד סגור. אנו ממליצים על זה בגלל ה�
 
 !!! recommendation
 
-    ![NeoMutt לוגו](assets/img/email-clients/mutt.svg){ align=right }
+    ![Mailvelope לוגו](assets/img/email-clients/mailvelope.svg){ align=right }
     
-    **NeoMutt** הוא קורא שורת פקודה בקוד פתוח (או MUA) עבור לינוקס ו-BSD.
+    **Mailvelope** היא תוסף דפדפן המאפשר החלפת מיילים מוצפנים בהתאם לתקן ההצפנה OpenPGP.
     
     [:octicons-home-16: דף הבית](https://www.mailvelope.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="מדיניות פרטיות" }
@@ -216,11 +214,11 @@ Canary Mail הוא קוד סגור. אנו ממליצים על זה בגלל ה�
 
 ## קריטריונים
 
-**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. example "חלק זה הוא חדש"
+**שימו לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל[קריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו מערכת ברורה של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. example "חלק זה הוא חדש"
 
 !!! example "חלק זה הוא חדש"
 
-    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+    אנו עובדים על קביעת קריטריונים מוגדרים עבור כל חלק באתר שלנו, וזה עשוי להיות נתון לשינויים. אם יש לך שאלות לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו בעת מתן ההמלצות שלנו אם זה לא מופיע כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
 
 ### כישורים מינימליים
 

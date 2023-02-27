@@ -19,7 +19,7 @@ Qubes使用 [分区](https://www.qubes-os.org/intro/) ，以保持系统的安�
 
 ## 为什么我应该使用Qubes？
 
-如果你的 [威胁模型](../basics/threat-modeling.md) ，需要强大的分隔和安全，例如你认为你会从不信任的来源打开不信任的文件，那么Qubes OS就很有用。 Qubes OS的一个典型用例是打开来自未知来源的文件。
+如果你的 [威胁模型](../basics/threat-modeling.md) ，需要强大的分隔和安全，例如你认为你会从不信任的来源打开不信任的文件，那么Qubes OS就很有用。 使用Qubes OS的一个典型原因是打开来自未知来源的文件。
 
 Qubes操作系统利用 [Dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM（即 "AdminVM"）来控制主机操作系统上的其他客户虚拟机或Qubes。 其他虚拟机在Dom0的桌面环境中显示单个应用程序窗口。 它允许你根据信任程度对窗口进行颜色编码，并以非常细化的控制方式运行可以相互交互的应用程序。
 

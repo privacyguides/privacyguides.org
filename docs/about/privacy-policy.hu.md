@@ -52,7 +52,7 @@ jonah@privacyguides.org
 
 Minden más megkereséssel kapcsolatban csapatunk bármelyik tagjával kapcsolatba léphetsz.
 
-A GDPR alá eső általános panaszok esetében a helyi adatvédelmi felügyeleti szervhez nyújthatsz be panaszt.
+GDPR alá eső általános panaszok esetében a helyi adatvédelmi felügyeleti szervhez nyújthatsz be panaszt. Franciaországban ez a Commission Nationale de l'Informatique et des Libertés (Nemzeti Informatikai és Szabadságügyi Bizottság) ami foglalkozik és kezeli a panaszokat. Ők egy [panaszlevél sablont](https://www.cnil.fr/en/plaintes) is biztosítanak felhasználásra.
 
 ## A Jelen Szabályzatról
 

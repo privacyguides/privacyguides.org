@@ -1,19 +1,19 @@
 ---
-title: "Streaming Vidéo"
+title: "Streaming vidéo"
 icon: material/video-wireless
 ---
 
 La principale menace liée à l'utilisation d'une plateforme de streaming vidéo est que vos habitudes de streaming et vos listes d'abonnement pourraient être utilisées pour établir votre profil. Vous devriez combiner ces outils avec un [VPN](vpn.md) ou [Tor](https://www.torproject.org/) pour rendre plus difficile le profilage de votre utilisation.
 
-## Clients
+## LBRY
 
 !!! recommendation
 
     ![Logo LBRY](assets/img/video-streaming/lbry.svg){ align=right }
     
-    **Le réseau LBRY** est un réseau décentralisé de partage de vidéos. Il utilise un réseau de type [BitTorrent](https://fr.wikipedia.org/wiki/BitTorrent) pour stocker le contenu vidéo, et un [blockchain](https://fr.wikipedia.org/wiki/Blockchain) pour stocker les index de ces vidéos. Le principal avantage de cette conception est la résistance à la censure.
+    **Le réseau LBRY** est un réseau décentralisé de partage de vidéos. Il utilise un réseau de type [BitTorrent](https://fr.wikipedia.org/wiki/BitTorrent) pour stocker le contenu vidéo, et une [chaîne de blocs](https://fr.wikipedia.org/wiki/Blockchain) pour stocker les index de ces vidéos. Le principal avantage de cette conception est la résistance à la censure.
     
-    **Le client de bureau LBRY** vous aide à diffuser des vidéos à partir du réseau LBRY et stocke votre liste d'abonnement dans votre propre portefeuille LBRY.
+    **Le client de bureau LBRY** vous aide à regarder des vidéos à partir du réseau LBRY et stocke votre liste d'abonnement dans votre propre portefeuille LBRY.
     
     [:octicons-home-16: Page d'accueil](https://lbry.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://lbry.com/privacypolicy){ .card-link title="Politique de confidentialité" }
@@ -28,7 +28,7 @@ La principale menace liée à l'utilisation d'une plateforme de streaming vidéo
 
 !!! note "À noter"
 
-    Seul le client de bureau **LBRY** est recommandé, car le site Web [Odysee](https://odysee.com) et les clients LBRY dans F-Droid, Play Store et l'App Store ont une synchronisation et une télémétrie obligatoires.
+    Seul le client de bureau **LBRY** est recommandé, car le site web [Odysee](https://odysee.com) et les clients LBRY dans F-Droid, le Play Store et l'App Store ont une synchronisation et une télémétrie obligatoires.
 
 !!! warning "Avertissement"
 

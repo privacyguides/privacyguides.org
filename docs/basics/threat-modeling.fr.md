@@ -1,5 +1,5 @@
 ---
-title: "Modélisation des Menaces"
+title: "Modélisation des menaces"
 icon: 'material/target-account'
 ---
 
@@ -19,9 +19,9 @@ Pour identifier ce qui pourrait arriver aux choses auxquelles vous tenez et dét
 
 1. Qu'est-ce que je veux protéger ?
 2. De qui je veux le protéger ?
-3. Quelle est la probabilité que je doive la protéger ?
-4. Les conséquences sont-elles graves si j'échoue ?
-5. Combien de problèmes suis-je prêt à traverser pour essayer d'empêcher les conséquences potentielles ?
+3. Quelle est la probabilité que je doive le protéger ?
+4. Quelles sont les conséquences si j'échoue ?
+5. Jusqu'à quel point suis-je prêt à me donner du mal pour essayer de prévenir les conséquences potentielles ?
 
 ### Qu'est-ce que je veux protéger ?
 
@@ -37,7 +37,7 @@ Pour répondre à cette question, il est important d'identifier qui pourrait vou
 
 Selon l'identité de vos adversaires, dans certaines circonstances, cette liste peut être quelque chose que vous souhaitez détruire après avoir terminé ce plan de sécurité.
 
-### Quelle est la probabilité que je doive la protéger ?
+### Quelle est la probabilité que je doive le protéger ?
 
 ==Le risque est la probabilité qu'une menace particulière contre un actif particulier se produise réellement. Il va de pair avec la capacité. Si votre opérateur de téléphonie mobile a la capacité d'accéder à toutes vos données, le risque qu'il publie vos données privées en ligne pour nuire à votre réputation est faible.
 
@@ -47,7 +47,7 @@ L'évaluation des risques est un processus à la fois personnel et subjectif. De
 
 *Notez les menaces que vous allez prendre au sérieux et celles qui sont peut-être trop rares ou trop inoffensives (ou trop difficiles à combattre) pour que vous vous en préoccupiez.*
 
-### Les conséquences sont-elles graves si j'échoue ?
+### Quelles sont les conséquences si j'échoue ?
 
 Il existe de nombreuses façons pour un adversaire d'accéder à vos données. Par exemple, un adversaire peut lire vos communications privées lorsqu'elles passent par le réseau, ou il peut supprimer ou corrompre vos données.
 
@@ -57,7 +57,7 @@ Préparer un plan de sécurité implique de comprendre à quelle point les cons�
 
 *Écrivez ce que votre adversaire pourrait vouloir faire avec vos données privées.*
 
-### Combien de problèmes suis-je prêt à traverser pour essayer d'empêcher les conséquences potentielles ?
+### Jusqu'à quel point suis-je prêt à me donner du mal pour essayer de prévenir les conséquences potentielles ?
 
 ==Il n'y a pas d'option parfaite pour la sécurité.== Tout le monde n'a pas les mêmes priorités, préoccupations, ou accès aux ressources. Votre évaluation des risques vous permettra de planifier la stratégie qui vous convient le mieux, en conciliant commodité, coût et respect de la vie privée.
 
@@ -65,31 +65,31 @@ Par exemple, un avocat représentant un client dans une affaire de sécurité na
 
 *Notez les options dont vous disposez pour atténuer les menaces qui vous sont propres. Notez si vous avez des contraintes financières, techniques ou sociales.*
 
-### Essayez-le vous-même : Protéger vos biens
+### Essayez vous-même : protéger vos biens
 
 Ces questions peuvent s'appliquer à une grande variété de situations, en ligne et hors ligne. Pour illustrer de manière générique le fonctionnement de ces questions, établissons un plan pour assurer la sécurité de votre maison et de vos biens.
 
-**Que voulez-vous protéger ? (Ou, *que possédez-vous qui mérite d'être protégé ?*)**
+**Que voulez-vous protéger ? (ou, *que possédez-vous qui mérite d'être protégé ?*)**
 :
 
 Vos actifs peuvent comprendre des bijoux, des appareils électroniques, des documents importants ou des photos.
 
-**De qui voulez-vous le protéger ?**
+**De qui voulez-vous les protéger ?**
 :
 
 Vos adversaires peuvent être des cambrioleurs, des colocataires ou des invités.
 
-**Quelle est la probabilité que je doive le protéger ?**
+**Quelle est la probabilité que je doive les protéger ?**
 :
 
 Votre quartier a-t-il des antécédents de cambriolages ? Vos colocataires/invités sont-ils dignes de confiance ? Quelles sont les capacités de vos adversaires ? Quels sont les risques à prendre en compte ?
 
-**Les conséquences sont-elles graves si vous échouez ?**
+**Quelles sont les conséquences si j'échoue ?**
 :
 
 Avez-vous quelque chose dans votre maison que vous ne pouvez pas remplacer ? Avez-vous le temps ou l'argent pour remplacer ces choses ? Avez-vous une assurance qui couvre les biens volés à votre domicile ?
 
-**Combien de difficultés êtes-vous prêt à traverser pour empêcher ces conséquences ?**
+**Jusqu'à quel point suis-je prêt à me donner du mal pour essayer de prévenir ces conséquences ?**
 :
 
 Êtes-vous prêt à acheter un coffre-fort pour les documents sensibles ? Pouvez-vous vous permettre d'acheter une serrure de haute qualité ? Avez-vous le temps d'ouvrir un coffre-fort à votre banque locale et d'y conserver vos objets de valeur ?
@@ -102,8 +102,8 @@ L'élaboration d'un plan de sécurité vous aidera à comprendre les menaces qui
 
 Pour les personnes qui cherchent à améliorer leur vie privée et leur sécurité en ligne, nous avons dressé une liste des menaces courantes auxquelles nos visiteurs sont confrontés ou des objectifs qu'ils poursuivent, afin de vous donner de l'inspiration et de démontrer la base de nos recommandations.
 
-- [Objectifs et Menaces Communes :material-arrow-right-drop-circle:](common-threats.md)
+- [Objectifs et menaces courants :material-arrow-right-drop-circle:](common-threats.md)
 
 ## Sources
 
-- [EFF Surveillance Self Defense: Votre plan de sécurité](https://ssd.eff.org/en/module/your-security-plan)
+- [EFF Surveillance Self Defense: votre plan de sécurité](https://ssd.eff.org/en/module/your-security-plan)

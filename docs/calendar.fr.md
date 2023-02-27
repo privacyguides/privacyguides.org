@@ -1,5 +1,5 @@
 ---
-title: "Synchronisation du calendrier"
+title: "Synchronisation de calendrier"
 icon: material/calendar
 ---
 

@@ -42,13 +42,13 @@ Pour minimiser les dommages potentiels qu'un logiciel malveillant peut causer, v
 
 <span class="pg-red">:material-target-account: Attaques Ciblées</span>
 
-Les attaques ciblées contre un personne spécifique sont plus difficiles à gérer. Les voies d'attaque les plus courantes sont l'envoi de documents malveillants par courrier électronique, l'exploitation de vulnérabilités dans le navigateur et les systèmes d'exploitation, et les attaques physiques. Si cela vous préoccupe, vous devrez peut-être recourir à des stratégies plus avancées d'atténuation des menaces.
+Les attaques ciblées contre une personne spécifique sont plus difficiles à gérer. Les voies d'attaque les plus courantes sont l'envoi de documents malveillants par courrier électronique, l'exploitation de vulnérabilités dans le navigateur et les systèmes d'exploitation, et les attaques physiques. Si cela vous préoccupe, il vous sera nécessaire de recourir à des stratégies plus avancées d'atténuation des menaces.
 
 !!! tip "Conseil"
 
     **Les navigateurs Web**, **les clients de messagerie électronique** et **les applications de bureautique** exécutent généralement volontairement, et by-design, du code non fiable qui vous est envoyé par des tiers. L'exécution de plusieurs machines virtuelles pour séparer les applications de ce type de votre système hôte ainsi que les unes des autres est une technique que vous pouvez utiliser pour éviter qu'un code d'exploitation dans ces applications ne compromette le reste de votre système. Les technologies comme Qubes OS ou Microsoft Defender Application Guard sur Windows fournissent des méthodes pratiques pour le faire de manière transparente, par exemple.
 
-Si vous êtes préoccupé par les **attaques physiques** vous devriez utiliser un système d'exploitation avec une implémentation de démarrage vérifié sécurisé, à la manière d'Android, d'iOS, de macOS ou de [Windows (avec TPM)](https://docs.microsoft.com/fr-fr/windows/security/information-protection/secure-the-windows-10-boot-process). Vous devriez également vous assurer que votre disque est chiffré et que le système d'exploitation utilise un TPM ou une [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) sécurisée ou encore un [Element](https://developers.google.com/android/security/android-ready-se) sécurisé pour limiter le taux de tentatives de saisie de la phrase de passe. Vous devriez éviter de partager votre ordinateur avec des personnes en qui vous n'avez pas confiance, car la plupart des systèmes d'exploitation de bureau ne chiffrent pas les données séparément par utilisateur.
+Si vous êtes préoccupé par les **attaques physiques** vous devriez utiliser un système d'exploitation avec une implémentation de démarrage vérifié sécurisé, à la manière d'Android, d'iOS, de macOS ou de [Windows (avec TPM)](https://docs.microsoft.com/fr-fr/windows/security/information-protection/secure-the-windows-10-boot-process). Vous devriez également vous assurer que votre disque est chiffré et que le système d'exploitation utilise un TPM, une [Enclave sécurisée](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) ou un [Element sécurisé](https://developers.google.com/android/security/android-ready-se) pour limiter le taux de tentatives de saisie de la phrase de passe. Vous devriez éviter de partager votre ordinateur avec des personnes en qui vous n'avez pas confiance, car la plupart des systèmes d'exploitation de bureau ne chiffrent pas les données séparément par utilisateur.
 
 ## Protection de ses Données des Fournisseurs de Services
 
@@ -78,8 +78,9 @@ La surveillance de masse est un effort visant à surveiller le "comportement, de
 
 !!! abstract "Atlas de la surveillance"
 
-    Si vous souhaitez en savoir plus sur les méthodes de surveillance et la manière dont elles sont mises en œuvre dans les villes des USA, vous pouvez également consulter l'[Atlas de la Surveillance] (https://atlasofsurveillance.org/) de l'[Electronic Frontier Foundation] (https://www.eff.org/).
-    En France vous pouvez consulter le site [Technolopolice](https://technopolice.fr/villes/) maintenu par l'association La Quadrature du Net.
+    Si vous souhaitez en savoir plus sur les méthodes de surveillance et la manière dont elles sont mises en œuvre dans les villes des USA, vous pouvez également consulter l'[Atlas de la Surveillance](https://atlasofsurveillance.org/) de l'[Electronic Frontier Foundation](https://www.eff.org/).
+    
+    En France, vous pouvez consulter le site [Technolopolice](https://technopolice.fr/villes/) géré par l'association à but non lucratif La Quadrature du Net.
 
 Les gouvernements justifient souvent les programmes de surveillance de masse comme des moyens nécessaires pour combattre le terrorisme et prévenir la criminalité. Cependant, en violation des droits de l'homme, elle est le plus souvent utilisée pour cibler de manière disproportionnée les minorités et les dissidents politiques, entre autres.
 
@@ -135,7 +136,7 @@ Les personnes concernées par la menace de la censure peuvent utiliser des techn
 
     S'il peut être facile d'échapper à la censure en soi, cacher le fait que vous le faites peut être très problématique.
     
-    Vous devez prendre en compte quels aspects du réseau votre adversaire peut observer, et si vous avez une possibilité de déni plausible pour vos actions. Par exemple, l'utilisation de [DNS chiffrés] (../advanced/dns-overview.md#what-is-encrypted-dns) peut vous aider à contourner les systèmes de censure rudimentaires basés sur les DNS, mais elle ne peut pas vraiment cacher ce que vous visitez à votre FAI. Un VPN ou Tor peut aider à cacher ce que vous visitez aux administrateurs du réseaux, mais ne peut pas cacher que vous utilisez ces réseaux. Les transports enfichables (tels que Obfs4proxy, Meek ou Shadowsocks) peuvent vous aider à contourner les pare-feu qui bloquent les protocoles VPN courants ou Tor, mais vos tentatives de contournement peuvent toujours être détectées par des méthodes telles que le sondage ou [l'inspection approfondie des paquets] (https://fr.wikipedia.org/wiki/Deep_packet_inspection).
+    Vous devez prendre en compte quels aspects du réseau votre adversaire peut observer, et si vous avez une possibilité de déni plausible pour vos actions. Par exemple, l'utilisation de [DNS chiffrés](../advanced/dns-overview.md#what-is-encrypted-dns) peut vous aider à contourner les systèmes de censure rudimentaires basés sur les DNS, mais elle ne peut pas vraiment cacher ce que vous visitez à votre FAI. Un VPN ou Tor peut aider à cacher ce que vous visitez aux administrateurs du réseaux, mais ne peut pas cacher que vous utilisez ces réseaux. Les transports enfichables (tels que Obfs4proxy, Meek ou Shadowsocks) peuvent vous aider à contourner les pare-feu qui bloquent les protocoles VPN courants ou Tor, mais vos tentatives de contournement peuvent toujours être détectées par des méthodes telles que le sondage ou [l'inspection approfondie des paquets](https://fr.wikipedia.org/wiki/Deep_packet_inspection).
 
 Vous devez toujours tenir compte des risques encourus en essayant de contourner la censure, des conséquences potentielles et du degré de sophistication de votre adversaire. Soyez très prudent dans le choix de vos logiciels et prévoyez un plan de secours au cas où vous seriez pris.
 

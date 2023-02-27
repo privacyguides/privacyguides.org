@@ -279,7 +279,10 @@ Tutanota אינה משתמשת בפרוטוקול [IMAP](https://tutanota.com/fa
 
 !!! recommendation
 
-    **AnonAddy** מאפשר לכם ליצור 20 כינויי דומיין בדומיין משותף בחינם, או כינויים "סטנדרטיים" ללא הגבלה שהם פחות אנונימיים.
+    ![AnonAddy לוגו](assets/img/email/anonaddy.svg#only-light){ align=right }
+    ![AnonAddy לוגו](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
+    
+    **AnonAddy** מאפשרת לך ליצור 20 כינויים של דומיין בדומיין משותף בחינם, או כינויים "סטנדרטיים" ללא הגבלה שהם פחות אנונימיים.
     
     [:octicons-home-16: דף הבית](https://anonaddy.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="מדיניות פרטיות" }

@@ -79,6 +79,8 @@ icon: '资料/视野'
 !!! 摘要“监测地图”
 
     如果你想了解更多关于监视方法以及它们在你的城市是如何实施的，你也可以看看[电子前沿基金会](https://atlasofsurveillance.org/)的[监视地图]。
+    
+    在法国，你可以看看由非营利协会La Quadrature du Net维护的[Technolopolice网站]（https://technopolice.fr/villes/）。
 
 政府经常为大规模监控项目辩护，认为这是打击恐怖主义和防止犯罪的必要手段。 然而，它侵犯人权，最常被用来不成比例地针对少数群体和持不同政见者等。
 
@@ -114,7 +116,7 @@ icon: '资料/视野'
 
 保持数据私密性的最佳方法是首先不要将其公开。 删除你在网上发现的不需要的信息是你可以采取的最好的第一步，以重新获得你的隐私。
 
-- [查看我们的账户删除指南 :hero-arrow-circle-right-fill:](account-deletion.md)
+- [查看我们的账户删除指南 :material-arrow-right-drop-circle:](account-deletion.md)
 
 极权主义政府、网络管理员和服务提供商都可以在不同程度上进行在线审查，以控制用户的言论和用户可以获得的信息。 这些过滤互联网的行为将永远与言论自由的理想不相容。
 

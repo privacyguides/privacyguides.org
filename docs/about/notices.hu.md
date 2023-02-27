@@ -6,7 +6,7 @@ hide:
 
 ## Jogi Nyilatkozat
 
-A Privacy Guides nem jogi iroda. Mint ilyen, a Privacy Guides honlap és közreműködői nem nyújtanak jogi tanácsadást. A weboldalunkon és az útmutatóinkban található anyagok és ajánlások nem minősülnek jogi tanácsadásnak, és a weboldalhoz való hozzájárulás, valamint a Privacy Guides, vagy más közreműködőkkel való kommunikáció a weboldalunkról sem hoz létre ügyvéd-ügyfél kapcsolatot.
+A Privacy Guides nem jogi iroda. Mint ilyen, a Privacy Guides weboldal és közreműködői nem nyújtanak jogi tanácsadást. A weboldalunkon és az útmutatóinkban található anyagok és ajánlások nem minősülnek jogi tanácsadásnak, és a weboldalhoz való hozzájárulás, valamint a Privacy Guides, vagy más közreműködőkkel való kommunikáció a weboldalunkról sem hoz létre ügyvéd-ügyfél kapcsolatot.
 
 A weboldal működtetése, mint minden emberi vállalkozás, bizonytalansággal és kompromisszumokkal jár. Reméljük, hogy ez a weboldal segít, de hibákat tartalmazhat, és nem tud minden helyzetet figyelembe venni. Ha bármilyen kérdésed van a szituációddal kapcsolatban, bátorítunk, hogy végezz saját kutatásokat, keress fel más szakértőket, és vegyél részt a Privacy Guides közösségével folytatott beszélgetésekben. Ha bármilyen jogi kérdésed van, konzultálj saját jogi tanácsadóddal, mielőtt továbblépnél.
 

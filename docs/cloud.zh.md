@@ -15,9 +15,9 @@ icon: material/file-cloud
 
 !!! recommendation
 
-    ! [Proton Drive徽标] (assets/img/cloud/protondrive.svg) {align = right}
+    ![Proton Drive徽标](assets/img/cloud/protondrive.svg){ align=right }
     
-    * * Proton Drive * *是由流行的加密电子邮件提供商[Proton Mail] (https://proton.me/mail)提供的E2EE通用文件存储服务。
+    **Proton Drive** 是由流行的加密电子邮件提供商 [Proton Mail](https://proton.me/mail) 提供的E2EE通用文件存储服务。
     
     [:octicons-home-16: 主页](https://grapheneos.org/){ .md-button .md-button--primary }
     
@@ -43,7 +43,7 @@ Proton Drive的移动客户端于2022年12月发布，目前尚未开源。 Prot
 
 - 使用端到端加密
 - 必须提供免费计划或试用期进行测试。
-- 必须支持TOTP或FIDO2多因素认证支持，或Passkey登录。
+- 必须支持TOTP或FIDO2多因素认证，或Passkey登录。
 - 必须提供一个支持基本文件管理功能的网络界面。
 - 必须允许所有文件/文档的轻松导出。
 - 必须使用标准的、经过审计的加密技术。

@@ -15,7 +15,7 @@ A legtöbb online irodai programcsomag nem támogatja az E2EE-t, ami azt jelenti
     
     A **Nextcloud** egy ingyenes és nyílt forráskódú kliens-szerver szoftvercsomag, amellyel saját fájltárhely-szolgáltatásokat hozhatsz létre egy privát általad ellenőrzött szerveren.
     
-    [:octicons-home-16: Honlap](https://nextcloud.com){ .md-button .md-button--primary }
+    [:octicons-home-16: Kezdőlap](https://nextcloud.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Adatvédelmi Nyilatkozat" }
     [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Dokumentáció}
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Forráskód" }
@@ -49,13 +49,13 @@ A legtöbb online irodai programcsomag nem támogatja az E2EE-t, ami azt jelenti
     [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Forráskód" }
     [:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Közremőködés }
 
-### Kritériumok
+### Követelmények
 
 **Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** A [szabványos kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
 
 !!! example "Ez a szakasz új"
 
-    Azon dolgozunk, hogy meghatározott kritériumokat állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a kritériumainkkal kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
+    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
 
 Általános esetben az kollaborációs platformokat olyan teljes értékű csomagokként határozzuk meg, amelyek ésszerűen helyettesíthetik az olyan kollaborációs platformokat, mint a Google Drive.
 
@@ -71,7 +71,7 @@ A legtöbb online irodai programcsomag nem támogatja az E2EE-t, ami azt jelenti
 A legjobb esetben alkalmazott kritériumaink azt fejezik ki, hogy mit szeretnénk látni egy tökéletes projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 
 - Fájlokat egy hagyományos fájlrendszerben kell tárolnia.
-- Támogatnia kell a TOTP vagy WebAuthn többfaktoros hitelesítést, illetve a Passkey hitelesítést.
+- Támogatnia kell TOTP vagy FIDO2 többfaktoros hitelesítés használatát, vagy Passkey bejelentkezéseket.
 
 ## Irodai Programcsomagok
 
@@ -83,7 +83,7 @@ A legjobb esetben alkalmazott kritériumaink azt fejezik ki, hogy mit szeretnén
     
     **A **LibreOffice** egy ingyenes és nyílt forráskódú irodai programcsomag széleskörű funkcionalitással.
     
-    [:octicons-home-16: Honlap](https://www.libreoffice.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Kezdőlap](https://www.libreoffice.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="Adatvédelmi Nyilatkozat" }
     [:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation/){ .card-link title=Dokumentáció}
     [:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Forráskód" }
@@ -107,7 +107,7 @@ A legjobb esetben alkalmazott kritériumaink azt fejezik ki, hogy mit szeretnén
     
     Az **OnlyOffice** egy felhőalapú, ingyenes és nyílt forráskódú irodai programcsomag, amely széleskörű funkciókkal rendelkezik, beleértve a Nextclouddal való integrációt is.
     
-    [:octicons-home-16: Honlap](https://www.onlyoffice.com){ .md-button .md-button--primary }
+    [:octicons-home-16: Kezdőlap](https://www.onlyoffice.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Adatvédelmi Nyilatkozat" }
     [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Dokumentáció}
     [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Forráskód" }
@@ -122,18 +122,18 @@ A legjobb esetben alkalmazott kritériumaink azt fejezik ki, hogy mit szeretnén
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
         - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/onlyoffice-documentserver/)
 
-### Kritériumok
+### Követelmények
 
 **Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** A [szabványos kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
 
 !!! example "Ez a szakasz új"
 
-    Azon dolgozunk, hogy meghatározott kritériumokat állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a kritériumainkkal kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
+    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
 
 Általános esetben az irodai programcsomagokat úgy határozzuk meg, mint olyan alkalmazásokat, amelyek a legtöbb igényt kielégítően helyettesíthetik a Microsoft Wordöt.
 
 - Cross-platformnak kell lennie.
-- Nyílt forráskódúnak kell lennie.
+- Nyílt forráskódú szoftvernek kell lennie.
 - Működnie kell offline.
 - Támogatnia kell a dokumentumok, táblázatok és diavetítések szerkesztését.
 - Fájlokat szabványos dokumentumformátumba kell exportálnia.
