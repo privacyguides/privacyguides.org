@@ -53,6 +53,7 @@ watch:
 plugins:
   i18n:
     default_language: en
+    default_language_only: !ENV [FAST, false]
     material_alternate: true
     languages:
       en:

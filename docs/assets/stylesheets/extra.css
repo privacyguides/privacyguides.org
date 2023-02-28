@@ -319,8 +319,8 @@ details[class="downloads annotate"] > p .md-annotation span span::before {
     color: var(--pg-blue-gray);
 }
 
-/* Make light/dark mode icon smaller */
-label[class="md-header__button md-icon"] svg {
+/* Make header icons smaller */
+.md-header__button.md-icon svg {
     height: 1rem;
     width: 1rem;
 }
