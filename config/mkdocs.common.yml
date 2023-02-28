@@ -1,0 +1,110 @@
+extra:
+  social:
+    - icon: simple/mastodon
+      link: https://mastodon.neat.computer/@privacyguides
+      name: Mastodon
+    - icon: simple/matrix
+      link: https://matrix.to/#/#privacyguides:matrix.org
+      name: Matrix
+    - icon: simple/discourse
+      link: https://discuss.privacyguides.net/
+      name: Forum
+    - icon: simple/github
+      link: https://github.com/privacyguides
+      name: GitHub
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Français
+      link: /fr/
+      lang: fr
+    - name: עִברִית
+      link: /he/
+      lang: he
+    - name: Nederlands
+      link: /nl/
+      lang: nl
+
+repo_url: https://github.com/privacyguides/privacyguides.org
+repo_name: ""
+
+theme:
+  name: material
+  custom_dir: ../theme
+  favicon: assets/img/brand/PNG/Favicon/favicon-32x32.png
+  icon:
+    logo: octicons/shield-16
+    repo: simple/github
+  font: false
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.tooltips
+    - search.highlight
+
+extra_css:
+  - assets/stylesheets/extra.css?v=3.2.0
+extra_javascript:
+  - assets/javascripts/mathjax.js
+  - assets/javascripts/feedback.js
+
+watch:
+  - ../theme
+  - ../includes
+  - mkdocs.common.yml
+
+plugins:
+  tags: {}
+  search: {}
+  macros: {}
+  meta: {}
+  git-committers:
+    enabled: !ENV [PRODUCTION, false]
+    repository: privacyguides/privacyguides.org
+    branch: main
+  git-revision-date-localized:
+    enabled: !ENV [PRODUCTION, false]
+    exclude:
+      - index.md
+    fallback_to_build_date: true
+  privacy:
+    external_assets_exclude:
+      - cdn.jsdelivr.net/npm/mathjax@3/*
+      - api.privacyguides.net/*
+
+markdown_extensions:
+  admonition: {}
+  pymdownx.details: {}
+  pymdownx.superfences:
+    custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
+  pymdownx.tabbed:
+    alternate_style: true
+  pymdownx.arithmatex:
+    generic: true
+  pymdownx.critic: {}
+  pymdownx.caret: {}
+  pymdownx.keys: {}
+  pymdownx.mark: {}
+  pymdownx.tilde: {}
+  pymdownx.snippets: {}
+  pymdownx.tasklist:
+    custom_checkbox: true
+  attr_list: {}
+  def_list: {}
+  md_in_html: {}
+  meta: {}
+  abbr: {}
+  pymdownx.emoji:
+    emoji_index: !!python/name:materialx.emoji.twemoji
+    emoji_generator: !!python/name:materialx.emoji.to_svg
+  tables: {}
+  footnotes: {}
+  toc:
+    permalink: true
+    toc_depth: 4

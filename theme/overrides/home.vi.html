@@ -1,0 +1,25 @@
+{% extends "main.html" %}
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=3.3.0' | url }}">
+  {{ super() }}
+{% endblock %}
+{% block tabs %}
+  {{ super() }}
+  <style>.md-content > .md-typeset h1{visibility:hidden;font-size:0;}.md-button{margin-top:.5rem;}</style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__content">
+          <h1>Hướng dẫn khôi phục quyền riêng tư trực tuyến của bạn.</h1>
+          <p>Các tổ chức đông đảo đang theo dõi các hoạt động trực tuyến của bạn. Privacy Guides là tài nguyên bảo mật và quyền riêng tư trung tâm của bạn để bảo vệ bạn khi trực tuyến.</p>
+          <a href="kb/" title="The first step of your privacy journey" class="md-button md-button--primary">
+            Start Your Privacy Journey
+          </a>
+          <a href="tools/" title="Các công cụ, dịch vụ và kiến ​​thức về quyền riêng tư được đề xuất" class="md-button">
+            Các công cụ được đề xuất
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

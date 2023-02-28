@@ -1,0 +1,25 @@
+{% extends "main.html" %}
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=3.3.0' | url }}">
+  {{ super() }}
+{% endblock %}
+{% block tabs %}
+  {{ super() }}
+  <style>.md-content > .md-typeset h1{visibility:hidden;font-size:0;}.md-button{margin-top:.5rem;}</style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__content">
+          <h1>Der Leitfaden zur Wiederherstellung Ihrer Online-Privatsphäre.</h1>
+          <p>Riesige Unternehmen überwachen Ihre Online-Aktivitäten. Privacy Guides ist deine zentrale Informationsquelle für Datenschutz und Sicherheit, um dich online zu schützen.</p>
+          <a href="kb/" title="Der erste Schritt auf deinem Weg zur Privatsphäre" class="md-button md-button--primary">
+            Beginne Deine Reise zur Privatsphäre
+          </a>
+          <a href="tools/" title="Empfohlene Tools, Dienste und Wissen zum Datenschutz" class="md-button">
+            Empfohlene Tools
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

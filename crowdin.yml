@@ -9,13 +9,14 @@ files:
   translation: "/theme/overrides/%file_name%.%two_letters_code%.html"
   translation_replace:
     "en.": ""
-  skip_untranslated_files: true
+  skip_untranslated_files: false
 - source: "/includes/*.en.*"
   translation: "/includes/%file_name%.%two_letters_code%.%file_extension%"
   translation_replace:
     "en.": ""
-  skip_untranslated_files: true
-- source: "/mkdocs.en.yml"
-  translation: "/mkdocs.%two_letters_code%.yml"
+  skip_untranslated_files: false
+- source: "/config/mkdocs.en.yml"
+  translation: "/config/mkdocs.%two_letters_code%.yml"
   translation_replace:
     "en.": ""
+  skip_untranslated_files: false
