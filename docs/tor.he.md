@@ -110,7 +110,7 @@ Tor פועלת על ידי ניתוב תעבורת האינטרנט שלך דר�
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
         - [:octicons-browser-16: Web](https://snowflake.torproject.org/embed "Leave this page open to be a Snowflake proxy")
 
-??? tip "טיפ" "Embedded Snowflake"
+??? tip "מוטבע Snowflake"
 
     אתה יכול להפעיל את Snowflake בדפדפן שלך על ידי לחיצה על המתג למטה ו== השארת דף זה פתוח==. אתה יכול גם להתקין את Snowflake כתוסף לדפדפן כדי להפעיל אותו תמיד כשהדפדפן שלך פתוח, אולם הוספת הרחבות של צד שלישי יכולה להגדיל את משטח ההתקפה שלך.
     

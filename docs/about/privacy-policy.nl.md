@@ -52,10 +52,12 @@ jonah@privacyguides.org
 
 Voor alle andere vragen kunt je contact opnemen met elk lid van ons team.
 
-Voor meer algemene klachten in het kader van de GDPR kunt je terecht bij jouw lokale toezichthoudende autoriteiten voor gegevensbescherming.
+Voor meer algemene klachten in het kader van de GDPR kun je terecht bij jouw lokale toezichthoudende autoriteiten voor gegevensbescherming. In Frankrijk is het de Commission Nationale de l'Informatique et des Libertés die de klachten behandelt. Ze bieden een [sjabloon van de klachtenbrief](https://www.cnil.fr/en/plaintes) aan om te kunnen gebruiken.
 
 ## Over dit beleid
 
 Eventuele nieuwe versies van deze verklaring [zullen wij hier](privacy-policy.md)plaatsen. Wij kunnen de wijze waarop wij wijzigingen aankondigen in toekomstige versies van dit document wijzigen. In de tussentijd kunnen wij onze contactgegevens te allen tijde bijwerken zonder een wijziging aan te kondigen. Raadpleeg het [Privacybeleid](privacy-policy.md) voor de meest recente contactinformatie op elk moment.
 
 Een volledige revisie [geschiedenis](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) van deze pagina is te vinden op GitHub.
+
+--8<-- "includes/abbreviations.nl.txt"

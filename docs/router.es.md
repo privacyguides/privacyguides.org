@@ -46,6 +46,6 @@ OPNsense se desarrolló originalmente como una bifurcación de [pfSense](https:/
 
 - Debe ser de código abierto.
 - Debe recibir actualizaciones de manera periódica.
-- Debe admitir una amplia variedad de hardware.
+- Debe ser compatible con una amplia variedad de hardware.
 
 --8<-- "includes/abbreviations.es.txt"

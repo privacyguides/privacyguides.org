@@ -57,7 +57,7 @@ Volg deze stappen om een diceware passphrase te genereren met echte dobbelstenen
 
 3. U vindt het woord `gecodeerd`. Schrijf dat woord op.
 
-4. Herhaal dit proces totdat uw wachtwoord zoveel woorden bevat als u nodig hebt, die u moet scheiden met een spatie.
+4. Herhaal dit proces totdat jouw wachtwoord zoveel woorden bevat als je nodig hebt, die je moet scheiden met een spatie.
 
 !!! warning "Belangrijk"
 
@@ -65,7 +65,7 @@ Volg deze stappen om een diceware passphrase te genereren met echte dobbelstenen
 
 Als je geen toegang hebt tot of liever geen echte dobbelstenen gebruikt, kunt je de ingebouwde wachtwoordgenerator van jouw wachtwoord manager gebruiken, omdat de meeste daarvan de optie hebben om naast gewone wachtwoorden ook diceware wachtwoord zinnen te genereren.
 
-Wij adviseren het gebruik van [EFF's grote woordenlijst](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) om jouw diceware wachtwoord zinnen te genereren, omdat het exact dezelfde veiligheid biedt als de originele lijst, terwijl het woorden bevat die gemakkelijker te onthouden zijn. Er zijn ook andere woordenlijsten in verschillende talen, als u niet wilt dat uw wachtwoord in het Engels is.
+Wij adviseren het gebruik van [EFF's grote woordenlijst](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) om jouw diceware wachtwoord zinnen te genereren, omdat het exact dezelfde veiligheid biedt als de originele lijst, terwijl het woorden bevat die gemakkelijker te onthouden zijn. Er zijn ook [andere woordenlijsten in verschillende talen](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), als u niet wilt dat uw wachtwoord in het Engels is.
 
 ??? note "Uitleg van entropie en sterkte van diceware wachtwoord zinnen"
 
@@ -77,34 +77,36 @@ Wij adviseren het gebruik van [EFF's grote woordenlijst](https://www.eff.org/fil
     
     De [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) bevat 7776 unieke woorden. Om het aantal mogelijke passphrases te berekenen, hoeven we alleen maar $\text{WordsInList}^\text{WordsInPhrase}$, of in ons geval, $7776^7$, uit te rekenen.
     
-    Laten we dit alles in perspectief plaatsen: Een passphrase van zeven woorden met [EFF's grote woordenlijst] (https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is één van ~1,719,070,799,748,422,500,000,000,000 mogelijke wachtwoord zinnen.
+    Laten we dit alles in perspectief plaatsen: Een passphrase van zeven woorden met [EFF's grote woordenlijst](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is één van ~1,719,070,799,748,422,500,000,000,000 mogelijke wachtwoord zinnen.
     
     Gemiddeld duurt het proberen van 50% van alle mogelijke combinaties om uw zin te raden. Met dat in gedachten, zelfs als uw tegenstander in staat is tot ~1.000.000.000.000 raden per seconde, zou het hem nog steeds ~27.255.689 jaar kosten om uw wachtwoord te raden. Zelfs als de volgende dingen waar zijn:
 
     - Je tegenstander weet dat je de diceware-methode hebt gebruikt.
     - Je tegenstander kent de specifieke woordenlijst die je gebruikt hebt.
-    - Uw tegenstander weet hoeveel woorden uw wachtwoord bevat.
+    - Jouw tegenstander weet hoeveel woorden jouw wachtwoord bevat.
 
-Kortom, diceware wachtzinnen zijn uw beste optie wanneer u iets nodig hebt dat zowel gemakkelijk te onthouden is *als* uitzonderlijk sterk.
+Kortom, diceware wachtzinnen zijn jouw beste optie wanneer je iets nodig hebt dat zowel gemakkelijk te onthouden is *als* uitzonderlijk sterk.
 
 ## Wachtwoorden opslaan
 
 ### Wachtwoord managers
 
-De beste manier om uw wachtwoorden op te slaan is met behulp van een wachtwoordmanager. Hiermee kunt u uw wachtwoorden opslaan in een bestand of in de cloud en ze beschermen met een enkel hoofdwachtwoord. Op die manier hoeft u maar één sterk wachtwoord te onthouden, waarmee u toegang krijgt tot de rest.
+De beste manier om jouw wachtwoorden op te slaan is met behulp van een wachtwoordmanager. Hiermee kunt je jouw wachtwoorden opslaan in een bestand of in de cloud en ze beschermen met een enkel hoofdwachtwoord. Op die manier hoeft u maar één sterk wachtwoord te onthouden, waarmee je toegang krijgt tot de rest.
 
-Er zijn veel goede opties om uit te kiezen, zowel cloud-gebaseerd als lokaal. Kies een van onze aanbevolen wachtwoordbeheerders en gebruik deze om sterke wachtwoorden in te stellen voor al uw accounts. Wij raden u aan uw wachtwoord manager te beveiligen met een [diceware wachtwoord zin](#diceware-passphrases) bestaande uit ten minste zeven woorden.
+Er zijn veel goede opties om uit te kiezen, zowel cloud-gebaseerd als lokaal. Kies een van onze aanbevolen wachtwoordbeheerders en gebruik deze om sterke wachtwoorden in te stellen voor al jouw accounts. Wij raden je aan om jouw wachtwoord manager te beveiligen met een [diceware wachtwoord zin](#diceware-passphrases) bestaande uit ten minste zeven woorden.
 
 [Lijst van aanbevolen wachtwoordbeheerders](../passwords.md ""){.md-button}
 
 !!! warning "Plaats uw wachtwoorden en TOTP-tokens niet in dezelfde wachtwoordmanager"
 
-    Wanneer u TOTP-codes gebruikt als [multi-factor authenticatie](../multi-factor-authentication.md), is de beste beveiligingspraktijk om uw TOTP-codes in een [aparte app] te bewaren(../multi-factor-authentication.md#authenticator-apps).
+    Wanneer je TOTP-codes gebruikt als [multi-factor authenticatie](../multi-factor-authentication.md), is de beste beveiligingspraktijk om jouw TOTP-codes in een [aparte app] te bewaren(../multi-factor-authentication.md#authenticator-apps).
     
-    Het opslaan van uw TOTP-tokens op dezelfde plaats als uw wachtwoorden is weliswaar handig, maar beperkt de accounts tot één factor in het geval dat een tegenstander toegang krijgt tot uw wachtwoord manager.
+    Het opslaan van jouw TOTP-tokens op dezelfde plaats als jouw wachtwoorden is weliswaar handig, maar beperkt de accounts tot één factor in het geval dat een tegenstander toegang krijgt tot jouw wachtwoord manager.
     
     Verder raden wij af om herstelcodes voor eenmalig gebruik op te slaan in uw wachtwoord manager. Deze moeten apart worden opgeslagen, zoals in een versleutelde container op een offline opslagapparaat.
 
 ### Back-ups
 
-U moet een [gecodeerde](../encryption.md) back-up van uw wachtwoorden opslaan op meerdere opslagapparaten of een cloud-opslagprovider. Dit kan nuttig zijn als er iets gebeurt met uw toestel of de dienst die u gebruikt.
+Je moet een [gecodeerde](../encryption.md) back-up van jouw wachtwoorden opslaan op meerdere opslagapparaten of een cloud-opslagprovider. Dit kan nuttig zijn als er iets gebeurt met jouw toestel of de dienst die je gebruikt.
+
+--8<-- "includes/abbreviations.nl.txt"

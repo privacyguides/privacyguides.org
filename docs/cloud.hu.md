@@ -63,3 +63,5 @@ A legjobb esetben alkalmazott kritériumaink azt fejezik ki, hogy mit szeretnén
     - Ezeknek a klienseknek integrálódniuk kell natív operációs rendszer eszközökkel, amik felhőtárhely szolgáltatóknak lettek létrehozva, például a Files alkalmazás integrációjával iOS-en, vagy a DocumentsProvider funkcióval Androidon.
 - Támogatnia kell az egyszerű fájlmegosztást más felhasználókkal.
 - Legalább alapvető fájlelőnézeti és szerkesztési funkciókat kell kínálnia a webes felületen.
+
+--8<-- "includes/abbreviations.hu.txt"

@@ -38,3 +38,5 @@ Projelerini veya yazılımlarını değerlendirmeye göndermek isteyen geliştir
 
 - Projelerinde tam tehdit modelinin ne olduğunu belirtmelidir.
     - Potansiyel kullanıcılar için projenin neleri sağlayabileceği ve neleri sağlayamayacağı açık olmalıdır.
+
+--8<-- "includes/abbreviations.tr.txt"

@@ -67,3 +67,5 @@ A naptárak a legérzékenyebb adataidat tartalmazzák; használj at rest E2EE-t
 A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy tökéletes projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 
 - Adott esetben integrálódnia kell az operációs rendszer natív naptár- és névjegykezelő alkalmazásaival.
+
+--8<-- "includes/abbreviations.hu.txt"

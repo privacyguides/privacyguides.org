@@ -1,29 +1,29 @@
 ---
-title: "Vue d'Ensemble de Tor"
+title: "Présentation de Tor"
 icon: 'simple/torproject'
 ---
 
 Tor est un réseau décentralisé, gratuit, conçu pour utiliser Internet avec le plus de confidentialité possible. S'il est utilisé correctement, le réseau permet une navigation et des communications privées et anonymes.
 
-## Construction d'un Chemin
+## Construction d'un chemin
 
 Tor fonctionne en acheminant votre trafic à travers un réseau composé de milliers de serveurs gérés par des volontaires, appelés nœuds (ou relais).
 
 Chaque fois que vous vous connectez à Tor, il choisira trois nœuds pour construire un chemin vers Internet - ce chemin est appelé un "circuit". Chacun de ces nœuds a sa propre fonction:
 
-### Le Nœud d'Entrée
+### Le nœud d'entrée
 
 Le noeud d'entrée, souvent appelé le noeud de garde, est le premier noeud auquel votre client Tor se connecte. Le nœud d'entrée est capable de voir votre adresse IP, mais il est incapable de voir à quoi vous vous connectez.
 
 Contrairement aux autres nœuds, le client Tor choisira aléatoirement un nœud d'entrée et restera avec lui pendant deux à trois mois pour vous protéger de certaines attaques.[^1]
 
-### Le Nœud Central
+### Le nœud central
 
 Le noeud central est le second noeud auquel votre client Tor se connecte. Il peut voir de quel nœud provient le trafic - le nœud d'entrée - et vers quel nœud il se dirige ensuite. Le nœud central ne peut pas voir votre adresse IP ou le domaine auquel vous vous connectez.
 
 Pour chaque nouveau circuit, le nœud central est choisi au hasard parmi tous les nœuds Tor disponibles.
 
-### Le Nœud de Sortie
+### Le nœud de sortie
 
 Le nœud de sortie est le point où votre trafic web quitte le réseau Tor et est transféré vers la destination souhaitée. Le nœud de sortie ne peut pas voir votre adresse IP, mais il sait à quel site il se connecte.
 
@@ -68,11 +68,13 @@ Si vous souhaitez utiliser Tor pour naviguer sur le web, nous ne recommandons qu
 
 - [Navigateur Tor :material-arrow-right-drop-circle:](../tor.md#tor-browser)
 
-## Ressources Supplémentaires
+## Ressources supplémentaires
 
-- [Manuel d'Utilisation du Navigateur Tor](https://tb-manual.torproject.org)
-- [Comment Tor Fonctionne - Computerphile](https://www.youtube-nocookie.com/embed/QRYzre4bf7I) <small>(YouTube)</small>
-- [Services Onion Tor - Computerphile](https://www.youtube-nocookie.com/embed/lVcbq_a5N9I) <small>(YouTube)</small>
+- [Manuel d'utilisation du navigateur Tor](https://tb-manual.torproject.org)
+- [Comment Tor fonctionne - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
+- [Services onion Tor - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
+
+--8<-- "includes/abbreviations.fr.txt"
 
 [^1]: Le premier relais de votre circuit est appelé "garde d'entrée" ou "garde". Il s'agit d'un relais rapide et stable qui reste le premier de votre circuit pendant 2 à 3 mois afin de vous protéger contre une attaque connue de rupture d'anonymat. Le reste de votre circuit change avec chaque nouveau site web que vous visitez, et tous ensemble ces relais fournissent les protections complètes de Tor en matière de vie privée. Pour en savoir plus sur le fonctionnement des relais de garde, consultez cet [article de blog](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) et ce [document](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) sur les gardes d'entrée. ([https://support.torproject.org/fr/tbb/tbb-2/](https://support.torproject.org/fr/tbb/tbb-2/))
 

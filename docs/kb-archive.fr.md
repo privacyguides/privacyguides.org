@@ -14,3 +14,5 @@ Certaines pages qui se trouvaient auparavant dans notre base de connaissances pe
 - [Effacement sécurisé des données](https://blog.privacyguides.org/2022/05/25/secure-data-erasure/)
 - [Intégration de la suppression des métadonnées](https://blog.privacyguides.org/2022/04/09/integrating-metadata-removal/)
 - [Guide de configuration iOS](https://blog.privacyguides.org/2022/10/22/ios-configuration-guide/)
+
+--8<-- "includes/abbreviations.fr.txt"

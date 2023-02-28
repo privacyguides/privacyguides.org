@@ -14,3 +14,5 @@ Néhány oldal, amely korábban a tudásbázisunkban volt, most a blogunkon tal�
 - [Biztonságos Adattörlés](https://blog.privacyguides.org/2022/05/25/secure-data-erasure/)
 - [Metaadatok Eltávolításának Integrálása](https://blog.privacyguides.org/2022/04/09/integrating-metadata-removal/)
 - [iOS Konfigurációs Útmutató](https://blog.privacyguides.org/2022/10/22/ios-configuration-guide/)
+
+--8<-- "includes/abbreviations.hu.txt"

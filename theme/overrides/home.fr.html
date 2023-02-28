@@ -1,7 +1,7 @@
-{% extends "base.html" %}
+{% extends "main.html" %}
 {% block extrahead %}
-  <link rel="preload" href="{{ 'assets/brand/WOFF/bagnard/Bagnard.woff' | url }}" as="font" type="font/woff" crossorigin>
-  <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=2.10.0' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=3.3.0' | url }}">
+  {{ super() }}
 {% endblock %}
 {% block tabs %}
   {{ super() }}
@@ -11,11 +11,11 @@
       <div class="mdx-hero">
         <div class="mdx-hero__content">
           <h1>Le guide pour restaurer votre vie privée en ligne.</h1>
-          <p>Des organisations massives surveillent vos activités en ligne. Privacy Guides est votre ressource centrale en matière de confidentialité et de sécurité pour vous protéger en ligne.</p>
-          <a href="kb/" title="La première étape de votre voyage vers la protection de la vie privée" class="md-button md-button--primary">
-            Commencez le parcours pour la protection de votre vie privée
+          <p>Des organisations massives surveillent vos activités en ligne. Privacy Guides est votre ressource centrale en matière de vie privée et de sécurité pour vous protéger en ligne.</p>
+          <a href="kb/" title="La première étape de votre voyage vers la vie privée" class="md-button md-button--primary">
+            Commencez votre voyage vers la vie privée
           </a>
-          <a href="tools/" title="Outils, services et connaissances recommandés en matière de protection de la vie privée" class="md-button">
+          <a href="tools/" title="Outils, services et connaissances recommandés en matière de vie privée" class="md-button">
             Outils recommandés
           </a>
         </div>

@@ -152,3 +152,5 @@ A legjobb esetben alkalmazott kritériumaink azt fejezik ki, hogy mit szeretnén
     [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Publikus Példányok"}
     [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Dokumentáció}
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Forráskód" }
+
+--8<-- "includes/abbreviations.hu.txt"

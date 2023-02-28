@@ -48,3 +48,5 @@ A weboldalra érkező forgalom több száz gigabájtnyi adatot használ havonta,
 Alkalmanként vásárolunk termékeket és szolgáltatásokat az [ajánlott eszközeink](../tools.md) tesztelése céljából.
 
 Még mindig dolgozunk a pénzügyi házigazdánkkal (az Open Collective Foundation-nel), hogy fogadni tudjunk kriptovaluta adományokat, jelenleg a könyvelés sok kisebb tranzakció esetében kivitelezhetetlen, de ez a jövőben valószínűleg változni fog. Addig is, ha szeretnél egy nagyobb összegű (> $100) kriptovaluta adományt tenni, kérjük, írj a [jonah@privacyguides.org](mailto:jonah@privacyguides.org) címre.
+
+--8<-- "includes/abbreviations.hu.txt"

@@ -439,3 +439,5 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 </div>
 
 [További információ :material-arrow-right-drop-circle:](video-streaming.md)
+
+--8<-- "includes/abbreviations.hu.txt"

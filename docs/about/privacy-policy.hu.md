@@ -59,3 +59,5 @@ GDPR alá eső általános panaszok esetében a helyi adatvédelmi felügyeleti 
 A nyilatkozat bármely új verzióját [itt fogjuk közzétenni](privacy-policy.md). Előfordulhat, hogy a dokumentum jövőbeli verzióinál megváltoztatjuk a változások bejelentésének módját. Időközben bármikor frissíthetjük elérhetőségeinket anélkül, hogy a változást bejelentenénk. A legfrissebb elérhetőségekért kérjük, hivatkozz bármikor az [Adatvédelmi tájékoztatóra](privacy-policy.md).
 
 Az oldal teljes [előzménye](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) a GitHub-on található meg.
+
+--8<-- "includes/abbreviations.hu.txt"

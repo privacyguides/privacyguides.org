@@ -1,5 +1,5 @@
 ---
-title: "אימות רב-שלבי"
+title: "אימות מרובה גורמים"
 icon: 'material/two-factor-authentication'
 ---
 

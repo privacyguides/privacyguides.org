@@ -41,3 +41,5 @@ Aşağıdakiler de dahil olmak üzere, bu web sitesinde veya bu web sitesine gö
 * Kazıma (Scraping)
 * Veri Madenciliği (Data Mining)
 * Çerçeveleme (Framing, IFrames)
+
+--8<-- "includes/abbreviations.tr.txt"

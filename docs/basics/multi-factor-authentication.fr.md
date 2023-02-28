@@ -1,5 +1,5 @@
 ---
-title: "Authentification Multi-Facteurs"
+title: "Authentification multi-facteurs"
 icon: 'material/two-factor-authentication'
 ---
 

@@ -140,6 +140,8 @@ Mensen die bezorgd zijn over de dreiging van censuur kunnen technologieën als [
 
 Je moet altijd rekening houden met de risico 's van het proberen om censuur te omzeilen, de mogelijke gevolgen en hoe geavanceerd je tegenstander kan zijn. Je moet voorzichtig zijn met jouw software selectie, en een back-up plan hebben voor het geval je betrapt wordt.
 
+--8<-- "includes/abbreviations.nl.txt"
+
 [^1]: United States Privacy and Civil Liberties Oversight Board: [Rapport over het telefoongegevens programma, uitgevoerd onder Section 215](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^2]: Wikipedia: [Surveillance kapitalisme](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 [^3]: Wikipedia: [*Surveillancekapitalisme*](https://en.wikipedia.org/wiki/Surveillance_capitalism)

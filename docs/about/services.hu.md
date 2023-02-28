@@ -29,3 +29,12 @@ Számos webes szolgáltatást futtatunk, hogy teszteljünk funkciókat és néps
 - Domain: [search.privacyguides.net](https://search.privacyguides.net)
 - Elérhetőség: Nyilvános
 - Forrás: [github.com/searxng/searxng-docker](https://github.com/searxng/searxng-docker)
+
+## Invidious
+
+- Domain: [invidious.privacyguides.net](https://invidious.privacyguides.net)
+- Elérhetőség: Félig Nyilvános  
+  Az Invidioust elsősorban beágyazott YouTube-videók szolgáltatásához üzemeltetjük a webhelyünkön, ez az instance általános célú használatra nem szolgál, és bármikor korlátozható.
+- Forrás: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)
+
+--8<-- "includes/abbreviations.hu.txt"

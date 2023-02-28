@@ -1,9 +1,9 @@
 ---
-title: "מאמתים רב - שלבים"
+title: "מאמתים מרובי גורמים"
 icon: 'material/two-factor-authentication'
 ---
 
-## מפתחות אבטחה לחומרה
+## מפתחות אבטחה של חומרה
 
 ### YubiKey
 

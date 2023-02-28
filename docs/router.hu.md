@@ -44,3 +44,5 @@ Az OPNsense eredetileg a [pfSense](https://en.wikipedia.org/wiki/PfSense) forkja
 - Nyílt forráskódúnak kell lennie.
 - Rendszeres frissítéseket kell kapnia.
 - Sokféle hardvert kell támogatnia.
+
+--8<-- "includes/abbreviations.hu.txt"

@@ -59,3 +59,5 @@ title: Forgalom Statisztikák
         })
     })
 </script>
+
+--8<-- "includes/abbreviations.hu.txt"
