@@ -151,3 +151,28 @@ In general, we define office suites as applications which could reasonably act a
     [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Public Instances"}
     [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
+
+## Language services
+
+### LanguageTool
+
+!!! recommendation
+
+    ![LanguageTool logo](assets/img/productivity/languagetool.svg){ align=right }
+
+    **LanguageTool** is a multilingual grammar, style and spell checker that supports more than 20 languages. The software is [self-hostable](https://dev.languagetool.org/http-server), and the extensions do not send your input text to their server.
+
+     LanguageTool works with a variety of office suites, Google Documents, Word, OpenOffice and Libreoffice. It also has integration into Gmail, Outlook, Apple Mail and Thunderbird.
+
+    [:octicons-home-16: Homepage](https://languagetool.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://languagetool.org/dev){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Source Code" }
+
+    ??? downloads
+
+        - [:simple-windows11: Windows](https://languagetool.org/windows-desktop)
+        - [:simple-apple: macOS](https://languagetool.org/mac-desktop)
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/languagetool/)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/grammar-and-spell-checker/oldceeleldhonbafppcapldpdifcinji)
+        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/hfjadhjooeceemgojogkhlppanjkbobc)
+        - [:simple-safari: Safari](https://apps.apple.com/app/id1534275760)
