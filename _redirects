@@ -1,0 +1,61 @@
+/  /en/  302  Language=en
+/  /fr/  302  Language=fr
+/  /he/  302  Language=he
+/  /nl/  302  Language=nl
+/  /en/  302
+
+/sitemap.xml /en/sitemap.xml
+/CODE_OF_CONDUCT/ /en/CODE_OF_CONDUCT/
+/android/ /en/android/
+/calendar/ /en/calendar/
+/cloud/ /en/cloud/
+/data-redaction/ /en/data-redaction/
+/desktop-browsers/ /en/desktop-browsers/
+/desktop/ /en/desktop/
+/dns/ /en/dns/
+/email-clients/ /en/email-clients/
+/email/ /en/email/
+/encryption/ /en/encryption/
+/file-sharing/ /en/file-sharing/
+/frontends/ /en/frontends/
+/kb-archive/ /en/kb-archive/
+/mobile-browsers/ /en/mobile-browsers/
+/multi-factor-authentication/ /en/multi-factor-authentication/
+/news-aggregators/ /en/news-aggregators/
+/notebooks/ /en/notebooks/
+/passwords/ /en/passwords/
+/productivity/ /en/productivity/
+/real-time-communication/ /en/real-time-communication/
+/router/ /en/router/
+/search-engines/ /en/search-engines/
+/tools/ /en/tools/
+/tor/ /en/tor/
+/video-streaming/ /en/video-streaming/
+/vpn/ /en/vpn/
+/about/criteria/ /en/about/criteria/
+/about/donate/ /en/about/donate/
+/about/ /en/about/
+/about/notices/ /en/about/notices/
+/about/privacy-policy/ /en/about/privacy-policy/
+/about/privacytools/ /en/about/privacytools/
+/about/services/ /en/about/services/
+/about/statistics/ /en/about/statistics/
+/advanced/communication-network-types/ /en/advanced/communication-network-types/
+/advanced/dns-overview/ /en/advanced/dns-overview/
+/advanced/tor-overview/ /en/advanced/tor-overview/
+/basics/account-creation/ /en/basics/account-creation/
+/basics/account-deletion/ /en/basics/account-deletion/
+/basics/common-misconceptions/ /en/basics/common-misconceptions/
+/basics/common-threats/ /en/basics/common-threats/
+/basics/email-security/ /en/basics/email-security/
+/basics/multi-factor-authentication/ /en/basics/multi-factor-authentication/
+/basics/passwords-overview/ /en/basics/passwords-overview/
+/basics/threat-modeling/ /en/basics/threat-modeling/
+/basics/vpn-overview/ /en/basics/vpn-overview/
+/meta/brand/ /en/meta/brand/
+/meta/git-recommendations/ /en/meta/git-recommendations/
+/meta/uploading-images/ /en/meta/uploading-images/
+/meta/writing-style/ /en/meta/writing-style/
+/os/android-overview/ /en/os/android-overview/
+/os/linux-overview/ /en/os/linux-overview/
+/os/qubes-overview/ /en/os/qubes-overview/

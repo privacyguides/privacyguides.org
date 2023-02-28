@@ -1,6 +1,0 @@
-{% import "partials/languages/" ~ config.theme.language ~ ".html" as lang %}
-{% import "partials/languages/en.html" as fallback %}
-{% import "overrides/strings." ~ config.theme.language ~ ".html" as customlang with context %}
-{% import "overrides/strings.en.html" as customfallback %}
-
-{% macro t(key) %}{{ lang.t(key) or fallback.t(key) or customlang.t(key) or customfallback.t(key) or key }}{% endmacro %}

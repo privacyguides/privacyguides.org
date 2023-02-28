@@ -28,6 +28,9 @@
   <a href="https://github.com/privacyguides/privacyguides.org/pulls?q=is%3Apr+is%3Aclosed">
     <img src="https://img.shields.io/github/issues-pr-closed-raw/privacyguides/privacyguides.org">
   </a>
+  <a href="https://crowdin.com/project/privacyguides">
+    <img src="https://badges.crowdin.net/privacyguides/localized.svg">
+  </a>
   <a href="https://opencollective.com/privacyguides">
     <img src="https://img.shields.io/opencollective/all/privacyguides">
   </a></p>
@@ -60,19 +63,7 @@ Our current list of team members can be found [here](https://www.privacyguides.o
 
 Committing to this repository requires [signing your commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) (`git config commit.gpgsign true`) unless you are making edits via the GitHub.com text editor interface. As of August 2022 the preferred signing method is [SSH commit signatures](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification), but GPG signing is also acceptable. You should add your signing key to your GitHub profile.
 
-This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdocs-material/insiders/) which offers additional functionality over the open-source `mkdocs-material` project. For obvious reasons we cannot distribute access to the insiders repository. You can install the website locally with the open-source version of `mkdocs-material`:
-
-1. Clone this repository:
-    - `git clone https://github.com/privacyguides/privacyguides.org.git` (then `cd privacyguides.org`)
-    - `git submodule init`
-    - `git submodule update docs/assets/brand`
-    - `git config gpg.ssh.allowedSignersFile .allowed_signers`
-2. Install [Python 3.6+](https://www.python.org/downloads/) (currently only tested with 3.10)
-3. Install [dependencies](/Pipfile): `pip install mkdocs mkdocs-material mkdocs-static-i18n mkdocs-macros-plugin typing-extensions`
-4. Serve the site locally: `mkdocs serve`
-    - The site will be available at `http://localhost:8000`
-    - You can build the site locally with `mkdocs build`
-    - Your local version of the site may be missing functionality, which is expected. If you are submitting a PR, please ensure the automatic preview generated for your PR looks correct, as that site will be built with the production insiders build.
+This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdocs-material/insiders/) which offers additional functionality over the open-source `mkdocs-material` project. For obvious reasons we cannot distribute access to the insiders repository. Running this website locally without access to insiders is unsupported. If you are submitting a PR, please ensure the automatic preview generated for your PR looks correct, as that site will be built with the production insiders build.
 
 **Team members** should clone the repository with `mkdocs-material-insiders` directly. This method is identical to production:
 
@@ -81,9 +72,9 @@ This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdoc
 3. Install Python **3.10**
 4. Install **pipenv**: `pip install pipenv`
 5. Install dependencies: `pipenv install --dev` (install [Pillow and CairoSVG](https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/#dependencies) as well to generate social cards)
-6. Serve the site locally: `pipenv run mkdocs serve --config-file mkdocs.production.yml` (set `CARDS=true` to generate social cards)
+6. Serve the site locally: `pipenv run mkdocs serve --config-file config/mkdocs.en.yml` (set `CARDS=true` to generate social cards)
     - The site will be available at `http://localhost:8000`
-    - You can build the site locally with `pipenv run mkdocs build`
+    - You can build the site locally with `pipenv run mkdocs build --config-file config/mkdocs.en.yml`
     - This version of the site should be identical to the live, production version
 
 If you commit to `main` with commits signed with your SSH key, you should add your SSH key to [`.allowed_signers`](/.allowed_signers) in this repo.

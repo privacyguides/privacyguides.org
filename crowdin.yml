@@ -2,11 +2,9 @@ api_token_env: CROWDIN_PERSONAL_TOKEN
 project_id: "509862"
 "preserve_hierarchy": true
 files:
-- source: "/docs/**/*.en.*"
-  translation: "/docs/**/%file_name%.%two_letters_code%.%file_extension%"
-  translation_replace:
-    "en.": ""
-  skip_untranslated_files: true
+- source: "/docs/**/*.*"
+  translation: "/i18n/%two_letters_code%/**/%file_name%.%file_extension%"
+  skip_untranslated_files: false
 - source: "/theme/overrides/*.en.html"
   translation: "/theme/overrides/%file_name%.%two_letters_code%.html"
   translation_replace:
@@ -17,3 +15,7 @@ files:
   translation_replace:
     "en.": ""
   skip_untranslated_files: true
+- source: "/mkdocs.en.yml"
+  translation: "/mkdocs.%two_letters_code%.yml"
+  translation_replace:
+    "en.": ""
