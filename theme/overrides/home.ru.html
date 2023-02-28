@@ -1,7 +1,7 @@
-{% extends "base.html" %}
+{% extends "main.html" %}
 {% block extrahead %}
-  <link rel="preload" href="{{ 'assets/brand/WOFF/bagnard/Bagnard.woff' | url }}" as="font" type="font/woff" crossorigin>
-  <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=2.10.0' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=3.3.0' | url }}">
+  {{ super() }}
 {% endblock %}
 {% block tabs %}
   {{ super() }}
@@ -12,7 +12,7 @@
         <div class="mdx-hero__content">
           <h1>Руководство по возвращению вашей приватности в интернете.</h1>
           <p>Огромные организации следят за вашей деятельностью в Интернете. Privacy Guides - это ваш главный ресурс по конфиденциальности и безопасности для защиты себя в Интернете.</p>
-          <a href="kb/" title="Первый шаг на вашемм пути к приватности" class="md-button md-button--primary">
+          <a href="kb/" title="Первый шаг на вашем пути к приватности" class="md-button md-button--primary">
             Начните свой путь к приватности
           </a>
           <a href="tools/" title="Рекомендуемые инструменты, услуги и знания для приватности" class="md-button">

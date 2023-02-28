@@ -1,0 +1,25 @@
+{% extends "main.html" %}
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=3.3.0' | url }}">
+  {{ super() }}
+{% endblock %}
+{% block tabs %}
+  {{ super() }}
+  <style>.md-content > .md-typeset h1{visibility:hidden;font-size:0;}.md-button{margin-top:.5rem;}</style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__content">
+          <h1>Керівництво з відновлення вашої приватності в мережі.</h1>
+          <p>Великі організації стежать за вашою діяльністю в Інтернеті. Privacy Guides - ваш головний ресурс для захисту конфіденційності та безпеки в Інтернеті.</p>
+          <a href="kb/" title="The first step of your privacy journey" class="md-button md-button--primary">
+            Start Your Privacy Journey
+          </a>
+          <a href="tools/" title="Рекомендовані інструменти, послуги та знання для забезпечення приватності" class="md-button">
+            Рекомендовані інструменти
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "main.html" %}
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=3.3.0' | url }}">
+  {{ super() }}
+{% endblock %}
+{% block tabs %}
+  {{ super() }}
+  <style>.md-content > .md-typeset h1{visibility:hidden;font-size:0;}.md-button{margin-top:.5rem;}</style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__content">
+          <h1>راهنمای بازگرداندن حریم خصوصی شما.</h1>
+          <p>سازمانهای بزرگ فعالیتهای اینترنتی شما را رصد می‌کنند. وبسایت Privacy Guides منبع اصلی حریم خصوصی و امنیت شما برای محافظت از خودتان در اینترنت است.</p>
+          <a href="kb/" title="The first step of your privacy journey" class="md-button md-button--primary">
+            Start Your Privacy Journey
+          </a>
+          <a href="tools/" title="ابزار، خدمات و دانش حفظ حریم خصوصی توصیه شده" class="md-button">
+            ابزارهای پیشنهادی
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
