@@ -59,3 +59,5 @@ Aunque puedas eliminar una cuenta, no hay garantía de que toda tu información 
 ## Evitar cuentas nuevas
 
 Como dice el refrán, "más vale prevenir que lamentar" Siempre que sientas la tentación de crear una nueva cuenta, pregúntate "¿realmente lo necesito? ¿Puedo lograr lo que necesito sin una cuenta?" A menudo puede ser mucho más difícil eliminar una cuenta que crearla. E incluso después de borrar o cambiar la información de tu cuenta, puede haber una versión en caché de un tercero, como en el [Internet Archive](https://archive.org/). Evita la tentación cuando puedas, ¡tu futuro yo te lo agradecerá!
+
+--8<-- "includes/abbreviations.es.txt"

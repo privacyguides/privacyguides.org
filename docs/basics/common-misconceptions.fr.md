@@ -56,4 +56,6 @@ Les modèles de menace les plus clairs sont ceux où les gens *savent qui vous �
 
     L'utilisation de Tor peut y contribuer. Il convient également de noter qu'un plus grand anonymat est possible grâce à la communication asynchrone : La communication en temps réel est vulnérable à l'analyse des habitudes de frappe (c'est-à-dire plus d'un paragraphe de texte, diffusé sur un forum, par e-mail, etc.)
 
+--8<-- "includes/abbreviations.fr.txt"
+
 [^1]: Un exemple notable est l'[incident de 2021 dans lequel des chercheurs de l'Université du Minnesota ont introduit trois vulnérabilités dans le projet de développement du noyau Linux](https://cse.umn.edu/cs/linux-incident).

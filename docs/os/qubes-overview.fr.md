@@ -52,3 +52,5 @@ Pour de plus amples informations, nous vous encourageons à consulter les pages 
 - J. Rutkowska : [*Compartimentage logiciel vs. séparation physique*](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf)
 - J. Rutkowska : [*Partitionnement de ma vie numérique en domaines de sécurité*](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html)
 - Qubes OS : [*Articles connexes*](https://www.qubes-os.org/news/categories/#articles)
+
+--8<-- "includes/abbreviations.fr.txt"

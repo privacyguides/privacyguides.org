@@ -142,3 +142,5 @@ icon: material/tag-remove
 
 - 为开源操作系统开发的应用程序必须是开源的。
 - 应用程序必须是免费的，不应包括广告或其他限制。
+
+--8<-- "includes/abbreviations.zh.txt"

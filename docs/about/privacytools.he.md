@@ -116,3 +116,5 @@ Subreddits אינם שייכים לאף אחד, והם במיוחד לא שיי�
 - [2 באפריל 2022 תגובה מאת u/dng99 לפוסט ההאשמות של PrivacyTools](https://www.reddit.com/comments/tuo7mm/comment/i35kw5a/)
 - [16 במאי 2022 מענה @TommyTran732 בטוויטר](https://twitter.com/TommyTran732/status/1526153497984618496)
 - [ספטמבר 3, 2022 פוסט על הפורום של Techlore על ידי @dngray](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
+
+--8<-- "includes/abbreviations.he.txt"

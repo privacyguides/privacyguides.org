@@ -257,4 +257,6 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
 - Ne doit pas dupliquer une fonctionnalité intégrée dans le navigateur ou dans le système d'exploitation.
 - Doit avoir un impact direct sur la vie privée des utilisateurs, c'est-à-dire qu'il ne doit pas simplement fournir des informations.
 
+--8<-- "includes/abbreviations.fr.txt"
+
 [^1]: L'implémentation de Brave est détaillée dans [Mises à jour de la confidentialité de Brave : Partitionnement de l'état du réseau pour la confidentialité](https://brave.com/privacy-updates/14-partitioning-network-state/).

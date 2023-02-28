@@ -74,3 +74,5 @@ Voor dit soort situaties, of als je een andere dwingende reden hebt, zijn de VPN
 - [Gratis VPN-app onderzoek](https://www.top10vpn.com/free-vpn-app-investigation/)
 - [Verborgen VPN-eigenaars onthuld: 101 VPN-producten van slechts 23 bedrijven](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
 - [Dit Chinese bedrijf zit in het geheim achter 24 populaire apps die gevaarlijke toestemmingen zoeken](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
+
+--8<-- "includes/abbreviations.nl.txt"

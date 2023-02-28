@@ -116,3 +116,5 @@ Ce sujet a fait l'objet de nombreuses discussions au sein de nos communautés à
 - [2 avr 2022 réponse de u/dng99 à l'article de blog accusatoire de PrivacyTools](https://www.reddit.com/comments/tuo7mm/comment/i35kw5a/)
 - [16 mai 2022 réponse de @TommyTran732 sur Twitter](https://twitter.com/TommyTran732/status/1526153497984618496)
 - [Sep 3, 2022 post sur le forum de Techlore par @dngray](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
+
+--8<-- "includes/abbreviations.fr.txt"

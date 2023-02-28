@@ -59,3 +59,5 @@ Même lorsque vous êtes en mesure de supprimer un compte, il n'y a aucune garan
 ## Éviter la création de nouveaux comptes
 
 Comme le dit le vieil adage, "Mieux vaut prévenir que guérir". Chaque fois que vous êtes tenté de vous inscrire à un nouveau service ou site web, demandez-vous : "En ai-je vraiment besoin ? Puis-je accomplir ce dont j'ai besoin sans compte ?" Il est souvent beaucoup plus difficile de supprimer un compte que d'en créer un. Et même après avoir supprimé ou modifié les informations sur votre compte, il se peut qu'il existe une version en cache provenant d'un tiers, comme [Internet Archive](https://archive.org/). Évitez la tentation quand vous le pouvez - votre futur vous en remerciera !
+
+--8<-- "includes/abbreviations.fr.txt"

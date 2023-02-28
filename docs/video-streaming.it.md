@@ -48,3 +48,5 @@ Raccomandiamo di **non sincronizzare** il portafoglio con LBRY Inc. poiché la s
 
 - Non deve richiedere un account centralizzato per visualizzare i video.
     - L'autenticazione decentralizzata, ad esempio tramite la chiave privata di un wallet mobile, è accettabile.
+
+--8<-- "includes/abbreviations.it.txt"

@@ -67,3 +67,5 @@ Kalenders en contactpersonen bevatten enkele van jouw gevoeligste gegevens; gebr
 Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte project in deze categorie. Het is mogelijk dat onze aanbevelingen geen of niet alle functies bevatten, maar degene die dat wel doen kunnen hoger gerangschikt worden dan andere op deze pagina.
 
 - Moet integreren met native OS agenda en contact management apps indien van toepassing.
+
+--8<-- "includes/abbreviations.nl.txt"

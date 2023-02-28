@@ -78,3 +78,5 @@ In molti casi dovrai fornire un numero da cui puoi ricevere SMS o chiamate, in p
 ### Nome utente e password
 
 Alcuni servizi ti consentono di registrarti senza utilizzare un indirizzo email e richiedono solo d'impostare un nome utente e una password. Questi servizi possono fornire un maggiore anonimato se combinati con una VPN o Tor. Tieni presente che per questi account molto probabilmente non ci sarà **nessun modo per recuperare il tuo account** nel caso in cui dimentichi il tuo nome utente o password.
+
+--8<-- "includes/abbreviations.it.txt"

@@ -259,4 +259,6 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
 - Mag geen ingebouwde browser- of OS-functionaliteit repliceren.
 - Moet rechtstreeks van invloed zijn op de privacy van de gebruiker, d.w.z. mag niet gewoon informatie verstrekken.
 
+--8<-- "includes/abbreviations.nl.txt"
+
 [^1]: De implementatie van Brave wordt gedetailleerd beschreven op [Brave Privacy Updates: Partitionering van netwerkstatus voor privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).

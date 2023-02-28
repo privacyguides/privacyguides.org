@@ -189,3 +189,5 @@ Extra filterlijsten vertragen de zaken en kunnen uw aanvalsoppervlak vergroten, 
 
 - Mag geen ingebouwde browser- of OS-functionaliteit repliceren.
 - Moet rechtstreeks van invloed zijn op de privacy van de gebruiker, d.w.z. mag niet gewoon informatie verstrekken.
+
+--8<-- "includes/abbreviations.nl.txt"

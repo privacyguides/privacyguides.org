@@ -152,3 +152,5 @@ In het algemeen definiëren wij kantoorsuites als toepassingen die voor de meest
     [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Public Instances"}
     [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Broncode" }
+
+--8<-- "includes/abbreviations.nl.txt"

@@ -52,3 +52,5 @@ Qubes משתמשת ב[מידור](https://www.qubes-os.org/intro/) כדי לשמ
 - J. Rutkowska: [*מידור תוכנה לעומת הפרדה פיזית*](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf)
 - J. Rutkowska: [*חלוקת החיים הדיגיטליים שלי לתחומי אבטחה*](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html)
 - Qubes OS: [*מאמרים קשורים*](https://www.qubes-os.org/news/categories/#articles)
+
+--8<-- "includes/abbreviations.he.txt"

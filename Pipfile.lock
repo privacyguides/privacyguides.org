@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e58ad55b2281815cbad8bd08738bc446b516cd8a1892d8d6df9e27dc709e4b76"
+            "sha256": "3251704fe45b16f392981a95dfd37ca5469eba97c7916e972c948cd27c59a5df"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -215,7 +215,6 @@
                 "sha256:f9d0c5c045a3ca9bedfc35dca8526798eb91a07aa7a2c0fee134c6c6f321cbd7",
                 "sha256:ff6f3db31555657f3163b15a6b7c6938d08df7adbfc9dd13d9d19edad678f1e8"
             ],
-            "markers": "python_version >= '3.6'",
             "version": "==3.0.1"
         },
         "click": {
@@ -501,7 +500,7 @@
             "version": "==0.7.0"
         },
         "mkdocs-material": {
-            "path": "./mkdocs-material",
+            "path": "./modules/mkdocs-material",
             "version": "==9.0.15+insiders.4.32.1"
         },
         "mkdocs-material-extensions": {
@@ -513,10 +512,7 @@
             "version": "==1.1.1"
         },
         "mkdocs-static-i18n": {
-            "hashes": [
-                "sha256:eccd819e727bc91bb58cc7c34230266f9e475abfbc11ace1e4c1f262969e2c2e"
-            ],
-            "index": "pypi",
+            "path": "./modules/mkdocs-static-i18n",
             "version": "==0.53"
         },
         "packaging": {
@@ -667,7 +663,6 @@
                 "sha256:01a0681c4b9684a28304615eba55d1ab31ae00bf68ec157ec3708a8182dbbcd0",
                 "sha256:78f4f37d8198e0627c5f1143240bb0206b8691d8d7ac6d78fee88b78733f8c4a"
             ],
-            "markers": "python_version < '3.9'",
             "version": "==2022.7.1"
         },
         "pyyaml": {

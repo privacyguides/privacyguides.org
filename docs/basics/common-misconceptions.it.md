@@ -56,4 +56,6 @@ Uno dei modelli di minaccia più chiari è quello in cui le persone *sanno chi s
 
     L'uso di Tor può aiutare in questo caso. Vale anche la pena di notare che un maggiore anonimato è possibile attraverso la comunicazione asincrona: la comunicazione in tempo reale è vulnerabile all'analisi dei modelli di digitazione (ad esempio, più di un paragrafo di testo, distribuito su un forum, via e-mail, ecc.)
 
+--8<-- "includes/abbreviations.it.txt"
+
 [^1]: Un esempio notevole è [l'incidente del 2021 in cui i ricercatori dell'Università del Minnesota hanno introdotto tre vulnerabilità nel progetto di sviluppo del kernel Linux](https://cse.umn.edu/cs/linux-incident).

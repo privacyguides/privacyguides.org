@@ -59,3 +59,5 @@ Zelfs wanneer je een account kunt verwijderen, is er geen garantie dat al jouw i
 ## Vermijd nieuwe accounts
 
 Zoals het oude gezegde luidt: "Voorkomen is beter dan genezen." Telkens wanneer je in de verleiding komt om een nieuwe account aan te maken, vraag jezelf dan af: "Heb ik dit echt nodig? Kan ik doen wat ik moet doen zonder een account?" Het kan vaak veel moeilijker zijn om een account te verwijderen dan om er een aan te maken. En zelfs na het verwijderen of wijzigen van de info op jouw account, kan er een cache-versie van een derde partij zijn, zoals het [Internet Archive](https://archive.org/). Vermijd de verleiding als je kunt. Je toekomstige ik zal je dankbaar zijn!
+
+--8<-- "includes/abbreviations.nl.txt"

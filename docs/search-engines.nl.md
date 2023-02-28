@@ -105,3 +105,5 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
 
 - Moet gebaseerd zijn op open-source software.
 - Mag geen Tor exit node IP adressen blokkeren.
+
+--8<-- "includes/abbreviations.nl.txt"

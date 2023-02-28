@@ -61,6 +61,9 @@ plugins:
       bn:
         name: bn
         build: false
+      de:
+        name: de
+        build: false
       es:
         name: es
         build: false
@@ -73,6 +76,9 @@ plugins:
       hu:
         name: hu
         build: false
+      id:
+        name: id
+        build: false
       it:
         name: it
         build: false
@@ -81,6 +87,9 @@ plugins:
         build: true
       pt:
         name: pt
+        build: false
+      pt-BR:
+        name: pt-brazil
         build: false
       ru:
         name: ru
@@ -92,7 +101,10 @@ plugins:
         name: uk
         build: false
       zh:
-        name: zh
+        name: zh-simplified
+        build: false
+      zh-Hant:
+        name: zh-traditional
         build: false
     nav_translations:
       he:

@@ -303,3 +303,5 @@ La [Subred de Cliente EDNS](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) es
 Su objetivo es "acelerar" la entrega de datos dando al cliente una respuesta que pertenece a un servidor que está cerca de él, como una [red de distribución de contenidos](https://es.wikipedia.org/wiki/Red_de_distribuci%C3%B3n_de_contenidos), que se utilizan a menudo en la transmisión de vídeo y el servicio de aplicaciones web de JavaScript.
 
 Esta característica tiene un coste de privacidad, ya que indica al servidor DNS cierta información sobre la ubicación del cliente.
+
+--8<-- "includes/abbreviations.es.txt"

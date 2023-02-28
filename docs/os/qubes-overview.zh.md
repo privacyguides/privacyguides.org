@@ -43,6 +43,7 @@ Qubes操作系统利用 [Dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM（�
 ### 虚拟机之间的相互作用
 
 [qrexec框架](https://www.qubes-os.org/doc/qrexec/) 是Qubes的一个核心部分，它允许虚拟机在域之间通信。 它建立在Xen库 *vchan*的基础上，通过策略</a>，促进了
+
 隔离。</p> 
 
 
@@ -55,3 +56,5 @@ Qubes操作系统利用 [Dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM（�
 - J. 鲁特科夫斯卡。 [*软件区隔与物理分离*](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf)
 - J. 鲁特科夫斯卡。 [*将我的数字生活划分为安全领域*](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html)
 - Qubes OS: [*相关文章*](https://www.qubes-os.org/news/categories/#articles)
+
+--8<-- "includes/abbreviations.zh.txt"

@@ -144,3 +144,5 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
 
 - Heeft mobiele clients voor iOS en Android, die tenminste document previews ondersteunen.
 - Ondersteunt back-up van foto's van iOS en Android, en ondersteunt optioneel synchronisatie van bestanden/mappen op Android.
+
+--8<-- "includes/abbreviations.nl.txt"

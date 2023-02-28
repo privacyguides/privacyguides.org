@@ -206,3 +206,5 @@ SSH MFA kan ook worden ingesteld met TOTP. DigitalOcean heeft een tutorial besch
 ### KeePass (en KeePassXC)
 
 KeePass en KeePassXC databases kunnen worden beveiligd met Challenge-Response of HOTP als een tweede-factor authenticatie. Yubico heeft een document beschikbaar gesteld voor KeePass [Uw YubiKey gebruiken met KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) en er is er ook een op de [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
+
+--8<-- "includes/abbreviations.nl.txt"

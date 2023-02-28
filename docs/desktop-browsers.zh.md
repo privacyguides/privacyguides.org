@@ -304,6 +304,8 @@ InterPlanetary File System（IPFS）是一个分散的、点对点的网络，�
 - 不得复制内置浏览器或操作系统的功能。
 - 必须直接影响用户隐私，即不能简单地提供信息。
 
+--8<-- "includes/abbreviations.zh.txt"
+
 
 
 [^1]:    

@@ -58,3 +58,5 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
     - Deze clients moeten integreren met native OS tools voor cloud storage providers, zoals Files app integratie op iOS, of DocumentsProvider functionaliteit op Android.
 - Moet het gemakkelijk delen van bestanden met andere gebruikers ondersteunen.
 - Moet ten minste een basisfunctionaliteit voor het bekijken en bewerken van bestanden op de webinterface bieden.
+
+--8<-- "includes/abbreviations.nl.txt"

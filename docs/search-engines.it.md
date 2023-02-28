@@ -114,3 +114,5 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
 
 - Dovrebbe essere basato su software open-source.
 - Non dovrebbe bloccare gli indirizzi IP dei nodi di uscita di Tor.
+
+--8<-- "includes/abbreviations.it.txt"

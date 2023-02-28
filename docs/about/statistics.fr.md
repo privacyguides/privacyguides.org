@@ -59,3 +59,5 @@ title: Statistiques de trafic
         })
     })
 </script>
+
+--8<-- "includes/abbreviations.fr.txt"

@@ -264,3 +264,5 @@ icon: material/flip-to-front
 אנו מתייחסים רק לחזיתות עבור אתרים שהם...
 
 - לא נגיש בדרך כלל ללא JavaScript.
+
+--8<-- "includes/abbreviations.he.txt"

@@ -59,3 +59,5 @@ title: Статистика посещений
         })
     })
 </script>
+
+--8<-- "includes/abbreviations.ru.txt"

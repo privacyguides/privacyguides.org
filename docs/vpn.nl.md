@@ -319,3 +319,5 @@ Verantwoorde marketing die zowel educatief als nuttig is voor de consument zou k
 ### Extra functionaliteit
 
 Hoewel het geen strikte vereisten zijn, zijn er enkele factoren die wij in aanmerking hebben genomen bij het bepalen van de aanbieders die wij aanbevelen. Deze omvatten adblocking/tracker-blocking-functionaliteit, warrant canaries, multihop-verbindingen, uitstekende klantenondersteuning, het aantal toegestane gelijktijdige verbindingen, enz.
+
+--8<-- "includes/abbreviations.nl.txt"

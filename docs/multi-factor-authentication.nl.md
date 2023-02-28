@@ -139,3 +139,5 @@ Wij raden je ten zeerste aan om mobiele TOTP apps te gebruiken in plaats van des
 - Moet geen internetverbinding vereisen.
 - Mag niet synchroniseren met een cloud sync/backup service van derden.
     - **Optioneel is** E2EE sync-ondersteuning met OS-native tools aanvaardbaar, bv. versleutelde sync via iCloud.
+
+--8<-- "includes/abbreviations.nl.txt"

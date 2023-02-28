@@ -74,3 +74,5 @@ VPN在各种情况下仍可能对您有用，例如:
 - [免费VPN应用调查](https://www.top10vpn.com/free-vpn-app-investigation/)
 - [揭开隐蔽VPN所有者的面纱：101个VPN产品仅由23家公司运营](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
 - [这家中国公司秘密地在24个流行的应用程序背后寻求危险的权限](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
+
+--8<-- "includes/abbreviations.zh.txt"

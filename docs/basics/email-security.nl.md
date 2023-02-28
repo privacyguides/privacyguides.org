@@ -38,3 +38,5 @@ E-mail metadata wordt beschermd tegen externe waarnemers met [Opportunistic TLS]
 ### Waarom kan metadata niet E2EE zijn?
 
 E-mail metadata is van cruciaal belang voor de meest elementaire functionaliteit van e-mail (waar het vandaan komt, en waar het naartoe moet). E2EE was oorspronkelijk niet in de e-mailprotocollen ingebouwd; in plaats daarvan was extra software zoals OpenPGP nodig. Omdat OpenPGP-berichten nog steeds met traditionele e-mailproviders moeten werken, kan het niet de metagegevens van e-mail versleutelen, alleen de inhoud van het bericht zelf. Dat betekent dat zelfs wanneer OpenPGP wordt gebruikt, externe waarnemers veel informatie over jouw berichten kunnen zien, zoals wie je e-mailt, de onderwerpregels, wanneer je e-mailt, enz.
+
+--8<-- "includes/abbreviations.nl.txt"

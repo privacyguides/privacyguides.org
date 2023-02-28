@@ -438,3 +438,5 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 </div>
 
 [En savoir plus :material-arrow-right-drop-circle:](video-streaming.md)
+
+--8<-- "includes/abbreviations.fr.txt"

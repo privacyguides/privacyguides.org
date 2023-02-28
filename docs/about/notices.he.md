@@ -41,3 +41,5 @@ Privacy Guides בנוסף אינם מתחייבים כי אתר זה יהיה ז
 * גירוד
 * כריית נתונים
 * 'מסגור' (IFrames)
+
+--8<-- "includes/abbreviations.he.txt"

@@ -60,15 +60,15 @@ Tor פועלת על ידי ניתוב תעבורת האינטרנט שלך דר�
 
 !!! recommendation
 
-    ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+    ![Orbot לוגו](assets/img/self-contained-networks/orbot.svg){ align=right }
     
-    **Orbot** הוא VPN Tor חינמי לטלפונים חכמים שמנתב תנועה מכל אפליקציה במכשיר שלך דרך רשת Tor.
+    **Orbot** הוא Tor VPN בחינם לסמארטפונים שמנתב תעבורה מכל אפליקציה במכשיר שלך דרך רשת Tor.
     
-    [:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-home-16: דף הבית](https://orbot.app/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="מדיניות פרטיות" }
     [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
+    [:octicons-code-16:](https://orbot.app/code){ .card-link title="קוד מקור" }
+    [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=לתרומה }
     
     ??? downloads "הורדות"
     
@@ -76,7 +76,7 @@ Tor פועלת על ידי ניתוב תעבורת האינטרנט שלך דר�
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
         - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
 
-לעמידות בפני מתקפות ניתוח תנועה, שקול להפעיל את 'בודד כתובת יעד' *Isolate Destination Address* in :material-menu: → **Settings** → **Connectivity**. זה ישתמש במעגל Tor שונה לחלוטין (ממסר אמצעי שונה צמתים יציאה) עבור כל תחום שאתה מתחבר.
+להתנגדות נגד התקפות ניתוח תעבורה, שקול להפעיל את *בודד את כתובת היעד* ב :material-menu: ← **הגדרות** ← **חיבוריות**. זה ישתמש במעגל Tor שונה לחלוטין (צמתי ממסר אמצעי וצמתי יציאה שונים) עבור כל תחום שאליו אתה מתחבר.
 
 !!! טיפ "טיפים עבור אנדרואיד"
 
@@ -120,3 +120,5 @@ Tor פועלת על ידי ניתוב תעבורת האינטרנט שלך דר�
 Snowflake אינו מגדיל את פרטיותך בשום צורה, ואינו משמש לחיבור לרשת Tor בתוך הדפדפן האישי שלך. עם זאת, אם חיבור האינטרנט שלך אינו מצונזר, עליך לשקול להפעיל אותו כדי לעזור לאנשים ברשתות מצונזרות להשיג פרטיות טובה יותר בעצמם. אין צורך לדאוג לאילו אתרים אנשים ניגשים דרך ה-proxy שלך - כתובת ה-IP הגלויה של הגלישה שלהם תתאים לצומת היציאה של Tor, לא שלך.
 
 הפעלת פרוקסי של Snowflake היא בסיכון נמוך, אפילו יותר מהפעלת ממסר Tor או גשר שהם כבר מאמצים לא מסוכנים במיוחד. עם זאת, היא עדיין עושה תעבורת פרוקסי דרך הרשת שלך, מה שיכול להשפיע במובנים מסוימים, במיוחד אם הרשת שלך מוגבלת ברוחב הפס. ודא שאתה מבין [איך Snowflake עובד](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) לפני שתחליט אם להפעיל פרוקסי.
+
+--8<-- "includes/abbreviations.he.txt"

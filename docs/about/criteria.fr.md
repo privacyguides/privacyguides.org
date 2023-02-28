@@ -38,3 +38,5 @@ Nous avons ces exigences à l'égard des développeurs qui souhaitent soumettre 
 
 - Vous devez indiquer quel est le modèle de menace exact avec votre projet.
     - Il doit être clair pour les utilisateurs potentiels ce que le projet peut fournir et ce qu'il ne peut pas fournir.
+
+--8<-- "includes/abbreviations.fr.txt"

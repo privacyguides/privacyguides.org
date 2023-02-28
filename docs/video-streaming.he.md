@@ -48,3 +48,5 @@ icon: material/video-wireless
 
 - חייב לא לדרוש חשבון מרוכז כדי לצפות בסרטונים.
     - אימות מבוזר, כגון באמצעות מפתח פרטי של ארנק נייד מקובל.
+
+--8<-- "includes/abbreviations.he.txt"

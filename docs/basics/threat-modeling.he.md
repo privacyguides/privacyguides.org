@@ -107,3 +107,5 @@ icon: 'material/target-account'
 ## מקורות
 
 - [הגנה עצמית במעקב EFF: תוכנית האבטחה שלך](https://ssd.eff.org/en/module/your-security-plan)
+
+--8<-- "includes/abbreviations.he.txt"

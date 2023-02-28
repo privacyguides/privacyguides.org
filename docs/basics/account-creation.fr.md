@@ -78,3 +78,5 @@ Dans de nombreux cas, vous devrez fournir un numéro à partir duquel vous pourr
 ### Nom d'utilisateur et mot de passe
 
 Certains services vous permettent de vous inscrire sans utiliser d'adresse électronique et vous demandent seulement de définir un nom d'utilisateur et un mot de passe. Ces services peuvent offrir un anonymat accru lorsqu'ils sont associés à un VPN ou à Tor. Gardez à l'esprit que pour ces comptes, il n'y aura très probablement **aucun moyen de récupérer votre compte** au cas où vous oublieriez votre nom d'utilisateur ou votre mot de passe.
+
+--8<-- "includes/abbreviations.fr.txt"

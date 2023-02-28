@@ -108,3 +108,5 @@ Il existe de nombreuses options intéressantes, qu'elles soient basées sur le c
 ### Sauvegardes
 
 Vous devriez conserver une sauvegarde [chiffrée](../encryption.md) de vos mots de passe sur plusieurs dispositifs de stockage ou sur un fournisseur de stockage cloud. Cela peut vous aider à accéder à vos mots de passe si quelque chose arrive à votre appareil principal ou au service que vous utilisez.
+
+--8<-- "includes/abbreviations.fr.txt"

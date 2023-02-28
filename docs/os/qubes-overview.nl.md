@@ -52,3 +52,5 @@ Voor aanvullende informatie raden wij je aan de uitgebreide Qubes OS documentati
 - J. Rutkowska: [*Softwarecompartimentering versus fysieke scheiding*](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf)
 - J. Rutkowska: [*De verdeling van mijn digitale leven in veiligheidsdomeinen*](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html)
 - Qubes OS: [*Verwante artikelen*](https://www.qubes-os.org/news/categories/#articles)
+
+--8<-- "includes/abbreviations.nl.txt"

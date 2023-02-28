@@ -358,3 +358,5 @@ Detto questo, i repository [F-droid](https://f-droid.org/en/packages/) e [IzzyOn
 - Le applicazioni presenti in questa pagina non devono essere applicabili a nessun'altra categoria di software presente sul sito.
 - Le applicazioni generali devono estendere o sostituire le funzionalità di base del sistema.
 - Le applicazioni devono ricevere aggiornamenti e manutenzione regolari.
+
+--8<-- "includes/abbreviations.it.txt"

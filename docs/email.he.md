@@ -481,3 +481,5 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 ### פונקציונליות נוספת
 
 אמנם לא דרישות קפדניות, יש כמה גורמי נוחות או פרטיות אחרים שבדקנו בעת קביעת אילו ספקים להמליץ.
+
+--8<-- "includes/abbreviations.he.txt"

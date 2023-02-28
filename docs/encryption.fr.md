@@ -353,3 +353,5 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
 
 - Les applications de chiffrement du système d'exploitation (FDE) devraient utiliser une sécurité matérielle telle qu'un TPM ou Secure Enclave.
 - Les applications de chiffrement de fichiers doivent bénéficier d'une prise en charge native ou tierce pour les plateformes mobiles.
+
+--8<-- "includes/abbreviations.fr.txt"

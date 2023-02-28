@@ -152,3 +152,5 @@ icon: material/file-sign
     [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="מופעים ציבוריים"}
     [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="קוד מקור" }
+
+--8<-- "includes/abbreviations.he.txt"

@@ -1,0 +1,25 @@
+{% extends "main.html" %}
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=2.10.0' | url }}">
+  {{ super() }}
+{% endblock %}
+{% block tabs %}
+  {{ super() }}
+  <style>.md-content > .md-typeset h1{visibility:hidden;font-size:0;}.md-button{margin-top:.5rem;}</style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__content">
+          <h1>Panduan untuk memulihkan privasi daring Anda.</h1>
+          <p>Organisasi besar memantau aktivitas daring Anda. Privacy Guides adalah sumber daya privasi dan keamanan Anda untuk melindungi Anda secara daring.</p>
+          <a href="kb/" title="Langkah pertama dari perjalanan privasi Anda" class="md-button md-button--primary">
+            Mulai Perjalanan Privasi Anda
+          </a>
+          <a href="tools/" title="Alat, layanan, dan pengetahuan privasi yang direkomendasikan" class="md-button">
+            Alat yang Direkomendasikan
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

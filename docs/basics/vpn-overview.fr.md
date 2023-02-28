@@ -74,3 +74,5 @@ Pour des situations comme celles-ci, ou si vous avez une autre raison impérieus
 - [Enquête sur les Applications VPN Gratuites](https://www.top10vpn.com/free-vpn-app-investigation/)
 - [Les propriétaires inconnus des VPNs dévoilés : 101 produits VPN gérés par seulement 23 sociétés](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
 - [Cette société chinoise est secrètement à l'origine de 24 applications populaires qui cherchent à obtenir des autorisations dangereuses](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
+
+--8<-- "includes/abbreviations.fr.txt"

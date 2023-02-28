@@ -59,3 +59,5 @@ jonah@privacyguides.org
 אנו נפרסם גרסאות חדשות של הצהרה זו [כאן](privacy-policy.md). אנו עשויים לשנות את האופן שבו אנו מכריזים על שינויים בגרסאות עתידיות של מסמך זה. בינתיים אנו עשויים לעדכן את פרטי הקשר שלנו בכל עת מבלי להודיע על שינוי. אנא עיין ב[מדיניות הפרטיות](privacy-policy.md) לקבלת הפרטים העדכניים ביותר ליצירת קשר בכל עת.
 
 ניתן למצוא גרסה מלאה של [היסטוריה](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) של דף זה ב-GitHub.
+
+--8<-- "includes/abbreviations.he.txt"

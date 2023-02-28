@@ -107,3 +107,5 @@ Per le persone che cercano di aumentare la loro privacy e sicurezza online, abbi
 ## Fonti
 
 - [EFF Surveillance Self Defense: Your Security Plan (EFF Autodifesa da sorveglianza: il tuo piano di sicurezza)](https://ssd.eff.org/en/module/your-security-plan)
+
+--8<-- "includes/abbreviations.it.txt"

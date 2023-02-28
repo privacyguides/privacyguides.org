@@ -169,3 +169,5 @@ Je kunt zich abonneren op YouTube-kanalen zonder in te loggen en gebruiksinforma
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
     ```
+
+--8<-- "includes/abbreviations.nl.txt"

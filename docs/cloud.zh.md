@@ -58,3 +58,5 @@ Proton Drive的移动客户端于2022年12月发布，目前尚未开源。 Prot
     - 这些客户端应该与云存储供应商的本地操作系统工具集成，如iOS上的Files应用集成，或Android上的DocumentsProvider功能。
 - 应支持与其他用户轻松分享文件。
 - 应在网络界面上至少提供基本的文件预览和编辑功能。
+
+--8<-- "includes/abbreviations.zh.txt"

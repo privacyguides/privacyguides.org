@@ -162,3 +162,5 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLog
 ### KeePass (ו-KeePassXC)
 
 ניתן לאבטח מסדי נתונים של KeePass ו-KeePassXC באמצעות Challenge-Response או HOTP כאימות גורם שני. Yubico סיפקה מסמך עבור KeePass [שימוש ב-YubiKey עם KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) ויש גם אחד באתר [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa).
+
+--8<-- "includes/abbreviations.he.txt"

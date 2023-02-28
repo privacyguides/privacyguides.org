@@ -41,3 +41,5 @@ Vous ne devez pas mener d'activités de collecte de données systématiques ou a
 * [Web scrapping](https://fr.wikipedia.org/wiki/Web_scraping)
 * Extraction de données
 * 'Framing' (IFrames)
+
+--8<-- "includes/abbreviations.fr.txt"

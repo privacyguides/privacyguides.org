@@ -139,3 +139,5 @@ Het Fedora Project [telt](https://fedoraproject.org/wiki/Changes/DNF_Better_Coun
 Deze [optie](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) staat momenteel standaard uit. We raden aan om `countme=false` toe te voegen aan `/etc/dnf/dnf.conf` voor het geval het in de toekomst wordt ingeschakeld. Op systemen die `rpm-ostree` gebruiken, zoals Silverblue, wordt de countme optie uitgeschakeld door de [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems/) timer te maskeren.
 
 openSUSE gebruikt ook een [unieke ID](https://en.opensuse.org/openSUSE:Statistics) om systemen te tellen, die kan worden uitgeschakeld door het bestand `/var/lib/zypp/AnonymousUniqueId` te verwijderen.
+
+--8<-- "includes/abbreviations.nl.txt"

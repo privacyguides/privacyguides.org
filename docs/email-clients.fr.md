@@ -235,3 +235,5 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
 - Ne doit pas collecter de télémétrie par défaut.
 - Doit prendre en charge OpenPGP nativement, c'est-à-dire sans extensions.
 - Doit prendre en charge le stockage local de courriels chiffrés par OpenPGP.
+
+--8<-- "includes/abbreviations.fr.txt"

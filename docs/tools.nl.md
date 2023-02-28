@@ -439,3 +439,5 @@ Wij [bevelen](dns.md#recommended-providers) een aantal versleutelde DNS servers 
 </div>
 
 [Meer informatie :material-arrow-right-drop-circle:](video-streaming.md)
+
+--8<-- "includes/abbreviations.nl.txt"

@@ -349,3 +349,5 @@ Dat gezegd zijnde, de [F-droid](https://f-droid.org/en/packages/) en [IzzyOnDroi
 - Toepassingen op deze pagina mogen niet van toepassing zijn op andere softwarecategorieën op de site.
 - Algemene toepassingen moeten de kernfunctionaliteit van het systeem uitbreiden of vervangen.
 - Toepassingen moeten regelmatig worden bijgewerkt en onderhouden.
+
+--8<-- "includes/abbreviations.nl.txt"

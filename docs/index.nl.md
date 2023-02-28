@@ -49,3 +49,5 @@ Het is belangrijk voor een website als Privacy Guides om altijd up-to-date te bl
 
 </div>
 </div>
+
+--8<-- "includes/abbreviations.nl.txt"

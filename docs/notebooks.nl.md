@@ -111,3 +111,5 @@ Cryptee biedt gratis 100MB opslag, met betaalde opties als je meer nodig hebt. A
 
 - De lokale backup/sync-functie moet encryptie ondersteunen.
 - Cloud-platforms moeten het delen van documenten ondersteunen.
+
+--8<-- "includes/abbreviations.nl.txt"

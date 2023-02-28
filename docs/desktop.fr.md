@@ -179,3 +179,5 @@ Nos systèmes d'exploitation recommandés :
 - Doitvent prendre en charge le chiffrement complet du disque pendant l'installation.
 - Ne doivent pas geler les mises à jour régulières pendant plus d'un an. Nous [ne recommandons pas](os/linux-overview.md#release-cycle) "Long Term Support" ou les versions "stables" de distro pour une utilisation domestique.
 - Doivent prendre en charge une grande variété de matériel.
+
+--8<-- "includes/abbreviations.fr.txt"

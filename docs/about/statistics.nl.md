@@ -59,3 +59,5 @@ title: Verkeersstatistieken
         })
     })
 </script>
+
+--8<-- "includes/abbreviations.nl.txt"

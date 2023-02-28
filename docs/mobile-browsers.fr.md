@@ -189,3 +189,5 @@ Les listes de filtres supplémentaires ralentissent la navigation et peuvent aug
 
 - Ne doit pas dupliquer une fonctionnalité intégrée dans le navigateur ou dans le système d'exploitation.
 - Doit avoir un impact direct sur la vie privée des utilisateurs, c'est-à-dire qu'il ne doit pas simplement fournir des informations.
+
+--8<-- "includes/abbreviations.fr.txt"

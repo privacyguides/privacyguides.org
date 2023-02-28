@@ -47,3 +47,5 @@ OPNsense פותחה במקור כמזלג של [pfSense](https://en.wikipedia.or
 - חייב להיות קוד פתוח.
 - חייב לקבל עדכונים שוטפים.
 - חייב לתמוך במגוון רחב של חומרה.
+
+--8<-- "includes/abbreviations.he.txt"

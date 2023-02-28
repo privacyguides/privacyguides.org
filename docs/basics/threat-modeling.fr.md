@@ -107,3 +107,5 @@ Pour les personnes qui cherchent à améliorer leur vie privée et leur sécurit
 ## Sources
 
 - [EFF Surveillance Self Defense: votre plan de sécurité](https://ssd.eff.org/en/module/your-security-plan)
+
+--8<-- "includes/abbreviations.fr.txt"

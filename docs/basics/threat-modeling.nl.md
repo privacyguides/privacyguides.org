@@ -107,3 +107,5 @@ Voor mensen die hun privacy en veiligheid online willen vergroten, hebben we een
 ## Bronnen
 
 - [EFF Surveillance Zelfverdediging: Jouw Beveiligingsplan](https://ssd.eff.org/en/module/your-security-plan)
+
+--8<-- "includes/abbreviations.nl.txt"

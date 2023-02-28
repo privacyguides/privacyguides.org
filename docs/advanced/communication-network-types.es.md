@@ -100,3 +100,5 @@ El autoalojamiento de un nodo en una red de enrutamiento anónimo no proporciona
 - Menos fiable si los nodos se seleccionan mediante enrutamiento aleatorio, algunos nodos pueden estar muy lejos del emisor y del receptor, añadiendo latencia o incluso dejando de transmitir mensajes si uno de los nodos se desconecta.
 - Más complejo para empezar, ya que se requiere la creación y el respaldo seguro de una clave privada criptográfica.
 - Al igual que en otras plataformas descentralizadas, añadir funciones es más complejo para los desarrolladores que en una plataforma centralizada. Por lo tanto, pueden faltar funciones o estar implementadas de forma incompleta, como la retransmisión de mensajes fuera de línea o la eliminación de mensajes.
+
+--8<-- "includes/abbreviations.es.txt"

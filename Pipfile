@@ -5,14 +5,14 @@ name = "pypi"
 
 [packages]
 mkdocs = "*"
-mkdocs-material = {path = "./mkdocs-material"}
-mkdocs-static-i18n = "*"
 mkdocs-git-revision-date-localized-plugin = "*"
 typing-extensions = "*"
 mkdocs-git-committers-plugin-2 = "*"
 mkdocs-macros-plugin = "*"
 pillow = "*"
 cairosvg = "*"
+mkdocs-material = {path = "./modules/mkdocs-material"}
+mkdocs-static-i18n = {path = "./modules/mkdocs-static-i18n"}
 
 [dev-packages]
 scour = "*"

@@ -144,3 +144,5 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
 
 - Dispose de clients mobiles pour iOS et Android, qui permettent au moins de prévisualiser les documents.
 - Prend en charge la sauvegarde des photos à partir d'iOS et d'Android et, en option, la synchronisation des fichiers/dossiers sur Android.
+
+--8<-- "includes/abbreviations.fr.txt"

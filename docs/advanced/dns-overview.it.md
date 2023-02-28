@@ -303,3 +303,5 @@ La [sottorete client EDNS](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) è 
 Ha lo scopo di "velocizzare" la consegna dei dati fornendo al client una risposta che appartiene a un server vicino, come ad esempio una rete di distribuzione di contenuti [](https://it.wikipedia.org/wiki/Content_Delivery_Network), spesso utilizzata per lo streaming video e per servire applicazioni web in JavaScript.
 
 Questa funzione ha un costo in termini di privacy, in quanto comunica al server DNS alcune informazioni sulla posizione del client.
+
+--8<-- "includes/abbreviations.it.txt"

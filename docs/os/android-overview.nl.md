@@ -131,3 +131,5 @@ Je krijgt de optie om jouw advertentie-ID te verwijderen of om *af te melden voo
 [SafetyNet](https://developer.android.com/training/safetynet/attestation) en de [Play Integrity API's](https://developer.android.com/google/play/integrity) worden over het algemeen gebruikt voor [bankapps](https://grapheneos.org/usage#banking-apps). Veel bank apps zullen prima werken in GrapheneOS met sandboxed Play services, maar sommige niet-financiële apps hebben hun eigen grove anti-tampering mechanismen die kunnen falen. GrapheneOS doorstaat de `basicIntegrity` check, maar niet de certificeringscheck `ctsProfileMatch`. Toestellen met Android 8 of later hebben hardware-attestondersteuning die niet kan worden omzeild zonder gelekte sleutels of ernstige kwetsbaarheden.
 
 Wat Google Wallet betreft, wij raden dit niet aan vanwege hun [privacybeleid](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), waarin staat dat je zich moet afmelden als je niet wilt dat jouw kredietwaardigheid en persoonlijke gegevens worden gedeeld met affiliate marketingdiensten.
+
+--8<-- "includes/abbreviations.nl.txt"

@@ -100,3 +100,5 @@ Het zelf hosten van een knooppunt in een anoniem routenetwerk biedt de hoster ge
 - Minder betrouwbaar als de knooppunten worden geselecteerd door gerandomiseerde routering, kunnen sommige knooppunten zeer ver van de verzender en de ontvanger verwijderd zijn, waardoor vertraging optreedt of zelfs berichten niet worden verzonden als een van de knooppunten offline gaat.
 - Ingewikkelder om mee te beginnen omdat de creatie en beveiligde backup van een cryptografische private sleutel vereist is.
 - Net als bij andere gedecentraliseerde platforms is het toevoegen van functies ingewikkelder voor ontwikkelaars dan op een gecentraliseerd platform. Daarom kunnen functies ontbreken of onvolledig zijn geïmplementeerd, zoals het offline doorgeven van berichten of het verwijderen van berichten.
+
+--8<-- "includes/abbreviations.nl.txt"

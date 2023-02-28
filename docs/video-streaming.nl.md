@@ -48,3 +48,5 @@ Je kunt de optie *Hostinggegevens opslaan om het LBRY-netwerk te helpen* uitscha
 
 - Mag geen gecentraliseerde account vereisen om video's te bekijken.
     - Gedecentraliseerde authenticatie, bijvoorbeeld via de privésleutel van een mobiele portemonnee, is aanvaardbaar.
+
+--8<-- "includes/abbreviations.nl.txt"

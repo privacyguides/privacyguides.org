@@ -178,3 +178,5 @@ Onze aanbevolen besturingssystemen:
 - Moet tijdens de installatie volledige schijfversleuteling ondersteunen.
 - Mag regelmatige releases niet langer dan 1 jaar bevriezen. Wij [raden](os/linux-overview.md#release-cycle) "Long Term Support" of "stabiele" distro-uitgaven niet aan voor desktopgebruik.
 - Moet een grote verscheidenheid aan hardware ondersteunen.
+
+--8<-- "includes/abbreviations.nl.txt"

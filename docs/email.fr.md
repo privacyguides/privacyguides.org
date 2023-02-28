@@ -481,3 +481,5 @@ Ne doit pas avoir de marketing irresponsable :
 ### Fonctionnalités supplémentaires
 
 Bien qu'il ne s'agisse pas d'exigences strictes, nous avons pris en compte d'autres facteurs liés à la commodité ou à la confidentialité pour déterminer les fournisseurs à recommander.
+
+--8<-- "includes/abbreviations.fr.txt"

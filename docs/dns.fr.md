@@ -132,6 +132,8 @@ Une solution DNS auto-hébergée est utile pour assurer le filtrage sur les plat
     [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Code source" }
     [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribuer }
 
+--8<-- "includes/abbreviations.fr.txt"
+
 [^1]: AdGuard stocke des mesures de performance agrégées de ses serveurs DNS, à savoir le nombre de demandes complètes adressées à un serveur particulier, le nombre de demandes bloquées et la vitesse de traitement des demandes. Ils conservent et stockent également la base de données des domaines demandés dans les dernières 24 heures. "Nous avons besoin de ces informations pour identifier et bloquer les nouveaux traqueurs et menaces." "Nous enregistrons également le nombre de fois où tel ou tel traqueur a été bloqué. Nous avons besoin de ces informations pour supprimer les règles obsolètes de nos filtres." [https://adguard.com/fr/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
 [^2]: Cloudflare ne collecte et ne stocke que les données limitées des requêtes DNS qui sont envoyées au résolveur 1.1.1.1. Le service de résolution 1.1.1.1 n'enregistre pas de données personnelles, et la majeure partie des données de requête limitées et non personnellement identifiables n'est stockée que pendant 25 heures. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)
 [^3]: Control D n'enregistre que les résolveurs Premium avec des profils DNS personnalisés. Les résolveurs libres n'enregistrent pas de données. [https://controld.com/privacy](https://controld.com/privacy)

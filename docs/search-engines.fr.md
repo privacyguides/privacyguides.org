@@ -105,3 +105,5 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
 
 - Doit être basé sur des logiciels open-source.
 - Ne doit pas bloquer les adresses IP des nœuds de sortie Tor.
+
+--8<-- "includes/abbreviations.fr.txt"

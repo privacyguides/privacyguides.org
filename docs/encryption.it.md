@@ -354,3 +354,5 @@ I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto pe
 
 - Le applicazioni di crittografia del sistema operativo (FDE) dovrebbero utilizzare una protezione hardware come TPM o Secure Enclave.
 - Le applicazioni per la crittografia dei file devono avere un supporto di primo o terzo livello per le piattaforme mobili.
+
+--8<-- "includes/abbreviations.it.txt"

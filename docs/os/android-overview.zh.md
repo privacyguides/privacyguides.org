@@ -131,3 +131,5 @@ Android 7及更高版本支持VPN killswitch ，无需安装第三方应用程�
 [安全网](https://developer.android.com/training/safetynet/attestation) 和 [Play Integrity APIs](https://developer.android.com/google/play/integrity) ，一般用于 [银行应用程序](https://grapheneos.org/usage#banking-apps)。 许多银行应用程序在GrapheneOS中使用沙盒游戏服务可以正常工作，但是一些非金融应用程序有自己的粗略防篡改机制，可能会失败。 GrapheneOS通过了 `basicIntegrity` 检查，但没有通过认证检查 `ctsProfileMatch`。 安卓8或更高版本的设备有硬件认证支持，如果没有泄露的密钥或严重的漏洞，就无法绕过。
 
 至于谷歌钱包，我们不推荐这样做，因为他们的 [隐私政策](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en)，其中规定如果你不希望你的信用等级和个人信息与联盟营销服务共享，你必须选择退出。
+
+--8<-- "includes/abbreviations.zh.txt"

@@ -139,3 +139,5 @@ icon: simple/linux
 [אפשרות](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) זו כבויה כעת כברירת מחדל. אנו ממליצים להוסיף את `countme=false` ל-`/etc/dnf/dnf.conf` למקרה שהוא יופעל בעתיד. במערכות המשתמשות ב-`rpm-ostree` כגון Silverblue, אפשרות ה-countme מושבתת על ידי מיסוך של [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems/) טיימר.
 
 openSUSE משתמשת גם ב[מזהה ייחודי](https://en.opensuse.org/openSUSE:Statistics) כדי לספור מערכות, אותן ניתן להשבית על ידי מחיקת הקובץ `/var/lib/zypp/AnonymousUniqueId`.
+
+--8<-- "includes/abbreviations.he.txt"

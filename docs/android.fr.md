@@ -349,3 +349,5 @@ Cela dit, les dépôts [F-droid](https://f-droid.org/en/packages/) et [IzzyOnDro
 - Les applications de cette page ne doivent pas être applicables à une autre catégorie de logiciels sur le site.
 - Les applications générales doivent étendre ou remplacer les fonctionnalités de base du système.
 - Les applications doivent être régulièrement mises à jour et entretenues.
+
+--8<-- "includes/abbreviations.fr.txt"

@@ -49,3 +49,5 @@ Il est important pour un site web comme Privacy Guides de toujours rester à jou
 
 </div>
 </div>
+
+--8<-- "includes/abbreviations.fr.txt"

@@ -180,3 +180,5 @@ Qubes OS操作系统通过将子系统（如网络、USB等）和应用程序隔
 - 在安装过程中必须支持全盘加密。
 - 不得将定期发布的信息冻结1年以上。 我们 [，不建议将](os/linux-overview.md#release-cycle) "长期支持 "或 "稳定 "的发行版用于桌面使用。
 - 必须支持各种各样的硬件。
+
+--8<-- "includes/abbreviations.zh.txt"

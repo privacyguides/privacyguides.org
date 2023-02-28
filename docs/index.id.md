@@ -49,3 +49,5 @@ Ini penting bagi situs web seperti Privacy Guides untuk selalu mendapatkan infor
 
 </div>
 </div>
+
+--8<-- "includes/abbreviations.id.txt"

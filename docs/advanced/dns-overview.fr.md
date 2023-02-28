@@ -303,3 +303,5 @@ Le [EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) est un
 Il est destiné à "accélérer" la transmission des données en donnant au client une réponse qui appartient à un serveur proche de lui, comme un [réseau de diffusion de contenu](https://fr.wikipedia.org/wiki/Réseau_de_diffusion_de_contenu), souvent utilisé pour la diffusion de vidéos en continu et pour servir des applications Web JavaScript.
 
 Cette fonction a un coût en termes de confidentialité, car elle fournit au serveur DNS des informations sur la localisation du client.
+
+--8<-- "includes/abbreviations.fr.txt"

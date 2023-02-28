@@ -48,3 +48,5 @@ Vous pouvez désactiver l'option *Enregistrer les données d'hébergement pour a
 
 - Ne doit pas nécessiter un compte centralisé pour visionner les vidéos.
     - L'authentification décentralisée, par exemple via la clé privée d'un portefeuille mobile, est acceptable.
+
+--8<-- "includes/abbreviations.fr.txt"

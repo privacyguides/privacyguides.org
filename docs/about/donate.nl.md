@@ -48,3 +48,5 @@ Wij hosten [internetdiensten](https://privacyguides.net) voor het testen en tone
 Wij kopen af en toe producten en diensten aan om onze [aanbevolen instrumenten te testen](../tools.md).
 
 We werken nog steeds samen met onze fiscale host (de Open Collective Foundation) om donaties in cryptogeld te ontvangen, op dit moment is de boekhouding onhaalbaar voor veel kleinere transacties, maar dit zou in de toekomst moeten veranderen. In de tussentijd, als je een aanzienlijke (> $100) crypto donatie wilt doen, neem dan contact op met [jonah@privacyguides.org](mailto:jonah@privacyguides.org).
+
+--8<-- "includes/abbreviations.nl.txt"

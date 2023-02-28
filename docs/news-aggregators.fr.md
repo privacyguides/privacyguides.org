@@ -169,3 +169,5 @@ Vous pouvez vous abonner aux chaînes YouTube sans vous connecter et sans associ
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
     ```
+
+--8<-- "includes/abbreviations.fr.txt"

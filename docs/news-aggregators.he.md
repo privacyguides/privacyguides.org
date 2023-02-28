@@ -169,3 +169,5 @@ Reddit מאפשר לך להירשם ל subreddits באמצעות RSS.
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
     ```
+
+--8<-- "includes/abbreviations.he.txt"

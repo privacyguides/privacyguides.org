@@ -319,3 +319,5 @@ Il marketing responsabile, che è sia educativo che utile per il consumatore, po
 ### Funzionalità aggiuntive
 
 Anche se non requisiti rigidi, ci sono alcuni fattori che abbiamo considerato nel determinare quali servizi consigliare. Tra questi ci sono funzionalità di blocco dei tracker e delle pubblicità, canarini di garanzia, connessioni multihop, eccellenza nell'assistenza clienti, numero di connessioni simultanee consentite, ecc.
+
+--8<-- "includes/abbreviations.it.txt"

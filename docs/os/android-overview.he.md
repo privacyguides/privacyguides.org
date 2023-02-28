@@ -131,3 +131,5 @@ Fairphone, למשל, משווקת את המכשירים שלהם כמקבלים 
 [SafetyNet](https://developer.android.com/training/safetynet/attestation) וה[ממשק API של Play Integrity](https://developer.android.com/google/play/integrity) משמשים בדרך כלל עבור [אפליקציות בנקאיות](https://grapheneos.org/usage#banking-apps). אפליקציות בנקאות רבות יעבדו מצוין ב-GrapheneOS עם שירותי Play בארגז חול, אולם לחלק מהאפליקציות הלא פיננסיות יש מנגנוני אנטי-שיבוש גולמיים משלהם שעלולים להיכשל. GrapheneOS עובר את בדיקת `basicIntegrity`, אך לא את בדיקת האישור `ctsProfileMatch`. למכשירים עם אנדרואיד 8 ואילך יש תמיכה באישורי חומרה שלא ניתן לעקוף ללא מפתחות דלופים או פגיעויות חמורות.
 
 לגבי ארנק Google, אנו לא ממליצים על כך בשל [ מדיניות הפרטיות שלהם](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), הקובעת שעליך לבטל את הסכמתך אם אינך רוצה שדירוג האשראי והמידע האישי שלך ישותפו עם שירותי שיווק שותפים.
+
+--8<-- "includes/abbreviations.he.txt"

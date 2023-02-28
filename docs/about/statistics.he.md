@@ -59,3 +59,5 @@ title: סטטיסטיקת תנועה
         })
     })
 </script>
+
+--8<-- "includes/abbreviations.he.txt"

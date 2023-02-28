@@ -118,3 +118,5 @@ Om weerstand te bieden tegen verkeersanalyse aanvallen, kunt je overwegen om *Is
 Snowflake verhoogt jouw privacy op geen enkele manier, en wordt ook niet gebruikt om verbinding te maken met het Tor-netwerk binnen jouw persoonlijke browser. Als jouw internetverbinding echter ongecensureerd is, zou je moeten overwegen het te gebruiken om mensen in gecensureerde netwerken te helpen zelf betere privacy te krijgen. Je hoeft je geen zorgen te maken over welke websites mensen via je proxy bezoeken- hun zichtbare surf IP adres zal overeenkomen met hun Tor exit node, niet met die van jou.
 
 Het runnen van een Snowflake proxy is weinig riskant, zelfs meer dan het runnen van een Tor relay of bridge, wat al geen bijzonder riskante onderneming is. Het stuurt echter nog steeds verkeer door jouw netwerk, wat in sommige opzichten gevolgen kan hebben, vooral als jouw netwerk een beperkte bandbreedte heeft. Zorg ervoor dat je [begrijpt hoe Snowflake werkt](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) voordat je beslist of je een proxy wilt gebruiken.
+
+--8<-- "includes/abbreviations.nl.txt"

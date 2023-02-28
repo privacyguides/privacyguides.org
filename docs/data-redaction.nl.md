@@ -142,3 +142,5 @@ De app biedt meerdere manieren om metadata uit afbeeldingen te wissen. Namelijk:
 
 - Apps ontwikkeld voor open-source besturingssystemen moeten open-source zijn.
 - Apps moeten gratis zijn en mogen geen advertenties of andere beperkingen bevatten.
+
+--8<-- "includes/abbreviations.nl.txt"

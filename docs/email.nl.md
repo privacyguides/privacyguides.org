@@ -481,3 +481,5 @@ Mag geen marketing hebben die onverantwoord is:
 ### Extra functionaliteit
 
 Hoewel het geen strikte vereisten zijn, zijn er nog enkele andere factoren met betrekking tot gemak of privacy die wij in aanmerking hebben genomen bij het bepalen van de aan te bevelen providers.
+
+--8<-- "includes/abbreviations.nl.txt"

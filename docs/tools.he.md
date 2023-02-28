@@ -438,3 +438,5 @@ hide:
 </div>
 
 [למד עוד :material-arrow-right-drop-circle:](video-streaming.md)
+
+--8<-- "includes/abbreviations.he.txt"

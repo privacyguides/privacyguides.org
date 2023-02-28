@@ -111,3 +111,5 @@ Cryptee offre 100 Mo de stockage gratuit, avec des options payantes si vous avez
 
 - La fonctionnalité de sauvegarde/synchronisation locale doit prendre en charge le chiffrement.
 - Les plateformes basées sur le cloud doivent permettre le partage de documents.
+
+--8<-- "includes/abbreviations.fr.txt"

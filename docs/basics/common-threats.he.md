@@ -140,6 +140,8 @@ icon: 'material/eye-outline'
 
 אתה חייב תמיד לשקול את הסיכונים בניסיון לעקוף את הצנזורה, את ההשלכות האפשריות ועד כמה מתוחכם עלול להיות היריב שלך. אתה צריך להיות זהיר בבחירת התוכנה שלך, ולהכין תוכנית גיבוי למקרה שתיתפס.
 
+--8<-- "includes/abbreviations.he.txt"
+
 [^1]: ויקיפדיה: [*מעקבים המונים*](https://en.wikipedia.org/wiki/Mass_surveillance) ו[*מעקבים*](https://en.wikipedia.org/wiki/Surveillance).
 [^2]: מועצת הפיקוח על הפרטיות וחירויות האזרח של ארצות הברית: [*דיווח על תוכנית רישומי הטלפון שנערכה לפי סעיף 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: ויקיפדיה: [*מעקב קפיטליזם*](https://en.wikipedia.org/wiki/Surveillance_capitalism)

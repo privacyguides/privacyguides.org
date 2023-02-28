@@ -107,3 +107,5 @@ icon: '资料/目标账户'
 ## 资料来源
 
 - [EFF 监控自我防卫: 你的安全计划](https://ssd.eff.org/en/module/your-security-plan)
+
+--8<-- "includes/abbreviations.zh.txt"

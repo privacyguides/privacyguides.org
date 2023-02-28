@@ -58,3 +58,5 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
     - Ces clients doivent s'intégrer aux outils natifs du système d'exploitation pour les fournisseurs de stockage cloud, comme l'intégration de l'application Fichiers sur iOS, ou la fonctionnalité DocumentsProvider sur Android.
 - Doit permettre de partager facilement des fichiers avec d'autres utilisateurs.
 - Doit offrir au moins une fonctionnalité de base d'aperçu et d'édition de fichiers sur l'interface web.
+
+--8<-- "includes/abbreviations.fr.txt"

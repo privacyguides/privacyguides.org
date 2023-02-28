@@ -351,3 +351,5 @@ QNAME是一个 "限定名称"，例如 `privacyguides.org`。 QNAME最小化减�
 它的目的是 "加快 "数据的交付，给客户一个属于离他们很近的服务器的答案，如 [内容交付网络](https://en.wikipedia.org/wiki/Content_delivery_network)，这通常用于视频流和服务JavaScript网络应用。
 
 这项功能确实是以隐私为代价的，因为它告诉DNS服务器一些关于客户端位置的信息。
+
+--8<-- "includes/abbreviations.zh.txt"

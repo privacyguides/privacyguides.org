@@ -48,3 +48,5 @@ title: 支持我们
 我们偶尔会购买产品和服务，以测试我们 [推荐的工具](../tools.md)。
 
 我们仍在与我们的财政主机（Open Collective Foundation）合作，以接收加密货币捐款，目前，对于许多较小的交易来说，会计是不可行的，但这在未来应该会改变。 同时，如果您希望进行大额(> $100)加密货币捐赠，请联系 [jonah@privacyguides.org](mailto:jonah@privacyguides.org)。
+
+--8<-- "includes/abbreviations.zh.txt"

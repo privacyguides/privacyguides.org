@@ -353,3 +353,5 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
 
 - Toepassingen voor versleuteling van het besturingssysteem (FDE) moeten gebruik maken van hardwarebeveiliging zoals een TPM of Secure Enclave.
 - Bestandsversleutelingsapps moeten ondersteuning van eerste of derde partijen hebben voor mobiele platforms.
+
+--8<-- "includes/abbreviations.nl.txt"

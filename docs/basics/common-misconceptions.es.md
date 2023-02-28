@@ -56,4 +56,6 @@ Uno de los modelos de amenaza más claros es aquel en el que la gente *sabe qui�
 
     Usar Tor puede ayudar con esto. También cabe destacar que es posible un mayor anonimato mediante la comunicación asíncrona: La comunicación en tiempo real es vulnerable al análisis de los patrones de escritura (es decir, más de un párrafo de texto, distribuido en un foro, por correo electrónico, etc.)
 
+--8<-- "includes/abbreviations.es.txt"
+
 [^1]: Un ejemplo notable de esto es [el incidente de 2021 en el que investigadores de la Universidad de Minnesota introdujeron tres vulnerabilidades en el proyecto de desarrollo del kernel de Linux](https://cse.umn.edu/cs/linux-incident).

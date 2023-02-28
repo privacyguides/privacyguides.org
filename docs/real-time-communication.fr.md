@@ -191,3 +191,5 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
 - Devrait être décentralisé, c'est-à-dire fédéré ou P2P.
 - Devrait utiliser E2EE pour tous les messages par défaut.
 - Devrait prendre en charge Linux, macOS, Windows, Android et iOS.
+
+--8<-- "includes/abbreviations.fr.txt"

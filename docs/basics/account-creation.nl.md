@@ -78,3 +78,5 @@ In veel gevallen moet je een nummer opgeven waarvan je smsjes of telefoontjes ku
 ### Gebruikersnaam en wachtwoord
 
 Bij sommige diensten kunt je je zonder e-mailadres registreren en hoeft je alleen een gebruikersnaam en wachtwoord in te stellen. Deze diensten kunnen meer anonimiteit bieden in combinatie met een VPN of Tor. Houd er rekening mee dat er voor deze accounts hoogstwaarschijnlijk **geen manier is om jouw account** te herstellen als je jouw gebruikersnaam of wachtwoord vergeet.
+
+--8<-- "includes/abbreviations.nl.txt"

@@ -74,3 +74,5 @@ VPN עדיין עשוי להיות שימושי עבורך במגוון תרחי
 - [חקירת אפליקציית VPN בחינם](https://www.top10vpn.com/free-vpn-app-investigation/)
 - [בעלי VPN מוסתרים חשפו: 101 מוצרי VPN המנוהלים על ידי 23 חברות בלבד](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
 - [החברה הסינית הזו עומדת בסתר מאחורי 24 אפליקציות פופולריות שמחפשות הרשאות מסוכנות](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
+
+--8<-- "includes/abbreviations.he.txt"

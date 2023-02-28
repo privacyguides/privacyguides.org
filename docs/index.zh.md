@@ -49,3 +49,5 @@ hide:
 
 </div>
 </div>
+
+--8<-- "includes/abbreviations.zh.txt"

@@ -47,3 +47,5 @@ OPNsense werd oorspronkelijk ontwikkeld als een fork van [pfSense](https://en.wi
 - Moet open source zijn.
 - Moet regelmatig updates ontvangen.
 - Moet een grote verscheidenheid aan hardware ondersteunen.
+
+--8<-- "includes/abbreviations.nl.txt"

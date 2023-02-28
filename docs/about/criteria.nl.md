@@ -38,3 +38,5 @@ Wij stellen deze eisen aan ontwikkelaars die hun project of software in overwegi
 
 - Moeten aangeven wat het exacte dreigingsmodel is van hun project.
     - Het moet voor potentiële gebruikers duidelijk zijn wat het project kan bieden, en wat niet.
+
+--8<-- "includes/abbreviations.nl.txt"

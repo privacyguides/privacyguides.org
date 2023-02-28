@@ -167,3 +167,5 @@ Fedora 项目 [通过使用一个 [`countme`](https://fedoraproject.org/wiki/Cha
 这个 [选项](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) ，目前默认是关闭的。 我们建议将 `countme=false` 添加到 `/etc/dnf/dnf.conf` ，以备将来启用它。 在使用 `rpm-ostree` 的系统上，如Silverblue，通过屏蔽 [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems/) 计时器来禁用 countme 选项。
 
 openSUSE 还使用一个 [唯一的 ID](https://en.opensuse.org/openSUSE:Statistics) 来计算系统，可以通过删除 `/var/lib/zypp/AnonymousUniqueId` 文件来禁用它。
+
+--8<-- "includes/abbreviations.zh.txt"

@@ -151,3 +151,5 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Vale
 
 - Le applicazioni sviluppate per sistemi operativi open-source devono essere open-source.
 - Le applicazioni devono essere gratuite e non devono includere pubblicità o altre limitazioni.
+
+--8<-- "includes/abbreviations.it.txt"

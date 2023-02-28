@@ -152,3 +152,5 @@ En général, nous définissons les suites bureautiques comme des applications q
     [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Instances publiques"}
     [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Code source" }
+
+--8<-- "includes/abbreviations.fr.txt"

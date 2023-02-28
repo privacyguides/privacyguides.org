@@ -319,3 +319,5 @@ Un marketing responsable qui est à la fois éducatif et utile au consommateur p
 ### Fonctionnalités Supplémentaires
 
 Bien qu'il ne s'agisse pas d'exigences strictes, nous avons tenu compte de certains facteurs pour déterminer les fournisseurs à recommander. Ceux-ci incluent la fonctionnalité de blocage des publicités/traqueurs, les canaris de mandats, les connexions multi-sauts, un excellent support client, le nombre de connexions simultanées autorisées, etc.
+
+--8<-- "includes/abbreviations.fr.txt"

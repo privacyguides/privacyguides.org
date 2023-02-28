@@ -56,4 +56,6 @@ icon: 'material/robot-confused'
 
     使用Tor可以帮助解决这个问题。 还值得注意的是，通过异步通信可以实现更大的匿名性。实时通信容易受到打字模式的分析（即超过一段文字，在论坛上分发，通过电子邮件等）。
 
+--8<-- "includes/abbreviations.zh.txt"
+
 [^1]: 其中一个明显的例子是 [2021年明尼苏达大学的研究人员将三个漏洞引入了Linux内核开发项目的事件](https://cse.umn.edu/cs/linux-incident)。

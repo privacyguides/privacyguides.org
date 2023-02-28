@@ -38,3 +38,5 @@ Les métadonnées des emails sont protégées des observateurs extérieurs par l
 ### Pourquoi les métadonnées ne peuvent-elles pas être E2EE?
 
 Les métadonnées des emails sont essentielles à la fonctionnalité la plus élémentaire d'un email (d'où il vient et où il doit aller). À l'origine, l'E2EE n'était pas intégré dans les protocoles d'emails, mais nécessitait un logiciel complémentaire comme OpenPGP. Comme les messages OpenPGP doivent toujours fonctionner avec les fournisseurs d'emails traditionnels, il ne peut pas chiffrer les métadonnées du mail, mais seulement le corps du message lui-même. Cela signifie que, même en utilisant OpenPGP, des observateurs extérieurs peuvent voir de nombreuses informations sur vos messages, comme l'identité de l'expéditeur, l'objet du message, le moment de l'envoi, etc.
+
+--8<-- "includes/abbreviations.fr.txt"

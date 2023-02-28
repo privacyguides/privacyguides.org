@@ -437,3 +437,5 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 </div>
 
 [Maggiori informazioni :material-arrow-right-drop-circle:](video-streaming.md)
+
+--8<-- "includes/abbreviations.it.txt"

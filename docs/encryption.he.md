@@ -354,3 +354,5 @@ BitLocker [ נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-d
 
 - אפליקציות הצפנה של מערכת הפעלה (FDE) צריכות להשתמש באבטחת חומרה כגון TPM או Secure Enclave.
 - אפליקציות להצפנת קבצים צריכות לקבל תמיכה של צד ראשון או שלישי עבור פלטפורמות ניידות.
+
+--8<-- "includes/abbreviations.he.txt"

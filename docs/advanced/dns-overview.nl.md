@@ -303,3 +303,5 @@ Het [EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) is ee
 Het is bedoeld om de levering van gegevens te "versnellen" door de client een antwoord te geven dat toebehoort aan een server die zich dicht bij hem bevindt, zoals een [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network), die vaak worden gebruikt bij videostreaming en het serveren van JavaScript-webapps.
 
 Deze functie gaat wel ten koste van de privacy, aangezien de DNS-server informatie krijgt over de locatie van de client.
+
+--8<-- "includes/abbreviations.nl.txt"
