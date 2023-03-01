@@ -12,7 +12,6 @@ mkdocs-macros-plugin = "*"
 pillow = "*"
 cairosvg = "*"
 mkdocs-material = {path = "./modules/mkdocs-material"}
-mkdocs-static-i18n = {path = "./modules/mkdocs-static-i18n"}
 
 [dev-packages]
 scour = "*"

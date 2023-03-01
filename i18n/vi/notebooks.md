@@ -31,7 +31,7 @@ Nếu bạn hiện đang sử dụng một ứng dụng như Evernote, Google Ke
         - [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/net.cozic.joplin)
         - [:fontawesome-brands-github: GitHub](https://github.com/laurent22/joplin)
 
-Joplin does not support password/PIN protection for the [application itself or individual notes and notebooks](https://github.com/laurent22/joplin/issues/289). Dữ liệu vẫn được mã hóa khi chuyển tiếp và tại vị trí đồng bộ hóa bằng khóa chính của bạn.
+Joplin does not support password/PIN protection for the [application itself or individual notes and notebooks](https://github.com/laurent22/joplin/issues/289). Dữ liệu vẫn được mã hóa khi chuyển tiếp và tại vị trí đồng bộ hóa bằng khóa chính của bạn. Since January 2023, Joplin supports biometrics app lock for [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) and [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
 
 ### Standard Notes
 
