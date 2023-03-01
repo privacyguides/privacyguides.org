@@ -501,7 +501,7 @@
         },
         "mkdocs-material": {
             "path": "./modules/mkdocs-material",
-            "version": "==9.0.15+insiders.4.32.1"
+            "version": "==9.1.0+insiders.4.32.2"
         },
         "mkdocs-material-extensions": {
             "hashes": [

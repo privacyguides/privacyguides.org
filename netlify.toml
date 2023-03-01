@@ -12,9 +12,14 @@
     Content-Security-Policy = "default-src 'none'; script-src https://www.privacyguides.org https://api.privacyguides.net 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src data: 'self'; connect-src https://api.github.com https://*.privacyguides.net 'self'; frame-src https://*.privacyguides.net; frame-ancestors 'none'"
 
 [[headers]]
-  for = "/about/donate/"
+  for = "/:lang/about/donate/"
   [headers.values]
-    Content-Security-Policy = "default-src 'none'; script-src https://opencollective.com https://www.privacyguides.org https://api.privacyguides.net 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src https://opencollective.com data: 'self'; connect-src https://api.github.com https://api.privacyguides.net 'self'; frame-src https://opencollective.com; frame-ancestors 'none'"
+    Content-Security-Policy = "default-src 'none'; script-src https://opencollective.com https://www.privacyguides.org https://api.privacyguides.net 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src https://opencollective.com data: 'self'; connect-src https://api.github.com https://*.privacyguides.net 'self'; frame-src https://opencollective.com; frame-ancestors 'none'"
+
+[[headers]]
+  for = "/:lang/tor/"
+  [headers.values]
+    Content-Security-Policy = "default-src 'none'; script-src https://www.privacyguides.org https://api.privacyguides.net 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src data: 'self'; connect-src https://api.github.com https://*.privacyguides.net 'self'; frame-src https://snowflake.torproject.org; frame-ancestors 'none'"
 
 [[redirects]]
     from = "/.well-known/matrix/*"

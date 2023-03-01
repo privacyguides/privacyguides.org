@@ -1,6 +1,6 @@
-[submodule "mkdocs-material-insiders"]
-	path = modules/mkdocs-material
-	url = git@github.com:privacyguides/mkdocs-material-insiders.git
 [submodule "theme/assets/brand"]
 	path = theme/assets/brand
 	url = https://github.com/privacyguides/brand.git
+[submodule "modules/mkdocs-material"]
+	path = modules/mkdocs-material
+	url = git@github.com:privacyguides/mkdocs-material-insiders.git
