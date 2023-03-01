@@ -2,9 +2,6 @@
     publish = "site/"
     command = "mkdocs build --config-file config/mkdocs.en.yml && mkdocs build --config-file config/mkdocs.he.yml && mkdocs build --config-file config/mkdocs.fr.yml && mkdocs build --config-file config/mkdocs.nl.yml && mv _redirects site/"
 
-[context.production.environment]
-    PRODUCTION = "true"
-
 [[headers]]
   for = "/*"
   [headers.values]

@@ -66,11 +66,11 @@ plugins:
   macros: {}
   meta: {}
   git-committers:
-    enabled: !ENV [PRODUCTION, false]
+    enabled: !ENV [NETLIFY, false]
     repository: privacyguides/privacyguides.org
     branch: main
   git-revision-date-localized:
-    enabled: !ENV [PRODUCTION, false]
+    enabled: !ENV [NETLIFY, false]
     exclude:
       - index.md
     fallback_to_build_date: true
@@ -78,6 +78,8 @@ plugins:
     external_assets_exclude:
       - cdn.jsdelivr.net/npm/mathjax@3/*
       - api.privacyguides.net/*
+  optimize:
+    enabled: !ENV [NETLIFY, false]
 
 markdown_extensions:
   admonition: {}
