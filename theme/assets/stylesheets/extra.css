@@ -325,6 +325,18 @@ details[class="downloads annotate"] > p .md-annotation span span::before {
     width: 1rem;
 }
 
+/* override language selector */
+.md-select button img.twemoji {
+    height: 1rem;
+    vertical-align: middle;
+}
+
+.md-select__link img.twemoji {
+    height: 1rem;
+    vertical-align: text-bottom;
+    margin-right: 1%;
+}
+
 /* Custom header + nav */
 .md-header >*, .md-tabs {
     background: none;   

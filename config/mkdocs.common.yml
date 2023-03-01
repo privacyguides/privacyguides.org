@@ -16,15 +16,19 @@ extra:
     - name: English
       link: /en/
       lang: en
+      icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1fa-1f1f8.svg
     - name: Français
       link: /fr/
       lang: fr
+      icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1eb-1f1f7.svg
     - name: עִברִית
       link: /he/
       lang: he
+      icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1ee-1f1f1.svg
     - name: Nederlands
       link: /nl/
       lang: nl
+      icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1f3-1f1f1.svg
 
 repo_url: https://github.com/privacyguides/privacyguides.org
 repo_name: ""
