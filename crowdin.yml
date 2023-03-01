@@ -15,8 +15,3 @@ files:
   translation_replace:
     "en.": ""
   skip_untranslated_files: false
-- source: "/config/mkdocs.en.yml"
-  translation: "/config/mkdocs.%two_letters_code%.yml"
-  translation_replace:
-    "en.": ""
-  skip_untranslated_files: false

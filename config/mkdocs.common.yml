@@ -34,7 +34,7 @@ theme:
   custom_dir: ../theme
   favicon: assets/img/brand/PNG/Favicon/favicon-32x32.png
   icon:
-    logo: octicons/shield-16
+    logo: octicons/shield-lock-16
     repo: simple/github
   font: false
   features:
