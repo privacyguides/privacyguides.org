@@ -34,7 +34,7 @@ Si vous utilisez actuellement une application comme Evernote, Google Keep, ou Mi
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
-Joplin ne prend pas en charge la protection par mot de passe/PIN de [l'application elle-même ou des notes et cahiers individuels](https://github.com/laurent22/joplin/issues/289). Les données sont toujours chiffrées en transit et à l'emplacement de la synchronisation à l'aide de votre clé principale.
+Joplin ne prend pas en charge la protection par mot de passe/PIN de [l'application elle-même ou des notes et cahiers individuels](https://github.com/laurent22/joplin/issues/289). Les données sont toujours chiffrées en transit et à l'emplacement de la synchronisation à l'aide de votre clé principale. Since January 2023, Joplin supports biometrics app lock for [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) and [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
 
 ### Standard Notes
 

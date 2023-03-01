@@ -34,7 +34,7 @@ Als je momenteel een toepassing zoals Evernote, Google Keep of Microsoft OneNote
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
-Joplin ondersteunt geen wachtwoord/PIN beveiliging voor de [applicatie zelf of individuele notities en notebooks](https://github.com/laurent22/joplin/issues/289). Gegevens worden nog steeds versleuteld tijdens het transport en op de synchronisatielocatie met behulp van jouw hoofdsleutel.
+Joplin ondersteunt geen wachtwoord/PIN beveiliging voor de [applicatie zelf of individuele notities en notebooks](https://github.com/laurent22/joplin/issues/289). Gegevens worden nog steeds versleuteld tijdens het transport en op de synchronisatielocatie met behulp van jouw hoofdsleutel. Since January 2023, Joplin supports biometrics app lock for [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) and [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
 
 ### Standard Notes
 
