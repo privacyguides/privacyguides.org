@@ -52,7 +52,10 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CARDS: true
         run: |
-          pipenv run mkdocs build --config-file mkdocs.production.yml
+          pipenv run mkdocs build --config-file config/mkdocs.en.yml
+          pipenv run mkdocs build --config-file config/mkdocs.fr.yml
+          pipenv run mkdocs build --config-file config/mkdocs.he.yml
+          pipenv run mkdocs build --config-file config/mkdocs.nl.yml
           mv .well-known site/
           pipenv run mkdocs --version
       
