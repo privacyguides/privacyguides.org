@@ -254,7 +254,7 @@ Tutanota doesn't support the [IMAP protocol](https://tutanota.com/faq/#imap) or 
     
     Tutanota also has a business feature called [Secure Connect](https://tutanota.com/secure-connect/). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
 
-## Email Aliasing Services
+## Email Aliasing Szolgáltatások
 
 An email aliasing service allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your email provider. True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like yourname+[anythinghere]@example.com, because websites, advertisers, and tracking networks can trivially remove anything after the + sign to know your true email address.
 
@@ -340,7 +340,7 @@ Notable free features:
 - [x] Unlimited Replies
 - [x] 1 Recipient Mailbox
 
-## Self-Hosting Email
+## Saját Üzemeltetésű Email
 
 Advanced system administrators may consider setting up their own email server. Mail servers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.
 

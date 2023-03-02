@@ -161,7 +161,7 @@ KeePassXC stocke ses données d'exportation sous forme de fichiers [CSV](https:/
 
     ![Logo KeePassDX](assets/img/password-management/keepassdx.svg){ align=right }
     
-    **KeePassDX** est un gestionnaire de mots de passe léger pour Android. Il permet de modifier des données cryptées dans un seul fichier au format KeePass et de remplir les formulaires de manière sécurisée. Il fonctionne sur tous les principaux systèmes d'exploitation de bureau et de serveur (Linux, macOS, BSD, Windows).
+    **KeePassDX** est un gestionnaire de mots de passe léger pour Android. Il permet de modifier des données chiffrées dans un seul fichier au format KeePass et de remplir les formulaires de manière sécurisée. [Contributeur Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) permet de débloquer du contenu cosmétique et des fonctions de protocole non standard, mais surtout, il aide et encourage le développement.
     
     [:octicons-home-16: Page d'accueil](https://www.keepassdx.com){ .md-button .md-button--primary }
     [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}

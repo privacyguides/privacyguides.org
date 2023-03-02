@@ -17,8 +17,8 @@ Aanvullende merkrichtlijnen zijn te vinden op [github.com/privacyguides/brand](h
 
 ## Handelsmerk
 
-"Privacy Guides" en het schild logo zijn handelsmerken eigendom van Jonah Aragon, onbeperkt gebruik is toegekend aan de Privacy Guides project.
+"Privacy Guides" en het schild logo zijn handelsmerken in eigendom van Jonah Aragon, onbeperkt gebruik is toegekend aan de Privacy Guides project.
 
-Zonder af te zien van zijn rechten, adviseren Privacy Guides niet anderen over de reikwijdte van zijn intellectuele-eigendomsrechten. Privacy Guides staat geen gebruik van haar handelsmerken toe op een manier die verwarring kan veroorzaken door associatie met of sponsoring door Privacy Guides te impliceren, en geeft daar ook geen toestemming voor. Als u op de hoogte bent van dergelijk gebruik, neem dan contact op met Jonah Aragon via jonah@privacyguides.org. Raadpleeg uw juridisch adviseur als u vragen hebt.
+Zonder af te zien van haar rechten, adviseert Privacy Guides anderen niet over de reikwijdte van haar intellectuele-eigendomsrechten. Privacy Guides staat geen gebruik van haar handelsmerken toe op een manier die verwarring kan veroorzaken door associatie met of sponsoring door Privacy Guides te impliceren, en geeft daar ook geen toestemming voor. Als u op de hoogte bent van dergelijk gebruik, neem dan contact op met Jonah Aragon via jonah@privacyguides.org. Raadpleeg uw juridisch adviseur als u vragen hebt.
 
 --8<-- "includes/abbreviations.nl.txt"

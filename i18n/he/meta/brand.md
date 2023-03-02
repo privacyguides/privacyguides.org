@@ -1,8 +1,8 @@
 ---
-title: Branding Guidelines
+title: הנחיות מיתוג
 ---
 
-The name of the website is **Privacy Guides** and should **not** be changed to:
+שם האתר הוא **Privacy Guides** ואין **לשנותו** ל:
 
 <div class="pg-red" markdown>
 - PrivacyGuides
@@ -11,14 +11,14 @@ The name of the website is **Privacy Guides** and should **not** be changed to:
 - PG.org
 </div>
 
-The name of the subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
+שם ה-Subreddit הוא **r/PrivacyGuides** או **the Privacy Guides Subreddit**.
 
-Additional branding guidelines can be found at [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
+ניתן למצוא הנחיות מיתוג נוספות בכתובת [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 
-## Trademark
+## סימן מסחרי
 
-"Privacy Guides" and the shield logo are trademarks owned by Jonah Aragon, unlimited usage is granted to the Privacy Guides project.
+"Privacy Guides" והלוגו של המגן הם סימנים מסחריים בבעלות Jonah Aragon, שימוש בלתי מוגבל מוענק לפרויקט Privacy Guides.
 
-Without waiving any of its rights, Privacy Guides does not advise others on the scope of its intellectual property rights. Privacy Guides does not permit or consent to any use of its trademarks in any manner that is likely to cause confusion by implying association with or sponsorship by Privacy Guides. If you are aware of any such use, please contact Jonah Aragon at jonah@privacyguides.org. Consult your legal counsel if you have questions.
+מבלי לוותר על אף אחת מזכויותיה, Privacy Guides אינם מייעצים לאחרים לגבי היקף זכויות הקניין הרוחני שלה. Privacy Guides אינם מתירים או מסכימים לכל שימוש בסימנים המסחריים שלו בכל דרך העלולה לגרום לבלבול על ידי רמיזה של קשר או חסות על ידי Privacy Guides. אם אתה מודע לשימוש כזה, אנא צור קשר עם Jonah Aragon בכתובת jonah@privacyguides.org. התייעץ עם היועץ המשפטי שלך אם יש לך שאלות.
 
 --8<-- "includes/abbreviations.he.txt"

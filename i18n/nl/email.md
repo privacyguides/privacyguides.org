@@ -3,7 +3,7 @@ title: "Email Diensten"
 icon: material/email
 ---
 
-E-mail is bijna een noodzaak voor het gebruik van elke online dienst, maar wij raden het niet aan voor gesprekken van persoon tot persoon. In plaats van e-mail te gebruiken om met andere mensen in contact te komen, kun je overwegen een instant messenger te gebruiken dat forward secrecy ondersteunt.
+E-mail is bijna een noodzaak voor het gebruik van elke online dienst, maar wij raden het niet aan voor gesprekken van persoon tot persoon. In plaats van e-mail te gebruiken om andere mensen te contacteren, kunt u overwegen een instant messaging medium te gebruiken dat forward secrecy ondersteunt.
 
 [Aanbevolen Instant Messengers](real-time-communication.md ""){.md-button}
 
@@ -13,11 +13,11 @@ Voor al het andere raden wij verschillende e-mailproviders aan op basis van duur
 
 Deze providers ondersteunen native OpenPGP-encryptie/decryptie, waardoor provider-agnostische E2EE-e-mails mogelijk zijn. Een Proton Mail-gebruiker zou bijvoorbeeld een E2EE-bericht kunnen sturen naar een Mailbox.org-gebruiker, of je zou OpenPGP-versleutelde meldingen kunnen ontvangen van internetdiensten die dit ondersteunen.
 
-!!! warning
+!!! warning "Waarschuwing"
 
-    Wanneer gebruik wordt gemaakt van E2EE-technologie zoals OpenPGP, zullen e-mailberichten nog steeds metagegevens bevatten die niet in de header van het e-mailbericht zijn gecodeerd. Lees meer over [e-mail metadata](basics/email-security.md#email-metadata-overview).
+    Wanneer gebruik wordt gemaakt van E2EE-technologie zoals OpenPGP, zullen e-mailberichten nog steeds metagegevens bevatten die niet zijn versleuteld in de header van het e-mailbericht. Lees meer over [e-mail metadata](basics/email-security.md#email-metadata-overview).
     
-    OpenPGP ondersteunt ook geen Forward secrecy, wat betekent dat als uw of de geadresseerde's private sleutel ooit wordt gestolen, alle eerdere berichten die ermee zijn versleuteld, openbaar worden. [Hoe bescherm ik mijn privé sleutels?](basics/email-security.md#how-do-i-protect-my-private-keys)
+    OpenPGP ondersteunt ook geen Forward secrecy, wat betekent dat als uw of de geadresseerde's privésleutel ooit wordt gestolen, alle eerdere berichten die ermee zijn versleuteld, openbaar worden. [Hoe bescherm ik mijn privésleutels?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### Proton Mail
 
@@ -25,11 +25,11 @@ Deze providers ondersteunen native OpenPGP-encryptie/decryptie, waardoor provide
 
     ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
     
-    **Proton Mail** is een e-maildienst met de nadruk op privacy, encryptie, veiligheid en gebruiksgemak. Ze zijn al actief sinds **2013**. Proton AG is gevestigd in Genève, Zwitserland. Accounts beginnen met 500 MB opslagruimte met hun gratis plan.
+    **Proton Mail** is een e-maildienst met focus op privacy, encryptie, veiligheid en gebruiksgemak. Ze zijn al actief sinds **2013**. Proton AG is gevestigd in Genève, Zwitserland. Accounts beginnen met 500 MB opslagruimte met hun gratis abonnement.
     
     [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
     [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }.
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacybeleid" }.
     [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Broncode" }
     
@@ -55,7 +55,7 @@ Proton Mail heeft interne crash rapporten die ze **niet** delen met derden. Dit 
 
 ??? success "Privé betaalmethoden"
 
-    Proton Mail [accepts](https://proton.me/support/payment-options) Bitcoin en contant geld per post naast de standaard credit/debetkaart en PayPal-betalingen.
+    Proton Mail [accepteerd](https://proton.me/support/payment-options) Bitcoin en contant geld per post naast de standaard credit/debetkaart en PayPal-betalingen.
 
 ??? success "Account beveiliging"
 
@@ -63,7 +63,7 @@ Proton Mail heeft interne crash rapporten die ze **niet** delen met derden. Dit 
 
 ??? success "Gegevens beveiliging"
 
-    Proton Mail heeft [zero-access encryption](https://proton.me/blog/zero-access-encryption) in rust voor jouw e-mails en [calendars](https://proton.me/news/protoncalendar-security-model). Gegevens die zijn beveiligd met zero access encryptie zijn alleen voor jouw toegankelijk.
+    Proton Mail heeft [zero-access encryption](https://proton.me/blog/zero-access-encryption) in rust voor jouw e-mails en [calendars](https://proton.me/news/protoncalendar-security-model). Gegevens die zijn beveiligd met zero-access encryptie zijn alleen voor jouw toegankelijk.
     
     Bepaalde in [Proton Contacts](https://proton.me/support/proton-contacts) opgeslagen informatie, zoals namen en e-mailadressen, zijn niet beveiligd met zero access encryptie. Contact velden die zero-access encryptie ondersteunen, zoals telefoonnummers, worden aangegeven met een hangslot pictogram.
 

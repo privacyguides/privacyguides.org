@@ -5,7 +5,7 @@ icon: material/vpn
 
 Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
-??? danger "VPNs do not provide anonymity"
+??? danger "A VPN-ek nem nyújtanak anonimitást"
 
     Egy VPN használata **nem** fogja anonimizálni a böngészési szokásaidat, és nem biztosít további védelmet nem biztonságos (HTTP) forgalomnak.
     
@@ -21,7 +21,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
     
     [More Info](basics/vpn-overview.md){ .md-button }
 
-## Recommended Providers
+## Ajánlott Szolgáltatók
 
 !!! abstract "Criteria"
 

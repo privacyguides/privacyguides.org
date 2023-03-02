@@ -142,7 +142,7 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 
 [További információ :material-arrow-right-drop-circle:](dns.md)
 
-#### Encrypted DNS Proxies
+#### Titkosított DNS proxyk
 
 <div class="grid cards" markdown>
 
@@ -153,7 +153,7 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 
 [További információ :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-#### Self-hosted Solutions
+#### Saját Üzemeltetésű Megoldások
 
 <div class="grid cards" markdown>
 
@@ -177,7 +177,7 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 
 [További információ :material-arrow-right-drop-circle:](email.md)
 
-#### Email Aliasing Services
+#### Email Aliasing Szolgáltatások
 
 <div class="grid cards" markdown>
 
@@ -188,7 +188,7 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 
 [További információ :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
 
-#### Self-Hosting Email
+#### Saját Üzemeltetésű Email
 
 <div class="grid cards" markdown>
 
@@ -199,7 +199,7 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 
 [További információ :material-arrow-right-drop-circle:](email.md#self-hosting-email)
 
-### Search Engines
+### Keresőmotorok
 
 <div class="grid cards" markdown>
 
@@ -214,7 +214,7 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 
 ### VPN Szolgáltatók
 
-??? danger "VPNs do not provide anonymity"
+??? danger "A VPN-ek nem nyújtanak anonimitást"
 
     Egy VPN használata **nem** fogja anonimizálni a böngészési szokásaidat, és nem biztosít további védelmet nem biztonságos (HTTP) forgalomnak.
     

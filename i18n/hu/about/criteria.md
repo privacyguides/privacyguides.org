@@ -4,15 +4,15 @@ title: Általános Követelmények
 
 !!! example "Folyamatban lévő munka"
 
-    Az alábbi oldal egy folyamatban lévő munka, és jelenleg nem tükrözi ajánlásaink teljes körű kritériumait. Korábbi beszélgetés erről a témáról: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+    Az alábbi oldal egy folyamatban lévő munka, és jelenleg nem tükrözi az ajánlásaink teljes körű követelményeit. Korábbi beszélgetés erről a témáról: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
 
 Below are some things that must apply to all submissions to Privacy Guides. Each category will have additional requirements for inclusion.
 
-## Financial Disclosure
+## Pénzügyi Nyilatkozat
 
-We do not make money from recommending certain products, we do not use affiliate links, and we do not provide special consideration to project donors.
+Nem keresünk pénzt bizonyos termékek ajánlásával, nem használunk affiliate linkeket, és nem nyújtunk különleges bánásmódot a projekt adományozóinak.
 
-## General Guidelines
+## Általános Irányelvek
 
 We apply these priorities when considering new recommendations:
 

@@ -1,5 +1,5 @@
 ---
-title: "Multi-Factor Authentication"
+title: "Multi-Factor Authentication - Többlépcsős Hitelesítés"
 icon: 'material/two-factor-authentication'
 ---
 

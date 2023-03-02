@@ -5,7 +5,7 @@ icon: material/notebook-edit-outline
 
 Kövesd nyomon jegyzeteid és naplóid anélkül, hogy harmadik félnek adnád át azokat.
 
-If you are currently using an application like Evernote, Google Keep, or Microsoft OneNote, we suggest you pick an alternative here that supports E2EE.
+Ha jelenleg olyan alkalmazást használsz, mint az Evernote, a Google Keep vagy a Microsoft OneNote, javasoljuk, hogy válassz egy olyan alternatívát, amely támogatja az End-to-End titksoítást.
 
 ## Felhő-alapú
 
@@ -15,13 +15,13 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
     ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
     
-    **Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle a large number of markdown notes organized into notebooks and tags. It offers E2EE and can sync through Nextcloud, Dropbox, and more. It also offers easy import from Evernote and plain-text notes.
+    A **Joplin** egy ingyenes, nyílt forráskódú, teljesen felszerelt jegyzetkezelő és teendő vezető alkalmazás, amely nagyszámú, jegyzetfüzetekbe és címkékbe rendezett markdown jegyzeteket képes kezelni. End-to-End titkosítást kínál, és képes szinkronizálni a Nextcloudon, a Dropboxon és sok máson keresztül is. Evernote és nyílt szöveges jegyzetek egyszerű importálását is lehetővé teszi.
     
-    [:octicons-home-16: Homepage](https://joplinapp.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://joplinapp.org/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://joplinapp.org/help/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: Honlap](https://joplinapp.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://joplinapp.org/privacy/){ .card-link title="Adatvédelmi Nyilatkozat" }
+    [:octicons-info-16:](https://joplinapp.org/help/){ .card-link title=Dokumentáció}
+    [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Forráskód" }
+    [:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Közreműködés }
     
     ??? downloads
     
@@ -34,7 +34,7 @@ If you are currently using an application like Evernote, Google Keep, or Microso
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
-Joplin does not support password/PIN protection for the [application itself or individual notes and notebooks](https://github.com/laurent22/joplin/issues/289). However, your data is still encrypted in transit and at the sync location using your master key. Since January 2023, Joplin supports biometrics app lock for [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) and [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
+A Joplin nem támogatja a jelszavas/PIN-kódos védelmet magához az [alkalmazáshoz vagy egyes jegyzetekhez és jegyzetfüzetekhez](https://github.com/laurent22/joplin/issues/289). Ettől függetlenül az adatok szállítás közben és a szinkronizáció helyén is titkosítva lesznek a főkulcs segítségével. Since January 2023, Joplin supports biometrics app lock for [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) and [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
 
 ### Standard Notes
 

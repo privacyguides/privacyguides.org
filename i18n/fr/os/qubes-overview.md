@@ -1,5 +1,5 @@
 ---
-title: "Présentation de Qubes"
+title: "Introduction à Qubes"
 icon: simple/qubesos
 ---
 

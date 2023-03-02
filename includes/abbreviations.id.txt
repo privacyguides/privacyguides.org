@@ -1,20 +1,20 @@
-*[2FA]: 2-Factor Authentication
-*[ADB]: Android Debug Bridge
-*[AOSP]: Android Open Source Project
-*[ATA]: Advanced Technology Attachment
-*[attack surface]: The total number of possible entry points for unauthorized access to a system
-*[AVB]: Android Verified Boot
-*[cgroups]: Control Groups
-*[CLI]: Command Line Interface
-*[CSV]: Comma-Separated Values
-*[CVE]: Common Vulnerabilities and Exposures
-*[Digital Legacy]: Digital Legacy refers to features that allow you to give other people access to your data when you die
-*[DNSSEC]: Domain Name System Security Extensions
-*[DNS]: Domain Name System
-*[DoH]: DNS over HTTPS
-*[DoQ]: DNS over QUIC
-*[DoH3]: DNS over HTTP/3
-*[DoT]: DNS over TLS
+*[2FA]: Autentikasi 2 Faktor
+*[ADB]: Jembatan Debug Android
+*[AOSP]: Proyek Sumber Terbuka Android
+*[ATA]: Lampiran Teknologi Canggih
+*[permukaan serangan]: Jumlah total titik masuk yang mungkin untuk akses tidak sah ke sistem
+*[AVB]: Boot Terverifikasi Android
+*[cgroups]: Kelompok Kontrol
+*[CLI]: Antarmuka Baris Perintah
+*[CSV]: Nilai yang Dipisahkan dengan Koma
+*[CVE]: Kerentanan dan Paparan Umum
+*[Warisan Digital]: Warisan Digital mengacu pada fitur yang memungkinkan Anda untuk memberikan akses ke data Anda kepada orang lain ketika Anda meninggal dunia
+*[DNSSEC]: Ekstensi Keamanan Sistem Nama Domain
+*[DNS]: Sistem Nama Domain
+*[DoH]: DNS melalui HTTPS
+*[DoQ]: DNS melalui QUIC
+*[DoH3]: DNS melalui HTTP/3
+*[DoT]: DNS melalui TLS
 *[E2EE]: End-to-End Encryption/Encrypted
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area

@@ -1,89 +1,89 @@
 ---
-title: Writing Style
+title: סגנון כתיבה
 ---
 
-Privacy Guides is written in American English, and you should refer to [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) when in doubt.
+Privacy Guides כתובים באנגלית אמריקאית, וכדאי לעיין ב-[APA הנחיות סגנון](https://apastyle.apa.org/style-grammar-guidelines/grammar) כאשר יש ספק.
 
-In general the [United States federal plain language guidelines](https://www.plainlanguage.gov/guidelines/) provide a good overview of how to write clearly and concisely. We highlight a few important notes from these guidelines below.
+באופן כללי [ההנחיות הפדרליות לשפה פשוטה של ארצות הברית](https://www.plainlanguage.gov/guidelines/) מספקות סקירה כללית טובה של איך לכתוב בצורה ברורה ותמציתית. אנו מדגישים כמה הערות חשובות מהנחיות אלה להלן.
 
-## Writing for our audience
+## כתיבה עבור הקהל שלנו
 
-Privacy Guides' intended [audience](https://www.plainlanguage.gov/guidelines/audience/) is primarily average, technology using adults. Don't dumb down content as if you are addressing a middle-school class, but don't overuse complicated terminology about concepts average computer users wouldn't be familiar with.
+[הקהל](https://www.plainlanguage.gov/guidelines/audience/) המיועד של Privacy Guides הוא בעיקר טכנולוגיה ממוצעת שמבוגרים משתמשים בה. אל תאט תוכן כאילו אתה פונה לכיתה בחטיבת הביניים, אבל אל תשתמש יתר על המידה בטרמינולוגיה מסובכת לגבי מושגים שמשתמשי מחשב ממוצעים לא היו מכירים.
 
-### Address only what people want to know
+### התייחס רק למה שאנשים רוצים לדעת
 
-People don't need overly complex articles with little relevance to them. Figure out what you want people to accomplish when writing an article, and only include those details.
+אנשים לא צריכים מאמרים מורכבים מדי עם מעט רלוונטיות עבורם. גלה מה אתה רוצה שאנשים ישיגו בעת כתיבת מאמר, וכלול רק את הפרטים האלה.
 
-> Tell your audience why the material is important to them. Say, “If you want a research grant, here’s what you have to do.” Or, “If you want to mine federal coal, here’s what you should know.” Or, “If you’re planning a trip to Rwanda, read this first.”
+> ספר לקהל שלך מדוע החומר חשוב לו. תגיד, "אם אתה רוצה מענק מחקר, הנה מה שאתה צריך לעשות." או, "אם אתה רוצה לכרות פחם פדרלי, הנה מה שאתה צריך לדעת." או, "אם אתה מתכנן טיול לרואנדה, קרא את זה קודם."
 
-### Address people directly
+### פנה ישירות לאנשים
 
-We're writing *for* a wide variety of people, but we are writing *to* the person who is actually reading it. Use "you" to address the reader directly.
+אנו כותבים *עבור* מגוון רחב של אנשים, אך אנו כותבים *ל*אדם שקורא בפועל את זה. השתמש ב"אתה" כדי לפנות ישירות לקורא.
 
-> More than any other single technique, using “you” pulls users into the information and makes it relevant to them.
+> יותר מכל טכניקה בודדת אחרת, השימוש ב"אתה" מושך משתמשים לתוך המידע והופך אותו לרלוונטי עבורם.
 > 
-> When you use “you” to address users, they are more likely to understand what their responsibility is.
+> כאשר אתה משתמש ב"אתה" כדי לפנות למשתמשים, סביר יותר שהם יבינו מהי האחריות שלהם.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
+מקור: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
 
-### Avoid "users"
+### הימנעו מ"משתמשים "
 
-Avoid calling people "users", in favor of "people", or a more specific description of the group of people you are writing for.
+הימנע מלקרוא לאנשים "משתמשים", לטובת "אנשים", או תיאור ספציפי יותר של קבוצת האנשים עבורם אתה כותב.
 
-## Organizing content
+## ארגון תוכן
 
-Organization is key. Content should flow from most to least important information, and use headers as much as needed to logically separate different ideas.
+ארגון הוא המפתח. התוכן צריך לזרום מהמידע החשוב ביותר לפחות, ולהשתמש בכותרות ככל שצריך כדי להפריד באופן הגיוני בין רעיונות שונים.
 
-- Limit the document to around five or six sections. Long documents should probably be broken up into separate pages.
-- Mark important ideas with **bold** or *italics*.
+- הגבל את המסמך לסביבות חמישה או שישה חלקים. מסמכים ארוכים כנראה צריכים להיות מחולקים לדפים נפרדים.
+- סמן רעיונות חשובים ב**מודגש** או ב*אותיות מוטות*.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
+מקור: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
 
-### Begin with a topic sentence
+### התחל במשפט נושא
 
-> If you tell your reader what they’re going to read about, they’re less likely to have to read your paragraph again. Headings help, but they’re not enough. Establish a context for your audience before you provide them with the details.
+> אם תספר לקורא שלך על מה הוא הולך לקרוא, סביר להניח שהם יצטרכו לקרוא שוב את הפסקה שלך. כותרות עוזרות, אבל הן לא מספיקות. קבע הקשר לקהל שלך לפני שאתה מספק לו את הפרטים.
 > 
-> We often write the way we think, putting our premises first and then our conclusion. It may be the natural way to develop thoughts, but we wind up with the topic sentence at the end of the paragraph. Move it up front and let users know where you’re going. Don’t make readers hold a lot of information in their heads before getting to the point.
+> לעתים קרובות אנו כותבים את הדרך שבה אנו חושבים, שמים את הנחות היסוד שלנו קודם כל ואחר כך את המסקנה שלנו. זו אולי הדרך הטבעית לפתח מחשבות, אבל אנחנו מסיימים עם משפט הנושא בסוף הפסקה. הזז אותו לפנים ואפשר למשתמשים לדעת לאן אתה הולך. אל תגרמו לקוראים להחזיק הרבה מידע בראש לפני שהם מגיעים לנקודה.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
+מקור: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
 
-## Choose your words carefully
+## בחר את המילים שלך בקפידה
 
-> Words matter. They are the most basic building blocks of written and spoken communication. Don’t complicate things by using jargon, technical terms, or abbreviations that people won’t understand.
+> המילים חשובות. הם אבני הבניין הבסיסיות ביותר של תקשורת כתובה ומדוברת. אל תסבך דברים על ידי שימוש בז'רגון, מונחים טכניים או קיצורים שאנשים לא יבינו.
 
-We should try to avoid abbreviations where possible, but technology is full of abbreviations. In general, spell out the abbreviation/acronym the first time it is used on a page, and add the abbreviation to the abbreviation glossary file when it is used repeatedly.
+כדאי לנסות להימנע מקיצורי מילים במידת האפשר, אבל הטכנולוגיה מלאה בקיצורי מילים. באופן כללי, יש לאיית את הקיצור/ראשי התיבות בפעם הראשונה שבה נעשה בו שימוש בדף, והוסיפו את הקיצור מילים לקובץ מילון המונחים של הקיצור מילים כאשר נעשה בו שימוש חוזר.
 
 > Kathy McGinty offers tongue-in-cheek instructions for bulking up your simple, direct sentences:
 > 
-> > There is no escaping the fact that it is considered very important to note that a number of various available applicable studies ipso facto have generally identified the fact that additional appropriate nocturnal employment could usually keep juvenile adolescents off thoroughfares during the night hours, including but not limited to the time prior to midnight on weeknights and/or 2 a.m. on weekends.
+> > אין מנוס מהעובדה כי חשוב מאוד לציין כי מספר מחקרים ישימים שונים זיהו בדרך כלל את העובדה כי תעסוקה לילית מתאימה נוספת יכולה בדרך כלל לשמור על מתבגרים צעירים מחוץ לכבישים במהלך שעות הלילה, כולל אך לא מוגבל לזמן שלפני חצות בלילות השבוע ו/או 2 לפנות בוקר. בסופי שבוע.
 > 
-> And the original, using stronger, simpler words:
+> והמקור, תוך שימוש במילים חזקות ופשוטות יותר:
 > 
-> > More night jobs would keep youths off the streets.
+> > עוד עבודות לילה ירחיקו את הצעירים מהרחובות.
 
-## Be concise
+## תהיה תמציתי
 
-> Unnecessary words waste your audience’s time. Great writing is like a conversation. Omit information that the audience doesn’t need to know. This can be difficult as a subject matter expert so it’s important to have someone look at the information from the audience’s perspective.
+> מילים מיותרות מבזבזות את הזמן של הקהל שלך. כתיבה נהדרת היא כמו שיחה. השמט מידע שהקהל לא צריך לדעת. זה יכול להיות קשה כמומחה לנושא ולכן חשוב שמישהו יסתכל על המידע מנקודת המבט של הקהל.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
+מקור: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
-## Keep text conversational
+## שמור על שיחות טקסט
 
-> Verbs are the fuel of writing. They give your sentences power and direction. They enliven your writing and make it more interesting.
+> פעלים הם הדלק של הכתיבה. הם נותנים למשפטים שלך כוח וכיוון. הם מחדשים את הכתיבה שלך והופכים אותה למעניינת יותר.
 > 
-> Verbs tell your audience what to do. Make sure it’s clear who does what.
+> הפעלים אומרים לקהל שלך מה לעשות. ודא שברור מי עושה מה.
 
-### Use active voice
+### השתמש בקול פעיל
 
-> Active voice makes it clear who is supposed to do what. It eliminates ambiguity about responsibilities. Not “It must be done,” but “You must do it.”
+> קול פעיל מבהיר מי אמור לעשות מה. זה מבטל אי בהירות לגבי אחריות. לא "זה חייב להיעשות", אלא "אתה חייב לעשות את זה."
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
+מקור: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
 
-### Use "must" for requirements
+### השתמש ב"חייב" לדרישות
 
-> - “must” for an obligation
-> - “must not” for a prohibition
-> - “may” for a discretionary action
-> - “should” for a recommendation
+> - "חייב" להתחייבות
+> - "אסור" לאיסור
+> - "רשאי" לפעולה לפי שיקול דעת
+> - "צריך" להמלצה
 
 --8<-- "includes/abbreviations.he.txt"

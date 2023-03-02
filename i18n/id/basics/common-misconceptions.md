@@ -1,61 +1,61 @@
 ---
-title: "Common Misconceptions"
+title: "Kesalahpahaman Umum"
 icon: 'material/robot-confused'
 ---
 
-## "Open-source software is always secure" or "Proprietary software is more secure"
+## "Perangkat lunak sumber terbuka selalu aman" atau "Perangkat lunak sumber tertutup lebih aman"
 
-These myths stem from a number of prejudices, but whether the source code is available and how software is licensed does not inherently affect its security in any way. ==Open-source software has the *potential* to be more secure than proprietary software, but there is absolutely no guarantee this is the case.== When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+Mitos-mitos ini berasal dari sejumlah prasangka, tetapi apakah kode sumber tersedia dan bagaimana perangkat lunak dilisensikan tidak secara inheren memengaruhi keamanannya dengan cara apa pun. ==Perangkat lunak sumber terbuka memiliki *potensi* untuk lebih aman daripada perangkat lunak sumber tertutup, tetapi sama sekali tidak ada jaminan bahwa hal ini benar adanya.== Ketika Anda mengevaluasi perangkat lunak, Anda harus melihat reputasi dan keamanan setiap alat secara individu.
 
-Open-source software *can* be audited by third-parties, and is often more transparent about potential vulnerabilities than proprietary counterparts. It also allows you to review the code and disable any suspicious functionality you find yourself. However, *unless you do so*, there is no guarantee that code has ever been evaluated, especially with smaller software projects. The open development process has also sometimes been exploited to introduce new vulnerabilities into even large projects.[^1]
+Perangkat lunak sumber terbuka *dapat* diaudit oleh pihak ketiga, dan sering kali lebih transparan mengenai potensi kerentanan daripada perangkat lunak sumber tertutup. Ini juga memungkinkan Anda untuk meninjau kode dan menonaktifkan fungsionalitas yang mencurigakan yang Anda temukan. Namun, *kecuali jika Anda melakukannya*, tidak ada jaminan bahwa kode pernah dievaluasi, terutama dengan proyek perangkat lunak yang lebih kecil. Proses pengembangan terbuka juga terkadang dieksploitasi untuk memperkenalkan kerentanan baru ke dalam proyek-proyek besar sekalipun.[^1]
 
-On the flip side, proprietary software is less transparent, but that doesn't imply that it's not secure. Major proprietary software projects can be audited internally and by third-party agencies, and independent security researchers can still find vulnerabilities with techniques like reverse engineering.
+Di sisi lain, perangkat lunak sumber tertutup itu kurang transparan, tetapi bukan berarti tidak aman. Proyek-proyek perangkat lunak sumber tertutup utama dapat diaudit secara internal dan oleh lembaga pihak ketiga, dan para peneliti keamanan independen masih bisa menemukan kerentanan dengan teknik seperti rekayasa balik.
 
-To avoid biased decisions, it's *vital* that you evaluate the privacy and security standards of the software you use.
+Untuk menghindari keputusan yang memiliki bias, ini sangat *penting* bagi Anda untuk mengevaluasi standar privasi dan keamanan perangkat lunak yang Anda gunakan.
 
-## "Shifting trust can increase privacy"
+## "Menggeser kepercayaan dapat meningkatkan privasi"
 
-We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP *specifically*, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties. This means that:
+Kami banyak membicarakan tentang "pergeseran kepercayaan" saat membahas solusi seperti VPN (yang menggeser kepercayaan yang Anda tempatkan pada ISP Anda ke penyedia VPN). Meskipun ini melindungi data penjelajahan Anda dari ISP Anda *secara khusus*, penyedia VPN yang Anda pilih masih memiliki akses ke data penjelajahan Anda: Data Anda tidak sepenuhnya aman dari semua pihak. Ini berarti bahwa:
 
-1. You must exercise caution when choosing a provider to shift trust to.
-2. You should still use other techniques, like E2EE, to protect your data completely. Merely distrusting one provider to trust another is not securing your data.
+1. Anda harus berhati-hati saat memilih penyedia untuk mengalihkan kepercayaan.
+2. Anda tetap harus menggunakan teknik lain, seperti E2EE, untuk melindungi data Anda sepenuhnya. Hanya dengan tidak mempercayai satu penyedia layanan untuk mempercayai penyedia layanan lainnya tidak akan mengamankan data Anda.
 
-## "Privacy-focused solutions are inherently trustworthy"
+## "Solusi yang berfokus pada privasi pada dasarnya dapat dipercaya"
 
-Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](../encryption.md#cryptomator-cloud)) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+Berfokus hanya pada kebijakan privasi dan pemasaran sebuah alat atau penyedia layanan bisa membutakan Anda terhadap kelemahannya. Ketika Anda mencari solusi yang lebih pribadi, Anda harus menentukan apa masalah yang mendasarinya dan menemukan solusi teknis untuk masalah tersebut. Sebagai contoh, Anda mungkin ingin menghindari Google Drive, yang memberikan akses ke semua data Anda kepada Google. Masalah yang mendasari dalam kasus ini adalah kurangnya E2EE, jadi Anda harus memastikan bahwa penyedia yang Anda pilih benar-benar mengimplementasikan E2EE, atau menggunakan alat bantu (seperti [Cryptomator](../encryption.md#cryptomator-cloud)) yang menyediakan E2EE pada penyedia cloud mana pun. Beralih ke penyedia yang "berfokus pada privasi" (yang tidak menerapkan E2EE) tidak akan menyelesaikan masalah Anda: ini hanya mengalihkan kepercayaan dari Google ke penyedia tersebut.
 
-The privacy policies and business practices of providers you choose are very important, but should be considered secondary to technical guarantees of your privacy: You shouldn't shift trust to another provider when trusting a provider isn't a requirement at all.
+Kebijakan privasi dan praktik bisnis penyedia yang Anda pilih sangat penting, tetapi harus dianggap nomor dua setelah jaminan teknis privasi Anda: Anda seharusnya tidak boleh mengalihkan kepercayaan ke penyedia lain ketika mempercayai penyedia sama sekali tidak menjadi persyaratan.
 
-## "Complicated is better"
+## "Rumit itu lebih baik"
 
-We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like many different email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do *X*?"
+Kami sering melihat orang menggambarkan model ancaman privasi yang terlalu rumit. Sering kali, solusi ini mencakup masalah seperti banyak akun email yang berbeda atau pengaturan yang rumit dengan banyak bagian dan kondisi yang bergerak. Balasan biasanya berupa jawaban atas pertanyaan "Apa cara terbaik untuk melakukan *X*?"
 
-Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience. Below, we provide some tips:
+Menemukan solusi "terbaik" untuk diri Anda sendiri tidak selalu berarti Anda mencari solusi yang sempurna dengan lusinan kondisi—solusi ini sering kali sulit untuk diterapkan secara realistis. Seperti yang telah kami bahas sebelumnya, keamanan sering kali mengorbankan kenyamanan. Di bawah ini, kami memberikan beberapa kiat:
 
-1. ==Actions need to serve a particular purpose:== think about how to do what you want with the fewest actions.
-2. ==Remove human failure points:== We fail, get tired, and forget things. To maintain security, avoid relying on manual conditions and processes that you have to remember.
-3. ==Use the right level of protection for what you intend.== We often see recommendations of so-called law-enforcement or subpoena-proof solutions. These often require specialist knowledge and generally aren't what people want. There's no point in building an intricate threat model for anonymity if you can be easily de-anonymized by a simple oversight.
+1. ==Tindakan harus memiliki tujuan tertentu:== Pikirkan tentang cara melakukan apa yang Anda inginkan dengan tindakan yang paling sedikit.
+2. ==Menghilangkan titik-titik kegagalan manusia:== Kita gagal, lelah, dan melupakan hal-hal. Untuk menjaga keamanan, hindari mengandalkan kondisi dan proses manual yang harus Anda ingat.
+3. ==Gunakan tingkat perlindungan yang tepat untuk apa yang Anda inginkan.== Kami sering melihat rekomendasi yang disebut sebagai solusi penegakan hukum atau solusi antisomasi. Hal ini sering kali membutuhkan pengetahuan khusus dan umumnya tidak sesuai dengan keinginan banyak orang. Tidak ada gunanya membangun model ancaman yang rumit untuk anonimitas jika Anda dapat dengan mudah dibocorkan identitasnya hanya karena sebuah kesalahan.
 
-So, how might this look?
+Jadi, bagaimana ini terlihat?
 
-One of the clearest threat models is one where people *know who you are* and one where they do not. There will always be situations where you must declare your legal name and there are others where you don't need to.
+Salah satu model ancaman yang paling jelas adalah model di mana orang *tahu siapa Anda* dan model di mana mereka tidak tahu. Di situ akan selalu ada situasi di mana Anda harus menyatakan nama resmi Anda dan ada situasi lain di mana Anda tidak perlu melakukannya.
 
-1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
+1. **Identitas yang diketahui** - Identitas yang diketahui digunakan untuk hal-hal yang mengharuskan Anda untuk menyatakan nama Anda. Ada banyak dokumen hukum dan kontrak yang memerlukan identitas hukum. Hal ini dapat berkisar dari membuka rekening bank, menandatangani sewa properti, mendapatkan paspor, deklarasi bea cukai saat mengimpor barang, atau berurusan dengan pemerintah Anda. Hal-hal ini biasanya akan mengarah pada kredensial seperti kartu kredit, pemeriksaan peringkat kredit, nomor rekening, dan mungkin alamat fisik.
 
-    We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
+    Kami tidak menyarankan menggunakan VPN atau Tor untuk hal-hal ini, karena identitas Anda sudah diketahui melalui cara lain.
 
     !!! tip
    
-        When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
+        Saat berbelanja secara daring, penggunaan [loker paket] (https://en.wikipedia.org/wiki/Parcel_locker) dapat membantu menjaga kerahasiaan alamat fisik Anda.
 
-2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're part of an online community, you may wish to retain a persona that others know. This pseudonym isn't anonymous because—if monitored for long enough—details about the owner can reveal further information, such as the way they write, their general knowledge about topics of interest, etc.
+2. **Identitas tidak dikenal** - Identitas yang tidak dikenal dapat berupa nama samaran yang stabil yang sering Anda gunakan. Ini tidak anonim karena tidak berubah. Jika Anda adalah bagian dari komunitas daring, Anda mungkin ingin mempertahankan persona yang dikenal orang lain. Nama samaran ini tidak anonim karena—jika dipantau cukup lama—rincian tentang pemiliknya dapat mengungkapkan informasi lebih lanjut, seperti cara mereka menulis, pengetahuan umum mereka tentang topik yang diminati, dll.
 
-    You may wish to use a VPN for this, to mask your IP address. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](https://www.getmonero.org/). Employing altcoin shifting may also help to disguise where your currency originated. Typically, exchanges require KYC (know your customer) to be completed before they'll allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
+    Anda mungkin ingin menggunakan VPN untuk hal ini, untuk menyembunyikan alamat IP Anda. Transaksi keuangan lebih sulit untuk disamarkan: Anda dapat mempertimbangkan untuk menggunakan mata uang kripto anonim, seperti [Monero](https://www.getmonero.org/). Menggunakan pengalihan altcoin juga dapat membantu menyamarkan dari mana mata uang Anda berasal. Biasanya, bursa memerlukan KYC (kenali pelanggan Anda) untuk diselesaikan sebelum mereka mengizinkan Anda menukar mata uang fiat ke mata uang kripto apa pun. Opsi pertemuan lokal juga dapat menjadi solusi; namun, biasanya lebih mahal dan terkadang juga memerlukan KYC.
 
-3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
+3. **Identitas anonim** - Bahkan dengan pengalaman, identitas anonim sulit untuk dipertahankan dalam jangka waktu yang lama. Identitas tersebut haruslah identitas jangka pendek dan berumur pendek yang dirotasi secara teratur.
 
-    Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
+    Menggunakan Tor dapat membantu dalam hal ini. Perlu juga dicatat bahwa anonimitas yang lebih baik dimungkinkan melalui komunikasi asinkron: Komunikasi waktu nyata rentan terhadap analisis pola pengetikan (misalnya lebih dari satu paragraf teks, didistribusikan di forum, melalui surel, dll.)
 
 --8<-- "includes/abbreviations.id.txt"
 
-[^1]: One notable example of this is the [2021 incident in which University of Minnesota researchers introduced three vulnerabilities into the Linux kernel development project](https://cse.umn.edu/cs/linux-incident).
+[^1]: Salah satu contoh penting dari hal ini adalah [insiden pada 2021 di mana para peneliti Universitas Minnesota memperkenalkan tiga kerentanan ke dalam proyek pengembangan kernel Linux](https://cse.umn.edu/cs/linux-incident).

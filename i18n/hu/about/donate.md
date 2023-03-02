@@ -25,7 +25,7 @@ Egy különleges köszönet mindazoknak akik támogatják a küldetésünket! :h
 
 ## Hogyan Használjuk Fel az Adományokat
 
-A Privacy Guides egy **nonprofit** szervezet. Az adományokat különböző célokra használjuk fel, többek között:
+A Privacy Guides egy **non-profit** szervezet. Az adományokat különböző célokra használjuk fel, többek között:
 
 **Domain Regisztrációk**
 :

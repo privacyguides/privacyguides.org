@@ -1,12 +1,12 @@
 ---
-title: "Privacy Policy"
+title: "Adatvédelmi Nyilatkozat"
 ---
 
 A Privacy Guides egy közösségi projekt, amelyet számos aktív önkéntes közreműködő működtet. A csapattagok nyilvános listája [megtalálható a GitHub-on](https://github.com/orgs/privacyguides/people).
 
 ## Látogatókról Gyűjtött Adatok
 
-Fontos számunkra weboldalunk látogatóinak magánélete, ezért nem követünk egyetlen önálló személyt sem. Mint a honlapunk látogatója:
+Fontos számunkra weboldalunk látogatóinak magánélete, ezért nem követünk egyetlen önálló személyt sem. Weboldalunk látogatójaként:
 
 - Semmilyen személyes információt nem gyűjtünk
 - Semmilyen sütihez hasonló információ nincs tárolva a böngészőben

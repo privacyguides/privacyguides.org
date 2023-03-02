@@ -1,44 +1,44 @@
 ---
-title: Git Recommendations
+title: המלצות Git
 ---
 
-If you make changes to this website on GitHub.com's web editor directly, you shouldn't have to worry about this. If you are developing locally and/or are a long-term website editor (who should probably be developing locally!), consider these recommendations.
+אם אתה מבצע שינויים באתר זה בעורך האינטרנט של GitHub.com ישירות, אתה לא צריך לדאוג בקשר לזה. אם אתה מפתח מקומי ו/או עורך אתרים לטווח ארוך (שכנראה צריך לפתח מקומי!), שקול את ההמלצות האלה.
 
-## Enable SSH Key Commit Signing
+## הפעל חתימת SSH Key Commit
 
-You can use an existing SSH key for signing, or [create a new one](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+אתה יכול להשתמש במפתח SSH קיים לחתימה, או [צור אחד חדש](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
-1. Configure your Git client to sign commits and tags by default (remove `--global` to only sign by default for this repo):
+1. הגדר את לקוח Git שלך לחתום על התחייבויות ותגים כברירת מחדל (הסר את `--global` כדי לחתום רק כברירת מחדל עבור repo זה):
    ```
    git config --global commit.gpgsign true
    git config --global gpg.format ssh
    git config --global tag.gpgSign true
    ```
-2. Copy your SSH public key to your clipboard, for example:
+2. העתק את מפתח ה-SSH הציבורי שלך ללוח שלך, לדוגמה:
    ```
    pbcopy < ~/.ssh/id_ed25519.pub
     # Copies the contents of the id_ed25519.pub file to your clipboard
    ```
-3. Set your SSH key for signing in Git with the following command, replacing the last string in quotes with the public key in your clipboard:
+3. הגדר את מפתח ה-SSH שלך לכניסה ל-Git עם הפקודה הבאה, החלפת המחרוזת האחרונה במרכאות במפתח הציבורי בלוח שלך:
    ```
    git config --global user.signingkey 'ssh-ed25519 AAAAC3(...) user@example.com'
    ```
 
-Ensure you [add your SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **as a Signing Key** (as opposed to or in addition to as an Authentication Key).
+ודא שאתה [מוסיף את מפתח ה-SSH שלך לחשבון GitHub שלך](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **כמפתח חתימה** (בניגוד ל או בנוסף כמפתח אימות).
 
-## Rebase on Git pull
+## Rebase על Git pull
 
-Use `git pull --rebase` instead of `git pull` when pulling in changes from GitHub to your local machine. This way your local changes will always be "on top of" the latest changes on GitHub, and you avoid merge commits (which are disallowed in this repo).
+השתמש ב-`git pull --rebase` במקום ב-`git pull` בעת שליפת שינויים מ-GitHub למחשב המקומי שלך. כך השינויים המקומיים שלך תמיד יהיו "על גבי" השינויים האחרונים ב-GitHub, ואתה נמנע מהתחייבויות מיזוג (שאסורות בrepo זה).
 
-You can set this to be the default behavior:
+אתה יכול להגדיר זאת כהתנהגות ברירת המחדל:
 
 ```
 git config --global pull.rebase true
 ```
 
-## Rebase from `main` before submitting a PR
+## Rebase מ`הראשי` לפני שליחת יחסי ציבור (PR)
 
-If you are working on your own branch, run these commands before submitting a PR:
+אם אתה עובד על branch משלך, הפעל את הפקודות הבאות לפני שליחת PR:
 
 ```
 git fetch origin

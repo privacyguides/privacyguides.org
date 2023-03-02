@@ -1,95 +1,95 @@
-*[2FA]: Kétlépcsős Azonosítás
+*[2FA]: 2-Factor Authentication - Kétlépcsős Azonosítás
 *[ADB]: Android Debug Bridge
-*[AOSP]: Android Nyílt Forráskódú Projekt
+*[AOSP]: Android Open Source Project - Android Nyílt Forráskódú Projekt
 *[ATA]: Advanced Technology Attachment
 *[támadási felület]: Egy rendszerbe való illetéktelen hozzáférés lehetséges belépési pontjainak száma
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups
-*[CLI]: Command Line Interface
+*[CLI]: Command Line Interface - Parancssor Interface
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
-*[Digital Legacy]: Digital Legacy refers to features that allow you to give other people access to your data when you die
-*[DNSSEC]: Domain Name System Security Extensions
-*[DNS]: Domain Name System
+*[Digital Legacy]: A digitális hagyaték olyan funkciókra utal, amelyek lehetővé teszik, hogy halál esetén más személyek is hozzáférhessenek az adataidhoz
+*[DNSSEC]: Domain Name System Security Extensions - Domain Név Rendszer Biztonsági Kiterjesztések
+*[DNS]: Domain Name System - Domain Név Rendszer
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[End to End]: Végponttól végpontig terjedő titkosítás
+*[End-to-End]: Végponttól végpontig terjedő titkosítás
 *[ECS]: EDNS Client Subnet
-*[EEA]: European Economic Area
-*[entropy]: A measurement of how unpredictable something is
-*[EOL]: End-of-Life
+*[EEA]: European Economic Area - Európai Gazdasági Övezet
+*[entrópia]: Annak vizsgálata, hogy valami mennyire kiszámíthatatlan
+*[EOL]: End-of-Life - Valami életciklusának a vége
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
-*[FDE]: Full Disk Encryption
+*[FDE]: Full Disk Encryption - Teljes Lemez Titkosítás
 *[FIDO]: Fast IDentity Online
-*[fork]: A new software project created by copying an existing project and adding to it independently
-*[GDPR]: General Data Protection Regulation
-*[GPG]: GNU Privacy Guard (PGP implementation)
-*[GPS]: Global Positioning System
-*[GUI]: Graphical User Interface
-*[GnuPG]: GNU Privacy Guard (PGP implementation)
+*[fork]: Egy meglévő projekt másolásával és független hozzájárulással létrehozott új szoftverprojekt
+*[GDPR]: General Data Protection Regulation - Általános Adatvédelmi Rendelet
+*[GPG]: GNU Privacy Guard (PGP implementáció)
+*[GPS]: Global Positioning System - Globális Helymeghatározó Rendszer
+*[GUI]: Graphical User Interface - Grafikus Felhasználói Felület
+*[GnuPG]: GNU Privacy Guard (PGP implementáció)
 *[HDD]: Hard Disk Drive
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
+*[HOTP]: HMAC (Hash-based Message Authentication Code) alapú One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: Hypertext Transfer Protocol
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
+*[hypervisor]: Számítógépes szoftver, firmware vagy hardver, amely a CPU erőforrásait több operációs rendszer között osztja fel
 *[ICCID]: Integrated Circuit Card Identifier
-*[IMAP]: Internet Message Access Protocol
+*[IMAP]: Internet Message Access Protocol - Internet Üzenet-Hozzáférési Protokoll
 *[IMEI]: International Mobile Equipment Identity
 *[IMSI]: International Mobile Subscriber Identity
 *[IP]: Internet Protocol
-*[IPv4]: Internet Protocol version 4
-*[IPv6]: Internet Protocol version 6
-*[ISP]: Internet Service Provider
-*[ISPs]: Internet Service Providers
+*[IPv4]: Internet Protocol verzió 4
+*[IPv6]: Internet Protocol verzió 6
+*[ISP]: Internet Service Provider - Internet Szolgáltató
+*[ISPs]: Internet Service Providers - Internet Szolgáltatók
 *[JNI]: Java Native Interface
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
+*[LUKS]: Linux Unified Key Setup (Teljes Lemez Titkosítás)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard
-*[MEID]: Mobile Equipment Identifier
-*[MFA]: Multi-Factor Authentication
+*[MEID]: Mobile Equipment Identifier - Mobil Berendezés Azonosító
+*[MFA]: Multi-Factor Authentication - Többlépcsős Hitelesítés
 *[NVMe]: Nonvolatile Memory Express
-*[NTP]: Network Time Protocol
+*[NTP]: Network Time Protocol - Hálózati Idő Protokoll
 *[OCI]: Open Container Initiative
-*[OCSP]: Online Certificate Status Protocol
+*[OCSP]: Online Certificate Status Protocol - Online Tanúsítvány Státusz Protokoll
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
-*[OS]: Operating System
-*[OTP]: One-Time Password
-*[OTPs]: One-Time Passwords
-*[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
+*[OS]: Operating System - Operációs Rendszer
+*[OTP]: One-Time Password - Egyszer Használható Jelszó
+*[OTPs]: One-Time Passwords - Egyszer Használható Jelszavak
+*[OpenPGP]: A Pretty Good Privacy (PGP) nyílt forráskódú implementációja
 *[P2P]: Peer-to-Peer
 *[PAM]: Linux Pluggable Authentication Modules
 *[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
-*[PII]: Personally Identifiable Information
+*[PGP]: Pretty Good Privacy (lásd OpenPGP)
+*[PII]: Personally Identifiable Information - Személyazonosításra Alkalmas Információ
 *[QNAME]: Qualified Name
-*[rolling release]: Updates which are released frequently rather than set intervals
+*[rolling release]: Gyakran és nem meghatározott időközönként kiadott frissítések
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux
 *[SIM]: Subscriber Identity Module
-*[SMS]: Short Message Service (standard text messaging)
+*[SMS]: Short Message Service (álltalános szöveges üzenetküldés)
 *[SMTP]: Simple Mail Transfer Protocol
 *[SNI]: Server Name Indication
 *[SSD]: Solid-State Drive
 *[SSH]: Secure Shell
 *[SUID]: Set Owner User ID
-*[SaaS]: Software as a Service (cloud software)
+*[SaaS]: Software as a Service (felhőszoftver)
 *[SoC]: System on Chip
-*[SSO]: Single sign-on
+*[SSO]: Single sign-on - Egyszeri Bejelentkezés
 *[TCP]: Transmission Control Protocol
 *[TEE]: Trusted Execution Environment
 *[TLS]: Transport Layer Security
-*[ToS]: Terms of Service
-*[TOTP]: Time-based One-Time Password
+*[ToS]: Terms of Service - Felhasználási Feltételek
+*[TOTP]: Time-based One-Time Password - Időalapú Egyszer Használható Jelszó
 *[TPM]: Trusted Platform Module
 *[U2F]: Universal 2nd Factor
 *[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: User Datagram Protocol
-*[VPN]: Virtual Private Network
+*[VPN]: Virtual Private Network - Virtuális Privát Hálózat
 *[VoIP]: Voice over IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol
-*[PWA]: Progressive Web App
+*[PWA]: Progressive Web App - Progresszív Webes Alkalmazás

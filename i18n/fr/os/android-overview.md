@@ -1,5 +1,5 @@
 ---
-title: Présentation d'Android
+title: Introduction à Android
 icon: simple/android
 ---
 

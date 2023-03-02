@@ -3,7 +3,7 @@ title: "Naptár Szinkronizálás"
 icon: material/calendar
 ---
 
-A naptárak a legérzékenyebb adataidat tartalmazzák; használj at rest E2EE-t megvalósító termékeket, hogy megakadályozd, hogy a szolgáltató elolvassa ezeket.
+A naptárak a legérzékenyebb adataidat tartalmazzák; használj at rest End-to-End titkosítást megvalósító termékeket, hogy megakadályozd, hogy a szolgáltató elolvassa ezeket.
 
 ## Tutanota
 
@@ -12,7 +12,7 @@ A naptárak a legérzékenyebb adataidat tartalmazzák; használj at rest E2EE-t
     ![Tutanota logo](assets/img/calendar/tutanota.svg#only-light){ align=right }
     ![Tutanota logo](assets/img/calendar/tutanota-dark.svg#only-dark){ align=right }
     
-    **A **Tutanota** ingyenes és titkosított naptárat kínál a támogatott platformjain keresztül. A funkciók közé tartoznak: az összes adat automatikus E2EE-je, megosztási funkciók, import/export funkciók, multifaktoros hitelesítés és még [sok más](https://tutanota.com/calendar-app-comparison/).
+    **A **Tutanota** ingyenes és titkosított naptárat kínál a támogatott platformjain keresztül. A funkciók közé tartoznak: az összes adat automatikus End-to-End titkosítása, megosztási funkciók, import/export funkciók, multifaktoros hitelesítés és még [sok más](https://tutanota.com/calendar-app-comparison/).
     
     A több naptár és kiterjesztett megosztási funkciók csak a fizetett előfizetőknek elérhető.
     
@@ -38,7 +38,7 @@ A naptárak a legérzékenyebb adataidat tartalmazzák; használj at rest E2EE-t
 
     ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
     
-    A **Proton Calendar** egy titkosított naptárszolgáltatás, amely a Proton-tagok számára webes vagy mobilklienseken keresztül érhető el. A funkciók közé tartoznak: az összes adat automatikus E2EE-je, megosztási funkciók, import/export funkciók és még [sok más](https://proton.me/support/proton-calendar-guide). Az ingyenes előfizetéssel rendelkezők egyetlen naptárhoz kapnak hozzáférést, míg a fizetett előfizetők akár 20 naptárat is létrehozhatnak. Kiterjesztett megosztási funkciók szintén csak a fizetett előfizetőknek elérhető.
+    A **Proton Calendar** egy titkosított naptárszolgáltatás, amely a Proton-tagok számára webes vagy mobilklienseken keresztül érhető el. A funkciók közé tartoznak: az összes adat automatikus End-to-End titkosítása, megosztási funkciók, import/export funkciók és még [sok más](https://proton.me/support/proton-calendar-guide). Az ingyenes előfizetéssel rendelkezők egyetlen naptárhoz kapnak hozzáférést, míg a fizetett előfizetők akár 20 naptárat is létrehozhatnak. Kiterjesztett megosztási funkciók szintén csak a fizetett előfizetőknek elérhető.
     
     [:octicons-home-16: Honlap](https://proton.me/calendar){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Adatvédelmi Nyilatkozat" }
@@ -56,15 +56,15 @@ A naptárak a legérzékenyebb adataidat tartalmazzák; használj at rest E2EE-t
 
 !!! example "Ez a szakasz új"
 
-    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
 
 ### Minimális Fenttartások
 
-- Szinkronizálnia és tárolnia kell információkat E2EE-vel, hogy biztosítva legyen az, hogy az adatok nem láthatóak a szolgáltató számára.
+- Szinkronizálnia és tárolnia kell információkat End-to-End titkosítással, hogy biztosítva legyen az, hogy az adatok nem láthatóak a szolgáltató számára.
 
-### Best-Case
+### Legjobb Esetben
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy tökéletes projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 
 - Adott esetben integrálódnia kell az operációs rendszer natív naptár- és névjegykezelő alkalmazásaival.
 

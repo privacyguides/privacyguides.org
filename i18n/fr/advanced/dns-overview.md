@@ -1,5 +1,5 @@
 ---
-title: "Présentation de DNS"
+title: "Introduction aux DNS"
 icon: material/dns
 ---
 
@@ -11,9 +11,9 @@ Lorsque vous visitez un site web, une adresse numérique est renvoyée. Par exem
 
 Le DNS existe depuis [les premiers jours](https://fr.wikipedia.org/wiki/Domain_Name_System#Histoire) de l'Internet. Les demandes DNS faites à destination et en provenance des serveurs DNS sont généralement **non** chiffrées. Dans un environnement résidentiel, un client se voit attribuer des serveurs par le FAI via [DHCP](https://fr.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
 
-Les demandes DNS non chiffrées peuvent être facilement **surveillées** et **modifiées** en transit. Dans certaines régions du monde, les fournisseurs d'accès à Internet reçoivent l'ordre de procéder à un [ filtrage DNS primitif](https://en.wikipedia.org/wiki/DNS_blocking). Lorsque vous demandez l'adresse IP d'un domaine bloqué, le serveur peut ne pas répondre ou répondre avec une adresse IP différente. Le protocole DNS n'étant pas crypté, le FAI (ou tout opérateur de réseau) peut utiliser [DPI](https://fr.wikipedia.org/wiki/Deep_packet_inspection) pour surveiller les demandes. Les FAI peuvent également bloquer des requêtes sur la base de caractéristiques communes, quel que soit le serveur DNS utilisé. Un DNS non crypté utilise toujours le [port](https://fr.wikipedia.org/wiki/Port_(logiciel)) 53 et utilise toujours UDP.
+Les demandes DNS non chiffrées peuvent être facilement **surveillées** et **modifiées** en transit. Dans certaines régions du monde, les fournisseurs d'accès à Internet reçoivent l'ordre de procéder à un [ filtrage DNS primitif](https://en.wikipedia.org/wiki/DNS_blocking). Lorsque vous demandez l'adresse IP d'un domaine bloqué, le serveur peut ne pas répondre ou répondre avec une adresse IP différente. Le protocole DNS n'étant pas chiffré, le FAI (ou tout opérateur de réseau) peut utiliser [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) pour surveiller les demandes. Les FAI peuvent également bloquer des requêtes sur la base de caractéristiques communes, quel que soit le serveur DNS utilisé. Un DNS non chiffré utilise toujours le [port](https://fr.wikipedia.org/wiki/Port_(logiciel)) 53 et utilise toujours UDP.
 
-Ci-dessous, nous discutons et fournissons un tutoriel pour prouver ce qu'un observateur extérieur peut voir en utilisant le DNS normal non crypté et le [DNS crypté](#what-is-encrypted-dns).
+Ci-dessous, nous discutons et fournissons un tutoriel pour prouver ce qu'un observateur extérieur peut voir en utilisant un DNS normal non chiffré et un [DNS chiffré](#what-is-encrypted-dns).
 
 ### DNS non chiffré
 
@@ -23,7 +23,7 @@ Ci-dessous, nous discutons et fournissons un tutoriel pour prouver ce qu'un obse
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. Nous pouvons ensuite utiliser [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS etc) ou [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) pour envoyer la recherche DNS aux deux serveurs. Les logiciels tels que les navigateurs web effectuent ces recherches automatiquement, à moins qu'ils ne soient configurés pour utiliser un DNS crypté.
+2. Nous pouvons ensuite utiliser [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS etc) ou [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) pour envoyer la recherche DNS aux deux serveurs. Les logiciels tels que les navigateurs web effectuent ces recherches automatiquement, à moins qu'ils ne soient configurés pour utiliser un DNS chiffré.
 
     === "Linux, macOS"
 
@@ -63,23 +63,23 @@ Si vous exécutez la commande Wireshark ci-dessus, le volet supérieur affiche l
 
 Un observateur pourrait modifier n'importe lequel de ces paquets.
 
-## Qu'est-ce que le "DNS crypté" ?
+## Qu'est-ce qu'un "DNS chiffré" ?
 
-Le DNS crypté peut faire référence à un certain nombre de protocoles, les plus courants étant :
+Un DNS chiffré peut faire référence à un certain nombre de protocoles, les plus courants étant :
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) était l'une des premières méthodes de cryptage des requêtes DNS. DNSCrypt opère sur le port 443 et fonctionne avec les protocoles de transport TCP ou UDP. DNSCrypt n'a jamais été soumis à l'IETF (Internet Engineering Task Force) [](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) et n'est pas passé par le processus de demande de commentaires (RFC) [](https://en.wikipedia.org/wiki/Request_for_Comments) . Il n'a donc pas été largement utilisé en dehors de quelques implémentations [](https://dnscrypt.info/implementations). En conséquence, il a été largement remplacé par le plus populaire [DNS over HTTPS](#dns-over-https-doh).
+[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) était l'une des premières méthodes de chiffrement des requêtes DNS. DNSCrypt opère sur le port 443 et fonctionne avec les protocoles de transport TCP ou UDP. DNSCrypt n'a jamais été soumis à l'IETF (Internet Engineering Task Force) [](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) et n'est pas passé par le processus de demande de commentaires (RFC) [](https://en.wikipedia.org/wiki/Request_for_Comments) . Il n'a donc pas été largement utilisé en dehors de quelques implémentations [](https://dnscrypt.info/implementations). En conséquence, il a été largement remplacé par le plus populaire [DNS sur HTTPS](#dns-over-https-doh).
 
 ### DNS sur TLS (DoT)
 
-[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) est une autre méthode de cryptage des communications DNS qui est définie dans [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). La prise en charge a été implémentée pour la première fois dans Android 9, iOS 14, et sur Linux dans [systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) dans la version 237. Ces dernières années, la préférence du secteur s'est déplacée de DoT vers DoH, car DoT est un protocole complexe [](https://dnscrypt.info/faq/) et sa conformité au RFC varie selon les implémentations existantes. Le DoT fonctionne également sur un port dédié 853 qui peut être facilement bloqué par des pare-feu restrictifs.
+[**DNS sur TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) est une autre méthode de chiffrement des communications DNS qui est définie dans [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). La prise en charge a été implémentée pour la première fois dans Android 9, iOS 14, et sur Linux dans [systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) dans la version 237. Ces dernières années, la préférence du secteur s'est déplacée de DoT vers DoH, car DoT est un protocole complexe [](https://dnscrypt.info/faq/) et sa conformité au RFC varie selon les implémentations existantes. Le DoT fonctionne également sur un port dédié 853 qui peut être facilement bloqué par des pare-feu restrictifs.
 
 ### DNS sur HTTPS (DoH)
 
 [**DNS sur HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS) tel que défini dans [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484) regroupe les requêtes dans le protocole [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) et assure la sécurité avec HTTPS. La prise en charge a d'abord été ajoutée dans les navigateurs web tels que Firefox 60 et Chrome 83.
 
-L'implémentation native de DoH est apparue dans iOS 14, macOS 11, Microsoft Windows et Android 13 (cependant, elle ne sera pas activée [par défaut](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). Sous Linux le support sera assuré par [ l'implémentation dans systemd](https://github.com/systemd/systemd/issues/8639) donc [l'installation de logiciels tiers est encore nécessaire](../dns.md#linux).
+L'implémentation native de DoH est apparue dans iOS 14, macOS 11, Microsoft Windows et Android 13 (cependant, elle ne sera pas activée [par défaut](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). Sous Linux la prise en charge sera assurée par [l'implémentation](https://github.com/systemd/systemd/issues/8639) dans systemd donc [l'installation de logiciels tiers est encore nécessaire](../dns.md#encrypted-dns-proxies).
 
 ## Que peut voir un tiers ?
 
@@ -157,7 +157,7 @@ La Server Name Indication (indication du nom du serveur) est généralement util
     tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
     ```
 
-Cela signifie que même si nous utilisons des serveurs "DNS Chiffré", le domaine sera probablement divulgué par le SNI. Le protocole [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) apporte avec lui [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello/), qui empêche ce type de fuite.
+Cela signifie que même si nous utilisons des serveurs "DNS chiffrés", le domaine sera probablement divulgué par le SNI. Le protocole [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) apporte avec lui [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello/), qui empêche ce type de fuite.
 
 Des gouvernements, en particulier [la Chine](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/) et [la Russie](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/), ont déjà commencé à [bloquer](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) le protocole ou ont exprimé le souhait de le faire. Récemment, la Russie [a commencé à bloquer les sites web étrangers](https://github.com/net4people/bbs/issues/108) qui utilisent le standard [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3). En effet, le protocole [QUIC](https://fr.wikipedia.org/wiki/QUIC) qui fait partie de HTTP/3 exige que `ClientHello` soit également chiffré.
 
@@ -257,21 +257,21 @@ Si l'observateur du réseau dispose du certificat public, qui est accessible au 
 
 ## Devrais-je utiliser un DNS chiffré ?
 
-Nous avons créé cet organigramme pour décrire quand vous *devriez* utiliser des DNS cryptés:
+Nous avons créé cet organigramme pour décrire quand vous *devriez* utiliser des DNS chiffrés:
 
 ``` mermaid
 graph TB
-    Démarrage[Start] --> anonyme{Essayez-vous d'être<br> anonyme ?}
-    anonyme --> | Oui | tor(Utilisez Tor)
-    anonyme --> | Non | censure{Eviter la<br> censure ?}
-    censure --> | Oui | vpnOuTor(Utilisez<br> VPN ou Tor)
-    censure --> | Non | viePrivée{Protéger votre vie privée<br> du FAI ?}
-    p(vie privée) --> | Oui | vpnOuTor
-    p(vie privée) --> | Non | nuisible{FAI fait des<br> redirections<br> nuisibles ?}
-    nuisible --> | Oui | DNScryptés(Utilisez <br> DNS cryptés<br> avec application tierce)
-    nuisible --> | Non | DNSfai{FAI supporte les<br> DNS cryptés ?}
-    DNSfai --> | Oui | utilisezFAI(Utilisez<br> DNS cryptés<br> avec FAI)
-    DNSfai --> | Non | rien(Ne rien faire)
+    Start[Démarrage] --> anonymous{Essayez-vous<br>d'être<br>anonyme ?}
+    anonymous--> | Oui | tor(Utilisez Tor)
+    anonymous --> | Non | censorship{Essayez-vous<br>d'eviter la<br>censure ?}
+    censorship --> | Oui | vpnOrTor(Utilisez un<br>VPN ou Tor)
+    censorship --> | Non | privacy{Essayez-vous de<br>protéger votre vie<br>privée du FAI ?}
+    privacy --> | Oui | vpnOrTor
+    privacy --> | Non | obnoxious{Votre<br>FAI fait des<br> redirections<br> nuisibles ?}
+    obnoxious --> | Oui | encryptedDNS(Utilisez un<br>DNS chiffré<br>tiers)
+    obnoxious --> | Non | ispDNS{Votre<br>FAI supporte<br>les DNS<br>chiffrés ?}
+    ispDNS --> | Oui | useISP(Utilisez le<br>DNS chiffré<br>de votre FAI)
+    ispDNS --> | Non | nothing(Ne faites rien)
 ```
 
 Le DNS chiffré avec des serveurs tiers ne doit être utilisé que pour contourner le [blocage DNS](https://en.wikipedia.org/wiki/DNS_blocking) de base lorsque vous êtes certain qu'il n'y aura pas de conséquences ou que vous êtes intéressés par un fournisseur qui effectue un filtrage rudimentaire.

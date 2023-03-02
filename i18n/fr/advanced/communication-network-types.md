@@ -61,7 +61,7 @@ Les messageries P2P se connectent à un [réseau distribué](https://fr.wikipedi
 
 Les clients (les pairs) se trouvent généralement les uns les autres grâce à l'utilisation d'un réseau de [calcul distribué](https://fr.wikipedia.org/wiki/Calcul_distribué). Citons par exemple les [Tables de Hachages Distribuées](https://fr.wikipedia.org/wiki/Table_de_hachage_distribuée) (THD), utilisées par les [Torrents](https://fr.wikipedia.org/wiki/BitTorrent) et [l'IPFS](https://fr.wikipedia.org/wiki/InterPlanetary_File_System). Une autre approche est celle des réseaux basés sur la proximité, où une connexion est établie par Wi-Fi ou Bluetooth (par exemple Briar ou le protocole de réseau social [Scuttlebutt](https://www.scuttlebutt.nz)).
 
-Lorsqu'un pair a trouvé une route vers son contact par l'une de ces méthodes, une connexion directe est établie entre eux. Bien que les messages soient généralement cryptés, un observateur peut toujours déduire l'emplacement et l'identité de l'expéditeur et du destinataire.
+Lorsqu'un pair a trouvé une route vers son contact par l'une de ces méthodes, une connexion directe est établie entre eux. Bien que les messages soient généralement chiffrés, un observateur peut toujours déduire l'emplacement et l'identité de l'expéditeur et du destinataire.
 
 Les réseaux P2P n'utilisent pas de serveurs, car les pairs communiquent directement entre eux, et ne peuvent donc pas être auto-hébergés. Cependant, certains services supplémentaires peuvent dépendre de serveurs centralisés, comme la découverte d'autres utilisateurs ou le relais des messages hors ligne, qui peuvent bénéficier de l'auto-hébergement.
 

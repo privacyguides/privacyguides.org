@@ -3,13 +3,13 @@ title: "Felhőtárhely"
 icon: material/file-cloud
 ---
 
-Sok felhőalapú tárhelyszolgáltatónak elvárása a teljes bizalmad abban, hogy nem fogják megnézni a fájljaidat. Az lent felsorolt alternatívák kiküszöbölik a bizalom szükségességét azáltal, hogy a te kezedbe helyezik az adataid fölötti kontrollt, vagy E2E titkosítást valósítanak meg.
+Sok felhőalapú tárhelyszolgáltatónak elvárása a teljes bizalmad abban, hogy nem fogják megnézni a fájljaidat. Az lent felsorolt alternatívák kiküszöbölik a bizalom szükségességét azáltal, hogy a te kezedbe helyezik az adataid fölötti kontrollt, vagy End-to-End titkosítást használnak.
 
 Ha ezek az alternatívák nem felelnek meg az igényeidnek, javasoljuk, hogy tekintsd meg a [Titkosítási Szoftverek](encryption.md) részt.
 
 ??? question "A Nextcloud-ot keresed?"
 
-    A Nextcloud [továbbra is egy ajánlott eszköz](productivity.md) egy fájlkezelő csomag saját üzemeltetéséhez, azonban jelenleg nem ajánljuk a harmadik féltől származó Nextcloud tárolási szolgáltatóit, mivel a Nextcloud beépített E2EE funkcióit nem ajánljuk otthoni felhasználóknak.
+    A Nextcloud [továbbra is egy ajánlott eszköz](productivity.md) egy fájlkezelő csomag saját üzemeltetéséhez, azonban jelenleg nem ajánljuk a harmadik féltől származó Nextcloud tárolási szolgáltatóit, mivel a Nextcloud beépített End-to-End titkosítás funkcióit nem ajánljuk otthoni felhasználóknak.
 
 ## Proton Drive
 
@@ -17,7 +17,7 @@ Ha ezek az alternatívák nem felelnek meg az igényeidnek, javasoljuk, hogy tek
 
     ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
     
-    A **Proton Drive** egy E2EE általános fájltároló szolgáltatás a népszerű titkosított e-mail szolgáltatótól a [Proton Mail](https://proton.me/mail)-től.
+    A **Proton Drive** egy End-to-End titkosított általános fájltároló szolgáltatás a népszerű titkosított e-mail szolgáltatótól a [Proton Mail](https://proton.me/mail)-től.
     
     [:octicons-home-16: Honlap](https://proton.me/drive){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Adatvédelmi Nyilatkozat" }
@@ -37,9 +37,9 @@ A Proton Drive mobil kliensei 2022 decemberében jelentek meg, és még nem nyí
 
 !!! example "Ez a szakasz új"
 
-    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
 
-### Minimum Requirements
+### Minimális Követelmények
 
 - Végponttól végpontig terjedő titkosítást kell érvényesítenie.
 - Ingyenes csomagot vagy próbaidőszakot kell kínálnia a teszteléshez.
@@ -48,9 +48,9 @@ A Proton Drive mobil kliensei 2022 decemberében jelentek meg, és még nem nyí
 - Lehetővé kell tennie az összes fájl/dokumentum egyszerű exportálását.
 - Szabványos, felülvizsgált titkosítást kell használnia.
 
-### Best-Case
+### Legjobb Esetben
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy tökéletes projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 
 - A klienseknek nyílt forráskódúnak kell lenniük.
 - A klienseket teljes egészükben független harmadik félnek kell felülvizsgálnia.

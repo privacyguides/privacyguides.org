@@ -3,7 +3,7 @@ title: "Produktivitás Eszközök"
 icon: material/file-sign
 ---
 
-A legtöbb online irodai programcsomag nem támogatja az E2EE-t, ami azt jelenti, hogy a felhőszolgáltató hozzáfér mindenhez, amit csinálsz. Az adatvédelmi nyilatkozat törvényileg védheti a jogaidat, de nem biztosít technikai hozzáférési korlátokat.
+A legtöbb online irodai programcsomag nem támogatja az End-to-End titkosítást, ami azt jelenti, hogy a felhőszolgáltató hozzáfér mindenhez, amit csinálsz. Az adatvédelmi nyilatkozat törvényileg védheti a jogaidat, de nem biztosít technikai hozzáférési korlátokat.
 
 ## Kollaborációs Platformok
 
@@ -15,7 +15,7 @@ A legtöbb online irodai programcsomag nem támogatja az E2EE-t, ami azt jelenti
     
     A **Nextcloud** egy ingyenes és nyílt forráskódú kliens-szerver szoftvercsomag, amellyel saját fájltárhely-szolgáltatásokat hozhatsz létre egy privát általad ellenőrzött szerveren.
     
-    [:octicons-home-16: Kezdőlap](https://nextcloud.com){ .md-button .md-button--primary }
+    [:octicons-home-16: Honlap](https://nextcloud.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Adatvédelmi Nyilatkozat" }
     [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Dokumentáció}
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Forráskód" }
@@ -43,7 +43,7 @@ A legtöbb online irodai programcsomag nem támogatja az E2EE-t, ami azt jelenti
     
     A **CryptPad** egy a népszerű irodai eszközök privátra tervezett alternatívája. A webes szolgáltatás minden tartalma végponttól végpontig titkosított, és könnyen megosztható más felhasználókkal.
     
-    [:octicons-home-16: Honlat](https://cryptpad.fr){ .md-button .md-button--primary }
+    [:octicons-home-16: Honlap](https://cryptpad.fr){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="Adatvédelmi Nyilatkozat" }
     [:octicons-info-16:](https://docs.cryptpad.fr/){ .card-link title=Dokumentáció}
     [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Forráskód" }
@@ -55,20 +55,20 @@ A legtöbb online irodai programcsomag nem támogatja az E2EE-t, ami azt jelenti
 
 !!! example "Ez a szakasz új"
 
-    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
 
 Általános esetben az kollaborációs platformokat olyan teljes értékű csomagokként határozzuk meg, amelyek ésszerűen helyettesíthetik az olyan kollaborációs platformokat, mint a Google Drive.
 
 - Nyílt forráskódú.
-- WebDAV-on keresztül elérhetővé tesz fájlokat, kivéve, ha az E2EE miatt nem lehetséges.
+- WebDAV-on keresztül elérhetővé tesz fájlokat, kivéve, ha az End-to-End titkosítás miatt nem lehetséges.
 - Szinkronizáló kliensekkel rendelkezik Linux, macOS és Windows rendszerekre.
 - Támogat dokumentum- és táblázatkezelést.
 - Támogat valós idejű dokumentum-kollaborációt.
 - Támogatja a dokumentumok szabványos dokumentumformátumba (pl. ODF) történő exportálását.
 
-#### Best-Case
+#### Legjobb Esetben
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy tökéletes projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 
 - Fájlokat egy hagyományos fájlrendszerben kell tárolnia.
 - Támogatnia kell TOTP vagy FIDO2 többfaktoros hitelesítés használatát, vagy Passkey bejelentkezéseket.
@@ -83,7 +83,7 @@ Our best-case criteria represents what we would like to see from the perfect pro
     
     **A **LibreOffice** egy ingyenes és nyílt forráskódú irodai programcsomag széleskörű funkcionalitással.
     
-    [:octicons-home-16: Kezdőlap](https://www.libreoffice.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Honlap](https://www.libreoffice.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="Adatvédelmi Nyilatkozat" }
     [:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation/){ .card-link title=Dokumentáció}
     [:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Forráskód" }
@@ -107,7 +107,7 @@ Our best-case criteria represents what we would like to see from the perfect pro
     
     Az **OnlyOffice** egy felhőalapú, ingyenes és nyílt forráskódú irodai programcsomag, amely széleskörű funkciókkal rendelkezik, beleértve a Nextclouddal való integrációt is.
     
-    [:octicons-home-16: Kezdőlap](https://www.onlyoffice.com){ .md-button .md-button--primary }
+    [:octicons-home-16: Honlap](https://www.onlyoffice.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Adatvédelmi Nyilatkozat" }
     [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Dokumentáció}
     [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Forráskód" }
@@ -128,12 +128,12 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 !!! example "Ez a szakasz új"
 
-    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
 
 Általános esetben az irodai programcsomagokat úgy határozzuk meg, mint olyan alkalmazásokat, amelyek a legtöbb igényt kielégítően helyettesíthetik a Microsoft Wordöt.
 
 - Cross-platformnak kell lennie.
-- Must be open-source software.
+- Nyílt forráskódú szoftvernek kell lennie.
 - Működnie kell offline.
 - Támogatnia kell a dokumentumok, táblázatok és diavetítések szerkesztését.
 - Fájlokat szabványos dokumentumformátumba kell exportálnia.

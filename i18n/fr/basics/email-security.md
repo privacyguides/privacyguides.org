@@ -1,5 +1,5 @@
 ---
-title: Sécurité des Emails
+title: Sécurité des emails
 icon: material/email
 ---
 

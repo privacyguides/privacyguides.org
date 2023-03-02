@@ -1,5 +1,5 @@
 ---
-title: "Moteurs de Recherche"
+title: "Moteurs de recherche"
 icon: material/search-web
 ---
 

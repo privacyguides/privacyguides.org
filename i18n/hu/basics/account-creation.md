@@ -43,7 +43,7 @@ Should a service get hacked, you might start receiving phishing or spam emails t
 
 [Recommended email aliasing services](../email.md#email-aliasing-services ""){.md-button}
 
-### Single sign-on
+### Single sign-on - Egyszeri Bejelentkezés
 
 !!! note
 

@@ -22,90 +22,74 @@ icon: material/dns
 
 ## CryptPad
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. recommendation
+**Si prega di notare che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre a [i nostri criteri standard](about/criteria.md), abbiamo sviluppato una chiara serie di requisiti per consentirci di fornire raccomandazioni oggettive. Suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che la scelta sia giusta per te.
 
-!!! recommendation
+!!! example "Questa sezione è nuova"
 
-    ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** è un pastebin online minimalista e open-source in cui il server non ha alcuna conoscenza dei dati incollati. Infatti, vengono criptati/decriptati nel tuo browser utilizzando AES a 256 bit. downloads
-    
-        - [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
-        - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
-        - [:simple-linux: Linux](https://keepassxc.org/download/#linux)
-        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
+    Stiamo lavorando per stabilire criteri definiti per ogni sezione del nostro sito, e ciò potrebbe essere soggetto a modifiche. Se hai domande sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e non dare per scontato che non abbiamo preso in considerazione qualcosa nel formulare le nostre raccomandazioni se non è elencato qui. Sono molti i fattori presi in considerazione e discussi quando raccomandiamo un progetto e documentare ogni singolo fattore è un lavoro in corso.
 
 - Deve supportare le [DNSSEC](advanced/dns-overview.md#what-is-dnssec)
-- [QNAME Minimization](advanced/dns-overview.md#what-is-qname-minimization).
+- [Minimizzazione QNAME](advanced/dns-overview.md#what-is-qname-minimization).
 - Consente di disabilitare la [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs)
 - Preferire il supporto di [anycast](https://it.wikipedia.org/wiki/Anycast) o il supporto di geo-steering
 
-## Proxy DNS crittografati
+## Supporto nativo del sistema operativo
 
 ### Android
 
-Le utlime versioni di iOS, iPadOS, tvOS e macOS supportano sia DoT, che DoH. Entrambi i protocolli sono supportati nativamente mediante i [profili di configurazione](https://support.apple.com/it-it/guide/iphone/iph6c493b19/ios) o tramite l'[API DNS Settings](https://developer.apple.com/documentation/networkextension/dns_settings).
+Android 9 e successivi supportano il 'DNS over TLS'. Le impostazioni sono disponibili in: **Impostazioni** &rarr; **Rete & Internet** &rarr; **DNS privato**.
 
 ### Dispositivi Apple
 
-Dopo l'installazione di un profilo di configurazione o di un'applicazione che utilizza la DNS Settings API, è possibile selezionare la configurazione DNS. Se una VPN è attiva, la risoluzione all'interno del tunnel VPN utilizzerà le impostazioni DNS della VPN, e non quelle del sistema.
+Le utlime versioni di iOS, iPadOS, tvOS e macOS supportano sia DoT, che DoH. Entrambi i protocolli sono supportati in modo nativo tramite [profili di configurazione](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) o tramite [impostazioni DNS API](https://developer.apple.com/documentation/networkextension/dns_settings).
 
-Apple non fornisce un'interfaccia nativa per la creazione di profili DNS criptati. Il '[Secure DNS profile creator](https://dns.notjakob.com/tool.html)' è uno strumento non ufficiale per creare i tuoi profili DNS crittografati, che tuttavia non saranno firmati.
+Dopo l'installazione di un profilo di configurazione o di un'app che utilizza l'API Impostazioni DNS, è possibile selezionare la configurazione DNS. Se una VPN è attiva, la risoluzione all'interno del tunnel VPN utilizzerà le impostazioni DNS della VPN e non le impostazioni a livello di sistema.
 
 #### Profili firmati
 
-Apple does not provide a native interface for creating encrypted DNS profiles. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) is an unofficial tool for creating your own encrypted DNS profiles, however they will not be signed. Signed profiles are preferred; signing validates a profile's origin and helps to ensure the integrity of the profiles. A green "Verified" label is given to signed configuration profiles. For more information on code signing, see [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **Signed profiles** are offered by [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), and [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/).
+Apple non fornisce un'interfaccia nativa per la creazione di profili DNS cifrati. Il '[Secure DNS profile creator](https://dns.notjakob.com/tool.html)' è uno strumento non ufficiale per creare i tuoi profili DNS cifrati, che tuttavia non saranno firmati. I profili firmati sono da preferire; la firma convalida l'origine di un profilo, e aiuta a garantire l'integrità dello stesso. I profili di configurazione firmati sono contrassegnati dall'etichetta verde "Verificato". Per ulteriori informazioni sulla firma del codice, vedere [Informazioni sulla firma del codice](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **I profili firmati** vengono offerti da [AdGuard](https://adguard.com/it/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io) e [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/).
 
 !!! info
 
-    ![Logo RethinkDNS](assets/img/android/rethinkdns.svg#only-light){ align=right }
-    ![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
-    
-    **RethinkDNS** è un client Android open-source che supporta [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) e DNS Proxy oltre a memorizzare nella cache le risposte DNS, registrare localmente le query DNS e può essere usato anche come firewall. [:octicons-home-16: Pagina principale](https://rethinkdns.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Informativa sulla privacy" }
-    [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Codice sorgente" }
-    
-    ???
+    `systemd-resolved', che molte distribuzioni Linux usano per fare le ricerche DNS, non supporta ancora [DoH](https://github.com/systemd/systemd/issues/8639). Se vuoi usare DoH, è necessario installare un proxy come [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) e [configurarlo] (https://wiki.archlinux.org/title/Dnscrypt-proxy) per prendere tutte le query DNS dal resolver di sistema e inoltrarle tramite HTTPS.
 
-## Self-hosting
+## Proxy DNS cifrati
 
-Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](advanced/dns-overview.md#unencrypted-dns) resolver to forward to. Typically it is used on platforms that don't natively support [encrypted DNS](advanced/dns-overview.md#what-is-encrypted-dns).
+I software proxy per il DNS cifrato forniscono un proxy locale a cui inoltrare le richieste [DNS non cifrate](advanced/dns-overview.md#unencrypted-dns). In genere viene usato su piattaforme che non supportano nativamente il [DNS cifrato](advanced/dns-overview.md#what-is-encrypted-dns).
 
 ### RethinkDNS
 
 !!! recommendation
 
-    ![logo dnscrypt-proxy](assets/img/dns/dnscrypt-proxy.svg){ align=right }
+    ![Logo RethinkDNS](assets/img/android/rethinkdns.svg#only-light){ align=right }
+    ![Logo RethinkDNS](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
     
-    **dnscrypt-proxy** è un proxy DNS con supporto per [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh) e [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
+    **RethinkDNS** è un client Android open-source che supporta [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) e DNS Proxy oltre a memorizzare nella cache le risposte DNS, registrare localmente le query DNS e può essere usato anche come firewall.
     
-    [:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
+    [:octicons-home-16: Pagina principale](https://rethinkdns.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Informativa sulla Privacy" }
+    [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Codice Sorgente" }
     
-    ??? warning "La funzione DNS anonimizzato [**non**](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonimizza il resto del traffico di rete."
+    ??? downloads
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
+        - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
 
 ### dnscrypt-proxy
 
 !!! recommendation
 
-    ![Logo AdGuard Home](assets/img/dns/adguard-home.svg){ align=right }
+    ![logo dnscrypt-proxy](assets/img/dns/dnscrypt-proxy.svg){ align=right }
     
-    **AdGuard Home** è un programma open-source [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) che utilizza il [filtraggio DNS](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) per bloccare i contenuti web indesiderati, come la pubblicità.
+    **dnscrypt-proxy** è un proxy DNS con supporto per [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh) e [DNS anonimizzato](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
     
-    !!! [:octicons-home-16: Pagina principale](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="Informativa sulla privacy" }
-    [:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="Codice sorgente" }
+    !!! warning "La funzione DNS anonimizzato [**non**](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonimizza il resto del traffico di rete."
     
     [:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribute }
+    [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Codice sorgente" }
+    [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribuisci }
     
     ??? downloads
     
@@ -113,37 +97,40 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
         - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
         - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
 
-## Self-hosted Solutions
+## Soluzioni self-hosted
 
-A self-hosted DNS solution is useful for providing filtering on controlled platforms, such as Smart TVs and other IoT devices, as no client-side software is needed.
+Una soluzione DNS self-hosted è utile per fornire il filtraggio su piattaforme controllate, come Smart TV e altri dispositivi IoT, poiché non è necessario alcun software lato client.
 
 ### AdGuard Home
 
 !!! recommendation
 
-    ![Logo Pi-hole](assets/img/dns/pi-hole.svg){ align=right }
+    ![Logo AdGuard Home](assets/img/dns/adguard-home.svg){ align=right }
     
-    **Pi-hole** è un sito open-source [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) che utilizza il [filtraggio DNS](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) per bloccare contenuti web indesiderati, come la pubblicità.
+    **AdGuard Home** è un [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) open-source che utilizza il [filtraggio DNS](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) per bloccare contenuti web indesiderati, come gli annunci pubblicitari.
     
-    Pi-hole è stato progettato per essere ospitato su un Raspberry Pi, ma non è limitato a tale hardware.
+    AdGuard Home è dotato di un'interfaccia web raffinata per visualizzare gli insight e gestire i contenuti bloccati.
     
-    Il software dispone di un'interfaccia web intuitiva per visualizzare gli approfondimenti e gestire i contenuti bloccati.
+    [:octicons-home-16: Pagina principale](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="Informativa sulla Privacy" }
+    [:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="Codice sorgente" }
 
 ### Pi-hole
 
 !!! recommendation
 
-    ![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
+    ![Logo Pi-hole](assets/img/dns/pi-hole.svg){ align=right }
     
-    **Pi-hole** is an open-source [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) to block unwanted web content, such as advertisements.
+    **Pi-hole** è un [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) open-source che utilizza il [filtraggio DNS](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) per bloccare contenuti web indesiderati, come la pubblicità.
     
-    Pi-hole is designed to be hosted on a Raspberry Pi, but it is not limited to such hardware. The software features a friendly web interface to view insights and manage blocked content.
+    Pi-hole è stato progettato per essere eseguito su un Raspberry Pi, ma non è limitato a tale hardware. Il software dispone di un'interfaccia web intuitiva per visualizzare gli insight e gestire i contenuti bloccati.
     
-    [:octicons-home-16: Homepage](https://pi-hole.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
+    [:octicons-home-16: Pagina principale](https://pi-hole.net/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="Informativa sulla Privacy" }
+    [:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=Documentazione}
+    [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Codice sorgente" }
+    [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribuisci }
 
 --8<-- "includes/abbreviations.it.txt"
 

@@ -1,149 +1,149 @@
 ---
-title: "Common Threats"
+title: "Ancaman Umum"
 icon: 'material/eye-outline'
 ---
 
-Broadly speaking, we categorize our recommendations into the [threats](threat-modeling.md) or goals that apply to most people. ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
+Secara garis besar, kami mengkategorikan rekomendasi kami ke dalam [ancaman](threat-modeling.md) atau tujuan yang berlaku untuk kebanyakan orang. ==Anda mungkin tidak peduli dengan tidak ada, satu, beberapa, atau semua kemungkinan ini==, dan alat dan layanan yang Anda gunakan tergantung pada tujuan Anda. Anda mungkin juga memiliki ancaman khusus di luar kategori ini, dan itu tidak masalah! Bagian yang penting adalah mengembangkan pemahaman tentang manfaat dan kekurangan alat yang Anda pilih untuk digunakan, karena hampir tidak ada satu pun yang akan melindungi Anda dari setiap ancaman.
 
-- <span class="pg-purple">:material-incognito: Anonymity</span> - Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
-- <span class="pg-red">:material-target-account: Targeted Attacks</span> - Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
-- <span class="pg-orange">:material-bug-outline: Passive Attacks</span> - Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
-- <span class="pg-teal">:material-server-network: Service Providers</span> - Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
-- <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> - Protection from government agencies, organizations, websites, and services which work together to track your activities.
-- <span class="pg-brown">:material-account-cash: Surveillance Capitalism</span> - Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
-- <span class="pg-green">:material-account-search: Public Exposure</span> - Limiting the information about you that is accessible online—to search engines or the general public.
-- <span class="pg-blue-gray">:material-close-outline: Censorship</span> - Avoiding censored access to information or being censored yourself when speaking online.
+- <span class="pg-purple">:material-incognito: Anonimitas</span> - Melindungi aktivitas daring Anda dari identitas asli Anda, melindungi Anda dari orang-orang yang mencoba mengungkap identitas *Anda* secara khusus.
+- <span class="pg-red">:material-target-account: Serangan yang Ditargetkan</span> - Terlindungi dari peretas atau aktor jahat lainnya yang mencoba untuk mendapatkan akses ke data atau perangkat *Anda* secara khusus.
+- <span class="pg-orange">:material-bug-outline: Serangan Pasif</span> - Terlindungi dari hal-hal seperti malware, pembobolan data, dan serangan lain yang dilakukan terhadap banyak orang sekaligus.
+- <span class="pg-teal">:material-server-network: Penyedia Layanan</span> - Melindungi data Anda dari penyedia layanan (misalnya dengan E2EE, yang membuat data Anda tidak dapat dibaca oleh server).
+- <span class="pg-blue">:material-eye-outline: Pengawasan Massal</span> - Perlindungan dari lembaga, organisasi, situs web, dan layanan pemerintah yang bekerja sama untuk melacak aktivitas Anda.
+- <span class="pg-brown">:material-account-cash: Kapitalisme Pengawasan</span> - Melindungi diri Anda dari jaringan periklanan besar, seperti Google dan Facebook, serta segudang pengumpul data pihak ketiga lainnya.
+- <span class="pg-green">:material-account-search: Paparan Publik</span> - Membatasi informasi tentang Anda yang dapat diakses secara daring—pada mesin pencari atau masyarakat umum.
+- <span class="pg-blue-gray">:material-close-outline: Penyensoran</span> - Menghindari akses yang disensor terhadap informasi atau disensor ketika berbicara secara daring.
 
-Some of these threats may be more important to you than others, depending on your specific concerns. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-red">:material-target-account: Targeted Attacks</span>, but they probably still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Similarly, many people may be primarily concerned with <span class="pg-green">:material-account-search: Public Exposure</span> of their personal data, but they should still be wary of security-focused issues, such as <span class="pg-orange">:material-bug-outline: Passive Attacks</span>—like malware affecting their devices.
+Beberapa ancaman ini mungkin lebih penting bagi Anda daripada yang lain, tergantung pada kekhawatiran Anda. Sebagai contoh, seorang pengembang perangkat lunak yang memiliki akses ke data yang berharga atau penting mungkin sangat peduli dengan <span class="pg-red">:material-target-account: Serangan Bertarget</span>, tetapi mereka mungkin masih ingin melindungi data pribadi mereka agar tidak terseret ke dalam program <span class="pg-blue">:material-eye-outline: Pengawasan Massal</span>. Demikian pula, banyak orang mungkin lebih peduli dengan <span class="pg-green">:material-account-search: Paparan Publik</span> pada data pribadi mereka, tetapi mereka tetap harus waspada terhadap masalah yang berfokus pada keamanan, seperti <span class="pg-orange">:material-bug-outline: Serangan Pasif</span>—seperti perangkat lunak jahat yang memengaruhi perangkat mereka.
 
-## Anonymity vs. Privacy
+## Anonimitas vs. Privasi
 
-<span class="pg-purple">:material-incognito: Anonymity</span>
+<span class="pg-purple">:material-incognito: Anonimitas</span>
 
-Anonymity is often confused with privacy, but they're distinct concepts. While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real identity.
+Anonimitas sering disalahartikan sebagai privasi, tetapi keduanya merupakan konsep yang berbeda. Sementara privasi adalah serangkaian pilihan yang Anda buat tentang bagaimana data Anda digunakan dan dibagikan, anonimitas adalah pemisahan aktivitas daring Anda dari identitas asli Anda.
 
-Whistleblowers and journalists, for example, can have a much more extreme threat model which requires total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by malicious actors or governments, but also hiding who they are entirely. They will often sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, because their lives could depend on it. Most people don't need to go so far.
+Pelapor dan jurnalis, misalnya, dapat memiliki model ancaman yang jauh lebih ekstrem yang membutuhkan anonimitas total. Hal itu tidak hanya menyembunyikan apa yang mereka lakukan, data apa yang mereka miliki, dan tidak diretas oleh pihak-pihak jahat atau pemerintah, tetapi juga menyembunyikan siapa mereka sepenuhnya. Mereka sering kali akan mengorbankan segala jenis kenyamanan jika itu berarti melindungi anonimitas, privasi, atau keamanan mereka, karena hidup mereka dapat bergantung pada hal tersebut. Kebanyakan orang tidak perlu melangkah terlalu jauh.
 
-## Security and Privacy
+## Keamanan dan Privasi
 
-<span class="pg-orange">:material-bug-outline: Passive Attacks</span>
+<span class="pg-orange">:material-bug-outline: Serangan Pasif</span>
 
-Security and privacy are also often confused, because you need security to obtain any semblance of privacy: Using tools—even if they're private by design—is futile if they could be easily exploited by attackers who later release your data. However, the inverse isn't necessarily true: The most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google who, given their scale, have had few security incidents by employing industry-leading security experts to secure their infrastructure. Even though Google provides very secure services, very few people would consider their data private in Google's free consumer products (Gmail, YouTube, etc.)
+Keamanan dan privasi juga sering tertukar, karena Anda membutuhkan keamanan untuk mendapatkan kemiripan dengan privasi: Menggunakan alat—bahkan jika alat itu dirancang untuk—tidak ada gunanya jika alat itu dapat dengan mudah dieksploitasi oleh penyerang yang kemudian merilis data Anda. Namun, kebalikannya belum tentu benar: Layanan yang paling aman di dunia *belum tentu* pribadi. Contoh terbaik dari hal ini adalah mempercayakan data kepada Google yang, mengingat skalanya, hanya mengalami sedikit insiden keamanan dengan mempekerjakan pakar keamanan terkemuka di industri untuk mengamankan infrastruktur mereka. Meskipun Google menyediakan layanan yang sangat aman, hanya sedikit orang yang menganggap data mereka pribadi di produk konsumen gratis Google (Gmail, YouTube, dll.)
 
-When it comes to application security, we generally don't (and sometimes can't) know if the software we use is malicious, or might one day become malicious. Even with the most trustworthy developers, there's generally no guarantee that their software doesn't have a serious vulnerability that could later be exploited.
+Dalam hal keamanan aplikasi, umumnya kami tidak (dan terkadang tidak bisa) mengetahui apakah perangkat lunak yang kita gunakan berbahaya, atau suatu hari nanti bisa menjadi berbahaya. Bahkan pada pengembang yang paling tepercaya sekalipun, pada umumnya tidak ada jaminan bahwa perangkat lunak mereka tidak memiliki kerentanan serius yang nantinya dapat dieksploitasi.
 
-To minimize the damage that a malicious piece of software *could* do, you should employ security by compartmentalization. For example, this could come in the form of using different computers for different jobs, using virtual machines to separate different groups of related applications, or using a secure operating system with a strong focus on application sandboxing and mandatory access control.
-
-!!! tip
-
-    Mobile operating systems generally have better application sandboxing than desktop operating systems: Apps can't obtain root access, and require permission for access to system resources.
-    
-    Desktop operating systems generally lag behind on proper sandboxing. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt-in to sandboxing for applications). However, these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../../desktop/#qubes-os).
-
-<span class="pg-red">:material-target-account: Targeted Attacks</span>
-
-Targeted attacks against a specific person are more problematic to deal with. Common attacks include sending malicious documents via email, exploiting vulnerabilities (e.g. in browsers and operating systems), and physical attacks. If this is a concern for you, you should employ more advanced threat mitigation strategies.
+Untuk meminimalkan kerusakan *yang dapat* dilakukan oleh perangkat lunak berbahaya, Anda harus menggunakan keamanan dengan kompartementalisasi. Sebagai contoh, hal ini dapat berupa penggunaan komputer yang berbeda untuk pekerjaan yang berbeda, menggunakan mesin virtual untuk memisahkan berbagai kelompok aplikasi yang terkait, atau menggunakan sistem operasi yang aman dengan fokus yang kuat pada kotak pasir aplikasi dan kontrol akses yang wajib.
 
 !!! tip
 
-    By design, **web browsers**, **email clients**, and **office applications** typically run untrusted code, sent to you from third parties. Running multiple virtual machines—to separate applications like these from your host system, as well as each other—is one technique you can use to mitigate the chance of an exploit in these applications compromising the rest of your system. For example, technologies like Qubes OS or Microsoft Defender Application Guard on Windows provide convenient methods to do this.
-
-If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process). You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) or [Element](https://developers.google.com/android/security/android-ready-se) to rate limit attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems don't encrypt data separately per-user.
-
-## Privacy From Service Providers
-
-<span class="pg-teal">:material-server-network: Service Providers</span>
-
-We live in a world where almost everything is connected to the internet. Our "private" messages, emails, and social interactions are typically stored on a server, somewhere. Generally, when you send someone a message it's stored on a server, and when your friend wants to read the message the server will show it to them.
-
-The obvious problem with this is that the service provider (or a hacker who has compromised the server) can access your conversations whenever and however they want, without you ever knowing. This applies to many common services, like SMS messaging, Telegram, and Discord.
-
-Thankfully, E2EE can alleviate this issue by encrypting communications between you and your desired recipients before they are even sent to the server. The confidentiality of your messages is guaranteed, assuming the service provider doesn't have access to the private keys of either party.
-
-!!! note "Note on Web-based Encryption"
-
-    In practice, the effectiveness of different E2EE implementations varies. Applications, such as [Signal](../real-time-communication.md#signal), run natively on your device, and every copy of the application is the same across different installations. If the service provider were to introduce a [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) in their application—in an attempt to steal your private keys—it could later be detected with [reverse engineering](https://en.wikipedia.org/wiki/Reverse_engineering).
+    Sistem operasi seluler umumnya memiliki kotak pasir aplikasi yang lebih baik daripada sistem operasi desktop: Aplikasi tidak dapat memperoleh akses akar, dan memerlukan izin untuk mengakses sumber daya sistem.
     
-    On the other hand, web-based E2EE implementations, such as Proton Mail's webmail or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. A malicious server can target you and send you malicious JavaScript code to steal your encryption key (and it would be extremely hard to notice). Because the server can choose to serve different web clients to different people—even if you noticed the attack—it would be incredibly hard to prove the provider's guilt.
-    
-    Therefore, you should use native applications over web clients whenever possible.
+    Sistem operasi desktop umumnya tertinggal dalam hal kotak pasir yang tepat. ChromeOS memiliki kemampuan kotak pasir yang mirip dengan Android, dan macOS memiliki kontrol izin sistem penuh (dan pengembang dapat memilih untuk ikut serta dalam kotak pasir untuk aplikasi). Namun demikian, sistem operasi ini mengirimkan informasi identifikasi ke OEM masing-masing. Linux cenderung tidak menyerahkan informasi kepada vendor sistem, tetapi memiliki perlindungan yang buruk terhadap eksploitasi dan aplikasi jahat. Hal ini dapat dikurangi dengan distribusi khusus yang memanfaatkan mesin virtual atau kontainer secara signifikan, seperti [Qubes OS](../../desktop/#qubes-os).
 
-Even with E2EE, service providers can still profile you based on **metadata**, which typically isn't protected. While the service provider can't read your messages, they can still observe important things, such as who you're talking to, how often you message them, and when you're typically active. Protection of metadata is fairly uncommon, and—if it's within your [threat model](threat-modeling.md)—you should pay close attention to the technical documentation of the software you're using to see if there's any metadata minimization or protection at all.
+<span class="pg-red">:material-target-account: Serangan Bertarget</span>
 
-## Mass Surveillance Programs
-
-<span class="pg-blue">:material-eye-outline: Mass Surveillance</span>
-
-Mass surveillance is the intricate effort to monitor the "behavior, many activities, or information" of an entire (or substantial fraction of a) population.[^1] It often refers to government programs, such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). However, it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
-
-!!! abstract "Atlas of Surveillance"
-
-    If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org/) by the [Electronic Frontier Foundation](https://www.eff.org/).
-    
-    In France you can take a look at the [Technolopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
-
-Governments often justify mass surveillance programs as necessary means to combat terrorism and prevent crime. However, breaching human rights, it's most often used to disproportionately target minority groups and political dissidents, among others.
-
-!!! quote "ACLU: [*The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
-
-    In the face of [Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. This kind of information, when amassed by the NSA day after day, can reveal incredibly sensitive details about people’s lives and associations, such as whether they have called a pastor, an abortion provider, an addiction counselor, or a suicide hotline.
-
-Despite growing mass surveillance in the United States, the government has found that mass surveillance programs like Section 215 have had "little unique value" with respect to stopping actual crimes or terrorist plots, with efforts largely duplicating the FBI's own targeted surveillance programs.[^2]
-
-Online, you can be tracked via a variety of methods:
-
-- Your IP address
-- Browser cookies
-- The data you submit to websites
-- Your browser or device fingerprint
-- Payment method correlation
-
-\[This list isn't exhaustive].
-
-If you're concerned about mass surveillance programs, you can use strategues like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
-
-<span class="pg-brown">:material-account-cash: Surveillance Capitalism</span>
-
-> Surveillance capitalism is an economic system centered around the capture and commodification of personal data for the core purpose of profit-making.[^3]
-
-For many people, tracking and surveillance by private corporations is a growing concern. Pervasive ad networks, such as those operated by Google and Facebook, span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like content blockers to limit network requests to their servers, and reading the privacy policies of the services you use can help you avoid many basic adversaries (although it can't completely prevent tracking).[^4]
-
-Additionally, even companies outside of the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
-
-## Limiting Public Information
-
-<span class="pg-green">:material-account-search: Public Exposure</span>
-
-The best way to keep your data private is simply not making it public in the first place. Deleting unwanted information you find about yourself online is one of the best first steps you can take to regain your privacy.
-
-- [View our guide on account deletion :material-arrow-right-drop-circle:](account-deletion.md)
-
-On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, enable "private mode" on your accounts if given the option: This ensures that your account isn't being indexed by search engines, and that it can't be viewed without your permission.
-
-If you've already submitted your real information to sites which shouldn't have it, consider using disinformation tactics, like submitting fictitious information related to that online identity. This makes your real information indistinguishable from the false information.
-
-## Avoiding Censorship
-
-<span class="pg-blue-gray">:material-close-outline: Censorship</span>
-
-Censorship online can be carried out (to varying degrees) by actors including totalitarian governments, network administrators, and service providers. These efforts to control communication and restrict access to information will always be incompatible with the human right to Freedom of Expression.[^5]
-
-Censorship on corporate platforms is increasingly common, as platforms like Twitter and Facebook give in to public demand, market pressures, and pressures from government agencies. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
-
-People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../real-time-communication.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
+Serangan yang ditargetkan terhadap orang tertentu akan lebih sulit ditangani. Serangan yang umum terjadi termasuk mengirim dokumen berbahaya melalui surel, mengeksploitasi kerentanan (misalnya pada peramban dan sistem operasi), dan serangan fisik. Jika hal ini menjadi perhatian Anda, Anda harus menggunakan strategi mitigasi ancaman yang lebih canggih.
 
 !!! tip
 
-    While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.
-    
-    You should consider which aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. For example, using [encrypted DNS](../advanced/dns-overview.md#what-is-encrypted-dns) can help you bypass rudimentary, DNS-based censorship systems, but it can't truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from network administrators, but can't hide that you're using those networks in the first place. Pluggable transports (such as Obfs4proxy, Meek, or Shadowsocks) can help you evade firewalls that block common VPN protocols or Tor, but your circumvention attempts can still be detected by methods like probing or [deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+    Secara rancangan, **peramban web**, **klien surel**, dan **aplikasi perkantoran** biasanya menjalankan kode yang tidak dipercaya, yang dikirimkan kepada Anda dari pihak ketiga. Menjalankan beberapa mesin virtual—untuk memisahkan aplikasi seperti ini dari sistem hos Anda, dan juga satu sama lain—adalah salah satu teknik yang bisa Anda gunakan untuk mengurangi kemungkinan eksploitasi pada aplikasi-aplikasi ini yang mengorbankan sistem Anda yang lain. Sebagai contoh, teknologi seperti Qubes OS atau Microsoft Defender Application Guard pada Windows menyediakan metode yang nyaman untuk melakukan hal ini.
 
-You must always consider the risks of trying to bypass censorship, the potential consequences, and how sophisticated your adversary may be. You should be cautious with your software selection, and have a backup plan in case you are caught.
+Jika Anda khawatir tentang **serangan fisik** Anda harus menggunakan sistem operasi dengan implementasi boot terverifikasi yang aman, seperti Android, iOS, macOS, atau [Windows (dengan TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process). Anda juga harus memastikan bahwa penyimpanan Anda dienkripsi, dan bahwa sistem operasi menggunakan TPM atau Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) atau [Element](https://developers.google.com/android/security/android-ready-se) untuk menilai batas upaya memasukkan frasa sandi enkripsi. Anda sebaiknya menghindari berbagi komputer dengan orang yang tidak Anda percayai, karena sebagian besar sistem operasi desktop tidak mengenkripsi data secara terpisah per pengguna.
+
+## Privasi Dari Penyedia Layanan
+
+<span class="pg-teal">:material-server-network: Penyedia Layanan</span>
+
+Kita hidup di dunia di mana hampir semua hal terhubung ke internet. Pesan, surel, dan interaksi sosial "pribadi" kita biasanya disimpan di sebuah server, di suatu tempat. Umumnya, ketika Anda mengirim pesan kepada seseorang, pesan tersebut disimpan di server, dan ketika teman Anda ingin membaca pesan tersebut, server akan menampilkannya kepada mereka.
+
+Masalah yang jelas dengan hal ini adalah penyedia layanan (atau peretas yang telah membobol server) dapat mengakses percakapan Anda kapan pun dan bagaimanapun mereka inginkan, tanpa Anda ketahui. Hal ini berlaku untuk banyak layanan umum, seperti pesan SMS, Telegram, dan Discord.
+
+Untungnya, E2EE dapat mengatasi masalah ini dengan mengenkripsi komunikasi antara Anda dan penerima yang Anda inginkan bahkan sebelum dikirim ke server. Kerahasiaan pesan Anda dijamin, dengan asumsi penyedia layanan tidak memiliki akses ke kunci pribadi salah satu pihak.
+
+!!! note "Catatan Tentang Enkripsi Berbasis Web"
+
+    Dalam praktiknya, efektivitas implementasi E2EE yang berbeda bervariasi. Aplikasi, seperti [Signal](../real-time-communication.md#signal), berjalan secara asli pada perangkat Anda, dan setiap salinan aplikasi sama pada instalasi yang berbeda. Jika penyedia layanan memperkenalkan sebuah [pintu belakang](https://id.wikipedia.org/wiki/Pintu_belakang_(komputer)) dalam aplikasi mereka—dalam upaya untuk mencuri kunci pribadi Anda—nantinya dapat dideteksi dengan [rekayasa balik] (https://id.wikipedia.org/wiki/Rekayasa_balik).
+    
+    Di sisi lain, implementasi E2EE berbasis web, seperti surel web Proton Mail atau *Web Vault* dari Bitwarden, bergantung pada server yang secara dinamis menyajikan kode JavaScript ke peramban untuk menangani kriptografi. Sebuah server jahat dapat menargetkan Anda dan mengirimkan kode JavaScript berbahaya untuk mencuri kunci enkripsi Anda (dan akan sangat sulit untuk diketahui). Karena server dapat memilih untuk melayani klien web yang berbeda untuk orang yang berbeda—bahkan jika Anda menyadari serangan itu—akan sangat sulit untuk membuktikan kesalahan penyedia.
+    
+    Oleh karena itu, Anda seharusnya menggunakan aplikasi asli daripada klien web bila memungkinkan.
+
+Bahkan dengan E2EE, penyedia layanan masih bisa membuat profil Anda berdasarkan **metadata**, yang biasanya tidak dilindungi. Meskipun penyedia layanan tidak dapat membaca pesan Anda, mereka masih dapat mengamati hal-hal penting, seperti siapa yang Anda ajak bicara, seberapa sering Anda mengirim pesan kepada mereka, dan kapan Anda biasanya aktif. Perlindungan metadata cukup jarang dilakukan, dan—jika ada dalam [model ancaman](threat-modeling.md)—Anda harus memperhatikan dengan seksama dokumentasi teknis perangkat lunak yang Anda gunakan untuk mengetahui apakah ada minimalisasi atau perlindungan metadata sama sekali.
+
+## Program Pengawasan Massal
+
+<span class="pg-blue">:material-eye-outline: Pengawasan Massal</span>
+
+Pengawasan massal adalah upaya yang rumit untuk memantau "perilaku, berbagai aktivitas, atau informasi" dari seluruh (atau sebagian besar) populasi.[^1] Hal ini sering merujuk pada program pemerintah, seperti yang [diungkapkan oleh Edward Snowden pada tahun 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). Namun, hal ini juga dapat dilakukan oleh perusahaan, baik atas nama lembaga pemerintah maupun atas inisiatif sendiri.
+
+!!! abstract "Atlas Pengawasan"
+
+    Jika Anda ingin mempelajari lebih lanjut tentang metode pengawasan dan bagaimana metode tersebut diterapkan di kota Anda, Anda juga dapat melihat [Atlas Pengawasan (Atlas of Surveillance)](https://atlasofsurveillance.org/) oleh [Electronic Frontier Foundation](https://www.eff.org/).
+    
+    Di Prancis, Anda dapat melihat [situs web Technolopolice] (https://technopolice.fr/villes/) yang dikelola oleh asosiasi nirlaba La Quadrature du Net.
+
+Pemerintah sering kali membenarkan program pengawasan massal sebagai cara yang diperlukan untuk memerangi terorisme dan mencegah kejahatan. Namun, melanggar hak asasi manusia, hal ini paling sering digunakan untuk menargetkan kelompok minoritas dan pembangkang politik secara tidak proporsional.
+
+!!! quote "ACLU: [*Pelajaran Privasi dari Peristiwa 9/11: Pengawasan Massal Bukanlah Jalan ke Depan*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
+
+    Dalam menghadapi [pengungkapan Edward Snowden tentang program-program pemerintah seperti [PRISM](https://en.wikipedia.org/wiki/PRISM) dan [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], para pejabat intelijen juga mengakui bahwa NSA selama bertahun-tahun secara diam-diam telah mengumpulkan catatan tentang hampir semua panggilan telepon setiap orang Amerika—siapa yang menelepon siapa, kapan panggilan itu dilakukan, dan berapa lama panggilan itu berlangsung. Informasi semacam ini, ketika dikumpulkan oleh NSA dari hari ke hari, dapat mengungkapkan detail yang sangat sensitif tentang kehidupan dan pergaulan seseorang, seperti apakah mereka pernah menelepon pendeta, penyedia layanan aborsi, konselor kecanduan, atau bantuan pencegahan bunuh diri.
+
+Meskipun pengawasan massal semakin meningkat di Amerika Serikat, pemerintah telah menemukan bahwa program pengawasan massal seperti Bagian 215 hanya memiliki "sedikit nilai unik" dalam hal menghentikan kejahatan aktual atau plot teroris, dengan upaya-upaya yang sebagian besar menduplikasi program pengawasan yang ditargetkan oleh FBI.[^2]
+
+Secara daring, Anda dapat dilacak melalui berbagai metode:
+
+- Alamat IP Anda
+- Kuki peramban
+- Data yang Anda kirimkan ke situs web
+- Sidik jari peramban atau perangkat Anda
+- Korelasi metode pembayaran
+
+\[Daftar ini tidak lengkap].
+
+Jika Anda khawatir dengan program pengawasan massal, Anda bisa menggunakan strategi seperti membagi identitas daring Anda, berbaur dengan pengguna lain, atau, jika memungkinkan, hindari memberikan informasi identitas.
+
+<span class="pg-brown">:material-account-cash: Kapitalisme Pengawasan</span>
+
+> Kapitalisme pengawasan adalah sistem ekonomi yang berpusat di sekitar penangkapan dan komodifikasi data pribadi untuk tujuan utama mencari keuntungan.[^3]
+
+Bagi banyak orang, pelacakan dan pengawasan oleh perusahaan swasta merupakan masalah yang terus meningkat. Jaringan iklan yang tersebar luas, seperti yang dioperasikan oleh Google dan Facebook, menjangkau internet jauh lebih dari sekadar situs yang mereka kendalikan, melacak tindakan Anda di sepanjang jalan. Menggunakan alat seperti pemblokir konten untuk membatasi permintaan jaringan ke server mereka, dan membaca kebijakan privasi layanan yang Anda gunakan bisa membantu Anda menghindari banyak musuh dasar (meskipun tidak bisa sepenuhnya mencegah pelacakan).[^4]
+
+Selain itu, bahkan perusahaan di luar *AdTech* atau industri pelacakan dapat membagikan informasi Anda dengan [pialang data](https://en.wikipedia.org/wiki/Information_broker) (seperti Cambridge Analytica, Experian, atau Datalogix) atau pihak lain. Anda tidak bisa secara otomatis berasumsi bahwa data Anda aman hanya karena layanan yang Anda gunakan tidak termasuk dalam model bisnis AdTech atau pelacakan pada umumnya. Perlindungan terkuat terhadap pengumpulan data perusahaan adalah dengan mengenkripsi atau mengaburkan data Anda jika memungkinkan, sehingga menyulitkan penyedia layanan yang berbeda untuk menghubungkan data satu sama lain dan membuat profil Anda.
+
+## Membatasi Informasi Publik
+
+<span class="pg-green">:material-account-search: Paparan Publik</span>
+
+Cara terbaik untuk menjaga data Anda tetap pribadi adalah dengan tidak mempublikasikannya sejak awal. Menghapus informasi yang tidak diinginkan yang Anda temukan tentang diri Anda secara daring adalah salah satu langkah pertama terbaik yang dapat Anda lakukan untuk mendapatkan kembali privasi Anda.
+
+- [Lihat panduan kami tentang penghapusan akun :material-arrow-right-drop-circle:](account-deletion.md)
+
+Di situs-situs di mana Anda berbagi informasi, memeriksa pengaturan privasi akun Anda untuk membatasi seberapa luas data tersebut disebarkan sangatlah penting. Misalnya, aktifkan "mode pribadi" pada akun Anda jika diberi opsi: Hal ini akan memastikan bahwa akun Anda tidak diindeks oleh mesin pencari, dan tidak dapat dilihat tanpa izin Anda.
+
+Jika Anda telah mengirimkan informasi asli Anda ke situs-situs yang seharusnya tidak memilikinya, pertimbangkan untuk menggunakan taktik disinformasi, seperti mengirimkan informasi fiktif yang terkait dengan identitas daring tersebut. Hal ini membuat informasi asli Anda tidak dapat dibedakan dari informasi palsu.
+
+## Menghindari Penyensoran
+
+<span class="pg-blue-gray">:material-close-outline: Penyensoran</span>
+
+Penyensoran secara daring bisa dilakukan (dalam berbagai tingkatan) oleh berbagai pihak, termasuk pemerintah totaliter, administrator jaringan, dan penyedia layanan. Upaya-upaya untuk mengendalikan komunikasi dan membatasi akses terhadap informasi akan selalu tidak sesuai dengan hak asasi manusia atas Kebebasan Berekspresi.[^5]
+
+Penyensoran pada platform perusahaan semakin umum terjadi, karena platform seperti Twitter dan Facebook menyerah pada permintaan publik, tekanan pasar, dan tekanan dari lembaga pemerintah. Tekanan pemerintah dapat berupa permintaan terselubung kepada bisnis, seperti Gedung Putih [yang meminta penghapusan](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) video YouTube yang provokatif, atau secara terang-terangan, seperti pemerintah Cina yang mewajibkan perusahaan untuk mematuhi rezim sensor yang ketat.
+
+Orang-orang yang khawatir dengan ancaman penyensoran dapat menggunakan teknologi seperti [Tor](../advanced/tor-overview.md) untuk mengelakkannya, dan mendukung platform komunikasi yang tahan sensor seperti [Matrix](../real-time-communication.md#element), yang tidak memiliki otoritas akun terpusat yang dapat menutup akun secara sewenang-wenang.
+
+!!! tip
+
+    Meskipun menghindari penyensoran itu sendiri bisa jadi mudah, menyembunyikan fakta bahwa Anda melakukannya bisa jadi sangat bermasalah.
+    
+    Anda harus mempertimbangkan aspek mana dari jaringan yang dapat diamati oleh musuh Anda, dan apakah Anda memiliki penyangkalan yang masuk akal atas tindakan Anda. Sebagai contoh, menggunakan [DNS terenkripsi](../advanced/dns-overview.md#what-is-encrypted-dns) bisa membantu Anda melalui sistem sensor berbasis DNS yang belum sempurna, tetapi tidak bisa menyembunyikan apa yang Anda kunjungi dari ISP Anda. Sebuah VPN atau Tor bisa membantu menyembunyikan apa yang Anda kunjungi dari administrator jaringan, tetapi tidak bisa menyembunyikan kalau Anda menggunakan jaringan tersebut sejak awal. Transport yang dapat dicolokkan (seperti Obfs4proxy, Meek, atau Shadowsocks) dapat membantu Anda menghindari dinding api yang memblokir protokol VPN umum atau Tor, tetapi upaya pengelabuan Anda masih bisa dideteksi dengan metode seperti pengujian atau [inspeksi paket dalam](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+
+Anda harus selalu mempertimbangkan risiko mencoba menerobos sensor, konsekuensi potensial, dan seberapa canggih musuh Anda. Anda harus berhati-hati dalam memilih perangkat lunak, dan memiliki rencana cadangan untuk berjaga-jaga seandainya Anda ketahuan.
 
 --8<-- "includes/abbreviations.id.txt"
 
-[^1]: Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) and [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
-[^2]: United States Privacy and Civil Liberties Oversight Board: [*Report on the Telephone Records Program Conducted under Section 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
-[^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (or, "listing all the bad things that we know about"), as many adblockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. You should also employ other mitigation techniques.
-[^5]: United Nations: [*Universal Declaration of Human Rights*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).
+[^1]: Wikipedia: [*Pengawasan Massal*](https://en.wikipedia.org/wiki/Mass_surveillance) dan [*Pengawasan*](https://en.wikipedia.org/wiki/Surveillance).
+[^2]: Badan Pengawasan Privasi dan Kebebasan Sipil Amerika Serikat: [*Laporan tentang Program Rekaman Telepon yang Dilakukan berdasarkan Pasal 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
+[^3]: Wikipedia: [*Kapitalisme pengawasan*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
+[^4]: "[Mencatat keburukan](https://www.ranum.com/security/computer_security/editorials/dumb/)" (atau, "membuat daftar semua hal buruk yang kita ketahui"), seperti yang dilakukan banyak pemblokir iklan dan program antivirus, tidak cukup melindungi Anda dari ancaman baru dan tidak dikenal karena ancaman tersebut belum ditambahkan ke daftar saringan. Anda juga harus menggunakan teknik mitigasi lainnya.
+[^5]: Perserikatan Bangsa-Bangsa: [*Deklarasi Universal Hak Asasi Manusia*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).

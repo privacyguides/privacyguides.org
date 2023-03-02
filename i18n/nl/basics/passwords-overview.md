@@ -1,33 +1,33 @@
 ---
-title: "Wachtwoord introductie"
+title: "Inleiding tot wachtwoorden"
 icon: 'material/form-textbox-password'
 ---
 
-Wachtwoorden zijn een essentieel onderdeel van ons dagelijkse digitale leven. We gebruiken ze om onze accounts, onze apparaten en onze geheimen te beschermen. Hoewel ze vaak het enige zijn tussen ons en een tegenstander die uit is op onze privégegevens, wordt er niet veel aandacht aan besteed, wat er vaak toe leidt dat mensen wachtwoorden gebruiken die gemakkelijk geraden of geforceerd kunnen worden.
+Wachtwoorden zijn een essentieel onderdeel van ons dagelijkse digitale leven. We gebruiken ze om onze accounts, onze apparaten en onze geheimen te beschermen. Hoewel ze vaak het enige zijn tussen ons en een tegenstander die uit is op onze privégegevens, wordt er niet veel aandacht aan besteed, wat er vaak toe leidt dat mensen wachtwoorden gebruiken die gemakkelijk geraden of gebruteforcet kunnen worden.
 
-## Beste praktijken
+## Best practices
 
 ### Gebruik unieke wachtwoorden voor elke dienst
 
-Stel je voor: je meldt je aan voor een account met dezelfde e-mail en hetzelfde wachtwoord op meerdere online diensten. Als een van die dienstverleners kwaadwillend is, of hun dienst heeft een datalek waardoor uw wachtwoord in een onversleuteld formaat wordt vrijgegeven, hoeft een kwaadwillende alleen maar die combinatie van e-mail en wachtwoord te proberen bij meerdere populaire diensten totdat hij iets vindt. Het maakt niet uit hoe sterk dat ene wachtwoord is, omdat ze het al hebben.
+Stel je voor: je meldt je aan voor een account met dezelfde e-mail en hetzelfde wachtwoord op meerdere online diensten. Als een van die dienstverleners kwaadwillend is, of hun dienst een datalek heeft waardoor uw wachtwoord in een onversleuteld formaat wordt vrijgegeven, hoeft een kwaadwillende alleen maar die combinatie van e-mail en wachtwoord te proberen bij meerdere populaire diensten totdat hij iets vindt. Het maakt dan niet uit hoe sterk dat ene wachtwoord is, omdat ze het al hebben.
 
-Dit heet [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), en het is een van de meest voorkomende manieren waarop jouw accounts kunnen worden gecompromitteerd door slechte actoren. Om dit te voorkomen, zorg ervoor dat je je wachtwoorden nooit hergebruikt.
+Dit heet [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), en het is een van de meest voorkomende manieren waarop jouw accounts kunnen worden gecompromitteerd door kwaadwillenden. Om dit te voorkomen, moet u ervoor zorgen dat u uw wachtwoorden nooit opnieuw gebruikt.
 
 ### Gebruik willekeurig gegenereerde wachtwoorden
 
-==je moet **nooit** vertrouwen op jezelf om met een goed wachtwoord te komen. = We raden aan om [willekeurig gegenereerde wachtwoorden](#passwords) of [diceware wachtwoord zinnen](#diceware-passphrases) te gebruiken met voldoende entropie om uw accounts en apparaten te beschermen.
+==Je moet **nooit** vertrouwen op jezelf om een goed wachtwoord te bedenken.== Wij raden aan [willekeurig gegenereerde wachtwoorden](#passwords) of [diceware passphrases](#diceware-passphrases) met voldoende entropie te gebruiken om je accounts en apparaten te beschermen.
 
 Al onze [aanbevolen wachtwoordmanagers](../passwords.md) bevatten een ingebouwde wachtwoordgenerator die je kunt gebruiken.
 
 ### Roterende wachtwoorden
 
-Wachtwoorden die je moet onthouden (zoals het hoofdwachtwoord van jouw wachtwoord manager) moet je niet te vaak veranderen, tenzij je reden hebt om aan te nemen dat ze gecompromitteerd zijn, omdat je door ze te vaak te veranderen het risico loopt ze te vergeten.
+Wachtwoorden die je moet onthouden (zoals het hoofdwachtwoord van jouw wachtwoordmanager) moet je niet te vaak veranderen, tenzij je reden hebt om aan te nemen dat ze gecompromitteerd zijn, omdat je door ze te vaak te veranderen het risico loopt ze te vergeten.
 
-Als het gaat om wachtwoorden die je niet hoeft te onthouden (zoals wachtwoorden die zijn opgeslagen in jouw wachtwoordmanager), adviseren wij, als jouw [dreigingsmodel](threat-modeling.md) daarom vraagt, belangrijke accounts door te nemen (vooral accounts die geen multi-factor authenticatie gebruiken) en hun wachtwoord om de paar maanden te wijzigen, voor het geval ze zijn gecompromitteerd in een datalek dat nog niet openbaar is geworden. Bij de meeste wachtwoordbeheerders kunt u een vervaldatum voor uw wachtwoord instellen om dit gemakkelijker te beheren.
+Als het gaat om wachtwoorden die je niet hoeft te onthouden (zoals wachtwoorden die zijn opgeslagen in jouw wachtwoordmanager), adviseren wij, als jouw [dreigingsmodel](threat-modeling.md) daarom vraagt, belangrijke accounts door te nemen (vooral accounts die geen multi-factor authenticatie gebruiken) en hun wachtwoord om de paar maanden te wijzigen, voor het geval ze zijn gecompromitteerd in een datalek dat nog niet openbaar is geworden. Bij de meeste wachtwoordmanagers kunt u een vervaldatum voor uw wachtwoord instellen om dit gemakkelijker te beheren.
 
 !!! tip "Controleren op datalekken"
 
-    Als je met jouw wachtwoord manager kunt controleren op gecompromitteerde wachtwoorden, doe dat dan en wijzig onmiddellijk alle wachtwoorden die bij een datalek bekend zijn geworden. Je kunt ook de [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) volgen met behulp van een [nieuwsaggregator](../news-aggregators.md).
+    Als je met jouw wachtwoordmanager kunt controleren op gecompromitteerde wachtwoorden, doe dat dan en wijzig onmiddellijk alle wachtwoorden die bij een datalek bekend zijn geworden. Je kunt ook de [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) volgen met behulp van een [nieuwsaggregator](../news-aggregators.md).
 
 ## Sterke wachtwoorden maken
 
@@ -89,13 +89,13 @@ Kortom, diceware wachtzinnen zijn jouw beste optie wanneer je iets nodig hebt da
 
 ## Wachtwoorden opslaan
 
-### Wachtwoord managers
+### Wachtwoordmanagers
 
 De beste manier om jouw wachtwoorden op te slaan is met behulp van een wachtwoordmanager. Hiermee kunt je jouw wachtwoorden opslaan in een bestand of in de cloud en ze beschermen met een enkel hoofdwachtwoord. Op die manier hoeft u maar één sterk wachtwoord te onthouden, waarmee je toegang krijgt tot de rest.
 
-Er zijn veel goede opties om uit te kiezen, zowel cloud-gebaseerd als lokaal. Kies een van onze aanbevolen wachtwoordbeheerders en gebruik deze om sterke wachtwoorden in te stellen voor al jouw accounts. Wij raden je aan om jouw wachtwoord manager te beveiligen met een [diceware wachtwoord zin](#diceware-passphrases) bestaande uit ten minste zeven woorden.
+Er zijn veel goede opties om uit te kiezen, zowel cloud-gebaseerd als lokaal. Kies een van onze aanbevolen wachtwoordbeheerders en gebruik deze om sterke wachtwoorden in te stellen voor al jouw accounts. Wij raden je aan om jouw wachtwoordmanager te beveiligen met een [diceware wachtwoord zin](#diceware-passphrases) bestaande uit ten minste zeven woorden.
 
-[Lijst van aanbevolen wachtwoordbeheerders](../passwords.md ""){.md-button}
+[Lijst van aanbevolen wachtwoordmanagers](../passwords.md ""){.md-button}
 
 !!! warning "Plaats uw wachtwoorden en TOTP-tokens niet in dezelfde wachtwoordmanager"
 

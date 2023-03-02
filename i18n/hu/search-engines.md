@@ -1,5 +1,5 @@
 ---
-title: "Search Engines"
+title: "Keresőmotorok"
 icon: material/search-web
 ---
 

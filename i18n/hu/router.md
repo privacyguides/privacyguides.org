@@ -12,7 +12,7 @@ Lejjebb bemutatunk néhány alternatív operációs rendszert, amelyek használh
     ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
     ![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
     
-    Az **OpenWrt** egy Linux alapú operációs rendszer; elsősorban beágyazott eszközökön használják hálózati forgalom irányítására. Tartalmazza az util-linux, uClibc és BusyBox programokat. Az összes komponens otthoni routerekhez lett optimalizálva.
+    Az **OpenWrt** egy Linux alapú operációs rendszer; elsősorban beágyazott eszközökön használatos, hálózati forgalom irányítására. Tartalmazza az util-linux, uClibc és BusyBox programokat. Az összes komponens otthoni routerekhez lett optimalizálva.
     
     [:octicons-home-16: Honlap](https://openwrt.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Dokumentáció}
@@ -39,10 +39,10 @@ Az OPNsense eredetileg a [pfSense](https://en.wikipedia.org/wiki/PfSense) forkja
 
 !!! example "Ez a szakasz új"
 
-    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
 
 - Nyílt forráskódúnak kell lennie.
 - Rendszeres frissítéseket kell kapnia.
-- Must support a wide variety of hardware.
+- Sokféle hardvert kell támogatnia.
 
 --8<-- "includes/abbreviations.hu.txt"

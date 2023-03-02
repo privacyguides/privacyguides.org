@@ -1,5 +1,5 @@
 ---
-title: Vue d'Ensemble VPN
+title: Introduction aux VPNs
 icon: material/vpn
 ---
 

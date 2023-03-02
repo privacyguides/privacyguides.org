@@ -1,5 +1,5 @@
 ---
-title: "Idées Reçues"
+title: "Idées reçues"
 icon: 'material/robot-confused'
 ---
 

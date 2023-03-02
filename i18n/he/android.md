@@ -33,7 +33,7 @@ icon: 'simple/android'
     
     **GrapheneOS** היא הבחירה הטובה ביותר בכל הנוגע לפרטיות ואבטחה.
     
-    GrapheneOS מספקת [הקשחת אבטחה](https://en.wikipedia.org/wiki/Hardening_(computing)) ושיפורי פרטיות נוספים. יש לו [מקצה זיכרון מוקשה](https://github.com/GrapheneOS/hardened_malloc), הרשאות רשת וחיישנים ועוד [תכונות אבטחה] שונות (https://grapheneos.org/features). GrapheneOS מגיעה גם עם עדכוני קושחה מלאים ו-builds חתומים, כך שאתחול מאומת נתמך באופן מלא.
+    GrapheneOS מספקת [הקשחת אבטחה](https://en.wikipedia.org/wiki/Hardening_(computing)) ושיפורי פרטיות נוספים. יש לו [מקצה זיכרון מוקשה](https://github.com/GrapheneOS/hardened_malloc), הרשאות רשת וחיישנים ועוד [תכונות אבטחה](https://grapheneos.org/features) שונות. GrapheneOS מגיעה גם עם עדכוני קושחה מלאים ו-builds חתומים, כך שאתחול מאומת נתמך באופן מלא.
     
     [:octicons-home-16: דף הבית](https://grapheneos.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="מדיניות פרטיות" }
@@ -89,7 +89,7 @@ DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת 
 
 ### גוגל פיקסל
 
-טלפונים של גוגל פיקסל הם המכשירים ה**היחידים** שאנו ממליצים לרכישה. לטלפונים של Pixel יש אבטחת חומרה חזקה יותר מכל מכשירי אנדרואיד אחרים הקיימים כיום בשוק, בשל תמיכת AVB נאותה עבור מערכות הפעלה של צד שלישי ושבבי אבטחה [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) הפועלים כאלמנט המאובטח.
+טלפונים של גוגל פיקסל הם המכשירים **היחידים** שאנו ממליצים לרכישה. לטלפונים של Pixel יש אבטחת חומרה חזקה יותר מכל מכשירי אנדרואיד אחרים הקיימים כיום בשוק, בשל תמיכת AVB נאותה עבור מערכות הפעלה של צד שלישי ושבבי אבטחה [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) הפועלים כאלמנט המאובטח.
 
 !!! recommendation
 

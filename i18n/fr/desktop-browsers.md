@@ -1,5 +1,5 @@
 ---
-title: "Navigateurs de Bureau"
+title: "Navigateurs de bureau"
 icon: material/laptop
 ---
 

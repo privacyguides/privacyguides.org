@@ -3,9 +3,9 @@ title: "Data and Metadata Redaction"
 icon: material/tag-remove
 ---
 
-When sharing files, be sure to remove associated metadata. Image files commonly include [Exif](https://en.wikipedia.org/wiki/Exif) data. Photos sometimes even include GPS coordinates in the file metadata.
+Cuando compartas archivos, asegúrate de eliminar los metadatos asociados. Los archivos de imagen suelen incluir Datos [Exif](https://es.wikipedia.org/wiki/Exchangeable_image_file_format). A veces, las fotos incluyen incluso coordenadas GPS en los metadatos del archivo.
 
-## Desktop
+## PC
 
 ### MAT2
 
@@ -13,15 +13,15 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     ![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
     
-    **MAT2** is free software, which allows the metadata to be removed from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an [extension for Nautilus](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus), the default file manager of [GNOME](https://www.gnome.org), and [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
+    **MAT2** es un software gratuito que permite eliminar los metadatos de archivos de imagen, audio, torrent y documentos. Proporciona tanto una herramienta de línea de comandos como una interfaz gráfica de usuario a través de una [extensión para Nautilus](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus), el gestor de archivos por defecto de [GNOME](https://www.gnome.org), y [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), el gestor de archivos por defecto de [KDE](https://kde.org).
     
-    On Linux, a third-party graphical tool [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) powered by MAT2 exists and is [available on Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
+    En Linux, existe una herramienta gráfica de terceros [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) basada en MAT2 y está [disponible en Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
     
-    [:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentation}
-    [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Source Code" }
+    [:octicons-repo-16: Repositorio](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentación}
+    [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Código Fuente" }
     
-    ??? downloads
+    ??? descargas
     
         - [:simple-windows11: Windows](https://pypi.org/project/mat2)
         - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
@@ -36,35 +36,35 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ align=right }
     
-    **ExifEraser** is a modern, permissionless image metadata erasing application for Android.
+    **ExifEraser** es una moderna aplicación de borrado de metadatos de imagen sin permisos para Android.
     
-    It currently supports JPEG, PNG and WebP files.
+    Actualmente admite archivos JPEG, PNG y WebP.
     
-    [:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
+    [:octicons-repo-16: Repositorio](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Código Fuente" }
     
-    ??? downloads
+    ??? descargas
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
         - [:simple-github: GitHub](https://github.com/Tommy-Geenexus/exif-eraser/releases)
 
-The metadata that is erased depends on the image's file type:
+Los metadatos que son eliminados dependen del tipo de archivo de la imagen:
 
-* **JPEG**: ICC Profile, Exif, Photoshop Image Resources and XMP/ExtendedXMP metadata will be erased if it exists.
-* **PNG**: ICC Profile, Exif and XMP metadata will be erased if it exists.
-* **WebP**: ICC Profile, Exif and XMP metadata will be erased if it exists.
+* **JPEG**: Los metadatos ICC Profile, Exif, Photoshop Image Resources and XMP/ExtendedXMP serán eliminados si existen.
+* **PNG**: Los metadatos ICC Profile, Exif y XMP serán eliminados si existen.
+* **WebP**: Los metadatos ICC Profile, Exif y XMP serán eliminados si existen.
 
-After processing the images, ExifEraser provides you with a full report about what exactly was removed from each image.
+Tras procesar las imágenes, ExifEraser te proporciona un informe completo sobre lo que se ha eliminado exactamente de cada imagen.
 
-The app offers multiple ways to erase metadata from images. Namely:
+La aplicación ofrece múltiples formas de borrar los metadatos de las imágenes. Estas son:
 
-* You can share an image from another application with ExifEraser.
-* Through the app itself, you can select a single image, multiple images at once, or even an entire directory.
-* It features a "Camera" option, which uses your operating system's camera app to take a photo, and then it removes the metadata from it.
-* It allows you to drag photos from another app into ExifEraser when they are both open in split-screen mode.
-* Lastly, it allows you to paste an image from your clipboard.
+* Puede compartir una imagen de otra aplicación con ExifEraser.
+* A través de la propia aplicación, puedes seleccionar una sola imagen, varias imágenes a la vez o incluso un directorio entero.
+* Cuenta con una opción de "Cámara", que utiliza la aplicación de cámara de tu sistema operativo para tomar una foto, y luego elimina los metadatos de la misma.
+* Te permite arrastrar fotos desde otra aplicación a ExifEraser cuando ambas están abiertas en modo de pantalla dividida.
+* Por último, te permite pegar una imagen desde el portapapeles.
 
 ### Metapho (iOS)
 

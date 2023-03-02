@@ -241,7 +241,7 @@ Richiediamo a tutti i provider VPN da noi consigliati di fornire file di configu
 - Supporto multihop. Il multihopping è importante per mantenere i dati privati nel caso in cui un nodo venisse compromesso.
 - Se vengono forniti client VPN, devono essere [open-source](https://en.wikipedia.org/wiki/Open_source), come il software VPN che generalmente hanno incorporato. Crediamo che la disponibilità del [codice sorgente](https://en.wikipedia.org/wiki/Source_code) fornisca grande trasparenza riguardo ciò che il tuo dispositivo sta effettivamente facendo.
 
-**Best Case:**
+**Caso migliore:**
 
 - Supporto per WireGuard e OpenVPN.
 - Killswitch con opzioni altamente configurabili (abilitazione/disabilitazione su determinate reti, all'avvio, ecc.)
@@ -251,14 +251,14 @@ Richiediamo a tutti i provider VPN da noi consigliati di fornire file di configu
 
 ### Privacy
 
-We prefer our recommended providers to collect as little data as possible. È necessario non raccogliere informazioni personali al momento della registrazione e accettare forme di pagamento anonime.
+Preferiamo che i provider da noi consigliati raccolgano il minor numero di dati possibile. È necessario non raccogliere informazioni personali al momento della registrazione e accettare forme di pagamento anonime.
 
 **Requisiti minimi:**
 
 - Opzione di pagamento in contanti o in Monero.
 - Nessuna informazione personale richiesta per registrarsi: solo nome utente, password ed e-mail al massimo.
 
-**Best Case:**
+**Caso migliore:**
 
 - Accetta Monero, contanti e altre forme di pagamento anonimo (carte regalo, etc.)
 - Nessuna informazione personale richiesta (nome utente autogenerato, nessuna e-mail richiesta, etc.)
@@ -273,7 +273,7 @@ Una VPN è inutile se non è nemmeno in grado di fornire una sicurezza adeguata.
 - Perfect Forward Secrecy (PFS).
 - Audit sulla sicurezza pubblicati da un'azienda terza affidabile.
 
-**Best Case:**
+**Caso migliore:**
 
 - Crittografia più forte: RSA-4096.
 - Perfect Forward Secrecy (PFS).
@@ -282,13 +282,13 @@ Una VPN è inutile se non è nemmeno in grado di fornire una sicurezza adeguata.
 
 ### Fiducia
 
-Non affideresti le tue finanze a qualcuno con un'identità falsa, quindi perché dovresti affidargli i tuoi dati internet? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+Non affideresti le tue finanze a qualcuno con un'identità falsa, quindi perché dovresti affidargli i tuoi dati internet? Richiediamo che i provider da noi consigliati rendano pubbliche la loro dirigenza o proprietà. Vorremmo anche vedere frequenti rapporti di trasparenza, soprattutto per quanto riguarda il modo in cui vengono gestite le richieste del governo.
 
 **Requisiti minimi:**
 
 - Dirigenza o proprietà pubblica.
 
-**Best Case:**
+**Caso migliore:**
 
 - Dirigenza pubblica.
 - Rapporti di trasparenza frequenti.
@@ -301,7 +301,7 @@ Con i fornitori di VPN che raccomandiamo ci piace vedere un marketing responsabi
 
 - Deve utilizzare sistemi di analisi dei dati propri (es. no Google Analytics). Il sito del provider deve inoltre rispettare [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) per le persone che desiderano rinunciare.
 
-Must not have any marketing which is irresponsible:
+Non deve avere alcun marketing ritenuto irresponsabile:
 
 - Garantire al 100% la protezione dell'anonimato. Quando qualcuno afferma che qualcosa è al 100% significa che non esiste fallimento. Sappiamo che le persone possono deanonimizzarsi facilmente in vari modi, ad es.:
     - Riutilizzare informazioni personali (es., account e-mail, pseudonimi unici ecc.) con cui hanno eseguito accessi senza software di anonimizzazione (Tor, VPN, ecc.)
@@ -309,7 +309,7 @@ Must not have any marketing which is irresponsible:
 - Sostenere che un singolo circuito VPN è più "anonimo di Tor", il quale è un circuito con 3 o più hop che cambiano regolarmente.
 - Utilizzare linguaggio responsabile: per esempio, è accettabile dire che la VPN è "disconnessa" o "non connessa", tuttavia affermare che un utente è "esposto", "vulnerabile" o "compromesso" può creare allarmismi incorretti e inutili. Per esempio, quella persona potrebbe semplicemente star usando un'altra VPN o Tor.
 
-**Best Case:**
+**Caso migliore:**
 
 Il marketing responsabile, che è sia educativo che utile per il consumatore, potrebbe includere:
 

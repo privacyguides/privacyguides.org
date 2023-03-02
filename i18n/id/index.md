@@ -7,38 +7,38 @@ hide:
 ---
 
 <!-- markdownlint-disable-next-line -->
-## Why should I care?
+## Mengapa saya harus peduli?
 
-##### “I have nothing to hide. Why should I care about my privacy?”
+##### “Saya tidak memiliki apa-apa untuk disembunyikan. Mengapa saya harus peduli dengan privasi saya?”
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+Sama seperti hak untuk menikah antar ras, hak pilih perempuan, kebebasan berbicara, dan banyak lainnya, hak kita untuk mendapatkan privasi tidak selalu ditegakkan. Dalam beberapa kediktatoran, masih belum. Generasi sebelum kita memperjuangkan untuk hak privasi kita. ==Privasi adalah hak asasi manusia, yang melekat pada kita semua,== yang berhak kita dapatkan (tanpa diskriminasi).
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+Anda tidak harus bingung antara privasi dengan kerahasiaan. Kami tahu apa yang terjadi di kamar mandi, tapi Anda tetap menutup pintunya. Itu karena Anda menginginkan privasi, bukan kerahasiaan. **Setiap orang** memiliki sesuatu untuk dilindungi. Privasi adalah sesuatu yang membuat kita menjadi manusia.
 
-[:material-target-account: Common Internet Threats](basics/common-threats.md ""){.md-button.md-button--primary}
+[:material-target-account: Ancaman Internet Umum](basics/common-threats.md ""){.md-button.md-button--primary}
 
-## What should I do?
+## Apa yang harus saya lakukan?
 
-##### First, you need to make a plan
+##### Pertama, Anda perlu membuat rencana
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. But don't worry! Security is a process, and, by thinking ahead, you can put together a plan that's right for you. Security isn't just about the tools you use or the software you download. Rather, it begins by understanding the unique threats you face, and how you can mitigate them.
+Mencoba untuk melindungi semua data Anda dari semua orang setiap saat tidaklah praktis, mahal, dan melelahkan. Tetapi jangan khawatir! Keamanan adalah sebuah proses, dan dengan berpikir ke depan, Anda dapat menyusun rencana yang tepat untuk Anda. Keamanan bukan hanya tentang alat yang Anda gunakan atau perangkat lunak yang Anda unduh. Sebaliknya, itu dimulai dengan memahami ancaman unik yang Anda hadapi, dan bagaimana Anda dapat memitigasinya.
 
-==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
+==Proses mengidentifikasi ancaman dan mendefinisikan tindakan penanggulangan disebut **pemodelan ancaman**==, dan ini menjadi dasar dari setiap rencana keamanan dan privasi yang baik.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md ""){.md-button.md-button--primary}
+[:material-book-outline: Pelajari Lebih Lanjut Tentang Pemodelan Ancaman](basics/threat-modeling.md ""){.md-button.md-button--primary}
 
 ---
 
-## We need you! Here's how to get involved:
+## Kami membutuhkan Anda! Berikut adalah cara untuk terlibat:
 
-[:simple-discourse:](https://discuss.privacyguides.net/){ title="Join our Forum" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
-[:material-information-outline:](about/index.md){ title="Learn more about us" }
-[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
+[:simple-discourse:](https://discuss.privacyguides.net/){ title="Bergabung dengan Forum kami" }
+[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Ikuti kami di Mastodon" }
+[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Berkontribusi ke situs web ini" }
+[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Bantu menerjemahkan situs web ini" }
+[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Obrol dengan kami di Matrix" }
+[:material-information-outline:](about/index.md){ title="Pelajari lebih lanjut tentang kami" }
+[:material-hand-coin-outline:](about/donate.md){ title="Dukung proyek ini" }
 
-It's important for a website like Privacy Guides to always stay up-to-date. We need our audience to keep an eye on software updates for the applications listed on our site and follow recent news about providers that we recommend. It's hard to keep up with the fast pace of the internet, but we try our best. If you spot an error, think a provider should not be listed, notice a qualified provider is missing, believe a browser plugin is no longer the best choice, or uncover any other issue, please let us know.
+Ini penting bagi situs web seperti Privacy Guides untuk selalu mendapatkan informasi yang terbaru. Kami membutuhkan audiens kami untuk mengawasi pembaruan perangkat lunak untuk aplikasi yang terdaftar di situs kami dan mengikuti berita terbaru tentang penyedia yang kami rekomendasikan. Memang sulit untuk mengimbangi kecepatan internet yang begitu cepat, tetapi kami berusaha sebaik mungkin. Jika Anda menemukan kesalahan, merasa bahwa sebuah penyedia tidak seharusnya terdaftar, melihat penyedia yang memenuhi syarat tidak ada, merasa plugin peramban tidak lagi menjadi pilihan terbaik, atau menemukan masalah lain, silakan beri tahu kami.
 
 --8<-- "includes/abbreviations.id.txt"

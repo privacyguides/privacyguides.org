@@ -7,21 +7,21 @@ Découvrez comment partager vos fichiers en toute confidentialité entre vos app
 
 ## Partage de fichiers
 
-### Envoyer
+### Send
 
 !!! recommendation
 
     ![Logo de Send](assets/img/file-sharing-sync/send.svg){ align=right }
     
-    **Send** est un dérivé du service Firefox Send de Mozilla, qui a été abandonné, et qui vous permet d'envoyer des fichiers à d'autres personnes à l'aide d'un lien. Les fichiers sont cryptés sur votre appareil afin qu'ils ne puissent pas être lus par le serveur, et ils peuvent également être protégés par un mot de passe. Le responsable de Send héberge une [instance publique](https://send.vis.ee/). Vous pouvez utiliser d'autres instances publiques, ou vous pouvez héberger Send vous-même.
+    **Send** est un fork du service Firefox Send de Mozilla, qui a été abandonné, et qui vous permet d'envoyer des fichiers à d'autres personnes à l'aide d'un lien. Les fichiers sont chiffrés sur votre appareil afin qu'ils ne puissent pas être lus par le serveur, et ils peuvent également être protégés par un mot de passe. Le responsable de Send héberge une [instance publique](https://send.vis.ee/). Vous pouvez utiliser d'autres instances publiques, ou vous pouvez héberger Send vous-même.
     
     [:octicons-home-16: Page d'accueil](https://send.vis.ee){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Instances Publiques"}
+    [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Instances publiques"}
     [:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Code Source" }
+    [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Code source" }
     [:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title=Contribuer }
 
-Send peut être utilisé via son interface web ou via le CLI [ffsend](https://github.com/timvisee/ffsend) . Si vous êtes familier avec la ligne de commande et que vous envoyez fréquemment des fichiers, nous vous recommandons d'utiliser le client CLI pour éviter le cryptage basé sur JavaScript. Vous pouvez spécifier le flag `--host` pour utiliser un serveur spécifique :
+Send peut être utilisé via son interface web ou via le CLI [ffsend](https://github.com/timvisee/ffsend) . Si vous êtes familier avec la ligne de commande et que vous envoyez fréquemment des fichiers, nous vous recommandons d'utiliser le client CLI pour éviter le chiffrement basé sur JavaScript. Vous pouvez spécifier le flag `--host` pour utiliser un serveur spécifique :
 
 ```bash
 ffsend upload --host https://send.vis.ee/ FICHIER
@@ -36,9 +36,9 @@ ffsend upload --host https://send.vis.ee/ FICHIER
     **OnionShare** est un outil open-source qui vous permet de partager de manière sécurisée et anonyme un fichier de n'importe quelle taille. Il fonctionne en démarrant un serveur web accessible en tant que service oignon Tor, avec une URL non devinable que vous pouvez partager avec les destinataires pour télécharger ou envoyer des fichiers.
     
     [:octicons-home-16: Page d'accueil](https://onionshare.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
+    [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Service onion" }
     [:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
+    [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Code source" }
     
     ??? downloads "Téléchargements"
     
@@ -68,10 +68,10 @@ ffsend upload --host https://send.vis.ee/ FICHIER
     
     [:octicons-home-16: Page d'accueil](https://freedombox.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
-    [:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
+    [:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Code source" }
     [:octicons-heart-16:](https://freedomboxfoundation.org/donate/){ .card-link title=Contribuer }
 
-## Synchronisation de Fichiers
+## Synchronisation de fichiers
 
 ### Nextcloud (Client-Serveur)
 
@@ -111,7 +111,7 @@ ffsend upload --host https://send.vis.ee/ FICHIER
     
     [:octicons-home-16: Page d'accueil](https://syncthing.net){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Code Source" }
+    [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Code source" }
     [:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribuer }
     
     ??? downloads "Téléchargements"

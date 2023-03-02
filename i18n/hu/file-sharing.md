@@ -3,9 +3,9 @@ title: "Fájlmegosztás és Szinkronizálás"
 icon: material/share-variant
 ---
 
-Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
+Fedezd fel, hogyan oszthatod meg fájljaid privát módon készülékek között, barátaiddal és családtagjaiddal vagy névtelenül online.
 
-## Jelszókezelők
+## Fájlmegosztás
 
 ### Send
 
@@ -13,18 +13,18 @@ Discover how to privately share your files between your devices, with your frien
 
     ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
     
-    **Send** is a fork of Mozilla’s discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well. The maintainer of Send hosts a [public instance](https://send.vis.ee/). You can use other public instances, or you can host Send yourself.
+    A **Send** a Mozilla megszűnt Firefox Send szolgáltatásának egy forkja, amely lehetővé teszi, hogy fájlokat küldj másoknak egy link segítségével. A fájlok az eszközön kerülnek titkosításra, így a szerver nem tudja azokat elolvasni, és választhatóan jelszóval is védhetők. A Send karbantartója egy [publikus instance-et](https://send.vis.ee/) üzemeltet. Használhatsz más nyilvános instanceket, vagy magad is üzemeltetheted a Send-et.
     
-    [:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title=Contribute }
+    [:octicons-home-16: Honlap](https://send.vis.ee){ .md-button .md-button--primary }
+    [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Publikus Instancek"}
+    [:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title=Dokumentáció}
+    [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Forráskód" }
+    [:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title=Közreműködés }
 
-Send can be used via its web interface or via the [ffsend](https://github.com/timvisee/ffsend) CLI. If you are familiar with the command-line and send files frequently, we recommend using the CLI client to avoid JavaScript-based encryption. You can specify the `--host` flag to use a specific server:
+A Send a webes felületén vagy az [ffsend](https://github.com/timvisee/ffsend) CLI segítségével használható. Ha jól ismered a parancssort, és gyakran küldesz fájlokat, a JavaScript-alapú titkosítás elkerülése érdekében a CLI-kliens használatát javasoljuk. Megadhatod a `--host` flaget, ha egy adott szervert szeretnél használni:
 
 ```bash
-ffsend upload --host https://send.vis.ee/ FILE
+ffsend upload --host https://send.vis.ee/ FÁJL
 ```
 
 ### OnionShare
@@ -33,12 +33,12 @@ ffsend upload --host https://send.vis.ee/ FILE
 
     ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
     
-    **OnionShare** is an open-source tool that lets you securely and anonymously share a file of any size. It works by starting a web server accessible as a Tor onion service, with an unguessable URL that you can share with the recipients to download or send files.
+    Az **OnionShare** egy nyílt forráskódú eszköz, amellyel biztonságosan és névtelenül oszthatsz meg bármilyen méretű fájlt. Úgy működik, hogy egy Tor onion szolgáltatásként elérhető webszervert indít el, egy kitalálhatatlan URL-címmel együtt, amit megoszthatsz a címzettekkel fájlok letöltéséhez vagy küldéséhez.
     
-    [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
-    [:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
+    [:octicons-home-16: Honlap](https://onionshare.org){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Szolgáltatás" }
+    [:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Dokumentáció}
+    [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Forráskód" }
     
     ??? downloads
     
@@ -52,11 +52,11 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 !!! example "Ez a szakasz új"
 
-    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
 
-- Must not store decrypted data on a remote server.
-- Must be open-source software.
-- Must either have clients for Linux, macOS, and Windows; or have a web interface.
+- Nem tárolhat visszafejtett adatokat távoli szerveren.
+- Nyílt forráskódú szoftvernek kell lennie.
+- Linux, macOS és Windows kliensekkel, vagy webes felülettel kell rendelkeznie.
 
 ## FreedomBox
 
@@ -64,16 +64,16 @@ ffsend upload --host https://send.vis.ee/ FILE
 
     ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }
     
-    **FreedomBox** is an operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications that you might want to self-host.
+    A **FreedomBox** egy operációs rendszer, amelyet [single-board számítógépen (SBC)](https://en.wikipedia.org/wiki/Single-board_computer) történő futtatásra terveztek. Célja az, hogy megkönnyítse szerveralkalmazások beállítását, amelyeket esetleg magad szeretnél üzemeltetni.
     
-    [:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
-    [:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://freedomboxfoundation.org/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: Honlap](https://freedombox.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Dokumentáció}
+    [:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Forráskód" }
+    [:octicons-heart-16:](https://freedomboxfoundation.org/donate/){ .card-link title=Közreműködés }
 
-## File Sync
+## Fájl Szinkronizálás
 
-### Nextcloud (Client-Server)
+### Nextcloud (Kliens-Szerver)
 
 !!! recommendation
 
@@ -81,7 +81,7 @@ ffsend upload --host https://send.vis.ee/ FILE
     
     A **Nextcloud** egy ingyenes és nyílt forráskódú kliens-szerver szoftvercsomag, amellyel saját fájltárhely-szolgáltatásokat hozhatsz létre egy privát általad ellenőrzött szerveren.
     
-    [:octicons-home-16: Kezdőlap](https://nextcloud.com){ .md-button .md-button--primary }
+    [:octicons-home-16: Honlap](https://nextcloud.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Adatvédelmi Nyilatkozat" }
     [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Dokumentáció}
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Forráskód" }
@@ -107,12 +107,12 @@ ffsend upload --host https://send.vis.ee/ FILE
 
     ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ align=right }
     
-    **Syncthing** is an open-source peer-to-peer continuous file synchronization utility. It is used to synchronize files between two or more devices over the local network or the internet. Syncthing does not use a centralized server; it uses the [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) to transfer data between devices. All data is encrypted using TLS.
+    A **Syncthing** egy nyílt forráskódú peer-to-peer folyamatos fájlszinkronizáló segédprogram. Két vagy több eszköz közötti fájl szinkronizálásra szolgál helyi hálózaton vagy az interneten keresztül. A Syncthing nem használ központi szervert; a [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1)-t használja az eszközök közötti adatátvitelre. Minden adat TLS-sel van titkosítva.
     
-    [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribute }
+    [:octicons-home-16: Honlap](https://syncthing.net){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Dokumentáció}
+    [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Forráskód" }
+    [:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Kontribúció }
     
     ??? downloads
     
@@ -130,19 +130,19 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 !!! example "Ez a szakasz új"
 
-    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
 
-#### Minimum Requirements
+#### Minimális Követelmények
 
-- Must not require a third-party remote/cloud server.
-- Must be open-source software.
-- Must either have clients for Linux, macOS, and Windows; or have a web interface.
+- Nem igényelhet harmadik féltől származó távoli/felhőalapú szervert.
+- Nyílt forráskódú szoftvernek kell lennie.
+- Linux, macOS és Windows kliensekkel, vagy webes felülettel kell rendelkeznie.
 
-#### Best-Case
+#### Legjobb Esetben
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy tökéletes projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 
-- Has mobile clients for iOS and Android, which at least support document previews.
-- Supports photo backup from iOS and Android, and optionally supports file/folder sync on Android.
+- Van mobil kliense iOS és Android rendszerekre, amelyek legalább dokumentum előnézeteket támogatnak.
+- Támogatja fényképek biztonsági mentését iOS-ről és Androidról, és opcionálisan támogatja a fájl/mappa szinkronizálást Androidon.
 
 --8<-- "includes/abbreviations.hu.txt"

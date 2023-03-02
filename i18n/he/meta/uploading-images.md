@@ -1,23 +1,23 @@
 ---
-title: Uploading Images
+title: העלאת תמונות
 ---
 
-Here are a couple of general rules for contributing to Privacy Guides:
+הנה כמה כללים כלליים לתרומה ל-Privacy Guides:
 
-## Images
+## תמונות
 
-- We **prefer** SVG images, but if those do not exist we can use PNG images
+- אנחנו **מעדיפים** תמונות SVG, אבל אם אלה לא קיימות נוכל להשתמש בתמונות PNG
 
-Company logos have canvas size of:
+לסמלי החברה יש גודל קנבס של:
 
-- 128x128px
-- 384x128px
+- 128x128 פיקסלים
+- 384x128 פיקסלים
 
-## Optimization
+## אופטימיזציה
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng/) to optimize the PNG image:
+השתמש ב-[OptiPNG](https://sourceforge.net/projects/optipng/) כדי לבצע אופטימיזציה של תמונת PNG:
 
 ```bash
 optipng -o7 file.png
@@ -27,16 +27,16 @@ optipng -o7 file.png
 
 #### Inkscape
 
-[Scour](https://github.com/scour-project/scour) all SVG images.
+[סרקו](https://github.com/scour-project/scour) את כל תמונות ה-SVG.
 
-In Inkscape:
+ב-Inkscape:
 
 1. File Save As..
-2. Set type to Optimized SVG (*.svg)
+2. הגדר את הסוג ל-SVG אופטימיזציה (*.svg)
 
-In the **Options** tab:
+בלשונית **האפשרויות**:
 
-- **Number of significant digits for coordinates** > **5**
+- **מספר הספרות המשמעותיות עבור קואורדינטות** > **5**
 - [x] Turn on **Shorten color values**
 - [x] Turn on **Convert CSS attributes to XML attributes**
 - [x] Turn on **Collapse groups**
@@ -71,7 +71,7 @@ In the **IDs** tab:
 
 #### CLI
 
-The same can be achieved with the [Scour](https://github.com/scour-project/scour) command:
+ניתן להשיג את אותו הדבר עם הפקודה [Scour](https://github.com/scour-project/scour):
 
 ```bash
 scour --set-precision=5 \

@@ -1,5 +1,5 @@
 ---
-title: "Création de Compte"
+title: "Création de compte"
 icon: 'material/account-plus'
 ---
 

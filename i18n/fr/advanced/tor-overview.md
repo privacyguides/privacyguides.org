@@ -1,5 +1,5 @@
 ---
-title: "Présentation de Tor"
+title: "Introduction à Tor"
 icon: 'simple/torproject'
 ---
 

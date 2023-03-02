@@ -162,7 +162,7 @@ Canary Mail est à source fermée. Nous le recommandons en raison du peu de choi
     
     **Kontact** est une application de gestion des informations personnelles (PIM) issue du projet [KDE](https://kde.org). Il offre un client de messagerie, un carnet d'adresses, un organiseur et un client RSS.
     
-    [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Page d'accueil](https://kontact.kde.org){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Politique de confidentialité" }
     [:octicons-info-16:](https://kontact.kde.org/users/){ .card-link title=Documentation}
     [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Code source" }
@@ -179,9 +179,9 @@ Canary Mail est à source fermée. Nous le recommandons en raison du peu de choi
 
     ![Logo Mailvelope](assets/img/email-clients/mailvelope.svg){ align=right }
     
-    **Mailvelope** est une extension de navigateur qui permet l'échange de courriers électroniques cryptés selon la norme de cryptage OpenPGP.
+    **Mailvelope** est une extension de navigateur qui permet l'échange de courriers électroniques chiffrés selon la norme de chiffrement OpenPGP.
     
-    [:octicons-home-16: Homepage](https://www.mailvelope.com){ .md-button .md-button--primary }
+    [:octicons-home-16: Page d'accueil](https://www.mailvelope.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Politique de confidentialité" }
     [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Code source" }
@@ -202,7 +202,7 @@ Canary Mail est à source fermée. Nous le recommandons en raison du peu de choi
     
     NeoMutt est un client textuel qui a une courbe d'apprentissage abrupte. Il est cependant très personnalisable.
     
-    [:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Page d'accueil](https://neomutt.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://neomutt.org/guide/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Code source" }
     [:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribuer }

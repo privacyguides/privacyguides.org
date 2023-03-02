@@ -1,5 +1,5 @@
 ---
-title: Présentation de Linux
+title: Introduction à Linux
 icon: simple/linux
 ---
 

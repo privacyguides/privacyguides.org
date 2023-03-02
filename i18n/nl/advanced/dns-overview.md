@@ -260,18 +260,18 @@ Als de netwerkwaarnemer het publieke certificaat heeft, dat publiekelijk beschik
 We hebben dit stroomschema gemaakt om te beschrijven wanneer u *versleutelde DNS zou moeten* gebruiken:
 
 ``` mermaid
-grafiek TB
-    Start[Start] --> anoniem{Probeert<br> anoniem te zijn?}
-    anonymous--> | Yes | tor(Use Tor)
-    anonymous --> | No | censorship{Avoiding<br> censorship?}
+graph TB
+    Begin[Begin] --> anoniem{Probeert<br> anoniem te zijn?}
+    anoniem--> | Ja | tor(Use Tor)
+    anoniem --> | Nee | censuur{Censuur<br> vermijden?}
     censuur --> | Ja | vpnOrTor(Gebruik<br> VPN of Tor)
     censuur --> | Nee | privacy{Wil je privacy<br> van ISP?}
-    privacy --> | Yes | vpnOrTor
-    privacy --> | No | obnoxious{ISP makes<br> obnoxious<br> redirects?}
-    onaangenaam --> | Yes | encryptedDNS(Gebruik<br> gecodeerde DNS<br> met derde partij)
-    onaangenaam --> | No | ispDNS{Doet ISP ondersteunen<br> gecodeerde DNS?}
-    ispDNS --> | Yes | useISP(Gebruik<br> gecodeerde DNS<br> met ISP)
-    ispDNS --> | No | nothing(Doe niets)
+    privacy --> | Jaa | vpnOrTor
+    privacy --> | Nee | onaangenaam{ISP wijzigt<br> zoekopdrachten?}
+    onaangenaam --> | Ja | encryptedDNS(Gebruik<br> versleutelde DNS<br> met derde partij)
+    onaangenaam --> | Nee | ispDNS{Doet ISP ondersteunen<br> versleutelde DNS?}
+    ispDNS --> | Ja | useISP(Gebruik<br> versleutelde DNS<br> met ISP)
+    ispDNS --> | Nee | nothing(Doe niets)
 ```
 
 Versleutelde DNS met een derde partij mag alleen worden gebruikt om redirects en basis-DNS-blokkering van [te omzeilen](https://en.wikipedia.org/wiki/DNS_blocking) als je er zeker van kunt zijn dat er geen gevolgen zijn of als je geïnteresseerd bent in een provider die een aantal rudimentaire filters uitvoert.

@@ -39,11 +39,11 @@
 *[IMAP]: Internet Message Access Protocol
 *[IMEI]: International Mobile Equipment Identity
 *[IMSI]: International Mobile Subscriber Identity
-*[IP]: Internet Protocol
-*[IPv4]: Internet Protocol version 4
-*[IPv6]: Internet Protocol version 6
-*[ISP]: Internet Service Provider
-*[ISPs]: Internet Service Providers
+*[IP]: פרוטוקול אינטרנט
+*[IPv4]: פרוטוקול אינטרנט גרסה 4
+*[IPv6]: פרוטוקול אינטרנט גרסה 6
+*[ISP]: ספק שירותי אינטרנט
+*[ISPs]: ספקי שירותי אינטרנט
 *[JNI]: Java Native Interface
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Media Access Control
@@ -81,7 +81,7 @@
 *[SSO]: כניסה יחידה
 *[TCP]: Transmission Control Protocol
 *[TEE]: Trusted Execution Environment
-*[TLS]: Transport Layer Security
+*[TLS]: אבטחת שכבת תעבורה
 *[ToS]: תנאי השירות
 *[TOTP]: סיסמה חד פעמית מבוססת זמן
 *[TPM]: מודול פלטפורמה מהימנה

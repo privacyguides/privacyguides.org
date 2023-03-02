@@ -7,7 +7,7 @@ icon: material/dns
 
     El DNS cifrado con un tercero solo debe usarse para evitar redirecciones y el <a href="https://en.wikipedia.org/wiki/DNS_blocking">bloqueo básico de DNS</a> cuando puedas estar seguro de que no habrá consecuencias o estés interesado en un proveedor que realice un filtrado rudimentario. DNS encriptado no te ayudará a esconder tu actividad en línea.
     
-    [Aprende más sobre DNS](technology/dns.md){ .md-button }
+    [Aprende más sobre el DNS](technology/dns.md){ .md-button }
 
 ## Proveedores recomendados
 
