@@ -33,6 +33,9 @@ extra:
 
 theme:
   language: en
+  font:
+    text: Public Sans
+    code: DM Mono
   palette:
     - media: "(prefers-color-scheme)"
       scheme: default
@@ -60,7 +63,8 @@ plugins:
       fill: "#FFD06F"
       text: "#2d2d2d"
     cards_dir: assets/img/social
-    cards_font: 'Public Sans'
+    cards_font: Public Sans
+    cache_dir: .cache/plugin/social-en
 
 nav:
   - Home: 'index.md'

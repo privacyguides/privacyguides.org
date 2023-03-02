@@ -31,8 +31,15 @@ extra:
           data: Needs Improvement
           note: "תודה על המשוב שלך! Help us improve this page by opening a <a href='https://discuss.privacyguides.net/'>discussion on our forum</a>."
 
+extra_css:
+  - assets/stylesheets/extra.css?v=3.2.0
+  - assets/stylesheets/lang-he.css?v=3.4.0
+
 theme:
   language: he
+  font:
+    text: Open Sans
+    code: Cousine
   palette:
     - media: "(prefers-color-scheme)"
       scheme: default
@@ -52,6 +59,16 @@ theme:
       toggle:
         icon: material/brightness-5
         name: "עבור למצב כהה"
+
+plugins:
+  social:
+    cards: !ENV [NETLIFY, false]
+    cards_color:
+      fill: "#FFD06F"
+      text: "#2d2d2d"
+    cards_dir: assets/img/social
+    cards_font: Suez One
+    cache_dir: .cache/plugin/social-he
 
 nav:
   - "דף הבית": 'index.md'

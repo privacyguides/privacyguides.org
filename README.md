@@ -69,7 +69,7 @@ This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdoc
 
 1. Clone this repository and submodules: `git clone --recurse-submodules https://github.com/privacyguides/privacyguides.org.git`
 2. Enable SSH commit verification with our local [`.allowed_signers`](/.allowed_signers) file: `git config gpg.ssh.allowedSignersFile .allowed_signers`
-3. Install Python **3.10**
+3. Install Python **3.8**, this is the only version supported by Netlify.
 4. Install **pipenv**: `pip install pipenv`
 5. Install dependencies: `pipenv install --dev` (install [Pillow and CairoSVG](https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/#dependencies) as well to generate social cards)
 6. Serve the site locally: `pipenv run mkdocs serve --config-file config/mkdocs.en.yml` (set `CARDS=true` to generate social cards)

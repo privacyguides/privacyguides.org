@@ -53,6 +53,16 @@ theme:
         icon: material/brightness-5
         name: "Verander naar donker thema"
 
+plugins:
+  social:
+    cards: !ENV [NETLIFY, false]
+    cards_color:
+      fill: "#FFD06F"
+      text: "#2d2d2d"
+    cards_dir: assets/img/social
+    cards_font: Public Sans
+    cache_dir: .cache/plugin/social-nl
+
 nav:
   - Home: 'index.md'
   - Kennisbank:
