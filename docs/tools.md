@@ -217,6 +217,7 @@ If you're looking for added **security**, you should always ensure you're connec
 - ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
 - ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
+- ![Windscribe logo](assets/img/vpn/windscribe.svg#only-light){ .twemoji }![Windscribe logo](assets/img/vpn/windscribe-dark.svg#only-dark){ .twemoji } [Windscribe](vpn.md#windscribe)
 
 </div>
 
