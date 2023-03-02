@@ -132,7 +132,7 @@ We are testing a new feature that allows readers to better identify and understa
 
 </div>
 
-## Top 3 Private VPN Providers
+## Top 4 Private VPN Providers
 
 <details class="danger" markdown>
 <summary>VPNs do not provide anonymity</summary>
@@ -184,6 +184,18 @@ If you're looking for added **security**, you should always ensure you're connec
     - [x] IPv6 Support
 
     [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
+
+- ![Windscribe logo](assets/img/vpn/mini/windscribe.svg){ .lg .middle .twemoji } **windscribe**
+
+    ---
+
+    - [x] **69+ Countries**
+    - [x] WireGuard Support
+    - [x] Monero & Cash Payments
+    - [ ] No Port Forwarding
+    - [ ] No IPv6
+
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#windscribe)
 
 </div>
 
