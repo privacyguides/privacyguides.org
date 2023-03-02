@@ -38,7 +38,6 @@ theme:
   custom_dir: ../theme
   favicon: assets/brand/png/favicon/favicon-32x32.png
   icon:
-    logo: octicons/shield-lock-16
     repo: simple/github
   features:
     - navigation.tracking

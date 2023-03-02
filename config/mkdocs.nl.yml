@@ -33,6 +33,10 @@ extra:
 
 theme:
   language: nl
+  logo: ../../theme/assets/brand/SVG/Logo/privacy-guides-logo-notext-colorbg.svg
+  font:
+    text: Public Sans
+    code: DM Mono
   palette:
     - media: "(prefers-color-scheme)"
       scheme: default
