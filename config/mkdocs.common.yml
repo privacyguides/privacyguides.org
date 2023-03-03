@@ -44,6 +44,8 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
+    - navigation.path
+    - navigation.indexes
     - content.tooltips
     - search.highlight
 
