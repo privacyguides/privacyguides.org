@@ -1,0 +1,20 @@
+{% macro render(nav_item, ref = nav_item) %}
+  {% if nav_item.children %}
+    {% set first = nav_item.children | first %}
+    {% if first.children %}
+      {{ render(first, ref) }}
+    {% else %}
+      <a href="{{ first.canonical_url | url }}" class="md-path__link" property="item" typeof="WebPage">
+        <span class="md-ellipsis" property="name">
+          {{ ref.title }}
+        </span>
+      </a>
+    {% endif %}
+  {% else %}
+    <a href="{{ nav_item.canonical_url | url }}" class="md-path__link" property="item" typeof="WebPage">
+      <span class="md-ellipsis" property="name">
+        {{ ref.title }}
+      </span>
+    </a>
+  {% endif %}
+{% endmacro %}
