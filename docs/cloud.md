@@ -57,5 +57,3 @@ Our best-case criteria represents what we would like to see from the perfect pro
     - These clients should integrate with native OS tools for cloud storage providers, such as Files app integration on iOS, or DocumentsProvider functionality on Android.
 - Should support easy file-sharing with other users.
 - Should offer at least basic file preview and editing functionality on the web interface.
-
---8<-- "includes/abbreviations.en.txt"

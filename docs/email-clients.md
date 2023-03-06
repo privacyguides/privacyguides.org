@@ -234,5 +234,3 @@ Our best-case criteria represents what we would like to see from the perfect pro
 - Should not collect any telemetry by default.
 - Should support OpenPGP natively, i.e. without extensions.
 - Should support storing OpenPGP encrypted emails locally.
-
---8<-- "includes/abbreviations.en.txt"

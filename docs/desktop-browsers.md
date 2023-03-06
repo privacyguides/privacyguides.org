@@ -258,5 +258,3 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - Must not replicate built-in browser or OS functionality.
 - Must directly impact user privacy, i.e. must not simply provide information.
-
---8<-- "includes/abbreviations.en.txt"

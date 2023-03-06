@@ -47,5 +47,3 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
 
 - Must not require a centralized account to view videos.
     - Decentralized authentication, such as via a mobile wallet's private key is acceptable.
-
---8<-- "includes/abbreviations.en.txt"

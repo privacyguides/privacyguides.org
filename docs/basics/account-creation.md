@@ -78,5 +78,3 @@ In many cases you will need to provide a number that you can receive SMS or call
 ### Username and password
 
 Some services allow you to register without using an email address and only require you to set a username and password. These services may provide increased anonymity when combined with a VPN or Tor. Keep in mind that for these accounts there will most likely be **no way to recover your account** in the event you forget your username or password.
-
---8<-- "includes/abbreviations.en.txt"

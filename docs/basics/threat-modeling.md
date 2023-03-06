@@ -102,5 +102,3 @@ For people looking to increase their privacy and security online, we've compiled
 ## Sources
 
 - [EFF Surveillance Self Defense: Your Security Plan](https://ssd.eff.org/en/module/your-security-plan)
-
---8<-- "includes/abbreviations.en.txt"

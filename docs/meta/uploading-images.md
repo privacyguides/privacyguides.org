@@ -87,5 +87,3 @@ scour --set-precision=5 \
       --protect-ids-noninkscape \
       input.svg output.svg
 ```
-
---8<-- "includes/abbreviations.en.txt"

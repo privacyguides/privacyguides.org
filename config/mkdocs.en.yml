@@ -67,6 +67,11 @@ plugins:
     cards_font: Public Sans
     cache_dir: .cache/plugin/social-en
 
+markdown_extensions:
+  pymdownx.snippets:
+    auto_append: 
+      - includes/abbreviations.en.txt
+
 nav:
   - Home: 'index.md'
   - Knowledge Base:

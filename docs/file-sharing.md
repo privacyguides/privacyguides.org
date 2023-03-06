@@ -143,5 +143,3 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - Has mobile clients for iOS and Android, which at least support document previews.
 - Supports photo backup from iOS and Android, and optionally supports file/folder sync on Android.
-
---8<-- "includes/abbreviations.en.txt"

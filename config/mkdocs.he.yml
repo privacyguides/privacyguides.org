@@ -71,6 +71,11 @@ plugins:
     cards_font: Suez One
     cache_dir: .cache/plugin/social-he
 
+markdown_extensions:
+  pymdownx.snippets:
+    auto_append: 
+      - includes/abbreviations.he.txt
+
 nav:
   - "דף הבית": 'index.md'
   - "ידע בסיסי":
