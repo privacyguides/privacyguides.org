@@ -1,6 +1,7 @@
 ---
 title: "Introduction to Passwords"
 icon: 'material/form-textbox-password'
+description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 
 Passwords are an essential part of our everyday digital lives. We use them to protect our accounts, our devices and our secrets. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them, which often leads to people using passwords that can be easily guessed or brute-forced.

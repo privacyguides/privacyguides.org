@@ -1,6 +1,7 @@
 ---
 title: "Desktop Browsers"
 icon: material/laptop
+description: Firefox and Brave are our recommendations for standard/non-anonymous browsing.
 ---
 These are our currently recommended desktop web browsers and configurations for standard/non-anonymous browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. In general, we recommend keeping your browser extensions to a minimum; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
 

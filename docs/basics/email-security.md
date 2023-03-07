@@ -1,6 +1,7 @@
 ---
 title: Email Security
 icon: material/email
+description: Email is inherently insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
 ---
 
 Email is an insecure form of communication by default. You can improve your email security with tools such as OpenPGP, which add End-to-End Encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications, and some email data can never be encrypted inherently due to how email is designed.

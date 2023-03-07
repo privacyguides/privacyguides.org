@@ -1,6 +1,7 @@
 ---
 title: "Common Misconceptions"
 icon: 'material/robot-confused'
+description: Privacy isn't a straightforward topic, and it's easy to get caught up in marketing claims and other disinformation.
 ---
 
 ## "Open-source software is always secure" or "Proprietary software is more secure"

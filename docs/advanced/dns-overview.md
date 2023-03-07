@@ -1,6 +1,7 @@
 ---
 title: "DNS Overview"
 icon: material/dns
+description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
 ---
 
 The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phonebook of the Internet'. DNS translates domain names to IP addresses so browsers and other services can load Internet resources, through a decentralized network of servers.

@@ -1,6 +1,7 @@
 ---
 title: "Router Firmware"
 icon: material/router-wireless
+description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
 ---
 Below are a few alternative operating systems, that can be used on routers, Wi-Fi access points, etc.
 

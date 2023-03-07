@@ -1,9 +1,10 @@
 ---
 title: "News Aggregators"
 icon: material/rss
+description: These news aggregator clients let you keep up with your favorite blogs and news sites using internet standards like RSS.
 ---
 
-A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to keep up with your favourite blogs and news sites.
+A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to keep up with your favorite blogs and news sites.
 
 ## Aggregator clients
 

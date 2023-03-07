@@ -1,6 +1,7 @@
 ---
 title: "DNS Resolvers"
 icon: material/dns
+description: These are some encrypted DNS providers we recommend switching to, to replace your ISP's default configuration.
 ---
 
 Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Encrypted DNS will not help you hide any of your browsing activity.

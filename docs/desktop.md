@@ -1,6 +1,7 @@
 ---
 title: "Desktop/PC"
 icon: simple/linux
+description: Linux distributions are commonly recommended for privacy protection and software freedom.
 ---
 Linux distributions are commonly recommended for privacy protection and software freedom. If you don't already use Linux, below are some distributions we suggest trying out, as well as some general privacy and security improvement tips that are applicable to many Linux distributions.
 

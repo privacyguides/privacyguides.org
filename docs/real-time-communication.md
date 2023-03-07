@@ -1,6 +1,7 @@
 ---
 title: "Real-Time Communication"
 icon: material/chat-processing
+description: Other instant messengers make all of your private conversations available to the company that runs them.
 ---
 
 These are our recommendations for encrypted real-time communication.

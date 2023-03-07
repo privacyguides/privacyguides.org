@@ -1,6 +1,7 @@
 ---
 title: KB Archive
 icon: material/archive
+description: Some pages that used to be in our knowledge base can now be found on our blog.
 ---
 # Pages Moved to Blog
 

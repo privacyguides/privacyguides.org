@@ -1,6 +1,7 @@
 ---
 title: Android Overview
 icon: simple/android
+description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
 ---
 Android is a secure operating system that has strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
 

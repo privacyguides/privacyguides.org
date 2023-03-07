@@ -1,6 +1,7 @@
 ---
 title: "Common Threats"
 icon: 'material/eye-outline'
+description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
 ---
 
 Broadly speaking, we categorize our recommendations into the [threats](threat-modeling.md) or goals that apply to most people. ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.

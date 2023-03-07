@@ -1,6 +1,7 @@
 ---
 title: "Search Engines"
 icon: material/search-web
+description: These privacy-respecting search engines don't build an advertising profile based on your searches.
 ---
 Use a search engine that doesn't build an advertising profile based on your searches.
 

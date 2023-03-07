@@ -1,6 +1,7 @@
 ---
 title: "VPN Services"
 icon: material/vpn
+description: These are the best VPN services for protecting your privacy and security online. Find a provider here that isn’t out to spy on you.
 ---
 
 If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you as long as you understand the risks involved. We think these providers are a cut above the rest:

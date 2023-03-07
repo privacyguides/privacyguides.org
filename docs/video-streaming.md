@@ -1,6 +1,7 @@
 ---
 title: "Video Streaming"
 icon: material/video-wireless
+description: These networks allow you to stream internet content without building an advertising profile based on your interests.
 ---
 The primary threat when using a video streaming platform is that your streaming habits and subscription lists could be used to profile you. You should combine these tools with a [VPN](vpn.md) or [Tor](https://www.torproject.org/) to make it harder to profile your usage.
 

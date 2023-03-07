@@ -1,6 +1,7 @@
 ---
 title: "Android"
 icon: 'simple/android'
+description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
 ---
 
 ![Android logo](assets/img/android/android.svg){ align=right }

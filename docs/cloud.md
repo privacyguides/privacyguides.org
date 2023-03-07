@@ -1,6 +1,7 @@
 ---
 title: "Cloud Storage"
 icon: material/file-cloud
+description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
 ---
 Many cloud storage providers require your full trust that they will not look at your files. The alternatives listed below eliminate the need for trust by either putting you in control of your data or by implementing E2EE.
 

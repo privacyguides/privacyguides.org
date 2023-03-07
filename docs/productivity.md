@@ -1,6 +1,7 @@
 ---
 title: "Productivity Tools"
 icon: material/file-sign
+description: Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do.
 ---
 Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do. The privacy policy may legally protect your rights, but it does not provide technical access constraints.
 
