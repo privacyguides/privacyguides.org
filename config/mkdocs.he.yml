@@ -47,19 +47,19 @@ theme:
       accent: deep purple
       toggle:
         icon: material/brightness-auto
-        name: "עבור למצב בהיר"
+        name: "עבור למצב כהה"
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       accent: amber
       toggle:
         icon: material/brightness-2
-        name: "עבור לערכת הנושא של המערכת"
+        name: "עבור למצב בהיר"
     - media: "(prefers-color-scheme: light)"
       scheme: default
       accent: deep purple
       toggle:
         icon: material/brightness-5
-        name: "עבור למצב כהה"
+        name: "עבור לערכת הנושא של המערכת"
 
 plugins:
   social:

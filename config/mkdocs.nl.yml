@@ -43,19 +43,19 @@ theme:
       accent: deep purple
       toggle:
         icon: material/brightness-auto
-        name: "Verander naar licht thema"
+        name: "Verander naar donker thema"
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       accent: amber
       toggle:
         icon: material/brightness-2
-        name: "Verander naar systeem thema"
+        name: "Verander naar licht thema"
     - media: "(prefers-color-scheme: light)"
       scheme: default
       accent: deep purple
       toggle:
         icon: material/brightness-5
-        name: "Verander naar donker thema"
+        name: "Verander naar systeem thema"
 
 plugins:
   social:

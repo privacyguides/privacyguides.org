@@ -43,19 +43,19 @@ theme:
       accent: deep purple
       toggle:
         icon: material/brightness-auto
-        name: "Basculer en mode clair"
+        name: "Basculer en mode sombre"
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       accent: amber
       toggle:
         icon: material/brightness-2
-        name: "Basculer vers le thème du système"
+        name: "Basculer en mode clair"
     - media: "(prefers-color-scheme: light)"
       scheme: default
       accent: deep purple
       toggle:
         icon: material/brightness-5
-        name: "Basculer en mode sombre"
+        name: "Basculer vers le thème du système"
 
 plugins:
   social:
