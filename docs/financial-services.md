@@ -41,6 +41,21 @@ There are a number of services which provide "virtual debit cards" which you can
     [:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=Documentation}
 
+### Revolut
+
+!!! recommendation
+
+    ![Revolut logo](assets/img/financial-services/revolut.svg#only-light){ align=right }
+    ![Revolut logo](assets/img/financial-services/revolut-dark.svg#only-dark){ align=right }
+
+    **Revolut** is an online bank which provides [single-use card functionality](https://www.revolut.com/cards/). In some locations this requires a paid plan.
+
+    [:octicons-home-16: Homepage](https://www.revolut.com/cards/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.revolut.com/privacy-policy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://help.revolut.com/help){ .card-link title=Documentation}
+
+Revolut is [available](https://help.revolut.com/en-MT/help/profile-and-plan/profile-plan/verifying-identity/what-countries-are-supported) to legal residents of the European Economic Area (EEA), Australia, Singapore, Switzerland, Japan, the United Kingdom and the United States.
+
 ### Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.

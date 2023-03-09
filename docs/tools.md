@@ -207,6 +207,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji }![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji } [Privacy.com](financial-services.md#privacycom-us-free)
 - ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
+- ![Revolut logo](assets/img/financial-services/revolut.svg#only-light){ .twemoji }![Revolut logo](assets/img/financial-services/revolut-dark.svg#only-dark){ .twemoji } [Revolut](financial-services.md#revolut)
 </div>
 
 [Learn more :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
