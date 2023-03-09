@@ -80,6 +80,7 @@ plugins:
       - api.privacyguides.net/*
   optimize:
     enabled: !ENV [NETLIFY, false]
+  typeset: {}
 
 markdown_extensions:
   admonition: {}
