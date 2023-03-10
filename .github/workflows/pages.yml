@@ -37,7 +37,7 @@ jobs:
           python-version: '3.8'
       
       - name: Cache files
-        uses: actions/cache@v3.2.6
+        uses: actions/cache@v3.3.0
         with:
           key: ${{ github.ref }}
           path: .cache
