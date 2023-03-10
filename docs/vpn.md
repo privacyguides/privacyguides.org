@@ -203,7 +203,7 @@ Proton VPN provides the source code for their desktop and mobile clients in thei
 
 #### :material-check:{ .pg-green } Accepts Cash
 
-Proton VPN, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, and **cash/local currency** as anonymous forms of payment.
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
 
 #### :material-check:{ .pg-green } WireGuard Support
 

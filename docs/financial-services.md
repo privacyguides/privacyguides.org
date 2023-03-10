@@ -15,18 +15,20 @@ There are a number of services which provide "virtual debit cards" which you can
 
     Many banks and credit card providers offer native virtual card functionality. If you use one which provides this option already, you should use it over the following recommendations in most cases. That way you are not trusting multiple parties with your personal information.
 
-### Privacy.com (US, Free)
+### Privacy.com (US)
 
 !!! recommendation
 
     ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
     ![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
 
-    **Privacy.com**'s free plan allows you to create up to 12 virtual cards per month, set spend limits on those cards, and shut off cards instantly.
+    **Privacy.com**'s free plan allows you to create up to 12 virtual cards per month, set spend limits on those cards, and shut off cards instantly. Their paid plan allows you to create up to 36 cards per month, get 1% cash back on purchases, and hide transaction information from your bank.
 
     [:octicons-home-16: Homepage](https://privacy.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.privacy.com/hc/en-us){ .card-link title=Documentation}
+
+Privacy.com gives information about the merchants you purchase from to your bank by default. Their paid "discreet merchants" feature hides merchant information from your bank, so your bank only sees that a purchase was made with Privacy.com but not where that money was spent, however that is not foolproof, and of course Privacy.com still has knowledge about the merchants you are spending money with.
 
 ### MySudo (US, Paid)
 

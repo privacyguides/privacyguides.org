@@ -66,7 +66,7 @@ Paid Proton Mail subscribers can use their own domain with the service or a [cat
 
 #### :material-check:{ .pg-green } Private Payment Methods
 
-Proton Mail [accepts](https://proton.me/support/payment-options) Bitcoin and cash by mail in addition to standard credit/debit card and PayPal payments.
+Proton Mail [accepts](https://proton.me/support/payment-options) cash by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
 
 #### :material-check:{ .pg-green } Account Security
 
@@ -116,9 +116,9 @@ Proton Mail offers an "Unlimited" account for €9.99/Month, which also enables 
 
 Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) addresses. Mailbox.org also supports [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), which is useful if you don't want to purchase a domain.
 
-#### :material-information-outline:{ .pg-blue } Private Payment Methods
+#### :material-check:{ .pg-green } Private Payment Methods
 
-Mailbox.org doesn't accept Bitcoin or any other cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept Cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
+Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept Cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Account Security
 
@@ -184,7 +184,7 @@ Personal accounts can use [Custom or Quick](https://support.startmail.com/hc/en-
 
 #### :material-alert-outline:{ .pg-orange } Private Payment Methods
 
-StartMail accepts Visa, MasterCard, American Express and Paypal. StartMail also has other [payment options](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) such as Bitcoin (currently only for Personal accounts) and SEPA Direct Debit for accounts older than a year.
+StartMail accepts Visa, MasterCard, American Express and Paypal. StartMail also has other [payment options](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) such as [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (currently only for Personal accounts) and SEPA Direct Debit for accounts older than a year.
 
 #### :material-check:{ .pg-green } Account Security
 
@@ -242,9 +242,9 @@ Tutanota doesn't support the [IMAP protocol](https://tutanota.com/faq/#imap) or 
 
 Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias) and [custom domains](https://tutanota.com/faq#custom-domain). Tutanota doesn't allow for [subaddressing (plus addresses)](https://tutanota.com/faq#plus), but you can use a [catch-all](https://tutanota.com/howto#settings-global) with a custom domain.
 
-#### :material-alert-outline:{ .pg-orange } Private Payment Methods
+#### :material-information-outline:{ .pg-blue } Private Payment Methods
 
-Tutanota only directly accepts credit cards and PayPal, however Bitcoin and Monero can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
+Tutanota only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
 
 #### :material-check:{ .pg-green } Account Security
 
@@ -254,7 +254,7 @@ Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with
 
 Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). This means the messages and other data stored in your account are only readable by you.
 
-#### :material-alert-outline:{ .pg-orange } Email Encryption
+#### :material-information-outline:{ .pg-blue } Email Encryption
 
 Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
 
