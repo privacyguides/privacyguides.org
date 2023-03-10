@@ -28,7 +28,6 @@ If these alternatives do not fit your needs, we suggest you look into [Encryptio
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
 
-Proton Drive's mobile clients were released in December 2022 and are not yet open-source. Proton has historically delayed their source code releases until after initial product releases, and [plans to](https://www.reddit.com/r/ProtonDrive/comments/zf14i8/comment/izdwmme/?utm_source=share&utm_medium=web2x&context=3) release the source code by the end of 2023. Proton Drive desktop clients are still in development.
 
 ## Criteria
 
