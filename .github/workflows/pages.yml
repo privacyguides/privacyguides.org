@@ -23,8 +23,6 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: '0'
-          ref: ${{github.event.pull_request.head.ref}}
-          repository: ${{github.event.pull_request.head.repo.full_name}}
           ssh-key: ${{ secrets.ACTIONS_SSH_KEY }}
           submodules: 'true'
       
@@ -56,14 +54,7 @@ jobs:
           pipenv run mkdocs build --config-file config/mkdocs.fr.yml
           pipenv run mkdocs build --config-file config/mkdocs.he.yml
           pipenv run mkdocs build --config-file config/mkdocs.nl.yml
-          mv .well-known site/
           pipenv run mkdocs --version
-      
-      - name: Matrix homeserver configuration
-        run: |
-          mkdir -p site/.well-known/matrix
-          curl -o site/.well-known/matrix/server https://matrix.privacyguides.org/.well-known/matrix/server
-          curl -o site/.well-known/matrix/client https://matrix.privacyguides.org/.well-known/matrix/client
 
       - name: Package website
         uses: actions/upload-pages-artifact@v1

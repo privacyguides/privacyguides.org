@@ -6,14 +6,67 @@ on:
       - '*'
 
 jobs:
-  release:
+  build:
     name: Create Release
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: ncipollo/release-action@v1
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: '0'
+          ssh-key: ${{ secrets.ACTIONS_SSH_KEY }}
+          submodules: 'true'
+      
+      - name: Pages setup
+        uses: actions/configure-pages@v3
+
+      - name: Python setup
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'
+      
+      - name: Cache files
+        uses: actions/cache@v3.3.0
+        with:
+          key: ${{ github.ref }}
+          path: .cache
+
+      - name: Install Python dependencies
+        run: |
+          pip install pipenv
+          pipenv install
+
+      - name: Build website
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CARDS: true
+        run: |
+          pipenv run mkdocs build --config-file config/mkdocs.offline.yml
+          pipenv run mkdocs --version
+      
+      - name: Package website
+        run: |
+          tar -czvf offline.tar.gz site
+          zip -r -q offline.zip site
+
+      - name: Upload tar.gz file
+        uses: actions/upload-artifact@v3
+        with:
+          name: offline.tar.gz
+          path: offline.tar.gz
+      
+      - name: Upload zip file
+        uses: actions/upload-artifact@v3
+        with:
+          name: offline.zip
+          path: offline.zip
+      
+      - name: Create release notes
+        uses: ncipollo/release-action@v1
         with:
           generateReleaseNotes: true
           token: ${{ secrets.REPO_TOKEN }}
+          artifacts: "offline.zip,offline.tar.gz"

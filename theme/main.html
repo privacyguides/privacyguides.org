@@ -33,3 +33,9 @@
     <link rel="icon" href="{{ config.theme.favicon | url }}">
     <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-material-9.1.0+insiders-4.32.2">
 {% endblock %}
+{% block announce %}{% if config.extra.offline %}
+    You're viewing an offline copy of Privacy Guides built on {{ build_date_utc }}.
+    <a href="https://www.privacyguides.org/"> 
+    <strong>Visit privacyguides.org for the latest version.</strong>
+    </a>
+{% else %}{% endif %}{% endblock %}
