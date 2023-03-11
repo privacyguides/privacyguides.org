@@ -1,6 +1,7 @@
 ---
-title: "Tor Network"
+title: "Tor-nätverket"
 icon: simple/torproject
+description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
 ---
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
@@ -15,13 +16,7 @@ The **Tor** network is a group of volunteer-operated servers that allows you to 
 
 Tor works by routing your internet traffic through those volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. This obfuscates where the traffic is coming from, and no server in the connection path is able to see the full path of where the traffic is coming from and going to, meaning even the servers you are using to connect cannot break your anonymity.
 
-<figure markdown>
-  ![Tor path](assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path](assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway - Nodes in the path can only see the servers they are directly connected to, for example the "Entry" node shown can see your IP address, and the address of the "Middle" node, but has no way to see which website you are visiting.</figcaption>
-</figure>
-
-- [More information about how Tor works :material-arrow-right-drop-circle:](advanced/tor-overview.md)
+[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
 
 ## Connecting to Tor
 
@@ -50,7 +45,7 @@ There are a variety of ways to connect to the Tor network from your device, the 
         - [:simple-linux: Linux](https://www.torproject.org/download/)
         - [:simple-freebsd: FreeBSD](https://www.freshports.org/security/tor)
 
-!!! danger
+!!! fara
 
     You should **never** install any additional extensions on Tor Browser or edit `about:config` settings, including the ones we suggest for Firefox. Browser extensions and non-standard settings make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
@@ -115,10 +110,8 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
     You can enable Snowflake in your browser by clicking the switch below and ==leaving this page open==. You can also install Snowflake as a browser extension to have it always run while your browser is open, however adding third-party extensions can increase your attack surface.
     
     <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
-    <small>If the embed does not appear for you, ensure you are not blocking the third-party frame from `torproject.org`. Alternatively, visit [this page](https://snowflake.torproject.org/embed.html).</small>
+    <small>Om inbäddningen inte visas för dig, kontrollera att du inte blockerar tredjepartsramen från `torproject.org`. Du kan också besöka [denna sida] (https://snowflake.torproject.org/embed.html).</small>
 
-Snowflake does not increase your privacy in any way, nor is it used to connect to the Tor network within your personal browser. However, if your internet connection is uncensored, you should consider running it to help people in censored networks achieve better privacy themselves. There is no need to worry about which websites people are accessing through your proxy—their visible browsing IP address will match their Tor exit node, not yours.
+Snowflake ökar inte din integritet på något sätt och används inte heller för att ansluta till Tor-nätverket i din webbläsare. Om din internetanslutning är ocensurerad bör du dock överväga att använda den för att hjälpa människor i censurerade nätverk att själva få bättre integritet. Det finns ingen anledning att oroa sig för vilka webbplatser människor kommer åt via din proxy - deras synliga IP-adress kommer att matcha deras Tor exit-nod, inte din.
 
-Running a Snowflake proxy is low-risk, even moreso than running a Tor relay or bridge which are already not particularly risky endeavours. However, it does still proxy traffic through your network which can be impactful in some ways, especially if your network is bandwidth-limited. Make sure you understand [how Snowflake works](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) before deciding whether to run a proxy.
-
---8<-- "includes/abbreviations.sv.txt"
+Att driva en Snowflake-proxy är en låg risk, till och med mer än att driva en Tor-relä eller en bro, som redan inte är särskilt riskfyllda verksamheter. Men det gör fortfarande proxy-trafik genom ditt nätverk som kan vara effektiva på vissa sätt, särskilt om ditt nätverk är bandbredd-begränsad. Se till att du förstår [hur Snowflake fungerar](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) innan du bestämmer dig för att köra en proxy.

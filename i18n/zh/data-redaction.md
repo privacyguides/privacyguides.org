@@ -1,6 +1,7 @@
 ---
 title: "日历/联系人同步"
 icon: material/tag-remove
+description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
 ---
 
 共享文件时，请务必删除关联的元数据。 图像文件通常包括 [Exif](https://en.wikipedia.org/wiki/Exif) 数据。 照片有时甚至包括文件元数据中的GPS坐标。
@@ -142,5 +143,3 @@ icon: material/tag-remove
 
 - 为开源操作系统开发的应用程序必须是开源的。
 - 应用程序必须是免费的，不应包括广告或其他限制。
-
---8<-- "includes/abbreviations.zh.txt"

@@ -1,6 +1,7 @@
 ---
-title: "Productivity Tools"
+title: "Produktivitetsverktyg"
 icon: material/file-sign
+description: Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do.
 ---
 
 Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do. The privacy policy may legally protect your rights, but it does not provide technical access constraints.
@@ -11,17 +12,17 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 
 !!! recommendation
 
-    ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
+    ![Nextcloud-logotyp](assets/img/productivity/nextcloud.svg){ align=right }
     
-    **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
+    **Nextcloud** är en svit med gratis klient-serverprogramvara med öppen källkod för att skapa egna filhostingtjänster på en privat server som du kontrollerar.
     
-    [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
+    [:octicons-home-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Dokumentation}
+    [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Källkod" }
     [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? nedladdningar
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -31,9 +32,9 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
         - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
         - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
 
-!!! danger
+!!! fara
 
-    We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality. For this reason, we don't recommend third-party Nextcloud providers.
+    Vi rekommenderar inte att du använder [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) för Nextcloud eftersom det kan leda till dataförluster; det är mycket experimentellt och inte av produktionskvalitet. For this reason, we don't recommend third-party Nextcloud providers.
 
 ### CryptPad
 
@@ -49,13 +50,13 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
     [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribute }
 
-### Criteria
+### Kriterier
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.
 
-!!! example "This section is new"
+!!! exempel "Det här avsnittet är nytt"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
 
 In general, we define collaboration platforms as full-fledged suites which could reasonably act as a replacement to collaboration platforms like Google Drive.
 
@@ -66,9 +67,9 @@ In general, we define collaboration platforms as full-fledged suites which could
 - Supports real-time document collaboration.
 - Supports exporting documents to standard document formats (e.g. ODF).
 
-#### Best-Case
+#### Bästa fall
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Våra kriterier för bästa fall representerar vad vi skulle vilja se av det perfekta projektet i denna kategori. Våra rekommendationer kanske inte innehåller alla eller några av dessa funktioner, men de som gör det kan vara högre rankade än andra på den här sidan.
 
 - Should store files in a conventional filesystem.
 - Should support TOTP or FIDO2 multi-factor authentication support, or Passkey logins.
@@ -122,18 +123,18 @@ Our best-case criteria represents what we would like to see from the perfect pro
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
         - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/onlyoffice-documentserver/)
 
-### Criteria
+### Kriterier
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.
 
-!!! example "This section is new"
+!!! exempel "Det här avsnittet är nytt"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
 
 In general, we define office suites as applications which could reasonably act as a replacement for Microsoft Word for most needs.
 
-- Must be cross-platform.
-- Must be open-source software.
+- Måste vara plattformsoberoende.
+- Måste vara programvara med öppen källkod.
 - Must function offline.
 - Must support editing documents, spreadsheets, and slideshows.
 - Must export files to standard document formats.
@@ -152,5 +153,3 @@ In general, we define office suites as applications which could reasonably act a
     [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Public Instances"}
     [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
-
---8<-- "includes/abbreviations.sv.txt"

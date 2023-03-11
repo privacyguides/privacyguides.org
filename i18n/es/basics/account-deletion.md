@@ -1,6 +1,7 @@
 ---
 title: "Eliminación de cuenta"
 icon: 'material/account-remove'
+description: It's easy to accumulate a large number of internet accounts, here are some tips on how to prune your collection.
 ---
 
 Con el tiempo, puede ser fácil acumular varias cuentas en línea, muchas de las cuales puede que ya no utilices. Eliminar estas cuentas que no utilizas es un paso importante para recuperar tu privacidad, ya que las cuentas inactivas son vulnerables a las filtraciones de datos. Una filtración de datos se da cuando la seguridad de un servicio se ve comprometida y la información protegida es vista, transmitida o robada por actores no autorizados. Desafortunadamente, las filtraciones de datos son [demasiado comunes](https://haveibeenpwned.com/PwnedWebsites) en estos días, por lo que practicar una buena higiene digital es la mejor manera de minimizar el impacto que tienen en tu vida. El objetivo de esta guía es ayudarte a atravesar el fastidioso proceso de eliminación de cuentas para mejorar tu presencia en línea, lo que es a menudo dificultado por [un diseño engañoso](https://www.deceptive.design/).
@@ -59,5 +60,3 @@ Aunque puedas eliminar una cuenta, no hay garantía de que toda tu información 
 ## Evitar cuentas nuevas
 
 Como dice el refrán, "más vale prevenir que lamentar" Siempre que sientas la tentación de crear una nueva cuenta, pregúntate "¿realmente lo necesito? ¿Puedo lograr lo que necesito sin una cuenta?" A menudo puede ser mucho más difícil eliminar una cuenta que crearla. E incluso después de borrar o cambiar la información de tu cuenta, puede haber una versión en caché de un tercero, como en el [Internet Archive](https://archive.org/). Evita la tentación cuando puedas, ¡tu futuro yo te lo agradecerá!
-
---8<-- "includes/abbreviations.es.txt"

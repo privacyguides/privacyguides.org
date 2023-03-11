@@ -116,5 +116,3 @@ This topic has been discussed extensively within our communities in various loca
 - [Apr 2, 2022 response by u/dng99 to PrivacyTools' accusatory blog post](https://www.reddit.com/comments/tuo7mm/comment/i35kw5a/)
 - [May 16, 2022 response by @TommyTran732 on Twitter](https://twitter.com/TommyTran732/status/1526153497984618496)
 - [Sep 3, 2022 post on Techlore's forum by @dngray](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
-
---8<-- "includes/abbreviations.it.txt"

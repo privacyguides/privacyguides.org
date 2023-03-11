@@ -1,9 +1,10 @@
 ---
 title: Introduction à Linux
 icon: simple/linux
+description: Linux est un système d'exploitation de bureau alternatif open source, axé sur la protection de la vie privée, mais toutes les distributions ne sont pas créées égales.
 ---
 
-On croit souvent que les logiciels [open-source](https://en.wikipedia.org/wiki/Open-source_software) sont intrinsèquement sûrs parce que le code source est disponible. On s'attend à ce que la vérification de la communauté ait lieu régulièrement ; cependant, ce n'est pas toujours [le cas](https://seirdy.one/posts/2022/02/02/floss-security/). Cela dépend d'un certain nombre de facteurs, tels que l'activité du projet, l'expérience du développeur, le niveau de rigueur appliqué aux [revues de code](https://en.wikipedia.org/wiki/Code_review), et la fréquence de l'attention accordée à certaines parties spécifiques du [codebase](https://en.wikipedia.org/wiki/Codebase) qui peuvent rester à l'abandon pendant des années.
+On croit souvent que les logiciels [open source](https://en.wikipedia.org/wiki/Open-source_software) sont intrinsèquement sûrs parce que le code source est disponible. On s'attend à ce que la vérification de la communauté ait lieu régulièrement ; cependant, ce n'est pas toujours [le cas](https://seirdy.one/posts/2022/02/02/floss-security/). Cela dépend d'un certain nombre de facteurs, tels que l'activité du projet, l'expérience du développeur, le niveau de rigueur appliqué aux [revues de code](https://en.wikipedia.org/wiki/Code_review), et la fréquence de l'attention accordée à certaines parties spécifiques du [codebase](https://en.wikipedia.org/wiki/Codebase) qui peuvent rester à l'abandon pendant des années.
 
 À l'heure actuelle, les systèmes GNU/Linux de bureau ont certains domaines qui pourraient être améliorés par rapport à leurs homologues propriétaires, par exemple :
 
@@ -139,5 +140,3 @@ Le projet Fedora [compte](https://fedoraproject.org/wiki/Changes/DNF_Better_Coun
 Cette [option](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) est actuellement désactivée par défaut. Nous recommandons d'ajouter `countme=false` à `/etc/dnf/dnf.conf` juste au cas où il serait activé dans le futur. Sur les systèmes qui utilisent `rpm-ostree` tels que Silverblue, l'option countme est désactivée en masquant le compteur [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems/).
 
 openSUSE utilise également un [identifiant unique](https://en.opensuse.org/openSUSE:Statistics) pour compter les systèmes, qui peut être désactivé en supprimant le fichier `/var/lib/zypp/AnonymousUniqueId`.
-
---8<-- "includes/abbreviations.fr.txt"

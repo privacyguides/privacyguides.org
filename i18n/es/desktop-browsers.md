@@ -1,6 +1,7 @@
 ---
 title: "Navegadores de escritorio"
 icon: material/laptop
+description: Firefox and Brave are our recommendations for standard/non-anonymous browsing.
 ---
 
 Estas son nuestras recomendaciones de navegadores web para computadoras y las configuraciones para la navegación estándar/no anónima por Internet. Si necesitas navegar por Internet de forma anónima, deberías utilizar [Tor](tor.md) . En general, recomendamos mantener una cantidad mínima de extensiones; estas tienen un acceso privilegiado dentro de tu navegador, requieren que confíes en el desarrollador, pueden hacerte [destacar](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), y [debilitan](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) el aislamiento del sitio.
@@ -256,7 +257,5 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - Must not replicate built-in browser or OS functionality.
 - Must directly impact user privacy, i.e. must not simply provide information.
-
---8<-- "includes/abbreviations.es.txt"
 
 [^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).

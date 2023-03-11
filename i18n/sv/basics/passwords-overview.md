@@ -1,6 +1,7 @@
 ---
 title: "Introduction to Passwords"
 icon: 'material/form-textbox-password'
+description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 
 Passwords are an essential part of our everyday digital lives. We use them to protect our accounts, our devices and our secrets. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them, which often leads to people using passwords that can be easily guessed or brute-forced.
@@ -47,7 +48,7 @@ An example of a diceware passphrase is `viewable fastness reluctant squishy seve
 
 To generate a diceware passphrase using real dice, follow these steps:
 
-!!! note
+!!! anmärkning
 
     These instructions assume that you are using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other wordlists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
 
@@ -89,7 +90,7 @@ To sum it up, diceware passphrases are your best option when you need something 
 
 ## Storing Passwords
 
-### Password Managers
+### Lösenordshanterare
 
 The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
 
@@ -105,8 +106,6 @@ There are many good options to choose from, both cloud-based and local. Choose o
     
     Furthermore, we do not recommend storing single-use recovery codes in your password manager. Those should be stored separately such as in an encrypted container on an offline storage device.
 
-### Backups
+### Säkerhetskopior
 
 You should store an [encrypted](../encryption.md) backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.
-
---8<-- "includes/abbreviations.sv.txt"

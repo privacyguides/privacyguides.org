@@ -1,6 +1,7 @@
 ---
 title: "多因认证"
 icon: '资料/双因认证'
+description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
 ---
 
 **多因素认证** 是一种安全机制，除了输入用户名（或电子邮件）和密码外，还需要其他步骤。 最常见的方法可能是你需要从短信或应用程序中收到限时代码。
@@ -162,5 +163,3 @@ SSH MFA也可以使用TOTP进行设置。 DigitalOcean提供了一个教程 [如
 ### KeePass (和KeePassXC)
 
 KeePass和KeePassXC数据库可以使用质询响应或HOTP作为第二因素身份验证进行保护。 Yubico为KeePass提供了一份文件 [Using Your YubiKey with KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) ，在 [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) 网站上也有一份。
-
---8<-- "includes/abbreviations.zh.txt"

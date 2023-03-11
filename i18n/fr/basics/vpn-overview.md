@@ -1,6 +1,7 @@
 ---
 title: Introduction aux VPNs
 icon: material/vpn
+description: Les réseaux privés virtuels déplacent le risque de votre FAI à un tiers en qui vous avez confiance. Vous devriez garder ces éléments à l'esprit.
 ---
 
 Les Réseaux Privés Virtuels sont un moyen d'étendre l'extrémité de votre réseau à une sortie située ailleurs dans le monde. Un Fournisseur d'Accès Internet (FAI) peut voir le flux du trafic internet qui entre et sort de votre dispositif de terminaison de réseau (c'est-à-dire la box/modem).
@@ -74,5 +75,3 @@ Pour des situations comme celles-ci, ou si vous avez une autre raison impérieus
 - [Enquête sur les Applications VPN Gratuites](https://www.top10vpn.com/free-vpn-app-investigation/)
 - [Les propriétaires inconnus des VPNs dévoilés : 101 produits VPN gérés par seulement 23 sociétés](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
 - [Cette société chinoise est secrètement à l'origine de 24 applications populaires qui cherchent à obtenir des autorisations dangereuses](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
-
---8<-- "includes/abbreviations.fr.txt"

@@ -1,11 +1,20 @@
 ---
-title: "VPN服务"
+title: "VPN Services"
 icon: 资料/vpn
+description: These are the best VPN services for protecting your privacy and security online. Find a provider here that isn’t out to spy on you.
 ---
 
-选择无日志的 VPN 供应商，他们不会出卖或读取你的网络流量。
+If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you as long as you understand the risks involved. We think these providers are a cut above the rest:
 
-??? 危险 "VPNs 不提供匿名性"
+<div class="grid cards" markdown>
+
+- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
+- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
+- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
+
+</div>
+
+!!! 危险 "VPNs 不提供匿名性"
 
     使用VPN **不** 会隐藏你的浏览习惯, 它也不会为不安全(HTTP) 流量额外增加安全性。
     
@@ -15,17 +24,128 @@ icon: 资料/vpn
     
     [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](basics/tor-overview.md){ .md-button }
 
-??? 问题 "VPN何时有用？"
-
-    如果你只是想要从ISP那里、或者在使用公共Wi-Fi网络和给文件做种时提高一些**隐私**，那么只要在了解相关风险的前提下，VPN可能是个解决方案。
-    
-    [More Info](basics/vpn-overview.md){ .md-button }
+[Detailed VPN Overview :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
 ## 推荐的供应商
 
-!!! 摘要"准则"
+我们推荐的供应商使用加密，接受Monero支付 ，支持WireGuard & OpenVPN ，并且有无日志策略。 Read our [full list of criteria](#criteria) for more information.
 
-    我们推荐的供应商使用加密，接受Monero支付 ，支持WireGuard & OpenVPN ，并且有无日志策略。 请阅读我们的 [full list of criteria](#our-criteria) 了解更多信息。
+### IVPN
+
+!!! recommendation
+
+    ![IVPN标志](assets/img/vpn/ivpn.svg){ align=right }
+    
+    **IVPN**是另一个高级VPN供应商，他们自2009年以来一直在运营。 挑一个拥有离你最近的服务器的VPN供应商将减少你的网络流量的发送延迟。
+    
+    这是因为到达目的地的路由较短(跳数较少)。 我们还认为，如果VPN供应商使用[专用服务器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是使用[虚拟专用服务器](https://en.wikipedia.org/wiki/Virtual_private_server)等更便宜的(与其他客户)共享的解决方案，能提高VPN供应商私人密钥的安全性。
+
+#### :material-check:{ .pg-green } 35 Countries
+
+IVPN has [servers in 35 countries](https://www.ivpn.net/server-locations).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 这是因为到达目的地的路由较短(跳数较少)。
+{ .annotate }
+
+1. 如果订阅2年(119.76美元)，还可享受10%的折扣。
+
+We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+
+#### :material-check:{ .pg-green } Independently Audited
+
+IVPN has undergone a [no-logging audit from Cure53](https://cure53.de/audit-report_ivpn.pdf) which concluded in agreement with IVPN's no-logging claim. IVPN has also completed a [comprehensive pentest report Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) in January 2020. IVPN has also said they plan to have [annual reports](https://www.ivpn.net/blog/independent-security-audit-concluded) in the future. A further review was conducted [in April 2022](https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) and was produced by Cure53 [on their website](https://cure53.de/pentest-report_IVPN_2022.pdf).
+
+#### :material-check:{ .pg-green } Open-Source Clients
+
+As of February 2020 [IVPN applications are now open-source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
+
+#### :material-check:{ .pg-green } Accepts Cash and Monero
+
+In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment.
+
+#### :material-check:{ .pg-green } WireGuard Support
+
+IVPN supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://www.wireguard.com/protocol/). 此外， WireGuard旨在更简单、更高效。
+
+IVPN [recommends](https://www.ivpn.net/wireguard/) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
+
+#### :material-check:{ .pg-green } Remote Port Forwarding
+
+Remote [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is possible with a Pro plan. Port forwarding [can be activated](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html) via the client area. Port forwarding is only available on IVPN when using WireGuard or OpenVPN protocols and is [disabled on US servers](https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
+
+#### :material-check:{ .pg-green } Mobile Clients
+
+In addition to providing standard OpenVPN configuration files, IVPN has mobile clients for [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), and [GitHub](https://github.com/ivpn/android-app/releases) allowing for easy connections to their servers.
+
+#### :material-information-outline:{ .pg-blue } Additional Functionality
+
+IVPN clients support two factor authentication (Mullvad's clients do not). IVPN also provides "[AntiTracker](https://www.ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
+
+### Mullvad
+
+!!! recommendation
+
+    ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
+    
+    **Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. 挑一个拥有离你最近的服务器的VPN供应商将减少你的网络流量的发送延迟。 这是因为到达目的地的路由较短(跳数较少)。
+    
+    我们还认为，如果VPN供应商使用[专用服务器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是使用[虚拟专用服务器](https://en.wikipedia.org/wiki/Virtual_private_server)等更便宜的(与其他客户)共享的解决方案，能提高VPN供应商私人密钥的安全性。 downloads
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
+        - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
+        - [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
+        - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
+        - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+
+#### :material-check:{ .pg-green } 41 Countries
+
+Mullvad has [servers in 41 countries](https://mullvad.net/servers/).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 这是因为到达目的地的路由较短(跳数较少)。
+{ .annotate }
+
+1. 如果订阅2年(119.76美元)，还可享受10%的折扣。
+
+We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+
+#### :material-check:{ .pg-green } Independently Audited
+
+Mullvad's VPN clients have been audited by Cure53 and Assured AB in a pentest report [published at cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf). The security researchers concluded:
+
+> Cure53 and Assured AB are happy with the results of the audit and the software leaves an overall positive impression. With security dedication of the in-house team at the Mullvad VPN compound, the testers have no doubts about the project being on the right track from a security standpoint.
+
+In 2020 a second audit [was announced](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app/) and the [final audit report](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) was made available on Cure53's website:
+
+> The results of this May-June 2020 project targeting the Mullvad complex are quite positive. [...] The overall application ecosystem used by Mullvad leaves a sound and structured impression. The overall structure of the application makes it easy to roll out patches and fixes in a structured manner. More than anything, the findings spotted by Cure53 showcase the importance of constantly auditing and re-assessing the current leak vectors, in order to always ensure privacy of the end-users. With that being said, Mullvad does a great job protecting the end-user from common PII leaks and privacy related risks.
+
+In 2021 an infrastructure audit [was announced](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) and the [final audit report](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) was made available on Cure53's website. Another report was commissioned [in June 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) and is available on [Assured's website](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
+
+#### :material-check:{ .pg-green } Open-Source Clients
+
+Mullvad provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/mullvad/mullvadvpn-app).
+
+#### :material-check:{ .pg-green } Accepts Cash and Monero
+
+Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. \[WireGuard\](https://www.wireguard.com)是一个较新的协议，使用最先进的 \[cryptography\](https://www.wireguard.com/protocol/)。
+
+#### :material-check:{ .pg-green } WireGuard Support
+
+Mullvad supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://www.wireguard.com/protocol/). 此外， WireGuard旨在更简单、更高效。
+
+Mullvad [recommends](https://mullvad.net/en/help/why-wireguard/) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
+
+#### :material-check:{ .pg-green } IPv6 Support
+
+Mullvad supports the future of networking [IPv6](https://en.wikipedia.org/wiki/IPv6). Their network allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/) as opposed to other providers who block IPv6 connections.
+
+#### :material-check:{ .pg-green } Remote Port Forwarding
+
+Remote [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is allowed for people who make one-time payments, but not allowed for accounts with a recurring/subscription-based payment method. This is to prevent Mullvad from being able to identify you based on your port usage and stored subscription information. See [Port forwarding with Mullvad VPN](https://mullvad.net/help/port-forwarding-and-mullvad/) for more information.
+
+#### :material-check:{ .pg-green } Mobile Clients
+
+Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
+
+#### :material-information-outline:{ .pg-blue } Additional Functionality
+
+Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers/). They use [ShadowSocks](https://shadowsocks.org/) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22). Mullvad's website is also accessible via Tor at [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
 
 ### Proton VPN
 
@@ -48,162 +168,48 @@ icon: 资料/vpn
         - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
         - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
-??? 检查注释 "64个国家"
+#### :material-check:{ .pg-green } 67 Countries
 
-    Proton VPN有[64个国家的服务器](https://protonvpn.com/vpn-servers) (1)。 挑一个拥有离你最近的服务器的VPN供应商将减少你的网络流量的发送延迟。 这是因为到达目的地的路由较短(跳数较少)。
-    
-    我们还认为，如果VPN供应商使用[专用服务器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是使用[虚拟专用服务器](https://en.wikipedia.org/wiki/Virtual_private_server)等更便宜的(与其他客户)共享的解决方案，能提高VPN供应商私人密钥的安全性。
-
-1. 如果订阅2年(119.76美元)，还可享受10%的折扣。
-
-??? 检查"独立审计"
-
-    截至2020年1月，Proton VPN已经接受了SEC咨询公司的独立审计。 SEC Consult在Proton VPN的Windows、Android和iOS应用程序中发现了一些中度和低度风险的漏洞，在报告发布前，Proton VPN都已经 "妥善修复"。 所发现的问题中没有任何一个能让攻击者远程访问你的设备或流量。 你可以在 [protonvpn.com](https://protonvpn.com/blog/open-source/)查看每个平台的单独报告。 2022年4月，Proton VPN接受了[另一次审计](https://protonvpn.com/blog/no-logs-audit/)，报告是[由Securitum制作](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf)。 A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
-
-??? 检查“开源客户端”
-
-    Proton VPN在其[GitHub组织](https://github.com/ProtonVPN)中提供其桌面和移动客户端的源代码。
-
-??? 检查"接受现金"
-
-    Proton VPN除了接受信用卡/借记卡和PayPal之外，还接受比特币和**现金/当地货币**作为匿名支付方式。
-
-??? 检查 "WireGuard支持"。
-
-    Proton VPN主要支持WireGuard®协议。 [WireGuard](https://www.wireguard.com)是一个较新的协议，使用最先进的 [cryptography](https://www.wireguard.com/protocol/)。 此外， WireGuard旨在更简单、更高效。
-    
-    Proton VPN [recommends](https://protonvpn.com/blog/wireguard/)在其服务中使用WireGuard。 在Proton VPN的Windows、macOS、iOS、Android、ChromeOS和Android TV应用程序中，WireGuard是默认协议；但是，在他们的Linux应用程序中，该协议还没有得到 [support](https://protonvpn.com/support/how-to-change-vpn-protocols/)。
-
-??? 警告 "远程端口转发"
-
-    Proton VPN目前只支持Windows上的远程[端口转发](https://protonvpn.com/support/port-forwarding/)，这可能会影响一些应用程序。 特别是点对点的应用，如Torrent客户端。
-
-??? success "Mobile Clients"
-
-    In addition to providing standard OpenVPN configuration files, Proton VPN has mobile clients for [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), and [GitHub](https://github.com/ProtonVPN/android-app/releases) allowing for easy connections to their servers.
-
-??? info "Additional Functionality"
-
-    Proton VPN clients support two factor authentication on all platforms except Linux at the moment. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer adblocking and known malware domains blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
-
-!!! danger "Killswitch feature is broken on Intel-based Macs"
-
-    System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch/) on Intel-based Macs when using the VPN killswitch. If you require this feature, and you are using a Mac with Intel chipset, you should consider using another VPN service.
-
-### IVPN
-
-!!! recommendation
-
-    ![IVPN标志](assets/img/vpn/ivpn.svg){ align=right }
-    
-    **IVPN**是另一个高级VPN供应商，他们自2009年以来一直在运营。 挑一个拥有离你最近的服务器的VPN供应商将减少你的网络流量的发送延迟。
-    
-    这是因为到达目的地的路由较短(跳数较少)。 我们还认为，如果VPN供应商使用[专用服务器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是使用[虚拟专用服务器](https://en.wikipedia.org/wiki/Virtual_private_server)等更便宜的(与其他客户)共享的解决方案，能提高VPN供应商私人密钥的安全性。
-
-??? 检查"独立审计"
-
-    IVPN has [servers in 35 countries](https://www.ivpn.net/server-locations) (1). 挑一个拥有离你最近的服务器的VPN供应商将减少你的网络流量的发送延迟。 这是因为到达目的地的路由较短(跳数较少)。
-    
-    我们还认为，如果VPN供应商使用[专用服务器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是使用[虚拟专用服务器](https://en.wikipedia.org/wiki/Virtual_private_server)等更便宜的(与其他客户)共享的解决方案，能提高VPN供应商私人密钥的安全性。
+Proton VPN has [servers in 67 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 这是因为到达目的地的路由较短(跳数较少)。
+{ .annotate }
 
 1. 如果订阅2年(119.76美元)，还可享受10%的折扣。
 
-??? 检查"独立审计"
+We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-    IVPN has undergone a [no-logging audit from Cure53](https://cure53.de/audit-report_ivpn.pdf) which concluded in agreement with IVPN's no-logging claim. IVPN has also completed a [comprehensive pentest report Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) in January 2020. IVPN has also said they plan to have [annual reports](https://www.ivpn.net/blog/independent-security-audit-concluded) in the future. A further review was conducted [in April 2022](https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) and was produced by Cure53 [on their website](https://cure53.de/pentest-report_IVPN_2022.pdf).
+#### :material-check:{ .pg-green } Independently Audited
 
-??? 检查“开源客户端”
+截至2020年1月，Proton VPN已经接受了SEC咨询公司的独立审计。 SEC Consult在Proton VPN的Windows、Android和iOS应用程序中发现了一些中度和低度风险的漏洞，在报告发布前，Proton VPN都已经 "妥善修复"。 所发现的问题中没有任何一个能让攻击者远程访问你的设备或流量。 You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit/) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
-    As of February 2020 [IVPN applications are now open-source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
+#### :material-check:{ .pg-green } Open-Source Clients
 
-??? 检查 "WireGuard支持"。
+Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
 
-    In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment.
+#### :material-check:{ .pg-green } Accepts Cash
 
-??? 检查 "WireGuard支持"。
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
 
-    IVPN supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com)是一个较新的协议，使用最先进的 [cryptography](https://www.wireguard.com/protocol/)。 此外， WireGuard旨在更简单、更高效。
-    
-    IVPN [recommends](https://www.ivpn.net/wireguard/) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
+#### :material-check:{ .pg-green } WireGuard Support
 
-??? success "Remote Port Forwarding"
+Proton VPN主要支持WireGuard®协议。 [WireGuard](https://www.wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://www.wireguard.com/protocol/). 此外， WireGuard旨在更简单、更高效。
 
-    Remote [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is possible with a Pro plan. Port forwarding [can be activated](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html) via the client area. Port forwarding is only available on IVPN when using WireGuard or OpenVPN protocols and is [disabled on US servers](https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
+Proton VPN [recommends](https://protonvpn.com/blog/wireguard/) the use of WireGuard with their service. On Proton VPN's Windows, macOS, iOS, Android, ChromeOS, and Android TV apps, WireGuard is the default protocol; however, [support](https://protonvpn.com/support/how-to-change-vpn-protocols/) for the protocol is not present in their Linux app.
 
-??? success "Mobile Clients"
+#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
 
-    In addition to providing standard OpenVPN configuration files, IVPN has mobile clients for [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), and [GitHub](https://github.com/ivpn/android-app/releases) allowing for easy connections to their servers.
+Proton VPN currently only supports remote [port forwarding](https://protonvpn.com/support/port-forwarding/) on Windows, which may impact some applications. 特别是点对点的应用，如Torrent客户端。
 
-??? info "Additional Functionality"
+#### :material-check:{ .pg-green } Mobile Clients
 
-    IVPN clients support two factor authentication (Mullvad's clients do not). IVPN also provides "[AntiTracker](https://www.ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
+In addition to providing standard OpenVPN configuration files, Proton VPN has mobile clients for [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), and [GitHub](https://github.com/ProtonVPN/android-app/releases) allowing for easy connections to their servers.
 
-### Mullvad
+#### :material-information-outline:{ .pg-blue } Additional Functionality
 
-!!! recommendation
+Proton VPN clients support two factor authentication on all platforms except Linux at the moment. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer adblocking and known malware domains blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
 
-    ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
-    
-    **Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. 挑一个拥有离你最近的服务器的VPN供应商将减少你的网络流量的发送延迟。 这是因为到达目的地的路由较短(跳数较少)。
-    
-    我们还认为，如果VPN供应商使用[专用服务器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是使用[虚拟专用服务器](https://en.wikipedia.org/wiki/Virtual_private_server)等更便宜的(与其他客户)共享的解决方案，能提高VPN供应商私人密钥的安全性。 downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
-        - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
-        - [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
-        - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
-        - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+#### :material-alert-outline:{ .pg-orange } Killswitch feature is broken on Intel-based Macs
 
-??? 检查"独立审计"
-
-    Mullvad has [servers in 41 countries](https://mullvad.net/servers/) (1). 挑一个拥有离你最近的服务器的VPN供应商将减少你的网络流量的发送延迟。 这是因为到达目的地的路由较短(跳数较少)。
-    
-    我们还认为，如果VPN供应商使用[专用服务器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是使用[虚拟专用服务器](https://en.wikipedia.org/wiki/Virtual_private_server)等更便宜的(与其他客户)共享的解决方案，能提高VPN供应商私人密钥的安全性。
-
-1. 如果订阅2年(119.76美元)，还可享受10%的折扣。
-
-??? 检查"独立审计"
-
-    Mullvad's VPN clients have been audited by Cure53 and Assured AB in a pentest report [published at cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf). The security researchers concluded:
-    
-    > Cure53 and Assured AB are happy with the results of the audit and the software leaves an overall positive impression. With security dedication of the in-house team at the Mullvad VPN compound, the testers have no doubts about the project being on the right track from a security standpoint.
-    
-    In 2020 a second audit [was announced](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app/) and the [final audit report](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) was made available on Cure53's website:
-    
-    > The results of this May-June 2020 project targeting the Mullvad complex are quite positive. [...] The overall application ecosystem used by Mullvad leaves a sound and structured impression. The overall structure of the application makes it easy to roll out patches and fixes in a structured manner. More than anything, the findings spotted by Cure53 showcase the importance of constantly auditing and re-assessing the current leak vectors, in order to always ensure privacy of the end-users. With that being said, Mullvad does a great job protecting the end-user from common PII leaks and privacy related risks.
-    
-    In 2021 an infrastructure audit [was announced](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) and the [final audit report](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) was made available on Cure53's website. Another report was commissioned [in June 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) and is available on [Assured's website](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
-
-??? 检查“开源客户端”
-
-    Mullvad provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/mullvad/mullvadvpn-app).
-
-??? 检查 "WireGuard支持"。
-
-    Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. [WireGuard](https://www.wireguard.com)是一个较新的协议，使用最先进的 [cryptography](https://www.wireguard.com/protocol/)。
-
-??? 检查 "WireGuard支持"。
-
-    Mullvad supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com)是一个较新的协议，使用最先进的 [cryptography](https://www.wireguard.com/protocol/)。 此外， WireGuard旨在更简单、更高效。
-    
-    Mullvad [recommends](https://mullvad.net/en/help/why-wireguard/) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
-
-??? success "IPv6 Support"
-
-    Mullvad supports the future of networking [IPv6](https://en.wikipedia.org/wiki/IPv6). Their network allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/) as opposed to other providers who block IPv6 connections.
-
-??? success "Remote Port Forwarding"
-
-    Remote [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is allowed for people who make one-time payments, but not allowed for accounts with a recurring/subscription-based payment method. This is to prevent Mullvad from being able to identify you based on your port usage and stored subscription information. See [Port forwarding with Mullvad VPN](https://mullvad.net/help/port-forwarding-and-mullvad/) for more information.
-
-??? success "Mobile Clients"
-
-    Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
-
-??? info "Additional Functionality"
-
-    Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers/). They use [ShadowSocks](https://shadowsocks.org/) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22). Mullvad's website is also accessible via Tor at [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
+System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch/) on Intel-based Macs when using the VPN killswitch. If you require this feature, and you are using a Mac with Intel chipset, you should consider using another VPN service.
 
 ## Criteria
 
@@ -238,13 +244,13 @@ We prefer our recommended providers to collect as little data as possible. 不�
 
 **符合条件的最低要求。**
 
-- Monero或现金支付选项。
+- [Anonymous cryptocurrency](cryptocurrency.md) **or** cash payment option.
 - 注册时不需要提供个人信息。最多只有用户名、密码和电子邮件。
 
 **Best Case:**
 
-- 接受Monero、现金和其他形式的匿名支付方式（礼品卡等）。
-- 不接受个人信息（自动生成的用户名，不需要电子邮件，等等。）
+- Accepts multiple [anonymous payment options](advanced/payments.md).
+- No personal information accepted (autogenerated username, no email required, etc.).
 
 ### 安全性
 
@@ -302,5 +308,3 @@ Responsible marketing that is both educational and useful to the consumer could 
 ### Additional Functionality
 
 While not strictly requirements, there are some factors we looked into when determining which providers to recommend. These include adblocking/tracker-blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.
-
---8<-- "includes/abbreviations.zh.txt"

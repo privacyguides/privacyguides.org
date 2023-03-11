@@ -24,7 +24,7 @@ Cela n'inclut pas le code tiers intégré dans ce dépôt, ou le code pour leque
 
 Certaines parties de cet avis ont été reprises du projet [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) sur GitHub. Cette ressource et cette page elle-même sont publiées sous [CC-BY-4.0](https://github.com/github/opensource.guide/blob/master/LICENSE).
 
-Cela signifie que vous pouvez utiliser le contenu lisible par l'homme de ce dépôt pour votre propre projet, conformément aux conditions décrites dans le texte universel CC0 1.0. Vous **ne pouvez pas** utiliser la marque Privacy Guides dans votre propre projet sans l'approbation expresse de ce projet. Les marques de commerce de Privacy Guides comprennent le mot-clé et le logo "Privacy Guides". Les marques déposées de Privacy Guides comprennent l'appellation « Privacy Guides » ainsi que le logo Shield.
+Cela signifie que vous pouvez utiliser le contenu lisible par l'homme de ce dépôt pour votre propre projet, conformément aux conditions décrites dans le texte universel CC0 1.0. Vous pouvez le faire de toute manière raisonnable, mais pas d'une manière qui suggère que Privacy Guides vous approuve ou approuve votre utilisation. Les marques de commerce de Privacy Guides comprennent le mot-clé et le logo "Privacy Guides". Les marques déposées de Privacy Guides comprennent l'appellation « Privacy Guides » ainsi que le logo Shield.
 
 Nous estimons que les logos et autres images des `actifs` obtenus auprès de fournisseurs tiers sont soit du domaine public, soit **d'un usage raisonnable**. En résumé, la [doctrine d'usage raisonnable](https://fr.wikipedia.org/wiki/Fair_use) permet l'utilisation d'images protégées par le droit d'auteur afin d'identifier le sujet à des fins de commentaire public. Toutefois, ces logos et autres images peuvent encore être soumis aux lois sur les marques commerciales dans une ou plusieurs juridictions. Avant d'utiliser ce contenu, veuillez vous assurer qu'il permet d'identifier l'entité ou l'organisation propriétaire de la marque et que vous avez le droit de l'utiliser en vertu des lois applicables dans les circonstances de votre utilisation prévue. *Lorsque vous copiez le contenu de ce site web, vous êtes seul responsable de vous assurer que vous ne violez pas la marque ou le droit d'auteur de quelqu'un d'autre.*
 
@@ -41,5 +41,3 @@ Vous ne devez pas mener d'activités de collecte de données systématiques ou a
 * [Web scrapping](https://fr.wikipedia.org/wiki/Web_scraping)
 * Extraction de données
 * 'Framing' (IFrames)
-
---8<-- "includes/abbreviations.fr.txt"

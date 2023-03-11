@@ -1,52 +1,51 @@
 ---
-title: "Video Streaming"
+title: "Videouppspelning"
 icon: material/video-wireless
+description: These networks allow you to stream internet content without building an advertising profile based on your interests.
 ---
 
-The primary threat when using a video streaming platform is that your streaming habits and subscription lists could be used to profile you. You should combine these tools with a [VPN](vpn.md) or [Tor](https://www.torproject.org/) to make it harder to profile your usage.
+Det främsta hotet när du använder en plattform för videostreaming är att dina streamingvanor och prenumerationslistor kan användas för att profilera dig. Du bör kombinera dessa verktyg med en [VPN](vpn.md) eller [Tor](https://www.torproject.org/) för att göra det svårare att profilera din användning.
 
 ## LBRY
 
 !!! recommendation
 
-    ![LBRY logo](assets/img/video-streaming/lbry.svg){ align=right }
+    ![LBRY-logotyp](assets/img/video-streaming/lbry.svg){ align=right }
     
-    **The LBRY network** is a decentralized video sharing network. It uses a [BitTorrent](https://wikipedia.org/wiki/BitTorrent)-like network to store the video content, and a [blockchain](https://wikipedia.org/wiki/Blockchain) to store the indexes for those videos. The main benefit of this design is censorship resistance.
+    **LBRY-nätverket** är ett decentraliserat nätverk för videodelning. Den använder ett [BitTorrent](https://wikipedia.org/wiki/BitTorrent)-liknande nätverk för att lagra videoinnehållet och ett [blockchain](https://wikipedia.org/wiki/Blockchain) för att lagra indexen för dessa videor. Den största fördelen med denna design är censurmotstånd.
     
-    **The LBRY desktop client** helps you stream videos from the LBRY network and stores your subscription list in your own LBRY wallet.
+    **LBRY-klienten** hjälper dig att strömma videor från LBRY-nätverket och lagrar din prenumerationslista i din egen LBRY-plånbok.
     
-    [:octicons-home-16: Homepage](https://lbry.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://lbry.com/privacypolicy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://lbry.com/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/lbryio/lbry-desktop){ .card-link title="Source Code" }
+    [:octicons-home-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
     
-    ??? downloads
+    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://lbry.com/faq/){ .card-link title=Dokumentation}
+    [:octicons-code-16:](https://github.com/lbryio/lbry-desktop){ .card-link title="Källkod" }
+    [](/){ .card-link title=Contribute??? nedladdningar
     
         - [:simple-windows11: Windows](https://lbry.com/windows)
         - [:simple-apple: macOS](https://lbry.com/osx)
         - [:simple-linux: Linux](https://lbry.com/linux)
 
-!!! note
+!!! anmärkning
 
-    Only the **LBRY desktop client** is recommended, as the [Odysee](https://odysee.com) website and the LBRY clients in F-Droid, Play Store, and the App Store have mandatory synchronization and telemetry.
+    Endast **LBRY-klienten** rekommenderas, eftersom webbplatsen [Odysee](https://odysee.com) och LBRY-klienterna i F-Droid, Play Store och App Store har obligatorisk synkronisering och telemetri.
 
-!!! warning
+!!! varning
 
-    While watching and hosting videos, your IP address is visible to the LBRY network. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    När du tittar på och är värd för videor är din IP-adress synlig för LBRY-nätverket. Överväg att använda en [VPN](vpn.md) eller [Tor](https://www.torproject.org) om din [hotmodell](basics/threat-modelling.md) kräver att du döljer din IP-adress.
 
-We recommend **against** synchronizing your wallet with LBRY Inc., as synchronizing encrypted wallets is not supported yet. If you synchronize your wallet with LBRY Inc., you have to trust them to not look at your subscription list, [LBC](https://lbry.com/faq/earn-credits) funds, or take control of your channel.
+Vi rekommenderar **att inte** synkroniserar din plånbok med LBRY Inc. eftersom synkronisering av krypterade plånböcker inte stöds ännu. Om du synkroniserar din plånbok med LBRY Inc. du måste lita på att de inte tittar på din prenumerationslista, [LBC](https://lbry.com/faq/earn-credits) pengar, eller ta kontroll över din kanal.
 
-You can disable *Save hosting data to help the LBRY network* option in :gear: **Settings** → **Advanced Settings**, to avoid exposing your IP address and watched videos when using LBRY for a prolonged period of time.
+Du kan inaktivera *Spara värddata för att hjälpa LBRY-nätverket* alternativet i :gear: **Inställningar** → **Avancerade inställningar**, för att undvika att din IP-adress och dina videor exponeras när du använder LBRY under en längre tid.
 
-## Criteria
+## Kriterier
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.
 
-!!! example "This section is new"
+!!! exempel "Det här avsnittet är nytt"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
 
-- Must not require a centralized account to view videos.
-    - Decentralized authentication, such as via a mobile wallet's private key is acceptable.
-
---8<-- "includes/abbreviations.sv.txt"
+- Får inte kräva ett centralt konto för att visa videor.
+    - Decentraliserad autentisering, t. ex. via en mobil plånboks privata nyckel, är acceptabel.

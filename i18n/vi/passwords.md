@@ -1,6 +1,7 @@
 ---
 title: "Password Managers"
 icon: material/form-textbox-password
+description: Password managers allow you to securely store and manage passwords and other credentials.
 ---
 
 Password managers allow you to securely store and manage passwords and other credentials with the use of a master password.
@@ -246,5 +247,3 @@ These products are minimal password managers that can be used within scripting a
         - [:fontawesome-brands-github: Mã nguồn](https://github.com/dani-garcia/vaultwarden)
 
 - Must be cross-platform.
-
---8<-- "includes/abbreviations.vi.txt"

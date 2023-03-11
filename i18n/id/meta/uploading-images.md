@@ -1,23 +1,23 @@
 ---
-title: Uploading Images
+title: Mengunggah Gambar
 ---
 
-Here are a couple of general rules for contributing to Privacy Guides:
+Berikut ini adalah beberapa aturan umum untuk berkontribusi pada Privacy Guides:
 
-## Images
+## Gambar
 
-- We **prefer** SVG images, but if those do not exist we can use PNG images
+- Kami **lebih suka** gambar SVG, tetapi jika tidak ada, kami dapat menggunakan gambar PNG
 
-Company logos have canvas size of:
+Logo perusahaan memiliki ukuran kanvas:
 
 - 128x128px
 - 384x128px
 
-## Optimization
+## Optimasi
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng/) to optimize the PNG image:
+Gunakan [OptiPNG](https://sourceforge.net/projects/optipng/) untuk mengoptimalkan gambar PNG:
 
 ```bash
 optipng -o7 file.png
@@ -29,42 +29,42 @@ optipng -o7 file.png
 
 [Scour](https://github.com/scour-project/scour) all SVG images.
 
-In Inkscape:
+Dalam Inkscape:
 
-1. File Save As..
+1. Simpan Berkas Sebagai..
 2. Set type to Optimized SVG (*.svg)
 
-In the **Options** tab:
+Pada tab **Opsi**:
 
-- **Number of significant digits for coordinates** > **5**
-- [x] Turn on **Shorten color values**
-- [x] Turn on **Convert CSS attributes to XML attributes**
-- [x] Turn on **Collapse groups**
-- [x] Turn on **Create groups for similar attributes**
-- [ ] Turn off **Keep editor data**
-- [ ] Turn off **Keep unreferenced definitions**
-- [x] Turn on **Work around renderer bugs**
+- **Jumlah digit signifikan untuk koordinat** > **5**
+- [x] Aktifkan **Persingkat nilai warna**
+- [x] Aktifkan **Konversi atribut CSS ke atribut XML**
+- [x] Aktifkan **Runtuhkan grup**
+- [x] Aktifkan **Buat grup untuk atribut serupa**
+- [ ] Matikan **Simpan data editor**
+- [ ] Matikan **Simpan definisi yang tidak direferensikan**
+- [x] Hidupkan **Bekerja di sekitar bug renderer**
 
-In the **SVG Output** tab under **Document options**:
+Pada tab **SVG Output** di bawah **Opsi dokumen**:
 
-- [ ] Turn off **Remove the XML declaration**
-- [x] Turn on **Remove metadata**
-- [x] Turn on **Remove comments**
-- [x] Turn on **Embeded raster images**
-- [x] Turn on **Enable viewboxing**
+- [ ] Matikan **Hapus deklarasi XML**
+- [x] Aktifkan **Hapus metadata**
+- [x] Aktifkan **Hapus komentar**
+- [x] Aktifkan **Gambar raster yang disematkan**
+- [x] Aktifkan **Aktifkan viewboxing**
 
 In the **SVG Output** under **Pretty-printing**:
 
 - [ ] Turn off **Format output with line-breaks and indentation**
 - **Indentation characters** > Select **Space**
-- **Depth of indentation** > **1**
+- **Kedalaman lekukan** > **1**
 - [ ] Turn off **Strip the "xml:space" attribute from the root SVG element**
 
-In the **IDs** tab:
+Pada tab **IDs**:
 
-- [x] Turn on **Remove unused IDs**
-- [ ] Turn off **Shorten IDs**
-- **Prefix shortened IDs with** > `leave blank`
+- [x] Aktifkan **Hapus ID yang tidak digunakan**
+- [] Nonaktifkan **Persingkat ID**
+- **Awalan ID singkat dengan** > `biarkan kosong`
 - [x] Turn on **Preserve manually created IDs not ending with digits**
 - **Preserve the following IDs** > `leave blank`
 - **Preserve IDs starting with** > `leave blank`
@@ -87,5 +87,3 @@ scour --set-precision=5 \
       --protect-ids-noninkscape \
       input.svg output.svg
 ```
-
---8<-- "includes/abbreviations.id.txt"

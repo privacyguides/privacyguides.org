@@ -1,6 +1,7 @@
 ---
 title: "סקירה כללית של DNS"
 icon: material/dns
+description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
 ---
 
 [מערכת שמות הדומיין](https://en.wikipedia.org/wiki/Domain_Name_System) היא 'ספר הטלפונים של האינטרנט'. DNS מתרגם שמות דומיין לכתובות IP כך שדפדפנים ושירותים אחרים יכולים לטעון משאבי אינטרנט, דרך רשת מבוזרת של שרתים.
@@ -303,5 +304,3 @@ QNAME הוא "שם מוסמך", לדוגמה`privacyguides.org`. מזעור QNam
 זה נועד "לזרז" את מסירת הנתונים על ידי מתן תשובה ללקוח השייך לשרת הקרוב אליו כגון [תוכן רשת מסירה](https://en.wikipedia.org/wiki/Content_delivery_network), המשמשות לעתים קרובות בהזרמת וידאו והגשת יישומי אינטרנט של JavaScript.
 
 תכונה זו כרוכה בעלות פרטיות, מכיוון שהיא מספרת לשרת ה-DNS מידע על מיקומו של הלקוח.
-
---8<-- "includes/abbreviations.he.txt"

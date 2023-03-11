@@ -1,11 +1,12 @@
 ---
 title: "Kommunikációs Hálózatok Típusai"
 icon: 'material/transit-connection-variant'
+description: An overview of several network architectures commonly used by instant messaging applications.
 ---
 
-Emberek közötti üzenetek továbbítására többféle hálózati architektúra használható. Ezek a hálózatok különböző magánéleti garanciákat nyújthatnak, ezért érdemes figyelembe venned a [védelmk modelledet](../basics/threat-modeling.md), amikor eldöntöd, hogy melyik alkalmazást fogod használni.
+Személyek közötti üzenetek továbbítására többféle hálózati architektúra használható. Ezek a hálózatok különböző magánéleti garanciákat nyújthatnak, ezért érdemes figyelembe venned a [védelmk modelledet](../basics/threat-modeling.md), amikor eldöntöd, hogy melyik alkalmazást fogod használni.
 
-[Recommended Instant Messengers](../real-time-communication.md ""){.md-button}
+[Ajánlott Azonnali Üzenetküldők](../real-time-communication.md ""){.md-button}
 
 ## Központosított Hálózatok
 
@@ -78,7 +79,7 @@ P2P networks do not use servers, as peers communicate directly between each othe
 - Some common messenger features may not be implemented or incompletely, such as message deletion.
 - Your IP address and that of the contacts you're communicating with may be exposed if you do not use the software in conjunction with a [VPN](../vpn.md) or [Tor](../tor.md). Many countries have some form of mass surveillance and/or metadata retention.
 
-## Anoním Forgalomirányítás
+## Anonim Forgalomirányítás
 
 ![Anoním forgalomirányítási diagram](../assets/img/layout/network-anonymous-routing.svg){ align=left }
 
@@ -100,5 +101,3 @@ Self-hosting a node in an anonymous routing network does not provide the hoster 
 - Less reliable if nodes are selected by randomized routing, some nodes may be very far from the sender and receiver, adding latency or even failing to transmit messages if one of the nodes goes offline.
 - More complex to get started, as the creation and secured backup of a cryptographic private key is required.
 - Just like other decentralized platforms, adding features is more complex for developers than on a centralized platform. Hence, features may be lacking or incompletely implemented, such as offline message relaying or message deletion.
-
---8<-- "includes/abbreviations.hu.txt"

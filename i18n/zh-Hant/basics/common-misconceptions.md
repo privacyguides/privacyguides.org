@@ -1,6 +1,7 @@
 ---
 title: "常見的迷思"
 icon: 'material/robot-confused'
+description: Privacy isn't a straightforward topic, and it's easy to get caught up in marketing claims and other disinformation.
 ---
 
 ## 「開源軟體永遠是安全的」或「商業軟體更安全」
@@ -55,7 +56,5 @@ One of the clearest threat models is one where people *know who you are* and one
 3. **匿名身份** - 即使有經驗的專家，也很難長時間保持一個帳號的匿名性。 它們應該是短期和短暫的身份，定期輪流。
 
     使用 Tor 可以幫助我們做到這一點。 同樣值得注意的是，通過異步溝通可以實現更大的匿名性：實時溝通容易受到打字模式分析的影響（即不止一段文字，在論壇上分發，通過電子郵件等）。
-
---8<-- "includes/abbreviations.zh-Hant.txt"
 
 [^1]: One notable example of this is the [2021 incident in which University of Minnesota researchers introduced three vulnerabilities into the Linux kernel development project](https://cse.umn.edu/cs/linux-incident).

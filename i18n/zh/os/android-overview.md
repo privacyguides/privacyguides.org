@@ -1,6 +1,7 @@
 ---
 title: Android概述
 icon: simple/android
+description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
 ---
 
 安卓是一个安全的操作系统，它有强大的[应用程序沙箱](https://source.android.com/security/app-sandbox)，[启动时验证](https://source.android.com/security/verifiedboot)（AVB），以及一个强大的[权限](https://developer.android.com/guide/topics/permissions/overview)控制系统。
@@ -53,9 +54,44 @@ AFWall+基于 [包过滤](https://en.wikipedia.org/wiki/Firewall_(computing)#Pac
 
 ## Android 权限
 
-[Android上的权限](https://developer.android.com/guide/topics/permissions/overview) ，让你控制哪些应用程序被允许访问。 谷歌定期在每个连续的版本中对权限系统进行 [改善](https://developer.android.com/about/versions/11/privacy/permissions)。 你安装的所有应用程序都是严格的 [沙箱](https://source.android.com/security/app-sandbox)，因此，没有必要安装任何杀毒软件。 使用最新版本的安卓系统的智能手机永远比使用付费杀毒软件的旧智能手机更安全。 最好不要为杀毒软件付费，省下钱来买一部新的智能手机，如谷歌Pixel。
+[Android上的权限](https://developer.android.com/guide/topics/permissions/overview) ，让你控制哪些应用程序被允许访问。 谷歌定期在每个连续的版本中对权限系统进行 [改善](https://developer.android.com/about/versions/11/privacy/permissions)。 你安装的所有应用程序都是严格的 [沙箱](https://source.android.com/security/app-sandbox)，因此，没有必要安装任何杀毒软件。
 
-如果你想运行一个你不确定的应用程序，考虑使用用户或工作档案。
+A smartphone with the latest version of Android will always be more secure than an old smartphone with an antivirus that you have paid for. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a Google Pixel.
+
+Android 10:
+
+- [Scoped Storage](https://developer.android.com/about/versions/10/privacy/changes#scoped-storage) gives you more control over your files and can limit what can [access external storage](https://developer.android.com/training/data-storage#permissions). Apps can have a specific directory in external storage as well as the ability to store specific types of media there.
+- Tighter access on [device location](https://developer.android.com/about/versions/10/privacy/changes#app-access-device-location) by introducing the `ACCESS_BACKGROUND_LOCATION` permission. This prevents apps from accessing the location when running in the background without express permission from the user.
+
+Android 11:
+
+- [One-time permissions](https://developer.android.com/about/versions/11/privacy/permissions#one-time) which allows you to grant a permission to an app just once.
+- [Auto-reset permissions](https://developer.android.com/about/versions/11/privacy/permissions#auto-reset), which resets [runtime permissions](https://developer.android.com/guide/topics/permissions/overview#runtime) that were granted when the app was opened.
+- Granular permissions for accessing [phone number](https://developer.android.com/about/versions/11/privacy/permissions#phone-numbers) related features.
+
+Android 12:
+
+- A permission to grant only the [approximate location](https://developer.android.com/about/versions/12/behavior-changes-12#approximate-location).
+- Auto-reset of [hibernated apps](https://developer.android.com/about/versions/12/behavior-changes-12#app-hibernation).
+- [Data access auditing](https://developer.android.com/about/versions/12/behavior-changes-12#data-access-auditing) which makes it easier to determine what part of an app is performing a specific type of data access.
+
+Android 13:
+
+- A permission for [nearby wifi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby WiFi access points was a popular way for apps to track a user's location.
+- More [granular media permissions](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), meaning you can grant access to images, videos or audio files only.
+- Background use of sensors now requires the [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission) permission.
+
+An app may request a permission for a specific feature it has. For example, any app that can scan QR codes will require the camera permission. Some apps can request more permissions than they need.
+
+[Exodus](https://exodus-privacy.eu.org/) can be useful when comparing apps that have similar purposes. If an app requires a lot of permissions and has a lot of advertising and analytics this is probably a bad sign. We recommend looking at the individual trackers and reading their descriptions rather than simply **counting the total** and assuming all items listed are equal.
+
+!!! 推荐
+
+    If an app is mostly a web-based service, the tracking may occur on the server side. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) shows "no trackers" but certainly does track users' interests and behavior across the site. Apps may evade detection by not using standard code libraries produced by the advertising industry, though this is unlikely.
+
+!!! note
+
+    Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all of the analytics features that are provided by Google Firebase Analytics.
 
 ## 媒体访问
 
@@ -131,5 +167,3 @@ Android 7及更高版本支持VPN killswitch ，无需安装第三方应用程�
 [安全网](https://developer.android.com/training/safetynet/attestation) 和 [Play Integrity APIs](https://developer.android.com/google/play/integrity) ，一般用于 [银行应用程序](https://grapheneos.org/usage#banking-apps)。 许多银行应用程序在GrapheneOS中使用沙盒游戏服务可以正常工作，但是一些非金融应用程序有自己的粗略防篡改机制，可能会失败。 GrapheneOS通过了 `basicIntegrity` 检查，但没有通过认证检查 `ctsProfileMatch`。 安卓8或更高版本的设备有硬件认证支持，如果没有泄露的密钥或严重的漏洞，就无法绕过。
 
 至于谷歌钱包，我们不推荐这样做，因为他们的 [隐私政策](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en)，其中规定如果你不希望你的信用等级和个人信息与联盟营销服务共享，你必须选择退出。
-
---8<-- "includes/abbreviations.zh.txt"

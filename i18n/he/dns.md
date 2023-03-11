@@ -1,20 +1,19 @@
 ---
-title: "פותרי DNS"
+title: "ספקי DNS"
 icon: material/dns
+description: These are some encrypted DNS providers we recommend switching to, to replace your ISP's default configuration.
 ---
 
-!!! question "האם להשתמש ב - DNS מוצפן?"
+יש להשתמש ב-DNS מוצפן עם שרתי צד שלישי רק כדי לעקוף [חסימת DNS](https://en.wikipedia.org/wiki/DNS_blocking) בסיסית כאשר אתה יכול להיות בטוח שלא יהיו השלכות. DNS מוצפן לא יעזור לך להסתיר את פעילות הגלישה שלך.
 
-    יש להשתמש ב-DNS מוצפן עם שרתי צד שלישי רק כדי לעקוף [חסימת DNS](https://en.wikipedia.org/wiki/DNS_blocking) בסיסית כאשר אתה יכול להיות בטוח שלא יהיו לכך השלכות. DNS מוצפן לא יעזור לך להסתיר את פעילות הגלישה שלך.
-    
-    [למידע נוסף על DNS](advanced/dns-overview.md){ .md-button }
+[למד עוד :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
 ## ספקים מומלצים
 
-| ספקי DNS                                                                        | מדיניות פרטיות                                                                                        | פרוטוקולים                                                                                 | תיעוד לוגים    | ECS        | סינון                                                                                                                           |
+| ספקי DNS                                                                        | מדיניות פרטיות                                                                                        | פרוטוקולים                                                                                 | תיעוד בקשות    | ECS        | סינון                                                                                                                           |
 | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | -------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH <br> DoT <br> DNSCrypt                                | חלק[^1]        | לא         | מבוסס על בחירת שרת. רשימת סינון בשימוש ניתן למצוא כאן. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Cleartext <br> DoH <br> DoT                                                    | חלק[^2]        | לא         | מבוסס על בחירת שרת.                                                                                                             |
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH <br> DoT <br> DNSCrypt                                | חלקי[^1]       | לא         | מבוסס על בחירת שרת. רשימת סינון בשימוש ניתן למצוא כאן. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Cleartext <br> DoH <br> DoT                                                    | חלקי[^2]       | לא         | מבוסס על בחירת שרת.                                                                                                             |
 | [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Cleartext <br> DoH <br> DoT <br> DNSCrypt <br> DoQ <br> DoH3 | אופציונאלי[^3] | לא         | מבוסס על בחירת שרת.                                                                                                             |
 | [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                                                         | לא[^4]         | לא         | מבוסס על בחירת שרת. רשימת סינון בשימוש ניתן למצוא כאן. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
 | [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Cleartext <br> DoH <br> DoT                                                    | אופציונאלי[^5] | אופציונאלי | מבוסס על בחירת שרת.                                                                                                             |
@@ -22,7 +21,7 @@ icon: material/dns
 
 ## קריטריונים
 
-**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בְּספק, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
 !!! example "חלק זה הוא חדש"
 
@@ -31,9 +30,9 @@ icon: material/dns
 - חייב לתמוך ב [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
 - [מזעור QNAME](advanced/dns-overview.md#what-is-qname-minimization).
 - אפשר ל - [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) להיות מנוטרל
-- עדיף [Anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) תמיכה או תמיכה היגוי גיאוגרפי
+- תעדוף תמיכה ב[Anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) או תמיכה ב"היגוי גיאוגרפי".
 
-## תמיכת מערכת הפעלה מקורית
+## תמיכה מובנת במערכת ההפעלה
 
 ### אנדרואיד
 
@@ -131,8 +130,6 @@ Apple אינה מספקת ממשק מקורי ליצירת פרופילי DNS מ
     [:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=תיעוד}
     [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=לתרומה }
-
---8<-- "includes/abbreviations.he.txt"
 
 [^1]: AdGuard מאחסן מדדי ביצועים מצטברים של שרתי ה-DNS שלהם, כלומר מספר הבקשות המלאות לשרת מסוים, מספר הבקשות החסומות ומהירות עיבוד הבקשות. הם גם שומרים ומאחסנים את מסד הנתונים של הדומיינים שהתבקשו ב-24 השעות האחרונות. "אנחנו צריכים את המידע הזה כדי לזהות ולחסום עוקבים ואיומים חדשים." "אנחנו גם מתעדים כמה פעמים גשש זה או אחר נחסם. אנחנו צריכים את המידע הזה כדי להסיר את הכללים המיושנים מהמסננים שלנו." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
 [^2]: Cloudflare אוספת ומאחסנת רק את נתוני שאילתת ה-DNS המוגבלים שנשלחים לפותר 1.1.1.1. שירות הפותר 1.1.1.1 אינו רושם נתונים אישיים, וחלק הארי של נתוני השאילתות המוגבלים שאינם ניתנים לזיהוי אישי מאוחסן למשך 25 שעות בלבד. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)

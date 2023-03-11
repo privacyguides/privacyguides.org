@@ -1,6 +1,7 @@
 ---
 title: "Common Threats"
 icon: 'material/eye-outline'
+description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
 ---
 
 Broadly speaking, we categorize our recommendations into the [threats](threat-modeling.md) or goals that apply to most people. ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
@@ -22,128 +23,126 @@ Some of these threats may be more important to you than others, depending on you
 
 Anonymity is often confused with privacy, but they're distinct concepts. While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real identity.
 
-Whistleblowers and journalists, for example, can have a much more extreme threat model which requires total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by malicious actors or governments, but also hiding who they are entirely. They will often sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, because their lives could depend on it. Most people don't need to go so far.
+Whistleblowers and journalists, for example, can have a much more extreme threat model which requires total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by malicious actors or governments, but also hiding who they are entirely. They will often sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, because their lives could depend on it. De flesta behöver inte gå så långt.
 
-## Security and Privacy
+## Säkerhet och sekretess
 
-<span class="pg-orange">:material-bug-outline: Passive Attacks</span>
+<span class="pg-orange">:material-bug-outline: Passiva attacker</span>
 
-Security and privacy are also often confused, because you need security to obtain any semblance of privacy: Using tools—even if they're private by design—is futile if they could be easily exploited by attackers who later release your data. However, the inverse isn't necessarily true: The most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google who, given their scale, have had few security incidents by employing industry-leading security experts to secure their infrastructure. Even though Google provides very secure services, very few people would consider their data private in Google's free consumer products (Gmail, YouTube, etc.)
+Säkerhet och integritet förväxlas också ofta, eftersom man behöver säkerhet för att få ett sken av integritet: Det är meningslöst att använda verktyg - även om de är privata till sin utformning - om de lätt kan utnyttjas av angripare som senare släpper ut dina uppgifter. Men det omvända är inte nödvändigtvis sant: Den säkraste tjänsten i världen *är inte nödvändigtvis* privat. Det bästa exemplet på detta är att lita på data till Google som, med tanke på deras skala, har haft få säkerhetsincidenter genom att anställa branschledande säkerhetsexperter för att säkra sin infrastruktur. Även om Google tillhandahåller mycket säkra tjänster, skulle mycket få människor betrakta sina data privat i Googles gratis konsumentprodukter (Gmail, YouTube, etc.)
 
-When it comes to application security, we generally don't (and sometimes can't) know if the software we use is malicious, or might one day become malicious. Even with the most trustworthy developers, there's generally no guarantee that their software doesn't have a serious vulnerability that could later be exploited.
+När det gäller applikationssäkerhet vet vi i allmänhet inte (och kan ibland inte) om programvaran vi använder är skadlig, eller kanske en dag blir skadlig. Även med de mest pålitliga utvecklarna finns det i allmänhet ingen garanti för att deras programvara inte har en allvarlig sårbarhet som senare kan utnyttjas.
 
-To minimize the damage that a malicious piece of software *could* do, you should employ security by compartmentalization. For example, this could come in the form of using different computers for different jobs, using virtual machines to separate different groups of related applications, or using a secure operating system with a strong focus on application sandboxing and mandatory access control.
+För att minimera den skada som en skadlig programvara ** kan orsaka bör du använda säkerhet genom uppdelning. Det kan till exempel handla om att använda olika datorer för olika jobb, att använda virtuella maskiner för att separera olika grupper av relaterade program eller att använda ett säkert operativsystem med starkt fokus på sandlåda för program och obligatorisk åtkomstkontroll.
 
-!!! tip
+!!! tips
 
-    Mobile operating systems generally have better application sandboxing than desktop operating systems: Apps can't obtain root access, and require permission for access to system resources.
+    Mobila operativsystem har i allmänhet bättre applikationssandlåda än stationära operativsystem: Appar kan inte få root-åtkomst och kräver tillstånd för åtkomst till systemresurser.
     
-    Desktop operating systems generally lag behind on proper sandboxing. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt-in to sandboxing for applications). However, these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../../desktop/#qubes-os).
+    Skrivbordsoperativsystem släpar i allmänhet efter vid korrekt sandlåda. ChromeOS har liknande sandlådor som Android och macOS har fullständig kontroll över systembehörigheter (och utvecklare kan välja att sandlådor ska användas för program). Dessa operativsystem överför dock identifieringsinformation till sina respektive OEM-tillverkare. Linux tenderar att inte lämna information till systemleverantörer, men har dåligt skydd mot exploateringar och skadliga program. Detta kan mildras något med specialiserade distributioner som i stor utsträckning använder sig av virtuella maskiner eller behållare, såsom [Qubes OS](../../desktop/#qubes-os).
 
-<span class="pg-red">:material-target-account: Targeted Attacks</span>
+<span class="pg-red">:material-target-account: Riktade attacker</span>
 
-Targeted attacks against a specific person are more problematic to deal with. Common attacks include sending malicious documents via email, exploiting vulnerabilities (e.g. in browsers and operating systems), and physical attacks. If this is a concern for you, you should employ more advanced threat mitigation strategies.
+Riktade attacker mot en specifik person är mer problematiska att hantera. Vanliga attacker är att skicka skadliga dokument via e-post, utnyttja sårbarheter (t.ex. i webbläsare och operativsystem) och fysiska attacker. Om detta är ett problem för dig bör du använda mer avancerade strategier för att minska hoten.
 
-!!! tip
+!!! tips
 
-    By design, **web browsers**, **email clients**, and **office applications** typically run untrusted code, sent to you from third parties. Running multiple virtual machines—to separate applications like these from your host system, as well as each other—is one technique you can use to mitigate the chance of an exploit in these applications compromising the rest of your system. For example, technologies like Qubes OS or Microsoft Defender Application Guard on Windows provide convenient methods to do this.
+    I **webbläsare**, **emailklienter** och **kontorsprogram** körs vanligtvis kod som inte är tillförlitlig och som skickas till dig från tredje part. Att köra flera virtuella maskiner för att separera sådana här program från värdsystemet och från varandra är en teknik som du kan använda för att minska risken för att en exploatering i dessa program ska kunna äventyra resten av systemet. Tekniker som Qubes OS eller Microsoft Defender Application Guard på Windows ger till exempel praktiska metoder för att göra detta.
 
-If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process). You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) or [Element](https://developers.google.com/android/security/android-ready-se) to rate limit attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems don't encrypt data separately per-user.
+Om du är orolig för **fysiska attacker** bör du använda ett operativsystem med en säker verifierad uppstart, t.ex. Android, iOS, macOS eller [Windows (med TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process). Du bör också se till att enheten är krypterad och att operativsystemet använder en TPM eller Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) eller [Element](https://developers.google.com/android/security/android-ready-se) för att begränsa försöken att ange krypteringsfrasen. Du bör undvika att dela din dator med personer du inte litar på, eftersom de flesta stationära operativsystem inte krypterar data separat per användare.
 
-## Privacy From Service Providers
+## Sekretess från tjänsteleverantörer
 
-<span class="pg-teal">:material-server-network: Service Providers</span>
+<span class="pg-teal">:material-server-network: Tjänsteleverantörer</span>
 
-We live in a world where almost everything is connected to the internet. Our "private" messages, emails, and social interactions are typically stored on a server, somewhere. Generally, when you send someone a message it's stored on a server, and when your friend wants to read the message the server will show it to them.
+Vi lever i en värld där nästan allt är anslutet till internet. Våra "privata" meddelanden, e-postmeddelanden och sociala interaktioner lagras vanligtvis på en server, någonstans. I allmänhet, när du skickar ett meddelande till någon lagras det på en server, och när din vän vill läsa meddelandet kommer servern att visa det för dem.
 
-The obvious problem with this is that the service provider (or a hacker who has compromised the server) can access your conversations whenever and however they want, without you ever knowing. This applies to many common services, like SMS messaging, Telegram, and Discord.
+Det uppenbara problemet med detta är att tjänsteleverantören (eller en hackare som har äventyrat servern) kan komma åt dina konversationer när och hur de vill, utan att du någonsin vet. Detta gäller många vanliga tjänster, som SMS-meddelanden, Telegram och Discord.
 
-Thankfully, E2EE can alleviate this issue by encrypting communications between you and your desired recipients before they are even sent to the server. The confidentiality of your messages is guaranteed, assuming the service provider doesn't have access to the private keys of either party.
+Tack och lov kan E2EE lindra detta problem genom att kryptera kommunikationen mellan dig och dina önskade mottagare innan den ens skickas till servern. Sekretessen för dina meddelanden garanteras, förutsatt att tjänsteleverantören inte har tillgång till någon av parternas privata nycklar.
 
-!!! note "Note on Web-based Encryption"
+!!! anmärkning "Anmärkning om webbaserad kryptering"
 
-    In practice, the effectiveness of different E2EE implementations varies. Applications, such as [Signal](../real-time-communication.md#signal), run natively on your device, and every copy of the application is the same across different installations. If the service provider were to introduce a [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) in their application—in an attempt to steal your private keys—it could later be detected with [reverse engineering](https://en.wikipedia.org/wiki/Reverse_engineering).
+    I praktiken varierar effektiviteten i olika E2EE-genomföranden. Applikationer, till exempel [Signal](../real-time-communication.md#signal), körs naturligt på din enhet, och varje kopia av applikationen är densamma över olika installationer. Om tjänsteleverantören skulle införa en [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) i sitt program - i ett försök att stjäla dina privata nycklar - skulle det senare kunna upptäckas med [reverse engineering] (https://en.wikipedia.org/wiki/Reverse_engineering).
     
-    On the other hand, web-based E2EE implementations, such as Proton Mail's webmail or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. A malicious server can target you and send you malicious JavaScript code to steal your encryption key (and it would be extremely hard to notice). Because the server can choose to serve different web clients to different people—even if you noticed the attack—it would be incredibly hard to prove the provider's guilt.
+    Å andra sidan är webbaserade E2EE-implementationer, som Proton Mail-webmail eller Bitwardens *Web Vault*, beroende av att servern dynamiskt serverar JavaScript-kod till webbläsaren för att hantera kryptografi. En skadlig server kan rikta dig och skicka skadlig JavaScript-kod för att stjäla din krypteringsnyckel (och det skulle vara extremt svårt att märka). Eftersom servern kan välja att betjäna olika webbklienter till olika människor - även om du märkte attacken - skulle det vara otroligt svårt att bevisa leverantörens skuld.
     
-    Therefore, you should use native applications over web clients whenever possible.
+    Därför bör du använda inbyggda applikationer över webbklienter när det är möjligt.
 
-Even with E2EE, service providers can still profile you based on **metadata**, which typically isn't protected. While the service provider can't read your messages, they can still observe important things, such as who you're talking to, how often you message them, and when you're typically active. Protection of metadata is fairly uncommon, and—if it's within your [threat model](threat-modeling.md)—you should pay close attention to the technical documentation of the software you're using to see if there's any metadata minimization or protection at all.
+Även med E2EE kan tjänsteleverantörer fortfarande profilera dig utifrån **metadata**, som vanligtvis inte är skyddade. Medan tjänsteleverantören inte kan läsa dina meddelanden kan de fortfarande observera viktiga saker, till exempel vem du pratar med, hur ofta du skickar meddelanden till dem och när du vanligtvis är aktiv. Skydd av metadata är ganska ovanligt, och om det ingår i din hotmodell [](threat-modeling.md)- bör du vara uppmärksam på den tekniska dokumentationen för den programvara du använder för att se om det finns någon minimering eller något skydd av metadata överhuvudtaget.
 
-## Mass Surveillance Programs
+## Massövervakningsprogram
 
-<span class="pg-blue">:material-eye-outline: Mass Surveillance</span>
+<span class="pg-blue">:material-eye-outline: Massövervakning</span>
 
-Mass surveillance is the intricate effort to monitor the "behavior, many activities, or information" of an entire (or substantial fraction of a) population.[^1] It often refers to government programs, such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). However, it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
+Massövervakning är ett komplicerat försök att övervaka "beteende, många aktiviteter eller information" hos en hel (eller en stor del av en) befolkning.[^1] Det hänvisar ofta till statliga program, t.ex. de [som Edward Snowden avslöjade 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). Det kan dock också utföras av företag, antingen på uppdrag av myndigheter eller på eget initiativ.
 
-!!! abstract "Atlas of Surveillance"
+!!! sammanfattning av "Atlas of Surveillance"
 
-    If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org/) by the [Electronic Frontier Foundation](https://www.eff.org/).
+    Om du vill veta mer om övervakningsmetoder och hur de tillämpas i din stad kan du också ta en titt på [Atlas of Surveillance] (https://atlasofsurveillance.org/) från [Electronic Frontier Foundation] (https://www.eff.org/).
     
-    In France you can take a look at the [Technolopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+    I Frankrike kan du ta en titt på [Technolopolices webbplats](https://technopolice.fr/villes/) som upprätthålls av den ideella föreningen La Quadrature du Net.
 
-Governments often justify mass surveillance programs as necessary means to combat terrorism and prevent crime. However, breaching human rights, it's most often used to disproportionately target minority groups and political dissidents, among others.
+Regeringar rättfärdigar ofta massövervakningsprogram som nödvändiga medel för att bekämpa terrorism och förebygga brottslighet. Men kränker de mänskliga rättigheterna, är det oftast används för att oproportionerligt rikta minoritetsgrupper och politiska dissidenter, bland annat.
 
-!!! quote "ACLU: [*The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
+!!! citat "ACLU: [*Det är en viktig fråga för den personliga integriteten: Massövervakning är inte vägen framåt*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
 
-    In the face of [Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. This kind of information, when amassed by the NSA day after day, can reveal incredibly sensitive details about people’s lives and associations, such as whether they have called a pastor, an abortion provider, an addiction counselor, or a suicide hotline.
+    Med anledning av [Edward Snowdens avslöjanden om regeringsprogram som [PRISM](https://en.wikipedia.org/wiki/PRISM) och [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)] erkände underrättelsetjänstemännen också att NSA i åratal i hemlighet hade samlat in uppgifter om praktiskt taget alla amerikaners telefonsamtal - vem som ringer till vem, när samtalen görs och hur länge de varar. Den här typen av information kan, när den samlas in av NSA dag efter dag, avslöja otroligt känsliga detaljer om människors liv och umgänge, t. ex. om de har ringt till en pastor, en abortvårdare, en missbruksrådgivare eller en självmordshotline.
 
-Despite growing mass surveillance in the United States, the government has found that mass surveillance programs like Section 215 have had "little unique value" with respect to stopping actual crimes or terrorist plots, with efforts largely duplicating the FBI's own targeted surveillance programs.[^2]
+Trots den ökande massövervakningen i USA har regeringen konstaterat att massövervakningsprogram som avsnitt 215 har haft "litet unikt värde" när det gäller att stoppa faktiska brott eller terroristplaner, och att insatserna i stort sett har varit en kopia av FBI:s egna riktade övervakningsprogram.[^2]
 
-Online, you can be tracked via a variety of methods:
+På nätet kan du spåras på olika sätt:
 
-- Your IP address
-- Browser cookies
-- The data you submit to websites
-- Your browser or device fingerprint
-- Payment method correlation
+- Din IP adress
+- Webbläsarcookies
+- Uppgifter som du skickar till webbplatser
+- Fingeravtryck från din webbläsare eller enhet
+- Betalningsmetod korrelation
 
-\[This list isn't exhaustive].
+\[Denna lista är inte uttömmande].
 
-If you're concerned about mass surveillance programs, you can use strategues like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+Om du är orolig för massövervakningsprogram kan du använda strategier som att dela upp din identitet på nätet, smälta in bland andra användare eller, när det är möjligt, helt enkelt undvika att lämna ut identifieringsuppgifter.
 
-<span class="pg-brown">:material-account-cash: Surveillance Capitalism</span>
+<span class="pg-brown">:material-account-cash: Övervakningskapitalism</span>
 
-> Surveillance capitalism is an economic system centered around the capture and commodification of personal data for the core purpose of profit-making.[^3]
+> Övervakningskapitalism är ett ekonomiskt system som är centrerat kring insamling och kommersialisering av personuppgifter i syfte att skapa vinst.[^3]
 
-For many people, tracking and surveillance by private corporations is a growing concern. Pervasive ad networks, such as those operated by Google and Facebook, span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like content blockers to limit network requests to their servers, and reading the privacy policies of the services you use can help you avoid many basic adversaries (although it can't completely prevent tracking).[^4]
+För många människor är spårning och övervakning av privata företag ett växande problem. Genomgripande annonsnätverk, som de som drivs av Google och Facebook, spänner över internet långt bortom bara de webbplatser de kontrollerar och spårar dina handlingar längs vägen. Genom att använda verktyg som innehållsblockerare för att begränsa nätverksförfrågningar till deras servrar och läsa sekretesspolicyn för de tjänster du använder kan du undvika många grundläggande motståndare (även om det inte helt kan förhindra spårning).[^4]
 
-Additionally, even companies outside of the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
+Dessutom kan även företag utanför *AdTech* eller spårningsbranschen dela din information med [datamäklare](https://en.wikipedia.org/wiki/Information_broker) (t.ex. Cambridge Analytica, Experian eller Datalogix) eller andra parter. Du kan inte automatiskt anta att dina data är säkra bara för att den tjänst du använder inte faller inom den typiska AdTech- eller spårningsaffärsmodellen. Det starkaste skyddet mot företags datainsamling är att kryptera eller dölja dina data när det är möjligt, vilket gör det svårt för olika leverantörer att korrelera data med varandra och bygga en profil på dig.
 
-## Limiting Public Information
+## Begränsning av offentlig information
 
-<span class="pg-green">:material-account-search: Public Exposure</span>
+<span class="pg-green">:material-account-search: Offentlig exponering</span>
 
-The best way to keep your data private is simply not making it public in the first place. Deleting unwanted information you find about yourself online is one of the best first steps you can take to regain your privacy.
+Det bästa sättet att hålla dina uppgifter hemliga är att helt enkelt inte offentliggöra dem från början. Att ta bort oönskad information du hittar om dig själv online är ett av de bästa första stegen du kan ta för att återfå din integritet.
 
-- [View our guide on account deletion :material-arrow-right-drop-circle:](account-deletion.md)
+- [Se vår guide om radering av konto :material-arrow-right-drop-circle:](account-deletion.md)
 
-On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, enable "private mode" on your accounts if given the option: This ensures that your account isn't being indexed by search engines, and that it can't be viewed without your permission.
+På webbplatser där du delar med dig av information är det mycket viktigt att du kontrollerar sekretessinställningarna för ditt konto för att begränsa hur mycket informationen sprids. Aktivera till exempel "privat läge" på dina konton om du får alternativet: Detta säkerställer att ditt konto inte indexeras av sökmotorer och att det inte kan visas utan ditt tillstånd.
 
-If you've already submitted your real information to sites which shouldn't have it, consider using disinformation tactics, like submitting fictitious information related to that online identity. This makes your real information indistinguishable from the false information.
+Om du redan har skickat in din riktiga information till webbplatser som inte borde ha den, kan du överväga att använda en taktik för desinformation, som att skicka in fiktiv information om din identitet på nätet. Detta gör att din riktiga information inte kan särskiljas från den falska informationen.
 
-## Avoiding Censorship
+## Undvik censur
 
-<span class="pg-blue-gray">:material-close-outline: Censorship</span>
+<span class="pg-blue-gray">:material-close-outline: Censur</span>
 
-Censorship online can be carried out (to varying degrees) by actors including totalitarian governments, network administrators, and service providers. These efforts to control communication and restrict access to information will always be incompatible with the human right to Freedom of Expression.[^5]
+Censur på nätet kan utföras (i varierande grad) av aktörer som totalitära regeringar, nätverksadministratörer och tjänsteleverantörer. Dessa försök att kontrollera kommunikation och begränsa tillgången till information kommer alltid att vara oförenliga med den mänskliga rätten till yttrandefrihet.[^5]
 
-Censorship on corporate platforms is increasingly common, as platforms like Twitter and Facebook give in to public demand, market pressures, and pressures from government agencies. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
+Censur på företagsplattformar blir allt vanligare, eftersom plattformar som Twitter och Facebook ger efter för allmänhetens efterfrågan, marknadstryck och påtryckningar från myndigheter. Statliga påtryckningar kan vara dolda förfrågningar till företag, till exempel när Vita huset [begär att en provocerande YouTube-video ska tas bort](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html), eller öppna förfrågningar, till exempel när den kinesiska regeringen kräver att företag ska följa en strikt censurregim.
 
-People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../real-time-communication.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
+Människor som oroar sig för hotet om censur kan använda teknik som [Tor](../advanced/tor-overview.md) för att kringgå den och stödja censurresistenta kommunikationsplattformar som [Matrix](../real-time-communication.md#element), som inte har någon centraliserad kontoinspektion som kan stänga konton godtyckligt.
 
-!!! tip
+!!! tips
 
-    While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.
+    Även om det kan vara lätt att undvika censur, kan det vara mycket problematiskt att dölja det faktum att du gör det.
     
-    You should consider which aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. For example, using [encrypted DNS](../advanced/dns-overview.md#what-is-encrypted-dns) can help you bypass rudimentary, DNS-based censorship systems, but it can't truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from network administrators, but can't hide that you're using those networks in the first place. Pluggable transports (such as Obfs4proxy, Meek, or Shadowsocks) can help you evade firewalls that block common VPN protocols or Tor, but your circumvention attempts can still be detected by methods like probing or [deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+    Du bör överväga vilka aspekter av nätverket din motståndare kan observera, och om du har trovärdigt förnekande för dina handlingar. Om du till exempel använder [encrypted DNS](../advanced/dns-overview.md#what-is-encrypted-dns) kan det hjälpa dig att kringgå rudimentära DNS-baserade censursystem, men det kan inte dölja vad du besöker för din internetleverantör. En VPN eller Tor kan hjälpa till att dölja vad du besöker för nätverksadministratörer, men kan inte dölja att du använder nätverken överhuvudtaget. Pluggable transports (t.ex. Obfs4proxy, Meek eller Shadowsocks) kan hjälpa dig att undvika brandväggar som blockerar vanliga VPN-protokoll eller Tor, men dina försök att kringgå dem kan fortfarande upptäckas med metoder som probing eller [deep packet inspection] (https://en.wikipedia.org/wiki/Deep_packet_inspection).
 
-You must always consider the risks of trying to bypass censorship, the potential consequences, and how sophisticated your adversary may be. You should be cautious with your software selection, and have a backup plan in case you are caught.
+Du måste alltid överväga riskerna med att försöka kringgå censur, de potentiella konsekvenserna och hur sofistikerad din motståndare kan vara. Du bör vara försiktig när du väljer programvara och ha en backup-plan om du skulle bli upptäckt.
 
---8<-- "includes/abbreviations.sv.txt"
-
-[^1]: Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) and [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
-[^2]: United States Privacy and Civil Liberties Oversight Board: [*Report on the Telephone Records Program Conducted under Section 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
-[^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (or, "listing all the bad things that we know about"), as many adblockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. You should also employ other mitigation techniques.
-[^5]: United Nations: [*Universal Declaration of Human Rights*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).
+[^1]: Wikipedia: [*Massövervakning*](https://en.wikipedia.org/wiki/Mass_surveillance) och [*Övervakning*](https://en.wikipedia.org/wiki/Surveillance).
+[^2]: Usa: s tillsynsnämnd för integritet och medborgerliga fri- och rättigheter: [*Rapport om telefonregistreringsprogrammet som genomförts enligt avsnitt 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
+[^3]: Wikipedia: [*Övervakningskapitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
+[^4]: "[Räkna badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (eller "lista alla de dåliga saker som vi vet om"), som många adblockers och antivirusprogram gör, misslyckas med att tillräckligt skydda dig från nya och okända hot eftersom de ännu inte har lagts till i filterlistan. Du bör också använda andra metoder för att minska risken.
+[^5]: Förenta nationerna: [*Universella förklaringen om de mänskliga rättigheterna*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).

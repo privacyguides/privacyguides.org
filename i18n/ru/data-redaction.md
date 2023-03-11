@@ -1,6 +1,7 @@
 ---
 title: "Инструменты для шифрования"
 icon: material/tag-remove
+description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
 ---
 
 Когда вы делитесь с кем-то файлами, то не забудьте удалить связанные с ними метаданные. Файлы изображений обычно содержат [данные EXIF](https://ru.wikipedia.org/wiki/Exif). Иногда фотографии даже включают ваши [GPS](https://ru.wikipedia.org/wiki/GPS) координаты в метаданные файла.
@@ -136,5 +137,3 @@ The app offers multiple ways to erase metadata from images. recommendation
 
 - Apps developed for open-source operating systems must be open-source.
 - Apps must be free and should not include ads or other limitations.
-
---8<-- "includes/abbreviations.ru.txt"

@@ -1,6 +1,7 @@
 ---
 title: "Обмен Файлами"
 icon: material/email-open
+description: These email clients are privacy-respecting and support OpenPGP email encryption.
 ---
 
 Наш список рекомендаций содержит только почтовые клиенты, которые поддерживают [OpenPGP](/encryption/#openpgp) и безопасную аутентификацию (например, [OAuth](https://ru.wikipedia.org/wiki/OAuth)). OAuth позволяет использовать [многофакторную аутентификацию](/multi-factor-authentication) и предотвратить кражу учетных записей.
@@ -226,5 +227,3 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 - Should not collect any telemetry by default.
 - Should support OpenPGP natively, i.e. without extensions.
 - Should support storing OpenPGP encrypted emails locally.
-
---8<-- "includes/abbreviations.ru.txt"

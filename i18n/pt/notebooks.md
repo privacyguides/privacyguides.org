@@ -1,6 +1,7 @@
 ---
 title: "Cadernos de notas"
 icon: material/notebook-edit-outline
+description: These encrypted note-taking apps let you keep track of your notes without giving them to a third-party.
 ---
 
 Mantenha um registo das suas notas e diários sem os entregar a terceiros.
@@ -121,5 +122,3 @@ Cryptee offers 100MB of storage for free, with paid options if you need more. Si
 
 - Local backup/sync functionality should support encryption.
 - Cloud-based platforms should support document sharing.
-
---8<-- "includes/abbreviations.pt.txt"

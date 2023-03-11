@@ -44,5 +44,3 @@ If you are working on your own branch, run these commands before submitting a PR
 git fetch origin
 git rebase origin/main
 ```
-
---8<-- "includes/abbreviations.fa.txt"

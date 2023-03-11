@@ -1,9 +1,10 @@
 ---
 title: "Aggregatori di notizie"
 icon: octicons/rss-24
+description: These news aggregator clients let you keep up with your favorite blogs and news sites using internet standards like RSS.
 ---
 
-Un [aggreggatore di notizie](https://it.wikipedia.org/wiki/Aggregatore) è un modo per tenerti aggiornato con i tuoi blog e siti di notizie favoriti.
+A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to keep up with your favorite blogs and news sites.
 
 ## Client aggregatori
 
@@ -178,5 +179,3 @@ You can subscribe YouTube channels without logging in and associating usage info
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
     ```
-
---8<-- "includes/abbreviations.it.txt"

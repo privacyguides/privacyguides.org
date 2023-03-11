@@ -1,10 +1,10 @@
 ---
-title: Uploading Images
+title: Enviando Imagens
 ---
 
 Here are a couple of general rules for contributing to Privacy Guides:
 
-## Images
+## Imagens
 
 - We **prefer** SVG images, but if those do not exist we can use PNG images
 
@@ -13,7 +13,7 @@ Company logos have canvas size of:
 - 128x128px
 - 384x128px
 
-## Optimization
+## Otimização
 
 ### PNG
 
@@ -31,7 +31,7 @@ optipng -o7 file.png
 
 In Inkscape:
 
-1. File Save As..
+1. Salvar Arquivo Como..
 2. Set type to Optimized SVG (*.svg)
 
 In the **Options** tab:
@@ -87,5 +87,3 @@ scour --set-precision=5 \
       --protect-ids-noninkscape \
       input.svg output.svg
 ```
-
---8<-- "includes/abbreviations.pt-BR.txt"

@@ -1,6 +1,7 @@
 ---
 title: "Search Engines"
 icon: material/search-web
+description: These privacy-respecting search engines don't build an advertising profile based on your searches.
 ---
 
 Use a search engine that doesn't build an advertising profile based on your searches.
@@ -105,5 +106,3 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - Should be based on open-source software.
 - Should not block Tor exit node IP addresses.
-
---8<-- "includes/abbreviations.id.txt"

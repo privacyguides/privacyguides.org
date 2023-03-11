@@ -1,6 +1,7 @@
 ---
 title: 電子郵件安全
 icon: material/email
+description: Email is inherently insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
 ---
 
 電子郵件本身即非安全的通訊形式。 您可以使用 OpenPGP 等工具提高電子郵件安全性，這些工具為您的消息添加端到端加密，但與其他消息傳遞應用程序中的加密相比， OpenPGP 仍然存在許多缺點，而且由於電子郵件的設計方式，某些電子郵件數據永遠不會加密。
@@ -38,5 +39,3 @@ A smartcard (such as a [Yubikey](https://support.yubico.com/hc/en-us/articles/36
 ### Why Can't Metadata be E2EE?
 
 電子郵件元數據對於電子郵件最基本的功能（它來自何處，以及它必須去向何處）至關重要。 E2EE 最初並未內建於電子郵件協議中，而是需要像 OpenPGP 這樣的附加軟件。 由於 OpenPGP 訊息仍必須與傳統的電子郵件供應商合作，因此它無法加密電子郵件元數據，只能加密訊息正文本身。 這意味著即使在使用 OpenPGP 時，外部觀察者也可以看到關於您的消息的大量信息，例如您正在發送電子郵件的人，主題行，當您發送電子郵件時等。
-
---8<-- "includes/abbreviations.zh-Hant.txt"

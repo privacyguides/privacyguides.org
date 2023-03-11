@@ -11,7 +11,7 @@ hide:
 
 ##### "Ik heb niets te verbergen. Waarom zou ik me zorgen maken over mijn privacy?"
 
-Net zoals het recht op interraciale huwelijken, het kiesrecht voor vrouwen, de vrijheid van meningsuiting en vele andere, hadden wij niet altijd recht op privacy. In verschillende dictaturen hebben velen dat nog steeds niet. Generaties voor ons vochten voor ons recht op privacy. ==Privacy is een mensenrecht, inherent aan ons allen,== waar we recht op hebben (zonder discriminatie).
+Net zoals het recht op interraciale huwelijken, het kiesrecht voor vrouwen, de vrijheid van meningsuiting en vele andere, hadden wij niet altijd recht op privacy. In verschillende dictaturen is dat nog steeds niet het geval. Generaties voor ons vochten voor ons recht op privacy. ==Privacy is een mensenrecht, inherent aan ons allen,== waar we recht op hebben (zonder discriminatie).
 
 Je moet privacy niet verwarren met geheimzinnigheid. We weten wat er in de badkamer gebeurt, maar je doet nog steeds de deur dicht. Dat is omdat je privacy wilt, geen geheimzinnigheid. **Iedereen** heeft iets te beschermen. Privacy is iets wat ons menselijk maakt.
 
@@ -40,5 +40,3 @@ Het is onpraktisch, duur en vermoeiend om te proberen al jouw gegevens altijd te
 [:material-hand-coin-outline:](about/donate.md){ title="Steun het project" }
 
 Het is belangrijk voor een website zoals Privacy Guides om altijd up-to-date te blijven. Ons publiek moet software-updates in de gaten houden voor de toepassingen die op onze site staan en recent nieuws volgen over aanbieders die wij aanbevelen. Het is moeilijk om het hoge tempo van het internet bij te houden, maar we doen ons best. Als je een fout ziet, denkt dat een provider niet in de lijst thuishoort, merkt dat een gekwalificeerde provider ontbreekt, denkt dat een browserplugin niet langer de beste keuze is, of een ander probleem ontdekt, laat het ons dan weten.
-
---8<-- "includes/abbreviations.nl.txt"

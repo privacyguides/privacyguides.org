@@ -1,13 +1,12 @@
 ---
 title: "Resolver DNS"
 icon: material/dns
+description: These are some encrypted DNS providers we recommend switching to, to replace your ISP's default configuration.
 ---
 
-!!! faq "Quando utilizzare il DNS crittografato?"
+Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Il DNS crittografato non aiuta a nascondere la tua attività di navigazione.
 
-    I DNS crittografati con server di terze parti dovrebbero essere utilizzati solo per aggirare forme di [blocco del DNS](https://en.wikipedia.org/wiki/DNS_blocking) basilari, quando sei sicuro che ciò non causi alcuna conseguenza. Il DNS crittografato non aiuta a nascondere la tua attività di navigazione.
-    
-    [Per saperne di più sul DNS](basics/dns-overview.md){ .md-button }
+[Learn more about DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
 ## Provider consigliati
 
@@ -131,8 +130,6 @@ Una soluzione DNS self-hosted è utile per fornire il filtraggio su piattaforme 
     [:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribuisci }
-
---8<-- "includes/abbreviations.it.txt"
 
 [^1]: AdGuard memorizza le statistiche aggregate delle prestazioni dei propri server DNS, ovvero il numero di richieste dirette a un particolare server, il numero di richieste bloccate e la velocità di elaborazione di esse. Inoltre, conservano e memorizzano i domini richiesti nelle ultime 24 ore. "Abbiamo bisogno di queste informazioni per identificare e bloccare nuovi tracker e minacce" "Registriamo anche quante volte un tracker viene bloccato. Abbiamo bisogno di queste informazioni per rimuovere le regole obsolete dai nostri filtri" [https://adguard.com/it/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
 [^2]: Cloudflare raccoglie e memorizza solo dati limitati delle stringhe DNS che vengono inviate al resolver 1.1.1.1. Il resolver 1.1.1.1 non registra dati personali, e la maggior parte dei dati di identificazione personali limitati nelle stringhe DNS viene archiviata per solo 25 ore. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)

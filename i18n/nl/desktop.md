@@ -1,6 +1,7 @@
 ---
 title: "Desktop/PC"
 icon: simple/linux
+description: Linux-distributies worden algemeen aanbevolen voor privacybescherming en softwarevrijheid.
 ---
 
 Linux-distributies worden algemeen aanbevolen voor privacybescherming en softwarevrijheid. Als je nog geen Linux gebruikt, zijn hieronder enkele distributies die we aanraden om uit te proberen, evenals enkele algemene tips om je privacy en veiligheid te verbeteren die op veel Linux-distributies van toepassing zijn.
@@ -178,5 +179,3 @@ Onze aanbevolen besturingssystemen:
 - Moet tijdens de installatie volledige schijfversleuteling ondersteunen.
 - Mag regelmatige releases niet langer dan 1 jaar bevriezen. Wij [raden](os/linux-overview.md#release-cycle) "Long Term Support" of "stabiele" distro-uitgaven niet aan voor desktopgebruik.
 - Moet een grote verscheidenheid aan hardware ondersteunen.
-
---8<-- "includes/abbreviations.nl.txt"

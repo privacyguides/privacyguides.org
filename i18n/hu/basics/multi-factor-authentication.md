@@ -1,6 +1,7 @@
 ---
 title: "Multi-Factor Authentication - Többlépcsős Hitelesítés"
 icon: 'material/two-factor-authentication'
+description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
 ---
 
 **Multi-Factor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. The most common method is time limited codes you might receive from SMS or an app.
@@ -162,5 +163,3 @@ SSH MFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How
 ### KeePass (and KeePassXC)
 
 KeePass and KeePassXC databases can be secured using Challenge-Response or HOTP as a second-factor authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
-
---8<-- "includes/abbreviations.hu.txt"

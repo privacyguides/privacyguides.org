@@ -1,6 +1,7 @@
 ---
 title: "Sincronizzazione di calendario e contatti"
 icon: material/calendar
+description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
 ---
 
 Calendars contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
@@ -76,5 +77,3 @@ Calendars contain some of your most sensitive data; use products that implement 
 KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). Ciò può comportare la perdita di dati se si importa questo file in un altro gestore di password.
 
 - Should integrate with native OS calendar and contact management apps if applicable.
-
---8<-- "includes/abbreviations.it.txt"

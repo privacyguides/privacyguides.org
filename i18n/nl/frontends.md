@@ -1,6 +1,7 @@
 ---
 title: "Frontends"
 icon: material/flip-to-front
+description: Deze open-source frontends voor verschillende internetdiensten geven je toegang tot inhoud zonder JavaScript of andere ergernissen.
 ---
 
 Soms proberen diensten je te dwingen zich aan te melden voor een account door de toegang tot inhoud te blokkeren met vervelende popups. Ze kunnen ook breken zonder JavaScript. Met deze frontends kunt je deze beperkingen omzeilen.
@@ -264,5 +265,3 @@ Aanbevolen frontends...
 We overwegen alleen frontends voor websites die...
 
 - Niet normaal toegankelijk zonder JavaScript.
-
---8<-- "includes/abbreviations.nl.txt"

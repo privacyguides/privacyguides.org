@@ -1,6 +1,7 @@
 ---
 title: "Mobile Browsers"
 icon: material/cellphone-information
+description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
 ---
 
 These are our currently recommended mobile web browsers and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. In general, we recommend keeping extensions to a minimum; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
@@ -189,5 +190,3 @@ Additional filter lists do slow things down and may increase your attack surface
 
 - Must not replicate built-in browser or OS functionality.
 - Must directly impact user privacy, i.e. must not simply provide information.
-
---8<-- "includes/abbreviations.id.txt"

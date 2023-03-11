@@ -41,5 +41,3 @@ L'utente non deve condurre alcuna attività di raccolta dati sistematica o autom
 * Scraping
 * Data Mining
 * 'Framing' (IFrames)
-
---8<-- "includes/abbreviations.it.txt"

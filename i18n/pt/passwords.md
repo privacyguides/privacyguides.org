@@ -1,6 +1,7 @@
 ---
 title: "Redes Auto-Contidas"
 icon: material/form-textbox-password
+description: Password managers allow you to securely store and manage passwords and other credentials.
 ---
 
 Fique seguro e protegido on-line com um gerenciador de senhas criptografado e de código aberto.
@@ -251,5 +252,3 @@ These products are minimal password managers that can be used within scripting a
     **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
 
 - Must be cross-platform.
-
---8<-- "includes/abbreviations.pt.txt"

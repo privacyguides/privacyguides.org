@@ -1,6 +1,7 @@
 ---
 title: "Firmware Bộ định tuyến"
 icon: material/router-wireless
+description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
 ---
 
 Dưới đây là một số hệ điều hành thay thế, có thể được sử dụng trên bộ định tuyến, điểm truy cập Wi-Fi, v.v.
@@ -50,5 +51,3 @@ OPNsense was originally developed as a fork of [pfSense](https://en.wikipedia.or
 - Must be open source.
 - Must receive regular updates.
 - Must support a wide variety of hardware.
-
---8<-- "includes/abbreviations.vi.txt"

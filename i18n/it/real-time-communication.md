@@ -1,6 +1,7 @@
 ---
 title: "Comunicazione in tempo reale"
 icon: material/chat-processing
+description: Other instant messengers make all of your private conversations available to the company that runs them.
 ---
 
 Questi sono i nostri consigli per comunicazioni criptate in tempo reale.
@@ -200,5 +201,3 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
 - Should be decentralized, i.e. federated or P2P.
 - Should use E2EE for all messages by default.
 - Should support Linux, macOS, Windows, Android, and iOS.
-
---8<-- "includes/abbreviations.it.txt"

@@ -1,6 +1,7 @@
 ---
 title: "Clients applicatifs"
 icon: material/flip-to-front
+description: Ces clients applicatifs open source pour divers services internet vous permettent d'accéder au contenu sans JavaScript ou d'autres inconvénients.
 ---
 
 Parfois, des services tentent de vous obliger à créer un compte en bloquant l'accès au contenu par des fenêtres pop-up gênantes. Ils peuvent également ne pas fonctionner sans JavaScript activé. Ces interfaces client peuvent vous permettre de contourner ces restrictions.
@@ -264,5 +265,3 @@ Clients recommandés...
 Nous ne prenons en compte que les clients des sites web qui sont...
 
 - Normalement non accessible sans JavaScript.
-
---8<-- "includes/abbreviations.fr.txt"

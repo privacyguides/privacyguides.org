@@ -1,6 +1,7 @@
 ---
 title: "帳號創建"
 icon: 'material/account-plus'
+description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
 人們經常不假思索地註冊網路服務。 也許這是一個流媒體服務，所以你可以觀看每個人都在談論的新節目，或者是一個為你最喜歡的快餐店提供折扣的帳戶。 無論在什麼樣的場景，您都應該考慮現在和以後對數據的影響。
@@ -78,5 +79,3 @@ SSO在您可以從服務之間更深入的整合中受益的情況下尤其有�
 ### 使用者名稱與密碼
 
 某些服務允許您在不使用電子郵件地址的情況下註冊，並且只需要您設置用戶名稱和密碼。 當與 VPN 或 Tor 結合時，這些服務可能會提供更高的匿名性。 請記住，對於這類型的帳號，如果你忘記了你的用戶名或密碼，很可能會有**沒有辦法恢復你的帳號**。
-
---8<-- "includes/abbreviations.zh-Hant.txt"

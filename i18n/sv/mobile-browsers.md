@@ -1,13 +1,14 @@
 ---
-title: "Mobile Browsers"
+title: "Mobila webbläsare"
 icon: material/cellphone-information
+description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
 ---
 
-These are our currently recommended mobile web browsers and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. In general, we recommend keeping extensions to a minimum; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
+Detta är våra för närvarande rekommenderade mobila webbläsare och konfigurationer för standardiserad/icke-anonym surfning på internet. Om du vill surfa anonymt på internet bör du använda [Tor](tor.md) i stället. I allmänhet rekommenderar vi att du håller ett minimum av tillägg; de har privilegierad åtkomst i din webbläsare, kräver att du litar på utvecklaren, kan få dig [att sticka ut](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)och [försvagar](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) webbplatsens isolering.
 
 ## Android
 
-On Android, Firefox is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview/), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
+På Android är Firefox fortfarande mindre säkert än Chromium-baserade alternativ: Mozillas motor, [GeckoView](https://mozilla.github.io/geckoview/), har ännu inte stöd för [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) eller aktiverar [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
 
 ### Brave
 
@@ -15,137 +16,136 @@ On Android, Firefox is still less secure than Chromium-based alternatives: Mozil
 
     ![Brave logo](assets/img/browsers/brave.svg){ align=right }
     
-    **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features/), many of which are enabled by default.
+    **Brave Browser** innehåller en inbyggd innehållsblockerare och [integritetsfunktioner] (https://brave.com/privacy-features/), varav många är aktiverade som standard.
     
-    Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+    Brave bygger på webbläsarprojektet Chromium, så den bör kännas bekant och ha minimala problem med webbkompatibilitet.
     
-    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+    [:octicons-home-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
     
-    ??? downloads annotate
+    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://lbry.com/faq/){ .card-link title=Dokumentation}
+    [:octicons-code-16:](https://github.com/lbryio/lbry-desktop){ .card-link title="Källkod" }
+    [](/){ .card-link title=Contribute??? nedladdningar
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
-        - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+        - [:simple-github: App Store](https://github.com/brave/brave-browser/releases)
 
-#### Recommended Configuration
+#### Rekommenderad konfiguration
 
-Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
+Tor Browser är det enda sättet att verkligen surfa anonymt på internet. När du använder Brave rekommenderar vi att du ändrar följande inställningar för att skydda din integritet från vissa parter, men alla andra webbläsare än [Tor Browser](tor.md#tor-browser) kommer att kunna spåras av *någon* i något avseende.
 
-These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**
+Dessa alternativ finns i :material-menu: → **Inställningar** → **Modiga sköldar & sekretess**
 
-##### Shields
+##### Sköldar
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
+Brave har några åtgärder mot fingeravtryck i sin funktion [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-). Vi föreslår att du konfigurerar dessa alternativ [globalt](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) på alla sidor som du besöker.
 
-##### Brave shields global defaults
+##### Brave skyddar globala standardvärden
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+Shields alternativ kan nedgraderas vid behov för varje enskild plats, men som standard rekommenderar vi att du ställer in följande:
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under Block trackers & ads
+- [x] Välj **Aggressiv** under Blockera spårare och annonser
 
-    ??? warning "Use default filter lists"
-        Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+??? varning "Use default filter lists"
+        Brave låter dig välja ytterligare innehållsfilter på den interna sidan `brave://adblock`. Vi avråder från att använda den här funktionen; behåll istället standardfilterlistorna. Om du använder extra listor sticker du ut från andra Brave-användare och kan också öka angreppsytan om det finns en exploit i Brave och en skadlig regel läggs till i en av de listor du använder.
 
-- [x] Select **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under **Block fingerprinting**
+- [x] Välj **Uppgradera anslutningar till HTTPS**
+- [x] (valfritt) Välj **Blocka skript** (1)
+- [x] Välj **Strikt, kan skada webbplatser** under **Blocka fingeravtryck**
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
+1. Det här alternativet ger funktioner som liknar uBlock Origin avancerade blockeringslägen för [](https://github.com/gorhill/uBlock/wiki/Blocking-mode) eller tillägget [NoScript](https://noscript.net/).
 
-##### Clear browsing data
+##### Rensa surfhistorik
 
-- [x] Select **Clear data on exit**
+- [x] Välj **Rensa uppgifter vid avslut**
 
-##### Social Media Blocking
+##### Blockering av sociala medier
 
-- [ ] Uncheck all social media components
+- [ ] Avmarkera alla komponenter för sociala medier
 
-##### Other privacy settings
+##### Andra sekretessinställningar
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (1)
-- [x] Select **Close tabs on exit**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [x] Välj **Disable non-proxied UDP** under [WebRTC IP Handling Policy] (https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Avmarkera **Allow sites to check if you have payment methods saved**
+- [ ] Avmarkera **IPFS Gateway** (1)
+- [ ] [x] Välj **Slut flikar vid avslut**
+- [ ] Avmarkera **Allow privacy-preserving product analytics (P3A)**
+- [ ] Avmarkera **Automatiskt skicka diagnostiska rapporter**
+- [ ] Avmarkera **Automatiskt skicka daglig användningsping till Brave**
 
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+1. InterPlanetary File System (IPFS) är ett decentraliserat peer-to-peer-nätverk för lagring och delning av data i ett distribuerat filsystem. Om du inte använder funktionen, inaktivera den.
 
 </div>
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) gör det möjligt att få tillgång till dina webbläsardata (historik, bokmärken osv.) på alla dina enheter utan att du behöver ett konto och skyddar dem med E2EE.
 
 ## iOS
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so there is little reason to use a third-party web browser.
+I iOS är alla appar som kan surfa på webben [](https://developer.apple.com/app-store/review/guidelines) begränsade till att använda Apples WebKit-ramverk [WebKit](https://developer.apple.com/documentation/webkit), så det finns få skäl att använda en tredjepartswebbläsare.
 
 ### Safari
 
 !!! recommendation
 
-    ![Safari logo](assets/img/browsers/safari.svg){ align=right }
+    ![Safari-logotyp](assets/img/browsers/safari.svg){ align=right }
     
-    **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as Intelligent Tracking Protection, Privacy Report, isolated Private Browsing tabs, iCloud Private Relay, and automatic HTTPS upgrades.
+    **Safari** är standardwebbläsaren i iOS. Den innehåller [integritetsfunktioner] (https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) som intelligent spårningsskydd, integritetsrapport, isolerade flikar för privat surfning, iCloud Private Relay och automatiska HTTPS-uppgraderingar.
     
-    [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
+    [:octicons-home-16: Repository](https://github.com/Hackeralert/Picocrypt){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/Hackeralert/Picocrypt){ .card-link title="Source Code" }
+    [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Contribute}
 
-#### Recommended Configuration
+#### Rekommenderad konfiguration
 
-These options can be found in :gear: **Settings** → **Safari** → **Privacy and Security**.
+Dessa alternativ finns i :gear: **Inställningar** → **Safari** → **Sekretess och säkerhet**.
 
-##### Cross-Site Tracking Prevention
+##### Förebyggande av spårning på olika webbplatser
 
-- [x] Enable **Prevent Cross-Site Tracking**
+- [x] Aktivera **Förhindra spårning på andra webbplatser**
 
-This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but it does not block all tracking avenues because it is designed to not interfere with website usability.
+Detta aktiverar WebKits [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). Funktionen hjälper till att skydda mot oönskad spårning genom att använda maskininlärning på enheten för att stoppa spårare. ITP skyddar mot många vanliga hot, men blockerar inte alla spårningsvägar eftersom den är utformad för att inte störa användbarheten av webbplatser.
 
-##### Privacy Report
+##### Integritetsrapport
 
-Privacy Report provides a snapshot of cross-site trackers currently prevented from profiling you on the website you're visiting. It can also display a weekly report to show which trackers have been blocked over time.
+Privacy Report ger en ögonblicksbild av de spårare som för närvarande förhindras från att profilera dig på den webbplats du besöker. Den kan också visa en veckorapport som visar vilka spårare som har blockerats över tid.
 
-Privacy Report is accessible via the Page Settings menu.
+Rapporten om sekretess är tillgänglig via menyn Sidinställningar.
 
-##### Privacy Preserving Ad Measurement
+##### Sekretessbevarande annonsmätning
 
-- [ ] Disable **Privacy Preserving Ad Measurement**
+- [ ] Inaktivera **Integritetsbevarande annonsmätning**
 
-Ad click measurement has traditionally used tracking technology that infringes on user privacy. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
+Vid mätning av annonsklick har man traditionellt använt spårningsteknik som inkräktar på användarnas integritet. [Privat klickmätning](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) är en WebKit-funktion och föreslagen webbstandard som syftar till att göra det möjligt för annonsörer att mäta effektiviteten hos webbkampanjer utan att kompromissa med användarnas integritet.
 
-The feature has little privacy concerns on its own, so while you can choose to leave it on, we consider the fact that it's automatically disabled in Private Browsing to be an indicator for disabling the feature.
+Funktionen har i sig själv inga större problem med integriteten, så även om du kan välja att låta den vara aktiverad anser vi att det faktum att den automatiskt inaktiveras i privat surfning är en indikator för att inaktivera funktionen.
 
-##### Always-on Private Browsing
+##### Alltid privat surfning
 
-Open Safari and tap the Tabs button, located in the bottom right. Then, expand the Tab Groups list.
+Öppna Safari och tryck på knappen Flikar längst ner till höger. Expandera sedan listan Flikgrupper.
 
-- [x] Select **Private**
+- [x] Välj **Rensa uppgifter vid avslut**
 
-Safari's Private Browsing mode offers additional privacy protections. Private Browsing uses a new [ephemeral](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) session for each tab, meaning tabs are isolated from one another. There are also other smaller privacy benefits with Private Browsing, such as not sending a webpage’s address to Apple when using Safari's translation feature.
+Safaris läge för privat surfning ger ytterligare skydd för privatlivet. Privat surfning använder en ny [tillfällig](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) -session för varje flik, vilket innebär att flikarna är isolerade från varandra. Det finns också andra mindre sekretessfördelar med privat surfning, till exempel att inte skicka en webbsidas adress till Apple när du använder Safaris översättningsfunktion.
 
-Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed into sites. This may be an inconvenience.
+Observera att privat surfning inte sparar cookies och webbplatsdata, så det är inte möjligt att vara inloggad på webbplatser. Detta kan vara en olägenhet.
 
-##### iCloud Sync
+##### iCloud-synkronisering
 
-Synchronization of Safari History, Tab Groups, iCloud Tabs and saved passwords are E2EE. However, by default, bookmarks are [not](https://support.apple.com/en-us/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://www.apple.com/legal/privacy/en-ww/).
+Synkronisering av Safari-historik, flikgrupper, iCloud-flikar och sparade lösenord är E2EE. Som standard är bokmärken dock [och inte](https://support.apple.com/en-us/HT202303). Apple kan dekryptera och komma åt dem i enlighet med sin sekretesspolicy för [](https://www.apple.com/legal/privacy/en-ww/).
 
-You can enable E2EE for you Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/en-us/HT212520). Go to your **Apple ID name → iCloud → Advanced Data Protection**.
+Du kan aktivera E2EE för dig Safari-bokmärken och nedladdningar genom att aktivera [Avancerat dataskydd](https://support.apple.com/en-us/HT212520). Gå till ditt **Apple-ID-namn → iCloud → Avancerat dataskydd**.
 
-- [x] Turn On **Advanced Data Protection**
+- [x] Aktivera **Avancerat dataskydd**
 
-If you use iCloud with Advanced Data Protection disabled, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in :gear: **Settings** → **Safari** → **General** → **Downloads**.
+Om du använder iCloud med avancerat dataskydd inaktiverat rekommenderar vi också att du kontrollerar att Safaris standardhämtningsplats är inställd på lokalt på din enhet. Detta alternativ finns i :gear: **Inställningar** → **Safari** → **Allmänt** → **Nedladdningar**.
 
 ### AdGuard
 
@@ -153,41 +153,39 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend chec
 
     ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
     
-    **AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+    **AdGuard för iOS** är ett gratis tillägg för innehållsspärrning för Safari med öppen källkod som använder det inhemska [Content Blocker API] (https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
     
-    AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
+    AdGuard för iOS har vissa premiumfunktioner, men standardblockeringen av innehåll i Safari är gratis.
     
-    [:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+    [:octicons-home-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
     
-    ??? downloads
+    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://kb.adguard.com/ios/){ .card-link title=Dokumentation}
+    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Källkod" }
+    [](/){ .card-link title=Contribute??? nedladdningar
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 
-Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.
+Ytterligare filterlistor saktar ner saker och kan öka din attackyta, så använd bara det du behöver.
 
-## Criteria
+## Kriterier
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.
 
-!!! example "This section is new"
+!!! exempel "Det här avsnittet är nytt"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
 
-### Minimum Requirements
+### Minimikrav
 
-- Must support automatic updates.
-- Must receive engine updates in 0-1 days from upstream release.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
-- Android browsers must use the Chromium engine.
-    - Unfortunately, Mozilla GeckoView is still less secure than Chromium on Android.
-    - iOS browsers are limited to WebKit.
+- Måste ha stöd för automatiska uppdateringar.
+- Måste få motoruppdateringar inom 0-1 dagar från uppströmsutgåvan.
+- Eventuella ändringar som krävs för att göra webbläsaren mer integritetsvänlig bör inte påverka användarupplevelsen negativt.
+- Android webbläsare måste använda Chromium-motorn.
+    - Tyvärr är Mozilla GeckoView fortfarande mindre säkert än Chromium på Android.
+    - iOS-browsers är begränsade till WebKit.
 
-### Extension Criteria
+### Kriterier för förlängning
 
-- Must not replicate built-in browser or OS functionality.
-- Must directly impact user privacy, i.e. must not simply provide information.
-
---8<-- "includes/abbreviations.sv.txt"
+- Får inte replikera inbyggda webbläsar- eller OS-funktioner.
+- Måste direkt påverka användarens integritet, det vill säga får inte bara ge information.

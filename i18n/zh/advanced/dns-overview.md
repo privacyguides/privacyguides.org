@@ -1,6 +1,7 @@
 ---
 title: "DNS简介"
 icon: material/dns
+description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
 ---
 
 [域名系统](https://en.wikipedia.org/wiki/Domain_Name_System) 是“互联网电话簿”。 DNS将域名转换为IP地址，以便浏览器和其他服务可以通过分散的服务器网络加载互联网资源。
@@ -351,5 +352,3 @@ QNAME是一个 "限定名称"，例如 `privacyguides.org`。 QNAME最小化减�
 它的目的是 "加快 "数据的交付，给客户一个属于离他们很近的服务器的答案，如 [内容交付网络](https://en.wikipedia.org/wiki/Content_delivery_network)，这通常用于视频流和服务JavaScript网络应用。
 
 这项功能确实是以隐私为代价的，因为它告诉DNS服务器一些关于客户端位置的信息。
-
---8<-- "includes/abbreviations.zh.txt"

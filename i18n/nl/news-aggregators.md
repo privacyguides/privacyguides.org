@@ -1,6 +1,7 @@
 ---
 title: "Nieuws Aggregators"
 icon: material/rss
+description: Met deze news aggregator clients kunt je op de hoogte blijven van jouw favoriete blogs en nieuwssites via internetstandaarden zoals RSS.
 ---
 
 Een [nieuwsaggregator](https://en.wikipedia.org/wiki/News_aggregator) is een manier om op de hoogte te blijven van jouw favoriete blogs en nieuwssites.
@@ -169,5 +170,3 @@ Je kunt zich abonneren op YouTube-kanalen zonder in te loggen en gebruiksinforma
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
     ```
-
---8<-- "includes/abbreviations.nl.txt"

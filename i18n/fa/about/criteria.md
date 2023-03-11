@@ -38,5 +38,3 @@ We have these requirements in regard to developers which wish to submit their pr
 
 - Must state what the exact threat model is with their project.
     - It should be clear to potential users what the project can provide, and what it cannot.
-
---8<-- "includes/abbreviations.fa.txt"

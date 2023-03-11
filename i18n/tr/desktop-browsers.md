@@ -1,6 +1,7 @@
 ---
 title: "Masaüstü Tarayıcıları"
 icon: material/laptop
+description: Firefox and Brave are our recommendations for standard/non-anonymous browsing.
 ---
 
 Bunlar, standart/anonim olmayan gezinti için şu anda önerilen masaüstü web tarayıcılarımız ve yapılandırmalarımızdır. İnternette anonim olarak gezinmeniz gerekiyorsa, bunun yerine [Tor](tor.md) kullanmalısınız. Genel olarak, tarayıcı uzantılarınızı en az miktarda tutmanızı öneririz; tarayıcınızda ayrıcalıklı erişime sahiptirler, geliştiriciye güvenmenizi gerektirirler, sizi [](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)öne çıkarabilir ve [](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site izolasyonunu zayıflatabilirler.
@@ -257,7 +258,5 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - Must not replicate built-in browser or OS functionality.
 - Must directly impact user privacy, i.e. must not simply provide information.
-
---8<-- "includes/abbreviations.tr.txt"
 
 [^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).

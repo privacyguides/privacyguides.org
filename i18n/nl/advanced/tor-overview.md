@@ -1,6 +1,7 @@
 ---
 title: "Tor Overzicht"
 icon: 'simple/torproject'
+description: Tor is een gratis te gebruiken, gedecentraliseerd netwerk dat is ontworpen om het internet met zoveel mogelijk privacy te gebruiken.
 ---
 
 Tor is een gratis te gebruiken, gedecentraliseerd netwerk dat is ontworpen om het internet met zoveel mogelijk privacy te gebruiken. Bij correct gebruik maakt het netwerk privé en anoniem browsen en communicatie mogelijk.
@@ -73,8 +74,6 @@ Als je Tor wilt gebruiken om op het web te surfen, raden we alleen de **officië
 - [Tor Browser Gebruikershandleiding](https://tb-manual.torproject.org)
 - [How Tor Works - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
 - [Tor Onion Services - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
-
---8<-- "includes/abbreviations.nl.txt"
 
 [^1]: De entry node in jouw circuit wordt een "bewaker" of "Guard" genoemd. Het is een snel en stabiel node dat gedurende 2-3 maanden de eerste blijft in jouw circuit, ter bescherming tegen een bekende anonimiteitsdoorbrekende aanval. De rest van je circuit verandert bij elke nieuwe website die je bezoekt, en alles bij elkaar bieden deze relays de volledige privacybescherming van Tor. Voor meer informatie over de werking van guard nodes, zie deze [blogpost](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) en [paper](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) over inloopbeveiliging. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
 

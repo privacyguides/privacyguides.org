@@ -1,6 +1,7 @@
 ---
 title: "Réseau Tor"
 icon: simple/torproject
+description: Protégez votre navigation sur internet des regards indiscrets en utilisant le réseau Tor, un réseau sécurisé qui contourne la censure.
 ---
 
 ![Logo Tor](assets/img/self-contained-networks/tor.svg){ align=right }
@@ -15,13 +16,7 @@ Le réseau **Tor** est un groupe de serveurs gérés par des bénévoles qui vou
 
 Tor fonctionne en acheminant votre trafic Internet via ces serveurs gérés par des volontaires, au lieu d'établir une connexion directe avec le site que vous essayez de visiter. Cela permet de masquer la provenance du trafic, et aucun serveur sur le chemin de la connexion n'est en mesure de voir le chemin complet de la provenance et de la destination du trafic, ce qui signifie que même les serveurs que vous utilisez pour vous connecter ne peuvent pas briser votre anonymat.
 
-<figure markdown>
-  ![Chemin de Tor](assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Chemin de Tor](assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Chemin du circuit de Tor - Les nœuds du chemin ne peuvent voir que les serveurs auxquels ils sont directement connectés, par exemple le nœud "d'Entrée" indiqué peut voir votre adresse IP, et l'adresse du nœud "Central", mais n'a aucun moyen de voir quel site Web vous visitez.</figcaption>
-</figure>
-
-- [Plus d'informations sur le fonctionnement de Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md)
+[Introduction détaillée de Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
 
 ## Se connecter à Tor
 
@@ -120,5 +115,3 @@ Pour résister aux attaques par analyse de trafic, pensez à activer l'option *I
 Snowflake n'améliore en rien votre vie privée et n'est pas utilisé pour se connecter au réseau Tor dans votre navigateur personnel. Toutefois, si votre connexion Internet n'est pas censurée, vous devriez envisager de l'utiliser pour aider les personnes se trouvant sur des réseaux censurés à améliorer elles-mêmes leur vie privée. Il n'y a pas besoin de s'inquiéter des sites web auxquels les gens accèdent via votre proxy - leur adresse IP de navigation visible correspondra à leur nœud de sortie Tor, pas à la vôtre.
 
 Faire fonctionner un proxy Snowflake est peu risqué, encore moins que de faire fonctionner un relais ou un pont Tor qui ne sont déjà pas des entreprises particulièrement risquées. Toutefois, il achemine le trafic par le biais de votre réseau, ce qui peut avoir un impact à certains égards, surtout si votre réseau a une bande passante limitée. Assurez-vous de comprendre [le fonctionnement de Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) avant de décider de faire tourner un proxy.
-
---8<-- "includes/abbreviations.fr.txt"

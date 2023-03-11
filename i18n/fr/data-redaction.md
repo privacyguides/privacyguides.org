@@ -1,6 +1,7 @@
 ---
 title: "Rédaction de données et de métadonnées"
 icon: material/tag-remove
+description: Utilisez ces outils pour supprimer les métadonnées telles que la position GPS et d'autres informations d'identification des photos et des fichiers que vous partagez.
 ---
 
 Lorsque vous partagez des fichiers, veillez à supprimer les métadonnées associées. Les fichiers d'image comprennent généralement des données [Exif](https://en.wikipedia.org/wiki/Exif) . Les photos comportent parfois même des coordonnées GPS dans les métadonnées du fichier.
@@ -142,5 +143,3 @@ L'application offre plusieurs façons d'effacer les métadonnées des images. À
 
 - Les applications développées pour les systèmes d'exploitation open source doivent être open source.
 - Les applications doivent être gratuites et ne doivent pas comporter de publicités ou d'autres limitations.
-
---8<-- "includes/abbreviations.fr.txt"

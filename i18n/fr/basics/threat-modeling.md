@@ -1,6 +1,7 @@
 ---
 title: "Modélisation des menaces"
 icon: 'material/target-account'
+description: Trouver le bon équilibre entre la sécurité, la confidentialité et la commodité est l'une des premières et plus difficiles tâches que vous aurez à accomplir dans votre parcours pour regagner votre vie privée en ligne.
 ---
 
 Trouver le bon équilibre entre la sécurité, la confidentialité et la commodité est l'une des premières et plus difficiles tâches que vous aurez à accomplir dans votre parcours pour regagner votre vie privée en ligne. Tout est une histoire de compromis : plus quelque chose est sécurisé, plus il est limité ou peu pratique, etc. Souvent, les gens trouvent que le problème avec les outils qui leurs sont recommandés est qu'ils sont trop difficiles à utiliser !
@@ -107,5 +108,3 @@ Pour les personnes qui cherchent à améliorer leur vie privée et leur sécurit
 ## Sources
 
 - [EFF Surveillance Self Defense: votre plan de sécurité](https://ssd.eff.org/en/module/your-security-plan)
-
---8<-- "includes/abbreviations.fr.txt"

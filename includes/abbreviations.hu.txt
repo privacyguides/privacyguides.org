@@ -1,4 +1,4 @@
-*[2FA]: 2-Factor Authentication - Kétlépcsős Azonosítás
+*[2FA]: 2-Factor Authentication - Kétlépcsős Hitelesítés
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project - Android Nyílt Forráskódú Projekt
 *[ATA]: Advanced Technology Attachment

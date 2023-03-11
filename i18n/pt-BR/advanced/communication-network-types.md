@@ -1,6 +1,7 @@
 ---
 title: "Tipos de redes de comunicação"
 icon: 'material/transit-connection-variant'
+description: An overview of several network architectures commonly used by instant messaging applications.
 ---
 
 Existem várias arquiteturas de rede comumente usadas para retransmitir mensagens entre pessoas. Essas redes podem fornecer diferentes garantias de privacidade, e é por isso que vale a pena considerar seu [modelo de ameaça](../basics/threat-modeling.md) ao decidir qual aplicativo usar.
@@ -100,5 +101,3 @@ A auto-hospedagem de um nó em uma rede de roteamento anônimo não fornece ao h
 - Menos confiável se os nós são selecionados por roteamento randomizado, alguns nós podem estar muito longe do remetente e do receptor, adicionando latência ou mesmo não transmitindo mensagens se um dos nós ficar offline.
 - Mais complexo para começar, pois é necessária a criação e o backup seguro de uma chave privada criptográfica.
 - Assim como outras plataformas descentralizadas, adicionar recursos é mais complexo para os desenvolvedores do que em uma plataforma centralizada. Assim, os recursos podem estar faltando ou incompletamente implementados, como retransmissão de mensagens offline ou exclusão de mensagens.
-
---8<-- "includes/abbreviations.pt-BR.txt"

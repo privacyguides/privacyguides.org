@@ -1,6 +1,7 @@
 ---
 title: "Condivisione di file"
 icon: material/email-open
+description: These email clients are privacy-respecting and support OpenPGP email encryption.
 ---
 
 Il nostro elenco di raccomandazioni contiene client di posta elettronica che supportano sia [OpenPGP](encryption.md#openpgp) che l'autenticazione forte come [Open Authorization (OAuth)](https://it.wikipedia.org/wiki/OAuth). OAuth consente di utilizzare l'[autenticazione a più fattori](basics/multi-factor-authentication.md) e di prevenire il furto di account.
@@ -240,5 +241,3 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
 - Should not collect any telemetry by default.
 - Should support OpenPGP natively, i.e. without extensions.
 - Should support storing OpenPGP encrypted emails locally.
-
---8<-- "includes/abbreviations.it.txt"

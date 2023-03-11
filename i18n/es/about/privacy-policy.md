@@ -58,6 +58,4 @@ Puede presentar reclamaciones acerca del RGPD ante sus autoridades locales de su
 
 Publicaremos cualquier versión nueva de esta declaración [aquí](privacy-policy.md). Es posible que cambiemos la forma de anunciar los cambios en futuras versiones de este documento. Mientras tanto, podemos actualizar nuestra información de contacto en cualquier momento sin anunciar ningún cambio. Consulte la [Política de privacidad](privacy-policy.md) para obtener la última información de contacto.
 
-A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) of this page can be found on GitHub.
-
---8<-- "includes/abbreviations.es.txt"
+En GitHub puede consultarse el [historial](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) completo de revisiones de esta página.

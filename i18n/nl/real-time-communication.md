@@ -1,6 +1,7 @@
 ---
 title: "Real-Time Communicatie"
 icon: material/chat-processing
+description: Andere instant messengers maken al je privégesprekken beschikbaar voor het bedrijf dat ze beheert.
 ---
 
 Dit zijn onze aanbevelingen voor versleutelde real-time communicatie.
@@ -191,5 +192,3 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
 - Moet gedecentraliseerd zijn, d.w.z. gefedereerd of P2P.
 - Moet standaard E2EE gebruiken voor privé-berichten.
 - Moet Linux, macOS, Windows, Android en iOS ondersteunen.
-
---8<-- "includes/abbreviations.nl.txt"

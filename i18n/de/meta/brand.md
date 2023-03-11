@@ -2,7 +2,7 @@
 title: Branding Guidelines
 ---
 
-The name of the website is **Privacy Guides** and should **not** be changed to:
+Der Name der Website lautet **Privacy Guides** und sollte **nicht** geändert werden zu:
 
 <div class="pg-red" markdown>
 - PrivacyGuides
@@ -11,14 +11,12 @@ The name of the website is **Privacy Guides** and should **not** be changed to:
 - PG.org
 </div>
 
-The name of the subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
+Der Name des Subreddits lautet **r/PrivacyGuides** oder **the Privacy Guides Subreddit**.
 
-Additional branding guidelines can be found at [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
+Weitere Branding-Richtlinien können unter [github.com/privacyguides/brand](https://github.com/privacyguides/brand) gefunden werden
 
-## Trademark
+## Markenzeichen
 
-"Privacy Guides" and the shield logo are trademarks owned by Jonah Aragon, unlimited usage is granted to the Privacy Guides project.
+"Privacy Guides" und das Schild-Logo sind Markenzeichen von Jonah Aragon, die uneingeschränkte Nutzung wird dem Privacy Guides Projekt gewährt.
 
-Without waiving any of its rights, Privacy Guides does not advise others on the scope of its intellectual property rights. Privacy Guides does not permit or consent to any use of its trademarks in any manner that is likely to cause confusion by implying association with or sponsorship by Privacy Guides. If you are aware of any such use, please contact Jonah Aragon at jonah@privacyguides.org. Consult your legal counsel if you have questions.
-
---8<-- "includes/abbreviations.de.txt"
+Ohne auf seine Rechte zu verzichten, berät Privacy Guides andere nicht über den Umfang seiner geistigen Eigentumsrechte. Privacy Guides erlaubt oder genehmigt keine Verwendung seiner Markenzeichen in einer Art und Weise, die zu Verwechslungen führen kann, indem sie eine Verbindung mit oder ein Sponsoring durch Privacy Guides impliziert. Wenn Sie Kenntnis von einer solchen Nutzung haben, wenden Sie sich bitte an Jonah Aragon unter jonah@privacyguides.org. Wenden Sie sich an Ihren Rechtsbeistand, wenn Sie Fragen haben.

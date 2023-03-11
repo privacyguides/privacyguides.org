@@ -1,6 +1,7 @@
 ---
 title: "Introducción a las contraseñas"
 icon: 'material/form-textbox-password'
+description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 
 Las contraseñas son una parte esencial de nuestra vida digital cotidiana. Las utilizamos para proteger nuestras cuentas, nuestros dispositivos y nuestros secretos. A pesar de ser a menudo lo único que nos separa de un adversario que busca nuestra información privada, no se piensa mucho en ellas, lo que a menudo lleva a la gente a utilizar contraseñas que pueden ser fácilmente adivinadas o forzadas.
@@ -108,5 +109,3 @@ There are many good options to choose from, both cloud-based and local. Choose o
 ### Copias de seguridad
 
 You should store an [encrypted](../encryption.md) backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.
-
---8<-- "includes/abbreviations.es.txt"

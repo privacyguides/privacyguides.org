@@ -1,17 +1,18 @@
 ---
-title: "Privacy Tools"
+title: "Verktyg för integritet"
 icon: material/tools
 hide:
   - toc
+description: Privacy Guides is the most transparent and reliable website for finding software, apps, and services that protect your personal data from mass surveillance programs and other internet threats.
 ---
 
-If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
+Om du letar efter en specifik lösning på något är det här hård- och mjukvaruverktyg som vi rekommenderar i olika kategorier. Våra rekommenderade verktyg för integritetsskydd är i första hand valda utifrån säkerhetsfunktioner, med ytterligare betoning på decentraliserade verktyg och verktyg med öppen källkod. De kan tillämpas på en mängd olika hotmodeller, från skydd mot globala massövervakningsprogram och undvikande av stora teknikföretag till begränsning av attacker, men det är bara du som kan avgöra vad som fungerar bäst för dina behov.
 
-If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net/) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
+Om du vill ha hjälp med att hitta de bästa verktygen för sekretess och alternativa program för dina behov kan du starta en diskussion i vårt forum [](https://discuss.privacyguides.net/) eller i vår community [Matrix](https://matrix.to/#/#privacyguides:matrix.org)!
 
-For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
+Om du vill ha mer information om varje projekt, varför de valdes ut och ytterligare tips och tricks som vi rekommenderar, kan du klicka på länken "Läs mer" i varje avsnitt eller klicka på själva rekommendationen för att komma till det specifika avsnittet på sidan.
 
-## Tor Network
+## Tor-nätverket
 
 <div class="grid cards annotate" markdown>
 
@@ -21,32 +22,32 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-1. Snowflake does not increase privacy, however it allows you to easily contribute to the Tor network and help people in censored networks achieve better privacy.
+1. Snowflake ökar inte integriteten, men det gör det möjligt för dig att enkelt bidra till Tor-nätverket och hjälpa människor i censurerade nätverk att få bättre integritet.
 
-[Learn more :material-arrow-right-drop-circle:](tor.md)
+[Läs mer :material-arrow-right-drop-circle:](tor.md)
 
-## Desktop Web Browsers
-
-<div class="grid cards" markdown>
-
-- ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } [Firefox](desktop-browsers.md#firefox)
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave](desktop-browsers.md#brave)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](desktop-browsers.md)
-
-### Additional Resources
+## Webbläsare för skrivbordet
 
 <div class="grid cards" markdown>
 
-- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
+- ![Firefox logotyp](assets/img/browsers/firefox.svg){ .twemoji } [Firefox](desktop-browsers.md#firefox)
+- ![Brave logotyp](assets/img/browsers/brave.svg){ .twemoji } [Brave](desktop-browsers.md#brave)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
+[Läs mer :material-arrow-right-drop-circle:](desktop-browsers.md)
 
-## Mobile Web Browsers
+### Ytterligare resurser
+
+<div class="grid cards" markdown>
+
+- ![uBlock Origin-logotyp](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
+
+</div>
+
+[Läs mer :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
+
+## Webbläsare för mobiler
 
 <div class="grid cards" markdown>
 
@@ -55,21 +56,21 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](mobile-browsers.md)
+[Läs mer :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-### Additional Resources
+### Ytterligare resurser
 
 <div class="grid cards annotate" markdown>
 
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](mobile-browsers.md#adguard)
+- ![AdGuard logotyp](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard för iOS](mobile-browsers.md#adguard)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
+[Läs mer :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
 
-## Operating Systems
+## Operativsystem
 
-### Mobile
+### Mobil
 
 <div class="grid cards" markdown>
 
@@ -78,13 +79,13 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android.md)
+[Läs mer :material-arrow-right-drop-circle:](android.md)
 
-#### Android Apps
+#### Android-app
 
 <div class="grid cards" markdown>
 
-- ![Aurora Store logo](/assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
 - ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
 - ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
 - ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
@@ -92,9 +93,9 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android.md#general-apps)
+[Läs mer :material-arrow-right-drop-circle:](android.md#general-apps)
 
-### Desktop/PC
+### Skrivbord
 
 <div class="grid cards" markdown>
 
@@ -109,51 +110,51 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop.md)
+[Läs mer :material-arrow-right-drop-circle:](desktop.md)
 
 ### Router Firmware
 
 <div class="grid cards" markdown>
 
-- ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ .twemoji }![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
-- ![OPNsense logo](assets/img/router/opnsense.svg){ .twemoji } [OPNsense](router.md#opnsense)
+- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
+- ![DivestOS logo](assets/img/android/opnsense.svg){ .twemoji } [OPNsense](router.md#opnsense)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](router.md)
+[Läs mer :material-arrow-right-drop-circle:](router.md)
 
-## Service Providers
+## Tjänsteleverantörer
 
-### Cloud Storage
+### Molnlagring
 
 <div class="grid cards" markdown>
 
-- ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
+- ![Proton Drive-logotyp](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](cloud.md)
+[Läs mer :material-arrow-right-drop-circle:](cloud.md)
 
 ### DNS
 
-#### DNS Providers
+#### DNS Leverantörer
 
-We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net/) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
+Vi [rekommenderar](dns.md#recommended-providers) ett antal krypterade DNS-servrar utifrån olika kriterier, t.ex. [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) och [Quad9](https://quad9.net/). Vi rekommenderar att du läser våra sidor om DNS innan du väljer en leverantör. I många fall är det inte rekommenderat att använda en alternativ DNS-leverantör.
 
-[Learn more :material-arrow-right-drop-circle:](dns.md)
+[Läs mer :material-arrow-right-drop-circle:](dns.md)
 
-#### Encrypted DNS Proxies
+#### Krypterade DNS-proxyservrar
 
 <div class="grid cards" markdown>
 
-- ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ .twemoji }![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji } [RethinkDNS](dns.md#rethinkdns)
-- ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ .twemoji } [dnscrypt-proxy](dns.md#dnscrypt-proxy)
+- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji } [RethinkDNS](dns.md#rethinkdns)
+- ![DivestOS logo](assets/img/android/dnscrypt-proxy.svg){ .twemoji } [dnscrypt-proxy](dns.md#dnscrypt-proxy)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
+[Läs mer :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-#### Self-hosted Solutions
+#### Egenstyrda lösningar
 
 <div class="grid cards" markdown>
 
@@ -162,22 +163,22 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
+[Läs mer :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
 
-### Email
+### E-postadress
 
 <div class="grid cards" markdown>
 
 - ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
 - ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
-- ![StartMail logo](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
+- ![StartMail logo](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/startmaildark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
 - ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email.md)
+[Läs mer :material-arrow-right-drop-circle:](email.md)
 
-#### Email Aliasing Services
+#### E-postaliaseringstjänster
 
 <div class="grid cards" markdown>
 
@@ -186,9 +187,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
+[Läs mer :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
 
-#### Self-Hosting Email
+#### Självhanterande e-post
 
 <div class="grid cards" markdown>
 
@@ -197,9 +198,32 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email.md#self-hosting-email)
+[Läs mer :material-arrow-right-drop-circle:](email.md#self-hosting-email)
 
-### Search Engines
+### Financial Services
+
+#### Payment Masking Services
+
+<div class="grid cards" markdown>
+
+- ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji }![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji } [Privacy.com](financial-services.md#privacycom-us-free)
+- ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
+</div>
+
+[Läs mer :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
+
+#### Online Gift Card Marketplaces
+
+<div class="grid cards" markdown>
+
+- ![Cake Pay logo](assets/img/financial-services/cakepay.svg){ .twemoji } [Cake Pay](financial-services.md#cake-pay)
+- ![CoinCards logo](assets/img/financial-services/coincards.svg){ .twemoji } [CoinCards](financial-services.md#coincards)
+
+</div>
+
+[Läs mer :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
+
+### Sökmotorer
 
 <div class="grid cards" markdown>
 
@@ -210,33 +234,33 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](search-engines.md)
+[Läs mer :material-arrow-right-drop-circle:](search-engines.md)
 
-### VPN Providers
+### DNS Leverantörer
 
-??? danger "VPNs do not provide anonymity"
+??? vPN-tjänster kan inte ge anonymitet"
 
-    Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+    En VPN kommer **inte** att hålla dina surfvanor anonyma, och inte heller kommer den att lägga till ytterligare säkerhet för icke-säker (HTTP) trafik.
     
-    If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+    Om du är ute efter **anonymitet** bör du använda Tor Browser **i stället** för en VPN.
     
-    If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+    Om du vill öka **säkerheten** bör du alltid se till att du ansluter till webbplatser med HTTPS. En VPN är inte en ersättning för goda säkerhetsrutiner.
     
-    [Learn more :material-arrow-right-drop-circle:](vpn.md)
+    [Läs mer :material-arrow-right-drop-circle:](vpn.md)
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
 - ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
+- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](vpn.md)
+[Läs mer :material-arrow-right-drop-circle:](vpn.md)
 
-## Software
+## Programvara
 
-### Calendar Sync
+### Kalendersynkronisering
 
 <div class="grid cards" markdown>
 
@@ -245,9 +269,19 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](calendar.md)
+[Läs mer :material-arrow-right-drop-circle:](calendar.md)
 
-### Data and Metadata Redaction
+### Cryptocurrency
+
+<div class="grid cards" markdown>
+
+- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji }[Monero](cryptocurrency.md#monero)
+
+</div>
+
+[Läs mer :material-arrow-right-drop-circle:](cryptocurrency.md)
+
+### Redigering av data och metadata
 
 <div class="grid cards" markdown>
 
@@ -259,9 +293,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](data-redaction.md)
+[Läs mer :material-arrow-right-drop-circle:](data-redaction.md)
 
-### Email Clients
+### E-postklienter
 
 <div class="grid cards" markdown>
 
@@ -272,20 +306,20 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 - ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
 - ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ .twemoji } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
 - ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji } [Kontact (Linux)](email-clients.md#kontact-kde)
-- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
+- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji } [Mailvelope (PGP i standardwebmail)](email-clients.md#mailvelope-browser)
 - ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email-clients.md)
+[Läs mer :material-arrow-right-drop-circle:](email-clients.md)
 
 ### Programvara för kryptering
 
-??? info "Operating System Disk Encryption"
+??? info "Diskryptering av operativsystemet"
 
-    For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and typically use hardware encryption elements such as a TPM that other full-disk encryption software like VeraCrypt do not. VeraCrypt is still suitable for non-operating system disks such as external drives, especially drives that may be accessed from multiple operating systems.
+    För att kryptera din operativsystemenhet rekommenderar vi vanligtvis att du använder det krypteringsverktyg som operativsystemet tillhandahåller, oavsett om det är **BitLocker** i Windows, **FileVault** i macOS eller **LUKS** i Linux. Dessa verktyg ingår i operativsystemet och använder vanligtvis hårdvarukrypteringselement, t. ex. en TPM, som andra krypteringsprogram för hela hårddiskar, t. ex. VeraCrypt, inte gör. VeraCrypt lämpar sig fortfarande för diskar som inte är i driftssystemet, t. ex. externa enheter, särskilt enheter som kan nås från flera olika operativsystem.
     
-    [Learn more :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+    [Läs mer :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
 
 <div class="grid cards" markdown>
 
@@ -293,27 +327,27 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 - ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ .twemoji } [Picocrypt](encryption.md#picocrypt-file)
 - ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
 - ![Hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ .twemoji }![Hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ .twemoji } [Hat.sh (Browser-based)](encryption.md#hatsh)
-- ![Kryptor logo](assets/img/encryption-software/kryptor.png){ .twemoji } [Kryptor](encryption.md#kryptor)
-- ![Tomb logo](assets/img/encryption-software/tomb.png){ .twemoji } [Tomb](encryption.md#tomb)
+- ![Kryptor logo](assets/img/encryption software/kryptor.png){ .twemoji } [Kryptor](encryption.md#kryptor)
+- ![Tomb logo](assets/img/encryption software/tomb.png){ .twemoji } [Tomb](encryption.md#tomb)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md)
+[Läs mer :material-arrow-right-drop-circle:](encryption.md)
 
-#### OpenPGP Clients
+#### OpenPGP-klienter
 
 <div class="grid cards" markdown>
 
 - ![GnuPG logo](assets/img/encryption-software/gnupg.svg){ .twemoji } [GnuPG](encryption.md#gnu-privacy-guard)
 - ![GPG4Win logo](assets/img/encryption-software/gpg4win.svg){ .twemoji } [GPG4Win (Windows)](encryption.md#gpg4win)
-- ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ .twemoji } [GPG Suite (macOS)](encryption.md#gpg-suite)
-- ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ .twemoji } [OpenKeychain](encryption.md#openkeychain)
+- ![GPG Suite logo](assets/img/encryption software/gpgsuite.png){ .twemoji } [GPG Suite (macOS)](encryption.md#gpg-suite)
+- ![OpenKeychain logo](assets/img/encryption software/openkeychain.svg){ .twemoji } [OpenKeychain](encryption.md#openkeychain)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md#openpgp)
+[Läs mer :material-arrow-right-drop-circle:](encryption.md#openpgp)
 
-### File Sharing and Sync
+### Fildelning och synkronisering
 
 <div class="grid cards" markdown>
 
@@ -325,9 +359,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](file-sharing.md)
+[Läs mer :material-arrow-right-drop-circle:](file-sharing.md)
 
-### Frontends
+### Frontend
 
 <div class="grid cards" markdown>
 
@@ -342,22 +376,22 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](frontends.md)
+[Läs mer :material-arrow-right-drop-circle:](frontends.md)
 
-### Multi-Factor Authentication Tools
+### Multi-Faktor Autentisering
 
 <div class="grid cards" markdown>
 
-- ![YubiKeys](assets/img/multi-factor-authentication/mini/yubico.svg){ .twemoji } [YubiKey](multi-factor-authentication.md#yubikey)
-- ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji } [Nitrokey](multi-factor-authentication.md#nitrokey-librem-key)
-- ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji } [Aegis Authenticator](multi-factor-authentication.md#aegis-authenticator)
+- ![YubiKeys](assets/img/multifactor-authentication/mini/yubico.svg){ .twemoji } [YubiKey](multi-factor-authentication.md#yubikey)
+- ![Nitrokey](assets/img/multifactor-authentication/mini/nitrokey.svg){ .twemoji } [Nitrokey](multi-factor-authentication.md#nitrokey-librem-key)
+- ![Aegis logo](assets/img/multifactor-authentication/aegis.png){ .twemoji } [Aegis Authenticator](multi-factor-authentication.md#aegis-authenticator)
 - ![Raivo OTP logo](assets/img/multi-factor-authentication/raivo-otp.png){ .twemoji } [Raivo OTP](multi-factor-authentication.md#raivo-otp)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](multi-factor-authentication.md)
+[Läs mer :material-arrow-right-drop-circle:](multi-factor-authentication.md)
 
-### News Aggregators
+### Nyhetsaggregatorer
 
 <div class="grid cards" markdown>
 
@@ -371,9 +405,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](news-aggregators.md)
+[Läs mer :material-arrow-right-drop-circle:](news-aggregators.md)
 
-### Notebooks
+### Anteckningsböcker
 
 <div class="grid cards" markdown>
 
@@ -384,9 +418,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](notebooks.md)
+[Läs mer :material-arrow-right-drop-circle:](notebooks.md)
 
-### Password Managers
+### Lösenordshanterare
 
 <div class="grid cards" markdown>
 
@@ -400,9 +434,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](passwords.md)
+[Läs mer :material-arrow-right-drop-circle:](passwords.md)
 
-### Productivity Tools
+### Produktivitetsverktyg
 
 <div class="grid cards" markdown>
 
@@ -414,9 +448,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](productivity.md)
+[Läs mer :material-arrow-right-drop-circle:](productivity.md)
 
-### Real-Time Communication
+### Realtidskommunikation
 
 <div class="grid cards" markdown>
 
@@ -428,9 +462,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](real-time-communication.md)
+[Läs mer :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### Video Streaming Clients
+### Klienter för videoströmning
 
 <div class="grid cards" markdown>
 
@@ -438,6 +472,4 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](video-streaming.md)
-
---8<-- "includes/abbreviations.sv.txt"
+[Läs mer :material-arrow-right-drop-circle:](video-streaming.md)

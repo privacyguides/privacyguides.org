@@ -1,6 +1,7 @@
 ---
 title: "Introduction à Qubes"
 icon: simple/qubesos
+description: Qubes est un système d'exploitation conçu pour isoler les applications au sein de machines virtuelles afin de renforcer la sécurité.
 ---
 
 [**Qubes OS**](../desktop.md#qubes-os) est un système d'exploitation qui utilise l'hyperviseur [Xen](https://en.wikipedia.org/wiki/Xen) pour fournir une sécurité forte pour l'informatique de bureau par le biais de machines virtuelles isolées. Chaque VM est appelée un *Qube* et vous pouvez attribuer à chaque Qube un niveau de confiance en fonction de son objectif. Étant donné que le système d'exploitation Qubes assure la sécurité en utilisant l'isolation et en n'autorisant des actions qu'au cas par cas, il est à l'opposé de [l'énumération de méchanceté](https://www.ranum.com/security/computer_security/editorials/dumb/).
@@ -44,7 +45,7 @@ Pour copier et coller des fichiers et des répertoires (dossiers) d'une VM à l'
 
 L'[environnement qrexec](https://www.qubes-os.org/doc/qrexec/) est une partie essentielle de Qubes qui permet la communication des machines virtuelles entre les domaines. Il est construit sur la bibliothèque Xen *vchan*, qui facilite [l'isolation de par le biais de politiques](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
 
-## Ressources Supplémentaires
+## Ressources supplémentaires
 
 Pour de plus amples informations, nous vous encourageons à consulter les pages de documentation complètes de Qubes OS, situées sur le [site web de Qubes OS](https://www.qubes-os.org/doc/). Des copies hors ligne peuvent être téléchargées à partir du [dépôt de documentationde](https://github.com/QubesOS/qubes-doc) Qubes OS.
 
@@ -52,5 +53,3 @@ Pour de plus amples informations, nous vous encourageons à consulter les pages 
 - J. Rutkowska : [*Compartimentage logiciel vs. séparation physique*](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf)
 - J. Rutkowska : [*Partitionnement de ma vie numérique en domaines de sécurité*](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html)
 - Qubes OS : [*Articles connexes*](https://www.qubes-os.org/news/categories/#articles)
-
---8<-- "includes/abbreviations.fr.txt"

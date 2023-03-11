@@ -40,5 +40,3 @@ Tentar proteger todos os seus dados de todos — o tempo todo — é impraticáv
 [:material-hand-coin-outline:](about/donate.md){ title="Apoie o projeto" }
 
 É importante que um site como o Privacy Guides esteja sempre atualizado. Precisamos que nosso público fique de olho nas atualizações de software para os aplicativos listados em nosso site e acompanhe as notícias recentes sobre os serviços que recomendamos. É difícil acompanhar o ritmo acelerado da internet, mas tentamos o nosso melhor. Se você detectar um erro, achar que um serviço não deve ser listado, notar que um serviço qualificado está faltando, acreditar que uma extensão de navegador não é mais a melhor escolha ou descobrir qualquer outro problema, informe-nos.
-
---8<-- "includes/abbreviations.pt-BR.txt"

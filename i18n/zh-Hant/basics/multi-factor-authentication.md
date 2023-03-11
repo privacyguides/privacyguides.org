@@ -1,6 +1,7 @@
 ---
 title: "多重身分驗證"
 icon: 'material/two-factor-authentication'
+description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
 ---
 
 **多因素認證**（**MFA**）是一種安全機制，除了輸入用戶名（或電子郵件）和密碼之外，還需要其他步驟。 最常見的方法是您會從簡訊或應用程式收到的有時間限制的代碼。
@@ -162,5 +163,3 @@ SSH MFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How
 ### KeePass (and KeePassXC)
 
 KeePass and KeePassXC databases can be secured using Challenge-Response or HOTP as a second-factor authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
-
---8<-- "includes/abbreviations.zh-Hant.txt"

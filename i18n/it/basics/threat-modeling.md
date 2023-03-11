@@ -1,6 +1,7 @@
 ---
 title: "Modelli di minaccia"
 icon: 'material/target-account'
+description: Bilanciare sicurezza, privacy e usabilità è il primo e il più difficile compito che incontrerai durante il tuo viaggio nella privacy.
 ---
 
 Bilanciare sicurezza, privacy e usabilità è il primo e il più difficile compito che incontrerai durante il tuo viaggio nella privacy. Tutto è un compromesso: più qualcosa è sicuro, più è restrittivo o scomodo in generale, ecc. Spesso, le persone scoprono che il problema con gli strumenti che vedono raccomandati è che sono troppo difficili da iniziare a usare!
@@ -107,5 +108,3 @@ Per le persone che cercano di aumentare la loro privacy e sicurezza online, abbi
 ## Fonti
 
 - [EFF Surveillance Self Defense: Your Security Plan (EFF Autodifesa da sorveglianza: il tuo piano di sicurezza)](https://ssd.eff.org/en/module/your-security-plan)
-
---8<-- "includes/abbreviations.it.txt"

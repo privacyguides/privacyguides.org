@@ -3,6 +3,7 @@ title: "Adatvédelmi Eszközök"
 icon: material/tools
 hide:
   - toc
+description: Privacy Guides is the most transparent and reliable website for finding software, apps, and services that protect your personal data from mass surveillance programs and other internet threats.
 ---
 
 Ha valamilyen konkrét megoldást keresel, ezek a hardver- és szoftvereszközök amiket ajánlunk, különböző kategóriákban. Az általunk ajánlott adatvédelmi eszközöket elsősorban biztonsági funkciók alapján választottuk ki, további hangsúlyt fektetve a decentralizált és nyílt forráskódú eszközökre. Ezek számos védelmi modellre alkalmazhatók, globális tömeges megfigyelési programok elleni védelemtől kezdve, big tech cégek elkerüléstől, támadások enyhítéséig, de csak te tudod meghatározni, hogy a te igényeidek mi felel meg a legjobban.
@@ -21,7 +22,7 @@ Ha további információt szeretnél megtudni az egyes projektekről, hogy miér
 
 </div>
 
-1. Snowflake nem növeli az adatvédelmet, azonban lehetővé teszi, hogy könnyedén hozzájárulj a Tor-hálózathoz, és segíts a cenzúrázott hálózatokon lévő embereknek jobb adatvédelmet elérni.
+1. Snowflake nem növeli az adatvédelmet, azonban lehetővé teszi, hogy könnyedén hozzájárulj a Tor-hálózathoz, és segíts a cenzúrázott hálózatokon lévő személyeknek jobb magánéletet elérni.
 
 [További információ :material-arrow-right-drop-circle:](tor.md)
 
@@ -84,7 +85,7 @@ Ha további információt szeretnél megtudni az egyes projektekről, hogy miér
 
 <div class="grid cards" markdown>
 
-- ![Aurora Store logo](/assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Kliens)](android.md#aurora-store)
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Kliens)](android.md#aurora-store)
 - ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Munka Profilok)](android.md#shelter)
 - ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Támogatott Eszközök)](android.md#auditor)
 - ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
@@ -199,6 +200,29 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 
 [További információ :material-arrow-right-drop-circle:](email.md#self-hosting-email)
 
+### Pénzügyi Szolgáltatások
+
+#### Payment Masking Services
+
+<div class="grid cards" markdown>
+
+- ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji }![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji } [Privacy.com](financial-services.md#privacycom-us-free)
+- ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
+</div>
+
+[További információ :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
+
+#### Online Gift Card Marketplaces
+
+<div class="grid cards" markdown>
+
+- ![Cake Pay logo](assets/img/financial-services/cakepay.svg){ .twemoji } [Cake Pay](financial-services.md#cake-pay)
+- ![CoinCards logo](assets/img/financial-services/coincards.svg){ .twemoji } [CoinCards](financial-services.md#coincards)
+
+</div>
+
+[További információ :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
+
 ### Keresőmotorok
 
 <div class="grid cards" markdown>
@@ -226,9 +250,9 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
 - ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
+- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
 
 </div>
 
@@ -246,6 +270,16 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 </div>
 
 [További információ :material-arrow-right-drop-circle:](calendar.md)
+
+### Cryptocurrency
+
+<div class="grid cards" markdown>
+
+- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji }[Monero](cryptocurrency.md#monero)
+
+</div>
+
+[További információ :material-arrow-right-drop-circle:](cryptocurrency.md)
 
 ### Adat és Metaadat Eltávolítás
 
@@ -272,7 +306,7 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 - ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
 - ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ .twemoji } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
 - ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji } [Kontact (Linux)](email-clients.md#kontact-kde)
-- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji } [Mailvelope (PGP szabványos webmailben)](email-clients.md#mailvelope-browser)
+- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji } [Mailvelope (PGP hagyományos webmailben)](email-clients.md#mailvelope-browser)
 - ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
 
 </div>
@@ -344,7 +378,7 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 
 [További információ :material-arrow-right-drop-circle:](frontends.md)
 
-### Többfaktoros Hitelesítési Eszközök
+### Többlépcsős Hitelesítési Eszközök
 
 <div class="grid cards" markdown>
 
@@ -439,5 +473,3 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 </div>
 
 [További információ :material-arrow-right-drop-circle:](video-streaming.md)
-
---8<-- "includes/abbreviations.hu.txt"

@@ -1,6 +1,7 @@
 ---
 title: "Autenticadores Multi-Factor"
 icon: 'O uso de AMF forte pode parar mais de 99% dos acessos não autorizados à conta, e é fácil de configurar nos serviços que você já usa.'
+description: These tools assist you with securing your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
 ---
 
 ## Chaves de Segurança de Hardware
@@ -147,5 +148,3 @@ Recomendamos vivamente que utilize aplicações TOTP móveis em vez de alternati
 - Must not require internet connectivity.
 - Must not sync to a third-party cloud sync/backup service.
     - **Optional** E2EE sync support with OS-native tools is acceptable, e.g. encrypted sync via iCloud.
-
---8<-- "includes/abbreviations.pt.txt"

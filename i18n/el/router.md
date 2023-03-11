@@ -1,6 +1,7 @@
 ---
 title: "Υλικολογισμικό Δρομολογητή"
 icon: material/router-wireless
+description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
 ---
 
 Παρακάτω είναι μερικά εναλλακτικά λειτουργικά συστήματα τα οποία μπορούν να χρησιμοποιηθούν σε δρομολογητές, σημεία πρόσβασης Wi-Fi, κλπ.
@@ -47,5 +48,3 @@ OPNsense was originally developed as a fork of [pfSense](https://en.wikipedia.or
 - Must be open source.
 - Must receive regular updates.
 - Must support a wide variety of hardware.
-
---8<-- "includes/abbreviations.el.txt"

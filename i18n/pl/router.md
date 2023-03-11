@@ -1,6 +1,7 @@
 ---
 title: "Oprogramowanie routera"
 icon: material/router-wireless
+description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
 ---
 
 Poniżej wymieniono kilka alternatywnych systemów operacyjnych, które możesz zainstalować na swoim routerze, punkcie dostępowym Wi-Fi itp.
@@ -48,5 +49,3 @@ OPNsense zostało pierwotnie opracowane na podstawie [pfSense](https://en.wikipe
 - Wymagane jest otwarte źródło.
 - Wymagane są regularne aktualizacje.
 - Must support a wide variety of hardware.
-
---8<-- "includes/abbreviations.pl.txt"

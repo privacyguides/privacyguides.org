@@ -85,5 +85,3 @@ Bron: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversationa
 > - "mag niet" voor een verbod
 > - "kan" voor een discretionaire actie
 > - “zou moeten” voor een aanbeveling
-
---8<-- "includes/abbreviations.nl.txt"

@@ -3,42 +3,40 @@ template: overrides/home.tr.html
 hide:
   - navigation
   - toc
-  - feedback
+  - geri bildirim
 ---
 
 <!-- markdownlint-disable-next-line -->
-## Why should I care?
+## Neden önemsemeliyim?
 
-##### “I have nothing to hide. Why should I care about my privacy?”
+##### "Saklayacak bir şeyim yok. Mahremiyetimi neden önemseyeyim ki?"
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+Tıpkı ırklar arası evlilik hakkı, kadınların oy hakkı, ifade özgürlüğü ve diğer pek çok hak gibi, mahremiyet hakkımız da her zaman desteklenmemiştir. Birçok diktatörlükte hala desteklenmiyor. Bizden önceki nesiller mahremiyet hakkımız için savaştı. ==Mahremiyet, hepimizin doğasında var olan ve sahip olmamız gereken bir insan hakkıdır.
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+Mahremiyet ile gizliliği birbirine karıştırmamalısınız. Banyoda ne olduğunu biliyoruz ama yine de kapıyı kapatıyoruz. Çünkü gizlilik değil, mahremiyet istiyorsunuz. **Herkesin** koruyacak bir şeyi vardır. Mahremiyet bizi insan yapan bir şeydir.
 
-[:material-target-account: Common Internet Threats](basics/common-threats.md ""){.md-button.md-button--primary}
+[:material-target-account: Yaygın İnternet Tehditleri](basics/common-threats.md ""){.md-button.md-button--primary}
 
-## What should I do?
+## Ne yapmalıyım?
 
-##### First, you need to make a plan
+##### Öncelikle bir plan yapmalısınız
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. But don't worry! Security is a process, and, by thinking ahead, you can put together a plan that's right for you. Security isn't just about the tools you use or the software you download. Rather, it begins by understanding the unique threats you face, and how you can mitigate them.
+Tüm verilerinizi her zaman herkesten korumaya çalışmak pratik değildir, pahalıdır ve yorucudur. Ama endişelenmeyin! Güvenlik bir süreçtir ve ileriyi düşünerek sizin için doğru olan bir plan oluşturabilirsiniz. Güvenlik sadece kullandığınız araçlar veya indirdiğiniz yazılımlarla ilgili değildir. Aksine, karşılaştığınız benzersiz tehditleri ve bunları nasıl azaltabileceğinizi anlayarakle ilgilidir.
 
-==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
+==Tehditleri belirleme ve karşı önlemleri tanımlama sürecine **tehdit modelleme**== denir ve her iyi güvenlik ve gizlilik planının temelini oluşturur.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md ""){.md-button.md-button--primary}
+[:material-book-outline: Tehdit Modellemesi Hakkında Daha Fazla Bilgi Edinin](basics/threat-modeling.md ""){.md-button.md-button--primary}
 
 ---
 
-## We need you! Here's how to get involved:
+## Sana ihtiyacımız var! Nasıl dahil olabilirsiniz:
 
-[:simple-discourse:](https://discuss.privacyguides.net/){ title="Join our Forum" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
-[:material-information-outline:](about/index.md){ title="Learn more about us" }
-[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
+[:simple-discourse:](https://discuss.privacyguides.net/){ title="Forumumuza Katılın" }
+[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Bizi Mastodon'da takip edin" }
+[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Bu web sitesine katkıda bulunun" }
+[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Bu web sitesini çevirmeye yardımcı olun" }
+[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Matrix'te bizimle sohbet edin" }
+[:material-information-outline:](about/index.md){ title="Hakkımızda daha fazla bilgi edinin" }
+[:material-hand-coin-outline:](about/donate.md){ title="Projeyi destekleyin" }
 
-It's important for a website like Privacy Guides to always stay up-to-date. We need our audience to keep an eye on software updates for the applications listed on our site and follow recent news about providers that we recommend. It's hard to keep up with the fast pace of the internet, but we try our best. If you spot an error, think a provider should not be listed, notice a qualified provider is missing, believe a browser plugin is no longer the best choice, or uncover any other issue, please let us know.
-
---8<-- "includes/abbreviations.tr.txt"
+Privacy Guides gibi bir web sitesinin her zaman güncel kalması önemlidir. Hedef kitlemizin sitemizde listelenen uygulamalar için yazılım güncellemelerini takip etmesine ve önerdiğimiz sağlayıcılarla ilgili son haberleri izlemesine ihtiyacımız var. İnternetin hızlı temposuna ayak uydurmak zor, ancak elimizden gelenin en iyisini yapmaya çalışıyoruz. Bir hata tespit ederseniz, bir sağlayıcının listelenmemesi gerektiğini düşünürseniz, nitelikli bir sağlayıcının eksik olduğunu fark ederseniz, bir tarayıcı eklentisinin artık en iyi seçenek olmadığını düşünürseniz veya başka bir sorunu ortaya çıkarırsanız, lütfen bize bildirin.

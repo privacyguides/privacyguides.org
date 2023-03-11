@@ -1,29 +1,30 @@
 ---
-title: "Notebooks"
+title: "Anteckningsböcker"
 icon: material/notebook-edit-outline
+description: These encrypted note-taking apps let you keep track of your notes without giving them to a third-party.
 ---
 
-Keep track of your notes and journalings without giving them to a third-party.
+Håll koll på dina anteckningar och dagboksanteckningar utan att ge dem till tredje part.
 
-If you are currently using an application like Evernote, Google Keep, or Microsoft OneNote, we suggest you pick an alternative here that supports E2EE.
+Om du för närvarande använder ett program som Evernote, Google Keep eller Microsoft OneNote föreslår vi att du väljer ett alternativ som stöder E2EE.
 
-## Cloud-based
+## Molnbaserad
 
 ### Joplin
 
 !!! recommendation
 
-    ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
+    ![Joplin-logotyp](assets/img/notebooks/joplin.svg){ align=right }
     
-    **Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle a large number of markdown notes organized into notebooks and tags. It offers E2EE and can sync through Nextcloud, Dropbox, and more. It also offers easy import from Evernote and plain-text notes.
+    **Joplin** är ett kostnadsfritt, öppen källkod och fullt utrustat program för anteckningar och att göra som kan hantera ett stort antal markdown-noter organiserade i anteckningsböcker och taggar. Det erbjuder E2EE och kan synkroniseras via Nextcloud, Dropbox och mer. Det erbjuder också enkel import från Evernote och vanlig text anteckningar.
     
-    [:octicons-home-16: Homepage](https://joplinapp.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://joplinapp.org/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://joplinapp.org/help/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Source Code" }
+    [:octicons-home-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://joplinapp.org/help/){ .card-link title=Dokumentation}
+    [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Källkod" }
     [:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? nedladdningar
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
@@ -32,25 +33,25 @@ If you are currently using an application like Evernote, Google Keep, or Microso
         - [:simple-apple: macOS](https://joplinapp.org/#desktop-applications)
         - [:simple-linux: Linux](https://joplinapp.org/#desktop-applications)
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmk
 
-Joplin does not support password/PIN protection for the [application itself or individual notes and notebooks](https://github.com/laurent22/joplin/issues/289). However, your data is still encrypted in transit and at the sync location using your master key. Since January 2023, Joplin supports biometrics app lock for [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) and [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
+Joplin stöder inte lösenord/PIN-skydd för [applikationen själv eller enskilda anteckningar och anteckningsböcker](https://github.com/laurent22/joplin/issues/289). Dina data är dock fortfarande krypterade under överföring och på synkroniseringsplatsen med hjälp av huvudnyckeln. Sedan januari 2023 stöder Joplin biometrisk applåsning för [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) och [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
 
-### Standard Notes
+### Standardnoteringar
 
 !!! recommendation
 
     ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
     
-    **Standard Notes** is a simple and private notes app that makes your notes easy and available everywhere you are. It features E2EE on every platform, and a powerful desktop experience with themes and custom editors. It has also been [independently audited (PDF)](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
+    **Standard Notes** är en enkel och privat anteckningsapp som gör dina anteckningar enkla och tillgängliga överallt. Den har E2EE på alla plattformar och en kraftfull skrivbordsupplevelse med teman och anpassade redaktörer. Den har också [reviderats av en oberoende revisionsbyrå (PDF)] (https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
     
-    [:octicons-home-16: Homepage](https://standardnotes.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://standardnotes.com/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribute }
+    [:octicons-home-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://standardnotes.com/help/){ .card-link title=Dokumentation}
+    [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Källkod" }
+    [:octicons-heart-16:](https://standardnotes.com/donate/){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? nedladdningar
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
@@ -64,52 +65,50 @@ Joplin does not support password/PIN protection for the [application itself or i
 
 !!! recommendation
 
-    ![Cryptee logo](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
+    ![Cryptee-logotyp](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
     ![Cryptee logo](./assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
     
-    **Cryptee** is an open-source, web-based E2EE document editor and photo storage application. Cryptee is a PWA, which means that it works seamlessly across all modern devices without requiring native apps for each respective platform.
+    **Cryptee** är en webbaserad E2EE-dokumentredigerare med öppen källkod och ett program för lagring av foton. Cryptee är en PWA, vilket innebär att den fungerar smidigt på alla moderna enheter utan att kräva inbyggda appar för varje plattform.
     
-    [:octicons-home-16: Homepage](https://crypt.ee){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://crypt.ee/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/cryptee){ .card-link title="Source Code" }
+    [:octicons-home-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
     
-    ??? downloads
+    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://crypt.ee/help/){ .card-link title=Dokumentation}
+    [:octicons-code-16:](https://github.com/cryptee){ .card-link title="Källkod" }
+    [](/){ .card-link title=Contribute??? nedladdningar
     
-        - [:octicons-globe-16: PWA](https://crypt.ee/download)
+        - [:octicons-globe-16: Flathub](https://crypt.ee/download)
 
-Cryptee offers 100MB of storage for free, with paid options if you need more. Sign-up doesn't require an e-mail or other personally identifiable information.
+Cryptee erbjuder 100 Mb lagring gratis, med betalalternativ om du behöver mer. För att registrera dig krävs ingen e-post eller annan personligt identifierbar information.
 
-## Local notebooks
+## Lokala anteckningsböcker
 
-### Org-mode
+### Org-läge
 
 !!! recommendation
 
     ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
     
-    **Org-mode** is a [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system. Synchronization is possible with [file synchronization](file-sharing.md#file-sync) tools.
+    **Org-mode** är ett [major mode] (https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) för GNU Emacs. Org-mode är till för att föra anteckningar, upprätthålla TODO-listor, planera projekt och skriva dokument med ett snabbt och effektivt system för klartext. Synkronisering är möjlig med [filsynkronisering](file-sharing.md#file-sync)-verktyg.
     
-    [:octicons-home-16: Homepage](https://orgmode.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Documentation}
+    [:octicons-home-16: Homepage](https://openwrt.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Documentation}
     [:octicons-code-16:](https://git.savannah.gnu.org/cgit/emacs/org-mode.git){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title=Contribute }
 
-## Criteria
+## Kriterier
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.
 
-!!! example "This section is new"
+!!! exempel "Det här avsnittet är nytt"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
 
-- Clients must be open-source.
-- Any cloud sync functionality must be E2EE.
-- Must support exporting documents into a standard format.
+- Klienterna bör ha öppen källkod.
+- Alla funktioner för molnsynkronisering måste vara E2EE.
+- Måste stödja export av dokument till ett standardformat.
 
-### Best Case
+### Bästa fall
 
-- Local backup/sync functionality should support encryption.
-- Cloud-based platforms should support document sharing.
-
---8<-- "includes/abbreviations.sv.txt"
+- Funktioner för lokal säkerhetskopiering/synkronisering bör stödja kryptering.
+- Molnbaserade plattformar bör stödja delning av dokument.

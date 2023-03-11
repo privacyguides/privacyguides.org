@@ -1,6 +1,7 @@
 ---
 title: "סקירה כללית של Tor"
 icon: 'simple/torproject'
+description: Tor היא רשת מבוזרת בחינם לשימוש המיועדת לשימוש באינטרנט עם כמה שיותר פרטיות.
 ---
 
 Tor היא רשת מבוזרת בחינם לשימוש המיועדת לשימוש באינטרנט עם כמה שיותר פרטיות. בשימוש נכון, הרשת מאפשרת גלישה ותקשורת פרטית ואנונימית.
@@ -73,8 +74,6 @@ Tor מאפשר לנו להתחבר לשרת מבלי שאף גורם אחד יד
 - [מדריך למשתמש של דפדפן Tor](https://tb-manual.torproject.org)
 - [How Tor Works - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(יוטיוב)</small>
 - [Tor שירותי בצל - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(יוטיוב)</small>
-
---8<-- "includes/abbreviations.he.txt"
 
 [^1]: הממסר הראשון במעגל שלך נקרא "שומר כניסה" או "שומר". זהו ממסר מהיר ויציב שנשאר הראשון במעגל שלך למשך 2-3 חודשים על מנת להגן מפני התקפה ידועה לשבירת אנונימיות. שאר המעגל שלך משתנה עם כל אתר חדש שאתה מבקר בו, וכולם ביחד מספקים ממסרים אלה את הגנת הפרטיות המלאה של Tor. לקבלת מידע נוסף על אופן הפעולה של ממסרי מגן, עיין במאמר זה [בלוג פוסט](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) וגם [דף](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) על שומרי כניסה. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
 

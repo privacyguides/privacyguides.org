@@ -1,6 +1,7 @@
 ---
 title: "加密软件"
 icon: material/file-lock
+description: 对数据进行加密是控制谁能访问数据的唯一方法。 These tools allow you to encrypt your emails and any other files.
 ---
 
 对数据进行加密是控制谁能访问数据的唯一方法。 如果你目前没有对你的硬盘、电子邮件或文件使用加密软件，你应该在这里挑选一个选项。
@@ -353,5 +354,3 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - Operating System (FDE) encryption apps should utilize hardware security such as a TPM or Secure Enclave.
 - File encryption apps should have first- or third-party support for mobile platforms.
-
---8<-- "includes/abbreviations.zh.txt"

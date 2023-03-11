@@ -1,107 +1,47 @@
 ---
-title: "VPN Services"
+title: "Layanan VPN"
 icon: material/vpn
+description: Ini adalah layanan VPN terbaik untuk melindungi privasi dan keamanan daring Anda. Temukan penyedia di sini yang tidak memata-matai Anda.
 ---
 
-Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
+Jika Anda mencari **privasi tambahan** dari ISP Anda, pada jaringan Wi-Fi publik, atau saat melakukan torrent file, VPN bisa jadi solusi untuk Anda selama Anda memahami risiko yang ada. Menurut kami, penyedia layanan ini adalah yang terbaik di antara yang lain:
 
-??? danger "VPNs do not provide anonymity"
+<div class="grid cards" markdown>
 
-    Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+- ![Logo IVPN](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
+- ![Logo Mullvad](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
+- ![Logo Proton VPN](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
+
+</div>
+
+!!! danger "VPN tidak menyediakan anonimitas"
+
+    Menggunakan VPN **tidak** akan menjaga kebiasaan jelajah Anda tetap anonim, dan juga tidak akan menambah keamanan tambahan pada lalu lintas yang tidak aman (HTTP).
     
-    If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+    Jika Anda membutuhkan **anonimitas**, Anda sebaiknya menggunakan Tor Browser **daripada** menggunakan VPN.
     
-    If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+    Jika Anda membutuhkan **keamanan** tambahan, Anda harus selalu memastikan bahwa Anda terhubung ke situs web menggunakan HTTPS. VPN bukanlah pengganti praktik keamanan yang baik.
     
-    [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+    [Unduh Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Mitos Tor & Soal Sering Ditanya](advanced/tor-overview.md){ .md-button }
 
-??? question "When are VPNs useful?"
+[Ikhtisar VPN Terperinci :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
-    If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you as long as you understand the risks involved.
-    
-    [More Info](basics/vpn-overview.md){ .md-button }
+## Penyedia yang Direkomendasikan
 
-## Recommended Providers
-
-!!! abstract "Criteria"
-
-    Our recommended providers use encryption, accept Monero, support WireGuard & OpenVPN, and have a no logging policy. Read our [full list of criteria](#our-criteria) for more information.
-
-### Proton VPN
-
-!!! recommendation annotate
-
-    ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
-    
-    **Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG is based in Switzerland and offers a limited free tier, as well as a more featured premium option.
-    
-    [:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
-        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
-        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
-        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
-
-??? success annotate "67 Countries"
-
-    Proton VPN has [servers in 67 countries](https://protonvpn.com/vpn-servers) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
-    
-    We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
-
-1. Last checked: 2022-09-16
-
-??? success "Independently Audited"
-
-    As of January 2020, Proton VPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit/) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
-
-??? success "Open-Source Clients"
-
-    Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
-
-??? success "Accepts Cash"
-
-    Proton VPN, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, and **cash/local currency** as anonymous forms of payment.
-
-??? success "WireGuard Support"
-
-    Proton VPN mostly supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
-    
-    Proton VPN [recommends](https://protonvpn.com/blog/wireguard/) the use of WireGuard with their service. On Proton VPN's Windows, macOS, iOS, Android, ChromeOS, and Android TV apps, WireGuard is the default protocol; however, [support](https://protonvpn.com/support/how-to-change-vpn-protocols/) for the protocol is not present in their Linux app.
-
-??? warning "Remote Port Forwarding"
-
-    Proton VPN currently only supports remote [port forwarding](https://protonvpn.com/support/port-forwarding/) on Windows, which may impact some applications. Especially Peer-to-peer applications like Torrent clients.
-
-??? success "Mobile Clients"
-
-    In addition to providing standard OpenVPN configuration files, Proton VPN has mobile clients for [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), and [GitHub](https://github.com/ProtonVPN/android-app/releases) allowing for easy connections to their servers.
-
-??? info "Additional Functionality"
-
-    Proton VPN clients support two factor authentication on all platforms except Linux at the moment. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer adblocking and known malware domains blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
-
-!!! danger "Killswitch feature is broken on Intel-based Macs"
-
-    System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch/) on Intel-based Macs when using the VPN killswitch. If you require this feature, and you are using a Mac with Intel chipset, you should consider using another VPN service.
+Penyedia yang kami rekomendasikan menggunakan enkripsi, menerima Monero, mendukung WireGuard & OpenVPN, dan memiliki kebijakan tanpa pencatatan. Baca [daftar lengkap kriteria kami](#criteria) untuk informasi lebih lanjut.
 
 ### IVPN
 
 !!! recommendation
 
-    ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
+    ![Logo IVPN](assets/img/vpn/ivpn.svg){ align=right }
     
-    **IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN is based in Gibraltar.
+    **IVPN** adalah penyedia VPN premium, dan mereka telah beroperasi sejak 2009. IVPN berbasis di Gibraltar.
     
-    [:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+    [:octicons-home-16: Laman Beranda](https://www.ivpn.net/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Kode Sumber" }
     
     ??? downloads
     
@@ -111,57 +51,58 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
         - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
         - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
 
-??? success annotate "35 Countries"
+#### :material-check:{ .pg-green } 35 Negara
 
-    IVPN has [servers in 35 countries](https://www.ivpn.net/server-locations) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
-    
-    We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+IVPN memiliki server [di 35 negara](https://www.ivpn.net/server-locations).(1) Memilih penyedia VPN dengan server terdekat dengan Anda akan mengurangi latensi lalu lintas jaringan yang Anda kirim. Ini karena rute yang lebih pendek (lebih sedikit loncatan) ke tempat tujuan.
+{ .annotate }
 
-1. Last checked: 2022-09-16
+1. Terakhir diperiksa: 2022-09-16
 
-??? success "Independently Audited"
+Kami juga berpikir akan lebih baik untuk keamanan kunci pribadi penyedia VPN jika mereka menggunakan [server khusus](https://en.wikipedia.org/wiki/Dedicated_hosting_service), daripada solusi berbagi pakai yang lebih murah (dengan pelanggan lain) seperti [peladen pribadi virtual](https://id.wikipedia.org/wiki/Peladen_pribadi_virtual).
 
-    IVPN has undergone a [no-logging audit from Cure53](https://cure53.de/audit-report_ivpn.pdf) which concluded in agreement with IVPN's no-logging claim. IVPN has also completed a [comprehensive pentest report Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) in January 2020. IVPN has also said they plan to have [annual reports](https://www.ivpn.net/blog/independent-security-audit-concluded) in the future. A further review was conducted [in April 2022](https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) and was produced by Cure53 [on their website](https://cure53.de/pentest-report_IVPN_2022.pdf).
+#### :material-check:{ .pg-green } Diaudit Secara Independen
 
-??? success "Open-Source Clients"
+IVPN telah menjalani [audit tanpa pencatatan dari Cure53](https://cure53.de/audit-report_ivpn.pdf) yang menyimpulkan bahwa klaim tanpa pencatatan dari IVPN disetujui. IVPN juga telah menyelesaikan [laporan pentest komprehensif Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) pada Januari 2020. IVPN juga mengatakan bahwa mereka berencana untuk memiliki [laporan tahunan](https://www.ivpn.net/blog/independent-security-audit-concluded) di masa depan. Tinjauan lebih lanjut dilakukan [pada bulan April 2022](https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) dan diproduksi oleh Cure53 [di situs web mereka](https://cure53.de/pentest-report_IVPN_2022.pdf).
 
-    As of February 2020 [IVPN applications are now open-source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
+#### :material-check:{ .pg-green } Klien Sumber Terbuka
 
-??? success "Accepts Cash and Monero"
+Pada Februari 2020 [aplikasi IVPN sekarang menjadi sumber terbuka](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Kode sumber dapat diperoleh dari [organisasi GitHub](https://github.com/ivpn) mereka.
 
-    In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment.
+#### :material-check:{ .pg-green } Menerima Uang Tunai dan Monero
 
-??? success "WireGuard Support"
+Selain menerima kartu kredit/debit dan PayPal, IVPN menerima Bitcoin, **Monero** dan **uang tunai/mata uang lokal** (pada paket tahunan) sebagai bentuk pembayaran anonim.
 
-    IVPN supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
-    
-    IVPN [recommends](https://www.ivpn.net/wireguard/) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
+#### :material-check:{ .pg-green } Dukungan WireGuard
 
-??? success "Remote Port Forwarding"
+IVPN mendukung protokol WireGuard®. [WireGuard](https://www.wireguard.com) adalah protokol yang lebih baru yang menggunakan kriptografi [yang canggih](https://www.wireguard.com/protocol/). Selain itu, WireGuard bertujuan untuk menjadi lebih sederhana dan lebih berkinerja.
 
-    Remote [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is possible with a Pro plan. Port forwarding [can be activated](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html) via the client area. Port forwarding is only available on IVPN when using WireGuard or OpenVPN protocols and is [disabled on US servers](https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
+IVPN [merekomendasikan](https://www.ivpn.net/wireguard/) penggunaan WireGuard dengan layanan mereka dan, dengan demikian, protokol ini merupakan standar pada semua aplikasi IVPN. IVPN juga menawarkan generator konfigurasi WireGuard untuk digunakan dengan [aplikasi resmi](https://www.wireguard.com/install/) WireGuard.
 
-??? success "Mobile Clients"
+#### :material-check:{ .pg-green } Penerusan Porta Jarak Jauh
 
-    In addition to providing standard OpenVPN configuration files, IVPN has mobile clients for [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), and [GitHub](https://github.com/ivpn/android-app/releases) allowing for easy connections to their servers.
+[Penerusan porta jarak jauh](https://en.wikipedia.org/wiki/Port_forwarding) dimungkinkan dengan paket Pro. Port forwarding [dapat diaktifkan](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html) melalui area klien. Penerusan porta jarak kauh hanya tersedia di IVPN ketika menggunakan protokol WireGuard atau OpenVPN dan [dinonaktifkan di server AS](https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
 
-??? info "Additional Functionality"
+#### :material-check:{ .pg-green } Klien Ponsel
 
-    IVPN clients support two factor authentication (Mullvad's clients do not). IVPN also provides "[AntiTracker](https://www.ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
+Selain menyediakan berkas konfigurasi OpenVPN standar, IVPN memiliki klien ponsel untuk [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), dan [GitHub](https://github.com/ivpn/android-app/releases) yang memungkinkan koneksi yang mudah ke server mereka.
+
+#### :material-information-outline:{ .pg-blue } Fungsionalitas Tambahan
+
+Klien IVPN mendukung autentikasi dua faktor (klien Mullvad tidak). IVPN juga menyediakan fungsionalitas "[AntiTracker](https://www.ivpn.net/antitracker)", yang memblokir jaringan iklan dan pelacak dari tingkat jaringan.
 
 ### Mullvad
 
 !!! recommendation
 
-    ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
+    ![Logo Mullvad](assets/img/vpn/mullvad.svg){ align=right }
     
-    **Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since **2009**. Mullvad is based in Sweden and does not have a free trial.
+    **Mullvad** adalah VPN yang cepat dan murah dengan fokus serius pada transparansi dan keamanan. Mereka telah beroperasi sejak **2009**. Mullvad berbasis di Swedia dan tidak memiliki uji coba gratis.
     
-    [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+    [:octicons-home-16: Laman Beranda](https://mullvad.net){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Layanan Onion" }
+    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Kode Sumber" }
     
     ??? downloads
     
@@ -172,152 +113,215 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
         - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
         - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
 
-??? success annotate "41 Countries"
+#### :material-check:{ .pg-green } 41 Negara
 
-    Mullvad has [servers in 41 countries](https://mullvad.net/servers/) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+Mullvad memiliki server [di 41 negara](https://mullvad.net/servers/).(1) Memilih penyedia VPN dengan server terdekat dengan Anda akan mengurangi latensi lalu lintas jaringan yang Anda kirim. Ini karena rute yang lebih pendek (lebih sedikit loncatan) ke tempat tujuan.
+{ .annotate }
+
+1. Terakhir diperiksa: 2023-01-19
+
+Kami juga berpikir akan lebih baik untuk keamanan kunci pribadi penyedia VPN jika mereka menggunakan [server khusus](https://en.wikipedia.org/wiki/Dedicated_hosting_service), daripada solusi berbagi pakai yang lebih murah (dengan pelanggan lain) seperti [peladen pribadi virtual](https://id.wikipedia.org/wiki/Peladen_pribadi_virtual).
+
+#### :material-check:{ .pg-green } Diaudit Secara Independen
+
+Klien VPN Mullvad telah diaudit oleh Cure53 dan Assured AB dalam laporan pentest [yang diterbitkan di cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf). Para peneliti keamanan menyimpulkan:
+
+> Cure53 dan Assured AB senang dengan hasil audit dan perangkat lunak ini meninggalkan kesan positif secara keseluruhan. Dengan dedikasi keamanan dari tim internal di kompleks VPN Mullvad, para penguji tidak meragukan proyek ini berada di jalur yang benar dari sudut pandang keamanan.
+
+Pada tahun 2020, audit kedua [diumumkan](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app/) dan laporan audit akhir [](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) tersedia di situs web Cure53:
+
+> Hasil dari proyek Mei-Juni 2020 yang menargetkan kompleks Mullvad ini cukup positif. [...] Keseluruhan ekosistem aplikasi yang digunakan oleh Mullvad meninggalkan kesan yang baik dan terstruktur. Struktur keseluruhan aplikasi memudahkan untuk meluncurkan patch dan perbaikan secara terstruktur. Lebih dari segalanya, temuan yang ditemukan oleh Cure53 menunjukkan pentingnya untuk terus mengaudit dan menilai ulang vektor kebocoran saat ini, untuk selalu memastikan privasi pengguna akhir. Dengan demikian, Mullvad melakukan pekerjaan yang sangat baik dalam melindungi pengguna akhir dari kebocoran PII yang umum terjadi dan risiko terkait privasi.
+
+Pada tahun 2021, audit kedua [diumumkan](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) dan laporan audit akhir [](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) tersedia di situs web Cure53. Laporan lain ditugaskan [pada bulan Juni 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) dan tersedia di situs web [Assured](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
+
+#### :material-check:{ .pg-green } Klien Sumber Terbuka
+
+Mullvad menyediakan kode sumber untuk klien desktop dan seluler mereka di [organisasi GitHub](https://github.com/mullvad/mullvadvpn-app) mereka.
+
+#### :material-check:{ .pg-green } Menerima Uang Tunai dan Monero
+
+Mullvad, selain menerima kartu kredit/debit dan PayPal, juga menerima Bitcoin, Bitcoin Cash, **Monero** dan **uang tunai/mata uang lokal** sebagai bentuk pembayaran anonim. Mereka juga menerima transfer Swish dan transfer bank.
+
+#### :material-check:{ .pg-green } Dukungan WireGuard
+
+Mullvad mendukung protokol WireGuard®. [WireGuard](https://www.wireguard.com) adalah protokol yang lebih baru yang menggunakan kriptografi [yang canggih](https://www.wireguard.com/protocol/). Selain itu, WireGuard bertujuan untuk menjadi lebih sederhana dan lebih berkinerja.
+
+Mullvad [merekomendasikan](https://mullvad.net/en/help/why-wireguard/) penggunaan WireGuard dengan layanan mereka. Ini adalah protokol default atau satu-satunya protokol pada aplikasi Mullvad di Android, iOS, macOS, dan Linux, tetapi pada Windows Anda harus [secara manual mengaktifkan](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad juga menawarkan generator konfigurasi WireGuard untuk digunakan dengan [aplikasi resmi](https://www.wireguard.com/install/) WireGuard.
+
+#### :material-check:{ .pg-green } Dukungan IPv6
+
+Mullvad mendukung masa depan jaringan [IPv6](https://id.wikipedia.org/wiki/IPv6). Jaringan mereka memungkinkan Anda untuk [mengakses layanan yang dihosting pada IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/) dibandingkan dengan penyedia lain yang memblokir koneksi IPv6.
+
+#### :material-check:{ .pg-green } Penerusan Porta Jarak Jauh
+
+[Penerusan porta jarak jauh](https://en.wikipedia.org/wiki/Port_forwarding) diperbolehkan untuk orang yang melakukan pembayaran satu kali, tetapi tidak diperbolehkan untuk akun dengan metode pembayaran berulang/berlangganan. Hal ini untuk mencegah Mullvad mengidentifikasi Anda berdasarkan penggunaan porta dan informasi langganan yang tersimpan. Lihat [Penerusan porta dengan Mullvad VPN](https://mullvad.net/help/port-forwarding-and-mullvad/) untuk informasi lebih lanjut.
+
+#### :material-check:{ .pg-green } Klien Ponsel
+
+Mullvad telah menerbitkan klien [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) dan [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn), keduanya mendukung antarmuka yang mudah digunakan dan tidak mengharuskan Anda untuk mengkonfigurasi koneksi WireGuard secara manual. Klien Android juga tersedia di [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
+
+#### :material-information-outline:{ .pg-blue } Fungsionalitas Tambahan
+
+Mullvad sangat transparan tentang node mana yang mereka [miliki atau sewa](https://mullvad.net/en/servers/). Mereka menggunakan [ShadowSocks](https://shadowsocks.org/) dalam konfigurasi ShadowSocks + OpenVPN mereka, membuat mereka lebih tahan terhadap tembok api dengan [Inspeksi Paket Dalam](https://en.wikipedia.org/wiki/Deep_packet_inspection) yang mencoba memblokir VPN. Seharusnya, [Cina harus menggunakan metode yang berbeda untuk memblokir server ShadowSocks](https://github.com/net4people/bbs/issues/22). Situs web Mullvad juga dapat diakses melalui Tor di [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
+
+### Proton VPN
+
+!!! recommendation annotate
+
+    ![Logo Proton VPN](assets/img/vpn/protonvpn.svg){ align=right }
     
-    We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
-
-1. Last checked: 2023-01-19
-
-??? success "Independently Audited"
-
-    Mullvad's VPN clients have been audited by Cure53 and Assured AB in a pentest report [published at cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf). The security researchers concluded:
+    **Proton VPN** adalah pesaing kuat dalam bidang VPN, dan mereka telah beroperasi sejak 2016. Proton AG berbasis di Swiss dan menawarkan tingkat gratis terbatas, serta opsi premium yang lebih berfitur.
     
-    > Cure53 and Assured AB are happy with the results of the audit and the software leaves an overall positive impression. With security dedication of the in-house team at the Mullvad VPN compound, the testers have no doubts about the project being on the right track from a security standpoint.
+    [:octicons-home-16: Laman Beranda](https://protonvpn.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Kode Sumber" }
     
-    In 2020 a second audit [was announced](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app/) and the [final audit report](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) was made available on Cure53's website:
+    ??? downloads
     
-    > The results of this May-June 2020 project targeting the Mullvad complex are quite positive. [...] The overall application ecosystem used by Mullvad leaves a sound and structured impression. The overall structure of the application makes it easy to roll out patches and fixes in a structured manner. More than anything, the findings spotted by Cure53 showcase the importance of constantly auditing and re-assessing the current leak vectors, in order to always ensure privacy of the end-users. With that being said, Mullvad does a great job protecting the end-user from common PII leaks and privacy related risks.
-    
-    In 2021 an infrastructure audit [was announced](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) and the [final audit report](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) was made available on Cure53's website. Another report was commissioned [in June 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) and is available on [Assured's website](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
+        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
+        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
-??? success "Open-Source Clients"
+#### :material-check:{ .pg-green } 67 Negara
 
-    Mullvad provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/mullvad/mullvadvpn-app).
+Proton VPN memiliki server [di 67 negara](https://protonvpn.com/vpn-servers).(1) Memilih penyedia VPN dengan server terdekat dengan Anda akan mengurangi latensi lalu lintas jaringan yang Anda kirim. Ini karena rute yang lebih pendek (lebih sedikit loncatan) ke tempat tujuan.
+{ .annotate }
 
-??? success "Accepts Cash and Monero"
+1. Terakhir diperiksa: 2022-09-16
 
-    Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. They also accept Swish and bank wire transfers.
+Kami juga berpikir akan lebih baik untuk keamanan kunci pribadi penyedia VPN jika mereka menggunakan [server khusus](https://en.wikipedia.org/wiki/Dedicated_hosting_service), daripada solusi berbagi pakai yang lebih murah (dengan pelanggan lain) seperti [peladen pribadi virtual](https://id.wikipedia.org/wiki/Peladen_pribadi_virtual).
 
-??? success "WireGuard Support"
+#### :material-check:{ .pg-green } Diaudit Secara Independen
 
-    Mullvad supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
-    
-    Mullvad [recommends](https://mullvad.net/en/help/why-wireguard/) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
+Pada Januari 2020, Proton VPN telah menjalani audit independen oleh SEC Consult. SEC Consult menemukan beberapa kerentanan berisiko sedang dan rendah di aplikasi Proton VPN di Windows, Android, dan iOS, yang semuanya telah "diperbaiki dengan benar" oleh Proton VPN sebelum laporan diterbitkan. Tidak satu pun dari masalah yang diidentifikasi akan memberikan penyerang akses jarak jauh ke perangkat atau lalu lintas Anda. Anda dapat melihat laporan individual untuk setiap platform di [protonvpn.com](https://protonvpn.com/blog/open-source/). Pada bulan April 2022, Proton VPN menjalani [audit lagi](https://protonvpn.com/blog/no-logs-audit/) dan laporannya [dibuat oleh Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). [Surat pengesahan ](https://proton.me/blog/security-audit-all-proton-apps) diberikan untuk aplikasi Proton VPN pada tanggal 9 November 2021 oleh [Securitum](https://research.securitum.com).
 
-??? success "IPv6 Support"
+#### :material-check:{ .pg-green } Klien Sumber Terbuka
 
-    Mullvad supports the future of networking [IPv6](https://en.wikipedia.org/wiki/IPv6). Their network allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/) as opposed to other providers who block IPv6 connections.
+Proton VPN menyediakan kode sumber untuk klien desktop dan seluler mereka di [organisasi GitHub](https://github.com/ProtonVPN) mereka.
 
-??? success "Remote Port Forwarding"
+#### :material-check:{ .pg-green } Menerima Uang Tunai
 
-    Remote [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is allowed for people who make one-time payments, but not allowed for accounts with a recurring/subscription-based payment method. This is to prevent Mullvad from being able to identify you based on your port usage and stored subscription information. See [Port forwarding with Mullvad VPN](https://mullvad.net/help/port-forwarding-and-mullvad/) for more information.
+Proton VPN, selain menerima kartu kredit/debit, PayPal, dan [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), juga menerima **uang tunai/mata uang lokal** sebagai bentuk pembayaran anonim.
 
-??? success "Mobile Clients"
+#### :material-check:{ .pg-green } Dukungan WireGuard
 
-    Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
+Proton VPN sebagian besar mendukung protokol WireGuard®. [WireGuard](https://www.wireguard.com) adalah protokol yang lebih baru yang menggunakan kriptografi [yang canggih](https://www.wireguard.com/protocol/). Selain itu, WireGuard bertujuan untuk menjadi lebih sederhana dan lebih berkinerja.
 
-??? info "Additional Functionality"
+Proton VPN [merekomendasikan](https://protonvpn.com/blog/wireguard/) penggunaan WireGuard dengan layanan mereka. Pada aplikasi Proton VPN di Windows, macOS, iOS, Android, Android, ChromeOS, dan Android TV, WireGuard merupakan protokol bawaan; namun, [dukungan](https://protonvpn.com/support/how-to-change-vpn-protocols/) untuk protokol ini tidak ada pada aplikasi Linux mereka.
 
-    Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers/). They use [ShadowSocks](https://shadowsocks.org/) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22). Mullvad's website is also accessible via Tor at [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
+#### :material-alert-outline:{ .pg-orange } Penerusan Porta Jarak Jauh
 
-## Criteria
+Proton VPN saat ini hanya mendukung penerusan porta [jarak jauh](https://protonvpn.com/support/port-forwarding/) di Windows, yang mungkin berdampak pada beberapa aplikasi. Terutama aplikasi peer-to-peer seperti klien Torrent.
+
+#### :material-check:{ .pg-green } Klien Ponsel
+
+Selain menyediakan file konfigurasi OpenVPN standar, Proton VPN memiliki klien seluler untuk [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), dan [GitHub](https://github.com/ProtonVPN/android-app/releases) yang memungkinkan koneksi yang mudah ke server mereka.
+
+#### :material-information-outline:{ .pg-blue } Fungsionalitas Tambahan
+
+Klien Proton VPN mendukung autentikasi dua faktor di semua platform kecuali Linux saat ini. Proton VPN memiliki server dan pusat data mereka sendiri di Swiss, Islandia, dan Swedia. Mereka menawarkan pemblokiran iklan dan pemblokiran domain malware yang dikenal dengan layanan DNS mereka. Selain itu, Proton VPN juga menawarkan server "Tor" yang memungkinkan Anda untuk dengan mudah terhubung ke situs-situs onion, tetapi kami masih sangat menyarankan untuk menggunakan [Tor Browser resmi](https://www.torproject.org/) untuk tujuan ini.
+
+#### :material-alert-outline:{ .pg-orange } Fitur killswitch rusak pada Mac berbasis Intel
+
+Kerusakan sistem [dapat terjadi](https://protonvpn.com/support/macos-t2-chip-kill-switch/) pada Mac berbasis Intel saat menggunakan killswitch VPN. Jika Anda memerlukan fitur ini, dan Anda menggunakan Mac dengan chipset Intel, Anda sebaiknya mempertimbangkan untuk menggunakan layanan VPN lain.
+
+## Kriteria
 
 !!! danger
 
-    It is important to note that using a VPN provider will not make you anonymous, but it will give you better privacy in certain situations. A VPN is not a tool for illegal activities. Don't rely on a "no log" policy.
+    Penting untuk dicatat bahwa menggunakan penyedia VPN tidak akan membuat Anda menjadi anonim, tetapi akan memberi Anda privasi yang lebih baik dalam situasi tertentu. VPN bukanlah alat untuk aktivitas ilegal. Jangan bergantung pada kebijakan "tanpa pencatatan".
 
-**Please note we are not affiliated with any of the providers we recommend. This allows us to provide completely objective recommendations.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.
+**Harap diperhatikan bahwa kami tidak berafiliasi dengan penyedia yang kami rekomendasikan. Hal ini memungkinkan kami untuk memberikan rekomendasi yang sepenuhnya objektif.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk setiap penyedia VPN yang ingin direkomendasikan, termasuk enkripsi yang kuat, audit keamanan independen, teknologi modern, dan banyak lagi. Kami menyarankan Anda membiasakan diri dengan daftar ini sebelum memilih penyedia VPN, dan melakukan penelitian sendiri untuk memastikan penyedia VPN yang Anda pilih dapat dipercaya.
 
-### Technology
+### Teknologi
 
-We require all our recommended VPN providers to provide OpenVPN configuration files to be used in any client. **If** a VPN provides their own custom client, we require a killswitch to block network data leaks when disconnected.
+Kami mewajibkan semua penyedia VPN yang kami rekomendasikan untuk menyediakan berkas konfigurasi OpenVPN untuk digunakan pada klien mana pun. **Jika** VPN menyediakan klien khusus mereka sendiri, kami memerlukan killswitch untuk memblokir kebocoran data jaringan saat terputus.
 
-**Minimum to Qualify:**
+**Minimum untuk Memenuhi Syarat:**
 
-- Support for strong protocols such as WireGuard & OpenVPN.
-- Killswitch built in to clients.
-- Multihop support. Multihopping is important to keep data private in case of a single node compromise.
-- If VPN clients are provided, they should be [open-source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what your device is actually doing.
+- Dukungan untuk protokol yang kuat seperti WireGuard & OpenVPN.
+- Killswitch yang terpasang pada klien.
+- Dukungan multihop. Multihopping penting untuk menjaga kerahasiaan data jika terjadi kompromi pada satu node.
+- Jika klien VPN disediakan, klien tersebut seharusnya [perangkat lunak sumber terbuka](https://id.wikipedia.org/wiki/Perangkat_lunak_sumber_terbuka), seperti perangkat lunak VPN yang umumnya sudah terpasang di dalamnya. Kami percaya bahwa ketersediaan [kode sumber](https://id.wikipedia.org/wiki/Kode_sumber) memberikan transparansi yang lebih besar tentang apa yang sebenarnya dilakukan oleh perangkat Anda.
 
-**Best Case:**
+**Kasus Terbaik:**
 
-- WireGuard and OpenVPN support.
-- Killswitch with highly configurable options (enable/disable on certain networks, on boot, etc.)
-- Easy-to-use VPN clients
-- Supports [IPv6](https://en.wikipedia.org/wiki/IPv6). We expect that servers will allow incoming connections via IPv6 and allow you to access services hosted on IPv6 addresses.
-- Capability of [remote port forwarding](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) assists in creating connections when using P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) file sharing software or hosting a server (e.g., Mumble).
+- Dukungan WireGuard dan OpenVPN.
+- Killswitch dengan opsi yang sangat mudah dikonfigurasi (aktifkan/nonaktifkan pada jaringan tertentu, saat boot, dll.)
+- Klien VPN yang mudah digunakan
+- Mendukung [IPv6](https://id.wikipedia.org/wiki/IPv6). Kami berharap server akan mengizinkan koneksi masuk melalui IPv6 dan memungkinkan Anda untuk mengakses layanan yang dihosting pada alamat IPv6.
+- Kemampuan [penerusan porta jarak jauh](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) membantu dalam membuat koneksi ketika menggunakan perangkat lunak berbagi file P2P ([Peer-to-Peer](https://id.wikipedia.org/wiki/Peer-to-peer)) atau hosting server (misalnya, Mumble).
 
-### Privacy
+### Privasi
 
-We prefer our recommended providers to collect as little data as possible. Not collecting personal information on registration, and accepting anonymous forms of payment are required.
+Kami lebih memilih penyedia yang kami rekomendasikan untuk mengumpulkan data sesedikit mungkin. Tidak mengumpulkan informasi pribadi pada saat pendaftaran, dan tidak menerima bentuk pembayaran anonim.
 
-**Minimum to Qualify:**
+**Minimum untuk Memenuhi Syarat:**
 
-- Monero or cash payment option.
-- No personal information required to register: Only username, password, and email at most.
+- [Mata uang kripto anonim](cryptocurrency.md) **atau** opsi pembayaran tunai.
+- Tidak ada informasi pribadi yang diperlukan untuk mendaftar: Hanya nama pengguna, kata sandi, dan surel.
 
-**Best Case:**
+**Kasus Terbaik:**
 
-- Accepts Monero, cash, and other forms of anonymous payment options (gift cards, etc.)
-- No personal information accepted (autogenerated username, no email required, etc.)
+- Menerima beberapa opsi [pembayaran anonim](advanced/payments.md).
+- Tidak ada informasi pribadi yang diterima (nama pengguna yang dibuat secara otomatis, tidak perlu surel, dll.).
 
-### Security
+### Keamanan
 
-A VPN is pointless if it can't even provide adequate security. We require all our recommended providers to abide by current security standards for their OpenVPN connections. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.
+VPN tidak ada gunanya jika tidak bisa menyediakan keamanan yang memadai. Kami mewajibkan semua penyedia yang kami rekomendasikan untuk mematuhi standar keamanan saat ini untuk koneksi OpenVPN mereka. Secara ideal, mereka akan menggunakan skema enkripsi yang lebih tahan terhadap masa depan secara bawaan. Kami juga mewajibkan pihak ketiga yang independen untuk mengaudit keamanan penyedia layanan, secara ideal dengan cara yang sangat komprehensif dan secara berulang (tahunan).
 
-**Minimum to Qualify:**
+**Minimum untuk Memenuhi Syarat:**
 
-- Strong Encryption Schemes: OpenVPN with SHA-256 authentication; RSA-2048 or better handshake; AES-256-GCM or AES-256-CBC data encryption.
-- Perfect Forward Secrecy (PFS).
-- Published security audits from a reputable third-party firm.
+- Skema enkripsi yang kuat: OpenVPN dengan autentikasi SHA-256; RSA-2048 atau jabat tangan yang lebih baik; enkripsi data AES-256-GCM atau AES-256-CBC.
+- Kerahasiaan Maju Sempurna (PFS).
+- Audit keamanan yang dipublikasikan dari perusahaan pihak ketiga yang memiliki reputasi baik.
 
-**Best Case:**
+**Kasus Terbaik:**
 
-- Strongest Encryption: RSA-4096.
-- Perfect Forward Secrecy (PFS).
-- Comprehensive published security audits from a reputable third-party firm.
-- Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
+- Enkripsi terkuat: RSA-4096.
+- Kerahasiaan Maju Sempurna (PFS).
+- Audit keamanan yang dipublikasikan secara komprehensif dari perusahaan pihak ketiga yang memiliki reputasi baik.
+- Program bug-bounty dan/atau proses pengungkapan kerentanan yang terkoordinasi.
 
-### Trust
+### Kepercayaan
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your internet data? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+Anda tidak akan mempercayakan keuangan Anda pada seseorang dengan identitas palsu, jadi mengapa mempercayakan data internet Anda pada mereka? Kami mewajibkan penyedia layanan yang kami rekomendasikan untuk terbuka mengenai kepemilikan atau kepemimpinan mereka. Kami juga ingin melihat laporan transparansi yang lebih sering, terutama dalam hal bagaimana permintaan pemerintah ditangani.
 
-**Minimum to Qualify:**
+**Minimum untuk Memenuhi Syarat:**
 
-- Public-facing leadership or ownership.
+- Kepemimpinan atau kepemilikan yang berhadapan dengan publik.
 
-**Best Case:**
+**Kasus Terbaik:**
 
-- Public-facing leadership.
-- Frequent transparency reports.
+- Kepemimpinan yang berhadapan dengan publik.
+- Laporan transparansi yang sering.
 
-### Marketing
+### Pemasaran
 
-With the VPN providers we recommend we like to see responsible marketing.
+Dengan penyedia VPN yang kami rekomendasikan, kami ingin melihat pemasaran yang bertanggung jawab.
 
-**Minimum to Qualify:**
+**Minimum untuk Memenuhi Syarat:**
 
-- Must self-host analytics (i.e., no Google Analytics). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt-out.
+- Harus menyediakan analitik sendiri (yaitu, tanpa Google Analytics). Situs penyedia juga harus mematuhi [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) untuk orang-orang yang ingin menolak pelacakan.
 
-Must not have any marketing which is irresponsible:
+Tidak boleh melakukan pemasaran yang tidak bertanggung jawab:
 
-- Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
-    - Reusing personal information (e.g., email accounts, unique pseudonyms, etc) that they accessed without anonymity software (Tor, VPN, etc.)
-    - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
-- Claim that a single circuit VPN is "more anonymous" than Tor, which is a circuit of three or more hops that regularly changes.
-- Use responsible language: i.e., it is okay to say that a VPN is "disconnected" or "not connected", however claiming that someone is "exposed", "vulnerable" or "compromised" is needless use of alarming language that may be incorrect. For example, that person might simply be on another VPN provider's service or using Tor.
+- Menjamin perlindungan anonimitas 100%. Ketika seseorang membuat klaim bahwa sesuatu itu 100%, itu berarti tidak ada kepastian untuk gagal. Kami tahu bahwa orang dapat dengan mudah menyamarkan nama mereka dengan beberapa cara, misalnya:
+    - Menggunakan kembali informasi pribadi (misalnya, akun surel, nama samaran unik, dll.) yang mereka akses tanpa perangkat lunak anonimitas (Tor, VPN, dll.)
+    - [Sidik jari peramban](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- Klaim bahwa VPN sirkuit tunggal "lebih anonim" daripada Tor, yang merupakan sirkuit tiga atau lebih loncatan yang secara teratur berubah.
+- Gunakan bahasa yang bertanggung jawab: misalnya, tidak masalah untuk mengatakan bahwa VPN "terputus" atau "tidak tersambung", namun mengklaim bahwa seseorang "terpapar", "rentan", atau "terkompromi" merupakan penggunaan bahasa yang tidak perlu dan tidak benar. Sebagai contoh, orang tersebut mungkin saja menggunakan layanan penyedia VPN lain atau menggunakan Tor.
 
-**Best Case:**
+**Kasus Terbaik:**
 
-Responsible marketing that is both educational and useful to the consumer could include:
+Pemasaran yang bertanggung jawab yang mendidik dan bermanfaat bagi konsumen dapat mencakup:
 
-- An accurate comparison to when [Tor](tor.md) should be used instead.
-- Availability of the VPN provider's website over a [.onion service](https://en.wikipedia.org/wiki/.onion)
+- Perbandingan yang akurat dengan kapan [Tor](tor.md) harus digunakan sebagai gantinya.
+- Ketersediaan situs web penyedia VPN melalui [layanan .onion](https://id.wikipedia.org/wiki/.onion)
 
-### Additional Functionality
+### Fungsionalitas Tambahan
 
-While not strictly requirements, there are some factors we looked into when determining which providers to recommend. These include adblocking/tracker-blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.
-
---8<-- "includes/abbreviations.id.txt"
+Meskipun tidak sepenuhnya merupakan persyaratan, ada beberapa faktor yang kami pertimbangkan ketika menentukan penyedia mana yang akan direkomendasikan. Ini termasuk fungsionalitas pemblokiran iklan/pelacak, kenari surat perintah, koneksi multihop, dukungan pelanggan yang luar biasa, jumlah koneksi simultan yang diizinkan, dll.

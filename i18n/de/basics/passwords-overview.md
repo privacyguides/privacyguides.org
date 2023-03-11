@@ -1,19 +1,20 @@
 ---
-title: "Introduction to Passwords"
+title: "Einführung in Passwörter"
 icon: 'material/form-textbox-password'
+description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 
-Passwords are an essential part of our everyday digital lives. We use them to protect our accounts, our devices and our secrets. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them, which often leads to people using passwords that can be easily guessed or brute-forced.
+Passwörter sind ein wesentlicher Bestandteil unseres täglichen digitalen Lebens. Wir nutzen sie, um unsere Konten, unsere Geräte und unsere Geheimnisse zu schützen. Obwohl sie oft das Einzige sind, was zwischen uns und Angreifenden steht, die es auf unsere privaten Daten abgesehen haben, wird nicht viel über sie nachgedacht, was oft dazu führt, dass Passwörter verwendet werden, die leicht zu erraten oder mit roher Gewalt heraus findbar sind.
 
-## Best Practices
+## Bewährte Praktiken
 
-### Use unique passwords for every service
+### Verwendung einzigartiger Kennwörter
 
 Imagine this; you sign up for an account with the same e-mail and password on multiple online services. If one of those service providers is malicious, or their service has a data breach that exposes your password in an unencrypted format, all a bad actor would have to do is try that e-mail and password combination across multiple popular services until they get a hit. It doesn't matter how strong that one password is, because they already have it.
 
 This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), and it is one of the most common ways that your accounts can be compromised by bad actors. To avoid this, make sure that you never re-use your passwords.
 
-### Use randomly generated passwords
+### Verwendung zufällig generierter Passwörter
 
 ==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware-passphrases) with sufficient entropy to protect your accounts and devices.
 
@@ -87,9 +88,9 @@ We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/e
 
 To sum it up, diceware passphrases are your best option when you need something that is both easy to remember *and* exceptionally strong.
 
-## Storing Passwords
+## Passwörter speichern
 
-### Password Managers
+### Passwortverwaltung
 
 The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
 
@@ -108,5 +109,3 @@ There are many good options to choose from, both cloud-based and local. Choose o
 ### Backups
 
 You should store an [encrypted](../encryption.md) backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.
-
---8<-- "includes/abbreviations.de.txt"

@@ -1,6 +1,7 @@
 ---
 title: "Multifactor-authenticatie"
 icon: 'material/two-factor-authentication'
+description: MFA is een cruciaal beveiligingsmechanisme voor de beveiliging van jouw online accounts, maar sommige methoden zijn sterker dan andere.
 ---
 
 **Multifactorauthenticatie** is een beveiligingsmechanisme dat extra stappen vereist naast het invoeren van jouw gebruikersnaam (of e-mail) en wachtwoord. De meest gebruikelijke methode zijn codes met tijdsbeperking die je via sms of een app kunt ontvangen.
@@ -206,5 +207,3 @@ SSH MFA kan ook worden ingesteld met TOTP. DigitalOcean heeft een tutorial besch
 ### KeePass (en KeePassXC)
 
 KeePass en KeePassXC databases kunnen worden beveiligd met Challenge-Response of HOTP als een tweede-factor authenticatie. Yubico heeft een document beschikbaar gesteld voor KeePass [Uw YubiKey gebruiken met KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) en er is er ook een op de [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
-
---8<-- "includes/abbreviations.nl.txt"

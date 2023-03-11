@@ -1,6 +1,7 @@
 ---
 title: "Fájlmegosztás és Szinkronizálás"
 icon: material/share-variant
+description: Fedezd fel, hogyan oszthatod meg fájljaid privát módon készülékek között, barátaiddal és családtagjaiddal vagy névtelenül online.
 ---
 
 Fedezd fel, hogyan oszthatod meg fájljaid privát módon készülékek között, barátaiddal és családtagjaiddal vagy névtelenül online.
@@ -48,7 +49,7 @@ ffsend upload --host https://send.vis.ee/ FÁJL
 
 ### Követelmények
 
-**Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** A [szabványos kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
+**Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
 
 !!! example "Ez a szakasz új"
 
@@ -126,7 +127,7 @@ ffsend upload --host https://send.vis.ee/ FÁJL
 
 ### Követelmények
 
-**Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** A [szabványos kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
+**Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
 
 !!! example "Ez a szakasz új"
 
@@ -144,5 +145,3 @@ A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretn
 
 - Van mobil kliense iOS és Android rendszerekre, amelyek legalább dokumentum előnézeteket támogatnak.
 - Támogatja fényképek biztonsági mentését iOS-ről és Androidról, és opcionálisan támogatja a fájl/mappa szinkronizálást Androidon.
-
---8<-- "includes/abbreviations.hu.txt"

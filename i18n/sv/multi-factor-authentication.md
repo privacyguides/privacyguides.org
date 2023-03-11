@@ -1,6 +1,7 @@
 ---
 title: "Multi-Factor Authenticators"
 icon: 'material/two-factor-authentication'
+description: These tools assist you with securing your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
 ---
 
 ## Hardware Security Keys
@@ -28,117 +29,115 @@ For models which support HOTP and TOTP, there are 2 slots in the OTP interface w
 !!! warning
     The firmware of YubiKey is not open-source and is not updatable. If you want features in newer firmware versions, or if there is a vulnerability in the firmware version you are using, you would need to purchase a new key.
 
-### Nitrokey / Librem Key
+### Nitrokey /Librem-nyckel
 
 !!! recommendation
 
     ![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
     
-    **Nitrokey** has a security key capable of [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) called the **Nitrokey FIDO2**. For PGP support, you need to purchase one of their other keys such as the **Nitrokey Start**, **Nitrokey Pro 2** or the **Nitrokey Storage 2**.
+    **Nitrokey** har en säkerhetsnyckel som kan [FIDO2 och WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) som heter **Nitrokey FIDO2**. För PGP-stöd måste du köpa en av deras andra nycklar som * * Nitrokey Start * *, * *NitrokeyPro 2** eller **NitrokeyStorage 2**.
     
-    [:octicons-home-16: Homepage](https://www.nitrokey.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.nitrokey.com/){ .card-link title=Documentation}
+    [:octicons-home-16: Repository](https://github.com/Hackeralert/Picocrypt){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/Hackeralert/Picocrypt){ .card-link title="Source Code" }
+    [:octicons-info-16:](https://docs.nitrokey.com){ .card-link title=Contribute}
 
-The [comparison table](https://www.nitrokey.com/#comparison) shows the features and how the Nitrokey models compare. The **Nitrokey 3** listed will have a combined feature set.
+Jämförelsetabellen [](https://www.nitrokey.com/#comparison) visar funktionerna och hur Nitrokey-modellerna jämför. De **Nitrokey 3** listade kommer att ha en kombinerad funktionsuppsättning.
 
-Nitrokey models can be configured using the [Nitrokey app](https://www.nitrokey.com/download).
+Nitrokey-modeller kan konfigureras med [Nitrokey-appen](https://www.nitrokey.com/download).
 
-For the models which support HOTP and TOTP, there are 3 slots for HOTP and 15 for TOTP. Some Nitrokeys can act as a password manager. They can store 16 different credentials and encrypt them using the same password as the OpenPGP interface.
+För de modeller som stöder HOTP och TOTP finns det 3 platser för HOTP och 15 för TOTP. Vissa Nitrokeys kan fungera som en lösenordshanterare. De kan lagra 16 olika autentiseringsuppgifter och kryptera dem med samma lösenord som OpenPGP-gränssnittet.
 
-!!! warning
+!!! varning
 
-    While Nitrokeys do not release the HOTP/TOTP secrets to the device they are plugged into, the HOTP and TOTP storage is **not** encrypted and is vulnerable to physical attacks. If you are looking to store HOTP or TOTP these secrets, we highly recommend that you use a Yubikey instead.
+    Även om Nitrokeys inte lämnar ut HOTP/TOTP-hemligheterna till den enhet de är anslutna till, är HOTP- och TOTP-lagringen **inte** krypterad och sårbar för fysiska attacker. Om du vill lagra HOTP- eller TOTP-hemligheter rekommenderar vi starkt att du använder en Yubikey i stället.
 
-!!! warning
+!!! varning
 
-    Resetting the OpenPGP interface on a Nitrokey will also make the password database [inaccessible](https://docs.nitrokey.com/pro/linux/factory-reset).
+    Återställning av OpenPGP-gränssnittet på en Nitrokey kommer också att göra lösenordsdatabasen [inaccessible](https://docs.nitrokey.com/pro/linux/factory-reset).
 
- The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports system integrity verification for laptops with the [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware. Purism's [Librem Key](https://puri.sm/products/librem-key/) is a rebranded NitroKey Pro 2 with similar firmware and can also be used for the same purposes.
+ Nitrokey Pro 2, Nitrokey Storage 2 och den kommande Nitrokey 3 stöder systemintegritetskontroll för bärbara datorer med [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware. Purism 's [Librem Key](https://puri.sm/products/librem-key/) är en rebranded NitroKey Pro 2 med liknande firmware och kan också användas för samma ändamål.
 
-Nitrokey's firmware is open-source, unlike the YubiKey. The firmware on modern NitroKey models (except the **NitroKey Pro 2**) is updatable.
+Nitrokey firmware är öppen källkod, till skillnad från YubiKey. Den inbyggda programvaran på moderna NitroKey-modeller (utom **NitroKey Pro 2**) kan uppdateras.
 
-!!! tip
+!!! dricks
 
-    The Nitrokey app, while compatible with Librem Keys, requires `libnitrokey` version 3.6 or above to recognize them. Currently, the package is outdated on Windows, macOS, and most Linux distributions' repository, so you will likely have to compile the Nitrokey app yourself to get it working with the Librem Key. On Linux, you can obtain an up-to-date version from [Flathub](https://flathub.org/apps/details/com.nitrokey.nitrokey-app).
+    Nitrokey-appen är kompatibel med Librem Keys, men kräver "libnitrokey "version 3.6 eller senare för att känna igen dem. För närvarande är paketet föråldrat i Windows, macOS och de flesta Linuxdistributioners arkiv, så du måste troligen kompilera Nitrokey-appen själv för att få den att fungera med Librem Key. På Linux kan du få en uppdaterad version från [Flathub](https://flathub.org/apps/details/com.nitrokey.nitrokey-app).
 
-### Criteria
+### Kriterier
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.
 
-!!! example "This section is new"
+!!! exempel "Det här avsnittet är nytt"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
 
-#### Minimum Requirements
+#### Minimikrav
 
-- Must use high quality, tamper resistant hardware security modules.
-- Must support the latest FIDO2 specification.
-- Must not allow private key extraction.
-- Devices which cost over $35 must support handling OpenPGP and S/MIME.
+- Måste använda högkvalitativa, manipuleringssäkra hårdvarusäkerhetsmoduler.
+- Måste stödja den senaste FIDO2-specifikationen.
+- Får inte tillåta utvinning av privata nycklar.
+- Enheter som kostar mer än 35 dollar måste ha stöd för hantering av OpenPGP och S/MIME.
 
-#### Best-Case
+#### Bästa fall
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Våra kriterier för bästa fall representerar vad vi skulle vilja se av det perfekta projektet i denna kategori. Våra rekommendationer kanske inte innehåller alla eller några av dessa funktioner, men de som gör det kan vara högre rankade än andra på den här sidan.
 
-- Should be available in USB-C form-factor.
-- Should be available with NFC.
-- Should support TOTP secret storage.
-- Should support secure firmware updates.
+- Bör finnas tillgänglig i USB-C-format.
+- Bör finnas tillgängligt med NFC.
+- Bör stödja TOTP hemlig lagring.
+- Bör stödja säkra uppdateringar av fast programvara.
 
-## Authenticator Apps
+## Autentiseringsapp
 
-Authenticator Apps implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. This is a method where websites share a secret with you which is used by your authenticator app to generate a six (usually) digit code based on the current time, which you enter while logging in for the website to check. Typically these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Even if a hacker gets one six-digit code, there is no way for them to reverse that code to get the original secret or otherwise be able to predict what any future codes might be.
+Authenticator Apps implementerar en säkerhetsstandard som antagits av Internet Engineering Task Force (IETF) kallad **Time-based Engångslösenord**eller **TOTP**. Detta är en metod där webbplatser delar en hemlighet med dig som används av din autentiseringsapp för att generera en sex (vanligtvis) siffrig kod baserat på aktuell tid, som du anger när du loggar in för att webbplatsen ska kontrollera. Vanligtvis regenereras dessa koder var 30: e sekund, och när en ny kod genereras blir den gamla värdelös. Även om en hackare får tag på en sexsiffrig kod finns det inget sätt för dem att vända på koden för att få fram den ursprungliga hemligheten eller på annat sätt kunna förutsäga vad framtida koder kan vara.
 
-We highly recommend that you use mobile TOTP apps instead of desktop alternatives as Android and iOS have better security and app isolation than most desktop operating systems.
+Vi rekommenderar starkt att du använder mobila TOTP-appar i stället för alternativ för datorer eftersom Android och iOS har bättre säkerhet och appisolering än de flesta operativsystem för datorer.
 
 ### Aegis Authenticator (Android)
 
 !!! recommendation
 
-    ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
+    ![Aegis logotyp](assets/img/multi-factor-authentication/aegis.png){ align=right }
     
-    **Aegis Authenticator** is a free, secure and open-source app to manage your 2-step verification tokens for your online services.
+    **Aegis Authenticator** är en gratis, säker och öppen källkodsapp för att hantera dina tvåstegsverifieringstokens för dina onlinetjänster.
     
-    [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
+    [:octicons-home-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki/){ .card-link title=Dokumentation}
+    [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Källkod" }
+    [:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment/){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? nedladdningar
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
-        - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
+        - [:simple-github: App Store](https://github.com/beemdevelopment/Aegis/releases)
 
 ### Raivo OTP (iOS)
 
 !!! recommendation
 
-    ![Raivo OTP logo](assets/img/multi-factor-authentication/raivo-otp.png){ align=right }
+    ![Raivo OTP-logotyp](assets/img/multi-factor-authentication/raivo-otp.png){ align=right }
     
-    **Raivo OTP** is a native, lightweight and secure time-based (TOTP) & counter-based (HOTP) password client for iOS. Raivo OTP offers optional iCloud backup & sync. Raivo OTP is also available for macOS in the form of a status bar application, however the Mac app does not work independently of the iOS app.
+    **Raivo OTP** är en inbyggd, lätt och säker tidsbaserad (TOTP) & kontrabaserad (HOTP) lösenordsklient för iOS. Raivo OTP erbjuder valfri iCloud backup & synkronisering. Raivo OTP finns också tillgängligt för macOS i form av en applikation i statusfältet, men Mac-appen fungerar inte oberoende av iOS-appen.
     
-    [:octicons-home-16: Homepage](https://raivo-otp.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://raivo-otp.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-code-16:](https://github.com/raivo-otp/ios-application){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title=Contribute }
+    [:octicons-home-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
     
-    ??? downloads
+    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-code-16:](https://github.com/raivo-otp/ios-application/){ .card-link title=Dokumentation}
+    [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title="Källkod" }
+    [](/){ .card-link title=Contribute??? nedladdningar
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
 
-### Criteria
+### Kriterier
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.
 
-!!! example "This section is new"
+!!! exempel "Det här avsnittet är nytt"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
 
-- Must be open-source software.
-- Must not require internet connectivity.
+- Måste vara programvara med öppen källkod.
+- Får inte kräva internetuppkoppling.
 - Must not sync to a third-party cloud sync/backup service.
     - **Optional** E2EE sync support with OS-native tools is acceptable, e.g. encrypted sync via iCloud.
-
---8<-- "includes/abbreviations.sv.txt"

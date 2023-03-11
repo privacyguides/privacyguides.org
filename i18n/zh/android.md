@@ -1,6 +1,7 @@
 ---
 title: "安卓"
 icon: 'simple/android'
+description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
 ---
 
 ![安卓徽标](assets/img/android/android.svg){ align=right }
@@ -13,12 +14,13 @@ icon: 'simple/android'
 
 这些是我们推荐的安卓操作系统、设备和应用程序，以最大限度地提高你的移动设备的安全和隐私。 要了解更多关于安卓的信息。
 
-- [安卓概况 :material-arrow-right-drop-circle:](os/android-overview.md)
-- [为什么我们推荐GrapheneOS而不是CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/)
+[General Android Overview :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
+
+[Why we recommend GrapheneOS over CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
 
 ## AOSP 衍生品
 
-我们建议在你的设备上安装这些定制的安卓操作系统之一，根据你的设备与这些操作系统的兼容性，按偏好顺序列出。
+We recommend installing one of these custom Android operating systems on your device, listed in order of preference, depending on your device's compatibility with these operating systems.
 
 !!! note
 
@@ -41,9 +43,9 @@ icon: 'simple/android'
     [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="源代码" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title="贡献" }
 
-GrapheneOS支持 [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play)，它像其他普通应用程序一样完全在沙盒中运行 [Google Play服务](https://en.wikipedia.org/wiki/Google_Play_Services)。 这意味着你可以利用大多数Google Play服务，如 [推送通知](https://firebase.google.com/docs/cloud-messaging/)，同时让你完全控制其权限和访问，同时将其包含在你选择的特定 [工作档案](os/android-overview.md#work-profile) 或 [用户档案](os/android-overview.md#user-profiles)。
+GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) fully sandboxed like any other regular app. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging/), while giving you full control over their permissions and access, and while containing them to a specific [work profile](os/android-overview.md#work-profile) or [user profile](os/android-overview.md#user-profiles) of your choice.
 
-谷歌Pixel手机是目前唯一符合GrapheneOS的 [硬件安全要求的设备](https://grapheneos.org/faq#device-support)。
+Google Pixel phones are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#device-support).
 
 ### DivestOS
 
@@ -60,11 +62,11 @@ GrapheneOS支持 [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-
     [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="源代码" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title="贡献" }
 
-DivestOS有自动的内核漏洞([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [补丁](https://gitlab.com/divested-mobile/cve_checker)，更少的专有blobs，以及一个自定义的 [hosts](https://divested.dev/index.php?page=dnsbl) 文件。 其加固的WebView， [Mulch](https://gitlab.com/divested-mobile/mulch)，使 [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) ，用于所有架构和 [网络状态分区](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning)，并接收带外更新。 DivestOS还包括来自GrapheneOS的内核补丁，并通过 [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758)，启用所有可用的内核安全功能。 所有比3.4版更新的内核都包括全页面 [sanitization](https://lwn.net/Articles/334747/) ，所有~22个Clang编译的内核都启用了 [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471)。
+DivestOS has automated kernel vulnerability ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), fewer proprietary blobs, and a custom [hosts](https://divested.dev/index.php?page=dnsbl) file. Its hardened WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), enables [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) for all architectures and [network state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning), and receives out-of-band updates. DivestOS also includes kernel patches from GrapheneOS and enables all available kernel security features via [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). All kernels newer than version 3.4 include full page [sanitization](https://lwn.net/Articles/334747/) and all ~22 Clang-compiled kernels have [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) enabled.
 
-DivestOS实现了一些最初为GrapheneOS开发的系统加固补丁。 DivestOS 16.0及以上版本实现了GrapheneOS的 [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) 和SENSORS权限切换， [硬化的内存分配器](https://github.com/GrapheneOS/hardened_malloc)， [exec-spawning](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/#additional-hardening)， [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) [constification](https://en.wikipedia.org/wiki/Const_(computer_programming))，以及部分 [bionic](https://en.wikipedia.org/wiki/Bionic_(software)) 硬化补丁集。 17.1和更高版本的GrapheneOS的每个网络完全 [MAC随机化](https://en.wikipedia.org/wiki/MAC_address#Randomization) 选项， [`ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) 控制，以及自动重启/Wi-Fi/蓝牙 [超时选项](https://grapheneos.org/features)。
+DivestOS implements some system hardening patches originally developed for GrapheneOS. DivestOS 16.0 and higher implements GrapheneOS's [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) and SENSORS permission toggle, [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/#additional-hardening), [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) [constification](https://en.wikipedia.org/wiki/Const_(computer_programming)), and partial [bionic](https://en.wikipedia.org/wiki/Bionic_(software)) hardening patchsets. 17.1 and higher features GrapheneOS's per-network full [MAC randomization](https://en.wikipedia.org/wiki/MAC_address#Randomization) option, [`ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) control, and automatic reboot/Wi-Fi/Bluetooth [timeout options](https://grapheneos.org/features).
 
-DivestOS使用F-Droid作为其默认应用商店。 通常情况下，我们会建议避免使用F-Droid，因为它有许多 [安全问题](#f-droid)。 然而，在DivestOS上这样做是不可行的；开发者通过他们自己的F-Droid仓库更新他们的应用程序([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) and [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2))。 我们建议禁用官方F-Droid应用程序，并使用 [Neo Store](https://github.com/NeoApplications/Neo-Store/) ，启用DivestOS仓库，以保持这些组件的更新。 对于其他应用程序，我们推荐的获取方法仍然适用。
+DivestOS uses F-Droid as its default app store. Normally, we would recommend avoiding F-Droid due to its numerous [security issues](#f-droid). However, doing so on DivestOS isn't viable; the developers update their apps via their own F-Droid repositories ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) and [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). We recommend disabling the official F-Droid app and using [Neo Store](https://github.com/NeoApplications/Neo-Store/) with the DivestOS repositories enabled to keep those components up to date. For other apps, our recommended methods of obtaining them still apply.
 
 !!! 推荐
 
@@ -74,21 +76,21 @@ DivestOS使用F-Droid作为其默认应用商店。 通常情况下，我们会�
 
 ## 安卓设备
 
-在购买设备时，我们建议尽可能购买新的设备。 移动设备的软件和固件只支持有限的时间，因此购买新的设备可以尽可能地延长这一寿命。
+When purchasing a device, we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible.
 
-避免从移动网络运营商那里购买电话。 这些产品通常有一个 **锁定的引导加载器** ，不支持 [OEM解锁](https://source.android.com/devices/bootloader/locking_unlocking)。 这些手机变体将阻止你安装任何种类的替代性安卓发行。
+Avoid buying phones from mobile network operators. These often have a **locked bootloader** and do not support [OEM unlocking](https://source.android.com/devices/bootloader/locking_unlocking). These phone variants will prevent you from installing any kind of alternative Android distribution.
 
-对于从网上市场购买二手手机，要非常 **小心**。 始终检查卖家的声誉。 如果设备被盗，有可能 [IMEI黑名单](https://www.gsma.com/security/resources/imei-blacklisting/)。 您与前任所有者的活动相关联的风险也存在。
+Be very **careful** about buying second hand phones from online marketplaces. Always check the reputation of the seller. If the device is stolen, there's a possibility of [IMEI blacklisting](https://www.gsma.com/security/resources/imei-blacklisting/). There is also a risk involved with you being associated with the activity of the previous owner.
 
-还有一些关于安卓设备和操作系统兼容性的提示。
+A few more tips regarding Android devices and operating system compatibility:
 
-- 不要购买已经达到或接近其使用寿命的设备，额外的固件更新必须由制造商提供。
-- 不要购买预装的LineageOS或/e/OS手机或任何没有适当 [核实启动](https://source.android.com/security/verifiedboot) 支持和固件更新的安卓手机。 这些设备也没有办法让你检查它们是否被篡改过。
-- 简而言之，如果一个设备或Android发行版没有在这里列出，可能有一个很好的理由。 请查看我们的 [论坛](https://discuss.privacyguides.net/) ，了解详情!
+- Do not buy devices that have reached or are near their end-of-life, additional firmware updates must be provided by the manufacturer.
+- Do not buy preloaded LineageOS or /e/ OS phones or any Android phones without proper [Verified Boot](https://source.android.com/security/verifiedboot) support and firmware updates. These devices also have no way for you to check whether they've been tampered with.
+- In short, if a device or Android distribution is not listed here, there is probably a good reason. Check out our [forum](https://discuss.privacyguides.net/) to find details!
 
 ### Google Pixel
 
-谷歌像素手机是我们推荐购买的 **唯一** 设备。 由于对第三方操作系统的适当AVB支持和谷歌定制的 [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) 安全芯片作为安全元件，Pixel手机的硬件安全性比目前市场上的任何其他安卓设备都强。
+Google Pixel phones are the **only** devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third-party operating systems and Google's custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element.
 
 !!! recommendation
 
@@ -100,22 +102,22 @@ DivestOS使用F-Droid作为其默认应用商店。 通常情况下，我们会�
     
     [:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
-像泰坦M2这样的安全元件比大多数其他手机使用的处理器的可信执行环境更加有限，因为它们只用于秘密存储、硬件证明和速率限制，而不是用于运行 "可信 "程序。 没有安全元件的手机必须使用TEE来 *，所有这些功能的* ，从而导致更大的攻击面。
+Secure Elements like the Titan M2 are more limited than the processor's Trusted Execution Environment used by most other phones as they are only used for secrets storage, hardware attestation, and rate limiting, not for running "trusted" programs. Phones without a Secure Element have to use the TEE for *all* of those functions, resulting in a larger attack surface.
 
-谷歌Pixel手机使用的是名为Trusty的TEE操作系统，它是 [开源](https://source.android.com/security/trusty#whyTrusty)，与其他许多手机不同。
+Google Pixel phones use a TEE OS called Trusty which is [open-source](https://source.android.com/security/trusty#whyTrusty), unlike many other phones.
 
-在Pixel手机上安装GrapheneOS很容易，他们的 [网页安装程序](https://grapheneos.org/install/web)。 如果你觉得自己做起来不舒服，并且愿意多花一点钱，可以看看 [NitroPhone](https://shop.nitrokey.com/shop) ，因为它们预装了GrapheneOS，来自著名的 [Nitrokey](https://www.nitrokey.com/about) 公司。
+The installation of GrapheneOS on a Pixel phone is easy with their [web installer](https://grapheneos.org/install/web). If you don't feel comfortable doing it yourself and are willing to spend a bit of extra money, check out the [NitroPhone](https://shop.nitrokey.com/shop) as they come preloaded with GrapheneOS from the reputable [Nitrokey](https://www.nitrokey.com/about) company.
 
-购买谷歌Pixel的另外几个提示：
+A few more tips for purchasing a Google Pixel:
 
-- 如果你想买到便宜的Pixel设备，我们建议购买"**a**"型号，就在下一个旗舰机发布之后。 通常会有折扣，因为谷歌将试图清理他们的库存。
-- 考虑在实体店提供的打价方案和特价商品。
-- 看看你所在国家的在线社区便宜货网站。 这些可以提醒你有好的销售。
-- 谷歌提供了一个列表，显示了他们每个设备的 [支持周期](https://support.google.com/nexus/answer/4457705)。 设备每天的价格可以计算为。$\text{Cost} \over \text {EOL Date}-\text{Current Date}$，意味着设备使用时间越长，每天的费用越低。
+- If you're after a bargain on a Pixel device, we suggest buying an "**a**" model, just after the next flagship is released. Discounts are usually available because Google will be trying to clear their stock.
+- Consider price beating options and specials offered at physical stores.
+- Look at online community bargain sites in your country. These can alert you to good sales.
+- Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as: $\text{Cost} \over \text {EOL Date}-\text{Current Date}$, meaning that the longer use of the device the lower cost per day.
 
 ## 常规应用程序
 
-我们在整个网站上推荐了各种各样的安卓应用。 这里列出的应用程序是安卓独有的，专门加强或取代关键的系统功能。
+We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
 
 ### Shelter
 
@@ -160,22 +162,17 @@ DivestOS使用F-Droid作为其默认应用商店。 通常情况下，我们会�
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
         - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 
-Auditor通过以下方式进行鉴证和入侵检测。
+Auditor performs attestation and intrusion detection by:
 
-- </em>在 *审计员* 和 *被审计者*之间使用 [首次使用信任（TOFU）](https://en.wikipedia.org/wiki/Trust_on_first_use) 模式，该配对在
+- Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an *auditor* and *auditee*, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore/) of the *Auditor*.
+- The *auditor* can either be another instance of the Auditor app or the [Remote Attestation Service](https://attestation.app).
+- The *auditor* records the current state and configuration of the *auditee*.
+- Should tampering with the operating system of the *auditee* happen after the pairing is complete, the auditor will be aware of the change in the device state and configurations.
+- You will be alerted to the change.
 
-审计员 *的硬件支持的密钥库</a> 中建立一个私人密钥。</li> 
-  
-  - *审计员* ，可以是审计师应用程序的另一个实例，也可以是 [远程认证服务](https://attestation.app)。
-- *审计员* 记录了 *审计对象*的当前状态和配置。
-- 如果在配对完成后发生篡改 *审计对象的操作系统* ，审计人员将意识到设备状态和配置的变化。
-- 你会被提醒注意这一变化。</ul> 
+No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
 
-没有个人身份信息被提交给证明服务。 我们建议你用匿名账户注册，并启用远程认证，以进行持续监控。
-
-如果你的 [威胁模型](basics/threat-modeling.md) 需要隐私，你可以考虑使用 [Orbot](tor.md#orbot) 或VPN，从证明服务中隐藏你的IP地址。 为了确保你的硬件和操作系统是真实的， [，在设备安装后，在任何互联网连接之前，立即进行本地认证](https://grapheneos.org/install/web#verifying-installation)。
-
-
+If your [threat model](basics/threat-modeling.md) requires privacy, you could consider using [Orbot](tor.md#orbot) or a VPN to hide your IP address from the attestation service. To make sure that your hardware and operating system is genuine, [perform local attestation](https://grapheneos.org/install/web#verifying-installation) immediately after the device has been installed and prior to any internet connection.
 
 ### Secure Camera
 
@@ -196,22 +193,18 @@ Auditor通过以下方式进行鉴证和入侵检测。
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
         - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
-    
 
-主要隐私功能包括：
+Main privacy features include:
 
-- 自动删除 [Exif](https://en.wikipedia.org/wiki/Exif) 元数据（默认启用）。
-- 使用新的 [媒体](https://developer.android.com/training/data-storage/shared/media) API，因此不需要 [存储权限](https://developer.android.com/training/data-storage)
-- 除非您想录制声音，否则不需要麦克风权限
+- Auto removal of [Exif](https://en.wikipedia.org/wiki/Exif) metadata (enabled by default)
+- Use of the new [Media](https://developer.android.com/training/data-storage/shared/media) API, therefore [storage permissions](https://developer.android.com/training/data-storage) are not required
+- Microphone permission not required unless you want to record sound
 
 !!! note
 
     目前，元数据没有从视频文件中删除，但这是计划中的。
     
     图像方向元数据未被删除。 如果你启用位置（在安全相机中），**也不会被删除。 如果你以后想删除，你将需要使用一个外部应用程序，如 [ExifEraser]（data-redaction.md#exiferaser）。
-    
-
-
 
 ### 安全的PDF查看器（Secure PDF Viewer）
 
@@ -233,23 +226,16 @@ Auditor通过以下方式进行鉴证和入侵检测。
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
         - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
-    
-
-
 
 ## 获取应用程序
 
-
-
 ### GrapheneOS应用商店
 
-GrapheneOS的应用商店可在 [GitHub](https://github.com/GrapheneOS/Apps/releases)。 它支持Android 12及更高版本，并且能够自行更新。 该应用商店有GrapheneOS项目建立的独立应用，如 [Auditor](https://attestation.app/)、 [Camera](https://github.com/GrapheneOS/Camera)、 [PDF Viewer](https://github.com/GrapheneOS/PdfViewer)。 如果你正在寻找这些应用程序，我们强烈建议你从GrapheneOS的应用程序商店而不是Play商店获得它们，因为他们商店的应用程序是由GrapheneOS的项目自己的签名，而谷歌无法访问。
-
-
+GrapheneOS's app store is available on [GitHub](https://github.com/GrapheneOS/Apps/releases). It supports Android 12 and above and is capable of updating itself. The app store has standalone applications built by the GrapheneOS project such as the [Auditor](https://attestation.app/), [Camera](https://github.com/GrapheneOS/Camera), and [PDF Viewer](https://github.com/GrapheneOS/PdfViewer). If you are looking for these applications, we highly recommend that you get them from GrapheneOS's app store instead of the Play Store, as the apps on their store are signed by the GrapheneOS's project own signature that Google does not have access to.
 
 ### 奥罗拉商店（Aurora Store）
 
-Google Play商店需要一个Google账户来登录，这对隐私来说不是很好。 你可以通过使用一个替代的客户端，如Aurora Store，来解决这个问题。
+The Google Play Store requires a Google account to login which is not great for privacy. You can get around this by using an alternative client, such as Aurora Store.
 
 !!! recommendation
 
@@ -263,47 +249,36 @@ Google Play商店需要一个Google账户来登录，这对隐私来说不是很
     ??? 下载
     
         - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
-    
 
-Aurora Store不允许您下载具有匿名帐户功能的付费应用程序。 您可以选择使用Aurora Store登录您的Google帐户下载您购买的应用程序，这确实可以访问您安装到Google的应用程序列表，但是您仍然可以从不需要完整的Google Play客户端和Google Play服务或设备上的microG中受益。
-
-
+Aurora Store does not allow you to download paid apps with their anonymous account feature. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google, however you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
 
 ### 手动使用RSS通知
 
-对于在GitHub和GitLab等平台上发布的应用程序，你也许可以在你的 [新闻聚合器](/news-aggregators) ，添加一个RSS源，这将有助于你跟踪新版本。
+For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](/news-aggregators) that will help you keep track of new releases.
 
-![RSS应用](./assets/img/android/rss-apk-light.png#only-light) ![RSS应用](./assets/img/android/rss-apk-dark.png#only-dark) ![APK 变更](./assets/img/android/rss-changes-light.png#only-light) ![APK 变更](./assets/img/android/rss-changes-dark.png#only-dark)
-
-
+![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](./assets/img/android/rss-changes-light.png#only-light) ![APK Changes](./assets/img/android/rss-changes-dark.png#only-dark)
 
 #### GitHub
 
-在GitHub上，以 [安全相机](#secure-camera) 为例，你可以导航到它的 [发布页](https://github.com/GrapheneOS/Camera/releases) ，并在URL上附加 `.atom`。
+On GitHub, using [Secure Camera](#secure-camera) as an example, you would navigate to its [releases page](https://github.com/GrapheneOS/Camera/releases) and append `.atom` to the URL:
 
 `https://github.com/GrapheneOS/Camera/releases.atom`
 
-
-
 #### GitLab
 
-在GitLab上，以 [Aurora Store](#aurora-store) 为例，你可以导航到它的 [项目库](https://gitlab.com/AuroraOSS/AuroraStore) ，并在URL上附加 `/-/tags?format=atom`。
+On GitLab, using [Aurora Store](#aurora-store) as an example, you would navigate to its [project repository](https://gitlab.com/AuroraOSS/AuroraStore) and append `/-/tags?format=atom` to the URL:
 
 `https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
-
-
 #### Verifying APK Fingerprints
 
-如果你下载APK文件进行手动安装，你可以用 [`apksigner`](https://developer.android.com/studio/command-line/apksigner) 工具验证其签名，这是Android [build-tools](https://developer.android.com/studio/releases/build-tools)的一部分。
+If you download APK files to install manually, you can verify their signature with the [`apksigner`](https://developer.android.com/studio/command-line/apksigner) tool, which is a part of Android [build-tools](https://developer.android.com/studio/releases/build-tools).
 
 1. 安装 [Java JDK](https://www.oracle.com/java/technologies/downloads/)。
 
 2. 下载 [Android Studio命令行工具](https://developer.android.com/studio#command-tools)。
 
-3. 解压缩下载的存档： 
-   
-   
+3. 解压缩下载的存档：
 
     ```bash
     unzip commandlinetools-*.zip
@@ -311,19 +286,13 @@ Aurora Store不允许您下载具有匿名帐户功能的付费应用程序。 �
     ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
     ```
 
-
-4. 运行签名验证命令。 
-   
-   
+4. 运行签名验证命令。
 
     ```bash
     ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
     ```
 
-
-5. 然后，所产生的哈希值可以与另一个来源进行比较。 一些开发商，如Signal [，在其网站上显示了指纹](https://signal.org/android/apk/)。 
-   
-   
+5. 然后，所产生的哈希值可以与另一个来源进行比较。 一些开发商，如Signal [，在其网站上显示了指纹](https://signal.org/android/apk/)。
 
     ```bash
     Signer #1 certificate DN: CN=GrapheneOS
@@ -332,27 +301,21 @@ Aurora Store不允许您下载具有匿名帐户功能的付费应用程序。 �
     Signer #1 certificate MD5 digest: dbbcd0cac71bd6fa2102a0297c6e0dd3
     ```
 
-
-
-
 ### F-Droid
 
-![F-Droid徽标](assets/img/android/f-droid.svg){ align=right width=120px }
+![F-Droid logo](assets/img/android/f-droid.svg){ align=right width=120px }
 
-==我们 **，而不是** ，目前推荐F-Droid作为获取应用程序的一种方式。==F-Droid经常被推荐为Google Play的替代品，特别是在隐私社区。 添加第三方资源库并不局限于谷歌的围墙花园这一选择导致了它的流行。 F-Droid另外还有 [可复制的构建](https://f-droid.org/en/docs/Reproducible_Builds/) ，用于一些应用程序，并致力于自由和开源软件。 然而，有 [显著的问题](https://privsec.dev/posts/android/f-droid-security-issues/) ，官方F-Droid客户端，他们的质量控制，以及他们如何建立、签署和交付包裹。
+==We do **not** currently recommend F-Droid as a way to obtain apps.== F-Droid is often recommended as an alternative to Google Play, particularly in the privacy community. The option to add third-party repositories and not be confined to Google's walled garden has led to its popularity. F-Droid additionally has [reproducible builds](https://f-droid.org/en/docs/Reproducible_Builds/) for some applications and is dedicated to free and open-source software. However, there are [notable problems](https://privsec.dev/posts/android/f-droid-security-issues/) with the official F-Droid client, their quality control, and how they build, sign, and deliver packages.
 
-由于他们构建应用程序的过程，F-Droid官方资源库中的应用程序经常在更新上落后。 F-Droid维护者在用自己的密钥签署应用程序时也会重复使用包的ID，这并不理想，因为它给了F-Droid团队最终的信任。
+Due to their process of building apps, apps in the official F-Droid repository often fall behind on updates. F-Droid maintainers also reuse package IDs while signing apps with their own keys, which is not ideal as it gives the F-Droid team ultimate trust.
 
-其他流行的第三方资源库，如 [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) ，缓解了其中的一些担忧。 IzzyOnDroid存储库直接从GitHub拉取构建，是开发者自己存储库的下一个最好的东西。 However, it is not something that we can recommend, as apps are typically [removed](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) from that respository when they make it to the main F-Droid repository. 虽然这是有道理的（因为该特定仓库的目标是在应用程序被接受到F-Droid主仓库之前托管它们），但它可能会让你安装的应用程序不再收到更新。
+Other popular third-party repositories such as [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) alleviate some of these concerns. The IzzyOnDroid repository pulls builds directly from GitHub and is the next best thing to the developers' own repositories. However, it is not something that we can recommend, as apps are typically [removed](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) from that respository when they make it to the main F-Droid repository. While that makes sense (since the goal of that particular repository is to host apps before they're accepted into the main F-Droid repository), it can leave you with installed apps which no longer receive updates.
 
-That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) repositories are home to countless apps, so they can be a useful tool to search for and discover open-source apps that you can then download through Play Store, Aurora Store, or by getting the APK directly from the developer. 重要的是要记住，这些资源库中的一些应用程序已经多年没有更新，可能依赖于不支持的库等，构成潜在的安全风险。 在通过这种方法寻找新的应用程序时，你应该使用你的最佳判断力。
+That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) repositories are home to countless apps, so they can be a useful tool to search for and discover open-source apps that you can then download through Play Store, Aurora Store, or by getting the APK directly from the developer. It is important to keep in mind that some apps in these repositories have not been updated in years and may rely on unsupported libraries, among other things, posing a potential security risk. You should use your best judgement when looking for new apps via this method.
 
 !!! note
 
     In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](https://gadgetbridge.org/) is one example of this). If you really need an app like that, we recommend using [Neo Store](https://github.com/NeoApplications/Neo-Store/) instead of the official F-Droid app to obtain it.
-    
-
-
 
 ## Criteria
 
@@ -361,36 +324,27 @@ That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](htt
 !!! example "This section is new"
 
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
-    
-
-
 
 ### 服务供应商
 
 - 它必须是开源软件。
-- 必须支持引导器锁定，支持自定义AVB密钥。
-- 必须在发布后0-1个月内接受主要的安卓系统更新。
-- 必须在发布后0-14天内收到安卓功能更新（小版本）。
-- 必须在发布后0-5天内收到定期安全补丁。
-- 必须 **，而不是** ，开箱即 被"root"了。
-- 必须 **，而不是** ，默认启用Google Play服务。
-- 必须 **，而不是** ，需要修改系统以支持Google Play服务。
-
-
+- Must support bootloader locking with custom AVB key support.
+- Must receive major Android updates within 0-1 months of release.
+- Must receive Android feature updates (minor version) within 0-14 days of release.
+- Must receive regular security patches within 0-5 days of release.
+- Must **not** be "rooted" out of the box.
+- Must **not** enable Google Play Services by default.
+- Must **not** require system modification to support Google Play Services.
 
 ### 设备
 
-- 必须支持至少一个我们推荐的定制操作系统。
-- 必须是目前在商店里销售的新产品。
-- 必须接受至少5年的安全更新。
-- 必须有专门的安全要素硬件。
-
-
+- Must support at least one of our recommended custom operating systems.
+- Must be currently sold new in stores.
+- Must receive a minimum of 5 years of security updates.
+- Must have dedicated secure element hardware.
 
 ### 应用程序
 
-- 本页的应用程序不得适用于网站上的任何其他软件类别。
-- 一般的应用程序应该扩展或取代核心系统功能。
-- 应用程序应定期得到更新和维护。
-
---8<-- "includes/abbreviations.zh.txt"
+- Applications on this page must not be applicable to any other software category on the site.
+- General applications should extend or replace core system functionality.
+- Applications should receive regular updates and maintenance.

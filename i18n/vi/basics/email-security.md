@@ -1,6 +1,7 @@
 ---
 title: Email Security
 icon: material/email
+description: Email is inherently insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
 ---
 
 Email is an insecure form of communication by default. You can improve your email security with tools such as OpenPGP, which add End-to-End Encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications, and some email data can never be encrypted inherently due to how email is designed.
@@ -38,5 +39,3 @@ Email metadata is protected from outside observers with [Opportunistic TLS](http
 ### Why Can't Metadata be E2EE?
 
 Email metadata is crucial to the most basic functionality of email (where it came from, and where it has to go). E2EE was not built into the email protocols originally, instead requiring add-on software like OpenPGP. Because OpenPGP messages still have to work with traditional email providers, it cannot encrypt email metadata, only the message body itself. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as who you're emailing, the subject lines, when you're emailing, etc.
-
---8<-- "includes/abbreviations.vi.txt"

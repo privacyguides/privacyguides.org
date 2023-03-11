@@ -1,6 +1,7 @@
 ---
 title: "Rimozione di dati e metadati"
 icon: material/tag-remove
+description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
 ---
 
 Quando vengono condivisi file, è importante rimuovere i relativi metadata. I file immagine includono comunemente dati [Exif](https://it.wikipedia.org/wiki/Exif). I metadata delle foto, a volte, includono anche le coordinate GPS.
@@ -151,5 +152,3 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Vale
 
 - Le applicazioni sviluppate per sistemi operativi open-source devono essere open-source.
 - Le applicazioni devono essere gratuite e non devono includere pubblicità o altre limitazioni.
-
---8<-- "includes/abbreviations.it.txt"

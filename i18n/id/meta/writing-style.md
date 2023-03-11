@@ -1,89 +1,87 @@
 ---
-title: Writing Style
+title: Gaya Penulisan
 ---
 
-Privacy Guides is written in American English, and you should refer to [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) when in doubt.
+Privacy Guides ditulis dalam bahasa Inggris Amerika, dan Anda harus merujuk ke [pedoman Gaya APA](https://apastyle.apa.org/style-grammar-guidelines/grammar) jika ragu.
 
-In general the [United States federal plain language guidelines](https://www.plainlanguage.gov/guidelines/) provide a good overview of how to write clearly and concisely. We highlight a few important notes from these guidelines below.
+Secara umum, [pedoman bahasa sederhana federal Amerika Serikat](https://www.plainlanguage.gov/guidelines/) memberikan gambaran umum yang baik tentang cara menulis dengan jelas dan ringkas. Kami menyoroti beberapa catatan penting dari panduan ini di bawah ini.
 
-## Writing for our audience
+## Menulis untuk audiens kami
 
 Privacy Guides' intended [audience](https://www.plainlanguage.gov/guidelines/audience/) is primarily average, technology using adults. Don't dumb down content as if you are addressing a middle-school class, but don't overuse complicated terminology about concepts average computer users wouldn't be familiar with.
 
-### Address only what people want to know
+### Sampaikan hanya apa yang ingin diketahui oleh orang lain
 
-People don't need overly complex articles with little relevance to them. Figure out what you want people to accomplish when writing an article, and only include those details.
+Orang tidak membutuhkan artikel yang terlalu rumit dengan sedikit relevansi bagi mereka. Cari tahu apa yang Anda ingin orang capai saat menulis artikel, dan hanya sertakan detail itu.
 
-> Tell your audience why the material is important to them. Say, “If you want a research grant, here’s what you have to do.” Or, “If you want to mine federal coal, here’s what you should know.” Or, “If you’re planning a trip to Rwanda, read this first.”
+> Beri tahu audiens Anda mengapa materi itu penting bagi mereka. Katakanlah, "Jika Anda menginginkan hibah penelitian, inilah yang harus Anda lakukan." Or, “If you want to mine federal coal, here’s what you should know.” Atau, "Jika Anda merencanakan perjalanan ke Rwanda, bacalah ini terlebih dahulu."
 
 ### Address people directly
 
-We're writing *for* a wide variety of people, but we are writing *to* the person who is actually reading it. Use "you" to address the reader directly.
+Kami menulis *untuk* berbagai macam orang, tetapi kami menulis *untuk* orang yang benar-benar membacanya. Use "you" to address the reader directly.
 
 > More than any other single technique, using “you” pulls users into the information and makes it relevant to them.
 > 
 > When you use “you” to address users, they are more likely to understand what their responsibility is.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
+Sumber: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
 
-### Avoid "users"
+### Hindari "pengguna"
 
-Avoid calling people "users", in favor of "people", or a more specific description of the group of people you are writing for.
+Hindari menyebut orang sebagai "pengguna", lebih baik gunakan "orang", atau deskripsi yang lebih spesifik tentang kelompok orang yang Anda tulis.
 
-## Organizing content
+## Mengatur konten
 
-Organization is key. Content should flow from most to least important information, and use headers as much as needed to logically separate different ideas.
+Organisasi adalah kuncinya. Content should flow from most to least important information, and use headers as much as needed to logically separate different ideas.
 
-- Limit the document to around five or six sections. Long documents should probably be broken up into separate pages.
-- Mark important ideas with **bold** or *italics*.
+- Batasi dokumen menjadi sekitar lima atau enam bagian. Dokumen panjang mungkin harus dipecah menjadi halaman terpisah.
+- Tandai ide-ide penting dengan **cetak tebal** atau *cetak miring*.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
+Sumber: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
 
-### Begin with a topic sentence
+### Mulailah dengan kalimat topik
 
-> If you tell your reader what they’re going to read about, they’re less likely to have to read your paragraph again. Headings help, but they’re not enough. Establish a context for your audience before you provide them with the details.
+> Jika Anda memberi tahu pembaca apa yang akan mereka baca, kemungkinan besar mereka tidak perlu membaca paragraf Anda lagi. Judul memang membantu, tetapi tidak cukup. Tetapkan konteks untuk audiens Anda sebelum Anda memberi mereka detailnya.
 > 
-> We often write the way we think, putting our premises first and then our conclusion. It may be the natural way to develop thoughts, but we wind up with the topic sentence at the end of the paragraph. Move it up front and let users know where you’re going. Don’t make readers hold a lot of information in their heads before getting to the point.
+> Kita sering menulis sesuai dengan cara kita berpikir, dengan mengutamakan premis-premis kita terlebih dahulu, baru kemudian kesimpulan. Ini mungkin cara alami untuk mengembangkan pikiran, tetapi kita berakhir dengan kalimat topik di akhir paragraf. Pindahkan ke depan dan beri tahu pengguna ke mana tujuan Anda. Jangan membuat pembaca menyimpan banyak informasi di kepala mereka sebelum sampai ke intinya.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
+Sumber: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
 
-## Choose your words carefully
+## Pilih kata-kata Anda dengan hati-hati
 
-> Words matter. They are the most basic building blocks of written and spoken communication. Don’t complicate things by using jargon, technical terms, or abbreviations that people won’t understand.
+> Kata-kata itu penting. Mereka adalah blok bangunan paling dasar dari komunikasi tertulis dan lisan. Jangan mempersulit dengan menggunakan jargon, istilah teknis, atau singkatan yang tidak dimengerti orang.
 
-We should try to avoid abbreviations where possible, but technology is full of abbreviations. In general, spell out the abbreviation/acronym the first time it is used on a page, and add the abbreviation to the abbreviation glossary file when it is used repeatedly.
+Kita harus mencoba menghindari singkatan jika memungkinkan, tetapi teknologi penuh dengan singkatan. Secara umum, menguraikan singkatan/akronim pertama kali digunakan pada halaman, dan menambahkan singkatan ke file glosarium singkatan ketika digunakan berulang kali.
 
-> Kathy McGinty offers tongue-in-cheek instructions for bulking up your simple, direct sentences:
+> Kathy McGinty memberikan petunjuk yang mudah dipahami untuk meningkatkan kalimat-kalimat Anda yang sederhana dan langsung:
 > 
-> > There is no escaping the fact that it is considered very important to note that a number of various available applicable studies ipso facto have generally identified the fact that additional appropriate nocturnal employment could usually keep juvenile adolescents off thoroughfares during the night hours, including but not limited to the time prior to midnight on weeknights and/or 2 a.m. on weekends.
+> > There is no escaping the fact that it is considered very important to note that a number of various available applicable studies ipso facto have generally identified the fact that additional appropriate nocturnal employment could usually keep juvenile adolescents off thoroughfares during the night hours, including but not limited to the time prior to midnight on weeknights and/or 2 a.m. pada akhir pekan.
 > 
-> And the original, using stronger, simpler words:
+> Dan yang asli, menggunakan kata-kata yang lebih kuat dan lebih sederhana:
 > 
-> > More night jobs would keep youths off the streets.
+> > Lebih banyak pekerjaan malam akan menjauhkan anak muda dari jalanan.
 
 ## Be concise
 
-> Unnecessary words waste your audience’s time. Great writing is like a conversation. Omit information that the audience doesn’t need to know. This can be difficult as a subject matter expert so it’s important to have someone look at the information from the audience’s perspective.
+> Kata-kata yang tidak perlu akan membuang waktu audiens Anda. Tulisan yang bagus itu seperti sebuah percakapan. Omit information that the audience doesn’t need to know. Hal ini bisa menjadi sulit sebagai seorang ahli materi, jadi penting untuk memiliki seseorang yang melihat informasi dari sudut pandang audiens.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
+Sumber: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
 ## Keep text conversational
 
-> Verbs are the fuel of writing. They give your sentences power and direction. They enliven your writing and make it more interesting.
+> Kata kerja adalah bahan bakar untuk menulis. Mereka memberikan kekuatan dan arah pada kalimat Anda. Mereka menghidupkan tulisan Anda dan membuatnya lebih menarik.
 > 
-> Verbs tell your audience what to do. Make sure it’s clear who does what.
+> Kata kerja memberi tahu audiens Anda apa yang harus dilakukan. Pastikan jelas siapa yang melakukan apa.
 
-### Use active voice
+### Gunakan suara aktif
 
-> Active voice makes it clear who is supposed to do what. It eliminates ambiguity about responsibilities. Not “It must be done,” but “You must do it.”
+> Suara aktif memperjelas siapa yang seharusnya melakukan apa. Hal ini menghilangkan ambiguitas tentang tanggung jawab. Bukan "Ini harus dilakukan," tetapi "Anda harus melakukannya."
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
+Sumber: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
 
-### Use "must" for requirements
+### Gunakan "harus" untuk persyaratan
 
-> - “must” for an obligation
-> - “must not” for a prohibition
+> - "harus" untuk suatu kewajiban
+> - "tidak boleh" untuk sebuah larangan
 > - “may” for a discretionary action
-> - “should” for a recommendation
-
---8<-- "includes/abbreviations.id.txt"
+> - "harus" untuk sebuah rekomendasi

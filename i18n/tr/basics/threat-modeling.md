@@ -1,6 +1,7 @@
 ---
 title: "Tehdit Modellemesi"
 icon: 'material/target-account'
+description: Gizlilik yolculuğunuzda yüzleşeceğiniz ilk ve en zorlu görev; güvenliği, gizliliği ve kullanılabilirliği dengeleyebilmektir.
 ---
 
 Gizlilik yolculuğunuzda yüzleşeceğiniz ilk ve en zorlu görev; güvenliği, gizliliği ve kullanılabilirliği dengeleyebilmektir. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
@@ -107,5 +108,3 @@ For people looking to increase their privacy and security online, we've compiled
 ## Kaynaklar
 
 - [EFF Surveillance Self Defense: Güvenlik Planınız](https://ssd.eff.org/en/module/your-security-plan)
-
---8<-- "includes/abbreviations.tr.txt"

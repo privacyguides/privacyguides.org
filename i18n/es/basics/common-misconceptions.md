@@ -1,6 +1,7 @@
 ---
 title: "Conceptos erróneos comunes"
 icon: 'material/robot-confused'
+description: Privacy isn't a straightforward topic, and it's easy to get caught up in marketing claims and other disinformation.
 ---
 
 ## "El software de código abierto es siempre seguro" o "El software propietario es más seguro"
@@ -44,7 +45,7 @@ Uno de los modelos de amenaza más claros es aquel en el que la gente *sabe qui�
 
     No sugerimos usar una VPN o Tor para ninguna de estas cosas, ya que tu identidad ya es conocida por otros medios.
 
-    !!! tip
+    !!! consejo
    
         Al comprar en línea, el uso de un [casillero de paquetes](https://en.wikipedia.org/wiki/Parcel_locker) puede ayudar a mantener la privacidad de tu dirección física.
 
@@ -55,7 +56,5 @@ Uno de los modelos de amenaza más claros es aquel en el que la gente *sabe qui�
 3. **Identidad anónima** - Incluso con experiencia, las identidades anónimas son difíciles de mantener durante largos periodos de tiempo. Deben ser identidades a corto plazo y de corta duración que roten regularmente.
 
     Usar Tor puede ayudar con esto. También cabe destacar que es posible un mayor anonimato mediante la comunicación asíncrona: La comunicación en tiempo real es vulnerable al análisis de los patrones de escritura (es decir, más de un párrafo de texto, distribuido en un foro, por correo electrónico, etc.)
-
---8<-- "includes/abbreviations.es.txt"
 
 [^1]: Un ejemplo notable de esto es [el incidente de 2021 en el que investigadores de la Universidad de Minnesota introdujeron tres vulnerabilidades en el proyecto de desarrollo del kernel de Linux](https://cse.umn.edu/cs/linux-incident).

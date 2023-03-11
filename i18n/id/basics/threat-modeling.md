@@ -1,6 +1,7 @@
 ---
 title: "Threat Modeling"
 icon: 'material/target-account'
+description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
 ---
 
 Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
@@ -98,7 +99,7 @@ Only once you have asked yourself these questions will you be in a position to a
 
 Making a security plan will help you to understand the threats that are unique to you and to evaluate your assets, your adversaries, and your adversaries' capabilities, along with the likelihood of risks you face.
 
-## Further Reading
+## Bacaan Lebih Lanjut
 
 For people looking to increase their privacy and security online, we've compiled a list of common threats our visitors face or goals our visitors have, to give you some inspiration and demonstrate the basis of our recommendations.
 
@@ -107,5 +108,3 @@ For people looking to increase their privacy and security online, we've compiled
 ## Sources
 
 - [EFF Surveillance Self Defense: Your Security Plan](https://ssd.eff.org/en/module/your-security-plan)
-
---8<-- "includes/abbreviations.id.txt"

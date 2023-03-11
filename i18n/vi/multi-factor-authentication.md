@@ -1,6 +1,7 @@
 ---
 title: "Multi-Factor Authenticators"
 icon: 'material/two-factor-authentication'
+description: These tools assist you with securing your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
 ---
 
 ## Hardware Security Keys
@@ -152,5 +153,3 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 - Must not require internet connectivity.
 - Must not sync to a third-party cloud sync/backup service.
     - **Optional** E2EE sync support with OS-native tools is acceptable, e.g. encrypted sync via iCloud.
-
---8<-- "includes/abbreviations.vi.txt"

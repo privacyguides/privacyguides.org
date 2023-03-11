@@ -1,6 +1,7 @@
 ---
 title: "Rete Tor"
 icon: simple/torproject
+description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
 ---
 
 ![Logo Tor](assets/img/self-contained-networks/tor.svg){ align=right }
@@ -15,13 +16,7 @@ La rete **Tor** è un gruppo di server gestiti da volontari che permette di conn
 
 Tor funziona instradando il traffico internet attraverso questi server gestiti da volontari, invece di effettuare una connessione diretta al sito che si sta cercando di visitare. In questo modo si offusca la provenienza del traffico e nessun server nel percorso di connessione è in grado di vedere il percorso completo del traffico proveniente e diretto, il che significa che nemmeno i server utilizzati per connettersi possono violare l'anonimato.
 
-<figure markdown>
-  ![Tor path](assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path](assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway - I nodi del percorso possono vedere solo i server a cui sono direttamente collegati, ad esempio il nodo "Entry" mostrato può vedere il vostro indirizzo IP e l'indirizzo del nodo "Middle", ma non ha modo di vedere quale sito web state visitando.</figcaption>
-</figure>
-
-- [Maggiori informazioni sul funzionamento di Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md)
+[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
 
 ## Connessione a Tor
 
@@ -120,5 +115,3 @@ Per resistere agli attacchi di analisi del traffico, considera di abilitare *Iso
 Snowflake non aumenta in alcun modo la tua privacy e non viene utilizzato per connettersi alla rete Tor all'interno del tuo browser personale. Tuttavia, se la tua connessione a Internet non è censurata, dovresti prendere in considerazione la possibilità di utilizzarlo per aiutare le persone che si trovano in reti censurate a ottenere una migliore privacy. Non c'è bisogno di preoccuparsi dei siti web a cui le persone accedono attraverso il tuo proxy: il loro indirizzo IP di navigazione visibile corrisponderà al loro nodo di uscita Tor, non al tuo.
 
 La gestione di un proxy Snowflake è a basso rischio, anche più della gestione di un relay o bridge di Tor, che già non sono attività particolarmente rischiose. Tuttavia, il traffico viene comunque instradato attraverso la tua rete, il che può avere un certo impatto, soprattutto se la tua rete ha una larghezza di banda limitata. Assicurati di comprendere [come Snowflake funziona](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) prima di decidere se gestire un proxy.
-
---8<-- "includes/abbreviations.it.txt"

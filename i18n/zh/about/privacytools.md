@@ -35,7 +35,6 @@ PrivacyTools由“BurungHantu”于2015年创立，他希望在斯诺登揭露�
 ## 社区呼吁行动
 
 </a> 在2021年7月底，我们
-
 ，通知PrivacyTools社区，我们打算选择一个新的名字，并在一个新的域名上继续项目，将在2022年8月2日选择 [](https://web.archive.org/web/20210729190935/https://aragon.cloud/apps/forms/cMPxG9KyopapBbcw)。 最后，"Privacy Guides "被选中， `privacyguides.org` 域名已经被Jonah拥有，用于2020年的一个副业项目，但没有得到发展。</p> 
 
 
@@ -142,5 +141,3 @@ BurungHantu还在Twitter上发了一篇 [的帖子](https://twitter.com/privacyt
 - [2022年4月2日u/dng99对PrivacyTools的指责性博文的回应](https://www.reddit.com/comments/tuo7mm/comment/i35kw5a/)
 - [2022年5月16日，由@TommyTran732在Twitter上回应](https://twitter.com/TommyTran732/status/1526153497984618496)
 - [2022年9月3日在Techlore的论坛上发表的帖子：@dngray](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
-
---8<-- "includes/abbreviations.zh.txt"

@@ -1,6 +1,7 @@
 ---
 title: "Strumenti di produttività"
 icon: material/file-sign
+description: La maggior parte delle suite per ufficio online non supportano la crittografia end-to-end, il che significa che il provider del cloud ha accesso a tutto ciò che fai.
 ---
 
 La maggior parte delle suite per ufficio online non supportano la crittografia end-to-end, il che significa che il provider del cloud ha accesso a tutto ciò che fai. L'informativa sulla privacy potrebbe proteggere legalmente i tuoi diritti, ma non fornisce vincoli tecnici di accesso.
@@ -177,5 +178,3 @@ In general, we define office suites as applications which could reasonably act a
     [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Public Instances"}
     [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
-
---8<-- "includes/abbreviations.it.txt"

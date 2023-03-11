@@ -1,6 +1,7 @@
 ---
 title: "Email Diensten"
 icon: material/email
+description: Deze e-mailproviders bieden een uitstekende plaats om jouw e-mails veilig op te slaan, en vele bieden interoperabele OpenPGP versleuteling met andere providers.
 ---
 
 E-mail is bijna een noodzaak voor het gebruik van elke online dienst, maar wij raden het niet aan voor gesprekken van persoon tot persoon. In plaats van e-mail te gebruiken om andere mensen te contacteren, kunt u overwegen een instant messaging medium te gebruiken dat forward secrecy ondersteunt.
@@ -9,15 +10,27 @@ E-mail is bijna een noodzaak voor het gebruik van elke online dienst, maar wij r
 
 Voor al het andere raden wij verschillende e-mailproviders aan op basis van duurzame bedrijfsmodellen en ingebouwde beveiligings- en privacyfuncties.
 
+- [OpenPGP-compatibele e-mailproviders :material-arrow-right-drop-circle:](#openpgp-compatible-services)
+- [Andere versleutelde aanbieders :material-arrow-right-drop-circle:](#more-providers)
+- [E-mail Aliasing Services :material-arrow-right-drop-circle:](#email-aliasing-services)
+- [Zelf-gehoste opties :material-arrow-right-drop-circle:](#self-hosting-email)
+
 ## OpenPGP compatibele diensten
 
-Deze providers ondersteunen native OpenPGP-encryptie/decryptie, waardoor provider-agnostische E2EE-e-mails mogelijk zijn. Een Proton Mail-gebruiker zou bijvoorbeeld een E2EE-bericht kunnen sturen naar een Mailbox.org-gebruiker, of je zou OpenPGP-versleutelde meldingen kunnen ontvangen van internetdiensten die dit ondersteunen.
+Deze providers ondersteunen standaard OpenPGP-encryptie/decryptie en het Web Key Directory (WKD) -standaard, waardoor provider-agnostische E2EE-e-mails mogelijk zijn. Een Proton Mail-gebruiker zou bijvoorbeeld een E2EE-bericht kunnen sturen naar een Mailbox.org-gebruiker, of je zou OpenPGP-versleutelde meldingen kunnen ontvangen van internetdiensten die dit ondersteunen.
+
+<div class="grid cards" markdown>
+
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+
+</div>
 
 !!! warning "Waarschuwing"
 
     Wanneer gebruik wordt gemaakt van E2EE-technologie zoals OpenPGP, zullen e-mailberichten nog steeds metagegevens bevatten die niet zijn versleuteld in de header van het e-mailbericht. Lees meer over [e-mail metadata](basics/email-security.md#email-metadata-overview).
     
-    OpenPGP ondersteunt ook geen Forward secrecy, wat betekent dat als uw of de geadresseerde's privésleutel ooit wordt gestolen, alle eerdere berichten die ermee zijn versleuteld, openbaar worden. [Hoe bescherm ik mijn privésleutels?](basics/email-security.md#how-do-i-protect-my-private-keys)
+    OpenPGP ondersteunt ook geen forward secrecy, wat betekent dat als uw of de geadresseerde's privésleutel ooit wordt gestolen, alle eerdere berichten die ermee zijn versleuteld, openbaar worden. [Hoe bescherm ik mijn privésleutels?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### Proton Mail
 
@@ -49,41 +62,41 @@ Als je Proton Unlimited, Business of Visionary hebt, krijg je ook [SimpleLogin](
 
 Proton Mail heeft interne crash rapporten die ze **niet** delen met derden. Dit kan worden uitgeschakeld in: **Instellingen** > **Ga naar Instellingen** > **Account** > **Beveiliging en privacy** > **Crashmeldingen versturen**.
 
-??? success "Aangepaste domeinen en aliassen"
+#### :material-check:{ .pg-green } Aangepaste domeinen en aliassen
 
-    Betalende Proton Mail-abonnees kunnen hun eigen domein bij de dienst gebruiken of een [catch-all](https://proton.me/support/catch-all) adres. Proton Mail ondersteunt ook [subaddressing](https://proton.me/support/creating-aliases), wat handig is voor mensen die geen domein willen kopen.
+Betaalde Proton Mail abonnees kunnen hun eigen domein met de dienst gebruiken of een [catch-all](https://proton.me/support/catch-all) adres. Proton Mail ondersteunt ook [subadressering](https://proton.me/support/creating-aliases), wat handig is voor mensen die geen domein willen kopen.
 
-??? success "Privé betaalmethoden"
+#### :material-check:{ .pg-green } Privé betaalmethodes
 
-    Proton Mail [accepteerd](https://proton.me/support/payment-options) Bitcoin en contant geld per post naast de standaard credit/debetkaart en PayPal-betalingen.
+Proton Mail [accepteert](https://proton.me/support/payment-options) contant geld per post, naast standaard creditcard/debetkaart, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), en PayPal-betalingen.
 
-??? success "Account beveiliging"
+#### :material-check:{ .pg-green } Accountbeveiliging
 
-    Proton Mail ondersteunt alleen TOTP [tweefactorauthenticatie](https://proton.me/support/two-factor-authentication-2fa). Het gebruik van een U2F beveiligingssleutel wordt nog niet ondersteund. Proton Mail is van plan U2F te implementeren na voltooiing van hun [Single Sign On (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/) code.
+Proton Mail ondersteunt alleen TOTP [twee factor authenticatie](https://proton.me/support/two-factor-authentication-2fa). Het gebruik van een U2F beveiligingssleutel wordt nog niet ondersteund. Proton Mail is van plan U2F te implementeren na voltooiing van hun \[Single Sign On (SSO)\](https://reddit.com/comments/cheoy6/comment/feh2lw0/) code.
 
-??? success "Gegevens beveiliging"
+#### :material-check:{ .pg-green } Gegevensbeveiliging
 
-    Proton Mail heeft [zero-access encryption](https://proton.me/blog/zero-access-encryption) in rust voor jouw e-mails en [calendars](https://proton.me/news/protoncalendar-security-model). Gegevens die zijn beveiligd met zero-access encryptie zijn alleen voor jouw toegankelijk.
-    
-    Bepaalde in [Proton Contacts](https://proton.me/support/proton-contacts) opgeslagen informatie, zoals namen en e-mailadressen, zijn niet beveiligd met zero access encryptie. Contact velden die zero-access encryptie ondersteunen, zoals telefoonnummers, worden aangegeven met een hangslot pictogram.
+Proton Mail heeft [zero-access encryptie](https://proton.me/blog/zero-access-encryption) in rust voor jouw e-mails en [agenda's](https://proton.me/news/protoncalendar-security-model). Gegevens die zijn beveiligd met zero-access encryptie zijn alleen voor jouw toegankelijk.
 
-??? success "Email Encryptiie"
+Bepaalde in \[Proton Contacts\](https://proton.me/support/proton-contacts) opgeslagen informatie, zoals namen en e-mailadressen, zijn niet beveiligd met zero access encryptie. Contact velden die zero-access encryptie ondersteunen, zoals telefoonnummers, worden aangegeven met een hangslot pictogram.
 
-    Proton Mail heeft [geïntegreerde OpenPGP-encryptie](https://proton.me/support/how-to-use-pgp) in hun webmail. E-mails naar andere Proton Mail-accounts worden automatisch versleuteld, en versleuteling naar niet-Proton Mail-adressen met een OpenPGP-sleutel kan eenvoudig worden ingeschakeld in jouw accountinstellingen. Zij laten u ook toe [berichten te coderen naar niet-Proton Mail adressen](https://proton.me/support/password-protected-emails) zonder dat zij zich moeten aanmelden voor een Proton Mail account of software zoals OpenPGP moeten gebruiken.
-    
-    Proton Mail ondersteunt ook de ontdekking van openbare sleutels via HTTP vanuit hun [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Hierdoor kunnen mensen die geen Proton Mail gebruiken de OpenPGP sleutels van Proton Mail accounts gemakkelijk vinden, voor cross-provider E2EE.
+#### :material-check:{ .pg-green } Email Encryptie
 
-??? warning "Digitale erfgoed"
+Proton Mail heeft [OpenPGP encryptie](https://proton.me/support/how-to-use-pgp) geïntegreerd in hun webmail. E-mails naar andere Proton Mail-accounts worden automatisch versleuteld, en versleuteling naar niet-Proton Mail-adressen met een OpenPGP-sleutel kan eenvoudig worden ingeschakeld in jouw accountinstellingen. U kunt hiermee ook [berichten versleutelen naar niet-Proton Mail adressen](https://proton.me/support/password-protected-emails) zonder dat zij zich hoeven aan te melden voor een Proton Mail account of software zoals OpenPGP hoeven te gebruiken.
 
-    Proton Mail biedt geen digitale erfenisfunctie.
+Proton Mail ondersteunt ook de ontdekking van openbare sleutels via HTTP van hun [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Hierdoor kunnen mensen die geen Proton Mail gebruiken de OpenPGP sleutels van Proton Mail accounts gemakkelijk vinden, voor cross-provider E2EE.
 
-??? info "Account beëindiging"
+#### :material-alert-outline:{ .pg-orange } Digitale erfenis
 
-    Als je een betaalde account hebt en je [rekening is onbetaald](https://proton.me/support/delinquency) na 14 dagen, krijg je geen toegang tot je gegevens. Na 30 dagen wordt uw account delinquent en ontvangt u geen inkomende e-mail. Tijdens deze periode wordt u nog steeds gefactureerd.
+Proton Mail biedt geen digitale erfenisfunctie.
 
-??? info "Aanvullende Functionaliteit"
+#### :material-information-outline:{ .pg-blue } Beëindiging van account
 
-    Proton Mail biedt een "Unlimited" account voor €9,99/maand, die ook toegang geeft tot Proton VPN, naast meerdere accounts, domeinen, aliassen en 500GB opslagruimte.
+Als je een betaalde account hebt en je \[rekening is onbetaald\](https://proton.me/support/delinquency) na 14 dagen, krijg je geen toegang tot je gegevens. Na 30 dagen wordt uw account delinquent en ontvangt u geen inkomende e-mail. Tijdens deze periode wordt u nog steeds gefactureerd.
+
+#### :material-information-outline:{ .pg-blue } Extra functionaliteit
+
+Proton Mail biedt een "Unlimited" account voor €9,99/maand, die ook toegang geeft tot Proton VPN, naast meerdere accounts, domeinen, aliassen en 500GB opslagruimte.
 
 ### Mailbox.org
 
@@ -101,43 +114,54 @@ Proton Mail heeft interne crash rapporten die ze **niet** delen met derden. Dit 
     
         - [:octicons-browser-16: Web](https://login.mailbox.org)
 
-??? success "Aangepaste domeinen en aliassen"
+#### :material-check:{ .pg-green } Aangepaste domeinen en aliassen
 
-    Mailbox.org staat je toe jouw eigen domein te gebruiken, en zij ondersteunen [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) adressen. Mailbox.org ondersteunt ook [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), wat handig is als je geen domein wilt kopen.
+Mailbox.org laat je je eigen domein gebruiken en ze ondersteunen [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) adressen. Mailbox.org ondersteunt ook [subadressering](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), wat handig is als je geen domein wilt kopen.
 
-??? info "Privé betaalmethoden"
+#### :material-check:{ .pg-green } Privé betaalmethodes
 
-    Mailbox.org accepteert geen Bitcoin of andere cryptocurrencies als gevolg van het feit dat hun betalingsverwerker BitPay zijn activiteiten in Duitsland heeft opgeschort. Zij aanvaarden echter wel Contant geld per post, contante betaling op bankrekening, bankoverschrijving, kredietkaart, PayPal en een paar Duits-specifieke verwerkers: paydirekt en Sofortüberweisung.
+Mailbox.org accepteert geen Bitcoin of andere cryptocurrencies als gevolg van het feit dat hun betalingsverwerker BitPay zijn activiteiten in Duitsland heeft opgeschort. Zij aanvaarden echter wel Contant geld per post, contante betaling op bankrekening, bankoverschrijving, kredietkaart, PayPal en een paar Duits-specifieke verwerkers: paydirekt en Sofortüberweisung.
 
-??? success "Account beveiliging"
+#### :material-check:{ .pg-green } Accountbeveiliging
 
-    Mailbox.org ondersteunt [tweefactorauthenticatie](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) alleen voor hun webmail. U kunt zowel TOTP als een [Yubikey](https://en.wikipedia.org/wiki/YubiKey) gebruiken via de [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Webstandaarden zoals [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) worden nog niet ondersteund.
+Mailbox.org ondersteunt [twee-factor authenticatie](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) alleen voor hun webmail. Je kunt TOTP of een [Yubikey](https://en.wikipedia.org/wiki/YubiKey) gebruiken via de [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Webstandaarden zoals [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) worden nog niet ondersteund.
 
-??? info "Gegevens beveiliging"
+#### :material-information-outline:{ .pg-blue } Gegevensbeveiliging
 
-    Mailbox.org maakt versleuteling van inkomende mail mogelijk door gebruik te maken van hun [versleutelde mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). Nieuwe berichten die je ontvangt, worden dan onmiddellijk versleuteld met jouw openbare sleutel.
-    
-    [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), het softwareplatform dat door Mailbox.org wordt gebruikt, [ondersteunt echter niet](https://kb.mailbox.org/display/BMBOKBEN/Encryption+van+kalender+en+adres+boek) de encryptie van jouw adresboek en agenda. Een [standalone optie](calendar.md) is misschien meer geschikt voor die informatie.
+Mailbox.org maakt encryptie van inkomende mail mogelijk met behulp van hun [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). Nieuwe berichten die je ontvangt, worden dan onmiddellijk versleuteld met jouw openbare sleutel.
 
-??? success "Email Encryptiie"
+Echter, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), het softwareplatform dat wordt gebruikt door Mailbox.org, [ondersteunt niet](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) de versleuteling van jouw adresboek en agenda. Een [zelfstandige optie](calendar.md) kan geschikter zijn voor die informatie.
 
-    Mailbox.org heeft [geïntegreerde encryptie](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in hun webmail, wat het verzenden van berichten naar mensen met openbare OpenPGP-sleutels vereenvoudigt. Zij staan ook [ontvangers op afstand toe een e-mail te ontsleutelen](https://kb.mailbox.org/display/MBOKBEN/My+ontvanger+gebruikt+geen+PGP) op de servers van Mailbox.org. Deze functie is nuttig wanneer de ontvanger op afstand geen OpenPGP heeft en geen kopie van de e-mail in zijn eigen mailbox kan ontsleutelen.
-    
-    Mailbox.org ondersteunt ook de ontdekking van openbare sleutels via HTTP vanuit hun [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Hierdoor kunnen mensen buiten Mailbox.org gemakkelijk de OpenPGP sleutels van Mailbox.org accounts vinden, voor cross-provider E2EE.
+#### :material-check:{ .pg-green } Email Encryptie
 
-??? success "Digitale erfgoed"
+Mailbox.org heeft [geïntegreerde encryptie](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in hun webmail, wat het verzenden van berichten naar mensen met openbare OpenPGP-sleutels vereenvoudigt. Ze staan ook [externe ontvangers toe om een e-mail](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) op de servers van Mailbox.org te ontsleutelen. Deze functie is nuttig wanneer de ontvanger op afstand geen OpenPGP heeft en geen kopie van de e-mail in zijn eigen mailbox kan ontsleutelen.
 
-    Mailbox.org heeft een digitale erfenis voor alle plannen. Je kunt kiezen of je wilt dat jouw gegevens worden doorgegeven aan jouw erfgenamen, mits zij een aanvraag indienen en jouw testament overleggen. Je kunt ook een persoon nomineren met naam en adres.
+Mailbox.org ondersteunt ook de ontdekking van publieke sleutels via HTTP vanuit hun [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Hierdoor kunnen mensen buiten Mailbox.org gemakkelijk de OpenPGP sleutels van Mailbox.org accounts vinden, voor cross-provider E2EE.
 
-??? info "Account beëindiging"
+#### :material-check:{ .pg-green } Digitale erfenis
 
-    Jouw account zal worden ingesteld op een beperkte gebruikersaccount wanneer jouw contract eindigt, na [30 dagen zal het onherroepelijk worden verwijderd](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Mailbox.org heeft een digitale erfenis voor alle plannen. Je kunt kiezen of je wilt dat jouw gegevens worden doorgegeven aan jouw erfgenamen, mits zij een aanvraag indienen en jouw testament overleggen. Je kunt ook een persoon nomineren met naam en adres.
 
-??? info "Aanvullende Functionaliteit"
+#### :material-information-outline:{ .pg-blue } Beëindiging van account
 
-    Je kunt toegang krijgen tot jouw Mailbox.org account via IMAP/SMTP door gebruik te maken van hun [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+van+mailbox.org). Hun webmailinterface is echter niet toegankelijk via hun .onion dienst en je kunt TLS-certificaatfouten ondervinden.
-    
-    Alle accounts worden geleverd met beperkte cloudopslag die [kan worden versleuteld](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org biedt ook de alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), die de TLS-encryptie afdwingt op de verbinding tussen mailservers, anders wordt het bericht helemaal niet verzonden. Mailbox.org ondersteunt ook [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync), naast standaard toegangsprotocollen zoals IMAP en POP3.
+Je account wordt ingesteld op een beperkt gebruikersaccount zodra je contract is beëindigd, na [30 dagen wordt deze onherroepelijk verwijderd](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+
+#### :material-information-outline:{ .pg-blue } Beëindiging van account
+
+Je hebt toegang tot jouw Mailbox.org account via IMAP/SMTP met behulp van hun [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). Hun webmailinterface is echter niet toegankelijk via hun .onion dienst en je kunt TLS-certificaatfouten ondervinden.
+
+Alle accounts worden geleverd met beperkte cloud-opslag die [kan worden versleuteld](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org biedt ook de alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), die de TLS-versleuteling op de verbinding tussen mailservers afdwingt, anders wordt het bericht helemaal niet verzonden. Mailbox.org ondersteunt ook [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) naast standaard toegangs protocollen zoals IMAP en POP3.
+
+## Meer providers
+
+Deze providers slaan jouw e-mails op met zero-knowledge encryptie, waardoor ze geweldige opties zijn om jouw opgeslagen e-mails veilig te houden. Zij ondersteunen echter geen interoperabele versleutelingsnormen voor E2EE-communicatie tussen aanbieders.
+
+<div class="grid cards" markdown>
+
+- ![StartMail logo](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
+- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+
+</div>
 
 ### StartMail
 
@@ -156,43 +180,39 @@ Proton Mail heeft interne crash rapporten die ze **niet** delen met derden. Dit 
     
         - [:octicons-browser-16: Web](https://mail.startmail.com/login)
 
-??? success "Aangepaste domeinen en aliassen"
+#### :material-check:{ .pg-green } Aangepaste domeinen en aliassen
 
-    Persoonlijke accounts kunnen [Custom of Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) aliassen gebruiken. [Eigen domeinen](https://support.startmail.com/hc/nl-nl/articles/4403911432209-Setup-a-custom-domain) zijn ook beschikbaar.
+Persoonlijke accounts kunnen [aangepaste of Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) aliassen gebruiken. [Aangepaste domeinen](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) zijn ook beschikbaar.
 
-??? warning "Privé betaalmethoden"
+#### :material-alert-outline:{ .pg-orange } Privé betaalmethodes
 
-    StartMail accepteert Visa, MasterCard, American Express en Paypal. StartMail heeft ook andere [betalingsopties](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) zoals Bitcoin (momenteel alleen voor Persoonlijke accounts) en SEPA Direct Debit voor accounts ouder dan een jaar.
+StartMail accepteert Visa, MasterCard, American Express en Paypal. StartMail heeft ook andere [betalingsopties](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) zoals [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (momenteel alleen voor Persoonlijke accounts) en SEPA Direct Debit voor accounts ouder dan een jaar.
 
-??? success "Account beveiliging"
+#### :material-check:{ .pg-green } Accountbeveiliging
 
-    StartMail ondersteunt TOTP tweefactorauthenticatie [alleen voor webmail](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). Zij staan geen U2F-authenticatie met beveiligingssleutel toe.
+StartMail ondersteunt TOTP tweefactorauthenticatie [alleen voor webmail](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). Zij staan geen U2F-authenticatie met beveiligingssleutel toe.
 
-??? info "Gegevens beveiliging"
+#### :material-information-outline:{ .pg-blue } Gegevensbeveiliging
 
-    StartMail heeft [zero access encryption at rest](https://www.startmail.com/en/whitepaper/#_Toc458527835), met behulp van hun "user vault" systeem. Wanneer je inlogt, wordt de kluis geopend, en de e-mail wordt dan uit de wachtrij naar de kluis verplaatst, waar hij wordt ontsleuteld met de bijbehorende privésleutel.
-    
-    StartMail ondersteunt het importeren van [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts), maar deze zijn alleen toegankelijk in de webmail en niet via protocollen zoals [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacten worden ook niet opgeslagen met behulp van zero knowledge encryptie.
+StartMail heeft [zero access encryptie bij rust](https://www.startmail.com/en/whitepaper/#_Toc458527835), met behulp van hun "user vault" systeem. Wanneer je inlogt, wordt de kluis geopend, en de e-mail wordt dan uit de wachtrij naar de kluis verplaatst, waar hij wordt ontsleuteld met de bijbehorende privésleutel.
 
-??? success "Email Encryptiie"
+StartMail ondersteunt het importeren van [contacten](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) echter, ze zijn alleen toegankelijk in de webmail en niet via protocollen zoals [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacten worden ook niet opgeslagen met behulp van zero knowledge encryptie.
 
-    StartMail heeft [geïntegreerde encryptie](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in hun webmail, wat het verzenden van versleutelde berichten met openbare OpenPGP-sleutels vergemakkelijkt.
+#### :material-check:{ .pg-green } Email Encryptie
 
-??? warning "Digitale erfgoed"
+StartMail heeft [encryptie](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) geïntegreerd in hun webmail, wat het versturen van versleutelde berichten met openbare OpenPGP-sleutels vereenvoudigt. Ze ondersteunen echter niet de Web Key Directory-standaard, waardoor de ontdekking van de openbare sleutel van een Startmail-postvak uitdagender wordt voor andere e-mailproviders of -clients.
 
-    StartMail biedt geen digitale erfenisfunctie.
+#### :material-alert-outline:{ .pg-orange } Digitale erfenis
 
-??? info "Account beëindiging"
+StartMail biedt geen digitale erfenisfunctie.
 
-    Bij afloop van de account zal StartMail jouw account definitief verwijderen na [6 maanden in 3 fasen](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
+#### :material-information-outline:{ .pg-blue } Beëindiging van account
 
-??? info "Aanvullende Functionaliteit"
+Bij afloop van jouw account, zal StartMail jouw account definitief verwijderen na [6 maanden in 3 fasen](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
 
-    StartMail maakt proxying van afbeeldingen in e-mails mogelijk. Als je toestaat dat het beeld op afstand wordt geladen, weet de verzender niet wat jouw IP-adres is.
+#### :material-information-outline:{ .pg-blue } extra functionaliteit
 
-## Meer providers
-
-Deze providers slaan jouw e-mails op met zero-knowledge encryptie, waardoor ze geweldige opties zijn om jouw opgeslagen e-mails veilig te houden. Zij ondersteunen echter geen interoperabele versleutelingsnormen voor E2EE-communicatie tussen aanbieders.
+StartMail maakt proxying van afbeeldingen in e-mails mogelijk. Als je toestaat dat het beeld op afstand wordt geladen, weet de verzender niet wat jouw IP-adres is.
 
 ### Tutanota
 
@@ -220,43 +240,50 @@ Deze providers slaan jouw e-mails op met zero-knowledge encryptie, waardoor ze g
 
 Tutanota ondersteunt het [IMAP protocol](https://tutanota.com/faq/#imap) em het gebruik van e-mailclients van derden niet[](email-clients.md), en je zult ook niet in staat zijn om [externe e-mailaccounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) toe te voegen aan de Tutanota app. Beide [E-mail import](https://github.com/tutao/tutanota/issues/630) of [submappen](https://github.com/tutao/tutanota/issues/927) worden momenteel ondersteund, hoewel dit binnenkort [zal worden gewijzigd](https://tutanota.com/blog/posts/kickoff-import). E-mails kunnen [individueel of per bulk selectie](https://tutanota.com/howto#generalMail) per map worden geëxporteerd, wat onhandig kan zijn als je veel mappen hebt.
 
-??? success "Aangepaste domeinen en aliassen"
+#### :material-check:{ .pg-green } Aangepaste domeinen en aliassen
 
-    Betaalde Tutanota accounts kunnen tot 5 [aliases](https://tutanota.com/faq#alias) en [aangepaste domeinen](https://tutanota.com/faq#custom-domain) gebruiken. Tutanota staat geen [subadressering (plus adressen)](https://tutanota.com/faq#plus) toe, maar je kunt een [catch-all](https://tutanota.com/howto#settings-global) gebruiken met een aangepast domein.
+Betaalde Tutanota accounts kunnen tot 5 [aliassen gebruiken](https://tutanota.com/faq#alias) en [aangepaste domeinen](https://tutanota.com/faq#custom-domain). Tutanota staat geen [subadressering (plus adressen)](https://tutanota.com/faq#plus)toe, maar je kunt een [catch-all](https://tutanota.com/howto#settings-global) gebruiken met een aangepast domein.
 
-??? warning "Privé betaalmethoden"
+#### :material-information-outline:{ .pg-blue } Privé betaalmethodes
 
-    Tutanota accepteert alleen rechtstreeks creditcards en PayPal, maar Bitcoin en Monero kunnen worden gebruikt om cadeaubonnen te kopen via hun [partnership](https://tutanota.com/faq/#cryptocurrency) met Proxystore.
+Tutanota accepteert alleen rechtstreeks creditcards en PayPal, maar Bitcoin en Monero kunnen worden gebruikt om cadeaubonnen te kopen via hun [partnerschap](https://tutanota.com/faq/#cryptocurrency) met Proxystore.
 
-??? success "Account beveiliging"
+#### :material-check:{ .pg-green } Accountbeveiliging
 
-    Tutanota ondersteunt [twee factor authenticatie](https://tutanota.com/faq#2fa) met TOTP of U2F.
+Tutanota ondersteunt [twee-factor authenticatie](https://tutanota.com/faq#2fa) met TOTP of U2F.
 
-??? success "Gegevens beveiliging"
+#### :material-check:{ .pg-green } Gegevensbeveiliging
 
-    Tutanota heeft [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) voor jouw emails, [adresboek contacten](https://tutanota.com/faq#encrypted-address-book), en [calendars](https://tutanota.com/faq#calendar). Dit betekent dat de berichten en andere gegevens die in jouw account zijn opgeslagen, alleen door je kunnen worden gelezen.
+Tutanota heeft [zero access encryptie bij rust](https://tutanota.com/faq#what-encrypted) voor jouw e-mails, [adresboek contacten](https://tutanota.com/faq#encrypted-address-book), en [kalenders](https://tutanota.com/faq#calendar). Dit betekent dat de berichten en andere gegevens die in jouw account zijn opgeslagen, alleen door je kunnen worden gelezen.
 
-??? warning "Email Encryptie"
+#### :material-information-outline:{ .pg-blue } Email Encryptie
 
-    Tutanota [gebruikt geen OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts kunnen alleen versleutelde e-mails ontvangen van niet-Tutanota e-mail accounts wanneer deze worden verzonden via een [tijdelijke Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
+Tutanota [maakt geen gebruik van OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota-accounts kunnen alleen versleutelde e-mails ontvangen van niet-Tutanota-e-mailaccounts wanneer ze worden verzonden via een [tijdelijke Tutanota-postvak](https://www.tutanota.com/howto/#encrypted-email-external).
 
-??? warning "Digitale erfgoed"
+#### :material-alert-outline:{ .pg-orange } Digitale erfenis
 
-    Tutanota biedt geen digitale erfenis functie.
+Tutanota biedt geen digitale erfenis functie.
 
-??? info "Account beëindiging"
+#### :material-information-outline:{ .pg-blue } Beëindiging van account
 
-    Tutanota zal [inactieve gratis accounts verwijderen](https://tutanota.com/faq#inactive-accounts) na zes maanden. Je kunt een gedeactiveerd gratis account opnieuw gebruiken als je betaalt.
+Tutanota zal [inactieve gratis accounts](https://tutanota.com/faq#inactive-accounts) verwijderen na zes maanden. Je kunt een gedeactiveerd gratis account opnieuw gebruiken als je betaalt.
 
-??? info "Aanvullende Functionaliteit"
+#### :material-information-outline:{ .pg-blue } extra functionaliteit
 
-    Tutanota biedt de zakelijke versie van [Tutanota gratis of met zware korting aan organisaties zonder winstoogmerk](https://tutanota.com/blog/posts/secure-email-for-non-profit).
-    
-    Tutanota heeft ook een zakelijke functie genaamd [Secure Connect](https://tutanota.com/secure-connect/). Dit zorgt ervoor dat het klantcontact met het bedrijf gebruik maakt van E2EE. De functie kost €240/j.
+Tutanota biedt de zakelijke versie van [Tutanota aan non-profitorganisaties](https://tutanota.com/blog/posts/secure-email-for-non-profit) gratis of met een fikse korting.
+
+Tutanota heeft ook een zakelijke functie genaamd [Secure Connect](https://tutanota.com/secure-connect/). Dit zorgt ervoor dat het klantcontact met het bedrijf gebruik maakt van E2EE. De functie kost €240/j.
 
 ## E-mail aliasing diensten
 
 Met een e-mail aliasing dienst kun je gemakkelijk een nieuw e-mailadres genereren voor elke website waarvoor je je aanmeldt. De e-mailaliassen die je aanmaakt worden dan doorgestuurd naar een e-mailadres vanjouw keuze, waardoor zowel jouw "hoofd"-e-mailadres als de identiteit van jouw e-mailprovider wordt verborgen. Echte e-mailaliasing is beter dan de door veel providers gebruikte en ondersteunde plus-adressering, waarmee je aliassen kunt maken als jouwnaam+[anythinghere]@voorbeeld.com, omdat websites, adverteerders en traceringsnetwerken triviaal alles na het +-teken kunnen verwijderen om jouw echte e-mailadres te ontdekken.
+
+<div class="grid cards" markdown>
+
+- ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
+- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+
+</div>
 
 E-mailaliasing kan fungeren als een waarborg voor het geval jouw e-mailprovider ooit ophoudt te werken. In dat scenario kun je jouw aliassen gemakkelijk omleiden naar een nieuw e-mailadres. Op zijn beurt stelt je echter vertrouwen in de aliasingdienst om te blijven functioneren.
 
@@ -411,7 +438,7 @@ Wij geven er de voorkeur aan dat de door ons aanbevolen aanbieders zo weinig mog
 
 **Beste geval:**
 
-- Accepteert Bitcoin, contant geld en andere vormen van cryptocurrency en/of anonieme betalingsopties (cadeaubonnen, enz.)
+- Accepteert [anonieme betalingsopties](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), contant geld, cadeaukaarten, etc.)
 
 ### Veiligheid
 
@@ -428,10 +455,10 @@ Email servers verwerken veel zeer gevoelige gegevens. We verwachten dat provider
 - Geldige [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) en [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
 - Geldige [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) en [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
 - Zorg voor een correct [DMARC](https://en.wikipedia.org/wiki/DMARC) record en beleid of gebruik [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) voor verificatie. Als DMARC-authenticatie wordt gebruikt, moet het beleid worden ingesteld op `reject` of `quarantine`.
-- Een voorkeur voor een server suite van TLS 1.2 of later en een plan voor [Deprecating TLSv1.0 and TLSv1.1](https://datatracker.ietf.org/doc/draft-ietf-tls-oldversions-deprecate/).
+- Een server suite voorkeur van TLS 1.2 of hoger en een plan voor [RFC8996](https://datatracker.ietf.org/doc/rfc8996/).
 - [SMTPS](https://en.wikipedia.org/wiki/SMTPS) indiening, ervan uitgaande dat SMTP wordt gebruikt.
 - Beveiligingsnormen voor websites, zoals:
-    - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
+    - [HTTP Strict Transport Security](https://nl.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
     - [Subbron Integriteit](https://en.wikipedia.org/wiki/Subresource_Integrity) als dingen van externe domeinen worden geladen.
 - Moet het bekijken van [Message headers](https://en.wikipedia.org/wiki/Email#Message_header)ondersteunen, aangezien dit een cruciale forensische functie is om te bepalen of een e-mail een phishing-poging is.
 
@@ -443,7 +470,7 @@ Email servers verwerken veel zeer gevoelige gegevens. We verwachten dat provider
 - Programma's voor bug-bounty's en/of een gecoördineerd proces voor de openbaarmaking van kwetsbaarheden.
 - Beveiligingsnormen voor websites, zoals:
     - [Inhoud beveiligingsbeleid (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
-    - [Verwacht-CT](https://datatracker.ietf.org/doc/draft-ietf-httpbis-expect-ct)
+    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
 
 ### Vertrouwen
 
@@ -481,5 +508,3 @@ Mag geen marketing hebben die onverantwoord is:
 ### Extra functionaliteit
 
 Hoewel het geen strikte vereisten zijn, zijn er nog enkele andere factoren met betrekking tot gemak of privacy die wij in aanmerking hebben genomen bij het bepalen van de aan te bevelen providers.
-
---8<-- "includes/abbreviations.nl.txt"

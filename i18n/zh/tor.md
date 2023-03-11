@@ -1,11 +1,12 @@
 ---
 title: "桌面端浏览器"
 icon: simple/torproject
+description: 使用Tor网络保护您的互联网浏览免受窥探， Tor网络是一个规避审查的安全网络。
 ---
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
-The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
+**Tor** 网络是一组由志愿者操作的服务器，允许您免费连接以提高您的互联网的隐私和安全。 个人和组织也可以通过Tor网络与".onion隐藏服务"分享信息，而不损害其隐私。 由于Tor流量难以阻止和跟踪，因此Tor是一种有效的审查规避工具。
 
 [:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
@@ -13,27 +14,21 @@ The **Tor** network is a group of volunteer-operated servers that allows you to 
 [:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
-Tor works by routing your internet traffic through those volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. This obfuscates where the traffic is coming from, and no server in the connection path is able to see the full path of where the traffic is coming from and going to, meaning even the servers you are using to connect cannot break your anonymity.
+Tor的工作原理是通过这些志愿者操作的服务器路由您的互联网流量，而不是直接连接到您试图访问的网站。 这会混淆流量的来源，并且连接路径中的任何服务器都无法看到流量来自和流向的完整路径，这意味着即使您用于连接的服务器也无法打破您的匿名性。
 
-<figure markdown>
-  ![Tor path](assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path](assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway - Nodes in the path can only see the servers they are directly connected to, for example the "Entry" node shown can see your IP address, and the address of the "Middle" node, but has no way to see which website you are visiting.</figcaption>
-</figure>
+[详细的Tor概述 :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
 
-- [More information about how Tor works :material-arrow-right-drop-circle:](advanced/tor-overview.md)
+## 连接到Tor
 
-## Connecting to Tor
+有多种方法可以从您的设备连接到Tor网络，最常用的是 **Tor浏览器**，这是Firefox的一个分支，专为桌面计算机和Android的匿名浏览而设计。 除了下面列出的应用程序，还有专门设计用于连接到Tor网络的操作系统，例如 [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os)，它提供了比标准Tor浏览器更高的安全性和保护。
 
-There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for anonymous browsing for desktop computers and Android. In addition to the apps listed below, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser.
-
-### Tor Browser
+### Tor浏览器
 
 !!! recommendation
 
-    ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
+    ! [Tor浏览器徽标] (assets/img/browsers/tor.svg) {align = right}
     
-    **Tor Browser** is the choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+    * * Tor浏览器* *是您需要匿名时的选择，它为您提供了对Tor网络和网桥的访问权限，并且它包括默认安全的默认设置和扩展： *标准* ， *更安全*和*最安全*。
     
     [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
@@ -54,7 +49,7 @@ There are a variety of ways to connect to the Tor network from your device, the 
 
     You should **never** install any additional extensions on Tor Browser or edit `about:config` settings, including the ones we suggest for Firefox. Browser extensions and non-standard settings make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
-The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings/).
+Tor浏览器旨在防止指纹识别，或根据您的浏览器配置识别您。 Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings/).
 
 ### Orbot
 
@@ -120,5 +115,3 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
 Snowflake does not increase your privacy in any way, nor is it used to connect to the Tor network within your personal browser. However, if your internet connection is uncensored, you should consider running it to help people in censored networks achieve better privacy themselves. There is no need to worry about which websites people are accessing through your proxy—their visible browsing IP address will match their Tor exit node, not yours.
 
 Running a Snowflake proxy is low-risk, even moreso than running a Tor relay or bridge which are already not particularly risky endeavours. However, it does still proxy traffic through your network which can be impactful in some ways, especially if your network is bandwidth-limited. Make sure you understand [how Snowflake works](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) before deciding whether to run a proxy.
-
---8<-- "includes/abbreviations.zh.txt"

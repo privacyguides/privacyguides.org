@@ -1,6 +1,7 @@
 ---
 title: "Inleiding tot DNS"
 icon: material/dns
+description: Het Domain Name System is het "telefoonboek van het internet", dat jouw browser helpt de website te vinden die hij zoekt.
 ---
 
 Het [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is het "telefoonboek van het internet". DNS vertaalt domeinnamen naar IP-adressen zodat browsers en andere diensten internetbronnen kunnen laden, via een gedecentraliseerd netwerk van servers.
@@ -303,5 +304,3 @@ Het [EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) is ee
 Het is bedoeld om de levering van gegevens te "versnellen" door de client een antwoord te geven dat toebehoort aan een server die zich dicht bij hem bevindt, zoals een [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network), die vaak worden gebruikt bij videostreaming en het serveren van JavaScript-webapps.
 
 Deze functie gaat wel ten koste van de privacy, aangezien de DNS-server informatie krijgt over de locatie van de client.
-
---8<-- "includes/abbreviations.nl.txt"

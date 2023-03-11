@@ -1,6 +1,7 @@
 ---
 title: "Моделирование угроз"
 icon: 'material/target-account'
+description: Баланс между безопасностью, конфиденциальностью и удобством использования - одна из первых и самых сложных задач, с которыми вы столкнетесь на пути к конфиденциальности.
 ---
 
 Баланс между безопасностью, конфиденциальностью и удобством использования - одна из первых и самых сложных задач, с которыми вы столкнетесь на пути к конфиденциальности. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
@@ -107,5 +108,3 @@ For people looking to increase their privacy and security online, we've compiled
 ## Источники
 
 - [EFF Surveillance Self Defense: Your Security Plan](https://ssd.eff.org/en/module/your-security-plan)
-
---8<-- "includes/abbreviations.ru.txt"

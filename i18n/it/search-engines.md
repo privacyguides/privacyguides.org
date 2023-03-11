@@ -1,6 +1,7 @@
 ---
 title: "Motori di ricerca"
 icon: material/search-web
+description: These privacy-respecting search engines don't build an advertising profile based on your searches.
 ---
 
 Utilizza un motore di ricerca che non crei un profilo pubblicitario basato sulle tue ricerche.
@@ -88,9 +89,9 @@ L'azionista di maggioranza di Startpage è System1, un'azienda di tecnologie pub
 
 ## CryptPad
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. recommendation
+**Si noti che non siamo affiliati a nessuno dei progetti che consigliamo.** Oltre a [i nostri criteri standard](about/criteria.md), abbiamo sviluppato una chiara serie di requisiti che ci permettono di fornire raccomandazioni obiettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e condurre le tue ricerche per assicurarti che sia la scelta giusta per te.
 
-!!! recommendation
+!!! esempio "Questa sezione è nuova"
 
     ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
     
@@ -114,5 +115,3 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
 
 - Dovrebbe essere basato su software open-source.
 - Non dovrebbe bloccare gli indirizzi IP dei nodi di uscita di Tor.
-
---8<-- "includes/abbreviations.it.txt"

@@ -3,6 +3,7 @@ title: "כלי פרטיות"
 icon: material/tools
 hide:
   - toc
+description: Privacy Guides is the most transparent and reliable website for finding software, apps, and services that protect your personal data from mass surveillance programs and other internet threats.
 ---
 
 אם אתם מחפשים פתרון ספציפי למשהו, אלו הם כלי החומרה והתוכנה שאנו ממליצים עליהם במגוון קטגוריות. כלי הפרטיות המומלצים שלנו נבחרים בעיקר על סמך תכונות אבטחה, עם דגש נוסף על כלים מבוזרים וקוד פתוח. הם ישימים למגוון מודלים של איומים, החל מהגנה מפני תוכניות מעקב המוני גלובליות והימנעות מחברות טכנולוגיה גדולות ועד למיתון התקפות, אבל רק אתה יכול לקבוע מה יעבוד הכי טוב עבור הצרכים שלך.
@@ -84,9 +85,9 @@ hide:
 
 <div class="grid cards" markdown>
 
-- ![Aurora Store לוגו](/assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
+- ![Aurora Store לוגו](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
 - ![Shelter לוגו](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
-- ![Auditor לוגו](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
+- ![Auditor לוגו](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS לוגו](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
 - ![Secure Camera לוגו](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera לוגו](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
 - ![Secure PDF Viewer לוגו](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS לוגו](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
 
@@ -199,6 +200,29 @@ hide:
 
 [למד עוד :material-arrow-right-drop-circle:](email.md#self-hosting-email)
 
+### שירותים פיננסיים
+
+#### שירותי מיסוך תשלומים
+
+<div class="grid cards" markdown>
+
+- ![Privacy.com לוגו](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji }![Privacy.com לוגו](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji } [Privacy.com](financial-services.md#privacycom-us-free)
+- ![MySudo לוגו](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![MySudo לוגו](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
+</div>
+
+[למד עוד :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
+
+#### שוק כרטיסי מתנה אונליין
+
+<div class="grid cards" markdown>
+
+- ![Cake Pay לוגו](assets/img/financial-services/cakepay.svg){ .twemoji } [Cake Pay](financial-services.md#cake-pay)
+- ![CoinCards לוגו](assets/img/financial-services/coincards.svg){ .twemoji } [CoinCards](financial-services.md#coincards)
+
+</div>
+
+[למד עוד :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
+
 ### מנועי חיפוש
 
 <div class="grid cards" markdown>
@@ -226,9 +250,9 @@ hide:
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN לוגו](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
 - ![IVPN לוגו](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
 - ![Mullvad לוגו](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
+- ![Proton VPN לוגו](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
 
 </div>
 
@@ -246,6 +270,16 @@ hide:
 </div>
 
 [למד עוד :material-arrow-right-drop-circle:](calendar.md)
+
+### מטבעות קריפטוגרפיים
+
+<div class="grid cards" markdown>
+
+- ![Monero לוגו](assets/img/cryptocurrency/monero.svg){ .twemoji }[Monero](cryptocurrency.md#monero)
+
+</div>
+
+[למד עוד :material-arrow-right-drop-circle:](cryptocurrency.md)
 
 ### הפחתת נתונים ומטא נתונים
 
@@ -438,5 +472,3 @@ hide:
 </div>
 
 [למד עוד :material-arrow-right-drop-circle:](video-streaming.md)
-
---8<-- "includes/abbreviations.he.txt"

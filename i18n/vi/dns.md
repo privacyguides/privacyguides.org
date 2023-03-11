@@ -1,13 +1,12 @@
 ---
 title: "DNS Resolvers"
 icon: material/dns
+description: These are some encrypted DNS providers we recommend switching to, to replace your ISP's default configuration.
 ---
 
-!!! question "Should I use encrypted DNS?"
+Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Encrypted DNS will not help you hide any of your browsing activity.
 
-    Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Encrypted DNS will not help you hide any of your browsing activity.
-    
-    [Learn more about DNS](advanced/dns-overview.md){ .md-button }
+[Learn more about DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
 ## Recommended Providers
 
@@ -137,8 +136,6 @@ A self-hosted DNS solution is useful for providing filtering on controlled platf
     [:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
-
---8<-- "includes/abbreviations.vi.txt"
 
 [^1]: AdGuard stores aggregated performance metrics of their DNS servers, namely the number of complete requests to a particular server, the number of blocked requests, and the speed of processing requests. They also keep and store the database of domains requested in within last 24 hours. "We need this information to identify and block new trackers and threats." "We also log how many times this or that tracker has been blocked. We need this information to remove outdated rules from our filters." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
 [^2]: Cloudflare collects and stores only the limited DNS query data that is sent to the 1.1.1.1 resolver. The 1.1.1.1 resolver service does not log personal data, and the bulk of the limited non-personally identifiable query data is stored only for 25 hours. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)

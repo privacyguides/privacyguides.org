@@ -1,6 +1,7 @@
 ---
 title: "Creación De Cuenta"
 icon: 'material/account-plus'
+description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
 A menudo la gente se inscribe en servicios sin pensar. Tal vez sea un servicio de streaming para que puedas ver ese nuevo show del que todo el mundo habla, o una cuenta que te da un descuento para tu lugar de comida rápida favorito. Sea cual sea el caso, debes tener en cuenta las implicaciones que tednrá para tus datos ahora y más adelante.
@@ -43,7 +44,7 @@ Si un servicio es hackeado, puede que usted comience a recibir correos engañoso
 
 [Servicios recomendados de alias de correo electrónico](../email.md#email-aliasing-services ""){.md-button}
 
-### Single sign-on
+### Inicio de sesión único
 
 !!! note
 
@@ -78,5 +79,3 @@ In many cases you will need to provide a number that you can receive SMS or call
 ### Username and password
 
 Some services allow you to register without using an email address and only require you to set a username and password. These services may provide increased anonymity when combined with a VPN or Tor. Keep in mind that for these accounts there will most likely be **no way to recover your account** in the event you forget your username or password.
-
---8<-- "includes/abbreviations.es.txt"

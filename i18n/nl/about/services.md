@@ -36,5 +36,3 @@ We draaien een aantal webdiensten om functies te testen en coole gedecentralisee
 - Beschikbaarheid: Semi-Openbaar  
   Wij hosten Invidious voornamelijk om ingesloten YouTube-video's op onze website weer te geven, deze instantie is niet bedoeld voor algemeen gebruik en kan op elk moment worden beperkt.
 - Bron: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)
-
---8<-- "includes/abbreviations.nl.txt"

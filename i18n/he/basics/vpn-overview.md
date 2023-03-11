@@ -1,11 +1,12 @@
 ---
 title: סקירה כללית של VPN
 icon: material/vpn
+description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
 ---
 
 רשתות וירטואליות פרטיות הן דרך להרחיב את הקצה של הרשת שלך ליציאה למקום אחר בעולם. ספק שירותי אינטרנט יכול לראות את זרימת תעבורת האינטרנט הנכנסת ויוצאת ממכשיר סיום הרשת שלך (כלומר מודם).
 
-פרוטוקולי הצפנה כגון HTTPS נמצאים בשימוש נפוץ באינטרנט, כך שהם אולי לא יוכלו לראות בדיוק את מה שאתה מפרסם או קורא אבל הם יכולים לקבל מושג על [דומיינים שאתה מבקש](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
 VPN יכול לעזור מכיוון שהוא יכול להעביר אמון לשרת במקום אחר בעולם. כתוצאה מכך, ספק שירותי האינטרנט רואה רק שאתה מחובר ל-VPN ושום דבר לגבי הפעילות שאתה מעביר אליו.
 
@@ -74,5 +75,3 @@ VPN עדיין עשוי להיות שימושי עבורך במגוון תרחי
 - [חקירת אפליקציית VPN בחינם](https://www.top10vpn.com/free-vpn-app-investigation/)
 - [בעלי VPN מוסתרים חשפו: 101 מוצרי VPN המנוהלים על ידי 23 חברות בלבד](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
 - [החברה הסינית הזו עומדת בסתר מאחורי 24 אפליקציות פופולריות שמחפשות הרשאות מסוכנות](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
-
---8<-- "includes/abbreviations.he.txt"

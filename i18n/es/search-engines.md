@@ -1,6 +1,7 @@
 ---
 title: "Motores de Búsqueda"
 icon: material/search-web
+description: These privacy-respecting search engines don't build an advertising profile based on your searches.
 ---
 
 Utilice un motor de búsqueda que no construya un perfil publicitario basado en sus búsquedas.
@@ -101,5 +102,3 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - Should be based on open-source software.
 - Should not block Tor exit node IP addresses.
-
---8<-- "includes/abbreviations.es.txt"

@@ -1,6 +1,7 @@
 ---
 title: "Browser mobile"
 icon: octicons/device-mobile-16
+description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
 ---
 
 Questi sono i browser e le configurazioni attualmente consigliati per la navigazione standard e non anonima. Se hai bisogno di navigare in Internet in modo anonimo, dovresti invece utilizzare [Tor](tor.md). In generale, raccomandiamo di tenere il numero di estensioni al minimo: hanno accesso privilegiato all'interno del browser, richiedono di fidarsi dello sviluppatore, possono farti [risaltare](https://it.wikipedia.org/wiki/Device_fingerprint) e [indeboliscono](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) l'isolamento dei siti.
@@ -40,7 +41,7 @@ Queste opzioni si trovano in :material-menu: → **Impostazioni** → **Brave Sh
 
 Brave include alcune misure contro il fingerprinting nella sua funzionalità [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-). Consigliamo di configurare queste opzioni [globalmente](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) applicate a tutti i siti che visiti.
 
-##### Brave shields global defaults
+##### Valori predefiniti globali di Brave Shields
 
 Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; ciò nonostante, raccomandiamo le seguenti impostazioni:
 
@@ -59,7 +60,7 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
 
 1. Questa opzione fornisce una funzionalità simile alle [modalità di blocco](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avanzate di uBlock Origin o dell'estensione [NoScript](https://noscript.net/).
 
-##### Clear browsing data
+##### Svuota dati di navigazione
 
 - [x] Seleziona **Cancellare i dati all'uscita**
 
@@ -198,5 +199,3 @@ Liste di filtri aggiuntive possono intaccare le prestazioni ed aumentare la supe
 
 - Must not replicate built-in browser or OS functionality.
 - Must directly impact user privacy, i.e. must not simply provide information.
-
---8<-- "includes/abbreviations.it.txt"

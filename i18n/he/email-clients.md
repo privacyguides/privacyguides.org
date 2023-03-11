@@ -1,6 +1,7 @@
 ---
 title: "לקוחות אימייל"
 icon: material/email-open
+description: These email clients are privacy-respecting and support OpenPGP email encryption.
 ---
 
 רשימת ההמלצות שלנו מכילה לקוחות אימייל התומכים הן ב[OpenPGP](encryption.md#openpgp) והן באימות חזק כגון [הרשאת פתוחה ](https://en.wikipedia.org/wiki/OAuth)(OAuth). OAuth מאפשר לך להשתמש ב - [אימות רב - גורמי](basics/multi-factor-authentication.md) ולמנוע גניבת חשבון.
@@ -235,5 +236,3 @@ Canary Mail הוא קוד סגור. אנו ממליצים על זה בגלל ה�
 - אינו אוסף טלמטריה כברירת מחדל.
 - צריך לתמוך ב - OpenPGP באופן מקורי, כלומר ללא הרחבות.
 - יש לתמוך באחסון הודעות דואר אלקטרוני מוצפנות של OpenPGP באופן מקומי.
-
---8<-- "includes/abbreviations.he.txt"

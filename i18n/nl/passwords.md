@@ -1,6 +1,7 @@
 ---
 title: "Wachtwoord managers"
 icon: material/form-textbox-password
+description: Met wachtwoord Managers kunt je wachtwoorden en andere geheimen veilig opslaan en beheren met behulp van een hoofdwachtwoord.
 ---
 
 Met wachtwoord Managers kunt je wachtwoorden en andere geheimen veilig opslaan en beheren met behulp van een hoofdwachtwoord.
@@ -226,5 +227,3 @@ Deze producten zijn minimale wachtwoordmanagers die kunnen worden gebruikt binne
     We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
 
 - Moet cross-platform zijn.
-
---8<-- "includes/abbreviations.nl.txt"

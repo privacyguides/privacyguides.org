@@ -1,6 +1,7 @@
 ---
 title: "אימות מרובה גורמים"
 icon: 'material/two-factor-authentication'
+description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
 ---
 
 **אימות מרובה גורמים** (**MFA**) הוא מנגנון אבטחה הדורש שלבים נוספים מעבר להזנת שם המשתמש (או האימייל) והסיסמה שלך. השיטה הנפוצה ביותר היא קודים מוגבלים בזמן שאתה עשוי לקבל מ-SMS או מאפליקציה.
@@ -162,5 +163,3 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLog
 ### KeePass (ו-KeePassXC)
 
 ניתן לאבטח מסדי נתונים של KeePass ו-KeePassXC באמצעות Challenge-Response או HOTP כאימות גורם שני. Yubico סיפקה מסמך עבור KeePass [שימוש ב-YubiKey עם KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) ויש גם אחד באתר [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa).
-
---8<-- "includes/abbreviations.he.txt"

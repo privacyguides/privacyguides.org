@@ -3,6 +3,7 @@ title: "Privacy Hulpmiddelen"
 icon: material/tools
 hide:
   - toc
+description: Privacy Guides is de meest transparante en betrouwbare website voor het vinden van software, apps en diensten die jouw persoonlijke gegevens beschermen tegen massa surveillance programma's en andere internetbedreigingen.
 ---
 
 Als je op zoek bent naar een specifieke oplossing voor iets, dan zijn dit de hardware en software tools die wij aanbevelen in verschillende categorieën. Onze aanbevolen privacytools zijn in de eerste plaats gekozen op basis van beveiligingskenmerken, met extra nadruk op gedecentraliseerde en open-source tools. Ze zijn van toepassing op een verscheidenheid aan dreigingsmodellen, variërend van bescherming tegen wereldwijde massasurveillanceprogramma's en het vermijden van grote technologiebedrijven tot het beperken van aanvallen, maar alleen jij kunt bepalen wat het beste werkt voor jouw behoeften.
@@ -84,10 +85,10 @@ Voor meer details over elk project, waarom ze werden gekozen, en extra tips of t
 
 <div class="grid cards" markdown>
 
-- ![Aurora Store logo](/assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Werkprofielen)](android.md#shelter)
-- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Ondersteunde apparaten)](android.md#auditor)
-- ![Beveiligde camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Beveiligde camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Beveiligde camera](android.md#secure-camera)
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
+- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
+- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
 - ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
 
 </div>
@@ -199,6 +200,29 @@ Wij [bevelen](dns.md#recommended-providers) een aantal versleutelde DNS servers 
 
 [Meer informatie :material-arrow-right-drop-circle:](email.md#self-hosting-email)
 
+### Financiële diensten
+
+#### Maskerende betalingsdiensten
+
+<div class="grid cards" markdown>
+
+- ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji }![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji } [Privacy.com](financial-services.md#privacycom-us-free)
+- ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
+</div>
+
+[Meer informatie :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
+
+#### Online marktplaatsen voor cadeaubonnen
+
+<div class="grid cards" markdown>
+
+- ![Cake Pay logo](assets/img/financial-services/cakepay.svg){ .twemoji } [Cake Pay](financial-services.md#cake-pay)
+- ![CoinCards logo](assets/img/financial-services/coincards.svg){ .twemoji } [CoinCards](financial-services.md#coincards)
+
+</div>
+
+[Meer informatie :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
+
 ### Zoekmachines
 
 <div class="grid cards" markdown>
@@ -226,9 +250,9 @@ Wij [bevelen](dns.md#recommended-providers) een aantal versleutelde DNS servers 
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
 - ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
+- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
 
 </div>
 
@@ -246,6 +270,16 @@ Wij [bevelen](dns.md#recommended-providers) een aantal versleutelde DNS servers 
 </div>
 
 [Meer informatie :material-arrow-right-drop-circle:](calendar.md)
+
+### Cryptocurrency
+
+<div class="grid cards" markdown>
+
+- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji }[Monero](cryptocurrency.md#monero)
+
+</div>
+
+[Meer informatie :material-arrow-right-drop-circle:](cryptocurrency.md)
 
 ### Redactie van gegevens en metagegevens
 
@@ -439,5 +473,3 @@ Wij [bevelen](dns.md#recommended-providers) een aantal versleutelde DNS servers 
 </div>
 
 [Meer informatie :material-arrow-right-drop-circle:](video-streaming.md)
-
---8<-- "includes/abbreviations.nl.txt"

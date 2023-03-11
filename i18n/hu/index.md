@@ -40,5 +40,3 @@ Megpróbálni az összes adatodat mindenkitől és mindig megvédeni nem praktik
 [:material-hand-coin-outline:](about/donate.md){ title="Támogasd a projektet" }
 
 Fontos, hogy egy olyan weboldal, mint a Privacy Guides, mindig naprakész maradjon. Szükségünk van arra, hogy a közönségünk figyelemmel kísérje az oldalunkon felsorolt alkalmazások frissítéseit, és kövesse az általunk ajánlott szolgáltatókkal kapcsolatos legújabb híreket. Nehéz lépést tartani az internet gyors tempójával, de mi megteszünk minden tőlünk telhetőt. Ha hibát észlelsz, úgy gondolod, hogy egy szolgáltatónak nem kellene szerepelnie a listán, észreveszed, hogy egy alkalmas szolgáltató hiányzik, úgy véled, hogy egy böngésző bővítmény már nem a legjobb választás, vagy ha bármilyen más problémát észlelsz, kérjük, jelezd nekünk.
-
---8<-- "includes/abbreviations.hu.txt"

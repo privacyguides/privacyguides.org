@@ -1,6 +1,7 @@
 ---
 title: "חזיתות"
 icon: material/flip-to-front
+description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
 ---
 
 לפעמים שירותים ינסו לאלץ אותך להירשם לחשבון על ידי חסימת גישה לתוכן עם חלונות קופצים מעצבנים. הם יכולים להישבר גם ללא הפעלת JavaScript. חזיתות אלה יכולות לאפשר לך לעקוף את ההגבלות הללו.
@@ -264,5 +265,3 @@ icon: material/flip-to-front
 אנו מתייחסים רק לחזיתות עבור אתרים שהם...
 
 - לא נגיש בדרך כלל ללא JavaScript.
-
---8<-- "includes/abbreviations.he.txt"

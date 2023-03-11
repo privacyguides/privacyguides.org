@@ -1,29 +1,30 @@
 ---
 title: Vista general del VPN
 icon: material/vpn
+description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
 ---
 
-Las redes virtuales privadas (conocidas en inglés como Virtual Private Networks) son una manera de ampliar el extremo de tu red hacia algún lugar del mundo. An ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem).
+Las redes virtuales privadas (conocidas en inglés como Virtual Private Networks) son una manera de ampliar el extremo de tu red hacia algún lugar del mundo. Un ISP puede ver el flujo de tráfico de Internet que entra y sale de su dispositivo de terminación de red (es decir, el módem).
 
-Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
-A VPN can help as it can shift trust to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing into it.
+Una VPN puede ayudar, ya que puede trasladar la confianza a un servidor en otro lugar del mundo. Como resultado, el ISP solamente ve que te conectaste a una VPN y nada de la actividad que le estás pasando.
 
-## Should I use a VPN?
+## ¿Debería usar una VPN?
 
-**Yes**, unless you are already using Tor. A VPN does two things: shifting the risks from your Internet Service Provider to itself and hiding your IP from a third-party service.
+**Sí**, a menos que ya estés usando Tor. Una VPN hace dos cosas: trasladar los riesgos de su proveedor de servicios de Internet a sí mismo y ocultar su IP de un servicio de terceros.
 
-VPNs cannot encrypt data outside of the connection between your device and the VPN server. VPN providers can see and modify your traffic the same way your ISP could. And there is no way to verify a VPN provider's "no logging" policies in any way.
+Las VPN no pueden cifrar datos fuera de la conexión entre su dispositivo y el servidor VPN. Los proveedores de VPN pueden ver y modificar su tráfico del mismo modo que su proveedor de Internet. Y no hay forma de verificar de ninguna manera las políticas de "no registro" de un proveedor de VPN.
 
-However, they do hide your actual IP from a third-party service, provided that there are no IP leaks. They help you blend in with others and mitigate IP based tracking.
+Sin embargo, ocultan tu IP real de un servicio de terceros, siempre que no haya fugas de IP. Le ayudan a mezclarse con los demás y a mitigar el seguimiento basado en la IP.
 
-## When shouldn't I use a VPN?
+## ¿Cuándo no debería usar una VPN?
 
-Using a VPN in cases where you're using your [known identity](common-threats.md#common-misconceptions) is unlikely be useful.
+El uso de una VPN en caso de que estés utilizando tu[identidad conocida](common-threats.md#common-misconceptions) probablemente no sea útil.
 
-Doing so may trigger spam and fraud detection systems, such as if you were to log into your bank's website.
+Si lo hace, pueden activarse los sistemas de detección de spam y fraude, por ejemplo si te conectas al sitio web de tu banco.
 
-## What about encryption?
+## ¿Qué pasa con el cifrado?
 
 Encryption offered by VPN providers are between your devices and their servers. It guarantees that this specific link is secure. This is a step up from using unencrypted proxies where an adversary on the network can intercept the communications between your devices and said proxies and modify them. However, encryption between your apps or browsers with the service providers are not handled by this encryption.
 
@@ -41,7 +42,7 @@ Needless to say, **you shouldn't use encrypted DNS with Tor**. This would direct
 
 By using a VPN with Tor, you're creating essentially a permanent entry node, often with a money trail attached. This provides zero additional benefits to you, while increasing the attack surface of your connection dramatically. If you wish to hide your Tor usage from your ISP or your government, Tor has a built-in solution for that: Tor bridges. [Read more about Tor bridges and why using a VPN is not necessary](../advanced/tor-overview.md).
 
-## What if I need anonymity?
+## ¿Y si necesito anonimato?
 
 VPNs cannot provide anonymity. Your VPN provider will still see your real IP address, and often has a money trail that can be linked directly back to you. You cannot rely on "no logging" policies to protect your data. Use [Tor](https://www.torproject.org/) instead.
 
@@ -70,9 +71,7 @@ For situations like these, or if you have another compelling reason, the VPN pro
 
 ## Related VPN Information
 
-- [The Trouble with VPN and Privacy Review Sites](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
-- [Free VPN App Investigation](https://www.top10vpn.com/free-vpn-app-investigation/)
-- [Hidden VPN owners unveiled: 101 VPN products run by just 23 companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
-- [This Chinese company is secretly behind 24 popular apps seeking dangerous permissions](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
-
---8<-- "includes/abbreviations.es.txt"
+- [El problema con las VPN y los sitios de revisión de privacidad](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
+- [Investigación sobre aplicaciones VPN gratuitas](https://www.top10vpn.com/free-vpn-app-investigation/)
+- [Propietarios ocultos de VPN revelados: 101 productos VPN administrados por solo 23 empresas](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
+- [Esta empresa china está secretamente detrás de 24 aplicaciones populares que buscan permisos peligrosos](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)

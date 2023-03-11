@@ -40,5 +40,3 @@ Essayer de protéger toutes vos données contre tout le monde, tout le temps, es
 [:material-hand-coin-outline:](about/donate.md){ title="Soutenir le projet" }
 
 Il est important pour un site web comme Privacy Guides de toujours rester à jour. Nous avons besoin que notre public garde un œil sur les mises à jour logicielles des applications répertoriées sur notre site et suive l'actualité récente des fournisseurs que nous recommandons. Internet évolue à une vitesse telle, qu'il est difficile de suivre le rythme, mais nous faisons de notre mieux. Si vous repérez une erreur, que vous pensez qu'un fournisseur ne devrait pas figurer dans la liste, remarquez l'absence d'un fournisseur qualifié, pensez qu'un plugin de navigateur n'est plus le meilleur choix ou si vous découvrez tout autre problème, veuillez nous en informer.
-
---8<-- "includes/abbreviations.fr.txt"

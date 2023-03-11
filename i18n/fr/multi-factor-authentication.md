@@ -1,6 +1,7 @@
 ---
 title: "Outils d'authentification multi-facteurs"
 icon: 'material/two-factor-authentication'
+description: Ces outils vous aident à sécuriser vos comptes internet grâce à l'authentification multifactorielle sans transmettre vos secrets à un tiers.
 ---
 
 ## Clés de sécurité matérielles
@@ -140,5 +141,3 @@ Nous vous recommandons vivement d'utiliser des applications TOTP mobiles plutôt
 - Ne doit pas nécessiter de connexion à internet.
 - Ne doit pas se synchroniser avec un service tiers de synchronisation/sauvegarde cloud.
     - La prise en charge **facultative** de la synchronisation E2EE avec des outils natifs du système d'exploitation est acceptable, par exemple la synchronisation chiffrée via iCloud.
-
---8<-- "includes/abbreviations.fr.txt"

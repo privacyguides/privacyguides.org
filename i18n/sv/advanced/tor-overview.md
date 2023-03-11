@@ -1,29 +1,30 @@
 ---
-title: "Tor Overview"
+title: "Tor Översikt"
 icon: 'simple/torproject'
+description: Tor är ett decentraliserat nätverk som är gratis att använda och som är utformat för att använda internet med så mycket integritet som möjligt.
 ---
 
-Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible. If used properly, the network enables private and anonymous browsing and communications.
+Tor är ett decentraliserat nätverk som är gratis att använda och som är utformat för att använda internet med så mycket integritet som möjligt. Om nätverket används på rätt sätt möjliggör det privat och anonym surfning och kommunikation.
 
-## Path Building
+## Vägbyggnad
 
-Tor works by routing your traffic through a network comprised of thousands of volunteer-run servers called nodes (or relays).
+Tor fungerar genom att din trafik dirigeras genom ett nätverk bestående av tusentals servrar som drivs av frivilliga och som kallas noder (eller reläer).
 
-Every time you connect to Tor, it will choose three nodes to build a path to the internet—this path is called a "circuit." Each of these nodes has its own function:
+Varje gång du ansluter till Tor kommer det att välja tre noder för att bygga en väg till internet - denna väg kallas en "krets" Var och en av dessa noder har sin egen funktion:
 
-### The Entry Node
+### Entrénod
 
-The entry node, often called the guard node, is the first node to which your Tor client connects. The entry node is able to see your IP address, however it is unable to see what you are connecting to.
+Ingångsnoden, ofta kallad guard-noden, är den första noden som din Tor-klient ansluter till. Ingångsnoden kan se din IP-adress, men den kan inte se vad du ansluter till.
 
-Unlike the other nodes, the Tor client will randomly select an entry node and stick with it for two to three months to protect you from certain attacks.[^1]
+Till skillnad från andra noder väljer Tor-klienten slumpmässigt en ingångsnod och håller sig till den i två till tre månader för att skydda dig mot vissa attacker.[^1]
 
-### The Middle Node
+### Den mellersta noden
 
-The middle node is the second node to which your Tor client connects. It can see which node the traffic came from—the entry node—and to which node it goes to next. The middle node cannot, see your IP address or the domain you are connecting to.
+Den mellersta noden är den andra noden som din Tor-klient ansluter till. Den kan se vilken nod trafiken kom från - ingångsnoden - och vilken nod den går vidare till härnäst. Mellannoden kan inte se din IP-adress eller den domän du ansluter till.
 
-For each new circuit, the middle node is randomly selected out of all available Tor nodes.
+För varje ny krets väljs mittnoden slumpmässigt ut av alla tillgängliga Tor-noder.
 
-### The Exit Node
+### Entrénod
 
 The exit node is the point in which your web traffic leaves the Tor network and is forwarded to your desired destination. The exit node is unable to see your IP address, but it does know what site it's connecting to.
 
@@ -61,21 +62,19 @@ Tor allows us to connect to a server without any single party knowing the entire
 
 Though Tor does provide strong privacy guarantees, one must be aware that Tor is not perfect:
 
-- Well-funded adversaries with the capability to passively watch most network traffic over the globe have a chance of deanonymizing Tor users by means of advanced traffic analysis. Nor does Tor protect you from exposing yourself by mistake, such as if you share too much information about your real identity.
-- Tor exit nodes can also monitor traffic that passes through them. This means traffic which is not encrypted, such as plain HTTP traffic, can be recorded and monitored. If such traffic contains personally identifiable information, then it can deanonymize you to that exit node. Thus, we recommend using HTTPS over Tor where possible.
+- Välfinansierade motståndare som har möjlighet att passivt övervaka den mesta nätverkstrafiken över hela världen har en chans att avanonymisera Tor-användare med hjälp av avancerad trafikanalys. Tor skyddar dig inte heller från att avslöja dig själv av misstag, till exempel om du delar för mycket information om din verkliga identitet.
+- Tor-utgångsnoderna kan också övervaka trafiken som passerar genom dem. Detta innebär att trafik som inte är krypterad, såsom vanlig HTTP-trafik, kan registreras och övervakas. Om sådan trafik innehåller personligt identifierbar information kan den avanonymisera dig till den utgångsnoden. Därför rekommenderar vi att du använder https över Tor där det är möjligt.
 
-If you wish to use Tor for browsing the web, we only recommend the **official** Tor Browser—it is designed to prevent fingerprinting.
+Om du vill använda Tor för att surfa på webben rekommenderar vi endast den officiella **** Tor Browser - den är utformad för att förhindra fingeravtryck.
 
-- [Tor Browser :material-arrow-right-drop-circle:](../tor.md#tor-browser)
+- [Läs mer :material-arrow-right-drop-circle:](../tor.md#tor-browser)
 
-## Additional Resources
+## Ytterligare resurser
 
-- [Tor Browser User Manual](https://tb-manual.torproject.org)
-- [How Tor Works - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
-- [Tor Onion Services - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
+- [Användarhandbok för Tor Browser](https://tb-manual.torproject.org)
+- [Hur Tor fungerar - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
+- [Tor Lök Tjänster - Datorfil](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
 
---8<-- "includes/abbreviations.sv.txt"
+[^1]: Det första reläet i din krets kallas "entry guard" eller "guard". Det är ett snabbt och stabilt relä som förblir det första i din krets i 2-3 månader för att skydda mot en känd attack som bryter anonymiteten. Resten av din krets ändras med varje ny webbplats du besöker, och alla dessa reläer ger Tor: s fullständiga integritetsskydd. För mer information om hur skyddsreläer fungerar, se detta [blogginlägg](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) och [papper](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) på ingångsvakter. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
 
-[^1]: The first relay in your circuit is called an "entry guard" or "guard". It is a fast and stable relay that remains the first one in your circuit for 2-3 months in order to protect against a known anonymity-breaking attack. The rest of your circuit changes with every new website you visit, and all together these relays provide the full privacy protections of Tor. For more information on how guard relays work, see this [blog post](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) and [paper](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) on entry guards. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
-
-[^2]: Relay flag: a special (dis-)qualification of relays for circuit positions (for example, "Guard", "Exit", "BadExit"), circuit properties (for example, "Fast", "Stable"), or roles (for example, "Authority", "HSDir"), as assigned by the directory authorities and further defined in the directory protocol specification. ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html))
+[^2]: Reläflagga: en särskild (diskvalificering) av reläer för kretslägen (t.ex. "Guard", "Exit", "BadExit"), kretsegenskaper (t.ex. "Fast", "Stable") eller roller (t.ex. "Authority", "HSDir") som tilldelats av katalogmyndigheterna och som definieras ytterligare i specifikationen för katalogprotokollet. ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html))

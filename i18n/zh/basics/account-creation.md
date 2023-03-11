@@ -1,6 +1,7 @@
 ---
 title: "账户创建"
 icon: 'material/account-plus'
+description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
 人们经常不假思索地注册服务。 也许它是一个流媒体服务，这样你就可以看到每个人都在谈论的新节目，或者一个为你最喜欢的快餐店提供折扣的账户。 无论情况如何，你应该考虑现在和以后对你的数据的影响。
@@ -78,5 +79,3 @@ SSO在那些你可以从服务之间的深度整合中获益的情况下，可�
 ### 用户名和密码
 
 有些服务允许你不使用电子邮件地址进行注册，只要求你设置一个用户名和密码。 这些服务在与VPN或Tor结合使用时，可以提供更多的匿名性。 **请记住，对于这些账户，如果你忘记了你的用户名或密码，很可能没有办法恢复你的账户**。
-
---8<-- "includes/abbreviations.zh.txt"

@@ -1,6 +1,7 @@
 ---
 title: "Micrologiciel de routeur"
 icon: material/router-wireless
+description: Ces systèmes d'exploitation alternatifs peuvent être utilisés pour sécuriser votre routeur ou votre point d'accès Wi-Fi.
 ---
 
 Vous trouverez ci-dessous quelques systèmes d'exploitation alternatifs, qui peuvent être utilisés sur des routeurs, des points d'accès Wi-Fi, etc.
@@ -47,5 +48,3 @@ OPNsense a été développé à l'origine comme un fork de [pfSense](https://fr.
 - Doit être open-source.
 - Doit recevoir des mises à jour régulières.
 - Doivent prendre en charge une grande variété de matériel.
-
---8<-- "includes/abbreviations.fr.txt"

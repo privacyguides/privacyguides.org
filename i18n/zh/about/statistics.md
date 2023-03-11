@@ -59,5 +59,3 @@ title: 流量统计
         })
     })
 </script>
-
---8<-- "includes/abbreviations.zh.txt"

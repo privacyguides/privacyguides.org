@@ -1,6 +1,7 @@
 ---
 title: "Bedreiging Modellering"
 icon: 'material/target-account'
+description: Een evenwicht vinden tussen veiligheid, privacy en gebruiksvriendelijkheid is een van de eerste en moeilijkste taken die je op jouw privacyreis tegenkomt.
 ---
 
 Een evenwicht vinden tussen veiligheid, privacy en gebruiksvriendelijkheid is een van de eerste en moeilijkste taken die je op jouw privacyreis tegenkomt. Alles is een afweging: hoe veiliger iets is, hoe beperkter of onhandiger het over het algemeen is, enzovoort. Vaak vinden mensen het probleem met de hulpmiddelen die ze aanbevolen zien, dat ze gewoon te moeilijk zijn om te beginnen gebruiken!
@@ -107,5 +108,3 @@ Voor mensen die hun privacy en veiligheid online willen vergroten, hebben we een
 ## Bronnen
 
 - [EFF Surveillance Zelfverdediging: Jouw Beveiligingsplan](https://ssd.eff.org/en/module/your-security-plan)
-
---8<-- "includes/abbreviations.nl.txt"

@@ -1,49 +1,48 @@
 ---
-title: "DNS Resolvers"
+title: "DNS Çözümleyicileri"
 icon: material/dns
+description: These are some encrypted DNS providers we recommend switching to, to replace your ISP's default configuration.
 ---
 
-!!! question "Should I use encrypted DNS?"
+Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Şifrelenmiş DNS internet faaliyetlerinizi gizlemenize yardımcı olmaz.
 
-    Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Encrypted DNS will not help you hide any of your browsing activity.
-    
-    [Learn more about DNS](advanced/dns-overview.md){ .md-button }
+[Learn more about DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
 ## Önerilen Sağlayıcılar
 
-| DNS Provider                                                                    | Privacy Policy                                                                                        | Protocols                                                     | Logging      | ECS      | Filtering                                                                                                                                  |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ------------ | -------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH/3 <br> DoT <br> DNSCrypt | Some[^1]     | No       | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Cleartext <br> DoH/3 <br> DoT                     | Some[^2]     | No       | Based on server choice.                                                                                                                    |
-| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Cleartext <br> DoH/3 <br> DoT <br> DoQ      | Optional[^3] | No       | Based on server choice.                                                                                                                    |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                            | No[^4]       | No       | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
-| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Cleartext <br> DoH/3 <br> DoT                     | Optional[^5] | Optional | Based on server choice.                                                                                                                    |
-| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt   | Some[^6]     | Optional | Based on server choice, Malware blocking by default.                                                                                       |
+| DNS Sağlayıcısı                                                                 | Gizlilik Politikası                                                                                   | Protokoller                                                   | Günlük kaydı     | ECS          | Filtreleme                                                                                                                                          |
+| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ---------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH/3 <br> DoT <br> DNSCrypt | Bazı[^1]         | Hayır        | Sunucu seçimine göre. Kullanılan filtre listesine buradan ulaşabilirsiniz. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Cleartext <br> DoH/3 <br> DoT                     | Bazı[^2]         | Hayır        | Sunucu seçimine göre.                                                                                                                               |
+| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Cleartext <br> DoH/3 <br> DoT <br> DoQ      | İsteğe bağlı[^3] | Hayır        | Sunucu seçimine göre.                                                                                                                               |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                            | Hayır[^4]        | Hayır        | Sunucu seçimine göre. Kullanılan filtre listesine buradan ulaşabilirsiniz. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
+| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Cleartext <br> DoH/3 <br> DoT                     | İsteğe bağlı[^5] | İsteğe bağlı | Sunucu seçimine göre.                                                                                                                               |
+| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt   | Bazı[^6]         | İsteğe bağlı | Sunucu seçimine bağlı olarak, Malware varsayılan olarak engellenir.                                                                                 |
 
-## Criteria
+## Kriterler
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md)ek olarak, objektif tavsiyelerde bulunabilmemiz için bir dizi gereklilik geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
-!!! example "This section is new"
+!!! örnek "Bu bölüm yenidir"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Sitemizin her bölümü için tanımlanmış kriterler oluşturmaya çalışıyoruz ve bu değişebilir. Kriterlerimizle ilgili herhangi bir sorunuz varsa, lütfen [forumumuzda sorun](https://discuss.privacyguides.net/latest) ve burada listelenmemişse, önerilerimizi yaparken dikkate almadığımızı düşünmeyin. Bir projeyi önerdiğimizde dikkate alınan ve tartışılan birçok faktör vardır ve her birini belgelemek devam eden bir çalışmadır.
 
-- Must support [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
-- [QNAME Minimization](advanced/dns-overview.md#what-is-qname-minimization).
-- Allow for [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) to be disabled.
-- Prefer [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) support or geo-steering support.
+- [DNSSEC](advanced/dns-overview.md#what-is-dnssec) desteklemelidir.
+- [QNAME Minimizasyonu](advanced/dns-overview.md#what-is-qname-minimization).
+- [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) adresinin devre dışı bırakılmasına izin verilmelidir.
+- [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) desteği veya coğrafi yönlendirme desteği tercih edilmelidir.
 
-## Native Operating System Support
+## İşletim Sistemi Desteği
 
 ### Android
 
-Android 9 and above support DNS over TLS. The settings can be found in: **Settings** &rarr; **Network & Internet** &rarr; **Private DNS**.
+Android 9 ve üstü, TLS üzerinden DNS'yi destekler. Ayarlar şurada bulunabilir: **Ayarlar** &rarr; **Ağ & İnternet** &rarr; **Özel DNS**.
 
-### Apple Devices
+### Apple Cihazları
 
-The latest versions of iOS, iPadOS, tvOS, and macOS, support both DoT and DoH. Both protocols are supported natively via [configuration profiles](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) or through the [DNS Settings API](https://developer.apple.com/documentation/networkextension/dns_settings).
+iOS, iPadOS, tvOS ve macOS'in en son sürümleri hem DoT hem de DoH'yi desteklemektedir. Her iki protokol de [yapılandırma profilleri](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) veya [DNS Ayarları API'si](https://developer.apple.com/documentation/networkextension/dns_settings)aracılığıyla doğal olarak desteklenmektedir.
 
-After installation of either a configuration profile or an app that uses the DNS Settings API, the DNS configuration can be selected. If a VPN is active, resolution within the VPN tunnel will use the VPN's DNS settings and not your system-wide settings.
+Bir yapılandırma profili veya DNS Ayarları API'sini kullanan bir uygulama yüklendikten sonra DNS yapılandırması seçilebilir. Bir VPN etkinse, VPN tüneli içindeki çözünürlük, sistem genelindeki ayarlarınızı değil VPN'in DNS ayarlarını kullanacaktır.
 
 #### Signed Profiles
 
@@ -131,8 +130,6 @@ A self-hosted DNS solution is useful for providing filtering on controlled platf
     [:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
-
---8<-- "includes/abbreviations.tr.txt"
 
 [^1]: AdGuard stores aggregated performance metrics of their DNS servers, namely the number of complete requests to a particular server, the number of blocked requests, and the speed of processing requests. They also keep and store the database of domains requested in within last 24 hours. "We need this information to identify and block new trackers and threats." "We also log how many times this or that tracker has been blocked. We need this information to remove outdated rules from our filters." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
 [^2]: Cloudflare collects and stores only the limited DNS query data that is sent to the 1.1.1.1 resolver. The 1.1.1.1 resolver service does not log personal data, and the bulk of the limited non-personally identifiable query data is stored only for 25 hours. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)

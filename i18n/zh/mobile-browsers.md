@@ -1,6 +1,7 @@
 ---
 title: "移动浏览器"
 icon: material/cellphone-information
+description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
 ---
 
 这些是我们当前推荐的移动网络浏览器以及标准/非匿名互联网浏览的配置。 如果您需要匿名浏览互联网，则应使用 [Tor](tor.md) 。 一般来说，我们建议将扩展程序保持在最低限度；它们在您的浏览器中具有特权访问权限，要求您信任开发人员，可以使您 [突出](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)， [弱化](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) 站点隔离。
@@ -189,5 +190,3 @@ Additional filter lists do slow things down and may increase your attack surface
 
 - 不得复制内置浏览器或操作系统的功能。
 - 必须直接影响用户隐私，即不能简单地提供信息。
-
---8<-- "includes/abbreviations.zh.txt"

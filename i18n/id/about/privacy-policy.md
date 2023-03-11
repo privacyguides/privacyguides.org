@@ -1,63 +1,61 @@
 ---
-title: "Privacy Policy"
+title: "Kebijakan Privasi"
 ---
 
-Privacy Guides is a community project operated by a number of active volunteer contributors. The public list of team members [can be found on GitHub](https://github.com/orgs/privacyguides/people).
+Privacy Guides adalah proyek komunitas yang dioperasikan oleh sejumlah kontributor sukarelawan yang aktif. Daftar publik anggota tim [dapat ditemukan di GitHub](https://github.com/orgs/privacyguides/people).
 
-## Data We Collect From Visitors
+## Data yang Kami Kumpulkan dari Pengunjung
 
-The privacy of our website visitors is important to us, so we do not track any individual people. As a visitor to our website:
+Privasi pengunjung situs web kami penting bagi kami, jadi kami tidak melacak individu mana pun. Sebagai pengunjung situs web kami:
 
-- No personal information is collected
-- No information such as cookies are stored in the browser
-- No information is shared with, sent to or sold to third-parties
-- No information is shared with advertising companies
-- No information is mined and harvested for personal and behavioral trends
-- No information is monetized
+- Tidak ada informasi pribadi yang dikumpulkan
+- Tidak ada informasi seperti cookie yang disimpan di browser
+- Tidak ada informasi yang dibagikan, dikirim atau dijual kepada pihak ketiga
+- Tidak ada informasi yang dibagikan dengan perusahaan periklanan
+- Tidak ada informasi yang ditambang dan dipanen untuk tren pribadi dan perilaku
+- Tidak ada informasi yang dimonetisasi
 
-You can view the data we collect on our [statistics](statistics.md) page.
+Anda dapat melihat data yang kami kumpulkan di halaman [statistik](statistics.md) kami.
 
-We run a self-hosted installation of [Plausible Analytics](https://plausible.io) to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only. No personal data is collected.
+Kami menjalankan instalasi [Plausible Analytics](https://plausible.io) yang dihosting sendiri untuk mengumpulkan beberapa data penggunaan anonim untuk tujuan statistik. Tujuannya adalah untuk melacak tren keseluruhan dalam lalu lintas situs web kami, bukan untuk melacak pengunjung individu. Semua data hanya dalam agregat. Tidak ada data pribadi yang dikumpulkan.
 
-Data collected includes referral sources, top pages, visit duration, information from the devices (device type, operating system, country and browser) used during the visit and more. You can learn more about how Plausible works and collects information in a privacy-respecting manner [here](https://plausible.io/data-policy).
+Data yang dikumpulkan termasuk sumber rujukan, halaman teratas, durasi kunjungan, informasi dari perangkat (jenis perangkat, sistem operasi, negara dan browser) yang digunakan selama kunjungan dan banyak lagi. Anda dapat mempelajari lebih lanjut tentang bagaimana Plausible bekerja dan mengumpulkan informasi dengan cara yang menghormati privasi [di sini](https://plausible.io/data-policy).
 
-## Data We Collect From Account Holders
+## Data yang Kami Kumpulkan Dari Pemegang Akun
 
-On some websites and services we provide, many features may require an account. For example, an account may be required to post and reply to topics on a forum platform.
+Pada beberapa situs web dan layanan yang kami sediakan, banyak fitur yang mungkin memerlukan akun. Sebagai contoh, sebuah akun mungkin diperlukan untuk memposting dan membalas topik pada platform forum.
 
-To sign up for most accounts, we will collect a name, username, email, and password. In the event a website requires more information than just that data, that will be clearly marked and noted in a separate privacy statement per-site.
+Untuk mendaftar ke sebagian besar akun, kami akan mengumpulkan nama, nama pengguna, email, dan kata sandi. Jika sebuah situs web memerlukan lebih banyak informasi daripada data tersebut, hal itu akan ditandai dengan jelas dan dicatat dalam pernyataan privasi terpisah per-situs.
 
-We use your account data to identify you on the website and to create pages specific to you, such as your profile page. We will also use your account data to publish a public profile for you on our services.
+Kami menggunakan data akun Anda untuk mengidentifikasi Anda di situs web dan membuat halaman khusus untuk Anda, seperti halaman profil. Kami juga akan menggunakan data akun Anda untuk mempublikasikan profil publik untuk Anda di layanan kami.
 
-We use your email to:
+Kami menggunakan email Anda untuk:
 
-- Notify you about posts and other activity on the websites or services.
-- Reset your password and help keep your account secure.
-- Contact you in special circumstances related to your account.
-- Contact you about legal requests, such as DMCA takedown requests.
+- Memberi tahu Anda tentang postingan dan aktivitas lain di situs web atau layanan.
+- Atur ulang kata sandi Anda dan jaga keamanan akun Anda.
+- Menghubungi Anda dalam keadaan khusus yang berkaitan dengan akun Anda.
+- Menghubungi Anda tentang permintaan hukum, seperti permintaan penghapusan DMCA.
 
-On some websites and services you may provide additional information for your account, such as a short biography, avatar, your location, or your birthday. We make that information available to everyone who can access the website or service in question. This information is not required to use any of our services and can be erased at any time.
+Pada beberapa situs web dan layanan, Anda dapat memberikan informasi tambahan untuk akun Anda, seperti biografi singkat, avatar, lokasi Anda, atau hari ulang tahun Anda. Kami membuat informasi yang tersedia untuk semua orang yang dapat mengakses situs web atau layanan yang bersangkutan. Informasi ini tidak diperlukan untuk menggunakan layanan kami dan dapat dihapus kapan saja.
 
-We will store your account data as long as your account remains open. After closing an account, we may retain some or all of your account data in the form of backups or archives for up to 90 days.
+Kami akan menyimpan data akun Anda selama akun Anda masih terbuka. Setelah menutup akun, kami dapat menyimpan sebagian atau seluruh data akun Anda dalam bentuk cadangan atau arsip hingga 90 hari.
 
-## Contacting Us
+## Menghubungi Kami
 
-The Privacy Guides team generally does not have access to personal data outside of limited access granted via some moderation panels. Inquiries regarding your personal information should be sent directly to:
+Tim Privacy Guides umumnya tidak memiliki akses ke data pribadi di luar akses terbatas yang diberikan melalui beberapa panel moderasi. Pertanyaan mengenai informasi pribadi Anda harus dikirim langsung ke:
 
 ```text
 Jonah Aragon
-Services Administrator
+Administrator Layanan
 jonah@privacyguides.org
 ```
 
-For all other inquiries, you can contact any member of our team.
+Untuk semua pertanyaan lainnya, Anda dapat menghubungi anggota tim kami.
 
-For complaints under GDPR more generally, you may lodge complaints with your local data protection supervisory authorities. In France it's the Commission Nationale de l'Informatique et des Libertés which take care and handle the complaints. They provide a [template of complaint letter](https://www.cnil.fr/en/plaintes) to use.
+Untuk keluhan berdasarkan GDPR secara umum, Anda dapat mengajukan keluhan kepada otoritas pengawas perlindungan data setempat. Di Prancis, Komisi Nasional Informasi dan Kebebasan yang mengurus dan menangani keluhan tersebut. Mereka menyediakan template [surat keluhan](https://www.cnil.fr/en/plaintes) untuk digunakan.
 
-## About This Policy
+## Tentang Kebijakan Ini
 
-We will post any new versions of this statement [here](privacy-policy.md). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to the [Privacy Policy](privacy-policy.md) for the latest contact information at any time.
+Kami akan memposting versi baru dari pernyataan ini [di sini](privacy-policy.md). Kami dapat mengubah cara kami mengumumkan perubahan dalam versi mendatang dari dokumen ini. Sementara itu, kami dapat memperbarui informasi kontak kami kapan saja tanpa mengumumkan perubahan. Silakan merujuk ke [Kebijakan Privasi](privacy-policy.md) untuk informasi kontak terbaru setiap saat.
 
-A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) of this page can be found on GitHub.
-
---8<-- "includes/abbreviations.id.txt"
+Sebuah revisi lengkap [sejarah](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) dari halaman ini dapat ditemukan di GitHub.

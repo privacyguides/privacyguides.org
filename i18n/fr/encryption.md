@@ -1,9 +1,10 @@
 ---
 title: "Logiciels de chiffrement"
 icon: material/file-lock
+description: Le chiffrement des données est le seul moyen de contrôler qui peut y accéder. Ces outils vous permettent de chiffrer vos emails et tout autre fichier.
 ---
 
-Le chiffrement des données est le seul moyen de contrôler de qui peut y accéder. Si vous n'utilisez pas actuellement de logiciel de chiffrement pour votre disque dur, vos e-mails ou vos fichiers, vous devriez choisir une option ici.
+Le chiffrement des données est le seul moyen de contrôler qui peut y accéder. Si vous n'utilisez pas actuellement de logiciel de chiffrement pour votre disque dur, vos e-mails ou vos fichiers, vous devriez choisir une option ici.
 
 ## Multi-plateforme
 
@@ -353,5 +354,3 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
 
 - Les applications de chiffrement du système d'exploitation (FDE) devraient utiliser une sécurité matérielle telle qu'un TPM ou Secure Enclave.
 - Les applications de chiffrement de fichiers doivent bénéficier d'une prise en charge native ou tierce pour les plateformes mobiles.
-
---8<-- "includes/abbreviations.fr.txt"

@@ -48,18 +48,18 @@
     <g transform="translate(1.454e-4,7.6627)" fill="#ffffff" font-family="'Liberation Sans'" font-size="10.373px" font-weight="400" letter-spacing="0px" stroke-width=".43334" word-spacing="0px">
       <text transform="scale(.96575 1.0355)" x="42.045822" y="83.470764" style="line-height:125%" xml:space="preserve">
         <tspan x="42.045822" y="83.470764">
-          <tspan x="42.045822" y="83.470764" fill="#ffffff" stroke-width=".43334">Your</tspan>
+          <tspan x="42.045822" y="83.470764" fill="#ffffff" stroke-width=".43334">Perangkat</tspan>
         </tspan>
-        <tspan x="42.045822" y="96.437141">Device</tspan>
+        <tspan x="42.045822" y="96.437141">Anda</tspan>
       </text>
       <text transform="scale(.96575 1.0355)" x="68.014885" y="6.9863148" style="line-height:125%" xml:space="preserve">
         <tspan x="68.014885" y="6.9863148" fill="#ffffff" stroke-width=".43334">
-          <tspan dx="0" dy="0" fill="#ffffff" font-family="'Liberation Sans'" font-size="10.373px" font-weight="400" stroke-width=".43334">Sending data to a website</tspan>
+          <tspan dx="0" dy="0" fill="#ffffff" font-family="'Liberation Sans'" font-size="10.373px" font-weight="400" stroke-width=".43334">Mengirim data ke situs web</tspan>
         </tspan>
       </text>
       <text transform="scale(.96575 1.0355)" x="78.399231" y="152.36726" style="line-height:125%" xml:space="preserve">
         <tspan x="78.399231" y="152.36726" fill="#ffffff" stroke-width=".43334">
-          <tspan dx="0" dy="0" fill="#ffffff" font-family="'Liberation Sans'" font-size="10.373px" font-weight="400" stroke-width=".43334">Receiving data from a website</tspan>
+          <tspan dx="0" dy="0" fill="#ffffff" font-family="'Liberation Sans'" font-size="10.373px" font-weight="400" stroke-width=".43334">Menerima data dari situs web</tspan>
         </tspan>
       </text>
       <text transform="scale(.96575 1.0355)" x="42.06218" y="230.09454" style="line-height:125%" xml:space="preserve">
@@ -70,17 +70,17 @@
       </text>
       <text transform="scale(.96575 1.0355)" x="145.88936" y="230.25807" style="line-height:125%" xml:space="preserve">
         <tspan x="145.88936" y="230.25807" fill="#ffffff" stroke-width=".43334">
-          <tspan dx="0" dy="0" fill="#ffffff" font-family="'Liberation Sans'" font-size="10.373px" font-weight="400" stroke-width=".43334">Entry</tspan>
+          <tspan dx="0" dy="0" fill="#ffffff" font-family="'Liberation Sans'" font-size="10.373px" font-weight="400" stroke-width=".43334">Entri</tspan>
         </tspan>
       </text>
       <text transform="scale(.96575 1.0355)" x="223.78017" y="230.25807" style="line-height:125%" xml:space="preserve">
         <tspan x="223.78017" y="230.25807" fill="#ffffff" stroke-width=".43334">
-          <tspan dx="0" dy="0" fill="#ffffff" font-family="'Liberation Sans'" font-size="10.373px" font-weight="400" stroke-width=".43334">Middle</tspan>
+          <tspan dx="0" dy="0" fill="#ffffff" font-family="'Liberation Sans'" font-size="10.373px" font-weight="400" stroke-width=".43334">Tengah</tspan>
         </tspan>
       </text>
       <text transform="scale(.96575 1.0355)" x="312.03897" y="230.24173" style="line-height:125%" xml:space="preserve">
         <tspan x="312.03897" y="230.24173" fill="#ffffff" stroke-width=".43334">
-          <tspan dx="0" dy="0" fill="#ffffff" font-family="'Liberation Sans'" font-size="10.373px" font-weight="400" stroke-width=".43334">Exit</tspan>
+          <tspan dx="0" dy="0" fill="#ffffff" font-family="'Liberation Sans'" font-size="10.373px" font-weight="400" stroke-width=".43334">Keluar</tspan>
         </tspan>
       </text>
       <text transform="scale(.96575 1.0355)" x="363.96078" y="228.85168" style="line-height:125%" xml:space="preserve">
@@ -95,17 +95,17 @@
       </text>
       <text transform="scale(.96575 1.0355)" x="145.88936" y="85.257019" style="line-height:125%" xml:space="preserve">
         <tspan x="145.88936" y="85.257019" fill="#ffffff" stroke-width=".43334">
-          <tspan dx="0" dy="0" fill="#ffffff" font-family="'Liberation Sans'" font-size="10.373px" font-weight="400" stroke-width=".43334">Entry</tspan>
+          <tspan dx="0" dy="0" fill="#ffffff" font-family="'Liberation Sans'" font-size="10.373px" font-weight="400" stroke-width=".43334">Entri</tspan>
         </tspan>
       </text>
       <text transform="scale(.96575 1.0355)" x="226.64198" y="85.257019" style="line-height:125%" xml:space="preserve">
         <tspan x="226.64198" y="85.257019" fill="#ffffff" stroke-width=".43334">
-          <tspan dx="0" dy="0" fill="#ffffff" font-family="'Liberation Sans'" font-size="10.373px" font-weight="400" stroke-width=".43334">Middle</tspan>
+          <tspan dx="0" dy="0" fill="#ffffff" font-family="'Liberation Sans'" font-size="10.373px" font-weight="400" stroke-width=".43334">Tengah</tspan>
         </tspan>
       </text>
       <text transform="scale(.96575 1.0355)" x="312.49686" y="85.077118" style="line-height:125%" xml:space="preserve">
         <tspan x="312.49686" y="85.077118" fill="#ffffff" stroke-width=".43334">
-          <tspan dx="0" dy="0" fill="#ffffff" font-family="'Liberation Sans'" font-size="10.373px" font-weight="400" stroke-width=".43334">Exit</tspan>
+          <tspan dx="0" dy="0" fill="#ffffff" font-family="'Liberation Sans'" font-size="10.373px" font-weight="400" stroke-width=".43334">Keluar</tspan>
         </tspan>
       </text>
     </g>

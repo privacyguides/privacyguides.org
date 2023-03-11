@@ -1,52 +1,50 @@
 ---
-title: Supporting Us
+title: Dukung Kami
 ---
 
 <!-- markdownlint-disable MD036 -->
 It takes a lot of [people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spreading the word about privacy and mass surveillance. If you like what we do, consider getting involved by [editing the site](https://github.com/privacyguides/privacyguides.org) or [contributing translations](https://crowdin.com/project/privacyguides).
 
-If you want to support us financially, the most convenient method for us is contributing via Open Collective, a website operated by our fiscal host. Open Collective accepts payments via credit/debit card, PayPal, and bank transfers.
+Jika Anda ingin mendukung kami secara finansial, metode yang paling mudah bagi kami adalah berkontribusi melalui Open Collective, sebuah situs web yang dioperasikan oleh host fiskal kami. Open Collective menerima pembayaran melalui kartu kredit/debit, PayPal, dan transfer bank.
 
-[Donate on OpenCollective.com](https://opencollective.com/privacyguides/donate ""){.md-button.md-button--primary}
+[Donasi di OpenCollective.com](https://opencollective.com/privacyguides/donate ""){.md-button.md-button--primary}
 
-Donations made directly to us on Open Collective are generally tax-deductible in the US, because our fiscal host (the Open Collective Foundation) is a registered 501(c)3 organization. You will receive a receipt from the Open Collective Foundation after donating. Privacy Guides does not provide financial advice, and you should contact your tax advisor to find out whether this is applicable to you.
+Donations made directly to us on Open Collective are generally tax-deductible in the US, because our fiscal host (the Open Collective Foundation) is a registered 501(c)3 organization. Anda akan menerima tanda terima dari Open Collective Foundation setelah berdonasi. Privacy Guides tidak memberikan saran keuangan, dan Anda harus menghubungi penasihat pajak Anda untuk mengetahui apakah ini berlaku untuk Anda.
 
-If you already make use of GitHub sponsorships, you can also sponsor our organization there.
+Jika Anda sudah menggunakan sponsor GitHub, Anda juga dapat mensponsori organisasi kami di sana.
 
 [Sponsor us on GitHub](https://github.com/sponsors/privacyguides ""){.md-button}
 
-## Backers
+## Pendukung
 
-A special thanks to all those who support our mission! :heart:
+Terima kasih secara khusus kepada semua pihak yang mendukung misi kami! :heart:
 
-*Please note: This section loads a widget directly from Open Collective. This section does not reflect donations made outside of Open Collective, and we have no control over the specific donors featured in this section.*
+*Harap diperhatikan: Bagian ini memuat widget langsung dari Open Collective. Bagian ini tidak mencerminkan donasi yang dibuat di luar Open Collective, dan kami tidak memiliki kendali atas donatur tertentu yang ditampilkan di bagian ini.*
 
 <script src="https://opencollective.com/privacyguides/banner.js"></script>
 
-## How We Use Donations
+## Bagaimana Kami Menggunakan Donasi
 
-Privacy Guides is a **non-profit** organization. We use donations for a variety of purposes, including:
+Privacy Guides adalah organisasi **nirlaba**. Kami menggunakan donasi untuk berbagai tujuan, termasuk:
 
-**Domain Registrations**
+**Pendaftaran Domain**
 :
 
-We have a few domain names like `privacyguides.org` which cost us around $10 yearly to maintain their registration.
+Kami memiliki beberapa nama domain seperti `privacyguides.org` yang menghabiskan biaya sekitar $10 per tahun untuk mempertahankan registrasinya.
 
-**Web Hosting**
+**Hosting Web**
 :
 
-Traffic to this website uses hundreds of gigabytes of data per month, we use a variety of service providers to keep up with this traffic.
+Lalu lintas ke situs web ini menggunakan ratusan gigabyte data per bulan, kami menggunakan berbagai penyedia layanan untuk mengimbangi lalu lintas ini.
 
-**Online Services**
+**Layanan Daring**
 :
 
-We host [internet services](https://privacyguides.net) for testing and showcasing different privacy-products we like and [recommend](../tools.md). Some of which are made publicly available for our community's use (SearXNG, Tor, etc.), and some are provided for our team members (email, etc.).
+Kami menghost [layanan internet](https://privacyguides.net) untuk menguji dan menampilkan berbagai produk privasi yang kami sukai dan [rekomendasikan](../tools.md). Beberapa di antaranya tersedia untuk umum untuk digunakan oleh komunitas kami (SearXNG, Tor, dll.), dan beberapa disediakan untuk anggota tim kami (email, dll.).
 
-**Product Purchases**
+**Pembelian Produk**
 :
 
-We occasionally purchase products and services for the purposes of testing our [recommended tools](../tools.md).
+Kami terkadang membeli produk dan layanan untuk tujuan menguji [alat yang kami rekomendasikan](../tools.md).
 
-We are still working with our fiscal host (the Open Collective Foundation) to receive cryptocurrency donations, at the moment the accounting is unfeasible for many smaller transactions, but this should change in the future. In the meantime, if you wish to make a sizable (> $100) cryptocurrency donation, please reach out to [jonah@privacyguides.org](mailto:jonah@privacyguides.org).
-
---8<-- "includes/abbreviations.id.txt"
+We are still working with our fiscal host (the Open Collective Foundation) to receive cryptocurrency donations, at the moment the accounting is unfeasible for many smaller transactions, but this should change in the future. Sementara itu, jika Anda ingin memberikan donasi mata uang kripto dalam jumlah yang cukup besar (> $100), silakan hubungi [jonah@privacyguides.org](mailto:jonah@privacyguides.org).

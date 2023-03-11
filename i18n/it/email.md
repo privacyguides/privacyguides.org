@@ -1,6 +1,7 @@
 ---
-title: "Servizi di posta elettronica"
+title: "Email Services"
 icon: material/email
+description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
 ---
 
 L'e-mail è praticamente una necessità per l'utilizzo di qualsiasi servizio online, tuttavia non la consigliamo per le conversazioni personali. Piuttosto che utilizzare l'email per contattare altre persone, considera l'utilizzo di un mezzo di messaggistica istantanea che supporta la forward secrecy.
@@ -9,9 +10,21 @@ L'e-mail è praticamente una necessità per l'utilizzo di qualsiasi servizio onl
 
 Per tutto il resto, consigliamo una varietà di provider di posta elettronica basati su modelli di business sostenibile e funzioni di sicurezza integrate.
 
+- [OpenPGP-Compatible Email Providers :material-arrow-right-drop-circle:](#openpgp-compatible-services)
+- [Other Encrypted Providers :material-arrow-right-drop-circle:](#more-providers)
+- [Email Aliasing Services :material-arrow-right-drop-circle:](#email-aliasing-services)
+- [Self-Hosted Options :material-arrow-right-drop-circle:](#self-hosting-email)
+
 ## Servizi compatibili con OpenPGP
 
-Questi provider supportano in modo nativo la codifica/decodifica OpenPGP, consentendo d'inviare e-mail E2EE in modo indipendente dal provider. Ad esempio, un utente di Proton Mail potrebbe inviare un messaggio E2EE a un utente di Mailbox.org, oppure si potrebbero ricevere notifiche cifrate in OpenPGP dai servizi Internet che lo supportano.
+These providers natively support OpenPGP encryption/decryption and the Web Key Directory (WKD) standard, allowing for provider-agnostic E2EE emails. Ad esempio, un utente di Proton Mail potrebbe inviare un messaggio E2EE a un utente di Mailbox.org, oppure si potrebbero ricevere notifiche cifrate in OpenPGP dai servizi Internet che lo supportano.
+
+<div class="grid cards" markdown>
+
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+
+</div>
 
 !!! warning "Avviso"
 
@@ -49,41 +62,41 @@ Se hai il piano Proton Unlimited, Business o Visionary, ottieni anche [SimpleLog
 
 Proton Mail ha rapporti interni di crash che **non condividono** con terze parti. Questa funzione può essere disattivata in: **Impostazioni** > **Vai alle impostazioni** > **Account** > **Sicurezza e privacy** > **Invia rapporti sui crash**.
 
-??? success "Domini e Alias personalizzati"
+#### :material-check:{ .pg-green } Custom Domains and Aliases
 
-    Gli abbonati a Proton Mail possono scegliere un dominio personalizzato con il servizio o un indirizzo [catch-all](https://proton.me/it/support/catch-all). Inoltre è presente il supporto per il [subaddressing](https://proton.me/it/support/creating-aliases), utile per chi non vuole acquistare un dominio.
+Paid Proton Mail subscribers can use their own domain with the service or a [catch-all](https://proton.me/support/catch-all) address. Proton Mail also supports [subaddressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
 
-??? success "Metodi di pagamento privati"
+#### :material-check:{ .pg-green } Private Payment Methods
 
-    Proton Mail [accetta](https://proton.me/support/payment-options) Bitcoin e contanti via mail, oltre ai pagamenti standard con carta di credito/debito e PayPal.
+Proton Mail [accepts](https://proton.me/support/payment-options) cash by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
 
-??? success "Sicurezza dell'account"
+#### :material-check:{ .pg-green } Account Security
 
-    Proton Mail supporta solo [l'autenticazione a due fattori](https://proton.me/it/support/two-factor-authentication-2fa) TOTP. Il supporto per le chiavi di sicurezza U2F non è ancora presente. Proton Mail ha in programma, però, d'integrarlo al completamento del loro codice [Single Sign On (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/).
+Proton Mail supports TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) only. Il supporto per le chiavi di sicurezza U2F non è ancora presente. Proton Mail is planning to implement U2F upon completion of their [Single Sign On (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/) code.
 
-??? success "Sicurezza dei dati"
+#### :material-check:{ .pg-green } Data Security
 
-    Proton Mail ha [crittografia zero-access](https://proton.me/blog/zero-access-encryption) a riposo per le tue e-mail e [calendari](https://proton.me/news/protoncalendar-security-model). I dati protetti con crittografia zero-access sono accessibili solo da te.
-    
-    Alcune informazioni memorizzate nei [Contatti Proton](https://proton.me/it/support/proton-contacts), come i nomi visualizzati e gli indirizzi e-mail, non sono protette dalla crittografia zero-access. I campi dei contatti che supportano la crittografia zero-access, come i numeri di telefono, sono indicati con l'icona di un lucchetto.
+Proton Mail has [zero-access encryption](https://proton.me/blog/zero-access-encryption) at rest for your emails and [calendars](https://proton.me/news/protoncalendar-security-model). I dati protetti con crittografia zero-access sono accessibili solo da te.
 
-??? success "Crittografia delle email"
+Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are not secured with zero-access encryption. I campi dei contatti che supportano la crittografia zero-access, come i numeri di telefono, sono indicati con l'icona di un lucchetto.
 
-    Proton mail ha [integrato la crittografia OpenPGP](https://proton.me/it/support/how-to-use-pgp) nella loro webmail. Le e-mail inviate ad altri account Proton Mail vengono crittografate automaticamente, e la crittografia verso indirizzi non Proton Mail con una chiave OpenPGP può essere abilitata nelle impostazioni dell'account. Permettono inoltre di [crittografare messaggi verso indirizzi non Proton Mail](https://proton.me/it/support/password-protected-emails) senza il bisogno che il ricevente acceda ad un account Proton Mail o utilizzi software come OpenPGP.
-    
-    Proton Mail consente anche il reperimento di chiavi pubbliche via HTTP dalla loro [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Questo permette alle persone che non utilizzano Proton Mail di trovare facilmente le chiavi OpenPGP degli account Proton Mail, per un E2EE cross-provider.
+#### :material-check:{ .pg-green } Email Encryption
 
-??? check "Sicurezza dei dati"
+Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to-use-pgp) in their webmail. Le e-mail inviate ad altri account Proton Mail vengono crittografate automaticamente, e la crittografia verso indirizzi non Proton Mail con una chiave OpenPGP può essere abilitata nelle impostazioni dell'account. They also allow you to [encrypt messages to non-Proton Mail addresses](https://proton.me/support/password-protected-emails) without the need for them to sign up for a Proton Mail account or use software like OpenPGP.
 
-    Proton Mail non offre una funzione di eredità digitale.
+Proton Mail also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Questo permette alle persone che non utilizzano Proton Mail di trovare facilmente le chiavi OpenPGP degli account Proton Mail, per un E2EE cross-provider.
 
-??? info "Metodi di pagamento privati"
+#### :material-alert-outline:{ .pg-orange } Digital Legacy
 
-    Se avete un account a pagamento e la vostra [bolletta non è pagata](https://proton.me/support/delinquency) dopo 14 giorni, non potrete accedere ai vostri dati. Dopo 30 giorni, l'account diventerà delinguente e non riceverà più la posta in arrivo. Durante questo periodo la fattura continuerà ad essere addebitata.
+Proton Mail non offre una funzione di eredità digitale.
 
-??? info "Funzionalità aggiuntive"
+#### :material-information-outline:{ .pg-blue } Account Termination
 
-    Proton Mail offre un account "Unlimited" a 9,99 euro/mese, che consente anche l'accesso a Proton VPN oltre a fornire account multipli, domini, alias e 500 GB di spazio di archiviazione.
+If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. Dopo 30 giorni, l'account diventerà delinguente e non riceverà più la posta in arrivo. Durante questo periodo la fattura continuerà ad essere addebitata.
+
+#### :material-information-outline:{ .pg-blue } Additional Functionality
+
+Proton Mail offre un account "Unlimited" a 9,99 euro/mese, che consente anche l'accesso a Proton VPN oltre a fornire account multipli, domini, alias e 500 GB di spazio di archiviazione.
 
 ### Mailbox.org
 
@@ -101,43 +114,54 @@ Proton Mail ha rapporti interni di crash che **non condividono** con terze parti
     
         - [:octicons-browser-16: Web](https://login.mailbox.org)
 
-??? success "Domini e Alias personalizzati"
+#### :material-check:{ .pg-green } Custom Domains and Aliases
 
-    Mailbox.org consente di utilizzare il proprio dominio e supporta gli indirizzi [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain). Mailbox.org supporta anche [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), utile se non si vuole acquistare un dominio.
+Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) addresses. Mailbox.org also supports [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), which is useful if you don't want to purchase a domain.
 
-??? check "Eredità digitale"
+#### :material-check:{ .pg-green } Private Payment Methods
 
-    Mailbox.org non accetta Bitcoin o altre criptovalute a causa della sospensione delle attività del processore di pagamento BitPay in Germania. Tuttavia, accettano contanti per posta, pagamento in contanti su conto corrente, bonifico bancario, carta di credito, PayPal e un paio di processori specifici per la Germania: paydirekt e Sofortüberweisung.
+Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. Tuttavia, accettano contanti per posta, pagamento in contanti su conto corrente, bonifico bancario, carta di credito, PayPal e un paio di processori specifici per la Germania: paydirekt e Sofortüberweisung.
 
-??? success "Sicurezza dell'account"
+#### :material-check:{ .pg-green } Account Security
 
-    Mailbox.org supporta l'[autenticazione a due fattori](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) solo per la sua webmail. È possibile utilizzare il TOTP o un [Yubikey](https://it.wikipedia.org/wiki/YubiKey) tramite il [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Gli standard web come [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) non sono ancora supportati.
+Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [Yubikey](https://en.wikipedia.org/wiki/YubiKey) via the [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
 
-??? info "Sicurezza dei dati"
+#### :material-information-outline:{ .pg-blue } Data Security
 
-    Mailbox.org consente la crittografia della posta in arrivo utilizzando la sua [casella di posta crittografata] (https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). I nuovi messaggi ricevuti saranno immediatamente crittografati con la tua chiave pubblica.
-    
-    Tuttavia, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), la piattaforma software utilizzata da Mailbox.org, [non supporta](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) la crittografia della rubrica e del calendario. Un'[opzione autonoma] (calendario-contatti.md) potrebbe essere più appropriata per queste informazioni.
+Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). I nuovi messaggi ricevuti saranno immediatamente crittografati con la tua chiave pubblica.
 
-??? success "Crittografia delle email"
+However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that information.
 
-    Mailbox.org ha [integrato la crittografia] (https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) nella sua webmail, che semplifica l'invio di messaggi a persone con chiavi OpenPGP pubbliche. Consentono inoltre [ai destinatari remoti di decriptare un'e-mail](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) sui server di Mailbox.org. Questa funzione è utile quando il destinatario remoto non dispone di OpenPGP e non può decifrare una copia dell'e-mail nella propria casella di posta elettronica.
-    
-    Mailbox.org supporta anche il reperimento di chiavi pubbliche via HTTP dalla sua [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Questo permette a persone esterne a Mailbox.org di trovare facilmente le chiavi OpenPGP degli account di Mailbox.org, per un E2EE fra provider diversi.
+#### :material-check:{ .pg-green } Email Encryption
 
-??? check "Domini e alias personalizzati"
+Mailbox.org has [integrated encryption](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) on Mailbox.org's servers. Questa funzione è utile quando il destinatario remoto non dispone di OpenPGP e non può decifrare una copia dell'e-mail nella propria casella di posta elettronica.
 
-    Mailbox.org dispone di una funzione di eredità digitale per tutti i piani. Puoi scegliere se vuoi che i dati siano trasmessi agli eredi, a condizione che ne facciano richiesta e forniscano il testamento. In alternativa, è possibile nominare una persona per nome e indirizzo.
+Mailbox.org also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Questo permette a persone esterne a Mailbox.org di trovare facilmente le chiavi OpenPGP degli account di Mailbox.org, per un E2EE fra provider diversi.
 
-??? info "Metodi di pagamento privati"
+#### :material-check:{ .pg-green } Digital Legacy
 
-    L'account sarà impostato come account utente limitato alla scadenza del contratto, dopo [30 giorni sarà irrevocabilmente cancellato](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Mailbox.org dispone di una funzione di eredità digitale per tutti i piani. Puoi scegliere se vuoi che i dati siano trasmessi agli eredi, a condizione che ne facciano richiesta e forniscano il testamento. In alternativa, è possibile nominare una persona per nome e indirizzo.
 
-??? info "Funzionalità aggiuntive"
+#### :material-information-outline:{ .pg-blue } Account Termination
 
-    È possibile accedere al proprio account Mailbox.org tramite IMAP/SMTP utilizzando il loro [servizio .onion] (https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). Tuttavia, l'interfaccia webmail non è accessibile tramite il servizio .onion e si possono verificare errori di certificato TLS.
-    
-    Tutti gli account sono dotati di uno spazio di archiviazione cloud limitato che [può essere crittografato] (https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org offre anche l'alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), che applica la crittografia TLS alla connessione tra i server di posta, altrimenti il messaggio non verrà inviato affatto. Mailbox.org supporta anche [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) oltre ai protocolli di accesso standard come IMAP e POP3.
+Your account will be set to a restricted user account when your contract ends, after [30 days it will be irrevocably deleted](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+
+#### :material-information-outline:{ .pg-blue } Additional Functionality
+
+You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). Tuttavia, l'interfaccia webmail non è accessibile tramite il servizio .onion e si possono verificare errori di certificato TLS.
+
+All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+
+## Altri provider
+
+Questi provider archiviano le tue e-mail con una crittografia a conoscenza zero, il che li rende ottime opzioni per mantenere sicure le tue e-mail archiviate. Tuttavia, non supportano standard di crittografia interoperabili per le comunicazioni E2EE tra provider.
+
+<div class="grid cards" markdown>
+
+- ![StartMail logo](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
+- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+
+</div>
 
 ### StartMail
 
@@ -156,43 +180,39 @@ Proton Mail ha rapporti interni di crash che **non condividono** con terze parti
     
         - [:octicons-browser-16: Web](https://mail.startmail.com/login)
 
-??? success "Domini e Alias personalizzati"
+#### :material-check:{ .pg-green } Custom Domains and Aliases
 
-    Gli account personali possono utilizzare alias [Personalizzati o rapidi](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases). Sono disponibili anche [domini personalizzati](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain).
+Personal accounts can use [Custom or Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) aliases. [Custom domains](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) are also available.
 
-??? warning "Metodi di pagamento privati"
+#### :material-alert-outline:{ .pg-orange } Private Payment Methods
 
-    StartMail accetta Visa, MasterCard, American Express e Paypal. StartMail ha anche altre [opzioni di pagamento](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) come Bitcoin (attualmente solo per gli account personali) e l'addebito diretto SEPA per gli account più vecchi di un anno.
+StartMail accetta Visa, MasterCard, American Express e Paypal. StartMail also has other [payment options](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) such as [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (currently only for Personal accounts) and SEPA Direct Debit for accounts older than a year.
 
-??? success "Sicurezza dell'account"
+#### :material-check:{ .pg-green } Account Security
 
-    StartMail supporta l'autenticazione a due fattori TOTP [solo per la webmail] (https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). Non consentono l'autenticazione con chiave di sicurezza U2F.
+StartMail supports TOTP two factor authentication [for webmail only](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). Non consentono l'autenticazione con chiave di sicurezza U2F.
 
-??? info "Sicurezza dei dati"
+#### :material-information-outline:{ .pg-blue } Data Security
 
-    StartMail dispone di [zero accesso ai dati crittografati a riposo](https://www.startmail.com/en/whitepaper/#_Toc458527835), utilizzando il sistema "user vault". Quando accedi, la cassaforte viene aperta e l'e-mail viene spostata dalla coda e inserita, dove viene decifrata dalla corrispondente chiave privata.
-    
-    StartMail supporta l'importazione dei [contatti](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts), ma sono accessibili solo nella webmail e non attraverso protocolli come [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Inoltre, i contatti non vengono memorizzati utilizzando la crittografia a "conoscenza zero", quindi potrebbe essere più appropriata un'opzione [autonoma](calendar-contacts.md).
+StartMail has [zero access encryption at rest](https://www.startmail.com/en/whitepaper/#_Toc458527835), using their "user vault" system. Quando accedi, la cassaforte viene aperta e l'e-mail viene spostata dalla coda e inserita, dove viene decifrata dalla corrispondente chiave privata.
 
-??? success "Crittografia delle email"
+StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) however, they are only accessible in the webmail and not through protocols such as [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Inoltre, i contatti non vengono memorizzati utilizzando la crittografia a "conoscenza zero", quindi potrebbe essere più appropriata un'opzione \[autonoma\](calendar-contacts.md).
 
-    Startmail ha [integrato la crittografia] (https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) nella sua webmail, che semplifica l'invio di messaggi a utenti con chiavi OpenPGP pubbliche.
+#### :material-check:{ .pg-green } Email Encryption
 
-??? warning "Eredità digitale"
+StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys. However, they do not support the Web Key Directory standard, making the discovery of a Startmail mailbox's public key more challenging for other email providers or clients.
 
-    StartMail non offre una funzione di eredità digitale.
+#### :material-alert-outline:{ .pg-orange } Digital Legacy
 
-??? info "Chiusura dell'account"
+StartMail non offre una funzione di eredità digitale.
 
-    Alla scadenza dell'account, StartMail eliminerà definitivamente l'account dopo [6 mesi in 3 fasi](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
+#### :material-information-outline:{ .pg-blue } Account Termination
 
-??? info "Funzionalità aggiuntive"
+On account expiration, StartMail will permanently delete your account after [6 months in 3 phases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
 
-    StartMail consente il proxy delle immagini all'interno dei messaggi di posta elettronica. Se consenti il caricamento dell'immagine remota, il mittente non saprà quale sia il tuo indirizzo IP.
+#### :material-information-outline:{ .pg-blue } Additional Functionality
 
-## Altri provider
-
-Questi provider archiviano le tue e-mail con una crittografia a conoscenza zero, il che li rende ottime opzioni per mantenere sicure le tue e-mail archiviate. Tuttavia, non supportano standard di crittografia interoperabili per le comunicazioni E2EE tra provider.
+StartMail consente il proxy delle immagini all'interno dei messaggi di posta elettronica. Se consenti il caricamento dell'immagine remota, il mittente non saprà quale sia il tuo indirizzo IP.
 
 ### Tutanota
 
@@ -220,43 +240,50 @@ Questi provider archiviano le tue e-mail con una crittografia a conoscenza zero,
 
 Tutanota non supporta il [protocollo IMAP](https://tutanota.com/faq/#imap) o l'uso di client [di posta elettronica di terze parti](email-clients.md)e non sarà nemmeno possibile aggiungere [account di posta elettronica esterni](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) all'app Tutanota. Al momento non sono supportate né [Importazione e-mail](https://github.com/tutao/tutanota/issues/630) né [sottocartelle](https://github.com/tutao/tutanota/issues/927) , anche se questo [dovrebbe essere modificato](https://tutanota.com/blog/posts/kickoff-import). Le e-mail possono essere esportate [singolarmente o per selezione in blocco](https://tutanota.com/howto#generalMail) per cartella, il che può essere scomodo se si dispone di molte cartelle.
 
-??? success "Domini e Alias personalizzati"
+#### :material-check:{ .pg-green } Custom Domains and Aliases
 
-    Gli account Tutanota a pagamento possono utilizzare fino a 5 [alias](https://tutanota.com/faq#alias) e [domini personalizzati](https://tutanota.com/faq#custom-domain). Tutanota non consente [sottoindirizzi (più indirizzi)] (https://tutanota.com/faq#plus), ma è possibile utilizzare un [catch-all](https://tutanota.com/howto#settings-global) con un dominio personalizzato.
+Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias) and [custom domains](https://tutanota.com/faq#custom-domain). Tutanota doesn't allow for [subaddressing (plus addresses)](https://tutanota.com/faq#plus), but you can use a [catch-all](https://tutanota.com/howto#settings-global) with a custom domain.
 
-??? warning "Metodi di pagamento privati"
+#### :material-information-outline:{ .pg-blue } Private Payment Methods
 
-    Tutanota accetta direttamente solo carte di credito e PayPal, tuttavia Bitcoin e Monero possono essere utilizzati per acquistare carte regalo grazie alla loro [partnership](https://tutanota.com/faq/#cryptocurrency) con Proxystore.
+Tutanota only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
 
-??? success "Sicurezza dell'account"
+#### :material-check:{ .pg-green } Account Security
 
-    Tutanota supporta [l'autenticazione a due fattori](https://tutanota.com/faq#2fa) sia con TOTP, sia con U2F.
+Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with either TOTP or U2F.
 
-??? success "Sicurezza dei dati"
+#### :material-check:{ .pg-green } Data Security
 
-    Tutanota dispone di [crittografia zero-access a riposo] (https://tutanota.com/faq#what-encrypted) per le e-mail, [contatti della rubrica] (https://tutanota.com/faq#encrypted-address-book) e [calendario](https://tutanota.com/faq#calendar). Ciò significa che i messaggi e gli altri dati memorizzati nel tuo account sono leggibili solo a te.
+Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). Ciò significa che i messaggi e gli altri dati memorizzati nel tuo account sono leggibili solo a te.
 
-??? warning "Crittografia delle email"
+#### :material-information-outline:{ .pg-blue } Email Encryption
 
-    Tutanota [non utilizza OpenPGP](https://www.tutanota.com/faq/#pgp). Gli account Tutanota possono ricevere e-mail cifrate da account di posta elettronica non Tutanota solo se inviate tramite una [casella di posta temporanea Tutanota](https://www.tutanota.com/howto/#encrypted-email-external).
+Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
 
-??? warning "Eredità digitale"
+#### :material-alert-outline:{ .pg-orange } Digital Legacy
 
-    Tutanota non offre una funzione di eredità digitale.
+Tutanota non offre una funzione di eredità digitale.
 
-??? info "Chiusura dell'account"
+#### :material-information-outline:{ .pg-blue } Account Termination
 
-    Tutanota [chiuderà gli account gratuiti inattivi](https://tutanota.com/faq#inactive-accounts) dopo sei mesi. È possibile riutilizzare un account gratuito disattivato se si paga.
+Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. È possibile riutilizzare un account gratuito disattivato se si paga.
 
-??? info "Funzionalità aggiuntive"
+#### :material-information-outline:{ .pg-blue } Additional Functionality
 
-    Tutanota offre la versione business di [Tutanota per le organizzazioni non profit](https://tutanota.com/blog/posts/secure-email-for-non-profit) gratuitamente o con un forte sconto.
-    
-    Tutanota dispone anche di una funzione commerciale chiamata [Secure Connect](https://tutanota.com/secure-connect/). Ciò garantisce che il contatto del cliente con l'azienda utilizzi E2EE. La funzione costa 240€ all'anno.
+Tutanota offers the business version of [Tutanota to non-profit organizations](https://tutanota.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
+
+Tutanota also has a business feature called [Secure Connect](https://tutanota.com/secure-connect/). Ciò garantisce che il contatto del cliente con l'azienda utilizzi E2EE. La funzione costa 240€ all'anno.
 
 ## Servizi di alias per email
 
 Un servizio di aliasing email consente di generare facilmente un nuovo indirizzo email per ogni sito web a cui ci si registra. Gli alias email generati vengono quindi inoltrati a un indirizzo email di tua scelta, nascondendo sia il tuo indirizzo e-mail "principale" che l'identità del tuo provider di posta elettronica. Il vero aliasing di posta elettronica è meglio dell'indirizzo plus comunemente usato e supportato da molti provider, che ti consente di creare alias come tuonome+[qualsiasicosa]@example.com, perché siti Web, inserzionisti e reti di tracciamento possono banalmente rimuovere qualsiasi cosa dopo il segno + per conoscere il tuo vero indirizzo email.
+
+<div class="grid cards" markdown>
+
+- ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
+- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+
+</div>
 
 L'aliasing e-mail può funzionare da salvaguardia nel caso in cui il tuo provider di posta elettronica cessi di operare. In questo caso, è possibile reindirizzare facilmente gli alias a un nuovo indirizzo email. A sua volta, tuttavia, si sta mettendo fiducia nel servizio di aliasing che continui a funzionare.
 
@@ -334,7 +361,7 @@ SimpleLogin è stata [acquistata da Proton AG](https://proton.me/news/proton-and
 
 Puoi collegare il tuo account SimpleLogin con l'account Proton nelle impostazioni. Se hai il piano Proton Unlimited, Business o Visionary, avrai SimpleLogin Premium gratuitamente.
 
-Funzionalità gratuite degne di nota:
+Notable free features:
 
 - [x] 10 alias condivisi
 - [x] Risposte illimitate
@@ -387,7 +414,7 @@ Consideriamo queste caratteristiche importanti per fornire un servizio sicuro e 
 - Consentire agli utenti di utilizzare il proprio [nome di dominio](https://en.wikipedia.org/wiki/Domain_name). I nomi di dominio personalizzati sono importanti per gli utenti perché consentono loro di mantenere la propria autonomia dal servizio, se dovesse diventare negativa o essere acquisita da un'altra società che non dà priorità alla privacy.
 - Opera su un'infrastruttura di proprietà, ovvero non si appoggia a provider di servizi e-mail di terze parti.
 
-**Caso migliore:**
+**Best Case:**
 
 - Crittografia di tutti i dati dell'account (contatti, calendari ecc.) a riposo con crittografia ad zero-access.
 - Crittografia webmail integrata E2EE/PGP fornita per comodità.
@@ -409,9 +436,9 @@ Preferiamo che i provider da noi consigliati raccolgano il minor numero di dati 
 - Un'informativa sulla privacy che soddisfa i requisiti definiti dal GDPR
 - Non deve essere hostato negli Stati Uniti a causa del [ECPA](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act#Criticism), il quale dev'essere [ancora riformato](https://epic.org/ecpa/).
 
-**Caso migliore:**
+**Best Case:**
 
-- Accetta Bitcoin, contanti e altre forme di criptovaluta e/o opzioni di pagamento anonime (carte regalo, ecc.)
+- Accepts [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
 
 ### Sicurezza
 
@@ -428,14 +455,14 @@ I server di posta elettronica gestiscono molti dati estremamente sensibili. Ci a
 - Record [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) e [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) validi.
 - Record [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) e [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) validi.
 - Disporre di un record e di una politica [DMARC](https://en.wikipedia.org/wiki/DMARC) adeguati o utilizzare [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) per l'autenticazione. Se si utilizza l'autenticazione DMARC, la politica deve essere impostata su `rifiuta` o `quarantena`.
-- Una preferenza per la suite di server TLS 1.2 o successivo e un piano per [deprecare TLSv1.0 e TLSv1.1](https://datatracker.ietf.org/doc/draft-ietf-tls-oldversions-deprecate/).
+- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996/).
 - [Invio SMTPS](https://en.wikipedia.org/wiki/SMTPS) , supponendo che venga utilizzato SMTP.
 - Standard di sicurezza del sito web come:
     - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
     - [Integrità Subresource](https://en.wikipedia.org/wiki/Subresource_Integrity) se si caricano oggetti da domini esterni.
 - Deve supportare la visualizzazione di [intestazioni di messaggi](https://en.wikipedia.org/wiki/Email#Message_header), in quanto è una funzione forense cruciale per determinare se un'e-mail è un tentativo di phishing.
 
-**Caso migliore:**
+**Best Case:**
 
 - Supporto per l'autenticazione hardware, come U2F e [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F e WebAuthn sono più sicuri, in quanto utilizzano una chiave privata memorizzata nel client su un dispositivo hardware per autenticare le persone, rispetto a un segreto condiviso che viene memorizzato sul server web e sul client quando si utilizza TOTP. Inoltre, U2F e WebAuthn sono più resistenti al phishing in quanto la loro risposta di autenticazione si basa sul [nome di dominio](https://en.wikipedia.org/wiki/Domain_name) autenticato. Inoltre, U2F e WebAuthn sono più resistenti al phishing in quanto la loro risposta di autenticazione si basa sul [nome di dominio](https://en.wikipedia.org/wiki/Domain_name) autenticato.
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844), oltre al supporto DANE.
@@ -443,7 +470,7 @@ I server di posta elettronica gestiscono molti dati estremamente sensibili. Ci a
 - Programmi di bug-bounty e/o un processo coordinato di divulgazione delle vulnerabilità.
 - Standard di sicurezza del sito web come:
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
-    - [Expect-CT](https://datatracker.ietf.org/doc/draft-ietf-httpbis-expect-ct)
+    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
 
 ### Fiducia
 
@@ -453,7 +480,7 @@ Non affideresti le tue finanze a qualcuno con un'identità falsa, quindi perché
 
 - Dirigenza o proprietà pubblica.
 
-**Caso migliore:**
+**Best Case:**
 
 - Dirigenza pubblica.
 - Rapporti di trasparenza frequenti.
@@ -474,12 +501,10 @@ Non deve avere alcun marketing ritenuto irresponsabile:
 - Riutilizzare informazioni personali (p.e., account e-mail, pseudonimi unici ecc.) con cui hanno eseguito accessi senza software di anonimizzazione (Tor, VPN, ecc.)
 - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
-**Caso migliore:**
+**Best Case:**
 
 - Documentazione chiara e di facile lettura. Questo include cose come l'impostazione di 2FA, dei client di posta elettronica, di OpenPGP, ecc.
 
 ### Funzionalità aggiuntive
 
 Anche se non strettamente necessari, ci sono altri fattori di convenienza o di privacy che abbiamo preso in considerazione per determinare i provider da consigliare.
-
---8<-- "includes/abbreviations.it.txt"

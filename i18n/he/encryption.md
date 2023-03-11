@@ -1,6 +1,7 @@
 ---
 title: "תוכנת הצפנה"
 icon: material/file-lock
+description: הצפנה של נתונים היא הדרך היחידה לשלוט מי יכול לגשת אליו. These tools allow you to encrypt your emails and any other files.
 ---
 
 הצפנה של נתונים היא הדרך היחידה לשלוט מי יכול לגשת אליו. אם אינך משתמש כעת בתוכנת הצפנה עבור הדיסק הקשיח, הודעות הדוא"ל או הקבצים שלך, עליך לבחור אפשרות כאן.
@@ -354,5 +355,3 @@ BitLocker [ נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-d
 
 - אפליקציות הצפנה של מערכת הפעלה (FDE) צריכות להשתמש באבטחת חומרה כגון TPM או Secure Enclave.
 - אפליקציות להצפנת קבצים צריכות לקבל תמיכה של צד ראשון או שלישי עבור פלטפורמות ניידות.
-
---8<-- "includes/abbreviations.he.txt"

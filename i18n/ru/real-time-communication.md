@@ -1,6 +1,7 @@
 ---
 title: "Мессенджеры"
 icon: material/chat-processing
+description: Other instant messengers make all of your private conversations available to the company that runs them.
 ---
 
 These are our recommendations for encrypted real-time communication.
@@ -188,5 +189,3 @@ Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the 
 - Should be decentralized, i.e. federated or P2P.
 - Should use E2EE for all messages by default.
 - Should support Linux, macOS, Windows, Android, and iOS.
-
---8<-- "includes/abbreviations.ru.txt"

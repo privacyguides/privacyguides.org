@@ -1,8 +1,8 @@
 ---
-title: Git Recommendations
+title: Rekomendasi Git
 ---
 
-If you make changes to this website on GitHub.com's web editor directly, you shouldn't have to worry about this. If you are developing locally and/or are a long-term website editor (who should probably be developing locally!), consider these recommendations.
+Jika Anda membuat perubahan pada situs web ini di editor web GitHub.com secara langsung, Anda tidak perlu khawatir tentang hal ini. Jika Anda mengembangkan secara lokal dan/atau merupakan editor situs web jangka panjang (yang mungkin harus mengembangkan secara lokal!), pertimbangkan rekomendasi ini.
 
 ## Enable SSH Key Commit Signing
 
@@ -28,21 +28,19 @@ Ensure you [add your SSH key to your GitHub account](https://docs.github.com/en/
 
 ## Rebase on Git pull
 
-Use `git pull --rebase` instead of `git pull` when pulling in changes from GitHub to your local machine. This way your local changes will always be "on top of" the latest changes on GitHub, and you avoid merge commits (which are disallowed in this repo).
+Gunakan `git pull --rebase` alih-alih `git pull` saat menarik perubahan dari GitHub ke mesin lokal Anda. Dengan cara ini perubahan lokal Anda akan selalu "di atas" perubahan terbaru di GitHub, dan Anda menghindari komit gabungan (yang dilarang dalam repo ini).
 
-You can set this to be the default behavior:
+Anda dapat mengatur ini menjadi perilaku default:
 
 ```
 git config --global pull.rebase true
 ```
 
-## Rebase from `main` before submitting a PR
+## Rebase dari `utama` sebelum mengirimkan PR
 
-If you are working on your own branch, run these commands before submitting a PR:
+Jika Anda bekerja pada cabang Anda sendiri, jalankan perintah ini sebelum mengirimkan PR:
 
 ```
 git fetch origin
 git rebase origin/main
 ```
-
---8<-- "includes/abbreviations.id.txt"

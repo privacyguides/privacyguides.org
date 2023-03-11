@@ -1,6 +1,7 @@
 ---
 title: "Autenticatori a più fattori"
 icon: 'material/two-factor-authentication'
+description: These tools assist you with securing your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
 ---
 
 ## Chiavi di sicurezza fisiche
@@ -158,5 +159,3 @@ Consigliamo vivamente di utilizare applicazioni TOTP per dispositivi mobili inve
 - Must not require internet connectivity.
 - Must not sync to a third-party cloud sync/backup service.
     - **Optional** E2EE sync support with OS-native tools is acceptable, e.g. encrypted sync via iCloud.
-
---8<-- "includes/abbreviations.it.txt"

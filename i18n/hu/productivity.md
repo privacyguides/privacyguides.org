@@ -1,9 +1,10 @@
 ---
 title: "Produktivitás Eszközök"
 icon: material/file-sign
+description: A legtöbb online irodai programcsomag nem támogatja az End-to-End titkosítást, ami azt jelenti, hogy a felhőszolgáltató hozzáfér mindenhez, amit csinálsz.
 ---
 
-A legtöbb online irodai programcsomag nem támogatja az End-to-End titkosítást, ami azt jelenti, hogy a felhőszolgáltató hozzáfér mindenhez, amit csinálsz. Az adatvédelmi nyilatkozat törvényileg védheti a jogaidat, de nem biztosít technikai hozzáférési korlátokat.
+A legtöbb online irodai programcsomag nem támogatja az End-to-End titkosítást, ami azt jelenti, hogy a felhőszolgáltató hozzáfér mindenhez, amit csinálsz. Az adatvédelmi tájékoztató törvényileg védheti a jogaidat, de nem biztosít technikai hozzáférési korlátokat.
 
 ## Kollaborációs Platformok
 
@@ -16,7 +17,7 @@ A legtöbb online irodai programcsomag nem támogatja az End-to-End titkosítás
     A **Nextcloud** egy ingyenes és nyílt forráskódú kliens-szerver szoftvercsomag, amellyel saját fájltárhely-szolgáltatásokat hozhatsz létre egy privát általad ellenőrzött szerveren.
     
     [:octicons-home-16: Honlap](https://nextcloud.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Adatvédelmi Nyilatkozat" }
+    [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Adatvédelmi Tájékoztató" }
     [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Dokumentáció}
     [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Forráskód" }
     [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Közreműködés }
@@ -44,14 +45,14 @@ A legtöbb online irodai programcsomag nem támogatja az End-to-End titkosítás
     A **CryptPad** egy a népszerű irodai eszközök privátra tervezett alternatívája. A webes szolgáltatás minden tartalma végponttól végpontig titkosított, és könnyen megosztható más felhasználókkal.
     
     [:octicons-home-16: Honlap](https://cryptpad.fr){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="Adatvédelmi Nyilatkozat" }
+    [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="Adatvédelmi Tájékoztató" }
     [:octicons-info-16:](https://docs.cryptpad.fr/){ .card-link title=Dokumentáció}
     [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Forráskód" }
     [:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Közremőködés }
 
 ### Követelmények
 
-**Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** A [szabványos kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
+**Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
 
 !!! example "Ez a szakasz új"
 
@@ -71,7 +72,7 @@ A legtöbb online irodai programcsomag nem támogatja az End-to-End titkosítás
 A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy tökéletes projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 
 - Fájlokat egy hagyományos fájlrendszerben kell tárolnia.
-- Támogatnia kell TOTP vagy FIDO2 többfaktoros hitelesítés használatát, vagy Passkey bejelentkezéseket.
+- Támogatnia kell TOTP vagy FIDO2 többlépcsős hitelesítés használatát, vagy Passkey bejelentkezéseket.
 
 ## Irodai Programcsomagok
 
@@ -84,7 +85,7 @@ A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretn
     **A **LibreOffice** egy ingyenes és nyílt forráskódú irodai programcsomag széleskörű funkcionalitással.
     
     [:octicons-home-16: Honlap](https://www.libreoffice.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="Adatvédelmi Nyilatkozat" }
+    [:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="Adatvédelmi Tájékoztató" }
     [:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation/){ .card-link title=Dokumentáció}
     [:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Forráskód" }
     [:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=Közreműködés }
@@ -108,7 +109,7 @@ A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretn
     Az **OnlyOffice** egy felhőalapú, ingyenes és nyílt forráskódú irodai programcsomag, amely széleskörű funkciókkal rendelkezik, beleértve a Nextclouddal való integrációt is.
     
     [:octicons-home-16: Honlap](https://www.onlyoffice.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Adatvédelmi Nyilatkozat" }
+    [:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Adatvédelmi Tájékoztató" }
     [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Dokumentáció}
     [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Forráskód" }
     
@@ -124,7 +125,7 @@ A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretn
 
 ### Követelmények
 
-**Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** A [szabványos kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
+**Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
 
 !!! example "Ez a szakasz új"
 
@@ -152,5 +153,3 @@ A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretn
     [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Publikus Példányok"}
     [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Dokumentáció}
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Forráskód" }
-
---8<-- "includes/abbreviations.hu.txt"

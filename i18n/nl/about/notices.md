@@ -41,5 +41,3 @@ Je mag geen systematische of geautomatiseerde gegevensverzamelingsactiviteiten u
 * Schrapen
 * Datamining
 * 'Framing' (IFrames)
-
---8<-- "includes/abbreviations.nl.txt"

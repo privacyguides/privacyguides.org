@@ -1,6 +1,7 @@
 ---
 title: "Qubes概述"
 icon: simple/qubesos
+description: Qubes is an operating system built around isolating apps within virtual machines for heightened security.
 ---
 
 [**Qubes OS**](../desktop.md#qubes-os) 是一个操作系统，它使用 [Xen](https://en.wikipedia.org/wiki/Xen) 管理程序，通过隔离的虚拟机为桌面计算提供强大的安全性。 每个虚拟机被称为 *Qube* ，你可以根据它的目的给每个Qube分配一个信任等级。 由于Qubes操作系统通过使用隔离来提供安全，并且只允许在每个案例的基础上进行操作，它与 [坏性枚举](https://www.ranum.com/security/computer_security/editorials/dumb/)。
@@ -43,7 +44,6 @@ Qubes操作系统利用 [Dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM（�
 ### 虚拟机之间的相互作用
 
 [qrexec框架](https://www.qubes-os.org/doc/qrexec/) 是Qubes的一个核心部分，它允许虚拟机在域之间通信。 它建立在Xen库 *vchan*的基础上，通过策略</a>，促进了
-
 隔离。</p> 
 
 
@@ -56,5 +56,3 @@ Qubes操作系统利用 [Dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM（�
 - J. 鲁特科夫斯卡。 [*软件区隔与物理分离*](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf)
 - J. 鲁特科夫斯卡。 [*将我的数字生活划分为安全领域*](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html)
 - Qubes OS: [*相关文章*](https://www.qubes-os.org/news/categories/#articles)
-
---8<-- "includes/abbreviations.zh.txt"

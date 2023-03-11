@@ -1,6 +1,7 @@
 ---
 title: "File Sharing and Sync"
 icon: material/share-variant
+description: Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
 ---
 
 Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
@@ -144,5 +145,3 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - Has mobile clients for iOS and Android, which at least support document previews.
 - Supports photo backup from iOS and Android, and optionally supports file/folder sync on Android.
-
---8<-- "includes/abbreviations.uk.txt"

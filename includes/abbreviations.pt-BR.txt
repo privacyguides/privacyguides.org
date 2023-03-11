@@ -82,13 +82,13 @@
 *[TCP]: Transmission Control Protocol
 *[TEE]: Trusted Execution Environment
 *[TLS]: Transport Layer Security
-*[ToS]: Terms of Service
+*[ToS]: Termos de Serviço
 *[TOTP]: Time-based One-Time Password
 *[TPM]: Trusted Platform Module
 *[U2F]: Universal 2nd Factor
 *[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: User Datagram Protocol
-*[VPN]: Virtual Private Network
+*[VPN]: Rede Privada Virtual
 *[VoIP]: Voice over IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol

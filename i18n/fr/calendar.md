@@ -1,6 +1,7 @@
 ---
 title: "Synchronisation de calendrier"
 icon: material/calendar
+description: Les calendriers contiennent certaines de vos données les plus sensibles ; utilisez des produits qui implémentent le chiffrement au repos.
 ---
 
 Les calendriers contiennent certaines de vos données les plus sensibles ; utilisez des produits qui mettent en œuvre l'E2EE au repos pour empêcher un fournisseur de les lire.
@@ -67,5 +68,3 @@ Les calendriers contiennent certaines de vos données les plus sensibles ; utili
 Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
 - Doit s'intégrer aux applications natives de gestion des contacts et de calendrier du système d'exploitation, le cas échéant.
-
---8<-- "includes/abbreviations.fr.txt"

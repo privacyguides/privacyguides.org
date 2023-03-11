@@ -36,5 +36,3 @@ Nous utilisons un certain nombre de services web pour tester des fonctionnalité
 - Disponibilité : semi-public  
   Nous hébergeons Invidious principalement pour servir les vidéos YouTube intégrées à notre site web. Cette instance n'est pas destinée à un usage général et peut être limitée à tout moment.
 - Source : [github.com/iv-org/invidious](https://github.com/iv-org/invidious)
-
---8<-- "includes/abbreviations.fr.txt"

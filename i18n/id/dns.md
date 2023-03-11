@@ -1,49 +1,48 @@
 ---
 title: "DNS Resolvers"
 icon: material/dns
+description: These are some encrypted DNS providers we recommend switching to, to replace your ISP's default configuration.
 ---
 
-!!! question "Should I use encrypted DNS?"
+Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. DNS terenkripsi tidak akan membantu Anda menyembunyikan aktivitas penjelajahan Anda.
 
-    Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Encrypted DNS will not help you hide any of your browsing activity.
-    
-    [Learn more about DNS](advanced/dns-overview.md){ .md-button }
+[Learn more about DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
-## Recommended Providers
+## Penyedia yang Direkomendasikan
 
-| DNS Provider                                                                    | Privacy Policy                                                                                        | Protocols                                                     | Logging      | ECS      | Filtering                                                                                                                                  |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ------------ | -------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH/3 <br> DoT <br> DNSCrypt | Some[^1]     | No       | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Cleartext <br> DoH/3 <br> DoT                     | Some[^2]     | No       | Based on server choice.                                                                                                                    |
-| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Cleartext <br> DoH/3 <br> DoT <br> DoQ      | Optional[^3] | No       | Based on server choice.                                                                                                                    |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                            | No[^4]       | No       | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
-| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Cleartext <br> DoH/3 <br> DoT                     | Optional[^5] | Optional | Based on server choice.                                                                                                                    |
-| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt   | Some[^6]     | Optional | Based on server choice, Malware blocking by default.                                                                                       |
+| Penyedia DNS                                                                    | Kebijakan Privasi                                                                                     | Protokol                                                      | Pencatatan Log | ECS      | Pemfilteran                                                                                                                                                |
+| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | -------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH/3 <br> DoT <br> DNSCrypt | Beberapa[^1]   | Tidak    | Berdasarkan pilihan server. Daftar filter yang digunakan dapat ditemukan di sini. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Cleartext <br> DoH/3 <br> DoT                     | Beberapa[^2]   | Tidak    | Berdasarkan pilihan server.                                                                                                                                |
+| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Cleartext <br> DoH/3 <br> DoT <br> DoQ      | Opsional[^3]   | Tidak    | Berdasarkan pilihan server.                                                                                                                                |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                            | Tidak[^4]      | Tidak    | Berdasarkan pilihan server. Daftar filter yang digunakan dapat ditemukan di sini. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
+| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Cleartext <br> DoH/3 <br> DoT                     | Opsional[^5]   | Opsional | Berdasarkan pilihan server.                                                                                                                                |
+| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt   | Beberapa[^6]   | Opsional | Berdasarkan pilihan server, pemblokiran malware secara default.                                                                                            |
 
-## Criteria
+## Kriteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Harap dicatat bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih untuk menggunakan sebuah proyek, dan melakukan riset sendiri untuk memastikan bahwa itu adalah pilihan yang tepat untuk Anda.
 
-!!! example "This section is new"
+!!! contoh "Bagian ini baru"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Kami sedang berupaya menetapkan kriteria yang ditentukan untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan tentang kriteria kami, silakan [tanyakan di forum kami](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan pekerjaan yang sedang berjalan.
 
-- Must support [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
+- Harus mendukung [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
 - [QNAME Minimization](advanced/dns-overview.md#what-is-qname-minimization).
-- Allow for [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) to be disabled.
+- Izinkan [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) dinonaktifkan.
 - Prefer [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) support or geo-steering support.
 
-## Native Operating System Support
+## Dukungan Sistem Operasi Asli
 
 ### Android
 
-Android 9 and above support DNS over TLS. The settings can be found in: **Settings** &rarr; **Network & Internet** &rarr; **Private DNS**.
+Android 9 ke atas mendukung DNS melalui TLS. Pengaturan dapat ditemukan di: **Pengaturan** &rarr; **Jaringan & Internet** &rarr; **DNS Pribadi**.
 
-### Apple Devices
+### Perangkat Apple
 
-The latest versions of iOS, iPadOS, tvOS, and macOS, support both DoT and DoH. Both protocols are supported natively via [configuration profiles](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) or through the [DNS Settings API](https://developer.apple.com/documentation/networkextension/dns_settings).
+Versi terbaru iOS, iPadOS, tvOS, dan macOS, mendukung DoT dan DoH. Kedua protokol didukung secara bawaan melalui [profil konfigurasi](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) atau melalui [API Pengaturan DNS](https://developer.apple.com/documentation/networkextension/dns_settings).
 
-After installation of either a configuration profile or an app that uses the DNS Settings API, the DNS configuration can be selected. If a VPN is active, resolution within the VPN tunnel will use the VPN's DNS settings and not your system-wide settings.
+Setelah pemasangan profil konfigurasi atau aplikasi yang menggunakan API Pengaturan DNS, konfigurasi DNS dapat dipilih. Jika VPN aktif, resolusi di dalam terowongan VPN akan menggunakan pengaturan DNS VPN dan bukan pengaturan seluruh sistem Anda.
 
 #### Signed Profiles
 
@@ -51,27 +50,27 @@ Apple does not provide a native interface for creating encrypted DNS profiles. [
 
 !!! info
 
-    `systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+    `systemd-resolved`, yang digunakan banyak distribusi Linux untuk melakukan pencarian DNS, belum [mendukung DoH](https://github.com/systemd/systemd/issues/8639). Jika Anda ingin menggunakan DoH, Anda perlu menginstal proxy seperti [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) dan [konfigurasikan] (https://wiki.archlinux.org/title/Dnscrypt-proxy) untuk mengambil semua permintaan DNS dari resolver sistem Anda dan meneruskannya melalui HTTPS.
 
-## Encrypted DNS Proxies
+## Proxy DNS Terenkripsi
 
-Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](advanced/dns-overview.md#unencrypted-dns) resolver to forward to. Typically it is used on platforms that don't natively support [encrypted DNS](advanced/dns-overview.md#what-is-encrypted-dns).
+Perangkat lunak proxy DNS terenkripsi menyediakan proxy lokal untuk [DNS tidak terenkripsi](advanced/dns-overview.md#unencrypted-dns) resolver untuk diteruskan. Biasanya digunakan pada platform yang tidak mendukung [DNS terenkripsi](advanced/dns-overview.md#what-is-encrypted-dns).
 
 ### RethinkDNS
 
 !!! recommendation
 
-    ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
-    ![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
+    ![RethinkDNS logo ]( assets/img/android/rethinkdns.svg#only-light ){ align=right }
+    ![RethinkDNS logo ]( assets/img/android/rethinkdns-dark.svg#only-dark ){ align=right }
     
-    **RethinkDNS** is an open-source Android client supporting [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) and DNS Proxy along with caching DNS responses, locally logging DNS queries and can be used as a firewall too.
+    ** RethinkDNS ** adalah klien Android open - source yang mendukung [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) dan DNS Proxy bersama dengan tanggapan DNS cache, permintaan DNS logging lokal dan dapat digunakan sebagai firewall juga.
     
-    [:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
+    [:octicons-home-16: Beranda ]( https://rethinkdns.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:]( https://rethinkdns.com/privacy ){.card-link title=" Kebijakan Privasi "}
+    [:octicons-info-16:]( https://docs.rethinkdns.com/){.card-link title=Dokumentasi}
+    [:octicons-code-16:]( https://github.com/celzero/rethink-app ){.card-link title=" Kode Sumber "}
     
-    ??? downloads
+    ??? unduhan
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
         - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
@@ -80,26 +79,26 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
 
 !!! recommendation
 
-    ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
+    ![dnscrypt - proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
     
-    **dnscrypt-proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
+    **dnscrypt - proxy ** adalah proxy DNS dengan dukungan untuk [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), dan [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonimized-DNS).
     
-    !!! warning "The anonymized DNS feature does [**not**](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic."
+    !!! peringatan "Fitur DNS anonim tidak [**tidak**]( advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) menganonimkan lalu lintas jaringan lainnya."
     
-    [:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribute }
+    [:octicons-repo-16: Repositori](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Kode Sumber" }
+    [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Kontribusi }
     
-    ??? downloads
+    ??? unduhan
     
         - [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
         - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
         - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
 
-## Self-hosted Solutions
+## Solusi yang dihosting sendiri
 
-A self-hosted DNS solution is useful for providing filtering on controlled platforms, such as Smart TVs and other IoT devices, as no client-side software is needed.
+Solusi DNS yang dihosting sendiri berguna untuk menyediakan penyaringan pada platform terkontrol, seperti Smart TV dan perangkat IoT lainnya, karena tidak ada perangkat lunak di sisi klien yang diperlukan.
 
 ### AdGuard Home
 
@@ -116,7 +115,7 @@ A self-hosted DNS solution is useful for providing filtering on controlled platf
     [:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="Source Code" }
 
-### Pi-hole
+### Pi - hole
 
 !!! recommendation
 
@@ -132,11 +131,9 @@ A self-hosted DNS solution is useful for providing filtering on controlled platf
     [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
 
---8<-- "includes/abbreviations.id.txt"
-
-[^1]: AdGuard stores aggregated performance metrics of their DNS servers, namely the number of complete requests to a particular server, the number of blocked requests, and the speed of processing requests. They also keep and store the database of domains requested in within last 24 hours. "We need this information to identify and block new trackers and threats." "We also log how many times this or that tracker has been blocked. We need this information to remove outdated rules from our filters." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
-[^2]: Cloudflare collects and stores only the limited DNS query data that is sent to the 1.1.1.1 resolver. The 1.1.1.1 resolver service does not log personal data, and the bulk of the limited non-personally identifiable query data is stored only for 25 hours. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)
-[^3]: Control D only logs for Premium resolvers with custom DNS profiles. Free resolvers do not log data. [https://controld.com/privacy](https://controld.com/privacy)
-[^4]: Mullvad's DNS service is available to both subscribers and non-subscribers of Mullvad VPN. Their privacy policy explicitly claims they do not log DNS requests in any way. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy/)
-[^5]: NextDNS can provide insights and logging features on an opt-in basis. You can choose retention times and log storage locations for any logs you choose to keep. If it's not specifically requested, no data is logged. [https://nextdns.io/privacy](https://nextdns.io/privacy)
-[^6]: Quad9 collects some data for the purposes of threat monitoring and response. That data may then be remixed and shared, such as for the purpose of security research. Quad9 does not collect or record IP addresses or other data they deem personally identifiable. [https://www.quad9.net/privacy/policy/](https://www.quad9.net/privacy/policy/)
+[^1]: AdGuard menyimpan metrik kinerja agregat dari server DNS mereka, yaitu jumlah permintaan lengkap ke server tertentu, jumlah permintaan yang diblokir, dan kecepatan pemrosesan permintaan. Mereka juga menjaga dan menyimpan basis data domain yang diminta dalam waktu 24 jam terakhir. "Kami membutuhkan informasi ini untuk mengidentifikasi dan memblokir pelacak dan ancaman baru." "Kami juga mencatat berapa kali pelacak ini atau itu telah diblokir. Kami membutuhkan informasi ini untuk menghapus aturan usang dari filter kami." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
+[^2]: Cloudflare hanya mengumpulkan dan menyimpan data permintaan DNS terbatas yang dikirim ke resolver 1.1.1.1. Layanan resolver 1.1.1.1 tidak mencatat data pribadi, dan sebagian besar data kueri yang tidak dapat diidentifikasi secara pribadi hanya disimpan selama 25 jam. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)
+[^3]: Control D hanya mencatat untuk resolver Premium dengan profil DNS khusus. Resolver gratis tidak mencatat data. [https://controld.com/privacy](https://controld.com/privacy)
+[^4]: Layanan DNS Mullvad tersedia untuk pelanggan dan non-pelanggan Mullvad VPN. Kebijakan privasi mereka secara eksplisit mengklaim bahwa mereka tidak mencatat permintaan DNS dengan cara apa pun. [https://mullvad.net/en/help/no-logging-data-policy](https://mullvad.net/en/help/no-logging-data-policy/)
+[^5]: NextDNS dapat menyediakan fitur wawasan dan pencatatan berdasarkan basis partisipasi. Anda dapat memilih waktu penyimpanan dan lokasi penyimpanan log untuk setiap log yang Anda pilih untuk disimpan. Jika tidak diminta secara khusus, tidak ada data yang dicatat. [https://nextdns.io/privacy](https://nextdns.io/privacy)
+[^6]: Quad9 mengumpulkan beberapa data untuk tujuan pemantauan dan tanggapan ancaman. Data itu kemudian dapat dicampur ulang dan dibagikan, seperti untuk tujuan penelitian keamanan. Quad9 tidak mengumpulkan atau mencatat alamat IP atau data lain yang mereka anggap dapat diidentifikasi secara pribadi. [https://www.quad9.net/privacy/policy](https://www.quad9.net/privacy/policy/)

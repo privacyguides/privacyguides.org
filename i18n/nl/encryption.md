@@ -1,6 +1,7 @@
 ---
 title: "Encryptie Software"
 icon: material/file-lock
+description: Encryptie van gegevens is de enige manier om te controleren wie er toegang toe heeft. Met deze tools kun je jouw e-mails en andere bestanden versleutelen.
 ---
 
 Encryptie van gegevens is de enige manier om te controleren wie er toegang toe heeft. Als je momenteel geen encryptiesoftware gebruikt voor jouw harde schijf, e-mails of bestanden, moet je hier een optie kiezen.
@@ -353,5 +354,3 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
 
 - Toepassingen voor versleuteling van het besturingssysteem (FDE) moeten gebruik maken van hardwarebeveiliging zoals een TPM of Secure Enclave.
 - Bestandsversleutelingsapps moeten ondersteuning van eerste of derde partijen hebben voor mobiele platforms.
-
---8<-- "includes/abbreviations.nl.txt"

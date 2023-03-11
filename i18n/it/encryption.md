@@ -1,6 +1,7 @@
 ---
 title: "Software di crittografia"
 icon: material/file-lock
+description: La crittografia dei dati è l'unico modo per controllare chi può accedervi. These tools allow you to encrypt your emails and any other files.
 ---
 
 La crittografia dei dati è l'unico modo per controllare chi può accedervi. Se al momento non stai utilizzando software per la crittografia del tuo hard disk, delle email, o dei file, dovresti scegliere una delle seguenti opzioni.
@@ -363,5 +364,3 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
 
 - Le applicazioni di crittografia del sistema operativo (FDE) dovrebbero utilizzare una protezione hardware come TPM o Secure Enclave.
 - Le applicazioni per la crittografia dei file devono avere un supporto di primo o terzo livello per le piattaforme mobili.
-
---8<-- "includes/abbreviations.it.txt"

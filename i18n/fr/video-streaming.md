@@ -1,6 +1,7 @@
 ---
 title: "Streaming vidéo"
 icon: material/video-wireless
+description: Ces réseaux vous permettent de consommer du contenu internet sans établir de profil publicitaire basé sur vos centres d'intérêt.
 ---
 
 La principale menace liée à l'utilisation d'une plateforme de streaming vidéo est que vos habitudes de streaming et vos listes d'abonnement pourraient être utilisées pour établir votre profil. Vous devriez combiner ces outils avec un [VPN](vpn.md) ou [Tor](https://www.torproject.org/) pour rendre plus difficile le profilage de votre utilisation.
@@ -48,5 +49,3 @@ Vous pouvez désactiver l'option *Enregistrer les données d'hébergement pour a
 
 - Ne doit pas nécessiter un compte centralisé pour visionner les vidéos.
     - L'authentification décentralisée, par exemple via la clé privée d'un portefeuille mobile, est acceptable.
-
---8<-- "includes/abbreviations.fr.txt"

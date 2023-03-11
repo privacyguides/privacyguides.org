@@ -1,6 +1,7 @@
 ---
 title: "רשת טור (Tor Network)"
 icon: simple/torproject
+description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
 ---
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
@@ -15,13 +16,7 @@ icon: simple/torproject
 
 Tor פועלת על ידי ניתוב תעבורת האינטרנט שלך דרך אותם שרתים המופעלים על ידי מתנדבים, במקום ליצור חיבור ישיר לאתר שבו אתה מנסה לבקר. זה מטשטש מהיכן מגיעה התעבורה, ואף שרת בנתיב החיבור לא מסוגל לראות את הנתיב המלא של המקום ממנו מגיעה התנועה והולכת, כלומר אפילו השרתים שבהם אתה משתמש כדי להתחבר לא יכולים לשבור את האנונימיות שלך.
 
-<figure markdown>
-  ![נתיב Tor ](assets/img/how-tor-works/tor-path.svg#only-light)
-  ![נתיב Tor](assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>מסלול מעגל Tor - צמתים בנתיב יכולים לראות רק את השרתים שאליהם הם מחוברים ישירות, למשל הצומת "כניסה" המוצג יכול לראות את כתובת ה-IP שלך, ואת הכתובת של הצומת "האמצעי", אבל אין לו דרך לראות איזה האתר שאתה מבקר בו.</figcaption>
-</figure>
-
-- [מידע נוסף על אופן הפעולה של Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md)
+[סקירת Tor מפורטת :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
 
 ## התחברות ל - Tor
 
@@ -120,5 +115,3 @@ Tor פועלת על ידי ניתוב תעבורת האינטרנט שלך דר�
 Snowflake אינו מגדיל את פרטיותך בשום צורה, ואינו משמש לחיבור לרשת Tor בתוך הדפדפן האישי שלך. עם זאת, אם חיבור האינטרנט שלך אינו מצונזר, עליך לשקול להפעיל אותו כדי לעזור לאנשים ברשתות מצונזרות להשיג פרטיות טובה יותר בעצמם. אין צורך לדאוג לאילו אתרים אנשים ניגשים דרך ה-proxy שלך - כתובת ה-IP הגלויה של הגלישה שלהם תתאים לצומת היציאה של Tor, לא שלך.
 
 הפעלת פרוקסי של Snowflake היא בסיכון נמוך, אפילו יותר מהפעלת ממסר Tor או גשר שהם כבר מאמצים לא מסוכנים במיוחד. עם זאת, היא עדיין עושה תעבורת פרוקסי דרך הרשת שלך, מה שיכול להשפיע במובנים מסוימים, במיוחד אם הרשת שלך מוגבלת ברוחב הפס. ודא שאתה מבין [איך Snowflake עובד](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) לפני שתחליט אם להפעיל פרוקסי.
-
---8<-- "includes/abbreviations.he.txt"

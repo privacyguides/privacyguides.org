@@ -1,6 +1,7 @@
 ---
 title: "Streaming video"
 icon: material/video-wireless
+description: These networks allow you to stream internet content without building an advertising profile based on your interests.
 ---
 
 Il rischio principale quando si usa una piattaforma di streaming video è che le tue abitudini e iscrizioni possano essere usate per profilarti. Suggeriamo di utilizzare questi strumenti accompagnati da un [VPN](vpn.md) o [Tor](https://www.torproject.org/) in modo da rendere più difficile la profilazione.
@@ -57,5 +58,3 @@ Raccomandiamo di **non sincronizzare** il portafoglio con LBRY Inc. poiché la s
 
 - Non deve richiedere un account centralizzato per visualizzare i video.
     - L'autenticazione decentralizzata, ad esempio tramite la chiave privata di un wallet mobile, è accettabile.
-
---8<-- "includes/abbreviations.it.txt"

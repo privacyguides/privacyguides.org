@@ -1,6 +1,7 @@
 ---
 title: "Router Firmware"
 icon: material/router-wireless
+description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
 ---
 
 Lejjebb bemutatunk néhány alternatív operációs rendszert, amelyek használhatók routereken, Wi-Fi hozzáférési pontokon stb.
@@ -35,7 +36,7 @@ Az OPNsense eredetileg a [pfSense](https://en.wikipedia.org/wiki/PfSense) forkja
 
 ## Követelmények
 
-**Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** A [szabványos kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
+**Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
 
 !!! example "Ez a szakasz új"
 
@@ -44,5 +45,3 @@ Az OPNsense eredetileg a [pfSense](https://en.wikipedia.org/wiki/PfSense) forkja
 - Nyílt forráskódúnak kell lennie.
 - Rendszeres frissítéseket kell kapnia.
 - Sokféle hardvert kell támogatnia.
-
---8<-- "includes/abbreviations.hu.txt"

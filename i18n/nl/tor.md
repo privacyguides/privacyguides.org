@@ -1,6 +1,7 @@
 ---
 title: "Tor Netwerk"
 icon: simple/torproject
+description: Bescherm je surf gedrag tegen nieuwsgierige ogen door gebruik te maken van het Tor netwerk, een beveiligd netwerk dat censuur omzeilt.
 ---
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
@@ -13,13 +14,7 @@ Het **Tor** netwerk is een groep vrijwilligersservers waarmee je gratis verbindi
 
 Tor werkt door je internetverkeer om te leiden via deze door vrijwilligers beheerde servers, in plaats van een directe verbinding te maken met de site die je probeert te bezoeken. Dit versluiert waar het verkeer vandaan komt, en geen enkele server in het verbindingspad kan het volledige pad zien van waar het verkeer vandaan komt en naartoe gaat, wat betekent dat zelfs de servers die je gebruikt om verbinding te maken jouw anonimiteit niet kunnen doorbreken.
 
-<figure markdown>
-  Tor path](assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path](assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway - Knooppunten in het pad kunnen alleen de servers zien waarmee ze direct verbonden zijn, bijvoorbeeld het getoonde "Entry" knooppunt kan je IP adres zien, en het adres van het "Middle" knooppunt, maar kan niet zien welke website je bezoekt.</figcaption>
-</figure>
-
-- [Meer informatie over hoe Tor werkt :material-arrow-right-drop-circle:](advanced/tor-overview.md)
+[Gedetailleerd Tor-overzicht :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
 
 ## Verbinding maken met Tor
 
@@ -118,5 +113,3 @@ Om weerstand te bieden tegen verkeersanalyse aanvallen, kunt je overwegen om *Is
 Snowflake verhoogt jouw privacy op geen enkele manier, en wordt ook niet gebruikt om verbinding te maken met het Tor-netwerk binnen jouw persoonlijke browser. Als jouw internetverbinding echter ongecensureerd is, zou je moeten overwegen het te gebruiken om mensen in gecensureerde netwerken te helpen zelf betere privacy te krijgen. Je hoeft je geen zorgen te maken over welke websites mensen via je proxy bezoeken- hun zichtbare surf IP adres zal overeenkomen met hun Tor exit node, niet met die van jou.
 
 Het runnen van een Snowflake proxy is weinig riskant, zelfs meer dan het runnen van een Tor relay of bridge, wat al geen bijzonder riskante onderneming is. Het stuurt echter nog steeds verkeer door jouw netwerk, wat in sommige opzichten gevolgen kan hebben, vooral als jouw netwerk een beperkte bandbreedte heeft. Zorg ervoor dat je [begrijpt hoe Snowflake werkt](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) voordat je beslist of je een proxy wilt gebruiken.
-
---8<-- "includes/abbreviations.nl.txt"

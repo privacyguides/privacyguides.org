@@ -47,9 +47,9 @@ optipng -o7 file.png
 
 In the **SVG Output** tab under **Document options**:
 
-- [ ] Turn off **Remove the XML declaration**
-- [x] Turn on **Remove metadata**
-- [x] Turn on **Remove comments**
+- [ ] תכבה **הסר את הצהרת ה-XML**
+- [x] הפעל **הסר מטא נתונים**
+- [x] הפעל **הסר תגובות**
 - [x] Turn on **Embeded raster images**
 - [x] Turn on **Enable viewboxing**
 
@@ -87,5 +87,3 @@ scour --set-precision=5 \
       --protect-ids-noninkscape \
       input.svg output.svg
 ```
-
---8<-- "includes/abbreviations.he.txt"

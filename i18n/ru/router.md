@@ -1,6 +1,7 @@
 ---
 title: "Прошивки для роутера"
 icon: material/router-wireless
+description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
 ---
 
 Ниже приведены альтернативные операционные системы, которые могут использоваться на роутерах, точках доступа Wi-Fi и т. п.
@@ -47,5 +48,3 @@ OPNsense был изначально разработан как форк [pfSen
 - Исходный код проекта должен быть открыт.
 - Проект должен регулярно обновляться.
 - Проект должен поддерживать широкий спектр устройств.
-
---8<-- "includes/abbreviations.ru.txt"

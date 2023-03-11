@@ -1,6 +1,7 @@
 ---
 title: "Common Misconceptions"
 icon: 'material/robot-confused'
+description: Privacy isn't a straightforward topic, and it's easy to get caught up in marketing claims and other disinformation.
 ---
 
 ## "Open-source software is always secure" or "Proprietary software is more secure"
@@ -56,7 +57,5 @@ One of the clearest threat models is one where people *know who you are* and one
 3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
 
     Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
-
---8<-- "includes/abbreviations.pt.txt"
 
 [^1]: One notable example of this is the [2021 incident in which University of Minnesota researchers introduced three vulnerabilities into the Linux kernel development project](https://cse.umn.edu/cs/linux-incident).

@@ -1,6 +1,7 @@
 ---
 title: "Browser desktop"
 icon: material/laptop
+description: Firefox and Brave are our recommendations for standard/non-anonymous browsing.
 ---
 
 Questi sono i browser e le configurazioni per desktop attualmente consigliati per la navigazione standard/non anonima. Se hai bisogno di navigare in Internet in modo anonimo, dovresti invece utilizzare [Tor](tor.md). In generale, si consiglia di ridurre al minimo le estensioni del browser; hanno un accesso privilegiato all'interno del browser, richiedono fiducia nello sviluppatore, possono farti [risaltare](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)e [indebolire l'isolamento del sito](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ).
@@ -266,7 +267,5 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
 
 - Must not replicate built-in browser or OS functionality.
 - Must directly impact user privacy, i.e. must not simply provide information.
-
---8<-- "includes/abbreviations.it.txt"
 
 [^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).

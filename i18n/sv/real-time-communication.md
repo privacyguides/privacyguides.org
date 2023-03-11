@@ -1,6 +1,7 @@
 ---
-title: "Real-Time Communication"
+title: "Realtidskommunikation"
 icon: material/chat-processing
+description: Other instant messengers make all of your private conversations available to the company that runs them.
 ---
 
 These are our recommendations for encrypted real-time communication.
@@ -100,7 +101,7 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
 
 ## Additional Options
 
-!!! warning
+!!! varning
 
     These messengers do not have Perfect [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) (PFS), and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. Any key compromise among message recipients would affect the confidentiality of **all** past communications.
 
@@ -169,27 +170,25 @@ Oxen requested an independent audit for Session in March of 2020. The audit [con
 
 Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technicals of the app and protocol.
 
-## Criteria
+## Kriterier
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.
 
-!!! example "This section is new"
+!!! exempel "Det här avsnittet är nytt"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
 
 - Must have open-source clients.
 - Must use E2EE for private messages by default.
 - Must support E2EE for all messages.
 - Must have been independently audited.
 
-### Best-Case
+### Bästa fall
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Våra kriterier för bästa fall representerar vad vi skulle vilja se av det perfekta projektet i denna kategori. Våra rekommendationer kanske inte innehåller alla eller några av dessa funktioner, men de som gör det kan vara högre rankade än andra på den här sidan.
 
 - Should have Perfect Forward Secrecy.
 - Should have open-source servers.
 - Should be decentralized, i.e. federated or P2P.
 - Should use E2EE for all messages by default.
 - Should support Linux, macOS, Windows, Android, and iOS.
-
---8<-- "includes/abbreviations.sv.txt"

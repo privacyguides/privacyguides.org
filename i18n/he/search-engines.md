@@ -1,6 +1,7 @@
 ---
 title: "מנועי חיפוש"
 icon: material/search-web
+description: These privacy-respecting search engines don't build an advertising profile based on your searches.
 ---
 
 השתמש במנוע חיפוש שאינו בונה פרופיל פרסום על סמך החיפושים שלך.
@@ -105,5 +106,3 @@ Startpage מבוסס בהולנד. לפי [מדיניות הפרטיות](https:
 
 - צריך להיות מבוסס על תוכנת קוד פתוח.
 - אין לחסום את כתובות ה - IP של צומת היציאה של Tor.
-
---8<-- "includes/abbreviations.he.txt"

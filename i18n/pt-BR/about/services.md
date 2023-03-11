@@ -36,5 +36,3 @@ We run a number of web services to test out features and promote cool decentrali
 - Disponibilidade: Semi-Público  
   Hospedamos o Invidious principalmente para veicular vídeos incorporados do YouTube em nosso site, esta instância não se destina ao uso geral e pode ser limitada a qualquer momento.
 - Fonte: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)
-
---8<-- "includes/abbreviations.pt-BR.txt"

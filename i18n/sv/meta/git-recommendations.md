@@ -1,10 +1,10 @@
 ---
-title: Git Recommendations
+title: Git-rekommendationer
 ---
 
-If you make changes to this website on GitHub.com's web editor directly, you shouldn't have to worry about this. If you are developing locally and/or are a long-term website editor (who should probably be developing locally!), consider these recommendations.
+Om du gör ändringar på denna webbplats på GitHub.coms webbredigerare direkt, borde du inte behöva oroa dig för detta. Om du utvecklar lokalt och/eller är en långsiktig webbplatsredaktör (som förmodligen borde utveckla lokalt!), bör du överväga dessa rekommendationer.
 
-## Enable SSH Key Commit Signing
+## Aktivera signering av SSH-nyckeln för åtagande
 
 You can use an existing SSH key for signing, or [create a new one](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
@@ -44,5 +44,3 @@ If you are working on your own branch, run these commands before submitting a PR
 git fetch origin
 git rebase origin/main
 ```
-
---8<-- "includes/abbreviations.sv.txt"

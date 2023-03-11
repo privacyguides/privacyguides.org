@@ -1,11 +1,12 @@
 ---
 title: "Adat és Metaadat Eltávolítás"
 icon: material/tag-remove
+description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
 ---
 
-When sharing files, be sure to remove associated metadata. Image files commonly include [Exif](https://en.wikipedia.org/wiki/Exif) data. Photos sometimes even include GPS coordinates in the file metadata.
+Fájlok megosztásakor ügyelj a kapcsolódó metaadatok eltávolítsára. A képfájlok gyakran tartalmaznak [Exif](https://en.wikipedia.org/wiki/Exif) adatokat. A fényképek időnként még GPS-koordinátákat is tartalmaznak a fájl metaadataiban.
 
-## Desktop
+## Asztal
 
 ### MAT2
 
@@ -13,13 +14,13 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     ![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
     
-    **MAT2** is free software, which allows the metadata to be removed from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an [extension for Nautilus](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus), the default file manager of [GNOME](https://www.gnome.org), and [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
+    A **MAT2** ingyenes szoftver, amely lehetővé teszi a metaadatok eltávolítását kép, hang, torrent és dokumentum fájltípusokból. Egy parancssor eszközt és egy grafilus felhasználói felületet is biztosít egy [Nautilus](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus) és [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin) bővítményen keresztül, amik közül az előbbi a [GNOME](https://www.gnome.org), az utóbbi a [KDE](https://kde.org) alapértelmezett fájlkezelője.
     
-    On Linux, a third-party graphical tool [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) powered by MAT2 exists and is [available on Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
+    Linuxon létezik egy harmadik féltől származó grafikus eszköz, a [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner), amely alapját a MAT2 adja, és ez [el is érhető a Flathubon](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
     
-    [:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentation}
-    [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Source Code" }
+    [:octicons-repo-16: Adattár](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Dokumentáció}
+    [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Forráskód" }
     
     ??? downloads
     
@@ -36,13 +37,13 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
     ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ align=right }
     
-    **ExifEraser** is a modern, permissionless image metadata erasing application for Android.
+    Az **ExifEraser** egy modern, engedély nélküli képmetaadat-törlő alkalmazás Androidra.
     
-    It currently supports JPEG, PNG and WebP files.
+    Jelenleg támogatja a JPEG, PNG és WebP fájlokat.
     
-    [:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
+    [:octicons-repo-16: Adattár](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Dokumentáció}
+    [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Forráskód" }
     
     ??? downloads
     
@@ -50,21 +51,21 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
         - [:simple-github: GitHub](https://github.com/Tommy-Geenexus/exif-eraser/releases)
 
-The metadata that is erased depends on the image's file type:
+A törlésre kerülő metaadat a kép fájltípusától függ:
 
-* **JPEG**: ICC Profile, Exif, Photoshop Image Resources and XMP/ExtendedXMP metadata will be erased if it exists.
-* **PNG**: ICC Profile, Exif and XMP metadata will be erased if it exists.
-* **WebP**: ICC Profile, Exif and XMP metadata will be erased if it exists.
+* **JPEG**: ICC Profil, Exif, Photoshop Image Resources és XMP/ExtendedXMP metaadatok fognak törlődni, ha vannak.
+* **PNG**: ICC Profil, Exif és XMP metaadatok fognak törlődni, ha vannak.
+* **WebP**: ICC Profil, Exif és XMP metaadatok fognak törlődni, ha vannak.
 
-After processing the images, ExifEraser provides you with a full report about what exactly was removed from each image.
+A képek feldolgozása után ExifEraser teljes jelentést ad arról, hogy pontosan mit távolított el egyes képekről.
 
-The app offers multiple ways to erase metadata from images. Namely:
+Az alkalmazás többféle módszert nyújt metaadatokat törléséhez a képekről. Név szerint:
 
-* You can share an image from another application with ExifEraser.
-* Through the app itself, you can select a single image, multiple images at once, or even an entire directory.
-* It features a "Camera" option, which uses your operating system's camera app to take a photo, and then it removes the metadata from it.
-* It allows you to drag photos from another app into ExifEraser when they are both open in split-screen mode.
-* Lastly, it allows you to paste an image from your clipboard.
+* Az megoszthat egy képet egy másik alkalmazásból az ExifEraser-nek.
+* Magán az alkalmazáson keresztül egyetlen képet, egyszerre több képet vagy akár egy egész könyvtárat is kiválaszthatsz.
+* Rendelkezik egy "Kamera" opcióval, amely az operációs rendszer kameraalkalmazását használja egy fénykép készítéséhez, majd eltávolítja arról a metaadatokat.
+* Lehetővé teszi, hogy fényképeket húzz át egy másik alkalmazásból az ExifEraser-be, ha mindkét app osztott képernyős módban van megnyitva.
+* Végül, lehetővé teszi egy kép beillesztését a vágólapról.
 
 ### Metapho (iOS)
 
@@ -72,10 +73,10 @@ The app offers multiple ways to erase metadata from images. Namely:
 
     ![Metapho logo](assets/img/data-redaction/metapho.jpg){ align=right }
     
-    **Metapho** is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
+    A **Metapho** egy egyszerű és letisztult megjelenítője fényképek metaadatainak, mint például dátum, fájlnév, méret, fényképező modell, zársebesség és helyszín.
     
-    [:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-home-16: Honlap](https://zininworks.com/metapho){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Adatvédelmi Nyilatkozat" }
     
     ??? downloads
     
@@ -87,12 +88,12 @@ The app offers multiple ways to erase metadata from images. Namely:
 
     ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ align=right }
     
-    **PrivacyBlur** is a free app which can blur sensitive portions of pictures before sharing them online.
+    A **PrivacyBlur** egy ingyenes alkalmazás, amely képes elmosni képek érzékeny részeit, mielőtt online megosztanád azokat.
     
-    [:octicons-home-16: Homepage](https://privacyblur.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
+    [:octicons-home-16: Honlap](https://privacyblur.app/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Adatvédelmi Tájékoztató" }
+    [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Dokumentáció}
+    [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Forráskód" }
     
     ??? downloads
     
@@ -101,9 +102,9 @@ The app offers multiple ways to erase metadata from images. Namely:
 
 !!! warning
 
-    You should **never** use blur to redact [text in images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, draw a box over the text. For this, we suggest apps like [Pocket Paint](https://github.com/Catrobat/Paintroid).
+    **Soha** ne használd a homályosítást [képekben lévő szöveg](https://bishopfox.com/blog/unredacter-tool-never-pixelation) szerkesztésére. Ha egy képen lévő szöveget szeretnél eltávolítani, rajzolj egy négyzetet a szöveg fölé. Ehhez olyan alkalmazásokat ajánlunk, mint a [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
-## Command-line
+## Parancssor
 
 ### ExifTool
 
@@ -111,14 +112,14 @@ The app offers multiple ways to erase metadata from images. Namely:
 
     ![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
     
-    **ExifTool** is the original perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
+    Az **ExifTool** az eredeti perl könyvtár és parancssor alkalmazás a metainformációk (Exif, IPTC, XMP stb.) olvasására, írására és szerkesztésére a legkülönbözőbb fájlformátumok (JPEG, TIFF, PNG, PDF, RAW stb.) esetében.
     
-    It's often a component of other Exif removal applications and is in most Linux distribution repositories.
+    Gyakran más Exif eltávolító alkalmazások része, és megtalálható a legtöbb Linux disztribúció addattáraiban.
     
-    [:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
+    [:octicons-home-16: Honlap](https://exiftool.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Dokumentáció}
+    [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Forráskód" }
+    [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Közreműködés }
     
     ??? downloads
     
@@ -126,21 +127,19 @@ The app offers multiple ways to erase metadata from images. Namely:
         - [:simple-apple: macOS](https://exiftool.org)
         - [:simple-linux: Linux](https://exiftool.org)
 
-!!! example "Deleting data from a directory of files"
+!!! example "Adatok törlése egy fájlkönyvtárból"
 
     ```bash
-    exiftool -all= *.file_extension
+    exiftool -all= *.fájl_kiterjesztés
     ```
 
 ## Követelmények
 
-**Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** A [szabványos kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
+**Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
 
 !!! example "Ez a szakasz új"
 
-    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
 
-- Apps developed for open-source operating systems must be open-source.
-- Apps must be free and should not include ads or other limitations.
-
---8<-- "includes/abbreviations.hu.txt"
+- Nyílt forráskódú operációs rendszerekre fejlesztett alkalmazásoknak nyílt forráskódúnak kell lenniük.
+- Az alkalmazásoknak ingyenesnek kell lenniük, és nem tartalmazhatnak reklámokat vagy egyéb korlátozásokat.

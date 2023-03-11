@@ -1,6 +1,7 @@
 ---
 title: "常见威胁"
 icon: '资料/视野'
+description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
 ---
 
 广义而言，可以将我们有关[威胁](threat-modeling.md) 或者适用于大多数人的目标的建议分为这几类。 ==你可能关注其中零个、 一个、 几个、 或所有这些可能性==， 你应该使用的工具和服务取决于你的目标。 你可能也有这些类别之外的特定威胁，这完全可以！ 重要的是要去了解您选择的这些工具的优缺点，因为也许任何工具都不能够保护您免受所有可以想象到的威胁。
@@ -139,8 +140,6 @@ icon: '资料/视野'
     你应该考虑你的对手可以观察到网络的哪些方面，以及你的行动是否有合理的可否认性。 例如，使用[加密DNS](.../advanced/dns-overview.md#what-is-encrypted-dns)可以帮助你绕过初级的、基于DNS的审查系统，但它不能真正向ISP隐藏你正在访问的内容。 VPN或Tor可以帮助向网络管理员隐藏你正在访问的内容，但不能隐藏你首先在使用这些网络。 可插拔的传输工具（如Obfs4proxy、Meek或Shadowsocks）可以帮助你逃避阻挡普通VPN协议或Tor的防火墙，但你的规避尝试仍然可以被探测或[深度包检查](https://en.wikipedia.org/wiki/Deep_packet_inspection)等方法发现。
 
 你必须始终考虑试图绕过审查制度的风险，潜在的后果，以及你的对手可能有多复杂。 你应该谨慎地选择软件，并有一个备份计划，以防被发现。
-
---8<-- "includes/abbreviations.zh.txt"
 
 [^1]: 美国隐私和公民自由监督委员会。 [关于根据第215条进行的电话记录计划的报告](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^2]: 维基百科： [监控资本主义](https://en.wikipedia.org/wiki/Surveillance_capitalism)

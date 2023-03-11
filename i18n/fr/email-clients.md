@@ -1,6 +1,7 @@
 ---
 title: "Logiciels de messagerie électronique"
 icon: material/email-open
+description: Ces clients d'email respectent la vie privée et prennent en charge le chiffrement OpenPGP.
 ---
 
 Notre liste de recommandations contient des clients de messagerie qui prennent en charge à la fois [OpenPGP](encryption.md#openpgp) et l'authentification forte telle que [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth vous permet d'utiliser l'[Authentification à Multi-Facteurs](multi-factor-authentication) et d'empêcher le vol de compte.
@@ -235,5 +236,3 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
 - Ne doit pas collecter de télémétrie par défaut.
 - Doit prendre en charge OpenPGP nativement, c'est-à-dire sans extensions.
 - Doit prendre en charge le stockage local de courriels chiffrés par OpenPGP.
-
---8<-- "includes/abbreviations.fr.txt"

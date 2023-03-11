@@ -1,5 +1,5 @@
 ---
-title: "Privacy Policy"
+title: "Política de Privacidade"
 ---
 
 Privacy Guides is a community project operated by a number of active volunteer contributors. The public list of team members [can be found on GitHub](https://github.com/orgs/privacyguides/people).
@@ -8,12 +8,12 @@ Privacy Guides is a community project operated by a number of active volunteer c
 
 The privacy of our website visitors is important to us, so we do not track any individual people. As a visitor to our website:
 
-- No personal information is collected
+- Nenhuma informação pessoal é coletada
 - No information such as cookies are stored in the browser
 - No information is shared with, sent to or sold to third-parties
 - No information is shared with advertising companies
 - No information is mined and harvested for personal and behavioral trends
-- No information is monetized
+- Nenhuma informação é monetizada
 
 You can view the data we collect on our [statistics](statistics.md) page.
 
@@ -29,7 +29,7 @@ To sign up for most accounts, we will collect a name, username, email, and passw
 
 We use your account data to identify you on the website and to create pages specific to you, such as your profile page. We will also use your account data to publish a public profile for you on our services.
 
-We use your email to:
+Nós usamos o seu e-mail para:
 
 - Notify you about posts and other activity on the websites or services.
 - Reset your password and help keep your account secure.
@@ -40,7 +40,7 @@ On some websites and services you may provide additional information for your ac
 
 We will store your account data as long as your account remains open. After closing an account, we may retain some or all of your account data in the form of backups or archives for up to 90 days.
 
-## Contacting Us
+## Fale Conosco
 
 The Privacy Guides team generally does not have access to personal data outside of limited access granted via some moderation panels. Inquiries regarding your personal information should be sent directly to:
 
@@ -54,10 +54,8 @@ For all other inquiries, you can contact any member of our team.
 
 Para queixas no âmbito da GDPR em geral, você pode apresentar queixas às suas autoridades supervisoras locais de proteção de dados. Na França, é a Commission Nationale de l'Informatique et des Libertés que cuida e lida com as queixas. Eles fornecem um [modelo de carta de reclamação](https://www.cnil.fr/en/plaintes) para usar.
 
-## About This Policy
+## Sobre esta Política
 
 We will post any new versions of this statement [here](privacy-policy.md). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to the [Privacy Policy](privacy-policy.md) for the latest contact information at any time.
 
 A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) of this page can be found on GitHub.
-
---8<-- "includes/abbreviations.pt-BR.txt"

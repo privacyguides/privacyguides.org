@@ -1,6 +1,7 @@
 ---
 title: Introduction à Android
 icon: simple/android
+description: Android est un système d'exploitation open source doté de solides protections de sécurité, ce qui en fait notre premier choix pour les téléphones.
 ---
 
 Android est un système d'exploitation sécurisé qui dispose d'un [sandboxing](https://source.android.com/security/app-sandbox) solide, du [Démarrage Vérifié](https://source.android.com/security/verifiedboot) (AVB), et d'un système de contrôle des [autorisations](https://developer.android.com/guide/topics/permissions/overview) robuste.
@@ -53,9 +54,44 @@ Il est important de ne pas utiliser une version d'Android [en fin de vie](https:
 
 ## Autorisations d'Android
 
-Les [autorisations sur Android](https://developer.android.com/guide/topics/permissions/overview) vous permettent de contrôler ce que les applications ont le droit d'accéder. Google apporte régulièrement des [améliorations](https://developer.android.com/about/versions/11/privacy/permissions) sur le système d'autorisations à chaque nouvelle version d'Android. Toutes les applications que vous installez sont strictement [isolées](https://source.android.com/security/app-sandbox), il n'est donc pas nécessaire d'installer des applications antivirus. Un smartphone avec la dernière version d'Android sera toujours plus sécurisé qu'un ancien smartphone muni d'un antivirus que vous aurez payé. Il est plutôt conseillé de ne pas payer pour ces antivirus et d'économiser pour acheter un smartphone neuf tel qu'un Google Pixel.
+Les [autorisations sur Android](https://developer.android.com/guide/topics/permissions/overview) vous permettent de contrôler ce que les applications ont le droit d'accéder. Google apporte régulièrement des [améliorations](https://developer.android.com/about/versions/11/privacy/permissions) sur le système d'autorisations à chaque nouvelle version d'Android. Toutes les applications que vous installez sont strictement [isolées](https://source.android.com/security/app-sandbox), il n'est donc pas nécessaire d'installer des applications antivirus.
 
-Si vous souhaitez utiliser une application dont vous n'êtes pas sûr, envisagez d'utiliser un profil utilisateur ou professionnel.
+Un smartphone équipé de la dernière version d'Android sera toujours plus sûr qu'un vieux smartphone équipé d'un antivirus que vous avez payé. Il est préférable de ne pas payer pour un logiciel antivirus et d'économiser pour acheter un nouveau smartphone, comme un Google Pixel.
+
+Android 10 :
+
+- [Scoped Storage](https://developer.android.com/about/versions/10/privacy/changes#scoped-storage) vous donne plus de contrôle sur vos fichiers et peut limiter ce qui peut [accéder au stockage externe](https://developer.android.com/training/data-storage?hl=fr#permissions). Les applications peuvent avoir un répertoire spécifique dans le stockage externe ainsi que la possibilité d'y stocker des types de médias spécifiques.
+- Un acès plus strict à l'emplacement du dispositif [](https://developer.android.com/about/versions/10/privacy/changes#app-access-device-location) en introduisant la permission `ACCESS_BACKGROUND_LOCATION` . Cela empêche les applications d'accéder à l'emplacement lorsqu'elles fonctionnent en arrière-plan sans l'autorisation expresse de l'utilisateur.
+
+Android 11 :
+
+- [Permissions uniques](https://developer.android.com/about/versions/11/privacy/permissions#one-time) qui vous permet d'accorder une permission à une application une seule fois.
+- [Réinitialisation automatique des autorisations](https://developer.android.com/about/versions/11/privacy/permissions#auto-reset), qui réinitialise [les autorisations d'exécution](https://developer.android.com/guide/topics/permissions/overview#runtime) accordées lors de l'ouverture de l'application.
+- Autorisations granulaires pour accéder aux fonctions liées au numéro de téléphone [](https://developer.android.com/about/versions/11/privacy/permissions#phone-numbers).
+
+Android 12 :
+
+- Une permission d'accorder uniquement l'emplacement approximatif [](https://developer.android.com/about/versions/12/behavior-changes-12#approximate-location).
+- Réinitialisation automatique des [applications en hibernation](https://developer.android.com/about/versions/12/behavior-changes-12#app-hibernation).
+- [Audit de l'accès aux données](https://developer.android.com/about/versions/12/behavior-changes-12#data-access-auditing) qui permet de déterminer plus facilement quelle partie d'une application effectue un type spécifique d'accès aux données.
+
+Android 13 :
+
+- Une autorisation pour [un accès wifi à proximité](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). Les adresses MAC des points d'accès WiFi à proximité étaient un moyen populaire pour les applications de suivre la localisation d'un utilisateur.
+- Plus d'[autorisations granulaires pour les médias](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), ce qui signifie que vous pouvez accorder l'accès uniquement aux images, aux vidéos ou aux fichiers audio.
+- L'utilisation de capteurs en arrière-plan nécessite désormais l'autorisation [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission) .
+
+Une application peut demander une autorisation pour une fonction spécifique qu'elle possède. Par exemple, toute application permettant de scanner des codes QR nécessitera l'autorisation de l'appareil photo. Certaines applications peuvent demander plus de permissions qu'elles n'en ont besoin.
+
+[Exodus](https://exodus-privacy.eu.org/fr//) peut être utile pour comparer des applications ayant des objectifs similaires. Si une application nécessite de nombreuses autorisations et comporte beaucoup de publicité et d'analyses, c'est probablement un mauvais signe. **Nous vous recommandons de regarder les trackers individuels et de lire leurs descriptions plutôt que de vous contenter de compter le total** et de supposer que tous les éléments énumérés sont égaux.
+
+!!! warning "Avertissement"
+
+    Si une application est principalement un service web, le suivi peut se faire du côté du serveur. [Facebook](https://reports.exodus-privacy.eu.org/fr/reports/com.facebook.katana/latest/) n'affiche "aucun traceur" mais suit certainement les intérêts et le comportement des utilisateurs sur le site. Les applications peuvent échapper à la détection en n'utilisant pas les bibliothèques de code standard produites par le secteur de la publicité, bien que cela soit peu probable.
+
+!!! note "À noter"
+
+    Les applications respectueuses de la vie privée telles que [Bitwarden](https://reports.exodus-privacy.eu.org/fr/reports/com.x8bit.bitwarden/latest/) peuvent afficher certains traceurs tels que [Google Firebase Analytics] (https://reports.exodus-privacy.eu.org/fr/trackers/49/). Cette bibliothèque comprend [Firebase Cloud Messaging] (https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) qui peut fournir des [notifications push] (https://fr.wikipedia.org/wiki/Server_push) dans les applications. C'est le cas (https://fosstodon.org/@bitwarden/109636825700482007) avec Bitwarden. Cela ne signifie pas que Bitwarden utilise toutes les fonctionnalités d'analyse fournies par Google Firebase Analytics.
 
 ## Accès aux médias
 
@@ -131,5 +167,3 @@ Vous aurez la possibilité de supprimer votre identifiant publicitaire ou de *re
 [SafetyNet](https://developer.android.com/training/safetynet/attestation) et les [API Play Integrity](https://developer.android.com/google/play/integrity) sont généralement utilisés pour des [applications bancaires](https://grapheneos.org/usage#banking-apps). De nombreuses applications bancaires fonctionneront sans problème sur GrapheneOS avec les services Google Play en sandbox, mais certaines applications non financières ont leurs propres mécanismes anti-tampering rudimentaires qui peuvent échouer. GrapheneOS passe le contrôle `basicIntegrity`, mais pas le contrôle de certification `ctsProfileMatch`. Les appareils équipés d'Android 8 ou d'une version ultérieure sont dotés d'un système d'attestation matérielle qui ne peut être contourné qu'en cas de fuite de clés ou de vulnérabilité grave.
 
 Quant à Google Wallet, nous ne le recommandons pas en raison de sa [politique de confidentialité](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), qui stipule que vous devez manuellement refuser si vous ne voulez pas que votre note de crédit et vos informations personnelles soient partagées avec des services de marketing affilié.
-
---8<-- "includes/abbreviations.fr.txt"

@@ -1,6 +1,7 @@
 ---
 title: "Frontend"
 icon: material/flip-to-front
+description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
 ---
 
 A volte i servizi tentano di costringerti ad iscriverti ad un account bloccando l'accesso ai contenuti con fastidiosi popup. Potrebbero anche cessare di funzionare correttamente senza l'abilitazione di JavaScript. Questi frontend possono consentire di aggirare queste restrizioni.
@@ -273,5 +274,3 @@ Recommended frontends...
 We only consider frontends for websites which are...
 
 - Not normally accessible without JavaScript.
-
---8<-- "includes/abbreviations.it.txt"

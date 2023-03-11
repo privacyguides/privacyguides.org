@@ -1,9 +1,10 @@
 ---
 title: "Мессенджеры"
 icon: octicons/rss-24
+description: These news aggregator clients let you keep up with your favorite blogs and news sites using internet standards like RSS.
 ---
 
-[Новостные агрегаторы](https://en.wikipedia.org/wiki/News_aggregator) - это простой способ следить за любимыми блогами и новостями.
+A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to keep up with your favorite blogs and news sites.
 
 ## Клиенты-агрегаторы
 
@@ -174,5 +175,3 @@ You can subscribe YouTube channels without logging in and associating usage info
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
     ```
-
---8<-- "includes/abbreviations.ru.txt"

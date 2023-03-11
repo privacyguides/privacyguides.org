@@ -1,42 +1,40 @@
 ---
-title: General Criteria
+title: Allmänna kriterier
 ---
 
-!!! example "Work in Progress"
+!!! exempel "Pågående arbete"
 
-    The following page is a work in progress, and does not reflect the full criteria for our recommendations at this time. Past discussion on this topic: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+    Följande sida är ett pågående arbete och återspeglar för närvarande inte alla kriterier för våra rekommendationer. Tidigare diskussion om detta ämne: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
 
-Below are some things that must apply to all submissions to Privacy Guides. Each category will have additional requirements for inclusion.
+Nedan följer några saker som måste gälla för alla inlagor till integritetsguider. Varje kategori kommer att ha ytterligare krav för inkludering.
 
-## Financial Disclosure
+## Finansiell information
 
-We do not make money from recommending certain products, we do not use affiliate links, and we do not provide special consideration to project donors.
+Vi tjänar inga pengar på att rekommendera vissa produkter, vi använder inga affiliate-länkar och vi ger inga särskilda överväganden till projektdonatorer.
 
-## General Guidelines
+## Allmänna riktlinjer
 
-We apply these priorities when considering new recommendations:
+Vi tillämpar dessa prioriteringar när vi överväger nya rekommendationer:
 
-- **Secure**: Tools should follow security best-practices wherever applicable.
-- **Source Availability**: Open source projects are generally preferred over equivalent proprietary alternatives.
-- **Cross-Platform**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
-- **Active Development**: The tools that we recommend should be actively developed, unmaintained projects will be removed in most cases.
-- **Usability**: Tools should be accessible to most computer users, an overly technical background should not be required.
-- **Documented**: Tools should have clear and extensive documentation for use.
+- **Säker**: Verktyg bör följa bästa säkerhetspraxis där det är tillämpligt.
+- **Källa Tillgänglighet**: Projekt med öppen källkod föredras i allmänhet framför likvärdiga proprietära alternativ.
+- **Plattformsoberoende**: Vi föredrar vanligtvis att rekommendationerna är plattformsoberoende för att undvika leverantörslåsning.
+- **Aktiv utveckling**: De verktyg som vi rekommenderar bör vara aktivt utvecklade, ounderhållna projekt kommer i de flesta fall att tas bort.
+- **Användbarhet**: Verktyg bör vara tillgängliga för de flesta datoranvändare, en alltför teknisk bakgrund bör inte krävas.
+- **Dokumenterad**: Verktyg ska ha tydlig och omfattande dokumentation för användning.
 
-## Developer Self-Submissions
+## Utvecklarens självinlämningar
 
-We have these requirements in regard to developers which wish to submit their project or software for consideration.
+Vi har dessa krav på utvecklare som vill lämna in sitt projekt eller sin programvara för bedömning.
 
-- Must disclose affiliation, i.e. your position within the project being submitted.
+- Måste uppge tillhörighet, det vill säga din position inom projektet som lämnas in.
 
-- Must have a security whitepaper if it is a project that involves handling of sensitive information like a messenger, password manager, encrypted cloud storage etc.
-    - Third party audit status. We want to know if you have one, or have one planned. If possible please mention who will be conducting the audit.
+- Måste ha ett säkerhetsdokument om det är ett projekt som innebär hantering av känslig information som en budbärare, lösenordshanterare, krypterad molnlagring etc.
+    - Tredje parts revisionsstatus. Vi vill veta om du har en sådan, eller om du har en planerad sådan. Om möjligt, ange vem som kommer att genomföra revisionen.
 
-- Must explain what the project brings to the table in regard to privacy.
-    - Does it solve any new problem?
-    - Why should anyone use it over the alternatives?
+- Måste förklara vad projektet tillför när det gäller integritetsskydd.
+    - Löser det något nytt problem?
+    - Varför skulle någon använda det framför alternativen?
 
-- Must state what the exact threat model is with their project.
-    - It should be clear to potential users what the project can provide, and what it cannot.
-
---8<-- "includes/abbreviations.sv.txt"
+- Måste ange vilken exakt hotmodell som gäller för deras projekt.
+    - Det bör vara tydligt för potentiella användare vad projektet kan erbjuda och vad det inte kan erbjuda.

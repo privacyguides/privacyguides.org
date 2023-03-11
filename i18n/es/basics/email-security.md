@@ -1,6 +1,7 @@
 ---
 title: Seguridad del correo electrónico
 icon: material/email
+description: Email is inherently insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
 ---
 
 El correo electrónico es una forma de comunicación insegura por defecto. Puedes mejorar la seguridad de tu correo electrónico con herramientas como OpenPGP, que añaden cifrado de extremo a extremo a tus mensajes, pero OpenPGP sigue teniendo una serie de inconvenientes en comparación con el cifrado de otras aplicaciones de mensajería, y algunos datos del correo electrónico nunca pueden cifrarse de forma inherente debido a cómo está diseñado el correo electrónico.
@@ -38,5 +39,3 @@ Los metadatos del correo electrónico están protegidos de observadores externos
 ### ¿Por qué los metadatos no pueden ser E2EE?
 
 Los metadatos del correo electrónico son cruciales para la funcionalidad más básica del correo electrónico (de dónde viene y a dónde tiene que ir). E2EE no estaba integrado originalmente en los protocolos de correo electrónico, sino que requería un software adicional como OpenPGP. Dado que los mensajes OpenPGP todavía tienen que funcionar con los proveedores de correo electrónico tradicionales, no puede cifrar los metadatos del correo electrónico, sino sólo el cuerpo del mensaje. Esto significa que, incluso cuando se utiliza OpenPGP, los observadores externos pueden ver mucha información sobre tus mensajes, como a quién estás enviando correos electrónicos, las líneas de asunto, cuándo estás enviando correos, etc.
-
---8<-- "includes/abbreviations.es.txt"

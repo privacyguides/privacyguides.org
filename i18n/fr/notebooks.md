@@ -1,6 +1,7 @@
 ---
 title: "Bloc-notes"
 icon: material/notebook-edit-outline
+description: Ces applications de prise de notes chiffrées vous permettent de garder une trace de vos notes sans les transmettre à un tiers.
 ---
 
 Gardez une trace de vos notes et de vos journaux sans les donner à un tiers.
@@ -111,5 +112,3 @@ Cryptee offre 100 Mo de stockage gratuit, avec des options payantes si vous avez
 
 - La fonctionnalité de sauvegarde/synchronisation locale doit prendre en charge le chiffrement.
 - Les plateformes basées sur le cloud doivent permettre le partage de documents.
-
---8<-- "includes/abbreviations.fr.txt"

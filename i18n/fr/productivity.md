@@ -1,6 +1,7 @@
 ---
 title: "Outils de productivité"
 icon: material/file-sign
+description: La plupart des suites bureautiques en ligne ne prennent pas en charge l'E2EE, ce qui signifie que le fournisseur de cloud a accès à tout ce que vous faites.
 ---
 
 La plupart des suites bureautiques en ligne ne prennent pas en charge l'E2EE, ce qui signifie que le fournisseur de cloud a accès à tout ce que vous faites. La politique de confidentialité peut protéger légalement vos droits, mais elle ne fournit pas de contraintes techniques d'accès.
@@ -152,5 +153,3 @@ En général, nous définissons les suites bureautiques comme des applications q
     [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Instances publiques"}
     [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Code source" }
-
---8<-- "includes/abbreviations.fr.txt"

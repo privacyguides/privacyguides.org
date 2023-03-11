@@ -1,6 +1,7 @@
 ---
 title: "Veel voorkomende misvattingen"
 icon: 'material/robot-confused'
+description: Privacy is geen eenvoudig onderwerp, en men raakt gemakkelijk verstrikt in marketingclaims en andere desinformatie.
 ---
 
 ## "Open source software is altijd veilig" of "Private software is veiliger"
@@ -55,7 +56,5 @@ Een van de duidelijkste dreigingsmodellen is een model waarbij mensen *weten wie
 3. **Anonieme identiteit** - zelfs met ervaring, anonieme identiteiten zijn moeilijk te behouden voor lange perioden. Deze identiteiten horen een korte levensduur te hebben, en dienen regelmatig gerouleerd te worden.
 
     Het gebruik van Tor kan hierbij helpen. Ook moet worden opgemerkt dat een grotere anonimiteit mogelijk is door asynchrone communicatie: Real-time communicatie is kwetsbaar voor analyse van typpatronen (d.w.z. meer dan een alinea tekst, verspreid op een forum, via e-mail, enz.)
-
---8<-- "includes/abbreviations.nl.txt"
 
 [^1]: Een opmerkelijk voorbeeld hiervan is het incident van [2021, waarbij onderzoekers van de Universiteit van Minnesota drie kwetsbaarheden in het Linux-kernelontwikkelingsproject](https://cse.umn.edu/cs/linux-incident)introduceerden.

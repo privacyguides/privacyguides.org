@@ -59,5 +59,3 @@ title: Trafik İstatistikleri
         })
     })
 </script>
-
---8<-- "includes/abbreviations.tr.txt"

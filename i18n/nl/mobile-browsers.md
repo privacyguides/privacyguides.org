@@ -1,6 +1,7 @@
 ---
 title: "Mobiele browsers"
 icon: material/cellphone-information
+description: Deze browsers zijn wat we momenteel aanbevelen voor standaard/niet-anoniem internetten op jouw telefoon.
 ---
 
 Dit zijn onze momenteel aanbevolen mobiele webbrowsers en configuraties voor standaard/niet-anoniem internetten. In het algemeen raden we aan om extensies tot een minimum te beperken: ze hebben geprivilegieerde toegang binnen jouw browser, vereisen dat je de ontwikkelaar vertrouwt, kunnen je [doen opvallen](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), en [verzwakken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-Uchnm34/m/lDaXwQhzBAAJ) site-isolatie. In het algemeen raden we aan om extensies tot een minimum te beperken: ze hebben geprivilegieerde toegang binnen jouw browser, vereisen dat u de ontwikkelaar vertrouwt, kunnen je [doen opvallen](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), en [verzwakken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site-isolatie.
@@ -189,5 +190,3 @@ Extra filterlijsten vertragen de zaken en kunnen uw aanvalsoppervlak vergroten, 
 
 - Mag geen ingebouwde browser- of OS-functionaliteit repliceren.
 - Moet rechtstreeks van invloed zijn op de privacy van de gebruiker, d.w.z. mag niet gewoon informatie verstrekken.
-
---8<-- "includes/abbreviations.nl.txt"

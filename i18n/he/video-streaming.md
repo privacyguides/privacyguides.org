@@ -1,6 +1,7 @@
 ---
 title: "הזרמת וידאו"
 icon: material/video-wireless
+description: These networks allow you to stream internet content without building an advertising profile based on your interests.
 ---
 
 האיום העיקרי בעת שימוש בפלטפורמת הזרמת וידאו הוא שהרגלי הסטרימינג ורשימות המנויים שלך יוכלו לשמש אותך כדי ליצור פרופיל. עליך לשלב את הכלים האלה עם [VPN](vpn.md) או [Tor](https://www.torproject.org/) כדי להקשות על פרופיל השימוש שלך.
@@ -48,5 +49,3 @@ icon: material/video-wireless
 
 - חייב לא לדרוש חשבון מרוכז כדי לצפות בסרטונים.
     - אימות מבוזר, כגון באמצעות מפתח פרטי של ארנק נייד מקובל.
-
---8<-- "includes/abbreviations.he.txt"

@@ -1,27 +1,28 @@
 ---
-title: "Notebooks"
+title: "Blocos de Notas"
 icon: material/notebook-edit-outline
+description: These encrypted note-taking apps let you keep track of your notes without giving them to a third-party.
 ---
 
-Keep track of your notes and journalings without giving them to a third-party.
+Mantenha o controle de suas anotações e registros de atividades sem entregá-los a terceiros.
 
-If you are currently using an application like Evernote, Google Keep, or Microsoft OneNote, we suggest you pick an alternative here that supports E2EE.
+Se você estiver usando atualmente um aplicativo como Evernote, Google Keep, ou Microsoft OneNote, sugerimos que escolha uma alternativa que suporte E2EE.
 
-## Cloud-based
+## Baseado na nuvem
 
 ### Joplin
 
 !!! recommendation
 
-    ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
+    ![Logotipo Joplin](assets/img/notebooks/joplin.svg){ align=right }
     
-    **Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle a large number of markdown notes organized into notebooks and tags. It offers E2EE and can sync through Nextcloud, Dropbox, and more. It also offers easy import from Evernote and plain-text notes.
+    * *Joplin** é um aplicativo de anotações e tarefas gratuito, de código aberto e com todos os recursos que pode lidar com um grande número de anotações organizadas em blocos de anotações e tags. Ele oferece E2EE e pode sincronizar através do Nextcloud, Dropbox e muito mais. Oferece também uma importação fácil a partir do Evernote e notas de texto simples.
     
     [:octicons-home-16: Homepage](https://joplinapp.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://joplinapp.org/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://joplinapp.org/help/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://joplinapp.org/privacy/){ .card-link title="Política de privacidade" }
+    [:octicons-info-16:](https://joplinapp.org/help/){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Código fonte" }
+    [:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribua }
     
     ??? downloads
     
@@ -34,21 +35,21 @@ If you are currently using an application like Evernote, Google Keep, or Microso
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
-Joplin does not support password/PIN protection for the [application itself or individual notes and notebooks](https://github.com/laurent22/joplin/issues/289). However, your data is still encrypted in transit and at the sync location using your master key. Desde Janeiro de 2023, Joplin suporta bloqueio de aplicativo por biometria no [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) e [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
+O Joplin não suporta proteção por senha/PIN para o [próprio aplicativo ou notas e blocos de anotações individuais](https://github.com/laurent22/joplin/issues/289). No entanto, seus dados ainda são criptografados em trânsito e no local de sincronização usando sua chave mestra. Desde janeiro de 2023, Joplin suporta bloqueio de aplicativo por biometria no [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) e [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
 
 ### Standard Notes
 
 !!! recommendation
 
-    ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
+    ![Logotipo do Standard Notes](assets/img/notebooks/standard-notes.svg){ align=right }
     
-    **Standard Notes** is a simple and private notes app that makes your notes easy and available everywhere you are. It features E2EE on every platform, and a powerful desktop experience with themes and custom editors. It has also been [independently audited (PDF)](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
+    **Standard Notes** é um aplicativo de notas simples e privado que torna suas notas fáceis e disponíveis em qualquer lugar que você esteja. Possui E2EE em todas as plataformas e uma poderosa experiência de desktop com temas e editores personalizados. Também foi [auditado independentemente (PDF)](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
     
     [:octicons-home-16: Homepage](https://standardnotes.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://standardnotes.com/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribute }
+    [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Política de privacidade" }
+    [:octicons-info-16:](https://standardnotes.com/help){ .card-link title=Documentação}
+    [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Código fonte" }
+    [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribua }
     
     ??? downloads
     
@@ -60,7 +61,7 @@ Joplin does not support password/PIN protection for the [application itself or i
         - [:simple-linux: Linux](https://standardnotes.com)
         - [:octicons-globe-16: Web](https://app.standardnotes.com/)
 
-### Cryptee
+### Criptee
 
 !!! recommendation
 
@@ -111,5 +112,3 @@ Cryptee offers 100MB of storage for free, with paid options if you need more. Si
 
 - Local backup/sync functionality should support encryption.
 - Cloud-based platforms should support document sharing.
-
---8<-- "includes/abbreviations.pt-BR.txt"

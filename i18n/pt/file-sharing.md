@@ -1,6 +1,7 @@
 ---
 title: "Ferramentas de Autenticação Multi-Factor"
 icon: material/share-variant
+description: Descubra como partilhar os seus ficheiros em privado entre os seus dispositivos, com os seus amigos e família, ou anonimamente online.
 ---
 
 Descubra como partilhar os seus ficheiros em privado entre os seus dispositivos, com os seus amigos e família, ou anonimamente online.
@@ -165,5 +166,3 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - Has mobile clients for iOS and Android, which at least support document previews.
 - Supports photo backup from iOS and Android, and optionally supports file/folder sync on Android.
-
---8<-- "includes/abbreviations.pt.txt"

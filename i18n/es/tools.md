@@ -3,6 +3,7 @@ title: "Herramientas de Privacidad"
 icon: material/tools
 hide:
   - toc
+description: Privacy Guides is the most transparent and reliable website for finding software, apps, and services that protect your personal data from mass surveillance programs and other internet threats.
 ---
 
 Si está buscando una solución específica para algo, estas son las herramientas de hardware y software que recomendamos en una variedad de categorías. Nuestras herramientas de privacidad recomendadas se eligen principalmente en función de sus características de seguridad, con un énfasis adicional en las herramientas descentralizadas y de código abierto. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
@@ -100,10 +101,11 @@ For more details about each project, why they were chosen, and additional tips o
 
 <div class="grid cards" markdown>
 
-- ![Logotipo de Nextcloud](assets/img/cloud/nextcloud.svg){ .twemoji } [Nextcloud (Autoalojable)](https://nextcloud.com/)
-- ![Logotipo de Proton Drive](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](https://drive.protonmail.com/)
-- ![Logotipo de Cryptee](assets/img/cloud/cryptee.svg#only-light){ .twemoji }![Logotipo de Cryptee](assets/img/cloud/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](https://crypt.ee/)
-- ![Logotipo de Tahoe-LAFS](assets/img/cloud/tahoe-lafs.svg#only-light){ .twemoji }![Tahoe-LAFS logo](assets/img/cloud/tahoe-lafs-dark.svg#only-dark){ .twemoji } [Tahoe-LAFS (Avanzado)](https://www.tahoe-lafs.org/)
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
+- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
+- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
+- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
 
 </div>
 
@@ -215,6 +217,29 @@ For more details about each project, why they were chosen, and additional tips o
 
 [Aprender más :material-arrow-right:](email.md#self-hosting-email)
 
+### Financial Services
+
+#### Payment Masking Services
+
+<div class="grid cards" markdown>
+
+- ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji }![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji } [Privacy.com](financial-services.md#privacycom-us-free)
+- ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
+</div>
+
+[Aprender más :material-arrow-right:](financial-services.md#payment-masking-services)
+
+#### Online Gift Card Marketplaces
+
+<div class="grid cards" markdown>
+
+- ![Cake Pay logo](assets/img/financial-services/cakepay.svg){ .twemoji } [Cake Pay](financial-services.md#cake-pay)
+- ![CoinCards logo](assets/img/financial-services/coincards.svg){ .twemoji } [CoinCards](financial-services.md#coincards)
+
+</div>
+
+[Aprender más :material-arrow-right:](financial-services.md#gift-card-marketplaces)
+
 ### Motores de Búsqueda
 
 <div class="grid cards" markdown>
@@ -242,9 +267,9 @@ For more details about each project, why they were chosen, and additional tips o
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
 - ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
+- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
 
 </div>
 
@@ -262,6 +287,16 @@ For more details about each project, why they were chosen, and additional tips o
 </div>
 
 [Aprender más :material-arrow-right:](calendar.md)
+
+### Cryptocurrency
+
+<div class="grid cards" markdown>
+
+- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji }[Monero](cryptocurrency.md#monero)
+
+</div>
+
+[Aprender más :material-arrow-right:](cryptocurrency.md)
 
 ### Data and Metadata Redaction
 
@@ -454,5 +489,3 @@ For more details about each project, why they were chosen, and additional tips o
 </div>
 
 [Aprender más :material-arrow-right:](video-streaming.md)
-
---8<-- "includes/abbreviations.es.txt"

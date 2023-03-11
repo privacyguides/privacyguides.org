@@ -1,6 +1,7 @@
 ---
 title: "תקשורת בזמן אמת"
 icon: material/chat-processing
+description: Other instant messengers make all of your private conversations available to the company that runs them.
 ---
 
 אלו ההמלצות שלנו לתקשורת מוצפנת בזמן אמת.
@@ -191,5 +192,3 @@ Oxen ביקשה ביקורת בלתי תלויה למפגש במרץ 2020. הב�
 - צריך להיות מבוזר, כלומר מאוחד או P2P.
 - אמור להשתמש ב- E2EE עבור כל ההודעות כברירת מחדל.
 - צריך לתמוך בלינוקס, macOS, ווינדוס, אנדרואיד ו-iOS.
-
---8<-- "includes/abbreviations.he.txt"

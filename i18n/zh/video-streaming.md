@@ -1,6 +1,7 @@
 ---
 title: "视频串流"
 icon: 资料/视频-无线
+description: These networks allow you to stream internet content without building an advertising profile based on your interests.
 ---
 
 使用视频流媒体平台时的主要威胁是，你的流媒体习惯和订阅名单可能被用来对你进行分析。 你应该将这些工具与 [VPN](vpn.md) 或 [Tor](https://www.torproject.org/) 结合起来，以使你的使用情况更难被分析。
@@ -52,5 +53,3 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
 
 - Must not require a centralized account to view videos.
     - Decentralized authentication, such as via a mobile wallet's private key is acceptable.
-
---8<-- "includes/abbreviations.zh.txt"

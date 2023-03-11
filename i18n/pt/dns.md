@@ -1,13 +1,12 @@
 ---
 title: "Introdução ao DNS"
 icon: material/dns
+description: These are some encrypted DNS providers we recommend switching to, to replace your ISP's default configuration.
 ---
 
-!!! Devo utilizar DNS encriptado?
+Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. DNS criptografado não o ajudará a ocultar qualquer atividade de navegação.
 
-    DNS criptografado com uma terceira parte só deve ser usado para contornar redirecionamentos e <a href="https://en.wikipedia.org/wiki/DNS_blocking">bloqueio de DNS</a> quando você pode ter certeza de que não haverá nenhuma consequência ou você está interessado em um provedor que faz alguma filtragem rudimentar. DNS criptografado não o ajudará a ocultar qualquer atividade de navegação.
-    
-    [Saiba mais sobre DNS](technology/dns.md){ .md-button }
+[Learn more about DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
 ## Provedores recomendados
 
@@ -136,8 +135,6 @@ A self-hosted DNS solution is useful for providing filtering on controlled platf
     [:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
-
---8<-- "includes/abbreviations.pt.txt"
 
 [^1]: Armazenamos métricas agregadas de desempenho do nosso servidor DNS, nomeadamente o número de pedidos completos para um determinado servidor, o número de pedidos bloqueados, a velocidade de processamento dos pedidos. Nós mantemos e armazenamos a base de dados de domínios solicitados nas últimas 24 horas. Precisamos dessas informações para identificar e bloquear novos rastreadores e ameaças. Também registramos quantas vezes este ou aquele rastreador foi bloqueado. Precisamos desta informação para remover regras desactualizadas dos nossos filtros.[https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
 [^2]: O Cloudflare recolhe e armazena apenas os dados limitados da consulta DNS que são enviados para o resolvedor 1.1.1.1. O serviço resolver 1.1.1.1 não registra dados pessoais, e a maior parte dos dados de consulta limitados não identificáveis pessoalmente é armazenada apenas por 25 horas.[https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)

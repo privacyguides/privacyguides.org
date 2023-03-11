@@ -1,11 +1,12 @@
 ---
 title: KB Archive
 icon: material/archive
+description: Some pages that used to be in our knowledge base can now be found on our blog.
 ---
 
 # Pages Moved to Blog
 
-Some pages that used to be in our knowledge base can now be found on our blog:
+Algumas páginas que costumavam estar em nossa base de conhecimento agora podem ser encontradas em nosso blog:
 
 - [GrapheneOS vs. CalyxOS](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/)
 - [Signal Configuration Hardening](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/)
@@ -14,5 +15,3 @@ Some pages that used to be in our knowledge base can now be found on our blog:
 - [Secure Data Erasure](https://blog.privacyguides.org/2022/05/25/secure-data-erasure/)
 - [Integrando a remoção de metadados](https://blog.privacyguides.org/2022/04/09/integrating-metadata-removal/)
 - [iOS Configuration Guide](https://blog.privacyguides.org/2022/10/22/ios-configuration-guide/)
-
---8<-- "includes/abbreviations.pt-BR.txt"

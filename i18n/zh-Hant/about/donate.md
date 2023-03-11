@@ -48,5 +48,3 @@ We host [internet services](https://privacyguides.net) for testing and showcasin
 我們偶爾會購買產品和服務，以測試我們的 [推薦工具](../tools.md)。
 
 我們仍在與我們的財政托管機構（Open Collective Foundation）合作，以接收加密貨幣捐贈，目前會計對許多較小的交易是不可行的，但這種情況在未來應該會發生變化。 與此同時，如果您希望捐贈大於 $ 100 美元的加密貨幣，請聯繫 [jonah@privacyguides.org](mailto:jonah@privacyguides.org)
-
---8<-- "includes/abbreviations.zh-Hant.txt"

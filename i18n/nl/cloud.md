@@ -1,6 +1,7 @@
 ---
 title: "Cloud opslag"
 icon: material/file-cloud
+description: Veel aanbieders van cloud-opslag eisen jouw volledige vertrouwen dat zij niet in jouw bestanden zullen kijken. Dit zijn de privé alternatieven!
 ---
 
 Veel aanbieders van cloud-opslag eisen uw volledige vertrouwen dat zij niet in uw bestanden zullen kijken. De onderstaande alternatieven nemen de behoefte aan vertrouwen weg door u de controle over uw gegevens te geven of door E2EE te implementeren.
@@ -29,7 +30,6 @@ Als deze alternatieven niet aan uw behoeften voldoen, raden wij u aan te kijken 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
 
-De mobiele clients van Proton Drive werden in december 2022 uitgebracht en zijn nog niet open-source. Proton heeft in het verleden zijn broncode releases uitgesteld tot na de eerste product releases, en [is van plan om](https://www.reddit.com/r/ProtonDrive/comments/zf14i8/comment/izdwmme/?utm_source=share&utm_medium=web2x&context=3) de broncode vrij te geven tegen eind 2023. Proton Drive desktop clients zijn nog in ontwikkeling.
 
 ## Criteria
 
@@ -58,5 +58,3 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
     - Deze clients moeten integreren met native OS tools voor cloud storage providers, zoals Files app integratie op iOS, of DocumentsProvider functionaliteit op Android.
 - Moet het gemakkelijk delen van bestanden met andere gebruikers ondersteunen.
 - Moet ten minste een basisfunctionaliteit voor het bekijken en bewerken van bestanden op de webinterface bieden.
-
---8<-- "includes/abbreviations.nl.txt"

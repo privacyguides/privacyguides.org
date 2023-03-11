@@ -1,6 +1,7 @@
 ---
-title: "Search Engines"
+title: "Motores de busca"
 icon: material/search-web
+description: These privacy-respecting search engines don't build an advertising profile based on your searches.
 ---
 
 Use a search engine that doesn't build an advertising profile based on your searches.
@@ -13,9 +14,9 @@ Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org/) if your thr
 
 !!! recommendation
 
-    ![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
+    [brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
     
-    **Brave Search** is developed by Brave and serves results primarily from its own, independent index. The index is optimized against Google Search and therefore may provide more contextually accurate results compared to other alternatives.
+    **Brave Search*** é desenvolvido pela Brave e serve resultados principalmente a partir do seu próprio índice independente. The index is optimized against Google Search and therefore may provide more contextually accurate results compared to other alternatives.
     
     Brave Search includes unique features such as Discussions, which highlights conversation-focused results—such as forum posts.
     
@@ -65,7 +66,7 @@ When self-hosting, it is important that you have other people using your instanc
 
 When you are using a SearXNG instance, be sure to go read their privacy policy. Since SearXNG instances may be modified by their owners, they do not necessarily reflect their privacy policy. Some instances run as a Tor hidden service, which may grant some privacy as long as your search queries does not contain PII.
 
-## Startpage
+## Página inicial
 
 !!! recommendation
 
@@ -94,7 +95,7 @@ Startpage's majority shareholder is System1 who is an adtech company. We don't b
 
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
-### Minimum Requirements
+### Requisitos Mínimos
 
 - Must not collect personally identifiable information per their privacy policy.
 - Must not allow users to create an account with them.
@@ -105,5 +106,3 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - Should be based on open-source software.
 - Should not block Tor exit node IP addresses.
-
---8<-- "includes/abbreviations.pt-BR.txt"

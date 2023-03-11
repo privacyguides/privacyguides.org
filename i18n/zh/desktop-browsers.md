@@ -1,6 +1,7 @@
 ---
 title: "电脑浏览器"
 icon: material/laptop
+description: Firefox and Brave are our recommendations for standard/non-anonymous browsing.
 ---
 
 这些是我们目前推荐的用于标准/非匿名浏览的桌面网络浏览器和配置。 如果您需要匿名浏览互联网，则应使用 [Tor](tor.md) 。 一般来说，我们建议尽量减少你的浏览器扩展；它们在你的浏览器内有特权访问，需要你信任开发者，可以使你 [，突出](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)，并且 [，削弱](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) 网站隔离。
@@ -303,8 +304,6 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - 不得复制内置浏览器或操作系统的功能。
 - 必须直接影响用户隐私，即不能简单地提供信息。
-
---8<-- "includes/abbreviations.zh.txt"
 
 
 

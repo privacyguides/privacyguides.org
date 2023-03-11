@@ -1,6 +1,7 @@
 ---
 title: "Softwares de Criptografia"
 icon: material/file-lock
+description: A criptografia de dados é a única maneira de controlar quem pode acessá-los. These tools allow you to encrypt your emails and any other files.
 ---
 
 A criptografia de dados é a única maneira de controlar quem pode acessá-los. Se você atualmente não está usando “software” de criptografia para seu disco rígido, e-mails ou arquivos, você deve escolher uma opção aqui.
@@ -353,5 +354,3 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - Operating System (FDE) encryption apps should utilize hardware security such as a TPM or Secure Enclave.
 - File encryption apps should have first- or third-party support for mobile platforms.
-
---8<-- "includes/abbreviations.pt-BR.txt"

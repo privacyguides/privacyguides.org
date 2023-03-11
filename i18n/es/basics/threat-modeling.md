@@ -1,6 +1,7 @@
 ---
 title: "¿Qué son los modelos de amenaza?"
 icon: 'material/target-account'
+description: Equilibrar la seguridad, la privacidad y la facilidad de uso es una de las primeras y más difíciles tareas a las que se enfrentará en su camino hacia la privacidad.
 ---
 
 Equilibrar la seguridad, la privacidad y la facilidad de uso es una de las primeras y más difíciles tareas a las que se enfrentará en su camino hacia la privacidad. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
@@ -98,7 +99,7 @@ Sólo una vez que se haya planteado estas preguntas estará en condiciones de ev
 
 Elaborar un plan de seguridad le ayudará a comprender las amenazas que le son propias y a evaluar sus activos, sus adversarios y las capacidades de éstos, junto con la probabilidad de los riesgos a los que se enfrenta.
 
-## Further Reading
+## Lecturas Adicionales
 
 For people looking to increase their privacy and security online, we've compiled a list of common threats our visitors face or goals our visitors have, to give you some inspiration and demonstrate the basis of our recommendations.
 
@@ -107,5 +108,3 @@ For people looking to increase their privacy and security online, we've compiled
 ## Fuentes
 
 - [EFF Surveillance Self Defense: Su plan de seguridad](https://ssd.eff.org/en/module/your-security-plan)
-
---8<-- "includes/abbreviations.es.txt"

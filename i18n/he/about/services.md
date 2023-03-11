@@ -36,5 +36,3 @@
 - זמינות: חצי ציבורי  
   אנו מארחים את Invidious בעיקר כדי להגיש סרטוני YouTube משובצים באתר האינטרנט שלנו, מופע זה אינו מיועד לשימוש כללי ועשוי להיות מוגבל בכל עת.
 - מקור: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)
-
---8<-- "includes/abbreviations.he.txt"

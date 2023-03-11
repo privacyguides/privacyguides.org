@@ -1,13 +1,12 @@
 ---
 title: "DNS-resolvers"
 icon: material/dns
+description: Dit zijn enkele versleutelde DNS-providers die wij aanbevelen, ter vervanging van de standaardconfiguratie van jouw ISP.
 ---
 
-!!! question "Moet ik versleutelde DNS gebruiken?"
+Versleutelde DNS met servers van derden zou alleen moeten worden gebruikt om simpele [DNS-blokkering](https://en.wikipedia.org/wiki/DNS_blocking) te omzeilen en als je er zeker van bent dat er geen gevolgen zullen zijn. Versleutelde DNS zal je niet helpen jouw surfactiviteiten te verbergen.
 
-    Versleutelde DNS met servers van derden zou alleen moeten worden gebruikt om simpele [DNS-blokkering](https://en.wikipedia.org/wiki/DNS_blocking) te omzeilen als u er zeker van kunt zijn dat er geen gevolgen zullen zijn. Versleutelde DNS zal je niet helpen jouw surfactiviteiten te verbergen.
-    
-    [Leer meer over DNS](advanced/dns-overview.md){ .md-button }
+[Meer informatie over DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
 ## Aanbevolen Providers
 
@@ -131,8 +130,6 @@ Een zelf gehoste DNS-oplossing is handig voor het bieden van filtering op gecont
     [:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Bijdrage leveren }
-
---8<-- "includes/abbreviations.nl.txt"
 
 [^1]: AdGuard slaat geaggregeerde prestatiecijfers van hun DNS-servers op, namelijk het aantal volledige verzoeken aan een bepaalde server, het aantal geblokkeerde verzoeken, en de snelheid waarmee verzoeken worden verwerkt. Zij houden ook de database bij van domeinen die in de laatste 24 uur zijn aangevraagd. "We hebben deze informatie nodig om nieuwe trackers en bedreigingen te identificeren en te blokkeren." "We houden ook bij hoe vaak deze of gene tracker geblokkeerd is. We hebben deze informatie nodig om verouderde regels uit onze filters te verwijderen." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
 [^2]: Cloudflare verzamelt en bewaart alleen de beperkte DNS-querygegevens die naar de 1.1.1.1 resolver worden gestuurd. De 1.1.1.1 resolver dienst logt geen persoonsgegevens, en het grootste deel van de beperkte niet-persoonlijk identificeerbare query-gegevens wordt slechts 25 uur bewaard. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)

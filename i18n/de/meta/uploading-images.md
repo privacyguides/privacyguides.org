@@ -1,23 +1,23 @@
 ---
-title: Uploading Images
+title: Bilder hochladen
 ---
 
-Here are a couple of general rules for contributing to Privacy Guides:
+Hier sind einige allgemeine Regeln um zu Privacy Guides beizutragen:
 
-## Images
+## Bilder
 
-- We **prefer** SVG images, but if those do not exist we can use PNG images
+- Wir **bevorzugen** SVG-Bilder, aber wenn diese nicht vorhanden sind, können wir PNG-Bilder verwenden
 
-Company logos have canvas size of:
+Firmenlogos haben eine Leinwandgröße von:
 
 - 128x128px
 - 384x128px
 
-## Optimization
+## Optimierung
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng/) to optimize the PNG image:
+Verwende [OptiPNG](https://sourceforge.net/projects/optipng/) um das PNG-Bild zu optimieren:
 
 ```bash
 optipng -o7 file.png
@@ -27,51 +27,51 @@ optipng -o7 file.png
 
 #### Inkscape
 
-[Scour](https://github.com/scour-project/scour) all SVG images.
+[Scour](https://github.com/scour-project/scour) alle SVG-Bilder.
 
 In Inkscape:
 
-1. File Save As..
-2. Set type to Optimized SVG (*.svg)
+1. Speichern unter...
+2. Dateityp auf "Optimiertes SVG (*.svg)" setzen
 
-In the **Options** tab:
+In der **Optionen** Registerkarte:
 
-- **Number of significant digits for coordinates** > **5**
-- [x] Turn on **Shorten color values**
-- [x] Turn on **Convert CSS attributes to XML attributes**
-- [x] Turn on **Collapse groups**
-- [x] Turn on **Create groups for similar attributes**
-- [ ] Turn off **Keep editor data**
-- [ ] Turn off **Keep unreferenced definitions**
-- [x] Turn on **Work around renderer bugs**
+- **Anzahl der signifikaten Stellen für Koordinaten** > **5**
+- [x] Einschalten **Farbwerte kürzen**
+- [x] Einschalten **CSS-Attribute in XML-Attribute umwandeln**
+- [x] Einschalten **Gruppen zusammenklappen**
+- [x] Einschalten **Gruppen für ähnliche Attribute erstellen**
+- [ ] Ausschalten **Editor-Daten erhalten**
+- [ ] Ausschalten **Unreferenzierte Definitionen erhalten**
+- [x] Einschalten **Renderer-Fehler umgehen**
 
-In the **SVG Output** tab under **Document options**:
+In der **SVG-Ausgabe** Registerkarte unter **Dokumenteinstellungen**:
 
-- [ ] Turn off **Remove the XML declaration**
-- [x] Turn on **Remove metadata**
-- [x] Turn on **Remove comments**
-- [x] Turn on **Embeded raster images**
-- [x] Turn on **Enable viewboxing**
+- [ ] Ausschalten **XML-Deklaration entfernen**
+- [x] Einschalten **Metadaten entfernen**
+- [x] Einschalten **Kommentare entfernen**
+- [x] Einschalten **Rasterbilder einbetten**
+- [x] Einschalten **Viewbox aktivieren**
 
-In the **SVG Output** under **Pretty-printing**:
+In der **SVG-Ausgabe** Registerkarte unter **Formatierung**:
 
-- [ ] Turn off **Format output with line-breaks and indentation**
-- **Indentation characters** > Select **Space**
-- **Depth of indentation** > **1**
-- [ ] Turn off **Strip the "xml:space" attribute from the root SVG element**
+- [ ] Ausschalten **Ausgabe mit Zeilenumbrüchen und Einrückungen formatieren**
+- **Zeichen für Einrückungen** > Wähle **Leerzeichen**
+- **Einrücktiefe** > **1**
+- [ ] Ausschalten **"xml:space"-Attribut vom SVG-Wurzelelement entfernen**
 
-In the **IDs** tab:
+In der **IDs** Registerkarte:
 
-- [x] Turn on **Remove unused IDs**
-- [ ] Turn off **Shorten IDs**
-- **Prefix shortened IDs with** > `leave blank`
-- [x] Turn on **Preserve manually created IDs not ending with digits**
-- **Preserve the following IDs** > `leave blank`
-- **Preserve IDs starting with** > `leave blank`
+- [x] Einschalten **Unbenutzte IDs entfernen**
+- [ ] Ausschalten **IDs kürzen**
+- **Präfix für gekürzte IDs** > `leer lassen`
+- [x] Einschalten **Manuell erstellte IDs, die nicht mit Ziffern enden, erhalten**
+- **Folgende IDs erhalten** > `leer lassen`
+- **IDs mit folgendem Präfix erhalten** > `leer lassen`
 
 #### CLI
 
-The same can be achieved with the [Scour](https://github.com/scour-project/scour) command:
+Das Gleiche kann mit dem [Scour](https://github.com/scour-project/scour) Befehl erreicht werden:
 
 ```bash
 scour --set-precision=5 \
@@ -87,5 +87,3 @@ scour --set-precision=5 \
       --protect-ids-noninkscape \
       input.svg output.svg
 ```
-
---8<-- "includes/abbreviations.de.txt"

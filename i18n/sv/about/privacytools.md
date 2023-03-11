@@ -1,10 +1,10 @@
 ---
-title: "PrivacyTools FAQ"
+title: "Vanliga frågor om PrivacyTools"
 ---
 
-# Why we moved on from PrivacyTools
+# Varför vi gick vidare från PrivacyTools
 
-In September 2021, every active contributor unanimously agreed to move from PrivacyTools to work on this site: Privacy Guides. This decision was made because PrivacyTools’ founder and controller of the domain name had disappeared for an extended period of time and could not be contacted.
+I september 2021 kom alla aktiva medarbetare enhälligt överens om att flytta från PrivacyTools till den här webbplatsen: Sekretessguider. This decision was made because PrivacyTools’ founder and controller of the domain name had disappeared for an extended period of time and could not be contacted.
 
 Having built a reputable site and set of services on PrivacyTools.io, this caused grave concerns for the future of PrivacyTools, as any future disruption could wipe out the entire organization with no recovery method. This transition was communicated to the PrivacyTools community many months in advance via a variety of channels including its blog, Twitter, Reddit, and Mastodon to ensure the entire process went as smoothly as possible. We did this to ensure nobody was kept in the dark, which has been our modus operandi since our team was created, and to make sure Privacy Guides was recognized as the same reliable organization that PrivacyTools was before the transition.
 
@@ -56,32 +56,32 @@ This change [entailed:](https://www.reddit.com/r/PrivacyGuides/comments/pnhn4a/r
 
 - Redirecting www.privacytools.io to [www.privacyguides.org](https://www.privacyguides.org).
 - Archiving the source code on GitHub to preserve our past work and issue tracker, which we continued to use for months of future development of this site.
-- Posting announcements to our subreddit and various other communities informing people of the official change.
-- Formally closing privacytools.io services, like Matrix and Mastodon, and encouraging existing users to migrate as soon as possible.
+- Publicera meddelanden på vår subreddit och i andra forum för att informera om den officiella ändringen.
+- Formellt stänga tjänsterna på privacytools.io, som Matrix och Mastodon, och uppmana befintliga användare att flytta över så snart som möjligt.
 
-Things appeared to be going smoothly, and most of our active community made the switch to our new project exactly as we hoped.
+Allt verkade gå smidigt och de flesta av våra aktiva medlemmar gick över till vårt nya projekt precis som vi hoppades.
 
-## Following Events
+## Följande händelser
 
-Roughly a week following the transition, BurungHantu returned online for the first time in nearly a year, however nobody on our team was willing to return to PrivacyTools because of his historic unreliability. Rather than apologize for his prolonged absence, he immediately went on the offensive and positioned the transition to Privacy Guides as an attack against him and his project. He subsequently [deleted](https://www.reddit.com/r/privacytoolsIO/comments/pp9yie/comment/hd49wbn) many of these posts when it was pointed out by the community that he had been absent and abandoned the project.
+Ungefär en vecka efter övergången återkom BurungHantu online för första gången på nästan ett år, men ingen i vårt team var villig att återvända till PrivacyTools på grund av hans historiska opålitlighet. Istället för att be om ursäkt för sin långa frånvaro gick han omedelbart till offensiv och såg övergången till Privacy Guides som ett angrepp mot honom och hans projekt. Därefter raderade han [](https://www.reddit.com/r/privacytoolsIO/comments/pp9yie/comment/hd49wbn) många av dessa inlägg när gemenskapen påpekade att han hade varit frånvarande och övergivit projektet.
 
-At this point, BurungHantu claimed he wanted to continue working on privacytools.io on his own and requested that we remove the redirect from www.privacytools.io to [www.privacyguides.org](https://www.privacyguides.org). We obliged and requested that he keep the subdomains for Matrix, Mastodon, and PeerTube active for us to run as a public service to our community for at least a few months, in order to allow users on those platforms to easily migrate to other accounts. Due to the federated nature of the services we provided, they were tied to specific domain names making it very difficult to migrate (and in some cases impossible).
+BurungHantu hävdade att han ville fortsätta att arbeta med privacytools.io på egen hand och bad oss ta bort omdirigeringen från www.privacytools.io till [www.privacyguides.org](https://www.privacyguides.org). Vi gick med på det och bad honom att hålla subdomänerna för Matrix, Mastodon och PeerTube aktiva så att vi kan köra dem som en offentlig tjänst för vår gemenskap under åtminstone några månader, så att användare på dessa plattformar enkelt kan flytta över till andra konton. På grund av den federerade karaktären hos de tjänster vi tillhandahöll var de bundna till specifika domännamn, vilket gjorde det mycket svårt att migrera (och i vissa fall omöjligt).
 
-Unfortunately, because control of the r/privacytoolsIO subreddit was not returned to BurungHantu at his demand (further information below), those subdomains were [cut off](https://www.reddit.com/r/PrivacyGuides/comments/pymthv/comment/hexwrps/) at the beginning of October, ending any migration possibilities to any users still using those services.
+Eftersom BurungHantu inte fick tillbaka kontrollen över underreddit r/privacytoolsIO när han begärde det (mer information nedan), stängdes dessa underdomäner tyvärr av från [](https://www.reddit.com/r/PrivacyGuides/comments/pymthv/comment/hexwrps/) i början av oktober, vilket innebar att alla användare som fortfarande använde dessa tjänster inte längre hade möjlighet att flytta.
 
-Following this, BurungHantu made false accusations about Jonah stealing donations from the project. BurungHantu had over a year since the alleged incident occurred, and yet he never made anyone aware of it until after the Privacy Guides migration. BurungHantu has been repeatedly asked for proof and to comment on the reason for his silence by the team [and the community](https://twitter.com/TommyTran732/status/1526153536962281474), and has not done so.
+BurungHantu gjorde därefter falska anklagelser om att Jonah skulle ha stulit donationer från projektet. BurungHantu hade över ett år på nacken sedan den påstådda händelsen inträffade, men han informerade aldrig någon om den förrän efter att Privacy Guides migration hade genomförts. BurungHantu har upprepade gånger ombetts av teamet [och gemenskapen](https://twitter.com/TommyTran732/status/1526153536962281474)att lämna bevis och att kommentera orsaken till sin tystnad, men han har inte gjort det.
 
-BurungHantu also made a [twitter post](https://twitter.com/privacytoolsIO/status/1510560676967710728) alleging that an "attorney" had reached out to him on Twitter and was providing advice, in another attempt to bully us into giving him control of our subreddit, and as part of his smear campaign to muddy the waters surrounding the launch of Privacy Guides while pretending to be a victim.
+BurungHantu gjorde också ett twitterinlägg på [](https://twitter.com/privacytoolsIO/status/1510560676967710728) där han påstod att en "advokat" hade kontaktat honom på Twitter och gav honom råd, i ett annat försök att tvinga oss att ge honom kontroll över vår subreddit, och som en del av hans smutskastningskampanj för att fördunkla vattnet kring lanseringen av Privacy Guides samtidigt som han låtsas vara ett offer.
 
-## PrivacyTools.io Now
+## PrivacyTools.io nu
 
-As of September 25th 2022 we are seeing BurungHantu's overall plans come to fruition on privacytools.io, and this is the very reason we decided to create this explainer page today. The website he is operating appears to be a heavily SEO-optimized version of the site which recommends tools in exchange for financial compensation. Very recently, IVPN and Mullvad, two VPN providers near-universally [recommended](../vpn.md) by the privacy community and notable for their stance against affiliate programs were removed from PrivacyTools. In their place? NordVPN, Surfshark, ExpressVPN, and hide.me; Giant VPN corporations with untrustworthy platforms and business practices, notorious for their aggressive marketing and affiliate programs.
+Sedan den 25 september 2022 ser vi hur BurungHantus övergripande planer förverkligas på privacytools.io, och det är just därför som vi beslutade att skapa den här förklarande sidan idag. Den webbplats som han driver verkar vara en starkt SEO-optimerad version av den webbplats som rekommenderar verktyg i utbyte mot ekonomisk ersättning. Nyligen togs IVPN och Mullvad, två VPN-leverantörer som nästan alla rekommenderar [](../vpn.md) av integritetsgruppen och som är kända för sin inställning till affiliateprogram, bort från PrivacyTools. I deras ställe? NordVPN, Surfshark, ExpressVPN och hide.me: Stora VPN-företag med opålitliga plattformar och affärsmetoder som är ökända för sin aggressiva marknadsföring och sina affiliateprogram.
 
-==**PrivacyTools has become exactly the type of site we [warned against](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews/) on the PrivacyTools blog in 2019.**== We've tried to keep our distance from PrivacyTools since the transition, but their continued harassment towards our project and now their absurd abuse of the credibility their brand gained over 6 years of open source contributions is extremely troubling to us. Those of us actually fighting for privacy are not fighting against each other, and are not getting our advice from the highest bidder.
+==**PrivacyTools har blivit exakt den typ av webbplats som vi [varnade för](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews/) på bloggen PrivacyTools 2019.**== Vi har försökt att hålla oss på avstånd från PrivacyTools sedan övergången, men deras fortsatta trakasserier mot vårt projekt och nu deras absurda missbruk av den trovärdighet som deras varumärke har fått under 6 år av bidrag till öppen källkod är extremt oroande för oss. De av oss som faktiskt kämpar för integritet kämpar inte mot varandra och får inte råd från den högstbjudande.
 
-## r/privacytoolsIO Now
+## privacyTools. io nu
 
-After the launch of [r/PrivacyGuides](https://www.reddit.com/r/privacyguides), it was impractical for u/trai_dep to continue moderating both subreddits, and with the community on-board with the transition, r/privacytoolsIO was [made](https://www.reddit.com/r/privacytoolsIO/comments/qk7qrj/a_new_era_why_rptio_is_now_a_restricted_sub/) a restricted sub in a post on November 1st, 2021:
+Efter lanseringen av [r/PrivacyGuides](https://www.reddit.com/r/privacyguides)blev det opraktiskt för u/trai_dep att fortsätta moderera båda underredaktionerna, och eftersom gemenskapen var med på övergången gjordes r/privacytoolsIO [till](https://www.reddit.com/r/privacytoolsIO/comments/qk7qrj/a_new_era_why_rptio_is_now_a_restricted_sub/) en begränsad underredaktion i ett inlägg den 1 november 2021:
 
 > [...] The growth of this Sub was the result of great effort, across several years, by the PrivacyGuides.org team. And by every one of you.
 > 
@@ -116,5 +116,3 @@ This topic has been discussed extensively within our communities in various loca
 - [Apr 2, 2022 response by u/dng99 to PrivacyTools' accusatory blog post](https://www.reddit.com/comments/tuo7mm/comment/i35kw5a/)
 - [May 16, 2022 response by @TommyTran732 on Twitter](https://twitter.com/TommyTran732/status/1526153497984618496)
 - [Sep 3, 2022 post on Techlore's forum by @dngray](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
-
---8<-- "includes/abbreviations.sv.txt"

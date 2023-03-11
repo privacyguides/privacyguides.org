@@ -1,13 +1,13 @@
-*[2FA]: 2-Factor Authentication
-*[ADB]: Android Debug Bridge
-*[AOSP]: Android Open Source Project
-*[ATA]: Advanced Technology Attachment
-*[attack surface]: The total number of possible entry points for unauthorized access to a system
-*[AVB]: Android Verified Boot
-*[cgroups]: Control Groups
-*[CLI]: Command Line Interface
-*[CSV]: Comma-Separated Values
-*[CVE]: Common Vulnerabilities and Exposures
+*[2FA]: Çift Faktörlü Doğrulama
+*[ADB]: Android Hata Ayıklama Köprüsü
+*[AOSP]: Android Açık Kaynak Projesi
+*[ATA]: İleri Teknoloji Eklentisi
+*[attack surface]: Bir sisteme yetkisiz erişim için olası giriş noktalarının toplam sayısı
+*[AVB]: Android Onaylanmış Önyükleme
+*[cgroups]: Kontrol Grupları
+*[CLI]: Komut satırı arayüzü
+*[CSV]: CSV Dosyası
+*[CVE]: Yaygın Güvenlik Açıkları ve Maruziyetler
 *[Digital Legacy]: Digital Legacy refers to features that allow you to give other people access to your data when you die
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System
@@ -15,11 +15,11 @@
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[E2EE]: End-to-End Encryption/Encrypted
+*[E2EE]: Uçtan Uca Şifreleme/Şifreli
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area
 *[entropy]: A measurement of how unpredictable something is
-*[EOL]: End-of-Life
+*[EOL]: Kullanım Ömrü Sonu
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Full Disk Encryption

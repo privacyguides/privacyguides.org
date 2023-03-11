@@ -1,6 +1,7 @@
 ---
 title: "Kesalahpahaman Umum"
 icon: 'material/robot-confused'
+description: Privasi bukanlah topik yang mudah, dan mudah sekali terjebak dalam klaim pemasaran dan disinformasi lainnya.
 ---
 
 ## "Perangkat lunak sumber terbuka selalu aman" atau "Perangkat lunak sumber tertutup lebih aman"
@@ -55,7 +56,5 @@ Salah satu model ancaman yang paling jelas adalah model di mana orang *tahu siap
 3. **Identitas anonim** - Bahkan dengan pengalaman, identitas anonim sulit untuk dipertahankan dalam jangka waktu yang lama. Identitas tersebut haruslah identitas jangka pendek dan berumur pendek yang dirotasi secara teratur.
 
     Menggunakan Tor dapat membantu dalam hal ini. Perlu juga dicatat bahwa anonimitas yang lebih baik dimungkinkan melalui komunikasi asinkron: Komunikasi waktu nyata rentan terhadap analisis pola pengetikan (misalnya lebih dari satu paragraf teks, didistribusikan di forum, melalui surel, dll.)
-
---8<-- "includes/abbreviations.id.txt"
 
 [^1]: Salah satu contoh penting dari hal ini adalah [insiden pada 2021 di mana para peneliti Universitas Minnesota memperkenalkan tiga kerentanan ke dalam proyek pengembangan kernel Linux](https://cse.umn.edu/cs/linux-incident).

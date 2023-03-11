@@ -1,6 +1,7 @@
 ---
 title: "Magazyny chmurowe"
 icon: fontawesome/brands/linux
+description: Dystrybucje systemu Linux są powszechnie polecane, jeśli chodzi o ochronę prywatności oraz wolne oprogramowanie.
 ---
 
 Dystrybucje systemu Linux są powszechnie polecane, jeśli chodzi o ochronę prywatności oraz wolne oprogramowanie. Jeśli nie korzystasz jeszcze z systemu Linux, poniżej znajdziesz kilka dystrybucji, które polecamy wypróbować oraz kilka ogólnych porad dotyczących lepszej prywatności i bezpieczeństwa, które mają zastosowanie dla wielu dystrybucji systemu Linux.
@@ -180,5 +181,3 @@ Our recommended operating systems:
 - Must support full-disk encryption during installation.
 - Must not freeze regular releases for more than 1 year. We [do not recommend](os/linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
 - Must support a wide variety of hardware.
-
---8<-- "includes/abbreviations.pl.txt"

@@ -1,5 +1,5 @@
 ---
-title: "Privacy Policy"
+title: "隐私政策"
 ---
 
 隐私指南是一个社区项目，由一些活跃的志愿者贡献者运营。 团队成员的公开列表 [可在GitHub](https://github.com/orgs/privacyguides/people)上找到。
@@ -59,5 +59,3 @@ For complaints under GDPR more generally, you may lodge complaints with your loc
 我们将 [在此发布](privacy-policy.md)本声明的新版本。 我们可能会更改此文档未来版本中更改公告的方式。 在此期间，我们可以随时更新我们的联系信息，而不会宣布更改。 请随时参阅 [隐私政策](privacy-policy.md) ，了解最新的联系信息。
 
 本页的完整修订版 [历史](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) ，可在GitHub上找到。
-
---8<-- "includes/abbreviations.zh.txt"

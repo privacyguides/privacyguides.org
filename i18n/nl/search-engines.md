@@ -1,6 +1,7 @@
 ---
 title: "Zoekmachines"
 icon: material/search-web
+description: Deze privacy respecterende zoekmachines bouwen geen advertentieprofiel op basis van jouw zoekopdrachten.
 ---
 
 Gebruik een zoekmachine die geen advertentieprofiel opbouwt op basis van jouw zoekopdrachten.
@@ -105,5 +106,3 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
 
 - Moet gebaseerd zijn op open-source software.
 - Mag geen Tor exit node IP adressen blokkeren.
-
---8<-- "includes/abbreviations.nl.txt"

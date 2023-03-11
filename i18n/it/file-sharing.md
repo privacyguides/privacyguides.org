@@ -1,6 +1,7 @@
 ---
 title: "Condivisione e sincronizzazione dei file"
 icon: material/share-variant
+description: Scopri come condividere privatamente i tuoi file tra i tuoi dispositivi, con i tuoi amici e familirai, o in modo anonimo online.
 ---
 
 Scopri come condividere privatamente i tuoi file tra i tuoi dispositivi, con i tuoi amici e familirai, o in modo anonimo online.
@@ -161,5 +162,3 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
 
 - Has mobile clients for iOS and Android, which at least support document previews.
 - Supports photo backup from iOS and Android, and optionally supports file/folder sync on Android.
-
---8<-- "includes/abbreviations.it.txt"

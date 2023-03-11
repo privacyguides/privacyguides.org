@@ -41,5 +41,3 @@ You must not conduct any systematic or automated data collection activities on o
 * Scraping
 * Mineração de dados
 * 'Framing' (IFrames)
-
---8<-- "includes/abbreviations.pt-BR.txt"

@@ -41,5 +41,3 @@ Bạn không được tiến hành bất kỳ hoạt động thu thập dữ li�
 * Quét dữ liệu
 * Khai thác dữ liệu
 * 'Khung' (IFrames)
-
---8<-- "includes/abbreviations.vi.txt"

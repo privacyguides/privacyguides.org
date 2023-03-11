@@ -1,6 +1,7 @@
 ---
 title: VPN-overzicht
 icon: material/vpn
+description: Virtual Private Networks verleggen het risico van jouw ISP naar een derde partij die je vertrouwt. Je moet deze dingen in gedachten houden.
 ---
 
 Virtual Private Networks zijn een manier om het einde van jouw netwerk uit te breiden tot een uitgang ergens anders in de wereld. Een ISP kan de stroom van internetverkeer zien dat jouw netwerkaansluitapparaat (d.w.z. modem) binnenkomt en verlaat.
@@ -74,5 +75,3 @@ Voor dit soort situaties, of als je een andere dwingende reden hebt, zijn de VPN
 - [Gratis VPN-app onderzoek](https://www.top10vpn.com/free-vpn-app-investigation/)
 - [Verborgen VPN-eigenaars onthuld: 101 VPN-producten van slechts 23 bedrijven](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
 - [Dit Chinese bedrijf zit in het geheim achter 24 populaire apps die gevaarlijke toestemmingen zoeken](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
-
---8<-- "includes/abbreviations.nl.txt"

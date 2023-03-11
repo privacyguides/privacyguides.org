@@ -3,6 +3,7 @@ title: "Outils de protection de la vie privée"
 icon: material/tools
 hide:
   - toc
+description: Privacy Guides est le site web le plus transparent et le plus fiable pour trouver des logiciels, des applications et des services qui protègent vos données personnelles des programmes de surveillance de masse et d'autres menaces internet.
 ---
 
 Si vous cherchez une solution spécifique à un problème, voici les outils matériels et logiciels que nous recommandons dans diverses catégories. Les outils de protection de la vie privée que nous recommandons sont principalement choisis en fonction de leurs fonctionnalités de sécurité, tout en mettant l'accent sur les outils décentralisés et à code source ouvert. Ils sont applicables à divers modèles de menaces, allant de la protection contre les programmes mondiaux de surveillance de masse à l'atténuation des attaques en passant par l'évitement des grandes entreprises technologiques, mais vous seul pouvez déterminer ce qui répondra le mieux à vos besoins.
@@ -36,7 +37,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 [En savoir plus :material-arrow-right-drop-circle:](desktop-browsers.md)
 
-### Ressources Supplémentaires
+### Ressources supplémentaires
 
 <div class="grid cards" markdown>
 
@@ -57,7 +58,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 [En savoir plus :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-### Ressources Supplémentaires
+### Ressources supplémentaires
 
 <div class="grid cards annotate" markdown>
 
@@ -84,10 +85,10 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 <div class="grid cards" markdown>
 
-- ![Logo Aurora Store](/assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
-- ![Logo Shelter](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
-- ![Logo Auditeur](assets/img/android/auditor.svg#only-light){ .twemoji }![Logo GrapheneOS](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditeur (Appareils pris en charge)](android.md#auditor)
-- ![Logo caméra sécurisée](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Logo caméra sécurisée](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Caméra sécurisée](android.md#secure-camera)
+- ![Logo Aurora Store](/assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (client Google Play)](android.md#aurora-store)
+- ![Logo Shelter](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Profils de travail)](android.md#shelter)
+- ![Logo Auditor](assets/img/android/auditor.svg#only-light){ .twemoji }![Logo GrapheneOS](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Appareils pris en charge)](android.md#auditor)
+- ![Logo Secure Camera](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Logo Secure Camera](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
 - ![Logo Secure PDF Viewer](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![Logo Secure PDF Viewer](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
 
 </div>
@@ -170,14 +171,14 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 - ![Logo Proton Mail](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
 - ![Logo Mailbox.org](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
-- ![StartMail logo](assets/img/email/startmail.svg#only-light){ .twemoji } ![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
-- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![logo StartMail](assets/img/email/startmail.svg#only-light){ .twemoji } ![logo StartMail](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
+- ![logo Tutanota](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
 
 </div>
 
 [En savoir plus :material-arrow-right-drop-circle:](email.md)
 
-#### Services d'alias d'e-mails
+#### Services d'alias d'email
 
 <div class="grid cards" markdown>
 
@@ -188,7 +189,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
 
-#### E-mail auto-hébergé
+#### Email auto-hébergé
 
 <div class="grid cards" markdown>
 
@@ -198,6 +199,29 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 </div>
 
 [En savoir plus :material-arrow-right-drop-circle:](email.md#self-hosting-email)
+
+### Services financiers
+
+#### Services de masquage des paiements
+
+<div class="grid cards" markdown>
+
+- ![Logo Privacy.com](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji }![Logo Privacy.com](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji } [Privacy.com](financial-services.md#privacycom-us-free)
+- ![Logo MySudo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![Logo MySudo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
+</div>
+
+[En savoir plus :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
+
+#### Marchés de cartes-cadeaux en ligne
+
+<div class="grid cards" markdown>
+
+- ![Logo Cake Pay](assets/img/financial-services/cakepay.svg){ .twemoji } [Cake Pay](financial-services.md#cake-pay)
+- ![Logo CoinCards](assets/img/financial-services/coincards.svg){ .twemoji } [CoinCards](financial-services.md#coincards)
+
+</div>
+
+[En savoir plus :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
 ### Moteurs de Recherche
 
@@ -226,9 +250,9 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 <div class="grid cards" markdown>
 
+- ![Logo IVPN](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
+- ![Logo Mullvad](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
 - ![Logo Proton VPN](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
 
 </div>
 
@@ -246,6 +270,16 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 </div>
 
 [En savoir plus :material-arrow-right-drop-circle:](calendar.md)
+
+### Crypto-monnaie
+
+<div class="grid cards" markdown>
+
+- ![Logo Monero](assets/img/cryptocurrency/monero.svg){ .twemoji }[Monero](cryptocurrency.md#monero)
+
+</div>
+
+[En savoir plus :material-arrow-right-drop-circle:](cryptocurrency.md)
 
 ### Rédaction de données et de métadonnées
 
@@ -438,5 +472,3 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 </div>
 
 [En savoir plus :material-arrow-right-drop-circle:](video-streaming.md)
-
---8<-- "includes/abbreviations.fr.txt"

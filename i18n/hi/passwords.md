@@ -1,6 +1,7 @@
 ---
 title: "Password Managers"
 icon: material/form-textbox-password
+description: Password managers allow you to securely store and manage passwords and other credentials.
 ---
 
 Password managers allow you to securely store and manage passwords and other credentials with the use of a master password.
@@ -226,5 +227,3 @@ These products are minimal password managers that can be used within scripting a
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
 - Must be cross-platform.
-
---8<-- "includes/abbreviations.hi.txt"

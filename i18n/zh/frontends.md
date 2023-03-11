@@ -1,6 +1,7 @@
 ---
 title: "文件共享"
 icon: material/flip-to-front
+description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
 ---
 
 有时，一些服务会用烦人的弹窗阻止你访问内容，以此来强迫你注册账户。 此时如果停用JavaScript网站也会崩溃。 这些前端应用可以帮助你绕过这些限制。
@@ -264,5 +265,3 @@ When you are using a Piped instance, make sure to read the privacy policy of tha
 We only consider frontends for websites which are...
 
 - 不启用Javascript就不能正常访问。
-
---8<-- "includes/abbreviations.zh.txt"

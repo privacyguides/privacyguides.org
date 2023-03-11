@@ -1,6 +1,7 @@
 ---
 title: "删除帐户"
 icon: '资料/账户-删除'
+description: It's easy to accumulate a large number of internet accounts, here are some tips on how to prune your collection.
 ---
 
 随着时间的推移，很容易积累一些在线账户，其中许多账户你可能不再使用。 删除这些未使用的账户是找回隐私的一个重要步骤，因为休眠账户很容易受到数据泄露的影响。 数据泄露是指一项服务的安全性受到损害，受保护的信息被未经授权的人查看、传输或窃取。 不幸的是，而今数据泄露 [太过于常见](https://haveibeenpwned.com/PwnedWebsites) ，因此保持良好的数字卫生是将它们对你生活的影响降到最低的最好方法。 本指南的目标就是引导您经由令人讨厌的帐户删除过程来优化你的线上生活，这些过程通常采用了 [欺骗性设计](https://www.deceptive.design/)使得其变得更加困难。
@@ -59,5 +60,3 @@ icon: '资料/账户-删除'
 ## 避免新账户
 
 老话说，"上医治未病"。 每当你觉得被诱惑去注册一个新账户时，问问自己，"我真的需要这个吗？ 没有账户，我可以完成我需要的东西吗？" 删除一个账户往往比创建一个账户要难得多。 而且，即使在删除或改变你的账户信息后，可能还有一个来自第三方的缓存版本，如 [Internet Archive](https://archive.org/)。 当你能够避免诱惑时--你未来的自己会感谢你的。
-
---8<-- "includes/abbreviations.zh.txt"

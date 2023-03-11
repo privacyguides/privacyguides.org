@@ -1,6 +1,7 @@
 ---
 title: "Ferramentas de encriptação"
 icon: material/tag-remove
+description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
 ---
 
 Ao partilhar ficheiros, certifique-se de que remove os metadados associados. Os arquivos de imagem geralmente incluem [EXIF](https://en.wikipedia.org/wiki/Exif) dados. As fotos às vezes até incluem [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System) coordenadas nos metadados do arquivo.
@@ -160,5 +161,3 @@ The app offers multiple ways to erase metadata from images. 17.1 e 18.1 caracter
 
 - Apps developed for open-source operating systems must be open-source.
 - Apps must be free and should not include ads or other limitations.
-
---8<-- "includes/abbreviations.pt.txt"

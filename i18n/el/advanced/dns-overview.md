@@ -1,6 +1,7 @@
 ---
 title: "DNS Overview"
 icon: material/dns
+description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
 ---
 
 The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phonebook of the Internet'. DNS translates domain names to IP addresses so browsers and other services can load Internet resources, through a decentralized network of servers.
@@ -303,5 +304,3 @@ The [EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) is a 
 It's intended to "speed up" delivery of data by giving the client an answer that belongs to a server that is close to them such as a [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network), which are often used in video streaming and serving JavaScript web apps.
 
 This feature does come at a privacy cost, as it tells the DNS server some information about the client's location.
-
---8<-- "includes/abbreviations.el.txt"

@@ -1,6 +1,7 @@
 ---
 title: "Gestori di password"
 icon: material/form-textbox-password
+description: Password managers allow you to securely store and manage passwords and other credentials.
 ---
 
 I gestori di password consentono di archiviare e gestire in modo sicuro le password e altre credenziali con l'uso di una password principale.
@@ -245,5 +246,3 @@ These products are minimal password managers that can be used within scripting a
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
 
 - Must be cross-platform.
-
---8<-- "includes/abbreviations.it.txt"

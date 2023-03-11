@@ -1,6 +1,7 @@
 ---
 title: "אחסון בענן"
 icon: material/file-cloud
+description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
 ---
 
 ספקי אחסון ענן רבים דורשים את האמון המלא שלך בכך שהם לא יסתכלו על הקבצים שלך. החלופות המפורטות להלן מבטלות את הצורך באמון על ידי מתן שליטה על הנתונים שלך או על ידי יישום E2EE.
@@ -29,7 +30,6 @@ icon: material/file-cloud
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
 
-הלקוחות הניידים של Proton Drive שוחררו בדצמבר 2022 ועדיין אינם קוד פתוח. Proton עיכבה באופן היסטורי את שחרורי קוד המקור שלהם עד לאחר שחרור המוצר הראשוני, [ומתכננת](https://www.reddit.com/r/ProtonDrive/comments/zf14i8/comment/izdwmme/?utm_source=share&utm_medium=web2x&context=3) לשחרר את קוד המקור עד סוף 2023. לקוחות שולחן העבודה של Proton Drive עדיין בפיתוח.
 
 ## קריטריונים
 
@@ -58,5 +58,3 @@ icon: material/file-cloud
     - לקוחות אלה צריכים להשתלב עם כלי מערכת הפעלה מקוריים עבור ספקי אחסון בענן, כגון שילוב אפליקציות קבצים ב- iOS, או פונקציונליות DocumentsProvider באנדרואיד.
 - צריך לתמוך בשיתוף קבצים קל עם משתמשים אחרים.
 - אמור להציע לפחות תצוגה מקדימה בסיסית של קובץ ופונקציונליות עריכה בממשק האינטרנט.
-
---8<-- "includes/abbreviations.he.txt"

@@ -1,6 +1,7 @@
 ---
 title: "Introduction aux DNS"
 icon: material/dns
+description: Le Système de Nom de Domaine est le "répertoire téléphonique de l'internet", qui aide votre navigateur à trouver le site web qu'il recherche.
 ---
 
 Le [système de nom de domaine](https://fr.wikipedia.org/wiki/Domain_Name_System) est "l'annuaire de l'internet". Le DNS traduit les noms de domaine en adresses IP afin que les navigateurs et autres services puissent charger les ressources de l'internet, grâce à un réseau décentralisé de serveurs.
@@ -303,5 +304,3 @@ Le [EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) est un
 Il est destiné à "accélérer" la transmission des données en donnant au client une réponse qui appartient à un serveur proche de lui, comme un [réseau de diffusion de contenu](https://fr.wikipedia.org/wiki/Réseau_de_diffusion_de_contenu), souvent utilisé pour la diffusion de vidéos en continu et pour servir des applications Web JavaScript.
 
 Cette fonction a un coût en termes de confidentialité, car elle fournit au serveur DNS des informations sur la localisation du client.
-
---8<-- "includes/abbreviations.fr.txt"

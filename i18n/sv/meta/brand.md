@@ -1,24 +1,22 @@
 ---
-title: Branding Guidelines
+title: Riktlinjer för varumärket
 ---
 
-The name of the website is **Privacy Guides** and should **not** be changed to:
+Webbplatsen heter **Privacy Guides** och bör **inte** ändras till:
 
 <div class="pg-red" markdown>
 - PrivacyGuides
-- Privacy guides
+- Sekretessguider
 - PG
 - PG.org
 </div>
 
-The name of the subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
+Namnet på underreddit är **r/PrivacyGuides** eller **the Privacy Guides Subreddit**.
 
-Additional branding guidelines can be found at [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
+Ytterligare riktlinjer för varumärket finns på [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 
-## Trademark
+## Varumärke
 
-"Privacy Guides" and the shield logo are trademarks owned by Jonah Aragon, unlimited usage is granted to the Privacy Guides project.
+"Privacy Guides" och sköldlogotypen är varumärken som ägs av Jonah Aragon, obegränsad användning är tillåten för Privacy Guides-projektet.
 
-Without waiving any of its rights, Privacy Guides does not advise others on the scope of its intellectual property rights. Privacy Guides does not permit or consent to any use of its trademarks in any manner that is likely to cause confusion by implying association with or sponsorship by Privacy Guides. If you are aware of any such use, please contact Jonah Aragon at jonah@privacyguides.org. Consult your legal counsel if you have questions.
-
---8<-- "includes/abbreviations.sv.txt"
+Utan att avstå från någon av sina rättigheter ger Privacy Guides inte råd till andra om omfattningen av sina immateriella rättigheter. Privacy Guides varken tillåter eller samtycker till att dess varumärken används på ett sätt som kan orsaka förvirring genom att antyda att de är associerade med eller sponsras av Privacy Guides. Om du känner till någon sådan användning, vänligen kontakta Jonah Aragon på jonah@privacyguides.org. Kontakta din juridiska rådgivare om du har frågor.

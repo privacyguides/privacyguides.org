@@ -1,6 +1,7 @@
 ---
 title: "Inleiding tot wachtwoorden"
 icon: 'material/form-textbox-password'
+description: Dit zijn enkele tips en trucs om de sterkste wachtwoorden te maken en jouw accounts veilig te houden.
 ---
 
 Wachtwoorden zijn een essentieel onderdeel van ons dagelijkse digitale leven. We gebruiken ze om onze accounts, onze apparaten en onze geheimen te beschermen. Hoewel ze vaak het enige zijn tussen ons en een tegenstander die uit is op onze privégegevens, wordt er niet veel aandacht aan besteed, wat er vaak toe leidt dat mensen wachtwoorden gebruiken die gemakkelijk geraden of gebruteforcet kunnen worden.
@@ -108,5 +109,3 @@ Er zijn veel goede opties om uit te kiezen, zowel cloud-gebaseerd als lokaal. Ki
 ### Back-ups
 
 Je moet een [gecodeerde](../encryption.md) back-up van jouw wachtwoorden opslaan op meerdere opslagapparaten of een cloud-opslagprovider. Dit kan nuttig zijn als er iets gebeurt met jouw toestel of de dienst die je gebruikt.
-
---8<-- "includes/abbreviations.nl.txt"

@@ -15,81 +15,81 @@
 *[DoQ]: DNS melalui QUIC
 *[DoH3]: DNS melalui HTTP/3
 *[DoT]: DNS melalui TLS
-*[E2EE]: End-to-End Encryption/Encrypted
-*[ECS]: EDNS Client Subnet
-*[EEA]: European Economic Area
-*[entropy]: A measurement of how unpredictable something is
-*[EOL]: End-of-Life
-*[Exif]: Exchangeable image file format
+*[E2EE]: Enkripsi Ujung ke Ujung/Terenkripsi
+*[ECS]: Subnet Klien EDNS
+*[EEA]: Wilayah Ekonomi Eropa
+*[entropi]: Sebuah pengukuran tentang bagaimana sesuatu yang tidak dapat diprediksi
+*[EOL]: Akhir Masa Pakai
+*[Exif]: Format berkas gambar yang dapat ditukar
 *[FCM]: Firebase Cloud Messaging
-*[FDE]: Full Disk Encryption
-*[FIDO]: Fast IDentity Online
-*[fork]: A new software project created by copying an existing project and adding to it independently
-*[GDPR]: General Data Protection Regulation
-*[GPG]: GNU Privacy Guard (PGP implementation)
-*[GPS]: Global Positioning System
-*[GUI]: Graphical User Interface
-*[GnuPG]: GNU Privacy Guard (PGP implementation)
-*[HDD]: Hard Disk Drive
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
-*[HTTPS]: Hypertext Transfer Protocol Secure
-*[HTTP]: Hypertext Transfer Protocol
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
-*[ICCID]: Integrated Circuit Card Identifier
-*[IMAP]: Internet Message Access Protocol
-*[IMEI]: International Mobile Equipment Identity
-*[IMSI]: International Mobile Subscriber Identity
-*[IP]: Internet Protocol
-*[IPv4]: Internet Protocol version 4
-*[IPv6]: Internet Protocol version 6
-*[ISP]: Internet Service Provider
-*[ISPs]: Internet Service Providers
-*[JNI]: Java Native Interface
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
-*[MAC]: Media Access Control
+*[FDE]: Enkripsi Diska Penuh
+*[FIDO]: Fast IDentity Online (Identitas Daring Cepat)
+*[fork]: Proyek perangkat lunak baru yang dibuat dengan menyalin proyek yang sudah ada dan menambahkannya secara mandiri
+*[GDPR]: Peraturan Perlindungan Data Umum
+*[GPG]: GNU Privacy Guard (implementasi PGP)
+*[GPS]: Sistem Pemosisian Global
+*[GUI]: Antarmuka Pengguna Grafis
+*[GnuPG]: GNU Privacy Guard (implementasi PGP)
+*[HDD]: Penyimpanan Hard Disk
+*[HOTP]: Kata sandi sekali pakai berbasis HMAC (kode autentikasi pesan berbasis hash)
+*[HTTPS]: Protokol Transfer Hiperteks Aman
+*[HTTP]: Protokol Transfer Hiperteks
+*[hypervisor]: Perangkat lunak, perangkat tegar, atau perangkat keras komputer yang membagi sumber daya CPU di antara beberapa sistem operasi
+*[ICCID]: Pengidentifikasi Kartu Sirkuit Terpadu
+*[IMAP]: Protokol Akses Pesan Internet
+*[IMEI]: Identitas Peralatan Seluler Internasional
+*[IMSI]: Identitas Pelanggan Seluler Internasional
+*[IP]: Protokol Internet
+*[IPv4]: Protokol Internet versi 4
+*[IPv6]: Protokol Internet versi 6
+*[ISP]: Penyedia Layanan Internet
+*[ISPs]: Penyedia Layanan Internet
+*[JNI]: Antarmuka Asli Java
+*[LUKS]: Pengaturan Kunci Terpadu Linux (Enkripsi Diska Penuh)
+*[MAC]: Kontrol Akses Media
 *[MDAG]: Microsoft Defender Application Guard
-*[MEID]: Mobile Equipment Identifier
-*[MFA]: Multi-Factor Authentication
-*[NVMe]: Nonvolatile Memory Express
-*[NTP]: Network Time Protocol
-*[OCI]: Open Container Initiative
-*[OCSP]: Online Certificate Status Protocol
-*[OEM]: Original Equipment Manufacturer
-*[OEMs]: Original Equipment Manufacturers
-*[OS]: Operating System
-*[OTP]: One-Time Password
-*[OTPs]: One-Time Passwords
-*[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
+*[MEID]: Pengidentifikasi Peralatan Seluler
+*[MFA]: Autentikasi Multifaktor
+*[NVMe]: Memori Ekspres yang Tidak Mudah Menguap
+*[NTP]: Protokol Waktu Jaringan
+*[OCI]: Inisiatif Kontainer Terbuka
+*[OCSP]: Protokol Status Sertifikat Daring
+*[OEM]: Produsen Peralatan Asli
+*[OEMs]: Produsen Peralatan Asli
+*[OS]: Sistem Operasi
+*[OTP]: Kata Sandi Sekali Pakai
+*[OTPs]: Kata Sandi Sekali Pakai
+*[OpenPGP]: Implementasi sumber terbuka dari Pretty Good Privacy (PGP)
 *[P2P]: Peer-to-Peer
-*[PAM]: Linux Pluggable Authentication Modules
-*[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
-*[PII]: Personally Identifiable Information
-*[QNAME]: Qualified Name
-*[rolling release]: Updates which are released frequently rather than set intervals
+*[PAM]: Modul Otentikasi Linux yang Dapat Dicolokkan
+*[POP3]: Protokol Kantor Pos 3
+*[PGP]: Pretty Good Privacy (lihat OpenPGP)
+*[PII]: Informasi Identifikasi Pribadi
+*[QNAME]: Nama yang Memenuhi Syarat
+*[rilis bergulir]: Pembaruan yang sering dirilis daripada interval yang ditetapkan
 *[RSS]: Really Simple Syndication
-*[SELinux]: Security-Enhanced Linux
-*[SIM]: Subscriber Identity Module
-*[SMS]: Short Message Service (standard text messaging)
-*[SMTP]: Simple Mail Transfer Protocol
-*[SNI]: Server Name Indication
+*[SELinux]: Linux yang Ditingkatkan Keamanannya
+*[SIM]: Modul Identitas Pelanggan
+*[SMS]: Layanan Pesan Singkat (pesan teks standar)
+*[SMTP]: Protokol Transfer Surat Sederhana
+*[SNI]: Indikasi Nama Server
 *[SSD]: Solid-State Drive
 *[SSH]: Secure Shell
-*[SUID]: Set Owner User ID
-*[SaaS]: Software as a Service (cloud software)
-*[SoC]: System on Chip
-*[SSO]: Single sign-on
-*[TCP]: Transmission Control Protocol
-*[TEE]: Trusted Execution Environment
-*[TLS]: Transport Layer Security
-*[ToS]: Terms of Service
-*[TOTP]: Time-based One-Time Password
-*[TPM]: Trusted Platform Module
-*[U2F]: Universal 2nd Factor
-*[UEFI]: Unified Extensible Firmware Interface
-*[UDP]: User Datagram Protocol
-*[VPN]: Virtual Private Network
-*[VoIP]: Voice over IP (Internet Protocol)
-*[W3C]: World Wide Web Consortium
-*[XMPP]: Extensible Messaging and Presence Protocol
-*[PWA]: Progressive Web App
+*[SUID]: Penetapan ID Pengguna Pemilik
+*[SaaS]: Perangkat lunak sebagai layanan (perangkat lunak awan)
+*[SoC]: Sistem pada Chip
+*[SSO]: Sistem masuk tunggal
+*[TCP]: Protokol Kontrol Transmisi
+*[TEE]: Lingkungan Eksekusi Terpercaya
+*[TLS]: Keamanan Lapisan Transportasi
+*[ToS]: Ketentuan Layanan
+*[TOTP]: Kata Sandi Sekali Pakai Berbasis Waktu
+*[TPM]: Modul Platform Tepercaya
+*[U2F]: Faktor ke-2 Universal
+*[UEFI]: Antarmuka Firmware yang Dapat Diperluas Terpadu
+*[UDP]: Protokol Datagram Pengguna
+*[VPN]: Jaringan Pribadi Virtual
+*[VoIP]: Suara melalui IP (Protokol Internet)
+*[W3C]: Konsorsium Waring Wera Wanua
+*[XMPP]: Protokol Perpesanan dan Kehadiran yang Dapat Diperluas
+*[PWA]: Aplikasi Web Progresif

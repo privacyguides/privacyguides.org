@@ -1,6 +1,7 @@
 ---
 title: "Qubes Overview"
 icon: pg/qubes-os
+description: Qubes is an operating system built around isolating apps within virtual machines for heightened security.
 ---
 
 [**Qubes OS**](../desktop.md#qubes-os) is an operating system which uses the [Xen](https://en.wikipedia.org/wiki/Xen) hypervisor to provide strong security for desktop computing through isolated virtual machines. Each VM is called a *Qube* and you can assign each Qube a level of trust based on its purpose. As Qubes OS provides security by using isolation, and only permitting actions on a per case basis, it is the opposite of [badness enumeration](https://www.ranum.com/security/computer_security/editorials/dumb/).
@@ -52,5 +53,3 @@ For additional information we encourage you to consult the extensive Qubes OS do
 - J. Rutkowska: [*Software compartmentalization vs. physical separation*](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf)
 - J. Rutkowska: [*Partitioning my digital life into security domains*](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html)
 - Qubes OS: [*Related Articles*](https://www.qubes-os.org/news/categories/#articles)
-
---8<-- "includes/abbreviations.vi.txt"

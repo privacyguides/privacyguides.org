@@ -1,6 +1,7 @@
 ---
 title: "Firmware para Roteadores"
 icon: material/router-wireless
+description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
 ---
 
 Abaixo estão alguns sistemas operacionais alternativos, que podem ser usados em roteadores, pontos de acesso Wi-Fi, etc.
@@ -47,5 +48,3 @@ OPNsense foi originalmente desenvolvido como um fork do [pfSense](https://en.wik
 - Deve ser de código aberto.
 - Deve receber atualizações regulares.
 - Must support a wide variety of hardware.
-
---8<-- "includes/abbreviations.pt-BR.txt"

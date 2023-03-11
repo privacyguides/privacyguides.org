@@ -1,6 +1,7 @@
 ---
 title: "Comunicación en tiempo real"
 icon: material/chat-processing
+description: Other instant messengers make all of your private conversations available to the company that runs them.
 ---
 
 Estas son nuestras recomendaciones para la comunicación cifrada en tiempo real.
@@ -70,7 +71,6 @@ We have some additional tips on configuring and hardening your Signal installati
 SimpleX Chat [was audited](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) by Trail of Bits in October 2022.
 
 Currently SimpleX Chat only provides a client for Android and iOS. La especificación del protocolo Matrix puede encontrarse en su [documentación](https://spec.matrix.org/latest/). </a>El trinquete criptográfico [Olm](https://matrix.org/docs/projects/other/olm) utilizado por Matrix es una implementación del
-
 algoritmo de doble trinquete<a /> de Signal.</p> 
 
 Your data can be exported, and imported onto another device, as there are no central servers where this is backed up.
@@ -208,5 +208,3 @@ Our best-case criteria represents what we would like to see from the perfect pro
 - Should be decentralized, i.e. federated or P2P.
 - Should use E2EE for all messages by default.
 - Should support Linux, macOS, Windows, Android, and iOS.
-
---8<-- "includes/abbreviations.es.txt"

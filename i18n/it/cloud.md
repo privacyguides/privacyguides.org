@@ -1,6 +1,7 @@
 ---
 title: "Archiviazione in cloud"
 icon: material/file-cloud
+description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
 ---
 
 Molti fornitori di spazio di archiviazione cloud richiedono la tua totale fiducia sul fatto che non guarderanno nei tuoi file. Le alternative elencate di seguito eliminano la necessità di fiducia mettendo l'utente in controllo dei propri dati o implementando E2EE.
@@ -29,7 +30,6 @@ Se queste alternative non soddisfano le tue esigenze, ti suggeriamo di esaminare
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
 
-Proton Drive's mobile clients were released in December 2022 and are not yet open-source. recommendation Proton Drive desktop clients are still in development.
 
 ## CryptPad
 
@@ -67,5 +67,3 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
     - These clients should integrate with native OS tools for cloud storage providers, such as Files app integration on iOS, or DocumentsProvider functionality on Android.
 - Should support easy file-sharing with other users.
 - Should offer at least basic file preview and editing functionality on the web interface.
-
---8<-- "includes/abbreviations.it.txt"

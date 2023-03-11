@@ -1,15 +1,16 @@
 ---
-title: "Account Deletion"
+title: "Penghapusan Akun"
 icon: 'material/account-remove'
+description: It's easy to accumulate a large number of internet accounts, here are some tips on how to prune your collection.
 ---
 
-Over time, it can be easy to accumulate a number of online accounts, many of which you may no longer use. Deleting these unused accounts is an important step in reclaiming your privacy, as dormant accounts are vulnerable to data breaches. A data breach is when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. Data breaches are unfortunately all [too common](https://haveibeenpwned.com/PwnedWebsites) these days, and so practicing good digital hygiene is the best way to minimize the impact they have on your life. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://www.deceptive.design/), for the betterment of your online presence.
+Seiring waktu, mudah sekali untuk menumpuk sejumlah akun online, yang banyak di antaranya mungkin sudah tidak Anda gunakan lagi. Menghapus akun-akun yang tidak terpakai ini merupakan langkah penting untuk mendapatkan kembali privasi Anda, karena akun-akun yang tidak aktif rentan terhadap pelanggaran data. Pelanggaran data adalah ketika keamanan layanan terganggu dan informasi yang dilindungi dilihat, dikirim, atau dicuri oleh pihak yang tidak berwenang. Data breaches are unfortunately all [too common](https://haveibeenpwned.com/PwnedWebsites) these days, and so practicing good digital hygiene is the best way to minimize the impact they have on your life. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://www.deceptive.design/), for the betterment of your online presence.
 
-## Finding Old Accounts
+## Menemukan Akun Lama
 
-### Password Manager
+### Pengelola Kata Sandi
 
-If you have a password manager that you've used for your entire digital life, this part will be very easy. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned/).
+Jika Anda memiliki pengelola kata sandi yang telah Anda gunakan untuk seluruh kehidupan digital Anda, bagian ini akan sangat mudah. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned/).
 
 <figure markdown>
   ![Bitwarden's Data Breach Report feature](../assets/img/account-deletion/exposed_passwords.png)
@@ -17,16 +18,16 @@ If you have a password manager that you've used for your entire digital life, th
 
 Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser or your phone without even realizing it. For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/en-us/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
 
-Desktop platforms also often have a password manager which may help you recover passwords you've forgotten about:
+Platform desktop juga sering kali memiliki pengelola kata sandi yang dapat membantu Anda memulihkan kata sandi yang Anda lupakan:
 
-- Windows [Credential Manager](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS [Passwords](https://support.apple.com/en-us/HT211145)
-- iOS [Passwords](https://support.apple.com/en-us/HT211146)
-- Linux, Gnome Keyring, which can be accessed through [Seahorse](https://help.gnome.org/users/seahorse/stable/passwords-view.html.en) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
+- Windows [Manajer Kredensial](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS [Kata Sandi](https://support.apple.com/en-us/HT211145)
+- iOS [Kata Sandi](https://support.apple.com/en-us/HT211146)
+- Linux, Gnome Keyring, yang dapat diakses melalui [Seahorse](https://help.gnome.org/users/seahorse/stable/passwords-view.html.en) atau [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### Email
 
-If you didn't use a password manager in the past or you think you have accounts that were never added to your password manager, another option is to search the email account(s) that you believe you signed up on. On your email client, search for keywords such as "verify" or "welcome." Almost every time you make an online account, the service will send a verification link or an introductory message to your email. This can be a good way to find old, forgotten accounts.
+Jika Anda tidak menggunakan pengelola kata sandi di masa lalu atau Anda merasa memiliki akun yang tidak pernah ditambahkan ke pengelola kata sandi Anda, opsi lainnya adalah mencari akun email yang Anda yakini telah Anda daftarkan. On your email client, search for keywords such as "verify" or "welcome." Almost every time you make an online account, the service will send a verification link or an introductory message to your email. This can be a good way to find old, forgotten accounts.
 
 ## Deleting Old Accounts
 
@@ -59,5 +60,3 @@ Even when you are able to delete an account, there is no guarantee that all your
 ## Avoid New Accounts
 
 As the old saying goes, "an ounce of prevention is worth a pound of cure." Whenever you feel tempted to sign up for a new account, ask yourself, "Do I really need this? Can I accomplish what I need to without an account?" It can often be much harder to delete an account than to create one. And even after deleting or changing the info on your account, there might be a cached version from a third-party—like the [Internet Archive](https://archive.org/). Avoid the temptation when you're able to—your future self will thank you!
-
---8<-- "includes/abbreviations.id.txt"

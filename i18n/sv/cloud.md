@@ -1,62 +1,60 @@
 ---
-title: "Cloud Storage"
+title: "Molnlagring"
 icon: material/file-cloud
+description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
 ---
 
-Many cloud storage providers require your full trust that they will not look at your files. The alternatives listed below eliminate the need for trust by either putting you in control of your data or by implementing E2EE.
+Många molnlagringsleverantörer kräver ditt fulla förtroende för att de inte kommer att titta på dina filer. Alternativen nedan eliminerar behovet av förtroende genom att antingen ge dig kontroll över dina data eller genom att implementera E2EE.
 
-If these alternatives do not fit your needs, we suggest you look into [Encryption Software](encryption.md).
+Om dessa alternativ inte passar dina behov föreslår vi att du tittar på [Encryption Software](encryption.md).
 
-??? question "Looking for Nextcloud?"
+??? fråga "Letar du efter Nextcloud?"
 
-    Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do not recommend Nextcloud's built-in E2EE functionality for home users.
+    Nextcloud är [fortfarande ett rekommenderat verktyg](productivity.md) för att själv hosta en filhanteringssvit, men vi rekommenderar inte tredjepartsleverantörer av Nextcloud-lagring för tillfället, eftersom vi inte rekommenderar Nextclouds inbyggda E2EE-funktionalitet för hemanvändare.
 
 ## Proton Drive
 
 !!! recommendation
 
-    ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
+    ![Proton Drive-logotyp](assets/img/cloud/protondrive.svg){ align=right }
     
-    **Proton Drive** is an E2EE general file storage service by the popular encrypted email provider [Proton Mail](https://proton.me/mail).
+    **Proton Drive** är en E2EE-tjänst för allmän fillagring från den populära leverantören av krypterad e-post [Proton Mail] (https://proton.me/mail).
     
-    [:octicons-home-16: Homepage](https://proton.me/drive){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+    [:octicons-home-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
     
-    ??? downloads
+    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://proton.me/support/drive/){ .card-link title=Dokumentation}
+    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Källkod" }
+    [](/){ .card-link title=Contribute??? nedladdningar
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
 
-Proton Drive's mobile clients were released in December 2022 and are not yet open-source. Proton has historically delayed their source code releases until after initial product releases, and [plans to](https://www.reddit.com/r/ProtonDrive/comments/zf14i8/comment/izdwmme/?utm_source=share&utm_medium=web2x&context=3) release the source code by the end of 2023. Proton Drive desktop clients are still in development.
 
-## Criteria
+## Kriterier
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.
 
-!!! example "This section is new"
+!!! exempel "Det här avsnittet är nytt"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
 
-### Minimum Requirements
+### Minimikrav
 
-- Must enforce end-to-end encryption.
-- Must offer a free plan or trial period for testing.
-- Must support TOTP or FIDO2 multi-factor authentication, or Passkey logins.
-- Must offer a web interface which supports basic file management functionality.
-- Must allow for easy exports of all files/documents.
-- Must use standard, audited encryption.
+- Måste genomdriva end-to-end-kryptering.
+- Måste erbjuda en gratis plan eller provperiod för testning.
+- Måste stödja TOTP- eller FIDO2-multifaktorautentisering eller inloggning med lösenord.
+- Måste erbjuda ett webbgränssnitt som stöder grundläggande filhanteringsfunktioner.
+- Måste möjliggöra enkel export av alla filer/dokument.
+- Måste använda standard, granskad kryptering.
 
-### Best-Case
+### Bästa fall
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Våra kriterier för bästa fall representerar vad vi skulle vilja se av det perfekta projektet i denna kategori. Våra rekommendationer kanske inte innehåller alla eller några av dessa funktioner, men de som gör det kan vara högre rankade än andra på den här sidan.
 
-- Clients should be open-source.
-- Clients should be audited in their entirety by an independent third-party.
-- Should offer native clients for Linux, Android, Windows, macOS, and iOS.
-    - These clients should integrate with native OS tools for cloud storage providers, such as Files app integration on iOS, or DocumentsProvider functionality on Android.
-- Should support easy file-sharing with other users.
-- Should offer at least basic file preview and editing functionality on the web interface.
-
---8<-- "includes/abbreviations.sv.txt"
+- Klienterna bör ha öppen källkod.
+- Klienterna bör granskas i sin helhet av en oberoende tredje part.
+- De bör erbjuda inhemska klienter för Linux, Android, Windows, macOS och iOS.
+    - Dessa klienter bör integreras med operativsystemets verktyg för leverantörer av molnlagring, t. ex. integrering av Files-appen i iOS eller DocumentsProvider-funktionen i Android.
+- Det bör vara enkelt att dela filer med andra användare.
+- Bör erbjuda åtminstone grundläggande funktioner för förhandsgranskning och redigering av filer i webbgränssnittet.

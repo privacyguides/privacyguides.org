@@ -1,6 +1,7 @@
 ---
 title: "Android"
 icon: 'simple/android'
+description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
 ---
 
 ![Android logo](assets/img/android/android.svg){ align=right }
@@ -13,8 +14,9 @@ The **Android Open Source Project** is an open-source mobile operating system le
 
 These are the Android operating systems, devices, and apps we recommend to maximize your mobile device's security and privacy. To learn more about Android:
 
-- [General Android Overview :material-arrow-right-drop-circle:](os/android-overview.md)
-- [Why we recommend GrapheneOS over CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/)
+[General Android Overview :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
+
+[Why we recommend GrapheneOS over CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
 
 ## AOSP Derivatives
 
@@ -349,5 +351,3 @@ That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](htt
 - Applications on this page must not be applicable to any other software category on the site.
 - General applications should extend or replace core system functionality.
 - Applications should receive regular updates and maintenance.
-
---8<-- "includes/abbreviations.hi.txt"

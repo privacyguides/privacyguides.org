@@ -1,6 +1,7 @@
 ---
 title: "Transmisiones en Vivo"
 icon: material/video-wireless
+description: These networks allow you to stream internet content without building an advertising profile based on your interests.
 ---
 
 La principal amenaza al utilizar una plataforma de streaming es que sus hábitos de streaming y sus suscripciones podrían utilizarse para elaborar un perfil. Debería combinar estas herramientas con un [VPN](/vpn) o [Tor](https://www.torproject.org/) para hacer más difícil perfilar su perfil.
@@ -52,5 +53,3 @@ Puede desactivar la opción *Guardar datos de alojamiento para ayudar a la red L
 
 - Must not require a centralized account to view videos.
     - Decentralized authentication, such as via a mobile wallet's private key is acceptable.
-
---8<-- "includes/abbreviations.es.txt"

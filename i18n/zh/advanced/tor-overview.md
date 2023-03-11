@@ -1,6 +1,7 @@
 ---
 title: "Tor概述"
 icon: 'simple/torproject'
+description: Tor是一个免费使用的去中心化网络，专为尽量隐私地使用互联网而设计。
 ---
 
 Tor是一个免费使用的去中心化网络，专为尽量隐私地使用互联网而设计。 如果使用得当，该网络可以实现隐私且匿名地浏览和通信。
@@ -73,8 +74,6 @@ Tor用出口、中间和入口节点的密钥对每个数据包（一个传输�
 - [Tor浏览器用户手册](https://tb-manual.torproject.org)
 - [How Tor Works - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
 - [Tor Onion Services - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
-
---8<-- "includes/abbreviations.zh.txt"
 
 [^1]: 您线路上的第一个中继称为“入口警卫“或“警卫”。 它是一个快速而稳定的中继，会在2-3个月内持续作为你的线路的第一个中继，以防止已知的破坏匿名性的攻击。 你的线路其余部分会随着你访问的每个新网站而改变，所有这些中继器一起提供Tor的全部隐私保护。 关于警卫中继器如何工作的更多信息，请参阅这篇 [博文](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) 和 [关于入口警卫的论文](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf)。 ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
 

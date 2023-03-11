@@ -1,6 +1,7 @@
 ---
 title: "Поисковые системы"
 icon: material/search-web
+description: These privacy-respecting search engines don't build an advertising profile based on your searches.
 ---
 
 Используйте поисковую систему, которая не строит рекламный профиль на основе ваших запросов.
@@ -101,5 +102,3 @@ Startpage's majority shareholder is System1 who is an adtech company. We don't b
 
 - Should be based on open-source software.
 - Should not block Tor exit node IP addresses.
-
---8<-- "includes/abbreviations.ru.txt"

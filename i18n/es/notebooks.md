@@ -1,6 +1,7 @@
 ---
 title: "Bloc de Notas"
 icon: material/notebook-edit-outline
+description: These encrypted note-taking apps let you keep track of your notes without giving them to a third-party.
 ---
 
 Mantén el control de tus notas y diarios sin darlos a un tercero.
@@ -82,7 +83,7 @@ Joplin does not support password/PIN protection for the [application itself or i
     - [:octicons-browser-16: Navegador](https://app.standardnotes.org/)
     - [:fontawesome-brands-github: GitHub](https://github.com/standardnotes)
 
-Cryptee offers 100MB of storage for free, with paid options if you need more. Sign-up doesn't require an e-mail or other personally identifiable information.
+Cryptee ofrece 100MB de almacenamiento gratuito, con opciones de pago si necesitas más. La inscripción no requiere correo electrónico ni otros datos personales.
 
 ## Dignos de mención
 
@@ -99,9 +100,9 @@ Cryptee offers 100MB of storage for free, with paid options if you need more. Si
     [:octicons-code-16:](https://git.savannah.gnu.org/cgit/emacs/org-mode.git){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title=Contribute }
 
-## Criteria
+## Criterios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Por favor, tome en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** En adición a [nuestros criterios estándares](about/criteria.md), hemos desarrollado un claro conjunto de requisitos para permitirnos brindar recomendaciones objetivas. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 !!! example "This section is new"
 
@@ -115,5 +116,3 @@ Cryptee offers 100MB of storage for free, with paid options if you need more. Si
 
 - Local backup/sync functionality should support encryption.
 - Cloud-based platforms should support document sharing.
-
---8<-- "includes/abbreviations.es.txt"

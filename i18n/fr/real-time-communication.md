@@ -1,6 +1,7 @@
 ---
 title: "Communication en temps réel"
 icon: material/chat-processing
+description: Les autres messageries instantanées mettent toutes vos conversations privées à la disposition de la société qui les gère.
 ---
 
 Voici nos recommandations pour de la communication en temps réel chiffrée.
@@ -191,5 +192,3 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
 - Devrait être décentralisé, c'est-à-dire fédéré ou P2P.
 - Devrait utiliser E2EE pour tous les messages par défaut.
 - Devrait prendre en charge Linux, macOS, Windows, Android et iOS.
-
---8<-- "includes/abbreviations.fr.txt"

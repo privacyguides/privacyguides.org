@@ -1,78 +1,77 @@
 ---
-title: VPN Overview
+title: VPN-översikt
 icon: material/vpn
+description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
 ---
 
-Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world. An ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem).
+Virtuella privata nätverk är ett sätt att förlänga slutet av ditt nätverk till en utgång någon annanstans i världen. En internetleverantör kan se flödet av internettrafik som kommer in i och ut ur din nätverksavslutningsenhet (dvs. modem).
 
-Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
-A VPN can help as it can shift trust to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing into it.
+En VPN kan hjälpa dig eftersom den kan flytta förtroendet till en server någon annanstans i världen. ISP: n ser då bara att du är ansluten till en VPN och ingenting om den aktivitet som du skickar in i den.
 
-## Should I use a VPN?
+## Ska jag använda en VPN?
 
-**Yes**, unless you are already using Tor. A VPN does two things: shifting the risks from your Internet Service Provider to itself and hiding your IP from a third-party service.
+**Ja**, om du inte redan använder Tor. En VPN gör två saker: den flyttar riskerna från din Internetleverantör till sig själv och döljer din IP för en tredjepartstjänst.
 
-VPNs cannot encrypt data outside of the connection between your device and the VPN server. VPN providers can see and modify your traffic the same way your ISP could. And there is no way to verify a VPN provider's "no logging" policies in any way.
+VPN-tjänster kan inte kryptera data utanför anslutningen mellan din enhet och VPN-servern. VPN-leverantörer kan se och ändra din trafik på samma sätt som din internetleverantör. Och det finns inget sätt att verifiera en VPN-leverantörs policy om "ingen loggning" på något sätt.
 
-However, they do hide your actual IP from a third-party service, provided that there are no IP leaks. They help you blend in with others and mitigate IP based tracking.
+De döljer dock din faktiska IP-adress för en tredjepartstjänst, förutsatt att det inte finns några IP-läckor. De hjälper dig att smälta in bland andra och minskar IP-baserad spårning.
 
-## When shouldn't I use a VPN?
+## När ska jag inte använda en VPN?
 
-Using a VPN in cases where you're using your [known identity](common-threats.md#common-misconceptions) is unlikely be useful.
+Att använda en VPN i fall där du använder din [kända identitet](common-threats.md#common-misconceptions) är sannolikt inte användbart.
 
-Doing so may trigger spam and fraud detection systems, such as if you were to log into your bank's website.
+Om du gör det kan det utlösa system för att upptäcka skräppost och bedrägerier, till exempel om du skulle logga in på din banks webbplats.
 
-## What about encryption?
+## Hur är det med kryptering?
 
-Encryption offered by VPN providers are between your devices and their servers. It guarantees that this specific link is secure. This is a step up from using unencrypted proxies where an adversary on the network can intercept the communications between your devices and said proxies and modify them. However, encryption between your apps or browsers with the service providers are not handled by this encryption.
+Den kryptering som erbjuds av VPN-leverantörer sker mellan dina enheter och deras servrar. Det garanterar att den specifika länken är säker. Detta är ett steg upp från att använda okrypterade proxies där en motståndare i nätverket kan avlyssna kommunikationen mellan dina enheter och proxies och ändra den. Kryptering mellan dina appar eller webbläsare och tjänsteleverantörerna hanteras dock inte av denna kryptering.
 
-In order to keep what you actually do on the websites you visit private and secure, you must use HTTPS. This will keep your passwords, session tokens, and queries safe from the VPN provider. Consider enabling "HTTPS everywhere" in your browser to mitigate downgrade attacks like [SSL Strip](https://www.blackhat.com/presentations/bh-dc-09/Marlinspike/BlackHat-DC-09-Marlinspike-Defeating-SSL.pdf).
+För att det du gör på de webbplatser du besöker ska vara privat och säkert måste du använda HTTPS. Detta kommer att hålla dina lösenord, sessionstoken och frågor säkra från VPN-leverantören. Överväg att aktivera "HTTPS everywhere" i webbläsaren för att förhindra nedgraderingsattacker som [SSL Strip](https://www.blackhat.com/presentations/bh-dc-09/Marlinspike/BlackHat-DC-09-Marlinspike-Defeating-SSL.pdf).
 
-## Should I use encrypted DNS with a VPN?
+## Ska jag använda krypterad DNS med en VPN?
 
-Unless your VPN provider hosts the encrypted DNS servers, **no**. Using DOH/DOT (or any other form of encrypted DNS) with third-party servers will simply add more entities to trust and does **absolutely nothing** to improve your privacy/security. Your VPN provider can still see which websites you visit based on the IP addresses and other methods. Instead of just trusting your VPN provider, you are now trusting both the VPN provider and the DNS provider.
+Om inte din VPN-leverantör är värd för de krypterade DNS-servrarna finns **ingen**. Att använda DOH/DOT (eller någon annan form av krypterad DNS) med servrar från tredje part innebär helt enkelt att fler enheter måste lita på och gör **absolut ingenting** för att förbättra din integritet/säkerhet. Din VPN-leverantör kan fortfarande se vilka webbplatser du besöker baserat på IP-adresser och andra metoder. I stället för att bara lita på din VPN-leverantör litar du nu på både VPN-leverantören och DNSleverantören.
 
-A common reason to recommend encrypted DNS is that it helps against DNS spoofing. However, your browser should already be checking for [TLS certificates](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) with **HTTPS** and warn you about it. If you are not using **HTTPS**, then an adversary can still just modify anything other than your DNS queries and the end result will be little different.
+Ett vanligt skäl att rekommendera krypterad DNS är att det hjälper mot DNS-spoofing. Din webbläsare bör dock redan kontrollera om [TLS-certifikat](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) med **HTTPS** och varna dig för det. Om du inte använder **HTTPS**kan en motståndare fortfarande ändra allt annat än dina DNS-frågor och slutresultatet blir inte mycket annorlunda.
 
-Needless to say, **you shouldn't use encrypted DNS with Tor**. This would direct all of your DNS requests through a single circuit and would allow the encrypted DNS provider to deanonymize you.
+Självfallet bör du **inte använda krypterad DNS med Tor**. Detta skulle leda alla dina DNS-förfrågningar genom en enda krets och göra det möjligt för den krypterade DNS-leverantören att avanonymisera dig.
 
-## Should I use Tor *and* a VPN?
+## Ska jag använda Tor *och* en VPN?
 
-By using a VPN with Tor, you're creating essentially a permanent entry node, often with a money trail attached. This provides zero additional benefits to you, while increasing the attack surface of your connection dramatically. If you wish to hide your Tor usage from your ISP or your government, Tor has a built-in solution for that: Tor bridges. [Read more about Tor bridges and why using a VPN is not necessary](../advanced/tor-overview.md).
+Genom att använda en VPN med Tor skapar du i princip en permanent ingångsnod, ofta med en pengastig kopplad till den. Detta ger inga ytterligare fördelar för dig, samtidigt som angreppsytan för din anslutning ökar dramatiskt. Om du vill dölja din användning av Tor för din internetleverantör eller din regering har Tor en inbyggd lösning för detta: Tor bridges. [Läs mer om Tor bridges och varför det inte är nödvändigt att använda en VPN](../advanced/tor-overview.md).
 
-## What if I need anonymity?
+## Vad händer om jag behöver anonymitet?
 
-VPNs cannot provide anonymity. Your VPN provider will still see your real IP address, and often has a money trail that can be linked directly back to you. You cannot rely on "no logging" policies to protect your data. Use [Tor](https://www.torproject.org/) instead.
+VPN-tjänster kan inte ge anonymitet. Din VPN-leverantör ser fortfarande din riktiga IP-adress och har ofta ett pengaspår som kan kopplas direkt till dig. Du kan inte förlita dig på att policyer för "ingen loggning" skyddar dina uppgifter. Använd istället [Tor](https://www.torproject.org/).
 
-## What about VPN providers that provide Tor nodes?
+## Hur är det med VPN-leverantörer som tillhandahåller Tor-noder?
 
-Do not use that feature. The point of using Tor is that you do not trust your VPN provider. Currently Tor only supports the [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) protocol. [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (used in [WebRTC](https://en.wikipedia.org/wiki/WebRTC) for voice and video sharing, the new [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) protocol, etc), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) and other packets will be dropped. To compensate for this, VPN providers typically will route all non-TCP packets through their VPN server (your first hop). This is the case with [ProtonVPN](https://protonvpn.com/support/tor-vpn/). Additionally, when using this Tor over VPN setup, you do not have control over other important Tor features such as [Isolated Destination Address](https://www.whonix.org/wiki/Stream_Isolation) (using a different Tor circuit for every domain you visit).
+Använd inte den här funktionen. Poängen med att använda Tor är att du inte litar på din VPN-leverantör. För närvarande stöder Tor endast [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) -protokollet. [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (används i [WebRTC](https://en.wikipedia.org/wiki/WebRTC) för röst- och videodelning, det nya [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) -protokollet etc.), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) och andra paket kommer att tappas. För att kompensera för detta dirigerar VPN-leverantörer vanligtvis alla paket som inte är TCP-paket genom sin VPN-server (ditt första hopp). Detta är fallet med [ProtonVPN](https://protonvpn.com/support/tor-vpn/). När du använder denna Tor-över-VPN-inställning har du inte heller kontroll över andra viktiga Tor-funktioner, t.ex. [Isolated Destination Address](https://www.whonix.org/wiki/Stream_Isolation) (använder en annan Tor-krets för varje domän du besöker).
 
-The feature should be viewed as a convenient way to access the Tor Network, not to stay anonymous. For proper anonymity, use the Tor Browser, TorSocks, or a Tor gateway.
+Funktionen bör ses som ett bekvämt sätt att komma åt Tor-nätverket, inte att vara anonym. För riktig anonymitet ska du använda Tor Browser, TorSocks eller en Tor-gateway.
 
-## When are VPNs useful?
+## När är VPN-tjänster användbara?
 
-A VPN may still be useful to you in a variety of scenarios, such as:
+En VPN kan fortfarande vara användbar för dig i en rad olika situationer, till exempel:
 
-1. Hiding your traffic from **only** your Internet Service Provider.
-1. Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.
-1. Hiding your IP from third-party websites and services, preventing IP based tracking.
+1. Om du döljer din trafik från **kan du bara** din Internetleverantör.
+1. Dölja dina nedladdningar (t. ex. torrents) för din internetleverantör och organisationer som bekämpar piratkopiering.
+1. Dölja din IP-adress från webbplatser och tjänster från tredje part och förhindra IP-baserad spårning.
 
-For situations like these, or if you have another compelling reason, the VPN providers we listed above are who we think are the most trustworthy. However, using a VPN provider still means you're *trusting* the provider. In pretty much any other scenario you should be using a secure**-by-design** tool such as Tor.
+I sådana situationer, eller om du har en annan övertygande anledning, är de VPN-leverantörer som vi listat ovan de som vi anser vara mest pålitliga. Att använda en VPN-leverantör innebär dock fortfarande att du *litar på* leverantören. I nästan alla andra situationer bör du använda ett säkert**-by-design** verktyg som Tor.
 
-## Sources and Further Reading
+## Källor och vidare läsning
 
-1. [VPN - a Very Precarious Narrative](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
-1. [Tor Network Overview](../advanced/tor-overview.md)
-1. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
-1. ["Do I need a VPN?"](https://www.doineedavpn.com), a tool developed by IVPN to challenge aggressive VPN marketing by helping individuals decide if a VPN is right for them.
+1. [VPN - en mycket osäker berättelse](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) av Dennis Schubert
+1. [Översikt över Tor-nätverket](../advanced/tor-overview.md)
+1. [IVPN sekretessguider](https://www.ivpn.net/privacy-guides)
+1. ["Behöver jag en VPN?"](https://www.doineedavpn.com), ett verktyg som utvecklats av IVPN för att utmana aggressiv VPN-marknadsföring genom att hjälpa enskilda personer att avgöra om en VPN är rätt för dem.
 
-## Related VPN Information
+## Relevant information
 
-- [The Trouble with VPN and Privacy Review Sites](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
-- [Free VPN App Investigation](https://www.top10vpn.com/free-vpn-app-investigation/)
-- [Hidden VPN owners unveiled: 101 VPN products run by just 23 companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
-- [This Chinese company is secretly behind 24 popular apps seeking dangerous permissions](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
-
---8<-- "includes/abbreviations.sv.txt"
+- [Problemet med VPN- och integritetsgranskningswebbplatser](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
+- [Undersökning av gratis VPN-app](https://www.top10vpn.com/free-vpn-app-investigation/)
+- [Dolda VPN-ägare avslöjas: 101 VPN-produkter som drivs av endast 23 företag](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
+- [Det här kinesiska företaget ligger i hemlighet bakom 24 populära appar som kräver farliga behörigheter](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)

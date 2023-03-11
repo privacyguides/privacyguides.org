@@ -36,5 +36,3 @@ Ejecutamos una serie de servicios web para probar las características y promove
 - Disponibilidad: Semipública  
   Alojamos Indivious principalmente para servir videos de YouTube incrustados en nuestra página. Esta instancia no está destinada al público general y puede ser limitada en cualquier momento.
 - Código fuente: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)
-
---8<-- "includes/abbreviations.es.txt"

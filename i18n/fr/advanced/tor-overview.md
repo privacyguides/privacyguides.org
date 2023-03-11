@@ -1,6 +1,7 @@
 ---
 title: "Introduction à Tor"
 icon: 'simple/torproject'
+description: Tor est un réseau décentralisé, gratuit, conçu pour utiliser Internet avec le plus de confidentialité possible.
 ---
 
 Tor est un réseau décentralisé, gratuit, conçu pour utiliser Internet avec le plus de confidentialité possible. S'il est utilisé correctement, le réseau permet une navigation et des communications privées et anonymes.
@@ -68,13 +69,11 @@ Si vous souhaitez utiliser Tor pour naviguer sur le web, nous ne recommandons qu
 
 - [Navigateur Tor :material-arrow-right-drop-circle:](../tor.md#tor-browser)
 
-## Ressources Supplémentaires
+## Ressources supplémentaires
 
 - [Manuel d'utilisation du navigateur Tor](https://tb-manual.torproject.org)
 - [Comment Tor fonctionne - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
 - [Services onion Tor - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
-
---8<-- "includes/abbreviations.fr.txt"
 
 [^1]: Le premier relais de votre circuit est appelé "garde d'entrée" ou "garde". Il s'agit d'un relais rapide et stable qui reste le premier de votre circuit pendant 2 à 3 mois afin de vous protéger contre une attaque connue de rupture d'anonymat. Le reste de votre circuit change avec chaque nouveau site web que vous visitez, et tous ensemble ces relais fournissent les protections complètes de Tor en matière de vie privée. Pour en savoir plus sur le fonctionnement des relais de garde, consultez cet [article de blog](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) et ce [document](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) sur les gardes d'entrée. ([https://support.torproject.org/fr/tbb/tbb-2/](https://support.torproject.org/fr/tbb/tbb-2/))
 

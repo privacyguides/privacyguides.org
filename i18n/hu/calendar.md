@@ -1,6 +1,7 @@
 ---
 title: "Naptár Szinkronizálás"
 icon: material/calendar
+description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
 ---
 
 A naptárak a legérzékenyebb adataidat tartalmazzák; használj at rest End-to-End titkosítást megvalósító termékeket, hogy megakadályozd, hogy a szolgáltató elolvassa ezeket.
@@ -12,12 +13,12 @@ A naptárak a legérzékenyebb adataidat tartalmazzák; használj at rest End-to
     ![Tutanota logo](assets/img/calendar/tutanota.svg#only-light){ align=right }
     ![Tutanota logo](assets/img/calendar/tutanota-dark.svg#only-dark){ align=right }
     
-    **A **Tutanota** ingyenes és titkosított naptárat kínál a támogatott platformjain keresztül. A funkciók közé tartoznak: az összes adat automatikus End-to-End titkosítása, megosztási funkciók, import/export funkciók, multifaktoros hitelesítés és még [sok más](https://tutanota.com/calendar-app-comparison/).
+    **A **Tutanota** ingyenes és titkosított naptárat kínál a támogatott platformjain keresztül. A funkciók közé tartoznak: az összes adat automatikus End-to-End titkosítása, megosztási funkciók, import/export funkciók, többlépcsős hitelesítés és még [sok más](https://tutanota.com/calendar-app-comparison/).
     
     A több naptár és kiterjesztett megosztási funkciók csak a fizetett előfizetőknek elérhető.
     
     [:octicons-home-16: Honlap](https://tutanota.com/calendar){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Adatvédelmi Nyilatkozat" }
+    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Adatvédelmi Tájékoztató" }
     [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=Documentáció}
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Forráskód" }
     [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Közreműködés }
@@ -41,7 +42,7 @@ A naptárak a legérzékenyebb adataidat tartalmazzák; használj at rest End-to
     A **Proton Calendar** egy titkosított naptárszolgáltatás, amely a Proton-tagok számára webes vagy mobilklienseken keresztül érhető el. A funkciók közé tartoznak: az összes adat automatikus End-to-End titkosítása, megosztási funkciók, import/export funkciók és még [sok más](https://proton.me/support/proton-calendar-guide). Az ingyenes előfizetéssel rendelkezők egyetlen naptárhoz kapnak hozzáférést, míg a fizetett előfizetők akár 20 naptárat is létrehozhatnak. Kiterjesztett megosztási funkciók szintén csak a fizetett előfizetőknek elérhető.
     
     [:octicons-home-16: Honlap](https://proton.me/calendar){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Adatvédelmi Nyilatkozat" }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Adatvédelmi Tájékoztató" }
     [:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Dokumentáció}
     [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Forráskód" }
     
@@ -52,7 +53,7 @@ A naptárak a legérzékenyebb adataidat tartalmazzák; használj at rest End-to
 
 ## Követelmények
 
-**Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** A [szabványos kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
+**Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
 
 !!! example "Ez a szakasz új"
 
@@ -67,5 +68,3 @@ A naptárak a legérzékenyebb adataidat tartalmazzák; használj at rest End-to
 A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy tökéletes projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 
 - Adott esetben integrálódnia kell az operációs rendszer natív naptár- és névjegykezelő alkalmazásaival.
-
---8<-- "includes/abbreviations.hu.txt"

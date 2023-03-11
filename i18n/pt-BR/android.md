@@ -1,6 +1,7 @@
 ---
 title: "Android"
 icon: 'simple/android'
+description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
 ---
 
 ![Android logo](assets/img/android/android.svg){ align=right }
@@ -13,20 +14,21 @@ O **Android Open Source Project** é um sistema operacional de código aberto li
 
 Estes são os sistemas operacionais, dispositivos e aplicações Android que recomendamos para maximizar a segurança e privacidade do seu dispositivo móvel. Para saber mais sobre o Android:
 
-- [Visão geral do Android :material-arrow-right-drop-circle:](os/android-overview.md)
-- [Por que recomendamos o GrapheneOS em vez do CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/)
+[Visão Geral do Android :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
+
+[Por que recomendamos o GrapheneOS em vez do CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
 
 ## Derivados do AOSP
 
 Recomendamos instalar um desses sistemas operacionais Android personalizados em seu dispositivo, listados em ordem de preferência, dependendo da compatibilidade do seu dispositivo com esses sistemas operacionais.
 
-!!! note
+!!! nota
 
     Os dispositivos em fim de vida útil (como os dispositivos GrapheneOS ou "suporte estendido" da CalyxOS) não possuem patches de segurança completos (atualizações de firmware) devido à interrupção do suporte do OEM. Estes dispositivos não podem ser considerados completamente seguros, independentemente do software instalado.
 
 ### GrapheneOS
 
-!!! recommendation
+!!! recomendação
 
     ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ align=right }
     ![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
@@ -41,13 +43,13 @@ Recomendamos instalar um desses sistemas operacionais Android personalizados em 
     [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
-GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) fully sandboxed like any other regular app. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging/), while giving you full control over their permissions and access, and while containing them to a specific [work profile](os/android-overview.md#work-profile) or [user profile](os/android-overview.md#user-profiles) of your choice.
+GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) fully sandboxed like any other regular app. Isso significa que você pode tirar proveito da maioria dos Google Play Services, como [notificações push](https://firebase.google.com/docs/cloud-messaging/), enquanto lhe dá controle total sobre suas permissões e acesso, e ao mesmo tempo contê-los para um perfil de trabalho [específico](os/android-overview.md#work-profile) ou [perfil de usuário](os/android-overview.md#user-profiles) de sua escolha.
 
-Google Pixel phones are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#device-support).
+Os telefones Google Pixel são os únicos dispositivos que atualmente atendem aos [requisitos de segurança de hardware do GrapheneOS](https://grapheneos.org/faq#device-support).
 
 ### DivestOS
 
-!!! recommendation
+!!! recomendação
 
     ![DivestOS logo](assets/img/android/divestos.svg){ align=right }
     
@@ -63,11 +65,11 @@ Google Pixel phones are the only devices that currently meet GrapheneOS's [hardw
 
 DivestOS has automated kernel vulnerability ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), fewer proprietary blobs, and a custom [hosts](https://divested.dev/index.php?page=dnsbl) file. Its hardened WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), enables [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) for all architectures and [network state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning), and receives out-of-band updates. DivestOS also includes kernel patches from GrapheneOS and enables all available kernel security features via [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). All kernels newer than version 3.4 include full page [sanitization](https://lwn.net/Articles/334747/) and all ~22 Clang-compiled kernels have [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) enabled.
 
-DivestOS implements some system hardening patches originally developed for GrapheneOS. DivestOS 16.0 and higher implements GrapheneOS's [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) and SENSORS permission toggle, [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/#additional-hardening), [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) [constification](https://en.wikipedia.org/wiki/Const_(computer_programming)), and partial [bionic](https://en.wikipedia.org/wiki/Bionic_(software)) hardening patchsets. 17.1 and higher features GrapheneOS's per-network full [MAC randomization](https://en.wikipedia.org/wiki/MAC_address#Randomization) option, [`ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) control, and automatic reboot/Wi-Fi/Bluetooth [timeout options](https://grapheneos.org/features).
+O DivestOS implementa alguns patches de fortalecimento desenvolvidos originalmente para o GrapheneOS. DivestOS 16.0 and higher implements GrapheneOS's [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) and SENSORS permission toggle, [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/#additional-hardening), [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) [constification](https://en.wikipedia.org/wiki/Const_(computer_programming)), and partial [bionic](https://en.wikipedia.org/wiki/Bionic_(software)) hardening patchsets. 17.1 e superior apresenta a opção de [ randomização do MAC](https://en.wikipedia.org/wiki/MAC_address#Randomization) completa por rede do GrapheneOS, controle [`ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) e [opções de tempo limite](https://grapheneos.org/features) de reinicialização automática/Wi-Fi/Bluetooth.
 
 DivestOS uses F-Droid as its default app store. Normally, we would recommend avoiding F-Droid due to its numerous [security issues](#f-droid). However, doing so on DivestOS isn't viable; the developers update their apps via their own F-Droid repositories ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) and [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). We recommend disabling the official F-Droid app and using [Neo Store](https://github.com/NeoApplications/Neo-Store/) with the DivestOS repositories enabled to keep those components up to date. For other apps, our recommended methods of obtaining them still apply.
 
-!!! warning
+!!! aviso
 
     DivestOS firmware update [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) and quality control varies across the devices it supports. We still recommend GrapheneOS depending on your device's compatibility. For other devices, DivestOS is a good alternative.
     
@@ -75,7 +77,7 @@ DivestOS uses F-Droid as its default app store. Normally, we would recommend avo
 
 ## Android Devices
 
-When purchasing a device, we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible.
+Ao adquirir um dispositivo, recomendamos que o adquira o mais novo possível. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible.
 
 Avoid buying phones from mobile network operators. These often have a **locked bootloader** and do not support [OEM unlocking](https://source.android.com/devices/bootloader/locking_unlocking). These phone variants will prevent you from installing any kind of alternative Android distribution.
 
@@ -310,9 +312,9 @@ If you download APK files to install manually, you can verify their signature wi
 
 Due to their process of building apps, apps in the official F-Droid repository often fall behind on updates. F-Droid maintainers also reuse package IDs while signing apps with their own keys, which is not ideal as it gives the F-Droid team ultimate trust.
 
-Other popular third-party repositories such as [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) alleviate some of these concerns. The IzzyOnDroid repository pulls builds directly from GitHub and is the next best thing to the developers' own repositories. No entanto, não é algo que podemos recomendar, já que normalmente os aplicativos são [removidos](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) desse repositório quando vão para o repositório oficial do F-Droid. While that makes sense (since the goal of that particular repository is to host apps before they're accepted into the main F-Droid repository), it can leave you with installed apps which no longer receive updates.
+Other popular third-party repositories such as [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) alleviate some of these concerns. The IzzyOnDroid repository pulls builds directly from GitHub and is the next best thing to the developers' own repositories. However, it is not something that we can recommend, as apps are typically [removed](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) from that respository when they make it to the main F-Droid repository. While that makes sense (since the goal of that particular repository is to host apps before they're accepted into the main F-Droid repository), it can leave you with installed apps which no longer receive updates.
 
-Com isso em mente, os repositórios do [F-Droid](https://f-droid.org/en/packages/) e [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) hospedam milhares de projetos, então eles podem ser boas ferramentas para pesquisar e descobrir aplicativos open-source que você pode, então, obter pela Play Store, Aurora Store ou baixando o APK disponibilizado pelo desenvolvedor. It is important to keep in mind that some apps in these repositories have not been updated in years and may rely on unsupported libraries, among other things, posing a potential security risk. You should use your best judgement when looking for new apps via this method.
+That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) repositories are home to countless apps, so they can be a useful tool to search for and discover open-source apps that you can then download through Play Store, Aurora Store, or by getting the APK directly from the developer. It is important to keep in mind that some apps in these repositories have not been updated in years and may rely on unsupported libraries, among other things, posing a potential security risk. You should use your best judgement when looking for new apps via this method.
 
 !!! note
 
@@ -337,7 +339,7 @@ Com isso em mente, os repositórios do [F-Droid](https://f-droid.org/en/packages
 - Must **not** enable Google Play Services by default.
 - Must **not** require system modification to support Google Play Services.
 
-### Devices
+### Dispositivos
 
 - Must support at least one of our recommended custom operating systems.
 - Must be currently sold new in stores.
@@ -349,5 +351,3 @@ Com isso em mente, os repositórios do [F-Droid](https://f-droid.org/en/packages
 - Applications on this page must not be applicable to any other software category on the site.
 - General applications should extend or replace core system functionality.
 - Applications should receive regular updates and maintenance.
-
---8<-- "includes/abbreviations.pt-BR.txt"

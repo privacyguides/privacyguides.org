@@ -48,5 +48,3 @@ Nós hospedamos [serviços de internet](https://privacyguides.net) para teste e 
 Ocasionamente adquirimos produtos e serviços com o propósito de testar as nossas [ferramentas recomendadas](../tools.md).
 
 Ainda estamos a trabalhar com o nosso anfitrião fiscal (a Open Collective Foundation) para receber doações em criptomoeda. No momento a contabilidade não é viável para muitas transações menores, mas isso deve mudar no futuro. Enquanto isso, se você deseja fazer uma doação de criptomoeda considerável (> $100), entre em contato com [jonah@privacyguides.org](mailto:jonah@privacyguides.org).
-
---8<-- "includes/abbreviations.pt-BR.txt"

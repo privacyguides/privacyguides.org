@@ -1,6 +1,7 @@
 ---
 title: "Notitieboekjes"
 icon: material/notebook-edit-outline
+description: Met deze versleutelde notitie-apps kun je je notities bijhouden zonder ze aan derden te geven.
 ---
 
 Houd jouw notities en aantekeningen bij zonder ze aan derden te geven.
@@ -111,5 +112,3 @@ Cryptee biedt gratis 100MB opslag, met betaalde opties als je meer nodig hebt. A
 
 - De lokale backup/sync-functie moet encryptie ondersteunen.
 - Cloud-platforms moeten het delen van documenten ondersteunen.
-
---8<-- "includes/abbreviations.nl.txt"

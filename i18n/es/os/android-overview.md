@@ -1,6 +1,7 @@
 ---
 title: Visión general de Android
 icon: fontawesome/brands/android
+description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
 ---
 
 Android es un sistema operativo seguro el cuál tiene [aislamiento de las aplicaciones](https://source.android.com/security/app-sandbox), [arranque verificado](https://source.android.com/security/verifiedboot) (AVB), y un robusto sistema de control de [permisos](https://developer.android.com/guide/topics/permissions/overview).
@@ -53,9 +54,44 @@ Es importante no usar una versión de Android al [final de su vida útil](https:
 
 ## Permisos de Android
 
-Los [permisos en Android](https://developer.android.com/guide/topics/permissions/overview) te dan control sobre que pueden acceder las aplicaciones. Google regularmente hace [mejoras](https://developer.android.com/about/versions/11/privacy/permissions) en el sistema de permisos en cada versión sucesiva. Todas las aplicaciones que instales están estrictamente [aisladas](https://source.android.com/security/app-sandbox), por lo que no es necesario instalar ninguna aplicación de antivirus. Un smartphone con la última versión de Android siempre será más seguro que un smartphone antiguo con un antivirus que hayas pagado. Es mejor no pagar por un antivirus y ahorrar para comprar un nuevo smartphone como un Google Pixel.
+Los [permisos en Android](https://developer.android.com/guide/topics/permissions/overview) te dan control sobre que pueden acceder las aplicaciones. Google regularmente hace [mejoras](https://developer.android.com/about/versions/11/privacy/permissions) en el sistema de permisos en cada versión sucesiva. Todas las aplicaciones que instales están estrictamente [aisladas](https://source.android.com/security/app-sandbox), por lo que no es necesario instalar ninguna aplicación de antivirus.
 
-Si quieres ejecutar una aplicación sobre la que no estás seguro, considera usar un perfil de usuario o de trabajo.
+Un smartphone con la última versión de Android siempre será más seguro que un smartphone antiguo con un antivirus que hayas pagado. Es mejor no pagar por un antivirus y ahorrar para comprar un nuevo smartphone como un Google Pixel.
+
+Android 10:
+
+- [Almacenamiento Específico](https://developer.android.com/about/versions/10/privacy/changes#scoped-storage) te da más control sobre tus archivos y puede limitar lo que puede acceder al [almacenamiento externo](https://developer.android.com/training/data-storage#permissions). Las aplicaciones pueden tener un directorio específico en el almacenamiento externo, así como la capacidad de almacenar tipos específicos de archivos allí.
+- Acceso más estricto a la [ubicación del dispositivo](https://developer.android.com/about/versions/10/privacy/changes?hl=es-419#app-access-device-location) introduciendo el permiso `ACCESS_BACKGROUND_LOCATION`. Esto impide que las aplicaciones accedan a la ubicación cuando se ejecutan en segundo plano sin permiso expreso del usuario.
+
+Android 11:
+
+- [Permisos únicos](https://developer.android.com/about/versions/11/privacy/permissions?hl=es-419#one-time) que te permite conceder un permiso a una aplicación una sola vez.
+- [Restablecimiento automático de permisos](https://developer.android.com/about/versions/11/privacy/permissions?hl=es-419#auto-reset), que restablece [los permisos de tiempo de ejecución](https://developer.android.com/guide/topics/permissions/overview?hl=es-419#runtime) que se concedieron al abrir la aplicación.
+- Permisos detallados para acceder a funciones relacionadas con el [número de teléfono](https://developer.android.com/about/versions/11/privacy/permissions#phone-numbers).
+
+Android 12:
+
+- Un permiso para conceder sólo la [ubicación aproximada](https://developer.android.com/about/versions/12/behavior-changes-12#approximate-location).
+- Reinicio automático de [aplicaciones hibernadas](https://developer.android.com/about/versions/12/behavior-changes-12?hl=es-419#app-hibernation).
+- [Auditoría de acceso a los datos](https://developer.android.com/about/versions/12/behavior-changes-12?hl=es-419#data-access-auditing) que facilita determinar qué parte de una aplicación está realizando un tipo específico de acceso a los datos.
+
+Android 13:
+
+- Un permiso para [acceso wifi cercano](https://developer.android.com/about/versions/13/behavior-changes-13?hl=es-419#nearby-wifi-devices-permission). Las direcciones MAC de los puntos de acceso WiFi cercanos eran una forma popular de que las aplicaciones rastrearan la ubicación de un usuario.
+- Más [permisos de contenido multimedia detallados](https://developer.android.com/about/versions/13/behavior-changes-13?hl=es-419#granular-media-permissions), lo que significa que puedes conceder acceso sólo a imágenes, vídeos o archivos de audio.
+- El uso en segundo plano de los sensores requiere ahora el permiso [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission).
+
+Una aplicación puede solicitar un permiso para una función específica que tenga. Por ejemplo, cualquier aplicación que pueda escanear códigos QR necesitará el permiso de la cámara. Algunas aplicaciones pueden solicitar más permisos de los necesarios.
+
+[Exodus](https://exodus-privacy.eu.org/) puede ser útil para comparar aplicaciones con fines similares. Si una aplicación requiere muchos permisos y tiene un montón de publicidad y analíticas, probablemente sea un mal signo. Recomendamos consultar cada uno de los rastreadores y leer sus descripciones, en lugar de limitarse a **contar el total** y asumir que todos los elementos enumerados son iguales.
+
+!!! advertencia
+
+    Si una aplicación es principalmente un servicio basado en web, el seguimiento puede producirse en el lado del servidor. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) indica que "no hay rastreadores", pero lo cierto es que sí rastrea los intereses y el comportamiento de los usuarios en todo el sitio. Las aplicaciones pueden eludir la detección si no utilizan las bibliotecas de código estándar producidas por la industria publicitaria, aunque esto es poco probable.
+
+!!! nota
+
+    Las aplicaciones que respetan la privacidad, como [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/), pueden mostrar algunos rastreadores como [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). Esta biblioteca incluye [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) que puede proporcionar [notificaciones push](https://es.wikipedia.org/wiki/Tecnología_push) en las aplicaciones. Este [es el caso](https://fosstodon.org/@bitwarden/109636825700482007) con Bitwarden. Esto no significa que Bitwarden utilice todas las funciones analíticas que ofrece Google Firebase Analytics.
 
 ## Acceso a medios
 
@@ -131,5 +167,3 @@ Te van a dar la opción de eliminar tu ID de publicidad o *Optar por no recibir 
 [SafetyNet](https://developer.android.com/training/safetynet/attestation) y el [Play Integrity APIs](https://developer.android.com/google/play/integrity) son generalmente usados para [aplicaciones bancarias](https://grapheneos.org/usage#banking-apps). Muchas aplicaciones bancarias funcionarán bien en GrapheneOS con los servicios de Google Play aislados, sin embargo, algunas aplicaciones no financieras tienen sus propios mecanismos anti-manipulación que pueden fallar. GrapheneOS pasa con éxito el chequeo `basicIntegrity`, pero no el check de certificación `ctsProfileMatch`. Los dispositivos con Android 8 o posterior tienen soporte de certificación de hardware que no se puede omitir sin claves filtradas o vulnerabilidades graves.
 
 En cuanto a Google Wallet, no lo recomendamos debido a su [política de privacidad](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), la cual dicta que debes optar por excluirte si no quieres que tu calificación crediticia y tu información personal sea compartido con los servicios de marketing afiliados.
-
---8<-- "includes/abbreviations.es.txt"

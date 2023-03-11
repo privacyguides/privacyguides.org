@@ -59,5 +59,3 @@ For complaints under GDPR more generally, you may lodge complaints with your loc
 We will post any new versions of this statement [here](privacy-policy.md). Potremo cambiare il modo in cui annunciamo modifiche in future versioni di questo documento. Nel mentre, possiamo aggiornare le nostre informazioni di contatto in qualsiasi momento senza annunciarlo. Please refer to the [Privacy Policy](privacy-policy.md) for the latest contact information at any time.
 
 A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) of this page can be found on GitHub.
-
---8<-- "includes/abbreviations.it.txt"

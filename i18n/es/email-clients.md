@@ -1,6 +1,7 @@
 ---
 title: "Email Clients"
 icon: material/email-open
+description: These email clients are privacy-respecting and support OpenPGP email encryption.
 ---
 
 Nuestra lista de recomendaciones contiene clientes de correo electrónico que soportan [OpenPGP](encryption.md#openpgp) y una autenticación fuerte como [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth te permite utilizar la [Autenticación Multifactor](basics/multi-factor-authentication.md) y previene el robo de cuentas.
@@ -235,5 +236,3 @@ Our best-case criteria represents what we would like to see from the perfect pro
 - Should not collect any telemetry by default.
 - Should support OpenPGP natively, i.e. without extensions.
 - Should support storing OpenPGP encrypted emails locally.
-
---8<-- "includes/abbreviations.es.txt"

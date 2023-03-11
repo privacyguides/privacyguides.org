@@ -44,5 +44,3 @@ git config --global pull.rebase true
 git fetch origin
 git rebase origin/main
 ```
-
---8<-- "includes/abbreviations.he.txt"

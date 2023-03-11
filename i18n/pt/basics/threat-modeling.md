@@ -1,6 +1,7 @@
 ---
 title: "evergreen"
 icon: 'O que são modelos de ameaça?'
+description: Equilibrar segurança, privacidade e usabilidade é uma das primeiras e mais difíceis tarefas que você enfrentará na sua jornada de privacidade.
 ---
 
 Equilibrar segurança, privacidade e usabilidade é uma das primeiras e mais difíceis tarefas que você enfrentará na sua jornada de privacidade. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
@@ -107,5 +108,3 @@ For people looking to increase their privacy and security online, we've compiled
 ## Fontes
 
 - [Autodefesa de Vigilância EFF: Seu Plano de Segurança](https://ssd.eff.org/en/module/your-security-plan)
-
---8<-- "includes/abbreviations.pt.txt"

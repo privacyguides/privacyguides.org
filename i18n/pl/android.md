@@ -1,11 +1,12 @@
 ---
 title: "Android"
 icon: 'fontawesome/brands/android'
+description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
 ---
 
 ![Android logo](assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** is an open-source mobile operating system led by Google which powers the majority of the world's mobile devices. Most phones sold with Android are modified to include invasive integrations and apps such as Google Play Services, so you can significantly improve your privacy on your mobile device by replacing your phone's default installation with a version of Android without these invasive features.
+**Android Open Source Project** to system operacyjny o otwartym kodzie źródłowym przeznaczony na urządzenia mobilne, który jest rozwijany przez Google i działa na większości urządzeń mobilnych na Ziemi. Most phones sold with Android are modified to include invasive integrations and apps such as Google Play Services, so you can significantly improve your privacy on your mobile device by replacing your phone's default installation with a version of Android without these invasive features.
 
 [:octicons-home-16:](https://source.android.com/){ .card-link title=Homepage }
 [:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
@@ -13,8 +14,9 @@ The **Android Open Source Project** is an open-source mobile operating system le
 
 These are the Android operating systems, devices, and apps we recommend to maximize your mobile device's security and privacy. rekomendacja
 
-- [Ogólny przegląd Androida i zalecenia :hero-arrow-circle-right-fill:](os/android-overview.md)
-- [Dlaczego polecamy GrapheneOS zamiast CalyxOS :hero-arrow-circle-right-fill:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/)
+[General Android Overview :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
+
+[Why we recommend GrapheneOS over CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
 
 ## Pochodne AOSP
 
@@ -41,7 +43,7 @@ We recommend installing one of these custom Android operating systems on your de
     [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
-DivestOS posiada zautomatyzowane [naprawianie](https://gitlab.com/divested-mobile/cve_checker) luk bezpieczeństwa jądra ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)), mniej zastrzeżonych moduów, własny plik [hosts](https://divested.dev/index.php?page=dnsbl) oraz [F-Droid](https://www.f-droid.org) jako sklep z aplikacjami. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging/), while giving you full control over their permissions and access, and while containing them to a specific [work profile](os/android-overview.md#work-profile) or [user profile](os/android-overview.md#user-profiles) of your choice.
+GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) fully sandboxed like any other regular app. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging/), while giving you full control over their permissions and access, and while containing them to a specific [work profile](os/android-overview.md#work-profile) or [user profile](os/android-overview.md#user-profiles) of your choice.
 
 Google Pixel phones are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#device-support).
 
@@ -63,9 +65,9 @@ Google Pixel phones are the only devices that currently meet GrapheneOS's [hardw
 
 DivestOS has automated kernel vulnerability ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), fewer proprietary blobs, and a custom [hosts](https://divested.dev/index.php?page=dnsbl) file. Its hardened WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), enables [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) for all architectures and [network state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning), and receives out-of-band updates. DivestOS also includes kernel patches from GrapheneOS and enables all available kernel security features via [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). All kernels newer than version 3.4 include full page [sanitization](https://lwn.net/Articles/334747/) and all ~22 Clang-compiled kernels have [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) enabled.
 
-DivestOS implements some system hardening patches originally developed for GrapheneOS. Systemy oraz oprogramowanie sprzętowe urządzeń mobilnych są wspierane tylko przez ograniczony czas, więc kupno nowego urządzenia wydłuża jego żywotność do maksimum. 17.1 and higher features GrapheneOS's per-network full [MAC randomization](https://en.wikipedia.org/wiki/MAC_address#Randomization) option, [`ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) control, and automatic reboot/Wi-Fi/Bluetooth [timeout options](https://grapheneos.org/features).
+DivestOS implements some system hardening patches originally developed for GrapheneOS. DivestOS 16.0 and higher implements GrapheneOS's [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) and SENSORS permission toggle, [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/#additional-hardening), [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) [constification](https://en.wikipedia.org/wiki/Const_(computer_programming)), and partial [bionic](https://en.wikipedia.org/wiki/Bionic_(software)) hardening patchsets. 17.1 and higher features GrapheneOS's per-network full [MAC randomization](https://en.wikipedia.org/wiki/MAC_address#Randomization) option, [`ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) control, and automatic reboot/Wi-Fi/Bluetooth [timeout options](https://grapheneos.org/features).
 
-Unikaj kupowania urządzeń od operatorów sieci komórkowych. Posiadają one często **zablokowany program rozruchowy** i nie mają wsparcia dla [odblokowania OEM](https://source.android.com/devices/bootloader/locking_unlocking). Te warianty urządzeń uniemożliwią Ci zainstalowanie jakiejkolwiek alternatywnej dystrybucji Androida. We recommend disabling the official F-Droid app and using [Neo Store](https://github.com/NeoApplications/Neo-Store/) with the DivestOS repositories enabled to keep those components up to date. For other apps, our recommended methods of obtaining them still apply.
+DivestOS uses F-Droid as its default app store. Normally, we would recommend avoiding F-Droid due to its numerous [security issues](#f-droid). However, doing so on DivestOS isn't viable; the developers update their apps via their own F-Droid repositories ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) and [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). We recommend disabling the official F-Droid app and using [Neo Store](https://github.com/NeoApplications/Neo-Store/) with the DivestOS repositories enabled to keep those components up to date. For other apps, our recommended methods of obtaining them still apply.
 
 !!! warning
 
@@ -77,14 +79,14 @@ Unikaj kupowania urządzeń od operatorów sieci komórkowych. Posiadają one cz
 
 When purchasing a device, we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible.
 
-Urządzenia Google Pixel są **jedynymi** urządzeniami, które polecamy zakupić. Te urządzenia posiadają silniejsze zabezpieczenia sprzętowe niż jakiekolwiek inne urządzenia z Androidem obecnie dostępne na rynku dzięki odpowiedniemu wsparciu AVB dla alternatywnych systemów operacyjnych oraz układom bezpieczeństwa Google [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) działającymi jako Bezpieczna enklawa. These phone variants will prevent you from installing any kind of alternative Android distribution.
+Avoid buying phones from mobile network operators. These often have a **locked bootloader** and do not support [OEM unlocking](https://source.android.com/devices/bootloader/locking_unlocking). These phone variants will prevent you from installing any kind of alternative Android distribution.
 
 Be very **careful** about buying second hand phones from online marketplaces. Always check the reputation of the seller. If the device is stolen, there's a possibility of [IMEI blacklisting](https://www.gsma.com/security/resources/imei-blacklisting/). There is also a risk involved with you being associated with the activity of the previous owner.
 
 A few more tips regarding Android devices and operating system compatibility:
 
-- Nie kupuj urządzeń, których okres wsparcia dobiegł końca lub zbliża się do tego momentu, ponieważ dodatkowe aktualizacje bezpieczeństwa muszą zostać dostarczone przez producenta.
-- Nie kupuj urządzeń z fabrycznie wgranym LineageOS lub /e/ OS lub jakiegokolwiek urządzenia z Androidem bez odpowiedniego wsparcia dla [Zweryfikowanego rozruchu](https://source.android.com/security/verifiedboot) oraz aktualizacji oprogramowania. Na tych urządzeniach nie można również sprawdzić, czy ktoś z nimi nie eksperymentował.
+- Do not buy devices that have reached or are near their end-of-life, additional firmware updates must be provided by the manufacturer.
+- Do not buy preloaded LineageOS or /e/ OS phones or any Android phones without proper [Verified Boot](https://source.android.com/security/verifiedboot) support and firmware updates. These devices also have no way for you to check whether they've been tampered with.
 - In short, if a device or Android distribution is not listed here, there is probably a good reason. Check out our [forum](https://discuss.privacyguides.net/) to find details!
 
 ### Google Pixel
@@ -251,7 +253,7 @@ The Google Play Store requires a Google account to login which is not great for 
     
         - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
-Aurora Store does not allow you to download paid apps with their anonymous account feature. [Aurora Store](https://auroraoss.com/download/AuroraStore/) (klient Sklepu Google Play) tego nie wymaga i działa w większości przypadków.
+Aurora Store does not allow you to download paid apps with their anonymous account feature. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google, however you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
 
 ### GrapheneOS App Store
 
@@ -349,5 +351,3 @@ That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](htt
 - Applications on this page must not be applicable to any other software category on the site.
 - General applications should extend or replace core system functionality.
 - Applications should receive regular updates and maintenance.
-
---8<-- "includes/abbreviations.pl.txt"

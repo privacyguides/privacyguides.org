@@ -1,25 +1,26 @@
 ---
-title: "Multi-Factor Authentication"
+title: "Multi-Faktor Autentisering"
 icon: 'material/two-factor-authentication'
+description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
 ---
 
-**Multi-Factor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. The most common method is time limited codes you might receive from SMS or an app.
+**Flerfaktorsautentisering** (**MFA**) är en säkerhetsmekanism som kräver ytterligare steg utöver att ange användarnamn (eller e-post) och lösenord. Den vanligaste metoden är tidsbegränsade koder som du kan få från SMS eller en app.
 
-Normally, if a hacker (or adversary) is able to figure out your password then they’d gain access to the account that password belongs to. An account with MFA forces the hacker to have both the password (something you *know*) and a device that you own (something you *have*), like your phone.
+Om en hackare (eller motståndare) kan ta reda på ditt lösenord får han eller hon normalt sett tillgång till det konto som lösenordet tillhör. Ett konto med MFA tvingar hackaren att ha både lösenordet (något som du *känner till*) och en enhet som du äger (något som du *har*), t. ex. din telefon.
 
-MFA methods vary in security, but are based on the premise that the more difficult it is for an attacker to gain access to your MFA method, the better. Examples of MFA methods (from weakest to strongest) include SMS, Email codes, app push notifications, TOTP, Yubico OTP and FIDO.
+MFA-metoder varierar i säkerhet, men bygger på förutsättningen att ju svårare det är för en angripare att få tillgång till din MFA-metod, desto bättre. Exempel på MFA-metoder (från svagaste till starkaste) inkluderar SMS, e-postkoder, app push-meddelanden, TOTP, Yubico OTP och FIDO.
 
-## MFA Method Comparison
+## Jämförelse av MFA-metod
 
-### SMS or Email MFA
+### SMS eller e-post MFA
 
-Receiving OTP codes via SMS or email are one of the weaker ways to secure your accounts with MFA. Obtaining a code by email or SMS takes away from the "something you *have*" idea, because there are a variety of ways a hacker could [take over your phone number](https://en.wikipedia.org/wiki/SIM_swap_scam) or gain access to your email without having physical access to any of your devices at all. If an unauthorized person gained access to your email, they would be able to use that access to both reset your password and receive the authentication code, giving them full access to your account.
+Att ta emot OTP-koder via SMS eller e-post är ett av de svagare sätten att säkra dina konton med MFA. Att få en kod via e-post eller sms är inte längre något som du *har*", eftersom det finns många olika sätt för en hackare att [ta över ditt telefonnummer](https://en.wikipedia.org/wiki/SIM_swap_scam) eller få tillgång till din e-post utan att ha fysisk tillgång till någon av dina enheter överhuvudtaget. Om en obehörig person får tillgång till din e-post kan han eller hon använda den för att både återställa ditt lösenord och få autentiseringskoden, vilket ger honom eller henne full tillgång till ditt konto.
 
-### Push Notifications
+### Pushnotiser
 
-Push notification MFA takes the form of a message being sent to an app on your phone asking you to confirm new account logins. This method is a lot better than SMS or email, since an attacker typically wouldn't be able to get these push notifications without having an already logged-in device, which means they would need to compromise one of your other devices first.
+MFA med push-notiser är ett meddelande som skickas till en app på din telefon där du uppmanas att bekräfta nya kontoinloggningar. Den här metoden är mycket bättre än SMS eller e-post, eftersom en angripare vanligtvis inte kan få dessa push-notiser utan att ha en redan inloggad enhet, vilket innebär att de måste äventyra en av dina andra enheter först.
 
-We all make mistakes, and there is the risk that you might accept the login attempt by accident. Push notification login authorizations are typically sent to *all* your devices at once, widening the availability of the MFA code if you have many devices.
+Vi gör alla misstag, och det finns risk för att du kan acceptera inloggningsförsöket av misstag. Push notification login authorizations are typically sent to *all* your devices at once, widening the availability of the MFA code if you have many devices.
 
 The security of push notification MFA is dependent on both the quality of the app, the server component and the trust of the developer who produces it. Installing an app may also require you to accept invasive privileges that grant access to other data on your device. An individual app also requires that you have a specific app for each service which may not require a password to open, unlike a good TOTP generator app.
 
@@ -83,84 +84,82 @@ This presentation discusses the history of password authentication, the pitfalls
 
 FIDO2 and WebAuthn have superior security and privacy properties when compared to any MFA methods.
 
-Typically for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). It uses public key authentication and is more secure than shared secrets used in Yubico OTP and TOTP methods, as it includes the origin name (usually, the domain name) during authentication. Attestation is provided to protect you from phishing attacks, as it helps you to determine that you are using the authentic service and not a fake copy.
+För webbtjänster används det vanligtvis tillsammans med WebAuthn som är en del av [W3C:s rekommendationer](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). Det använder autentisering med offentliga nycklar och är säkrare än delade hemligheter som används i Yubico OTP- och TOTP-metoder, eftersom det innehåller ursprungsnamnet (vanligtvis domännamnet) under autentisering. Intyg tillhandahålls för att skydda dig från nätfiskeattacker, eftersom det hjälper dig att avgöra att du använder den autentiska tjänsten och inte en falsk kopia.
 
-Unlike Yubico OTP, WebAuthn does not use any public ID, so the key is **not** identifiable across different websites. It also does not use any third-party cloud server for authentication. All communication is completed between the key and the website you are logging into. FIDO also uses a counter which is incremented upon use in order to prevent session reuse and cloned keys.
+Till skillnad från Yubico OTP använder WebAuthn inget offentligt ID, så nyckeln är **inte** identifierbar på olika webbplatser. Det använder inte heller någon tredje parts molnserver för autentisering. All kommunikation sker mellan nyckeln och den webbplats du loggar in på. FIDO använder också en räknare som ökas vid användning för att förhindra återanvändning av sessioner och klonade tangenter.
 
-If a website or service supports WebAuthn for the authentication, it is highly recommended that you use it over any other form of MFA.
+Om en webbplats eller tjänst stöder WebAuthn för autentisering rekommenderas det starkt att du använder den över alla andra former av MFA.
 
-## General Recommendations
+## Allmänna rekommendationer
 
-We have these general recommendations:
+Vi har dessa allmänna rekommendationer:
 
-### Which Method Should I Use?
+### Vilken metod ska jag använda?
 
-When configuring your MFA method, keep in mind that it is only as secure as your weakest authentication method you use. This means it is important that you only use the best MFA method available. For instance, if you are already using TOTP, you should disable email and SMS MFA. If you are already using FIDO2/WebAuthn, you should not be using Yubico OTP or TOTP on your account.
+När du konfigurerar din MFA-metod, kom ihåg att den bara är lika säker som den svagaste autentiseringsmetoden du använder. Det är därför viktigt att du endast använder den bästa MFA-metoden som finns tillgänglig. Om du till exempel redan använder TOTP bör du inaktivera MFA för e-post och SMS. Om du redan använder FIDO2/WebAuthn bör du inte använda Yubico OTP eller TOTP på ditt konto.
 
-### Backups
+### Säkerhetskopior
 
-You should always have backups for your MFA method. Hardware security keys can get lost, stolen or simply stop working over time. It is recommended that you have a pair of hardware security keys with the same access to your accounts instead of just one.
+Du bör alltid ha säkerhetskopior av din MFA-metod. Säkerhetsnycklar för maskinvara kan förloras, stjälas eller helt enkelt sluta fungera med tiden. Det rekommenderas att du har ett par hårdvarusäkerhetsnycklar med samma åtkomst till dina konton istället för bara en.
 
-When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt)).
+När du använder TOTP med en autentiseringsapp ska du se till att säkerhetskopiera dina återställningsnycklar eller själva appen, eller kopiera de "delade hemligheterna" till en annan instans av appen på en annan telefon eller till en krypterad behållare (t.ex. [VeraCrypt](../encryption.md#veracrypt)).
 
-### Initial Set Up
+### Inledande inställning
 
-When buying a security key, it is important that you change the default credentials, set up password protection for the key, and enable touch confirmation if your key supports it. Products such as the YubiKey have multiple interfaces with separate credentials for each one of them, so you should go over each interface and set up protection as well.
+När du köper en säkerhetsnyckel är det viktigt att du ändrar standardinloggningsuppgifterna, ställer in lösenordsskydd för nyckeln och aktiverar touchbekräftelse om nyckeln stöder det. Produkter som YubiKey har flera gränssnitt med separata referenser för var och en av dem, så du bör gå över varje gränssnitt och ställa in skydd också.
 
-### Email and SMS
+### E-post och SMS
 
-If you have to use email for MFA, make sure that the email account itself is secured with a proper MFA method.
+Om du måste använda e-post för MFA ska du se till att e-postkontot i sig är skyddat med en lämplig MFA-metod.
 
-If you use SMS MFA, use a carrier who will not switch your phone number to a new SIM card without account access, or use a dedicated VoIP number from a provider with similar security to avoid a [SIM swap attack](https://en.wikipedia.org/wiki/SIM_swap_scam).
+Om du använder SMS MFA, använd en operatör som inte byter ditt telefonnummer till ett nytt SIM-kort utan tillgång till kontot, eller använd ett dedikerat VoIP-nummer från en leverantör med liknande säkerhet för att undvika en [SIM swap-attack](https://en.wikipedia.org/wiki/SIM_swap_scam).
 
-[MFA tools we recommend](../multi-factor-authentication.md ""){.md-button}
+[MFA-verktyg som vi rekommenderar](../multi-factor-authentication.md ""){.md-button}
 
-## More Places to Set Up MFA
+## Fler ställen att inrätta MFA
 
-Beyond just securing your website logins, multi-factor authentication can be used to secure your local logins, SSH keys or even password databases as well.
+Flerfaktorsautentisering kan användas för att säkra lokala inloggningar, SSH-nycklar eller till och med lösenordsdatabaser.
 
 ### Windows
 
-Yubico has a dedicated [Credential Provider](https://docs.microsoft.com/en-us/windows/win32/secauthn/credential-providers-in-windows) that adds Challenge-Response authentication for the username + password login flow for local Windows accounts. If you have a YubiKey with Challenge-Response authentication support, take a look at the [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/en-us/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), which will allow you to set up MFA on your Windows computer.
+Yubico har en dedikerad [Credential Provider](https://docs.microsoft.com/en-us/windows/win32/secauthn/credential-providers-in-windows) som lägger till Challenge-Response-autentisering för inloggningsflödet med användarnamn och lösenord för lokala Windows-konton. Om du har en YubiKey med stöd för autentisering med utmaningssvar kan du ta en titt på [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/en-us/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), där du kan konfigurera MFA på din Windows-dator.
 
 ### macOS
 
-macOS has [native support](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) for authentication with smart cards (PIV). If you have a smartcard or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smartcard/hardware security vendor's documentation and set up second factor authentication for your macOS computer.
+macOS har [inbyggt stöd](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) för autentisering med smarta kort (PIV). Om du har ett smartkort eller en hårdvarunyckel som stöder PIV-gränssnittet, till exempel YubiKey, rekommenderar vi att du följer dokumentationen från leverantören av smartkortet eller hårdvarunyckeln och konfigurerar andrafaktorsautentisering för din macOS-dator.
 
-Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/en-us/articles/360016649059) which can help you set up your YubiKey on macOS.
+[Använda din YubiKey som ett smartkort i macOS](https://support.yubico.com/hc/en-us/articles/360016649059) som kan hjälpa dig att ställa in din YubiKey på macOS.
 
-After your smartcard/security key is set up, we recommend running this command in the Terminal:
+När din smartkort/säkerhetsnyckel har ställts in rekommenderar vi att du kör det här kommandot i terminalen:
 
 ```text
 sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLogin -bool YES
 ```
 
-The command will prevent an adversary from bypassing MFA when the computer boots.
+Kommandot förhindrar att en motståndare kringgår MFA när datorn startar.
 
 ### Linux
 
-!!! warning
+!!! varning
 
-    If the hostname of your system changes (such as due to DHCP), you would be unable to login. It is vital that you set up a proper hostname for your computer before following this guide.
+    Om värdnamnet på ditt system ändras (till exempel på grund av DHCP), skulle du inte kunna logga in. Det är viktigt att du skapar ett korrekt värdnamn för din dator innan du följer den här guiden.
 
-The `pam_u2f` module on Linux can provide two-factor authentication for logging in on most popular Linux distributions. If you have a hardware security key that supports U2F, you can set up MFA authentication for your login. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. The package manager commands—such as `apt-get`—and package names may however differ. This guide does **not** apply to Qubes OS.
+Modulen `pam_u2f` på Linux kan ge tvåfaktorsautentisering för inloggning på de flesta populära Linuxdistributioner. Om du har en maskinvarusäkerhetsnyckel som stöder U2F kan du konfigurera MFA-autentisering för inloggning. Yubico har en guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) som borde fungera för alla distributioner. Pakethanteraren kommandon-såsom `apt-get`-och paketnamn kan dock skilja sig. Den här guiden gäller **inte** för Qubes OS.
 
 ### Qubes OS
 
-Qubes OS has support for Challenge-Response authentication with YubiKeys. If you have a YubiKey with Challenge-Response authentication support, take a look at the Qubes OS [YubiKey documentation](https://www.qubes-os.org/doc/yubikey/) if you want to set up MFA on Qubes OS.
+Qubes OS har stöd för autentisering med Challenge-Response-autentisering med YubiKeys. Om du har en YubiKey med stöd för autentisering med utmaningssvar kan du ta en titt på dokumentationen för Qubes OS [YubiKey](https://www.qubes-os.org/doc/yubikey/) om du vill konfigurera MFA på Qubes OS.
 
 ### SSH
 
-#### Hardware Security Keys
+#### Hårdvarusäkerhetsnycklar
 
-SSH MFA could be set up using multiple different authentication methods that are popular with hardware security keys. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH/) on how to set this up.
+SSH MFA kan konfigureras med flera olika autentiseringsmetoder som är populära med hårdvarusäkerhetsnycklar. Vi rekommenderar att du läser Yubicos dokumentation på [](https://developers.yubico.com/SSH/) om hur du ställer in detta.
 
-#### Time-based One-time Password (TOTP)
+#### Tidsbaserat engångslösenord (TOTP)
 
-SSH MFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Most things should be the same regardless of distribution, however the package manager commands—such as `apt-get`—and package names may differ.
+SSH MFA kan också ställas in med TOTP. DigitalOcean har tillhandahållit en handledning [Hur man ställer in flerfaktorsautentisering för SSH på Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Det mesta bör vara likadant oavsett distribution, men kommandona för pakethanteraren - t. ex. `apt-get`- och paketnamnen kan skilja sig åt.
 
-### KeePass (and KeePassXC)
+### KeePass (och KeePassXC)
 
-KeePass and KeePassXC databases can be secured using Challenge-Response or HOTP as a second-factor authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
-
---8<-- "includes/abbreviations.sv.txt"
+KeePass- och KeePassXC-databaser kan säkras med hjälp av Challenge-Response eller HOTP som andrafaktorsautentisering. Yubico har tillhandahållit ett dokument för KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) och det finns också ett dokument på webbplatsen [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa).

@@ -1,5 +1,5 @@
 ---
-title: "Adatvédelmi Nyilatkozat"
+title: "Adatvédelmi Tájékoztató"
 ---
 
 A Privacy Guides egy közösségi projekt, amelyet számos aktív önkéntes közreműködő működtet. A csapattagok nyilvános listája [megtalálható a GitHub-on](https://github.com/orgs/privacyguides/people).
@@ -25,7 +25,7 @@ Az összegyűjtött adatok közé tartoznak a hivatkozási források, a legnéps
 
 Egyes általunk kínált weboldalon és szolgáltatáson számos funkcióhoz fiókra lehet szükség. Egy fórumplatformon például a témákhoz való posztoláshoz és hozzászóláshoz fiókra lehet szükség.
 
-A legtöbb fiókhoz való regisztrációhoz egy nevet, felhasználónevet, e-mail címet és jelszót kell megadnod. Amennyiben egy weboldal az említett adatoknál több információt igényel, az egyértelműen jelezve lesz, és külön adatvédelmi nyilatkozatban lesz feltüntetve.
+A legtöbb fiókhoz való regisztrációhoz egy nevet, felhasználónevet, email címet és jelszót kell megadnod. Amennyiben egy weboldal az említett adatoknál több információt igényel, az egyértelműen jelezve lesz, és külön adatvédelmi tájékoztatóban lesz feltüntetve.
 
 A fiókadataidat arra használjuk, hogy azonosítsunk a weboldalon, és hogy jellemző oldalakat, például a profiloldaladat létrehozzuk. A fiókadataidat arra is felhasználjuk, hogy nyilvános profilt tegyünk közzé számodra a szolgáltatásainkban.
 
@@ -56,8 +56,6 @@ GDPR alá eső általános panaszok esetében a helyi adatvédelmi felügyeleti 
 
 ## A Jelen Szabályzatról
 
-A nyilatkozat bármely új verzióját [itt fogjuk közzétenni](privacy-policy.md). Előfordulhat, hogy a dokumentum jövőbeli verzióinál megváltoztatjuk a változások bejelentésének módját. Időközben bármikor frissíthetjük elérhetőségeinket anélkül, hogy a változást bejelentenénk. A legfrissebb elérhetőségekért kérjük, hivatkozz bármikor az [Adatvédelmi tájékoztatóra](privacy-policy.md).
+A tájékoztató bármely új verzióját [itt fogjuk közzétenni](privacy-policy.md). Előfordulhat, hogy a dokumentum jövőbeli verzióinál megváltoztatjuk a változások bejelentésének módját. Időközben bármikor frissíthetjük elérhetőségeinket anélkül, hogy a változást bejelentenénk. A legfrissebb elérhetőségekért kérjük, hivatkozz bármikor az [Adatvédelmi Tájékoztatóra](privacy-policy.md).
 
 Az oldal teljes [előzménye](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) a GitHub-on található meg.
-
---8<-- "includes/abbreviations.hu.txt"

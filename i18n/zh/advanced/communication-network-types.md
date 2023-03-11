@@ -1,11 +1,12 @@
 ---
 title: "通信网络类型"
 icon: 'material/transit-connection-variant'
+description: An overview of several network architectures commonly used by instant messaging applications.
 ---
 
 有几种网络架构常用于人与人之间的信息传递。 这些网络可以提供不同的隐私保证，这就是为什么在决定使用哪种应用程序时，应该考虑你的 [威胁模型](../basics/threat-modeling.md)。
 
-[Recommended Instant Messengers](../real-time-communication.md ""){.md-button}
+[推荐的即时通讯工具](../real-time-communication.md ""){.md-button}
 
 ## 集中式网络
 
@@ -85,7 +86,6 @@ P2P网络不使用服务器，因为节点之间直接通信，因此不存在�
 使用 [匿名路由](https://doi.org/10.1007/978-1-4419-5906-5_628) 的Messenger隐藏发送方、接收方的身份或他们一直在通信的证据。 理想情况下，Messenger应该将这三者都隐藏起来。
 
 有 [许多](https://doi.org/10.1145/3182658) 不同的方法来实现匿名网络。 其中最著名的是
-
 洋葱路由 （即 [Tor](tor-overview.md)），它通过一个强加密的 [覆盖网络](https://en.wikipedia.org/wiki/Overlay_network) ，隐藏每个节点的位置以及每个信息的接收者和发送者来通信。 发件人和收件人从不直接交互，只通过一个秘密的会合节点会面，这样就不会泄露IP地址或物理位置。 节点不能解密信息，也不能解密最终目的地；只有收件人可以。 每个中间节点只能解密一部分，表明下一步将把仍然加密的信息发送到哪里，直到它到达可以完全解密的收件人那里，因此命名为 "洋葱路由"。</p> 
 
 在匿名网络中自托管一个节点并不为托管者提供额外的隐私，而是有助于整个网络对识别攻击的抗性，对每个人都有好处。
@@ -102,5 +102,3 @@ P2P网络不使用服务器，因为节点之间直接通信，因此不存在�
 - 如果通过随机路由选择节点，则某些节点可能远离发送方和接收方，增加延迟，甚至在其中一个节点脱机时无法传输消息。
 - 开始时比较复杂，因为需要创建和安全备份一个加密私钥。
 - 就像其他去中心化平台一样，对开发者来说，增加功能比中心化平台更复杂。 因此，功能可能缺乏或未完全实现，例如脱机消息中继或消息删除。
-
---8<-- "includes/abbreviations.zh.txt"

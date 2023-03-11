@@ -41,5 +41,3 @@ No debe llevar a cabo ninguna actividad de recopilación de datos sistemática o
 * Scraping
 * Minería de Datos
 * 'Framing' (IFrames)
-
---8<-- "includes/abbreviations.es.txt"

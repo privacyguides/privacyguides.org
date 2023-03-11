@@ -1,6 +1,7 @@
 ---
 title: "Ancaman Umum"
 icon: 'material/eye-outline'
+description: Model ancaman Anda bersifat pribadi bagi Anda, tetapi ini adalah beberapa hal yang dipedulikan oleh banyak pengunjung situs ini.
 ---
 
 Secara garis besar, kami mengkategorikan rekomendasi kami ke dalam [ancaman](threat-modeling.md) atau tujuan yang berlaku untuk kebanyakan orang. ==Anda mungkin tidak peduli dengan tidak ada, satu, beberapa, atau semua kemungkinan ini==, dan alat dan layanan yang Anda gunakan tergantung pada tujuan Anda. Anda mungkin juga memiliki ancaman khusus di luar kategori ini, dan itu tidak masalah! Bagian yang penting adalah mengembangkan pemahaman tentang manfaat dan kekurangan alat yang Anda pilih untuk digunakan, karena hampir tidak ada satu pun yang akan melindungi Anda dari setiap ancaman.
@@ -139,8 +140,6 @@ Orang-orang yang khawatir dengan ancaman penyensoran dapat menggunakan teknologi
     Anda harus mempertimbangkan aspek mana dari jaringan yang dapat diamati oleh musuh Anda, dan apakah Anda memiliki penyangkalan yang masuk akal atas tindakan Anda. Sebagai contoh, menggunakan [DNS terenkripsi](../advanced/dns-overview.md#what-is-encrypted-dns) bisa membantu Anda melalui sistem sensor berbasis DNS yang belum sempurna, tetapi tidak bisa menyembunyikan apa yang Anda kunjungi dari ISP Anda. Sebuah VPN atau Tor bisa membantu menyembunyikan apa yang Anda kunjungi dari administrator jaringan, tetapi tidak bisa menyembunyikan kalau Anda menggunakan jaringan tersebut sejak awal. Transport yang dapat dicolokkan (seperti Obfs4proxy, Meek, atau Shadowsocks) dapat membantu Anda menghindari dinding api yang memblokir protokol VPN umum atau Tor, tetapi upaya pengelabuan Anda masih bisa dideteksi dengan metode seperti pengujian atau [inspeksi paket dalam](https://en.wikipedia.org/wiki/Deep_packet_inspection).
 
 Anda harus selalu mempertimbangkan risiko mencoba menerobos sensor, konsekuensi potensial, dan seberapa canggih musuh Anda. Anda harus berhati-hati dalam memilih perangkat lunak, dan memiliki rencana cadangan untuk berjaga-jaga seandainya Anda ketahuan.
-
---8<-- "includes/abbreviations.id.txt"
 
 [^1]: Wikipedia: [*Pengawasan Massal*](https://en.wikipedia.org/wiki/Mass_surveillance) dan [*Pengawasan*](https://en.wikipedia.org/wiki/Surveillance).
 [^2]: Badan Pengawasan Privasi dan Kebebasan Sipil Amerika Serikat: [*Laporan tentang Program Rekaman Telepon yang Dilakukan berdasarkan Pasal 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)

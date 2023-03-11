@@ -1,6 +1,7 @@
 ---
 title: "Productivity Tools"
 icon: material/file-sign
+description: Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do.
 ---
 
 Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do. The privacy policy may legally protect your rights, but it does not provide technical access constraints.
@@ -152,5 +153,3 @@ In general, we define office suites as applications which could reasonably act a
     [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Public Instances"}
     [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
-
---8<-- "includes/abbreviations.eo.txt"

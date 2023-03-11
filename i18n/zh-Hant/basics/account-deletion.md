@@ -1,6 +1,7 @@
 ---
 title: "刪除帳號"
 icon: 'material/account-remove'
+description: It's easy to accumulate a large number of internet accounts, here are some tips on how to prune your collection.
 ---
 
 隨著時間的推移，它可以很容易地積累一些在線帳戶，其中許多你可能不再使用。 刪除這些未使用的帳戶是收回隱私的重要一步，因為休眠帳戶容易受到數據洩露的影響。 資料外洩是指服務的安全性受到破壞，受保護的資訊被未經授權的行為者檢視、傳輸或竊取。 Data breaches are unfortunately all [too common](https://haveibeenpwned.com/PwnedWebsites) these days, and so practicing good digital hygiene is the best way to minimize the impact they have on your life. 本指南的目標是幫助您通過令人討厭的帳戶刪除過程，通常由 [欺騙性設計](https://www.deceptive.design/)使您變得困難，以改善您的在線存在。
@@ -59,5 +60,3 @@ Residents of the EEA have additional rights regarding data erasure specified in 
 ## 避免註冊新帳戶
 
 俗話說：「預防更勝治療。」 每當你覺得想要註冊一個新帳戶時，問問自己：「我真的需要註冊這個嗎？ 有不需要註冊的替代方案嗎？」 刪除一個帳戶通常比創建一個帳戶要困難得多。 即使刪除或更改帳戶上的資訊，也可能有來自第三方的緩存版本，例如 [Internet Archive](https://archive.org/)。 如果可能的話，不要隨便註冊帳號－未來的你會感謝你現在的決定！
-
---8<-- "includes/abbreviations.zh-Hant.txt"

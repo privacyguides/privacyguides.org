@@ -1,6 +1,7 @@
 ---
 title: "Resumen DNS"
 icon: material/dns
+description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
 ---
 
 El [Sistema de Nombres de Dominio](https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio) es el 'directorio telefónico del Internet'. El DNS traduce los nombres de dominio a direcciones IP para que los navegadores y otros servicios puedan cargar los recursos de Internet, a través de una red descentralizada de servidores.
@@ -303,5 +304,3 @@ La [Subred de Cliente EDNS](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) es
 Su objetivo es "acelerar" la entrega de datos dando al cliente una respuesta que pertenece a un servidor que está cerca de él, como una [red de distribución de contenidos](https://es.wikipedia.org/wiki/Red_de_distribuci%C3%B3n_de_contenidos), que se utilizan a menudo en la transmisión de vídeo y el servicio de aplicaciones web de JavaScript.
 
 Esta característica tiene un coste de privacidad, ya que indica al servidor DNS cierta información sobre la ubicación del cliente.
-
---8<-- "includes/abbreviations.es.txt"

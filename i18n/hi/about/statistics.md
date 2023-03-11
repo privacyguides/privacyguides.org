@@ -59,5 +59,3 @@ title: Traffic Statistics
         })
     })
 </script>
-
---8<-- "includes/abbreviations.hi.txt"

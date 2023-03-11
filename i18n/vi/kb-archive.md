@@ -1,6 +1,7 @@
 ---
 title: KB Archive
 icon: material/archive
+description: Some pages that used to be in our knowledge base can now be found on our blog.
 ---
 
 # Pages Moved to Blog
@@ -14,5 +15,3 @@ Some pages that used to be in our knowledge base can now be found on our blog:
 - [Secure Data Erasure](https://blog.privacyguides.org/2022/05/25/secure-data-erasure/)
 - [Integrating Metadata Removal](https://blog.privacyguides.org/2022/04/09/integrating-metadata-removal/)
 - [iOS Configuration Guide](https://blog.privacyguides.org/2022/10/22/ios-configuration-guide/)
-
---8<-- "includes/abbreviations.vi.txt"

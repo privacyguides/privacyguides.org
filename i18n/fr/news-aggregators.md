@@ -1,6 +1,7 @@
 ---
 title: "Agrégateurs d'actualités"
 icon: material/rss
+description: Ces clients agrégateurs d'actualités vous permettent de suivre vos blogs et sites d'information préférés en utilisant des normes internet telles que RSS.
 ---
 
 Un [agrégateur d'actualités](https://en.wikipedia.org/wiki/News_aggregator) est un moyen de suivre vos blogs et sites d'actualités préférés.
@@ -169,5 +170,3 @@ Vous pouvez vous abonner aux chaînes YouTube sans vous connecter et sans associ
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
     ```
-
---8<-- "includes/abbreviations.fr.txt"

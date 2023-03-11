@@ -1,6 +1,7 @@
 ---
 title: סקירה כללית של אנדרואיד
 icon: simple/android
+description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
 ---
 
 אנדרואיד היא מערכת הפעלה מאובטחת הכוללת [ארגז חול חזק של אפליקציות](https://source.android.com/security/app-sandbox), [אתחול מאומת](https://source.android.com/security/verifiedboot) (AVB) ומערכת בקרת [הרשאות](https://developer.android.com/guide/topics/permissions/overview) חזקה.
@@ -49,13 +50,48 @@ Fairphone, למשל, משווקת את המכשירים שלהם כמקבלים 
 
 ## גרסאות אנדרואיד
 
-חשוב לא להשתמש בגרסת [סוף החיים](https://endoflife.date/android) של אנדרואיד. גרסאות חדשות יותר של אנדרואיד לא רק מקבלות עדכוני אבטחה עבור מערכת ההפעלה אלא גם עדכונים חשובים לשיפור הפרטיות. לדוגמה, [לפני אנדרואיד 10](https://developer.android.com/about/versions/10/privacy/changes), כל אפליקציה עם הרשאת [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) יכלו לגשת למספרים סידוריים רגישים וייחודיים של הטלפון שלך כגון [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), כרטיס ה-SIM שלך[IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity), בעוד שכעת הם חייבים להיות אפליקציות מערכת כדי לעשות זאת. אפליקציות מערכת מסופקות רק על ידי הפצת OEM או אנדרואיד.
+חשוב לא להשתמש בגרסת [סוף החיים](https://endoflife.date/android) של אנדרואיד. גרסאות חדשות יותר של אנדרואיד לא רק מקבלות עדכוני אבטחה עבור מערכת ההפעלה אלא גם עדכונים חשובים לשיפור הפרטיות. לדוגמה, [לפני אנדרואיד 10](https://developer.android.com/about/versions/10/privacy/changes), כל אפליקציה עם הרשאת [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) יכלו לגשת למספרים סידוריים רגישים וייחודיים של הטלפון שלך כגון [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), כרטיס ה-SIM שלך [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity), בעוד שכעת הם חייבים להיות אפליקציות מערכת כדי לעשות זאת. אפליקציות מערכת מסופקות רק על ידי הפצת OEM או אנדרואיד.
 
 ## הרשאות אנדרואיד
 
-[הרשאות ב-אנדרואיד](https://developer.android.com/guide/topics/permissions/overview) מעניקות לך שליטה על האפליקציות המורשות לגשת. גוגל מבצעת בקביעות [שיפורים](https://developer.android.com/about/versions/11/privacy/permissions) במערכת ההרשאות בכל גרסה עוקבת. כל האפליקציות שאתה מתקין הן אך ורק [ארגז חול](https://source.android.com/security/app-sandbox), לכן, אין צורך להתקין אפליקציות אנטי וירוס. סמארטפון עם הגרסה העדכנית ביותר של אנדרואיד תמיד יהיה מאובטח יותר מסמארטפון ישן עם אנטי וירוס ששילמת עליו. עדיף לא לשלם על תוכנת אנטי וירוס ולחסוך כסף בקניית סמארטפון חדש כמו גוגל פיקסל.
+[הרשאות ב-אנדרואיד](https://developer.android.com/guide/topics/permissions/overview) מעניקות לך שליטה על האפליקציות המורשות לגשת. גוגל מבצעת בקביעות [שיפורים](https://developer.android.com/about/versions/11/privacy/permissions) במערכת ההרשאות בכל גרסה עוקבת. כל האפליקציות שאתה מתקין הן אך ורק [ארגז חול](https://source.android.com/security/app-sandbox), לכן, אין צורך להתקין אפליקציות אנטי וירוס.
 
-אם תרצה להפעיל אפליקציה שאינך בטוח לגביה, שקול להשתמש בפרופיל משתמש או עבודה.
+סמארטפון עם הגרסה העדכנית ביותר של אנדרואיד תמיד יהיה מאובטח יותר מסמארטפון ישן עם אנטי וירוס ששילמת עליו. עדיף לא לשלם על תוכנת אנטי וירוס ולחסוך כסף בקניית סמארטפון חדש כמו גוגל פיקסל.
+
+אנדרואיד 10:
+
+- [אחסון בהיקף](https://developer.android.com/about/versions/10/privacy/changes#scoped-storage) נותן לך שליטה רבה יותר על הקבצים שלך ויכול להגביל את מה שיכול [לגשת לאחסון חיצוני](https://developer.android.com/training/data-storage#permissions). לאפליקציות יכולות להיות ספרייה ספציפית באחסון חיצוני וכן יכולת לאחסן שם סוגים ספציפיים של מדיה.
+- גישה הדוקה יותר ב[מיקום המכשיר](https://developer.android.com/about/versions/10/privacy/changes#app-access-device-location) על ידי הצגת ההרשאה `ACCESS_BACKGROUND_LOCATION `. זה מונע מאפליקציות לגשת למיקום כשהן פועלות ברקע ללא אישור מפורש מהמשתמש.
+
+אנדרואיד 11:
+
+- [הרשאות חד פעמיות](https://developer.android.com/about/versions/11/privacy/permissions#one-time) מאפשרות לך להעניק הרשאה לאפליקציה פעם אחת בלבד.
+- [הרשאות איפוס אוטומטי](https://developer.android.com/about/versions/11/privacy/permissions#auto-reset), המאפס [הרשאות זמן ריצה](https://developer.android.com/guide/topics/permissions/overview#runtime) שניתנו בעת פתיחת האפליקציה.
+- הרשאות מפורטות לגישה לתכונות הקשורות ל[מספרי טלפון](https://developer.android.com/about/versions/11/privacy/permissions#phone-numbers).
+
+אנדרואיד 12:
+
+- הרשאה להעניק רק את ה[מיקום המשוער](https://developer.android.com/about/versions/12/behavior-changes-12#approximate-location).
+- איפוס אוטומטי של [אפליקציות במצב שינה](https://developer.android.com/about/versions/12/behavior-changes-12#app-hibernation).
+- [ביקורת גישה לנתונים](https://developer.android.com/about/versions/12/behavior-changes-12#data-access-auditing) שמקלה לקבוע איזה חלק באפליקציה מבצע סוג מסוים של גישה לנתונים.
+
+אנדרואיד 13:
+
+- הרשאה ל[גישה לאינטרנט אלחוטי בקרבת מקום](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). כתובות ה-MAC של נקודות גישה אלחוטיות סמוכות היו דרך פופולרית עבור אפליקציות לעקוב אחר מיקומו של משתמש.
+- [הרשאות מדיה מפורטות](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions) יותר, כלומר אתה יכול להעניק גישה לתמונות, סרטונים או קבצי אודיו בלבד.
+- שימוש ברקע בחיישנים מחייב כעת את הרשאת [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission).
+
+אפליקציה עשויה לבקש הרשאה עבור תכונה ספציפית שיש לה. לדוגמה, כל אפליקציה שיכולה לסרוק קודי QR תדרוש את אישור המצלמה. אפליקציות מסוימות יכולות לבקש יותר הרשאות ממה שהן צריכות.
+
+[Exodus](https://exodus-privacy.eu.org/) יכול להיות שימושי כאשר משווים אפליקציות שיש להן מטרות דומות. אם אפליקציה דורשת הרבה הרשאות ויש לה הרבה פרסום וניתוח זה כנראה סימן רע. אנו ממליצים להסתכל על העוקבים הבודדים ולקרוא את התיאורים שלהם במקום פשוט **לספור את הסכום הכולל** ולהנחה שכל הפריטים הרשומים שווים.
+
+!!! warning "אזהרה"
+
+    אם אפליקציה היא ברובה שירות מבוסס אינטרנט, המעקב עשוי להתרחש בצד השרת. [פייסבוק](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) מציג "ללא עוקבים" אבל בהחלט עוקב אחר תחומי העניין וההתנהגות של המשתמשים ברחבי האתר. אפליקציות עשויות להתחמק מזיהוי על ידי אי שימוש בספריות קוד סטנדרטיות המיוצרות על ידי תעשיית הפרסום, אם כי זה לא סביר.
+
+!!! note "הערה"
+
+    אפליקציות ידידותיות לפרטיות כגון [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) עשויות להציג עוקבים מסוימים כגון [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). ספרייה זו כוללת את [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) שיכולה לספק [הודעות דחיפה](https://en.wikipedia.org/wiki/Push_technology) באפליקציות. זה [המקרה](https://fosstodon.org/@bitwarden/109636825700482007) עם Bitwarden. זה לא אומר ש-Bitwarden משתמש בכל תכונות הניתוח שמסופקות על ידי Google Firebase Analytics.
 
 ## גישה למדיה
 
@@ -81,9 +117,9 @@ Fairphone, למשל, משווקת את המכשירים שלהם כמקבלים 
 
 אנדרואיד 7 ומעלה תומך ב-VPN Killswitch והוא זמין ללא צורך בהתקנת אפליקציות של צד שלישי. תכונה זו יכולה למנוע דליפות אם ה-VPN מנותק. ניתן למצוא אותו ב:gear: **הגדרות** ← **רשת & אינטרנט** ← **VPN** ← :gear: ← **חסום חיבורים ללא VPN**.
 
-## חילופי מצבים גלובליים
+## בוררים גלובליים
 
-למכשירי אנדרואיד מודרניים יש בוררים גלובליים לביטול Bluetooth ושירותי מיקום. אנדרואיד 12 הציגה את המתגים למצלמה ולמיקרופון. כאשר לא בשימוש, אנו ממליצים להשבית תכונות אלה. אפליקציות לא יכולות להשתמש בתכונות מושבתות (גם אם ניתנה להן הרשאה פרטנית) עד להפעלה מחדש.
+למכשירי אנדרואיד מודרניים יש בוררים גלובליים לביטול Bluetooth ושירותי מיקום. אנדרואיד 12 הציגה מתגים למצלמה ולמיקרופון. כאשר אינו בשימוש, אנו ממליצים להשבית את התכונות הללו. אפליקציות לא יכולות להשתמש בתכונות מושבתות (גם אם ניתנה הרשאה אישית) עד להפעלה מחדש.
 
 ## גוגל
 
@@ -91,38 +127,38 @@ Fairphone, למשל, משווקת את המכשירים שלהם כמקבלים 
 
 ### תוכנית הגנה מתקדמת
 
-אם יש לך חשבון Google, אנו מציעים להירשם ל[תוכנית ההגנה המתקדמת](https://landing.google.com/advancedprotection/). הוא זמין ללא עלות לכל מי שיש לו שני מפתחות אבטחה חומרה או יותר עם תמיכה ב[FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online).
+אם יש לך חשבון Google, אנו מציעים להירשם ל[תוכנית ההגנה המתקדמת](https://landing.google.com/advancedprotection/). הוא זמין ללא עלות לכל מי שיש לו שני מפתחות אבטחה חומרה או יותר עם תמיכה ב-[FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online).
 
 תוכנית ההגנה המתקדמת מספקת ניטור איומים משופר ומאפשרת:
 
-- אימות דו-גורמי מחמיר יותר; למשל שחייבים להשתמש ב-[FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** ואוסר את השימוש ב- [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) ו [OAuth](https://en.wikipedia.org/wiki/OAuth)
+- אימות דו-גורמי מחמיר יותר; למשל שחייבים להשתמש ב-[FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **** ואוסר את השימוש ב- [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) ו [OAuth](https://en.wikipedia.org/wiki/OAuth)
 - רק גוגל ואפליקציות צד שלישי מאומתות יכולות לגשת לנתוני החשבון
-- סריקה של הודעות דוא"ל נכנסות בחשבונות Gmail עבור ניסיונות [דיוג](https://en.wikipedia.org/wiki/Phishing#Email_phishing)
+- סריקה של הודעות אימייל נכנסות בחשבונות Gmail עבור ניסיונות [דיוג](https://en.wikipedia.org/wiki/Phishing#Email_phishing)
 - [סריקת דפדפן בטוחה](https://www.google.com/chrome/privacy/whitepaper.html#malware) מחמירה יותר עם Google Chrome
-- תהליך שחזור מחמיר יותר עבור חשבונות עם אישורים שאבדו
+- תהליך שחזור מחמיר עבור חשבונות עם אישורים שאבדו
 
- עבור משתמשים שמשתמשים בשירותי Google Play המועדפים (הנפוצים במערכות הפעלה שמגיעות בברירת מחדל), תוכנית ההגנה המתקדמת מגיעה גם עם [הטבות נוספות](https://support.google.com/accounts/answer/9764949?hl=en) כגון:
+ אם אתה משתמש בשירותי Google Play שאינם בארגז חול (נפוצים במערכות הפעלה במלאי), תוכנית ההגנה המתקדמת מגיעה גם עם [הטבות נוספות](https://support.google.com/accounts/answer/9764949?hl=en) כגון:
 
-- לא לאפשר התקנת אפליקציות מחוץ לחנות Google Play, חנות האפליקציות של ספק מערכת ההפעלה או דרך [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
-- סריקת התקן אוטומטית חובה עם [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
-- אזהרה לגבי יישומים לא מאומתים
+- לא מאפשר התקנת אפליקציה מחוץ לחנות Google Play, לחנות האפליקציות של ספק מערכת ההפעלה או דרך [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
+- סריקת מכשיר אוטומטי חובה עם [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
+- מזהיר אותך לגבי יישומים לא מאומתים
 
 ### עדכוני מערכת Google Play
 
 בעבר, עדכוני אבטחה אנדרואיד היו צריכים להישלח על ידי ספק מערכת ההפעלה. אנדרואיד הפכה מודולרית יותר החל מאנדרואיד 10, וגוגל יכולה לדחוף עדכוני אבטחה עבור **חלק** רכיבי מערכת באמצעות שירותי Play המועדפים.
 
-אם יש לך מכשיר EOL שנשלח עם אנדרואיד 10 ומעלה ואינך יכול להריץ אף אחת ממערכות ההפעלה המומלצות שלנו במכשיר שלך, סביר להניח שעדיף לך להישאר עם התקנת האנדרואיד של היצרן ציוד המקורי (בניגוד למערכת הפעלה שאינה מופיעה ברשימה כאן כגון LineageOS או /e/ OS). זה יאפשר לך לקבל **כמה**תיקוני אבטחה מגוגל, מבלי להפר את מודל האבטחה של אנדרואיד על ידי שימוש בנגזרת אנדרואיד לא מאובטחת והגדלת משטח ההתקפה שלך. אנו עדיין ממליצים לשדרג למכשיר נתמך בהקדם האפשרי.
+אם יש לך מכשיר EOL שנשלח עם אנדרואיד 10 ומעלה ואינך יכול להריץ אף אחת ממערכות ההפעלה המומלצות שלנו במכשיר שלך, סביר להניח שעדיף לך להישאר עם התקנת האנדרואיד של היצרן ציוד המקורי (בניגוד למערכת הפעלה שאינה מופיעה ברשימה כאן כגון LineageOS או /e/ OS). זה יאפשר לך לקבל **כמה** תיקוני אבטחה מגוגל, מבלי להפר את מודל האבטחה של אנדרואיד על ידי שימוש בנגזרת אנדרואיד לא מאובטחת והגדלת משטח ההתקפה שלך. אנו עדיין ממליצים לשדרג למכשיר נתמך בהקדם האפשרי.
 
 ### מזהה פרסום
 
-כל המכשירים עם שירותי Google Play מותקנים באופן אוטומטי מייצרים [>מזהה פרסום](https://support.google.com/googleplay/android-developer/answer/6048248?hl=en) המשמש לפרסום ממוקד. השבת תכונה זו כדי להגביל את הנתונים שנאספו עליך.
+כל המכשירים עם שירותי Google Play מותקנים באופן אוטומטי מייצרים [מזהה פרסום](https://support.google.com/googleplay/android-developer/answer/6048248?hl=en) המשמש לפרסום ממוקד. השבת תכונה זו כדי להגביל את הנתונים שנאספו עליך.
 
-בהפצות אנדרואיד עם [Google Play בארגז חול](https://grapheneos.org/usage#sandboxed-google-play), עבור אל :gear: **הגדרות** ← **אפליקציות** → **Google Play בארגז חול** ← **הגדרות גוגל** ← **מודעות**, ותבחר *מחק מזהה פרסום*.
+בהפצות אנדרואיד עם [Google Play בארגז חול](https://grapheneos.org/usage#sandboxed-google-play), עבור אל :gear: **הגדרות** ← **אפליקציות** ← **Google Play בארגז חול** ← **הגדרות גוגל** ← **מודעות**, ותבחר *מחק מזהה פרסום*.
 
 בהפצות אנדרואיד עם שירותי Google Play מורשים (כגון מערכת הפעלה ברירת מחדל), ההגדרה עשויה להיות באחד מכמה מיקומים. בדיקה
 
 - :gear: **הגדרות** ← **גוגל** ← **מודעות**
-- :gear: **הגדרות** ← **גוגל** ← **מודעות**
+- :gear: **הגדרות** ← **פרטיות** ← **מודעות**
 
 תינתן לך האפשרות למחוק את מזהה הפרסום שלך או *לבטל את הסכמתך למודעות מבוססות עניין*, זה משתנה בין הפצות OEM של אנדרואיד. אם מוצגת האפשרות למחוק את מזהה הפרסום המועדף. אם לא, הקפד לבטל את הסכמתך ולאפס את מזהה הפרסום שלך.
 
@@ -131,5 +167,3 @@ Fairphone, למשל, משווקת את המכשירים שלהם כמקבלים 
 [SafetyNet](https://developer.android.com/training/safetynet/attestation) וה[ממשק API של Play Integrity](https://developer.android.com/google/play/integrity) משמשים בדרך כלל עבור [אפליקציות בנקאיות](https://grapheneos.org/usage#banking-apps). אפליקציות בנקאות רבות יעבדו מצוין ב-GrapheneOS עם שירותי Play בארגז חול, אולם לחלק מהאפליקציות הלא פיננסיות יש מנגנוני אנטי-שיבוש גולמיים משלהם שעלולים להיכשל. GrapheneOS עובר את בדיקת `basicIntegrity`, אך לא את בדיקת האישור `ctsProfileMatch`. למכשירים עם אנדרואיד 8 ואילך יש תמיכה באישורי חומרה שלא ניתן לעקוף ללא מפתחות דלופים או פגיעויות חמורות.
 
 לגבי ארנק Google, אנו לא ממליצים על כך בשל [ מדיניות הפרטיות שלהם](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), הקובעת שעליך לבטל את הסכמתך אם אינך רוצה שדירוג האשראי והמידע האישי שלך ישותפו עם שירותי שיווק שותפים.
-
---8<-- "includes/abbreviations.he.txt"

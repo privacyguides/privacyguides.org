@@ -1,6 +1,7 @@
 ---
 title: "Cloud Storage"
 icon: material/file-cloud
+description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
 ---
 
 Many cloud storage providers require your full trust that they will not look at your files. The alternatives listed below eliminate the need for trust by either putting you in control of your data or by implementing E2EE.
@@ -29,7 +30,6 @@ If these alternatives do not fit your needs, we suggest you look into [Encryptio
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
 
-Proton Drive's mobile clients were released in December 2022 and are not yet open-source. Proton has historically delayed their source code releases until after initial product releases, and [plans to](https://www.reddit.com/r/ProtonDrive/comments/zf14i8/comment/izdwmme/?utm_source=share&utm_medium=web2x&context=3) release the source code by the end of 2023. Proton Drive desktop clients are still in development.
 
 ## Criteria
 
@@ -58,5 +58,3 @@ Our best-case criteria represents what we would like to see from the perfect pro
     - These clients should integrate with native OS tools for cloud storage providers, such as Files app integration on iOS, or DocumentsProvider functionality on Android.
 - Should support easy file-sharing with other users.
 - Should offer at least basic file preview and editing functionality on the web interface.
-
---8<-- "includes/abbreviations.tr.txt"

@@ -1,6 +1,7 @@
 ---
 title: "密码简介"
 icon: 'material/form-textbox-password'
+description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 
 密码是我们日常数字生活的重要组成部分。 我们用它们来保护我们的账户、我们的设备和我们的秘密。 尽管密码可能是挡在觊觎我们私人信息的对手前的唯一屏障，但人们并没有在密码上花很多心思，这往往导致使用的密码很容易被猜出或被破解。
@@ -108,5 +109,3 @@ Diceware是一种创建密码的方法，这种密码容易记忆，但很难猜
 ### 备份
 
 你应该在多个存储设备或云存储提供商上存储 [加密的](../encryption.md) 密码备份。 如果你的主要设备或你正在使用的服务发生意外，这可以帮助你访问你的密码。
-
---8<-- "includes/abbreviations.zh.txt"

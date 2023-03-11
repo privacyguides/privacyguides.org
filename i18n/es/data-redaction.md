@@ -1,6 +1,7 @@
 ---
 title: "Data and Metadata Redaction"
 icon: material/tag-remove
+description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
 ---
 
 Cuando compartas archivos, asegúrate de eliminar los metadatos asociados. Los archivos de imagen suelen incluir Datos [Exif](https://es.wikipedia.org/wiki/Exchangeable_image_file_format). A veces, las fotos incluyen incluso coordenadas GPS en los metadatos del archivo.
@@ -142,5 +143,3 @@ La aplicación ofrece múltiples formas de borrar los metadatos de las imágenes
 
 - Apps developed for open-source operating systems must be open-source.
 - Apps must be free and should not include ads or other limitations.
-
---8<-- "includes/abbreviations.es.txt"

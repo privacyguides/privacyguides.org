@@ -21,31 +21,31 @@
 *[entropy]: Una medición de qué tan impredecible puede ser algo
 *[EOL]: Fin de vida
 *[Exif]: Formato de imagen de archivo intercambiable
-*[FCM]: Firebase Cloud Messaging
-*[FDE]: Full Disk Encryption
-*[FIDO]: Fast IDentity Online
-*[fork]: A new software project created by copying an existing project and adding to it independently
-*[GDPR]: General Data Protection Regulation
-*[GPG]: GNU Privacy Guard (PGP implementation)
-*[GPS]: Global Positioning System
-*[GUI]: Graphical User Interface
-*[GnuPG]: GNU Privacy Guard (PGP implementation)
-*[HDD]: Hard Disk Drive
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
-*[HTTPS]: Hypertext Transfer Protocol Secure
-*[HTTP]: Hypertext Transfer Protocol
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
-*[ICCID]: Integrated Circuit Card Identifier
-*[IMAP]: Internet Message Access Protocol
-*[IMEI]: International Mobile Equipment Identity
-*[IMSI]: International Mobile Subscriber Identity
-*[IP]: Internet Protocol
-*[IPv4]: Internet Protocol version 4
-*[IPv6]: Internet Protocol version 6
-*[ISP]: Internet Service Provider
-*[ISPs]: Internet Service Providers
-*[JNI]: Java Native Interface
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
+*[FCM]: Mensajería virtual Firebase Cloud Messaging
+*[FDE]: Cifrado de disco completo
+*[FIDO]: Identidad rápida en línea
+*[fork]: Un nuevo proyecto de software creado copiando un proyecto existente y añadiéndole elementos de forma independiente
+*[GDPR]: Reglamento General de Protección de Datos
+*[GPG]: GNU Privacy Guard (implementación de PGP)
+*[GPS]: Sistema de Posicionamiento Global
+*[GUI]: Interfaz Gráfica de Usuario
+*[GnuPG]: GNU Privacy Guard (implementación de PGP)
+*[HDD]: Unidad de Disco Duro
+*[HOTP]: Contraseña de un solo uso basada en HMAC (Hash-based Message Authentication Code)
+*[HTTPS]: Protocolo de transferencia de hipertexto seguro
+*[HTTP]: Protocolo de transferencia de hipertexto
+*[hypervisor]: Software, firmware o hardware informático que reparte los recursos de una CPU entre varios sistemas operativos
+*[ICCID]: Identificador de tarjeta de circuito integrado
+*[IMAP]: Protocolo de acceso a mensajes de Internet
+*[IMEI]: Identidad internacional de equipos móviles
+*[IMSI]: Identidad de suscriptor móvil internacional
+*[IP]: Protocolo de internet
+*[IPv4]: Protocolo de Internet versión 4
+*[IPv6]: Protocolo de Internet versión 6
+*[ISP]: Proveedor de servicio de internet
+*[ISPs]: Proveedores de servicio de internet
+*[JNI]: Interfaz nativa de Java
+*[LUKS]: Configuración de clave unificada Linux (cifrado de disco completo)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier
@@ -71,25 +71,25 @@
 *[SELinux]: Security-Enhanced Linux
 *[SIM]: Subscriber Identity Module
 *[SMS]: Short Message Service (standard text messaging)
-*[SMTP]: Simple Mail Transfer Protocol
-*[SNI]: Server Name Indication
-*[SSD]: Solid-State Drive
-*[SSH]: Secure Shell
-*[SUID]: Set Owner User ID
-*[SaaS]: Software as a Service (cloud software)
-*[SoC]: System on Chip
-*[SSO]: Single sign-on
-*[TCP]: Transmission Control Protocol
-*[TEE]: Trusted Execution Environment
-*[TLS]: Transport Layer Security
-*[ToS]: Terms of Service
-*[TOTP]: Time-based One-Time Password
-*[TPM]: Trusted Platform Module
-*[U2F]: Universal 2nd Factor
-*[UEFI]: Unified Extensible Firmware Interface
-*[UDP]: User Datagram Protocol
-*[VPN]: Virtual Private Network
-*[VoIP]: Voice over IP (Internet Protocol)
-*[W3C]: World Wide Web Consortium
-*[XMPP]: Extensible Messaging and Presence Protocol
-*[PWA]: Progressive Web App
+*[SMTP]: Protocolo simple de transferencia de correo
+*[SNI]: Indicación del Nombre del Servidor
+*[SSD]: Unidad de disco duro de estado sólido
+*[SSH]: Shell seguro
+*[SUID]: Establecer ID de usuario propietario
+*[SaaS]: Software como servicio (software en la nube)
+*[SoC]: Sistema en chip
+*[SSO]: Inicio de sesión único
+*[TCP]: Protocolo de Control de Transmisión
+*[TEE]: Entorno de ejecución de confianza
+*[TLS]: Seguridad de la capa de transporte
+*[ToS]: Términos del Servicio
+*[TOTP]: Contraseña de un solo uso basada en el tiempo
+*[TPM]: Módulo de plataforma de confianza
+*[U2F]: Segundo factor universal
+*[UEFI]: Interfaz de firmware extensible unificada
+*[UDP]: Protocolo de Datagramas de Usuario
+*[VPN]: Red privada virtual
+*[VoIP]: Voz sobre IP (Protocolo de Internet)
+*[W3C]: Consorcio World Wide Web
+*[XMPP]: Protocolo extensible de mensajería y presencia
+*[PWA]: Aplicación web progresiva

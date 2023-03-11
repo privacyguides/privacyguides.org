@@ -1,9 +1,10 @@
 ---
 title: "צוברי חדשות"
 icon: material/rss
+description: These news aggregator clients let you keep up with your favorite blogs and news sites using internet standards like RSS.
 ---
 
-[צובר חדשות](https://en.wikipedia.org/wiki/News_aggregator) הוא דרך לשמור על קשר עם הבלוגים ואתרי החדשות האהובים עליך.
+A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to keep up with your favorite blogs and news sites.
 
 ## קליינטים צוברי חדשות
 
@@ -169,5 +170,3 @@ Reddit מאפשר לך להירשם ל subreddits באמצעות RSS.
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
     ```
-
---8<-- "includes/abbreviations.he.txt"

@@ -59,5 +59,3 @@ De manière plus générale, pour les plaintes en vertu du RGPD. Vous pouvez les
 Nous publierons toute nouvelle version de cette déclaration [ici](privacy-policy.md). Il se peut que nous modifiions la manière dont nous annonçons les changements dans les futures versions de ce document. Nous pouvons également mettre à jour nos coordonnées à tout moment sans annoncer de changement. Veuillez vous référer à la [politique de confidentialité](privacy-policy.md) pour obtenir les dernières informations de contact à tout moment.
 
 Un [historique](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) de révision complet de cette page peut être trouvé sur GitHub.
-
---8<-- "includes/abbreviations.fr.txt"

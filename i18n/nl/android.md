@@ -1,6 +1,7 @@
 ---
 title: "Android"
 icon: 'simple/android'
+description: Je kunt het besturingssysteem op jouw Android-telefoon vervangen door deze veilige en privacy respecterende alternatieven.
 ---
 
 ![Android logo](assets/img/android/android.svg){ align=right }
@@ -13,8 +14,9 @@ Het **Android Open Source Project** is een open-source mobiel besturingssysteem 
 
 Dit zijn de Android-besturingssystemen, apparaten en apps die wij aanbevelen om de beveiliging en privacy van jouw mobiele apparaat te maximaliseren. aanbeveling
 
-- [Algemeen Android-overzicht en -aanbevelingen :material-arrow-right-drop-circle:](os/android-overview.md)
-- [Waarom we GrapheneOS aanbevelen boven CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/)
+[Algemeen Android-overzicht en -aanbevelingen :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
+
+[Waarom we GrapheneOS aanbevelen boven CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
 
 ## AOSP-derivaten
 
@@ -41,7 +43,7 @@ Wij raden je aan een van deze aangepaste Android-besturingssystemen op jouw toes
     [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Bijdragen }
 
-DivestOS heeft geautomatiseerde kernel kwetsbaarheden ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), minder eigen blobs, een aangepaste [hosts](https://divested.dev/index.php?page=dnsbl) bestand, en [F-Droid](https://www.f-droid.org) als de app store. Zijn geharde WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), maakt [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) mogelijk voor alle architecturen en [network state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning), en ontvangt out-of-band updates.
+GrapheneOS ondersteunt [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), die draait [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) volledig sandboxed als elke andere gewone app. Dit betekent dat je kunt profiteren van de meeste Google Play-services, zoals [pushmeldingen](https://firebase.google.com/docs/cloud-messaging/), terwijl je volledige controle hebt over hun machtigingen en toegang, en terwijl je ze bevat in een specifiek [werkprofiel](os/android-overview.md#work-profile) of [gebruikersprofiel](os/android-overview.md#user-profiles) van jouw keuze.
 
 Google Pixel-telefoons zijn de enige apparaten die momenteel voldoen aan GrapheneOS's [hardware beveiligingseisen](https://grapheneos.org/faq#device-support).
 
@@ -61,11 +63,11 @@ Google Pixel-telefoons zijn de enige apparaten die momenteel voldoen aan Graphen
     [:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://divested.dev/index.php?page=donate){ .card-link title=Bijdragen }
 
-DivestOS heeft geautomatiseerde kernel kwetsbaarheden ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), minder propriëtaire blobs, en een aangepaste [hosts](https://divested.dev/index.php?page=dnsbl) bestand. waarschuwing DivestOS bevat ook kernelpatches van GrapheneOS en schakelt alle beschikbare kernelbeveiligingsfuncties in via [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). Alle kernels nieuwer dan versie 3.4 bevatten volledige pagina [sanitization](https://lwn.net/Articles/334747/) en alle ~22 Clang-gecompileerde kernels hebben [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) ingeschakeld.
+DivestOS heeft geautomatiseerde kernel kwetsbaarheden ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), minder propriëtaire blobs, en een aangepaste [hosts](https://divested.dev/index.php?page=dnsbl) bestand. Zijn geharde WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), maakt [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) mogelijk voor alle architecturen en [network state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning), en ontvangt out-of-band updates. DivestOS bevat ook kernelpatches van GrapheneOS en schakelt alle beschikbare kernelbeveiligingsfuncties in via [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). Alle kernels nieuwer dan versie 3.4 bevatten volledige pagina [sanitization](https://lwn.net/Articles/334747/) en alle ~22 Clang-gecompileerde kernels hebben [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) ingeschakeld.
 
-DivestOS implementeert enkele systeemhardingspatches die oorspronkelijk voor GrapheneOS zijn ontwikkeld. De software en firmware van mobiele toestellen worden slechts een beperkte tijd ondersteund, dus door nieuw te kopen wordt die levensduur zoveel mogelijk verlengd. 17.1 en hoger bevat GrapheneOS's per-netwerk volledige [MAC randomisatie](https://en.wikipedia.org/wiki/MAC_address#Randomization) optie, [`ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) controle, en automatische reboot/Wi-Fi/Bluetooth [timeout opties](https://grapheneos.org/features).
+DivestOS implementeert enkele systeemhardingspatches die oorspronkelijk voor GrapheneOS zijn ontwikkeld. DivestOS 16.0 en hoger implementeert GrapheneOS's [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) en SENSORS permission toggle, [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](android/grapheneos-vs-calyxos.md#additional-hardening), [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) [constification](https://en.wikipedia.org/wiki/Const_(computer_programming)), en partial [bionic](https://en.wikipedia.org/wiki/Bionic_(software)) hardening patchsets. 17.1 en hoger bevat GrapheneOS's per-netwerk volledige [MAC randomisatie](https://en.wikipedia.org/wiki/MAC_address#Randomization) optie, [`ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) controle, en automatische reboot/Wi-Fi/Bluetooth [timeout opties](https://grapheneos.org/features).
 
-CalyxOS bevat optioneel [microG](https://microg.org/), een gedeeltelijk open-source herimplementatie van Play Services die een bredere app compatibiliteit biedt. Het bundelt ook alternatieve locatiediensten: [Mozilla](https://location.services.mozilla.com/) en [DejaVu](https://github.com/n76/DejaVu). Op DivestOS is dat echter niet mogelijk; de ontwikkelaars werken hun apps bij via hun eigen F-Droid repositories ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) en [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). Wij raden aan de officiële F-Droid app uit te schakelen en [Neo Store](https://github.com/NeoApplications/Neo-Store/) te gebruiken met de DivestOS repositories ingeschakeld om die componenten up-to-date te houden. Voor andere apps gelden nog steeds onze aanbevolen methoden om ze te verkrijgen.
+DivestOS gebruikt F-Droid als standaard app store. Normaal gesproken raden we aan om F-Droid te vermijden vanwege de vele [beveiligingsproblemen](#f-droid). Op DivestOS is dat echter niet mogelijk; de ontwikkelaars werken hun apps bij via hun eigen F-Droid repositories ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) en [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). Wij raden aan de officiële F-Droid app uit te schakelen en [Neo Store](https://github.com/NeoApplications/Neo-Store/) te gebruiken met de DivestOS repositories ingeschakeld om die componenten up-to-date te houden. Voor andere apps gelden nog steeds onze aanbevolen methoden om ze te verkrijgen.
 
 !!! warning
 
@@ -77,7 +79,7 @@ CalyxOS bevat optioneel [microG](https://microg.org/), een gedeeltelijk open-sou
 
 Wanneer je een apparaat koopt, raden wij je aan er een zo nieuw als mogelijk te kopen. De software en firmware van mobiele apparaten worden slechts een beperkte tijd ondersteund, dus door nieuw te kopen wordt die levensduur zoveel mogelijk verlengd.
 
-Vermijd het kopen van telefoons van mobiele netwerkoperatoren. Deze hebben vaak een **vergrendelde bootloader** en bieden geen ondersteuning voor [OEM-ontgrendeling](https://source.android.com/devices/bootloader/locking_unlocking). Deze telefoonvarianten voorkomen dat je enige vorm van alternatieve Android-distributie installeert.
+Vermijd het kopen van telefoons van jouw mobiele provider. Deze hebben vaak een **vergrendelde bootloader** en bieden geen ondersteuning voor [OEM-ontgrendeling](https://source.android.com/devices/bootloader/locking_unlocking). Deze telefoonvarianten voorkomen dat je enige vorm van alternatieve Android-distributie installeert.
 
 Wees zeer **voorzichtig** met het kopen van tweedehands telefoons van online marktplaatsen. Controleer altijd de reputatie van de verkoper. Als het apparaat is gestolen, is het mogelijk [IMEI geblacklist](https://www.gsma.com/security/resources/imei-blacklisting/) is. Er is ook een risico dat je in verband wordt gebracht met de activiteiten van de vorige eigenaar.
 
@@ -101,9 +103,9 @@ Google Pixel-telefoons zijn de **enige** toestellen die we aanraden om te kopen.
     
     [:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
-Secure Elements zoals de Titan M2 zijn beperkter dan de Trusted Execution Environment van de processor die door de meeste andere telefoons gebruikt wordt, omdat ze alleen gebruikt worden voor geheimen opslag, hardware attestatie, en snelheidsbeperking van het invoeren van wachtwoorden, niet voor het draaien van "vertrouwde" programma's. Telefoons zonder een Secure Element moeten de TEE gebruiken voor *alle* van die functies, wat resulteert in een groter aanvalsoppervlak.
+Secure Elements zoals de Titan M2 zijn beperkter dan de Trusted Execution Environment van de processor die door de meeste andere telefoons gebruikt wordt, omdat ze alleen gebruikt worden voor geheimen opslag, hardware attestatie, en snelheidsbeperking van het invoeren van wachtwoorden, niet voor het draaien van "vertrouwde" programma's. Telefoons zonder een Secure Element moeten de TEE gebruiken voor *alle* van deze functies. Dat leidt tot een groter aanvalsoppervlak.
 
-Google Pixel-telefoons gebruiken een TEE OS genaamd Trusty dat [open-source](https://source.android.com/security/trusty#whyTrusty)is, in tegenstelling tot veel andere telefoons.
+Google Pixel-telefoons gebruiken een TEE OS genaamd Trusty dat [open-source](https://source.android.com/security/trusty#whyTrusty) is, in tegenstelling tot veel andere telefoons.
 
 De installatie van GrapheneOS op een Pixel telefoon is eenvoudig met hun [web installer](https://grapheneos.org/install/web). Als je zich niet op jouw gemak voelt om het zelf te doen en bereid bent om een beetje extra geld uit te geven, kijk dan eens naar de [NitroPhone](https://shop.nitrokey.com/shop). Deze zijn voorgeladen met GrapheneOS van het gerenommeerde bedrijf [Nitrokey](https://www.nitrokey.com/about).
 
@@ -116,7 +118,7 @@ Nog een paar tips voor de aanschaf van een Google Pixel:
 
 ## Algemene toepassingen
 
-De volgende OEM's worden alleen genoemd omdat zij telefoons hebben die compatibel zijn met de door ons aanbevolen besturingssystemen. Als je een nieuw toestel koopt, raden we alleen aan om een Google Pixel te kopen.
+Wij bevelen op deze site een groot aantal Android-apps aan. De hier vermelde apps zijn exclusief voor Android en verbeteren of vervangen specifiek belangrijke systeemfuncties.
 
 ### Shelter
 
@@ -169,7 +171,7 @@ Auditor voert attest en inbraakdetectie uit door:
 - De *auditor* kan een ander exemplaar van de Auditor app zijn of de [Remote Attestation Service](https://attestation.app).
 - De *auditor* registreert de huidige toestand en configuratie van de *auditee*.
 - Mocht er met het besturingssysteem van de *auditee worden geknoeid* nadat de koppeling is voltooid, dan zal de auditor op de hoogte zijn van de verandering in de toestand en de configuraties van het apparaat.
-- U zult op de hoogte worden gebracht van de wijziging.
+- Je zult op de hoogte worden gebracht van de wijziging.
 
 Er wordt geen persoonlijk identificeerbare informatie aan de attestatiedienst verstrekt. Wij raden je aan je aan te melden met een anonieme account en attestatie op afstand in te schakelen voor voortdurende controle.
 
@@ -199,7 +201,7 @@ De belangrijkste privacyfuncties zijn:
 
 - Automatisch verwijderen van [Exif](https://en.wikipedia.org/wiki/Exif) metadata (standaard ingeschakeld)
 - Gebruik van de nieuwe [Media](https://developer.android.com/training/data-storage/shared/media) API, daarom zijn [opslagmachtigingen](https://developer.android.com/training/data-storage) niet vereist
-- Microfoontoestemming niet vereist, tenzij u geluid wilt opnemen
+- Microfoontoestemming niet vereist, tenzij je geluid wilt opnemen
 
 !!! note
 
@@ -232,11 +234,11 @@ De belangrijkste privacyfuncties zijn:
 
 ### GrapheneOS App Store
 
-De app store van GrapheneOS is beschikbaar op [GitHub](https://github.com/GrapheneOS/Apps/releases). Het ondersteunt Android 12 en hoger en is in staat om zichzelf te updaten. De app store heeft standalone applicaties gebouwd door het GrapheneOS project zoals de [Auditor](https://attestation.app/), [Camera](https://github.com/GrapheneOS/Camera), en [PDF Viewer](https://github.com/GrapheneOS/PdfViewer). Als je op zoek bent naar deze applicaties, raden wij je ten zeerste aan ze te halen uit de app-winkel van GrapheneOS in plaats van de Play Store, omdat de apps in hun winkel zijn ondertekend door de eigen handtekening van het GrapheneOS-project waar Google geen toegang toe heeft.
+De app store van GrapheneOS is beschikbaar op [GitHub](https://github. com/GrapheneOS/Apps/releases). Het ondersteunt Android 12 en hoger en is in staat om zichzelf te updaten. De app store heeft losstaande applicaties gebouwd door het GrapheneOS project, zoals de [Auditor](https://attestation.app/), [Camera](https://github.com/GrapheneOS/Camera), en [PDF-viewer](https://github.com/GrapheneOS/PdfViewer). Als je op zoek bent naar deze applicaties, raden wij je ten zeerste aan ze te halen uit de app-winkel van GrapheneOS in plaats van de Play Store, omdat de apps in hun winkel zijn ondertekend door de eigen handtekening van het GrapheneOS-project waar Google geen toegang toe heeft.
 
 ### Aurora Store
 
-De Google Play Store vereist een Google-account om in te loggen, wat de privacy niet ten goede komt. U kunt dit omzeilen door een alternatieve client te gebruiken, zoals Aurora Store.
+De Google Play Store vereist een Google-account om in te loggen, wat de privacy niet ten goede komt. Je kunt dit omzeilen door een alternatieve client te gebruiken, zoals Aurora Store.
 
 !!! recommendation
 
@@ -257,7 +259,7 @@ Met de Aurora Store kun je geen betaalde apps downloaden met hun anonieme accoun
 
 Voor apps die worden uitgebracht op platforms als GitHub en GitLab, kun je misschien een RSS-feed toevoegen aan je [nieuwsaggregator](/news-aggregators) waarmee je nieuwe releases kunt volgen.
 
-![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![APK wijzigingen](./assets/img/android/rss-changes-light.png#only-light) ![APK wijzigingen](./assets/img/android/rss-changes-dark.png#only-dark)
+![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](./assets/img/android/rss-changes-light.png#only-light) ![APK Changes](./assets/img/android/rss-changes-dark.png#only-dark)
 
 #### GitHub
 
@@ -349,5 +351,3 @@ Dat gezegd zijnde, de [F-Droid](https://f-droid.org/en/packages/) en [IzzyOnDroi
 - Toepassingen op deze pagina mogen niet van toepassing zijn op andere softwarecategorieën op de site.
 - Algemene toepassingen moeten de kernfunctionaliteit van het systeem uitbreiden of vervangen.
 - Toepassingen moeten regelmatig worden bijgewerkt en onderhouden.
-
---8<-- "includes/abbreviations.nl.txt"

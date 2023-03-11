@@ -48,5 +48,3 @@ Nous hébergeons [des services internet](https://privacyguides.net) pour tester 
 Nous achetons occasionnellement des produits et des services dans le but de tester nos [outils recommandés](../tools.md).
 
 Nous travaillons toujours avec notre hôte fiscal (la Fondation Open Collective) pour recevoir des dons en crypto-monnaies. Pour l'instant, la comptabilité est irréalisable pour de nombreuses petites transactions, mais cela devrait changer à l'avenir. En attendant, si vous souhaitez faire un don important en crypto-monnaies (> 100 $), veuillez contacter [jonah@privacyguides.org](mailto:jonah@privacyguides.org).
-
---8<-- "includes/abbreviations.fr.txt"

@@ -36,5 +36,3 @@ We run a number of web services to test out features and promote cool decentrali
 - Availability: Semi-Public  
   We host Invidious primarily to serve embedded YouTube videos on our website, this instance is not intended for general-purpose use and may be limited at any time.
 - Source: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)
-
---8<-- "includes/abbreviations.hi.txt"

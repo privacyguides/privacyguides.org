@@ -1,6 +1,7 @@
 ---
 title: "דפדפני אינטרנט לנייד"
 icon: material/cellphone-information
+description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
 ---
 
 אלו הם דפדפני האינטרנט הניידים המומלצים כרגע והתצורות שלנו לגלישה רגילה/לא אנונימית באינטרנט. אם אתה צריך לגלוש באינטרנט באופן אנונימי, אתה צריך להשתמש [Tor](tor.md) במקום. באופן כללי, אנו ממליצים לשמור על הרחבות למינימום; יש להם גישה מוסמכת בתוך הדפדפן שלך, דורשים ממך לסמוך על המפתח, יכולים לגרום לך [להיות בולט](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), [ולהחליש](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) את בידוד האתר.
@@ -189,5 +190,3 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 
 - אסור לשכפל דפדפן מובנה או פונקציונליות מערכת הפעלה.
 - חייב להשפיע ישירות על פרטיות המשתמש, כלומר לא חייב פשוט לספק מידע.
-
---8<-- "includes/abbreviations.he.txt"

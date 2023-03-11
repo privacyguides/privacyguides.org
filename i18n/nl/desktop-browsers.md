@@ -1,6 +1,7 @@
 ---
 title: "Desktop Browsers"
 icon: material/laptop
+description: Firefox en Brave zijn onze aanbevelingen voor standaard/niet-anoniem browsen.
 ---
 
 Dit zijn momenteel onze aanbevolen mobiele webbrowsers en configuraties. In het algemeen raden we aan om extensies tot een minimum te beperken: ze hebben geprivilegieerde toegang binnen jouw browser, vereisen dat je de ontwikkelaar vertrouwt, kunnen je [doen opvallen](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), en [verzwakken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-Uchnm34/m/lDaXwQhzBAAJ) site-isolatie. In het algemeen raden wij aan jouw browserextensies tot een minimum te beperken; ze hebben bevoorrechte toegang binnen jouw browser, vereisen dat je de ontwikkelaar vertrouwt, kunnen je [doen opvallen](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), en [verzwakt](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) de site-isolatie.
@@ -258,7 +259,5 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
 
 - Mag geen ingebouwde browser- of OS-functionaliteit repliceren.
 - Moet rechtstreeks van invloed zijn op de privacy van de gebruiker, d.w.z. mag niet gewoon informatie verstrekken.
-
---8<-- "includes/abbreviations.nl.txt"
 
 [^1]: De implementatie van Brave wordt gedetailleerd beschreven op [Brave Privacy Updates: Partitionering van netwerkstatus voor privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).

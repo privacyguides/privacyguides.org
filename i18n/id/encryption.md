@@ -1,6 +1,7 @@
 ---
 title: "Perangkat Lunak Enkripsi"
 icon: material/file-lock
+description: Enkripsi data adalah satu-satunya cara untuk mengendalikan siapa saja yang dapat mengaksesnya. These tools allow you to encrypt your emails and any other files.
 ---
 
 Enkripsi data adalah satu-satunya cara untuk mengendalikan siapa saja yang dapat mengaksesnya. Jika saat ini Anda tidak menggunakan perangkat lunak enkripsi untuk perangkat penyimpanan, surel, atau berkas Anda, Anda seharusnya memilih opsi di sini.
@@ -353,5 +354,3 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - Operating System (FDE) encryption apps should utilize hardware security such as a TPM or Secure Enclave.
 - File encryption apps should have first- or third-party support for mobile platforms.
-
---8<-- "includes/abbreviations.id.txt"

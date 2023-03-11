@@ -1,6 +1,7 @@
 ---
 title: Email beveiliging
 icon: material/email
+description: E-mail is op vele manieren inherent onveilig, en dit zijn enkele van de redenen waarom het niet onze eerste keuze is voor veilige communicatie.
 ---
 
 E-mail is standaard een onveilige vorm van communicatie. Je kunt je e-mailbeveiliging verbeteren met tools als OpenPGP, die end-to-end encryptie toevoegen aan je berichten, maar OpenPGP heeft nog steeds een aantal nadelen in vergelijking met encryptie in andere berichtentoepassingen, en sommige e-mailgegevens kunnen nooit inherent worden versleuteld als gevolg van de manier waarop e-mail is ontworpen.
@@ -38,5 +39,3 @@ E-mail metadata wordt beschermd tegen externe waarnemers met [Opportunistic TLS]
 ### Waarom kan metadata niet E2EE zijn?
 
 E-mail metadata is van cruciaal belang voor de meest elementaire functionaliteit van e-mail (waar het vandaan komt, en waar het naartoe moet). E2EE was oorspronkelijk niet in de e-mailprotocollen ingebouwd; in plaats daarvan was extra software zoals OpenPGP nodig. Omdat OpenPGP-berichten nog steeds met traditionele e-mailproviders moeten werken, kan het niet de metagegevens van e-mail versleutelen, alleen de inhoud van het bericht zelf. Dat betekent dat zelfs wanneer OpenPGP wordt gebruikt, externe waarnemers veel informatie over jouw berichten kunnen zien, zoals wie je e-mailt, de onderwerpregels, wanneer je e-mailt, enz.
-
---8<-- "includes/abbreviations.nl.txt"

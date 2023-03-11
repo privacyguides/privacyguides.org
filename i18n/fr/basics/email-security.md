@@ -1,6 +1,7 @@
 ---
 title: Sécurité des emails
 icon: material/email
+description: L'email est intrinsèquement peu sûr à bien des égards, et voici quelques-unes des raisons pour lesquelles il n'est pas notre premier choix en matière de communications sécurisées.
 ---
 
 Le courrier électronique est une forme de communication non sécurisée par défaut. Vous pouvez améliorer la sécurité de votre courrier électronique avec des outils tels que OpenPGP, qui ajoute un chiffrement de bout en bout à vos messages, mais OpenPGP présente toujours un certain nombre d'inconvénients par rapport au chiffrement dans d'autres applications de messagerie, et certaines données de courrier électronique ne peuvent jamais être chiffrées de manière inhérente en raison de la manière dont le courrier électronique est conçu.
@@ -38,5 +39,3 @@ Les métadonnées des emails sont protégées des observateurs extérieurs par l
 ### Pourquoi les métadonnées ne peuvent-elles pas être E2EE?
 
 Les métadonnées des emails sont essentielles à la fonctionnalité la plus élémentaire d'un email (d'où il vient et où il doit aller). À l'origine, l'E2EE n'était pas intégré dans les protocoles d'emails, mais nécessitait un logiciel complémentaire comme OpenPGP. Comme les messages OpenPGP doivent toujours fonctionner avec les fournisseurs d'emails traditionnels, il ne peut pas chiffrer les métadonnées du mail, mais seulement le corps du message lui-même. Cela signifie que, même en utilisant OpenPGP, des observateurs extérieurs peuvent voir de nombreuses informations sur vos messages, comme l'identité de l'expéditeur, l'objet du message, le moment de l'envoi, etc.
-
---8<-- "includes/abbreviations.fr.txt"

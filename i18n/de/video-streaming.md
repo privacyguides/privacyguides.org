@@ -1,9 +1,10 @@
 ---
 title: "Video Streaming"
 icon: material/video-wireless
+description: These networks allow you to stream internet content without building an advertising profile based on your interests.
 ---
 
-The primary threat when using a video streaming platform is that your streaming habits and subscription lists could be used to profile you. You should combine these tools with a [VPN](vpn.md) or [Tor](https://www.torproject.org/) to make it harder to profile your usage.
+Die primäre Bedrohung bei der Nutzung einer Videostreaming-Plattform besteht darin, dass deine Streaming-Gewohnheiten und Abonnementlisten dazu verwendet werden könnten, um ein Profil von dir zu erstellen. Du solltest diese Tools zusammen mit einem [VPN](vpn.md) oder [Tor](https://www.torproject.org/) verwenden, damit nicht so leicht ein Nutzungsprofil von dir erstellt werden kann.
 
 ## LBRY
 
@@ -48,5 +49,3 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
 
 - Must not require a centralized account to view videos.
     - Decentralized authentication, such as via a mobile wallet's private key is acceptable.
-
---8<-- "includes/abbreviations.de.txt"

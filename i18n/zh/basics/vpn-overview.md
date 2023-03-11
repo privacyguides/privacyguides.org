@@ -1,11 +1,12 @@
 ---
 title: VPN概述
 icon: 资料/vpn
+description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
 ---
 
 虚拟专用网络是一种将你的网络末端延伸到世界其他地方的方式。 ISP可以看到进入和离开你的网络终端设备（即调制解调器）的互联网流量。
 
-互联网上普遍使用HTTPS等加密协议，因此他们可能无法准确看到你所发布或阅读的内容，但他们可以了解到你所请求的 [域](dns-overview.md#why-shouldnt-i-use-encrypted-dns)。
+Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
 VPN可以提供帮助，因为它可以将信任转移到世界其他地方的服务器上。 因此，ISP只看到你连接到了VPN，而对你传入的活动一无所知。
 
@@ -74,5 +75,3 @@ VPN在各种情况下仍可能对您有用，例如:
 - [免费VPN应用调查](https://www.top10vpn.com/free-vpn-app-investigation/)
 - [揭开隐蔽VPN所有者的面纱：101个VPN产品仅由23家公司运营](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
 - [这家中国公司秘密地在24个流行的应用程序背后寻求危险的权限](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
-
---8<-- "includes/abbreviations.zh.txt"

@@ -1,6 +1,7 @@
 ---
 title: "Desktop/PC"
 icon: simple/linux
+description: Linux distributions are commonly recommended for privacy protection and software freedom.
 ---
 
 Linux distributions are commonly recommended for privacy protection and software freedom. If you don't already use Linux, below are some distributions we suggest trying out, as well as some general privacy and security improvement tips that are applicable to many Linux distributions.
@@ -180,5 +181,3 @@ Our recommended operating systems:
 - Must support full-disk encryption during installation.
 - Must not freeze regular releases for more than 1 year. We [do not recommend](os/linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
 - Must support a wide variety of hardware.
-
---8<-- "includes/abbreviations.fa.txt"

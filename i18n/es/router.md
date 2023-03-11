@@ -1,6 +1,7 @@
 ---
 title: "Firmware del Router"
 icon: material/router-wireless
+description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
 ---
 
 A continuación se presentan algunos sistemas operativos alternativos, que pueden utilizarse en routers, puntos de acceso Wi-Fi, etc.
@@ -47,5 +48,3 @@ OPNsense se desarrolló originalmente como una bifurcación de [pfSense](https:/
 - Debe ser de código abierto.
 - Debe recibir actualizaciones de manera periódica.
 - Debe ser compatible con una amplia variedad de hardware.
-
---8<-- "includes/abbreviations.es.txt"

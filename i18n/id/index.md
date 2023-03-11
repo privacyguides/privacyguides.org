@@ -40,5 +40,3 @@ Mencoba untuk melindungi semua data Anda dari semua orang setiap saat tidaklah p
 [:material-hand-coin-outline:](about/donate.md){ title="Dukung proyek ini" }
 
 Ini penting bagi situs web seperti Privacy Guides untuk selalu mendapatkan informasi yang terbaru. Kami membutuhkan audiens kami untuk mengawasi pembaruan perangkat lunak untuk aplikasi yang terdaftar di situs kami dan mengikuti berita terbaru tentang penyedia yang kami rekomendasikan. Memang sulit untuk mengimbangi kecepatan internet yang begitu cepat, tetapi kami berusaha sebaik mungkin. Jika Anda menemukan kesalahan, merasa bahwa sebuah penyedia tidak seharusnya terdaftar, melihat penyedia yang memenuhi syarat tidak ada, merasa plugin peramban tidak lagi menjadi pilihan terbaik, atau menemukan masalah lain, silakan beri tahu kami.
-
---8<-- "includes/abbreviations.id.txt"

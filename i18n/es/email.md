@@ -1,6 +1,7 @@
 ---
 title: "Servicios de correo electrónico"
 icon: material/email
+description: Estos proveedores de correo electrónico ofrecen un lugar estupendo para almacenar tus mensajes de forma segura, y muchos ofrecen cifrado OpenPGP interoperable con otros proveedores.
 ---
 
 El correo electrónico es prácticamente necesario para utilizar cualquier servicio en línea. Sin embargo, no lo recomendamos para las conversaciones de persona a persona. En vez de utilizar el correo electrónico para comunicarse con otras personas, considere utilizar un servicio de mensajería instantánea que soporte el secreto de reenvío.
@@ -9,29 +10,41 @@ El correo electrónico es prácticamente necesario para utilizar cualquier servi
 
 Para todo lo demás, recomendamos una variedad de proveedores de correo electrónico basados en modelos sostenibles, además de características de seguridad y privacidad integradas.
 
+- [Proveedores de correo electrónico compatibles con OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
+- [Otros proveedores encriptados :material-arrow-right-drop-circle:](#more-providers)
+- [Servicios de alias de correo electrónico :material-arrow-right-drop-circle:](#email-aliasing-services)
+- [Opciones autoalojadas :material-arrow-right-drop-circle:](#self-hosting-email)
+
 ## Servicios compatibles con OpenPGP
 
-Estos proveedores soportan de manera nativa el cifrado/descifrado de OpenPGP, permitiendo que los correos electrónicos E2EE sean independientes del proveedor. Por ejemplo, un usuario de Proton Mail no puede enviar un mensaje E2EE a un usuario de Mailbox.org, o usted puede recibir notificaciones cifradas con OpenPGP desde servicios de internet que lo soporten.
+Estos proveedores soportan de forma nativa el cifrado/descifrado OpenPGP y el estándar Web Key Directory (WKD), lo que permite que los correos electrónicos E2EE sean independientes del proveedor. Por ejemplo, un usuario de Proton Mail podría enviar un mensaje E2EE a un usuario de Mailbox.org, o usted podría recibir notificaciones cifradas con OpenPGP desde servicios de Internet que lo admitan.
 
-!!! warning
+<div class="grid cards" markdown>
+
+- ![Logo Proton Mail](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Logo Mailbox.org](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+
+</div>
+
+!!! advertencia
 
     Al utilizar una tecnología de cifrado de extremo a extremo (E2EE, por sus siglas en inglés) como OpenPGP, los correos aún tendrán algunos metadatos que no son encriptados en el encabezado del correo. Más información sobre los [metadatos de correo electrónico](basics/email-security.md#email-metadata-overview).
     
-    OpenPGP tampoco soporta el secreto de reenvío, lo que significa si la clave privada del receptos es robada, todos los mensajes cifrados previamente con ella, serán expuestos. [¿Cómo puedo proteger mis claves privadas?](basics/email-security.md#how-do-i-protect-my-private-keys)
+    OpenPGP tampoco soporta el secreto de reenvío, lo que significa si la clave privada del receptor es robada, todos los mensajes cifrados previamente con ella, serán expuestos. [¿Cómo puedo proteger mis claves privadas?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### Proton Mail
 
 !!! recomendación
 
-    ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
+    ![Logo Proton Mail](assets/img/email/protonmail.svg){ align=right }
     
     **Proton Mail** es un servicio de correo electrónico con un enfoque en la privacidad, el cifrado, la seguridad y la facilidad de uso. Ellos operan desde **2013**. Proton AG tiene su sede en Ginebra, Suiza. Las cuentas inician con 500 MB de almacenamiento en el plan gratuito.
     
     [:octicons-home-16: Página principal](https://proton.me/mail){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+    [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Servicio Onion" }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Politica de privacidad" }
+    [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Código fuente" }
     
     ??? descargas
     
@@ -43,172 +56,179 @@ Estos proveedores soportan de manera nativa el cifrado/descifrado de OpenPGP, pe
         - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
         - [:octicons-browser-16: Web](https://mail.proton.me)
 
-Las cuentas gratuitas tienen algunas limitaciones, como no poder buscar texto en el contenido, y no tener acceso a [Proton Mail Bridge](https://proton.me/mail/bridge), que es requerido para utilizar un [cliente recomendado de correo electrónico para escritorio](email-clients.md) (como Thunderbird). Las cuentas de pago incluyen características como Proton Mail Bridge, almacenamiento adicional y soporte para dominios personalizados. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+Las cuentas gratuitas tienen algunas limitaciones, como no poder buscar texto en el contenido, y no tener acceso a [Proton Mail Bridge](https://proton.me/mail/bridge), que es requerido para utilizar un [cliente recomendado de correo electrónico para escritorio](email-clients.md) (como Thunderbird). Las cuentas de pago incluyen características como Proton Mail Bridge, almacenamiento adicional y soporte para dominios personalizados. Se proporcionó una carta de certificación [](https://proton.me/blog/security-audit-all-proton-apps) para las aplicaciones de Proton Mail el 9 de noviembre de 2021 por [Securitum](https://research.securitum.com).
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](#simplelogin) Premium for free.
+Si tiene el plan Proton Unlimited, Business o Visionary, también obtendrá [SimpleLogin](#simplelogin) Premium de forma gratuita.
 
-Proton Mail has internal crash reports that they **do not** share with third parties. This can be disabled in: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
+Proton Mail tiene informes de errores internos que **no** comparten con terceros. Puede desactivarse en: **Ajustes** > **Ir a Ajustes** > **Cuenta** > **Seguridad y privacidad** > **Enviar informes de fallos**.
 
-??? success "Custom Domains and Aliases"
+#### :material-check:{ .pg-green } Dominios personalizados y alias
 
-    Paid Proton Mail subscribers can use their own domain with the service or a [catch-all](https://proton.me/support/catch-all) address. Proton Mail also supports [subaddressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+Los suscriptores de pago de Proton Mail pueden utilizar su propio dominio con el servicio o una dirección [catch-all](https://proton.me/support/catch-all). Proton Mail también admite la subdirección [](https://proton.me/support/creating-aliases), útil para quienes no desean adquirir un dominio.
 
-??? success "Private Payment Methods"
+#### :material-check:{ .pg-green } Métodos de pago privados
 
-    Proton Mail [accepts](https://proton.me/support/payment-options) Bitcoin and cash by mail in addition to standard credit/debit card and PayPal payments.
+Proton Mail [acepta](https://proton.me/support/payment-options) dinero en efectivo por correo, además de tarjeta de crédito/débito estándar, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), y pagos por PayPal.
 
-??? success "Account Security"
+#### :material-check:{ .pg-green } Seguridad de las cuentas
 
-    Proton Mail supports TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) only. The use of a U2F security key is not yet supported. Proton Mail is planning to implement U2F upon completion of their [Single Sign On (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/) code.
+Proton Mail sólo admite la autenticación de dos factores TOTP [](https://proton.me/support/two-factor-authentication-2fa). Todavía no se admite el uso de una clave de seguridad U2F. Proton Mail tiene previsto implantar U2F una vez completado su código [Single Sign On (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/).
 
-??? success "Data Security"
+#### :material-check:{ .pg-green } Seguridad de los datos
 
-    Proton Mail has [zero-access encryption](https://proton.me/blog/zero-access-encryption) at rest for your emails and [calendars](https://proton.me/news/protoncalendar-security-model). Data secured with zero-access encryption is only accessible by you.
-    
-    Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are not secured with zero-access encryption. Contact fields that support zero-access encryption, such as phone numbers, are indicated with a padlock icon.
+Proton Mail tiene [cifrado de acceso cero](https://proton.me/blog/zero-access-encryption) en reposo para sus correos electrónicos y [calendarios](https://proton.me/news/protoncalendar-security-model). Los datos protegidos con cifrado de acceso cero sólo son accesibles para usted.
 
-??? success "Email Encryption"
+Cierta información almacenada en [Contactos de Proton](https://proton.me/support/proton-contacts), como nombres para mostrar y direcciones de correo electrónico, no está protegida con cifrado de acceso cero. Los campos de contacto que admiten cifrado de acceso cero, como los números de teléfono, se indican con un icono de candado.
 
-    Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to-use-pgp) in their webmail. Emails to other Proton Mail accounts are encrypted automatically, and encryption to non-Proton Mail addresses with an OpenPGP key can be enabled easily in your account settings. They also allow you to [encrypt messages to non-Proton Mail addresses](https://proton.me/support/password-protected-emails) without the need for them to sign up for a Proton Mail account or use software like OpenPGP.
-    
-    Proton Mail also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily, for cross-provider E2EE.
+#### :material-check:{ .pg-green } Cifrado de correo electrónico
 
-??? warning "Digital Legacy"
+Proton Mail ha [integrado el cifrado OpenPGP](https://proton.me/support/how-to-use-pgp) en su webmail. Los correos electrónicos a otras cuentas de Proton Mail se cifran automáticamente, y el cifrado a direcciones que no sean de Proton Mail con una clave OpenPGP pueden ser habilitados fácilmente en la configuración de su cuenta. También le permiten encriptar [mensajes a direcciones que no sean de Proton Mail](https://proton.me/support/password-protected-emails) sin necesidad de que se suscriban a una cuenta de Proton Mail o utilicen software como OpenPGP.
 
-    Proton Mail doesn't offer a digital legacy feature.
+Proton Mail también admite el descubrimiento de claves públicas a través de HTTP desde su [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Esto permite a las personas que no utilizan Proton Mail encontrar fácilmente las claves OpenPGP de las cuentas de Proton Mail, para E2EE entre proveedores.
 
-??? info "Account Termination"
+#### :material-alert-outline:{ .pg-orange } Legado digital
 
-    If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinquent and won't receive incoming mail. You will continue to be billed during this period.
+Proton Mail no ofrece la función de legado digital.
 
-??? check "Aplicaciones móviles"
+#### :material-information-outline:{ .pg-blue } Cancelación de la cuenta
 
-    Proton Mail offers an "Unlimited" account for €9.99/Month, which also enables access to Proton VPN in addition to providing multiple accounts, domains, aliases, and 500GB of storage.
+Si tiene una cuenta de pago y su factura [no se paga](https://proton.me/support/delinquency) después de 14 días, no podrá acceder a sus datos. Transcurridos 30 días, su cuenta se convertirá en morosa y no recibirá correo entrante. Se le seguirá facturando durante este periodo.
+
+#### Funcionalidad adicional de :material-information-outline:{ .pg-blue }
+
+Proton Mail ofrece una cuenta "Ilimitada" por 9,99 euros al mes, que también permite acceder a Proton VPN además de proporcionar múltiples cuentas, dominios, alias y 500 GB de almacenamiento.
 
 ### Mailbox.org
 
 !!! recomendación
 
-    ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
+    ![Logo de Mailbox.org](assets/img/email/mailboxorg.svg){ align=right }
     
-    **Mailbox.org** is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with 2 GB of storage, which can be upgraded as needed.
+    **Mailbox.org** es un servicio de correo electrónico centrado en ser seguro, sin publicidad y alimentado de forma privada con energía 100% ecológica. Llevan en funcionamiento desde 2014. Mailbox.org tiene su sede en Berlín, Alemania. Las cuentas empiezan con 2 GB de almacenamiento, que pueden ampliarse según sea necesario.
     
-    [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+    [:octicons-home-16: Inicio](https://mailbox.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Politica de privacidad" }
+    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentación}
     
-    ??? downloads
+    ??? descargas
     
         - [:octicons-browser-16: Web](https://login.mailbox.org)
 
-??? success "Custom Domains and Aliases"
+#### :material-check:{ .pg-green } Dominios personalizados y alias
 
-    Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) addresses. Mailbox.org also supports [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), which is useful if you don't want to purchase a domain.
+Mailbox.org le permite utilizar su propio dominio y admite las direcciones [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain). Mailbox.org también es compatible con [subdireccionamiento](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), lo que es útil si no desea comprar un dominio.
 
-??? info "Private Payment Methods"
+#### :material-check:{ .pg-green } Métodos de pago privados
 
-    Mailbox.org doesn't accept Bitcoin or any other cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept Cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
+Mailbox.org no acepta criptomonedas debido a que su procesador de pagos BitPay suspendió sus operaciones en Alemania. Sin embargo, aceptan el pago por correo, el pago en efectivo en cuenta bancaria, la transferencia bancaria, la tarjeta de crédito, PayPal y un par de procesadores específicos alemanes: paydirekt y Sofortüberweisung.
 
-??? success "Account Security"
+#### :material-check:{ .pg-green } Seguridad de las cuentas
 
-    Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [Yubikey](https://en.wikipedia.org/wiki/YubiKey) via the [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
+Mailbox.org soporta [autenticación de doble factor](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) solo para su correo web. Puedes utilizar TOTP o una [Yubikey](https://en.wikipedia.org/wiki/YubiKey) a través de [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Los estándares web como [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) aún no son compatibles.
 
-??? info "Data Security"
+#### :material-information-outline:{ .pg-blue } Seguridad de los datos
 
-    Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). New messages that you receive will then be immediately encrypted with your public key.
-    
-    However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that information.
+Mailbox.org permite el cifrado del correo entrante usando su [buzón cifrado](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). Los nuevos mensajes que recibas se cifrarán inmediatamente con tu clave pública.
 
-??? success "Email Encryption"
+Sin embargo, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), la plataforma de software utilizada por Mailbox.org, [no admite](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) el cifrado de su libreta de direcciones y calendario. Una [opción independiente](calendar.md) puede ser más apropiada para esa información.
 
-    Mailbox.org has [integrated encryption](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
-    
-    Mailbox.org also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily, for cross-provider E2EE.
+#### :material-check:{ .pg-green } Cifrado de correo electrónico
 
-??? success "Digital Legacy"
+Mailbox.org tiene [cifrado integrado](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) en su correo web, lo que simplifica el envío de mensajes a personas con claves públicas OpenPGP. También permiten a [destinatarios remotos descifrar un correo electrónico](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) en los servidores de Mailbox.org. Esta característica es útil cuando el destinatario remoto no tiene OpenPGP y no puede descifrar una copia del correo electrónico en su propio buzón de correo.
 
-    Mailbox.org has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
+Mailbox.org también admite el descubrimiento de claves públicas a través de HTTP desde su [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Esto permite a personas ajenas a Mailbox.org encontrar fácilmente las claves OpenPGP de las cuentas de Mailbox.org, para E2EE entre proveedores.
 
-??? info "Account Termination"
+#### :material-check:{ .pg-green } Legado digital
 
-    Your account will be set to a restricted user account when your contract ends, after [30 days it will be irrevocably deleted](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Mailbox.org tiene una función de legado digital para todos los planes. Puede elegir si desea que alguno de sus datos se transmita a los herederos, siempre que lo soliciten y aporten su testamento. También puede designar a una persona por su nombre y dirección.
 
-??? check "Aplicaciones móviles"
+#### :material-information-outline:{ .pg-blue } Cancelación de la cuenta
 
-    You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). However, their webmail interface cannot be accessed via their .onion service and you may experience TLS certificate errors.
-    
-    All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+Su cuenta se convertirá en una cuenta de usuario restringida cuando finalice su contrato, después de [30 días se eliminará irrevocablemente](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+
+#### :material-information-outline:{ .pg-blue } Funciones adicionales
+
+Puede acceder a su cuenta de Mailbox.org a través de IMAP/SMTP utilizando su [servicio.onion](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). Sin embargo, no se puede acceder a su interfaz de correo web a través de su servicio .onion y es posible que se produzcan errores de certificado TLS.
+
+Todas las cuentas vienen con un almacenamiento limitado en la nube que [se puede cifrar](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org también ofrece el alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), que impone el cifrado TLS en la conexión entre servidores de correo; de lo contrario, el mensaje no se enviará en absoluto. Mailbox.org también admite [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) además de protocolos de acceso estándar como IMAP y POP3.
+
+## Más proveedores
+
+Estos proveedores almacenan tus correos electrónicos con cifrado de conocimiento cero, lo que los convierte en excelentes opciones para mantener seguros tus correos electrónicos almacenados. Sin embargo, no admiten normas de cifrado interoperables para las comunicaciones E2EE entre proveedores.
+
+<div class="grid cards" markdown>
+
+- ![Logotipo de StartMail](assets/img/email/startmail.svg#only-light){ .twemoji }![Logotipo de StartMail](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
+- ![Logotipo de Tutanota](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+
+</div>
 
 ### StartMail
 
 !!! recomendación
 
-    ![StartMail logo](assets/img/email/startmail.svg#only-light){ align=right }
-    ![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ align=right }
+    ![Logotipo de StartMail](assets/img/email/startmail.svg#only-light){ align=right }
+    ![Logotipo de StartMail](assets/img/email/startmail-dark.svg#only-dark){ align=right }
     
-    **StartMail** is an email service with a focus on security and privacy through the use of standard OpenPGP encryption. StartMail has been in operation since 2014 and is based in Boulevard 11, Zeist Netherlands. Accounts start with 10GB. They offer a 30-day trial.
+    **StartMail** es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso del cifrado estándar OpenPGP. StartMail lleva en funcionamiento desde 2014 y tiene su sede en Boulevard 11, Zeist Países Bajos. Las cuentas empiezan con 10GB. Ofrecen una prueba de 30 días.
     
-    [:octicons-home-16: Homepage](https://www.startmail.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentation}
+    [:octicons-home-16: Inicio](https://www.startmail.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Politica de privacidad" }
+    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentación}
     
-    ??? downloads
+    ??? descargas
     
         - [:octicons-browser-16: Web](https://mail.startmail.com/login)
 
-??? success "Custom Domains and Aliases"
+#### :material-check:{ .pg-green } Dominios personalizados y alias
 
-    Personal accounts can use [Custom or Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) aliases. [Custom domains](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) are also available.
+Las cuentas personales pueden utilizar alias[ personalizados o rápidos](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases). [Los dominios personalizados](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) también están disponibles.
 
-??? warning "Private Payment Methods"
+#### :material-alert-outline:{ .pg-orange } Métodos de pago privados
 
-    StartMail accepts Visa, MasterCard, American Express and Paypal. StartMail also has other [payment options](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) such as Bitcoin (currently only for Personal accounts) and SEPA Direct Debit for accounts older than a year.
+StartMail acepta Visa, MasterCard, American Express y Paypal. StartMail también dispone de otras opciones de pago [](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) como [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (actualmente sólo para cuentas Personales) y Débito Directo SEPA para cuentas de más de un año.
 
-??? success "Account Security"
+#### :material-check:{ .pg-green } Seguridad de las cuentas
 
-    StartMail supports TOTP two factor authentication [for webmail only](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). They do not allow U2F security key authentication.
+StartMail admite la autenticación de doble factor TOTP [sólo para webmail](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). No permiten la autenticación con clave de seguridad U2F.
 
-??? info "Data Security"
+#### :material-information-outline:{ .pg-blue } Seguridad de los datos
 
-    StartMail has [zero access encryption at rest](https://www.startmail.com/en/whitepaper/#_Toc458527835), using their "user vault" system. When you log in, the vault is opened, and the email is then moved to the vault out of the queue where it is decrypted by the corresponding private key.
-    
-    StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) however, they are only accessible in the webmail and not through protocols such as [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacts are also not stored using zero knowledge encryption.
+StartMail dispone de [cifrado de acceso cero en reposo](https://www.startmail.com/en/whitepaper/#_Toc458527835), utilizando su sistema de "bóveda de usuario". Cuando te conectas, se abre la bóveda y el correo electrónico se traslada a la bóveda fuera de la cola, donde se desencripta con la clave privada correspondiente.
 
-??? success "Email Encryption"
+StartMail admite la importación de [contactos](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts), sin embargo, solo se puede acceder a ellos en el correo web y no a través de protocolos como [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Los contactos tampoco se almacenan utilizando el cifrado de conocimiento cero.
 
-    StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys.
+#### :material-check:{ .pg-green } Cifrado de correo electrónico
 
-??? warning "Digital Legacy"
+StartMail tiene [cifrado integrado](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) en su correo web, lo que simplifica el envío de mensajes cifrados con claves públicas OpenPGP. Sin embargo, no son compatibles con el estándar Web Key Directory, lo que hace que el descubrimiento de la clave pública de un buzón de correo Startmail sea más difícil para otros proveedores de correo electrónico o clientes.
 
-    StartMail does not offer a digital legacy feature.
+#### :material-alert-outline:{ .pg-orange } Legado digital
 
-??? info "Account Termination"
+StartMail no ofrece una función de legado digital.
 
-    On account expiration, StartMail will permanently delete your account after [6 months in 3 phases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
+#### :material-information-outline:{ .pg-blue } Cancelación de la cuenta
 
-??? check "Aplicaciones móviles"
+Al vencimiento de la cuenta, StartMail eliminará permanentemente su cuenta después de [6 meses en 3 fases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
 
-    StartMail allows for proxying of images within emails. If you allow the remote image to be loaded, the sender won't know what your IP address is.
+#### :material-information-outline:{ .pg-blue } Funciones adicionales
 
-## More Providers
+StartMail permite el proxy de imágenes dentro de los correos electrónicos. Si permite que se cargue la imagen remota, el remitente no sabrá cuál es su dirección IP.
 
-These providers store your emails with zero-knowledge encryption, making them great options for keeping your stored emails secure. However, they don't support interoperable encryption standards for E2EE communications between providers.
-
-### Solo software como servicio (ScuS)
+### Tutanota
 
 !!! recomendación
 
-    ![Tutanota logo](assets/img/email/tutanota.svg){ align=right }
+    ![Logo de Tutanota](assets/img/email/tutanota.svg){ align=right }
     
-    **Tutanota** is an email service with a focus on security and privacy through the use of encryption. Tutanota has been in operation since **2011** and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan.
+    **Tutanota** es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso de cifrado. Tutanota lleva en funcionamiento desde **2011** y tiene su sede en Hannover, Alemania. Las cuentas empiezan con 1Gb de almacenamiento con su plan gratuito.
     
-    [:octicons-home-16: Homepage](https://tutanota.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribute }
+    [:octicons-home-16: Inicio](https://tutanota.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Politica de privacidad" }
+    [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Código fuente" }
+    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribuir }
     
-    ??? downloads
+    ??? descargas
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
@@ -218,109 +238,116 @@ These providers store your emails with zero-knowledge encryption, making them gr
         - [:simple-linux: Linux](https://tutanota.com/#download)
         - [:octicons-browser-16: Web](https://mail.tutanota.com/)
 
-Tutanota doesn't support the [IMAP protocol](https://tutanota.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tutanota app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tutanota.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
+Tutanota no es compatible con el[protocolo IMAP](https://tutanota.com/faq/#imap) ni con el uso de[clientes de correo electrónico](email-clients.md)de terceros, y tampoco podrás añadir [cuentas de correo electrónico externas](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) a la aplicación Tutanota. Ni [importación de correo electrónico](https://github.com/tutao/tutanota/issues/630) ni [subcarpetas](https://github.com/tutao/tutanota/issues/927) son actualmente compatibles, aunque esto [está previsto que se cambie](https://tutanota.com/blog/posts/kickoff-import). Los correos electrónicos se pueden exportar [individualmente o por selección masiva](https://tutanota.com/howto#generalMail) por carpeta, lo que puede resultar incómodo si tiene muchas carpetas.
 
-??? success "Custom Domains and Aliases"
+#### :material-check:{ .pg-green } Dominios personalizados y alias
 
-    Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias) and [custom domains](https://tutanota.com/faq#custom-domain). Tutanota doesn't allow for [subaddressing (plus addresses)](https://tutanota.com/faq#plus), but you can use a [catch-all](https://tutanota.com/howto#settings-global) with a custom domain.
+Las cuentas de pago de Tutanota pueden usar hasta 5 [alias](https://tutanota.com/faq#alias) y [dominios personalizados](https://tutanota.com/faq#custom-domain). Tutanota no permite la [subdirección (más direcciones)](https://tutanota.com/faq#plus), pero puede utilizar un [catch-all](https://tutanota.com/howto#settings-global) con un dominio personalizado.
 
-??? warning "Private Payment Methods"
+#### :material-information-outline:{ .pg-blue } Métodos de pago privados
 
-    Tutanota only directly accepts credit cards and PayPal, however Bitcoin and Monero can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
+Tutanota solo acepta directamente tarjetas de crédito y PayPal, sin embargo, la [criptomoneda](cryptocurrency.md) se puede usar para comprar tarjetas de regalo a través de su [asociación](https://tutanota.com/faq/#cryptocurrency) con Proxystore.
 
-??? success "Account Security"
+#### :material-check:{ .pg-green } Seguridad de las cuentas
 
-    Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with either TOTP or U2F.
+Tutanota soporta [autenticación de dosble factor](https://tutanota.com/faq#2fa) con TOTP o U2F.
 
-??? success "Data Security"
+#### :material-check:{ .pg-green } Seguridad de los datos
 
-    Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). This means the messages and other data stored in your account are only readable by you.
+Tutanota dispone de [cifrado de acceso cero en reposo](https://tutanota.com/faq#what-encrypted) para sus correos electrónicos, [contactos de la libreta de direcciones](https://tutanota.com/faq#encrypted-address-book), y [calendarios](https://tutanota.com/faq#calendar). Esto significa que sólo tú puedes leer los mensajes y otros datos almacenados en tu cuenta.
 
-??? warning "Email Encryption"
+#### :material-information-outline:{ .pg-blue } Cifrado de correo electrónico
 
-    Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
+Tutanota [no utiliza OpenPGP](https://www.tutanota.com/faq/#pgp). Las cuentas de Tutanota sólo pueden recibir correos electrónicos cifrados de cuentas de correo electrónico que no son de tutanota cuando se envían a través de un [buzón temporal de Tutanota](https://www.tutanota.com/howto/#encrypted-email-external).
 
-??? warning "Digital Legacy"
+#### :material-alert-outline:{ .pg-orange } Legado digital
 
-    Tutanota doesn't offer a digital legacy feature.
+Tutanota no ofrece la función de legado digital.
 
-??? info "Account Termination"
+#### :material-information-outline:{ .pg-blue } Cancelación de la cuenta
 
-    Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
+Tutanota eliminará [las cuentas gratuitas inactivas](https://tutanota.com/faq#inactive-accounts) después de seis meses. Puedes reutilizar una cuenta gratuita desactivada si pagas.
 
-??? check "Aplicaciones móviles"
+#### :material-information-outline:{ .pg-blue } Funciones adicionales
 
-    Tutanota offers the business version of [Tutanota to non-profit organizations](https://tutanota.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
-    
-    Tutanota also has a business feature called [Secure Connect](https://tutanota.com/secure-connect/). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
+Tutanota ofrece la versión empresarial [a las organizaciones sin ánimo de lucro](https://tutanota.com/blog/posts/secure-email-for-non-profit) de forma gratuita o con un importante descuento.
 
-## Email Aliasing Services
+Tutanota también tiene una función para empresas llamada [Secure Connect](https://tutanota.com/secure-connect/). Esto garantiza que el contacto del cliente con la empresa utilice E2EE. La función cuesta 240 €/año.
 
-An email aliasing service allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your email provider. True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like yourname+[anythinghere]@example.com, because websites, advertisers, and tracking networks can trivially remove anything after the + sign to know your true email address.
+## Servicios de alias de correo
 
-Email aliasing can act as a safeguard in case your email provider ever ceases operation. In that scenario, you can easily re-route your aliases to a new email address. In turn, however, you are placing trust in the aliasing service to continue functioning.
+Un servicio de alias de correo electrónico le permite generar fácilmente una nueva dirección de correo electrónico para cada sitio web en el que se registre. Los alias de correo electrónico que genera se reenvían a una dirección de correo electrónico de su elección, ocultando tanto su dirección de correo electrónico "principal" como la identidad de su proveedor de correo electrónico. El verdadero alias de correo electrónico es mejor que el direccionamiento plus, comúnmente utilizado y admitido por muchos proveedores, que permite crear alias como tunombre+[anythinghere]@ejemplo.com, porque los sitios web, los anunciantes y las redes de seguimiento pueden eliminar trivialmente cualquier cosa después del signo + para conocer tu verdadera dirección de correo electrónico.
 
-Using a dedicated email aliasing service also has a number of benefits over a catch-all alias on a custom domain:
+<div class="grid cards" markdown>
 
-- Aliases can be turned on and off individually when you need them, preventing websites from emailing you randomly.
-- Replies are sent from the alias address, shielding your real email address.
+- ![Logo de AnonAddy](assets/img/email/anonaddy.svg#only-light){ .twemoji }![Logo deAnonAddy](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
+- ![Logo de SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
-They also have a number of benefits over "temporary email" services:
+</div>
 
-- Aliases are permanent and can be turned on again if you need to receive something like a password reset.
-- Emails are sent to your trusted mailbox rather than stored by the alias provider.
-- Temporary email services typically have public mailboxes which can be accessed by anyone who knows the address, aliases are private to you.
+El alias de correo electrónico puede servir de salvaguarda en caso de que su proveedor de correo electrónico deje de funcionar. En ese caso, puedes redirigir fácilmente tus alias a una nueva dirección de correo electrónico. A su vez, sin embargo, estás depositando tu confianza en que el servicio de alias siga funcionando.
 
-Our email aliasing recommendations are providers that allow you to create aliases on domains they control, as well as your own custom domain(s) for a modest yearly fee. They can also be self-hosted if you want maximum control. However, using a custom domain can have privacy-related drawbacks: If you are the only person using your custom domain, your actions can be easily tracked across websites simply by looking at the domain name in the email address and ignoring everything before the at (@) sign.
+Utilizar un servicio dedicado de alias de correo electrónico también tiene una serie de ventajas sobre un alias general en un dominio personalizado:
 
-Using an aliasing service requires trusting both your email provider and your aliasing provider with your unencrypted messages. Some providers mitigate this slightly with automatic PGP encryption, which reduces the number of parties you need to trust from two to one by encrypting incoming emails before they are delivered to your final mailbox provider.
+- Los alias pueden activarse y desactivarse individualmente cuando los necesites, evitando que los sitios web te envíen correos electrónicos al azar.
+- Las respuestas se envían desde la dirección de alias, ocultando tu dirección de correo electrónico real.
+
+También tienen una serie de ventajas sobre los servicios de "correo electrónico temporal":
+
+- Los alias son permanentes y pueden volver a activarse si necesitas recibir algo como un restablecimiento de contraseña.
+- Los correos electrónicos se envían a tu buzón de confianza en lugar de ser almacenados por el proveedor de alias.
+- Los servicios de correo electrónico temporal suelen tener buzones públicos a los que puede acceder cualquiera que conozca la dirección, los alias son privados para ti.
+
+Nuestras recomendaciones de alias de correo electrónico son proveedores que le permiten crear alias en dominios que ellos controlan, así como en su(s) propio(s) dominio(s) personalizado(s) por una módica cuota anual. También pueden ser autoalojados si desea el máximo control. Sin embargo, utilizar un dominio personalizado puede tener inconvenientes relacionados con la privacidad: Si eres la única persona que utiliza tu dominio personalizado, tus acciones pueden ser fácilmente rastreadas a través de sitios web simplemente mirando el nombre del dominio en la dirección de correo electrónico e ignorando todo lo que hay antes del signo arroba (@).
+
+Utilizar un servicio de alias requiere confiar, tanto a tu proveedor de correo electrónico como a tu proveedor de alias, tus mensajes sin cifrar. Algunos proveedores mitigan esto ligeramente con el cifrado automático PGP, que reduce el número de partes en las que tienes que confiar de dos a una al cifrar los correos entrantes antes de que lleguen a tu proveedor de buzón final.
 
 ### AnonAddy
 
 !!! recomendación
 
-    ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ align=right }
-    ![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
+    ![Logo de AnonAddy](assets/img/email/anonaddy.svg#only-light){ align=right }
+    ![Logo de AnonAddy](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
     
-    **AnonAddy** lets you create 20 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
+    **AnonAddy** te permite crear 20 alias de dominio en un dominio compartido de forma gratuita, o alias "estándar" ilimitados que son menos anónimos.
     
-    [:octicons-home-16: Homepage](https://anonaddy.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: Inicio](https://anonaddy.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://anonaddy.com/privacy/){ .card-link title="Politica de privacidad" }
+    [:octicons-info-16:](https://app.anonaddy.com/docs/){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Código fuente" }
+    [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribuir }
     
-    ??? downloads
+    ??? descargas
     
         - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-GB/firefox/addon/anonaddy/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/anonaddy-anonymous-email/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
-The number of shared aliases (which end in a shared domain like @anonaddy.me) that you can create is limited to 20 on AnonAddy's free plan and 50 on their $12/year plan. You can create unlimited standard aliases (which end in a domain like @[username].anonaddy.com or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Unlimited shared aliases are available for $36/year.
+El número de alias compartidos (que terminan en un dominio compartido como @anonaddy.me) que puedes crear está limitado a 20 en el plan gratuito de AnonAddy y a 50 en su plan de 12 $/año. Puedes crear un número ilimitado de alias estándar (que terminan en un dominio como @[username].anonaddy.com o un dominio personalizado en los planes de pago), sin embargo, como se ha mencionado anteriormente, esto puede ir en detrimento de la privacidad porque la gente puede relacionar trivialmente tus alias estándar basándose únicamente en el nombre de dominio. Hay disponibles alias compartidos ilimitados por 36 $/año.
 
-Notable free features:
+Funciones gratuitas destacables:
 
-- [x] 20 Shared Aliases
-- [x] Unlimited Standard Aliases
-- [ ] No Outgoing Replies
-- [x] 2 Recipient Mailboxes
-- [x] Automatic PGP Encryption
+- [x] 20 Alias compartidos
+- [x] Alias estándar ilimitados
+- [ ] No hay respuestas salientes
+- [x] 2 Buzones de destinatarios
+- [x] Cifrado PGP automático
 
 ### SimpleLogin
 
 !!! recomendación
 
-    ![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
+    ![Logo de Simplelogin](assets/img/email/simplelogin.svg){ align=right }
     
-    **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
+    **SimpleLogin** es un servicio gratuito que proporciona alias de correo electrónico en una variedad de nombres de dominio compartidos, y opcionalmente proporciona características de pago como alias ilimitados y dominios personalizados.
     
-    [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
+    [:octicons-home-16: Inicio](https://simplelogin.io){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Politica de privacidad" }
+    [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Código fuente" }
     
-    ??? downloads
+    ??? descargas
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
@@ -330,88 +357,88 @@ Notable free features:
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
         - [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
 
-SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin is a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing. Securitum [audited](https://simplelogin.io/blog/security-audit/) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
+SimpleLogin fue [adquirida por Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) a partir del 8 de abril de 2022. Si utiliza Proton Mail para su buzón principal, SimpleLogin es una gran elección. Como ambos productos pertenecen ahora a la misma empresa, ahora sólo tiene que confiar en una única entidad. También esperamos que SimpleLogin se integre más estrechamente con las ofertas de Proton en el futuro. SimpleLogin sigue siendo compatible con el reenvío a cualquier proveedor de correo electrónico de su elección. Securitum [auditado](https://simplelogin.io/blog/security-audit/) SimpleLogin a principios de 2022 y todos los problemas [fueron resueltos](https://simplelogin.io/audit2022/web.pdf).
 
-You can link your SimpleLogin account in the settings with your Proton account. If you have the Proton Unlimited, Business, or Visionary Plan, you will have SimpleLogin Premium for free.
+Puedes vincular tu cuenta SimpleLogin en la configuración con tu cuenta Proton. Si tienes el plan Proton Unlimited, Business o Visionary, tendrás SimpleLogin Premium gratis.
 
-Notable free features:
+Funciones gratuitas destacables:
 
-- [x] 10 Shared Aliases
-- [x] Unlimited Replies
-- [x] 1 Recipient Mailbox
+- [x] 10 Alias compartidos
+- [x] Respuestas ilimitadas
+- [x] 1 buzón de destinatario
 
-## Nuestro criterio
+## Correo de auto-alojamiento
 
-Advanced system administrators may consider setting up their own email server. Mail servers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.
+Los administradores de sistemas avanzados pueden plantearse crear su propio servidor de correo electrónico. Los servidores de correo requieren atención y un mantenimiento continuo para mantener la seguridad y la fiabilidad de la entrega del correo.
 
-### Combined software solutions
-
-!!! recomendación
-
-    ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
-    
-    **Mailcow** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: A mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
-    
-    [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
+### Soluciones de software combinadas
 
 !!! recomendación
 
-    ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
+    ![Logo de Mailcow](assets/img/email/mailcow.svg){ align=right }
     
-    **Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
+    **Mailcow** es un servidor de correo más avanzado perfecto para aquellos con un poco más de experiencia en Linux. Tiene todo lo que necesitas en un contenedor Docker: Un servidor de correo con soporte DKIM, antivirus, monitorización de spam, webmail, ActiveSync con SOGo y administración basada en web con soporte 2FA.
     
-    [:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
+    [:octicons-home-16: Inicio](https://mailcow.email){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Código fuente" }
+    [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribuir }
 
-For a more manual approach we've picked out these two articles:
+!!! recomendación
 
-- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
-- [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
+    ![Logo de Mail-in-a-Box](assets/img/email/mail-in-a-box.svg){ align=right }
+    
+    **Mail-in-a-Box** es un script de configuración automatizada para desplegar un servidor de correo en Ubuntu. Su objetivo es facilitar a los usuarios la instalación de su propio servidor de correo.
+    
+    [:octicons-home-16: Inicio](https://mailinabox.email){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Código fuente" }
 
-## Criteria
+Para un enfoque más manual, hemos seleccionado estos dos artículos:
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any Email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an Email provider, and conduct your own research to ensure the Email provider you choose is the right choice for you.
+- [Configuración de un servidor de correo con OpenSMTPD, Dovecot y Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
+- [Cómo gestionar tu propio servidor de correo](https://www.c0ffee.net/blog/mail-server-guide/) (agosto de 2017)
+
+## Criterios
+
+**Tenga en cuenta que no estamos afiliados a ninguno de los proveedores que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos para cualquier proveedor de Email que desee ser recomendado, incluyendo la implementación de las mejores prácticas de la industria, tecnología moderna y más. Le sugerimos que se familiarice con esta lista antes de elegir un proveedor de correo electrónico, y que realice su propia investigación para asegurarse de que el proveedor de correo electrónico que elija sea la opción adecuada para usted.
 
 ### Tecnología
 
-We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider which has the features you require.
+Consideramos que estas características son importantes para ofrecer un servicio seguro y óptimo. Debe considerar si el proveedor tiene las características que necesita.
+
+**Mínimo para calificar:**
+
+- Cifra los datos de las cuentas de correo electrónico en reposo con cifrado de acceso cero.
+- Capacidad de exportación como [Mbox](https://en.wikipedia.org/wiki/Mbox) o .eml individual con [RFC5322](https://datatracker.ietf.org/doc/rfc5322/) estándar.
+- Permitir a los usuarios utilizar su propio [nombre de dominio](https://en.wikipedia.org/wiki/Domain_name). Los nombres de dominio personalizados son importantes para los usuarios porque les permiten mantener su agencia del servicio, en caso de que éste se estropee o sea adquirido por otra empresa que no dé prioridad a la privacidad.
+- Operaciones en infraestructura propia, es decir, no construidas sobre proveedores de servicios de correo electrónico de terceros.
 
 **Mejor caso:**
 
-- Encrypts email account data at rest with zero-access encryption.
-- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322/) standard.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
-- Operates on owned infrastructure, i.e. not built upon third-party email service providers.
-
-**Best Case:**
-
-- Encrypts all account data (Contacts, Calendars, etc) at rest with zero-access encryption.
-- Integrated webmail E2EE/PGP encryption provided as a convenience.
-- Support for [WKD](https://wiki.gnupg.org/WKD) to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key by typing: `gpg --locate-key example_user@example.com`
-- Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
-- Availability of the email provider's services via an [onion service](https://en.wikipedia.org/wiki/.onion).
-- [Subaddressing](https://en.wikipedia.org/wiki/Email_address#Subaddressing) support.
-- Catch-all or alias functionality for those who own their own domains.
-- Use of standard email access protocols such as IMAP, SMTP or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
+- Cifra todos los datos de la cuenta (contactos, calendarios, etc.) en reposo con cifrado de acceso cero.
+- Cifrado integrado de correo web E2EE/PGP proporcionado como una conveniencia.
+- Compatibilidad con [WKD](https://wiki.gnupg.org/WKD) para permitir un mejor descubrimiento de claves OpenPGP públicas a través de HTTP. Los usuarios de GnuPG pueden obtener una clave escribiendo: `gpg --locate-key usuario_ejemplo@ejemplo.com`
+- Soporte para un buzón temporal para usuarios externos. Esto es útil cuando quieres enviar un correo electrónico encriptado, sin enviar una copia real a tu destinatario. Estos correos electrónicos suelen tener una vida útil limitada y luego se eliminan automáticamente. Tampoco requieren que el destinatario configure ninguna criptografía como OpenPGP.
+- Disponibilidad de los servicios del proveedor de correo electrónico a través de un [ servicio onion](https://en.wikipedia.org/wiki/.onion).
+- Soporte de [subdireccionamiento](https://en.wikipedia.org/wiki/Email_address#Subaddressing).
+- Funcionalidad Catch-all o alias para aquellos que poseen sus propios dominios.
+- Utilización de protocolos estándar de acceso al correo electrónico como IMAP, SMTP o [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Los protocolos de acceso estándar garantizan que los clientes puedan descargar fácilmente todo su correo electrónico en caso de que quieran cambiar de proveedor.
 
 ### Privacidad
 
-We prefer our recommended providers to collect as little data as possible.
+Preferimos que nuestros proveedores recomendados recojan la menor cantidad de datos posible.
 
-**Mejor caso:**
+**Mínimo para calificar:**
 
-- Protect sender's IP address. Filter it from showing in the `Received` header field.
+- Proteger la dirección IP del remitente. Filtrarlo para que no aparezca en el campo de cabecera `Recibido`.
 - Don't require personally identifiable information (PII) besides a username and a password.
 - Privacy policy that meets the requirements defined by the GDPR
 - Must not be hosted in the US due to [ECPA](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act#Criticism) which has [yet to be reformed](https://epic.org/ecpa/).
 
 **Best Case:**
 
-- Accepts Bitcoin, cash, and other forms of cryptocurrency and/or anonymous payment options (gift cards, etc.)
+- Accepts [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
 
 ### Seguridad
 
@@ -428,7 +455,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 - Valid [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
 - Valid [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
 - Have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
-- A server suite preference of TLS 1.2 or later and a plan for [Deprecating TLSv1.0 and TLSv1.1](https://datatracker.ietf.org/doc/draft-ietf-tls-oldversions-deprecate/).
+- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996/).
 - [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
 - Website security standards such as:
     - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
@@ -443,7 +470,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 - Programas de recompensa de errores y/o un proceso coordinado de divulgación de vulnerabilidades.
 - Website security standards such as:
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
-    - [Expect-CT](https://datatracker.ietf.org/doc/draft-ietf-httpbis-expect-ct)
+    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
 
 ### Confianza
 
@@ -481,5 +508,3 @@ Must not have any marketing which is irresponsible:
 ### Funcionalidades adicionales
 
 While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
-
---8<-- "includes/abbreviations.es.txt"

@@ -1,6 +1,7 @@
 ---
 title: "Заметки"
 icon: material/notebook-edit-outline
+description: These encrypted note-taking apps let you keep track of your notes without giving them to a third-party.
 ---
 
 Сохраняйте свои заметки и дневники, не передавая их третьим лицам.
@@ -111,5 +112,3 @@ Cryptee предлагает 100 МБ хранилища бесплатно, а 
 
 - Функции локального резервного копирования/синхронизации должны поддерживать шифрование.
 - Облачные платформы должны поддерживать обмен документами.
-
---8<-- "includes/abbreviations.ru.txt"

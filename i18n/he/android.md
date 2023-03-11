@@ -1,6 +1,7 @@
 ---
 title: "אנדרואיד"
 icon: 'simple/android'
+description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
 ---
 
 ![לוגו אנדרואיד](assets/img/android/android.svg){ align=right }
@@ -13,8 +14,9 @@ icon: 'simple/android'
 
 אלו הן מערכות ההפעלה, המכשירים והאפליקציות של אנדרואיד שאנו ממליצים על מנת למקסם את האבטחה והפרטיות של המכשיר הנייד שלך. למידע נוסף על אנדרואיד:
 
-- [סקירה כללית של אנדרואיד :material-arrow-right-drop-circle:](os/android-overview.md)
-- [מדוע אנו ממליצים על GrapheneOS על פני CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/)
+[סקירה כללית של אנדרואיד :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
+
+[מדוע אנו ממליצים על GrapheneOS על פני CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
 
 ## נגזרות AOSP
 
@@ -41,9 +43,9 @@ icon: 'simple/android'
     [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="קוד מקור" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=תרומה }
 
-GrapheneOS תומך ב-[Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), המריץ את [שירותי ](https://en.wikipedia.org/wiki/Google_Play_Services)Google Play בארגז חול מלא כמו כל אפליקציה רגילה אחרת. המשמעות היא שאתה יכול לנצל את רוב שירותי Google Play, כגון [הודעות דחיפה](https://firebase.google.com/docs/cloud-messaging/), תוך מתן שליטה מלאה על ההרשאות והגישה שלהם, ובזמן שהם מכילים אותם ל[פרופיל עבודה](os/android-overview.md#work-profile) או [פרופיל משתמש](os/android-overview.md#user-profiles) לבחירתך.
+GrapheneOS תומך ב-[Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), המריץ את [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) בארגז חול מלא כמו כל אפליקציה רגילה אחרת. משמעות הדבר היא שאתה יכול לנצל את רוב שירותי Google Play, כגון [הודעות דחיפה](https://firebase.google.com/docs/cloud-messaging/), תוך מתן שליטה מלאה על ההרשאות והגישה שלהם, ותוך כדי הכללתן ב[פרופיל עבודה](os/android-overview.md#work-profile) או [פרופיל משתמש](os/android-overview.md#user-profiles) ספציפי לבחירתך.
 
-טלפונים של Google Pixel הם המכשירים היחידים שעומדים כעת ב[דרישות אבטחת החומרה](https://grapheneos.org/faq#device-support) של GrapheneOS.
+טלפונים של Google Pixel הם המכשירים היחידים שעומדים כרגע ב[דרישות אבטחת החומרה](https://grapheneos.org/faq#device-support) של GrapheneOS.
 
 ### DivestOS
 
@@ -63,9 +65,9 @@ GrapheneOS תומך ב-[Sandboxed Google Play](https://grapheneos.org/usage#sand
 
 ל - DivestOS יש פגיעות ליבה ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [שמתוקן](https://gitlab.com/divested-mobile/cve_checker) אוטומטית, פחות בועות קנייניות, וקובץ [מארחים](https://divested.dev/index.php?page=dnsbl) מותאם. ה-WebView המוקשה שלו, [Mulch](https://gitlab.com/divested-mobile/mulch), מאפשר [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) עבור כל הארכיטקטורות ו[חלוקת מצבי רשת](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning), ומקבל עדכונים מחוץ לפס. DivestOS כוללת גם תיקוני ליבה מ-GrapheneOS ומאפשרת את כל תכונות האבטחה הזמינות של הליבה באמצעות [הקשחת defconfig](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). כל הליבות החדשות יותר מגרסה 3.4 כוללים עמוד מלא [חיטוי](https://lwn.net/Articles/334747/) ולכל ~22 הליבות המחוברים יש Clang [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) מופעל.
 
-DivestOS מיישמת כמה תיקוני הקשחת מערכת שפותחו במקור עבור GrapheneOS. DivestOS 16.0 ומעלה מיישמת את החלפת הרשאות [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) וחיישנים של GrapheneOS, [מקצית זיכרון מוקשחת](https://github.com/GrapheneOS/hardened_malloc), [השרצת מנהלים](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/#additional-hardening), [קונסטיפיקציה](https://en.wikipedia.org/wiki/Const_(computer_programming)) של [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) ותיקוני התקשות [ביונית](https://en.wikipedia.org/wiki/Bionic_(software)) חלקית. תכונות 17.1 ומעלה של GrapheneOS לכל רשת [אפשרות אקראיות מלאה של ](https://en.wikipedia.org/wiki/MAC_address#Randomization)MAC, בקרת [`ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) ואתחול אוטומטי/Wi-Fi/Bluetooth [אפשרויות פסק זמן](https://grapheneos.org/features).
+DivestOS מיישמת כמה תיקוני הקשחת מערכת שפותחו במקור עבור GrapheneOS. DivestOS 16.0 ומעלה מיישמת את החלפת הרשאות [`אינטרנט`](https://developer.android.com/training/basics/network-ops/connecting) וחיישנים של GrapheneOS, [מקצית זיכרון מוקשחת](https://github.com/GrapheneOS/hardened_malloc), [השרצת מנהלים](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/#additional-hardening), [קונסטיפיקציה](https://en.wikipedia.org/wiki/Const_(computer_programming)) של [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) ותיקוני התקשות [ביונית](https://en.wikipedia.org/wiki/Bionic_(software)) חלקית. תכונות 17.1 ומעלה של GrapheneOS לכל רשת [אפשרות אקראיות מלאה של ](https://en.wikipedia.org/wiki/MAC_address#Randomization)MAC, בקרת [`ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) ואתחול אוטומטי/Wi-Fi/Bluetooth [אפשרויות פסק זמן](https://grapheneos.org/features).
 
-DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת כברירת מחדל. בדרך כלל, אנו ממליצים להימנע מ-F-Droid עקב [בעיות האבטחה](#f-droid) הרבות שלו. עם זאת, לעשות זאת ב-DivestOS לא כדאי; המפתחים מעדכנים את האפליקציות שלהם באמצעות מאגרי F-Droid משלהם ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) ו- [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). אנו ממליצים להשבית את אפליקציית F-Droid הרשמית ולהשתמש ב[Neo Store](https://github.com/NeoApplications/Neo-Store/) כאשר מאגרי DivestOS מופעלים כדי לשמור על רכיבים אלה מעודכנים. לגבי אפליקציות אחרות, השיטות המומלצות שלנו להשגתן עדיין חלות.
+DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת כברירת מחדל. בדרך כלל, אנו ממליצים להימנע מ-F-Droid עקב [בעיות האבטחה](#f-droid) הרבות שלו. עם זאת, לעשות זאת ב-DivestOS לא כדאי; המפתחים מעדכנים את האפליקציות שלהם באמצעות מאגרי F-Droid משלהם ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) ו- [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). אנו ממליצים להשבית את אפליקציית F-Droid הרשמית ולהשתמש ב-[Neo Store](https://github.com/NeoApplications/Neo-Store/) עם מאגרי DivestOS מופעלים כדי לשמור על רכיבים אלה מעודכנים. לגבי אפליקציות אחרות, השיטות המומלצות שלנו להשגתן עדיין חלות.
 
 !!! warning "אזהרה"
 
@@ -77,9 +79,9 @@ DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת 
 
 בעת רכישת מכשיר, אנו ממליצים לרכוש אחד חדש ככל האפשר. התוכנה והקושחה של מכשירים ניידים נתמכות רק לזמן מוגבל, כך שקנייה חדשה מאריכה את תוחלת החיים עד כמה שניתן.
 
-הימנע מרכישת טלפונים ממפעילי רשתות סלולריות. לעתים קרובות יש להם **מטען אתחול נעול** ואינם תומכים ב[פתיחת נעילה של OEM](https://source.android.com/devices/bootloader/locking_unlocking). גרסאות טלפון אלה ימנעו ממך להתקין כל סוג של הפצת אנדרואיד חלופית.
+הימנע מרכישת טלפונים ממפעילי רשתות סלולריות. לאלה יש לרוב **מאתחול נעול** ואינם תומכים ב[פתיחת נעילה של OEM](https://source.android.com/devices/bootloader/locking_unlocking). גרסאות טלפון אלה ימנעו ממך להתקין כל סוג של הפצת אנדרואיד חלופית.
 
-היה מאוד **זהיר** לגבי קניית טלפונים יד שניה משוק מקוון. בדוק תמיד את המוניטין של המוכר. אם המכשיר נגנב, קיימת אפשרות ל[רשימה שחורה של IMEI](https://www.gsma.com/security/resources/imei-blacklisting/). קיים גם סיכון שכרוך בהיותך קשור לפעילות של הבעלים הקודם.
+היה מאוד **זהיר** בקניית טלפונים יד שנייה משוק אונליין. בדוק תמיד את המוניטין של המוכר. אם המכשיר נגנב, קיימת אפשרות ל[רשימה שחורה של IMEI](https://www.gsma.com/security/resources/imei-blacklisting/). קיים גם סיכון שכרוך בהיותך קשור לפעילות של הבעלים הקודם.
 
 עוד כמה טיפים לגבי מכשירי אנדרואיד ותאימות מערכות הפעלה:
 
@@ -89,7 +91,7 @@ DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת 
 
 ### גוגל פיקסל
 
-טלפונים של גוגל פיקסל הם המכשירים **היחידים** שאנו ממליצים לרכישה. לטלפונים של Pixel יש אבטחת חומרה חזקה יותר מכל מכשירי אנדרואיד אחרים הקיימים כיום בשוק, בשל תמיכת AVB נאותה עבור מערכות הפעלה של צד שלישי ושבבי אבטחה [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) הפועלים כאלמנט המאובטח.
+טלפונים של גוגל פיקסל הם המכשירים **היחידים** שאנו ממליצים לרכישה. לטלפונים של Pixel יש אבטחת חומרה חזקה יותר מכל מכשירי אנדרואיד אחרים הקיימים כיום בשוק, בשל תמיכת AVB נאותה עבור מערכות הפעלה של צד שלישי ושבבי האבטחה המותאמים אישית [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) של גוגל הפועלים כ-Secure Element.
 
 !!! recommendation
 
@@ -101,18 +103,18 @@ DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת 
     
     [:material-shopping: חנות](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
-רכיבים מאובטחים כמו Titan M2 מוגבלים יותר מסביבת הביצוע המהימנה של המעבד המשמשת את רוב הטלפונים האחרים מכיוון שהם משמשים רק לאחסון סודות, אישור חומרה והגבלת קצב, לא להפעלת תוכניות "מהימנות". טלפונים ללא Secure Element חייבים להשתמש ב-TEE עבור *כל* הפונקציות הללו, וכתוצאה מכך משטח התקפה גדול יותר.
+רכיבים מאובטחים כמו Titan M2 מוגבלים יותר מסביבת הביצוע המהימנה של המעבד המשמשת את רוב הטלפונים האחרים מכיוון שהם משמשים רק לאחסון סודות, הוכחת חומרה והגבלת קצב, לא להפעלת תוכניות "מהימנות". טלפונים ללא Secure Element חייבים להשתמש ב-TEE עבור *כל* הפונקציות הללו, וכתוצאה מכך משטח התקפה גדול יותר.
 
-טלפונים של Google Pixel משתמשים במערכת הפעלה TEE בשם Trusty שהיא [קוד פתוח](https://source.android.com/security/trusty#whyTrusty), בניגוד לטלפונים רבים אחרים.
+טלפונים של גוגל פיקסל משתמשים ב-TEE OS בשם Trusty שהיא [קוד פתוח](https://source.android.com/security/trusty#whyTrusty), בניגוד לטלפונים רבים אחרים.
 
-ההתקנה של GrapheneOS בטלפון Pixel קלה עם [מתקין האינטרנט](https://grapheneos.org/install/web) שלהם. אם אתה לא מרגיש בנוח לעשות את זה בעצמך ומוכן להוציא קצת כסף נוסף, בדוק את [NitroPhone](https://shop.nitrokey.com/shop) שהם מגיעים טעונים מראש עם GrapheneOS מחברת [Nitrokey](https://www.nitrokey.com/about) המכובדת.
+ההתקנה של GrapheneOS בטלפון Pixel קלה עם [מתקין האינטרנט שלהם](https://grapheneos.org/install/web). אם אתה לא מרגיש בנוח לעשות את זה בעצמך ומוכן להוציא קצת כסף נוסף, בדוק את ה-[NitroPhone](https://shop.nitrokey.com/shop) מכיוון שהם נטענים מראש עם GrapheneOS של חברת [Nitrokey](https://www.nitrokey.com/about) המכובדת.
 
 עוד כמה טיפים לרכישת Google Pixel:
 
 - אם אתה מחפש מציאה על מכשיר פיקסל, אנו מציעים לקנות דגם "**a**", מיד לאחר יציאת ספינת הדגל הבאה. הנחות זמינות בדרך כלל מכיוון שגוגל תנסה לסלק את המלאי שלה.
 - שקול אפשרויות מכות מחיר ומבצעים המוצעים בחנויות פיזיות.
-- עיין באתרי עסקאות מקוונים של קהילות במדינה שלך. אלה יכולים להתריע על מכירות טובות.
-- Google מספקת רשימה המציגה את [מחזור התמיכה](https://support.google.com/nexus/answer/4457705) עבור כל אחד מהמכשירים שלהם. המחיר ליום עבור מכשיר יכול להיות מחושב כך: $\text{עלות} \over \text {תאריך סוף החיים}-\text{דייט נוכחי}$, כלומר, ככל שהשימוש במכשיר ארוך יותר, העלות ליום נמוכה יותר.
+- עיין באתרי עסקאות אןנליין של קהילתיות במדינה שלך. אלה יכולים להתריע על מכירות טובות.
+- Google מספקת רשימה המציגה את [מחזור התמיכה](https://support.google.com/nexus/answer/4457705) עבור כל אחד מהמכשירים שלהם. ניתן לחשב את המחיר ליום עבור מכשיר כך: $\text{עלות} \מעל \text {תאריך EOL}-\text{תאריך נוכחי}$, כלומר ככל שהשימוש ארוך יותר במכשיר כך העלות ליום נמוכה יותר.
 
 ## אפליקציות כלליות
 
@@ -165,15 +167,15 @@ DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת 
 
 Auditor מבצע אישור וזיהוי חדירה על ידי:
 
-- שימוש במודל [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) בין *מבקר* ו*בודק*, הזוג יוצר מפתח פרטי ב[מגובת החומרה מאגר המפתחות](https://source.android.com/security/keystore/) של *מבקר*.
+- באמצעות מודל [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) בין *מבקר* ל*מבוקר*, הזוג יוצר מפתח פרטי ב[מאגר המפתחות המגובה בחומרה](https://source.android.com/security/keystore/) של ה*מבקר*.
 - *auditor* יכול להיות מופע אחר של אפליקציית Auditor או [שירות אישור מרחוק](https://attestation.app).
-- ה*auditor* מתעד את המצב והתצורה הנוכחיים של ה*auditee*.
+- המבקר רושם את המצב הנוכחי ואת התצורה של המבוקר. ה*auditor* מתעד את המצב והתצורה הנוכחיים של ה*auditee*.
 - אם התעסקות במערכת ההפעלה של ה*auditee* תתרחש לאחר השלמת ההתאמה, המבקר יהיה מודע לשינוי במצב המכשיר ובתצורות.
 - תקבל התראה על השינוי.
 
 לא נמסר מידע מזהה אישי לשירות האישורים. אנו ממליצים להירשם עם חשבון אנונימי ולאפשר אישור מרחוק לניטור רציף.
 
-אם [מודל האיום](basics/threat-modeling.md) שלך דורש פרטיות, תוכל לשקול להשתמש ב-[Orbot](tor.md#orbot) או ב-VPN כדי הסתר את כתובת ה-IP שלך משירות האישורים. כדי לוודא שהחומרה ומערכת ההפעלה שלך מקוריות, [בצע אישור מקומי](https://grapheneos.org/install/web#verifying-installation) מיד לאחר התקנת ההתקן ולפני כן לכל חיבור לאינטרנט.
+אם [מודל האיומים](basics/threat-modeling.md) שלך דורש פרטיות, תוכל לשקול להשתמש ב-[Orbot](tor.md#orbot)או ב-VPN כדי להסתיר את כתובת ה-IP שלך משירות האישורים. כדי לוודא שהחומרה ומערכת ההפעלה שלך מקוריות, [בצע אישור מקומי](https://grapheneos.org/install/web#verifying-installation) מיד לאחר התקנת המכשיר ולפני כל חיבור לאינטרנט.
 
 ### Secure Camera
 
@@ -198,7 +200,7 @@ Auditor מבצע אישור וזיהוי חדירה על ידי:
 תכונות הפרטיות העיקריות כוללות:
 
 - הסרה אוטומטית של מטא נתונים של [Exif](https://en.wikipedia.org/wiki/Exif) (מופעל כברירת מחדל)
-- שימוש בממשק ה-API החדש של [מדיה](https://developer.android.com/training/data-storage/shared/media), לכן [הרשאות אחסון](https://developer.android.com/training/data-storage) אינן נדרשות
+- שימוש בממשק ה-API החדש של ה[מדיה](https://developer.android.com/training/data-storage/shared/media), לכן אין צורך ב[הרשאות אחסון](https://developer.android.com/training/data-storage)
 - אין צורך בהרשאת מיקרופון אלא אם ברצונך להקליט קול
 
 !!! note "הערה"
@@ -232,7 +234,7 @@ Auditor מבצע אישור וזיהוי חדירה על ידי:
 
 ### GrapheneOS App Store
 
-חנות האפליקציות של GrapheneOS זמינה ב-[GitHub](https://github.com/GrapheneOS/Apps/releases). הוא תומך באנדרואיד 12 ומעלה ומסוגל לעדכן את עצמו. לחנות האפליקציות יש יישומים עצמאיים שנבנו על ידי פרויקט GrapheneOS כגון [Auditor](https://attestation.app/), [Camera](https://github.com/GrapheneOS/Camera) ו-[PDF Viewer](https://github.com/GrapheneOS/PdfViewer). אם אתם מחפשים אפליקציות אלו, אנו ממליצים בחום להשיג אותן מחנות האפליקציות של GrapheneOS במקום מחנות Play, שכן האפליקציות בחנות שלהן חתומות על ידי חתימת הפרויקט של ה-GrapheneOS שלגוגל אין גישה אליה.
+חנות האפליקציות של GrapheneOS זמינה ב-[GitHub](https://github.com/GrapheneOS/Apps/releases). הוא תומך באנדרואיד 12 ומעלה ומסוגל לעדכן את עצמו. לחנות האפליקציות יש יישומים עצמאיים שנבנו על ידי פרויקט GrapheneOS כגון [Auditor](https://attestation.app/), [Camera](https://github.com/GrapheneOS/Camera), ו- [PDF Viewer](https://github.com/GrapheneOS/PdfViewer). אם אתם מחפשים אפליקציות אלו, אנו ממליצים בחום להשיג אותן מחנות האפליקציות של GrapheneOS במקום מחנות Play, שכן האפליקציות בחנות שלהן חתומות על ידי חתימת הפרויקט של ה-GrapheneOS שלגוגל אין גישה אליה.
 
 ### Aurora Store
 
@@ -251,29 +253,29 @@ Auditor מבצע אישור וזיהוי חדירה על ידי:
     
         - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
-Aurora Store לא מאפשרת להוריד אפליקציות בתשלום עם תכונת החשבון האנונימי שלהן. אתה יכול לחלופין להתחבר עם חשבון Google שלך עם Aurora Store כדי להוריד אפליקציות שרכשת, מה שאכן נותן גישה לרשימת האפליקציות שהתקנת ל-Google, אולם אתה עדיין נהנה מכך שאינך דורש את לקוח Google Play המלא ואת Google Play שירותים או microG במכשיר שלך.
+Aurora Store לא מאפשרת להוריד אפליקציות בתשלום עם תכונת החשבון האנונימי שלהן. אתה יכול לחלופין להתחבר עם חשבון גוגל שלך ל-Aurora Store כדי להוריד אפליקציות שרכשת, מה שאכן נותן גישה לרשימת האפליקציות שהתקנת לגוגל, אולם אתה עדיין נהנה מכך שאינך דורש את לקוח Google Play המלא ואת Google Play Services או microG במכשיר שלך.
 
 ### התראות RSS באופן ידני
 
-עבור אפליקציות ששוחררו בפלטפורמות כמו GitHub ו-GitLab, ייתכן שתוכל להוסיף עדכון RSS ל[צובר החדשות](/news-aggregators) שלך שיעזור לך לעקוב אחר מהדורות חדשות.
+עבור אפליקציות שמשוחררות בפלטפורמות כמו GitHub ו-GitLab, ייתכן שתוכל להוסיף עדכון RSS ל[צובר החדשות](/news-aggregators) שלך שיעזור לך לעקוב אחר מהדורות חדשות.
 
 ![RSS APK](./assets/img/android/rss-apk-light.png#only-light) ![RSS APK](./assets/img/android/rss-apk-dark.png#only-dark) ![שינויים ב-APK](./assets/img/android/rss-changes-light.png#only-light) ![שינויים ב-APK](./assets/img/android/rss-changes-dark.png#only-dark)
 
 #### Github
 
-ב-GitHub, באמצעות [Secure Camera](#secure-camera) כדוגמה, תנווט אל [ שלה. דף מהדורות](https://github.com/GrapheneOS/Camera/releases) וצרף את `.atom` לכתובת האתר:
+ב-GitHub, באמצעות [Secure Camera](#secure-camera) כדוגמה, תנווט ל[דף ההפצות](https://github.com/GrapheneOS/Camera/releases) שלו ותוסיף את `.atom` לכתובת האתר:
 
 `https://github.com/GrapheneOS/Camera/releases.atom`
 
 #### GitLab
 
-ב-GitLab, באמצעות [Aurora Store](#aurora-store) כדוגמה, תנווט אל [מאגר הפרויקטים שלה ](https://gitlab.com/AuroraOSS/AuroraStore) והוסף את `/-/tags?format=atom` לכתובת האתר:
+ב-GitLab, באמצעות [Aurora Store](#aurora-store) כדוגמה, תנווט אל [מאגר הפרויקטים](https://gitlab.com/AuroraOSS/AuroraStore) שלו ותוסיף `/-/tags?format=atom` לכתובת האתר:
 
 `https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
 #### אימות טביעות אצבע של APK
 
-אם אתה מוריד קבצי APK להתקנה ידנית, תוכל לאמת את החתימה שלהם באמצעות [`apksigner`](https://developer.android.com/studio/command-line/apksigner) כלי, שהוא חלק מ[כלי בנייה](https://developer.android.com/studio/releases/build-tools) של אנדרואיד.
+אם אתה מוריד קבצי APK להתקנה ידנית, אתה יכול לאמת את החתימה שלהם עם הכלי [`apksigner`](https://developer.android.com/studio/command-line/apksigner), שהוא חלק מ[כלי הבנייה](https://developer.android.com/studio/releases/build-tools) של אנדרואיד.
 
 1. התקן [Java JDK](https://www.oracle.com/java/technologies/downloads/).
 
@@ -306,13 +308,13 @@ Aurora Store לא מאפשרת להוריד אפליקציות בתשלום עם
 
 ![לוגו F-Droid](assets/img/android/f-droid.svg){ align=right width=120px }
 
-==אנחנו **לא** ממליצים כרגע על F-Droid כדרך להשיג אפליקציות.== F-Droid מומלצת לעתים קרובות כחלופה ל-Google Play, במיוחד בפרטיות קהילה. האפשרות להוסיף מאגרי צד שלישי ולא להיות מוגבלים לגן המוקף חומה של גוגל הובילה לפופולריות שלו. ל-F-Droid יש בנוסף [בניינים הניתנים לשחזור](https://f-droid.org/en/docs/Reproducible_Builds/) עבור יישומים מסוימים והוא מוקדש לתוכנות חינמיות וקוד פתוח. עם זאת, יש [בעיות בולטות](https://privsec.dev/posts/android/f-droid-security-issues/) עם לקוח F-Droid הרשמי, בקרת האיכות שלו, כיצד הם בונים, חותמים ומספקים חבילות.
+==אנחנו **לא** ממליצים כרגע על F-Droid כדרך להשיג אפליקציות.== F-Droid מומלצת לעתים קרובות כחלופה ל-Google Play, במיוחד בפרטיות קהילה. האפשרות להוסיף מאגרי צד שלישי ולא להיות מוגבלים לגן המוקף חומה של גוגל הובילה לפופולריות שלו. ל-F-Droid יש בנוסף [בנייה הניתנת לשחזור](https://f-droid.org/en/docs/Reproducible_Builds/) עבור יישומים מסוימים והוא מוקדש לתוכנות חינמיות וקוד פתוח. עם זאת, ישנן [בעיות בולטות](https://privsec.dev/posts/android/f-droid-security-issues/) עם הלקוח הרשמי של F-Droid, בקרת האיכות שלו והאופן שבו הם בונים, חותמים ומעבירים חבילות.
 
 בשל תהליך בניית האפליקציות שלהם, אפליקציות במאגר ה-F-Droid הרשמי מפגרות לעתים קרובות בפיגור לגבי עדכונים. מנהלי F-Droid גם עושים שימוש חוזר במזהי חבילה בזמן חתימת אפליקציות עם המפתחות שלהם, וזה לא אידיאלי מכיוון שהוא נותן אמון אולטימטיבי לצוות F-Droid.
 
-מאגרים פופולריים אחרים של צד שלישי כגון [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) מקלים על חלק מהחששות הללו. מאגר IzzyOnDroid מושך רכיבים ישירות מ-GitHub והוא הדבר הטוב הבא למאגרים של המפתחים עצמם. עם זאת, זה לא משהו שאנחנו יכולים להמליץ עליו, מכיוון שאפליקציות בדרך כלל [מסירים](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) מהמאגר הזה כאשר הם מגיעים למאגר F-Droid הראשי. למרות שזה הגיוני (מכיוון שהמטרה של המאגר המסוים הזה היא לארח אפליקציות לפני שהן מתקבלות למאגר ה-F-Droid הראשי), זה יכול להשאיר אותך עם אפליקציות מותקנות שכבר לא מקבלים עדכונים.
+מאגרים פופולריים אחרים של צד שלישי כגון [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) מקלים על חלק מהחששות הללו. מאגר IzzyOnDroid מושך רכיבים ישירות מ-GitHub והוא הדבר הטוב הבא למאגרים של המפתחים עצמם. עם זאת, זה לא משהו שאנחנו יכולים להמליץ עליו, מכיוון שבדרך כלל אפליקציות [מוסרות](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) מהמאגר הזה כשהן מגיעות למאגר F-Droid הראשי. למרות שזה הגיוני (מכיוון שהמטרה של המאגר המסוים הזה היא לארח אפליקציות לפני שהן מתקבלות למאגר ה-F-Droid הראשי), זה יכול להשאיר אותך עם אפליקציות מותקנות שכבר לא מקבלים עדכונים.
 
-עם זאת, [F-Droid](https://f-droid.org/en/packages/) ו-[IzzyOnDroid](https://apt.izzysoft.de/fdroid/) הם ביתם של אינספור אפליקציות, כך שהם יכולים להוות כלי שימושי לחיפוש ולגלות אפליקציות קוד פתוח שתוכל להוריד דרך חנות Play, Aurora Store, או על ידי קבלת ה-APK ישירות מה- מפתח. חשוב לזכור שחלק מהאפליקציות במאגרים אלו לא עודכנו במשך שנים ועשויות להסתמך על ספריות שאינן נתמכות, בין היתר, מהוות סיכון אבטחה פוטנציאלי. אתה צריך להשתמש במיטב שיקול הדעת שלך כשאתה מחפש אפליקציות חדשות בשיטה זו.
+עם זאת, מאגרי [F-Droid](https://f-droid.org/en/packages/) ו-[IzzyOnDroid](https://apt.izzysoft.de/fdroid/) הם ביתם של אינספור אפליקציות, כך שהם יכולים להיות כלי שימושי לחיפוש ולגלות אפליקציות קוד פתוח שתוכלו לאחר מכן הורד דרך Play Store, Aurora Store, או על ידי קבלת ה-APK ישירות מהמפתח. חשוב לזכור שחלק מהאפליקציות במאגרים אלו לא עודכנו במשך שנים ועשויות להסתמך על ספריות שאינן נתמכות, בין היתר, מהוות סיכון אבטחה פוטנציאלי. אתה צריך להשתמש במיטב שיקול הדעת שלך כשאתה מחפש אפליקציות חדשות בשיטה זו.
 
 !!! note "הערה"
 
@@ -342,12 +344,10 @@ Aurora Store לא מאפשרת להוריד אפליקציות בתשלום עם
 - חייב לתמוך לפחות באחת ממערכות ההפעלה המומלצות שלנו.
 - חייב להימכר כרגע חדש בחנויות.
 - חייב לקבל לפחות 5 שנים של עדכוני אבטחה.
-- חייבת להיות חומרה ייעודית לרכיב מאובטח.
+- חייב להיות חומרה ייעודית לרכיב מאובטח.
 
 ### יישומים
 
 - יישומים בדף זה לא חייבים להיות ישימים לכל קטגוריית תוכנה אחרת באתר.
 - יישומים כלליים צריכים להרחיב או להחליף את פונקציונליות הליבה של המערכת.
 - יישומים צריכים לקבל עדכונים ותחזוקה שוטפים.
-
---8<-- "includes/abbreviations.he.txt"

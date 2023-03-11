@@ -8,68 +8,68 @@ In general the [United States federal plain language guidelines](https://www.pla
 
 ## Writing for our audience
 
-Privacy Guides' intended [audience](https://www.plainlanguage.gov/guidelines/audience/) is primarily average, technology using adults. Don't dumb down content as if you are addressing a middle-school class, but don't overuse complicated terminology about concepts average computer users wouldn't be familiar with.
+Das [Zielpublikum](https://www.plainlanguage.gov/guidelines/audience/) von Privacy Guides besteht hauptsächlich aus durchschnittlichen, Techniknutzenden Erwachsenen. Don't dumb down content as if you are addressing a middle-school class, but don't overuse complicated terminology about concepts average computer users wouldn't be familiar with.
 
 ### Address only what people want to know
 
-People don't need overly complex articles with little relevance to them. Figure out what you want people to accomplish when writing an article, and only include those details.
+Menschen brauchen keine übermäßig komplexen Artikel mit geringer Relevanz für sie. Figure out what you want people to accomplish when writing an article, and only include those details.
 
 > Tell your audience why the material is important to them. Say, “If you want a research grant, here’s what you have to do.” Or, “If you want to mine federal coal, here’s what you should know.” Or, “If you’re planning a trip to Rwanda, read this first.”
 
-### Address people directly
+### Personen direkt ansprechen
 
-We're writing *for* a wide variety of people, but we are writing *to* the person who is actually reading it. Use "you" to address the reader directly.
+Wir schreiben *für* für eine Vielzahl von Menschen, aber wir schreiben *an* die Person, die es tatsächlich liest. Use "you" to address the reader directly.
 
 > More than any other single technique, using “you” pulls users into the information and makes it relevant to them.
 > 
 > When you use “you” to address users, they are more likely to understand what their responsibility is.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
+Quelle: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
 
 ### Avoid "users"
 
 Avoid calling people "users", in favor of "people", or a more specific description of the group of people you are writing for.
 
-## Organizing content
+## Organisieren von Inhalten
 
-Organization is key. Content should flow from most to least important information, and use headers as much as needed to logically separate different ideas.
+Organisieren ist der Schlüssel. Inhalte sollten von den wichtigsten zu den am wenigsten wichtigen Informationen fließen und Kopfzeilen so oft wie nötig verwendet werden, um verschiedene Ideen logisch zu trennen.
 
-- Limit the document to around five or six sections. Long documents should probably be broken up into separate pages.
+- Limit the document to around five or six sections. Lange Dokumente sollten wahrscheinlich in einzelne Seiten aufgeteilt werden.
 - Mark important ideas with **bold** or *italics*.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
+Quelle: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
 
 ### Begin with a topic sentence
 
-> If you tell your reader what they’re going to read about, they’re less likely to have to read your paragraph again. Headings help, but they’re not enough. Establish a context for your audience before you provide them with the details.
+> If you tell your reader what they’re going to read about, they’re less likely to have to read your paragraph again. Überschriften sind hilfreich, reichen aber nicht aus. Establish a context for your audience before you provide them with the details.
 > 
-> We often write the way we think, putting our premises first and then our conclusion. It may be the natural way to develop thoughts, but we wind up with the topic sentence at the end of the paragraph. Move it up front and let users know where you’re going. Don’t make readers hold a lot of information in their heads before getting to the point.
+> Wir schreiben oft so, wie wir denken, indem wir zuerst unsere Prämissen und dann unsere Schlussfolgerung formulieren. Es mag die natürliche Art sein, Gedanken zu entwickeln, aber wir enden mit dem Themensatz am Ende des Absatzes. Move it up front and let users know where you’re going. Don’t make readers hold a lot of information in their heads before getting to the point.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
+Quelle: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
 
 ## Choose your words carefully
 
-> Words matter. They are the most basic building blocks of written and spoken communication. Don’t complicate things by using jargon, technical terms, or abbreviations that people won’t understand.
+> Worte sind von Bedeutung. Sie sind die grundlegenden Bausteine der schriftlichen und mündlichen Kommunikation. Don’t complicate things by using jargon, technical terms, or abbreviations that people won’t understand.
 
-We should try to avoid abbreviations where possible, but technology is full of abbreviations. In general, spell out the abbreviation/acronym the first time it is used on a page, and add the abbreviation to the abbreviation glossary file when it is used repeatedly.
+Wir sollten versuchen, Abkürzungen so weit wie möglich zu vermeiden, aber Technologie ist voll von Abkürzungen. Im Allgemeinen sollte die Abkürzung/das Akronym ausgeschrieben werden, wenn sie/es zum ersten Mal auf einer Seite verwendet wird, und die Abkürzung in die Glossar-Datei für Abkürzungen aufgenommen werden, wenn sie wiederholt verwendet wird.
 
 > Kathy McGinty offers tongue-in-cheek instructions for bulking up your simple, direct sentences:
 > 
 > > There is no escaping the fact that it is considered very important to note that a number of various available applicable studies ipso facto have generally identified the fact that additional appropriate nocturnal employment could usually keep juvenile adolescents off thoroughfares during the night hours, including but not limited to the time prior to midnight on weeknights and/or 2 a.m. on weekends.
 > 
-> And the original, using stronger, simpler words:
+> Und das Original, mit stärkeren, einfacheren Worten:
 > 
-> > More night jobs would keep youths off the streets.
+> > Mehr Nachtjobs würden die Jugendlichen von der Straße fernhalten.
 
-## Be concise
+## Prägnant sein
 
-> Unnecessary words waste your audience’s time. Great writing is like a conversation. Omit information that the audience doesn’t need to know. This can be difficult as a subject matter expert so it’s important to have someone look at the information from the audience’s perspective.
+> Unnecessary words waste your audience’s time. Gutes Schreiben ist wie ein Gespräch. Omit information that the audience doesn’t need to know. Als Fachexperte kann dies schwierig sein, daher ist es wichtig, dass jemand die Informationen aus der Perspektive des Publikums betrachtet.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
+Quelle: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
 ## Keep text conversational
 
-> Verbs are the fuel of writing. They give your sentences power and direction. They enliven your writing and make it more interesting.
+> Verben sind der Treibstoff des Schreibens. Sie geben Sätzen Kraft und Richtung. They enliven your writing and make it more interesting.
 > 
 > Verbs tell your audience what to do. Make sure it’s clear who does what.
 
@@ -79,11 +79,9 @@ Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
 Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
 
-### Use "must" for requirements
+### Verwendung von "muss" für Anforderungen
 
-> - “must” for an obligation
-> - “must not” for a prohibition
-> - “may” for a discretionary action
-> - “should” for a recommendation
-
---8<-- "includes/abbreviations.de.txt"
+> - "musst" für eine Verpflichtung
+> - "darf nicht" für ein Verbot
+> - "kann" für eine Ermessensentscheidung
+> - "sollte" für eine Empfehlung

@@ -1,23 +1,23 @@
 ---
-title: Uploading Images
+title: Envoi d'images
 ---
 
-Here are a couple of general rules for contributing to Privacy Guides:
+Voici quelques règles générales pour contribuer à Privacy Guides :
 
 ## Images
 
-- We **prefer** SVG images, but if those do not exist we can use PNG images
+- Nous **préférons** des images SVG, mais si celles-ci n'existent pas, nous pouvons utiliser des images PNG
 
-Company logos have canvas size of:
+Les logos d'entreprise ont une taille canvas de :
 
 - 128x128px
 - 384x128px
 
-## Optimization
+## Optimisation
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng/) to optimize the PNG image:
+Utilisez le logiciel [OptiPNG](https://sourceforge.net/projects/optipng/) pour optimiser l'image PNG :
 
 ```bash
 optipng -o7 file.png
@@ -27,51 +27,51 @@ optipng -o7 file.png
 
 #### Inkscape
 
-[Scour](https://github.com/scour-project/scour) all SVG images.
+[Scour](https://github.com/scour-project/scour) toutes les images SVG.
 
-In Inkscape:
+Dans Inkscape :
 
-1. File Save As..
-2. Set type to Optimized SVG (*.svg)
+1. Fichier Enregistrer sous..
+2. Définir le type à SVG optimisé (*.svg)
 
-In the **Options** tab:
+Dans l'onglet **Options** :
 
-- **Number of significant digits for coordinates** > **5**
-- [x] Turn on **Shorten color values**
-- [x] Turn on **Convert CSS attributes to XML attributes**
-- [x] Turn on **Collapse groups**
-- [x] Turn on **Create groups for similar attributes**
-- [ ] Turn off **Keep editor data**
-- [ ] Turn off **Keep unreferenced definitions**
-- [x] Turn on **Work around renderer bugs**
+- **Nombre de chiffres significatifs pour les coordonnées** > **5**
+- [x] Activez **Raccourcir les valeurs de couleur**
+- [x] Activez **Convertir les attributs CSS en attributs XML**
+- [x] Activez **Réduire les groupes**
+- [x] Activez **Créer des groupes pour des attributs similaires**
+- [ ] Désactivez **Conserver les données de l'éditeur**
+- [ ] Désactivez **Conserver les définitions non référencées**
+- [x] Activez **Contourner les bugs du moteur de rendu**
 
-In the **SVG Output** tab under **Document options**:
+Dans l'onglet **Sortie SVG** sous **Options du document** :
 
-- [ ] Turn off **Remove the XML declaration**
-- [x] Turn on **Remove metadata**
-- [x] Turn on **Remove comments**
-- [x] Turn on **Embeded raster images**
-- [x] Turn on **Enable viewboxing**
+- [ ] Désactivez **Supprimer la déclaration XML**
+- [x] Activez **Supprimer les métadonnées**
+- [x] Activez **Supprimer les commentaires**
+- [x] Activez **Images matricielles incorporées**
+- [x] Activez **Activer le viewboxing**
 
-In the **SVG Output** under **Pretty-printing**:
+Dans le document **Sortie SVG** sous **Pretty-printing** :
 
-- [ ] Turn off **Format output with line-breaks and indentation**
-- **Indentation characters** > Select **Space**
-- **Depth of indentation** > **1**
-- [ ] Turn off **Strip the "xml:space" attribute from the root SVG element**
+- [ ] Désactivez **Formatage de la sortie avec sauts de ligne et indentation**
+- **Caractères d'indentation** > Sélectionnez **Espace**
+- **Profondeur de l'indentation** > **1**
+- [ ] Désactivez **Supprimer l'attribut "xml:space" de l'élément SVG racine**
 
-In the **IDs** tab:
+Dans l'onglet **identifiants** :
 
-- [x] Turn on **Remove unused IDs**
-- [ ] Turn off **Shorten IDs**
-- **Prefix shortened IDs with** > `leave blank`
-- [x] Turn on **Preserve manually created IDs not ending with digits**
-- **Preserve the following IDs** > `leave blank`
-- **Preserve IDs starting with** > `leave blank`
+- [x] Activez **Supprimer les identifiants inutilisés**
+- [ ] Désactivez **Raccourcir les identifiants**
+- **Préfixer les identifiants raccourcis avec** > `leave blank`
+- [x] Activez **Préserver les identifiants créés manuellement ne se terminant pas par des chiffres**
+- **Conserver les identifiants suivants** > `leave blank`
+- **Préserver les identifiants commençant par** > `leave blank`
 
-#### CLI
+#### Invite de commande
 
-The same can be achieved with the [Scour](https://github.com/scour-project/scour) command:
+La même chose peut être réalisée avec la commande [Scour](https://github.com/scour-project/scour) :
 
 ```bash
 scour --set-precision=5 \
@@ -87,5 +87,3 @@ scour --set-precision=5 \
       --protect-ids-noninkscape \
       input.svg output.svg
 ```
-
---8<-- "includes/abbreviations.fr.txt"

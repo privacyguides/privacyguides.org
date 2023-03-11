@@ -1,6 +1,7 @@
 ---
 title: "Compartición y sincronización de archivos"
 icon: material/share-variant
+description: Descubra cómo puede compartir de manera privada sus archivos entre sus dispositivos, con sus amigos y familia, o de manera anónima en línea.
 ---
 
 Descubra cómo puede compartir de manera privada sus archivos entre sus dispositivos, con sus amigos y familia, o de manera anónima en línea.
@@ -130,19 +131,17 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 !!! ejemplo "Esta sección es nueva"
 
-    Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tienes alguna duda sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 
-#### Minimum Requirements
+#### Requisitos Mínimos
 
-- Must not require a third-party remote/cloud server.
-- Must be open-source software.
+- No debe requerir un servidor de terceros remoto o en la nube.
+- Debe ser software de código abierto.
 - Debe tener clientes para Linux, macOS y Winwos; o tener una interfaz web.
 
-#### Best-Case
+#### Mejor Caso
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 
-- Has mobile clients for iOS and Android, which at least support document previews.
-- Supports photo backup from iOS and Android, and optionally supports file/folder sync on Android.
-
---8<-- "includes/abbreviations.es.txt"
+- Dispone de clientes móviles para iOS y Android, que al menos permiten previsualizar los documentos.
+- Admite la copia de seguridad de fotos desde iOS y Android, y opcionalmente admite la sincronización de archivos/carpetas en Android.

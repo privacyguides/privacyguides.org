@@ -1,6 +1,7 @@
 ---
 title: Android Overzicht
 icon: simple/android
+description: Android is een open-source besturingssysteem met sterke beveiliging, waardoor het onze topkeuze is voor telefoons.
 ---
 
 Android is een veilig besturingssysteem met sterke [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), en een robuust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
@@ -53,9 +54,44 @@ Het is belangrijk om geen [end-of-life](https://endoflife.date/android) versie v
 
 ## Android-machtigingen
 
-[Machtigingen op Android](https://developer.android.com/guide/topics/permissions/overview) geven je controle over welke apps toegang krijgen. Google brengt regelmatig [verbeteringen aan](https://developer.android.com/about/versions/11/privacy/permissions) in het toestemmingssysteem in elke opeenvolgende versie. Alle apps die je installeert zijn strikt [sandboxed](https://source.android.com/security/app-sandbox), daarom is het niet nodig om antivirus apps te installeren. Een smartphone met de nieuwste versie van Android zal altijd veiliger zijn dan een oude smartphone met een antivirus waarvoor je betaald heeft. Het is beter om niet te betalen voor antivirussoftware en geld te sparen om een nieuwe smartphone te kopen, zoals een Google Pixel.
+[Machtigingen op Android](https://developer.android.com/guide/topics/permissions/overview) geven je controle over waar apps toegang tot toe krijgen. Google brengt regelmatig [verbeteringen aan](https://developer.android.com/about/versions/11/privacy/permissions) in het machtigingssysteem in elke opeenvolgende versie. Alle apps die je installeert zijn strikt [sandboxed](https://source.android.com/security/app-sandbox), daarom is het niet nodig om antivirus apps te installeren.
 
-Als je een app wilt gebruiken waar je niet zeker van bent, kun je overwegen een gebruikers- of werkprofiel te gebruiken.
+Een smartphone met de nieuwste versie van Android zal altijd veiliger zijn dan een oude smartphone met een betaalde antivirus. Het is beter om niet te betalen voor antivirussoftware en geld te sparen om een nieuwe smartphone te kopen, zoals een Google Pixel.
+
+Android 10:
+
+- [Scoped Storage](https://developer.android.com/about/versions/10/privacy/changes#scoped-storage) geeft je meer controle over jouw bestanden en kan beperken wat [toegang heeft tot externe opslag](https://developer.android.com/training/data-storage#permissions). Apps kunnen een specifieke map in externe opslag hebben en de mogelijkheid om daar specifieke soorten media op te slaan.
+- Strengere toegang op [apparaatlocatie](https://developer.android.com/about/versions/10/privacy/changes#app-access-device-location) door invoering van de machtiging `ACCESS_BACKGROUND_LOCATION`. Dit voorkomt dat apps op de achtergrond toegang krijgen tot de locatie zonder uitdrukkelijke toestemming van de gebruiker.
+
+Android 11:
+
+- [Eenmalige toestemmingen](https://developer.android.com/about/versions/11/privacy/permissions#one-time) waarmee je eenmalig een machtiging kunt verlenen aan een app.
+- [Automatische reset machtigingen](https://developer.android.com/about/versions/11/privacy/permissions#auto-reset), die [runtime machtigingen](https://developer.android.com/guide/topics/permissions/overview#runtime) terugzet die werden toegekend toen de app werd geopend.
+- Machtigingen voor toegang tot [telefoon nummer](https://developer.android.com/about/versions/11/privacy/permissions#phone-numbers) gerelateerde functies.
+
+Android 12:
+
+- Een machtiging om alleen de [geschatte locatie](https://developer.android.com/about/versions/12/behavior-changes-12#approximate-location) toe te kennen.
+- Auto-reset van [apps in slaapstand](https://developer.android.com/about/versions/12/behavior-changes-12#app-hibernation).
+- [Data access auditing](https://developer.android.com/about/versions/12/behavior-changes-12#data-access-auditing) die het gemakkelijker maakt om te bepalen welk deel van een app een bepaald type gegevenstoegang gebruikt.
+
+Android 13:
+
+- Een permissie voor [nabijgelegen wifi toegang](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). De MAC-adressen van WiFi-toegangspunten in de buurt waren een populaire manier voor apps om de locatie van een gebruiker te traceren.
+- Een meer [granulaire mediatoestemmingen](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), wat betekent dat je alleen toegang kan verlenen tot afbeeldingen, video's of audiobestanden.
+- Achtergrondgebruik van sensoren vereist nu de toestemming [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission).
+
+Een app kan een toestemming vragen voor een specifieke functie die hij heeft. Bijvoorbeeld, elke app die QR-codes kan scannen heeft toestemming voor de camera nodig. Sommige apps kunnen meer toestemmingen vragen dan ze nodig hebben.
+
+[Exodus](https://exodus-privacy.eu.org/) kan nuttig zijn bij het vergelijken van apps die vergelijkbare doelen hebben. Als een app veel machtigingen nodig heeft en veel advertenties en analytics heeft, is dit waarschijnlijk een slecht teken. Wij raden aan de individuele trackers te bekijken en hun beschrijvingen te lezen in plaats van eenvoudigweg **het totaal** te tellen en aan te nemen dat alle vermelde items gelijk zijn.
+
+!!! warning
+
+    Als een app vooral een webdienst is, kan de tracking aan de serverzijde plaatsvinden. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) toont "geen trackers", maar volgt zeker de interesses en het gedrag van gebruikers op de site. Apps kunnen detectie omzeilen door geen gebruik te maken van door de reclame-industrie geproduceerde standaardcodebibliotheken, hoewel dit onwaarschijnlijk is.
+
+!!! note
+
+    Privacy-vriendelijke apps zoals [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) kunnen sommige trackers tonen zoals [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). Deze bibliotheek bevat [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) die [pushmeldingen](https://en.wikipedia.org/wiki/Push_technology) in apps kan bieden. Dit [is het geval](https://fosstodon.org/@bitwarden/109636825700482007) met Bitwarden. Dat betekent niet dat Bitwarden alle analysefuncties gebruikt die Google Firebase Analytics biedt.
 
 ## Mediatoegang
 
@@ -131,5 +167,3 @@ Je krijgt de optie om jouw advertentie-ID te verwijderen of om *af te melden voo
 [SafetyNet](https://developer.android.com/training/safetynet/attestation) en de [Play Integrity API's](https://developer.android.com/google/play/integrity) worden over het algemeen gebruikt voor [bankapps](https://grapheneos.org/usage#banking-apps). Veel bank apps zullen prima werken in GrapheneOS met sandboxed Play services, maar sommige niet-financiële apps hebben hun eigen grove anti-tampering mechanismen die kunnen falen. GrapheneOS doorstaat de `basicIntegrity` check, maar niet de certificeringscheck `ctsProfileMatch`. Toestellen met Android 8 of later hebben hardware-attestondersteuning die niet kan worden omzeild zonder gelekte sleutels of ernstige kwetsbaarheden.
 
 Wat Google Wallet betreft, wij raden dit niet aan vanwege hun [privacybeleid](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), waarin staat dat je zich moet afmelden als je niet wilt dat jouw kredietwaardigheid en persoonlijke gegevens worden gedeeld met affiliate marketingdiensten.
-
---8<-- "includes/abbreviations.nl.txt"

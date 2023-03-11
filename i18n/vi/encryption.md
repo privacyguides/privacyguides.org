@@ -1,6 +1,7 @@
 ---
 title: "Encryption Software"
 icon: material/file-lock
+description: Encryption of data is the only way to control who can access it. These tools allow you to encrypt your emails and any other files.
 ---
 
 Encryption of data is the only way to control who can access it. If you are currently not using encryption software for your hard disk, emails or files, you should pick an option here.
@@ -351,5 +352,3 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - Operating System (FDE) encryption apps should utilize hardware security such as a TPM or Secure Enclave.
 - File encryption apps should have first- or third-party support for mobile platforms.
-
---8<-- "includes/abbreviations.vi.txt"

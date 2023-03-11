@@ -1,6 +1,7 @@
 ---
 title: "Création de compte"
 icon: 'material/account-plus'
+description: La création de comptes en ligne est pratiquement une nécessité sur internet, prenez ces mesures pour vous assurer de rester privé.
 ---
 
 Souvent, les gens s'inscrivent à des services sans réfléchir. Il s'agit peut-être d'un service de streaming qui vous permet de regarder la nouvelle émission dont tout le monde parle, ou d'un compte qui vous permet de bénéficier d'une réduction dans votre fast-food préféré. Quoi qu'il en soit, vous devez tenir compte des implications pour vos données, maintenant et plus tard.
@@ -78,5 +79,3 @@ Dans de nombreux cas, vous devrez fournir un numéro à partir duquel vous pourr
 ### Nom d'utilisateur et mot de passe
 
 Certains services vous permettent de vous inscrire sans utiliser d'adresse électronique et vous demandent seulement de définir un nom d'utilisateur et un mot de passe. Ces services peuvent offrir un anonymat accru lorsqu'ils sont associés à un VPN ou à Tor. Gardez à l'esprit que pour ces comptes, il n'y aura très probablement **aucun moyen de récupérer votre compte** au cas où vous oublieriez votre nom d'utilisateur ou votre mot de passe.
-
---8<-- "includes/abbreviations.fr.txt"

@@ -1,6 +1,7 @@
 ---
 title: "Data and Metadata Redaction"
 icon: material/tag-remove
+description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
 ---
 
 分享檔案時，請務必移除相關的中繼資料。 映像文件通常包含 [Exif](https://en.wikipedia.org/wiki/Exif) 數據。 照片有時甚至在文件元數據中包含GPS坐標。
@@ -142,5 +143,3 @@ The app offers multiple ways to erase metadata from images. Namely:
 
 - Apps developed for open-source operating systems must be open-source.
 - Apps must be free and should not include ads or other limitations.
-
---8<-- "includes/abbreviations.zh-Hant.txt"

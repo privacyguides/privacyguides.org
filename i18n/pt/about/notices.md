@@ -41,5 +41,3 @@ Você não deve conduzir nenhuma atividade sistemática ou automatizada de colet
 * Raspagem
 * Mineração de dados
 * "Enquadramento" (IFrames)
-
---8<-- "includes/abbreviations.pt.txt"

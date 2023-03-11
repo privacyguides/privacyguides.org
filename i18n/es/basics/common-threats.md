@@ -1,6 +1,7 @@
 ---
 title: "Amenazas comunes"
 icon: 'material/eye-outline'
+description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
 ---
 
 En términos generales, clasificamos nuestras recomendaciones en las [amenazas](threat-modeling.md) u objetivos que se aplican a la mayoría de las personas. ==Puede que no te preocupe ninguna, una, varias o todas estas posibilidades==, y las herramientas y servicios que utilices dependerán de cuáles sean tus objetivos. Es posible que también tengas amenazas específicas fuera de estas categorías, ¡lo cual está perfectamente bien! Lo importante es desarrollar una comprensión de los beneficios y las deficiencias de las herramientas que elijas utilizar, porque prácticamente ninguna de ellas te protegerá de todas las amenazas.
@@ -34,7 +35,7 @@ En lo que respecta a la seguridad de las aplicaciones, generalmente no sabemos (
 
 Para minimizar el daño que una pieza maliciosa de software *podría hacer*, deberías emplear la seguridad por compartimentación. Por ejemplo, esto podría darse en la forma de usar diferentes ordenadores para diferentes trabajos, usar máquinas virtuales para separar diferentes grupos de aplicaciones relacionadas, o usar un sistema operativo seguro con un fuerte enfoque en el aislamiento de aplicaciones y el control de acceso obligatorio.
 
-!!! tip
+!!! consejo
 
     Los sistemas operativos móviles suelen tener un mejor aislamiento de aplicaciones que los sistemas operativos de escritorio: Las aplicaciones no pueden obtener acceso a la raíz y requieren permiso para acceder a los recursos del sistema.
     
@@ -44,7 +45,7 @@ Para minimizar el daño que una pieza maliciosa de software *podría hacer*, deb
 
 Los ataques dirigidos contra una persona concreta son más problemáticos de tratar. Los ataques más comunes son el envío de documentos maliciosos por correo electrónico, la explotación de vulnerabilidades (por ejemplo, en los navegadores y sistemas operativos) y los ataques físicos. Si esto te preocupa, deberías emplear estrategias de mitigación de amenazas más avanzadas.
 
-!!! tip
+!!! consejo
 
     Por su diseño, los **navegadores web**, los **clientes de correo electrónico** y las **aplicaciones de oficina** suelen ejecutar código no fiable, enviado por terceros. Ejecutar múltiples máquinas virtuales -para separar aplicaciones como estas de su sistema anfitrión, así como entre sí- es una técnica que puedes utilizar para mitigar la posibilidad de que un exploit en estas aplicaciones comprometa el resto de tu sistema. Por ejemplo, tecnologías como Qubes OS o Microsoft Defender Application Guard en Windows proporcionan métodos convenientes para hacerlo.
 
@@ -80,11 +81,11 @@ La vigilancia masiva es el intrincado esfuerzo por controlar el "comportamiento,
 
     Si quiere saber más sobre los métodos de vigilancia y cómo se aplican en su ciudad, también puede echar un vistazo al [Atlas of Surveillance](https://atlasofsurveillance.org/) de la [Electronic Frontier Foundation](https://www.eff.org/).
     
-    In France you can take a look at the [Technolopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+    En Francia puede consultar el sitio [Technolopolice website](https://technopolice.fr/villes/), mantenido por la asociación sin ánimo de lucro La Quadrature du Net.
 
 Los gobiernos suelen justificar los programas de vigilancia masiva como medios necesarios para combatir el terrorismo y prevenir la delincuencia. cita "ACLU: [*La lección de privacidad del 11 de septiembre: La vigilancia masiva no es el camino a seguir*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
 
-!!! quote "ACLU: [*The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
+!!! cita "ACLU: [*La lección de privacidad del 11 de septiembre: La vigilancia masiva no es el camino a seguir*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
 
     Aunque eludir la censura en sí puede ser fácil, ocultar el hecho de que lo estás haciendo puede ser muy problemático. Debrías considerar qué aspectos de la red puede observar tu adversario y si tiene una negación plausible de tus acciones.
 
@@ -128,19 +129,17 @@ La censura en línea puede ser llevada a cabo (en diversos grados) por actores q
 
 La censura en las plataformas corporativas es cada vez más común, ya que plataformas como Twitter y Facebook ceden a la demanda del público, a las presiones del mercado y a las de los organismos gubernamentales. Las presiones gubernamentales pueden ser peticiones encubiertas a las empresas, como la de la Casa Blanca [solicitando la retirada](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) de un vídeo provocativo de YouTube, o abiertamente, como la del gobierno chino exigiendo a las empresas que se adhieran a un estricto régimen de censura.
 
-La censura en las plataformas corporativas es cada vez más común, ya que plataformas como Twitter y Facebook ceden a la demanda del público, a las presiones del mercado y a las de los organismos gubernamentales. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
+La censura en las plataformas corporativas es cada vez más común, ya que plataformas como Twitter y Facebook ceden a la demanda del público, a las presiones del mercado y a las de los organismos gubernamentales. Las presiones gubernamentales pueden ser peticiones encubiertas a las empresas, como la de la Casa Blanca [solicitando la retirada](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) de un vídeo provocativo de YouTube, o abiertamente, como la del gobierno chino exigiendo a las empresas que se adhieran a un estricto régimen de censura.
 
-People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../real-time-communication.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
+Las personas preocupadas por la amenaza de la censura pueden utilizar tecnologías como [Tor](../advanced/tor-overview.md) para eludirla, y apoyar plataformas de comunicación resistentes a la censura como [Matrix](../real-time-communication.md#element), que no tiene una autoridad de cuentas centralizada que pueda cerrar cuentas arbitrariamente.
 
-!!! tip
+!!! consejo
 
-    While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.
+    Si bien evadir la censura en sí misma puede ser fácil, ocultar el hecho de que lo estás haciendo puede ser muy problemático.
     
-    You should consider which aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. For example, using [encrypted DNS](../advanced/dns-overview.md#what-is-encrypted-dns) can help you bypass rudimentary, DNS-based censorship systems, but it can't truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from network administrators, but can't hide that you're using those networks in the first place. Pluggable transports (such as Obfs4proxy, Meek, or Shadowsocks) can help you evade firewalls that block common VPN protocols or Tor, but your circumvention attempts can still be detected by methods like probing or [deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+    Deberías considerar qué aspectos de la red puede observar tu adversario y si tienes una justificación verosímil para tus acciones. Por ejemplo, el uso de [DNS cifrado](../advanced/dns-overview.md#what-is-encrypted-dns) puede ayudarte a eludir sistemas de censura rudimentarios basados en DNS, pero no puede ocultar realmente lo que visitas a tu ISP. Una VPN o Tor puede ayudar a ocultar lo que estás visitando de los administradores de red, pero no puede ocultar que estás utilizando esas redes en primer lugar. Los transportes conectables (como Obfs4proxy, Meek, o Shadowsocks) pueden ayudarte a evadir cortafuegos que bloquean protocolos VPN comunes o Tor, pero tus intentos de evasión aún pueden ser detectados por métodos como sondeo o [inspección profunda de paquetes](https://es.wikipedia.org/wiki/Inspección_profunda_de_paquete).
 
-You must always consider the risks of trying to bypass censorship, the potential consequences, and how sophisticated your adversary may be. You should be cautious with your software selection, and have a backup plan in case you are caught.
-
---8<-- "includes/abbreviations.es.txt"
+Siempre debes tener en cuenta los riesgos de intentar saltarse la censura, las posibles consecuencias y lo sofisticado que puede ser el adversario. Debe ser precavido con la selección del software y tener un plan de respaldo en caso de que te pillen.
 
 [^1]: Wikipedia: [*Vigilancia masiva*](https://es.wikipedia.org/wiki/Vigilancia_masiva) y [*Vigilancia*](https://es.wikipedia.org/wiki/Vigilancia).
 [^2]: Junta de Supervisión de la Privacidad y las Libertades Civiles de los Estados Unidos: [*Informe sobre el Programa de Registros Telefónicos llevado a cabo bajo la Sección 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)

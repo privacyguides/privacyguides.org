@@ -41,5 +41,3 @@ Kifejezett írásbeli hozzájárulás nélkül nem végezhetsz semmilyen sziszte
 * Scrapelés
 * Adatbányászat
 * 'Framelés' (IFramek)
-
---8<-- "includes/abbreviations.hu.txt"

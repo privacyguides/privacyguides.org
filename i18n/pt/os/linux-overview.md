@@ -1,9 +1,10 @@
 ---
 title: Visão geral do Linux
 icon: fontawesome/brands/linux
+description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
 ---
 
-Existe uma crença comum que o *software* de [código aberto](https://pt. wikipedia. org/wiki/Software_de_c%C3%B3digo_aberto) é intrinsecamente seguro porque o código-fonte está disponível. Existe uma expectativa de que a verificação por parte da comunidade ocorre regularmente; contudo, esse nem sempre é [o caso](https://seirdy. one/2022/02/02/floss-security. html). A segurança do código está dependente de uma série de factores, tais como atividade do projecto, a experiência do programador, o nível de rigor aplicado em [revisões de código](https://en. wikipedia. org/wiki/Code_review) e a quantas vezes é dada atenção a partes específicas do [base de código](https://en. wikipedia. org/wiki/Codebase), que podem permanecer intocadas durante anos.
+Existe uma crença comum que o *software* de [código aberto](https://pt. wikipedia. org/wiki/Software_de_c%C3%B3digo_aberto) é intrinsecamente seguro porque o código-fonte está disponível. Existe uma expectativa de que a verificação por parte da comunidade ocorre regularmente; contudo, esse nem sempre é [o caso](https://seirdy. one/2022/02/02/floss-security. html). It does depend on a number of factors, such as project activity, developer experience, level of rigor applied to [code reviews](https://en.wikipedia.org/wiki/Code_review), and how often attention is given to specific parts of the [codebase](https://en.wikipedia.org/wiki/Codebase) that may go untouched for years.
 
 Neste momento, a utilização de GNU/Linux em computadores pessoais tem algumas áreas que poderiam ser melhoradas quando comparadas com os seus equivalentes proprietários, por exemplo:
 
@@ -139,5 +140,3 @@ The Fedora Project [counts](https://fedoraproject.org/wiki/Changes/DNF_Better_Co
 This [option](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) is currently off by default. We recommend adding `countme=false` to `/etc/dnf/dnf.conf` just in case it is enabled in the future. On systems that use `rpm-ostree` such as Silverblue, the countme option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems/) timer.
 
 openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, which can be disabled by deleting the `/var/lib/zypp/AnonymousUniqueId` file.
-
---8<-- "includes/abbreviations.pt.txt"

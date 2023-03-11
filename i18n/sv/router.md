@@ -1,6 +1,7 @@
 ---
 title: "Router Firmware"
 icon: material/router-wireless
+description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
 ---
 
 Nedan följer några alternativa operativsystem som kan användas på routrar, Wi-Fi-accesspunkter osv.
@@ -36,16 +37,14 @@ Du kan se OpenWrts [tabell över maskinvara](https://openwrt.org/toh/start) för
 
 OPNsense utvecklades ursprungligen som en gaffel av [pfSense](https://en.wikipedia.org/wiki/PfSense), och båda projekten är kända för att vara fria och pålitliga brandväggsdistributioner som erbjuder funktioner som ofta endast finns i dyra kommersiella brandväggar. Utvecklarna av OPNsense [, som lanserades 2015, citerade](https://docs.opnsense.org/history/thefork.html) ett antal säkerhets- och kodkvalitetsproblem med pfSense som de ansåg nödvändiggjorde en delning av projektet, samt oro över Netgates majoritetsförvärv av pfSense och pfSense-projektets framtida inriktning.
 
-## Criteria
+## Kriterier
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.
 
-!!! example "This section is new"
+!!! exempel "Det här avsnittet är nytt"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
 
 - Måste vara öppen källkod.
 - Måste få regelbundna uppdateringar.
 - Must support a wide variety of hardware.
-
---8<-- "includes/abbreviations.sv.txt"

@@ -1,6 +1,7 @@
 ---
 title: "Email clients"
 icon: material/email-open
+description: Deze e-mailclients respecteren de privacy en ondersteunen OpenPGP e-mail versleuteling.
 ---
 
 Onze aanbevelingslijst bevat e-mailcliënten die zowel [OpenPGP](encryption.md#openpgp) als sterke authenticatie ondersteunen, zoals [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). Met OAuth kunt u [Multi-Factor Authentication](basics/multi-factor-authentication.md) gebruiken en accountdiefstal voorkomen.
@@ -235,5 +236,3 @@ Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte pr
 - Verzamelt standaard geen telemetrie.
 - Moet OpenPGP native ondersteunen, dat wil zeggen zonder extensies.
 - Moet ondersteuning bieden voor het lokaal opslaan van OpenPGP-versleutelde e-mails.
-
---8<-- "includes/abbreviations.nl.txt"

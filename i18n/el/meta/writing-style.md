@@ -85,5 +85,3 @@ Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversatio
 > - “must not” for a prohibition
 > - “may” for a discretionary action
 > - “should” for a recommendation
-
---8<-- "includes/abbreviations.el.txt"

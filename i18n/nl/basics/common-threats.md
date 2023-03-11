@@ -1,6 +1,7 @@
 ---
 title: "Veel voorkomende bedreigingen"
 icon: 'material/eye-outline'
+description: Jouw dreigingsmodel is persoonlijk voor je, maar dit zijn enkele van de dingen die veel bezoekers van deze site belangrijk vinden.
 ---
 
 In grote lijnen delen wij onze aanbevelingen in in deze algemene categorieën van [bedreigingen](threat-modeling.md) of doelstellingen die voor de meeste mensen gelden. ==U kunt zich bezighouden met geen, een, enkele, of al deze mogelijkheden==, en de instrumenten en diensten die je gebruikt hangen af van wat jouw doelstellingen zijn. Misschien heb je ook specifieke bedreigingen buiten deze categorieën, en dat is prima! Het belangrijkste is dat je inzicht krijgt in de voordelen en tekortkomingen van de middelen die je gebruikt, want vrijwel geen enkel middel beschermt je tegen elke denkbare bedreiging.
@@ -139,8 +140,6 @@ Mensen die bezorgd zijn over de dreiging van censuur kunnen technologieën als [
     Je zou moeten overwegen welke aspecten van het netwerk je tegenstander kan waarnemen en of je plausibele ontkenningsmogelijkheden voor je actie hebt. Het gebruik van [versleutelde DNS](../advanced/dns-overview.md#what-is-encrypted-dns) kan je bijvoorbeeld helpen om rudimentaire, DNS-gebaseerde censuursystemen te omzeilen, maar het kan niet echt verbergen wat je bezoekt bij je ISP. Een VPN of Tor kan helpen verbergen wat je bezoekt voor netwerkbeheerders, maar je kunt niet verbergen dat je deze netwerken als gebruikt. Pluggable transports (zoals Obfs4proxy, Meek of Shadowsocks) kunnen je helpen firewalls te omzeilen die gangbare VPN-protocollen of Tor blokkeren, maar jouw pogingen tot omzeiling kunnen nog steeds worden ontdekt door methoden als probing of [deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection).
 
 Je moet altijd rekening houden met de risico 's van het proberen om censuur te omzeilen, de mogelijke gevolgen en hoe geavanceerd je tegenstander kan zijn. Je moet voorzichtig zijn met jouw software selectie, en een back-up plan hebben voor het geval je betrapt wordt.
-
---8<-- "includes/abbreviations.nl.txt"
 
 [^1]: United States Privacy and Civil Liberties Oversight Board: [Rapport over het telefoongegevens programma, uitgevoerd onder Section 215](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^2]: Wikipedia: [Surveillance kapitalisme](https://en.wikipedia.org/wiki/Surveillance_capitalism)

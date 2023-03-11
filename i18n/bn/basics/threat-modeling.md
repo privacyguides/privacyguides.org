@@ -1,6 +1,7 @@
 ---
 title: "Threat Modeling"
 icon: 'material/target-account'
+description: প্রাইভেসি সিকিউরিটি, এবং ব্যবহারযোগ্যতা এর মধ্যে ভারসাম্য রক্ষা করা আপনার প্রাইভেসি যাত্রার সবথেকে কঠিন কাজ।
 ---
 
 প্রাইভেসি সিকিউরিটি, এবং ব্যবহারযোগ্যতা এর মধ্যে ভারসাম্য রক্ষা করা আপনার প্রাইভেসি যাত্রার সবথেকে কঠিন কাজ।  Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
@@ -107,5 +108,3 @@ For people looking to increase their privacy and security online, we've compiled
 ## Sources
 
 - [EFF Surveillance Self Defense: Your Security Plan](https://ssd.eff.org/en/module/your-security-plan)
-
---8<-- "includes/abbreviations.bn.txt"

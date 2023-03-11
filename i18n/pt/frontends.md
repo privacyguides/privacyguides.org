@@ -1,6 +1,7 @@
 ---
 title: "Gestores de senhas"
 icon: material/flip-to-front
+description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
 ---
 
 Sometimes services will try to force you to sign up for an account by blocking access to content with annoying popups. They might also break without JavaScript enabled. These frontends can allow you to get around these restrictions.
@@ -279,5 +280,3 @@ Recommended frontends...
 We only consider frontends for websites which are...
 
 - Not normally accessible without JavaScript.
-
---8<-- "includes/abbreviations.pt.txt"

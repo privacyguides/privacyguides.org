@@ -1,6 +1,7 @@
 ---
 title: "Инструменты для шифрования"
 icon: material/file-lock
+description: Шифрование данных - единственный способ контролировать доступ к ним. These tools allow you to encrypt your emails and any other files.
 ---
 
 Шифрование данных - единственный способ контролировать доступ к ним. Если вы еще не используете какие-либо инструменты шифрования диска, электронной почты или файлов, то вы можете выбрать один из них тут.
@@ -320,5 +321,3 @@ When encrypting with PGP, you have the option to configure different options in 
 
 - Operating System (FDE) encryption apps should utilize hardware security such as a TPM or Secure Enclave.
 - File encryption apps should have first- or third-party support for mobile platforms.
-
---8<-- "includes/abbreviations.ru.txt"

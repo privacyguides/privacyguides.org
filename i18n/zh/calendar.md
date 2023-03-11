@@ -1,6 +1,7 @@
 ---
 title: "VPN供应商"
 icon: material/calendar
+description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
 ---
 
 日历包含一些最敏感的数据;使用静态实现E2EE的产品，以防止提供商读取它们。
@@ -65,5 +66,3 @@ icon: material/calendar
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
 - 如果适用的话，应该与本地操作系统的日历和联系人管理应用程序集成。
-
---8<-- "includes/abbreviations.zh.txt"

@@ -1,6 +1,7 @@
 ---
 title: "Видеохостинги"
 icon: material/video-wireless
+description: These networks allow you to stream internet content without building an advertising profile based on your interests.
 ---
 
 Основная угроза при использовании платформ потокового видео заключается в том, что ваши интересы и списки подписчиков могут быть использованы чтобы отслеживать вас. Вам следует сочетать эти инструменты с [VPN](/vpn) или [Tor](https://www.torproject.org/), чтобы усложнить отслеживание вашего использования.
@@ -46,5 +47,3 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
 
 - Must not require a centralized account to view videos.
     - Decentralized authentication, such as via a mobile wallet's private key is acceptable.
-
---8<-- "includes/abbreviations.ru.txt"

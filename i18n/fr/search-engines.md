@@ -1,6 +1,7 @@
 ---
 title: "Moteurs de recherche"
 icon: material/search-web
+description: Ces moteurs de recherche respectueux de la vie privée n'établissent pas de profil publicitaire sur la base de vos recherches.
 ---
 
 Utilisez un moteur de recherche qui ne construit pas un profil publicitaire en fonction de vos recherches.
@@ -105,5 +106,3 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
 
 - Doit être basé sur des logiciels open-source.
 - Ne doit pas bloquer les adresses IP des nœuds de sortie Tor.
-
---8<-- "includes/abbreviations.fr.txt"

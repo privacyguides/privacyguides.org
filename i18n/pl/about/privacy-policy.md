@@ -1,5 +1,5 @@
 ---
-title: "Privacy Policy"
+title: "Polityka prywatności"
 ---
 
 Privacy Guides to projekt społecznościowy prowadzony przez wielu aktywnych wolontariuszy. Publiczna lista członków zespołu [jest dostępna na GitHub](https://github.com/orgs/privacyguides/people).
@@ -59,5 +59,3 @@ For complaints under GDPR more generally, you may lodge complaints with your loc
 We will post any new versions of this statement [here](privacy-policy.md). Zastrzegamy sobie prawo do zmiany sposobu ogłaszania zmian w przyszłych wersjach tego dokumentu. W międzyczasie możemy aktualizować nasze informacje kontaktowe w dowolnym momencie bez ogłaszania tej zmiany. Please refer to the [Privacy Policy](privacy-policy.md) for the latest contact information at any time.
 
 A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) of this page can be found on GitHub.
-
---8<-- "includes/abbreviations.pl.txt"

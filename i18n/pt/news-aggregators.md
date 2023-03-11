@@ -1,9 +1,10 @@
 ---
 title: "Comunicação em Tempo Real"
 icon: material/rss
+description: These news aggregator clients let you keep up with your favorite blogs and news sites using internet standards like RSS.
 ---
 
-A [agregador de notícias](https://en.wikipedia.org/wiki/News_aggregator) é uma forma de acompanhar os seus blogs e sites de notícias favoritos.
+A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to keep up with your favorite blogs and news sites.
 
 ## Clientes agregadores
 
@@ -181,5 +182,3 @@ You can subscribe YouTube channels without logging in and associating usage info
     ```text
     https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
     ```
-
---8<-- "includes/abbreviations.pt.txt"

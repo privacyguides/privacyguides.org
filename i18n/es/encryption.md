@@ -1,6 +1,7 @@
 ---
 title: "Software de encriptación"
 icon: material/file-lock
+description: El cifrado de los datos es la única forma de controlar quién puede acceder a ellos. These tools allow you to encrypt your emails and any other files.
 ---
 
 El cifrado de los datos es la única forma de controlar quién puede acceder a ellos. Si actualmente no está utilizando software de encriptación para su disco duro, correos electrónicos o archivos, debería elegir una opción aquí.
@@ -354,5 +355,3 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - Operating System (FDE) encryption apps should utilize hardware security such as a TPM or Secure Enclave.
 - File encryption apps should have first- or third-party support for mobile platforms.
-
---8<-- "includes/abbreviations.es.txt"

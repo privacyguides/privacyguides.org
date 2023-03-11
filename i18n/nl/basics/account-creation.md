@@ -1,6 +1,7 @@
 ---
 title: "Het aanmaken van accounts"
 icon: 'material/account-plus'
+description: Online accounts aanmaken is bijna een internetbehoefte, neem deze stappen om ervoor te zorgen dat je privé blijft.
 ---
 
 Vaak melden mensen zich aan voor diensten zonder na te denken. Misschien is het een streamingdienst zodat je die nieuwe show kunt bekijken waar iedereen het over heeft, of een account waarmee je korting krijgt op uw favoriete fastfood zaak. Wat het geval ook is, je moet nu en later rekening houden met de implicaties voor jouw gegevens.
@@ -78,5 +79,3 @@ In veel gevallen moet je een nummer opgeven waarvan je smsjes of telefoontjes ku
 ### Gebruikersnaam en wachtwoord
 
 Bij sommige diensten kunt je je zonder e-mailadres registreren en hoeft je alleen een gebruikersnaam en wachtwoord in te stellen. Deze diensten kunnen meer anonimiteit bieden in combinatie met een VPN of Tor. Houd er rekening mee dat er voor deze accounts hoogstwaarschijnlijk **geen manier is om jouw account** te herstellen als je jouw gebruikersnaam of wachtwoord vergeet.
-
---8<-- "includes/abbreviations.nl.txt"

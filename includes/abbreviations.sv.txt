@@ -10,86 +10,86 @@
 *[CVE]: Vanliga sårbarheter och exponeringar
 *[Digitalt Arv]: Digitalt arv avser funktioner som gör att du kan ge andra personer tillgång till dina uppgifter när du dör
 *[DNSSEC]: Säkerhetstillägg för domännamnssystem
-*[DNS]: Domain Name System
-*[DoH]: DNS over HTTPS
-*[DoQ]: DNS over QUIC
-*[DoH3]: DNS over HTTP/3
-*[DoT]: DNS over TLS
-*[E2EE]: End-to-End Encryption/Encrypted
+*[DNS]: Domännamnssystem
+*[DoH]: DNS över HTTPS
+*[DoQ]: DNS över QUIC
+*[DoH3]: DNS över HTTPS
+*[DoT]: DNS över TLS
+*[E2EE]: End-to-End-kryptering/krypterad
 *[ECS]: EDNS Client Subnet
-*[EEA]: European Economic Area
-*[entropy]: A measurement of how unpredictable something is
-*[EOL]: End-of-Life
-*[Exif]: Exchangeable image file format
+*[EEA]: Europeiska ekonomiska samarbetsområdet
+*[entropy]: Ett mått på hur oförutsägbart något är
+*[EOL]: Slutet av livslängden
+*[Exif]: Utbytbart bildfilformat
 *[FCM]: Firebase Cloud Messaging
-*[FDE]: Full Disk Encryption
-*[FIDO]: Fast IDentity Online
-*[fork]: A new software project created by copying an existing project and adding to it independently
-*[GDPR]: General Data Protection Regulation
-*[GPG]: GNU Privacy Guard (PGP implementation)
-*[GPS]: Global Positioning System
-*[GUI]: Graphical User Interface
-*[GnuPG]: GNU Privacy Guard (PGP implementation)
-*[HDD]: Hard Disk Drive
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
-*[HTTPS]: Hypertext Transfer Protocol Secure
-*[HTTP]: Hypertext Transfer Protocol
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
-*[ICCID]: Integrated Circuit Card Identifier
-*[IMAP]: Internet Message Access Protocol
-*[IMEI]: International Mobile Equipment Identity
-*[IMSI]: International Mobile Subscriber Identity
-*[IP]: Internet Protocol
-*[IPv4]: Internet Protocol version 4
-*[IPv6]: Internet Protocol version 6
-*[ISP]: Internet Service Provider
-*[ISPs]: Internet Service Providers
-*[JNI]: Java Native Interface
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
-*[MAC]: Media Access Control
+*[FDE]: Fullständig diskkryptering
+*[FIDO]: Snabb IDentitet online
+*[fork]: Ett nytt programvaruprojekt som skapas genom att ett befintligt projekt kopieras och kompletteras självständigt
+*[GDPR]: Allmän dataskyddsförordning
+*[GPG]: GNU Privacy Guard (PGP-implementering)
+*[GPS]: Globalt positioneringssystem
+*[GUI]: Grafiskt användargränssnitt
+*[GnuPG]: GNU Privacy Guard (PGP-implementering)
+*[HDD]: Hårddisk
+*[HOTP]: HMAC-baserat engångslösenord (Hash-based Message Authentication Code)
+*[HTTPS]: Hypertext Transfer Protocol Säkert
+*[HTTP]: Hypertextöverföringsprotokoll
+*[hypervisor]: Datorprogramvara, firmware eller hårdvara som delar upp en processors resurser mellan flera operativsystem
+*[ICCID]: Identifierare för integrerat kretskort
+*[IMAP]: Protokoll för åtkomst till Internetmeddelanden
+*[IMEI]: Internationell identitet för mobil utrustning
+*[IMSI]: Internationell identitet för mobil utrustning
+*[IP]: Internetprotokoll
+*[IPv4]: Internetprotokoll version 4
+*[IPv6]: Internetprotokoll version 6
+*[ISP]: Internetleverantör
+*[ISPs]: Internetleverantör
+*[JNI]: Java inbyggt gränssnitt
+*[LUKS]: Linux Unified Key Setup (Full-Disk Kryptering)
+*[MAC]: Medieåtkomstkontroll
 *[MDAG]: Microsoft Defender Application Guard
-*[MEID]: Mobile Equipment Identifier
-*[MFA]: Multi-Factor Authentication
-*[NVMe]: Nonvolatile Memory Express
-*[NTP]: Network Time Protocol
-*[OCI]: Open Container Initiative
-*[OCSP]: Online Certificate Status Protocol
-*[OEM]: Original Equipment Manufacturer
-*[OEMs]: Original Equipment Manufacturers
-*[OS]: Operating System
-*[OTP]: One-Time Password
-*[OTPs]: One-Time Passwords
-*[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
-*[P2P]: Peer-to-Peer
-*[PAM]: Linux Pluggable Authentication Modules
-*[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
-*[PII]: Personally Identifiable Information
-*[QNAME]: Qualified Name
-*[rolling release]: Updates which are released frequently rather than set intervals
-*[RSS]: Really Simple Syndication
-*[SELinux]: Security-Enhanced Linux
-*[SIM]: Subscriber Identity Module
-*[SMS]: Short Message Service (standard text messaging)
-*[SMTP]: Simple Mail Transfer Protocol
-*[SNI]: Server Name Indication
-*[SSD]: Solid-State Drive
-*[SSH]: Secure Shell
-*[SUID]: Set Owner User ID
-*[SaaS]: Software as a Service (cloud software)
-*[SoC]: System on Chip
+*[MEID]: Identifiering av mobil utrustning
+*[MFA]: Multi-Faktor Autentisering
+*[NVMe]: Icke-flyktigt minne Express
+*[NTP]: Nätverkstidsprotokoll
+*[OCI]: Initiativ för öppna behållare
+*[OCSP]: Certifikatstatus online
+*[OEM]: Originalutrustningstillverkare
+*[OEMs]: Originalutrustningstillverkare
+*[OS]: Operativsystem
+*[OTP]: Engångslösenord
+*[OTPs]: Engångslösenord
+*[OpenPGP]: Implementering av Pretty Good Privacy (PGP) med öppen källkod
+*[P2P]: Peer-To-Peer
+*[PAM]: Linux Pluggable autentiseringsmoduler
+*[POP3]: Postkontorets protokoll 3
+*[PGP]: Pretty Good Privacy (se OpenPGP)
+*[PII]: Personligt identifierbar information
+*[QNAME]: Kvalificerat namn
+*[rullande utgåva]: Uppdateringar som släpps ofta i stället för med fasta intervaller
+*[RSS]: Riktigt enkel syndikering
+*[SELinux]: Linux med förbättrad säkerhet
+*[SIM]: Modul för abonnentidentitet
+*[SMS]: Short Message Service (standardiserade textmeddelanden)
+*[SMTP]: Protokoll för enkel överföring av e-post (Simple Mail Transfer Protocol)
+*[SNI]: Serverns namnindikering
+*[SSD]: Ssd-disk
+*[SSH]: Säkert skal
+*[SUID]: Ange ägarens användar-ID
+*[SaaS]: Programvara som tjänst (molnprogramvara)
+*[SoC]: System på chip
 *[SSO]: Single sign-on
-*[TCP]: Transmission Control Protocol
-*[TEE]: Trusted Execution Environment
-*[TLS]: Transport Layer Security
-*[ToS]: Terms of Service
-*[TOTP]: Time-based One-Time Password
-*[TPM]: Trusted Platform Module
-*[U2F]: Universal 2nd Factor
-*[UEFI]: Unified Extensible Firmware Interface
-*[UDP]: User Datagram Protocol
-*[VPN]: Virtual Private Network
-*[VoIP]: Voice over IP (Internet Protocol)
+*[TCP]: Protokoll för överföringskontroll
+*[TEE]: Miljö för tillförlitlig utförande
+*[TLS]: Säkerhet för transportlager
+*[ToS]: Användarvillkor
+*[TOTP]: Tidsbaserat engångslösenord
+*[TPM]: Modul för betrodd plattform
+*[U2F]: Universell 2-faktor
+*[UEFI]: Unified Extensible Firmware-gränssnitt
+*[UDP]: Användardatagramprotokoll
+*[VPN]: Virtuella privata servrar
+*[VoIP]: Röst över IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
-*[XMPP]: Extensible Messaging and Presence Protocol
-*[PWA]: Progressive Web App
+*[XMPP]: Utökningsbart meddelande- och närvaroprotokoll
+*[PWA]: Progressiv webbapp

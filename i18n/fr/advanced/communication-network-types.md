@@ -1,6 +1,7 @@
 ---
 title: "Types de réseaux de communication"
 icon: 'material/transit-connection-variant'
+description: Une présentation de plusieurs architectures réseau couramment utilisées par les applications de messagerie instantanée.
 ---
 
 Il existe plusieurs architectures réseau couramment utilisées pour relayer des messages entre des personnes. Ces réseaux peuvent offrir des garanties différentes en matière de protection de la vie privée. C'est pourquoi il est utile de tenir compte de votre [modèle de menace](../basics/threat-modeling.md) lorsque vous décidez quelle application à utiliser.
@@ -100,5 +101,3 @@ L'auto-hébergement d'un nœud dans un réseau de routage anonyme ne procure pas
 - Moins fiable si les nœuds sont sélectionnés par un routage aléatoire, certains nœuds peuvent être très éloignés de l'expéditeur et du récepteur, ce qui ajoute une latence ou même l'impossibilité de transmettre les messages si l'un des nœuds se déconnecte.
 - Plus complexe à mettre en œuvre car la création et la sauvegarde sécurisée d'une clé cryptographique privé sont nécessaires.
 - Comme pour les autres plateformes décentralisées, l'ajout de fonctionnalités est plus complexe pour les développeurs que sur une plateforme centralisée. Par conséquent, des fonctionnalités peuvent manquer ou être incomplètement mises en œuvre, comme le relais des messages hors ligne ou la suppression des messages.
-
---8<-- "includes/abbreviations.fr.txt"

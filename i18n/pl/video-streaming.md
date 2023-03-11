@@ -1,6 +1,7 @@
 ---
 title: "Strumieniowanie filmów"
 icon: material/video-wireless
+description: These networks allow you to stream internet content without building an advertising profile based on your interests.
 ---
 
 Podstawowym zagrożeniem związanym z korzystaniem z platformy do strumieniowania filmów jest to, że Twoje nawyki dotyczące strumieniowania oraz listy subskrypcyjne mogą zostać wykorzystane do profilowania Ciebie. Warto połączyć te narzędzia z [VPN](vpn.md) lub [Tor](https://www.torproject.org/), aby utrudnić profilowanie.
@@ -50,5 +51,3 @@ You can disable *Save hosting data to help the LBRY network* option in :gear: **
 
 - Must not require a centralized account to view videos.
     - Decentralized authentication, such as via a mobile wallet's private key is acceptable.
-
---8<-- "includes/abbreviations.pl.txt"

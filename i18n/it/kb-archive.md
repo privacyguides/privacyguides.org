@@ -1,6 +1,7 @@
 ---
 title: Archivio conoscenze di base
 icon: material/archive
+description: Some pages that used to be in our knowledge base can now be found on our blog.
 ---
 
 # Pagine spostate nel blog
@@ -14,5 +15,3 @@ Some pages that used to be in our knowledge base can now be found on our blog:
 - [Cancellazione sicura dei dati](https://blog.privacyguides.org/2022/05/25/secure-data-erasure/)
 - [Integrazione della rimozioni di metadata](https://blog.privacyguides.org/2022/04/09/integrating-metadata-removal/)
 - [Guida alla configurazione di iOS](https://blog.privacyguides.org/2022/10/22/ios-configuration-guide/)
-
---8<-- "includes/abbreviations.it.txt"

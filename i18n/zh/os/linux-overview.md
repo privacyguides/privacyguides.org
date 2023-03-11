@@ -1,9 +1,10 @@
 ---
 title: Linux概述
 icon: simple/linux
+description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
 ---
 
-人们通常认为， [开源](https://en.wikipedia.org/wiki/Open-source_software) 软件本身是安全的，因为源代码是可用的。 预期社区验证会定期进行；但这并不总是 [案例](https://seirdy.one/posts/2022/02/02/floss-security/)。 这确实取决于许多因素，如项目活动、开发人员经验、应用于 [代码审查的严格程度](https://en.wikipedia.org/wiki/Code_review)，以及对 [代码库](https://en.wikipedia.org/wiki/Codebase) 的特定部分给予关注的频率，这些部分可能多年未被触及。
+人们通常认为， [开源](https://en.wikipedia.org/wiki/Open-source_software) 软件本身是安全的，因为源代码是可用的。 预期社区验证会定期进行；但这并不总是 [案例](https://seirdy.one/posts/2022/02/02/floss-security/)。 It does depend on a number of factors, such as project activity, developer experience, level of rigor applied to [code reviews](https://en.wikipedia.org/wiki/Code_review), and how often attention is given to specific parts of the [codebase](https://en.wikipedia.org/wiki/Codebase) that may go untouched for years.
 
 目前，桌面Linux与它们的专利同行相比，确实有一些可以更好地改进的地方，例如：。
 
@@ -167,5 +168,3 @@ Fedora 项目 [通过使用一个 [`countme`](https://fedoraproject.org/wiki/Cha
 这个 [选项](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) ，目前默认是关闭的。 我们建议将 `countme=false` 添加到 `/etc/dnf/dnf.conf` ，以备将来启用它。 在使用 `rpm-ostree` 的系统上，如Silverblue，通过屏蔽 [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems/) 计时器来禁用 countme 选项。
 
 openSUSE 还使用一个 [唯一的 ID](https://en.opensuse.org/openSUSE:Statistics) 来计算系统，可以通过删除 `/var/lib/zypp/AnonymousUniqueId` 文件来禁用它。
-
---8<-- "includes/abbreviations.zh.txt"

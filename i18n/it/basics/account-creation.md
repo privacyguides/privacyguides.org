@@ -1,6 +1,7 @@
 ---
 title: "Creazione account"
 icon: 'material/account-plus'
+description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
 Spesso le persone si iscrivono a servizi senza riflettere. Forse si tratta di un servizio di streaming per guardare la nuova serie di cui tutti parlano, o di un account che ti offre uno sconto per il tuo supermercato preferito. In ogni caso, dovresti considerare le implicazioni per i tuoi dati ora e in futuro.
@@ -78,5 +79,3 @@ In molti casi dovrai fornire un numero da cui puoi ricevere SMS o chiamate, in p
 ### Nome utente e password
 
 Alcuni servizi ti consentono di registrarti senza utilizzare un indirizzo email e richiedono solo d'impostare un nome utente e una password. Questi servizi possono fornire un maggiore anonimato se combinati con una VPN o Tor. Tieni presente che per questi account molto probabilmente non ci sarà **nessun modo per recuperare il tuo account** nel caso in cui dimentichi il tuo nome utente o password.
-
---8<-- "includes/abbreviations.it.txt"

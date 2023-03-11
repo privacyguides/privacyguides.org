@@ -41,5 +41,3 @@ hide:
 * Scraping
 * 数据挖掘
 * 'Framing' (IFrames)
-
---8<-- "includes/abbreviations.zh.txt"

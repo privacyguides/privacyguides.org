@@ -1,6 +1,7 @@
 ---
 title: "Uwierzytelnianie wieloskładnikowe"
 icon: 'material/two-factor-authentication'
+description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
 ---
 
 **Uwierzytelnianie wieloskładnikowe** to mechanizm zabezpieczeń, który wymaga dodatkowych czynności poza wprowadzeniem nazwy użytkownika (lub e-maila) oraz hasła. Najczęściej spotykaną metodą są ograniczone czasowo kody otrzymywane poprzez wiadomość SMS lub aplikację.
@@ -162,5 +163,3 @@ SSH MFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How
 ### KeePass (and KeePassXC)
 
 KeePass and KeePassXC databases can be secured using Challenge-Response or HOTP as a second-factor authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
-
---8<-- "includes/abbreviations.pl.txt"

@@ -1,6 +1,7 @@
 ---
 title: "Tor Hálózat"
 icon: simple/torproject
+description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
 ---
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
@@ -15,13 +16,7 @@ A **Tor** hálózat egy önkéntesek által üzemeltetett szerverekből álló c
 
 A Tor úgy működik, hogy az internetes forgalmadat ezeken az önkéntesek által üzemeltetett szervereken keresztül irányítja át, ahelyett, hogy közvetlen kapcsolatot létesítene a meglátogatni kívánt oldallal. Ez elrejti, hogy honnan érkezik a forgalom, és a kapcsolat útvonalában egyetlen szerver sem látja a teljes útvonalat, ahonnan a forgalom érkezik és ahová tart, ami azt jelenti, hogy még az általad csatlakozásra használt szerverek sem tudják megtörni az anonimitásodat.
 
-<figure markdown>
-  ![Tor útvonal](assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor útvonal](assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor útvonal - Az útvonal nodejai csak azokat a szervereket látják, amelyekhez közvetlenül kapcsolódnak, például a "Belépő" node látja a te IP-címedet és a "Közép" node címét, de nem látja, hogy éppen melyik weboldalt látogatod.</figcaption>
-</figure>
-
-- [További információ a Tor működéséről :material-arrow-right-drop-circle:](advanced/tor-overview.md)
+[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
 
 ## Csatlakozás a Torhoz
 
@@ -76,7 +71,7 @@ A Tor böngészőt úgy tervezték, hogy megakadályozza az fingerprintelést, v
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
         - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
 
-A forgalomelemző támadásokkal szembeni ellenállás érdekében fontold meg a *Célcím elszigetelés* engedélyezését a :material-menu: → **Beállítások** → **Connectivity** menüpontban. Ez egy teljesen más Tor útvonalat fog használni (különböző közép relay és kilépő nodeokokat) minden egyes domainhez, amelyhez csatlakozol.
+A forgalomelemző támadásokkal szembeni ellenállás érdekében fontold meg a *Célcím elszigetelés* engedélyezését a :material-menu: → **Beállítások** → **Connectivity** menüpontban. Ez egy teljesen más Tor áramkört fog használni (különböző közép elosztó és kilépő csomópontokat) minden egyes domainhez, amelyhez csatlakozol.
 
 !!! tip "Tippek Androidhoz"
 
@@ -86,7 +81,7 @@ A forgalomelemző támadásokkal szembeni ellenállás érdekében fontold meg a
     
     Minden verzió ugyanazzal az aláírással van tanusítva, így kompatibilisnek kéne egymással lenniük.
 
-## Relayek and Hidak
+## Elosztók and Hidak
 
 ### Snowflake
 
@@ -97,7 +92,7 @@ A forgalomelemző támadásokkal szembeni ellenállás érdekében fontold meg a
     
     A **Snowflake** lehetővé teszi, hogy sávszélességet adományozz a Tor projektnek azáltal, hogy egy "Snowflake proxy"-t működtetsz a böngésződben.
     
-    Azok, akik cenzúra alatt állnak, Snowflake proxykat tudnak használni a Tor-hálózathoz való csatlakozáshoz. A Snowflake egy nagyszerű módja annak, hogy hozzájárulj a hálózathoz, még akkor is, ha nincs meg a technikai tudásod egy Tor relay vagy híd üzemeltetéséhez.
+    Azok, akik cenzúra alatt állnak, Snowflake proxykat tudnak használni a Tor-hálózathoz való csatlakozáshoz. A Snowflake egy nagyszerű módja annak, hogy hozzájárulj a hálózathoz, még akkor is, ha nincs meg a technikai tudásod egy Tor elosztó vagy híd üzemeltetéséhez.
     
     [:octicons-home-16: Honlap](https://snowflake.torproject.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Dokumentáció}
@@ -117,8 +112,6 @@ A forgalomelemző támadásokkal szembeni ellenállás érdekében fontold meg a
     <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
     <small>Ha a beágyazás nem jelenik meg nálad, győződj meg róla, hogy nem blokkolod a harmadik féltől származó keretet a `torproject.org`-ról. Alternatív megoldásként látogasson el [erre az oldalra](https://snowflake.torproject.org/embed.html).</small>
 
-A Snowflake semmilyen módon nem növeli az magánéletedet, és a személyes böngésződön keresztül a Tor-hálózathoz kapcsolódni sem használatos. Ha azonban az internetkapcsolatod nincs cenzúrázva, érdemes megfontolni a futtatását, hogy cenzúrázott hálózatokban élő embereknek is segíts jobb magánéletet elérni. Nem kell aggódnod amiatt, hogy személyek milyen weboldalakhoz férnek hozzá a proxydon keresztül - a látható böngészési IP-címük majd megegyezik a Tor kilépő nodejukkal nem pedig tieddel.
+A Snowflake semmilyen módon nem növeli az magánéletedet, és a személyes böngésződön keresztül a Tor-hálózathoz kapcsolódni sem használatos. Ha azonban az internetkapcsolatod nincs cenzúrázva, érdemes megfontolni a futtatását, hogy segíts cenzúrázott hálózatokon lévő személyeknek jobb magánéletet elérni. Nem kell aggódnod amiatt, hogy személyek milyen weboldalakhoz férnek hozzá a proxydon keresztül - a látható böngészési IP-címük majd megegyezik a Tor kilépő csomópontjukkal nem pedig tieddel.
 
-Egy Snowflake proxy futtatása alacsony kockázatú, még inkább, mint egy Tor relay vagy híd futtatása, amelyek már eleve sem különösebben kockázatos vállalkozások. Ettől függetlenül még mindig forgalom kerül átküldésre a hálózatodon ami bizonyos szempontból hatással lehet arra, különösen, ha a hálózatod sávszélessége korlátozott. Győződj meg róla, hogy érted [hogyan működik a Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) mielőtt eldöntöd, hogy futtatsz-e proxyt.
-
---8<-- "includes/abbreviations.hu.txt"
+Egy Snowflake proxy futtatása alacsony kockázatú, még inkább, mint egy Tor elosztó vagy híd futtatása, amelyek már eleve sem különösebben kockázatos vállalkozások. Ettől függetlenül még mindig forgalom kerül átküldésre a hálózatodon ami bizonyos szempontból hatással lehet arra, különösen, ha a hálózatod sávszélessége korlátozott. Győződj meg róla, hogy érted [hogyan működik a Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) mielőtt eldöntöd, hogy futtatsz-e proxyt.

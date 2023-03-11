@@ -35,7 +35,6 @@ Medio 2021 nam het PrivacyTools team contact op met Jonah, die ermee instemde zi
 ## Gemeenschaps oproep tot actie
 
 </a> Eind juli 2021 hebben we
-
 de PrivacyTools gemeenschap op de hoogte gebracht van ons voornemen om een nieuwe naam te kiezen en het project voort te zetten op een nieuw domein, dat [gekozen zal worden](https://web.archive.org/web/20210729190935/https://aragon.cloud/apps/forms/cMPxG9KyopapBbcw) op 2 augustus 2022. Uiteindelijk werd "Privacy Guides" gekozen, met het domein `privacyguides.org` dat Jonah al bezat voor een zijproject uit 2020 dat onontwikkeld bleef.</p> 
 
 
@@ -142,5 +141,3 @@ Dit onderwerp is uitgebreid besproken binnen onze gemeenschappen op verschillend
 - [2 apr 2022 reactie van u/dng99 op beschuldigende blogpost van PrivacyTools](https://www.reddit.com/comments/tuo7mm/comment/i35kw5a/)
 - [16 mei 2022 reactie door @TommyTran732 op Twitter](https://twitter.com/TommyTran732/status/1526153497984618496)
 - [Sep 3, 2022 post op Techlore's forum door @dngray](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
-
---8<-- "includes/abbreviations.nl.txt"

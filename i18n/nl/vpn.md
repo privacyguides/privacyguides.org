@@ -1,94 +1,34 @@
 ---
 title: "VPN-diensten"
 icon: material/vpn
+description: Dit zijn de beste VPN-diensten om jouw privacy en veiligheid online te beschermen. Vind hier een provider die er niet op uit is om je te bespioneren.
 ---
 
-Zoek een no-logging VPN-operator die er niet op uit is jouw webverkeer te verkopen of te lezen.
+Als je op zoek bent naar extra **privacy** van uw ISP, op een openbaar Wi-Fi-netwerk, of tijdens het torrenten van bestanden, kan een VPN de oplossing voor je zijn, zolang je de risico's ervan begrijpt. Wij denken dat deze aanbieders een stuk beter zijn dan de rest:
 
-??? danger "VPN's zorgen niet voor anonimiteit"
+<div class="grid cards" markdown>
 
-    Het gebruik van een VPN houdt jouw surfgedrag niet anoniem, noch voegt het extra beveiliging toe aan niet-beveiligd (HTTP) verkeer.
+- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
+- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
+- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
+
+</div>
+
+!!! danger "VPN's zorgen niet voor anonimiteit"
+
+    Het gebruik van een VPN houdt jouw surfgedrag niet anoniem, ook voegt het geen extra beveiliging toe aan niet-beveiligd (HTTP) verkeer.
     
-    Als je op zoek bent naar **anonimiteit**, kunt je beter de Tor Browser **in plaats** van een VPN gebruiken.
+    Als je op zoek bent naar **anonimiteit**, moet je de Tor Browser gebruiken **in plaats** van een VPN.
     
     Als je op zoek bent naar extra **veiligheid**, moet je er altijd voor zorgen dat je verbinding maakt met websites via HTTPS. Een VPN is geen vervanging voor goede beveiligingspraktijken.
     
     [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Mythen & FAQ](advanced/tor-overview.md){ .md-button }
 
-??? question "Wanneer zijn VPN's nuttig?"
-
-    Als je op zoek bent naar extra **privacy** van uw ISP, op een openbaar Wi-Fi-netwerk, of tijdens het torrenten van bestanden, kan een VPN de oplossing voor je zijn, zolang je de risico's ervan begrijpt.
-    
-    [Meer info](basics/vpn-overview.md){ .md-button }
+[Gedetailleerd VPN-overzicht :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
 ## Aanbevolen Providers
 
-!!! abstract "Criteria"
-
-    Onze aanbevolen providers gebruiken encryptie, accepteren Monero, ondersteunen WireGuard & OpenVPN, en hebben een no logging beleid. Lees onze [volledige lijst van criteria](#onze-criteria) voor meer informatie.
-
-### Proton VPN
-
-!!! recommendation annotate
-
-    ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
-    
-    **Proton VPN** is een sterke speler in de VPN-ruimte, en ze zijn in bedrijf sinds 2016. Proton AG is gevestigd in Zwitserland en biedt een beperkt gratis niveau en een meer uitgebreide premium optie.
-    
-    [:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Broncode" }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
-        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
-        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
-        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
-
-??? success annotate "67 Landen"
-
-    Proton VPN heeft [servers in 67 landen](https://protonvpn.com/vpn-servers) (1). Door een VPN-provider te kiezen met een server het dichtst bij jou in de buurt, verminder je de latentie van het netwerkverkeer dat je verstuurt. Dit komt door een kortere route (minder hops) naar de bestemming.
-    
-    Wij denken ook dat het voor de veiligheid van de privé-sleutels van de VPN-provider beter is als zij [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service) gebruiken, in plaats van goedkopere gedeelde oplossingen (met andere klanten) zoals [virtuele privé-servers](https://en.wikipedia.org/wiki/Virtual_private_server).
-
-1. Laatst gecontroleerd: 2022-09-16
-
-??? success "Onafhankelijk Gecontroleerd"
-
-    Vanaf januari 2020, heeft Proton VPN een onafhankelijke audit door SEC Consult ondergaan. SEC Consult vond enkele kwetsbaarheden met een gemiddeld en laag risico in de Windows-, Android- en iOS-applicaties van Proton VPN, die allemaal door Proton VPN "naar behoren waren verholpen" voordat de rapporten werden gepubliceerd. Geen van de geconstateerde problemen zou een aanvaller op afstand toegang hebben verschaft tot jouw apparaat of verkeer. Je kunt de afzonderlijke verslagen voor elk platform bekijken op [protonvpn.com](https://protonvpn.com/blog/open-source/). In april 2022 onderging Proton VPN [nog een audit](https://protonvpn.com/blog/no-logs-audit/) en het verslag werd [opgesteld door Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). Voor de apps van Proton VPN is op 9 november 2021 een [attestbrief](https://proton.me/blog/security-audit-all-proton-apps) verstrekt door [Securitum](https://research.securitum.com).
-
-??? success "Open-Source Cliënts"
-
-    Proton VPN biedt de broncode voor hun desktop en mobiele clients in hun [GitHub organisatie](https://github.com/ProtonVPN).
-
-??? success "Accepteert Cash"
-
-    Proton VPN accepteert naast creditcards en PayPal ook Bitcoin en **contant geld/lokale valuta** als anonieme vormen van betaling.
-
-??? success "WireGuard Support"
-
-    Proton VPN ondersteunt hoofdzakelijk het WireGuard® protocol. [WireGuard](https://www.wireguard.com) is een nieuwer protocol dat gebruik maakt van het modernste [cryptography](https://www.wireguard.com/protocol/). Bovendien wil WireGuard eenvoudiger en performanter zijn.
-    
-    Proton VPN [recommends](https://protonvpn.com/blog/wireguard/) het gebruik van WireGuard met hun dienst. Op Proton VPN's Windows, macOS, iOS, Android, ChromeOS, en Android TV apps is WireGuard het standaard protocol; [support](https://protonvpn.com/support/how-to-change-vpn-protocols/) voor het protocol is echter niet aanwezig in hun Linux app.
-
-??? warning "Remote Port Forwarding"
-
-    Proton VPN ondersteunt momenteel alleen remote [port forwarding](https://protonvpn.com/support/port-forwarding/) op Windows, wat gevolgen kan hebben voor sommige toepassingen. Vooral Peer-to-peer-toepassingen zoals Torrent-cliënten.
-
-??? success "Mobiele klanten"
-
-    Naast het leveren van standaard OpenVPN-configuratiebestanden, heeft Proton VPN mobiele clients voor [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=nl_US), en [GitHub](https://github.com/ProtonVPN/android-app/releases) die eenvoudige verbindingen met hun servers mogelijk maken.
-
-??? info "Aanvullende Functionaliteit"
-
-    Proton VPN heeft eigen servers en datacenters in Zwitserland, IJsland en Zweden. Ze bieden adblocking en het blokkeren van bekende malware domeinen met hun DNS service. Ze bieden adblocking en blokkering van bekende malwaredomeinen met hun DNS-dienst. Daarnaast biedt Proton VPN ook "Tor" servers waarmee je gemakkelijk verbinding kunt maken met onion sites, maar we raden nog steeds sterk aan om hiervoor [de officiële Tor Browser](https://www.torproject.org/) te gebruiken.
-
-!!! danger "De killswitch-functionaliteit werkt niet op Intel-gebaseerde Macs"
-
-    Systeemcrashes [kunnen optreden](https://protonvpn.com/support/macos-t2-chip-kill-switch/) op Intel-gebaseerde Macs bij gebruik van de VPN killswitch. Als je deze functie nodig hebt, en je gebruikt een Mac met Intel-chipset, moet je overwegen een andere VPN-dienst te gebruiken.
+Onze aanbevolen providers gebruiken encryptie, accepteren Monero, ondersteunen WireGuard & OpenVPN, en hebben een no logging beleid. Lees onze [volledige lijst met criteria](#criteria) voor meer informatie.
 
 ### IVPN
 
@@ -96,10 +36,10 @@ Zoek een no-logging VPN-operator die er niet op uit is jouw webverkeer te verkop
 
     ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
     
-    **IVPN** is een andere premium VPN provider, en ze zijn actief sinds 2009. IVPN is gevestigd in Gibraltar.
+    **IVPN** is een premium VPN-provider en zijn actief sinds 2009. IVPN is gevestigd in Gibraltar.
     
     [:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacybeleid" }
     [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Broncode" }
     
@@ -111,43 +51,44 @@ Zoek een no-logging VPN-operator die er niet op uit is jouw webverkeer te verkop
         - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
         - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
 
-??? success annotate "35 Landen"
+#### :material-check:{ .pg-green } 35 Landen
 
-    IVPN heeft [servers in 35 landen](https://www.ivpn.net/server-locations) (1). Door een VPN-provider te kiezen met een server het dichtst bij jou in de buurt, verminder je de latentie van het netwerkverkeer dat je verstuurt. Dit komt door een kortere route (minder hops) naar de bestemming.
-    
-    Wij denken ook dat het voor de veiligheid van de privé-sleutels van de VPN-provider beter is als zij [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service) gebruiken, in plaats van goedkopere gedeelde oplossingen (met andere klanten) zoals [virtuele privé-servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+IVPN heeft [servers in 35 landen](https://www.ivpn.net/server-locations).(1) Door een VPN-provider te kiezen met een server die het dichtst bij je in de buurt staat, verminder je de vertraging van het netwerkverkeer die je verstuurt. Dit komt door een kortere route (minder hops) naar de bestemming.
+{ .annotate }
 
 1. Laatst gecontroleerd: 2022-09-16
 
-??? success "Onafhankelijk Gecontroleerd"
+Wij denken ook dat het beter is voor de veiligheid van de privésleutels van de VPN-provider als ze [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service) gebruiken, in plaats van goedkopere gedeelde servers (met andere klanten) zoals [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-    IVPN heeft een [no-logging audit van Cure53](https://cure53.de/audit-report_ivpn.pdf) ondergaan die concludeerde in overeenstemming met de no-logging claim van IVPN. IVPN heeft in januari 2020 ook een [uitgebreid pentestrapport Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) afgerond. IVPN heeft ook gezegd dat zij van plan zijn in de toekomst [jaarverslagen](https://www.ivpn.net/blog/independent-security-audit-concluded) uit te brengen. Er is nog een evaluatie uitgevoerd [in april 2022](https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) en deze is opgesteld door Cure53 [op hun website](https://cure53.de/pentest-report_IVPN_2022.pdf).
+#### :material-check:{ .pg-green } Onafhankelijk geaudit
 
-??? success "Open-Source Cliënts"
+IVPN heeft een [no-logging audit ondergaan van Cure53](https://cure53.de/audit-report_ivpn.pdf) die concludeerde in overeenstemming met de no-logging claim van IVPN. IVPN heeft ook een [uitgebreid pentest rapport afgerond Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) in januari 2020. IVPN heeft ook gezegd dat het van plan is om in de toekomst [jaarverslagen](https://www.ivpn.net/blog/independent-security-audit-concluded) te publiceren. In april 2022 werd een verdere evaluatie uitgevoerd [](https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) en door Cure53 [geproduceerd op hun website](https://cure53.de/pentest-report_IVPN_2022.pdf).
 
-    Sinds februari 2020 zijn [IVPN applicaties nu open-source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Broncode kan worden verkregen van hun [GitHub organisatie](https://github.com/ivpn).
+#### :material-check:{ .pg-green } Open-source clients
 
-??? success "Accepteert contant geld en Monero"
+Vanaf februari 2020 zijn [IVPN-toepassingen nu open-source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Broncode kan worden verkregen van hun [GitHub organisatie](https://github.com/ivpn).
 
-    Naast creditcards/debetkaarten en PayPal accepteert IVPN ook Bitcoin, **Monero** en **cash/lokale valuta** (op jaarplannen) als anonieme betalingsvormen.
+#### :material-check:{ .pg-green } Accepteert contant geld en Monero
 
-??? success "WireGuard Support"
+Mullvad accepteert naast creditcards en PayPal ook Bitcoin, Bitcoin Cash, **Monero** en **contant geld/lokale valuta** als anonieme vormen van betaling.
 
-    IVPN ondersteunt het WireGuard® protocol. [WireGuard](https://www.wireguard.com) is een nieuwer protocol dat gebruik maakt van het modernste [cryptography](https://www.wireguard.com/protocol/). Bovendien wil WireGuard eenvoudiger en performanter zijn.
-    
-    IVPN [raad](https://www.ivpn.net/wireguard/) het gebruik van WireGuard aan en hierom is het protocol de standaard in alle apps van IVPN. IVPN biedt ook een WireGuard configuratie generator voor gebruik met de officiële WireGuard [apps](https://www.wireguard.com/install/).
+#### :material-check:{ .pg-green } WireGuard ondersteuning
 
-??? success "Remote Port Forwarding"
+IVPN ondersteunt het WireGuard® protocol. [WireGuard](https://www.wireguard.com) is een nieuwer protocol dat gebruik maakt van geavanceerde [cryptografie](https://www.wireguard.com/protocol/). Bovendien wil WireGuard eenvoudiger en performanter zijn.
 
-    Remote [port forwarding] (https://en.wikipedia.org/wiki/Port_forwarding) is mogelijk met een Pro-abonnement. Port forwarding [kan geactiveerd worden](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html) via de client area. Port forwarding is alleen beschikbaar op IVPN bij gebruik van WireGuard of OpenVPN protocollen en is [uitgeschakeld op US servers](https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
+IVPN [adviseert](https://www.ivpn.net/wireguard/) het gebruik van WireGuard met hun dienst en daarom is het protocol de standaard op alle apps van IVPN. IVPN biedt ook een WireGuard configuratie generator voor gebruik met de officiële WireGuard [apps](https://www.wireguard.com/install/).
 
-??? success "Mobiele klanten"
+#### :material-check:{ .pg-green } Remote Port Forwarding
 
-    Naast het leveren van standaard OpenVPN-configuratiebestanden, heeft IVPN mobiele clients voor [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), en [GitHub](https://github.com/ivpn/android-app/releases) die eenvoudige verbindingen met hun servers mogelijk maken.
+Remote [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is mogelijk met een Pro-abonnement. Port forwarding [kan](https://www.ivpn.net/knowledgebase/81/How-do-I-activate-port-forwarding.html) geactiveerd worden via de client area. Port forwarding is alleen beschikbaar op IVPN bij gebruik van WireGuard- of OpenVPN-protocollen en is [uitgeschakeld op Amerikaanse servers](https://www.ivpn.net/knowledgebase/116/Port-forwarding-is-not-working-why.html).
 
-??? info "Aanvullende Functionaliteit"
+#### :material-check:{ .pg-green } Mobiele Clients
 
-    IVPN-clients ondersteunen tweefactorauthenticatie (de clients van Mullvad niet). IVPN biedt ook de "[AntiTracker](https://www.ivpn.net/antitracker)" functionaliteit, die advertentienetwerken en trackers op netwerkniveau blokkeert.
+Naast het leveren van standaard OpenVPN-configuratiebestanden, heeft IVPN mobiele clients voor [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), en [GitHub](https://github.com/ivpn/android-app/releases) die gemakkelijke verbindingen met hun servers mogelijk maken.
+
+#### :material-information-outline:{ .pg-blue } Aanvullende functionaliteit
+
+IVPN-clients ondersteunen tweefactorauthenticatie (de clients van Mullvad niet). IVPN biedt ook "[AntiTracker](https://www.ivpn.net/antitracker)" functionaliteit, die advertentienetwerken en trackers op netwerkniveau blokkeert.
 
 ### Mullvad
 
@@ -159,7 +100,7 @@ Zoek een no-logging VPN-operator die er niet op uit is jouw webverkeer te verkop
     
     [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }.
+    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacybeleid" }.
     [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Broncode" }
     
@@ -172,55 +113,120 @@ Zoek een no-logging VPN-operator die er niet op uit is jouw webverkeer te verkop
         - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
         - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
 
-??? success annotate "41 landen"
+#### :material-check:{ .pg-green } 41 Landen
 
-    Mullvad heeft [servers in 41 landen](https://mullvad.net/servers/) (1). Door een VPN-provider te kiezen met een server het dichtst bij jou in de buurt, verminder je de latentie van het netwerkverkeer dat je verstuurt. Dit komt door een kortere route (minder hops) naar de bestemming.
-    
-    Wij denken ook dat het voor de veiligheid van de privé-sleutels van de VPN-provider beter is als zij [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service) gebruiken, in plaats van goedkopere gedeelde oplossingen (met andere klanten) zoals [virtuele privé-servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+Mullvad heeft [servers in 41 landen](https://mullvad.net/servers/).(1) Door een VPN-provider te kiezen met een server die het dichtst bij je in de buurt staat, verminder je de vertraging van het netwerkverkeer die je verstuurt. Dit komt door een kortere route (minder hops) naar de bestemming.
+{ .annotate }
 
 1. Laatst gecontroleerd: 2023-01-19
 
-??? success "Onafhankelijk Gecontroleerd"
+Wij denken ook dat het beter is voor de veiligheid van de privésleutels van de VPN-provider als ze [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service) gebruiken, in plaats van goedkopere gedeelde servers (met andere klanten) zoals [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-    De VPN-clients van Mullvad zijn gecontroleerd door Cure53 en Assured AB in een pentest-rapport [gepubliceerd op cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf). De beveiligingsonderzoekers concludeerden:
+#### :material-check:{ .pg-green } Onafhankelijk geaudit
+
+De VPN-clients van Mullvad zijn geaudit door Cure53 en Assured AB in een pentest-rapport [gepubliceerd op cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf). De beveiligingsonderzoekers concludeerden:
+
+> Cure53 en Assured AB zijn blij met de resultaten van de audit en de software laat over het algemeen een positieve indruk achter. Dankzij de inzet van het interne team van Mullvad VPN, twijfelen de testers er niet aan dat het project vanuit een beveiligingsoogpunt op het juiste spoor zit.
+
+In 2020 werd een tweede audit [aangekondigd](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app/) en werd het [definitieve auditverslag ](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) beschikbaar gesteld op de website van Cure53:
+
+> De resultaten van dit mei-juni 2020-project gericht op het Mullvad-complex zijn vrij positief. [...] Het totale applicatie-ecosysteem dat door Mullvad wordt gebruikt, laat een goede en gestructureerde indruk achter. De algemene structuur van de applicatie maakt het gemakkelijk om patches en fixes op een gestructureerde manier uit te rollen. De bevindingen van Cure53 laten vooral zien hoe belangrijk het is om de huidige lekken voortdurend te controleren en opnieuw te beoordelen, om de privacy van de eindgebruikers altijd te waarborgen. Dat gezegd hebbende, Mullvad beschermt de eindgebruiker uitstekend tegen veelvoorkomende lekken van PII en privacygerelateerde risico's.
+
+In 2020 werd een infstrastructuuraudit [aangekondigd](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app/) en werd het [definitieve auditverslag ](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) beschikbaar gesteld op de website van Cure53. Een ander rapport werd in opdracht gegeven [in juni 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) en is beschikbaar op [Assured's website](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
+
+#### :material-check:{ .pg-green } Open-source clients
+
+Mullvad levert de broncode voor hun desktop en mobiele clients in hun [GitHub organisatie](https://github.com/mullvad/mullvadvpn-app).
+
+#### :material-check:{ .pg-green } Accepteert contant geld en Monero
+
+Mullvad accepteert naast creditcards en PayPal ook Bitcoin, Bitcoin Cash, **Monero** en **contant geld/lokale valuta** als anonieme vormen van betaling. Ze aanvaarden ook Swish en bankoverschrijvingen.
+
+#### :material-check:{ .pg-green } WireGuard ondersteuning
+
+Mullvad ondersteunt het WireGuard® protocol. [WireGuard](https://www.wireguard.com) is een nieuwer protocol dat gebruik maakt van geavanceerde [cryptografie](https://www.wireguard.com/protocol/). Bovendien wil WireGuard eenvoudiger en performanter zijn.
+
+Mullvad [adviseert](https://mullvad.net/en/help/why-wireguard/) het gebruik van WireGuard met hun dienst. Het is het standaard of enige protocol op Mullvad's Android, iOS, macOS en Linux apps, maar op Windows moet je [handmatig](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard inschakelen. Mullvad biedt ook een WireGuard configuratiegenerator voor gebruik met de officiële WireGuard [apps](https://www.wireguard.com/install/).
+
+#### :material-check:{ .pg-green } IPv6-ondersteuning
+
+Mullvad ondersteunt de toekomst van netwerken [IPv6](https://en.wikipedia.org/wiki/IPv6). Hun netwerk geeft u [toegang tot diensten die gehost worden op IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/) in tegenstelling tot andere providers die IPv6-verbindingen blokkeren.
+
+#### :material-check:{ .pg-green } Remote Port Forwarding
+
+Remote [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is toegestaan voor mensen die eenmalige betalingen doen, maar niet voor rekeningen met een terugkerende/abonnementsgebaseerde betalingsmethode. Dit is om te voorkomen dat Mullvad je kan identificeren op basis van jouw poortgebruik en opgeslagen abonnementsinformatie. Zie [Port forwarding met Mullvad VPN](https://mullvad.net/help/port-forwarding-and-mullvad/) voor meer informatie.
+
+#### :material-check:{ .pg-green } Mobiele Clients
+
+Mullvad heeft [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) en [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients gepubliceerd, die beide een gebruiksvriendelijke interface ondersteunen in plaats van dat je jouw WireGuard-verbinding handmatig moet configureren. De Android client is ook beschikbaar op [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
+
+#### :material-information-outline:{ .pg-blue } Aanvullende functionaliteit
+
+Mullvad is zeer transparant over welke knooppunten zij [bezitten of huren](https://mullvad.net/en/servers/). Ze gebruiken [ShadowSocks](https://shadowsocks.org/) in hun ShadowSocks + OpenVPN-configuratie, waardoor ze beter bestand zijn tegen firewalls met [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) die VPN's proberen te blokkeren. Vermoedelijk moet [China een andere methode gebruiken om ShadowSocks servers te blokkeren](https://github.com/net4people/bbs/issues/22). Mullvad's website is ook toegankelijk via Tor via [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
+
+### Proton VPN
+
+!!! recommendation annotate
+
+    ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
     
-    > Cure53 en Assured AB zijn blij met de resultaten van de audit en de software laat een algehele positieve indruk achter. Dankzij de inzet van het interne team van Mullvad VPN, twijfelen de testers er niet aan dat het project vanuit beveiligingsoogpunt op het juiste spoor zit.
+    **Proton VPN** is een sterke speler in de VPN-ruimte en is in bedrijf sinds 2016. Proton AG is gevestigd in Zwitserland en biedt een beperkte gratis versie aan en ook een meer uitgebreide premium optie.
     
-    In 2020 werd een tweede audit [aangekondigd](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app/) en werd het [definitieve auditverslag](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) beschikbaar gesteld op de website van Cure53:
+    [:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacybeleid" }
+    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentatie}
+    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Broncode" }
     
-    > De resultaten van dit mei-juni 2020 project gericht op het Mullvad complex zijn vrij positief. [...] Het door Mullvad gebruikte totale applicatie-ecosysteem maakt een degelijke en gestructureerde indruk. De algemene structuur van de applicatie maakt het gemakkelijk om patches en fixes op een gestructureerde manier uit te rollen. De bevindingen van Cure53 laten vooral zien hoe belangrijk het is om de huidige lekvectoren voortdurend te controleren en opnieuw te beoordelen, om de privacy van de eindgebruikers altijd te waarborgen. Dat gezegd hebbende, Mullvad beschermt de eindgebruiker uitstekend tegen veelvoorkomende lekken van PII en privacygerelateerde risico's.
+    ??? downloads "Downloaden"
     
-    In 2021 werd een infrastructuuraudit [aangekondigd](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) en werd het [definitieve auditverslag](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) beschikbaar gesteld op de website van Cure53. Een ander rapport werd [in juni 2022] besteld (https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) en is beschikbaar op [de website van Assured](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
+        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
+        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
 
-??? success "Open-Source Cliënts"
+#### :material-check:{ .pg-green } 67 Landen
 
-    Mullvad biedt de broncode voor hun desktop en mobiele clients in hun [GitHub organisatie](https://github.com/mullvad/mullvadvpn-app).
+Proton VPN heeft [servers in 67 landen](https://protonvpn.com/vpn-servers).(1) Door een VPN-provider te kiezen met een server die het dichtst bij je in de buurt staat, verminder je de vertraging van het netwerkverkeer die je verstuurt. Dit komt door een kortere route (minder hops) naar de bestemming.
+{ .annotate }
 
-??? success "Accepteert contant geld en Monero"
+1. Laatst gecontroleerd: 2022-09-16
 
-    Mullvad accepteert naast creditcards en PayPal ook Bitcoin, Bitcoin Cash, **Monero** en **contant geld/lokale valuta** als anonieme vormen van betaling. Zij aanvaarden ook Swish en bankoverschrijvingen.
+Wij denken ook dat het beter is voor de veiligheid van de privésleutels van de VPN-provider als ze [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service) gebruiken, in plaats van goedkopere gedeelde servers (met andere klanten) zoals [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-??? success "WireGuard Support"
+#### :material-check:{ .pg-green } Onafhankelijk geaudit
 
-    Mullvad ondersteunt het WireGuard® protocol. [WireGuard](https://www.wireguard.com) is een nieuwer protocol dat gebruik maakt van het modernste [cryptography](https://www.wireguard.com/protocol/). Bovendien wil WireGuard eenvoudiger en performanter zijn.
-    
-    Mullvad [recommends](https://mullvad.net/nl/help/why-wireguard/) het gebruik van WireGuard met hun service. Het is het standaard of enige protocol op Mullvad 's Android-, iOS-, macOS- en Linux-apps, maar op Windows moet je [handmatig inschakelen](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad biedt ook een WireGuard configuratie generator aan voor gebruik met de officiële WireGuard [apps](https://www.wireguard.com/install/).
+Vanaf januari 2020, heeft Proton VPN een onafhankelijke audit door SEC Consult ondergaan. SEC Consult vond enkele kwetsbaarheden met een gemiddeld en laag risico in de Windows-, Android- en iOS-applicaties van Proton VPN, die allemaal door Proton VPN "naar behoren waren verholpen" voordat de rapporten werden gepubliceerd. Geen van de geconstateerde problemen zou een aanvaller op afstand toegang hebben verschaft tot jouw apparaat of verkeer. Je kunt individuele rapporten voor elk platform bekijken op [protonvpn.com](https://protonvpn.com/blog/open-source/). In april 2022 onderging Proton VPN [nog een audit](https://protonvpn.com/blog/no-logs-audit/) en het rapport werd [opgesteld door Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). Een [attestatiebrief](https://proton.me/blog/security-audit-all-proton-apps) werd op 9 november 2021 voor de apps van Proton VPN verstrekt door [Securitum](https://research.securitum.com).
 
-??? success "IPv6 ondersteuning"
+#### :material-check:{ .pg-green } Open-source clients
 
-    Mullvad ondersteunt de toekomst van networking [IPv6](https://en.wikipedia.org/wiki/IPv6). Hun netwerk laat je toe [toegang te krijgen tot diensten die gehost worden op IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/) in tegenstelling tot andere providers die IPv6-verbindingen blokkeren.
+Proton VPN levert de broncode voor hun desktop en mobiele clients in hun [GitHub organisatie](https://github.com/ProtonVPN).
 
-??? success "Remote Port Forwarding"
+#### :material-check:{ .pg-green } Accepteert contant geld
 
-    Remote [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is toegestaan voor mensen die eenmalige betalingen doen, maar niet voor rekeningen met een terugkerende/abonnementsgebaseerde betalingsmethode. Dit is om te voorkomen dat Mullvad je kan identificeren op basis van jouw poortgebruik en opgeslagen abonnementsinformatie. Zie [Port forwarding met Mullvad VPN](https://mullvad.net/help/port-forwarding-and-mullvad/) voor meer informatie.
+Proton VPN accepteert, naast credit/debit cards, PayPal en [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), ook **contant geld** als anonieme vorm van betaling.
 
-??? success "Mobiele klanten"
+#### :material-check:{ .pg-green } WireGuard ondersteuning
 
-    Mullvad heeft [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) en [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients gepubliceerd, die beide een gebruiksvriendelijke interface ondersteunen in plaats van je te verplichten jouw WireGuard-verbinding handmatig te configureren. De Android-client is ook beschikbaar op [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
+Proton VPN ondersteunt hoofdzakelijk het WireGuard® protocol. [WireGuard](https://www.wireguard.com) is een nieuwer protocol dat gebruik maakt van geavanceerde [cryptografie](https://www.wireguard.com/protocol/). Bovendien wil WireGuard eenvoudiger en performanter zijn.
 
-??? info "Aanvullende Functionaliteit"
+Proton VPN [adviseert](https://protonvpn.com/blog/wireguard/) het gebruik van WireGuard met hun dienst. Op de Windows, macOS, iOS, Android, ChromeOS en Android TV apps van Proton VPN is WireGuard het standaardprotocol; [ondersteuning](https://protonvpn.com/support/how-to-change-vpn-protocols/) voor het protocol is echter niet aanwezig in hun Linux app.
 
-    Mullvad is zeer transparant over welke knooppunten zij [bezitten of huren] (https://mullvad.net/en/servers/). Ze gebruiken [ShadowSocks](https://shadowsocks.org/) in hun ShadowSocks + OpenVPN configuratie, waardoor ze beter bestand zijn tegen firewalls met [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) die VPN's proberen te blokkeren. Vermoedelijk, [China moet een andere methode gebruiken om ShadowSocks servers te blokkeren](https://github.com/net4people/bbs/issues/22). De website van Mullvad is ook toegankelijk via Tor op [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
+#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
+
+Proton VPN ondersteunt momenteel alleen remote [port forwarding](https://protonvpn.com/support/port-forwarding/) op Windows, wat van invloed kan zijn op sommige toepassingen. Vooral Peer-to-peer-toepassingen zoals Torrent-cliënten.
+
+#### :material-check:{ .pg-green } Mobiele Clients
+
+Naast het leveren van standaard OpenVPN-configuratiebestanden, heeft Proton VPN mobiele clients voor [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US), en [GitHub](https://github.com/ProtonVPN/android-app/releases) die eenvoudige verbindingen met hun servers mogelijk maken.
+
+#### :material-information-outline:{ .pg-blue } Aanvullende functionaliteit
+
+Proton VPN heeft eigen servers en datacenters in Zwitserland, IJsland en Zweden. Ze bieden adblocking en het blokkeren van bekende malware domeinen met hun DNS service. Ze bieden adblocking en blokkering van bekende malwaredomeinen met hun DNS-dienst. Bovendien biedt Proton VPN ook "Tor" -servers waarmee je eenvoudig verbinding kunt maken met. onion sites, maar we raden je nog steeds ten zeerste aan om hiervoor [de officiële Tor Browser](https://www.torproject.org/) te gebruiken.
+
+#### :material-alert-outline:{ .pg-orange } Killswitch-functie is kapot op Intel-gebaseerde Macs
+
+Systeemcrashes [kunnen optreden](https://protonvpn.com/support/macos-t2-chip-kill-switch/) op Intel-gebaseerde Macs bij het gebruik van de VPN killswitch. Als je deze functie nodig hebt, en je gebruikt een Mac met Intel-chipset, moet je overwegen een andere VPN-dienst te gebruiken.
 
 ## Criteria
 
@@ -255,13 +261,13 @@ Wij geven er de voorkeur aan dat de door ons aanbevolen aanbieders zo weinig mog
 
 **Minimum om in aanmerking te komen:**
 
-- Monero of contante betaling.
+- [Anonieme cryptocurrency](cryptocurrency.md) **of** cash betalingsoptie.
 - Geen persoonlijke informatie nodig om te registreren: Hooguit gebruikersnaam, wachtwoord en e-mail.
 
 **Beste geval:**
 
-- Accepteert Monero, contant geld, en andere vormen van anonieme betalingsopties (cadeaubonnen, enz.)
-- Geen persoonlijke informatie aanvaard (automatisch gegenereerde gebruikersnaam, geen e-mail nodig, enz.)
+- Accepteert meerdere [anonieme betalingsopties](advanced/payments.md).
+- Er wordt geen persoonlijke informatie geaccepteerd (automatisch gegenereerde gebruikersnaam, geen e-mail vereist, enz.).
 
 ### Veiligheid
 
@@ -319,5 +325,3 @@ Verantwoorde marketing die zowel educatief als nuttig is voor de consument zou k
 ### Extra functionaliteit
 
 Hoewel het geen strikte vereisten zijn, zijn er enkele factoren die wij in aanmerking hebben genomen bij het bepalen van de aanbieders die wij aanbevelen. Deze omvatten adblocking/tracker-blocking-functionaliteit, warrant canaries, multihop-verbindingen, uitstekende klantenondersteuning, het aantal toegestane gelijktijdige verbindingen, enz.
-
---8<-- "includes/abbreviations.nl.txt"

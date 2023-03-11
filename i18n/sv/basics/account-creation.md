@@ -1,6 +1,7 @@
 ---
 title: "Account Creation"
 icon: 'material/account-plus'
+description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
 Often people sign up for services without thinking. Maybe it's a streaming service so you can watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. Whatever the case may be, you should consider the implications for your data now and later on down the line.
@@ -27,7 +28,7 @@ There are usually multiple ways to sign up for an account, each with their own b
 
 The most common way to create a new account is by an email address and password. When using this method, you should use a password manager and follow [best practices](passwords-overview.md) regarding passwords.
 
-!!! tip
+!!! tips
 
     You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
 
@@ -45,7 +46,7 @@ Should a service get hacked, you might start receiving phishing or spam emails t
 
 ### Single sign-on
 
-!!! note
+!!! anmärkning
 
     We are discussing Single sign-on for personal use, not enterprise users.
 
@@ -78,5 +79,3 @@ In many cases you will need to provide a number that you can receive SMS or call
 ### Username and password
 
 Some services allow you to register without using an email address and only require you to set a username and password. These services may provide increased anonymity when combined with a VPN or Tor. Keep in mind that for these accounts there will most likely be **no way to recover your account** in the event you forget your username or password.
-
---8<-- "includes/abbreviations.sv.txt"

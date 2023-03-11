@@ -1,6 +1,7 @@
 ---
 title: "קושחת הנתב"
 icon: material/router-wireless
+description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
 ---
 
 להלן מספר מערכות הפעלה חלופיות, שניתן להשתמש בהן בנתבים, נקודות גישה ל-Wi-Fi וכו'.
@@ -47,5 +48,3 @@ OPNsense פותחה במקור כמזלג של [pfSense](https://en.wikipedia.or
 - חייב להיות קוד פתוח.
 - חייב לקבל עדכונים שוטפים.
 - חייב לתמוך במגוון רחב של חומרה.
-
---8<-- "includes/abbreviations.he.txt"

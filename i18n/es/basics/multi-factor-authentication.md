@@ -1,6 +1,7 @@
 ---
 title: "Autenticación de múltiples factores"
 icon: 'material/two-factor-authentication'
+description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
 ---
 
 **La autenticación multifactorial** (**MFA**) es un mecanismo de seguridad que requiere pasos adicionales a la introducción del nombre de usuario (o correo electrónico) y la contraseña. El método más común son los códigos de tiempo limitado que puedes recibir de un SMS o una aplicación.
@@ -162,5 +163,3 @@ MFA de SSH también se puede configurar utilizando TOTP. DigitalOcean ha proporc
 ### KeePass (y KeePassXC)
 
 Las bases de datos de KeePass y KeePassXC pueden ser aseguradas utilizando Challenge-Response o HOTP como segundo factor de autenticación. Yubico ha proporcionado un documento para KeePass [Uso de su YubiKey con KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) y también hay uno en el sitio web de [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa).
-
---8<-- "includes/abbreviations.es.txt"

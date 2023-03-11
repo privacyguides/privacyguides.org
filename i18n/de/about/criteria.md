@@ -38,5 +38,3 @@ Wir haben diese Anforderungen an Entwickler, die eigene Projekt oder Software zu
 
 - Must state what the exact threat model is with their project.
     - Den potenziellen Nutzern sollte klar sein, was das Projekt bieten kann und was nicht.
-
---8<-- "includes/abbreviations.de.txt"

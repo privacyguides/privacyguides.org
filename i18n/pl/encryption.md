@@ -1,6 +1,7 @@
 ---
 title: "Oprogramowanie szyfrujące"
 icon: material/file-lock
+description: Szyfrowanie danych to jedyny sposób na kontrolowanie tego, kto ma do nich dostęp. These tools allow you to encrypt your emails and any other files.
 ---
 
 Szyfrowanie danych to jedyny sposób na kontrolowanie tego, kto ma do nich dostęp. Jeśli obecnie nie używasz oprogramowania szyfrującego dla swojego dysku, e-maili lub plików, możesz wybrać jedną z tych opcji.
@@ -353,5 +354,3 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - Operating System (FDE) encryption apps should utilize hardware security such as a TPM or Secure Enclave.
 - File encryption apps should have first- or third-party support for mobile platforms.
-
---8<-- "includes/abbreviations.pl.txt"

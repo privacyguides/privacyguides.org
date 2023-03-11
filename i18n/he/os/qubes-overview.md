@@ -1,6 +1,7 @@
 ---
 title: "סקירה כללית של Qubes"
 icon: simple/qubesos
+description: Qubes is an operating system built around isolating apps within virtual machines for heightened security.
 ---
 
 [**Qubes OS**](../desktop.md#qubes-os) היא מערכת הפעלה המשתמשת ב [Xen](https://en.wikipedia.org/wiki/Xen) היפרוויזר לספק אבטחה חזקה עבור מחשוב שולחני באמצעות מכונות וירטואליות מבודדות. כל VM נקרא *Qube* ואתה יכול להקצות לכל Qube רמת אמון על סמך מטרתו. מכיוון שמערכת ההפעלה Qubes מספקת אבטחה על ידי שימוש בבידוד, ומתירה רק פעולות על בסיס כל מקרה, זה ההפך מ[ספירת רעות](https://www.ranum.com/security/computer_security/editorials/dumb/).
@@ -52,5 +53,3 @@ Qubes משתמשת ב[מידור](https://www.qubes-os.org/intro/) כדי לשמ
 - J. Rutkowska: [*מידור תוכנה לעומת הפרדה פיזית*](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf)
 - J. Rutkowska: [*חלוקת החיים הדיגיטליים שלי לתחומי אבטחה*](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html)
 - Qubes OS: [*מאמרים קשורים*](https://www.qubes-os.org/news/categories/#articles)
-
---8<-- "includes/abbreviations.he.txt"

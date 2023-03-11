@@ -48,5 +48,3 @@ Hostiamo dei [servizi internet](https://privacyguides.net) per testare e mostrar
 Occasionalmente acquistiamo beni e servizi con lo scopo di testare i nostri [strumenti consigliati](../tools.md).
 
 Stiamo ancora lavorando con il nostro host fiscale (la Open Collective Foundation) per ricevere donazioni via criptovalute; al momento la contabilità non è fattibile per piccole transazioni, cosa che dovrebbe cambiare in futuro. Nel mentre, se desideri effettuare una donazione consistente in criptovalure (> $100), ti preghiamo di contattarci a [jonah@privacyguides.org](mailto:jonah@privacyguides.org).
-
---8<-- "includes/abbreviations.it.txt"

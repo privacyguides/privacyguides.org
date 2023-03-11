@@ -103,7 +103,7 @@ Por lo tanto, los fondos de OpenCollective pertenecen a Privacy Guides, fueron e
 
 > Si algún patrocinador no está de acuerdo o se siente engañado por estos recientes acontecimientos y quiere solicitar un reembolso dadas estas circunstancias tan inusuales, por favor póngase en contacto con nuestro administrador del proyecto enviando un correo electrónico a jonah@triplebit.net.
 
-## Further Reading
+## Lecturas Adicionales
 
 Este tema se ha debatido ampliamente en nuestras comunidades en varios lugares, y parece probable que la mayoría de las personas que lean esta página ya estén familiarizadas con los acontecimientos que condujeron al cambio a Privacy Guides. Algunas de nuestras publicaciones anteriores sobre el tema pueden tener detalles adicionales que omitimos aquí por razones de brevedad. Se han enlazado a continuación para completarlo.
 
@@ -116,5 +116,3 @@ Este tema se ha debatido ampliamente en nuestras comunidades en varios lugares, 
 - [2 de abril de 2022: respuesta de u/dng99 a la publicación acusatoria en el blog de PrivacyTools](https://www.reddit.com/comments/tuo7mm/comment/i35kw5a/)
 - [16 de mayo de 2022: respuesta de @TommyTran732 en Twitter](https://twitter.com/TommyTran732/status/1526153497984618496)
 - [3 de septiembre de 2022: post en el foro de Techlore por @dngray](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
-
---8<-- "includes/abbreviations.es.txt"

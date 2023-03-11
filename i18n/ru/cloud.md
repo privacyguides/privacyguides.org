@@ -1,6 +1,7 @@
 ---
 title: "Облачное хранилище"
 icon: material/file-cloud
+description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
 ---
 
 Многие сервисы облачного хранилища требуют от вас полного доверия, что они не будут просматривать ваши файлы. Альтернативы, перечисленные ниже, устраняют необходимость в доверии, либо предоставляя вам контроль над вашими данными, либо используя E2EE.
@@ -29,7 +30,6 @@ icon: material/file-cloud
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
 
-Мобильные клиенты Proton Drive были выпущены в декабре 2022 года и пока не имеют открытого исходного кода. Исторически сложилось так, что компания "Proton" откладывает выпуск исходного кода до окончания выпуска первоначального продукта, и выпуск исходного кода [запланирован](https://www.reddit.com/r/ProtonDrive/comments/zf14i8/comment/izdwmme/?utm_source=share&utm_medium=web2x&context=3) на конец 2023 года. Клиенты Proton Drive для ПК все еще находятся в разработке.
 
 ## Критерии
 
@@ -58,5 +58,3 @@ icon: material/file-cloud
     - Эти клиенты должны интегрироваться с собственными инструментами ОС для сервисов облачных хранилищ, такими как интеграция приложения Files на iOS или функциональность DocumentsProvider на Android.
 - Должны поддерживать простой обмен файлами с другими пользователями.
 - Должны предлагать, по крайней мере, базовые функции предварительного просмотра и редактирования файлов в веб-интерфейсе.
-
---8<-- "includes/abbreviations.ru.txt"

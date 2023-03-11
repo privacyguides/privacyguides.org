@@ -1,53 +1,53 @@
-# Community Code of Conduct
+# Gemenskapens uppförandekod
 
-**We pledge** to make our community a harassment-free experience for everyone.
+**Vi lovar** att göra vår community till en upplevelse utan trakasserier för alla.
 
-**We strive** to create a positive environment, using welcoming and inclusive language, and being respectful of the viewpoints of others.
+**Vi strävar** efter att skapa en positiv miljö genom att använda ett välkomnande och inkluderande språk och genom att respektera andras åsikter.
 
-**We do not allow** inappropriate or otherwise unacceptable behavior, such as sexualized language, trolling and insulting comments, or otherwise promoting intolerance or harassment.
+**Vi tillåter inte** olämpligt eller på annat sätt oacceptabelt beteende, t. ex. sexualiserat språk, trollande och förolämpande kommentarer eller annat som främjar intolerans eller trakasserier.
 
-## Community Standards
+## Gemenskapsnormer
 
-What we expect from members of our communities:
+Vad vi förväntar oss av medlemmarna i våra samhällen:
 
-1. **Don't spread misinformation**
+1. **Sprid inte felaktig information**
 
-      We are creating an evidence-based educational community around information privacy and security, not a home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive, explain in detail what is collected and how it collected. Claims of this nature must be backed by technical evidence.
+      Vi skapar en evidensbaserad utbildningsgemenskap kring sekretess och säkerhet, inte ett hem för konspirationsteorier. Om du till exempel hävdar att en viss programvara är skadlig eller att vissa telemetriuppgifter inkräktar på privatlivet, förklara i detalj vad som samlas in och hur det sker. Påståenden av detta slag måste stödjas av tekniska bevis.
 
-1. **Don't abuse our willingness to help**
+1. **Missbruka inte vår vilja att hjälpa till**
 
-      Our community members are not your free tech support. We are happy to help you with specific steps on your privacy journey if you are willing to put in effort on your end. We are not willing to answer endlessly repeated questions about generic computer problems you could have answered yourself with a 30-second internet search. Don't be a [help vampire](https://slash7.com/2006/12/22/vampires/).
+      Våra medlemmar är inte gratis teknisk support. Vi hjälper dig gärna med specifika steg på din integritetsresa om du är villig att anstränga dig från din sida. Vi är inte villiga att svara på oändligt upprepade frågor om generiska datorproblem som du skulle ha kunnat besvara själv med en 30-sekunders sökning på internet. Var inte en [hjälp vampyr](https://slash7.com/2006/12/22/vampires/).
 
-1. **Behave in a positive and constructive manner**
+1. **Uppför dig på ett positivt och konstruktivt sätt**
 
-      Examples of behavior that contributes to a positive environment for our community include:
+      Exempel på beteende som bidrar till en positiv miljö för vårt samhälle är:
 
-      - Demonstrating empathy and kindness toward other people
-      - Being respectful of differing opinions, viewpoints, and experiences
-      - Giving and gracefully accepting constructive feedback
-      - Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
-      - Focusing on what is best not just for us as individuals, but for the overall community
+      - Visa empati och vänlighet mot andra människor
+      - Respektera olika åsikter, synpunkter och erfarenheter
+      - Ge och acceptera konstruktiv feedback på ett elegant sätt
+      - Att ta ansvar och be om ursäkt till dem som drabbats av våra misstag och lära sig av erfarenheten
+      - Fokusera på vad som är bäst, inte bara för oss som individer utan för hela samhället
 
-### Unacceptable Behavior
+### Oacceptabelt beteende
 
-The following behaviors are considered harassment and are unacceptable within our community:
+Följande beteenden betraktas som trakasserier och är oacceptabla inom vår community:
 
-- The use of sexualized language or imagery, and sexual attention or advances of any kind
-- Trolling, insulting or derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information, such as a physical or email address, without their explicit permission
-- Other conduct which could reasonably be considered inappropriate in a professional setting
+- Användning av sexualiserat språk eller bildspråk, och sexuell uppmärksamhet eller framsteg av något slag
+- Trolling, förolämpande eller nedsättande kommentarer och personliga eller politiska attacker
+- Offentliga eller privata trakasserier
+- Publicera andras privata information, till exempel en fysisk eller e-postadress, utan deras uttryckliga tillstånd
+- Annan handling som rimligen kan anses vara olämplig i en professionell tillställning
 
-## Scope
+## Omfattning
 
-Our Code of Conduct applies within all project spaces, as well as when an individual is representing the Privacy Guides project in other communities.
+Vår uppförandekod gäller inom alla projektutrymmen, samt när en individ representerar Privacy Guides-projektet i andra samhällen.
 
-We are responsible for clarifying the standards of our community, and have the right to remove or alter the comments of those participating within our community, as necessary and at our discretion.
+Vi är ansvariga för att klargöra normerna för vår community och har rätt att ta bort eller ändra kommentarerna från dem som deltar i vår community, efter behov och efter eget gottfinnande.
 
-### Contact
+### Kontakt
 
-If you observe a problem on a platform like Matrix or Reddit, please contact our moderators on that platform in chat, via DM, or through any designated "Modmail" system.
+Om du observerar ett problem på en plattform som Matrix eller Reddit kan du kontakta våra moderatorer på den plattformen i chatt, via DM eller genom ett särskilt "Modmail"-system.
 
-If you have a problem elsewhere, or a problem our community moderators are unable to resolve, reach out to `jonah@privacyguides.org` and/or `dngray@privacyguides.org`.
+Om du har ett problem någon annanstans, eller ett problem som våra moderatorer inte kan lösa, kan du vända dig till `jonah@privacyguides.org` och/eller `dngray@privacyguides.org`.
 
-All community leaders are obligated to respect the privacy and security of the reporter of any incident.
+Alla samhällsledare är skyldiga att respektera privatlivet och säkerheten för reportern för varje incident.

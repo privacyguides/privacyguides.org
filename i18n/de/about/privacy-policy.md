@@ -1,31 +1,31 @@
 ---
-title: "Privacy Policy"
+title: "Datenschutzerklärung"
 ---
 
-Privacy Guides is a community project operated by a number of active volunteer contributors. The public list of team members [can be found on GitHub](https://github.com/orgs/privacyguides/people).
+Privacy Guides ist ein Gemeinschaftsprojekt, das von einer Reihe aktiver freiwilliger Mitarbeiter*innen betrieben wird. Die öffentliche Liste der Teammitglieder [kann auf GitHub](https://github.com/orgs/privacyguides/people)eingesehen werden.
 
-## Data We Collect From Visitors
+## Daten, die wir von Besuchenden sammeln
 
-The privacy of our website visitors is important to us, so we do not track any individual people. As a visitor to our website:
+Die Privatsphäre unserer Website-Besuchenden ist uns wichtig, daher tracken wir keine Einzel Personen. Als Besuchende unserer Website:
 
-- No personal information is collected
-- No information such as cookies are stored in the browser
-- No information is shared with, sent to or sold to third-parties
-- No information is shared with advertising companies
-- No information is mined and harvested for personal and behavioral trends
-- No information is monetized
+- Werden keine persönlichen Informationen gesammelt
+- Werden keine Informationen wie Cookies im Browser gespeichert
+- Werden keine Informationen an Dritte weitergegeben, gesendet oder verkauft
+- Werden keine Informationen an Werbefirmen weitergegeben
+- Werden keine Informationen über persönliche und verhaltensbezogene Trends gesammelt oder ausgewertet
+- Werden keine Informationen monetarisiert
 
-You can view the data we collect on our [statistics](statistics.md) page.
+Die von uns gesammelten Daten können auf unserer [Statistikseite](statistics.md) einsehen werden.
 
-We run a self-hosted installation of [Plausible Analytics](https://plausible.io) to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only. No personal data is collected.
+Wir betreiben eine selbst gehostete Installation von [Plausible Analytics](https://plausible.io), um einige anonyme Nutzungsdaten zu statistischen Zwecken zu sammeln. Das Ziel ist es, allgemeine Trends in unserem Website-Verkehr zu verfolgen, nicht aber, einzelne Besuchende zu verfolgen. Alle Daten sind nur in aggregierter Form vorhanden. Keine persönlichen Daten werden erfasst.
 
-Data collected includes referral sources, top pages, visit duration, information from the devices (device type, operating system, country and browser) used during the visit and more. You can learn more about how Plausible works and collects information in a privacy-respecting manner [here](https://plausible.io/data-policy).
+Zu den erfassten Daten gehören Verweisquellen, Top-Seiten, Besuchsdauer, Informationen über das während des Besuchs verwendete Gerät (Gerätetyp, Betriebssystem, Land und Browser) und mehr. Mehr über die Funktionsweise von Plausible und die datenschutzkonforme Erfassung von Informationen sind [hier](https://plausible.io/data-policy) zu erfahren.
 
-## Data We Collect From Account Holders
+## Daten, die wir von Kontoinhabenden sammeln
 
-On some websites and services we provide, many features may require an account. For example, an account may be required to post and reply to topics on a forum platform.
+Auf einigen Websites und Diensten, die wir anbieten, kann für viele Funktionen ein Konto erforderlich sein. So kann beispielsweise ein Konto erforderlich sein, um auf einer Forenplattform Themen zu veröffentlichen und zu beantworten.
 
-To sign up for most accounts, we will collect a name, username, email, and password. In the event a website requires more information than just that data, that will be clearly marked and noted in a separate privacy statement per-site.
+Um sich für die meisten Konten anzumelden, benötigen wir einen Namen, einen Benutzernamen, eine E-Mail-Adresse und ein Passwort. Falls eine Website mehr Informationen als nur diese Daten benötigt, wird dies deutlich gekennzeichnet und in einer separaten Datenschutzerklärung pro Website vermerkt.
 
 We use your account data to identify you on the website and to create pages specific to you, such as your profile page. We will also use your account data to publish a public profile for you on our services.
 
@@ -42,7 +42,7 @@ We will store your account data as long as your account remains open. After clos
 
 ## Contacting Us
 
-The Privacy Guides team generally does not have access to personal data outside of limited access granted via some moderation panels. Inquiries regarding your personal information should be sent directly to:
+Das Team von Privacy Guides hat im Allgemeinen keinen Zugang zu personenbezogenen Daten, abgesehen von dem begrenzten Zugang, der über einige Moderationspanels gewährt wird. Inquiries regarding your personal information should be sent directly to:
 
 ```text
 Jonah Aragon
@@ -59,5 +59,3 @@ For complaints under GDPR more generally, you may lodge complaints with your loc
 We will post any new versions of this statement [here](privacy-policy.md). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to the [Privacy Policy](privacy-policy.md) for the latest contact information at any time.
 
 A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) of this page can be found on GitHub.
-
---8<-- "includes/abbreviations.de.txt"

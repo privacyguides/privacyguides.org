@@ -1,6 +1,7 @@
 ---
 title: 电子邮件安全
 icon: material/email
+description: Email is inherently insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
 ---
 
 电子邮件在默认情况下是一种不安全的通信形式。 你可以用OpenPGP等工具来提高你的电子邮件的安全性，这些工具为你的邮件增加了端对端加密功能，但OpenPGP与其他消息应用程序的加密相比，仍有一些缺点，而且由于电子邮件的设计方式，一些电子邮件数据永远无法得到固有的加密。
@@ -38,5 +39,3 @@ icon: material/email
 ### 为什么元数据不能被端到端加密？
 
 电子邮件元数据对于电子邮件最基本的功能（它从哪里来，又要到哪里去）至关重要。 E2EE最初没有内置于电子邮件协议中，而是需要像OpenPGP这样的附加软件。 因为OpenPGP信息仍然要与传统的电子邮件供应商合作，它不能对电子邮件元数据进行加密，只能对信息主体本身进行加密。 这意味着，即使使用OpenPGP，外部观察者也可以看到你的信息的很多信息，如你给谁发电子邮件，主题行，你什么时候发电子邮件，等等。
-
---8<-- "includes/abbreviations.zh.txt"

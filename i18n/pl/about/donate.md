@@ -48,5 +48,3 @@ We host [internet services](https://privacyguides.net) for testing and showcasin
 Od czasu do czasu kupujemy produkty oraz usługi w celu przetestowania naszych [polecanych narzędzi](../tools.md).
 
 We are still working with our fiscal host (the Open Collective Foundation) to receive cryptocurrency donations, at the moment the accounting is unfeasible for many smaller transactions, but this should change in the future. In the meantime, if you wish to make a sizable (> $100) cryptocurrency donation, please reach out to [jonah@privacyguides.org](mailto:jonah@privacyguides.org).
-
---8<-- "includes/abbreviations.pl.txt"

@@ -1,64 +1,65 @@
 ---
-title: "Account Creation"
+title: "Pembuatan Akun"
 icon: 'material/account-plus'
+description: Membuat akun online bisa dibilang merupakan kebutuhan internet, lakukan langkah-langkah ini untuk memastikan Anda tetap privat.
 ---
 
-Often people sign up for services without thinking. Maybe it's a streaming service so you can watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. Whatever the case may be, you should consider the implications for your data now and later on down the line.
+Seringkali orang mendaftar untuk layanan tanpa berpikir. Mungkin itu adalah layanan streaming sehingga Anda dapat menonton acara baru yang dibicarakan semua orang, atau akun yang memberi Anda diskon untuk tempat makanan cepat saji favorit Anda. Apa pun masalahnya, Anda harus mempertimbangkan implikasi untuk data Anda sekarang dan di kemudian hari.
 
-There are risks associated with every new service that you use. Data breaches; disclosure of customer information to third parties; rogue employees accessing data; all are possibilities that must be considered when giving your information out. You need to be confident that you can trust the service, which is why we don't recommend storing valuable data on anything but the most mature and battle-tested products. That usually means services which provide E2EE and have undergone a cryptographic audit. An audit increases assurance that the product was designed without glaring security issues caused by an inexperienced developer.
+Ada risiko yang terkait dengan setiap layanan baru yang Anda gunakan. Pelanggaran data; pengungkapan informasi pelanggan kepada pihak ketiga; karyawan nakal yang mengakses data; semuanya adalah kemungkinan yang harus dipertimbangkan ketika memberikan informasi Anda. Anda harus yakin bahwa Anda bisa mempercayai layanan ini, itulah sebabnya kami tidak menyarankan untuk menyimpan data berharga pada apa pun kecuali pada produk yang paling matang dan telah teruji. Hal ini biasanya berarti layanan yang menyediakan E2EE dan telah menjalani audit kriptografi. Audit meningkatkan jaminan bahwa produk dirancang tanpa masalah keamanan mencolok yang disebabkan oleh pengembang yang tidak berpengalaman.
 
-It can also be difficult to delete the accounts on some services. Sometimes [overwriting data](account-deletion.md#overwriting-account-information) associated with an account can be possible, but in other cases the service will keep an entire history of changes to the account.
+Mungkin juga sulit untuk menghapus akun pada beberapa layanan. Terkadang [menimpa data](account-deletion.md#overwriting-account-information) yang terkait dengan akun dapat dilakukan, tetapi dalam kasus lain layanan akan menyimpan seluruh riwayat perubahan pada akun.
 
-## Terms of Service & Privacy Policy
+## Ketentuan Layanan & Kebijakan Privasi
 
-The ToS are the rules that you agree to follow when using the service. With larger services these rules are often enforced by automated systems. Sometimes these automated systems can make mistakes. For example, you may be banned or locked out of your account on some services for using a VPN or VOIP number. Appealing such bans is often difficult, and involves an automated process too, which isn't always successful. This would be one of the reasons why we wouldn't suggest using Gmail for email as an example. Email is crucial for access to other services you might have signed up for.
+ToS adalah peraturan yang Anda setujui untuk diikuti saat menggunakan layanan. Pada layanan yang lebih besar aturan-aturan ini sering kali ditegakkan oleh sistem otomatis. Terkadang sistem otomatis ini bisa membuat kesalahan. Sebagai contoh, Anda mungkin diblokir atau dikunci dari akun Anda pada beberapa layanan karena menggunakan nomor VPN atau VOIP. Mengajukan banding atas larangan semacam itu sering kali sulit, dan melibatkan proses otomatis juga, yang tidak selalu berhasil. Ini akan menjadi salah satu alasan mengapa kami tidak menyarankan menggunakan Gmail untuk email sebagai contoh. Email sangat penting untuk akses ke layanan lain yang mungkin telah Anda daftarkan.
 
-The Privacy Policy is how the service says they will use your data and it is worth reading so that you understand how your data will be used. A company or organization might not be legally obligated to follow everything contained in the policy (it depends on the jurisdiction). We would recommend having some idea what your local laws are and what they permit a provider to collect.
+Kebijakan Privasi adalah bagaimana layanan mengatakan bahwa mereka akan menggunakan data Anda dan perlu dibaca agar Anda memahami bagaimana data Anda akan digunakan. Perusahaan atau organisasi mungkin tidak diwajibkan secara hukum untuk mengikuti semua yang tercantum dalam kebijakan (tergantung pada yurisdiksi). Kami sarankan Anda mengetahui undang-undang setempat dan apa yang diizinkan oleh penyedia layanan untuk dikumpulkan.
 
-We recommend looking for particular terms such as "data collection", "data analysis", "cookies", "ads" or "3rd-party" services. Sometimes you will be able to opt-out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
+Sebaiknya cari istilah-istilah tertentu seperti "pengumpulan data", "analisis data", "cookie", "iklan", atau layanan "pihak ketiga". Sometimes you will be able to opt-out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
 
 Keep in mind you're also placing your trust in the company or organization and that they will comply with their own privacy policy.
 
-## Authentication methods
+## Metode autentikasi
 
-There are usually multiple ways to sign up for an account, each with their own benefits and drawbacks.
+Biasanya ada beberapa cara untuk mendaftar akun, masing-masing dengan kelebihan dan kekurangannya sendiri.
 
-### Email and password
+### Email dan kata sandi
 
-The most common way to create a new account is by an email address and password. When using this method, you should use a password manager and follow [best practices](passwords-overview.md) regarding passwords.
+Cara paling umum untuk membuat akun baru adalah dengan alamat email dan kata sandi. Saat menggunakan metode ini, Anda harus menggunakan pengelola kata sandi dan mengikuti [praktik terbaik](passwords-overview.md) mengenai kata sandi.
 
 !!! tip
 
-    You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+    Anda juga dapat menggunakan pengelola kata sandi untuk mengatur metode autentikasi lainnya! Cukup tambahkan entri baru dan isi kolom yang sesuai, Anda bisa menambahkan catatan untuk hal-hal seperti pertanyaan keamanan atau kunci cadangan.
 
-You will be responsible for managing your login credentials. For added security, you can set up [MFA](multi-factor-authentication.md) on your accounts.
+Anda akan bertanggung jawab untuk mengelola kredensial login Anda. Untuk keamanan tambahan, Anda dapat mengatur [MFA](multi-factor-authentication.md) pada akun Anda.
 
-[Recommended password managers](../passwords.md ""){.md-button}
+[Pengelola kata sandi yang direkomendasikan](../passwords.md ""){.md-button}
 
 #### Email aliases
 
-If you don't want to give your real email address to a service, you have the option to use an alias. We described them in more detail on our email services recommendation page. Essentially, alias services allow you to generate new email addresses that forward all emails to your main address. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign up process. Those can be filtered automatically based on the alias they are sent to.
+Jika Anda tidak ingin memberikan alamat email asli Anda ke layanan, Anda memiliki opsi untuk menggunakan alias. Kami menjelaskannya secara lebih rinci di halaman rekomendasi layanan email kami. Essentially, alias services allow you to generate new email addresses that forward all emails to your main address. Hal ini dapat membantu mencegah pelacakan di seluruh layanan dan membantu Anda mengelola email pemasaran yang terkadang menyertai proses pendaftaran. Semua itu dapat disaring secara otomatis berdasarkan alias yang dikirim.
 
-Should a service get hacked, you might start receiving phishing or spam emails to the address you used to sign up. Using unique aliases for each service can assist in identifying exactly what service was hacked.
+Jika layanan diretas, Anda mungkin akan mulai menerima email phishing atau spam ke alamat yang Anda gunakan untuk mendaftar. Using unique aliases for each service can assist in identifying exactly what service was hacked.
 
 [Recommended email aliasing services](../email.md#email-aliasing-services ""){.md-button}
 
-### Single sign-on
+### Sistem masuk tunggal
 
-!!! note
+!!! catatan
 
     We are discussing Single sign-on for personal use, not enterprise users.
 
 Single sign-on (SSO) is an authentication method that allows you to register for a service without sharing much information, if any. Whenever you see something along the lines of "Sign-in with *provider name*" on a registration form it's SSO.
 
-When you choose single sign-on in a website, it will prompt your SSO provider login page and after that your account will be connected. Your password won't be shared but some basic information will (you can review it during the login request). This process is needed every time you want to log in to the same account.
+When you choose single sign-on in a website, it will prompt your SSO provider login page and after that your account will be connected. Kata sandi Anda tidak akan dibagikan tetapi beberapa informasi dasar akan (Anda dapat memeriksanya selama permintaan login). Proses ini diperlukan setiap kali Anda ingin masuk ke akun yang sama.
 
-The main advantages are:
+Keuntungan utama adalah:
 
 - **Security**: no risk of being involved in a [data breach](https://en.wikipedia.org/wiki/Data_breach) because the website does not store your credentials.
 - **Ease of use**: multiple accounts are managed by a single login.
 
-But there are disadvantages:
+Tetapi ada kelemahan:
 
 - **Privacy**: a SSO provider will know the services you use.
 - **Centralization**: if your SSO account gets compromised or you aren't able to login to it, all other accounts connected to it are affected.
@@ -67,16 +68,14 @@ SSO can be especially useful in those situations where you could benefit from de
 
 All services that use SSO will be as secure as your SSO account. For example, if you want to secure an account with a hardware key but that service doesn't support hardware keys, you can secure your SSO account with a hardware key and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your SSO account means that any account tied to that login will also be weak.
 
-### Phone number
+### Nomor telepon
 
-We recommend avoiding services that require a phone number for sign up. A phone number can identity you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
+Kami sarankan untuk menghindari layanan yang memerlukan nomor telepon untuk mendaftar. Nomor telepon dapat menjadi identitas Anda di berbagai layanan dan tergantung pada perjanjian berbagi data, hal ini akan membuat penggunaan Anda lebih mudah dilacak, terutama jika salah satu layanan tersebut dibobol karena nomor telepon sering kali **tidak** dienkripsi.
 
-You should avoid giving out your real phone number if you can. Some services will allow the use of VOIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
+Anda harus menghindari memberikan nomor telepon asli Anda jika Anda bisa. Some services will allow the use of VOIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
 
-In many cases you will need to provide a number that you can receive SMS or calls from, particularly when shopping internationally, in case there is a problem with your order at border screening. It's common for services to use your number as a verification method; don't let yourself get locked out of an important account because you wanted to be clever and give a fake number!
+Dalam banyak kasus, Anda perlu memberikan nomor yang dapat digunakan untuk menerima SMS atau telepon, terutama saat berbelanja internasional, untuk berjaga-jaga jika terjadi masalah dengan pesanan Anda saat pemeriksaan di perbatasan. It's common for services to use your number as a verification method; don't let yourself get locked out of an important account because you wanted to be clever and give a fake number!
 
-### Username and password
+### Nama pengguna dan kata sandi
 
-Some services allow you to register without using an email address and only require you to set a username and password. These services may provide increased anonymity when combined with a VPN or Tor. Keep in mind that for these accounts there will most likely be **no way to recover your account** in the event you forget your username or password.
-
---8<-- "includes/abbreviations.id.txt"
+Beberapa layanan memungkinkan Anda untuk mendaftar tanpa menggunakan alamat email dan hanya mengharuskan Anda untuk mengatur nama pengguna dan kata sandi. Layanan ini dapat memberikan peningkatan anonimitas bila dikombinasikan dengan VPN atau Tor. Perlu diingat bahwa untuk akun-akun ini kemungkinan besar tidak akan ada **cara untuk memulihkan akun Anda** jika Anda lupa nama pengguna atau kata sandi Anda.

@@ -1,6 +1,7 @@
 ---
 title: "Tor Network"
 icon: simple/torproject
+description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
 ---
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
@@ -15,13 +16,7 @@ The **Tor** network is a group of volunteer-operated servers that allows you to 
 
 Tor works by routing your internet traffic through those volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. This obfuscates where the traffic is coming from, and no server in the connection path is able to see the full path of where the traffic is coming from and going to, meaning even the servers you are using to connect cannot break your anonymity.
 
-<figure markdown>
-  ![Tor path](assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path](assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway - Nodes in the path can only see the servers they are directly connected to, for example the "Entry" node shown can see your IP address, and the address of the "Middle" node, but has no way to see which website you are visiting.</figcaption>
-</figure>
-
-- [More information about how Tor works :material-arrow-right-drop-circle:](advanced/tor-overview.md)
+[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
 
 ## Connecting to Tor
 
@@ -126,5 +121,3 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
 Snowflake does not increase your privacy in any way, nor is it used to connect to the Tor network within your personal browser. However, if your internet connection is uncensored, you should consider running it to help people in censored networks achieve better privacy themselves. There is no need to worry about which websites people are accessing through your proxy—their visible browsing IP address will match their Tor exit node, not yours.
 
 Running a Snowflake proxy is low-risk, even moreso than running a Tor relay or bridge which are already not particularly risky endeavours. However, it does still proxy traffic through your network which can be impactful in some ways, especially if your network is bandwidth-limited. Make sure you understand [how Snowflake works](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) before deciding whether to run a proxy.
-
---8<-- "includes/abbreviations.vi.txt"

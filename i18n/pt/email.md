@@ -1,6 +1,7 @@
 ---
-title: "Provedores de e-mail privados"
+title: "Email Services"
 icon: material/email
+description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
 ---
 
 Encontre um provedor de e-mail seguro que manterá sua privacidade em mente. Não se contente com plataformas suportadas por anúncios.
@@ -9,9 +10,21 @@ Encontre um provedor de e-mail seguro que manterá sua privacidade em mente. Nã
 
 Para tudo o resto, recomendamos uma variedade de fornecedores de e-mail baseados em modelos de negócio sustentáveis e que incorporem funcionalidades de segurança e de privacidade.
 
+- [OpenPGP-Compatible Email Providers :material-arrow-right-drop-circle:](#openpgp-compatible-services)
+- [Other Encrypted Providers :material-arrow-right-drop-circle:](#more-providers)
+- [Email Aliasing Services :material-arrow-right-drop-circle:](#email-aliasing-services)
+- [Self-Hosted Options :material-arrow-right-drop-circle:](#self-hosting-email)
+
 ## Serviços de e-mail recomendados
 
-These providers natively support OpenPGP encryption/decryption, allowing for provider-agnostic E2EE emails. For example, a Proton Mail user could send an E2EE message to a Mailbox.org user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+These providers natively support OpenPGP encryption/decryption and the Web Key Directory (WKD) standard, allowing for provider-agnostic E2EE emails. For example, a Proton Mail user could send an E2EE message to a Mailbox.org user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+
+<div class="grid cards" markdown>
+
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+
+</div>
 
 !!! Recomendamos que você verifique o [documentação](https://developers.yubico.com/SSH/) de Yubico sobre como configurar isso.
 
@@ -42,43 +55,41 @@ If you have the Proton Unlimited, Business, or Visionary Plan, you also get [Sim
 
 Proton Mail has internal crash reports that they **do not** share with third parties. Verifique "Criptografia de E-mail".
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. verificar ".onion Service" (Serviço de cebola)
+#### :material-check:{ .pg-green } Custom Domains and Aliases
 
-    ![logo ProtonMail](/assets/img/email/protonmail.svg){ align=right }
-    
-    **ProtonMail** é um serviço de e-mail com foco em privacidade, criptografia, segurança e facilidade de uso. Eles estão em operação desde **2013***.
+Paid Proton Mail subscribers can use their own domain with the service or a [catch-all](https://proton.me/support/catch-all) address. Proton Mail also supports [subaddressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. success "Private Payment Methods"
+#### :material-check:{ .pg-green } Private Payment Methods
 
-    Proton Mail [accepts](https://proton.me/support/payment-options) Bitcoin and cash by mail in addition to standard credit/debit card and PayPal payments.
+Proton Mail [accepts](https://proton.me/support/payment-options) cash by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. nota Consulte a [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+#### :material-check:{ .pg-green } Account Security
 
-    O ProtonMail suporta TOTP [autenticação de dois factores](https://protonmail.com/support/knowledge-base/two-factor-authentication/) apenas. The use of a U2F security key is not yet supported. Proton Mail is planning to implement U2F upon completion of their [Single Sign On (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/) code.
+Proton Mail supports TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) only. The use of a U2F security key is not yet supported. Proton Mail is planning to implement U2F upon completion of their [Single Sign On (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/) code.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. verifique "Domínios e Pseudônimos Personalizados".
+#### :material-check:{ .pg-green } Data Security
 
-    ProtonMail suporta [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm) [autenticação de dois fatores](https://protonmail.com/support/knowledge-base/two-factor-authentication/) apenas. O uso de uma chave de segurança [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) ainda não é suportado.
-    
-    Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are not secured with zero-access encryption. Contact fields that support zero-access encryption, such as phone numbers, are indicated with a padlock icon.
+Proton Mail has [zero-access encryption](https://proton.me/blog/zero-access-encryption) at rest for your emails and [calendars](https://proton.me/news/protoncalendar-security-model). O uso de uma chave de segurança \[U2F\](https://en.wikipedia.org/wiki/Universal_2nd_Factor) ainda não é suportado.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. info "Formas de pagamento privadas
+Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are not secured with zero-access encryption. Contact fields that support zero-access encryption, such as phone numbers, are indicated with a padlock icon.
 
-    ProtonMail tem [criptografia de acesso zero](https://protonmail.com/blog/zero-access-encryption) em repouso para seus e-mails, [contatos do catálogo de endereços](https://protonmail.com/blog/encrypted-contacts-manager), e [calendars](https://protonmail.com/blog/protoncalendar-security-model). Isto significa que as mensagens e outros dados armazenados na sua conta só são legíveis por si. They also allow you to [encrypt messages to non-Proton Mail addresses](https://proton.me/support/password-protected-emails) without the need for them to sign up for a Proton Mail account or use software like OpenPGP.
-    
-    O ProtonMail também suporta a descoberta de chaves públicas via HTTP a partir do seu [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily, for cross-provider E2EE.
+#### :material-check:{ .pg-green } Email Encryption
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. aviso "Métodos de pagamento privados".
+Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to-use-pgp) in their webmail. Isto significa que as mensagens e outros dados armazenados na sua conta só são legíveis por si. They also allow you to [encrypt messages to non-Proton Mail addresses](https://proton.me/support/password-protected-emails) without the need for them to sign up for a Proton Mail account or use software like OpenPGP.
 
-    Proton Mail doesn't offer a digital legacy feature.
+Proton Mail also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily, for cross-provider E2EE.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. info "Segurança de Dados
+#### :material-alert-outline:{ .pg-orange } Digital Legacy
 
-    If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinquent and won't receive incoming mail. You will continue to be billed during this period.
+Proton Mail doesn't offer a digital legacy feature.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. verificar "Clientes móveis".
+#### :material-information-outline:{ .pg-blue } Account Termination
 
-    Proton Mail offers an "Unlimited" account for €9.99/Month, which also enables access to Proton VPN in addition to providing multiple accounts, domains, aliases, and 500GB of storage.
+If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinquent and won't receive incoming mail. You will continue to be billed during this period.
+
+#### :material-information-outline:{ .pg-blue } Additional Functionality
+
+Proton Mail offers an "Unlimited" account for €9.99/Month, which also enables access to Proton VPN in addition to providing multiple accounts, domains, aliases, and 500GB of storage.
 
 ### Mailbox.org
 
@@ -97,46 +108,54 @@ Recomendamos armazenar uma chave de recuperação local em um local seguro, em v
     
         - [:octicons-browser-16: Web](https://login.mailbox.org)
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. verificar ".onion Service" (Serviço de cebola)
+#### :material-check:{ .pg-green } Custom Domains and Aliases
 
-    Mailbox.org permite aos usuários usar seu próprio domínio e eles suportam [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using catch-all alias with own domain) endereços. Mailbox.org também suporta [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What é um pseudônimo e como utilizá-lo), o que é útil para usuários que não querem comprar um domínio.
+Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) addresses. Mailbox.org also supports [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), which is useful if you don't want to purchase a domain.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. cheque "Formas de pagamento privadas".
+#### :material-check:{ .pg-green } Private Payment Methods
 
-    Mailbox.org não aceita Bitcoin ou quaisquer outras moedas criptográficas como resultado de seu processador de pagamento BitPay suspender operações na Alemanha. No entanto, eles aceitam dinheiro pelo correio, pagamento em dinheiro para conta bancária, transferência bancária, cartão de crédito, PayPal e alguns processadores específicos da Alemanha: paydirekt e Sofortüberweisung.
+Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. No entanto, eles aceitam dinheiro pelo correio, pagamento em dinheiro para conta bancária, transferência bancária, cartão de crédito, PayPal e alguns processadores específicos da Alemanha: paydirekt e Sofortüberweisung.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. nota Consulte a [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+#### :material-check:{ .pg-green } Account Security
 
-    Mailbox.org suporta [autenticação de dois fatores](https://kb.mailbox.org/display/MBOKBEN/How para usar autenticação de dois fatores - 2FA) apenas para o seu webmail. Você pode usar ou [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm) ou um [Yubikey](https://en.wikipedia.org/wiki/YubiKey) através do [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Padrões web como [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) ainda não são suportados.
+Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [Yubikey](https://en.wikipedia.org/wiki/YubiKey) via the [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. cheque "Formas de pagamento privadas".
+#### :material-information-outline:{ .pg-blue } Data Security
 
-    Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). New messages that you receive will then be immediately encrypted with your public key.
-    
-    However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that information.
+Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). New messages that you receive will then be immediately encrypted with your public key.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. info "Formas de pagamento privadas
+However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that information.
 
-    Mailbox.org tem [criptografia integrada](https://kb.mailbox.org/display/MBOKBEN/Send e-mails criptografados com Guard) em seu webmail, o que simplifica o envio de mensagens aos usuários com chaves públicas OpenPGP. Eles também permitem que [destinatários remotos descriptografem um e-mail](https://kb.mailbox.org/display/MBOKBEN/My destinatário não usa PGP) nos servidores da Mailbox.org. Esta funcionalidade é útil quando o destinatário remoto não tem o OpenPGP e não consegue desencriptar uma cópia do e-mail na sua própria caixa de correio.
-    
-    Mailbox.org também suporta a descoberta de chaves públicas via HTTP a partir de seu [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily, for cross-provider E2EE.
+#### :material-check:{ .pg-green } Email Encryption
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. aviso "Segurança de Dados".
+Mailbox.org has [integrated encryption](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) on Mailbox.org's servers. Esta funcionalidade é útil quando o destinatário remoto não tem o OpenPGP e não consegue desencriptar uma cópia do e-mail na sua própria caixa de correio.
 
-    Você pode acessar sua conta Mailbox.org via IMAP/SMTP usando seu [.onion service](https://kb.mailbox.org/display/MBOKBEN/The Tor exit node of mailbox.org). No entanto, a sua interface de webmail não pode ser acessada através do seu serviço .onion, e os usuários podem experimentar erros no certificado TLS. Alternatively, you can nominate a person by name and address.
+Mailbox.org also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily, for cross-provider E2EE.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. info "Segurança de Dados
+#### :material-check:{ .pg-green } Digital Legacy
 
-    Your account will be set to a restricted user account when your contract ends, after [30 days it will be irrevocably deleted](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Você pode acessar sua conta Mailbox.org via IMAP/SMTP usando seu \[.onion service\](https://kb.mailbox.org/display/MBOKBEN/The Tor exit node of mailbox.org). No entanto, a sua interface de webmail não pode ser acessada através do seu serviço .onion, e os usuários podem experimentar erros no certificado TLS. Alternatively, you can nominate a person by name and address.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. verificar "Clientes móveis".
+#### :material-information-outline:{ .pg-blue } Account Termination
 
-    ![Disroot logo](/assets/img/email/disroot.svg#only-light){ align=right }
-    ![Disroot logo](/assets/img/email/disroot-dark.svg#only-dark){ align=right }
-    
-    **Disroot** oferece e-mail entre [outros serviços](https://disroot.org/en/#services). O serviço é mantido por voluntários e sua comunidade.
-    
-    All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+Your account will be set to a restricted user account when your contract ends, after [30 days it will be irrevocably deleted](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+
+#### :material-information-outline:{ .pg-blue } Additional Functionality
+
+You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). O serviço é mantido por voluntários e sua comunidade.
+
+All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+
+## More Providers
+
+These providers store your emails with zero-knowledge encryption, making them great options for keeping your stored emails secure. aviso "Criptografia de e-mail".
+
+<div class="grid cards" markdown>
+
+- ![StartMail logo](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
+- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+
+</div>
 
 ### Desarraigar
 
@@ -153,43 +172,39 @@ Recomendamos armazenar uma chave de recuperação local em um local seguro, em v
     
         - [:octicons-browser-16: Web](https://mail.startmail.com/login)
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. verificar ".onion Service" (Serviço de cebola)
+#### :material-check:{ .pg-green } Custom Domains and Aliases
 
-    Personal accounts can use [Custom or Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) aliases. [Custom domains](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) are also available.
+Personal accounts can use [Custom or Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) aliases. [Custom domains](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) are also available.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. Tutanota não tem planos de puxar e-mails de [contas de e-mail externas](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) usando o protocolo [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) .
+#### :material-alert-outline:{ .pg-orange } Private Payment Methods
 
-    Disroot suporta [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm) autenticação de dois fatores apenas para webmail. Eles não permitem [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) autenticação da chave de segurança.
+Disroot suporta \[TOTP\](https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm) autenticação de dois fatores apenas para webmail. StartMail also has other [payment options](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) such as [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (currently only for Personal accounts) and SEPA Direct Debit for accounts older than a year.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. nota Consulte a [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+#### :material-check:{ .pg-green } Account Security
 
-    Disroot usa criptografia de disco completa. No entanto, não parece ser "acesso zero", o que significa que é tecnicamente possível para eles descriptografar os dados que têm se não forem adicionalmente encriptados com uma ferramenta como OpenPGP.
+StartMail supports TOTP two factor authentication [for webmail only](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). No entanto, não parece ser "acesso zero", o que significa que é tecnicamente possível para eles descriptografar os dados que têm se não forem adicionalmente encriptados com uma ferramenta como OpenPGP.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. cheque "Formas de pagamento privadas".
+#### :material-information-outline:{ .pg-blue } Data Security
 
-    Disroot permite o envio de e-mails criptografados a partir de sua aplicação de webmail usando OpenPGP. No entanto, Disroot não integrou um Web Key Directory (WKD) para os utilizadores na sua plataforma.
-    
-    StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) however, they are only accessible in the webmail and not through protocols such as [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacts are also not stored using zero knowledge encryption.
+StartMail has [zero access encryption at rest](https://www.startmail.com/en/whitepaper/#_Toc458527835), using their "user vault" system. No entanto, Disroot não integrou um Web Key Directory (WKD) para os utilizadores na sua plataforma.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. info "Formas de pagamento privadas
+StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) however, they are only accessible in the webmail and not through protocols such as [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacts are also not stored using zero knowledge encryption.
 
-    StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys.
+#### :material-check:{ .pg-green } Email Encryption
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. aviso "Métodos de pagamento privados".
+StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys. However, they do not support the Web Key Directory standard, making the discovery of a Startmail mailbox's public key more challenging for other email providers or clients.
 
-    StartMail does not offer a digital legacy feature.
+#### :material-alert-outline:{ .pg-orange } Digital Legacy
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. info "Segurança de Dados
+StartMail does not offer a digital legacy feature.
 
-    On account expiration, StartMail will permanently delete your account after [6 months in 3 phases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
+#### :material-information-outline:{ .pg-blue } Account Termination
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. verificar "Clientes móveis".
+On account expiration, StartMail will permanently delete your account after [6 months in 3 phases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
 
-    StartMail allows for proxying of images within emails. If you allow the remote image to be loaded, the sender won't know what your IP address is.
+#### :material-information-outline:{ .pg-blue } Additional Functionality
 
-## More Providers
-
-These providers store your emails with zero-knowledge encryption, making them great options for keeping your stored emails secure. aviso "Criptografia de e-mail".
+StartMail allows for proxying of images within emails. If you allow the remote image to be loaded, the sender won't know what your IP address is.
 
 ### Software como um serviço (SaaS) apenas
 
@@ -218,43 +233,50 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 Tutanota doesn't support the [IMAP protocol](https://tutanota.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tutanota app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tutanota.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. verificar ".onion Service" (Serviço de cebola)
+#### :material-check:{ .pg-green } Custom Domains and Aliases
 
-    Tutanota suporta [autenticação de dois fatores](https://tutanota.com/faq#2fa). Os usuários podem usar [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm) ou [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor).
+Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias) and [custom domains](https://tutanota.com/faq#custom-domain). Tutanota doesn't allow for [subaddressing (plus addresses)](https://tutanota.com/faq#plus), but you can use a [catch-all](https://tutanota.com/howto#settings-global) with a custom domain.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. Tutanota não tem planos de puxar e-mails de [contas de e-mail externas](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) usando o protocolo [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) .
+#### :material-information-outline:{ .pg-blue } Private Payment Methods
 
-    Tutanota only directly accepts credit cards and PayPal, however Bitcoin and Monero can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
+Tutanota only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. nota Consulte a [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+#### :material-check:{ .pg-green } Account Security
 
-    Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with either TOTP or U2F.
+Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with either TOTP or U2F.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. verifique "Domínios e Pseudônimos Personalizados".
+#### :material-check:{ .pg-green } Data Security
 
-    Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). O serviço é mantido por voluntários e sua comunidade.
+Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). O serviço é mantido por voluntários e sua comunidade.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. warning "Email Encryption"
+#### :material-information-outline:{ .pg-blue } Email Encryption
 
-    Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
+Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. aviso "Métodos de pagamento privados".
+#### :material-alert-outline:{ .pg-orange } Digital Legacy
 
-    Tutanota doesn't offer a digital legacy feature.
+Tutanota doesn't offer a digital legacy feature.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. info "Segurança de Dados
+#### :material-information-outline:{ .pg-blue } Account Termination
 
-    Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
+Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. verificar "Clientes móveis".
+#### :material-information-outline:{ .pg-blue } Additional Functionality
 
-    Tutanota offers the business version of [Tutanota to non-profit organizations](https://tutanota.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
-    
-    Tutanota also has a business feature called [Secure Connect](https://tutanota.com/secure-connect/). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
+Tutanota offers the business version of [Tutanota to non-profit organizations](https://tutanota.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
+
+Tutanota also has a business feature called [Secure Connect](https://tutanota.com/secure-connect/). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
 
 ## Visão Geral da Criptografia de E-mail
 
 An email aliasing service allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your email provider. True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like yourname+[anythinghere]@example.com, because websites, advertisers, and tracking networks can trivially remove anything after the + sign to know your true email address.
+
+<div class="grid cards" markdown>
+
+- ![Joplin logo](/assets/img/notebooks/joplin.svg){ .twemoji } [Joplin](https://joplinapp.org/)
+- ![Standard Notes logo](/assets/img/notebooks/standard-notes.svg){ .twemoji } [Standard Notes](https://standardnotes.org/)
+
+</div>
 
 Email aliasing can act as a safeguard in case your email provider ever ceases operation. In that scenario, you can easily re-route your aliases to a new email address. In turn, however, you are placing trust in the aliasing service to continue functioning.
 
@@ -413,7 +435,7 @@ We prefer our recommended providers to collect as little data as possible.
 
 **Best Case:**
 
-- Accepts Bitcoin, cash, and other forms of cryptocurrency and/or anonymous payment options (gift cards, etc.)
+- Accepts [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
 
 ### Privacidade
 
@@ -430,7 +452,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 - Valid [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
 - Valid [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
 - Have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
-- A server suite preference of TLS 1.2 or later and a plan for [Deprecating TLSv1.0 and TLSv1.1](https://datatracker.ietf.org/doc/draft-ietf-tls-oldversions-deprecate/).
+- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996/).
 - [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
 - Website security standards such as:
     - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
@@ -445,7 +467,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 - Programas de recompensa de bugs e/ou um processo coordenado de divulgação de vulnerabilidades.
 - Website security standards such as:
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
-    - [Expect-CT](https://datatracker.ietf.org/doc/draft-ietf-httpbis-expect-ct)
+    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
 
 ### Segurança
 
@@ -483,5 +505,3 @@ Must not have any marketing which is irresponsible:
 ### Marketing
 
 While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
-
---8<-- "includes/abbreviations.pt.txt"

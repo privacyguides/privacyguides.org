@@ -1,6 +1,7 @@
 ---
 title: "Introduction aux mots de passe"
 icon: 'material/form-textbox-password'
+description: Voici quelques conseils et astuces pour créer des mots de passe plus forts et sécuriser vos comptes.
 ---
 
 Les mots de passe sont un élément essentiel de notre vie numérique quotidienne. Nous les utilisons pour protéger nos comptes, nos appareils et nos secrets. Bien qu'ils soient souvent la seule chose qui nous sépare d'un adversaire qui en veut à nos informations privées, ils ne font pas l'objet d'une réflexion approfondie, ce qui conduit souvent les gens à utiliser des mots de passe faciles à deviner ou à forcer.
@@ -108,5 +109,3 @@ Il existe de nombreuses options intéressantes, qu'elles soient basées sur le c
 ### Sauvegardes
 
 Vous devriez conserver une sauvegarde [chiffrée](../encryption.md) de vos mots de passe sur plusieurs dispositifs de stockage ou sur un fournisseur de stockage cloud. Cela peut vous aider à accéder à vos mots de passe si quelque chose arrive à votre appareil principal ou au service que vous utilisez.
-
---8<-- "includes/abbreviations.fr.txt"

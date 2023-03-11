@@ -1,6 +1,7 @@
 ---
 title: "Redactie van gegevens en metagegevens"
 icon: material/tag-remove
+description: Gebruik deze hulpmiddelen om metadata zoals GPS-locatie en andere identificerende informatie te verwijderen uit foto's en bestanden die je deelt.
 ---
 
 Wanneer je bestanden deelt, is het belangrijk om de bijbehorende metadata te verwijderen. Beeldbestanden bevatten gewoonlijk [Exif](https://en.wikipedia.org/wiki/Exif) gegevens. Foto's bevatten soms zelfs GPS-coördinaten in de metagegevens van het bestand.
@@ -142,5 +143,3 @@ De app biedt meerdere manieren om metadata uit afbeeldingen te wissen. Namelijk:
 
 - Apps ontwikkeld voor open-source besturingssystemen moeten open-source zijn.
 - Apps moeten gratis zijn en mogen geen advertenties of andere beperkingen bevatten.
-
---8<-- "includes/abbreviations.nl.txt"

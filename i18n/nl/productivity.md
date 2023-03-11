@@ -1,6 +1,7 @@
 ---
 title: "Productiviteitshulpmiddelen"
 icon: material/file-sign
+description: De meeste online office suites ondersteunen geen E2EE, wat betekent dat de cloud provider toegang heeft tot alles wat je doet.
 ---
 
 De meeste online office suites ondersteunen geen E2EE, wat betekent dat de cloud provider toegang heeft tot alles wat je doet. Het privacybeleid kan jouw rechten wettelijk beschermen, maar het voorziet niet in technische toegangsbeperkingen.
@@ -152,5 +153,3 @@ In het algemeen definiëren wij kantoorsuites als toepassingen die voor de meest
     [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Public Instances"}
     [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentatie}
     [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Broncode" }
-
---8<-- "includes/abbreviations.nl.txt"

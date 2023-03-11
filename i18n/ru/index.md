@@ -40,5 +40,3 @@ Trying to protect all your data from everyone all the time is impractical, expen
 [:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
 
 It's important for a website like Privacy Guides to always stay up-to-date. We need our audience to keep an eye on software updates for the applications listed on our site and follow recent news about providers that we recommend. It's hard to keep up with the fast pace of the internet, but we try our best. If you spot an error, think a provider should not be listed, notice a qualified provider is missing, believe a browser plugin is no longer the best choice, or uncover any other issue, please let us know.
-
---8<-- "includes/abbreviations.ru.txt"

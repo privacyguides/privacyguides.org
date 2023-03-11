@@ -1,34 +1,35 @@
 ---
-title: "Common Misconceptions"
+title: "Gyakori Tévhitek"
 icon: 'material/robot-confused'
+description: Az adatvédelem nem egy egyszerű téma, és könnyű belekeveredni marketinges állításokba és egyéb dezinformációkba.
 ---
 
-## "Open-source software is always secure" or "Proprietary software is more secure"
+## "A nyílt forráskódú szoftverek mindig biztonságosak" vagy "A jogvédett szoftverek biztonságosabbak"
 
-These myths stem from a number of prejudices, but whether the source code is available and how software is licensed does not inherently affect its security in any way. ==Open-source software has the *potential* to be more secure than proprietary software, but there is absolutely no guarantee this is the case.== When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+Ezek a mítoszok számos előítéletből fakadnak, de az, hogy a forráskód elérhető-e, és hogy a szoftverek licencelése hogyan történik, nem befolyásolja annak biztonságát semmilyen módon. ==A nyílt forráskódú szoftverek potenciálisan ** biztonságosabbak, mint a jogvédett szoftverek, de egyáltalán nem garantálható, hogy ez így is van.== Egy szoftver elbírálásánál az egyes eszközök hírnevét és biztonságát egyénileg kell megvizsgálni.
 
-Open-source software *can* be audited by third-parties, and is often more transparent about potential vulnerabilities than proprietary counterparts. It also allows you to review the code and disable any suspicious functionality you find yourself. However, *unless you do so*, there is no guarantee that code has ever been evaluated, especially with smaller software projects. The open development process has also sometimes been exploited to introduce new vulnerabilities into even large projects.[^1]
+Nyílt forráskódú szoftverek felülvizsgál*hatók* harmadik felek által, és gyakran átláthatóbbak lehetséges sebezhetőségek esetében, mint a jogvédett szoftverek. Azt is lehetővé teszi, hogy felülvizsgáld a kódot, és letiltsd a gyanús funkciókat, amiket találsz. Azonban, *ha nem így teszel*, nincs garancia arra, hogy a kód valaha is el lett bírálva, különösen a kisebb szoftverprojektek esetében. A nyílt fejlesztési folyamat is ki lett használva arra, hogy új sebezhetőségeket építsenek be még nagyobb projektekbe is.[^1]
 
-On the flip side, proprietary software is less transparent, but that doesn't imply that it's not secure. Major proprietary software projects can be audited internally and by third-party agencies, and independent security researchers can still find vulnerabilities with techniques like reverse engineering.
+A másik oldalon a jogvédett szoftverek kevésbé átláthatóak, de ez nem jelenti azt, hogy nem biztonságosak. A nagyobb jogvédett szoftverprojektek belső és harmadik fél által is felülvizsgálhatók, és független biztonsági kutatók továbbra is találhatnak sebezhetőségeket olyan technikákkal, mint a reverse engineering.
 
-To avoid biased decisions, it's *vital* that you evaluate the privacy and security standards of the software you use.
+Az elfogult döntések elkerülése érdekében *létfontosságú*, hogy elbíráld az általad használt szoftverek adatvédelmi és biztonsági szabványait.
 
-## "Shifting trust can increase privacy"
+## "A bizalom áthelyezése növelheti a magánélet védelmét"
 
-We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP *specifically*, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties. This means that:
+Sokat beszélünk a "bizalom áthelyezéséről", amikor olyan megoldásokról beszélünk, mint a VPN-ek (amelyek az internetszolgáltatódba vetett bizalmat a VPN-szolgáltatóra helyezik át). Míg ez megvédi a böngészési adataid az internetszolgáltatódtól *konkrétan*, a választott VPN szolgáltató továbbra is hozzáfér a böngészési adatokhoz: Az adataid nincsenek teljesen védve minden féltől. Ez azt jelenti, hogy:
 
-1. You must exercise caution when choosing a provider to shift trust to.
-2. You should still use other techniques, like E2EE, to protect your data completely. Merely distrusting one provider to trust another is not securing your data.
+1. Óvatosan kell eljárnod, amikor kiválasztasz egy szolgáltatót, akire áthelyezed a bizalmat.
+2. Az adatok teljes védelme érdekében továbbra is egyéb technikákat kell alkalmaznod, például End-to-End titkosítást. Ha csak azért nem bízol egy szolgáltatóban, hogy egy másikban bíz, az nem jelenti az adataid védelmét.
 
-## "Privacy-focused solutions are inherently trustworthy"
+## "Az adatvédelemre összpontosító megoldások eredendően megbízhatóak"
 
-Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](../encryption.md#cryptomator-cloud)) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+Ha kizárólag egy eszköz vagy szolgáltató adatvédelmi szabályzatára és marketingjére koncentrálsz, az elvakíthat annak gyengeségeivel szemben. Ha privát megoldást keresel, meg kell határozni, hogy mi az az mögött megbúvó probléma, és műszaki megoldásokat kell találni erre a problémára. Érdemes például elkerülni a Google Drive-ot, amely a Google számára hozzáférést biztosít az összes adatodhoz. A probléma ebben az esetben az End-to-End titkosítás hiánya, ezért meg kell győződnöd arról, hogy a szolgáltató, amelyre váltasz, valóban megvalósítja az End-to-End titkosítást, vagy olyan eszközt használsz (mint például a [Cryptomator](../encryption.md#cryptomator-cloud)), amely bármely felhőszolgáltatónál biztosítja az End-to-End titkosítást. Azzal, hogy egy "adatvédelemre összpontosító" szolgáltatóra váltasz (amely nem alkalmaz End-to-End titkoítást), nem oldja meg a problémádat: csak a bizalmat helyezi át a Google-tól az adott szolgáltatóra.
 
-The privacy policies and business practices of providers you choose are very important, but should be considered secondary to technical guarantees of your privacy: You shouldn't shift trust to another provider when trusting a provider isn't a requirement at all.
+Az általad választott szolgáltatók adatvédelmi irányelvei és üzleti gyakorlatai nagyon fontosak, de másodlagosnak kell tekinteni az adatvédelmed technikai garanciáihoz képest: Ne helyezd át a bizalmat egy másik szolgáltatóra, ha a szolgáltatóban való bizalom egyáltalán nem is szükséges.
 
-## "Complicated is better"
+## "A bonyolult jobb"
 
-We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like many different email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do *X*?"
+Gyakran látjuk, hogy az emberek túlságosan összetett adatvédelmi védelmi modelleket írnak le. Ezek a megoldások gyakran olyan problémákat tartalmaznak, mint sok különböző email fiók vagy bonyolult felállások sok mozgó alkatrésszel és feltétellel. A válaszok általában a "Mi a legjobb módja, hogy *X*-t csinálj?" kérdésre adnak választ.
 
 Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience. Below, we provide some tips:
 
@@ -55,7 +56,5 @@ One of the clearest threat models is one where people *know who you are* and one
 3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
 
     Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
-
---8<-- "includes/abbreviations.hu.txt"
 
 [^1]: One notable example of this is the [2021 incident in which University of Minnesota researchers introduced three vulnerabilities into the Linux kernel development project](https://cse.umn.edu/cs/linux-incident).

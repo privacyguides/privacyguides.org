@@ -1,6 +1,7 @@
 ---
 title: "פנקס רשימות"
 icon: material/notebook-edit-outline
+description: These encrypted note-taking apps let you keep track of your notes without giving them to a third-party.
 ---
 
 עקוב אחר ההערות והיומנים שלך מבלי למסור אותם לצד שלישי.
@@ -111,5 +112,3 @@ Cryptee מציע 100MB של אחסון בחינם, עם אפשרויות בתש�
 
 - פונקציונליות גיבוי/סנכרון מקומית אמורה לתמוך בהצפנה.
 - פלטפורמות מבוססות ענן צריכות לתמוך בשיתוף מסמכים.
-
---8<-- "includes/abbreviations.he.txt"

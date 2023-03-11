@@ -1,6 +1,7 @@
 ---
 title: "Stockage cloud"
 icon: material/file-cloud
+description: De nombreux fournisseurs de stockage cloud nécessitent que vous leur fassiez confiance pour ne pas consulter vos fichiers. Voici des alternatives privées !
 ---
 
 De nombreux fournisseurs de stockage cloud nécessitent que vous leur fassiez entièrement confiance pour ne pas consulter vos fichiers. Les alternatives énumérées ci-dessous éliminent le besoin de confiance en vous mettant en position de contrôle de vos données ou en implémentant le chiffrement de bout en bout (E2EE).
@@ -29,7 +30,6 @@ Si ces alternatives ne répondent pas à vos besoins, nous vous suggérons de vo
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
 
-Les clients mobiles de Proton Drive ont été publiés en décembre 2022 et ne sont pas encore open-source. Proton a toujours retardé la publication de son code source jusqu'à la sortie initiale du produit, et [prévoit de](https://www.reddit.com/r/ProtonDrive/comments/zf14i8/comment/izdwmme/?utm_source=share&utm_medium=web2x&context=3) publier le code source d'ici la fin 2023. Les clients de bureau de Proton Drive sont toujours en cours de développement.
 
 ## Critères
 
@@ -58,5 +58,3 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
     - Ces clients doivent s'intégrer aux outils natifs du système d'exploitation pour les fournisseurs de stockage cloud, comme l'intégration de l'application Fichiers sur iOS, ou la fonctionnalité DocumentsProvider sur Android.
 - Doit permettre de partager facilement des fichiers avec d'autres utilisateurs.
 - Doit offrir au moins une fonctionnalité de base d'aperçu et d'édition de fichiers sur l'interface web.
-
---8<-- "includes/abbreviations.fr.txt"

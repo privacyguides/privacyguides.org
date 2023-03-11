@@ -36,5 +36,3 @@ Számos webes szolgáltatást futtatunk, hogy teszteljünk funkciókat és néps
 - Elérhetőség: Félig Nyilvános  
   Az Invidioust elsősorban beágyazott YouTube-videók szolgáltatásához üzemeltetjük a webhelyünkön, ez az instance általános célú használatra nem szolgál, és bármikor korlátozható.
 - Forrás: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)
-
---8<-- "includes/abbreviations.hu.txt"

@@ -1,6 +1,7 @@
 ---
-title: "Frontends"
+title: "Frontend"
 icon: material/flip-to-front
+description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
 ---
 
 Sometimes services will try to force you to sign up for an account by blocking access to content with annoying popups. They might also break without JavaScript enabled. These frontends can allow you to get around these restrictions.
@@ -23,11 +24,11 @@ Sometimes services will try to force you to sign up for an account by blocking a
     [:octicons-info-16:](https://codeberg.org/librarian/librarian/wiki){ .card-link title=Documentation}
     [:octicons-code-16:](https://codeberg.org/librarian/librarian){ .card-link title="Source Code" }
 
-!!! warning
+!!! varning
 
     Librarian does not proxy video streams by default. Videos watched through Librarian will still make direct connections to Odysee's servers (e.g. `odycdn.com`); however, some instances may enable proxying which would be detailed in the instance's privacy policy.
 
-!!! tip
+!!! tips
 
     Librarian is useful if you want watch LBRY content on mobile without mandatory telemetry and if you want to disable JavaScript in your browser, as is the case with [Tor Browser](https://www.torproject.org/) on the Safest security level.
 
@@ -53,7 +54,7 @@ When you are using a Librarian instance, make sure to read the privacy policy of
     [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=Contribute }
 
-!!! tip
+!!! tips
 
     Nitter is useful if you want to browse Twitter content without having to log in and if you want to disable JavaScript in your browser, as is the case with [Tor Browser](https://www.torproject.org/) on the Safest security level. It also allows you to [create RSS feeds for Twitter](news-aggregators.md#twitter).
 
@@ -78,7 +79,7 @@ When you are using a Nitter instance, make sure to read the privacy policy of th
     [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Source Code" }
 
-!!! tip
+!!! tips
 
     ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level.
 
@@ -111,9 +112,9 @@ When you are using a ProxiTok instance, make sure to read the privacy policy of 
         - [:simple-linux: Linux](https://freetubeapp.io/#download)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
 
-!!! warning
+!!! varning
 
-    When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Överväg att använda en [VPN](vpn.md) eller [Tor](https://www.torproject.org) om din [hotmodell](basics/threat-modelling.md) kräver att du döljer din IP-adress.
 
 ### Yattee
 
@@ -136,9 +137,9 @@ When you are using a ProxiTok instance, make sure to read the privacy policy of 
         - [:simple-apple: App Store](https://apps.apple.com/us/app/yattee/id1595136629)
         - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
 
-!!! warning
+!!! varning
 
-    When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Överväg att använda en [VPN](vpn.md) eller [Tor](https://www.torproject.org) om din [hotmodell](basics/threat-modelling.md) kräver att du döljer din IP-adress.
 
 By default, Yattee blocks all YouTube advertisements. In addition, Yattee optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
 
@@ -162,9 +163,9 @@ By default, Yattee blocks all YouTube advertisements. In addition, Yattee option
     
         - [:simple-github: GitHub](https://github.com/libre-tube/LibreTube/releases)
 
-!!! warning
+!!! varning
 
-    When using LibreTube, your IP address will be visible to the [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) instance you choose and/or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    When using LibreTube, your IP address will be visible to the [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) instance you choose and/or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Överväg att använda en [VPN](vpn.md) eller [Tor](https://www.torproject.org) om din [hotmodell](basics/threat-modelling.md) kräver att du döljer din IP-adress.
 
 By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube uses [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments. You are able to fully configure the types of segments that SponsorBlock will skip, or disable it completely. There is also a button on the video player itself to disable it for a specific video if desired.
 
@@ -192,7 +193,7 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
 
 !!! Warning
 
-    When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    When using NewPipe, your IP address will be visible to the video providers used. Överväg att använda en [VPN](vpn.md) eller [Tor](https://www.torproject.org) om din [hotmodell](basics/threat-modelling.md) kräver att du döljer din IP-adress.
 
 ### Invidious
 
@@ -211,11 +212,11 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
     [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://invidious.io/donate/){ .card-link title=Contribute }
 
-!!! warning
+!!! varning
 
     Invidious does not proxy video streams by default. Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying—simply enable *Proxy videos* within the instances' settings or add `&local=true` to the URL.
 
-!!! tip
+!!! tips
 
     Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
 
@@ -239,7 +240,7 @@ When you are using an Invidious instance, make sure to read the privacy policy o
     [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribute }
 
-!!! tip
+!!! tips
 
     Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension or to access age-restricted content without an account. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
 
@@ -247,22 +248,20 @@ When self-hosting, it is important that you have other people using your instanc
 
 When you are using a Piped instance, make sure to read the privacy policy of that specific instance. Piped instances can be modified by their owners and therefore may not reflect their associated privacy policy.
 
-## Criteria
+## Kriterier
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.
 
-!!! example "This section is new"
+!!! exempel "Det här avsnittet är nytt"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
 
 Recommended frontends...
 
-- Must be open-source software.
+- Måste vara programvara med öppen källkod.
 - Must be self-hostable.
 - Must provide all basic website functionality available to anonymous users.
 
 We only consider frontends for websites which are...
 
 - Not normally accessible without JavaScript.
-
---8<-- "includes/abbreviations.sv.txt"

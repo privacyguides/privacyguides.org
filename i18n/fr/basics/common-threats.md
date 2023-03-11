@@ -1,6 +1,7 @@
 ---
 title: "Menaces courantes"
 icon: 'material/eye-outline'
+description: Votre modèle de menace vous est personnel, mais ce sont là quelques-unes des questions qui préoccupent de nombreux visiteurs de ce site.
 ---
 
 Pour faire simple, nous classons nos recommandations dans ces catégories générales de [menaces](threat-modeling.md) ou d'objectifs qui s'appliquent à la plupart des gens. ==Vous pouvez vous sentir concerné par une, plusieurs, toutes, ou bien aucune de ces possibilités==. Les outils et les services que vous utilisez dépendent également de vos objectifs. Il est possible que vous ayez des menaces spécifiques ne rentrant dans aucune de ces catégories, ce qui est tout à fait normal ! L'important est de bien comprendre les avantages et les inconvénients des outils que vous choisissez d'utiliser, car pratiquement aucun d'entre eux ne vous protégera contre toutes les menaces possibles.
@@ -139,8 +140,6 @@ Les personnes concernées par la menace de la censure peuvent utiliser des techn
     Vous devez prendre en compte quels aspects du réseau votre adversaire peut observer, et si vous avez une possibilité de déni plausible pour vos actions. Par exemple, l'utilisation de [DNS chiffrés](../advanced/dns-overview.md#what-is-encrypted-dns) peut vous aider à contourner les systèmes de censure rudimentaires basés sur les DNS, mais elle ne peut pas vraiment cacher ce que vous visitez à votre FAI. Un VPN ou Tor peut aider à cacher ce que vous visitez aux administrateurs du réseaux, mais ne peut pas cacher que vous utilisez ces réseaux. Les transports enfichables (tels que Obfs4proxy, Meek ou Shadowsocks) peuvent vous aider à contourner les pare-feu qui bloquent les protocoles VPN courants ou Tor, mais vos tentatives de contournement peuvent toujours être détectées par des méthodes telles que le sondage ou [l'inspection approfondie des paquets](https://fr.wikipedia.org/wiki/Deep_packet_inspection).
 
 Vous devez toujours tenir compte des risques encourus en essayant de contourner la censure, des conséquences potentielles et du degré de sophistication de votre adversaire. Soyez très prudent dans le choix de vos logiciels et prévoyez un plan de secours au cas où vous seriez pris.
-
---8<-- "includes/abbreviations.fr.txt"
 
 [^1]: Commission de surveillance de la vie privée et des libertés civiles des États-Unis : [Rapport sur le programme d'enregistrements téléphoniques mené en vertu de la section 215](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^2]: Conseil de surveillance de la vie privée et des libertés civiles des États-Unis : [*Rapport sur le programme d'enregistrements téléphoniques mené en vertu de la section 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)

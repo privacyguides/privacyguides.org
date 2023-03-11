@@ -1,6 +1,7 @@
 ---
 title: "שירותי אימייל"
 icon: material/email
+description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
 ---
 
 אימייל הוא למעשה הכרח לשימוש בכל שירות מקוון, אולם איננו ממליצים עליו לשיחות מאדם לאדם. דואר אלקטרוני הוא למעשה הכרח שימוש בכל שירות מקוון, אולם איננו ממליצים עליו לשיחות מאדם לאדם.
@@ -9,9 +10,21 @@ icon: material/email
 
 לכל השאר, אנו ממליצים על מגוון ספקי דוא"ל המבוססים על מודלים עסקיים ברי קיימא ותכונות אבטחה ופרטיות מובנות.
 
+- [ספקי דוא"ל תואמי OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
+- [ספקים מוצפנים אחרים :material-arrow-right-drop-circle:](#more-providers)
+- [שירותי כינוי אימייל :material-arrow-right-drop-circle:](#email-aliasing-services)
+- [אפשרויות אירוח עצמי :material-arrow-right-drop-circle:](#self-hosting-email)
+
 ## ספקי דוא"ל מומלצים
 
-ספקים אלה תומכים באופן מקורי בהצפנה/פענוח של OpenPGP, ומאפשרים הודעות דוא"ל E2EE שאינן תלויות בספק. לדוגמה, משתמש Proton Mail יכול לשלוח הודעת E2EE למשתמש Mailbox.org, או שאתה יכול לקבל התראות מוצפנות OpenPGP משירותי אינטרנט התומכים בכך.
+ספקים אלה תומכים באופן מקורי בהצפנה/פענוח של OpenPGP ובתקן Web Key Directory (WKD), המאפשרים הודעות אימייל E2EE אגנוסטיות לספקים. לדוגמה, משתמש Proton Mail יכול לשלוח הודעת E2EE למשתמש Mailbox.org, או שאתה יכול לקבל התראות מוצפנות OpenPGP משירותי אינטרנט התומכים בכך.
+
+<div class="grid cards" markdown>
+
+- ![Proton Mail לוגו](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Mailbox.org לוגו](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+
+</div>
 
 !!! warning "אזהרה"
 
@@ -49,41 +62,41 @@ icon: material/email
 
 ל-Proton Mail יש דוחות קריסה פנימיים שהם **לא** חולקים עם צדדים שלישיים. ניתן להשבית אפשרות זו ב: **הגדרות** > **עבור אל הגדרות** > **חשבון** > **אבטחה ופרטיות** > **שלח דוחות קריסה**.
 
-??? success "דומיינים וכינויים מותאמים אישית"
+#### :material-check:{ .pg-green } דומיינים וכינויים מותאמים אישית
 
-    מנויי Proton Mail בתשלום יכולים להשתמש בדומיין משלהם עם השירות או בכתובת [catch-all](https://proton.me/support/catch-all). Proton Mail תומך גם ב[כתובת משנה](https://proton.me/support/creating-aliases), וזה שימושי לאנשים שלא רוצים לרכוש דומיין.
+מנויי Proton Mail בתשלום יכולים להשתמש בדומיין משלהם עם השירות או בכתובת [תפוס-הכל](https://proton.me/support/catch-all). Proton Mail תומך גם ב[כתובת משנה](https://proton.me/support/creating-aliases), שהיא שימושית לאנשים שלא רוצים לרכוש דומיין.
 
-??? success "שיטות תשלום פרטיות"
+#### :material-check:{ .pg-green } שיטות תשלום פרטיות
 
-    Proton Mail [accepts](https://proton.me/support/payment-options) ביטקוין ומזומן בדואר בנוסף לכרטיסי אשראי/חיוב רגילים ותשלומי PayPal.
+Proton Mail [accepts](https://proton.me/support/payment-options) cash by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
 
-??? success "אבטחת חשבון"
+#### :material-check:{ .pg-green } אבטחת חשבון
 
-    ProtonMail תומך ב - TOTP [אימות דו - שלבי]( https://proton.me/support/two-factor- authentication-2fa) בלבד. השימוש במפתח אבטחה U2F עדיין אינו נתמך. ProtonMail מתכננת ליישם את U2F עם השלמת הקוד [Single Sign On (SSO)]( https://reddit.com/comments/cheoy6/comment/feh2lw0/) שלהם.
+Proton Mail תומך באימות TOTP [בשני גורמים בלבד](https://proton.me/support/two-factor-authentication-2fa). השימוש במפתח אבטחה U2F אינו נתמך עדיין. Proton Mail מתכננת ליישם את U2F עם השלמת קוד ה[כניסה יחידה (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/) שלהם.
 
-??? success "אבטחת מידע"
+#### :material-check:{ .pg-green } אבטחת מידע
 
-    ל - Proton Mail יש [הצפנת אפס גישה](https://proton.me/blog/zero-access-encryption) ב - מנוחה עבור המיילים שלך ו - [calendars](https://proton.me/news/protoncalendar-security-model). נתונים המאובטחים באמצעות הצפנת אפס גישה נגישים רק לך.
-    
-    מידע מסוים המאוחסן ב-[Proton Contacts](https://proton.me/support/proton-contacts), כגון שמות תצוגה וכתובות דוא"ל, אינו מאובטח באמצעות הצפנת אפס גישה. שדות אנשי קשר התומכים בהצפנת אפס גישה, כגון מספרי טלפון, מסומנים בסמל מנעול.
+ל-Proton Mail יש [הצפנה עם אפס-גישה](https://proton.me/blog/zero-access-encryption) במצב מנוחה עבור המיילים ו[היומנים](https://proton.me/news/protoncalendar-security-model) שלך. נתונים המאובטחים באמצעות הצפנת אפס גישה נגישים רק לך.
 
-??? success "הצפנת אימייל"
+מידע מסוים המאוחסן ב-[Proton Contacts](https://proton.me/support/proton-contacts), כגון שמות תצוגה וכתובות אימייל, אינו מאובטח בהצפנה ללא גישה. שדות אנשי קשר התומכים בהצפנה ללא גישה, כגון מספרי טלפון, מסומנים בסמל מנעול.
 
-    ל-Proton Mail יש [הצפנת OpenPGP משולבת](https://proton.me/support/how-to-use-pgp) בדואר האינטרנט שלהם. אימיילים לחשבונות Proton Mail אחרים מוצפנים באופן אוטומטי, וניתן להפעיל הצפנה לכתובות שאינן פרוטון מייל עם מפתח OpenPGP בקלות בהגדרות החשבון שלך. הם גם מאפשרים לך [להצפין הודעות לכתובות שאינן פרוטון מייל](https://proton.me/support/password-protected-emails) ללא צורך בהרשמה לחשבון Proton Mail או להשתמש בתוכנה כמו OpenPGP.
-    
-    Proton Mail תומך גם בגילוי מפתחות ציבוריים באמצעות HTTP מ-[מדריך מפתחות אינטרנט (WKD)](https://wiki.gnupg.org/WKD) שלהם. זה מאפשר לאנשים שאינם משתמשים ב-Proton Mail למצוא בקלות את מפתחות OpenPGP של חשבונות Proton Mail, עבור E2EE חוצה ספקים.
+#### :material-check:{ .pg-green } הצפנת אימייל
 
-??? warning "מורשת דיגיטלית"
+Proton Mail [שילבה הצפנת OpenPGP](https://proton.me/support/how-to-use-pgp) בדואר האינטרנט שלהם. אימיילים לחשבונות Proton Mail אחרים מוצפנים באופן אוטומטי, וניתן להפעיל הצפנה לכתובות שאינן פרוטון מייל עם מפתח OpenPGP בקלות בהגדרות החשבון שלך. הם גם מאפשרים לך [להצפין הודעות לכתובות שאינן Proton Mail](https://proton.me/support/password-protected-emails) מבלי להזדקק להן להירשם לחשבון Proton Mail או להשתמש בתוכנה כמו OpenPGP.
 
-    Proton Mail אינו מציע תכונה מורשת דיגיטלית.
+Proton Mail תומך גם בגילוי מפתחות ציבוריים באמצעות HTTP מ[ספריית מפתחות האינטרנט (WKD)](https://wiki.gnupg.org/WKD) שלהם. זה מאפשר לאנשים שאינם משתמשים ב-Proton Mail למצוא בקלות את מפתחות OpenPGP של חשבונות Proton Mail, עבור E2EE חוצה ספקים.
 
-??? info "סיום חשבון"
+#### :material-alert-outline:{ .pg-orange } מורשת דיגיטלית
 
-    אם יש לך חשבון בתשלום ו[החשבון לא שולם](https://proton.me/support/delinquency) לאחר 14 יום, לא תוכל לגשת לנתונים שלך. לאחר 30 יום, החשבון שלך יהפוך לבלתי פעיל ולא יקבל דואר נכנס. אתה תמשיך להיות מחויב במהלך תקופה זו.
+Proton Mail אינו מציע תכונה מורשת דיגיטלית.
 
-??? info "פונקציונליות נוספת"
+#### :material-information-outline:{ .pg-blue } סגירת חשבון
 
-    Proton Mail מציע חשבון "ללא הגבלה" במחיר של €9.99/חודש, המאפשר גם גישה ל-Proton VPN בנוסף לאספקת מספר חשבונות, דומיינים, כינויים ושטח אחסון של 500GB.
+אם יש לך חשבון בתשלום והחשבון שלך [לא שולם](https://proton.me/support/delinquency) לאחר 14 יום, לא תוכל לגשת לנתונים שלך. לאחר 30 יום, החשבון שלך יהפוך לבלתי פעיל ולא יקבל דואר נכנס. אתה תמשיך להיות מחויב במהלך תקופה זו.
+
+#### :material-information-outline:{ .pg-blue } פונקציונליות נוספת
+
+Proton Mail מציע חשבון "ללא הגבלה" במחיר של €9.99/חודש, המאפשר גם גישה ל-Proton VPN בנוסף לאספקת מספר חשבונות, דומיינים, כינויים ושטח אחסון של 500GB.
 
 ### Mailbox.org
 
@@ -101,43 +114,54 @@ icon: material/email
     
         - [:octicons-browser-16: Web](https://login.mailbox.org)
 
-??? success "דומיינים וכינויים מותאמים אישית"
+#### :material-check:{ .pg-green } דומיינים וכינויים מותאמים אישית
 
-    Mailbox.org מאפשר לך להשתמש בתחום משלך, והם תומכים בכתובות [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain). Mailbox.org תומך גם ב-[subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), וזה שימושי אם אינך רוצה לרכוש דומיין.
+Mailbox.org מאפשר לך להשתמש בדומיין משלך, והם תומכים בכתובות [תפוס כל](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain). Mailbox.org תומך גם [בכתובת משנה](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), וזה שימושי אם אינך רוצה לרכוש דומיין.
 
-??? info "שיטות תשלום פרטיות"
+#### :material-check:{ .pg-green } שיטות תשלום פרטיות
 
-    Mailbox.org אינה מקבלת ביטקוין או כל מטבע קריפטוגרפי אחר כתוצאה מכך שמעבד התשלומים שלהם BitPay משעה את פעילותו בגרמניה. עם זאת, הם מקבלים מזומן בדואר, תשלום במזומן לחשבון בנק, העברה בנקאית, כרטיס אשראי, PayPal וכמה מעבדים ספציפיים לגרמנית: paydirekt ו- Sofortüberweisung.
+Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. עם זאת, הם מקבלים מזומן בדואר, תשלום במזומן לחשבון בנק, העברה בנקאית, כרטיס אשראי, PayPal ועוד כמה מעבדים ספציפיים לגרמניה: paydirekt ו-Sofortüberweisung.
 
-??? success "אבטחת חשבון"
+#### :material-check:{ .pg-green } אבטחת חשבון
 
-    Mailbox.org תומך ב-[אימות דו-שלבי](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) עבור דואר האינטרנט שלהם בלבד. אתה יכול להשתמש ב-TOTP או ב [Yubikey](https://en.wikipedia.org/wiki/YubiKey) דרך [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). תקני אינטרנט כגון [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) עדיין אינם נתמכים.
+Mailbox.org תומך ב[אימות דו-שלבי](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) עבור דואר האינטרנט שלהם בלבד. אתה יכול להשתמש ב-TOTP או ב-[Yubikey](https://en.wikipedia.org/wiki/YubiKey) דרך [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). תקני אינטרנט כגון [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) אינם נתמכים עדיין.
 
-??? info "אבטחת מידע"
+#### :material-information-outline:{ .pg-blue } אבטחת מידע
 
-    Mailbox.org מאפשר הצפנה של דואר נכנס באמצעות [תיבת הדואר המוצפנת](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox) שלהם. הודעות חדשות שתקבל יוצפנו באופן מיידי באמצעות המפתח הציבורי שלך.
-    
-    עם זאת, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), פלטפורמת התוכנה המשמשת Mailbox.org, [אינה תומכת](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) בהצפנה של פנקס הכתובות ולוח השנה שלך. [אפשרות עצמאית](calendar.md) עשויה להתאים יותר למידע זה.
+Mailbox.org מאפשר הצפנה של דואר נכנס באמצעות [תיבת הדואר המוצפנת](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox) שלהם. הודעות חדשות שתקבל יוצפנו באופן מיידי באמצעות המפתח הציבורי שלך.
 
-??? success "הצפנת אימייל"
+עם זאת, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), פלטפורמת התוכנה המשמשת את Mailbox.org, [אינה תומכת](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) בהצפנה של פנקס הכתובות והלוח שנה שלך. [אפשרות עצמאית](calendar.md) עשויה להתאים יותר למידע זה.
 
-    יש Mailbox.org [הצפנה משולבת](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard)בדואר האינטרנט שלהם, מה שמפשט את שליחת ההודעות לאנשים עם מפתחות OpenPGP ציבוריים. הם גם מאפשרים [לנמענים מרוחקים לפענח דוא"ל](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) בשרתים של Mailbox.org. תכונה זו שימושית כאשר לנמען המרוחק אין OpenPGP ואין באפשרותו לפענח עותק של הדואר האלקטרוני בתיבת הדואר שלו.
-    
-    Mailbox.org תומך גם בגילוי מפתחות ציבוריים באמצעות HTTP מספריית [מפתח האינטרנט (WKD)](https://wiki.gnupg.org/WKD). זה מאפשר לאנשים מחוץ Mailbox.org למצוא את מפתחות OpenPGP של חשבונות Mailbox.org בקלות, עבור E2EE חוצה ספקים.
+#### :material-check:{ .pg-green } הצפנת אימייל
 
-??? success "מורשת דיגיטלית"
+ל-Mailbox.org יש [הצפנה משולבת](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) בדואר האינטרנט שלהם, מה שמקל על שליחת הודעות לאנשים עם מפתחות OpenPGP ציבוריים. הם גם מאפשרים [לנמענים מרוחקים לפענח אימייל בשרתים](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) של Mailbox.org. תכונה זו שימושית כאשר לנמען המרוחק אין OpenPGP ואין באפשרותו לפענח עותק של הדואר האלקטרוני בתיבת הדואר שלו.
 
-    Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכניות. אתה יכול לבחור אם אתה רוצה שכל הנתונים שלך יועברו ליורשים בתנאי שהם חלים ומספקים את הצוואה שלך. לחלופין, ניתן למנות אדם לפי שם וכתובת.
+Mailbox.org תומך גם בגילוי מפתחות ציבוריים באמצעות HTTP מ-[Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) שלהם. זה מאפשר לאנשים מחוץ Mailbox.org למצוא את מפתחות OpenPGP של חשבונות Mailbox.org בקלות, עבור E2EE חוצה ספקים.
 
-??? info "סיום חשבון"
+#### :material-check:{ .pg-green } מורשת דיגיטלית
 
-    החשבון שלך יוגדר לחשבון משתמש מוגבל כאשר החוזה שלך יסתיים, לאחר [30 יום הוא יימחק באופן בלתי הפיך](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכניות. אתה יכול לבחור אם אתה רוצה שכל הנתונים שלך יועברו ליורשים בתנאי שהם חלים ומספקים את הצוואה שלך. לחלופין, ניתן למנות אדם לפי שם וכתובת.
 
-??? info "פונקציונליות נוספת"
+#### :material-information-outline:{ .pg-blue } סגירת חשבון
 
-    אתה יכול לגשת לחשבון Mailbox.org שלך באמצעות IMAP / SMTP באמצעות[.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). עם זאת, לא ניתן לגשת לממשק דואר האינטרנט שלהם באמצעות שירות.onion שלהם ואתה עלול להיתקל בשגיאות אישור TLS.
-    
-    כל החשבונות מגיעים עם שטח אחסון מוגבל בענן ש[ניתן להצפין](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org מציע גם את הכינוי [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), אשר אוכף את הצפנת TLS על החיבור בין שרתי דואר, אחרת ההודעה לא תישלח כלל. Mailbox.org תומך גם ב-[Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) בנוסף לפרוטוקולי גישה סטנדרטיים כגון IMAP ו-POP3.
+החשבון שלך יוגדר לחשבון משתמש מוגבל כאשר החוזה שלך יסתיים, לאחר [30 יום הוא יימחק באופן בלתי הפיך](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+
+#### :material-information-outline:{ .pg-blue } פונקציונליות נוספת
+
+אתה יכול לגשת לחשבון Mailbox.org שלך דרך IMAP/SMTP באמצעות [שירות.onion](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org) שלהם. עם זאת, לא ניתן לגשת לממשק דואר האינטרנט שלהם באמצעות שירות.onion שלהם ואתה עלול להיתקל בשגיאות אישור TLS.
+
+כל החשבונות מגיעים עם אחסון ענן מוגבל ש[ניתן להצפנה](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org מציעה גם את הכינוי [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), אשר אוכף את הצפנת TLS על החיבור בין שרתי דואר, אחרת ההודעה לא תישלח כלל. Mailbox.org תומך גם ב-[Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) בנוסף לפרוטוקולי גישה סטנדרטיים כמו IMAP ו-POP3.
+
+## עוד ספקים
+
+ספקים אלה מאחסנים את המיילים שלך עם הצפנת אפס ידע, מה שהופך אותם לאפשרויות נהדרות לשמירה על אבטחת המיילים המאוחסנים שלך. עם זאת, הם אינם תומכים בתקני הצפנה הניתנים להפעלה הדדית עבור תקשורת E2EE בין ספקים.
+
+<div class="grid cards" markdown>
+
+- ![StartMail לוגו](assets/img/email/startmail.svg#only-light){ .twemoji }![StartMail לוגו](assets/img/email/startmail-dark.svg#only-dark){ .twemoji } [StartMail](email.md#startmail)
+- ![Tutanota לוגו](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+
+</div>
 
 ### StartMail
 
@@ -156,43 +180,39 @@ icon: material/email
     
         - [:octicons-browser-16: Web](https://mail.startmail.com/login)
 
-??? success "דומיינים וכינויים מותאמים אישית"
+#### :material-check:{ .pg-green } דומיינים וכינויים מותאמים אישית
 
-    חשבונות אישיים יכולים להשתמש בכינויים [Custom or Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases). [דומיינים מותאמים אישית](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) זמינים גם כן.
+חשבונות אישיים יכולים להשתמש ב[כינויים מותאמים אישית או מהירים](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases). [דומיינים מותאמים אישית](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) זמינים גם כן.
 
-??? warning "שיטות תשלום פרטיות"
+#### :material-alert-outline:{ .pg-orange } שיטות תשלום פרטיות
 
-    StartMail מקבלת ויזה, מאסטרקארד, אמריקן אקספרס ו - Paypal. ל - StartMail יש גם [אפשרויות תשלום] אחרות (https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) כגון Bitcoin (כרגע רק עבור חשבונות אישיים) ו - SEPA Direct Debit עבור חשבונות ישנים יותר משנה.
+StartMail מקבלת ויזה, מאסטרקארד, אמריקן אקספרס ו - Paypal. StartMail also has other [payment options](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) such as [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (currently only for Personal accounts) and SEPA Direct Debit for accounts older than a year.
 
-??? success "אבטחת חשבון"
+#### :material-check:{ .pg-green } אבטחת חשבון
 
-    StartMail תומך באימות דו-גורמי TOTP [עבור דואר אינטרנט בלבד](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). הם אינם מאפשרים אימות מפתח אבטחה U2F.
+StartMail תומך באימות TOTP בשני גורמים עבור [דואר אינטרנט](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA) בלבד. הם אינם מאפשרים אימות מפתח אבטחה U2F.
 
-??? info "אבטחת מידע"
+#### :material-information-outline:{ .pg-blue } אבטחת מידע
 
-    ל - StartMail יש [הצפנת אפס גישה במנוחה](https://www.startmail.com/en/whitepaper/#_Toc458527835), באמצעות מערכת "כספת המשתמש" שלהם. כאשר אתה נכנס, הכספת נפתחת, ולאחר מכן הדואר האלקטרוני מועבר לכספת מחוץ לתור, שם הוא מפוענח על-ידי המפתח הפרטי המתאים.
-    
-    StartMail תומך בייבוא [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) עם זאת, הם נגישים רק בדואר האינטרנט ולא באמצעות פרוטוקולים כגון [CalDAV](https://en.wikipedia.org/wiki/CalDAV). אנשי קשר גם אינם מאוחסנים באמצעות הצפנת אפס ידע, כך ש[אפשרות עצמאית](calendar.md) עשויה להיות מתאימה יותר.
+ל-StartMail יש [הצפנת גישה אפסית במצב מנוחה](https://www.startmail.com/en/whitepaper/#_Toc458527835), באמצעות מערכת "כספת המשתמש" שלהם. כאשר אתה נכנס, הכספת נפתחת, ולאחר מכן הדואר האלקטרוני מועבר לכספת מחוץ לתור, שם הוא מפוענח על-ידי המפתח הפרטי המתאים.
 
-??? success "הצפנת אימייל"
+StartMail תומך בייבוא [אנשי קשר](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) עם זאת, הם נגישים רק בדואר האינטרנט ולא באמצעות פרוטוקולים כגון [CalDAV](https://en.wikipedia.org/wiki/CalDAV). אנשי קשר גם אינם מאוחסנים באמצעות הצפנת ידע אפס.
 
-    ל-StartMail יש [הצפנה משולבת](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) בדואר האינטרנט שלהם, מה שמפשט את שליחת הודעות מוצפנות עם מפתחות OpenPGP ציבוריים.
+#### :material-check:{ .pg-green } הצפנת אימייל
 
-??? warning "מורשת דיגיטלית"
+ל-StartMail [הצפנה משולבת](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) בדואר האינטרנט שלהם, מה שמקל על שליחת הודעות מוצפנות עם מפתחות OpenPGP ציבוריים. עם זאת, הם אינם תומכים בתקן Web Key Directory, מה שהופך את גילוי המפתח הציבורי של תיבת דואר של Startmail למאתגר יותר עבור ספקי אימייל או לקוחות אחרים.
 
-    StartMail אינו מציע תכונה דיגיטלית מדור קודם.
+#### :material-alert-outline:{ .pg-orange } מורשת דיגיטלית
 
-??? info "סיום חשבון"
+StartMail אינו מציע תכונה דיגיטלית מדור קודם.
 
-    עם פקיעת תוקף החשבון, StartMail ימחק את חשבונך לצמיתות לאחר [6 חודשים בשלושה שלבים](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
+#### :material-information-outline:{ .pg-blue } סגירת חשבון
 
-??? info "פונקציונליות נוספת"
+עם פקיעת החשבון, StartMail תמחק לצמיתות את חשבונך לאחר [ 6 חודשים בשלושה שלבים](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
 
-    StartMail מאפשר פרוקסי של תמונות בתוך הודעות דוא"ל. אם תאפשרו את טעינת התמונה המרוחקת, השולח לא יידע מהי כתובת ה-IP שלכם.
+#### :material-information-outline:{ .pg-blue } פונקציונליות נוספת
 
-## עוד ספקים
-
-ספקים אלה מאחסנים את המיילים שלך עם הצפנת אפס ידע, מה שהופך אותם לאפשרויות נהדרות לשמירה על אבטחת המיילים המאוחסנים שלך. עם זאת, הם אינם תומכים בתקני הצפנה הניתנים להפעלה הדדית עבור תקשורת E2EE בין ספקים.
+StartMail מאפשר פרוקסי של תמונות בתוך הודעות דוא"ל. אם תאפשרו את טעינת התמונה המרוחקת, השולח לא יידע מהי כתובת ה-IP שלכם.
 
 ### Tutanota
 
@@ -220,43 +240,50 @@ icon: material/email
 
 Tutanota אינה משתמשת בפרוטוקול [IMAP](https://tutanota.com/faq/#imap) או בשימוש של [לקוחות דואר אלקטרוני של צד שלישי](email-clients.md), וגם לא תוכל להוסיף [חשבונות דואר אלקטרוני חיצוניים](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) לאפליקציית Tutanota. לא [ייבוא דוא"ל](https://github.com/tutao/tutanota/issues/630) או [תיקיות משנה](https://github.com/tutao/tutanota/issues/927) נתמכים כעת, אם כי זה [בשל להיות שונה](https://tutanota.com/blog/posts/kickoff-import). הודעות דוא"ל ניתן לייצא [בנפרד או על ידי בחירה בכמות גדולה](https://tutanota.com/howto#generalMail) לכל תיקייה, דבר שעלול להיות לא נוח אם יש לך תיקיות רבות.
 
-??? success "דומיינים וכינויים מותאמים אישית"
+#### :material-check:{ .pg-green } דומיינים וכינויים מותאמים אישית
 
-    חשבונות Tutanota בתשלום יכולים להשתמש עד 5 [aliases](https://tutanota.com/faq#alias) ו [דומיינים מותאמים אישית](https://tutanota.com/faq#custom-domain). Tutanota אינה מאפשרת [כתובות משנה (בתוספת כתובות)](https://tutanota.com/faq#plus), אך באפשרותך להשתמש ב-[catch-all](https://tutanota.com/howto#settings-global) עם דומיין מותאם אישית.
+חשבונות Tutanota בתשלום יכולים להשתמש בעד 5 [כינויים](https://tutanota.com/faq#alias) ו[דומיינים מותאמים אישית](https://tutanota.com/faq#custom-domain). Tutanota אינה מאפשרת [כתובת משנה (בתוספת כתובות)](https://tutanota.com/faq#plus), אבל אתה יכול להשתמש ב[תפוס הכל](https://tutanota.com/howto#settings-global) עם דומיין מותאם אישית.
 
-??? warning "שיטות תשלום פרטיות"
+#### :material-information-outline:{ .pg-blue } שיטות תשלום פרטיות
 
-    Tutanota מקבלת רק כרטיסי אשראי PayPal ישירות, אולם ניתן להשתמש בביטקוין ובמונרו לרכישת כרטיסי מתנה באמצעות [partnership](https://tutanota.com/faq/#cryptocurrency) שלהם עם Proxystore.
+Tutanota only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
 
-??? success "אבטחת חשבון"
+#### :material-check:{ .pg-green } אבטחת חשבון
 
-    Tutanota תומך ב[אימות דו-גורמי](https://tutanota.com/faq#2fa) עם TOTP או U2F.
+Tutanota תומך ב[אימות דו-שלבי](https://tutanota.com/faq#2fa) עם TOTP או U2F.
 
-??? success "אבטחת מידע"
+#### :material-check:{ .pg-green } אבטחת מידע
 
-    ל-Tutanota יש [הצפנת אפס גישה במנוחה](https://tutanota.com/faq#what-encrypted) עבור הודעות הדוא"ל שלך, [אנשי קשר מפנקס הכתובות](https://tutanota.com/faq#encrypted-address-book), ו [calendars](https://tutanota.com/faq#calendar). משמעות הדבר היא שההודעות ונתונים אחרים המאוחסנים בחשבונך ניתנים לקריאה רק על ידך.
+ל-Tutanota יש [הצפנת גישה אפס בזמן מנוחה](https://tutanota.com/faq#what-encrypted) עבור המיילים, [אנשי הקשר בפנקס](https://tutanota.com/faq#encrypted-address-book) הכתובות ו[היומנים](https://tutanota.com/faq#calendar) שלך. משמעות הדבר היא שההודעות ונתונים אחרים המאוחסנים בחשבונך ניתנים לקריאה רק על ידך.
 
-??? warning "הצפנת אימייל"
+#### :material-information-outline:{ .pg-blue } Email Encryption
 
-    Tutanota [אינו משתמש ב- OpenPGP](https://www.tutanota.com/faq/#pgp). חשבונות Tutanota יכולים לקבל הודעות דוא"ל מוצפנות מחשבונות דוא"ל שאינם Tutanota רק כאשר הם נשלחים באמצעות [תיבת דואר זמנית של Tutanota](https://www.tutanota.com/howto/#encrypted-email-external).
+Tutanota [אינו משתמש ב-OpenPGP](https://www.tutanota.com/faq/#pgp). חשבונות Tutanota יכולים לקבל אימיילים מוצפנים רק מחשבונות אימייל שאינם של Tutanota כאשר הם נשלחים דרך [תיבת דואר זמנית של Tutanota](https://www.tutanota.com/howto/#encrypted-email-external).
 
-??? warning "מורשת דיגיטלית"
+#### :material-alert-outline:{ .pg-orange } מורשת דיגיטלית
 
-    Tutanota לא מציעה פיצ'ר מורשת דיגיטלית.
+Tutanota לא מציעה פיצ'ר מורשת דיגיטלית.
 
-??? info "סיום חשבון"
+#### :material-information-outline:{ .pg-blue } סגירת חשבון
 
-    Tutanota [מחק חשבונות לא פעילים בחינם](https://tutanota.com/faq#inactive-accounts) לאחר שישה חודשים. אם ברצונך לשלם, באפשרותך להשתמש שוב בחשבון חינמי שהושבת.
+Tutanota [ימחק חשבונות בחינם לא פעילים](https://tutanota.com/faq#inactive-accounts) לאחר שישה חודשים. אם ברצונך לשלם, באפשרותך להשתמש שוב בחשבון חינמי שהושבת.
 
-??? info "פונקציונליות נוספת"
+#### :material-information-outline:{ .pg-blue } פונקציונליות נוספת
 
-    Tutanota מציעה את הגרסה העסקית של [Tutanota לארגונים ללא כוונת רווח](https://tutanota.com/blog/posts/secure-email-for-non-profit) בחינם או בהנחה כבדה.
-    
-    ל-Tutanota יש גם פיצ'ר עסקי שנקרא [חיבור מאובטח](https://tutanota.com/secure-connect/). זה מבטיח שיצירת קשר עם הלקוח לעסק משתמשת ב- E2EE. התכונה עולה 240 אירו לשנה.
+Tutanota מציעה את הגרסה העסקית של [Tutanota לארגונים ללא מטרות רווח](https://tutanota.com/blog/posts/secure-email-for-non-profit) בחינם או בהנחה כבדה.
+
+ל-Tutanota יש גם תכונה עסקית בשם [חיבור מאובטח](https://tutanota.com/secure-connect/). זה מבטיח שיצירת קשר עם הלקוח לעסק משתמשת ב- E2EE. התכונה עולה 240 אירו לשנה.
 
 ## שירותי כינוי דוא"ל
 
 שירות כינוי דוא"ל מאפשר לך ליצור בקלות כתובת דוא"ל חדשה עבור כל אתר שאתה נרשם אליו. כינויי הדואר האלקטרוני שאתה יוצר מועברים לאחר מכן לכתובת דוא"ל שתבחר, תוך הסתרת כתובת הדוא"ל "הראשית" שלך וגם זהות ספק הדוא"ל שלך. כינוי דוא"ל אמיתי טוב יותר מאשר כתובת פלוס הנפוצה בשימוש ונתמך על ידי ספקים רבים, מה שמאפשר לך ליצור כינויים כמו yourname+[anythinghere]@example.com, מכיוון שאתרים, מפרסמים ורשתות מעקב יכולים להסיר כל דבר לאחר סימן + כדי לדעת את כתובת הדוא"ל האמיתית שלך.
+
+<div class="grid cards" markdown>
+
+- ![AnonAddy לוגו](assets/img/email/anonaddy.svg#only-light){ .twemoji }![AnonAddy לוגו](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
+- ![SimpleLogin לוגו](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+
+</div>
 
 כינוי דוא"ל יכול לשמש כהגנה למקרה שספק הדוא"ל שלך יפסיק לפעול. בתרחיש זה, באפשרותך לנתב מחדש בקלות את הכינויים שלך לכתובת דואר אלקטרוני חדשה. עם זאת, אתה נותן אמון בשירות הכינוי כדי להמשיך לתפקד.
 
@@ -411,7 +438,7 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 
 **המקרה הטוב ביותר:**
 
-- מקבל ביטקוין, מזומן וצורות אחרות של מטבעות קריפטוגרפיים ו/או אפשרויות תשלום אנונימיות (כרטיסי מתנה וכו')
+- מקבל [אפשרויות תשלום אנונימיות](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), מזומן, כרטיסי מתנה וכו')
 
 ### אבטחה
 
@@ -428,7 +455,7 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 - בתוקף [רשומות DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities).
 - בתוקף [רשומות SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) ו - [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail).
 - שיהיה לך מתאים [DMARC](https://en.wikipedia.org/wiki/DMARC) עבר ומדיניות או שימוש ב [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) לאימות. אם נעשה שימוש באימות DMARC, יש להגדיר את המדיניות ל- `דוחה` או `הסגר`.
-- העדפת חבילת שרתים של TLS 1.2 ואילך ותוכנית עבור [הוצאה משימוש של TLSv1.0 ו- TLSv1.1](https://datatracker.ietf.org/doc/draft-ietf-tls-oldversions-deprecate/).
+- העדפת חבילת שרת של TLS 1.2 ואילך ותוכנית עבור [RFC8996](https://datatracker.ietf.org/doc/rfc8996/).
 - [שליחת SMTPS](https://en.wikipedia.org/wiki/SMTPS), בהנחה שנעשה שימוש ב - SMTP.
 - תקני אבטחת אתר אינטרנט כגון:
     - [אבטחת תעבורה קפדנית של HTTP](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
@@ -443,7 +470,7 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 - תוכניות לחיפוש באגים ו/או תהליך גילוי - פגיעות מתואם.
 - תקני אבטחת אתר אינטרנט כגון:
     - [מדיניות אבטחת תוכן (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
-    - [‎ Expect - CT ‎](https://datatracker.ietf.org/doc/draft-ietf-httpbis-expect-ct)
+    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
 
 ### אמון
 
@@ -481,5 +508,3 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 ### פונקציונליות נוספת
 
 אמנם לא דרישות קפדניות, יש כמה גורמי נוחות או פרטיות אחרים שבדקנו בעת קביעת אילו ספקים להמליץ.
-
---8<-- "includes/abbreviations.he.txt"

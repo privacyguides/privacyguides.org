@@ -1,6 +1,7 @@
 ---
 title: "Navigateurs de bureau"
 icon: material/laptop
+description: Firefox et Brave sont nos recommandations pour la navigation standard/non anonyme.
 ---
 
 Ce sont les navigateurs web de bureau et les configurations que nous recommandons actuellement pour une navigation classique/non anonyme. Si vous avez besoin de naviguer anonymement sur Internet, vous devriez plutôt utiliser [Tor](tor.md). D'une manière générale, nous vous recommandons de limiter au maximum les extensions de votre navigateur ; elles ont un accès privilégié dans votre navigateur, vous obligent à faire confiance au développeur, peuvent vous faire [sortir du lot](https://fr.wikipedia.org/wiki/Empreinte_digitale_d%27appareil), et [affaiblir](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) l'isolation des sites.
@@ -189,7 +190,7 @@ Dans le menu *Système*
 
 La [Synchronisation Brave](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) permet à vos données de navigation (historique, signets, etc.) d'être accessibles sur tous vos appareils sans nécessiter de compte et les protège avec E2EE.
 
-## Ressources Supplémentaires
+## Ressources supplémentaires
 
 Nous ne recommandons généralement pas l'installation d'extensions, car elles augmentent votre surface d'attaque. Cependant, uBlock Origin peut s'avérer utile si vous appréciez la fonctionnalité de blocage de contenu.
 
@@ -256,7 +257,5 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
 
 - Ne doit pas dupliquer une fonctionnalité intégrée dans le navigateur ou dans le système d'exploitation.
 - Doit avoir un impact direct sur la vie privée des utilisateurs, c'est-à-dire qu'il ne doit pas simplement fournir des informations.
-
---8<-- "includes/abbreviations.fr.txt"
 
 [^1]: L'implémentation de Brave est détaillée dans [Mises à jour de la confidentialité de Brave : Partitionnement de l'état du réseau pour la confidentialité](https://brave.com/privacy-updates/14-partitioning-network-state/).

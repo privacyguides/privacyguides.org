@@ -44,5 +44,3 @@ Als je aan jouw eigen branch werkt, voer dan deze commando's uit voordat je een 
 git fetch origin
 git rebase origin/main
 ```
-
---8<-- "includes/abbreviations.nl.txt"

@@ -1,6 +1,7 @@
 ---
 title: "Partage et synchronisation de fichiers"
 icon: material/share-variant
+description: Découvrez comment partager vos fichiers en toute confidentialité entre vos appareils, avec vos amis et votre famille, ou de manière anonyme en ligne.
 ---
 
 Découvrez comment partager vos fichiers en toute confidentialité entre vos appareils, avec vos amis et votre famille, ou de manière anonyme en ligne.
@@ -144,5 +145,3 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
 
 - Dispose de clients mobiles pour iOS et Android, qui permettent au moins de prévisualiser les documents.
 - Prend en charge la sauvegarde des photos à partir d'iOS et d'Android et, en option, la synchronisation des fichiers/dossiers sur Android.
-
---8<-- "includes/abbreviations.fr.txt"

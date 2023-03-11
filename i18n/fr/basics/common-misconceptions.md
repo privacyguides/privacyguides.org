@@ -1,6 +1,7 @@
 ---
 title: "Idées reçues"
 icon: 'material/robot-confused'
+description: La protection de la vie privée n'est pas un sujet simple, et il est facile de se laisser piéger par les affirmations marketing et autres désinformations.
 ---
 
 ## "Les logiciels libres et open-source sont toujours sécurisés" ou "Les logiciels propriétaires sont plus sécurisé"
@@ -55,7 +56,5 @@ Les modèles de menace les plus clairs sont ceux où les gens *savent qui vous �
 3. **Identité anonyme** - Même avec de l'expérience, les identités anonymes sont difficiles à maintenir sur de longues périodes. Il doit s'agir d'identités à court terme et de courte durée qui font l'objet d'une rotation régulière.
 
     L'utilisation de Tor peut y contribuer. Il convient également de noter qu'un plus grand anonymat est possible grâce à la communication asynchrone : La communication en temps réel est vulnérable à l'analyse des habitudes de frappe (c'est-à-dire plus d'un paragraphe de texte, diffusé sur un forum, par e-mail, etc.)
-
---8<-- "includes/abbreviations.fr.txt"
 
 [^1]: Un exemple notable est l'[incident de 2021 dans lequel des chercheurs de l'Université du Minnesota ont introduit trois vulnérabilités dans le projet de développement du noyau Linux](https://cse.umn.edu/cs/linux-incident).

@@ -40,5 +40,3 @@ Cercare di proteggere tutti i dati da tutti, in ogni momento, è poco pratico, c
 [:material-hand-coin-outline:](about/donate.md){ title="Sostieni il progetto" }
 
 È importante che un sito web come Privacy Guide rimanga sempre aggiornato. Abbiamo bisogno che il nostro pubblico tenga d'occhio gli aggiornamenti software per le applicazioni elencate sul nostro sito e segua le notizie recenti sui provider che raccomandiamo. È difficile stare al passo con il ritmo veloce di internet, ma facciamo del nostro meglio. Se noti un errore, pensi che un provider non dovrebbe essere elencato, noti che manca un provider qualificato, credi che un plug-in del browser non sia più la scelta migliore o scopri qualsiasi altro problema, faccelo sapere.
-
---8<-- "includes/abbreviations.it.txt"

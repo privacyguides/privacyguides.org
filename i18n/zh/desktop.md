@@ -1,6 +1,7 @@
 ---
 title: "Android 应用"
 icon: simple/linux
+description: 由于隐私保护和软件自由，Linux发行版被普遍推荐。
 ---
 
 由于隐私保护和软件自由，Linux发行版被普遍推荐。 如果你还没有使用Linux，下面是我们建议尝试的一些发行版，以及一些适用于许多Linux发行版的一般隐私和安全改进提示。
@@ -180,5 +181,3 @@ Qubes OS操作系统通过将子系统（如网络、USB等）和应用程序隔
 - 在安装过程中必须支持全盘加密。
 - 不得将定期发布的信息冻结1年以上。 我们 [，不建议将](os/linux-overview.md#release-cycle) "长期支持 "或 "稳定 "的发行版用于桌面使用。
 - 必须支持各种各样的硬件。
-
---8<-- "includes/abbreviations.zh.txt"

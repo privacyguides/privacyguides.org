@@ -1,6 +1,7 @@
 ---
 title: "דפדפנים שולחניים"
 icon: material/laptop
+description: Firefox and Brave are our recommendations for standard/non-anonymous browsing.
 ---
 
 אלה הדפדפנים והתצורות המומלצים כרגע לגלישה רגילה/לא אנונימית. אם אתה צריך לגלוש באינטרנט באופן אנונימי, אתה צריך להשתמש [Tor](tor.md) במקום. באופן כללי, אנו ממליצים לשמור על הרחבות הדפדפן שלך למינימום; יש להם גישה מורשית בתוך הדפדפן שלך, דורשים ממך לסמוך על המפתח, יכולים לגרום לך [להתבלט](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), ו[להחליש](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) את בידוד האתר.
@@ -256,7 +257,5 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 
 - אסור לשכפל דפדפן מובנה או פונקציונליות מערכת הפעלה.
 - חייב להשפיע ישירות על פרטיות המשתמש, כלומר לא חייב פשוט לספק מידע.
-
---8<-- "includes/abbreviations.he.txt"
 
 [^1]: היישום של Brave מפורט ב [עדכוני פרטיות Brave: חלוקת מצב רשת לפרטיות](https://brave.com/privacy-updates/14-partitioning-network-state/).

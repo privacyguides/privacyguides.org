@@ -1,6 +1,7 @@
 ---
 title: "Suppression de compte"
 icon: 'material/account-remove'
+description: Il est facile d'accumuler un grand nombre de comptes internet. Voici quelques conseils pour élaguer votre collection.
 ---
 
 Au fil du temps, il est facile d'accumuler un certain nombre de comptes en ligne, dont beaucoup ne sont peut-être plus utilisés. La suppression de ces comptes inutilisés est une étape importante dans la récupération de votre vie privée, car les comptes inactifs sont vulnérables aux fuites de données. Il y a une fuite des données lorsque la sécurité d'un service est compromise et que des informations protégées sont consultées, transmises ou volées par des acteurs non autorisés. Les fuites de données sont malheureusement [très fréquentes](https://haveibeenpwned.com/PwnedWebsites) de nos jours, et donc le meilleur moyen de minimiser l'impact qu'elles ont sur votre vie et de pratiquer une bonne hygiène numérique. L'objectif de ce guide est donc de vous aider à traverser le processus fastidieux de la suppression d'un compte, souvent rendu difficile à cause du [dark pattern](https://www.deceptive.design/), une pratique que certains services utilisent afin que vous abandonniez l'idée de supprimer votre compte.
@@ -59,5 +60,3 @@ Même lorsque vous êtes en mesure de supprimer un compte, il n'y a aucune garan
 ## Éviter la création de nouveaux comptes
 
 Comme le dit le vieil adage, "Mieux vaut prévenir que guérir". Chaque fois que vous êtes tenté de vous inscrire à un nouveau service ou site web, demandez-vous : "En ai-je vraiment besoin ? Puis-je accomplir ce dont j'ai besoin sans compte ?" Il est souvent beaucoup plus difficile de supprimer un compte que d'en créer un. Et même après avoir supprimé ou modifié les informations sur votre compte, il se peut qu'il existe une version en cache provenant d'un tiers, comme [Internet Archive](https://archive.org/). Évitez la tentation quand vous le pouvez - votre futur vous en remerciera !
-
---8<-- "includes/abbreviations.fr.txt"

@@ -1,6 +1,7 @@
 ---
 title: "Eliminazione account"
 icon: 'material/account-remove'
+description: It's easy to accumulate a large number of internet accounts, here are some tips on how to prune your collection.
 ---
 
 Con il tempo, può essere facile accumulare una serie di profili online, molti dei quali potrebbero non essere più utilizzati. L'eliminazione di questi account inutilizzati è un passo importante per recuperare la propria privacy, poiché gli account inattivi sono vulnerabili alle violazioni dei dati. Una violazione dei dati (anche detta data breach) avviene quando la sicurezza di un servizio è compromessa e le informazioni protette vengono visualizzate, trasmesse o rubate da soggetti non autorizzati. Le violazioni dei dati sono purtroppo [troppo comuni](https://haveibeenpwned.com/PwnedWebsites) al giorno d'oggi e quindi praticare una buona igiene digitale è il modo migliore per ridurre al minimo l'impatto che hanno sulla propria vita. L'obiettivo di questa guida è quindi quello di aiutarvi a superare il fastidioso processo di cancellazione dell'account, spesso reso difficile da un [design ingannevole](https://www.deceptive.design/), per migliorare la propria presenza online.
@@ -59,5 +60,3 @@ Even when you are able to delete an account, there is no guarantee that all your
 ## Avoid New Accounts
 
 As the old saying goes, "an ounce of prevention is worth a pound of cure." Whenever you feel tempted to sign up for a new account, ask yourself, "Do I really need this? Can I accomplish what I need to without an account?" It can often be much harder to delete an account than to create one. And even after deleting or changing the info on your account, there might be a cached version from a third-party—like the [Internet Archive](https://archive.org/). Avoid the temptation when you're able to—your future self will thank you!
-
---8<-- "includes/abbreviations.it.txt"

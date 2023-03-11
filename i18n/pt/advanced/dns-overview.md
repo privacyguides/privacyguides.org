@@ -1,6 +1,7 @@
 ---
 title: "DNS Overview"
 icon: material/dns
+description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
 ---
 
 O [Domain Name System (DNS)](https://en.wikipedia.org/wiki/Domain_Name_System) é a 'lista telefónica da Internet'. DNS traduz nomes de domínio para [IP](https://en.wikipedia.org/wiki/Internet_Protocol) endereços para que os navegadores e outros serviços possam carregar recursos da Internet, através de uma rede descentralizada de servidores.
@@ -303,5 +304,3 @@ O [subrede do cliente EDNS](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) é
 O objectivo é "acelerar" a entrega de dados, dando ao cliente uma resposta que pertence a um servidor que lhes está próximo, tal como um [content delivery network (CDN)](https://en.wikipedia.org/wiki/Content_delivery_network), que são frequentemente utilizados em streaming de vídeo e em aplicações web JavaScript.
 
 Este recurso tem um custo de privacidade, pois informa ao servidor DNS algumas informações sobre a localização do cliente.
-
---8<-- "includes/abbreviations.pt.txt"
