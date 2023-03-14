@@ -1,12 +1,12 @@
 ---
 title: "Autentikasi Multifaktor"
 icon: 'material/two-factor-authentication'
-description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
+description: MFA adalah mekanisme keamanan penting untuk mengamankan akun online Anda, tetapi beberapa metode lebih kuat daripada yang lain.
 ---
 
-**Multi-Factor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. The most common method is time limited codes you might receive from SMS or an app.
+**Multi-Factor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. Metode yang paling umum adalah kode terbatas waktu yang mungkin Anda terima dari SMS atau aplikasi.
 
-Normally, if a hacker (or adversary) is able to figure out your password then they’d gain access to the account that password belongs to. An account with MFA forces the hacker to have both the password (something you *know*) and a device that you own (something you *have*), like your phone.
+Biasanya, jika seorang peretas (atau musuh) dapat mengetahui kata sandi Anda, maka mereka akan mendapatkan akses ke akun milik kata sandi tersebut. An account with MFA forces the hacker to have both the password (something you *know*) and a device that you own (something you *have*), like your phone.
 
 MFA methods vary in security, but are based on the premise that the more difficult it is for an attacker to gain access to your MFA method, the better. Examples of MFA methods (from weakest to strongest) include SMS, Email codes, app push notifications, TOTP, Yubico OTP and FIDO.
 
@@ -14,7 +14,7 @@ MFA methods vary in security, but are based on the premise that the more difficu
 
 ### SMS or Email MFA
 
-Receiving OTP codes via SMS or email are one of the weaker ways to secure your accounts with MFA. Obtaining a code by email or SMS takes away from the "something you *have*" idea, because there are a variety of ways a hacker could [take over your phone number](https://en.wikipedia.org/wiki/SIM_swap_scam) or gain access to your email without having physical access to any of your devices at all. If an unauthorized person gained access to your email, they would be able to use that access to both reset your password and receive the authentication code, giving them full access to your account.
+Receiving OTP codes via SMS or email are one of the weaker ways to secure your accounts with MFA. Obtaining a code by email or SMS takes away from the "something you *have*" idea, because there are a variety of ways a hacker could [take over your phone number](https://en.wikipedia.org/wiki/SIM_swap_scam) or gain access to your email without having physical access to any of your devices at all. Jika orang yang tidak berwenang mendapatkan akses ke email Anda, mereka akan dapat menggunakan akses tersebut untuk mengatur ulang kata sandi dan menerima kode autentikasi, sehingga memberikan akses penuh ke akun Anda.
 
 ### Push Notifications
 
@@ -22,7 +22,7 @@ Push notification MFA takes the form of a message being sent to an app on your p
 
 We all make mistakes, and there is the risk that you might accept the login attempt by accident. Push notification login authorizations are typically sent to *all* your devices at once, widening the availability of the MFA code if you have many devices.
 
-The security of push notification MFA is dependent on both the quality of the app, the server component and the trust of the developer who produces it. Installing an app may also require you to accept invasive privileges that grant access to other data on your device. An individual app also requires that you have a specific app for each service which may not require a password to open, unlike a good TOTP generator app.
+The security of push notification MFA is dependent on both the quality of the app, the server component and the trust of the developer who produces it. Menginstal aplikasi mungkin juga mengharuskan Anda untuk menerima hak istimewa invasif yang memberikan akses ke data lain pada perangkat Anda. An individual app also requires that you have a specific app for each service which may not require a password to open, unlike a good TOTP generator app.
 
 ### Time-based One-time Password (TOTP)
 

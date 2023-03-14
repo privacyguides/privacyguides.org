@@ -1,7 +1,7 @@
 ---
 title: "סקירה כללית של DNS"
 icon: material/dns
-description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
+description: מערכת שמות הדומיין היא "ספר הטלפונים של האינטרנט", שעוזרת לדפדפן שלך למצוא את האתר שהוא מחפש.
 ---
 
 [מערכת שמות הדומיין](https://en.wikipedia.org/wiki/Domain_Name_System) היא 'ספר הטלפונים של האינטרנט'. DNS מתרגם שמות דומיין לכתובות IP כך שדפדפנים ושירותים אחרים יכולים לטעון משאבי אינטרנט, דרך רשת מבוזרת של שרתים.

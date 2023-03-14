@@ -26,11 +26,11 @@ Juga ditampilkan di: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-f
 
 ## Sejarah
 
-Privacy Guides diluncurkan pada bulan September 2021 sebagai kelanjutan dari [yang sudah tidak aktif](privacytools.md) "PrivacyTools" proyek edukasi sumber terbuka. We recognized the importance of independent, criteria-focused product recommendations and general knowledge in the privacy space, which is why we needed to preserve the work that had been created by so many contributors since 2015 and make sure that information had a stable home on the web indefinitely.
+Privacy Guides diluncurkan pada bulan September 2021 sebagai kelanjutan dari proyek edukasi sumber terbuka "PrivacyTools" [yang sudah tidak aktif](privacytools.md). Kami menyadari pentingnya rekomendasi produk yang independen dan berfokus pada kriteria serta pengetahuan umum di bidang privasi, oleh karena itu kami perlu melestarikan karya yang telah dibuat oleh begitu banyak kontributor sejak tahun 2015 dan memastikan bahwa informasi tersebut memiliki tempat yang stabil di web tanpa batas waktu.
 
-Pada tahun 2022, kami menyelesaikan transisi kerangka kerja situs web utama kami dari Jekyll ke MkDocs, menggunakan perangkat lunak dokumentasi `mkdocs - material` . This change made open-source contributions to our site significantly easier for outsiders, because instead of needing to know complicated syntax to write posts effectively, contributing is now as easy as writing a standard Markdown document.
+Pada tahun 2022, kami menyelesaikan transisi kerangka kerja situs web utama kami dari Jekyll ke MkDocs, menggunakan perangkat lunak dokumentasi `mkdocs-material`. Perubahan ini membuat kontribusi sumber terbuka ke situs kami menjadi jauh lebih mudah bagi pihak luar, karena daripada perlu mengetahui sintaks yang rumit untuk menulis kiriman secara efektif, berkontribusi sekarang semudah menulis dokumen Markdown standar.
 
-Kami juga meluncurkan forum diskusi baru kami di [discuss.privacyguides.net](https://discuss.privacyguides.net/) sebagai platform komunitas untuk berbagi ide dan mengajukan pertanyaan tentang misi kami. Hal ini menambah komunitas kami yang ada di Matrix, dan menggantikan platform Diskusi GitHub kami sebelumnya, mengurangi ketergantungan kami pada platform diskusi berpemilik.
+Kami juga meluncurkan forum diskusi baru kami di [discuss.privacyguides.net](https://discuss.privacyguides.net/) sebagai platform komunitas untuk berbagi ide dan mengajukan pertanyaan tentang misi kami. Hal ini menambah komunitas kami yang ada di Matrix, dan menggantikan platform Diskusi GitHub kami sebelumnya, mengurangi ketergantungan kami pada platform diskusi sumber tertutup.
 
 Sejauh ini pada tahun 2023 kami telah meluncurkan terjemahan internasional situs web kami dalam bahasa [Prancis](/fr/), [Ibrani](/he/), dan [Belanda](/nl/), dengan lebih banyak bahasa yang sedang dalam proses, yang dimungkinkan oleh tim penerjemah kami yang luar biasa di [Crowdin](https://crowdin.com/project/privacyguides). Kami berencana untuk terus melanjutkan misi kami dalam hal penjangkauan dan edukasi, serta mencari cara untuk menyoroti dengan lebih jelas bahaya kurangnya kesadaran privasi di era digital modern, dan prevalensi serta bahaya pelanggaran keamanan di seluruh industri teknologi.
 
@@ -41,7 +41,7 @@ Sejauh ini pada tahun 2023 kami telah meluncurkan terjemahan internasional situs
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/jonah)
     - [:simple-github: GitHub](https://github.com/jonaharagon "@jonaharagon")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
-    - [:fontawesome-solid-house: Beranda](https://www.jonaharagon.com)
+    - [:fontawesome-solid-house: Laman Beranda](https://www.jonaharagon.com)
 
 ??? person "@niek-de-wilde"
 
@@ -62,13 +62,13 @@ Sejauh ini pada tahun 2023 kami telah meluncurkan terjemahan internasional situs
     - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
     - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
     - [:fontawesome-solid-envelope: Surel](mailto:freddy@privacyguides.org)
-    - [:fontawesome-solid-house: Beranda](https://freddy.omg.lol)
+    - [:fontawesome-solid-house: Laman Beranda](https://freddy.omg.lol)
 
 ??? person "@mfwmyfacewhen"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/mfwmyfacewhen)
     - [:simple-github: GitHub](https://github.com/mfwmyfacewhen "@mfwmyfacewhen")
-    - [:fontawesome-solid-house: Beranda](https://mfw.omg.lol)
+    - [:fontawesome-solid-house: Laman Beranda](https://mfw.omg.lol)
 
 ??? person "@olivia"
 
@@ -76,14 +76,14 @@ Sejauh ini pada tahun 2023 kami telah meluncurkan terjemahan internasional situs
     - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
-Selain itu, [banyak orang](https://github.com/privacyguides/privacyguides.org/graphs/contributors) telah memberikan kontribusi ke proyek ini. You can too, we're open sourced on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
+Selain itu, [banyak orang](https://github.com/privacyguides/privacyguides.org/graphs/contributors) telah memberikan kontribusi ke proyek ini. Anda juga bisa, kami bersumber terbuka di GitHub, dan menerima saran penerjemahan di [Crowdin](https://crowdin.com/project/privacyguides).
 
 Anggota tim kami meninjau semua perubahan yang dilakukan pada situs web dan menangani tugas-tugas administratif seperti layanan web dan keuangan, namun mereka tidak mendapatkan keuntungan pribadi dari setiap kontribusi yang dibuat untuk situs ini. Keuangan kami dikelola secara transparan oleh Open Collective Foundation 501(c)(3) di [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Donasi untuk Privacy Guides umumnya dapat dikurangkan dari pajak di Amerika Serikat.
 
 ## Lisensi Situs
 
-*Berikut ini adalah ringkasan yang dapat dibaca oleh manusia (dan bukan pengganti) lisensi [](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE):*
+*Berikut ini adalah ringkasan yang dapat dibaca oleh manusia (dan bukan pengganti) [lisensi](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE):*
 
-:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Ini berarti Anda bebas menyalin dan mendistribusikan ulang materi dalam media atau format apa pun untuk tujuan apa pun, bahkan untuk tujuan komersial; selama Anda memberikan kredit yang sesuai kepada `Privacy Guides (www.privacyguides.org)` dan memberikan tautan ke lisensi. Anda dapat melakukannya dengan cara yang wajar, tetapi tidak dengan cara apa pun yang menyarankan Privacy Guides mendukung Anda atau penggunaan Anda. If you remix, transform, or build upon the content of this website, you may not distribute the modified material.
+:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Kecuali dinyatakan lain, konten asli di situs web ini tersedia di bawah lisensi [Creative Commons Atribusi-TanpaTurunan 4.0 Internasional](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Ini berarti Anda bebas menyalin dan mendistribusikan ulang materi dalam media atau format apa pun untuk tujuan apa pun, bahkan untuk tujuan komersial; selama Anda memberikan kredit yang sesuai kepada `Privacy Guides (www.privacyguides.org)` dan memberikan tautan ke lisensi. Anda dapat melakukannya dengan cara yang wajar, tetapi tidak dengan cara apa pun yang menyarankan Privacy Guides mendukung Anda atau penggunaan Anda. Jika Anda menggubah, mengubah, atau mengembangkan konten situs web ini, Anda tidak boleh mendistribusikan materi yang telah dimodifikasi.
 
-This license is in place to prevent people from sharing our work without giving proper credit, and to prevent people from modifying our work in a way that could be used to mislead people. Jika Anda merasa persyaratan lisensi ini terlalu membatasi proyek yang sedang Anda kerjakan, silakan hubungi kami di `jonah@privacyguides.org`. Kami dengan senang hati menyediakan opsi lisensi alternatif untuk proyek-proyek yang bermaksud baik di ruang privasi!
+Lisensi ini diterapkan untuk mencegah orang membagikan karya kami tanpa memberikan kredit yang tepat, dan untuk mencegah orang memodifikasi karya kami dengan cara yang dapat digunakan untuk menyesatkan orang lain. Jika Anda merasa persyaratan lisensi ini terlalu membatasi proyek yang sedang Anda kerjakan, silakan hubungi kami di `jonah@privacyguides.org`. Kami dengan senang hati menyediakan opsi lisensi alternatif untuk proyek-proyek yang bermaksud baik di ruang privasi!

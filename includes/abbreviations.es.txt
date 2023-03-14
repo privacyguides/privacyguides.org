@@ -45,6 +45,7 @@
 *[ISP]: Proveedor de servicio de internet
 *[ISPs]: Proveedores de servicio de internet
 *[JNI]: Interfaz nativa de Java
+*[KYC]: Know Your Customer
 *[LUKS]: Configuración de clave unificada Linux (cifrado de disco completo)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard

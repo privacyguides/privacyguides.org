@@ -86,9 +86,6 @@ Proton Mail ha [integrado el cifrado OpenPGP](https://proton.me/support/how-to-u
 
 Proton Mail también admite el descubrimiento de claves públicas a través de HTTP desde su [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Esto permite a las personas que no utilizan Proton Mail encontrar fácilmente las claves OpenPGP de las cuentas de Proton Mail, para E2EE entre proveedores.
 
-#### :material-alert-outline:{ .pg-orange } Legado digital
-
-Proton Mail no ofrece la función de legado digital.
 
 #### :material-information-outline:{ .pg-blue } Cancelación de la cuenta
 
@@ -97,6 +94,8 @@ Si tiene una cuenta de pago y su factura [no se paga](https://proton.me/support/
 #### Funcionalidad adicional de :material-information-outline:{ .pg-blue }
 
 Proton Mail ofrece una cuenta "Ilimitada" por 9,99 euros al mes, que también permite acceder a Proton VPN además de proporcionar múltiples cuentas, dominios, alias y 500 GB de almacenamiento.
+
+Proton Mail no ofrece la función de legado digital.
 
 ### Mailbox.org
 
@@ -138,10 +137,6 @@ Mailbox.org tiene [cifrado integrado](https://kb.mailbox.org/display/MBOKBEN/Sen
 
 Mailbox.org también admite el descubrimiento de claves públicas a través de HTTP desde su [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Esto permite a personas ajenas a Mailbox.org encontrar fácilmente las claves OpenPGP de las cuentas de Mailbox.org, para E2EE entre proveedores.
 
-#### :material-check:{ .pg-green } Legado digital
-
-Mailbox.org tiene una función de legado digital para todos los planes. Puede elegir si desea que alguno de sus datos se transmita a los herederos, siempre que lo soliciten y aporten su testamento. También puede designar a una persona por su nombre y dirección.
-
 #### :material-information-outline:{ .pg-blue } Cancelación de la cuenta
 
 Su cuenta se convertirá en una cuenta de usuario restringida cuando finalice su contrato, después de [30 días se eliminará irrevocablemente](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
@@ -151,6 +146,8 @@ Su cuenta se convertirá en una cuenta de usuario restringida cuando finalice su
 Puede acceder a su cuenta de Mailbox.org a través de IMAP/SMTP utilizando su [servicio.onion](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). Sin embargo, no se puede acceder a su interfaz de correo web a través de su servicio .onion y es posible que se produzcan errores de certificado TLS.
 
 Todas las cuentas vienen con un almacenamiento limitado en la nube que [se puede cifrar](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org también ofrece el alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), que impone el cifrado TLS en la conexión entre servidores de correo; de lo contrario, el mensaje no se enviará en absoluto. Mailbox.org también admite [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) además de protocolos de acceso estándar como IMAP y POP3.
+
+Mailbox.org tiene una función de legado digital para todos los planes. Puede elegir si desea que alguno de sus datos se transmita a los herederos, siempre que lo soliciten y aporten su testamento. También puede designar a una persona por su nombre y dirección.
 
 ## Más proveedores
 
@@ -202,10 +199,6 @@ StartMail admite la importación de [contactos](https://support.startmail.com/hc
 
 StartMail tiene [cifrado integrado](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) en su correo web, lo que simplifica el envío de mensajes cifrados con claves públicas OpenPGP. Sin embargo, no son compatibles con el estándar Web Key Directory, lo que hace que el descubrimiento de la clave pública de un buzón de correo Startmail sea más difícil para otros proveedores de correo electrónico o clientes.
 
-#### :material-alert-outline:{ .pg-orange } Legado digital
-
-StartMail no ofrece una función de legado digital.
-
 #### :material-information-outline:{ .pg-blue } Cancelación de la cuenta
 
 Al vencimiento de la cuenta, StartMail eliminará permanentemente su cuenta después de [6 meses en 3 fases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
@@ -213,6 +206,8 @@ Al vencimiento de la cuenta, StartMail eliminará permanentemente su cuenta desp
 #### :material-information-outline:{ .pg-blue } Funciones adicionales
 
 StartMail permite el proxy de imágenes dentro de los correos electrónicos. Si permite que se cargue la imagen remota, el remitente no sabrá cuál es su dirección IP.
+
+StartMail no ofrece una función de legado digital.
 
 ### Tutanota
 
@@ -260,10 +255,6 @@ Tutanota dispone de [cifrado de acceso cero en reposo](https://tutanota.com/faq#
 
 Tutanota [no utiliza OpenPGP](https://www.tutanota.com/faq/#pgp). Las cuentas de Tutanota sólo pueden recibir correos electrónicos cifrados de cuentas de correo electrónico que no son de tutanota cuando se envían a través de un [buzón temporal de Tutanota](https://www.tutanota.com/howto/#encrypted-email-external).
 
-#### :material-alert-outline:{ .pg-orange } Legado digital
-
-Tutanota no ofrece la función de legado digital.
-
 #### :material-information-outline:{ .pg-blue } Cancelación de la cuenta
 
 Tutanota eliminará [las cuentas gratuitas inactivas](https://tutanota.com/faq#inactive-accounts) después de seis meses. Puedes reutilizar una cuenta gratuita desactivada si pagas.
@@ -273,6 +264,8 @@ Tutanota eliminará [las cuentas gratuitas inactivas](https://tutanota.com/faq#i
 Tutanota ofrece la versión empresarial [a las organizaciones sin ánimo de lucro](https://tutanota.com/blog/posts/secure-email-for-non-profit) de forma gratuita o con un importante descuento.
 
 Tutanota también tiene una función para empresas llamada [Secure Connect](https://tutanota.com/secure-connect/). Esto garantiza que el contacto del cliente con la empresa utilice E2EE. La función cuesta 240 €/año.
+
+Tutanota no ofrece la función de legado digital.
 
 ## Servicios de alias de correo
 
@@ -432,79 +425,79 @@ Preferimos que nuestros proveedores recomendados recojan la menor cantidad de da
 **Mínimo para calificar:**
 
 - Proteger la dirección IP del remitente. Filtrarlo para que no aparezca en el campo de cabecera `Recibido`.
-- Don't require personally identifiable information (PII) besides a username and a password.
-- Privacy policy that meets the requirements defined by the GDPR
-- Must not be hosted in the US due to [ECPA](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act#Criticism) which has [yet to be reformed](https://epic.org/ecpa/).
-
-**Best Case:**
-
-- Accepts [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
-
-### Seguridad
-
-Email servers deal with a lot of very sensitive data. We expect that providers will adopt best industry practices in order to protect their members.
+- No requiera información personal identificable (PII) aparte de un nombre de usuario y una contraseña.
+- Política de privacidad que cumple los requisitos definidos por el GDPR
+- No debe estar alojado en los Estados Unidos debido a [ECPA](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act#Criticism) que aún tiene [que ser reformado](https://epic.org/ecpa/).
 
 **Mejor caso:**
 
-- Protection of webmail with 2FA, such as TOTP.
-- Zero access encryption, builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
-- [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
-- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://www.hardenize.com/), [testssl.sh](https://testssl.sh/), or [Qualys SSL Labs](https://www.ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
-- A server suite preference (optional on TLSv1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
-- A valid [MTA-STS](https://tools.ietf.org/html/rfc8461) and [TLS-RPT](https://tools.ietf.org/html/rfc8460) policy.
-- Valid [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
-- Valid [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
-- Have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
-- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996/).
-- [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
-- Website security standards such as:
-    - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
-    - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
-- Must support viewing of [Message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
+- Acepte [opciones de pago anónimas](advanced/payments.md) ([criptomonedas](cryptocurrency.md), efectivo, tarjetas regalo, etc.)
 
-**Best Case:**
+### Seguridad
 
-- Support for hardware authentication, i.e. U2F and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate people, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
-- [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
-- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), this is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+Los servidores de correo electrónico manejan muchos datos sensibles. Esperamos que los proveedores adopten las mejores prácticas de la industria para proteger a sus miembros.
+
+**Mínimo para calificar:**
+
+- Protección del correo web con 2FA, como TOTP.
+- Cifrado de acceso cero, basado en el cifrado en reposo. El proveedor no disponga de las claves de descifrado de los datos que posee. Esto evita que un empleado deshonesto filtre datos a los que tiene acceso o que un adversario remoto divulgue datos que ha robado al obtener acceso no autorizado al servidor.
+- Compatible con [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
+- No haya errores o vulnerabilidades TLS cuando se perfilan con herramientas como [Hardenize](https://www.hardenize.com/), [testssl.sh](https://testssl.sh/)o [Qualys SSL Labs](https://www.ssllabs.com/ssltest); esto incluye errores relacionados con el certificado y parámetros DH débiles, como los que llevaron a [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
+- Una preferencia de suite de servidor (opcional en TLSv1.3) para suites de cifrado potentes que soporten forward secrecy y encriptación autenticada.
+- Una política válida [MTA-STS](https://tools.ietf.org/html/rfc8461) y [TLS-RPT](https://tools.ietf.org/html/rfc8460).
+- Registros válidos de [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities).
+- Registros válidos [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) y [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail).
+- Tenga un registro y una política adecuados de [DMARC](https://en.wikipedia.org/wiki/DMARC) o use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) para la autenticación. Si se utiliza la autenticación DMARC, la política debe establecerse en `rechazar` o `cuarentena`.
+- Una preferencia de conjunto de servidores de TLS 1.2 o posterior y un plan para [RFC8996](https://datatracker.ietf.org/doc/rfc8996/).
+- [Envío de SMTPS](https://en.wikipedia.org/wiki/SMTPS), suponiendo que se utiliza SMTP.
+- Estándares de seguridad del sitio web tales como:
+    - [Seguridad de transporte estricta HTTP](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
+    - [Integridad de subrecurso](https://en.wikipedia.org/wiki/Subresource_Integrity) si se cargan cosas desde dominios externos.
+- Debe admitir la visualización de [Encabezados de mensaje](https://en.wikipedia.org/wiki/Email#Message_header), ya que es una característica forense crucial para determinar si un correo electrónico es un intento de phishing.
+
+**Mejor caso:**
+
+- Soporte para autenticación de hardware, ej. U2F y [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F y WebAuthn son más seguros ya que utilizan una clave privada almacenada en un dispositivo de hardware del lado del cliente para autenticar a las personas, a diferencia de un secreto compartido que se almacena en el servidor web y en el lado del cliente cuando se utiliza TOTP. Además, U2F y WebAuthn son más resistentes al phishing ya que su respuesta de autenticación se basa en el [nombre de dominio](https://en.wikipedia.org/wiki/Domain_name) autenticado.
+- [Registro de recursos de autorización de autoridad de certificación (CAA) de DNS](https://tools.ietf.org/html/rfc6844) además del soporte de DANE.
+- Implementación de la [cadena recibida autenticada (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), esto es útil para las personas que publican en listas de correo [RFC8617](https://tools.ietf.org/html/rfc8617).
 - Programas de recompensa de errores y/o un proceso coordinado de divulgación de vulnerabilidades.
-- Website security standards such as:
-    - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
+- Estándares de seguridad del sitio web tales como:
+    - [Política de seguridad de contenido (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
 
 ### Confianza
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+No confiarías tus finanzas a alguien con una identidad falsa, así que ¿por qué confiarle tus datos de Internet? Exigimos a nuestros proveedores recomendados que hagan pública su propiedad o liderazgo. También nos gustaría ver informes de transparencia frecuentes, especialmente en lo que se refiere a cómo se gestionan las solicitudes del gobierno.
+
+**Mínimo para calificar:**
+
+- Liderazgo o propiedad de cara al público.
 
 **Mejor caso:**
 
-- Public-facing leadership or ownership.
-
-**Best Case:**
-
-- Public-facing leadership.
+- Liderazgo de cara al público.
 - Informes de transparencia frecuentes.
 
 ### Marketing
 
-With the email providers we recommend we like to see responsible marketing.
+Con los proveedores de correo electrónico que recomendamos nos gusta ver el marketing responsable.
 
 **Mejor caso:**
 
-- Debe tener análisis propios (no Google Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt-out.
+- Debe tener análisis propios (no Google Analytics, etc.). El sitio del proveedor también debe cumplir con [DNT (Do Not Track, sin rastreo)](https://en.wikipedia.org/wiki/Do_Not_Track) para las personas que deseen darse de baja.
 
-Must not have any marketing which is irresponsible:
+No debe tener ningún tipo de marketing que sea irresponsable:
 
-- Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
+- Reclamaciones de "cifrado irrompible" El cifrado debe usarse con la intención de que no sea secreto en el futuro cuando exista la tecnología para descifrarlo.
 - Garantizar la protección del anonimato al 100%. Cuando alguien afirma que algo es 100% significa que no hay certeza de fracaso. Sabemos que la gente puede desanonimizarse fácilmente de varias maneras, por ejemplo:
 
-- Reusing personal information e.g. (email accounts, unique pseudonyms, etc) that they accessed without anonymity software (Tor, VPN, etc)
+- Reutilizar información personal, por ejemplo (cuentas de correo electrónico, seudónimos únicos, etc.) a la que accedieron sin software de anonimato (Tor, VPN, etc.)
 - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
-**Best Case:**
+**Mejor Caso:**
 
-- Clear and easy to read documentation. This includes things like, setting up 2FA, email clients, OpenPGP, etc.
+- Documentación clara y fácil de leer. Esto incluye cosas como configurar 2FA, clientes de correo electrónico, OpenPGP, etc.
 
 ### Funcionalidades adicionales
 
-While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
+Aunque no son exactamente requisitos, hay algunos otros factores de conveniencia o privacidad que hemos analizado para determinar qué proveedores recomendar.

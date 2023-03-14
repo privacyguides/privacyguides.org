@@ -86,9 +86,6 @@ Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to
 
 Proton Mail also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Hal ini memungkinkan orang yang tidak menggunakan Proton Mail untuk menemukan kunci OpenPGP akun Proton Mail dengan mudah, untuk lintas-penyedia E2EE.
 
-#### :material-alert-outline:{ .pg-orange } Digital Legacy
-
-Proton Mail tidak menawarkan fitur warisan digital.
 
 #### :material-information-outline:{ .pg-blue } Account Termination
 
@@ -97,6 +94,8 @@ If you have a paid account and your [bill is unpaid](https://proton.me/support/d
 #### :material-information-outline:{ .pg-blue } Fungsionalitas Tambahan
 
 Proton Mail menawarkan akun "Unlimited" seharga €9,99/Bulan, yang juga memungkinkan akses ke Proton VPN selain menyediakan beberapa akun, domain, alias, dan penyimpanan 500GB.
+
+Proton Mail tidak menawarkan fitur warisan digital.
 
 ### Mailbox.org
 
@@ -138,10 +137,6 @@ Mailbox.org has [integrated encryption](https://kb.mailbox.org/display/MBOKBEN/S
 
 Mailbox.org also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Hal ini memungkinkan orang di luar Mailbox.org untuk menemukan kunci OpenPGP dari akun Mailbox.org dengan mudah, untuk lintas-penyedia E2EE.
 
-#### :material-check:{ .pg-green } Digital Legacy
-
-Mailbox.org memiliki fitur warisan digital untuk semua paket. You can choose whether you want any of your data to be passed to heirs providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
-
 #### :material-information-outline:{ .pg-blue } Account Termination
 
 Your account will be set to a restricted user account when your contract ends, after [30 days it will be irrevocably deleted](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
@@ -151,6 +146,8 @@ Your account will be set to a restricted user account when your contract ends, a
 You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). However, their webmail interface cannot be accessed via their .onion service and you may experience TLS certificate errors.
 
 All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+
+Mailbox.org memiliki fitur warisan digital untuk semua paket. You can choose whether you want any of your data to be passed to heirs providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
 
 ## Penyedia Lainnya
 
@@ -202,10 +199,6 @@ StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/a
 
 StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys. However, they do not support the Web Key Directory standard, making the discovery of a Startmail mailbox's public key more challenging for other email providers or clients.
 
-#### :material-alert-outline:{ .pg-orange } Digital Legacy
-
-StartMail does not offer a digital legacy feature.
-
 #### :material-information-outline:{ .pg-blue } Account Termination
 
 On account expiration, StartMail will permanently delete your account after [6 months in 3 phases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
@@ -213,6 +206,8 @@ On account expiration, StartMail will permanently delete your account after [6 m
 #### :material-information-outline:{ .pg-blue } Fungsionalitas Tambahan
 
 StartMail memungkinkan untuk proxy gambar dalam email. Jika Anda mengizinkan gambar jarak jauh dimuat, pengirim tidak akan tahu alamat IP Anda.
+
+StartMail does not offer a digital legacy feature.
 
 ### Tutanota
 
@@ -260,10 +255,6 @@ Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encr
 
 Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
 
-#### :material-alert-outline:{ .pg-orange } Digital Legacy
-
-Tutanota doesn't offer a digital legacy feature.
-
 #### :material-information-outline:{ .pg-blue } Account Termination
 
 Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
@@ -273,6 +264,8 @@ Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-
 Tutanota offers the business version of [Tutanota to non-profit organizations](https://tutanota.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
 
 Tutanota also has a business feature called [Secure Connect](https://tutanota.com/secure-connect/). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
+
+Tutanota doesn't offer a digital legacy feature.
 
 ## Email Aliasing Services
 

@@ -1,7 +1,7 @@
 ---
 title: "הפחתת נתונים ומטא נתונים"
 icon: material/tag-remove
-description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
+description: השתמש בכלים אלה כדי להסיר מטא נתונים כמו מיקום GPS ומידע מזהה אחר מתמונות וקבצים שאתה משתף.
 ---
 
 בעת שיתוף קבצים, הקפד להסיר מטא נתונים משויכים. קבצי תמונה כוללים בדרך כלל [נתוני Exif](https://en.wikipedia.org/wiki/Exif). תמונות לפעמים אפילו כוללות קואורדינטות GPS במטא-נתונים של הקובץ.

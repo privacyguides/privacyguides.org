@@ -1,26 +1,26 @@
 ---
 title: Android Overview
 icon: simple/android
-description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
+description: Android adalah sistem operasi sumber terbuka dengan perlindungan keamanan yang kuat, yang menjadikannya pilihan utama kami untuk ponsel.
 ---
 
 Android is a secure operating system that has strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
 
-## Choosing an Android Distribution
+## Memilih Distribusi Android
 
-When you buy an Android phone, the device's default operating system often comes with invasive integration with apps and services that are not part of the [Android Open-Source Project](https://source.android.com/). An example of such is Google Play Services, which has irrevocable privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, hardware identifiers, and so on. These apps and services increase the attack surface of your device and are the source of various privacy concerns with Android.
+Ketika Anda membeli ponsel Android, sistem operasi bawaan perangkat sering kali dilengkapi dengan integrasi invasif dengan aplikasi dan layanan yang bukan merupakan bagian dari [Android Open-Source Project](https://source.android.com/). Contohnya adalah Layanan Google Play, yang memiliki hak istimewa yang tidak dapat dibatalkan untuk mengakses file, penyimpanan kontak, log panggilan, pesan SMS, lokasi, kamera, mikrofon, pengidentifikasi perangkat keras, dan sebagainya. Aplikasi dan layanan ini meningkatkan permukaan serangan pada perangkat Anda dan merupakan sumber dari berbagai masalah privasi pada Android.
 
 This problem could be solved by using a custom Android distribution that does not come with such invasive integration. Unfortunately, many custom Android distributions often violate the Android security model by not supporting critical security features such as AVB, rollback protection, firmware updates, and so on. Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require [more permissive](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
 
-Ideally, when choosing a custom Android distribution, you should make sure that it upholds the Android security model. At the very least, the distribution should have production builds, support for AVB, rollback protection, timely firmware and operating system updates, and SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). All of our recommended Android distributions satisfy these criteria.
+Idealnya, ketika memilih distribusi Android kustom, Anda harus memastikan bahwa distribusi tersebut menjunjung tinggi model keamanan Android. At the very least, the distribution should have production builds, support for AVB, rollback protection, timely firmware and operating system updates, and SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). Semua distribusi Android yang kami rekomendasikan memenuhi kriteria ini.
 
-[Our Android System Recommendations :material-arrow-right-drop-circle:](../android.md ""){.md-button}
+[Rekomendasi Sistem Android kami :material-arrow-right-drop-circle:](../android.md ""){.md-button}
 
 ## Avoid Rooting
 
-[Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) Android phones can decrease security significantly as it weakens the complete [Android security model](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). This can decrease privacy should there be an exploit that is assisted by the decreased security. Common rooting methods involve directly tampering with the boot partition, making it impossible to perform successful Verified Boot. Apps that require root will also modify the system partition meaning that Verified Boot would have to remain disabled. Having root exposed directly in the user interface also increases the [attack surface](https://en.wikipedia.org/wiki/Attack_surface) of your device and may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation) vulnerabilities and SELinux policy bypasses.
+[Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) Android phones can decrease security significantly as it weakens the complete [Android security model](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). Hal ini dapat mengurangi privasi jika ada eksploitasi yang dibantu oleh penurunan keamanan. Common rooting methods involve directly tampering with the boot partition, making it impossible to perform successful Verified Boot. Apps that require root will also modify the system partition meaning that Verified Boot would have to remain disabled. Having root exposed directly in the user interface also increases the [attack surface](https://en.wikipedia.org/wiki/Attack_surface) of your device and may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation) vulnerabilities and SELinux policy bypasses.
 
-Adblockers, which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. They are also not the correct way to solve their intended purposes. For Adblocking we suggest encrypted [DNS](../dns.md) or [VPN](../vpn.md) server blocking solutions instead. RethinkDNS, TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN) preventing you from using privacy enhancing services such as Orbot or a real VPN server.
+Adblockers, which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. Mereka juga bukan cara yang tepat untuk menyelesaikan tujuan yang dimaksudkan. For Adblocking we suggest encrypted [DNS](../dns.md) or [VPN](../vpn.md) server blocking solutions instead. RethinkDNS, TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN) preventing you from using privacy enhancing services such as Orbot or a real VPN server.
 
 AFWall+ works based on the [packet filtering](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) approach and may be bypassable in some situations.
 
@@ -38,25 +38,25 @@ Unfortunately, OEMs are only obliged to support Verified Boot on their stock And
 
 Many OEMs also have broken implementation of Verified Boot that you have to be aware of beyond their marketing. For example, the Fairphone 3 and 4 are not secure by default, as the [stock bootloader trusts the public AVB signing key](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems such (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
 
-## Firmware Updates
+## Pembaruan Firmware
 
-Firmware updates are critical for maintaining security and without them your device cannot be secure. OEMs have support agreements with their partners to provide the closed-source components for a limited support period. These are detailed in the monthly [Android Security Bulletins](https://source.android.com/security/bulletin).
+Firmware updates are critical for maintaining security and without them your device cannot be secure. OEM memiliki perjanjian dukungan dengan mitra mereka untuk menyediakan komponen sumber tertutup untuk periode dukungan terbatas. These are detailed in the monthly [Android Security Bulletins](https://source.android.com/security/bulletin).
 
-As the components of the phone, such as the processor and radio technologies rely on closed-source components, the updates must be provided by the respective manufacturers. Therefore, it is important that you purchase a device within an active support cycle. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC and they will provide a minimum of 5 years of support.
+As the components of the phone, such as the processor and radio technologies rely on closed-source components, the updates must be provided by the respective manufacturers. Oleh karena itu, penting bagi Anda untuk membeli perangkat dalam siklus dukungan yang aktif. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) dan [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) mendukung perangkat mereka selama 4 tahun, sementara produk yang lebih murah sering kali memiliki siklus dukungan yang lebih pendek. Dengan diperkenalkannya [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google kini membuat SoC sendiri dan mereka akan memberikan dukungan minimal 5 tahun.
 
-EOL devices which are no longer supported by the SoC manufacturer cannot receive firmware updates from OEM vendors or after market Android distributors. This means that security issues with those devices will remain unfixed.
+EOL devices which are no longer supported by the SoC manufacturer cannot receive firmware updates from OEM vendors or after market Android distributors. Ini berarti bahwa masalah keamanan pada perangkat tersebut akan tetap tidak diperbaiki.
 
-Fairphone, for example, markets their devices as receiving 6 years of support. However, the SoC (Qualcomm Snapdragon 750G on the Fairphone 4) has a considerably shorter EOL date. This means that firmware security updates from Qualcomm for the Fairphone 4 will end in September 2023, regardless of whether Fairphone continues to release software security updates.
+Fairphone, misalnya, memasarkan perangkat mereka dengan dukungan selama 6 tahun. Namun, SoC (Qualcomm Snapdragon 750G pada Fairphone 4) memiliki tanggal EOL yang jauh lebih pendek. Ini berarti bahwa pembaruan keamanan firmware dari Qualcomm untuk Fairphone 4 akan berakhir pada bulan September 2023, terlepas dari apakah Fairphone terus merilis pembaruan keamanan perangkat lunak.
 
-## Android Versions
+## Versi Android
 
-It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android not only receive security updates for the operating system but also important privacy enhancing updates too. For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes), any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity), whereas now they must be system apps to do so. System apps are only provided by the OEM or Android distribution.
+It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Versi Android yang lebih baru tidak hanya menerima pembaruan keamanan untuk sistem operasi, tetapi juga pembaruan penting untuk meningkatkan privasi. For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes), any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity), whereas now they must be system apps to do so. System apps are only provided by the OEM or Android distribution.
 
-## Android Permissions
+## Izin Android
 
 [Permissions on Android](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. Google regularly makes [improvements](https://developer.android.com/about/versions/11/privacy/permissions) on the permission system in each successive version. All apps you install are strictly [sandboxed](https://source.android.com/security/app-sandbox), therefore, there is no need to install any antivirus apps.
 
-A smartphone with the latest version of Android will always be more secure than an old smartphone with an antivirus that you have paid for. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a Google Pixel.
+A smartphone with the latest version of Android will always be more secure than an old smartphone with an antivirus that you have paid for. Lebih baik tidak membayar perangkat lunak antivirus dan menghemat uang untuk membeli smartphone baru seperti Google Pixel.
 
 Android 10:
 
@@ -85,19 +85,19 @@ An app may request a permission for a specific feature it has. For example, any 
 
 [Exodus](https://exodus-privacy.eu.org/) can be useful when comparing apps that have similar purposes. If an app requires a lot of permissions and has a lot of advertising and analytics this is probably a bad sign. We recommend looking at the individual trackers and reading their descriptions rather than simply **counting the total** and assuming all items listed are equal.
 
-!!! warning
+!!! peringatan
 
-    If an app is mostly a web-based service, the tracking may occur on the server side. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) shows "no trackers" but certainly does track users' interests and behavior across the site. Apps may evade detection by not using standard code libraries produced by the advertising industry, though this is unlikely.
+    Jika sebuah aplikasi sebagian besar merupakan layanan berbasis web, pelacakan dapat terjadi di sisi server. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) menunjukkan "tidak ada pelacak" tetapi tentu saja melacak minat dan perilaku pengguna di seluruh situs. Apps may evade detection by not using standard code libraries produced by the advertising industry, though this is unlikely.
 
-!!! note
+!!! catatan
 
-    Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all of the analytics features that are provided by Google Firebase Analytics.
+    Aplikasi ramah privasi seperti [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) dapat menampilkan beberapa pelacak seperti [Google Firebase Analytics] (https://reports.exodus-privacy.eu.org/en/trackers/49/). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. Ini [adalah kasus] (https://fosstodon.org/@bitwarden/109636825700482007) dengan Bitwarden. Itu tidak berarti bahwa Bitwarden menggunakan semua fitur analisis yang disediakan oleh Google Firebase Analytics.
 
-## Media Access
+## Akses Media
 
-Quite a few applications allows you to "share" a file with them for media upload. If you want to, for example, tweet a picture to Twitter, do not grant Twitter access to your "media and photos", because it will have access to all of your pictures then. Instead, go to your file manager (documentsUI), hold onto the picture, then share it with Twitter.
+Cukup banyak aplikasi yang memungkinkan Anda untuk "berbagi" file dengan mereka untuk mengunggah media. If you want to, for example, tweet a picture to Twitter, do not grant Twitter access to your "media and photos", because it will have access to all of your pictures then. Instead, go to your file manager (documentsUI), hold onto the picture, then share it with Twitter.
 
-## User Profiles
+## Profil Pengguna
 
 Multiple user profiles can be found in **Settings** → **System** → **Multiple users** and are the simplest way to isolate in Android.
 
@@ -125,7 +125,7 @@ Modern Android devices have global toggles for disabling Bluetooth and location 
 
 If you are using a device with Google services, either your stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS, there are a number of additional changes you can make to improve your privacy. We still recommend avoiding Google services entirely, or limiting Google Play services to a specific user/work profile by combining a device controller like *Shelter* with GrapheneOS's Sandboxed Google Play.
 
-### Advanced Protection Program
+### Program Perlindungan Lanjutan
 
 If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection/). It is available at no cost to anyone with two or more hardware security keys with [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) support.
 
@@ -149,7 +149,7 @@ In the past, Android security updates had to be shipped by the operating system 
 
 If you have an EOL device shipped with Android 10 or above and are unable to run any of our recommended operating systems on your device, you are likely going to be better off sticking with your OEM Android installation (as opposed to an operating system not listed here such as LineageOS or /e/ OS). This will allow you to receive **some** security fixes from Google, while not violating the Android security model by using an insecure Android derivative and increasing your attack surface. We would still recommend upgrading to a supported device as soon as possible.
 
-### Advertising ID
+### ID Iklan
 
 All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248?hl=en) used for targeted advertising. Disable this feature to limit the data collected about you.
 

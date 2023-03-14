@@ -12,10 +12,10 @@
         <div class="mdx-hero__content">
           <h1>La guida per ripristinare la tua privacy online.</h1>
           <p>Le grandi organizzazioni stanno monitorando le tue attività online. Privacy Guides è la risorsa centrale per la privacy e la sicurezza per proteggersi online.</p>
-          <a href="kb/" title="Il primo passo del tuo viaggio sulla privacy" class="md-button md-button--primary">
+          <a href="{% if config.extra.offline %}basics/threat-modeling.html{% else %}kb/{% endif %}" title="Il primo passo del tuo viaggio sulla privacy" class="md-button md-button--primary">
             Inizia il tuo viaggio sulla privacy
           </a>
-          <a href="tools/" title="Strumenti per la privacy, servizi e conoscenze consigliati" class="md-button">
+          <a href="{% if config.extra.offline %}tools.html{% else %}tools/{% endif %}" title="Strumenti per la privacy, servizi e conoscenze consigliati" class="md-button">
             Strumenti consigliati
           </a>
         </div>

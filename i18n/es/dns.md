@@ -1,7 +1,7 @@
 ---
 title: "Resolvers DNS"
 icon: material/dns
-description: These are some encrypted DNS providers we recommend switching to, to replace your ISP's default configuration.
+description: Estos son algunos proveedores de DNS cifrado a los que recomendamos cambiar para reemplazar la configuración predeterminada de tu ISP.
 ---
 
 Un DNS cifrado con servidores de terceros solo debe utilizarse para evitar el [bloqueo de DNS básico](https://en.wikipedia.org/wiki/DNS_blocking) cuando puedas estar seguro de que no habrá ninguna consecuencia. Un DNS encriptado no te ayudará a esconder tu actividad en línea.

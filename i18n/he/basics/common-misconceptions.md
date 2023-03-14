@@ -1,7 +1,7 @@
 ---
 title: "תפיסות מוטעות נפוצות"
 icon: 'material/robot-confused'
-description: Privacy isn't a straightforward topic, and it's easy to get caught up in marketing claims and other disinformation.
+description: פרטיות היא לא נושא פשוט, וקל להיקלע לטענות שיווקיות ודיסאינפורמציה אחרת.
 ---
 
 ## "תוכנת קוד פתוח תמיד מאובטחת" או "תוכנה קניינית מאובטחת יותר"

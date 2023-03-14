@@ -16,9 +16,9 @@ ToS adalah peraturan yang Anda setujui untuk diikuti saat menggunakan layanan. P
 
 Kebijakan Privasi adalah bagaimana layanan mengatakan bahwa mereka akan menggunakan data Anda dan perlu dibaca agar Anda memahami bagaimana data Anda akan digunakan. Perusahaan atau organisasi mungkin tidak diwajibkan secara hukum untuk mengikuti semua yang tercantum dalam kebijakan (tergantung pada yurisdiksi). Kami sarankan Anda mengetahui undang-undang setempat dan apa yang diizinkan oleh penyedia layanan untuk dikumpulkan.
 
-Sebaiknya cari istilah-istilah tertentu seperti "pengumpulan data", "analisis data", "cookie", "iklan", atau layanan "pihak ketiga". Sometimes you will be able to opt-out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
+Sebaiknya cari istilah-istilah tertentu seperti "pengumpulan data", "analisis data", "cookie", "iklan", atau layanan "pihak ketiga". Kadang-kadang Anda dapat memilih untuk tidak ikut serta dalam pengumpulan data atau membagikan data Anda, tetapi yang terbaik adalah memilih layanan yang menghormati privasi Anda sejak awal.
 
-Keep in mind you're also placing your trust in the company or organization and that they will comply with their own privacy policy.
+Ingatlah bahwa Anda juga menaruh kepercayaan pada perusahaan atau organisasi tersebut dan bahwa mereka akan mematuhi kebijakan privasi mereka sendiri.
 
 ## Metode autentikasi
 
@@ -36,11 +36,11 @@ Anda akan bertanggung jawab untuk mengelola kredensial login Anda. Untuk keamana
 
 [Pengelola kata sandi yang direkomendasikan](../passwords.md ""){.md-button}
 
-#### Email aliases
+#### Alias surel
 
-Jika Anda tidak ingin memberikan alamat email asli Anda ke layanan, Anda memiliki opsi untuk menggunakan alias. Kami menjelaskannya secara lebih rinci di halaman rekomendasi layanan email kami. Essentially, alias services allow you to generate new email addresses that forward all emails to your main address. Hal ini dapat membantu mencegah pelacakan di seluruh layanan dan membantu Anda mengelola email pemasaran yang terkadang menyertai proses pendaftaran. Semua itu dapat disaring secara otomatis berdasarkan alias yang dikirim.
+Jika Anda tidak ingin memberikan alamat surel asli Anda ke layanan, Anda memiliki opsi untuk menggunakan alias. Kami menjelaskannya secara lebih rinci di halaman rekomendasi layanan surel kami. Pada dasarnya, layanan alias memungkinkan Anda untuk membuat alamat surel baru yang meneruskan semua surel ke alamat utama Anda. Hal ini dapat membantu mencegah pelacakan di seluruh layanan dan membantu Anda mengelola surel pemasaran yang terkadang menyertai proses pendaftaran. Semua itu dapat disaring secara otomatis berdasarkan alias yang dikirim.
 
-Jika layanan diretas, Anda mungkin akan mulai menerima email phishing atau spam ke alamat yang Anda gunakan untuk mendaftar. Using unique aliases for each service can assist in identifying exactly what service was hacked.
+Jika layanan diretas, Anda mungkin akan mulai menerima surel phishing atau spam ke alamat yang Anda gunakan untuk mendaftar. Using unique aliases for each service can assist in identifying exactly what service was hacked.
 
 [Recommended email aliasing services](../email.md#email-aliasing-services ""){.md-button}
 

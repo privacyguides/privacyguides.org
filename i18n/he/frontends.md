@@ -1,7 +1,7 @@
 ---
 title: "חזיתות"
 icon: material/flip-to-front
-description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
+description: ממשקי קוד פתוח אלה לשירותי אינטרנט שונים מאפשרים לך לגשת לתוכן ללא JavaScript או מטרדים אחרים.
 ---
 
 לפעמים שירותים ינסו לאלץ אותך להירשם לחשבון על ידי חסימת גישה לתוכן עם חלונות קופצים מעצבנים. הם יכולים להישבר גם ללא הפעלת JavaScript. חזיתות אלה יכולות לאפשר לך לעקוף את ההגבלות הללו.

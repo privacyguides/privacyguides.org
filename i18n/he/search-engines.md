@@ -1,7 +1,7 @@
 ---
 title: "מנועי חיפוש"
 icon: material/search-web
-description: These privacy-respecting search engines don't build an advertising profile based on your searches.
+description: מנועי החיפוש המכבדים את הפרטיות אינם בונים פרופיל פרסום על סמך החיפושים שלך.
 ---
 
 השתמש במנוע חיפוש שאינו בונה פרופיל פרסום על סמך החיפושים שלך.

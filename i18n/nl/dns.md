@@ -25,7 +25,7 @@ Versleutelde DNS met servers van derden zou alleen moeten worden gebruikt om sim
 
 !!! example "Deze sectie is nieuw"
 
-    We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
+    We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en ga er niet van uit dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
 
 - Moet [DNSSEC](advanced/dns-overview.md#what-is-dnssec) ondersteunen.
 - [QNAME Minimalisatie](advanced/dns-overview.md#what-is-qname-minimization).
@@ -42,19 +42,19 @@ Android 9 en hoger ondersteunen DNS over TLS. De instellingen kunnen worden gevo
 
 De nieuwste versies van iOS, iPadOS, tvOS en macOS ondersteunen zowel DoT als DoH. Beide protocollen worden ondersteund via [configuratieprofielen](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) of via de [DNS Settings API](https://developer.apple.com/documentation/networkextension/dns_settings).
 
-Na installatie van een configuratieprofiel of een app die gebruik maakt van de DNS Settings API, kan de DNS-configuratie worden geselecteerd. Als een VPN actief is, zal de resolutie binnen de VPN-tunnel de DNS-instellingen van het VPN gebruiken en niet uw systeembrede instellingen.
+Na installatie van een configuratieprofiel of een app die gebruik maakt van de DNS Settings API, kan de DNS-configuratie worden geselecteerd. Als een VPN actief is, zal de resolutie binnen de VPN-tunnel de DNS-instellingen van het VPN gebruiken en niet je systeembrede instellingen.
 
 #### Ondertekende Profielen
 
-Apple biedt geen native interface voor het maken van versleutelde DNS-profielen. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) is een onofficiële tool voor het maken van uw eigen versleutelde DNS-profielen, echter worden deze niet ondertekend. Ondertekende profielen hebben de voorkeur; ondertekening valideert de oorsprong van een profiel en helpt de integriteit van de profielen te waarborgen. Een groen "Geverifieerd" label wordt gegeven aan ondertekende configuratieprofielen. Voor meer informatie over het ondertekenen van codes, zie [Over het ondertekenen van codes](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **Ondertekende profielen** worden aangeboden door [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), en [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/).
+Apple biedt geen native interface voor het maken van versleutelde DNS-profielen. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) is een onofficiële tool voor het maken van je eigen versleutelde DNS-profielen, echter worden deze niet ondertekend. Ondertekende profielen hebben de voorkeur; ondertekening valideert de oorsprong van een profiel en helpt de integriteit van de profielen te waarborgen. Een groen "Geverifieerd" label wordt gegeven aan ondertekende configuratieprofielen. Voor meer informatie over het ondertekenen van codes, zie [Over het ondertekenen van codes](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **Ondertekende profielen** worden aangeboden door [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), en [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/).
 
 !!! info
 
-    `systemd-resolved`, die veel Linux distributies gebruiken om hun DNS lookups te doen, [ondersteunt DoH nog niet](https://github.com/systemd/systemd/issues/8639). Als je DoH wilt gebruiken, moet je een proxy installeren zoals [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) en [configureren](https://wiki.archlinux.org/title/Dnscrypt-proxy) om alle DNS-query's van je systeem-resolver te nemen en ze over HTTPS door te sturen.
+    `systemd-resolved`, die veel Linux-distributies gebruiken om hun DNS lookups te doen, [ondersteunt DoH nog niet](https://github.com/systemd/systemd/issues/8639). Als je DoH wilt gebruiken, moet je een proxy installeren zoals [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) en [configureren](https://wiki.archlinux.org/title/Dnscrypt-proxy) om alle DNS-query's van je systeem-resolver te nemen en ze over HTTPS door te sturen.
 
 ## Versleutelde DNS-proxy
 
-Versleutelde DNS-proxy software biedt een lokale proxy voor de [onversleutelde DNS](advanced/dns-overview.md#unencrypted-dns) resolver om naar door te sturen. Meestal wordt het gebruikt op platformen die [versleutelde DNS](advanced/dns-overview.md#what-is-encrypted-dns)niet ondersteunen.
+Versleutelde DNS-proxy software biedt een lokale proxy voor de [onversleutelde DNS](advanced/dns-overview.md#unencrypted-dns)-resolver om naar door te sturen. Meestal wordt het gebruikt op platformen die [versleutelde DNS](advanced/dns-overview.md#what-is-encrypted-dns)niet ondersteunen.
 
 ### RethinkDNS
 
@@ -81,7 +81,7 @@ Versleutelde DNS-proxy software biedt een lokale proxy voor de [onversleutelde D
 
     ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
     
-    **dnscrypt-proxy** is een DNS-proxy met ondersteuning voor [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), en [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
+    **dnscrypt-proxy** is een DNS-proxy met ondersteuning voor [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), en [Geanonimiseerde DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
     
     !!! warning "De geanonimiseerde DNS-functie anonimiseert [**niet**](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) ander netwerkverkeer."
     
@@ -131,9 +131,9 @@ Een zelf gehoste DNS-oplossing is handig voor het bieden van filtering op gecont
     [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Broncode" }
     [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Bijdrage leveren }
 
-[^1]: AdGuard slaat geaggregeerde prestatiecijfers van hun DNS-servers op, namelijk het aantal volledige verzoeken aan een bepaalde server, het aantal geblokkeerde verzoeken, en de snelheid waarmee verzoeken worden verwerkt. Zij houden ook de database bij van domeinen die in de laatste 24 uur zijn aangevraagd. "We hebben deze informatie nodig om nieuwe trackers en bedreigingen te identificeren en te blokkeren." "We houden ook bij hoe vaak deze of gene tracker geblokkeerd is. We hebben deze informatie nodig om verouderde regels uit onze filters te verwijderen." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
+[^1]: AdGuard slaat geaggregeerde prestatiecijfers van hun DNS-servers op, namelijk het aantal volledige verzoeken aan een bepaalde server, het aantal geblokkeerde verzoeken, en de snelheid waarmee verzoeken worden verwerkt. Zij houden ook de database bij van domeinen die in de laatste 24 uur zijn aangevraagd. "We hebben deze informatie nodig om nieuwe trackers en bedreigingen te identificeren en te blokkeren." "We houden ook bij hoe vaak bepaalde trackers geblokkeerd zijn. We hebben deze informatie nodig om verouderde regels uit onze filters te verwijderen." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
 [^2]: Cloudflare verzamelt en bewaart alleen de beperkte DNS-querygegevens die naar de 1.1.1.1 resolver worden gestuurd. De 1.1.1.1 resolver dienst logt geen persoonsgegevens, en het grootste deel van de beperkte niet-persoonlijk identificeerbare query-gegevens wordt slechts 25 uur bewaard. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)
 [^3]: Control D logt alleen voor Premium resolvers met aangepaste DNS-profielen. Gratis resolvers loggen geen gegevens. [https://controld.com/privacy](https://controld.com/privacy)
 [^4]: De DNS-service van Mullvad is beschikbaar voor zowel abonnees als niet-abonnees van Mullvad VPN. Hun privacybeleid beweert expliciet dat zij op geen enkele manier DNS-verzoeken loggen. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy/)
-[^5]: NextDNS kan inzichten en loggingfuncties bieden op een opt-in basis. U kunt retentietijden en opslaglocaties kiezen voor de logs die je wilt bewaren. Als er niet specifiek om gevraagd wordt, worden er geen gegevens gelogd. [https://nextdns.io/privacy](https://nextdns.io/privacy)
+[^5]: NextDNS kan inzichten en loggingfuncties bieden op een opt-in basis. Je kan retentietijden en opslaglocaties kiezen voor de logs die je wilt bewaren. Als er niet specifiek om gevraagd wordt, worden er geen gegevens gelogd. [https://nextdns.io/privacy](https://nextdns.io/privacy)
 [^6]: Quad9 verzamelt sommige gegevens ten behoeve van de monitoring van en reactie op bedreigingen. Die gegevens kunnen vervolgens opnieuw worden gemengd en gedeeld, bijvoorbeeld ten behoeve van veiligheidsonderzoek. Quad9 verzamelt of registreert geen IP-adressen of andere gegevens die zij als persoonlijk identificeerbaar beschouwen. [https://www.quad9.net/privacy/policy/](https://www.quad9.net/privacy/policy/)

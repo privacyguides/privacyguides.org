@@ -1,32 +1,32 @@
 ---
-title: Cryptocurrency
+title: Mata Uang Kripto
 icon: material/bank-circle
 ---
 
-Making payments online is one of the biggest challenges to privacy. These cryptocurrencies provide transaction privacy by default (something which is **not** guaranteed by the majority of cryptocurrencies), provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:
+Melakukan pembayaran secara daring adalah salah satu tantangan terbesar bagi privasi. Mata uang kripto di bawah ini menyediakan privasi transaksi secara bawaan (sesuatu yang **tidak** dijamin oleh sebagian besar mata uang kripto), asalkan Anda memiliki pemahaman yang kuat tentang cara melakukan pembayaran pribadi secara efektif. Kami sangat menyarankan Anda untuk membaca artikel ikhtisar pembayaran kami terlebih dahulu sebelum melakukan pembelian:
 
-[Making Private Payments :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
+[Melakukan Pembayaran Pribadi :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
 !!! danger
 
-    Many if not most cryptocurrency projects are scams. Lakukan transaksi dengan hati-hati hanya dengan proyek yang Anda percayai.
+    Banyak atau bahkan sebagian besar proyek mata uang kripto adalah penipuan. Lakukan transaksi dengan hati-hati hanya dengan proyek yang Anda percayai.
 
 ## Monero
 
 !!! recommendation
 
-    ![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
+    ![Logo Monero](assets/img/cryptocurrency/monero.svg){ align=right }
     
-    **Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve anonymity. Every Monero transaction hides the transaction amount, sending and receiving addresses, and source of funds without any hoops to jump through, making it an ideal choice for cryptocurrency novices.
+    **Monero** menggunakan blockchain dengan teknologi yang meningkatkan privasi yang mengaburkan transaksi untuk mencapai anonimitas. Setiap transaksi Monero menyembunyikan jumlah transaksi, alamat pengirim dan penerima, dan sumber dana tanpa ada rintangan yang harus dilewati, menjadikannya pilihan ideal untuk pemula mata uang kripto.
     
-    [:octicons-home-16: Homepage](https://www.getmonero.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribute }
+    [:octicons-home-16: Laman Beranda](https://www.getmonero.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Kode Sumber" }
+    [:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Berkontribusi }
 
-With Monero, outside observers cannot decipher addresses trading Monero, transaction amounts, address balances, or transaction histories.
+Dengan Monero, pengamat luar tidak dapat menguraikan alamat yang memperdagangkan Monero, jumlah transaksi, saldo alamat, atau riwayat transaksi.
 
-For optimal privacy, make sure to use a noncustodial wallet where the view key stays on the device. This means that only you will have the ability to spend your funds and see incoming and outgoing transactions. If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your private view key, the provider can see almost everything you do. Some noncustodial wallets include:
+Untuk privasi yang optimal, pastikan untuk menggunakan dompet nonkustodian di mana kunci tampilan tetap berada di perangkat. Ini berarti hanya Anda yang dapat menggunakan dana Anda dan melihat transaksi yang masuk dan keluar. If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your private view key, the provider can see almost everything you do. Some noncustodial wallets include:
 
 - [Official Monero client](https://getmonero.org/downloads) (Desktop)
 - [Cake Wallet](https://cakewallet.com/) (iOS, Android)

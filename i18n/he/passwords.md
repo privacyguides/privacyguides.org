@@ -1,7 +1,7 @@
 ---
 title: "מנהלי סיסמאות"
 icon: material/form-textbox-password
-description: Password managers allow you to securely store and manage passwords and other credentials.
+description: מנהלי סיסמאות מאפשרים לך לאחסן ולנהל בצורה מאובטחת סיסמאות ואישורים אחרים.
 ---
 
 מנהלי סיסמאות מאפשרים לך לאחסן ולנהל בצורה מאובטחת סיסמאות ואישורים אחרים עם שימוש בסיסמת אב.

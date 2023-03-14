@@ -12,7 +12,7 @@ If you want assistance figuring out the best privacy tools and alternative progr
 
 For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
 
-## Przeglądarki internetowe
+## Tor Network
 
 <div class="grid cards annotate" markdown>
 

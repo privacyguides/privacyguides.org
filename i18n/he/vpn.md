@@ -1,7 +1,7 @@
 ---
 title: "שירותי VPN"
 icon: material/vpn
-description: These are the best VPN services for protecting your privacy and security online. Find a provider here that isn’t out to spy on you.
+description: אלו הם שירותי ה-VPN הטובים ביותר להגנה על הפרטיות והאבטחה שלך באינטרנט. מצא כאן ספק שאינו מעוניין לרגל אחריך.
 ---
 
 אם אתה מחפש **פרטיות** נוספת מ-ISP שלך, ברשת Wi-Fi ציבורית, או תוך כדי טורנט קבצים, VPN עשוי להיות הפתרון עבורך כל עוד אתה מבין את הסיכונים הכרוכים בכך. אנו חושבים שהספקים האלה הם חתך מעל השאר:
@@ -204,7 +204,7 @@ Proton VPN מספק את קוד המקור עבור לקוחות שולחן הע
 
 #### :material-check:{ .pg-green } מקבל מזומן
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
+Proton VPN, בנוסף לקבלת כרטיסי אשראי/חיוב, פייפאל ו-[ביטקוין](advanced/payments.md#other-coins-bitcoin-ethereum-etc), מקבל גם **מזומן/מטבע מקומי** כאמצעי תשלום אנונימי.
 
 #### :material-check:{ .pg-green } תמיכה ב-WireGuard
 

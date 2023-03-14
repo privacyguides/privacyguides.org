@@ -1,7 +1,7 @@
 ---
 title: "יצירת חשבון"
 icon: 'material/account-plus'
-description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
+description: יצירת חשבונות מקוונים היא למעשה צורך באינטרנט, בצע את הצעדים האלה כדי לוודא שאתה נשאר פרטי.
 ---
 
 לעתים קרובות אנשים נרשמים לשירותים מבלי לחשוב. אולי זה שירות סטרימינג כדי שתוכל לצפות בתוכנית החדשה שכולם מדברים עליה, או חשבון שנותן לך הנחה למקום האוכל המהיר האהוב עליך. לא משנה מה המקרה, עליך לשקול את ההשלכות על הנתונים שלך כעת ובהמשך בהמשך הקו.

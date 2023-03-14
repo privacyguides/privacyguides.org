@@ -1,53 +1,53 @@
-# Community Code of Conduct
+# Kode Etik Komunitas
 
-**We pledge** to make our community a harassment-free experience for everyone.
+**Kami berjanji** untuk membuat komunitas kami menjadi pengalaman yang bebas dari pelecehan bagi semua orang.
 
-**We strive** to create a positive environment, using welcoming and inclusive language, and being respectful of the viewpoints of others.
+**Kami berusaha** untuk menciptakan lingkungan yang positif, menggunakan bahasa yang ramah dan inklusif, dan menghormati sudut pandang orang lain.
 
-**We do not allow** inappropriate or otherwise unacceptable behavior, such as sexualized language, trolling and insulting comments, or otherwise promoting intolerance or harassment.
+**Kami tidak memperbolehkan** perilaku yang tidak pantas atau tidak dapat diterima, seperti bahasa yang mengandung unsur seksual, komentar yang bersifat menjatuhkan dan menghina, atau mempromosikan intoleransi atau pelecehan.
 
-## Community Standards
+## Standar Komunitas
 
-What we expect from members of our communities:
+Apa yang kami harapkan dari para anggota komunitas kami:
 
-1. **Don't spread misinformation**
+1. **Jangan menyebarkan informasi yang salah**
 
-      We are creating an evidence-based educational community around information privacy and security, not a home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive, explain in detail what is collected and how it collected. Claims of this nature must be backed by technical evidence.
+      Kami menciptakan komunitas edukasi berbasis bukti seputar privasi dan keamanan informasi, bukan rumah bagi teori konspirasi. Misalnya, ketika membuat klaim bahwa perangkat lunak tertentu berbahaya atau data telemetri tertentu melanggar privasi, jelaskan secara rinci apa yang dikumpulkan dan bagaimana cara pengumpulannya. Klaim semacam ini harus didukung oleh bukti teknis.
 
-1. **Don't abuse our willingness to help**
+1. **Jangan menyalahgunakan kesediaan kita untuk membantu**
 
-      Our community members are not your free tech support. We are happy to help you with specific steps on your privacy journey if you are willing to put in effort on your end. We are not willing to answer endlessly repeated questions about generic computer problems you could have answered yourself with a 30-second internet search. Don't be a [help vampire](https://slash7.com/2006/12/22/vampires/).
+      Anggota komunitas kami bukanlah dukungan teknis gratis bagi Anda. Kami dengan senang hati membantu Anda dengan langkah-langkah spesifik dalam perjalanan privasi Anda jika Anda bersedia untuk berusaha. Kami tidak bersedia menjawab pertanyaan yang berulang-ulang tentang masalah komputer umum yang dapat Anda jawab sendiri dengan pencarian internet selama 30 detik. Jangan menjadi [vampir bantuan](https://slash7.com/2006/12/22/vampires/).
 
-1. **Behave in a positive and constructive manner**
+1. **Berperilaku dengan cara yang positif dan konstruktif**
 
-      Examples of behavior that contributes to a positive environment for our community include:
+      Contoh perilaku yang berkontribusi pada lingkungan positif bagi komunitas kita meliputi:
 
-      - Demonstrating empathy and kindness toward other people
-      - Being respectful of differing opinions, viewpoints, and experiences
-      - Giving and gracefully accepting constructive feedback
-      - Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
-      - Focusing on what is best not just for us as individuals, but for the overall community
+      - Menunjukkan kepedulian dan kebaikan terhadap orang lain
+      - Menghormati opini, pandangan, dan pengalaman yang berbeda
+      - Memberikan dan menerima umpan balik yang konstruktif secara sopan
+      - Menerima tanggung jawab dan meminta maaf kepada yang terdampak dari kesalahan kita, dan belajar dari pengalaman
+      - Berfokus pada apa yang terbaik, bukan hanya untuk kita sebagai individu, tetapi juga untuk komunitas secara keseluruhan
 
-### Unacceptable Behavior
+### Perilaku yang Tidak Dapat Diterima
 
-The following behaviors are considered harassment and are unacceptable within our community:
+Perilaku berikut ini dianggap sebagai pelecehan dan tidak dapat diterima dalam komunitas kami:
 
-- The use of sexualized language or imagery, and sexual attention or advances of any kind
-- Trolling, insulting or derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information, such as a physical or email address, without their explicit permission
-- Other conduct which could reasonably be considered inappropriate in a professional setting
+- Penggunaan bahasa atau gambar yang berbau seksual, dan perhatian atau rayuan seksual dalam bentuk apa pun
+- Komentar yang bersifat mengganggu, menghina atau merendahkan, dan serangan pribadi atau politik
+- Pelecehan publik atau pribadi
+- Mempublikasikan informasi pribadi orang lain, seperti alamat fisik atau surel, tanpa izin eksplisit dari mereka
+- Perilaku lain yang secara wajar dapat dianggap tidak pantas dalam lingkungan profesional
 
-## Scope
+## Jangkauan
 
-Our Code of Conduct applies within all project spaces, as well as when an individual is representing the Privacy Guides project in other communities.
+Kode Etik kami berlaku di semua ruang proyek, serta ketika seseorang mewakili proyek Privacy Guides di komunitas lain.
 
-We are responsible for clarifying the standards of our community, and have the right to remove or alter the comments of those participating within our community, as necessary and at our discretion.
+Kami bertanggung jawab untuk mengklarifikasi standar komunitas kami, dan memiliki hak untuk menghapus atau mengubah komentar mereka yang berpartisipasi dalam komunitas kami, jika diperlukan dan atas kebijakan kami.
 
-### Contact
+### Kontak
 
-If you observe a problem on a platform like Matrix or Reddit, please contact our moderators on that platform in chat, via DM, or through any designated "Modmail" system.
+Jika Anda menemukan masalah di platform seperti Matrix atau Reddit, silakan hubungi moderator kami di platform tersebut dalam obrolan, melalui pesan langsung, atau melalui sistem "Modmail" yang telah ditentukan.
 
-If you have a problem elsewhere, or a problem our community moderators are unable to resolve, reach out to `jonah@privacyguides.org` and/or `dngray@privacyguides.org`.
+Jika Anda memiliki masalah di tempat lain, atau masalah yang tidak dapat diselesaikan oleh moderator komunitas kami, hubungi `jonah@privacyguides.org` dan/atau `dngray@privacyguides.org`.
 
-All community leaders are obligated to respect the privacy and security of the reporter of any incident.
+Semua tokoh masyarakat berkewajiban untuk menghormati privasi dan keamanan pelapor insiden apa pun.

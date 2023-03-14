@@ -45,6 +45,7 @@
 *[ISP]: Internetleverantör
 *[ISPs]: Internetleverantör
 *[JNI]: Java inbyggt gränssnitt
+*[KYC]: Know Your Customer
 *[LUKS]: Linux Unified Key Setup (Full-Disk Kryptering)
 *[MAC]: Medieåtkomstkontroll
 *[MDAG]: Microsoft Defender Application Guard

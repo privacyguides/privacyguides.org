@@ -1,7 +1,7 @@
 ---
 title: ארכיון KB
 icon: material/archive
-description: Some pages that used to be in our knowledge base can now be found on our blog.
+description: חלק מהדפים שהיו בעבר במאגר הידע שלנו נמצאים כעת בבלוג שלנו.
 ---
 
 # דפים הועברו לבלוג

@@ -4,9 +4,9 @@ icon: material/dns
 description: Voici quelques fournisseurs de DNS chiffrés que nous vous recommandons d'utiliser pour remplacer la configuration par défaut de votre FAI.
 ---
 
-Les DNS cryptés avec des serveurs tiers ne doivent être utilisés que pour contourner le blocage DNS de base [](https://en.wikipedia.org/wiki/DNS_blocking) lorsque vous pouvez être sûr qu'il n'y aura pas de conséquences. Le DNS chiffré ne vous aidera pas à dissimuler vos activités de navigation.
+Les DNS chiffrés avec des serveurs tiers ne doivent être utilisés que pour contourner le [blocage DNS](https://en.wikipedia.org/wiki/DNS_blocking) de base lorsque vous pouvez être sûr qu'il n'y aura pas de conséquences. Le DNS chiffré ne vous aidera pas à dissimuler vos activités de navigation.
 
-[En savoir plus sur DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
+[En savoir plus sur les DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
 ## Fournisseurs recommandés
 

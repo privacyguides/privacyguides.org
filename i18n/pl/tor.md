@@ -1,12 +1,12 @@
 ---
-title: "Przeglądarki internetowe"
+title: "Sieć Tor"
 icon: simple/torproject
-description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+description: Zapewnij ochronę swojego przeglądania Internetu przed wścibskimi oczami, korzystając z sieci Tor, która jest bezpieczną siecią omijającą cenzurę.
 ---
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
-The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
+Sieć **Tor** to grupa serwerów dostarczanych przez wolontariuszy, która umożliwia bezpłatne łączenie się z Internetem oraz wzmacnia prywatność i bezpieczeństwo. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
 
 [:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }

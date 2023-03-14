@@ -1,12 +1,12 @@
 ---
-title: "Tor Network"
+title: "Jaringan Tor"
 icon: simple/torproject
-description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+description: Lindungi penjelajahan internet Anda dari pengintaian dengan menggunakan jaringan Tor, sebuah jaringan aman yang menghindari sensor.
 ---
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
-The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
+Jaringan **Tor** adalah sekelompok server yang dioperasikan secara sukarela yang memungkinkan Anda terhubung secara gratis dan meningkatkan privasi dan keamanan Anda di Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Karena lalu lintas Tor sulit diblokir dan dilacak, Tor merupakan alat pengelabuan sensor yang efektif.
 
 [:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
@@ -14,15 +14,15 @@ The **Tor** network is a group of volunteer-operated servers that allows you to 
 [:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
-Tor works by routing your internet traffic through those volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. This obfuscates where the traffic is coming from, and no server in the connection path is able to see the full path of where the traffic is coming from and going to, meaning even the servers you are using to connect cannot break your anonymity.
+Tor bekerja dengan merutekan lalu lintas internet Anda melalui server yang dioperasikan secara sukarela, alih-alih membuat koneksi langsung ke situs yang Anda coba kunjungi. Hal ini mengaburkan dari mana lalu lintas berasal, dan tidak ada server di jalur koneksi yang dapat melihat jalur penuh dari mana lalu lintas berasal dan pergi, yang berarti bahkan server yang Anda gunakan untuk terhubung tidak dapat merusak anonimitas Anda.
 
 [Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
 
-## Connecting to Tor
+## Menghubungkan ke Tor
 
 There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for anonymous browsing for desktop computers and Android. In addition to the apps listed below, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser.
 
-### Tor Browser
+### Peramban Tor
 
 !!! recommendation
 
@@ -45,9 +45,9 @@ There are a variety of ways to connect to the Tor network from your device, the 
         - [:simple-linux: Linux](https://www.torproject.org/download/)
         - [:simple-freebsd: FreeBSD](https://www.freshports.org/security/tor)
 
-!!! danger
+!!! bahaya
 
-    You should **never** install any additional extensions on Tor Browser or edit `about:config` settings, including the ones we suggest for Firefox. Browser extensions and non-standard settings make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
+    Anda sebaiknya **jangan pernah** memasang ekstensi tambahan apa pun pada Tor Browser atau mengedit pengaturan `about:config`, termasuk yang kami sarankan untuk Firefox. Ekstensi browser dan pengaturan non-standar membuat Anda menonjol dari orang lain di jaringan Tor, sehingga membuat peramban Anda lebih mudah untuk [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
 The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings/).
 
@@ -73,9 +73,9 @@ The Tor Browser is designed to prevent fingerprinting, or identifying you based 
 
 For resistance against traffic analysis attacks, consider enabling *Isolate Destination Address* in :material-menu: → **Settings** → **Connectivity**. This will use a completely different Tor Circuit (different middle relay and exit nodes) for every domain you connect to.
 
-!!! tip "Tips for Android"
+!!! tip "Tips untuk Android"
 
-    Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+    Orbot dapat memproksi aplikasi individual jika aplikasi tersebut mendukung proksi SOCKS atau HTTP. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
     
     Orbot is often outdated on the Guardian Project's [F-Droid repository](https://guardianproject.info/fdroid) and [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android), so consider downloading directly from the [GitHub repository](https://github.com/guardianproject/orbot/releases) instead.
     
@@ -92,7 +92,7 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
     
     **Snowflake** allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser.
     
-    People who are censored can use Snowflake proxies to connect to the Tor network. Snowflake is a great way to contribute to the network even if you don't have the technical know-how to run a Tor relay or bridge.
+    Orang-orang yang disensor bisa menggunakan proksi Snowflake untuk menyambung ke jaringan Tor. Snowflake adalah cara yang bagus untuk berkontribusi pada jaringan bahkan jika Anda tidak memiliki pengetahuan teknis untuk menjalankan relai atau jembatan Tor.
     
     [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
@@ -107,11 +107,11 @@ For resistance against traffic analysis attacks, consider enabling *Isolate Dest
 
 ??? tip "Embedded Snowflake"
 
-    You can enable Snowflake in your browser by clicking the switch below and ==leaving this page open==. You can also install Snowflake as a browser extension to have it always run while your browser is open, however adding third-party extensions can increase your attack surface.
+    Anda dapat mengaktifkan Snowflake di browser Anda dengan mengklik tombol di bawah ini dan ==membiarkan halaman ini terbuka==. You can also install Snowflake as a browser extension to have it always run while your browser is open, however adding third-party extensions can increase your attack surface.
     
     <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
-    <small>If the embed does not appear for you, ensure you are not blocking the third-party frame from `torproject.org`. Alternatively, visit [this page](https://snowflake.torproject.org/embed.html).</small>
+    <small>Jika sematan tidak muncul untuk Anda, pastikan Anda tidak memblokir bingkai pihak ketiga dari `torproject.org`. Atau, kunjungi [halaman ini](https://snowflake.torproject.org/embed.html).</small>
 
-Snowflake does not increase your privacy in any way, nor is it used to connect to the Tor network within your personal browser. However, if your internet connection is uncensored, you should consider running it to help people in censored networks achieve better privacy themselves. There is no need to worry about which websites people are accessing through your proxy—their visible browsing IP address will match their Tor exit node, not yours.
+Snowflake tidak meningkatkan privasi Anda dengan cara apa pun, juga tidak digunakan untuk terhubung ke jaringan Tor dalam browser pribadi Anda. Namun, jika koneksi internet Anda tidak disensor, Anda sebaiknya mempertimbangkan untuk menjalankannya untuk membantu orang-orang di jaringan yang disensor mencapai privasi yang lebih baik. There is no need to worry about which websites people are accessing through your proxy—their visible browsing IP address will match their Tor exit node, not yours.
 
-Running a Snowflake proxy is low-risk, even moreso than running a Tor relay or bridge which are already not particularly risky endeavours. However, it does still proxy traffic through your network which can be impactful in some ways, especially if your network is bandwidth-limited. Make sure you understand [how Snowflake works](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) before deciding whether to run a proxy.
+Menjalankan proxy Snowflake berisiko rendah, bahkan lebih rendah daripada menjalankan Tor relay atau bridge yang sudah tidak terlalu berisiko. However, it does still proxy traffic through your network which can be impactful in some ways, especially if your network is bandwidth-limited. Make sure you understand [how Snowflake works](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) before deciding whether to run a proxy.

@@ -86,9 +86,6 @@ Proton Mail a [du chiffrement OpenPGP intégré](https://proton.me/support/how-t
 
 Proton Mail prend également en charge la découverte de clés publiques via HTTP à partir de leur [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Cela permet aux personnes qui n'utilisent pas Proton Mail de trouver facilement les clés OpenPGP des comptes Proton Mail, pour un E2EE inter-fournisseurs.
 
-#### :material-alert-outline:{ .pg-orange } Héritage numérique
-
-Proton Mail ne propose pas de fonction d'héritage numérique.
 
 #### :material-information-outline:{ .pg-blue } Résiliation du compte
 
@@ -97,6 +94,8 @@ Si vous avez un compte payant et que votre [facture est impayée](https://proton
 #### :material-information-outline:{ .pg-blue } Fonctionnalités supplémentaires
 
 Proton Mail propose un compte "Illimité" pour 9,99 €/mois, qui permet également d'accéder à Proton VPN en plus de fournir plusieurs comptes, domaines, alias et 500 Go de stockage.
+
+Proton Mail ne propose pas de fonction d'héritage numérique.
 
 ### Mailbox.org
 
@@ -138,10 +137,6 @@ Mailbox.org a [du chiffrement intégré](https://kb.mailbox.org/display/MBOKBEN/
 
 Mailbox.org prend également en charge la découverte de clés publiques via HTTP à partir de leur [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Cela permet aux personnes extérieures à Mailbox.org de trouver facilement les clés OpenPGP des comptes Mailbox.org, pour un E2EE inter-fournisseurs.
 
-#### :material-check:{ .pg-green } Héritage numérique
-
-Mailbox.org dispose d'une fonction d'héritage numérique pour toutes les offres. Vous pouvez choisir de transmettre certaines de vos données à vos héritiers, à condition d'en faire la demande et de fournir votre testament. Vous pouvez également désigner une personne par son nom et son adresse.
-
 #### :material-information-outline:{ .pg-blue } Résiliation du compte
 
 Votre compte sera défini comme un compte d'utilisateur restreint à la fin de votre contrat, après [30 jours, il sera irrévocablement supprimé](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
@@ -151,6 +146,8 @@ Votre compte sera défini comme un compte d'utilisateur restreint à la fin de v
 Vous pouvez accéder à votre compte Mailbox.org via IMAP/SMTP en utilisant leur [service .onion](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). Cependant, leur interface webmail n'est pas accessible via leur service .onion et vous pouvez rencontrer des erreurs de certificat TLS.
 
 Tous les comptes sont assortis d'un espace de stockage cloud limité qui [peut être chiffré](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org propose également l'alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), qui applique le chiffrement TLS à la connexion entre les serveurs mail, faute de quoi le message ne sera pas envoyé. Mailbox.org prend également en charge [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) en plus des protocoles d'accès standard comme IMAP et POP3.
+
+Mailbox.org dispose d'une fonction d'héritage numérique pour toutes les offres. Vous pouvez choisir de transmettre certaines de vos données à vos héritiers, à condition d'en faire la demande et de fournir votre testament. Vous pouvez également désigner une personne par son nom et son adresse.
 
 ## D'autres fournisseurs
 
@@ -202,10 +199,6 @@ StartMail permet d'importer des [contacts](https://support.startmail.com/hc/en-u
 
 StartMail a [du chiffrement intégré](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) dans son webmail, ce qui simplifie l'envoi de messages chiffrés avec des clés publiques OpenPGP. Cependant, ils ne supportent pas la norme Web Key Directory, ce qui rend la découverte de la clé publique d'une boîte mail Startmail plus difficile pour d'autres fournisseurs ou clients email.
 
-#### :material-alert-outline:{ .pg-orange } Héritage numérique
-
-StartMail ne propose pas de fonction d'héritage numérique.
-
 #### :material-information-outline:{ .pg-blue } Résiliation du compte
 
 A l'expiration du compte, StartMail supprimera définitivement votre compte après [6 mois en 3 phases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
@@ -213,6 +206,8 @@ A l'expiration du compte, StartMail supprimera définitivement votre compte apr�
 #### :material-information-outline:{ .pg-blue } Fonctionnalités supplémentaires
 
 StartMail permet de faire passer les images des emails par leur serveur proxy. Si vous autorisez le chargement de l'image distante, l'expéditeur ne saura pas quelle est votre adresse IP.
+
+StartMail ne propose pas de fonction d'héritage numérique.
 
 ### Tutanota
 
@@ -260,10 +255,6 @@ Tutanota dispose d'un [chiffrement accès zéro au repos](https://tutanota.com/f
 
 Tutanota [n'utilise pas OpenPGP](https://www.tutanota.com/faq/#pgp). Les comptes Tutanota ne peuvent recevoir des emails chiffrés provenant de comptes email non Tutanota que s'ils sont envoyés via une [boîte mail temporaire Tutanota](https://www.tutanota.com/howto/#encrypted-email-external).
 
-#### :material-alert-outline:{ .pg-orange } Héritage numérique
-
-Tutanota ne propose pas de fonction d'héritage numérique.
-
 #### :material-information-outline:{ .pg-blue } Résiliation du compte
 
 Tutanota supprimera [les comptes gratuits inactifs](https://tutanota.com/faq#inactive-accounts) après six mois. Vous pouvez réutiliser un compte gratuit désactivé si vous payez.
@@ -273,6 +264,8 @@ Tutanota supprimera [les comptes gratuits inactifs](https://tutanota.com/faq#ina
 Tutanota offre la version professionnelle de [Tutanota aux organisations à but non lucratif](https://tutanota.com/blog/posts/secure-email-for-non-profit) gratuitement ou avec une forte réduction.
 
 Tutanota dispose également d'une fonction commerciale appelée [Secure Connect](https://tutanota.com/secure-connect/). Cela garantit que le contact du client avec l'entreprise utilise E2EE. La fonctionnalité coûte 240 €/an.
+
+Tutanota ne propose pas de fonction d'héritage numérique.
 
 ## Services d'alias d'emails
 

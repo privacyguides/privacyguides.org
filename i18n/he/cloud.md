@@ -1,7 +1,7 @@
 ---
 title: "אחסון בענן"
 icon: material/file-cloud
-description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
+description: ספקי אחסון בענן רבים דורשים את האמון שלך שהם לא יסתכלו על הקבצים שלך. אלו חלופות פרטיות!
 ---
 
 ספקי אחסון ענן רבים דורשים את האמון המלא שלך בכך שהם לא יסתכלו על הקבצים שלך. החלופות המפורטות להלן מבטלות את הצורך באמון על ידי מתן שליטה על הנתונים שלך או על ידי יישום E2EE.

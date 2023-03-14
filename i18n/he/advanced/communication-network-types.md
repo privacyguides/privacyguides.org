@@ -1,7 +1,7 @@
 ---
 title: "סוגי רשתות תקשורת"
 icon: 'material/transit-connection-variant'
-description: An overview of several network architectures commonly used by instant messaging applications.
+description: סקירה כללית של מספר ארכיטקטורות רשת הנפוצות בשימוש יישומי הודעות מיידיות.
 ---
 
 ישנן מספר ארכיטקטורות רשת הנפוצות להעברת הודעות בין אנשים. רשתות אלו יכולות לספק הבטחות פרטיות שונות, וזו הסיבה שכדאי לקחת בחשבון את [מודל האיום](../basics/threat-modeling.md) שלך בעת ההחלטה באיזו אפליקציה להשתמש.

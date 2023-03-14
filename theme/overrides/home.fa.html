@@ -12,10 +12,10 @@
         <div class="mdx-hero__content">
           <h1>راهنمای بازگرداندن حریم خصوصی شما.</h1>
           <p>سازمانهای بزرگ فعالیتهای اینترنتی شما را رصد می‌کنند. وبسایت Privacy Guides منبع اصلی حریم خصوصی و امنیت شما برای محافظت از خودتان در اینترنت است.</p>
-          <a href="kb/" title="The first step of your privacy journey" class="md-button md-button--primary">
+          <a href="{% if config.extra.offline %}basics/threat-modeling.html{% else %}kb/{% endif %}" title="The first step of your privacy journey" class="md-button md-button--primary">
             Start Your Privacy Journey
           </a>
-          <a href="tools/" title="ابزار، خدمات و دانش حفظ حریم خصوصی توصیه شده" class="md-button">
+          <a href="{% if config.extra.offline %}tools.html{% else %}tools/{% endif %}" title="ابزار، خدمات و دانش حفظ حریم خصوصی توصیه شده" class="md-button">
             ابزارهای پیشنهادی
           </a>
         </div>

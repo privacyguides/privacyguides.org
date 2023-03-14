@@ -1,7 +1,7 @@
 ---
 title: "קושחת הנתב"
 icon: material/router-wireless
-description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
+description: ניתן להשתמש במערכות הפעלה חלופיות אלה כדי לאבטח את הנתב או נקודת הגישה ל-Wi-Fi.
 ---
 
 להלן מספר מערכות הפעלה חלופיות, שניתן להשתמש בהן בנתבים, נקודות גישה ל-Wi-Fi וכו'.

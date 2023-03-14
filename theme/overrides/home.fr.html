@@ -12,10 +12,10 @@
         <div class="mdx-hero__content">
           <h1>Le guide pour restaurer votre vie privée en ligne.</h1>
           <p>Des organisations massives surveillent vos activités en ligne. Privacy Guides est votre ressource centrale en matière de vie privée et de sécurité pour vous protéger en ligne.</p>
-          <a href="kb/" title="La première étape de votre voyage vers la vie privée" class="md-button md-button--primary">
+          <a href="{% if config.extra.offline %}basics/threat-modeling.html{% else %}kb/{% endif %}" title="La première étape de votre voyage vers la vie privée" class="md-button md-button--primary">
             Commencez votre voyage vers la vie privée
           </a>
-          <a href="tools/" title="Outils, services et connaissances recommandés en matière de vie privée" class="md-button">
+          <a href="{% if config.extra.offline %}tools.html{% else %}tools/{% endif %}" title="Outils, services et connaissances recommandés en matière de vie privée" class="md-button">
             Outils recommandés
           </a>
         </div>

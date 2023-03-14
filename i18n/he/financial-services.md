@@ -15,20 +15,20 @@ icon: material/bank
 
     בנקים וספקי כרטיסי אשראי רבים מציעים פונקציונליות מקורית של כרטיסים וירטואליים. אם אתה משתמש באחד שכבר מספק את האפשרות הזו, עליך להשתמש בו על פני ההמלצות הבאות ברוב המקרים. כך אינך סומך על מספר צדדים עם המידע האישי שלך.
 
-### Privacy.com (US)
+### Privacy.com (ארה"ב)
 
 !!! recommendation
 
     ![Privacy.com לוגו](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
     ![Privacy.com לוגו](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
     
-    התוכנית החינמית של **Privacy.com** מאפשרת לך ליצור עד 12 כרטיסים וירטואליים בחודש, להגדיר מגבלות הוצאות על כרטיסים אלה ולכבות כרטיסים באופן מיידי. Their paid plan allows you to create up to 36 cards per month, get 1% cash back on purchases, and hide transaction information from your bank.
+    התוכנית החינמית של **Privacy.com** מאפשרת לך ליצור עד 12 כרטיסים וירטואליים בחודש, להגדיר מגבלות הוצאות על כרטיסים אלה ולכבות כרטיסים באופן מיידי. התוכנית בתשלום שלהם מאפשרת לך ליצור עד 36 כרטיסים בחודש, לקבל החזר של 1% מזומן על רכישות ולהסתיר מידע של העסקה מהבנק שלך.
     
     [:octicons-home-16: דף הבית](https://privacy.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="מדיניות פרטיות" }
     [:octicons-info-16:](https://support.privacy.com/hc/en-us){ .card-link title=תיעוד}
 
-Privacy.com gives information about the merchants you purchase from to your bank by default. Their paid "discreet merchants" feature hides merchant information from your bank, so your bank only sees that a purchase was made with Privacy.com but not where that money was spent, however that is not foolproof, and of course Privacy.com still has knowledge about the merchants you are spending money with.
+Privacy.com מספק מידע על הסוחרים מהם אתה רוכש לבנק שלך כברירת מחדל. תכונת "סוחרים דיסקרטיים" בתשלום שלהם מסתירה מידע סוחר מהבנק שלך, כך שהבנק שלך רואה רק שבוצעה רכישה עם Privacy.com אבל לא איפה הכסף הזה הוצא, אבל זה לא חסין תקלות, וכמובן ש-Privacy.com עדיין יש ידע על הסוחרים שאיתם אתה מוציא כסף.
 
 ### MySudo (ארה"ב, בתשלום)
 

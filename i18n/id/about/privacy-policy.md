@@ -6,10 +6,10 @@ Privacy Guides adalah proyek komunitas yang dioperasikan oleh sejumlah kontribut
 
 ## Data yang Kami Kumpulkan dari Pengunjung
 
-Privasi pengunjung situs web kami penting bagi kami, jadi kami tidak melacak individu mana pun. Sebagai pengunjung situs web kami:
+Privasi pengunjung situs web kami sangat penting bagi kami, jadi kami tidak melacak setiap orang. Sebagai pengunjung situs web kami:
 
 - Tidak ada informasi pribadi yang dikumpulkan
-- Tidak ada informasi seperti cookie yang disimpan di browser
+- Tidak ada informasi seperti kuki yang disimpan di peramban
 - Tidak ada informasi yang dibagikan, dikirim atau dijual kepada pihak ketiga
 - Tidak ada informasi yang dibagikan dengan perusahaan periklanan
 - Tidak ada informasi yang ditambang dan dipanen untuk tren pribadi dan perilaku
@@ -23,16 +23,16 @@ Data yang dikumpulkan termasuk sumber rujukan, halaman teratas, durasi kunjungan
 
 ## Data yang Kami Kumpulkan Dari Pemegang Akun
 
-Pada beberapa situs web dan layanan yang kami sediakan, banyak fitur yang mungkin memerlukan akun. Sebagai contoh, sebuah akun mungkin diperlukan untuk memposting dan membalas topik pada platform forum.
+Pada beberapa situs web dan layanan yang kami sediakan, banyak fitur yang mungkin memerlukan akun. Sebagai contoh, sebuah akun mungkin diperlukan untuk mengirim dan membalas topik pada platform forum.
 
-Untuk mendaftar ke sebagian besar akun, kami akan mengumpulkan nama, nama pengguna, email, dan kata sandi. Jika sebuah situs web memerlukan lebih banyak informasi daripada data tersebut, hal itu akan ditandai dengan jelas dan dicatat dalam pernyataan privasi terpisah per-situs.
+Untuk mendaftar ke sebagian besar akun, kami akan mengumpulkan nama, nama pengguna, surel, dan kata sandi. Jika sebuah situs web memerlukan lebih banyak informasi daripada data tersebut, hal itu akan ditandai dengan jelas dan dicatat dalam pernyataan privasi terpisah per situs.
 
 Kami menggunakan data akun Anda untuk mengidentifikasi Anda di situs web dan membuat halaman khusus untuk Anda, seperti halaman profil. Kami juga akan menggunakan data akun Anda untuk mempublikasikan profil publik untuk Anda di layanan kami.
 
-Kami menggunakan email Anda untuk:
+Kami menggunakan surel Anda untuk:
 
-- Memberi tahu Anda tentang postingan dan aktivitas lain di situs web atau layanan.
-- Atur ulang kata sandi Anda dan jaga keamanan akun Anda.
+- Memberi tahu Anda tentang kiriman dan aktivitas lain di situs web atau layanan.
+- Mengatur ulang kata sandi Anda dan jaga keamanan akun Anda.
 - Menghubungi Anda dalam keadaan khusus yang berkaitan dengan akun Anda.
 - Menghubungi Anda tentang permintaan hukum, seperti permintaan penghapusan DMCA.
 
@@ -52,10 +52,10 @@ jonah@privacyguides.org
 
 Untuk semua pertanyaan lainnya, Anda dapat menghubungi anggota tim kami.
 
-Untuk keluhan berdasarkan GDPR secara umum, Anda dapat mengajukan keluhan kepada otoritas pengawas perlindungan data setempat. Di Prancis, Komisi Nasional Informasi dan Kebebasan yang mengurus dan menangani keluhan tersebut. Mereka menyediakan template [surat keluhan](https://www.cnil.fr/en/plaintes) untuk digunakan.
+Untuk keluhan berdasarkan GDPR secara umum, Anda dapat mengajukan keluhan kepada otoritas pengawas perlindungan data setempat. Di Prancis, Komisi Nasional Informasi dan Kebebasan yang mengurus dan menangani keluhan tersebut. Mereka menyediakan templat [surat keluhan](https://www.cnil.fr/en/plaintes) untuk digunakan.
 
 ## Tentang Kebijakan Ini
 
-Kami akan memposting versi baru dari pernyataan ini [di sini](privacy-policy.md). Kami dapat mengubah cara kami mengumumkan perubahan dalam versi mendatang dari dokumen ini. Sementara itu, kami dapat memperbarui informasi kontak kami kapan saja tanpa mengumumkan perubahan. Silakan merujuk ke [Kebijakan Privasi](privacy-policy.md) untuk informasi kontak terbaru setiap saat.
+Kami akan mengirim versi baru dari pernyataan ini [di sini](privacy-policy.md). Kami dapat mengubah cara kami mengumumkan perubahan dalam versi mendatang dari dokumen ini. Sementara itu, kami dapat memperbarui informasi kontak kami kapan saja tanpa mengumumkan perubahan. Silakan merujuk ke [Kebijakan Privasi](privacy-policy.md) untuk informasi kontak terbaru setiap saat.
 
-Sebuah revisi lengkap [sejarah](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) dari halaman ini dapat ditemukan di GitHub.
+Sebuah [riwayat](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) revisi lengkap dari halaman ini dapat ditemukan di GitHub.

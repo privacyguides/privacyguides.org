@@ -45,6 +45,7 @@
 *[FAI]: Fournisseur d'accès internet
 *[FAIs]: Fournisseurs d'accès internet
 *[JNI]: Interface native Java
+*[KYC]: Connaissance du client
 *[LUKS]: Configuration de la clé unifiée Linux (chiffrement complet du disque)
 *[MAC]: Contrôle d'accès aux médias
 *[MDAG]: Protection des applications Microsoft Defender

@@ -12,10 +12,10 @@
         <div class="mdx-hero__content">
           <h1>保护你的在线隐私</h1>
           <p>大规模组织正在监控你的在线活动。 Privacy Guides是您保护自己在线隐私的实用资源。</p>
-          <a href="kb/" title="你隐私之旅的第一步" class="md-button md-button--primary">
+          <a href="{% if config.extra.offline %}basics/threat-modeling.html{% else %}kb/{% endif %}" title="你隐私之旅的第一步" class="md-button md-button--primary">
             开始你的隐私之旅
           </a>
-          <a href="tools/" title="推荐的隐私工具、服务和知识" class="md-button">
+          <a href="{% if config.extra.offline %}tools.html{% else %}tools/{% endif %}" title="推荐的隐私工具、服务和知识" class="md-button">
             推荐工具
           </a>
         </div>

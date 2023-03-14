@@ -1,7 +1,7 @@
 ---
 title: "אנדרואיד"
 icon: 'simple/android'
-description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
+description: אתה יכול להחליף את מערכת ההפעלה בטלפון האנדרואיד שלך בחלופות מאובטחות ומכבדות פרטיות אלה.
 ---
 
 ![לוגו אנדרואיד](assets/img/android/android.svg){ align=right }

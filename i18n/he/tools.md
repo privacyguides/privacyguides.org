@@ -3,7 +3,7 @@ title: "כלי פרטיות"
 icon: material/tools
 hide:
   - toc
-description: Privacy Guides is the most transparent and reliable website for finding software, apps, and services that protect your personal data from mass surveillance programs and other internet threats.
+description: Privacy Guides הוא האתר השקוף והאמין ביותר למציאת תוכנות, אפליקציות ושירותים המגינים על הנתונים האישיים שלך מפני תוכניות מעקב המוני ואיומי אינטרנט אחרים.
 ---
 
 אם אתם מחפשים פתרון ספציפי למשהו, אלו הם כלי החומרה והתוכנה שאנו ממליצים עליהם במגוון קטגוריות. כלי הפרטיות המומלצים שלנו נבחרים בעיקר על סמך תכונות אבטחה, עם דגש נוסף על כלים מבוזרים וקוד פתוח. הם ישימים למגוון מודלים של איומים, החל מהגנה מפני תוכניות מעקב המוני גלובליות והימנעות מחברות טכנולוגיה גדולות ועד למיתון התקפות, אבל רק אתה יכול לקבוע מה יעבוד הכי טוב עבור הצרכים שלך.

@@ -11,11 +11,11 @@
       <div class="mdx-hero">
         <div class="mdx-hero__content">
           <h1>Panduan untuk memulihkan privasi daring Anda.</h1>
-          <p>Organisasi besar memantau aktivitas daring Anda. Privacy Guides adalah sumber daya privasi dan keamanan Anda untuk melindungi Anda secara daring.</p>
-          <a href="kb/" title="Langkah pertama dari perjalanan privasi Anda" class="md-button md-button--primary">
+          <p>Organisasi besar sedang memantau aktivitas daring Anda. Privacy Guides adalah sumber daya privasi dan keamanan Anda untuk melindungi Anda secara daring.</p>
+          <a href="{% if config.extra.offline %}basics/threat-modeling.html{% else %}kb/{% endif %}" title="Langkah pertama dari perjalanan privasi Anda" class="md-button md-button--primary">
             Mulai Perjalanan Privasi Anda
           </a>
-          <a href="tools/" title="Alat, layanan, dan pengetahuan privasi yang direkomendasikan" class="md-button">
+          <a href="{% if config.extra.offline %}tools.html{% else %}tools/{% endif %}" title="Alat, layanan, dan pengetahuan privasi yang direkomendasikan" class="md-button">
             Alat yang Direkomendasikan
           </a>
         </div>

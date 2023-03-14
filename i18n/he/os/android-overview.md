@@ -1,7 +1,7 @@
 ---
 title: סקירה כללית של אנדרואיד
 icon: simple/android
-description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
+description: אנדרואיד היא מערכת הפעלה בקוד פתוח עם הגנות אבטחה חזקות, מה שהופך אותה לבחירה המובילה שלנו עבור טלפונים.
 ---
 
 אנדרואיד היא מערכת הפעלה מאובטחת הכוללת [ארגז חול חזק של אפליקציות](https://source.android.com/security/app-sandbox), [אתחול מאומת](https://source.android.com/security/verifiedboot) (AVB) ומערכת בקרת [הרשאות](https://developer.android.com/guide/topics/permissions/overview) חזקה.

@@ -10,12 +10,12 @@
     <div class="md-grid md-typeset">
       <div class="mdx-hero">
         <div class="mdx-hero__content">
-          <h1>把網路隱私歸還於你的線上指南。</h1>
-          <p>各種組織和團體正在監視您的線上活動。 Privacy Guides 是您不可或缺的網路隱私安全自衞手冊。</p>
-          <a href="kb/" title="學習私隱的第一步" class="md-button md-button--primary">
-            按此開始您的私隱學習旅程
+          <h1>拿回網路隱私的線上指南。</h1>
+          <p>巨型組織正在監視您的線上活動。 Privacy Guides 是您重要的網路隱私與安全資源。</p>
+          <a href="{% if config.extra.offline %}basics/threat-modeling.html{% else %}kb/{% endif %}" title="隱私保護的第一步" class="md-button md-button--primary">
+            按此開始您的隱私旅程
           </a>
-          <a href="tools/" title="推薦的私隱工具、服務和知識" class="md-button">
+          <a href="{% if config.extra.offline %}tools.html{% else %}tools/{% endif %}" title="推薦的隱私工具、服務和知識" class="md-button">
             推薦工具
           </a>
         </div>

@@ -1,10 +1,10 @@
 ---
 title: סקירה כללית של לינוקס
 icon: simple/linux
-description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
+description: לינוקס היא חלופה למערכת הפעלה שולחנית ממוקדת פרטיות בקוד פתוח, אך לא כל ההפצות נוצרות שווה.
 ---
 
-לעתים קרובות מאמינים שתוכנת [קוד פתוח](https://en.wikipedia.org/wiki/Open-source_software) מאובטחת מטבעה מכיוון שקוד המקור זמין. קיימת ציפייה שאימות קהילה מתרחש באופן קבוע; עם זאת, זה לא תמיד [המקרה](https://seirdy.one/posts/2022/02/02/floss-security/). It does depend on a number of factors, such as project activity, developer experience, level of rigor applied to [code reviews](https://en.wikipedia.org/wiki/Code_review), and how often attention is given to specific parts of the [codebase](https://en.wikipedia.org/wiki/Codebase) that may go untouched for years.
+לעתים קרובות מאמינים שתוכנת [קוד פתוח](https://en.wikipedia.org/wiki/Open-source_software) מאובטחת מטבעה מכיוון שקוד המקור זמין. קיימת ציפייה שאימות קהילה מתרחש באופן קבוע; עם זאת, זה לא תמיד [המקרה](https://seirdy.one/posts/2022/02/02/floss-security/). זה אכן תלוי במספר גורמים, כגון פעילות הפרויקט, חוויית מפתח, רמת הקפדה על [ביקורות קוד](https://en.wikipedia.org/wiki/Code_review), וכן באיזו תדירות ניתנת תשומת לב לחלקים ספציפיים של [בסיס הקוד](https://en.wikipedia.org/wiki/Codebase) שעלולים להישאר ללא נגיעה במשך שנים.
 
 נכון לעכשיו, ללינוקס שולחני יש כמה תחומים שניתן לשפר טוב יותר בהשוואה לעמיתיהם הקנייניים, למשל.:
 

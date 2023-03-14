@@ -1,37 +1,32 @@
 ---
-title: "News Aggregators"
+title: "Lectores de noticias"
 icon: octicons/rss-24
-description: These news aggregator clients let you keep up with your favorite blogs and news sites using internet standards like RSS.
+description: Estos clientes para la lectura de noticias le permiten estar al día con sus páginas de noticias favoritas, utilizando estándares de Internet como RSS.
 ---
 
-A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to keep up with your favorite blogs and news sites.
+Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una manera de estar al día con sus páginas de noticias favoritas.
 
-## Clientes agregadores
+## Clientes
 
-### Fluent Reader
+### Akregator
 
 !!! recomendación
 
     ![Akregator logo](assets/img/news-aggregators/akregator.svg){ align=right }
     
-    **Akregator** is a news feed reader that is a part of the [KDE](https://kde.org) project. [Visita hyliu.me](https://hyliu.me/fluent-reader){ .md-button .md-button--primary } [Política de Privacidad](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .md-button }
+    **Akregator** es un lector de fuentes de noticias que es parte del proyecto [KDE](https://kde.org). Este incluye una búsqueda rápida, funcionalidades avanzadas de archivado y un navegador interno para facilitar la lectura de las noticias.
     
-    **Descargas**
-    - [:fontawesome-brands-windows: Windows](https://hyliu.me/fluent-reader)
-    - [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/app/id1520907427)
-    - [:fontawesome-brands-github: Código Fuente](https://github.com/yang991178/fluent-reader.git)
-    
-    [:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
+    [:octicons-home-16: Página principal](https://apps.kde.org/akregator){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentation}
     [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? descargas
     
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
-### GNOME Feeds
+### Feeder
 
 !!! recomendación
 

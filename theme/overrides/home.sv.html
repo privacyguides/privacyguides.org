@@ -12,10 +12,10 @@
         <div class="mdx-hero__content">
           <h1>En guide till hur du återställer din integritet på nätet.</h1>
           <p>Stora organisationer övervakar dina aktiviteter på nätet. Privacy Guides är din centrala resurs för integritet och säkerhet för att skydda dig själv på nätet.</p>
-          <a href="kb/" title="Det första steget på din resa mot personlig integritet" class="md-button md-button--primary">
+          <a href="{% if config.extra.offline %}basics/threat-modeling.html{% else %}kb/{% endif %}" title="Det första steget på din resa mot personlig integritet" class="md-button md-button--primary">
             Börja din resa i integritetsfrågor
           </a>
-          <a href="tools/" title="Rekommenderade verktyg, tjänster och kunskap om integritetsskydd" class="md-button">
+          <a href="{% if config.extra.offline %}tools.html{% else %}tools/{% endif %}" title="Rekommenderade verktyg, tjänster och kunskap om integritetsskydd" class="md-button">
             Rekommenderade verktyg
           </a>
         </div>

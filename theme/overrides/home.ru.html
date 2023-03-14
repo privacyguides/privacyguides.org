@@ -12,10 +12,10 @@
         <div class="mdx-hero__content">
           <h1>Руководство по возвращению вашей приватности в интернете.</h1>
           <p>Огромные организации следят за вашей деятельностью в Интернете. Privacy Guides - это ваш главный ресурс по конфиденциальности и безопасности для защиты себя в Интернете.</p>
-          <a href="kb/" title="Первый шаг на вашем пути к приватности" class="md-button md-button--primary">
+          <a href="{% if config.extra.offline %}basics/threat-modeling.html{% else %}kb/{% endif %}" title="Первый шаг на вашем пути к приватности" class="md-button md-button--primary">
             Начните свой путь к приватности
           </a>
-          <a href="tools/" title="Рекомендуемые инструменты, услуги и знания для приватности" class="md-button">
+          <a href="{% if config.extra.offline %}tools.html{% else %}tools/{% endif %}" title="Рекомендуемые инструменты, услуги и знания для приватности" class="md-button">
             Рекомендуемые инструменты
           </a>
         </div>

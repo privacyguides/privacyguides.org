@@ -45,6 +45,7 @@
 *[ISP]: Internet Service Provider - Internet Szolgáltató
 *[ISPs]: Internet Service Providers - Internet Szolgáltatók
 *[JNI]: Java Native Interface
+*[KYC]: Know Your Customer
 *[LUKS]: Linux Unified Key Setup (Teljes Lemez Titkosítás)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard

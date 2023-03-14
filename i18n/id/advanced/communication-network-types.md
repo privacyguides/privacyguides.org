@@ -1,103 +1,103 @@
 ---
-title: "Types of Communication Networks"
+title: "Jenis Jaringan Komunikasi"
 icon: 'material/transit-connection-variant'
-description: An overview of several network architectures commonly used by instant messaging applications.
+description: Ikhtisar tentang beberapa arsitektur jaringan yang biasa digunakan oleh aplikasi perpesanan instan.
 ---
 
-There are several network architectures commonly used to relay messages between people. These networks can provide different privacy guarantees, which is why it's worth considering your [threat model](../basics/threat-modeling.md) when deciding which app to use.
+Ada beberapa arsitektur jaringan yang biasa digunakan untuk menyampaikan pesan antar orang. Jaringan ini dapat memberikan jaminan privasi yang berbeda, itulah sebabnya mengapa perlu mempertimbangkan [model ancaman](../basics/threat-modeling.md) Anda ketika memutuskan aplikasi mana yang akan digunakan.
 
 [Pesan Instan yang Direkomendasikan](../real-time-communication.md ""){.md-button}
 
-## Centralized Networks
+## Jaringan Terpusat
 
-![Centralized networks diagram](../assets/img/layout/network-centralized.svg){ align=left }
+![Diagram jaringan terpusat](../assets/img/layout/network-centralized.svg){ align=left }
 
-Centralized messengers are those where all participants are on the same server or network of servers controlled by the same organization.
+Perpesanan terpusat adalah di mana semua peserta berada di server yang sama atau jaringan server yang dikendalikan oleh organisasi yang sama.
 
-Some self-hosted messengers allow you to set up your own server. Self-hosting can provide additional privacy guarantees, such as no usage logs or limited access to metadata (data about who is talking to whom). Self-hosted centralized messengers are isolated and everyone must be on the same server to communicate.
+Beberapa perpesanan yang dihosting sendiri memungkinkan Anda untuk mengatur server Anda sendiri. Hosting sendiri dapat memberikan jaminan privasi tambahan, seperti tidak ada catatan penggunaan atau akses terbatas ke metadata (data tentang siapa yang berbicara dengan siapa). Perpesanan terpusat yang dihosting sendiri terisolasi dan semua orang harus berada di server yang sama untuk berkomunikasi.
 
-**Advantages:**
+**Keuntungan:**
 
-- New features and changes can be implemented more quickly.
-- Easier to get started with and to find contacts.
-- Most mature and stable features ecosystems, as they are easier to program in a centralized software.
-- Privacy issues may be reduced when you trust a server that you're self-hosting.
+- Fitur dan perubahan baru dapat diterapkan dengan lebih cepat.
+- Lebih mudah untuk memulai dan menemukan kontak.
+- Kebanyakan yang matang dan stabil memfiturkan ekosistem, karena lebih mudah diprogram dalam perangkat lunak terpusat.
+- Masalah privasi dapat dikurangi ketika Anda mempercayai server yang Anda hosting sendiri.
 
-**Disadvantages:**
+**Kekurangan:**
 
-- Can include [restricted control or access](https://drewdevault.com/2018/08/08/Signal.html). This can include things like:
-- Being [forbidden from connecting third-party clients](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) to the centralized network that might provide for greater customization or a better experience. Often defined in Terms and Conditions of usage.
-- Poor or no documentation for third-party developers.
-- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
-- Self-hosting requires effort and knowledge of how to set up a service.
+- Dapat menyertakan [kontrol atau akses terbatas](https://drewdevault.com/2018/08/08/Signal.html). Ini dapat mencakup hal-hal seperti:
+- Dilarang [menghubungkan klien pihak ketiga](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) ke jaringan terpusat yang mungkin memberikan penyesuaian yang lebih besar atau pengalaman yang lebih baik. Sering kali didefinisikan dalam Syarat dan Ketentuan penggunaan.
+- Dokumentasi yang buruk atau tidak ada sama sekali untuk pengembang pihak ketiga.
+- [Kepemilikan](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), kebijakan privasi, dan operasi layanan dapat berubah dengan mudah ketika satu entitas mengendalikannya, yang berpotensi membahayakan layanan di kemudian hari.
+- Hosting mandiri membutuhkan upaya dan pengetahuan tentang cara menyiapkan layanan.
 
-## Federated Networks
+## Jaringan Federasi
 
-![Federated networks diagram](../assets/img/layout/network-decentralized.svg){ align=left }
+![Diagram jaringan federasi](../assets/img/layout/network-decentralized.svg){ align=left }
 
-Federated messengers use multiple, independent, decentralized servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.
+Perpesanan federasi menggunakan beberapa server yang independen dan terdesentralisasi yang dapat berbicara satu sama lain (surel adalah salah satu contoh layanan federasi). Federasi memungkinkan administrator sistem untuk mengontrol server mereka sendiri dan tetap menjadi bagian dari jaringan komunikasi yang lebih besar.
 
-When self-hosted, members of a federated server can discover and communicate with members of other servers, although some servers may choose to remain private by being non-federated (e.g., work team server).
+Ketika dihosting sendiri, anggota server federasi dapat menemukan dan berkomunikasi dengan anggota server lain, meskipun beberapa server dapat memilih untuk tetap pribadi dengan menjadi nonfederasi (misalnya, server tim kerja).
 
-**Advantages:**
+**Keuntungan:**
 
-- Allows for greater control over your own data when running your own server.
-- Allows you to choose whom to trust your data with by choosing between multiple "public" servers.
-- Often allows for third-party clients which can provide a more native, customized, or accessible experience.
-- Server software can be verified that it matches public source code, assuming you have access to the server or you trust the person who does (e.g., a family member).
+- Memungkinkan kontrol yang lebih besar atas data Anda saat menjalankan server Anda sendiri.
+- Memungkinkan Anda untuk memilih kepada siapa Anda akan memercayakan data Anda dengan memilih di antara beberapa server "publik".
+- Sering kali memungkinkan klien pihak ketiga yang dapat memberikan pengalaman yang lebih asli, disesuaikan, atau dapat diakses.
+- Perangkat lunak server dapat diverifikasi bahwa itu cocok dengan kode sumber publik, dengan asumsi Anda memiliki akses ke server atau Anda mempercayai orang yang memilikinya (misalnya, anggota keluarga).
 
-**Disadvantages:**
+**Kekurangan:**
 
-- Adding new features is more complex because these features need to be standardized and tested to ensure they work with all servers on the network.
-- Due to the previous point, features can be lacking, or incomplete or working in unexpected ways compared to centralized platforms, such as message relay when offline or message deletion.
-- Some metadata may be available (e.g., information like "who is talking to whom," but not actual message content if E2EE is used).
-- Federated servers generally require trusting your server's administrator. They may be a hobbyist or otherwise not a "security professional," and may not serve standard documents like a privacy policy or terms of service detailing how your data is used.
-- Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with members of those servers.
+- Menambahkan fitur baru lebih kompleks karena fitur ini perlu distandarisasi dan diuji untuk memastikan fitur tersebut bekerja dengan semua server di jaringan.
+- Karena alasan sebelumnya, fiturnya mungkin kurang, atau tidak lengkap atau bekerja dengan cara yang tidak terduga dibandingkan dengan platform terpusat, seperti pengarah pesan saat luring atau penghapusan pesan.
+- Beberapa metadata mungkin tersedia (misalnya, informasi seperti "siapa yang berbicara dengan siapa," tetapi bukan konten pesan yang sebenarnya jika E2EE digunakan).
+- Server federasi umumnya membutuhkan kepercayaan dari administrator server Anda. Mereka mungkin hanya seorang penghobi atau bukan "profesional keamanan", dan mungkin tidak menyajikan dokumen standar seperti kebijakan privasi atau persyaratan layanan yang merinci bagaimana data Anda digunakan.
+- Administrator server terkadang memilih untuk memblokir server lain, yang merupakan sumber penyalahgunaan yang tidak dimoderasi atau melanggar aturan umum perilaku yang dapat diterima. Hal ini akan menghalangi kemampuan Anda untuk berkomunikasi dengan anggota server tersebut.
 
-## Peer-to-Peer Networks
+## Jaringan Peer-to-Peer
 
-![P2P diagram](../assets/img/layout/network-distributed.svg){ align=left }
+![Diagram P2P](../assets/img/layout/network-distributed.svg){ align=left }
 
-P2P messengers connect to a [distributed network](https://en.wikipedia.org/wiki/Distributed_networking) of nodes to relay a message to the recipient without a third-party server.
+Perpesanan P2P terhubung ke [jaringan node yang terdistribusi](https://en.wikipedia.org/wiki/Distributed_networking) untuk menyampaikan pesan ke penerima tanpa server pihak ketiga.
 
-Clients (peers) usually find each other through the use of a [distributed computing](https://en.wikipedia.org/wiki/Distributed_computing) network. Examples of this include [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), used by [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) and [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) for example. Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://www.scuttlebutt.nz) social network protocol).
+Klien (peer) biasanya menemukan satu sama lain melalui penggunaan jaringan [komputasi terdistribusi](https://id.wikipedia.org/wiki/Komputasi_terdistribusi). Contohnya antara lain [Tabel Hash Terdistribusi](https://id.wikipedia.org/wiki/Tabel_Hash_Terdistribusi) (DHT), yang digunakan oleh [torrent](https://id.wikipedia.org/wiki/BitTorrent) dan [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) sebagai contoh. Pendekatan lain adalah jaringan berbasis kedekatan, di mana koneksi dibuat melalui WiFi atau Bluetooth (misalnya, Briar atau protokol jaringan sosial [Scuttlebutt](https://www.scuttlebutt.nz)).
 
-Once a peer has found a route to its contact via any of these methods, a direct connection between them is made. Although messages are usually encrypted, an observer can still deduce the location and identity of the sender and recipient.
+Setelah peer menemukan rute ke kontaknya melalui salah satu metode ini, koneksi langsung di antara mereka dibuat. Meskipun pesan biasanya dienkripsi, seorang pengamat masih dapat menyimpulkan lokasi dan identitas pengirim dan penerima.
 
-P2P networks do not use servers, as peers communicate directly between each other and hence cannot be self-hosted. However, some additional services may rely on centralized servers, such as user discovery or relaying offline messages, which can benefit from self-hosting.
+Jaringan P2P tidak menggunakan server, karena rekan-rekan berkomunikasi secara langsung antara satu sama lain dan karenanya tidak dapat dihosting sendiri. Namun, beberapa layanan tambahan mungkin bergantung pada server terpusat, seperti penemuan pengguna atau menyampaikan pesan luring, yang bisa mendapatkan keuntungan dari hosting mandiri.
 
-**Advantages:**
+**Keuntungan:**
 
-- Minimal information is exposed to third-parties.
-- Modern P2P platforms implement E2EE by default. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.
+- Informasi minimal diekspos ke pihak ketiga.
+- Platform P2P modern menerapkan E2EE secara bawaan. Tidak ada server yang berpotensi mencegat dan mendekripsi transmisi Anda, tidak seperti model terpusat dan federasi.
 
-**Disadvantages:**
+**Kekurangan:**
 
-- Reduced feature set:
-- Messages can only be sent when both peers are online, however, your client may store messages locally to wait for the contact to return online.
-- Generally increases battery usage on mobile devices, because the client must stay connected to the distributed network to learn about who is online.
-- Some common messenger features may not be implemented or incompletely, such as message deletion.
-- Your IP address and that of the contacts you're communicating with may be exposed if you do not use the software in conjunction with a [VPN](../vpn.md) or [Tor](../tor.md). Many countries have some form of mass surveillance and/or metadata retention.
+- Set fitur yang dikurangi:
+- Pesan hanya dapat dikirim ketika kedua rekan daring, namun, klien Anda dapat menyimpan pesan secara lokal untuk menunggu kontak kembali daring.
+- Umumnya meningkatkan penggunaan baterai di ponsel, karena klien harus tetap terhubung ke jaringan terdistribusi untuk mengetahui siapa saja yang sedang daring.
+- Beberapa fitur perpesanan yang umum mungkin tidak diimplementasikan atau tidak lengkap, seperti penghapusan pesan.
+- Alamat IP Anda dan alamat IP kontak yang berkomunikasi dengan Anda dapat terekspos jika Anda tidak menggunakan perangkat lunak ini bersama dengan [VPN](../vpn.md) atau [Tor](../tor.md). Banyak negara memiliki beberapa bentuk pengawasan massal dan/atau penyimpanan metadata.
 
-## Anonymous Routing
+## Perutean Anonim
 
-![Anonymous routing diagram](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![Diagram perutean anonim](../assets/img/layout/network-anonymous-routing.svg){ align=left }
 
-A messenger using [anonymous routing](https://doi.org/10.1007/978-1-4419-5906-5_628) hides either the identity of the sender, the receiver, or evidence that they have been communicating. Ideally, a messenger should hide all three.
+Pengirim pesan yang menggunakan [perutean anonim](https://doi.org/10.1007/978-1-4419-5906-5_628) menyembunyikan identitas pengirim, penerima, atau bukti bahwa mereka telah berkomunikasi. Secara ideal, sebuah perpesanan seharusnya menyembunyikan ketiganya.
 
-There are [many](https://doi.org/10.1145/3182658) different ways to implement anonymous routing. One of the most famous is [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (i.e. [Tor](tor-overview.md)), which communicates encrypted messages through a virtual [overlay network](https://en.wikipedia.org/wiki/Overlay_network) that hides the location of each node as well as the recipient and sender of each message. The sender and recipient never interact directly and only meet through a secret rendezvous node so that there is no leak of IP addresses nor physical location. Nodes cannot decrypt messages, nor the final destination; only the recipient can. Each intermediary node can only decrypt a part that indicates where to send the still encrypted message next, until it arrives at the recipient who can fully decrypt it, hence the "onion layers."
+Ada [banyak](https://doi.org/10.1145/3182658) cara yang berbeda untuk menerapkan perutean anonim. Salah satu yang paling terkenal adalah [perutean bawang](https://en.wikipedia.org/wiki/Onion_routing) (yaitu [Tor](tor-overview.md)), yang mengkomunikasikan pesan terenkripsi melalui jaringan hamparan [virtual](https://en.wikipedia.org/wiki/Overlay_network) yang menyembunyikan lokasi setiap node serta penerima dan pengirim setiap pesan. Pengirim dan penerima tidak pernah berinteraksi secara langsung dan hanya bertemu melalui simpul pertemuan rahasia sehingga tidak ada kebocoran alamat IP atau lokasi fisik. Node tidak dapat mendekripsi pesan, atau tujuan akhir; hanya penerima yang dapat melakukannya. Setiap node perantara hanya dapat mendekripsi bagian yang menunjukkan ke mana harus mengirim pesan yang masih terenkripsi berikutnya, sampai pesan tersebut tiba di penerima yang dapat mendekripsi sepenuhnya, oleh karena itu disebut sebagai "lapisan bawang."
 
-Self-hosting a node in an anonymous routing network does not provide the hoster with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
+Melayani sebuah node secara sendiri dalam jaringan perutean anonim tidak memberikan manfaat privasi tambahan kepada penyedia, tetapi berkontribusi pada ketahanan seluruh jaringan terhadap serangan identifikasi untuk keuntungan semua orang.
 
-**Advantages:**
+**Keuntungan:**
 
-- Minimal to no information is exposed to other parties.
-- Messages can be relayed in a decentralized manner even if one of the parties is offline.
+- Tidak ada informasi atau informasi minimal yang diekspos ke pihak lain.
+- Pesan dapat disampaikan secara terdesentralisasi meskipun salah satu pihak sedang luring.
 
-**Disadvantages:**
+**Kekurangan:**
 
-- Slow message propagation.
-- Often limited to fewer media types, mostly text, since the network is slow.
-- Less reliable if nodes are selected by randomized routing, some nodes may be very far from the sender and receiver, adding latency or even failing to transmit messages if one of the nodes goes offline.
-- More complex to get started, as the creation and secured backup of a cryptographic private key is required.
-- Just like other decentralized platforms, adding features is more complex for developers than on a centralized platform. Hence, features may be lacking or incompletely implemented, such as offline message relaying or message deletion.
+- Penyebaran pesan lambat.
+- Sering kali terbatas pada jenis media yang lebih sedikit, sebagian besar teks, karena jaringannya lambat.
+- Kurang diandalkan jika node dipilih dengan perutean acak, beberapa node mungkin sangat jauh dari pengirim dan penerima, menambah latensi atau bahkan gagal mengirimkan pesan jika salah satu node luring.
+- Lebih rumit untuk memulai, karena diperlukan pembuatan dan cadangan kunci kriptografi privat yang aman.
+- Sama seperti platform terdesentralisasi lainnya, menambahkan fitur lebih kompleks bagi pengembang daripada platform terpusat. Oleh karena itu, fitur mungkin kurang atau tidak diterapkan secara lengkap, seperti pengiriman pesan secara luring atau penghapusan pesan.

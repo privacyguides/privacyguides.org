@@ -1,7 +1,7 @@
 ---
 title: "סנכרון לוח שנה"
 icon: material/calendar
-description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
+description: לוחות שנה מכילים חלק מהנתונים הרגישים ביותר שלך; השתמש במוצרים המטמיעים הצפנה במנוחה.
 ---
 
 לוחות שנה מכילים חלק מהנתונים הרגישים ביותר שלך; השתמש במוצרים המיישמים E2EE ב - מנוחה כדי למנוע מספק לקרוא אותם.

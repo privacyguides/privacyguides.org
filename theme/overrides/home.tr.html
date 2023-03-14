@@ -12,10 +12,10 @@
         <div class="mdx-hero__content">
           <h1>Çevrimiçi gizliliğinizi yeniden sağlama rehberi.</h1>
           <p>Büyük kurumlar sizin çevrimiçi hareketlerinizi izliyor. Privacy Guides, kendinizi çevrimiçi olarak korumanız için merkezi gizlilik ve güvenlik kaynağıdır.</p>
-          <a href="kb/" title="Gizlilik yolculuğunuzun ilk adımı" class="md-button md-button--primary">
+          <a href="{% if config.extra.offline %}basics/threat-modeling.html{% else %}kb/{% endif %}" title="Gizlilik yolculuğunuzun ilk adımı" class="md-button md-button--primary">
             Gizlilik Yolculuğunuza Başlayın
           </a>
-          <a href="tools/" title="Önerilen gizlilik araçları, hizmetleri ve bilgileri" class="md-button">
+          <a href="{% if config.extra.offline %}tools.html{% else %}tools/{% endif %}" title="Önerilen gizlilik araçları, hizmetleri ve bilgileri" class="md-button">
             Tavsiye Edilen Araçlar
           </a>
         </div>

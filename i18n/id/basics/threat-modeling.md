@@ -1,110 +1,110 @@
 ---
 title: "Threat Modeling"
 icon: 'material/target-account'
-description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
+description: Menyeimbangkan keamanan, privasi, dan kegunaan adalah salah satu tugas pertama dan paling sulit yang akan Anda hadapi dalam perjalanan privasi Anda.
 ---
 
-Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
+Menyeimbangkan keamanan, privasi, dan kegunaan adalah salah satu tugas pertama dan paling sulit yang akan Anda hadapi dalam perjalanan privasi Anda. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Sering kali, orang menemukan bahwa masalah dengan alat yang mereka lihat direkomendasikan adalah bahwa alat tersebut terlalu sulit untuk mulai digunakan!
 
-If you wanted to use the **most** secure tools available, you'd have to sacrifice *a lot* of usability. And, even then, ==nothing is ever fully secure.== There's **high** security, but never **full** security. That's why threat models are important.
+Jika Anda ingin menggunakan **sebagian besar** alat aman yang tersedia, Anda harus mengorbankan *banyak* kegunaan. And, even then, ==nothing is ever fully secure.== There's **high** security, but never **full** security. Itulah mengapa model ancaman itu penting.
 
-**So, what are these threat models, anyway?**
+**Jadi, apa saja model ancaman ini?**
 
-==A threat model is a list of the most probable threats to your security and privacy endeavors.== Since it's impossible to protect yourself against **every** attack(er), you should focus on the **most probable** threats. In computer security, a threat is an event that could undermine your efforts to stay private and secure.
+==A threat model is a list of the most probable threats to your security and privacy endeavors.== Since it's impossible to protect yourself against **every** attack(er), you should focus on the **most probable** threats. Dalam keamanan komputer, ancaman adalah peristiwa yang dapat merusak upaya Anda untuk tetap pribadi dan aman.
 
 Focusing on the threats that matter to you narrows down your thinking about the protection you need, so you can choose the tools that are right for the job.
 
 ## Creating Your Threat Model
 
-To identify what could happen to the things you value and determine from whom you need to protect them, you should answer these five questions:
+Untuk mengidentifikasi apa yang dapat terjadi pada hal-hal yang Anda hargai dan menentukan siapa yang perlu Anda lindungi, Anda harus menjawab lima pertanyaan berikut:
 
-1. What do I want to protect?
-2. Who do I want to protect it from?
-3. How likely is it that I will need to protect it?
-4. How bad are the consequences if I fail?
-5. How much trouble am I willing to go through to try to prevent potential consequences?
+1. Apa yang ingin saya lindungi?
+2. Dari siapa saya ingin melindunginya?
+3. Seberapa besar kemungkinan saya perlu melindunginya?
+4. Seberapa buruk konsekuensinya jika saya gagal?
+5. Seberapa besar masalah yang ingin saya hadapi untuk mencoba mencegah konsekuensi yang mungkin terjadi?
 
-### What do I want to protect?
+### Apa yang ingin saya lindungi?
 
-An “asset” is something you value and want to protect. In the context of digital security, ==an asset is usually some kind of information.== For example, your emails, contact lists, instant messages, location, and files are all possible assets. Your devices themselves may also be assets.
+"Aset" adalah sesuatu yang Anda hargai dan ingin Anda lindungi. Dalam konteks keamanan digital, ==aset biasanya berupa beberapa jenis informasi.== Misalnya, email, daftar kontak, pesan instan, lokasi, dan file Anda adalah aset yang mungkin. Perangkat Anda sendiri juga bisa menjadi aset.
 
-*Make a list of your assets: data that you keep, where it's kept, who has access to it, and what stops others from accessing it.*
+*Buatlah daftar aset Anda: data yang Anda simpan, di mana data tersebut disimpan, siapa yang memiliki akses ke data tersebut, dan apa yang mencegah orang lain untuk mengaksesnya.*
 
-### Who do I want to protect it from?
+### Dari siapa saya ingin melindunginya?
 
-To answer this question, it's important to identify who might want to target you or your information. ==A person or entity that poses a threat to your assets is an “adversary”.== Examples of potential adversaries are your boss, your former partner, your business competition, your government, or a hacker on a public network.
+Untuk menjawab pertanyaan ini, penting untuk mengidentifikasi siapa yang mungkin ingin menargetkan Anda atau informasi Anda. ==Seseorang atau entitas yang menjadi ancaman bagi aset Anda adalah "musuh".== Contoh musuh potensial adalah atasan Anda, mantan mitra Anda, pesaing bisnis Anda, pemerintah Anda, atau peretas di jaringan publik.
 
-*Make a list of your adversaries or those who might want to get ahold of your assets. Your list may include individuals, a government agency, or corporations.*
+*Buatlah daftar musuh Anda atau mereka yang mungkin ingin mendapatkan aset Anda. Daftar Anda dapat mencakup individu, lembaga pemerintah, atau perusahaan.*
 
-Depending on who your adversaries are, under some circumstances, this list might be something you want to destroy after you're done security planning.
+Tergantung pada siapa musuh Anda, dalam beberapa keadaan, daftar ini mungkin sesuatu yang ingin Anda hancurkan setelah Anda selesai merencanakan keamanan.
 
-### How likely is it that I will need to protect it?
+### Seberapa besar kemungkinan saya perlu melindunginya?
 
-==Risk is the likelihood that a particular threat against a particular asset will actually occur.== It goes hand-in-hand with capability. While your mobile phone provider has the capability to access all of your data, the risk of them posting your private data online to harm your reputation is low.
+==Risiko adalah kemungkinan bahwa ancaman tertentu terhadap aset tertentu akan benar-benar terjadi.== Hal ini sejalan dengan kemampuan. Meskipun penyedia ponsel Anda memiliki kemampuan untuk mengakses semua data Anda, risiko mereka memposting data pribadi Anda secara online untuk merusak reputasi Anda adalah rendah.
 
-It is important to distinguish between what might happen and the probability it may happen. For instance, there is a threat that your building might collapse, but the risk of this happening is far greater in San Francisco (where earthquakes are common) than in Stockholm (where they are not).
+Penting untuk membedakan antara apa yang mungkin terjadi dan probabilitas yang mungkin terjadi. Misalnya, ada ancaman bahwa bangunan Anda mungkin runtuh, tetapi risiko ini terjadi jauh lebih besar di San Francisco (di mana gempa bumi biasa terjadi) daripada di Stockholm (di mana mereka tidak).
 
-Assessing risks is both a personal and subjective process. Many people find certain threats unacceptable, no matter the likelihood they will occur, because the mere presence of the threat is not worth the cost. In other cases, people disregard high risks because they don't view the threat as a problem.
+Menilai risiko adalah proses pribadi dan subjektif. Banyak orang yang menganggap ancaman tertentu tidak dapat diterima, tidak peduli seberapa besar kemungkinannya, karena keberadaan ancaman tersebut tidak sebanding dengan biayanya. Dalam kasus lain, orang mengabaikan risiko tinggi karena mereka tidak melihat ancaman tersebut sebagai masalah.
 
-*Write down which threats you are going to take seriously, and which may be too rare or too harmless (or too difficult to combat) to worry about.*
+*Tuliskan ancaman mana yang akan Anda anggap serius, dan mana yang mungkin terlalu jarang atau tidak berbahaya (atau terlalu sulit untuk dilawan) untuk dikhawatirkan.*
 
-### How bad are the consequences if I fail?
+### Seberapa buruk konsekuensinya jika saya gagal?
 
-There are many ways that an adversary could gain access to your data. For example, an adversary can read your private communications as they pass through the network, or they can delete or corrupt your data.
+Ada banyak cara yang dapat dilakukan oleh musuh untuk mendapatkan akses ke data Anda. Misalnya, musuh dapat membaca komunikasi pribadi Anda saat mereka melewati jaringan, atau mereka dapat menghapus atau merusak data Anda.
 
-==The motives of adversaries differ widely, as do their tactics.== A government trying to prevent the spread of a video showing police violence may be content to simply delete or reduce the availability of that video. In contrast, a political opponent may wish to gain access to secret content and publish that content without you knowing.
+==Motif pihak-pihak yang berseteru sangat beragam, begitu pula taktik mereka.== Pemerintah yang berusaha mencegah penyebaran video yang menunjukkan kekerasan polisi mungkin akan puas dengan menghapus atau mengurangi ketersediaan video tersebut. Sebaliknya, lawan politik mungkin ingin mendapatkan akses ke konten rahasia dan mempublikasikan konten itu tanpa Anda sadari.
 
-Security planning involves understanding how bad the consequences could be if an adversary successfully gains access to one of your assets. To determine this, you should consider the capability of your adversary. For example, your mobile phone provider has access to all of your phone records. A hacker on an open Wi-Fi network can access your unencrypted communications. Your government might have stronger capabilities.
+Perencanaan keamanan melibatkan pemahaman tentang seberapa buruk konsekuensi yang bisa terjadi jika musuh berhasil mendapatkan akses ke salah satu aset Anda. Untuk menentukan ini, Anda harus mempertimbangkan kemampuan lawan Anda. Misalnya, penyedia ponsel Anda memiliki akses ke semua catatan telepon Anda. Peretas di jaringan Wi-Fi terbuka dapat mengakses komunikasi Anda yang tidak terenkripsi. Pemerintah Anda mungkin memiliki kemampuan yang lebih kuat.
 
-*Write down what your adversary might want to do with your private data.*
+*Tuliskan apa yang mungkin ingin dilakukan lawan Anda dengan data pribadi Anda.*
 
-### How much trouble am I willing to go through to try to prevent potential consequences?
+### Seberapa besar masalah yang ingin saya hadapi untuk mencoba mencegah konsekuensi yang mungkin terjadi?
 
-==There is no perfect option for security.== Not everyone has the same priorities, concerns, or access to resources. Your risk assessment will allow you to plan the right strategy for you, balancing convenience, cost, and privacy.
+==Tidak ada pilihan yang sempurna untuk keamanan.== Tidak semua orang memiliki prioritas, kekhawatiran, atau akses yang sama ke sumber daya. Penilaian risiko Anda akan memungkinkan Anda untuk merencanakan strategi yang tepat untuk Anda, dengan menyeimbangkan kenyamanan, biaya, dan privasi.
 
 For example, an attorney representing a client in a national security case may be willing to go to greater lengths to protect communications about that case, such as using encrypted email, than a mother who regularly emails her daughter funny cat videos.
 
-*Write down what options you have available to you to help mitigate your unique threats. Note if you have any financial constraints, technical constraints, or social constraints.*
+*Tuliskan pilihan apa saja yang tersedia bagi Anda untuk membantu mengurangi ancaman unik Anda. Perhatikan jika Anda memiliki kendala keuangan, kendala teknis, atau kendala sosial.*
 
-### Try it yourself: Protecting Your Belongings
+### Cobalah sendiri: Melindungi Barang Milik Anda
 
-These questions can apply to a wide variety of situations, online and offline. As a generic demonstration of how these questions work, let's build a plan to keep your house and possessions safe.
+Pertanyaan-pertanyaan ini dapat diterapkan pada berbagai situasi, baik online maupun offline. Sebagai demonstrasi umum tentang bagaimana pertanyaan-pertanyaan ini bekerja, mari kita buat rencana untuk menjaga rumah dan harta benda Anda tetap aman.
 
-**What do you want to protect? (Or, *what do you have that is worth protecting?*)**
+**Apa yang ingin Anda lindungi? (Atau, *apa yang Anda miliki yang layak dilindungi?*)**
 :
 
-Your assets might include jewelry, electronics, important documents, or photos.
+Aset Anda mungkin termasuk perhiasan, barang elektronik, dokumen penting, atau foto.
 
-**Who do you want to protect it from?**
+**Anda ingin melindunginya dari siapa?**
 :
 
-Your adversaries might include burglars, roommates, or guests.
+Musuh Anda mungkin termasuk pencuri, teman sekamar, atau tamu.
 
-**How likely is it that you will need to protect it?**
+**Seberapa besar kemungkinan Anda perlu melindunginya?**
 :
 
-Does your neighborhood have a history of burglaries? How trustworthy are your roommates or guests? What are the capabilities of your adversaries? What are the risks you should consider?
+Apakah lingkungan Anda memiliki riwayat pencurian? Seberapa tepercaya teman sekamar atau tamu Anda? Apa saja kemampuan musuh Anda? Apa saja risiko yang harus Anda pertimbangkan?
 
-**How bad are the consequences if you fail?**
+**Seberapa buruk konsekuensinya jika Anda gagal?**
 :
 
-Do you have anything in your house that you cannot replace? Do you have the time or money to replace those things? Do you have insurance that covers goods stolen from your home?
+Apakah Anda memiliki sesuatu di rumah Anda yang tidak dapat Anda ganti? Apakah Anda punya waktu atau uang untuk mengganti barang-barang tersebut? Apakah Anda memiliki asuransi yang menanggung barang yang dicuri dari rumah Anda?
 
-**How much trouble are you willing to go through to prevent these consequences?**
+**Seberapa besar masalah yang ingin Anda hadapi untuk mencegah konsekuensi ini?**
 :
 
-Are you willing to buy a safe for sensitive documents? Can you afford to buy a high-quality lock? Do you have time to open a security box at your local bank and keep your valuables there?
+Apakah Anda bersedia membeli brankas untuk dokumen sensitif? Apakah Anda mampu membeli kunci berkualitas tinggi? Apakah Anda memiliki waktu untuk membuka kotak penyimpanan di bank setempat dan menyimpan barang berharga Anda di sana?
 
-Only once you have asked yourself these questions will you be in a position to assess what measures to take. If your possessions are valuable, but the probability of a break-in is low, then you may not want to invest too much money in a lock. But, if the probability of a break-in is high, you'll want to get the best lock on the market and consider adding a security system.
+Hanya setelah Anda mengajukan pertanyaan-pertanyaan ini kepada diri Anda sendiri, Anda akan dapat menilai tindakan apa yang harus diambil. Jika harta benda Anda berharga, tetapi kemungkinan pembobolan rendah, maka Anda mungkin tidak ingin menginvestasikan terlalu banyak uang untuk sebuah kunci. Namun, jika kemungkinan terjadinya pembobolan cukup besar, Anda sebaiknya membeli kunci terbaik di pasaran dan mempertimbangkan untuk menambahkan sistem keamanan.
 
-Making a security plan will help you to understand the threats that are unique to you and to evaluate your assets, your adversaries, and your adversaries' capabilities, along with the likelihood of risks you face.
+Membuat rencana keamanan akan membantu Anda memahami ancaman yang unik bagi Anda dan mengevaluasi aset Anda, musuh Anda, dan kemampuan musuh Anda, serta kemungkinan risiko yang Anda hadapi.
 
 ## Bacaan Lebih Lanjut
 
-For people looking to increase their privacy and security online, we've compiled a list of common threats our visitors face or goals our visitors have, to give you some inspiration and demonstrate the basis of our recommendations.
+Bagi orang-orang yang ingin meningkatkan privasi dan keamanan daring mereka, kami telah menyusun daftar ancaman umum yang dihadapi pengunjung kami atau tujuan yang dimiliki pengunjung kami, untuk memberi Anda beberapa inspirasi dan menunjukkan dasar rekomendasi kami.
 
-- [Common Goals and Threats :material-arrow-right-drop-circle:](common-threats.md)
+- [Tujuan dan Ancaman Umum :material-arrow-right-drop-circle:](common-threats.md)
 
-## Sources
+## Sumber
 
-- [EFF Surveillance Self Defense: Your Security Plan](https://ssd.eff.org/en/module/your-security-plan)
+- [Ef Surveillance Self Defense: Rencana Keamanan Anda](https://ssd.eff.org/en/module/your-security-plan)

@@ -1,12 +1,12 @@
 ---
 title: סקירה כללית של VPN
 icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
+description: רשתות וירטואליות פרטיות מעבירות את הסיכון מספק שירותי האינטרנט שלך לצד שלישי שאתה סומך עליו. כדאי לזכור את הדברים האלה.
 ---
 
 רשתות וירטואליות פרטיות הן דרך להרחיב את הקצה של הרשת שלך ליציאה למקום אחר בעולם. ספק שירותי אינטרנט יכול לראות את זרימת תעבורת האינטרנט הנכנסת ויוצאת ממכשיר סיום הרשת שלך (כלומר מודם).
 
-Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+פרוטוקולי הצפנה כגון HTTPS נמצאים בשימוש נפוץ באינטרנט, כך שהם אולי לא יוכלו לראות בדיוק מה אתה מפרסם או קורא, אבל הם יכולים לקבל מושג על [הדומיינים שאתה מבקש](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
 VPN יכול לעזור מכיוון שהוא יכול להעביר אמון לשרת במקום אחר בעולם. כתוצאה מכך, ספק שירותי האינטרנט רואה רק שאתה מחובר ל-VPN ושום דבר לגבי הפעילות שאתה מעביר אליו.
 

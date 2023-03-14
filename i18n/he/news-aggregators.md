@@ -1,10 +1,10 @@
 ---
 title: "צוברי חדשות"
 icon: material/rss
-description: These news aggregator clients let you keep up with your favorite blogs and news sites using internet standards like RSS.
+description: לקוחות צוברי חדשות אלה מאפשרים לך להתעדכן בבלוגים ובאתרי החדשות האהובים עליך באמצעות תקני אינטרנט כמו RSS.
 ---
 
-A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to keep up with your favorite blogs and news sites.
+[צובר חדשות](https://en.wikipedia.org/wiki/News_aggregator) הוא דרך להתעדכן בבלוגים ובאתרי החדשות המועדפים עליך.
 
 ## קליינטים צוברי חדשות
 

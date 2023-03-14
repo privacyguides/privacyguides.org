@@ -1,7 +1,7 @@
 ---
 title: "שירותי אימייל"
 icon: material/email
-description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
+description: ספקי אימייל אלה מציעים מקום מצוין לאחסן את המיילים שלך בצורה מאובטחת, ורבים מציעים הצפנת OpenPGP הניתנת להפעלה הדדית עם ספקים אחרים.
 ---
 
 אימייל הוא למעשה הכרח לשימוש בכל שירות מקוון, אולם איננו ממליצים עליו לשיחות מאדם לאדם. דואר אלקטרוני הוא למעשה הכרח שימוש בכל שירות מקוון, אולם איננו ממליצים עליו לשיחות מאדם לאדם.
@@ -68,7 +68,7 @@ description: These email providers offer a great place to store your emails secu
 
 #### :material-check:{ .pg-green } שיטות תשלום פרטיות
 
-Proton Mail [accepts](https://proton.me/support/payment-options) cash by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
+Proton Mail [מקבל](https://proton.me/support/payment-options) מזומן בדואר בנוסף לתשלומי אשראי/חיוב רגילים, [ביטקוין](advanced/payments.md#other-coins-bitcoin-ethereum-etc) ופייפאל.
 
 #### :material-check:{ .pg-green } אבטחת חשבון
 
@@ -86,9 +86,6 @@ Proton Mail [שילבה הצפנת OpenPGP](https://proton.me/support/how-to-use
 
 Proton Mail תומך גם בגילוי מפתחות ציבוריים באמצעות HTTP מ[ספריית מפתחות האינטרנט (WKD)](https://wiki.gnupg.org/WKD) שלהם. זה מאפשר לאנשים שאינם משתמשים ב-Proton Mail למצוא בקלות את מפתחות OpenPGP של חשבונות Proton Mail, עבור E2EE חוצה ספקים.
 
-#### :material-alert-outline:{ .pg-orange } מורשת דיגיטלית
-
-Proton Mail אינו מציע תכונה מורשת דיגיטלית.
 
 #### :material-information-outline:{ .pg-blue } סגירת חשבון
 
@@ -97,6 +94,8 @@ Proton Mail אינו מציע תכונה מורשת דיגיטלית.
 #### :material-information-outline:{ .pg-blue } פונקציונליות נוספת
 
 Proton Mail מציע חשבון "ללא הגבלה" במחיר של €9.99/חודש, המאפשר גם גישה ל-Proton VPN בנוסף לאספקת מספר חשבונות, דומיינים, כינויים ושטח אחסון של 500GB.
+
+Proton Mail אינו מציע תכונה מורשת דיגיטלית.
 
 ### Mailbox.org
 
@@ -120,7 +119,7 @@ Mailbox.org מאפשר לך להשתמש בדומיין משלך, והם תומ�
 
 #### :material-check:{ .pg-green } שיטות תשלום פרטיות
 
-Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. עם זאת, הם מקבלים מזומן בדואר, תשלום במזומן לחשבון בנק, העברה בנקאית, כרטיס אשראי, PayPal ועוד כמה מעבדים ספציפיים לגרמניה: paydirekt ו-Sofortüberweisung.
+Mailbox.org אינו מקבל מטבעות קריפטוגרפיים כלשהם כתוצאה מכך שמעבד התשלומים BitPay השהה את הפעולות בגרמניה. עם זאת, הם מקבלים מזומן בדואר, תשלום במזומן לחשבון בנק, העברה בנקאית, כרטיס אשראי, PayPal ועוד כמה מעבדים ספציפיים לגרמניה: paydirekt ו-Sofortüberweisung.
 
 #### :material-check:{ .pg-green } אבטחת חשבון
 
@@ -138,10 +137,6 @@ Mailbox.org מאפשר הצפנה של דואר נכנס באמצעות [תיב�
 
 Mailbox.org תומך גם בגילוי מפתחות ציבוריים באמצעות HTTP מ-[Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) שלהם. זה מאפשר לאנשים מחוץ Mailbox.org למצוא את מפתחות OpenPGP של חשבונות Mailbox.org בקלות, עבור E2EE חוצה ספקים.
 
-#### :material-check:{ .pg-green } מורשת דיגיטלית
-
-Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכניות. אתה יכול לבחור אם אתה רוצה שכל הנתונים שלך יועברו ליורשים בתנאי שהם חלים ומספקים את הצוואה שלך. לחלופין, ניתן למנות אדם לפי שם וכתובת.
-
 #### :material-information-outline:{ .pg-blue } סגירת חשבון
 
 החשבון שלך יוגדר לחשבון משתמש מוגבל כאשר החוזה שלך יסתיים, לאחר [30 יום הוא יימחק באופן בלתי הפיך](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
@@ -151,6 +146,8 @@ Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכני�
 אתה יכול לגשת לחשבון Mailbox.org שלך דרך IMAP/SMTP באמצעות [שירות.onion](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org) שלהם. עם זאת, לא ניתן לגשת לממשק דואר האינטרנט שלהם באמצעות שירות.onion שלהם ואתה עלול להיתקל בשגיאות אישור TLS.
 
 כל החשבונות מגיעים עם אחסון ענן מוגבל ש[ניתן להצפנה](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org מציעה גם את הכינוי [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), אשר אוכף את הצפנת TLS על החיבור בין שרתי דואר, אחרת ההודעה לא תישלח כלל. Mailbox.org תומך גם ב-[Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) בנוסף לפרוטוקולי גישה סטנדרטיים כמו IMAP ו-POP3.
+
+Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכניות. אתה יכול לבחור אם אתה רוצה שכל הנתונים שלך יועברו ליורשים בתנאי שהם חלים ומספקים את הצוואה שלך. לחלופין, ניתן למנות אדם לפי שם וכתובת.
 
 ## עוד ספקים
 
@@ -186,7 +183,7 @@ Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכני�
 
 #### :material-alert-outline:{ .pg-orange } שיטות תשלום פרטיות
 
-StartMail מקבלת ויזה, מאסטרקארד, אמריקן אקספרס ו - Paypal. StartMail also has other [payment options](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) such as [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (currently only for Personal accounts) and SEPA Direct Debit for accounts older than a year.
+StartMail מקבלת ויזה, מאסטרקארד, אמריקן אקספרס ו - Paypal. ל-StartMail יש גם [אפשרויות תשלום](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) אחרות כגון [ביטקוין](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (כרגע רק עבור חשבונות אישיים) ו-SEPA ישיר עבור חשבונות מעל שנה.
 
 #### :material-check:{ .pg-green } אבטחת חשבון
 
@@ -202,10 +199,6 @@ StartMail תומך בייבוא [אנשי קשר](https://support.startmail.com/
 
 ל-StartMail [הצפנה משולבת](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) בדואר האינטרנט שלהם, מה שמקל על שליחת הודעות מוצפנות עם מפתחות OpenPGP ציבוריים. עם זאת, הם אינם תומכים בתקן Web Key Directory, מה שהופך את גילוי המפתח הציבורי של תיבת דואר של Startmail למאתגר יותר עבור ספקי אימייל או לקוחות אחרים.
 
-#### :material-alert-outline:{ .pg-orange } מורשת דיגיטלית
-
-StartMail אינו מציע תכונה דיגיטלית מדור קודם.
-
 #### :material-information-outline:{ .pg-blue } סגירת חשבון
 
 עם פקיעת החשבון, StartMail תמחק לצמיתות את חשבונך לאחר [ 6 חודשים בשלושה שלבים](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
@@ -213,6 +206,8 @@ StartMail אינו מציע תכונה דיגיטלית מדור קודם.
 #### :material-information-outline:{ .pg-blue } פונקציונליות נוספת
 
 StartMail מאפשר פרוקסי של תמונות בתוך הודעות דוא"ל. אם תאפשרו את טעינת התמונה המרוחקת, השולח לא יידע מהי כתובת ה-IP שלכם.
+
+StartMail אינו מציע תכונה דיגיטלית מדור קודם.
 
 ### Tutanota
 
@@ -246,7 +241,7 @@ Tutanota אינה משתמשת בפרוטוקול [IMAP](https://tutanota.com/fa
 
 #### :material-information-outline:{ .pg-blue } שיטות תשלום פרטיות
 
-Tutanota only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
+Tutanota מקבל ישירות כרטיסי אשראי ופייפאל, אולם ניתן להשתמש ב[מטבע קריפטוגרפי](cryptocurrency.md) לרכישת כרטיסי מתנה באמצעות [שותפות](https://tutanota.com/faq/#cryptocurrency) שלהם עם Proxystore.
 
 #### :material-check:{ .pg-green } אבטחת חשבון
 
@@ -256,13 +251,9 @@ Tutanota תומך ב[אימות דו-שלבי](https://tutanota.com/faq#2fa) ע�
 
 ל-Tutanota יש [הצפנת גישה אפס בזמן מנוחה](https://tutanota.com/faq#what-encrypted) עבור המיילים, [אנשי הקשר בפנקס](https://tutanota.com/faq#encrypted-address-book) הכתובות ו[היומנים](https://tutanota.com/faq#calendar) שלך. משמעות הדבר היא שההודעות ונתונים אחרים המאוחסנים בחשבונך ניתנים לקריאה רק על ידך.
 
-#### :material-information-outline:{ .pg-blue } Email Encryption
+#### :material-information-outline:{ .pg-blue } הצפנת אימייל
 
 Tutanota [אינו משתמש ב-OpenPGP](https://www.tutanota.com/faq/#pgp). חשבונות Tutanota יכולים לקבל אימיילים מוצפנים רק מחשבונות אימייל שאינם של Tutanota כאשר הם נשלחים דרך [תיבת דואר זמנית של Tutanota](https://www.tutanota.com/howto/#encrypted-email-external).
-
-#### :material-alert-outline:{ .pg-orange } מורשת דיגיטלית
-
-Tutanota לא מציעה פיצ'ר מורשת דיגיטלית.
 
 #### :material-information-outline:{ .pg-blue } סגירת חשבון
 
@@ -273,6 +264,8 @@ Tutanota [ימחק חשבונות בחינם לא פעילים](https://tutanota
 Tutanota מציעה את הגרסה העסקית של [Tutanota לארגונים ללא מטרות רווח](https://tutanota.com/blog/posts/secure-email-for-non-profit) בחינם או בהנחה כבדה.
 
 ל-Tutanota יש גם תכונה עסקית בשם [חיבור מאובטח](https://tutanota.com/secure-connect/). זה מבטיח שיצירת קשר עם הלקוח לעסק משתמשת ב- E2EE. התכונה עולה 240 אירו לשנה.
+
+Tutanota לא מציעה פיצ'ר מורשת דיגיטלית.
 
 ## שירותי כינוי דוא"ל
 

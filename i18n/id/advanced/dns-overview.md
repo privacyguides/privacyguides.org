@@ -1,24 +1,24 @@
 ---
-title: "DNS Overview"
+title: "Ikhtisar DNS"
 icon: material/dns
-description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
+description: Sistem Nama Domain adalah "buku telepon internet," yang membantu peramban Anda menemukan situs web yang dicari.
 ---
 
-The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phonebook of the Internet'. DNS translates domain names to IP addresses so browsers and other services can load Internet resources, through a decentralized network of servers.
+[Sistem Penamaan Domain (DNS)](https://id.wikipedia.org/wiki/Sistem_Penamaan_Domain) adalah 'buku telepon internet'. DNS menerjemahkan nama domain ke alamat IP sehingga peramban dan layanan lain dapat memuat sumber daya internet, melalui jaringan server yang terdesentralisasi.
 
-## What is DNS?
+## Apa itu DNS?
 
-When you visit a website, a numerical address is returned. For example, when you visit `privacyguides.org`, the address `192.98.54.105` is returned.
+Ketika Anda mengunjungi situs web, alamat numerik akan dikembalikan. Misalnya, ketika Anda mengunjungi `privacyguides.org`, alamat `192.98.54.105` dikembalikan.
 
-DNS has existed since the [early days](https://en.wikipedia.org/wiki/Domain_Name_System#History) of the Internet. DNS requests made to and from DNS servers are **not** generally encrypted. In a residential setting, a customer is given servers by the ISP via [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
+DNS sudah ada sejak [masa-masa awal](https://id.wikipedia.org/wiki/Sistem_Penamaan_Domain#Sejarah) internet. Permintaan DNS yang dibuat ke dan dari server DNS **tidak** secara umum dienkripsi. Dalam lingkungan perumahan, pelanggan diberikan server oleh ISP melalui [DHCP](https://id.wikipedia.org/wiki/Protokol_Konfigurasi_Hos_Dinamik).
 
-Unencrypted DNS requests are able to be easily **surveilled** and **modified** in transit. In some parts of the world, ISPs are ordered to do primitive [DNS filtering](https://en.wikipedia.org/wiki/DNS_blocking). When you request the IP address of a domain that is blocked, the server may not respond or may respond with a different IP address. As the DNS protocol is not encrypted, the ISP (or any network operator) can use [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) to monitor requests. ISPs can also block requests based on common characteristics, regardless of which DNS server is used. Unencrypted DNS always uses [port](https://en.wikipedia.org/wiki/Port_(computer_networking)) 53 and always uses UDP.
+Permintaan DNS yang tidak terenkripsi dapat dengan mudah **diawasi** dan **diubah** dalam transit. Di beberapa bagian dunia, kebanyakan ISP diperintahkan untuk melakukan [penyaringan DNS](https://en.wikipedia.org/wiki/DNS_blocking) primitif. Saat Anda meminta alamat IP domain yang diblokir, server mungkin tidak merespons atau mungkin merespons dengan alamat IP yang berbeda. Karena protokol DNS tidak dienkripsi, ISP (atau operator jaringan apa pun) dapat menggunakan [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) untuk memantau permintaan. ISP juga dapat memblokir permintaan berdasarkan karakteristik umum, terlepas dari server DNS yang digunakan. DNS yang tidak terenkripsi selalu menggunakan [porta](https://id.wikipedia.org/wiki/Porta_(jaringan_komputer)) 53 dan selalu menggunakan UDP.
 
-Below, we discuss and provide a tutorial to prove what an outside observer may see using regular unencrypted DNS and [encrypted DNS](#what-is-encrypted-dns).
+Di bawah ini, kami mendiskusikan dan menyediakan tutorial untuk membuktikan apa yang mungkin dilihat oleh pengamat luar dengan menggunakan DNS biasa yang tidak terenkripsi dan [DNS terenkripsi](#apa-itu-dns-terenkripsi).
 
-### Unencrypted DNS
+### DNS yang tidak terenkripsi
 
-1. Using [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. This command records packets that meet the rules specified:
+1. Dengan menggunakan [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (bagian dari proyek [Wireshark](https://id.wikipedia.org/wiki/Wireshark)) kita bisa memantau dan merekam aliran paket internet. This command records packets that meet the rules specified:
 
     ```bash
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
@@ -64,19 +64,19 @@ If you run the Wireshark command above, the top pane shows the "[frames](https:/
 
 An observer could modify any of these packets.
 
-## What is "encrypted DNS"?
+## Apa itu "DNS terenkripsi"?
 
-Encrypted DNS can refer to one of a number of protocols, the most common ones being:
+DNS terenkripsi dapat merujuk pada salah satu dari sejumlah protokol, yang paling umum adalah:
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) was one of the first methods of encrypting DNS queries. DNSCrypt operates on port 443 and works with both the TCP or UDP transport protocols. DNSCrypt has never been submitted to the [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nor has it gone through the [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) process, so it has not been used widely outside of a few [implementations](https://dnscrypt.info/implementations). As a result, it has been largely replaced by the more popular [DNS over HTTPS](#dns-over-https-doh).
+[**DNSCrypt**](https://id.wikipedia.org/wiki/DNSCrypt) adalah salah satu metode pertama untuk mengenkripsi permintaan DNS. DNSCrypt beroperasi pada porta 443 dan bekerja dengan protokol transportasi TCP atau UDP. DNSCrypt belum pernah diajukan ke [Internet Engineering Task Force (IETF)](https://id.wikipedia.org/wiki/Internet_Engineering_Task_Force) dan juga tidak melalui proses [Request for Comments (RFC)](https://id.wikipedia.org/wiki/Request_for_Comments), sehingga belum digunakan secara luas di luar beberapa [penerapan](https://dnscrypt.info/implementations). Sebagai hasilnya, sebagian besar telah digantikan oleh [DNS melalui HTTPS](#dns-melalui-https-doh) yang lebih populer.
 
-### DNS over TLS (DoT)
+### DNS melalui TLS (DoT)
 
 [**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) is another method for encrypting DNS communication that is defined in [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Support was first implemented in Android 9, iOS 14, and on Linux in [systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in version 237. Preference in the industry has been moving away from DoT to DoH in recent years, as DoT is a [complex protocol](https://dnscrypt.info/faq/) and has varying compliance to the RFC across the implementations that exist. DoT also operates on a dedicated port 853 which can be blocked easily by restrictive firewalls.
 
-### DNS over HTTPS (DoH)
+### DNS melalui HTTPS (DoH)
 
 [**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS) as defined in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484) packages queries in the [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol and provides security with HTTPS. Support was first added in web browsers such as Firefox 60 and Chrome 83.
 
@@ -256,23 +256,23 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
 
 If the network observer has the public certificate, which is publicly available, they can match the serial number with that certificate and therefore determine the site you're visiting from that. The process can be automated and can associate IP addresses with serial numbers. It is also possible to check [Certificate Transparency](https://en.wikipedia.org/wiki/Certificate_Transparency) logs for the serial number.
 
-## Should I use encrypted DNS?
+## Haruskah saya menggunakan DNS terenkripsi?
 
-We made this flow chart to describe when you *should* use encrypted DNS:
+Kami membuat diagram aliran ini untuk menjelaskan kapan Anda *harus* menggunakan DNS terenkripsi:
 
 ``` mermaid
-graph TB
-    Start[Start] --> anonymous{Trying to be<br> anonymous?}
-    anonymous--> | Yes | tor(Use Tor)
-    anonymous --> | No | censorship{Avoiding<br> censorship?}
-    censorship --> | Yes | vpnOrTor(Use<br> VPN or Tor)
-    censorship --> | No | privacy{Want privacy<br> from ISP?}
-    privacy --> | Yes | vpnOrTor
-    privacy --> | No | obnoxious{ISP makes<br> obnoxious<br> redirects?}
-    obnoxious --> | Yes | encryptedDNS(Use<br> encrypted DNS<br> with 3rd party)
-    obnoxious --> | No | ispDNS{Does ISP support<br> encrypted DNS?}
-    ispDNS --> | Yes | useISP(Use<br> encrypted DNS<br> with ISP)
-    ispDNS --> | No | nothing(Do nothing)
+grafik TB
+    Mulai[Start] --> anonim{Mencoba menjadi<br> anonim?}
+    anonim --> | Ya | tor(Gunakan Tor)
+    anonim --> | Tidak | sensor{Menghindari<br> sensor?}
+    sensor --> | Ya | vpnOrTor(Gunakan<br> VPN atau Tor)
+    sensor --> | Tidak | privasi{Ingin privasi<br> dari ISP?}
+    privasi --> | Ya | vpnOrTor
+    privasi --> | Tidak | obnoxious{ISP melakukan<br> pengarahan<br> yang menjengkelkan?}
+    obnoxious --> | Ya | encryptedDNS(Gunakan<br> DNS terenkripsi<br> dengan pihak ketiga)
+    obnoxious --> | Tidak | ispDNS{Apakah ISP mendukung<br> DNS terenkripsi?}
+    ispDNS --> | Ya | useISP(Gunakan<br> DNS terenkripsi<br> dengan ISP)
+    ispDNS --> | Tidak | tidakAda(Tidak lakukan apa pun)
 ```
 
 Encrypted DNS with a third-party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences or you're interested in a provider that does some rudimentary filtering.

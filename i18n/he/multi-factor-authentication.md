@@ -1,7 +1,7 @@
 ---
 title: "מאמתים מרובי גורמים"
 icon: 'material/two-factor-authentication'
-description: These tools assist you with securing your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
+description: כלים אלה מסייעים לך באבטחת חשבונות האינטרנט שלך באמצעות אימות רב-גורמי מבלי לשלוח את הסודות שלך לצד שלישי.
 ---
 
 ## מפתחות אבטחה של חומרה

@@ -1,7 +1,7 @@
 ---
-title: "רשת טור (Tor Network)"
+title: "רשת Tor"
 icon: simple/torproject
-description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+description: הגן על הגלישה שלך באינטרנט מעיניים סקרניות על ידי שימוש ברשת Tor, רשת מאובטחת שעוקפת צנזורה.
 ---
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }

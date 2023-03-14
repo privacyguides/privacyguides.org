@@ -1,34 +1,34 @@
 ---
 title: "帳號創建"
 icon: 'material/account-plus'
-description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
+description: 創建帳戶為實際連線網際網路所必要，請採取下列步驟確保您的線上隱私。
 ---
 
-人們經常不假思索地註冊網路服務。 也許這是一個流媒體服務，所以你可以觀看每個人都在談論的新節目，或者是一個為你最喜歡的快餐店提供折扣的帳戶。 無論在什麼樣的場景，您都應該考慮現在和以後對數據的影響。
+人們經常不假思索地註冊網路服務。 這些帳號也許是一個串流媒體服務可觀看人人都在談論的新節目，或是取得喜歡的快餐店折扣。 無論在什麼樣的場景，您都應該考慮現在和以後對個資的影響。
 
-當你每刺蝟了一個新的服務創建帳號時，都有相關的風險。 數據洩露；向第三方披露客戶信息；員工有不當的權限可以訪問所有數據；所有這些都是在提供您的信息時必須考慮的可能性。 您需要確信您可以信任該服務，這就是為什麼我們建議只在最成熟且經過測試的產品上儲存有價值的資料。 這通常意味著提供 E2EE 並經過加密審計的服務。 審計增加了產品設計的保證，而不是由缺乏經驗的開發人員引起的明顯的安全問題。
+在新的服務申請帳號時，都伴著相關風險。 資料洩露；向第三方披露客戶資訊、員工有不當的權限可以訪問所有資料，在給出您的個資時都必須考慮的接下來可能的狀況。 您需要確信足夠信任該服務，這就是為什麼我們建議把重要資料儲放在最成熟且通過測試的產品。 這通常意味著提供 E2EE 並經過加密審計的服務。 審計增加了產品設計的保證，減低因開發人員缺乏經驗所導致的安全問題。
 
-It can also be difficult to delete the accounts on some services. Sometimes [overwriting data](account-deletion.md#overwriting-account-information) associated with an account can be possible, but in other cases the service will keep an entire history of changes to the account.
+某些網路服務並不容易刪除帳號 有時可能會 [覆寫與帳戶相關聯的資料](account-deletion.md#overwriting-account-information) ，但在其他情況下，該服務將保留帳戶變更的完整記錄。
 
-## Terms of Service & Privacy Policy
+## 服務條款 & 隱私權政策
 
-服務條款是您在使用服務時同意遵守的規則。 With larger services these rules are often enforced by automated systems. Sometimes these automated systems can make mistakes. 例如，您可能會因為使用 VPN 或 VOIP 號碼而被禁止或鎖定某些服務的帳戶。 對這種禁令提出上訴通常很困難，而且通常都由系統自動處理而不是人工審核，造成了上訴的困難度。 這也是我們不建議使用 Gmail 作為電子郵件的原因之一。 電子郵件對於訪問您可能註冊的其他服務至關重要。
+服務條款是您在使用服務時同意遵守的規則。 隨著更大的服務，這些規則通常由自動化系統強制執行。 有時這些自動化系統可能會出錯。 例如，您的帳號可能會因為使用 VPN 或 VOIP 號碼而被禁止或無法使用某些服務。 對這種禁令提出上訴通常很困難，而且通常都由系統自動處理而不是人工審核，造成了上訴的困難度。 這也是我們不建議使用 Gmail 作為電子郵件的原因之一。 電子郵件對於訪問您已註冊的其他服務至關重要。
 
 隱私權政策是該服務表示他們將如何使用您的數據，因此值得閱讀，以便您了解如何使用您的數據。 公司或組織可能沒有法律義務遵守政策中包含的所有內容（取決於司法管轄區）。 我們建議您了解當地法律以及這些法律允許供應商收集哪些資訊。
 
-我們建議您尋找特定的術語，例如「資料收集」、「資料分析」、「Cookie」、「廣告」或「第三方」服務。 有時您可以選擇退出資料收集或分享資料，但最好從一開始就選擇尊重您隱私權的服務。
+我們建議您尋找特定的術語，例如「資料收集」、「資料分析」、「Cookie」、「廣告」或「第三方」服務。 有時您可以選擇退出資料收集或拒絕分享資料，但最好從一開始就選擇尊重您隱私權的服務。
 
-您還要信任該公司或組織會實際遵守自己的隱私政策。
+請記住，您把信任託付給該公司或組織，冀望其真的遵守自己的隱私政策。
 
 ## 身份驗證方式
 
-通常有多種註冊帳戶的方式，每種都有自己的好處和缺點。
+通常有多種註冊帳戶的方式，每種都有各自的好處和缺點。
 
 ### 電子郵件和密碼
 
 建立新帳戶的最常見方式是使用電子郵件地址和密碼。 使用此方法時，您應該使用密碼管理器，並遵循 [關於密碼的最佳做法](passwords-overview.md) 。
 
-!!! tip
+!!! 提示
 
     您也可以使用密碼管理器組織其他驗證方式！ 只需新增條目並填寫適當的欄位，即可新增安全問題或備份金鑰等事項的備註。
 
@@ -36,23 +36,23 @@ It can also be difficult to delete the accounts on some services. Sometimes [ove
 
 [推薦密碼管理員](../passwords.md ""){.md-button}
 
-#### Email aliases
+#### 電子郵件別名
 
 如果您不想將您的真實電子郵件地址提供給服務，您可以選擇使用別名。 我們在電子郵件服務推薦頁面上更詳細地描述了它們。 基本上，別名服務允許您生成新的電子郵件地址，將所有電子郵件轉發到您的主地址。 這可以幫助防止跨服務跟蹤，並幫助您管理有時會隨註冊過程而來的營銷電子郵件。 這些可以根據它們被發送到的別名自動過濾。
 
-如果服務遭到黑客攻擊，您可能會開始收到網絡釣魚或垃圾郵件到您用於註冊的地址。 為每個服務使用獨特的別名可以幫助確定哪些服務被駭。
+如果服務遭到黑客攻擊，您用於註冊的電子郵件可能會收到網絡釣魚或垃圾郵件。 為每個服務使用獨特的別名可以幫助確定哪些服務被駭。
 
 [推薦的電子郵件別名服務](../email.md#email-aliasing-services ""){.md-button}
 
 ### 單一登入（Single Sign-On）
 
-!!! note
+!!! 備註
 
     我們討論的是個人使用的單一登入，而不是企業用戶。
 
-單一登入(SSO) 是一種驗證方法，允許您註冊服務，而無需共享太多信息(如果有的話)。 每當您在註冊表單上看到類似「使用 *提供商名稱*登入」的內容時，它就是 SSO。
+單一登入(SSO) 是一種驗證方法，允許您註冊服務，而無需共享太多信息(如果有的話)。 每當您在註冊表單上看到類似「使用 *提供商名稱*登入」時，它就是 SSO。
 
-When you choose single sign-on in a website, it will prompt your SSO provider login page and after that your account will be connected. Your password won't be shared but some basic information will (you can review it during the login request). This process is needed every time you want to log in to the same account.
+當您在網站中選擇單一登入(Single sign-on )時，它將提示您的 SSO 提供商登入頁面，之後您的帳戶將被連接。 我們不會分享你的密碼，但會分享一些基本資訊（你可以在登入申請期間查看）。 每次您想要登入同一個帳戶時，都需要進行此程序。
 
 主要優勢是：
 

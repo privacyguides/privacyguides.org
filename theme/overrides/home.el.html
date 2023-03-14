@@ -12,10 +12,10 @@
         <div class="mdx-hero__content">
           <h1>Ο οδηγός για την αποκατάσταση του διαδικτυακού απορρήτου σας.</h1>
           <p>Μαζικές οργανώσεις παρακολουθούν τις δραστηριότητές σας στο διαδίκτυο. Ο οδηγός Privacy Guides είναι η κεντρική πηγή προστασίας του απορρήτου σας και της ασφάλειας στο διαδίκτυο.</p>
-          <a href="kb/" title="The first step of your privacy journey" class="md-button md-button--primary">
+          <a href="{% if config.extra.offline %}basics/threat-modeling.html{% else %}kb/{% endif %}" title="The first step of your privacy journey" class="md-button md-button--primary">
             Ξεκινήστε το ταξίδι απορρήτου σας
           </a>
-          <a href="tools/" title="Recommended privacy tools, services, and knowledge" class="md-button">
+          <a href="{% if config.extra.offline %}tools.html{% else %}tools/{% endif %}" title="Recommended privacy tools, services, and knowledge" class="md-button">
             Recommended Tools
           </a>
         </div>

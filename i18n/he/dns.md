@@ -1,7 +1,7 @@
 ---
 title: "ספקי DNS"
 icon: material/dns
-description: These are some encrypted DNS providers we recommend switching to, to replace your ISP's default configuration.
+description: אלו הם כמה ספקי DNS מוצפנים שאנו ממליצים לעבור אליהם, כדי להחליף את תצורת ברירת המחדל של ספק שירותי האינטרנט שלך.
 ---
 
 יש להשתמש ב-DNS מוצפן עם שרתי צד שלישי רק כדי לעקוף [חסימת DNS](https://en.wikipedia.org/wiki/DNS_blocking) בסיסית כאשר אתה יכול להיות בטוח שלא יהיו השלכות. DNS מוצפן לא יעזור לך להסתיר את פעילות הגלישה שלך.

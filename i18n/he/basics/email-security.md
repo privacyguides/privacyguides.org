@@ -1,7 +1,7 @@
 ---
 title: אבטחת אימייל
 icon: material/email
-description: Email is inherently insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
+description: אימייל הוא מטבעו לא מאובטח במובנים רבים, ואלה חלק מהסיבות שהוא לא הבחירה המובילה שלנו לתקשורת מאובטחת.
 ---
 
 אימייל הוא צורת תקשורת לא מאובטחת כברירת מחדל. אתה יכול לשפר את אבטחת האימייל שלך עם כלים כגון OpenPGP, שמוסיפים הצפנה מקצה לקצה להודעות שלך, אך ל-OpenPGP עדיין יש מספר חסרונות בהשוואה להצפנה ביישומי הודעות אחרים, וחלק מנתוני הדוא"ל לעולם אינם יכולים להיות מוצפנים מטבעם. לאופן עיצוב האימייל.
