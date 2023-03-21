@@ -59,6 +59,14 @@ Our current list of team members can be found [here](https://www.privacyguides.o
 [![Codeberg](https://img.shields.io/static/v1?logo=codeberg&label=&message=Codeberg&color=000&style=for-the-badge)](https://codeberg.org/privacyguides/privacyguides.org)
 [![SourceHut](https://img.shields.io/static/v1?logo=git&label=&message=SourceHut&color=000&style=for-the-badge)](https://git.sr.ht/~jonaharagon/privacyguides.org)
 
+## License
+
+Copyright &copy; 2019 - 2023 [Privacy Guides contributors](https://github.com/privacyguides/privacyguides.org/graphs/contributors).
+
+Privacy Guides content is licensed under the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](/LICENSE), and the underlying source code used to format and display that content on [www.privacyguides.org](https://www.privacyguides.org) is licensed under the [MIT License](/LICENSE-CODE).
+
+[More info...](https://www.privacyguides.org/en/about/notices/#licenses)
+
 ## Developing
 
 Committing to this repository requires [signing your commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) (`git config commit.gpgsign true`) unless you are making edits via the GitHub.com text editor interface. As of August 2022 the preferred signing method is [SSH commit signatures](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification), but GPG signing is also acceptable. You should add your signing key to your GitHub profile.
