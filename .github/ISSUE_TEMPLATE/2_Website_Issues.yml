@@ -1,0 +1,81 @@
+name: "Website Issue"
+description: Report a bug with the website.
+labels: ["t:bug"]
+assignees:
+  - jonaharagon
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        This form is only for reporting a technical bug __with our website__, like broken images, broken CSS, issues with search or themes, etc.
+        This is not the place to report an issue with Matrix, Discourse, or our other hosted services.
+
+        If you want us to fix inaccurate information on the website, go back and use the content correction form.
+        If you want to make another suggestion, please [use our discussion forum](https://discuss.privacyguides.net/) instead.
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+      description: |
+        Please give a detailed description of the bug. 
+        Explain how the website does not behave as you would expect it to, and be as specific as possible. 
+        If you have found a workaround or a fix for the problem too, please let us know.
+    validations:
+      required: true
+
+  - type: textarea
+    id: affected-pages
+    attributes:
+      label: Affected pages
+      description: |
+        Please list all pages where you've noticed this issue, or let us know if it affects every page on the site.
+      value: |
+        -
+  
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      description: |
+        Please select the browser(s) you have noticed this issue with.
+        If your browser is not listed or the version is relevant, you may select _Other_ and provide more details in the description above.
+      multiple: true
+      options:
+        - Firefox
+        - Tor Browser
+        - Chrome
+        - Safari
+        - Edge
+        - Other
+  
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      description: |
+        Please select the operating system(s) you have noticed this issue with.
+      multiple: true
+      options:
+        - Linux
+        - macOS
+        - Windows
+        - Android
+        - iOS
+        - Other
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before submitting
+      description: The Code of Conduct helps create a safe space for everyone. We require that everyone agrees to it.
+      options:
+        - label: I am reporting something that is broken on the website, not making a suggestion.
+          required: true
+        - label: I agree to the [Community Code of Conduct](https://www.privacyguides.org/en/code_of_conduct/).
+          required: true
+
+  - type: markdown
+    attributes:
+      value: Thank you for letting us know about this!

@@ -1,0 +1,46 @@
+name: "Content Correction"
+description: Report any inaccurate, incorrect, or outdated information on the website.
+labels: ["t:correction"]
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        This form is for reporting verifiable issues with our website. 
+        If you simply disagree with an opinion on the website, please open a discussion [on our forum](https://discuss.privacyguides.net/) instead.
+  
+  - type: input
+    attributes:
+      label: Affected page
+      description: Please let us know which page the incorrect information can be found on.
+      placeholder: "https://www.privacyguides.org/en/data-redaction/"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please let us know what should be fixed.
+      placeholder: The Google Play Store link for ExifEraser is broken...
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Sources
+      description: Please provide reliable sources that support the change you are requesting.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before submitting
+      description: The Code of Conduct helps create a safe space for everyone. We require that everyone agrees to it.
+      options:
+        - label: I am reporting something that is verifiably incorrect, not a suggestion or opinion.
+          required: true
+        - label: I agree to the [Community Code of Conduct](https://www.privacyguides.org/en/code_of_conduct/).
+          required: true

@@ -1,8 +1,9 @@
+blank_issues_enabled: false
 contact_links:
-  - name: Suggest a New Provider or Software
+  - name: Suggest Adding or Removing a Tool
     url: https://discuss.privacyguides.net/c/site-development/suggestions
     about: Suggest something new for us to look at, or something we should remove.
-  - name: Suggest a Guide
+  - name: Suggest a New Guide
     url: https://discuss.privacyguides.net/c/site-development/guide-suggestions
     about: Suggest an area where you think guidance might be required.
   - name: Ask a Question
