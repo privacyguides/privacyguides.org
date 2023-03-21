@@ -55,7 +55,7 @@ extra:
       license:
         - fontawesome/brands/creative-commons
         - fontawesome/brands/creative-commons-by
-        - fontawesome/brands/creative-commons-nd
+        - fontawesome/brands/creative-commons-sa
       analytics: !ENV [FOOTER_ANALYTICS, "Anonymous statistics preferences."]
     homepage:
       description:

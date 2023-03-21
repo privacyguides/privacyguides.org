@@ -113,7 +113,7 @@ All contributors to the site are listed [here](https://github.com/privacyguides/
 
 Copyright &copy; 2019 - 2024 [Privacy Guides contributors](https://github.com/privacyguides/privacyguides.org/graphs/contributors).
 
-Privacy Guides content is licensed under the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](/LICENSE), and the underlying source code used to format and display that content on [www.privacyguides.org](https://www.privacyguides.org) is licensed under the [MIT License](/LICENSE-CODE).
+Privacy Guides content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](/LICENSE), and the underlying source code used to format and display that content on [www.privacyguides.org](https://www.privacyguides.org) is licensed under the [MIT License](/LICENSE-CODE).
 
 Generally speaking, **content** can be found in the [`/docs`](/docs), [`/theme/assets/img`](/theme/assets/img) and [`/includes`](/includes) folders; and **source code** and configuration files can be found in the [`/config`](/config) and [`/theme`](/theme) folders, and in the root of this repository. Any source code snippets contained within documentation files are [MIT Licensed](/LICENSE-CODE). Please contact us if you require clarification on any of these terms.
 

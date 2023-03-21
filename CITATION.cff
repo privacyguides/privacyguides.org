@@ -32,11 +32,11 @@ authors:
 repository-code: "https://github.com/privacyguides/privacyguides.org"
 license:
   - MIT
-  - CC-BY-ND-4.0
+  - CC-BY-SA-4.0
 references:
   - authors:
-    - family-names: Donath
-      given-names: Martin
+      - family-names: Donath
+        given-names: Martin
     title: "mkdocs-material"
     type: software
     repository-code: "https://github.com/squidfunk/mkdocs-material"
@@ -95,4 +95,4 @@ preferred-citation:
     - encryption
     - website
     - markdown
-  license: CC-BY-ND-4.0
+  license: CC-BY-SA-4.0
