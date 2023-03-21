@@ -5,15 +5,14 @@ name = "pypi"
 
 [packages]
 mkdocs-material = {path = "./modules/mkdocs-material"}
-mkdocs-git-revision-date-localized-plugin = "*"
-typing-extensions = "*"
-mkdocs-git-committers-plugin-2 = "*"
-mkdocs-macros-plugin = "*"
-pillow = "*"
-cairosvg = "*"
+mkdocs-git-revision-date-localized-plugin = "~=1.2"
+mkdocs-git-committers-plugin-2 = "~=1.1"
+mkdocs-macros-plugin = "~=0.7"
+pillow = "~=9.4"
+cairosvg = "~=2.7"
 
 [dev-packages]
-scour = "*"
+scour = "~=0.38"
 
 [requires]
 python_version = "3.8"
