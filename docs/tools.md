@@ -207,7 +207,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <div class="grid cards" markdown>
 
 - ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji }![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji } [Privacy.com](financial-services.md#privacycom-us-free)
-- ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
+- ![MySudo logo](assets/img/financial-services/mysudo.svg){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
 </div>
 
 [Learn more :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
@@ -235,6 +235,20 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 </div>
 
 [Learn more :material-arrow-right-drop-circle:](search-engines.md)
+
+### Phone Number (VoIP) Providers
+
+<div class="grid cards" markdown>
+
+- [JMP.chat](phone.md#jmpchat)
+- ![MySudo logo](assets/img/voip/mysudo.svg){ .twemoji } [MySudo](phone.md#mysudo)
+- [Hushed](phone.md#hushed)
+- [Cheogram](phone.md#cheogram-sopranica)
+- [VOIPSuite](phone.md#operation-privacy-voip)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](phone.md)
 
 ### VPN Providers
 
