@@ -1,4 +1,4 @@
-# Copyright (c) 2022 Jonah Aragon <jonah@triplebit.net>
+# Copyright (c) 2022-2023 Jonah Aragon <jonah@triplebit.net>
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to
@@ -20,38 +20,69 @@
 
 cff-version: 1.2.0
 title: Privacy Guides
-message: 'If you reference this website, please cite it in your work.'
+message: "If you reference this website, please cite it in your work."
 type: software
 authors:
-  - email: jonah@privacyguides.org
+  - family-names: Aragon
     given-names: Jonah
-    family-names: Aragon
-    orcid: 'https://orcid.org/0000-0001-6996-4965'
-  - name: The Privacy Guides team
-    website: 'https://github.com/orgs/privacyguides/people'
-repository-code: 'https://github.com/privacyguides/privacyguides.org'
+    website: "https://www.jonaharagon.com"
+    orcid: "https://orcid.org/0000-0001-6996-4965"
+  - name: The Privacy Guides Team
+    website: "https://github.com/orgs/privacyguides/people"
+repository-code: "https://github.com/privacyguides/privacyguides.org"
+license:
+  - MIT
+  - CC-BY-ND-4.0
 references:
   - authors:
     - family-names: Donath
       given-names: Martin
-    title: 'mkdocs-material'
+    title: "mkdocs-material"
     type: software
-    repository-code: 'https://github.com/squidfunk/mkdocs-material'
+    repository-code: "https://github.com/squidfunk/mkdocs-material"
+    license: MIT
 preferred-citation:
   type: website
   title: Privacy Guides
   authors:
-    - email: jonah@privacyguides.org
+    - family-names: Aragon
       given-names: Jonah
-      family-names: Aragon
-      orcid: 'https://orcid.org/0000-0001-6996-4965'
-    - given-names: Daniel
-      family-names: Gray
-      email: dngray@privacyguides.org
-    - name: The Privacy Guides team
-      website: 'https://github.com/orgs/privacyguides/people'
-    - name: Various project contributors
-  url: 'https://www.privacyguides.org'
+      website: "https://www.jonaharagon.com"
+      orcid: "https://orcid.org/0000-0001-6996-4965"
+    - family-names: Gray
+      given-names: Daniel
+      alias: dngray
+      website: "https://polarbear.army"
+    - family-names: Wilde
+      given-names: Niek
+      name-particle: de
+      alias: blacklight447
+    - given-names: Freddy
+      website: "https://freddy.lol"
+    - alias: mfwmyfacewhen
+      website: "https://github.com/mfwmyfacewhen"
+    - given-names: Olivia
+      alias: hook
+    - alias: nitrohorse
+      website: "https://nitrohorse.com"
+    - family-names: Suomalainen
+      given-names: Aminda
+      alias: Mikaela
+      website: "https://aminda.eu"
+    - family-names: Potocki
+      given-names: Dawid
+      website: "https://dawidpotocki.com"
+    - alias: matchboxbananasynergy
+      website: "https://banana.omg.lol"
+    - family-names: Tran
+      given-names: Thien
+      alias: Tommy
+      website: "https://tommytran.io"
+    - alias: samsepi0l
+      website: "https://github.com/d4rklynk"
+    - name: Privacy Guides Contributors
+      website: "https://github.com/privacyguides/privacyguides.org/graphs/contributors"
+  url: "https://www.privacyguides.org"
   abstract: >-
     Privacy Guides is a socially motivated website that
     provides information for protecting your data
@@ -64,4 +95,4 @@ preferred-citation:
     - encryption
     - website
     - markdown
-  license: "CC-BY-ND-4.0"
+  license: CC-BY-ND-4.0

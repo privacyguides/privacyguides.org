@@ -5,13 +5,11 @@ description: Privacy Guides is a socially motivated website that provides inform
 ---
 ![Privacy Guides logo](../assets/brand/png/square/pg-yellow.png){ align=right }
 
-**Privacy Guides** is a socially motivated website that provides [information](/kb) for protecting your data security and privacy. We are a non-profit collective operated entirely by volunteer [team members](https://discuss.privacyguides.net/g/team) and contributors. Our website is free of advertisements and not affiliated with any listed providers.
+**Privacy Guides** is a socially motivated website that provides [information](/kb) for protecting your data security and privacy. Our mission is to inform the public about the value of digital privacy, and global government initiatives which aim to monitor your online activity. We are a non-profit collective operated entirely by volunteer [team members](https://discuss.privacyguides.net/g/team) and contributors. Our website is free of advertisements and not affiliated with any of the listed providers.
 
 [:octicons-home-16:](https://www.privacyguides.org/){ .card-link title=Homepage }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
 [:octicons-heart-16:](donate.md){ .card-link title=Contribute }
-
-The purpose of Privacy Guides is to educate our community on the importance of privacy online and government programs internationally that are designed to monitor all of your online activities.
 
 > To find [privacy-focused alternative] apps, check out sites like Good Reports and **Privacy Guides**, which list privacy-focused apps in a variety of categories, notably including email providers (usually on paid plans) that aren’t run by the big tech companies.
 
@@ -81,7 +79,9 @@ Our team members review all changes made to the website and handle administrativ
 
 ## Site License
 
-*The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE):*
+!!! danger ""
+
+    The following is a human-readable summary of (and not a substitute for) the [license](/license).
 
 :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). This means that you are free to copy and redistribute the material in any medium or format for any purpose, even commercially; as long as you give appropriate credit to `Privacy Guides (www.privacyguides.org)` and provide a link to the license. You may do so in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use. If you remix, transform, or build upon the content of this website, you may not distribute the modified material.
 
