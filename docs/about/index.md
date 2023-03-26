@@ -19,7 +19,7 @@ description: Privacy Guides is a socially motivated website that provides inform
 
 — [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Translated from Dutch]
 
-Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], and [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
+Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], [NPO Radio 1](https://www.nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), and [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
 
 ## History
 
