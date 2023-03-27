@@ -60,4 +60,10 @@
     <a href="https://www.privacyguides.org/"> 
     <strong>Visit privacyguides.org for the latest version.</strong>
     </a>
+{% elif config.extra.context == "deploy-preview" %}
+    You're viewing an <strong>unreviewed preview</strong> of Privacy Guides built on {{ build_date_utc }}.
+    These previews are <strong>user-submitted</strong> and may not necessarily reflect the opinion of the site.
+    <a href="https://www.privacyguides.org/"> 
+    <strong>Visit privacyguides.org for current advice.</strong>
+    </a>
 {% else %}{% endif %}{% endblock %}
