@@ -7,7 +7,7 @@ icon: material/monitor-lock
 
 If you wish to limit the amount of data Microsoft obtains from your device, an [offline/local account](https://answers.microsoft.com/en-us/windows/forum/all/how-to-create-a-local-or-offline-account-in/95097c32-40c4-48c0-8f3b-3bcb67afaf7c) is **recommended**. 
 
-![user-account](/assets/img/windows/user-account.webp)
+![user-account](../../assets/img/windows/user-account.webp)
 
 !!! note
     Microsoft is pushing users to use Microsoft accounts for other editions except Education and Enterprise after installation. 
@@ -20,7 +20,7 @@ For security, it's recommended to set up Windows Hello on all of your accounts b
 
 - [ ] Toggle off all privacy related settings as shown in the image:
 
-![Privacy Settings](/assets/img/windows/privacy-settings.webp)
+![Privacy Settings](../../assets/img/windows/privacy-settings.webp)
 ## Encrypting the Drive
 
 After you have installed Windows, turn on full disk encryption (FDE) using BitLocker via the Control Panel. 
@@ -30,7 +30,7 @@ After you have installed Windows, turn on full disk encryption (FDE) using BitLo
 
 The best way is to go to the Control Panel by searching for it in the Start Menu or from the context menu (right-click) in File Explorer and set it up for all of the drives that you have.
 
-![Bitlocker in Control Panel](/assets/img/windows/Bitlocker%20Group%20Policies/bitlocker-control%20panel.webp)
+![Bitlocker in Control Panel](../../assets/img/windows/Bitlocker%20Group%20Policies/bitlocker-control%20panel.webp)
 
 Bitlocker is suggested because of the native implementation by the OS and along with the usage of hardware to be resistant against encryption flaws.
 
@@ -45,8 +45,8 @@ General Policies :
 
 Go to `Computer Configuration` > `Administrative Templates` > `Windows Components` > `Bitlocker Drive Encryption`
 
-![Encryption & Cipher](/assets/img/windows/Bitlocker%20Group%20Policies/encryption-method-and-cipher.webp)
-![Disable DMA](/assets/img/windows/Bitlocker%20Group%20Policies/Disable%20DMA.webp)
+![Encryption & Cipher](../../assets/img/windows/Bitlocker%20Group%20Policies/encryption-method-and-cipher.webp)
+![Disable DMA](../../assets/img/windows/Bitlocker%20Group%20Policies/Disable%20DMA.webp)
 
 For OS drives : 
 
@@ -54,17 +54,17 @@ Go to `Computer Configuration` > `Administrative Templates` > `Windows Component
 
 Enable Group policies as in the images below <!--(Check images side by side)--> :
 
-![Enforcing full encryption](/assets/img/windows/Bitlocker%20Group%20Policies/enforce-full-encryption.webp)
-![secure boot integrity validation](/assets/img/windows/Bitlocker%20Group%20Policies/Secure-boot-integrity-validation.webp)
-![TPM & PIN](/assets/img/windows/Bitlocker%20Group%20Policies/TPM+PIN.webp)
-![enhanced PINS](/assets/img/windows/Bitlocker%20Group%20Policies/enhanced-pins.webp)
-![Disallow others changing PIN](/assets/img/windows/Bitlocker%20Group%20Policies/disallow-user-from-changing-PIN.webp)
+![Enforcing full encryption](../../assets/img/windows/Bitlocker%20Group%20Policies/enforce-full-encryption.webp)
+![secure boot integrity validation](../../assets/img/windows/Bitlocker%20Group%20Policies/Secure-boot-integrity-validation.webp)
+![TPM & PIN](../../assets/img/windows/Bitlocker%20Group%20Policies/TPM+PIN.webp)
+![enhanced PINS](../../assets/img/windows/Bitlocker%20Group%20Policies/enhanced-pins.webp)
+![Disallow others changing PIN](../../assets/img/windows/Bitlocker%20Group%20Policies/disallow-user-from-changing-PIN.webp)
 
 For Fixed Drives :
 
 Go to `Computer Configuration` > `Administrative Templates` > `Windows Components` > `Bitlocker Drive Encryption` > `Fixed Data Drives` > `Enforce drive encryption type on fixed data drives`
 
-![Encryption Type](/assets/img/windows/Bitlocker%20Group%20Policies/fixed-drives.webp)
+![Encryption Type](../../assets/img/windows/Bitlocker%20Group%20Policies/fixed-drives.webp)
 
 These policies ensure that your drives are encrypted with `XTS-AES-256` Bit encryption, **fully**.
 
@@ -158,7 +158,7 @@ You can also know how to check if it is enabled or not in the guide.
 - [x] **Enable** [Windows Defender in a Sandbox](https://www.microsoft.com/security/blog/2018/10/26/windows-defender-antivirus-can-now-run-in-a-sandbox/) by launching a **terminal** as an **administrator** and copy/paste this command ```setx /M MP_FORCE_USE_SANDBOX 1```. Restart your device and check if there's a process called **MsMpEngCP.exe** by typing `tasklist` in the terminal to verify.
     
 - [ ] Disable Autoplay for devices so that malware hidden in USB don't execute on plugging in
-    ![Disable autoplay](/assets/img/windows/autoplay.webp)
+    ![Disable autoplay](../../assets/img/windows/autoplay.webp)
 - [x] Enable [Controlled Folder Access](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/enable-controlled-folders) in Windows defender settings. So, The Important folders you listed for protection doesn't get attacked or held hostage in case of a ransomware attack and also stops apps from accessing your important folders. This could also be used as a firewall for the filesystem such as Choosing the drives in the protected ones. And allowing each app when it request access to your device.
 
 - [x] Enable [Microsoft Defender Application Guard](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview). After installing by going to "[Turn Windows Features on or off](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-application-guard/install-md-app-guard)" you can enable it. This runs Microsoft Edge in an Isolated Hyper-V container preventing unknown Malware from damaging the system.

@@ -109,6 +109,11 @@ nav:
       - 'os/android-overview.md'
       - 'os/linux-overview.md'
       - 'os/qubes-overview.md'
+      - Windows Overview:
+        - 'os/windows/index.md'
+        - 'os/windows/hardening.md'
+        - 'os/windows/privacy.md'
+        - 'os/windows/sandboxing.md'
     - Gevorderde onderwerpen:
       - 'advanced/dns-overview.md'
       - 'advanced/tor-overview.md'

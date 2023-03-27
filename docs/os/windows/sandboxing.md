@@ -49,11 +49,11 @@ At this point, it is difficult to differentiate between Win32 and UWP apps. To f
 
 When you see an app in store and scroll down to *Additional Information*  section and see if it asks for certain permissions like in the image below:
 
-![UWP in store](/assets/img/windows/UWP-in-MS-Store.webp)
+![UWP in store](../../assets/img/windows/UWP-in-MS-Store.webp)
 
 If the Win32 App, Microsoft store will explicitly state that it is`Provided and Updated by `****` ` and `Uses all System resources` as in the image below:
 
-![Win32 in store](/assets/img/windows/Win32-in-MS-Store.webp)
+![Win32 in store](../../assets/img/windows/Win32-in-MS-Store.webp)
 
 !!! note "Un-sandboxed UWP apps"
     Some UWP apps in the store due to the lift of restrictions in Microsoft store developers can submit the app with a property named `runFullTrust` which disables sandboxing of that UWP application and shows that `Uses all System Resources` in *Additional Information* section such as Firefox. By this you can know if a UWP app is sandboxed or not.
