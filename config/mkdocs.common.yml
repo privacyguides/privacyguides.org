@@ -19,6 +19,7 @@
 # IN THE SOFTWARE.
 
 extra:
+  context: !ENV [CONTEXT, "production"]
   social:
     - icon: simple/mastodon
       link: https://mastodon.neat.computer/@privacyguides
