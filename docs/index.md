@@ -4,6 +4,32 @@ hide:
   - navigation
   - toc
   - feedback
+schema:
+  - "@context": https://schema.org
+    "@type": Organization
+    "@id": https://www.privacyguides.org/
+    name: Privacy Guides
+    url: https://www.privacyguides.org/en/about/
+    logo: https://www.privacyguides.org/en/assets/brand/png/square/pg-yellow.png
+    sameAs:
+      - https://twitter.com/privacy_guides
+      - https://github.com/privacyguides
+      - https://www.wikidata.org/wiki/Q111710163
+      - https://opencollective.com/privacyguides
+      - https://www.youtube.com/@privacyguides
+      - https://mastodon.neat.computer/@privacyguides
+  - "@context": https://schema.org
+    "@type": WebSite
+    name: Privacy Guides
+    url: "https://www.privacyguides.org/"
+    sameAs:
+      - https://www.wikidata.org/wiki/Q111710163
+    potentialAction:
+      "@type": SearchAction
+      target:
+        "@type": EntryPoint
+        urlTemplate: "https://www.privacyguides.org/?q={search_term_string}"
+      query-input: required name=search_term_string
 ---
 <!-- markdownlint-disable-next-line -->
 ## Why should I care?
