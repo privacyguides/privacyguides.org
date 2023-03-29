@@ -1,7 +1,20 @@
 ---
-template: schema.html
 title: "About Privacy Guides"
 description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
+schema:
+  "@context": https://schema.org
+  "@type": Organization
+  "@id": https://www.privacyguides.org/
+  name: Privacy Guides
+  url: https://www.privacyguides.org/en/about/
+  logo: https://www.privacyguides.org/en/assets/brand/png/square/pg-yellow.png
+  sameAs:
+    - https://twitter.com/privacy_guides
+    - https://github.com/privacyguides
+    - https://www.wikidata.org/wiki/Q111710163
+    - https://opencollective.com/privacyguides
+    - https://www.youtube.com/@privacyguides
+    - https://mastodon.neat.computer/@privacyguides
 ---
 ![Privacy Guides logo](../assets/brand/png/square/pg-yellow.png){ align=right }
 

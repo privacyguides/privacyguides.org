@@ -67,3 +67,8 @@
     <strong>Visit privacyguides.org for current advice.</strong>
     </a>
 {% else %}{% endif %}{% endblock %}
+{% block extrahead %}{% if page and page.meta and page.meta.schema %}
+<script type="application/ld+json">
+{{ page.meta.schema|tojson }}
+</script>
+{% endif %}{% endblock %}
