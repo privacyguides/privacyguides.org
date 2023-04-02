@@ -72,7 +72,6 @@ theme:
 
 extra_css:
   - assets/stylesheets/extra.css?v=3.2.0
-  - assets/stylesheets/uswds.css
 extra_javascript:
   - assets/javascripts/mathjax.js
   - assets/javascripts/feedback.js

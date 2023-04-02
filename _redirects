@@ -26,8 +26,6 @@
 /  /nl/  302  Language=nl
 /  /en/  302
 
-/usa https://invidious.privacyguides.net/embed/dQw4w9WgXcQ?autoplay=1&local=true 302
-
 /.well-known/matrix/* https://matrix.privacyguides.org/.well-known/matrix/:splat 200
 
 /kb /en/basics/threat-modeling/
