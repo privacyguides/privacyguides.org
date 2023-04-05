@@ -2,6 +2,118 @@
 title: "מנהלי סיסמאות"
 icon: material/form-textbox-password
 description: מנהלי סיסמאות מאפשרים לך לאחסן ולנהל בצורה מאובטחת סיסמאות ואישורים אחרים.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": WebPage
+    name: Password Manager Recommendations
+    url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Bitwarden
+    image: /assets/img/password-management/bitwarden.svg
+    url: https://bitwarden.com
+    sameAs: https://en.wikipedia.org/wiki/Bitwarden
+    applicationCategory: מנהל הסיסמאות
+    operatingSystem:
+      - Windows
+      - macOS
+      - לינוקס
+      - אנדרואיד
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: 1Password
+    image: /assets/img/password-management/1password.svg
+    url: https://1password.com
+    sameAs: https://en.wikipedia.org/wiki/1Password
+    applicationCategory: מנהל הסיסמאות
+    operatingSystem:
+      - Windows
+      - macOS
+      - לינוקס
+      - אנדרואיד
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Psono
+    image: /assets/img/password-management/psono.svg
+    url: https://psono.com
+    applicationCategory: מנהל הסיסמאות
+    operatingSystem:
+      - אנדרואיד
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: KeePassXC
+    image: /assets/img/password-management/keepassxc.svg
+    url: https://keepassxc.org/
+    sameAs: https://en.wikipedia.org/wiki/KeePassXC
+    applicationCategory: מנהל הסיסמאות
+    operatingSystem:
+      - Windows
+      - macOS
+      - לינוקס
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: KeePassDX
+    image: /assets/img/password-management/keepassdx.svg
+    url: https://www.keepassdx.com/
+    applicationCategory: מנהל הסיסמאות
+    operatingSystem: אנדרואיד
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Strongbox
+    image: /assets/img/password-management/strongbox.svg
+    url: https://strongboxsafe.com/
+    applicationCategory: מנהל הסיסמאות
+    operatingSystem: iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: gopass
+    image: /assets/img/password-management/gopass.svg
+    url: https://www.gopass.pw/
+    applicationCategory: מנהל הסיסמאות
+    operatingSystem:
+      - Windows
+      - macOS
+      - לינוקס
+      - FreeBSD
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
 ---
 
 מנהלי סיסמאות מאפשרים לך לאחסן ולנהל בצורה מאובטחת סיסמאות ואישורים אחרים עם שימוש בסיסמת אב.

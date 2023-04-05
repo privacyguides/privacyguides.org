@@ -2,6 +2,79 @@
 title: "Android"
 icon: 'simple/android'
 description: Je kunt het besturingssysteem op jouw Android-telefoon vervangen door deze veilige en privacy respecterende alternatieven.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": WebPage
+    name: Privé Android besturingssystemen
+    url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": CreativeWork
+    name: Android
+    image: /assets/img/android/android.svg
+    url: https://source.android.com/
+    sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
+  - 
+    "@context": http://schema.org
+    "@type": CreativeWork
+    name: GrapheneOS
+    image: /assets/img/android/grapheneos.svg
+    url: https://grapheneos.org/
+    sameAs: https://en.wikipedia.org/wiki/GrapheneOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": CreativeWork
+    name: Divest
+    image: /assets/img/android/divestos.svg
+    url: https://divestos.org/
+    sameAs: https://en.wikipedia.org/wiki/DivestOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": Product
+    name: Pixel
+    brand:
+      "@type": Brand
+      name: Google
+    image: /assets/img/android/google-pixel.png
+    sameAs: https://en.wikipedia.org/wiki/Google_Pixel
+    review:
+      "@type": Review
+      author:
+        "@type": Organization
+        name: Privacy Guides
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Shelter
+    applicationCategory: Utilities
+    operatingSystem: Android
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Auditor
+    applicationCategory: Utilities
+    operatingSystem: Android
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Secure Camera
+    applicationCategory: Utilities
+    operatingSystem: Android
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Secure PDF Viewer
+    applicationCategory: Utilities
+    operatingSystem: Android
 ---
 
 ![Android logo](assets/img/android/android.svg){ align=right }
@@ -322,7 +395,7 @@ Dat gezegd zijnde, de [F-Droid](https://f-droid.org/en/packages/) en [IzzyOnDroi
 
 ## Criteria
 
-**Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je zich vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat het de juiste keuze voor je is.
+**Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
 
 !!! example "Deze sectie is nieuw"
 

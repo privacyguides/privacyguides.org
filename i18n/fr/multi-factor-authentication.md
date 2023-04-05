@@ -29,13 +29,13 @@ Pour les modèles qui supportent HOTP et TOTP, il y a 2 emplacements dans l'inte
 !!! warning "Avertissement"
     Le micrologiciel des YubiKeys n'est pas open source et ne peut pas être mis à jour. Si vous souhaitez obtenir des fonctionnalités dans des versions plus récentes du firmware, ou si la version du firmware que vous utilisez présente une vulnérabilité, vous devrez acheter une nouvelle clé.
 
-### Nitrokey / Librem Key
+### Nitrokey
 
 !!! recommendation
 
     ![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
     
-    **Nitrokey** possède une clé de sécurité qui supporte [FIDO2 et WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) appelée la **Nitrokey FIDO2**. Pour la prise en charge de PGP, vous devez acheter l'une de leurs autres clés comme la **Nitrokey Start**, la **Nitrokey Pro 2** ou la **Nitrokey Storage 2**.
+    **Nitrokey** possède une clé de sécurité qui prend en charge [FIDO2 et WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) appelée la **Nitrokey FIDO2**. Pour la prise en charge de PGP, vous devez acheter l'une de leurs autres clés comme la **Nitrokey Start**, la **Nitrokey Pro 2** ou la **Nitrokey Storage 2**.
     
     [:octicons-home-16: Page d'accueil](https://www.nitrokey.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="Politique de confidentialité" }
@@ -55,13 +55,9 @@ Pour les modèles qui supportent HOTP et TOTP, il y a 3 emplacements pour HOTP e
 
     La réinitialisation de l'interface OpenPGP sur une Nitrokey rendra également la base de données des mots de passe [inaccessible](https://docs.nitrokey.com/pro/factory-reset.html).
 
- La Nitrokey Pro 2, Nitrokey Storage 2 et la prochaine Nitrokey 3 prennent en charge la vérification de l'intégrité du système pour les ordinateurs portables équipés du micrologiciel [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/). La [Librem Key](https://puri.sm/products/librem-key/) de Purism est une NitroKey Pro 2 rebaptisée avec un micrologiciel similaire et peut également être utilisée pour les mêmes fins.
+La Nitrokey Pro 2, la Nitrokey Storage 2 et la Nitrokey 3 à venir prennent en charge la vérification de l'intégrité du système pour les ordinateurs portables dotés du micrologiciel [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) .
 
-Le micrologiciel de Nitrokey est open-source, contrairement à la YubiKey. Le micrologiciel des modèles NitroKey modernes (à l'exception de la **NitroKey Pro 2**) peut être mis à jour.
-
-!!! tip "Conseil"
-
-    L'application Nitrokey, bien que compatible avec les clés Librem, nécessite la version 3.6 ou supérieure de `libnitrokey` pour les reconnaître. Actuellement, le paquet est périmé sur Windows, macOS, et sur la plupart des dépôts des distributions Linux, donc vous devrez probablement compiler l'application Nitrokey vous-même pour la faire fonctionner avec la clé Librem. Sous Linux, vous pouvez obtenir une version à jour à partir de [Flathub](https://flathub.org/apps/details/com.nitrokey.nitrokey-app).
+Le micrologiciel de la Nitrokey est open-source, contrairement à la YubiKey. Le micrologiciel des modèles NitroKey modernes (à l'exception de la **NitroKey Pro 2**) peut être mis à jour.
 
 ### Critères
 

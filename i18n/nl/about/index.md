@@ -1,28 +1,39 @@
 ---
-template: schema.html
 title: "Over Privacy Guides"
 description: Privacy Guides is een sociaal gemotiveerde website die informatie biedt voor de bescherming van jouw gegevens en privacy.
+schema:
+  "@context": https://schema.org
+  "@type": Organization
+  "@id": https://www.privacyguides.org/
+  name: Privacy Guides
+  url: https://www.privacyguides.org/en/about/
+  logo: https://www.privacyguides.org/en/assets/brand/png/square/pg-yellow.png
+  sameAs:
+    - https://twitter.com/privacy_guides
+    - https://github.com/privacyguides
+    - https://www.wikidata.org/wiki/Q111710163
+    - https://opencollective.com/privacyguides
+    - https://www.youtube.com/@privacyguides
+    - https://mastodon.neat.computer/@privacyguides
 ---
 
 ![Privacy Guides logo](../assets/brand/png/square/pg-yellow.png){ align=right }
 
-**Privacy Guides** is een sociaal gemotiveerde website die [informatie biedt](/kb) voor de bescherming van jouw gegevens en privacy. Wij zijn een non-profit collectief dat volledig wordt beheerd door vrijwillige [teamleden](https://discuss.privacyguides.net/g/team) en bijdragers. Onze website is vrij van advertenties en niet geaffilieerd met andere aanbieders in de lijst.
+**Privacy Guides** is een sociaal gemotiveerde website die [informatie biedt](/kb) voor de bescherming van jouw gegevens en privacy. Onze missie is om het publiek te informeren over de waarde van digitale privacy, en wereldwijde overheidsinitiatieven die erop gericht zijn jouw online activiteiten te controleren. Wij zijn een non-profit collectief dat volledig wordt beheerd door vrijwillige [teamleden](https://discuss.privacyguides.net/g/team) en bijdragers. Onze website is vrij van advertenties en niet geaffilieerd met andere aanbieders in de lijst.
 
 [:octicons-home-16:](https://www.privacyguides.org/){ .card-link title=Homepage }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Broncide" }
 [:octicons-heart-16:](donate.md){ .card-link title=Bijdrage leveren }
 
-Het doel van Privacy Guides is om onze community te informeren over het belang van online privacy en overheidsprogramma 's die zijn ontworpen om al jouw online activiteiten te controleren.
-
 > Om [privacygerichte alternatieve] apps te vinden, kunt je kijken op sites als Good Reports en **Privacy Guides**, waar privacygerichte apps in verschillende categorieën worden genoemd, waaronder e-mailproviders (meestal tegen betaling) die niet worden beheerd door de grote techbedrijven.
 
-— [New York Times](https://www.nytimes.com/wirecutter/guides/online-security-social-media-privacy/) [Vertaald uit het Engels]
+— [New York Times](https://www.nytimes.com/wirecutter/guides/online-security-social-media-privacy/)
 
 > Als je op zoek bent naar een nieuwe vpn, kun je terecht bij de kortingscode van zowat iedere willekeurige podcast. Als je op zoek bent naar een **goéde** vpn, heb je professionele hulp nodig. Hetzelfde geldt voor e-mailclients, browsers, besturingssystemen en wachtwoordmanagers. Hoe weet je welke daarvan de beste, privacyvriendelijkste optie is? Daarvoor is er **Privacy Guides**, een platform waarop een aantal vrijwilligers dag in, dag uit zoekt naar de beste privacyvriendelijke tools om internet mee op te gaan.
 
 — [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html)
 
-Ook uitgelicht op: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], en [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
+Ook verschenen op: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], [NPO Radio 1](https://www.nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), en [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
 
 ## Geschiedenis
 
@@ -82,7 +93,9 @@ Onze teamleden bekijken alle wijzigingen aan de website en nemen administratieve
 
 ## Site Licentie
 
-*Het volgende is een menselijk leesbare samenvatting van (en geen vervanging voor) de [licentie](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE):*
+!!! danger ""
+
+    Het volgende is een menselijk leesbare samenvatting van (en geen vervanging voor) de licentie).
 
 :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Tenzij anders vermeld, wordt de oorspronkelijke inhoud van deze website beschikbaar gesteld onder de [Creative Commons Naamsvermelding-Niet-afgeleide producten 4.0 Internationale Openbare Licentie](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Dit betekent dat u vrij bent om het materiaal te kopiëren en opnieuw te verspreiden in elk medium of formaat voor elk doel, zelfs commercieel; zolang u gepaste eer geeft aan `Privacy Guides (www.privacyguides.org)` en een link geeft naar de licentie. U **mag de Privacy Guides branding niet** gebruiken in uw eigen project zonder uitdrukkelijke toestemming van dit project. Als u de inhoud van deze website remixt, transformeert of erop voortbouwt, mag u het gewijzigde materiaal niet verspreiden.
 

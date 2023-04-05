@@ -1,7 +1,5 @@
 ---
-title: "Közlemények és Nyilatkozatok"
-hide:
-  - toc
+title: "Notices and Disclaimers"
 ---
 
 ## Jogi Nyilatkozat
@@ -14,21 +12,26 @@ A Privacy Guides egy nyílt forráskódú projekt, amelyhez olyan licencek alapj
 
 A Privacy Guides továbbá nem garantálja, hogy ez a weboldal folyamatosan vagy egyáltalán elérhető lesz.
 
-## Licencek
+## Licensing Overview
 
-Eltérő megjegyzés hiányában a weboldalon található minden tartalom a [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE) feltételei szerint érhető el.
+!!! danger ""
+
+    The following is a human-readable summary of (and not a substitute for) the [license](/license).
+
+Unless otherwise noted, all **content** on this website is made available under the terms of the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). The underlying **source code** used to generate this website and display that content is released under the [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 
 Ez nem vonatkozik az ebbe az adattárba beágyazott, harmadik féltől származó kódra, illetve azokra a kódokra, amelyeknél a helyettesítő licenc másként van feltüntetve. Az alábbi példák figyelemre méltóak, de ez a lista nem feltétlenül teljes:
 
-* A [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/mathjax.js) az [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt) licenc alatt áll.
-
-A közlemény egyes részei a GitHub-on található [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) dokumentumból lettek átvéve. Az a forrás és ez az oldal maga a [CC-BY-4.0](https://github.com/github/opensource.guide/blob/master/LICENSE) alatt van kiadva.
+* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) is licensed under the [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
+* The [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
+* The [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
+* The [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
 
 Ez azt jelenti, hogy az ebben a adattárban található, ember által olvasható tartalmat felhasználhatod saját projektedhez, a Creative Commons Attribution-NoDerivatives 4.0 International Public License szövegben foglalt feltételei szerint. Te **nem** használhatod a Privacy Guides márkajelzéseit saját projektedben ennek a projektnek a kifejezett jóváhagyása nélkül. Te **nem** használhatod a Privacy Guides márkajelzéseit saját projektedben ennek a projektnek a kifejezett jóváhagyása nélkül. A Privacy Guides márkavédjegyei közé tartozik a "Privacy Guides" szóvédjegy és a pajzs logó.
 
 Úgy véljük, hogy az `assets`-ekben található logók és egyéb, harmadik féltől származó képek vagy közkincsek, vagy **fair use** alatt állnak. Dióhéjban, a jogi [fair use elmélet](https://www.copyright.gov/fair-use/more-info.html) lehetővé teszi a szerzői joggal védett képek felhasználását a téma azonosítása érdekében nyilvános komment céljából. Ezek a logók és egyéb képek azonban egy vagy több joghatóságban továbbra is védjegyekre vonatkozó törvények hatálya alá tartozhatnak. Mielőtt felhasználnád ezt a tartalmat, kérjük, győződj meg arról, hogy a védjegyet a védjegyegy tulajdonló entitás, vagy szervezet azonosítására használatos, illetve hogy az általad tervezett felhasználás körülményei között alkalmazandó törvények értelmében jogosult vagy-e annak használatára. *A weboldal tartalmának másolásakor kizárólag te vagy felelős azért, hogy ne sértsd meg más védjegyét vagy szerzői jogát.*
 
-Amikor hozzájárulsz ehhez az adattárhoz, akkor ezt a fenti licencek alapján teszed, és te egy örökkévaló, világméretű, nem kizárólagos, átruházható, jogdíjmentes, visszavonhatatlan licenct nyújtasz a Privacy Guidesnak, amely jogot biztosít arra, hogy al-licencencelje az efféle jogokat al-licencek több szintjén keresztül, hogy a projektünk részeként reprodukálja, módosítsa, megjelenítse, bemutassa, előadja és terjessze a hozzájárulásodat.
+When you contribute to our website you are doing so under the above licenses, and you are granting Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
 
 ## Elfogadható Használat
 
@@ -41,3 +44,7 @@ Kifejezett írásbeli hozzájárulás nélkül nem végezhetsz semmilyen sziszte
 * Scrapelés
 * Adatbányászat
 * 'Framelés' (IFramek)
+
+---
+
+*A közlemény egyes részei a GitHub-on található [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) dokumentumból lettek átvéve. That resource and this page itself are released under [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

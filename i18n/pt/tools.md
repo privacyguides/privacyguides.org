@@ -136,8 +136,8 @@ For more details about each project, why they were chosen, and additional tips o
 
 <div class="grid cards" markdown>
 
-- ![Logótipo mail-in-a-Box](/assets/img/email/mail-in-a-box.svg){ .twemoji } [Mail-in-a-Box](https://mailinabox.email/)
-- ![logótipo mailcow](/assets/img/email/mailcow.svg){ .twemoji } [mailcow](https://mailcow.email/)
+- ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
+- ![Tresorit logo](assets/img/cloud/tresorit.svg){ .twemoji } [Tresorit](cloud.md#tresorit)
 
 </div>
 
@@ -396,9 +396,10 @@ Recomendamos armazenar uma chave de recuperação local em um local seguro, em v
 
 <div class="grid cards" markdown>
 
-- ![logótipo Tor](./assets/img/self-contained-networks/tor.svg){ .twemoji } [Tor](https://www.torproject.org/)
-- ![logótipo I2P](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji } ![logótipo I2P](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji } [I2P](https://geti2p.net/)
-- ![Logotipo Freenet](./assets/img/self-contained-networks/freenet.svg){ .twemoji } [Freenet](https://freenetproject.org/)
+- ![YubiKeys](assets/img/multi-factor-authentication/mini/yubico.svg){ .twemoji } [YubiKey](multi-factor-authentication.md#yubikey)
+- ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji } [Nitrokey](multi-factor-authentication.md#nitrokey)
+- ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji } [Aegis Authenticator](multi-factor-authentication.md#aegis-authenticator)
+- ![Raivo OTP logo](assets/img/multi-factor-authentication/raivo-otp.png){ .twemoji } [Raivo OTP](multi-factor-authentication.md#raivo-otp)
 
 </div>
 

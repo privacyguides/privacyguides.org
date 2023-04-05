@@ -2,6 +2,118 @@
 title: "Jelszókezelők"
 icon: material/form-textbox-password
 description: Password managers allow you to securely store and manage passwords and other credentials.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": WebPage
+    name: Password Manager Recommendations
+    url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Bitwarden
+    image: /assets/img/password-management/bitwarden.svg
+    url: https://bitwarden.com
+    sameAs: https://en.wikipedia.org/wiki/Bitwarden
+    applicationCategory: Password Manager
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+      - Android
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: 1Password
+    image: /assets/img/password-management/1password.svg
+    url: https://1password.com
+    sameAs: https://en.wikipedia.org/wiki/1Password
+    applicationCategory: Password Manager
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+      - Android
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Psono
+    image: /assets/img/password-management/psono.svg
+    url: https://psono.com
+    applicationCategory: Password Manager
+    operatingSystem:
+      - Android
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: KeePassXC
+    image: /assets/img/password-management/keepassxc.svg
+    url: https://keepassxc.org/
+    sameAs: https://en.wikipedia.org/wiki/KeePassXC
+    applicationCategory: Password Manager
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: KeePassDX
+    image: /assets/img/password-management/keepassdx.svg
+    url: https://www.keepassdx.com/
+    applicationCategory: Password Manager
+    operatingSystem: Android
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Strongbox
+    image: /assets/img/password-management/strongbox.svg
+    url: https://strongboxsafe.com/
+    applicationCategory: Password Manager
+    operatingSystem: iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: gopass
+    image: /assets/img/password-management/gopass.svg
+    url: https://www.gopass.pw/
+    applicationCategory: Password Manager
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+      - FreeBSD
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
 ---
 
 Password managers allow you to securely store and manage passwords and other credentials with the use of a master password.

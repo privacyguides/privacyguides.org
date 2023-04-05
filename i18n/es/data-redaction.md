@@ -1,7 +1,7 @@
 ---
-title: "Data and Metadata Redaction"
+title: "Edición de Datos y Metadatos"
 icon: material/tag-remove
-description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
+description: Utiliza estas herramientas para eliminar metadatos como la ubicación GPS y otros datos identificativos de las fotos y archivos que compartas.
 ---
 
 Cuando compartas archivos, asegúrate de eliminar los metadatos asociados. Los archivos de imagen suelen incluir Datos [Exif](https://es.wikipedia.org/wiki/Exchangeable_image_file_format). A veces, las fotos incluyen incluso coordenadas GPS en los metadatos del archivo.
@@ -29,7 +29,7 @@ Cuando compartas archivos, asegúrate de eliminar los metadatos asociados. Los a
         - [:simple-linux: Linux](https://pypi.org/project/mat2)
         - [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
 
-## Firmware del Router
+## Móvil
 
 ### ExifEraser (Android)
 
@@ -71,12 +71,12 @@ La aplicación ofrece múltiples formas de borrar los metadatos de las imágenes
 
 !!! recomendación
 
-    ![Metapho logo](assets/img/data-redaction/metapho.jpg){ align=right }
+    ![Logo de Metapho](assets/img/data-redaction/metapho. pg){ align=right }
     
-    **Metapho** is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
+    **Metapho** es un visor simple y limpio para metadatos de fotos como fecha, nombre de archivo, tamaño, modelo de cámara, velocidad de obturación y ubicación.
     
-    [:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
+    [:octicons-home-16: Inicio](https://zininworks.com/metapho){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Politica de privacidad" }
     
     ??? downloads
     
@@ -86,60 +86,60 @@ La aplicación ofrece múltiples formas de borrar los metadatos de las imágenes
 
 !!! recomendación
 
-    ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ align=right }
+    ![Logotipo de PrivacyBlur](assets/img/data-redaction/privacyblur.svg){ align=right }
     
-    **PrivacyBlur** is a free app which can blur sensitive portions of pictures before sharing them online.
+    **PrivacyBlur** es una aplicación gratuita que permite difuminar partes sensibles de las imágenes antes de compartirlas en Internet.
     
-    [:octicons-home-16: Homepage](https://privacyblur.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
+    [:octicons-home-16: Inicio](https://privacyblur.app/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Politica de privacidad" }
+    [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Código fuente" }
     
     ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
 
-!!! warning
+!!! Advertencia
 
-    You should **never** use blur to redact [text in images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, draw a box over the text. For this, we suggest apps like [Pocket Paint](https://github.com/Catrobat/Paintroid).
+    No se debe **nunca** utilizar el desenfoque para redactar [texto en imágenes](https://bishopfox.com/blog/unredacter-tool-never-pixelation). Si desea redactar texto en una imagen, dibuje un recuadro sobre el texto. Para ello, te sugerimos aplicaciones como [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
-## Command-line
+## Línea de comandos
 
 ### ExifTool
 
 !!! recomendación
 
-    ![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
+    ![Logotipo de ExifTool](assets/img/data-redaction/exiftool.png){ align=right }
     
-    **ExifTool** is the original perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
+    **ExifTool** es la biblioteca perl original y la aplicación de línea de comandos para leer, escribir y editar meta información (Exif, IPTC, XMP y más) en una amplia variedad de formatos de archivo (JPEG, TIFF, PNG, PDF, RAW y más).
     
-    It's often a component of other Exif removal applications and is in most Linux distribution repositories.
+    Suele ser un componente de otras aplicaciones de eliminación de Exif y se encuentra en la mayoría de los repositorios de las distribuciones de Linux.
     
-    [:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
+    [:octicons-home-16: Inicio](https://exiftool.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Código fuente" }
+    [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribuir }
     
-    ??? downloads
+    ??? Descargas
     
         - [:simple-windows11: Windows](https://exiftool.org)
         - [:simple-apple: macOS](https://exiftool.org)
         - [:simple-linux: Linux](https://exiftool.org)
 
-!!! example "Deleting data from a directory of files"
+!!! Ejemplo "Borrar datos de un directorio de archivos"
 
     ```bash
-    exiftool -all= *.file_extension
+    exiftool -all= *.extensión_archivo
     ```
 
-## Criteria
+## Criterios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Por favor, ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
-!!! example "This section is new"
+!!! Ejemplo "Esta sección es nueva"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tienes alguna duda sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 
-- Apps developed for open-source operating systems must be open-source.
-- Apps must be free and should not include ads or other limitations.
+- Las aplicaciones desarrolladas para sistemas operativos de código abierto deben ser de código abierto.
+- Las aplicaciones deben ser gratuitas y no incluir anuncios ni otras limitaciones.

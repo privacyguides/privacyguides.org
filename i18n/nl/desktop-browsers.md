@@ -2,6 +2,41 @@
 title: "Desktop Browsers"
 icon: material/laptop
 description: Firefox en Brave zijn onze aanbevelingen voor standaard/niet-anoniem browsen.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": WebPage
+    name: Aanbevelingen voor privé desktopbrowsers
+    url: "./"
+    relatedLink: "../mobile-browsers/"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Firefox
+    image: /assets/img/browsers/firefox.svg
+    url: https://firefox.com
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Brave
+    image: /assets/img/browsers/brave.svg
+    url: https://brave.com
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+    subjectOf:
+      "@type": WebPage
+      url: "./"
 ---
 
 Dit zijn momenteel onze aanbevolen mobiele webbrowsers en configuraties. In het algemeen raden we aan om extensies tot een minimum te beperken: ze hebben geprivilegieerde toegang binnen jouw browser, vereisen dat je de ontwikkelaar vertrouwt, kunnen je [doen opvallen](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), en [verzwakken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-Uchnm34/m/lDaXwQhzBAAJ) site-isolatie. In het algemeen raden wij aan jouw browserextensies tot een minimum te beperken; ze hebben bevoorrechte toegang binnen jouw browser, vereisen dat je de ontwikkelaar vertrouwt, kunnen je [doen opvallen](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), en [verzwakt](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) de site-isolatie.
@@ -226,7 +261,7 @@ Dit zijn enkele andere [filterlijsten](https://github.com/gorhill/uBlock/wiki/Da
 
 ## Criteria
 
-**Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je zich vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat het de juiste keuze voor je is.
+**Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
 
 !!! example "Deze sectie is nieuw"
 

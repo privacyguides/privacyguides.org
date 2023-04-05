@@ -1,18 +1,29 @@
 ---
-template: schema.html
 title: "Über Privacy Guides"
 description: Privacy Guides ist eine sozial motivierte Website, die Informationen zum Schutz der eigenen Datensicherheit und Privatsphäre bereitstellt.
+schema:
+  "@context": https://schema.org
+  "@type": Organization
+  "@id": https://www.privacyguides.org/
+  name: Privacy Guides
+  url: https://www.privacyguides.org/en/about/
+  logo: https://www.privacyguides.org/en/assets/brand/png/square/pg-yellow.png
+  sameAs:
+    - https://twitter.com/privacy_guides
+    - https://github.com/privacyguides
+    - https://www.wikidata.org/wiki/Q111710163
+    - https://opencollective.com/privacyguides
+    - https://www.youtube.com/@privacyguides
+    - https://mastodon.neat.computer/@privacyguides
 ---
 
 ![Privacy Guides logo](../assets/brand/png/square/pg-yellow.png){ align=right }
 
-**Privacy Guides** ist eine sozial motivierte Website, die [Informationen](/kb) zum Schutz der eigenen Datensicherheit und Privatsphäre bereitstellt. Wir sind ein gemeinnütziges Kollektiv, welches ausschließlich von freiwilligen [Teammitgliedern](https://discuss.privacyguides.net/g/team) und Mitwirkenden betrieben wird. Unsere Website ist frei von Werbung und steht in keiner Verbindung zu den aufgeführten Anbieter*innen.
+**Privacy Guides** ist eine sozial motivierte Website, die [Informationen](/kb) zum Schutz der eigenen Datensicherheit und Privatsphäre bereitstellt. Our mission is to inform the public about the value of digital privacy, and global government initiatives which aim to monitor your online activity. Wir sind ein gemeinnütziges Kollektiv, welches ausschließlich von freiwilligen [Teammitgliedern](https://discuss.privacyguides.net/g/team) und Mitwirkenden betrieben wird. Our website is free of advertisements and not affiliated with any of the listed providers.
 
 [:octicons-home-16:](https://www.privacyguides.org/){ .card-link title=Homepage }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
 [:octicons-heart-16:](donate.md){ .card-link title=Contribute }
-
-The purpose of Privacy Guides is to educate our community on the importance of privacy online and government programs internationally that are designed to monitor all of your online activities.
 
 > Um [datenschutzfreundliche alternative] Apps zu finden, besuchen Sie Websites wie Good Reports und **Privacy Guides**, die datenschutzfreundliche Apps in einer Vielzahl von Kategorien auflisten, darunter auch E-Mail-Anbieter (in der Regel mit kostenpflichtigen Tarifen), die nicht von den großen Technologieunternehmen betrieben werden.
 
@@ -22,7 +33,7 @@ The purpose of Privacy Guides is to educate our community on the importance of p
 
 — [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Translated from Dutch]
 
-Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], and [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
+Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], [NPO Radio 1](https://www.nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), and [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
 
 ## History
 
@@ -76,13 +87,15 @@ So far in 2023 we've launched international translations of our website in [Fren
     - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
-Darüber hinaus haben [viele Menschen](https://github.com/privacyguides/privacyguides.org/graphs/contributors) Beiträge zu dem Projekt geleistet. Und du kannst auch, wir sind Open Source auf GitHub und nehmen Übersetzungsvorschläge auf [Crowdin](https://crowdin.com/project/privacyguides) an.
+Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open sourced on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
-Unsere Teammitglieder überprüfen alle Änderungen, die an der Website vorgenommen werden, und kümmern sich um administrative Aufgaben wie Webhosting und Finanzen, allerdings profitieren sie nicht persönlich von den Beiträgen, die zu dieser Website geleistet werden. Unsere Finanzdaten werden von der Open Collective Foundation 501(c)(3) unter [opencollective.com/privacyguides](https://opencollective.com/privacyguides)transparent veröffentlicht. Spenden an Privacy Guides sind in den Vereinigten Staaten generell von der Steuer absetzbar.
+Our team members review all changes made to the website and handle administrative duties such as web hosting and financials, however they do not personally profit from any contributions made to this site. Our financials are transparently hosted by the Open Collective Foundation 501(c)(3) at [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Donations to Privacy Guides are generally tax-deductible in the United States.
 
 ## Website-Lizenz
 
-*Das Folgende ist eine menschenlesbare Zusammenfassung (und kein Ersatz für) der [Lizenz](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE):*
+!!! danger ""
+
+    The following is a human-readable summary of (and not a substitute for) the [license](/license).
 
 :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Sofern nicht anders angegeben, werden die Originalinhalte auf dieser Website unter der [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE)zur Verfügung gestellt. Das bedeutet, dass es allen freisteht, das Material in jedem Medium oder Format für jeden Zweck, auch kommerziell, zu kopieren und weiterzugeben, solange `Privacy Guides (www.privacyguides.org)` in angemessener Anerkannt und ein Link zur Lizenz angeben wird. You may do so in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use. If you remix, transform, or build upon the content of this website, you may not distribute the modified material.
 

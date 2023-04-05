@@ -2,6 +2,40 @@
 title: "常见误区"
 icon: 'material/robot-confused'
 description: Privacy isn't a straightforward topic, and it's easy to get caught up in marketing claims and other disinformation.
+schema:
+  - 
+    "@context": https://schema.org
+    "@type": FAQPage
+    mainEntity:
+      - 
+        "@type": Question
+        name: Is open source software inherently secure?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Whether the source code is available and how software is licensed does not inherently affect its security in any way. Open-source software has the potential to be more secure than proprietary software, but there is absolutely no guarantee this is the case. When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+      - 
+        "@type": Question
+        name: Can shifting trust to another provider increase privacy?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            在讨论像VPN这样的解决方案时，我们经常谈到 "转移信任"（它将你对ISP的信任转移到VPN供应商身上）。 While this protects your browsing data from your ISP specifically, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties.
+      - 
+        "@type": Question
+        name: Are privacy-focused solutions inherently trustworthy?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            仅仅关注一个工具或供应商的隐私政策和营销，会让你看不到它的弱点。 当你在寻找一个更私人的解决方案时，你应该确定根本的问题是什么，并为这个问题找到技术解决方案。 例如，您可能希望避免使用Google云端硬盘，因为它允许Google访问您的所有数据。 The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like Cryptomator) which provides E2EE on any cloud provider. 转换到一个 "注重隐私 "的供应商（不实施E2EE）并不能解决你的问题：它只是将信任从谷歌转移到该供应商。
+      - 
+        "@type": Question
+        name: How complicated should my threat model be?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            我们经常看到人们描述的隐私威胁模型过于复杂。 通常情况下，这些解决方案包括许多不同的电子邮件账户或有许多移动部件和条件的复杂设置等问题。 The replies are usually answers to "What is the best way to do X?"
+            为自己寻找 "最佳 "解决方案并不一定意味着你要追求一个有几十种条件的无懈可击的解决方案--这些解决方案往往难以现实地发挥作用。 正如我们之前所讨论的，安全往往是以便利为代价的。
 ---
 
 ## “开源软件始终是安全的”或“专有软件更安全”

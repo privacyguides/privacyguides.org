@@ -70,7 +70,7 @@ Proton Mail [accepts](https://proton.me/support/payment-options) cash by mail in
 
 #### :material-check:{ .pg-green } Account Security
 
-Proton Mail supports TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) only. The use of a U2F security key is not yet supported. Proton Mail is planning to implement U2F upon completion of their [Single Sign On (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/) code.
+Proton Mail supports TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two factor authentication first.
 
 #### :material-check:{ .pg-green } Data Security
 

@@ -1,12 +1,12 @@
 ---
 title: "DNS Çözümleyicileri"
 icon: material/dns
-description: These are some encrypted DNS providers we recommend switching to, to replace your ISP's default configuration.
+description: Bunlar, İSS'nizin varsayılan yapılandırmasını değiştirmek için geçiş yapmanızı önerdiğimiz bazı şifreli DNS sağlayıcılarıdır.
 ---
 
-Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Şifrelenmiş DNS internet faaliyetlerinizi gizlemenize yardımcı olmaz.
+Üçüncü taraf sunucularla şifrelenmiş DNS, yalnızca herhangi bir sonucu olmayacağından emin olduğunuzda temel [DNS Engellemesini](https://en.wikipedia.org/wiki/DNS_blocking) aşmak için kullanılmalıdır. Şifrelenmiş DNS internet faaliyetlerinizi gizlemenize yardımcı olmaz.
 
-[Learn more about DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
+[DNS hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
 ## Önerilen Sağlayıcılar
 
@@ -44,13 +44,13 @@ iOS, iPadOS, tvOS ve macOS'in en son sürümleri hem DoT hem de DoH'yi desteklem
 
 Bir yapılandırma profili veya DNS Ayarları API'sini kullanan bir uygulama yüklendikten sonra DNS yapılandırması seçilebilir. Bir VPN etkinse, VPN tüneli içindeki çözünürlük, sistem genelindeki ayarlarınızı değil VPN'in DNS ayarlarını kullanacaktır.
 
-#### Signed Profiles
+#### İmzalı Profiller
 
-Apple does not provide a native interface for creating encrypted DNS profiles. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) is an unofficial tool for creating your own encrypted DNS profiles, however they will not be signed. Signed profiles are preferred; signing validates a profile's origin and helps to ensure the integrity of the profiles. A green "Verified" label is given to signed configuration profiles. For more information on code signing, see [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **Signed profiles** are offered by [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), and [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/).
+Apple şifrelenmiş DNS profilleri oluşturmak için yerel bir arayüz sağlamaz. [Güvenli DNS profil oluşturucu](https://dns.notjakob.com/tool.html) kendi şifreli DNS profillerinizi oluşturmak için resmi olmayan bir araçtır, ancak bunlar imzalanmayacaktır. İmzalanmış profiller tercih edilir; imzalama profilin kaynağını doğrular ve profillerin bütünlüğünü sağlamaya yardımcı olur. İmzalanmış yapılandırma profillerine yeşil bir "Doğrulandı" etiketi verilir. Kod imzalama hakkında daha fazla bilgi için bkz. [Kod İmzalama Hakkında](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **İmzalı profiller** [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io)ve [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/)tarafından sunulmaktadır.
 
-!!! info
+!!! bilgi
 
-    `systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+    Birçok Linux dağıtımının DNS aramalarını yapmak için kullandığı `systemd-resolved` henüz [DoH'u desteklemiyor] (https://github.com/systemd/systemd/issues/8639). DoH kullanmak istiyorsanız, sistem çözümleyicinizden tüm DNS sorgularını almak ve HTTPS üzerinden iletmek için [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) gibi bir proxy yüklemeniz ve [yapılandırmanız] (https://wiki.archlinux.org/title/Dnscrypt-proxy) gerekir.
 
 ## Encrypted DNS Proxies
 

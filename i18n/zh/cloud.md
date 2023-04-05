@@ -4,21 +4,21 @@ icon: material/file-cloud
 description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
 ---
 
-许多云存储供应商需要你完全信任他们不会查看你的文件。 下面列出的替代方案通过让你控制你的数据或通过实施E2EE来消除对信任的需求。
+许多云存储供应商需要你完全信任他们不会查看你的文件。 The alternatives listed below eliminate the need for trust by implementing secure E2EE.
 
-如果这些替代品不能满足你的需求，我们建议你看看 [加密软件](encryption.md)。
+If these alternatives do not fit your needs, we suggest you look into using encryption software like [Cryptomator](encryption.md#cryptomator-cloud) with another cloud provider. Using Cryptomator in conjunction with **any** cloud provider (including these) may be a good idea to reduce the risk of encryption flaws in a provider's native clients.
 
 ??? 问题 "寻找Nextcloud？"
 
-    Nextcloud是[仍然是一个推荐的工具](生产力.md)，用于自我托管文件管理套件，然而我们目前不推荐第三方Nextcloud存储提供商，因为我们不推荐家庭用户使用Nextcloud的内置E2EE功能。
+    Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
 
 ## Proton Drive（Proton 云盘）
 
 !!! recommendation
 
-    ![Proton Drive徽标](assets/img/cloud/protondrive.svg){ align=right }
+    ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
     
-    **Proton Drive** 是由流行的加密电子邮件提供商 [Proton Mail](https://proton.me/mail) 提供的E2EE通用文件存储服务。
+    **Proton Drive** is a Swiss encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
     
     [:octicons-home-16: 主页](https://grapheneos.org/){ .md-button .md-button--primary }
     
@@ -30,6 +30,43 @@ description: Many cloud storage providers require your trust that they will not 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
         - [:simple-appstore: Web](https://apps.apple.com/app/id1509667851)
 
+The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/blog/security-audit-all-proton-apps), full details were not made available, but Securitum's letter of attestation states:
+
+> Auditors identified two low-severity vulnerabilities. Additionally, five general recommendations were reported. At the same time, we confirm that no important security issues were identified during the pentest.
+
+Proton Drive's brand new mobile clients have not yet been publicly audited by a third-party.
+
+## Tresorit
+
+!!! recommendation
+
+    ![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
+    
+    **Tresorit** is a Hungarian encrypted cloud storage provider founded in 2011. Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
+    
+    [:octicons-home-16: Homepage](https://tresorit.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
+    
+    ??? downloads
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
+        - [:simple-windows11: Windows](https://tresorit.com/download)
+        - [:simple-apple: macOS](https://tresorit.com/download)
+        - [:simple-linux: Linux](https://tresorit.com/download)
+
+Tresorit has received a number of independent security audits:
+
+- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification/): ISO/IEC 27001:2013[^1] Compliance [Certification](https://www.certipedia.com/quality_marks/9108644476) by TÜV Rheinland InterCert Kft
+- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security/): Penetration Testing by Computest
+    - This review assessed the security of the Tresorit web client, Android app, Windows app, and associated infrastructure.
+    - Computest discovered two vulnerabilities which have been resolved.
+- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture/): Penetration Testing by Ernst & Young.
+    - This review analyzed the full source code of Tresorit and validated that the implementation matches the concepts described in Tresorit's [white paper](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf).
+    - Ernst & Young additionally tested the web, mobile, and desktop clients: "Test results found no deviation from Tresorit’s data confidentiality claims."
+
+They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://www.swiss-digital-initiative.org/digital-trust-label/) which requires passing [35 criteria](https://digitaltrust-label.swiss/criteria/) related to security, privacy, and reliability.
 
 ## Criteria
 
@@ -58,3 +95,5 @@ Our best-case criteria represents what we would like to see from the perfect pro
     - 这些客户端应该与云存储供应商的本地操作系统工具集成，如iOS上的Files应用集成，或Android上的DocumentsProvider功能。
 - 应支持与其他用户轻松分享文件。
 - 应在网络界面上至少提供基本的文件预览和编辑功能。
+
+[^1]: [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001):2013 compliance relates to the company's [information security management system](https://en.wikipedia.org/wiki/Information_security_management) and covers the sales, development, maintenance and support of their cloud services.

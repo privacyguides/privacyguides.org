@@ -8,21 +8,21 @@ Secara umum, [pedoman bahasa sederhana federal Amerika Serikat](https://www.plai
 
 ## Menulis untuk audiens kami
 
-Privacy Guides' intended [audience](https://www.plainlanguage.gov/guidelines/audience/) is primarily average, technology using adults. Don't dumb down content as if you are addressing a middle-school class, but don't overuse complicated terminology about concepts average computer users wouldn't be familiar with.
+[Audiens](https://www.plainlanguage.gov/guidelines/audience/) yang dituju oleh Privacy Guides terutama adalah orang dewasa yang menggunakan teknologi. Jangan membuat konten yang bodoh seolah-olah Anda sedang berbicara kepada kelas sekolah menengah, tetapi jangan terlalu sering menggunakan terminologi yang rumit tentang konsep yang tidak dipahami oleh pengguna komputer pada umumnya.
 
 ### Sampaikan hanya apa yang ingin diketahui oleh orang lain
 
 Orang tidak membutuhkan artikel yang terlalu rumit dengan sedikit relevansi bagi mereka. Cari tahu apa yang Anda ingin orang capai saat menulis artikel, dan hanya sertakan detail itu.
 
-> Beri tahu audiens Anda mengapa materi itu penting bagi mereka. Katakanlah, "Jika Anda menginginkan hibah penelitian, inilah yang harus Anda lakukan." Or, “If you want to mine federal coal, here’s what you should know.” Atau, "Jika Anda merencanakan perjalanan ke Rwanda, bacalah ini terlebih dahulu."
+> Beri tahu audiens Anda mengapa materi itu penting bagi mereka. Katakanlah, "Jika Anda menginginkan hibah penelitian, inilah yang harus Anda lakukan." Atau, "Jika Anda ingin menambang batu bara federal, inilah yang harus Anda ketahui." Atau, "Jika Anda merencanakan perjalanan ke Rwanda, bacalah ini terlebih dahulu."
 
-### Address people directly
+### Tujukan orang secara langsung
 
-Kami menulis *untuk* berbagai macam orang, tetapi kami menulis *untuk* orang yang benar-benar membacanya. Use "you" to address the reader directly.
+Kami menulis *untuk* berbagai macam orang, tetapi kami menulis *untuk* orang yang benar-benar membacanya. Gunakan "Anda" untuk menyapa pembaca secara langsung.
 
-> More than any other single technique, using “you” pulls users into the information and makes it relevant to them.
+> Lebih dari teknik tunggal lainnya, penggunaan kata "Anda" menarik pengguna ke dalam informasi dan membuatnya relevan bagi mereka.
 > 
-> When you use “you” to address users, they are more likely to understand what their responsibility is.
+> Ketika Anda menggunakan kata "Anda" untuk menyapa pengguna, mereka akan lebih mudah memahami apa yang menjadi tanggung jawab mereka.
 
 Sumber: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
 
@@ -32,7 +32,7 @@ Hindari menyebut orang sebagai "pengguna", lebih baik gunakan "orang", atau desk
 
 ## Mengatur konten
 
-Organisasi adalah kuncinya. Content should flow from most to least important information, and use headers as much as needed to logically separate different ideas.
+Organisasi adalah kuncinya. Konten harus mengalir dari informasi yang paling penting hingga yang paling tidak penting, dan gunakan tajuk sebanyak yang diperlukan untuk memisahkan ide-ide yang berbeda secara logis.
 
 - Batasi dokumen menjadi sekitar lima atau enam bagian. Dokumen panjang mungkin harus dipecah menjadi halaman terpisah.
 - Tandai ide-ide penting dengan **cetak tebal** atau *cetak miring*.
@@ -55,19 +55,19 @@ Kita harus mencoba menghindari singkatan jika memungkinkan, tetapi teknologi pen
 
 > Kathy McGinty memberikan petunjuk yang mudah dipahami untuk meningkatkan kalimat-kalimat Anda yang sederhana dan langsung:
 > 
-> > There is no escaping the fact that it is considered very important to note that a number of various available applicable studies ipso facto have generally identified the fact that additional appropriate nocturnal employment could usually keep juvenile adolescents off thoroughfares during the night hours, including but not limited to the time prior to midnight on weeknights and/or 2 a.m. pada akhir pekan.
+> > Tidak dapat dipungkiri bahwa sangat penting untuk dicatat bahwa sejumlah penelitian yang berlaku secara ipso facto secara umum telah mengidentifikasi fakta bahwa tambahan pekerjaan malam hari yang sesuai biasanya dapat mencegah remaja dari jalan raya pada jam-jam malam, termasuk namun tidak terbatas pada waktu sebelum tengah malam pada akhir pekan dan/atau jam 2 pagi pada akhir pekan.
 > 
 > Dan yang asli, menggunakan kata-kata yang lebih kuat dan lebih sederhana:
 > 
 > > Lebih banyak pekerjaan malam akan menjauhkan anak muda dari jalanan.
 
-## Be concise
+## Tulis secara ringkas
 
-> Kata-kata yang tidak perlu akan membuang waktu audiens Anda. Tulisan yang bagus itu seperti sebuah percakapan. Omit information that the audience doesn’t need to know. Hal ini bisa menjadi sulit sebagai seorang ahli materi, jadi penting untuk memiliki seseorang yang melihat informasi dari sudut pandang audiens.
+> Kata-kata yang tidak perlu akan membuang waktu audiens Anda. Tulisan yang bagus itu seperti sebuah percakapan. Hilangkan informasi yang tidak perlu diketahui oleh audiens. Hal ini bisa menjadi sulit sebagai seorang ahli materi, jadi penting untuk memiliki seseorang yang melihat informasi dari sudut pandang audiens.
 
 Sumber: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
-## Keep text conversational
+## Buat teks seperti percakapan
 
 > Kata kerja adalah bahan bakar untuk menulis. Mereka memberikan kekuatan dan arah pada kalimat Anda. Mereka menghidupkan tulisan Anda dan membuatnya lebih menarik.
 > 
@@ -83,5 +83,5 @@ Sumber: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversatio
 
 > - "harus" untuk suatu kewajiban
 > - "tidak boleh" untuk sebuah larangan
-> - “may” for a discretionary action
-> - "harus" untuk sebuah rekomendasi
+> - "dapat" untuk tindakan diskresioner
+> - "seharusnya" untuk sebuah rekomendasi

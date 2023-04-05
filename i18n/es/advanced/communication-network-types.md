@@ -1,7 +1,7 @@
 ---
 title: "Tipos de redes de comunicación"
 icon: 'material/transit-connection-variant'
-description: An overview of several network architectures commonly used by instant messaging applications.
+description: Una visión general de varias arquitecturas de red comúnmente utilizadas por aplicaciones de mensajería instantánea.
 ---
 
 Existen varias arquitecturas de red utilizadas habitualmente para transmitir mensajes entre personas. Estas redes pueden ofrecer diferentes garantías de privacidad, por lo que conviene tener en cuenta tu [modelo de amenaza](../basics/threat-modeling.md) a la hora de decidir qué aplicación utilizar.

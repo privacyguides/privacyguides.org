@@ -1,5 +1,5 @@
 ---
-title: VPN Overview
+title: Ikhtisar VPN
 icon: material/vpn
 description: Virtual Private Networks mengalihkan risiko dari ISP Anda ke pihak ketiga yang Anda percayai. Anda harus mengingat hal-hal ini.
 ---
@@ -32,9 +32,9 @@ Untuk menjaga agar apa yang Anda lakukan di situs web yang Anda kunjungi tetap p
 
 ## Haruskah saya menggunakan DNS terenkripsi dengan VPN?
 
-Unless your VPN provider hosts the encrypted DNS servers, **no**. Menggunakan DOH/DOT (atau bentuk lain dari DNS terenkripsi) dengan server pihak ketiga hanya akan menambah lebih banyak entitas untuk dipercaya dan sama sekali **tidak** meningkatkan privasi/keamanan Anda. Penyedia VPN Anda masih dapat melihat situs web mana yang Anda kunjungi berdasarkan alamat IP dan metode lainnya. Alih-alih hanya mempercayai penyedia VPN Anda, Anda sekarang mempercayai penyedia VPN dan penyedia DNS.
+Kecuali penyedia VPN Anda melayani server DNS terenkripsi, **tidak**. Menggunakan DOH/DOT (atau bentuk lain dari DNS terenkripsi) dengan server pihak ketiga hanya akan menambah lebih banyak entitas untuk dipercaya dan sama sekali **tidak** meningkatkan privasi/keamanan Anda. Penyedia VPN Anda masih dapat melihat situs web mana yang Anda kunjungi berdasarkan alamat IP dan metode lainnya. Alih-alih hanya mempercayai penyedia VPN Anda, Anda sekarang mempercayai penyedia VPN dan penyedia DNS.
 
-A common reason to recommend encrypted DNS is that it helps against DNS spoofing. Namun, peramban Anda seharusnya sudah memeriksa [sertifikat TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) dengan **HTTPS** dan memperingatkan Anda tentang hal itu. If you are not using **HTTPS**, then an adversary can still just modify anything other than your DNS queries and the end result will be little different.
+Alasan umum untuk merekomendasikan DNS terenkripsi adalah karena ini membantu melawan pemalsuan DNS. Namun, peramban Anda seharusnya sudah memeriksa [sertifikat TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) dengan **HTTPS** dan memperingatkan Anda tentang hal itu. Jika Anda tidak menggunakan **HTTPS**, maka pihak lawan masih bisa memodifikasi apa pun selain kueri DNS Anda dan hasil akhirnya tidak akan jauh berbeda.
 
 Tidak perlu dikatakan lagi, **Anda tidak boleh menggunakan DNS terenkripsi dengan Tor**. Ini akan mengarahkan semua permintaan DNS Anda melalui satu sirkuit dan memungkinkan penyedia DNS terenkripsi untuk mendeanonimkan Anda.
 
@@ -46,7 +46,7 @@ Dengan menggunakan VPN dengan Tor, Anda pada dasarnya menciptakan simpul masuk p
 
 VPN tidak dapat memberikan anonimitas. Penyedia VPN Anda masih akan melihat alamat IP asli Anda, dan sering memiliki jejak uang yang dapat dihubungkan langsung kembali kepada Anda. Anda tidak dapat mengandalkan kebijakan "tanpa pencatatan" untuk melindungi data Anda. Gunakan [Tor](https://www.torproject.org/) sebagai gantinya.
 
-## What about VPN providers that provide Tor nodes?
+## Bagaimana dengan penyedia VPN yang menyediakan node Tor?
 
 Jangan gunakan fitur tersebut. Inti dari penggunaan Tor adalah Anda tidak mempercayai penyedia VPN Anda. Saat ini Tor hanya mendukung protokol [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol). [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (digunakan di [WebRTC](https://en.wikipedia.org/wiki/WebRTC) untuk berbagi suara dan video, protokol [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) yang baru, dll), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) dan paket-paket lainnya akan dibatalkan. Untuk mengimbangi hal ini, penyedia VPN biasanya akan merutekan semua paket non-TCP melalui server VPN mereka (loncatan pertama Anda). Ini adalah kasus pada [ProtonVPN](https://protonvpn.com/support/tor-vpn/). Selain itu, ketika menggunakan pengaturan Tor melalui VPN ini, Anda tidak memiliki kendali atas fitur Tor penting lainnya seperti [Alamat Tujuan Terisolasi](https://www.whonix.org/wiki/Stream_Isolation) (menggunakan sirkuit Tor yang berbeda untuk setiap domain yang Anda kunjungi).
 

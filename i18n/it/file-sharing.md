@@ -116,7 +116,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
     ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ align=right }
     
-    **Syncthing** is an open-source peer-to-peer continuous file synchronization utility. It is used to synchronize files between two or more devices over the local network or the internet. Syncthing does not use a centralized server; it uses the [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) to transfer data between devices. All data is encrypted using TLS.
+    **Syncthing** is an open-source peer-to-peer continuous file synchronization utility. It is used to synchronize files between two or more devices over the local network or the internet. Syncthing does not use a centralized server; it uses the [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) to transfer data between devices. Tutti i dati sono criptati usando TLS.
     
     [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
     [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}

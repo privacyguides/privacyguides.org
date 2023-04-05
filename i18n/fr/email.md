@@ -72,7 +72,7 @@ Proton Mail [accepte](https://proton.me/support/payment-options) les paiements e
 
 #### :material-check:{ .pg-green } Sécurité du compte
 
-Proton Mail prend en charge l'[authentification à deux facteurs](https://proton.me/support/two-factor-authentication-2fa) TOTP uniquement. L'utilisation d'une clé de sécurité U2F n'est pas encore prise en charge. Proton Mail prévoit d'implémenter U2F dès l'achèvement de son système d'[Authentification unique (SSO - Single Sign On)](https://reddit.com/comments/cheoy6/comment/feh2lw0/).
+Proton Mail prend en charge [l'authentification à deux facteurs](https://proton.me/support/two-factor-authentication-2fa) TOTP et les [clés de sécurité matérielles](https://proton.me/support/2fa-security-key) en utilisant les normes FIDO2 ou U2F. L'utilisation d'une clé de sécurité matérielle nécessite la mise en place préalable d'une authentification à deux facteurs TOTP.
 
 #### :material-check:{ .pg-green } Sécurité des données
 

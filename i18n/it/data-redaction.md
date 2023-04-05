@@ -100,7 +100,7 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Vale
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
 
-!!! warning "Avviso"
+!!! warning
 
     Non si deve **mai** usare la sfocatura per nascondere [il testo nelle immagini] (https://bishopfox.com/blog/unredacter-tool-never-pixelation). Se desideri eliminare il testo di un'immagine, disegna un riquadro sopra il testo. A questo scopo, suggeriamo applicazioni come [Pocket Paint](https://github.com/Catrobat/Paintroid).
 

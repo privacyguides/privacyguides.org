@@ -36,7 +36,7 @@ Il nostro elenco di raccomandazioni contiene client di posta elettronica che sup
         - [:simple-linux: Linux](https://www.thunderbird.net)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.Thunderbird)
 
-#### Firefox
+#### Configurazione consigliata
 
 Si consiglia di modificare alcune di queste impostazioni per rendere Thunderbird un po' più privato.
 
@@ -87,7 +87,7 @@ Queste opzioni si trovano in :material-menu: → **Impostazioni** → **Privacy 
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
         - [:simple-windows11: Windows](https://canarymail.io/downloads.html)
 
-!!! warning "Avviso"
+!!! warning
 
     Canary Mail ha rilasciato solo di recente un client per Windows e Android, anche se non crediamo che siano stabili come le loro controparti per iOS e Mac.
 
@@ -151,7 +151,7 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
         - [:simple-github: GitHub](https://github.com/k9mail/k-9/releases)
 
-!!! warning "Avviso"
+!!! warning
 
     ![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }
     

@@ -2,6 +2,118 @@
 title: "Менеджеры паролей"
 icon: material/form-textbox-password
 description: Password managers allow you to securely store and manage passwords and other credentials.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": WebPage
+    name: Password Manager Recommendations
+    url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Bitwarden
+    image: /assets/img/password-management/bitwarden.svg
+    url: https://bitwarden.com
+    sameAs: https://en.wikipedia.org/wiki/Bitwarden
+    applicationCategory: Password Manager
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+      - Android
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: 1Password
+    image: /assets/img/password-management/1password.svg
+    url: https://1password.com
+    sameAs: https://en.wikipedia.org/wiki/1Password
+    applicationCategory: Password Manager
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+      - Android
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Psono
+    image: /assets/img/password-management/psono.svg
+    url: https://psono.com
+    applicationCategory: Password Manager
+    operatingSystem:
+      - Android
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: KeePassXC
+    image: /assets/img/password-management/keepassxc.svg
+    url: https://keepassxc.org/
+    sameAs: https://en.wikipedia.org/wiki/KeePassXC
+    applicationCategory: Password Manager
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: KeePassDX
+    image: /assets/img/password-management/keepassdx.svg
+    url: https://www.keepassdx.com/
+    applicationCategory: Password Manager
+    operatingSystem: Android
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Strongbox
+    image: /assets/img/password-management/strongbox.svg
+    url: https://strongboxsafe.com/
+    applicationCategory: Password Manager
+    operatingSystem: iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: gopass
+    image: /assets/img/password-management/gopass.svg
+    url: https://www.gopass.pw/
+    applicationCategory: Password Manager
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+      - FreeBSD
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
 ---
 
 Менеджеры паролей позволяют безопасно хранить и управлять паролями и другими данными с помощью мастер-пароля.
@@ -43,13 +155,13 @@ description: Password managers allow you to securely store and manage passwords 
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
 
-Bitwarden также имеет функцию [Bitwarden Send](https://bitwarden.com/products/send/), которая позволяет безопасно обмениваться текстом и файлами с использованием [сквозного шифрования](https://bitwarden.com/help/send-encryption). Отправленные через Bitwarden Send данных можно защищать [паролем](https://bitwarden.com/help/send-privacy/#send-passwords). Bitwarden Send также имеет функцию [автоматического удаления данных](https://bitwarden.com/help/send-lifespan).
+Bitwarden также имеет функцию [Bitwarden Send](https://bitwarden.com/products/send/), которая позволяет безопасно обмениваться текстом и файлами с использованием [сквозного шифрования](https://bitwarden.com/help/send-encryption). Отправленные через Bitwarden Send данные можно защитить [паролем](https://bitwarden.com/help/send-privacy/#send-passwords). Bitwarden Send также имеет функцию [автоматического удаления данных](https://bitwarden.com/help/send-lifespan).
 
-Чтобы иметь возможность обмениваться файлами, вам необходима [Премиум подписка](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans). Бесплатный план позволяет обмениваться только текстом.
+Чтобы иметь возможность обмениваться файлами, вам необходима [Премиум-подписка](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans). Бесплатный план позволяет обмениваться только текстом.
 
-Сервер Bitwarden имеет [открытый код](https://github.com/bitwarden/server), поэтому если вы не хотите использовать официальное облако Bitwarden, вы можете легко развернуть свой собственный сервер для синхронизации.
+Сервер Bitwarden имеет [открытый код](https://github.com/bitwarden/server), поэтому, если вы не хотите использовать официальное облако Bitwarden, вы можете легко развернуть свой собственный сервер для синхронизации.
 
-**Vaultwarden** - это альтернативная реализация сервера синхронизации Bitwarden, написанная на языке Rust и совместимая с официальными клиентами Bitwarden. Она идеально подходит для самостоятельного развертывания, когда запуск официального сервиса, требующего больших мощностей, не является идеальным решением. Если вы хотите самостоятельно развернуть Bitwarden на своем сервере, скорее всего вам стоит использовать Vaultwarden вместо кода официального сервера Bitwarden.
+**Vaultwarden** — это альтернативная реализация сервера синхронизации Bitwarden, написанная на языке Rust и совместимая с официальными клиентами Bitwarden. Она идеально подходит для самостоятельного развертывания, когда запуск официального сервиса, требующего больших мощностей, не является оправданным решением. Если вы хотите самостоятельно развернуть Bitwarden на своем сервере, скорее всего, вам стоит использовать Vaultwarden вместо официального сервера Bitwarden.
 
 [:octicons-repo-16: Репозиторий Vaultwarden](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=Документация}
 [:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Исходный код" }
@@ -61,7 +173,7 @@ Bitwarden также имеет функцию [Bitwarden Send](https://bitwarde
 
     ![Логотип 1Password](assets/img/password-management/1password.svg){ align=right }
     
-    **1Password** - это менеджер паролей с акцентом на безопасность и простоту использования, который позволяет хранить пароли, кредитные карты, лицензии на программное обеспечение и любую другую конфиденциальную информацию в надежном цифровом хранилище. Ваши данные хранятся на серверах 1Password за [ежемесячную плату](https://1password.com/ru/sign-up/). 1Password регулярно проходит [независимые проверки на безопасность](https://support.1password.com/security-assessments/) и обеспечивает прекрасную поддержку клиентов. 1Password имеет закрытый исходный код, но безопасность продукта подробно описана в их [вайт пейпере по безопасности](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
+    **1Password** — это менеджер паролей с акцентом на безопасность и простоту использования, который позволяет хранить пароли, кредитные карты, лицензии на программное обеспечение и любую другую конфиденциальную информацию в надежном цифровом хранилище. Ваши данные хранятся на серверах 1Password за [ежемесячную плату](https://1password.com/ru/sign-up/). 1Password регулярно проходит [независимые проверки на безопасность](https://support.1password.com/security-assessments/) и обеспечивает прекрасную поддержку клиентов. 1Password имеет закрытый исходный код, но безопасность продукта подробно описана в их [вайт пейпере по безопасности](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
     
     [:octicons-home-16: Домашняя страница](https://1password.com/ru){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://support.1password.com/1password-privacy/){ .card-link title="Политика конфиденциальности" }
@@ -75,11 +187,11 @@ Bitwarden также имеет функцию [Bitwarden Send](https://bitwarde
         - [:simple-apple: macOS](https://1password.com/downloads/mac/)
         - [:simple-linux: Linux](https://1password.com/downloads/linux/)
 
-Изначально, **1Password** предоставлял лучший пользовательский опыт для пользователей macOS и iOS; однако теперь он достиг равенства функций на всех платформах. В нем есть множество функций, как ориентированных на семьи и менее технически подкованных людей, так и более продвинутых возможностей.
+Изначально **1Password** предоставлял лучший функционал именно для пользователей macOS и iOS, однако теперь функционал одинаковый на всех платформах. В нем есть множество функций, как ориентированных на семьи и менее технически подкованных людей, так и более продвинутых возможностей.
 
-Ваше хранилище 1Password защищено одновременно вашим мастер-паролем и случайным 34-символьным ключом безопасности для шифрования ваших данных на их серверах. Этот ключ добавляет вашим данным дополнительную защиту, поскольку ваши данные защищены с высокой энтропией независимо от безопасности вашего мастер-пароля. Многие другие решения для управления паролями полностью полагаются на безопасность мастер-пароля для защиты ваших данных.
+Ваше хранилище 1Password защищено одновременно мастер-паролем и случайным 34-символьным ключом безопасности для шифрования данных на серверах. Этот ключ добавляет вашим данным дополнительную защиту: они зашифрованы с высокой энтропией независимо от безопасности вашего мастер-пароля. Многие другие решения для управления паролями полностью полагаются на безопасность мастер-пароля для защиты ваших данных.
 
-Одно из преимуществ 1Password перед Bitwarden - первоклассная поддержка нативных клиентов. В то время как Bitwarden выносит многие функции, особенно управление учетными записями, в веб-интерфейс хранилища, 1Password предоставляет почти все функции в своих мобильных и настольных клиентах. Клиенты 1Password также имеют более понятный интерфейс, что облегчает их использование.
+Одно из преимуществ 1Password перед Bitwarden — первоклассная поддержка нативных клиентов. В то время как Bitwarden выносит многие функции, особенно управление учетными записями, в веб-интерфейс хранилища, 1Password предоставляет почти все функции в своих мобильных и настольных приложениях. Клиенты 1Password также имеют более понятный интерфейс, что облегчает их использование.
 
 ### Psono
 

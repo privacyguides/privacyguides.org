@@ -1,7 +1,5 @@
 ---
 title: "Avis de non-responsabilité"
-hide:
-  - toc
 ---
 
 ## Avertissement légal
@@ -14,30 +12,39 @@ Privacy Guides est un projet open-source dont la contribution est soumise à des
 
 En outre, Privacy Guides ne garantit pas que ce site web sera constamment disponible, ou disponible tout court.
 
-## Licences
+## Aperçu des licences
 
-Sauf indication contraire, tout le contenu de ce site web est mis à disposition gratuitement selon les termes de la [Creative Commons CC0 1.0 Universal](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE).
+!!! danger ""
+
+    Ce qui suit est un résumé lisible par l'homme de la [licence](/license) (et ne se substitue pas à celle-ci).
+
+Sauf indication contraire, l'ensemble du **contenu** de ce site web est mis à disposition selon les termes de la [license publique Creative Commons Attribution - Pas de Modification 4.0 International](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Le **code source** sous-jacent utilisé pour générer ce site web et afficher son contenu est publié sous la [licence MIT](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 
 Cela n'inclut pas le code tiers intégré dans ce dépôt, ou le code pour lequel une licence de remplacement est indiquée. Les exemples suivants sont notables, mais cette liste n'est pas exhaustive :
 
-* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/docs/javascripts/mathjax.js) est sous licence [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/javascripts/LICENSE.mathjax.txt).
+* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) est sous licence [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
+* La police d'en-tête [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) est placée sous la licence [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
+* La police [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) utilisée pour la plupart des textes sur le site est sous licence selon les termes détaillés [ici](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
+* La police [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) utilisée pour le texte monospace sur le site est sous licence [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
 
-Certaines parties de cet avis ont été reprises du projet [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) sur GitHub. Cette ressource et cette page elle-même sont publiées sous [CC-BY-4.0](https://github.com/github/opensource.guide/blob/master/LICENSE).
+Cela signifie que vous pouvez utiliser le contenu lisible par l'homme de ce dépôt pour votre propre projet, conformément aux conditions décrites dans le texte de la license publique Creative Commons Attribution - Pas de Modification 4.0 International. Vous pouvez le faire de toute manière raisonnable, mais pas d'une manière qui suggère que Privacy Guides vous approuve ou approuve votre utilisation. Vous **ne pouvez pas** utiliser la marque Privacy Guides dans votre propre projet sans l'approbation expresse de ce projet. Les marques déposées de Privacy Guides comprennent l'appellation "Privacy Guides" ainsi que le logo de bouclier.
 
-Cela signifie que vous pouvez utiliser le contenu lisible par l'homme de ce dépôt pour votre propre projet, conformément aux conditions décrites dans le texte universel CC0 1.0. Vous pouvez le faire de toute manière raisonnable, mais pas d'une manière qui suggère que Privacy Guides vous approuve ou approuve votre utilisation. Les marques de commerce de Privacy Guides comprennent le mot-clé et le logo "Privacy Guides". Les marques déposées de Privacy Guides comprennent l'appellation « Privacy Guides » ainsi que le logo Shield.
+Nous estimons que les logos et autres images des `actifs` obtenus auprès de fournisseurs tiers sont soit du domaine public, soit **d'un usage raisonnable**. En résumé, la [doctrine d'usage raisonnable](https://fr.wikipedia.org/wiki/Fair_use) permet l'utilisation d'images protégées par le droit d'auteur afin d'identifier le sujet à des fins de commentaire public. Toutefois, ces logos et autres images peuvent encore être soumis aux lois sur les marques commerciales dans une ou plusieurs juridictions. Avant d'utiliser ce contenu, veuillez vous assurer qu'il est utilisé pour identifier l'entité ou l'organisation propriétaire de la marque et que vous avez le droit de l'utiliser en vertu des lois applicables dans les circonstances de votre utilisation prévue. *Lorsque vous copiez le contenu de ce site web, vous êtes seul responsable de vous assurer que vous ne violez pas la marque ou le droit d'auteur de quelqu'un d'autre.*
 
-Nous estimons que les logos et autres images des `actifs` obtenus auprès de fournisseurs tiers sont soit du domaine public, soit **d'un usage raisonnable**. En résumé, la [doctrine d'usage raisonnable](https://fr.wikipedia.org/wiki/Fair_use) permet l'utilisation d'images protégées par le droit d'auteur afin d'identifier le sujet à des fins de commentaire public. Toutefois, ces logos et autres images peuvent encore être soumis aux lois sur les marques commerciales dans une ou plusieurs juridictions. Avant d'utiliser ce contenu, veuillez vous assurer qu'il permet d'identifier l'entité ou l'organisation propriétaire de la marque et que vous avez le droit de l'utiliser en vertu des lois applicables dans les circonstances de votre utilisation prévue. *Lorsque vous copiez le contenu de ce site web, vous êtes seul responsable de vous assurer que vous ne violez pas la marque ou le droit d'auteur de quelqu'un d'autre.*
-
-Lorsque vous contribuez à ce dépôt, vous le faites sous les licences mentionnées ci-dessus.
+Lorsque vous contribuez à notre site web, vous le faites dans le cadre des licences susmentionnées et vous accordez à Privacy Guides une licence perpétuelle, mondiale, non exclusive, transférable, libre de redevances et irrévocable, avec le droit d'accorder une sous-licence à plusieurs niveaux de sous-licenciés, pour reproduire, modifier, afficher, exécuter et distribuer votre contribution dans le cadre de notre projet.
 
 ## Utilisation acceptable
 
-Il est interdit d'utiliser ce site web d'une manière qui cause ou pourrait causer des dommages au site web ou compromettre la disponibilité ou l'accessibilité des guides de confidentialité, ou d'une manière qui serait illégale, frauduleuse ou nuisible, ou en relation avec un objectif ou une activité illégale, frauduleuse ou nuisible.
+Il est interdit d'utiliser ce site web d'une manière qui cause ou pourrait causer des dommages au site web ou compromettre la disponibilité ou l'accessibilité de Privacy Guides, ou d'une manière qui serait illégale, frauduleuse ou nuisible, ou en relation avec un objectif ou une activité illégale, frauduleuse ou nuisible.
 
-Vous ne devez pas mener d'activités de collecte de données systématiques ou automatisées sur ou en relation avec ce site web sans le consentement écrit exprès d'Aragon Ventures LLC, y compris :
+Vous ne devez pas mener d'activités de collecte de données systématiques ou automatisées sur ce site web ou en relation avec celui-ci sans autorisation écrite expresse, y compris :
 
 * Analyses automatisées excessives
 * Attaques par déni de service
-* [Web scrapping](https://fr.wikipedia.org/wiki/Web_scraping)
+* Scraping
 * Extraction de données
 * 'Framing' (IFrames)
+
+---
+
+*Certaines parties de cet avis ont été reprises du projet [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) sur GitHub. Cette ressource et cette page elle-même sont publiées sous [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

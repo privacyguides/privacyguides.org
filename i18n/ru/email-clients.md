@@ -32,7 +32,7 @@ description: These email clients are privacy-respecting and support OpenPGP emai
         - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.mozilla.Thunderbird)
         - [:fontawesome-brands-git: Исходный код](https://hg.mozilla.org/comm-central)
 
-#### Firefox
+#### Рекомендованные настройки
 
 We recommend changing some of these settings to make Thunderbird a little more private.
 

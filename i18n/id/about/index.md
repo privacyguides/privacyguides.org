@@ -1,18 +1,29 @@
 ---
-template: schema.html
 title: "Tentang Privacy Guides"
 description: Privacy Guides adalah situs web bermotif sosial yang menyediakan informasi untuk melindungi keamanan dan privasi data Anda.
+schema:
+  "@context": https://schema.org
+  "@type": Organization
+  "@id": https://www.privacyguides.org/
+  name: Privacy Guides
+  url: https://www.privacyguides.org/en/about/
+  logo: https://www.privacyguides.org/en/assets/brand/png/square/pg-yellow.png
+  sameAs:
+    - https://twitter.com/privacy_guides
+    - https://github.com/privacyguides
+    - https://www.wikidata.org/wiki/Q111710163
+    - https://opencollective.com/privacyguides
+    - https://www.youtube.com/@privacyguides
+    - https://mastodon.neat.computer/@privacyguides
 ---
 
 ![Logo Privacy Guides](../assets/brand/png/square/pg-yellow.png){ align=right }
 
-**Privacy Guides** adalah situs web bermotif sosial yang menyediakan [informasi](/kb) untuk melindungi keamanan dan privasi data Anda. Kami adalah kolektif nirlaba yang dioperasikan sepenuhnya oleh [anggota tim](https://discuss.privacyguides.net/g/team) dan kontributor sukarelawan. Situs web kami bebas dari iklan dan tidak berafiliasi dengan penyedia yang terdaftar.
+**Privacy Guides** adalah situs web bermotif sosial yang menyediakan [informasi](/kb) untuk melindungi keamanan dan privasi data Anda. Our mission is to inform the public about the value of digital privacy, and global government initiatives which aim to monitor your online activity. Kami adalah kolektif nirlaba yang dioperasikan sepenuhnya oleh [anggota tim](https://discuss.privacyguides.net/g/team) dan kontributor sukarelawan. Our website is free of advertisements and not affiliated with any of the listed providers.
 
 [:octicons-home-16:](https://www.privacyguides.org/){ .card-link title="Laman Beranda" }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Kode Sumber" }
 [:octicons-heart-16:](donate.md){ .card-link title=Berkontribusi }
-
-Tujuan Privacy Guides adalah untuk mengedukasi komunitas kami mengenai pentingnya privasi daring dan program pemerintah secara internasional yang dirancang untuk memantau semua aktivitas daring Anda.
 
 > Untuk menemukan aplikasi [alternatif yang berfokus pada privasi], lihat situs-situs seperti Good Reports dan **Privacy Guides**, yang mencantumkan daftar aplikasi yang berfokus pada privasi dalam berbagai kategori, terutama termasuk penyedia email (biasanya dengan paket berbayar) yang tidak dijalankan oleh perusahaan-perusahaan teknologi besar.
 
@@ -20,19 +31,19 @@ Tujuan Privacy Guides adalah untuk mengedukasi komunitas kami mengenai pentingny
 
 > Jika Anda mencari VPN baru, Anda bisa membuka kode diskon dari hampir semua podcast. Jika Anda mencari **VPN** yang bagus, Anda memerlukan bantuan profesional. Hal yang sama berlaku untuk klien email, browser, sistem operasi, dan pengelola kata sandi. Bagaimana Anda tahu mana yang terbaik, opsi yang paling ramah privasi? Untuk itu ada **Privacy Guides**, sebuah platform di mana sejumlah sukarelawan mencari hari demi hari untuk alat ramah privasi terbaik untuk digunakan di internet.
 
-— [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Diterjemahkan dari bahasa Belanda]
+— [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Translated from Dutch]
 
-Juga ditampilkan di: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], dan [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
+Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], [NPO Radio 1](https://www.nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), and [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
 
 ## Sejarah
 
-Privacy Guides diluncurkan pada bulan September 2021 sebagai kelanjutan dari proyek edukasi sumber terbuka "PrivacyTools" [yang sudah tidak aktif](privacytools.md). Kami menyadari pentingnya rekomendasi produk yang independen dan berfokus pada kriteria serta pengetahuan umum di bidang privasi, oleh karena itu kami perlu melestarikan karya yang telah dibuat oleh begitu banyak kontributor sejak tahun 2015 dan memastikan bahwa informasi tersebut memiliki tempat yang stabil di web tanpa batas waktu.
+Privacy Guides was launched in September 2021 as a continuation of the [defunct](privacytools.md) "PrivacyTools" open-source educational project. We recognized the importance of independent, criteria-focused product recommendations and general knowledge in the privacy space, which is why we needed to preserve the work that had been created by so many contributors since 2015 and make sure that information had a stable home on the web indefinitely.
 
-Pada tahun 2022, kami menyelesaikan transisi kerangka kerja situs web utama kami dari Jekyll ke MkDocs, menggunakan perangkat lunak dokumentasi `mkdocs-material`. Perubahan ini membuat kontribusi sumber terbuka ke situs kami menjadi jauh lebih mudah bagi pihak luar, karena daripada perlu mengetahui sintaks yang rumit untuk menulis kiriman secara efektif, berkontribusi sekarang semudah menulis dokumen Markdown standar.
+In 2022, we completed the transition of our main website framework from Jekyll to MkDocs, using the `mkdocs-material` documentation software. This change made open-source contributions to our site significantly easier for outsiders, because instead of needing to know complicated syntax to write posts effectively, contributing is now as easy as writing a standard Markdown document.
 
-Kami juga meluncurkan forum diskusi baru kami di [discuss.privacyguides.net](https://discuss.privacyguides.net/) sebagai platform komunitas untuk berbagi ide dan mengajukan pertanyaan tentang misi kami. Hal ini menambah komunitas kami yang ada di Matrix, dan menggantikan platform Diskusi GitHub kami sebelumnya, mengurangi ketergantungan kami pada platform diskusi sumber tertutup.
+We additionally launched our new discussion forum at [discuss.privacyguides.net](https://discuss.privacyguides.net/) as a community platform to share ideas and ask questions about our mission. This augments our existing community on Matrix, and replaced our previous GitHub Discussions platform, decreasing our reliance on proprietary discussion platforms.
 
-Sejauh ini pada tahun 2023 kami telah meluncurkan terjemahan internasional situs web kami dalam bahasa [Prancis](/fr/), [Ibrani](/he/), dan [Belanda](/nl/), dengan lebih banyak bahasa yang sedang dalam proses, yang dimungkinkan oleh tim penerjemah kami yang luar biasa di [Crowdin](https://crowdin.com/project/privacyguides). Kami berencana untuk terus melanjutkan misi kami dalam hal penjangkauan dan edukasi, serta mencari cara untuk menyoroti dengan lebih jelas bahaya kurangnya kesadaran privasi di era digital modern, dan prevalensi serta bahaya pelanggaran keamanan di seluruh industri teknologi.
+So far in 2023 we've launched international translations of our website in [French](/fr/), [Hebrew](/he/), and [Dutch](/nl/), with more languages on the way, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides). We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
 
 ## Tim Kami
 
@@ -76,13 +87,15 @@ Sejauh ini pada tahun 2023 kami telah meluncurkan terjemahan internasional situs
     - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
-Selain itu, [banyak orang](https://github.com/privacyguides/privacyguides.org/graphs/contributors) telah memberikan kontribusi ke proyek ini. Anda juga bisa, kami bersumber terbuka di GitHub, dan menerima saran penerjemahan di [Crowdin](https://crowdin.com/project/privacyguides).
+Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open sourced on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
-Anggota tim kami meninjau semua perubahan yang dilakukan pada situs web dan menangani tugas-tugas administratif seperti layanan web dan keuangan, namun mereka tidak mendapatkan keuntungan pribadi dari setiap kontribusi yang dibuat untuk situs ini. Keuangan kami dikelola secara transparan oleh Open Collective Foundation 501(c)(3) di [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Donasi untuk Privacy Guides umumnya dapat dikurangkan dari pajak di Amerika Serikat.
+Our team members review all changes made to the website and handle administrative duties such as web hosting and financials, however they do not personally profit from any contributions made to this site. Our financials are transparently hosted by the Open Collective Foundation 501(c)(3) at [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Donations to Privacy Guides are generally tax-deductible in the United States.
 
 ## Lisensi Situs
 
-*Berikut ini adalah ringkasan yang dapat dibaca oleh manusia (dan bukan pengganti) [lisensi](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE):*
+!!! danger ""
+
+    The following is a human-readable summary of (and not a substitute for) the [license](/license).
 
 :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Kecuali dinyatakan lain, konten asli di situs web ini tersedia di bawah lisensi [Creative Commons Atribusi-TanpaTurunan 4.0 Internasional](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Ini berarti Anda bebas menyalin dan mendistribusikan ulang materi dalam media atau format apa pun untuk tujuan apa pun, bahkan untuk tujuan komersial; selama Anda memberikan kredit yang sesuai kepada `Privacy Guides (www.privacyguides.org)` dan memberikan tautan ke lisensi. Anda dapat melakukannya dengan cara yang wajar, tetapi tidak dengan cara apa pun yang menyarankan Privacy Guides mendukung Anda atau penggunaan Anda. Jika Anda menggubah, mengubah, atau mengembangkan konten situs web ini, Anda tidak boleh mendistribusikan materi yang telah dimodifikasi.
 

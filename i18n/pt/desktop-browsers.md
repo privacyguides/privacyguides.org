@@ -2,6 +2,41 @@
 title: "Desktop Browsers"
 icon: material/laptop
 description: Firefox and Brave are our recommendations for standard/non-anonymous browsing.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": WebPage
+    name: Private Desktop Browser Recommendations
+    url: "./"
+    relatedLink: "../mobile-browsers/"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Firefox
+    image: /assets/img/browsers/firefox.svg
+    url: https://firefox.com
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Bromite
+    image: /assets/img/browsers/brave.svg
+    url: https://brave.com
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+    subjectOf:
+      "@type": WebPage
+      url: "./"
 ---
 
 These are our currently recommended desktop web browsers and configurations for standard/non-anonymous browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. In general, we recommend keeping your browser extensions to a minimum; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.

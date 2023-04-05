@@ -1,7 +1,7 @@
 ---
 title: Seguridad del correo electrónico
 icon: material/email
-description: Email is inherently insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
+description: El correo electrónico es intrínsecamente inseguro en muchos aspectos, y éstas son algunas de las razones por las que no es nuestra primera opción para las comunicaciones seguras.
 ---
 
 El correo electrónico es una forma de comunicación insegura por defecto. Puedes mejorar la seguridad de tu correo electrónico con herramientas como OpenPGP, que añaden cifrado de extremo a extremo a tus mensajes, pero OpenPGP sigue teniendo una serie de inconvenientes en comparación con el cifrado de otras aplicaciones de mensajería, y algunos datos del correo electrónico nunca pueden cifrarse de forma inherente debido a cómo está diseñado el correo electrónico.

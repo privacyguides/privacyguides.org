@@ -1,110 +1,110 @@
 ---
-title: "Threat Modeling"
+title: "建立威脅模型"
 icon: 'material/target-account'
-description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
+description: 平衡安全性、隱私權和可用性是您在隱私權之旅中將面臨的首要和最困難的任務之一。
 ---
 
-Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
+平衡安全性、隱私權和可用性是您在隱私權之旅中將面臨的首要和最困難的任務之一。 一切都要各方權衡：越安全的東西，它通常越受限制或越不方便。 通常，人們發現那些被推薦的工具的問題是它們太難開始使用了！
 
-If you wanted to use the **most** secure tools available, you'd have to sacrifice *a lot* of usability. And, even then, ==nothing is ever fully secure.== There's **high** security, but never **full** security. That's why threat models are important.
+如果要使用**最安全**的工具，就必須犠牲許多*可用性*。 就算如此，也沒有什麼是完全安全的。有 **高** 安全，但從來沒有 **完整** 安全。 這就是為什麼威脅模型很重要。
 
-**So, what are these threat models, anyway?**
+**那麼，這些威脅模型究竟是什麼呢？**
 
-==A threat model is a list of the most probable threats to your security and privacy endeavors.== Since it's impossible to protect yourself against **every** attack(er), you should focus on the **most probable** threats. In computer security, a threat is an event that could undermine your efforts to stay private and secure.
+==威脅模型，列出對您的安全與隱私可能造成的威脅。== 既然無法完全防範**每一次** 攻擊(者)，請將精力放在 **最可能發生的** 威脅。 在電腦安全上，威脅指可能破壞您保持私密和安全努力的事件。
 
-Focusing on the threats that matter to you narrows down your thinking about the protection you need, so you can choose the tools that are right for the job.
+專注在對您認為重要的威脅，可縮小對所需保護的考慮，以讓您選擇出適合的工具。
 
-## Creating Your Threat Model
+## 建立您的威脅模型
 
-To identify what could happen to the things you value and determine from whom you need to protect them, you should answer these five questions:
+為了分辨所重視的事物會發生什麼，保護它們必須避開哪些人，請回答以下五個問題：
 
-1. What do I want to protect?
-2. Who do I want to protect it from?
-3. How likely is it that I will need to protect it?
-4. How bad are the consequences if I fail?
-5. How much trouble am I willing to go through to try to prevent potential consequences?
+1. 我想保護什麼？
+2. 我想要保護它免受誰的侵害？
+3. 我需要保護它的可能性有多大？
+4. 若不幸失敗將帶來多嚴重的後果？
+5. 我願意承受多少麻煩來防止潛在的後果？
 
-### What do I want to protect?
+### 我想保護什麼？
 
-An “asset” is something you value and want to protect. In the context of digital security, ==an asset is usually some kind of information.== For example, your emails, contact lists, instant messages, location, and files are all possible assets. Your devices themselves may also be assets.
+“資產”是你重視和想要保護的東西。 在討論數位安全時，資產通常是某種資訊。例如，您的電子郵件、聯繫人列表、即時消息、位置和檔案等都是可能的資產。 你的設備本身也可能是資產。
 
-*Make a list of your assets: data that you keep, where it's kept, who has access to it, and what stops others from accessing it.*
+*列出您的資產：您保存的資料、保存的地方、誰可以取用它，以及阻止其他人使用它的原因。*
 
-### Who do I want to protect it from?
+### 我想要保護它免受誰的侵害？
 
-To answer this question, it's important to identify who might want to target you or your information. ==A person or entity that poses a threat to your assets is an “adversary”.== Examples of potential adversaries are your boss, your former partner, your business competition, your government, or a hacker on a public network.
+要回答這個問題，重要的是要找出誰可能會針對您或您的資訊。 對您的資產構成威脅的個人或實體即是“敵人”。潛在對手可能為：您的老闆、前任情人、商業競爭對手、政府或公共網路上的黑客。
 
-*Make a list of your adversaries or those who might want to get ahold of your assets. Your list may include individuals, a government agency, or corporations.*
+*列出對手或那些可能想要獲取您的資產的敵人。 您的名單可能包括個人、政府機構或公司。*
 
-Depending on who your adversaries are, under some circumstances, this list might be something you want to destroy after you're done security planning.
+根據對手是誰，在某些情況下，這份清單可能是在完成安全計劃後必須鎖毀的東西。
 
-### How likely is it that I will need to protect it?
+### 它需要被保護的可能性有多大？
 
-==Risk is the likelihood that a particular threat against a particular asset will actually occur.== It goes hand-in-hand with capability. While your mobile phone provider has the capability to access all of your data, the risk of them posting your private data online to harm your reputation is low.
+==風險是指某個資產發生特定威脅實際的可能性。= =它與能力密切相關。 雖然您的手機供應商有能力訪問您的資料，但他們將私人數據散佈在網路以損您聲譽的這種風險發生機率很低。
 
-It is important to distinguish between what might happen and the probability it may happen. For instance, there is a threat that your building might collapse, but the risk of this happening is far greater in San Francisco (where earthquakes are common) than in Stockholm (where they are not).
+重要的是要能區分可能發生什麼事和事情發生的概率。 例如，您的建築物可能會倒塌，但很常有地震的舊金山發生這種情況的風險遠遠大於地震並不常見的斯德哥爾摩。
 
-Assessing risks is both a personal and subjective process. Many people find certain threats unacceptable, no matter the likelihood they will occur, because the mere presence of the threat is not worth the cost. In other cases, people disregard high risks because they don't view the threat as a problem.
+評估風險既是私人的，也是主觀的過程。 許多人認為某些威脅是不可接受的，無關乎其發生的可能性，而是因它們根本不值得。 在其他情況下，人們忽視高風險，因為他們不認為威脅是問題。
 
-*Write down which threats you are going to take seriously, and which may be too rare or too harmless (or too difficult to combat) to worry about.*
+*寫下你認真看待哪些威脅，哪些可能太罕見或無害（或太難以對抗）。*
 
-### How bad are the consequences if I fail?
+### 若不幸失敗將帶來多嚴重的後果？
 
-There are many ways that an adversary could gain access to your data. For example, an adversary can read your private communications as they pass through the network, or they can delete or corrupt your data.
+對手有很多方法可以取用您的資料。 例如，他們通過網路讀取您的私人通訊，或是刪除或破壞您的資料。
 
-==The motives of adversaries differ widely, as do their tactics.== A government trying to prevent the spread of a video showing police violence may be content to simply delete or reduce the availability of that video. In contrast, a political opponent may wish to gain access to secret content and publish that content without you knowing.
+== 對手的動機差異很大，他們的戰術也是如此。==政府試圖阻止警察暴力影片傳播，簡單地刪除或減少該影片的可用性大概就可以。 相比之下，政治對手可能希望在您不知情的情況下，獲得您的祕密內容並發布。
 
-Security planning involves understanding how bad the consequences could be if an adversary successfully gains access to one of your assets. To determine this, you should consider the capability of your adversary. For example, your mobile phone provider has access to all of your phone records. A hacker on an open Wi-Fi network can access your unencrypted communications. Your government might have stronger capabilities.
+安全規劃涉及了解若對手成功地取用您的資產後，會帶來多嚴重的後果。 要確定這一點，應該考慮對手的能力。 例如，您的手機供應商可以存取您所有的電話記錄。 公共 Wi-Fi 網路上的駭客可以訪問您未加密的通訊。 政府往往有更強的能力。
 
-*Write down what your adversary might want to do with your private data.*
+*寫下對手可能想用您的私人資料做什麼。*
 
-### How much trouble am I willing to go through to try to prevent potential consequences?
+### 我願意承受多少麻煩來防止潛在的後果？
 
-==There is no perfect option for security.== Not everyone has the same priorities, concerns, or access to resources. Your risk assessment will allow you to plan the right strategy for you, balancing convenience, cost, and privacy.
+==沒有完美的安全保障。==不是每個人都有相同的優先事項、關切點或可用資源。 您的風險評估能為您規劃正確的策略，平衡便利性、成本和隱私。
 
-For example, an attorney representing a client in a national security case may be willing to go to greater lengths to protect communications about that case, such as using encrypted email, than a mother who regularly emails her daughter funny cat videos.
+例如，在國家安全案件中代表客戶的律師可能願意全力保護該案件的相關通信，例如使用加密電子郵件，而常向女兒發送有趣貓咪短片的母親就不會想要加密。
 
-*Write down what options you have available to you to help mitigate your unique threats. Note if you have any financial constraints, technical constraints, or social constraints.*
+*寫下您可用的選項，以幫助減輕您的獨特威脅。 ，如果您有任何財務、技術或社會上的限制，請予備註。*
 
-### Try it yourself: Protecting Your Belongings
+### 自己試試：保護好您的財產
 
-These questions can apply to a wide variety of situations, online and offline. As a generic demonstration of how these questions work, let's build a plan to keep your house and possessions safe.
+這些問題可以適用於線上和線下的各種情況。 示範這些問題如何運作，我們來制定一個保護您房屋和財產安全的計畫。
 
-**What do you want to protect? (Or, *what do you have that is worth protecting?*)**
+**您想保護什麼？ ( 或者*)您有什麼值得保護的？ (*)**
 :
 
-Your assets might include jewelry, electronics, important documents, or photos.
+您的資產可能包括珠寶、電子產品、重要文件或照片。
 
-**Who do you want to protect it from?**
+**你想保護它免受誰的侵害？**
 :
 
-Your adversaries might include burglars, roommates, or guests.
+你的對手可能包括竊賊、室友或客人。
 
-**How likely is it that you will need to protect it?**
+**您需要保護它的可能性有多大？**
 :
 
-Does your neighborhood have a history of burglaries? How trustworthy are your roommates or guests? What are the capabilities of your adversaries? What are the risks you should consider?
+您的社區發生過入室盜竊的案件嗎？ 你的室友或客人可信任的程度？ 你的對手有哪些能力？ 應該考慮哪些風險？
 
-**How bad are the consequences if you fail?**
+**失敗的後果有多嚴重？**
 :
 
-Do you have anything in your house that you cannot replace? Do you have the time or money to replace those things? Do you have insurance that covers goods stolen from your home?
+你家裡有什麼東西是你無法取代的嗎？ 您有時間或金錢來取代這些東西嗎？ 是否已為家裏物品投保失竊險？
 
-**How much trouble are you willing to go through to prevent these consequences?**
+**你願意承受多少麻煩來防止這些後果？**
 :
 
-Are you willing to buy a safe for sensitive documents? Can you afford to buy a high-quality lock? Do you have time to open a security box at your local bank and keep your valuables there?
+您是否願意為敏感文件購買保險箱？ 你能買到高品質的鎖嗎？ 您有時間在當地銀租用保險箱並將貴重物品存放在那裡嗎？
 
-Only once you have asked yourself these questions will you be in a position to assess what measures to take. If your possessions are valuable, but the probability of a break-in is low, then you may not want to invest too much money in a lock. But, if the probability of a break-in is high, you'll want to get the best lock on the market and consider adding a security system.
+只有真正自問這些問題後，才能評估該採取哪些措施。 如果您的財產具有價值，但被入侵的可能性很低，那麼可能不想在防鎖上投資太多。 但是，如果被入侵的可能性很高，您會希望取得市場上最好的鎖並考慮添加安全系統。
 
-Making a security plan will help you to understand the threats that are unique to you and to evaluate your assets, your adversaries, and your adversaries' capabilities, along with the likelihood of risks you face.
+制定安全計劃有助於了解您獨有的威脅、評估自己的資產、對手與其能力，以及您面臨風險的可能性。
 
-## Further Reading
+## 延伸閱讀
 
-For people looking to increase their privacy and security online, we've compiled a list of common threats our visitors face or goals our visitors have, to give you some inspiration and demonstrate the basis of our recommendations.
+針對希望提高線上隱私和安全性者，我們編制了一份本站訪客面臨的常見威脅或目標清單，為您提供一些靈感並展示我們建議的基礎。
 
-- [Common Goals and Threats :material-arrow-right-drop-circle:](common-threats.md)
+- [共同目標與威脅 :material-arrow-right-drop-circle:](common-threats.md)
 
-## Sources
+## 來源
 
-- [EFF Surveillance Self Defense: Your Security Plan](https://ssd.eff.org/en/module/your-security-plan)
+- [EFF監控自衛：您的安全計劃](https://ssd.eff.org/en/module/your-security-plan)

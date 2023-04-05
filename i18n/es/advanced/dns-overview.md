@@ -1,7 +1,7 @@
 ---
 title: "Resumen DNS"
 icon: material/dns
-description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
+description: El Sistema de Nombres de Dominio es la "guía telefónica de Internet", que ayuda a tu navegador a encontrar el sitio web que buscas.
 ---
 
 El [Sistema de Nombres de Dominio](https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio) es el 'directorio telefónico del Internet'. El DNS traduce los nombres de dominio a direcciones IP para que los navegadores y otros servicios puedan cargar los recursos de Internet, a través de una red descentralizada de servidores.
@@ -55,12 +55,12 @@ A continuación, discutimos y proporcionamos un tutorial para probar lo que un o
 
 Si ejecutas el comando Wireshark anterior, el panel superior muestra los "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", y el panel inferior muestra todos los datos sobre el frame seleccionado. Las soluciones empresariales de filtrado y monitorización (como las adquiridas por los gobiernos) pueden realizar el proceso de forma automática, sin interacción humana, y pueden agregar esas tramas para producir datos estadísticos útiles para el observador de la red.
 
-| No. | Tiempo   | Fuente    | Destino   | Protocolo                 | Duración | Información                                                                   |
-| --- | -------- | --------- | --------- | ------------------------- | -------- | ----------------------------------------------------------------------------- |
-| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1   | Almacenamiento en la Nube | 104      | Consulta estándar 0x58ba A privacyguides.org OPT                              |
-| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1 | Almacenamiento en la Nube | 108      | Respuesta de consulta estándar 0x58ba A privacyguides.org A 198.98.54.105 OPT |
-| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8   | Almacenamiento en la Nube | 104      | Consulta estándar 0xf1a9 A privacyguides.org OPT                              |
-| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1 | Almacenamiento en la Nube | 108      | Respuesta de consulta estándar 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
+| No. | Tiempo   | Fuente    | Destino   | Protocolo | Duración | Información                                                                   |
+| --- | -------- | --------- | --------- | --------- | -------- | ----------------------------------------------------------------------------- |
+| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1   | DNS       | 104      | Consulta estándar 0x58ba A privacyguides.org OPT                              |
+| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1 | DNS       | 108      | Respuesta de consulta estándar 0x58ba A privacyguides.org A 198.98.54.105 OPT |
+| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8   | DNS       | 104      | Consulta estándar 0xf1a9 A privacyguides.org OPT                              |
+| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1 | DNS       | 108      | Respuesta de consulta estándar 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
 Un observador podría modificar cualquiera de estos paquetes.
 

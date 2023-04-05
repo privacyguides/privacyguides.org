@@ -1,5 +1,5 @@
 ---
-title: "Privacy Policy"
+title: "سياسة الخصوصية"
 ---
 
 Privacy Guides is a community project operated by a number of active volunteer contributors. The public list of team members [can be found on GitHub](https://github.com/orgs/privacyguides/people).

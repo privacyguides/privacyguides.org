@@ -6,11 +6,19 @@ description: Tor is a free to use, decentralized network designed for using the 
 
 Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible. If used properly, the network enables private and anonymous browsing and communications.
 
-## Útvonalépítés
+## Path Building to Clearnet Services
 
-Tor works by routing your traffic through a network comprised of thousands of volunteer-run servers called nodes (or relays).
+"Clearnet services" are websites which you can access with any browser, like [privacyguides.org](https://www.privacyguides.org). Tor lets you connect to these websites anonymously by routing your traffic through a network comprised of thousands of volunteer-run servers called nodes (or relays).
 
-Every time you connect to Tor, it will choose three nodes to build a path to the internet—this path is called a "circuit." Each of these nodes has its own function:
+Every time you [connect to Tor](../tor.md), it will choose three nodes to build a path to the internet—this path is called a "circuit."
+
+<figure markdown>
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path.svg#only-light)
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway</figcaption>
+</figure>
+
+Each of these nodes has its own function:
 
 ### The Entry Node
 
@@ -30,10 +38,16 @@ The exit node is the point in which your web traffic leaves the Tor network and 
 
 The exit node will be chosen at random from all available Tor nodes ran with an exit relay flag.[^2]
 
-<figure markdown>
-  ![Tor path](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway</figcaption>
+## Path Building to Onion Services
+
+"Onion Services" (also commonly referred to as "hidden services") are websites which can only be accessed by the Tor browser. These websites have a long randomly generated domain name ending with `.onion`.
+
+Connecting to an Onion Service in Tor works very similarly to connecting to a clearnet service, but your traffic is routed through a total of **six** nodes before reaching the destination server. Just like before however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
+
+<figure style="width:100%" markdown>
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway with Onion Services. Nodes in the <span class="pg-blue">blue</span> fence belong to your browser, while nodes in the <span class="pg-red">red</span> fence belong to the server, so their identity is hidden from you.</figcaption>
 </figure>
 
 ## Encryption

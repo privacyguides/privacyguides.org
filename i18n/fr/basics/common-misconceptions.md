@@ -2,6 +2,40 @@
 title: "Idées reçues"
 icon: 'material/robot-confused'
 description: La protection de la vie privée n'est pas un sujet simple, et il est facile de se laisser piéger par les affirmations marketing et autres désinformations.
+schema:
+  - 
+    "@context": https://schema.org
+    "@type": FAQPage
+    mainEntity:
+      - 
+        "@type": Question
+        name: Les logiciels libres sont-ils intrinsèquement sûrs ?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Le fait que le code source soit disponible et la manière dont le logiciel est concédé sous licence n'ont pas d'incidence intrinsèque sur sa sécurité. Les logiciels libres ont le potentiel d'être plus sûrs que les logiciels propriétaires, mais il n'y a aucune garantie que ce soit le cas. Lorsque vous évaluez un logiciel, vous devez examiner la réputation et la sécurité de chaque outil au cas par cas.
+      - 
+        "@type": Question
+        name: Déplacer la confiance vers un autre fournisseur peut-il améliorer la vie privée ?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Nous parlons souvent de "déplacement de confiance" lorsque nous abordons des solutions telles que les VPN (qui déplacent la confiance que vous accordez à votre Fournisseur d'Accès Internet vers le fournisseur de VPN). Bien que cela protège vos données de navigation de votre FAI spécifiquement, le fournisseur de VPN que vous choisissez a toujours accès à vos données de navigation : vos données ne sont pas complètement protégées de toutes les parties.
+      - 
+        "@type": Question
+        name: Les solutions axées sur la protection de la vie privée sont-elles intrinsèquement dignes de confiance ?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Se concentrer uniquement sur les politiques de confidentialité et le marketing d'un outil ou d'un fournisseur peut vous aveugler face à ses faiblesses. Lorsque vous recherchez une solution plus privée, vous devez déterminer quel est le problème sous-jacent et trouver des solutions techniques à ce problème. Par exemple, vous voudrez peut-être éviter Google Drive, qui donne à Google l'accès à toutes vos données. Le problème sous-jacent dans ce cas est l'absence d'E2EE, vous devez donc vous assurer que le fournisseur vers lequel vous allez met effectivement en œuvre E2EE, ou utiliser un outil (comme Cryptomator) qui fournit l'E2EE sur n'importe quel fournisseur de cloud. Le passage à un fournisseur "soucieux de la protection de la vie privée" (qui ne met pas en œuvre E2EE) ne résout pas votre problème : il ne fait que déplacer la confiance de Google vers ce fournisseur.
+      - 
+        "@type": Question
+        name: Quelle doit être la complexité de mon modèle de menace ?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Nous voyons souvent des personnes décrire des modèles de menace pour protéger leurs vies privées qui sont trop complexes. Souvent, ces solutions incluent des problèmes tels que de nombreux comptes email différents ou des configurations compliquées avec de nombreuses pièces mouvantes et conditions. Les réponses sont généralement des réponses à la question "Quelle est la meilleure façon de faire X ?".
+            Trouver la "meilleure" solution pour soi ne signifie pas nécessairement que l'on recherche une solution infaillible avec des dizaines de conditions - ces solutions sont souvent difficiles à utiliser de manière réaliste. Comme nous l'avons vu précédemment, la sécurité se fait souvent au détriment de la commodité.
 ---
 
 ## "Les logiciels libres et open-source sont toujours sécurisés" ou "Les logiciels propriétaires sont plus sécurisé"
@@ -29,7 +63,7 @@ Les politiques de confidentialité et les pratiques commerciales des fournisseur
 
 ## "Plus c'est complexe mieux c'est"
 
-Nous voyons souvent des personnes décrire des modèles de menace pour protéger leurs vies privées qui sont trop complexes. Souvent, ces solutions incluent des problèmes tels que de nombreux comptes de messagerie différents ou des configurations compliquées avec de nombreuses pièces mobiles et conditions. Les réponses sont généralement des réponses à la question "Quelle est la meilleure façon de faire *X*?"
+Nous voyons souvent des personnes décrire des modèles de menace pour protéger leurs vies privées qui sont trop complexes. Souvent, ces solutions incluent des problèmes tels que de nombreux comptes email différents ou des configurations compliquées avec de nombreuses pièces mouvantes et conditions. Les réponses sont généralement des réponses à la question "Quelle est la meilleure façon de faire *X*?"
 
 Trouver la "meilleure" solution pour soi ne signifie pas nécessairement que l'on recherche une solution infaillible avec des dizaines de conditions - ces solutions sont souvent difficiles à utiliser de manière réaliste. Comme nous l'avons vu précédemment, la sécurité se fait souvent au détriment de la commodité. Nous vous donnons ci-dessous quelques conseils :
 

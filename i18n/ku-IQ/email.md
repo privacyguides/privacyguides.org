@@ -56,46 +56,46 @@ description: ئەم دابینکەرانەی پۆستەی ئەلکتڕۆنی ش�
         - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
         - [:octicons-browser-16: Web](https://mail.proton.me)
 
-هەژمارە بەخۆڕایەکان هەندێک سنووریان هەیە، وەک نەتوانینی گەڕان لەناو دەقی نامە و مافی نەبوون لە بەکارهێنانی [Proton Mail Bridge](https://proton.me/mail/bridge)، کە پێویستە بۆ بەکارهێنانی[ڕاژەخوازە پێشنیارکراوەکانی سەر کۆمپیوتەر](email-clients.md) (نـم. Thunderbird). هەژمارە پارەدراوەکان هەندێک تایبەتمەندی لەخۆدەگرن وەک Proton Mail Bridge، کۆگای زیادە، و پشتگیری دۆمەینە تایبەتەکان. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+هەژمارە بەخۆڕایەکان هەندێک سنووریان هەیە، وەک نەتوانینی گەڕان لەناو دەقی نامە و مافی نەبوونی بەکارهێنانی [Proton Mail Bridge](https://proton.me/mail/bridge)، کە پێویستە بۆ بەکارهێنانی[ ڕاژەخوازە پێشنیارکراوەکانی سەر کۆمپیوتەر](email-clients.md) (نـم. Thunderbird). هەژمارە پارەدراوەکان هەندێک تایبەتمەندی لەخۆدەگرن وەک Proton Mail Bridge، کۆگای زیادە، و پشتگیری دۆمەینە تایبەتەکان. [نامەیەکی تاقیکردنەوە](https://proton.me/blog/security-audit-all-proton-apps) بە مەبەستی لایەنگری بۆ کاربەرنامەکانی Proton Mail پێشکەشکرا لە 9ـی تشرینی دووەمی(نۆڤێمبەری) ساڵی 2021 لەلایەن [Securitum](https://research.securitum.com).
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](#simplelogin) Premium for free.
+ئەگەر پلانی Business, Proton Unlimited یان پلانی Visionary هەبێت، ئەوا بەخۆڕایی بەژداربوون لە [SimpleLogin](#simplelogin) وەردەگریت.
 
-Proton Mail has internal crash reports that they **do not** share with third parties. This can be disabled in: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
+Proton Mail ڕاپۆرتی تێکچوونە ناوخۆییەکانی هەیە، کە ئەوان هاوبەشی **ناکەن** لەگەڵ لایەنە سێیەمەکان. ئەمە دەتوانێ لە ناچالاک بکرێت لە: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } دۆمەینە تایبەتیەکان و نازناوەکان
 
-Paid Proton Mail subscribers can use their own domain with the service or a [catch-all](https://proton.me/support/catch-all) address. Proton Mail also supports [subaddressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+بەژداربووانی Proton Mail دەتوانن دۆمەینی خۆیان بەکاربێنن لەگەل خزمەتگوزاریەکە یان <a href=https://proton.me/support/catch-all>هەموو نامەیەک بگرنەوە</a>. هەروەها Proton Mail پشتگیری دەکات لە [ناونیشانی دووەمی](https://proton.me/support/creating-aliases)، کە بەسوودە بۆ ئەو کەسانەی نایانەوێت دۆمەین بکڕن.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green }شێوازی پارەدانی نهێنی
 
-Proton Mail [accepts](https://proton.me/support/payment-options) cash by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
+Proton Mail پارەی نەخت [وەردەگرێت](https://proton.me/support/payment-options) لەڕێگای پۆستە, لەگەڵ شێوازە باوەکانی تری پارەدان وەک [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc)، credit/debit card، و Paypal.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green }پارێزراوێتی هەژمار
 
-Proton Mail supports TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) only. The use of a U2F security key is not yet supported. Proton Mail is planning to implement U2F upon completion of their [Single Sign On (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/) code.
+Proton Mail supports TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two factor authentication first.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green }پارێزراوێتی زانیاری
 
-Proton Mail has [zero-access encryption](https://proton.me/blog/zero-access-encryption) at rest for your emails and [calendars](https://proton.me/news/protoncalendar-security-model). Data secured with zero-access encryption is only accessible by you.
+Proton Mail تەکنەلۆژیای [شفرکردن و تێپەڕبوونی-ئەستەمی](https://proton.me/blog/zero-access-encryption) بەکاردێنێت بۆ پۆستە ئەلکتڕۆنیەکان و [ڕۆژ ژمێرەکانت](https://proton.me/news/protoncalendar-security-model). زانیارەکانی، کە بە تەکنەلۆژیای شفرەکردن و تێپەربوونی-ئەستەمی پارێزگاریان لێکراوە تەنهیا تۆو دەستت پێیان دەگات.
 
-Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are not secured with zero-access encryption. Contact fields that support zero-access encryption, such as phone numbers, are indicated with a padlock icon.
+هەندێک زانیاری کە هەڵگیراون لەناو [ Proton Contacts](https://proton.me/support/proton-contacts)، وەک ناوە پیشاندراوەکان و ناونیشانی پۆستە ئەلکتڕۆنیەکان، ئەوائەوانە پارێزگاریان لێ نەکراوە بە تەکنەلۆژیای شفرکردن و تێپەڕبوونی-ئەستەمی. ئەو خانانەی Contacts کە پشتگیری لە شفرکردن و تێپەڕبوونی-ئەستەمی دەکەن، بەشێوەی وێنەیەکی بچووکراوەی قفڵ نیشان دەدرێن.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } شفرکردنی پۆستەی ئەلکتڕۆنی
 
-Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to-use-pgp) in their webmail. Emails to other Proton Mail accounts are encrypted automatically, and encryption to non-Proton Mail addresses with an OpenPGP key can be enabled easily in your account settings. They also allow you to [encrypt messages to non-Proton Mail addresses](https://proton.me/support/password-protected-emails) without the need for them to sign up for a Proton Mail account or use software like OpenPGP.
+Proton Mail [شفرکردنی OpenPGP زیادکردووە](https://proton.me/support/how-to-use-pgp) بۆ ماڵپەری پۆستەی ئەلکتڕۆنییەکەیان. پۆستەی ئەلکتڕۆنی نێوان هەژمارەکانی Proton Mail خۆکارانە شفرکراوە، بەڵام شفرکردن لە نێوان Proton Mail و پۆستەی ئەلکتڕۆنی تر شفردەکرێن بە ئاسانی لەڕێگەی کلیلی OpenPGP، کە لە ڕێکخستنەکانی هەژمارەکەت هەیە. هەروەها ئەوان ڕێگەت پێدەدەن بە[شفرکردنی نامەکان کە دەینێریت بۆ پۆستە ئەلکتڕۆنیە نـا Proton Mailـەکان](https://proton.me/support/password-protected-emails) بەبێ ئەوەی پێویست بکات ئەوان ناونووسین بۆ هەژمارێکی Proton Mail بکەن یان نەرمەواڵەیەکی وەک OpenPGP بەکاربێنن.
 
-Proton Mail also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily, for cross-provider E2EE.
+هەروەها Proton Mail پشتگیری دۆزینەوەی کلیلە گشتیەکان دەکات لە HTTPــەوە لە ڕێگای [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). ئەمەڕێگە ئەو کەسانە دەدات کە Proton Mail بەکار ناهێنن بۆئەوەی کلیکە گشتیەکانی هەژماری Proton Mail بە ئاسانی بدۆزنەوە. تا ببێتە هۆی گونجاندن لەگەڵ دابینکەرانی تری E2EE.
 
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } لەناوبردنی هەژمار
 
-If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinquent and won't receive incoming mail. You will continue to be billed during this period.
+ئەگەر هەژمارێکی پارەدراوت هەبێت وە [پارەی پسوولەکەت نەدابێت](https://proton.me/support/delinquency) دوای 14 ڕۆژ، ئەوا ناتوانیت دەستت بگات بە زانیاریەکانت. دوای 30 ڕۆژ، هەژمارەکەت دەبێتە نایاسایی و هیچ نامایەکی ترت بۆ نایەت. لەم ماوەیەدا بەردەوام دەبیت لە وەرگرتنی پسوولە.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } کرداری زیادە
 
-Proton Mail offers an "Unlimited" account for €9.99/Month, which also enables access to Proton VPN in addition to providing multiple accounts, domains, aliases, and 500GB of storage.
+Proton Mail هەژمارێکی "Unlimited" پێشکەش دەکات لەبەرامبەر €9.99 بۆ یەک مانگ، کە توانای بەکارهێنانی Proton VPN چالاک دەکات جگە لە پێشکەشکردنی زیاتر لە هەژمارێک، دۆمەینێک، نازناوێک، وە 500G بۆ کۆکردنەوە.
 
-Proton Mail doesn't offer a digital legacy feature.
+Poton Mail کرداری میراتی دیجیتاڵی پێشکەش ناکات.
 
 ### Mailbox.org
 
@@ -103,49 +103,49 @@ Proton Mail doesn't offer a digital legacy feature.
 
     ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
     
-    **Mailbox.org** is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with 2 GB of storage, which can be upgraded as needed.
+    **Mailbox** خزمەتگوزاریەکی پۆستەی ئەلکتڕۆنیە کە جەخت لە هەبوونی سەلامەتی و بێ بەرامبەری تایبەتێتی و کارکردن بە وزەیەکی %100ـی هاوڕێی ژینگە. ئەوان لە **2014**ـەوە لە کاردان. Mailbox.org دەکەوێتە بەرلین، لە ئەڵمانیا. هەژمارەکان دەستپێدەکەن لە 2GB بۆ هەڵگرتن، کە دەتوانرێت زیاد بکرێت بەپێی پێویست.
     
-    [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+    [:octicons-home-16: ماڵپەڕی سەرەکی](https://mailbox.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="سیاسەتی تایبەتێتی" }
+    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=دۆکیمێنتەکان}
     
-    ??? downloads
+    ??? داگرتنەکان
     
         - [:octicons-browser-16: Web](https://login.mailbox.org)
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } دۆمەینە تایبەتیەکان و نازناوەکان
 
-Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) addresses. Mailbox.org also supports [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), which is useful if you don't want to purchase a domain.
+Mailbox.org ڕێگەت پێ دەدات دۆمەینی خۆت خۆت بەکاربێنی، وە پشتگیری لە [گرتنەوەی هەموو نامەکان](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) دەکات. هەروەها Mailbox.org پشتگیری دەکات لە [ناونیشانی دووەمی](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it)، کە بەسوودە ئەگەر ناتەوێت دۆمەین بکڕیت.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green }شێوازی پارەدانی نهێنی
 
-Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept Cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
+Mailbox.org هیچ جۆرە دراوێکی دیجیتاڵی قبوڵ ناکات بەهۆی ڕاگرتنی کارەکانی شێوازی پارەدانەکەیان BitPay لە ئەڵمانیا. هەرچۆنێک بێت، ئەوان پارە وەردەگرن لە ڕێگەی نەخت بە پۆستە یان لە ڕێی هەژماری بانکی، گواستنەوەی بانک، کرێدیت کارت، PayPal لەگەڵ دوو شێوازی تایبەت بە ئەڵمانیا: paydirekt و Sofortüberweisung.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green }پارێزراوێتی هەژمار
 
-Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [Yubikey](https://en.wikipedia.org/wiki/YubiKey) via the [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
+Mailbox.org تەنها پشتگیری لە [سەلماندنی دووانی](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) بۆ ماڵپەری پۆستەی ئەلکتڕۆنییەکەیان دەکات. دەتوانیت TOTP بەکاربێنیت یان [Yubikey](https://en.wikipedia.org/wiki/YubiKey) لەڕێگای [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). شیوازە باوەکانی وەک [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) هێشتا پشتگیری نەکراون.
 
-#### :material-information-outline:{ .pg-blue } Data Security
+#### :material-information-outline:{ .pg-blue }پارێزراوێتی زانیاری
 
-Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). New messages that you receive will then be immediately encrypted with your public key.
+Mailbox.org ڕیگ دەدات بە شفرکردنی پۆستە هاتتووەکان بە بەکارهێنانی [سندوقی پۆستەی شفراوی](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox) ئەوان. نامە نوێکانی کە تۆ وەریدەگری ڕاستەوخۆ بە کلیلی گشتیت شفر دەکرێن.
 
-However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that information.
+هەرچۆنێك بێت، [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange)، ئەو نەرمەواڵەی لەلایەن Mailbox.org بەکاردەهێندرێت, [پشتگیری ناکات](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) لە شفرەکردنی پەرتووکی ناونیشانەکانت و ڕۆژژمێرەکەت. [بژاردەیەکی سەربەخۆ](calendar.md) لەوانەیە گونجاوتر بێت بۆ ئەم زانیاریە.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } شفرکردنی پۆستەی ئەلکتڕۆنی
 
-Mailbox.org has [integrated encryption](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
+Mailbox.org [شفرکردنی OpenPGP زیادکردووە](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) لە ماڵپەری پۆستەی ئەلکتڕۆنییەکەیان، کە ناردنی نامەکان ئاسان دەکات بۆ ئەو کەسانەی کلیلی گشتی OpenPGPـیـان هەیە. هەروەها [وەرگرەکان دەتوانن لە دوورەوە شفری پۆستە ئەلکتڕۆنێیەک لەببەن](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP)، کە لەسەر ڕاژەکارەکانی Mailbox.org. ئەم تایبەتمەندیە بەسوودە کاتێک وەرگر لە دوورەوە OpenPGPـی نییە و ناتوانێت شفرەکە لەسەر لەبەرگیراوەیەکی پۆستەکە لاببات لە سندووقی پۆستەکانی خۆیدا.
 
-Mailbox.org also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily, for cross-provider E2EE.
+هەروەها Mailbox.org پشتگیری دۆزینەوەی کلیلە گشتیەکان دەکات لە HTTPــەوە لە ڕێگای [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). ئەمە ڕێگە بە کەسانی دەرەوەی Mailbox.org دەدات کە کلیلەکانی OpenPGP بۆ هەژمارەکانی Mailbox.org بە ئاسانی بدۆزنەوە، تا ببێتە هۆی گونجاندن لەگەڵ دابینکەرانی تری E2EE.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } لەناوبردنی هەژمار
 
-Your account will be set to a restricted user account when your contract ends, after [30 days it will be irrevocably deleted](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+کاتێک گرێبەستەکەت تەواودەبێت هەژمارەکەت دەگۆڕدرێت بۆ هەژمارێکی سنووردار، [دوای 30 ڕۆژ لە نەگەڕانەوەت ئەوا هەژمارەکەت دەسڕدرێتەوە](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } کرداری زیادە
 
-You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). However, their webmail interface cannot be accessed via their .onion service and you may experience TLS certificate errors.
+دەتوانیت هەژمێرەکەی Mailbox.org بەکاربێنی لەڕێگەی IMAP/SMTP بە بەکارهێنانی [خزمەتگوزاری ](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org)onian. هەرچۆنێک بێت، ناتوانیت لە ڕێگەی ڕووکاری ماڵپەڕی پۆستەی ئەلکتڕۆنییەکەیان خزمەتگوزاری .onian بەکاربهێنیت وە لەوانەیە ڕووبەڕووی هەڵەی بڕوانامەی TLS ببیتەوە.
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+هەموو هەژمارەکانی کە هەورە کۆگایەکی سنوورداریان هەیە، [دەتوانرێت شفر بکرێن](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
 Mailbox.org has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
 
@@ -177,7 +177,7 @@ These providers store your emails with zero-knowledge encryption, making them gr
     
         - [:octicons-browser-16: Web](https://mail.startmail.com/login)
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } دۆمەینە تایبەتیەکان و نازناوەکان
 
 Personal accounts can use [Custom or Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) aliases. [Custom domains](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) are also available.
 
@@ -185,21 +185,21 @@ Personal accounts can use [Custom or Quick](https://support.startmail.com/hc/en-
 
 StartMail accepts Visa, MasterCard, American Express and Paypal. StartMail also has other [payment options](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) such as [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (currently only for Personal accounts) and SEPA Direct Debit for accounts older than a year.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green }پارێزراوێتی هەژمار
 
 StartMail supports TOTP two factor authentication [for webmail only](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). They do not allow U2F security key authentication.
 
-#### :material-information-outline:{ .pg-blue } Data Security
+#### :material-information-outline:{ .pg-blue }پارێزراوێتی زانیاری
 
 StartMail has [zero access encryption at rest](https://www.startmail.com/en/whitepaper/#_Toc458527835), using their "user vault" system. When you log in, the vault is opened, and the email is then moved to the vault out of the queue where it is decrypted by the corresponding private key.
 
 StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) however, they are only accessible in the webmail and not through protocols such as [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacts are also not stored using zero knowledge encryption.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } شفرکردنی پۆستەی ئەلکتڕۆنی
 
 StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys. However, they do not support the Web Key Directory standard, making the discovery of a Startmail mailbox's public key more challenging for other email providers or clients.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } لەناوبردنی هەژمار
 
 On account expiration, StartMail will permanently delete your account after [6 months in 3 phases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
 
@@ -235,7 +235,7 @@ StartMail does not offer a digital legacy feature.
 
 Tutanota doesn't support the [IMAP protocol](https://tutanota.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tutanota app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tutanota.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } دۆمەینە تایبەتیەکان و نازناوەکان
 
 Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias) and [custom domains](https://tutanota.com/faq#custom-domain). Tutanota doesn't allow for [subaddressing (plus addresses)](https://tutanota.com/faq#plus), but you can use a [catch-all](https://tutanota.com/howto#settings-global) with a custom domain.
 
@@ -243,11 +243,11 @@ Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias)
 
 Tutanota only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green }پارێزراوێتی هەژمار
 
 Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with either TOTP or U2F.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green }پارێزراوێتی زانیاری
 
 Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). This means the messages and other data stored in your account are only readable by you.
 
@@ -255,7 +255,7 @@ Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encr
 
 Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } لەناوبردنی هەژمار
 
 Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
 

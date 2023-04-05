@@ -1,7 +1,41 @@
 ---
 title: "I malintesi più comuni"
 icon: 'material/robot-confused'
-description: Privacy isn't a straightforward topic, and it's easy to get caught up in marketing claims and other disinformation.
+description: Non è semplice trattare di privacy, ed è facile farsi abbindolare da semplice marketing o altri tipi di disinformazione.
+schema:
+  - 
+    "@context": https://schema.org
+    "@type": FAQPage
+    mainEntity:
+      - 
+        "@type": Question
+        name: Il software open source è intrinsecamente sicuro?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Il fatto che il codice sorgente sia disponibile e la licenza a cui è sottoposto il software non implica che il codice sia sicuro a prescindere. Il software open-source è potenzialmente più sicuro del software proprietario, tuttavia non c'è alcuna garanzia che sia così. Quando si valuta un software, è necessario esaminare la reputazione e la sicurezza di ogni programma in modo indipendente.
+      - 
+        "@type": Question
+        name: '"Spostare la fiducia" ad un altro provider può migliorare la privacy?'
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Si parla spesso di "spostamento della fiducia" quando si parla di soluzioni come le VPN (che spostano la fiducia riposta nel proprio ISP al fornitore di VPN). Sebbene questo protegga i tuoi dati di navigazione dal tuo ISP, il provider VPN che hai scelto ha l'accesso ai tuoi dati: non è certo che i tuoi dati siano al sicuro da terzi.
+      - 
+        "@type": Question
+        name: Le soluzioni incentrate sulla privacy sono intrinsecamente affidabili?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Concentrarsi esclusivamente sulle politiche sulla privacy e sul marketing di uno strumento o di un fornitore può indurti a ignorare i suoi punti deboli. Quando si cerca una soluzione più privata, è necessario determinare il problema di fondo e trovare soluzioni tecniche per risolverlo. Ad esempio, sarebbe meglio evitare Google Drive, che dà a Google accesso a tutti i tuoi dati. In questo caso il problema di fondo è la mancanza di cifratura E2EE, quindi è necessario assicurarsi che il fornitore a cui si passa implementi effettivamente l'E2EE, oppure utilizzare uno strumento (come Cryptomator) che fornisce l'E2EE per qualsiasi fornitore di servizi di archiviazione cloud. Passare a un fornitore "finalizzato alla privacy" (che non implementa l'E2EE) non risolve il problema: sposta solo la fiducia da Google a quel fornitore.
+      - 
+        "@type": Question
+        name: Quando dovrebbe essere complesso il mio modello di minaccia?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Spesso si vedono descrivere modelli di minaccia per la privacy eccessivamente complessi. Spesso queste soluzioni includono problemi come l'uso di molteplici account di posta elettronica o di configurazioni complicate con molte parti mobili e condizioni. Le risposte sono solitamente soluzioni alla domanda "qual è il modo migliore per fare X?"
+            Trovare la soluzione "migliore" per te non significa necessariamente cercare una soluzione infallibile con decine di condizioni: queste soluzioni sono spesso difficili da gestire in modo realistico. Come abbiamo detto in precedenza, la sicurezza spesso va a scapito della comodità.
 ---
 
 ## "Il software open-source è sempre sicuro" o "il software proprietario è più sicuro"
@@ -23,7 +57,7 @@ Si parla spesso di "spostamento della fiducia" quando si parla di soluzioni come
 
 ## "Le soluzioni incentrate sulla privacy sono intrinsecamente affidabili"
 
-Concentrarsi esclusivamente sulle politiche sulla privacy e sul marketing di uno strumento o di un fornitore può indurti a ignorare i suoi punti deboli. Quando si cerca una soluzione più privata, è necessario determinare il problema di fondo e trovare soluzioni tecniche per risolverlo. Ad esempio, è meglio evitare Google Drive, che dà a Google accesso a tutti i tuoi dati. Il problema di fondo in questo caso è la mancanza di E2EE, quindi è necessario assicurarsi che il fornitore a cui si passa implementi effettivamente l'E2EE, oppure utilizzare uno strumento (come [Cryptomator](../encryption.md#cryptomator-cloud)) che fornisce l'E2EE a qualsiasi fornitore di archiviazione in cloud. Passare a un fornitore "finalizzato alla privacy" (che non implementa l'E2EE) non risolve il problema: sposta solo la fiducia da Google a quel fornitore.
+Concentrarsi esclusivamente sulle politiche sulla privacy e sul marketing di uno strumento o di un fornitore può indurti a ignorare i suoi punti deboli. Quando si cerca una soluzione più privata, è necessario determinare il problema di fondo e trovare soluzioni tecniche per risolverlo. Ad esempio, sarebbe meglio evitare Google Drive, che dà a Google accesso a tutti i tuoi dati. Il problema di fondo in questo caso è la mancanza di E2EE, quindi è necessario assicurarsi che il fornitore a cui si passa implementi effettivamente l'E2EE, oppure utilizzare uno strumento (come [Cryptomator](../encryption.md#cryptomator-cloud)) che fornisce l'E2EE a qualsiasi fornitore di archiviazione in cloud. Passare a un fornitore "finalizzato alla privacy" (che non implementa l'E2EE) non risolve il problema: sposta solo la fiducia da Google a quel fornitore.
 
 Le politiche sulla privacy e le pratiche commerciali dei fornitori scelti sono molto importanti, ma devono essere considerate secondarie rispetto alle garanzie tecniche della tua privacy: non si dovrebbe trasferire la fiducia a un altro fornitore quando la fiducia in un fornitore non è affatto un requisito.
 

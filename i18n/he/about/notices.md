@@ -1,7 +1,5 @@
 ---
 title: "הודעות וכתבי ויתור"
-hide:
-  - toc
 ---
 
 ## הצהרה משפטית
@@ -14,21 +12,26 @@ Privacy Guides הוא פרויקט קוד פתוח שנתרם לו תחת ריש
 
 Privacy Guides בנוסף אינם מתחייבים כי אתר זה יהיה זמין כל הזמן, או זמין בכלל.
 
-## רישיונות
+## סקירת רישוי
 
-אלא אם צוין אחרת, כל התוכן באתר זה זמין תחת התנאים של [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE).
+!!! danger ""
+
+    להלן סיכום הניתן לקריאה על ידי אדם של (ולא תחליף ל) ה-[רישיון](/license).
+
+אלא אם צוין אחרת, כל ה**תוכן** באתר זה זמין תחת תנאי הרישיון [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). **קוד המקור** הבסיסי המשמש ליצירת אתר זה ולהצגת תוכן זה משוחרר תחת [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 
 זה לא כולל קוד של צד שלישי המוטמע במאגר זה, או קוד שבו צוין אחרת רישיון מחליף. להלן דוגמאות בולטות, אך ייתכן שרשימה זו אינה כוללת:
 
-* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/mathjax.js) מורשה תחת רישיון [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
-
-חלקים מההודעה הזו עצמה אומצו מ [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) ב- GitHub. משאב זה והדף עצמו משוחררים תחת [CC-BY-4.0](https://github.com/github/opensource.guide/blob/master/LICENSE).
+* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) מורשה תחת רישיון [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
+* גופן הכותרת של [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) מורשה תחת רישיון [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
+* הגופן [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) המשמש לרוב הטקסט באתר הינו מורשה בתנאים המפורטים [כאן](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
+* הגופן [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) המשמש עבור טקסט מונו-רווח באתר הוא מורשה תחת [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
 
 משמעות הדבר היא שאתה יכול להשתמש בתוכן הניתן לקריאה על ידי אדם במאגר זה עבור הפרויקט שלך, לפי התנאים המפורטים בטקסט של Creative Commons Attribution-NoDerivatives 4.0 International Public License. אתה רשאי לעשות זאת בכל דרך סבירה, אך לא בכל דרך שמציעה שPrivacy Guides מאשרים אותך או את השימוש שלך. **אינך רשאי** להשתמש במיתוג Privacy Guides בפרויקט שלך ללא אישור מפורש מפרויקט זה. סימני המסחר של המותג של מדריכי הפרטיות כוללים את סימן המילה "Privacy Guides" ואת לוגו המגן.
 
 אנו מאמינים שסמלי הלוגו ותמונות אחרות ב`נכסים` המתקבלים מספקי צד שלישי הם נחלת הכלל או ב**שימוש הוגן**. על קצה המזלג, [fair use doctrine](https://www.copyright.gov/fair-use/more-info.html) החוקית יכולה להשתמש בתמונות המוגנות בזכויות יוצרים על מנת לזהות את הנושא לצורך הערות הציבור. עם זאת, ייתכן שסמלים אלה ותמונות אחרות עדיין יהיו כפופות לחוקי סימנים מסחריים בתחומי שיפוט אחד או יותר. לפני השימוש בתוכן זה, אנא ודא שהוא משמש לזיהוי הישות או הארגון המחזיקים בסימן המסחרי וכי יש לך את הזכות להשתמש בו לפי החוקים החלים בנסיבות השימוש המיועד שלך. *בעת העתקת תוכן מאתר זה, אתה האחראי הבלעדי לוודא שאינך מפר סימן מסחרי או זכויות יוצרים של מישהו אחר.*
 
-כאשר אתה תורם למאגר זה אתה עושה זאת תחת הרישיונות הנ"ל, ואתה מעניק לPrivacy Guides רישיון תמידי, כלל עולמי, לא בלעדי, ניתן להעברה, ללא תמלוגים, בלתי חוזר עם הזכות לתת רישיון משנה לזכויות כאלה באמצעות שכבות מרובות של בעלי רישיונות משנה, לשכפל, לשנות, להציג, לבצע ולהפיץ את התרומה שלך כחלק מהפרויקט שלנו.
+כאשר אתה תורם לאתר שלנו אתה עושה זאת תחת הרישיונות הנ"ל, ואתה מעניק ל-Privacy Guides רישיון תמידי, כלל עולמי, לא בלעדי, ניתן להעברה, ללא תמלוגים, בלתי חוזר עם הזכות לתת רישיון משנה לזכויות כאלה באמצעות שכבות מרובות של בעלי רישיונות משנה., לשכפל, לשנות, להציג, לבצע ולהפיץ את התרומה שלך כחלק מהפרויקט שלנו.
 
 ## שימוש מקובל
 
@@ -41,3 +44,7 @@ Privacy Guides בנוסף אינם מתחייבים כי אתר זה יהיה ז
 * גירוד
 * כריית נתונים
 * 'מסגור' (IFrames)
+
+---
+
+*חלקים מההודעה הזו עצמה אומצו מ [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) ב- GitHub. משאב זה והדף עצמו משוחררים תחת [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

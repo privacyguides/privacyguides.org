@@ -114,5 +114,5 @@ Cryptee offers 100MB of storage for free, with paid options if you need more. Si
 
 ### Best Case
 
-- Local backup/sync functionality should support encryption.
-- Cloud-based platforms should support document sharing.
+- La funzionalità di backup/sincronizzazione locale dovrebbe supportare la crittografia.
+- Le piattaforme basate sul cloud dovrebbero supportare la condivisione dei documenti.

@@ -1,5 +1,5 @@
 ---
-title: Linux Overview
+title: Panoramica di Linux
 icon: simple/linux
 description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
 ---
@@ -52,7 +52,7 @@ The Atomic update method is used for immutable distributions like Silverblue, Tu
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### “Security-focused” distributions
+### Distribuzioni "Incentrate sulla sicurezza"
 
 There is often some confusion between “security-focused” distributions and “pentesting” distributions. A quick search for “the most secure Linux distribution” will often give results like Kali Linux, Black Arch and Parrot OS. These distributions are offensive penetration testing distributions that bundle tools for testing other systems. They don’t include any “extra security” or defensive mitigations intended for regular use.
 
@@ -103,7 +103,7 @@ Linux distributions such as those which are [Linux-libre](https://en.wikipedia.o
 
 We **highly recommend** that you install the microcode updates, as your CPU is already running the proprietary microcode from the factory. Fedora and openSUSE both have the microcode updates applied by default.
 
-### Updates
+### Aggiornamenti
 
 Most Linux distributions will automatically install updates or remind you to do so. It is important to keep your OS up to date so that your software is patched when a vulnerability is found.
 
@@ -111,9 +111,9 @@ Some distributions (particularly those aimed at advanced users) are more barebon
 
 Additionally, some distributions will not download firmware updates automatically. For that you will need to install [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
 
-## Privacy Tweaks
+## Modifiche alla privacy
 
-### MAC Address Randomization
+### Randomizzazione dell'indirizzo MAC
 
 Many desktop Linux distributions (Fedora, openSUSE, etc) will come with [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager), to configure Ethernet and Wi-Fi settings.
 

@@ -2,6 +2,40 @@
 title: "Συνήθεις παρανοήσεις"
 icon: 'material/robot-confused'
 description: Η ιδιωτικότητα δεν αποτελεί ένα ξεκάθαρο ζήτημα και είναι εύκολο να παρασυρθεί κανείς από διαφημιστικούς ισχυρισμούς και άλλες παραπλανητικές πληροφορίες.
+schema:
+  - 
+    "@context": https://schema.org
+    "@type": FAQPage
+    mainEntity:
+      - 
+        "@type": Question
+        name: Is open source software inherently secure?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Whether the source code is available and how software is licensed does not inherently affect its security in any way. Open-source software has the potential to be more secure than proprietary software, but there is absolutely no guarantee this is the case. When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+      - 
+        "@type": Question
+        name: Can shifting trust to another provider increase privacy?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Μιλάμε συχνά για «μετατόπιση της εμπιστοσύνης», όταν συζητάμε για λύσεις όπως τα Εικονικά Ιδιωτικά Δίκτυα(VPN) (τα οποία μετατοπίζουν την εμπιστοσύνη, που εναποθέτεις στον Πάροχο Υπηρεσιών Διαδικτύου(ISP) σου, προς τον πάροχο του VPN). While this protects your browsing data from your ISP specifically, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties.
+      - 
+        "@type": Question
+        name: Are privacy-focused solutions inherently trustworthy?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Εστιάζοντας αποκλειστικά στις πολιτικές απορρήτου και το μάρκετινγκ ενός εργαλείου ή ενός παρόχου μπορεί να σας τυφλώσει στις αδυναμίες του. Όταν αναζητάτε μια πιο ιδιωτική λύση, θα πρέπει να προσδιορίσετε, ποιο είναι το κυριότερο πρόβλημα και να βρείτε τεχνικές λύσεις για το πρόβλημα αυτό. Για παράδειγμα, κρίνεται εύλογο να αποφύγετε το Google Drive, το οποίο παρέχει στην Google πρόσβαση σε όλα τα δεδομένα σας. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like Cryptomator) which provides E2EE on any cloud provider. Η μετάβαση σε έναν πάροχο, που «εστιάζει στην προστασία της ιδιωτικότητας» (ο οποίος δεν εφαρμόζει το E2EE) δε λύνει το πρόβλημά: απλώς μετατοπίζει την εμπιστοσύνη από την Google σε αυτόν τον πάροχο.
+      - 
+        "@type": Question
+        name: How complicated should my threat model be?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Συχνά βλέπουμε ανθρώπους να περιγράφουν μοντέλα απειλής της ιδιωτικότητας, που είναι υπερβολικά πολύπλοκα. Συχνά, αυτές οι λύσεις περιλαμβάνουν προβλήματα όπως πολλοί διαφορετικοί λογαριασμοί ηλεκτρονικού ταχυδρομείου ή περίπλοκες ρυθμίσεις με πολλά κινούμενα μέρη και συνθήκες. The replies are usually answers to "What is the best way to do X?"
+            Η εύρεση της «καλύτερης» λύσης για τον εαυτό σας δε σημαίνει απαραίτητα, ότι αναζητάτε μια αλάνθαστη λύση με δεκάδες συνθήκες - αυτές οι λύσεις είναι συχνά δύσκολο να εφαρμοστούν ρεαλιστικά. Όπως αναφέραμε προηγουμένως, η ασφάλεια συχνά έχει ως κόστος την ευκολία.
 ---
 
 ## «Το λογισμικό ανοιχτού κώδικα είναι πάντοτε ασφαλές» ή « Το ιδιόκτητο λογισμικό είναι πιο ασφαλές»

@@ -1,44 +1,44 @@
 ---
-title: Git Recommendations
+title: Recomendaciones de Git
 ---
 
-If you make changes to this website on GitHub.com's web editor directly, you shouldn't have to worry about this. If you are developing locally and/or are a long-term website editor (who should probably be developing locally!), consider these recommendations.
+Si realizas cambios en este sitio web en el editor web de GitHub.com directamente, no deberías tener que preocuparte por esto. Si estás desarrollando localmente y/o eres un editor de sitios web a largo plazo (¡que probablemente deberías estar desarrollando localmente!), ten en cuenta estas recomendaciones.
 
-## Enable SSH Key Commit Signing
+## Activa la firma de compromiso de claves SSH
 
-You can use an existing SSH key for signing, or [create a new one](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+Puedes utilizar una clave SSH existente para firmar, o [crear una nueva](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
-1. Configure your Git client to sign commits and tags by default (remove `--global` to only sign by default for this repo):
+1. Configura tu cliente Git para que firme commits y etiquetas por defecto (elimina `--global` para que solo firme por defecto para este repositorio):
    ```
    git config --global commit.gpgsign true
    git config --global gpg.format ssh
    git config --global tag.gpgSign true
    ```
-2. Copy your SSH public key to your clipboard, for example:
+2. Copia tu clave pública SSH a tu portapapeles, por ejemplo:
    ```
    pbcopy < ~/.ssh/id_ed25519.pub
     # Copies the contents of the id_ed25519.pub file to your clipboard
    ```
-3. Set your SSH key for signing in Git with the following command, replacing the last string in quotes with the public key in your clipboard:
+3. Configura tu clave SSH para firmar en Git con el siguiente comando, sustituyendo la última cadena entre comillas por la clave pública de tu portapapeles:
    ```
    git config --global user.signingkey 'ssh-ed25519 AAAAC3(...) user@example.com'
    ```
 
-Ensure you [add your SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **as a Signing Key** (as opposed to or in addition to as an Authentication Key).
+Asegúrate de que [añades tu clave SSH a tu cuenta de GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **como Clave de firma** (en lugar de o además de como Clave de autenticación).
 
-## Rebase on Git pull
+## Rebase en Git pull
 
-Use `git pull --rebase` instead of `git pull` when pulling in changes from GitHub to your local machine. This way your local changes will always be "on top of" the latest changes on GitHub, and you avoid merge commits (which are disallowed in this repo).
+Usa `git pull --rebase` en lugar de `git pull` al mover cambios de GitHub a tu máquina local. De esta forma, tus cambios locales estarán siempre "encima" de los últimos cambios en GitHub, y evitarás las confirmaciones de fusión (que no están permitidas en este repositorio).
 
-You can set this to be the default behavior:
+Puedes establecer que éste sea el comportamiento por defecto:
 
 ```
 git config --global pull.rebase true
 ```
 
-## Rebase from `main` before submitting a PR
+## Rebase de `main` antes de enviar un PR
 
-If you are working on your own branch, run these commands before submitting a PR:
+Si estás trabajando en tu propia rama, ejecuta estos comandos antes de enviar un PR:
 
 ```
 git fetch origin

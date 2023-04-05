@@ -1,7 +1,7 @@
 ---
 title: Panoramica VPN
 icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
+description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. Dovresti tenere a mente questi aspetti.
 ---
 
 Le reti private virtuali sono un modo per estendere l'estremità della vostra rete all'uscita di un'altra parte del mondo. Un ISP può vedere il flusso del traffico Internet che entra ed esce dal dispositivo di terminazione della rete (ad esempio, il modem).

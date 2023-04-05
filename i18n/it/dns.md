@@ -1,12 +1,12 @@
 ---
 title: "Resolver DNS"
 icon: material/dns
-description: These are some encrypted DNS providers we recommend switching to, to replace your ISP's default configuration.
+description: Questi sono alcuni provider DNS cifrati a cui consigliamo di passare, per sostituire la configurazione predefinita del tuo ISP.
 ---
 
-Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Il DNS crittografato non aiuta a nascondere la tua attività di navigazione.
+I DNS cifrati con server di terze parti dovrebbero essere utilizzati solo per aggirare il [blocco DNS](https://en.wikipedia.org/wiki/DNS_blocking) di base quando si può essere certi che non ci saranno conseguenze. Il DNS cifrato non aiuta a nascondere la tua attività di navigazione.
 
-[Learn more about DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
+[Per saperne di più sui DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
 ## Provider consigliati
 

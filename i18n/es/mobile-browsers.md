@@ -1,14 +1,45 @@
 ---
 title: "Navegadores Móviles"
 icon: material/cellphone-information
-description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
+description: Estos navegadores son los que recomendamos actualmente para la navegación estándar/no anónima por Internet en su teléfono.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": WebPage
+    name: Private Mobile Browser Recommendations
+    url: "./"
+    relatedLink: "../desktop-browsers/"
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Brave
+    image: /assets/img/browsers/brave.svg
+    url: https://brave.com
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Android
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Safari
+    image: /assets/img/browsers/safari.svg
+    url: https://www.apple.com/safari/
+    applicationCategory: Web Browser
+    operatingSystem:
+      - iOS
+    subjectOf:
+      "@type": WebPage
+      url: "./"
 ---
 
-Estos son nuestros navegadores web para móviles y configuraciones recomendadas actualmente para la navegación estándar/no anónima por Internet. Si necesitas navegar por Internet de forma anónima, deberías utilizar [Tor](tor.md) . En general, recomendamos mantener las extensiones al mínimo; tienen acceso privilegiado dentro de su navegador, requieren que confíe en el desarrollador, pueden hacerte [destacar](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), y [debilitar el aislamiento del sitio](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ).
+Estos son nuestras recomendaciones actuales sobre navegadores web para móviles y configuraciones para la navegación estándar/no anónima por Internet. Si necesita navegar por Internet de forma anónima, debería utilizar [Tor](tor.md). En general, recomendamos mantener las extensiones al mínimo; tienen acceso privilegiado dentro de su navegador, requieren que confíe en el desarrollador, pueden hacerle [destacar](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), y [debilitar](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) el aislamiento del sitio.
 
 ## Android
 
-En Android, Firefox es incluso menos seguro que las alternativas basadas en Chromium: El motor de Mozilla, [GeckoView](https://mozilla.github.io/geckoview/), aún no soporta el aislamiento de sitios [](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) ni habilita [ProcesoAislado](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
+En Android, Firefox es incluso menos seguro que las alternativas basadas en Chromium: El motor de Mozilla, [GeckoView](https://mozilla.github.io/geckoview/), aún no soporta el aislamiento de sitios [](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) ni habilitar [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
 
 ### Brave
 
@@ -16,80 +47,81 @@ En Android, Firefox es incluso menos seguro que las alternativas basadas en Chro
 
     ![Brave logo](assets/img/browsers/brave.svg){ align=right }
     
-    **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features/), many of which are enabled by default.
+    **Brave Browser** incluye un bloqueador de contenidos integrado y [funciones de privacidad](https://brave.com/privacy-features/), muchas de las cuales están activadas por defecto.
     
-    Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+    Brave se basa en el proyecto de navegador web Chromium, por lo que debería resultar familiar y tener mínimos problemas de compatibilidad con sitios web.
     
-    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+    [:octicons-home-16: Página Principal](https://brave.com/){ .md-button .md-button--primary }
+    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Servicio Onion" }
+    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Política de Privacidad" }
+    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Código Fuente" }
     
     ??? notas de descarga
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 
-#### Firefox
+#### Configuración Recomendada
 
-Tor Browser is the only way to truly browse the internet anonymously. Cuando uses Brave, te recomendamos cambiar la siguiente configuración para proteger tu privacidad de ciertas partes, pero todos los navegadores que no sean [el navegador Tor](tor.md#tor-browser) serán rastreables por *alguien* en algún sentido u otro.
+Tor BrowseR es la única manera de navegar por Internet de forma verdaderamente anónima. Cuando use Brave, Le recomendamos cambiar los siguiente ajustes para proteger su privacidad de ciertas partes, pero todos los navegadores que no sean [Tor Browser](tor.md#tor-browser) serán rastreables por *alguien* en un sentido u otro.
 
 Estas opciones se pueden encontrar en :material-menu: → **Configuración** → **Protecciones y privacidad de Brave**
 
-##### Shields
+##### Escudos
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
+Brave incluye algunas medidas anti-fingerprinting en su función de [Escudos](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-). Sugerimos configurar estas opciones [globalmente](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) en todas las páginas que visite.
 
-##### Brave shields global defaults
+##### Valores generales predeterminados de los escudos de Brave
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+Las opciones de los escudos pueden reducirse según las necesidades de cada sitio, pero por defecto recomendamos configurar lo siguiente:
 
 <div class="annotate" markdown>
 
-- [x] Selecciona **Agresivo** en Bloquear rastreadores y anuncios
+- [x] Seleccione **Agresivo** en Bloquear rastreadores y anuncios
 
-??? warning "Use default filter lists"
-        Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+??? advertencia "Usar listas de filtros predeterminadas"
+        Brave le permite seleccionar filtros de contenido adicionales dentro de la página interna `brave://adblock`. Desaconsejamos el uso de esta función; en su lugar, mantenga las listas de filtros por defecto. El uso de listas adicionales le hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utiliza.
 
-- [x] (Opcional) Selecciona **Bloquear Scripts** (1)
-- [x] Selecciona **Estricto, puede dañar los sitios** en Bloquear fingerprint
+- [x] Seleccione **Mejorar conexiones a HTTPS**
+- [x] (Opcional) Seleccione **Bloquear Scripts** (1)
+- [x] Seleccione **Estricto, puede dañar los sitios** en **Bloquear fingerprinting**
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
+1. Esta opción proporciona una funcionalidad similar a [los modos avanzados de bloqueo](https://github.com/gorhill/uBlock/wiki/Blocking-mode) de uBlock Origin o la extensión [NoScript](https://noscript.net/).
 
-##### IPFS
+##### Borrar datos de navegación
 
-- [x] Selecciona **Borrar datos al salir**
+- [x] Seleccione **Borrar datos al salir**
 
 ##### Bloqueo de redes sociales
 
-- [ ] Uncheck all social media components
+- [ ] Desmarque todos los componentes de redes sociales
 
 ##### Otros ajustes de privacidad
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (1)
-- [x] Select **Close tabs on exit**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [x] Seleccione **Desactivar UDP sin proxy** en [Política de gestión de IP de WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Desmarque **Permite a los sitios comprobar si tienes métodos de pago guardados**
+- [ ] Desmarque **Puerta de enlace IPFS** (1)
+- [x] Seleccione **Cerrar pestañas al salir**
+- [ ] Desmarque **Permitir estadísticas de productos que preservan la privacidad (P3A)**
+- [ ] Desmarque **Enviar informes de diagnóstico automáticamente**
+- [ ] Desmarque **Enviar automáticamente el ping diario de uso a Brave**
 
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+1. El Sistema de Archivos InterPlanetario (IPFS) es una red descentralizada, de igual a igual, para almacenar y compartir datos en un sistema de archivos distribuido. A menos que utilice la función, desactívela.
 
 </div>
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) permite que sus datos de navegación (historial, marcadores, etc.) sean accesibles en todos sus dispositivos sin necesidad de una cuenta y los protege con E2EE.
 
 ## iOS
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so there is little reason to use a third-party web browser.
+En iOS, cualquier aplicación que puede navegar en internet está [limitada](https://developer.apple.com/app-store/review/guidelines) a utilizar un sistema que provee Apple, [llamado WebKit](https://developer.apple.com/documentation/webkit), por lo que hay pocos motivos para utilizar un navegador de terceros.
 
 ### Safari
 
@@ -97,55 +129,55 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
     ![Safari logo](assets/img/browsers/safari.svg){ align=right }
     
-    **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as Intelligent Tracking Protection, Privacy Report, isolated Private Browsing tabs, iCloud Private Relay, and automatic HTTPS upgrades.
+    **Safari** es el navegador predeterminado en iOS. Incluye [funciones de privacidad](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) como Protección Inteligente de Seguimiento, Informe de Privacidad, pestañas aisladas de Navegación Privada, Retransmisión Privada de iCloud y actualizaciones automáticas de HTTPS.
     
-    [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
+    [:octicons-home-16: Página Principal](https://www.apple.com/safari/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Política de Privacidad" }
+    [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentación}
 
-#### Firefox
+#### Configuración Recomendada
 
-These options can be found in :gear: **Settings** → **Safari** → **Privacy and Security**.
+Estas opciones se encuentran en :gear: **Ajustes** → **Safari** → **Privacidad y seguridad**.
 
-##### Cross-Site Tracking Prevention
+##### Prevención del rastreo entre sitios web
 
-- [x] Enable **Prevent Cross-Site Tracking**
+- [x] Activa **Evitar el seguimiento cruzado de sitios**
 
-This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but it does not block all tracking avenues because it is designed to not interfere with website usability.
+Esto habilita la [Protección de Seguimiento Inteligente (ITP)](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp) de WebKit. La función ayuda a proteger contra el rastreo no deseado utilizando el aprendizaje automático en el dispositivo para detener a los rastreadores. La ITP protege contra muchas amenazas comunes, pero no bloquea todas las vías de rastreo porque está diseñada para no interferir con la usabilidad del sitio web.
 
-##### Privacy Report
+##### Informe de privacidad
 
-Privacy Report provides a snapshot of cross-site trackers currently prevented from profiling you on the website you're visiting. It can also display a weekly report to show which trackers have been blocked over time.
+El Informe de privacidad proporciona una instantánea de los rastreadores de sitios cruzados a los que actualmente se les impide elaborar perfiles en el sitio web que está visitando. También puede mostrar un informe semanal para mostrar qué rastreadores se han bloqueado a lo largo del tiempo.
 
-Privacy Report is accessible via the Page Settings menu.
+Se puede acceder al Informe de privacidad a través del menú Configuración de la página.
 
-##### Privacy Preserving Ad Measurement
+##### Medición de anuncios para preservar la privacidad
 
-- [ ] Disable **Privacy Preserving Ad Measurement**
+- [ ] Desactiva **Medición de anuncios para preservar la privacidad**
 
-Ad click measurement has traditionally used tracking technology that infringes on user privacy. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
+La medición de los clics en los anuncios ha utilizado tradicionalmente una tecnología de seguimiento que vulnera la intimidad del usuario. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) es una función de WebKit y un estándar web propuesto para permitir a los anunciantes medir la eficacia de las campañas web sin comprometer la privacidad del usuario.
 
-The feature has little privacy concerns on its own, so while you can choose to leave it on, we consider the fact that it's automatically disabled in Private Browsing to be an indicator for disabling the feature.
+La función tiene pocos problemas de privacidad por sí misma, así que aunque puede optar por dejarla activada, consideramos que el hecho de que se desactive automáticamente en Navegación Privada es un indicador para desactivar la función.
 
-##### Always-on Private Browsing
+##### Navegación privada siempre activa
 
-Open Safari and tap the Tabs button, located in the bottom right. Then, expand the Tab Groups list.
+Abre Safari y pulsa el botón Pestañas, situado en la parte inferior derecha. A continuación, despliegua la lista Grupos de pestañas.
 
-- [x] Select **Private**
+- [x] Selecciona **Privado**
 
-Safari's Private Browsing mode offers additional privacy protections. Private Browsing uses a new [ephemeral](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) session for each tab, meaning tabs are isolated from one another. There are also other smaller privacy benefits with Private Browsing, such as not sending a webpage’s address to Apple when using Safari's translation feature.
+El modo de Navegación Privada de Safari ofrece protecciones de privacidad adicionales. La Navegación Privada utiliza una nueva sesión [efímera](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) para cada pestaña, lo que significa que las pestañas están aisladas unas de otras. La Navegación Privada también ofrece otras pequeñas ventajas de privacidad, como no enviar la dirección de una página web a Apple cuando se utiliza la función de traducción de Safari.
 
-Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed into sites. This may be an inconvenience.
+Ten en cuenta que la Navegación Privada no guarda cookies ni datos de sitios web, por lo que no podrás permanecer conectado a los sitios. Esto puede ser un inconveniente.
 
 ##### iCloud Sync
 
-Synchronization of Safari History, Tab Groups, iCloud Tabs and saved passwords are E2EE. However, by default, bookmarks are [not](https://support.apple.com/en-us/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://www.apple.com/legal/privacy/en-ww/).
+La sincronización del historial de Safari, los grupos de pestañas, las pestañas de iCloud y las contraseñas guardadas son E2EE. Sin embargo, por defecto, los marcadores [no](https://support.apple.com/en-us/HT202303) lo son. Apple puede descifrarlos y acceder a ellos de acuerdo con su [política de privacidad](https://www.apple.com/legal/privacy/en-ww/).
 
-You can enable E2EE for you Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/en-us/HT212520). Go to your **Apple ID name → iCloud → Advanced Data Protection**.
+Puedes activar E2EE para tus favoritos y descargas de Safari activando [Advanced Data Protection](https://support.apple.com/en-us/HT212520). Vaya a su **Nombre de ID de Apple → iCloud → Protección de datos avanzada**.
 
-- [x] Turn On **Advanced Data Protection**
+- [x] Activa **Protección de datos avanzada**
 
-If you use iCloud with Advanced Data Protection disabled, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in :gear: **Settings** → **Safari** → **General** → **Downloads**.
+Si utilizas iCloud con la Protección de Datos Avanzada desactivada, también te recomendamos que compruebes que la ubicación de descarga predeterminada de Safari está configurada como local en tu dispositivo. Esta opción se encuentra en :gear: **Ajustes** → **Safari** → **General** → **Descargas**.
 
 ### AdGuard
 
@@ -153,39 +185,39 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend chec
 
     ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
     
-    **AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+    **AdGuard para iOS** es una extensión de bloqueo de contenidos gratuita y de código abierto para Safari que utiliza la [Content Blocker API] nativa (https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
     
-    AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
+    AdGuard para iOS tiene algunas funciones premium; sin embargo, el bloqueo de contenidos estándar de Safari es gratuito.
     
-    [:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+    [:octicons-home-16: Página Principal](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Política de Privacidad" }
+    [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentació}
+    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Código Fuente" }
     
-    ??? downloads
+    ??? descargas
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 
-Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.
+Las listas de filtros adicionales ralentizan las cosas y pueden aumentar su superficie de ataque, así que aplique sólo lo que necesite.
 
-## Criteria
+## Criterios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de decidir utilizar un proyecto y realizar su propia investigación para asegurarse de que es la elección ideal para usted.
 
-!!! example "This section is new"
+!!! ejemplo "Esta sección es nueva"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tiene alguna duda sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 
-### Minimum Requirements
+### Requisitos Mínimos
 
-- Must support automatic updates.
-- Must receive engine updates in 0-1 days from upstream release.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
-- Android browsers must use the Chromium engine.
-    - Unfortunately, Mozilla GeckoView is still less secure than Chromium on Android.
-    - iOS browsers are limited to WebKit.
+- Debe admitir actualizaciones automáticas.
+- Debe recibir actualizaciones del motor en 0-1 días desde la publicación de la versión anterior.
+- Cualquier cambio necesario para que el navegador respete más la privacidad no debería afectar negativamente a la experiencia del usuario.
+- Los navegadores Android deben utilizar el motor Chromium.
+    - Por desgracia, Mozilla GeckoView sigue siendo menos seguro que Chromium en Android.
+    - Los navegadores de iOS están limitados a WebKit.
 
-### Extension Criteria
+### Extensión de Criterios
 
-- Must not replicate built-in browser or OS functionality.
-- Must directly impact user privacy, i.e. must not simply provide information.
+- No debe replicar la funcionalidad integrada del navegador o del sistema operativo.
+- Debe afectar directamente a la privacidad del usuario, es decir, no debe limitarse a proporcionar información.

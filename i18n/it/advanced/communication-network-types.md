@@ -1,7 +1,7 @@
 ---
 title: "Tipi di reti di comunicazione"
 icon: 'material/transit-connection-variant'
-description: An overview of several network architectures commonly used by instant messaging applications.
+description: Una panoramica dei diversi tipi di architetture di rete comunemente usate da applicazioni di messaggistica istantanea.
 ---
 
 Esistono diverse architetture di rete comunemente usate per trasmettere messaggi tra le persone. Queste reti possono fornire garanzie di privacy diverse, motivo per cui vale la pena considerare il [modello di minaccia](../basics/threat-modeling.md) quando si decide quale app utilizzare.
@@ -35,9 +35,9 @@ Alcuni servizi di messaggistica self-hosted consentono di configurare il proprio
 
 ![Federated networks diagram](../assets/img/layout/network-decentralized.svg){ align=left }
 
-Federated messengers use multiple, independent, decentralized servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.
+I servizi di messaggistica federati usano più server indipendenti e decentralizzati, i quali sono in grado di comunicare l'uno con l'altro (la posta elettronica è un esempio di servizio federato). La federazione permette agli amministratori di sistema di controllare i loro server e far comunque parte di una rete di comunicazione più ampia.
 
-When self-hosted, members of a federated server can discover and communicate with members of other servers, although some servers may choose to remain private by being non-federated (e.g., work team server).
+Quando "self-hostati", i membri di un server federato possono scoprire e comunicare con i membri di altri server, anche se alcuni server possono scegliere di rimanere privati disabilitando la federazione (es. Il server di un gruppo di lavoro).
 
 **Vantaggi:**
 

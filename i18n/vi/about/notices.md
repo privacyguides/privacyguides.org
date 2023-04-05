@@ -1,7 +1,5 @@
 ---
-title: "Thông báo và Tuyên bố từ chối"
-hide:
-  - toc
+title: "Notices and Disclaimers"
 ---
 
 ## Từ Chối Trách Nhiệm Pháp Lý
@@ -14,21 +12,26 @@ Privacy Guides là một dự án nguồn mở được đóng góp theo giấy 
 
 Ngoài ra, Privacy Guides không đảm bảo rằng trang web này sẽ liên tục khả dụng hoặc có sẵn.
 
-## Giấy phép
+## Licensing Overview
 
-Trừ khi có ghi chú khác, tất cả nội dung trên trang web này được cung cấp miễn phí theo các điều khoản của [Creative Commons CC0 1.0 Universal](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE).
+!!! danger ""
+
+    The following is a human-readable summary of (and not a substitute for) the [license](/license).
+
+Unless otherwise noted, all **content** on this website is made available under the terms of the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). The underlying **source code** used to generate this website and display that content is released under the [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 
 Điều này không bao gồm mã của bên thứ ba được nhúng trong kho lưu trữ này hoặc mã mà giấy phép thay thế được ghi chú khác. Sau đây là những ví dụ đáng chú ý, nhưng danh sách này có thể không bao gồm tất cả:
 
-* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/docs/javascripts/mathjax.js) được cấp phép theo [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/javascripts/LICENSE.mathjax.txt).
-
-Phần của thông báo này chính nó đã được thông qua từ [mã nguồn mở](https://github.com/github/opensource.guide/blob/master/notices.md) trên GitHub. Tài nguyên đó và chính trang này được phát hành dưới [CC-BY-4.0](https://github.com/github/opensource.guide/blob/master/LICENSE).
+* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) is licensed under the [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
+* The [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
+* The [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
+* The [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
 
 Điều này có nghĩa là bạn có thể sử dụng nội dung có thể đọc được của con người trong kho lưu trữ này cho dự án của riêng bạn, theo các điều khoản được nêu trong văn bản CC0 1.0 Universal. Bạn **không được** sử dụng thương hiệu Privacy Guides trong dự án của riêng bạn mà không có sự chấp thuận rõ ràng từ dự án này. Nhãn hiệu thương hiệu của Privacy Guides bao gồm nhãn hiệu chữ "Privacy Guides" và logo shield. Privacy Guides's brand trademarks include the "Privacy Guides" wordmark and shield logo.
 
 Chúng tôi tin rằng các logo và hình ảnh khác trong `tài sản` thu được từ các nhà cung cấp bên thứ ba thuộc phạm vi công cộng hoặc **sử dụng hợp pháp**. Tóm lại, học thuyết sử dụng hợp pháp [](https://en.wikipedia.org/wiki/Fair_use) cho phép sử dụng hình ảnh có bản quyền để xác định chủ đề cho mục đích bình luận công khai. Tuy nhiên, các logo và hình ảnh khác này vẫn có thể tuân theo luật thương hiệu ở một hoặc nhiều khu vực pháp lý. Trước khi sử dụng nội dung này, vui lòng đảm bảo rằng nội dung được sử dụng để xác định thực thể hoặc tổ chức sở hữu thương hiệu và bạn có quyền sử dụng nội dung đó theo luật áp dụng trong trường hợp bạn dự định sử dụng. *Khi sao chép nội dung từ trang web này, bạn hoàn toàn chịu trách nhiệm đảm bảo rằng bạn không vi phạm thương hiệu hoặc bản quyền của người khác.*
 
-Khi bạn đóng góp vào kho lưu trữ này, bạn đang làm như vậy theo các giấy phép trên.
+When you contribute to our website you are doing so under the above licenses, and you are granting Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
 
 ## Chấp Thuận Sử Dụng
 
@@ -41,3 +44,7 @@ Bạn không được tiến hành bất kỳ hoạt động thu thập dữ li�
 * Quét dữ liệu
 * Khai thác dữ liệu
 * 'Khung' (IFrames)
+
+---
+
+*Phần của thông báo này chính nó đã được thông qua từ [mã nguồn mở](https://github.com/github/opensource.guide/blob/master/notices.md) trên GitHub. That resource and this page itself are released under [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

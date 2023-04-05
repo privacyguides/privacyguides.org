@@ -1,7 +1,5 @@
 ---
-title: "página"
-hide:
-  - toc
+title: "Notices and Disclaimers"
 ---
 
 ## Aviso Legal
@@ -14,21 +12,26 @@ O Privacy Guides é um projeto de código aberto para o qual contribuíram sob l
 
 Além disso, os Guias de Privacidade não garantem que este website esteja constantemente disponível, ou disponível de todo.
 
-## Licenças
+## Licensing Overview
 
-Salvo indicação em contrário, todo o conteúdo deste website é disponibilizado gratuitamente nos termos do [Creative Commons CC0 1.0 Universal](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE).
+!!! danger ""
+
+    The following is a human-readable summary of (and not a substitute for) the [license](/license).
+
+Unless otherwise noted, all **content** on this website is made available under the terms of the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). The underlying **source code** used to generate this website and display that content is released under the [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 
 Isto não inclui código de terceiros embutido neste repositório, ou código onde uma licença substituta é de outra forma anotada. Os exemplos a seguir são notáveis, mas esta lista pode não incluir tudo:
 
-* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/docs/javascripts/mathjax.js) está licenciado sob o [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/javascripts/LICENSE.mathjax.txt).
-
-Partes deste aviso em si foram adotadas de [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) no GitHub. Esse recurso e esta página são publicados em [CC-BY-4.0](https://github.com/github/opensource.guide/blob/master/LICENSE).
+* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) is licensed under the [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
+* The [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
+* The [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
+* The [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
 
 Isto significa que você pode usar o conteúdo legível por humanos neste repositório para seu próprio projeto, de acordo com os termos descritos no CC0 1.0 Texto Universal. Você **não pode** utilizar a marca Privacy Guides no seu próprio projecto sem a aprovação expressa deste projecto. As marcas registradas da Privacy Guides incluem a palavra-chave "Privacy Guides" e o logotipo do escudo. Privacy Guides's brand trademarks include the "Privacy Guides" wordmark and shield logo.
 
 Acreditamos que os logotipos e outras imagens em `activos` obtidos de fornecedores terceiros são de domínio público ou **uso justo**. Em resumo, legal [doutrina de uso justo](https://en.wikipedia.org/wiki/Fair_use) permite o uso de imagem protegida por direitos autorais, a fim de identificar o assunto para fins de comentário público. No entanto, estes logotipos e outras imagens podem ainda estar sujeitos às leis de marcas em uma ou mais jurisdições. Antes de usar este conteúdo, certifique-se de que ele é usado para identificar a entidade ou organização que possui a marca registrada e que você tem o direito de usá-lo sob as leis que se aplicam nas circunstâncias de seu uso pretendido. *Ao copiar conteúdo deste site, você é o único responsável por garantir que não infrinja a marca registrada ou os direitos autorais de outra pessoa.*
 
-Quando você contribui para este repositório, você está fazendo isso sob as licenças acima.
+When you contribute to our website you are doing so under the above licenses, and you are granting Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
 
 ## Utilização aceitável
 
@@ -41,3 +44,7 @@ Você não deve conduzir nenhuma atividade sistemática ou automatizada de colet
 * Raspagem
 * Mineração de dados
 * "Enquadramento" (IFrames)
+
+---
+
+*Partes deste aviso em si foram adotadas de [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) no GitHub. That resource and this page itself are released under [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

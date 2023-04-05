@@ -1,28 +1,39 @@
 ---
-template: schema.html
 title: "אודות Privacy Guides"
 description: Privacy Guides הוא אתר בעל מוטיבציה חברתית המספק מידע להגנה על אבטחת הנתונים ופרטיותך.
+schema:
+  "@context": https://schema.org
+  "@type": Organization
+  "@id": https://www.privacyguides.org/
+  name: Privacy Guides
+  url: https://www.privacyguides.org/en/about/
+  logo: https://www.privacyguides.org/en/assets/brand/png/square/pg-yellow.png
+  sameAs:
+    - https://twitter.com/privacy_guides
+    - https://github.com/privacyguides
+    - https://www.wikidata.org/wiki/Q111710163
+    - https://opencollective.com/privacyguides
+    - https://www.youtube.com/@privacyguides
+    - https://mastodon.neat.computer/@privacyguides
 ---
 
 ![Privacy Guides logo](../assets/brand/png/square/pg-yellow.png){ align=right }
 
-**Privacy Guides** הוא אתר בעל מוטיבציה חברתית המספק [מידע](/kb) להגנה על אבטחת הנתונים ופרטיותך. אנחנו קולקטיב ללא מטרות רווח המופעל כולו על ידי [חברי צוות](https://discuss.privacyguides.net/g/team) מתנדבים ותורמים. האתר שלנו נקי מפרסומות ואינו מזוהה עם ספקים רשומים.
+**Privacy Guides** הוא אתר בעל מוטיבציה חברתית המספק [מידע](/kb) להגנה על אבטחת הנתונים ופרטיותך. המשימה שלך היא ליידע את הציבור על הערך של פרטיות דיגיטלית, ויוזמות ממשלתיות גלובליות שמטרתן לנטר את הפעילות המקוונת שלך. אנחנו קולקטיב ללא מטרות רווח המופעל כולו על ידי [חברי צוות](https://discuss.privacyguides.net/g/team) מתנדבים ותורמים. האתר שלנו נקי מפרסומות ואינו מזוהה עם אף אחד מהספקים הרשומים.
 
 [:octicons-home-16:](https://www.privacyguides.org/){ .card-link title=דף הבית }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="קוד מקור" }
 [:octicons-heart-16:](donate.md){ .card-link title=לתרומה }
 
-מטרת Privacy Guides היא ללמד את הקהילה שלנו על החשיבות של פרטיות מקוונת ותוכניות ממשלתיות בינלאומיות שנועדו לנטר את כל הפעילויות המקוונות שלך.
-
 > כדי למצוא אפליקציות [אלטרנטיביות ממוקדות פרטיות], בדוק אתרים כמו Good Reports ו-**Privacy Guides**, המפרטים אפליקציות ממוקדות פרטיות במגוון קטגוריות, כולל ספקי אימייל (בדרך כלל בתוכניות בתשלום) שאינן מנוהלות על ידי הגדולים חברות טכנולוגיה.
 
-— [New York Times](https://www.nytimes.com/wirecutter/guides/online-security-social-media-privacy/) [תורגם מאנגלית]
+— [New York Times](https://www.nytimes.com/wirecutter/guides/online-security-social-media-privacy/)
 
 > אם אתה מחפש VPN חדש, אתה יכול ללכת לקוד ההנחה של כמעט כל פודקאסט. אם אתה מחפש VPN **טוב**, אתה צריך עזרה מקצועית. אותו דבר לגבי לקוחות אימייל, דפדפנים, מערכות הפעלה ומנהלי סיסמאות. איך אתה יודע איזו מבין אלה היא האפשרות הטובה והידידותית ביותר לפרטיות? בשביל זה יש **Privacy Guides**, פלטפורמה שבה מספר מתנדבים מחפשים מדי יום ביומו את הכלים הידידותיים לפרטיות הטובים ביותר לשימוש באינטרנט.
 
 — [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [תורגם מהולנדית]
 
-מוצג גם ב: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], ו- [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
+מוצג גם ב: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], [NPO Radio 1](https://www.nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), ו- [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
 
 ## היסטוריה
 
@@ -82,7 +93,9 @@ description: Privacy Guides הוא אתר בעל מוטיבציה חברתית �
 
 ## רישיון אתר
 
-*להלן סיכום הניתן לקריאה על ידי אדם (ולא תחליף ל) [הרישיון](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE):*
+!!! danger ""
+
+    להלן סיכום הניתן לקריאה על ידי אדם של (ולא תחליף ל) ה-[רישיון](/license).
 
 :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: אלא אם צוין אחרת, התוכן המקורי באתר זה זמין תחת [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). משמעות הדבר היא שאתה חופשי להעתיק ולהפיץ מחדש את החומר בכל מדיום או פורמט לכל מטרה, אפילו מסחרית; כל עוד אתה נותן קרדיט מתאים ל`Privacy Guides (www.privacyguides.org)` ומספק קישור לרישיון. אתה רשאי לעשות זאת בכל דרך סבירה, אך לא בכל דרך שמציעה שPrivacy Guides מאשרים אותך או את השימוש שלך. אם תערבב מחדש, תשנה או תבנה על התוכן של אתר זה, אינך רשאי להפיץ את החומר שהשתנה.
 

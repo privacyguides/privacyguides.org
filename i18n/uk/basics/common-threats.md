@@ -1,12 +1,12 @@
 ---
-title: "Common Threats"
+title: "Поширені Загрози"
 icon: 'material/eye-outline'
-description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
+description: Ваша модель загроз є особистою, але це деякі з речей, які хвилюють багатьох відвідувачів цього сайту.
 ---
 
-Broadly speaking, we categorize our recommendations into the [threats](threat-modeling.md) or goals that apply to most people. ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
+Загалом, ми класифікуємо наші рекомендації на [загрози](threat-modeling.md) або цілі, які стосуються більшості людей. ==Ви можете бути зацікавлені в жодній, одній, кількох або всіх цих можливостях==, і інструменти та сервіси, які ви використовуєте, залежать від того, які цілі ви ставите перед собою. Ви також можете мати специфічні загрози поза цими категоріями, і це цілком нормально! Важливою частиною є розуміння переваг і недоліків інструментів, які ви обираєте, оскільки практично жоден з них не захистить вас від усіх можливих загроз.
 
-- <span class="pg-purple">:material-incognito: Anonymity</span> - Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+- <span class="pg-purple">:material-incognito: Анонімність</span> - Розмежування вашої активності в Інтернеті від вашої реальної особистості, захист від людей, які намагаються розкрити саме *вашу* особистість.
 - <span class="pg-red">:material-target-account: Targeted Attacks</span> - Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
 - <span class="pg-orange">:material-bug-outline: Passive Attacks</span> - Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
 - <span class="pg-teal">:material-server-network: Service Providers</span> - Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).

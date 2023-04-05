@@ -1,12 +1,12 @@
 ---
-title: "Tor Network"
+title: "Tor 網絡"
 icon: simple/torproject
-description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+description: 使用 Tor 網絡來保護您的網際網路瀏覽免受窺探， Tor 網絡是一個規避審查的安全網路。
 ---
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
-The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
+**Tor** 網絡是一組由志願者操作的伺服器，可讓您免費連線，並改善您的隱私權和安全性。 個人和組織還可以通過 Tor 網絡與“.onion 隱藏服務”分享資訊，而不會損害他們的隱私。 很難阻止和追蹤 Tor 流量，因此它是一種有效的審查規避工具。
 
 [:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
@@ -14,21 +14,21 @@ The **Tor** network is a group of volunteer-operated servers that allows you to 
 [:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
 
-Tor works by routing your internet traffic through those volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. This obfuscates where the traffic is coming from, and no server in the connection path is able to see the full path of where the traffic is coming from and going to, meaning even the servers you are using to connect cannot break your anonymity.
+Tor 的工作原理是通過志願者運營的服務器來引導您的網際網路路徑，而不是直接連接到您試圖訪問的網站。 這樣可以混淆流量來源，所連接的伺服器都無法看到流量來去的完整路徑，也意味著即使您連接的伺服器無法破壞您的匿名性。
 
-[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
+[詳細的 Tor 總覽  :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
 
-## Connecting to Tor
+## 正在連接到Tor
 
-There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for anonymous browsing for desktop computers and Android. In addition to the apps listed below, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser.
+有多種方式可以從您的設備連上  Tor 網絡，最常用的是 ** Tor 瀏覽器**，這是 Firefox 的一個分支，專為桌面電腦和 Android 的匿名瀏覽而設計。 除了下面列出的應用程序外，還有專門設計用於連接到 Tor 網絡的操作系統，例如 [Qubes OS 作業系統](desktop.md#qubes-os) [Whonix](desktop.md#whonix)，它們提供比標準 Tor 瀏覽器更高的安全性和保護。
 
 ### Tor Browser
 
 !!! recommendation
 
-    ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
+    ! [Tor 瀏覽器標誌] (assets/img/browsers/tor.svg) {align = right}
     
-    **Tor Browser** is the choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+    * * Tor 瀏覽器* *需要匿名的好選擇，為您提供 Tor 網絡和橋接的存取權限，它包含預設設置和擴展其自動配置安全級別有： *標準* 、 *更安全*和*最安全*三種。
     
     [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
@@ -36,28 +36,28 @@ There are a variety of ways to connect to the Tor network from your device, the 
     [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? 下載
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-        - [:simple-android: Android](https://www.torproject.org/download/#android)
-        - [:simple-windows11: Windows](https://www.torproject.org/download/)
-        - [:simple-apple: macOS](https://www.torproject.org/download/)
-        - [:simple-linux: Linux](https://www.torproject.org/download/)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/security/tor)
+        - [:simple-googleplay: Google Play] (https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
+        - [:simple-android: Android] (https://www.torproject.org/download/#android)
+        - [:simple-windows11: Windows] (https://www.torproject.org/download/)
+        - [:simple-apple: macOS] (https://www.torproject.org/download/)
+        - [:simple-linux: Linux] (https://www.torproject.org/download/)
+        - [:simple-freebsd: FreeBSD] (https://www.freshports.org/security/tor)
 
-!!! danger
+!!! 危險
 
-    You should **never** install any additional extensions on Tor Browser or edit `about:config` settings, including the ones we suggest for Firefox. Browser extensions and non-standard settings make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
+    您應該* *永遠不要* *在Tor瀏覽器上安裝任何其他擴充功能，或編輯「關於：配置」設定，包括我們為Firefox建議的設定。 瀏覽器擴充套件和非標準設置會使您在 Tor 網絡上突顯出來，從而使您的瀏覽器更容易變成 [fingerprint]（ https://support.torproject.org/glossary/browser-fingerprinting ）。
 
-The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings/).
+Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。 因此，您 **不應** 修改瀏覽器超出預設 [安全級別](https://tb-manual.torproject.org/security-settings/)。
 
 ### Orbot
 
 !!! recommendation
 
-    ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+    ! [Orbot標誌] (assets/img/self-contained-networks/orbot.svg) {align = right}
     
-    **Orbot** is a free Tor VPN for smartphones which routes traffic from any app on your device through the Tor network.
+    * * Orbot * *是一款免費的Tor VPN ，適用於智慧型手機，可讓裝置上的任何應用程式流量通過 Tor 網絡。
     
     [:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
@@ -65,53 +65,53 @@ The Tor Browser is designed to prevent fingerprinting, or identifying you based 
     [:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? 下載
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
-        - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
+        - [:simple-googleplay: Google Play] (https://play.google.com/store/apps/details?id=org.torproject.android)
+        - [:simple-appstore: App Store] (https://apps.apple.com/us/app/orbot/id1609461599)
+        - [:simple-github: GitHub] (https://github.com/guardianproject/orbot/releases)
 
-For resistance against traffic analysis attacks, consider enabling *Isolate Destination Address* in :material-menu: → **Settings** → **Connectivity**. This will use a completely different Tor Circuit (different middle relay and exit nodes) for every domain you connect to.
+為了抵抗流量分析攻擊，請考慮在 :material-menu: → **設置** → **連接**中啟用 *隔離目標地址* 。 在連接不同網域名時即使用不同的 Tor 迴路（不同的中繼和出口節點）。
 
-!!! tip "Tips for Android"
+!!! 提示“ Android 使用訣竅”
 
-    Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+    Orbot 可以代理個別應用程式，如果它們有支援 SOCKS 或 HTTP 代理。 它也能使用 [VpnService]（ https://developer.android.com/reference/android/net/VpnService ）代理您的所有網路連接，其 VPN killswitch 設置在   :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.。
     
-    Orbot is often outdated on the Guardian Project's [F-Droid repository](https://guardianproject.info/fdroid) and [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android), so consider downloading directly from the [GitHub repository](https://github.com/guardianproject/orbot/releases) instead.
+    Guardian Project 的[F-Droid repository] (https://guardianproject.info/fdroid)和[Google Play] (https://play.google.com/store/apps/details?id=org.torproject.android)上Orbot 往往不是最新版，因此請考慮直接從 [GitHub repository] (https://github.com/guardianproject/orbot/releases) 下載。
     
-    All versions are signed using the same signature so they should be compatible with each other.
+    所有版本都使用同一個簽名，因此它們應該相互兼容。
 
-## Relays and Bridges
+## 中繼和橋接
 
 ### Snowflake
 
 !!! recommendation
 
-    ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
-    ![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
+    ! [Snowflake logo] (assets/img/browsers/snowflake.svg#only-light) {align = right}
+    ! [Snowflake logo] (assets/img/browsers/snowflake-dark.svg#only-dark) {align = right}
     
-    **Snowflake** allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser.
+    * * Snowflake * *允許您在瀏覽器中操作「Snowflake proxy」，將網路頻寛捐給 Tor 專案。
     
-    People who are censored can use Snowflake proxies to connect to the Tor network. Snowflake is a great way to contribute to the network even if you don't have the technical know-how to run a Tor relay or bridge.
+    被審查的人可以使用 Snowflake 代理來連接 Tor 網絡。 Snowflake 是貢獻 Tor 網絡的好方法，即便您沒有運行 Tor 中繼或橋接的技術知識。
     
     [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
     [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? 下載
     
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
-        - [:octicons-browser-16: Web](https://snowflake.torproject.org/embed "Leave this page open to be a Snowflake proxy")
+        - [:simple-firefoxbrowser: Firefox] (https://addons.mozilla.org/zh-CN/firefox/addon/torproject-snowflake/)
+        - [:simple-googlechrome: Chrome] (https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
+        - [:octicons-browser-16: Web] (https://snowflake.torproject.org/embed "保持此頁面開啟成為Snowflake代理")
 
-??? tip "Embedded Snowflake"
+??? 提示: Embedded Snowflake
 
-    You can enable Snowflake in your browser by clicking the switch below and ==leaving this page open==. You can also install Snowflake as a browser extension to have it always run while your browser is open, however adding third-party extensions can increase your attack surface.
+    您可以在瀏覽器中啟用 Snowflake ，只需按下下方開關，即可= =保持此頁面開啟= =。 您還可以安裝 Snowflake 瀏覽器擴充元件，當開啟瀏覽器時它會一直執行，但添加第三方擴充元件可能會增加遭攻擊面。
     
     <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
-    <small>If the embed does not appear for you, ensure you are not blocking the third-party frame from `torproject.org`. Alternatively, visit [this page](https://snowflake.torproject.org/embed.html).</small>
+    <small>如果沒有顯示嵌入，請確保您沒有封鎖來自`torproject.org`的第三方框架。 或者，請造訪[此頁面] (https://snowflake.torproject.org/embed.html)。</small>
 
-Snowflake does not increase your privacy in any way, nor is it used to connect to the Tor network within your personal browser. However, if your internet connection is uncensored, you should consider running it to help people in censored networks achieve better privacy themselves. There is no need to worry about which websites people are accessing through your proxy—their visible browsing IP address will match their Tor exit node, not yours.
+Snowflake 無法加強隱私，也不會在您的個人瀏覽器中連接 Tor網絡。 但如果您的網際網路連接沒有被審查的情形，請考慮使用它，幫助受審查網路中的人們能有更好的隱私。 無需擔心人們通過您的代理訪問哪些網站----他們的可見瀏覽 IP 地址將與其 Tor 出口節點相匹配，而不是您的 IP 地址。
 
-Running a Snowflake proxy is low-risk, even moreso than running a Tor relay or bridge which are already not particularly risky endeavours. However, it does still proxy traffic through your network which can be impactful in some ways, especially if your network is bandwidth-limited. Make sure you understand [how Snowflake works](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) before deciding whether to run a proxy.
+運行 Snowflake 代理風險很低，甚至低於運行 Tor 中繼或橋接器，而這些中繼器或橋接器已經不算是特別高風險的工作。 但是，它通過您的網路進行代理流量，在某些方面可能會產生影響，特別是您的網路頻寬有限制的話。 在運行代理之前，要確保已清楚了解[ Snowflake 運作方式](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) 。

@@ -1,7 +1,119 @@
 ---
 title: "Gestori di password"
 icon: material/form-textbox-password
-description: Password managers allow you to securely store and manage passwords and other credentials.
+description: I gestori delle password permettono di archiviare e gestire con sicurezza le password e altre credenziali.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": WebPage
+    name: Password Manager Recommendations
+    url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Bitwarden
+    image: /assets/img/password-management/bitwarden.svg
+    url: https://bitwarden.com
+    sameAs: https://en.wikipedia.org/wiki/Bitwarden
+    applicationCategory: Gestore di password
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+      - Android
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: 1Password
+    image: /assets/img/password-management/1password.svg
+    url: https://1password.com
+    sameAs: https://en.wikipedia.org/wiki/1Password
+    applicationCategory: Gestore di password
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+      - Android
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Psono
+    image: /assets/img/password-management/psono.svg
+    url: https://psono.com
+    applicationCategory: Gestore di password
+    operatingSystem:
+      - Android
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: KeePassDX (Android)
+    image: /assets/img/password-management/keepassxc.svg
+    url: https://keepassxc.org/
+    sameAs: https://en.wikipedia.org/wiki/KeePassXC
+    applicationCategory: Gestore di password
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: KeePassDX
+    image: /assets/img/password-management/keepassdx.svg
+    url: https://www.keepassdx.com/
+    applicationCategory: Gestore di password
+    operatingSystem: Android
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Strongbox
+    image: /assets/img/password-management/strongbox.svg
+    url: https://strongboxsafe.com/
+    applicationCategory: Gestore di password
+    operatingSystem: iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: gopass
+    image: /assets/img/password-management/gopass.svg
+    url: https://www.gopass.pw/
+    applicationCategory: Gestore di password
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+      - FreeBSD
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
 ---
 
 I gestori di password consentono di archiviare e gestire in modo sicuro le password e altre credenziali con l'uso di una password principale.
@@ -133,7 +245,7 @@ Psono fornisce un'ampia documentazione sul proprio prodotto. Il web-client di Ps
 - Must utilize strong, standards-based/modern E2EE.
 - Must have thoroughly documented encryption and security practices.
 - Must have a published audit from a reputable, independent third-party.
-- All non-essential telemetry must be optional.
+- Tutta la telemetria non essenziale deve essere facoltativa.
 - Must not collect more PII than is necessary for billing purposes.
 
 #### Caso migliore
@@ -145,7 +257,7 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
 
 ## Archiviazione locale
 
-These options allow you to manage an encrypted password database locally.
+Queste opzioni ti consentono di gestire localmente un database di password criptato.
 
 ### KeePassDX (Android)
 
@@ -245,4 +357,4 @@ These products are minimal password managers that can be used within scripting a
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
 
-- Must be cross-platform.
+- Deve essere multi-piattaforma.

@@ -1,4 +1,4 @@
-*[2FA]: Çift Faktörlü Doğrulama
+*[2FA]: İki Faktörlü Kimlik Doğrulama
 *[ADB]: Android Hata Ayıklama Köprüsü
 *[AOSP]: Android Açık Kaynak Projesi
 *[ATA]: İleri Teknoloji Eklentisi

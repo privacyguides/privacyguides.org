@@ -1,51 +1,51 @@
 ---
-title: "Video Streaming"
+title: "影片串流"
 icon: material/video-wireless
-description: These networks allow you to stream internet content without building an advertising profile based on your interests.
+description: 這些服務可讓您串流互聯網內容，而不會記錄個人興趣建立廣告剖繪。
 ---
 
-The primary threat when using a video streaming platform is that your streaming habits and subscription lists could be used to profile you. You should combine these tools with a [VPN](vpn.md) or [Tor](https://www.torproject.org/) to make it harder to profile your usage.
+使用影片串流平臺時的主要威脅是您的串流習慣和訂閱清單可能被用來剖繪分析您的個人喜好。 您應該將這些工具與 [VPN](vpn.md) 或 [Tor](https://www.torproject.org/) 相結合，以便更難分析您的使用情況。
 
 ## LBRY
 
 !!! recommendation
 
-    ![LBRY logo](assets/img/video-streaming/lbry.svg){ align=right }
+    ! [LBRY標誌] (assets/img/video-streaming/lbry.svg) {align = right}
     
-    **The LBRY network** is a decentralized video sharing network. It uses a [BitTorrent](https://wikipedia.org/wiki/BitTorrent)-like network to store the video content, and a [blockchain](https://wikipedia.org/wiki/Blockchain) to store the indexes for those videos. The main benefit of this design is censorship resistance.
+    * * LBRY 網路* *是一個分散式視頻共享網絡。 它透過類似 [BitTorrent](https://wikipedia.org/wiki/BitTorrent)-l網路來儲存影片內容，再利用 [區塊錬](https://wikipedia.org/wiki/Blockchain) 來存儲影片之索引。 這種設計的主要好處是抵抗審查。
     
-    **The LBRY desktop client** helps you stream videos from the LBRY network and stores your subscription list in your own LBRY wallet.
+    * * LBRY 桌面用戶端* *可協助串流來自 LBRY 網路的影片，並將訂閱清單儲存在自己的 LBRY 錢包。
     
     [:octicons-home-16: Homepage](https://lbry.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://lbry.com/privacypolicy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://lbry.com/faq){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/lbryio/lbry-desktop){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-windows11: Windows](https://lbry.com/windows)
         - [:simple-apple: macOS](https://lbry.com/osx)
         - [:simple-linux: Linux](https://lbry.com/linux)
 
-!!! note
+!!! 備註
 
-    Only the **LBRY desktop client** is recommended, as the [Odysee](https://odysee.com) website and the LBRY clients in F-Droid, Play Store, and the App Store have mandatory synchronization and telemetry.
+    建議僅使用* * LBRY桌面用戶端* * ，因為 F-Droid、Play Store 和App Store 中的 [Odysee](https://odysee.com)網站和 LBRY 用戶端具有強制同步和遙測功能。
 
-!!! warning
+!!! 警告
 
-    While watching and hosting videos, your IP address is visible to the LBRY network. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    在觀看和託管影片時，LBRY 網路可看到您的 IP 位址。 如果您的[威脅模型] (basics/threat-modeling.md)需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](https://www.torproject.org)。
 
-We recommend **against** synchronizing your wallet with LBRY Inc., as synchronizing encrypted wallets is not supported yet. If you synchronize your wallet with LBRY Inc., you have to trust them to not look at your subscription list, [LBC](https://lbry.com/faq/earn-credits) funds, or take control of your channel.
+建議**不要** 錢包與 LBRY Inc. 設為同步，因為尚不支援錢包同步的加密功能。 如果您將錢包與 LBRY Inc.同步，則必須信任他們不會查看您的訂閱列表， [LBC](https://lbry.com/faq/earn-credits) 資金或控制您的頻道。
 
-You can disable *Save hosting data to help the LBRY network* option in :gear: **Settings** → **Advanced Settings**, to avoid exposing your IP address and watched videos when using LBRY for a prolonged period of time.
+您可以禁用 *儲存託管資料，其設置方法為* 選項中的 :gear: **設置** → **進階設置**，來避免在長時間使用 LBRY 時暴露 IP 地址和觀看的視頻。
 
-## Criteria
+## 標準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! example "This section is new"
+!!! 示例“此部分是新的”
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
-- Must not require a centralized account to view videos.
-    - Decentralized authentication, such as via a mobile wallet's private key is acceptable.
+- 無需集中式帳戶就可觀看影片。
+    - 分散式驗證，例如通過行動錢包的私鑰進行驗證是可以接受的。

@@ -1,12 +1,12 @@
 ---
 title: Vista general del VPN
 icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
+description: Las redes privadas virtuales desplazan el riesgo de tu proveedor de Internet a un tercero de tu confianza. Debes tener en cuenta estas cosas.
 ---
 
 Las redes virtuales privadas (conocidas en inglés como Virtual Private Networks) son una manera de ampliar el extremo de tu red hacia algún lugar del mundo. Un ISP puede ver el flujo de tráfico de Internet que entra y sale de su dispositivo de terminación de red (es decir, el módem).
 
-Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Los protocolos de cifrado como HTTPS se utilizan habitualmente en Internet, por lo que es posible que no puedan ver exactamente lo que publicas o lees, pero pueden hacerse una idea de los [dominios que solicitas](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
 Una VPN puede ayudar, ya que puede trasladar la confianza a un servidor en otro lugar del mundo. Como resultado, el ISP solamente ve que te conectaste a una VPN y nada de la actividad que le estás pasando.
 
@@ -26,50 +26,50 @@ Si lo hace, pueden activarse los sistemas de detección de spam y fraude, por ej
 
 ## ¿Qué pasa con el cifrado?
 
-Encryption offered by VPN providers are between your devices and their servers. It guarantees that this specific link is secure. This is a step up from using unencrypted proxies where an adversary on the network can intercept the communications between your devices and said proxies and modify them. However, encryption between your apps or browsers with the service providers are not handled by this encryption.
+El cifrado que ofrecen los proveedores de VPN se realiza entre tus dispositivos y sus servidores. Garantiza que este enlace específico es seguro. Esto supone un paso adelante respecto al uso de proxies no cifrados, en los que un adversario en la red puede interceptar las comunicaciones entre tus dispositivos y dichos proxies y modificarlas. Sin embargo, el cifrado entre tus aplicaciones o navegadores con los proveedores de servicios no se gestiona mediante este cifrado.
 
-In order to keep what you actually do on the websites you visit private and secure, you must use HTTPS. This will keep your passwords, session tokens, and queries safe from the VPN provider. Consider enabling "HTTPS everywhere" in your browser to mitigate downgrade attacks like [SSL Strip](https://www.blackhat.com/presentations/bh-dc-09/Marlinspike/BlackHat-DC-09-Marlinspike-Defeating-SSL.pdf).
+Para mantener la privacidad y seguridad de lo que haces en los sitios web que visitas, debes utilizar HTTPS. Esto mantendrá tus contraseñas, tokens de sesión y consultas a salvo del proveedor de VPN. Considera la posibilidad de activar "HTTPS en todas partes" en tu navegador para mitigar los ataques de degradación como [SSL Strip](https://www.blackhat.com/presentations/bh-dc-09/Marlinspike/BlackHat-DC-09-Marlinspike-Defeating-SSL.pdf).
 
-## Should I use encrypted DNS with a VPN?
+## ¿Debo utilizar DNS cifrado con una VPN?
 
-Unless your VPN provider hosts the encrypted DNS servers, **no**. Using DOH/DOT (or any other form of encrypted DNS) with third-party servers will simply add more entities to trust and does **absolutely nothing** to improve your privacy/security. Your VPN provider can still see which websites you visit based on the IP addresses and other methods. Instead of just trusting your VPN provider, you are now trusting both the VPN provider and the DNS provider.
+A menos que tu proveedor de VPN aloje los servidores DNS cifrados, **no**. Usar DOH/DOT (o cualquier otra forma de DNS encriptado) con servidores de terceros simplemente añadirá más entidades en las que confiar y no hace **absolutamente nada** para mejorar tu privacidad/seguridad. Tu proveedor de VPN aún puede ver qué sitios web visitas basándose en las direcciones IP y otros métodos. En lugar de confiar únicamente en tu proveedor de VPN, ahora confías tanto en el proveedor de VPN como en el proveedor de DNS.
 
-A common reason to recommend encrypted DNS is that it helps against DNS spoofing. However, your browser should already be checking for [TLS certificates](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) with **HTTPS** and warn you about it. If you are not using **HTTPS**, then an adversary can still just modify anything other than your DNS queries and the end result will be little different.
+Una razón común para recomendar DNS cifrado es que ayuda contra el spoofing de DNS. Sin embargo, tu navegador ya debería estar buscando [certificados TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) con **HTTPS** y advertirte al respecto. Si no estás utilizando **HTTPS**, entonces un adversario todavía puede simplemente modificar cualquier cosa que no sean tus consultas DNS y el resultado final será similar.
 
-Needless to say, **you shouldn't use encrypted DNS with Tor**. This would direct all of your DNS requests through a single circuit and would allow the encrypted DNS provider to deanonymize you.
+No hace falta decir que **no deberías usar DNS encriptados con Tor**. Esto dirigiría todas tus peticiones DNS a través de un único circuito y permitiría al proveedor de DNS cifrado desanonimizarte.
 
-## Should I use Tor *and* a VPN?
+## ¿Debería usar Tor *y* una VPN?
 
-By using a VPN with Tor, you're creating essentially a permanent entry node, often with a money trail attached. This provides zero additional benefits to you, while increasing the attack surface of your connection dramatically. If you wish to hide your Tor usage from your ISP or your government, Tor has a built-in solution for that: Tor bridges. [Read more about Tor bridges and why using a VPN is not necessary](../advanced/tor-overview.md).
+Al usar una VPN con Tor, estás creando esencialmente un nodo de entrada permanente, a menudo con un rastro de dinero adjunto. Esto no te proporciona ningún beneficio adicional, a la vez que aumenta drásticamente la superficie de ataque de tu conexión. Si deseas ocultar el uso de Tor a tu ISP o a tu gobierno, Tor tiene una solución incorporada para eso: los puentes Tor. [Lee más sobre los puentes Tor y por qué no es necesario usar una VPN](../advanced/tor-overview.md).
 
 ## ¿Y si necesito anonimato?
 
-VPNs cannot provide anonymity. Your VPN provider will still see your real IP address, and often has a money trail that can be linked directly back to you. You cannot rely on "no logging" policies to protect your data. Use [Tor](https://www.torproject.org/) instead.
+Las VPN no pueden proporcionar anonimato. Tu proveedor de VPN seguirá viendo tu dirección IP real, y a menudo tiene un rastro de dinero que puede vincularse directamente a ti. No puedes confiar en las políticas de "no registro" para proteger tus datos. Usa [Tor](https://www.torproject.org/) en su lugar.
 
-## What about VPN providers that provide Tor nodes?
+## ¿Qué pasa con los proveedores de VPN que proporcionan nodos Tor?
 
-Do not use that feature. The point of using Tor is that you do not trust your VPN provider. Currently Tor only supports the [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) protocol. [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (used in [WebRTC](https://en.wikipedia.org/wiki/WebRTC) for voice and video sharing, the new [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) protocol, etc), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) and other packets will be dropped. To compensate for this, VPN providers typically will route all non-TCP packets through their VPN server (your first hop). This is the case with [ProtonVPN](https://protonvpn.com/support/tor-vpn/). Additionally, when using this Tor over VPN setup, you do not have control over other important Tor features such as [Isolated Destination Address](https://www.whonix.org/wiki/Stream_Isolation) (using a different Tor circuit for every domain you visit).
+No utilice esa función. El punto de usar Tor es que no confías en tu proveedor de VPN. Actualmente Tor sólo soporta el protocolo [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol). [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (utilizado en [WebRTC](https://en.wikipedia.org/wiki/WebRTC) para compartir voz y vídeo, el nuevo protocolo [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), etc), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) y otros paquetes serán descartados. Para compensar esto, los proveedores de VPN suelen enrutar todos los paquetes no TCP a través de su servidor VPN (tu primer salto). Este es el caso de [ProtonVPN](https://protonvpn.com/support/tor-vpn/). Además, al usar esta configuración de Tor sobre VPN, no tiene control sobre otras importantes características de Tor como [Dirección de Destino Aislada](https://www.whonix.org/wiki/Stream_Isolation) (usando un circuito Tor diferente para cada dominio que visita).
 
-The feature should be viewed as a convenient way to access the Tor Network, not to stay anonymous. For proper anonymity, use the Tor Browser, TorSocks, or a Tor gateway.
+La función debe verse como una forma conveniente de acceder a la Red Tor, no para permanecer en el anonimato. Para el anonimato adecuado, use el navegador Tor, TorSocks o una puerta de enlace Tor.
 
-## When are VPNs useful?
+## ¿Cuándo son útiles las VPN?
 
-A VPN may still be useful to you in a variety of scenarios, such as:
+Una VPN puede seguir siéndote útil en diversos escenarios, como por ejemplo:
 
-1. Hiding your traffic from **only** your Internet Service Provider.
-1. Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.
-1. Hiding your IP from third-party websites and services, preventing IP based tracking.
+1. Ocultar su tráfico **sólo** de tu proveedor de servicios de Internet.
+1. Ocultar tus descargas (como los torrents) a tu ISP y a las organizaciones antipiratería.
+1. Ocultar tu IP de sitios web y servicios de terceros, evitando el rastreo basado en IP.
 
-For situations like these, or if you have another compelling reason, the VPN providers we listed above are who we think are the most trustworthy. However, using a VPN provider still means you're *trusting* the provider. In pretty much any other scenario you should be using a secure**-by-design** tool such as Tor.
+Para situaciones como estas, o si tienes otra razón de peso, los proveedores de VPN que hemos enumerado anteriormente son los que consideramos más fiables. Sin embargo, utilizar un proveedor de VPN sigue significando que estás *confiando* en el proveedor. En casi cualquier otro escenario deberías usar una herramienta segura**-por diseño** como Tor.
 
-## Sources and Further Reading
+## Fuentes y Lecturas Complementarias
 
-1. [VPN - a Very Precarious Narrative](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
-1. [Tor Network Overview](../advanced/tor-overview.md)
-1. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
-1. ["Do I need a VPN?"](https://www.doineedavpn.com), a tool developed by IVPN to challenge aggressive VPN marketing by helping individuals decide if a VPN is right for them.
+1. [VPN - una narrativa muy precaria](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) por Dennis Schubert
+1. [Visión General de la Red Tor](../advanced/tor-overview.md)
+1. [Guías de privacidad de IVPN](https://www.ivpn.net/privacy-guides)
+1. ["¿Necesito una VPN?"](https://www.doineedavpn.com), una herramienta desarrollada por IVPN para desafiar el marketing agresivo de las VPN ayudando a las personas a decidir si una VPN es adecuada para ellas.
 
-## Related VPN Information
+## Información Relacionada Con Las VPN
 
 - [El problema con las VPN y los sitios de revisión de privacidad](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
 - [Investigación sobre aplicaciones VPN gratuitas](https://www.top10vpn.com/free-vpn-app-investigation/)

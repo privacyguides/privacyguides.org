@@ -2,6 +2,40 @@
 title: "Veel voorkomende misvattingen"
 icon: 'material/robot-confused'
 description: Privacy is geen eenvoudig onderwerp, en men raakt gemakkelijk verstrikt in marketingclaims en andere desinformatie.
+schema:
+  - 
+    "@context": https://schema.org
+    "@type": FAQPage
+    mainEntity:
+      - 
+        "@type": Question
+        name: Is open source software inherent veilig?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Of de broncode beschikbaar is en hoe software is gelicentieerd, heeft op geen enkele manier invloed op de veiligheid ervan. Open-source software kan veiliger zijn dan private software, maar er is geen enkele garantie dat dit het geval is. Wanneer je software evalueert, moet je op individuele basis kijken naar de reputatie en beveiliging van elk hulpmiddel.
+      - 
+        "@type": Question
+        name: Kan vertrouwen verschuiven naar een andere provider je privacy verbeteren?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            We hebben het vaak over "verschuivend vertrouwen" bij het bespreken van oplossingen zoals VPN's (die het vertrouwen dat je in jouw ISP stelt verschuiven naar de VPN-aanbieder). Hiermee worden jouw internetgegevens speciaal door je internetprovider beschermd. de VPN-provider die je kiest heeft nog steeds toegang totjouw browsergegevens: jouw gegevens zijn niet volledig beveiligd voor alle partijen.
+      - 
+        "@type": Question
+        name: Zijn privacygerichte oplossingen inherent betrouwbaar?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Als je je zich uitsluitend richt op het privacybeleid en de marketing van een tool of provider, kunt je je blindstaren op de zwakke punten ervan. Wanneer je op zoek bent naar een meer private oplossing, moet je bepalen wat het onderliggende probleem is en technische oplossingen voor dat probleem vinden. Je kunt bijvoorbeeld Google Drive vermijden, dat Google toegang geeft tot al Jouw gegevens. Het onderliggende probleem in dit geval is een gebrek aan E2EE, dus je moet ervoor zorgen dat de provider waarnaar je overstapt daadwerkelijk E2EE implementeert, of een tool gebruiken (zoals Cryptomator) die E2EE biedt op elke cloud provider. Overstappen naar een "privacygerichte" provider (die geen end-to-end encryptie implementeert) lost je probleem niet op: het verschuift alleen het vertrouwen van Google naar die provider.
+      - 
+        "@type": Question
+        name: Hoe ingewikkeld zou mijn bedreigingsmodel moeten zijn?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            We zien vaak dat mensen overdreven ingewikkelde dreigingsmodellen voor privacybedreigingen beschrijven. Vaak omvatten deze oplossingen problemen zoals veel verschillende e-mailaccounts of ingewikkelde opstellingen met veel bewegende delen en voorwaarden. De antwoorden zijn meestal antwoorden op "Wat is de beste manier om X te doen?"
+            Het vinden van de "beste" oplossing voor jezelf betekent niet noodzakelijk dat je op zoek bent naar een onfeilbare oplossing met tientallen voorwaarden - deze oplossingen zijn vaak moeilijk om realistisch mee te werken. Zoals we eerder hebben besproken, gaat veiligheid vaak ten koste van gemak.
 ---
 
 ## "Open source software is altijd veilig" of "Private software is veiliger"

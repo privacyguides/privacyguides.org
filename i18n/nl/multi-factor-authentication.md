@@ -29,7 +29,7 @@ Voor modellen die HOTP en TOTP ondersteunen, zijn er 2 slots in de OTP-interface
 !!! warning
     De firmware van YubiKey is niet open-source en kan niet worden geüpdatet. Als je functies in nieuwere firmwareversies wilt, of als er een kwetsbaarheid is in de firmwareversie die je gebruikt, moet je een nieuwe sleutel kopen.
 
-### Nitrokey / Librem Key
+### Nitrokey
 
 !!! recommendation
 
@@ -55,17 +55,13 @@ Voor de modellen die HOTP en TOTP ondersteunen, zijn er 3 slots voor HOTP en 15 
 
     Het resetten van de OpenPGP interface op een Nitrokey zal ook de wachtwoord database [inaccessible]maken (https://docs.nitrokey.com/pro/linux/factory-reset).
 
- De Nitrokey Pro 2, Nitrokey Storage 2 en de komende Nitrokey 3 ondersteunen systeemintegriteitscontrole voor laptops met de [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware. Purism's [Librem Key](https://puri.sm/products/librem-key/) is een rebranded NitroKey Pro 2 met gelijkaardige firmware en kan ook voor dezelfde doeleinden worden gebruikt.
+De Nitrokey Pro 2, Nitrokey Storage 2 en de komende Nitrokey 3 ondersteunen systeemintegriteitscontrole voor laptops met de [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware.
 
 Nitrokey's firmware is open-source, in tegenstelling tot de YubiKey. De firmware op moderne NitroKey-modellen (behalve de **NitroKey Pro 2**) kan worden bijgewerkt.
 
-!!! tip
-
-    De Nitrokey app, hoewel compatibel met Librem Keys, vereist `libnitrokey` versie 3.6 of hoger om ze te herkennen. Op dit moment is het pakket verouderd in de repository van Windows, macOS en de meeste Linux distributies, dus u zult waarschijnlijk zelf de Nitrokey app moeten compileren om deze te laten werken met de Librem Key. Onder Linux kunt u een bijgewerkte versie verkrijgen op [Flathub](https://flathub.org/apps/details/com.nitrokey.nitrokey-app).
-
 ### Criteria
 
-**Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je zich vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat het de juiste keuze voor je is.
+**Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
 
 !!! example "Deze sectie is nieuw"
 
@@ -130,7 +126,7 @@ Wij raden je ten zeerste aan om mobiele TOTP apps te gebruiken in plaats van des
 
 ### Criteria
 
-**Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je zich vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat het de juiste keuze voor je is.
+**Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
 
 !!! example "Deze sectie is nieuw"
 
