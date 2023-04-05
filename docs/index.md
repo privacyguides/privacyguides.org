@@ -42,7 +42,7 @@ Much like the right to interracial marriage, woman's suffrage, freedom of speech
 
 You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
-[:material-target-account: Common Internet Threats](basics/common-threats.md){ .md-button .md-button--primary }
+[:material-target-account: Common Internet Threats](basics/common-threats.md){ class="md-button md-button--primary" }
 
 ## What should I do?
 
@@ -52,7 +52,7 @@ Trying to protect all your data from everyone all the time is impractical, expen
 
 ==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ .md-button .md-button--primary }
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
 
 ---
 

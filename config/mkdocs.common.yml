@@ -38,6 +38,10 @@ extra:
       link: /en/
       lang: en
       icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1fa-1f1f8.svg
+    - name: Español
+      link: /es/
+      lang: es
+      icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1ea-1f1f8.svg
     - name: Français
       link: /fr/
       lang: fr
