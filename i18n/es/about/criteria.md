@@ -19,22 +19,22 @@ Aplicamos estas prioridades al considerar nuevas recomendaciones:
 - Herramientas **seguras**: Las herramientas deben seguir las mejores prácticas de seguridad cuando sea necesario.
 - **Disponibilidad del código**: Proyectos de código abierto son preferidos sobre alternativas similares de código cerrado.
 - **Multiplataforma**: Preferimos que las recomendaciones sean multiplataforma para evitar la dependencia de un sistema.
-- **Active Development**: The tools that we recommend should be actively developed, unmaintained projects will be removed in most cases.
-- **Usability**: Tools should be accessible to most computer users, an overly technical background should not be required.
-- **Documented**: Tools should have clear and extensive documentation for use.
+- **Desarrollo activo**: Las herramientas que recomendamos deben ser desarrolladas activamente, los proyectos no mantenidos serán eliminados en la mayoría de los casos.
+- **Usabilidad**: Las herramientas deben ser accesibles para la mayoría de los usuarios de ordenador, no debe exigirse una formación demasiado técnica.
+- **Documentado**: Las herramientas deben tener una documentación de uso clara y extensa.
 
-## Developer Self-Submissions
+## Autoenvíos del desarrollador
 
-We have these requirements in regard to developers which wish to submit their project or software for consideration.
+Estos son los requisitos que exigimos a los desarrolladores que deseen presentar su proyecto o programa informático.
 
-- Must disclose affiliation, i.e. your position within the project being submitted.
+- Debe revelar su afiliación, es decir, su cargo dentro del proyecto que se presenta.
 
-- Must have a security whitepaper if it is a project that involves handling of sensitive information like a messenger, password manager, encrypted cloud storage etc.
-    - Third party audit status. We want to know if you have one, or have one planned. If possible please mention who will be conducting the audit.
+- Debe tener un documento de seguridad si se trata de un proyecto que implica el manejo de información sensible, como un mensajero, un gestor de contraseñas, almacenamiento cifrado en la nube, etc.
+    - Estado de la auditoría de terceros. Queremos saber si tiene una, o tiene prevista una. Si es posible, mencione quién realizará la auditoría.
 
-- Must explain what the project brings to the table in regard to privacy.
-    - Does it solve any new problem?
-    - Why should anyone use it over the alternatives?
+- Debe explicar qué aporta el proyecto en materia de privacidad.
+    - ¿Resuelve algún problema nuevo?
+    - ¿Por qué utilizarlo en lugar de otras alternativas?
 
-- Must state what the exact threat model is with their project.
-    - It should be clear to potential users what the project can provide, and what it cannot.
+- Deben indicar cuál es el modelo de amenaza exacto de su proyecto.
+    - Los usuarios potenciales deben tener claro qué puede ofrecer el proyecto y qué no.

@@ -29,7 +29,7 @@ For models which support HOTP and TOTP, there are 2 slots in the OTP interface w
 !!! warning
     The firmware of YubiKey is not open-source and is not updatable. If you want features in newer firmware versions, or if there is a vulnerability in the firmware version you are using, you would need to purchase a new key.
 
-### Nitrokey /Librem-nyckel
+### Nitrokey
 
 !!! recommendation
 
@@ -55,13 +55,9 @@ För de modeller som stöder HOTP och TOTP finns det 3 platser för HOTP och 15 
 
     Återställning av OpenPGP-gränssnittet på en Nitrokey kommer också att göra lösenordsdatabasen [inaccessible](https://docs.nitrokey.com/pro/linux/factory-reset).
 
- Nitrokey Pro 2, Nitrokey Storage 2 och den kommande Nitrokey 3 stöder systemintegritetskontroll för bärbara datorer med [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware. Purism 's [Librem Key](https://puri.sm/products/librem-key/) är en rebranded NitroKey Pro 2 med liknande firmware och kan också användas för samma ändamål.
+The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports system integrity verification for laptops with the [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware.
 
 Nitrokey firmware är öppen källkod, till skillnad från YubiKey. Den inbyggda programvaran på moderna NitroKey-modeller (utom **NitroKey Pro 2**) kan uppdateras.
-
-!!! dricks
-
-    Nitrokey-appen är kompatibel med Librem Keys, men kräver "libnitrokey "version 3.6 eller senare för att känna igen dem. För närvarande är paketet föråldrat i Windows, macOS och de flesta Linuxdistributioners arkiv, så du måste troligen kompilera Nitrokey-appen själv för att få den att fungera med Librem Key. På Linux kan du få en uppdaterad version från [Flathub](https://flathub.org/apps/details/com.nitrokey.nitrokey-app).
 
 ### Kriterier
 

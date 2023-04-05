@@ -16,11 +16,11 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
     
     **Akregator** es un lector de fuentes de noticias que es parte del proyecto [KDE](https://kde.org). Este incluye una búsqueda rápida, funcionalidades avanzadas de archivado y un navegador interno para facilitar la lectura de las noticias.
     
-    [:octicons-home-16: Página principal](https://apps.kde.org/akregator){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentation}
-    [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
+    [:octicons-home-16: Página Principal](https://apps.kde.org/akregator){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Política de Privacidad" }
+    [:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentación}
+    [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Código Fuente" }
+    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribuir }
     
     ??? descargas
     
@@ -32,80 +32,80 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
     ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
     
-    **Feeder** is a modern RSS client for Android that has many [features](https://gitlab.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+    **Feeder** es un cliente RSS moderno para Android que tiene muchas [features](https://gitlab.com/spacecowboy/Feeder#features) y funciona bien con carpetas de fuentes RSS. Es compatible con [RSS](https://es.wikipedia.org/wiki/RSS), [Atom](https://es.wikipedia.org/wiki/Atom_(formato_de_redifusi%C3%B3n)), [RDF](https://es.wikipedia.org/wiki/RDF/XML) y [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
     
-    [:octicons-repo-16: Repository](https://gitlab.com/spacecowboy/Feeder){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.com/spacecowboy/Feeder){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribute }
+    [:octicons-repo-16: Repositorio](https://gitlab.com/spacecowboy/Feeder){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.com/spacecowboy/Feeder){ .card-link title="Código Fuente" }
+    [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribuir }
     
-    ??? downloads
+    ??? descargas
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
 
-### Akregator
+### Fluent Reader
 
 !!! recomendación
 
     ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ align=right }
     
-    **Fluent Reader** is a secure cross-platform news aggregator that has useful privacy features such as deletion of cookies on exit, strict [content security policies (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) and proxy support, meaning you can use it over [Tor](tor.md).
+    **Fluent Reader** es un lector de noticias seguro y multiplataforma que cuenta con útiles funciones de privacidad, como la eliminación de cookies al salir, estrictas [políticas de seguridad de contenidos (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) y soporte para proxy, lo que significa que puede utilizarlo a través de [Tor](tor.md).
     
-    [:octicons-home-16: Homepage](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribute }
+    [:octicons-home-16: Página Principal](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Política de Privacidad" }
+    [:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki/){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Código Fuente" }
+    [:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribuir }
     
-    ??? downloads
+    ??? descargas
     
         - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
 
-### Handy News Reader
+### GNOME Feeds
 
 !!! recomendación
 
     ![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ align=right }
     
-    **GNOME Feeds** is an [RSS](https://en.wikipedia.org/wiki/RSS) and [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) news reader for [GNOME](https://www.gnome.org). It has a simple interface and is quite fast.
+    **GNOME Feeds** es un lector de noticias de [RSS](https://es.wikipedia.org/wiki/RSS) y [Atom](https://es.wikipedia.org/wiki/Atom_(formato_de_redifusi%C3%B3n)) para [GNOME](https://www.gnome.org). Tiene una interfaz sencilla y es bastante rápido.
     
-    [:octicons-home-16: Homepage](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Contribute }
+    [:octicons-home-16: Página Principal](https://gfeeds.gabmus.org){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://gitlab.gnome.org/World/gfeeds){ .card-link title="Código Fuente" }
+    [:octicons-heart-16:](https://liberapay.com/gabmus/){ .card-link title=Contribuir }
     
-    ??? downloads
+    ??? descargas
     
         - [:simple-linux: Linux](https://gfeeds.gabmus.org/#install)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gabmus.gfeeds)
 
-### NetNewsWire
+### Miniflux
 
 !!! recomendación
 
     ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
     ![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
     
-    **Miniflux** is a web-based news aggregator that you can self-host. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+    **Miniflux** es un lector de noticias basado en web que puede alojar usted mismo. Es compatible con [RSS](https://es.wikipedia.org/wiki/RSS), [Atom](https://es.wikipedia.org/wiki/Atom_(formato_de_redifusi%C3%B3n)), [RDF](https://es.wikipedia.org/wiki/RDF/XML) y [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
     
-    [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title=Contribute }
+    [:octicons-home-16: Página Principal](https://miniflux.app){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Código Fuente" }
+    [:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title=Contribuit }
 
-### Miniflux
+### NetNewsWire
 
 !!! recomendación
 
     ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
     
-    **NetNewsWire** a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. It supports the typical feed formats alongside built-in support for Twitter and Reddit feeds.
+    **NetNewsWire** es un lector de fuentes gratuito y de código abierto para macOS e iOS centrado en un diseño y unas funciones nativos. Es compatible con los formatos de fuente típicos, así como con las fuentes de Twitter y Reddit.
     
-    [:octicons-home-16: Homepage](https://netnewswire.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
+    [:octicons-home-16: Página Principal](https://netnewswire.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Política de Privacidad" }
+    [:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Código Fuente" }
     
-    ??? downloads
+    ??? descargas
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
         - [:simple-apple: macOS](https://netnewswire.com)
@@ -116,57 +116,57 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
     ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ align=right }
     
-    **Newsboat** is an RSS/Atom feed reader for the text console. It's an actively maintained fork of [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). It is very lightweight, and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
+    **Newsboat** es un lector de fuentes RSS/Atom para la consola de texto. Es una bifurcación de [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter) mantenida activamente. Es muy ligero e ideal para su uso a través de [Secure Shell](https://es.wikipedia.org/wiki/Secure_Shell).
     
-    [:octicons-home-16: Homepage](https://newsboat.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://newsboat.org/releases/2.27/docs/newsboat.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Source Code" }
+    [:octicons-home-16: Página Principal](https://newsboat.org){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://newsboat.org/releases/2.27/docs/newsboat.html){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Código Fuente" }
 
-## Criteria
+## Criterios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de decidir utilizar un proyecto y realizar su propia investigación para asegurarse de que es la elección ideal para usted.
 
-!!! example "This section is new"
+!!! ejemplo "Esta sección es nueva"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tiene alguna duda sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 
-- Must be open-source software.
-- Must operate locally, i.e. must not be a cloud service.
+- Deben ser software de código abierto.
+- Debe funcionar localmente, es decir, no debe ser un servicio en la nube.
 
-## Social Media RSS Support
+## Soporte RSS para Redes Sociales
 
-Some social media services also support RSS although it's not often advertised.
+Algunos servicios de redes sociales también admiten RSS, aunque esto no se suele anunciar.
 
-### Youtube
+### Reddit
 
-Reddit allows you to subscribe to subreddits via RSS.
+Reddit le permite suscribirse a subreddits a través de RSS.
 
-!!! example
-    Replace `subreddit_name` with the subreddit you wish to subscribe to.
+!!! ejemplo
+    Sustituya `subreddit_name` por el subreddit al que desee suscribirse.
 
     ```text
     https://www.reddit.com/r/{{ subreddit_name }}/new/.rss
     ```
 
-### Reddit
+### Twitter
 
-Using any of the Nitter [instances](https://github.com/zedeus/nitter/wiki/Instances) you can easily subscribe using RSS.
+Utilizando cualquiera de las [instancias](https://github.com/zedeus/nitter/wiki/Instances) de Nitter puede suscribirse fácilmente mediante RSS.
 
-!!! example
-    1. Pick an instance and set `nitter_instance`.
-    2. Replace `twitter_account` with the account name.
+!!! ejemplo
+    1. Elija una instancia y ponga `nitter_instance`.
+    2. Sustituya `twitter_account` por el nombre de la cuenta.
 
        ```text
        https://{{ nitter_instance }}/{{ twitter_account }}/rss
        ```
 
-### Twitter
+### YouTube
 
-You can subscribe YouTube channels without logging in and associating usage information with your Google Account.
+Puede suscribirse a los canales de YouTube sin iniciar sesión ni asociar la información de uso con su cuenta de Google.
 
-!!! example
+!!! ejemplo
 
-    https://www.reddit.com/r/{{ subreddit_name }}/new/.rss
+    Para suscribirse a un canal de YouTube con un cliente RSS, busque primero su [código de canal](https://support.google.com/youtube/answer/6180214), sustituya el `[ID DEl CANAL]` a continuación:
     ```text
-    https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
+    https://www.youtube.com/feeds/videos.xml?channel_id=[ID DEL CANAL]
     ```

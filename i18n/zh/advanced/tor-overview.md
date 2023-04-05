@@ -6,11 +6,19 @@ description: Tor是一个免费使用的去中心化网络，专为尽量隐私�
 
 Tor是一个免费使用的去中心化网络，专为尽量隐私地使用互联网而设计。 如果使用得当，该网络可以实现隐私且匿名地浏览和通信。
 
-## 路径的构建
+## Path Building to Clearnet Services
 
-Tor的工作原理是通过一个由数千个志愿者运行的服务器（称为节点（或中继））组成的网络路由您的流量。
+"Clearnet services" are websites which you can access with any browser, like [privacyguides.org](https://www.privacyguides.org). Tor lets you connect to these websites anonymously by routing your traffic through a network comprised of thousands of volunteer-run servers called nodes (or relays).
 
-每次你连接到Tor，它都会选择三个节点来建立一条通往互联网的路径--这条路径被称为 "线路"。 每个节点都有自己的功能：
+Every time you [connect to Tor](../tor.md), it will choose three nodes to build a path to the internet—this path is called a "circuit."
+
+<figure markdown>
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path.svg#only-light)
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway</figcaption>
+</figure>
+
+每个节点都有自己的功能：
 
 ### 入口节点
 
@@ -30,10 +38,16 @@ Tor的工作原理是通过一个由数千个志愿者运行的服务器（称�
 
 出口节点将从运行有出口中继标志的所有可用Tor节点中随机选择。[^2]
 
-<figure markdown>
-  ![Tor path](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway</figcaption>
+## Path Building to Onion Services
+
+"Onion Services" (also commonly referred to as "hidden services") are websites which can only be accessed by the Tor browser. These websites have a long randomly generated domain name ending with `.onion`.
+
+Connecting to an Onion Service in Tor works very similarly to connecting to a clearnet service, but your traffic is routed through a total of **six** nodes before reaching the destination server. Just like before however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
+
+<figure style="width:100%" markdown>
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway with Onion Services. Nodes in the <span class="pg-blue">blue</span> fence belong to your browser, while nodes in the <span class="pg-red">red</span> fence belong to the server, so their identity is hidden from you.</figcaption>
 </figure>
 
 ## 加密

@@ -2,6 +2,79 @@
 title: "אנדרואיד"
 icon: 'simple/android'
 description: אתה יכול להחליף את מערכת ההפעלה בטלפון האנדרואיד שלך בחלופות מאובטחות ומכבדות פרטיות אלה.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": WebPage
+    name: מערכות הפעלה פרטיות לאנדרואיד
+    url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": CreativeWork
+    name: אנדרואיד
+    image: /assets/img/android/android.svg
+    url: https://source.android.com/
+    sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
+  - 
+    "@context": http://schema.org
+    "@type": CreativeWork
+    name: GrapheneOS
+    image: /assets/img/android/grapheneos.svg
+    url: https://grapheneos.org/
+    sameAs: https://en.wikipedia.org/wiki/GrapheneOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": CreativeWork
+    name: Divest
+    image: /assets/img/android/divestos.svg
+    url: https://divestos.org/
+    sameAs: https://en.wikipedia.org/wiki/DivestOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": Product
+    name: Pixel
+    brand:
+      "@type": Brand
+      name: גוגל
+    image: /assets/img/android/google-pixel.png
+    sameAs: https://en.wikipedia.org/wiki/Google_Pixel
+    review:
+      "@type": Review
+      author:
+        "@type": Organization
+        name: Privacy Guides
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Shelter
+    applicationCategory: Utilities
+    operatingSystem: אנדרואיד
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Auditor
+    applicationCategory: Utilities
+    operatingSystem: אנדרואיד
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Secure Camera
+    applicationCategory: Utilities
+    operatingSystem: אנדרואיד
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Secure PDF Viewer
+    applicationCategory: Utilities
+    operatingSystem: אנדרואיד
 ---
 
 ![לוגו אנדרואיד](assets/img/android/android.svg){ align=right }

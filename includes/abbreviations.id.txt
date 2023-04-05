@@ -45,7 +45,7 @@
 *[ISP]: Penyedia Layanan Internet
 *[ISPs]: Penyedia Layanan Internet
 *[JNI]: Antarmuka Asli Java
-*[KYC]: Know Your Customer
+*[KYC]: Kenali Pelanggan Anda
 *[LUKS]: Pengaturan Kunci Terpadu Linux (Enkripsi Diska Penuh)
 *[MAC]: Kontrol Akses Media
 *[MDAG]: Microsoft Defender Application Guard

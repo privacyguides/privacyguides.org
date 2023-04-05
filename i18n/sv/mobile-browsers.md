@@ -2,6 +2,37 @@
 title: "Mobila webbläsare"
 icon: material/cellphone-information
 description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": WebPage
+    name: Private Mobile Browser Recommendations
+    url: "./"
+    relatedLink: "../desktop-browsers/"
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Brave
+    image: /assets/img/browsers/brave.svg
+    url: https://brave.com
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Android
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Safari
+    image: /assets/img/browsers/safari.svg
+    url: https://www.apple.com/safari/
+    applicationCategory: Web Browser
+    operatingSystem:
+      - iOS
+    subjectOf:
+      "@type": WebPage
+      url: "./"
 ---
 
 Detta är våra för närvarande rekommenderade mobila webbläsare och konfigurationer för standardiserad/icke-anonym surfning på internet. Om du vill surfa anonymt på internet bör du använda [Tor](tor.md) i stället. I allmänhet rekommenderar vi att du håller ett minimum av tillägg; de har privilegierad åtkomst i din webbläsare, kräver att du litar på utvecklaren, kan få dig [att sticka ut](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)och [försvagar](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) webbplatsens isolering.

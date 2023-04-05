@@ -1,62 +1,62 @@
 ---
-title: Financial Services
+title: Servicios Financieros
 icon: material/bank
 ---
 
-Making payments online is one of the biggest challenges to privacy. These services can assist you in protecting your privacy from merchants and other trackers, provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:
+Realizar pagos en línea es uno de los principales desafíos para la privacidad. Estos servicios pueden ayudarle a proteger su privacidad frente a los comercios y otros rastreadores, siempre que conozca bien cómo realizar pagos privados de forma eficaz. Le recomendamos encarecidamente que primero lea nuestro apartado de pagos antes de realizar cualquier compra:
 
-[Making Private Payments :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
+[Hacer Pagos Privados: :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-## Payment Masking Services
+## Servicios de Enmascaramiento de Pagos
 
-There are a number of services which provide "virtual debit cards" which you can use with online merchants without revealing your actual banking or billing information in most cases. It's important to note that these financial services are **not** anonymous and are subject to "Know Your Customer" (KYC) laws and may require your ID or other identifying information. These services are primarily useful for protecting you from merchant data breaches, less sophisticated tracking or purchase correlation by marketing agencies, and online data theft; and **not** for making a purchase completely anonymously.
+Hay una serie de servicios que ofrecen "tarjetas de débito virtuales" que puede utilizar con comercios en línea sin revelar sus datos bancarios o de facturación reales en la mayoría de los casos. Es importante tener en cuenta que estos servicios financieros **no** son anónimos y están sujetos a las leyes de "Conozca a su cliente" (KYC) y pueden requerir su DNI u otra información identificativa. Estos servicios son útiles principalmente para protegerle de las filtraciones de datos de los comercios, del seguimiento menos sofisticado o de la correlación de compras por parte de las agencias de marketing y del robo de datos en línea; y **no** para realizar una compra de forma totalmente anónima.
 
-!!! tip "Check your current bank"
+!!! consejo "Compruebe su banco actual"
 
-    Many banks and credit card providers offer native virtual card functionality. If you use one which provides this option already, you should use it over the following recommendations in most cases. That way you are not trusting multiple parties with your personal information.
+    Muchos bancos y proveedores de tarjetas de crédito ofrecen funciones nativas de tarjeta virtual. Si ya utiliza uno que ofrezca esta opción, debería utilizarlo en lugar de las siguientes recomendaciones en la mayoría de los casos. De este modo, no estará confiando su información personal a varias personas.
 
-### Privacy.com (US)
+### Privacy.com (EE. UU.)
 
 !!! recomendación
 
     ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
     ![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
     
-    **Privacy.com**'s free plan allows you to create up to 12 virtual cards per month, set spend limits on those cards, and shut off cards instantly. Their paid plan allows you to create up to 36 cards per month, get 1% cash back on purchases, and hide transaction information from your bank.
+    El plan gratuito de **Privacy.com** le permite crear hasta 12 tarjetas virtuales al mes, establecer límites de gasto en esas tarjetas y cerrarlas al instante. Su plan de pago le permite crear hasta 36 tarjetas al mes, obtener un 1% de reembolso en las compras y ocultar la información de la transacción de su banco.
     
-    [:octicons-home-16: Homepage](https://privacy.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.privacy.com/hc/en-us){ .card-link title=Documentation}
+    [:octicons-home-16: Página Principal](https://privacy.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Política de Privacidad" }
+    [:octicons-info-16:](https://support.privacy.com/hc/en-us){ .card-link title=Documentación}
 
-Privacy.com gives information about the merchants you purchase from to your bank by default. Their paid "discreet merchants" feature hides merchant information from your bank, so your bank only sees that a purchase was made with Privacy.com but not where that money was spent, however that is not foolproof, and of course Privacy.com still has knowledge about the merchants you are spending money with.
+Privacy.com facilita por defecto a su banco información sobre los comercios en los que compra. Su función de pago "discreet merchants" oculta la información de los comercios a su banco, de modo que su banco sólo ve que se ha realizado una compra en Privacy.com, pero no dónde se ha gastado el dinero. Sin embargo, esto no es infalible y, por supuesto, Privacy.com sigue teniendo conocimiento de los comercios en los que gasta dinero.
 
-### MySudo (US, Paid)
+### MySudo (EE. UU., De Pago)
 
 !!! recomendación
 
     ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
     ![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
     
-    **MySudo** provides up to 9 virtual cards depending on the plan you purchase. Their paid plans additionally include functionality which may be useful for making purchases privately, such as virtual phone numbers and email addresses, although we typically recommend other [email aliasing providers](email.md) for extensive email aliasing use.
+    **MySudo** proporciona hasta 9 tarjetas virtuales dependiendo del plan que contrate. Sus planes de pago incluyen además funciones que pueden ser útiles para realizar compras en privado, como números de teléfono virtuales y direcciones de correo electrónico, aunque normalmente recomendamos otros [proveedores de alias de correo electrónico](email.md) para un uso extenso del alias de correo electrónico.
     
-    [:octicons-home-16: Homepage](https://mysudo.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=Documentation}
+    [:octicons-home-16: Página Principal](https://mysudo.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="Política de Privacidad" }
+    [:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=Documentación}
 
-### Criteria
+### Criterios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de elegir utilizar un proyecto y realizar su propia investigación para asegurarse que es la elección ideal para usted.
 
-!!! example "This section is new"
+!!! ejemplo "Esta sección es nueva"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tienes alguna duda sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 
-- Allows the creation of multiple cards which function as a shield between the merchant and your personal finances.
-- Cards must not require you to provide accurate billing address information to the merchant.
+- Permite la creación de múltiples tarjetas que funcionan como un escudo entre el comercio y sus finanzas personales.
+- Las tarjetas no deben exigirle que facilite al comercio información precisa sobre la dirección de facturación.
 
-## Gift Card Marketplaces
+## Mercados en Línea de Tarjetas Regalo
 
-These services allow you to purchase gift cards for a variety of merchants online with [cryptocurrency](cryptocurrency.md). Some of these services offer ID verification options for higher limits, but they also allow accounts with just an email address. Basic limits typically start at $5,000-10,000 a day for basic accounts, and significantly higher limits for ID verified accounts (if offered).
+Estos servicios le permiten comprar tarjetas de regalo para una gran variedad de comercios en línea con [criptomonedas](cryptocurrency.md). Algunos de estos servicios ofrecen opciones de verificación de identidad para límites más altos, pero también permiten cuentas con sólo una dirección de correo electrónico. Los límites básicos suelen comenzar en 5.000-10.000 dólares al día para las cuentas básicas, y límites significativamente más altos para las cuentas verificadas mediante un documento identificativo (si se ofrecen).
 
 ### Cake Pay
 
@@ -64,11 +64,11 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 
     ![CakePay logo](assets/img/financial-services/cakepay.svg){ align=right }
     
-    **Cake Pay** allows you to purchase gift cards and related products with Monero. Purchases for USA merchants are available in the Cake Wallet mobile app, while the Cake Pay web app includes a broad selection of global merchants.
+    **Cake Pay** le permite comprar tarjetas regalo y productos relacionados con Monero. Las compras en comercios de EE. UU. están disponibles en la aplicación móvil de Cake Wallet, mientras que la aplicación web de Cake Pay incluye una amplia selección de comercios de todo el mundo.
     
-    [:octicons-home-16: Homepage](https://cakepay.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://ionia.docsend.com/view/jhjvdn7qq7k3ukwt){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://guides.cakewallet.com/){ .card-link title=Documentation}
+    [:octicons-home-16: Página Principal](https://cakepay.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://ionia.docsend.com/view/jhjvdn7qq7k3ukwt){ .card-link title="Política de Privacidad" }
+    [:octicons-info-16:](https://guides.cakewallet.com/){ .card-link title=Documentación}
 
 ### CoinCards
 
@@ -76,19 +76,19 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 
     ![CakePay logo](assets/img/financial-services/coincards.svg){ align=right }
     
-    **CoinCards** (available in the US, Canada, and UK) allows you to purchase gift cards for a large variety of merchants.
+    **CoinCards** (disponible en EE.UU., Canadá y Reino Unido) le permite comprar tarjetas regalo para una gran variedad de comercios.
     
-    [:octicons-home-16: Homepage](https://coincards.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://coincards.com/frequently-asked-questions/){ .card-link title=Documentation}
+    [:octicons-home-16: Página Principal](https://coincards.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="Política de Privacidad" }
+    [:octicons-info-16:](https://coincards.com/frequently-asked-questions/){ .card-link title=Documentación}
 
-### Criteria
+### Criterios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de elegir utilizar un proyecto y realizar su propia investigación para asegurarse que es la elección ideal para usted.
 
-!!! example "This section is new"
+!!! ejemplo "Esta sección es nueva"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tienes alguna duda sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 
-- Accepts payment in [a recommended cryptocurrency](cryptocurrency.md).
-- No ID requirement.
+- Acepta pagos en [una criptomoneda recomendada](cryptocurrency.md).
+- No exige identificación.

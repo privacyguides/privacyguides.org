@@ -1,84 +1,84 @@
 ---
-title: Private Payments
+title: 私密支付
 icon: material/hand-coin
 ---
 
-There's a reason data about your buying habits is considered the holy grail of ad targeting: your purchases can leak a veritable treasure trove of data about you. Unfortunately, the current financial system is anti-privacy by design, enabling banks, other companies, and governments to easily trace transactions. Nevertheless, you have plenty of options when it comes to making payments privately.
+購買習慣的資料視為廣告定位聖杯是有原因的：購買行為會洩漏有關當事人的許多寶貴資訊。 不幸的是，目前的金融體系在設計上不利隱私，使銀行、其他公司和政府能夠輕鬆追蹤交易。 然而，在私下付款方面，您有很多選擇。
 
-## Cash
+## 現金
 
-For centuries, **cash** has functioned as the primary form of private payment. Cash has excellent privacy properties in most cases, is widely accepted in most countries, and is **fungible**, meaning it is non-unique and completely interchangable.
+幾個世紀以來， **現金** 一直是私人支付的主要形式。 在大多數情況下，現金具有優秀的隱私性，在大多數國家被廣泛接受，並且是 **可替代的**，這意味著它是非唯一的，完全可互換。
 
-Cash payment laws vary by country. In the United States, special disclosure is required for cash payments over $10,000 to the IRS on [Form 8300](https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). The receiving business is required to ID verify the payee’s name, address, occupation, date of birth, and Social Security Number or other TIN (with some exceptions). Lower limits without ID such as $3,000 or less exist for exchanges and money transmission. Cash also contains serial numbers. These are almost never tracked by merchants, but they can be used by law enforcement in targeted investigations.
+現金支付法因國家而異。 在美國，10,000美元以上交易需在 [8300表格中](https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000)對美國國稅局披露。 收款業必須驗證收款人的姓名、地址、職業、出生日期、社會安全號碼或其他TIN （部分例外）。 少於 3,000 美元交換和匯款，就無須身份證明。 現金鈔票有序號。 商家很少追蹤序號，但執法部門可以在針對性調查中用到它們。
 
-Despite this, it’s typically the best option.
+儘管如此，現金仍是最好的選擇。
 
-## Prepaid Cards & Gift Cards
+## 預付卡 & 禮品卡
 
-It’s relatively simple to purchase gift cards and prepaid cards at most grocery stores and convenience stores with cash. Gift cards usually don’t have a fee, though prepaid cards often do, so pay close attention to these fees and expiry dates. Some stores may ask to see your ID at checkout to reduce fraud.
+在大多數雜貨店和便利店用現金購買禮品卡和預付卡相對簡單。 禮品卡通常不收取費用，但預付卡通常會收取費用，因此請留意其費用和到期日期。 為了減少欺詐行為，部分商店可能會在結帳時要求查看身分證件。
 
-Gift cards usually have limits of up to $200 per card, but some offer limits of up to $2,000 per card. Prepaid cards (eg: from Visa or Mastercard) usually have limits of up to $1,000 per card.
+禮品卡通常每張上限為 200美元，有些禮品卡上限到 2,000 美元。 預付卡（例如：來自 Visa 或 Mastercard ）通常卡片額度為 1,000 美元。
 
-Gift cards have the downside of being subject to merchant policies, which can have terrible terms and restrictions. For example, some merchants don’t accept payment in gift cards exclusively, or they may cancel the value of the card if they consider you to be a high-risk user. Once you have merchant credit, the merchant has a strong degree of control over this credit.
+禮品卡的缺點是受商家政策的約束，這些政策可能有糟糕的條款和限制。 例如，有些商家不接受禮品卡付款，或者對高風險用戶取消禮品卡的價值。 一旦您拿了由商家信用擔保的禮品卡，商家就會對這筆金額有強烈的控制權。
 
-Prepaid cards don’t allow cash withdrawals from ATMs or “peer-to-peer” payments in Venmo and similar apps.
+預付卡無法從 ATM 提取現金或在 Venmo 以應用程序中進行“點對點”付款。
 
-Cash remains the best option for in-person purchases for most people. Gift cards can be useful for the savings they bring. Prepaid cards can be useful for places that don’t accept cash. Gift cards and prepaid cards are easier to use online than cash, and they are easier to acquire with cryptocurrencies than cash.
+對於大多數人來說，現金仍然是現場購物的最佳選擇。 禮品卡用處在於節省。 預付卡適用於不接受現金的地方。 網路中禮品卡和預付卡比現金更容易使用，也更容易透過加密貨幣獲得。
 
-### Online Marketplaces
+### 網上交易平臺
 
-If you have [cryptocurrency](../cryptocurrency.md), you can purchase gift cards with an online gift card marketplace. Some of these services offer ID verification options for higher limits, but they also allow accounts with just an email address. Basic limits start at $5,000-10,000 a day for basic accounts, and significantly higher limits for ID verified accounts (if offered).
+如果您有 [加密貨幣](../cryptocurrency.md)，可在線禮品卡市場購買禮品卡。 有服務在更高額度時有提供身份驗證選項，它們也允許帳戶只需提供電子郵件地址。 基本帳戶限額為每天 5,000-10,000 美元，身份驗證帳戶（如果有）的限額則更高。
 
-When buying gift cards online, there is usually a slight discount. Prepaid cards are usually sold online at face value or with a fee. If you buy prepaid cards and gift cards with cryptocurrencies, you should strongly prefer to pay with Monero which provides strong privacy, more on this below. Paying for a gift card with a traceable payment method negates the benefits a gift card can provide when purchased with cash or Monero.
+在網上購買禮品卡時，通常會有小折扣。 預付卡通常以面值或收取服務費在網上銷售。 如果您使用加密貨幣購買預付卡和禮品卡，您最好使用強大隱私的 Monero 付款，下面將進一步說明。 使用可追溯的付款方式支付禮物卡，取消了用現金或 Monero 購買禮品卡的隱私優點。
 
-- [Online Gift Card Marketplaces :material-arrow-right-drop-circle:](../financial-services.md#gift-card-marketplaces)
+- [網上禮品卡市場 :material-arrow-right-drop-circle:](../financial-services.md#gift-card-marketplaces)
 
-## Virtual Cards
+## 虛擬卡
 
-Another way to protect your information from merchants online is to use virtual, single-use cards which mask your actual banking or billing information. This is primarily useful for protecting you from merchant data breaches, less sophisticated tracking or purchase correlation by marketing agencies, and online data theft. They do **not** assist you in making a purchase completely anonymously, nor do they hide any information from the banking institution themselves. Regular financial institutions which offer virtual cards are subject to "Know Your Customer" (KYC) laws, meaning they may require your ID or other identifying information.
+另一種保護個資免受線上商家侵害的方法是使用虛擬的一次性卡片，以掩蓋您的實際銀行或帳單資訊。 這可對付商家數據洩露，營銷機構粗糙的跟蹤或購買聯結以及線上資料盜竊。  **無法完全匿名**您的購買行為，也不能對金融機構隱瞞自身的資訊。  發行虛擬卡的常規金融機構受「瞭解您的客戶」( KYC )法律約束，這意味著您需要提供身份證明文件或其他識別信息。
 
-- [Recommended Payment Masking Services :material-arrow-right-drop-circle:](../financial-services.md#payment-masking-services)
+- [推薦付款掩蔽服務 :material-arrow-right-drop-circle:](../financial-services.md#payment-masking-services)
 
-These tend to be good options for recurring/subscription payments online, while prepaid gift cards are preferred for one-time transactions.
+這些往往是線上定期/訂閱付款的好選擇，而預付禮品卡則更適合一次性交易。
 
-## Cryptocurrency
+## 加密貨幣
 
-Cryptocurrencies are a digital form of currency designed to work without central authorities such as a government or bank. While *some* cryptocurrency projects can allow you to make private transactions online, many use a public blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly at any time. As such, we generally don't recommend using cryptocurrency as a long-term store of value. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only invest amounts which would not be disastrous to lose.
+加密貨幣是一種數位形式的貨幣，其設計上沒有中央機構如政府或銀行即自行運作。  *有些* 加密貨幣可以在線上私密交易，但許多使用公開區塊錬則無法保障交易隱私。  加密貨幣是非常不穩定的資產，這它們的價值可能隨時發生急速顯著變化。 因此，不建議加密貨幣作為長期價值儲存。 如果決定使用加密貨幣，請確保已充分了解其隱私，且投資金額不會變成災難性損失。
 
-!!! danger
+!!! 危險
 
-    The vast majority of cryptocurrencies operate on a **public** blockchain, meaning that every transaction is public knowledge. This includes even most well-known cryptocurrencies like Bitcoin and Ethereum. Transactions with these cryptocurrencies should not be considered private and will not protect your anonymity.
+    絕大多數加密貨幣都在* *公共* *區塊鏈上運作，這意味著每筆交易都可公開知道。 這包括最知名的加密貨幣，如比特幣和以太坊。 加密貨幣的交易不應被視為私密，也不會保護您的匿名性。
     
-    Additionally, many if not most cryptocurrencies are scams. Make transactions carefully with only projects you trust.
+    此外，許多（如果不是大多數）加密貨幣都是騙局。 只用你信任的項目小心進行交易。
 
-### Privacy Coins
+### 隱私幣
 
-There are a number of cryptocurrency projects which purport to provide privacy by making transactions anonymous. We recommend using one which provides transaction anonymity **by default** to avoid operational errors.
+有許多加密貨幣聲稱通過匿名交易來提供隱私。 建議探用** 預設**為匿名交易的工具，以避免操作時發生錯誤。
 
-- [Recommended Cryptocurrency :material-arrow-right-drop-circle:](../cryptocurrency.md#coins)
+- [推薦的加密貨幣 :material-arrow-right-drop-circle:](../cryptocurrency.md#coins)
 
-Privacy coins have been subject to increasing scrutiny by government agencies. In 2020, [the IRS published a $625,000 bounty](https://www.forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can break Bitcoin Lightning Network and/or Monero's transaction privacy. They ultimately [paid two companies](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis and Integra Fec) a combined $1.25 million for tools which purport to do so (it is unknown which cryptocurrency network these tools target). Due to the secrecy surrounding tools like these, ==none of these methods of tracing cryptocurrencies have been independently confirmed.== However, it is quite likely that tools which assist targeted investigations into private coin transactions exist, and that privacy coins only succeed in thwarting mass surveillance.
+隱私硬幣受到政府機構日益嚴格的監管。 2020年[美國稅務局 IRS 發表 $625,000 賞金](https://www.forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc)，來徵求工具破解 Bitcoin Lightning Network 和 Monero 交易隱私。 最後由 [二家公司](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis and Integra Fec) 共同獲得 $1250000 美元，但外界並不知道所開發的工具是用在哪一種加密貨幣網路。 由於這些工具的保密性，追蹤加密貨幣的方法都未得到獨立的證實。隱私硬幣交易很可能被運用在針對性地調查，而大規模監控則無法阻止。
 
-### Other Coins (Bitcoin, Ethereum, etc.)
+### 其他貨幣（比特幣、以太坊等）
 
-The vast majority of cryptocurrency projects use a public blockchain, meaning that all transactions are both easily traceable and permanent. As such, we strongly discourage the use of most cryptocurrency for privacy-related reasons.
+絕大多數加密貨幣項目使用公共區塊鏈，這意味著所有交易記錄都很容易追溯和永久保存。 因此，我們強烈不鼓勵把加密貨幣用和隱私相關的事物上。
 
-Anonymous transactions on a public blockchain are *theoretically* possible, and the Bitcoin wiki [gives one example of a "completely anonymous" transaction](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation). However, doing so requires a complicated setup involving Tor and "solo-mining" a block to generate completely independent cryptocurrency, a practice which has not been practical for nearly any enthusiast for many years.
+公開區塊錬上的匿名交易*理論上* 可行，比特幣維基就 [提出如何"完全匿名"交易的案例](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation)。 然而，這樣需要複雜的設置，涉及Tor和“獨自挖掘”一個區塊來產生完全獨立的加密貨幣，多年來幾乎沒有任何愛好者實踐過。
 
-==Your best option is to avoid these cryptocurrencies entirely and stick with one which provides privacy by default.== Attempting to use other cryptocurrency is outside the scope of this site and strongly discouraged.
+= =您最好還是完全避免這些加密貨幣，並堅持使用預設隱私的加密貨幣。嘗試使用其他加密貨幣超出了本網站的範圍，非常不建議。
 
-### Wallet Custody
+### 錢包保管
 
-With cryptocurrency there are two forms of wallets: custodial wallets and noncustodial wallets. Custodial wallets are operated by centralized companies/exchanges, where the private key for your wallet is held by that company, and you can access them anywhere typically with a regular username and password. Noncustodial wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, noncustodial wallets provide greater security and censorship-resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. Key custody is especially important when it comes to privacy coins: Custodial wallets grant the operating company the ability to view your transactions, negating the privacy benefits of those cryptocurrencies.
+加密貨幣有兩種形式的錢包：託管錢包和非託管錢包。 託管錢包由集中式公司/交易所運營，錢包的私鑰由該公司持有，您可以使用用戶名和密碼從任何地方存取。 非託管錢包是您自己控制和管理錢包的私鑰。 假如可以保管好錢包的私鑰安全並備份，非保管錢包比保管錢包具有更大的安全性和審查抵抗力，因為您的加密貨幣不會被保管的公司竊取或凍結。 密鑰保管在隱私貨幣上尤其重要：保管錢包使運營公司能夠查看您的交易，否定了這些加密貨幣的隱私優勢。
 
-### Acquisition
+### 取得
 
-Acquiring [cryptocurrencies](../cryptocurrency.md) like Monero privately can be difficult. P2P marketplaces like [LocalMonero](https://localmonero.co/), a platform which facilitates trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com/), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Then, you can withdraw the purchased Monero to your own noncustodial wallet to use privately from that point forward.
+私下購買 [加密貨幣](../cryptocurrency.md) ，如Monero 可能很困難。 P2P 市場如 [LocalMonero](https://localmonero.co/)，為促進人群交易的平台，也是個可考慮的選擇。 如果使用需要 KYC的交易所是您可接受的風險(只要隨後的交易無法追蹤)。一個更容易的方式是從 [Kraken](https://kraken.com/)等交易所購買 Monero ，或者從 KYC 交易所購買比特幣/萊特幣，然後兌換為 Monero。 然後，您可以將購入的 Monero 提取到自己的非保管錢包，以便 日後私下使用。
 
-If you go this route, make sure to purchase Monero at different times and in different amounts than where you will spend it. If you purchase $5000 of Monero at an exchange and make a $5000 purchase in Monero an hour later, those actions could potentially be correlated by an outside observer regardless of which path the Monero took. Staggering purchases and purchasing larger amounts of Monero in advance to later spend on multiple smaller transactions can avoid this pitfall.
+如果您選擇這條路線，請確保以不同的時間和額度購買與用掉Monero 。 如果你在交易所購買 5000 美元的 Monero ，並在一個小時後花掉這筆錢，外部觀察者會將這些行為作關聯，無關 Monero 走的是通道。 驚人的購買和提前購買大量的Monero 以支應之後小額交易，可以避免這種陷阱。
 
-## Additional Considerations
+## 其他注意事項
 
-When you're making a payment in-person with cash, make sure to keep your in-person privacy in mind. Security cameras are ubiquitous. Consider wearing non-distinct clothing and a face mask (such as a surgical mask or N95). Don’t sign up for rewards programs or provide any other information about yourself.
+使用現金現場付款時，請務必謹記現場隱私。 安全攝影機無處不在。 不妨考慮穿著不顯眼的衣服和口罩（如外科口罩或N95 ）。 請勿註冊獎勵計劃或提供自己的相關資訊。
 
-When purchasing online, ideally you should do so over [Tor](tor-overview.md). However, many merchants don’t allow purchases with Tor. You can consider using a [recommended VPN](../vpn.md) (paid for with cash, gift card, or Monero), or making the purchase from a coffee shop or library with free Wi-Fi. If you are ordering a physical item that needs to be delivered, you will need to provide a delivery address. You should consider using a PO box, private mailbox, or work address.
+在網上購買時，理想情況下應該透過 [Tor](tor-overview.md)進行。 但是，許多商家不允許使用 Tor 購買。 可以考慮使用 [推薦的 VPN](../vpn.md) （使用現金、禮品卡或 Monero 支付），或利用咖啡店或圖書館免費 Wi-Fi 購買。 如果你訂購的是實體物品，則需要提供送遞地址。 您應該考慮使用郵政信箱、私人郵箱或工作地址。

@@ -130,6 +130,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 <div class="grid cards" markdown>
 
 - ![Logo Proton Drive](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
+- ![Logo Tresorit](assets/img/cloud/tresorit.svg){ .twemoji } [Tresorit](cloud.md#tresorit)
 
 </div>
 
@@ -382,7 +383,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 <div class="grid cards" markdown>
 
 - ![YubiKeys](assets/img/multi-factor-authentication/mini/yubico.svg){ .twemoji } [YubiKey](multi-factor-authentication.md#yubikey)
-- ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji } [Nitrokey](multi-factor-authentication.md#nitrokey-librem-key)
+- ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji } [Nitrokey](multi-factor-authentication.md#nitrokey)
 - ![Logo Aegis](assets/img/multi-factor-authentication/aegis.png){ .twemoji } [Aegis Authenticator](multi-factor-authentication.md#aegis-authenticator)
 - ![Logo Raivo OTP](assets/img/multi-factor-authentication/raivo-otp.png){ .twemoji } [Raivo OTP](multi-factor-authentication.md#raivo-otp)
 

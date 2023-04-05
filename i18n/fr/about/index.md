@@ -1,18 +1,29 @@
 ---
-template: schema.html
 title: "À propos de Privacy Guides"
 description: Privacy Guides est un site web à vocation sociale qui fournit des informations pour protéger la sécurité de vos données et votre vie privée.
+schema:
+  "@context": https://schema.org
+  "@type": Organization
+  "@id": https://www.privacyguides.org/
+  name: Privacy Guides
+  url: https://www.privacyguides.org/en/about/
+  logo: https://www.privacyguides.org/en/assets/brand/png/square/pg-yellow.png
+  sameAs:
+    - https://twitter.com/privacy_guides
+    - https://github.com/privacyguides
+    - https://www.wikidata.org/wiki/Q111710163
+    - https://opencollective.com/privacyguides
+    - https://www.youtube.com/@privacyguides
+    - https://mastodon.neat.computer/@privacyguides
 ---
 
 ![Logo de Privacy Guides](../assets/brand/png/square/pg-yellow.png){ align=right }
 
-**Privacy Guides** est un site web à vocation sociale qui fournit [des informations](/kb) pour protéger la sécurité de vos données et votre vie privée. Nous sommes un collectif à but non lucratif entièrement géré par des [membres bénévoles de l'équipe](https://discuss.privacyguides.net/g/team) et des contributeurs. Notre site web est exempt de toute publicité et n'est pas affilié aux fournisseurs répertoriés.
+**Privacy Guides** est un site web à vocation sociale qui fournit [des informations](/kb) pour protéger la sécurité de vos données et votre vie privée. Notre mission est d'informer le public sur la valeur de la vie privée numérique et sur les initiatives gouvernementales mondiales visant à surveiller votre activité en ligne. Nous sommes un collectif à but non lucratif entièrement géré par des [membres bénévoles de l'équipe](https://discuss.privacyguides.net/g/team) et des contributeurs. Notre site est exempt de publicité et n'est affilié à aucun des fournisseurs cités.
 
 [:octicons-home-16:](https://www.privacyguides.org/){ .card-link title="Page d'accueil" }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Code source" }
 [:octicons-heart-16:](donate.md){ .card-link title=Contribuer }
-
-L'objectif de Privacy Guides est d'éduquer notre communauté sur l'importance de la vie privée en ligne et sur les programmes gouvernementaux internationaux qui sont conçus pour surveiller toutes vos activités en ligne.
 
 > Pour trouver des applications [alternatives axées sur la protection de la vie privée], consultez des sites tels que Good Reports et **Privacy Guides**, qui répertorient les applications axées sur la protection de la vie privée dans diverses catégories, notamment les fournisseurs de courrier électronique (généralement payants) qui ne sont pas gérés par les grands géants du web.
 
@@ -22,11 +33,11 @@ L'objectif de Privacy Guides est d'éduquer notre communauté sur l'importance d
 
 — [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Traduit du néerlandais]
 
-Également présenté sur : [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], et [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
+Également présenté sur : [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], [NPO Radio 1](https://www.nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), et [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
 
 ## Histoire
 
-Privacy Guides a été lancé en septembre 2021 dans le prolongement du projet éducatif open source [défunt](privacytools.md) « PrivacyTools ». Nous avons reconnu l’importance de recommandations indépendantes, axées sur des critères, et de connaissances générales dans l’environnement de la protection de la vie privée. C'est pourquoi nous avions besoin de préserver le travail qui avait été créé par tant de contributeurs depuis 2015, et être sûr que ces informations aient une place stable sur le web indéfiniment.
+Privacy Guides a été lancé en septembre 2021 dans le prolongement du projet éducatif open-source "PrivacyTools", aujourd'hui [disparu](privacytools.md). Nous avons reconnu l’importance de recommandations indépendantes, axées sur des critères, et de connaissances générales dans l’environnement de la protection de la vie privée. C'est pourquoi nous avions besoin de préserver le travail qui avait été créé par tant de contributeurs depuis 2015, et être sûr que ces informations aient une place stable sur le web indéfiniment.
 
 En 2022, nous avons achevé la transition de l'environnement de site web principal de Jekyll à MkDocs, en utilisant le logiciel de documentation `mkdocs-material`. Ce changement a rendu les contributions open source à notre site considérablement plus facile pour les personnes extérieures, parce qu'au lieu d'avoir besoin de connaître une syntaxe complexe pour écrire des messages efficacement, contribuer est maintenant aussi simple que d'écrire un document Markdown standard.
 
@@ -82,7 +93,9 @@ Les membres de notre équipe examinent toutes les modifications apportées au si
 
 ## Licence de site
 
-*Ce qui suit est un résumé lisible par l'homme de la [licence](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE) (et ne se substitue pas à celle-ci) :*
+!!! danger ""
+
+    Ce qui suit est un résumé lisible par l'homme de la [licence](/license) (et ne se substitue pas à celle-ci).
 
 :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Sauf indication contraire, le contenu original de ce site web est mis à disposition sous la [licence publique internationale Creative Commons Attribution-NoDerivatives 4.0](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Cela signifie que vous êtes libre de copier et de redistribuer le matériel sur n'importe quel support ou dans n'importe quel format, à n'importe quelle fin, même commerciale, pour autant que vous accordiez le crédit approprié à `Privacy Guides (www.privacyguides.org)` et que vous fournissiez un lien vers la licence. Vous pouvez le faire de toute manière raisonnable, mais pas d'une manière qui suggère que Privacy Guides vous approuve ou approuve votre utilisation. Si vous remixez, transformez ou construisez sur le contenu de ce site web, vous n'êtes pas autorisé à distribuer le matériel modifié.
 

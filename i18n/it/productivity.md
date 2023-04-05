@@ -158,7 +158,7 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
 
 In general, we define office suites as applications which could reasonably act as a replacement for Microsoft Word for most needs.
 
-- Must be cross-platform.
+- Deve essere multi-piattaforma.
 - Deve essere un software open-source.
 - Must function offline.
 - Must support editing documents, spreadsheets, and slideshows.

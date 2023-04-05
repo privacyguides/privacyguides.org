@@ -6,11 +6,19 @@ description: Tor es una red descentralizada y gratuita diseñada para utilizar I
 
 Tor es una red descentralizada y gratuita diseñada para utilizar Internet con la mayor privacidad posible. Si se utiliza correctamente, la red permite la navegación y las comunicaciones privadas y anónimas.
 
-## Construcción de ruta
+## Creación de Rutas a los Servicios Clearnet
 
-Tor funciona enrutando tu tráfico a través de una red compuesta por miles de servidores gestionados por voluntarios llamados nodos (o repetidores).
+Los "servicios Clearnet" son sitios web a los que puedes acceder con cualquier navegador, como [privacyguides.org](https://www.privacyguides.org). Tor te permite conectarte a estos sitios web de forma anónima enrutando tu tráfico a través de una red compuesta por miles de servidores gestionados por voluntarios llamados nodos (o repetidores).
 
-Cada vez que te conectes a Tor, elegirá tres nodos para construir una ruta a Internet-esta ruta se llama "circuito." Cada uno de estos nodos tiene su propia función:
+Cada vez que [te conectes a Tor](../tor.md), este elegirá tres nodos para construir una ruta a Internet-esta ruta se llama "circuito"
+
+<figure markdown>
+  ![Ruta de Tor que muestra tu dispositivo conectándose a un nodo de entrada, un nodo medio y un nodo de salida antes de llegar al sitio web de destino](../assets/img/how-tor-works/tor-path.svg#only-light)
+  ![Ruta de Tor que muestra tu dispositivo conectándose a un nodo de entrada, un nodo medio y un nodo de salida antes de llegar al sitio web de destino](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Ruta del circuito de Tor</figcaption>
+</figure>
+
+Cada uno de estos nodos tiene su propia función:
 
 ### El nodo de entrada
 
@@ -30,10 +38,16 @@ El nodo de salida es el punto en el que tu tráfico web abandona la red Tor y es
 
 El nodo de salida será elegido al azar de entre todos los nodos Tor disponibles ejecutados con una bandera de retransmisión de salida.[^2]
 
-<figure markdown>
-  ![Tor path](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Ruta del circuito de tor</figcaption>
+## Creación de Rutas a los Servicios Onion
+
+Los "Servicios Onion" (también conocidos comúnmente como "servicios ocultos") son sitios web a los que solo se puede acceder mediante el navegador Tor. Estos sitios web tienen un nombre de dominio largo generado aleatoriamente que termina en `.onion`.
+
+Conectarse a un Servicio Onion en Tor funciona de forma muy similar a conectarse a un servicio clearnet, pero tu tráfico se enruta a través de un total de **seis nodos** antes de llegar al servidor de destino. Sin embargo, al igual que antes, solo tres de estos nodos contribuyen a *tu* anonimato, los otros tres nodos protegen el anonimato del *Servicio Onion*, ocultando la verdadera IP y la ubicación del sitio web de la misma manera que Tor Browser oculta la tuya.
+
+<figure style="width:100%" markdown>
+  ![Ruta de Tor que muestra tu tráfico siendo enrutado a través de tus tres nodos Tor más tres nodos Tor adicionales que ocultan la identidad del sitio web](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Ruta de Tor que muestra tu tráfico siendo enrutado a través de tus tres nodos Tor más tres nodos Tor adicionales que ocultan la identidad del sitio web](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Ruta del circuito de Tor con Servicios Onion. Los nodos de la valla <span class="pg-blue">azul</span> pertenecen a tu navegador, mientras que los nodos de la valla <span class="pg-red">roja</span> pertenecen al servidor, por lo que su identidad está oculta para ti.</figcaption>
 </figure>
 
 ## Cifrado

@@ -140,7 +140,7 @@ Il comando impedirà a un malintenzionato di aggirare l'MFA all'avvio del comput
 
 ### Linux
 
-!!! warning "Avviso"
+!!! warning
 
     Se il nome dell'host del sistema cambia (ad esempio a causa del DHCP), non sarà possibile effettuare il login. È fondamentale impostare un hostname corretto per il computer prima di seguire questa guida.
 

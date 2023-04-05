@@ -73,7 +73,7 @@ Following this, BurungHantu made false accusations about Jonah stealing donation
 
 BurungHantu also made a [twitter post](https://twitter.com/privacytoolsIO/status/1510560676967710728) alleging that an "attorney" had reached out to him on Twitter and was providing advice, in another attempt to bully us into giving him control of our subreddit, and as part of his smear campaign to muddy the waters surrounding the launch of Privacy Guides while pretending to be a victim.
 
-## PrivacyTools.io Now
+## PrivacyTools.io Ora
 
 As of September 25th 2022 we are seeing BurungHantu's overall plans come to fruition on privacytools.io, and this is the very reason we decided to create this explainer page today. The website he is operating appears to be a heavily SEO-optimized version of the site which recommends tools in exchange for financial compensation. Very recently, IVPN and Mullvad, two VPN providers near-universally [recommended](../vpn.md) by the privacy community and notable for their stance against affiliate programs were removed from PrivacyTools. In their place? NordVPN, Surfshark, ExpressVPN, and hide.me; Giant VPN corporations with untrustworthy platforms and business practices, notorious for their aggressive marketing and affiliate programs.
 

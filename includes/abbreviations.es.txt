@@ -1,4 +1,4 @@
-*[2FA]: Autenticación de doble factor
+*[2FA]: Autenticación de Doble Factor
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[ATA]: Adjunto de Tecnología Avanzada
@@ -19,7 +19,7 @@
 *[ECS]: Subred de Cliente EDNS
 *[EEA]: Espacio Económico Europeo
 *[entropy]: Una medición de qué tan impredecible puede ser algo
-*[EOL]: Fin de vida
+*[EOL]: Fin de Vida
 *[Exif]: Formato de imagen de archivo intercambiable
 *[FCM]: Mensajería virtual Firebase Cloud Messaging
 *[FDE]: Cifrado de disco completo
@@ -37,7 +37,7 @@
 *[hypervisor]: Software, firmware o hardware informático que reparte los recursos de una CPU entre varios sistemas operativos
 *[ICCID]: Identificador de tarjeta de circuito integrado
 *[IMAP]: Protocolo de acceso a mensajes de Internet
-*[IMEI]: Identidad internacional de equipos móviles
+*[IMEI]: Identidad Internacional de Equipos Móviles
 *[IMSI]: Identidad de suscriptor móvil internacional
 *[IP]: Protocolo de internet
 *[IPv4]: Protocolo de Internet versión 4
@@ -45,33 +45,33 @@
 *[ISP]: Proveedor de servicio de internet
 *[ISPs]: Proveedores de servicio de internet
 *[JNI]: Interfaz nativa de Java
-*[KYC]: Know Your Customer
+*[KYC]: Conoce a Tu Cliente
 *[LUKS]: Configuración de clave unificada Linux (cifrado de disco completo)
-*[MAC]: Media Access Control
-*[MDAG]: Microsoft Defender Application Guard
-*[MEID]: Mobile Equipment Identifier
-*[MFA]: Autenticación de múltiples factores
-*[NVMe]: Nonvolatile Memory Express
-*[NTP]: Network Time Protocol
-*[OCI]: Open Container Initiative
-*[OCSP]: Online Certificate Status Protocol
-*[OEM]: Original Equipment Manufacturer
-*[OEMs]: Original Equipment Manufacturers
-*[OS]: Operating System
-*[OTP]: One-Time Password
-*[OTPs]: One-Time Passwords
-*[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
-*[P2P]: Peer-to-Peer
-*[PAM]: Linux Pluggable Authentication Modules
-*[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
-*[PII]: Personally Identifiable Information
-*[QNAME]: Qualified Name
-*[rolling release]: Updates which are released frequently rather than set intervals
-*[RSS]: Really Simple Syndication
-*[SELinux]: Security-Enhanced Linux
-*[SIM]: Subscriber Identity Module
-*[SMS]: Short Message Service (standard text messaging)
+*[MAC]: Control de Acceso a los Medios
+*[MDAG]: Protección de aplicaciones de Microsoft Defender
+*[MEID]: Identificador de Equipo Móvil
+*[MFA]: Autenticación de Múltiples Factores
+*[NVMe]: Memoria No Volátil Express
+*[NTP]: Protocolo de Tiempo de Red
+*[OCI]: Iniciativa de Contenedor Abierto
+*[OCSP]: Protocolo del Estado del Certificado de Línea
+*[OEM]: Fabricante Original de Equipo
+*[OEMs]: Fabricantes Originales de Equipos
+*[OS]: Sistema Operativo
+*[OTP]: Contraseña de un solo uso
+*[OTPs]: Contraseña de un solo uso
+*[OpenPGP]: Aplicación de código abierto de Pretty Good Privacy (PGP)
+*[P2P]: Peer-to-peer (red de pares)
+*[PAM]: Módulos de Autenticación Conectables a Linux
+*[POP3]: Protocol 3 de recepción de correo
+*[PGP]: Privacidad bastante buena (ver OpenPGP)
+*[PII]: Información Personalmente Identificable
+*[QNAME]: Nombre Cualificado
+*[rolling release]: Actualizaciones que se publican frecuentemente en lugar de intervalos establecidos
+*[RSS]: Sindicación Realmente Sencilla
+*[SELinux]: Linux con Seguridad Mejorada
+*[SIM]: Módulo de Identidad del Suscriptor
+*[SMS]: Servicio de Mensajes Cortos (mensajería de texto estándar)
 *[SMTP]: Protocolo simple de transferencia de correo
 *[SNI]: Indicación del Nombre del Servidor
 *[SSD]: Unidad de disco duro de estado sólido

@@ -1,32 +1,32 @@
 ---
-title: "Real-Time Communication"
+title: "Gerçek Zamanlı İletişim"
 icon: material/chat-processing
-description: Other instant messengers make all of your private conversations available to the company that runs them.
+description: Diğer anlık mesajlaşma uygulamaları, tüm özel konuşmalarınızı kendilerini işleten şirketin kullanımına sunuyor.
 ---
 
-These are our recommendations for encrypted real-time communication.
+Bunlar, şifrelenmiş gerçek zamanlı iletişim için önerilerimizdir.
 
-[Types of Communication Networks :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
+[İletişim Ağı Türleri :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 
-## Encrypted Messengers
+## Şifrelenmiş Mesajlaşma Uygulamaları
 
-These messengers are great for securing your sensitive communications.
+Bu mesajlaşma uygulamaları hassas iletişimlerinizi güvence altına almak için harikadır.
 
 ### Signal
 
 !!! öneri
 
-    ![Signal logo](assets/img/messengers/signal.svg){ align=right }
+    ![Signal logosu](assets/img/messengers/signal.svg){ align=right }
     
-    **Signal** is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling.
+    **Signal**, Signal Messenger LLC tarafından geliştirilen bir mobil uygulamadır. Uygulama anlık mesajlaşmanın yanı sıra sesli ve görüntülü arama da sağlıyor.
     
-    All communications are E2EE. Contact lists are encrypted using your Signal PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts you chat with.
+    Tüm iletişimler uçtan uca şifrelemeye sahiptir. Kişileriniz Signal PIN'iniz kullanılarak şifrelenir ve sunucunun bunlara erişimi yoktur. Profiller de şifrelenir ve yalnızca sohbet ettiğiniz kişilerle paylaşılır.
     
-    [:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
+    [:octicons-home-16: Ana Sayfa](https://signal.org/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Gizlilik Politikası" }
+    [:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Dokümantasyon}
+    [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Kaynak Kodu" }
+    [:octicons-heart-16:](https://signal.org/donate/){ .card-link title="Katkıda Bulun" }
     
     ??? downloads
     
@@ -37,11 +37,11 @@ These messengers are great for securing your sensitive communications.
         - [:simple-apple: macOS](https://signal.org/download/macos)
         - [:simple-linux: Linux](https://signal.org/download/linux)
 
-Signal supports [private groups](https://signal.org/blog/signal-private-group-system/). The server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender/) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server. Sealed Sender is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam. Signal requires your phone number as a personal identifier.
+Signal [özel grupları](https://signal.org/blog/signal-private-group-system/) destekler. Sunucuda grup üyeliklerinizin, grup adlarınızın, grup fotoğraflarınızın veya grup özelliklerinizin kaydı yoktur. [Gizli Gönderici](https://signal.org/blog/sealed-sender/) etkinleştirildiğinde Signal, en aza indirgenmiş metadata'ya sahiptir. Gönderenin adresi mesajla birlikte şifrelenir ve sunucu tarafından yalnızca alıcı adresi görülebilir. Gizli Gönderici varsayılan olarak yalnızca kişileriniz için etkindir ancak spam alma riskini arttırmakla beraber tüm alıcılar için etkinleştirilebilir. Signal, kişisel tanımlayıcı olarak telefon numaranızı gerektirir.
 
-The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs/).
+Protokol 2016 yılında bağımsız olarak [denetlenmiştir](https://eprint.iacr.org/2016/1013.pdf). Signal protokolünün özellikleri [dokümantasyonunda](https://signal.org/docs/) bulunabilir.
 
-We have some additional tips on configuring and hardening your Signal installation:
+Signal kurulumunuzu yapılandırma ve sağlamlaştırma konusunda bazı ek ipuçlarımız var:
 
 [Signal Configuration and Hardening :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/)
 

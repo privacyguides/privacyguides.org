@@ -1,5 +1,5 @@
 ---
-title: Email Security
+title: Sicurezza Email
 icon: material/email
 description: Email is inherently insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
 ---
@@ -32,7 +32,7 @@ Email metadata is stored in the [message header](https://en.wikipedia.org/wiki/E
 
 Client software may use email metadata to show who a message is from and what time it was received. Servers may use it to determine where an email message must be sent, among [other purposes](https://en.wikipedia.org/wiki/Email#Message_header) which are not always transparent.
 
-### Who Can View Email Metadata?
+### Chi può visualizzare i metadati delle email?
 
 Email metadata is protected from outside observers with [Opportunistic TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS) protecting it from outside observers, but it is still able to be seen by your email client software (or webmail) and any servers relaying the message from you to any recipients including your email provider. Sometimes email servers will also use third-party services to protect against spam, which generally also have access to your messages.
 

@@ -24,7 +24,7 @@ A volte i servizi tentano di costringerti ad iscriverti ad un account bloccando 
     [:octicons-info-16:](https://codeberg.org/librarian/librarian/wiki){ .card-link title=Documentazione}
     [:octicons-code-16:](https://codeberg.org/librarian/librarian){ .card-link title="Codice sorgente" }
 
-!!! warning "Avviso"
+!!! warning
 
     Librarian non fa da proxy dei video in modo predefinito. I video guardati attraverso Librarian continueranno a collegarsi direttamente ai server di Odysee (ad esempio, `odycdn.com`); tuttavia, alcune istanze possono abilitare il proxying, che sarà descritto in dettaglio nell'informativa sulla privacy dell'istanza.
 
@@ -112,7 +112,7 @@ Quando utilizza un'istanza di ProxiTok, assicurati di leggere l'informativa sull
         - [:simple-linux: Linux](https://freetubeapp.io/#download)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
 
-!!! warning "Avviso"
+!!! warning
 
     Quando utilizzi FreeTube, l'indirizzo IP potrebbe essere ancora noto a YouTube, [Invidious](https://instances.invidious.io) o [SponsorBlock](https://sponsor.ajay.app/) a seconda della configurazione. Considera l'uso di [VPN](vpn.md) o [Tor](https://www.torproject.org) se il [modello di minaccia](basics/threat-modeling.md) richiede di nascondere l'indirizzo IP.
 
@@ -137,7 +137,7 @@ Quando utilizza un'istanza di ProxiTok, assicurati di leggere l'informativa sull
         - [:simple-apple: App Store](https://apps.apple.com/us/app/yattee/id1595136629)
         - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
 
-!!! warning "Avviso"
+!!! warning
 
     When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Considera l'uso di [VPN](vpn.md) o [Tor](https://www.torproject.org) se il [modello di minaccia](basics/threat-modeling.md) richiede di nascondere l'indirizzo IP.
 
@@ -163,7 +163,7 @@ By default, Yattee blocks all YouTube advertisements. In addition, Yattee option
     
         - [:simple-github: GitHub](https://github.com/libre-tube/LibreTube/releases)
 
-!!! warning "Avviso"
+!!! warning
 
     When using LibreTube, your IP address will be visible to the [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) instance you choose and/or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Considera l'uso di [VPN](vpn.md) o [Tor](https://www.torproject.org) se il [modello di minaccia](basics/threat-modeling.md) richiede di nascondere l'indirizzo IP.
 
@@ -212,7 +212,7 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
     [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Codice sorgente" }
     [:octicons-heart-16:](https://invidious.io/donate/){ .card-link title=Contribuisci }
 
-!!! warning "Avviso"
+!!! warning
 
     Invidious non esegue il proxy dei video in modo predefinito. I video guardati attraverso Invidious continueranno a collegarsi direttamente ai server di Google (ad esempio, `googlevideo.com`); tuttavia, alcune istanze supportano il proxy video: è sufficiente attivare *Proxy video* nelle impostazioni dell'istanza o aggiungere `&local=true` all'URL.
 

@@ -1,7 +1,7 @@
 ---
-title: "Creación De Cuenta"
+title: "Creación de cuenta"
 icon: 'material/account-plus'
-description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
+description: Crear cuentas en línea es prácticamente una necesidad en Internet, sigue estos pasos para asegurarte de mantener tu privacidad.
 ---
 
 A menudo la gente se inscribe en servicios sin pensar. Tal vez sea un servicio de streaming para que puedas ver ese nuevo show del que todo el mundo habla, o una cuenta que te da un descuento para tu lugar de comida rápida favorito. Sea cual sea el caso, debes tener en cuenta las implicaciones que tednrá para tus datos ahora y más adelante.
@@ -46,36 +46,36 @@ Si un servicio es hackeado, puede que usted comience a recibir correos engañoso
 
 ### Inicio de sesión único
 
-!!! note
+!!! Nota
 
-    We are discussing Single sign-on for personal use, not enterprise users.
+    Estamos hablando del inicio de sesión único para uso personal, no para usuarios empresariales.
 
-Single sign-on (SSO) is an authentication method that allows you to register for a service without sharing much information, if any. Whenever you see something along the lines of "Sign-in with *provider name*" on a registration form it's SSO.
+El inicio de sesión único (SSO) es un método de autenticación que permite registrarse en un servicio sin compartir mucha información, si es que se comparte alguna. Siempre que veas algo parecido a "Inicie sesión con *nombre del proveedor*" en un formulario de registro, se trata de SSO.
 
-When you choose single sign-on in a website, it will prompt your SSO provider login page and after that your account will be connected. Your password won't be shared but some basic information will (you can review it during the login request). This process is needed every time you want to log in to the same account.
+Cuando elijas el inicio de sesión único en un sitio web, te mostrará la página de inicio de sesión de tu proveedor de SSO y, a continuación, se conectará tu cuenta. No se compartirá tu contraseña, pero sí algunos datos básicos (puedes revisarlos durante la solicitud de inicio de sesión). Este proceso es necesario cada vez que quieres iniciar sesión en la misma cuenta.
 
-The main advantages are:
+Las principales ventajas son:
 
-- **Security**: no risk of being involved in a [data breach](https://en.wikipedia.org/wiki/Data_breach) because the website does not store your credentials.
-- **Ease of use**: multiple accounts are managed by a single login.
+- **Seguridad**: no hay riesgo de verse implicado en una [violación de datos ](https://en.wikipedia.org/wiki/Data_breach) porque el sitio web no almacena tus credenciales.
+- **Facilidad de uso**: varias cuentas se gestionan con un solo inicio de sesión.
 
-But there are disadvantages:
+Pero hay desventajas:
 
-- **Privacy**: a SSO provider will know the services you use.
-- **Centralization**: if your SSO account gets compromised or you aren't able to login to it, all other accounts connected to it are affected.
+- **Privacidad**: un proveedor de SSO conocerá los servicios que utilizas.
+- **Centralización**: si tu cuenta SSO se ve comprometida o no puedes iniciar sesión en ella, todas las demás cuentas conectadas a ella se verán afectadas.
 
-SSO can be especially useful in those situations where you could benefit from deeper integration between services. For example, one of those services may offer SSO for the others. Our recommendation is to limit SSO to only where you need it and protect the main account with [MFA](multi-factor-authentication.md).
+SSO puede ser especialmente útil en aquellas situaciones en las que podrías beneficiarte de una integración más profunda entre servicios. Por ejemplo, uno de esos servicios puede ofrecer SSO para los demás. Nuestra recomendación es limitar el SSO sólo donde lo necesites y proteger la cuenta principal con [MFA](multi-factor-authentication.md).
 
-All services that use SSO will be as secure as your SSO account. For example, if you want to secure an account with a hardware key but that service doesn't support hardware keys, you can secure your SSO account with a hardware key and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your SSO account means that any account tied to that login will also be weak.
+Todos los servicios que utilicen SSO serán tan seguros como tu cuenta SSO. Por ejemplo, si deseas proteger una cuenta con una clave de hardware, pero ese servicio no admite claves de hardware, puedes proteger tu cuenta SSO con una clave de hardware y ahora tendrás esencialmente MFA por hardware en todas tus cuentas. Vale la pena señalar, sin embargo, que una autenticación débil en tu cuenta SSO significa que cualquier cuenta vinculada a ese inicio de sesión también será débil.
 
-### Phone number
+### Número de teléfono
 
-We recommend avoiding services that require a phone number for sign up. A phone number can identity you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
+Recomendamos evitar los servicios que exigen un número de teléfono para darse de alta. Un número de teléfono puede identificarte en múltiples servicios y, dependiendo de los acuerdos de intercambio de datos, esto hará que su uso sea más fácil de rastrear, sobre todo si uno de esos servicios es violado, ya que el número de teléfono **no** suele estar encriptado.
 
-You should avoid giving out your real phone number if you can. Some services will allow the use of VOIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
+Si puedes, evita dar tu número de teléfono real. Algunos servicios permiten el uso de números VOIP, pero a menudo activan los sistemas de detección de fraude y provocan el bloqueo de la cuenta, por lo que no lo recomendamos para cuentas importantes.
 
-In many cases you will need to provide a number that you can receive SMS or calls from, particularly when shopping internationally, in case there is a problem with your order at border screening. It's common for services to use your number as a verification method; don't let yourself get locked out of an important account because you wanted to be clever and give a fake number!
+En muchos casos, tendrás que facilitar un número desde el que puedas recibir SMS o llamadas, sobre todo cuando hagas compras internacionales, por si hay algún problema con tu pedido en el control fronterizo. Es habitual que los servicios utilicen tu número como método de verificación; ¡no dejes que te bloqueen una cuenta importante por haber querido pasarte de listo y dar un número falso!
 
-### Username and password
+### Nombre de usuario y contraseña
 
-Some services allow you to register without using an email address and only require you to set a username and password. These services may provide increased anonymity when combined with a VPN or Tor. Keep in mind that for these accounts there will most likely be **no way to recover your account** in the event you forget your username or password.
+Algunos servicios permiten registrarse sin utilizar una dirección de correo electrónico y sólo exigen que establezcas un nombre de usuario y una contraseña. Estos servicios pueden proporcionar un mayor anonimato cuando se combinan con una VPN o Tor. Ten en cuenta que para estas cuentas lo más probable es que no haya **ninguna forma de recuperar tu cuenta** en caso de que olvides tu nombre de usuario o contraseña.

@@ -1,10 +1,10 @@
 ---
-title: "VPN Services"
+title: "خِدْمَات شبكة خاصة افتراضية"
 icon: material/vpn
-description: These are the best VPN services for protecting your privacy and security online. Find a provider here that isn’t out to spy on you.
+description: هذه هي أفضل خِدْمَات شبكة خاصة افتراضية للمحافظة خصوصيتك وأمانك على الإنترنت. اعثر على مزود للخدمة هنا ليس يريد التجسس عليك.
 ---
 
-If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you as long as you understand the risks involved. We think these providers are a cut above the rest:
+إذا كنت تبحث عن **خصوصية** إضافية من مزود خدمة الإنترنت لك، أو عندما تتصل بشبكة واي-فاي عامة، أو في أثناء استخدامك لشبكة تورنت، قد يكون استخدام شبكة خاصة افتراضية هو الحل بالنسبة لك ما دمت على دراية بالمخاطر المترتبة على ذلك. نعتقد بأن هؤلاء هم أفضل المزودين:
 
 <div class="grid cards" markdown>
 
@@ -26,7 +26,7 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
 
 [Detailed VPN Overview :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
-## Recommended Providers
+## موفِّرو الخدمة الموصى بهم
 
 Our recommended providers use encryption, accept Monero, support WireGuard & OpenVPN, and have a no logging policy. Read our [full list of criteria](#criteria) for more information.
 
@@ -90,7 +90,7 @@ In addition to providing standard OpenVPN configuration files, IVPN has mobile c
 
 IVPN clients support two factor authentication (Mullvad's clients do not). IVPN also provides "[AntiTracker](https://www.ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
 
-### Mullvad
+### ملفاد
 
 !!! recommendation
 

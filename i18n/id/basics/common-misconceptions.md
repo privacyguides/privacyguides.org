@@ -2,6 +2,40 @@
 title: "Kesalahpahaman Umum"
 icon: 'material/robot-confused'
 description: Privasi bukanlah topik yang mudah, dan mudah sekali terjebak dalam klaim pemasaran dan disinformasi lainnya.
+schema:
+  - 
+    "@context": https://schema.org
+    "@type": FAQPage
+    mainEntity:
+      - 
+        "@type": Question
+        name: Is open source software inherently secure?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Whether the source code is available and how software is licensed does not inherently affect its security in any way. Open-source software has the potential to be more secure than proprietary software, but there is absolutely no guarantee this is the case. When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+      - 
+        "@type": Question
+        name: Can shifting trust to another provider increase privacy?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Kami banyak membicarakan tentang "pergeseran kepercayaan" saat membahas solusi seperti VPN (yang menggeser kepercayaan yang Anda tempatkan pada ISP Anda ke penyedia VPN). While this protects your browsing data from your ISP specifically, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties.
+      - 
+        "@type": Question
+        name: Are privacy-focused solutions inherently trustworthy?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Berfokus hanya pada kebijakan privasi dan pemasaran sebuah alat atau penyedia layanan bisa membutakan Anda terhadap kelemahannya. Ketika Anda mencari solusi yang lebih pribadi, Anda harus menentukan apa masalah yang mendasarinya dan menemukan solusi teknis untuk masalah tersebut. Sebagai contoh, Anda mungkin ingin menghindari Google Drive, yang memberikan akses ke semua data Anda kepada Google. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like Cryptomator) which provides E2EE on any cloud provider. Beralih ke penyedia yang "berfokus pada privasi" (yang tidak menerapkan E2EE) tidak akan menyelesaikan masalah Anda: ini hanya mengalihkan kepercayaan dari Google ke penyedia tersebut.
+      - 
+        "@type": Question
+        name: How complicated should my threat model be?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Kami sering melihat orang menggambarkan model ancaman privasi yang terlalu rumit. Sering kali, solusi ini mencakup masalah seperti banyak akun email yang berbeda atau pengaturan yang rumit dengan banyak bagian dan kondisi yang bergerak. The replies are usually answers to "What is the best way to do X?"
+            Menemukan solusi "terbaik" untuk diri Anda sendiri tidak selalu berarti Anda mencari solusi yang sempurna dengan lusinan kondisi—solusi ini sering kali sulit untuk diterapkan secara realistis. Seperti yang telah kami bahas sebelumnya, keamanan sering kali mengorbankan kenyamanan.
 ---
 
 ## "Perangkat lunak sumber terbuka selalu aman" atau "Perangkat lunak sumber tertutup lebih aman"

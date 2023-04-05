@@ -72,7 +72,7 @@ Proton Mail [accepteert](https://proton.me/support/payment-options) contant geld
 
 #### :material-check:{ .pg-green } Accountbeveiliging
 
-Proton Mail ondersteunt alleen TOTP [tweefactorauthenticatie](https://proton.me/support/two-factor-authentication-2fa). Het gebruik van een U2F beveiligingssleutel wordt nog niet ondersteund. Proton Mail is van plan U2F te implementeren na voltooiing van hun [Single Sign On (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/) code.
+Proton Mail ondersteunt TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) en [hardware security keys](https://proton.me/support/2fa-security-key) met behulp van FIDO2 of U2F standaarden. Voor het gebruik van een hardware beveiligingssleutel moet eerst TOTP tweefactorauthenticatie worden ingesteld.
 
 #### :material-check:{ .pg-green } Gegevensbeveiliging
 

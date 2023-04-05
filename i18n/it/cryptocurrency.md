@@ -1,5 +1,5 @@
 ---
-title: Cryptocurrency
+title: Criptovaluta
 icon: material/bank-circle
 ---
 

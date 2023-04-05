@@ -1,7 +1,7 @@
 ---
-title: "Autenticación de múltiples factores"
+title: "Autenticación de Múltiples Factores"
 icon: 'material/two-factor-authentication'
-description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
+description: La MFA es un mecanismo de seguridad fundamental para proteger sus cuentas en línea, pero algunos métodos son más eficaces que otros.
 ---
 
 **La autenticación multifactorial** (**MFA**) es un mecanismo de seguridad que requiere pasos adicionales a la introducción del nombre de usuario (o correo electrónico) y la contraseña. El método más común son los códigos de tiempo limitado que puedes recibir de un SMS o una aplicación.
@@ -140,7 +140,7 @@ El comando evitará que un adversario se salte la MFA al arrancar el ordenador.
 
 ### Linux
 
-!!! warning
+!!! Advertencia
 
     Si el nombre de host de tu sistema cambia (por ejemplo, debido al DHCP), no podrás iniciar sesión. Es vital que configures un nombre de host adecuado para tu ordenador antes de seguir esta guía.
 

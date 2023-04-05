@@ -48,6 +48,6 @@ En última instancia, Monero es el principal candidato para una criptomoneda ami
 
 !!! ejemplo "Esta sección es nueva"
 
-    Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujero a cambios. Si tiene alguna pregunta sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no consideramos algo, cuando una recomendación no está listada aquí. Hay muchos factores considerados y discutidos cuando recomendamos un proyecto, y documentamos cada uno como un trabajo en proceso.
+    Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tiene alguna pregunta sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no consideramos algo, cuando una recomendación no está listada aquí. Hay muchos factores considerados y discutidos cuando recomendamos un proyecto, y documentamos cada uno como un trabajo en proceso.
 
 - Las criptomonedas deben brindar transacciones privadas o imposibles de rastrear por defecto.

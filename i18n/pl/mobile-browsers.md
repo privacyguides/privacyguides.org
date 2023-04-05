@@ -2,6 +2,37 @@
 title: "Przeglądarki mobilne"
 icon: octicons/device-mobile-16
 description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": WebPage
+    name: Private Mobile Browser Recommendations
+    url: "./"
+    relatedLink: "../desktop-browsers/"
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Brave
+    image: /assets/img/browsers/brave.svg
+    url: https://brave.com
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Android
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Safari
+    image: /assets/img/browsers/safari.svg
+    url: https://www.apple.com/safari/
+    applicationCategory: Web Browser
+    operatingSystem:
+      - iOS
+    subjectOf:
+      "@type": WebPage
+      url: "./"
 ---
 
 Oto obecnie polecane przez nas przeglądarki mobilne oraz ich konfiguracje. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. Ogólnie rzecz biorąc, zalecamy ograniczenie rozszerzeń do minimum; posiadają one uprzywilejowany dostęp do Twojej przeglądarki, wymagają zaufania do twórcy, mogą wspomóc [personalizowanie](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint) oraz [osłabić](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) izolację witryn.

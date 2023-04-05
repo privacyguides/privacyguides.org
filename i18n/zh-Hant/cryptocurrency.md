@@ -1,53 +1,53 @@
 ---
-title: Cryptocurrency
+title: 加密貨幣
 icon: material/bank-circle
 ---
 
-Making payments online is one of the biggest challenges to privacy. These cryptocurrencies provide transaction privacy by default (something which is **not** guaranteed by the majority of cryptocurrencies), provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:
+線上支付是隱私面臨的最大挑戰之一。 下列加密貨幣預設提供交易隱私（大多數加密貨幣**並未保證**如此 ），前提是您對如何有效地進行私人支付有深入了解。 我們強烈建議您在網路購買前先閱讀本站私密付款之介紹：
 
-[Making Private Payments :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
+[私密付款 :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-!!! danger
+!!! 危險
 
-    Many if not most cryptocurrency projects are scams. Make transactions carefully with only projects you trust.
+    許多（如果不是大多數）加密貨幣項目都是騙局。 只用你信任的項目小心進行交易。
 
 ## Monero
 
 !!! recommendation
 
-    ![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
+    ! [Monero 標誌] (assets/img/cryptocurrency/monero.svg) {align = right}
     
-    **Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve anonymity. Every Monero transaction hides the transaction amount, sending and receiving addresses, and source of funds without any hoops to jump through, making it an ideal choice for cryptocurrency novices.
+    * * Monero * *使用增強隱私技術的區塊鏈，混淆交易以實現匿名性。 每筆 Monero 交易都隱藏了交易金額、發送和接收地址以及資金來源，使其成為加密貨幣新手的理想選擇。
     
     [:octicons-home-16: Homepage](https://www.getmonero.org/){ .md-button .md-button--primary }
     [:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribute }
 
-With Monero, outside observers cannot decipher addresses trading Monero, transaction amounts, address balances, or transaction histories.
+使用 Monero ，外部觀察者無法破譯 Monero  交易地址、交易金額、地址餘額或交易歷史。
 
-For optimal privacy, make sure to use a noncustodial wallet where the view key stays on the device. This means that only you will have the ability to spend your funds and see incoming and outgoing transactions. If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your private view key, the provider can see almost everything you do. Some noncustodial wallets include:
+為了獲得最佳的隱私，請務必使用非保管錢包，讓查看密鑰保留在設備上。 這意味著只有您能夠花費資金並查看交易進出。 若使用託管錢包，則服務商可看到**全部活動** ；如果用的是"輕量"錢包，則服務商保存了您的私鑰並看到您全部的交易活動。 一些非保管錢包包括：
 
-- [Official Monero client](https://getmonero.org/downloads) (Desktop)
+- [官方Monero客戶端](https://getmonero.org/downloads) （桌面）
 - [Cake Wallet](https://cakewallet.com/) (iOS, Android)
-    - Cake Wallet supports multiple cryptocurrencies. A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com/).
-- [Feather Wallet](https://featherwallet.org/) (Desktop)
+    - Cake Wallet 支援多種加密貨幣。 僅限 Monero 的 Cake Wallet 版本可在 [Monero.com](https://monero.com/) 上找到。
+- [Feather Wallet](https://featherwallet.org/) (桌面版)
 - [Monerujo](https://www.monerujo.io/) (Android)
 
-For maximum privacy (even with a noncustodial wallet), you should run your own Monero node. Using another person’s node will expose some information to them, such as the IP address that you connect to it from, the timestamps that you sync your wallet, and the transactions that you send from your wallet (though no other details about those transactions). Alternatively, you can connect to someone else’s Monero node over Tor or i2p.
+為了獲得最大的隱私（即便使用非保管錢包），您應該運行自己的 Monero 節點。 使用別人的節點會暴露一些信息，例如您從中連接到它的IP位址，同步錢包的時間戳記以及您從錢包發送的交易（儘管沒有關於這些交易的其他細節）。 或者，您可以通過Tor或i2p連接到其他人的Monero節點。
 
-In August 2021, CipherTrace [announced](https://finance.yahoo.com/news/ciphertrace-announces-enhanced-monero-tracing-160000275.html) enhanced Monero tracing capabilities for government agencies. Public postings show that the US Department of the Treasury's Financial Crimes Enforcement Network [licensed](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) CipherTrace's "Monero Module" in late 2022.
+2021年8月， CipherTrace [宣布爲政府機構提供](https://finance.yahoo.com/news/ciphertrace-announces-enhanced-monero-tracing-160000275.html) 增強的 Monero 追蹤功能。 公開貼文顯示，美國財政部金融犯罪執法網絡 [在2022年底授權](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) CipherTrace 的 “Monero 模塊”。
 
-Monero transaction graph privacy is limited by its relatively small ring signatures, especially against targeted attacks. Monero's privacy features have also been [called into question](https://web.archive.org/web/20180331203053/https://www.wired.com/story/monero-privacy/) by some security researchers, and a number of severe vulnerabilities have been found and patched in the past, so the claims made by organizations like CipherTrace are not out of the question. While it's unlikely that Monero mass surveillance tools exist like they do for Bitcoin and others, it's certain that tracing tools assist with targeted investigations.
+Monero 交易圖隱私受到其相對較小的環形簽名的限制，特別是抵抗針對性的攻擊。 Monero's 隱私功能也曾被某些資安研究人員 [質疑](https://web.archive.org/web/20180331203053/https://www.wired.com/story/monero-privacy/) ，過去已發現一些弱點與補丁，因此如 CipherTrace 的宣稱並非不可能。 雖然 Monero 大規模監控工具不太可能像比特幣和其他工具一樣存在，但可以肯定的是，追蹤工具有助於進行針對性的調查。
 
-Ultimately, Monero is the strongest contender for a privacy-friendly cryptocurrency, but its privacy claims have **not** been definitively proven one way or the other. More time and research is needed to assess whether Monero is resilient enough to attacks to always provide adequate privacy.
+Monero 是隱私友好的加密貨幣中最強大的競爭者，但它的隱私聲稱**尚未**被任何方式證明 。 需要更多的時間和研究來評估 Monero 是否足夠抵禦攻擊來提供足夠的隱私。
 
-## Criteria
+## 標準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**請注意，我們與所推薦專案沒有任何牽扯。 ** 除了 [我們的標準準則](about/criteria.md)外，還有一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! example "This section is new"
+!!! 示例“此部分是新的”
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    我們正在努力為網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 推薦項目時，我們會考慮與討論許多因素，且記錄下每一個項目種種工作流程。
 
-- Cryptocurrency must provide private/untraceable transactions by default.
+- 預設情況下，加密貨幣必須提供私密/無法追蹤的交易。

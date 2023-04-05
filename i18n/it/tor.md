@@ -1,7 +1,7 @@
 ---
 title: "Rete Tor"
 icon: simple/torproject
-description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+description: Proteggi la tua navigazione internet da occhi indiscreti utilizzando la rete Tor, una rete sicura che elude la censura.
 ---
 
 ![Logo Tor](assets/img/self-contained-networks/tor.svg){ align=right }
@@ -16,7 +16,7 @@ La rete **Tor** è un gruppo di server gestiti da volontari che permette di conn
 
 Tor funziona instradando il traffico internet attraverso questi server gestiti da volontari, invece di effettuare una connessione diretta al sito che si sta cercando di visitare. In questo modo si offusca la provenienza del traffico e nessun server nel percorso di connessione è in grado di vedere il percorso completo del traffico proveniente e diretto, il che significa che nemmeno i server utilizzati per connettersi possono violare l'anonimato.
 
-[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
+[Panoramica dettagliata di Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
 
 ## Connessione a Tor
 

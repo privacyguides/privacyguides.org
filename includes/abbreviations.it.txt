@@ -1,4 +1,4 @@
-*[2FA]: 2-Factor Authentication
+*[2FA]: Autenticazione a 2 fattori
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[ATA]: Advanced Technology Attachment
@@ -15,20 +15,20 @@
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[E2EE]: End-to-End Encryption/Encrypted
+*[E2EE]: Cifratura End-to-End
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area
-*[entropy]: A measurement of how unpredictable something is
+*[entropy]: Una misura dell'imprevedibilità di qualcosa
 *[EOL]: End-of-Life
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
-*[FDE]: Full Disk Encryption
+*[FDE]: Crittografia completa del disco
 *[FIDO]: Fast IDentity Online
-*[fork]: A new software project created by copying an existing project and adding to it independently
-*[GDPR]: General Data Protection Regulation
+*[fork]: Un nuovo progetto basato su un altro progetto già esistente con l'aggiunta di elementi indipendenti
+*[GDPR]: Regolamento generale per la protezione dei dati personali
 *[GPG]: GNU Privacy Guard (PGP implementation)
 *[GPS]: Global Positioning System
-*[GUI]: Graphical User Interface
+*[GUI]: Interfaccia grafica utente
 *[GnuPG]: GNU Privacy Guard (PGP implementation)
 *[HDD]: Hard Disk Drive
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
@@ -89,7 +89,7 @@
 *[U2F]: Universal 2nd Factor
 *[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: User Datagram Protocol
-*[VPN]: Virtual Private Network
+*[VPN]: Rete virtuale privata
 *[VoIP]: Voice over IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol

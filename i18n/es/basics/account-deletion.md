@@ -1,7 +1,7 @@
 ---
 title: "Eliminación de cuenta"
 icon: 'material/account-remove'
-description: It's easy to accumulate a large number of internet accounts, here are some tips on how to prune your collection.
+description: Es fácil acumular un gran número de cuentas de Internet, aquí tienes algunos consejos sobre cómo reducir tu colección.
 ---
 
 Con el tiempo, puede ser fácil acumular varias cuentas en línea, muchas de las cuales puede que ya no utilices. Eliminar estas cuentas que no utilizas es un paso importante para recuperar tu privacidad, ya que las cuentas inactivas son vulnerables a las filtraciones de datos. Una filtración de datos se da cuando la seguridad de un servicio se ve comprometida y la información protegida es vista, transmitida o robada por actores no autorizados. Desafortunadamente, las filtraciones de datos son [demasiado comunes](https://haveibeenpwned.com/PwnedWebsites) en estos días, por lo que practicar una buena higiene digital es la mejor manera de minimizar el impacto que tienen en tu vida. El objetivo de esta guía es ayudarte a atravesar el fastidioso proceso de eliminación de cuentas para mejorar tu presencia en línea, lo que es a menudo dificultado por [un diseño engañoso](https://www.deceptive.design/).
@@ -25,7 +25,7 @@ Los sistemas operativos también suelen tener un gestor de contraseñas que pued
 - iOS [Contraseñas](https://support.apple.com/en-us/HT211146)
 - Linux, Gnome Keyring, al que se puede acceder a través de [Seahorse](https://help.gnome.org/users/seahorse/stable/passwords-view.html.en) o [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager/es)
 
-### Proveedores de VPN
+### Correo Electrónico
 
 Si no utilizaste un gestor de contraseñas en el pasado o crees que tienes cuentas que nunca se añadieron a tu gestor de contraseñas, otra opción es buscar en la(s) cuenta(s) de correo electrónico en las que crees que te has registrado. En tu cliente de correo electrónico, busca palabras clave como "verificar" o "bienvenida" Casi siempre que se crea una cuenta en línea, el servicio envía un enlace de verificación o un mensaje introductorio a tu correo electrónico. Esta puede ser una buena manera de encontrar cuentas antiguas y olvidadas.
 

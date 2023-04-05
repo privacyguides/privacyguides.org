@@ -1,10 +1,10 @@
 ---
-title: "Frontends"
+title: "前端"
 icon: material/flip-to-front
-description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
+description: 這些用在各式網際網路服務的開源前端，可讓您訪問內容而無需 JavaScript 或其他干援。
 ---
 
-Sometimes services will try to force you to sign up for an account by blocking access to content with annoying popups. They might also break without JavaScript enabled. These frontends can allow you to get around these restrictions.
+有時，某些服務會以煩人的彈出窗口來封鎖訪問內容，強迫訪客須註冊帳戶。 如果不啓用JavaScript ，也可能會中斷。 這些前端可以讓您避開這些限制。
 
 ## LBRY
 
@@ -12,29 +12,29 @@ Sometimes services will try to force you to sign up for an account by blocking a
 
 !!! recommendation
 
-    ![Librarian logo](assets/img/frontends/librarian.svg#only-light){ align=right }
-    ![Librarian logo](assets/img/frontends/librarian-dark.svg#only-dark){ align=right }
+    ! [Librarian logo] (assets/img/frontends/librarian.svg#only-light) {align = right}
+    ! [Librarian logo] (assets/img/frontends/librarian-dark.svg#only-dark) {align = right}
     
-    **Librarian** is a free and open-source frontend for [Odysee](https://odysee.com/) (LBRY) that is also self-hostable.
+    * * Librarian * *是 [Odysee](https://odysee.com/) (LBRY)的免費開源前端，也是可自我託管的。
     
-    There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
+    有許多公共實例，其中一些實例支援 [Tor]（ https://www.torproject.org ）onion 服務。
     
     [:octicons-repo-16: Repository](https://codeberg.org/librarian/librarian){ .md-button .md-button--primary }
     [:octicons-server-16:](https://librarian.codeberg.page/){ .card-link title="Public Instances"}
     [:octicons-info-16:](https://codeberg.org/librarian/librarian/wiki){ .card-link title=Documentation}
     [:octicons-code-16:](https://codeberg.org/librarian/librarian){ .card-link title="Source Code" }
 
-!!! warning
+!!! 警告
 
-    Librarian does not proxy video streams by default. Videos watched through Librarian will still make direct connections to Odysee's servers (e.g. `odycdn.com`); however, some instances may enable proxying which would be detailed in the instance's privacy policy.
+    預設情況下，圖書館員不會代理影片串流。 透過 Libraria 觀看的影片仍可直接連接至 Odysee伺服器（例如 "odycdn.com"） ；然而某些情況下可能會啟用代理服務，詳情請參閱實例的隱私權政策。
 
-!!! tip
+!!! 提示
 
-    Librarian is useful if you want watch LBRY content on mobile without mandatory telemetry and if you want to disable JavaScript in your browser, as is the case with [Tor Browser](https://www.torproject.org/) on the Safest security level.
+    如果您希望在行動裝置上觀看 LBRY 內容而無需強制遙測，以及想要瀏覽器禁用 JavaScript ，例如 [Tor瀏覽器] （ https://www.torproject.org/ ）最安全的級別設置，Librarian 非常有用。
 
-When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Librarian, as other peoples' usage will be linked to your hosting.
+在自我出租時，重要的是要讓其他人使用您的實例，以便您融入其中。 謹慎處理 Librarian 的託管事宜，因為其他人的使用會與您的託管有很大關聯。
 
-When you are using a Librarian instance, make sure to read the privacy policy of that specific instance. Librarian instances can be modified by their owners and therefore may not reflect the default policy. Librarian instances feature a "privacy nutrition label" to provide an overview of their policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII.
+當使用 Libraian 實例時，請務必閱讀該實例的隱私權政策。 Librarian 實例可以由其擁有者修改，因此不見得會完全依照預設政策。 librarian 實例有「隱私營養標籤」功能，以提供政策的概覽。 有些實例有Tor .onion地址，只要您的搜尋查詢不包含PII ，這些地址可以保護某些隱私。
 
 ## Twitter
 
@@ -42,11 +42,11 @@ When you are using a Librarian instance, make sure to read the privacy policy of
 
 !!! recommendation
 
-    ![Nitter logo](assets/img/frontends/nitter.svg){ align=right }
+    ! [Nitter logo] (assets/img/frontends/nitter.svg) {align = right}
     
-    **Nitter** is a free and open-source frontend for [Twitter](https://twitter.com) that is also self-hostable.
+    * * Nitter * *是 [Twitter](https://twitter.com)的免費開源前端，也是可自我託管。
     
-    There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
+    有許多公共實例，其中一些實例支援 [Tor]（ https://www.torproject.org ）onion 服務。
     
     [:octicons-repo-16: Repository](https://github.com/zedeus/nitter){ .md-button .md-button--primary }
     [:octicons-server-16:](https://github.com/zedeus/nitter/wiki/Instances){ .card-link title="Public Instances"}
@@ -54,13 +54,13 @@ When you are using a Librarian instance, make sure to read the privacy policy of
     [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=Contribute }
 
-!!! tip
+!!! 提示
 
-    Nitter is useful if you want to browse Twitter content without having to log in and if you want to disable JavaScript in your browser, as is the case with [Tor Browser](https://www.torproject.org/) on the Safest security level. It also allows you to [create RSS feeds for Twitter](news-aggregators.md#twitter).
+    如果想在不登錄的情況下瀏覽 Twitter 內容，或是在瀏覽器中禁用 JavaScript ， Nitter非常有用，就像[Tor 瀏覽器] （ https://www.torproject.org/ ）在最安全級別會關閉 JavaScript 。 它還可以[為 Twitter 建立 RSS 新聞源] (news-aggregators.md#twitter)。
 
-When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Nitter, as other peoples' usage will be linked to your hosting.
+在自我出租時，重要的是要讓其他人使用您的實例，以便您融入其中。 小心處理 Nitter 的託管 ，因為其他人的使用將與您的託管息息相關。
 
-When you are using a Nitter instance, make sure to read the privacy policy of that specific instance. Nitter instances can be modified by their owners and therefore may not reflect the default policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII.
+當使用 Nitter 實例時，請務必閱讀該實例的隱私權政策。 Nitter 實例可以由其擁有者修改，因此不見得會完全依照預設政策。 有些實例有Tor .onion地址，只要您的搜尋查詢不包含PII ，這些地址可以保護某些隱私。
 
 ## TikTok
 
@@ -68,24 +68,24 @@ When you are using a Nitter instance, make sure to read the privacy policy of th
 
 !!! recommendation
 
-    ![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
+    ! [ProxiTok logo] (assets/img/frontends/proxitok.svg) {align = right}
     
-    **ProxiTok** is an open source frontend to the [TikTok](https://www.tiktok.com) website that is also self-hostable.
+    * * ProxiTok * *是 [TikTok](https://www.tiktok.com)網站的開源前端，也可自主託管。
     
-    There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
+    有許多公共實例，其中一些實例支援 [Tor]（ https://www.torproject.org ）onion 服務。
     
     [:octicons-repo-16: Repository](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
     [:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Public Instances"}
     [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Source Code" }
 
-!!! tip
+!!! 提示
 
-    ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level.
+    如果想在瀏覽器中禁用 JavaScript ，例如[Tor瀏覽器] (https://www.torproject.org/)最安全級別， ProxiTok 非常有用。
 
-When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting ProxiTok, as other peoples' usage will be linked to your hosting.
+在自我出租時，重要的是要讓其他人使用您的實例，以便您融入其中。 謹慎處理 ProxiTok 的託管事宜，因為其他人的使用會與您的託管有很大關聯。
 
-When you are using a ProxiTok instance, make sure to read the privacy policy of that specific instance. ProxiTok instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII.
+當使用 ProxiTok 實例時，請務必閱讀該實例的隱私權政策。 ProxiTok 實例可以由其擁有者修改，因此不見得會完全依照預設政策。 有些實例有Tor .onion地址，只要您的搜尋查詢不包含PII ，這些地址可以保護某些隱私。
 
 ## YouTube
 
@@ -93,11 +93,11 @@ When you are using a ProxiTok instance, make sure to read the privacy policy of 
 
 !!! recommendation
 
-    ![FreeTube logo](assets/img/frontends/freetube.svg){ align=right }
+    ! [FreeTube logo] (assets/img/frontends/freetube.svg) {align = right}
     
-    **FreeTube** is a free and open-source desktop application for [YouTube](https://youtube.com). When using FreeTube, your subscription list and playlists are saved locally on your device.
+    * * FreeTube * *是 [YouTube](https://youtube.com)的免費開源桌面應用程式。 使用 FreeTube 時，訂閱清單和播放列表會在本地儲存在 本地裝置上。
     
-    By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
+    預設情況下， FreeTube 會封鎖所有 YouTube 廣告。 此外， FreeTube 可選擇與 [SponsorBlock](https://sponsor.ajay.app) 整合，可以跳過贊助的影片段。
     
     [:octicons-home-16: Homepage](https://freetubeapp.io){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Privacy Policy" }
@@ -105,26 +105,26 @@ When you are using a ProxiTok instance, make sure to read the privacy policy of 
     [:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-windows11: Windows](https://freetubeapp.io/#download)
         - [:simple-apple: macOS](https://freetubeapp.io/#download)
         - [:simple-linux: Linux](https://freetubeapp.io/#download)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
 
-!!! warning
+!!! 警告
 
-    When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    使用 FreeTube 時，IP 位址可能會被 YouTube、[Invidious](https://instances.invidious.io)或 [SponsorBlock](https://sponsor.ajay.app/)所知，具體取決於您的設定。 如果您的[威脅模型] (basics/threat-modeling.md)需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](https://www.torproject.org)。
 
 ### Yattee
 
 !!! recommendation
 
-    ![Yattee logo](assets/img/frontends/yattee.svg){ align=right }
+    ! [Yattee logo] (assets/img/frontends/yattee.svg) {align = right}
     
-    **Yattee** is a free and open-source privacy oriented video player for iOS, tvOS and macOS for [YouTube](https://youtube.com). When using Yattee, your subscription list are saved locally on your device.
+    * * Yattee * *是一款免費的開源隱私導向影片播放器，適用於iOS、tvOS 和 macOS 觀看 [YouTube](https://youtube.com)。 使用 Yattee 時，訂閱清單和播放列表會儲存在 本地裝置上。
     
-    You will need to take a few [extra steps](https://gonzoknows.com/posts/Yattee/) before you can use Yattee to watch YouTube, due to App Store restrictions.
+    由於 App Store 限制，您需要採取一些[額外步驟] (https://gonzoknows.com/posts/Yattee/)才能使用 Yattee 觀看YouTube。
     
     [:octicons-home-16: Homepage](https://github.com/yattee/yattee){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Privacy Policy" }
@@ -132,52 +132,52 @@ When you are using a ProxiTok instance, make sure to read the privacy policy of 
     [:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-apple: App Store](https://apps.apple.com/us/app/yattee/id1595136629)
         - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
 
-!!! warning
+!!! 警告
 
-    When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    使用 Yattee 時，IP位址可能仍會被 YouTube、 [Invidious](https://instances.invidious.io)、 [Piped](https://github.com/TeamPiped/Piped/wiki/Instances)或 [SponsorBlock](https://sponsor.ajay.app/)所知曉，具體取決於您的設定。 如果您的[威脅模型] (basics/threat-modeling.md)需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](https://www.torproject.org)。
 
-By default, Yattee blocks all YouTube advertisements. In addition, Yattee optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
+預設情況下， Yattee 會封鎖所有 YouTube 廣告。 此外， Yattee 可選擇與 [SponsorBlock](https://sponsor.ajay.app) 整合，可以跳過贊助的影片段。
 
 ### LibreTube (Android)
 
 !!! recommendation
 
-    ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ align=right }
-    ![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ align=right }
+    ! [LibreTube logo] (assets/img/frontends/libretube.svg#only-light) {align = right}
+    ! [LibreTube logo] (assets/img/frontends/libretube-dark.svg#only-dark) {align = right}
     
-    **LibreTube** is a free and open-source Android application for [YouTube](https://youtube.com) which uses the [Piped](#piped) API.
+    * * LibreTube * *是一款免費的 [YouTube](https://youtube.com)開源Android應用程序，使用 [Piped](# piped) API。
     
-    LibreTube allows you to store your subscription list and playlists locally on your Android device, or to an account on your Piped instance of choice, which allows you to access them seamlessly on other devices as well.
+    LibreTube 可將訂閱列表和播放列表存儲於 Android 設備，或者存儲到您選擇的 Piped 實例帳戶，以便利用其他設備無縫訪問。
     
     [:octicons-home-16: Homepage](https://libre-tube.github.io){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://github.com/libre-tube/LibreTube#privacy-policy-and-disclaimer){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-github: GitHub](https://github.com/libre-tube/LibreTube/releases)
 
-!!! warning
+!!! 警告
 
-    When using LibreTube, your IP address will be visible to the [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) instance you choose and/or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    使用 LibreTube 時，IP 位址會為所用的 [Piped](https://github.com/TeamPiped/Piped/wiki/Instances)實例和 [SponsorBlock](https://sponsor.ajay.app/)看見，具體取決於您的設定。 如果您的[威脅模型] (basics/threat-modeling.md)需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](https://www.torproject.org)。
 
-By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube uses [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments. You are able to fully configure the types of segments that SponsorBlock will skip, or disable it completely. There is also a button on the video player itself to disable it for a specific video if desired.
+預設情況下， LibreTube 會封鎖所有 YouTube 廣告。 此外， LibreTube 利用[SponsorBlock](https://sponsor.ajay.app) 來跳過贊助的影片段。 可以自行配置 SponsorBlock 要跳過的影片段類型，或完全禁用它。 播放器上有一個按鈕，如果需要，可以為特定影片禁用它。
 
 ### NewPipe (Android)
 
 !!! recommendation annotate
 
-    ![Newpipe logo](assets/img/frontends/newpipe.svg){ align=right }
+    ! [Newpipe logo] (assets/img/frontends/newpipe.svg) {align = right}
     
-    **NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org/) (1).
+    * * NewPipe * *是 [YouTube](https://youtube.com)、 [SoundCloud](https://soundcloud.com)、 [media.ccc.de](https://media.ccc.de)、 [Bandcamp](https://bandcamp.com)和 [PeerTube](https://joinpeertube.org/) (1)的免費開源 Android應用程式。
     
-    Your subscription list and playlists are saved locally on your Android device.
+    訂閱清單和播放列表會儲存在本地的 Android裝置。
     
     [:octicons-home-16: Homepage](https://newpipe.net){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Privacy Policy" }
@@ -185,26 +185,26 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
     [:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://newpipe.net/donate/){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? 下戴
     
         - [:simple-github: GitHub](https://github.com/TeamNewPipe/NewPipe/releases)
 
-1. The default instance is [FramaTube](https://framatube.org/), however more can be added via **Settings** → **Content** → **PeerTube instances**
+1. 預設實例為 [FramaTube](https://framatube.org/)，但可在 **Settings** → **Content** → **PeerTube instance ** 添加更多實例。
 
-!!! Warning
+!!! 警告
 
-    When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+    使用NewPipe時，IP 位址會被所使用的影片供應商看見。 如果您的[威脅模型] (basics/threat-modeling.md)需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](https://www.torproject.org)。
 
 ### Invidious
 
 !!! recommendation
 
-    ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ align=right }
-    ![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ align=right }
+    ! [Invidious logo] (assets/img/frontends/invidious.svg#only-light) {align = right}
+    ! [INVIDIOUS LOGO] (assets/img/frontends/invidious-dark.svg#only-dark) {align = right}
     
-    **Invidious** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
+    * * Invidious * *是 [YouTube](https://youtube.com)的免費開源前端，也可自行託管。
     
-    There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
+    有許多公共實例，其中一些實例支援 [Tor]（ https://www.torproject.org ）onion 服務。
     
     [:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
     [:octicons-server-16:](https://instances.invidious.io){ .card-link title="Public Instances"}
@@ -212,27 +212,27 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
     [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://invidious.io/donate/){ .card-link title=Contribute }
 
-!!! warning
+!!! 警告
 
-    Invidious does not proxy video streams by default. Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying—simply enable *Proxy videos* within the instances' settings or add `&local=true` to the URL.
+    預設情況下， Invidious不會代理影片串流。 通過 Invidious 觀看的影片會直接連接到 Google 伺服器（例如`googlevideo.com` )，但是有些實例支持影片代理-只需在實例設置中啟用*Proxy videos*或在 URL 中添加`&local = true`。
 
-!!! tip
+!!! 提示
 
-    Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
+    如果您想在瀏覽器中停用JavaScript ，例如[Tor瀏覽器] (https://www.torproject.org/)最安全級別，Invidious 非常有用。 它本身不提供隱私，故不建議登入任何帳戶。
 
-When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Invidious, as other peoples' usage will be linked to your hosting.
+在自我出租時，重要的是要讓其他人使用您的實例，以便您融入其中。 謹慎處理 Invidious 的託管事宜，因為其他人的使用會與您的託管有很大關聯。
 
-When you are using an Invidious instance, make sure to read the privacy policy of that specific instance. Invidious instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII.
+當使用 Invidious 實例時，請務必閱讀該實例的隱私權政策。 Invidious 實例可以由其擁有者修改，因此不見得會完全依照預設政策。 有些實例有Tor .onion地址，只要您的搜尋查詢不包含PII ，這些地址可以保護某些隱私。
 
 ### Piped
 
 !!! recommendation
 
-    ![Piped logo](assets/img/frontends/piped.svg){ align=right }
+    ! [Piped logo] (assets/img/frontends/piped.svg) {align = right}
     
-    **Piped** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
+    * * Piped * *是 [YouTube](https://youtube.com)的免費開源前端，也是可自主託管。
     
-    Piped requires JavaScript in order to function and there are a number of public instances.
+    Piped 需要JavaScript 才能運行，它有許多公共實例。
     
     [:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
     [:octicons-server-16:](https://piped.kavin.rocks/preferences#ddlInstanceSelection){ .card-link title="Public Instances"}
@@ -240,28 +240,28 @@ When you are using an Invidious instance, make sure to read the privacy policy o
     [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribute }
 
-!!! tip
+!!! 提示
 
-    Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension or to access age-restricted content without an account. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
+    如果您想使用 [SponsorBlock](https://sponsor.ajay.app)但不安裝瀏覽器擴展或在不登入帳戶訪問有年齡限制的內容， Piped 非常有用。 它本身不提供隱私，故不建議登入任何帳戶。
 
-When self-hosting, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting Piped, as other peoples' usage will be linked to your hosting.
+在自我出租時，重要的是要讓其他人使用您的實例，以便您融入其中。 小心處理 Piped 託管 ，因為其他人的使用將與您的託管息息相關。
 
-When you are using a Piped instance, make sure to read the privacy policy of that specific instance. Piped instances can be modified by their owners and therefore may not reflect their associated privacy policy.
+當使用 Piped 實例時，請務必閱讀該實例的隱私權政策。 Piped 實例可以由其擁有者修改，因此不見得會完全依照預設政策。
 
-## Criteria
+## 標準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! example "This section is new"
+!!! 示例“此部分是新的”
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    我們正在努力為這個網站的各個部分建立明確標準，它可能依情況變化。 如果您對我們的標準有任何疑問，請在[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
-Recommended frontends...
+推薦的前端…
 
-- Must be open-source software.
-- Must be self-hostable.
-- Must provide all basic website functionality available to anonymous users.
+- 必須是開源軟體。
+- 必須是可自行託管。
+- 必須提供匿名訪客完整的網站基本功能。
 
-We only consider frontends for websites which are...
+我們只考慮網站的前端是...
 
-- Not normally accessible without JavaScript.
+- 沒 JavaScript 無法正常存取。

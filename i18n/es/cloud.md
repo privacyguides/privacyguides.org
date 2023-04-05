@@ -1,61 +1,99 @@
 ---
-title: "Correo Electrónico"
+title: "Almacenamiento en la Nube"
 icon: material/file-cloud
-description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
+description: Muchos proveedores de almacenamiento en la nube exigen que confíes plenamente en que no mirarán tus archivos. Estas son alternativas privadas.
 ---
 
-Muchos proveedores de almacenamiento en la nube exigen que confíes plenamente en que no mirarán tus archivos. Las alternativas que se enumeran a continuación eliminan la necesidad de confianza, ya que le ponen en control de sus datos o implementan E2EE.
+Muchos proveedores de almacenamiento en la nube exigen que confíes plenamente en que no mirarán tus archivos. Las alternativas enumeradas a continuación eliminan la necesidad de confianza mediante la implementación de E2EE seguros.
 
-Confíe en su proveedor utilizando una alternativa a continuación que es compatible con [cifrado de extremo a extremo (E2EE)](https://es.wikipedia.org/wiki/Cifrado_de_extremo_a_extremo).
+Si estas alternativas no se ajustan a tus necesidades, te sugerimos que busques utilizar un software de encriptación como [Cryptomator](encryption.md#cryptomator-cloud) con otro proveedor en la nube. Utilizar Cryptomator junto con **cualquier** proveedor de la nube(incluidos estos) puede ser una buena idea para reducir el riesgo de fallos de cifrado en los clientes nativos de un proveedor.
 
-??? recommendation
+??? Pregunta "¿Buscas Nextcloud?"
 
-    Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do not recommend Nextcloud's built-in E2EE functionality for home users.
+    Nextcloud es [todavía una herramienta recomendada](productivity.md) para el autoalojamiento de una suite de gestión de archivos, sin embargo no recomendamos proveedores de almacenamiento Nextcloud de terceros por el momento, porque no [recomendamos](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) la funcionalidad E2EE integrada de Nextcloud para usuarios domésticos.
 
-## Cryptee
+## Proton Drive
 
 !!! recomendación
 
-    ![Logotipo de Proton Drive](assets/img/cloud/protondrive.svg){ align=right }
+    ![Logo de Proton Drive](assets/img/cloud/protondrive.svg){ align=right }
     
-    **Proton Drive** es un servicio general de almacenamiento de archivos cifrados de extremo a extremo (E2EE) hecho por el proveedor de correo electrónico cifrado [ProtonMail](https://protonmail.com).
+    **Proton Drive** es un proveedor suizo de almacenamiento cifrado en la nube del popular proveedor de correo electrónico cifrado [Proton Mail](email.md#proton-mail).
     
-    [Visita drive.protonmail.com](https://drive.protonmail.com){ .md-button .md-button--primary } [Política de privacidad](https://docs.tildes.net/policies/privacy-policy){ .md-button }
+    [:octicons-home-16: Inicio](https://proton.me/drive){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Politica de privacidad" }
+    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Código fuente" }
     
-    **Descargas**
-    - [:fontawesome-brands-github: Fuente](hhttps://https://github.com/ProtonMail/WebClients) [:octicons-home-16: Inicio](https://nextcloud.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Política de privacidad" }
-    [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentación}
-    [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Código fuente" }
-    [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribuir }
+    ??? Descargas
     
-    ???
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
 
+La aplicación web Proton Drive ha sido auditada de forma independiente por Securitum en [2021](https://proton.me/blog/security-audit-all-proton-apps), no se han facilitado todos los detalles, pero la carta de certificación de Securitum afirma lo siguiente:
 
-## Criteria
+> Los auditores identificaron dos vulnerabilidades de baja gravedad. Además, se notificaron cinco recomendaciones generales. Al mismo tiempo, confirmamos que no se detectaron problemas de seguridad importantes durante el pentest.
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+Los nuevos clientes móviles de Proton Drive aún no han sido auditados públicamente por un tercero.
 
-!!! example "This section is new"
+## Tresorit
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+!!! recomendación
 
-### Minimum Requirements
+    ![Logo de Tresorit](assets/img/cloud/tresorit.svg){ align=right }
+    
+    **Tresorit** es un proveedor húngaro de almacenamiento cifrado en la nube fundado en 2011. Tresorit es propiedad de Swiss Post, el servicio postal nacional de Suiza.
+    
+    [:octicons-home-16: Inicio](https://tresorit.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Politica de privacidad" }
+    [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentación}
+    
+    ??? Descargas
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
+        - [:simple-windows11: Windows](https://tresorit.com/download)
+        - [:simple-apple: macOS](https://tresorit.com/download)
+        - [:simple-linux: Linux](https://tresorit.com/download)
 
-- Must enforce end-to-end encryption.
-- Must offer a free plan or trial period for testing.
-- Must support TOTP or FIDO2 multi-factor authentication, or Passkey logins.
-- Must offer a web interface which supports basic file management functionality.
-- Must allow for easy exports of all files/documents.
-- Must use standard, audited encryption.
+Tresorit ha recibido varias auditorías de seguridad independientes:
 
-### Best-Case
+- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification/): ISO/IEC 27001:2013[^1] [Certificación](https://www.certipedia.com/quality_marks/9108644476) de conformidad por TÜV Rheinland InterCert Kft
+- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security/): Pruebas de penetración de Computest
+    - Esta revisión evaluó la seguridad del cliente web Tresorit, la aplicación Android, la aplicación Windows y la infraestructura asociada.
+    - Computest descubrió dos vulnerabilidades que ya han sido resueltas.
+- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture/): Pruebas de penetración de Ernst & Young.
+    - En esta revisión se analizó el código fuente completo de Tresorit y se validó que la implementación coincide con los conceptos descritos en el [libro blanco](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf) de Tresorit.
+    - Ernst & Young probó además los clientes web, móvil y de escritorio: "Los resultados de las pruebas no encontraron ninguna desviación de las afirmaciones de confidencialidad de datos de Tresorit".
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+También han recibido el Sello de Confianza Digital, una certificación de la [Iniciativa Digital Suiza](https://www.swiss-digital-initiative.org/digital-trust-label/) que exige superar [35 criterios](https://digitaltrust-label.swiss/criteria/) relacionados con la seguridad, la privacidad y la fiabilidad.
 
-- Clients should be open-source.
-- Clients should be audited in their entirety by an independent third-party.
-- Should offer native clients for Linux, Android, Windows, macOS, and iOS.
-    - These clients should integrate with native OS tools for cloud storage providers, such as Files app integration on iOS, or DocumentsProvider functionality on Android.
-- Should support easy file-sharing with other users.
-- Should offer at least basic file preview and editing functionality on the web interface.
+## Criterios
+
+**Por favor, ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
+
+!!! Ejemplo "Esta sección es nueva"
+
+    Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tienes alguna duda sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Hay muchos factores que se consideran y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
+
+### Requisitos Mínimos
+
+- Debe aplicar el cifrado de extremo a extremo.
+- Debe ofrecer un plan gratuito o un periodo de prueba.
+- Debe ser compatible con la autenticación multifactor TOTP o FIDO2, o con los inicios de sesión Passkey.
+- Debe ofrecer una interfaz web que admita funciones básicas de gestión de archivos.
+- Debe permitir exportar fácilmente todos los archivos/documentos.
+- Debe utilizar un cifrado estándar auditado.
+
+### Mejor Caso
+
+Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
+
+- Los clientes deben ser de código abierto.
+- Los clientes deben ser auditados en su totalidad por un tercero independiente.
+- Debe ofrecer clientes nativos para Linux, Android, Windows, macOS e iOS.
+    - Estos clientes deben integrarse con las herramientas nativas del sistema operativo para los proveedores de almacenamiento en la nube, como la integración de la aplicación Files en iOS, o la funcionalidad DocumentsProvider en Android.
+- Debe permitir compartir archivos fácilmente con otros usuarios.
+- Debe ofrecer al menos funciones básicas de previsualización y edición de archivos en la interfaz web.
+
+[^1]: [El cumplimiento de la norma ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001):2013 se refiere al sistema de gestión de la seguridad de la información de la empresa [](https://en.wikipedia.org/wiki/Information_security_management) y abarca la venta, el desarrollo, el mantenimiento y la asistencia de sus servicios en la nube.

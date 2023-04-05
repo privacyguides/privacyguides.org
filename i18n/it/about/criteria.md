@@ -1,40 +1,40 @@
 ---
-title: General Criteria
+title: Criteri generali
 ---
 
-!!! example "Work in Progress"
+!!! example "Lavori in corso"
 
-    The following page is a work in progress, and does not reflect the full criteria for our recommendations at this time. Past discussion on this topic: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+    La pagina seguente è un lavoro in corso e non riflette i criteri completi per le nostre raccomandazioni in questo momento. Discussione precedente su questo argomento: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
 
-Below are some things that must apply to all submissions to Privacy Guides. Each category will have additional requirements for inclusion.
+Below are some things that must apply to all submissions to Privacy Guides. Ogni categoria avrà requisiti aggiuntivi per l'inclusione.
 
 ## Financial Disclosure
 
-We do not make money from recommending certain products, we do not use affiliate links, and we do not provide special consideration to project donors.
+Non guadagniamo denaro consigliando determinati prodotti, non utilizziamo link di affiliazione e non offriamo una considerazione speciale ai donatori di progetti.
 
-## General Guidelines
+## Linee guida generali
 
-We apply these priorities when considering new recommendations:
+Applichiamo queste priorità quando prendiamo in considerazione nuove raccomandazioni:
 
-- **Secure**: Tools should follow security best-practices wherever applicable.
-- **Source Availability**: Open source projects are generally preferred over equivalent proprietary alternatives.
-- **Cross-Platform**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
-- **Active Development**: The tools that we recommend should be actively developed, unmaintained projects will be removed in most cases.
-- **Usability**: Tools should be accessible to most computer users, an overly technical background should not be required.
-- **Documented**: Tools should have clear and extensive documentation for use.
+- **Sicuro**: gli strumenti dovrebbero seguire le migliori pratiche di sicurezza, ove applicabile.
+- **Disponibilità dei sorgenti**: i progetti open source sono generalmente preferiti rispetto alle alternative proprietarie equivalenti.
+- **Multipiattaforma**: in genere preferiamo che le raccomandazioni siano multipiattaforma, per evitare il blocco del venditore.
+- **Sviluppo attivo**: Gli strumenti che raccomandiamo dovrebbero essere sviluppati attivamente, i progetti non mantenuti verranno rimossi nella maggior parte dei casi.
+- **Usabilità**: gli strumenti devono essere accessibili alla maggior parte degli utenti, senza richiedere un background troppo tecnico.
+- **Documentato**: Gli strumenti dovrebbero avere una documentazione chiara ed estesa per l'uso.
 
-## Developer Self-Submissions
+## Autocandidatura degli sviluppatori
 
-We have these requirements in regard to developers which wish to submit their project or software for consideration.
+Abbiamo questi requisiti per quanto riguarda gli sviluppatori che desiderano presentare il loro progetto o software per essere presi in considerazione.
 
-- Must disclose affiliation, i.e. your position within the project being submitted.
+- Deve indicare l'affiliazione, cioè la sua posizione all'interno del progetto presentato.
 
 - Must have a security whitepaper if it is a project that involves handling of sensitive information like a messenger, password manager, encrypted cloud storage etc.
-    - Third party audit status. We want to know if you have one, or have one planned. If possible please mention who will be conducting the audit.
+    - Third party audit status. We want to know if you have one, or have one planned. Se possibile, indicare chi condurrà l'audit.
 
 - Must explain what the project brings to the table in regard to privacy.
-    - Does it solve any new problem?
-    - Why should anyone use it over the alternatives?
+    - Risolve qualche nuovo problema?
+    - Perché qualcuno dovrebbe usarlo rispetto alle alternative?
 
 - Must state what the exact threat model is with their project.
     - It should be clear to potential users what the project can provide, and what it cannot.

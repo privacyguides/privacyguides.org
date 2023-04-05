@@ -4,39 +4,67 @@ hide:
   - navigation
   - toc
   - feedback
+schema:
+  - 
+    "@context": https://schema.org
+    "@type": Organization
+    "@id": https://www.privacyguides.org/
+    name: Privacy Guides
+    url: https://www.privacyguides.org/en/about/
+    logo: https://www.privacyguides.org/en/assets/brand/png/square/pg-yellow.png
+    sameAs:
+      - https://twitter.com/privacy_guides
+      - https://github.com/privacyguides
+      - https://www.wikidata.org/wiki/Q111710163
+      - https://opencollective.com/privacyguides
+      - https://www.youtube.com/@privacyguides
+      - https://mastodon.neat.computer/@privacyguides
+  - 
+    "@context": https://schema.org
+    "@type": WebSite
+    name: Privacy Guides
+    url: "https://www.privacyguides.org/"
+    sameAs:
+      - https://www.wikidata.org/wiki/Q111710163
+    potentialAction:
+      "@type": SearchAction
+      target:
+        "@type": EntryPoint
+        urlTemplate: "https://www.privacyguides.org/?q={search_term_string}"
+      query-input: required name=search_term_string
 ---
 
 <!-- markdownlint-disable-next-line -->
-## Why should I care?
+## Почему это должно меня волновать?
 
-##### “I have nothing to hide. Why should I care about my privacy?”
+##### «Мне нечего скрывать. Почему я должен беспокоиться о своей приватности?»
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+Подобно праву на межрасовый брак, избирательному праву для женщин, свободе слова и многим другим правам, наше право на приватность не всегда соблюдалось. В некоторых диктатурах это всё ещё представляет проблему. Предыдущие поколения боролись за наше право на приватность. ==Приватность — это естественное право каждого человека,== и мы все без исключения должны им обладать.
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+Не стоит путать приватность с секретностью. Все знают, что происходит в вашей ванной, но вы всё равно закрываете дверь. Это потому, что вы хотите приватности, а не секретности. **Каждому** есть что защищать. Приватность — это то, что делает вас человеком.
 
 [:material-target-account: Common Internet Threats](basics/common-threats.md ""){.md-button.md-button--primary}
 
-## What should I do?
+## И что же мне делать?
 
-##### First, you need to make a plan
+##### Для начала, вам стоит составить план
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. But don't worry! Security is a process, and, by thinking ahead, you can put together a plan that's right for you. Security isn't just about the tools you use or the software you download. Rather, it begins by understanding the unique threats you face, and how you can mitigate them.
+Попытка защитить все свои данные ото всех и в любой ситуации — это непрактично, дорого и утомительно. Но не переживайте! Безопасность — это процесс, и, думая наперёд, вы можете составить план, который подходит именно вам. Безопасность — это не только инструменты или программное обеспечение, которыми вы пользуетесь. На самом деле безопасность начинается с понимания специфичных угроз, с которыми вы сталкиваетесь, и нахождения способов, как им противостоять.
 
-==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
+==Процесс нахождения угроз и мер противодействия им называется **моделированием угроз**==, и он составляет основу каждого хорошего плана безопасности и приватности.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md ""){.md-button.md-button--primary}
+[:material-book-outline: Узнайте больше о моделировании угроз](basics/threat-modeling.md ""){.md-button.md-button--primary}
 
 ---
 
-## We need you! Here's how to get involved:
+## Вы нужны нам! Вот как можно помочь нам:
 
-[:simple-discourse:](https://discuss.privacyguides.net/){ title="Join our Forum" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
-[:material-information-outline:](about/index.md){ title="Learn more about us" }
-[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
+[:simple-discourse:](https://discuss.privacyguides.net/){ title="Посетите наш форум" }
+[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Подпишитесь на нас в Mastodon" }
+[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Помогите с разработкой" }
+[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Помогите перевести сайт" }
+[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Напишите нам в Matrix" }
+[:material-information-outline:](about/index.md){ title="Узнайте о нас больше" }
+[:material-hand-coin-outline:](about/donate.md){ title="Помогите проекту материально" }
 
-It's important for a website like Privacy Guides to always stay up-to-date. We need our audience to keep an eye on software updates for the applications listed on our site and follow recent news about providers that we recommend. It's hard to keep up with the fast pace of the internet, but we try our best. If you spot an error, think a provider should not be listed, notice a qualified provider is missing, believe a browser plugin is no longer the best choice, or uncover any other issue, please let us know.
+Такому сайту, как Privacy Guides, важно содержать наиболее актуальную информацию. Нам нужно, чтобы читатели следили за обновлениями программного обеспечения, перечисленного на сайте, и были в курсе новостей о сервисах, которые мы рекомендуем. Сложно угнаться за быстрым темпом развития интернета, но мы стараемся изо всех сил. Если вы встретите ошибку, посчитаете сервис недостойным упоминания на нашем сайте, заметите отсутствие хорошего сервиса, найдёте лучшую альтернативу браузерному расширению или обнаружите любую другую проблему, дайте нам знать.

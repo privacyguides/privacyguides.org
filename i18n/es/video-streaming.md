@@ -1,7 +1,7 @@
 ---
 title: "Transmisiones en Vivo"
 icon: material/video-wireless
-description: These networks allow you to stream internet content without building an advertising profile based on your interests.
+description: Estas redes le permiten transmitir contenidos de Internet sin crear un perfil publicitario basado en sus intereses.
 ---
 
 La principal amenaza al utilizar una plataforma de streaming es que sus hábitos de streaming y sus suscripciones podrían utilizarse para elaborar un perfil. Debería combinar estas herramientas con un [VPN](/vpn) o [Tor](https://www.torproject.org/) para hacer más difícil perfilar su perfil.
@@ -29,27 +29,27 @@ La principal amenaza al utilizar una plataforma de streaming es que sus hábitos
         - [:fontawesome-brands-linux: Linux](https://freetubeapp.io/#download)
         - [:pg-flathub: Flatpak](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
 
-!!! note
+!!! nota
 
     Solo se recomienda el **cliente de escritorio LBRY**, ya que el sitio web [Odysee](https://odysee.com) y los clientes LBRY en F-Droid, Play Store y App Store tienen sincronización y telemetría obligatorias.
 
-!!! warning
+!!! Advertencia
 
     ![logo LBRY](assets/img/video-streaming/lbry.svg){ align=right }
     
     **La red LBRY** es una red descentralizada para compartir vídeos. Considere la posibilidad de utilizar un [VPN](vpn.md) o [Tor](https://www.torproject.org) si su [modelo de amenaza](basics/threat-modeling.md) requiere ocultar su dirección IP.
 
-We recommend **against** synchronizing your wallet with LBRY Inc., as synchronizing encrypted wallets is not supported yet. Si sincroniza su wallet con LBRY Inc. tendrá que confiar que ellos no mirarán su lista de suscripciones, sus fondos [LBC](https://lbry.com/faq/earn-credits) o tomen el control de su canal.
+Recomendamos **no** sincronizar su monedero con LBRY Inc, ya que la sincronización de monederos encriptados no es compatible todavía. Si sincroniza su wallet con LBRY Inc. tendrá que confiar que ellos no mirarán su lista de suscripciones, sus fondos [LBC](https://lbry.com/faq/earn-credits) o tomen el control de su canal.
 
 Puede desactivar la opción *Guardar datos de alojamiento para ayudar a la red LBRY* en :gear: **Ajustes** → **Ajustes avanzados**, para evitar exponer su dirección IP y los vídeos vistos cuando utilice LBRY durante un periodo de tiempo prolongado.
 
-## Criteria
+## Criterios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de decidir utilizar un proyecto y realizar su propia investigación para asegurarse de que es la elección ideal para usted.
 
-!!! example "This section is new"
+!!! ejemplo "Esta sección es nueva"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tiene alguna pregunta sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no consideramos algo al hacer nuestras recomendaciones, si no se encuentra listado aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 
-- Must not require a centralized account to view videos.
-    - Decentralized authentication, such as via a mobile wallet's private key is acceptable.
+- No debe requerir una cuenta centralizada para ver los vídeos.
+    - La autenticación descentralizada, como por ejemplo a través de la clave privada de un monedero móvil, es aceptable.

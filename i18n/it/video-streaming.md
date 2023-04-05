@@ -31,7 +31,7 @@ Il rischio principale quando si usa una piattaforma di streaming video è che le
 
     Si raccomanda solo il **client desktop LBRY**, poiché il sito web [Odysee](https://odysee.com) e i client LBRY in F-Droid, Play Store e App Store hanno la sincronizzazione e la telemetria obbligatorie.
 
-!!! warning "Avviso"
+!!! warning
 
     Durante la visione e l'hosting dei video, il tuo indirizzo IP è visibile alla rete LBRY. Considera l'uso di [VPN](vpn.md) o [Tor](https://www.torproject.org) se il [modello di minaccia](basics/threat-modeling.md) richiede di nascondere l'indirizzo IP.
 

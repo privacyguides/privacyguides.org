@@ -17,13 +17,13 @@ Kami tidak menghasilkan uang dari merekomendasikan produk tertentu, kami tidak m
 Kami menerapkan prioritas ini ketika mempertimbangkan rekomendasi baru:
 
 - **Aman**: Alat harus mengikuti praktik terbaik keamanan di mana pun berlaku.
-- **Source Availability**: Open source projects are generally preferred over equivalent proprietary alternatives.
-- **Cross-Platform**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
+- **Ketersediaan Sumber**: Proyek sumber terbuka umumnya lebih disukai daripada alternatif bersumber tertutup yang setara.
+- **Lintas Platform**: Kami biasanya lebih memilih rekomendasi yang bersifat lintas platform, untuk menghindari penguncian penyedia.
 - **Pengembangan Aktif**: Alat yang kami rekomendasikan harus dikembangkan secara aktif, proyek yang tidak terpelihara akan dihapus dalam banyak kasus.
 - **Kegunaan**: Alat bantu harus dapat diakses oleh sebagian besar pengguna komputer, latar belakang yang terlalu teknis tidak diperlukan.
 - **Terdokumentasi**: Alat harus memiliki dokumentasi yang jelas dan ekstensif untuk digunakan.
 
-## Developer Self-Submissions
+## Pengajuan Diri Pengembang
 
 Kami memiliki persyaratan ini terkait dengan pengembang yang ingin mengajukan proyek atau perangkat lunak mereka untuk dipertimbangkan.
 
@@ -37,4 +37,4 @@ Kami memiliki persyaratan ini terkait dengan pengembang yang ingin mengajukan pr
     - Mengapa orang harus menggunakannya daripada alternatif lain?
 
 - Harus menyatakan apa model ancaman yang tepat dengan proyek mereka.
-    - It should be clear to potential users what the project can provide, and what it cannot.
+    - Harus jelas bagi calon pengguna apa yang dapat disediakan oleh proyek, dan apa yang tidak dapat disediakan.

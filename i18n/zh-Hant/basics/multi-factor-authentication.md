@@ -1,7 +1,7 @@
 ---
 title: "多重身分驗證"
 icon: 'material/two-factor-authentication'
-description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
+description: MFA是保護您線上帳戶的關鍵安全機制，但有些方法比其他方法更強大。
 ---
 
 **多因素認證**（**MFA**）是一種安全機制，除了輸入用戶名（或電子郵件）和密碼之外，還需要其他步驟。 最常見的方法是您會從簡訊或應用程式收到的有時間限制的代碼。
@@ -14,15 +14,15 @@ description: MFA is a critical security mechanism for securing your online accou
 
 ### 簡訊或 Email 多重身分驗證
 
-透過簡訊或電子郵件接收 OTP 代碼是透過 MFA 保護帳戶安全的最弱方法之一。 Obtaining a code by email or SMS takes away from the "something you *have*" idea, because there are a variety of ways a hacker could [take over your phone number](https://en.wikipedia.org/wiki/SIM_swap_scam) or gain access to your email without having physical access to any of your devices at all. 如果未經授權的人獲得了您的電子郵件訪問權限，他們將能夠使用該訪問權限重設您的密碼並收到驗證碼，使他們能夠完全訪問您的帳戶。
+透過簡訊或電子郵件接收 OTP 代碼是透過 MFA 保護帳戶安全的最弱方法之一。 通過電子郵件或簡訊接收驗證碼動搖了*"持有安心*”的概念，因為駭客根本不需要實際拿到您的設備，就可透過多種方式 [接管電話號碼](https://en.wikipedia.org/wiki/SIM_swap_scam) 或讀取電子郵件。 如果未經授權的人獲得了您的電子郵件訪問權限，他們將能夠使用該訪問權限重設您的密碼並收到驗證碼，使他們能夠完全訪問您的帳戶。
 
 ### 推送通知
 
 推送通知多重身份認證的形式是將訊息發送到手機上的應用程式，要求您確認新的帳戶登入。 這種方法比短信或電子郵件要好得多，因為攻擊者通常無法在沒有已經登錄的設備的情況下獲得這些推送通知，這意味著他們需要首先破壞您的其他設備之一。
 
-We all make mistakes, and there is the risk that you might accept the login attempt by accident. 推送通知登入授權通常一次發送到 *所有* 您的設備，如果您有多個設備，則可擴大 MFA 代碼的可用性。
+我們都會犯錯誤，您可能不小心接受登錄嘗試。 推送通知登入授權通常一次發送到 *所有* 您的設備，如果您有多個設備，則可擴大 MFA 代碼的可用性。
 
-推送通知 MFA 的安全性取決於應用程序的品質，伺服器組件以及生成它的開發人員的信任。 Installing an app may also require you to accept invasive privileges that grant access to other data on your device. An individual app also requires that you have a specific app for each service which may not require a password to open, unlike a good TOTP generator app.
+推送通知 MFA 的安全性取決於應用程序的品質，伺服器組件以及生成它的開發人員的信任。 安裝應用程式可能會要求授予對裝置上其他資料存取的侵入性權限。 不同於好的TOTP 生成器，個別應用程式還要求特定的應用程序，甚至不需要密碼就可開啟服務。
 
 ### 暫時性的一次性密碼 (TOTP)
 
@@ -30,9 +30,9 @@ TOTP 是最常見的 MFA 形式之一。 當您設置TOTP時，您通常需要�
 
 然後，時間限制代碼從共享機密和當前時間衍生出來。 由於代碼僅在短時間內有效，無法訪問共享機密，因此對手無法生成新代碼。
 
-If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)), we recommend that you store your "shared secrets" on the hardware. Hardware such as the YubiKey was developed with the intention of making the "shared secret" difficult to extract and copy. A YubiKey is also not connected to the Internet, unlike a phone with a TOTP app.
+如果您擁有支援 TOTP 的硬體安全金鑰（例如具有 [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)的YubiKey ） ，我們建議您將「共享機密」儲存在硬體上。 像 YubiKey 這類硬體就是為了讓“共享祕密”難以提取、複製而開發的工具。 YubiKey 也不會連接到網際網路，不像使用 TOTP 應用程式的手機。
 
-Unlike [WebAuthn](#fido-fast-identity-online), TOTP offers no protection against [phishing](https://en.wikipedia.org/wiki/Phishing) or reuse attacks. If an adversary obtains a valid code from you, they may use it as many times as they like until it expires (generally 60 seconds).
+與 [WebAuthn](#fido-fast-identity-online)不同， TOTP 無法應對 [網絡釣魚](https://en.wikipedia.org/wiki/Phishing) 或重複使用攻擊。 如果對手從您身上取得有效的登錄碼，他們可以隨意多次使用它，直到過期（通常是60秒）。
 
 對手可以建立一個網站來模仿官方服務，試圖欺騙你提供你的用戶名，密碼和當前的 TOTP 代碼。 如果對手使用這些記錄的憑證，他們可能能夠登錄到真正的服務並劫持帳戶。
 
@@ -40,55 +40,55 @@ Unlike [WebAuthn](#fido-fast-identity-online), TOTP offers no protection against
 
 ### 硬體安全金鑰
 
-The YubiKey stores data on a tamper-resistant solid-state chip which is [impossible to access](https://security.stackexchange.com/a/245772) non-destructively without an expensive process and a forensics laboratory.
+YubiKey 將資料存在防纂改的強固晶片， 除非運用先進實驗室等級的取證程序，一般非破壞方式[很難存取](https://security.stackexchange.com/a/245772) 。
 
-These keys are generally multi-function and provide a number of methods to authenticate. Below are the most common ones.
+這些金鑰通常具多重功能，並提供了許多驗證方法。 下面是最常見的。
 
 #### Yubico OTP
 
-Yubico OTP is an authentication protocol typically implemented in hardware security keys. When you decide to use Yubico OTP, the key will generate a public ID, private ID, and a Secret Key which is then uploaded to the Yubico OTP server.
+Yubico OTP 的驗證協議通常是執行在硬體安全金鑰上。 當決定使用 Yubico OTP 時，該密鑰將產生公用 ID ，私有 ID 和祕密密鑰，然後密鑰日上傳到 Yubico OTP 伺服器。
 
-When logging into a website, all you need to do is to physically touch the security key. The security key will emulate a keyboard and print out a one-time password into the password field.
+在登入網站時，需要做的就是實際觸摸安全金鑰。 安全金鑰將模擬鍵盤並將一次性密碼列印到密碼欄位中。
 
-The service will then forward the one-time password to the Yubico OTP server for validation. A counter is incremented both on the key and Yubico's validation server. The OTP can only be used once, and when a successful authentication occurs, the counter is increased which prevents reuse of the OTP. Yubico provides a [detailed document](https://developers.yubico.com/OTP/OTPs_Explained.html) about the process.
+它會將一次性密碼轉發到 Yubico OTP 伺服器進行驗證。 在密鑰和 Yubico 驗證伺服器上的計數器都會迭加。 OTP 只能使用一次，當成功驗證後，計數器會增加，以防止重複使用 OTP。 Yubico 提供了此過程的 [詳細文件](https://developers.yubico.com/OTP/OTPs_Explained.html) 。
 
 <figure markdown>
   ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
 </figure>
 
-There are some benefits and disadvantages to using Yubico OTP when compared to TOTP.
+與 TOTP 相比，使用Yubico OTP 有一些優缺點。
 
-The Yubico validation server is a cloud based service, and you're placing trust in Yubico that they are storing data securely and not profiling you. The public ID associated with Yubico OTP is reused on every website and could be another avenue for third-parties to profile you. Like TOTP, Yubico OTP does not provide phishing resistance.
+Yubico 驗證伺服器是雲端服務，您把信任託付給  Yubico 相信他們會安全地儲存資料而不會拿來分析您。 與 Yubico OTP 相關聯的公共 ID 可在每個網站上重複使用，並可能讓第三方可對您進行個人剖繪。 與TOTP 一樣， Yubico OTP 無法對抗網路釣魚。
 
-If your threat model requires you to have different identities on different websites, **do not** use Yubico OTP with the same hardware security key across those websites as public ID is unique to each security key.
+若您的威脅模型要求在不同網站使用不同身份， **請不要** 在這些網站中使用同一個硬體安全密鑰 Yubico OTP ，因為每個安全密鑰都有相同的公共 ID。
 
-#### FIDO (Fast IDentity Online)
+#### FIDO （ 快速線上身份驗證）
 
-[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes a number of standards, first there was U2F and then later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) which includes the web standard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
+[FIDO ](https://en.wikipedia.org/wiki/FIDO_Alliance) 包含許多標準，首先是U2F ，然後是 [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) ，其中包括 Web 標準 [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn)。
 
-U2F and FIDO2 refer to the [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), which is the protocol between the security key and the computer, such as a laptop or phone. It complements WebAuthn which is the component used to authenticate with the website (the "Relying Party") you're trying to log in on.
+U2F 和 FIDO2 指的是 [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol)，這是安全金鑰和電腦之間的協議，例如筆記本電腦或手機。 它補充了 WebAuthn ， WebAuthn 為驗證網站登錄（ “依賴方” ）之組件。
 
-WebAuthn is the most secure and private form of second factor authentication. While the authentication experience is similar to Yubico OTP, the key does not print out a one-time password and validate with a third-party server. Instead, it uses [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) for authentication.
+WebAuthn是最安全、最私密的第二要素驗證形式。 雖然驗證體驗與 Yubico OTP 類似，但密鑰不會打印出一次性密碼也不會使用第三方伺服器進行驗證。 相反，它使用 [公鑰加密](https://en.wikipedia.org/wiki/Public-key_cryptography) 進行驗證。
 
 <figure markdown>
   ![FIDO](../assets/img/multi-factor-authentication/fido.png)
 </figure>
 
-When you create an account, the public key is sent to the service, then when you log in, the service will require you to "sign" some data with your private key. The benefit of this is that no password data is ever stored by the service, so there is nothing for an adversary to steal.
+當您創建一個帳戶時，公鑰會發送到服務，然後當您登錄時，服務會要求您使用您的私鑰“簽署”一些數據。 這樣做的好處是，服務不會儲存密碼資料，因此對手無從竊取任何東西。
 
-This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and discussion of FIDO2 and [WebAuthn](https://webauthn.guide) standards.
+這份簡報探討了密碼驗證的歷史，陷阱（如密碼重用）以及FIDO2 和 [WebAuthn](https://webauthn.guide) 標準等課題。
 
 <div class="yt-embed">
-  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/aMo4ZlWznao?local=true" title="How FIDO2 and WebAuthn Stop Account Takeovers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/aMo4ZlWznao?local=true" title="FIDO2 和 WebAuthn 如何防止帳戶接管" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-FIDO2 and WebAuthn have superior security and privacy properties when compared to any MFA methods.
+相較於其它 MFA方法， FIDO2 和 WebAuthn 具有卓越的安全和隱私特點。
 
-Typically for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). It uses public key authentication and is more secure than shared secrets used in Yubico OTP and TOTP methods, as it includes the origin name (usually, the domain name) during authentication. Attestation is provided to protect you from phishing attacks, as it helps you to determine that you are using the authentic service and not a fake copy.
+通Web服務通常與 WebAuthn 一起使用， 這是來自 [W3C 的建議](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC))。 它使用公鑰驗證，並且比在 Yubico OTP 和 TOTP 使用的共享機密更安全，因為它在驗證期間包括原始名稱（通常是域名）。 提供證明以保護您免受網路釣魚攻擊，以幫助您確定使用真實服務而不是假網站服務。
 
-Unlike Yubico OTP, WebAuthn does not use any public ID, so the key is **not** identifiable across different websites. It also does not use any third-party cloud server for authentication. All communication is completed between the key and the website you are logging into. FIDO also uses a counter which is incremented upon use in order to prevent session reuse and cloned keys.
+與 Yubico OTP不同，WebAuthn不使用任何公共ID ，因此密鑰 **無法** 被不同網站識別。 它也不使用任何第三方雲端伺服器進行驗證。 所有通訊都已在密鑰和所登入的網站之間完成。 FIDO 還使用計數器，該計數器在使用時會增加，以防止期間重用和克隆密鑰。
 
-If a website or service supports WebAuthn for the authentication, it is highly recommended that you use it over any other form of MFA.
+如果網站或服務支援 WebAuthn 驗證，強烈建議您使用它而不是其他形式的 MFA。
 
 ## 一般性建議
 
@@ -96,7 +96,7 @@ If a website or service supports WebAuthn for the authentication, it is highly r
 
 ### 我應該選擇哪種方法？
 
-When configuring your MFA method, keep in mind that it is only as secure as your weakest authentication method you use. This means it is important that you only use the best MFA method available. For instance, if you are already using TOTP, you should disable email and SMS MFA. If you are already using FIDO2/WebAuthn, you should not be using Yubico OTP or TOTP on your account.
+設置MFA 方法時，請記住，它的安全程度與您使用的最弱的身份驗證方法一樣。 這意味著您只需使用的最佳MFA方法。 例如，如果您已經使用TOTP ，您應該禁用電子郵件和SMS MFA。 如果您已經使用 FIDO2/WebAuthn ，則不應該在您的帳戶上使用 Yubico OTP 或TOTP。
 
 ### 備份
 
@@ -104,31 +104,31 @@ When configuring your MFA method, keep in mind that it is only as secure as your
 
 當與驗證器應用程式一起使用TOTP時，請務必備份您的恢復密鑰或應用程式本身，或將「共享機密」複製到不同手機上的應用程式的另一個實例或加密容器（例如 [VeraCrypt](../encryption.md#veracrypt)）。
 
-### Initial Set Up
+### 初始設定
 
-When buying a security key, it is important that you change the default credentials, set up password protection for the key, and enable touch confirmation if your key supports it. Products such as the YubiKey have multiple interfaces with separate credentials for each one of them, so you should go over each interface and set up protection as well.
+購買安全金鑰時，請務必變更預設憑證、為金鑰設定密碼保護，並在金鑰支援時啟用觸控確認。 YubiKey 等產品有多重介面，各有其獨立憑證，因此您應該仔細查看每個介面並設置保護。
 
-### Email and SMS
+### 電子郵件和簡訊
 
-If you have to use email for MFA, make sure that the email account itself is secured with a proper MFA method.
+如果您必須使用電子郵件進行MFA ，請確保電子郵件帳戶本身具有適當的 MFA 方法。
 
-If you use SMS MFA, use a carrier who will not switch your phone number to a new SIM card without account access, or use a dedicated VoIP number from a provider with similar security to avoid a [SIM swap attack](https://en.wikipedia.org/wiki/SIM_swap_scam).
+如果您使用簡訊 MFA ，請選擇不會進行未授權的號碼切換的營營商，或使用具有類似安全性的專用VoIP 號碼，以避免 [SIM 交換攻擊](https://en.wikipedia.org/wiki/SIM_swap_scam)。
 
-[MFA tools we recommend](../multi-factor-authentication.md ""){.md-button}
+[我們推薦的 MFA 工具](../multi-factor-authentication.md ""){.md-button}
 
-## More Places to Set Up MFA
+## 更多設定MFA的地方
 
-Beyond just securing your website logins, multi-factor authentication can be used to secure your local logins, SSH keys or even password databases as well.
+除了保護您的網站登錄外，多因素身份驗證還可用於保護您的本地設備的登錄、 SSH 密鑰甚至密碼資料庫。
 
 ### Windows
 
-Yubico has a dedicated [Credential Provider](https://docs.microsoft.com/en-us/windows/win32/secauthn/credential-providers-in-windows) that adds Challenge-Response authentication for the username + password login flow for local Windows accounts. If you have a YubiKey with Challenge-Response authentication support, take a look at the [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/en-us/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), which will allow you to set up MFA on your Windows computer.
+Yubico 有專門的 [憑證提供者](https://docs.microsoft.com/en-us/windows/win32/secauthn/credential-providers-in-windows) ，為本地 Windows 帳戶在登錄流程添加了Challenge-Response 驗證。 如果您擁有具 Challenge-Response 驗證支援的 YubiKey ，請查看 [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/en-us/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide)，該指南將協助您在 Windows 電腦上設置MFA。
 
 ### macOS
 
-macOS 具有 [原生支援](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) 用於使用智慧卡(PIV)進行驗證。 If you have a smartcard or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smartcard/hardware security vendor's documentation and set up second factor authentication for your macOS computer.
+macOS 具有 [原生支援](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) 用於使用智慧卡(PIV)進行驗證。 如果您有支援 PIV 介面的智慧卡或硬體安全金鑰(例如 YubiKey) ，建議您遵循智慧卡/硬體安全供應商的文件，為您的macOS 電腦設定第二要素驗證。
 
-Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/en-us/articles/360016649059) which can help you set up your YubiKey on macOS.
+Yubico 指南 [在macOS](https://support.yubico.com/hc/en-us/articles/360016649059) 中使用 YubiKey 作為智慧卡，可幫助您在 macOS 設置 YubiKey。
 
 設定智慧卡/安全金鑰後，我們建議您在終端機中執行此命令：
 
@@ -136,30 +136,30 @@ Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://suppor
 sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLogin -bool YES
 ```
 
-The command will prevent an adversary from bypassing MFA when the computer boots.
+該指令會防止對手在電腦啟動時繞過 MFA。
 
 ### Linux
 
-!!! warning
+!!! 警告
 
-    If the hostname of your system changes (such as due to DHCP), you would be unable to login. It is vital that you set up a proper hostname for your computer before following this guide.
+    如果系統主機名稱發生變更（例如由於 DHCP ） ，您將無法登入。 在遵循本指南之前，為您的電腦設置正確的主機名至關重要。
 
-The `pam_u2f` module on Linux can provide two-factor authentication for logging in on most popular Linux distributions. If you have a hardware security key that supports U2F, you can set up MFA authentication for your login. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. The package manager commands—such as `apt-get`—and package names may however differ. This guide does **not** apply to Qubes OS.
+Linux 上的 `pam_u2f` 模組可以提供雙因素驗證，以便在最流行的 Linux 發行版上登錄。 如果您有支援 U2F 的硬體安全金鑰，可以為您的登入設定 MFA 驗證。 Yubico有一個 [Ubuntu Linux 登錄指南- U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) ，應該適用於任何發行版。 軟體包管理器指令（例如 `apt-get`）和軟體包名稱可能不同。 本指南 **不適用於**  Qubes OS.
 
 ### Qubes OS
 
-Qubes OS has support for Challenge-Response authentication with YubiKeys. If you have a YubiKey with Challenge-Response authentication support, take a look at the Qubes OS [YubiKey documentation](https://www.qubes-os.org/doc/yubikey/) if you want to set up MFA on Qubes OS.
+Qubes OS 支援 YubiKeys 進行 Challenge-Response 驗證。 如果您擁有具 Challenge-Response 驗證支援的 YubiKey ，請查看 Qubes OS [YubiKey 文檔](https://www.qubes-os.org/doc/yubikey/) ，以在Qubes OS 設置 MFA。
 
 ### SSH
 
-#### Hardware Security Keys
+#### 硬件安全金鑰
 
-SSH MFA could be set up using multiple different authentication methods that are popular with hardware security keys. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH/) on how to set this up.
+SSH MFA 可以使用多種不同的身份驗證方法進行設置，這些方法在硬體安全金鑰中很受歡迎。 建議您查看 Yubico  [文件檔](https://developers.yubico.com/SSH/) ，了解如何設置此功能。
 
 #### 暫時性的一次性密碼 (TOTP)
 
-SSH MFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Most things should be the same regardless of distribution, however the package manager commands—such as `apt-get`—and package names may differ.
+SSH MFA 也可以使用 TOTP 設定。 DigitalOcean 提供教學 [如何在 Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04) 為 SSH 設置多因素身份驗證。 無論是哪一個發行版本，大多數操作方式都相同，但是軟體包管理器命令-例如 `apt-get`-和軟體包名稱可能不同。
 
-### KeePass (and KeePassXC)
+### KeePass （和KeePassXC ）
 
-KeePass and KeePassXC databases can be secured using Challenge-Response or HOTP as a second-factor authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
+KeePass 和 KeePassXC 資料庫可以使用 Challenge-Response 或 HOTP 作為第二要素驗證進行密碼保護。 Yubico 提供了一份 KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) 文件， [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) 網站上也有一份。

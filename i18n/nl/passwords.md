@@ -2,6 +2,118 @@
 title: "Wachtwoord managers"
 icon: material/form-textbox-password
 description: Met wachtwoord Managers kunt je wachtwoorden en andere geheimen veilig opslaan en beheren met behulp van een hoofdwachtwoord.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": WebPage
+    name: Password Manager Recommendations
+    url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Bitwarden
+    image: /assets/img/password-management/bitwarden.svg
+    url: https://bitwarden.com
+    sameAs: https://en.wikipedia.org/wiki/Bitwarden
+    applicationCategory: Wachtwoord Manager
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+      - Android
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: 1Password
+    image: /assets/img/password-management/1password.svg
+    url: https://1password.com
+    sameAs: https://en.wikipedia.org/wiki/1Password
+    applicationCategory: Wachtwoord Manager
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+      - Android
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Psono
+    image: /assets/img/password-management/psono.svg
+    url: https://psono.com
+    applicationCategory: Wachtwoord Manager
+    operatingSystem:
+      - Android
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: KeePassXC
+    image: /assets/img/password-management/keepassxc.svg
+    url: https://keepassxc.org/
+    sameAs: https://en.wikipedia.org/wiki/KeePassXC
+    applicationCategory: Wachtwoord Manager
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: KeePassDX
+    image: /assets/img/password-management/keepassdx.svg
+    url: https://www.keepassdx.com/
+    applicationCategory: Wachtwoord Manager
+    operatingSystem: Android
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Strongbox
+    image: /assets/img/password-management/strongbox.svg
+    url: https://strongboxsafe.com/
+    applicationCategory: Wachtwoord Manager
+    operatingSystem: iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: gopass
+    image: /assets/img/password-management/gopass.svg
+    url: https://www.gopass.pw/
+    applicationCategory: Wachtwoord Manager
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+      - FreeBSD
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
 ---
 
 Met wachtwoord Managers kunt je wachtwoorden en andere geheimen veilig opslaan en beheren met behulp van een hoofdwachtwoord.
@@ -106,7 +218,7 @@ Psono biedt uitgebreide documentatie voor hun product. De web-client voor Psono 
 
 ### Criteria
 
-**Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je zich vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat het de juiste keuze voor je is.
+**Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
 
 !!! example "Deze sectie is nieuw"
 
@@ -220,7 +332,7 @@ Deze producten zijn minimale wachtwoordmanagers die kunnen worden gebruikt binne
 
 ### Criteria
 
-**Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je zich vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat het de juiste keuze voor je is.
+**Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
 
 !!! example "Deze sectie is nieuw"
 

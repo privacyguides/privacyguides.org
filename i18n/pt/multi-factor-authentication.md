@@ -28,7 +28,7 @@ Para modelos que suportam HOTP e TOTP, existem 2 slots na interface OTP que pode
 !!! atenção
     O firmware do YubiKeys não são de código aberto e não são actualizáveis. If you want features in newer firmware versions, or if there is a vulnerability in the firmware version you are using, you would need to purchase a new key.
 
-### Nitrokey / Librem Key
+### Nitrokey
 
 !!! nota
     Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
@@ -55,14 +55,9 @@ Para os modelos que suportam HOTP e TOTP, existem 3 slots para HOTP e 15 para TO
 
     Resetting the OpenPGP interface on a Nitrokey will also make the password database [inaccessible](https://docs.nitrokey.com/pro/factory-reset.html).
 
- The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports system integrity verification for laptops with the [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware. Purism's [Librem Key](https://puri.sm/products/librem-key/) is a rebranded NitroKey Pro 2 with similar firmware and can also be used for the same purposes.
+The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports system integrity verification for laptops with the [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware.
 
 Nitrokey's firmware is open-source, unlike the YubiKey. The firmware on modern NitroKey models (except the **NitroKey Pro 2**) is updatable.
-
-!!! aviso
-     Backup `BitLocker-Recovery-Key.txt` em um dispositivo de armazenamento separado.
-
-    O aplicativo Nitrokey, embora compatível com Librem Keys, requer o `libnitrokey` versão 3.6 ou superior para reconhecê-los. Atualmente, o pacote está desatualizado no Windows, macOS e no repositório da maioria das distribuições Linux, então você provavelmente terá que compilar você mesmo o aplicativo Nitrokey para colocá-lo funcionando com a Chave Librem. No Linux, você pode obter uma versão atualizada de [Flathub](https://flathub.org/apps/details/com.nitrokey.nitrokey-app).
 
 ### Framadate
 

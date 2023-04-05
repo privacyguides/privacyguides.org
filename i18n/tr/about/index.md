@@ -1,18 +1,29 @@
 ---
-template: schema.html
 title: "Privacy Guides Hakkında"
 description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
+schema:
+  "@context": https://schema.org
+  "@type": Organization
+  "@id": https://www.privacyguides.org/
+  name: Privacy Guides
+  url: https://www.privacyguides.org/en/about/
+  logo: https://www.privacyguides.org/en/assets/brand/png/square/pg-yellow.png
+  sameAs:
+    - https://twitter.com/privacy_guides
+    - https://github.com/privacyguides
+    - https://www.wikidata.org/wiki/Q111710163
+    - https://opencollective.com/privacyguides
+    - https://www.youtube.com/@privacyguides
+    - https://mastodon.neat.computer/@privacyguides
 ---
 
 ![Privacy Guides logo](../assets/brand/png/square/pg-yellow.png){ align=right }
 
-**Privacy Guides** is a socially motivated website that provides [information](/kb) for protecting your data security and privacy. Tamamen gönüllü [ekip üyeleri](https://discuss.privacyguides.net/g/team) ve katkıda bulunanlar tarafından işletilen, kâr amacı gütmeyen bir kolektifiz. Our website is free of advertisements and not affiliated with any listed providers.
+**Privacy Guides** is a socially motivated website that provides [information](/kb) for protecting your data security and privacy. Our mission is to inform the public about the value of digital privacy, and global government initiatives which aim to monitor your online activity. Tamamen gönüllü [ekip üyeleri](https://discuss.privacyguides.net/g/team) ve katkıda bulunanlar tarafından işletilen, kâr amacı gütmeyen bir kolektifiz. Our website is free of advertisements and not affiliated with any of the listed providers.
 
 [:octicons-home-16:](https://www.privacyguides.org/){ .card-link title=Homepage }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
 [:octicons-heart-16:](donate.md){ .card-link title=Contribute }
-
-The purpose of Privacy Guides is to educate our community on the importance of privacy online and government programs internationally that are designed to monitor all of your online activities.
 
 > To find [privacy-focused alternative] apps, check out sites like Good Reports and **Privacy Guides**, which list privacy-focused apps in a variety of categories, notably including email providers (usually on paid plans) that aren’t run by the big tech companies.
 
@@ -22,7 +33,7 @@ The purpose of Privacy Guides is to educate our community on the importance of p
 
 — [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Translated from Dutch]
 
-Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], and [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
+Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], [NPO Radio 1](https://www.nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), and [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
 
 ## History
 
@@ -76,13 +87,15 @@ So far in 2023 we've launched international translations of our website in [Fren
     - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
-Ekibimizin haricinde [birçok kişi](https://github.com/privacyguides/privacyguides.org/graphs/contributors) projeye katkıda bulunmuştur. You can too, we're open sourced on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
+Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open sourced on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
-Ekip üyelerimiz web sitesinde yapılan tüm değişiklikleri gözden geçirir; web sitesini yayınlama ve finans gibi idari görevleri yerine getirir, ancak bu siteye yapılan herhangi bir katkıdan kişisel olarak kar elde etmezler. Finansal bilgilerimiz Open Collective Foundation 501(c)(3) tarafından [opencollective.com/privacyguides](https://opencollective.com/privacyguides)adresinde şeffaf bir şekilde barındırılmaktadır. Donations to Privacy Guides are generally tax-deductible in the United States.
+Our team members review all changes made to the website and handle administrative duties such as web hosting and financials, however they do not personally profit from any contributions made to this site. Our financials are transparently hosted by the Open Collective Foundation 501(c)(3) at [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Donations to Privacy Guides are generally tax-deductible in the United States.
 
 ## Site Lisansı
 
-*Aşağıda, [lisansın ](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE)okunabilir bir özeti(asıl lisansın yerine geçmez) yer almaktadır:*
+!!! danger ""
+
+    The following is a human-readable summary of (and not a substitute for) the [license](/license).
 
 :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Aksi belirtilmedikçe, bu web sitesindeki orijinal içerik [Creative Commons Attribution-NoDerivatives 4.0 Uluslararası Kamu Lisansı](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE) altında kullanıma sunulmuştur. Bu, `Privacy Guides (www.privacyguides.org)` adresine uygun şekilde atıfta bulunduğunuz ve lisansa bir bağlantı verdiğiniz sürece, materyali ticari olarak bile herhangi bir amaçla herhangi bir ortamda veya formatta kopyalamakta ve yeniden dağıtmakta özgür olduğunuz anlamına gelir. Bunu herhangi bir makul bir şekilde yapabilirsiniz, ancak Gizlilik Kılavuzları (Privacy Guides) sizi veya kullanımınızı onayladığı hiçbir şekilde değil. Bu web sitesinin içeriğini yeniden düzenler, dönüştürür veya oluşturursanız, değiştirilen materyali dağıtamazsınız.
 

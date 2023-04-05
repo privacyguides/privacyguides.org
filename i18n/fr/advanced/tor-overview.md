@@ -6,11 +6,19 @@ description: Tor est un réseau décentralisé, gratuit, conçu pour utiliser In
 
 Tor est un réseau décentralisé, gratuit, conçu pour utiliser Internet avec le plus de confidentialité possible. S'il est utilisé correctement, le réseau permet une navigation et des communications privées et anonymes.
 
-## Construction d'un chemin
+## Création de chemins vers les services de surface
 
-Tor fonctionne en acheminant votre trafic à travers un réseau composé de milliers de serveurs gérés par des volontaires, appelés nœuds (ou relais).
+Les "services de surface" sont des sites web auxquels vous pouvez accéder avec n'importe quel navigateur, comme [privacyguides.org](https://www.privacyguides.org). Tor vous permet de vous connecter à ces sites web de manière anonyme en acheminant votre trafic via un réseau composé de milliers de serveurs gérés par des bénévoles et appelés nœuds (ou relais).
 
-Chaque fois que vous vous connectez à Tor, il choisira trois nœuds pour construire un chemin vers Internet - ce chemin est appelé un "circuit". Chacun de ces nœuds a sa propre fonction:
+Chaque fois que vous [vous connectez à Tor](../tor.md), il choisit trois nœuds pour construire un chemin vers Internet - ce chemin est appelé "circuit"
+
+<figure markdown>
+  ![Chemin Tor montrant votre appareil se connectant à un noeud d'entrée, un noeud central et un noeud de sortie avant d'atteindre le site web de destination](../assets/img/how-tor-works/tor-path.svg#only-light)
+  ![Chemin Tor montrant votre appareil se connectant à un noeud d'entrée, un noeud central et un noeud de sortie avant d'atteindre le site web de destination](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Chemin du circuit Tor</figcaption>
+</figure>
+
+Chacun de ces nœuds a sa propre fonction:
 
 ### Le nœud d'entrée
 
@@ -30,10 +38,16 @@ Le nœud de sortie est le point où votre trafic web quitte le réseau Tor et es
 
 Le noeud de sortie sera choisi au hasard parmi tous les noeuds Tor disponibles et exécutés avec une balise "relais de sortie".[^2]
 
-<figure markdown>
-  ![Tor path](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Chemin du circuit Tor</figcaption>
+## Création de chemins vers les services onion
+
+Les "services onion" (également communément appelés "services cachés") sont des sites web auxquels on ne peut accéder qu'au moyen du navigateur Tor. Ces sites web ont un long nom de domaine généré de manière aléatoire et se terminant par `.onion`.
+
+La connexion à un service onion dans Tor fonctionne de manière très similaire à la connexion à un service de surface, mais votre trafic est acheminé à travers un total de **six nœuds** avant d'atteindre le serveur de destination. Cependant, comme auparavant, seuls trois de ces nœuds contribuent à *votre* anonymat, les trois autres nœuds protègent *l'anonymat du service onion*, en cachant la véritable IP et la localisation du site web de la même manière que le navigateur Tor cache les vôtres.
+
+<figure style="width:100%" markdown>
+  ![Chemin Tor montrant votre trafic acheminé à travers vos trois noeuds Tor plus trois noeuds Tor supplémentaires qui cachent l'identité du site web](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Chemin Tor montrant votre trafic acheminé à travers vos trois noeuds Tor plus trois noeuds Tor supplémentaires qui cachent l'identité du site web](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Chemin du circuit Tor avec des services onion. Les nœuds de la zone <span class="pg-blue">bleue</span> appartiennent à votre navigateur, tandis que les nœuds de la zone <span class="pg-red">rouge</span> appartiennent au serveur, de sorte que leur identité vous est cachée.</figcaption>
 </figure>
 
 ## Chiffrement

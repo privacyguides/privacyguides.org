@@ -2,6 +2,41 @@
 title: "Navigateurs de bureau"
 icon: material/laptop
 description: Firefox et Brave sont nos recommandations pour la navigation standard/non anonyme.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": WebPage
+    name: Recommandations de navigateurs de bureau privés
+    url: "./"
+    relatedLink: "../mobile-browsers/"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Firefox
+    image: /assets/img/browsers/firefox.svg
+    url: https://firefox.com
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Brave
+    image: /assets/img/browsers/brave.svg
+    url: https://brave.com
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+    subjectOf:
+      "@type": WebPage
+      url: "./"
 ---
 
 Ce sont les navigateurs web de bureau et les configurations que nous recommandons actuellement pour une navigation classique/non anonyme. Si vous avez besoin de naviguer anonymement sur Internet, vous devriez plutôt utiliser [Tor](tor.md). D'une manière générale, nous vous recommandons de limiter au maximum les extensions de votre navigateur ; elles ont un accès privilégié dans votre navigateur, vous obligent à faire confiance au développeur, peuvent vous faire [sortir du lot](https://fr.wikipedia.org/wiki/Empreinte_digitale_d%27appareil), et [affaiblir](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) l'isolation des sites.

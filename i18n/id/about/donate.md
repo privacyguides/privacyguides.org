@@ -3,17 +3,17 @@ title: Dukung Kami
 ---
 
 <!-- markdownlint-disable MD036 -->
-It takes a lot of [people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spreading the word about privacy and mass surveillance. If you like what we do, consider getting involved by [editing the site](https://github.com/privacyguides/privacyguides.org) or [contributing translations](https://crowdin.com/project/privacyguides).
+Dibutuhkan banyak [orang](https://github.com/privacyguides/privacyguides.org/graphs/contributors) dan [pekerjaan](https://github.com/privacyguides/privacyguides.org/pulse/monthly) untuk terus memperbarui Privacy Guides dan menyebarkan berita tentang privasi dan pengawasan massal. Jika Anda menyukai apa yang kami lakukan, pertimbangkan untuk terlibat dengan [menyunting situs](https://github.com/privacyguides/privacyguides.org) atau [berkontribusi terjemahan](https://crowdin.com/project/privacyguides).
 
 Jika Anda ingin mendukung kami secara finansial, metode yang paling mudah bagi kami adalah berkontribusi melalui Open Collective, sebuah situs web yang dioperasikan oleh host fiskal kami. Open Collective menerima pembayaran melalui kartu kredit/debit, PayPal, dan transfer bank.
 
 [Donasi di OpenCollective.com](https://opencollective.com/privacyguides/donate ""){.md-button.md-button--primary}
 
-Donations made directly to us on Open Collective are generally tax-deductible in the US, because our fiscal host (the Open Collective Foundation) is a registered 501(c)3 organization. Anda akan menerima tanda terima dari Open Collective Foundation setelah berdonasi. Privacy Guides tidak memberikan saran keuangan, dan Anda harus menghubungi penasihat pajak Anda untuk mengetahui apakah ini berlaku untuk Anda.
+Donasi yang diberikan secara langsung kepada kami di Open Collective umumnya dapat dikurangkan dari pajak di Amerika Serikat, karena tuan rumah fiskal kami (Open Collective Foundation) adalah organisasi 501(c)3 yang terdaftar. Anda akan menerima tanda terima dari Open Collective Foundation setelah berdonasi. Privacy Guides tidak memberikan saran keuangan, dan Anda harus menghubungi penasihat pajak Anda untuk mengetahui apakah ini berlaku untuk Anda.
 
 Jika Anda sudah menggunakan sponsor GitHub, Anda juga dapat mensponsori organisasi kami di sana.
 
-[Sponsor us on GitHub](https://github.com/sponsors/privacyguides ""){.md-button}
+[Sponsori kami di GitHub](https://github.com/sponsors/privacyguides ""){.md-button}
 
 ## Pendukung
 
@@ -47,4 +47,4 @@ Kami menghost [layanan internet](https://privacyguides.net) untuk menguji dan me
 
 Kami terkadang membeli produk dan layanan untuk tujuan menguji [alat yang kami rekomendasikan](../tools.md).
 
-We are still working with our fiscal host (the Open Collective Foundation) to receive cryptocurrency donations, at the moment the accounting is unfeasible for many smaller transactions, but this should change in the future. Sementara itu, jika Anda ingin memberikan donasi mata uang kripto dalam jumlah yang cukup besar (> $100), silakan hubungi [jonah@privacyguides.org](mailto:jonah@privacyguides.org).
+Kami masih bekerja sama dengan tuan rumah fiskal kami (Open Collective Foundation) untuk menerima donasi mata uang kripto, saat ini penghitungannya tidak memungkinkan untuk banyak transaksi yang lebih kecil, tetapi hal ini akan berubah di masa depan. Sementara itu, jika Anda ingin memberikan donasi mata uang kripto dalam jumlah yang cukup besar (> $100), silakan hubungi [jonah@privacyguides.org](mailto:jonah@privacyguides.org).

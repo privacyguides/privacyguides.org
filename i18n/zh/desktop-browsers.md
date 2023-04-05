@@ -2,6 +2,41 @@
 title: "电脑浏览器"
 icon: material/laptop
 description: Firefox and Brave are our recommendations for standard/non-anonymous browsing.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": WebPage
+    name: Private Desktop Browser Recommendations
+    url: "./"
+    relatedLink: "../mobile-browsers/"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Firefox（火狐浏览器）
+    image: /assets/img/browsers/firefox.svg
+    url: https://firefox.com
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Windows 系统
+      - mac系统
+      - Linux系统
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Brave
+    image: /assets/img/browsers/brave.svg
+    url: https://brave.com
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Windows 系统
+      - mac系统
+      - Linux系统
+    subjectOf:
+      "@type": WebPage
+      url: "./"
 ---
 
 这些是我们目前推荐的用于标准/非匿名浏览的桌面网络浏览器和配置。 如果您需要匿名浏览互联网，则应使用 [Tor](tor.md) 。 一般来说，我们建议尽量减少你的浏览器扩展；它们在你的浏览器内有特权访问，需要你信任开发者，可以使你 [，突出](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)，并且 [，削弱](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) 网站隔离。

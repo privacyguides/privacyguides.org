@@ -1,7 +1,5 @@
 ---
-title: "Pemberitahuan dan Penafian"
-hide:
-  - toc
+title: "Notices and Disclaimers"
 ---
 
 ## Penafian Hukum
@@ -14,21 +12,26 @@ Privacy Guides adalah proyek sumber terbuka yang dikontribusikan di bawah lisens
 
 Privacy Guides juga tidak menjamin bahwa situs web ini akan selalu tersedia, atau tersedia sama sekali.
 
-## Lisensi
+## Licensing Overview
 
-Kecuali dinyatakan lain, semua konten di situs web ini tersedia di bawah ketentuan [Creative Commons Atribusi-TanpaTurunan 4.0 Internasional](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE).
+!!! danger ""
+
+    The following is a human-readable summary of (and not a substitute for) the [license](/license).
+
+Unless otherwise noted, all **content** on this website is made available under the terms of the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). The underlying **source code** used to generate this website and display that content is released under the [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 
 Ini tidak termasuk kode pihak ketiga yang tertanam dalam repositori ini, atau kode di mana lisensi pengganti dinyatakan. Berikut ini adalah contoh penting, tetapi daftar ini mungkin tidak mencakup semuanya:
 
-* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/mathjax.js) dilisensikan di bawah [Lisensi Apache 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
-
-Bagian dari pemberitahuan ini sendiri diadopsi dari [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) di GitHub. Sumber daya tersebut dan laman ini sendiri dirilis di bawah [CC-BY-4.0](https://github.com/github/opensource.guide/blob/master/LICENSE).
+* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) is licensed under the [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
+* The [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
+* The [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
+* The [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
 
 Ini berarti bahwa Anda dapat menggunakan konten yang dapat dibaca manusia dalam repositori ini untuk proyek Anda sendiri, sesuai dengan persyaratan yang diuraikan dalam teks Creative Commons Atribusi-TanpaTurunan 4.0 Internasional. Anda dapat melakukannya dengan cara yang wajar, tetapi tidak dengan cara apa pun yang menyarankan Privacy Guides mendukung Anda atau penggunaan Anda. Anda **tidak boleh** menggunakan merek Privacy Guides dalam proyek Anda sendiri tanpa persetujuan tertulis dari proyek ini. Merek dagang merek Privacy Guides mencakup tanda kata "Privacy Guides" dan logo perisai.
 
 Kami percaya bahwa logo dan gambar lain dalam `aset` yang diperoleh dari penyedia pihak ketiga berada dalam domain publik atau **penggunaan wajar**. Secara singkat, hukum [doktrin penggunaan wajar](https://www.copyright.gov/fair-use/more-info.html) memungkinkan penggunaan gambar berhak cipta untuk mengidentifikasi materi pelajaran untuk tujuan komentar publik. Namun, logo ini dan gambar lainnya mungkin masih tunduk pada undang-undang merek dagang di satu atau lebih yurisdiksi. Sebelum menggunakan konten ini, pastikan bahwa konten tersebut digunakan untuk mengidentifikasi entitas atau organisasi yang memiliki merek dagang dan bahwa Anda memiliki hak untuk menggunakannya berdasarkan hukum yang berlaku dalam situasi yang Anda inginkan. *Ketika menyalin konten dari situs web ini, Anda bertanggung jawab penuh untuk memastikan bahwa Anda tidak melanggar merek dagang atau hak cipta orang lain.*
 
-Ketika Anda berkontribusi pada repositori ini, Anda melakukannya di bawah lisensi di atas, dan Anda memberi Privacy Guides lisensi yang abadi, di seluruh dunia, noneksklusif, dapat dipindahtangankan, bebas royalti, dan tidak dapat dibatalkan dengan hak untuk mensublisensikan hak-hak tersebut melalui beberapa tingkatan penerima sublisensi, untuk mereproduksi, memodifikasi, menampilkan, menampilkan, melakukan, dan mendistribusikan kontribusi Anda sebagai bagian dari proyek kami.
+When you contribute to our website you are doing so under the above licenses, and you are granting Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
 
 ## Penggunaan yang Dapat Diterima
 
@@ -41,3 +44,7 @@ Anda tidak boleh melakukan aktivitas pengumpulan data secara sistematis atau oto
 * Mengikis
 * Penambangan Data
 * 'Pembingkaian' (IFrame)
+
+---
+
+*Bagian dari pemberitahuan ini sendiri diadopsi dari [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) di GitHub. That resource and this page itself are released under [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

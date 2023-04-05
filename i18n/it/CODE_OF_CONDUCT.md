@@ -10,7 +10,7 @@
 
 What we expect from members of our communities:
 
-1. **Don't spread misinformation**
+1. **Non diffondere disinformazione**
 
       We are creating an evidence-based educational community around information privacy and security, not a home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive, explain in detail what is collected and how it collected. Claims of this nature must be backed by technical evidence.
 
@@ -34,7 +34,7 @@ The following behaviors are considered harassment and are unacceptable within ou
 
 - The use of sexualized language or imagery, and sexual attention or advances of any kind
 - Trolling, insulting or derogatory comments, and personal or political attacks
-- Public or private harassment
+- Molestie pubbliche o private
 - Publishing others' private information, such as a physical or email address, without their explicit permission
 - Other conduct which could reasonably be considered inappropriate in a professional setting
 

@@ -6,11 +6,19 @@ description: Tor is een gratis te gebruiken, gedecentraliseerd netwerk dat is on
 
 Tor is een gratis te gebruiken, gedecentraliseerd netwerk dat is ontworpen om het internet met zoveel mogelijk privacy te gebruiken. Bij correct gebruik maakt het netwerk privé en anoniem browsen en communicatie mogelijk.
 
-## Route opbouwen
+## Opbouw van het pad naar Clearnet diensten
 
-Tor werkt door jouw webverkeer te routeren via een netwerk dat bestaat uit duizenden vrijwillig gerunde servers die knooppunten (of nodes/relays) worden genoemd.
+"Clearnet diensten" zijn websites die je met elke browser kunt bezoeken, zoals [privacyguides.org](https://www.privacyguides.org). Met Tor kun je anoniem verbinding maken met deze websites door je verkeer door een netwerk te leiden dat bestaat uit duizenden vrijwillig gerunde servers die nodes (of relays) worden genoemd.
 
-Elke keer dat u verbinding maakt met Tor, kiest het drie knooppunten om een pad naar het internet te bouwen - dit pad wordt een "circuit" genoemd Elk van deze knooppunten heeft zijn eigen functie: Elk van deze knooppunten heeft zijn eigen functie:
+Telkens wanneer je [verbinding maakt met Tor](../tor.md), zal het drie nodes kiezen om een pad naar het internet te bouwen; dit pad wordt een "circuit" genoemd
+
+<figure markdown>
+  Tor-pad waarop jouw apparaat verbinding maakt met een ingangsknooppunt, middelste knooppunt en uitgangsknooppunt voordat de website van bestemming wordt bereikt](../assets/img/how-tor-works/tor-path.svg#only-light)
+  ![Tor-pad waarop jouw apparaat verbinding maakt met een ingangsknooppunt, middelste knooppunt en uitgangsknooppunt voordat de website van bestemming wordt bereikt](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Tor-circuitroute</figcaption>
+</figure>
+
+Elk van deze knooppunten heeft zijn eigen functie:
 
 ### De Entry Node
 
@@ -30,10 +38,16 @@ De exit node is het punt waar je webverkeer het Tor netwerk verlaat en wordt doo
 
 De exit node wordt willekeurig gekozen uit alle beschikbare Tor-knooppunten met een exit-relaisvlag.[^2]
 
-<figure markdown>
-  ![Tor-pad](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor-pad](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor-circuitpad</figcaption>
+## Opbouw van het pad naar onion diensten
+
+"Onion Services" (ook wel "verborgen diensten" genoemd) zijn websites die alleen toegankelijk zijn via de Tor-browser. Deze websites hebben een lange willekeurig gegenereerde domeinnaam die eindigt op `.onion`.
+
+Verbinden met een Onion Service in Tor werkt ongeveer hetzelfde als verbinden met een clearnet service, maar je verkeer wordt door een totaal van **zes** nodes geleid voordat het de bestemmingsserver bereikt. Net als voorheen dragen echter slechts drie van deze knooppunten bij tot *jouw* anonimiteit, de andere drie knooppunten beschermen *de Onion Service's* anonimiteit, door het ware IP en de locatie van de website te verbergen op dezelfde manier als Tor Browser die van jou verbergt.
+
+<figure style="width:100%" markdown>
+  Tor-pad dat ujouw verkeer via uw drie Tor-knooppunten leidt plus drie extra Tor-knooppunten die de identiteit van de website verbergen](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Tor pad dat jouw verkeer toont dat door uw drie Tor nodes wordt geleid plus drie extra Tor nodes die de identiteit van de website verbergen](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Tor circuit pad met Onion Services. </span></span> Knooppunten in het blauwe <span class="pg-blue">hek behoren tot jouw browser, terwijl knooppunten in het rode <span class="pg-red">hek tot de server behoren, zodat hun identiteit voor jou verborgen blijft.</figcaption>
 </figure>
 
 ## Encryptie

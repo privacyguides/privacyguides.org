@@ -2,9 +2,44 @@
 title: "Browser desktop"
 icon: material/laptop
 description: Firefox and Brave are our recommendations for standard/non-anonymous browsing.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": WebPage
+    name: Private Desktop Browser Recommendations
+    url: "./"
+    relatedLink: "../mobile-browsers/"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Firefox
+    image: /assets/img/browsers/firefox.svg
+    url: https://firefox.com
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Brave
+    image: /assets/img/browsers/brave.svg
+    url: https://brave.com
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+    subjectOf:
+      "@type": WebPage
+      url: "./"
 ---
 
-Questi sono i browser e le configurazioni per desktop attualmente consigliati per la navigazione standard/non anonima. Se hai bisogno di navigare in Internet in modo anonimo, dovresti invece utilizzare [Tor](tor.md). In generale, si consiglia di ridurre al minimo le estensioni del browser; hanno un accesso privilegiato all'interno del browser, richiedono fiducia nello sviluppatore, possono farti [risaltare](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)e [indebolire l'isolamento del sito](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ).
+Questi sono i browser e le configurazioni per desktop attualmente consigliati per la navigazione standard/non anonima. Se hai bisogno di navigare in Internet in modo anonimo, dovresti invece usare [Tor](tor.md). In generale, si consiglia di ridurre al minimo le estensioni del browser; hanno un accesso privilegiato all'interno del browser, richiedono fiducia nello sviluppatore, possono farti [risaltare](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)e [indebolire l'isolamento del sito](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ).
 
 ## Firefox
 
@@ -30,7 +65,7 @@ Questi sono i browser e le configurazioni per desktop attualmente consigliati pe
 !!! warning
     Firefox include un [token di download](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) univoco nella sezione dei download del sito di Mozilla e utilizza la telemetria in Firefox per inviarlo. Il token **non** è incluso nelle versioni rilasciate dall'[FTP di Mozilla](https://ftp.mozilla.org/pub/firefox/releases/).
 
-### Firefox
+### Configurazione consigliata
 
 Il Tor Browser è l'unico che veramente permette di navigare Internet anonimamente. Quando utilizzi Firefox, si consiglia di modificare le seguenti impostazioni per proteggere la privacy da alcune parti, ma tutti i browser diversi da [Tor Browser](tor.md#tor-browser) saranno tracciabili da *qualcuno* in un modo o nell'altro.
 
@@ -110,9 +145,9 @@ Il progetto [Arkenfox](https://github.com/arkenfox/user.js) fornisce un insieme 
 
     1. Sconsigliamo l'utilizzo della versione Flatpack di Brave, in quanto rimpiazza il sandbox di Chromium con quello di Flatpak, il quale è meno efficace. Inoltre, il pacchetto non è gestito da Brave Software, Inc.
 
-### Firefox
+### Configurazione consigliata
 
-Il Tor Browser è l'unico che veramente permette di navigare Internet anonimamente. Quando utilizzi Brave, consigliamo di cambiare le seguenti impostazioni per proteggere la tua privay da alcune parti, ma tutti i browser eccetto il [Tor Browser](tor.md#tor-browser) sono tracciabili da *qualcuno* in qualche modo.
+Il Tor Browser è l'unico che veramente permette di navigare Internet anonimamente. Quando usi Brave, consigliamo di cambiare le seguenti impostazioni per proteggere la tua privacy da terze parti, ma tutti i browser eccetto il [Tor Browser](tor.md#tor-browser) sono tracciabili da *qualcuno* in qualche modo.
 
 Queste opzioni possono essere trovare in :material-menu: → **Impostazioni**.
 
@@ -171,7 +206,7 @@ Disabilita le estensioni integrate che non utilizzi in **Estensioni**
 
 ##### IPFS
 
-L'InterPlanetary File System (IPFS) è una rete peer-to-peer e decentralizzata, utilizzata per archiviare e condividere dati mediante un filesystem distribuito. Se non utilizzi questa funzione, disabilitala.
+L'InterPlanetary File System (IPFS) è una rete peer-to-peer e decentralizzata, utilizzata per archiviare e condividere dati mediante un filesystem distribuito. Se non usi questa funzione, disattivala.
 
 - [x] Seleziona **Disabilitato** in Metodo per risolvere le risorse IPFS
 
@@ -246,7 +281,7 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 - Supports automatic updates.
 - Receives engine updates in 0-1 days from upstream release.
 - Available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
+- Qualsiasi modifica necessaria per rendere il browser più rispettoso della privacy non dovrebbe avere un impatto negativo sull'esperienza dell'utente.
 - Blocks third-party cookies by default.
 - Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
@@ -263,9 +298,9 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
 - Provides open-source sync server implementation.
 - Defaults to a [private search engine](search-engines.md).
 
-### Extension Criteria
+### Criteri delle estensioni
 
-- Must not replicate built-in browser or OS functionality.
-- Must directly impact user privacy, i.e. must not simply provide information.
+- Non deve replicare funzionalità integrate nel browser o del sistema operativo.
+- Deve avere un impatto diretto sulla privacy dell'utente, cioè non deve limitarsi a fornire informazioni.
 
 [^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).

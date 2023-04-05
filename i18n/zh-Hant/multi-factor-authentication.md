@@ -1,105 +1,101 @@
 ---
-title: "Multi-Factor Authenticators"
+title: "多重因素驗證"
 icon: 'material/two-factor-authentication'
-description: These tools assist you with securing your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
+description: 這些工具可協助您透過多重身份驗證保護網路帳戶，而無需將您的祕密傳送給第三方。
 ---
 
-## Hardware Security Keys
+## 安全金鑰硬體
 
 ### YubiKey
 
 !!! recommendation
 
-    ![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
+    ![YubiKeys](assets/img/multifactor-authentication/yubikey.png)
     
-    The **YubiKeys** are among the most popular security keys. Some YubiKey models have a wide range of features such as: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP/), [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
+    * * YubiKeys * *是最常用的安全金鑰之一。 有些 YubiKey 型號具廣泛的功能，例如： [Universal 2nd Factor (U2F)] (https://en.wikipedia.org/wiki/Universal_2nd_Factor)、[FIDO2 and WebAuthn] (basics/multifactor-authentication.md#fido-fast-identity-online)、[Yubico OTP] (basics/multifactor-authentication.md#yubico-otp)、[Personal Identity Verification (PIV)] (https://developers.yubico.com/PIV)、 [OpenPGP](https://developers.yubico.com/PGP/)、[TOTP and HOTP] (https://developers.yubico.com/OATH)驗證。
     
-    One of the benefits of the YubiKey is that one key can do almost everything (YubiKey 5), you could expect from a hardware security key. We do encourage you to take the [quiz](https://www.yubico.com/quiz/) before purchasing in order to make sure you make the right choice.
+    YubiKey 好處之一是，一支密鑰（ 例如 YubiKey 5 ）可以滿足對安全密鑰硬體的全部期待。 我們建議您在購買前先[作個小測驗](https://www.yubico.com/quiz/) ，以確保您做出正確的選擇。
     
     [:octicons-home-16: Homepage](https://www.yubico.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://docs.yubico.com/){ .card-link title=Documentation}
 
-The [comparison table](https://www.yubico.com/store/compare/) shows the features and how the YubiKeys compare. We highly recommend that you select keys from the YubiKey 5 Series.
+[比較表](https://www.yubico.com/store/compare/) 顯示了各型號 YubiKeys  功能比較。 我們強烈建議您從YubiKey 5系列中挑選。
 
-YubiKeys can be programmed using the [YubiKey Manager](https://www.yubico.com/support/download/yubikey-manager/) or [YubiKey Personalization Tools](https://www.yubico.com/support/download/yubikey-personalization-tools/). For managing TOTP codes, you can use the [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/). All of Yubico's clients are open-source.
+YubiKeys可以利用 [YubiKey Manager](https://www.yubico.com/support/download/yubikey-manager/) 或 [YubiKey Personalization Tools](https://www.yubico.com/support/download/yubikey-personalization-tools/)來收授指令。 若要管理 TOTP 代碼，您可以使用 [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)。 Yubico 所有客戶端軟體都是開源。
 
-For models which support HOTP and TOTP, there are 2 slots in the OTP interface which could be used for HOTP and 32 slots to store TOTP secrets. These secrets are stored encrypted on the key and never expose them to the devices they are plugged into. Once a seed (shared secret) is given to the Yubico Authenticator, it will only give out the six-digit codes, but never the seed. This security model helps limit what an attacker can do if they compromise one of the devices running the Yubico Authenticator and make the YubiKey resistant to a physical attacker.
+支持 HOTP 和 TOTP 的機型， OTP 介面中有2個插槽可用於HOTP 和32個插槽來存儲 TOTP 機密。 這些機密經加密後存儲在密鑰上，永遠不會將它們暴露在插入的設備上。 一旦向 Yubico Authenticator 提供種子（共享祕密） ，它將只會給出六位數的代碼，但永遠不會提供種子。 此安全模型有助於限制攻擊者，即便運行 Yubico Authenticator的設備受到破壞，讓受到物理攻擊時 Yubikey 仍具抵抗力。
 
-!!! warning
-    The firmware of YubiKey is not open-source and is not updatable. If you want features in newer firmware versions, or if there is a vulnerability in the firmware version you are using, you would need to purchase a new key.
+!!! 警告
+    YubiKey 軔體沒有開源，不可更新。 如果您想要使用較新韌體版本的功能，或者使用中的韌體版本存在漏洞，則需要購買新的金鑰。
 
-### Nitrokey / Librem Key
+### Nitrokey
 
 !!! recommendation
 
-    ![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
+    ![Nitrokey](assets/img/multifactor-authentication/nitrokey.jpg) {align = right}
     
-    **Nitrokey** has a security key capable of [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) called the **Nitrokey FIDO2**. For PGP support, you need to purchase one of their other keys such as the **Nitrokey Start**, **Nitrokey Pro 2** or the **Nitrokey Storage 2**.
+    * * Nitrokey * * 能夠[FIDO2 和 WebAuthn] (basics/multifactor-authentication.md#fido-fast-identity-online)的安全金鑰，稱為* * Nitrokey FIDO2 * *。 若要獲得 PGP 支援，您需要購買他們其他鑰匙，例如* * Nitrokey Start * *、* * Nitrokey Pro 2 * *或* * Nitrokey Storage 2 * *。
     
     [:octicons-home-16: Homepage](https://www.nitrokey.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://docs.nitrokey.com/){ .card-link title=Documentation}
 
-The [comparison table](https://www.nitrokey.com/#comparison) shows the features and how the Nitrokey models compare. The **Nitrokey 3** listed will have a combined feature set.
+[比較表](https://www.nitrokey.com/#comparison) 顯示了各型號 Nitrokey 功能比較。 **Nitrokey 3** 具有組合的功能集。
 
-Nitrokey models can be configured using the [Nitrokey app](https://www.nitrokey.com/download).
+可以使用 [Nitrokey 應用程序](https://www.nitrokey.com/download)配置 Nitrokey 模型。
 
-For the models which support HOTP and TOTP, there are 3 slots for HOTP and 15 for TOTP. Some Nitrokeys can act as a password manager. They can store 16 different credentials and encrypt them using the same password as the OpenPGP interface.
+支持 HOTP 和 TOTP 的型號，有3個 HOTP 插槽，15 個 TOTP 插槽。 有些 Nitrokeys 可以充當密碼管理器。 可以存儲 16 組憑證，並使用與 OpenPGP 接口相同的密碼對憑證加密。
 
-!!! warning
+!!! 警告
 
-    While Nitrokeys do not release the HOTP/TOTP secrets to the device they are plugged into, the HOTP and TOTP storage is **not** encrypted and is vulnerable to physical attacks. If you are looking to store HOTP or TOTP these secrets, we highly recommend that you use a Yubikey instead.
+    雖然 Nitrokeys 不會將 HOTP/TOTP 機密釋放給所插入的設備，但HOTP 和 TOTP存儲* *未經加密* * ，容易受到物理攻擊。 如果您需要存儲 HOTP 或 TOTP 這類祕密，強烈建議您使用Yubikey 代替。
 
-!!! warning
+!!! 警告
 
-    Resetting the OpenPGP interface on a Nitrokey will also make the password database [inaccessible](https://docs.nitrokey.com/pro/linux/factory-reset).
+    重置 Nitrokey 的 OpenPGP 介面會使密碼資料庫變為 [無法存取](https://docs.nitrokey.com/pro/linux/factory-reset)。
 
- The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports system integrity verification for laptops with the [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware. Purism's [Librem Key](https://puri.sm/products/librem-key/) is a rebranded NitroKey Pro 2 with similar firmware and can also be used for the same purposes.
+Nitrokey Pro 2、Nitrokey Storage 2 和即將推出的 Nitrokey 3 支持筆記型電腦的 [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) 軔體與系統完整性驗證。
 
-Nitrokey's firmware is open-source, unlike the YubiKey. The firmware on modern NitroKey models (except the **NitroKey Pro 2**) is updatable.
+不同於 YubiKey，Nitrokey 軔體是開源。 NitroKey 型號可（ **NitroKey Pro 2**除外）可更新軔體。
 
-!!! tip
+### 標準
 
-    The Nitrokey app, while compatible with Librem Keys, requires `libnitrokey` version 3.6 or above to recognize them. Currently, the package is outdated on Windows, macOS, and most Linux distributions' repository, so you will likely have to compile the Nitrokey app yourself to get it working with the Librem Key. On Linux, you can obtain an up-to-date version from [Flathub](https://flathub.org/apps/details/com.nitrokey.nitrokey-app).
+**請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-### Criteria
+!!! 示例“此部分是新的”
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+    我們正在努力為這個網站的各個部分建立明確標準，它可能依情況變化。 如果您對我們的標準有任何疑問，請在[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
-!!! example "This section is new"
+#### 最低合格要求
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+- 必須使用高品質、防篡改的硬體安全模組。
+- 必須支援最新的 FIDO2 規格。
+- 必須不允許私鑰提取。
+- 價格超過 35美元的裝置必須支援處理 OpenPGP 和 S/MIME。
 
-#### Minimum Requirements
+#### 最好的情况
 
-- Must use high quality, tamper resistant hardware security modules.
-- Must support the latest FIDO2 specification.
-- Must not allow private key extraction.
-- Devices which cost over $35 must support handling OpenPGP and S/MIME.
+最佳案例標準代表了我們希望從這個類別的完美項目應具備的條件。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-#### Best-Case
+- 應採用 USB-C 格式。
+- 應與 NFC一起使用。
+- 支持 TOTP 機密儲存。
+- 應支持安全軔體更新。
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+## 認證器應用程式
 
-- Should be available in USB-C form-factor.
-- Should be available with NFC.
-- Should support TOTP secret storage.
-- Should support secure firmware updates.
+驗證器應用程式實施網際網路工程任務組( IETF)採行的安全標準，稱為 **依據時間的單次密碼**或 **TOTP**。 這是一種網站與您共享祕密的方法，驗證器應用程式使用該祕密根據當前時間生成（通常為）六位數驗證碼，您在登錄網站時輸入以供網站檢查。 通常這些驗證碼每30 秒重新生成一次，一旦生成新碼，舊碼就無用了。 即使駭客獲得六位數的驗證碼，也無法逆轉該代碼去取得原始祕密或透過其他方式去預測以後的驗證碼。
 
-## Authenticator Apps
-
-Authenticator Apps implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. This is a method where websites share a secret with you which is used by your authenticator app to generate a six (usually) digit code based on the current time, which you enter while logging in for the website to check. Typically these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Even if a hacker gets one six-digit code, there is no way for them to reverse that code to get the original secret or otherwise be able to predict what any future codes might be.
-
-We highly recommend that you use mobile TOTP apps instead of desktop alternatives as Android and iOS have better security and app isolation than most desktop operating systems.
+我們強烈建議您使用行動 TOTP 應用程式而不是桌面替代方案，因為 Android 和 iOS 比大多數桌面作業系統具有更好的安全性和應用程式隔離性。
 
 ### Aegis Authenticator (Android)
 
 !!! recommendation
 
-    ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
+    ! [Aegis logo] (assets/img/multifactor-authentication/aegis.png) {align = right}
     
-    **Aegis Authenticator** is a free, secure and open-source app to manage your 2-step verification tokens for your online services.
+    * * Aegis Authenticator * *是一款免費、安全且開源的應用程式，可為您的線上服務管理兩步驗證令牌。
     
     [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
@@ -107,7 +103,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
     [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
         - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
@@ -116,28 +112,28 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 !!! recommendation
 
-    ![Raivo OTP logo](assets/img/multi-factor-authentication/raivo-otp.png){ align=right }
+    ! [Raivo OTP logo] (assets/img/multifactor-authentication/raivo-otp.png) {align = right}
     
-    **Raivo OTP** is a native, lightweight and secure time-based (TOTP) & counter-based (HOTP) password client for iOS. Raivo OTP offers optional iCloud backup & sync. Raivo OTP is also available for macOS in the form of a status bar application, however the Mac app does not work independently of the iOS app.
+    * * Raivo OTP * *是原生、輕量和安全的時間基礎(TOTP) & 計數器(HOTP)密碼用戶端應用，適用於iOS。 Raivo OTP 提供可選的 iCloud 備份 & 同步。 Raivo OTP也以狀態列應用程式的形式提供給macOS ，但Mac應用程式並不獨立於iOS應用程式運作。
     
     [:octicons-home-16: Homepage](https://raivo-otp.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://raivo-otp.com/privacy-policy){ .card-link title="Privacy Policy" }
     [:octicons-code-16:](https://github.com/raivo-otp/ios-application){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://raivo-otp.com/donate){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/raivo-otp/id1459042137)
 
-### Criteria
+### 標準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! example "This section is new"
+!!! 示例“此部分是新的”
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    我們正在努力為這個網站的各個部分建立明確標準，它可能依情況變化。 如果您對我們的標準有任何疑問，請在[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
-- Must be open-source software.
-- Must not require internet connectivity.
-- Must not sync to a third-party cloud sync/backup service.
-    - **Optional** E2EE sync support with OS-native tools is acceptable, e.g. encrypted sync via iCloud.
+- 必須是開源軟體。
+- 無需網際網路連線。
+- 不得同步至第三方雲端同步/備份服務。
+    - **可選** 支援與作業系統原生工具的 E2EE 同步是可以的，例如透過 iCloud 進行加密同步。

@@ -1,12 +1,12 @@
 ---
 title: "DNS Resolverek"
 icon: material/dns
-description: These are some encrypted DNS providers we recommend switching to, to replace your ISP's default configuration.
+description: Ezekre a titkosított DNS-szolgáltatókra való átállást javasoljuk, hogy lecseréld az internetszolgáltatód alapértelmezett konfigurációját.
 ---
 
-Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. A titkosított DNS nem fog segíteni elrejteni a böngészési tevékenységedet.
+Titkosított DNS-t harmadik féltől származó szerverekkel csak alapvető [DNS-blokkolás](https://en.wikipedia.org/wiki/DNS_blocking) megkerülésére kellene használni, ha biztos vagy benne, hogy annak nem lesz semmilyen következménye. A titkosított DNS nem fog segíteni elrejteni a böngészési tevékenységedet.
 
-[Learn more about DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
+[További információ a DNS-ről :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
 ## Ajánlott Szolgáltatók
 

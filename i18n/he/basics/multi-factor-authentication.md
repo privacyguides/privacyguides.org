@@ -1,7 +1,7 @@
 ---
 title: "אימות מרובה גורמים"
 icon: 'material/two-factor-authentication'
-description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
+description: MFA הוא מנגנון אבטחה קריטי לאבטחת החשבונות המקוונים שלך, אך שיטות מסוימות חזקות יותר מאחרות.
 ---
 
 **אימות מרובה גורמים** (**MFA**) הוא מנגנון אבטחה הדורש שלבים נוספים מעבר להזנת שם המשתמש (או האימייל) והסיסמה שלך. השיטה הנפוצה ביותר היא קודים מוגבלים בזמן שאתה עשוי לקבל מ-SMS או מאפליקציה.

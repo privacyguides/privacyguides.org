@@ -6,7 +6,7 @@ description: An overview of several network architectures commonly used by insta
 
 There are several network architectures commonly used to relay messages between people. These networks can provide different privacy guarantees, which is why it's worth considering your [threat model](../basics/threat-modeling.md) when deciding which app to use.
 
-[Recommended Instant Messengers](../real-time-communication.md ""){.md-button}
+[ما نوصي به من خدمات المراسلة الفورية](../real-time-communication.md ""){.md-button}
 
 ## Centralized Networks
 

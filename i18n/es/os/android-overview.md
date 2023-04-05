@@ -1,7 +1,7 @@
 ---
 title: Visión general de Android
 icon: fontawesome/brands/android
-description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
+description: Android es un sistema operativo de código abierto con fuertes medidas de seguridad, lo que lo convierte en nuestra primera opción para teléfonos.
 ---
 
 Android es un sistema operativo seguro el cuál tiene [aislamiento de las aplicaciones](https://source.android.com/security/app-sandbox), [arranque verificado](https://source.android.com/security/verifiedboot) (AVB), y un robusto sistema de control de [permisos](https://developer.android.com/guide/topics/permissions/overview).

@@ -1,50 +1,50 @@
 ---
-title: "Email Services"
+title: "Электронная почта"
 icon: material/email
 description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
 ---
 
-Электронная почта практически необходима для использования любого онлайн-сервиса, однако мы не рекомендуем использовать её для общения с людьми. Вместо того чтобы использовать электронную почту для связи с другими людьми, советуем использовать мессенджеры, которые поддерживают прямую секретность.
+Электронная почта практически всегда необходима для использования любого онлайн-сервиса, однако мы не рекомендуем использовать её для общения с людьми. Вместо того, чтобы использовать электронную почту для связи с другими людьми, мы советуем использовать мессенджеры, которые поддерживают прямую секретность.
 
 [Рекомендуемые мессенджеры](real-time-communication.md ""){.md-button}
 
-Для всего остального, мы рекомендуем различных провайдеров электронной почты, которые базируются на устойчивых бизнес-моделях и встроенных функциях безопасности и конфиденциальности.
+Для всего остального мы рекомендуем различных провайдеров электронной почты, которые базируются на устойчивых бизнес-моделях и встроенных функциях безопасности и конфиденциальности.
 
-- [OpenPGP-Compatible Email Providers :material-arrow-right-drop-circle:](#openpgp-compatible-services)
+- [Провайдеры электронной почты, поддерживающие OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [Other Encrypted Providers :material-arrow-right-drop-circle:](#more-providers)
 - [Email Aliasing Services :material-arrow-right-drop-circle:](#email-aliasing-services)
 - [Self-Hosted Options :material-arrow-right-drop-circle:](#self-hosting-email)
 
-## OpenPGP Compatible Services
+## Сервисы, поддерживающие OpenPGP
 
-These providers natively support OpenPGP encryption/decryption and the Web Key Directory (WKD) standard, allowing for provider-agnostic E2EE emails. For example, a Proton Mail user could send an E2EE message to a Mailbox.org user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+Эти провайдеры поддерживают OpenPGP шифрование/дешифрование и стандарт Web Key Directory (WKD), позволяя обмениваться E2EE-сообщениями вне зависимости от провайдера. Например, пользователь Proton Mail может отправлять E2EE-зашифрованное сообщение пользователю Mailbox.org, или вы можете получить OpenPGP-зашифрованное уведомление от интернет-сервисов, поддерживающих такую функцию.
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Логотип Proton Mail](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Логотип Mailbox.org](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 
 </div>
 
-!!! note
+!!! warning
 
-    When using E2EE technology like OpenPGP, email will still have some metadata that is not encrypted in the header of the email. Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+    При использовании технологии E2EE, такой как OpenPGP, сообщения все равно будут содержать некоторые незашифрованные метаданные в заголовках письма. Узнайте больше о [метаданных электронной почты](basics/email-security.md#email-metadata-overview).
     
-    OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+    OpenPGP также не поддерживает прямую секретность: если ваш закрытый ключ или закрытый ключ получателя окажется украден, все предыдущие сообщения, зашифрованные с его помощью, будут раскрыты. [Как я могу защитить свои закрытые ключи?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 ### Proton Mail
 
 !!! recommendation
 
-    ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
+    ![Логотип Proton Mail](assets/img/email/protonmail.svg){ align=right }
     
-    **Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since **2013**. Proton AG is based in Genève, Switzerland. Accounts start with 500 MB storage with their free plan.
+    **Proton Mail** — это сервис электронной почты, фокусирующийся на приватности, шифровании, безопасности и простоте использования. Они работают с **2013** года. Компания Proton AG базируется в Женеве, Швейцария. Аккаунты получают от 500 МБ хранилища на бесплатном тарифе.
     
-    [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+    [:octicons-home-16: Домашняя страница](https://proton.me/mail){ .md-button .md-button--primary }
+    [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion-сервис" }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Исходный код" }
     
     ??? downloads
     
@@ -54,7 +54,7 @@ These providers natively support OpenPGP encryption/decryption and the Web Key D
         - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
         - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
         - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
-        - [:octicons-browser-16: Web](https://mail.proton.me)
+        - [:octicons-browser-16: Веб-версия](https://mail.proton.me)
 
 Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g. Thunderbird). Paid accounts include features like Proton Mail Bridge, additional storage, and custom domain support. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
@@ -72,7 +72,7 @@ Proton Mail [accepts](https://proton.me/support/payment-options) cash by mail in
 
 #### :material-check:{ .pg-green } Account Security
 
-Proton Mail supports TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) only. The use of a U2F security key is not yet supported. Proton Mail is planning to implement U2F upon completion of their [Single Sign On (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/) code.
+Proton Mail supports TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two factor authentication first.
 
 #### :material-check:{ .pg-green } Data Security
 

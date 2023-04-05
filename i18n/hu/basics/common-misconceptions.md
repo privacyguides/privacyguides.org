@@ -2,6 +2,40 @@
 title: "Gyakori Tévhitek"
 icon: 'material/robot-confused'
 description: Az adatvédelem nem egy egyszerű téma, és könnyű belekeveredni marketinges állításokba és egyéb dezinformációkba.
+schema:
+  - 
+    "@context": https://schema.org
+    "@type": FAQPage
+    mainEntity:
+      - 
+        "@type": Question
+        name: Is open source software inherently secure?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Whether the source code is available and how software is licensed does not inherently affect its security in any way. Open-source software has the potential to be more secure than proprietary software, but there is absolutely no guarantee this is the case. When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+      - 
+        "@type": Question
+        name: Can shifting trust to another provider increase privacy?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Sokat beszélünk a "bizalom áthelyezéséről", amikor olyan megoldásokról beszélünk, mint a VPN-ek (amelyek az internetszolgáltatódba vetett bizalmat a VPN-szolgáltatóra helyezik át). While this protects your browsing data from your ISP specifically, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties.
+      - 
+        "@type": Question
+        name: Are privacy-focused solutions inherently trustworthy?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Ha kizárólag egy eszköz vagy szolgáltató adatvédelmi szabályzatára és marketingjére koncentrálsz, az elvakíthat annak gyengeségeivel szemben. Ha privát megoldást keresel, meg kell határozni, hogy mi az az mögött megbúvó probléma, és műszaki megoldásokat kell találni erre a problémára. Érdemes például elkerülni a Google Drive-ot, amely a Google számára hozzáférést biztosít az összes adatodhoz. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like Cryptomator) which provides E2EE on any cloud provider. Azzal, hogy egy "adatvédelemre összpontosító" szolgáltatóra váltasz (amely nem alkalmaz End-to-End titkoítást), nem oldja meg a problémádat: csak a bizalmat helyezi át a Google-tól az adott szolgáltatóra.
+      - 
+        "@type": Question
+        name: How complicated should my threat model be?
+        acceptedAnswer:
+          "@type": Answer
+          text: |
+            Gyakran látjuk, hogy az emberek túlságosan összetett adatvédelmi védelmi modelleket írnak le. Ezek a megoldások gyakran olyan problémákat tartalmaznak, mint sok különböző email fiók vagy bonyolult felállások sok mozgó alkatrésszel és feltétellel. The replies are usually answers to "What is the best way to do X?"
+            Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience.
 ---
 
 ## "A nyílt forráskódú szoftverek mindig biztonságosak" vagy "A jogvédett szoftverek biztonságosabbak"

@@ -1,12 +1,12 @@
 ---
 title: "Tor Netwerk"
 icon: simple/torproject
-description: Bescherm je surf gedrag tegen nieuwsgierige ogen door gebruik te maken van het Tor netwerk, een beveiligd netwerk dat censuur omzeilt.
+description: Bescherm je surf gedrag tegen pottenkijkers door gebruik te maken van het Tor netwerk, een beveiligd netwerk dat censuur omzeilt.
 ---
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
-Het **Tor** netwerk is een groep vrijwilligersservers waarmee je gratis verbinding kunt maken en je privacy en veiligheid op het internet kunt verbeteren. Individuen en organisaties kunnen ook informatie delen via het Tor-netwerk met ".onion hidden services" zonder hun privacy in gevaar te brengen. Omdat Tor-verkeer moeilijk te blokkeren en te traceren is, is Tor een effectief middel om censuur te omzeilen.
+Het **Tor** netwerk is een groep servers beheerd door vrijwilligers waarmee je gratis verbinding kunt maken en je privacy en veiligheid op het internet kunt verbeteren. Individuen en organisaties kunnen ook informatie delen via het Tor-netwerk met ".onion hidden services" zonder hun privacy in gevaar te brengen. Omdat Tor-verkeer moeilijk te blokkeren en te traceren is, is Tor een effectief middel om censuur te omzeilen.
 
 [:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }

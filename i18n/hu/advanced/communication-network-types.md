@@ -1,7 +1,7 @@
 ---
 title: "Kommunikációs Hálózatok Típusai"
 icon: 'material/transit-connection-variant'
-description: An overview of several network architectures commonly used by instant messaging applications.
+description: Azonnali üzenetküldő alkalmazások által gyakran használt különböző hálózati architektúrák áttekintése.
 ---
 
 Személyek közötti üzenetek továbbítására többféle hálózati architektúra használható. Ezek a hálózatok különböző magánéleti garanciákat nyújthatnak, ezért érdemes figyelembe venned a [védelmk modelledet](../basics/threat-modeling.md), amikor eldöntöd, hogy melyik alkalmazást fogod használni.

@@ -2,44 +2,75 @@
 title: "Mobile Browsers"
 icon: material/cellphone-information
 description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": WebPage
+    name: Private Mobile Browser Recommendations
+    url: "./"
+    relatedLink: "../desktop-browsers/"
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Brave
+    image: /assets/img/browsers/brave.svg
+    url: https://brave.com
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Android
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Safari
+    image: /assets/img/browsers/safari.svg
+    url: https://www.apple.com/safari/
+    applicationCategory: Web Browser
+    operatingSystem:
+      - iOS
+    subjectOf:
+      "@type": WebPage
+      url: "./"
 ---
 
-These are our currently recommended mobile web browsers and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. In general, we recommend keeping extensions to a minimum; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
+Здесь перечислены мобильные браузеры, которые мы рекомендуем, и руководства по их настройке для обычного (неанонимного) пользования интернетом. Если вам нужна анонимность в сети, используйте [Tor](tor.md). Мы рекомендуем использовать как можно меньше расширений, так как они имеют привилегированный доступ к браузеру, требуют доверия к их разработчикам, могут [идентифицировать вас](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), а также [ослабляют](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) изоляцию между сайтами.
 
 ## Android
 
-On Android, Firefox is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview/), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
+На Android браузер Firefox менее безопасен, чем основанные на Chromium альтернативы: движок Mozilla, [GeckoView](https://mozilla.github.io/geckoview/), ещё не поддерживает [изоляцию сайтов](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) и не включает [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
 
-### Bromite
+### Brave
 
 !!! recommendation
 
-    ![Логотип Safari](assets/img/browsers/safari.svg){ align=right }
+    ![Логотип Brave](assets/img/browsers/brave.svg){ align=right }
     
-    **Safari** - это браузер по умолчанию в iOS.
+    **Браузер Brave** включает встроенный блокировщик контента и [инструменты приватности](https://brave.com/privacy-features/), многие из которых включены по умолчанию.
     
-    Он включает в себя [функции обеспечения конфиденциальности](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0): Intelligent Tracking Protection, отчет о конфиденциальности, изолированные вкладки частного доступа, частный узел iCloud и автоматическое обновление до HTTPS.
+    Brave основан на Chromium, поэтому он покажется вам знакомым, а также у него не должно быть проблем с совместимостью.
     
-    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+    [:octicons-home-16: Официальный сайт](https://brave.com/ru/){ .md-button .md-button--primary }
+    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion-сайт" }
+    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Исходный код" }
     
     ??? downloads annotate
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
         - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 
-#### Firefox
+#### Рекомендованные настройки
 
-Tor Browser - это единственный способ действительно анонимно просматривать Интернет. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
+Tor Browser — это единственный способ действительно анонимно пользоваться интернетом. Если вы используете Brave, мы рекомендуем изменить следующие настройки, чтобы сохранить приватность, но все браузеры кроме [Tor](tor.md#tor-browser) могут *кем-нибудь* отслеживаться в том или ином виде.
 
-These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**
+Эти настройки можно найти в :material-menu: → **Настройки** → **Brave Shields & privacy**
 
 ##### Режим «Только HTTPS»:
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
+Brave включает несколько инструментов защиты от отслеживания в разделе [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-). Мы рекомендуем включить эти настройки [на всех сайтах](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-), которые вы посещаете.
 
 ##### Brave shields global defaults
 
@@ -64,11 +95,11 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 - [x] Select **Clear data on exit**
 
-##### Синхронизация с iCloud
+##### Блокировка отслеживания через социальные сети
 
-- [x] Выбрать **Всегда использовать безопасные соединения**
+- [ ] Отключите все компоненты социальных сетей
 
-##### Other privacy settings
+##### Другие настройки приватности
 
 <div class="annotate" markdown>
 
@@ -86,23 +117,25 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) позволяет синхронизировать данные браузера (историю, закладки и т. д.) между несколькими устройствами без необходимости создавать аккаунт, а также защищает их при помощи E2EE.
 
 ## iOS
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so there is little reason to use a third-party web browser.
+На iOS любое приложение, которое может открывать веб-страницы, [использует](https://developer.apple.com/app-store/review/guidelines) только предоставляемый Apple [движок WebKit](https://developer.apple.com/documentation/webkit), поэтому нет особых причин использовать сторонний браузер.
 
-### uBlock Origin
+### Safari
 
 !!! recommendation
 
-    ![Логотип AdGuard](assets/img/browsers/adguard.svg){ align=right }
+    ![Логотип Safari](assets/img/browsers/safari.svg){ align=right }
     
-    **AdGuard для Safari** - это бесплатное расширение с открытым исходным кодом для Safari, которое использует собственный [API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker). Мы рекомендуем включить фильтры, помеченные *#recommended* в разделах "Блокировка рекламы" и "Антитрекинг" [блокировщики контента] (https://kb.adguard.com/en/safari/overview#content-blockers).
+    **Safari** — браузер по умолчанию на iOS. Мы рекомендуем включить фильтры, помеченные *#recommended* в разделах "Блокировка рекламы" и "Антитрекинг" [блокировщики контента] (https://kb.adguard.com/en/safari/overview#content-blockers).
     
-    Фильтры *#recommended* могут быть включены в разделах «Виджеты социальных сетей» и «Раздражители», однако они могут нарушать некоторые функции на сайтах.
+    [:octicons-home-16: Официальный сайт](https://www.apple.com/ru/safari/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.apple.com/ru/legal/privacy/data/ru/safari/){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://support.apple.com/ru-ru/guide/safari/welcome/mac){ .card-link title=Документация}
 
-#### Firefox
+#### Рекомендованные настройки
 
 These options can be found in :gear: **Settings** → **Safari** → **Privacy and Security**.
 
@@ -150,17 +183,22 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend chec
 
 !!! recommendation
 
-    ![Логотип Terms of Service; Didn't Read](assets/img/browsers/terms_of_service_didnt_read.svg){ align=right }
+    ![Логотип AdGuard](assets/img/browsers/adguard.svg){ align=right }
     
-    **Terms of Service; Didn't Read** оценивает веб-сайты на основе их политики конфиденциальности и соглашений об условиях обслуживания.
+    **AdGuard для iOS** — это бесплатный и открытый блокировщик контента для Safari, который использует нативный [API блокировки контента](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
     
-    AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
+    AdGuard для iOS имеет несколько премиум-функций, хотя стандартные средства блокировки контента Safari бесплатны.
     
-    Анализы и рейтинги публикуются сообществом рецензентов. downloads
+    [:octicons-home-16: Официальный сайт](https://adguard.com/ru/adguard-ios/overview.html){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://adguard.com/ru/privacy/ios.html){ .card-link title="Политика конфиденциальности" }
+    [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Документация}
+    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Исходный код" }
+    
+    ??? downloads
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 
-Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.
+Дополнительные списки блокировки замедляют работу браузера и могут упростить атаку, поэтому пользуйтесь только тем, что вам необходимо.
 
 ## Criteria
 

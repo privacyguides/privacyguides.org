@@ -2,6 +2,37 @@
 title: "Mobile Browsers"
 icon: material/cellphone-information
 description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": WebPage
+    name: Private Mobile Browser Recommendations
+    url: "./"
+    relatedLink: "../desktop-browsers/"
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Brave
+    image: /assets/img/browsers/brave.svg
+    url: https://brave.com
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Android
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Safari
+    image: /assets/img/browsers/safari.svg
+    url: https://www.apple.com/safari/
+    applicationCategory: Web Browser
+    operatingSystem:
+      - iOS
+    subjectOf:
+      "@type": WebPage
+      url: "./"
 ---
 
 These are our currently recommended mobile web browsers and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. In general, we recommend keeping extensions to a minimum; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.

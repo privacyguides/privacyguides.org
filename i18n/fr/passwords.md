@@ -2,6 +2,118 @@
 title: "Gestionnaires de mots de passe"
 icon: material/form-textbox-password
 description: Les gestionnaires de mots de passe vous permettent de stocker et de gérer en toute sécurité des mots de passe et autres informations d'identification.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": WebPage
+    name: Password Manager Recommendations
+    url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Bitwarden
+    image: /assets/img/password-management/bitwarden.svg
+    url: https://bitwarden.com
+    sameAs: https://en.wikipedia.org/wiki/Bitwarden
+    applicationCategory: Gestionnaire de mots de passe
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+      - Android
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: 1Password
+    image: /assets/img/password-management/1password.svg
+    url: https://1password.com
+    sameAs: https://en.wikipedia.org/wiki/1Password
+    applicationCategory: Gestionnaire de mots de passe
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+      - Android
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Psono
+    image: /assets/img/password-management/psono.svg
+    url: https://psono.com
+    applicationCategory: Gestionnaire de mots de passe
+    operatingSystem:
+      - Android
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: KeePassXC
+    image: /assets/img/password-management/keepassxc.svg
+    url: https://keepassxc.org/
+    sameAs: https://en.wikipedia.org/wiki/KeePassXC
+    applicationCategory: Gestionnaire de mots de passe
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: KeePassDX
+    image: /assets/img/password-management/keepassdx.svg
+    url: https://www.keepassdx.com/
+    applicationCategory: Gestionnaire de mots de passe
+    operatingSystem: Android
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: Strongbox
+    image: /assets/img/password-management/strongbox.svg
+    url: https://strongboxsafe.com/
+    applicationCategory: Gestionnaire de mots de passe
+    operatingSystem: iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
+    name: gopass
+    image: /assets/img/password-management/gopass.svg
+    url: https://www.gopass.pw/
+    applicationCategory: Gestionnaire de mots de passe
+    operatingSystem:
+      - Windows
+      - macOS
+      - Linux
+      - FreeBSD
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
 ---
 
 Les gestionnaires de mots de passe vous permettent de stocker et de gérer en toute sécurité des mots de passe et autres informations d'identification à l'aide d'un mot de passe principal.

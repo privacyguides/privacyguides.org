@@ -29,7 +29,7 @@ description: כלים אלה מסייעים לך באבטחת חשבונות ה�
 !!! warning "אזהרה"
      הקושחה של YubiKey אינה קוד פתוח ואינה ניתנת לעדכון. אם אתה רוצה תכונות בגרסאות קושחה חדשות יותר, או אם ישנה פגיעות בגרסת הקושחה שבה אתה משתמש, תצטרך לרכוש מפתח חדש.
 
-### Nitrokey / Librem Key
+### Nitrokey
 
 !!! recommendation
 
@@ -55,13 +55,9 @@ description: כלים אלה מסייעים לך באבטחת חשבונות ה�
 
     איפוס ממשק OpenPGP על Nitrokey גם יגרום למסד הנתונים סיסמה [inaccessible](https://docs.nitrokey.com/pro/factory-reset.html).
 
- Nitrokey Pro 2, Nitrokey Storage 2 וה-Nitrokey 3 הקרובים תומכים באימות שלמות המערכת עבור מחשבים ניידים עם הקושחה [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/). [Librem Key](https://puri.sm/products/librem-key/) של Purism הוא NitroKey Pro 2 ממותג מחדש עם קושחה דומה וניתן להשתמש בו גם לאותן מטרות.
+ה-Nitrokey Pro 2, Nitrokey Storage 2 וה-Nitrokey 3 הקרובים תומכים באימות שלמות המערכת עבור מחשבים ניידים עם קושחת [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/).
 
 הקושחה של Nitrokey היא קוד פתוח, שלא כמו YubiKey. הקושחה בדגמי NitroKey המודרניים (למעט ה**NitroKey Pro 2**) ניתנת לעדכון.
-
-!!! tip "טיפ"
-
-    אפליקציית Nitrokey, על אף שהיא תואמת ל-Librem Keys, דורשת 'libnitrokey' גרסה 3.6 ומעלה כדי לזהות אותם. נכון לעכשיו, החבילה מיושנת ב-Windows, macOS ורוב ההפצות של לינוקס, כך שסביר להניח שתצטרך להרכיב את אפליקציית Nitrokey בעצמך כדי לגרום לה לעבוד עם מפתח Librem. על לינוקס, אתה יכול לקבל גרסה מעודכנת מ [Flathub](https://flathub.org/apps/details/com.nitrokey.nitrokey-app).
 
 ### קריטריונים
 

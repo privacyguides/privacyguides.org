@@ -1,36 +1,36 @@
 ---
-title: "Email Services"
+title: "Layanan Surel"
 icon: material/email
-description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
+description: Penyedia surel ini menawarkan tempat yang baik untuk menyimpan surel Anda dengan aman, dan banyak yang menawarkan enkripsi OpenPGP yang dapat dioperasikan dengan penyedia lain.
 ---
 
-Email bisa dibilang merupakan kebutuhan untuk menggunakan layanan online apa pun, namun kami tidak merekomendasikannya untuk percakapan antar orang. Daripada menggunakan email untuk menghubungi orang lain, pertimbangkan untuk menggunakan media pesan instan yang mendukung kerahasiaan ke depan.
+Surel bisa dibilang merupakan kebutuhan untuk menggunakan layanan daring apa pun, namun kami tidak merekomendasikannya untuk percakapan antar orang. Daripada menggunakan surel untuk menghubungi orang lain, pertimbangkan untuk menggunakan media pesan instan yang mendukung kerahasiaan penerusan.
 
-[Pesan Instan yang Direkomendasikan](real-time-communication.md ""){.md-button}
+[Perpesanan Instan yang Direkomendasikan](real-time-communication.md ""){.md-button}
 
-Untuk yang lainnya, kami merekomendasikan berbagai penyedia email yang didasarkan pada model bisnis yang berkelanjutan serta fitur keamanan dan privasi bawaan.
+Untuk yang lainnya, kami merekomendasikan berbagai penyedia surel yang didasarkan pada model bisnis yang berkelanjutan serta fitur keamanan dan privasi bawaan.
 
-- [OpenPGP-Compatible Email Providers :material-arrow-right-drop-circle:](#openpgp-compatible-services)
-- [Other Encrypted Providers :material-arrow-right-drop-circle:](#more-providers)
-- [Email Aliasing Services :material-arrow-right-drop-circle:](#email-aliasing-services)
-- [Self-Hosted Options :material-arrow-right-drop-circle:](#self-hosting-email)
+- [Penyedia Email yang Kompatibel dengan OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
+- [Penyedia Terenkripsi Lainnya :material-arrow-right-drop-circle:](#more-providers)
+- [Layanan Alias Surel :material-arrow-right-drop-circle:](#email-aliasing-services)
+- [Opsi yang Dilayani Sendiri :material-arrow-right-drop-circle:](#self-hosting-email)
 
 ## Layanan yang Kompatibel dengan OpenPGP
 
-These providers natively support OpenPGP encryption/decryption and the Web Key Directory (WKD) standard, allowing for provider-agnostic E2EE emails. Sebagai contoh, pengguna Proton Mail dapat mengirim pesan E2EE ke pengguna Mailbox.org, atau Anda dapat menerima notifikasi terenkripsi OpenPGP dari layanan internet yang mendukungnya.
+Penyedia layanan ini secara asli mendukung enkripsi/dekripsi OpenPGP dan standar Web Key Directory (WKD), yang memungkinkan email E2EE yang bersifat agnostik pada penyedia. Sebagai contoh, pengguna Proton Mail dapat mengirim pesan E2EE ke pengguna Mailbox.org, atau Anda dapat menerima notifikasi terenkripsi OpenPGP dari layanan internet yang mendukungnya.
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Logo Proton Mail](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Logo Mailbox.org](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 
 </div>
 
-!!! peringatan
+!!! warning
 
-    Ketika menggunakan teknologi E2EE seperti OpenPGP, email akan tetap memiliki beberapa metadata yang tidak dienkripsi di header email. Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+    Ketika menggunakan teknologi E2EE seperti OpenPGP, surel akan tetap memiliki beberapa metadata yang tidak dienkripsi di tajuk surel. Baca lebih lanjut tentang [metadata surel] (basics/email-security.md#email-metadata-overview).
     
-    OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+    OpenPGP juga tidak mendukung kerahasiaan Penerusan, yang berarti jika kunci privat Anda atau penerima dicuri, semua pesan sebelumnya yang dienkripsi dengan kunci tersebut akan terekspos. [Bagaimana cara melindungi kunci pribadi saya?](basics/email-security.md#bagaimana-saya-melindungi-kunci-pribadi-saya)
 
 ### Proton Mail
 
@@ -38,13 +38,13 @@ These providers natively support OpenPGP encryption/decryption and the Web Key D
 
     ![ Proton Mail logo ]( assets/img/email/protonmail.svg){ align=right }
     
-    **Proton Mail** adalah layanan email dengan fokus pada privasi, enkripsi, keamanan, dan kemudahan penggunaan. Mereka telah beroperasi sejak **2013 **. Proton AG berbasis di Genewa, Swiss. Akun dimulai dengan penyimpanan 500 MB dengan paket gratis mereka.
+    **Proton Mail** adalah layanan surel dengan fokus pada privasi, enkripsi, keamanan, dan kemudahan penggunaan. Mereka telah beroperasi sejak **2013**. Proton AG berbasis di Genewa, Swiss. Akun dimulai dengan penyimpanan 500 MB dengan paket gratis mereka.
     
-    [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+    [:octicons-home-16: Beranda](https://proton.me/mail){ .md-button .md-button--primary }
+    [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Layanan Onion" }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Kebijakan Privasi" }
+    [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Dokumentasi}
+    [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Kode Sumber" }
     
     ??? downloads
     
@@ -56,23 +56,23 @@ These providers natively support OpenPGP encryption/decryption and the Web Key D
         - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
         - [:octicons-browser-16: Web](https://mail.proton.me)
 
-Akun gratis memiliki beberapa keterbatasan, seperti tidak dapat mencari teks tubuh dan tidak memiliki akses ke [Proton Mail Bridge](https://proton.me/mail/bridge), yang diperlukan untuk menggunakan [klien email desktop yang direkomendasikan](email-clients.md) (misalnya Thunderbird). Akun berbayar mencakup fitur-fitur seperti Proton Mail Bridge, penyimpanan tambahan, dan dukungan domain khusus. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+Akun gratis memiliki beberapa keterbatasan, seperti tidak dapat mencari teks tubuh dan tidak memiliki akses ke [Proton Mail Bridge](https://proton.me/mail/bridge), yang diperlukan untuk menggunakan [klien surel desktop yang direkomendasikan](email-clients.md) (misalnya Thunderbird). Akun berbayar mencakup fitur-fitur seperti Proton Mail Bridge, penyimpanan tambahan, dan dukungan domain khusus. [Surat pengesahan](https://proton.me/blog/security-audit-all-proton-apps) diberikan untuk aplikasi Proton Mail pada tanggal 9 November 2021 oleh [Securitum](https://research.securitum.com).
 
-Jika Anda memiliki Paket Proton Unlimited, Bisnis, atau Visioner, Anda juga mendapatkan [SimpleLogin](#simplelogin) Premium secara gratis.
+Jika Anda memiliki paket Proton Unlimited, Bisnis, atau Visioner, Anda juga mendapatkan [SimpleLogin](#simplelogin) Premium secara gratis.
 
-Proton Mail memiliki laporan kecelakaan internal yang tidak **** dibagikan kepada pihak ketiga. Ini dapat dinonaktifkan di: **Pengaturan** > **Buka Pengaturan** > **Akun** > **Keamanan dan privasi** > **Kirim laporan kerusakan**.
+Proton Mail memiliki laporan mogok internal yang tidak **dibagikan kepada pihak ketiga**. Ini dapat dinonaktifkan di: **Pengaturan** > **Buka Pengaturan** > **Akun** > **Keamanan dan privasi** > **Kirim laporan kemogokan**.
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } Domain dan Alias Khusus
 
-Paid Proton Mail subscribers can use their own domain with the service or a [catch-all](https://proton.me/support/catch-all) address. Proton Mail also supports [subaddressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+Pelanggan Proton Mail berbayar dapat menggunakan domain mereka sendiri dengan layanan ini atau alamat [yang mencakup semua](https://proton.me/support/catch-all). Proton Mail juga mendukung [subalamat](https://proton.me/support/creating-aliases), yang berguna bagi orang-orang yang tidak ingin membeli domain.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } Metode Pembayaran Pribadi
 
-Proton Mail [accepts](https://proton.me/support/payment-options) cash by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
+Proton Mail [menerima](https://proton.me/support/payment-options) uang tunai melalui pos selain kartu kredit/debit standar, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), dan pembayaran PayPal.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Keamanan Akun
 
-Proton Mail supports TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) only. Penggunaan kunci keamanan U2F belum didukung. Proton Mail is planning to implement U2F upon completion of their [Single Sign On (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/) code.
+Proton Mail supports TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two factor authentication first.
 
 #### :material-check:{ .pg-green } Data Security
 
@@ -113,15 +113,15 @@ Proton Mail tidak menawarkan fitur warisan digital.
     
         - [:octicons-browser-16: Web](https://login.mailbox.org)
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } Domain dan Alias Khusus
 
 Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) addresses. Mailbox.org also supports [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), which is useful if you don't want to purchase a domain.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } Metode Pembayaran Pribadi
 
 Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. Namun, mereka menerima uang tunai melalui pos, pembayaran tunai ke rekening bank, transfer bank, kartu kredit, PayPal, dan beberapa prosesor khusus Jerman: paydirekt dan Sofortüberweisung.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Keamanan Akun
 
 Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [Yubikey](https://en.wikipedia.org/wiki/YubiKey) via the [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
 
@@ -177,7 +177,7 @@ These providers store your emails with zero-knowledge encryption, making them gr
     
         - [:octicons-browser-16: Web](https://mail.startmail.com/login)
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } Domain dan Alias Khusus
 
 Personal accounts can use [Custom or Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) aliases. [Custom domains](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) are also available.
 
@@ -185,7 +185,7 @@ Personal accounts can use [Custom or Quick](https://support.startmail.com/hc/en-
 
 StartMail menerima Visa, MasterCard, American Express, dan Paypal. StartMail also has other [payment options](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) such as [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (currently only for Personal accounts) and SEPA Direct Debit for accounts older than a year.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Keamanan Akun
 
 StartMail supports TOTP two factor authentication [for webmail only](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). They do not allow U2F security key authentication.
 
@@ -235,7 +235,7 @@ StartMail does not offer a digital legacy feature.
 
 Tutanota doesn't support the [IMAP protocol](https://tutanota.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tutanota app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tutanota.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } Domain dan Alias Khusus
 
 Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias) and [custom domains](https://tutanota.com/faq#custom-domain). Tutanota doesn't allow for [subaddressing (plus addresses)](https://tutanota.com/faq#plus), but you can use a [catch-all](https://tutanota.com/howto#settings-global) with a custom domain.
 
@@ -243,7 +243,7 @@ Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias)
 
 Tutanota only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Keamanan Akun
 
 Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with either TOTP or U2F.
 

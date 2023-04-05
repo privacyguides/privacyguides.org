@@ -27,12 +27,12 @@ optipng -o7 file.png
 
 #### Inkscape
 
-[Scour](https://github.com/scour-project/scour) all SVG images.
+*[Scour](https://github.com/scour-project/scour)* semua gambar SVG.
 
 Dalam Inkscape:
 
 1. Simpan Berkas Sebagai..
-2. Set type to Optimized SVG (*.svg)
+2. Atur jenis ke SVG yang Dioptimalkan (*.svg)
 
 Pada tab **Opsi**:
 
@@ -53,25 +53,25 @@ Pada tab **SVG Output** di bawah **Opsi dokumen**:
 - [x] Aktifkan **Gambar raster yang disematkan**
 - [x] Aktifkan **Aktifkan viewboxing**
 
-In the **SVG Output** under **Pretty-printing**:
+Pada tab **SVG Output** di bawah **Opsi dokumen**:
 
-- [ ] Turn off **Format output with line-breaks and indentation**
-- **Indentation characters** > Select **Space**
-- **Kedalaman lekukan** > **1**
-- [ ] Turn off **Strip the "xml:space" attribute from the root SVG element**
+- [ ] Matikan **Format keluaran dengan pemisah baris dan indentasi**
+- **Intentasi karakter** > Pilih **Spasi**
+- **Kedalaman indentasi** > **1**
+- [ ] Matikan **Hapus atribut "xml:space" dari elemen SVG akar**
 
 Pada tab **IDs**:
 
 - [x] Aktifkan **Hapus ID yang tidak digunakan**
 - [] Nonaktifkan **Persingkat ID**
 - **Awalan ID singkat dengan** > `biarkan kosong`
-- [x] Turn on **Preserve manually created IDs not ending with digits**
-- **Preserve the following IDs** > `leave blank`
-- **Preserve IDs starting with** > `leave blank`
+- [x] Nyalakan **Simpan ID yang dibuat secara manual yang tidak diakhiri dengan angka**
+- **Awalan ID singkat dengan** > `biarkan kosong`
+- **Simpan ID yang dimulai dengan** > `biarkan kosong`
 
 #### CLI
 
-The same can be achieved with the [Scour](https://github.com/scour-project/scour) command:
+Hal yang sama dapat dicapai dengan perintah [Scour](https://github.com/scour-project/scour):
 
 ```bash
 scour --set-precision=5 \

@@ -2,6 +2,37 @@
 title: "דפדפני אינטרנט לנייד"
 icon: material/cellphone-information
 description: דפדפנים אלו הם מה שאנו ממליצים כיום עבור גלישה רגילה/לא אנונימית באינטרנט בטלפון שלך.
+schema:
+  - 
+    "@context": http://schema.org
+    "@type": WebPage
+    name: Private Mobile Browser Recommendations
+    url: "./"
+    relatedLink: "../desktop-browsers/"
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Brave
+    image: /assets/img/browsers/brave.svg
+    url: https://brave.com
+    applicationCategory: Web Browser
+    operatingSystem:
+      - אנדרואיד
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Safari
+    image: /assets/img/browsers/safari.svg
+    url: https://www.apple.com/safari/
+    applicationCategory: Web Browser
+    operatingSystem:
+      - iOS
+    subjectOf:
+      "@type": WebPage
+      url: "./"
 ---
 
 אלו הם דפדפני האינטרנט הניידים המומלצים כרגע והתצורות שלנו לגלישה רגילה/לא אנונימית באינטרנט. אם אתה צריך לגלוש באינטרנט באופן אנונימי, אתה צריך להשתמש [Tor](tor.md) במקום. באופן כללי, אנו ממליצים לשמור על הרחבות למינימום; יש להם גישה מוסמכת בתוך הדפדפן שלך, דורשים ממך לסמוך על המפתח, יכולים לגרום לך [להיות בולט](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), [ולהחליש](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) את בידוד האתר.

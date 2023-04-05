@@ -41,7 +41,7 @@ Another way to protect your information from merchants online is to use virtual,
 
 These tend to be good options for recurring/subscription payments online, while prepaid gift cards are preferred for one-time transactions.
 
-## Cryptocurrency
+## Criptovaluta
 
 Cryptocurrencies are a digital form of currency designed to work without central authorities such as a government or bank. While *some* cryptocurrency projects can allow you to make private transactions online, many use a public blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly at any time. As such, we generally don't recommend using cryptocurrency as a long-term store of value. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only invest amounts which would not be disastrous to lose.
 

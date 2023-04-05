@@ -129,9 +129,8 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 <div class="grid cards" markdown>
 
-- ![Cryptee logo](assets/img/cloud/cryptee.svg#only-light){ .twemoji }![Cryptee logo](assets/img/cloud/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](cloud.md#cryptee)
-- ![Nextcloud logo](assets/img/cloud/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](cloud.md#nextcloud)
 - ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
+- ![Tresorit logo](assets/img/cloud/tresorit.svg){ .twemoji } [Tresorit](cloud.md#tresorit)
 
 </div>
 
@@ -273,7 +272,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 [Maggiori informazioni :material-arrow-right-drop-circle:](calendar.md)
 
-### Cryptocurrency
+### Criptovaluta
 
 <div class="grid cards" markdown>
 
@@ -383,7 +382,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 <div class="grid cards" markdown>
 
 - ![YubiKeys](assets/img/multi-factor-authentication/mini/yubico.svg){ .twemoji } [YubiKey](multi-factor-authentication.md#yubikey)
-- ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji } [Nitrokey](multi-factor-authentication.md#nitrokey-librem-key)
+- ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji } [Nitrokey](multi-factor-authentication.md#nitrokey)
 - ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji } [Aegis Authenticator](multi-factor-authentication.md#aegis-authenticator)
 - ![Raivo OTP logo](assets/img/multi-factor-authentication/raivo-otp.png){ .twemoji } [Raivo OTP](multi-factor-authentication.md#raivo-otp)
 

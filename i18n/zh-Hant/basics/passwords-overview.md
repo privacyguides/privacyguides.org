@@ -1,111 +1,111 @@
 ---
-title: "Introduction to Passwords"
+title: "密碼介紹"
 icon: 'material/form-textbox-password'
-description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
+description: 以下是關於如何建立最強密碼並確保帳戶安全的一些提示和技巧。
 ---
 
-Passwords are an essential part of our everyday digital lives. We use them to protect our accounts, our devices and our secrets. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them, which often leads to people using passwords that can be easily guessed or brute-forced.
+密碼是我們日常數位生活的重要組成部分。 我們使用它們來保護自己帳戶、設備和祕密。 儘管密碼常常是我們與挖取我們私人資訊的對手之間僅有的唯一阻隔，但人們並未對密碼有充分的考量，導致人們使用的密碼很容易被猜到或強力破解。
 
-## Best Practices
+## 最佳實踐
 
-### Use unique passwords for every service
+### 每項服務各選用不同的獨特密碼
 
-Imagine this; you sign up for an account with the same e-mail and password on multiple online services. If one of those service providers is malicious, or their service has a data breach that exposes your password in an unencrypted format, all a bad actor would have to do is try that e-mail and password combination across multiple popular services until they get a hit. It doesn't matter how strong that one password is, because they already have it.
+想像一下，您在各個不同的網路服務註冊時都使用同一組電子郵件和密碼。 如果其中一個服務提供商懷有惡意，或者其服務發生資料洩露，以未加密格式暴露了您的密碼，那麼不良行為者只需嘗試跨多個流行服務的電子郵件和密碼組合，就可輕易得手。 密碼強度已無關緊要，因為對手已經打開它了。
 
-This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), and it is one of the most common ways that your accounts can be compromised by bad actors. To avoid this, make sure that you never re-use your passwords.
+這稱為 [憑證填充](https://en.wikipedia.org/wiki/Credential_stuffing)，是最常見帳戶被不良行為者破壞的方式之一。 為了避免這種情況，請確保您永遠不會重複使用密碼。
 
-### Use randomly generated passwords
+### 使用隨機生成的密碼
 
-==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware-passphrases) with sufficient entropy to protect your accounts and devices.
+==您 **不應該** 僅靠自己去想出好密碼== ;建議使用充足熵量的[隨機產生密碼randomly generated passwords](#passwords) 或 [diceware 口令密語](#diceware-passphrases) ，以保護裝備和帳戶的安全。
 
-All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
+我們所推薦的 [密碼管理器](../passwords.md) 都內建密碼生成器。
 
-### Rotating Passwords
+### 輪換密碼
 
-You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised, as changing it too often exposes you to the risk of forgetting it.
+應避免經常更改必須記住的密碼（例如密碼管理器的主密碼） ，除非有理由相信它已被破壞，否則頻繁更改它往往會使您面臨忘記密碼的風險。
 
-When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multi-factor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
+對於無需記住的密碼（例如存儲在密碼管理器中的密碼）時，如果您的 [威脅模型](threat-modeling.md) 需要它，建議每隔幾個月查看一次重要帳戶（特別是沒使用多因素身份驗證的帳戶）並更改其密碼，以防它們在尚未公開的資料洩露中遭到破壞。 大多數密碼管理器可為密碼設定到期日期，以便更容易管理。
 
-!!! tip "Checking for data breaches"
+!!! 提示“檢查數據洩露”
 
-    If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach. Alternatively, you could follow [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) with the help of a [news aggregator](../news-aggregators.md).
+    如果您的密碼管理器可以檢查密碼是否已被破壞，請務必檢查並立即更改可能已暴露在資料外洩的密碼。 或者，您可以在[news aggregator] (../news-aggregators.md)的幫助下關注[Have I Been Pwned  最新資料外洩情報] (https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches)。
 
-## Creating strong passwords
+## 建立強密碼
 
-### Passwords
+### 密碼
 
-A lot of services impose certain criteria when it comes to passwords, including a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
+許多服務對密碼施加了某些標準，包括最小或最大長度，以及可以使用哪些特殊字符（如果有的話）。 您應該利用密碼管理器內建的密碼生成器來創建夠長、複雜的密碼，只要服務允許，最好是混合大寫和小寫字母、數字和特殊字符搭配。
 
-If you need a password you can memorize, we recommend a [diceware passphrase](#diceware-passphrases).
+若需要一個記得住的密碼，建議採用 [diceware 口令密語](#diceware-passphrases)。
 
-### Diceware Passphrases
+### Diceware 口令密語
 
-Diceware is a method for creating passphrases which are easy to remember, but hard to guess.
+Diceware 是一種創建密碼短語的方法，這些密短口令易於記憶，但很難猜測。
 
-Diceware passphrases are a great option when you need to memorize or manually input your credentials, such as for your password manager's master password or your device's encryption password.
+當您需要記憶或手動輸入憑證時，例如密碼管理員的主密碼或設備的加密密碼， Diceware 口令密語是個好選擇。
 
-An example of a diceware passphrase is `viewable fastness reluctant squishy seventeen shown pencil`.
+舉一個 Diceware 口令密語的例子 `viewable fastness reluctant squishy seventeen shown pencil`。
 
-To generate a diceware passphrase using real dice, follow these steps:
+使用骰子來產生一組 diceware 口令密語，請按照以下步驟：
 
-!!! note
+!!! 備註
 
-    These instructions assume that you are using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other wordlists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
+    這裏的說明假設您正使用[ EFF的大型單詞清單] (https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)來生成密語，每個單詞需要骰子滾動五次。 其他單詞列表的單詞其骰子滾動次數不一，且可能需要不同單詞數量來達成相同的熵。
 
-1. Roll a six-sided die five times, noting down the number after each roll.
+1. 將1~6 骰子滾動五次，記下每次出現的數字。
 
-2. As an example, let's say you rolled `2-5-2-6-6`. Look through the [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+2. 例如，假設您滾動了 `2-5-2-6-6`。 查看 [EFF 的大型單詞清單](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) ，找出對應於 `25266` 的單詞。
 
-3. You will find the word `encrypt`. Write that word down.
+3. 你會得到單詞 `encrypt`。 把這個詞寫下來。
 
-4. Repeat this process until your passphrase has as many words as you need, which you should separate with a space.
+4. 重複相同手續，直到您的口令密語達到足夠的單詞，請用空格分隔單詞。
 
-!!! warning "Important"
+!!! 警告“重要”
 
-    You should **not** re-roll words until you get a combination of words that appeal to you. The process should be completely random.
+    你* *不應* *重新滾動單詞，以取得自己喜好的單詞組合。 這個過程應該是完全隨機的。
 
-If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
+如果您手邊沒有或不想使用真正的骰子，可利用密碼管理器內建密碼生成器，因為大多數密碼生成器除了普通密碼之外還可以選擇生成 diceware 口令密語。
 
-We recommend using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [other wordlists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+我們建議使用 [EFF 的大型單詞清單](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) 來生成您的diceware 口令密語，因為它提供與原始列表完全相同的安全性，同時更容易記憶的單詞。 如果不想要使用英文密語，也有 [其他語言的單詞清單](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline)。
 
-??? note "Explanation of entropy and strength of diceware passphrases"
+??? 附註「diceware 口令密語的熵和強度的說明」
 
-    To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+    為了證明 diceware 密語的強度，我們將使用前面提到的七個單詞密語（`viewable fastness reluctant squishy seventeen shown pencil` ）和 [EFF 的大型單詞列表] (https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)作例子。
     
-    One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as $\text{log}_2(\text{WordsInList})$ and the overall entropy of the passphrase is calculated as $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
+    判斷 diceware 口令密語強度的衡量標準是確定它有多少熵。 diceware 口令密語中的個別單詞的熵為  $\text{log}_2(\text{WordsInList})$ 而整組密語的熵總量為 $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
     
-    Therefore, each word in the aforementioned list results in ~12.9 bits of entropy ($\text{log}_2(7776)$), and a seven word passphrase derived from it has ~90.47 bits of entropy ($\text{log}_2(7776^7)$).
+    因此，上述列表中的每個單詞都會產生~ 12.9 位熵（($\text{log}_2 (7776) $)  ，而其中取得七個單詞組成的口令密語就具有~ 90.47位熵 ($\text{log}_2 (7776 ^ 7) $ )。
     
-    The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is $\text{WordsInList}^\text{WordsInPhrase}$, or in our case, $7776^7$.
+    [EFF 的大型單詞清單] (https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)包含 7776 個獨特單詞。 要計算可能的口令密語數量，所要做的就是 $\text{WordsInList}^\text{WordsInPhrase}$ ，或者依我們的情況， $ 7776 ^ 7 $。
     
-    Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+    讓我們從這個角度來看：使用 [EFF 的大型單詞列表] (https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)的七個單詞的口令密短約有1,719,070,799,748,422,500,000,000 種組合。
     
-    On average, it takes trying 50% of all the possible combinations to guess your phrase. With that in mind, even if your adversary is capable of ~1,000,000,000,000 guesses per second, it would still take them ~27,255,689 years to guess your passphrase. That is the case even if the following things are true:
+    平均而言，至少要嘗試所有可能組合的一半來猜測您的密語。 考慮到這一點，即使對手每秒能夠猜測~ 1,000,000,000,000 次，他們仍然需要~ 27,255,689 年來猜出您的密語。 即使以下情況屬實，也是如此：
 
-    - Your adversary knows that you used the diceware method.
-    - Your adversary knows the specific wordlist that you used.
-    - Your adversary knows how many words your passphrase contains.
+    - 對手知道您使用 diceware 方法。
+    - 對手知道您所使用的具體單詞清單。
+    - 對手知道您的密語包含多少個單詞。
 
-To sum it up, diceware passphrases are your best option when you need something that is both easy to remember *and* exceptionally strong.
+總而言之， diceware 口令密語是最佳選擇，當您需要既容易記住 *又* 非常強大的東西。
 
-## Storing Passwords
+## 儲存密碼
 
-### Password Managers
+### 密碼管理器。
 
-The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
+儲存密碼的最佳方式是使用密碼管理器。 可將密碼存儲在檔案或雲端，使用單個主密碼保護與開啟它們。 這樣，您只需要記住一個強大的密碼，就可以訪問其餘密碼。
 
-There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware passphrase](#diceware-passphrases) comprised of at least seven words.
+有許多好的選項可參考，不管是雲端和本地設備安裝。 選擇任一推薦的密碼管理器，利用它為所有帳戶建立強密碼。 建議利用至少七個單詞的 [diceware 口令密語](#diceware-passphrases) 來保護密碼管理器的安全。
 
-[List of recommended password managers](../passwords.md ""){.md-button}
+[推薦的密碼管理員列表](../passwords.md ""){.md-button}
 
-!!! warning "Don't place your passwords and TOTP tokens inside the same password manager"
+!!! 警告： “不要將密碼和 TOTP 令牌放在同一個密碼管理器中”
 
-    When using TOTP codes as [multi-factor authentication](../multi-factor-authentication.md), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md#authenticator-apps).
+    當使用 TOTP 代碼作為[多因素驗證] (../multifactor-authentication.md)時，最好的安全措施是將 TOTP 代碼保存在[分開的應用程序] (../multifactor-authentication.md#authenticator-apps)中。
     
-    Storing your TOTP tokens in the same place as your passwords, while convenient, reduces the accounts to a single factor in the event that an adversary gains access to your password manager.
+    將您的 TOTP 令牌存儲在與密碼相同的位置，雖然方便，但假若對手可以存取密碼管理器，則帳戶安全驗證則減少為單一因素。
     
-    Furthermore, we do not recommend storing single-use recovery codes in your password manager. Those should be stored separately such as in an encrypted container on an offline storage device.
+    此外，我們不建議把一次性修復代碼存在密碼管理器。 它們應分開儲存，例如放在離線儲存設備的加密容器中。
 
 ### 備份
 
-You should store an [encrypted](../encryption.md) backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.
+您應該將密碼備份 [加密](../encryption.md) 在 數個儲存裝置或雲端儲存服務。 如果您主要裝置或正在使用的服務出問題，這可以幫助您存得密碼。

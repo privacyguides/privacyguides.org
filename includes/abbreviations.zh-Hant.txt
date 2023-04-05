@@ -1,28 +1,28 @@
-*[2FA]: 2-Factor Authentication
+*[2FA]: 雙因素驗證
 *[ADB]: Android Debug Bridge
-*[AOSP]: Android Open Source Project
+*[AOSP]: Android 開放原始碼計畫 (AOSP)
 *[ATA]: Advanced Technology Attachment
 *[attack surface]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups
-*[CLI]: Command Line Interface
-*[CSV]: Comma-Separated Values
-*[CVE]: Common Vulnerabilities and Exposures
-*[Digital Legacy]: Digital Legacy refers to features that allow you to give other people access to your data when you die
-*[DNSSEC]: Domain Name System Security Extensions
-*[DNS]: Domain Name System
-*[DoH]: DNS over HTTPS
-*[DoQ]: DNS over QUIC
-*[DoH3]: DNS over HTTP/3
-*[DoT]: DNS over TLS
-*[E2EE]: End-to-End Encryption/Encrypted
-*[ECS]: EDNS Client Subnet
-*[EEA]: European Economic Area
-*[entropy]: A measurement of how unpredictable something is
-*[EOL]: End-of-Life
-*[Exif]: Exchangeable image file format
-*[FCM]: Firebase Cloud Messaging
-*[FDE]: Full Disk Encryption
+*[CLI]: 命令列介面
+*[CSV]: Comma-Separated Values (以逗號分開數值的文件)
+*[CVE]: Common Vulnerabilities and Exposures (常見漏洞和暴露)
+* [Digital Legacy]: 數位遺產是指在您死亡之後，允許讓其他人取用您留下的資料。
+*[DNSSEC]: 網域名稱系統安全擴充套件
+*[DNS]: 域名系統
+*[DoH]: 通過 HTTPS 的 DNS
+*[DoQ]: 通過 QUIC 的 DNS
+*[DoH3]: 通過 HTTP/3 的 DNS
+*[DoT]: 通過 TLS 的 DNS
+*[E2EE]: 端到端加密/加密
+*[ECS]: EDNS客戶端子網
+*[EEA]: 歐洲經濟區
+*[entropy]: 衡量某件事有多不可預測
+*[EOL]: 結束生命週期
+*[Exif]: 可交換影像檔案格式
+*[FCM]: Firebase 雲消息
+*[FDE]: 完整磁碟加密
 *[FIDO]: Fast IDentity Online
 *[fork]: A new software project created by copying an existing project and adding to it independently
 *[GDPR]: General Data Protection Regulation
@@ -33,39 +33,39 @@
 *[HDD]: Hard Disk Drive
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Secure
-*[HTTP]: Hypertext Transfer Protocol
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
-*[ICCID]: Integrated Circuit Card Identifier
-*[IMAP]: Internet Message Access Protocol
-*[IMEI]: International Mobile Equipment Identity
-*[IMSI]: International Mobile Subscriber Identity
-*[IP]: Internet Protocol
-*[IPv4]: Internet Protocol version 4
-*[IPv6]: Internet Protocol version 6
-*[ISP]: Internet Service Provider
-*[ISPs]: Internet Service Providers
-*[JNI]: Java Native Interface
-*[KYC]: Know Your Customer
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
-*[MAC]: Media Access Control
-*[MDAG]: Microsoft Defender Application Guard
-*[MEID]: Mobile Equipment Identifier
+*[HTTP]: 超文本傳輸協議
+*[hypervisor]: 多重作業系統中分割CPU資源給電腦軟體、韌體或硬體。
+*[ICCID]: 集成式迴路卡識別碼
+*[IMAP]: 網際網路訊息存取協定
+*[IMEI]: 國際移動設備識別碼
+*[IMSI]: 國際移動使用者辨識碼
+*[IP]: 網際網路協議
+*[IPv4]: 互聯網協議版本4
+*[IPv6]: 網際網路協議版本6
+*[ISP]: 網路連線供應商
+*[ISPs]: 網路連線供應商
+*[JNI]: Java 原生介面
+*[KYC]: 了解您的客戶
+*[LUKS]: Linux Unified Key設定 (全磁碟加密)
+*[MAC]: 媒體存取控制 
+*[MDAG]: Microsoft Defender 應用程式防護
+*[MEID]: 行動裝置識別碼
 *[MFA]: 多重身分驗證
-*[NVMe]: Nonvolatile Memory Express
-*[NTP]: Network Time Protocol
+*[NVMe]: NVMe (非揮發性記憶體控制規範)
+*[NTP]: 網絡時間協議
 *[OCI]: Open Container Initiative
-*[OCSP]: Online Certificate Status Protocol
-*[OEM]: Original Equipment Manufacturer
-*[OEMs]: Original Equipment Manufacturers
-*[OS]: Operating System
-*[OTP]: One-Time Password
-*[OTPs]: One-Time Passwords
+*[OCSP]: 線上憑邆狀態協議
+*[OEM]: 代工生產
+*[OEMs]: 代工生產
+*[OS]: 作業系統
+*[OTP]: 一次性密碼
+*[OTPs]: 一次性密碼
 *[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
-*[P2P]: Peer-to-Peer
-*[PAM]: Linux Pluggable Authentication Modules
-*[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
-*[PII]: Personally Identifiable Information
+*[P2P]: 點對點
+*[PAM]: Linux 插入式驗證模組
+*[POP3]: 郵件協議 3
+*[PGP]: Pretty Good Privacy （見OpenPGP ）
+*[PII]: 個人識別資訊
 *[QNAME]: Qualified Name
 *[rolling release]: Updates which are released frequently rather than set intervals
 *[RSS]: Really Simple Syndication
@@ -88,9 +88,9 @@
 *[TPM]: Trusted Platform Module
 *[U2F]: Universal 2nd Factor
 *[UEFI]: Unified Extensible Firmware Interface
-*[UDP]: User Datagram Protocol
-*[VPN]: Virtual Private Network
-*[VoIP]: Voice over IP (Internet Protocol)
-*[W3C]: World Wide Web Consortium
+*[UDP]: 用戶資料圖報協議
+*[VPN]: 虛擬私密連線
+*[VoIP]: IP語音(Internet通訊協定)
+*[W3C]: 萬維網聯盟
 *[XMPP]: Extensible Messaging and Presence Protocol
-*[PWA]: Progressive Web App
+*[PWA]: 漸進式網絡應用程式 (PWA)

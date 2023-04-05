@@ -1,7 +1,7 @@
 ---
 title: "Amenazas comunes"
 icon: 'material/eye-outline'
-description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
+description: Tu modelo de amenaza es personal, pero éstas son algunas de las cosas que preocupan a muchos visitantes de este sitio.
 ---
 
 En términos generales, clasificamos nuestras recomendaciones en las [amenazas](threat-modeling.md) u objetivos que se aplican a la mayoría de las personas. ==Puede que no te preocupe ninguna, una, varias o todas estas posibilidades==, y las herramientas y servicios que utilices dependerán de cuáles sean tus objetivos. Es posible que también tengas amenazas específicas fuera de estas categorías, ¡lo cual está perfectamente bien! Lo importante es desarrollar una comprensión de los beneficios y las deficiencias de las herramientas que elijas utilizar, porque prácticamente ninguna de ellas te protegerá de todas las amenazas.
@@ -77,21 +77,21 @@ Incluso con E2EE, los proveedores de servicios aún pueden hacerte un perfil bas
 
 La vigilancia masiva es el intrincado esfuerzo por controlar el "comportamiento, muchas actividades o información" de toda una población (o de una fracción sustancial de ella).[^1] Suele referirse a programas gubernamentales, como los que [reveló Edward Snowden en 2013](https://es.wikipedia.org/wiki/Revelaciones_sobre_la_red_de_vigilancia_mundial_(2013-2015)). Sin embargo, también puede ser llevada a cabo por empresas, ya sea en nombre de organismos gubernamentales o por iniciativa propia.
 
-!!! Sin embargo, al vulnerar los derechos humanos, se utiliza con mayor frecuencia para atacar desproporcionadamente a grupos minoritarios y disidentes políticos, entre otros.
+!!! abstract "Atlas de Vigilancia"
 
     Si quiere saber más sobre los métodos de vigilancia y cómo se aplican en su ciudad, también puede echar un vistazo al [Atlas of Surveillance](https://atlasofsurveillance.org/) de la [Electronic Frontier Foundation](https://www.eff.org/).
     
     En Francia puede consultar el sitio [Technolopolice website](https://technopolice.fr/villes/), mantenido por la asociación sin ánimo de lucro La Quadrature du Net.
 
-Los gobiernos suelen justificar los programas de vigilancia masiva como medios necesarios para combatir el terrorismo y prevenir la delincuencia. cita "ACLU: [*La lección de privacidad del 11 de septiembre: La vigilancia masiva no es el camino a seguir*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
+Los gobiernos suelen justificar los programas de vigilancia masiva como medios necesarios para combatir el terrorismo y prevenir la delincuencia. Sin embargo, al vulnerar los derechos humanos, se utiliza con mayor frecuencia para atacar desproporcionadamente a grupos minoritarios y disidentes políticos, entre otros.
 
 !!! cita "ACLU: [*La lección de privacidad del 11 de septiembre: La vigilancia masiva no es el camino a seguir*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
 
-    Aunque eludir la censura en sí puede ser fácil, ocultar el hecho de que lo estás haciendo puede ser muy problemático. Debrías considerar qué aspectos de la red puede observar tu adversario y si tiene una negación plausible de tus acciones.
+    Ante [las revelaciones de Edward Snowden sobre programas gubernamentales como [PRISM](https://es.wikipedia.org/wiki/PRISM) y [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], los funcionarios de inteligencia también admitieron que la NSA llevaba años recopilando en secreto registros sobre prácticamente todas las llamadas telefónicas de los estadounidenses: quién llama a quién, cuándo se hacen esas llamadas y cuánto duran. Este tipo de información, cuando es recopilada por la NSA día tras día, puede revelar detalles increíblemente sensibles sobre la vida y las asociaciones de las personas, como si han llamado a un pastor, a un proveedor de aborto, a un consejero de adicciones o a una línea directa de suicidio.
 
-En línea, puedes ser rastreado a través de una variedad de métodos:
+A pesar de la creciente vigilancia masiva en Estados Unidos, el gobierno ha descubierto que los programas de vigilancia masiva como Section 215 han tenido "poco valor único" con respecto a la detención de delitos reales o complots terroristas, con esfuerzos que duplican en gran medida los propios programas de vigilancia selectiva del FBI.[^2]
 
-\[Esta lista no es exhaustiva].
+En línea, puedes ser rastreado a través de varios métodos:
 
 - Tu dirección IP
 - Cookies del navegador
@@ -99,7 +99,7 @@ En línea, puedes ser rastreado a través de una variedad de métodos:
 - La huella digital de tu navegador o dispositivo
 - Correlación del método de pago
 
-Si te preocupan los programas de vigilancia masiva, puedes utilizar estrategias como compartimentar tus identidades en línea, mezclarte con otros usuarios o, siempre que sea posible, simplemente evitar dar información que te identifique.
+\[Esta lista no es exhaustiva].
 
 Si te preocupan los programas de vigilancia masiva, puedes utilizar estrategias como compartimentar tus identidades en línea, mezclarte con otros usuarios o, siempre que sea posible, simplemente evitar proporcionar información que te identifique.
 
@@ -107,9 +107,9 @@ Si te preocupan los programas de vigilancia masiva, puedes utilizar estrategias 
 
 > El capitalismo de vigilancia es un sistema económico centrado en la captura y mercantilización de datos personales con el propósito principal de obtener ganancias.[^3]
 
-Además, incluso empresas ajenas a la industria de *AdTech* o de seguimiento pueden compartir tu información con los [corredores de datos](https://es.wikipedia.org/wiki/Broker_de_informaci%C3%B3n) (como Cambridge Analytica, Experian o Datalogix) u otras partes. No puedes asumir automáticamente que tus datos están seguros sólo porque el servicio que utilizas no entra dentro del típico modelo de negocio de AdTech o de seguimiento. La mayor protección contra la recopilación de datos por parte de las empresas es encriptar u ofuscar tus datos siempre que sea posible, dificultando que los diferentes proveedores puedan correlacionar los datos entre sí y construir un perfil sobre ti.
+Para muchas personas, el seguimiento y la vigilancia por parte de empresas privadas es una preocupación creciente. Las redes publicitarias omnipresentes, como las operadas por Google y Facebook, se extienden por Internet mucho más allá de los sitios que controlan, rastreando tus acciones a lo largo del camino. El uso de herramientas como los bloqueadores de contenido para limitar las solicitudes de red a sus servidores y la lectura de las políticas de privacidad de los servicios que utiliza pueden ayudarte a evitar a muchos adversarios básicos (aunque no puede evitar por completo el rastreo).[^4]
 
-La mejor manera de mantener la privacidad de tus datos es simplemente no hacerlos públicos en primer lugar. Borrar la información no deseada que encuentres sobre ti en Internet es uno de los mejores primeros pasos que puedes dar para recuperar tu privacidad. La mayor protección contra la recopilación de datos por parte de las empresas es encriptar u ofuscar tus datos siempre que sea posible, dificultando que los diferentes proveedores puedan correlacionar los datos entre sí y construir un perfil sobre ti.
+Además, incluso empresas ajenas a la industria de *AdTech* o de seguimiento pueden compartir tu información con los [corredores de datos](https://es.wikipedia.org/wiki/Broker_de_informaci%C3%B3n) (como Cambridge Analytica, Experian o Datalogix) u otras partes. No puedes asumir automáticamente que tus datos están seguros sólo porque el servicio que utilizas no entra dentro del típico modelo de negocio de AdTech o de seguimiento. La mayor protección contra la recopilación de datos por parte de las empresas es encriptar u ofuscar tus datos siempre que sea posible, dificultando que los diferentes proveedores puedan correlacionar los datos entre sí y construir un perfil sobre ti.
 
 ## Limitación de la información pública
 
@@ -121,13 +121,13 @@ En los sitios en los que compartes información, es muy importante comprobar la 
 
 Si ya has enviado tu información real a sitios que no deberían tenerla, considera la posibilidad de utilizar tácticas de desinformación, como enviar información ficticia relacionada con esa identidad en línea. Esto hace que tu información real sea indistinguible de la falsa.
 
-La censura en línea puede ser llevada a cabo (en diversos grados) por actores que incluyen gobiernos totalitarios, administradores de redes y proveedores de servicios. Estos esfuerzos por controlar la comunicación y restringir el acceso a la información serán siempre incompatibles con el derecho humano a la Libertad de Expresión.[^5]
+La censura en línea puede ser llevada a cabo (en diversos grados) por actores que incluyen gobiernos totalitarios, administradores de redes y proveedores de servicios. Esto hace que tu información real sea indistinguible de la falsa.
 
 ## Evitar la censura
 
 <span class="pg-blue-gray">:material-close-outline: Censura</span>
 
-La censura en las plataformas corporativas es cada vez más común, ya que plataformas como Twitter y Facebook ceden a la demanda del público, a las presiones del mercado y a las de los organismos gubernamentales. Las presiones gubernamentales pueden ser peticiones encubiertas a las empresas, como la de la Casa Blanca [solicitando la retirada](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) de un vídeo provocativo de YouTube, o abiertamente, como la del gobierno chino exigiendo a las empresas que se adhieran a un estricto régimen de censura.
+La censura en las plataformas corporativas es cada vez más común, ya que plataformas como Twitter y Facebook ceden a la demanda del público, a las presiones del mercado y a las de los organismos gubernamentales. Estos esfuerzos por controlar la comunicación y restringir el acceso a la información serán siempre incompatibles con el derecho humano a la Libertad de Expresión.[^5]
 
 La censura en las plataformas corporativas es cada vez más común, ya que plataformas como Twitter y Facebook ceden a la demanda del público, a las presiones del mercado y a las de los organismos gubernamentales. Las presiones gubernamentales pueden ser peticiones encubiertas a las empresas, como la de la Casa Blanca [solicitando la retirada](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) de un vídeo provocativo de YouTube, o abiertamente, como la del gobierno chino exigiendo a las empresas que se adhieran a un estricto régimen de censura.
 

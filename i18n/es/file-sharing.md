@@ -8,7 +8,7 @@ Descubra cómo puede compartir de manera privada sus archivos entre sus disposit
 
 ## Programas para compartir archivos
 
-### Enviar
+### Send
 
 !!! recomendación
 

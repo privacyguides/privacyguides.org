@@ -72,7 +72,7 @@ Proton Mail [מקבל](https://proton.me/support/payment-options) מזומן ב�
 
 #### :material-check:{ .pg-green } אבטחת חשבון
 
-Proton Mail תומך באימות TOTP [בשני גורמים בלבד](https://proton.me/support/two-factor-authentication-2fa). השימוש במפתח אבטחה U2F אינו נתמך עדיין. Proton Mail מתכננת ליישם את U2F עם השלמת קוד ה[כניסה יחידה (SSO)](https://reddit.com/comments/cheoy6/comment/feh2lw0/) שלהם.
+Proton Mail תומך באימות TOTP ב[שני גורמים](https://proton.me/support/two-factor-authentication-2fa) וב[מפתחות אבטחת חומרה](https://proton.me/support/2fa-security-key) באמצעות תקני FIDO2 או U2F. השימוש במפתח אבטחת חומרה מחייב הגדרת אימות דו - שלבי של TOTP תחילה.
 
 #### :material-check:{ .pg-green } אבטחת מידע
 

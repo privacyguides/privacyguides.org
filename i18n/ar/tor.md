@@ -1,117 +1,118 @@
 ---
-title: "Tor Network"
+title: "شبكة تور"
 icon: simple/torproject
-description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+description: استر عن ما تتصفحه باستخدام شبكة تور، وهي شبكة آمنة تتجاوز الرقابة.
 ---
 
-![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
+![شعار تور](assets/img/self-contained-networks/tor.svg){ align=right }
 
-The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
+شبكة **تور** هي خوادم يديرها متطوِّعون تتيح لك الاتصال بها مجَّانًا وتحسِّن خصوصيتك وأمنك في الإنترنت. ويمكن للأفراد والمؤسسات مشاركة المعلومات عبرها باستخدام «خدمات .onion الخفية»، وذلك دون نهك خصوصيتهم. فكون اتصالات تور صعبة الحظر والتتبع يجعل تور أداةً فعَّالةً لتجاوز الرقابة.
 
-[:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+[:octicons-home-16:](https://www.torproject.org){ .card-link title=الصفحة الرئيسة }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="خدمة أَنيِن" }
+[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=التوثيق}
+[:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="رمز المصدر" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=ساهم }
 
-Tor works by routing your internet traffic through those volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. This obfuscates where the traffic is coming from, and no server in the connection path is able to see the full path of where the traffic is coming from and going to, meaning even the servers you are using to connect cannot break your anonymity.
+يعمل تور عن طريق توجيه اتصالاتك عبر خوادم المتطوِّعين، وذلك بدلًا من الاتصال بالموقع الذي تريد مباشرةً. يلبِّس هذا أصل الاتصال، وليس بوسع أي خادم في سبيل الاتصال رؤيته من بدايته لمقصده، مما يعني أن حتى الخوادم المستخدمة للاتصال لا تنتهك مجهوليتك.
 
-[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
+[نظرة عامة شاملة عن تور :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
 
-## Connecting to Tor
+## الاتصال بتور
 
-There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for anonymous browsing for desktop computers and Android. In addition to the apps listed below, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser.
+عندك الكثير من السُّبُل للتتَّصل بشبكة تور من جهازك، وأشيعها **متصفِّح تور**، وهو تشعُّب من فيرفكس مصمَّم للتصفُّح المستور، ويُتاح في أجهزة سطح المكتب ونظام أندرويد. وزيادةً على التطبيقات المذكورة أدناه فهناك أنظمة تشغيل مصمَّمة للتتَّصل بشبكة تور، مثل [وونكس](desktop.md#whonix) في [كيوبس أو‌إس](desktop.md#qubes-os)، وأمانه أأمن متصفِّح تور العاديِّ.
 
-### Tor Browser
-
-!!! recommendation
-
-    ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
-    
-    **Tor Browser** is the choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
-    
-    [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
-    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-        - [:simple-android: Android](https://www.torproject.org/download/#android)
-        - [:simple-windows11: Windows](https://www.torproject.org/download/)
-        - [:simple-apple: macOS](https://www.torproject.org/download/)
-        - [:simple-linux: Linux](https://www.torproject.org/download/)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/security/tor)
-
-!!! danger
-
-    You should **never** install any additional extensions on Tor Browser or edit `about:config` settings, including the ones we suggest for Firefox. Browser extensions and non-standard settings make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
-
-The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings/).
-
-### Orbot
+### متصفِّح تور
 
 !!! recommendation
 
-    ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+    ![Tor Browser logo](assets/img/browsers/tor.svg){ align=left }
     
-    **Orbot** is a free Tor VPN for smartphones which routes traffic from any app on your device through the Tor network.
+    **متصفِّح تور** خير خيار إن أردت المجهولية، فهو يمكِّنك من الاتصال بشبكة تور وجسورها، وفيه إعدادات مبدئية تُضبط حسب مستوى الأمن: *قياسي* و*أأمن* و*أشدُّ أمن*.
     
-    [:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
+    [:octicons-home-16: الصفحة الرئيسة](https://www.torproject.org){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="خدمة أَنيِن" }
+    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=التوثيق }
+    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="رمز المصدر" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=ساهم }
     
-    ??? downloads
+    ??? التنزيلات
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
-        - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
+        - [:simple-googleplay: متجر بلاي](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
+        - [:simple-android: أندرويد](https://www.torproject.org/download/#android)
+        - [:simple-windows11: ويندوز](https://www.torproject.org/download/)
+        - [:simple-apple: ماك‌أو‌إس](https://www.torproject.org/download/)
+        - [:simple-linux: لينكس](https://www.torproject.org/download/)
+        - [:simple-freebsd: فري‌بي‌إس‌دي](https://www.freshports.org/security/tor)
 
-For resistance against traffic analysis attacks, consider enabling *Isolate Destination Address* in :material-menu: → **Settings** → **Connectivity**. This will use a completely different Tor Circuit (different middle relay and exit nodes) for every domain you connect to.
+!!! خطر
 
-!!! tip "Tips for Android"
+    لا تثبِّت أيَّ إضافات في متصفِّح تور **أبدًا**، ولا تحرِّر إعدادات ‹about:config›، ويشمل ذلك ما نقترحه في فيرفكس. تميِّزك الإضافات والإعدادات المختلفة عن البقية في شبكة تور، وهذه يسهِّل تبصيم [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting) متصفِّحك.
 
-    Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
-    
-    Orbot is often outdated on the Guardian Project's [F-Droid repository](https://guardianproject.info/fdroid) and [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android), so consider downloading directly from the [GitHub repository](https://github.com/guardianproject/orbot/releases) instead.
-    
-    All versions are signed using the same signature so they should be compatible with each other.
+صمِّم متصفِّح تور لمكافحة التبصيم، أو كشف هويَّتك حسب ضبط متصفِّحك. وزبدة القول أنه عليك **ألا** تعدِّل المتصفِّح خلا [مستويات الأمن](https://tb-manual.torproject.org/security-settings/) المبدئية.
 
-## Relays and Bridges
-
-### Snowflake
+### أُربوت
 
 !!! recommendation
 
-    ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
-    ![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
+    ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=left }
     
-    **Snowflake** allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser.
+    **أربوت** هو شبكة تور افتراضية خاصة للأجهزة الذكية، وما يفعله هو توجيه اتصالاتك من أيِّ تطبيق عبر شبكة تور.
     
-    People who are censored can use Snowflake proxies to connect to the Tor network. Snowflake is a great way to contribute to the network even if you don't have the technical know-how to run a Tor relay or bridge.
+    [:octicons-home-16: الصفحة الرئيسة](https://orbot.app/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="سياسة الخصوصية" }
+    [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=التوثيق}
+    [:octicons-code-16:](https://orbot.app/code){ .card-link title="رمز المصدر" }
+    [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=ساهم }
     
-    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+    ??? التنزيلات
     
-    ??? downloads
-    
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
-        - [:octicons-browser-16: Web](https://snowflake.torproject.org/embed "Leave this page open to be a Snowflake proxy")
+        - [:simple-googleplay: متجر بلاي](https://play.google.com/store/apps/details?id=org.torproject.android)
+        - [:simple-appstore: آب ستور](https://apps.apple.com/us/app/orbot/id1609461599)
+        - [:simple-github: جت‌هب](https://github.com/guardianproject/orbot/releases)
 
-??? tip "Embedded Snowflake"
+إن أردت مقاومة هجمات تحليل الاتصالات فينبغي لك تمكين *عزل عنوان الوجهة* في :material-menu: ← **الإعدادات ** ← **الاتصال**. سوف يستخدم هذا دائرة تور مختلفةً (أي مرحِّلًا وسيطًا وعقدةً مختلفين) لكلِّ نطاق تتصل به.
 
-    You can enable Snowflake in your browser by clicking the switch below and ==leaving this page open==. You can also install Snowflake as a browser extension to have it always run while your browser is open, however adding third-party extensions can increase your attack surface.
+!!! فائدة «فوائد لنظام أندرويد»
+
+    بإمكان أربوت التوسُّط لتطبيقات معيَّنة حال دعمها توسُّط SOCKS أو HTTP. ويستطيع أيضا توسيط كلِّ اتصالات شبكتك باستخدام شبكة افتراضية خاصَّة [VpnService](https://developer.android.com/reference/android/net/VpnService)، ولك استخدامه مع مفتاح أيقاف الشبكات الافتراضية في :gear: **الإعدادات** ← **الشبكة والإنترنت** ← **الشبكات الافتراضية الخاصة** ← :gear: ← **امنع الاتصالات دون شبكة افتراضية خاصَّة**.
+    
+    غالبًا ما تجد إصدار أربوت قديمًا في مستودع [إف-درويد](https://guardianproject.info/fdroid) لمشروع جارديَن [ومتجر بلاي](https://play.google.com/store/apps/details?id=org.torproject.android)، فربما من الأفضل أن تنزِّله من [مستودع جت‌هب](https://github.com/guardianproject/orbot/releases) مباشرةً.
+    
+    كلُّ الإصدارات وُقِّع عليها بنفس التوقيع، لذلك تتوافق.
+
+## المرحِّلات والجسور
+
+### سنوفليك
+
+!!! recommendation
+
+    ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=left }
+    ![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=left }
+    
+    يتيح لك **سنوفليك** أن تساهم بشيء من حيِّز نطاقك في مشروع تور، ويكون ذلك عبر تشغيل «وسيط سنوفليك» ضمن متصفِّحك.
+    
+    يستطيع من يخضع للرقابة أن يستعمل وسطاء سنوفليك ليتَّصل بشبكة تور. ييسِّر سنوفليك المساهمة في شبكة تور، فلا تحتاج لمعلومات تقنية لتشغِّل مرحِّل تور أو جسرًا له.
+    
+    [:octicons-home-16: الصفحة الرئيسة](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=التوثيق}
+    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="رمز المصدر" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=ساهم }
+    
+    ??? التنزيلات
+    
+    
+        - [:simple-firefoxbrowser: فيرفكس](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/)
+        - [:simple-googlechrome: كروم](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
+        - [:octicons-browser-16: وِب](https://snowflake.torproject.org/embed "اترك هذه الصفحة مفتوحةً لتصير وسيط سنوفليك")
+
+??? فائدة «سنوفليك مضمَّن»
+
+    بوسعك تمكين سنوفليك في متصفِّحك بنقر المفتاح أدناه ==وترك الصفحة مفتوحةً==. ويمكنك أيضًا تثبيت سنوفليك إضافةً في متصفِّحك، ولك تشغيله طالما فُتح متصفِّحك، ولكن تنبَّه لأن إضافة إضافات خارجية يزيد المخاطر.
     
     <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
-    <small>If the embed does not appear for you, ensure you are not blocking the third-party frame from `torproject.org`. Alternatively, visit [this page](https://snowflake.torproject.org/embed.html).</small>
+    <small>إن لم يظهر لك التضمين فتيقَّن من أنك لا تحظر الإطار الخارجيَّ من ‹torproject.org›. أو زر [هذه الصفحة](https://snowflake.torproject.org/embed.html).</small>
 
-Snowflake does not increase your privacy in any way, nor is it used to connect to the Tor network within your personal browser. However, if your internet connection is uncensored, you should consider running it to help people in censored networks achieve better privacy themselves. There is no need to worry about which websites people are accessing through your proxy—their visible browsing IP address will match their Tor exit node, not yours.
+لا يفيد سنوفليك في تحسين خصوصيتك أبدًا، وليس سبيلًا لاتصال بشبكة تور داخل متصفِّحك. ولكن إن كان اتصالك بالإنترنت لا يخضع لرقابة فتخيَّر تشغيله لتعين من يستعمل شبكات تخضع لها في تحسين خصوصيتهم. ولا تقلق حيال أيِّ صفحات يزورها من يستخدم وسيطك، ﻷن عنوان IP لهم يطابق ذاك التابع لعقدة مخرج تور، لا عقدتك.
 
-Running a Snowflake proxy is low-risk, even moreso than running a Tor relay or bridge which are already not particularly risky endeavours. However, it does still proxy traffic through your network which can be impactful in some ways, especially if your network is bandwidth-limited. Make sure you understand [how Snowflake works](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) before deciding whether to run a proxy.
+إن تشغيل وسيط سنوفليك ليس منذرًا بالخطر، بل أقلُّ خطرًا من تشغيل مرحِّل تور أو جسر له، وهذا ليس بذاك الخطر أصلًا. ولكنه يوسِّط الاتصالات عبر شبكتك، ولعلَّ لهذا تبعات، خاصَّةً إن كانت شبكتك محدودةً. عليك تمعُّن [سبيل عمل سنوفليك](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) قبل أن تقرِّر تشغيل وسيط.

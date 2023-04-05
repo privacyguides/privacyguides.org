@@ -29,7 +29,7 @@ Per i modelli che supportano HOTP e TOTP, ci sono 2 slot nell'interfaccia OTP ch
 !!! warning
     Il firmware delle YubiKeys non è open-source, né aggiornabile. Se desideri avere le funzionalità presenti in versioni più nuove del firmware, o se è presente una vulnerabilità nella tua versione corrente, è necessario comprare una nuova chiavetta.
 
-### Nitrokey / Librem Key
+### Nitrokey
 
 !!! recommendation
 
@@ -47,21 +47,17 @@ I modelli Nitrokey possono essere configurati utilizzando l'applicazione [Nitrok
 
 Per i modelli che supportano HOTP e TOTP, ci sono 3 slot per HOTP e 15 per TOTP. Alcune Nitrokey possono fungere da gestori di password. Possono memorizzare fino a 16 credenziali diverse, criptandole con la stessa password dell'interfaccia OpenPGP.
 
-!!! warning "Avviso"
+!!! warning
 
     Sebbene le Nitrokey non rilascino i segreti HOTP/TOTP al dispositivo a cui sono collegati, la memoria HOTP e TOTP non è crittografata ed è vulnerabile agli attacchi fisici. Se desideri memorizzare i segreti HOTP o TOTP, consigliamo caldamente di utilizzare una Yubikey.
 
-!!! warning "Avviso"
+!!! warning
 
     Reimpostare l'interfaccia OpenPGP su una Nitrokey rende il database [inaccessible](https://docs.nitrokey.com/pro/factory-reset.html).
 
- Nitrokey Pro 2, Nitrokey Storage 2 e l'imminente Nitrokey 3 supportano la verifica dell'integrità del sistema per i laptop con il firmware [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/). La [Librem Key di Purism](https://puri.sm/products/librem-key/) è un rebranding della NitroKey Pro 2 con un firmware simile e può essere utilizzata per gli stessi scopi.
+The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports system integrity verification for laptops with the [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware.
 
 Il firmware di Nitrokey è open-source, a differenza di YubiKey. Il firmware dei modelli NitroKey moderni (tranne che per **NitroKey Pro 2**) è aggiornabile.
-
-!!! important
-
-    L'applicazione Nitrokey, pur essendo compatibile con le chiavi Librem, richiede la versione 3.6 o superiore di `libnitrokey` per riconoscerle. Attualmente il pacchetto è obsoleto nelle repository di Windows, macOS e della maggior parte delle distribuzioni Linux; è quindi probabile dover compilare l'applicazione Nitrokey per farla funzionare con Librem Key. Su Linux, è possibile ottenere una versione aggiornata da [Flathub](https://flathub.org/apps/details/com.nitrokey.nitrokey-app).
 
 ### CryptPad
 
@@ -83,7 +79,7 @@ Il firmware di Nitrokey è open-source, a differenza di YubiKey. Il firmware dei
 #### Requisiti minimi
 
 - Must use high quality, tamper resistant hardware security modules.
-- Must support the latest FIDO2 specification.
+- Deve supportare le ultime specifiche FIDO2.
 - Must not allow private key extraction.
 - Devices which cost over $35 must support handling OpenPGP and S/MIME.
 

@@ -6,11 +6,19 @@ description: Tor è una rete decentralizzata e gratuita progettata per utilizzar
 
 Tor è una rete decentralizzata e gratuita progettata per utilizzare Internet con la massima privacy possibile. Se utilizzata correttamente, la rete consente di navigare e comunicare in modo privato e anonimo.
 
-## Costruzione del percorso
+## Path Building to Clearnet Services
 
-Tor funziona instradando il traffico attraverso una rete composta da migliaia di server gestiti da volontari e chiamati nodi (o relay).
+"Clearnet services" are websites which you can access with any browser, like [privacyguides.org](https://www.privacyguides.org). Tor lets you connect to these websites anonymously by routing your traffic through a network comprised of thousands of volunteer-run servers called nodes (or relays).
 
-Ogni volta che ci si connette a Tor, questo sceglie tre nodi per costruire un percorso verso Internet: questo percorso è chiamato "circuito". Ciascuno di questi nodi ha una propria funzione:
+Every time you [connect to Tor](../tor.md), it will choose three nodes to build a path to the internet—this path is called a "circuit."
+
+<figure markdown>
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path.svg#only-light)
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway</figcaption>
+</figure>
+
+Ciascuno di questi nodi ha una propria funzione:
 
 ### Il nodo di ingresso
 
@@ -30,13 +38,19 @@ Il nodo di uscita è il punto in cui il traffico web lascia la rete Tor e viene 
 
 Il nodo di uscita sarà scelto a caso tra tutti i nodi Tor disponibili con un flag di uscita.[^2]
 
-<figure markdown>
-  ![Tor path](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Percorso del circuito Tor</figcaption>
+## Path Building to Onion Services
+
+"Onion Services" (also commonly referred to as "hidden services") are websites which can only be accessed by the Tor browser. These websites have a long randomly generated domain name ending with `.onion`.
+
+Connecting to an Onion Service in Tor works very similarly to connecting to a clearnet service, but your traffic is routed through a total of **six** nodes before reaching the destination server. Just like before however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
+
+<figure style="width:100%" markdown>
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway with Onion Services. Nodes in the <span class="pg-blue">blue</span> fence belong to your browser, while nodes in the <span class="pg-red">red</span> fence belong to the server, so their identity is hidden from you.</figcaption>
 </figure>
 
-## Encryption
+## Crittografia
 
 Tor encrypts each packet (a block of transmitted data) three times with the keys from the exit, middle, and entry node—in that order.
 
@@ -72,7 +86,7 @@ If you wish to use Tor for browsing the web, we only recommend the **official** 
 ## Risorse aggiuntive
 
 - [Manuale d'uso del Tor browser](https://tb-manual.torproject.org)
-- [How Tor Works - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
+- [Come funziona Tor - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
 - [Tor Onion Services - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
 
 [^1]: The first relay in your circuit is called an "entry guard" or "guard". It is a fast and stable relay that remains the first one in your circuit for 2-3 months in order to protect against a known anonymity-breaking attack. The rest of your circuit changes with every new website you visit, and all together these relays provide the full privacy protections of Tor. For more information on how guard relays work, see this [blog post](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) and [paper](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) on entry guards. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
