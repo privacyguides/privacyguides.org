@@ -5,7 +5,8 @@ hide:
   - toc
   - feedback
 schema:
-  - "@context": https://schema.org
+  - 
+    "@context": https://schema.org
     "@type": Organization
     "@id": https://www.privacyguides.org/
     name: Privacy Guides
@@ -18,7 +19,8 @@ schema:
       - https://opencollective.com/privacyguides
       - https://www.youtube.com/@privacyguides
       - https://mastodon.neat.computer/@privacyguides
-  - "@context": https://schema.org
+  - 
+    "@context": https://schema.org
     "@type": WebSite
     name: Privacy Guides
     url: "https://www.privacyguides.org/"

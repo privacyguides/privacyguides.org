@@ -3,11 +3,13 @@ title: "Password Managers"
 icon: material/form-textbox-password
 description: Password managers allow you to securely store and manage passwords and other credentials.
 schema:
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": WebPage
     name: Password Manager Recommendations
     url: "./"
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": SoftwareApplication
     name: Bitwarden
     image: /assets/img/password-management/bitwarden.svg
@@ -24,7 +26,8 @@ schema:
       "@context": http://schema.org
       "@type": WebPage
       url: "./"
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": SoftwareApplication
     name: 1Password
     image: /assets/img/password-management/1password.svg
@@ -41,7 +44,8 @@ schema:
       "@context": http://schema.org
       "@type": WebPage
       url: "./"
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": SoftwareApplication
     name: Psono
     image: /assets/img/password-management/psono.svg
@@ -54,7 +58,8 @@ schema:
       "@context": http://schema.org
       "@type": WebPage
       url: "./"
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": SoftwareApplication
     name: KeePassXC
     image: /assets/img/password-management/keepassxc.svg
@@ -69,7 +74,8 @@ schema:
       "@context": http://schema.org
       "@type": WebPage
       url: "./"
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": SoftwareApplication
     name: KeePassDX
     image: /assets/img/password-management/keepassdx.svg
@@ -80,7 +86,8 @@ schema:
       "@context": http://schema.org
       "@type": WebPage
       url: "./"
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": SoftwareApplication
     name: Strongbox
     image: /assets/img/password-management/strongbox.svg
@@ -91,7 +98,8 @@ schema:
       "@context": http://schema.org
       "@type": WebPage
       url: "./"
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": SoftwareApplication
     name: gopass
     image: /assets/img/password-management/gopass.svg

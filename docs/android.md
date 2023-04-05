@@ -3,17 +3,20 @@ title: "Android"
 icon: 'simple/android'
 description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
 schema:
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": WebPage
     name: Private Android Operating Systems
     url: "./"
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": CreativeWork
     name: Android
     image: /assets/img/android/android.svg
     url: https://source.android.com/
     sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": CreativeWork
     name: GrapheneOS
     image: /assets/img/android/grapheneos.svg
@@ -23,7 +26,8 @@ schema:
       "@context": http://schema.org
       "@type": WebPage
       url: "./"
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": CreativeWork
     name: Divest
     image: /assets/img/android/divestos.svg
@@ -33,7 +37,8 @@ schema:
       "@context": http://schema.org
       "@type": WebPage
       url: "./"
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": Product
     name: Pixel
     brand:
@@ -46,22 +51,26 @@ schema:
       author:
         "@type": Organization
         name: Privacy Guides
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": MobileApplication
     name: Shelter
     applicationCategory: Utilities
     operatingSystem: Android
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": MobileApplication
     name: Auditor
     applicationCategory: Utilities
     operatingSystem: Android
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": MobileApplication
     name: Secure Camera
     applicationCategory: Utilities
     operatingSystem: Android
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": MobileApplication
     name: Secure PDF Viewer
     applicationCategory: Utilities

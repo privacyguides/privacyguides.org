@@ -3,12 +3,14 @@ title: "Mobile Browsers"
 icon: material/cellphone-information
 description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
 schema:
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": WebPage
     name: Private Mobile Browser Recommendations
     url: "./"
     relatedLink: "../desktop-browsers/"
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": MobileApplication
     name: Brave
     image: /assets/img/browsers/brave.svg
@@ -19,7 +21,8 @@ schema:
     subjectOf:
       "@type": WebPage
       url: "./"
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": MobileApplication
     name: Safari
     image: /assets/img/browsers/safari.svg

@@ -3,12 +3,14 @@ title: "Desktop Browsers"
 icon: material/laptop
 description: Firefox and Brave are our recommendations for standard/non-anonymous browsing.
 schema:
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": WebPage
     name: Private Desktop Browser Recommendations
     url: "./"
     relatedLink: "../mobile-browsers/"
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": SoftwareApplication
     name: Firefox
     image: /assets/img/browsers/firefox.svg
@@ -21,7 +23,8 @@ schema:
     subjectOf:
       "@type": WebPage
       url: "./"
-  - "@context": http://schema.org
+  - 
+    "@context": http://schema.org
     "@type": SoftwareApplication
     name: Brave
     image: /assets/img/browsers/brave.svg
