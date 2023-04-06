@@ -111,9 +111,9 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 - [ ] Uncheck **Automatically send diagnostic reports**
 - [ ] Uncheck **Automatically send daily usage ping to Brave**
 
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
-
 </div>
+
+1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
 
 #### Brave Sync
 
