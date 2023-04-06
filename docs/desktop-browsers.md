@@ -207,7 +207,7 @@ Disable built-in extensions you do not use in **Extensions**
 
 <div class="annotate" markdown>
 
-- [x] Select **Disabled** on Method to resolve IPFS resources
+- [x] Select **Disabled** on Method to resolve IPFS resources (1)
 
 </div>
 
