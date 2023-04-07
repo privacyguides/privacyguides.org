@@ -109,3 +109,8 @@ There are many good options to choose from, both cloud-based and local. Choose o
 ### Backups
 
 You should store an [encrypted](../encryption.md) backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.
+
+## Related Passwords Information
+
+- [4 fatal flaws in deterministic password managers](https://tonyarcieri.com/4-fatal-flaws-in-deterministic-password-managers)
+- [(In)Security of the "Pass" password manager](https://rot256.dev/post/pass/)

@@ -9,6 +9,8 @@ Making payments online is one of the biggest challenges to privacy. These servic
 
 ## Payment Masking Services
 
+!!! danger "Not for anonymous purchases"
+
 There are a number of services which provide "virtual debit cards" which you can use with online merchants without revealing your actual banking or billing information in most cases. It's important to note that these financial services are **not** anonymous and are subject to "Know Your Customer" (KYC) laws and may require your ID or other identifying information. These services are primarily useful for protecting you from merchant data breaches, less sophisticated tracking or purchase correlation by marketing agencies, and online data theft; and **not** for making a purchase completely anonymously.
 
 !!! tip "Check your current bank"
@@ -92,3 +94,7 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 
 - Accepts payment in [a recommended cryptocurrency](cryptocurrency.md).
 - No ID requirement.
+
+## Related Financial services Information
+
+- [“Privacy”.com–Yeah Right](https://ersei.net/en/blog/privacy-dot-com-yeah-right)

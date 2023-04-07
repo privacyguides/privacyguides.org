@@ -39,3 +39,8 @@ Email metadata is protected from outside observers with [Opportunistic TLS](http
 ### Why Can't Metadata be E2EE?
 
 Email metadata is crucial to the most basic functionality of email (where it came from, and where it has to go). E2EE was not built into the email protocols originally, instead requiring add-on software like OpenPGP. Because OpenPGP messages still have to work with traditional email providers, it cannot encrypt email metadata, only the message body itself. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as who you're emailing, the subject lines, when you're emailing, etc.
+
+## Related Email security Information
+
+- [The PGP Problem](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html)
+- [Stop Using Encrypted Email](https://latacora.singles/2020/02/19/stop-using-encrypted.html)
