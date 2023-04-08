@@ -13,7 +13,7 @@ A VPN can help as it can shift trust to a server somewhere else in the world. As
 
 ## Should I use a VPN?
 
-**Yes**, unless you are already using Tor. A VPN does two things: shifting the risks from your Internet Service Provider to itself and hiding your IP from a third-party service.
+You should [take IVPN's quick test](https://www.doineedavpn.com) to see if a VPN is right for your threat model. A VPN does two things: shifting the risks from your Internet Service Provider to itself and hiding your IP from a third-party service.
 
 VPNs cannot encrypt data outside of the connection between your device and the VPN server. VPN providers can see and modify your traffic the same way your ISP could. And there is no way to verify a VPN provider's "no logging" policies in any way.
 
@@ -62,17 +62,3 @@ A VPN may still be useful to you in a variety of scenarios, such as:
 1. Hiding your IP from third-party websites and services, preventing IP based tracking.
 
 For situations like these, or if you have another compelling reason, the VPN providers we listed above are who we think are the most trustworthy. However, using a VPN provider still means you're *trusting* the provider. In pretty much any other scenario you should be using a secure**-by-design** tool such as Tor.
-
-## Sources and Further Reading
-
-1. [VPN - a Very Precarious Narrative](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
-1. [Tor Network Overview](../advanced/tor-overview.md)
-1. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
-1. ["Do I need a VPN?"](https://www.doineedavpn.com), a tool developed by IVPN to challenge aggressive VPN marketing by helping individuals decide if a VPN is right for them.
-
-## Related VPN Information
-
-- [The Trouble with VPN and Privacy Review Sites](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
-- [Free VPN App Investigation](https://www.top10vpn.com/free-vpn-app-investigation/)
-- [Hidden VPN owners unveiled: 101 VPN products run by just 23 companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
-- [This Chinese company is secretly behind 24 popular apps seeking dangerous permissions](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
