@@ -71,9 +71,6 @@ jobs:
           CARDS: true
         run: |
           pipenv run mkdocs build --config-file config/mkdocs.en.yml
-          pipenv run mkdocs build --config-file config/mkdocs.fr.yml
-          pipenv run mkdocs build --config-file config/mkdocs.he.yml
-          pipenv run mkdocs build --config-file config/mkdocs.nl.yml
           pipenv run mkdocs --version
 
       - name: Package website

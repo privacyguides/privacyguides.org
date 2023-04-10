@@ -1,2 +1,7 @@
 site
 .cache
+/i18n/
+/includes/*
+!/includes/*.en.*
+/theme/overrides/*
+!/theme/overrides/*.en.*

@@ -90,7 +90,7 @@ This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdoc
 
 1. Clone this repository and submodules: `git clone --recurse-submodules https://github.com/privacyguides/privacyguides.org.git`
 2. Enable SSH commit verification with our local [`.allowed_signers`](/.allowed_signers) file: `git config gpg.ssh.allowedSignersFile .allowed_signers`
-3. Install Python **3.8**, this is the only version supported by Netlify.
+3. Install Python **3.8**, this is the only version supported by Netlify
 4. Install **pipenv**: `pip install pipenv`
 5. Install dependencies: `pipenv install --dev` (install [Pillow and CairoSVG](https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/#dependencies) as well to generate social cards)
 6. Serve the site locally: `pipenv run mkdocs serve --config-file config/mkdocs.en.yml` (set `CARDS=true` to generate social cards)
@@ -99,6 +99,15 @@ This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdoc
     - This version of the site should be identical to the live, production version
 
 If you commit to `main` with commits signed with your SSH key, you should add your SSH key to [`.allowed_signers`](/.allowed_signers) in this repo.
+
+### Local Translated Site Builds
+
+1. Install the [Crowdin CLI Tool](https://developer.crowdin.com/cli-tool/) (`brew install crowdin`)
+2. Set the `CROWDIN_PERSONAL_TOKEN` environment variable to your Crowdin personal access token
+3. Run `crowdin download` in the root of this repo
+4. Serve the site locally: `pipenv run mkdocs serve --config-file config/mkdocs.fr.yml` (replacing the config file with any language in [/config](/config))
+
+Translations downloaded from Crowdin are [.gitignore](/.gitignore)'d, so any local changes to the translated site cannot be committed to this repo. Actual modifications need to be made on Crowdin. As an alternative to steps 1-3, you can copy the folders from [privacyguides/i18n](https://github.com/privacyguides/i18n) to the root of this repo to obtain the translated files.
 
 ## Releasing
 
