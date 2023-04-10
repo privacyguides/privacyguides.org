@@ -12,7 +12,7 @@ Si actualmente utilizas una aplicación como Evernote, Google Keep o Microsoft O
 
 ### Joplin
 
-!!! recomendación
+!!! recommendation
 
     ![Logotipo de Joplin](/assets/img/notebooks/joplin.svg){ align=right }
     
@@ -44,7 +44,7 @@ Joplin no admite la protección mediante contraseña/PIN de la[ propia aplicaci�
 
 ### Standard Notes
 
-!!! recomendación
+!!! recommendation
 
     ![Logotipo de Standard Notes](assets/img/notebooks/standard-notes.svg){ align=right }
     
@@ -68,7 +68,7 @@ Joplin no admite la protección mediante contraseña/PIN de la[ propia aplicaci�
 
 ### Cryptee
 
-!!! recomendación
+!!! recommendation
 
     ![Cryptee logo](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
     ![Cryptee logo](./assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
@@ -90,7 +90,7 @@ Cryptee ofrece 100MB de almacenamiento gratuito, con opciones de pago si necesit
 
 ### Org-mode
 
-!!! recomendación
+!!! recommendation
 
     ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
     

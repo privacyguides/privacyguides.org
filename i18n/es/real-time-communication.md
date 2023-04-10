@@ -14,7 +14,7 @@ Estos servicios de mensajería son ideales para proteger sus comunicaciones conf
 
 ### Signal
 
-!!! recomendación
+!!! recommendation
 
     ![Logotipo de Signal](assets/img/messengers/signal.svg){ align=right }
     
@@ -47,7 +47,7 @@ Tenemos algunos consejos adicionales para configurar y endurecer su instalación
 
 ### SimpleX Chat
 
-!!! recomendación
+!!! recommendation
 
     ![Simplex logo](assets/img/messengers/simplex.svg){ align=right }
     
@@ -72,7 +72,7 @@ Sus datos se pueden exportar e importar a otro dispositivo, ya que no hay servid
 
 ### Briar
 
-!!! recomendación
+!!! recommendation
 
     ![Briar logo](assets/img/messengers/briar.svg){ align=right }
     
@@ -107,7 +107,7 @@ Briar admite el secreto de reenvío perfecto utilizando el protocolo Bramble [Ha
 
 ### Element
 
-!!! recomendación
+!!! recommendation
 
     ![Element logo](assets/img/messengers/element.svg){ align=right }
     
@@ -140,7 +140,7 @@ El protocolo fue [auditado](https://matrix.org/blog/2016/11/21/matrixs-olm-end-t
 
 ### Session
 
-!!! recomendación
+!!! recommendation
 
     ![Session logo](assets/img/messengers/session.svg){ align=right }
     

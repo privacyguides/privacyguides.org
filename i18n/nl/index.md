@@ -35,9 +35,9 @@ schema:
 ---
 
 <!-- markdownlint-disable-next-line -->
-## Waarom zou ik me daar zorgen over maken?
+## Waarom moet ik me zorgen maken?
 
-##### "Ik heb niets te verbergen. Waarom zou ik me zorgen maken over mijn privacy?"
+##### "Ik heb niks te verbergen. Waarom zou ik me zorgen maken over mijn privacy?"
 
 Net zoals het recht op interraciale huwelijken, het kiesrecht voor vrouwen, de vrijheid van meningsuiting en vele andere, hadden wij niet altijd recht op privacy. In verschillende dictaturen is dat nog steeds niet het geval. Generaties voor ons vochten voor ons recht op privacy. ==Privacy is een mensenrecht, inherent aan ons allen,== waar we recht op hebben (zonder discriminatie).
 

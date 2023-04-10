@@ -170,7 +170,7 @@ Les options Shields peuvent être réduites par site selon les besoins, mais par
 
 </div>
 
-1. Cette option fournit une fonctionnalité similaire aux [modes de blocage](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avancés de uBlock Origin ou l'extension [NoScript](https://noscript.net/).
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
 
 ##### Blocage des médias sociaux
 
@@ -203,23 +203,27 @@ Désactivez les extensions intégrées que vous n'utilisez pas dans **Extensions
 - [ ] Décochez **Hangouts**
 - [ ] Décochez **WebTorrent**
 
-##### IPFS
-
-InterPlanetary File System (IPFS) est un réseau décentralisé, de pair à pair, permettant de stocker et de partager des données dans un système de fichiers distribué. À moins que vous n'utilisiez cette fonctionnalité, désactivez-la.
-
-- [x] Sélectionnez **désactivé** dans la méthode pour résoudre les ressources IPFS
-
-##### Paramètres additionnels
-
-Dans le menu *Système*
+##### Web3
 
 <div class="annotate" markdown>
 
-- [ ] Décochez **Continuer l'exécution des applications lorsque Brave est fermé** pour désactiver les applications en arrière-plan (1)
+- [x] Select **Disabled** on Method to resolve IPFS resources (1)
 
 </div>
 
-1. Cette option n'est pas présente sur toutes les plateformes.
+1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+
+##### Paramètres additionnels
+
+Under the *System* menu
+
+<div class="annotate" markdown>
+
+- [ ] Uncheck **Continue running apps when Brave is closed** to disable background apps (1)
+
+</div>
+
+1. This option is not present on all platforms.
 
 ### Synchronisation Brave
 
@@ -227,7 +231,7 @@ La [Synchronisation Brave](https://support.brave.com/hc/en-us/articles/360059793
 
 ## Ressources supplémentaires
 
-Nous ne recommandons généralement pas l'installation d'extensions, car elles augmentent votre surface d'attaque. Cependant, uBlock Origin peut s'avérer utile si vous appréciez la fonctionnalité de blocage de contenu.
+We generally do not recommend installing any extensions as they increase your attack surface. However, uBlock Origin may prove useful if you value content blocking functionality.
 
 ### uBlock Origin
 
@@ -248,14 +252,14 @@ Nous ne recommandons généralement pas l'installation d'extensions, car elles a
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 
-Nous vous suggérons de suivre la [documentation du développeur](https://github.com/gorhill/uBlock/wiki/Blocking-mode) et de choisir l'un des "modes". Des listes de filtres supplémentaires peuvent avoir un impact sur les performances et [peuvent augmenter la surface d'attaque](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
+We suggest following the [developer's documentation](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and picking one of the "modes". Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
 ##### Autres listes
 
-Voici d'autres [listes de filtres](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) que vous pourriez envisager d'ajouter :
+These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) that you may want to consider adding:
 
-- [x] Cochez **Confidentialité** > **AdGuard URL Tracking Protection**
-- Ajoutez [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
+- [x] Check **Privacy** > **AdGuard URL Tracking Protection**
+- Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
 ## Critères
 
@@ -268,29 +272,29 @@ Voici d'autres [listes de filtres](https://github.com/gorhill/uBlock/wiki/Dashbo
 ### Exigences minimales
 
 - Doit être un logiciel open source.
-- Prend en charge les mises à jour automatiques.
-- Reçoit les mises à jour du moteur dans un délai de 1 jour à partir de la publication en amont.
-- Disponible sur Linux, macOS et Windows.
+- Supports automatic updates.
+- Receives engine updates in 0-1 days from upstream release.
+- Available on Linux, macOS, and Windows.
 - Les modifications nécessaires pour rendre le navigateur plus respectueux de la vie privée ne devraient pas avoir d'impact négatif sur l'expérience des utilisateurs.
-- Bloque les cookies tiers par défaut.
-- Prend en charge le [cloisonnement des états](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) pour atténuer le suivi intersite.[^1]
+- Blocks third-party cookies by default.
+- Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 ### Dans le meilleur des cas
 
 Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
-- Comprend une fonctionnalité intégrée de blocage du contenu.
-- Supporte la compartimentation des cookies (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
-- Prend en charge les Progressive Web Apps.  
-  Les PWAs vous permettent d'installer certains sites web comme s'il s'agissait d'applications natives sur votre ordinateur. Cela peut présenter des avantages par rapport à l'installation d'applications basées sur Electron, car vous bénéficiez des mises à jour de sécurité régulières de votre navigateur.
-- Ne comprend pas de fonctionnalités supplémentaires (bloatware) qui n'ont pas d'incidence sur la vie privée des utilisateurs.
-- Ne collecte pas de télémétrie par défaut.
-- Fournit une implémentation de serveur de synchronisation open-source.
-- Le moteur de recherche par défaut est un [moteur de recherche privé](search-engines.md).
+- Includes built-in content blocking functionality.
+- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
+- Supports Progressive Web Apps.  
+  PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
+- Does not include add-on functionality (bloatware) that does not impact user privacy.
+- Does not collect telemetry by default.
+- Provides open-source sync server implementation.
+- Defaults to a [private search engine](search-engines.md).
 
 ### Critères d'extension
 
 - Ne doit pas dupliquer une fonctionnalité intégrée dans le navigateur ou dans le système d'exploitation.
 - Doit avoir un impact direct sur la vie privée des utilisateurs, c'est-à-dire qu'il ne doit pas simplement fournir des informations.
 
-[^1]: L'implémentation de Brave est détaillée dans [Mises à jour de la confidentialité de Brave : Partitionnement de l'état du réseau pour la confidentialité](https://brave.com/privacy-updates/14-partitioning-network-state/).
+[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).

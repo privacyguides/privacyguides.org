@@ -84,12 +84,13 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
         Brave允许你在内部`brave://adblock`页面中选择额外的内容过滤器。 我们建议不要使用这个功能；相反，保留默认的过滤列表。 使用额外的列表会使你从其他Brave用户中脱颖而出，如果Brave中存在漏洞，恶意规则被添加到你使用的列表中，也可能增加攻击面。
 
 - [x] Select **Upgrade connections to HTTPS**
+- [x] Select **Always use secure connections**
 - [x] (Optional) Select **Block Scripts** (1)
 - [x] Select **Strict, may break sites** under **Block fingerprinting**
 
 </div>
 
-1. 该选项提供的功能类似于uBlock Origin的高级 [阻止模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode) 或 [NoScript](https://noscript.net/) 扩展。
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
 
 ##### Clear browsing data
 
@@ -111,9 +112,9 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 - [ ] Uncheck **Automatically send diagnostic reports**
 - [ ] Uncheck **Automatically send daily usage ping to Brave**
 
-1. InterPlanetary File System（IPFS）是一个分散的、点对点的网络，用于在分布式文件系统中存储和共享数据。 除非你使用该功能，否则禁用它。
-
 </div>
+
+1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
 
 #### Brave 同步
 

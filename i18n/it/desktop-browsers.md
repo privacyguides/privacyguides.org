@@ -1,12 +1,12 @@
 ---
 title: "Browser desktop"
 icon: material/laptop
-description: Firefox and Brave are our recommendations for standard/non-anonymous browsing.
+description: Ti consigliamo Firefox e Brave per una navigazione standard/non anonima.
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Desktop Browser Recommendations
+    name: Browser privati per desktop consigliati
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
@@ -101,10 +101,10 @@ I suggerimento di ricerca inviano tutto quello che viene scritto nella barra di 
 
 > Firefox invia dati relativi alla versione e alla lingua di Firefox, al sistema operativo del dispositivo, alla configurazione hardware, memoria, informazioni basiche sugli arresti anomali ed errori, ai risultati dei processi automatici come gli aggiornamenti, Safebrowsing e l'attivazione a noi. Quando Firefox ci invia dati, il tuo indirizzo IP viene temporaneamente raccolto da parte dei nostri server.
 
-Additionally, the Firefox Accounts service collects [some technical data](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts). If you use a Firefox Account you can opt-out:
+Inoltre, il servizio Firefox Accounts raccoglie [alcuni dati tecnici](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts). Se usi un Account Firefox, puoi disattivare questa funzione:
 
-1. Open your [profile settings on accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
-2. Uncheck **Data Collection and Use** > **Help improve Firefox Accounts**
+1. Apri le [ impostazioni del tuo profilo su accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
+2. Deseleziona ** Raccolta e utilizzo dati ** > **Aiutaci a migliorare gli ⁨account Firefox⁩**
 
 ##### Modalità solo HTTPS
 
@@ -170,7 +170,7 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
 
 </div>
 
-1. Questa opzione fornisce una funzionalità simile alle [modalità di blocco](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avanzate di uBlock Origin o dell'estensione [NoScript](https://noscript.net/).
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
 
 ##### Blocco dei social
 
@@ -204,23 +204,27 @@ Disabilita le estensioni integrate che non utilizzi in **Estensioni**
 - [ ] Disabilita **Hangouts**
 - [ ] Disabilita **WebTorrent**
 
-##### IPFS
-
-L'InterPlanetary File System (IPFS) è una rete peer-to-peer e decentralizzata, utilizzata per archiviare e condividere dati mediante un filesystem distribuito. Se non usi questa funzione, disattivala.
-
-- [x] Seleziona **Disabilitato** in Metodo per risolvere le risorse IPFS
-
-##### Impostazioni aggiuntive
-
-Sotto il menù *Sistema*
+##### Web3
 
 <div class="annotate" markdown>
 
-- [ ] Disabilita **Continua a eseguire applicazioni in background dopo la chiusura di Brave** per disabilitare le applicazioni in background (1)
+- [x] Select **Disabled** on Method to resolve IPFS resources (1)
 
 </div>
 
-1. Questa opzione non è presente su tutte le piattaforme.
+1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+
+##### Impostazioni aggiuntive
+
+Under the *System* menu
+
+<div class="annotate" markdown>
+
+- [ ] Uncheck **Continue running apps when Brave is closed** to disable background apps (1)
+
+</div>
+
+1. This option is not present on all platforms.
 
 ### Brave Sync
 
@@ -228,7 +232,7 @@ Sotto il menù *Sistema*
 
 ## Risorse aggiuntive
 
-In genere non consigliamo l'installazione di estensioni, poiché aumentano la superficie di attacco. Tuttavia, uBlock Origin può rivelarsi utile se si apprezza la funzionalità di blocco dei contenuti.
+We generally do not recommend installing any extensions as they increase your attack surface. However, uBlock Origin may prove useful if you value content blocking functionality.
 
 ### uBlock Origin
 
@@ -249,9 +253,9 @@ In genere non consigliamo l'installazione di estensioni, poiché aumentano la su
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 
-Consigliamo di seguire la [documentazione dello sviluppatore](https://github.com/gorhill/uBlock/wiki/Blocking-mode) e di scegliere una delle "modalità". Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
+We suggest following the [developer's documentation](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and picking one of the "modes". Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
-##### Other lists
+##### Altre liste
 
 These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) that you may want to consider adding:
 

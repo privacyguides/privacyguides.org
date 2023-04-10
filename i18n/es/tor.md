@@ -6,7 +6,7 @@ description: Protege su navegación por Internet de miradas intrusas utilizando 
 
 ![Logotipo de Tor](assets/img/self-contained-networks/tor.svg){ align=right }
 
-La red **Tor** es un grupo de servidores operados por voluntarios que te permite conectarte gratuitamente y mejorar tu privacidad y seguridad en Internet. Los individuos y las organizaciones también pueden compartir información a través de la red Tor con los "servicios ocultos.onion" sin comprometer su privacidad. Debido a que el tráfico de Tor es difícil de bloquear y rastrear, Tor es una herramienta eficaz para eludir la censura.
+La red **Tor** es un grupo de servidores operados por voluntarios que te permite conectarte gratuitamente y mejorar tu privacidad y seguridad en Internet. Individuos y organizaciones también pueden compartir información a través de la red Tor con los "servicios ocultos .onion" sin comprometer su privacidad. Debido a que el tráfico de Tor es difícil de bloquear y rastrear, Tor es una herramienta eficaz para eludir la censura.
 
 [:octicons-home-16:](https://www.torproject.org){ .card-link title=Página Principal}
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Servicio Onion" }
@@ -20,11 +20,11 @@ Tor funciona enrutando tu tráfico de Internet a través de esos servidores oper
 
 ## Conectándote a Tor
 
-Hay varias maneras de conectarte a la red Tor desde tu dispositivo, la más utilizada es **Tor Browser**, un fork de Firefox diseñado para la navegación anónima para computadoras y Android. Además de las aplicaciones enumeradas a continuación, también hay sistemas operativos diseñados específicamente para conectarse a la red Tor, como [Whonix](linux-desktop.md/#whonix) en [Qubes OS](qubes.md), que proporcionan incluso mayor seguridad y protección que el Navegador Tor estándar.
+Hay varias maneras de conectarte a la red Tor desde tu dispositivo, la más utilizada es **Tor Browser**, un fork de Firefox diseñado para la navegación anónima para computadoras y Android. Además de las aplicaciones enumeradas a continuación, también hay sistemas operativos diseñados específicamente para conectarse a la red Tor, como [Whonix](desktop.md#whonix) en [Qubes OS](desktop.md#qubes-os), que proporcionan incluso mayor seguridad y protección que el Navegador Tor estándar.
 
 ### Tor Browser
 
-!!! recomendación
+!!! recommendation
 
     ![Logo del Navegador Tor](assets/img/browsers/tor.svg){ align=right }
     
@@ -36,7 +36,7 @@ Hay varias maneras de conectarte a la red Tor desde tu dispositivo, la más util
     [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
         - [:simple-android: Android](https://www.torproject.org/download/#android)
@@ -47,7 +47,7 @@ Hay varias maneras de conectarte a la red Tor desde tu dispositivo, la más util
         - [:simple-openbsd: OpenBSD](https://openports.se/net/tor)
         - [:simple-netbsd: NetBSD](https://pkgsrc.se/net/tor)
 
-!!! peligro
+!!! danger "Peligro"
 
     **Nunca** deberías instalar ninguna extensión adicional en el Navegador Tor, ni siquiera las que sugerimos para Firefox. Las extensiones del navegador y las configuraciones no estándar te hacen destacar de los demás en la red Tor, haciendo así que tu navegador sea más fácil de [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
@@ -55,7 +55,7 @@ El navegador Tor está diseñado para evitar la toma de huellas dactilares o tu 
 
 ### Perfiles de usuario
 
-!!! recomendación
+!!! recommendation
 
     ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
     
@@ -67,7 +67,7 @@ El navegador Tor está diseñado para evitar la toma de huellas dactilares o tu 
     [:octicons-code-16:](https://orbot.app/code){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
@@ -75,7 +75,7 @@ El navegador Tor está diseñado para evitar la toma de huellas dactilares o tu 
 
 Para resistir los ataques de análisis de tráfico, considere la posibilidad de activar *Aislar dirección de destino* en :material-menu: → **Configuración** → **Conectividad**. Esto usará un Circuito Tor completamente diferente (diferentes nodos intermedios de retransmisión y salida) para cada dominio al que te conectes.
 
-!!! consejo "Consejos para Android"
+!!! tip "Consejos para Android"
 
     Orbot puede hacer de proxy de aplicaciones individuales si soportan SOCKS o proxy HTTP. También puede hacer un proxy de todas sus conexiones de red usando [VpnService](https://developer.android.com/reference/android/net/VpnService) y se puede usar con el killswitch VPN en :gear: * * Configuración → ** *Red e Internet* → **VPN** → :gear: → **Bloquear conexiones sin VPN**.
     
@@ -87,7 +87,7 @@ Para resistir los ataques de análisis de tráfico, considere la posibilidad de 
 
 ### Snowflake
 
-!!! recomendación
+!!! recommendation
 
     ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
     ![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
@@ -101,13 +101,13 @@ Para resistir los ataques de análisis de tráfico, considere la posibilidad de 
     [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
         - [:octicons-browser-16: Web](https://snowflake.torproject.org/embed "Leave this page open to be a Snowflake proxy")
 
-??? consejo "Snowflake incrustado"
+??? tip "Snowflake incrustado"
 
     Puedes activar Snowflake en tu navegador haciendo clic en el interruptor de abajo y ==dejando esta página abierta==. También puedes instalar Snowflake como una extensión del navegador para que se ejecute siempre mientras el navegador está abierto, aunque añadir extensiones de terceros puede aumentar tu superficie de ataque.
     

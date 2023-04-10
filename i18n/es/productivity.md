@@ -10,7 +10,7 @@ La mayoría de las paquetes de ofimática en línea no admiten E2EE, lo que sign
 
 ### Nextcloud
 
-!!! recomendación
+!!! recommendation
 
     ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
     
@@ -32,13 +32,13 @@ La mayoría de las paquetes de ofimática en línea no admiten E2EE, lo que sign
         - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
         - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
 
-!!! peligro
+!!! danger "Peligro"
 
     No recomendamos utilizar la [aplicación con cifrado de extremo a extremo](https://apps.nextcloud.com/apps/end_to_end_encryption) para Nextcloud, porque puede causar la pérdida de datos; esta es considerada como altamente experimental y no debe utilizarse en entornos de producción. Por esta razón, no recomendamos proveedores de Nextcloud de terceros.
 
 ### CryptPad
 
-!!! recomendación
+!!! recommendation
 
     ![CryptPad logo](assets/img/productivity/cryptpad.svg){ align=right }
     
@@ -78,7 +78,7 @@ Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto
 
 ### LibreOffice
 
-!!! recomendación
+!!! recommendation
 
     ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ align=right }
     
@@ -102,7 +102,7 @@ Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto
 
 ### OnlyOffice
 
-!!! recomendación
+!!! recommendation
 
     ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ align=right }
     
@@ -143,7 +143,7 @@ En general, definimos las paquetes ofimáticos como aplicaciones que podrían su
 
 ### PrivateBin
 
-!!! recomendación
+!!! recommendation
 
     ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
     

@@ -1,5 +1,5 @@
 ---
-title: Financial Services
+title: Servizi finanziari
 icon: material/bank
 ---
 
@@ -7,7 +7,7 @@ Making payments online is one of the biggest challenges to privacy. These servic
 
 [Making Private Payments :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-## Payment Masking Services
+## Servizi di mascheramento dei pagamenti
 
 There are a number of services which provide "virtual debit cards" which you can use with online merchants without revealing your actual banking or billing information in most cases. It's important to note that these financial services are **not** anonymous and are subject to "Know Your Customer" (KYC) laws and may require your ID or other identifying information. These services are primarily useful for protecting you from merchant data breaches, less sophisticated tracking or purchase correlation by marketing agencies, and online data theft; and **not** for making a purchase completely anonymously.
 

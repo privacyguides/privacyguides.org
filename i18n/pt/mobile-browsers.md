@@ -85,6 +85,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
         Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
 
 - [x] Select **Upgrade connections to HTTPS**
+- [x] Select **Always use secure connections**
 - [x] (Optional) Select **Block Scripts** (1)
 - [x] Select **Strict, may break sites** under **Block fingerprinting**
 
@@ -112,9 +113,9 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 - [ ] Uncheck **Automatically send diagnostic reports**
 - [ ] Uncheck **Automatically send daily usage ping to Brave**
 
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
-
 </div>
+
+1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
 
 #### Brave Sync
 

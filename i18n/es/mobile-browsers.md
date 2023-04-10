@@ -43,7 +43,7 @@ En Android, Firefox es incluso menos seguro que las alternativas basadas en Chro
 
 ### Brave
 
-!!! recomendación
+!!! recommendation
 
     ![Brave logo](assets/img/browsers/brave.svg){ align=right }
     
@@ -64,7 +64,7 @@ En Android, Firefox es incluso menos seguro que las alternativas basadas en Chro
 
 #### Configuración Recomendada
 
-Tor BrowseR es la única manera de navegar por Internet de forma verdaderamente anónima. Cuando use Brave, Le recomendamos cambiar los siguiente ajustes para proteger su privacidad de ciertas partes, pero todos los navegadores que no sean [Tor Browser](tor.md#tor-browser) serán rastreables por *alguien* en un sentido u otro.
+Tor Browser es la única manera de navegar por Internet de forma verdaderamente anónima. Cuando use Brave, Le recomendamos cambiar los siguiente ajustes para proteger su privacidad de ciertas partes, pero todos los navegadores que no sean [Tor Browser](tor.md#tor-browser) serán rastreables por *alguien* en un sentido u otro.
 
 Estas opciones se pueden encontrar en :material-menu: → **Configuración** → **Protecciones y privacidad de Brave**
 
@@ -84,12 +84,13 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
         Brave le permite seleccionar filtros de contenido adicionales dentro de la página interna `brave://adblock`. Desaconsejamos el uso de esta función; en su lugar, mantenga las listas de filtros por defecto. El uso de listas adicionales le hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utiliza.
 
 - [x] Seleccione **Mejorar conexiones a HTTPS**
+- [x] Seleccione **Usar siempre conexiones seguras**
 - [x] (Opcional) Seleccione **Bloquear Scripts** (1)
 - [x] Seleccione **Estricto, puede dañar los sitios** en **Bloquear fingerprinting**
 
 </div>
 
-1. Esta opción proporciona una funcionalidad similar a [los modos avanzados de bloqueo](https://github.com/gorhill/uBlock/wiki/Blocking-mode) de uBlock Origin o la extensión [NoScript](https://noscript.net/).
+1. Esta opción proporciona una funcionalidad similar a los [modos de bloqueo ](https://github.com/gorhill/uBlock/wiki/Blocking-mode)avanzados de uBlock Origin o la extensión [NoScript](https://noscript.net/).
 
 ##### Borrar datos de navegación
 
@@ -111,9 +112,9 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
 - [ ] Desmarque **Enviar informes de diagnóstico automáticamente**
 - [ ] Desmarque **Enviar automáticamente el ping diario de uso a Brave**
 
-1. El Sistema de Archivos InterPlanetario (IPFS) es una red descentralizada, de igual a igual, para almacenar y compartir datos en un sistema de archivos distribuido. A menos que utilice la función, desactívela.
-
 </div>
+
+1. El Sistema de Archivos InterPlanetario (IPFS) es una red descentralizada, de igual a igual, para almacenar y compartir datos en un sistema de archivos distribuido. A menos que utilice la función, desactívela.
 
 #### Brave Sync
 
@@ -125,7 +126,7 @@ En iOS, cualquier aplicación que puede navegar en internet está [limitada](htt
 
 ### Safari
 
-!!! recomendación
+!!! recommendation
 
     ![Safari logo](assets/img/browsers/safari.svg){ align=right }
     
@@ -181,7 +182,7 @@ Si utilizas iCloud con la Protección de Datos Avanzada desactivada, también te
 
 ### AdGuard
 
-!!! recomendación
+!!! recommendation
 
     ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
     

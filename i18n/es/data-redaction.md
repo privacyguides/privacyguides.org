@@ -1,16 +1,16 @@
 ---
-title: "Edición de Datos y Metadatos"
+title: "Redacción de Datos y Metadatos"
 icon: material/tag-remove
 description: Utiliza estas herramientas para eliminar metadatos como la ubicación GPS y otros datos identificativos de las fotos y archivos que compartas.
 ---
 
-Cuando compartas archivos, asegúrate de eliminar los metadatos asociados. Los archivos de imagen suelen incluir Datos [Exif](https://es.wikipedia.org/wiki/Exchangeable_image_file_format). A veces, las fotos incluyen incluso coordenadas GPS en los metadatos del archivo.
+Cuando compartas archivos, asegúrate de remover los metadatos asociados. Archivos de imagen comúnmente incluyen datos [Exif](https://en.wikipedia.org/wiki/Exif). Fotos a veces incluyen hasta coordenadas GPS en los metadatos del archivo.
 
-## PC
+## Equipo de escritorio
 
 ### MAT2
 
-!!! recomendación
+!!! recommendation
 
     ![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
     
@@ -33,7 +33,7 @@ Cuando compartas archivos, asegúrate de eliminar los metadatos asociados. Los a
 
 ### ExifEraser (Android)
 
-!!! recomendación
+!!! recommendation
 
     ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ align=right }
     
@@ -69,7 +69,7 @@ La aplicación ofrece múltiples formas de borrar los metadatos de las imágenes
 
 ### Metapho (iOS)
 
-!!! recomendación
+!!! recommendation
 
     ![Logo de Metapho](assets/img/data-redaction/metapho. pg){ align=right }
     
@@ -84,7 +84,7 @@ La aplicación ofrece múltiples formas de borrar los metadatos de las imágenes
 
 ### PrivacyBlur
 
-!!! recomendación
+!!! recommendation
 
     ![Logotipo de PrivacyBlur](assets/img/data-redaction/privacyblur.svg){ align=right }
     
@@ -95,12 +95,12 @@ La aplicación ofrece múltiples formas de borrar los metadatos de las imágenes
     [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Código fuente" }
     
-    ??? downloads
+    ??? descargas
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
 
-!!! Advertencia
+!!! advertencia
 
     No se debe **nunca** utilizar el desenfoque para redactar [texto en imágenes](https://bishopfox.com/blog/unredacter-tool-never-pixelation). Si desea redactar texto en una imagen, dibuje un recuadro sobre el texto. Para ello, te sugerimos aplicaciones como [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
@@ -108,7 +108,7 @@ La aplicación ofrece múltiples formas de borrar los metadatos de las imágenes
 
 ### ExifTool
 
-!!! recomendación
+!!! recommendation
 
     ![Logotipo de ExifTool](assets/img/data-redaction/exiftool.png){ align=right }
     
@@ -137,7 +137,7 @@ La aplicación ofrece múltiples formas de borrar los metadatos de las imágenes
 
 **Por favor, ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
-!!! Ejemplo "Esta sección es nueva"
+!!! example "Esta sección es nueva"
 
     Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tienes alguna duda sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 

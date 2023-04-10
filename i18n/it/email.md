@@ -72,7 +72,7 @@ Proton Mail [accetta](https://proton.me/support/payment-options) contanti per po
 
 #### :material-check:{ .pg-green } Sicurezza dell'account
 
-Proton Mail supports TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two factor authentication first.
+Proton Mail supporta [l'autenticazione a due fattori](https://proton.me/support/two-factor-authentication-2fa) TOTP e le [chiavi di sicurezza hardware](https://proton.me/support/2fa-security-key) utilizzando gli standard FIDO2 o U2F. L'uso di una chiave di sicurezza hardware richiede prima l'impostazione dell'autenticazione a due fattori TOTP.
 
 #### :material-check:{ .pg-green } Sicurezza dei dati
 

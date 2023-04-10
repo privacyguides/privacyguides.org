@@ -8,7 +8,7 @@ A continuación se presentan algunos sistemas operativos alternativos, que puede
 
 ## OpenWrt
 
-!!! recomendación
+!!! recommendation
 
     ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
     ![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
@@ -24,7 +24,7 @@ Puedes consultar [ la tabla de hardware](https://openwrt.org/toh/start) de OpenW
 
 ## OPNsense
 
-!!! recomendación
+!!! recommendation
 
     ![pfSense logo](assets/img/router/opnsense.svg){ align=right }
     

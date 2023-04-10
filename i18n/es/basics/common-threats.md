@@ -35,7 +35,7 @@ En lo que respecta a la seguridad de las aplicaciones, generalmente no sabemos (
 
 Para minimizar el daño que una pieza maliciosa de software *podría hacer*, deberías emplear la seguridad por compartimentación. Por ejemplo, esto podría darse en la forma de usar diferentes ordenadores para diferentes trabajos, usar máquinas virtuales para separar diferentes grupos de aplicaciones relacionadas, o usar un sistema operativo seguro con un fuerte enfoque en el aislamiento de aplicaciones y el control de acceso obligatorio.
 
-!!! consejo
+!!! tip "Consejo"
 
     Los sistemas operativos móviles suelen tener un mejor aislamiento de aplicaciones que los sistemas operativos de escritorio: Las aplicaciones no pueden obtener acceso a la raíz y requieren permiso para acceder a los recursos del sistema.
     
@@ -45,7 +45,7 @@ Para minimizar el daño que una pieza maliciosa de software *podría hacer*, deb
 
 Los ataques dirigidos contra una persona concreta son más problemáticos de tratar. Los ataques más comunes son el envío de documentos maliciosos por correo electrónico, la explotación de vulnerabilidades (por ejemplo, en los navegadores y sistemas operativos) y los ataques físicos. Si esto te preocupa, deberías emplear estrategias de mitigación de amenazas más avanzadas.
 
-!!! consejo
+!!! tip "Consejo"
 
     Por su diseño, los **navegadores web**, los **clientes de correo electrónico** y las **aplicaciones de oficina** suelen ejecutar código no fiable, enviado por terceros. Ejecutar múltiples máquinas virtuales -para separar aplicaciones como estas de su sistema anfitrión, así como entre sí- es una técnica que puedes utilizar para mitigar la posibilidad de que un exploit en estas aplicaciones comprometa el resto de tu sistema. Por ejemplo, tecnologías como Qubes OS o Microsoft Defender Application Guard en Windows proporcionan métodos convenientes para hacerlo.
 
@@ -61,7 +61,7 @@ El problema obvio de esto es que el proveedor de servicios (o un hacker que haya
 
 Afortunadamente, E2EE puede aliviar este problema encriptando las comunicaciones entre tú y los destinatarios deseados antes de que se envíen al servidor. La confidencialidad de tus mensajes está garantizada, suponiendo que el proveedor de servicios no tenga acceso a las claves privadas de ninguna de las partes.
 
-!!! nota "Nota sobre el cifrado basado en la web"
+!!! note "Nota sobre el cifrado basado en la web"
 
     En la práctica, la eficacia de las diferentes implementaciones de E2EE varía. Las aplicaciones, como [Signal](../real-time-communication.md#signal), se ejecutan de forma nativa en tu dispositivo, y cada copia de la aplicación es la misma en diferentes instalaciones. Si el proveedor de servicios introdujera un [backdoor](https://es.wikipedia.org/wiki/Puerta_trasera) en su aplicación -en un intento de robar tus claves privadas- podría ser detectado posteriormente con [ingeniería inversa](https://es.wikipedia.org/wiki/Ingenier%C3%Ada_inversa).
     
@@ -69,7 +69,7 @@ Afortunadamente, E2EE puede aliviar este problema encriptando las comunicaciones
     
     Por lo tanto, siempre que sea posible, hay que utilizar aplicaciones nativas en lugar de clientes web.
 
-Incluso con E2EE, los proveedores de servicios aún pueden hacerte un perfil basado en **metadatos**, que generalmente no están protegidos. Aunque el proveedor de servicios no puede leer tus mensajes, sí puede observar cosas importantes, como con quién hablas, la frecuencia con la que les envías mensajes y cuándo sueles estar activo. La protección de los metadatos es bastante infrecuente, y -si está dentro de tu [modelo de amenazas](basics/threat-modeling.md)- deberías prestar mucha atención a la documentación técnica del software que estás utilizando para ver si hay alguna minimización o protección de los metadatos.
+Incluso con E2EE, los proveedores de servicios aún pueden hacerte un perfil basado en **metadatos**, que generalmente no están protegidos. Aunque el proveedor de servicios no puede leer tus mensajes, sí puede observar cosas importantes, como con quién hablas, la frecuencia con la que les envías mensajes y cuándo sueles estar activo. La protección de los metadatos es bastante infrecuente, y -si está dentro de tu [modelo de amenazas](threat-modeling.md)- deberías prestar mucha atención a la documentación técnica del software que estás utilizando para ver si hay alguna minimización o protección de los metadatos.
 
 ## Programas de vigilancia masiva
 
@@ -133,7 +133,7 @@ La censura en las plataformas corporativas es cada vez más común, ya que plata
 
 Las personas preocupadas por la amenaza de la censura pueden utilizar tecnologías como [Tor](../advanced/tor-overview.md) para eludirla, y apoyar plataformas de comunicación resistentes a la censura como [Matrix](../real-time-communication.md#element), que no tiene una autoridad de cuentas centralizada que pueda cerrar cuentas arbitrariamente.
 
-!!! consejo
+!!! tip "Consejo"
 
     Si bien evadir la censura en sí misma puede ser fácil, ocultar el hecho de que lo estás haciendo puede ser muy problemático.
     

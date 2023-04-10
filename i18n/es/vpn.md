@@ -14,7 +14,7 @@ Si buscas **privacidad** adicional de tu proveedor de servicios de internet, en 
 
 </div>
 
-!!! peligro "Las VPNs no proporcionan anonimato"
+!!! danger "Las VPNs no proporcionan anonimato"
 
     El uso de una VPN **no** mantendrá sus hábitos de navegación en el anonimato, ni añadirá seguridad adicional al tráfico no seguro (HTTP).
     
@@ -32,18 +32,24 @@ Nuestros proveedores recomendados usan encriptación, aceptan Monero, soportan W
 
 ### IVPN
 
-!!! recomendación
+!!! recommendation
 
     ![IVPN logo](assets/img/vpn/protonvpn.svg){ align=right }
     
     **IVPN** es un fuerte contendiente en el espacio de las VPNs, y ha estado en funcionamiento desde 2009. IVPN es basado en Gibraltar.
     
-    **Free** — **Plus Plan USD $71.88/anual** (1)
+    [:octicons-home-16: Página de inicio](https://www.ivpn.net/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Politica de privacidad" }
+    [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Código fuente" }
     
-    [:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" } También pensamos que es mejor para la seguridad de las claves privadas del proveedor de VPN si utilizan [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), en lugar de soluciones compartidas más baratas (con otros clientes) como los [servidores privados virtuales](https://en.wikipedia.org/wiki/Virtual_private_server).
+    ??? downloads "Descargas"
+    
+        - [:simple-android: Android](https://www.ivpn.net/apps-android/)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
+        - [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
+        - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
+        - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
 
 #### :material-check:{ .pg-green } 35 Países
 
@@ -86,18 +92,19 @@ Proton VPN tiene sus propios servidores y centros de datos en Suiza, Islandia y 
 
 ### Mullvad
 
-!!! recomendación
+!!! recommendation
 
-    ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
+    ![Logo de Mullvad](assets/img/vpn/mullvad.svg){ align=right }
     
-    **IVPN** es otro proveedor de VPN premium, y llevan en funcionamiento desde 2009. IVPN tiene su sede en Gibraltar. **Standard USD $60/año** — **Pro USD $100/año**
+    **Mullvad** es una VPN rápida y económica que se centra en la transparencia y la seguridad. Llevan en funcionamiento desde **2009**. Mullvad tiene su sede en Suecia y no tiene prueba gratuita.
     
-    [:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+    [:octicons-home-16: Página de inicio](https://mullvad.net){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Servicio Onion" }
+    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Politica de privacidad" }
+    [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Código fuente" }
     
-    También pensamos que es mejor para la seguridad de las claves privadas del proveedor de VPN si utilizan [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), en lugar de soluciones compartidas más baratas (con otros clientes) como los [servidores privados virtuales](https://en.wikipedia.org/wiki/Virtual_private_server). downloads
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
         - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
@@ -159,14 +166,18 @@ Mullvad es muy transparente sobre los nodos que [posee o alquila](https://mullva
 
 ### Proton VPN
 
-!!! recommendation
+!!! recommendation annotate
 
-    ![Mullvad logo](assets/img/vpn/mullvad.svg#only-light){ align=right }
-    ![Mullvad logo](assets/img/vpn/mullvad-dark.svg#only-dark){ align=right }
+    ![Logo de Proton VPN](assets/img/vpn/protonvpn.svg){ align=right }
     
-    **Mullvad** es una VPN rápida y cómoda con un enfoque serio en la transparencia y la seguridad. Llevan en funcionamiento desde **2009**.
+    **Proton VPN** es un fuerte contendiente en el espacio VPN, y han estado en funcionamiento desde 2016. Proton AG tiene su sede en Suiza y ofrece un nivel gratuito limitado, así como una opción premium con más funciones.
     
-    Mullvad tiene su sede en Suecia y no tiene prueba gratuita. descargas
+    [:octicons-home-16: Página de inicio](https://protonvpn.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Politica de privacidad" }
+    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentación}
+    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Código fuente" }
+    
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
@@ -221,7 +232,7 @@ Los fallos del sistema [pueden ocurrir](https://protonvpn.com/support/macos-t2-c
 
 ## Criterios
 
-!!! peligro
+!!! danger "Peligro"
 
     Es importante tener en cuenta que el uso de un proveedor de VPN no le hará anónimo, pero le dará mayor privacidad en ciertas situaciones. Una VPN no es una herramienta para actividades ilegales. No confíes en una política de "sin registro".
 
@@ -300,7 +311,7 @@ Con los proveedores de VPN que recomendamos nos gusta ver un marketing responsab
 
 No debe tener ningún mercadeo que sea irresponsable:
 
-- Garantizar la protección del anonimato al 100%. Cuando alguien afirma que algo es 100% significa que no hay certeza de fracaso. Sabemos que la gente puede desanonimizarse fácilmente de varias maneras, por ejemplo:
+- Haciendo garantías de proteger el anonimato al 100%. Cuando alguien afirma que algo es 100% significa que no hay certeza de fracaso. Sabemos que la gente puede desanonimizarse fácilmente de varias maneras, por ejemplo:
     - Reutilizando información personal (por ejemplo, cuentas de correo electrónico, seudónimos únicos, etc) a los que accedieron sin software de anonimato (Tor, VPN, etc.)
     - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 - Afirmar que una VPN de un solo circuito es "más anónima" que Tor, el cual es un circuito de 3 o más saltos que cambia regularmente.
@@ -313,6 +324,6 @@ El marketing responsable que es a la vez educativo y útil para el consumidor po
 - Una comparación precisa para cuando se debe utilizar Tor u otras [redes autónomas](self-contained-networks.md).
 - Disponibilidad del sitio web del proveedor de VPN a través de un .onion [Hidden Service](https://es.wikipedia.org/wiki/.onion)
 
-### Funcionalidades adicionales
+### Funcionalidad Adicional
 
 Aunque no son estrictamente requisitos, hay algunos factores en los que nos fijamos a la hora de determinar qué proveedores recomendar. Entre ellas, la funcionalidad de bloqueo de anuncios/rastreo, los alertas de canarios(warrant canaries), las conexiones multihop, la excelente atención al cliente, el número de conexiones simultáneas permitidas, etc.

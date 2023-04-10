@@ -1,24 +1,24 @@
-# Community Code of Conduct
+# Código de Conduta da Comunidade
 
-**We pledge** to make our community a harassment-free experience for everyone.
+** Nós nos comprometemos ** a fazer de nossa comunidade uma experiência sem assédios para todos.
 
-**We strive** to create a positive environment, using welcoming and inclusive language, and being respectful of the viewpoints of others.
+**Nós nos esforçamos** para criar um ambiente positivo, usando uma linguagem acolhedora e inclusiva, e respeitando os pontos de vista dos outros.
 
-**We do not allow** inappropriate or otherwise unacceptable behavior, such as sexualized language, trolling and insulting comments, or otherwise promoting intolerance or harassment.
+** Nós não permitimos ** comportamentos inadequados ou inaceitáveis, tais como linguagem sexualizada, "trolling" e comentários ofensivos, ou que promovam a intolerância ou o assédio.
 
-## Community Standards
+## Regras da Comunidade
 
-What we expect from members of our communities:
+O que esperamos dos membros de nossas comunidades:
 
-1. **Don't spread misinformation**
+1. **Não espalhe desinformação**
 
-      We are creating an evidence-based educational community around information privacy and security, not a home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive, explain in detail what is collected and how it collected. Claims of this nature must be backed by technical evidence.
+      Estamos criando uma comunidade educacional baseada em evidências em torno da privacidade e segurança da informação, não um lar para teorias conspiratórias. Por exemplo, ao afirmar que um determinado “software” é malicioso ou que certos dados de telemetria são invasivos à privacidade, explique em detalhes o que é coletado e como é coletado. Alegações desta natureza devem ser comprovadas por provas técnicas.
 
-1. **Don't abuse our willingness to help**
+1. **Não abuse da nossa intenção de ajudar**
 
-      Our community members are not your free tech support. We are happy to help you with specific steps on your privacy journey if you are willing to put in effort on your end. We are not willing to answer endlessly repeated questions about generic computer problems you could have answered yourself with a 30-second internet search. Don't be a [help vampire](https://slash7.com/2006/12/22/vampires/).
+      Os membros da nossa comunidade não são o seu suporte técnico gratuito. Estamos felizes em ajudá-lo com etapas específicas em sua jornada de privacidade, se você estiver disposto a se esforçar do seu lado. Não estamos dispostos a responder perguntas intermináveis sobre problemas genéricos de computadores que você mesmo poderia ter respondido com uma busca de 30 segundos na Internet. Não seja um [vampiro de ajuda](https://slash7.com/2006/12/22/vampires/).
 
-1. **Behave in a positive and constructive manner**
+1. **Comporte-se de um modo positivo e construtivo**
 
       Examples of behavior that contributes to a positive environment for our community include:
 

@@ -4,7 +4,7 @@ icon: 'material/target-account'
 description: 보안, 개인정보 보호, 사용성 간의 균형 조절은 개인정보 보호 여정에서 가장 먼저 직면하게 될 가장 어려운 과제 중 하나입니다.
 ---
 
-보안, 개인정보 보호, 사용성 간의 균형 조절은 개인정보 보호 여정에서 제일 먼저 직면하게 될 가장 어려운 과제 중 하나입니다. 무엇이든 장단점이 있습니다. '더 뛰어난 보안'은 일반적으로 '더 많은 제약이나 불편함'을 의미합니다. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
+보안, 개인정보 보호, 사용성 간의 균형 조절은 개인정보 보호 여정에서 제일 먼저 직면하게 될 가장 어려운 과제 중 하나입니다. 무엇이든 장단점이 있습니다. '더 뛰어난 보안'은 일반적으로 '더 많은 제약이나 불편함'을 의미합니다. 사람들로부터 권장 툴의 문제점으로 자주 지적되는 것은, "사용하기 너무 어렵다"라는 점입니다.
 
 **가장 안전한** 보안 툴을 사용하고자 한다면, 사용성을 **대폭 희생**해야 합니다. 게다가 ==완벽한 보안은 존재하지 않습니다.== **높은** 보안은 존재하지만 **완벽한** 보안은 존재하지 않습니다. 그렇기에 위협 모델링이 중요한 것입니다.
 
@@ -40,7 +40,7 @@ description: 보안, 개인정보 보호, 사용성 간의 균형 조절은 개�
 
 ### 실제 위협이 발생할 가능성이 얼마나 되나요?
 
-==Risk is the likelihood that a particular threat against a particular asset will actually occur.== It goes hand-in-hand with capability. 휴대폰 제공업체는 여러분의 모든 데이터에 접근하는 것이 가능하지만, 여러분의 개인 정보를 온라인에 게시하여 사용자의 평판을 해칠 위험은 낮습니다.
+=='위험'은 특정 자산에 대한 특정 위협이 실제로 발생할 가능성입니다.== 이는 공격자의 역량과 밀접한 관련이 있습니다. 휴대폰 제공 업체는 여러분의 모든 데이터에 접근하는 것이 가능하지만, 여러분의 개인 정보를 온라인에 게시하여 사용자의 평판을 해칠 위험은 낮습니다.
 
 '일어날 수 있는 일'과 '일이 일어날 확률'을 구분하는 것이 중요합니다. 예를 들어, 건물이 무너질 위험은 어디든 존재합니다. 하지만 샌프란시스코(지진이 잦은 지역)는 스톡홀름(지진이 드문 지역)보다 위험성이 훨씬 높습니다.
 
@@ -52,7 +52,7 @@ description: 보안, 개인정보 보호, 사용성 간의 균형 조절은 개�
 
 공격자가 여러분의 데이터에 접근하는 방법은 여러 가지가 있습니다. 예를 들어, 공격자는 네트워크를 지나가는 개인 통신을 읽거나, 여러분의 데이터를 삭제/손상시킬 수 있습니다.
 
-==공격자의 동기는 전술과 마찬가지로 매우 다양합니다.== 경찰의 폭력을 폭로하는 동영상 확산을 막으려는 정부는 해당 동영상을 단순히 삭제하거나 제한하는 게 목적일 겁니다. In contrast, a political opponent may wish to gain access to secret content and publish that content without you knowing.
+==공격자의 동기는 전술과 마찬가지로 매우 다양합니다.== 경찰의 폭력을 폭로하는 동영상 확산을 막으려는 정부는 해당 동영상을 단순히 삭제하거나 제한하는 게 목적일 겁니다. 반면, 정치적 반대 세력은 사용자 몰래 해당 비밀 콘텐츠에 접근하여 공개적으로 게시하려고 들 수 있습니다.
 
 보안 계획에는 공격자가 자산 중 하나에 접근하는 데 성공할 경우 얼마나 심각한 결과를 초래할 수 있는지 이해하는 것이 포함됩니다. 이를 결정하려면 공격자의 역량을 고려해야 합니다. 예를 들어, 휴대폰 제공업체는 여러분의 모든 휴대폰 기록에 접근할 수 있습니다. 개방형 Wi-Fi 네트워크의 해커는 암호화되지 않은 통신에 접근할 수 있습니다. 여러분이 사는 국가의 정부는 더 강력한 역량을 가지고 있을 수 있습니다.
 
@@ -97,14 +97,14 @@ description: 보안, 개인정보 보호, 사용성 간의 균형 조절은 개�
 
 이런 질문의 답을 모두 생각해 본 후에야 어떤 조치를 취할지 판단할 수 있습니다. 귀중품이 있더라도 누군가 침입할 가능성이 낮다면, 잠금장치에 돈을 투자할 필요성은 적습니다. 하지만 침입 가능성이 높다면, 가능한 한 좋은 잠금장치를 설치하고 보안 시스템 강화를 고려해야할 겁니다.
 
-Making a security plan will help you to understand the threats that are unique to you and to evaluate your assets, your adversaries, and your adversaries' capabilities, along with the likelihood of risks you face.
+고유한 위협을 파악하고 자산, 공격자, 공격자의 역량, 위험성을 평가하는 데에는 보안 계획을 세우는 것이 유용합니다.
 
-## Further Reading
+## 더 읽을거리
 
-For people looking to increase their privacy and security online, we've compiled a list of common threats our visitors face or goals our visitors have, to give you some inspiration and demonstrate the basis of our recommendations.
+온라인 프라이버시 및 보안을 강화하려는 분들께 도움이 되고자, 우리 사이트 방문자들이 자주 마주할 수 있는 일반적인 위협과 그에 따른 목표를 정리하였습니다. 이를 통해 여러분의 참고가 되고자 하며, 사이트 권장 목록의 기준을 소개해 드립니다.
 
-- [Common Goals and Threats :material-arrow-right-drop-circle:](common-threats.md)
+- [일반적인 목표 및 위협 :material-arrow-right-drop-circle:](common-threats.md)
 
-## Sources
+## 출처
 
-- [EFF Surveillance Self Defense: Your Security Plan](https://ssd.eff.org/en/module/your-security-plan)
+- [EFF 감시 자기방어: 보안 계획](https://ssd.eff.org/en/module/your-security-plan)

@@ -1,110 +1,110 @@
 ---
-title: "Threat Modeling"
+title: "Моделювання загроз"
 icon: 'material/target-account'
-description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
+description: Баланс між безпекою, конфіденційністю та зручністю використання - одне з перших і найскладніших завдань, з яким ви зіткнетеся на шляху до приватності.
 ---
 
-Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
+Баланс між безпекою, конфіденційністю та зручністю використання - одне з перших і найскладніших завдань, з яким ви зіткнетеся на шляху до приватності. У всьому є компроміс: чим безпечніше щось, тим більш обмежувальним або незручним воно є в цілому і т.д. Часто люди вважають, що проблема з рекомендованими інструментами полягає в тому, що їх занадто складно почати використовувати!
 
-If you wanted to use the **most** secure tools available, you'd have to sacrifice *a lot* of usability. And, even then, ==nothing is ever fully secure.== There's **high** security, but never **full** security. That's why threat models are important.
+Якщо ви хочете використовувати **найбільш** безпечні інструменти, вам доведеться пожертвувати *суттєвою* зручністю використання. І навіть тоді, ==ніщо не буває повністю захищеним.== Існує **висока** безпека, але ніколи не **повна** безпека. Ось чому моделі загроз важливі.
 
-**So, what are these threat models, anyway?**
+**Отже, що це за моделі загроз?**
 
-==A threat model is a list of the most probable threats to your security and privacy endeavors.== Since it's impossible to protect yourself against **every** attack(er), you should focus on the **most probable** threats. In computer security, a threat is an event that could undermine your efforts to stay private and secure.
+==Модель загроз - це перелік найбільш ймовірних загроз вашій безпеці та конфіденційності.== Оскільки неможливо захиститися від **кожної** атаки/атакуючого, вам слід зосередитися на **найбільш ймовірних** загрозах. У сфері комп'ютерної безпеки загроза — це подія, яка може підірвати ваші зусилля, спрямовані на збереження конфіденційності та безпеки.
 
-Focusing on the threats that matter to you narrows down your thinking about the protection you need, so you can choose the tools that are right for the job.
+Зосередження уваги на загрозах, які є важливими для вас, звужує ваше уявлення про необхідний захист, і ви можете вибрати інструменти, які найкраще підходять для цієї роботи.
 
-## Creating Your Threat Model
+## Створення вашої моделі загроз
 
-To identify what could happen to the things you value and determine from whom you need to protect them, you should answer these five questions:
+Щоб визначити, що може статися з речами, які ви цінуєте, і від кого їх потрібно захищати, вам слід відповісти на ці п'ять запитань:
 
-1. What do I want to protect?
-2. Who do I want to protect it from?
-3. How likely is it that I will need to protect it?
-4. How bad are the consequences if I fail?
-5. How much trouble am I willing to go through to try to prevent potential consequences?
+1. Що я хочу захистити?
+2. Від кого я хочу це захистити?
+3. Наскільки ймовірно, що мені доведеться це захищати?
+4. Наскільки поганими будуть наслідки, якщо я зазнаю невдачі?
+5. На які труднощі я готовий піти, щоб спробувати запобігти можливим наслідкам?
 
-### What do I want to protect?
+### Що я хочу захистити?
 
-An “asset” is something you value and want to protect. In the context of digital security, ==an asset is usually some kind of information.== For example, your emails, contact lists, instant messages, location, and files are all possible assets. Your devices themselves may also be assets.
+"Актив" — це те, що ви цінуєте і хочете захистити. У контексті цифрової безпеки ==активом зазвичай є певна інформація.== Наприклад, ваші електронні листи, списки контактів, повідомлення в месенджері, місцезнаходження та файли — все це потенційні активи. Ваші пристрої також можуть бути активами.
 
-*Make a list of your assets: data that you keep, where it's kept, who has access to it, and what stops others from accessing it.*
+*Складіть список своїх активів: дані, які ви зберігаєте, де вони зберігаються, хто має до них доступ і що заважає іншим отримати до них доступ.*
 
-### Who do I want to protect it from?
+### Від кого я хочу це захистити?
 
-To answer this question, it's important to identify who might want to target you or your information. ==A person or entity that poses a threat to your assets is an “adversary”.== Examples of potential adversaries are your boss, your former partner, your business competition, your government, or a hacker on a public network.
+Щоб відповісти на це питання, важливо визначити, хто може захотіти отримати доступ до вас або вашої інформації. ==Фізична або юридична особа, яка становить загрозу для ваших активів, є "супротивником". Прикладами потенційних супротивників є ваш начальник, колишній партнер, бізнес-конкуренти, уряд або хакер у публічній мережі.
 
-*Make a list of your adversaries or those who might want to get ahold of your assets. Your list may include individuals, a government agency, or corporations.*
+*Складіть список ваших супротивників або тих, хто може захотіти заволодіти вашими активами. Ваш список може включати фізичних осіб, державні установи або корпорації.*
 
-Depending on who your adversaries are, under some circumstances, this list might be something you want to destroy after you're done security planning.
+Залежно від того, хто є вашими супротивниками, за певних обставин цей список може бути чимось, що ви захочете знищити після того, як завершите планування безпеки.
 
-### How likely is it that I will need to protect it?
+### Наскільки ймовірно, що мені доведеться це захищати?
 
-==Risk is the likelihood that a particular threat against a particular asset will actually occur.== It goes hand-in-hand with capability. While your mobile phone provider has the capability to access all of your data, the risk of them posting your private data online to harm your reputation is low.
+==Ризик — це ймовірність того, що певна загроза для певного активу дійсно відбудеться. Ризик йде пліч-о-пліч з можливостями. Хоча ваш мобільний оператор має доступ до всіх ваших даних, ризик того, що він розмістить ваші особисті дані в Інтернеті, щоб зашкодити вашій репутації, є низьким.
 
-It is important to distinguish between what might happen and the probability it may happen. For instance, there is a threat that your building might collapse, but the risk of this happening is far greater in San Francisco (where earthquakes are common) than in Stockholm (where they are not).
+Важливо розрізняти те, що може статися, і ймовірністю того, що це може статися. Наприклад, існує загроза, що ваш будинок може обвалитися, але ризик цього набагато вищий у Сан-Франциско (де землетруси є поширеним явищем), ніж у Стокгольмі (де вони не є поширеним явищем).
 
-Assessing risks is both a personal and subjective process. Many people find certain threats unacceptable, no matter the likelihood they will occur, because the mere presence of the threat is not worth the cost. In other cases, people disregard high risks because they don't view the threat as a problem.
+Оцінка ризиків - це особистий і суб'єктивний процес. Багато людей вважають певні загрози неприйнятними, незалежно від того, наскільки ймовірною є їхня реалізація, оскільки сама по собі наявність загрози не варта витрат. В інших випадках люди ігнорують високі ризики, тому що не вважають загрозу проблемою.
 
-*Write down which threats you are going to take seriously, and which may be too rare or too harmless (or too difficult to combat) to worry about.*
+*Запишіть, які загрози ви збираєтеся сприймати серйозно, а які можуть бути занадто рідкісними або занадто нешкідливими (або занадто складними для боротьби з ними), щоб про них турбуватися.*
 
-### How bad are the consequences if I fail?
+### Наскільки поганими будуть наслідки, якщо я зазнаю невдачі?
 
-There are many ways that an adversary could gain access to your data. For example, an adversary can read your private communications as they pass through the network, or they can delete or corrupt your data.
+Існує багато способів, за допомогою яких противник може отримати доступ до ваших даних. Наприклад, зловмисник може прочитати ваші приватні повідомлення, коли вони проходять через мережу, або видалити чи пошкодити ваші дані.
 
-==The motives of adversaries differ widely, as do their tactics.== A government trying to prevent the spread of a video showing police violence may be content to simply delete or reduce the availability of that video. In contrast, a political opponent may wish to gain access to secret content and publish that content without you knowing.
+==Мотиви супротивників дуже різняться, так само як і їхня тактика. Уряд, який намагається запобігти поширенню відео, що демонструє насильство з боку поліції, може задовольнитися простим видаленням або обмеженням доступності цього відео. На противагу цьому, політичний опонент може захотіти отримати доступ до секретного контенту і опублікувати його без вашого відома.
 
-Security planning involves understanding how bad the consequences could be if an adversary successfully gains access to one of your assets. To determine this, you should consider the capability of your adversary. For example, your mobile phone provider has access to all of your phone records. A hacker on an open Wi-Fi network can access your unencrypted communications. Your government might have stronger capabilities.
+Планування безпеки передбачає розуміння того, наскільки серйозними можуть бути наслідки, якщо противник успішно отримає доступ до одного з ваших активів. Щоб визначити це, слід врахувати можливості вашого супротивника. Наприклад, ваш мобільний оператор має доступ до всіх ваших телефонних записів. Хакер у відкритій мережі Wi-Fi може отримати доступ до ваших незашифрованих повідомлень. Ваш уряд може мати сильніші можливості.
 
-*Write down what your adversary might want to do with your private data.*
+*Запишіть, що ваш супротивник може захотіти зробити з вашими особистими даними.*
 
-### How much trouble am I willing to go through to try to prevent potential consequences?
+### На які труднощі я готовий піти, щоб спробувати запобігти можливим наслідкам?
 
-==There is no perfect option for security.== Not everyone has the same priorities, concerns, or access to resources. Your risk assessment will allow you to plan the right strategy for you, balancing convenience, cost, and privacy.
+==Ідеального варіанту безпеки не існує.== Не всі мають однакові пріоритети, занепокоєння чи доступ до ресурсів. Ваша оцінка ризиків дозволить вам спланувати правильну стратегію, збалансувавши зручність, вартість і конфіденційність.
 
-For example, an attorney representing a client in a national security case may be willing to go to greater lengths to protect communications about that case, such as using encrypted email, than a mother who regularly emails her daughter funny cat videos.
+Наприклад, адвокат, який представляє клієнта у справі, що стосується національної безпеки, може бути готовий піти на більші заходи для захисту комунікації у цій справі, наприклад, використовувати зашифровану електронну пошту, ніж мати, яка регулярно надсилає своїй доньці кумедні відео з котиками.
 
-*Write down what options you have available to you to help mitigate your unique threats. Note if you have any financial constraints, technical constraints, or social constraints.*
+*Запишіть, які варіанти пом'якшення ваших унікальних загроз вам доступні. Зверніть увагу, чи є у вас будь-які фінансові, технічні або соціальні обмеження.*
 
-### Try it yourself: Protecting Your Belongings
+### Спробуйте самі: захистіть те, що вам належить
 
-These questions can apply to a wide variety of situations, online and offline. As a generic demonstration of how these questions work, let's build a plan to keep your house and possessions safe.
+Ці питання можуть стосуватися найрізноманітніших ситуацій, як онлайн, так і офлайн. Як загальну демонстрацію того, яким чином працюють ці питання, давайте розробимо план, як убезпечити ваш будинок і майно.
 
-**What do you want to protect? (Or, *what do you have that is worth protecting?*)**
+**Що ви хочете захистити? (Або, *що у вас є такого, що варто захищати?*)**
 :
 
-Your assets might include jewelry, electronics, important documents, or photos.
+Ваші активи можуть включати коштовності, електроніку, важливі документи або фотографії.
 
-**Who do you want to protect it from?**
+**Від кого ви хочете це захистити?**
 :
 
-Your adversaries might include burglars, roommates, or guests.
+Вашими супротивниками можуть бути грабіжники, сусіди або гості.
 
-**How likely is it that you will need to protect it?**
+**Наскільки ймовірно, що вам доведеться це захищати?**
 :
 
-Does your neighborhood have a history of burglaries? How trustworthy are your roommates or guests? What are the capabilities of your adversaries? What are the risks you should consider?
+Чи були у вашому районі випадки крадіжок? Наскільки надійні ваші сусіди або гості? Які можливості у ваших супротивників? Які ризики ви повинні враховувати?
 
-**How bad are the consequences if you fail?**
+**Наскільки серйозними будуть наслідки, якщо ви зазнаєте невдачі?**
 :
 
-Do you have anything in your house that you cannot replace? Do you have the time or money to replace those things? Do you have insurance that covers goods stolen from your home?
+Чи є у вас вдома щось, що ви не можете замінити? Чи є у вас час або гроші, щоб замінити ці речі? Чи є у вас страховка, яка покриває крадіжку речей з вашого будинку?
 
-**How much trouble are you willing to go through to prevent these consequences?**
+**На які труднощі ви готові піти, щоб запобігти цим наслідкам?**
 :
 
-Are you willing to buy a safe for sensitive documents? Can you afford to buy a high-quality lock? Do you have time to open a security box at your local bank and keep your valuables there?
+Чи готові ви купити сейф для конфіденційних документів? Чи можете ви дозволити собі купити якісний замок? У вас є час, щоб відкрити сейф у місцевому банку і зберігати там свої цінності?
 
-Only once you have asked yourself these questions will you be in a position to assess what measures to take. If your possessions are valuable, but the probability of a break-in is low, then you may not want to invest too much money in a lock. But, if the probability of a break-in is high, you'll want to get the best lock on the market and consider adding a security system.
+Тільки після того, як ви поставите собі ці питання, ви зможете оцінити, яких заходів слід вжити. Якщо ваше майно цінне, але ймовірність злому низька, то, можливо, ви не захочете вкладати занадто багато грошей у замок. Але якщо ймовірність злому висока, ви захочете придбати найкращий замок на ринку і подумати про встановлення системи безпеки.
 
-Making a security plan will help you to understand the threats that are unique to you and to evaluate your assets, your adversaries, and your adversaries' capabilities, along with the likelihood of risks you face.
+Складання плану безпеки допоможе вам зрозуміти загрози, характерні саме для вас, оцінити ваші активи, ваших супротивників та їх можливості, а також ймовірність ризиків, з якими ви стикаєтеся.
 
-## Further Reading
+## Додаткові джерела
 
-For people looking to increase their privacy and security online, we've compiled a list of common threats our visitors face or goals our visitors have, to give you some inspiration and demonstrate the basis of our recommendations.
+Для людей, які хочуть підвищити рівень конфіденційності та безпеки в Інтернеті, ми склали список поширених загроз, з якими стикаються наші відвідувачі, або цілей, які переслідують наші відвідувачі, щоб дати вам натхнення і продемонструвати основу наших рекомендацій.
 
-- [Common Goals and Threats :material-arrow-right-drop-circle:](common-threats.md)
+- [Поширені цілі та загрози :material-arrow-right-drop-circle:](common-threats.md)
 
-## Sources
+## Джерела
 
-- [EFF Surveillance Self Defense: Your Security Plan](https://ssd.eff.org/en/module/your-security-plan)
+- [Самозахист від стеження EFF: Ваш план безпеки](https://ssd.eff.org/en/module/your-security-plan)

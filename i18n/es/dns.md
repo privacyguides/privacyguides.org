@@ -48,7 +48,7 @@ Tras la instalación de un perfil de configuración o de una aplicación que uti
 
 Apple no proporciona una interfaz nativa para crear perfiles DNS encriptados. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) es una herramienta no oficial para crear tus propios perfiles DNS encriptados, aunque no estarán firmados. Son preferibles los perfiles firmados; la firma valida el origen de un perfil y ayuda a garantizar su integridad. Los perfiles de configuración firmados reciben la etiqueta verde de "Verificado". Para más información sobre la firma de código, consulte [Acerca de la firma de código](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **Perfiles firmados** son ofrecidos por [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), y [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/).
 
-!!! Información
+!!! info "Información"
 
     `systemd-resolved`, que muchas distribuciones Linux utilizan para realizar sus búsquedas DNS, todavía no [soporta DoH](https://github.com/systemd/systemd/issues/8639). Si quieres usar DoH, necesitarás instalar un proxy como [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) y [configurarlo](https://wiki. rchlinux.org/title/Dnscrypt-proxy) para obtener todas las consultas DNS de la resolución del sistema y reenviarlas sobre HTTPS.
 
@@ -58,7 +58,7 @@ El software de proxy de DNS encriptado proporciona un proxy local para que el re
 
 ### RethinkDNS
 
-!!! recomendación
+!!! recommendation
 
     ![Logo de RethinkDNS](assets/img/android/rethinkdns.svg#only-light){ align=right }
     ![Logo de RethinkDNS](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
@@ -70,27 +70,27 @@ El software de proxy de DNS encriptado proporciona un proxy local para que el re
     [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Código fuente" }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
         - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
 
 ### dnscrypt-proxy
 
-!!! recomendación
+!!! recommendation
 
     ![logo dnscrypt-proxy](assets/img/dns/dnscrypt-proxy.svg){ align=right }
     
     **dnscrypt-proxy** es un proxy DNS con soporte para [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), y [DNS Anonimizado](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
     
-    !!! advertencia "La función DNS anonimizada [**no**](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonimiza otro tráfico de red."
+    !!! warning "Advertencia" "La función DNS anonimizada [**no**](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonimiza otro tráfico de red."
     
     [:octicons-repo-16: Repositorio](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
     [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Código fuente" }
     [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
         - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
@@ -102,7 +102,7 @@ Una solución DNS autoalojada es útil para proporcionar filtrado en plataformas
 
 ### AdGuard Home
 
-!!! recomendación
+!!! recommendation
 
     ![Logo de AdGuard Home](assets/img/dns/adguard-home.svg){ align=right }
     
@@ -117,7 +117,7 @@ Una solución DNS autoalojada es útil para proporcionar filtrado en plataformas
 
 ### Pi-hole
 
-!!! recomendación
+!!! recommendation
 
     ![Logo de Pi-hole](assets/img/dns/pi-hole.svg){ align=right }
     

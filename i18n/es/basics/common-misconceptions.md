@@ -1,5 +1,5 @@
 ---
-title: "Conceptos erróneos comunes"
+title: "Conceptos Erróneos Comunes"
 icon: 'material/robot-confused'
 description: La privacidad no es un tema sencillo, y es fácil dejarse llevar por afirmaciones de marketing y otras desinformaciones.
 schema:
@@ -20,14 +20,14 @@ schema:
         acceptedAnswer:
           "@type": Answer
           text: |
-            Hablamos mucho de "transferir la confianza" cuando hablamos de soluciones como las VPN (que transfieren la confianza que depositas en tu ISP al proveedor de VPN). Aunque esto protege tus datos de navegación de tu proveedor de internet específicamente, el proveedor de VPN que elijas sigue teniendo acceso a tus datos de navegación: Tus datos no están completamente protegidos de todas las partes.
+            Hablamos mucho de "transferir la confianza" cuando hablamos de soluciones como las VPNs (las cuales transfieren la confianza que depositas en tu ISP al proveedor de VPN). Aunque esto protege tus datos de navegación de tu proveedor de internet específicamente, el proveedor de VPN que elijas sigue teniendo acceso a tus datos de navegación: Tus datos no están completamente protegidos de todas las partes.
       - 
         "@type": Question
         name: '¿Son las soluciones centradas en la privacidad intrínsecamente fiables?'
         acceptedAnswer:
           "@type": Answer
           text: |
-            Centrarse exclusivamente en las políticas de privacidad y en el marketing de una herramienta o proveedor puede impedirte ver sus debilidades. Cuando estés buscando una solución más privada, deberías determinar cuál es el problema subyacente y encontrar soluciones técnicas a ese problema. Por ejemplo, es posible que quieras evitar Google Drive, ya que da acceso a Google a todos tus datos. El problema subyacente en este caso es la falta de E2EE, por lo que deberías asegurarte de que el proveedor al que te cambias realmente implementa E2EE, o utiliza una herramienta (como Cryptomator) que proporciona E2EE a cualquier proveedor de servicios en la nube. Cambiar a un proveedor "centrado en la privacidad" (que no implementa E2EE) no resuelve tu problema: esto solo cambia la confianza de Google a ese proveedor.
+            Enfocándote exclusivamente en las políticas de privacidad y en el mercadeo de una herramienta o proveedor puede impedirte a ver sus debilidades. Cuando estés buscando una solución más privada, deberías determinar cuál es el problema subyacente y encontrar soluciones técnicas a ese problema. Por ejemplo, es posible que quieras evitar Google Drive, ya que da acceso a Google a todos tus datos. El problema subyacente en este caso es la falta de E2EE, por lo que deberías asegurarte de que el proveedor al que te cambias realmente implementa E2EE, o utiliza una herramienta (como Cryptomator) que proporciona E2EE a cualquier proveedor de servicios en la nube. Cambiar a un proveedor "centrado en la privacidad" (que no implementa E2EE) no resuelve tu problema: esto solo cambia la confianza de Google a ese proveedor.
       - 
         "@type": Question
         name: '¿Qué grado de complejidad debe tener mi modelo de amenazas?'
@@ -50,14 +50,14 @@ Para evitar decisiones sesgadas, es *vital* que evalúes los estándares de priv
 
 ## "Transferir la confianza puede aumentar la privacidad"
 
-Hablamos mucho de "transferir la confianza" cuando hablamos de soluciones como las VPN (que transfieren la confianza que depositas en tu ISP al proveedor de VPN). Aunque esto protege tus datos de navegación de tu proveedor de internet *específicamente*, el proveedor de VPN que elijas sigue teniendo acceso a tus datos de navegación: Tus datos no están completamente protegidos de todas las partes. Esto significa que:
+Hablamos mucho de "transferir la confianza" cuando hablamos de soluciones como las VPNs (las cuales transfieren la confianza que depositas en tu ISP al proveedor de VPN). Aunque esto protege tus datos de navegación de tu proveedor de internet *específicamente*, el proveedor de VPN que elijas sigue teniendo acceso a tus datos de navegación: Tus datos no están completamente protegidos de todas las partes. Esto significa que:
 
 1. Hay que ser prudente a la hora de elegir un proveedor al que confiar.
 2. Aun así, deberías utilizar otras técnicas, como E2EE, para proteger tus datos por completo. Simplemente desconfiar de un proveedor para confiar en otro no es proteger tus datos.
 
 ## "Las soluciones centradas en la privacidad son inherentemente fiables"
 
-Centrarse exclusivamente en las políticas de privacidad y en el marketing de una herramienta o proveedor puede impedirte ver sus debilidades. Cuando estés buscando una solución más privada, deberías determinar cuál es el problema subyacente y encontrar soluciones técnicas a ese problema. Por ejemplo, es posible que quieras evitar Google Drive, ya que da acceso a Google a todos tus datos. El problema subyacente en este caso es la falta de E2EE, por lo que deberías asegurarte de que el proveedor al que te cambias realmente implementa E2EE, o utiliza una herramienta (como [Cryptomator](../encryption.md#cryptomator-cloud)) que proporciona E2EE a cualquier proveedor de servicios en la nube. Cambiar a un proveedor "centrado en la privacidad" (que no implementa E2EE) no resuelve tu problema: esto solo cambia la confianza de Google a ese proveedor.
+Enfocándote exclusivamente en las políticas de privacidad y en el mercadeo de una herramienta o proveedor puede impedirte a ver sus debilidades. Cuando estés buscando una solución más privada, deberías determinar cuál es el problema subyacente y encontrar soluciones técnicas a ese problema. Por ejemplo, es posible que quieras evitar Google Drive, ya que da acceso a Google a todos tus datos. El problema subyacente en este caso es la falta de E2EE, por lo que deberías asegurarte de que el proveedor al que te cambias realmente implementa E2EE, o utiliza una herramienta (como [Cryptomator](../encryption.md#cryptomator-cloud)) que proporciona E2EE a cualquier proveedor de servicios en la nube. Cambiar a un proveedor "centrado en la privacidad" (que no implementa E2EE) no resuelve tu problema: esto solo cambia la confianza de Google a ese proveedor.
 
 Las políticas de privacidad y las prácticas empresariales de los proveedores que elijas son muy importantes, pero deben considerarse secundarias frente a las garantías técnicas de tu privacidad: No deberías cambiar la confianza a otro proveedor cuando la confianza en un proveedor no es un requisito en absoluto.
 

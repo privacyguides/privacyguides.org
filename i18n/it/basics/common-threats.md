@@ -141,8 +141,8 @@ Le persone preoccupate dalla minaccia della censura possono utilizzare tecnologi
 
 Dovete sempre considerare i rischi del tentativo di aggirare la censura, le potenziali conseguenze e quanto sofisticato possa essere il vostro avversario. Dovete essere cauti nella scelta del software e avere un piano di backup nel caso in cui veniate scoperti.
 
-[^1]: Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) and [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
-[^2]: United States Privacy and Civil Liberties Oversight Board: [*Report on the Telephone Records Program Conducted under Section 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
-[^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (or, "listing all the bad things that we know about"), as many adblockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. You should also employ other mitigation techniques.
-[^5]: United Nations: [*Universal Declaration of Human Rights*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).
+[^1]: Wikipedia: [*Sorveglianza di massa*](https://en.wikipedia.org/wiki/Mass_surveillance) e [*Sorveglianza*](https://en.wikipedia.org/wiki/Surveillance).
+[^2]: Comitato di supervisione della privacy e delle libertà civili degli Stati Uniti: [*Rapporto sul programma di registrazione dei tabulati telefonici condotto ai sensi della Sezione 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
+[^3]: Wikipedia: [*Capitalismo di sorveglianza*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
+[^4]: "[Enumerare la cattiveria](https://www.ranum.com/security/computer_security/editorials/dumb/)" (o "elencare tutte le cose cattive di cui siamo a conoscenza"), come fanno molti adblocker e programmi antivirus, non riesce a proteggere adeguatamente l'utente da nuove e sconosciute minacce perché non sono ancora state aggiunte all'elenco dei filtri. Dovreste anche utilizzare altre tecniche di mitigazione.
+[^5]: Nazioni Unite: [*Dichiarazione universale dei diritti umani*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).

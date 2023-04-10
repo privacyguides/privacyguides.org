@@ -77,7 +77,7 @@ Aunque recomendamos encarecidamente no utilizar distribuciones obsoletas como De
 
 Recomendamos encarecidamente no utilizar **** el kernel Linux-libre, ya que [elimina las mitigaciones de seguridad](https://www.phoronix.com/scan.php?page=news_item&px=GNU-Linux-Libre-5.7-Released) y [suprime las advertencias del kernel](https://news.ycombinator.com/item?id=29674846) sobre microcódigo vulnerable por razones ideológicas.
 
-## Recomendaciones generales
+## Recomendaciones Generales
 
 ### Cifrado de unidad
 

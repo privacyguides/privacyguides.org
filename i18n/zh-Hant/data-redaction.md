@@ -1,7 +1,7 @@
 ---
-title: "Data and Metadata Redaction"
+title: "資料和中繼資料處理"
 icon: material/tag-remove
-description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
+description: 使用這些工具來移除所分享的相片和文件中的GPS定位和其他識別資訊等中繼資料。
 ---
 
 分享檔案時，請務必移除相關的中繼資料。 映像文件通常包含 [Exif](https://en.wikipedia.org/wiki/Exif) 數據。 照片有時甚至在文件元數據中包含GPS坐標。
@@ -12,40 +12,40 @@ description: Use these tools to remove metadata like GPS location and other iden
 
 !!! recommendation
 
-    ![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
+    ! [MAT2 logo] (assets/img/data-redaction/mat2.svg) {align = right}
     
-    **MAT2** is free software, which allows the metadata to be removed from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an [extension for Nautilus](https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus), the default file manager of [GNOME](https://www.gnome.org), and [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
+    * * MAT2 * *是免費軟體，可以移除圖像，音頻，種子和文件文件類型的中繼資料。 它通過[ Nautilus 擴展元件] (https://0xacab.org/jvoisin/mat2/-/tree/master/nautilus)提供命令行工具和圖形用戶界面，Nautilus 是 [GNOME](https://www.gnome.org)的預設檔案管理器， [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin)是 [KDE](https://kde.org)的預設檔案管理器。
     
-    On Linux, a third-party graphical tool [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) powered by MAT2 exists and is [available on Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
+    Linux 有MAT2 提供支持的第三方圖形界面工具[Metadata Cleaner] (https://gitlab.com/rmnvgr/metadata-cleaner) ，並且[可從 Flathub 取得] (https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner)。
     
     [:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
     [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentation}
     [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-windows11: Windows](https://pypi.org/project/mat2)
         - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
         - [:simple-linux: Linux](https://pypi.org/project/mat2)
         - [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
 
-## Mobile
+## 行動
 
 ### ExifEraser (Android)
 
 !!! recommendation
 
-    ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ align=right }
+    ! [ExifEraser logo] (assets/img/data-redaction/exiferaser.svg) {align = right}
     
-    **ExifEraser** is a modern, permissionless image metadata erasing application for Android.
+    * * ExifEraser * *是 Android 的現代無需許可的圖像中繼資料擦除應用程式。
     
-    It currently supports JPEG, PNG and WebP files.
+    它目前支持JPEG ， PNG和WebP 檔案格式。
     
     [:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
     [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
@@ -53,32 +53,32 @@ description: Use these tools to remove metadata like GPS location and other iden
 
 被清除的元資料取決於影像的檔案類型：
 
-* **JPEG**: ICC Profile, Exif, Photoshop Image Resources and XMP/ExtendedXMP metadata will be erased if it exists.
-* **PNG**: ICC Profile, Exif and XMP metadata will be erased if it exists.
-* **WebP**: ICC Profile, Exif and XMP metadata will be erased if it exists.
+* **JPEG**：可清除 ICC Profile、Exif、Photoshop Image Resources 和 XMP/ExtendedXMP 等中繼資料。
+* **PNG**：可清除 ICC Profile、Exif和XMP等中繼資料。
+* **WebP**: 可清除 ICC Profile、Exif 和XMP 等中繼資料。
 
 處理完影像後， ExifEraser會為您提供一份完整的報告，說明每張影像中究竟刪除了哪些內容。
 
-The app offers multiple ways to erase metadata from images. Namely:
+該應用程式提供了多種方式來清除圖像中的中繼數據。 亦即:
 
-* You can share an image from another application with ExifEraser.
-* Through the app itself, you can select a single image, multiple images at once, or even an entire directory.
-* It features a "Camera" option, which uses your operating system's camera app to take a photo, and then it removes the metadata from it.
-* It allows you to drag photos from another app into ExifEraser when they are both open in split-screen mode.
-* Lastly, it allows you to paste an image from your clipboard.
+* 您可以使用 ExifEraser 分享其他應用程序的圖像。
+* 通過應用程序本身，可以一次選擇單個圖像，多個圖像，甚至是整個目錄。
+* 它具有“相機”選項，該選項使用操作系統的相機應用程序拍攝照片，然後從中刪除中繼數據。
+* 在應用分屏模式下，它可以從另一個應用程式拖放圖片到 ExifEraser 。
+* 最後，它允許您從剪貼板黏貼圖像。
 
 ### Metapho (iOS)
 
 !!! recommendation
 
-    ![Metapho logo](assets/img/data-redaction/metapho.jpg){ align=right }
+    ! [Metapho logo] (assets/img/data-redaction/metapho.jpg) {align = right}
     
-    **Metapho** is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
+    * * Metapho * *是一個簡單清晰的相片中繼資料檢視器，例如日期、檔案名稱、大小、相機型號、快門速度和位置。
     
     [:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
 
@@ -86,42 +86,42 @@ The app offers multiple ways to erase metadata from images. Namely:
 
 !!! recommendation
 
-    ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ align=right }
+    ! [PrivacyBlur logo] (assets/img/data-redaction/privacyblur.svg) {align = right}
     
-    **PrivacyBlur** is a free app which can blur sensitive portions of pictures before sharing them online.
+    * * PrivacyBlur * *是一個免費應用程式，在線上分享前先模糊圖片的敏感部分。
     
     [:octicons-home-16: Homepage](https://privacyblur.app/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
 
-!!! warning
+!!! 警告
 
-    You should **never** use blur to redact [text in images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, draw a box over the text. For this, we suggest apps like [Pocket Paint](https://github.com/Catrobat/Paintroid).
+    您* *永遠不要* *使用模糊來編輯[圖片中的文字] (https://bishopfox.com/blog/unredacter-tool-never-pixelation)。 如果要編輯影像中的文字，請在文字上畫一個框。 為此，我們建議使用[Pocket Paint] (https://github.com/Catrobat/Paintroid)等應用程式。
 
-## Command-line
+## 命令行
 
 ### ExifTool
 
 !!! recommendation
 
-    ![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
+    ! [ExifTool logo] (assets/img/data-redaction/exiftool.png) {align = right}
     
-    **ExifTool** is the original perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
+    * * ExifTool * *是原始的perl庫和命令行應用程式，用於讀取、寫入和編輯各種檔案格式 (JPEG , TIFF , PNG, PDF, RAW等）的中繼資訊(Exif , IPTC , XMP...)。
     
-    It's often a component of other Exif removal applications and is in most Linux distribution repositories.
+    它通常是其他Exif 移除應用程式的組件，並且在大多數 Linux 發行版儲存庫中。
     
     [:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-windows11: Windows](https://exiftool.org)
         - [:simple-apple: macOS](https://exiftool.org)
@@ -133,13 +133,13 @@ The app offers multiple ways to erase metadata from images. Namely:
     exiftool -all= *.file_extension
     ```
 
-## Criteria
+## 標準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! example "This section is new"
+!!! 示例“此部分是新的”
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
-- Apps developed for open-source operating systems must be open-source.
-- Apps must be free and should not include ads or other limitations.
+- 為開源作業系統開發的應用程式必須是開源的。
+- 應用程式必須是免費的，不應包含廣告或其他限制。

@@ -1,7 +1,7 @@
 ---
 title: "Creazione account"
 icon: 'material/account-plus'
-description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
+description: La creazione di account online è praticamente una necessità di internet, adottate questi accorgimenti per assicurarvi di rimanere privati.
 ---
 
 Spesso le persone si iscrivono a servizi senza riflettere. Forse si tratta di un servizio di streaming per guardare la nuova serie di cui tutti parlano, o di un account che ti offre uno sconto per il tuo supermercato preferito. In ogni caso, dovresti considerare le implicazioni per i tuoi dati ora e in futuro.

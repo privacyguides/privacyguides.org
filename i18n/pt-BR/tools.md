@@ -3,14 +3,14 @@ title: "Privacy Tools"
 icon: material/tools
 hide:
   - toc
-description: Privacy Guides is the most transparent and reliable website for finding software, apps, and services that protect your personal data from mass surveillance programs and other internet threats.
+description: Privacy Guides é o site mais transparente e confiável para encontrar programas, aplicativos e serviços que protejam seus dados pessoais contra programas de vigilância em massa e outras ameaças da Internet.
 ---
 
-If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
+Se você está procurando uma solução específica para algo, estas são as ferramentas de hardware e software que recomendamos em uma variedade de categorias. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
 
-If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net/) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
+Se estiver à procura de orientação para descobrir as melhores ferramentas de privacidade e programas alternativos para suas necessidades, inicie uma discussão em nosso [fórum](https://discuss.privacyguides.net/) ou em nossa comunidade [Matrix](https://matrix.to/#/#privacyguides:matrix.org)!
 
-For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
+Para mais detalhes sobre cada projeto, porque foram escolhidos, e dicas ou truques adicionais que recomendamos, clique no link "Saiba mais" em cada seção, ou clique na própria recomendação para ser levado a essa seção específica da página.
 
 ## Tor Network
 
@@ -276,7 +276,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji }[Monero](cryptocurrency.md#monero)
+- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji } [Monero](cryptocurrency.md#monero)
 
 </div>
 

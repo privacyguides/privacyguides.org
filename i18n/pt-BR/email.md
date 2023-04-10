@@ -1,10 +1,10 @@
 ---
-title: "Email Services"
+title: "Serviços de Email"
 icon: material/email
-description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
+description: Esses provedores de email oferecem um ótimo lugar para armazenar seus emails de forma segura, e muitos oferecem criptografia OpenPGP compatível com outros provedores.
 ---
 
-Email é praticamente uma necessidade para utilizar qualquer serviço online, contudo não recomendamos ele para conversas pessoas pessoa-a-pessoa. Ao invés de utilizar email para falar com outras pessoas, considere utilizar um meio de mensagens instantâneas que suporte sigilo encaminhado.
+O "email" é praticamente uma necessidade para usar qualquer serviço “online”, contudo não o recomendamos para conversas pessoais. Ao invés de utilizar email para falar com outras pessoas, considere utilizar um meio de mensagens instantâneas que suporte sigilo encaminhado.
 
 [Mensageiros Instantâneos Recomendados](real-time-communication.md ""){.md-button}
 

@@ -169,7 +169,7 @@ Shields alternativ kan nedgraderas vid behov för varje enskild plats, men som s
 
 </div>
 
-1. Det här alternativet ger funktioner som liknar uBlock Origin avancerade blockeringslägen för [](https://github.com/gorhill/uBlock/wiki/Blocking-mode) eller tillägget [NoScript](https://noscript.net/).
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
 
 ##### Social media blocking
 
@@ -203,11 +203,15 @@ Disable built-in extensions you do not use in **Extensions**
 - [ ] Uncheck **Hangouts**
 - [ ] Uncheck **WebTorrent**
 
-##### IPFS
+##### Web3
 
-InterPlanetary File System (IPFS) är ett decentraliserat peer-to-peer-nätverk för lagring och delning av data i ett distribuerat filsystem. Om du inte använder funktionen, inaktivera den.
+<div class="annotate" markdown>
 
-- [x] Select **Disabled** on Method to resolve IPFS resources
+- [x] Select **Disabled** on Method to resolve IPFS resources (1)
+
+</div>
+
+1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
 
 ##### Additional settings
 

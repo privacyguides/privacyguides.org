@@ -1,7 +1,7 @@
 ---
 title: "Autenticazione a più fattori"
 icon: 'material/two-factor-authentication'
-description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
+description: L'MFA è un meccanismo di sicurezza fondamentale per proteggere i vostri account online, ma alcuni metodi sono più efficaci di altri.
 ---
 
 **L'autenticazione a più fattori** (**MFA**) è un meccanismo di sicurezza che richiede ulteriori passaggi oltre all'inserimento del nome utente (o email) e della password. Il metodo più comune è quello dei codici a tempo limitato che si possono ricevere via SMS o tramite un'applicazione.

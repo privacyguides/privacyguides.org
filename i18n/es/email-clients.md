@@ -18,7 +18,7 @@ Nuestra lista de recomendaciones contiene clientes de correo electrónico que so
 
 ### Thunderbird
 
-!!! recomendación
+!!! recommendation
 
     ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ align=right }
     
@@ -59,7 +59,7 @@ Estas opciones se encuentran en :material-menu: → **Ajustes** → **Privacidad
 
 ### Apple Mail (macOS)
 
-!!! recomendación
+!!! recommendation
 
     ![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
     
@@ -71,7 +71,7 @@ Estas opciones se encuentran en :material-menu: → **Ajustes** → **Privacidad
 
 ### Canary Mail (iOS)
 
-!!! recomendación
+!!! recommendation
 
     ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ align=right }
     
@@ -95,7 +95,7 @@ Canary Mail es de código cerrado. Lo recomendamos debido a las pocas opciones q
 
 ### FairEmail (Android)
 
-!!! recomendación
+!!! recommendation
 
     ![FairEmail logo](assets/img/email-clients/fairemail.svg){ align=right }
     
@@ -114,7 +114,7 @@ Canary Mail es de código cerrado. Lo recomendamos debido a las pocas opciones q
 
 ### GNOME Evolution (GNOME)
 
-!!! recomendación
+!!! recommendation
 
     ![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
     
@@ -132,7 +132,7 @@ Canary Mail es de código cerrado. Lo recomendamos debido a las pocas opciones q
 
 ### K-9 Mail (Android)
 
-!!! recomendación
+!!! recommendation
 
     ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ align=right }
     
@@ -157,7 +157,7 @@ Canary Mail es de código cerrado. Lo recomendamos debido a las pocas opciones q
 
 ### Kontact (KDE)
 
-!!! recomendación
+!!! recommendation
 
     ![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }
     
@@ -176,7 +176,7 @@ Canary Mail es de código cerrado. Lo recomendamos debido a las pocas opciones q
 
 ### Mailvelope (Navegador)
 
-!!! recomendación
+!!! recommendation
 
     ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ align=right }
     
@@ -195,7 +195,7 @@ Canary Mail es de código cerrado. Lo recomendamos debido a las pocas opciones q
 
 ### NeoMutt (CLI)
 
-!!! recomendación
+!!! recommendation
 
     ![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
     

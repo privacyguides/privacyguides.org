@@ -132,7 +132,7 @@ Estos administradores de contraseñas sincronizan sus contraseñas con un servid
 
 ### Bitwarden
 
-!!! recomendación
+!!! recommendation
 
     ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
     
@@ -143,7 +143,7 @@ Estos administradores de contraseñas sincronizan sus contraseñas con un servid
     [:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Código Fuente" }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
         - [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
@@ -169,7 +169,7 @@ El código del lado del servidor de Bitwarden es [de código abierto](https://gi
 
 ### 1Password
 
-!!! recomendación
+!!! recommendation
 
     ![1Password logo](assets/img/password-management/1password.svg){ align=right }
     
@@ -179,7 +179,7 @@ El código del lado del servidor de Bitwarden es [de código abierto](https://gi
     [:octicons-eye-16:](https://support.1password.com/1password-privacy/){ .card-link title="Política de Privacidad" }
     [:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentación}
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
@@ -195,7 +195,7 @@ Una ventaja que 1Password tiene sobre Bitwarden es su soporte de primera clase p
 
 ### Psono
 
-!!! recomendación
+!!! recommendation
 
     ![Psono logo](assets/img/password-management/psono.svg){ align=right }
     
@@ -206,7 +206,7 @@ Una ventaja que 1Password tiene sobre Bitwarden es su soporte de primera clase p
     [:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentación}
     [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Código Fuente" }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
@@ -220,7 +220,7 @@ Psono proporciona una amplia documentación para su producto. El cliente web par
 
 **Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de decidir utilizar un proyecto y realizar su propia investigación para asegurarse de que es la elección ideal para usted.
 
-!!! ejemplo "Esta sección es nueva"
+!!! example "Esta sección es nueva"
 
     Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tiene alguna duda sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 
@@ -245,7 +245,7 @@ Estas opciones le permiten administrar una base de datos de contraseñas cifrada
 
 ### KeePassXC
 
-!!! recomendación
+!!! recommendation
 
     ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
     
@@ -257,7 +257,7 @@ Estas opciones le permiten administrar una base de datos de contraseñas cifrada
     [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
         - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
@@ -270,7 +270,7 @@ KeePassXC almacena sus datos de exportación como archivos [CSV](https://es.wiki
 
 ### KeePassDX (Android)
 
-!!! recomendación
+!!! recommendation
 
     ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
     
@@ -281,14 +281,14 @@ KeePassXC almacena sus datos de exportación como archivos [CSV](https://es.wiki
     [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
         - [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
 
 ### Strongbox (iOS & macOS)
 
-!!! recomendación
+!!! recommendation
 
     ![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
     
@@ -300,7 +300,7 @@ KeePassXC almacena sus datos de exportación como archivos [CSV](https://es.wiki
     [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
 
@@ -312,7 +312,7 @@ Estos productos son administradores de contraseñas mínimos que se pueden utili
 
 #### gopass
 
-!!! recomendación
+!!! recommendation
 
     ![gopass logo](assets/img/password-management/gopass.svg){ align=right }
     
@@ -323,7 +323,7 @@ Estos productos son administradores de contraseñas mínimos que se pueden utili
     [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
         - [:simple-apple: macOS](https://www.gopass.pw/#install-macos)

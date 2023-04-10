@@ -26,7 +26,7 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
 
 [Detailed VPN Overview :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
-## Recommended Providers
+## Рекомендовані DNS-провайдери
 
 Our recommended providers use encryption, accept Monero, support WireGuard & OpenVPN, and have a no logging policy. Read our [full list of criteria](#criteria) for more information.
 

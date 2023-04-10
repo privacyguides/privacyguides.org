@@ -68,7 +68,7 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 [Más información :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
 
-## Software
+## Sistemas Operativos
 
 ### Móvil
 
@@ -239,7 +239,7 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 ### Proveedores de VPN
 
-??? peligro "Las VPNs no proporcionan anonimato"
+??? danger "Las VPNs no proporcionan anonimato"
 
     El uso de una VPN **no** mantendrá sus hábitos de navegación en el anonimato, ni añadirá seguridad adicional al tráfico no seguro (HTTP).
     

@@ -87,7 +87,7 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
         - [:simple-windows11: Windows](https://canarymail.io/downloads.html)
 
-!!! warning
+!!! 警告
 
     Canary Mail only recently released a Windows and Android client, though we don't believe they are as stable as their iOS and Mac counterparts.
 
@@ -151,7 +151,7 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
         - [:simple-github: GitHub](https://github.com/k9mail/k-9/releases)
 
-!!! warning
+!!! 警告
 
     When replying to someone on a mailing list the "reply" option may also include the mailing list. For more information see [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738).
 
@@ -213,23 +213,23 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
         - [:simple-apple: macOS](https://neomutt.org/distro)
         - [:simple-linux: Linux](https://neomutt.org/distro)
 
-## Criteria
+## 標準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! example "This section is new"
+!!! 示例“此部分是新的”
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
-### Minimum Qualifications
+### 最低合格要求
 
-- Apps developed for open-source operating systems must be open-source.
+- 為開源作業系統開發的應用程式必須是開源的。
 - Must not collect telemetry, or have an easy way to disable all telemetry.
 - Must support OpenPGP message encryption.
 
-### Best-Case
+### 最佳案例
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - Should be open-source.
 - Should be cross-platform.

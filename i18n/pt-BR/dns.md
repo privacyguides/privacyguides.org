@@ -1,10 +1,10 @@
 ---
 title: "Introdução ao DNS"
 icon: material/dns
-description: These are some encrypted DNS providers we recommend switching to, to replace your ISP's default configuration.
+description: Estes são alguns provedores DNS criptografados para os quais recomendamos mudar, para substituir a configuração padrão de seu ISP.
 ---
 
-DNS criptografado com servidores de terceiros só deve ser usado para contornar o [bloqueio básico de DNS](https://en.wikipedia.org/wiki/DNS_blocking) quando você pode ter certeza de que não haverá nenhuma consequência. DNS encriptada não irá te ajudar a esconder qualquer uma das suas atividades de navegação.
+DNS criptografado com servidores de terceiros só deve ser usado para contornar o [bloqueio básico de DNS](https://en.wikipedia.org/wiki/DNS_blocking) quando você pode ter certeza de que não haverá nenhuma consequência. DNS criptografado não ajudará você a esconder nenhuma de suas atividades de navegação.
 
 [Saiba mais sobre DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
@@ -19,13 +19,13 @@ DNS criptografado com servidores de terceiros só deve ser usado para contornar 
 | [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Cleartext <br> DoH/3 <br> DoT                     | Optional[^5] | Optional | Baseado na escolha do servidor.                                                                                                                                                                                                                                                                                                                                                                                                  |
 | [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt   | Some[^6]     | Optional | Based on server choice, Malware blocking by default.                                                                                                                                                                                                                                                                                                                                                                             |
 
-## Criteria
+## Requisitos
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Por favor, note que não somos parceiros de nenhum dos produtos que recomendamos.** Além de [nossos requisitos básicos](about/criteria.md), desenvolvemos um conjunto claro de requisitos para nos permitir fornecer recomendações objetivas. Recomendamos que você se familiarize com esta lista antes de escolher usar um produto, e que faça sua própria pesquisa para garantir que o produto escolhido é o ideal para você.
 
-!!! example "This section is new"
+!!! example "Esta é uma nova seção"
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    Estamos trabalhando para estabelecer requisitos definidos para cada seção de nosso site, e isto pode estar sujeito a mudanças. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
 - Must support [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
 - [QNAME Minimization](advanced/dns-overview.md#what-is-qname-minimization).
@@ -36,13 +36,13 @@ DNS criptografado com servidores de terceiros só deve ser usado para contornar 
 
 ### Android
 
-Android 9 and above support DNS over TLS. The settings can be found in: **Settings** &rarr; **Network & Internet** &rarr; **Private DNS**.
+Android 9 e superior suportam DNS sobre TLS. As configurações podem ser encontradas em: **Configurações** &rarr; **Rede & Internet** &rarr; **DNS particular**.
 
-### Apple Devices
+### Dispositivos Apple
 
-The latest versions of iOS, iPadOS, tvOS, and macOS, support both DoT and DoH. Both protocols are supported natively via [configuration profiles](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) or through the [DNS Settings API](https://developer.apple.com/documentation/networkextension/dns_settings).
+As versões mais recentes do iOS, iPadOS, tvOS e macOS, suportam DoT e DoH. Ambos os protocolos são suportados nativamente através dos [perfis de configuração](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) ou através das [configurações de DNS API](https://developer.apple.com/documentation/networkextension/dns_settings).
 
-After installation of either a configuration profile or an app that uses the DNS Settings API, the DNS configuration can be selected. If a VPN is active, resolution within the VPN tunnel will use the VPN's DNS settings and not your system-wide settings.
+After installation of either a configuration profile or an app that uses the DNS Settings API, the DNS configuration can be selected. Se uma VPN estiver ativa, a resolução no túnel VPN usará as configurações de DNS da VPN e não suas configurações gerais do sistema.
 
 #### Signed Profiles
 
@@ -52,7 +52,7 @@ Apple does not provide a native interface for creating encrypted DNS profiles. I
 
     `systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
 
-## Encrypted DNS Proxies
+## Proxy DNS criptografado
 
 Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](advanced/dns-overview.md#unencrypted-dns) resolver to forward to. Typically it is used on platforms that don't natively support [encrypted DNS](advanced/dns-overview.md#what-is-encrypted-dns).
 
@@ -95,9 +95,9 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
         - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
         - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
 
-## Self-hosted Solutions
+## Soluções auto-hospedadas
 
-A self-hosted DNS solution is useful for providing filtering on controlled platforms, such as Smart TVs and other IoT devices, as no client-side software is needed.
+Uma solução de DNS auto-hospedada é útil para fornecer filtragem em plataformas limitadas como Smart TVs e outros dispositivos IoT, já que não é necessário nenhum “software” do lado do cliente.
 
 ### AdGuard Home
 
@@ -122,7 +122,7 @@ A self-hosted DNS solution is useful for providing filtering on controlled platf
     
     **Pi-hole** is an open-source [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) to block unwanted web content, such as advertisements.
     
-    Pi-hole is designed to be hosted on a Raspberry Pi, but it is not limited to such hardware. The software features a friendly web interface to view insights and manage blocked content.
+    O Pi-hole foi projetado para ser hospedado em um Raspberry Pi, mas não se limita a esse "hardware". O “software” apresenta uma interface web amigável para visualizar informações e gerenciar conteúdo bloqueado.
     
     [:octicons-home-16: Homepage](https://pi-hole.net/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="Privacy Policy" }
@@ -130,9 +130,9 @@ A self-hosted DNS solution is useful for providing filtering on controlled platf
     [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
 
-[^1]: AdGuard stores aggregated performance metrics of their DNS servers, namely the number of complete requests to a particular server, the number of blocked requests, and the speed of processing requests. They also keep and store the database of domains requested in within last 24 hours. "We need this information to identify and block new trackers and threats." "We also log how many times this or that tracker has been blocked. We need this information to remove outdated rules from our filters." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
-[^2]: Cloudflare collects and stores only the limited DNS query data that is sent to the 1.1.1.1 resolver. The 1.1.1.1 resolver service does not log personal data, and the bulk of the limited non-personally identifiable query data is stored only for 25 hours. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)
-[^3]: Control D only logs for Premium resolvers with custom DNS profiles. Free resolvers do not log data. [https://controld.com/privacy](https://controld.com/privacy)
+[^1]: O AdGuard armazena métricas de desempenho agregadas de seus servidores DNS, ou seja, o número de solicitações completas para um determinado servidor, o número de solicitações bloqueadas, e a velocidade de processamento dos pedidos. Eles também coletam e armazenam a base de dados de domínios solicitados nas últimas 24 horas. "Precisamos desta informação para identificar e bloquear novos rastreadores e ameaças". "Também registramos quantas vezes este ou aquele rastreador foi bloqueado. Precisamos desta informação para remover regras desatualizadas dos nossos filtros". [https://adguard-dns.io/pt_br/privacy.html](https://adguard.com/en/privacy/dns.html)
+[^2]: O Cloudflare coleta e armazena apenas os dados limitados de consulta de DNS que são enviados para o resolvedor 1.1.1.1. O serviço de resolução 1.1.1.1 não registra dados pessoais, e a maior parte dos limitados dados de consulta, não pessoalmente identificáveis, é armazenado por apenas 25 horas. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)
+[^3]: ControlD somente coleta e armazena métricas para resolvedores "Premium" com perfis DNS personalizados. Resolvedores gratuitos não registram dados. [https://controld.com/privacy](https://controld.com/privacy)
 [^4]: Mullvad's DNS service is available to both subscribers and non-subscribers of Mullvad VPN. Their privacy policy explicitly claims they do not log DNS requests in any way. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy/)
 [^5]: NextDNS can provide insights and logging features on an opt-in basis. You can choose retention times and log storage locations for any logs you choose to keep. If it's not specifically requested, no data is logged. [https://nextdns.io/privacy](https://nextdns.io/privacy)
 [^6]: Quad9 collects some data for the purposes of threat monitoring and response. That data may then be remixed and shared, such as for the purpose of security research. Quad9 does not collect or record IP addresses or other data they deem personally identifiable. [https://www.quad9.net/privacy/policy/](https://www.quad9.net/privacy/policy/)

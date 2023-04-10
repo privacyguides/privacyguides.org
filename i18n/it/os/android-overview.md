@@ -56,7 +56,7 @@ Fairphone, ad esempio, commercializza i propri dispositivi con 6 anni di assiste
 
 [Le autorizzazioni su Android](https://developer.android.com/guide/topics/permissions/overview) consentono di controllare ciò a cui le applicazioni hanno accesso. Google apporta regolarmente [miglioramenti](https://developer.android.com/about/versions/11/privacy/permissions) al sistema delle autorizzazioni in ogni nuova versione. Tutte le applicazioni installate sono rigorosamente [confinate in una sandbox](https://source.android.com/security/app-sandbox), pertanto non è necessario installare alcuna applicazione come antivirus.
 
-A smartphone with the latest version of Android will always be more secure than an old smartphone with an antivirus that you have paid for. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a Google Pixel.
+Uno smartphone con l'ultima versione di Android sarà sempre più sicuro di un vecchio smartphone con un antivirus a pagamento. È meglio non pagare il software antivirus e risparmiare per acquistare un nuovo smartphone come il Google Pixel.
 
 Android 10:
 
@@ -91,7 +91,7 @@ An app may request a permission for a specific feature it has. For example, any 
 
 !!! note
 
-    Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all of the analytics features that are provided by Google Firebase Analytics.
+    Le applicazioni che rispettano la privacy come [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) possono mostrare alcuni tracker come [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all of the analytics features that are provided by Google Firebase Analytics.
 
 ## Accesso ai media
 

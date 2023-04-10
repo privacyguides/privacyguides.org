@@ -198,11 +198,15 @@ Disable built-in extensions you do not use in **Extensions**
 - [ ] Uncheck **Hangouts**
 - [ ] Uncheck **WebTorrent**
 
-##### Конфиденциальные рекламные отчеты
+##### Web3
 
-InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+<div class="annotate" markdown>
 
-- Выберите **Предотвращение межсайтового отслеживания** для включения
+- [x] Select **Disabled** on Method to resolve IPFS resources (1)
+
+</div>
+
+1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
 
 ##### Apple Pay
 

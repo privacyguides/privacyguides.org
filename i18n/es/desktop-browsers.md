@@ -43,7 +43,7 @@ Estas son nuestras recomendaciones de navegadores web para computadoras y las co
 
 ## Firefox
 
-!!! recomendación
+!!! recommendation
 
     ![Firefox logo](assets/img/browsers/firefox.svg){ align=right }
     
@@ -122,7 +122,7 @@ El [proyecto Arkenfox](https://github.com/arkenfox/user.js) proporciona un conju
 
 ## Brave
 
-!!! recomendación
+!!! recommendation
 
     ![Logo de Brave](assets/img/browsers/brave.svg){ align=right }
     
@@ -204,11 +204,15 @@ Desactive las extensiones integradas que no utilice en **Extensiones**
 - [ ] Desmarca **Hangouts**
 - [ ] Desmarca **WebTorrent**
 
-##### IPFS
+##### Web3
 
-El Sistema de Archivos InterPlanetario (IPFS) es una red descentralizada, de igual a igual, para almacenar y compartir datos en un sistema de archivos distribuido. A menos que utilice la función, desactívela.
+<div class="annotate" markdown>
 
-- [x] Seleccione **Deshabilitado** en Método para resolver los recursos IPFS
+- [x] Selecciona Deshabilitado en Método para resolver los recursos IPFS (1)
+
+</div>
+
+1. El Sistema de Archivos InterPlanetario (IPFS) es una red descentralizada, de igual a igual, para almacenar y compartir datos en un sistema de archivos distribuido. A menos que utilice la función, desactívela.
 
 ##### Ajustes Adicionales
 
@@ -228,7 +232,7 @@ En el menú *Sistema*
 
 ## Recursos Adicionales
 
-Por lo general, no recomendamos instalar extensiones, ya que aumentan la superficie de ataque. Sin embargo, uBlock Origin puede resultarle útil si valora la funcionalidad de bloqueo de contenidos.
+Por lo general, no recomendamos instalar extensiones, ya que aumentan la superficie de ataque. Sin embargo, uBlock Origin puede resultarte útil si valoras la funcionalidad de bloqueo de contenidos.
 
 ### uBlock Origin
 
@@ -249,20 +253,20 @@ Por lo general, no recomendamos instalar extensiones, ya que aumentan la superfi
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 
-Le sugerimos que siga la [documentación del desarrollador](https://github.com/gorhill/uBlock/wiki/Blocking-mode) y elija uno de los "modos". Las listas de filtros adicionales pueden afectar al rendimiento y [puede aumentar la superficie de ataque](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
+Te sugerimos que sigas la [documentación del desarrollador](https://github.com/gorhill/uBlock/wiki/Blocking-mode) y elijas uno de los "modos". Las listas de filtros adicionales pueden afectar al rendimiento y [pueden aumentar la superficie de ataque](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
 ##### Otras listas
 
-Estas son algunas otras [listas de filtros](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) que puede considerar añadir:
+Estas son algunas otras [listas de filtros](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) que puedes considerar añadir:
 
-- [x] Seleccione **Privacidad** > **AdGuard URL Tracking Protection**
-- Añada [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
+- [x] Selecciona **Privacidad** > **AdGuard URL Tracking Protection**
+- Añade [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
 ## Criterios
 
-**Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de decidir utilizar un proyecto y realizar su propia investigación para asegurarse de que es la elección ideal para usted.
+**Por favor, ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
-!!! ejemplo "Esta sección es nueva"
+!!! example "Esta sección es nueva"
 
     Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tiene alguna duda sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 
@@ -280,7 +284,7 @@ Estas son algunas otras [listas de filtros](https://github.com/gorhill/uBlock/wi
 
 Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 
-- Incluye la funcionalidad de bloquear contenido.
+- Incluye funciones integradas de bloqueo de contenidos.
 - Admite la compartimentación de cookies (como [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
 - Soporta Progressive Web Apps.  
   Las PWA permiten instalar determinados sitios web como si fueran apps nativas en su ordenador. Esto puede tener ventajas sobre la instalación de aplicaciones basadas en Electron, porque usted se beneficia de las actualizaciones de seguridad periódicas de su navegador.

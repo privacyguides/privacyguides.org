@@ -1,18 +1,18 @@
 ---
-title: "Condivisione di file"
+title: "Client Email"
 icon: material/email-open
-description: These email clients are privacy-respecting and support OpenPGP email encryption.
+description: Questi client email rispettano la privacy e supportano la crittografia OpenPGP.
 ---
 
 Il nostro elenco di raccomandazioni contiene client di posta elettronica che supportano sia [OpenPGP](encryption.md#openpgp) che l'autenticazione forte come [Open Authorization (OAuth)](https://it.wikipedia.org/wiki/OAuth). OAuth consente di utilizzare l'[autenticazione a più fattori](basics/multi-factor-authentication.md) e di prevenire il furto di account.
 
-??? warning "Email does not provide forward secrecy"
+??? attenzione "L'e-mail non fornisce la segretezza dell'inoltro"
 
-    When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](email.md#email-metadata-overview) that is not encrypted in the header of the email.
+    Quando si utilizza una tecnologia di crittografia end-to-end (E2EE) come OpenPGP, le e-mail avranno ancora [alcuni metadati](email.md#email-metadata-overview) non crittografati nell'intestazione dell'e-mail.
     
-    OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](basics/email-security.md) Consider using a medium that provides forward secrecy:
+    OpenPGP non supporta inoltre la [forward secrecy](https://it.wikipedia.org/wiki/Forward_secrecy), il che significa che se la chiave privata del destinatario o dell'utente viene rubata, tutti i messaggi precedenti crittografati con essa saranno esposti: [come proteggo le mie chiavi private?](basics/email-security.md) Considera l'utilizzo di un mezzo che garantisca la segretezza in avanti (forward secrecy):
     
-    [Real-time Communication](real-time-communication.md){ .md-button }
+    [Comunicazione in tempo reale](real-time-communication.md){ .md-button }
 
 ## Multipiattaforma
 
@@ -42,14 +42,14 @@ Si consiglia di modificare alcune di queste impostazioni per rendere Thunderbird
 
 Queste opzioni si trovano in :material-menu: → **Impostazioni** → **Privacy e sicurezza**.
 
-##### Web Content
+##### Contenuto Web
 
-- [ ] Uncheck  **Remember websites and links I've visited**
-- [ ] Uncheck  **Accept cookies from sites**
+- [ ] Deseleziona **Ricorda siti web e link visitati**
+- [ ] Deseleziona  **Accetta i cookie dai siti**
 
 ##### Telemetria
 
-- [ ] Uncheck  **Allow Thunderbird to send technical and interaction data to Mozilla**
+- [ ] Deseleziona  **Consenti a Thunderbird di inviare a Mozilla dati tecnici e di interazione**
 
 #### Thunderbird-user.js (avanzato)
 
@@ -161,20 +161,22 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
 
 !!! recommendation
 
-    ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ align=right }
+    ![Logo Kontact](assets/img/email-clients/kontact.svg){ align=right }
     
-    **Mailvelope** è un'estensione del browser che consente di scambiare e-mail crittografate secondo lo standard di crittografia OpenPGP. [:octicons-home-16: Pagina principale](https://www.mailvelope.com){ .md-button .md-button--primary }
+    **Kontact** è un'applicazione di gestione delle informazioni personali (PIM) del progetto [KDE](https://kde.org). [:octicons-home-16: Pagina principale](https://www.mailvelope.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Informativa sulla privacy" }
     [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentazione}
     [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Codice sorgente" }
     
     ???
     
-    downloads
+    [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://kontact.kde.org/users/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
     
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
-        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc) downloads
+    ??? download
     
         - [:simple-linux: Linux](https://kontact.kde.org/download)
         - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.kontact)
@@ -183,11 +185,20 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
 
 !!! recommendation
 
-    ![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
+    ![Logo Mailvelope](assets/img/email-clients/mailvelope.svg){ align=right }
     
-    **NeoMutt** è un lettore di posta elettronica a riga di comando (o MUA) open-source per Linux e BSD.
+    **Mailvelope** è un'estensione del browser che consente lo scambio di e-mail crittografate secondo lo standard di crittografia OpenPGP.
     
-    È un fork di [Mutt](https://it.wikipedia.org/wiki/Mutt) con funzioni aggiuntive. NeoMutt è un client basato sul testo che ha una curva di apprendimento molto ripida.
+    [:octicons-home-16: Homepage](https://www.mailvelope.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
+    
+    ??? download
+    
+        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
+        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc)
 
 ### NeoMutt (CLI)
 
@@ -195,29 +206,27 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
 
     ![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
     
-    **NeoMutt** is an open-source command line mail reader (or MUA) for Linux and BSD. It's a fork of [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) with added features.
+    **NeoMutt** è un lettore di posta elettronica a riga di comando open-source (or MUA) per Linux e BSD. È un fork di [Mutt](https://it.wikipedia.org/wiki/Mutt) con funzionalità aggiuntive.
     
-    NeoMutt is a text-based client that has a steep learning curve. It is however, very customizable.
+    NeoMutt è un client basato sul testo che ha una curva di apprendimento molto ripida. Tuttavia, è molto personalizzabile.
     
     [:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://neomutt.org/guide/){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? download
     
         - [:simple-apple: macOS](https://neomutt.org/distro)
         - [:simple-linux: Linux](https://neomutt.org/distro)
 
-## CryptPad
+## Criteri
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. recommendation
+**Si noti che non siamo affiliati a nessuno dei progetti che raccomandiamo.** Oltre ai [ nostri criteri standard ](about/criteria.md), abbiamo sviluppato una serie di requisiti chiari che ci consentono di fornire raccomandazioni oggettive. Ti consigliamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che sia la scelta giusta per te.
 
-!!! recommendation
+!!! esempio "Questa sezione è nuova"
 
-    ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** è un pastebin online minimalista e open-source in cui il server non ha alcuna conoscenza dei dati incollati. Infatti, vengono criptati/decriptati nel tuo browser utilizzando AES a 256 bit. downloads
+    Stiamo lavorando per stabilire criteri definiti per ogni sezione del nostro sito, e questo potrebbe essere soggetto a modifiche. Infatti, vengono criptati/decriptati nel tuo browser utilizzando AES a 256 bit. downloads
     
         - [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
         - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
@@ -226,18 +235,18 @@ Canary Mail è closed-source. Lo consigliamo a causa della scarsa scelta di clie
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
 
-### Minimum Qualifications
+### Requisiti minimi
 
 - Le applicazioni sviluppate per sistemi operativi open-source devono essere open-source.
-- Must not collect telemetry, or have an easy way to disable all telemetry.
-- Must support OpenPGP message encryption.
+- Non deve raccogliere la telemetria o deve avere un modo semplice per disabilitare tutta la telemetria.
+- Deve supportare la crittografia dei messaggi OpenPGP.
 
-### Caso migliore
+### Criteri Ottimali
 
-KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). Ciò può comportare la perdita di dati se si importa questo file in un altro gestore di password.
+I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. Le nostre raccomandazioni potrebbero non includere tutte o alcune di queste funzionalità, ma quelle che le includono potrebbero avere una posizione più alta rispetto ad altre in questa pagina.
 
-- Should be open-source.
-- Should be cross-platform.
-- Should not collect any telemetry by default.
-- Should support OpenPGP natively, i.e. without extensions.
-- Should support storing OpenPGP encrypted emails locally.
+- Dovrebbe essere open-source.
+- Dovrebbe essere multipiattaforma.
+- Non dovrebbe raccogliere alcuna telemetria per impostazione predefinita.
+- Deve supportare OpenPGP in modo nativo, cioè senza estensioni.
+- Dovrebbe supportare l'archiviazione locale delle e-mail crittografate OpenPGP.

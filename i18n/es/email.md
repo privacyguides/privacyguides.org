@@ -4,9 +4,9 @@ icon: material/email
 description: Estos proveedores de correo electrónico ofrecen un lugar estupendo para almacenar tus correos de forma segura, y muchos ofrecen encriptación OpenPGP inter operable con otros proveedores.
 ---
 
-El correo electrónico es prácticamente necesario para utilizar cualquier servicio en línea. Sin embargo, no lo recomendamos para las conversaciones de persona a persona. En vez de utilizar el correo electrónico para comunicarse con otras personas, considere utilizar un servicio de mensajería instantánea que soporte el secreto de reenvío.
+Correo electrónico es prácticamente una necesidad para utilizar cualquier servicio en línea, sin embargo, no lo recomendamos para las conversaciones de persona a persona. En vez de utilizar el correo electrónico para comunicarte con otras personas, considera utilizar un servicio de mensajería instantánea que soporte el secreto hacia adelante.
 
-[Servicios de mensajería instantánea recomendados](real-time-communication.md ""){.md-button}
+[Servicios de Mensajería Instantánea Recomendados](real-time-communication.md ""){.md-button}
 
 Para todo lo demás, recomendamos una variedad de proveedores de correo electrónico basados en modelos sostenibles, además de características de seguridad y privacidad integradas.
 
@@ -15,7 +15,7 @@ Para todo lo demás, recomendamos una variedad de proveedores de correo electró
 - [Servicios de Alias de Correo Electrónico :material-arrow-right-drop-circle:](#email-aliasing-services)
 - [Opciones Autoalojadas :material-arrow-right-drop-circle:](#self-hosting-email)
 
-## Servicios compatibles con OpenPGP
+## Servicios Compatibles con OpenPGP
 
 Estos proveedores soportan el encriptacion/desencriptacion OpenPGP nativamente y el estándar Web Key Directory (WKD), lo que permite que los correos electrónicos E2EE sean independientes del proveedor. Por ejemplo, un usuario de Proton Mail podría enviar un mensaje E2EE a un usuario de Mailbox.org, o podrías recibir notificaciones encriptadas con OpenPGP desde servicios de Internet que lo soporten.
 
@@ -34,7 +34,7 @@ Estos proveedores soportan el encriptacion/desencriptacion OpenPGP nativamente y
 
 ### Proton Mail
 
-!!! recomendación
+!!! recommendation
 
     ![Logo Proton Mail](assets/img/email/protonmail.svg){ align=right }
     
@@ -46,7 +46,7 @@ Estos proveedores soportan el encriptacion/desencriptacion OpenPGP nativamente y
     [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Código fuente" }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
@@ -99,7 +99,7 @@ Proton Mail no ofrece la función de legado digital.
 
 ### Mailbox.org
 
-!!! recomendación
+!!! recommendation
 
     ![Logo de Mailbox.org](assets/img/email/mailboxorg.svg){ align=right }
     
@@ -109,7 +109,7 @@ Proton Mail no ofrece la función de legado digital.
     [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Politica de Privacidad" }
     [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentación}
     
-    ??? descargas
+    ??? downloads "Descargas'
     
         - [:octicons-browser-16: Web](https://login.mailbox.org)
 
@@ -162,7 +162,7 @@ Estos proveedores almacenan tus correos electrónicos con cifrado de cero-conoci
 
 ### StartMail
 
-!!! recomendación
+!!! recommendation
 
     ![Logotipo de StartMail](assets/img/email/startmail.svg#only-light){ align=right }
     ![Logotipo de StartMail](assets/img/email/startmail-dark.svg#only-dark){ align=right }
@@ -173,7 +173,7 @@ Estos proveedores almacenan tus correos electrónicos con cifrado de cero-conoci
     [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Politica de Privacidad" }
     [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentación}
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:octicons-browser-16: Web](https://mail.startmail.com/login)
 
@@ -211,7 +211,7 @@ StartMail no ofrece una función de legado digital.
 
 ### Tutanota
 
-!!! recomendación
+!!! recommendation
 
     ![Logo de Tutanota](assets/img/email/tutanota.svg){ align=right }
     
@@ -223,7 +223,7 @@ StartMail no ofrece una función de legado digital.
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
@@ -297,7 +297,7 @@ Utilizar un servicio de alias requiere confiar, tanto a tu proveedor de correo e
 
 ### AnonAddy
 
-!!! recomendación
+!!! recommendation
 
     ![Logo de AnonAddy](assets/img/email/anonaddy.svg#only-light){ align=right }
     ![Logo de AnonAddy](assets/img/email/anonaddy-dark.svg#only-dark){ align=right }
@@ -310,7 +310,7 @@ Utilizar un servicio de alias requiere confiar, tanto a tu proveedor de correo e
     [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://anonaddy.com/donate/){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-android: Android](https://anonaddy.com/faq/#is-there-an-android-app)
         - [:material-apple-ios: iOS](https://anonaddy.com/faq/#is-there-an-ios-app)
@@ -329,7 +329,7 @@ Funciones gratuitas destacables:
 
 ### SimpleLogin
 
-!!! recomendación
+!!! recommendation
 
     ![Logo de Simplelogin](assets/img/email/simplelogin.svg){ align=right }
     
@@ -340,7 +340,7 @@ Funciones gratuitas destacables:
     [:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentación}
     [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Código Fuente" }
     
-    ??? descargas
+    ??? downloads "Descargas"
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
@@ -366,7 +366,7 @@ Los administradores de sistemas avanzados pueden plantearse crear su propio serv
 
 ### Soluciones de software combinadas
 
-!!! recomendación
+!!! recommendation
 
     ![Logo de Mailcow](assets/img/email/mailcow.svg){ align=right }
     
@@ -377,7 +377,7 @@ Los administradores de sistemas avanzados pueden plantearse crear su propio serv
     [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Código Fuente" }
     [:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribuir }
 
-!!! recomendación
+!!! recommendation
 
     ![Logo de Mail-in-a-Box](assets/img/email/mail-in-a-box.svg){ align=right }
     
@@ -484,20 +484,20 @@ Con los proveedores de correo electrónico que recomendamos nos gusta ver el mar
 
 **Mejor caso:**
 
-- Debe tener análisis propios (no Google Analytics, etc.). El sitio del proveedor también debe cumplir con [DNT (Do Not Track, sin rastreo)](https://en.wikipedia.org/wiki/Do_Not_Track) para las personas que deseen darse de baja.
+- Debe autoalojar las analíticas (no Google Analytics, Adobe Analytics, etc.). El sitio del proveedor también debe cumplir con [DNT (Do Not Track, sin rastreo)](https://en.wikipedia.org/wiki/Do_Not_Track) para las personas que deseen darse de baja.
 
 No debe tener ningún tipo de marketing que sea irresponsable:
 
 - Reclamaciones de "cifrado irrompible" El cifrado debe usarse con la intención de que no sea secreto en el futuro cuando exista la tecnología para descifrarlo.
-- Garantizar la protección del anonimato al 100%. Cuando alguien afirma que algo es 100% significa que no hay certeza de fracaso. Sabemos que la gente puede desanonimizarse fácilmente de varias maneras, por ejemplo:
+- Haciendo garantías de proteger el anonimato al 100%. Cuando alguien afirma que algo es 100% significa que no hay certeza de fracaso. Sabemos que la gente puede desanonimizarse fácilmente de varias maneras, por ejemplo:
 
-- Reutilizar información personal, por ejemplo (cuentas de correo electrónico, seudónimos únicos, etc.) a la que accedieron sin software de anonimato (Tor, VPN, etc.)
+- Reutilizar información personal, por ejemplo (cuentas de correo electrónico, seudónimos únicos, etc.) que accedieron sin software de anonimato (Tor, VPN, etc.)
 - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Mejor Caso:**
 
 - Documentación clara y fácil de leer. Esto incluye cosas como configurar 2FA, clientes de correo electrónico, OpenPGP, etc.
 
-### Funcionalidades adicionales
+### Funcionalidad Adicional
 
 Aunque no son exactamente requisitos, hay algunos otros factores de conveniencia o privacidad que hemos analizado para determinar qué proveedores recomendar.

@@ -84,6 +84,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
         Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
 
 - [x] Select **Upgrade connections to HTTPS**
+- [x] Select **Always use secure connections**
 - [x] (Optional) Select **Block Scripts** (1)
 - [x] Select **Strict, may break sites** under **Block fingerprinting**
 
@@ -111,9 +112,9 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 - [ ] Uncheck **Automatically send diagnostic reports**
 - [ ] Uncheck **Automatically send daily usage ping to Brave**
 
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
-
 </div>
+
+1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
 
 #### Brave Sync
 
@@ -200,15 +201,15 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend chec
 
 Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.
 
-## Criteria
+## 標準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! example "This section is new"
+!!! 示例“此部分是新的”
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
-### Minimum Requirements
+### 最低合格要求
 
 - Must support automatic updates.
 - Must receive engine updates in 0-1 days from upstream release.

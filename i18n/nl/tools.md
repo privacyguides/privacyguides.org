@@ -276,7 +276,7 @@ Wij [bevelen](dns.md#recommended-providers) een aantal versleutelde DNS servers 
 
 <div class="grid cards" markdown>
 
-- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji }[Monero](cryptocurrency.md#monero)
+- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji } [Monero](cryptocurrency.md#monero)
 
 </div>
 

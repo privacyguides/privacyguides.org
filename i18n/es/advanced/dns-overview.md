@@ -16,7 +16,7 @@ Las solicitudes de DNS sin cifrar pueden ser fácilmente **vigiladas** y **modif
 
 A continuación, discutimos y proporcionamos un tutorial para probar lo que un observador externo puede ver usando DNS regulares sin encriptar y [DNS encriptado](#what-is-encrypted-dns).
 
-### DNS sin cifrado
+### DNS Sin Encriptación
 
 1. Usando [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (parte del proyecto [Wireshark](https://es.wikipedia.org/wiki/Wireshark)) podemos monitorear y registrar el flujo de paquetes de Internet. Este comando registra los paquetes que cumplen las reglas especificadas:
 
@@ -24,7 +24,7 @@ A continuación, discutimos y proporcionamos un tutorial para probar lo que un o
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. Entonces podemos usar [`dig`](https://es.wikipedia.org/wiki/Dig_(comando)) (Linux, macOS, etc) o [`nslookup`](https://es.wikipedia.org/wiki/Nslookup) (Windows) para enviar la búsqueda DNS a ambos servidores. Software como los navegadores web hacen estas búsquedas automáticamente, a menos que estén configurados para usar DNS cifrado.
+2. Entonces podemos usar [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, macOS, etc) o [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) para enviar la búsqueda DNS a ambos servidores. Software como los navegadores web hacen estas búsquedas automáticamente, a menos que estén configurados para usar DNS cifrado.
 
     === "Linux, macOS"
 
@@ -66,7 +66,7 @@ Un observador podría modificar cualquiera de estos paquetes.
 
 ## ¿Qué es "DNS cifrado"?
 
-DNS cifrado puede referirse a uno de un número de protocolos, siendo los más comunes:
+DNS encriptado puede referirse a uno de un número de protocolos, los más comunes siendo:
 
 ### DNSCrypt
 

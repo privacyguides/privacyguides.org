@@ -1,25 +1,25 @@
 ---
-title: "Common Threats"
+title: "일반적인 위협"
 icon: 'material/eye-outline'
-description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
+description: 위협 모델은 개개인마다 다르지만, 이 사이트의 방문자 대부분이 관심을 가질 사항입니다.
 ---
 
-Broadly speaking, we categorize our recommendations into the [threats](threat-modeling.md) or goals that apply to most people. ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
+전반적으로, Privacy Guides의 권장 목록은 대부분의 사람들에게 적용되는 [위협](threat-modeling.md) 혹은 목표로 분류됩니다. 여러분이 사용하는 툴 및 서비스는 여러분의 목표에 따라 달라지며, ==이러한 위협 가능성에 대한 관심도는 사람마다 다를 수 있습니다.== You may have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
 
-- <span class="pg-purple">:material-incognito: Anonymity</span> - Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
-- <span class="pg-red">:material-target-account: Targeted Attacks</span> - Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
-- <span class="pg-orange">:material-bug-outline: Passive Attacks</span> - Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
-- <span class="pg-teal">:material-server-network: Service Providers</span> - Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
-- <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> - Protection from government agencies, organizations, websites, and services which work together to track your activities.
-- <span class="pg-brown">:material-account-cash: Surveillance Capitalism</span> - Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
-- <span class="pg-green">:material-account-search: Public Exposure</span> - Limiting the information about you that is accessible online—to search engines or the general public.
-- <span class="pg-blue-gray">:material-close-outline: Censorship</span> - Avoiding censored access to information or being censored yourself when speaking online.
+- <span class="pg-purple">:material-incognito: 익명성</span> - 온라인 활동에서 실제 신원을 보호하여, *여러분의* 신원을 밝혀내려는 사람들로부터 여러분을 보호합니다.
+- <span class="pg-red">:material-target-account: 표적 공격</span> - *당신의* 데이터나 기기에 세부적으로 접근하려는 해커 및 그 외 악의적인 상대로부터 보호합니다.
+- <span class="pg-orange">:material-bug-outline: 소극적 공격</span> - 멀웨어, 데이터 유출 등 다수의 사람을 한꺼번에 대상으로 삼는 공격으로부터 보호합니다.
+- <span class="pg-teal">:material-server-network: 서비스 제공자</span> - (여러분의 데이터를 서버에서 읽을 수 없도록 하는 E2EE 등을 이용하여) 서비스 제공자로부터 여러분의 데이터를 보호합니다.
+- <span class="pg-blue">:material-eye-outline: 대중 감시</span> - 여러분의 활동을 추적하기 위해 협력하는 정부 기관, 단체, 웹사이트, 서비스로부터 보호합니다.
+- <span class="pg-brown">:material-account-cash: 감시 자본주의</span> - Google, Facebook 등의 거대 광고 네트워크 및 기타 수많은 제3자 데이터 수집 업체로부터 여러분을 보호합니다.
+- <span class="pg-green">:material-account-search: 공개 노출</span> - 여러분에 대한 정보를 (검색 엔진이나 일반 대중이) 온라인에서 접근하는 것을 제한합니다.
+- <span class="pg-blue-gray">:material-close-outline: 검열</span> - 정보 접근을 제한하는 검열을 회피하고, 온라인상에서 자신의 주장이 검열되는 것을 방지합니다.
 
 Some of these threats may be more important to you than others, depending on your specific concerns. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-red">:material-target-account: Targeted Attacks</span>, but they probably still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Similarly, many people may be primarily concerned with <span class="pg-green">:material-account-search: Public Exposure</span> of their personal data, but they should still be wary of security-focused issues, such as <span class="pg-orange">:material-bug-outline: Passive Attacks</span>—like malware affecting their devices.
 
-## Anonymity vs. Privacy
+## 익명성 vs 프라이버시
 
-<span class="pg-purple">:material-incognito: Anonymity</span>
+<span class="pg-purple">:material-incognito: 익명성</span>
 
 Anonymity is often confused with privacy, but they're distinct concepts. While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real identity.
 

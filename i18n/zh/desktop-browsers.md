@@ -186,7 +186,7 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 
 </div>
 
-1. 该选项提供的功能类似于uBlock Origin的高级 [阻止模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode) 或 [NoScript](https://noscript.net/) 扩展。
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
 
 
 
@@ -228,25 +228,29 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 
 
 
-##### IPFS（星际文件系统）
+##### Web3
 
-InterPlanetary File System（IPFS）是一个分散的、点对点的网络，用于在分布式文件系统中存储和共享数据。 除非你使用该功能，否则禁用它。
+<div class="annotate" markdown>
 
-- [x] 在解决IPFS资源的方法上选择 **禁用**
+- [x] Select **Disabled** on Method to resolve IPFS resources (1)
+
+</div>
+
+1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
 
 
 
 ##### 附加设置
 
-在 *系统* 菜单下
+Under the *System* menu
 
 <div class="annotate" markdown>
 
-- [] 取消勾选**当Brave关闭时继续运行的应用程序**以禁用后台应用程序 (1)
+- [ ] Uncheck **Continue running apps when Brave is closed** to disable background apps (1)
 
 </div>
 
-1. 这个选项并不存在于所有平台上。
+1. This option is not present on all platforms.
 
 
 
@@ -258,7 +262,7 @@ InterPlanetary File System（IPFS）是一个分散的、点对点的网络，�
 
 ## 其它资源
 
-我们一般不建议安装任何扩展，因为它们会增加你的攻击面。 然而，如果你重视内容封锁功能，uBlock Origin可能证明是有用的。
+We generally do not recommend installing any extensions as they increase your attack surface. However, uBlock Origin may prove useful if you value content blocking functionality.
 
 
 
@@ -282,16 +286,16 @@ InterPlanetary File System（IPFS）是一个分散的、点对点的网络，�
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
     
 
-我们建议按照 [开发人员的文档](https://github.com/gorhill/uBlock/wiki/Blocking-mode) ，并选择其中的一种 "模式"。 额外的过滤器列表会影响性能， [可能会增加攻击面](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css)。
+We suggest following the [developer's documentation](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and picking one of the "modes". Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
 
 
 ##### 其它列表
 
-这些是其他一些 [过滤器列表](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) ，你可能要考虑添加。
+These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) that you may want to consider adding:
 
-- [x] 检查 **隐私** > **AdGuard URL跟踪保护**
-- 添加 [其实合法的URL缩短器工具](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
+- [x] Check **Privacy** > **AdGuard URL Tracking Protection**
+- Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
 
 
@@ -309,12 +313,12 @@ InterPlanetary File System（IPFS）是一个分散的、点对点的网络，�
 ### Minimum Requirements
 
 - 它必须是开源软件。
-- 支持自动更新。
-- 在上游发布后0-1天内收到引擎更新。
-- 可用于Linux、macOS和Windows。
+- Supports automatic updates.
+- Receives engine updates in 0-1 days from upstream release.
+- Available on Linux, macOS, and Windows.
 - 为使浏览器更加尊重隐私所需的任何改变都不应该对用户体验产生负面影响。
-- 默认情况下，阻止第三方的cookies。
-- 支持 [状态分区](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) ，以减轻跨网站追踪。[^1]
+- Blocks third-party cookies by default.
+- Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 
 
@@ -322,16 +326,16 @@ InterPlanetary File System（IPFS）是一个分散的、点对点的网络，�
 
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
-- 包括内置的内容阻止功能。
-- 支持cookie分区（à la [多账户容器](https://support.mozilla.org/en-US/kb/containers)）。
-- 支持渐进式网络应用程序。  
-  PWA使你能够安装某些网站，就像在你的电脑上安装本地应用程序一样。 这比安装基于电子的应用程序有优势，因为你可以从浏览器的定期安全更新中受益。
+- Includes built-in content blocking functionality.
+- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
+- Supports Progressive Web Apps.  
+  PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
 
-- 不包括不影响用户隐私的附加功能（臃肿软件）。
+- Does not include add-on functionality (bloatware) that does not impact user privacy.
 
-- 默认情况下不收集遥测数据。
-- 提供开源的同步服务器实现。
-- 默认为 [私人搜索引擎](search-engines.md)。
+- Does not collect telemetry by default.
+- Provides open-source sync server implementation.
+- Defaults to a [private search engine](search-engines.md).
 
 
 
@@ -343,4 +347,4 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 
 [^1]:    
-    Brave的实现详见 [Brave隐私更新。分割网络状态的隐私](https://brave.com/privacy-updates/14-partitioning-network-state/)。
+    Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).

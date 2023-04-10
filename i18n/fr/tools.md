@@ -276,7 +276,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 <div class="grid cards" markdown>
 
-- ![Logo Monero](assets/img/cryptocurrency/monero.svg){ .twemoji }[Monero](cryptocurrency.md#monero)
+- ![Logo Monero](assets/img/cryptocurrency/monero.svg){ .twemoji } [Monero](cryptocurrency.md#monero)
 
 </div>
 

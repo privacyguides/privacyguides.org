@@ -1,7 +1,7 @@
 ---
-title: "Common Misconceptions"
+title: "Поширені міфи"
 icon: 'material/robot-confused'
-description: Privacy isn't a straightforward topic, and it's easy to get caught up in marketing claims and other disinformation.
+description: Конфіденційність — непроста тема, і легко піддатися маркетинговим заявам та іншій дезінформації.
 schema:
   - 
     "@context": https://schema.org
@@ -9,86 +9,86 @@ schema:
     mainEntity:
       - 
         "@type": Question
-        name: Is open source software inherently secure?
+        name: Чи безпечне програмне забезпечення з відкритим кодом за своєю суттю?
         acceptedAnswer:
           "@type": Answer
           text: |
-            Whether the source code is available and how software is licensed does not inherently affect its security in any way. Open-source software has the potential to be more secure than proprietary software, but there is absolutely no guarantee this is the case. When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+            Доступність вихідного коду та спосіб ліцензування програмного забезпечення жодним чином не впливають на його безпеку. Програмне забезпечення з відкритим вихідним кодом може бути більш безпечним, ніж пропрієтарне програмне забезпечення, але немає жодних гарантій, що це так. Оцінюючи програмне забезпечення, ви повинні звертати увагу на репутацію та безпеку кожного інструменту на індивідуальній основі.
       - 
         "@type": Question
-        name: Can shifting trust to another provider increase privacy?
+        name: Чи може передача довіри іншому провайдеру підвищити рівень конфіденційності?
         acceptedAnswer:
           "@type": Answer
           text: |
-            We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP specifically, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties.
+            Ми багато говоримо про "передачу довіри", коли обговорюємо такі рішення, як VPN (які передають довіру, яку ви покладаєте на свого інтернет-провайдера, до VPN-провайдера). Хоча це захищає ваші дані від вашого інтернет-провайдера, обраний вами VPN-провайдер все одно має доступ до ваших даних: ваші дані не повністю захищені від усіх сторін.
       - 
         "@type": Question
-        name: Are privacy-focused solutions inherently trustworthy?
+        name: Чи є рішення, орієнтовані на конфіденційність, за своєю суттю надійними?
         acceptedAnswer:
           "@type": Answer
           text: |
-            Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like Cryptomator) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+            Зосередження виключно на політиці конфіденційності та маркетингу інструменту або провайдера може відвернути вашу увагу від його слабких сторін. Коли ви шукаєте більш конфіденційне рішення, вам слід визначити, в чому полягає основна проблема, і знайти технічні розв'язання цієї проблеми. Наприклад, ви можете не використовувати Google Диск, який надає Google доступ до всіх ваших даних. Основною проблемою в цьому випадку є відсутність E2EE, тому вам слід переконатися, що провайдер, до якого ви переходите, дійсно реалізує E2EE, або скористатися інструментом (наприклад, Cryptomator), який забезпечує E2EE на будь-якому хмарному провайдері. Перехід до "орієнтованого на конфіденційність" провайдера (який не впроваджує E2EE) не вирішить вашу проблему: він просто змістить довіру від Google до цього провайдера.
       - 
         "@type": Question
-        name: How complicated should my threat model be?
+        name: Наскільки складною має бути моя модель загроз?
         acceptedAnswer:
           "@type": Answer
           text: |
-            We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like many different email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do X?"
-            Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience.
+            Ми часто бачимо, як люди описують надто складні моделі загроз конфіденційності. Часто ці рішення включають в себе такі проблеми, як багато різних облікових записів електронної пошти або складні налаштування з великою кількістю рухомих частин і умов. Відповіді зазвичай відповідають на питання: «Який найкращий спосіб зробити X?»
+            Пошук "найкращого" рішення для себе не обов'язково означає, що ви шукаєте безпомилкове рішення з десятками умов — з такими рішеннями часто важко працювати на практиці. Як ми обговорювали раніше, безпека часто приходить за рахунок зручності.
 ---
 
-## "Open-source software is always secure" or "Proprietary software is more secure"
+## "Програмне забезпечення з відкритим кодом завжди безпечне" або "Пропрієтарне програмне забезпечення більш безпечне"
 
-These myths stem from a number of prejudices, but whether the source code is available and how software is licensed does not inherently affect its security in any way. ==Open-source software has the *potential* to be more secure than proprietary software, but there is absolutely no guarantee this is the case.== When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+Ці міфи випливають з низки упереджень, але доступність вихідного коду та спосіб ліцензування програмного забезпечення жодним чином не впливають на його безпеку. == Програмне забезпечення з відкритим вихідним кодом має *потенціал* бути безпечнішим, ніж пропрієтарне програмне забезпечення, але немає жодних гарантій, що це так.== Коли ви оцінюєте програмне забезпечення, ви повинні дивитися на репутацію та безпеку кожного інструменту на індивідуальній основі.
 
-Open-source software *can* be audited by third-parties, and is often more transparent about potential vulnerabilities than proprietary counterparts. It also allows you to review the code and disable any suspicious functionality you find yourself. However, *unless you do so*, there is no guarantee that code has ever been evaluated, especially with smaller software projects. The open development process has also sometimes been exploited to introduce new vulnerabilities into even large projects.[^1]
+Програмне забезпечення з відкритим кодом *може* перевірятися третіми сторонами і часто є більш прозорим щодо потенційних вразливостей, ніж пропрієтарні аналоги. Це також дає змогу ознайомитися з кодом та вимкнути всі підозрілі функції, які ви знайдете самі. Однак, *якщо ви не зробите цього*, немає ніякої гарантії, що код коли-небудь оцінювався, особливо для невеликих проєктів. Відкритий процес розробки також іноді використовується для впровадження нових вразливостей навіть у великі проєкти.[^1]
 
-On the flip side, proprietary software is less transparent, but that doesn't imply that it's not secure. Major proprietary software projects can be audited internally and by third-party agencies, and independent security researchers can still find vulnerabilities with techniques like reverse engineering.
+З іншого боку, пропрієтарне програмне забезпечення менш прозоре, але це не означає, що воно не є безпечним. Великі проєкти пропрієтарного програмного забезпечення можуть бути перевірені як внутрішніми, так і сторонніми організаціями, а незалежні дослідники безпеки все ще можуть знайти вразливості за допомогою таких методів, як зворотна інженерія.
 
-To avoid biased decisions, it's *vital* that you evaluate the privacy and security standards of the software you use.
+Щоб уникнути упереджених рішень, *дуже важливо* оцінювати стандарти конфіденційності та безпеки програмного забезпечення, яке ви використовуєте.
 
-## "Shifting trust can increase privacy"
+## "Передача довіри може підвищити конфіденційність"
 
-We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP *specifically*, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties. This means that:
+Ми багато говоримо про "передачу довіри", коли обговорюємо такі рішення, як VPN (які передають довіру, яку ви покладаєте на свого інтернет-провайдера, до VPN-провайдера). Хоча це захищає ваші дані *конкретно* від вашого інтернет-провайдера, обраний вами VPN-провайдер все одно має доступ до ваших даних: Ваші дані не повністю захищені від усіх сторін. Це означає, що:
 
-1. You must exercise caution when choosing a provider to shift trust to.
-2. You should still use other techniques, like E2EE, to protect your data completely. Merely distrusting one provider to trust another is not securing your data.
+1. Ви повинні бути обережними при виборі постачальника, якому ви передаєте довіру.
+2. Ви все одно повинні використовувати інші методи, такі як E2EE, щоб повністю захистити свої дані. Просто недовіряти одному провайдеру, щоб довіряти іншому, не захищає ваші дані.
 
-## "Privacy-focused solutions are inherently trustworthy"
+## "Рішення, орієнтовані на конфіденційність, за своєю суттю є надійними"
 
-Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](../encryption.md#cryptomator-cloud)) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+Зосередження виключно на політиці конфіденційності та маркетингу інструменту або провайдера може відвернути вашу увагу від його слабких сторін. Коли ви шукаєте більш конфіденційне рішення, вам слід визначити, в чому полягає основна проблема, і знайти технічні розв'язання цієї проблеми. Наприклад, ви можете не використовувати Google Диск, який надає Google доступ до всіх ваших даних. Основною проблемою в цьому випадку є відсутність E2EE, тому вам слід переконатися, що провайдер, до якого ви переходите, дійсно реалізує E2EE, або скористатися інструментом (наприклад, [Cryptomator](../encryption.md#cryptomator-cloud)), який забезпечує E2EE на будь-якому хмарному провайдері. Перехід до "орієнтованого на конфіденційність" провайдера (який не впроваджує E2EE) не вирішить вашу проблему: він просто змістить довіру від Google до цього провайдера.
 
-The privacy policies and business practices of providers you choose are very important, but should be considered secondary to technical guarantees of your privacy: You shouldn't shift trust to another provider when trusting a provider isn't a requirement at all.
+Політика конфіденційності та бізнес-практики постачальників, яких ви обираєте, дуже важливі, але їх слід вважати другорядними у порівнянні з технічними гарантіями вашої конфіденційності: ви не повинні перекладати довіру на іншого постачальника, коли довіра до постачальника взагалі не є вимогою.
 
-## "Complicated is better"
+## "Складніше — краще"
 
-We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like many different email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do *X*?"
+Ми часто бачимо, як люди описують надто складні моделі загроз конфіденційності. Часто ці рішення включають в себе такі проблеми, як багато різних облікових записів електронної пошти або складні налаштування з великою кількістю рухомих частин і умов. Відповіді зазвичай відповідають на питання: «Який найкращий спосіб зробити *X*?»
 
-Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience. Below, we provide some tips:
+Пошук "найкращого" рішення для себе не обов'язково означає, що ви шукаєте безпомилкове рішення з десятками умов — з такими рішеннями часто важко працювати на практиці. Як ми обговорювали раніше, безпека часто приходить за рахунок зручності. Нижче ми надаємо кілька порад:
 
-1. ==Actions need to serve a particular purpose:== think about how to do what you want with the fewest actions.
-2. ==Remove human failure points:== We fail, get tired, and forget things. To maintain security, avoid relying on manual conditions and processes that you have to remember.
-3. ==Use the right level of protection for what you intend.== We often see recommendations of so-called law-enforcement or subpoena-proof solutions. These often require specialist knowledge and generally aren't what people want. There's no point in building an intricate threat model for anonymity if you can be easily de-anonymized by a simple oversight.
+1. ==Дії повинні служити певній меті:== подумайте, як зробити те, що ви хочете, з найменшою кількістю дій.
+2. ==Усунення точок людських помилок:== ми зазнаємо невдач, втомлюємося і забуваємо про щось. Щоб підтримувати безпеку, уникайте покладатися на ручні умови та процеси, які вам потрібно запам'ятати.
+3. ==Використовуйте правильний рівень захисту для того, що ви плануєте.== ми часто зустрічаємо рекомендації щодо так званих рішень, захищених від правоохоронних органів або повісток до суду. Вони часто вимагають спеціальних знань і, як правило, не є тим, чого хочуть люди. Немає сенсу будувати складну модель загроз для анонімності, якщо вас можна легко деанонімізувати за допомогою простого нагляду.
 
-So, how might this look?
+Отже, як це може виглядати?
 
-One of the clearest threat models is one where people *know who you are* and one where they do not. There will always be situations where you must declare your legal name and there are others where you don't need to.
+Однією з найяскравіших моделей загроз є та, коли люди *знають, хто ви*, і та, коли вони цього не знають. Завжди будуть ситуації, коли ви повинні заявити своє юридичне ім 'я, і є інші, де в цьому нема потреби.
 
-1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
+1. **Відома особистість** — відома особистість використовується для речей, де ви повинні оголошувати своє ім'я. Існує багато юридичних документів та договорів, де потрібна юридична особа. Це може бути відкриття банківського рахунку, підписання договору оренди нерухомості, отримання паспорта, митних декларацій при імпорті товарів або інші питання, пов'язані з вашим урядом. Зазвичай це призводить до отримання облікових даних, таких як кредитні картки, перевірка кредитного рейтингу, номерів рахунків і, можливо, фізичних адрес.
 
-    We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
+    Ми не рекомендуємо використовувати VPN або Tor для цих цілей, оскільки ваша особистість вже відома за допомогою інших засобів.
 
     !!! tip
    
-        When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
+        При покупках в Інтернеті використання [поштомата] (https://uk.wikipedia.org/wiki/Поштомат) може допомогти зберегти вашу фізичну адресу в конфіденційності.
 
-2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're part of an online community, you may wish to retain a persona that others know. This pseudonym isn't anonymous because—if monitored for long enough—details about the owner can reveal further information, such as the way they write, their general knowledge about topics of interest, etc.
+2. **Невідома особистість** — невідома особистість може бути стабільним псевдонімом, який ви регулярно використовуєте. Він не є анонімним, бо не змінюється. Якщо ви є частиною онлайн-спільноти, можливо, ви захочете зберегти образ, який знають інші. Цей псевдонім не є анонімним, оскільки за умови тривалого спостереження за ним можна отримати додаткову інформацію про його власника, наприклад, про те, як він пише, його загальні знання про теми, які його цікавлять, тощо.
 
-    You may wish to use a VPN for this, to mask your IP address. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](https://www.getmonero.org/). Employing altcoin shifting may also help to disguise where your currency originated. Typically, exchanges require KYC (know your customer) to be completed before they'll allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
+    Ви можете використовувати VPN для цього, щоб приховати свою IP-адресу. Фінансові транзакції складніше приховати: Ви можете розглянути можливість використання анонімних криптовалют, таких як [Monero](https://www.getmonero.org/). Використання зміни альткоїнів також може допомогти приховати, звідки походить ваша валюта. Як правило, обмінники вимагають пройти процедуру KYC (знай свого клієнта), перш ніж вони дозволять вам обміняти фіатну валюту на будь-який вид криптовалюти. Місцеві варіанти зустрічей також можуть бути рішенням, але вони часто дорожчі, а іноді також вимагають KYC.
 
-3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
+3. **Анонімна особистість** — навіть маючи досвід, анонімну особистість важко підтримувати тривалий час. Це мають бути короткострокові та недовговічні ідентичності, які регулярно змінюються.
 
-    Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
+    Використання Tor може допомогти в цьому. Варто також зазначити, що більша анонімність можлива через асинхронне спілкування: Спілкування в режимі реального часу вразливе до аналізу шаблонів набору тексту (тобто більше за абзац тексту, поширеного на форумі, електронною поштою тощо).
 
-[^1]: One notable example of this is the [2021 incident in which University of Minnesota researchers introduced three vulnerabilities into the Linux kernel development project](https://cse.umn.edu/cs/linux-incident).
+[^1]: Одним із помітних прикладів цього є [інцидент 2021 року, в якому дослідники Університету Міннесоти впровадили три вразливості у проект розробки ядра Лінукса](https://cse.umn.edu/cs/linux-incident).

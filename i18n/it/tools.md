@@ -3,7 +3,7 @@ title: "Strumenti per la privacy"
 icon: material/tools
 hide:
   - toc
-description: Privacy Guides is the most transparent and reliable website for finding software, apps, and services that protect your personal data from mass surveillance programs and other internet threats.
+description: Privacy Guides è il sito web più trasparente e affidabile per trovare software, applicazioni e servizi che proteggono i vostri dati personali dai programmi di sorveglianza di massa e da altre minacce d'internet.
 ---
 
 Se stai cercando una soluzione specifica per qualcosa, questi sono gli strumenti hardware e software che ti consigliamo in una varietà di categorie. I nostri strumenti di privacy consigliati sono scelti principalmente in base alle funzionalità di sicurezza, con maggiore enfasi sugli strumenti decentralizzati e open-source. Sono applicabili a una varietà di modelli di minaccia che vanno dalla protezione contro i programmi di sorveglianza di massa globali e evitare le grandi aziende tecnologiche alla mitigazione degli attacchi, ma solo tu puoi determinare cosa funzionerà meglio per le tue esigenze.
@@ -155,7 +155,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 [Maggiori informazioni :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-#### Self-hosted Solutions
+#### Soluzioni self-hosted
 
 <div class="grid cards" markdown>
 
@@ -201,9 +201,9 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 [Maggiori informazioni :material-arrow-right-drop-circle:](email.md#self-hosting-email)
 
-### Financial Services
+### Servizi finanziari
 
-#### Payment Masking Services
+#### Servizi di mascheramento dei pagamenti
 
 <div class="grid cards" markdown>
 
@@ -213,7 +213,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 [Maggiori informazioni :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
 
-#### Online Gift Card Marketplaces
+#### Marketplace di Gift Card Online
 
 <div class="grid cards" markdown>
 
@@ -276,7 +276,7 @@ Per maggiori dettagli su ogni progetto, sul motivo per cui è stato scelto e su 
 
 <div class="grid cards" markdown>
 
-- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji }[Monero](cryptocurrency.md#monero)
+- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji } [Monero](cryptocurrency.md#monero)
 
 </div>
 

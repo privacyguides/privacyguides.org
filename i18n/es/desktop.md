@@ -12,7 +12,7 @@ Las distribuciones de Linux se recomiendan comúnmente para la protección de la
 
 ### Fedora Workstation
 
-!!! recomendación
+!!! recommendation
 
     ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
     
@@ -26,7 +26,7 @@ Fedora tiene un ciclo de lanzamientos semicontinuo. Mientras que algunos paquete
 
 ### openSUSE Tumbleweed
 
-!!! recomendación
+!!! recommendation
 
     ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
     
@@ -42,7 +42,7 @@ Tumbleweed sigue un modelo de actualización continua en el que cada actualizaci
 
 ### Arch Linux
 
-!!! recomendación
+!!! recommendation
 
     ![Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }
     
@@ -62,7 +62,7 @@ Gran parte de los [paquetes de Arch Linux](https://reproducible.archlinux.org) s
 
 ### Fedora Silverblue
 
-!!! recomendación
+!!! recommendation
 
     ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
     
@@ -82,7 +82,7 @@ Como alternativa a Flatpaks, existe la opción de [Toolbox](https://docs.fedorap
 
 ### NixOS
 
-!!! recomendación
+!!! recommendation
 
     ![NixOS logo](assets/img/linux-desktop/nixos.svg){ align=right }
     
@@ -106,7 +106,7 @@ Nix es un gestor de paquetes basado en el código fuente; si no hay ningún paqu
 
 ### Whonix
 
-!!! recomendación
+!!! recommendation
 
     ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
     
@@ -127,7 +127,7 @@ Whonix se utiliza mejor [junto con Qubes](https://www.whonix.org/wiki/Qubes/Why_
 
 ### Tails
 
-!!! recomendación
+!!! recommendation
 
     ![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
     
@@ -147,7 +147,7 @@ Tails está diseñado para formatearse por completo después de cada reinicio. [
 
 ### Qubes OS
 
-!!! recomendación
+!!! recommendation
 
     ![Logotipo de Qubes OS](assets/img/qubes/qubes_os.svg){ align=right }
     

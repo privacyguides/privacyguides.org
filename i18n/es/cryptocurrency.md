@@ -13,7 +13,7 @@ Realizar pagos en línea es uno de los principales desafíos para la privacidad.
 
 ## Monero
 
-!!! recomendación
+!!! recommendation
 
     ![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
     

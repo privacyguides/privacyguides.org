@@ -70,7 +70,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 ## Operating Systems
 
-### Mobile
+### 行動
 
 <div class="grid cards" markdown>
 
@@ -276,13 +276,13 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji }[Monero](cryptocurrency.md#monero)
+- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji } [Monero](cryptocurrency.md#monero)
 
 </div>
 
 [Learn more :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### Data and Metadata Redaction
+### 資料和中繼資料處理
 
 <div class="grid cards" markdown>
 

@@ -10,7 +10,7 @@ A veces, los servicios intentarán obligarle a registrarse mediante el bloqueo a
 
 ### Librarian
 
-!!! recomendación
+!!! recommendation
 
     ![Librarian logo](assets/img/frontends/librarian.svg#only-light){ align=right }
     ![Librarian logo](assets/img/frontends/librarian-dark.svg#only-dark){ align=right }
@@ -40,7 +40,7 @@ Cuando utilice una instancia de Librarian, asegúrese de leer la política de pr
 
 ### Nitter
 
-!!! recomendación
+!!! recommendation
 
     ![Nitter logo](assets/img/frontends/nitter.svg){ align=right }
     
@@ -66,7 +66,7 @@ Cuando utilice una instancia de Nitter, asegúrese de leer la política de priva
 
 ### ProxiTok
 
-!!! recomendación
+!!! recommendation
 
     ![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
     
@@ -91,7 +91,7 @@ Cuando utilice una instancia de ProxiTok, asegúrese de leer la política de pri
 
 ### FreeTube
 
-!!! recomendación
+!!! recommendation
 
     ![FreeTube logo](assets/img/frontends/freetube.svg){ align=right }
     
@@ -118,7 +118,7 @@ Cuando utilice una instancia de ProxiTok, asegúrese de leer la política de pri
 
 ### Yattee
 
-!!! recomendación
+!!! recommendation
 
     ![Yattee logo](assets/img/frontends/yattee.svg){ align=right }
     
@@ -145,7 +145,7 @@ Por defecto, Yattee bloquea todos los anuncios de YouTube. Además, Yattee se in
 
 ### LibreTube (Android)
 
-!!! recomendación
+!!! recommendation
 
     ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ align=right }
     ![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ align=right }
@@ -171,7 +171,7 @@ Por defecto, LibreTube bloquea todos los anuncios de YouTube. Además, Libretube
 
 ### NewPipe (Android)
 
-!!! recommendation
+!!! recommendation annotate
 
     ![Newpipe logo](assets/img/frontends/newpipe.svg){ align=right }
     
@@ -197,7 +197,7 @@ Por defecto, LibreTube bloquea todos los anuncios de YouTube. Además, Libretube
 
 ### Invidious
 
-!!! recomendación
+!!! recommendation
 
     ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ align=right }
     ![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ align=right }
@@ -226,7 +226,7 @@ Cuando utilice una instancia de Invidious, asegúrese de leer la política de pr
 
 ### Piped
 
-!!! recomendación
+!!! recommendation
 
     ![Piped logo](assets/img/frontends/piped.svg){ align=right }
     

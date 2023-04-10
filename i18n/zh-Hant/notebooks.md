@@ -1,22 +1,22 @@
 ---
-title: "Notebooks"
+title: "記事本"
 icon: material/notebook-edit-outline
-description: These encrypted note-taking apps let you keep track of your notes without giving them to a third-party.
+description: 這些加密的筆記錄應用程式可讓您跟進記錄，而無需將它們提供給第三方。
 ---
 
-Keep track of your notes and journalings without giving them to a third-party.
+保存記錄您的筆記和日誌，不要將它們提供給第三方。
 
-If you are currently using an application like Evernote, Google Keep, or Microsoft OneNote, we suggest you pick an alternative here that supports E2EE.
+如果您目前使用的是 Evernote、Google Keep 或 Microsoft OneNote 等應用程式，我們建議您在這裡選擇一個支援 E2EE 的替代方案。
 
-## Cloud-based
+## 雲端型
 
 ### Joplin
 
 !!! recommendation
 
-    ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
+    ! [Joplin logo] (assets/img/notebooks/joplin.svg) {align = right}
     
-    **Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle a large number of markdown notes organized into notebooks and tags. It offers E2EE and can sync through Nextcloud, Dropbox, and more. It also offers easy import from Evernote and plain-text notes.
+    * * Joplin * *是一個免費、開源且功能齊全的筆記和待辦事項應用程式，可以處理大量 Markdown  文件並組織成筆記本和標籤功能。 它提供E2EE ，可以通過Nextcloud ， Dropbox等同步。 它也可以輕鬆自 Evernote 和純文本筆記導入。
     
     [:octicons-home-16: Homepage](https://joplinapp.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://joplinapp.org/privacy/){ .card-link title="Privacy Policy" }
@@ -24,7 +24,7 @@ If you are currently using an application like Evernote, Google Keep, or Microso
     [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
@@ -35,15 +35,15 @@ If you are currently using an application like Evernote, Google Keep, or Microso
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
-Joplin does not support password/PIN protection for the [application itself or individual notes and notebooks](https://github.com/laurent22/joplin/issues/289). However, your data is still encrypted in transit and at the sync location using your master key. Since January 2023, Joplin supports biometrics app lock for [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) and [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
+Joplin 不支援 [應用程式本身或個別筆記和筆記本](https://github.com/laurent22/joplin/issues/289)的密碼/PIN保護。 但是您的資料在傳輸與同步位置中仍會使用主密鑰加密。 自2023年1月起， Joplin 支援 [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) 和 [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z)的生物識別應用程式鎖定功能。
 
 ### Standard Notes
 
 !!! recommendation
 
-    ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
+    ! [Standard Notes 標誌] (assets/img/notebooks/standard-notes.svg) {align = right}
     
-    **Standard Notes** is a simple and private notes app that makes your notes easy and available everywhere you are. It features E2EE on every platform, and a powerful desktop experience with themes and custom editors. It has also been [independently audited (PDF)](https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf).
+    * *Standard Notes * *是一款簡單而私密的筆記應用程式，可隨時隨地輕鬆使用筆記功能。 它在每個平臺上都具有E2EE ，並且具有強大的主題和自訂編輯器的桌面體驗。 它也經過[獨立審計(PDF)] (https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf)。
     
     [:octicons-home-16: Homepage](https://standardnotes.com){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Privacy Policy" }
@@ -51,7 +51,7 @@ Joplin does not support password/PIN protection for the [application itself or i
     [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribute }
     
-    ??? downloads
+    ??? 下載
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
         - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
@@ -65,50 +65,50 @@ Joplin does not support password/PIN protection for the [application itself or i
 
 !!! recommendation
 
-    ![Cryptee logo](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
-    ![Cryptee logo](./assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
+    ! [Cryptee logo] (./assets/img/notebooks/cryptee.svg#only-light) {align = right}
+    ! [Cryptee logo] (./assets/img/notebooks/cryptee-dark.svg#only-dark) {align = right}
     
-    **Cryptee** is an open-source, web-based E2EE document editor and photo storage application. Cryptee is a PWA, which means that it works seamlessly across all modern devices without requiring native apps for each respective platform.
+    * * Cryptee * *是一個開源的，網頁版本的 E2EE 文件編輯器和照片存儲應用程式。 Cryptee 為漸進式網路應用程式(PWA) ，這意味著它可以在所有現代設備上無縫工作，而無需為每個平臺提供原生應用程序。
     
     [:octicons-home-16: Homepage](https://crypt.ee){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://crypt.ee/help){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/cryptee){ .card-link title="Source Code" }
     
-    ??? downloads
+    ??? 下載
     
         - [:octicons-globe-16: PWA](https://crypt.ee/download)
 
-Cryptee offers 100MB of storage for free, with paid options if you need more. Sign-up doesn't require an e-mail or other personally identifiable information.
+Cryptee 免費提供100MB 的儲存空間，如果需要更多容量，則另有付費選項。 註冊不需要電子郵件或其他個人身份資訊。
 
-## Local notebooks
+## 本地端的記事簿
 
 ### Org-mode
 
 !!! recommendation
 
-    ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
+    ! [Org-mode logo] (assets/img/notebooks/org-mode.svg) {align = right}
     
-    **Org-mode** is a [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system. Synchronization is possible with [file synchronization](file-sharing.md#file-sync) tools.
+    * * Org-mode * *是GNU Emacs的[主要模式] (https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html)。 Org-mode 用於記錄筆記，維護待辦事項列表，規劃項目，並使用快速有效的純文本系統撰寫文件。 可以利用[檔案同步] (file-sharing.md#file-sync)工具進行同步。
     
     [:octicons-home-16: Homepage](https://orgmode.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Documentation}
     [:octicons-code-16:](https://git.savannah.gnu.org/cgit/emacs/org-mode.git){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title=Contribute }
 
-## Criteria
+## 標準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! example "This section is new"
+!!! 示例“此部分是新的”
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在[論壇上提問] (https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
-- Clients must be open-source.
-- Any cloud sync functionality must be E2EE.
-- Must support exporting documents into a standard format.
+- 客戶端應是開源的。
+- 任何雲端同步都必須是 E2EE。
+- 必須支援將文件匯出為標準格式。
 
-### Best Case
+### 最佳案例：
 
-- Local backup/sync functionality should support encryption.
-- Cloud-based platforms should support document sharing.
+- 本地備份/同步功能應支援加密。
+- 基於雲的平臺應支持文件共享。

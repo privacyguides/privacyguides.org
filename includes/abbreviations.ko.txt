@@ -1,48 +1,48 @@
 *[2FA]: 2-Factor Authentication
-*[ADB]: Android Debug Bridge
-*[AOSP]: Android Open Source Project
-*[ATA]: Advanced Technology Attachment
+*[ADB]: Android 디버그 브리지
+*[AOSP]: Android 오픈소스 프로젝트
+*[ATA]: 고급 기술 결합(Advanced Technology Attachment)
 *[attack surface]: The total number of possible entry points for unauthorized access to a system
-*[AVB]: Android Verified Boot
+*[AVB]: Android 자체 검사 부팅
 *[cgroups]: Control Groups
-*[CLI]: Command Line Interface
+*[CLI]: 명령어 인터페이스
 *[CSV]: Comma-Separated Values
-*[CVE]: Common Vulnerabilities and Exposures
+*[CVE]: 공통 보안 취약점 및 노출(Common Vulnerabilities and Exposures)
 *[Digital Legacy]: Digital Legacy refers to features that allow you to give other people access to your data when you die
 *[DNSSEC]: Domain Name System Security Extensions
-*[DNS]: Domain Name System
+*[DNS]: 도메인 네임 시스템
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[E2EE]: End-to-End Encryption/Encrypted
+*[E2EE]: 종단 간 암호화
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area
 *[entropy]: A measurement of how unpredictable something is
 *[EOL]: End-of-Life
-*[Exif]: Exchangeable image file format
-*[FCM]: Firebase Cloud Messaging
-*[FDE]: Full Disk Encryption
+*[Exif]: 교환 이미지 파일 형식(Exchangeable image file format)
+*[FCM]: Firebase 클라우드 메시징
+*[FDE]: 전체 디스크 암호화
 *[FIDO]: Fast IDentity Online
 *[fork]: A new software project created by copying an existing project and adding to it independently
 *[GDPR]: General Data Protection Regulation
-*[GPG]: GNU Privacy Guard (PGP implementation)
+*[GPG]: GNU Privacy Guard (PGP 구현체)
 *[GPS]: Global Positioning System
-*[GUI]: Graphical User Interface
-*[GnuPG]: GNU Privacy Guard (PGP implementation)
+*[GUI]: 그래픽 사용자 인터페이스
+*[GnuPG]: GNU Privacy Guard (PGP 구현체)
 *[HDD]: Hard Disk Drive
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
-*[HTTPS]: Hypertext Transfer Protocol Secure
-*[HTTP]: Hypertext Transfer Protocol
+*[HTTPS]: 하이퍼텍스트 보안 전송 프로토콜
+*[HTTP]: 하이퍼텍스트 전송 프로토콜
 *[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
 *[ICCID]: Integrated Circuit Card Identifier
-*[IMAP]: Internet Message Access Protocol
-*[IMEI]: International Mobile Equipment Identity
-*[IMSI]: International Mobile Subscriber Identity
-*[IP]: Internet Protocol
-*[IPv4]: Internet Protocol version 4
-*[IPv6]: Internet Protocol version 6
-*[ISP]: Internet Service Provider
+*[IMAP]: 인터넷 메시지 접속 프로토콜(Internet Message Access Protocol)
+*[IMEI]: 국제 이동 단말기 식별 번호(International Mobile Equipment Identity)
+*[IMSI]: 국제 이동국 식별 번호(International Mobile Subscriber Identity)
+*[IP]: 인터넷 프로토콜(Internet Protocol)
+*[IPv4]: IP 버전 4 (Internet Protocol version 4)
+*[IPv6]: IP 버전 6 (Internet Protocol version 6)
+*[ISP]: 인터넷 서비스 제공자(Internet Service Provider)
 *[ISPs]: Internet Service Providers
 *[JNI]: Java Native Interface
 *[KYC]: Know Your Customer
@@ -52,12 +52,12 @@
 *[MEID]: Mobile Equipment Identifier
 *[MFA]: Multi-Factor Authentication
 *[NVMe]: Nonvolatile Memory Express
-*[NTP]: Network Time Protocol
+*[NTP]: 네트워크 타임 프로토콜(Network Time Protocol)
 *[OCI]: Open Container Initiative
 *[OCSP]: Online Certificate Status Protocol
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
-*[OS]: Operating System
+*[OS]: 운영 체제
 *[OTP]: One-Time Password
 *[OTPs]: One-Time Passwords
 *[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
@@ -69,9 +69,9 @@
 *[QNAME]: Qualified Name
 *[rolling release]: Updates which are released frequently rather than set intervals
 *[RSS]: Really Simple Syndication
-*[SELinux]: Security-Enhanced Linux
+*[SELinux]: 보안 강화 리눅스(Security-Enhanced Linux)
 *[SIM]: Subscriber Identity Module
-*[SMS]: Short Message Service (standard text messaging)
+*[SMS]: 문자 메시지 서비스
 *[SMTP]: Simple Mail Transfer Protocol
 *[SNI]: Server Name Indication
 *[SSD]: Solid-State Drive
@@ -80,17 +80,17 @@
 *[SaaS]: Software as a Service (cloud software)
 *[SoC]: System on Chip
 *[SSO]: Single sign-on
-*[TCP]: Transmission Control Protocol
+*[TCP]: 전송 제어 프로토콜
 *[TEE]: Trusted Execution Environment
 *[TLS]: Transport Layer Security
 *[ToS]: Terms of Service
 *[TOTP]: Time-based One-Time Password
-*[TPM]: Trusted Platform Module
+*[TPM]: 신뢰 플랫폼 모듈(Trusted Platform Module)
 *[U2F]: Universal 2nd Factor
-*[UEFI]: Unified Extensible Firmware Interface
-*[UDP]: User Datagram Protocol
-*[VPN]: Virtual Private Network
+*[UEFI]: 통합 확장 펌웨어 인터페이스(Unified Extensible Firmware Interface)
+*[UDP]: 사용자 데이터그램 프로토콜
+*[VPN]: 가상 사설망(Virtual Private Network)
 *[VoIP]: Voice over IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol
-*[PWA]: Progressive Web App
+*[PWA]: 프로그레시브 웹 앱

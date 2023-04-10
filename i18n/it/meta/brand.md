@@ -17,6 +17,6 @@ Additional branding guidelines can be found at [github.com/privacyguides/brand](
 
 ## Marchio Registrato
 
-"Privacy Guides" and the shield logo are trademarks owned by Jonah Aragon, unlimited usage is granted to the Privacy Guides project.
+"Privacy Guides" e il logo dello scudo sono marchi di proprietà di Jonah Aragon, l'uso illimitato è concesso al progetto Privacy Guides.
 
-Without waiving any of its rights, Privacy Guides does not advise others on the scope of its intellectual property rights. Privacy Guides does not permit or consent to any use of its trademarks in any manner that is likely to cause confusion by implying association with or sponsorship by Privacy Guides. If you are aware of any such use, please contact Jonah Aragon at jonah@privacyguides.org. Se hai domande, consulta il tuo consulente legale.
+Without waiving any of its rights, Privacy Guides does not advise others on the scope of its intellectual property rights. Privacy Guides does not permit or consent to any use of its trademarks in any manner that is likely to cause confusion by implying association with or sponsorship by Privacy Guides. Se si è a conoscenza di tali utilizzi, si prega di contattare Jonah Aragon all'indirizzo jonah@privacyguides.org. In caso di domande, consultate il vostro legale.

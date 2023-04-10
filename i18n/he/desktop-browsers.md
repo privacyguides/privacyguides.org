@@ -170,7 +170,7 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 
 </div>
 
-1. אפשרות זו מספקת פונקציונליות דומה למצבי החסימה [המתקדמים של uBlock Origin](https://github.com/gorhill/uBlock/wiki/Blocking-mode) או להרחבה [NoScript](https://noscript.net/).
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
 
 ##### חסימת מדיה חברתית
 
@@ -203,23 +203,27 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 - [ ] בטל את הסימון **Hangouts**
 - [ ] בטל את הסימון **WebTorrent**
 
-##### IPFS
-
-מערכת קבצים בין - כוכבית (באנגלית: InterPlanetary File System, בראשי תיבות: IPF) היא רשת מבוזרת המשמשת לאחסון ושיתוף נתונים במערכת קבצים מבוזרת. אלא אם כן אתה משתמש בתכונה, להשבית אותו.
-
-- [x] בחר **נכים** בשיטה לפתרון משאבי IPFs
-
-##### הגדרות נוספות
-
-מתחת לתפריט *מערכת*
+##### Web3
 
 <div class="annotate" markdown>
 
-- [] בטל את הסימון **המשך להפעיל אפליקציות כאשר Brave סגור** כדי להשבית אפליקציות רקע (1)
+- [x] Select **Disabled** on Method to resolve IPFS resources (1)
 
 </div>
 
-1. אפשרות זו אינה קיימת בכל הפלטפורמות.
+1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+
+##### הגדרות נוספות
+
+Under the *System* menu
+
+<div class="annotate" markdown>
+
+- [ ] Uncheck **Continue running apps when Brave is closed** to disable background apps (1)
+
+</div>
+
+1. This option is not present on all platforms.
 
 ### סנכרון Brave
 
@@ -227,7 +231,7 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 
 ## מקורות נוספים
 
-בדרך כלל איננו ממליצים להתקין תוספים כלשהם מכיוון שהם מגדילים את שטח ההתקפה שלך. עם זאת, uBlock Origin עשוי להיות שימושי אם אתה מעריך פונקציונליות חסימת תוכן.
+We generally do not recommend installing any extensions as they increase your attack surface. However, uBlock Origin may prove useful if you value content blocking functionality.
 
 ### uBlock Origin
 
@@ -248,14 +252,14 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 
-אנו ממליצים לעקוב אחר התיעוד של [היזם](https://github.com/gorhill/uBlock/wiki/Blocking-mode) ולבחור אחד מה"מצבים ". רשימות מסננים נוספות [עלולות להשפיע על הביצועים ולהגדיל את שטח התקיפה](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
+We suggest following the [developer's documentation](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and picking one of the "modes". Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
 ##### רשימות אחרות
 
-אלה עוד כמה [רשימות מסנן](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) ייתכן שתרצה לשקול הוספה:
+These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) that you may want to consider adding:
 
-- [x] בדוק **פרטיות** > **הגנה על מעקב אחר כתובות אתרים של AdGuard**
-- להוסיף [למעשה כלי URL מקוצר לגיטימי ](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
+- [x] Check **Privacy** > **AdGuard URL Tracking Protection**
+- Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
 ## קריטריונים
 
@@ -268,29 +272,29 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 ### דרישות מינימליות
 
 - חייבת להיות תוכנת קוד פתוח.
-- תומך בעדכונים אוטומטיים.
-- מקבל עדכוני מנוע בתוך 0 -1 ימים משחרורו במעלה הזרם.
-- זמין ב-Linux, macOS ו-Windows.
+- Supports automatic updates.
+- Receives engine updates in 0-1 days from upstream release.
+- Available on Linux, macOS, and Windows.
 - כל שינוי שיידרש כדי להפוך את הדפדפן ליותר מכבד פרטיות לא צריך להשפיע לרעה על חוויית המשתמש.
-- חוסם קובצי עוגיות של צד שלישי כברירת מחדל.
-- תומך [במחיצת מצב](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) כדי להקטין את המעקב בין אתרים.[^1]
+- Blocks third-party cookies by default.
+- Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 ### המקרה הטוב ביותר
 
 הקריטריונים הטובים ביותר שלנו מייצגים את מה שהיינו רוצים לראות מהפרויקט המושלם בקטגוריה זו. ייתכן שההמלצות שלנו לא יכללו חלק מהפונקציונליות הזו או את כולה, אך אלו שכן כן עשויות לדרג גבוה יותר מאחרות בדף זה.
 
-- כולל פונקציונליות מובנית לחסימת תוכן.
-- תומך מידור עוגיות ([מכולות מרובות חשבון](https://support.mozilla.org/en-US/kb/containers)).
-- תומך באפליקציות אינטרנט פרוגרסיביות.  
-  PWAs מאפשרים לך להתקין אתרים מסוימים כאילו היו אפליקציות מקוריות במחשב שלך. זה יכול להיות בעל יתרונות על פני התקנת אפליקציות מבוססות-אלקטרון, מכיוון שאתה נהנה מעדכוני האבטחה הרגילים של הדפדפן שלך.
-- לא כולל פונקציונליות הרחבה (bloatware) שאינה משפיעה על פרטיות המשתמש.
-- אינו אוסף טלמטריה כברירת מחדל.
-- מספק יישום שרת סינכרון בקוד פתוח.
-- ברירת המחדל היא [מנוע חיפוש פרטי](search-engines.md).
+- Includes built-in content blocking functionality.
+- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
+- Supports Progressive Web Apps.  
+  PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
+- Does not include add-on functionality (bloatware) that does not impact user privacy.
+- Does not collect telemetry by default.
+- Provides open-source sync server implementation.
+- Defaults to a [private search engine](search-engines.md).
 
 ### קריטריונים להרחבה
 
 - אסור לשכפל דפדפן מובנה או פונקציונליות מערכת הפעלה.
 - חייב להשפיע ישירות על פרטיות המשתמש, כלומר לא חייב פשוט לספק מידע.
 
-[^1]: היישום של Brave מפורט ב [עדכוני פרטיות Brave: חלוקת מצב רשת לפרטיות](https://brave.com/privacy-updates/14-partitioning-network-state/).
+[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).

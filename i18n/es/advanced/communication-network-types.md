@@ -6,7 +6,7 @@ description: Una visión general de varias arquitecturas de red comúnmente util
 
 Existen varias arquitecturas de red utilizadas habitualmente para transmitir mensajes entre personas. Estas redes pueden ofrecer diferentes garantías de privacidad, por lo que conviene tener en cuenta tu [modelo de amenaza](../basics/threat-modeling.md) a la hora de decidir qué aplicación utilizar.
 
-[Servicios de mensajería instantánea recomendados](../real-time-communication.md ""){.md-button}
+[Servicios de Mensajería Instantánea Recomendados](../real-time-communication.md ""){.md-button}
 
 ## Redes centralizadas
 
@@ -14,45 +14,45 @@ Existen varias arquitecturas de red utilizadas habitualmente para transmitir men
 
 Los mensajeros centralizados son aquellos en los que todos los participantes están en el mismo servidor o red de servidores controlados por la misma organización.
 
-Algunos servicios de mensajería autoalojados te permiten configurar tu propio servidor. El autoalojamiento puede ofrecer garantías adicionales de privacidad, como la ausencia de registros de uso o el acceso limitado a los metadatos (datos sobre quién habla con quién). Los servicios de mensajería centralizados autoalojados están aislados y todos deben estar en el mismo servidor para comunicarse.
+Algunos servicios de mensajería autoalojados te permiten configurar tu propio servidor. El autoalojamiento puede ofrecer garantías adicionales de privacidad, como la ausencia de registros de uso o acceso limitado a los metadatos (datos sobre quién habla con quién). Los servicios de mensajería centralizados autoalojados están aislados y todos deben estar en el mismo servidor para comunicarse.
 
 **Ventajas:**
 
-- Las nuevas funciones y cambios pueden aplicarse más rápidamente.
+- Nuevas funciones y cambios pueden aplicarse más rápidamente.
 - Es más fácil empezar y encontrar contactos.
 - Ecosistemas de características más maduras y estables, ya que son más fáciles de programar en un software centralizado.
-- Los problemas de privacidad pueden reducirse cuando se confía en un servidor que está autoalojando.
+- Problemas de privacidad pueden reducirse cuando confías en un servidor que estás autoalojando.
 
 **Desventajas:**
 
 - Puede incluir [control o acceso restringido](https://drewdevault.com/2018/08/08/Signal.html). Esto puede incluir cosas como:
 - Estar [prohibido conectar clientes de terceros](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) a la red centralizada que podría proporcionar una mayor personalización o una mejor experiencia. A menudo se define en los Términos y condiciones de uso.
 - Documentación pobre o nula para desarrolladores de terceros.
-- La [propiedad](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), la política de privacidad y las operaciones del servicio pueden cambiar fácilmente cuando una sola entidad lo controla, pudiendo comprometer el servicio más adelante.
+- La [propiedad](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), política de privacidad y las operaciones del servicio pueden cambiar fácilmente cuando una sola entidad lo controla, potencialmente comprometiendo el servicio más adelante.
 - El autoalojamiento requiere esfuerzo y conocimiento de cómo configurar un servicio.
 
-## Redes federadas
+## Redes Federadas
 
 ![Diagrama de redes federadas](../assets/img/layout/network-decentralized.svg){ align=left }
 
-Los servicios de mensajería federados utilizan varios servidores independientes y descentralizados que pueden comunicarse entre sí (el correo electrónico es un ejemplo de servicio federado). La federación permite a los administradores de sistemas controlar su propio servidor y seguir formando parte de la red de comunicaciones más amplia.
+Mensajeros federados utilizan varios servidores independientes y descentralizados que son capaces de comunicarse entre sí (correo electrónico es un ejemplo de un servicio federado). La federación permite a los administradores de sistemas controlar su propio servidor y seguir formando parte de la red de comunicaciones más amplia.
 
-Cuando se autoaloja, los miembros de un servidor federado pueden descubrir y comunicarse con los miembros de otros servidores, aunque algunos servidores pueden optar por permanecer privados al no estar federados (por ejemplo, el servidor del equipo de trabajo).
+Cuando autoalojados, miembros de un servidor federado pueden descubrir y comunicarse con miembros de otros servidores, aunque algunos servidores pueden optar por permanecer privados al no ser federados (por ejemplo, el servidor del equipo de trabajo).
 
 **Ventajas:**
 
 - Permite un mayor control sobre tus propios datos cuando administras tu propio servidor.
 - Te permite elegir en quién confiar tus datos eligiendo entre varios servidores "públicos".
 - A menudo permite los clientes de terceros que pueden ofrecer una experiencia más nativa, personalizada o accesible.
-- Se puede verificar que el software del servidor coincide con el código fuente público, suponiendo que se tiene acceso al servidor o se confía en la persona que lo tiene (por ejemplo, un familiar).
+- El software del servidor se puede verificar que coincide con el código fuente público, asumiendo que tengas acceso al servidor o que confíes en la persona quien lo tiene (por ejemplo, un familiar).
 
 **Desventajas:**
 
-- Añadir nuevas funcionalidades es más complejo porque estas funcionalidades tienen que ser estandarizadas y probadas para asegurar que funcionan con todos los servidores de la red.
+- Añadir nuevas funciones es más complejo porque estas funciones tienen que ser estandarizadas y probadas para asegurar que funcionen con todos los servidores en la red.
 - Debido al punto anterior, pueden faltar funciones, o estar incompletas o funcionar de forma inesperada en comparación con las plataformas centralizadas, como la retransmisión de mensajes cuando se está desconectado o la eliminación de mensajes.
-- Algunos metadatos pueden estar disponibles (por ejemplo, información como "quién habla con quién", pero no el contenido real del mensaje si se utiliza E2EE).
+- Algunos metadatos pueden estar disponibles (por ejemplo, información como "quién está hablando con quién", pero no el contenido real del mensaje si se utiliza E2EE).
 - Los servidores federados generalmente requieren confiar en el administrador de tu servidor. Puede que sean aficionados o que no sean "profesionales de la seguridad", y puede que no sirvan documentos estándar como una política de privacidad o unas condiciones de servicio que detallen cómo se utilizan tus datos.
-- Los administradores de los servidores a veces deciden bloquear otros servidores que son fuente de abusos no moderados o que rompen las normas generales de comportamiento aceptadas. Esto dificultará tu capacidad de comunicación con los miembros de esos servidores.
+- Administradores de servidores a veces deciden bloquear otros servidores que son fuente de abusos no moderados o que rompen las normas generales de comportamiento aceptado. Esto dificultará tu capacidad de comunicación con los miembros de esos servidores.
 
 ## Redes par a par (P2P)
 
@@ -60,7 +60,7 @@ Cuando se autoaloja, los miembros de un servidor federado pueden descubrir y com
 
 Los servicios de mensajería P2P se conectan a una [red distribuida](https://es.wikipedia.org/wiki/Red_distribuida) de nodos para transmitir un mensaje al destinatario sin necesidad de un servidor externo.
 
-Los clientes (pares) suelen encontrarse entre sí mediante el uso de una red de [computación distribuida](https://es.wikipedia.org/wiki/Computación_distribuida). Ejemplos de esto incluyen la [Tabla de hash distribuida](https://es.wikipedia.org/wiki/Tabla_de_hash_distribuida) (DHT), usada por [torrents](https://es.wikipedia.org/wiki/BitTorrent) y [IPFS](https://es.wikipedia.org/wiki/Sistema_de_archivos_interplanetario) por ejemplo. Otro enfoque son las redes basadas en la proximidad, en las que se establece una conexión a través de WiFi o Bluetooth (por ejemplo, Briar o el protocolo de red social [Scuttlebutt](https://www.scuttlebutt.nz)).
+Los clientes (pares) usualmente se encuentran entre sí mediante el uso de una red de [computación distribuida](https://en.wikipedia.org/wiki/Distributed_computing). Ejemplos de esto incluyen la [Tabla de hash distribuida](https://es.wikipedia.org/wiki/Tabla_de_hash_distribuida) (DHT), usada por [torrents](https://es.wikipedia.org/wiki/BitTorrent) y [IPFS](https://es.wikipedia.org/wiki/Sistema_de_archivos_interplanetario) por ejemplo. Otro enfoque son las redes basadas en la proximidad, en las que se establece una conexión a través de WiFi o Bluetooth (por ejemplo, Briar o el protocolo de red social [Scuttlebutt](https://www.scuttlebutt.nz)).
 
 Una vez que un par ha encontrado una ruta a su contacto a través de cualquiera de estos métodos, se establece una conexión directa entre ellos. Aunque los mensajes suelen estar encriptados, un observador puede deducir la ubicación y la identidad del remitente y del destinatario.
 

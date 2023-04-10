@@ -1,21 +1,21 @@
 ---
-title: "Visión general de Qubes"
-icon: pg/qubes-os
-description: Qubes es un sistema operativo basado en el aislamiento de aplicaciones dentro de máquinas virtuales para aumentar la seguridad.
+title: "Visión General de Qubes"
+icon: simple/qubesos
+description: Qubes es un sistema operativo basado en el aislamiento de aplicaciones dentro de máquinas virtuales para una mayor seguridad.
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) es un sistema operativo que utiliza el hipervisor [Xen](https://en.wikipedia.org/wiki/Xen) para proporcionar una fuerte seguridad para la informática de escritorio a través de máquinas virtuales aisladas. Cada VM se denomina *Qube* y puede asignar a cada Qube un nivel de confianza en función de su finalidad. Ya que Qubes OS proporciona seguridad mediante el uso de aislamiento, y sólo permite acciones por caso, es lo contrario de la [enumeración de maldad](https://www.ranum.com/security/computer_security/editorials/dumb/).
+[**Qubes OS**](../desktop.md#qubes-os) es un sistema operativo que utiliza el hipervisor [Xen](https://en.wikipedia.org/wiki/Xen) para proporcionar una fuerte seguridad para la informática de escritorio a través de máquinas virtuales aisladas. Cada VM se denomina *Qube* y puedes asignar a cada Qube un nivel de confianza en función de su finalidad. Ya que Qubes OS proporciona seguridad mediante el uso de aislamiento, y sólo permite acciones por caso, es lo contrario de la [enumeración de maldad](https://www.ranum.com/security/computer_security/editorials/dumb/).
 
 ## ¿Cómo funciona Qubes OS?
 
-Qubes utiliza la [compartimentación](https://www.qubes-os.org/intro/) para mantener la seguridad del sistema. Los Qubes se crean a partir de plantillas, siendo las predeterminadas para Fedora, Debian y [Whonix](../desktop.md#whonix). Qubes OS también permite crear máquinas virtuales de un solo uso [desechables](https://www.qubes-os.org/doc/how-to-use-disposables/).
+Qubes utiliza la [compartimentación](https://www.qubes-os.org/intro/) para mantener el sistema seguro. Qubes son creados de plantillas, las predeterminadas siendo para Fedora, Debian y [Whonix](../desktop.md#whonix). Qubes OS también te permite crear máquinas virtuales de un solo uso [desechables](https://www.qubes-os.org/doc/how-to-use-disposables/).
 
 ![Arquitectura Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>Qubes Arquitectura, Crédito: Qué es Qubes OS Introducción</figcaption>
 
-Cada aplicación Qubes tiene un [borde de color](https://www.qubes-os.org/screenshots/) que puede ayudarte a seguir la pista de la máquina virtual en la que se está ejecutando. Por ejemplo, podrías usar un color específico para tu navegador bancario, mientras usas un color diferente para un navegador general no confiable.
+Cada aplicación Qubes tiene un [borde de color](https://www.qubes-os.org/screenshots/) que puede ayudarte a seguir la pista de la máquina virtual en la que se está ejecutando. Podrías, por ejemplo, usar un color específico para tu navegador bancario, mientras usas un color diferente para un navegador general no confiado.
 
-![Borde de color](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
+![Borde coloreado](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>Bordes de ventana de Qubes, Crédito: Capturas de pantalla de Qubes</figcaption>
 
 ## ¿Por qué utilizar Qubes?
@@ -47,9 +47,9 @@ El framework [qrexec](https://www.qubes-os.org/doc/qrexec/) es una parte central
 
 ## Recursos Adicionales
 
-Para obtener información adicional, te animamos a consultar las extensas páginas de documentación de Qubes OS que se encuentran en el [sitio web Qubes OS](https://www.qubes-os.org/doc/). Pueden descargarse copias offline desde el [repositorio de documentación ](https://github.com/QubesOS/qubes-doc)de Qubes OS.
+Para obtener información adicional, te animamos a consultar las extensas páginas de documentación de Qubes OS que se encuentran en el [sitio web Qubes OS](https://www.qubes-os.org/doc/). Copias offline se pueden descargar desde el [repositorio de documentación ](https://github.com/QubesOS/qubes-doc)de Qubes OS.
 
 - Fondo Tecnológico Abierto: [*Posiblemente el sistema operativo más seguro del mundo*](https://www.opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard/)
 - J. Rutkowska: [*Compartimentación del software frente a separación física*](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf)
-- J. Rutkowska: [*Particionar mi vida digital en dominios de seguridad*](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html)
-- Qubes OS: [*Artículos relacionados*](https://www.qubes-os.org/news/categories/#articles)
+- J. Rutkowska: [*Particionando mi vida digital en dominios de seguridad*](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html)
+- Qubes OS: [*Artículos Relacionados*](https://www.qubes-os.org/news/categories/#articles)

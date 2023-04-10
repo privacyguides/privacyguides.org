@@ -1,14 +1,14 @@
 ---
-title: "Sincronización del Calendario"
+title: "Sincronización de Calendario"
 icon: material/calendar
-description: Los calendarios contienen algunos de tus datos más sensibles; utiliza productos que apliquen el cifrado en reposo.
+description: Calendarios contienen algunos de tus datos más sensibles; usa productos que apliquen el cifrado en reposo.
 ---
 
 Los calendarios contienen algunos de sus datos más sensibles; utilice productos que implementen E2EE en reposo para evitar que un proveedor pueda leerlos.
 
 ## Tutanota
 
-!!! recomendación
+!!! recommendation
 
     ![Logotipo de Tutanota](assets/img/calendar/tutanota.svg#only-light){ align=right }
     ![Logotipo de Tutanota](assets/img/calendar/tutanota-dark.svg#only-dark){ align=right }
@@ -45,7 +45,7 @@ Los calendarios contienen algunos de sus datos más sensibles; utilice productos
 
 ## Calendario de Proton
 
-!!! recomendación
+!!! recommendation
 
     ¡![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
     

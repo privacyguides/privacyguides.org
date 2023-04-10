@@ -45,7 +45,7 @@ Estas tienden a ser buenas opciones para pagos recurrentes/de suscripción en l�
 
 Las criptomonedas son una forma digital de moneda diseñada para funcionar sin autoridades centrales como un gobierno o un banco. Mientras que *algunos* proyectos de criptodivisas pueden permitirle realizar transacciones privadas en línea, muchos utilizan una blockchain pública que no proporciona ninguna privacidad en las transacciones. Las criptomonedas también tienden a ser activos muy volátiles, lo que significa que su valor puede cambiar rápida y significativamente en cualquier momento. Por ello, en general no recomendamos utilizar criptomonedas como depósito de valor a largo plazo. Si decides utilizar criptomoneda en línea, asegúrate de conocer bien sus aspectos de privacidad de antemano, y sólo invierte cantidades cuya pérdida no sea desastrosa.
 
-!!! peligro
+!!! danger "Peligro"
 
     La gran mayoría de las criptomonedas operan en una cadena de bloques **pública**, lo que significa que cada transacción es de dominio público. Esto incluye incluso las criptomonedas más conocidas, como Bitcoin y Ethereum. Las transacciones con estas criptomonedas no deben considerarse privadas y no protegerán tu anonimato.
     

@@ -1,12 +1,12 @@
 ---
 title: Panoramica VPN
 icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. Dovresti tenere a mente questi aspetti.
+description: Le reti virtuali private spostano il rischio dal vostro ISP a una terza parte di cui vi fidate. Dovresti tenere a mente questi aspetti.
 ---
 
 Le reti private virtuali sono un modo per estendere l'estremità della vostra rete all'uscita di un'altra parte del mondo. Un ISP può vedere il flusso del traffico Internet che entra ed esce dal dispositivo di terminazione della rete (ad esempio, il modem).
 
-Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+I protocolli di crittografia come l'HTTPS sono comunemente utilizzati su Internet, quindi potrebbero non essere in grado di vedere esattamente ciò che state postando o leggendo, ma possono farsi un'idea dei domini [che utilizzate](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
 Una VPN può essere d'aiuto in quanto può spostare la fiducia su un server in un'altra parte del mondo. Di conseguenza, l'ISP vede solo che sei connesso a una VPN e non vede nulla dell'attività che stai trasmettendo.
 

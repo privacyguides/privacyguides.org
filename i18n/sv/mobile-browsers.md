@@ -82,13 +82,14 @@ Shields alternativ kan nedgraderas vid behov för varje enskild plats, men som s
 ??? varning "Use default filter lists"
         Brave låter dig välja ytterligare innehållsfilter på den interna sidan `brave://adblock`. Vi avråder från att använda den här funktionen; behåll istället standardfilterlistorna. Om du använder extra listor sticker du ut från andra Brave-användare och kan också öka angreppsytan om det finns en exploit i Brave och en skadlig regel läggs till i en av de listor du använder.
 
-- [x] Välj **Uppgradera anslutningar till HTTPS**
-- [x] (valfritt) Välj **Blocka skript** (1)
-- [x] Välj **Strikt, kan skada webbplatser** under **Blocka fingeravtryck**
+- [x] Select **Upgrade connections to HTTPS**
+- [x] Select **Always use secure connections**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under **Block fingerprinting**
 
 </div>
 
-1. Det här alternativet ger funktioner som liknar uBlock Origin avancerade blockeringslägen för [](https://github.com/gorhill/uBlock/wiki/Blocking-mode) eller tillägget [NoScript](https://noscript.net/).
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
 
 ##### Rensa surfhistorik
 
@@ -102,17 +103,17 @@ Shields alternativ kan nedgraderas vid behov för varje enskild plats, men som s
 
 <div class="annotate" markdown>
 
-- [x] Välj **Disable non-proxied UDP** under [WebRTC IP Handling Policy] (https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Avmarkera **Allow sites to check if you have payment methods saved**
-- [ ] Avmarkera **IPFS Gateway** (1)
-- [ ] [x] Välj **Slut flikar vid avslut**
-- [ ] Avmarkera **Allow privacy-preserving product analytics (P3A)**
-- [ ] Avmarkera **Automatiskt skicka diagnostiska rapporter**
-- [ ] Avmarkera **Automatiskt skicka daglig användningsping till Brave**
-
-1. InterPlanetary File System (IPFS) är ett decentraliserat peer-to-peer-nätverk för lagring och delning av data i ett distribuerat filsystem. Om du inte använder funktionen, inaktivera den.
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (1)
+- [x] Select **Close tabs on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 </div>
+
+1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
 
 #### Brave Sync
 

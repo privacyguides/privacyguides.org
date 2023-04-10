@@ -1,49 +1,49 @@
-*[2FA]: 2-Factor Authentication
-*[ADB]: Android Debug Bridge
-*[AOSP]: Android Open Source Project
-*[ATA]: Advanced Technology Attachment
-*[attack surface]: The total number of possible entry points for unauthorized access to a system
-*[AVB]: Android Verified Boot
-*[cgroups]: Control Groups
-*[CLI]: Command Line Interface
-*[CSV]: Comma-Separated Values
-*[CVE]: Common Vulnerabilities and Exposures
+*[2FA]: 2-Факторна Автентифікація (2-Factor-Authentication)
+*[ADB]: Налагоджувальний міст для Android (Android Debugging Bridge)
+*[AOSP]: Проект з відкритим вихідним кодом Android (Android Open Source Project)
+*[ATA]: Передове технологічне обладнання (Advanced Technology Attachment)
+*[поверхня атаки]: Загальна кількість можливих точок входу для несанкціонованого доступу до системи
+*[AVB]: Перевірене завантаження Android (Android Verified Boot)
+*[cgroups]: Контрольні групи Linux (Control Groups)
+*[CLI]: Інтерфейс командного рядка (Command Line Interface)
+*[CSV]: Значення, розділені комами (Comma-Separated Values)
+*[CVE]: Поширені вразливості та ризики (Common Vulnerabilities and Exposures)
 *[Digital Legacy]: Digital Legacy refers to features that allow you to give other people access to your data when you die
-*[DNSSEC]: Domain Name System Security Extensions
-*[DNS]: Domain Name System
-*[DoH]: DNS over HTTPS
-*[DoQ]: DNS over QUIC
-*[DoH3]: DNS over HTTP/3
-*[DoT]: DNS over TLS
-*[E2EE]: End-to-End Encryption/Encrypted
-*[ECS]: EDNS Client Subnet
-*[EEA]: European Economic Area
-*[entropy]: A measurement of how unpredictable something is
-*[EOL]: End-of-Life
-*[Exif]: Exchangeable image file format
-*[FCM]: Firebase Cloud Messaging
-*[FDE]: Full Disk Encryption
-*[FIDO]: Fast IDentity Online
-*[fork]: A new software project created by copying an existing project and adding to it independently
-*[GDPR]: General Data Protection Regulation
-*[GPG]: GNU Privacy Guard (PGP implementation)
-*[GPS]: Global Positioning System
-*[GUI]: Graphical User Interface
-*[GnuPG]: GNU Privacy Guard (PGP implementation)
-*[HDD]: Hard Disk Drive
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
-*[HTTPS]: Hypertext Transfer Protocol Secure
-*[HTTP]: Hypertext Transfer Protocol
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
-*[ICCID]: Integrated Circuit Card Identifier
-*[IMAP]: Internet Message Access Protocol
-*[IMEI]: International Mobile Equipment Identity
-*[IMSI]: International Mobile Subscriber Identity
-*[IP]: Internet Protocol
-*[IPv4]: Internet Protocol version 4
-*[IPv6]: Internet Protocol version 6
-*[ISP]: Internet Service Provider
-*[ISPs]: Internet Service Providers
+*[DNSSEC]: Розширення безпеки системи доменних імен (Domain Name System Security Extensions)
+*[DNS]: Система доменних імен (Domain Name System)
+*[DoH]: DNS через HTTPS (DNS over HTTPS)
+*[DoQ]: DNS через QUIC (DNS over QUIC)
+*[DoH3]: DNS через HTTP/3 (DNS over HTTP/3)
+*[DoT]: DNS через TLS (DNS over TLS)
+*[E2EE]: Наскрізне шифрування/зашифроване (End-to-End Encryption/Encrypted)
+*[ECS]: Клієнтська підмережа EDNS (EDNS Client Subnet)
+*[EEA]: Європейська економічна зона (European Economic Area)
+*[ентропія]: Міра того, наскільки щось є непередбачуваним
+*[EOL]: Кінець життя/терміну служби (End-of-Life)
+*[Exif]: Обмінний формат файлів зображень (Exchangeable image file format)
+*[FCM]: Хмарний обмін повідомленнями Firebase (Firebase Cloud Messaging)
+*[FDE]: Повне шифрування диска (Full Disk Encryption)
+*[FIDO]: Швидка ідентифікація особи онлайн (Fast IDentity Online)
+*[форк]: Новий програмний проєкт, створений шляхом копіювання наявного проєкту та самостійного його доповнення
+*[GDPR]: Загальний регламент про захист даних ЄС (General Data Protection Regulation)
+*[GPG]: GNU Privacy Guard (реалізація PGP)
+*[GPS]: Система глобального позиціювання (Global Positioning System)
+*[GUI]: Графічний інтерфейс користувача (Graphical User Interface)
+*[GnuPG]: GNU Privacy Guard (реалізація PGP)
+*[HDD]: Жорсткий диск (Hard Disk Drive)
+*[HOTP]: Одноразовий пароль на основі HMAC (Hash-based Message Authentication Code based One-time Password)
+*[HTTPS]: Безпечний протокол передачі гіпертексту (Hypertext Transfer Protocol Secure)
+*[HTTP]: Протокол передачі гіпертексту (Hypertext Transfer Protocol)
+*[гіпервізор]: Комп'ютерне програмне забезпечення, прошивка або апаратне забезпечення, яке розподіляє ресурси центрального процесора між кількома операційними системами
+*[ICCID]: Ідентифікатор плати інтегральної мікросхеми (Integrated Circuit Card Identifier)
+*[IMAP]: Протокол доступу до Інтернет-повідомлень (Internet Message Access Protocol)
+*[IMEI]: Міжнародний ідентифікатор мобільного обладнання (International Mobile Equipment Identity)
+*[IMSI]: Міжнародний ідентифікатор абонента мобільного зв'язку (International Mobile Subscriber Identity)
+*[IP]: Інтернет-протокол (Internet Protocol)
+*[IPv4]: Інтернет-протокол версії 4 (Internet Protocol version 4)
+*[IPv6]: Інтернет-протокол версії 6 (Internet Protocol version 6)
+*[ISP]: Інтернет-провайдер (Internet Service Provider)
+*[ISPs]: Інтернет-провайдери (Internet Service Providers)
 *[JNI]: Java Native Interface
 *[KYC]: Know Your Customer
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)

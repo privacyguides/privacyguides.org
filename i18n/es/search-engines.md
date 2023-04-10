@@ -12,7 +12,7 @@ Considere usar una [VPN](vpn.md) o [Tor](https://www.torproject.org/) si su mode
 
 ## Brave Search
 
-!!! recomendación
+!!! recommendation
 
     ![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
     
@@ -31,7 +31,7 @@ Brave Search tiene su sede en Estados Unidos. Su [política de privacidad](https
 
 ## DuckDuckGo
 
-!!! recomendación
+!!! recommendation
 
     ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
     
@@ -50,7 +50,7 @@ DuckDuckGo ofrece [otras dos versiones](https://help.duckduckgo.com/features/non
 
 ## SearXNG
 
-!!! recomendación
+!!! recommendation
 
     ![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
     
@@ -68,7 +68,7 @@ Cuando utilice una instancia de SearXNG, asegúrese de leer su política de priv
 
 ## Startpage
 
-!!! recomendación
+!!! recommendation
 
     ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
     ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }

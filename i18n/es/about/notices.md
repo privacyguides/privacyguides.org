@@ -2,11 +2,11 @@
 title: "Avisos y responsabilidades"
 ---
 
-## Aviso legal
+## Aviso Legal
 
 Privacy Guides no es un bufete de abogados. Como tal, el sitio web de Privacy Guides y sus colaboradores no están proporcionando asesoría legal. El material y las recomendaciones de nuestro sitio web y de las guías no constituyen asesoramiento jurídico. Contribuir al sitio web o comunicarse con Privacy Guides u otros colaboradores sobre nuestro sitio web no crea una relación abogado-cliente.
 
-Dirigir este sitio web, como cualquier empresa humana, implica incertidumbre y compromisos. Esperamos que este sitio web ayude, pero puede incluir errores y no puede abordar todas las situaciones. Si tiene alguna duda sobre su situación, le animamos a que investigue por su cuenta, busque a otros expertos y participe en debates con la comunidad de Privacy Guides. Si tiene alguna pregunta legal, debe consultar con su propio abogado antes de seguir adelante.
+Dirigir este sitio web, como cualquier empresa humana, implica incertidumbre y compromisos. Esperamos que este sitio web ayude, pero puede incluir errores y no puede abordar todas las situaciones. Si tiene alguna duda sobre su situación, le animamos a que investigue por su cuenta, busque a otros expertos y participe en debates con la comunidad de Privacy Guides. Si tienes alguna pregunta legal, deberías consultar con tu propio asesor jurídico antes de seguir adelante.
 
 Privacy Guides es un proyecto de código abierto al que se ha contribuido bajo licencias que incluyen términos que, para la protección del sitio web y sus contribuyentes, dejan claro que el proyecto Privacy Guides y el sitio web se ofrece "tal cual", sin garantía, y renunciando a la responsabilidad por los daños resultantes del uso del sitio web o de cualquier recomendación contenida en él. Privacy Guides no garantiza ni hace ninguna declaración sobre la exactitud, los resultados probables o la fiabilidad del uso de los materiales en el sitio web o de cualquier otro modo relacionado con dichos materiales en el sitio web o en cualquier sitio de terceros vinculado en este sitio.
 
@@ -20,7 +20,7 @@ Además, Privacy Guides no garantiza que este sitio web esté disponible, de for
 
 Salvo que se indique lo contrario, todo el **contenido** de este sitio web está disponible bajo los términos de [Creative Commons Attribution-NoDerivatives 4. Licencia pública internacional](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). El subyacente **código fuente** utilizado para generar este sitio web y mostrar ese contenido está publicado bajo la [licencia MIT](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 
-Esto no incluye el código de terceros incrustado en este repositorio, o el código en el que se indique una licencia superior. Los siguientes son ejemplos notables, pero esta lista puede no ser exhaustiva:
+Esto no incluye código de terceros incrustado en este repositorio, o código en el que se indique una licencia sustitutiva. Los siguientes son ejemplos notables, pero esta lista puede no ser exhaustiva:
 
 * [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) tiene licencia [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
 * La fuente de encabezado [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) está autorizada bajo la licencia [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).

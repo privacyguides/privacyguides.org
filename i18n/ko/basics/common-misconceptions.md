@@ -1,5 +1,5 @@
 ---
-title: "Common Misconceptions"
+title: "일반적인 오해"
 icon: 'material/robot-confused'
 description: Privacy isn't a straightforward topic, and it's easy to get caught up in marketing claims and other disinformation.
 schema:

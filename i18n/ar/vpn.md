@@ -14,21 +14,21 @@ description: هذه هي أفضل خِدْمَات شبكة خاصة افترا�
 
 </div>
 
-!!! danger "VPNs do not provide anonymity"
+!!! danger "الشبكات الخاصة الافتراضية لا توفر إخفاء الهُوِيَّة"
 
-    Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+    **لن يؤدي** استخدام شبكة خاصة افتراضية إلى إبقاء عاداتك التصفحية مجهولة الهُوِيَّة، ولن يضيف حماية إلى الاتصالات المستخدمة لميفاق (HTTP) الغير آمنة.
     
-    If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+    في حال بحثك عن **إخفاء الخوية**، يجب استخدم متصفح Tor بدلاً من شبكة خاصة افتراضية.
     
-    If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+    إذا كنت تبحث عن **أمان** إضافي، يجب التأكد من الاتصال بمواقع الويب باستخدام ميفاق HTTPS. الشبكات الخاصة الافتراضية ليست بديلاً للممارسات الأمنية الجيدة.
     
-    [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+    [نزّل متصفح Tor](https://www:torproject.org/){ .md-button .md-button--primary } [خرافات، وأسئلة شائعة متعلقة بمتصفح Tor](advanced/tor-overview.md){ .md-button }
 
-[Detailed VPN Overview :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
+[نظرة عامة شاملة على الشبكات الخاصة الافتراضية: :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
 ## موفِّرو الخدمة الموصى بهم
 
-Our recommended providers use encryption, accept Monero, support WireGuard & OpenVPN, and have a no logging policy. Read our [full list of criteria](#criteria) for more information.
+يستخدم مزودو الخدمة ممن نوصي بهم التعمية، ويقبلون عملة Monero الرقمية، ويدعمون ميفاق WireGuard و نطام OpenVPN، ولديهم سياسة عدم التسجيل. للمزيد من المعلومات، اطلع على [قائمة المعايير](#criteria).
 
 ### IVPN
 

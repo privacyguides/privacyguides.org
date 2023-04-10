@@ -83,13 +83,14 @@ Les options Shields peuvent être réduites par site selon les besoins, mais par
     ??? warning "Utiliser les listes de filtres par défaut"
         Brave vous permet de sélectionner des filtres de contenu supplémentaires dans la page interne `brave://adblock`. Nous vous déconseillons d'utiliser cette fonctionnalité ; conservez plutôt les listes de filtres par défaut. L'utilisation de listes supplémentaires vous distinguera des autres utilisateurs de Brave et peut également augmenter la surface d'attaque s'il y a une faille dans Brave et qu'une règle malveillante est ajoutée à l'une des listes que vous utilisez.
 
-- [x] Sélectionnez **Mettre à niveau les connexions vers HTTPS**
-- [x] (Facultatif) Sélectionnez **Bloquer les scripts** (1)
-- [x] Sélectionnez **Strict, peut casser les sites** sous **Bloquer les empreintes numériques**
+- [x] Select **Upgrade connections to HTTPS**
+- [x] Select **Always use secure connections**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under **Block fingerprinting**
 
 </div>
 
-1. Cette option fournit une fonctionnalité similaire aux [modes de blocage](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avancés de uBlock Origin ou l'extension [NoScript](https://noscript.net/).
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
 
 ##### Effacer les données de navigation
 
@@ -103,17 +104,17 @@ Les options Shields peuvent être réduites par site selon les besoins, mais par
 
 <div class="annotate" markdown>
 
-- [x] Sélectionnez **Désactiver l'UDP pas en proxy** sous [Politique de gestion des adresses IP WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Décochez **Autoriser les sites à vérifier si vous avez enregistré des modes de paiement**
-- [ ] Décochez **Passerelle IPFS** (1)
-- [x] Sélectionnez **Fermer les onglets à la sortie**
-- [ ] Décochez **Autoriser les analyses de produits préservant la vie privée (P3A)**
-- [ ] Décochez **Envoyer automatiquement des rapports de diagnostic**
-- [ ] Décochez **Envoyer automatiquement un ping d'utilisation quotidienne à Brave**
-
-1. InterPlanetary File System (IPFS) est un réseau décentralisé, de pair à pair, permettant de stocker et de partager des données dans un système de fichiers distribué. À moins que vous n'utilisiez cette fonctionnalité, désactivez-la.
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (1)
+- [x] Select **Close tabs on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 </div>
+
+1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
 
 #### Synchronisation Brave
 

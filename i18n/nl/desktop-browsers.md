@@ -170,7 +170,7 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
 
 </div>
 
-1. Deze optie biedt functionaliteit die vergelijkbaar is met uBlock Origin's geavanceerde [-blokkeringsmodi](https://github.com/gorhill/uBlock/wiki/Blocking-mode) of de [NoScript](https://noscript.net/) -extensie.
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
 
 ##### Sociale media blokkeren
 
@@ -205,23 +205,27 @@ Ingebouwde extensies die je niet gebruikt uitschakelen in **Extensies**
 - [ ] Uncheck **Hangouts**uit
 - [ ] Uncheck **WebTorrent**uit
 
-##### IPFS
-
-InterPlanetary File System (IPFS) is een gedecentraliseerd, peer-to-peer netwerk voor het opslaan en delen van gegevens in een gedistribueerd bestandssysteem. Tenzij je de functie gebruikt, schakel hem uit.
-
-- [x] Select **Uitgeschakeld** op Methode om IPFS-bronnen op te lossen
-
-##### Extra instellingen
-
-In het menu *Systeem*
+##### Web3
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Doorgaan met draaiende apps als Brave gesloten is** uit om achtergrond apps uit te schakelen (1)
+- [x] Select **Disabled** on Method to resolve IPFS resources (1)
 
 </div>
 
-1. Deze optie is niet op alle platforms aanwezig.
+1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+
+##### Extra instellingen
+
+Under the *System* menu
+
+<div class="annotate" markdown>
+
+- [ ] Uncheck **Continue running apps when Brave is closed** to disable background apps (1)
+
+</div>
+
+1. This option is not present on all platforms.
 
 ### Brave Sync
 
@@ -229,7 +233,7 @@ In het menu *Systeem*
 
 ## Extra bronnen
 
-Wij raden over het algemeen af om extensies te installeren omdat ze jouw aanvalsoppervlak vergroten. Ublock Origin of AdGuard kunnen echter nuttig blijken als je waarde hecht aan de functionaliteit voor het blokkeren van inhoud.
+We generally do not recommend installing any extensions as they increase your attack surface. However, uBlock Origin may prove useful if you value content blocking functionality.
 
 ### uBlock Origin
 
@@ -250,14 +254,14 @@ Wij raden over het algemeen af om extensies te installeren omdat ze jouw aanvals
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
         - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 
-Wij raden aan om de documentatie van de [ontwikkelaar te volgen](https://github.com/gorhill/uBlock/wiki/Blocking-mode) en een van de "modes" te kiezen. Extra filterlijsten kunnen de prestaties beïnvloeden en [kan het aanvalsoppervlak vergroten](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
+We suggest following the [developer's documentation](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and picking one of the "modes". Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
 ##### Andere lijsten
 
-Dit zijn enkele andere [filterlijsten](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) die je zou kunnen overwegen toe te voegen:
+These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) that you may want to consider adding:
 
 - [x] Check **Privacy** > **AdGuard URL Tracking Protection**
-- Voeg [Actually Legitimatee URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt) toe
+- Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
 ## Criteria
 
@@ -270,29 +274,29 @@ Dit zijn enkele andere [filterlijsten](https://github.com/gorhill/uBlock/wiki/Da
 ### Minimale vereisten
 
 - Moet open-source software zijn.
-- Ondersteunt automatische updates.
-- Ontvangt engine updates in 0-1 dagen na upstream release.
-- Beschikbaar op Linux, macOS en Windows.
+- Supports automatic updates.
+- Receives engine updates in 0-1 days from upstream release.
+- Available on Linux, macOS, and Windows.
 - Wijzigingen die nodig zijn om de browser privacyvriendelijker te maken, mogen de gebruikerservaring niet negatief beïnvloeden.
-- Blokkeert standaard cookies van derden.
-- Ondersteunt [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) om cross-site tracking tegen te gaan.[^1]
+- Blocks third-party cookies by default.
+- Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 ### Beste geval
 
 Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte project in deze categorie. Het is mogelijk dat onze aanbevelingen geen of niet alle functies bevatten, maar degene die dat wel doen kunnen hoger gerangschikt worden dan andere op deze pagina.
 
-- Beschikt over ingebouwde functionaliteit voor het blokkeren van inhoud.
-- Ondersteunt cookie Compartimentalisatie ( à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
-- Ondersteunt Progressive Web Apps.  
-  PWA 's stellen u in staat om bepaalde websites te installeren alsof het native apps op uw computer zijn. Dit kan voordelen hebben ten opzichte van het installeren van op elektronen gebaseerde apps, omdat u profiteert van de regelmatige beveiligingsupdates van uw browser.
-- Omvat geen add-onfunctionaliteit (bloatware) die geen invloed heeft op de privacy van gebruikers.
-- Verzamelt standaard geen telemetrie.
-- Voorziet in de implementatie van de open-source synchronisatieserver.
-- Standaard ingesteld op een [privézoekmachine](search-engines.md).
+- Includes built-in content blocking functionality.
+- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
+- Supports Progressive Web Apps.  
+  PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
+- Does not include add-on functionality (bloatware) that does not impact user privacy.
+- Does not collect telemetry by default.
+- Provides open-source sync server implementation.
+- Defaults to a [private search engine](search-engines.md).
 
 ### Uitbreidings criteria
 
 - Mag geen ingebouwde browser- of OS-functionaliteit repliceren.
 - Moet rechtstreeks van invloed zijn op de privacy van de gebruiker, d.w.z. mag niet gewoon informatie verstrekken.
 
-[^1]: De implementatie van Brave wordt gedetailleerd beschreven op [Brave Privacy Updates: Partitionering van netwerkstatus voor privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).
+[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).

@@ -83,13 +83,14 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
     ??? warning "Gebruik standaard filter lijsten"
         Brave staat je toe om extra inhoud filters te selecteren binnen de interne `brave://adblock` pagina. Wij raden het gebruik van deze functie af; houd in plaats daarvan de standaardfilterlijsten aan. Het gebruik van extra lijsten zorgt ervoor dat u zich onderscheidt van andere Brave gebruikers en kan ook het aanvalsoppervlak vergroten als er een exploit in Brave is en een kwaadaardige regel wordt toegevoegd aan één van de lijsten die je gebruikt.
 
-- [x] Selecteer **Upgrade verbindingen naar HTTPS**
-- [x] (Optioneel) Selecteer **Block Scripts** (1)
-- [x] Selecteer **Streng, kan sites breken** onder **Block fingerprinting**
+- [x] Select **Upgrade connections to HTTPS**
+- [x] Select **Always use secure connections**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under **Block fingerprinting**
 
 </div>
 
-1. Deze optie biedt functionaliteit die vergelijkbaar is met uBlock Origin's geavanceerde [-blokkeringsmodi](https://github.com/gorhill/uBlock/wiki/Blocking-mode) of de [NoScript](https://noscript.net/) -extensie.
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
 
 ##### Browserdata opschonen
 
@@ -103,17 +104,17 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
 
 <div class="annotate" markdown>
 
-- [x] Selecteer **Disable non-proxied UDP** onder [WebRTC IP Handling Policy](https://support.brave.com/hc/nl-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Selecteer **Sites toestaan te controleren of je betaalmethoden hebt opgeslagen**
-- [ ] Selecteer **IPFS Gateway** uit (1)
-- [ ] Selecteer **Het vinkje uit. [x] Selecteer **Tabbladen sluiten bij afsluiten**
-- [ ] Uitvinken **Privacy-preserving product analytics (P3A) toestaan**
-- [ ] Uitvinken **Automatisch diagnoserapporten versturen**
-- [ ] Uitvinken **Dagelijkse gebruiksping automatisch naar Brave sturen**
-
-1. [ ] Uitvinken. InterPlanetary File System (IPFS) is een gedecentraliseerd, peer-to-peer netwerk voor het opslaan en delen van gegevens in een gedistribueerd bestandssysteem. Tenzij je de functie gebruikt, schakel hem uit.
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (1)
+- [x] Select **Close tabs on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 </div>
+
+1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
 
 #### Brave Sync
 

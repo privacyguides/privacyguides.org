@@ -6,152 +6,152 @@ description: توفِّر الجهات المذكورة مخزنًا آمنًا 
 
 حتَّى ولو كان البريد الإلكتروني حاجةً لتستخدم أيَّ خدمة إنترنت فإننا لا نوصي به للتحادث. تأمَّل استخدام خدمة اتصال مباشر تدعم السرية المستقبلية لتحادث الناس بدلًا من استخدام بريد إلكتروني.
 
-[ما نوصي به من خدمات المراسلة الفورية](real-time-communication.md ""){.md-button}
+[ما نوصي به من برامج مراسلة فورية](real-time-communication.md ""){.md-button}
 
-For everything else, we recommend a variety of email providers based on sustainable business models and built-in security and privacy features.
+خلا ذلك فنوصي بعدد من موفِّري خدمة البريد الإلكتروني، وذلك حسب استدامة نموذجات عملهم وأمنهم ومزايا الخصوصية عندهم.
 
-- [OpenPGP-Compatible Email Providers :material-arrow-right-drop-circle:](#openpgp-compatible-services)
-- [Other Encrypted Providers :material-arrow-right-drop-circle:](#more-providers)
-- [Email Aliasing Services :material-arrow-right-drop-circle:](#email-aliasing-services)
-- [Self-Hosted Options :material-arrow-right-drop-circle:](#self-hosting-email)
+- [موفِّرو خدمة البريد الإلكتروني الداعمون لأوبن‌بي‌جي‌بي :material-arrow-right-drop-circle:](#openpgp-compatible-services)
+- [غيرهم من موفَّري الخدمة المعمَّاة :material-arrow-right-drop-circle:](#more-providers)
+- [خدمات تكنين البُرُد الإلكترونية :material-arrow-right-drop-circle:](#email-aliasing-services)
+- [خيارات الاستضافة الذاتية :material-arrow-right-drop-circle:](#self-hosting-email)
 
-## OpenPGP Compatible Services
+## الخدمات الداعمة لأوبن‌بي‌جي‌بي
 
-These providers natively support OpenPGP encryption/decryption and the Web Key Directory (WKD) standard, allowing for provider-agnostic E2EE emails. For example, a Proton Mail user could send an E2EE message to a Mailbox.org user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+يدعهم هؤلاء تعمية وفكَّ تعمية أوبن‌بي‌جي‌بي أصلًا، ويمتثلون معيار دليل مفتاح الوِب (WKD)، مما يتيح لهم إرسال رسائل إلكترونيةً معمَّاةً بين الأطراف بغضِّ النظر عن مصدرها. فمثلًا: باستطاعة مستخدم بريد بروتون إرسال رسالة معمَّاة بين الأطراف، وكون المستقبل مستخدم Mailbox.org، أو لك استقبال إشعارات معمَّاةً بأوبن‌بي‌جي‌بي من خدمات الإنترنت الداعمة له.
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [بريد بروتون](email.md#proton-mail)
 - ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 
 </div>
 
-!!! warning
+!!! تحذير
 
-    When using E2EE technology like OpenPGP, email will still have some metadata that is not encrypted in the header of the email. Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+    حتَّى عند استخدام تقنية تعمية بين الأطراف مثل أوبن‌بي‌جي‌بي فسوف توجد بعض البيانات الوصفية غير المعمَّاة في عنوان الرسالة. طالع المزيد عن [البيانات الوصفية في البُرُد الإلكترونية](basics/email-security.md#email-metadata-overview).
     
-    OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+    لا يدعم أوبن‌بي‌جي‌بي السرية المستقبلية، ويعني هذا أنه في حال سرقة مفتاحك الخاصِّ أو مفتاح المستقبل فسوف تكون كلُّ الرسائل السابقة بينكما قابلةً لفكِّ التعمية. [كيف أحمي مفاتيحي الخاصَّة؟](basics/email-security.md#how-do-i-protect-my-private-keys)
 
-### Proton Mail
+### بريد بروتون
 
 !!! recommendation
 
-    ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
+    ![Proton Mail logo](assets/img/email/protonmail.svg){ align=left }
     
-    **Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since **2013**. Proton AG is based in Genève, Switzerland. Accounts start with 500 MB storage with their free plan.
+    **بريد بروتون** هو خدمة بُرُد إلكترونية تركِّز في الخصوصية والتعمية والأمن واليسر. وهم يعملون منذ **٢٠١٣**. ومقرُّ بروتون أي‌جي في جنيف في سويسرا. تبدأ الحسابات عندهم لها سعة تخزين ٥٠٠ م‌بايت، وذلك حسب الاشتراك المجاني.
     
-    [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+    [:octicons-home-16: الصفحة الرئيسة](https://proton.me/mail){ .md-button .md-button--primary }
+    [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="خدمة أَنيِن" }
+    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="سياسة الخصوصية" }
+    [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=التوثيق}
+    [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="رمز المصدر" }
     
-    ??? downloads
+    ??? التنزيلات
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
-        - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
-        - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
-        - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
-        - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
-        - [:octicons-browser-16: Web](https://mail.proton.me)
+       - [:simple-googleplay: متجر بلاي](https://play.google.com/store/apps/details?id=ch.protonmail.android)
+        - [:simple-appstore: آب ستور](https://apps.apple.com/app/apple-store/id979659905)
+        - [:simple-github: جت‌هب](https://github.com/ProtonMail/proton-mail-android/releases)
+        - [:simple-windows11: ويندوز](https://proton.me/mail/bridge#download)
+        - [:simple-apple: ماك‌أو‌إس](https://proton.me/mail/bridge#download)
+        - [:simple-linux: لينكس](https://proton.me/mail/bridge#download)
+        - [:octicons-browser-16: وِب](https://mail.proton.me)
 
-Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g. Thunderbird). Paid accounts include features like Proton Mail Bridge, additional storage, and custom domain support. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+للحسابات المجانية قيود، كعجزهم عن البحث في النصوص وعدم استخدام [جسر بريد بروتون](https://proton.me/mail/bridge)، وتحتاجه إن أردت استخدام [أحد برامج البريد في سطح المكتب الموصى بها](email-clients.md) (مثل ثندربرد). لمن اشترك في حساب عند بريد بروتون مزايا، مثل جسر بريد بروتون ومساحة تخزين إضافية ودعم أسماء النطاق المخصَّصة. أعطت [سكيورتم](https://research.securitum.com) [شهادةً](https://proton.me/blog/security-audit-all-proton-apps) لتطبيقات بريد بروتون في التاسع من نوفمبر عام ٢٠٢١.
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](#simplelogin) Premium for free.
+إن كان عندك اشتراك «بروتون أنلمتد» أو «بروتون بزنس» أو «فجنري بلان» فسوف تحصل على اشتراك [سمبل‌لوج‌إن](#simplelogin) مجَّانًا.
 
-Proton Mail has internal crash reports that they **do not** share with third parties. This can be disabled in: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
+عند بريد بروتون تقارير تعطُّل داخلية **لا** يشاركونها مع أيِّ جهة خارجية. ولك تعطيلها في: **الإعدادات** > ** إذهب للإعدادات** > **الحساب** > **الأمن والخصوصية** > **أرسل تقارير التعطُّل**.
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } النطاقات المخصَّصة والكنى
 
-Paid Proton Mail subscribers can use their own domain with the service or a [catch-all](https://proton.me/support/catch-all) address. Proton Mail also supports [subaddressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+بإمكان مشتركي بريد بروتون استخدام أسماء نطاق من عندهم أو لهم استخدام عنوان [جامع](https://proton.me/support/catch-all). وكذلك يدعم بريد بروتون [العنونة الفرعية](https://proton.me/support/creating-aliases)، وهي مفيدة لمن لا يريد شراء نطاق.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } سُبُل الدفع الخاصَّة
 
-Proton Mail [accepts](https://proton.me/support/payment-options) cash by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
+[يقبل](https://proton.me/support/payment-options) بريد بروتون الدفع نقدًا عن طريق البريد، ويقبل كذلك الدفع ببطاقات الائتمان والبطاقات المصرفية [وبتكوين](advanced/payments.md#other-coins-bitcoin-ethereum-etc) وبي‌بال.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } أمن الحساب
 
-Proton Mail supports TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two factor authentication first.
+يدعم بريد بروتون [الاستيثاق بخطوتين عبر](https://proton.me/support/two-factor-authentication-2fa) «كلمة المرور لمرة واحدة حسب الوقت (TOTP)» [ومفاتيح أمن العتاد](https://proton.me/support/2fa-security-key) وفق معيارَي FIDO2 و U2F. ويتطلَّب استخدام مفاتيح أمن العتاد إعداد الاستيثاق بخطوتين عبر كلمة المرور لمرة واحدة حسب الوقت.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } أمن البيانات
 
-Proton Mail has [zero-access encryption](https://proton.me/blog/zero-access-encryption) at rest for your emails and [calendars](https://proton.me/news/protoncalendar-security-model). Data secured with zero-access encryption is only accessible by you.
+عند بريد بروتون [تعمية دون أيِّ وصول](https://proton.me/blog/zero-access-encryption) لبُرُدك الإلكترونية [وتقويماتك](https://proton.me/news/protoncalendar-security-model). لا يمكن لأحد الوصول للبيانات المعمَّاة دون أيِّ وصول سواك.
 
-Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are not secured with zero-access encryption. Contact fields that support zero-access encryption, such as phone numbers, are indicated with a padlock icon.
+بعض المعلومات المخزَّنة في [متراسلي بروتون](https://proton.me/support/proton-contacts) ليست مؤمَّنةً بتعمية دون أيِّ وصول، كالأسماء المعروضة وعناوين البُرُد الإلكترونية. تُعلَّم حقول المتراسلين الداعمة للتعمية دون أيِّ وصول بعلامة قفل، كأرقام الجوالات.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } تعمية البريد الإلكتروني
 
-Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to-use-pgp) in their webmail. Emails to other Proton Mail accounts are encrypted automatically, and encryption to non-Proton Mail addresses with an OpenPGP key can be enabled easily in your account settings. They also allow you to [encrypt messages to non-Proton Mail addresses](https://proton.me/support/password-protected-emails) without the need for them to sign up for a Proton Mail account or use software like OpenPGP.
+عند بريد بروتون [دعم مدمج لتعمية أوبن‌بي‌جي‌بي](https://proton.me/support/how-to-use-pgp) في صفحة البريد. تعمَّى الرسائل المرسلة لحسابات بريد بروتون الأخرى تلقائيًّا، ولك تمكين تعمية أوبن‌بي‌جي‌بي لعناوين البريد خارج بروتون في إعدادات حسابك. ويتيح لك أيضًا [تعمية الرسائل المرسلة لغير عناوين بروتون](https://proton.me/support/password-protected-emails) دون حاجتهم لتسجيل حساب بريد بروتون او استخدام برمجية مثل أوبن‌بي‌جي‌بي.
 
-Proton Mail also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily, for cross-provider E2EE.
+يدعم بريد بروتون اكتشاف المفاتيح العامَّة باستخدام HTTP من [دليل مفاتيح الوِب (WKD) التابع لهم](https://wiki.gnupg.org/WKD). ويتيح هذا لمن ليس عنده بريد بروتون العثور على مفاتيح أوبن‌بي‌جي‌بي لحسابات بريد بروتون بسهولة، وذلك لتمكين التعمية بين الأطراف بين موفِّري خدمة البريد الإلكترونيِّ.
 
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } إنهاء الحسابات
 
-If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinquent and won't receive incoming mail. You will continue to be billed during this period.
+إن كان عندك حساب مدفوع [ولم تدفع الفاتورة](https://proton.me/support/delinquency) ١٤ يومًا فلن تستطيع الوصول لبياناتك. وبعد ثلاثين يوم يصبح حسابك خاملًا لا يستقبل الرسائل. وسوف يستمر إصدار الفواتير خلال هذه المدَّة.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } وظائف إضافية
 
-Proton Mail offers an "Unlimited" account for €9.99/Month, which also enables access to Proton VPN in addition to providing multiple accounts, domains, aliases, and 500GB of storage.
+يعرض بريد بروتون حسابًا «لا نهائيًّا» قيمته ٩٫٩٩ يورو لكلِّ شهر، ويتيح الوصول لشبكة بروتون الافتراضية الخاصَّة، واستخدام عدَّة حسابات ونطاقات وكنًى و مساحة تخزين ٥٠٠ ج‌بايت.
 
-Proton Mail doesn't offer a digital legacy feature.
+ليس عند بريد بروتون ميزة الإرث الرقميِّ.
 
 ### Mailbox.org
 
 !!! recommendation
 
-    ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
+    ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=left }
     
-    **Mailbox.org** is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with 2 GB of storage, which can be upgraded as needed.
+    **Mailbox.org** هو خدمة بريد إلكترونيٍّ تركِّز على الأمن والخلوِّ من الإعلانات، وهي تستلم طاقتها من مصادر خاصَّة ١٠٠٪ صديقة للبيئة. وهم يعملون منذ ٢٠١٤. ومقرُّهم في برلين في ألمانيا. تبدأ الحسابات ولها مساحة تخزين ٢ ج‌بايت، وتمكن زيادتها حسب الحاجة.
     
-    [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+    [:octicons-home-16: الصفحة الرئيسة](https://mailbox.org){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Pسياسة الخصوصية" }
+    [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=التوثيق}
     
-    ??? downloads
+    ??? التنزيلات
     
-        - [:octicons-browser-16: Web](https://login.mailbox.org)
+        - [:octicons-browser-16: وِب](https://login.mailbox.org)
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } النطاقات المخصَّصة والكنى
 
-Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) addresses. Mailbox.org also supports [subaddressing](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), which is useful if you don't want to purchase a domain.
+تتيح لك Mailbox.org استخدام اسم نطاق من عندك، وكذلك تدعم العناوين [الجامعة](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain). وزد على ذلك أنهم يدعمون [العنونة الفرعية](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it)، وهي مفيدة لمن لا يريد شراء نطاق.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } سُبُل الدفع الخاصَّة
 
-Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept Cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
+لا تقبل Mailbox.org الدفع باستخدام العملات المعمَّاة، وسبب ذلك أن معالج دفعهم، بِت‌بَي، علَّق عملياته في ألمانيا. ولكنهم يقبلون الدفع نقدًا عبر البريد، ودفع النقد لحساب مصرف، والتحويل المصرفيَّ، وبطاقات الائتمان، وبَي‌بال، وبعض معالجي الدفع في ألمانيا: paydirekt و Sofortüberweisung.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } أمن الحساب
 
-Mailbox.org supports [two factor authentication](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) for their webmail only. You can use either TOTP or a [Yubikey](https://en.wikipedia.org/wiki/YubiKey) via the [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
+تدعم Mailbox.org [الاستيثاق بخطوتين](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) في موقعهم فقط. لك استخدام كلمة مرور لمرة واحدة حسب الوقت (TOTP) أو [يوبِكي](https://en.wikipedia.org/wiki/YubiKey) من [يوبِكلاود](https://www.yubico.com/products/services-software/yubicloud). بعض معايير الوِب مثل [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) ليست مدعومةً بعد.
 
-#### :material-information-outline:{ .pg-blue } Data Security
+#### :material-information-outline:{ .pg-blue } أمن البيانات
 
-Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). New messages that you receive will then be immediately encrypted with your public key.
+تتيح Mailbox.org تعمية الرسائل الواردة باستخدام [صندوق البريد المعمَّى](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). تعمَّى الرسائل الواردة باستخدام مفتاحك العامِّ فورًا.
 
-However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that information.
+ولكن [أوبن-إكستشينج](https://en.wikipedia.org/wiki/Open-Xchange)، وهي منصَّة البرمجيات التي تستخدمها Mailbox.org، [ لا تدعم](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) تعمية دفتر عناوينك وتقويمك. لعلَّ [خيارًا مستقلًّا](calendar.md) أفضل لهذه المعلومات.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } تعمية البريد الإلكتروني
 
-Mailbox.org has [integrated encryption](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
+لدى Mailbox.org [تعمية مدمجة](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) في موقعهم، وهذا ييسِّر إرسال الرسائل باستخدام مفاتيح أوبن‌بي‌جي‌بي العامَّة. وكذلك يتيحون [لمستقبلي الرسائل من خارج خوادمهم كشف تعمية رسالة](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) في خوادم Mailbox.org. فائدة هذا تظهر في حال كان المستقبل ليس لديه أوبن‌بي‌جي‌بي ولا يستطيع كشف تعمية نسخة من الرسالة في صندوق بريده.
 
-Mailbox.org also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily, for cross-provider E2EE.
+تدعم Mailbox.org اكتشاف المفتايح العامَّة باستخدام HTTP من [دليل مفاتيح الوِب (WKD)](https://wiki.gnupg.org/WKD) التابع لهم. ويتيح هذا لمن ليس عنده Mailbox.org العثور على مفاتيح أوبن‌بي‌جي‌بي لحسابات Mailbox.org بسهولة، وذلك لتمكين التعمية بين الأطراف بين موفِّري خدمة البريد الإلكترونيِّ.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } إنهاء الحسابات
 
-Your account will be set to a restricted user account when your contract ends, after [30 days it will be irrevocably deleted](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+يعيَّن حسابك حساب مستخدم مقيَّد عند انتهاء عقدك، وبعد [ثلاثين يوم سوف يحذف نهائيًّا](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } وظائف إضافية
 
-You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). However, their webmail interface cannot be accessed via their .onion service and you may experience TLS certificate errors.
+بإمكانك الوصول لحسابك في Mailbox.org باستخدام IMAP/SMTP عبر [خدمة .onion](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). ولكن لا يمكن الوصول لواجهة موقعهم باستخدام خدمة .onion، وقد تواجه أخطاء شهادة TLS.
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+عند كلِّ الحسابات مساحة تخزين قليلة، [وتمكن تعميتها](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). وتوفِّر Mailbox.org الكنية [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely)، وهو تفرض تعمية TLS على الاتصال بين خوادم البريد، وإن لم يعمَّ فلن ترسل الرسائل. تدعم Mailbox.org [إكستشينج-أكتف‌سنك](https://en.wikipedia.org/wiki/Exchange_ActiveSync)، وكذلك تدعم معايير الوصول القياسية مثل IMAP و POP3.
 
-Mailbox.org has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
+عند Mailbox.org ميزة الإرث الرقميِّ لكلِّ الاشتراكات. فبوسعك اختيار ما إن أردت أن تورِّث أيَّ بيانات لك، وذلك إن سجَّل ذلك ورثاؤك وشهدت بذلك. غير ذلك فيمكنك ترشيح شخص باسمه وعنوانه.
 
-## More Providers
+## مقدِّموا خدمة آخرون
 
-These providers store your emails with zero-knowledge encryption, making them great options for keeping your stored emails secure. However, they don't support interoperable encryption standards for E2EE communications between providers.
+يخزِّن مقدمِّو الخدمة هؤلاء بُرُدك معمَّاةً تعمية دون معرفة، وهذا جاعلهم خيارات جيِّدةً لتخزِّنها فيها. ولكنهم لا يدعمون معايير تعمية للاتصالات المعمَّاة بين الطرفين تتوافق بين الموفِّرين.
 
 <div class="grid cards" markdown>
 
@@ -160,82 +160,82 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 </div>
 
-### StartMail
+### ستارت‌ميل
 
 !!! recommendation
 
-    ![StartMail logo](assets/img/email/startmail.svg#only-light){ align=right }
-    ![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ align=right }
+    ![StartMail logo](assets/img/email/startmail.svg#only-light){ align=left }
+    ![StartMail logo](assets/img/email/startmail-dark.svg#only-dark){ align=left }
     
-    **StartMail** is an email service with a focus on security and privacy through the use of standard OpenPGP encryption. StartMail has been in operation since 2014 and is based in Boulevard 11, Zeist Netherlands. Accounts start with 10GB. They offer a 30-day trial.
+    **ستارت‌ميل** هي خدمة بُرُد إلكترونية تركِّز على الأمن والخصوصية، وذلك باستخدامها تعمية أوبن‌بي‌جي‌بي. وهم يعملون منذ ٢٠١٤، ومقرُّهم في بولفارد ١١ في زايست في هولندا. تبدأ الحسابات بمساحة تخزين ١١ ج‌بايت. ويوفِّرون ثلاثين يومًا تجربةً.
     
-    [:octicons-home-16: Homepage](https://www.startmail.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.startmail.com){ .card-link title=Documentation}
+    [:octicons-home-16: الصفحة الرئيسة](https://www.startmail.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.startmail.com/en/privacy/){ .card-link title="سياسة الخصوصية" }
+    [:octicons-info-16:](https://support.startmail.com){ .card-link title=التوثيق}
     
-    ??? downloads
+    ??? التنزيلات
     
-        - [:octicons-browser-16: Web](https://mail.startmail.com/login)
+        - [:octicons-browser-16: وِب](https://mail.startmail.com/login)
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } النطاقات المخصَّصة والكنى
 
-Personal accounts can use [Custom or Quick](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases) aliases. [Custom domains](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain) are also available.
+للحسابات الشخصية استخدام الكنى [المخصَّصة والسريعة](https://support.startmail.com/hc/en-us/articles/360007297457-Aliases). وتتاح كذلك [النطاقات المخصَّصة](https://support.startmail.com/hc/en-us/articles/4403911432209-Setup-a-custom-domain).
 
-#### :material-alert-outline:{ .pg-orange } Private Payment Methods
+#### :material-alert-outline:{ .pg-orange } سُبُل الدفع الخاصَّة
 
-StartMail accepts Visa, MasterCard, American Express and Paypal. StartMail also has other [payment options](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) such as [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (currently only for Personal accounts) and SEPA Direct Debit for accounts older than a year.
+تقبل ستارت‌ميل فيزا وماستركارد وأميركن إكسبرس وبي‌بال. ولديهم أيضًا [خيارات دفع](https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods) أخرى، [كبتكوين](advanced/payments.md#other-coins-bitcoin-ethereum-etc) (وهذا حاليًّا للحسابات الشخصية فقط)، والخصم المباشر من سيبا للحسابات التي عمرها أكثر من سنة.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } أمن الحساب
 
-StartMail supports TOTP two factor authentication [for webmail only](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). They do not allow U2F security key authentication.
+تدعم ستارت‌ميل الاستيثاق بخطوتين باستخدام كلمة مرور لمرَّة واحدة حسب الوقت [في موقعهم فقط](https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA). ولا يسمحون بالاستيثاق بمفتاح أمن المعامل الثاني الشامل (U2F).
 
-#### :material-information-outline:{ .pg-blue } Data Security
+#### :material-information-outline:{ .pg-blue } أمن البيانات
 
-StartMail has [zero access encryption at rest](https://www.startmail.com/en/whitepaper/#_Toc458527835), using their "user vault" system. When you log in, the vault is opened, and the email is then moved to the vault out of the queue where it is decrypted by the corresponding private key.
+لدى ستارت‌ميل [تعمية دون أيِّ وصول](https://www.startmail.com/en/whitepaper/#_Toc458527835) باستخدام نظام «خزنة المستخدم». فإن سجَّلت دخولك فسوف تُفتح الخزنة، وعند ذلك تُنقل البُرُد إلى الخزنة من قائمة الانتظار، وهناك تُكشف تعميتها باستخدام ما يوافقها من مفاتيح خاصَّة.
 
-StartMail supports importing [contacts](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts) however, they are only accessible in the webmail and not through protocols such as [CalDAV](https://en.wikipedia.org/wiki/CalDAV). Contacts are also not stored using zero knowledge encryption.
+تدعم ستارت‌ميل استيراد [المتراسلين](https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts)، ولكن الوصول لهم محصور في موقعهم وليس باستخدام موافيق مثل [كال‌داف](https://en.wikipedia.org/wiki/CalDAV). ولا يخزَّن المتراسلون باستخدام التعمية دون علم.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } تعمية البريد الإلكتروني
 
-StartMail has [integrated encryption](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) in their webmail, which simplifies sending encrypted messages with public OpenPGP keys. However, they do not support the Web Key Directory standard, making the discovery of a Startmail mailbox's public key more challenging for other email providers or clients.
+عند ستارت‌ميل [تعمية مدمجة](https://support.startmail.com/hc/en-us/sections/360001889078-Encryption) في موقعهم، وهذا ييسِّر إرسال الرسائل المعمَّاة باستخدام مفاتيح أوبن‌بي‌جي‌بي العامَّة. ولكنهم لا يدعمون معيار دليل مفاتيح الوِب، وهذا يصعِّب على موفِّري الخدمة الآخرين والعملاء اكتشاف المفاتيح العامَّة لصناديق بُرُدهم.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } إنهاء الحسابات
 
-On account expiration, StartMail will permanently delete your account after [6 months in 3 phases](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
+حال انتهاء صلاحية الحساب فسوف تحذف ستارت‌ميل الحساب نهائيًّا بعد [ستة أشهر وفي ثلاث مراحل](https://support.startmail.com/hc/en-us/articles/360006794398-Account-expiration).
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } وظائف إضافية
 
-StartMail allows for proxying of images within emails. If you allow the remote image to be loaded, the sender won't know what your IP address is.
+تتيح ستارت‌ميل التوسُّط للصور داخل الرسائل. فإن سمحت لصورة أن تحمَّل فلن يعرف مرسلها عنوان IP التابع لك.
 
-StartMail does not offer a digital legacy feature.
+ليس عند ستارت‌ميل ميزة الإرث الرقميِّ.
 
-### Tutanota
+### توتنوتا
 
 !!! recommendation
 
-    ![Tutanota logo](assets/img/email/tutanota.svg){ align=right }
+    ![Tutanota logo](assets/img/email/tutanota.svg){ align=left }
     
-    **Tutanota** is an email service with a focus on security and privacy through the use of encryption. Tutanota has been in operation since **2011** and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan.
+    **توتنوتا** هي خدمة بُرُد إلكترونية تركِّز على الأمن والخصوصية باستخدام التعمية. وهم يعملون منذ ٢٠١١، ومقرُّهم في هانوفر في ألمانيا. تبدأ الحسابات المجانية عندهم بمساحة تخزين ١ ج‌بايت.
     
-    [:octicons-home-16: Homepage](https://tutanota.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribute }
+    [:octicons-home-16: الصفحة الرئيسة](https://tutanota.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="سياسة الخصوصية" }
+    [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=التوثيق}
+    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="رمز المصدر" }
+    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=ساهم }
     
-    ??? downloads
+    ??? التنزيلات
     
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
-        - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
-        - [:simple-windows11: Windows](https://tutanota.com/#download)
-        - [:simple-apple: macOS](https://tutanota.com/#download)
-        - [:simple-linux: Linux](https://tutanota.com/#download)
-        - [:octicons-browser-16: Web](https://mail.tutanota.com/)
+        - [:simple-googleplay: متجر بلاي](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
+        - [:simple-appstore: آب ستور](https://apps.apple.com/app/tutanota/id922429609)
+        - [:simple-github: جت‌هب](https://github.com/tutao/tutanota/releases)
+        - [:simple-windows11: ويندوز](https://tutanota.com/#download)
+        - [:simple-apple: ماك‌أو‌إس](https://tutanota.com/#download)
+        - [:simple-linux: لينكس](https://tutanota.com/#download)
+        - [:octicons-browser-16: وِب](https://mail.tutanota.com/)
 
-Tutanota doesn't support the [IMAP protocol](https://tutanota.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tutanota app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tutanota.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
+لا تدعم توتنوتا [ميفاق IMAP](https://tutanota.com/faq/#imap) أو استخدام [تطبيقات البُرُد الإلكترونية](email-clients.md) غير تطبيقهم، ولن تستطيع إضافة [حسابات خارجية](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) في تطبيقهم. ولا يدعم [استيراد الرسائل](https://github.com/tutao/tutanota/issues/630) ولا [المجلَّدات الفرعية](https://github.com/tutao/tutanota/issues/927) حاليًّا، ولكنَّ هذا [في صدد التغيير](https://tutanota.com/blog/posts/kickoff-import). يمكن تصدير الرسائل [فرادًى أو مجمَّعةً حسب الاختيار](https://tutanota.com/howto#generalMail) لكلِّ مجلَّد، ولعلَّ هذا مزعج إن كانت عندك العديد من المجلَّدات.
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } النطاقات المخصَّصة والكنى
 
 Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias) and [custom domains](https://tutanota.com/faq#custom-domain). Tutanota doesn't allow for [subaddressing (plus addresses)](https://tutanota.com/faq#plus), but you can use a [catch-all](https://tutanota.com/howto#settings-global) with a custom domain.
 
@@ -243,11 +243,11 @@ Paid Tutanota accounts can use up to 5 [aliases](https://tutanota.com/faq#alias)
 
 Tutanota only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } أمن الحساب
 
 Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with either TOTP or U2F.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } أمن البيانات
 
 Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). This means the messages and other data stored in your account are only readable by you.
 
@@ -255,7 +255,7 @@ Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encr
 
 Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } إنهاء الحسابات
 
 Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
 

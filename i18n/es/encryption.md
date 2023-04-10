@@ -12,7 +12,7 @@ Las opciones enumeradas aquí son multiplataforma y excelentes para crear copias
 
 ### Cryptomator (Nube)
 
-!!! recomendación
+!!! recommendation
 
     ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
     
@@ -42,7 +42,7 @@ La documentación de Cryptomator detalla su intención con respecto a su [objeti
 
 ### Picocrypt (Archivo)
 
-!!! recomendación
+!!! recommendation
 
     ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
     
@@ -60,7 +60,7 @@ La documentación de Cryptomator detalla su intención con respecto a su [objeti
 
 ### VeraCrypt (Disco)
 
-!!! recomendación
+!!! recommendation
 
     ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
     ![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
@@ -90,7 +90,7 @@ Los sistemas operativos modernos incluyen [FDE](https://es.wikipedia.org/wiki/Ci
 
 ### BitLocker
 
-!!! recomendación
+!!! recommendation
 
     ![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
     
@@ -140,7 +140,7 @@ BitLocker es [únicamente compatible](https://support.microsoft.com/en-us/window
 
 ### FileVault
 
-!!! recomendación
+!!! recommendation
 
     ![FileVault logo](assets/img/encryption-software/filevault.png){ align=right }
     
@@ -152,7 +152,7 @@ Recomendamos almacenar una clave de recuperación local en un lugar seguro en lu
 
 ### Linux Unified Key Setup
 
-!!! recomendación
+!!! recommendation
 
     ![LUKS logo](assets/img/encryption-software/luks.png){ align=right }
     
@@ -191,7 +191,7 @@ El cifrado basado en navegador puede ser útil cuando necesita cifrar un archivo
 
 ### hat.sh
 
-!!! recomendación
+!!! recommendation
 
     ![hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ align=right }
     ![hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ align=right }
@@ -210,7 +210,7 @@ Las herramientas con interfaces de línea de comandos son útiles para integrar 
 
 ### Kryptor
 
-!!! recomendación
+!!! recommendation
 
     ![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }
     
@@ -230,7 +230,7 @@ Las herramientas con interfaces de línea de comandos son útiles para integrar 
 
 ### Tomb
 
-!!! recomendación
+!!! recommendation
 
     ![Tomb logo](assets/img/encryption-software/tomb.png){ align=right }
     
@@ -257,7 +257,7 @@ Al cifrar con PGP, tiene la opción de configurar diferentes opciones en su arch
 
 ### GNU Privacy Guard
 
-!!! recomendación
+!!! recommendation
 
     ![GNU Privacy Guard logo](assets/img/encryption-software/gnupg.svg){ align=right }
     
@@ -277,7 +277,7 @@ Al cifrar con PGP, tiene la opción de configurar diferentes opciones en su arch
 
 ### GPG4win
 
-!!! recomendación
+!!! recommendation
 
     ![GPG4win logo](assets/img/encryption-software/gpg4win.svg){ align=right }
     
@@ -299,7 +299,7 @@ Al cifrar con PGP, tiene la opción de configurar diferentes opciones en su arch
 
     Sugerimos [Canary Mail](email-clients.md#canary-mail) para utilizar PGP con el correo electrónico en dispositivos iOS.
 
-!!! recomendación
+!!! recommendation
 
     ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
     
@@ -318,7 +318,7 @@ Al cifrar con PGP, tiene la opción de configurar diferentes opciones en su arch
 
 ### OpenKeychain
 
-!!! recomendación
+!!! recommendation
 
     ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
     

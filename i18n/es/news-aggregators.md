@@ -10,7 +10,7 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
 ### Akregator
 
-!!! recomendación
+!!! recommendation
 
     ![Akregator logo](assets/img/news-aggregators/akregator.svg){ align=right }
     
@@ -28,7 +28,7 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
 ### Feeder
 
-!!! recomendación
+!!! recommendation
 
     ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
     
@@ -44,7 +44,7 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
 ### Fluent Reader
 
-!!! recomendación
+!!! recommendation
 
     ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ align=right }
     
@@ -63,7 +63,7 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
 ### GNOME Feeds
 
-!!! recomendación
+!!! recommendation
 
     ![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ align=right }
     
@@ -80,7 +80,7 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
 ### Miniflux
 
-!!! recomendación
+!!! recommendation
 
     ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
     ![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
@@ -94,7 +94,7 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
 ### NetNewsWire
 
-!!! recomendación
+!!! recommendation
 
     ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
     
@@ -112,7 +112,7 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
 ### Newsboat
 
-!!! recomendación
+!!! recommendation
 
     ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ align=right }
     
@@ -130,7 +130,7 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
     Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tiene alguna duda sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 
-- Deben ser software de código abierto.
+- Debe ser software de código abierto.
 - Debe funcionar localmente, es decir, no debe ser un servicio en la nube.
 
 ## Soporte RSS para Redes Sociales

@@ -3,13 +3,13 @@ title: Підтримайте нас
 ---
 
 <!-- markdownlint-disable MD036 -->
-Щоб підтримувати актуальність Privacy Guides та поширювати світу про конфіденційність і глобальне стеження, потрібно багато [людей](https://github.com/privacyguides/privacyguides.org/graphs/contributors) та [праці](https://github.com/privacyguides/privacyguides.org/pulse/monthly). If you like what we do, consider getting involved by [editing the site](https://github.com/privacyguides/privacyguides.org) or [contributing translations](https://crowdin.com/project/privacyguides).
+Підтримка актуальності Privacy Guides та поширення інформації про конфіденційність і глобальне спостереження, потребує багато [людей](https://github.com/privacyguides/privacyguides.org/graphs/contributors) та [праці](https://github.com/privacyguides/privacyguides.org/pulse/monthly). Якщо вам подобається те, що ми робимо, спробуйте долучитися: [редагуйте сайт](https://github.com/privacyguides/privacyguides.org) або [робіть переклади](https://crowdin.com/project/privacyguides).
 
-Якщо ви хочете надати нам фінансову підтримку, найзручніший для нас спосіб - це зробити внесок через Open Collective, вебсайт, під керівництвом нашого фіскального хостингу. Open Collective приймає платежі за допомогою кредитної/дебетової картки, PayPal, та банківських переказів.
+Якщо ви хочете надати нам фінансову підтримку, найзручніший для нас спосіб - це зробити внесок через Open Collective, вебсайт, під керівництвом нашого фіскального хостингу. Open Collective приймає платежі за допомогою кредитної/дебетової картки, PayPal, та банківські перекази.
 
-[Пожертвувати на OpenCollective.com](https://opencollective.com/privacyguides/donate ""){.md-button.md-button--primary}
+[Зробити внесок на OpenCollective.com](https://opencollective.com/privacyguides/donate ""){.md-button.md-button--primary}
 
-Donations made directly to us on Open Collective are generally tax-deductible in the US, because our fiscal host (the Open Collective Foundation) is a registered 501(c)3 organization. Після пожертвування ви отримаєте квитанцію від Open Collective Foundation. Privacy Guides не надають фінансових консультацій, і ви повинні звернутися до свого податкового консультанта, щоб з'ясувати чи це є сприйнятливим для вас.
+Пожертвування, зроблені безпосередньо на наш Open Collective, як правило, не оподатковуються в США, оскільки наш фінансовий організатор (Open Collective Foundation) є зареєстрованою організацією 501(c) 3. Після пожертвування ви отримаєте квитанцію від Open Collective Foundation. Privacy Guides не надають фінансових консультацій, і ви повинні звернутися до свого податкового консультанта, щоб з'ясувати чи це є сприйнятливим для вас.
 
 Якщо ви вже користуєтеся спонсорством GitHub, ви також можете підтримати нашу організацію там.
 
@@ -19,7 +19,7 @@ Donations made directly to us on Open Collective are generally tax-deductible in
 
 Особлива подяка всім, хто підтримує нашу місію! :heart:
 
-*Зверніть увагу: Цей розділ завантажує віджет з Open Collective. У ньому не показуються пожертвування, зроблені за межами Open Collective, і ми не контролюємо конкретних спонсорів, зазначених у цьому розділі.*
+*Зверніть увагу: Цей розділ завантажує віджет напряму з Open Collective. Ця секція не показує пожертвування, зроблені за межами Open Collective, і ми не контролюємо конкретних спонсорів, зазначених у цьому розділі.*
 
 <script src="https://opencollective.com/privacyguides/banner.js"></script>
 

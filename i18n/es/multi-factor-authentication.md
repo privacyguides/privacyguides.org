@@ -8,7 +8,7 @@ description: Estas herramientas le ayudan a proteger sus cuentas de Internet con
 
 ### YubiKey
 
-!!! recomendación
+!!! recommendation
 
     ![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
     
@@ -31,7 +31,7 @@ Para los modelos que soportan HOTP y TOTP, hay 2 ranuras en la interfaz OTP que 
 
 ### Nitrokey
 
-!!! recomendación
+!!! recommendation
 
     ![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
     
@@ -91,7 +91,7 @@ Recomendamos encarecidamente que utilice aplicaciones TOTP para móviles en luga
 
 ### Aegis Authenticator (Android)
 
-!!! recomendación
+!!! recommendation
 
     ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
     
@@ -110,7 +110,7 @@ Recomendamos encarecidamente que utilice aplicaciones TOTP para móviles en luga
 
 ### Raivo OTP (iOS)
 
-!!! recomendación
+!!! recommendation
 
     ![Raivo OTP logo](assets/img/multi-factor-authentication/raivo-otp.png){ align=right }
     

@@ -83,13 +83,14 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
     ??? warning "השתמש ברשימות סינון ברירת מחדל"
          Brave מאפשר לך לבחור מסנני תוכן נוספים בדף הפנימי `brave://adblock`. אנו ממליצים לא להשתמש בתכונה זו; במקום זאת, שמור על רשימות הסינון המוגדרות כברירת מחדל. שימוש ברשימות נוספות יגרום לך להתבלט ממשתמשי Brave אחרים ועלול גם להגדיל את שטח ההתקפה אם יש ניצול ב-Brave וכלל זדוני יתווסף לאחת הרשימות שבהן אתה משתמש.
 
-- [x] בחר **שדרג חיבורים ל- HTTPS**
-- [x] (אופציונלי) בחר **חסום סקריפטים** (1)
-- [x] בחר **קפדני, עלול לשבור אתרים** תחת **חסום טביעת אצבע**
+- [x] Select **Upgrade connections to HTTPS**
+- [x] Select **Always use secure connections**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under **Block fingerprinting**
 
 </div>
 
-1. אפשרות זו מספקת פונקציונליות דומה למצבי החסימה [המתקדמים של uBlock Origin](https://github.com/gorhill/uBlock/wiki/Blocking-mode) או להרחבה [NoScript](https://noscript.net/).
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
 
 ##### IPFS
 
@@ -103,17 +104,17 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 
 <div class="annotate" markdown>
 
-- [x] בחר **השבת UDP שאינו פרוקסי** תחת [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] בטל סימון **אפשר לאתרים לבדוק אם יש לך שיטות תשלום שנשמרו**
-- [ ] בטל סימון **IPFS Gateway** (1)
-- [x] בחר **סגור כרטיסיות ביציאה**
-- [ ] בטל סימון **אפשר ניתוח מוצרים ששומר על הפרטיות (P3A)**
-- [ ] בטל סימון **שלח דוחות אבחון אוטומטיים**
-- [ ] בטל סימון **שליחה אוטומטית של פינג שימוש יומי ל-Brave**
-
-1. מערכת קבצים בין - כוכבית (באנגלית: InterPlanetary File System, בראשי תיבות: IPF) היא רשת מבוזרת המשמשת לאחסון ושיתוף נתונים במערכת קבצים מבוזרת. אלא אם כן אתה משתמש בתכונה, להשבית אותו.
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (1)
+- [x] Select **Close tabs on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 </div>
+
+1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
 
 #### סנכרון Brave
 

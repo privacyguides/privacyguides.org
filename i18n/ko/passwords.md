@@ -1,5 +1,5 @@
 ---
-title: "Password Managers"
+title: "비밀번호 관리자"
 icon: material/form-textbox-password
 description: Password managers allow you to securely store and manage passwords and other credentials.
 schema:

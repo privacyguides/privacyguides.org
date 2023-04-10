@@ -1,6 +1,6 @@
 ---
 title: "Android"
-icon: 'fontawesome/brands/android'
+icon: 'simple/android'
 description: Puedes sustituir el sistema operativo de tu teléfono Android por estas alternativas seguras y respetuosas con la privacidad.
 schema:
   - 
@@ -104,11 +104,14 @@ Recomendamos instalar uno de estos sistemas operativos Android personalizados en
 
 ### GrapheneOS
 
-!!! recomendación
+!!! recommendation
 
-    Los dispositivos de "soporte extendido" de GrapheneOS no tienen correcciones de seguridad completos (actualizaciones de firmware) debido a que el fabricante de equipos originales (OEM) suspende el soporte.
+    ![Logo de GrapheneOS](assets/img/android/grapheneos.svg#only-light){ align=right }
+    ![Logo de GrapheneOS](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
     
-    Estos dispositivos no pueden considerarse completamente seguros. Dispone de un [asignador de memoria reforzado](https://github.com/GrapheneOS/hardened_malloc), permisos de red y de sensores, y otras [características de seguridad](https://grapheneos.org/features). GrapheneOS también incluye actualizaciones completas de firmware y compilaciones firmadas, por lo que el arranque verificado es totalmente compatible.
+    **GrapheneOS** es la mejor opción cuando se trata de privacidad y seguridad.
+    
+    GrapheneOS proporciona mejoras adicionales de seguridad (https://en.wikipedia.org/wiki/Hardening_(computing)) y privacidad. Dispone de un [asignador de memoria reforzado](https://github.com/GrapheneOS/hardened_malloc), permisos de red y de sensores, y otras [características de seguridad](https://grapheneos.org/features). GrapheneOS también incluye actualizaciones completas de firmware y compilaciones firmadas, por lo que el arranque verificado es totalmente compatible.
     
     [:octicons-home-16: Página Principal](https://grapheneos.org/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Política de Privacidad" }
@@ -122,12 +125,12 @@ Los teléfonos Pixel de Google son los únicos dispositivos que actualmente cump
 
 ### DivestOS
 
-!!! recomendación
+!!! recommendation
 
-    ![CalyxOS logo](assets/img/android/calyxos.svg){ align=right }
+    ![Logo de DivestOS](assets/img/android/divestos.svg){ align=right }
     
-    **CalyxOS** es una alternativa aceptable a GrapheneOS.
-    Tiene algunas funciones de privacidad además de AOSP, que incluyen [Datura firewall](https://calyxos.org/docs/tech/datura-details), [Signal](https://signal.org) integración en la aplicación de marcación y un botón de pánico incorporado. CalyxOS también viene con actualizaciones de firmware y compilaciones firmadas, así que [el arranque verificado](https://source.android.com/security/verifiedboot) es completamente compatible.
+    **DivestOS** es un soft-fork de [LineageOS](https://lineageos.org/).
+    DivestOS hereda muchos [dispositivos soportados](https://divestos.org/index.php?page=devices&base=LineageOS) de LineageOS. Tiene compilaciones firmadas, lo que hace posible tener [arranque verificado](https://source.android.com/security/verifiedboot) en algunos dispositivos que no son Pixel.
     
     [:octicons-home-16: Página Principal](https://divestos.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Servicio Onion" }
@@ -166,15 +169,15 @@ Algunos consejos más sobre los dispositivos Android y la compatibilidad del sis
 
 Los teléfonos Google Pixel son los **únicos **dispositivos que recomendamos comprar. Los teléfonos Pixel tienen una seguridad de hardware más fuerte que cualquier otro dispositivo Android actualmente en el mercado, debido al soporte AVB adecuado para sistemas operativos de terceros y los chips de seguridad [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) personalizados de Google que actúan como elemento seguro.
 
-!!! recomendación
+!!! recommendation
 
-    ![Logotipo de DivestOS](assets/img/android/divestos.svg){ align=right }
+    ![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
     
-    **DivestOS** es un [soft-fork](https://es. wikipedia.org/wiki/Bifurcaci%C3%B3n_(desarrollo_de_software)) de [LineageOS](https://lineageos.org/).
+    **Se sabe que los dispositivos Google Pixel** tienen una buena seguridad y admiten correctamente [Verified Boot](https://source.android.com/security/verifiedboot), incluso al instalar sistemas operativos personalizados.
     
-    DivestOS hereda muchos [dispositivos soportados](https://divestos.org/index.php?page=devices&base=LineageOS) de LineageOS.
+    A partir de los **Pixel 6** y **6 Pro**, los dispositivos Pixel reciben un mínimo de 5 años de actualizaciones de seguridad garantizadas, lo que asegura una vida útil mucho más larga en comparación con los 2-4 años que suelen ofrecer los OEM de la competencia.
     
-    Tiene builds firmados, lo que permite tener [arranque verificado](https://source.android.com/security/verifiedboot) en algunos dispositivos que no son Pixel.
+    [:material-shopping: Tienda](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
 Los elementos seguros como el Titan M2 son más limitados que el entorno de ejecución confiable del procesador utilizado por la mayoría de los otros teléfonos, ya que solo se utilizan para el almacenamiento secreto, la certificación de hardware y la limitación de velocidad, no para ejecutar programas "confiables". Los teléfonos sin un Elemento Seguro tienen que utilizar el TEE para *todas* esas funciones, lo que resulta en una mayor superficie de ataque.
 
@@ -195,7 +198,7 @@ En este sitio recomendamos una amplia variedad de aplicaciones para Android. Las
 
 ### Shelter
 
-!!! recomendación
+!!! recommendation
 
     ![Logotipo de Shelter](assets/img/android/shelter.svg){ align=right }
     
@@ -207,11 +210,11 @@ En este sitio recomendamos una amplia variedad de aplicaciones para Android. Las
     [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Código fuente" }
     [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.typeblog.shelter)
 
-!!! Advertencia
+!!! advertencia
 
     Se recomienda Shelter en lugar de [Insular](https://secure-system.gitlab.io/Insular/) e [Island](https://github.com/oasisfeng/island), ya que admite [bloqueo de búsqueda de contactos](https://secure-system.gitlab.io/Insular/faq.html).
     
@@ -219,7 +222,7 @@ En este sitio recomendamos una amplia variedad de aplicaciones para Android. Las
 
 ### Auditor
 
-!!! recomendación
+!!! recommendation
 
     ![Logo Auditor](assets/img/android/auditor.svg#only-light){ align=right }
     ![Logo Auditor ](assets/img/android/auditor-dark.svg#only-dark){ align=right }
@@ -252,7 +255,7 @@ Si tu [modelo de amenaza](basics/threat-modeling.md) requiere privacidad, podrí
 
 ### Cámara de Seguridad
 
-!!! recomendación
+!!! recommendation
 
     ![Logo de Secure Camera](assets/img/android/secure_camera.svg#only-light){ align=right }
     ![Logo de Secure camera](assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
@@ -284,7 +287,7 @@ Las principales características de privacidad incluyen:
 
 ### Visor seguro de PDF
 
-!!! recomendación
+!!! recommendation
 
     ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
     ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
@@ -297,7 +300,7 @@ Las principales características de privacidad incluyen:
     [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Código fuente" }
     [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuir }
     
-    ??? descargas
+    ??? downloads
     
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
         - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
@@ -313,7 +316,7 @@ La tienda de aplicaciones de GrapheneOS está disponible en [GitHub](https://git
 
 La tienda de Google Play requiere una cuenta de Google para iniciar sesión, lo que no es ideal para la privacidad. Eso se puede evitar utilizando un cliente alternativo, como Aurora Store.
 
-!!! recomendación
+!!! recommendation
 
     ![Logo Aurora Store](assets/img/android/aurora-store. ebp){ align=right }
     
@@ -322,7 +325,7 @@ La tienda de Google Play requiere una cuenta de Google para iniciar sesión, lo 
     [:octicons-home-16: Página del proyecto](https://auroraoss.com/){ .md-button .md-button--primary }
     [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Código fuente" }
     
-    ??? Descarga
+    ??? downloads
     
         - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
@@ -381,7 +384,7 @@ Si descargas archivos APK para instalar manualmente, puedes verificar su firma c
 
 ![Logotipo de F-Droid](assets/img/android/f-droid.svg){ align=right width=120px }
 
-==Nosotros **no** recomendamos F-Droid como forma de obtener aplicaciones. = F-Droid se recomienda a menudo como una alternativa a Google Play, particularmente en la comunidad de privacidad. La opción de añadir repositorios de terceros y no limitarse al jardín amurallado de Google ha dado lugar a su popularidad. Además, F-Droid tiene [compilaciones reproducibles](https://f-droid.org/en/docs/Reproducible_Builds/) para algunas aplicaciones y está dedicado a software libre y de código abierto. Sin embargo, hay [notables problemas](https://privsec.dev/posts/android/f-droid-security-issues/) con el cliente oficial de F-Droid, su control de calidad y cómo construyen, firman y entregan paquetes.
+==Nosotros **no** recomendamos F-Droid como forma de obtener aplicaciones.== F-Droid se recomienda a menudo como una alternativa a Google Play, particularmente en la comunidad de privacidad. La opción de añadir repositorios de terceros y no limitarse al jardín amurallado de Google ha dado lugar a su popularidad. Además, F-Droid tiene [compilaciones reproducibles](https://f-droid.org/en/docs/Reproducible_Builds/) para algunas aplicaciones y está dedicado a software libre y de código abierto. Sin embargo, hay [notables problemas](https://privsec.dev/posts/android/f-droid-security-issues/) con el cliente oficial de F-Droid, su control de calidad y cómo construyen, firman y entregan paquetes.
 
 Debido a su proceso de compilación de aplicaciones, las aplicaciones en el repositorio oficial de F-Droid suelen quedarse atrás en las actualizaciones. Los mantenedores de F-Droid también reutilizan IDs de paquetes mientras firman aplicaciones con sus propias claves, lo que no es ideal ya que le da al equipo F-Droid la máxima confianza.
 
@@ -389,7 +392,7 @@ Otros repositorios populares de terceros, como [IzzyOnDroid](https://apt.izzysof
 
 Dicho esto, los repositorios [F-Droid](https://f-droid.org/en/packages/) y [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) albergan innumerables aplicaciones, por lo que pueden ser una herramienta útil para buscar y descubrir aplicaciones de código abierto que luego puedes descargar a través de Play Store, Aurora Store, o consiguiendo el APK directamente del desarrollador. Es importante tener en cuenta que algunas aplicaciones de estos repositorios no se han actualizado en años y pueden depender de bibliotecas no compatibles, entre otras cosas, lo que supone un riesgo potencial para la seguridad. Deberías utilizar tu mejor criterio cuando busques nuevas aplicaciones mediante este método.
 
-!!! Nota
+!!! nota
 
     En algunos raros casos, el desarrollador de una aplicación sólo la distribuirá a través de F-Droid ([Gadgetbridge](https://gadgetbridge.org/) es un ejemplo de ello). Si realmente necesitas una aplicación como esa, te recomendamos que utilices [Neo Store](https://github.com/NeoApplications/Neo-Store/) en lugar de la aplicación oficial F-Droid para obtenerla.
 
@@ -397,7 +400,7 @@ Dicho esto, los repositorios [F-Droid](https://f-droid.org/en/packages/) y [Izzy
 
 **Por favor, ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
-!!! Ejemplo "Esta sección es nueva"
+!!! example "Esta sección es nueva"
 
     Estamos trabajando para establecer criterios definidos para cada sección de nuestro sitio, y esto puede estar sujeto a cambios. Si tienes alguna duda sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
 

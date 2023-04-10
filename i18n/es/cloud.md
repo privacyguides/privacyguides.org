@@ -14,7 +14,7 @@ Si estas alternativas no se ajustan a tus necesidades, te sugerimos que busques 
 
 ## Proton Drive
 
-!!! recomendación
+!!! recommendation
 
     ![Logo de Proton Drive](assets/img/cloud/protondrive.svg){ align=right }
     
@@ -38,7 +38,7 @@ Los nuevos clientes móviles de Proton Drive aún no han sido auditados pública
 
 ## Tresorit
 
-!!! recomendación
+!!! recommendation
 
     ![Logo de Tresorit](assets/img/cloud/tresorit.svg){ align=right }
     

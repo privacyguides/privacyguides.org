@@ -28,7 +28,7 @@ Usualmente hay varias maneras para registrarse, cada una tiene sus propias venta
 
 La manera más común de crear una nueva cuenta es utilizando una dirección de correo electrónico y una contraseña. Cuando se utiliza este método, se debe utilizar un gestor de contraseñas y seguir las [mejores prácticas](passwords-overview.md) respecto a las contraseñas.
 
-!!! consejo
+!!! tip "Consejo"
 
     ¡También se puede usar un gestor de contraseñas para organizar otros métodos de autenticación! Solo añade la nueva entrada y completa los espacios apropiados, puedes agregar notas para cosas como las preguntas de seguridad o una clave de respaldo.
 
@@ -46,7 +46,7 @@ Si un servicio es hackeado, puede que usted comience a recibir correos engañoso
 
 ### Inicio de sesión único
 
-!!! Nota
+!!! note "Nota"
 
     Estamos hablando del inicio de sesión único para uso personal, no para usuarios empresariales.
 

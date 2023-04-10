@@ -1,30 +1,30 @@
 ---
-title: Vista general del VPN
+title: Vista general de VPN
 icon: material/vpn
-description: Las redes privadas virtuales desplazan el riesgo de tu proveedor de Internet a un tercero de tu confianza. Debes tener en cuenta estas cosas.
+description: Las Redes Privadas Virtuales desplazan el riesgo de tu proveedor de Internet a un tercero quien confías. Debes tener en cuenta estas cosas.
 ---
 
-Las redes virtuales privadas (conocidas en inglés como Virtual Private Networks) son una manera de ampliar el extremo de tu red hacia algún lugar del mundo. Un ISP puede ver el flujo de tráfico de Internet que entra y sale de su dispositivo de terminación de red (es decir, el módem).
+Las redes privadas virtuales son una forma de ampliar el extremo de tu red para que salga por otro lugar en el mundo. Un ISP puede ver el flujo de tráfico de Internet que entra y sale de tu dispositivo de terminación de red (es decir, el módem).
 
-Los protocolos de cifrado como HTTPS se utilizan habitualmente en Internet, por lo que es posible que no puedan ver exactamente lo que publicas o lees, pero pueden hacerse una idea de los [dominios que solicitas](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Los protocolos de cifrado como HTTPS se utilizan habitualmente en Internet, por lo que no puedan ser capaces de ver exactamente lo que estés publicando o leyendo, pero pueden hacerse una idea de los [dominios que solicitas](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
-Una VPN puede ayudar, ya que puede trasladar la confianza a un servidor en otro lugar del mundo. Como resultado, el ISP solamente ve que te conectaste a una VPN y nada de la actividad que le estás pasando.
+Una VPN puede ayudar, ya que puede trasladar la confianza a un servidor en otro lugar del mundo. Como resultado, el ISP solamente ve que estás conectado a una VPN y nada sobre la actividad que le estás pasando.
 
-## ¿Debería usar una VPN?
+## ¿Yo debería usar una VPN?
 
-**Sí**, a menos que ya estés usando Tor. Una VPN hace dos cosas: trasladar los riesgos de su proveedor de servicios de Internet a sí mismo y ocultar su IP de un servicio de terceros.
+**Sí**, a menos que ya estés usando Tor. Una VPN hace dos cosas: trasladar los riesgos de tu proveedor de servicios de Internet a sí mismo y ocultar tu IP de un servicio de terceros.
 
-Las VPN no pueden cifrar datos fuera de la conexión entre su dispositivo y el servidor VPN. Los proveedores de VPN pueden ver y modificar su tráfico del mismo modo que su proveedor de Internet. Y no hay forma de verificar de ninguna manera las políticas de "no registro" de un proveedor de VPN.
+Las VPNs no pueden encriptar datos fuera de la conexión entre tu dispositivo y el servidor VPN. Los proveedores de VPN pueden ver y modificar tu tráfico del mismo modo que tu proveedor de Internet podría. Y no hay forma en absoluto de verificar las políticas de "no registro" de un proveedor de VPN.
 
-Sin embargo, ocultan tu IP real de un servicio de terceros, siempre que no haya fugas de IP. Le ayudan a mezclarse con los demás y a mitigar el seguimiento basado en la IP.
+Sin embargo, sí ocultan tu IP real de un servicio de terceros, siempre que no haya fugas de IP. Te ayudan a mezclarte con los demás y a mitigar el seguimiento basado en la IP.
 
 ## ¿Cuándo no debería usar una VPN?
 
-El uso de una VPN en caso de que estés utilizando tu[identidad conocida](common-threats.md#common-misconceptions) probablemente no sea útil.
+El uso de una VPN casos donde estés utilizando tu [identidad conocida](common-threats.md#common-misconceptions) probablemente no será útil.
 
-Si lo hace, pueden activarse los sistemas de detección de spam y fraude, por ejemplo si te conectas al sitio web de tu banco.
+Si lo haces, puede activar sistemas de detección de spam y fraude, por ejemplo si te conectas al sitio web de tu banco.
 
-## ¿Qué pasa con el cifrado?
+## ¿Qué pasa con la encriptación?
 
 El cifrado que ofrecen los proveedores de VPN se realiza entre tus dispositivos y sus servidores. Garantiza que este enlace específico es seguro. Esto supone un paso adelante respecto al uso de proxies no cifrados, en los que un adversario en la red puede interceptar las comunicaciones entre tus dispositivos y dichos proxies y modificarlas. Sin embargo, el cifrado entre tus aplicaciones o navegadores con los proveedores de servicios no se gestiona mediante este cifrado.
 
@@ -44,34 +44,34 @@ Al usar una VPN con Tor, estás creando esencialmente un nodo de entrada permane
 
 ## ¿Y si necesito anonimato?
 
-Las VPN no pueden proporcionar anonimato. Tu proveedor de VPN seguirá viendo tu dirección IP real, y a menudo tiene un rastro de dinero que puede vincularse directamente a ti. No puedes confiar en las políticas de "no registro" para proteger tus datos. Usa [Tor](https://www.torproject.org/) en su lugar.
+Las VPN no pueden proporcionar anonimato. Tu proveedor de VPN aún verá tu dirección IP real, y a menudo tiene un rastro de dinero que puede vincularse directamente a ti. No puedes confiar en las políticas de "no registro" para proteger tus datos. Usa [Tor](https://www.torproject.org/) en vez.
 
 ## ¿Qué pasa con los proveedores de VPN que proporcionan nodos Tor?
 
-No utilice esa función. El punto de usar Tor es que no confías en tu proveedor de VPN. Actualmente Tor sólo soporta el protocolo [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol). [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (utilizado en [WebRTC](https://en.wikipedia.org/wiki/WebRTC) para compartir voz y vídeo, el nuevo protocolo [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), etc), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) y otros paquetes serán descartados. Para compensar esto, los proveedores de VPN suelen enrutar todos los paquetes no TCP a través de su servidor VPN (tu primer salto). Este es el caso de [ProtonVPN](https://protonvpn.com/support/tor-vpn/). Además, al usar esta configuración de Tor sobre VPN, no tiene control sobre otras importantes características de Tor como [Dirección de Destino Aislada](https://www.whonix.org/wiki/Stream_Isolation) (usando un circuito Tor diferente para cada dominio que visita).
+No utilices esa función. El punto de usar Tor es que no confías en tu proveedor de VPN. Actualmente Tor solamente soporta el protocolo [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol). [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (utilizado en [WebRTC](https://en.wikipedia.org/wiki/WebRTC) para compartir voz y vídeo, el nuevo protocolo [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), etc), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) y otros paquetes serán descartados. Para compensar por esto, los proveedores de VPN suelen enrutar todos los paquetes no TCP a través de su servidor VPN (tu primer salto). Este es el caso con [ProtonVPN](https://protonvpn.com/support/tor-vpn/). Adicionalmente, al usar esta configuración de Tor sobre VPN, no tienes control sobre otras funciones importantes de Tor como [Dirección de Destino Aislada](https://www.whonix.org/wiki/Stream_Isolation) (usando un circuito Tor diferente para cada dominio que visitas).
 
-La función debe verse como una forma conveniente de acceder a la Red Tor, no para permanecer en el anonimato. Para el anonimato adecuado, use el navegador Tor, TorSocks o una puerta de enlace Tor.
+La función debe verse como una forma conveniente de acceder a la Red Tor, no para permanecer anónimo. Para anonimato adecuado, usa el navegador Tor, TorSocks o una puerta de enlace Tor.
 
-## ¿Cuándo son útiles las VPN?
+## ¿Cuándo son útiles las VPNs?
 
-Una VPN puede seguir siéndote útil en diversos escenarios, como por ejemplo:
+Una VPN puede seguir siéndote útil en una variedad de escenarios, por ejemplo:
 
-1. Ocultar su tráfico **sólo** de tu proveedor de servicios de Internet.
-1. Ocultar tus descargas (como los torrents) a tu ISP y a las organizaciones antipiratería.
-1. Ocultar tu IP de sitios web y servicios de terceros, evitando el rastreo basado en IP.
+1. Ocultando tu tráfico de **sólo** tu proveedor de servicios de Internet.
+1. Ocultando tus descargas (como los torrents) de tu ISP y a las organizaciones antipiratería.
+1. Ocultando tu IP de sitios web y servicios de terceros, evitando el rastreo basado en IP.
 
-Para situaciones como estas, o si tienes otra razón de peso, los proveedores de VPN que hemos enumerado anteriormente son los que consideramos más fiables. Sin embargo, utilizar un proveedor de VPN sigue significando que estás *confiando* en el proveedor. En casi cualquier otro escenario deberías usar una herramienta segura**-por diseño** como Tor.
+Para situaciones como estas, o si tienes otra razón de peso, los proveedores de VPN que hemos enumerado anteriormente son los que consideramos más fiables. Sin embargo, utilizar un proveedor de VPN aun significa que estás *confiando* en el proveedor. En casi cualquier otro escenario deberías estar usando una herramienta segura**-por diseño** como Tor.
 
 ## Fuentes y Lecturas Complementarias
 
 1. [VPN - una narrativa muy precaria](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) por Dennis Schubert
 1. [Visión General de la Red Tor](../advanced/tor-overview.md)
-1. [Guías de privacidad de IVPN](https://www.ivpn.net/privacy-guides)
-1. ["¿Necesito una VPN?"](https://www.doineedavpn.com), una herramienta desarrollada por IVPN para desafiar el marketing agresivo de las VPN ayudando a las personas a decidir si una VPN es adecuada para ellas.
+1. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
+1. ["¿Necesito una VPN?"](https://www.doineedavpn.com), una herramienta desarrollada por IVPN para desafiar el mercadeo agresivo de las VPN ayudando las personas a decidir si una VPN es adecuada para ellas.
 
-## Información Relacionada Con Las VPN
+## Información Relacionada con las VPNs
 
-- [El problema con las VPN y los sitios de revisión de privacidad](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
-- [Investigación sobre aplicaciones VPN gratuitas](https://www.top10vpn.com/free-vpn-app-investigation/)
+- [El Problema con los Sitios de Revisión de VPNs y de Privacidad](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
+- [Investigación de Aplicaciones de VPN Gratuita](https://www.top10vpn.com/free-vpn-app-investigation/)
 - [Propietarios ocultos de VPN revelados: 101 productos VPN administrados por solo 23 empresas](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
 - [Esta empresa china está secretamente detrás de 24 aplicaciones populares que buscan permisos peligrosos](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)

@@ -276,7 +276,7 @@ Vi [rekommenderar](dns.md#recommended-providers) ett antal krypterade DNS-servra
 
 <div class="grid cards" markdown>
 
-- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji }[Monero](cryptocurrency.md#monero)
+- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji } [Monero](cryptocurrency.md#monero)
 
 </div>
 

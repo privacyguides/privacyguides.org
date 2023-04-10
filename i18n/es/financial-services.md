@@ -17,7 +17,7 @@ Hay una serie de servicios que ofrecen "tarjetas de débito virtuales" que puede
 
 ### Privacy.com (EE. UU.)
 
-!!! recomendación
+!!! recommendation
 
     ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
     ![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
@@ -32,7 +32,7 @@ Privacy.com facilita por defecto a su banco información sobre los comercios en 
 
 ### MySudo (EE. UU., De Pago)
 
-!!! recomendación
+!!! recommendation
 
     ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
     ![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
@@ -60,7 +60,7 @@ Estos servicios le permiten comprar tarjetas de regalo para una gran variedad de
 
 ### Cake Pay
 
-!!! recomendación
+!!! recommendation
 
     ![CakePay logo](assets/img/financial-services/cakepay.svg){ align=right }
     
@@ -72,7 +72,7 @@ Estos servicios le permiten comprar tarjetas de regalo para una gran variedad de
 
 ### CoinCards
 
-!!! recomendación
+!!! recommendation
 
     ![CakePay logo](assets/img/financial-services/coincards.svg){ align=right }
     

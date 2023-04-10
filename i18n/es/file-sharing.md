@@ -10,7 +10,7 @@ Descubra cómo puede compartir de manera privada sus archivos entre sus disposit
 
 ### Send
 
-!!! recomendación
+!!! recommendation
 
     ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
     
@@ -30,7 +30,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 ### OnionShare
 
-!!! recomendación
+!!! recommendation
 
     ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
     
@@ -61,7 +61,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 ## FreedomBox
 
-!!! recomendación
+!!! recommendation
 
     ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }
     
@@ -76,7 +76,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 ### Nextcloud (Cliente-Servidor)
 
-!!! recomendación
+!!! recommendation
 
     ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
     
@@ -98,13 +98,13 @@ ffsend upload --host https://send.vis.ee/ FILE
         - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
         - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
 
-!!! peligro
+!!! danger "Peligro"
 
     No recomendamos utilizar la [aplicación con cifrado de extremo a extremo](https://apps.nextcloud.com/apps/end_to_end_encryption) para Nextcloud, porque puede causar la pérdida de datos; esta es considerada como altamente experimental y no debe utilizarse en entornos de producción.
 
 ### Syncthing (P2P)
 
-!!! recomendación
+!!! recommendation
 
     ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ align=right }
     

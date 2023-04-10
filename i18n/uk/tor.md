@@ -1,40 +1,40 @@
 ---
-title: "Tor Network"
+title: "Мережа Tor"
 icon: simple/torproject
-description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+description: Захистіть свій інтернет-браузинг від сторонніх очей, використовуючи мережу Tor — безпечну мережу, яка обходить цензуру.
 ---
 
-![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
+![Логотип Tor](assets/img/self-contained-networks/tor.svg){ align=right }
 
-The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
+Мережа **Tor** - це група серверів, керованих волонтерами, яка дозволяє вам підключатися безкоштовно і покращувати вашу конфіденційність і безпеку в Інтернеті. Приватні особи та організації також можуть обмінюватися інформацією через мережу Tor з "прихованими сервісами .onion" без шкоди для своєї конфіденційності. Оскільки трафік Tor важко заблокувати і відстежити, Tor є ефективним інструментом обходу цензури.
 
-[:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
+[:octicons-home-16:](https://www.torproject.org){ .card-link title=Домашня сторінка}
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Документація}
+[:octicons-code-16:](https://gitweb.torproject.org/tor.git){ .card-link title="Вихідний код" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Зробити внесок }
 
-Tor works by routing your internet traffic through those volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. This obfuscates where the traffic is coming from, and no server in the connection path is able to see the full path of where the traffic is coming from and going to, meaning even the servers you are using to connect cannot break your anonymity.
+Tor працює, спрямовуючи ваш інтернет-трафік через ці волонтерські сервери, замість того, щоб встановлювати пряме з'єднання з сайтом, який ви намагаєтесь відвідати. Це приховує, звідки надходить трафік, і жоден сервер у шляху з 'єднання не може побачити повний шлях, звідки надходить трафік, а це означає, що навіть сервери, які ви використовуєте для з' єднання, не можуть порушити вашу анонімність.
 
-[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
+[Детальний огляд Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
 
-## Connecting to Tor
+## Підключення до Tor
 
-There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for anonymous browsing for desktop computers and Android. In addition to the apps listed below, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser.
+Існує безліч способів під'єднатися до мережі Tor з вашого пристрою, найпоширенішим з яких є **Tor Browser**, форк Firefox, призначений для анонімного перегляду веб-сторінок на настільних комп'ютерах і Android. На додаток до перелічених нижче програм, існують також операційні системи, розроблені спеціально для підключення до мережі Tor, такі як [Whonix](desktop.md#whonix) або [Qubes OS](desktop.md#qubes-os), які забезпечують ще більшу безпеку і захист, ніж стандартний Tor Browser.
 
 ### Tor Browser
 
 !!! рекомендації
 
-    ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
+    ![Логотип Tor Browser](assets/img/browsers/tor.svg){ align=right }
     
-    **Tor Browser** is the choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+    **Tor Browser** — це вибір, якщо вам потрібна анонімність, оскільки він надає доступ до мережі Tor і мостів, а також включає в себе стандартні налаштування і розширення, які автоматично налаштовуються на рівні безпеки за замовчуванням: *Стандартний*, *Безпечніший* і *Найбезпечніший*.
     
-    [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
+    [:octicons-home-16: Домашня сторінка](https://www.torproject.org){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
-    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Документація }
+    [:octicons-code-16:](https://gitweb.torproject.org/tor-browser.git/){ .card-link title="Вихідний код" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Зробити внесок }
     
     ??? downloads
     
@@ -47,23 +47,23 @@ There are a variety of ways to connect to the Tor network from your device, the 
 
 !!! danger
 
-    You should **never** install any additional extensions on Tor Browser or edit `about:config` settings, including the ones we suggest for Firefox. Browser extensions and non-standard settings make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
+    Ви **ніколи** не повинні встановлювати додаткові розширення для браузера Tor або змінювати налаштування `about:config`, включаючи ті, які ми рекомендуємо для Firefox. Розширення браузера і нестандартні налаштування виділяють вас серед інших користувачів мережі Tor, тим самим полегшуючи доступ до [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
-The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings/).
+Браузер Tor розроблений таким чином, щоб запобігти зняттю відбитків або ідентифікації вас на основі конфігурації вашого браузера. Тому вкрай важливо, щоб ви **не** модифікували браузер поза межами стандартних [рівнів безпеки](https://tb-manual.torproject.org/security-settings/).
 
 ### Orbot
 
 !!! рекомендації
 
-    ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+    ![Логотип Orbot](assets/img/self-contained-networks/orbot.svg){ align=right }
     
-    **Orbot** is a free Tor VPN for smartphones which routes traffic from any app on your device through the Tor network.
+    **Orbot** — це безкоштовна Tor VPN для смартфонів, яка спрямовує трафік від будь-якої програми на вашому пристрої через мережу Tor.
     
-    [:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
+    [:octicons-home-16: Домашня сторінка](https://orbot.app/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Політика конфіденційності" }
+    [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Документація}
+    [:octicons-code-16:](https://orbot.app/code){ .card-link title="Вихідний код" }
+    [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Зробити внесок}
     
     ??? downloads
     
@@ -71,47 +71,47 @@ The Tor Browser is designed to prevent fingerprinting, or identifying you based 
         - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
         - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
 
-For resistance against traffic analysis attacks, consider enabling *Isolate Destination Address* in :material-menu: → **Settings** → **Connectivity**. This will use a completely different Tor Circuit (different middle relay and exit nodes) for every domain you connect to.
+Для захисту від атак на аналіз трафіку ввімкніть *Ізоляцію адреси призначення* в :material-menu: → **Налаштуваннях** → **Підключення**. Для кожного домену, до якого ви підключаєтеся, буде використовуватися абсолютно інше Tor-з'єднання (різні проміжні реле і вихідні вузли).
 
-!!! tip "Tips for Android"
+!!! tip "Підказки для Android"
 
-    Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+    Orbot може спрямовувати через проксі окремі програми, якщо вони підтримують SOCKS або HTTP-проксі. Він також може спрямовувати через проксі всі ваші мережеві з'єднання за допомогою [VpnService](https://developer.android.com/reference/android/net/VpnService) і може використовуватися з кілсвічем VPN у :gear: **Налаштування** → **Мережа та Інтернет** → **VPN** → :gear: → **Блокувати з'єднання без VPN**.
     
-    Orbot is often outdated on the Guardian Project's [F-Droid repository](https://guardianproject.info/fdroid) and [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android), so consider downloading directly from the [GitHub repository](https://github.com/guardianproject/orbot/releases) instead.
+    Orbot часто застаріває в [F-Droid репозиторії](https://guardianproject.info/fdroid) Guardian Project та [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) Guardian Project, тому краще завантажуйте безпосередньо з [GitHub репозиторію](https://github.com/guardianproject/orbot/releases).
     
-    All versions are signed using the same signature so they should be compatible with each other.
+    Всі версії підписуються одним і тим же підписом, тому вони повинні бути сумісні одна з одною.
 
-## Relays and Bridges
+## Реле та мости
 
 ### Snowflake
 
 !!! рекомендації
 
-    ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
-    ![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
+    ![Логотип Snowflake](assets/img/browsers/snowflake.svg#only-light){ align=right }
+    ![Логотип Snowflake](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
     
-    **Snowflake** allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser.
+    **Snowflake** дозволяє вам пожертвувати пропускну здатність для проекту Tor, використовуючи "проксі-сервер Snowflake" у вашому браузері.
     
-    People who are censored can use Snowflake proxies to connect to the Tor network. Snowflake is a great way to contribute to the network even if you don't have the technical know-how to run a Tor relay or bridge.
+    Люди, які зазнають цензури, можуть використовувати проксі-сервери Snowflake для підключення до мережі Tor. Snowflake — це чудовий спосіб зробити внесок у мережу, навіть якщо ви не володієте технічними знаннями для запуску Tor-реле або моста.
     
-    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+    [:octicons-home-16: Домашня сторінка](https://snowflake.torproject.org/?lang=uk){ .md-button .md-button--primary }
+    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Oперегляд){ .card-link title=Документація}
+    [:octicons-code-16:](https://gitweb.torproject.org/pluggable-transports/snowflake.git/){ .card-link title="Вихідний код" }
+    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Зробити внесок}
     
     ??? downloads
     
         - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/)
         - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie)
-        - [:octicons-browser-16: Web](https://snowflake.torproject.org/embed "Leave this page open to be a Snowflake proxy")
+        - [:octicons-browser-16: Web](https://snowflake.torproject.org/embed "Залиште цю сторінку відкритою, щоб бути Snowflake проксі")
 
-??? tip "Embedded Snowflake"
+??? tip "Вбудована Snowflake"
 
-    You can enable Snowflake in your browser by clicking the switch below and ==leaving this page open==. You can also install Snowflake as a browser extension to have it always run while your browser is open, however adding third-party extensions can increase your attack surface.
+    Ви можете увімкнути Snowflake у вашому браузері, натиснувши перемикач нижче і ==залишивши цю сторінку відкритою==. Ви також можете встановити Snowflake як розширення для браузера, щоб він завжди працював, коли браузер відкритий, однак додавання сторонніх розширень може збільшити вашу поверхню атаки.
     
     <center><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe></center>
-    <small>If the embed does not appear for you, ensure you are not blocking the third-party frame from `torproject.org`. Alternatively, visit [this page](https://snowflake.torproject.org/embed.html).</small>
+    <small>Якщо вбудовуваний елемент не відображається, переконайтеся, що ви не заблокували сторонній фрейм з `torproject.org`. Крім того, відвідайте [цю сторінку](https://snowflake.torproject.org/embed.html).</small>
 
-Snowflake does not increase your privacy in any way, nor is it used to connect to the Tor network within your personal browser. However, if your internet connection is uncensored, you should consider running it to help people in censored networks achieve better privacy themselves. There is no need to worry about which websites people are accessing through your proxy—their visible browsing IP address will match their Tor exit node, not yours.
+Snowflake жодним чином не збільшує вашу конфіденційність і не використовується для підключення до мережі Tor у вашому власному браузері. Однак, якщо ваше інтернет-з'єднання не піддається цензурі, вам варто подумати про його використання, щоб допомогти людям, які перебувають у мережах з цензурою, самим досягти кращої конфіденційності. Вам не потрібно турбуватися про те, до яких сайтів люди отримують доступ через ваш проксі — їх видима IP-адреса буде відповідати їх вихідному вузлу з Tor, а не вашій.
 
-Running a Snowflake proxy is low-risk, even moreso than running a Tor relay or bridge which are already not particularly risky endeavours. However, it does still proxy traffic through your network which can be impactful in some ways, especially if your network is bandwidth-limited. Make sure you understand [how Snowflake works](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) before deciding whether to run a proxy.
+Запуск проксі-сервера Snowflake пов'язаний з навіть меншим ризиком, ніж запуск Tor-реле або моста, які й самі не є особливо ризикованими заходами. Однак він все одно спрямовує трафік проходить через вашу мережу, що може мати певний вплив, особливо якщо ваша мережа має обмежену пропускну здатність. Переконайтеся, що ви розумієте [як працює Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) перед тим, як вирішити, чи запускати проксі.

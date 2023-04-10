@@ -1,12 +1,12 @@
 ---
-title: "Desktop Browsers"
+title: "데스크톱 브라우저"
 icon: material/laptop
-description: Firefox and Brave are our recommendations for standard/non-anonymous browsing.
+description: 일반/비익명 용도로 권장하는 브라우저는 Firefox, Brave입니다.
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Desktop Browser Recommendations
+    name: 비공개 탐색 데스크톱 브라우저 권장 목록
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
@@ -65,58 +65,58 @@ These are our currently recommended desktop web browsers and configurations for 
 !!! warning
     Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
-### Recommended Configuration
+### 권장 설정
 
 Tor Browser is the only way to truly browse the internet anonymously. When you use Firefox, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
 
-These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
+이러한 옵션은 :material-menu: → **설정** → **개인 정보 및 보안**에서 확인할 수 있습니다
 
-##### Enhanced Tracking Protection
+##### 향상된 추적 방지 기능
 
-- [x] Select **Strict** Enhanced Tracking Protection
+- [x] 향상된 추적 방지 기능에서 **엄격** 활성화
 
 This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
 
 ##### Sanitize on Close
 
-If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+특정 사이트의 로그인을 유지하려면 **쿠키 및 사이트 데이터** → **예외 관리...**에서 예외를 허용할 수 있습니다.
 
-- [x] Check **Delete cookies and site data when Firefox is closed**
+- [x] **Firefox를 닫을 때 쿠키와 사이트 데이터를 삭제** 활성화
 
 This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
-##### Search Suggestions
+##### 검색 제안
 
-- [ ] Uncheck **Provide search suggestions**
+- [ ] **검색 제안 사용** 비활성화
 
-Search suggestion features may not be available in your region.
+여러분의 지역에 따라 검색 제안 기능을 사용하지 못할 수도 있습니다.
 
 Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 ##### Telemetry
 
-- [ ] Uncheck **Allow Firefox to send technical and interaction data to Mozilla**
-- [ ] Uncheck **Allow Firefox to install and run studies**
-- [ ] Uncheck **Allow Firefox to send backlogged crash reports on your behalf**
+- [ ] **Firefox가 기술과 상호 작용 정보를 Mozilla에 전송하도록 허용** 비활성화
+- [ ] **Firefox가 연구를 설치하고 실행하도록 허용** 비활성화
+- [ ] **Firefox가 사용자를 대신하여 백로그된 충돌 보고서를 보내도록 허용** 비활성화
 
 > Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
 
-Additionally, the Firefox Accounts service collects [some technical data](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts). If you use a Firefox Account you can opt-out:
+또한 Firefox 계정 서비스는 [일부 기술 데이터](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts)를 수집합니다. If you use a Firefox Account you can opt-out:
 
 1. Open your [profile settings on accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Uncheck **Data Collection and Use** > **Help improve Firefox Accounts**
 
-##### HTTPS-Only Mode
+##### HTTPS 전용 모드
 
-- [x] Select **Enable HTTPS-Only Mode in all windows**
+- [x] **모든 창에서 HTTPS 전용 모드 사용** 활성화
 
 This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day to day browsing.
 
-### Firefox Sync
+### Firefox 동기화
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
 
-### Arkenfox (advanced)
+### Arkenfox (고급)
 
 The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly - [which you can easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users) support.
 
@@ -204,11 +204,15 @@ Disable built-in extensions you do not use in **Extensions**
 - [ ] Uncheck **Hangouts**
 - [ ] Uncheck **WebTorrent**
 
-##### IPFS
+##### Web3
 
-InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+<div class="annotate" markdown>
 
-- [x] Select **Disabled** on Method to resolve IPFS resources
+- [x] Select **Disabled** on Method to resolve IPFS resources (1)
+
+</div>
+
+1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
 
 ##### Additional settings
 
@@ -258,7 +262,7 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 - [x] Check **Privacy** > **AdGuard URL Tracking Protection**
 - Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
-## Criteria
+## 평가 기준
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
