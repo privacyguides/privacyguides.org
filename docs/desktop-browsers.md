@@ -125,9 +125,19 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 
 ### Recommended Configuration
 
-These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
+##### Search Suggestions
+
+These options can be found in :material-menu: → **Settings** → **Search**.
+
+- [ ] Uncheck **Provide search suggestions**
+
+Search suggestion features may not be available in your region.
+
+Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 ##### Enhanced Tracking Protection
+
+These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
 
 - [x] Select **Strict** Enhanced Tracking Protection
 
@@ -140,14 +150,6 @@ If you want to stay logged in to particular sites, you can allow exceptions in *
 - [x] Check **Delete cookies and site data when Firefox is closed**
 
 This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
-
-##### Search Suggestions
-
-- [ ] Uncheck **Provide search suggestions**
-
-Search suggestion features may not be available in your region.
-
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 ##### Telemetry
 
