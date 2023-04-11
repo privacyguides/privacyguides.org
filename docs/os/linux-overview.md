@@ -114,7 +114,7 @@ Additionally, some distributions will not download firmware updates automaticall
 
 ### MAC Address Randomization
 
-Many desktop Linux distributions (Fedora, openSUSE, etc) will come with [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager), to configure Ethernet and Wi-Fi settings.
+Many desktop Linux distributions (Fedora, openSUSE, etc.) will come with [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager), to configure Ethernet and Wi-Fi settings.
 
 It is possible to [randomize](https://fedoramagazine.org/randomize-mac-address-nm/) the [MAC address](https://en.wikipedia.org/wiki/MAC_address) when using NetworkManager. This provides a bit more privacy on Wi-Fi networks as it makes it harder to track specific devices on the network you’re connected to. It does [**not**](https://papers.mathyvanhoef.com/wisec2016.pdf) make you anonymous.
 
