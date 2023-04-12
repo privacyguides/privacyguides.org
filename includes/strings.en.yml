@@ -43,3 +43,7 @@ nav:
   Changelog: Changelog
   Forum: Forum
   Blog: Blog
+
+site:
+  translation: |
+    You're viewing the [LANG] copy of Privacy Guides, translated by our fantastic language team on Crowdin. If you notice an error, or see any untranslated sections on this page, please consider helping out!

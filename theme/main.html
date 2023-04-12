@@ -72,3 +72,27 @@
 {{ page.meta.schema|tojson }}
 </script>
 {% endif %}{% endblock %}
+{% block content %}
+    {% include "partials/content.html" %}
+    {% if config.theme.language == "es" %}
+    <div class="admonition info">
+    <p>Está viendo la copia en español de Privacy Guides, traducidas por nuestro fantástico equipo lingüístico en <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. Si nota un error o ve alguna sección sin traducir en esta página, ¡<a href="https://matrix.to/#/#pg-i18n:aragon.sh">considere ayudar</a>!</p>
+    <p>You're viewing the Spanish copy of Privacy Guides, translated by our fantastic language team on <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. If you notice an error, or see any untranslated sections on this page, please consider <a href="https://matrix.to/#/#pg-i18n:aragon.sh">helping out</a>!</p>
+    </div>
+    {% elif config.theme.language == "fr" %}
+    <div class="admonition info">
+    <p>Vous regardez la copie française de Privacy Guides, traduite par notre fantastique équipe linguistique sur <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. Si vous remarquez une erreur ou voyez des sections non traduites sur cette page, <a href="https://matrix.to/#/#pg-i18n:aragon.sh">pensez à aider</a> !</p>
+    <p>You're viewing the French copy of Privacy Guides, translated by our fantastic language team on <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. If you notice an error, or see any untranslated sections on this page, please consider <a href="https://matrix.to/#/#pg-i18n:aragon.sh">helping out</a>!</p>
+    </div>
+    {% elif config.theme.language == "he" %}
+    <div class="admonition info">
+    <p>אתה צופה בעותק העברי של Privacy Guides, שתורגם על ידי צוות השפה הפנטסטי שלנו ב-<a href="https://crowdin.com/project/privacyguides">Crowdin</a>. אם אתה מבחין בשגיאה, או רואה קטעים לא מתורגמים בדף זה, <a href="https://matrix.to/#/#pg-i18n:aragon.sh">אנא שקול לעזור!</a></p>
+    <p>You're viewing the Hebrew copy of Privacy Guides, translated by our fantastic language team on <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. If you notice an error, or see any untranslated sections on this page, please consider <a href="https://matrix.to/#/#pg-i18n:aragon.sh">helping out</a></p>
+    </div>
+    {% elif config.theme.language == "nl" %}
+    <div class="admonition info">
+    <p>Je bekijkt de Nederlandse versie van Privacy Guides, vertaald door ons fantastische taalteam op <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. Als u een fout opmerkt of onvertaalde gedeelten op deze pagina ziet, <a href="https://matrix.to/#/#pg-i18n:aragon.sh">overweeg dan om te helpen</a>!</p>
+    <p>You're viewing the Dutch copy of Privacy Guides, translated by our fantastic language team on <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. If you notice an error, or see any untranslated sections on this page, please consider <a href="https://matrix.to/#/#pg-i18n:aragon.sh">helping out</a></p>
+    </div>
+    {% endif %}
+{% endblock %}
