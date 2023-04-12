@@ -24,7 +24,7 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS etc) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Software such as web browsers do these lookups automatically, unless they are configured to use encrypted DNS.
+2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Software such as web browsers do these lookups automatically, unless they are configured to use encrypted DNS.
 
     === "Linux, macOS"
 
@@ -118,7 +118,7 @@ When we do a DNS lookup, it's generally because we want to access a resource. Be
 
 The simplest way to determine browsing activity might be to look at the IP addresses your devices are accessing. For example, if the observer knows that `privacyguides.org` is at `198.98.54.105`, and your device is requesting data from `198.98.54.105`, there is a good chance you're visiting Privacy Guides.
 
-This method is only useful when the IP address belongs to a server that only hosts few websites. It's also not very useful if the site is hosted on a shared platform (e.g. Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc). It also isn't very useful if the server is hosted behind a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), which is very common on the modern Internet.
+This method is only useful when the IP address belongs to a server that only hosts few websites. It's also not very useful if the site is hosted on a shared platform (e.g. Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). It also isn't very useful if the server is hosted behind a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), which is very common on the modern Internet.
 
 ### Server Name Indication (SNI)
 
