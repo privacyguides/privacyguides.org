@@ -125,13 +125,30 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 
 ### Recommended Configuration
 
-These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
+These options can be found in :material-menu: → **Settings**
+
+#### Search
+
+- [ ] Uncheck **Provide search suggestions**
+
+Search suggestion features may not be available in your region.
+
+Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+
+#### Privacy & Security
 
 ##### Enhanced Tracking Protection
 
 - [x] Select **Strict** Enhanced Tracking Protection
 
 This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+
+##### Firefox Suggest (US only)
+
+[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+
+- [ ] Uncheck **Suggestions from the web**
+- [ ] Uncheck **Suggestions from sponsors**
 
 ##### Sanitize on Close
 
@@ -140,14 +157,6 @@ If you want to stay logged in to particular sites, you can allow exceptions in *
 - [x] Check **Delete cookies and site data when Firefox is closed**
 
 This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
-
-##### Search Suggestions
-
-- [ ] Uncheck **Provide search suggestions**
-
-Search suggestion features may not be available in your region.
-
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 ##### Telemetry
 
@@ -168,7 +177,7 @@ Additionally, the Firefox Accounts service collects [some technical data](https:
 
 This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day to day browsing.
 
-### Firefox Sync
+#### Sync
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
 
@@ -211,6 +220,8 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
 These options can be found in :material-menu: → **Settings**.
 
+#### Settings
+
 ##### Shields
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) feature. We suggest configuring these options [globally](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) across all pages that you visit.
@@ -249,6 +260,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 - [ ] Uncheck **Private window with Tor** (1)
 
     !!! tip "Sanitizing on Close"
+
         - [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
 
         If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
@@ -266,17 +278,13 @@ Disable built-in extensions you do not use in **Extensions**
 
 ##### Web3
 
-<div class="annotate" markdown>
+Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of features, they should be disabled.
 
-- [x] Select **Disabled** on Method to resolve IPFS resources (1)
+- [ ] Set **Default Ethereum Wallet** to **None**
+- [ ] Set **Default Solana Wallet** to **None**
+- [ ] Set **Method to resolve IPFS resources** to **Disabled
 
-</div>
-
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
-
-##### Additional settings
-
-Under the *System* menu
+##### System
 
 <div class="annotate" markdown>
 
@@ -286,9 +294,15 @@ Under the *System* menu
 
 1. This option is not present on all platforms.
 
-### Brave Sync
+#### Sync
 
 [Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+
+#### Brave Rewards and Wallet
+
+**Brave Rewards** lets you recieve Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#other-coins-bitcoin-ethereum-etc), so we would discourage using this feature.
+
+**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
 ## Additional Resources
 
