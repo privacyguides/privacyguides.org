@@ -77,6 +77,12 @@
     <a href="https://www.privacyguides.org/"> 
     <strong>Visit privacyguides.org for current advice.</strong>
     </a>
+{% elif config.extra.context == "branch-deploy" %}
+    You're viewing a <strong>staging branch</strong> of Privacy Guides built on {{ build_date_utc }}.
+    The information on this page may be incomplete or otherwise not yet meet our editorial release standards.
+    <a href="https://www.privacyguides.org/"> 
+    <strong>Visit privacyguides.org for current advice.</strong>
+    </a>
 {% else %}{% endif %}{% endblock %}
 {% block extrahead %}{% if page and page.meta and page.meta.schema %}
 <script type="application/ld+json">

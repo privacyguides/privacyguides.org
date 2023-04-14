@@ -111,6 +111,8 @@ Translations downloaded from Crowdin are [.gitignore](/.gitignore)'d, so any loc
 
 ## Releasing
 
+It is required to create a GitHub release to publish the current site to privacyguides.org. The current `main` branch can be previewed at [https://main.staging.privacyguides.dev](https://main.staging.privacyguides.dev) prior to release.
+
 1. Create a new tag: `git tag -s v3.X.X -m 'Some message'`
     - [View existing tags](https://github.com/privacyguides/privacyguides.org/tags)
     - Tag [numbering](https://semver.org/): Increment the MINOR (2nd) number when making significant changes (adding/deleting pages, etc.), increment the PATCH (3rd) number when making minor changes (typos, bug fixes). Probably leave the MAJOR number at 3 until a massive revamp (v1 -> v2 was the Jekyll to MkDocs transition, v2 -> v3 was the introduction of translations).
