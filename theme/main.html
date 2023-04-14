@@ -55,6 +55,17 @@
     <link rel="icon" href="{{ config.theme.favicon | url }}">
     <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-material-9.1.0+insiders-4.32.2">
 {% endblock %}
+{% block htmltitle %}
+    {% if page.meta and page.meta.meta_title and config.theme.language == "en" %}
+    <title>{{ page.meta.meta_title }}</title>
+    {% elif page.meta and page.meta.title %}
+    <title>{{ page.meta.title }} - {{ config.site_name }}</title>
+    {% elif page.title and not page.is_homepage %}
+    <title>{{ page.title | striptags }} - {{ config.site_name }}</title>
+    {% else %}
+    <title>{{ config.site_name }}</title>
+    {% endif %}
+{% endblock %}
 {% block announce %}{% if config.extra.offline %}
     You're viewing an offline copy of Privacy Guides built on {{ build_date_utc }}.
     <a href="https://www.privacyguides.org/"> 

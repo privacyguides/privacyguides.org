@@ -1,4 +1,5 @@
 ---
+meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
 template: overrides/home.en.html
 hide:
   - navigation
