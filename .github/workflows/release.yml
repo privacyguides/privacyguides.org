@@ -42,7 +42,7 @@ jobs:
       
       - name: Push to production branch
         run: |
-          git push origin main:production
+          git push origin HEAD:production
       
       - name: Pages setup
         uses: actions/configure-pages@v3
