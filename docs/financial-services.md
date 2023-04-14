@@ -76,7 +76,7 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 
     ![CakePay logo](assets/img/financial-services/coincards.svg){ align=right }
 
-    **CoinCards** (available in the US, Canada, and UK) allows you to purchase gift cards for a large variety of merchants.
+    **CoinCards** (available in the US and Canada) allows you to purchase gift cards for a large variety of merchants.
 
     [:octicons-home-16: Homepage](https://coincards.com/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="Privacy Policy" }
