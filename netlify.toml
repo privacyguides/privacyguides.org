@@ -22,6 +22,9 @@
     publish = "site/"
     command = "crowdin download && mkdocs build --config-file config/mkdocs.en.yml && mkdocs build --config-file config/mkdocs.es.yml && mkdocs build --config-file config/mkdocs.he.yml && mkdocs build --config-file config/mkdocs.fr.yml && mkdocs build --config-file config/mkdocs.nl.yml && mv _redirects site/"
 
+    [context.deploy-preview]
+        command = "mkdocs build --config-file config/mkdocs.en.yml && mv _redirects site/"
+
 [[headers]]
   for = "/*"
   [headers.values]
