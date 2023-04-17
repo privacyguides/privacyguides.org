@@ -3,6 +3,7 @@ meta_title: "The Best Private and Secure Cloud Storage Providers - Privacy Guide
 title: "Cloud Storage"
 icon: material/file-cloud
 description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
+cover: cloud.png
 ---
 Many cloud storage providers require your full trust that they will not look at your files. The alternatives listed below eliminate the need for trust by implementing secure E2EE.
 

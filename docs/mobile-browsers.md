@@ -3,6 +3,7 @@ meta_title: "Privacy Respecting Mobile Web Browsers for Android and iOS - Privac
 title: "Mobile Browsers"
 icon: material/cellphone-information
 description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
+cover: mobile-browsers.png
 schema:
   - 
     "@context": http://schema.org

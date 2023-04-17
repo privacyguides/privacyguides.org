@@ -3,6 +3,7 @@ meta_title: "The Best Password Managers to Protect Your Privacy and Security - P
 title: "Password Managers"
 icon: material/form-textbox-password
 description: Password managers allow you to securely store and manage passwords and other credentials.
+cover: passwords.png
 schema:
   - 
     "@context": http://schema.org
