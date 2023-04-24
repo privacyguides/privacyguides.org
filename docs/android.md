@@ -210,10 +210,6 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
     [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribute }
 
-    ??? downloads
-
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.typeblog.shelter)
-
 !!! warning
 
     Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular/) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
