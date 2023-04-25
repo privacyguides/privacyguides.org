@@ -69,9 +69,9 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://support.apple.com/guide/mail/toc){ .card-link title=Documentation}
 
-It also features the ability to load remote content in the background or block it entirely and hide your IP address from senders. Under Mail > Settings > Privacy
+It also features the ability to load remote content in the background or block it entirely and hide your IP address from senders. Under Mail → Settings → Privacy
 
-[x] Check **Protect Mail Activity**
+- [x] Check **Protect Mail Activity**
 
 ### Canary Mail (iOS)
 
