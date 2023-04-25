@@ -284,7 +284,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 - [ ] Set **Default Ethereum Wallet** to **None**
 - [ ] Set **Default Solana Wallet** to **None**
-- [ ] Set **Method to resolve IPFS resources** to **Disabled
+- [ ] Set **Method to resolve IPFS resources** to **Disabled**
 
 ##### System
 
