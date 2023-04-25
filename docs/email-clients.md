@@ -65,7 +65,7 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
 
     **Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption.md#gpg-suite), which adds the ability to send PGP-encrypted email.
 
-    It also features the ability to load remote content in the background or block it entirely and hide your IP address from senders on [macOS](https://support.apple.com/guide/mail/use-mail-privacy-protection-mlhl03be2866/mac#:~:text=In%20the%20Mail%20app%20on,of%20when%20you%20view%20it) and [iOS](https://support.apple.com/guide/iphone/use-mail-privacy-protection-iphf084865c7/ios).
+    It also features the ability to load remote content in the background or block it entirely and hide your IP address from senders on [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) and [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
 
     [:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="Privacy Policy" }
