@@ -58,7 +58,7 @@ So far in 2023 we've launched international translations of our website in [Fren
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/Niek-de-Wilde)
     - [:simple-github: GitHub](https://github.com/blacklight447 "@blacklight447")
     - [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
-  - [:fontawesome-solid-envelope: Email](mailto:niekdewilde@privacyguides.org)
+    - [:fontawesome-solid-envelope: Email](mailto:niekdewilde@privacyguides.org)
 
 ??? person "@dngray"
 
