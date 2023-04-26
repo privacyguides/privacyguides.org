@@ -9,6 +9,8 @@ Sometimes services will try to force you to sign up for an account by blocking a
 
 If you choose to self-host these frontends, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
 
+When you are using an instance run by someone else, make sure to read the privacy policy of that specific instance. They can be modified by their owners and therefore may not reflect the default policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII.
+
 ## LBRY
 
 ### Librarian
@@ -35,8 +37,6 @@ If you choose to self-host these frontends, it is important that you have other 
 
     Librarian is useful if you want watch LBRY content on mobile without mandatory telemetry and if you want to disable JavaScript in your browser, as is the case with [Tor Browser](https://www.torproject.org/) on the Safest security level.
 
-When you are using a Librarian instance, make sure to read the privacy policy of that specific instance. Librarian instances can be modified by their owners and therefore may not reflect the default policy. Librarian instances feature a "privacy nutrition label" to provide an overview of their policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII.
-
 ## Twitter
 
 ### Nitter
@@ -59,8 +59,6 @@ When you are using a Librarian instance, make sure to read the privacy policy of
 
     Nitter is useful if you want to browse Twitter content without having to log in and if you want to disable JavaScript in your browser, as is the case with [Tor Browser](https://www.torproject.org/) on the Safest security level. It also allows you to [create RSS feeds for Twitter](news-aggregators.md#twitter).
 
-When you are using a Nitter instance, make sure to read the privacy policy of that specific instance. Nitter instances can be modified by their owners and therefore may not reflect the default policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII.
-
 ## TikTok
 
 ### ProxiTok
@@ -81,8 +79,6 @@ When you are using a Nitter instance, make sure to read the privacy policy of th
 !!! tip
 
     ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level.
-
-When you are using a ProxiTok instance, make sure to read the privacy policy of that specific instance. ProxiTok instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII.
 
 ## YouTube
 
@@ -217,8 +213,6 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
 
     Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
 
-When you are using an Invidious instance, make sure to read the privacy policy of that specific instance. Invidious instances can be modified by their owners and therefore may not reflect their associated privacy policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII.
-
 ### Piped
 
 !!! recommendation
@@ -238,8 +232,6 @@ When you are using an Invidious instance, make sure to read the privacy policy o
 !!! tip
 
     Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension or to access age-restricted content without an account. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
-
-When you are using a Piped instance, make sure to read the privacy policy of that specific instance. Piped instances can be modified by their owners and therefore may not reflect their associated privacy policy.
 
 ## Criteria
 
