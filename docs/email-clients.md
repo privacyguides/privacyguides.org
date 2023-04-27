@@ -57,7 +57,7 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
 
 ## Platform Specific
 
-### Apple Mail (macOS, iOS)
+### Apple Mail (macOS)
 
 !!! recommendation
 
