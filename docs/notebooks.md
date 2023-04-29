@@ -63,7 +63,7 @@ Since January 2023, Joplin supports biometrics app lock for [Android](https://jo
         - [:simple-linux: Linux](https://standardnotes.com)
         - [:octicons-globe-16: Web](https://app.standardnotes.com/)
         
-You still need to pay an [offline subscription](https://standardnotes.com/help/self-hosting/subscriptions) to be able to use premium features for self-hosting. The payement is done by paying monthly or yearly. The prices are really different, monthly is 5.85$/month (meaning 70.2$/year) and yearly is 3.25$/month (meaning 39$/year).
+You still need to pay an [offline subscription](https://standardnotes.com/help/self-hosting/subscriptions) to be able to use premium features for self-hosting.
 
 ### Cryptee
 
