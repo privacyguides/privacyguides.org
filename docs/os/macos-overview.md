@@ -13,7 +13,7 @@ Apple's newer hardware always has the [best security](https://support.apple.com/
 
 If you use Bluetooth accessories such as a keyboard, we recommend that you use official Apple ones as their firmware will automatically be updated for you by macOS. Using third party accessories is fine, but you should remember to install firmware updates for them regularly.
 
-Apple's SoC's focus on minimizing attack surface by religating security functions to dedicated hardware with limited functionality.
+Apple's SoCs focus on minimizing attack surface by relegating security functions to dedicated hardware with limited functionality.
 
 ### Boot ROM
 
