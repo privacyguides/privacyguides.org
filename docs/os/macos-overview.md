@@ -31,13 +31,11 @@ It's separated from the rest of the system, so even if the main processor is com
 
 You can think of the Secure Enclave as your device's security hub: it has an AES encryption engine and a mechanism to securely store your encryption keys.
 
-### Face ID and Touch ID
+### Touch ID
 
-Apple's Face ID and Touch ID features allow you to securely unlock your devices using biometrics.
+Apple's Touch ID feature allows you to securely unlock your devices using biometrics.
 
 Your biometric data never leaves your device; it's stored only in the Secure Enclave.
-
-Face ID makes use of an infrared sensor projecting thousands of dots onto your face to create a sequence of 2D images and depth maps, which are randomized in a device-specific pattern to protect against spoofing.
 
 ### Hardware Microphone Disconnect
 
