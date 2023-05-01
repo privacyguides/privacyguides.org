@@ -1,6 +1,6 @@
 ---
 title: macOS Overview
-icon: simple/macos
+icon: material/apple-finder
 description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
 ---
 macOS provides great security out-of-the-box. With some tweaks, you can tailor it to your privacy needs.
