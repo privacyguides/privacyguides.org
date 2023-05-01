@@ -21,7 +21,7 @@ macOS prevents malware persistence by only allowing official Apple software to r
 
 The Boot ROM forms the hardware root of trust. This ensures that malware cannot tamper with the boot process. When your Mac boots up, the boot ROM is the first thing that runs, forming the first link in the chain of trust.
 
-Macs can be configured to boot in three security modes: *Full Security*, *Reduced Security*, and *Permissive Security*. You should ideally be using Full Security mode, but using things like kernel extensions can require a lower security mode. Make sure to [check](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) that you're using the highest security mode you can.
+Macs can be configured to boot in three security modes: *Full Security*, *Reduced Security*, and *Permissive Security*. You should ideally be using Full Security mode, but using things like kernel extensions can require a lower security mode. Make sure to [check](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) that you're using the highest security mode you can. macOS uses Full Security by default.
 
 ### Secure Enclave
 
@@ -44,4 +44,12 @@ Face ID makes use of an infrared sensor projecting thousands of dots onto your f
 All Apple silicon MacBooks feature a hardware disconnect whenever the lid is closed. This means that there is no way for an attacker to listen to your Mac's microphone even if the operating system is compromised.
 
 Note that the camera does not have a hardware disconnect, since its view is obscured when the lid is closed anyway.
+
+## Operating System
+
+### Signed System Volume
+
+macOS's system components are protected in a read-only signed system volume, meaning that neither you nor malware can alter important system files.
+
+The system volume is verified while it's running and any data that's not signed with a valid cryptographic signature from Apple will be rejected.
 
