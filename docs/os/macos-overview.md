@@ -19,7 +19,7 @@ Apple's SoCs focus on minimizing attack surface by relegating security functions
 
 macOS prevents malware persistence by only allowing official Apple software to run at boot time; this is known as secure boot. Macs verify this with a bit of read-only memory on the SoC called the boot ROM, which is laid down during the manufacturing of the chip.
 
-The Boot ROM forms the hardware root of trust. This ensures that malware cannot tamper with the boot process. When your Mac boots up, the boot ROM is the first thing that runs, forming the first link in the chain of trust.
+The boot ROM forms the hardware root of trust. This ensures that malware cannot tamper with the boot process. When your Mac boots up, the boot ROM is the first thing that runs, forming the first link in the chain of trust.
 
 Macs can be configured to boot in three security modes: *Full Security*, *Reduced Security*, and *Permissive Security*. You should ideally be using Full Security mode, but using things like kernel extensions can require a lower security mode. Make sure to [check](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) that you're using the highest security mode you can. macOS uses Full Security by default.
 
