@@ -38,3 +38,10 @@ Apple's Face ID and Touch ID features allow you to securely unlock your devices 
 Your biometric data never leaves your device; it's stored only in the Secure Enclave.
 
 Face ID makes use of an infrared sensor projecting thousands of dots onto your face to create a sequence of 2D images and depth maps, which are randomized in a device-specific pattern to protect against spoofing.
+
+### Hardware Microphone Disconnect
+
+All Apple silicon MacBooks feature a hardware disconnect whenever the lid is closed. This means that there is no way for an attacker to listen to your Mac's microphone even if the operating system is compromised.
+
+Note that the camera does not have a hardware disconnect, since its view is obscured when the lid is closed anyway.
+
