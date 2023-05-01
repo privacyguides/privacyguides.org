@@ -7,7 +7,7 @@ macOS provides great security out-of-the-box. With some tweaks, you can tailor i
 
 ## Hardware
 
-Many security features in macOS like secure boot rely on Apple's hardware to function properly. For this reason, we recommend you only run it on Macs and avoid hackintoshes.
+Many security features in macOS like Secure Boot rely on Apple's hardware to function properly. For this reason, we recommend you only run it on Macs and avoid Hackintoshes.
 
 Apple's newer hardware always has the [best security](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1); you should check to make sure the Mac you're buying has at least their M1 chip, as their Intel Macs are vulnerable to the [checkm8](https://www.theiphonewiki.com/wiki/Checkm8_Exploit) exploit.
 
