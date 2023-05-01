@@ -5,6 +5,14 @@ description: macOS is Apple's desktop operating system that works with their har
 ---
 macOS provides great security out-of-the-box. With some tweaks, you can tailor it to your privacy needs.
 
+## Software
+
+### Signed System Volume
+
+macOS's system components are protected in a read-only signed system volume, meaning that neither you nor malware can alter important system files.
+
+The system volume is verified while it's running and any data that's not signed with a valid cryptographic signature from Apple will be rejected.
+
 ## Hardware
 
 Many security features in macOS like Secure Boot rely on Apple's hardware to function properly. For this reason, we recommend you only run it on Macs and avoid Hackintoshes.
@@ -42,12 +50,3 @@ Your biometric data never leaves your device; it's stored only in the Secure Enc
 All Apple silicon MacBooks feature a hardware disconnect whenever the lid is closed. This means that there is no way for an attacker to listen to your Mac's microphone even if the operating system is compromised.
 
 Note that the camera does not have a hardware disconnect, since its view is obscured when the lid is closed anyway.
-
-## Operating System
-
-### Signed System Volume
-
-macOS's system components are protected in a read-only signed system volume, meaning that neither you nor malware can alter important system files.
-
-The system volume is verified while it's running and any data that's not signed with a valid cryptographic signature from Apple will be rejected.
-
