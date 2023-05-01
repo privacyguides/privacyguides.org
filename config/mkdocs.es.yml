@@ -95,6 +95,7 @@ markdown_extensions:
 nav:
   - Inicio: 'index.md'
   - Base de conocimientos:
+    - 'basics/why-privacy-matters.md'
     - 'basics/threat-modeling.md'
     - 'basics/common-threats.md'
     - 'basics/common-misconceptions.md'
