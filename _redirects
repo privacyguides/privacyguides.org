@@ -27,8 +27,8 @@
 
 /.well-known/matrix/* https://matrix.privacyguides.org/.well-known/matrix/:splat 200
 
-/kb /en/basics/threat-modeling/
-/:lang/kb /:lang/basics/threat-modeling/
+/kb /en/basics/why-privacy-matters/
+/:lang/kb /:lang/basics/why-privacy-matters/
 
 /coc /en/CODE_OF_CONDUCT/
 /license https://github.com/privacyguides/privacyguides.org/tree/main/README.md#license
