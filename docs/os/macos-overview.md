@@ -65,6 +65,6 @@ Your biometric data never leaves your device; it's stored only in the Secure Enc
 
 ### Hardware Microphone Disconnect
 
-All Apple silicon MacBooks feature a hardware disconnect whenever the lid is closed. This means that there is no way for an attacker to listen to your Mac's microphone even if the operating system is compromised.
+All Apple silicon MacBooks feature a hardware disconnect for the inbuilt microphone whenever the lid is closed. This means that there is no way for an attacker to listen to your Mac's microphone even if the operating system is compromised.
 
 Note that the camera does not have a hardware disconnect, since its view is obscured when the lid is closed anyway.
