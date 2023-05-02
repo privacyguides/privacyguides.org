@@ -29,11 +29,11 @@ While you are booted into linux, move all files you want to save onto an externa
 
 You'll want a clean install of your operating system. The process will vary for each one, so you should consult your operating system's documentation. Generally, you should use a USB drive and boot into it to wipe your old OS and install a fresh one, although not all operating systems allow this.
 
-[Windows](https://support.microsoft.com/en-us/windows/create-installation-media-for-windows-99a58364-8c02-206f-aa6f-40c3b507420d){ .md-button }
+[:simple-windows: Windows](https://support.microsoft.com/en-us/windows/create-installation-media-for-windows-99a58364-8c02-206f-aa6f-40c3b507420d){ .md-button }
 
-[macOS](https://support.apple.com/guide/mac-help/erase-and-reinstall-macos-mh27903/){ .md-button }
+[:simple-apple: macOS](https://support.apple.com/guide/mac-help/erase-and-reinstall-macos-mh27903/){ .md-button }
 
-[Ubuntu](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview){ .md-button }
+[:simple-ubuntu: Ubuntu](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview){ .md-button }
 
 ## Set up Your New OS
 
