@@ -123,7 +123,17 @@ Rosetta is a translation layer that lets you run programs for Intel Macs on Appl
 
 In Macs with Apple silicon, your data is always stored encrypted with [Class C](https://support.apple.com/guide/security/data-protection-classes-secb010e978a/1/web/1) Data Protection.
 
-You can enable Filevault to require a password to decrypt your drive.
+You can enable **Filevault** to require a password to decrypt your drive.
+
+### Application Security
+
+macOS apps downloaded from the App Store are required to be sandboxed.
+
+!!! warning
+
+    Software downloaded from outside the official App Store is not required to be sandboxed. You should avoid non-App Store software as much as possible.
+
+macOS comes with built-in antivirus software called XProtect. ==We recommend that you **do not** install third-party antivirus software, as it is a major privacy and security concern==.
 
 ## Hardware
 
