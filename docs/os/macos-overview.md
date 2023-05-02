@@ -57,6 +57,50 @@ Click the small **i** icon next to **Automatic Updates**
 
 - [x] Check **Install Security Responses and system files**
 
+### Privacy & Security
+
+Whenever an application requests a permission, it will show up here. You can decide which applications you want to allow or deny specific permissions.
+
+**Location Services**
+
+You can individaully allow location services per-app. Turning off location services system-wide is the most private option.
+
+- [ ] Uncheck **Location Services**
+
+**Analytics & Improvements**
+
+Decide whether you want to share analytics data with Apple and developers.
+
+- [ ] Uncheck **Share Mac Analytics**
+
+- [ ] Uncheck **Improve Siri & Dictation**
+
+- [ ] Uncheck **Share with app developers**
+
+**Apple Advertising**
+
+Decide whether you want personalized ads based on your usage.
+
+- [ ] Uncheck **Personalized Ads**
+
+**Security**
+
+If you don't need non-App Store apps
+
+- [x] Select **App Store**
+
+**Filevault**
+
+Filevault will make it so you need a password to access data on your drive.
+
+- [x] Click **Turn On**
+
+**Lockdown Mode**
+
+Lockdown Mode disables some features in order to improve security. Some apps or features won't work the same way then do when it's off.
+
+- [x] Click **Turn On**
+
 ## Software
 
 ### Signed System Volume
