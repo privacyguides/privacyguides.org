@@ -106,6 +106,7 @@ nav:
       - 'basics/multi-factor-authentication.md'
       - 'basics/email-security.md'
       - 'basics/vpn-overview.md'
+      - 'basics/first-steps-after-being-hacked.md'
     - Operating Systems:
       - 'os/android-overview.md'
       - 'os/linux-overview.md'
