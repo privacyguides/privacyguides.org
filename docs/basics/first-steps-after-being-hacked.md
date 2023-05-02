@@ -15,6 +15,8 @@ This is especially important with ransomware. The faster you interrupt the softw
 
 If your device is a phone, it very likely has Verified Boot and turning it off and on again will prevent malware from loading.
 
+In the event of ransomware, ==**never** pay the ransom.== There's no guarantee you'll get your data back and it only encourages criminal behavior.
+
 ## Check to Make Sure you Have Backups
 
 Hopefully you backed up your important data beforehand to an external location. If you didn't, you can try to make a [bootable Linux drive](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview) that you can boot into and see what files are still intact. ==You should use a known-good computer to make this drive, and keep your infected computer disconnected from everything except power while it's turned on. **DO NOT** connect to Wi-Fi.==
