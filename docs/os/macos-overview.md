@@ -97,7 +97,7 @@ Filevault will make it so you need a password to access data on your drive.
 
 **Lockdown Mode**
 
-Lockdown Mode disables some features in order to improve security. Some apps or features won't work the same way then do when it's off.
+Lockdown Mode disables some features in order to improve security. Some apps or features won't work the same way they do when it's off.
 
 - [x] Click **Turn On**
 
