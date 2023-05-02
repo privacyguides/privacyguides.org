@@ -11,17 +11,51 @@ By default, your account when you first set up your Mac will be an Administrator
 
 Open the Settings app.
 
-**Bluetooth**
+### Bluetooth
 
 - [ ] Uncheck **Bluetooth** (unless you are currently using it)
 
-**Network**
+### Network
 
 Depending on if you are using **Wi-Fi** or **ethernet** (denoted by a green dot and the word "connected"), click on the corresponding icon.
 
 Click on the "Details" button by your network name.
 
 - [x] Check **Limit IP address tracking**
+
+**Firewall**
+
+Your firewall blocks unwanted network connections. The stricter your firewall settings are, the more secure your Mac is. However, certain services will be blocked. You should configure your firewall to be as strict as you can without blocking services you use.
+
+- [x] Check **Firewall**
+
+Click the **Options** button
+
+- [x] Check **Block all incoming connections**
+
+If this configuration is too strict, you can come back and uncheck this.
+
+### General
+
+By default, your device name will be something like "Jerry's iMac". You'll want to change your device name to something generic like "Mac".
+
+Click on **About** and type your desired device name into the **Name** field.
+
+**Software Updates**
+
+You should automatically install all available updates to make sure your Mac has the latest security fixes.
+
+Click the small **i** icon next to **Automatic Updates**
+
+- [x] Check **Check for updates**
+
+- [x] Check **Download new updates when available**
+
+- [x] Check **Install macOS updates**
+
+- [x] Check **Install application updates from the App Store**
+
+- [x] Check **Install Security Responses and system files**
 
 ## Software
 
