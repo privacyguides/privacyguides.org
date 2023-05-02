@@ -109,6 +109,12 @@ macOS's system components are protected in a read-only signed system volume, mea
 
 The system volume is verified while it's running and any data that's not signed with a valid cryptographic signature from Apple will be rejected.
 
+### System Integrity Protection
+
+macOS sets certain security restrictions that can't be overridden. These are called Mandatory Access Controls, and they form the basis of the sandbox, parental controls, and System Integrity Protection on macOS.
+
+System Integrity Protection makes critical file locations read-only to protect against modification from malicious code. This is on top of the hardware-based Kernel Integrity Protection that keeps the kernel from being modified in-memory.
+
 ## Hardware
 
 Many security features in macOS like Secure Boot rely on Apple's hardware to function properly. For this reason, ==we recommend you only run it on Macs and avoid Hackintoshes==.
