@@ -5,13 +5,20 @@ icon: material/vpn
 description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
 ---
 
-Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world. An ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem).
+Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world. Originally, they were designed so that you could securely connect to a network even if you weren't *physically* there; you're *virtually* on a *private network*.
 
-Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+## How do VPNs work?
 
-A VPN can help as it can shift trust to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing into it.
+
 
 ## Should I use a VPN?
+
+### Hiding Browsing Habits From Your ISP
+
+An ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem).
+
+Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see the content of your traffic, but they can see the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns). A VPN can shift trust to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing into it.
+
 
 You should [take IVPN's quick test](https://www.doineedavpn.com) to see if a VPN is right for your threat model. A VPN does two things: shifting the risks from your Internet Service Provider to itself and hiding your IP from a third-party service.
 
