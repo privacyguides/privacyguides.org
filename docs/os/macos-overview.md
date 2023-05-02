@@ -115,6 +115,10 @@ macOS sets certain security restrictions that can't be overridden. These are cal
 
 System Integrity Protection makes critical file locations read-only to protect against modification from malicious code. This is on top of the hardware-based Kernel Integrity Protection that keeps the kernel from being modified in-memory.
 
+### Rosetta
+
+Rosetta is a translation layer that lets you run programs for Intel Macs on Apple silicon Macs. Installing Rosetta increases your attack surface, so you should only do so if you really need it.
+
 ## Hardware
 
 Many security features in macOS like Secure Boot rely on Apple's hardware to function properly. For this reason, ==we recommend you only run it on Macs and avoid Hackintoshes==.
@@ -152,3 +156,21 @@ Your biometric data never leaves your device; it's stored only in the Secure Enc
 All Apple silicon MacBooks feature a hardware disconnect for the inbuilt microphone whenever the lid is closed. This means that there is no way for an attacker to listen to your Mac's microphone even if the operating system is compromised.
 
 Note that the camera does not have a hardware disconnect, since its view is obscured when the lid is closed anyway.
+
+### Peripheral Processor Security
+
+Computers have built-in processors other than the main CPU that handle things like networking, graphics, power management, etc. These processors can have insufficient security and become compromised, therefore Apple tries to minimize the need for these processors in their hardware.
+
+When it is necessary to use one of these processors, Apple works with the vendor to ensure that the processor
+
+- runs verified firmware from the primary CPU on startup
+- has its own Secure Boot chain
+- follows minimum cryptographic standards
+- doesn't run known bad firmware
+- has its debug interfaces disabled
+- is signed with Apple's cryptographic keys
+
+### Direct Memory Access Protections
+
+Apple silicon SoCs contain an IOMMU to separate each component that requires direct memory access. For example, a Thunderbolt port can't access memory designated for the kernel.
+
