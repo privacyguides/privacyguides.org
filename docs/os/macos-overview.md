@@ -5,6 +5,24 @@ description: macOS is Apple's desktop operating system that works with their har
 ---
 macOS provides great security out-of-the-box. With some tweaks, you can tailor it to your privacy needs.
 
+## Recommended Configuration
+
+By default, your account when you first set up your Mac will be an Administrator account, which has higher privileges than a standard user account. Apple [recommends](https://support.apple.com/guide/mac-help/set-up-your-mac-to-be-secure-flvlt003/mac#mchlp6f0f578) setting up a standard user account for yourself that you use when you don't need Administrator privileges (which is most of the time).
+
+Open the Settings app.
+
+**Bluetooth**
+
+[ ] Uncheck **Bluetooth** (unless you are currently using it)
+
+**Network**
+
+Depending on if you are using **Wi-Fi** or **ethernet** (denoted by a green dot and the word "connected"), click on the corresponding icon.
+
+Click on the "Details" button by your network name.
+
+[x] Check **Limit IP address tracking**
+
 ## Software
 
 ### Signed System Volume
