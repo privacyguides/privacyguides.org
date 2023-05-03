@@ -14,7 +14,7 @@ VPNs encrypt your traffic between your device and a server owned by your VPN pro
 ``` mermaid
 flowchart TD
     server== VPN encryption ===infra(Outside Infrastructure)== VPN encryption ===local[Local Network]== VPN encryption ===device[Your Device]
-    server{VPN Server}-- No VPN encryption ---infr(Outside Infrastructure)-- No VPN encryption ---site[Destination Website]
+    server{VPN Server}--. No VPN encryption .---infr(Outside Infrastructure)--. No VPN encryption .---site[Destination Website]
 ```
 
 ## Should I use a VPN?
