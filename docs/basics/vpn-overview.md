@@ -17,9 +17,9 @@ flowchart TD
     server{VPN Server}-. No VPN encryption .--infr(Outside Infrastructure)-. No VPN encryption .--site[Destination Website]
 ```
 
-## Should I use a VPN?
+## When should I use a VPN?
 
-### Hiding Browsing Habits From Your ISP
+### Hiding browsing habits from your ISP
 
 An ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem).
 
@@ -27,11 +27,13 @@ They usually can't see the content of your traffic since encryption protocols su
 
 ==VPNs cannot encrypt data outside of the connection between your device and the VPN server.== VPN providers can see and modify your traffic the same way your ISP could. And there is no way to verify a VPN provider's "no logging" policies in any way.
 
-### Hiding Your IP Address from Websites
+### Hiding your IP address from third parties
 
 Any website you connect to will see the VPN provider's IP address instead of yours. This can be useful if you want to avoid leaking your IP address to outside parties if you are worried about a DDoS or other attack against your network.
 
-### Prevent Tracking
+For example, a VPN can also protect you from your ISP or anti-piracy organizations while torrenting.
+
+### Preventing tracking
 
 A VPN can't prevent tracking all on its own, but it can offer a few benefits.
 
@@ -45,7 +47,11 @@ Using a VPN in cases where you're using your [known identity](common-threats.md#
 
 Doing so may trigger spam and fraud detection systems, such as if you were to log into your bank's website.
 
-## What about encryption?
+### For anonymity
+
+VPNs can't provide anonymity. Your VPN provider will still see your real IP address, and often has a money trail that can be linked directly back to you. You cannot rely on "no logging" policies to protect your data. Use [Tor](https://www.torproject.org/) instead.
+
+### For E2EE
 
 Encryption offered by VPN providers are between your devices and their servers. It guarantees that this specific link is secure. This is a step up from using unencrypted proxies where an adversary on the network can intercept the communications between your devices and said proxies and modify them. However, encryption between your apps or browsers with the service providers are not handled by this encryption.
 
@@ -63,22 +69,8 @@ Needless to say, **you shouldn't use encrypted DNS with Tor**. This would direct
 
 By using a VPN with Tor, you're creating essentially a permanent entry node, often with a money trail attached. This provides zero additional benefits to you, while increasing the attack surface of your connection dramatically. If you wish to hide your Tor usage from your ISP or your government, Tor has a built-in solution for that: Tor bridges. [Read more about Tor bridges and why using a VPN is not necessary](../advanced/tor-overview.md).
 
-## What if I need anonymity?
-
-VPNs cannot provide anonymity. Your VPN provider will still see your real IP address, and often has a money trail that can be linked directly back to you. You cannot rely on "no logging" policies to protect your data. Use [Tor](https://www.torproject.org/) instead.
-
 ## What about VPN providers that provide Tor nodes?
 
 Do not use that feature. The point of using Tor is that you do not trust your VPN provider. Currently Tor only supports the [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) protocol. [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (used in [WebRTC](https://en.wikipedia.org/wiki/WebRTC) for voice and video sharing, the new [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) protocol, etc.), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) and other packets will be dropped. To compensate for this, VPN providers typically will route all non-TCP packets through their VPN server (your first hop). This is the case with [ProtonVPN](https://protonvpn.com/support/tor-vpn/). Additionally, when using this Tor over VPN setup, you do not have control over other important Tor features such as [Isolated Destination Address](https://www.whonix.org/wiki/Stream_Isolation) (using a different Tor circuit for every domain you visit).
 
 The feature should be viewed as a convenient way to access the Tor Network, not to stay anonymous. For proper anonymity, use the Tor Browser, TorSocks, or a Tor gateway.
-
-## When are VPNs useful?
-
-A VPN may still be useful to you in a variety of scenarios, such as:
-
-1. Hiding your traffic from **only** your Internet Service Provider.
-1. Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.
-1. Hiding your IP from third-party websites and services, preventing IP based tracking.
-
-For situations like these, or if you have another compelling reason, the VPN providers we listed above are who we think are the most trustworthy. However, using a VPN provider still means you're *trusting* the provider. In pretty much any other scenario you should be using a secure**-by-design** tool such as Tor.
