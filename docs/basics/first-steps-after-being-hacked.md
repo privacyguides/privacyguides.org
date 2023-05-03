@@ -23,7 +23,7 @@ Hopefully you backed up your important data beforehand to an external location. 
 
 If you don't have access to another computer, you can bring a flash drive to a computer shop and they should make one for free if you ask them to.
 
-While you are booted into linux, move all files you want to save onto an external drive. When you're done, shut down your computer fully and unplug it again.
+While you are booted into Linux, move all files you want to save onto an external drive. When you're done, shut down your computer fully and unplug it again.
 
 ## Reinstall Your Operating System
 
