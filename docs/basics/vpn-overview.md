@@ -25,7 +25,7 @@ An ISP can see the flow of internet traffic entering and exiting your network te
 
 They usually can't see the content of your traffic since encryption protocols such as HTTPS are commonly used on the internet, but they can see the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns). A VPN will prevent your ISP from seeing what domains you connect to, although the VPN provider is still able to see all your traffic.
 
-==VPNs cannot encrypt data outside of the connection between your device and the VPN server. VPN providers can see and modify your traffic the same way your ISP could. And there is no way to verify a VPN provider's "no logging" policies in any way.==
+==VPNs cannot encrypt data outside of the connection between your device and the VPN server.== VPN providers can see and modify your traffic the same way your ISP could. And there is no way to verify a VPN provider's "no logging" policies in any way.
 
 ### Hiding Your IP Address from Websites
 
