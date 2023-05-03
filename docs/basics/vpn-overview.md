@@ -23,14 +23,21 @@ flowchart TD
 
 An ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem).
 
-Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see the content of your traffic, but they can see the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns). A VPN can shift trust to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing into it.
+They usually can't see the content of your traffic since encryption protocols such as HTTPS are commonly used on the internet, but they can see the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns). A VPN will prevent your ISP from seeing what domains you connect to, although the VPN provider is still able to see all your traffic.
 
+==VPNs cannot encrypt data outside of the connection between your device and the VPN server. VPN providers can see and modify your traffic the same way your ISP could. And there is no way to verify a VPN provider's "no logging" policies in any way.==
 
-You should [take IVPN's quick test](https://www.doineedavpn.com) to see if a VPN is right for your threat model. A VPN does two things: shifting the risks from your Internet Service Provider to itself and hiding your IP from a third-party service.
+### Hiding Your IP Address from Websites
 
-VPNs cannot encrypt data outside of the connection between your device and the VPN server. VPN providers can see and modify your traffic the same way your ISP could. And there is no way to verify a VPN provider's "no logging" policies in any way.
+Any website you connect to will see the VPN provider's IP address instead of yours. This can be useful if you want to avoid leaking your IP address to outside parties if you are worried about a DDoS or other attack against your network.
 
-However, they do hide your actual IP from a third-party service, provided that there are no IP leaks. They help you blend in with others and mitigate IP based tracking.
+### Prevent Tracking
+
+A VPN can't prevent tracking all on its own, but it can offer a few benefits.
+
+You can connect to a server in a different city or country than you live in, making it appear like you're somwhere you're not. This is easily circumvented using things like your browser's language and timezone settings, so this shouldn't be relied on.
+
+Because you share a pool of IP addresses with many other users, it becomes more difficult to track you. Do note that most people do not have static IP addresses, so even without a VPN your IP address will change even without a VPN.
 
 ## When shouldn't I use a VPN?
 
