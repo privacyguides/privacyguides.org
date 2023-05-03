@@ -9,7 +9,13 @@ Virtual Private Networks are a way of extending the end of your network to exit 
 
 ## How do VPNs work?
 
+VPNs encrypt your traffic between your device and a server owned by your VPN provider. From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
 
+``` mermaid
+flowchart TD
+    server== VPN encryption ===infra(Outside Infrastructure)== VPN encryption ===local[Local Network]== VPN encryption ===device[Your Device]
+    server{VPN Server}-- No VPN encryption ---infr(Outside Infrastructure)-- No VPN encryption ---site[Destination Website]
+```
 
 ## Should I use a VPN?
 
