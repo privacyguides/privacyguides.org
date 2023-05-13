@@ -1,11 +1,9 @@
 ---
-meta_title: "So, you've just been hacked. What now?"
+meta_title: "What to do After You Get Hacked - Privacy Guides"
 title: First Steps After Being Hacked
 icon: material/skull-crossbones
 description: The first moments after you realize you're infected with malware can be critical. Here's what you need to do.
 ---
-
-# First Steps After Being Hacked
 
 ## Turn Off Your Device
 
