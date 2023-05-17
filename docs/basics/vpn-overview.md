@@ -67,7 +67,7 @@ Needless to say, **you shouldn't use encrypted DNS with Tor**. This would direct
 
 ## Should I use Tor *and* a VPN?
 
-By using a VPN with Tor, you're creating essentially a permanent entry node, often with a money trail attached. This provides zero additional benefits to you, while increasing the attack surface of your connection dramatically. If you wish to hide your Tor usage from your ISP or your government, Tor has a built-in solution for that: Tor bridges. [Read more about Tor bridges and why using a VPN is not necessary](../advanced/tor-overview.md).
+By using a VPN with Tor, you're essentially creating a permanent entry node, often with a money trail attached. This provides zero additional benefits to you, while increasing the attack surface of your connection dramatically. If you wish to hide your Tor usage from your ISP or your government, Tor has a built-in solution for that: Tor bridges. [Read more about Tor bridges and why using a VPN is not necessary](../advanced/tor-overview.md).
 
 ## What about VPN providers that provide Tor nodes?
 
