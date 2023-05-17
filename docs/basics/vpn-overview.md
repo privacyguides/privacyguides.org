@@ -75,6 +75,14 @@ Do not use that feature. The point of using Tor is that you ==don't have to trus
 
 The feature should be viewed as a convenient way to access the Tor Network, not to stay anonymous. For proper anonymity, use the Tor Browser, TorSocks, or a Tor gateway.
 
+## VPN Ownership
+
+Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/). These shady companies run lots of smaller VPN services to create the illusion that you have more choice than you actually do and to maximize profit. Typically, these providers that feed into their shell company have terrible privacy policies and shouldn't be trusted with your internet traffic. You should be very strict about which provider you decide to use. 
+
+You should also be wary that many VPN review sites are merely advertising vehicles open to the highest bidder; a paid review can't possibly be impartial. ==Privacy Guides never accepts payment or affiliate programs for our content.==
+
+[Our VPN Recommendations](../vpn.md){ .md-button }
+
 ## Sources
 
 - [VPN - a Very Precarious Narrative](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
