@@ -25,7 +25,7 @@ An ISP can see the flow of internet traffic entering and exiting your network te
 
 They usually can't see the content of your traffic since encryption protocols such as HTTPS are commonly used on the internet, but they can see the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns). A VPN will prevent your ISP from seeing what domains you connect to, although the VPN provider is still able to see all your traffic.
 
-==VPNs cannot encrypt data outside of the connection between your device and the VPN server.== VPN providers can see and modify your traffic the same way your ISP could. And there is no way to verify a VPN provider's "no logging" policies in any way.
+==VPNs can't encrypt data outside of the connection between your device and the VPN server.== VPN providers can see and modify your traffic the same way your ISP could. And there is no way to verify a VPN provider's "no logging" policies in any way.
 
 ### Hiding your IP address from third parties
 
@@ -49,7 +49,7 @@ Doing so may trigger spam and fraud detection systems, such as if you were to lo
 
 ### For anonymity
 
-VPNs can't provide anonymity. Your VPN provider will still see your real IP address, and often has a money trail that can be linked directly back to you. You cannot rely on "no logging" policies to protect your data. Use [Tor](https://www.torproject.org/) instead.
+VPNs can't provide anonymity. Your VPN provider will still see your real IP address, and often has a money trail that can be linked directly back to you. You can't rely on "no logging" policies to protect your data. Use [Tor](https://www.torproject.org/) instead.
 
 ### For E2EE
 
