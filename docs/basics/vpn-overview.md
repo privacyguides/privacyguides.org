@@ -105,3 +105,4 @@ Another consideration is legal liability; the exit node will need to deal with l
 - [This Chinese company is secretly behind 24 popular apps seeking dangerous permissions](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
 - [The Trouble with VPN and Privacy Review Sites](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
 - [Why VPNs are Wrong and MPRs are Right](https://invisv.com/articles/relay.html)
+- [Comparing dVPNs and centralized VPNs for privacy protection](https://www.ivpn.net/privacy-guides/comparing-dvpns-centralized-vpns-privacy-protection/)
