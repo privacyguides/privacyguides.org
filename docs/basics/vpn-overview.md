@@ -85,7 +85,9 @@ You should also be wary that many VPN review sites are merely advertising vehicl
 
 ## Multi-Party Relays
 
-Multi-Party Relays use multiple nodes owned by different parties, such that no individual party knows enough to track you. This is the idea behind Tor, but now there are some paid services that try to emulate this model.
+Multi-Party Relays use multiple nodes owned by different parties, such that no individual party knows both who you are **and** what you're connecting to. This is the idea behind Tor, but now there are some paid services that try to emulate this model.
+
+MPRs seek to solve a problem inherent to VPNs: the fact that you must trust them completely.
 
 ## Sources
 
@@ -96,3 +98,4 @@ Multi-Party Relays use multiple nodes owned by different parties, such that no i
 - [Hidden VPN owners unveiled: 101 VPN products run by just 23 companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
 - [This Chinese company is secretly behind 24 popular apps seeking dangerous permissions](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
 - [The Trouble with VPN and Privacy Review Sites](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
+- [Why VPNs are Wrong and MPRs are Right](https://invisv.com/articles/relay.html)
