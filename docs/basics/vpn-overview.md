@@ -83,6 +83,10 @@ You should also be wary that many VPN review sites are merely advertising vehicl
 
 [Our VPN Recommendations](../vpn.md){ .md-button }
 
+## Multi-Party Relays
+
+Multi-Party Relays use multiple nodes owned by different parties, such that no individual party knows enough to track you. This is the idea behind Tor, but now there are some paid services that try to emulate this model.
+
 ## Sources
 
 - [VPN - a Very Precarious Narrative](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
