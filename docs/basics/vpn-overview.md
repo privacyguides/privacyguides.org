@@ -95,6 +95,12 @@ Another attempt at solving the issues with centralized VPN services are dVPNs. T
 
 Another consideration is legal liability; the exit node will need to deal with legal problems from misuse of the network, an issue that the Tor network has contended with for its entire existence. This disincentivizes regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem is the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
 
+dVPNs are closed networks many times. They might not be able to access the regular web.
+
+Many are used to push a cryptocurrency rather than to make the best service.
+
+They tend to be smaller networks with fewer nodes, making them more vulnerable to sybil attacks.
+
 ## Sources
 
 - [VPN - a Very Precarious Narrative](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
