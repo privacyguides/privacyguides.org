@@ -89,6 +89,8 @@ Multi-Party Relays use multiple nodes owned by different parties, such that no i
 
 MPRs seek to solve a problem inherent to VPNs: the fact that you must trust them completely.
 
+MPRs typically have ways of protecting your DNS traffic. Apple's Private Relay uses ODoH, INVISV uses Obvlivious DNS, and Tor lets the exit node do the DNS lookup for you.
+
 ## Decentralized VPNs
 
 Another attempt at solving the issues with centralized VPN services are dVPNs. These are based on blockchain technology and claim to eliminiate trust in a single party by distributing the nodes across lots of different people. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsiblities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
