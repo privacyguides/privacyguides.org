@@ -147,6 +147,10 @@ If you want the full benefits of Lockdown Mode, you should use Apple's apps when
 
 For example, Safari will have [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/) and [WASM](https://developer.mozilla.org/en-US/docs/WebAssembly) disabled by default, and you'll also benefit from the App Sandbox and System Integrity Protection, since Safari is part of the immutable base system.
 
+#### Backups
+
+macOS comes with automatic backup software called [Time Machine](https://support.apple.com/en-us/HT201250) so you can create encrypted backups to an external drive in the event of corrupted/deleted files.
+
 ## Hardware
 
 Many security features in macOS like Secure Boot rely on Apple's hardware to function properly. For this reason, ==we recommend you only run it on Macs and avoid Hackintoshes.==
