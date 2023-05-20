@@ -127,13 +127,25 @@ You can enable **Filevault** to require a password to decrypt your drive.
 
 ### Application Security
 
-macOS apps downloaded from the App Store are required to be sandboxed.
+#### App Sandbox
+
+macOS apps downloaded from the App Store are required to be sandboxed usng the [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
 
 !!! warning
 
     Software downloaded from outside the official App Store is not required to be sandboxed. You should avoid non-App Store software as much as possible.
 
+#### Antivirus
+
 macOS comes with built-in antivirus software called XProtect. ==We recommend that you **do not** install third-party antivirus software, as it is a major privacy and security concern.==
+
+#### Lockdown Mode
+
+[Lockdown Mode](https://support.apple.com/en-us/HT212650#:~:text=When%20Lockdown%20Mode%20is%20enabled,not%20be%20available%20at%20all.) is a security-hardened setting that makes your system more resistant to attacks.
+
+If you want the full benefits of Lockdown Mode, you should use Apple's apps when you have it enabled as they use the App Sandbox and are covered by System Integrity Protection, although you will still benefit from reduced attack surface even if you use third party apps.
+
+For example, Safari will have [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/) and [WASM](https://developer.mozilla.org/en-US/docs/WebAssembly) disabled by default, and you'll also benefit from the App Sandbox and System Integrity Protection, since Safari is part of the immutable base system.
 
 ## Hardware
 
@@ -189,6 +201,8 @@ When it is necessary to use one of these processors, Apple works with the vendor
 ### Direct Memory Access Protections
 
 Apple silicon SoCs contain an IOMMU to separate each component that requires direct memory access. For example, a Thunderbolt port can't access memory designated for the kernel.
+
+
 
 ## Sources
 
