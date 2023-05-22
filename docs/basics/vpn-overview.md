@@ -91,7 +91,7 @@ MPRs seek to solve a problem inherent to VPNs: the fact that you must trust them
 
 MPRs typically have ways of protecting your DNS traffic. Apple's Private Relay uses ODoH, INVISV uses Obvlivious DNS, and Tor lets the exit node do the DNS lookup for you.
 
-Speeds are comparable to non-proxied speeds using these services due to the [MASQUE](https://datatracker.ietf.org/wg/masque/about/) protocol, which is not present on Tor.
+Speeds are comparable to non-proxied speeds using these services due to the [MASQUE](https://datatracker.ietf.org/wg/masque/about/) protocol, which is not present on Tor or VPNs.
 
 ## Decentralized VPNs
 
