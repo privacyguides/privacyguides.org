@@ -84,12 +84,13 @@ theme:
 plugins:
   social:
     cards: !ENV [NETLIFY, false]
-    cards_color:
-      fill: "#FFD06F"
-      text: "#2d2d2d"
     cards_dir: assets/img/social
-    cards_font: Suez One
     cache_dir: .cache/plugin/social-he
+    cards_layout: default/variant
+    cards_layout_options:
+        background_color: "#FFD06F"
+        color: "#2d2d2d"
+        font_family: Suez One
 
 markdown_extensions:
   pymdownx.snippets:
