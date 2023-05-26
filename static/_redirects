@@ -26,6 +26,7 @@
 /  /en/  302
 
 /.well-known/matrix/* https://matrix.privacyguides.org/.well-known/matrix/:splat 200
+/.well-known/* /well-known/:splat 200
 
 /kb /en/basics/why-privacy-matters/
 /:lang/kb /:lang/basics/why-privacy-matters/
