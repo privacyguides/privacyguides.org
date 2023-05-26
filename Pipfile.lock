@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e051706bdf466912ba699c0751d676c20b89501bf4e645f3b4cf81d0c0457be0"
+            "sha256": "8ddece45eb4d375a3321fb016026fea7ebbceccf684a307fbe1e5598d4fabeaf"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -374,11 +374,11 @@
         },
         "mkdocs-macros-plugin": {
             "hashes": [
-                "sha256:96bdabeb98b96139544f0048ea2f5cb80c7befde6b21e94c6d4596c22774cbcf",
-                "sha256:9e64e1cabcf6925359de29fe54f62d5847fb455c2528c440b87f8f1240650608"
+                "sha256:b10cbc1cd4d4a127eea9f8ee3cc57f5aa91b2a1d44e0f02249d7910a43b975a1",
+                "sha256:d6c545571ce98420232260ceb1533ffabcc39a19f26285ec45ef8fb060f10bda"
             ],
             "index": "pypi",
-            "version": "==0.7.0"
+            "version": "==1.0.1"
         },
         "mkdocs-material": {
             "path": "./modules/mkdocs-material",
@@ -471,14 +471,6 @@
             ],
             "version": "==2.21"
         },
-        "pymdown-extensions": {
-            "hashes": [
-                "sha256:9a77955e63528c2ee98073a1fb3207c1a45607bc74a34ef21acd098f46c3aa8a",
-                "sha256:e6cbe8ace7d8feda30bc4fd6a21a073893a9a0e90c373e92d69ce5b653051f55"
-            ],
-            "index": "pypi",
-            "version": "==10.0"
-        },
         "python-dateutil": {
             "hashes": [
                 "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86",
@@ -551,11 +543,11 @@
         },
         "requests": {
             "hashes": [
-                "sha256:10e94cc4f3121ee6da529d358cdaeaff2f1c409cd377dbc72b825852f2f7e294",
-                "sha256:239d7d4458afcb28a692cdd298d87542235f4ca8d36d03a15bfc128a6559a2f4"
+                "sha256:58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f",
+                "sha256:942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==2.30.0"
+            "version": "==2.31.0"
         },
         "sanitized-package": {
             "path": "./modules/mkdocs-material",
