@@ -107,15 +107,15 @@ nav:
       - 'basics/multi-factor-authentication.md'
       - 'basics/email-security.md'
       - 'basics/vpn-overview.md'
-    - "Systèmes d'exploitation":
-      - 'os/android-overview.md'
-      - 'os/linux-overview.md'
-      - 'os/qubes-overview.md'
     - "Sujets avancés":
       - 'advanced/dns-overview.md'
       - 'advanced/tor-overview.md'
       - 'advanced/payments.md'
       - 'advanced/communication-network-types.md'
+    - "Systèmes d'exploitation":
+      - 'os/android-overview.md'
+      - 'os/linux-overview.md'
+      - 'os/qubes-overview.md'
     - kb-archive.md
   - Recommandations:
     - 'tools.md'
@@ -123,10 +123,6 @@ nav:
       - 'tor.md'
       - 'desktop-browsers.md'
       - 'mobile-browsers.md'
-    - "Systèmes d'exploitation":
-      - 'android.md'
-      - 'desktop.md'
-      - 'router.md'
     - "Fournisseurs":
       - 'cloud.md'
       - 'dns.md'
@@ -149,6 +145,10 @@ nav:
       - 'productivity.md'
       - 'real-time-communication.md'
       - 'video-streaming.md'
+    - "Systèmes d'exploitation":
+      - 'android.md'
+      - 'desktop.md'
+      - 'router.md'
   - "À propos":
     - 'about/index.md'
     - 'about/criteria.md'

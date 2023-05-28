@@ -28,7 +28,7 @@ Many people get the concepts of **privacy**, **security**, and **anonymity** con
 
 All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's tricker to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ .md-button }
+[:material-book-outline: Learn More About Threat Modeling](threat-modeling.md){ .md-button }
 
 ## Privacy vs. Secrecy
 
