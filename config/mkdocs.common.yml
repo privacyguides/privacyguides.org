@@ -100,12 +100,17 @@ plugins:
       - index.md
     fallback_to_build_date: true
   privacy:
-    external_assets_exclude:
+    assets_exclude:
       - cdn.jsdelivr.net/npm/mathjax@3/*
       - api.privacyguides.net/*
   optimize:
     enabled: !ENV [NETLIFY, false]
   typeset: {}
+  social:
+    cards: !ENV [CARDS, true]
+    cards_dir: assets/img/social
+    cards_layout_dir: config/layouts
+    cards_layout: custom
 
 markdown_extensions:
   admonition: {}

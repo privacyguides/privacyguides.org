@@ -1,7 +1,17 @@
 site
-.cache
 /i18n/
 /includes/*
 !/includes/*.en.*
 /theme/overrides/*
 !/theme/overrides/*.en.*
+# include Bagnard font in social card
+# (not available in Google Fonts)
+# ridiculous hide-and-seek https://stackoverflow.com/a/72380673
+/.cache/* 
+!/.cache/plugin
+/.cache/plugin/*
+!/.cache/plugin/social
+/.cache/plugin/social/*
+!/.cache/plugin/social/fonts
+/.cache/plugin/social/fonts/*
+!/.cache/plugin/social/fonts/Bagnard

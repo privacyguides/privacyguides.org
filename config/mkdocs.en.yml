@@ -77,17 +77,6 @@ theme:
         icon: material/brightness-5
         name: "Switch to system theme"
 
-plugins:
-  social:
-    cards: !ENV [NETLIFY, false]
-    cards_dir: assets/img/social
-    cache_dir: .cache/plugin/social-en
-    cards_layout: default/variant
-    cards_layout_options:
-        background_color: "#FFD06F"
-        color: "#2d2d2d"
-        font_family: Public Sans
-
 markdown_extensions:
   pymdownx.snippets:
     auto_append: 
