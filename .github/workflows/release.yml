@@ -122,6 +122,21 @@ jobs:
       contents: write
 
     steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: offline.tar.gz
+          path: offline.tar.gz
+
+      - uses: actions/download-artifact@v3
+        with:
+          name: offline.zip
+          path: offline.zip
+
+      - uses: actions/download-artifact@v3
+        with:
+          name: privacy_guides.zim
+          path: privacy_guides.zim
+
       - name: Create release notes
         uses: ncipollo/release-action@v1
         with:
