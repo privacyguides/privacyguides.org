@@ -4,15 +4,18 @@ definitions:
     {%- if page.meta.cover -%}
       theme/assets/img/cover/{{ page.meta.cover }}
     {%- else -%}
-      {{ layout.background_image or "" }}
+      {{ layout.background_image or "theme/assets/brand/PNG/Banner/cover-progress-notext-blur.png" }}
     {%- endif -%}
 
   - &background_color >-
-    {%- if page.meta.cover -%}
-      #f7f7fcaa
-    {%- else -%}
-      #FFD06F
-    {%- endif -%}
+    #f7f7fcaa
+
+  #- &background_color >-
+  #  {%- if page.meta.cover -%}
+  #    #f7f7fcaa
+  #  {%- else -%}
+  #    #FFD06F
+  #  {%- endif -%}
 
   - &color >-
     {{ layout.color or "#2d2d2d" }}
@@ -72,11 +75,13 @@ definitions:
     {{ page.meta.icon or "" }}
 
   - &logo >-
-    {%- if page.meta.cover -%}
-      theme/assets/brand/SVG/Logo/privacy-guides-logo-notext.svg
-    {%- elif config.theme.logo -%}
-      {{ config.docs_dir }}/{{ config.theme.logo }}
-    {%- endif -%}
+    theme/assets/brand/SVG/Logo/privacy-guides-logo-notext.svg
+
+  #{%- if page.meta.cover -%}
+  #  theme/assets/brand/SVG/Logo/privacy-guides-logo-notext.svg
+  #{%- elif config.theme.logo -%}
+  #  {{ config.docs_dir }}/{{ config.theme.logo }}
+  #{%- endif -%}
 
 # Meta tags
 tags:

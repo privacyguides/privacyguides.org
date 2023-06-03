@@ -61,6 +61,7 @@ repo_name: ""
 theme:
   name: material
   custom_dir: ../theme
+  logo: ../../theme/assets/brand/SVG/Logo/privacy-guides-logo-notext-colorbg.svg
   favicon: assets/brand/png/favicon/favicon-32x32.png
   icon:
     repo: simple/github

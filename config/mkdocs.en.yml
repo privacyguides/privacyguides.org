@@ -53,6 +53,7 @@ extra:
 
 theme:
   language: en
+  # this logo needs to be set separately because the relative path is different
   logo: ../theme/assets/brand/SVG/Logo/privacy-guides-logo-notext-colorbg.svg
   font:
     text: Public Sans

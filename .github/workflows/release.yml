@@ -26,8 +26,8 @@ on:
       - '*'
 
 jobs:
-  build:
-    name: Create Release
+  production:
+    name: Push release to production
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -39,10 +39,22 @@ jobs:
           fetch-depth: '0'
           ssh-key: ${{ secrets.ACTIONS_SSH_KEY }}
           submodules: 'true'
-      
+
       - name: Push to production branch
         run: |
           git push origin HEAD:production
+  
+  build:
+    name: Create release packages
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: '0'
+          ssh-key: ${{ secrets.ACTIONS_SSH_KEY }}
+          submodules: 'true'
       
       - name: Pages setup
         uses: actions/configure-pages@v3
@@ -102,6 +114,14 @@ jobs:
           name: privacy_guides.zim
           path: privacy_guides.zim
 
+  release:
+    name: Create release notes
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
       - name: Create release notes
         uses: ncipollo/release-action@v1
         with:

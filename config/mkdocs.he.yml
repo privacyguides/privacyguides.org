@@ -57,7 +57,6 @@ extra_css:
 
 theme:
   language: he
-  logo: ../../theme/assets/brand/SVG/Logo/privacy-guides-logo-notext-colorbg.svg
   font:
     text: Open Sans
     code: Cousine
