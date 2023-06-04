@@ -7,7 +7,7 @@ macOS provides great security out-of-the-box. With some tweaks, you can tailor i
 
 ## Recommended Configuration
 
-By default, your account when you first set up your Mac will be an Administrator account, which has higher privileges than a standard user account. Apple [recommends](https://support.apple.com/guide/mac-help/set-up-your-mac-to-be-secure-flvlt003/mac#mchlp6f0f578) setting up a standard user account for yourself that you use when you don't need Administrator privileges (which is most of the time).
+By default, your account when you first set up your Mac will be an Administrator account, which has higher privileges than a standard user account. Apple [recommends](https://support.apple.com/guide/mac-help/set-up-your-mac-to-be-secure-flvlt003/mac#mchlp6f0f578) giving each user the lowest privileges they need; a user that doesn't need to install software or change systemwide settings should have a standard account for example.
 
 Open the Settings app.
 
@@ -100,6 +100,8 @@ Filevault will make it so you need a password to access data on your drive.
 Lockdown Mode disables some features in order to improve security. Some apps or features won't work the same way they do when it's off.
 
 - [x] Click **Turn On**
+
+
 
 ## Software
 
