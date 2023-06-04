@@ -101,7 +101,17 @@ Lockdown Mode disables some features in order to improve security. Some apps or 
 
 - [x] Click **Turn On**
 
+Unlike iOS, macOS doesn't give you an option to randomize your MAC address in the settings, so you'll need to do it with a command or a script.
 
+You open up your Terminal and enter this command to randomize your MAC address:
+
+``` zsh
+openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//' | xargs sudo ifconfig en1 ether 
+```
+
+en1 is the name of the interface you're changing the MAC address for. This might not be the right one on every Mac, so to check you can hold the option key and click the Wi-Fi symbol at the top right of your screen.
+
+This will be reset on reboot.
 
 ## Software
 
