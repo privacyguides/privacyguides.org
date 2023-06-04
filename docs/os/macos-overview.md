@@ -37,7 +37,7 @@ If this configuration is too strict, you can come back and uncheck this.
 
 ### General
 
-By default, your device name will be something like "Jerry's iMac". You'll want to change your device name to something generic like "Mac".
+By default, your device name will be something like "[your name]'s iMac". You'll want to change your device name to something generic like "Mac".
 
 Click on **About** and type your desired device name into the **Name** field.
 
