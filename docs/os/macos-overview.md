@@ -218,8 +218,6 @@ When it is necessary to use one of these processors, Apple works with the vendor
 
 Apple silicon SoCs contain an IOMMU to separate each component that requires direct memory access. For example, a Thunderbolt port can't access memory designated for the kernel.
 
-
-
 ## Sources
 
 - [Apple Platform Security](https://support.apple.com/guide/security/welcome/web)
