@@ -7,7 +7,7 @@ macOS provides great security out-of-the-box. With some tweaks, you can tailor i
 
 ## Recommended Configuration
 
-By default, your account when you first set up your Mac will be an Administrator account, which has higher privileges than a standard user account. Apple [recommends](https://support.apple.com/guide/mac-help/set-up-your-mac-to-be-secure-flvlt003/mac#mchlp6f0f578) giving each user the lowest privileges they need; a user that doesn't need to install software or change systemwide settings should have a standard account for example.
+Your account when you first set up your Mac will be an Administrator account, which has higher privileges than a standard user account. This is fine since you as the owner of the computer need these privileges. Apple [recommends](https://support.apple.com/guide/mac-help/set-up-your-mac-to-be-secure-flvlt003/mac#mchlp6f0f578) giving each user the lowest privileges they need; a user that doesn't need to install software or change systemwide settings should have a standard account for example.
 
 Open the Settings app.
 
