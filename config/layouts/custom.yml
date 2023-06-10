@@ -21,8 +21,12 @@ definitions:
     {{ layout.color or "#2d2d2d" }}
 
   - &title_font_family >-
-    {%- if config.theme.language == "he" -%}
+    {%- if page.is_homepage -%}
+      Bagnard
+    {%- elif config.theme.language == "he" -%}
       Suez One
+    {%- elif config.theme.language == "zh-Hant" -%}
+      Noto Serif TC
     {%- else -%}
       Bagnard
     {%- endif -%}
@@ -30,6 +34,8 @@ definitions:
   - &font_family >-
     {%- if config.theme.language == "he" -%}
       Suez One
+    {%- elif config.theme.language == "zh-Hant" -%}
+      Noto Sans TC
     {%- else -%}
       Public Sans
     {%- endif -%}
@@ -64,7 +70,7 @@ definitions:
   
   - &homepage_description >-
     {%- if page.is_homepage -%}
-      A socially motivated website which provides information about protecting your online data privacy and security.
+      {{ config.extra.homepage_description or "A socially motivated website which provides information about protecting your online data privacy and security." }}
     {%- else -%}
     {%- endif -%}
 

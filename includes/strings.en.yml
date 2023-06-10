@@ -45,5 +45,7 @@ nav:
   Blog: Blog
 
 site:
+  homepage_card: |
+    A socially motivated website which provides information about protecting your online data privacy and security.
   translation: |
     You're viewing the English copy of Privacy Guides, translated by our fantastic language team on Crowdin. If you notice an error, or see any untranslated sections on this page, please consider helping out! For more information and tips see our translation guide.

@@ -18,13 +18,14 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-/  /en/  302  Language=en
-/  /es/  302  Language=es
-/  /fr/  302  Language=fr
-/  /he/  302  Language=he
-/  /it/  302  Language=it
-/  /nl/  302  Language=nl
-/  /en/  302
+/  /en/       302  Language=en
+/  /es/       302  Language=es
+/  /fr/       302  Language=fr
+/  /he/       302  Language=he
+/  /it/       302  Language=it
+/  /nl/       302  Language=nl
+/  /zh-hant/  302  Language=zh-Hant
+/  /en/       302
 
 /.well-known/matrix/* https://matrix.privacyguides.org/.well-known/matrix/:splat 200
 /.well-known/* /well-known/:splat 200
