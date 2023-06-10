@@ -20,7 +20,7 @@
 
 [build]
     publish = "site/"
-    command = "crowdin download && mkdocs build --config-file config/mkdocs.en.yml && mkdocs build --config-file config/mkdocs.es.yml && mkdocs build --config-file config/mkdocs.he.yml && mkdocs build --config-file config/mkdocs.fr.yml && mkdocs build --config-file config/mkdocs.nl.yml && mv static/* site/"
+    command = "crowdin download && mkdocs build --config-file config/mkdocs.en.yml && mkdocs build --config-file config/mkdocs.es.yml && mkdocs build --config-file config/mkdocs.fr.yml && mkdocs build --config-file config/mkdocs.he.yml && mkdocs build --config-file config/mkdocs.it.yml && mkdocs build --config-file config/mkdocs.nl.yml && mv static/* site/"
 
     [context.deploy-preview]
         command = "mkdocs build --config-file config/mkdocs.en.yml && mv static/* site/"
@@ -57,6 +57,11 @@
 [[redirects]]
     from = "/he/*"
     to = "/he/404/index.html"
+    status = 404
+
+[[redirects]]
+    from = "/it/*"
+    to = "/it/404/index.html"
     status = 404
 
 [[redirects]]

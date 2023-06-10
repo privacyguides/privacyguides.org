@@ -50,6 +50,10 @@ extra:
       link: /he/
       lang: he
       icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1ee-1f1f1.svg
+    - name: Italian
+      link: /it/
+      lang: it
+      icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1ee-1f1ea.svg
     - name: Nederlands
       link: /nl/
       lang: nl
