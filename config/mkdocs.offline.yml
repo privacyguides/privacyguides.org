@@ -99,6 +99,7 @@ nav:
       - 'basics/email-security.md'
       - 'basics/vpn-overview.md'
     - Advanced Topics:
+      - 'advanced/fingerprinting.md'
       - 'advanced/dns-overview.md'
       - 'advanced/tor-overview.md'
       - 'advanced/payments.md'
