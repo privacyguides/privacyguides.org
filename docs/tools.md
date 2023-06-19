@@ -17,7 +17,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 <div class="grid cards annotate" markdown>
 
-- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](tor.md#tor-browser)
+- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](tor.md#tor-browser){ .md-button }
 - ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
 - ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](tor.md#snowflake) (1)
 
@@ -31,7 +31,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 <div class="grid cards" markdown>
 
-- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
+- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji } [Mullvad Browser](desktop-browsers.md#mullvad-browser){ .md-button }
 - ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } [Firefox](desktop-browsers.md#firefox)
 - ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave](desktop-browsers.md#brave)
 
