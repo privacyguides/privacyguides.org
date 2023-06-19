@@ -39,7 +39,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 ## Mobile Web Browsers
 
-[![Brave logo](assets/img/browsers/brave.svg){ .twemoji } Brave (Android)](mobile-browsers.md#brave){md.button}
+[![Brave logo](assets/img/browsers/brave.svg){ .twemoji } Brave (Android)](mobile-browsers.md#brave){.md-button}
 [![Safari logo](assets/img/browsers/safari.svg){ .twemoji } Safari (iOS)](mobile-browsers.md#safari){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](mobile-browsers.md)
