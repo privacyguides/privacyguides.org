@@ -29,7 +29,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 ## Desktop Web Browsers
 
-<div class="grid" markdown>
+<div class="grid cards" markdown>
 
 - ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
 - ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } [Firefox](desktop-browsers.md#firefox)
