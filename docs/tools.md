@@ -33,8 +33,10 @@ For more details about each project, why they were chosen, and additional tips o
 
 [![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji } Mullvad Browser](desktop-browsers.md#mullvad-browser)
 { .card }
+
 [![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } Firefox](desktop-browsers.md#firefox)
 { .card }
+
 [![Brave logo](assets/img/browsers/brave.svg){ .twemoji } Brave](desktop-browsers.md#brave)
 { .card }
 
