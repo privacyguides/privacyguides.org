@@ -214,128 +214,92 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ### File Sharing and Sync
 
-<div class="grid cards" markdown>
-
-- ![Send logo](assets/img/file-sharing-sync/send.svg){ .twemoji } [Send](file-sharing.md#send)
-- ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [OnionShare](file-sharing.md#onionshare)
-- ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji } [FreedomBox](file-sharing.md#freedombox)
-- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
-- ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji } [Syncthing](file-sharing.md#syncthing-p2p)
-
-</div>
+[![Send logo](assets/img/file-sharing-sync/send.svg){ .twemoji } Send](file-sharing.md#send){.md-button}
+[![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji } OnionShare](file-sharing.md#onionshare){.md-button}
+[![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji } FreedomBox](file-sharing.md#freedombox){.md-button}
+[![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji } Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server){.md-button}
+[![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji } Syncthing](file-sharing.md#syncthing-p2p){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](file-sharing.md)
 
 ### Frontends
 
-<div class="grid cards" markdown>
-
-- ![Nitter logo](assets/img/frontends/nitter.svg){ .twemoji } [Nitter (Twitter, Web)](frontends.md#nitter)
-- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
-- ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
-- ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
-- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
-- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)
-
-</div>
+[![Nitter logo](assets/img/frontends/nitter.svg){ .twemoji } Nitter (Twitter, Web)](frontends.md#nitter){.md-button}
+[![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } FreeTube (YouTube, Desktop)](frontends.md#freetube){.md-button}
+[![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee){.md-button}
+[![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } LibreTube (YouTube, Android)](frontends.md#libretube-android){.md-button}
+[![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } NewPipe (YouTube, Android)](frontends.md#newpipe-android){.md-button}
+[![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } Invidious (YouTube, Web)](frontends.md#invidious){.md-button}
+[![Piped logo](assets/img/frontends/piped.svg){ .twemoji } Piped (YouTube, Web)](frontends.md#piped){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](frontends.md)
 
 ### Multi-Factor Authentication Tools
 
-<div class="grid cards" markdown>
-
-- ![YubiKeys](assets/img/multi-factor-authentication/mini/yubico.svg){ .twemoji } [YubiKey](multi-factor-authentication.md#yubikey)
-- ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji } [Nitrokey](multi-factor-authentication.md#nitrokey)
-- ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji } [Aegis Authenticator](multi-factor-authentication.md#aegis-authenticator)
-- ![Raivo OTP logo](assets/img/multi-factor-authentication/raivo-otp.png){ .twemoji } [Raivo OTP](multi-factor-authentication.md#raivo-otp)
-
-</div>
+[![YubiKeys](assets/img/multi-factor-authentication/mini/yubico.svg){ .twemoji } YubiKey](multi-factor-authentication.md#yubikey){.md-button}
+[![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji } Nitrokey](multi-factor-authentication.md#nitrokey){.md-button}
+[![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji } Aegis Authenticator](multi-factor-authentication.md#aegis-authenticator){.md-button}
+[![Raivo OTP logo](assets/img/multi-factor-authentication/raivo-otp.png){ .twemoji } Raivo OTP](multi-factor-authentication.md#raivo-otp){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](multi-factor-authentication.md)
 
 ### News Aggregators
 
-<div class="grid cards" markdown>
-
-- ![Akregator logo](assets/img/news-aggregators/akregator.svg){ .twemoji } [Akregator](news-aggregators.md#akregator)
-- ![Feeder logo](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder](news-aggregators.md#feeder)
-- ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ .twemoji } [Fluent Reader](news-aggregators.md#fluent-reader)
-- ![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ .twemoji } [GNOME Feeds](news-aggregators.md#gnome-feeds)
-- ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [Miniflux](news-aggregators.md#miniflux)
-- ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ .twemoji } [NetNewsWire](news-aggregators.md#netnewswire)
-- ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ .twemoji } [Newsboat](news-aggregators.md#newsboat)
-
-</div>
+[![Akregator logo](assets/img/news-aggregators/akregator.svg){ .twemoji } Akregator](news-aggregators.md#akregator){.md-button}
+[![Feeder logo](assets/img/news-aggregators/feeder.png){ .twemoji} Feeder](news-aggregators.md#feeder){.md-button}
+[![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ .twemoji } Fluent Reader](news-aggregators.md#fluent-reader){.md-button}
+[![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ .twemoji } GNOME Feeds](news-aggregators.md#gnome-feeds){.md-button}
+[![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } Miniflux](news-aggregators.md#miniflux){.md-button}
+[![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ .twemoji } NetNewsWire](news-aggregators.md#netnewswire){.md-button}
+[![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ .twemoji } Newsboat](news-aggregators.md#newsboat){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](news-aggregators.md)
 
 ### Notebooks
 
-<div class="grid cards" markdown>
-
-- ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ .twemoji } [Standard Notes](notebooks.md#standard-notes)
-- ![Notesnook logo](assets/img/notebooks/notesnook.svg){ .twemoji } [Notesnook](notebooks.md#notesnook)
-- ![Joplin logo](assets/img/notebooks/joplin.svg){ .twemoji } [Joplin](notebooks.md#joplin)
-- ![Cryptee logo](assets/img/notebooks/cryptee.svg#only-light){ .twemoji }![Cryptee logo](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji } [Cryptee](notebooks.md#cryptee)
-- ![Org-mode logo](assets/img/notebooks/org-mode.svg){ .twemoji } [Org-mode](notebooks.md#org-mode)
-
-</div>
+[![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ .twemoji } Standard Notes](notebooks.md#standard-notes){.md-button}
+[![Notesnook logo](assets/img/notebooks/notesnook.svg){ .twemoji } Notesnook](notebooks.md#notesnook){.md-button}
+[![Joplin logo](assets/img/notebooks/joplin.svg){ .twemoji } Joplin](notebooks.md#joplin){.md-button}
+[![Cryptee logo](assets/img/notebooks/cryptee.svg#only-light){ .twemoji }![Cryptee logo](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji } Cryptee](notebooks.md#cryptee){.md-button}
+[![Org-mode logo](assets/img/notebooks/org-mode.svg){ .twemoji } Org-mode](notebooks.md#org-mode){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](notebooks.md)
 
 ### Password Managers
 
-<div class="grid cards" markdown>
-
-- ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ .twemoji } [Bitwarden](passwords.md#bitwarden)
-- ![1Password logo](assets/img/password-management/1password.svg){ .twemoji } [1Password](passwords.md#1password)
-- ![Psono logo](assets/img/password-management/psono.svg){ .twemoji } [Psono](passwords.md#psono)
-- ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji } [KeePassXC](passwords.md#keepassxc)
-- ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji } [KeePassDX (Android)](passwords.md#keepassdx-android)
-- ![Strongbox logo](assets/img/password-management/strongbox.svg){ .twemoji } [Strongbox (iOS & macOS)](passwords.md#strongbox-ios-macos)
-- ![gopass logo](assets/img/password-management/gopass.svg){ .twemoji } [gopass](passwords.md#gopass)
-
-</div>
+[![Bitwarden logo](assets/img/password-management/bitwarden.svg){ .twemoji } Bitwarden](passwords.md#bitwarden){.md-button}
+[![1Password logo](assets/img/password-management/1password.svg){ .twemoji } 1Password](passwords.md#1password){.md-button}
+[![Psono logo](assets/img/password-management/psono.svg){ .twemoji } Psono](passwords.md#psono){.md-button}
+[![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji } KeePassXC](passwords.md#keepassxc){.md-button}
+[![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji } KeePassDX (Android)](passwords.md#keepassdx-android){.md-button}
+[![Strongbox logo](assets/img/password-management/strongbox.svg){ .twemoji } Strongbox (iOS & macOS)](passwords.md#strongbox-ios-macos){.md-button}
+[![gopass logo](assets/img/password-management/gopass.svg){ .twemoji } gopass](passwords.md#gopass){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](passwords.md)
 
 ### Productivity Tools
 
-<div class="grid cards" markdown>
-
-- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](productivity.md#nextcloud)
-- ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ .twemoji } [LibreOffice](productivity.md#libreoffice)
-- ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ .twemoji } [OnlyOffice](productivity.md#onlyoffice)
-- ![CryptPad logo](assets/img/productivity/cryptpad.svg){ .twemoji } [CryptPad](productivity.md#cryptpad)
-- ![PrivateBin logo](assets/img/productivity/privatebin.svg){ .twemoji } [PrivateBin (Pastebin)](productivity.md#privatebin)
-
-</div>
+[![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji } Nextcloud (Self-Hostable)](productivity.md#nextcloud){.md-button}
+[![LibreOffice logo](assets/img/productivity/libreoffice.svg){ .twemoji } LibreOffice](productivity.md#libreoffice){.md-button}
+[![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ .twemoji } OnlyOffice](productivity.md#onlyoffice){.md-button}
+[![CryptPad logo](assets/img/productivity/cryptpad.svg){ .twemoji } CryptPad](productivity.md#cryptpad){.md-button}
+[![PrivateBin logo](assets/img/productivity/privatebin.svg){ .twemoji } PrivateBin (Pastebin)](productivity.md#privatebin){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](productivity.md)
 
 ### Real-Time Communication
 
-<div class="grid cards" markdown>
-
-- ![Signal logo](assets/img/messengers/signal.svg){ .twemoji } [Signal](real-time-communication.md#signal)
-- ![Briar logo](assets/img/messengers/briar.svg){ .twemoji } [Briar](real-time-communication.md#briar)
-- ![SimpleX Chat logo](assets/img/messengers/simplex.svg){ .twemoji } [SimpleX Chat](real-time-communication.md#simplex-chat)
-- ![Element logo](assets/img/messengers/element.svg){ .twemoji } [Element](real-time-communication.md#element)
-- ![Session logo](assets/img/messengers/session.svg){ .twemoji } [Session](real-time-communication.md#session)
-
-</div>
+[![Signal logo](assets/img/messengers/signal.svg){ .twemoji } Signal](real-time-communication.md#signal){.md-button}
+[![Briar logo](assets/img/messengers/briar.svg){ .twemoji } Briar](real-time-communication.md#briar){.md-button}
+[![SimpleX Chat logo](assets/img/messengers/simplex.svg){ .twemoji } SimpleX Chat](real-time-communication.md#simplex-chat){.md-button}
+[![Element logo](assets/img/messengers/element.svg){ .twemoji } Element](real-time-communication.md#element){.md-button}
+[![Session logo](assets/img/messengers/session.svg){ .twemoji } Session](real-time-communication.md#session){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](real-time-communication.md)
 
 ### Video Streaming Clients
 
-<div class="grid cards" markdown>
-
-- ![LBRY logo](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
-
-</div>
+[![LBRY logo](assets/img/video-streaming/lbry.svg){ .twemoji } LBRY](video-streaming.md#lbry){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](video-streaming.md)
 
@@ -343,53 +307,37 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ### Mobile
 
-<div class="grid cards" markdown>
-
-- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji } [GrapheneOS](android.md#grapheneos)
-- ![DivestOS logo](assets/img/android/divestos.svg){ .twemoji } [DivestOS](android.md#divestos)
-
-</div>
+[![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji } GrapheneOS](android.md#grapheneos){.md-button}
+[![DivestOS logo](assets/img/android/divestos.svg){ .twemoji } DivestOS](android.md#divestos){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](android.md)
 
 #### Android Apps
 
-<div class="grid cards" markdown>
-
-- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } [Aurora Store (Google Play Client)](android.md#aurora-store)
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } [Shelter (Work Profiles)](android.md#shelter)
-- ![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](android.md#auditor)
-- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](android.md#secure-camera)
-- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](android.md#secure-pdf-viewer)
-
-</div>
+[![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji } Aurora Store (Google Play Client)](android.md#aurora-store){.md-button}
+[![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji } Shelter (Work Profiles)](android.md#shelter){.md-button}
+[![Auditor logo](assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/auditor-dark.svg#only-dark){ .twemoji } Auditor (Supported Devices)](android.md#auditor){.md-button}
+[![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } Secure Camera](android.md#secure-camera){.md-button}
+[![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } Secure PDF Viewer](android.md#secure-pdf-viewer){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](android.md#general-apps)
 
 ### Desktop/PC
 
-<div class="grid cards" markdown>
-
-- ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
-- ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ .twemoji } [Fedora Workstation](desktop.md#fedora-workstation)
-- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
-- ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji } [Arch Linux](desktop.md#arch-linux)
-- ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ .twemoji } [Fedora Silverblue & Kinoite](desktop.md#fedora-silverblue)
-- ![nixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](desktop.md#nixos)
-- ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](desktop.md#whonix)
-- ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](desktop.md#tails)
-
-</div>
+[![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji } Qubes OS (Xen VM Distribution)](desktop.md#qubes-os){.md-button}
+[![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ .twemoji } Fedora Workstation](desktop.md#fedora-workstation){.md-button}
+[![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed){.md-button}
+[![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji } Arch Linux](desktop.md#arch-linux){.md-button}
+[![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ .twemoji } Fedora Silverblue & Kinoite](desktop.md#fedora-silverblue){.md-button}
+[![nixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji } NixOS](desktop.md#nixos){.md-button}
+[![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji } Whonix (Tor)](desktop.md#whonix){.md-button}
+[![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji } Tails (Live Boot)](desktop.md#tails){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](desktop.md)
 
 ### Router Firmware
 
-<div class="grid cards" markdown>
-
-- ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ .twemoji }![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } [OpenWrt](router.md#openwrt)
-- ![OPNsense logo](assets/img/router/opnsense.svg){ .twemoji } [OPNsense](router.md#opnsense)
-
-</div>
+[![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ .twemoji }![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji } OpenWrt](router.md#openwrt){.md-button}
+[![OPNsense logo](assets/img/router/opnsense.svg){ .twemoji } OPNsense](router.md#opnsense){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](router.md)
