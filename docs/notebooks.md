@@ -11,6 +11,57 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
 ## Cloud-based
 
+### Standard Notes
+
+!!! recommendation
+
+    ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
+
+    **Standard Notes** is a simple and private notes app that makes your notes easy and available everywhere you are. It features E2EE on every platform, and a powerful desktop experience with themes and custom editors. It has also been [independently audited](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
+
+    [:octicons-home-16: Homepage](https://standardnotes.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://standardnotes.com/help){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
+        - [:simple-github: GitHub](https://github.com/standardnotes/app/releases)
+        - [:simple-windows11: Windows](https://standardnotes.com)
+        - [:simple-apple: macOS](https://standardnotes.com)
+        - [:simple-linux: Linux](https://standardnotes.com)
+        - [:octicons-globe-16: Web](https://app.standardnotes.com/)
+
+### Notesnook
+
+!!! recommendation
+
+    ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
+
+    **Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. It features end-to-end encryption on all platforms with a powerful sync to take your notes on the go. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com/).
+
+    [:octicons-home-16: Homepage](https://notesnook.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://help.notesnook.com/){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/notesnook-take-private-notes/id1544027013)
+        - [:simple-github: GitHub](https://github.com/streetwriters/notesnook/releases)
+        - [:simple-windows11: Windows](https://notesnook.com/downloads)
+        - [:simple-apple: macOS](https://notesnook.com/downloads)
+        - [:simple-linux: Linux](https://notesnook.com/downloads)
+        - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
+        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
+
+Notesnook does not support password/PIN protection on the web & desktop apps. However, you can still lock individual notes, and your data is always encrypted in transit and on your device using your master key.
+
 ### Joplin
 
 !!! recommendation
@@ -39,30 +90,6 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 Joplin does not support password/PIN protection for the [application itself or individual notes and notebooks](https://github.com/laurent22/joplin/issues/289). However, your data is still encrypted in transit and at the sync location using your master key.
 Since January 2023, Joplin supports biometrics app lock for [Android](https://joplinapp.org/changelog_android/#android-v2-10-3-https-github-com-laurent22-joplin-releases-tag-android-v2-10-3-pre-release-2023-01-05t11-29-06z) and [iOS](https://joplinapp.org/changelog_ios/#ios-v12-10-2-https-github-com-laurent22-joplin-releases-tag-ios-v12-10-2-2023-01-20t17-41-13z).
 
-### Standard Notes
-
-!!! recommendation
-
-    ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
-
-    **Standard Notes** is a simple and private notes app that makes your notes easy and available everywhere you are. It features E2EE on every platform, and a powerful desktop experience with themes and custom editors. It has also been [independently audited](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
-
-    [:octicons-home-16: Homepage](https://standardnotes.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://standardnotes.com/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
-        - [:simple-github: GitHub](https://github.com/standardnotes/app/releases)
-        - [:simple-windows11: Windows](https://standardnotes.com)
-        - [:simple-apple: macOS](https://standardnotes.com)
-        - [:simple-linux: Linux](https://standardnotes.com)
-        - [:octicons-globe-16: Web](https://app.standardnotes.com/)
-
 ### Cryptee
 
 !!! recommendation
@@ -78,7 +105,7 @@ Since January 2023, Joplin supports biometrics app lock for [Android](https://jo
     [:octicons-code-16:](https://github.com/cryptee){ .card-link title="Source Code" }
 
     ??? downloads
-    
+
         - [:octicons-globe-16: PWA](https://crypt.ee/download)
 
 Cryptee offers 100MB of storage for free, with paid options if you need more. Sign-up doesn't require an e-mail or other personally identifiable information.
