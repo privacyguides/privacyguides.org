@@ -15,13 +15,9 @@ For more details about each project, why they were chosen, and additional tips o
 
 ## Tor Network
 
-<div class="grid cards annotate" markdown>
-
 [![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } Tor Browser](tor.md#tor-browser){ .md-button }
 [![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji } Orbot (Smartphone Tor Proxy)](tor.md#orbot){ .md-button }
 [![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } Snowflake](tor.md#snowflake){.md-button} (1)
-
-</div>
 
 1. Snowflake does not increase privacy, however it allows you to easily contribute to the Tor network and help people in censored networks achieve better privacy.
 
@@ -37,32 +33,20 @@ For more details about each project, why they were chosen, and additional tips o
 
 ### Additional Resources
 
-<div class="grid cards" markdown>
-
-- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
-
-</div>
+[![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } uBlock Origin](desktop-browsers.md#ublock-origin){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
 
 ## Mobile Web Browsers
 
-<div class="grid cards" markdown>
-
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Android)](mobile-browsers.md#brave)
-- ![Safari logo](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](mobile-browsers.md#safari)
-
-</div>
+[![Brave logo](assets/img/browsers/brave.svg){ .twemoji } Brave (Android)](mobile-browsers.md#brave){md.button}
+[![Safari logo](assets/img/browsers/safari.svg){ .twemoji } Safari (iOS)](mobile-browsers.md#safari){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](mobile-browsers.md)
 
 ### Additional Resources
 
-<div class="grid cards annotate" markdown>
-
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](mobile-browsers.md#adguard)
-
-</div>
+[![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } AdGuard for iOS](mobile-browsers.md#adguard){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
 
@@ -70,12 +54,8 @@ For more details about each project, why they were chosen, and additional tips o
 
 ### Cloud Storage
 
-<div class="grid cards" markdown>
-
-- ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
-- ![Tresorit logo](assets/img/cloud/tresorit.svg){ .twemoji } [Tresorit](cloud.md#tresorit)
-
-</div>
+[![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji } Proton Drive](cloud.md#proton-drive){.md-button}
+[![Tresorit logo](assets/img/cloud/tresorit.svg){ .twemoji } Tresorit](cloud.md#tresorit){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](cloud.md)
 
@@ -89,57 +69,37 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 #### Encrypted DNS Proxies
 
-<div class="grid cards" markdown>
-
-- ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ .twemoji }![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji } [RethinkDNS](dns.md#rethinkdns)
-- ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ .twemoji } [dnscrypt-proxy](dns.md#dnscrypt-proxy)
-
-</div>
+[![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ .twemoji }![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji } RethinkDNS](dns.md#rethinkdns){.md-button}
+[![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ .twemoji } dnscrypt-proxy](dns.md#dnscrypt-proxy){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
 #### Self-hosted Solutions
 
-<div class="grid cards" markdown>
-
-- ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ .twemoji } [AdGuard Home](dns.md#adguard-home)
-- ![Pi-hole logo](assets/img/dns/pi-hole.svg){ .twemoji } [Pi-hole](dns.md#pi-hole)
-
-</div>
+[![AdGuard Home logo](assets/img/dns/adguard-home.svg){ .twemoji } AdGuard Home](dns.md#adguard-home){.md-button}
+[![Pi-hole logo](assets/img/dns/pi-hole.svg){ .twemoji } Pi-hole](dns.md#pi-hole){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
 
 ### Email
 
-<div class="grid cards" markdown>
-
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
-- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
-
-</div>
+[![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } Proton Mail](email.md#proton-mail){.md-button}
+[![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } Mailbox.org](email.md#mailboxorg){.md-button}
+[![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } Tutanota](email.md#tutanota){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](email.md)
 
 #### Email Aliasing Services
 
-<div class="grid cards" markdown>
-
-- ![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](email.md#anonaddy)
-- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
-
-</div>
+[![AnonAddy logo](assets/img/email/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](assets/img/email/anonaddy-dark.svg#only-dark){ .twemoji } AnonAddy](email.md#anonaddy){.md-button}
+[![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } SimpleLogin](email.md#simplelogin){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
 
 #### Self-Hosting Email
 
-<div class="grid cards" markdown>
-
-- ![mailcow logo](assets/img/email/mailcow.svg){ .twemoji } [mailcow](email.md#self-hosting-email)
-- ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji } [Mail-in-a-Box](email.md#self-hosting-email)
-
-</div>
+[![mailcow logo](assets/img/email/mailcow.svg){ .twemoji } mailcow](email.md#self-hosting-email){.md-button}
+[![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji } Mail-in-a-Box](email.md#self-hosting-email){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](email.md#self-hosting-email)
 
@@ -147,35 +107,24 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 #### Payment Masking Services
 
-<div class="grid cards" markdown>
-
-- ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji }![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji } [Privacy.com](financial-services.md#privacycom-us-free)
-- ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
-</div>
+[![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji }![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji } Privacy.com](financial-services.md#privacycom-us-free){.md-button}
+[![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } MySudo](financial-services.md#mysudo-us-paid){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
 
 #### Online Gift Card Marketplaces
 
-<div class="grid cards" markdown>
-
-- ![Cake Pay logo](assets/img/financial-services/cakepay.svg){ .twemoji } [Cake Pay](financial-services.md#cake-pay)
-- ![CoinCards logo](assets/img/financial-services/coincards.svg){ .twemoji } [CoinCards](financial-services.md#coincards)
-
-</div>
+[![Cake Pay logo](assets/img/financial-services/cakepay.svg){ .twemoji } Cake Pay](financial-services.md#cake-pay){.md-button}
+[![CoinCards logo](assets/img/financial-services/coincards.svg){ .twemoji } CoinCards](financial-services.md#coincards){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
 ### Search Engines
 
-<div class="grid cards" markdown>
-
-- ![Brave Search logo](assets/img/search-engines/brave-search.svg){ .twemoji } [Brave Search](search-engines.md#brave-search)
-- ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ .twemoji } [DuckDuckGo](search-engines.md#duckduckgo)
-- ![SearXNG logo](assets/img/search-engines/searxng.svg){ .twemoji } [SearXNG](search-engines.md#searxng)
-- ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ .twemoji }![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji } [Startpage](search-engines.md#startpage)
-
-</div>
+[![Brave Search logo](assets/img/search-engines/brave-search.svg){ .twemoji } Brave Search](search-engines.md#brave-search){.md-button}
+[![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ .twemoji } DuckDuckGo](search-engines.md#duckduckgo){.md-button}
+[![SearXNG logo](assets/img/search-engines/searxng.svg){ .twemoji } SearXNG](search-engines.md#searxng){.md-button}
+[![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ .twemoji }![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji } Startpage](search-engines.md#startpage){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](search-engines.md)
 
@@ -191,13 +140,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
     [Learn more :material-arrow-right-drop-circle:](vpn.md)
 
-<div class="grid cards" markdown>
-
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](vpn.md#ivpn)
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](vpn.md#mullvad)
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](vpn.md#proton-vpn)
-
-</div>
+[![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } IVPN](vpn.md#ivpn){.md-button}
+[![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } Mullvad](vpn.md#mullvad){.md-button}
+[![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } Proton VPN](vpn.md#proton-vpn){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](vpn.md)
 
@@ -205,54 +150,38 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ### Calendar Sync
 
-<div class="grid cards" markdown>
-
-- ![Tutanota logo](assets/img/calendar/tutanota.svg){ .twemoji } [Tutanota](calendar.md#tutanota)
-- ![Proton Calendar logo](assets/img/calendar/proton-calendar.svg){ .twemoji } [Proton Calendar](calendar.md#proton-calendar)
-
-</div>
+[![Tutanota logo](assets/img/calendar/tutanota.svg){ .twemoji } Tutanota](calendar.md#tutanota){.md-button}
+[![Proton Calendar logo](assets/img/calendar/proton-calendar.svg){ .twemoji } Proton Calendar](calendar.md#proton-calendar){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](calendar.md)
 
 ### Cryptocurrency
 
-<div class="grid cards" markdown>
-
-- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji } [Monero](cryptocurrency.md#monero)
-
-</div>
+[![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji } Monero](cryptocurrency.md#monero){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](cryptocurrency.md)
 
 ### Data and Metadata Redaction
 
-<div class="grid cards" markdown>
-
-- ![MAT2 logo](assets/img/data-redaction/mat2.svg){ .twemoji } [MAT2](data-redaction.md#mat2)
-- ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
-- ![Metapho logo](assets/img/data-redaction/metapho.jpg){ .twemoji } [Metapho (iOS)](data-redaction.md#metapho-ios)
-- ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ .twemoji } [PrivacyBlur](data-redaction.md#privacyblur)
-- ![ExifTool logo](assets/img/data-redaction/exiftool.png){ .twemoji } [ExifTool (CLI)](data-redaction.md#exiftool)
-
-</div>
+[![MAT2 logo](assets/img/data-redaction/mat2.svg){ .twemoji } MAT2](data-redaction.md#mat2){.md-button}
+[![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji } ExifEraser (Android)](data-redaction.md#exiferaser-android){.md-button}
+[![Metapho logo](assets/img/data-redaction/metapho.jpg){ .twemoji } Metapho (iOS)](data-redaction.md#metapho-ios){.md-button}
+[![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ .twemoji } PrivacyBlur](data-redaction.md#privacyblur){.md-button}
+[![ExifTool logo](assets/img/data-redaction/exiftool.png){ .twemoji } ExifTool (CLI)](data-redaction.md#exiftool){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](data-redaction.md)
 
 ### Email Clients
 
-<div class="grid cards" markdown>
-
-- ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ .twemoji } [Thunderbird](email-clients.md#thunderbird)
-- ![Apple Mail logo](assets/img/email-clients/applemail.png){ .twemoji } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
-- ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ .twemoji } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
-- ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji } [FairEmail (Android)](email-clients.md#fairemail-android)
-- ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
-- ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ .twemoji } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
-- ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji } [Kontact (Linux)](email-clients.md#kontact-kde)
-- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
-- ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
-
-</div>
+[![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ .twemoji } Thunderbird](email-clients.md#thunderbird){.md-button}
+[![Apple Mail logo](assets/img/email-clients/applemail.png){ .twemoji } Apple Mail (macOS)](email-clients.md#apple-mail-macos){.md-button}
+[![Canary Mail logo](assets/img/email-clients/canarymail.svg){ .twemoji } Canary Mail (iOS)](email-clients.md#canary-mail-ios){.md-button}
+[![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji } FairEmail (Android)](email-clients.md#fairemail-android){.md-button}
+[![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji } GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome){.md-button}
+[![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ .twemoji } K-9 Mail (Android)](email-clients.md#k-9-mail-android){.md-button}
+[![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji } Kontact (Linux)](email-clients.md#kontact-kde){.md-button}
+[![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji } Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser){.md-button}
+[![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji } NeoMutt (CLI)](email-clients.md#neomutt-cli){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](email-clients.md)
 
@@ -264,29 +193,21 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
     [Learn more :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
 
-<div class="grid cards" markdown>
-
-- ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ .twemoji } [Cryptomator](encryption.md#cryptomator-cloud)
-- ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ .twemoji } [Picocrypt](encryption.md#picocrypt-file)
-- ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
-- ![Hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ .twemoji }![Hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ .twemoji } [Hat.sh (Browser-based)](encryption.md#hatsh)
-- ![Kryptor logo](assets/img/encryption-software/kryptor.png){ .twemoji } [Kryptor](encryption.md#kryptor)
-- ![Tomb logo](assets/img/encryption-software/tomb.png){ .twemoji } [Tomb](encryption.md#tomb)
-
-</div>
+[![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ .twemoji } Cryptomator](encryption.md#cryptomator-cloud){.md-button}
+[![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ .twemoji } Picocrypt](encryption.md#picocrypt-file){.md-button}
+[![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji } VeraCrypt (FDE)](encryption.md#veracrypt-disk){.md-button}
+[![Hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ .twemoji }![Hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ .twemoji } Hat.sh (Browser-based)](encryption.md#hatsh){.md-button}
+[![Kryptor logo](assets/img/encryption-software/kryptor.png){ .twemoji } Kryptor](encryption.md#kryptor){.md-button}
+[![Tomb logo](assets/img/encryption-software/tomb.png){ .twemoji } Tomb](encryption.md#tomb){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](encryption.md)
 
 #### OpenPGP Clients
 
-<div class="grid cards" markdown>
-
-- ![GnuPG logo](assets/img/encryption-software/gnupg.svg){ .twemoji } [GnuPG](encryption.md#gnu-privacy-guard)
-- ![GPG4Win logo](assets/img/encryption-software/gpg4win.svg){ .twemoji } [GPG4Win (Windows)](encryption.md#gpg4win)
-- ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ .twemoji } [GPG Suite (macOS)](encryption.md#gpg-suite)
-- ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ .twemoji } [OpenKeychain](encryption.md#openkeychain)
-
-</div>
+[![GnuPG logo](assets/img/encryption-software/gnupg.svg){ .twemoji } GnuPG](encryption.md#gnu-privacy-guard){.md-button}
+[![GPG4Win logo](assets/img/encryption-software/gpg4win.svg){ .twemoji } GPG4Win (Windows)](encryption.md#gpg4win){.md-button}
+[![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ .twemoji } GPG Suite (macOS)](encryption.md#gpg-suite){.md-button}
+[![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ .twemoji } OpenKeychain](encryption.md#openkeychain){.md-button}
 
 [Learn more :material-arrow-right-drop-circle:](encryption.md#openpgp)
 
