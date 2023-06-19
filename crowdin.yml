@@ -35,3 +35,8 @@ files:
   translation_replace:
     "en.": ""
   skip_untranslated_files: false
+- source: "/static/i18n/*.en.*"
+  translation: "/static/i18n/%file_name%.%two_letters_code%.%file_extension%"
+  translation_replace:
+    "en.": ""
+  skip_untranslated_files: false

@@ -2,6 +2,8 @@ site
 /i18n/
 /includes/*
 !/includes/*.en.*
+/static/i18n/*
+!/static/i18n/*.en.*
 /theme/overrides/*
 !/theme/overrides/*.en.*
 # include Bagnard font in social card

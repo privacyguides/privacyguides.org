@@ -32,44 +32,44 @@
     X-XSS-Protection = "0"
     X-Content-Type-Options = "nosniff"
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
-    Content-Security-Policy = "default-src 'none'; script-src https://www.privacyguides.org https://api.privacyguides.net 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src data: 'self'; connect-src https://api.github.com https://*.privacyguides.net 'self'; frame-src https://*.privacyguides.net; frame-ancestors 'none'"
+    Content-Security-Policy = "default-src 'none'; script-src https://www.privacyguides.org https://api.privacyguides.net 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src data: 'self'; connect-src https://api.github.com https://*.privacyguides.net 'self'; frame-src https://*.privacyguides.net; frame-ancestors 'none'"
 
 [[headers]]
   for = "/:lang/about/donate/"
   [headers.values]
-    Content-Security-Policy = "default-src 'none'; script-src https://opencollective.com https://www.privacyguides.org https://api.privacyguides.net 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src https://opencollective.com data: 'self'; connect-src https://api.github.com https://*.privacyguides.net 'self'; frame-src https://opencollective.com; frame-ancestors 'none'"
+    Content-Security-Policy = "default-src 'none'; script-src https://opencollective.com https://www.privacyguides.org https://api.privacyguides.net 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src https://opencollective.com data: 'self'; connect-src https://api.github.com https://*.privacyguides.net 'self'; frame-src https://opencollective.com; frame-ancestors 'none'"
 
 [[headers]]
   for = "/:lang/tor/"
   [headers.values]
-    Content-Security-Policy = "default-src 'none'; script-src https://www.privacyguides.org https://api.privacyguides.net 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src data: 'self'; connect-src https://api.github.com https://*.privacyguides.net 'self'; frame-src https://snowflake.torproject.org; frame-ancestors 'none'"
+    Content-Security-Policy = "default-src 'none'; script-src https://www.privacyguides.org https://api.privacyguides.net 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src data: 'self'; connect-src https://api.github.com https://*.privacyguides.net 'self'; frame-src https://snowflake.torproject.org; frame-ancestors 'none'"
 
 [[redirects]]
     from = "/es/*"
-    to = "/es/404/index.html"
+    to = "/i18n/404.es.html"
     status = 404
 
 [[redirects]]
     from = "/fr/*"
-    to = "/fr/404/index.html"
+    to = "/i18n/404.fr.html"
     status = 404
 
 [[redirects]]
     from = "/he/*"
-    to = "/he/404/index.html"
+    to = "/i18n/404.he.html"
     status = 404
 
 [[redirects]]
     from = "/it/*"
-    to = "/it/404/index.html"
+    to = "/i18n/404.it.html"
     status = 404
 
 [[redirects]]
     from = "/nl/*"
-    to = "/nl/404/index.html"
+    to = "/i18n/404.nl.html"
     status = 404
 
 [[redirects]]
     from = "/*"
-    to = "/en/404/index.html"
+    to = "/i18n/404.en.html"
     status = 404
