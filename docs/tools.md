@@ -31,9 +31,9 @@ For more details about each project, why they were chosen, and additional tips o
 
 <div class="grid" markdown>
 
-[![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji } Mullvad Browser{ .card }](desktop-browsers.md#mullvad-browser)
-[![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } Firefox{ .card }](desktop-browsers.md#firefox)
-[![Brave logo](assets/img/browsers/brave.svg){ .twemoji } Brave{ .card }](desktop-browsers.md#brave)
+[![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji } Mullvad Browser](desktop-browsers.md#mullvad-browser){ .card }
+[![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji } Firefox](desktop-browsers.md#firefox){ .card }
+[![Brave logo](assets/img/browsers/brave.svg){ .twemoji } Brave](desktop-browsers.md#brave){ .card }
 
 </div>
 
