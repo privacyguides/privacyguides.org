@@ -10,8 +10,7 @@ Calendars contain some of your most sensitive data; use products that implement 
 
 !!! recommendation
 
-    ![Tutanota logo](assets/img/calendar/tutanota.svg#only-light){ align=right }
-    ![Tutanota logo](assets/img/calendar/tutanota-dark.svg#only-dark){ align=right }
+    ![Tutanota logo](assets/img/calendar/tutanota.svg){ align=right }
 
     **Tutanota** offers a free and encrypted calendar across their supported platforms. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tutanota.com/calendar-app-comparison/).
 
