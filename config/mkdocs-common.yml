@@ -88,7 +88,7 @@ extra_javascript:
 watch:
   - ../theme
   - ../includes
-  - mkdocs.common.yml
+  - mkdocs-common.yml
 
 plugins:
   tags: {}

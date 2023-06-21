@@ -17,3 +17,6 @@ site
 !/.cache/plugin/social/fonts
 /.cache/plugin/social/fonts/*
 !/.cache/plugin/social/fonts/Bagnard
+
+# Local Netlify folder
+.netlify

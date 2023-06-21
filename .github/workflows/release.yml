@@ -80,7 +80,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CARDS: true
         run: |
-          pipenv run mkdocs build --config-file config/mkdocs.offline.yml
+          pipenv run mkdocs build --config-file config/mkdocs-offline.yml
           pipenv run mkdocs --version
       
       - name: Package website
@@ -125,17 +125,14 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: offline.tar.gz
-          path: offline.tar.gz
 
       - uses: actions/download-artifact@v3
         with:
           name: offline.zip
-          path: offline.zip
 
       - uses: actions/download-artifact@v3
         with:
           name: privacy_guides.zim
-          path: privacy_guides.zim
 
       - name: Create release notes
         uses: ncipollo/release-action@v1
