@@ -23,7 +23,7 @@ Desktop platforms also often have a password manager which may help you recover 
 - Windows [Credential Manager](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
 - macOS [Passwords](https://support.apple.com/en-us/HT211145)
 - iOS [Passwords](https://support.apple.com/en-us/HT211146)
-- Linux, Gnome Keyring, which can be accessed through [Seahorse](https://help.gnome.org/users/seahorse/stable/passwords-view.html.en) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
+- Linux, Gnome Keyring, which can be accessed through [Seahorse](https://wiki.gnome.org/Apps/Seahorse) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### Email
 
