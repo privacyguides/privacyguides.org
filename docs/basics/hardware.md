@@ -52,16 +52,6 @@ Most implementations of face authentication require you to be looking at your ph
     
 Android defines three [security classes](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) for biometrics; you should check that your device is class 3 before enabling biometrics.
 
-### Encrypted Drives
-
-Some drives come equipped with encryption built into the drive itself, rather than relying on software for encryption. These are called SEDs.
-
-SEDs avoid software attacks because the encryption key never leaves the drive; it is never stored in memory. These drives work just like regular drives, allowing you to plug them into a different device and still read data off of them. When you want to erase your data, you can do a SecreErase on SEDs, which will change the encryption key and make all data on the drive inaccessible.
-
-Most SEDs are [Opal 2.0](https://trustedcomputinggroup.org/resource/storage-work-group-storage-security-subsystem-class-opal/) compliant, meaning they support security features like setting a password that must be entered to read data off the drive. You should check to make sure an SED is Opal 2.0 compliant before purchasing it so you know it meets basic security and interoperability requirements.
-
-For even more security, you can get FIPS 140-3 compliant drives. This standard was introduced by the NIST to protect government and military data. There are [four levels](https://www.entrust.com/resources/hsm/faq/data-protection-security-regulations/what-fips-140-3) of FIPS 140-3, each adding extra physical security like tamper-resistance and brute-force protection. Some also support read-only modes to prevent tampering and help with recovery.
-
 ### General Tips
 
 If your device is [encrypted](../encryption.md), turning it fully off is more secure than leaving it on. On phones, this is referred to as BFU and AFU respectively. If your threat model includes high-resource adversaries like the government, you may want to turn your device fully off whenever you aren't using it. For other threat models, it's still a good idea to lock it before you leave and make sure the lock screen is password protected.
