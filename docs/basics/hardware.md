@@ -10,6 +10,14 @@ When it comes to discussions about privacy, hardware often takes a backseat to s
 
 The internals of your devices process and store all of your digital data. You should make sure they are secure and up-to-date.
 
+### Picking a Machine
+
+A [Windows Secured-Core machine](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) ensures that it meets certain security criteria laid out by Microsoft. They don't only protect Windows users; users of other operating systems can still take advantage of things like [DMA protection](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) and the ability to completely distrust Microsoft certificates.
+
+Macs have [great hardware security](https://support.apple.com/guide/security/welcome/web), but many of the hardware security features rely on macOS to function properly. If you plan on running macOS, doing so on official Apple hardware is the way to go.
+
+Similarly, ChromeOS's security is at its best when run on a Chromebook.
+
 ### Preinstalled OS
 
 When you buy a new machine, an operating system will normally come preinstalled on it. Due to agreements between hardware vendors and shady software vendors, the default operating system install often comes preloaded with bloatware, [adware](https://www.bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal/), or even [malware](https://www.zdnet.com/article/dell-poweredge-motherboards-ship-with-malware/). It's usually a good idea to wipe the drive and install a fresh copy of your operating system of choice. It's not normally necessary to do this if the manufacturer of the hardware also develops the operating system, such as with Apple devices and the Microsoft Surface line.
