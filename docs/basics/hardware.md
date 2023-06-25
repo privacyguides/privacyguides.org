@@ -78,7 +78,7 @@ Hardware keys are devices that use strong cryptography to authenticate you to a 
 
 ### Camera/Microphone
 
-Some cameras come equipped with a small light that's meant to indicate that it's filming; usually these are wired in series with the camera, meaning that it is only on whenever the camera is on. If you don't want to trust your OS's permission controls to prevent the camera from activating in the first place, you can buy camera blockers that physically prevent light from reaching the camera. You could also buy a device that doesn't have a built-in camera and use an external camera that you can unplug whenever you're done using it. Some devices come with built-in camera blockers or hardware switches that physically disconnect the camera from power.
+If you don't want to trust your OS's permission controls to prevent the camera from activating in the first place, you can buy camera blockers that physically prevent light from reaching the camera. You could also buy a device that doesn't have a built-in camera and use an external camera that you can unplug whenever you're done using it. Some devices come with built-in camera blockers or hardware switches that physically disconnect the camera from power.
 
 !!! warning
 
