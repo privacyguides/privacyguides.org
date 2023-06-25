@@ -421,6 +421,7 @@ nav:
           - "pastebins.md"
           - "real-time-communication.md"
       - !ENV [NAV_HARDWARE, "Hardware"]:
+          - "basics/hardware.md"
           - "mobile-phones.md"
           - "security-keys.md"
       - !ENV [NAV_OPERATING_SYSTEMS, "Operating Systems"]:
