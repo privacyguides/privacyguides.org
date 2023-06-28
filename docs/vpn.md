@@ -279,13 +279,13 @@ A VPN is pointless if it can't even provide adequate security. We require all ou
 **Minimum to Qualify:**
 
 - Strong Encryption Schemes: OpenVPN with SHA-256 authentication; RSA-2048 or better handshake; AES-256-GCM or AES-256-CBC data encryption.
-- Perfect Forward Secrecy (PFS).
+- Forward Secrecy.
 - Published security audits from a reputable third-party firm.
 
 **Best Case:**
 
 - Strongest Encryption: RSA-4096.
-- Perfect Forward Secrecy (PFS).
+- Forward Secrecy.
 - Comprehensive published security audits from a reputable third-party firm.
 - Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
 

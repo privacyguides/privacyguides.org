@@ -99,13 +99,13 @@ The client software was independently [audited](https://briarproject.org/news/20
 
 Briar has a fully [published specification](https://code.briarproject.org/briar/briar-spec).
 
-Briar supports perfect forward secrecy by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
+Briar supports Forward Secrecy by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
 ## Additional Options
 
 !!! warning
 
-    These messengers do not have Perfect [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) (PFS), and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. Any key compromise among message recipients would affect the confidentiality of **all** past communications.
+    These messengers do not have [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. Any key compromise among message recipients would affect the confidentiality of **all** past communications.
 
 ### Element
 
@@ -189,7 +189,7 @@ Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the 
 
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
-- Should have Perfect Forward Secrecy.
+- Should have Forward Secrecy.
 - Should have open-source servers.
 - Should be decentralized, i.e. federated or P2P.
 - Should use E2EE for all messages by default.
