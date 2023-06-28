@@ -92,7 +92,7 @@ You can also get cables, like [Buskill](https://www.buskill.in), that will lock 
 
 The best way to prevent a targetted attack against you before a device is in your posession is to purchase a device in a physical store, rather than ordering it to your address.
 
-A method you can use once you already have the device is to paint the screws with [glittery nail polish](https://trmm.net/Glitter/), take a picture, and compare the patterns to your pictures in the future.
+Make sure your device supports secure boot/verified boot and you have it enabled. Try to avoid leaving your device unattended whenever possible.
 
 ## Routers
 
