@@ -63,7 +63,7 @@ Whenever an application requests a permission, it will show up here. You can dec
 
 **Location Services**
 
-You can individaully allow location services per-app. Turning off location services system-wide is the most private option.
+You can individually allow location services per-app. If you don't need apps to use your location, turning off location services entirely is the most private option.
 
 - [ ] Uncheck **Location Services**
 
