@@ -210,7 +210,7 @@ When it is necessary to use one of these processors, Apple works with the vendor
 - runs verified firmware from the primary CPU on startup
 - has its own Secure Boot chain
 - follows minimum cryptographic standards
-- doesn't run known bad firmware
+- ensures known bad firmware is properly revoked
 - has its debug interfaces disabled
 - is signed with Apple's cryptographic keys
 
