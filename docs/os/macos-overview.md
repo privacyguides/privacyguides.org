@@ -85,9 +85,7 @@ Decide whether you want personalized ads based on your usage.
 
 **Security**
 
-If you don't need non-App Store apps
-
-- [x] Select **App Store**
+Apps from the App Store are subject to stricter security guidelines, such as stricter sandboxing. If the only apps you need are available from the App Store, change the **Allow applications downloaded from** setting to **App Store** to prevent accidentally running other apps. This is a good option particularly if you are configuring a machine for other, less technical users such as children. If you choose to also allow applications from identified developers, be careful about the apps you run and where you obtain them.
 
 **Filevault**
 
