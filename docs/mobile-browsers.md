@@ -133,7 +133,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
     **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, and fingerprinting reduction by presenting a simplified version of the system configuration to websites so more devices look identical.
     
-    Safari is restricted to Apple devices and is covered by [System Integrity Protection](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/web), a security feature which limits system programs and files to being read-only so they can't be tampered with by you or malware.
+    Safari is restricted to Apple devices and is covered by [Page Protection Layer](https://support.apple.com/guide/security/operating-system-integrity-sec8b776536b/1/web/1#sec314c3af61), a security feature which allows only signed code to be run.
 
     [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
