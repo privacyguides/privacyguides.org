@@ -87,9 +87,11 @@ Decide whether you want personalized ads based on your usage.
 
 Apps from the App Store are subject to stricter security guidelines, such as stricter sandboxing. If the only apps you need are available from the App Store, change the **Allow applications downloaded from** setting to **App Store** to prevent accidentally running other apps. This is a good option particularly if you are configuring a machine for other, less technical users such as children. If you choose to also allow applications from identified developers, be careful about the apps you run and where you obtain them.
 
-**Filevault**
+**FileVault**
 
-Filevault will make it so you need a password to access data on your drive.
+On modern devices with a Secure Enclave (T2 Chip, Apple Silicon), your data is always encrypted, but is decrypted automatically by a hardware key if your device doesn't detect it's been tampered with. Enabling FileVault additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
+
+On older Intel Macs, FileVault is the only form of disk encryption available by default, and should always be enabled.
 
 - [x] Click **Turn On**
 
