@@ -127,10 +127,6 @@ macOS sets certain security restrictions that can't be overridden. These are cal
 
 System Integrity Protection makes critical file locations read-only to protect against modification from malicious code. This is on top of the hardware-based Kernel Integrity Protection that keeps the kernel from being modified in-memory.
 
-### Rosetta
-
-Rosetta is a translation layer that lets you run programs for Intel Macs on Apple silicon Macs. Installing Rosetta increases your attack surface, so you should only do so if you really need it.
-
 ### Application Security
 
 #### App Sandbox
