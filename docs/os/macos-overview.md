@@ -131,12 +131,6 @@ System Integrity Protection makes critical file locations read-only to protect a
 
 Rosetta is a translation layer that lets you run programs for Intel Macs on Apple silicon Macs. Installing Rosetta increases your attack surface, so you should only do so if you really need it.
 
-### Data Protection
-
-In Macs with Apple silicon, your data is always stored encrypted with [Class C](https://support.apple.com/guide/security/data-protection-classes-secb010e978a/1/web/1) Data Protection.
-
-You can enable **Filevault** to require a password to decrypt your drive.
-
 ### Application Security
 
 #### App Sandbox
