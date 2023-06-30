@@ -201,7 +201,7 @@ When it is necessary to use one of these processors, Apple works with the vendor
 
 ### Direct Memory Access Protections
 
-Apple silicon SoCs contain an IOMMU to separate each component that requires direct memory access. For example, a Thunderbolt port can't access memory designated for the kernel.
+Apple Silicon separates each component that requires direct memory access. For example, a Thunderbolt port can't access memory designated for the kernel.
 
 ## Sources
 
