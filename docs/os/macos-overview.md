@@ -147,7 +147,7 @@ macOS comes with built-in antivirus software called XProtect. ==We recommend tha
 
 #### Backups
 
-macOS comes with automatic backup software called [Time Machine](https://support.apple.com/en-us/HT201250) so you can create encrypted backups to an external drive in the event of corrupted/deleted files.
+macOS comes with automatic backup software called [Time Machine](https://support.apple.com/en-us/HT201250) so you can create encrypted backups to an external or network drive in the event of corrupted/deleted files.
 
 ## Hardware
 
