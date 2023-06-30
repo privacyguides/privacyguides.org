@@ -151,9 +151,9 @@ macOS comes with automatic backup software called [Time Machine](https://support
 
 ## Hardware
 
-Many security features in macOS like Secure Boot rely on Apple's hardware to function properly. For this reason, ==we recommend you only run it on Macs and avoid Hackintoshes.==
+Many modern security features in macOS—such as modern Secure Boot, hardware-level exploit mitigation, OS integrity checks, and file-based encryption—rely on Apple Silicon, and Apple's newer hardware always has the [best security](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). We only encourage the use of Apple Silicon devices with macOS, and not older Intel Macs or Hackintoshes.
 
-Apple's newer hardware always has the [best security](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1); you should check to make sure the Mac you're buying has at least their M1 chip, as their Intel Macs are vulnerable to the [checkm8](https://www.theiphonewiki.com/wiki/Checkm8_Exploit) exploit.
+Some of these modern security features are available on older Intel Macs with the Apple T2 chip, but that chip is susceptible to the *checkm8* exploit which could compromise its security,
 
 If you use Bluetooth accessories such as a keyboard, we recommend that you use official Apple ones as their firmware will automatically be updated for you by macOS. Using third party accessories is fine, but you should remember to install firmware updates for them regularly.
 
