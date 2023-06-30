@@ -96,7 +96,6 @@ ffsend upload --host https://send.vis.ee/ FILE
         - [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
         - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
         - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
-        - [:simple-freebsd: FreeBSD](https://www.freshports.org/www/nextcloud)
 
 !!! danger
 
@@ -122,8 +121,6 @@ ffsend upload --host https://send.vis.ee/ FILE
         - [:simple-apple: macOS](https://syncthing.net/downloads/)
         - [:simple-linux: Linux](https://syncthing.net/downloads/)
         - [:simple-freebsd: FreeBSD](https://syncthing.net/downloads/)
-        - [:simple-openbsd: OpenBSD](https://syncthing.net/downloads/)
-        - [:simple-netbsd: NetBSD](https://syncthing.net/downloads/)
 
 ### Criteria
 
