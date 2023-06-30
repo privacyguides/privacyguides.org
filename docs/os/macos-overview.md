@@ -139,7 +139,12 @@ macOS apps downloaded from the App Store are required to be sandboxed usng the [
 
 #### Antivirus
 
-macOS comes with built-in antivirus software called XProtect. ==We recommend that you **do not** install third-party antivirus software, as it is a major privacy and security concern.==
+macOS comes with two forms of malware defense:
+
+1. Protection against launching malware in the first place is provided by the App Store's review process for App Store applications, or *Notarization* (part of *Gatekeeper*), a process where third-party apps are scanned for known malware by Apple before they are allowed to run.
+2. Protection against other malware and remediation from existing malware on your system is provided by *XProtect*, a more traditional antivirus software built-in to macOS.
+
+We recommend against installing third-party antivirus software as they typically do not have the system-level access required to properly function anyways, because of Apple's limitations on third-party apps, and because granting the high levels of access they do ask for often poses an even greater security and privacy risk to your computer.
 
 #### Backups
 
