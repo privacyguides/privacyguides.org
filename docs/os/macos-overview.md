@@ -145,14 +145,6 @@ macOS apps downloaded from the App Store are required to be sandboxed usng the [
 
 macOS comes with built-in antivirus software called XProtect. ==We recommend that you **do not** install third-party antivirus software, as it is a major privacy and security concern.==
 
-#### Lockdown Mode
-
-[Lockdown Mode](https://support.apple.com/en-us/HT212650#:~:text=When%20Lockdown%20Mode%20is%20enabled,not%20be%20available%20at%20all.) is a security-hardened setting that makes your system more resistant to attacks.
-
-If you want the full benefits of Lockdown Mode, you should use Apple's apps when you have it enabled as they use the App Sandbox and are covered by System Integrity Protection, although you will still benefit from reduced attack surface even if you use third party apps.
-
-For example, Safari will have [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/) and [WASM](https://developer.mozilla.org/en-US/docs/WebAssembly) disabled by default, and you'll also benefit from the App Sandbox and System Integrity Protection, since Safari is part of the immutable base system.
-
 #### Backups
 
 macOS comes with automatic backup software called [Time Machine](https://support.apple.com/en-us/HT201250) so you can create encrypted backups to an external drive in the event of corrupted/deleted files.
