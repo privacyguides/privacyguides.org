@@ -171,9 +171,7 @@ Macs can be configured to boot in three security modes: *Full Security*, *Reduce
 
 The Secure Enclave is a security chip built into Apple's devices that's responsible for storing and generating encryption keys for data at reast as well as Face ID and Touch ID data. It contains its own separate boot ROM.
 
-It's separated from the rest of the system, so even if the main processor is compromised, it should still be safe.
-
-You can think of the Secure Enclave as your device's security hub: it has an AES encryption engine and a mechanism to securely store your encryption keys.
+You can think of the Secure Enclave as your device's security hub: it has an AES encryption engine and a mechanism to securely store your encryption keys, and it's separated from the rest of the system, so even if the main processor is compromised, it should still be safe.
 
 ### Touch ID
 
