@@ -45,7 +45,7 @@ Click on **About** and type your desired device name into the **Name** field.
 
 You should automatically install all available updates to make sure your Mac has the latest security fixes.
 
-Click the small **i** icon next to **Automatic Updates**
+Click the small :material-information-outline: icon next to **Automatic Updates**
 
 - [x] Check **Check for updates**
 
