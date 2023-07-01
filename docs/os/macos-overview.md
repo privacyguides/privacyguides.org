@@ -77,6 +77,8 @@ Decide whether you want to share analytics data with Apple and developers.
 
 - [ ] Uncheck **Share with app developers**
 
+- [ ] Uncheck **Share iCloud Analytics** (visible if you are signed in to iCloud)
+
 **Apple Advertising**
 
 Decide whether you want personalized ads based on your usage.
