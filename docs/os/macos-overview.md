@@ -115,6 +115,8 @@ This will be reset on reboot.
 
 ## Software
 
+macOS employs defence in depth by relying on multiple layers of protection, with different properties. This ensures that a failure in one layer does not compromise the system's overall security.
+
 ### Signed System Volume
 
 macOS's system components are protected in a read-only signed system volume, meaning that neither you nor malware can alter important system files.
