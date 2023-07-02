@@ -3,7 +3,7 @@ title: macOS Overview
 icon: simple/apple
 description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
 ---
-macOS provides great security out-of-the-box. With some tweaks, you can tailor it to your privacy needs.
+macOS provides great security out-of-the-box with relatively few privacy concerns. It's a great choice for anyone whose threat model allows for some first-party telemetry.
 
 ## Recommended Configuration
 
@@ -206,6 +206,14 @@ When it is necessary to use one of these processors, Apple works with the vendor
 ### Direct Memory Access Protections
 
 Apple Silicon separates each component that requires direct memory access. For example, a Thunderbolt port can't access memory designated for the kernel.
+
+### Privacy Issues
+
+There are a few privacy concerns with macOS that you should consider.
+
+The first time you set up your new Mac, you'll need an internet connection so you can activate it on Apple's servers.
+
+As part of macOS's security model, the first time a program is run it will be subject to a malware scane and a signature check to make sure it's not malware.
 
 ## Sources
 
