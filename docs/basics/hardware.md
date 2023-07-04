@@ -24,11 +24,11 @@ When you buy a new machine, an operating system will normally come preinstalled 
 
 ### Firmware
 
-An oft-overlooked but important consideration is firmware updates for your hardware. Is the OEM of your hardware still releasing firmware updates for your device? Will your OS update firmware automatically or do you need to install firmware updates yourself? These are important to consider when deciding what hardware to purchase.
+An oft-overlooked but important consideration is firmware updates for your hardware.
 
-Almost every component of your computer requires firmware to operate, from your motherboard to your drives. Of course, it's ideal for all the components of your device to be fully supported. Apple devices, Chromebooks, most Android phones, and Microsoft Surface devices will handle all your firmware for you as long as the device is supported (another advantage of using hardware made by the same company as the OS developers). 
+Almost every component of your computer requires firmware to operate, from your motherboard to your drives. Of course, it's ideal for all the components of your device to be fully supported. Apple devices, Chromebooks, most Android phones, and Microsoft Surface devices will handle all your firmware for you as long as the device is supported (another advantage of using hardware made by the same company as the OS developers).
 
-If you build your own PC, you will be responsible for keeping up with firmware updates on all your components. This can be annoying to deal with, so if you don't think you can keep everything up to date, you should prioritize the most important components. Your motherboard's firmware is more important to keep updated than your hard drive, for instance.
+If you build your own PC, you may need to manually update your motherboard's firmware by downloading it from your OEM's website.
 
 ### TPM/Hardware Security Chips
 
