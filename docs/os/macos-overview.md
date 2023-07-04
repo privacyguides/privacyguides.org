@@ -119,6 +119,10 @@ This will be reset on reboot.
 
 macOS employs defence in depth by relying on multiple layers of protection, with different properties. This ensures that a failure in one layer does not compromise the system's overall security.
 
+!!! warning
+
+    macOS allows you to install beta updates. These are unstable and may come with extra telemetry since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
+
 ### Signed System Volume
 
 macOS's system components are protected in a read-only signed system volume, meaning that neither you nor malware can alter important system files.
