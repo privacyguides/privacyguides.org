@@ -76,6 +76,7 @@ theme:
     - navigation.expand
     - navigation.path
     - navigation.indexes
+    - content.tabs.link
     - content.tooltips
     - search.highlight
 

@@ -152,6 +152,7 @@ nav:
       - Schrijfgids:
         - 'meta/writing-style.md'
         - 'meta/brand.md'
+        - 'meta/translations.md'
       - Technische gids:
         - 'meta/uploading-images.md'
         - 'meta/git-recommendations.md'

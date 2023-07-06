@@ -70,6 +70,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.indexes
+    - content.tabs.link
     - content.tooltips
     - search.highlight
 
@@ -155,6 +156,7 @@ nav:
       - Writing Guide:
         - 'meta/writing-style.md'
         - 'meta/brand.md'
+        - 'meta/translations.md'
       - Technical Guides:
         - 'meta/uploading-images.md'
         - 'meta/git-recommendations.md'

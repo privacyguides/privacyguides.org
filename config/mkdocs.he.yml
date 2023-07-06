@@ -156,6 +156,7 @@ nav:
       - Writing Guide:
         - 'meta/writing-style.md'
         - 'meta/brand.md'
+        - 'meta/translations.md'
       - Technical Guides:
         - 'meta/uploading-images.md'
         - 'meta/git-recommendations.md'

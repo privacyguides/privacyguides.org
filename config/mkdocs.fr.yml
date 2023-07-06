@@ -152,6 +152,7 @@ nav:
       - "Guide de rédaction":
         - 'meta/writing-style.md'
         - 'meta/brand.md'
+        - 'meta/translations.md'
       - "Guides techniques":
         - 'meta/uploading-images.md'
         - 'meta/git-recommendations.md'
