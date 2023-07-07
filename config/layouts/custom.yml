@@ -25,7 +25,7 @@ definitions:
       Bagnard
     {%- elif config.theme.language == "he" -%}
       Suez One
-    {%- elif config.theme.language == "zh-Hant" -%}
+    {%- elif config.theme.language == ("zh-Hant" or "ru") -%}
       Noto Serif TC
     {%- else -%}
       Bagnard
@@ -34,7 +34,7 @@ definitions:
   - &font_family >-
     {%- if config.theme.language == "he" -%}
       Suez One
-    {%- elif config.theme.language == "zh-Hant" -%}
+    {%- elif config.theme.language == ("zh-Hant" or "ru") -%}
       Noto Sans TC
     {%- else -%}
       Public Sans

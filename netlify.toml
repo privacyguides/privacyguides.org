@@ -23,11 +23,10 @@
     command = "mkdocs build --config-file config/mkdocs.en.yml && cp -r static/* site/"
 
     [context.production]
-        command = "git clone https://github.com/privacyguides/i18n i18n-download && cp -rl i18n-download/i18n . && cp -rl i18n-download/includes . && cp -rl i18n-download/theme . && mkdocs build --config-file config/mkdocs.en.yml && mkdocs build --config-file config/mkdocs.es.yml && mkdocs build --config-file config/mkdocs.fr.yml && mkdocs build --config-file config/mkdocs.he.yml && mkdocs build --config-file config/mkdocs.it.yml && mkdocs build --config-file config/mkdocs.nl.yml && mkdocs build --config-file config/mkdocs.zh-Hant.yml && cp -r static/* site/"
+        command = "git clone https://github.com/privacyguides/i18n i18n-download && cp -rl i18n-download/i18n . && cp -rl i18n-download/includes . && cp -rl i18n-download/theme . && mkdocs build --config-file config/mkdocs.en.yml && mkdocs build --config-file config/mkdocs.es.yml && mkdocs build --config-file config/mkdocs.fr.yml && mkdocs build --config-file config/mkdocs.he.yml && mkdocs build --config-file config/mkdocs.it.yml && mkdocs build --config-file config/mkdocs.nl.yml && mkdocs build --config-file config/mkdocs.zh-Hant.yml && mkdocs build --config-file config/mkdocs.ru.yml && cp -r static/* site/"
 
     [context.branch-deploy]
         command = "crowdin download && for i in config/mkdocs.*.yml; do mkdocs build --config-file $i; done && cp -r static/* site/"
-        
 
 [[headers]]
   for = "/*"
@@ -76,6 +75,11 @@
 [[redirects]]
     from = "/zh-hant/*"
     to = "/i18n/404.zh-Hant.html"
+    status = 404
+
+[[redirects]]
+    from = "/ru/*"
+    to = "/i18n/404.ru.html"
     status = 404
 
 [[redirects]]

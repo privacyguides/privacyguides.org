@@ -25,6 +25,7 @@
 /  /it/       302  Language=it
 /  /nl/       302  Language=nl
 /  /zh-hant/  302  Language=zh-Hant
+/  /ru/       302  Language=ru
 /  /en/       302
 
 /.well-known/matrix/* https://matrix.privacyguides.org/.well-known/matrix/:splat 200

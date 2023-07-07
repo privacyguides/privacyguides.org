@@ -66,6 +66,10 @@ extra:
       link: /zh-hant/
       lang: zh-Hant
       icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1ed-1f1f0.svg
+    - name: Russian
+      link: /ru/
+      lang: ru
+      icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1f7-1f1fa.svg
 
 repo_url: https://github.com/privacyguides/privacyguides.org
 repo_name: ""
