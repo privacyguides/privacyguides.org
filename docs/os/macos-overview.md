@@ -117,7 +117,6 @@ This will be reset on reboot.
 
 ## Software
 
-macOS employs defence in depth by relying on multiple layers of protection, with different properties. This ensures that a failure in one layer does not compromise the system's overall security.
 
 macOS employs defence in depth by relying on multiple layers of protection, with different properties. This ensures that a failure in one layer does not compromise the system's overall security.
 
