@@ -171,7 +171,7 @@ Apple's SoCs focus on minimizing attack surface by relegating security functions
 
 ### Boot ROM
 
-macOS prevents malware persistence by only allowing official Apple software to run at boot time; this is known as secure boot. Macs verify this with a bit of read-only memory on the SoC called the boot ROM, which is laid down during the manufacturing of the chip.
+macOS prevents malware persistence by only allowing official Apple software to run at boot time; this is known as secure boot. Mac computers verify this with a bit of read-only memory on the SoC called the boot ROM, which is laid down during the manufacturing of the chip.
 
 The boot ROM forms the hardware root of trust. This ensures that malware cannot tamper with the boot process. When your Mac boots up, the boot ROM is the first thing that runs, forming the first link in the chain of trust.
 
