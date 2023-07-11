@@ -164,7 +164,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Cake Pay logo](assets/img/financial-services/cakepay.svg){ .twemoji } [Cake Pay](financial-services.md#cake-pay)
 - ![CoinCards logo](assets/img/financial-services/coincards.svg){ .twemoji } [CoinCards](financial-services.md#coincards)
 
 </div>

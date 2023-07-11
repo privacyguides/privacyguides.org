@@ -59,18 +59,6 @@ Privacy.com gives information about the merchants you purchase from to your bank
 
 These services allow you to purchase gift cards for a variety of merchants online with [cryptocurrency](cryptocurrency.md). Some of these services offer ID verification options for higher limits, but they also allow accounts with just an email address. Basic limits typically start at $5,000-10,000 a day for basic accounts, and significantly higher limits for ID verified accounts (if offered).
 
-### Cake Pay
-
-!!! recommendation
-
-    ![CakePay logo](assets/img/financial-services/cakepay.svg){ align=right }
-
-    **Cake Pay** allows you to purchase gift cards and related products with Monero. Purchases for USA merchants are available in the Cake Wallet mobile app, while the Cake Pay web app includes a broad selection of global merchants.
-
-    [:octicons-home-16: Homepage](https://cakepay.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://ionia.docsend.com/view/jhjvdn7qq7k3ukwt){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://guides.cakewallet.com/){ .card-link title=Documentation}
-
 ### CoinCards
 
 !!! recommendation
