@@ -7,7 +7,7 @@ macOS provides great security out-of-the-box with relatively few privacy concern
 
 ## Recommended Configuration
 
-Your account when you first set up your Mac will be an Administrator account, which has higher privileges than a standard user account. This is fine since you as the owner of the computer need these privileges. Apple [recommends](https://support.apple.com/guide/mac-help/set-up-your-mac-to-be-secure-flvlt003/mac#mchlp6f0f578) giving each user the lowest privileges they need; a user that doesn't need to install software or change systemwide settings should have a standard account for example.
+Your account when you first set up your Mac will be an Administrator account, which has higher privileges than a standard user account. This is fine since you as the owner of the computer need these privileges. Apple [recommends](https://support.apple.com/guide/mac-help/set-up-your-mac-to-be-secure-flvlt003/mac#mchlp6f0f578) giving each user the lowest privileges they need; a user that doesn't need to install software or change system wide settings should have a standard account for example.
 
 Open the Settings app.
 
@@ -17,7 +17,7 @@ Open the Settings app.
 
 ### Network
 
-Depending on if you are using **Wi-Fi** or **ethernet** (denoted by a green dot and the word "connected"), click on the corresponding icon.
+Depending on if you are using **Wi-Fi** or **Ethernet** (denoted by a green dot and the word "connected"), click on the corresponding icon.
 
 Click on the "Details" button by your network name.
 
@@ -116,7 +116,6 @@ en1 is the name of the interface you're changing the MAC address for. This might
 This will be reset on reboot.
 
 ## Software
-
 
 macOS employs defence in depth by relying on multiple layers of protection, with different properties. This ensures that a failure in one layer does not compromise the system's overall security.
 

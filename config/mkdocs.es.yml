@@ -103,6 +103,7 @@ nav:
     - Sistemas operativos:
       - 'os/android-overview.md'
       - 'os/linux-overview.md'
+      - 'os/macos-overview.md'
       - 'os/qubes-overview.md'
     - kb-archive.md
   - Recomendaciones:
