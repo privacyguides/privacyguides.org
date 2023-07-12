@@ -86,6 +86,11 @@
 {% else %}{% endif %}{% endblock %}
 {% block extrahead %}
 <meta name="robots" content="max-snippet:-1, max-image-preview:large">
+{% if config.extra.context == "production" %}
+<meta http-equiv="onion-location" content="{{ "http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/" ~ config.theme.language ~ "/" ~ page.url }}" />
+{% elif config.extra.deploy %}
+<meta http-equiv="onion-location" content="{{ "http://" ~ config.extra.deploy ~ ".netlify.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/" ~ config.theme.language ~ "/" ~ page.url }}" />
+{% endif %}
 {% if page and page.meta and page.meta.schema %}
 <script type="application/ld+json">
 {{ page.meta.schema|tojson }}
