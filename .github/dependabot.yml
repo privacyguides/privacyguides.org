@@ -52,17 +52,19 @@ updates:
     labels:
       - "fix:submodules"
 
-  # Maintain dependencies for pipenv
-  - package-ecosystem: "pip"
-    directory: "/"
-    insecure-external-code-execution: allow
-    registries:
-      - github-privacyguides
-    schedule:
-      interval: "daily"
-    assignees:
-      - "jonaharagon"
-    reviewers:
-      - "jonaharagon"
-    labels:
-      - "fix:python"
+# Disabled because some updates tend to remove needed dependencies for some reason
+
+#  # Maintain dependencies for pipenv
+#  - package-ecosystem: "pip"
+#    directory: "/"
+#    insecure-external-code-execution: allow
+#    registries:
+#      - github-privacyguides
+#    schedule:
+#      interval: "daily"
+#    assignees:
+#      - "jonaharagon"
+#    reviewers:
+#      - "jonaharagon"
+#    labels:
+#      - "fix:python"
