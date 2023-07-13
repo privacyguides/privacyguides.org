@@ -25,9 +25,13 @@ While you [can](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private/)
 
 ## Recommended Configuration
 
-Your account when you first set up your Mac will be an Administrator account, which has higher privileges than a Standard user account. It is considered [best practice](https://support.apple.com/guide/mac-help/set-up-your-mac-to-be-secure-flvlt003/mac#mchlp6f0f578) by Apple (and us) to create a second, Standard user account which you use for day-to-day operations.
+Your account when you first set up your Mac will be an Administrator account, which has higher privileges than a Standard user account. macOS has a number of protections which prevent malware and other programs from abusing your Administrator privileges, so it is generally safe to use this account.
 
-It is not strictly required to ever log in to your original Administrator account from the macOS login screen. When you are doing something as a Standard user which requires Administrator permissions, the system should prompt you for authentication, where you can enter your Administrator credentials as your Standard user on a one-time basis. Apple provides [guidance](https://support.apple.com/HT203998) on hiding your Administrator account if you prefer to only see a single account on your login screen.
+However, exploits in protective utilities like `sudo` have been [discovered in the past](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass/). If you want to avoid the possibility that programs you run abuse your Administrator privileges, you could consider creating a second, Standard user account which you use for day-to-day operations. This has the added benefit of making it more obvious when an app needs admin access, because it will prompt you for credentials every time.
+
+If you do use a second account, it is not strictly required to ever log in to your original Administrator account from the macOS login screen. When you are doing something as a Standard user which requires Administrator permissions, the system should prompt you for authentication, where you can enter your Administrator credentials as your Standard user on a one-time basis. Apple provides [guidance](https://support.apple.com/HT203998) on hiding your Administrator account if you prefer to only see a single account on your login screen.
+
+Alternatively, you can use a utility like [macOS Enterprise Privileges](https://github.com/SAP/macOS-enterprise-privileges) to escalate to Administrator rights on-demand, but this may be vulnerable to some undiscovered exploit, like all software-based protections.
 
 ### iCloud
 
@@ -147,13 +151,9 @@ en1 is the name of the interface you're changing the MAC address for. This might
 
 This will be reset on reboot.
 
-### Advanced Configuration
-
-This guide should situate most people for adequate privacy on their Mac. If you desire a more in-depth configuration, @drduh's [MacOS Security and Privacy Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide) on GitHub provides a very technical set of instructions to follow to achieve "enterprise-level security."
-
 ## Security Protections
 
-macOS employs defence in depth by relying on multiple layers of software and hardware-based protections, with different properties. This ensures that a failure in one layer does not compromise the system's overall security.
+macOS employs defense in depth by relying on multiple layers of software and hardware-based protections, with different properties. This ensures that a failure in one layer does not compromise the system's overall security.
 
 ### Software Security
 
