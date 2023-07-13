@@ -3,7 +3,7 @@ title: macOS Overview
 icon: material/apple-finder
 description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
 ---
-**macOS** is a Unix-based operating system developed by Apple for their Mac computers. If you have a Mac already, you can increase your privacy by disabling some built-in telemetry features, and hardening some privacy and security settings which are built in to the system.
+**macOS** is a Unix-based operating system developed by Apple for their Mac computers. To enhance privacy on macOS, you can disable telemetry features and harden existing privacy and security settings.
 
 Older Intel-based Macs and Hackintoshes do not support all the security features that macOS offers. To enhance data security, we recommend using a newer Mac with [Apple silicon](https://support.apple.com/en-us/HT211814).
 
