@@ -106,6 +106,7 @@ nav:
       - 'advanced/communication-network-types.md'
     - "מערכות הפעלה":
       - 'os/android-overview.md'
+      - 'os/ios-overview.md'
       - 'os/linux-overview.md'
       - 'os/macos-overview.md'
       - 'os/qubes-overview.md'
