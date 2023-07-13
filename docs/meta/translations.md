@@ -72,6 +72,10 @@ We have sometimes found that the syntax for inserting an image like above was mi
 
 For examples like the above admonitions, quotation marks, e.g.: `" "` must be used to specify string text. MkDocs will not correctly interpret other symbols i.e., `「 」` or `« »`. Other punctuation marks are fine for marking regular quotations within the text otherwise.
 
-## Brackets
+## Fullwidth alternatives and Markdown syntax
 
-Markdown links must use brackets i.e. `[Example link](https://example.com)`. CJK style brackets such as `（ ）` will not work for links. Crowdin will often handle links automatically, but you may encounter these links inside admonitions and other customized blocks of text.
+CJK writing systems tend to use alternative "fullwidth" variants of common symbols. These are different characters and cannot be used for markdown syntax.
+
+- Links must use regular parenthesis ie `(` (Left Parenthesis U+0028) and `)` (Right Parenthesis U+0029) and not `（` (Fullwidth Left Parenthesis U+FF08) or `）` (Fullwidth Right Parenthesis U+FF09)
+- Indented quoted text must use `:` (Colon U+003A) and not `：` (Fullwidth Colon U+FF1A)
+- Pictures must use `!` (Exclamation Mark U+0021) and not `！` (Fullwidth Exclamation Mark U+FF01) 
