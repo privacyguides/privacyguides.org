@@ -74,7 +74,7 @@ jobs:
           pipenv run mkdocs --version
 
       - name: Package website
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         with:
           path: site
 

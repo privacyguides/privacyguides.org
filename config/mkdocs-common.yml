@@ -20,6 +20,7 @@
 
 extra:
   context: !ENV [CONTEXT, "production"]
+  deploy: !ENV DEPLOY_ID
   social:
     - icon: simple/mastodon
       link: https://mastodon.neat.computer/@privacyguides
@@ -33,6 +34,9 @@ extra:
     - icon: simple/github
       link: https://github.com/privacyguides
       name: GitHub
+    - icon: simple/torbrowser
+      link: http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/
+      name: Hidden service
   alternate:
     - name: English
       link: /en/
@@ -76,6 +80,7 @@ theme:
     - navigation.expand
     - navigation.path
     - navigation.indexes
+    - content.tabs.link
     - content.tooltips
     - search.highlight
 

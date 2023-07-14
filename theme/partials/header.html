@@ -78,7 +78,7 @@
                 {% for alt in config.extra.alternate %}
                     <li class="md-select__item">
                     <a href="{{ "/" ~ alt.lang ~ "/" ~ page.url }}" hreflang="{{ alt.lang }}" class="md-select__link">
-                        <img alt="{{ config.theme.language }}" class="twemoji" src="{{ alt.icon }}">
+                        <img alt="{{ alt.lang }}" class="twemoji" src="{{ alt.icon }}">
                         {{ alt.name }}
                     </a>
                     </li>

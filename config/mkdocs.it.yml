@@ -153,6 +153,7 @@ nav:
       - Guida alla scrittura:
         - 'meta/writing-style.md'
         - 'meta/brand.md'
+        - 'meta/translations.md'
       - Guide tecniche:
         - 'meta/uploading-images.md'
         - 'meta/git-recommendations.md'

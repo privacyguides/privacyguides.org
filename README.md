@@ -64,6 +64,8 @@ All contributors to the site are listed [here](https://github.com/privacyguides/
 [![Codeberg](https://img.shields.io/static/v1?logo=codeberg&label=&message=Codeberg&color=000&style=for-the-badge)](https://codeberg.org/privacyguides/privacyguides.org)
 [![SourceHut](https://img.shields.io/static/v1?logo=git&label=&message=SourceHut&color=000&style=for-the-badge)](https://git.sr.ht/~jonaharagon/privacyguides.org)
 
+**Hidden service (Tor/onion):** [xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion](http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/)
+
 ## License
 
 Copyright &copy; 2019 - 2023 [Privacy Guides contributors](https://github.com/privacyguides/privacyguides.org/graphs/contributors).
