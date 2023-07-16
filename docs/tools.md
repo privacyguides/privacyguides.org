@@ -411,16 +411,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### Video Streaming Clients
-
-<div class="grid cards" markdown>
-
-- ![LBRY logo](assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](video-streaming.md#lbry)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](video-streaming.md)
-
 ## Operating Systems
 
 ### Mobile
