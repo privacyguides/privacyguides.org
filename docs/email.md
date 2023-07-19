@@ -183,7 +183,7 @@ Skiff has undergone a few [audits](https://skiff.com/transparency) during its de
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
-You can create up to 3 additional @skiff.com email aliases in addition to your primary account address on their free plan. [Custom domains](https://skiff.com/blog/custom-domain-setup) are available on their Pro or Business plan, and allow you to create unlimited aliases.
+You can create up to 3 additional @skiff.com email aliases in addition to your primary account address on their free plan. Free accounts can add one [Custom domain](https://skiff.com/blog/custom-domain-setup) with unlimited aliases while their Paid plans include upto 15 Custom domains with [catch-all](https://skiff.com/blog/catch-all-email-alias) addresses.
 
 #### :material-alert-outline:{ .pg-orange } Private Payment Methods
 
