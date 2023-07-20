@@ -154,7 +154,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji }![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji } [Privacy.com](financial-services.md##privacycom-us)
+- ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji }![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji } [Privacy.com](financial-services.md#privacycom-us)
 - ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji } [MySudo](financial-services.md#mysudo-us-paid)
 </div>
 
