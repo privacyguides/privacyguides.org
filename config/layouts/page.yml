@@ -18,9 +18,7 @@ definitions:
     {{ layout.color or "#2d2d2d" }}
 
   - &title_font_family >-
-    {%- if page.is_homepage -%}
-      Bagnard
-    {%- elif config.theme.language == "he" -%}
+    {%- if config.theme.language == "he" -%}
       Suez One
     {%- elif config.theme.language == ("zh-Hant" or "ru") -%}
       Noto Serif TC
@@ -38,40 +36,19 @@ definitions:
     {%- endif -%}
 
   - &site_name >-
-    {%- if page.is_homepage -%}
-    {%- else -%}
-      {{ config.site_name }}
-    {%- endif -%}
+    {{ config.site_name }}
 
   - &page_title >-
-    {%- if page.is_homepage -%}
-      Privacy Guides
-    {%- else -%}
-      {{ page.meta.get("title", page.title) }}
-    {%- endif -%}
+    {{ page.meta.get("title", page.title) }}
 
   - &page_title_with_site_name >-
     {%- if page.meta.meta_title -%}
       {{ page.meta.meta_title }}
-    {%- elif not page.is_homepage -%}
-      {{ page.meta.get("title", page.title) }} - {{ config.site_name }}
     {%- else -%}
-      {{ page.meta.get("title", page.title) }}
+      {{ page.meta.get("title", page.title) }} - {{ config.site_name }}
     {%- endif -%}
 
   - &page_description >-
-    {%- if page.is_homepage -%}
-    {%- else -%}
-      {{ page.meta.get("description", config.site_description) or "" }}
-    {%- endif -%}
-  
-  - &homepage_description >-
-    {%- if page.is_homepage -%}
-      {{ config.extra.homepage_description or "A socially motivated website which provides information about protecting your online data privacy and security." }}
-    {%- else -%}
-    {%- endif -%}
-
-  - &og_description >-
     {{ page.meta.get("description", config.site_description) or "" }}
 
   - &page_icon >-
@@ -90,7 +67,7 @@ tags:
   # Open Graph
   og:type: website
   og:title: *page_title_with_site_name
-  og:description: *og_description
+  og:description: *page_description
   og:image: "{{ image.url }}"
   og:image:type: "{{ image.type }}"
   og:image:width: "{{ image.width }}"
@@ -158,21 +135,6 @@ layers:
     offset: { x: 64, y: 480 }
     typography:
       content: *page_description
-      align: start
-      color: *color
-      line:
-        amount: 3
-        height: 1.5
-      font:
-        family: *font_family
-        style: Regular
-  
-  # Homepage description
-  - size: { width: 864, height: 192 }
-    offset: { x: 64, y: 320 }
-    typography:
-      content: *homepage_description
-      overflow: shrink
       align: start
       color: *color
       line:
