@@ -128,7 +128,8 @@ plugins:
     cards: !ENV [CARDS, true]
     cards_dir: assets/img/social
     cards_layout_dir: config/layouts
-    cards_layout: custom
+    cards_layout: page
+    # cards_layout: pride
 
 markdown_extensions:
   admonition: {}
