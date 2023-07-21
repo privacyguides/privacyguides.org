@@ -110,7 +110,7 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
     ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
 
-    **Whonix** is based on [Kicksecure](https://www.whonix.org/wiki/Kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and anonymity on the internet. Whonix is best used in conjunction with [Qubes OS](#qubes-os).
+    **Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and anonymity on the internet. Whonix is best used in conjunction with [Qubes OS](#qubes-os).
 
     [:octicons-home-16: Homepage](https://www.whonix.org/){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
@@ -151,33 +151,48 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
     ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
 
-    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing. Qubes is based on Xen, the X Window System, and Linux, and can run most Linux applications and use most of the Linux drivers.
+    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (a.k.a. "Qubes"). Qubes is based on Xen, the X Window System, and Linux, and can run most Linux applications and use most of the Linux drivers.
 
     [:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
-    [:material-arrow-right-drop-circle: Overview](os/qubes-overview.md){ .md-button .md-button--primary }
     [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
     [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
     [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
     [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
     [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
 
-Qubes OS is a Xen-based operating system meant to provide strong security for desktop computing through secure virtual machines (VMs), also known as *Qubes*.
+Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate VMs. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the system.
 
-The Qubes OS operating system secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate VMs. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the system. For further details see the Qubes [FAQ](https://www.qubes-os.org/faq/).
+For further information about how Qubes works, read our full [Qubes OS overview](os/qubes-overview.md) page.
+
+### Kicksecure
+
+While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for Desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
+
+!!! recommendation
+
+    ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
+
+    **Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. It covers a lot of privacy and hardening recommendations by default. It also serves as the base OS for [Whonix](#whonix).
+
+    [:octicons-home-16: Homepage](https://www.kicksecure.com/){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
+    [:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribute }
 
 ## Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](os/linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
 
-!!! example "This section is new"
+- Free and open-source.
+- Receives regular software and kernel updates.
+- [Avoids X11](os/linux-overview.md#wayland).
+    - The notable exception here is Qubes, but the isolation issues which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines), apps running in the *same* qube are not protected from each other.
+- Supports full-disk encryption during installation.
+- Doesn't freeze regular releases for more than 1 year.
+    - We [recommend against](os/linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
+- Supports a wide variety of hardware.
+- Preference towards larger projects.
+    - Maintaining an operating system is a major challenge, and smaller projects have a tendency to make more avoidable mistakes, or delay critical updates (or worse, disappear entirely). We lean towards projects which will likely be around 10 years from now (whether that's due to corporate backing or very significant community support), and away from projects which are hand-built or have a small number of maintainers.
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
-
-Our recommended operating systems:
-
-- Must be open-source.
-- Must receive regular software and Linux kernel updates.
-- Linux distributions must support [Wayland](os/linux-overview.md#wayland).
-- Must support full-disk encryption during installation.
-- Must not freeze regular releases for more than 1 year. We [do not recommend](os/linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
-- Must support a wide variety of hardware.
+In addition, [our standard criteria](about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**

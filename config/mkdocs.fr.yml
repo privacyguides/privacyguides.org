@@ -102,6 +102,7 @@ nav:
       - 'advanced/communication-network-types.md'
     - "Systèmes d'exploitation":
       - 'os/android-overview.md'
+      - 'os/ios-overview.md'
       - 'os/linux-overview.md'
       - 'os/macos-overview.md'
       - 'os/qubes-overview.md'
