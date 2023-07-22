@@ -6,23 +6,25 @@ description: Software isn't all that matters; learn about the hardware tools you
 
 When it comes to discussions about privacy, hardware often takes a backseat to software. Far from being an afterthought, your hardware should be considered the foundation on which you build the rest of your privacy setup.
 
-## Internal Hardware
+## Picking a Computer
 
 The internals of your devices process and store all of your digital data. You should make sure they are secure and up-to-date.
 
-### Picking a Machine
+### Hardware Security Programs
 
-A [Windows Secured-Core machine](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) ensures that it meets certain security criteria laid out by Microsoft. They don't only protect Windows users; users of other operating systems can still take advantage of things like [DMA protection](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) and the ability to completely distrust Microsoft certificates.
+[Windows Secured-core PCs](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) meet higher security criteria laid out by Microsoft. These protections aren't only applicable to Windows users; Users of other operating systems can still take advantage of things like [DMA protection](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) and the ability to completely distrust Microsoft certificates.
 
-Macs have [great hardware security](https://support.apple.com/guide/security/welcome/web), but many of the hardware security features rely on macOS to function properly. If you plan on running macOS, doing so on official Apple hardware is the way to go.
+Macs have [great hardware security](../os/macos-overview.md), but many of the hardware security features rely on macOS to function properly. If you plan on running macOS, doing so on official Apple hardware is the way to go.
 
 Similarly, ChromeOS's security is at its best when run on a Chromebook.
 
 ### Preinstalled OS
 
-When you buy a new machine, an operating system will normally come preinstalled on it. Due to agreements between hardware vendors and shady software vendors, the default operating system install often comes preloaded with bloatware, [adware](https://www.bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal/), or even [malware](https://www.zdnet.com/article/dell-poweredge-motherboards-ship-with-malware/). It's usually a good idea to wipe the drive and install a fresh copy of your operating system of choice. It's not normally necessary to do this if the manufacturer of the hardware also develops the operating system, such as with Apple devices and the Microsoft Surface line.
+New computers nearly always come with Windows preinstalled, unless you buy a Mac or a specialty Linux machine. It's usually a good idea to wipe the drive and install a fresh copy of your operating system of choice, even if that means just reinstalling Windows from scratch. Due to agreements between hardware vendors and shady software vendors, the default Windows install often comes preloaded with bloatware, [adware](https://www.bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal/), or even [malware](https://www.zdnet.com/article/dell-poweredge-motherboards-ship-with-malware/).
 
-### Firmware
+It's not normally necessary to do this if the manufacturer of the hardware also develops the operating system, such as with Apple devices or the Microsoft Surface line.
+
+### Firmware Updates
 
 An oft-overlooked but important consideration is firmware updates for your hardware.
 
@@ -30,9 +32,9 @@ Almost every component of your computer requires firmware to operate, from your 
 
 If you build your own PC, you may need to manually update your motherboard's firmware by downloading it from your OEM's website.
 
-### TPM/Hardware Security Chips
+### TPM/Secure Cryptoprocessor
 
-Most computers and phones come equipped with a TPM or security chip which safely stores your encryption keys and handles other security-related functions. If you're currently using a machine that doesn't have one of these, you might benefit from purchasing a newer computer that has this feature.
+Most computers and phones come equipped with a TPM (or a similar secure cryptoprocessor) which safely stores your encryption keys and handles other security-related functions. If you're currently using a machine that doesn't have one of these, you might benefit from purchasing a newer computer that has this feature.
 
 !!! note
 
@@ -49,12 +51,14 @@ Most implementations of face authentication require you to be looking at your ph
 !!! warning
 
     Some devices do not have the proper hardware for secure face authentication. There's two main types of face authentication: 2D and 3D. 3D face authentication makes use of a dot projector that lets the device create a 3D depth map of your face. Make sure that your device has this capability.
-    
+
 Android defines three [security classes](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) for biometrics; you should check that your device is class 3 before enabling biometrics.
 
-### General Tips
+### Device Encryption
 
-If your device is [encrypted](../encryption.md), turning it fully off is more secure than leaving it on. On phones, this is referred to as BFU and AFU respectively. If your threat model includes high-resource adversaries like the government, you may want to turn your device fully off whenever you aren't using it. For other threat models, it's still a good idea to lock it before you leave and make sure the lock screen is password protected.
+If your device is [encrypted](../encryption.md), your data is most secure when your device is completely powered off (as opposed to merely asleep), i.e. before you've entered your encryption key or lock screen password for the first time. On phones, this state of higher security is referred to as "Before First Unlock" (BFU), and "After First Unlock" (AFU) once you enter the correct password after a reboot/power-on. AFU is considerably less secure against digital forensics toolkits and other exploits, compared to BFU. Therefore, if you are concerned about an attacker with physical access to your device, you should turn it off fully whenever you aren't using it.
+
+This may be impractical, so consider whether it's worth it, but in either case even AFU mode is effective against most threats, given you are using a strong encryption key.
 
 ## External Hardware
 
@@ -74,7 +78,7 @@ If you don't want to trust your OS's permission controls to prevent the camera f
 
     You should only buy covers that fit your laptop and won't cause damage when you close the lid. Covering the camera will interfere with automatic brightness and face authentication features.
 
-Similarly, for your microphone, you'll just need to trust your OS's built-in permission controls. Alternatively, buy a device that doesn't have a built-in microphone and use an external microphone that you can unplug when you're done using it. Some devices, like [MacBooks and iPads](https://support.apple.com/en-au/guide/security/secbbd20b00b/web), feature a hardware disconnect for the microphone when you close the lid.
+Similarly, for your microphone, you'll just need to trust your OS's built-in permission controls. Alternatively, buy a device that doesn't have a built-in microphone and use an external microphone that you can unplug when you're done using it. Some devices, like a [MacBook or iPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web), feature a hardware disconnect for the microphone when you close the lid.
 
 ### Privacy Screens
 
@@ -90,9 +94,9 @@ You can also get cables, like [Buskill](https://www.buskill.in), that will lock 
 
 ### Anti-Interdiction/Evil Maid Attack
 
-The best way to prevent a targetted attack against you before a device is in your posession is to purchase a device in a physical store, rather than ordering it to your address.
+The best way to prevent a targeted attack against you before a device is in your possession is to purchase a device in a physical store, rather than ordering it to your address.
 
-Make sure your device supports secure boot/verified boot and you have it enabled. Try to avoid leaving your device unattended whenever possible.
+Make sure your device supports secure boot/verified boot, and you have it enabled. Try to avoid leaving your device unattended whenever possible.
 
 ## Routers
 
@@ -102,10 +106,10 @@ Your router handles all your network traffic and acts as your first line of defe
 
     A lot of routers come with storage to put your files on so you can access them from any computer on your network. We recommend you don't use networking devices for things other than networking. In the event your router was compromised, your files would also be compromised.
 
-The most important thing to think about with routers is keeping them up-to-date. Many modern routers will automatically install updates, but many others won't. You should check on your router's settings page for this option. You can usually access this page by typing 192.168.1.1 or 192.168.0.1 into the URL bar of any browser. You can also check in the network settings of your OS for "router" or "gateway".
+The most important thing to think about with routers is keeping them up-to-date. Many modern routers will automatically install updates, but many others won't. You should check on your router's settings page for this option. That page can usually be accessed by typing `192.168.1.1` or `192.168.0.1` into the URL bar of any browser. You can also check in the network settings of your OS for "router" or "gateway".
 
 If your router does not support automatic updates, you will need to go to the manufacturer's site to download the updates and apply them manually.
 
-Many consumer-grade routers aren't supported for very long. If your router isn't supported by the manufacturer any more, you can check if it's supported by [FOSS firmware](../router.md). You can also buy routers that come with FOSS firmware installed by default; these tend to be supported longer than most routers.
+Many consumer-grade routers aren't supported for very long. If your router isn't supported by the manufacturer anymore, you can check if it's supported by [FOSS firmware](../router.md). You can also buy routers that come with FOSS firmware installed by default; these tend to be supported longer than most routers.
 
 Some ISPs provide a combined router/modem. It can be beneficial for security to purchase a separate router and set your ISP router/modem into modem-only mode. This way, even when your ISP-provided router is no longer getting updates, you can still get security updates and patches. It also means any problems that affect your modem won't affect your router and vice versa.
