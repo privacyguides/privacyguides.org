@@ -97,6 +97,7 @@ nav:
     - Технологические аспекты:
       - 'basics/passwords-overview.md'
       - 'basics/multi-factor-authentication.md'
+      - 'basics/hardware.md'
       - 'basics/email-security.md'
       - 'basics/vpn-overview.md'
     - Дополнительные темы:

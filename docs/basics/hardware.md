@@ -1,5 +1,5 @@
 ---
-title: "Hardware"
+title: "Hardware Basics"
 icon: 'material/chip'
 description: Software isn't all that matters; learn about the hardware tools you use every day to protect your privacy.
 ---

@@ -97,6 +97,7 @@ nav:
     - 技術精華:
       - 'basics/passwords-overview.md'
       - 'basics/multi-factor-authentication.md'
+      - 'basics/hardware.md'
       - 'basics/email-security.md'
       - 'basics/vpn-overview.md'
     - 進階主題:
