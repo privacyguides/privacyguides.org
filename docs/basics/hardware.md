@@ -98,7 +98,21 @@ The best way to prevent a targeted attack against you before a device is in your
 
 Make sure your device supports secure boot/verified boot, and you have it enabled. Try to avoid leaving your device unattended whenever possible.
 
-## Routers
+## Secure your Network
+
+### Compartmentalization
+
+Many solutions exist that allow you to separate what you're doing on a computer, such as virtual machines and sandboxing. However, the best compartmentalization is physical separation. This is useful especially for situations where certain software requires you to bypass security features in your OS, such as with anti-cheat software bundled with many games.
+
+For gaming, it may be useful to designate one machine as your "gaming" machine and only use it for that one task. Keep it on a separate VLAN. Most consumer routers allow you to do this by enabling a separate "guest" network that can't talk to your main network. All untrusted devices can go here, including IOT devices like your smart fridge/thermostat/etc.
+
+### Minimalism
+
+As the saying goes, "less is more". The fewer devices you have on your network, the less attack surface you'll have and the less work it will be to make sure they all stay up-to-date. When possible, prefer devices with no network connectivity or bluetooth. This will also help minimize the amount of data these devices can send out.
+
+You may find it useful to go around your home and make a list of every connected device you have to help you keep track.
+
+### Routers
 
 Your router handles all your network traffic and acts as your first line of defense between you and the open internet.
 
