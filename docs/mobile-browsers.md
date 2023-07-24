@@ -79,7 +79,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under Block trackers & ads
+- [x] Select **Aggressive** under **Block trackers & ads**
 
     ??? warning "Use default filter lists"
         Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
@@ -105,7 +105,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
 - [ ] Uncheck **Allow sites to check if you have payment methods saved**
 - [ ] Uncheck **IPFS Gateway** (1)
 - [x] Select **Close tabs on exit**
