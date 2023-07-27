@@ -20,7 +20,7 @@
 
 name: 📦 Releases
 
-on: 
+on:
   push:
     tags:
       - '*'
@@ -74,11 +74,12 @@ jobs:
         run: |
           pip install pipenv
           pipenv install
+          sudo apt install pngquant
 
       - name: Build website
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CARDS: true
+          CARDS: false
         run: |
           pipenv run mkdocs build --config-file config/mkdocs-offline.yml
           pipenv run mkdocs --version
