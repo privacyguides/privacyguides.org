@@ -282,9 +282,8 @@ Disable built-in extensions you do not use in **Extensions**
 
 Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of features, they should be disabled.
 
-Set **Default Ethereum wallet** to **Extensions (no fallback)**
-Set **Default Solana wallet** to **Extensions (no fallback)**
-Set **Method to resolve IPFS resources** to **Disabled**
+- Select **Extensions (no fallback)** under Default Ethereum wallet and Default Solana wallet
+- Set **Method to resolve IPFS resources** to **Disabled**
 
 ##### System
 
