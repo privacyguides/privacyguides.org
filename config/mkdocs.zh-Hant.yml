@@ -20,8 +20,8 @@
 
 INHERIT: mkdocs-common.yml
 docs_dir: '../i18n/zh-Hant'
-site_url: "https://www.privacyguides.org/zh-hant/"
-site_dir: '../site/zh-hant'
+site_url: "https://www.privacyguides.org/zh-Hant/"
+site_dir: '../site/zh-Hant'
 
 site_name: Privacy Guides
 site_description: |

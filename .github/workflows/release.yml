@@ -55,14 +55,12 @@ jobs:
           fetch-depth: '0'
           ssh-key: ${{ secrets.ACTIONS_SSH_KEY }}
           submodules: 'true'
-      
-      - name: Pages setup
-        uses: actions/configure-pages@v3
 
       - name: Python setup
         uses: actions/setup-python@v4
         with:
           python-version: '3.8'
+          cache: 'pipenv'
       
       - name: Cache files
         uses: actions/cache@v3.3.1
