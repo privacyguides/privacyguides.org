@@ -108,7 +108,7 @@ For gaming, it may be useful to designate one machine as your "gaming" machine a
 
 ### Minimalism
 
-As the saying goes, "less is more". The fewer devices you have on your network, the less attack surface you'll have and the less work it will be to make sure they all stay up-to-date. When possible, prefer devices with no network connectivity or bluetooth. This will also help minimize the amount of data these devices can send out.
+As the saying goes, "less is more". The fewer devices you have on your network, the less attack surface you'll have and the less work it will be to make sure they all stay up-to-date. Many of these devices run outdated software and have short support cycles. When possible, prefer devices with no network connectivity or bluetooth.
 
 You may find it useful to go around your home and make a list of every connected device you have to help you keep track.
 
