@@ -35,6 +35,8 @@ For optimal privacy, make sure to use a noncustodial wallet where the view key s
     - Cake Wallet supports multiple cryptocurrencies. A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com/).
 - [Feather Wallet](https://featherwallet.org/) (Desktop)
 - [Monerujo](https://www.monerujo.io/) (Android)
+- [Stack Wallet](https://stackwallet.com/) (iOS, Android)
+    - Stack Wallet supports multiple cryptocurrencies. A Monero/Bitcoin-only version of Stack Wallet is available at [Stack Duo](https://github.com/cypherstack/stack_duo).
 
 For maximum privacy (even with a noncustodial wallet), you should run your own Monero node. Using another person’s node will expose some information to them, such as the IP address that you connect to it from, the timestamps that you sync your wallet, and the transactions that you send from your wallet (though no other details about those transactions). Alternatively, you can connect to someone else’s Monero node over Tor or i2p.
 
@@ -43,6 +45,24 @@ In August 2021, CipherTrace [announced](https://ciphertrace.com/enhanced-monero-
 Monero transaction graph privacy is limited by its relatively small ring signatures, especially against targeted attacks. Monero's privacy features have also been [called into question](https://web.archive.org/web/20180331203053/https://www.wired.com/story/monero-privacy/) by some security researchers, and a number of severe vulnerabilities have been found and patched in the past, so the claims made by organizations like CipherTrace are not out of the question. While it's unlikely that Monero mass surveillance tools exist like they do for Bitcoin and others, it's certain that tracing tools assist with targeted investigations.
 
 Ultimately, Monero is the strongest contender for a privacy-friendly cryptocurrency, but its privacy claims have **not** been definitively proven one way or the other. More time and research is needed to assess whether Monero is resilient enough to attacks to always provide adequate privacy.
+
+## Trocador
+
+!!! danger
+
+    Trocador may keep a log of your IP for 14-days if required by your chosen exchange, but will let you know before creating the transaction.
+
+!!! recommendation
+
+    ![Trocador logo](assets/img/cryptocurrency/trocador.svg){ align=right }
+
+    **Trocador** is a zero-javascript, privacy-oriented, cryptocurrency exchange aggregator. Trocador finds the best rates for your swap, provides a clearly ranked tier list of each exchange showing levels of KYC/AML required (or not) along with IP logging requirements (if any) leaving you to choose. They also offer tor and i2p access to their website.
+
+    [:octicons-home-16: Homepage](https://trocador.app/){ .md-button .md-button--primary }
+    [:simple-torbrowser:](http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion/){ .card-link title="Onion Service" }
+    [:octicons-eye-16:](https://trocador.app/privacypolicy/){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://trocador.app/en/docs/){ .card-link title=Documentation}
+    [:octicons-heart-16:](https://trocador.app/en/about/){ .card-link title=Contribute }
 
 ## Criteria
 
