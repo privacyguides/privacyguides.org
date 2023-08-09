@@ -7,16 +7,6 @@ description: macOS is Apple's desktop operating system that works with their har
 
 Older Intel-based Macs and Hackintoshes do not support all the security features that macOS offers. To enhance data security, we recommend using a newer Mac with [Apple silicon](https://support.apple.com/en-us/HT211814).
 
-## Privacy Notes
-
-There are a few notable privacy concerns with macOS that you should consider. These pertain to the operating system itself, and not Apple's other apps and services.
-
-### App Revocation Checks
-
-macOS performs online OCSP checks using HTTPS encryption when you open an app to verify whether an app contains known malware, and whether the developer’s signing certificate is revoked.
-
-We recommend against blocking these checks.
-
 ## Recommended Configuration
 
 Your account when you first set up your Mac will be an Administrator account, which has higher privileges than a Standard user account. macOS has a number of protections which prevent malware and other programs from abusing your Administrator privileges, so it is generally safe to use this account.
@@ -138,6 +128,12 @@ macOS employs defense in depth by relying on multiple layers of software and har
 !!! warning
 
     macOS allows you to install beta updates. These are unstable and may come with extra telemetry since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
+
+### App Revocation Checks
+
+macOS performs online OCSP checks using HTTPS encryption when you open an app to verify whether an app contains known malware, and whether the developer’s signing certificate is revoked.
+
+We recommend against blocking these checks.
 
 #### Signed System Volume
 
