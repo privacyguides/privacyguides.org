@@ -159,11 +159,7 @@ System Integrity Protection makes critical file locations read-only to protect a
 
 ##### App Sandbox
 
-macOS apps downloaded from the App Store are required to be sandboxed usng the [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
-
-!!! warning
-
-    Software downloaded from outside the official App Store is not required to be sandboxed. You should avoid non-App Store software as much as possible.
+macOS apps downloaded from the App Store are required to use the [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox). You should avoid non-App Store software as much as possible.
 
 ##### Antivirus
 
