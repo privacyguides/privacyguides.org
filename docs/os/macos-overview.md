@@ -11,10 +11,6 @@ Older Intel-based Macs and Hackintoshes do not support all the security features
 
 There are a few notable privacy concerns with macOS that you should consider. These pertain to the operating system itself, and not Apple's other apps and services.
 
-### Activation Lock
-
-Brand new Apple silicon devices can be set up without an internet connection. However, recovering or resetting your Mac will **require** an internet connection to Apple's servers to check against the Activation Lock database of lost or stolen devices.
-
 ### App Revocation Checks
 
 macOS performs online checks when you open an app to verify whether an app contains known malware, and whether the developer’s signing certificate is revoked.
