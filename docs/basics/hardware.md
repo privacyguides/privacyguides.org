@@ -4,31 +4,29 @@ icon: 'material/chip'
 description: Software isn't all that matters; learn about the hardware tools you use every day to protect your privacy.
 ---
 
-When it comes to discussions about privacy, hardware often takes a backseat to software. Far from being an afterthought, your hardware should be considered the foundation on which you build the rest of your privacy setup.
+When it comes to discussions about privacy, hardware often is not thought about as much as what software we use. Your hardware should be considered the foundation on which you build the rest of your privacy setup.
 
 ## Picking a Computer
 
-The internals of your devices process and store all of your digital data. You should make sure they are secure and up-to-date.
+The internals of your devices process and store all of your digital data. It is important that all devices are supported by the manufacturer or developers and continue to receive security updates.
 
 ### Hardware Security Programs
 
-[Windows Secured-core PCs](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) meet higher security criteria laid out by Microsoft. These protections aren't only applicable to Windows users; Users of other operating systems can still take advantage of things like [DMA protection](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) and the ability to completely distrust Microsoft certificates.
+[Windows Secured-core PCs](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) meet a higher security criteria specified by Microsoft. These protections aren't only applicable to Windows users; Users of other operating systems can still take advantage of things like [DMA protection](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) and the ability to completely distrust Microsoft certificates.
 
-Macs have [great hardware security](../os/macos-overview.md), but many of the hardware security features rely on macOS to function properly. If you plan on running macOS, doing so on official Apple hardware is the way to go.
-
-Similarly, ChromeOS's security is at its best when run on a Chromebook.
+Macs have [great hardware security](../os/macos-overview.md), but many of the hardware security features rely on macOS to function properly. Third party, like Linux won't necessarily have the require drivers to operate the secure hardware features. Therefore we suggest that if you plan to run macOS you should do so on official Apple hardware. Similarly, ChromeOS's security is at its best when run on a Chromebook.
 
 ### Preinstalled OS
 
 New computers nearly always come with Windows preinstalled, unless you buy a Mac or a specialty Linux machine. It's usually a good idea to wipe the drive and install a fresh copy of your operating system of choice, even if that means just reinstalling Windows from scratch. Due to agreements between hardware vendors and shady software vendors, the default Windows install often comes preloaded with bloatware, [adware](https://www.bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal/), or even [malware](https://www.zdnet.com/article/dell-poweredge-motherboards-ship-with-malware/).
 
-It's not normally necessary to do this if the manufacturer of the hardware also develops the operating system, such as with Apple devices or the Microsoft Surface line.
+It's not normally necessary to do this if the manufacturer of the hardware also develops the operating system, such as with Apple devices, Microsoft Surface line or Android based devices such as the Chromebooks.
 
 ### Firmware Updates
 
-An oft-overlooked but important consideration is firmware updates for your hardware.
+Hardware often has security issues that are discovered and patched through firmware updates for your hardware.
 
-Almost every component of your computer requires firmware to operate, from your motherboard to your drives. Of course, it's ideal for all the components of your device to be fully supported. Apple devices, Chromebooks, most Android phones, and Microsoft Surface devices will handle all your firmware for you as long as the device is supported (another advantage of using hardware made by the same company as the OS developers).
+Almost every component of your computer requires firmware to operate, from your motherboard to your drives. It's ideal for all the components of your device to be fully supported. Apple devices, Chromebooks, most Android phones, and Microsoft Surface devices will handle firmware updates for you as long as the device is supported.
 
 If you build your own PC, you may need to manually update your motherboard's firmware by downloading it from your OEM's website.
 
@@ -78,7 +76,7 @@ If you don't want to trust your OS's permission controls to prevent the camera f
 
     You should only buy covers that fit your laptop and won't cause damage when you close the lid. Covering the camera will interfere with automatic brightness and face authentication features.
 
-Similarly, for your microphone, you'll just need to trust your OS's built-in permission controls. Alternatively, buy a device that doesn't have a built-in microphone and use an external microphone that you can unplug when you're done using it. Some devices, like a [MacBook or iPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web), feature a hardware disconnect for the microphone when you close the lid.
+Similarly, for your microphone, you'll just need to trust your OS's built-in permission controls. Alternatively, buy a device that doesn't have a built-in microphone and use an external microphone that you can unplug when you're done using it. Some devices, like a [MacBook or iPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web), feature a hardware disconnect for the microphone when you close the lid. Many PC BIOSes have the option to disable camera and Microphone. When disabled there, the hardware won't even appear as a device on a booted system.
 
 ### Privacy Screens
 
@@ -104,7 +102,9 @@ Make sure your device supports secure boot/verified boot, and you have it enable
 
 Many solutions exist that allow you to separate what you're doing on a computer, such as virtual machines and sandboxing. However, the best compartmentalization is physical separation. This is useful especially for situations where certain software requires you to bypass security features in your OS, such as with anti-cheat software bundled with many games.
 
-For gaming, it may be useful to designate one machine as your "gaming" machine and only use it for that one task. Keep it on a separate VLAN. Most consumer routers allow you to do this by enabling a separate "guest" network that can't talk to your main network. All untrusted devices can go here, including IOT devices like your smart fridge/thermostat/tv/etc.
+For gaming, it may be useful to designate one machine as your "gaming" machine and only use it for that one task. Keep it on a separate VLAN. This may require the use of a managed switch and a router that supports segregated networks.
+
+Most consumer routers allow you to do this by enabling a separate "guest" network that can't talk to your main network. All untrusted devices can go here, including IoT devices like your smart fridge, thermostat, tv etc.
 
 ### Minimalism
 
