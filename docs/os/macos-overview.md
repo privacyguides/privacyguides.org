@@ -129,12 +129,6 @@ macOS employs defense in depth by relying on multiple layers of software and har
 
     macOS allows you to install beta updates. These are unstable and may come with extra telemetry since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
 
-### App Revocation Checks
-
-macOS performs online OCSP checks using HTTPS encryption when you open an app to verify whether an app contains known malware, and whether the developer’s signing certificate is revoked.
-
-We recommend against blocking these checks.
-
 #### Signed System Volume
 
 macOS's system components are protected in a read-only signed system volume, meaning that neither you nor malware can alter important system files.
@@ -148,6 +142,12 @@ macOS sets certain security restrictions that can't be overridden. These are cal
 System Integrity Protection makes critical file locations read-only to protect against modification from malicious code. This is on top of the hardware-based Kernel Integrity Protection that keeps the kernel from being modified in-memory.
 
 #### Application Security
+
+### App Revocation Checks
+
+macOS performs online OCSP checks using HTTPS encryption when you open an app to verify whether an app contains known malware, and whether the developer’s signing certificate is revoked.
+
+We recommend against blocking these checks.
 
 ##### App Sandbox
 
