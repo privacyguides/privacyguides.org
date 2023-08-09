@@ -133,20 +133,6 @@ On older Intel-based Mac computers, FileVault is the only form of disk encryptio
 
 - [x] Click **Turn On**
 
-### MAC Address Randomization
-
-Unlike iOS, macOS doesn't give you an option to randomize your MAC address in the settings, so you'll need to do it with a command or a script.
-
-You open up your Terminal and enter this command to randomize your MAC address:
-
-``` zsh
-openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//' | xargs sudo ifconfig en1 ether 
-```
-
-en1 is the name of the interface you're changing the MAC address for. This might not be the right one on every Mac, so to check you can hold the option key and click the Wi-Fi symbol at the top right of your screen.
-
-This will be reset on reboot.
-
 ## Security Protections
 
 macOS employs defense in depth by relying on multiple layers of software and hardware-based protections, with different properties. This ensures that a failure in one layer does not compromise the system's overall security.
