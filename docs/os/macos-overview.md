@@ -13,11 +13,9 @@ There are a few notable privacy concerns with macOS that you should consider. Th
 
 ### App Revocation Checks
 
-macOS performs online checks when you open an app to verify whether an app contains known malware, and whether the developer’s signing certificate is revoked.
+macOS performs online OCSP checks using HTTPS encryption when you open an app to verify whether an app contains known malware, and whether the developer’s signing certificate is revoked.
 
-Previously, these checks were performed via an unencrypted OCSP protocol which could leak information about the apps you ran to your network. Apple upgraded their OCSP service to use HTTPS encryption in 2021, and [posted information](https://support.apple.com/HT202491) about their logging policy for this service. They additionally promised to add a mechanism for people to opt-out of this online check, but this has not been added to macOS as of July 2023.
-
-While you [can](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private/) manually opt out of this check relatively easily, we recommend against doing so unless you would be badly compromised by the revocation checks performed by macOS, because they serve an important role in ensuring compromised apps are blocked from running.
+We recommend against blocking these checks.
 
 ## Recommended Configuration
 
