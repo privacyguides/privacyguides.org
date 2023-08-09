@@ -99,12 +99,6 @@ Decide whether you want personalized ads based on your usage.
 
 - [ ] Uncheck **Personalized Ads**
 
-##### Security
-
-Apps from the App Store are subject to stricter security guidelines, such as stricter sandboxing. If the only apps you need are available from the App Store, change the **Allow applications downloaded from** setting to **App Store**.
-
-Be aware that this setting can be trivially bypassed; any random binary can be run whether this setting is enabled or not.
-
 ##### FileVault
 
 On modern devices with a Secure Enclave (Apple T2 Security Chip, Apple silicon), your data is always encrypted, but is decrypted automatically by a hardware key if your device doesn't detect it's been tampered with. Enabling FileVault additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
