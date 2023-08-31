@@ -101,6 +101,7 @@
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 3px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px -1px;
     transition: none;
+    position: relative;
 }
 
 .md-typeset .grid.cards>:-webkit-any(ul,ol)>li, .md-typeset .grid>.card { /* Webkit */
@@ -110,6 +111,7 @@
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 3px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px -1px;
     transition: none;
+    position: relative;
 }
 
 .md-typeset .grid.cards > :is(ul, ol) > li:is(:focus-within, :hover), .md-typeset .grid > .card:is(:focus-within, :hover) { /* Firefox */
@@ -120,6 +122,24 @@
 .md-typeset .grid.cards>:-webkit-any(ul,ol)>li:-webkit-any(:focus-within,:hover) { /* Webkit */
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 3px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px -1px;
     border-color: var(--md-accent-fg-color);
+}
+
+.md-typeset .grid.cards > :is(ul, ol) > li > a::after, .md-typeset .grid>.card a::after { /* Firefox */
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.md-typeset .grid.cards>:-webkit-any(ul, ol)>li > a::after, .md-typeset .grid>.card a::after { /* Webkit */
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 /* header font */
