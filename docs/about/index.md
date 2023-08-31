@@ -72,14 +72,7 @@ So far in 2023 we've launched international translations of our website in [Fren
     - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/freddy)
     - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
     - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
-    - [:fontawesome-solid-envelope: Email](mailto:freddy@privacyguides.org)
-    - [:fontawesome-solid-house: Homepage](https://freddy.omg.lol)
-
-??? person "@mfwmyfacewhen"
-
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/mfwmyfacewhen)
-    - [:simple-github: GitHub](https://github.com/mfwmyfacewhen "@mfwmyfacewhen")
-    - [:fontawesome-solid-house: Homepage](https://mfw.omg.lol)
+    - [:fontawesome-solid-house: Homepage](https://freddy.lol)
 
 ??? person "@olivia"
 
