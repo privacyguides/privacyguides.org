@@ -63,7 +63,7 @@ jobs:
           cache: 'pipenv'
       
       - name: Cache files
-        uses: actions/cache@v3.3.1
+        uses: actions/cache@v3.3.2
         with:
           key: ${{ github.ref }}
           path: .cache
