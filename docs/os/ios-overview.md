@@ -23,7 +23,7 @@ The only source for apps on iOS is Apple's App Store, which requires an Apple ID
 
 Apple has historically had problems with properly anonymizing their telemetry on iOS. [In 2019](https://www.theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. While they temporarily stopped that program after that practice was [widely reported on](https://www.theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the problem wasn't completely resolved [until 2021](https://www.theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
 
-More recently, Apple has been found to [transmit analytics even when analytics sharing is disabled](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) on iOS, and this data [appears](https://twitter.com/mysk_co/status/1594515229915979776) to be easily linked to unique iCloud account identifiers despite supposedly being anonymous. Apple has not fixed [these problems](https://gizmodo.com/clarence-thomas-aide-venmo-laywers-supreme-court-1850631585) as of July 2023.
+More recently, Apple has been found to [transmit analytics even when analytics sharing is disabled](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) on iOS, and this data [appears](https://twitter.com/mysk_co/status/1594515229915979776) to be easily linked to unique iCloud account identifiers despite supposedly being anonymous.
 
 ## Recommended Configuration
 
