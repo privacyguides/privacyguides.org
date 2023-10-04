@@ -294,9 +294,24 @@ DNSSEC implements a hierarchical digital signing policy across all layers of DNS
 
 ## What is QNAME minimization?
 
-A QNAME is a "qualified name", for example `privacyguides.org`. QNAME minimisation reduces the amount of information sent from the DNS server to the [authoritative name server](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server).
+A QNAME is a "qualified name", for example `discuss.privacyguides.net`. In the past, when resolving a domain name your DNS resolver would ask every server in the chain to provide any information it has about your full query. In this example below, your request to find the IP address for `discuss.privacyguides.net` gets asked of every DNS server provider:
 
-Instead of sending the whole domain `privacyguides.org`, QNAME minimization means the DNS server will ask for all the records that end in `.org`. Further technical description is defined in [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
+| Server                 | Question Asked                              | Response                                    |
+|------------------------|---------------------------------------------|---------------------------------------------|
+| Root server            | What's the IP of discuss.privacyguides.net? | I don't know, ask .net's server...          |
+| .net's server          | What's the IP of discuss.privacyguides.net? | I don't know, ask Privacy Guides' server... |
+| Privacy Guides' server | What's the IP of discuss.privacyguides.net? | 5.161.195.190!                              |
+
+With "QNAME minimization," your DNS resolver now only asks for just enough information to find the next server in the chain. In this example, the root server is only asked for enough information to find the appropriate nameserver for the .net TLD, and so on, without ever knowing the full domain you're trying to visit:
+
+| Server                 | Question Asked                                       | Response                          |
+|------------------------|------------------------------------------------------|-----------------------------------|
+| Root server            | What's the nameserver for .net?                      | *Provides .net's server*          |
+| .net's server          | What's the nameserver for privacyguides.net?         | *Provides Privacy Guides' server* |
+| Privacy Guides' server | What's the nameserver for discuss.privacyguides.net? | This server!                      |
+| Privacy Guides' server | What's the IP of discuss.privacyguides.net?          | 5.161.195.190                     |
+
+While this process can be slightly more inefficient, in this example neither the central root nameservers nor the TLD's nameservers ever receive information about your *full* query, thus reducing the amount of information being transmitted about your browsing habits. Further technical description is defined in [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
 
 ## What is EDNS Client Subnet (ECS)?
 
