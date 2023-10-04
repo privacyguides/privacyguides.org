@@ -20,14 +20,21 @@
   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
   IN THE SOFTWARE.
 #} -->
+
 {% import "partials/path-item.html" as item with context %}
+
+<!-- Determine whether to show navigation path -->
 {% if page.meta and page.meta.hide %}
   {% set hidden = "hidden" if "path" in page.meta.hide %}
 {% endif %}
+
+<!-- Determine whether we have enough pages for rendering -->
 {% set depth = page.ancestors | length %}
 {% if nav.homepage %}
   {% set depth = depth + 1 %}
 {% endif %}
+
+<!-- Navigation path (breadcrumbs) -->
 {% if depth > 1 %}
   {% set count = namespace(value=1) %}
   <nav class="md-path" aria-label="{{ lang.t('nav') }}" {{ hidden }}>

@@ -20,11 +20,19 @@
   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
   IN THE SOFTWARE.
 #} -->
+
+<!-- Render navigation item -->
 {% macro render(nav_item, ref = nav_item) %}
+
+  <!-- Navigation item with nested items -->
   {% if nav_item.children %}
     {% set first = nav_item.children | first %}
+
+    <!-- Recurse, if the first item has further nested items -->
     {% if first.children %}
       {{ render(first, ref) }}
+
+    <!-- Nested navigation link -->
     {% else %}
       <a href="{{ first.canonical_url | url }}" class="md-path__link" property="item" typeof="WebPage">
         <span class="md-ellipsis" property="name">
@@ -32,6 +40,8 @@
         </span>
       </a>
     {% endif %}
+
+  <!-- Navigation link -->
   {% else %}
     <a href="{{ nav_item.canonical_url | url }}" class="md-path__link" property="item" typeof="WebPage">
       <span class="md-ellipsis" property="name">

@@ -20,94 +20,153 @@
   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
   IN THE SOFTWARE.
 #} -->
+<!-- Determine base classes -->
 {% set class = "md-header" %}
 {% if "navigation.tabs.sticky" in features %}
   {% set class = class ~ " md-header--shadow md-header--lifted" %}
 {% elif "navigation.tabs" not in features %}
   {% set class = class ~ " md-header--shadow" %}
 {% endif %}
+
+<!-- Header -->
 <header class="{{ class }}" data-md-component="header">
-    <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header') }}">
-        <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-header__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
-        {% include "partials/logo.html" %}
-        </a>
-        <label class="md-header__button md-icon" for="__drawer">
-        {% include ".icons/material/menu" ~ ".svg" %}
-        </label>
-        <div class="md-header__title" data-md-component="header-title">
-        <div class="md-header__ellipsis">
-            <div class="md-header__topic">
-            <span class="md-ellipsis">
-                {{ config.site_name }}
-            </span>
-            </div>
-            <div class="md-header__topic" data-md-component="header-topic">
-            <span class="md-ellipsis">
-                {% if page.meta and page.meta.title %}
-                {{ page.meta.title }}
-                {% else %}
-                {{ page.title }}
-                {% endif %}
-            </span>
-            </div>
+  <nav
+    class="md-header__inner md-grid"
+    aria-label="{{ lang.t('header') }}"
+  >
+
+    <!-- Link to home -->
+    <a
+      href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
+      title="{{ config.site_name | e }}"
+      class="md-header__button md-logo"
+      aria-label="{{ config.site_name }}"
+      data-md-component="logo"
+    >
+      {% include "partials/logo.html" %}
+    </a>
+
+    <!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
+      {% include ".icons/material/menu" ~ ".svg" %}
+    </label>
+
+    <!-- Header title -->
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            {{ config.site_name }}
+          </span>
         </div>
-        </div>
-        {% if config.repo_url %}
-        <div class="md-header__source">
-            {% include "partials/source.html" %}
-        </div>
-        {% endif %}
-        {% if "material/search" in config.plugins %}
-        <label class="md-header__button md-icon" for="__search">
-            {% include ".icons/material/magnify.svg" %}
-        </label>
-        {% include "partials/search.html" %}
-        {% endif %}
-        {% if config.extra.alternate %}
-        <div class="md-header__option">
-            <div class="md-select">
-            {% for alt in config.extra.alternate %}
-                {% if alt.lang == config.theme.language %}
-                    <button class="md-header__button md-icon" aria-label="{{ lang.t('select.language') }}">
-                        <img alt="{{ config.theme.language }}" class="twemoji" src="{{ alt.icon }}">
-                    </button>
-                {% endif %}
-            {% endfor %}
-            <div class="md-select__inner">
-                <ul class="md-select__list">
-                {% for alt in config.extra.alternate %}
-                    <li class="md-select__item">
-                    <a href="{{ "/" ~ alt.lang ~ "/" ~ page.url }}" hreflang="{{ alt.lang }}" class="md-select__link">
-                        <img alt="{{ alt.lang }}" class="twemoji" src="{{ alt.icon }}">
-                        {{ alt.name }}
-                    </a>
-                    </li>
-                {% endfor %}
-                </ul>
-            </div>
-            </div>
-        </div>
-        {% endif %}
-        {% if not config.theme.palette is mapping %}
-        <form class="md-header__option" data-md-component="palette">
-            {% for option in config.theme.palette %}
-            {% set scheme = option.scheme | d("default", true) %}
-            <input class="md-option" data-md-color-media="{{ option.media }}" data-md-color-scheme="{{ scheme | replace(' ', '-') }}" data-md-color-primary="{{ option.primary | replace(' ', '-') }}" data-md-color-accent="{{ option.accent | replace(' ', '-') }}" {% if option.toggle %} aria-label="{{ option.toggle.name }}" {% else %} aria-hidden="true" {% endif %} type="radio" name="__palette" id="__palette_{{ loop.index0 }}">
-            {% if option.toggle %}
-                <label class="md-header__button md-icon" title="{{ option.toggle.name }}" for="__palette_{{ loop.index % loop.length }}" hidden>
-                {% include ".icons/" ~ option.toggle.icon ~ ".svg" %}
-                </label>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            {% if page.meta and page.meta.title %}
+              {{ page.meta.title }}
+            {% else %}
+              {{ page.title }}
             {% endif %}
-            {% endfor %}
-        </form>
-        {% endif %}
-        {% if not config.theme.palette is mapping %}
-        {% include "partials/javascripts/palette.html" %}
-        {% endif %}
-    </nav>
-    {% if "navigation.tabs.sticky" in features %}
-        {% if "navigation.tabs" in features %}
-        {% include "partials/tabs.html" %}
-        {% endif %}
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Repository information -->
+    {% if config.repo_url %}
+      <div class="md-header__source">
+        {% include "partials/source.html" %}
+      </div>
     {% endif %}
+
+    <!-- Button to open search modal -->
+    {% if "material/search" in config.plugins %}
+      <label class="md-header__button md-icon" for="__search">
+        {% include ".icons/material/magnify.svg" %}
+      </label>
+
+      <!-- Search interface -->
+      {% include "partials/search.html" %}
+    {% endif %}
+
+    <!-- Site language selector -->
+    {% if config.extra.alternate %}
+      <div class="md-header__option">
+        <div class="md-select">
+          {% for alt in config.extra.alternate %}
+            {% if alt.lang == config.theme.language %}
+              <button class="md-header__button md-icon" aria-label="{{ lang.t('select.language') }}">
+                <img alt="{{ config.theme.language }}" class="twemoji" src="{{ alt.icon }}">
+              </button>
+            {% endif %}
+          {% endfor %}
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              {% for alt in config.extra.alternate %}
+                <li class="md-select__item">
+                  <a
+                    href="{{ alt.link | url }}"
+                    hreflang="{{ alt.lang }}"
+                    class="md-select__link"
+                  >
+                    <img alt="{{ alt.lang }}" class="twemoji" src="{{ alt.icon }}">
+                    {{ alt.name }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
+    <!-- Color palette -->
+    {% if config.theme.palette %}
+      {% if not config.theme.palette is mapping %}
+        <form class="md-header__option" data-md-component="palette">
+          {% for option in config.theme.palette %}
+            {% set scheme  = option.scheme  | d("default", true) %}
+            {% set primary = option.primary | d("indigo", true) %}
+            {% set accent  = option.accent  | d("indigo", true) %}
+            <input
+              class="md-option"
+              data-md-color-media="{{ option.media }}"
+              data-md-color-scheme="{{ scheme | replace(' ', '-') }}"
+              data-md-color-primary="{{ primary | replace(' ', '-') }}"
+              data-md-color-accent="{{ accent | replace(' ', '-') }}"
+              {% if option.toggle %}
+                aria-label="{{ option.toggle.name }}"
+              {% else  %}
+                aria-hidden="true"
+              {% endif %}
+              type="radio"
+              name="__palette"
+              id="__palette_{{ loop.index0 }}"
+            />
+            {% if option.toggle %}
+              <label
+                class="md-header__button md-icon"
+                title="{{ option.toggle.name }}"
+                for="__palette_{{ loop.index % loop.length }}"
+                hidden
+              >
+                {% include ".icons/" ~ option.toggle.icon ~ ".svg" %}
+              </label>
+            {% endif %}
+          {% endfor %}
+        </form>
+      {% endif %}
+    {% endif %}
+
+    <!-- User preference: color palette -->
+    {% if not config.theme.palette is mapping %}
+      {% include "partials/javascripts/palette.html" %}
+    {% endif %}
+  </nav>
+
+  <!-- Navigation tabs (sticky) -->
+  {% if "navigation.tabs.sticky" in features %}
+    {% if "navigation.tabs" in features %}
+      {% include "partials/tabs.html" %}
+    {% endif %}
+  {% endif %}
 </header>

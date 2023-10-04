@@ -103,7 +103,7 @@ article.md-content__inner {
 article.md-content__inner > * {
     max-width: 38rem;
 }
-article.md-content__inner > *:nth-child(n+7):nth-child(-n+11) {
+article.md-content__inner > *:nth-child(n+8):nth-child(-n+12) {
     margin-left: auto;
     margin-right: 0;
     text-align: right;
@@ -111,15 +111,15 @@ article.md-content__inner > *:nth-child(n+7):nth-child(-n+11) {
 article.md-content__inner > hr {
     margin: 3rem;
 }
-article.md-content__inner > *:nth-child(n+12) {
+article.md-content__inner > *:nth-child(n+13) {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
-article.md-content__inner > *:nth-child(n+12) a:has(.twemoji) {
+article.md-content__inner > *:nth-child(n+13) a:has(.twemoji) {
     display: inline-block;
 }
-article.md-content__inner > *:nth-child(n+12) .twemoji {
+article.md-content__inner > *:nth-child(n+13) .twemoji {
     --md-icon-size: 1.8em;
     margin: 0.4rem;
 }
