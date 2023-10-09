@@ -99,6 +99,24 @@ We previously recommended enabling the *Isolate Destination Address* preference 
 
     All versions are signed using the same signature so they should be compatible with each other.
 
+### Onion Browser
+
+!!! recommendation
+
+    ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
+
+    **Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser/).
+
+    [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
+    [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
+
+    ??? downloads
+
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
+
 ## Relays and Bridges
 
 ### Snowflake
