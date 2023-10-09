@@ -184,7 +184,7 @@ While we [recommend against](os/linux-overview.md#release-cycle) "perpetually ou
 
 Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](os/linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
 
-- Free and open-source.
+- Free and open source.
 - Receives regular software and kernel updates.
 - [Avoids X11](os/linux-overview.md#wayland).
     - The notable exception here is Qubes, but the isolation issues which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines), apps running in the *same* qube are not protected from each other.

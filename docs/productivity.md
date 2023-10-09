@@ -59,7 +59,7 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 
 In general, we define collaboration platforms as full-fledged suites which could reasonably act as a replacement to collaboration platforms like Google Drive.
 
-- Open-source.
+- Open source.
 - Makes files accessible via WebDAV unless it is impossible due to E2EE.
 - Has sync clients for Linux, macOS, and Windows.
 - Supports document and spreadsheet editing.
@@ -161,10 +161,9 @@ In general, we define office suites as applications which could reasonably act a
 
 #### Minimum Requirements
 
-- Must be open-source.
+- Must be open source.
 - Must implement "zero-trust" end-to-end encryption.
 - Must support password-protected files.
-
 
 #### Best-Case
 

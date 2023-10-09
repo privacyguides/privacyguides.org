@@ -45,6 +45,6 @@ OPNsense was originally developed as a fork of [pfSense](https://en.wikipedia.or
 
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
-- Must be open-source.
+- Must be open source.
 - Must receive regular updates.
 - Must support a wide variety of hardware.

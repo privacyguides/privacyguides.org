@@ -133,7 +133,7 @@ Cryptee offers 100MB of storage for free, with paid options if you need more. Si
 
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
-- Clients must be open-source.
+- Clients must be open source.
 - Any cloud sync functionality must be E2EE.
 - Must support exporting documents into a standard format.
 

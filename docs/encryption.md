@@ -343,7 +343,7 @@ When encrypting with PGP, you have the option to configure different options in 
 
 ### Minimum Qualifications
 
-- Cross-platform encryption apps must be open-source.
+- Cross-platform encryption apps must be open source.
 - File encryption apps must support decryption on Linux, macOS, and Windows.
 - External disk encryption apps must support decryption on Linux, macOS, and Windows.
 - Internal (OS) disk encryption apps must be cross-platform or built in to the operating system natively.
