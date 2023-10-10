@@ -2,7 +2,7 @@
 meta_title: "Private Cryptocurrency Blockchains - Privacy Guides"
 title: Cryptocurrency
 icon: material/bank-circle
-cover: cryptocurrency.png
+cover: cryptocurrency.webp
 ---
 
 Making payments online is one of the biggest challenges to privacy. These cryptocurrencies provide transaction privacy by default (something which is **not** guaranteed by the majority of cryptocurrencies), provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:

@@ -2,7 +2,7 @@
 title: "Email Clients"
 icon: material/email-open
 description: These email clients are privacy-respecting and support OpenPGP email encryption.
-cover: email-clients.png
+cover: email-clients.webp
 ---
 Our recommendation list contains email clients that support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth allows you to use [Multi-Factor Authentication](basics/multi-factor-authentication.md) and prevent account theft.
 
