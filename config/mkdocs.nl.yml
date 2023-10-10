@@ -93,6 +93,7 @@ nav:
     - Technologie essenties:
       - 'basics/passwords-overview.md'
       - 'basics/multi-factor-authentication.md'
+      - 'basics/hardware.md'
       - 'basics/email-security.md'
       - 'basics/vpn-overview.md'
     - Gevorderde onderwerpen:

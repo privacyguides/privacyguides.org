@@ -97,6 +97,7 @@ nav:
     - "יסודות הטכנולוגיה":
       - 'basics/passwords-overview.md'
       - 'basics/multi-factor-authentication.md'
+      - 'basics/hardware.md'
       - 'basics/email-security.md'
       - 'basics/vpn-overview.md'
     - "נושאים מתקדמים":
