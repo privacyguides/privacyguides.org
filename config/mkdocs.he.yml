@@ -36,20 +36,6 @@ edit_uri: edit/main/i18n/he/
 
 extra:
   generator: false
-  analytics:
-    provider: plausible
-    property: privacyguides.org
-    feedback:
-      title: "האם הדף הזה עזר לך?"
-      ratings:
-        - icon: material/robot-happy-outline
-          name: "הדף הזה היה מועיל"
-          data: Helpful
-          note: "תודה על המשוב שלך!"
-        - icon: material/robot-confused
-          name: "דף זה יכול להשתפר"
-          data: Needs Improvement
-          note: "תודה על המשוב שלך! Help us improve this page by opening a <a href='https://discuss.privacyguides.net/'>discussion on our forum</a>."
 
 extra_css:
   - assets/stylesheets/extra.css?v=3.2.0
@@ -145,7 +131,6 @@ nav:
   - "על אודות":
     - 'about/index.md'
     - 'about/criteria.md'
-    - 'about/statistics.md'
     - 'about/notices.md'
     - 'about/privacy-policy.md'
     - Community:

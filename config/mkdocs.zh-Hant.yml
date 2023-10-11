@@ -36,20 +36,6 @@ edit_uri: edit/main/i18n/zh-Hant/
 
 extra:
   generator: false
-  analytics:
-    provider: plausible
-    property: privacyguides.org
-    feedback:
-      title: "這個頁面對您有幫助嗎？"
-      ratings:
-        - icon: material/robot-happy-outline
-          name: "此頁有幫助"
-          data: Helpful
-          note: "感謝反饋!"
-        - icon: material/robot-confused
-          name: "此頁面可以改善"
-          data: Needs Improvement
-          note: "感謝你的意見！通過在的論壇上開啟<a href='https://discuss.privacyguides.net'>討論來協助我們改善此頁面。</a>"
 
 extra_css:
   - assets/stylesheets/extra.css?v=3.2.0
@@ -143,7 +129,6 @@ nav:
   - 關於:
     - 'about/index.md'
     - 'about/criteria.md'
-    - 'about/statistics.md'
     - 'about/notices.md'
     - 'about/privacy-policy.md'
     - 社群:

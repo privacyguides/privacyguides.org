@@ -36,20 +36,6 @@ edit_uri: edit/main/i18n/it/
 
 extra:
   generator: false
-  analytics:
-    provider: plausible
-    property: privacyguides.org
-    feedback:
-      title: "Questa pagina è stata utile?"
-      ratings:
-        - icon: material/robot-happy-outline
-          name: "Questa pagina è stata utile"
-          data: Helpful
-          note: "Grazie per il tuo feedback!"
-        - icon: material/robot-confused
-          name: "Questa pagina può essere migliorata"
-          data: Needs Improvement
-          note: "Grazie per il tuo feedback! Aiutaci a migliorare questa pagina aprendo una discussione sul <a href='https://discuss.privacyguides.net/'>nostro forum</a>."
 
 theme:
   language: it
@@ -141,7 +127,6 @@ nav:
   - Informazioni:
     - 'about/index.md'
     - 'about/criteria.md'
-    - 'about/statistics.md'
     - 'about/notices.md'
     - 'about/privacy-policy.md'
     - Comunità:

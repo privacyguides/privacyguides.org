@@ -120,7 +120,6 @@ plugins:
   privacy:
     assets_exclude:
       - cdn.jsdelivr.net/npm/mathjax@3/*
-      - api.privacyguides.net/*
   optimize:
     enabled: !ENV [NETLIFY, false]
   typeset: {}

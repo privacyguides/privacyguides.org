@@ -36,20 +36,6 @@ edit_uri: edit/main/docs/
 
 extra:
   generator: false
-  analytics:
-    provider: plausible
-    property: privacyguides.org
-    feedback:
-      title: "Была ли эта страница полезной?"
-      ratings:
-        - icon: material/robot-happy-outline
-          name: "Эта страница была полезна"
-          data: Helpful
-          note: "Спасибо за ваш отзыв!"
-        - icon: material/robot-confused
-          name: "Эта страница может быть улучшена"
-          data: Needs Improvement
-          note: "Спасибо за ваш отзыв! Помогите нам улучшить эту страницу, <a href='https://discuss.privacyguides.net/'>открыв обсуждение на нашем форуме.</a>"
 
 extra_css:
   - assets/stylesheets/extra.css?v=3.2.0
@@ -143,7 +129,6 @@ nav:
   - О сайте:
     - 'about/index.md'
     - 'about/criteria.md'
-    - 'about/statistics.md'
     - 'about/notices.md'
     - 'about/privacy-policy.md'
     - Сообщество:
