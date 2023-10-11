@@ -96,7 +96,6 @@ extra_css:
   - assets/stylesheets/extra.css?v=3.15.0
 extra_javascript:
   - assets/javascripts/mathjax.js
-  - assets/javascripts/feedback.js
 
 watch:
   - ../theme
@@ -120,7 +119,6 @@ plugins:
   privacy:
     assets_exclude:
       - cdn.jsdelivr.net/npm/mathjax@3/*
-      - api.privacyguides.net/*
   optimize:
     enabled: !ENV [NETLIFY, false]
   typeset: {}

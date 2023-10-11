@@ -36,20 +36,6 @@ edit_uri: edit/main/i18n/nl/
 
 extra:
   generator: false
-  analytics:
-    provider: plausible
-    property: privacyguides.org
-    feedback:
-      title: "Was deze pagina nuttig?"
-      ratings:
-        - icon: material/robot-happy-outline
-          name: "Deze pagina was nuttig"
-          data: Helpful
-          note: "Bedankt voor je feedback!"
-        - icon: material/robot-confused
-          name: "Deze pagina kan worden verbeterd"
-          data: Needs Improvement
-          note: "Bedankt voor jouw feedback! Help ons deze pagina te verbeteren door een <a href='https://discuss.privacyguides.net/'>discussie te openen op ons forum</a>."
 
 theme:
   language: nl
@@ -141,7 +127,6 @@ nav:
   - Over ons:
     - 'about/index.md'
     - 'about/criteria.md'
-    - 'about/statistics.md'
     - 'about/notices.md'
     - 'about/privacy-policy.md'
     - Gemeenschap:
