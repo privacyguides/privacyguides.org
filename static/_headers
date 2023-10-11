@@ -1,0 +1,5 @@
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 0
+  X-Content-Type-Options: nosniff
+  Content-Security-Policy: default-src 'none'; script-src https://www.privacyguides.org https://opencollective.com 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src https://opencollective.com data: 'self'; connect-src https://api.github.com https://*.privacyguides.net 'self'; frame-src https://opencollective.com https://snowflake.torproject.org https://*.privacyguides.net; frame-ancestors 'none'
