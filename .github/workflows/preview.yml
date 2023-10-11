@@ -65,10 +65,6 @@ jobs:
           sudo apt install pngquant
 
       - name: Build website
-
-        # FOR TESTING/DEBUG ONLY:
-        continue-on-error: true
-
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CARDS: true
@@ -81,11 +77,11 @@ jobs:
           cp -r static/* site/
           pipenv run mkdocs --version
       
-      - name: Archive code coverage results
-        uses: actions/upload-artifact@v3
+      - name: Cache build output
+        uses: actions/cache/save@v3
         with:
-          name: site-${{ matrix.language }}
           path: site/${{ matrix.language }}
+          key: build-${{ matrix.language }}-${{ github.sha }}
       
   deploy:
     needs: build
@@ -101,54 +97,63 @@ jobs:
           submodules: 'false'
 
       - name: Download en
-        uses: actions/download-artifact@v3
+        uses: actions/cache/restore@v3
         with:
-          name: site-en
+          key: build-en-${{ github.sha }}
           path: site/en
+          fail-on-cache-miss: true
 
       - name: Download es
-        uses: actions/download-artifact@v3
+        uses: actions/cache/restore@v3
         with:
-          name: site-es
+          key: build-es-${{ github.sha }}
           path: site/es
+          fail-on-cache-miss: true
       
       - name: Download fr
-        uses: actions/download-artifact@v3
+        uses: actions/cache/restore@v3
         with:
-          name: site-fr
+          key: build-fr-${{ github.sha }}
           path: site/fr
+          fail-on-cache-miss: true
 
       - name: Download he
-        uses: actions/download-artifact@v3
+        uses: actions/cache/restore@v3
         with:
-          name: site-he
+          key: build-he-${{ github.sha }}
           path: site/he
+          fail-on-cache-miss: true
 
       - name: Download it
-        uses: actions/download-artifact@v3
+        uses: actions/cache/restore@v3
         with:
-          name: site-it
+          key: build-it-${{ github.sha }}
           path: site/it
+          fail-on-cache-miss: true
       
       - name: Download nl
-        uses: actions/download-artifact@v3
+        uses: actions/cache/restore@v3
         with:
-          name: site-nl
+          key: build-nl-${{ github.sha }}
           path: site/nl
+          fail-on-cache-miss: true
 
       - name: Download ru
-        uses: actions/download-artifact@v3
+        uses: actions/cache/restore@v3
         with:
-          name: site-ru
+          key: build-ru-${{ github.sha }}
           path: site/ru
+          fail-on-cache-miss: true
 
       - name: Download zh-Hant
-        uses: actions/download-artifact@v3
+        uses: actions/cache/restore@v3
         with:
-          name: site-zh-Hant
+          key: build-zh-Hant-${{ github.sha }}
           path: site/zh-Hant
+          fail-on-cache-miss: true
 
       - run: |
+          cp -r static/* site/
           ls -la site/
 
       - name: Publish to Cloudflare Pages
