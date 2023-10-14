@@ -11,30 +11,6 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
 ## Cloud-based
 
-### Standard Notes
-
-!!! recommendation
-
-    ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
-
-    **Standard Notes** is a simple and private notes app that makes your notes easy and available everywhere you are. It features E2EE on every platform, and a powerful desktop experience with themes and custom editors. It has also been [independently audited](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
-
-    [:octicons-home-16: Homepage](https://standardnotes.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://standardnotes.com/help){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribute }
-
-    ??? downloads
-
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
-        - [:simple-github: GitHub](https://github.com/standardnotes/app/releases)
-        - [:simple-windows11: Windows](https://standardnotes.com)
-        - [:simple-apple: macOS](https://standardnotes.com)
-        - [:simple-linux: Linux](https://standardnotes.com)
-        - [:octicons-globe-16: Web](https://app.standardnotes.com/)
-
 ### Notesnook
 
 !!! recommendation
