@@ -17,7 +17,7 @@ We do not make money from recommending certain products, we do not use affiliate
 We apply these priorities when considering new recommendations:
 
 - **Secure**: Tools should follow security best-practices wherever applicable.
-- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
+- **Source Availability**: Open source projects are generally preferred over equivalent proprietary alternatives.
 - **Cross-Platform**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
 - **Active Development**: The tools that we recommend should be actively developed, unmaintained projects will be removed in most cases.
 - **Usability**: Tools should be accessible to most computer users, an overly technical background should not be required.
