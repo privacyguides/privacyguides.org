@@ -86,3 +86,18 @@
     from = "/*"
     to = "/i18n/404.en.html"
     status = 404
+
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+
+    [[plugins.inputs.audits]]
+        path = "en/index.html"
+
+    [[plugins.inputs.audits]]
+        path = "en/tools/index.html"
+    
+    [[plugins.inputs.audits]]
+        path = "en/basics/why-privacy-matters/index.html"
+
+    [[plugins.inputs.audits]]
+        path = "en/vpn/index.html"
