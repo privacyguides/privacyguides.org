@@ -502,3 +502,9 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
     transform: translate(-50%, -50%);
     color: white;
 }
+
+/* Social share button */
+.social-share-text {
+    width: 100%;
+    padding: 1em !important;
+}
