@@ -80,7 +80,7 @@ So far in 2023 we've launched international translations of our website in [Fren
     - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
-Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open sourced on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
+Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
 Our team members review all changes made to the website and handle administrative duties such as web hosting and financials, however they do not personally profit from any contributions made to this site. Our financials are transparently hosted by the Open Collective Foundation 501(c)(3) at [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Donations to Privacy Guides are generally tax-deductible in the United States.
 

@@ -54,19 +54,19 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 The metadata that is erased depends on the image's file type:
 
-* **JPEG**: ICC Profile, Exif, Photoshop Image Resources and XMP/ExtendedXMP metadata will be erased if it exists.
-* **PNG**: ICC Profile, Exif and XMP metadata will be erased if it exists.
-* **WebP**: ICC Profile, Exif and XMP metadata will be erased if it exists.
+- **JPEG**: ICC Profile, Exif, Photoshop Image Resources and XMP/ExtendedXMP metadata will be erased if it exists.
+- **PNG**: ICC Profile, Exif and XMP metadata will be erased if it exists.
+- **WebP**: ICC Profile, Exif and XMP metadata will be erased if it exists.
 
 After processing the images, ExifEraser provides you with a full report about what exactly was removed from each image.
 
 The app offers multiple ways to erase metadata from images. Namely:
 
-* You can share an image from another application with ExifEraser.
-* Through the app itself, you can select a single image, multiple images at once, or even an entire directory.
-* It features a "Camera" option, which uses your operating system's camera app to take a photo, and then it removes the metadata from it.
-* It allows you to drag photos from another app into ExifEraser when they are both open in split-screen mode.
-* Lastly, it allows you to paste an image from your clipboard.
+- You can share an image from another application with ExifEraser.
+- Through the app itself, you can select a single image, multiple images at once, or even an entire directory.
+- It features a "Camera" option, which uses your operating system's camera app to take a photo, and then it removes the metadata from it.
+- It allows you to drag photos from another app into ExifEraser when they are both open in split-screen mode.
+- Lastly, it allows you to paste an image from your clipboard.
 
 ### Metapho (iOS)
 
@@ -142,5 +142,5 @@ The app offers multiple ways to erase metadata from images. Namely:
 
     We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
 
-- Apps developed for open-source operating systems must be open-source.
+- Apps developed for open-source operating systems must be open source.
 - Apps must be free and should not include ads or other limitations.

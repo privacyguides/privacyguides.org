@@ -133,7 +133,7 @@ IVPN has undergone a [no-logging audit from Cure53](https://cure53.de/audit-repo
 
 #### :material-check:{ .pg-green } Open-Source Clients
 
-As of February 2020 [IVPN applications are now open-source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
+As of February 2020 [IVPN applications are now open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
 
 #### :material-check:{ .pg-green } Accepts Cash and Monero
 
@@ -248,7 +248,7 @@ We require all our recommended VPN providers to provide OpenVPN configuration fi
 - Support for strong protocols such as WireGuard & OpenVPN.
 - Killswitch built in to clients.
 - Multihop support. Multihopping is important to keep data private in case of a single node compromise.
-- If VPN clients are provided, they should be [open-source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what your device is actually doing.
+- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what your device is actually doing.
 
 **Best Case:**
 
