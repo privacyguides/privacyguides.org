@@ -93,7 +93,7 @@ theme:
     - search.highlight
 
 extra_css:
-  - assets/stylesheets/extra.css?v=3.15.0
+  - assets/stylesheets/extra.css?v=3.17.0
 extra_javascript:
   - assets/javascripts/mathjax.js
 

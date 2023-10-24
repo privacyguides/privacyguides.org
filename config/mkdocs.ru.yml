@@ -126,6 +126,8 @@ nav:
       - 'android.md'
       - 'desktop.md'
       - 'router.md'
+    - Advanced:
+      - 'device-integrity.md'
   - О сайте:
     - 'about/index.md'
     - 'about/criteria.md'

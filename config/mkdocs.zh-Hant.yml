@@ -126,6 +126,8 @@ nav:
       - 'android.md'
       - 'desktop.md'
       - 'router.md'
+    - Advanced:
+      - 'device-integrity.md'
   - 關於:
     - 'about/index.md'
     - 'about/criteria.md'
