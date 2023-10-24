@@ -41,7 +41,7 @@ When you are using an instance run by someone else, make sure to read the privac
 
     ![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
 
-    **ProxiTok** is an open source frontend to the [TikTok](https://www.tiktok.com) website that is also self-hostable.
+    **ProxiTok** is an open-source frontend to the [TikTok](https://www.tiktok.com) website that is also self-hostable.
 
     There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
 
