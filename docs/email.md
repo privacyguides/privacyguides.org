@@ -156,7 +156,7 @@ These providers store your emails with zero-knowledge encryption, making them gr
 <div class="grid cards" markdown>
 
 - ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
-- ![Tutanota logo](assets/img/email/tutanota.svg){ .twemoji } [Tutanota](email.md#tutanota)
+- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
 
 </div>
 
@@ -211,63 +211,63 @@ Skiff additionally offers [workspace productivity features](https://discuss.priv
 
 Skiff Mail does not offer a digital legacy feature.
 
-### Tutanota
+### Tuta
 
 !!! recommendation
 
-    ![Tutanota logo](assets/img/email/tutanota.svg){ align=right }
+    ![Tuta logo](assets/img/email/tuta.svg){ align=right }
 
-    **Tutanota** is an email service with a focus on security and privacy through the use of encryption. Tutanota has been in operation since **2011** and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan.
+    **Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan.
 
-    [:octicons-home-16: Homepage](https://tutanota.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tutanota.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://tutanota.com/faq){ .card-link title=Documentation}
+    [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
     [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://tutanota.com/community/){ .card-link title=Contribute }
+    [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
 
     ??? downloads
 
         - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
         - [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
         - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
-        - [:simple-windows11: Windows](https://tutanota.com/#download)
-        - [:simple-apple: macOS](https://tutanota.com/#download)
-        - [:simple-linux: Linux](https://tutanota.com/#download)
-        - [:octicons-browser-16: Web](https://mail.tutanota.com/)
+        - [:simple-windows11: Windows](https://tuta.com/#download)
+        - [:simple-apple: macOS](https://tuta.com/#download)
+        - [:simple-linux: Linux](https://tuta.com/#download)
+        - [:octicons-browser-16: Web](https://app.tuta.com/)
 
-Tutanota doesn't support the [IMAP protocol](https://tutanota.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tutanota app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tutanota.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tutanota.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta doesn't support the [IMAP protocol](https://tuta.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. Neither [Email import](https://github.com/tutao/tutanota/issues/630) or [subfolders](https://github.com/tutao/tutanota/issues/927) are currently supported, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
-Paid Tutanota accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tutanota.com/faq#custom-domain). Tutanota doesn't allow for [subaddressing (plus addresses)](https://tutanota.com/faq#plus), but you can use a [catch-all](https://tutanota.com/howto#settings-global) with a custom domain.
+Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [subaddressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
 
 #### :material-information-outline:{ .pg-blue } Private Payment Methods
 
-Tutanota only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tutanota.com/faq/#cryptocurrency) with Proxystore.
+Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/faq/#cryptocurrency) with Proxystore.
 
 #### :material-check:{ .pg-green } Account Security
 
-Tutanota supports [two factor authentication](https://tutanota.com/faq#2fa) with either TOTP or U2F.
+Tuta supports [two factor authentication](https://tuta.com/faq#2fa) with either TOTP or U2F.
 
 #### :material-check:{ .pg-green } Data Security
 
-Tutanota has [zero access encryption at rest](https://tutanota.com/faq#what-encrypted) for your emails, [address book contacts](https://tutanota.com/faq#encrypted-address-book), and [calendars](https://tutanota.com/faq#calendar). This means the messages and other data stored in your account are only readable by you.
+Tuta has [zero access encryption at rest](https://tuta.com/faq#what-encrypted) for your emails, [address book contacts](https://tuta.com/faq#encrypted-address-book), and [calendars](https://tuta.com/faq#calendar). This means the messages and other data stored in your account are only readable by you.
 
 #### :material-information-outline:{ .pg-blue } Email Encryption
 
-Tutanota [does not use OpenPGP](https://www.tutanota.com/faq/#pgp). Tutanota accounts can only receive encrypted emails from non-Tutanota email accounts when sent via a [temporary Tutanota mailbox](https://www.tutanota.com/howto/#encrypted-email-external).
+Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
 
 #### :material-information-outline:{ .pg-blue } Account Termination
 
-Tutanota will [delete inactive free accounts](https://tutanota.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
+Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
 
 #### :material-information-outline:{ .pg-blue } Additional Functionality
 
-Tutanota offers the business version of [Tutanota to non-profit organizations](https://tutanota.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
+Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
 
-Tutanota also has a business feature called [Secure Connect](https://tutanota.com/secure-connect/). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
+Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect/). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
 
-Tutanota doesn't offer a digital legacy feature.
+Tuta doesn't offer a digital legacy feature.
 
 ## Email Aliasing Services
 
