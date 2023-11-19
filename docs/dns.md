@@ -13,7 +13,7 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 
 | DNS Provider | Privacy Policy | Protocols | Logging | ECS | Filtering |
 | ------------ | -------------- | --------- | ------- | --- | --------- |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html) | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html) | Cleartext <br> DoH/3 <br> DoT <br> DNSCrypt | Some[^1] | No | Based on personal configuration. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS)
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html) | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html) | Cleartext <br> DoH/3 <br> DoT <br> DNSCrypt | Some[^1] | Yes | Based on personal configuration. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS)
 | [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Cleartext <br> DoH/3 <br> DoT | Some[^2] | No | Based on personal configuration.|
 | [**Control D**](https://controld.com/free-dns) | [:octicons-link-external-24:](https://controld.com/privacy) | Cleartext <br> DoH/3 <br> DoT <br> DoQ| Optional[^3] | No | Based on personal configuration. |
 | [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/) | DoH <br> DoT | No[^4] | No | Based on personal configuration. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)
