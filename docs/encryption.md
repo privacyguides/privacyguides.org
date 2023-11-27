@@ -185,25 +185,6 @@ We recommend storing a local recovery key in a secure place as opposed to using 
     cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
     ```
 
-## Browser-based
-
-Browser-based encryption can be useful when you need to encrypt a file but cannot install software or apps on your device.
-
-### hat.sh
-
-!!! recommendation
-
-    ![hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ align=right }
-    ![hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ align=right }
-
-    **Hat.sh** is a web application that provides secure client-side file encryption in your browser. It can also be self-hosted and is useful if you need to encrypt a file but cannot install any software on your device due to organizational policies.
-
-    [:octicons-globe-16: Website](https://hat.sh){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://hat.sh/about/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://hat.sh/about/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/sh-dv/hat.sh){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sh-dv/hat.sh#donations){ .card-link title="Donations methods can be found at the bottom of the website" }
-
 ## Command-line
 
 Tools with command-line interfaces are useful for integrating [shell scripts](https://en.wikipedia.org/wiki/Shell_script).

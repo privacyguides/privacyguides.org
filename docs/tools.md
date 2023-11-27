@@ -287,7 +287,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 - ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ .twemoji } [Cryptomator](encryption.md#cryptomator-cloud)
 - ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ .twemoji } [Picocrypt](encryption.md#picocrypt-file)
 - ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
-- ![Hat.sh logo](assets/img/encryption-software/hat-sh.png#only-light){ .twemoji }![Hat.sh logo](assets/img/encryption-software/hat-sh-dark.png#only-dark){ .twemoji } [Hat.sh (Browser-based)](encryption.md#hatsh)
 - ![Kryptor logo](assets/img/encryption-software/kryptor.png){ .twemoji } [Kryptor](encryption.md#kryptor)
 - ![Tomb logo](assets/img/encryption-software/tomb.png){ .twemoji } [Tomb](encryption.md#tomb)
 
