@@ -100,6 +100,12 @@ article.md-content__inner {
     margin: auto;
     padding-bottom: 3rem;
 }
+@media screen and (max-width: 65rem) {
+    article.md-content__inner {
+        margin-right: 0.8rem;
+        margin-left: 0.8rem;
+    }
+}
 article.md-content__inner > * {
     max-width: 38rem;
 }
