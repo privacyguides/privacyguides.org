@@ -47,7 +47,7 @@ jobs:
           submodules: 'true'
       
       - name: Pages setup
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v4
 
       - name: Python setup
         uses: actions/setup-python@v4
