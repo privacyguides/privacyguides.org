@@ -155,10 +155,69 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 <div class="grid cards" markdown>
 
+- ![Forward Email logo](assets/img/email/forward-email.svg){ .twemoji } [Forward Email](email.md#forward-email)
 - ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
 - ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
 
 </div>
+
+### Forward Email
+
+!!! recommendation
+
+    ![Forward Email logo](assets/img/email/forward-email.svg){ align=right }
+
+    **Forward Email** is 100% open-source and is focused on privacy, encryption, and security. They have been in operation since **2017**. Forward Email is based in the United States. All plans including the free plan include support for unlimited domains and aliases. Accounts start with 10 GB of pooled storage with their Enhanced Protection paid plan for $3/month.
+
+    [:octicons-home-16: Homepage](https://forwardemail.net){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://forwardemail.net/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://forwardemail.net/faq){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/forwardemail/forwardemail.net){ .card-link title="Source Code" }
+
+    ??? downloads
+
+        - [:simple-apple: macOS](https://forwardemail.net/blog/open-source/apple-email-clients)
+        - [:simple-windows11: Windows](https://forwardemail.net/blog/open-source/windows-email-clients)
+        - [:material-apple-ios: iOS](https://forwardemail.net/blog/open-source/apple-i-os-email-clients)
+        - [:simple-android: Android](https://forwardemail.net/blog/open-source/android-email-clients)
+        - [:simple-linux: Linux](https://forwardemail.net/blog/open-source/linux-email-clients)
+        - [:simple-safari: Safari](https://forwardemail.net/blog/open-source/safari-email-clients)
+        - [:simple-googlechrome: Chrome](https://forwardemail.net/blog/open-source/google-chrome-email-clients)
+        - [:simple-firefoxbrowser: Firefox](https://forwardemail.net/blog/open-source/web-email-clients)
+        - [:octicons-browser-16: Web](https://forwardemail.net/en/blog/open-source/web-email-clients)
+        - [:octicons-terminal-16: Terminal](https://forwardemail.net/blog/open-source/terminal-email-clients)
+
+Notable features:
+
+- [x] Unlimited domains and aliases (applies to both free and paid plans)
+- [x] Supports [SMTP](https://forwardemail.net/faq#do-you-support-sending-email-with-smtp), [IMAP](https://forwardemail.net/faq#do-you-support-receiving-email-with-imap), [POP3](https://forwardemail.net/faq#do-you-support-pop3), and [API](https://forwardemail.net/faq#do-you-support-sending-email-with-api) (paid only)
+- [x] Uses [individually encrypted](https://forwardemail.net/blog/docs/best-quantum-safe-encrypted-email-service) SQLite databases for mailboxes (with full-text search support)
+- [x] [Does not store emails nor logs](https://forwardemail.net/en/privacy#information-not-collected) (everything is done in-memory)
+- [x] [Available in BitWarden](https://bitwarden.com/blog/add-privacy-and-security-using-email-aliases-with-bitwarden/) as of [2030.7.0 release](https://bitwarden.com/help/releasenotes/#2023-7-0)
+
+#### :material-check:{ .pg-green } Custom Domains and Aliases
+
+You can create unlimited custom domains, aliases, catch-alls, regex-based aliases, and more with Forward Email.
+
+#### :material-check:{ .pg-green } Private Payment Methods
+
+Forward Email doesn't accept any cryptocurrencies as a result of [issues](https://github.com/forwardemail/forwardemail.net/commit/04c9f6f4c9c6279232e9fe18d7105ec83204f255) with BitPay and Coinbase Commerce. However, they do accept PayPal, Visa, Mastercard, American Express, Discover, Diners Club, JCB, China UnionPay, Alipay, Apple Pay, Google Pay, Link, Bancontact, EPS, giropay, iDEAL, Przelewy24, Sofort, Affirm, Afterpay / Clearpay, Klarna, SEPA Direct Debit, Canadian pre-authorized debits, and ACH Direct Debit.
+
+#### :material-check:{ .pg-green } Data Security
+
+Forward Email uses [quantum safe ChaCha20-Poly1305 encryption](https://forwardemail.net/blog/docs/best-quantum-safe-encrypted-email-service) on your mailboxes, messages, and more.  Its data center providers are SOC Type 2 compliant and it uses encryption at rest and encryption in-transit.
+
+#### :material-information-outline:{ .pg-blue } Email Encryption
+
+Forward Email does not yet support OpenPGP, however it uses ChaCha20-Poly1305 encryption on your entire mailbox.
+
+#### :material-information-outline:{ .pg-blue } Account Termination
+
+Forward Email does not automatically delete accounts. Users can delete their entire account at anytime by going to [My Account &rarr; Security](https://forwardemail.net/my-account/security).
+
+#### :material-information-outline:{ .pg-blue } Additional Functionality
+
+Forward Email has support for [webhooks](https://forwardemail.net/faq#do-you-support-webhooks) and [regular expressions](https://forwardemail.net/faq#do-you-support-regular-expressions-or-regex), and allows you to download your encrypted mailbox and [create a new backup](https://forwardemail.net/blog/docs/best-quantum-safe-encrypted-email-service#backups) at anytime.
 
 ### Skiff Mail
 
@@ -275,6 +334,7 @@ An email aliasing service allows you to easily generate a new email address for 
 
 <div class="grid cards" markdown>
 
+- ![Forward Email logo](assets/img/email/mini/forward-email.svg){ .twemoji } [Forward Email](email.md#forward-email)
 - ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
 - ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
 
