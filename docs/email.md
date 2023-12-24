@@ -193,7 +193,7 @@ Notable features:
 - [x] Supports [SMTP](https://forwardemail.net/faq#do-you-support-sending-email-with-smtp), [IMAP](https://forwardemail.net/faq#do-you-support-receiving-email-with-imap), [POP3](https://forwardemail.net/faq#do-you-support-pop3), and [API](https://forwardemail.net/faq#do-you-support-sending-email-with-api) (paid only)
 - [x] Uses [individually encrypted](https://forwardemail.net/blog/docs/best-quantum-safe-encrypted-email-service) SQLite databases for mailboxes (with full-text search support)
 - [x] [Does not store emails nor logs](https://forwardemail.net/en/privacy#information-not-collected) (everything is done in-memory)
-- [x] [Available in BitWarden](https://bitwarden.com/blog/add-privacy-and-security-using-email-aliases-with-bitwarden/) as of [2030.7.0 release](https://bitwarden.com/help/releasenotes/#2023-7-0)
+- [x] [Available in BitWarden](https://bitwarden.com/blog/add-privacy-and-security-using-email-aliases-with-bitwarden/) as of [2023.7.0 release](https://bitwarden.com/help/releasenotes/#2023-7-0)
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
