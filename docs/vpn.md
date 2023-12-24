@@ -55,7 +55,7 @@ Our recommended providers use encryption, accept Monero, support WireGuard & Ope
 
 #### :material-check:{ .pg-green } 71 Countries
 
-Proton VPN has [servers in 71 countries](https://protonvpn.com/vpn-servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+Proton VPN has [servers in 71 countries](https://protonvpn.com/vpn-servers) [or 3 if you use their free plan](https://protonvpn.com/free-vpn).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 { .annotate }
 
 1. Last checked: 2023-12-21
