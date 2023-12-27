@@ -200,7 +200,7 @@ Forward Email supports [passkeys](https://forwardemail.net/faq#do-you-support-pa
 
 Forward Email uses data center providers that are SOC Type 2 compliant. It also uses encryption at rest and encryption in-transit.
 
-#### :material-information-outline:{ .pg-blue } Email Encryption
+#### :material-check:{ .pg-green } Email Encryption
 
 Forward Email has support for [OpenPGP encryption](https://forwardemail.net/faq##do-you-support-openpgpmime-end-to-end-encryption-e2ee-and-web-key-directory-wkd), discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD), and E2EE. It also uses [quantum safe ChaCha20-Poly1305 encryption](https://forwardemail.net/blog/docs/best-quantum-safe-encrypted-email-service) on each individual user's mailbox.  Users can optionally encrypt messages in IMAP/POP3 storage using an OpenPGP Public Key (this provides double encryption, as the mailboxes are already encrypted).
 
