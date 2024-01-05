@@ -20,7 +20,7 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
 
     Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
 
-    If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+    If you are looking for **anonymity**, you should use the Tor Browser.
 
     If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
 
