@@ -68,7 +68,7 @@ All contributors to the site are listed [here](https://github.com/privacyguides/
 
 ## License
 
-Copyright &copy; 2019 - 2023 [Privacy Guides contributors](https://github.com/privacyguides/privacyguides.org/graphs/contributors).
+Copyright &copy; 2019 - 2024 [Privacy Guides contributors](https://github.com/privacyguides/privacyguides.org/graphs/contributors).
 
 Privacy Guides content is licensed under the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](/LICENSE), and the underlying source code used to format and display that content on [www.privacyguides.org](https://www.privacyguides.org) is licensed under the [MIT License](/LICENSE-CODE).
 
