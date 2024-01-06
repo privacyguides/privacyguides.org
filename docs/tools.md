@@ -356,6 +356,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <div class="grid cards" markdown>
 
 - ![Akregator logo](assets/img/news-aggregators/akregator.svg){ .twemoji } [Akregator](news-aggregators.md#akregator)
+- ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ .twemoji } [NewsFlash](news-aggregators.md#newsflash)
 - ![Feeder logo](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder (Android)](news-aggregators.md#feeder)
 - ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ .twemoji } [Fluent Reader](news-aggregators.md#fluent-reader)
 - ![GNOME Feeds logo](assets/img/news-aggregators/gfeeds.svg){ .twemoji } [GNOME Feeds](news-aggregators.md#gnome-feeds)
