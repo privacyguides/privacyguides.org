@@ -106,6 +106,7 @@ nav:
       - 'dns.md'
       - 'email.md'
       - 'financial-services.md'
+      - 'photo-management.md'
       - 'search-engines.md'
       - 'vpn.md'
     - Программное обеспечение:
@@ -141,7 +142,9 @@ nav:
     - Помощь проекту:
       - Руководство по написанию:
         - 'meta/writing-style.md'
+        - 'meta/admonitions.md'
         - 'meta/brand.md'
+        - 'meta/translations.md'
       - Технические руководства:
         - 'meta/uploading-images.md'
         - 'meta/git-recommendations.md'

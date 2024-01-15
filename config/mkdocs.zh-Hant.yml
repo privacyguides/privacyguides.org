@@ -106,6 +106,7 @@ nav:
       - 'dns.md'
       - 'email.md'
       - 'financial-services.md'
+      - 'photo-management.md'
       - 'search-engines.md'
       - 'vpn.md'
     - 軟體:
@@ -141,7 +142,9 @@ nav:
     - 貢獻:
       - 寫作指南:
         - 'meta/writing-style.md'
+        - 'meta/admonitions.md'
         - 'meta/brand.md'
+        - 'meta/translations.md'
       - 技術指導:
         - 'meta/uploading-images.md'
         - 'meta/git-recommendations.md'

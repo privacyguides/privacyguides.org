@@ -104,6 +104,7 @@ nav:
       - 'dns.md'
       - 'email.md'
       - 'financial-services.md'
+      - 'photo-management.md'
       - 'search-engines.md'
       - 'vpn.md'
     - Software:
@@ -139,6 +140,7 @@ nav:
     - Contribuisci:
       - Guida alla scrittura:
         - 'meta/writing-style.md'
+        - 'meta/admonitions.md'
         - 'meta/brand.md'
         - 'meta/translations.md'
       - Guide tecniche:

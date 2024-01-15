@@ -155,6 +155,7 @@ nav:
     - Contributing:
       - Writing Guide:
         - 'meta/writing-style.md'
+        - 'meta/admonitions.md'
         - 'meta/brand.md'
         - 'meta/translations.md'
       - Technical Guides:

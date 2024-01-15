@@ -140,6 +140,7 @@ nav:
     - Bijdragen:
       - Schrijfgids:
         - 'meta/writing-style.md'
+        - 'meta/admonitions.md'
         - 'meta/brand.md'
         - 'meta/translations.md'
       - Technische gids:
