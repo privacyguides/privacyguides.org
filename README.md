@@ -9,17 +9,17 @@
 
   <p><em>Your central privacy and security resource to protect yourself online.</em></p>
 
-  <p><a href="https://mastodon.neat.computer/@privacyguides">
-    <img src="https://img.shields.io/mastodon/follow/109298532634697668?domain=https%3A%2F%2Fmastodon.neat.computer&label=Follow%20%40privacyguides%40neat.computer&style=social">
-  </a>
-  <a href="https://twitter.com/privacy_guides">
-    <img src="https://img.shields.io/twitter/follow/privacy_guides?style=social">
-  </a>
-  <a href="https://discuss.privacyguides.net/">
+  <p><a href="https://discuss.privacyguides.net/">
     <img src="https://img.shields.io/discourse/users?label=Join%20our%20forum&logo=discourse&server=https%3A%2F%2Fdiscuss.privacyguides.net&style=social">
   </a>
   <a href="https://github.com/privacyguides/privacyguides.org/stargazers">
     <img src="https://img.shields.io/github/stars/privacyguides?style=social">
+  </a>
+  <a href="https://mastodon.neat.computer/@privacyguides">
+    <img src="https://img.shields.io/mastodon/follow/109298532634697668?domain=https%3A%2F%2Fmastodon.neat.computer&label=Follow%20%40privacyguides%40neat.computer&style=social">
+  </a>
+  <a href="https://lemmy.one/c/privacyguides">
+    <img src="https://img.shields.io/lemmy/privacyguides%40lemmy.one?style=social">
   </a></p>
 
   <p><a href="https://github.com/privacyguides/privacyguides.org/pulls">
@@ -59,10 +59,10 @@ All contributors to the site are listed [here](https://github.com/privacyguides/
 ## Mirrors
 
 [![GitHub](https://img.shields.io/static/v1?logo=github&label=&message=GitHub&color=000&style=for-the-badge)](https://github.com/privacyguides/privacyguides.org)
-[![Gitea](https://img.shields.io/static/v1?logo=gitea&label=&message=Gitea&color=000&style=for-the-badge)](https://code.privacyguides.dev/privacyguides/privacyguides.org)
 [![GitLab](https://img.shields.io/static/v1?logo=gitlab&label=&message=GitLab&color=000&style=for-the-badge)](https://gitlab.com/privacyguides/privacyguides.org)
 [![Codeberg](https://img.shields.io/static/v1?logo=codeberg&label=&message=Codeberg&color=000&style=for-the-badge)](https://codeberg.org/privacyguides/privacyguides.org)
-[![SourceHut](https://img.shields.io/static/v1?logo=git&label=&message=SourceHut&color=000&style=for-the-badge)](https://git.sr.ht/~jonaharagon/privacyguides.org)
+[![Gitea](https://img.shields.io/static/v1?logo=gitea&label=&message=Gitea&color=000&style=for-the-badge)](https://code.privacyguides.dev/privacyguides/privacyguides.org)
+[![Forgejo](https://img.shields.io/static/v1?logo=forgejo&label=&message=Forgejo&color=000&style=for-the-badge)](https://git.jonaharagon.net/privacyguides/privacyguides.org)
 
 **Hidden service (Tor/onion):** [xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion](http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/)
 
