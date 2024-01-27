@@ -37,7 +37,7 @@ To answer this question, it's important to identify who might want to target you
 
 *Make a list of your adversaries or those who might want to get ahold of your assets. Your list may include individuals, a government agency, or corporations.*
 
-Depending on who your adversaries are, under some circumstances, this list might be something you want to destroy after you're done security planning.
+Depending on who your adversaries are, under some circumstances, this list might be something you want to destroy after you're done writing it.
 
 ### How likely is it that I will need to protect it?
 
