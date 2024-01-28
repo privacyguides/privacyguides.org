@@ -132,7 +132,7 @@ These messengers do not have [Forward Secrecy](https://en.wikipedia.org/wiki/For
 
 ![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** is the reference client for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
+**Element** is the reference [client](https://matrix.org/ecosystem/clients/) for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
 
 Messages and files shared in private rooms (those which require an invite) are by default E2EE as are one to one voice and video calls.
 
