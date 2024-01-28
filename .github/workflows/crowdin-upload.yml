@@ -1,4 +1,4 @@
-# Copyright (c) 2022-2023 Jonah Aragon <jonah@triplebit.net>
+# Copyright (c) 2022-2024 Jonah Aragon <jonah@triplebit.net>
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to
@@ -39,7 +39,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: crowdin action
-      uses: crowdin/github-action@v1.15.2
+      uses: crowdin/github-action@v1.16.1
       with:
         upload_sources: true
         upload_sources_args: '--auto-update --delete-obsolete'
