@@ -154,31 +154,34 @@ Brave allows you to select additional content filters within the internal `brave
 
     ??? downloads annotate
 
-        - [:pg-f-droid: F-Droid](https://www.cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
+        - [:simple-android: F-Droid](https://www.cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
+        - [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
 
-These options can be found in :material-menu: → :gear: **Settings** → **Privacy and security**.
+These options can be found in :material-menu: → :gear: **Settings**.
 
 #### Recommended Configuration
 
 ##### HTTPS-Only Mode
 
-- [x] Select **Always use secure connections**
+- [x] Select **Always use secure connections** in **Privacy and security**
 
 This prevents you from unintentionally connecting to a website in plain-text HTTP. The HTTP protocol is extremely uncommon nowadays, so this should have little to no impact on your day to day browsing.
 
 ##### Always-on Incognito Mode
 
+The following are in **Privacy and security**.
+
 - [x] Select **Always open links in incognito** in the **Always incognito mode** menu
-- [x] Select **Close all open tabs on exit**
+- [x] Select **Close all open tabs on exit** 
 - [x] Select **Open external links in incognito**
 
 ##### Disable legacy adblock
 
-- [ ] Uncheck **autoupdate**
+- [ ] Uncheck **autoupdate** in **Legacy Adblock settings**
 
 ##### Adblock Plus
 
-Cromite contains a customized version of Adblock Plus. You may select the appropriate filter lists, or add custom ones in **Custom ad filtering settings**.
+Cromite contains a customized version of Adblock Plus. In **Adblock Plus settings**, You may select the appropriate filter lists, or add custom ones in **Custom ad filtering settings**.
 
 - [x] Select **Enable anti-circumvention and snippets**
 
