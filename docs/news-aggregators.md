@@ -190,7 +190,7 @@ https://www.reddit.com/r/[SUBREDDIT]/new/.rss
 
 ### Twitter
 
-Using any of the Nitter [instances](https://github.com/zedeus/nitter/wiki/Instances) you can easily subscribe using RSS.
+Using any of the Nitter [instances](https://status.d420.de/) you can easily subscribe using RSS.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Example</p>
