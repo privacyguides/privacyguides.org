@@ -72,23 +72,24 @@ A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org)
 
 ## Immutable Distributions
 
-### Fedora Silverblue
+### Fedora Atomic Desktops
 
 <div class="admonition recommendation" markdown>
 
-![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
+![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Silverblue** is an immutable variant of Fedora with a strong focus on container workflows and the [GNOME](https://www.gnome.org/) desktop environment. If you prefer an environment other than GNOME, there are also other variants including [Kinoite](https://fedoraproject.org/kinoite/) (which comes with [KDE](https://kde.org/)) and [Sericea](https://fedoraproject.org/sericea/) (which comes with [Sway](https://swaywm.org/), a [Wayland](https://wayland.freedesktop.org)-only tiling window manager). We don't recommend [Onyx](https://fedoraproject.org/onyx/) at this time as it still [requires X11](https://buddiesofbudgie.org/blog/wayland). All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
+**Fedora Atomic Desktops** are the immutable variants of Fedora with a strong focus on containerized workflows and Flatpak for desktop applications. All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
 
-[:octicons-home-16: Homepage](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops/){ .md-button .md-button--primary }
 [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
 
 </details>
 
 </div>
 
-Silverblue and its variants differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
+The [Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops/) come in a variety of flavors depending on the desktop environment you prefer, such as **Fedora Silverblue** (which comes with [GNOME](https://www.gnome.org/)), **Fedora Kinoite**, (which comes with [KDE](https://kde.org/)), **Fedora Sway Atomic**, or **Fedora Budgie Atomic**. However, we don't recommend the last of these as the Budgie desktop environment [still requires X11](https://buddiesofbudgie.org/blog/wayland).
+
+These operating systems differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
 
 After the update is complete you will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that you can easily rollback if something breaks in the new deployment. There is also the option to pin more deployments as needed.
 
