@@ -14,7 +14,7 @@ Linux distributions are commonly recommended for privacy protection and software
 
 <div class="admonition recommendation" markdown>
 
-![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
+![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
 **Fedora Workstation** is our recommended distribution for people new to Linux. Fedora generally adopts newer technologies before other distributions e.g., [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org). These new technologies often come with improvements in security, privacy, and usability in general.
 
