@@ -11,28 +11,6 @@ If you choose to self-host these frontends, it is important that you have other 
 
 When you are using an instance run by someone else, make sure to read the privacy policy of that specific instance. They can be modified by their owners and therefore may not reflect the default policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII.
 
-## Twitter
-
-### Nitter
-
-!!! recommendation
-
-    ![Nitter logo](assets/img/frontends/nitter.svg){ align=right }
-
-    **Nitter** is a free and open-source frontend for [Twitter](https://twitter.com) that is also self-hostable.
-
-    There are a number of public instances, with some instances having [Tor](https://www.torproject.org) onion services support.
-
-    [:octicons-repo-16: Repository](https://github.com/zedeus/nitter){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://github.com/zedeus/nitter/wiki/Instances){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://github.com/zedeus/nitter/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=Contribute }
-
-!!! tip
-
-    Nitter is useful if you want to browse Twitter content without having to log in and if you want to disable JavaScript in your browser, as is the case with [Tor Browser](https://www.torproject.org/) on the Safest security level. It also allows you to [create RSS feeds for Twitter](news-aggregators.md#twitter).
-
 ## TikTok
 
 ### ProxiTok
