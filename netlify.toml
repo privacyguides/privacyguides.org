@@ -36,6 +36,7 @@
     X-Content-Type-Options = "nosniff"
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
     Content-Security-Policy = "default-src 'none'; script-src https://www.privacyguides.org 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src data: 'self'; connect-src https://api.github.com https://*.privacyguides.net 'self'; frame-src https://*.privacyguides.net; frame-ancestors 'none'"
+    Permissions-Policy = "browsing-topics=(), conversion-measurement=(), interest-cohort=(), accelerometer=(), ambient-light-sensor=(), battery=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), usb=()"
 
 [[headers]]
   for = "/:lang/about/donate/"
