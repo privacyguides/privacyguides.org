@@ -18,6 +18,11 @@ site
 /.cache/plugin/social/fonts/*
 !/.cache/plugin/social/fonts/Bagnard
 
+# Editor settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
 # Local Netlify folder
 .netlify
 node_modules
