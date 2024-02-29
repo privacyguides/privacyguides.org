@@ -23,7 +23,7 @@
     command = "mkdocs build --config-file config/mkdocs.en.yml && cp -r static/* site/"
 
     [context.production]
-        command = "git clone https://github.com/privacyguides/i18n i18n-download && cp -rl i18n-download/i18n . && cp -rl i18n-download/includes . && cp -rl i18n-download/theme . && mkdocs build --config-file config/mkdocs.en.yml && mkdocs build --config-file config/mkdocs.es.yml && mkdocs build --config-file config/mkdocs.fr.yml && mkdocs build --config-file config/mkdocs.he.yml && mkdocs build --config-file config/mkdocs.it.yml && mkdocs build --config-file config/mkdocs.nl.yml && mkdocs build --config-file config/mkdocs.zh-Hant.yml && mkdocs build --config-file config/mkdocs.ru.yml && cp -r static/* site/"
+        command = "rm -rf i18n-download  || true && git clone https://github.com/privacyguides/i18n i18n-download && cp -rl i18n-download/i18n . && cp -rl i18n-download/includes . && cp -rl i18n-download/theme . && mkdocs build --config-file config/mkdocs.en.yml && mkdocs build --config-file config/mkdocs.es.yml && mkdocs build --config-file config/mkdocs.fr.yml && mkdocs build --config-file config/mkdocs.he.yml && mkdocs build --config-file config/mkdocs.it.yml && mkdocs build --config-file config/mkdocs.nl.yml && mkdocs build --config-file config/mkdocs.zh-Hant.yml && mkdocs build --config-file config/mkdocs.ru.yml && cp -r static/* site/"
 
     [context.branch-deploy]
         command = "crowdin download && for i in config/mkdocs.*.yml; do mkdocs build --config-file $i; done && cp -r static/* site/"
@@ -96,7 +96,7 @@
 
     [[plugins.inputs.audits]]
         path = "en/tools/index.html"
-    
+
     [[plugins.inputs.audits]]
         path = "en/basics/why-privacy-matters/index.html"
 
