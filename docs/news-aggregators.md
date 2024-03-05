@@ -106,9 +106,6 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 **Miniflux** is a web-based news aggregator that you can self-host. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
 [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
 [:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
