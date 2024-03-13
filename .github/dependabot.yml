@@ -41,7 +41,7 @@ updates:
       - "jonaharagon"
     labels:
       - "fix:github_actions"
-  
+
   # Maintain submodules
   - package-ecosystem: "gitsubmodule"
     directory: "/"

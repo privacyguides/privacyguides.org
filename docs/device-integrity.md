@@ -26,7 +26,7 @@ This means an attacker would have to regularly re-infect your device to retain a
 
 If any of the following tools indicate a potential compromise by spyware such as Pegasus, Predator, or KingsPawn, we advise that you contact:
 
-- If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us/)
+- If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us)
 - If a business or government device is compromised: Contact the appropriate security liason at your enterprise, department, or agency
 - Local law enforcement
 
@@ -54,7 +54,7 @@ Public indicators of compromise are insufficient to determine that a device is "
 
 Reliable and comprehensive digital forensic support and triage requires access to non-public indicators, research and threat intelligence.
 
-Such support is available to civil society through [Amnesty International's Security Lab](https://www.amnesty.org/en/tech/) or [Access Now’s Digital Security Helpline](https://www.accessnow.org/help/).
+Such support is available to civil society through [Amnesty International's Security Lab](https://amnesty.org/en/tech) or [Access Now’s Digital Security Helpline](https://accessnow.org/help).
 
 </div>
 
@@ -66,16 +66,16 @@ These tools can trigger false-positives. If any of these tools finds indicators 
 
 ![MVT logo](assets/img/device-integrity/mvt.webp){ align=right }
 
-**Mobile Verification Toolkit** (**MVT**) is a collection of utilities which simplifies and automates the process of scanning mobile devices for potential traces of targeting or infection by known spyware campaigns. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project/).
+**Mobile Verification Toolkit** (**MVT**) is a collection of utilities which simplifies and automates the process of scanning mobile devices for potential traces of targeting or infection by known spyware campaigns. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project).
 
-[:octicons-home-16: Homepage](https://mvt.re/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://mvt.re){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-apple: macOS](https://docs.mvt.re/en/latest/install/)
-- [:simple-linux: Linux](https://docs.mvt.re/en/latest/install/)
+- [:simple-apple: macOS](https://docs.mvt.re/en/latest/install)
+- [:simple-linux: Linux](https://docs.mvt.re/en/latest/install)
 
 </details>
 
@@ -109,7 +109,7 @@ MVT allows you to perform deeper scans/analysis if your device is jailbroken. Un
 
 **iMazing** provides a free spyware analyzer tool for iOS devices which acts as a GUI-wrapper for [MVT](#mobile-verification-toolkit). This can be much easier to run compared to MVT itself, which is a command-line tool designed for technologists and forensic investigators.
 
-[:octicons-home-16: Homepage](https://imazing.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://imazing.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=Documentation}
 
@@ -166,7 +166,7 @@ Auditor is not a scanning/analysis tool like some other tools on this page, rath
 
 Auditor performs attestation and intrusion detection with **two** devices, an *auditee* (the device being verified) and an *auditor* (the device performing the verification). The auditor can be any Android 10+ device (or a remote web service operated by [GrapheneOS](android.md#grapheneos)), while the auditee must be a specifically [supported device](https://attestation.app/about#device-support). Auditor works by:
 
-- Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an *auditor* and *auditee*, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore/) of the *Auditor*.
+- Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an *auditor* and *auditee*, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore) of the *Auditor*.
 - The *auditor* can either be another instance of the Auditor app or the [Remote Attestation Service](https://attestation.app).
 - The *auditor* records the current state and configuration of the *auditee*.
 - Should tampering with the operating system of the *auditee* happen after the pairing is complete, the auditor will be aware of the change in the device state and configurations.
@@ -206,13 +206,13 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner/)
+- [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner)
 
 </details>
 
 </div>
 
-Hypatia is particularly good at detecting common stalkerware: If you suspect you are a victim of stalkerware, you should [visit this page](https://stopstalkerware.org/information-for-survivors/) for advice.
+Hypatia is particularly good at detecting common stalkerware: If you suspect you are a victim of stalkerware, you should [visit this page](https://stopstalkerware.org/information-for-survivors) for advice.
 
 ### iVerify (iOS)
 
@@ -222,14 +222,14 @@ Hypatia is particularly good at detecting common stalkerware: If you suspect you
 
 **iVerify** is an iOS app which automatically scans your device to check configuration settings, patch level, and other areas of security. It also checks your device for indicators of compromise by jailbreak tools or spyware such as Pegasus.
 
-[:octicons-home-16: Homepage](https://www.iverify.io/consumer){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.iverify.io/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://www.iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://iverify.io/consumer){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://iverify.io/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/iverify/id1466120520)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1466120520)
 
 </details>
 

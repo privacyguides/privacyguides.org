@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD041 -->
 <div align="center">
-  <a href="https://www.privacyguides.org/">
+  <a href="https://www.privacyguides.org">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/privacyguides/brand/main/SVG/Logo/privacy-guides-logo-dark.svg">
       <img alt="Privacy Guides" width="500px" src="https://raw.githubusercontent.com/privacyguides/brand/main/SVG/Logo/privacy-guides-logo.svg">
@@ -9,7 +9,7 @@
 
   <p><em>Your central privacy and security resource to protect yourself online.</em></p>
 
-  <p><a href="https://discuss.privacyguides.net/">
+  <p><a href="https://discuss.privacyguides.net">
     <img src="https://img.shields.io/discourse/users?label=Join%20our%20forum&logo=discourse&server=https%3A%2F%2Fdiscuss.privacyguides.net&style=social">
   </a>
   <a href="https://github.com/privacyguides/privacyguides.org/stargazers">
@@ -42,17 +42,17 @@
 
 The current list of team members can be found [here](https://www.privacyguides.org/about/#our-team). Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project, and you can too!
 
-*Featured on: [Tweakers](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html), [The New York Times](https://www.nytimes.com/wirecutter/guides/online-security-social-media-privacy/), and [Wired](https://www.wired.com/story/firefox-mozilla-2022/)*
+*Featured on: [Tweakers](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html), [The New York Times](https://nytimes.com/wirecutter/guides/online-security-social-media-privacy), and [Wired](https://wired.com/story/firefox-mozilla-2022)*
 
 ## Contributing
 
-- 💬 [Start a discussion or suggest an idea](https://discuss.privacyguides.net/)
+- 💬 [Start a discussion or suggest an idea](https://discuss.privacyguides.net)
 - 💖 [Sponsor the project](https://github.com/sponsors/privacyguides)
 - 🈴 [Help translate the site](https://crowdin.com/project/privacyguides) [[Matrix chat](https://matrix.to/#/#pg-i18n:aragon.sh)]
 - 📝 Edit the site, everything's accessible in this repo
   - Browse our [open issues](https://github.com/privacyguides/privacyguides.org/issues) to see what needs to be updated
   - View the list of [approved topics waiting for a PR](https://discuss.privacyguides.net/tag/approved)
-  - Read some writing tips in our [style guide](https://www.privacyguides.org/en/meta/writing-style/)
+  - Read some writing tips in our [style guide](https://www.privacyguides.org/en/meta/writing-style)
 
 All contributors to the site are listed [here](https://github.com/privacyguides/privacyguides.org/graphs/contributors). If you make a substantial (i.e. copyright eligible) contribution to the project and would like to be formally credited, you are welcome to include your information in the appropriate `authors` section in [`CITATION.cff`](/CITATION.cff) as well, just submit a PR or ask @jonaharagon to make the change.
 
@@ -64,7 +64,7 @@ All contributors to the site are listed [here](https://github.com/privacyguides/
 [![Gitea](https://img.shields.io/static/v1?logo=gitea&label=&message=Gitea&color=000&style=for-the-badge)](https://code.privacyguides.dev/privacyguides/privacyguides.org)
 [![Forgejo](https://img.shields.io/static/v1?logo=forgejo&label=&message=Forgejo&color=000&style=for-the-badge)](https://git.jonaharagon.net/privacyguides/privacyguides.org)
 
-**Hidden service (Tor/onion):** [xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion](http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/)
+**Hidden service (Tor/onion):** [xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion](http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion)
 
 ## License
 
@@ -76,7 +76,7 @@ Generally speaking, **content** can be found in the [`/docs`](/docs), [`/theme/a
 
 These licenses do not apply to any work where another license is otherwise noted.
 
-**Logos** in the [`/theme/assets/img`](/theme/assets/img) folder may not be original works of Privacy Guides and therefore cannot be (re)licensed by us. We believe that these logos obtained from third-party providers are either in the public domain or **fair use**. In a nutshell, legal [fair use doctrine](https://www.copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject for purposes of public comment. However, these logos and other images may still be subject to trademark laws in one or more jurisdictions. Before using this content, please ensure that it is used to identify the entity or organization that owns the trademark and that you have the right to use it under the laws which apply in the circumstances of your intended use. *When copying content from this website, you are solely responsible for ensuring that you do not infringe someone else's trademark or copyright.*
+**Logos** in the [`/theme/assets/img`](/theme/assets/img) folder may not be original works of Privacy Guides and therefore cannot be (re)licensed by us. We believe that these logos obtained from third-party providers are either in the public domain or **fair use**. In a nutshell, legal [fair use doctrine](https://copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject for purposes of public comment. However, these logos and other images may still be subject to trademark laws in one or more jurisdictions. Before using this content, please ensure that it is used to identify the entity or organization that owns the trademark and that you have the right to use it under the laws which apply in the circumstances of your intended use. *When copying content from this website, you are solely responsible for ensuring that you do not infringe someone else's trademark or copyright.*
 
 You may comply with our license terms in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use. You **may not** use the Privacy Guides branding in your own project without express approval from this project. Privacy Guides's brand trademarks include the "Privacy Guides" wordmark and shield logo.
 
@@ -86,7 +86,7 @@ When you contribute to this repository you are doing so under the above licenses
 
 Committing to this repository requires [signing your commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) (`git config commit.gpgsign true`) unless you are making edits via the GitHub.com text editor interface. As of August 2022 the preferred signing method is [SSH commit signatures](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification), but GPG signing is also acceptable. You should add your signing key to your GitHub profile.
 
-This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdocs-material/insiders/) which offers additional functionality over the open-source `mkdocs-material` project. For obvious reasons we cannot distribute access to the insiders repository. Running this website locally without access to insiders is unsupported. If you are submitting a PR, please ensure the automatic preview generated for your PR looks correct, as that site will be built with the production insiders build.
+This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdocs-material/insiders) which offers additional functionality over the open-source `mkdocs-material` project. For obvious reasons we cannot distribute access to the insiders repository. Running this website locally without access to insiders is unsupported. If you are submitting a PR, please ensure the automatic preview generated for your PR looks correct, as that site will be built with the production insiders build.
 
 **Team members** should clone the repository with `mkdocs-material-insiders` directly. This method is identical to production:
 
@@ -104,7 +104,7 @@ If you commit to `main` with commits signed with your SSH key, you should add yo
 
 ### Local Translated Site Builds
 
-1. Install the [Crowdin CLI Tool](https://developer.crowdin.com/cli-tool/) (`brew install crowdin`)
+1. Install the [Crowdin CLI Tool](https://developer.crowdin.com/cli-tool) (`brew install crowdin`)
 2. Set the `CROWDIN_PERSONAL_TOKEN` environment variable to your Crowdin personal access token
 3. Run `crowdin download` in the root of this repo
 4. Serve the site locally: `pipenv run mkdocs serve --config-file config/mkdocs.fr.yml` (replacing the config file with any language in [/config](/config))
@@ -117,7 +117,7 @@ It is required to create a GitHub release to publish the current site to privacy
 
 1. Create a new tag: `git tag -s v3.X.X -m 'Some message'`
     - [View existing tags](https://github.com/privacyguides/privacyguides.org/tags)
-    - Tag [numbering](https://semver.org/): Increment the MINOR (2nd) number when making significant changes (adding/deleting pages, etc.), increment the PATCH (3rd) number when making minor changes (typos, bug fixes). Probably leave the MAJOR number at 3 until a massive revamp (v1 -> v2 was the Jekyll to MkDocs transition, v2 -> v3 was the introduction of translations).
+    - Tag [numbering](https://semver.org): Increment the MINOR (2nd) number when making significant changes (adding/deleting pages, etc.), increment the PATCH (3rd) number when making minor changes (typos, bug fixes). Probably leave the MAJOR number at 3 until a massive revamp (v1 -> v2 was the Jekyll to MkDocs transition, v2 -> v3 was the introduction of translations).
     - Consider enabling GPG tag signing by default (`git config tag.gpgSign true`) to avoid missing signatures
 2. Push the tag to GitHub: `git push --tags`
 3. A GitHub Release will be automatically created and deployed to the live site.

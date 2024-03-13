@@ -16,8 +16,8 @@ What we expect from members of our communities:
 
 2. **Do not abuse our willingness to help**
 
-      Our community members are not free tech support. We are happy to help with specific steps for individual's, privacy journey, if they are willing to put in effort. We are not obligated to answer endless, repetitive questions, about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires/).
-  
+      Our community members are not free tech support. We are happy to help with specific steps for individual's, privacy journey, if they are willing to put in effort. We are not obligated to answer endless, repetitive questions, about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires).
+
 3. **Behave in a positive and constructive manner**
 
       Examples of behavior that contributes to a positive environment for our community include:

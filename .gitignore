@@ -9,7 +9,7 @@ site
 # include Bagnard font in social card
 # (not available in Google Fonts)
 # ridiculous hide-and-seek https://stackoverflow.com/a/72380673
-/.cache/* 
+/.cache/*
 !/.cache/plugin
 /.cache/plugin/*
 !/.cache/plugin/social

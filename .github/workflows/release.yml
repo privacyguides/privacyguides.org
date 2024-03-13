@@ -43,7 +43,7 @@ jobs:
       - name: Push to production branch
         run: |
           git push origin HEAD:production
-  
+
   build:
     name: Create release packages
     runs-on: ubuntu-latest
@@ -61,7 +61,7 @@ jobs:
         with:
           python-version: '3.8'
           cache: 'pipenv'
-      
+
       - name: Cache files
         uses: actions/cache@v4.0.1
         with:
@@ -81,7 +81,7 @@ jobs:
         run: |
           pipenv run mkdocs build --config-file config/mkdocs-offline.yml
           pipenv run mkdocs --version
-      
+
       - name: Package website
         run: |
           tar -czvf offline.tar.gz site
@@ -92,13 +92,13 @@ jobs:
         with:
           name: offline.tar.gz
           path: offline.tar.gz
-      
+
       - name: Upload zip file
         uses: actions/upload-artifact@v4
         with:
           name: offline.zip
           path: offline.zip
-      
+
       - name: Create ZIM File
         uses: addnab/docker-run-action@v3
         with:
@@ -106,7 +106,7 @@ jobs:
           options: -v ${{ github.workspace }}:/data
           run: |
             zimwriterfs -w index.html -I assets/brand/PNG/Square/pg-yellow.png -l eng -t "Privacy Guides" -d "Your central privacy and security resource to protect yourself online." -c "Privacy Guides" -p "Jonah Aragon" -n "Privacy Guides" -e "https://github.com/privacyguides/privacyguides.org" /data/site /data/privacy_guides.zim
-      
+
       - name: Upload ZIM file
         uses: actions/upload-artifact@v4
         with:

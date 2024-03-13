@@ -21,7 +21,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentation}
 [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -83,7 +83,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 [:octicons-home-16: Homepage](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki/){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribute }
 
@@ -121,15 +121,15 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 **NetNewsWire** a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. It supports the typical feed formats alongside built-in support for Reddit feeds.
 
-[:octicons-home-16: Homepage](https://netnewswire.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentation}
+[:octicons-info-16:](https://netnewswire.com/help){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1480640210)
 - [:simple-apple: macOS](https://netnewswire.com)
 
 </details>
@@ -178,7 +178,7 @@ Reddit allows you to subscribe to subreddits via RSS.
 Replace `[SUBREDDIT]` with the subreddit you wish to subscribe to.
 
 ```text
-https://www.reddit.com/r/[SUBREDDIT]/new/.rss
+https://reddit.com/r/[SUBREDDIT]/new/.rss
 ```
 
 </div>
@@ -193,7 +193,7 @@ You can subscribe YouTube channels without logging in and associating usage info
 To subscribe to a YouTube channel with an RSS client, first look for its [channel code](https://support.google.com/youtube/answer/6180214). The channel code can be found on the about page of the YouTube channel you wish to subscribe to, under: **About** > **Share** > **Copy channel ID**. Replace `[CHANNEL ID]` below:
 
 ```text
-https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
+https://youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
 ```
 
 </div>
