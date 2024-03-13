@@ -2,9 +2,12 @@
 title: General Criteria
 ---
 
-!!! example "Work in Progress"
+<div class="admonition example" markdown>
+<p class="admonition-title">Work in Progress</p>
 
-    The following page is a work in progress, and does not reflect the full criteria for our recommendations at this time. Past discussion on this topic: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+The following page is a work in progress, and does not reflect the full criteria for our recommendations at this time. Past discussion on this topic: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+
+</div>
 
 Below are some things that must apply to all submissions to Privacy Guides. Each category will have additional requirements for inclusion.
 

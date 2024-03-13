@@ -8,54 +8,6 @@ Please join our localization room on Matrix ([#pg-i18n:aragon.sh](https://matrix
 
 Note that the English version of the site is the primary version, meaning changes occur there first. If you notice a language falling behind the English version, please help out. We cannot guarantee the accuracy of all our translations. If you have a suggestion about content specific to your region, please open an issue or pull request to our [main repository](https://github.com/privacyguides/privacyguides.org).
 
-## Admonitions
-
-Throughout the site we use MkDocs's [admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#usage), to show information to readers. They come in a few different flavors such as `example`, `warning`, `tip`, etc.
-
-When admonitions are used they will have an English string on the site by default. This can be [customized](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#changing-the-title), without too much effort. For example, if you were translating an admonition of type [`warning`](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#type:warning) to Dutch, this is how you would write it:
-
-=== "Dutch translation"
-
-    ```text
-    !!! warning "Waarschuwing"
-    ```
-
-=== "English source text"
-
-    ```text
-    !!! warning
-    ```
-
-Downloads are a [custom admonition](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#custom-admonitions) which is written as follows:
-
-=== "Dutch translation"
-
-    ```text
-    ??? downloads "Downloaden"
-    ```
-
-=== "English source text"
-
-    ```text
-    ??? downloads
-    ```
-
-The same goes for other types, such as `tip`, `example`, `warning`, `danger` etc.
-
-Recommendations are a special type of admonition which do **not** need overriding as they have no visible text, so they are never changed:
-
-=== "Dutch translation"
-
-    ```text
-    !!! recommendation
-    ```
-
-=== "English source text"
-
-    ```text
-    !!! recommendation
-    ```
-
 ## Translation output
 
 Translation software gets the translation quite accurate; however, you need to make sure the translated string is correct.

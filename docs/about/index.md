@@ -86,9 +86,11 @@ Our team members review all changes made to the website and handle administrativ
 
 ## Site License
 
-!!! danger ""
+<div class="admonition danger" markdown>
 
-    The following is a human-readable summary of (and not a substitute for) the [license](/license).
+The following is a human-readable summary of (and not a substitute for) the [license](/license).
+
+</div>
 
 :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). This means that you are free to copy and redistribute the material in any medium or format for any purpose, even commercially; as long as you give appropriate credit to `Privacy Guides (www.privacyguides.org)` and provide a link to the license. You may do so in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use. If you remix, transform, or build upon the content of this website, you may not distribute the modified material.
 

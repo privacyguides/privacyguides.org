@@ -14,9 +14,11 @@ Privacy Guides additionally does not warrant that this website will be constantl
 
 ## Licensing Overview
 
-!!! danger ""
+<div class="admonition danger" markdown>
 
-    The following is a human-readable summary of (and not a substitute for) the [license](/license).
+The following is a human-readable summary of (and not a substitute for) the [license](/license).
+
+</div>
 
 Unless otherwise noted, all **content** on this website is made available under the terms of the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). The underlying **source code** used to generate this website and display that content is released under the [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 
