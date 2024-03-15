@@ -122,6 +122,8 @@ BitLocker can be managed through the Control Panel: in the search box on the tas
 
 </div>
 
+To learn more about BitLocker and TPM, see "[Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection)" by ElcomSoft, a forensics company.
+
 In addition to the TPM, BitLocker can lock the normal startup process until the user supplies a pin or inserts a USB flash drive containing a startup key. Preboot authentication is designed to prevent the encryption keys from being loaded to system memory without the trusted user supplying another authentication factor. This feature helps mitigate direct memory access and memory remanence attacks.
 
 <details class="tip" markdown>
