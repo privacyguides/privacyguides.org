@@ -102,7 +102,9 @@ Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
 
 ## OS Full Disk Encryption
 
-For encrypting the drive your operating system boots from, we generally recommend enabling the encryption software that comes with your operating system rather than using a third-party tool. This is because your operating system's native encryption tools often make use of OS and hardware-specific features like the [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) in your device to protect your computer against more advanced physical attacks. For secondary drives and external drives which you *don't* boot from, we still recommend using open-source tools like [VeraCrypt](#veracrypt-disk) over the tools below, because they offer additional flexibility and let you avoid vendor lock-in.
+Full disk encryption (FDE) is a comprehensive data encryption solution, encompassing the operating system and system files. FDE principally leverages hardware security features, such as a [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor). Therefore, we recommend using the built-in FDE solutions for your operating system. For external drives, however, we still recommend open-source tools for additional flexibility and to avoid vendor lock-in.
+
+Note the terms full *disk* encryption and full *volume* encryption are often used interchangeably.
 
 ### BitLocker
 
@@ -110,7 +112,9 @@ For encrypting the drive your operating system boots from, we generally recommen
 
 ![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
 
-**BitLocker** is the full volume encryption solution bundled with Microsoft Windows. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection).
+Built into Windows and a proprietary solution, **BitLocker** provides full volume encryption to protect data at rest. BitLocker [leverages](https://learn.microsoft.com/en-us/windows/security/hardware-security/tpm/how-windows-uses-the-tpm#tpm-overview) the Trusted Platform Module (TPM) for hardware-based security, provided one is present. BitLocker is only officially supported on Pro, Enterprise and Education editions of Windows.
+
+BitLocker can be managed through the Control Panel: in the search box on the taskbar, type "Manage BitLocker" and then select it from the list of results.
 
 [:octicons-info-16:](https://learn.microsoft.com/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentation}
 
@@ -118,43 +122,77 @@ For encrypting the drive your operating system boots from, we generally recommen
 
 </div>
 
-BitLocker is [only supported](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on Pro, Enterprise and Education editions of Windows. It can be enabled on Home editions provided that they meet the prerequisites.
+In addition to the TPM, BitLocker can lock the normal startup process until the user supplies a pin or inserts a USB flash drive containing a startup key. Preboot authentication is designed to prevent the encryption keys from being loaded to system memory without the trusted user supplying another authentication factor. This feature helps mitigate direct memory access and memory remanence attacks.
+
+<details class="tip" markdown>
+<summary>Enabling preboot authentication</summary>
+
+1. Enable BitLocker on your operating system drive.
+2. Allow for preboot authentication:
+    1. Open the Group Policy Editor and navigate to:<br>
+    **Computer Configuration** → **Administrative Templates** → **Windows Components** → **BitLocker Drive Encryption** → **Operating System Drives**
+    2. Open and enable the setting "**Require Additional Authentication at Startup**."
+    3. Under "**Configure TPM Startup PIN**," select: "**Require Startup PIN With TPM**."
+3. Add a pin:
+    1. As an administrator, open a command prompt window.
+    2. Type and run:<br>
+        `manage-bde -protectors -add c: -TPMAndPIN`<br>
+        If necessary, replace `c:` with the drive letter of your operating system drive.
+    3. Type and confirm a pin of 6 to 20 characters (you won't see the characters as you type them).
+4. Check the preboot authentication status:
+    1. Type and run: `manage-bde -status`.
+    2. Check whether "**TPM and Pin**" is listed under "**Key Protectors**."
+
+- You can change your preboot pin at any time by running: `manage-bde -changepin c:`, again, replacing `c:` with the drive letter of your operating system drive.
+- To remove the preboot pin:
+    1. Configure the Group Policy "**Configure TPM Startup PIN**" back to "**Allow Startup PIN With TPM**".
+    2. Run: `manage-bde -protectors -add c: -TPM`.
+
+</details>
+
+While BitLocker is not officially supported on Windows Home, it can be enabled on Home editions with a few extra steps.
 
 <details class="example" markdown>
 <summary>Enabling BitLocker on Windows Home</summary>
 
-To enable BitLocker on "Home" editions of Windows, you must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module. You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
+#### Preliminary checks
 
-1. Open a command prompt and check your drive's partition table format with the following command. You should see "**GPT**" listed under "Partition Style":
-   ```powershell
-   powershell Get-Disk
-   ```
+- You must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table).
+- You must have a dedicated TPM (v1.2, 2.0+) module.
+- You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) if it is enabled.
+- This guide assumes the drive letter of your operating system drive is "C". If it is not, replace `c:` with the correct drive letter in the following commands.
 
-2. Run this command (in an admin command prompt) to check your TPM version. You should see `2.0` or `1.2` listed next to `SpecVersion`:
-   ```powershell
-   powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
-   ```
+<hr>
 
-3. Access [Advanced Startup Options](https://support.microsoft.com/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). You need to reboot while pressing the F8 key before Windows starts and go into the *command prompt* in **Troubleshoot** → **Advanced Options** → **Command Prompt**.
+1. Open a command prompt and check your drive's partition table format with the following command:
+    ```powershell
+    powershell Get-Disk
+    ```
+    You should see `GPT` in the partition style column.
+
+2. Run this command as an administrator to check your TPM version:
+    ```powershell
+    powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
+    ```
+    You should see either `2.0` or `1.2` listed next to `SpecVersion`.
+
+3. Access [Advanced Startup Options](https://support.microsoft.com/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617):
+    1. Press and hold the F8 key as your computer restarts. You need to press F8 before the Windows logo appears.
+    2. Once in the Advanced Startup Options recovery environment, navigate:<br>
+        **Troubleshoot** → **Advanced Options** → **Command Prompt**.
 4. Login with your admin account and type this in the command prompt to start encryption:
-   ```powershell
-   manage-bde -on c: -used
-   ```
-
-5. Close the command prompt and continue booting to regular Windows.
+    ```powershell
+    manage-bde -on c: -used
+    ```
+5. Close the command prompt and exit the recovery environment. Continue booting into Windows.
 6. Open an admin command prompt and run the following commands:
-   ```powershell
-   manage-bde c: -protectors -add -rp -tpm
-   manage-bde -protectors -enable c:
-   manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
-   ```
+    ```powershell
+    manage-bde c: -protectors -add -rp -tpm
+    manage-bde -protectors -enable c:
+    manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
+    ```
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
-
-Backup `BitLocker-Recovery-Key.txt` on your Desktop to a separate storage device. Loss of this recovery code may result in loss of data.
-
-</div>
+A recovery key will be saved to your desktop. Back up `BitLocker-Recovery-Key.txt` to a separate storage device.
 
 </details>
 
@@ -164,7 +202,9 @@ Backup `BitLocker-Recovery-Key.txt` on your Desktop to a separate storage device
 
 ![FileVault logo](assets/img/encryption-software/filevault.png){ align=right }
 
-**FileVault** is the on-the-fly volume encryption solution built into macOS. FileVault is recommended because it [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) hardware security capabilities present on an Apple silicon SoC or T2 Security Chip.
+Included in macOS and a proprietary solution, **FileVault** offers on-the-fly volume encryption to secure all data at rest. On Macs with Apple silicon or a T2 Security Chip, FileVault [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) the Secure Enclave and its hardware security capabilities.
+
+FileVault can be managed in the Privacy & Security section of System Settings.
 
 [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title=Documentation}
 
@@ -172,15 +212,18 @@ Backup `BitLocker-Recovery-Key.txt` on your Desktop to a separate storage device
 
 </div>
 
-We recommend storing a local recovery key in a secure place as opposed to using your iCloud account for recovery.
+We advise against using your iCloud account for recovery; instead, securely store a local recovery key on a separate storage device.
 
-### Linux Unified Key Setup
+### LUKS
 
 <div class="admonition recommendation" markdown>
 
 ![LUKS logo](assets/img/encryption-software/luks.png){ align=right }
 
-**LUKS** is the default FDE method for Linux. It can be used to encrypt full volumes, partitions, or create encrypted containers.
+**LUKS**, or Linux Unified Key Setup, is the open-source standard for Linux disk encryption. By providing a standardized on-disk format,
+it facilitates compatibility among distributions. LUKS can be used to encrypt full volumes, encrypt partitions, and create encrypted containers.
+
+LUKS can be [managed](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/FrequentlyAskedQuestions) with the `cryptsetup` command-line tool, however most Linux distributions provide a graphical interface for managing LUKS.
 
 [:octicons-home-16: Homepage](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
 [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=Documentation}
