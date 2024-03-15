@@ -160,41 +160,45 @@ While BitLocker is not officially supported on Windows Home, it can be enabled o
 #### Preliminary checks
 
 - You must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table).
-- You must have a dedicated TPM (v1.2, 2.0+) module.
+- You must have a TPM (v1.2, 2.0+) and it must be enabled.
 - You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) if it is enabled.
-- This guide assumes the drive letter of your operating system drive is "C". If it is not, replace `c:` with the correct drive letter in the following commands.
+- This guide assumes your computer has a typical disk configuration. If you have a non-standard configuration, such as a dual-boot setup, you may want to avoid this workaround.
+- This guide also assumes your operating system drive letter is "**C**". If it is not, you may need to replace `c:` with the correct drive letter.
 
 <hr>
 
-1. Open a command prompt and check your drive's partition table format with the following command:
+1. Open a command prompt window and check your drive's partition table format with the following command:
     ```powershell
     powershell Get-Disk
     ```
     You should see `GPT` in the partition style column.
 
-2. Run this command as an administrator to check your TPM version:
+2. As an administrator, run this command to check your TPM version:
     ```powershell
     powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
     ```
     You should see either `2.0` or `1.2` listed next to `SpecVersion`.
 
-3. Access [Advanced Startup Options](https://support.microsoft.com/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617):
-    1. Press and hold the F8 key as your computer restarts. You need to press F8 before the Windows logo appears.
-    2. Once in the Advanced Startup Options recovery environment, navigate:<br>
+3. Access the [Windows Recovery Environment](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-recovery-environment--windows-re--technical-reference):
+    1. Hold shift and click "**Restart**" in the start menu to restart your computer. Continue holding shift.<br>
+        Alternatively, press and hold the F8 key as your computer restarts. You will need to press F8 before the Windows logo appears, otherwise try again.
+    2. Once in the recovery environment environment, navigate:<br>
         **Troubleshoot** → **Advanced Options** → **Command Prompt**.
-4. Login with your admin account and type this in the command prompt to start encryption:
+4. In the command prompt window, run:
     ```powershell
     manage-bde -on c: -used
     ```
-5. Close the command prompt and exit the recovery environment. Continue booting into Windows.
-6. Open an admin command prompt and run the following commands:
+5. Close the command prompt window and exit the recovery environment; continue into Windows.
+6. Open a command prompt window as administrator and run:
     ```powershell
     manage-bde c: -protectors -add -rp -tpm
-    manage-bde -protectors -enable c:
-    manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
     ```
+    A recovery password will be displayed. **Securely save the recovery password to a separate storage device.**
 
-A recovery key will be saved to your desktop. Back up `BitLocker-Recovery-Key.txt` to a separate storage device.
+7. Lastly, run:
+    ```powershell
+    manage-bde -protectors -enable c:
+    ```
 
 </details>
 
