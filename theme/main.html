@@ -54,6 +54,9 @@
     {% endif %}
     <link rel="icon" href="{{ config.theme.favicon | url }}">
     <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-material-9.1.0+insiders-4.32.2">
+    {% if page %}
+    <meta name="global-data" id="global-data" {% for data in page.meta.global %}data-{{ data.0 }}="{{data.1}}"{% endfor %}>
+    {% endif %}
 {% endblock %}
 {% block htmltitle %}
     {% if page.meta and page.meta.meta_title and config.theme.language == "en" %}
@@ -68,19 +71,19 @@
 {% endblock %}
 {% block announce %}{% if config.extra.offline %}
     You're viewing an offline copy of Privacy Guides built on {{ build_date_utc }}.
-    <a href="https://www.privacyguides.org/"> 
+    <a href="https://www.privacyguides.org/">
     <strong>Visit privacyguides.org for the latest version.</strong>
     </a>
 {% elif config.extra.context == "deploy-preview" %}
     You're viewing an <strong>unreviewed preview</strong> of Privacy Guides built on {{ build_date_utc }}.
     These previews are <strong>user-submitted</strong> and may not necessarily reflect the opinion of the site.
-    <a href="https://www.privacyguides.org/"> 
+    <a href="https://www.privacyguides.org/">
     <strong>Visit privacyguides.org for current advice.</strong>
     </a>
 {% elif config.extra.context == "branch-deploy" %}
     You're viewing a <strong>staging branch</strong> of Privacy Guides built on {{ build_date_utc }}.
     The information on this page may be incomplete or otherwise not yet meet our editorial release standards.
-    <a href="https://www.privacyguides.org/"> 
+    <a href="https://www.privacyguides.org/">
     <strong>Visit privacyguides.org for current advice.</strong>
     </a>
 {% else %}{% endif %}{% endblock %}
