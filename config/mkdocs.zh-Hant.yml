@@ -104,6 +104,7 @@ nav:
     - 提供者:
       - 'cloud.md'
       - 'dns.md'
+      - 'email-aliasing.md'
       - 'email.md'
       - 'financial-services.md'
       - 'photo-management.md'

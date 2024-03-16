@@ -119,6 +119,7 @@ nav:
       - 'cloud.md'
       - 'dns.md'
       - 'email.md'
+      - 'email-aliasing.md'
       - 'financial-services.md'
       - 'photo-management.md'
       - 'search-engines.md'
