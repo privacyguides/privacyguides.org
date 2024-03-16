@@ -112,7 +112,7 @@ Note the terms full *disk* encryption and full *volume* encryption are often use
 
 ![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
 
-Built into Windows and a proprietary solution, **BitLocker** provides full volume encryption to protect data at rest. BitLocker [leverages](https://learn.microsoft.com/en-us/windows/security/hardware-security/tpm/how-windows-uses-the-tpm#tpm-overview) the Trusted Platform Module (TPM) for hardware-based security, provided one is present. BitLocker is only officially supported on Pro, Enterprise and Education editions of Windows.
+**BitLocker**, a proprietary solution built into Windows, provides full volume encryption to protect data at rest. BitLocker [leverages](https://learn.microsoft.com/en-us/windows/security/hardware-security/tpm/how-windows-uses-the-tpm#tpm-overview) the Trusted Platform Module (TPM) for hardware-based security, provided one is present. BitLocker is only officially supported on Pro, Enterprise and Education editions of Windows.
 
 BitLocker can be managed through the Control Panel: in the search box on the taskbar, type "Manage BitLocker" and then select it from the list of results.
 
@@ -208,7 +208,7 @@ While BitLocker is not officially supported on Windows Home, it can be enabled o
 
 ![FileVault logo](assets/img/encryption-software/filevault.png){ align=right }
 
-Included in macOS and a proprietary solution, **FileVault** offers on-the-fly volume encryption to secure all data at rest. On Macs with Apple silicon or a T2 Security Chip, FileVault [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) the Secure Enclave and its hardware security capabilities.
+**FileVault**, a proprietary solution integrated into macOS, offers on-the-fly volume encryption to secure all data at rest. On Macs with Apple silicon or a T2 Security Chip, FileVault [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) the Secure Enclave and its hardware security capabilities.
 
 FileVault can be managed in the Privacy & Security section of System Settings.
 
