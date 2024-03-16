@@ -145,11 +145,18 @@ These options can be found in :material-menu: → **Settings**
 
 #### Search
 
-- [ ] Uncheck **Provide search suggestions**
+- [ ] Uncheck **Show search suggestions**
 
 Search suggestion features may not be available in your region.
 
 Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+
+##### Firefox Suggest (US only)
+
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+
+- [ ] Uncheck **Suggestions from Firefox**
+- [ ] Uncheck **Suggestions from sponsors**
 
 #### Privacy & Security
 
@@ -158,13 +165,6 @@ Search suggestions send everything you type in the address bar to the default se
 - [x] Select **Strict** Enhanced Tracking Protection
 
 This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
-
-##### Firefox Suggest (US only)
-
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
-
-- [ ] Uncheck **Suggestions from the web**
-- [ ] Uncheck **Suggestions from sponsors**
 
 ##### Sanitize on Close
 
