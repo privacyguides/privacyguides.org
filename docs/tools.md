@@ -80,6 +80,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 - ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
 - ![Tresorit logo](assets/img/cloud/tresorit.svg){ .twemoji } [Tresorit](cloud.md#tresorit)
+- ![Peergos logo](assets/img/cloud/peergos.svg){ .twemoji } [Peergos](cloud.md#peergos)
 
 </div>
 
@@ -406,6 +407,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 <div class="grid cards" markdown>
 
 - ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji } [Nextcloud (Self-Hostable)](productivity.md#nextcloud)
+- ![Peergos logo](assets/img/productivity/peergos.svg){ .twemoji } [Peergos](productivity.md#peergos)
 - ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ .twemoji } [LibreOffice](productivity.md#libreoffice)
 - ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ .twemoji } [OnlyOffice](productivity.md#onlyoffice)
 - ![CryptPad logo](assets/img/productivity/cryptpad.svg){ .twemoji } [CryptPad](productivity.md#cryptpad)
