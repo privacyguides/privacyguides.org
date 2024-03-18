@@ -38,7 +38,7 @@ With Monero, outside observers cannot decipher addresses trading Monero, transac
 For optimal privacy, make sure to use a noncustodial wallet where the view key stays on the device. This means that only you will have the ability to spend your funds and see incoming and outgoing transactions. If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your private view key, the provider can see almost everything you do. Some noncustodial wallets include:
 
 - [Official Monero client](https://getmonero.org/downloads) (Desktop)
-- [Cake Wallet](https://cakewallet.com) (iOS, Android)
+- [Cake Wallet](https://cakewallet.com) (iOS, Android, macOS, Linux BETA)
     - Cake Wallet supports multiple cryptocurrencies. A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com).
 - [Feather Wallet](https://featherwallet.org) (Desktop)
 - [Monerujo](https://monerujo.io) (Android)
