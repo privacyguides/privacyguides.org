@@ -93,6 +93,7 @@ nav:
       - 'os/ios-overview.md'
       - 'os/linux-overview.md'
       - 'os/macos-overview.md'
+      - 'os/windows-overview.md'
       - 'os/qubes-overview.md'
     - kb-archive.md
   - Recommendations:
