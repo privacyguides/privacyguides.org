@@ -26,7 +26,7 @@ TBC
 - If available, set Thunderbolt Security Settings to the highest level.
 - Be sure to set a firmware password.
 - Configure Boot Sequence to exclusively boot from your hard drive while disabling all other items, if accessible.
-- Enable TPM and designate Microsoft Pluton as default if applicable.
+- Enable Trusted Platform Module (TPM) and designate Microsoft Pluton as default if applicable.
 
 ## Operating System Security
 
@@ -36,7 +36,7 @@ Use Windows 11 Enterprise, version 23H2 as your operating system.
 
 ### Out-of-Box-Experience (OOBE)
 
-- Select your region to EEA and allow optional diagnostic data.
+- Select your region to European Economic Area (EEA) or Switzerland and allow optional diagnostic data.
 - Use a local account instead of a Microsoft account.
 - After OOBE, turn on Smart App Control in Windows Security → App & Browser Control → Smart App Control.
 
@@ -87,4 +87,4 @@ Set-ExecutionPolicy -Scope Process Unrestricted
 ```
 - Respond with `R` to run the script once you receive a security warning.
 
-### Security Baselines
+### 
