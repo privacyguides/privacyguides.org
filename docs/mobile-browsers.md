@@ -130,6 +130,25 @@ Brave allows you to select additional content filters within the internal `brave
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
+### Vanadium (GrapheneOS)
+
+!!! recommendation
+
+    ![Vanadium logo](assets/img/browsers/vanadium.svg){ align=right }
+
+    **Vanadium** is the default browser that is included with [GrapheneOS](../android.md#grapheneos), it includes a number of [patches](https://github.com/GrapheneOS/Vanadium/tree/main/patches) which assist in improving security and privacy of WebView.
+
+    Vanadium is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+
+    [:octicons-home-16: Homepage](https://vanadium.app){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://github.com/GrapheneOS/Vanadium){ .card-link title="Source Code" }
+
+#### Adblocking
+
+Currently the only way to block ads with Vanadium is to set a [DNS Resolver](../dns.md) that has this functionality. The option for that can be found in :material-dots-vertical: → **Settings** → **Privacy and security**. If you're using a VPN we suggest using your VPN provider's server.
+
+- [x] Select **Use secure DNS** > **Choose another provider**
+
 ## iOS
 
 On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so there is little reason to use a third-party web browser.
