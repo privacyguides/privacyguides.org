@@ -20,9 +20,9 @@ TBC
 
 ### Firmware Settings
 
-- Turn on Secure Boot and, if applicable, disable the third-party Microsoft UEFI CA. 
-- Turn on Virtualization settings.
-- Turn on Dynamic Root of Trust for Measurement (DRTM).
+- Enable Secure Boot and, if applicable, disable the third-party Microsoft UEFI CA. 
+- Enable Virtualization settings.
+- Enable Dynamic Root of Trust for Measurement (DRTM).
 - If available, set Thunderbolt Security Settings to the highest level.
 - Be sure to set a firmware password.
 - Configure Boot Sequence to exclusively boot from your hard drive while disabling all other items, if accessible.
@@ -38,7 +38,7 @@ Use Windows 11 Enterprise, version 23H2 as your operating system.
 
 - Select your region to European Economic Area (EEA) or Switzerland and allow optional diagnostic data.
 - Use a local account instead of a Microsoft account.
-- After OOBE, turn on Smart App Control in Windows Security → App & Browser Control → Smart App Control.
+- After OOBE, enable Smart App Control in Start → Windows Security → App & Browser Control → Smart App Control.
 
 <details class="note" markdown>
 <summary>Activate Windows Enterprise</summary>
@@ -87,4 +87,41 @@ Set-ExecutionPolicy -Scope Process Unrestricted
 ```
 - Respond with `R` to run the script once you receive a security warning.
 
-### 
+### Application Security
+
+Smart App Control can check the security of apps while they are running. You should enable Smart App Control in Start → Windows Security → App & Browser Control → Smart App Control.
+
+Most applications on Windows are not sandboxed. 
+
+### Device Encryption
+
+BitLocker is a disk encryption feature. Before enabling Bitlocker, you should configure it to use stronger encryption methods as well as allow for more secure unlocking methods:
+
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\BitLocker Drive Encryption\Choose drive encryption method and cipher strength (Windows 10 [Version 1511] and later)` and set the options to `XTS-AES 256-bit`, `XTS-AES 256-bit`, `AES-CBC 256-bit` respectively.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\BitLocker Drive Encryption\Operating System Drives\Require additional authentication at startup` and set the options to unchecked, `Allow TPM`, `Allow startup PIN with TPM`, `Allow startup key with TPM` and `Allow startup key and PIN with TPM` respectively.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\BitLocker Drive Encryption\Operating System Drives\Allow enhanced PINs for startup`.
+
+You should enable Bitlocker in Start → Windows Security → Device Security → Data Encryption. You should set a strong PIN for BitLocker and encrypt the entire disk space.
+
+### Windows Defender
+
+- Enable all options in Start → Windows Security → App & Browser Control → Reputation Based Protection.
+- Enable all options in Start → Windows Security → App & Browser Control → Exploit Protection → System Settings.
+- Enable all options in Start → Windows Security → Virus & Threat Protection.
+- Enable `Block all inbound connections` options in Start → Windows Security → Firewall and Network Protection → Public Network/Private Network/Domain Network.
+- Check if `Memory access protection` is displayed in Start → Windows Security → Device Security → Core Isolation. If not, enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\BitLocker Drive Encryption\Disable new DMA devices when this computer is locked`.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus\Scan\Turn on e-mail scanning`.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus\Scan\Scan removable drives`.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus\Scan\Scan network files`.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus\Scan\Run full scan on mapped network drives`.
+
+### Account Security
+
+You should use a standard account for daily tasks.
+
+### Developer Mode
+
+- Disable Developer Mode in Start → Settings → System → Developer Options → Developer Mode.
+- Disable Remote Desktop in Start → Settings → System → Developer Options → Remote Desktop.
+- Enable all options in Start → Settings → System → Developer Options → File Explorer Settings.
+
