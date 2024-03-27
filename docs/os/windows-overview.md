@@ -81,10 +81,10 @@ cscript slmgr.vbs /ato
 - [Download](https://www.microsoft.com/en-us/download/details.aspx?id=55319) the following files: `Windows 11 v23H2 Security Baseline.zip` and `LGPO.zip`.
 - Unzip both files. In `LGPO\LGPO_30`, copy `LGPO.exe` to `Windows 11 v23H2 Security Baseline\Scripts\Tools`.
 - In `Windows 11 v23H2 Security Baseline\Scripts`, execute the following command from an elevated command prompt:
-```
-Set-ExecutionPolicy -Scope Process Unrestricted
-.\Baseline-LocalInstall.ps1 -Win11NonDomainJoined
-```
+  ```
+  Set-ExecutionPolicy -Scope Process Unrestricted
+  .\Baseline-LocalInstall.ps1 -Win11NonDomainJoined
+  ```
 - Respond with `R` to run the script once you receive a security warning.
 
 ### Application Security
@@ -114,10 +114,13 @@ You should enable Bitlocker in Start → Windows Security → Device Security �
 - Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus\Scan\Scan removable drives`.
 - Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus\Scan\Scan network files`.
 - Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus\Scan\Run full scan on mapped network drives`.
+- Execute `setx /M MP_FORCE_USE_SANDBOX 1` from an elevated command prompt.
 
 ### Account Security
 
 You should use a standard account for daily tasks.
+
+You can also use Windows Sandbox to run untrusted apps. Enable Windows Sandbox in Start → Settings → System → Optional Fetures → More Windows Features. Open Windows Sandbox in Start → Windows Sandbox. You can transfer files and apps into Windows Sandbox by copying them.
 
 ### Developer Mode
 
@@ -125,3 +128,46 @@ You should use a standard account for daily tasks.
 - Disable Remote Desktop in Start → Settings → System → Developer Options → Remote Desktop.
 - Enable all options in Start → Settings → System → Developer Options → File Explorer Settings.
 
+### Additional Attack Surface Reduction Measures
+
+- Disable Remote Assistance. In the search box on the taskbar, type `remote assistance`, and then select `Allow Remote Assistance invitations to be sent from this computer` from the list of results. Then, on the `Remote` tab, unselect the Allow Remote Assistance connections to this computer check box, and then select OK.
+- Add additional attack surface reduction rules and set them to warn mode. Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack surface reduction\Configure Attack Surface Reduction rules`. Select `Show...` and add the following [rule IDs](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-reference?view=o365-worldwide#asr-rule-to-guid-matrix) in the Value Name column. Then change the status of all rules to 6 in the Value column.
+  ```
+  56a863a9-875e-4185-98a7-b882c64b5ce5
+  d1e49aac-8f56-4280-b9ba-993a6d77406c
+  01443614-cd74-433a-b99e-2ecdc07bfc25
+  ```
+- Execute the following command from an elevated command prompt:
+  ```
+  reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 0 /f
+  reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa" /v DisableRestrictedAdmin /t REG_DWORD /d 0 /f
+  reg add "HKEY_LOCAL_MACHINE\Software\Microsoft\Cryptography\Wintrust\Config" /v EnableCertPaddingCheck /t REG_DWORD /d 1 /f
+  reg add "HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Cryptography\Wintrust\Config" /v EnableCertPaddingCheck /t REG_DWORD /d 1 /f
+  reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole\AppCompat\OLELinkConversionFromOLESTREAMToIStorage" /v Disabled /t REG_DWORD /d 1 /f
+  ```
+- Enable [additional mitigations](https://support.microsoft.com/en-us/topic/kb4073119-windows-client-guidance-for-it-pros-to-protect-against-silicon-based-microarchitectural-and-speculative-execution-side-channel-vulnerabilities-35820a8a-ae13-1299-88cc-357f104f5b11) against silicon-based microarchitectural and speculative execution side-channel vulnerabilities without disabling Hyper-Threading (also known as Simultaneous Multi Threading (SMT)) by executing the following command from an elevated command prompt.
+  ```
+  reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v FeatureSettingsOverride /t REG_DWORD /d 72 /f 
+  reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v FeatureSettingsOverrideMask /t REG_DWORD /d 3 /f
+  reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization" /v MinVmVersionForCpuBasedMitigations /t REG_SZ /d "1.0" /f
+  reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization" /v RetsPredictedFromRsbOnly /t REG_DWORD /d 1 /f
+  ```
+  Enable additional mitigations against silicon-based microarchitectural and speculative execution side-channel vulnerabilities with Hyper-Threading disabled by executing the following command from an elevated command prompt.
+  ```
+  reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v FeatureSettingsOverride /t REG_DWORD /d 8264 /f 
+  reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v FeatureSettingsOverrideMask /t REG_DWORD /d 3 /f
+  reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization" /v MinVmVersionForCpuBasedMitigations /t REG_SZ /d "1.0" /f
+  reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization" /v RetsPredictedFromRsbOnly /t REG_DWORD /d 1 /f
+  ```
+  
+## Privacy Settings
+
+Windows collects [three categories](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1iLkl) of personal data: Windows Diagnostic Data, Account Data, and Windows Required Service Data. 
+
+### Windows Diagnostic Data
+
+Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Data Collection And Preview Builds\Allow Diagnostic Data` and set it to `Diagnostic data off (not recommended)`.
+
+### Account Data
+
+Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Data Collection And Preview Builds\Allow Diagnostic Data` and set it to `Diagnostic data off (not recommended)`.
