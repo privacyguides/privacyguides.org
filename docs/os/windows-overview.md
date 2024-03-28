@@ -95,7 +95,6 @@ A security baseline is a group of Microsoft-recommended configuration settings t
   Set-ExecutionPolicy -Scope Process Unrestricted
   .\Baseline-LocalInstall.ps1 -Win11NonDomainJoined
   ```
-- Respond with `R` to run the script once you receive a security warning.
 
 You can track security baseline updates using [this](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=Microsoft-Security-Baselines) RSS feed.
 
@@ -121,7 +120,8 @@ Windows include Windows Security, which provides the latest antivirus protection
 
 - Enable all options in Start → Windows Security → App & Browser Control → Reputation Based Protection.
 - Enable all options in Start → Windows Security → App & Browser Control → Exploit Protection → System Settings.
-- Enable all options in Start → Windows Security → Virus & Threat Protection.
+- Enable all options in Start → Windows Security → Virus & Threat Protection → Virus & Threat Protection Settings.
+- Enable the option in Start → Windows Security → Virus & Threat Protection → Ransomware Protection → Controlled Folder Access.
 - Enable `Block all inbound connections` options in Start → Windows Security → Firewall and Network Protection → Public Network/Private Network/Domain Network.
 - Check if `Memory access protection` is displayed in Start → Windows Security → Device Security → Core Isolation. If not, enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\BitLocker Drive Encryption\Disable new DMA devices when this computer is locked`.
 - Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus\Scan\Turn on e-mail scanning`.
@@ -141,9 +141,9 @@ You can hide your account info when logging in by enabling the Group Policy `Com
 ### Network & Bluetooth Security
 
 - Disable all options in Start → Settings → Network & Internet → Advanced Network Setings → Private Networks/Public Networks. Set options in Start → Settings → Network & Internet → Advanced Network Setings → All Networks to disable public folder sharing, use 128-bit encryption and enable password protected sharing.
-- Enable MAC Address Randomization in Start → Settings → Network & Internet → WLAN → Random Hardware Addresses and set the option in Start → Settings → Network & Internet → WLAN → Your Network Display Name → Random Hardware Addresses to `Change every day`.
+- Enable MAC Address Randomization in Start → Settings → Network & Internet → WLAN → Random Hardware Addresses and set the option in Start → Settings → Network & Internet → WLAN → (Your Network Display Name) → Random Hardware Addresses to `Change every day`.
 - Turn off Bluetooth when not in use. Disable device discovery in Start → Settings → Devices → Bluetooth & Other devices → More Bluetooth Options.
-- Set your encrypted DNS in Start → Settings → Network & Internet → WLAN → Your Network Display Name → DNS Server Assignment → Edit → Manual.
+- Set your encrypted DNS in Start → Settings → Network & Internet → WLAN → (Your Network Display Name) → DNS Server Assignment → Edit → Manual.
 
 ### Developer Mode
 
@@ -156,7 +156,8 @@ You can hide your account info when logging in by enabling the Group Policy `Com
 In addition to the security baselines, there are some additional attack surface reduction measures.
 
 - Disable Remote Assistance. In the search box on the taskbar, type `remote assistance`, and then select `Allow Remote Assistance invitations to be sent from this computer` from the list of results. Then, on the `Remote` tab, unselect the Allow Remote Assistance connections to this computer check box, and then select OK.
-- - Uninstall features you won't use like Internet Explorer mode in Start → Settings → System → Optional Fetures and Start → Settings → System → Optional Fetures → More Windows Features.
+- Uninstall features you won't use like Internet Explorer mode in Start → Settings → System → Optional Fetures and Start → Settings → System → Optional Fetures → More Windows Features.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\MS Security Guide\Enable Certificate Padding`.
 - Add additional attack surface reduction rules and set them to warn mode. Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack surface reduction\Configure Attack Surface Reduction rules`. Select `Show...` and add the following [rule IDs](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-reference?view=o365-worldwide#asr-rule-to-guid-matrix) in the Value Name column. Then change the status of all rules to 6 in the Value column.
   ```
   56a863a9-875e-4185-98a7-b882c64b5ce5
@@ -165,10 +166,7 @@ In addition to the security baselines, there are some additional attack surface 
   ```
 - Execute the following command from an elevated command prompt:
   ```
-  reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 0 /f
   reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa" /v DisableRestrictedAdmin /t REG_DWORD /d 0 /f
-  reg add "HKEY_LOCAL_MACHINE\Software\Microsoft\Cryptography\Wintrust\Config" /v EnableCertPaddingCheck /t REG_DWORD /d 1 /f
-  reg add "HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Cryptography\Wintrust\Config" /v EnableCertPaddingCheck /t REG_DWORD /d 1 /f
   reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole\AppCompat\OLELinkConversionFromOLESTREAMToIStorage" /v Disabled /t REG_DWORD /d 1 /f
   ```
 - Enable [additional mitigations](https://support.microsoft.com/en-us/topic/kb4073119-windows-client-guidance-for-it-pros-to-protect-against-silicon-based-microarchitectural-and-speculative-execution-side-channel-vulnerabilities-35820a8a-ae13-1299-88cc-357f104f5b11) against silicon-based microarchitectural and speculative execution side-channel vulnerabilities without disabling Hyper-Threading (also known as Simultaneous Multi Threading (SMT)) by executing the following command from an elevated command prompt.
@@ -196,7 +194,7 @@ Enable the Group Policy `Computer Configuration\Administrative Templates\Windows
 
 ### Account Data
 
-Use local accounts instead of online accounts like Microsoft accounts to sign in to your devices and enable the Group Policy `Computer Configuration\Windows Settings\Security Settings\Local Policies\Security Options\Accounts: Block Microsoft accounts` and set it to `Users can’t add Microsoft accounts`. You can still log on apps likw Microsoft Store with Microsoft accounts. If you have logged on apps using a Microsoft account, you can limit its use in Start → Settings → Accounts → Email & accounts → Your Microsoft Account and select the option to `Apps need to ask me to use this account`. You can also enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Microsoft account\Only allow device authentication for the Microsoft Account Sign-In Assistant`.
+Use local accounts instead of online accounts like Microsoft accounts to sign in to your devices and enable the Group Policy `Computer Configuration\Windows Settings\Security Settings\Local Policies\Security Options\Accounts: Block Microsoft accounts` and set it to `Users can’t add Microsoft accounts`. You can still log on apps likw Microsoft Store with Microsoft accounts. If you have logged on apps using a Microsoft account, you can limit its use in Start → Settings → Accounts → Email & accounts → (Your Microsoft Account) and select the option to `Apps need to ask me to use this account`.
 
 <details class="warning" markdown>
 <summary>Warning</summary>
@@ -238,16 +236,28 @@ Some Required Service Data is necessary for Windows security and should be retai
 
 ## Microsoft Edge
 
-- [Download]([https://www.microsoft.com/en-us/download/details.aspx?id=55319](https://www.microsoft.com/en-us/edge/business/download)) the Microsoft Edge policy and unzip the file.
-- Copy `MicrosoftEdgePolicyTemplates.cab\MicrosoftEdgePolicyTemplates.zip\windows\admx\msedge.admx` to `C:\Windows\PolicyDefinitions`. Copy `MicrosoftEdgePolicyTemplates.cab\MicrosoftEdgePolicyTemplates.zip\windows\admx\msedge.admx\Your locale ID\msedge.adml` to `C:\Windows\PolicyDefinitions\Your locale ID`.
+- [Download](https://www.microsoft.com/en-us/edge/business/download) the Microsoft Edge policy and unzip the file.
+- Copy `MicrosoftEdgePolicyTemplates.cab\MicrosoftEdgePolicyTemplates.zip\windows\admx\msedge.admx` to `C:\Windows\PolicyDefinitions`. Copy `MicrosoftEdgePolicyTemplates.cab\MicrosoftEdgePolicyTemplates.zip\windows\admx\msedge.admx\(Your locale ID)\msedge.adml` to `C:\Windows\PolicyDefinitions\(Your locale ID)`.
 - You can track security baseline updates using [this](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=Microsoft-Security-Baselines) RSS feed.
 
 ### Microsoft Edge Security
 
+- [Download](https://www.microsoft.com/en-us/download/details.aspx?id=55319) the following files: `Microsoft Edge v117 Security Baseline.zip` and `LGPO.zip`.Unzip both files. In `LGPO\LGPO_30`, copy `LGPO.exe` to `Microsoft Edge v117 Security Baseline\Scripts\Tools`. In `Microsoft Edge v117 Security Baseline\Scripts`, execute the following command from an elevated command prompt:
+  ```
+  Set-ExecutionPolicy -Scope Process Unrestricted
+  .\Baseline-LocalInstall.ps1
+  ```
 - Enable the option(s) `Microsoft Defender SmartScreen` in `edge://settings/privacy`.
 - Enable the option(s) `Block potentially unwanted apps` in `edge://settings/privacy`.
 - Enable the option(s) `Website typo protection` in `edge://settings/privacy`.
 - Enable the option(s) `Enhance your security on the web` in `edge://settings/privacy` and set it to `Strict`.
+- Enable the option(s) `Allow extensions from other stores` in `edge://extensions/`. Prioritize installing extensions from Chrome Web Store, as Chrome Web Store more aggressively uses Manifest V3.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Configure browser process code integrity guard setting` and set it to `Enable code integrity guard enforcement in the browser process`.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Enable online OCSP/CRL checks`.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Enable the network service sandbox`.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Restrict exposure of local IP address by WebRTC` and set it to `Use TCP unless proxy server supports UDP`.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Configure Automatic HTTPS` and set it to `All navigations delivered over HTTP are switched to HTTPS`.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Control the mode of DNS-over-HTTPS` and set it to `Enable DNS-over-HTTPS without insecure fallback`. Configure the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Specify URI template of desired DNS-over-HTTPS resolver` according to your needs.
 
 ### Microsoft Edge Privacy
 
@@ -271,3 +281,52 @@ For required service data:
 - Disable all option(s) under the `Services` section in `edge://settings/privacy`.
 - Disable the option(s) `Show me search and site suggestions using my typed characters` in `edge://settings/searchFilters`.
 - Disable the option(s) `Show me suggestions from history, favorites and other data on this device using my typed characters` in `edge://settings/searchFilters`.
+- Disable the option(s) `Personalize my top sites in customize sidebar` in `edge://settings/sidebar`.
+- Disable the option(s) `Allow Microsoft to access page content` and `Show shopping notifications` in `edge://settings/sidebar/appSettings?hubApp=cd4688a9-e888-48ea-ad81-76193d56b1be`.
+- Disable the option(s) `Allow access to page URLs` in `edge://settings/sidebar/appSettings?hubApp=96defd79-4015-4a32-bd09-794ff72183ef`.
+- Disable the option(s) `Preload your new tab page for a faster experience` in `edge://settings/startHomeNTP`.
+- Configure the option(s) `Customize your new tab page layout and content` in `edge://settings/startHomeNTP` according to your needs.
+- Enable the option(s) `Block third-party cookies` in `edge://settings/content/cookies`.
+- Disable the option(s) `Preload pages for faster browsing and searching` in `edge://settings/content/cookies`.
+- Disable the option(s) `Use text prediction` in `edge://settings/languages`.
+- Disable the option(s) `Enable grammar and spellcheck assistance` or enable it with `Basic` in `edge://settings/languages`.
+- Configure the option(s) `Share additional operating system region` to `Never` in `edge://settings/languages`.
+- Disable the option(s) `Get image descriptions from Microsoft for screen readers` in `edge://settings/accessibility`.
+- Disable the option(s) `Allow identifiers for protected content (computer restart may be required)` in `edge://settings/content/protectedContent`.
+- Configure `edge://flags/#edge-widevine-drm` according to your needs.
+- Disable the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Enables default browser settings campaigns`.
+- Disable the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Edge 3P SERP Telemetry Enabled`.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Enable network prediction` and set it to `Don’t predict network actions on any network connection`.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Secure mode and Certificate-based Digital Signature validation in native PDF reader`.
+- Disable the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Content settings\Choose whether users can receive customized background images and text, suggestions, notifications, and tips for Microsoft services`.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Configure InPrivate mode availability` and set it to `Forced`.
+
+  <details class="warning" markdown>
+  <summary>Warning</summary>
+
+  Setting `Configure InPrivate mode availability` to `Forced` will prevent you from accessing `edge://settings`.
+
+  </details>
+
+- If you are using others’ PC, use Guest mode in Profile icon → Other profiles → Browse as guest.
+
+## Office
+
+- [Download](https://www.microsoft.com/en-us/download/details.aspx?id=49030) the Office policy and execute it to extract files.
+- Copy `(Extracted Files)\admx\(Your Office Apps).admx` to `C:\Windows\PolicyDefinitions`. Copy `(Extracted Files)\admx\(Your locale ID)\(Your Office Apps).adml` to `C:\Windows\PolicyDefinitions\(Your locale ID)`.
+- You can track security baseline updates using [this](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=Microsoft-Security-Baselines) RSS feed.
+
+### Office Security
+
+- [Download](https://www.microsoft.com/en-us/download/details.aspx?id=55319) the following files: `Microsoft 365 Apps for Enterprise 2306.zip` and `LGPO.zip`.Unzip both files. In `LGPO\LGPO_30`, copy `LGPO.exe` to `Microsoft 365 Apps for Enterprise 2306\Scripts\Tools`. In `Microsoft 365 Apps for Enterprise 2306\Scripts`, execute the following command from an elevated command prompt:
+  ```
+  Set-ExecutionPolicy -Scope Process Unrestricted
+  .\Baseline-LocalInstall.ps1
+  ```
+### Office Privacy
+
+For diagnostic data, enable the Group Policy `User Configuration\Administrative Templates\Microsoft Office 2016\Privacy\Trust Center\Configure the level of client software diagnostic data sent by Office to Microsoft` and set the option to `Neither`.
+
+For account data, enable the Group Policy `User Configuration\Administrative Templates\Microsoft Office 2016\MiscellaneousBlock signing into Office`.
+
+For required service data, disable the Group Policy `User Configuration\Administrative Templates\Microsoft Office 2016\Privacy\Trust Center\Allow the use of connected experiences in Office` and `User Configuration\Administrative Templates\Microsoft Office 2016\Privacy\Trust Center\Enable Customer Experience Improvement Program`.
