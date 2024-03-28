@@ -43,7 +43,7 @@ extra:
 theme:
   language: en
   # this logo needs to be set separately because the relative path is different
-  logo: ../theme/assets/brand/SVG/Logo/privacy-guides-logo-notext-colorbg.svg
+  logo: ../theme/assets/brand/logos/svg/logo/privacy-guides-logo-notext-colorbg.svg
   font:
     text: Public Sans
     code: DM Mono
@@ -82,7 +82,7 @@ plugins:
 
 markdown_extensions:
   pymdownx.snippets:
-    auto_append: 
+    auto_append:
       - includes/abbreviations.en.txt
 
 nav:

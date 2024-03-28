@@ -105,7 +105,7 @@ jobs:
           image: ghcr.io/openzim/zim-tools:3.1.3
           options: -v ${{ github.workspace }}:/data
           run: |
-            zimwriterfs -w index.html -I assets/brand/PNG/Square/pg-yellow.png -l eng -t "Privacy Guides" -d "Your central privacy and security resource to protect yourself online." -c "Privacy Guides" -p "Jonah Aragon" -n "Privacy Guides" -e "https://github.com/privacyguides/privacyguides.org" /data/site /data/privacy_guides.zim
+            zimwriterfs -w index.html -I assets/brand/logos/png/square/pg-yellow.png -l eng -t "Privacy Guides" -d "Your central privacy and security resource to protect yourself online." -c "Privacy Guides" -p "Jonah Aragon" -n "Privacy Guides" -e "https://github.com/privacyguides/privacyguides.org" /data/site /data/privacy_guides.zim
 
       - name: Upload ZIM file
         uses: actions/upload-artifact@v4

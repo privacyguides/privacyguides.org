@@ -56,7 +56,7 @@ definitions:
 
   - &logo >-
     {%- if page.meta.cover -%}
-      theme/assets/brand/SVG/Logo/privacy-guides-logo-notext.svg
+      theme/assets/brand/logos/svg/logo/privacy-guides-logo-notext.svg
     {%- elif config.theme.logo -%}
       {{ config.docs_dir }}/{{ config.theme.logo }}
     {%- endif -%}

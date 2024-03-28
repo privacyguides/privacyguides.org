@@ -23,7 +23,7 @@ definitions:
 
   - &page_title_with_site_name >-
     {{ page.meta.get("title", page.title) }}
-  
+
   - &page_description >-
     {{ config.extra.homepage_description or "A socially motivated website which provides information about protecting your online data privacy and security." }}
 
@@ -83,7 +83,7 @@ layers:
       font:
         family: *title_font_family
         style: Bold
-  
+
   # Page description
   - size: { width: 864, height: 192 }
     offset: { x: 64, y: 320 }
