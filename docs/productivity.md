@@ -61,49 +61,6 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 </div>
 
-### Peergos
-
-<div class="admonition recommendation" markdown>
-
-![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
-
-Peergos has many features such as file sharing, an integrated messaging system and a social network for communicating/collaborating with people. These features allow you to collaborate with other people in a secure and private way. So you can be more productive. It is also recommended if you want to find a [cloud storage](cloud.md) solution for yourself.
-
-[:octicons-home-16: Homepage](https://peergos.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://book.peergos.net){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:octicons-globe-16: Web](https://peergos.net)
-- [:simple-windows11: Windows](https://github.com/Peergos/web-ui/releases)
-- [:simple-apple: macOS](https://github.com/Peergos/web-ui/releases)
-- [:simple-linux: Linux](https://github.com/Peergos/web-ui/releases)
-
-</details>
-
-</div>
-
-<div class="admonition info" markdown>
-<p class="admonition-title">Info</p>
-
-The Peergos desktop app is a ``.jar`` file, which means the [Java Runtime Environment](https://java.com/en/download/manual.jsp) should be installed on your machine to get it working.
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
-
-Real-time document collaboration is currently not available on Peergos. If you need that functionnality, you can check other services that are recommended in this page.
-
-</div>
-
-Peergos has made an [audit](https://cure53.de/pentest-report_peergos.pdf) in September 2019 and the results were pretty good. All found issues were fixed.
-
-Also, the Android app is not available but it is [in the works](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25). The current workaround is to use the mobile [PWA](https://peergos.net) instead.
-
 ### Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
