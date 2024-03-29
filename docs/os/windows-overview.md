@@ -319,7 +319,7 @@ For required service data:
   <details class="warning" markdown>
   <summary>Warning</summary>
 
-  Setting `Configure InPrivate mode availability` to `Forced` will prevent you from accessing `edge://settings`.
+  Setting ```Configure InPrivate mode availability``` to ```Forced``` will prevent you from accessing `edge://settings`.
 
   </details>
 
@@ -369,6 +369,7 @@ cscript ospp.vbs /act
   Set-ExecutionPolicy -Scope Process Unrestricted
   .\Baseline-LocalInstall.ps1
   ```
+  
 - Office automatically updates itself. You can also update it manually in Start → (Your Office Apps) → File → Account → Update Options.
   
 ### Office Privacy
