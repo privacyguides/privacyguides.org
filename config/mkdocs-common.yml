@@ -77,8 +77,8 @@ repo_name: ""
 theme:
   name: material
   custom_dir: ../theme
-  logo: ../../theme/assets/brand/SVG/Logo/privacy-guides-logo-notext-colorbg.svg
-  favicon: assets/brand/png/favicon/favicon-32x32.png
+  logo: ../../theme/assets/brand/logos/svg/logo/privacy-guides-logo-notext-colorbg.svg
+  favicon: assets/brand/logos/png/favicon-32x32.png
   icon:
     repo: simple/github
   features:
@@ -156,8 +156,8 @@ markdown_extensions:
   meta: {}
   abbr: {}
   pymdownx.emoji:
-    emoji_index: !!python/name:materialx.emoji.twemoji
-    emoji_generator: !!python/name:materialx.emoji.to_svg
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
   tables: {}
   footnotes: {}
   toc:

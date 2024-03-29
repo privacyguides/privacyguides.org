@@ -4,7 +4,7 @@ definitions:
     {%- if page.meta.cover -%}
       theme/assets/img/cover/{{ page.meta.cover }}
     {%- else -%}
-      {{ layout.background_image or "theme/assets/brand/PNG/Banner/cover-progress-notext-blur.png" }}
+      {{ layout.background_image or "theme/assets/brand/images/png/cover-progress-notext-blur.png" }}
     {%- endif -%}
 
   - &background_color >-
@@ -51,7 +51,7 @@ definitions:
     {{ page.meta.icon or "" }}
 
   - &logo >-
-    theme/assets/brand/SVG/Logo/privacy-guides-logo-notext.svg
+    theme/assets/brand/logos/svg/logo/privacy-guides-logo-notext.svg
 
 # Meta tags
 tags:

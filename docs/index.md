@@ -14,7 +14,7 @@ schema:
     "@id": https://www.privacyguides.org/
     name: Privacy Guides
     url: https://www.privacyguides.org/en/about/
-    logo: https://www.privacyguides.org/en/assets/brand/png/square/pg-yellow.png
+    logo: https://www.privacyguides.org/en/assets/brand/logos/png/square/pg-yellow.png
     sameAs:
       - https://twitter.com/privacy_guides
       - https://github.com/privacyguides
