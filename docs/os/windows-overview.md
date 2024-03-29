@@ -84,6 +84,19 @@ TBC
 
 </details>
 
+### Install Updates
+
+Installing updates is crucial. Windows Update delivers updates to Windows and Windows Recovery Environment (Windows RE) automatically. You can also manually check for updates in Start → Settings → Windows Update. If you have other Windows installation media, such as Windows Preinstallation Environment (Windows PE) or Windows RE that is not recognized by the current Windows operating system, you should [update](https://learn.microsoft.com/en-us/windows/deployment/update/media-dynamic-update) them manually. You should also enable automatic updates in Microsoft Store in Start → Microsoft Store → Profile Icon → Settings → App Updates.
+
+<details class="info" markdown>
+<summary>Types of Windows updates</summary>
+
+**Feature updates** are released annually to add new features and functionality to Windows.
+
+**Quality updates**, which encompass security and non-security fixes such as security updates, critical updates, servicing stack updates, and driver updates, are typically released on the second Tuesday of each month but can be released at any time.
+
+</details>
+
 ### Security Baselines
 
 A security baseline is a group of Microsoft-recommended configuration settings that explains their security implication.
@@ -100,9 +113,11 @@ You can track security baseline updates using [this](https://techcommunity.micro
 
 ### Application Security
 
+Most applications on Windows are not sandboxed. In Microsoft Store, only the apps without the permission "This app can access all your files, peripheral devices, apps, programs, and registry" are sandboxed. If you sideload apps, only those with the file extensions `.msix`, `.msixbundle`, `.appx`, `.appxbundle`, and without the permission "This app can access all your files, peripheral devices, apps, programs, and registry" are sandboxed.
+
 Smart App Control can check the security of apps while they are running. You should enable Smart App Control in Start → Windows Security → App & Browser Control → Smart App Control.
 
-Most applications on Windows are not sandboxed. 
+You can also use Windows Sandbox to run untrusted apps. Enable Windows Sandbox in Start → Settings → System → Optional Fetures → More Windows Features. Open Windows Sandbox in Start → Windows Sandbox. You can transfer files and apps into Windows Sandbox by copying them.
 
 ### Device Encryption
 
@@ -132,9 +147,7 @@ Windows include Windows Security, which provides the latest antivirus protection
 
 ### Account Security
 
-You should use a standard account for daily tasks.
-
-You can also use Windows Sandbox to run untrusted apps. Enable Windows Sandbox in Start → Settings → System → Optional Fetures → More Windows Features. Open Windows Sandbox in Start → Windows Sandbox. You can transfer files and apps into Windows Sandbox by copying them.
+You should use a local user account for daily tasks. Use complex passwords for your accounts. You can create a local user account in Start → Settings → Accounts → Other users → Add account → I don't have this person's sign-in information → Add a user without a Microsoft account. You should add security questions to your local account in case you forget your password in Start  → Settings → Accounts → Sign-in options → Update your security questions. You can also create a password reset disk for your local account. In the search box on the taskbar, type `Control Panel`, and then choose it from the list of results. In the Control Panel search box, type `create password reset`. Select `Create a password reset disk`, and follow the remaining instructions.
 
 You can hide your account info when logging in by enabling the Group Policy `Computer Configuration\Windows Settings\Security Settings\Local Policies\Security Options\Interactive logon: Don’t display last signed-in` and `Computer Configuration\Windows Settings\Security Settings\Local Policies\Security Options\Interactive logon: Don’t display username at sign-in`. You can also find the related option in Start → Settings → Accounts → Sign-in Options.
 
@@ -218,7 +231,7 @@ Some Required Service Data is necessary for Windows security and should be retai
 - Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Search\Don't search the web or display web results in Search`.
 - Enable all Group Policy objects under `Computer Configuration\Administrative Templates\Windows Components\Cloud Content`.
 - Enable the Group Policy `User Configuration\Administrative Templates\Windows Components\Cloud Content\Do not use diagnostic data for tailored experiences`.
-- Enable the Group Policy `User Configuration\Administrative Templates\Windows Components\Cloud Content\Turn off all Windows spotlight features`.
+- Enable the Group Policy `User Configuration\Administrative Templates\Windows Components\Cloud Content\Do not suggest third-party content in Windows spotlight`.
 - Enable the Group Policy `User Configuration\Administrative Templates\Windows Components\Cloud Content\Turn off cloud optimized content`.
 - Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Windows Error Reporting\Disable Windows Error Reporting`.
 - Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Software Protection Platform\Turn off KMS Client Online AVS Validation`.
@@ -233,6 +246,7 @@ Some Required Service Data is necessary for Windows security and should be retai
 - Execute `setx /M POWERSHELL_TELEMETRY_OPTOUT 1` from an elevated command prompt.
 - Execute `setx /M MSEDGEDRIVER_TELEMETRY_OPTOUT 1` from an elevated command prompt.
 - Disable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Widgets\Allow Widgets`.
+- If you are using a Input Method Editors (IME), disable the option in Start → Settings → Time & Language → Language & Region → (Your Language) → Language Options → (Your IME) → Lexicon and Self-Learning → Try text suggestions from Bing.
 
 ## Microsoft Edge
 
@@ -308,25 +322,63 @@ For required service data:
 
   </details>
 
-- If you are using others’ PC, use Guest mode in Profile icon → Other profiles → Browse as guest.
+- If you are using others’ PC, use Guest mode in Start → Microsoft Edge → Profile icon → Other profiles → Browse as guest.
 
 ## Office
 
-- [Download](https://www.microsoft.com/en-us/download/details.aspx?id=49030) the Office policy and execute it to extract files.
+- [Download](https://www.microsoft.com/en-us/download/details.aspx?id=49030) the corresponding Office policy and execute it to extract the files.
 - Copy `(Extracted Files)\admx\(Your Office Apps).admx` to `C:\Windows\PolicyDefinitions`. Copy `(Extracted Files)\admx\(Your locale ID)\(Your Office Apps).adml` to `C:\Windows\PolicyDefinitions\(Your locale ID)`.
 - You can track security baseline updates using [this](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=Microsoft-Security-Baselines) RSS feed.
+
+<details class="note" markdown>
+<summary>Install and Activate Office 2021</summary>
+
+You can buy and download [Office Home & Student 2021](https://go.microsoft.com/fwlink/?linkid=2022066), [Office Home & Business 2021](https://go.microsoft.com/fwlink/?linkid=2022187) or [Office Professional 2021](https://go.microsoft.com/fwlink/?linkid=2022071) online.
+
+To install Office LTSC 2021, download the [Office Deployment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49117) and execute it to extract the files. Create and download a configuration file using the [Office Customization Tool](https://config.office.com/deploymentsettings). Copy `your-created-config-file.xml` to `(Extracted Files Folder)`. In `(Extracted Files Folder)`, execute the following command from an elevated command prompt:
+
+```
+setup /download your-created-config-file.xml
+```
+
+For Key Management Service (KMS) activation, execute the following command from an elevated command prompt:
+
+```
+cd "c:\Program Files\Microsoft Office\Office16"
+cscript ospp.vbs /sethst:your.kms.server.here
+cscript ospp.vbs /act
+```
+
+For Multiple Activation Key (MAK) activation, execute the following command from an elevated command prompt:
+
+```
+cd "c:\Program Files\Microsoft Office\Office16"
+cscript ospp.vbs /inpkey:input-your-mak-key-here
+cscript ospp.vbs /act
+```
+
+</details>
 
 ### Office Security
 
 - [Download](https://www.microsoft.com/en-us/download/details.aspx?id=55319) the following files: `Microsoft 365 Apps for Enterprise 2306.zip` and `LGPO.zip`.Unzip both files. In `LGPO\LGPO_30`, copy `LGPO.exe` to `Microsoft 365 Apps for Enterprise 2306\Scripts\Tools`. In `Microsoft 365 Apps for Enterprise 2306\Scripts`, execute the following command from an elevated command prompt:
+  
   ```
   Set-ExecutionPolicy -Scope Process Unrestricted
   .\Baseline-LocalInstall.ps1
   ```
+  
 ### Office Privacy
 
 For diagnostic data, enable the Group Policy `User Configuration\Administrative Templates\Microsoft Office 2016\Privacy\Trust Center\Configure the level of client software diagnostic data sent by Office to Microsoft` and set the option to `Neither`.
 
-For account data, enable the Group Policy `User Configuration\Administrative Templates\Microsoft Office 2016\MiscellaneousBlock signing into Office`.
+For account data, enable the Group Policy `User Configuration\Administrative Templates\Microsoft Office 2016\Miscellaneous\Block signing into Office`.
+
+<details class="info" markdown>
+<summary>Microsoft 365</summary>
+
+You cannot disable the subscription version of Office, Microsoft 365.
+
+</details>
 
 For required service data, disable the Group Policy `User Configuration\Administrative Templates\Microsoft Office 2016\Privacy\Trust Center\Allow the use of connected experiences in Office` and `User Configuration\Administrative Templates\Microsoft Office 2016\Privacy\Trust Center\Enable Customer Experience Improvement Program`.
