@@ -86,7 +86,7 @@ TBC
 
 ### Install Updates
 
-Installing updates is crucial. Windows Update delivers updates to Windows and Windows Recovery Environment (Windows RE) automatically. You can also manually check for updates in Start → Settings → Windows Update. If you have other Windows installation media, such as Windows Preinstallation Environment (Windows PE) or Windows RE that is not recognized by the current Windows operating system, you should [update](https://learn.microsoft.com/en-us/windows/deployment/update/media-dynamic-update) them manually. You should also enable automatic updates in Microsoft Store in Start → Microsoft Store → Profile Icon → Settings → App Updates. You can also obtain drivers and firmware updates from original equipment manufacturers (OEMs).
+Installing updates is crucial. Windows Update delivers updates to Windows and Windows Recovery Environment (Windows RE) automatically. You can also manually check for updates in Start → Settings → Windows Update → Check for Updates. If you have other Windows installation media, such as Windows Preinstallation Environment (Windows PE) or Windows RE that is not recognized by the current Windows operating system, you should [update](https://learn.microsoft.com/en-us/windows/deployment/update/media-dynamic-update) them manually. You should also enable automatic updates in Microsoft Store in Start → Microsoft Store → Personal Profile → Settings → App Updates. You can also obtain drivers and firmware updates from original equipment manufacturers (OEMs).
 
 <details class="info" markdown>
 <summary>Types of Windows updates</summary>
@@ -149,20 +149,20 @@ Windows include Windows Security, which provides the latest antivirus protection
 
 You should use a local user account for daily tasks. Use complex passwords for your accounts. You can create a local user account in Start → Settings → Accounts → Other users → Add account → I don't have this person's sign-in information → Add a user without a Microsoft account. You should add security questions to your local account in case you forget your password in Start  → Settings → Accounts → Sign-in options → Update your security questions. You can also create a password reset disk for your local account. In the search box on the taskbar, type `Control Panel`, and then choose it from the list of results. In the Control Panel search box, type `create password reset`. Select `Create a password reset disk`, and follow the remaining instructions.
 
-You can hide your account info when logging in by enabling the Group Policy `Computer Configuration\Windows Settings\Security Settings\Local Policies\Security Options\Interactive logon: Don’t display last signed-in` and `Computer Configuration\Windows Settings\Security Settings\Local Policies\Security Options\Interactive logon: Don’t display username at sign-in`. You can also find the related option in Start → Settings → Accounts → Sign-in Options.
+You can hide your account info when logging in by enabling the Group Policy `Computer Configuration\Windows Settings\Security Settings\Local Policies\Security Options\Interactive logon: Don’t display last signed-in` and `Computer Configuration\Windows Settings\Security Settings\Local Policies\Security Options\Interactive logon: Don’t display username at sign-in`. You can also find the related option in Start → Settings → Accounts → Sign-in Options → Show account details such as my email address on the sign-in screen.
 
 ### Network & Bluetooth Security
 
-- Disable all options in Start → Settings → Network & Internet → Advanced Network Setings → Private Networks/Public Networks. Set options in Start → Settings → Network & Internet → Advanced Network Setings → All Networks to disable public folder sharing, use 128-bit encryption and enable password protected sharing.
-- Enable MAC Address Randomization in Start → Settings → Network & Internet → WLAN → Random Hardware Addresses and set the option in Start → Settings → Network & Internet → WLAN → (Your Network Display Name) → Random Hardware Addresses to `Change every day`.
-- Turn off Bluetooth when not in use. Disable device discovery in Start → Settings → Devices → Bluetooth & Other devices → More Bluetooth Options.
-- Set your encrypted DNS in Start → Settings → Network & Internet → WLAN → (Your Network Display Name) → DNS Server Assignment → Edit → Manual.
+- Disable all options in Start → Settings → Network & Internet → Advanced Network Setings → Advanced Sharing Setings → Private Networks/Public Networks. Set options in Start → Settings → Network & Internet → Advanced Network Setings → Advanced Sharing Setings → All Networks to disable public folder sharing, use 128-bit encryption and enable password protected sharing.
+- Enable MAC Address Randomization in Start → Settings → Network & Internet → Wi-Fi → Random Hardware Addresses and set the option in Start → Settings → Network & Internet → Wi-Fi → (Your Network Display Name) → Random Hardware Addresses to `Change every day`.
+- Turn off Bluetooth when not in use. Disable device discovery in Start → Settings → Devices → Devices → More Bluetooth Settings.
+- Set your encrypted DNS in Start → Settings → Network & Internet → Wi-Fi → (Your Network Properties) → DNS Server Assignment → Edit → Manual.
 
 ### Developer Mode
 
-- Disable Developer Mode in Start → Settings → System → Developer Options → Developer Mode.
-- Disable Remote Desktop in Start → Settings → System → Developer Options → Remote Desktop.
-- Enable all options in Start → Settings → System → Developer Options → File Explorer Settings.
+- Disable Developer Mode in Start → Settings → System → For Developers → Developer Mode.
+- Disable Remote Desktop in Start → Settings → System → For Developers → Remote Desktop.
+- Enable all options in Start → Settings → System → For Developers → File Explorer.
 
 ### Additional Attack Surface Reduction Measures
 
@@ -207,7 +207,7 @@ Enable the Group Policy `Computer Configuration\Administrative Templates\Windows
 
 ### Account Data
 
-Use local accounts instead of online accounts like Microsoft accounts to sign in to your devices and enable the Group Policy `Computer Configuration\Windows Settings\Security Settings\Local Policies\Security Options\Accounts: Block Microsoft accounts` and set it to `Users can’t add Microsoft accounts`. You can still log on apps likw Microsoft Store with Microsoft accounts. If you have logged on apps using a Microsoft account, you can limit its use in Start → Settings → Accounts → Email & accounts → (Your Microsoft Account) and select the option to `Apps need to ask me to use this account`.
+Use local accounts instead of online accounts like Microsoft accounts to sign in to your devices and enable the Group Policy `Computer Configuration\Windows Settings\Security Settings\Local Policies\Security Options\Accounts: Block Microsoft accounts` and set it to `Users can’t add Microsoft accounts`. You can still log on apps likw Microsoft Store with Microsoft accounts. If you have logged on apps using a Microsoft account, you can limit its use in Start → Settings → Accounts → Email & accounts → (Your Microsoft Account) → Sign-in Options and select the option to `Apps need to ask me to use this account`.
 
 <details class="warning" markdown>
 <summary>Warning</summary>
@@ -222,7 +222,7 @@ Some Required Service Data is necessary for Windows security and should be retai
 
 - Uninstall pre-installed apps you won't use in Start → Settings → Apps → Installed Apps and Start → Settings → System → System Components.
 - Disable all options in Start → Settings → Privacy & Security → Windows Permissions.
-- Do not join the Windows Insider Program in Start → Settings → Update & Security → Windows Insider Program.
+- Do not join the Windows Insider Program in Start → Settings → Windows Update → Windows Insider Program.
 - Disable suggestions and recommendations in Start → Settings → Personalization → Start.
 - Disable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Search\Allow Cortana`.
 - Disable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Search\Allow Cloud Search`.
@@ -246,7 +246,7 @@ Some Required Service Data is necessary for Windows security and should be retai
 - Execute `setx /M POWERSHELL_TELEMETRY_OPTOUT 1` from an elevated command prompt.
 - Execute `setx /M MSEDGEDRIVER_TELEMETRY_OPTOUT 1` from an elevated command prompt.
 - Disable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Widgets\Allow Widgets`.
-- If you are using a Input Method Editors (IME), disable the option in Start → Settings → Time & Language → Language & Region → (Your Language) → Language Options → (Your IME) → Lexicon and Self-Learning → Try text suggestions from Bing.
+- If you are using a Input Method Editors (IME), disable the option in Start → Settings → Time & Language → Language & Region → (Your Language) → Language Options → (Your IME) → Keyboard Options → Lexicon and Self-Learning → Try text suggestions from Bing.
 - You can manage Copilot in Windows by configuring the Group Policy `User Configuration\Administrative Templates\Windows Components\Windows Copilot\Turn off Windows Copilot`.
 
 ## Microsoft Edge
@@ -324,7 +324,7 @@ For required service data:
 
   </details>
 
-- If you are using others’ PC, use Guest mode in Start → Microsoft Edge → Profile icon → Other profiles → Browse as guest.
+- If you are using others’ PC, use Guest mode in Start → Microsoft Edge → Personal Profile icon → Other Profiles → Browse as Guest.
 - You can manage Copilot in Windows by configuring the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Show Hubs Sidebar`.
 
 ## Office
