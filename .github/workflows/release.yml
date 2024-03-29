@@ -29,6 +29,8 @@ jobs:
   production:
     name: Push release to production
     runs-on: ubuntu-latest
+    environment:
+      name: actions-ssh
     permissions:
       contents: write
 
@@ -47,6 +49,8 @@ jobs:
   build:
     name: Create release packages
     runs-on: ubuntu-latest
+    environment:
+      name: actions-ssh
 
     steps:
       - name: Checkout repository

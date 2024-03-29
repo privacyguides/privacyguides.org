@@ -1,0 +1,72 @@
+# Copyright (c) 2024 Jonah Aragon <jonah@triplebit.net>
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+name: Cleanup Artifacts
+
+on:
+  workflow_call:
+    inputs:
+      netlify:
+        type: boolean
+      netlify_alias:
+        type: string
+    outputs:
+      netlify_address:
+        value: ${{ jobs.netlify.outputs.address }}
+    secrets:
+      NETLIFY_TOKEN:
+
+jobs:
+  netlify:
+    if: inputs.netlify
+    runs-on: ubuntu-latest
+    outputs:
+      address: ${{ steps.deployment.outputs.address }}
+
+    environment:
+      name: preview-netlify
+      url: ${{ steps.deployment.outputs.address }}
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: site-build-*
+          merge-multiple: true
+
+      - run: |
+          for file in *.tar.gz; do tar -zxf "$file"; done
+          wget https://raw.githubusercontent.com/privacyguides/privacyguides.org/main/netlify.toml
+          ls -la site/
+
+      - uses: actions/setup-node@v4
+
+      - run: |
+          npm install netlify-cli -g
+
+      - name: Limit length of Netlify alias to 12
+        run: echo "SHORT_ALIAS=`echo ${{ inputs.netlify_alias }} | cut -c1-12`" >> $GITHUB_ENV
+
+      - id: deployment
+        env:
+          NETLIFY_SITE_ID: ${{ vars.NETLIFY_SITE }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+        run: |
+          netlify deploy --dir=site --alias=${{ env.SHORT_ALIAS }}
+          echo "address=https://${{ env.SHORT_ALIAS }}--${{ vars.NETLIFY_SITE }}.netlify.app/" >> "$GITHUB_OUTPUT"
