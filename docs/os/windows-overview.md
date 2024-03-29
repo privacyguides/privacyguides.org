@@ -86,7 +86,7 @@ TBC
 
 ### Install Updates
 
-Installing updates is crucial. Windows Update delivers updates to Windows and Windows Recovery Environment (Windows RE) automatically. You can also manually check for updates in Start → Settings → Windows Update. If you have other Windows installation media, such as Windows Preinstallation Environment (Windows PE) or Windows RE that is not recognized by the current Windows operating system, you should [update](https://learn.microsoft.com/en-us/windows/deployment/update/media-dynamic-update) them manually. You should also enable automatic updates in Microsoft Store in Start → Microsoft Store → Profile Icon → Settings → App Updates.
+Installing updates is crucial. Windows Update delivers updates to Windows and Windows Recovery Environment (Windows RE) automatically. You can also manually check for updates in Start → Settings → Windows Update. If you have other Windows installation media, such as Windows Preinstallation Environment (Windows PE) or Windows RE that is not recognized by the current Windows operating system, you should [update](https://learn.microsoft.com/en-us/windows/deployment/update/media-dynamic-update) them manually. You should also enable automatic updates in Microsoft Store in Start → Microsoft Store → Profile Icon → Settings → App Updates. You can also obtain drivers and firmware updates from original equipment manufacturers (OEMs).
 
 <details class="info" markdown>
 <summary>Types of Windows updates</summary>
@@ -261,6 +261,7 @@ Some Required Service Data is necessary for Windows security and should be retai
   Set-ExecutionPolicy -Scope Process Unrestricted
   .\Baseline-LocalInstall.ps1
   ```
+- Microsoft Edge automatically updates itself. You can also update it manually in `edge://settings/help`.
 - Enable the option(s) `Microsoft Defender SmartScreen` in `edge://settings/privacy`.
 - Enable the option(s) `Block potentially unwanted apps` in `edge://settings/privacy`.
 - Enable the option(s) `Website typo protection` in `edge://settings/privacy`.
@@ -326,6 +327,7 @@ For required service data:
 
 ## Office
 
+- The advice in this guide does not apply to Office downloaded from the Microsoft Store.
 - [Download](https://www.microsoft.com/en-us/download/details.aspx?id=49030) the corresponding Office policy and execute it to extract the files.
 - Copy `(Extracted Files)\admx\(Your Office Apps).admx` to `C:\Windows\PolicyDefinitions`. Copy `(Extracted Files)\admx\(Your locale ID)\(Your Office Apps).adml` to `C:\Windows\PolicyDefinitions\(Your locale ID)`.
 - You can track security baseline updates using [this](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=Microsoft-Security-Baselines) RSS feed.
@@ -367,6 +369,7 @@ cscript ospp.vbs /act
   Set-ExecutionPolicy -Scope Process Unrestricted
   .\Baseline-LocalInstall.ps1
   ```
+- Office automatically updates itself. You can also update it manually in Start → (Your Office Apps) → File → Account → Update Options.
   
 ### Office Privacy
 
