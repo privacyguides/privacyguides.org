@@ -247,6 +247,7 @@ Some Required Service Data is necessary for Windows security and should be retai
 - Execute `setx /M MSEDGEDRIVER_TELEMETRY_OPTOUT 1` from an elevated command prompt.
 - Disable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Widgets\Allow Widgets`.
 - If you are using a Input Method Editors (IME), disable the option in Start → Settings → Time & Language → Language & Region → (Your Language) → Language Options → (Your IME) → Lexicon and Self-Learning → Try text suggestions from Bing.
+- You can manage Copilot in Windows by configuring the Group Policy `User Configuration\Administrative Templates\Windows Components\Windows Copilot\Turn off Windows Copilot`.
 
 ## Microsoft Edge
 
@@ -324,6 +325,7 @@ For required service data:
   </details>
 
 - If you are using others’ PC, use Guest mode in Start → Microsoft Edge → Profile icon → Other profiles → Browse as guest.
+- You can manage Copilot in Windows by configuring the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Show Hubs Sidebar`.
 
 ## Office
 
