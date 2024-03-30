@@ -383,6 +383,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 <div class="grid cards" markdown>
 
 - ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ .twemoji } [Bitwarden](passwords.md#bitwarden)
+- ![Proton Pass logo](assets/img/password-management/protonpass.svg){ .twemoji } [Proton Pass](passwords.md#proton-pass)
 - ![1Password logo](assets/img/password-management/1password.svg){ .twemoji } [1Password](passwords.md#1password)
 - ![Psono logo](assets/img/password-management/psono.svg){ .twemoji } [Psono](passwords.md#psono)
 - ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji } [KeePassXC](passwords.md#keepassxc)
