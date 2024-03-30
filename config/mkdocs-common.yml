@@ -279,6 +279,7 @@ nav:
           - "tor.md"
           - "desktop-browsers.md"
           - "mobile-browsers.md"
+          - "browser-extensions.md"
       - !ENV [NAV_PROVIDERS, "Providers"]:
           - "cloud.md"
           - "dns.md"

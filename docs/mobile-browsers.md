@@ -208,32 +208,6 @@ You can enable E2EE for your Safari bookmarks and downloads by enabling [Advance
 
 If you use iCloud with Advanced Data Protection disabled, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in :gear: **Settings** → **Safari** → **General** → **Downloads**.
 
-### AdGuard
-
-<div class="admonition recommendation" markdown>
-
-![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
-
-**AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
-
-AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
-
-[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
-
-</details>
-
-</div>
-
-Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.
-
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
@@ -246,8 +220,3 @@ Additional filter lists do slow things down and may increase your attack surface
 - Android browsers must use the Chromium engine.
     - Unfortunately, Mozilla GeckoView is still less secure than Chromium on Android.
     - iOS browsers are limited to WebKit.
-
-### Extension Criteria
-
-- Must not replicate built-in browser or OS functionality.
-- Must directly impact user privacy, i.e. must not simply provide information.
