@@ -120,6 +120,9 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
+- [:simple-windows11: Windows](https://ente.io/download)
+- [:simple-apple: macOS](https://ente.io/download)
+- [:simple-linux: Linux](https://ente.io/download)
 - [:simple-github: GitHub](https://github.com/ente-io/ente/releases)
 - [:octicons-globe-16: Web](https://auth.ente.io)
 
