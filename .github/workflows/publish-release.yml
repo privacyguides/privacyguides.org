@@ -88,8 +88,12 @@ jobs:
     with:
       netlify_production: true
       github_pages: true
+      bunnycdn_production: true
     secrets:
       NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+      PROD_BUNNYCDN_PASSWORD: ${{ secrets.PROD_BUNNYCDN_PASSWORD }}
+      PROD_MINIO_KEY_ID: ${{ secrets.PROD_MINIO_KEY_ID }}
+      PROD_MINIO_SECRET_KEY: ${{ secrets.PROD_MINIO_SECRET_KEY }}
 
   cleanup:
     if: ${{ always() }}

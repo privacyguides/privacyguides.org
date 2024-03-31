@@ -31,11 +31,18 @@ on:
         type: boolean
       github_pages:
         type: boolean
+      bunnycdn_production:
+        type: boolean
+      minio_production:
+        type: boolean
     outputs:
       netlify_preview_address:
         value: ${{ jobs.netlify_preview.outputs.address }}
     secrets:
       NETLIFY_TOKEN:
+      PROD_BUNNYCDN_PASSWORD:
+      PROD_MINIO_KEY_ID:
+      PROD_MINIO_SECRET_KEY:
 
 jobs:
   netlify_preview:
@@ -90,7 +97,7 @@ jobs:
 
     environment:
       name: production
-      url: https://www.privacyguides.org
+      url: https://illustrious-bavarois-56cf30.netlify.app/
 
     steps:
       - uses: actions/download-artifact@v4
@@ -165,3 +172,62 @@ jobs:
 
       - id: deployment
         uses: actions/deploy-pages@main
+
+  bunnycdn_production:
+    if: inputs.bunnycdn_production
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
+    environment:
+      name: production
+      url: https://privacyguides-org-production.b-cdn.net
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: site-build-*
+          merge-multiple: true
+
+      - run: |
+          for file in *.tar.gz; do tar -zxf "$file"; done
+          ls -la site/
+
+      - uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: "storage.bunnycdn.com"
+          username: ${{ vars.PROD_BUNNYCDN_USER }}
+          password: ${{ secrets.PROD_BUNNYCDN_PASSWORD }}
+          local-dir: ./site/
+
+  minio_production:
+    if: inputs.minio_production
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
+    environment:
+      name: production
+      url: https://privacyguides-org-production.stor1-minio.jonaharagon.net
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: site-build-*
+          merge-multiple: true
+
+      - run: |
+          for file in *.tar.gz; do tar -zxf "$file"; done
+          ls -la site/
+
+      - uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --acl public-read --follow-symlinks --delete
+        env:
+          SOURCE_DIR: "site/"
+          AWS_S3_BUCKET: ${{ vars.PROD_MINIO_BUCKET }}
+          AWS_S3_ENDPOINT: ${{ vars.PROD_MINIO_HOSTNAME }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.PROD_MINIO_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.PROD_MINIO_SECRET_KEY }}
