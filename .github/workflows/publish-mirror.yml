@@ -29,9 +29,6 @@ concurrency:
 jobs:
   gitlab:
     runs-on: ubuntu-latest
-    environment:
-      name: actions-ssh
-      url: https://gitlab.com/privacyguides/privacyguides.org
     steps:
       - name: Mirror to GitLab
         uses: wearerequired/git-mirror-action@v1
@@ -43,9 +40,6 @@ jobs:
 
   codeberg:
     runs-on: ubuntu-latest
-    environment:
-      name: actions-ssh
-      url: https://codeberg.org/privacyguides/privacyguides.org
     steps:
       - name: Mirror to Codeberg
         uses: wearerequired/git-mirror-action@v1
@@ -57,9 +51,6 @@ jobs:
 
   sourcehut:
     runs-on: ubuntu-latest
-    environment:
-      name: actions-ssh
-      url: https://git.sr.ht/~jonaharagon/privacyguides.org
     steps:
       - name: Mirror to SourceHut
         uses: wearerequired/git-mirror-action@v1

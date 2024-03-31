@@ -1,4 +1,4 @@
-# Copyright (c) 2021-2023 Jonah Aragon <jonah@triplebit.net>
+# Copyright (c) 2024 Jonah Aragon <jonah@triplebit.net>
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to
@@ -18,47 +18,36 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-name: 📦 Releases
+name: Build Offline Website
 
 on:
-  push:
-    tags:
-      - '*'
+  workflow_call:
+
+permissions:
+  contents: read
 
 jobs:
-  production:
-    name: Push release to production
-    runs-on: ubuntu-latest
-    environment:
-      name: actions-ssh
-    permissions:
-      contents: write
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: '0'
-          ssh-key: ${{ secrets.ACTIONS_SSH_KEY }}
-          submodules: 'true'
-
-      - name: Push to production branch
-        run: |
-          git push origin HEAD:production
-
   build:
-    name: Create release packages
     runs-on: ubuntu-latest
-    environment:
-      name: actions-ssh
+    permissions:
+      contents: read
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: '0'
-          ssh-key: ${{ secrets.ACTIONS_SSH_KEY }}
-          submodules: 'true'
+          persist-credentials: 'false'
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: repo-*
+          path: modules
+
+      - run: |
+          rmdir modules/mkdocs-material
+          mv modules/repo-mkdocs-material-insiders modules/mkdocs-material
+          rmdir theme/assets/brand
+          mv modules/repo-brand theme/assets/brand
 
       - name: Python setup
         uses: actions/setup-python@v5
@@ -66,11 +55,13 @@ jobs:
           python-version: '3.8'
           cache: 'pipenv'
 
-      - name: Cache files
-        uses: actions/cache@v4.0.2
+      - uses: actions/cache/restore@v4.0.2
         with:
-          key: ${{ github.ref }}
+          key: site-cache-${{ github.repository }}-en-${{ github.ref }}-${{ hashfiles('.cache/**') }}
           path: .cache
+          restore-keys: |
+            site-cache-${{ github.repository }}-en-${{ github.ref }}-
+            site-cache-${{ github.repository }}-en-
 
       - name: Install Python dependencies
         run: |
@@ -90,6 +81,11 @@ jobs:
         run: |
           tar -czvf offline.tar.gz site
           zip -r -q offline.zip site
+
+      - uses: actions/cache/save@v4.0.2
+        with:
+          key: site-cache-${{ github.repository }}-en-${{ github.ref }}-${{ hashfiles('.cache/**') }}
+          path: .cache
 
       - name: Upload tar.gz file
         uses: actions/upload-artifact@v4
@@ -114,32 +110,5 @@ jobs:
       - name: Upload ZIM file
         uses: actions/upload-artifact@v4
         with:
-          name: privacy_guides.zim
-          path: privacy_guides.zim
-
-  release:
-    name: Create release notes
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: offline.tar.gz
-
-      - uses: actions/download-artifact@v4
-        with:
-          name: offline.zip
-
-      - uses: actions/download-artifact@v4
-        with:
-          name: privacy_guides.zim
-
-      - name: Create release notes
-        uses: ncipollo/release-action@v1
-        with:
-          generateReleaseNotes: true
-          token: ${{ secrets.REPO_TOKEN }}
-          artifacts: "offline.zip,offline.tar.gz,privacy_guides.zim"
+          name: offline-privacy_guides.zim
+          path: offline-privacy_guides.zim

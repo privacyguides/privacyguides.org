@@ -18,17 +18,23 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-name: Build Pull Request Preview
+name: 📦 Publish Pull Request Preview
 
 on:
   pull_request_target:
 
+concurrency:
+  group: ${{github.event.pull_request.head.ref}}
+  cancel-in-progress: true
+
 permissions:
   pull-requests: write
   contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  downloadSubmodules:
+  submodule:
     strategy:
       matrix:
         repo: [mkdocs-material-insiders, brand, i18n]
@@ -39,14 +45,14 @@ jobs:
       ACTIONS_SSH_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
 
   build:
-    needs: downloadSubmodules
+    needs: submodule
     strategy:
       matrix:
         lang: [es, fr, he, it, nl, ru, zh-Hant]
-        i18n: [true]
+        allow-error: [true]
         include:
           - lang: en
-            i18n: false
+            allow-error: false
       fail-fast: false
     permissions:
       contents: read
@@ -55,13 +61,17 @@ jobs:
       ref: ${{github.event.pull_request.head.ref}}
       repo: ${{github.event.pull_request.head.repo.full_name}}
       lang: ${{ matrix.lang }}
-      i18n: ${{ matrix.i18n }}
+      continue-on-error: ${{ matrix.allow-error }}
 
   deploy:
     needs: build
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     uses: ./.github/workflows/deploy.yml
     with:
-      netlify: true
+      netlify_preview: true
       netlify_alias: ${{ github.event.pull_request.head.sha }}
     secrets:
       NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
@@ -72,13 +82,18 @@ jobs:
     needs: deploy
     runs-on: ubuntu-latest
     env:
-      address: ${{ needs.deploy.outputs.netlify_address }}
+      address: ${{ needs.deploy.outputs.netlify_preview_address }}
     steps:
 
-      - uses: thollander/actions-comment-pull-request@v2
+      - uses: thollander/actions-comment-pull-request@v2.5.0
         with:
           message: |
-            This is a test :eyes: ${{ env.address }}
+            ### <span aria-hidden="true">✅</span> Your preview is ready!
+
+            |  Name | Link |
+            | :---: | ---- |
+            | <span aria-hidden="true">🔨</span> Latest commit | ${{ github.event.pull_request.head.sha }} |
+            | <span aria-hidden="true">😎</span> Preview | ${{ env.address }} |
           comment_tag: deployment
 
   cleanup:

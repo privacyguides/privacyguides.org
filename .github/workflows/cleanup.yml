@@ -24,26 +24,10 @@ on:
   workflow_call:
 
 jobs:
-  brand:
+  cleanup:
     runs-on: ubuntu-latest
     steps:
       - uses: geekyeggo/delete-artifact@v5
         with:
-          name: brand
-          failOnError: false
-
-  i18n:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: geekyeggo/delete-artifact@v5
-        with:
-          name: i18n
-          failOnError: false
-
-  mkdocs-material-insiders:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: geekyeggo/delete-artifact@v5
-        with:
-          name: mkdocs-material-insiders
+          name: repo-*
           failOnError: false

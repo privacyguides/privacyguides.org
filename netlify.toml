@@ -92,13 +92,13 @@
   package = "@netlify/plugin-lighthouse"
 
     [[plugins.inputs.audits]]
-        path = "en/index.html"
+        path = "en"
 
     [[plugins.inputs.audits]]
-        path = "en/tools/index.html"
+        path = "en/tools"
 
     [[plugins.inputs.audits]]
-        path = "en/basics/why-privacy-matters/index.html"
+        path = "en/basics/why-privacy-matters"
 
     [[plugins.inputs.audits]]
-        path = "en/vpn/index.html"
+        path = "en/vpn"
