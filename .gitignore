@@ -19,11 +19,6 @@ site
 /config/.cache/plugin/social/*
 !/config/.cache/plugin/social/fonts
 
-# Editor settings
-.vscode/*
-!.vscode/extensions.json
-!.vscode/settings.json
-
 # Local Netlify folder
 .netlify
 node_modules

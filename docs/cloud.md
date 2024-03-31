@@ -45,7 +45,7 @@ The Proton Drive web application has been independently audited by Securitum in 
 
 > Auditors identified two low-severity vulnerabilities. Additionally, five general recommendations were reported. At the same time, we confirm that no important security issues were identified during the pentest.
 
-Proton Drive's brand new mobile clients have not yet been publicly audited by a third-party.
+Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
 
 ## Tresorit
 

@@ -24,7 +24,6 @@ labels: ["t:bug"]
 assignees:
   - jonaharagon
 body:
-
   - type: markdown
     attributes:
       value: |

@@ -1,0 +1,51 @@
+name: Deploy Website Build
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+on:
+  workflow_call:
+    inputs:
+      netlify_production:
+        type: boolean
+        default: true
+      github_pages:
+        type: boolean
+        default: true
+      minio_production:
+        type: boolean
+        default: true
+    outputs:
+      netlify_preview_address:
+        value: ${{ jobs.netlify.outputs.address }}
+    secrets:
+      NETLIFY_TOKEN:
+      PROD_MINIO_KEY_ID:
+      PROD_MINIO_SECRET_KEY:
+
+jobs:
+  netlify:
+    if: inputs.netlify_production
+    uses: privacyguides/.github/.github/workflows/deploy-netlify.yml@main
+    with:
+      netlify_site_id: ${{ vars.PROD_NETLIFY_SITE }}
+      environment: production
+    secrets:
+      NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+
+  minio:
+    if: inputs.minio_production
+    uses: privacyguides/.github/.github/workflows/deploy-minio.yml@main
+    with:
+      environment: production
+    secrets:
+      PROD_MINIO_KEY_ID: ${{ secrets.PROD_MINIO_KEY_ID }}
+      PROD_MINIO_SECRET_KEY: ${{ secrets.PROD_MINIO_SECRET_KEY }}
+
+  pages:
+    if: inputs.github_pages
+    uses: privacyguides/.github/.github/workflows/deploy-pages.yml@main
+    with:
+      environment: github-pages

@@ -1,5 +1,4 @@
 definitions:
-
   - &background_color >-
     #FFD06F
 
@@ -35,7 +34,6 @@ definitions:
 
 # Meta tags
 tags:
-
   # Open Graph
   og:type: website
   og:title: *page_title_with_site_name
@@ -59,7 +57,6 @@ tags:
 # Card size and layers
 size: { width: 1200, height: 630 }
 layers:
-
   # Background
   - background:
       color: *background_color

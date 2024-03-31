@@ -20,7 +20,7 @@
 
 INHERIT: mkdocs-common.yml
 site_url: "https://www.privacyguides.org/en/"
-site_dir: '../site/en'
+site_dir: "../site/en"
 
 theme:
   # ENGLISH ONLY: this logo needs to be set separately because the relative path is different

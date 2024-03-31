@@ -48,12 +48,12 @@ So far in 2023 we've launched international translations of our website in [Fren
 <!-- markdownlint-disable MD030 -->
 
 <div class="grid cards" markdown>
-<!-- Every team member should have a unique emoji.
-     Team member cards should include ONLY the following links:
-     - Discourse Profile
-     - ONE Link of team member's choice
-     - Email if applicable
-     This is to keep it fair and not spammy, especially as we grow.
+<!--  Every team member should have a unique emoji.
+      Team member cards should include ONLY the following links:
+      - Discourse Profile
+      - ONE Link of team member's choice
+      - Email if applicable
+      This is to keep it fair and not spammy, especially as we grow.
 -->
 
 -   :robot:{ .lg .middle } **@jonah**
