@@ -2,8 +2,8 @@
 <div align="center">
   <a href="https://www.privacyguides.org">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/privacyguides/brand/main/SVG/Logo/privacy-guides-logo-dark.svg">
-      <img alt="Privacy Guides" width="500px" src="https://raw.githubusercontent.com/privacyguides/brand/main/SVG/Logo/privacy-guides-logo.svg">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/privacyguides/brand/67166ed8b641d8ac1837d0b75329e02ed4056704/logos/svg/logo/privacy-guides-logo-dark.svg">
+      <img alt="Privacy Guides" width="500px" src="https://raw.githubusercontent.com/privacyguides/brand/67166ed8b641d8ac1837d0b75329e02ed4056704/logos/svg/logo/privacy-guides-logo.svg">
     </picture>
   </a>
 
