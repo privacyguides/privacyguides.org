@@ -102,10 +102,9 @@ jobs:
           sudo apt install pngquant
 
       - if: inputs.lang != 'en'
-        uses: falti/dotenv-action@v1.1
+        uses: c-py/action-dotenv-to-setenv@v5
         with:
-          path: includes/strings.${{ inputs.lang }}.env
-          export-variables: true
+          env-file: includes/strings.${{ inputs.lang }}.env
 
       - env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
