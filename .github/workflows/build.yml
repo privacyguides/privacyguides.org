@@ -80,12 +80,21 @@ jobs:
 
       - uses: actions/cache/restore@v4.0.2
         with:
-          key: site-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ inputs.ref }}-${{ hashfiles('.cache/**') }}
+          key: site-cache-${{ inputs.repo }}-${{ inputs.ref }}-${{ hashfiles('.cache/**') }}
           path: .cache
           restore-keys: |
-            site-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ inputs.ref }}-
-            site-cache-${{ inputs.repo }}-${{ inputs.lang }}-
-            site-cache-${{ github.repository }}-${{ inputs.lang }}
+            site-cache-${{ inputs.repo }}-${{ inputs.ref }}-
+            site-cache-${{ inputs.repo }}-
+
+      - uses: actions/cache/restore@v4.0.2
+        with:
+          key: card-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ inputs.ref }}-${{ hashfiles('config/.cache/plugin/social/manifest.json') }}
+          path: |
+            config/.cache/plugin/social/manifest.json
+            config/.cache/plugin/social/assets
+          restore-keys: |
+            card-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ inputs.ref }}-
+            card-cache-${{ inputs.repo }}-${{ inputs.lang }}-
 
       - run: |
           pip install pipenv
@@ -110,8 +119,15 @@ jobs:
 
       - uses: actions/cache/save@v4.0.2
         with:
-          key: site-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ inputs.ref }}-${{ hashfiles('.cache/**') }}
+          key: site-cache-${{ inputs.repo }}-${{ inputs.ref }}-${{ hashfiles('.cache/**') }}
           path: .cache
+
+      - uses: actions/cache/save@v4.0.2
+        with:
+          key: card-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ inputs.ref }}-${{ hashfiles('config/.cache/plugin/social/manifest.json') }}
+          path: |
+            config/.cache/plugin/social/manifest.json
+            config/.cache/plugin/social/assets
 
       - uses: actions/upload-artifact@v4
         with:
