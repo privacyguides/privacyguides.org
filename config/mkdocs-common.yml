@@ -18,25 +18,39 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
+docs_dir: '../docs'
+site_url: "https://www.privacyguides.org/"
+site_dir: '../site'
+
+site_name: Privacy Guides
+site_description: !ENV [SITE_DESCRIPTION, "Privacy Guides is your central privacy and security resource to protect yourself online."]
+copyright: !ENV [FOOTER_COPYRIGHT, "&copy; 2019 Privacy Guides and contributors."]
+edit_uri: edit/main/docs/
+
 extra:
+  generator: false
   context: !ENV [CONTEXT, "production"]
   deploy: !ENV DEPLOY_ID
+  homepage_description: !ENV [DESCRIPTION_HOMEPAGE, "A socially motivated website which provides information about protecting your online data privacy and security."]
+  translation_notice: !ENV DESCRIPTION_TRANSLATION
+  translation_notice_cta: !ENV [DESCRIPTION_TRANSLATION_CTA, "Visit Crowdin"]
+  translation_notice_language: !ENV LANG_ENGLISH
   social:
     - icon: simple/mastodon
       link: https://mastodon.neat.computer/@privacyguides
-      name: Mastodon
+      name: !ENV [SOCIAL_MASTODON, "Mastodon"]
     - icon: simple/matrix
       link: https://matrix.to/#/#privacyguides:matrix.org
-      name: Matrix
+      name: !ENV [SOCIAL_MATRIX, "Matrix"]
     - icon: simple/discourse
       link: https://discuss.privacyguides.net/
-      name: Forum
+      name: !ENV [SOCIAL_FORUM, "Forum"]
     - icon: simple/github
       link: https://github.com/privacyguides
-      name: GitHub
+      name: !ENV [SOCIAL_GITHUB, "GitHub"]
     - icon: simple/torbrowser
       link: http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/
-      name: Hidden service
+      name: !ENV [SOCIAL_TOR_SITE, "Hidden service"]
   alternate:
     - name: English
       link: /en/
@@ -54,7 +68,7 @@ extra:
       link: /he/
       lang: he
       icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1ee-1f1f1.svg
-    - name: Italian
+    - name: Italiano
       link: /it/
       lang: it
       icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1ee-1f1f9.svg
@@ -66,18 +80,42 @@ extra:
       link: /zh-hant/
       lang: zh-Hant
       icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1ed-1f1f0.svg
-    - name: Russian
+    - name: русский
       link: /ru/
       lang: ru
       icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1f7-1f1fa.svg
 
 repo_url: https://github.com/privacyguides/privacyguides.org
 repo_name: ""
+edit_uri: edit/main/docs/
 
 theme:
   name: material
+  language: en
   custom_dir: ../theme
   logo: ../../theme/assets/brand/logos/svg/logo/privacy-guides-logo-notext-colorbg.svg
+  font:
+    text: Public Sans
+    code: DM Mono
+  palette:
+    - media: "(prefers-color-scheme)"
+      scheme: default
+      accent: deep purple
+      toggle:
+        icon: material/brightness-auto
+        name: !ENV [THEME_DARK, "Switch to dark mode"]
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: amber
+      toggle:
+        icon: material/brightness-2
+        name: !ENV [THEME_LIGHT, "Switch to light mode"]
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      accent: deep purple
+      toggle:
+        icon: material/brightness-5
+        name: !ENV [THEME_AUTO, "Switch to system theme"]
   favicon: assets/brand/logos/png/favicon-32x32.png
   icon:
     repo: simple/github
@@ -109,11 +147,11 @@ plugins:
   macros: {}
   meta: {}
   git-committers:
-    enabled: !ENV [NETLIFY, false]
+    enabled: !ENV [GITCOMMITTERS, PRODUCTION, NETLIFY, false]
     repository: privacyguides/privacyguides.org
     branch: main
   git-revision-date-localized:
-    enabled: !ENV [NETLIFY, false]
+    enabled: !ENV [GITREVISIONDATE, PRODUCTION, NETLIFY, false]
     exclude:
       - index.md
     fallback_to_build_date: true
@@ -121,10 +159,10 @@ plugins:
     assets_exclude:
       - cdn.jsdelivr.net/npm/mathjax@3/*
   optimize:
-    enabled: !ENV [NETLIFY, false]
+    enabled: !ENV [OPTIMIZE, PRODUCTION, NETLIFY, false]
   typeset: {}
   social:
-    cards: !ENV [CARDS, true]
+    cards: !ENV [CARDS, PRODUCTION, NETLIFY, true]
     cards_dir: assets/img/social
     cards_layout_dir: config/layouts
     cards_layout: page
@@ -147,7 +185,9 @@ markdown_extensions:
   pymdownx.keys: {}
   pymdownx.mark: {}
   pymdownx.tilde: {}
-  pymdownx.snippets: {}
+  pymdownx.snippets:
+    auto_append:
+      - includes/abbreviations.en.txt
   pymdownx.tasklist:
     custom_checkbox: true
   attr_list: {}
@@ -163,3 +203,87 @@ markdown_extensions:
   toc:
     permalink: true
     toc_depth: 4
+
+nav:
+  - !ENV [NAV_HOME, 'Home']: 'index.md'
+  - !ENV [NAV_KNOWLEDGE_BASE, 'Knowledge Base']:
+    - 'basics/why-privacy-matters.md'
+    - 'basics/threat-modeling.md'
+    - 'basics/common-threats.md'
+    - 'basics/common-misconceptions.md'
+    - 'basics/account-creation.md'
+    - 'basics/account-deletion.md'
+    - !ENV [NAV_TECHNOLOGY_ESSENTIALS, 'Technology Essentials']:
+      - 'basics/passwords-overview.md'
+      - 'basics/multi-factor-authentication.md'
+      - 'basics/email-security.md'
+      - 'basics/vpn-overview.md'
+    - !ENV [NAV_ADVANCED_TOPICS, 'Advanced Topics']:
+      - 'advanced/dns-overview.md'
+      - 'advanced/tor-overview.md'
+      - 'advanced/payments.md'
+      - 'advanced/communication-network-types.md'
+    - !ENV [NAV_OPERATING_SYSTEMS, 'Operating Systems']:
+      - 'os/android-overview.md'
+      - 'os/ios-overview.md'
+      - 'os/linux-overview.md'
+      - 'os/macos-overview.md'
+      - 'os/qubes-overview.md'
+    - kb-archive.md
+  - !ENV [NAV_RECOMMENDATIONS, 'Recommendations']:
+    - 'tools.md'
+    - !ENV [NAV_INTERNET_BROWSING, 'Internet Browsing']:
+      - 'tor.md'
+      - 'desktop-browsers.md'
+      - 'mobile-browsers.md'
+    - !ENV [NAV_PROVIDERS, 'Providers']:
+      - 'cloud.md'
+      - 'dns.md'
+      - 'email-aliasing.md'
+      - 'email.md'
+      - 'financial-services.md'
+      - 'photo-management.md'
+      - 'search-engines.md'
+      - 'vpn.md'
+    - !ENV [NAV_SOFTWARE, 'Software']:
+      - 'calendar.md'
+      - 'cryptocurrency.md'
+      - 'data-redaction.md'
+      - 'email-clients.md'
+      - 'encryption.md'
+      - 'file-sharing.md'
+      - 'frontends.md'
+      - 'multi-factor-authentication.md'
+      - 'news-aggregators.md'
+      - 'notebooks.md'
+      - 'passwords.md'
+      - 'productivity.md'
+      - 'real-time-communication.md'
+    - !ENV [NAV_OPERATING_SYSTEMS, 'Operating Systems']:
+      - 'android.md'
+      - 'desktop.md'
+      - 'router.md'
+    - !ENV [NAV_ADVANCED, 'Advanced']:
+      - 'device-integrity.md'
+  - !ENV [NAV_ABOUT, 'About']:
+    - 'about/index.md'
+    - 'about/criteria.md'
+    - 'about/notices.md'
+    - 'about/privacy-policy.md'
+    - !ENV [NAV_COMMUNITY, 'Community']:
+      - 'about/donate.md'
+      - !ENV [NAV_ONLINE_SERVICES, 'Online Services']: 'about/services.md'
+      - !ENV [NAV_CODE_OF_CONDUCT, 'Code of Conduct']: 'CODE_OF_CONDUCT.md'
+      - 'about/privacytools.md'
+    - !ENV [NAV_CONTRIBUTING, 'Contributing']:
+      - !ENV [NAV_WRITING_GUIDE, 'Writing Guide']:
+        - 'meta/writing-style.md'
+        - 'meta/admonitions.md'
+        - 'meta/brand.md'
+        - 'meta/translations.md'
+      - !ENV [NAV_TECHNICAL_GUIDES, 'Technical Guides']:
+        - 'meta/uploading-images.md'
+        - 'meta/git-recommendations.md'
+  - !ENV [NAV_CHANGELOG, 'Changelog']: 'https://github.com/privacyguides/privacyguides.org/releases'
+  - !ENV [NAV_FORUM, 'Forum']: 'https://discuss.privacyguides.net/'
+  - !ENV [NAV_BLOG, 'Blog']: 'https://blog.privacyguides.org/'

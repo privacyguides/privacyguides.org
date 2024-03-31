@@ -25,7 +25,7 @@ definitions:
     {{ page.meta.get("title", page.title) }}
 
   - &page_description >-
-    {{ config.extra.homepage_description or "A socially motivated website which provides information about protecting your online data privacy and security." }}
+    {{ config.extra.homepage_description }}
 
   - &og_description >-
     {{ page.meta.get("description", config.site_description) or "" }}

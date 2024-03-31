@@ -18,31 +18,31 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-name: Cleanup Artifacts
+name: Deploy Website Build
 
 on:
   workflow_call:
     inputs:
-      netlify:
+      netlify_preview:
         type: boolean
       netlify_alias:
         type: string
+      netlify_production:
+        type: boolean
+      github_pages:
+        type: boolean
     outputs:
-      netlify_address:
-        value: ${{ jobs.netlify.outputs.address }}
+      netlify_preview_address:
+        value: ${{ jobs.netlify_preview.outputs.address }}
     secrets:
       NETLIFY_TOKEN:
 
 jobs:
-  netlify:
-    if: inputs.netlify
+  netlify_preview:
+    if: inputs.netlify_preview
     runs-on: ubuntu-latest
     outputs:
-      address: ${{ steps.deployment.outputs.address }}
-
-    environment:
-      name: preview-netlify
-      url: ${{ steps.deployment.outputs.address }}
+      address: ${{ steps.address.outputs.address }}
 
     steps:
       - uses: actions/download-artifact@v4
@@ -56,17 +56,106 @@ jobs:
           ls -la site/
 
       - uses: actions/setup-node@v4
+        with:
+          cache: 'npm'
 
       - run: |
           npm install netlify-cli -g
 
-      - name: Limit length of Netlify alias to 12
+      - if: inputs.netlify_preview
+        name: Limit length of Netlify alias to 12
         run: echo "SHORT_ALIAS=`echo ${{ inputs.netlify_alias }} | cut -c1-12`" >> $GITHUB_ENV
 
-      - id: deployment
+      - if: inputs.netlify_preview
+        id: deployment
         env:
           NETLIFY_SITE_ID: ${{ vars.NETLIFY_SITE }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
         run: |
           netlify deploy --dir=site --alias=${{ env.SHORT_ALIAS }}
-          echo "address=https://${{ env.SHORT_ALIAS }}--${{ vars.NETLIFY_SITE }}.netlify.app/" >> "$GITHUB_OUTPUT"
+          echo "DEPLOYED_ADDRESS=https://${{ env.SHORT_ALIAS }}--${{ vars.NETLIFY_SITE }}.netlify.app/" >> "$GITHUB_ENV"
+
+      - id: address
+        run: |
+          echo "address=$DEPLOYED_ADDRESS" >> "$GITHUB_OUTPUT"
+
+  netlify_production:
+    if: inputs.netlify_production
+    runs-on: ubuntu-latest
+
+    environment:
+      name: production
+      url: https://www.privacyguides.org
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: site-build-*
+          merge-multiple: true
+
+      - run: |
+          for file in *.tar.gz; do tar -zxf "$file"; done
+          wget https://raw.githubusercontent.com/privacyguides/privacyguides.org/main/netlify.toml
+          ls -la site/
+
+      - uses: actions/setup-node@v4
+        with:
+          cache: 'npm'
+
+      - run: |
+          npm install netlify-cli -g
+
+      - id: prod_deployment
+        env:
+          NETLIFY_SITE_ID: ${{ vars.PROD_NETLIFY_SITE }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+        run: |
+          netlify deploy --dir=site --prod-if-unlocked
+
+  github_pages:
+    if: inputs.github_pages
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      contents: read
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    steps:
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: site-build-*
+          merge-multiple: true
+
+      - run: |
+          for file in *.tar.gz; do tar -zxf "$file"; done
+          ls -la site/
+
+      - uses: 1arp/create-a-file-action@0.4.4
+        with:
+          path: site
+          file: index.html
+          content: |
+            <html lang="en">
+              <head>
+                <title>Redirecting to English site...</title>
+                <meta
+                  http-equiv="refresh"
+                  content="0; URL=./en/"
+                />
+              </head>
+            </html>
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deployment
+        uses: actions/deploy-pages@main

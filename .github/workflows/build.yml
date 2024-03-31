@@ -30,22 +30,24 @@ on:
         required: true
         type: string
       lang:
-        required: true
         type: string
-      i18n:
-        required: true
+        default: en
+      context:
+        type: string
+        default: deploy-preview
+      continue-on-error:
         type: boolean
+        default: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    continue-on-error: ${{ inputs.i18n }}
+    continue-on-error: ${{ inputs.continue-on-error }}
     permissions:
       contents: read
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           repository: ${{ inputs.repo }}
           ref: ${{ inputs.ref }}
@@ -53,52 +55,62 @@ jobs:
 
       - uses: actions/download-artifact@v4
         with:
+          pattern: repo-*
           path: modules
 
       - run: |
           rmdir modules/mkdocs-material
-          mv modules/mkdocs-material-insiders modules/mkdocs-material
+          mv modules/repo-mkdocs-material-insiders modules/mkdocs-material
           rmdir theme/assets/brand
-          mv modules/brand theme/assets/brand
+          mv modules/repo-brand theme/assets/brand
 
-      - if: inputs.i18n
+      - if: inputs.lang != 'en'
         run: |
-          cp -rl modules/i18n/i18n .
-          cp -rl modules/i18n/includes .
-          cp -rl modules/i18n/theme .
+          cp -rl modules/repo-i18n/i18n .
+          cp -rl modules/repo-i18n/includes .
+          cp -rl modules/repo-i18n/theme .
 
-      - name: Python setup
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.8'
           cache: 'pipenv'
 
-      - name: Cache files
-        uses: actions/cache@v4.0.2
+      - uses: actions/cache/restore@v4.0.2
         with:
-          key: ${{ inputs.ref }}
+          key: site-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ inputs.ref }}-${{ hashfiles('.cache/**') }}
           path: .cache
+          restore-keys: |
+            site-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ inputs.ref }}-
+            site-cache-${{ inputs.repo }}-${{ inputs.lang }}-
+            site-cache-${{ github.repository }}-${{ inputs.lang }}
 
-      - name: Install Python dependencies
-        run: |
+      - run: |
           pip install pipenv
           pipenv install
           sudo apt install pngquant
 
-      - name: Build website
-        env:
+      - if: inputs.lang != 'en'
+        uses: falti/dotenv-action@v1.1
+        with:
+          path: includes/strings.${{ inputs.lang }}.env
+          export-variables: true
+
+      - env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CARDS: false
-          CONTEXT: deploy-preview
-          NETLIFY: true
+          CONTEXT: ${{ inputs.context }}
+          PRODUCTION: true
         run: |
           pipenv run mkdocs build --config-file config/mkdocs.${{ inputs.lang }}.yml
           cp -r static/* site/
           pipenv run mkdocs --version
           tar -czvf site-build-${{ inputs.lang }}.tar.gz site
 
-      - name: Upload tar.gz file
-        uses: actions/upload-artifact@v4
+      - uses: actions/cache/save@v4.0.2
+        with:
+          key: site-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ inputs.ref }}-${{ hashfiles('.cache/**') }}
+          path: .cache
+
+      - uses: actions/upload-artifact@v4
         with:
           name: site-build-${{ inputs.lang }}.tar.gz
           path: site-build-${{ inputs.lang }}.tar.gz
