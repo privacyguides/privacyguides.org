@@ -26,6 +26,13 @@ definitions:
       Bagnard
     {%- endif -%}
 
+  - &title_font_style >-
+    {%- if config.theme.language == "he" -%}
+      Regular
+    {%- else -%}
+      Bold
+    {%- endif -%}
+
   - &font_family >-
     {%- if config.theme.language == "he" -%}
       Suez One
@@ -128,7 +135,7 @@ layers:
         height: 1.5
       font:
         family: *title_font_family
-        style: Bold
+        style: *title_font_style
 
   # Page description
   - size: { width: 864, height: 96 }

@@ -50,8 +50,8 @@ jobs:
       contents: read
     uses: ./.github/workflows/build.yml
     with:
-      ref: ${{ github.repository }}
-      repo: ${{ github.ref }}
+      ref: ${{ github.ref }}
+      repo: ${{ github.repository }}
       lang: ${{ matrix.lang }}
       context: production
       continue-on-error: false
