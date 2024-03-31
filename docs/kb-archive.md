@@ -3,8 +3,6 @@ title: KB Archive
 icon: material/archive
 description: Some pages that used to be in our knowledge base can now be found on our blog.
 ---
-# Pages Moved to Blog
-
 Some pages that used to be in our knowledge base can now be found on our blog:
 
 - [GrapheneOS vs. CalyxOS](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos)

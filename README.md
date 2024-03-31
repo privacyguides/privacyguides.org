@@ -1,4 +1,4 @@
-<!-- markdownlint-disable MD041 -->
+<!-- markdownlint-disable MD041 MD045 -->
 <div align="center">
   <a href="https://www.privacyguides.org">
     <picture>
@@ -50,9 +50,9 @@ The current list of team members can be found [here](https://www.privacyguides.o
 - 💖 [Sponsor the project](https://github.com/sponsors/privacyguides)
 - 🈴 [Help translate the site](https://crowdin.com/project/privacyguides) [[Matrix chat](https://matrix.to/#/#pg-i18n:aragon.sh)]
 - 📝 Edit the site, everything's accessible in this repo
-  - Browse our [open issues](https://github.com/privacyguides/privacyguides.org/issues) to see what needs to be updated
-  - View the list of [approved topics waiting for a PR](https://discuss.privacyguides.net/tag/approved)
-  - Read some writing tips in our [style guide](https://www.privacyguides.org/en/meta/writing-style)
+    - Browse our [open issues](https://github.com/privacyguides/privacyguides.org/issues) to see what needs to be updated
+    - View the list of [approved topics waiting for a PR](https://discuss.privacyguides.net/tag/approved)
+    - Read some writing tips in our [style guide](https://www.privacyguides.org/en/meta/writing-style)
 
 All contributors to the site are listed [here](https://github.com/privacyguides/privacyguides.org/graphs/contributors). If you make a substantial (i.e. copyright eligible) contribution to the project and would like to be formally credited, you are welcome to include your information in the appropriate `authors` section in [`CITATION.cff`](/CITATION.cff) as well, just submit a PR or ask @jonaharagon to make the change.
 

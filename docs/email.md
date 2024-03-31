@@ -5,6 +5,7 @@ icon: material/email
 description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
 cover: email.webp
 ---
+<!-- markdownlint-disable MD024 -->
 Email is practically a necessity for using any online service, however we do not recommend it for person-to-person conversations. Rather than using email to contact other people, consider using an instant messaging medium that supports forward secrecy.
 
 [Recommended Instant Messengers](real-time-communication.md){ .md-button }
@@ -70,7 +71,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g. Thunderbird). Paid accounts include features like Proton Mail Bridge, additional storage, and custom domain support. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](#simplelogin) Premium for free.
+If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail has internal crash reports that they **do not** share with third parties. This can be disabled in: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
 

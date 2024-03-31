@@ -109,7 +109,7 @@ article.md-content__inner {
 article.md-content__inner > * {
     max-width: 38rem;
 }
-article.md-content__inner > *:nth-child(n+8):nth-child(-n+12) {
+article.md-content__inner > *:nth-child(n+7):nth-child(-n+12) {
     margin-left: auto;
     margin-right: 0;
     text-align: right;

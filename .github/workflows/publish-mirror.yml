@@ -20,7 +20,10 @@
 
 name: 🪞 Push to Mirrors
 
-on: [ push, delete, create ]
+permissions:
+  contents: read
+
+on: [push, delete, create]
 
 # Ensures that only one mirror task will run at a time.
 concurrency:

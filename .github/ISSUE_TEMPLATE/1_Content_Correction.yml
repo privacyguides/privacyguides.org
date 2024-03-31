@@ -22,7 +22,6 @@ name: "Content Correction"
 description: Report any inaccurate, incorrect, or outdated information on the website.
 labels: ["t:correction"]
 body:
-
   - type: markdown
     attributes:
       value: |

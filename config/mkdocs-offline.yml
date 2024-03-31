@@ -44,5 +44,4 @@ plugins:
     enabled: true
   social:
     enabled: false
-
 # Edit the offline-mode navbar in mkdocs-common.yml

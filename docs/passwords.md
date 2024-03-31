@@ -366,6 +366,7 @@ These products are minimal password managers that can be used within scripting a
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.

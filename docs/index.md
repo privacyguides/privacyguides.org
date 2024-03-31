@@ -36,7 +36,7 @@ schema:
         urlTemplate: "https://www.privacyguides.org/?q={search_term_string}"
       query-input: required name=search_term_string
 ---
-<!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable -->
 ## Why should I care?
 
 ##### “I have nothing to hide. Why should I care about my privacy?”

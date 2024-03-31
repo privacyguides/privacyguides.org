@@ -18,12 +18,12 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-name: 📦 Publish Release
+name: 📦 Release
 
 on:
   push:
     tags:
-      - '*'
+      - "*"
 
 permissions:
   contents: write
@@ -35,7 +35,7 @@ jobs:
     strategy:
       matrix:
         repo: [mkdocs-material-insiders, brand, i18n]
-    uses: ./.github/workflows/download-repo.yml
+    uses: privacyguides/.github/.github/workflows/download-repo.yml@main
     with:
       repo: ${{ matrix.repo }}
     secrets:
@@ -48,7 +48,7 @@ jobs:
         lang: [en, es, fr, he, it, nl, ru, zh-Hant]
     permissions:
       contents: read
-    uses: ./.github/workflows/build.yml
+    uses: privacyguides/.github/.github/workflows/build.yml@main
     with:
       ref: ${{ github.ref }}
       repo: ${{ github.repository }}
@@ -60,7 +60,7 @@ jobs:
     needs: submodule
     permissions:
       contents: read
-    uses: ./.github/workflows/build-offline.yml
+    uses: privacyguides/.github/.github/workflows/build-offline.yml@main
 
   release:
     name: Create release notes
@@ -84,20 +84,17 @@ jobs:
 
   deploy:
     needs: build
-    uses: ./.github/workflows/deploy.yml
+    uses: ./.github/workflows/deploy-all.yml
     with:
       netlify_production: true
       github_pages: true
-      bunnycdn_production: true
       minio_production: true
     secrets:
       NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
-      PROD_BUNNYCDN_API_KEY: ${{ secrets.PROD_BUNNYCDN_API_KEY }}
-      PROD_BUNNYCDN_PASSWORD: ${{ secrets.PROD_BUNNYCDN_PASSWORD }}
       PROD_MINIO_KEY_ID: ${{ secrets.PROD_MINIO_KEY_ID }}
       PROD_MINIO_SECRET_KEY: ${{ secrets.PROD_MINIO_SECRET_KEY }}
 
   cleanup:
     if: ${{ always() }}
     needs: [build, buildoffline]
-    uses: ./.github/workflows/cleanup.yml
+    uses: privacyguides/.github/.github/workflows/cleanup.yml@main

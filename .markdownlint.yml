@@ -24,8 +24,7 @@ ul-indent:
   indent: 4
 no-inline-html: false
 code-block-style: false
-no-hard-tabs:
-  spaces-per-tab: 4
+no-hard-tabs: true
 emphasis-style:
   style: "asterisk"
 no-duplicate-header: false

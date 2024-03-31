@@ -126,28 +126,32 @@ BitLocker is [only supported](https://support.microsoft.com/windows/turn-on-devi
 To enable BitLocker on "Home" editions of Windows, you must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module. You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
 
 1. Open a command prompt and check your drive's partition table format with the following command. You should see "**GPT**" listed under "Partition Style":
-   ```powershell
-   powershell Get-Disk
-   ```
+
+    ```powershell
+    powershell Get-Disk
+    ```
 
 2. Run this command (in an admin command prompt) to check your TPM version. You should see `2.0` or `1.2` listed next to `SpecVersion`:
-   ```powershell
-   powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
-   ```
+
+    ```powershell
+    powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
+    ```
 
 3. Access [Advanced Startup Options](https://support.microsoft.com/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). You need to reboot while pressing the F8 key before Windows starts and go into the *command prompt* in **Troubleshoot** → **Advanced Options** → **Command Prompt**.
 4. Login with your admin account and type this in the command prompt to start encryption:
-   ```powershell
-   manage-bde -on c: -used
-   ```
+
+    ```powershell
+    manage-bde -on c: -used
+    ```
 
 5. Close the command prompt and continue booting to regular Windows.
 6. Open an admin command prompt and run the following commands:
-   ```powershell
-   manage-bde c: -protectors -add -rp -tpm
-   manage-bde -protectors -enable c:
-   manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
-   ```
+
+    ```powershell
+    manage-bde c: -protectors -add -rp -tpm
+    manage-bde -protectors -enable c:
+    manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
+    ```
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>

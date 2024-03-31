@@ -19,9 +19,9 @@
 # IN THE SOFTWARE.
 
 INHERIT: mkdocs-common.yml
-docs_dir: '../i18n/zh-Hant'
+docs_dir: "../i18n/zh-Hant"
 site_url: "https://www.privacyguides.org/zh-Hant/"
-site_dir: '../site/zh-Hant'
+site_dir: "../site/zh-Hant"
 
 edit_uri: edit/main/i18n/zh-Hant/
 

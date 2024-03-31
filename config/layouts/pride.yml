@@ -1,5 +1,4 @@
 definitions:
-
   - &background_image >-
     {%- if page.meta.cover -%}
       theme/assets/img/cover/{{ page.meta.cover }}
@@ -55,7 +54,6 @@ definitions:
 
 # Meta tags
 tags:
-
   # Open Graph
   og:type: website
   og:title: *page_title_with_site_name
@@ -79,7 +77,6 @@ tags:
 # Card size and layers
 size: { width: 1200, height: 630 }
 layers:
-
   # Background
   - background:
       image: *background_image

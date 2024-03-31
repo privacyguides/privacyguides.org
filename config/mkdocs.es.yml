@@ -19,9 +19,9 @@
 # IN THE SOFTWARE.
 
 INHERIT: mkdocs-common.yml
-docs_dir: '../i18n/es'
+docs_dir: "../i18n/es"
 site_url: "https://www.privacyguides.org/es/"
-site_dir: '../site/es'
+site_dir: "../site/es"
 
 edit_uri: edit/main/i18n/es/
 

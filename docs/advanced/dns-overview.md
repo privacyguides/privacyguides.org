@@ -354,8 +354,8 @@ dig +nocmd @9.9.9.11 -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +
 If the results include a second edns0-client-subnet TXT record (like shown below), then your DNS server is passing along EDNS information. The IP or network shown after is the precise information which was shared with Google by your DNS provider.
 
 ```text
-o-o.myaddr.l.google.com. 60	IN	TXT	"198.51.100.32"
-o-o.myaddr.l.google.com. 60	IN	TXT	"edns0-client-subnet 198.51.100.0/24"
+o-o.myaddr.l.google.com. 60 IN TXT "198.51.100.32"
+o-o.myaddr.l.google.com. 60 IN TXT "edns0-client-subnet 198.51.100.0/24"
 ;; Query time: 64 msec
 ;; SERVER: 9.9.9.11#53(9.9.9.11)
 ;; WHEN: Wed Mar 13 10:23:08 CDT 2024
