@@ -18,20 +18,13 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-name: 📦 Publish Pull Request Preview
+name: 📦 Manual Test Build
 
 on:
-  pull_request_target:
-
-concurrency:
-  group: ${{github.event.pull_request.head.ref}}
-  cancel-in-progress: true
+  workflow_dispatch:
 
 permissions:
-  pull-requests: write
   contents: read
-  pages: write
-  id-token: write
 
 jobs:
   submodule:
@@ -48,55 +41,24 @@ jobs:
     needs: submodule
     strategy:
       matrix:
-        lang: [es, fr, he, it, nl, ru, zh-Hant]
-        allow-error: [true]
-        include:
-          - lang: en
-            allow-error: false
+        lang: [en, es, fr, he, it, nl, ru, zh-Hant]
       fail-fast: false
     permissions:
       contents: read
     uses: ./.github/workflows/build.yml
     with:
-      ref: ${{github.event.pull_request.head.ref}}
-      repo: ${{github.event.pull_request.head.repo.full_name}}
+      ref: ${{ github.ref }}
+      repo: ${{ github.repository }}
       lang: ${{ matrix.lang }}
-      continue-on-error: ${{ matrix.allow-error }}
+      continue-on-error: true
 
-  deploy:
-    needs: build
+  buildoffline:
+    needs: submodule
     permissions:
       contents: read
-      pages: write
-      id-token: write
-    uses: ./.github/workflows/deploy.yml
-    with:
-      netlify_preview: true
-      netlify_alias: ${{ github.event.pull_request.head.sha }}
-    secrets:
-      NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
-
-  comment:
-    permissions:
-      pull-requests: write
-    needs: deploy
-    runs-on: ubuntu-latest
-    env:
-      address: ${{ needs.deploy.outputs.netlify_preview_address }}
-    steps:
-
-      - uses: thollander/actions-comment-pull-request@v2.5.0
-        with:
-          message: |
-            ### <span aria-hidden="true">✅</span> Your preview is ready!
-
-            |  Name | Link |
-            | :---: | ---- |
-            | <span aria-hidden="true">🔨</span> Latest commit | ${{ github.event.pull_request.head.sha }} |
-            | <span aria-hidden="true">😎</span> Preview | ${{ env.address }} |
-          comment_tag: deployment
+    uses: ./.github/workflows/build-offline.yml
 
   cleanup:
     if: ${{ always() }}
-    needs: build
+    needs: [build, buildoffline]
     uses: ./.github/workflows/cleanup.yml

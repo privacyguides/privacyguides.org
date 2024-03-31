@@ -55,6 +55,7 @@ jobs:
           repository: ${{ inputs.repo }}
           ref: ${{ inputs.ref }}
           persist-credentials: 'false'
+          fetch-depth: 0
 
       - uses: actions/download-artifact@v4
         with:
@@ -106,6 +107,7 @@ jobs:
         with:
           path: includes/strings.${{ inputs.lang }}.env
           export-variables: true
+          keys-case: bypass
 
       - env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
