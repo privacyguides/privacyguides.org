@@ -34,7 +34,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "monthly"
     assignees:
       - "jonaharagon"
     reviewers:
@@ -48,7 +48,7 @@ updates:
     registries:
       - github-privacyguides
     schedule:
-      interval: "daily"
+      interval: "monthly"
     labels:
       - "fix:submodules"
 

@@ -3,12 +3,12 @@
     "short_name": "Privacy Guides",
     "icons": [
         {
-            "src": "/assets/brand/PNG/Favicon/android-chrome-192x192.png",
+            "src": "/en/assets/brand/logos/png/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/assets/brand/PNG/Favicon/android-chrome-512x512.png",
+            "src": "/en/assets/brand/logos/png/android-chrome-192x192.png",
             "sizes": "512x512",
             "type": "image/png"
         }

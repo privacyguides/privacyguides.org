@@ -22,7 +22,7 @@
 
 @font-face {
     font-family: 'Bagnard';
-    src: url("/en/assets/brand/WOFF/bagnard/Bagnard.woff") format("woff");
+    src: url("/en/assets/brand/fonts/Bagnard/Bold.woff") format("woff");
     font-display: swap;
 }
 
@@ -263,7 +263,7 @@ details[class="downloads annotate"] > p .md-annotation span span::before {
 .yt-embed {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; 
+    padding-bottom: 56.25%;
     height: 0;
 }
 
@@ -319,9 +319,17 @@ details[class="downloads annotate"] > p .md-annotation span span::before {
     margin-right: 1%;
 }
 
+.md-select__inner {
+  left: 0%;
+}
+
+.md-select__inner:after {
+  display: none;
+}
+
 /* Custom header + nav */
 .md-header >*, .md-tabs {
-    background: none;   
+    background: none;
 }
 
 [data-md-color-scheme="slate"] .md-header >*, [data-md-color-scheme="slate"] .md-tabs {
@@ -365,7 +373,7 @@ details[class="downloads annotate"] > p .md-annotation span span::before {
     color: var(--md-typeset-a-color)
 }
 
-@media screen and (max-width: 59.9375em) { 
+@media screen and (max-width: 59.9375em) {
     .md-nav__source {
         display: none;
     }
@@ -487,7 +495,7 @@ path[d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-
     text-align: center;
     border-radius: 0.5em;
 }
-  
+
 /* Set the image to fill its parent and make transparent */
 .center-cropped img {
     min-height: 100%;

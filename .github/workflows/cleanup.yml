@@ -1,4 +1,4 @@
-# Copyright (c) 2022-2024 Jonah Aragon <jonah@triplebit.net>
+# Copyright (c) 2024 Jonah Aragon <jonah@triplebit.net>
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to
@@ -18,34 +18,16 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-name: 💬 Crowdin Upload
+name: Cleanup Artifacts
 
 on:
-  workflow_dispatch:
-  push:
-    branches: [ main ]
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  workflow_call:
 
 jobs:
-  synchronize-with-crowdin:
+  cleanup:
     runs-on: ubuntu-latest
-
     steps:
-
-    - name: Checkout
-      uses: actions/checkout@v4
-
-    - name: crowdin action
-      uses: crowdin/github-action@v1.19.0
-      with:
-        upload_sources: true
-        upload_sources_args: '--auto-update --delete-obsolete'
-        download_translations: false
-        config: crowdin.yml
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-        CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+      - uses: geekyeggo/delete-artifact@v5
+        with:
+          name: repo-*
+          failOnError: false

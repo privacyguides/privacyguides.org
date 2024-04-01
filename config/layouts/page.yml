@@ -26,6 +26,13 @@ definitions:
       Bagnard
     {%- endif -%}
 
+  - &title_font_style >-
+    {%- if config.theme.language == "he" -%}
+      Regular
+    {%- else -%}
+      Bold
+    {%- endif -%}
+
   - &font_family >-
     {%- if config.theme.language == "he" -%}
       Suez One
@@ -56,7 +63,7 @@ definitions:
 
   - &logo >-
     {%- if page.meta.cover -%}
-      theme/assets/brand/SVG/Logo/privacy-guides-logo-notext.svg
+      theme/assets/brand/logos/svg/logo/privacy-guides-logo-notext.svg
     {%- elif config.theme.logo -%}
       {{ config.docs_dir }}/{{ config.theme.logo }}
     {%- endif -%}
@@ -128,7 +135,7 @@ layers:
         height: 1.5
       font:
         family: *title_font_family
-        style: Bold
+        style: *title_font_style
 
   # Page description
   - size: { width: 864, height: 96 }

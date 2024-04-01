@@ -38,7 +38,7 @@ With Monero, outside observers cannot decipher addresses trading Monero, transac
 For optimal privacy, make sure to use a noncustodial wallet where the view key stays on the device. This means that only you will have the ability to spend your funds and see incoming and outgoing transactions. If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your private view key, the provider can see almost everything you do. Some noncustodial wallets include:
 
 - [Official Monero client](https://getmonero.org/downloads) (Desktop)
-- [Cake Wallet](https://cakewallet.com) (iOS, Android)
+- [Cake Wallet](https://cakewallet.com) (iOS, Android, macOS, Linux BETA)
     - Cake Wallet supports multiple cryptocurrencies. A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com).
 - [Feather Wallet](https://featherwallet.org) (Desktop)
 - [Monerujo](https://monerujo.io) (Android)
@@ -54,12 +54,5 @@ Ultimately, Monero is the strongest contender for a privacy-friendly cryptocurre
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
-
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
-
-</div>
 
 - Cryptocurrency must provide private/untraceable transactions by default.

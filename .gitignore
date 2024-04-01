@@ -6,17 +6,17 @@ site
 !/static/i18n/*.en.*
 /theme/overrides/*
 !/theme/overrides/*.en.*
-# include Bagnard font in social card
-# (not available in Google Fonts)
+# commit social card fonts to repo
+# see: https://github.com/squidfunk/mkdocs-material/issues/6983
 # ridiculous hide-and-seek https://stackoverflow.com/a/72380673
-/.cache/*
-!/.cache/plugin
-/.cache/plugin/*
-!/.cache/plugin/social
-/.cache/plugin/social/*
-!/.cache/plugin/social/fonts
-/.cache/plugin/social/fonts/*
-!/.cache/plugin/social/fonts/Bagnard
+.cache/*
+!/config/.cache
+/config/.cache/*
+!/config/.cache/plugin
+/config/.cache/plugin/*
+!/config/.cache/plugin/social
+/config/.cache/plugin/social/*
+!/config/.cache/plugin/social/fonts
 
 # Editor settings
 .vscode/*

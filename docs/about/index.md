@@ -7,7 +7,7 @@ schema:
   "@id": https://www.privacyguides.org/
   name: Privacy Guides
   url: https://www.privacyguides.org/en/about/
-  logo: https://www.privacyguides.org/en/assets/brand/png/square/pg-yellow.png
+  logo: https://www.privacyguides.org/en/assets/brand/logos/png/square/pg-yellow.png
   sameAs:
     - https://twitter.com/privacy_guides
     - https://github.com/privacyguides
@@ -16,7 +16,7 @@ schema:
     - https://www.youtube.com/@privacyguides
     - https://mastodon.neat.computer/@privacyguides
 ---
-![Privacy Guides logo](../assets/brand/PNG/Square/pg-yellow.png){ align=right }
+![Privacy Guides logo](../assets/brand/logos/png/square/pg-yellow.png){ align=right }
 
 **Privacy Guides** is a socially motivated website that provides [information](/kb) for protecting your data security and privacy. Our mission is to inform the public about the value of digital privacy, and global government initiatives which aim to monitor your online activity. We are a non-profit collective operated entirely by volunteer [team members](https://discuss.privacyguides.net/g/team) and contributors. Our website is free of advertisements and not affiliated with any of the listed providers.
 
@@ -45,40 +45,76 @@ We additionally launched our new discussion forum at [discuss.privacyguides.net]
 So far in 2023 we've launched international translations of our website in [French](/fr/), [Hebrew](/he/), and [Dutch](/nl/), with more languages on the way, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides). We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
 
 ## Our Team
+<!-- markdownlint-disable MD030 -->
 
-??? person "@jonah"
+<div class="grid cards" markdown>
+<!-- Every team member should have a unique emoji.
+     Team member cards should include ONLY the following links:
+     - Discourse Profile
+     - ONE Link of team member's choice
+     - Email if applicable
+     This is to keep it fair and not spammy, especially as we grow.
+-->
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/jonah)
-    - [:simple-github: GitHub](https://github.com/jonaharagon "@jonaharagon")
-    - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
-    - [:fontawesome-solid-house: Homepage](https://www.jonaharagon.com)
+-   :robot:{ .lg .middle } **@jonah**
 
-??? person "@niek-de-wilde"
+    ---
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/Niek-de-Wilde)
-    - [:simple-github: GitHub](https://github.com/blacklight447 "@blacklight447")
-    - [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
-    - [:fontawesome-solid-envelope: Email](mailto:niekdewilde@privacyguides.org)
+    :material-text-account: Founder
 
-??? person "@dngray"
+    [:material-account: Profile](https://discuss.privacyguides.net/u/jonah)
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/dngray)
-    - [:simple-github: GitHub](https://github.com/dngray "@dngray")
-    - [:simple-mastodon: Mastodon](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
-    - [:fontawesome-solid-envelope: Email](mailto:dngray@privacyguides.org)
+    [:material-home: Homepage](https://www.jonaharagon.com)
 
-??? person "@freddy"
+    [:material-email: Email](mailto:jonah@privacyguides.org)
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/freddy)
-    - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
-    - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
-    - [:fontawesome-solid-house: Homepage](https://freddy.lol)
+-   :cactus:{ .lg .middle } **@niek-de-wilde**
 
-??? person "@olivia"
+    ---
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/olivia)
-    - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
-    - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
+    :material-text-account: Founder
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/Niek-de-Wilde)
+
+    [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
+
+    [:material-email: Email](mailto:niekdewilde@privacyguides.org)
+
+-   :polar_bear:{ .lg .middle } **@dngray**
+
+    ---
+
+    :material-text-account: Founder
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/dngray)
+
+    [:simple-mastodon: Mastodon](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
+
+    [:material-email: Email](mailto:dngray@privacyguides.org)
+
+-   :detective:{ .lg .middle } **@freddy**
+
+    ---
+
+    :material-text-account: Founder
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/freddy)
+
+    [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
+
+    [:material-email: Email](mailto:freddy@privacyguides.org)
+
+-   :smirk_cat:{ .lg .middle } **@olivia**
+
+    ---
+
+    :material-text-account: Founder
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/olivia)
+
+    [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
+
+</div>
 
 Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
