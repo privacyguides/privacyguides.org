@@ -248,6 +248,7 @@ Some Required Service Data is necessary for Windows security and should be retai
 - Disable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Widgets\Allow Widgets`.
 - If you are using a Input Method Editors (IME), disable the option in Start → Settings → Time & Language → Language & Region → (Your Language) → Language Options → (Your IME) → Keyboard Options → Lexicon and Self-Learning → Try text suggestions from Bing.
 - You can manage Copilot in Windows by configuring the Group Policy `User Configuration\Administrative Templates\Windows Components\Windows Copilot\Turn off Windows Copilot`.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\OneDrive\Prevent OneDrive from generating network traffic until the user signs in to OneDrive`.
 
 ## Microsoft Edge
 
