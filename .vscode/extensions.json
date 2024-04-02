@@ -23,6 +23,7 @@
     "EditorConfig.EditorConfig",
     "DavidAnson.vscode-markdownlint",
     "wholroyd.jinja",
-    "mikestead.dotenv"
+    "mikestead.dotenv",
+    "matthewpi.caddyfile-support"
   ]
 }

@@ -1,0 +1,34 @@
+@static {
+	path *.ico *.css *.js *.gif *.webp *.avif *.jpg *.jpeg *.png *.svg *.woff *.woff2
+}
+
+@en path /en/*
+@es path /es/*
+@fr path /fr/*
+@he path /he/*
+@it path /it/*
+@nl path /nl/*
+@ru path /ru/*
+@zh-Hant path /zh-Hant/*
+
+@es-header {
+	header Accept-Language es*
+}
+@fr-header {
+	header Accept-Language fr*
+}
+@he-header {
+	header Accept-Language he*
+}
+@it-header {
+	header Accept-Language it*
+}
+@nl-header {
+	header Accept-Language nl*
+}
+@ru-header {
+	header Accept-Language ru*
+}
+@zh-Hant-header {
+	header Accept-Language zh-Hant*
+}

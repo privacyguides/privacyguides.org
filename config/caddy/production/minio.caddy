@@ -1,0 +1,31 @@
+cache
+encode zstd gzip
+reverse_proxy http://10.163.3.10:9000 {
+	header_up Host privacyguides-org-production.stor1-minio.jonaharagon.net
+	header_down -Server
+	header_down -Vary
+	header_down -X-*
+
+	@200ok status 2xx 304
+	handle_response @200ok {
+		import pg-umami-config
+		copy_response
+		copy_response_headers
+	}
+
+	@error404 status 404
+	handle_response @error404 {
+		@addSlash {
+			expression !{path}.endsWith("/")
+		}
+		redir @addSlash {http.request.orig_uri.path}/
+	}
+
+	@error400 status 400
+	handle_response @error400 {
+		@real404 {
+			path *//index.html
+		}
+		respond @real404 404
+	}
+}

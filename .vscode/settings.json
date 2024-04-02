@@ -23,5 +23,13 @@
     "[markdown]": {
       "editor.unicodeHighlight.ambiguousCharacters": true,
       "editor.unicodeHighlight.invisibleCharacters": true
+    },
+    "[caddyfile]": {
+      "editor.defaultFormatter": "matthewpi.caddyfile-support",
+      "editor.formatOnSave": true
+    },
+    "files.associations": {
+      "*.caddy": "caddyfile",
+      "*.example-caddy": "caddyfile"
     }
 }
