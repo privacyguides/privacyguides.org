@@ -229,6 +229,7 @@ nav:
       - 'os/linux-overview.md'
       - 'os/macos-overview.md'
       - 'os/qubes-overview.md'
+      - 'os/windows-overview.md'
     - kb-archive.md
   - !ENV [NAV_RECOMMENDATIONS, 'Recommendations']:
     - 'tools.md'
