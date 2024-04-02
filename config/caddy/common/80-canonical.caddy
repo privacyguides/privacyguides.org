@@ -1,0 +1,6 @@
+@canonicalPath {
+	path */
+}
+route @canonicalPath {
+	rewrite @canonicalPath {http.request.orig_uri.path}index.html
+}

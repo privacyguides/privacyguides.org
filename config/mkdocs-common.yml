@@ -84,10 +84,23 @@ extra:
       link: /ru/
       lang: ru
       icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1f7-1f1fa.svg
+  consent:
+    title: !ENV [ANALYTICS_CONSENT_TITLE, "Contribute anonymous statistics"]
+    description: !ENV [ANALYTICS_CONSENT_BODY, "We use cookies to collect anonymous usage statistics. You can opt out if you wish."]
+    cookies:
+      umami:
+        name: Self-Hosted Analytics
+        checked: true
+      github:
+        name: GitHub
+        checked: false
+    actions:
+      - reject
+      - accept
+      - manage
 
 repo_url: https://github.com/privacyguides/privacyguides.org
 repo_name: ""
-edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -135,6 +148,7 @@ extra_css:
 extra_javascript:
   - assets/javascripts/mathjax.js
   - assets/javascripts/randomize-element.js
+  - assets/javascripts/resolution.js
 
 watch:
   - ../theme
@@ -270,6 +284,7 @@ nav:
     - 'about/criteria.md'
     - 'about/notices.md'
     - 'about/privacy-policy.md'
+    - 'about/statistics.md'
     - !ENV [NAV_COMMUNITY, 'Community']:
       - 'about/donate.md'
       - !ENV [NAV_ONLINE_SERVICES, 'Online Services']: 'about/services.md'
