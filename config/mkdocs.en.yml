@@ -25,4 +25,3 @@ site_dir: '../site/en'
 theme:
   # ENGLISH ONLY: this logo needs to be set separately because the relative path is different
   logo: ../theme/assets/brand/logos/svg/logo/privacy-guides-logo-notext-colorbg.svg
-  
