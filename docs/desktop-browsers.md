@@ -240,13 +240,12 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:simple-windows11: Windows](https://brave.com/download)
 - [:simple-apple: macOS](https://brave.com/download)
-- [:simple-linux: Linux](https://brave.com/linux) (1)
+- [:simple-linux: Linux](https://brave.com/linux)
+- [:simple-flathub: Flathub](https://flathub.org/apps/com.brave.Browser)
 
 </details>
 
 </div>
-
-1. We advise against using the Flatpak version of Brave, as it replaces Chromium's sandbox with Flatpak's, which is less effective. Additionally, the package is not maintained by Brave Software, Inc.
 
 **macOS users:** The download for Brave Browser from their official website is a `.pkg` installer which requires admin privileges to run (and may run other unnecessary scripts on your machine). As an alternative, you can download the latest `Brave-Browser-universal.dmg` file from their [GitHub releases](https://github.com/brave/brave-browser/releases/latest) page, which provides a traditional "drag to Applications folder" install.
 
@@ -425,13 +424,6 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
-
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
-
-</div>
 
 ### Minimum Requirements
 

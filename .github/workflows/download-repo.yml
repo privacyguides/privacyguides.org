@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-name: Download repository
+name: Download Repository
 
 on:
   workflow_call:
@@ -33,18 +33,16 @@ on:
 jobs:
   download:
     runs-on: ubuntu-latest
-    environment:
-      name: actions-ssh
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           repository: 'privacyguides/${{ inputs.repo }}'
-          path: ${{ inputs.repo }}
+          path: repo-${{ inputs.repo }}
           ssh-key: ${{ secrets.ACTIONS_SSH_KEY }}
 
       - uses: actions/upload-artifact@v4
         with:
-          name: ${{ inputs.repo }}
-          path: ${{ inputs.repo }}
+          name: repo-${{ inputs.repo }}
+          path: repo-${{ inputs.repo }}
           retention-days: 1

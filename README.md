@@ -2,8 +2,8 @@
 <div align="center">
   <a href="https://www.privacyguides.org">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/privacyguides/brand/main/SVG/Logo/privacy-guides-logo-dark.svg">
-      <img alt="Privacy Guides" width="500px" src="https://raw.githubusercontent.com/privacyguides/brand/main/SVG/Logo/privacy-guides-logo.svg">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/privacyguides/brand/67166ed8b641d8ac1837d0b75329e02ed4056704/logos/svg/logo/privacy-guides-logo-dark.svg">
+      <img alt="Privacy Guides" width="500px" src="https://raw.githubusercontent.com/privacyguides/brand/67166ed8b641d8ac1837d0b75329e02ed4056704/logos/svg/logo/privacy-guides-logo.svg">
     </picture>
   </a>
 
@@ -92,7 +92,7 @@ This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdoc
 
 1. Clone this repository and submodules: `git clone --recurse-submodules https://github.com/privacyguides/privacyguides.org.git`
 2. Enable SSH commit verification with our local [`.allowed_signers`](/.allowed_signers) file: `git config gpg.ssh.allowedSignersFile .allowed_signers`
-3. Install Python **3.8**, this is the only version supported by Netlify
+3. Install Python **3.12**.
 4. Install **pipenv**: `pip install pipenv`
 5. Install dependencies: `pipenv install --dev` (install [Pillow and CairoSVG](https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/#dependencies) as well to generate social cards)
 6. Serve the site locally: `pipenv run mkdocs serve --config-file config/mkdocs.en.yml` (set `CARDS=true` to generate social cards)
@@ -107,7 +107,8 @@ If you commit to `main` with commits signed with your SSH key, you should add yo
 1. Install the [Crowdin CLI Tool](https://developer.crowdin.com/cli-tool) (`brew install crowdin`)
 2. Set the `CROWDIN_PERSONAL_TOKEN` environment variable to your Crowdin personal access token
 3. Run `crowdin download` in the root of this repo
-4. Serve the site locally: `pipenv run mkdocs serve --config-file config/mkdocs.fr.yml` (replacing the config file with any language in [/config](/config))
+4. Import the language's environment variables: `set -a; source includes/strings.fr.env; set +a` (replacing fr with the appropriate language)
+5. Serve the site locally: `pipenv run mkdocs serve --config-file config/mkdocs.fr.yml` (replacing fr with the appropriate language in [/config](/config))
 
 Translations downloaded from Crowdin are [.gitignore](/.gitignore)'d, so any local changes to the translated site cannot be committed to this repo. Actual modifications need to be made on Crowdin. As an alternative to steps 1-3, you can copy the folders from [privacyguides/i18n](https://github.com/privacyguides/i18n) to the root of this repo to obtain the translated files.
 
@@ -115,10 +116,9 @@ Translations downloaded from Crowdin are [.gitignore](/.gitignore)'d, so any loc
 
 It is required to create a GitHub release to publish the current site to privacyguides.org. The current `main` branch can be previewed at [https://main.staging.privacyguides.dev](https://main.staging.privacyguides.dev) prior to release.
 
-1. Create a new tag: `git tag -s v3.X.X -m 'Some message'`
-    - [View existing tags](https://github.com/privacyguides/privacyguides.org/tags)
-    - Tag [numbering](https://semver.org): Increment the MINOR (2nd) number when making significant changes (adding/deleting pages, etc.), increment the PATCH (3rd) number when making minor changes (typos, bug fixes). Probably leave the MAJOR number at 3 until a massive revamp (v1 -> v2 was the Jekyll to MkDocs transition, v2 -> v3 was the introduction of translations).
-    - Consider enabling GPG tag signing by default (`git config tag.gpgSign true`) to avoid missing signatures
+1. Create a new tag: `git tag -s YYYY.MM.DD -m 'Some message'`
+    - Tag numbering: `YYYY.MM.DD` - if two+ releases are published on the same day, append short commit sha to next release, e.g. `YYYY.MM.DD-6aa14e8`
+    - Enable GPG tag signing by default (`git config tag.gpgSign true`) to avoid missing signatures
 2. Push the tag to GitHub: `git push --tags`
 3. A GitHub Release will be automatically created and deployed to the live site.
     - You may wish to manually check or edit the release changelog/title after it is published for accuracy.

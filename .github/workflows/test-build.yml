@@ -18,16 +18,47 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-name: Cleanup Artifacts
+name: 📦 Manual Test Build
 
 on:
-  workflow_call:
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
+  submodule:
+    strategy:
+      matrix:
+        repo: [mkdocs-material-insiders, brand, i18n]
+    uses: ./.github/workflows/download-repo.yml
+    with:
+      repo: ${{ matrix.repo }}
+    secrets:
+      ACTIONS_SSH_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
+
+  build:
+    needs: submodule
+    strategy:
+      matrix:
+        lang: [en, es, fr, he, it, nl, ru, zh-Hant]
+      fail-fast: false
+    permissions:
+      contents: read
+    uses: ./.github/workflows/build.yml
+    with:
+      ref: ${{ github.ref }}
+      repo: ${{ github.repository }}
+      lang: ${{ matrix.lang }}
+      continue-on-error: true
+
+  buildoffline:
+    needs: submodule
+    permissions:
+      contents: read
+    uses: ./.github/workflows/build-offline.yml
+
   cleanup:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: geekyeggo/delete-artifact@v5
-        with:
-          name: repo-*
-          failOnError: false
+    if: ${{ always() }}
+    needs: [build, buildoffline]
+    uses: ./.github/workflows/cleanup.yml
