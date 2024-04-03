@@ -84,6 +84,22 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 
 </div>
 
+### Coinsbee
+
+<div class="admonition recommendation" markdown>
+
+![Coinsbee logo](assets/img/financial-services/coinsbee.svg){ align=right }
+
+**Coinsbee** (available worldwide) allows you to purchase gift cards from 2,500 merchants across 185 countries. No verification is required for orders less than €1,000.
+
+[:octicons-home-16: Homepage](https://coinsbee.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://coinsbee.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://help.coinsbee.com/en/support/solutions/folders/101000172515){ .card-link title=Documentation}
+
+</details>
+
+</div>
+
 <!-- markdownlint-disable-next-line -->
 ### Criteria
 
