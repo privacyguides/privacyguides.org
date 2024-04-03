@@ -21,20 +21,9 @@
 {
     "git.ignoreLimitWarning": true,
     "ltex.diagnosticSeverity": "hint",
-    "[markdown]": {
-      "editor.unicodeHighlight.ambiguousCharacters": true,
-      "editor.unicodeHighlight.invisibleCharacters": true
-    },
-    "[caddyfile]": {
-      "editor.defaultFormatter": "matthewpi.caddyfile-support",
-      "editor.formatOnSave": true
-    },
-    "files.associations": {
-      "*.caddy": "caddyfile",
-      "*.example-caddy": "caddyfile"
-    },
-      "editor.unicodeHighlight.invisibleCharacters": true,
-      "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.unicodeHighlight.ambiguousCharacters": true,
+    "editor.unicodeHighlight.invisibleCharacters": true,
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
     "[yaml]": {
       "editor.defaultFormatter": "redhat.vscode-yaml",
       "editor.quickSuggestions": {

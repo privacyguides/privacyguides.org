@@ -105,8 +105,8 @@ extra:
         name: Self-Hosted Analytics
         checked: true
       github:
-        name: GitHub
-        checked: false
+        name: GitHub API
+        checked: true
     actions:
       - reject
       - accept

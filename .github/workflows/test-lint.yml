@@ -35,7 +35,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  MAIN_BRANCH: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+  MAIN_BRANCH: ${{ github.event_name == 'push' }}
 
 jobs:
   megalinter:
@@ -45,7 +45,7 @@ jobs:
       - if: ${{ env.MAIN_BRANCH }}
         uses: actions/checkout@v4
 
-      - if: ${{ !env.MAIN_BRANCH }}
+      - if: ${{ env.MAIN_BRANCH == 0 }}
         uses: actions/checkout@v4
         with:
           fetch-depth: 0

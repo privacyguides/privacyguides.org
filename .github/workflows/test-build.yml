@@ -45,7 +45,7 @@ jobs:
       fail-fast: false
     permissions:
       contents: read
-    uses: privacyguides/.github/.github/workflows/build.yml@main
+    uses: ./.github/workflows/build.yml
     with:
       ref: ${{ github.ref }}
       repo: ${{ github.repository }}
@@ -56,7 +56,7 @@ jobs:
     needs: submodule
     permissions:
       contents: read
-    uses: privacyguides/.github/.github/workflows/build-offline.yml@main
+    uses: ./.github/workflows/build-offline.yml
 
   cleanup:
     if: ${{ always() }}

@@ -48,7 +48,7 @@ jobs:
         lang: [en, es, fr, he, it, nl, ru, zh-Hant]
     permissions:
       contents: read
-    uses: privacyguides/.github/.github/workflows/build.yml@main
+    uses: ./.github/workflows/build.yml
     with:
       ref: ${{ github.ref }}
       repo: ${{ github.repository }}
@@ -60,7 +60,7 @@ jobs:
     needs: submodule
     permissions:
       contents: read
-    uses: privacyguides/.github/.github/workflows/build-offline.yml@main
+    uses: ./.github/workflows/build-offline.yml
 
   release:
     name: Create release notes
@@ -84,15 +84,13 @@ jobs:
 
   deploy:
     needs: build
-    uses: ./.github/workflows/deploy-all.yml
-    with:
-      netlify_production: true
-      github_pages: true
-      minio_production: true
+    uses: privacyguides/webserver/.github/workflows/deploy-all.yml@main
     secrets:
       NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
       PROD_MINIO_KEY_ID: ${{ secrets.PROD_MINIO_KEY_ID }}
       PROD_MINIO_SECRET_KEY: ${{ secrets.PROD_MINIO_SECRET_KEY }}
+      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
 
   cleanup:
     if: ${{ always() }}

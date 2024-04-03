@@ -22,7 +22,7 @@ function getCookie(cname) {
 
 var consent = __md_get("__consent")
 if (!consent) {
-  __md_set("__consent", {umami: true});
+  __md_set("__consent", {"umami":true,"github":true});
   if (getCookie('resolution') == '') {
     const resolution = `${window.screen.width}x${window.screen.height}`;
     setCookie('resolution', resolution, 30);

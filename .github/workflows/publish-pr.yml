@@ -60,7 +60,7 @@ jobs:
       fail-fast: false
     permissions:
       contents: read
-    uses: privacyguides/.github/.github/workflows/build.yml@main
+    uses: ./.github/workflows/build.yml
     with:
       ref: ${{github.event.pull_request.head.ref}}
       repo: ${{github.event.pull_request.head.repo.full_name}}
@@ -71,7 +71,7 @@ jobs:
     needs: build
     permissions:
       contents: read
-    uses: privacyguides/.github/.github/workflows/deploy-netlify-preview.yml@main
+    uses: privacyguides/webserver/.github/workflows/deploy-netlify-preview.yml@main
     with:
       netlify_alias: ${{ github.event.pull_request.head.sha }}
       netlify_site_id: ${{ vars.NETLIFY_SITE }}
@@ -84,7 +84,7 @@ jobs:
     needs: deploy
     runs-on: ubuntu-latest
     env:
-      address: ${{ needs.deploy.outputs.netlify_preview_address }}
+      address: ${{ needs.deploy.outputs.address }}
     steps:
       - uses: thollander/actions-comment-pull-request@v2.5.0
         with:
