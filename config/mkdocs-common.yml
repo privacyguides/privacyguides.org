@@ -174,7 +174,6 @@ theme:
 extra_css:
   - assets/stylesheets/extra.css?v=3.17.0
 extra_javascript:
-  - assets/javascripts/mathjax.js
   - assets/javascripts/randomize-element.js
   - assets/javascripts/resolution.js
   - assets/javascripts/feedback.js
