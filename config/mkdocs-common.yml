@@ -158,10 +158,13 @@ theme:
 
 extra_css:
   - assets/stylesheets/extra.css?v=3.17.0
+  - assets/stylesheets/katex.css?v=0.16.7
 extra_javascript:
-  - assets/javascripts/mathjax.js
+  - assets/javascripts/katex.js
   - assets/javascripts/randomize-element.js
   - assets/javascripts/resolution.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
 
 watch:
   - ../theme
