@@ -93,6 +93,21 @@ extra:
       link: /ru/
       lang: ru
       icon: https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f1f7-1f1fa.svg
+  analytics:
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! If you want to let us know more, please leave a post on our
+            <a href="https://discuss.privacyguides.net/c/site-development/7" target="_blank" rel="noopener">forum</a>.
   consent:
     title: !ENV [ANALYTICS_CONSENT_TITLE, "Contribute anonymous statistics"]
     description:
@@ -101,7 +116,7 @@ extra:
         "We use cookies to collect anonymous usage statistics. You can opt out if you wish.",
       ]
     cookies:
-      umami:
+      analytics:
         name: Self-Hosted Analytics
         checked: true
       github:
@@ -162,6 +177,7 @@ extra_javascript:
   - assets/javascripts/mathjax.js
   - assets/javascripts/randomize-element.js
   - assets/javascripts/resolution.js
+  - assets/javascripts/feedback.js
 
 watch:
   - ../theme

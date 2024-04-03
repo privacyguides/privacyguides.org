@@ -22,14 +22,14 @@ function getCookie(cname) {
 
 var consent = __md_get("__consent")
 if (!consent) {
-  __md_set("__consent", {"umami":true,"github":true});
+  __md_set("__consent", {"analytics":true,"github":true});
   if (getCookie('resolution') == '') {
     const resolution = `${window.screen.width}x${window.screen.height}`;
     setCookie('resolution', resolution, 30);
   }
 }
 
-if (consent && consent.umami) {
+if (consent && consent.analytics) {
   if (getCookie('resolution') == '') {
     const resolution = `${window.screen.width}x${window.screen.height}`;
     setCookie('resolution', resolution, 30);

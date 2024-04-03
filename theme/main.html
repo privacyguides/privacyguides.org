@@ -116,9 +116,11 @@
     {{ page.content }}
     {% include "partials/source-file.html" %}
 
+    {% include "partials/feedback.html" %}
+
     {% if config.theme.language == "en" %}
     <hr>
-    <h2>Share this website and spread privacy knowledge</h2>
+    <h2 class="md-feedback__title">Share this website and spread privacy knowledge</h2>
     <p><input class="admonition quote social-share-text" id="share" type="text" value="Privacy Guides: https://www.privacyguides.org - Cybersecurity resources and privacy-focused tools to protect yourself online" onclick="select()" readonly=""></p>
     <p><em>Copy this text to easily share Privacy Guides with your friends and family on any social network!</em></p>
     {% elif config.extra.translation_notice %}
@@ -128,6 +130,5 @@
     </div>
     {% endif %}
 
-    {% include "partials/feedback.html" %}
     {% include "partials/comments.html" %}
 {% endblock %}
