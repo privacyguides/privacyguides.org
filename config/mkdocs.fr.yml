@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-INHERIT: mkdocs-common.yml
+INHERIT: !ENV [MKDOCS_INHERIT, mkdocs-common.yml]
 docs_dir: "../i18n/fr"
 site_url: "https://www.privacyguides.org/fr/"
 site_dir: "../site/fr"

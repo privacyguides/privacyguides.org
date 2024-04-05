@@ -22,10 +22,10 @@
 -->
 
 {% if page and page.meta and page.meta.cover %}
-  <div class="center-cropped" style="background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/en/assets/img/cover/{{ page.meta.cover }}');">
+  <div class="cover center-cropped">
       <img src="/en/assets/img/cover/{{ page.meta.cover }}" alt="">
   </div>
-  <h1 style="margin-top: 50px; text-align: center">{{ page.title | d(config.site_name, true)}}</h1>
+  <h1>{{ page.title | d(config.site_name, true)}}</h1>
 {% endif %}
 
 <!-- Tags -->

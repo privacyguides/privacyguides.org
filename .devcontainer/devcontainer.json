@@ -1,0 +1,8 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/python
+{
+	"name": "Privacy Guides",
+	"image": "ghcr.io/privacyguides/privacyguides.org:main",
+	"forwardPorts": [8000],
+  "postCreateCommand": "MKDOCS_INHERIT=mkdocs-production.yml mkdocs serve --dev-addr=0.0.0.0:8000 --config-file config/mkdocs.en.yml"
+}
