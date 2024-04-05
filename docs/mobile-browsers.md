@@ -150,7 +150,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 </div>
 
-#### Recommended Firefox Configuration
+#### Recommended Safari Configuration
 
 These options can be found in :gear: **Settings** → **Safari**
 
