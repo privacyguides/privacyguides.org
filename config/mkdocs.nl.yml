@@ -23,7 +23,7 @@ docs_dir: "../i18n/nl"
 site_url: "https://www.privacyguides.org/nl/"
 site_dir: "../site/nl"
 
-edit_uri: edit/main/i18n/nl/
+edit_uri_template: https://github.com/privacyguides/i18n/blob/main/i18n/nl/{path}?plain=1
 
 theme:
   language: nl

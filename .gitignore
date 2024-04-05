@@ -2,10 +2,8 @@ site
 /i18n/
 /includes/*
 !/includes/*.en.*
-/static/i18n/*
-!/static/i18n/*.en.*
-/theme/overrides/*
-!/theme/overrides/*.en.*
+/static/i18n/
+/theme/overrides/*.*.*
 
 # commit social card fonts to repo
 # see: https://github.com/squidfunk/mkdocs-material/issues/6983

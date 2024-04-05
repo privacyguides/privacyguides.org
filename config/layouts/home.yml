@@ -24,7 +24,7 @@ definitions:
     {{ page.meta.get("title", page.title) }}
 
   - &page_description >-
-    {{ config.extra.homepage_description }}
+    {{ config.extra.privacy_guides.homepage.description }}
 
   - &og_description >-
     {{ page.meta.get("description", config.site_description) or "" }}

@@ -22,7 +22,7 @@
 
 @font-face {
     font-family: 'Bagnard';
-    src: url("/en/assets/brand/fonts/Bagnard/Bold.woff") format("woff");
+    src: url("../brand/fonts/Bagnard/Bold.woff") format("woff");
     font-display: swap;
 }
 

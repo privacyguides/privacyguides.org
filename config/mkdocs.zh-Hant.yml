@@ -23,7 +23,7 @@ docs_dir: "../i18n/zh-Hant"
 site_url: "https://www.privacyguides.org/zh-Hant/"
 site_dir: "../site/zh-Hant"
 
-edit_uri: edit/main/i18n/zh-Hant/
+edit_uri_template: https://github.com/privacyguides/i18n/blob/main/i18n/zh-Hant/{path}?plain=1
 
 extra_css:
   - assets/stylesheets/extra.css?v=3.2.0

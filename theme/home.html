@@ -21,12 +21,12 @@
   IN THE SOFTWARE.
 #} -->
 {% extends "main.html" %}
+{% set homepage = config.extra.privacy_guides.homepage %}
 {% block extrahead %}
   <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=3.3.0' | url }}">
-  <link rel="alternate" type="application/rss+xml" title="Privacy Guides Release Changelog" href="https://discuss.privacyguides.net/c/site-development/changelog/9.rss">
-  <link rel="alternate" type="application/rss+xml" title="Privacy Guides Blog Feed" href="https://blog.privacyguides.org/feed_rss_created.xml">
-  <link rel="alternate" type="application/rss+xml" title="Privacy Guides Web Stories Feed" href="https://share.privacyguides.org/web-stories/feed/">
-  <link rel="alternate" type="application/rss+xml" title="Latest Privacy Guides Forum Topics" href="https://discuss.privacyguides.net/latest.rss" />
+  {% for feed in homepage.rss %}
+    <link rel="alternate" type="application/rss+xml" title="{{ feed.title }}" href="{{ feed.link }}">
+  {% endfor %}
   {{ super() }}
 {% endblock %}
 {% block tabs %}
@@ -36,16 +36,30 @@
     <div class="md-grid md-typeset">
       <div class="mdx-hero">
         <div class="mdx-hero__content">
-          <h1>The guide to restoring your online privacy.</h1>
-          <p>Massive organizations are monitoring your online activities. Privacy Guides is your central privacy and security resource to protect yourself online.</p>
-          <a href="{% if config.extra.offline %}basics/why-privacy-matters.html{% else %}kb/{% endif %}" title="The first step of your privacy journey" class="md-button md-button--primary">
-            Start Your Privacy Journey
-          </a>
-          <a href="{% if config.extra.offline %}tools.html{% else %}tools/{% endif %}" title="Recommended privacy tools, services, and knowledge" class="md-button">
-            Recommended Tools
-          </a>
+          <h1>{{ homepage.hero.header }}</h1>
+          <p>{{ homepage.hero.subheader }}</p>
+          {% for button in homepage.hero.buttons %}
+            <a href="{{ button.link }}" title="{{ button.title }}" class="{{ button.class }}">
+              {{ button.name }}
+            </a>
+          {% endfor %}
         </div>
       </div>
     </div>
   </section>
+{% endblock %}
+{% block content %}
+  {{ page.content }}
+  <div class="mdx-cta">
+    <hr />
+    {% for cta in homepage.cta %}
+      <h2>{{ cta.title }}</h2>
+      {% for icon in cta.links %}
+        <a href="{{ icon.link }}" title="{{ icon.name }}">
+          <span class="twemoji">{% include ".icons/" ~ icon.icon ~ ".svg" %}</span>
+        </a>
+      {% endfor %}
+      <p>{{ cta.description }}</p>
+    {% endfor %}
+  </div>
 {% endblock %}

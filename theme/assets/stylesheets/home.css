@@ -109,23 +109,28 @@ article.md-content__inner {
 article.md-content__inner > * {
     max-width: 38rem;
 }
-article.md-content__inner > *:nth-child(n+7):nth-child(-n+12) {
+/* article.md-content__inner > *:nth-child(n+8):nth-child(-n+12) {
     margin-left: auto;
     margin-right: 0;
     text-align: right;
+} */
+#what-should-i-do, #what-should-i-do ~ :not( .mdx-cat ~ * ):not( .mdx-cta ) {
+  margin-left: auto;
+  margin-right: 0;
+  text-align: right;
 }
 article.md-content__inner > hr {
     margin: 3rem;
 }
-article.md-content__inner > *:nth-child(n+13) {
+.pg-end-right-align, .mdx-cta {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
-article.md-content__inner > *:nth-child(n+13) a:has(.twemoji) {
+.mdx-cta a:has(.twemoji) {
     display: inline-block;
 }
-article.md-content__inner > *:nth-child(n+13) .twemoji {
+.mdx-cta .twemoji {
     --md-icon-size: 1.8em;
     margin: 0.4rem;
 }

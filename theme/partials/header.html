@@ -21,6 +21,35 @@
   IN THE SOFTWARE.
 -->
 
+{% macro notice() %}{% if config.extra.offline %}
+    You're viewing an offline copy of Privacy Guides built on {{ build_date_utc.strftime('%B %d, %Y at %I:%M%p') }}.
+    <a href="https://www.privacyguides.org/">
+    <strong>Visit privacyguides.org for the latest version.</strong>
+    </a>
+{% elif config.extra.context == "deploy-preview" %}
+    You're viewing an <strong>unreviewed preview</strong> of Privacy Guides built on {{ build_date_utc.strftime('%B %d, %Y at %I:%M%p') }}.
+    These previews are <strong>user-submitted</strong> and may not necessarily reflect the opinion of the site.
+    <a href="https://www.privacyguides.org/">
+    <strong>Visit privacyguides.org for current advice.</strong>
+    </a>
+{% elif config.extra.context == "branch-deploy" %}
+    You're viewing a <strong>staging branch</strong> of Privacy Guides built on {{ build_date_utc.strftime('%B %d, %Y at %I:%M%p') }}.
+    The information on this page may be incomplete or otherwise not yet meet our editorial release standards.
+    <a href="https://www.privacyguides.org/">
+    <strong>Visit privacyguides.org for current advice.</strong>
+    </a>
+{% else %}{% endif %}{% endmacro %}
+
+{% if notice() %}
+<div data-md-color-scheme="default" data-md-component="outdated">
+  <aside class="md-banner md-banner--warning">
+    <div class="md-banner__inner md-grid md-typeset">
+      {{ notice() }}
+    </div>
+  </aside>
+</div>
+{% endif %}
+
 <!-- Determine classes -->
 {% set class = "md-header" %}
 {% if "navigation.tabs.sticky" in features %}

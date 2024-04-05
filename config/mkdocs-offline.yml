@@ -22,11 +22,36 @@ INHERIT: mkdocs-common.yml
 
 # Disable any GitHub integrations
 repo_url: ""
+edit_uri_template: ""
 
 extra:
   # Disable language switcher
   alternate: false
   offline: true
+  privacy_guides:
+    homepage:
+      hero:
+        buttons:
+          - name:
+              !ENV [
+                HOMEPAGE_BUTTON_GET_STARTED_NAME,
+                "Start Your Privacy Journey",
+              ]
+            title:
+              !ENV [
+                HOMEPAGE_BUTTON_GET_STARTED_TITLE,
+                "The first step of your privacy journey",
+              ]
+            link: basics/why-privacy-matters.html
+            class: md-button md-button--primary
+          - name: !ENV [HOMEPAGE_BUTTON_TOOLS_NAME, "Recommended Tools"]
+            title:
+              !ENV [
+                HOMEPAGE_BUTTON_TOOLS_TITLE,
+                "Recommended privacy tools, services, and knowledge",
+              ]
+            link: tools.html
+            class: md-button
 
 theme:
   # OFFLINE ONLY: this logo needs to be set separately because the relative path is different

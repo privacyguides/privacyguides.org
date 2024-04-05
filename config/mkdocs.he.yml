@@ -23,7 +23,7 @@ docs_dir: "../i18n/he"
 site_url: "https://www.privacyguides.org/he/"
 site_dir: "../site/he"
 
-edit_uri: edit/main/i18n/he/
+edit_uri_template: https://github.com/privacyguides/i18n/blob/main/i18n/he/{path}?plain=1
 
 extra_css:
   - assets/stylesheets/extra.css?v=3.2.0
