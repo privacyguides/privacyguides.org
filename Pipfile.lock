@@ -45,7 +45,6 @@
                 "sha256:432531d72347291b9a9ebfb6777026b607563fd8719c46ee742db0aef7271ba0",
                 "sha256:8a5222d4e6c3f86f1f7046b63246877a63b49923a1cd202184c3a634ef546b3b"
             ],
-            "markers": "python_version >= '3.5'",
             "version": "==2.7.1"
         },
         "certifi": {
@@ -399,6 +398,7 @@
                 "sha256:b070bbe8d3f0f6147689bed981d19bbb33070225373338df755a46893528104a",
                 "sha256:b0b58fbfa1bf7367dde8a557994e3b1637294be6cf2169810375caf8571a085c",
                 "sha256:b560e3aa4b1d49e0e6c847d72665384db35b2f5d45f8e6a5c0072e0283430533",
+                "sha256:b6241d4eee5f89453307c2f2bfa03b50362052ca0af1efecf9fef9a41a22bb4f",
                 "sha256:b6787b643356111dfd4032b5bffe26d2f8331556ecb79e15dacb9275da02866e",
                 "sha256:bcbf4af004f98793a95355980764b3d80d47117678118a44a80b721c9913436a",
                 "sha256:beb72935a941965c52990f3a32d7f07ce869fe21c6af8b34bf6a277b33a345d3",
@@ -569,6 +569,7 @@
             "extras": [
                 "imaging"
             ],
+            "markers": "python_version >= '3.8'",
             "path": "./modules/mkdocs-material"
         },
         "mkdocs-material-extensions": {
@@ -673,7 +674,6 @@
                 "sha256:fdcbb4068117dfd9ce0138d068ac512843c52295ed996ae6dd1faf537b6dbc27",
                 "sha256:ff61bfd9253c3915e6d41c651d5f962da23eda633cf02262990094a18a55371a"
             ],
-            "markers": "python_version >= '3.8'",
             "version": "==10.3.0"
         },
         "platformdirs": {

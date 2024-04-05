@@ -86,7 +86,14 @@ When you contribute to this repository you are doing so under the above licenses
 
 Committing to this repository requires [signing your commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) (`git config commit.gpgsign true`) unless you are making edits via the GitHub.com text editor interface. As of August 2022 the preferred signing method is [SSH commit signatures](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification), but GPG signing is also acceptable. You should add your signing key to your GitHub profile.
 
-This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdocs-material/insiders) which offers additional functionality over the open-source `mkdocs-material` project. For obvious reasons we cannot distribute access to the insiders repository. Running this website locally without access to insiders is unsupported. If you are submitting a PR, please ensure the automatic preview generated for your PR looks correct, as that site will be built with the production insiders build.
+### With `mkdocs-material`
+
+1. Install required packages: `pip install mkdocs-material`
+2. Run a local preview of the English site: `mkdocs serve --config-file config/mkdocs.en.yml`
+
+### With `mkdocs-material-insiders`
+
+This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdocs-material/insiders) which offers additional functionality over the open-source `mkdocs-material` project. For obvious reasons we cannot distribute access to the insiders repository. If you are submitting a PR, please ensure the automatic preview generated for your PR looks correct, as that site will be built with the production insiders build.
 
 **Team members** should clone the repository with `mkdocs-material-insiders` directly. This method is identical to production:
 
@@ -95,9 +102,9 @@ This website uses [`mkdocs-material-insiders`](https://squidfunk.github.io/mkdoc
 3. Install Python **3.12**.
 4. Install **pipenv**: `pip install pipenv`
 5. Install dependencies: `pipenv install --dev` (install [Pillow and CairoSVG](https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/#dependencies) as well to generate social cards)
-6. Serve the site locally: `pipenv run mkdocs serve --config-file config/mkdocs.en.yml` (set `CARDS=true` to generate social cards)
+6. Serve the site locally: `MKDOCS_INHERIT=mkdocs-production.yml pipenv run mkdocs serve --config-file config/mkdocs.en.yml` (set `CARDS=true` to generate social cards)
     - The site will be available at `http://localhost:8000`
-    - You can build the site locally with `pipenv run mkdocs build --config-file config/mkdocs.en.yml`
+    - You can build the site locally with `MKDOCS_INHERIT=mkdocs-production.yml pipenv run mkdocs build --config-file config/mkdocs.en.yml`
     - This version of the site should be identical to the live, production version
 
 If you commit to `main` with commits signed with your SSH key, you should add your SSH key to [`.allowed_signers`](/.allowed_signers) in this repo.

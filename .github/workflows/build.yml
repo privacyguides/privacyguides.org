@@ -3,6 +3,9 @@ name: Build Website
 on:
   workflow_call:
     inputs:
+      base_config:
+        type: string
+        default: mkdocs-production.yml
       ref:
         required: true
         type: string
@@ -90,6 +93,7 @@ jobs:
       - env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CONTEXT: ${{ inputs.context }}
+          MKDOCS_INHERIT: ${{ inputs.base_config }}
           PRODUCTION: true
         run: |
           pipenv run mkdocs build --config-file config/mkdocs.${{ inputs.lang }}.yml

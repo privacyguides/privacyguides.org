@@ -49,6 +49,16 @@ updates:
       interval: "monthly"
     labels:
       - "fix:submodules"
+
+  - package-ecosystem: "devcontainers"
+    directory: "/"
+    schedule:
+      interval: weekly
+
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: weekly
 # Disabled because some updates tend to remove needed dependencies for some reason
 
 #  # Maintain dependencies for pipenv
