@@ -307,36 +307,12 @@ watch:
 plugins:
   tags: {}
   search: {}
-  macros: {}
-  meta: {}
-  git-committers:
-    enabled: !ENV [GITCOMMITTERS, PRODUCTION, NETLIFY, false]
-    repository: privacyguides/privacyguides.org
-    branch: main
-  git-revision-date-localized:
-    enabled: !ENV [GITREVISIONDATE, PRODUCTION, NETLIFY, false]
-    exclude:
-      - index.md
-    fallback_to_build_date: true
   privacy:
     assets_exclude:
       - cdn.jsdelivr.net/npm/mathjax@3/*
-  optimize:
-    enabled: !ENV [OPTIMIZE, PRODUCTION, NETLIFY, false]
-  typeset: {}
-  social:
-    cards: !ENV [CARDS, PRODUCTION, NETLIFY, true]
-    cards_dir: assets/img/social
-    cards_layout_dir: config/layouts
-    cards_layout: page
-    # cards_layout: pride
 
 markdown_extensions:
   admonition: {}
-  material.extensions.preview:
-    sources:
-      exclude:
-        - tools.md
   pymdownx.details: {}
   pymdownx.superfences:
     custom_fences:
