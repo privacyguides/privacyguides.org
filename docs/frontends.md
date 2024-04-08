@@ -124,7 +124,7 @@ LibreTube allows you to store your subscription list and playlists locally on yo
 
 [:octicons-home-16: Homepage](https://libretube.dev){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/libre-tube/LibreTube/blob/master/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=Documentation}
+[:octicons-info-16:](https://libretube.dev/#faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/libre-tube/LibreTube#donate){ .card-link title=Contribute }
 
@@ -158,7 +158,7 @@ Your subscription list and playlists are saved locally on your Android device.
 
 [:octicons-home-16: Homepage](https://newpipe.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://teamnewpipe.github.io/documentation){ .card-link title=Documentation}
+[:octicons-info-16:](https://newpipe.net/FAQ){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://newpipe.net/donate){ .card-link title=Contribute }
 

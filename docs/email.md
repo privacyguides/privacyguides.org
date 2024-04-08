@@ -71,7 +71,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g. Thunderbird). Paid accounts include features like Proton Mail Bridge, additional storage, and custom domain support. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail has internal crash reports that they **do not** share with third parties. This can be disabled in: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
 
@@ -136,7 +136,7 @@ Mailbox.org lets you use your own domain, and they support [catch-all](https://k
 
 #### :material-check:{ .pg-green } Private Payment Methods
 
-Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept Cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
+Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Account Security
 
@@ -156,7 +156,7 @@ Mailbox.org also supports the discovery of public keys via HTTP from their [Web 
 
 #### :material-information-outline:{ .pg-blue } Account Termination
 
-Your account will be set to a restricted user account when your contract ends, after [30 days it will be irrevocably deleted](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } Additional Functionality
 

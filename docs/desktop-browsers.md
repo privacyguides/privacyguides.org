@@ -104,7 +104,7 @@ This is required to prevent advanced forms of tracking, but does come at the cos
 
 ### Mullvad Leta
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes preinstalled with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta queries Google's paid search API directly (which is why it is limited to paying subscribers), however because of this limitation it is possible for Mullvad to correlate search queries and Mullvad VPN accounts. For this reason we discourage the use of Mullvad Leta, even though Mullvad collects very little information about their VPN subscribers.
+Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes preinstalled with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. For this reason we discourage the use of Mullvad Leta, even though Mullvad collects very little information about their VPN subscribers.
 
 ## Firefox
 
@@ -116,7 +116,7 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 
 [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://firefox-source-docs.mozilla.org){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentation}
 [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
 
@@ -145,11 +145,18 @@ These options can be found in :material-menu: → **Settings**
 
 #### Search
 
-- [ ] Uncheck **Provide search suggestions**
+- [ ] Uncheck **Show search suggestions**
 
 Search suggestion features may not be available in your region.
 
 Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+
+##### Firefox Suggest (US only)
+
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+
+- [ ] Uncheck **Suggestions from Firefox**
+- [ ] Uncheck **Suggestions from sponsors**
 
 #### Privacy & Security
 
@@ -158,13 +165,6 @@ Search suggestions send everything you type in the address bar to the default se
 - [x] Select **Strict** Enhanced Tracking Protection
 
 This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
-
-##### Firefox Suggest (US only)
-
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
-
-- [ ] Uncheck **Suggestions from the web**
-- [ ] Uncheck **Suggestions from sponsors**
 
 ##### Sanitize on Close
 
@@ -182,7 +182,7 @@ This protects you from persistent cookies, but does not protect you against cook
 
 > Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
 
-Additionally, the Firefox Accounts service collects [some technical data](https://mozilla.org/privacy/firefox/#firefox-accounts). If you use a Firefox Account you can opt-out:
+Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt-out:
 
 1. Open your [profile settings on accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Uncheck **Data Collection and Use** > **Help improve Firefox Accounts**
