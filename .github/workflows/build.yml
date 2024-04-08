@@ -3,9 +3,9 @@ name: Build Website
 on:
   workflow_call:
     inputs:
-      base_config:
+      config:
         type: string
-        default: mkdocs-production.yml
+        default: build
       ref:
         required: true
         type: string
@@ -33,6 +33,20 @@ jobs:
       contents: read
 
     steps:
+      - run: |
+          echo "GH_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
+
+      - if: inputs.config == 'build'
+        run: |
+          echo "MKDOCS_INHERIT=mkdocs-production.yml" >> $GITHUB_ENV
+          echo "PRODUCTION=true" >> $GITHUB_ENV
+          echo "CONTEXT=${{ inputs.context }}" >> $GITHUB_ENV
+
+      - if: inputs.config == 'offline'
+        run: |
+          echo "MKDOCS_INHERIT=mkdocs-offline.yml" >> $GITHUB_ENV
+          echo "CARDS=false" >> $GITHUB_ENV
+
       - uses: actions/checkout@v4
         with:
           repository: ${{ inputs.repo }}
@@ -90,15 +104,10 @@ jobs:
           export-variables: true
           keys-case: bypass
 
-      - env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CONTEXT: ${{ inputs.context }}
-          MKDOCS_INHERIT: ${{ inputs.base_config }}
-          PRODUCTION: true
-        run: |
+      - run: |
           pipenv run mkdocs build --config-file config/mkdocs.${{ inputs.lang }}.yml
           pipenv run mkdocs --version
-          tar -czvf site-build-${{ inputs.lang }}.tar.gz site
+          tar -czvf site-${{ inputs.config }}-${{ inputs.lang }}.tar.gz site
 
       - uses: actions/cache/save@v4.0.2
         with:
@@ -114,5 +123,49 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: site-build-${{ inputs.lang }}.tar.gz
-          path: site-build-${{ inputs.lang }}.tar.gz
+          name: site-${{ inputs.config }}-${{ inputs.lang }}.tar.gz
+          path: site-${{ inputs.config }}-${{ inputs.lang }}.tar.gz
+
+  offline_package:
+    if: inputs.config == 'offline' && inputs.lang == 'en'
+    needs: build
+    runs-on: ubuntu-latest
+    continue-on-error: ${{ inputs.continue-on-error }}
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: site-offline-en.tar.gz
+
+      - run: |
+          tar -xzvf site-offline-en.tar.gz
+          tar -czvf offline.tar.gz site/en
+          zip -r -q offline.zip site/en
+
+      - name: Upload tar.gz file
+        uses: actions/upload-artifact@v4
+        with:
+          name: offline.tar.gz
+          path: offline.tar.gz
+
+      - name: Upload zip file
+        uses: actions/upload-artifact@v4
+        with:
+          name: offline.zip
+          path: offline.zip
+
+      - name: Create ZIM File
+        uses: addnab/docker-run-action@v3
+        with:
+          image: ghcr.io/openzim/zim-tools:3.1.3
+          options: -v ${{ github.workspace }}:/data
+          run: |
+            zimwriterfs -w index.html -I assets/brand/logos/png/square/pg-yellow.png -l eng -t "Privacy Guides" -d "Your central privacy and security resource to protect yourself online." -c "Privacy Guides" -p "Jonah Aragon" -n "Privacy Guides" -e "https://github.com/privacyguides/privacyguides.org" /data/site/en /data/offline-privacy_guides.zim
+
+      - name: Upload ZIM file
+        uses: actions/upload-artifact@v4
+        with:
+          name: offline-privacy_guides.zim
+          path: offline-privacy_guides.zim

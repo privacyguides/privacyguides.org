@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-INHERIT: !ENV [MKDOCS_INHERIT, mkdocs-common.yml]
+INHERIT: mkdocs-common.yml
 
 # Disable any GitHub integrations
 repo_url: ""
@@ -54,8 +54,6 @@ extra:
             class: md-button
 
 theme:
-  # OFFLINE ONLY: this logo needs to be set separately because the relative path is different
-  logo: ../theme/assets/brand/logos/svg/logo/privacy-guides-logo-notext-colorbg.svg
   features:
     - navigation.tabs
     - navigation.sections

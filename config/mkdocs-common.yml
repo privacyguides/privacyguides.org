@@ -307,9 +307,7 @@ watch:
 plugins:
   tags: {}
   search: {}
-  privacy:
-    assets_exclude:
-      - cdn.jsdelivr.net/npm/mathjax@3/*
+  privacy: {}
 
 markdown_extensions:
   admonition: {}
