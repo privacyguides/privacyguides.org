@@ -206,7 +206,7 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner)
+- [:simple-fdroid: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner)
 
 </details>
 

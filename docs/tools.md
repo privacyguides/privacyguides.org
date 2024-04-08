@@ -45,6 +45,7 @@ For more details about each project, why they were chosen, and additional tips o
 <div class="grid cards" markdown>
 
 - ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Android)](mobile-browsers.md#brave)
+- ![Mull logo](assets/img/browsers/mull.svg){ .twemoji } [Mull (Android)](mobile-browsers.md#mull)
 - ![Safari logo](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](mobile-browsers.md#safari)
 
 </div>

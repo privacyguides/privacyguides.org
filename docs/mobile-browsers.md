@@ -40,8 +40,6 @@ These are our currently recommended mobile web browsers and configurations for s
 
 ## Android
 
-On Android, Firefox is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
-
 ### Brave
 
 <div class="admonition recommendation" markdown>
@@ -130,6 +128,45 @@ Brave allows you to select additional content filters within the internal `brave
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
+### Mull
+
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
+
+Firefox (Gecko)-based browsers on Android [lack per-site process isolation](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196), a powerful security feature that offers additional protection against a malicious website exploiting a security vulnerability. Missing this feature likely won't pose an issue for low-risk web browsers who keep their browser up-to-date, but those visiting higher-risk sites or at risk of targeted/0-day attacks should strongly consider a Chromium-based browser like [Brave](#brave) instead.
+
+</div>
+
+<div class="admonition recommendation" markdown>
+
+![Mull logo](assets/img/browsers/mull.svg){ align=right }
+
+**Mull** is a privacy oriented and deblobbed Android browser based on Firefox. Compared to Firefox, it offers much greater fingerprinting protection out of the box, and disables JavaScript Just-in-Time (JIT) compilation for enhanced security. It also removes all proprietary elements from Firefox, such as replacing Google Play Services references.
+
+[:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title=Documentation }
+[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/us.spotco.fennec_dos/)
+
+</details>
+
+</div>
+
+Enable DivestOS's [F-Droid Repo](https://divestos.org/fdroid/official/) to receive updates directly from the developer. Downloading Mull from the default F-Droid repo will mean your updates could be delayed by a few days or longer.
+
+Mull enables many features upstreamed by the [Tor uplift project](https://wiki.mozilla.org/Security/Tor_Uplift) using preferences from [Arkenfox](desktop-browsers.md#arkenfox-advanced). Proprietary blobs are removed from Mozilla's code using the scripts developed for Fennec F-Droid.
+
+#### Recommended Mull Configuration
+
+We would suggest installing [uBlock Origin](browser-extensions.md#ublock-origin) as a content blocker if you want to block trackers within Mull.
+
+Mull comes with privacy protecting settings configured by default. You might consider configuring the **Delete browsing data on quit** options in Mull's settings if you want to close all your open tabs when quitting the app automatically, or clear other data such as browsing history and cookies automatically.
+
 ## iOS
 
 On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so there is little reason to use a third-party web browser.
@@ -152,7 +189,9 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 #### Recommended Safari Configuration
 
-These options can be found in :gear: **Settings** → **Safari**
+We would suggest installing [AdGuard](browser-extensions.md#adguard) as a content blocker if you want to block trackers within Safari.
+
+The following privacy/security-related options can be found in the :gear: **Settings** app → **Safari**
 
 ##### Profiles
 
@@ -215,8 +254,6 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend chec
 ### Minimum Requirements
 
 - Must support automatic updates.
-- Must receive engine updates in 0-1 days from upstream release.
+- Must receive engine updates from upstream releases quickly.
+- Must support content blocking.
 - Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
-- Android browsers must use the Chromium engine.
-    - Unfortunately, Mozilla GeckoView is still less secure than Chromium on Android.
-    - iOS browsers are limited to WebKit.
