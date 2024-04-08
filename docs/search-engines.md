@@ -88,6 +88,8 @@ When you are using a SearXNG instance, be sure to go read their privacy policy. 
 
 **Startpage** is a private search engine known for serving [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) search results.  One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the [Tor Browser](tor.md#tor-browser) instead.
 
+Startpage can be accessed on the [Tor Browser](tor.md#tor-browser) using their [.onion site](https://support.startpage.com/hc/en-us/articles/24786602537364-Startpage-s-Tor-onion-service).and can be accesed on Tor Safest Level, which disable javascript. It has all features that Starpage.com has, except Anonynous view. 
+
 [:octicons-home-16: Homepage](https://startpage.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
@@ -99,7 +101,8 @@ When you are using a SearXNG instance, be sure to go read their privacy policy. 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Startpage regularly limits service access to certain IP addresses, such as IPs reserved for VPNs or Tor. [DuckDuckGo](#duckduckgo) and [Brave Search](#brave-search) are friendlier options if your threat model requires hiding your IP address from the search provider.
+Startpage regularly limits service access to certain IP addresses, such as IPs reserved for VPNs or Tor.
+
 
 </div>
 
