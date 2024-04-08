@@ -237,10 +237,10 @@ extra:
       ]
     cookies:
       analytics:
-        name: Self-Hosted Analytics
+        name: !ENV [ANALYTICS_COOKIE_UMAMI, "Self-Hosted Analytics"]
         checked: true
       github:
-        name: GitHub API
+        name: !ENV [ANALYTICS_COOKIE_GITHUB, "GitHub API"]
         checked: true
     actions:
       - reject
@@ -293,11 +293,11 @@ theme:
     - search.highlight
 
 extra_css:
-  - assets/stylesheets/extra.css?v=3.17.0
+  - assets/stylesheets/extra.css?v=1
 extra_javascript:
-  - assets/javascripts/randomize-element.js
-  - assets/javascripts/resolution.js
-  - assets/javascripts/feedback.js
+  - assets/javascripts/randomize-element.js?v=1
+  - assets/javascripts/resolution.js?v=1
+  - assets/javascripts/feedback.js?v=1
 
 watch:
   - ../theme
