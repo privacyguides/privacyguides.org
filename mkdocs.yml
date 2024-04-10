@@ -18,9 +18,9 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-docs_dir: "../docs"
-site_url: "https://www.privacyguides.org/"
-site_dir: "../site"
+docs_dir: !ENV [BUILD_DOCS_DIR, "docs"]
+site_url: !ENV [BUILD_SITE_URL, "https://www.privacyguides.org/en/"]
+site_dir: !ENV [BUILD_SITE_DIR, "site/en"]
 
 site_name: Privacy Guides
 site_description:
@@ -28,11 +28,13 @@ site_description:
     SITE_DESCRIPTION,
     "Privacy Guides is your central privacy and security resource to protect yourself online.",
   ]
-edit_uri_template: blob/main/docs/{path}?plain=1
+edit_uri_template:
+  !ENV [BUILD_EDIT_URI_TEMPLATE, "blob/main/docs/{path}?plain=1"]
 
 extra:
   generator: false
-  context: !ENV [CONTEXT, "production"]
+  context: !ENV [BUILD_CONTEXT, "production"]
+  offline: !ENV [BUILD_OFFLINE, false]
   deploy: !ENV DEPLOY_ID
   privacy_guides:
     footer:
@@ -80,7 +82,11 @@ extra:
                 HOMEPAGE_BUTTON_GET_STARTED_TITLE,
                 "The first step of your privacy journey",
               ]
-            link: basics/why-privacy-matters/
+            link:
+              !ENV [
+                HOMEPAGE_BUTTON_GET_STARTED_LINK,
+                "basics/why-privacy-matters/",
+              ]
             class: md-button md-button--primary
           - name: !ENV [HOMEPAGE_BUTTON_TOOLS_NAME, "Recommended Tools"]
             title:
@@ -88,7 +94,7 @@ extra:
                 HOMEPAGE_BUTTON_TOOLS_TITLE,
                 "Recommended privacy tools, services, and knowledge",
               ]
-            link: tools/
+            link: !ENV [HOMEPAGE_BUTTON_TOOLS_LINK, "tools/"]
             class: md-button
       cta:
         - title:
@@ -161,6 +167,7 @@ extra:
       notice: !ENV TRANSLATION_NOTICE
       cta: !ENV [TRANSLATION_NOTICE_CTA, "Visit Crowdin"]
       language: !ENV SITE_LANGUAGE_ENGLISH
+    translation_stylesheet: !ENV [TRANSLATION_STYLESHEET]
   social:
     - icon: simple/mastodon
       link: https://mastodon.neat.computer/@privacyguides
@@ -247,17 +254,17 @@ extra:
       - accept
       - manage
 
-repo_url: https://github.com/privacyguides/privacyguides.org
+repo_url:
+  !ENV [BUILD_REPO_URL, "https://github.com/privacyguides/privacyguides.org"]
 repo_name: ""
 
 theme:
   name: material
-  language: en
-  custom_dir: ../theme
-  logo: ../../theme/assets/brand/logos/svg/logo/privacy-guides-logo-notext-colorbg.svg
+  language: !ENV [BUILD_THEME_LANGUAGE, "en"]
+  custom_dir: theme
   font:
-    text: Public Sans
-    code: DM Mono
+    text: !ENV [BUILD_THEME_FONT_TEXT, "Public Sans"]
+    code: !ENV [BUILD_THEME_FONT_CODE, "DM Mono"]
   palette:
     - media: "(prefers-color-scheme)"
       scheme: default
@@ -300,14 +307,36 @@ extra_javascript:
   - assets/javascripts/feedback.js?v=1
 
 watch:
-  - ../theme
-  - ../includes
-  - mkdocs-common.yml
+  - theme
+  - includes
 
 plugins:
   tags: {}
   search: {}
   privacy: {}
+  group:
+    enabled: !ENV [BUILD_INSIDERS, false]
+    plugins:
+      macros: {}
+      meta: {}
+      git-committers:
+        enabled: !ENV [GITCOMMITTERS, PRODUCTION, NETLIFY, false]
+        repository: privacyguides/privacyguides.org
+        branch: main
+      git-revision-date-localized:
+        enabled: !ENV [GITREVISIONDATE, PRODUCTION, NETLIFY, false]
+        exclude:
+          - index.md
+        fallback_to_build_date: true
+      optimize:
+        enabled: !ENV [OPTIMIZE, PRODUCTION, NETLIFY, false]
+      typeset: {}
+      social:
+        cards: !ENV [CARDS, true]
+        cards_dir: assets/img/social
+        cards_layout_dir: theme/layouts
+        cards_layout: page
+        # cards_layout: pride
 
 markdown_extensions:
   admonition: {}
@@ -328,7 +357,7 @@ markdown_extensions:
   pymdownx.tilde: {}
   pymdownx.snippets:
     auto_append:
-      - includes/abbreviations.en.txt
+      - !ENV [BUILD_ABBREVIATIONS, "includes/abbreviations.en.txt"]
   pymdownx.tasklist:
     custom_checkbox: true
   attr_list: {}

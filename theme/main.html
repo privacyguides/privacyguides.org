@@ -71,6 +71,12 @@
 {% endblock %}
 
 {% block extrahead %}
+
+  <!-- language-specific stylesheets -->
+  {% if config.extra.privacy_guides.translation_stylesheet %}
+  <link rel="stylesheet" href="{{ config.extra.privacy_guides.translation_stylesheet | url }}" />
+  {% endif %}
+
   <meta name="robots" content="max-snippet:-1, max-image-preview:large">
   {% if config.extra.context == "production" %}
   <meta http-equiv="onion-location" content="{{ "http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/" ~ config.theme.language ~ "/" ~ page.url }}" />

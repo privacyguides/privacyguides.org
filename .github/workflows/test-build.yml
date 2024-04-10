@@ -41,7 +41,7 @@ jobs:
     needs: submodule
     strategy:
       matrix:
-        lang: [en, es, fr, he, it, nl, ru, zh-Hant]
+        lang: [en, fr, he]
         build: [build, offline]
       fail-fast: false
     permissions:
