@@ -50,6 +50,56 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Configure markdown-link-check
+        run: |
+          cat <<EOT >> .markdown-link-check.json
+          {
+            "ignorePatterns": [
+              {
+                "pattern": "^https://twitter.com"
+              },
+              {
+                "pattern": "^https://reddit.com"
+              },
+              {
+                "pattern": "^#_"
+              },
+              {
+                "pattern": ".onion"
+              },
+              {
+                "pattern": "^https://en.opensuse.org"
+              },
+              {
+                "pattern": "^https://quad9.net"
+              },
+              {
+                "pattern": "^https://dnscrypt.info"
+              },
+              {
+                "pattern": "^https://pipewire.org"
+              }
+            ],
+            "replacementPatterns": [
+              {
+                "pattern": "^assets/",
+                "replacement": "https://www.privacyguides.org/en/assets/"
+              },
+              {
+                "pattern": "^(../)*assets/",
+                "replacement": "https://www.privacyguides.org/en/assets/"
+              },
+              {
+                "pattern": "^/",
+                "replacement": "https://www.privacyguides.org/"
+              }
+            ],
+            "retryOn429": true,
+            "retryCount": 5,
+            "aliveStatusCodes": [200, 206, 403]
+          }
+          EOT
+
       - id: ml
         # You can override MegaLinter flavor used to have faster performances
         # More info at https://megalinter.io/flavors/

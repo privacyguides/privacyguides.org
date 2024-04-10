@@ -34,18 +34,20 @@ jobs:
 
     steps:
       - run: |
-          echo "GH_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
+          echo "GH_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> "$GITHUB_ENV"
 
       - if: inputs.config == 'build'
         run: |
-          echo "MKDOCS_INHERIT=mkdocs-production.yml" >> $GITHUB_ENV
-          echo "PRODUCTION=true" >> $GITHUB_ENV
-          echo "CONTEXT=${{ inputs.context }}" >> $GITHUB_ENV
+          {
+            echo "MKDOCS_INHERIT=mkdocs-production.yml"
+            echo "PRODUCTION=true"
+            echo "CONTEXT=${{ inputs.context }}"
+          } >> "$GITHUB_ENV"
 
       - if: inputs.config == 'offline'
         run: |
-          echo "MKDOCS_INHERIT=mkdocs-offline.yml" >> $GITHUB_ENV
-          echo "CARDS=false" >> $GITHUB_ENV
+          echo "MKDOCS_INHERIT=mkdocs-offline.yml" >> "$GITHUB_ENV"
+          echo "CARDS=false" >> "$GITHUB_ENV"
 
       - uses: actions/checkout@v4
         with:
@@ -76,6 +78,7 @@ jobs:
           cache: "pipenv"
 
       - uses: actions/cache/restore@v4.0.2
+        id: site_cache_restore
         with:
           key: site-cache-${{ inputs.repo }}-${{ inputs.ref }}-${{ hashfiles('.cache/**') }}
           path: .cache
@@ -84,6 +87,7 @@ jobs:
             site-cache-${{ inputs.repo }}-
 
       - uses: actions/cache/restore@v4.0.2
+        id: card_cache_restore
         with:
           key: card-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ inputs.ref }}-${{ hashfiles('config/.cache/plugin/social/manifest.json') }}
           path: |
@@ -110,11 +114,13 @@ jobs:
           tar -czvf site-${{ inputs.config }}-${{ inputs.lang }}.tar.gz site
 
       - uses: actions/cache/save@v4.0.2
+        if: steps.site_cache_restore.outputs.cache-hit != 'true'
         with:
           key: site-cache-${{ inputs.repo }}-${{ inputs.ref }}-${{ hashfiles('.cache/**') }}
           path: .cache
 
       - uses: actions/cache/save@v4.0.2
+        if: steps.card_cache_restore.outputs.cache-hit != 'true'
         with:
           key: card-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ inputs.ref }}-${{ hashfiles('config/.cache/plugin/social/manifest.json') }}
           path: |

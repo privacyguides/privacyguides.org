@@ -44,5 +44,8 @@
       "tag:yaml.org,2002:python/name:material.extensions.emoji.twemoji",
       "tag:yaml.org,2002:python/name:material.extensions.emoji.to_svg"
     ],
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "[github-actions-workflow]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }

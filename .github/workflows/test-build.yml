@@ -42,23 +42,19 @@ jobs:
     strategy:
       matrix:
         lang: [en, es, fr, he, it, nl, ru, zh-Hant]
+        build: [build, offline]
       fail-fast: false
     permissions:
       contents: read
     uses: ./.github/workflows/build.yml
     with:
+      config: ${{ matrix.build }}
       ref: ${{ github.ref }}
       repo: ${{ github.repository }}
       lang: ${{ matrix.lang }}
       continue-on-error: true
 
-  buildoffline:
-    needs: submodule
-    permissions:
-      contents: read
-    uses: ./.github/workflows/build-offline.yml
-
   cleanup:
     if: ${{ always() }}
-    needs: [build, buildoffline]
+    needs: build
     uses: privacyguides/.github/.github/workflows/cleanup.yml@main
