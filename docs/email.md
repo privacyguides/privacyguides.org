@@ -101,7 +101,7 @@ Proton Mail also publishes the public keys of Proton accounts via HTTP from thei
 
 #### :material-information-outline:{ .pg-blue } Account Termination
 
-If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinquent and won't receive incoming mail. You will continue to be billed during this period.
+If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinquent and won't receive incoming mail. You will continue to be billed during this period. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address on a deactivated account.
 
 #### :material-information-outline:{ .pg-blue } Additional Functionality
 
