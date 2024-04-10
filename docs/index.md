@@ -41,7 +41,9 @@ schema:
 
 ##### “I have nothing to hide. Why should I care about my privacy?”
 
-TESTTESTTESTTESTTEST
+Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+
+You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
 [:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
