@@ -203,7 +203,7 @@ Proton Pass is an open-source, end-to-end encrypted password manager developed b
 [:octicons-home-16: Homepage](https://proton.me/pass){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://proton.me/support/pass){ .card-link title="Documentation"}
-[:octicons-code-16:](https://github.com/protonpass/){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/protonpass){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -211,10 +211,10 @@ Proton Pass is an open-source, end-to-end encrypted password manager developed b
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=proton.android.pass)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/proton-pass-password-manager/id6443490629)
 - [:simple-windows11: Windows](https://proton.me/pass/download)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/proton-pass/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/proton-pass)
 - [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
 - [:simple-microsoftedge: Edge](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
-- [:octicons-globe-16: Web](https://pass.proton.me/)
+- [:octicons-globe-16: Web](https://pass.proton.me)
 
 </details>
 
@@ -250,7 +250,7 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 - [:simple-windows11: Windows](https://1password.com/downloads/windows)
 - [:simple-apple: macOS](https://1password.com/downloads/mac)
 - [:simple-linux: Linux](https://1password.com/downloads/linux)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/1password-x-password-manager)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
 - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/dppgmdbiimibapkepcbdbmkaabgiofem)
 - [:simple-safari: Safari](https://apps.apple.com/us/app/1password-for-safari/id1569813296)

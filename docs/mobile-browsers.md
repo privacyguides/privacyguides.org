@@ -151,13 +151,13 @@ Firefox (Gecko)-based browsers on Android [lack per-site process isolation](http
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/us.spotco.fennec_dos/)
+- [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/us.spotco.fennec_dos)
 
 </details>
 
 </div>
 
-Enable DivestOS's [F-Droid Repo](https://divestos.org/fdroid/official/) to receive updates directly from the developer. Downloading Mull from the default F-Droid repo will mean your updates could be delayed by a few days or longer.
+Enable DivestOS's [F-Droid Repo](https://divestos.org/fdroid/official) to receive updates directly from the developer. Downloading Mull from the default F-Droid repo will mean your updates could be delayed by a few days or longer.
 
 Mull enables many features upstreamed by the [Tor uplift project](https://wiki.mozilla.org/Security/Tor_Uplift) using preferences from [Arkenfox](desktop-browsers.md#arkenfox-advanced). Proprietary blobs are removed from Mozilla's code using the scripts developed for Fennec F-Droid.
 

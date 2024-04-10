@@ -483,6 +483,15 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
 
+### Alternative Networks
+
+<div class="grid cards" markdown>
+
+- ![I2P logo](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji } ![I2P logo](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
+- ![Tor logo](./assets/img/self-contained-networks/tor.svg){ .twemoji } [Tor](alternative-networks.md#tor)
+
+</div>
+
 ### Device Integrity Verification
 
 <div class="grid cards" markdown>

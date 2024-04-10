@@ -160,7 +160,7 @@ extra:
     translation_notice:
       notice: !ENV TRANSLATION_NOTICE
       cta: !ENV [TRANSLATION_NOTICE_CTA, "Visit Crowdin"]
-      language: !ENV LANG_ENGLISH
+      language: !ENV SITE_LANGUAGE_ENGLISH
   social:
     - icon: simple/mastodon
       link: https://mastodon.neat.computer/@privacyguides
@@ -406,6 +406,7 @@ nav:
           - "desktop.md"
           - "router.md"
       - !ENV [NAV_ADVANCED, "Advanced"]:
+          - "alternative-networks.md"
           - "device-integrity.md"
   - !ENV [NAV_ABOUT, "About"]:
       - "about/index.md"

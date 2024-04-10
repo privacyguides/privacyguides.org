@@ -58,13 +58,37 @@ All contributors to the site are listed [here](https://github.com/privacyguides/
 
 ## Mirrors
 
+- **GitHub Pages:** [privacyguides.github.io/privacyguides.org](https://privacyguides.github.io/privacyguides.org/en/)
+- **Netlify (AWS):** [illustrious-bavarois-56cf30.netlify.app](https://illustrious-bavarois-56cf30.netlify.app/en/)
+- **BunnyCDN:** [privacyguides-org-production.b-cdn.net](https://privacyguides-org-production.b-cdn.net/en/)
+- **Hetzner:** [direct.privacyguides.org](https://direct.privacyguides.org/en/) (discouraged!)
+
+### Alternative Networks
+
+> [!NOTE]
+> Most hidden service providers are not very extensively used or tested, [which is why we strongly recommend Tor](https://www.privacyguides.org/en/tor/). Using other networks could be more likely to endanger your anonymity, so make sure you know what you're doing.
+
+- **Tor/onion:** [xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion](http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion)
+
+- **IPFS:** `/ipns/ipfs.privacyguides.org` (**not** anonymous)
+    - Please help us out by pinning a copy: [Learn more](https://github.com/privacyguides/webserver/blob/main/ipfs/README.md)
+    - via Cloudflare: [cloudflare-ipfs.com/ipns/ipfs.privacyguides.org](https://cloudflare-ipfs.com/ipns/ipfs.privacyguides.org/en/)
+    - via 4everland: [ipfs-privacyguides-org.ipns.4everland.io](https://ipfs-privacyguides-org.ipns.4everland.io/)
+    - via [@jonaharagon](https://github.com/jonaharagon): [ipfs.jonaharagon.net/ipns/ipfs.privacyguides.org](https://ipfs.jonaharagon.net/ipns/ipfs.privacyguides.org/en/)
+    - via [peer](https://docs.ipfs.tech/how-to/peering-with-content-providers/): `/dnsaddr/node-1.ipfs.jonaharagon.net/p2p/12D3KooWMwqzuApCKxYfo66zq5BrTjCoz9naJ1rrMEBCnwuGGqWB`
+
+- **I2P:** [privacyguides.i2p](http://privacyguides.i2p/?i2paddresshelper=fvbkmooriuqgssrjvbxu7nrwms5zyhf34r3uuppoakwwsm7ysv6q.b32.i2p)
+
+- **Yggdrasil:** [http://[200:f3a6:4922:e067:770d:ac57:fcb1:8dbf]](http://[200:f3a6:4922:e067:770d:ac57:fcb1:8dbf]/en/) (**not** anonymous)
+    - via public peer: `tcp://5.161.245.8:45454`
+
+### Git Mirrors
+
 [![GitHub](https://img.shields.io/static/v1?logo=github&label=&message=GitHub&color=000&style=for-the-badge)](https://github.com/privacyguides/privacyguides.org)
 [![GitLab](https://img.shields.io/static/v1?logo=gitlab&label=&message=GitLab&color=000&style=for-the-badge)](https://gitlab.com/privacyguides/privacyguides.org)
 [![Codeberg](https://img.shields.io/static/v1?logo=codeberg&label=&message=Codeberg&color=000&style=for-the-badge)](https://codeberg.org/privacyguides/privacyguides.org)
 [![Gitea](https://img.shields.io/static/v1?logo=gitea&label=&message=Gitea&color=000&style=for-the-badge)](https://code.privacyguides.dev/privacyguides/privacyguides.org)
 [![Forgejo](https://img.shields.io/static/v1?logo=forgejo&label=&message=Forgejo&color=000&style=for-the-badge)](https://git.jonaharagon.net/privacyguides/privacyguides.org)
-
-**Hidden service (Tor/onion):** [xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion](http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion)
 
 ## License
 
