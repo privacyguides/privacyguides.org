@@ -113,7 +113,7 @@ Committing to this repository requires [signing your commits](https://docs.githu
 ### With `mkdocs-material`
 
 1. Install required packages: `pip install mkdocs-material`
-2. Run a local preview of the English site: `./run.sh`
+2. Run a local preview of the English site: `./run.sh --cmd=mkdocs`
 
 ### With `mkdocs-material-insiders`
 

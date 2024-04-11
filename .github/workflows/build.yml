@@ -93,10 +93,15 @@ jobs:
           cp -rl modules/repo-i18n/includes .
           cp -rl modules/repo-i18n/theme .
 
-      - name: Install Python
+      - name: Install Python (pipenv)
+        if: inputs.privileged
         uses: actions/setup-python@v5
         with:
           cache: "pipenv"
+
+      - name: Install Python (no pipenv)
+        if: ${{ !inputs.privileged }}
+        uses: actions/setup-python@v5
 
       - name: Restore Privacy Plugin Cache
         uses: actions/cache/restore@v4.0.2
@@ -146,9 +151,9 @@ jobs:
         run: |
           pip install mkdocs-material
           sudo apt install pngquant
+          echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --cmd=mkdocs"" >> "$GITHUB_ENV"
 
       - name: Build Website
-        if: inputs.privileged
         run: |
           eval ./run.sh --build --lang=${{ inputs.lang }} "$EXTRA_FLAGS"
 
