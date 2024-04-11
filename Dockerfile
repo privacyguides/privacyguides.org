@@ -43,7 +43,8 @@ RUN \
     tini \
     zlib-dev \
     libffi-dev \
-    musl-dev
+    musl-dev \
+    bash
 
 # Copy virtual env from python-deps stage
 COPY --from=python-deps /.venv /.venv
@@ -59,6 +60,7 @@ COPY theme theme
 COPY includes includes
 COPY *.yml .
 COPY .cache/plugin/social/fonts .cache/plugin/social/fonts
+COPY run.sh .
 
 EXPOSE 8000
 
@@ -66,5 +68,5 @@ ENV MKDOCS_INHERIT mkdocs-production.yml
 
 HEALTHCHECK NONE
 
-ENTRYPOINT ["mkdocs"]
-CMD ["serve", "--dev-addr=0.0.0.0:8000", "--config-file=mkdocs-production.yml"]
+ENTRYPOINT ["./run.sh"]
+CMD ["--cmd=mkdocs", "--insiders", "--cmd_flags=--dev-addr=0.0.0.0:8000"]

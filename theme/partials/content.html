@@ -19,11 +19,12 @@
   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
   IN THE SOFTWARE.
+  {{ config.extra.privacy_guides.translation_stylesheet | url }}
 -->
 
 {% if page and page.meta and page.meta.cover %}
   <div class="cover center-cropped">
-      <img src="/en/assets/img/cover/{{ page.meta.cover }}" alt="">
+      <img src="{{ 'assets/img/cover/' | url }}{{ page.meta.cover }}" alt="">
   </div>
   <h1>{{ page.title | d(config.site_name, true)}}</h1>
 {% endif %}

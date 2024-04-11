@@ -319,15 +319,18 @@ plugins:
     plugins:
       macros: {}
       meta: {}
-      git-committers:
-        enabled: !ENV [GITCOMMITTERS, PRODUCTION, NETLIFY, false]
-        repository: privacyguides/privacyguides.org
-        branch: main
+      git-authors:
+        enabled: !ENV [GITAUTHORS, PRODUCTION, NETLIFY, false]
+        sort_authors_by: contribution
+        show_contribution: true
+        fallback_to_empty: true
+        authorship_threshold_percent: 1
       git-revision-date-localized:
         enabled: !ENV [GITREVISIONDATE, PRODUCTION, NETLIFY, false]
         exclude:
           - index.md
         fallback_to_build_date: true
+        enable_creation_date: true
       optimize:
         enabled: !ENV [OPTIMIZE, PRODUCTION, NETLIFY, false]
       typeset: {}

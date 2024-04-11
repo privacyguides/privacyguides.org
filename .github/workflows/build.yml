@@ -45,62 +45,20 @@ jobs:
         run: |
           {
             echo "BUILD_CONTEXT=${{ inputs.context }}"
-            echo "BUILD_EDIT_URI_TEMPLATE=blob/main/docs/{path}?plain=1"
-            echo "BUILD_REPO_URL=https://github.com/privacyguides/privacyguides.org"
-            echo "PRODUCTION=true"
+            echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --production""
           } >> "$GITHUB_ENV"
 
       - name: Set Metadata for Privileged Builds
         if: inputs.privileged
-        run: echo "BUILD_INSIDERS=true" >> "$GITHUB_ENV"
+        run: |
+          echo "BUILD_INSIDERS=true" >> "$GITHUB_ENV"
+          echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --insiders"" >> "$GITHUB_ENV"
 
       - name: Set Metadata for Offline Mode
         if: inputs.config == 'offline'
         run: |
           {
-            echo "BUILD_EDIT_URI_TEMPLATE=''"
-            echo "BUILD_OFFLINE=true"
-            echo "BUILD_REPO_URL=''"
-            echo "CARDS=false"
-            echo "HOMEPAGE_BUTTON_GET_STARTED_LINK=basics/why-privacy-matters.html"
-            echo "HOMEPAGE_BUTTON_TOOLS_LINK=tools.html"
-          } >> "$GITHUB_ENV"
-
-      - name: Set Metadata for Translations
-        if: inputs.lang != 'en'
-        run: |
-          {
-            echo "BUILD_ABBREVIATIONS=includes/abbreviations.${{ inputs.lang }}.txt"
-            echo "BUILD_DOCS_DIR=i18n/${{ inputs.lang }}"
-            echo "BUILD_EDIT_URI_TEMPLATE=https://github.com/privacyguides/i18n/blob/main/i18n/${{ inputs.lang }}/{path}?plain=1"
-            echo "BUILD_SITE_DIR=site/${{ inputs.lang }}"
-            echo "BUILD_SITE_URL=https://privacyguides.org/${{ inputs.lang }}"
-            echo "BUILD_THEME_LANGUAGE=${{ inputs.lang }}"
-          } >> "$GITHUB_ENV"
-
-      - name: Set Metadata for Hebrew Translation
-        if: inputs.lang == 'he'
-        run: |
-          {
-            echo "BUILD_THEME_FONT_CODE=Cousine"
-            echo "BUILD_THEME_FONT_TEXT=Open Sans"
-            echo "TRANSLATION_STYLESHEET=assets/stylesheets/lang-${{ inputs.lang }}.css?v=20240410"
-          } >> "$GITHUB_ENV"
-
-      - name: Set Metadata for Russian Translation
-        if: inputs.lang == 'ru'
-        run: |
-          {
-            echo "TRANSLATION_STYLESHEET=assets/stylesheets/lang-${{ inputs.lang }}.css?v=20240410"
-          } >> "$GITHUB_ENV"
-
-      - name: Set Metadata for Chinese (Traditional) Translation
-        if: inputs.lang == 'zh-Hant'
-        run: |
-          {
-            echo "BUILD_THEME_FONT_CODE=Noto Sans TC"
-            echo "BUILD_THEME_FONT_TEXT=Noto Sans TC"
-            echo "TRANSLATION_STYLESHEET=assets/stylesheets/lang-${{ inputs.lang }}.css?v=20240410"
+            echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --offline""
           } >> "$GITHUB_ENV"
 
       - name: Download Repository
@@ -189,24 +147,10 @@ jobs:
           pip install mkdocs-material
           sudo apt install pngquant
 
-      - name: Set Translated String Environment Variables
-        uses: falti/dotenv-action@v1.1
-        with:
-          path: includes/strings.${{ inputs.lang }}.env
-          export-variables: true
-          keys-case: bypass
-
       - name: Build Website
         if: inputs.privileged
         run: |
-          pipenv run mkdocs build --config-file mkdocs-production.yml
-          pipenv run mkdocs --version
-
-      - name: Build Website (Unprivileged)
-        if: ${{ !inputs.privileged }}
-        run: |
-          mkdocs build
-          mkdocs --version
+          eval ./run.sh --build --lang=${{ inputs.lang }} "$EXTRA_FLAGS"
 
       - name: Package Website
         run: |
