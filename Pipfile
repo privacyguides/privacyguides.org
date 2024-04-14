@@ -24,15 +24,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-mkdocs-material = {path = "./modules/mkdocs-material"}
+mkdocs-material = {extras = ["imaging"], path = "./modules/mkdocs-material"}
 mkdocs-git-revision-date-localized-plugin = "~=1.2"
-mkdocs-git-committers-plugin-2 = "~=1.1"
-mkdocs-macros-plugin = "~=0.7"
-pillow = "~=10.0"
-cairosvg = "~=2.7"
+mkdocs-git-authors-plugin = "~=0.8"
+mkdocs-macros-plugin = "~=1.0"
+jieba = "~=0.42"
 
 [dev-packages]
 scour = "~=0.38"
 
 [requires]
-python_version = "3.8"
+python_version = "3.12"

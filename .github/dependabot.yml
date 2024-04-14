@@ -21,7 +21,6 @@
 version: 2
 
 registries:
-
   github-privacyguides:
     type: git
     url: https://github.com
@@ -29,29 +28,37 @@ registries:
     password: ${{secrets.REPO_PAT}}
 
 updates:
-
   # Maintain dependencies for GitHub Actions
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "monthly"
     assignees:
       - "jonaharagon"
     reviewers:
       - "jonaharagon"
     labels:
       - "fix:github_actions"
-  
+
   # Maintain submodules
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     registries:
       - github-privacyguides
     schedule:
-      interval: "daily"
+      interval: "monthly"
     labels:
       - "fix:submodules"
 
+  - package-ecosystem: "devcontainers"
+    directory: "/"
+    schedule:
+      interval: weekly
+
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: weekly
 # Disabled because some updates tend to remove needed dependencies for some reason
 
 #  # Maintain dependencies for pipenv

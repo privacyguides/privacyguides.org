@@ -87,12 +87,12 @@ The app offers multiple ways to erase metadata from images. Namely:
 **Metapho** is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
 
 [:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-eye-16:](https://zininworks.com/privacy){ .card-link title="Privacy Policy" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
 </details>
 
@@ -106,7 +106,7 @@ The app offers multiple ways to erase metadata from images. Namely:
 
 **PrivacyBlur** is a free app which can blur sensitive portions of pictures before sharing them online.
 
-[:octicons-home-16: Homepage](https://privacyblur.app/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://privacyblur.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
@@ -115,7 +115,7 @@ The app offers multiple ways to erase metadata from images. Namely:
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
 
 </details>
 
@@ -168,13 +168,6 @@ exiftool -all= *.file_extension
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
-
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
-
-</div>
 
 - Apps developed for open-source operating systems must be open source.
 - Apps must be free and should not include ads or other limitations.

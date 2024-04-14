@@ -1,0 +1,65 @@
+<!--
+  Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+  Copyright (c) 2024 Jonah Aragon <jonah@triplebit.net>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+  {{ config.extra.privacy_guides.translation_stylesheet | url }}
+-->
+
+{% if page and page.meta and page.meta.cover %}
+  <div class="cover center-cropped">
+      <img src="{{ 'assets/img/cover/' | url }}{{ page.meta.cover }}" alt="">
+  </div>
+  <h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+
+<!-- Tags -->
+{% include "partials/tags.html" %}
+
+<!-- Actions -->
+{% include "partials/actions.html" %}
+
+{% if "\x3ch1" not in page.content and not page.meta.cover %}
+  <h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+
+<!-- Page content -->
+{{ page.content }}
+
+<!-- Source file information -->
+{% include "partials/source-file.html" %}
+
+<!-- Was this page helpful? -->
+{% include "partials/feedback.html" %}
+
+{% set translation_notice = config.extra.privacy_guides.translation_notice %}
+{% if config.theme.language == "en" %}
+  <hr>
+  <h2 class="md-feedback__title">Share this website and spread privacy knowledge</h2>
+  <p><input class="admonition quote social-share-text" id="share" type="text" value="Privacy Guides: https://www.privacyguides.org - Cybersecurity resources and privacy-focused tools to protect yourself online" onclick="select()" readonly=""></p>
+  <p><em>Copy this text to easily share Privacy Guides with your friends and family on any social network!</em></p>
+{% elif translation_notice %}
+  <div class="admonition info">
+    <p>{{ translation_notice.notice }} <strong><a href="https://crowdin.com/project/privacyguides">{{ translation_notice.cta }}</a></strong></p>
+    <p>You're viewing the {{ translation_notice.language }} copy of Privacy Guides, translated by our fantastic language team on <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. If you notice an error, or see any untranslated sections on this page, please consider <a href="https://matrix.to/#/#pg-i18n:aragon.sh">helping out!</a></p>
+  </div>
+{% endif %}
+
+<!-- Comment system -->
+{% include "partials/comments.html" %}

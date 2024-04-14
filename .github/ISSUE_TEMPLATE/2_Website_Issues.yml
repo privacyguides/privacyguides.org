@@ -24,7 +24,6 @@ labels: ["t:bug"]
 assignees:
   - jonaharagon
 body:
-
   - type: markdown
     attributes:
       value: |
@@ -32,15 +31,15 @@ body:
         This is not the place to report an issue with Matrix, Discourse, or our other hosted services.
 
         If you want us to fix inaccurate information on the website, go back and use the content correction form.
-        If you want to make another suggestion, please [use our discussion forum](https://discuss.privacyguides.net/) instead.
-  
+        If you want to make another suggestion, please [use our discussion forum](https://discuss.privacyguides.net) instead.
+
   - type: textarea
     id: description
     attributes:
       label: Bug description
       description: |
-        Please give a detailed description of the bug. 
-        Explain how the website does not behave as you would expect it to, and be as specific as possible. 
+        Please give a detailed description of the bug.
+        Explain how the website does not behave as you would expect it to, and be as specific as possible.
         If you have found a workaround or a fix for the problem too, please let us know.
     validations:
       required: true
@@ -53,7 +52,7 @@ body:
         Please list all pages where you've noticed this issue, or let us know if it affects every page on the site.
       value: |
         -
-  
+
   - type: dropdown
     id: browser
     attributes:
@@ -69,7 +68,7 @@ body:
         - Safari
         - Edge
         - Other
-  
+
   - type: dropdown
     id: os
     attributes:
@@ -93,7 +92,7 @@ body:
       options:
         - label: I am reporting something that is broken on the website, not making a suggestion.
           required: true
-        - label: I agree to the [Community Code of Conduct](https://www.privacyguides.org/en/code_of_conduct/).
+        - label: I agree to the [Community Code of Conduct](https://www.privacyguides.org/coc).
           required: true
 
   - type: markdown

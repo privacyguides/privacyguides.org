@@ -97,7 +97,7 @@ Making a security plan will help you to understand the threats that are unique t
 
 ## Further Reading
 
-For people looking to increase their privacy and security online, we've compiled a list of common threats our visitors face or goals our visitors have, to give you some inspiration and demonstrate the basis of our recommendations. 
+For people looking to increase their privacy and security online, we've compiled a list of common threats our visitors face or goals our visitors have, to give you some inspiration and demonstrate the basis of our recommendations.
 
 - [Common Goals and Threats :material-arrow-right-drop-circle:](common-threats.md)
 

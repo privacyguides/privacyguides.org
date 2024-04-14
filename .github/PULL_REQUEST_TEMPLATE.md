@@ -1,6 +1,6 @@
 Changes proposed in this PR:
 
-- 
+-
 
 <!-- SCROLL TO BOTTOM TO AGREE!:
 Please use a descriptive title for your PR, it will be included in our changelog!
@@ -17,7 +17,7 @@ Any external relationship can trigger a conflict of interest.
 - [ ] I have disclosed any relevant conflicts of interest in my post.
 - [ ] I agree to grant Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform, relicense, and distribute my contribution as part of this project.
 - [ ] I am the sole author of this work. <!-- Do not check this box if you are not -->
-- [ ] I agree to the [Community Code of Conduct](https://www.privacyguides.org/en/code_of_conduct/).
+- [ ] I agree to the [Community Code of Conduct](https://www.privacyguides.org/coc).
 
 <!-- What's this? When you submit a PR, you keep the Copyright for the work you
 are contributing. We need you to agree to the above terms in order for us to

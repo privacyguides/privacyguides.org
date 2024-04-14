@@ -1,0 +1,120 @@
+name: 📦 PR Preview
+
+on:
+  workflow_run:
+    workflows: [🛠️ Build PR Preview]
+    types:
+      - completed
+
+permissions:
+  actions: read
+  contents: read
+  pull-requests: write
+
+jobs:
+  metadata:
+    if: >
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.conclusion == 'success'
+
+    runs-on: ubuntu-latest
+
+    outputs:
+      pr_number: ${{ steps.metadata.outputs.pr_number }}
+      sha: ${{ steps.metadata.outputs.sha }}
+
+    steps:
+      - name: Download Website Build Artifact
+        uses: actions/github-script@v7.0.1
+        with:
+          script: |
+            var artifacts = await github.rest.actions.listWorkflowRunArtifacts({
+               owner: context.repo.owner,
+               repo: context.repo.repo,
+               run_id: ${{github.event.workflow_run.id }},
+            });
+            var matchArtifact = artifacts.data.artifacts.filter((artifact) => {
+              return artifact.name == "site-build-combined"
+            })[0];
+            var download = await github.rest.actions.downloadArtifact({
+               owner: context.repo.owner,
+               repo: context.repo.repo,
+               artifact_id: matchArtifact.id,
+               archive_format: 'zip',
+            });
+            var fs = require('fs');
+            fs.writeFileSync('${{github.workspace}}/site-build-combined.zip', Buffer.from(download.data));
+
+      - name: Unpack Website
+        run: |
+          mkdir -p site
+          unzip site-build-combined.zip -d site
+          tar -czvf site-build-combined.tar.gz site
+
+      - name: Upload Combined Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-build-combined.tar.gz
+          path: site-build-combined.tar.gz
+          retention-days: 5
+
+      - name: Download Metadata Artifact
+        uses: actions/github-script@v7.0.1
+        with:
+          script: |
+            var artifacts = await github.rest.actions.listWorkflowRunArtifacts({
+               owner: context.repo.owner,
+               repo: context.repo.repo,
+               run_id: ${{github.event.workflow_run.id }},
+            });
+            var matchArtifact = artifacts.data.artifacts.filter((artifact) => {
+              return artifact.name == "metadata"
+            })[0];
+            var download = await github.rest.actions.downloadArtifact({
+               owner: context.repo.owner,
+               repo: context.repo.repo,
+               artifact_id: matchArtifact.id,
+               archive_format: 'zip',
+            });
+            var fs = require('fs');
+            fs.writeFileSync('${{github.workspace}}/metadata.zip', Buffer.from(download.data));
+
+      - name: Set Metadata
+        id: metadata
+        run: |
+          mkdir -p metadata
+          unzip metadata.zip -d metadata
+          echo "pr_number=$(cat metadata/NR)" >> "$GITHUB_OUTPUT"
+          echo "sha=$(cat metadata/SHA)" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: metadata
+    permissions:
+      contents: read
+
+    uses: privacyguides/webserver/.github/workflows/deploy-netlify-preview.yml@main
+    with:
+      netlify_alias: ${{ needs.metadata.outputs.pr_number }}
+      netlify_site_id: ${{ vars.NETLIFY_SITE }}
+    secrets:
+      NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+
+  comment:
+    permissions:
+      pull-requests: write
+    needs: [deploy, metadata]
+    runs-on: ubuntu-latest
+    env:
+      address: ${{ needs.deploy.outputs.address }}
+    steps:
+      - uses: thollander/actions-comment-pull-request@v2.5.0
+        with:
+          pr_number: ${{ needs.metadata.outputs.pr_number }}
+          message: |
+            ### <span aria-hidden="true">✅</span> Your preview is ready!
+
+            |  Name | Link |
+            | :---: | ---- |
+            | <span aria-hidden="true">🔨</span> Latest commit | ${{ needs.metadata.outputs.sha }} |
+            | <span aria-hidden="true">😎</span> Preview | ${{ env.address }} |
+          comment_tag: deployment

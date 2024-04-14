@@ -21,6 +21,11 @@
 {
   "recommendations": [
     "EditorConfig.EditorConfig",
-    "DavidAnson.vscode-markdownlint"
+    "DavidAnson.vscode-markdownlint",
+    "wholroyd.jinja",
+    "mikestead.dotenv",
+    "redhat.vscode-yaml",
+    "ecmel.vscode-html-css",
+    "yzhang.markdown-all-in-one"
   ]
 }

@@ -1,0 +1,8 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/python
+{
+	"name": "Privacy Guides",
+	"image": "ghcr.io/squidfunk/mkdocs-material:9.5.17",
+	"forwardPorts": [8000],
+  "postCreateCommand": "git submodule init; git submodule update theme/assets/brand; apk add bash; /bin/bash run.sh --cmd=mkdocs --cmd_flags=--dev-addr=0.0.0.0:8000"
+}

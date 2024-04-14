@@ -1,0 +1,103 @@
+# Copyright (c) 2021-2024 Jonah Aragon <jonah@triplebit.net>
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+name: 📦 Release
+
+on:
+  push:
+    tags:
+      - "*"
+
+concurrency:
+  group: release-deployment
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  deployments: write
+
+jobs:
+  submodule:
+    strategy:
+      matrix:
+        repo: [mkdocs-material-insiders, brand, i18n]
+    uses: privacyguides/.github/.github/workflows/download-repo.yml@main
+    with:
+      repo: ${{ matrix.repo }}
+    secrets:
+      ACTIONS_SSH_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
+
+  build:
+    needs: submodule
+    strategy:
+      matrix:
+        lang: [en, es, fr, he, it, nl, ru, zh-Hant]
+        build: [build, offline]
+    permissions:
+      contents: read
+    uses: ./.github/workflows/build.yml
+    with:
+      config: ${{ matrix.build }}
+      ref: ${{ github.ref }}
+      repo: ${{ github.repository }}
+      lang: ${{ matrix.lang }}
+      context: production
+      continue-on-error: false
+
+  release:
+    name: Create release notes
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: offline*
+          merge-multiple: true
+
+      - name: Create release notes
+        uses: ncipollo/release-action@v1
+        with:
+          generateReleaseNotes: true
+          artifacts: "offline.zip,offline.tar.gz,offline-privacy_guides.zim"
+          makeLatest: true
+
+  deploy:
+    needs: build
+    uses: privacyguides/webserver/.github/workflows/deploy-all.yml@main
+    secrets:
+      NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+      PROD_MINIO_KEY_ID: ${{ secrets.PROD_MINIO_KEY_ID }}
+      PROD_MINIO_SECRET_KEY: ${{ secrets.PROD_MINIO_SECRET_KEY }}
+      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+      CLUSTER_USERNAME: ${{ secrets.CLUSTER_USERNAME }}
+      CLUSTER_PASSWORD: ${{ secrets.CLUSTER_PASSWORD }}
+      CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
+      CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
+
+  cleanup:
+    if: ${{ always() }}
+    needs: build
+    uses: privacyguides/.github/.github/workflows/cleanup.yml@main
