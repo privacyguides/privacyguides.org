@@ -10,7 +10,7 @@
   "imageSize": 100,
   "commit": false,
   "commitConvention": "none",
-  "contributorTemplate": "<a rel=\"nofollow noopener noreferrer\" href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" loading=lazy/><br /><sub><b><%= contributor.name %></b></sub></a><br /><%= contributions %>",
+  "contributorTemplate": "<a rel=\"nofollow noopener noreferrer\" href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" loading=lazy /><br /><sub><b><%= contributor.name %></b></sub></a><br /><%= contributions %>",
   "contributors": [
     {
       "login": "jonaharagon",
@@ -331,7 +331,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/153316540?v=4",
       "profile": "https://github.com/rollsicecream",
       "contributions": [
-        "doc"
+        "doc",
+        "question",
+        "translation"
       ]
     },
     {
@@ -493,7 +495,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/6412153?v=4",
       "profile": "https://github.com/paulverbeke",
       "contributions": [
-        "doc"
+        "doc",
+        "translation"
       ]
     },
     {
@@ -668,15 +671,6 @@
       ]
     },
     {
-      "login": "privacyguides-bot",
-      "name": "Privacy Guides [bot]",
-      "avatar_url": "https://avatars.githubusercontent.com/u/112040067?v=4",
-      "profile": "https://www.privacyguides.org/",
-      "contributions": [
-        "doc"
-      ]
-    },
-    {
       "login": "Perelandra0x309",
       "name": "Brian",
       "avatar_url": "https://avatars.githubusercontent.com/u/22124003?v=4",
@@ -691,7 +685,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/8296104?v=4",
       "profile": "https://github.com/SkewedZeppelin",
       "contributions": [
-        "doc"
+        "doc",
+        "question"
       ]
     },
     {
@@ -1591,7 +1586,10 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/15004290?v=4",
       "profile": "https://github.com/ph00lt0",
       "contributions": [
-        "doc"
+        "doc",
+        "research",
+        "promotion",
+        "question"
       ]
     },
     {
@@ -2682,8 +2680,26 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "dioxias",
+      "name": "skye",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48442092?v=4",
+      "profile": "https://skye.sh/",
+      "contributions": [
+        "question"
+      ]
+    },
+    {
+      "login": "r2fo",
+      "name": "r2fo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50496756?v=4",
+      "profile": "https://github.com/r2fo",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
-  "contributorsPerLine": 6,
+  "contributorsPerLine": 5,
   "linkToUsage": true
 }
