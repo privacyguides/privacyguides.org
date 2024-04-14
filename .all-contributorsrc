@@ -1591,7 +1591,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/15004290?v=4",
       "profile": "https://github.com/ph00lt0",
       "contributions": [
-        "doc"
+        "doc",
+        "question"
       ]
     },
     {
@@ -2685,5 +2686,6 @@
     }
   ],
   "contributorsPerLine": 6,
-  "linkToUsage": true
+  "linkToUsage": true,
+  "commitType": "docs"
 }
