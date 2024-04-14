@@ -567,6 +567,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="16.66%"><a rel="nofollow noopener noreferrer" href="https://twitter.com/ocramleznem"><img src="https://avatars.githubusercontent.com/u/1401770?v=4" width="100px;" loading=lazy/><br /><sub><b>Marco Menzel</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=ocramleznem" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a rel="nofollow noopener noreferrer" href="https://github.com/FishCoding"><img src="https://avatars.githubusercontent.com/u/16527725?v=4" width="100px;" loading=lazy/><br /><sub><b>Mario</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=FishCoding" title="Documentation">📖</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a rel="nofollow noopener noreferrer" href="https://skye.sh"><img src="https://avatars.githubusercontent.com/u/48442092?v=4" width="100px;" loading=lazy/><br /><sub><b>skye</b></sub></a><br /><a href="#question-dioxias" title="Answering Questions">💬</a></td>
+    </tr>
   </tbody>
   <tfoot>
     <tr>
