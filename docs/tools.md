@@ -470,6 +470,19 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Learn more :material-arrow-right-drop-circle:](frontends.md)
 
+### AI Chat
+
+#### Cloud Providers
+
+<div class="grid cards" markdown>
+
+- ![Duck AI logo](assets/img/artificial-intelligence/duckai.svg){ .twemoji loading=lazy }[Duck AI](artificial-intelligence.md#duckduckgo-ai-chat)
+- ![Leo AI logo](assets/img/artificial-intelligence/leo.svg){ .twemoji loading=lazy }[Brave Leo](artificial-intelligence.md#brave-leo)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](artificial-intelligence.md)
+
 ### Language Tools
 
 <div class="grid cards" markdown>
