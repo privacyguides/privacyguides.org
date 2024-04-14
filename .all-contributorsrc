@@ -2473,7 +2473,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/13170204?v=4",
       "profile": "https://github.com/PoorPocketsMcNewHold",
       "contributions": [
-        "doc"
+        "doc",
+        "translation"
       ]
     },
     {
@@ -2685,5 +2686,6 @@
     }
   ],
   "contributorsPerLine": 6,
-  "linkToUsage": true
+  "linkToUsage": true,
+  "commitType": "docs"
 }
