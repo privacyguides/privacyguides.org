@@ -2682,8 +2682,18 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "dioxias",
+      "name": "skye",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48442092?v=4",
+      "profile": "https://skye.sh",
+      "contributions": [
+        "question"
+      ]
     }
   ],
   "contributorsPerLine": 6,
-  "linkToUsage": true
+  "linkToUsage": true,
+  "commitType": "docs"
 }
