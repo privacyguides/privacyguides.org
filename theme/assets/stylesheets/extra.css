@@ -236,6 +236,10 @@ details[class="downloads annotate"] > p .md-annotation span span::before {
   .downloads > ul {
     grid-template-columns: repeat(2, 1fr);
   }
+  .all-contributors-table tbody td {
+    display: block;
+    width: 100%;
+  }
 }
 
 /* Card links */

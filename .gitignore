@@ -1,6 +1,6 @@
 site
 /i18n/
-/includes/*
+/includes/*.*.*
 !/includes/*.en.*
 /static/i18n/
 /theme/overrides/*.*.*

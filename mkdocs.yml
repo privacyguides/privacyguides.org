@@ -300,7 +300,7 @@ theme:
     - search.highlight
 
 extra_css:
-  - assets/stylesheets/extra.css?v=1
+  - assets/stylesheets/extra.css?v=2
 extra_javascript:
   - assets/javascripts/randomize-element.js?v=1
   - assets/javascripts/resolution.js?v=1
