@@ -2682,8 +2682,18 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "r2fo",
+      "name": "r2fo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50496756?v=4",
+      "profile": "http://r4fo.com",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 6,
-  "linkToUsage": true
+  "linkToUsage": true,
+  "commitType": "docs"
 }
