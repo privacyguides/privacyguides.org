@@ -409,6 +409,7 @@ nav:
           - "search-engines.md"
           - "vpn.md"
       - !ENV [NAV_SOFTWARE, "Software"]:
+          - "ai-chat.md"
           - "calendar.md"
           - "cryptocurrency.md"
           - "data-redaction.md"
