@@ -313,7 +313,8 @@ watch:
 plugins:
   tags: {}
   search: {}
-  privacy: {}
+  privacy:
+    enabled: !ENV [BUILD_PRIVACY, true]
   group:
     enabled: !ENV [BUILD_INSIDERS, false]
     plugins:
@@ -442,6 +443,7 @@ nav:
           - "device-integrity.md"
   - !ENV [NAV_ABOUT, "About"]:
       - "about/index.md"
+      - "about/contributors.md"
       - "about/criteria.md"
       - "about/notices.md"
       - "about/privacy-policy.md"
