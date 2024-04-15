@@ -2682,8 +2682,18 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "merlinscholz",
+      "name": "Merlin Scholz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21988035?v=4",
+      "profile": "https://scholz.ruhr",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 6,
-  "linkToUsage": true
+  "linkToUsage": true,
+  "commitType": "docs"
 }
