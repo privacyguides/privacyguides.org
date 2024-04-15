@@ -493,7 +493,10 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/6412153?v=4",
       "profile": "https://github.com/paulverbeke",
       "contributions": [
-        "doc"
+        "doc",
+        "bug",
+        "translation",
+        "mentoring"
       ]
     },
     {
@@ -2685,5 +2688,6 @@
     }
   ],
   "contributorsPerLine": 6,
-  "linkToUsage": true
+  "linkToUsage": true,
+  "commitType": "docs"
 }
