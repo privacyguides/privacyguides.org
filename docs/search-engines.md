@@ -91,7 +91,7 @@ Startpage previously placed limitations on VPN and [Tor](tor.md) users, but they
 
 ## Metasearch Engines
 
-A [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine) allows you to aggregate the results of other search engines, such as the ones recommended above, while not storing any information itself.
+A [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine) aggregates the results of other search engines, such as the ones recommended above, while not storing any information itself.
 
 ### SearXNG
 
