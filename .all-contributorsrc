@@ -2682,8 +2682,18 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "lamtrinhdev",
+      "name": "LamTrinh.Dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49742151?v=4",
+      "profile": "https://lamtrinh.dev",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
-  "linkToUsage": true
+  "linkToUsage": true,
+  "commitType": "docs"
 }
