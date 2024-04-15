@@ -405,6 +405,9 @@ A huge thank you from Privacy Guides to these wonderful people ([full emoji key]
       <td align="center" valign="top" width="16.66%"><a rel="nofollow noopener noreferrer" href="https://twitter.com/ocramleznem"><img src="https://avatars.githubusercontent.com/u/1401770?v=4" width="100px;" loading=lazy/><br /><sub><b>Marco Menzel</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=ocramleznem" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a rel="nofollow noopener noreferrer" href="https://github.com/FishCoding"><img src="https://avatars.githubusercontent.com/u/16527725?v=4" width="100px;" loading=lazy/><br /><sub><b>Mario</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=FishCoding" title="Documentation">📖</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a rel="nofollow noopener noreferrer" href="https://lamtrinh.dev"><img src="https://avatars.githubusercontent.com/u/49742151?v=4" width="100px;" loading=lazy/><br /><sub><b>LamTrinh.Dev</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=lamtrinhdev" title="Documentation">📖</a></td>
+    </tr>
   </tbody>
   <tfoot>
     <tr>
