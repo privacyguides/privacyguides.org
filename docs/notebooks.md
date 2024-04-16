@@ -67,6 +67,7 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 - [:simple-linux: Linux](https://notesnook.com/downloads)
 - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
+- [:octicons-globe-16: Web](https://app.notesnook.com)
 
 </details>
 
