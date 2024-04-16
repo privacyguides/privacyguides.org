@@ -168,6 +168,37 @@ In general, we define office suites as applications which could reasonably act a
 [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
 
+</div>
+
+## Language services
+
+### LanguageTool
+
+<div class="admonition recommendation" markdown>
+
+![LanguageTool logo](assets/img/productivity/languagetool.svg#only-light){ align=right }
+![LanguageTool logo](assets/img/productivity/languagetool-dark.svg#only-dark){ align=right }
+
+**LanguageTool** is a multilingual grammar, style and spell checker that supports more than 20 languages. The software is [self-hostable](https://dev.languagetool.org/http-server), and the extensions do not send your input text to their server.
+
+  LanguageTool offers integration with a variety of [office suites](https://languagetool.org/services#text_editors) and [email clients](https://languagetool.org/services#mail_clients).
+
+[:octicons-home-16: Homepage](https://languagetool.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://languagetooler.freshdesk.com/en/support/solutions){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1534275760)
+- [:simple-windows11: Windows](https://languagetool.org/windows-desktop)
+- [:simple-apple: macOS](https://languagetool.org/mac-desktop)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/languagetool)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/grammar-and-spell-checker/oldceeleldhonbafppcapldpdifcinji)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/hfjadhjooeceemgojogkhlppanjkbobc)
+- [:simple-safari: Safari](https://apps.apple.com/app/id1534275760)
+
 </details>
 
 </div>

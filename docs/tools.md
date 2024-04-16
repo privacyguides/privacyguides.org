@@ -401,6 +401,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 - ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ .twemoji loading=lazy } [OnlyOffice](productivity.md#onlyoffice)
 - ![CryptPad logo](assets/img/productivity/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](productivity.md#cryptpad)
 - ![PrivateBin logo](assets/img/productivity/privatebin.svg){ .twemoji loading=lazy } [PrivateBin (Pastebin)](productivity.md#privatebin)
+- ![LanguageTool logo](assets/img/productivity/languagetool.svg#only-light){ .twemoji loading=lazy }![LanguageTool logo](assets/img/productivity/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](productivity.md#languagetool)
 
 </div>
 
