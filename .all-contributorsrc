@@ -2734,8 +2734,18 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "dzenan",
+      "name": "Dženan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69632324?v=4",
+      "profile": "https://github.com/Dzenan",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 5,
-  "linkToUsage": true
+  "linkToUsage": true,
+  "commitType": "docs"
 }
