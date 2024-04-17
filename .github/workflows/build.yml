@@ -91,7 +91,6 @@ jobs:
         run: |
           cp -rl modules/repo-i18n/i18n .
           cp -rl modules/repo-i18n/includes .
-          cp -rl modules/repo-i18n/theme .
 
       - name: Install Python (pipenv)
         if: inputs.privileged
