@@ -128,6 +128,9 @@ markdown_extensions:
     sources:
       exclude:
         - tools.md
+    targets:
+      exclude:
+        - about/*
 EOT
   trap 'rm $PWD/.mkdocs-insiders-$random_num.yml' EXIT
 fi

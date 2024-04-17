@@ -38,15 +38,11 @@ extra:
   deploy: !ENV DEPLOY_ID
   privacy_guides:
     footer:
-      intro:
-        !ENV [
-          FOOTER_INTRO,
-          "Privacy Guides is a non-profit, socially motivated website that provides information for protecting your data security and privacy.",
-        ]
+      donate: !ENV [FOOTER_DONATE, "Consider donating to Privacy Guides."]
       note:
         !ENV [
           FOOTER_NOTE,
-          "We do not make money from recommending certain products, and we do not use affiliate links.",
+          "We are a 501(c)(3) non-profit and do not make money from recommendations or affiliate links.",
         ]
       copyright:
         author:
@@ -172,18 +168,15 @@ extra:
     - icon: simple/mastodon
       link: https://mastodon.neat.computer/@privacyguides
       name: !ENV [SOCIAL_MASTODON, "Mastodon"]
-    - icon: simple/matrix
-      link: https://matrix.to/#/#privacyguides:matrix.org
-      name: !ENV [SOCIAL_MATRIX, "Matrix"]
     - icon: simple/discourse
       link: https://discuss.privacyguides.net/
       name: !ENV [SOCIAL_FORUM, "Forum"]
     - icon: simple/github
       link: https://github.com/privacyguides
       name: !ENV [SOCIAL_GITHUB, "GitHub"]
-    - icon: simple/torbrowser
-      link: http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/
-      name: !ENV [SOCIAL_TOR_SITE, "Hidden service"]
+    - icon: material/hand-coin
+      link: /en/about/donate/
+      name: !ENV [NAV_DONATE, "Donate"]
   alternate:
     - name: English
       link: /en/
@@ -300,7 +293,7 @@ theme:
     - search.highlight
 
 extra_css:
-  - assets/stylesheets/extra.css?v=2
+  - assets/stylesheets/extra.css?v=3
 extra_javascript:
   - assets/javascripts/randomize-element.js?v=1
   - assets/javascripts/resolution.js?v=1
@@ -462,7 +455,12 @@ nav:
           - !ENV [NAV_TECHNICAL_GUIDES, "Technical Guides"]:
               - "meta/uploading-images.md"
               - "meta/git-recommendations.md"
+  - !ENV [NAV_DONATE, "Donate"]: "about/donate/"
   - !ENV [NAV_CHANGELOG, "Changelog"]:
       "https://github.com/privacyguides/privacyguides.org/releases"
   - !ENV [NAV_FORUM, "Forum"]: "https://discuss.privacyguides.net/"
   - !ENV [NAV_BLOG, "Blog"]: "https://blog.privacyguides.org/"
+
+validation:
+  nav:
+    not_found: info
