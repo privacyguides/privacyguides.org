@@ -61,8 +61,8 @@ To download the ISO. Follow these steps :
 - Download the ISO file or flash to a USB as you wish
 
 !!! info "Note"
-    - The ISO will consists **only** of Professional, Education & Enterprise edition with a size of ~4.2 GB (Instead of >5.5GB when you download the Multi-Edition ISO) when you download using the above way no other editions such as Home included in it.
-    - If you want to change the Language of the ISO file, Just change the `en-US` part with the appropriate language and country code as per your needs.
+    - The ISO will consists **only** of Professional, Education & Enterprise editions with a size of ~4.2 GB (Instead of >5.5GB when you download the Multi-Edition ISO). When you download using the above way, no other editions such as Home are included in it.
+    - If you want to change the language of the ISO file, Just change the `en-US` part with the appropriate language and country code as per your needs.
 
 ### Activating Windows
 
@@ -76,9 +76,9 @@ If you are currently using Pro and want to upgrade to Enterprise. Then, Follow t
     This guide will be mostly on Windows 11 but some of the recommendations can be applied to Windows 10 too.
 
 !!! danger "Warning"
-    If you are going to install Windows 11, Then install it only on supported devices and it is not recommended to use tools/scripts that are available online to bypass the requirements which totally breaks the security of Windows 11 which it is aimed for.
+    If you are going to install Windows 11, then install it only on supported devices. It is not recommended to use tools/scripts that are available online to bypass the requirements which would break the security of Windows 11 which it is aimed for.
 
-    Never download **Pirated ISO Files**
+    **Never** download *Pirated* ISO Files
 
 *[GP]: Group Policy
 *[VBS]: Virtualization-Based Security
