@@ -2689,7 +2689,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/49742151?v=4",
       "profile": "https://lamtrinh.dev",
       "contributions": [
-        "doc"
+        "doc",
+        "bug",
+        "question"
       ]
     }
   ],
