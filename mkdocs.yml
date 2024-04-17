@@ -440,6 +440,10 @@ nav:
               - "android/obtaining-apps.md"
           - "desktop.md"
           - "router.md"
+      - !ENV [WINDOWS, "Windows"]:
+          - "windows/privacy.md"
+          - "windows/hardening.md"
+          - "windows/sandboxing.md"
       - !ENV [NAV_ADVANCED, "Advanced"]:
           - "alternative-networks.md"
           - "device-integrity.md"
