@@ -1,6 +1,6 @@
 ---
 title: Windows Overview
-icon: material/microsoft-windows
+icon: fontawesome/brands/microsoft
 ---
 
 ## Windows
