@@ -2706,7 +2706,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/49742151?v=4",
       "profile": "https://lamtrinh.dev/",
       "contributions": [
-        "doc"
+        "doc",
+        "bug",
+        "question"
       ]
     },
     {
@@ -2733,6 +2735,15 @@
       "profile": "https://jordanwarne.net/",
       "contributions": [
         "doc"
+      ]
+    },
+    {
+      "login": "dzenan",
+      "name": "Dženan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69632324?v=4",
+      "profile": "https://github.com/Dzenan",
+      "contributions": [
+        "translation"
       ]
     }
   ],
