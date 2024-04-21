@@ -58,7 +58,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
 
-**Feeder** is a modern RSS client for Android that has many [features](https://gitlab.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
 [:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
@@ -68,6 +68,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
+- [:simple-github: GitHub](https://github.com/spacecowboy/Feeder/releases)
 
 </details>
 
@@ -119,7 +120,7 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. It supports the typical feed formats alongside built-in support for Reddit feeds.
+**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. It supports the typical feed formats alongside built-in support for Reddit feeds.
 
 [:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }
