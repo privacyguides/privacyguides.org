@@ -1,7 +1,7 @@
 ---
 meta_title: "Recommended AI Chatbots : Private ChatGPT Alternatives - Privacy Guides"
 title : "AI Chatbots"
-icon: file/file
+icon: :material-chat-processing-outline:
 description: Unlike OpenAI ChatGPT and it's successors, those AI Chatbots do not train their models using your conversations.
 cover:file/file
 ---
