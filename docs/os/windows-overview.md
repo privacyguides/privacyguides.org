@@ -4,6 +4,8 @@ icon: simple/windows
 description: Windows is a traditonal operating system developed by Microsoft that provides a platform for running software applications and managing computer hardware.
 ---
 
+Windows, a renowned desktop operating system developed by Microsoft, made its debut in 1985. It boasts a broad user base across various hardware manufacturers. Nonetheless, it grapples with issues such as bloatware, intrusive tracking, and security vulnerabilities. This guide aims to address and mitigate these concerns to enhance your Windows experience, though complete elimination may not be achievable.
+
 ## Hardware and Firmware Security
 
 ### Choosing a Secure Hardware
@@ -36,7 +38,7 @@ Use Windows 11 Enterprise, version 23H2 as your operating system.
 
 ### Out-of-Box-Experience (OOBE)
 
-- Select your region to European Economic Area (EEA) or Switzerland and allow optional diagnostic data.
+- Select your region to European Union (EU) and allow optional diagnostic data.
 - Use a local account instead of a Microsoft account.
 - After OOBE, enable Smart App Control in Start → Windows Security → App & Browser Control → Smart App Control.
 
