@@ -9,18 +9,16 @@ Since the release of ChatGPT by OpenAI in December 2022, talking with Largue Lan
 
 ## Recommended Providers
 
-The recommendations here do not train their models using your chats, do not retain your chats for more than 30 days, and are accessible privately. However, you should not submit sensitive PII to an online provider.
-
-### DuckDuckGo AI Chat
+The recommendations for online providers here do not train their models using your chats and do not retain your chats for more than 30 days,based on each service's privacy policy. There is no guarantee that these privacy policies are honored.. and are accessible privately. Only submit personally identifiable information using a local model.
 
 <div class="admonition recommendation" markdown>
 
 ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){align=right}
 
-**DuckDuckGo AI Chat** is made by the popular [seach engine provider] (https://www.privacyguides.org/en/search-engines) and is available directly in the search engine.
+**DuckDuckGo AI Chat** is made by the popular [seach engine provider] (https://www.privacyguides.org/en/search-engines) and is available directly in the search engine. It is available on a Tor hidden site.
 
-[octicons-home-16: Homepage](https://duckduckgo.com/?q=Chat&ia=chat)
-[:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/?q=Chat&ia=chat){ .card-link title="Onion Service" }
+[octicons-home-16: Homepage](https://duckduckgo.com/aichat)
+[:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/aichat){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://duckduckgo.com/aichat/privacy-terms){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://help.duckduckgo.com){ .card-link title=Documentation}
 
@@ -34,7 +32,11 @@ Availability : Any browser with JavaScript. Works with Tor.
 Rate limit : none
 Privacy : DuckDuckGo has an agreement with the companies ensuring your prompts and outputs aren't used for improving their models. The agreement also states the providers must delete all chats within 30 days.
 
-
+<div class="admonition danger" markdown>
+<p class="admonition-title">Your chats are kept for 30 days</p>
+DuckDuckGo uses OpenAI anc CLaude servers and they will retain your chats for 30 days. Use a local model if your prompts contains PII.
+</div>
+  
 ### Brave Leo AI
 
 <div class="admonition recommendation" markdown>
@@ -57,6 +59,11 @@ Rate limit : Unlimited for Llama 13b, and heavily limited for the rest.
 Privacy : For in-house models, all chats are discarded after session is ended, and chats aren't used for training. For Claude, all data is retained for 30 days but 'personal data' isn't used for training.
 
 
+<div class="admonition danger" markdown>
+<p class="admonition-title">For one model, chats are kept for 30 days</p>
+We recommend against using Anthropic's Claude Instant becuase they will keep a chat history for 30 days.
+</div>
+
 ### Kobold.cpp
 <div class="admonition recommendation" markdown>
 !Kobold.cpp Logo{align=right}
@@ -65,11 +72,11 @@ Kobold.cpp is an AI client that runs locally on your computer.
 
 
 
-:octicons-home-16: Homepage
-:octicons-server-16:{ .card-link title="Security Policy"}
-:octicons-info-16:{ .card-link title=Documentation}
-:octicons-code-16:{ .card-link title="Source Code" }
-:octicons-heart-16:{ .card-link title=Contribute }
+[:octicons-home-16: Homepage](https://github.com/LostRuins/koboldcpp)
+[:octicons-server-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy"}
+[:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Source Code" }
+[:octicons-heart-16:](){ .card-link title=Contribute }
 
 </details>
 </div>
@@ -79,7 +86,7 @@ To run performant models, you will need at least 16GB of RAM. You do not need a 
 
 Models : Llama 1,2,3, Mistral, Phi-2, and a few others.
 Type : Local model
-Availability : Linux,Windows.
+Availability : Linux, Windows.
 Rate limit : None.
 Privacy : Total
 
@@ -90,8 +97,8 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 ### Minimum Requirements
 
 - Must not use your chats for training.
-- Must be accesible over a VPN
-- Must provide transparency about which models is used and who operates it.
+- Must be accessible over a VPN
+- Must provide transparency about models operators and privacy policies.
 - Must have a reasonable rate limit (*ask feedback*).
 
 ### Best-Case
@@ -102,4 +109,4 @@ Our best-case criteria represents what we would like to see from the perfect pro
 - Should not require JavaScript.
 - Providers should only have open-source models.
 - No rate limit
-- Doesn't require expensive hardware
+- Shouldn't require expensive hardware
