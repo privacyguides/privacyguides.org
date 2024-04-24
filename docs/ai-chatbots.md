@@ -15,14 +15,14 @@ The recommendations here do not train their models using your chats, do not reta
 
 <div class="admonition recommendation" markdown>
 
-!DuckDuckGo logo{align=right}
+![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){align=right}
 
-DuckDuckGo AI Chat is made by the popular [seach engine provider] (https://www.privacyguides.org/en/search-engines) and is available directly in it.
+**DuckDuckGo AI Chat** is made by the popular [seach engine provider] (https://www.privacyguides.org/en/search-engines) and is available directly in the search engine.
 
-octicons-home-16: Homepage
-:simple-torbrowser:{ .card-link title="Onion Service" }
-:octicons-eye-16:{ .card-link title="Privacy Policy" }
-:octicons-info-16:{ .card-link title=Documentation}
+[octicons-home-16: Homepage](https://duckduckgo.com/?q=Chat&ia=chat)
+[:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/?q=Chat&ia=chat){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://duckduckgo.com/aichat/privacy-terms){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://help.duckduckgo.com){ .card-link title=Documentation}
 
 </details>
 
@@ -35,27 +35,27 @@ Rate limit : none
 Privacy : DuckDuckGo has an agreement with the companies ensuring your prompts and outputs aren't used for improving their models. The agreement also states the providers must delete all chats within 30 days.
 
 
-
 ### Brave Leo AI
 
 <div class="admonition recommendation" markdown>
 
-!Brave Logo{align=right}
+![Brave Logo](assets/img/browsers/brave.svg){align=right}
 
-Brave Leo is an AI assistant available in Brave, a web browser which we recommend.
+**Brave Leo** is an AI assistant available in the Brave browser, a browser which we recommend.
 
-octicons-home-16: Homepage
-:octicons-eye-16:{ .card-link title="Privacy Policy" }
-:octicons-info-16:{ .card-link title=Documentation}
+[octicons-home-16: Homepage](https://brave.com/leo)
+[:octicons-eye-16:](https://brave.com/privacy/browser/#brave-leo){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/brave/brave-browser/wiki/Brave-Leo){ .card-link title=Documentation}
 
 </details>
 </div>
 
 Models : Antrophic Claude Instant, Mixtral 8x7b and Llama 13b.
-Type : Claude is run by Anthropic but proxied trough Brave. Other models are run by Brave.
+Type : Claude is run by Anthropic but proxied trough Brave. Other models are run by Brave directly.
 Availability: only available in the Brave Browser.
 Rate limit : Unlimited for Llama 13b, and heavily limited for the rest.
 Privacy : For in-house models, all chats are discarded after session is ended, and chats aren't used for training. For Claude, all data is retained for 30 days but 'personal data' isn't used for training.
+
 
 ### Kobold.cpp
 <div class="admonition recommendation" markdown>
@@ -102,3 +102,4 @@ Our best-case criteria represents what we would like to see from the perfect pro
 - Should not require JavaScript.
 - Providers should only have open-source models.
 - No rate limit
+- Doesn't require expensive hardware
