@@ -11,6 +11,7 @@ Since the release of ChatGPT by OpenAI in December 2022, talking with Largue Lan
 
 The recommendations for online providers here do not train their models using your chats and do not retain your chats for more than 30 days,based on each service's privacy policy. There is no guarantee that these privacy policies are honored.. and are accessible privately. Only submit personally identifiable information using a local model.
 
+##DuckDuckGo AI Chat
 <div class="admonition recommendation" markdown>
 
 ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){align=right}
@@ -66,7 +67,7 @@ We recommend against using Anthropic's Claude Instant becuase they will keep a c
 
 ### Kobold.cpp
 <div class="admonition recommendation" markdown>
-!Kobold.cpp Logo{align=right}
+!Kobold.cpp Logo(https://discord.com/invite/XuQWadgU9k){align=right}
 
 Kobold.cpp is an AI client that runs locally on your computer.
 
