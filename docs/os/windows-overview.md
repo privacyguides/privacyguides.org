@@ -144,18 +144,20 @@ Windows include Windows Security, which provides the latest antivirus protection
 - Enable all options in Start → Windows Security → Virus & Threat Protection → Virus & Threat Protection Settings.
 - Enable the option in Start → Windows Security → Virus & Threat Protection → Ransomware Protection → Controlled Folder Access.
 - Enable `Block all inbound connections` options in Start → Windows Security → Firewall and Network Protection → Public Network/Private Network/Domain Network.
-- Check if `Memory access protection` is displayed in Start → Windows Security → Device Security → Core Isolation. If not, enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\BitLocker Drive Encryption\Disable new DMA devices when this computer is locked`.
-- Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus\Scan\Turn on e-mail scanning`.
-- Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus\Scan\Scan removable drives`.
-- Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus\Scan\Scan network files`.
-- Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus\Scan\Run full scan on mapped network drives`.
+- Check if `Memory access protection` is displayed in Start → Windows Security → Device Security → Core Isolation. If not, enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\BitLocker Drive Encryption\Disable new DMA devices when this computer is locked`. Otherwise disable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\BitLocker Drive Encryption\Disable new DMA devices when this computer is locked`.
 - Execute `setx /M MP_FORCE_USE_SANDBOX 1` from an elevated command prompt.
 
-### Account Security
+### Account & Identity Security
 
 You should use a local user account for daily tasks. Use complex passwords for your accounts. You can create a local user account in Start → Settings → Accounts → Other users → Add account → I don't have this person's sign-in information → Add a user without a Microsoft account. You should add security questions to your local account in case you forget your password in Start  → Settings → Accounts → Sign-in options → Update your security questions. You can also create a password reset disk for your local account. In the search box on the taskbar, type `Control Panel`, and then choose it from the list of results. In the Control Panel search box, type `create password reset`. Select `Create a password reset disk`, and follow the remaining instructions.
 
 You can hide your account info when logging in by enabling the Group Policy `Computer Configuration\Windows Settings\Security Settings\Local Policies\Security Options\Interactive logon: Don’t display last signed-in` and `Computer Configuration\Windows Settings\Security Settings\Local Policies\Security Options\Interactive logon: Don’t display username at sign-in`. You can also find the related option in Start → Settings → Accounts → Sign-in Options → Show account details such as my email address on the sign-in screen.
+
+Windows Hello, including PIN, facial recognition, and fingerprint, leverages TPM, making it more secure than local user account passwords. Currently, there is no way to completely replace local user account passwords with Windows Hello without compromising user experience and operating system recoverability. If you are using a secured-core PC, execute the following command from an elevated command prompt:
+  ```
+  reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios" /v SecureBiometrics /t REG_DWORD /d 1 /f
+  reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios" /v SecureFingerprint /t REG_DWORD /d 1 /f
+  ```
 
 ### Network & Bluetooth Security
 
@@ -251,8 +253,16 @@ Some Required Service Data is necessary for Windows security and should be retai
 - Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Search\Don't search the web or display web results in Search`.
 - Enable all Group Policy objects under `Computer Configuration\Administrative Templates\Windows Components\Cloud Content`.
 - Enable the Group Policy `User Configuration\Administrative Templates\Windows Components\Cloud Content\Do not use diagnostic data for tailored experiences`.
-- Enable the Group Policy `User Configuration\Administrative Templates\Windows Components\Cloud Content\Do not suggest third-party content in Windows spotlight`.
-- Enable the Group Policy `User Configuration\Administrative Templates\Windows Components\Cloud Content\Turn off cloud optimized content`.
+- Enable the Group Policy `User Configuration\Administrative Templates\Windows Components\Cloud Content\Turn off the Windows Welcome Experience`.
+- Configure the Group Policy `User Configuration\Administrative Templates\Windows Components\Cloud Content\Turn off all Windows spotlight features` according to your needs.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\File Explorer\Turn off account-based insights, recent, favorite, and recommended files in File Explorer`.
+- Enable the Group Policy `User Configuration\Administrative Templates\Windows Components\File Explorer\Turn off display of recent search entries in the File Explorer search box`.
+- Enable the Group Policy `User Configuration\Administrative Templates\Windows Components\File Explorer\Common Open File Dialog\Hide the dropdown list of recent files`.
+- Disable the Group Policy `Computer Configuration\Administrative Templates\Control Panel\Allow Online Tips`.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Start Menu and Taskbar\Remove Personalized Website Recommendations from the Recommended section in the Start Menu`.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Start Menu and Taskbar\Remove "Recently added" list from Start Menu`.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Start Menu and Taskbar\Do not keep history of recently opened documents`.
+- Enable the Group Policy `Computer Configuration\Administrative Templates\Start Menu and Taskbar\Show or hide "Most used" list from Start menu` and select the option to `Hide`.
 - Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Windows Error Reporting\Disable Windows Error Reporting`.
 - Enable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Software Protection Platform\Turn off KMS Client Online AVS Validation`.
 - Disable the Group Policy `Computer Configuration\Administrative Templates\Windows Components\Messaging\Allow Message Service Cloud Sync`.
@@ -336,6 +346,7 @@ For required service data:
 - Enable the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Enable network prediction` and set it to `Don’t predict network actions on any network connection`.
 - Enable the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Secure mode and Certificate-based Digital Signature validation in native PDF reader`.
 - Disable the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Content settings\Choose whether users can receive customized background images and text, suggestions, notifications, and tips for Microsoft services`.
+- Disable the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Manageability\Microsoft Edge management enabled`.
 - Enable the Group Policy `Computer Configuration\Administrative Templates\Microsoft Edge\Configure InPrivate mode availability` and set it to `Forced`.
 
   <details class="warning" markdown>
@@ -408,4 +419,4 @@ You cannot disable the subscription version of Office, Microsoft 365.
 
 </details>
 
-For required service data, disable the Group Policy `User Configuration\Administrative Templates\Microsoft Office 2016\Privacy\Trust Center\Allow the use of connected experiences in Office` and `User Configuration\Administrative Templates\Microsoft Office 2016\Privacy\Trust Center\Enable Customer Experience Improvement Program`.
+For required service data, disable the Group Policy `User Configuration\Administrative Templates\Microsoft Office 2016\Privacy\Trust Center\Allow the use of connected experiences in Office`.
