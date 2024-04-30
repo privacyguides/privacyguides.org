@@ -73,8 +73,6 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 </div>
 
-Notesnook only allows local note encryption with the [private vault](https://help.notesnook.com/lock-notes-with-private-vault) feature on their pro plan, otherwise your notes are not stored encrypted on your device. Your notes are always encrypted before being synced to their servers with keys which only you have access to.
-
 ### Joplin
 
 <div class="admonition recommendation" markdown>
