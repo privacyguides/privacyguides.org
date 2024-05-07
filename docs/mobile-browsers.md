@@ -66,13 +66,6 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 
 </div>
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
-
-Brave for Android has a hard dependency on Google Play Services, and as a result will not work on [AOSP derivatives](https://www.privacyguides.org/en/android/#aosp-derivatives) without additional tweaks, such as [Sandboxed Google Play](https://grapheneos.org/features#sandboxed-google-play) on GrapheneOS.
-
-</div>
-
 #### Recommended Brave Configuration
 
 Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
@@ -133,7 +126,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 </div>
 
-1. Safe Browsing communicates with Google servers in order to download blacklists.
+1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
 2. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
 
 #### Leo
