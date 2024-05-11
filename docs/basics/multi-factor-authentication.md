@@ -121,14 +121,7 @@ Beyond just securing your website logins, multi-factor authentication can be use
 
 ### Windows
 
-Yubico has a dedicated [Credential Provider](https://learn.microsoft.com/windows/win32/secauthn/credential-providers-in-windows) that adds Challenge-Response authentication for the username + password login flow for local Windows accounts. If you have a YubiKey with Challenge-Response authentication support, take a look at the [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), which will allow you to set up MFA on your Windows computer.
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
-
-To set up MFA using YubiKey on Windows, you need to install the software 'Yubico Login for Windows' from Yubico. This increases the attack surface. Before proceeding, assess it based on your threat model.
-
-</div>
+Yubico has a dedicated [Credential Provider](https://learn.microsoft.com/windows/win32/secauthn/credential-providers-in-windows) that adds Challenge-Response authentication for the username + password login flow for local Windows accounts.
 
 ### macOS
 
