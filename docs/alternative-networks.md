@@ -105,3 +105,31 @@ Also, unlike Tor, every I2P node will relay traffic for other users by default, 
 There are downsides to I2P's approach, however. Tor relying on dedicated exit nodes means more people in less safe environments can use it, and the relays that do exist on Tor are likely to be more performant and stable, as they generally aren't run on residential connections. Tor is also far more focused on **browser privacy** (i.e. anti-fingerprinting), with a dedicated [Tor Browser](tor.md) to make browsing activity as anonymous as possible. I2P is used via your [regular web browser](desktop-browsers.md), and while you can configure your browser to be more privacy-protecting, you probably still won't have the same browser fingerprint as other I2P users (there's no "crowd" to blend in with in that regard).
 
 Tor is likely to be more resistant to censorship, due to their robust network of bridges and varying [pluggable transports](https://tb-manual.torproject.org/circumvention). On the other hand, I2P uses directory servers for the initial connection which are varying/untrusted and run by volunteers, compared to the hard-coded/trusted ones Tor uses which are likely easier to block.
+
+
+### Nym
+
+<div class="admonition recommendation" markdown>
+
+**Nym** is a mixnet implementation that protects IP addresses and traffic patterns. It encrypts traffic packets in multiple layers and relays them through the multi-layered "mixnet" network. Decentralized like Tor and incentivized, Nym ensures network quality and uptime. 
+
+[:octicons-home-16: Homepage](https://nymtech.net){ .md-button .md-button--primary }
+[:octicons-info-16:](https://nymvpn.com){ .card-link title=Documentation }
+[:octicons-code-16:](https://github.com/nymtech){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/nymtech){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.nymtech.nymvpn)
+- [:simple-android: Android](https://nymvpn.com/en/download/android)
+- [:simple-windows11: Windows](https://nymvpn.com/en/download/windows)
+- [:simple-apple: macOS](https://nymvpn.com/en/download/macos)
+- [:simple-linux: Linux](https://nymvpn.com/en/download/linux)
+- [:simple-ios: Linux](https://nymvpn.com/en/download/ios)
+
+</details>
+
+</div>
+
+The Nym mixnet and its client NymVPN are still in development as of May 2024, but are actively being improved and are backed by renowned scientific advisors and cryptographers from KU Leuwen, UCL or EPFL.
