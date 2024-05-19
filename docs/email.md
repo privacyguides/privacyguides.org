@@ -65,7 +65,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
-- [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
+- [:simple-github: GitHub](https://github.com/ProtonMail/android-mail/releases)
 - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
