@@ -16,7 +16,7 @@ The recommendations for online providers here do not train their models using yo
 
 ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){align=right}
 
-**DuckDuckGo AI Chat** is made by the popular [seach engine provider] (https://www.privacyguides.org/en/search-engines) and is available directly in the search engine. It is available on a Tor hidden site.
+**DuckDuckGo AI Chat** is made by the popular [seach engine provider] (https://www.privacyguides.org/en/search-engines) and is available directly in the search engine. 
 
 [:octicons-home-16: Homepage](https://duckduckgo.com/aichat)
 [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/aichat){ .card-link title="Onion Service" }
@@ -27,15 +27,11 @@ The recommendations for online providers here do not train their models using yo
 
 </div>
 
--Models: Anthropic Claude 1.2 and Open AI GPT 3-5
--Type : third-party providers proxied trough DDG servers
--Availability : Any browser with JavaScript. Works with Tor.
-Rate limit : none
--Privacy : DuckDuckGo has an agreement with the companies ensuring your prompts and outputs aren't used for improving their models. The agreement also states the providers must delete all chats within 30 days.
+DuckDuckGo offers proprietary models from by Anthropic and Open AI. To protect your privacy, DuckDuckGo proxies your chats through their servers, and the agreement between DuckDuckGo and OpenAI and Antrhopic states that your chats aren't to be used for training and be deleted after 30 days. It is available directly on the (DuckDuckGo)[duckduckgo.com] search engine, including on the Tor hidden site. The later guarantees that you have "unlimited" rate limits for the use of the chatbot.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Your chats are kept for 30 days</p>
-DuckDuckGo act as proxy between you and OpenAI or Claude. However, those two companies will retain your chats for 30 days. Use a local model if your prompts contains PII, and Tor if it contains sensitive information.
+DuckDuckGo and the providers can have access to your chats. Use a local model if your prompts contains PII, and Tor if it contains sensitive information.
 </div>
   
 ### Brave Leo AI
@@ -44,22 +40,21 @@ DuckDuckGo act as proxy between you and OpenAI or Claude. However, those two com
 
 ![Brave Logo](assets/img/browsers/brave.svg){align=right}
 
-**Brave Leo** is an AI assistant available in the Brave browser, a browser which we recommend. It can analyse the context of the web page you are visiting, but we advise you to disable it on web pages with your PII. 
-
+**Brave Leo** is an AI assistant available inside the Brave browser, a browser which we recommend. 
 [:octicons-home-16: Homepage](https://brave.com/leo)
 [:octicons-eye-16:](https://brave.com/privacy/browser/#brave-leo){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/brave/brave-browser/wiki/Brave-Leo){ .card-link title=Documentation}
 
 </details>
 </div>
-
--Models : Antrophic Claude Instant, Mixtral 8x7b and Llama 2 13b.
--Type : Claude is run by Anthropic but proxied trough Brave. Other models are hosted by Brave.
--Availability: only available in the Brave Browser.
--Rate limit : Unlimited for Llama 13b, and heavily limited for the rest.
--Privacy : For in-house models, all chats are discarded after session is ended, and chats aren't used for training. For Claude, all data is retained for 30 days but 'personal data' isn't used for training.
+Brave Leo supports a range of models, including open-source models from Meta and Mixtral and closed-source models from Anthropic. Brave host the open models and do not retain chat or train on the data from those models. For Claude models, Brave proxies your chats through their servers,and the agreement between Brave and Anthropic states that chats are to be deleted after 30 days and that 'personal data' isn't used for training. Leo AI is available on the Brave Browser on all platforms. There is a strict rate limit for most models, but there is 1 free model whith an high-rate limit.
 
 
+
+<div class="admonition danger" markdown>
+<p class="admonition-title">Pages content are sent by default</p>
+Brave will send the page content to their severs by default, and there is no way to permanently disable it. However, we recommend manually switching off the "Use page context for response" toggle for pages with PII. 
+</div>
 <div class="admonition danger" markdown>
 <p class="admonition-title">Claude chats are kept for 30 days</p>
 We recommend against using Anthropic's Claude Instant becuase they will keep a chat history for 30 days.
@@ -80,15 +75,10 @@ Kobold.cpp is an AI client that runs locally on your computer.
 
 </details>
 </div>
+-You can run models from Meta, Mistral, Microsoft (Phi-2) and others locally on your Windows or Linux PC. Since your data isn't leaving your PC, you don't have to worry about sharing sensitive PII. 
+If you use a quantitised model, you can except models to consume between 0.5GB and 2GB of RAM for every billion paramater. Since the minimum parameters count for a satisfactory model is 8B, you should have at least 12gb of RAM. You can download quantised models in a format called GGUF, at [Hugging Face] (https://huggingface.co/models?sort=trending&search=.GGUF).
 
-Kobold.cpp allows you to easily run an AI model right on your computer. You simply select your model files and click run. A chat interface will open in your browser.Since it is run locally, you can submit it sensitive information.
-Using quantitised model, you can except models to consume between 0.5GB and 2GB of RAM for every billion paramater. Since the minimum for a quality model is 8B, it is strongly recommended to have at least 12GB of RAM. You can download those quantised models in a format called GGUF, at [Hugging Face] (https://huggingface.co/models?sort=trending&search=.GGUF).
 
--Models : Llama 1,2,3, Mistral, Phi-2, and a few others.
--Type : Local model
--Availability : Linux, Windows
--Rate limit : None
--Privacy : Total
 
 ## Criteria
 
