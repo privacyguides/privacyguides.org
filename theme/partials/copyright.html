@@ -19,25 +19,32 @@
   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
   IN THE SOFTWARE.
 -->
-{% set copyright = config.extra.privacy_guides.footer %}
+{% set footer = config.extra.privacy_guides.footer %}
 
 <!-- Copyright information -->
 <div class="md-copyright">
-  {% if copyright %}
+  {% if footer %}
     <div class="md-copyright__highlight" title="This version of Privacy Guides was built on {{ build_date_utc.strftime('%B %d, %Y at %I:%M%p') }}">
-      {{ copyright.intro }}
-      <br />
-      {{ copyright.note }}
-      <br />
       <a href='/license'>
-        {% for icon in copyright.license %}
+        {% for icon in footer.license %}
           <span class="twemoji">{% include ".icons/" ~ icon ~ ".svg" %}</span>
         {% endfor %}
       </a>
-      {{ copyright.copyright.date }} {{ copyright.copyright.author }}
-      <a href='#__consent'>
-        {{ copyright.analytics }}
+      {{ footer.copyright.date }}
+      <a href="{{ 'about/contributors' | url }}">
+        {{ footer.copyright.author }}
       </a>
+
+      <a href='#__consent' class="mdx-footer__link">
+        {{ footer.analytics }}
+      </a>
+
+      <br>
+
+      <a href="{{ 'about/donate' | url }}" class="mdx-footer__link">
+        {{ footer.donate }}
+      </a>
+      {{ footer.note }}
     </div>
   {% endif %}
 </div>
