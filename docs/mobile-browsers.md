@@ -95,7 +95,7 @@ Brave allows you to select additional content filters within the internal `brave
 - [x] Select **Auto-redirect tracking URLs**
 - [x] Select **strict** under **Upgrade connections to HTTPS**
 - [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Block cross-site cookies** under **Block Cookies**
+- [x] Select **Block third-party cookies** under **Block Cookies**
 - [x] Select **Block fingerprinting**
 - [x] Select **Prevent fingerprinting via language settings**
 
