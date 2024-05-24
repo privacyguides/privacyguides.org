@@ -9,7 +9,7 @@ description: Browser fingerprinting is a method of tracking users across sites r
 <div class="admonition abstract" markdown>
 <p class="admonition-title">TL;DR</p>
 
-The **only** reliable way to thwart all fingerprinting scripts and be anonymous is to use [Tor Browser](../tor.md). Other browsers can only confidently fool certain tracking scripts, and will **never** be unidentifiable despite any claims otherwise. However, the anti-fingerprinting approaches used by other browsers and described here can still be useful in protecting your privacy.
+The **only** reliable way to thwart all fingerprinting scripts and be anonymous is to use [Tor Browser](../tor.md). Other browsers can only confidently fool certain tracking scripts, and will never be completely unidentifiable despite any claims otherwise. However, the anti-fingerprinting approaches used by other browsers and described here are still useful in protecting your privacy.
 
 </div>
 
