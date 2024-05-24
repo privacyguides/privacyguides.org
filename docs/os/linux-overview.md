@@ -15,7 +15,7 @@ There are some notable privacy concerns with Linux which you should be aware of.
 
 - Avoid telemetry that often comes with proprietary operating systems
 - Maintain [software freedom](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- Use privacy-focused systems such as [Whonix](#whonix) or [Tails](#tails)
+- Use privacy-focused systems such as [Whonix](../desktop.md#whonix) or [Tails](../desktop.md#tails)
 
 ### Open-Source Security
 
