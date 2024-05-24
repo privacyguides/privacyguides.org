@@ -44,6 +44,8 @@ Brave Search includes unique features such as [Discussions](https://search.brave
 
 </div>
 
+Note that if you use Brave Search while logged in to a Premium account, it may make it easier for Brave to correlate queries with specific users.
+
 We recommend you disable [Anonymous usage metrics](https://search.brave.com/help/usage-metrics) as it is enabled by default and can be disabled within settings.
 
 ### DuckDuckGo
