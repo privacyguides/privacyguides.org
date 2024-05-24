@@ -46,7 +46,7 @@ Another common fingerprinting technique is "canvas fingerprinting," which uses W
 
 In general, we can classify fingerprinting software into two categories: **naive** and **advanced**.
 
-**Naive** trackers can be fooled by standard anti-fingerprinting techniques like Firefox's "resist fingerprinting" or Brave's fingerprint randomization features, because they only look for a few predetermined metrics and will blindly accept whatever values your browser provides. Thus, they are easily fooled by typical anti-fingerprinting approaches.
+**Naive** trackers can be fooled by standard anti-fingerprinting techniques like Firefox's "resist fingerprinting" or Brave's fingerprint randomization features, because they only look for a few predetermined metrics and will blindly accept whatever values your browser provides.
 
 On the other hand, **advanced** fingerprinting scripts can detect randomized values created by your browser (this is always possible) with varying levels of sophistication, going to greater lengths to fingerprint you than most anti-fingerprinting methods can protect against. The only way to defeat advanced scripts is by blending in with a crowd of other identical looking browsers, which is no easy feat.
 
