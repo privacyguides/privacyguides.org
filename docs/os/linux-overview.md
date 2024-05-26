@@ -53,7 +53,7 @@ Atomic updating distributions apply updates in full or not at all. Typically, tr
 
 A transactional update system creates a snapshot that is made before and after an update is applied. If an update fails at any time (perhaps due to a power failure), the update can be easily rolled back to a “last known good state."
 
-The Atomic update method is used for [distributions](../desktop.md#atomic-distributions) like Silverblue, Tumbleweed, and NixOS and can achieve reliability with this model. [Adam Šamalík](https://twitter.com/adsamalik) provided a [presentation](https://youtu.be/-hpV5l-gJnQ?si=kuBXx9qq1No9iiVp) on how `rpm-ostree` works with Silverblue.
+The Atomic update method is used for [distributions](../desktop.md#atomic-distributions) like Silverblue, Tumbleweed, and NixOS and can achieve reliability with this model. [Adam Šamalík](https://twitter.com/adsamalik) provided a [presentation](https://youtu.be/-hpV5l-gJnQ) on how `rpm-ostree` works with Silverblue.
 
 ### “Security-focused” distributions
 
