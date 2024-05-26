@@ -111,7 +111,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji loading=lazy } [Proton Mail](email.md#proton-mail)
 - ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji loading=lazy } [Mailbox.org](email.md#mailboxorg)
-- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji loading=lazy } [Tuta](email.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
 
 </div>
 
@@ -218,7 +218,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/calendar/tuta.svg){ .twemoji loading=lazy } [Tuta](calendar.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](calendar.md#tuta)
 - ![Proton Calendar logo](assets/img/calendar/proton-calendar.svg){ .twemoji loading=lazy } [Proton Calendar](calendar.md#proton-calendar)
 
 </div>

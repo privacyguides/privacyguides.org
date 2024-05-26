@@ -178,7 +178,7 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
 
 </div>
 
@@ -186,7 +186,8 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg){ align=right }
+![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
 **Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Free accounts start with 1GB of storage.
 
