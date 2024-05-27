@@ -114,7 +114,7 @@ article.md-content__inner > * {
     margin-right: 0;
     text-align: right;
 } */
-#what-should-i-do, #what-should-i-do ~ :not( .mdx-cat ~ * ):not( .mdx-cta ) {
+#what-should-i-do, #what-should-i-do ~ :not( .mdx-cat ~ * ):not( .mdx-cta ):not( .mdx-discourse-topics) {
   margin-left: auto;
   margin-right: 0;
   text-align: right;
@@ -133,4 +133,57 @@ article.md-content__inner > hr {
 .mdx-cta .twemoji {
     --md-icon-size: 1.8em;
     margin: 0.4rem;
+}
+
+.mdx-discourse-topics {
+  max-width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.mdx-discourse-topics .topics-list {
+  grid-template-columns: repeat(5, 1fr);
+}
+.mdx-discourse-topics .discourse-title {
+  min-height: 4em;
+}
+.mdx-discourse-topics .topics-list {
+  display: grid;
+  text-align: left;
+}
+.mdx-discourse-topics .topics-list .discourse-title {
+  line-height: 1.2;
+  margin: 0;
+}
+.mdx-discourse-topics .topics-list .discourse-topic {
+  padding: 0.4em;
+  margin-bottom: 1em;
+}
+.mdx-discourse-topics .topics-list .discourse-data {
+  color: var(--md-default-fg-color--light);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.mdx-discourse-topics .topics-list .discourse-data li {
+  margin: 0;
+}
+.mdx-discourse-topics .topics-list .discourse-data li img {
+  vertical-align: middle;
+}
+@media screen and (max-width: 1000px) {
+  .mdx-discourse-topics .topics-list {
+    grid-template-columns: repeat(3, 1fr);
+ }
+  .mdx-discourse-topics .topics-list .discourse-title {
+    min-height: 0;
+ }
+}
+@media screen and (max-width: 600px) {
+  .mdx-discourse-topics .topics-list {
+    grid-template-columns: repeat(1, 1fr);
+ }
+  .mdx-discourse-topics .topics-list .discourse-title {
+    min-height: 0;
+ }
 }
