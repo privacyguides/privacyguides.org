@@ -119,10 +119,6 @@ If you use SMS MFA, use a carrier who will not switch your phone number to a new
 
 Beyond just securing your website logins, multi-factor authentication can be used to secure your local logins, SSH keys or even password databases as well.
 
-### Windows
-
-Yubico has a dedicated [Credential Provider](https://learn.microsoft.com/windows/win32/secauthn/credential-providers-in-windows) that adds Challenge-Response authentication for the username + password login flow for local Windows accounts. If you have a YubiKey with Challenge-Response authentication support, take a look at the [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), which will allow you to set up MFA on your Windows computer.
-
 ### macOS
 
 macOS has [native support](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) for authentication with smart cards (PIV). If you have a smartcard or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smartcard/hardware security vendor's documentation and set up second factor authentication for your macOS computer.
