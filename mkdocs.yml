@@ -417,6 +417,8 @@ nav:
           - "passwords.md"
           - "productivity.md"
           - "real-time-communication.md"
+      - !ENV [NAV_HARDWARE, "Hardware"]:
+          - "security-keys.md"
       - !ENV [NAV_OPERATING_SYSTEMS, "Operating Systems"]:
           - "android.md"
           - "desktop.md"

@@ -166,7 +166,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Ente logo](assets/img/photo-management/ente.svg#only-light){ .twemoji loading=lazy }![Ente logo](assets/img/photo-management/ente.svg#only-dark){ .twemoji loading=lazy } [Ente Photos](photo-management.md#ente)
+- ![Ente logo](assets/img/photo-management/ente.svg#only-light){ .twemoji loading=lazy }![Ente logo](assets/img/photo-management/ente.svg#only-dark){ .twemoji loading=lazy } [Ente Photos](photo-management.md#ente-photos)
 - ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ .twemoji loading=lazy }![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji loading=lazy } [Stingle](photo-management.md#stingle)
 - ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](photo-management.md#photoprism)
 
@@ -336,10 +336,10 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 ### Multi-Factor Authentication Tools
 
+**Note:** [Hardware security keys](#security-keys) have been moved to their own category.
+
 <div class="grid cards" markdown>
 
-- ![YubiKeys](assets/img/multi-factor-authentication/mini/yubico.svg){ .twemoji loading=lazy } [YubiKey](multi-factor-authentication.md#yubikey)
-- ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji loading=lazy } [Nitrokey](multi-factor-authentication.md#nitrokey)
 - ![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ .twemoji loading=lazy } [Ente Auth](multi-factor-authentication.md#ente-auth)
 - ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji loading=lazy } [Aegis Authenticator (Android)](multi-factor-authentication.md#aegis-authenticator-android)
 
@@ -422,6 +422,20 @@ For encrypting your operating system drive, we typically recommend using whichev
 </div>
 
 [Learn more :material-arrow-right-drop-circle:](real-time-communication.md)
+
+## Hardware
+
+### Security Keys
+
+<div class="grid cards" markdown>
+
+- ![Yubico logo](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [Yubico Security Key](security-keys.md#yubico-security-key)
+- ![Yubico logo](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [YubiKey](security-keys.md#yubikey)
+- ![Nitrokey](assets/img/security-keys/mini/nitrokey.svg){ .twemoji loading=lazy } [Nitrokey](security-keys.md#nitrokey)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](security-keys.md)
 
 ## Operating Systems
 
