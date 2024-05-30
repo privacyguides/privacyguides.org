@@ -103,7 +103,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
+[Learn more :material-arrow-right-drop-circle:](dns.md#self-hosted-dns-filtering)
 
 ### Email
 
@@ -111,7 +111,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji loading=lazy } [Proton Mail](email.md#proton-mail)
 - ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji loading=lazy } [Mailbox.org](email.md#mailboxorg)
-- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji loading=lazy } [Tuta](email.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
 
 </div>
 
@@ -166,7 +166,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Ente logo](assets/img/photo-management/ente.svg#only-light){ .twemoji loading=lazy }![Ente logo](assets/img/photo-management/ente.svg#only-dark){ .twemoji loading=lazy } [Ente](photo-management.md#ente)
+- ![Ente logo](assets/img/photo-management/ente.svg#only-light){ .twemoji loading=lazy }![Ente logo](assets/img/photo-management/ente.svg#only-dark){ .twemoji loading=lazy } [Ente Photos](photo-management.md#ente)
 - ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ .twemoji loading=lazy }![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji loading=lazy } [Stingle](photo-management.md#stingle)
 - ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](photo-management.md#photoprism)
 
@@ -218,7 +218,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/calendar/tuta.svg){ .twemoji loading=lazy } [Tuta](calendar.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](calendar.md#tuta)
 - ![Proton Calendar logo](assets/img/calendar/proton-calendar.svg){ .twemoji loading=lazy } [Proton Calendar](calendar.md#proton-calendar)
 
 </div>
@@ -274,7 +274,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and typically use hardware encryption elements such as a TPM that other full-disk encryption software like VeraCrypt do not. VeraCrypt is still suitable for non-operating system disks such as external drives, especially drives that may be accessed from multiple operating systems.
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+[Learn more :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
 
 </details>
 
@@ -338,7 +338,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 - ![YubiKeys](assets/img/multi-factor-authentication/mini/yubico.svg){ .twemoji loading=lazy } [YubiKey](multi-factor-authentication.md#yubikey)
 - ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji loading=lazy } [Nitrokey](multi-factor-authentication.md#nitrokey)
-- ![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ .twemoji loading=lazy } [ente Auth](multi-factor-authentication.md#ente-auth)
+- ![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ .twemoji loading=lazy } [Ente Auth](multi-factor-authentication.md#ente-auth)
 - ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji loading=lazy } [Aegis Authenticator (Android)](multi-factor-authentication.md#aegis-authenticator-android)
 
 </div>
@@ -501,7 +501,7 @@ These tools may provide utility for certain individuals. They provide functional
 - ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
 - ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
 - ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji loading=lazy }![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji loading=lazy } [Hypatia (Android)](device-integrity.md#hypatia-android)
-- ![iVerify logo](assets/img/device-integrity/iverify.webp){ .twemoji loading=lazy } [iVerify (iOS)](device-integrity.md#iverify-ios)
+- ![iVerify logo](assets/img/device-integrity/iverify.webp){ .twemoji loading=lazy } [iVerify Basic (iOS)](device-integrity.md#iverify-basic-ios)
 
 </div>
 

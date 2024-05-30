@@ -101,7 +101,7 @@ When configuring your MFA method, keep in mind that it is only as secure as your
 
 You should always have backups for your MFA method. Hardware security keys can get lost, stolen or simply stop working over time. It is recommended that you have a pair of hardware security keys with the same access to your accounts instead of just one.
 
-When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt)).
+When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt-disk)).
 
 ### Initial Set Up
 
@@ -118,10 +118,6 @@ If you use SMS MFA, use a carrier who will not switch your phone number to a new
 ## More Places to Set Up MFA
 
 Beyond just securing your website logins, multi-factor authentication can be used to secure your local logins, SSH keys or even password databases as well.
-
-### Windows
-
-Yubico has a dedicated [Credential Provider](https://learn.microsoft.com/windows/win32/secauthn/credential-providers-in-windows) that adds Challenge-Response authentication for the username + password login flow for local Windows accounts. If you have a YubiKey with Challenge-Response authentication support, take a look at the [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), which will allow you to set up MFA on your Windows computer.
 
 ### macOS
 

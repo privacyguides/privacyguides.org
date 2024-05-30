@@ -56,7 +56,6 @@ extra:
         - fontawesome/brands/creative-commons
         - fontawesome/brands/creative-commons-by
         - fontawesome/brands/creative-commons-sa
-      analytics: !ENV [FOOTER_ANALYTICS, "Anonymous statistics preferences."]
     homepage:
       description:
         !ENV [
@@ -235,24 +234,6 @@ extra:
           data: 0
           note:
             !ENV [ANALYTICS_FEEDBACK_NEGATIVE_NOTE, "Thanks for your feedback!"]
-  consent:
-    title: !ENV [ANALYTICS_CONSENT_TITLE, "Contribute anonymous statistics"]
-    description:
-      !ENV [
-        ANALYTICS_CONSENT_BODY,
-        "We use cookies to collect anonymous usage statistics. You can opt out if you wish.",
-      ]
-    cookies:
-      analytics:
-        name: !ENV [ANALYTICS_COOKIE_UMAMI, "Self-Hosted Analytics"]
-        checked: true
-      github:
-        name: !ENV [ANALYTICS_COOKIE_GITHUB, "GitHub API"]
-        checked: true
-    actions:
-      - reject
-      - accept
-      - manage
 
 repo_url:
   !ENV [BUILD_REPO_URL, "https://github.com/privacyguides/privacyguides.org"]
@@ -303,7 +284,6 @@ extra_css:
   - assets/stylesheets/extra.css?v=2
 extra_javascript:
   - assets/javascripts/randomize-element.js?v=1
-  - assets/javascripts/resolution.js?v=1
   - assets/javascripts/feedback.js?v=1
 
 watch:
