@@ -33,7 +33,7 @@ Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hi
 
 **Brave Search** is a search engine developed by Brave. The index is optimized against Google Search and therefore may provide more contextually accurate results compared to other alternatives.
 
-Brave Search includes unique features such as [Discussions](https://search.brave.com/help/discussions), which highlights conversation-focused results—such as forum posts.
+Brave Search includes unique features such as [Discussions](https://search.brave.com/help/discussions), which highlights conversation-focused results such as forum posts.
 
 [:octicons-home-16: Homepage](https://search.brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
@@ -43,6 +43,8 @@ Brave Search includes unique features such as [Discussions](https://search.brave
 </details>
 
 </div>
+
+Note that if you use Brave Search while logged in to a Premium account, it may make it easier for Brave to correlate queries with specific users.
 
 We recommend you disable [Anonymous usage metrics](https://search.brave.com/help/usage-metrics) as it is enabled by default and can be disabled within settings.
 
@@ -122,7 +124,7 @@ When you are using a SearXNG instance, be sure to go read their privacy policy. 
 ### Minimum Requirements
 
 - Must not collect PII per their privacy policy.
-- Must not allow users to create an account with them.
+- Must not require users to create an account with them.
 
 ### Best-Case
 
