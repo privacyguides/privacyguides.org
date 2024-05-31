@@ -127,7 +127,7 @@ Also, the Android app is not available but it is [in the works](https://discuss.
 
 - Must enforce end-to-end encryption.
 - Must offer a free plan or trial period for testing.
-- Must support TOTP or FIDO2 multi-factor authentication, or Passkey logins.
+- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - Must offer a web interface which supports basic file management functionality.
 - Must allow for easy exports of all files/documents.
 - Must use standard, audited encryption.
