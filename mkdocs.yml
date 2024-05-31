@@ -442,7 +442,12 @@ nav:
           - !ENV [NAV_TECHNICAL_GUIDES, "Technical Guides"]:
               - "meta/uploading-images.md"
               - "meta/git-recommendations.md"
+  - !ENV [NAV_DONATE, "Donate"]: "about/donate/"
   - !ENV [NAV_CHANGELOG, "Changelog"]:
       "https://github.com/privacyguides/privacyguides.org/releases"
   - !ENV [NAV_FORUM, "Forum"]: "https://discuss.privacyguides.net/"
   - !ENV [NAV_BLOG, "Blog"]: "https://blog.privacyguides.org/"
+
+validation:
+  nav:
+    not_found: info
