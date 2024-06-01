@@ -378,7 +378,6 @@ nav:
           - "advanced/payments.md"
           - "advanced/communication-network-types.md"
       - !ENV [NAV_OPERATING_SYSTEMS, "Operating Systems"]:
-          - "os/index.md"
           - "os/android-overview.md"
           - "os/ios-overview.md"
           - "os/linux-overview.md"
