@@ -74,44 +74,6 @@ The firmware of YubiKey is not updatable. If you want features in newer firmware
 
 </div>
 
-## Nitrokey
-
-<div class="admonition recommendation" markdown>
-
-<figure markdown="span">
-  ![Nitrokey](assets/img/security-keys/nitrokey.jpg){ width="300" }
-</figure>
-
-**Nitrokey** has a security key capable of [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) called the **Nitrokey FIDO2**. For PGP support, you need to purchase one of their other keys such as the **Nitrokey Start**, **Nitrokey Pro 2** or the **Nitrokey Storage 2**.
-
-[:octicons-home-16: Homepage](https://nitrokey.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.nitrokey.com){ .card-link title=Documentation}
-
-</details>
-
-</div>
-
-The [comparison table](https://nitrokey.com/#comparison) shows the features and how the Nitrokey models compare. The **Nitrokey 3** listed will have a combined feature set.
-
-Nitrokey models can be configured using the [Nitrokey app](https://nitrokey.com/download).
-
-For the models which support HOTP and TOTP, there are 3 slots for HOTP and 15 for TOTP. Some Nitrokeys can act as a password manager. They can store 16 different credentials and encrypt them using the same password as the OpenPGP interface.
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
-
-While Nitrokeys do not release the HOTP/TOTP secrets to the device they are plugged into, the HOTP and TOTP storage is **not** encrypted and is vulnerable to physical attacks. If you are looking to store HOTP or TOTP secrets, we highly recommend that you use a YubiKey instead.
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
-
-Resetting the OpenPGP interface on a Nitrokey will also make the password database [inaccessible](https://docs.nitrokey.com/pro/linux/factory-reset).
-
-</div>
-
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
