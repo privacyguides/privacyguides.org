@@ -23,8 +23,6 @@ The recommendations for online providers here do not train their models using yo
 [:octicons-eye-16:](https://duckduckgo.com/aichat/privacy-terms){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://help.duckduckgo.com){ .card-link title=Documentation}
 
-</details>
-
 </div>
 
 DuckDuckGo offers proprietary models from Anthropic and Open AI, as well as open-source models from Meta and Mixtral. To protect your privacy, DuckDuckGo proxies your chats through their servers, and the agreement between DuckDuckGo and the providers states that your chats aren't to be used for training and be deleted after 30 days, with " limited exceptions for safety and legal compliance". Privacy Guides is seeking greater clarity on the exact agreements. It is available directly on the (DuckDuckGo)[duckduckgo.com] search engine, including on the Tor hidden site. The later guarantees that you have "unlimited" rate limits for the use of the chatbot.
@@ -40,12 +38,12 @@ DuckDuckGo and the providers can have access to your chats. Use a local model if
 
 ![Brave Logo](assets/img/browsers/brave.svg){align=right}
 
-**Brave Leo** is an AI assistant available inside the Brave browser, a browser which we recommend. 
+**Brave Leo** is an AI assistant available inside the Brave browser, a browser which we recommend.
+
 [:octicons-home-16: Homepage](https://brave.com/leo)
 [:octicons-eye-16:](https://brave.com/privacy/browser/#brave-leo){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/brave/brave-browser/wiki/Brave-Leo){ .card-link title=Documentation}
 
-</details>
 </div>
 Brave Leo supports a range of models, including open-source models from Meta and Mixtral and closed-source models from Anthropic. Brave host the open models and do not retain chat or train on the data from those models. For Claude models, Brave proxies your chats through their servers,and the agreement between Brave and Anthropic states that chats are to be deleted after 30 days and that 'personal data' isn't used for training. Leo AI is available on the Brave Browser on all platforms. There is a strict rate limit for most models, but there is 1 free model whith an high-rate limit.
 
@@ -62,20 +60,17 @@ We recommend against using Anthropic's Claude Instant becuase they will keep a c
 
 ### Kobold.cpp
 <div class="admonition recommendation" markdown>
+
 ![Kobold.cpp Logo](https://cdn.discordapp.com/icons/849937185893384223/0985bc338dd5c3ec0424db801de06231.webp?size=80){align=right}
 
 Kobold.cpp is an AI client that runs locally on your Windows or Linux computer.
 
-
-
 [:octicons-home-16: Homepage](https://github.com/LostRuins/koboldcpp)
-
 [:octicons-eye-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy"}
 [:octicons-home-16:](https://github.com/LostRuins/koboldcpp?tab=readme-ov-file#notes) {.card-link title=" Models supported"}
 [:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Source Code" }
 
-</details>
 </div>
 -You can run models from Meta, Mistral, Microsoft (Phi-2) and others locally on your Windows or Linux PC. You can even use speak directly to the AI, and it will transcribe it to text.
 Since your data isn't leaving your PC, you don't have to worry about sharing sensitive PII. 
@@ -86,11 +81,12 @@ You should use a quantitised model of at least 7-8B, which means your computer n
 ![Ollama Logo](https://raw.githubusercontent.com/ollama/ollama/main/app/assets/app.ico){align=right}
 
 Ollama is a command line AI assitant that is available on Mac, Linux and Windows(preview).
+
 [:octicons-home-16: Homepage](https://github.com/ollama/ollama)
 [:octicons-home-16:](https://ollama.com/library) {.card-link title=" Models supported"}
 [:octicons-info-16:](https://github.com/ollama/ollama){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Source Code"}
-</details>
+
 </div>
 You can run models from Meta, Mistral, Microsoft. You can also use Llava, a model which can analyse image. Since your data isn't leaving your PC, you don't have to worry about sharing sensitive PII. 
 You should use a quantitised model of at least 7-8B, which means your computer needs at least 8gb of RAM. You can download quantised models in a format called GGUF, at [Hugging Face] (https://huggingface.co/models?sort=trending&search=.GGUF).
