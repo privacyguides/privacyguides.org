@@ -447,6 +447,7 @@ nav:
           - !ENV [NAV_TECHNICAL_GUIDES, "Technical Guides"]:
               - "meta/uploading-images.md"
               - "meta/git-recommendations.md"
+              - "meta/commit-messages.md"
   - !ENV [NAV_DONATE, "Donate"]: "about/donate/"
   - !ENV [NAV_CHANGELOG, "Changelog"]:
       "https://github.com/privacyguides/privacyguides.org/releases"
