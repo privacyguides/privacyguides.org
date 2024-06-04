@@ -67,7 +67,7 @@ Kobold.cpp is an AI client that runs locally on your Windows or Linux computer.
 
 [:octicons-home-16: Homepage](https://github.com/LostRuins/koboldcpp)
 [:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy"}
-[:octicons-library-16:](https://github.com/LostRuins/koboldcpp?tab=readme-ov-file#notes) {.card-link title=" Models supported"}
+[:octicons-books-16:](https://github.com/LostRuins/koboldcpp?tab=readme-ov-file#notes) {.card-link title=" Models supported"}
 [:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Source Code" }
 
@@ -83,7 +83,7 @@ You should use a quantitised model of at least 7-8B, which means your computer n
 Ollama is a command line AI assitant that is available on Mac, Linux and Windows(preview).
 
 [:octicons-home-16: Homepage](https://github.com/ollama/ollama)
-[:octicons-library-16:](https://ollama.com/library) {.card-link title=" Models supported"}
+[:octicons-book-16:](https://ollama.com/library) {.card-link title=" Models supported"}
 [:octicons-info-16:](https://github.com/ollama/ollama){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Source Code"}
 
