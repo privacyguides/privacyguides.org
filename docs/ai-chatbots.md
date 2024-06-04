@@ -9,7 +9,7 @@ Since the release of ChatGPT by OpenAI in December 2022, talking with Largue Lan
 
 ## Recommended Providers
 
-The recommendations for online providers here do not train their models using your chats and do not retain your chats for more than 30 days, based on each service's privacy policy. There is no guarantee that these privacy policies are honored. Only submit personally identifiable information using a local model.
+The recommendations for online providers here do not train their models using your chats and do not retain your chats for more than 14 days, based on each service's privacy policy. There is no guarantee that these privacy policies are honored. Only submit personally identifiable information using a local model.
 
 ### DuckDuckGo AI Chat
 <div class="admonition recommendation" markdown>
@@ -27,7 +27,7 @@ The recommendations for online providers here do not train their models using yo
 
 </div>
 
-DuckDuckGo offers proprietary models from by Anthropic and Open AI. To protect your privacy, DuckDuckGo proxies your chats through their servers, and the agreement between DuckDuckGo and OpenAI and Antrhopic states that your chats aren't to be used for training and be deleted after 30 days. It is available directly on the (DuckDuckGo)[duckduckgo.com] search engine, including on the Tor hidden site. The later guarantees that you have "unlimited" rate limits for the use of the chatbot.
+DuckDuckGo offers proprietary models from Anthropic and Open AI, as well as open-source models from Meta and Mixtral. To protect your privacy, DuckDuckGo proxies your chats through their servers, and the agreement between DuckDuckGo and the providers states that your chats aren't to be used for training and be deleted after 30 days, with " limited exceptions for safety and legal compliance". Privacy Guides is seeking greater clarity on the exact agreements. It is available directly on the (DuckDuckGo)[duckduckgo.com] search engine, including on the Tor hidden site. The later guarantees that you have "unlimited" rate limits for the use of the chatbot.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Your chats are kept for 30 days</p>
@@ -64,39 +64,64 @@ We recommend against using Anthropic's Claude Instant becuase they will keep a c
 <div class="admonition recommendation" markdown>
 ![Kobold.cpp Logo](https://cdn.discordapp.com/icons/849937185893384223/0985bc338dd5c3ec0424db801de06231.webp?size=80){align=right}
 
-Kobold.cpp is an AI client that runs locally on your computer.
+Kobold.cpp is an AI client that runs locally on your Windows or Linux computer.
 
 
 
 [:octicons-home-16: Homepage](https://github.com/LostRuins/koboldcpp)
+
 [:octicons-eye-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy"}
+[:octicons-home-16:](https://github.com/LostRuins/koboldcpp?tab=readme-ov-file#notes) {.card-link title=" Models supported"}
 [:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Source Code" }
 
 </details>
 </div>
--You can run models from Meta, Mistral, Microsoft (Phi-2) and others locally on your Windows or Linux PC. Since your data isn't leaving your PC, you don't have to worry about sharing sensitive PII. 
-If you use a quantitised model, you can except models to consume between 0.5GB and 2GB of RAM for every billion paramater. Since the minimum parameters count for a satisfactory model is 8B, you should have at least 12gb of RAM. You can download quantised models in a format called GGUF, at [Hugging Face] (https://huggingface.co/models?sort=trending&search=.GGUF).
+-You can run models from Meta, Mistral, Microsoft (Phi-2) and others locally on your Windows or Linux PC. You can even use speak directly to the AI, and it will transcribe it to text.
+Since your data isn't leaving your PC, you don't have to worry about sharing sensitive PII. 
+You should use a quantitised model of at least 7-8B, which means your computer needs at least 8gb of RAM. You can download quantised models in a format called GGUF, at [Hugging Face] (https://huggingface.co/models?sort=trending&search=.GGUF).
 
+### Ollama 
+<div class="admonition recommendation" markdown>
+![Ollama Logo](https://raw.githubusercontent.com/ollama/ollama/main/app/assets/app.ico){align=right}
 
+Ollama is a command line AI assitant that is available on Mac, Linux and Windows(preview).
+[:octicons-home-16: Homepage](https://github.com/ollama/ollama)
+[:octicons-home-16:](https://ollama.com/library) {.card-link title=" Models supported"}
+[:octicons-info-16:](https://github.com/ollama/ollama){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Source Code"}
+</details>
+</div>
+You can run models from Meta, Mistral, Microsoft. You can also use Llava, a model which can analyse image. Since your data isn't leaving your PC, you don't have to worry about sharing sensitive PII. 
+You should use a quantitised model of at least 7-8B, which means your computer needs at least 8gb of RAM. You can download quantised models in a format called GGUF, at [Hugging Face] (https://huggingface.co/models?sort=trending&search=.GGUF).
 
 ## Criteria
 
 Please note we are not affiliated with any of the projects we recommend. In addition to our standard criteria, we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Requirements
+  For cloud providers :
+  - Must not use your chats for training
+  - Must not retain your chats for more than 14 days
+  - Must be accessible privately (no account required, accepts request from VPN users)
+  - Must provide models they host themselves, or with a third-party that acts in their behalf.
+  - Must provide at least one model whith an high rate limit
+  For local models :
+  - Must not send personal data. Any opt-in mechanism must rely on free consent and avoid dark patern.
+  - Must not require a GPU
+  - Must have GPU support for fast inference
+  - Must not require internet connection
 
-- Must not use your chats for training.
-- Must be accessible over a VPN
-- Must provide transparency about models operators and privacy policies.
-- Must provide at least one model whith an high rate limit that allows you to use it for work.
 
 ### Best-Case
 
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
-
-- Should be accessible over Tor.
-- Should not require JavaScript.
-- Providers should only have open-source models.
-- Should not be rate-limited
-- Should not require expensive hardware
+For cloud providers :
+  - Should not retain your chat
+  - Should be accessible anonymously (Tor Browser Safest security level)
+  - Providers should only have open-source models that they self-host.
+  - Should not be rate-limited
+For local models :
+   -Should provide one-click installer
+   -Should have a built-in "Download Models" option
+   -Should support advanced features like modifying the sytem prompt, temperature, etc.
