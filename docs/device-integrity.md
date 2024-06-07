@@ -63,7 +63,7 @@ These tools can trigger false-positives. If any of these tools finds indicators 
 ### Mobile Verification Toolkit
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span>
 ![MVT logo](assets/img/device-integrity/mvt.webp){ align=right }
 
 **Mobile Verification Toolkit** (**MVT**) is a collection of utilities which simplifies and automates the process of scanning mobile devices for potential traces of targeting or infection by known spyware campaigns. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project).
@@ -106,7 +106,7 @@ MVT allows you to perform deeper scans/analysis if your device is jailbroken. Un
 <div class="admonition recommendation" markdown>
 
 ![iMazing logo](assets/img/device-integrity/imazing.png){ align=right }
-
+<span class="pg-red">:material-target-account:</span>
 **iMazing** provides a free spyware analyzer tool for iOS devices which acts as a GUI-wrapper for [MVT](#mobile-verification-toolkit). This can be much easier to run compared to MVT itself, which is a command-line tool designed for technologists and forensic investigators.
 
 [:octicons-home-16: Homepage](https://imazing.com){ .md-button .md-button--primary }
@@ -139,7 +139,7 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 ### Auditor (Android)
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account: Targeted Attacks</span> <span class="pg-orange">:material-bug-outline:</span>
 ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ align=right }
 ![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
 
@@ -192,7 +192,7 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 ### Hypatia (Android)
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-orange">:material-bug-outline:</span>
 ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
 ![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
 
@@ -217,7 +217,7 @@ Hypatia is particularly good at detecting common stalkerware: If you suspect you
 ### iVerify Basic (iOS)
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account: Targeted Attacks</span> <span class="pg-orange">:material-bug-outline:</span>
 ![iVerify logo](assets/img/device-integrity/iverify.webp){ align=right }
 
 **iVerify Basic** is an iOS app which can scan your device to check configuration settings, patch level, and other areas of security. It also checks your device for indicators of compromise by jailbreak tools or spyware such as Pegasus.
