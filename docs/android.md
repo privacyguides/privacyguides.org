@@ -105,7 +105,7 @@ End-of-life devices (such as GrapheneOS or CalyxOS's "extended support" devices)
 ### GrapheneOS
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span><span class="pg-orange">:material-bug-outline:</span>
 ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ align=right }
 ![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
 
@@ -130,7 +130,7 @@ Google Pixel phones are the only devices that currently meet GrapheneOS's [hardw
 ### DivestOS
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span><span class="pg-orange">:material-bug-outline:</span>
 ![DivestOS logo](assets/img/android/divestos.svg){ align=right }
 
 **DivestOS** is a soft-fork of [LineageOS](https://lineageos.org).
@@ -180,7 +180,7 @@ A few more tips regarding Android devices and operating system compatibility:
 Google Pixel phones are the **only** devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third-party operating systems and Google's custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element.
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span><span class="pg-orange">:material-bug-outline:</span>
 ![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
 
 **Google Pixel** devices are known to have good security and properly support [Verified Boot](https://source.android.com/security/verifiedboot), even when installing custom operating systems.
@@ -248,7 +248,7 @@ When using Shelter, you are placing complete trust in its developer, as Shelter 
 ### Secure Camera
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-green">:material-account-search:</span>
 ![Secure camera logo](assets/img/android/secure_camera.svg#only-light){ align=right }
 ![Secure camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
 
@@ -288,7 +288,7 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 ### Secure PDF Viewer
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span><span class="pg-orange">:material-bug-outline:</span>
 ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
 ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
