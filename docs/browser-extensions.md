@@ -55,7 +55,7 @@ uBlock Origin also has a "Lite" version of their extension, which offers a very 
 <div class="admonition recommendation" markdown>
 
 ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
-<span class="pg-orange">:material-bug-outline:</span> <span class="pg-brown">:material-account-cash:</span>
+<span class="pg-orange">:material-bug-outline:</span>    <span class="pg-brown">:material-account-cash:</span>
 **uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function.
 
 [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
