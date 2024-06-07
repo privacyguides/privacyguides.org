@@ -16,7 +16,7 @@ Don't install extensions which you don't immediately have a need for, or ones th
 ### uBlock Origin
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-brown">:material-account-cash:</span>
 ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }
 
 **uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
@@ -55,7 +55,7 @@ uBlock Origin also has a "Lite" version of their extension, which offers a very 
 <div class="admonition recommendation" markdown>
 
 ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
-
+<span class="pg-orange">:material-bug-outline:</span><span class="pg-brown">:material-account-cash:</span>
 **uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function.
 
 [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
@@ -88,7 +88,7 @@ We recommend [Safari](mobile-browsers.md#safari) for iOS users, which unfortunat
 <div class="admonition recommendation" markdown>
 
 ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
-
+<span class="pg-brown">:material-account-cash:</span>
 **AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
 
 [:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
