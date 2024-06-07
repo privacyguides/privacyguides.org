@@ -63,7 +63,7 @@ If you need to browse the internet anonymously, you should use [Tor](tor.md) ins
 ## Mullvad Browser
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-blue">:material-eye-outline:</span> <span class="pg-brown">:material-account-cash:</span>
 ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
 **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
@@ -109,7 +109,7 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 ## Firefox
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-brown">:material-account-cash:</span>
 ![Firefox logo](assets/img/browsers/firefox.svg){ align=right }
 
 **Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
@@ -221,7 +221,7 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 ## Brave
 
 <div class="admonition recommendation annotate" markdown>
-
+<span class="pg-brown">:material-account-cash:</span>
 ![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
 **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
