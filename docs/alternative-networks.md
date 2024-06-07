@@ -12,7 +12,7 @@ When it comes to anonymizing networks, we want to specially note that [Tor](adva
 ### Tor
 
 <div class="admonition recommendation" markdown>
-<span class="pg-purple">:material-incognito:</span>
+<span class="pg-purple">:material-incognito:</span><span class="pg-teal">:material-server-network:</span><span class="pg-blue">:material-eye-outline:</span><span class="pg-brown">:material-account-cash:</span>
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
 The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
@@ -67,7 +67,7 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 ### I2P (The Invisible Internet Project)
 
 <div class="admonition recommendation" markdown>
-<span class="pg-purple">:material-incognito:</span>
+<span class="pg-purple">:material-incognito:</span><span class="pg-teal">:material-server-network:</span><span class="pg-blue">:material-eye-outline:</span><span class="pg-brown">:material-account-cash:</span>
 ![I2P logo](assets/img/self-contained-networks/i2p.svg#only-light){ align=right }
 ![I2P logo](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
 
