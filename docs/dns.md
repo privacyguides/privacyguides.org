@@ -38,7 +38,7 @@ A self-hosted DNS solution is useful for providing filtering on controlled platf
 ### Pi-hole
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-brown">:material-account-cash:</span>
 ![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
 
 **Pi-hole** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
@@ -58,7 +58,7 @@ Pi-hole is designed to be hosted on a Raspberry Pi, but it is not limited to suc
 ### AdGuard Home
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-brown">:material-account-cash:</span>
 ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
 
 **AdGuard Home** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
@@ -81,7 +81,7 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 ### Control D
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-brown">:material-account-cash:</span>
 ![Control D logo](assets/img/dns/control-d.svg){ align=right }
 
 **Control D** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level. In addition to their paid plans, they offer a number of preconfigured DNS resolvers you can use for free.
@@ -108,7 +108,7 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 ### NextDNS
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-brown">:material-account-cash:</span>
 ![NextDNS logo](assets/img/dns/nextdns.svg){ align=right }
 
 **NextDNS** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level. They offer a fully functional free plan for limited use.
@@ -144,7 +144,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
 ### RethinkDNS
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-brown">:material-account-cash:</span>
 ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
 ![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
 
@@ -170,7 +170,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
 <div class="admonition recommendation" markdown>
 
 ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
-
+<span class="pg-teal">:material-server-network:</span> <span class="pg-brown">:material-account-cash:</span> 
 **dnscrypt-proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
 [:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
