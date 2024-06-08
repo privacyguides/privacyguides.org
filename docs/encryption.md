@@ -14,7 +14,7 @@ The options listed here are multi-platform and great for creating encrypted back
 ### Cryptomator (Cloud)
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
 
 **Cryptomator** is an encryption solution designed for privately saving files to any cloud provider. It allows you to create vaults that are stored on a virtual drive, the contents of which are encrypted and synced with your cloud storage provider.
@@ -49,7 +49,7 @@ Cryptomator's documentation details its intended [security target](https://docs.
 ### Picocrypt (File)
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span>
 ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
 
 **Picocrypt** is a small and simple encryption tool that provides modern encryption. Picocrypt uses the secure XChaCha20 cipher and the Argon2id key derivation function to provide a high level of security. It uses Go's standard x/crypto modules for its encryption features.
@@ -72,7 +72,7 @@ Cryptomator's documentation details its intended [security target](https://docs.
 ### VeraCrypt (Disk)
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span>
 ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
 ![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
 
@@ -105,9 +105,9 @@ Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
 For encrypting the drive your operating system boots from, we generally recommend enabling the encryption software that comes with your operating system rather than using a third-party tool. This is because your operating system's native encryption tools often make use of OS and hardware-specific features like the [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) in your device to protect your computer against more advanced physical attacks. For secondary drives and external drives which you *don't* boot from, we still recommend using open-source tools like [VeraCrypt](#veracrypt-disk) over the tools below, because they offer additional flexibility and let you avoid vendor lock-in.
 
 ### BitLocker
-
+<span class="pg-red">:material-target-account:</span>
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span>
 ![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
 
 **BitLocker** is the full volume encryption solution bundled with Microsoft Windows. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection).
@@ -181,7 +181,7 @@ We recommend storing a local recovery key in a secure place as opposed to using 
 ### Linux Unified Key Setup
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span>
 ![LUKS logo](assets/img/encryption-software/luks.png){ align=right }
 
 **LUKS** is the default FDE method for Linux. It can be used to encrypt full volumes, partitions, or create encrypted containers.
@@ -233,7 +233,7 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 <div class="admonition recommendation" markdown>
 
 ![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }
-
+<span class="pg-red">:material-target-account:</span>
 **Kryptor** is a free and open-source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign) to provide a simple, easier alternative to GPG.
 
 [:octicons-home-16: Homepage](https://kryptor.co.uk){ .md-button .md-button--primary }
@@ -258,7 +258,7 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 <div class="admonition recommendation" markdown>
 
 ![Tomb logo](assets/img/encryption-software/tomb.png){ align=right }
-
+<span class="pg-red">:material-target-account:</span>
 **Tomb** is a command-line shell wrapper for LUKS. It supports steganography via [third-party tools](https://dyne.org/software/tomb/#advanced-usage).
 
 [:octicons-home-16: Homepage](https://dyne.org/software/tomb){ .md-button .md-button--primary }
@@ -292,7 +292,7 @@ gpg --quick-gen-key alice@example.com future-default
 <div class="admonition recommendation" markdown>
 
 ![GNU Privacy Guard logo](assets/img/encryption-software/gnupg.svg){ align=right }
-
+<span class="pg-red">:material-target-account:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 **GnuPG** is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with [RFC 4880](https://tools.ietf.org/html/rfc4880), which is the current IETF specification of OpenPGP. The GnuPG project has been working on an [updated draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) in an attempt to modernize OpenPGP. GnuPG is a part of the Free Software Foundation's GNU software project and has received major [funding](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) from the German government.
 
 [:octicons-home-16: Homepage](https://gnupg.org){ .md-button .md-button--primary }
@@ -317,7 +317,7 @@ gpg --quick-gen-key alice@example.com future-default
 <div class="admonition recommendation" markdown>
 
 ![GPG4win logo](assets/img/encryption-software/gpg4win.svg){ align=right }
-
+<span class="pg-red">:material-target-account:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 **GPG4win** is a package for Windows from [Intevation and g10 Code](https://gpg4win.org/impressum.html). It includes [various tools](https://gpg4win.org/about.html) that can assist you in using GPG on Microsoft Windows. The project was initiated and originally [funded by](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) Germany's Federal Office for Information Security (BSI) in 2005.
 
 [:octicons-home-16: Homepage](https://gpg4win.org){ .md-button .md-button--primary }
@@ -345,7 +345,7 @@ We suggest [Canary Mail](email-clients.md#canary-mail-ios) for using PGP with em
 </div>
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
 
 **GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and macOS.
@@ -371,7 +371,7 @@ We recommend taking a look at their [First steps](https://gpgtools.tenderapp.com
 <div class="admonition recommendation" markdown>
 
 ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
-
+<span class="pg-red">:material-target-account:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 **OpenKeychain** is an Android implementation of GnuPG. It's commonly required by mail clients such as [K-9 Mail](email-clients.md#k-9-mail-android) and [FairEmail](email-clients.md#fairemail-android) and other Android apps to provide encryption support. Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. Technical details about the audit and OpenKeychain's solutions can be found [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
 
 [:octicons-home-16: Homepage](https://openkeychain.org){ .md-button .md-button--primary }
