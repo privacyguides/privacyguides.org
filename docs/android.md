@@ -98,7 +98,7 @@ We recommend installing one of these custom Android operating systems on your de
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-End-of-life devices (such as GrapheneOS or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.
+End-of-life devices (such as GrapheneOS's or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.
 
 </div>
 
