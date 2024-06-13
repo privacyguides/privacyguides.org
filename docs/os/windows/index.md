@@ -13,9 +13,9 @@ You can enhance your privacy and security on Windows without downloading any thi
 
 - Initial Installation (coming soon)
 - [Group Policy Settings](group-policies.md)
-- Privacy Settings (coming soon)
-- Application Sandboxing (coming soon)
-- Security Hardening (coming soon)
+- [Privacy Settings](privacy.md)
+- [Application Sandboxing](sandboxing.md)
+- [Security Hardening](hardening.md)
 
 <div class="admonition example" markdown>
 <p class="admonition-title">This section is new</p>

@@ -15,8 +15,8 @@ UWAs are processes that operate within the `AppContainer` is an application sand
 
 #### Win32 Apps
 
-Win32 is the application platform of choice for developing and running classic Windows applications, that 
-is, Win32 applications, that require direct access to Windows and hardware. 
+Win32 is the application platform of choice for developing and running classic Windows applications, that
+is, Win32 applications, that require direct access to Windows and hardware.
 
 The core of Win32 is the Win32 API implemented in the Windows SubDLLs (DLLs) and the ntdll.dll library file. With the combination of `SubDLLs` and `ntdll.dll`, the Win32 application has direct access to full system resources.
 
@@ -25,11 +25,10 @@ The core of Win32 is the Win32 API implemented in the Windows SubDLLs (DLLs) and
 | UWAs    | Windows |
 | :--------- | :---------------------------------- |
 |UWAs run as restricted, containerized `AppContainer` processes that run by accessing the WinRT API, a subset of COM functionalities and the Win32 API. They have specific properties that define process restrictions in terms of the system resources that processes can access.| Win32 applications run as Windows native, traditional processes that run by accessing the Win32 API and COM functionalities to their full extent and a subset of the WinRT API to directly access all system resources. They do not run as restricted processes, all system functionalities are by design directly available to them.|
-|Only a single instance of a given UWA may run at a given time. | Any number of instances of a given Win32 application may run simultaneously.
-|UWAs are distributed as application packages, archive files with a pre-defined format and required content that is necessary for the deployment and operation of UWAs |The way in which Win32 applications are distributed is not restricted by the operating system. It is defined by the application vendors.
+|Only a single instance of a given UWA may run at a given time. | Any number of instances of a given Win32 application may run simultaneously. |
+|UWAs are distributed as application packages, archive files with a pre-defined format and required content that is necessary for the deployment and operation of UWAs |The way in which Win32 applications are distributed is not restricted by the operating system. It is defined by the application vendors. |
 
 The above comparison gives a clear cut that UWA/UWP apps are the best ones to use in terms of sandboxing the app.
-
 
 ### Choosing the way to install software
 
@@ -51,22 +50,28 @@ When you see an app in store and scroll down to *Additional Information*  sectio
 
 ![UWP in store](/assets/img/windows/UWP-in-MS-Store.webp)
 
-If the Win32 App, Microsoft store will explicitly state that it is`Provided and Updated by `****` ` and `Uses all System resources` as in the image below:
+If the Win32 App, Microsoft store will explicitly state that it is Provided and Updated by `****`  and `Uses all System resources` as in the image below:
 
 ![Win32 in store](/assets/img/windows/Win32-in-MS-Store.webp)
 
-!!! note "Un-sandboxed UWP apps"
-    Some UWP apps in the store due to the lift of restrictions in Microsoft store developers can submit the app with a property named `runFullTrust` which disables sandboxing of that UWP application and shows that `Uses all System Resources` in *Additional Information* section such as Firefox. By this you can know if a UWP app is sandboxed or not.
+<div class="admonition note" markdown>
+<p class="admonition-title">Un-sandboxed UWP apps</p>
 
-    If it is sandboxed, it will show only certain permissions in *Additional Information* section.
+Some UWP apps in the store due to the lift of restrictions in Microsoft store developers can submit the app with a property named `runFullTrust` which disables sandboxing of that UWP application and shows that `Uses all System Resources` in *Additional Information* section such as Firefox. By this you can know if a UWP app is sandboxed or not.
 
-!!! abstract "Note"
-    Most apps will ask that if the app needs to be used for all users or just for your user account. It is best you keep the app to your user Account. So, We achieve better sandboxing between different user accounts.
+If it is sandboxed, it will show only certain permissions in *Additional Information* section.
+</div>
 
-##### Another way to find
+<div class="admonition abstract" markdown>
+<p class="admonition-title">Note</p>
+
+Most apps will ask that if the app needs to be used for all users or just for your user account. It is best you keep the app to your user Account. So, We achieve better sandboxing between different user accounts.
+
+</div>
+
+#### Another way to find
 
 [rg-adguard.net](https://store.rg-adguard.net/) is a third party Microsoft store app which can be used to download `.appx` files (Installer for UWP) and install UWP apps. You can use this site to download Age Restricted apps in store and Install it. **Note** that paid apps don't work unless you connect a Microsoft Account.
-
 
 ## Using Winget to Install Sofware
 
@@ -88,7 +93,7 @@ If you understood about Winget, then this tool - [https://winstall.app/](https:/
 
 Note : Be sure to install via Winget or using MSI installer to upgrade the app easily.
 
-#### Benefits of winget
+### Benefits of winget
 
 There are general advantages in having a package manager regardless of the operating system.
 
@@ -105,7 +110,6 @@ The sandbox is temporary like TailsOS running on a USB drive. When it's closed, 
 
 You can know more from the Official [Documentation](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-sandbox/windows-sandbox-overview).
 
-
 **Use case of Sandbox:** The Windows Sandbox can be used to run unknown software or if you want to isolate your Workspace from the host with only Specific set of apps, etc.
 
 ### Using Sandbox
@@ -116,16 +120,20 @@ So, when opening the file, sandbox opens with the Configurations you had set up 
 
 If you do not understand the documentation, you can use [Windows Sandbox Editor](https://github.com/damienvanrobaeys/Windows_Sandbox_Editor) instead. It is a GUI application that can be used to create configuration files easily.
 
-??? note "Regarding Windows Sandbox Editor"
-    The repository doesn't provide a package. So, you need to download the whole codebase. After, extracting the zip Windows Defender or other Antivirus software may flag the [exe](https://github.com/damienvanrobaeys/Windows_Sandbox_Editor/tree/master/EXE) file as a malware. So, it is recommended to install it via the [Powershell Script](https://github.com/damienvanrobaeys/Windows_Sandbox_Editor/tree/master/Install%20on%20desktop%20(in%20case%20of%20issue%20with%20EXE)) they provide.
+<div class="admonition note" markdown>
+<p class="admonition-title">Regarding Windows Sandbox Editor</p>
 
-    By default, You cannot execute Scripts in Powershell and it is restricted to commands only. It is recommend you allow the Terminal to `Unrestricted` mode and use it to install the editor via Script after that change it back to `Restricted` [execution policy](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2) to prevent accidental execution of malicious scripts in the future.
+The repository doesn't provide a package. So, you need to download the whole codebase. After, extracting the zip Windows Defender or other Antivirus software may flag the [exe](https://github.com/damienvanrobaeys/Windows_Sandbox_Editor/tree/master/EXE) file as a malware. So, it is recommended to install it via the [Powershell Script](https://github.com/damienvanrobaeys/Windows_Sandbox_Editor/tree/master/Install%20on%20desktop%20(in%20case%20of%20issue%20with%20EXE)) they provide.
+
+By default, You cannot execute Scripts in Powershell and it is restricted to commands only. It is recommend you allow the Terminal to `Unrestricted` mode and use it to install the editor via Script after that change it back to `Restricted` [execution policy](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2) to prevent accidental execution of malicious scripts in the future.
+
+</div>
 
 ### Run programs instantly in Sandbox
 
 [Run in Sandbox](https://github.com/damienvanrobaeys/Run-in-Sandbox) is a tool to quickly run files in Windows Sandbox with a right click.
 
-We recommend you to use this software as it is convenient and easy to use and even credited by Microsoft. 
+We recommend you to use this software as it is convenient and easy to use and even credited by Microsoft.
 
 A full guide on How to use it can be found here: [https://www.systanddeploy.com/2021/11/run-in-sandbox-quick-way-to-runextract.html](https://www.systanddeploy.com/2021/11/run-in-sandbox-quick-way-to-runextract.html)
 

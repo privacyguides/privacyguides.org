@@ -13,7 +13,7 @@ It’s worth noting that according to [this study](https://www.autoriteitpersoon
 
 You should log in to that specific app only if you need to.
 
-or 
+or
 
 Create another standard user account and connect it to Microsoft account if you are required for School or Work and keep the apps to that account alone. By restricting other data drive access, it is fully isolated from other profiles.
 
@@ -30,7 +30,8 @@ If you read this article - [https://www.softscheck.com/en/blog/windows-10-enterp
 Disabling full telemetry or sending basic data to Microsoft is totally upto the user's threat model.
 
 - [ ] Disable `Automatic Sample Submission` in Windows Defender, as the feature will send your files as a sample for Signature Database and might leak your data. You can do it via the below Group Policy so to not prompt you again and again constantly.
-    ```
+
+    ```text
     Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus > MAPS > Send file samples when further analysis is required to Never Send.
     ```
 
