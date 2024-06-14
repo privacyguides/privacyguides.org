@@ -11,27 +11,7 @@ Since the release of ChatGPT by OpenAI in December 2022, talking with Largue Lan
 
 The recommendations for online providers here do not train their models using your chats and do not retain your chats for more than 14 days, based on each service's privacy policy. There is no guarantee that these privacy policies are honored. Only submit personally identifiable information using a local model.
 
-### DuckDuckGo AI Chat
-<div class="admonition recommendation" markdown>
 
-![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){align=right}
-
-**DuckDuckGo AI Chat** is made by the popular [seach engine provider] (https://www.privacyguides.org/en/search-engines) and is available directly in the search engine. 
-
-[:octicons-home-16: Homepage](https://duckduckgo.com/aichat)
-[:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/aichat){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://duckduckgo.com/aichat/privacy-terms){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.duckduckgo.com){ .card-link title=Documentation}
-
-</div>
-
-DuckDuckGo offers proprietary models from Anthropic and Open AI, as well as open-source models from Meta and Mixtral. To protect your privacy, DuckDuckGo proxies your chats through their servers, and the agreement between DuckDuckGo and the providers states that your chats aren't to be used for training and be deleted after 30 days, with " limited exceptions for safety and legal compliance". Privacy Guides is seeking greater clarity on the exact agreements. It is available directly on the (DuckDuckGo)[duckduckgo.com] search engine, including on the Tor hidden site. The later guarantees that you have "unlimited" rate limits for the use of the chatbot.
-
-<div class="admonition danger" markdown>
-<p class="admonition-title">Your chats are kept for 30 days</p>
-DuckDuckGo and the providers can have access to your chats. Use a local model if your prompts contains PII, and Tor if it contains sensitive information.
-</div>
-  
 ### Brave Leo AI
 
 <div class="admonition recommendation" markdown>
@@ -45,16 +25,16 @@ DuckDuckGo and the providers can have access to your chats. Use a local model if
 [:octicons-info-16:](https://github.com/brave/brave-browser/wiki/Brave-Leo){ .card-link title=Documentation}
 
 </div>
-Brave Leo supports a range of models, including open-source models from Meta and Mixtral and closed-source models from Anthropic. Brave host the open models and do not retain chat or train on the data from those models. For Claude models, Brave proxies your chats through their servers,and the agreement between Brave and Anthropic states that chats are to be deleted after 30 days and that 'personal data' isn't used for training. Leo AI is available on the Brave Browser on all platforms. There is a strict rate limit for most models, but there is 1 free model whith an high-rate limit.
+Brave Leo supports a range of models, including open-source models from Meta and Mixtral and closed-source models from Anthropic. Brave host the open models and do not retain chat history or use chats for models training. It can now also search the web. It still strugles for multi-language support. Leo AI is available on the Brave Browser on all platforms. There is a strict rate limit for most models, but there is 1 free model whith an high-rate limit.
 
 
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Pages content are sent by default</p>
-Brave will send the page content to their severs by default, and there is no way to permanently disable it. However, we recommend manually switching off the "Use page context for response" toggle for pages with PII. 
+<p class="admonition-title">Pages content are sent by default </p>
+The "Use page context for response" is on by default,and the feature cannot be disabled. However, we recommend manually switching off the "Use page context for response" toggle for pages with PII. 
 </div>
 <div class="admonition danger" markdown>
-<p class="admonition-title">Claude chats are kept for 30 days</p>
+<p class="admonition-title">Claude chats are kept for 30 days </p>
 We recommend against using Anthropic's Claude Instant becuase they will keep a chat history for 30 days.
 </div>
 
