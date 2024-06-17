@@ -2745,8 +2745,18 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "jxtsai",
+      "name": "jx tsai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8361268?v=4",
+      "profile": "https://jxtsai.info",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 5,
-  "linkToUsage": true
+  "linkToUsage": true,
+  "commitType": "docs"
 }
