@@ -65,6 +65,28 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 </div>
 
+## Chronos Authenticator (iOS)
+
+<div class="admonition recommendation" markdown>
+
+![Chronos logo](assets/img/multi-factor-authentication/chronos.png){ align=right }
+
+**Chronos Authenticator** is an open-source two-factor authentication (2FA) app for iOS. It can operate securely, either synced across your iOS devices via iCloud in an encrypted manner or offline on a single device.
+
+[:octicons-home-16: Homepage](https://github.com/joeldavidw/Chronos){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/joeldavidw/Chronos/blob/main/PRIVACY.md){ .card-link title="Privacy Policy" }
+[:octicons-code-16:](https://github.com/joeldavidw/Chronos){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/chronos-authenticator/id6503929490)
+- [:simple-github: GitHub](https://github.com/joeldavidw/Chronos/releases)
+
+</details>
+
+</div>
+
 <!-- markdownlint-disable-next-line -->
 ## Criteria
 
