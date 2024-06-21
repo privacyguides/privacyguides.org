@@ -2,7 +2,7 @@
 meta_title: "Recommended AI Chatbots : Private ChatGPT Alternatives - Privacy Guides"
 title: "AI Chats"
 icon: material-chat-processing-outline
-description: Unlike OpenAI ChatGPT and it's successors, those AI Chats do not train their models using your conversations.
+description: Unlike OpenAI's ChatGPT and it's successors, those AI tools do not train their models using your conversations.
 cover: file/file
 ---
 Since the release of ChatGPT by OpenAI in December 2022, talking with Largue Language Models (LLMs) has become common. It can help us write better, understand unfamiliar subjects or answer a wide range of questions. However, the developpers of those models need data to improve their model. Unfortunately, this include your conversations with the AI.
@@ -25,7 +25,7 @@ The recommendations for online providers here do not train their models using yo
 [:octicons-info-16:](https://github.com/brave/brave-browser/wiki/Brave-Leo){ .card-link title=Documentation}
 
 </div>
-Brave Leo supports a range of models, including open-source models from Meta and Mixtral and closed-source models from Anthropic. Brave host the open models and do not retain chat history or use chats for models training. It can now also search the web. It still strugles for multi-language support. Leo AI is available on the Brave Browser on all platforms. There is a strict rate limit for most models, but there is 1 free model whith an high-rate limit.
+Brave Leo supports a range of models, including open-source models from Meta and Mixtral and closed-source models from Anthropic. Brave self-hosts the open models and do not retain chat history or use chats for models training. Leo can enhance it's knowledge trough web searches, similar to Microsoft Copilot. However, Brave AI solution still strugles for multi-language support. Leo AI is available on the Brave Browser on all platforms. There is a strict rate limit for most models, but there is 1 free model whith an high-rate limit.
 
 
 
