@@ -17,7 +17,7 @@ This problem could be solved by using a custom Android distribution that does no
 
 Ideally, when choosing a custom Android distribution, you should make sure that it upholds the Android security model. At the very least, the distribution should have production builds, support for AVB, rollback protection, timely firmware and operating system updates, and SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). All of our recommended Android distributions satisfy these criteria.
 
-[Our Android System Recommendations :material-arrow-right-drop-circle:](../android.md){ .md-button }
+[Our Android System Recommendations :material-arrow-right-drop-circle:](../android/distributions.md){ .md-button }
 
 ### Avoid Rooting
 
@@ -124,7 +124,7 @@ With user profiles, you can impose restrictions on a specific profile, such as: 
 
 [Work Profiles](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
 
-A **device controller** app such as [Shelter](../android.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
+A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 The work profile is dependent on a device controller to function. Features such as *File Shuttle* and *contact search blocking* or any kind of isolation features must be implemented by the controller. You must also fully trust the device controller app, as it has full access to your data inside the work profile.
 
