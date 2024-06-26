@@ -58,7 +58,7 @@ The [qrexec framework](https://qubes-os.org/doc/qrexec) is a core part of Qubes 
 
 We [recommend](../advanced/tor-overview.md) connecting to the Tor network via a [VPN](../vpn.md) provider, and luckily Qubes makes this easy to do with a combination of ProxyVMs and Whonix.
 
-After [creating a new ProxyVM](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) which connects to the VPN of your choice, you can chain your Whonix qubes to that ProxyVM **before** they connect to the Tor network, by setting the NetVM of your Whonix **Gateway** (`sys-whonix`) to the newly-created ProxyVM.
+After [creating a new ProxyVM](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) which connects to the VPN of your choice, you can chain your Whonix qubes to that ProxyVM **before** they connect to the Tor network, by setting the NetVM of your Whonix **Gateway** (`sys-whonix`) to the newly-created ProxyVM.
 
 Your qubes should be configured in a manner similar to this:
 
@@ -66,7 +66,7 @@ Your qubes should be configured in a manner similar to this:
 |-----------------|------------------------------------------------------------------------------------------------------------------|-----------------|
 | sys-net         | *Your default network qube (pre-installed)*                                                                      | *n/a*           |
 | sys-firewall    | *Your default firewall qube (pre-installed)*                                                                     | sys-net         |
-| ==sys-proxyvm== | The VPN ProxyVM you [created](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) | sys-firewall    |
+| ==sys-proxyvm== | The VPN ProxyVM you [created](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) | sys-firewall    |
 | sys-whonix      | Your Whonix Gateway VM                                                                                           | ==sys-proxyvm== |
 | anon-whonix     | Your Whonix Workstation VM                                                                                       | sys-whonix      |
 
