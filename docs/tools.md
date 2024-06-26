@@ -42,6 +42,7 @@ For more details about each project, why they were chosen, and additional tips o
 <div class="grid cards" markdown>
 
 - ![Brave logo](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave (Android)](mobile-browsers.md#brave)
+- ![Vanadium logo](assets/img/browsers/vanadium.svg#only-light){ .twemoji loading=lazy }![Vanadium logo](assets/img/browsers/vanadium-dark.svg#only-dark){ .twemoji loading=lazy } [Vanadium (GrapheneOS)](mobile-browsers.md#vanadium-grapheneos)
 - ![Mull logo](assets/img/browsers/mull.svg){ .twemoji loading=lazy } [Mull (Android)](mobile-browsers.md#mull)
 - ![Safari logo](assets/img/browsers/safari.svg){ .twemoji loading=lazy } [Safari (iOS)](mobile-browsers.md#safari)
 

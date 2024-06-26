@@ -26,6 +26,30 @@ schema:
   -
     "@context": http://schema.org
     "@type": MobileApplication
+    name: Vanadium
+    image: /assets/img/browsers/vanadium.svg
+    url: https://vanadium.app
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Android
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+  -
+    "@context": http://schema.org
+    "@type": MobileApplication
+    name: Mull
+    image: /assets/img/browsers/mull.svg
+    url: https://divestos.org/pages/our_apps#mull
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Android
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+  -
+    "@context": http://schema.org
+    "@type": MobileApplication
     name: Safari
     image: /assets/img/browsers/safari.svg
     url: https://apple.com/safari
@@ -127,6 +151,40 @@ Brave allows you to select additional content filters within the internal `brave
 #### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+
+### Vanadium (GrapheneOS)
+
+<div class="admonition recommendation" markdown>
+
+![Vanadium logo](assets/img/browsers/vanadium.svg#only-light){ align=right }
+![Vanadium logo](assets/img/browsers/vanadium-dark.svg#only-dark){ align=right }
+
+**Vanadium** is the default browser that is included with [GrapheneOS](../android.md#grapheneos). The Chromium-based browser includes a number of [patches](https://github.com/GrapheneOS/Vanadium/tree/main/patches) which help improve the security and privacy of the WebView used by other apps.
+
+Among the numerous privacy and security enhancements listed in their documentation, Vanadium notably includes a built-in content blocker and disables JavaScript Just-In-Time (JIT) compilation by default, both of which can be toggled on a per-site basis.
+
+[:octicons-home-16: Homepage](https://vanadium.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://grapheneos.org/usage#web-browsing){ .card-link title=Documentation }
+[:octicons-code-16:](https://github.com/GrapheneOS/Vanadium){ .card-link title="Source Code" }
+
+</div>
+
+#### Recommended Vanadium Configuration
+
+<div class="annotate" markdown>
+
+As explained in their documentation, Vanadium prioritizes better privacy- and security-enhancing defaults to avoid users making themselves stand out by opting into non-default settings.
+
+You might, however, consider configuring the following privacy-related settings, all of which can be found in :material-dots-vertical: → **Settings** → **Privacy and security**.
+
+- [x] Select **Close tabs on exit**
+- [x] Select **Open external links in incognito** (1)
+- [x] Select **Lock Incognito tabs when you leave Vanadium**
+
+</div>
+
+1. With this setting enabled, **all** links from other apps, custom tabs, search intents and share intents will open in incognito tabs.
 
 ### Mull
 
