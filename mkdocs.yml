@@ -418,6 +418,7 @@ nav:
           - "productivity.md"
           - "real-time-communication.md"
       - !ENV [NAV_HARDWARE, "Hardware"]:
+          - "hardware.md"
           - "security-keys.md"
       - !ENV [NAV_OPERATING_SYSTEMS, "Operating Systems"]:
           - "android.md"
