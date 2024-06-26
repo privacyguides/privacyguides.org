@@ -26,6 +26,18 @@ schema:
   -
     "@context": http://schema.org
     "@type": MobileApplication
+    name: Cromite
+    image: /assets/img/browsers/cromite.svg
+    url: https://cromite.org
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Android
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+  -
+    "@context": http://schema.org
+    "@type": MobileApplication
     name: Safari
     image: /assets/img/browsers/safari.svg
     url: https://apple.com/safari
@@ -127,6 +139,57 @@ Brave allows you to select additional content filters within the internal `brave
 #### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+
+### Cromite
+
+<div class="admonition recommendation" markdown>
+
+![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
+
+**Cromite** is a Chromium-based browser with privacy and security enhancements, built-in ad blocking, and some fingerprinting randomization. It is the continuation of Bromite.
+
+[:octicons-home-16: Homepage](https://www.cromite.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-android: F-Droid](https://www.cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
+- [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
+
+</details>
+
+</div>
+
+#### Recommended Configuration
+
+These options can be found in :material-menu: → :gear: **Settings**.
+
+##### HTTPS-Only Mode
+
+- [x] Select **Always use secure connections** in **Privacy and security**
+
+This prevents you from unintentionally connecting to a website in plain-text HTTP. The HTTP protocol is extremely uncommon nowadays, so this should have little to no impact on your day to day browsing.
+
+##### Always-on Incognito Mode
+
+The following are in **Privacy and security**.
+
+- [x] Select **Always open links in incognito** in the **Always incognito mode** menu
+- [x] Select **Close all open tabs on exit**
+- [x] Select **Open external links in incognito**
+
+##### Disable legacy adblock
+
+- [ ] Uncheck **autoupdate** in **Legacy Adblock settings**
+
+##### Adblock Plus
+
+Cromite contains a customized version of Adblock Plus. In **Adblock Plus settings**, You may select the appropriate filter lists, or add custom ones in **Custom ad filtering settings**.
+
+- [x] Select **Enable anti-circumvention and snippets**
 
 ### Mull
 
