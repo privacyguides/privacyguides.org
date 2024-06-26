@@ -394,6 +394,16 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [Learn more :material-arrow-right-drop-circle:](passwords.md)
 
+### Pastebins
+
+<div class="grid cards" markdown>
+
+- ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ .twemoji loading=lazy } [PrivateBin](pastebins.md#privatebin)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](pastebins.md)
+
 ### Productivity Tools
 
 <div class="grid cards" markdown>
@@ -402,7 +412,6 @@ For encrypting your operating system drive, we typically recommend using whichev
 - ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ .twemoji loading=lazy } [LibreOffice](productivity.md#libreoffice)
 - ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ .twemoji loading=lazy } [OnlyOffice](productivity.md#onlyoffice)
 - ![CryptPad logo](assets/img/productivity/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](productivity.md#cryptpad)
-- ![PrivateBin logo](assets/img/productivity/privatebin.svg){ .twemoji loading=lazy } [PrivateBin (Pastebin)](productivity.md#privatebin)
 - ![LanguageTool logo](assets/img/productivity/languagetool.svg#only-light){ .twemoji loading=lazy }![LanguageTool logo](assets/img/productivity/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](productivity.md#languagetool)
 
 </div>
