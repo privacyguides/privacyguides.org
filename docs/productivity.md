@@ -170,6 +170,18 @@ In general, we define office suites as applications which could reasonably act a
 
 </div>
 
+### Paaster
+
+!!! recommendation
+
+    ![Paaster logo](assets/img/productivity/paaster.png){ align=right }
+
+    **Paaster** is a secure and user-friendly pastebin application that prioritizes privacy and simplicity. With end-to-end encryption and paste history, Paaster ensures that your pasted code remains confidential and accessible. 
+
+    [:octicons-home-16: Homepage](https://paaster.io/){ .md-button .md-button--primary }
+    [:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="Source Code" }
+
+
 ### Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
