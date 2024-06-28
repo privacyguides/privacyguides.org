@@ -37,9 +37,9 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 </div>
 
 ## Stingle
-<span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
-<div class="admonition recommendation" markdown>
 
+<div class="admonition recommendation" markdown>
+<span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
 ![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
 
