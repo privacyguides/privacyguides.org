@@ -72,5 +72,4 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 - Source code must be publicly available.
 - Must not require internet connectivity.
-- Must not sync to a third-party cloud sync/backup service.
-    - **Optional** E2EE sync support with OS-native tools is acceptable, e.g. encrypted sync via iCloud.
+- Cloud syncing must be optional, and (if available) sync functionality must be E2EE.
