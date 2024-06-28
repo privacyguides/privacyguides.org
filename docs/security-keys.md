@@ -9,7 +9,7 @@ A physical **security key** adds a very strong layer of protection to your onlin
 ## Yubico Security Key
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span> <span class="pg-orange">:material-bug-outline:</span>
 <figure markdown="span">
   ![Security Key Series by Yubico](assets/img/security-keys/yubico-security-key.webp){ width="315" }
 </figure>
@@ -44,7 +44,7 @@ The firmware of Yubico's Security Keys is not updatable. If you want features in
 ## YubiKey
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span> <span class="pg-orange">:material-bug-outline:</span>
 <figure markdown="span">
   ![YubiKeys](assets/img/security-keys/yubikey.png){ width="400" }
 </figure>
@@ -77,7 +77,7 @@ The firmware of YubiKey is not updatable. If you want features in newer firmware
 ## Nitrokey
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span> <span class="pg-orange">:material-bug-outline:</span>
 <figure markdown="span">
   ![Nitrokey](assets/img/security-keys/nitrokey.jpg){ width="300" }
 </figure>
