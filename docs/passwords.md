@@ -151,7 +151,7 @@ These password managers sync your passwords to a cloud server for easy accessibi
 ### Bitwarden
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
 
 **Bitwarden** is a free and open-source password and passkey manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the best and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices.
@@ -195,7 +195,7 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 ### Proton Pass
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 ![Proton Pass logo](assets/img/password-management/protonpass.svg){ align=right }
 
 Proton Pass is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). It securely stores your login credentials, generates unique email aliases, supports and stores passkeys, and offers a community-funded, Swiss-based service with strict data privacy laws.
@@ -233,7 +233,7 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 ### 1Password
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 ![1Password logo](assets/img/password-management/1password.svg){ align=right }
 
 **1Password** is a password manager with a strong focus on security and ease-of-use, which allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up). 1Password is [audited](https://support.1password.com/security-assessments) on a regular basis and provides exceptional customer support. 1Password is closed source; however, the security of the product is thoroughly documented in their [security white paper](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
@@ -269,7 +269,7 @@ One advantage 1Password has over Bitwarden is its first-class support for native
 ### Psono
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 ![Psono logo](assets/img/password-management/psono.svg){ align=right }
 
 **Psono** is a free and open-source password manager from Germany, with a focus on password management for teams. Psono supports secure sharing of passwords, files, bookmarks, and emails. All secrets are protected by a master password.
@@ -350,7 +350,7 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 ### KeePassDX (Android)
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
 
 **KeePassDX** is a lightweight password manager for Android, allows editing encrypted data in a single file in KeePass format and can fill in the forms in a secure way. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) allows unlocking cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
@@ -373,7 +373,7 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 ### Strongbox (iOS & macOS)
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 ![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
 
 **Strongbox** is a native, open-source password manager for iOS and macOS. Supporting both KeePass and Password Safe formats, Strongbox can be used in tandem with other password managers, like KeePassXC, on non-Apple platforms. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
@@ -398,7 +398,7 @@ Additionally, there is an offline-only version offered: [Strongbox Zero](https:/
 ### gopass (CLI)
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-red">:material-target-account:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 ![gopass logo](assets/img/password-management/gopass.svg){ align=right }
 
 **gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems (Linux, macOS, BSD, Windows).

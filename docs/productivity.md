@@ -14,7 +14,7 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 <div class="admonition recommendation" markdown>
 
 ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
-
+<span class="pg-orange">:material-bug-outline:</span> <span class="pg-blue-gray">:material-close-outline:</span>
 **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
 
 [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
@@ -49,7 +49,7 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 <div class="admonition recommendation" markdown>
 
 ![CryptPad logo](assets/img/productivity/cryptpad.svg){ align=right }
-
+<span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 **CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is end-to-end encrypted and can be shared with other users easily.
 
 [:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
@@ -191,7 +191,7 @@ Our best-case criteria represents what we would like to see from the perfect pro
 ### LanguageTool
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-teal">:material-server-network:</span> <span class="pg-blue">:material-eye-outline:</span> <span class="pg-brown">:material-account-cash:</span> <span class="pg-blue-gray">:material-close-outline:</span>
 ![LanguageTool logo](assets/img/productivity/languagetool.svg#only-light){ align=right }
 ![LanguageTool logo](assets/img/productivity/languagetool-dark.svg#only-dark){ align=right }
 

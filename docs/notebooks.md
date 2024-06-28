@@ -14,7 +14,7 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 ### Standard Notes
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-teal">:material-server-network:</span>
 ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
 
 **Standard Notes** is a simple and private notes app that makes your notes easy and available everywhere you are. It features E2EE on every platform, and a powerful desktop experience with themes and custom editors. It has also been [independently audited](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
@@ -45,7 +45,7 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 ### Notesnook
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-teal">:material-server-network:</span>
 ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
 
 **Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. It features end-to-end encryption on all platforms with a powerful sync to take your notes on the go. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com).
@@ -77,7 +77,7 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 ### Joplin
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-teal">:material-server-network:</span>
 ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
 **Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle a large number of markdown notes organized into notebooks and tags. It offers E2EE and can sync through Nextcloud, Dropbox, and more. It also offers easy import from Evernote and plain-text notes.
@@ -110,7 +110,7 @@ Since January 2023, Joplin [supports biometrics](https://github.com/laurent22/jo
 ### Cryptee
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-teal">:material-server-network:</span>
 ![Cryptee logo](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
 ![Cryptee logo](./assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
 
@@ -137,7 +137,7 @@ Cryptee offers 100MB of storage for free, with paid options if you need more. Si
 ### Org-mode
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-teal">:material-server-network:</span>
 ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
 
 **Org-mode** is a [major mode](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is for keeping notes, maintaining to-do lists, planning projects, and authoring documents with a fast and effective plain-text system. Synchronization is possible with [file synchronization](file-sharing.md#file-sync) tools.

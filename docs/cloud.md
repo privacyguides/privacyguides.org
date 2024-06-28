@@ -19,7 +19,7 @@ Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file
 ## Proton Drive
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
 **Proton Drive** is a Swiss encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2GB, but with completion of certain steps, additional storage can be obtained up to 5GB.
@@ -48,7 +48,7 @@ Proton Drive's brand new mobile clients have not yet been publicly audited by a 
 ## Tresorit
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 ![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
 
 **Tresorit** is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
@@ -87,7 +87,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 ## Peergos
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span> <span class="pg-blue-gray">:material-close-outline:</span>
 ![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
 
 **Peergos** is a decentralized protocol and open-source platform for storage, social media, and applications. It provides a secure and private space where users can store, share, and view their photos, videos, documents, etc. Peergos secures your files with quantum-resistant end-to-end encryption and ensures all data about your files remains private. It is built on top of [IPFS (InterPlanetary File System)](https://ipfs.tech).

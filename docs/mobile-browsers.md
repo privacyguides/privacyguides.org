@@ -43,7 +43,7 @@ These are our currently recommended mobile web browsers and configurations for s
 ### Brave
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-brown">:material-account-cash:</span>
 ![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
 **Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
@@ -131,7 +131,7 @@ Brave allows you to select additional content filters within the internal `brave
 ### Mull
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-brown">:material-account-cash:</span>
 ![Mull logo](assets/img/browsers/mull.svg){ align=right }
 
 **Mull** is a privacy oriented and deblobbed Android browser based on Firefox. Compared to Firefox, it offers much greater fingerprinting protection out of the box, and disables JavaScript Just-in-Time (JIT) compilation for enhanced security. It also removes all proprietary elements from Firefox, such as replacing Google Play Services references.
@@ -181,7 +181,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 <div class="admonition recommendation" markdown>
 
 ![Safari logo](assets/img/browsers/safari.svg){ align=right }
-
+<span class="pg-brown">:material-account-cash:</span>
 **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
 
 [:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
