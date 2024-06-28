@@ -78,6 +78,8 @@
   {% endif %}
 
   <meta name="robots" content="max-snippet:-1, max-image-preview:large">
+  <meta name="fediverse:creator" content="privacyguides@neat.computer" />
+
   {% if config.extra.context == "production" %}
   <meta http-equiv="onion-location" content="{{ "http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/" ~ config.theme.language ~ "/" ~ page.url }}" />
   {% elif config.extra.deploy %}
