@@ -17,7 +17,7 @@ These messengers are great for securing your sensitive communications.
 ### Signal
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span> <span class="pg-blue">:material-eye-outline:</span> <span class="pg-brown">:material-account-cash:</span>
 ![Signal logo](assets/img/messengers/signal.svg){ align=right }
 
 **Signal** is a mobile app developed by Signal Messenger LLC. The app provides instant messaging and calls secured with the Signal Protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
@@ -66,7 +66,7 @@ We have some additional tips on configuring and hardening your Signal installati
 <div class="admonition recommendation" markdown>
 
 ![Simplex logo](assets/img/messengers/simplex.svg){ align=right }
-
+<span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span> <span class="pg-blue">:material-eye-outline:</span> <span class="pg-brown">:material-account-cash:</span> <span class="pg-blue-gray">:material-close-outline:</span>
 **SimpleX** Chat is an instant messenger that is decentralized and doesn't depend on any unique identifiers such as phone numbers or usernames. Users of SimpleX Chat can scan a QR code or click an invite link to participate in group conversations.
 
 [:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
@@ -95,7 +95,7 @@ SimpleX Chat supports basic group chatting functionality, direct messaging, and 
 ### Briar
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span> <span class="pg-blue">:material-eye-outline:</span> <span class="pg-brown">:material-account-cash:</span> <span class="pg-blue-gray">:material-close-outline:</span>
 ![Briar logo](assets/img/messengers/briar.svg){ align=right }
 
 **Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the Tor Network. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
@@ -176,7 +176,7 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
 ### Session
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span> <span class="pg-blue">:material-eye-outline:</span> <span class="pg-brown">:material-account-cash:</span>
 ![Session logo](assets/img/messengers/session.svg){ align=right }
 
 **Session** is a decentralized messenger with a focus on private, secure, and anonymous communications. Session offers support for direct messages, group chats, and voice calls.
