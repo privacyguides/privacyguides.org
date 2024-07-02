@@ -38,6 +38,6 @@ Privacy Guides is a **non-profit** organization. We use donations for a variety 
 
 :   We occasionally purchase products and services for the purposes of testing our [recommended tools](../tools.md).
 
-Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org/), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
+Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
 
 Thank you to all those who support our mission! :material-heart:{ .pg-red }
