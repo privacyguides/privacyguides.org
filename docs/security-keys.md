@@ -16,7 +16,7 @@ A physical **security key** adds a very strong layer of protection to your onlin
 
 The **Yubico Security Key** series is the most cost-effective hardware security key with FIDO Level 2 certification. It supports FIDO2/WebAuthn and FIDO U2F, and works out of the box with most services that support a security key as a second factor, as well as many password managers.
 
-[:octicons-home-16: Homepage](https://www.yubico.com/products/security-key/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://yubico.com/products/security-key){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://docs.yubico.com){ .card-link title=Documentation}
 
@@ -28,7 +28,7 @@ These keys are available in both USB-C and USB-A variants, and both options supp
 
 This key provides only basic FIDO2 functionality, but for most people that is all you will need. Some notable features the Security Key series does **not** have include:
 
-- [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)
+- [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)
 - CCID Smart Card support (PIV-compatibile)
 - OpenPGP
 
@@ -51,7 +51,7 @@ The firmware of Yubico's Security Keys is not updatable. If you want features in
 
 The **YubiKey** series from Yubico are among the most popular security keys. The YubiKey 5 Series has a wide range of features such as: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP), [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
 
-[:octicons-home-16: Homepage](https://www.yubico.com/products/yubikey-5-overview/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://yubico.com/products/yubikey-5-overview){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://docs.yubico.com){ .card-link title=Documentation}
 
@@ -61,7 +61,7 @@ The **YubiKey** series from Yubico are among the most popular security keys. The
 
 The [comparison table](https://yubico.com/store/compare) shows the features and how the YubiKeys compare to each other and to Yubico's [Security Key](#yubico-security-key) series. One of the benefits of the YubiKey series is that one key can do almost everything you could expect from a hardware security key. We encourage you to take their [quiz](https://yubico.com/quiz) before purchasing in order to make sure you make the right choice.
 
-The Yubikey 5 series has FIDO Level 1 certification, which is the most common. However, some governments or other organizations may require a key with Level 2 certification, in which case you'll have to purchase a [Yubikey 5 **FIPS** series](https://www.yubico.com/products/yubikey-fips/) key, or a [Yubico Security Key](#yubico-security-key). Most people do not have to worry about this distinction.
+The Yubikey 5 series has FIDO Level 1 certification, which is the most common. However, some governments or other organizations may require a key with Level 2 certification, in which case you'll have to purchase a [Yubikey 5 **FIPS** series](https://yubico.com/products/yubikey-fips) key, or a [Yubico Security Key](#yubico-security-key). Most people do not have to worry about this distinction.
 
 YubiKeys can be programmed using the [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) or [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). For managing TOTP codes, you can use the [Yubico Authenticator](https://yubico.com/products/yubico-authenticator). All of Yubico's clients are open source.
 
