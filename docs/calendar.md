@@ -9,7 +9,7 @@ Calendars contain some of your most sensitive data; use products that implement 
 ## Tuta
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
@@ -41,7 +41,7 @@ Multiple calendars and extended sharing functionality is limited to paid subscri
 ## Proton Calendar
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
 
 **Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Features include: automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide). Those on the free tier gain access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Extended sharing functionality is also limited to paid subscribers.

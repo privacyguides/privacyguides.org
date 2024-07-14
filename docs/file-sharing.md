@@ -11,7 +11,7 @@ Discover how to privately share your files between your devices, with your frien
 ### Send
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span> <span class="pg-blue">:material-eye-outline:</span>
 ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
 **Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well. The maintainer of Send hosts a [public instance](https://send.vis.ee). You can use other public instances, or you can host Send yourself.
@@ -35,7 +35,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 ### OnionShare
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-purple">:material-incognito:</span> <span class="pg-teal">:material-server-network:</span> <span class="pg-blue">:material-eye-outline:</span> <span class="pg-blue-gray">:material-close-outline:</span>
 ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
 
 **OnionShare** is an open-source tool that lets you securely and anonymously share a file of any size. It works by starting a web server accessible as a Tor onion service, with an unguessable URL that you can share with the recipients to download or send files.
@@ -67,7 +67,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 ## FreedomBox
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-teal">:material-server-network:</span>
 ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }
 
 **FreedomBox** is an operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications that you might want to self-host.
@@ -86,7 +86,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 ### Nextcloud (Client-Server)
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-teal">:material-server-network:</span>
 ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
 
 **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
@@ -121,7 +121,7 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 ### Syncthing (P2P)
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-teal">:material-server-network:</span> <span class="pg-blue">:material-eye-outline:</span> 
 ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ align=right }
 
 **Syncthing** is an open-source peer-to-peer continuous file synchronization utility. It is used to synchronize files between two or more devices over the local network or the internet. Syncthing does not use a centralized server; it uses the [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) to transfer data between devices. All data is encrypted using TLS.

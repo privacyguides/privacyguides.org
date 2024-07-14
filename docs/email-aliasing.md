@@ -33,7 +33,7 @@ Using an aliasing service requires trusting both your email provider and your al
 ### addy.io
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-brown">:material-account-cash:</span> <span class="pg-green">:material-account-search:</span>
 ![addy.io logo](assets/img/email-aliasing/addy.svg){ align=right }
 
 **addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
@@ -69,7 +69,7 @@ Notable free features:
 ### SimpleLogin
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-brown">:material-account-cash:</span> <span class="pg-green">:material-account-search:</span>
 ![Simplelogin logo](assets/img/email-aliasing/simplelogin.svg){ align=right }
 
 **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.

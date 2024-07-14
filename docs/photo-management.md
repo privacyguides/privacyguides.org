@@ -9,7 +9,7 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 ## Ente Photos
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 ![Ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![Ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
@@ -39,7 +39,7 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 ## Stingle
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span>
 ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
 ![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
 
@@ -65,7 +65,7 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 ## PhotoPrism
 
 <div class="admonition recommendation" markdown>
-
+<span class="pg-orange">:material-bug-outline:</span> <span class="pg-blue-gray">:material-close-outline: Censorship</span>
 ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
 
 **PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
