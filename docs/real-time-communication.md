@@ -53,6 +53,15 @@ Signal requires your phone number for registration, however you should create a 
 
 You can optionally change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username.
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">Signal Desktop Warning</p>
+
+Signal's desktop client is notably [less secure](https://discuss.privacyguides.net/t/signal-stores-your-decryption-key-in-a-plain-text-file-on-macos/19309/69) against local malware compared to its mobile apps. While no messenger can ever provide complete protection against local malware with sufficient access, Signal Desktop is built on Electron and does not utilize native OS data protection features like strong application sandboxing or database encryption. This could mean that even malware with very limited (read-only user level, instead of full root) privileges could potentially compromise your messages.
+
+For most people this is only a minor concern (if you have malware on your device, you probably have bigger problems). If you are particularly concerned about malware or physical/targeted attacks, you may be better off using the mobile apps exclusively.
+
+</div>
+
 Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts you chat with. Signal supports [private groups](https://signal.org/blog/signal-private-group-system), where the server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server. Sealed Sender is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam.
 
 The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs).
