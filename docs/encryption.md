@@ -54,16 +54,16 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 **Picocrypt** is a small and simple encryption tool that provides modern encryption. Picocrypt uses the secure XChaCha20 cipher and the Argon2id key derivation function to provide a high level of security. It uses Go's standard x/crypto modules for its encryption features.
 
-[:octicons-repo-16: Repository](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Source Code" }
+[:octicons-repo-16: Repository](https://github.com/Picocrypt/Picocrypt){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
-- [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
-- [:simple-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
+- [:simple-windows11: Windows](https://github.com/Picocrypt/Picocrypt/releases)
+- [:simple-apple: macOS](https://github.com/Picocrypt/Picocrypt/releases)
+- [:simple-linux: Linux](https://github.com/Picocrypt/Picocrypt/releases)
 
 </details>
 
