@@ -208,7 +208,7 @@ While BitLocker is not officially supported on Windows Home, it can be enabled o
 
 ![FileVault logo](assets/img/encryption-software/filevault.png){ align=right }
 
-**FileVault**, a proprietary solution integrated into macOS, offers on-the-fly volume encryption to secure all data at rest. On Macs with Apple silicon or a T2 Security Chip, FileVault [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) the Secure Enclave and its hardware security capabilities.
+**FileVault**, a proprietary solution integrated into macOS, offers on-the-fly volume encryption to secure all data at rest. On Macs with Apple silicon or a T2 Security Chip, FileVault [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) the [Secure Enclave](https://support.apple.com/en-us/guide/security/sec59b0b31ff/web) and its hardware security capabilities.
 
 FileVault can be managed in the Privacy & Security section of System Settings.
 
