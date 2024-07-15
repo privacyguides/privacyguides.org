@@ -1,6 +1,6 @@
 ---
 title: Windows Overview
-icon: simple/windows
+icon: material/microsoft-windows
 ---
 **Microsoft Windows** is a proprietary operating system in widespread use. Recent versions of Windows, especially Windows 11, are widely considered to be the most privacy-invasive and least secure modern operating systems.
 

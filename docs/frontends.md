@@ -92,7 +92,7 @@ By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube op
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://freetubeapp.io/#download)
+- [:fontawesome-brands-windows: Windows](https://freetubeapp.io/#download)
 - [:simple-apple: macOS](https://freetubeapp.io/#download)
 - [:simple-linux: Linux](https://freetubeapp.io/#download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/io.freetubeapp.FreeTube)

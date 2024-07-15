@@ -76,7 +76,7 @@ If you need to browse the internet anonymously, you should use [Tor](tor.md) ins
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
+- [:fontawesome-brands-windows: Windows](https://mullvad.net/en/download/browser/windows)
 - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
 - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
 
@@ -123,7 +123,7 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://mozilla.org/firefox/windows)
+- [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
 - [:simple-apple: macOS](https://mozilla.org/firefox/mac)
 - [:simple-linux: Linux](https://mozilla.org/firefox/linux)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
@@ -244,7 +244,7 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 <summary>Downloads</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-- [:simple-windows11: Windows](https://brave.com/download)
+- [:fontawesome-brands-windows: Windows](https://brave.com/download)
 - [:simple-apple: macOS](https://brave.com/download)
 - [:simple-linux: Linux](https://brave.com/linux)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.brave.Browser)

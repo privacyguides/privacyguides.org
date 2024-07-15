@@ -83,7 +83,7 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.i2p.android)
 - [:simple-android: Android](https://geti2p.net/en/download#android)
-- [:simple-windows11: Windows](https://geti2p.net/en/download#windows)
+- [:fontawesome-brands-windows: Windows](https://geti2p.net/en/download#windows)
 - [:simple-apple: macOS](https://geti2p.net/en/download#mac)
 - [:simple-linux: Linux](https://geti2p.net/en/download#unix)
 

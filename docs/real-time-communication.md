@@ -34,7 +34,7 @@ These messengers are great for securing your sensitive communications.
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
 - [:simple-android: Android](https://signal.org/android/apk)
-- [:simple-windows11: Windows](https://signal.org/download/windows)
+- [:fontawesome-brands-windows: Windows](https://signal.org/download/windows)
 - [:simple-apple: macOS](https://signal.org/download/macos)
 - [:simple-linux: Linux](https://signal.org/download/linux)
 
@@ -80,7 +80,7 @@ We have some additional tips on configuring and hardening your Signal installati
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1605771084)
 - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
-- [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
+- [:fontawesome-brands-windows: Windows](https://simplex.chat/downloads/#desktop-app)
 - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
 - [:simple-linux: Linux](https://simplex.chat/downloads/#desktop-app)
 
@@ -110,7 +110,7 @@ SimpleX Chat supports basic group chatting functionality, direct messaging, and 
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
-- [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop)
+- [:fontawesome-brands-windows: Windows](https://briarproject.org/download-briar-desktop)
 - [:simple-linux: Linux](https://briarproject.org/download-briar-desktop)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.briarproject.Briar)
 
@@ -156,7 +156,7 @@ Messages and files shared in private rooms (those which require an invite) are b
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
 - [:simple-github: GitHub](https://github.com/element-hq/element-android/releases)
-- [:simple-windows11: Windows](https://element.io/download)
+- [:fontawesome-brands-windows: Windows](https://element.io/download)
 - [:simple-apple: macOS](https://element.io/download)
 - [:simple-linux: Linux](https://element.io/download)
 - [:octicons-globe-16: Web](https://app.element.io)
@@ -194,7 +194,7 @@ Session uses the decentralized [Oxen Service Node Network](https://oxen.io) to s
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
 - [:simple-github: GitHub](https://github.com/oxen-io/session-android/releases)
-- [:simple-windows11: Windows](https://getsession.org/download)
+- [:fontawesome-brands-windows: Windows](https://getsession.org/download)
 - [:simple-apple: macOS](https://getsession.org/download)
 - [:simple-linux: Linux](https://getsession.org/download)
 
