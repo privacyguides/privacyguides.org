@@ -579,6 +579,7 @@ Privacy Guides wouldn't be possible without these wonderful people ([emoji key](
       <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://jordanwarne.net/"><img src="https://avatars.githubusercontent.com/u/154663344?v=4" width="100px;" loading=lazy /><br /><sub><b>jordan warne</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=jordan-warne" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/Dzenan"><img src="https://avatars.githubusercontent.com/u/69632324?v=4" width="100px;" loading=lazy /><br /><sub><b>Dženan</b></sub></a><br /><a href="#translation-dzenan" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://jxtsai.info"><img src="https://avatars.githubusercontent.com/u/8361268?v=4" width="100px;" loading=lazy /><br /><sub><b>jx tsai</b></sub></a><br /><a href="#translation-jxtsai" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/backstab5983"><img src="https://avatars.githubusercontent.com/u/21013752?v=4" width="100px;" loading=lazy /><br /><sub><b>backstab5983</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=backstab5983" title="Documentation">📖</a></td>
     </tr>
   </tbody>
   <tfoot>
