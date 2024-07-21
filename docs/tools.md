@@ -353,7 +353,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](langauge-tools.md)
+[Learn more :material-arrow-right-drop-circle:](language-tools.md)
 
 ### Multi-Factor Authentication Tools
 
