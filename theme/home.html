@@ -50,21 +50,15 @@
 {% endblock %}
 {% block content %}
   {% if config.theme.language == "en" %}
-    <div class="mdx-discourse-topics">
-      <h2>Top discussions this week</h2>
-      <div
+    <h2>Top discussions this week</h2>
+    <div class="grid cards">
+      <ul
         class="topics-list"
         data-forum="https://discuss.privacyguides.net"
         data-feed="https://discuss.privacyguides.net/top.json?period=weekly"
-        data-count="5">
-      </div>
-      <noscript>
-        <a href="https://discuss.privacyguides.net/" class="md-button md-button--primary">
-          Join the forum
-        </a>
-      </noscript>
+        data-count="6">
+      </ul>
 
-      <hr />
     </div>
   {% endif %}
   {{ page.content }}
@@ -82,12 +76,14 @@
   </div>
   {% if config.theme.language == "en" %}
     <div class="mdx-discourse-topics">
-      <h3>Join a discussion</h3>
-      <div
-        class="topics-list"
-        data-forum="https://discuss.privacyguides.net"
-        data-feed="https://discuss.privacyguides.net/latest.json"
-        data-count="15">
+      <h3>Latest discussions</h3>
+      <div class="grid cards">
+        <ul
+          class="topics-list"
+          data-forum="https://discuss.privacyguides.net"
+          data-feed="https://discuss.privacyguides.net/latest.json"
+          data-count="12">
+        </ul>
       </div>
       <noscript>
         <a href="https://discuss.privacyguides.net/" class="md-button md-button--primary">

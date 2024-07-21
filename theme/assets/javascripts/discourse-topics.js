@@ -1,7 +1,7 @@
 /**
  * @overview Generates a list of topics on a Discourse forum.
  * @author Jonah Aragon <jonah@triplebit.net>
- * @version 3.0.0
+ * @version 3.1.0
  * @license
  * Copyright (c) 2023 - 2024 Jonah Aragon
  *
@@ -30,7 +30,7 @@ async function getData(url) {
 }
 
 async function main() {
-  const elements = document.querySelectorAll("div[data-forum]");
+  const elements = document.querySelectorAll("ul[data-forum]");
 
   for (let j = 0; j < elements.length; j++) {
 
@@ -53,7 +53,7 @@ async function main() {
       var title = list[i]['title'];
       var id = list[i]['id'];
 
-      var topic = document.createElement("div");
+      var topic = document.createElement("li");
       topic.className = "discourse-topic";
 
       var h3 = document.createElement('p');
@@ -62,13 +62,37 @@ async function main() {
 
       a1.href = dataset.forum + '/t/' + id;
 
-      a1.innerText = title;
+      var boldTitle = document.createElement('strong');
+      boldTitle.innerText = title;
+      a1.appendChild(boldTitle);
       h3.appendChild(a1);
 
-      var postinfo = document.createElement('ul');
+      var authorinfo = document.createElement('p');
+      authorinfo.className = "discourse-author";
+
+      var author_id = list[i]['posters'][0]['user_id'];
+      var author_data = profiles.find(profile => profile['id'] == author_id);
+      var author = document.createElement('span');
+      author.className = "discourse-author";
+      var avatar = document.createElement('img');
+      avatar.src = dataset.forum + author_data['avatar_template'].replace("{size}", "40");
+      avatar.width = 20;
+      avatar.height = 20;
+      avatar.className = "middle";
+      author.appendChild(avatar);
+      var namespan = document.createElement('span');
+      namespan.innerText = " Posted by " + author_data['username'];
+      author.appendChild(namespan);
+      authorinfo.appendChild(author);
+
+      var postinfo = document.createElement('p');
       postinfo.className = "discourse-data";
 
-      var date = document.createElement('li');
+      var dateIcon = document.createElement('span');
+      dateIcon.className = "twemoji";
+      dateIcon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg>';
+
+      var date = document.createElement('span');
       date.className = "discourse-date";
       var datestring = list[i]['bumped_at'];
       var dateobject = new Date(datestring);
@@ -79,55 +103,46 @@ async function main() {
       var days = Math.floor(hours / 24);
       if (days > 0) {
         if (days == 1) {
-          date.innerText = "Last reply 1 day ago";
+          date.innerText = " 1 day ago ";
         }
         else {
-          date.innerText = "Last reply " + days + " days ago";
+          date.innerText = " " + days + " days ago ";
         }
       }
       else if (hours > 0){
         if (hours == 1) {
-          date.innerText = "Last reply 1 hour ago";
+          date.innerText = " 1 hour ago ";
         }
         else {
-          date.innerText = "Last reply "+  hours + " hours ago";
+          date.innerText = " " + hours + " hours ago ";
         }
       }
       else {
         if (minutes == 1) {
-          date.innerText = "Last reply 1 minute ago";
+          date.innerText = " 1 minute ago ";
         }
         else {
-          date.innerText = "Last reply " + minutes + " minutes ago";
+          date.innerText = " " + minutes + " minutes ago ";
         }
       }
+      postinfo.appendChild(dateIcon);
       postinfo.appendChild(date);
 
-      var author_id = list[i]['posters'][0]['user_id'];
-      var author_data = profiles.find(profile => profile['id'] == author_id);
-      var author = document.createElement('li');
-      author.className = "discourse-author";
-      var avatar = document.createElement('img');
-      avatar.src = dataset.forum + author_data['avatar_template'].replace("{size}", "40");
-      avatar.width = 20;
-      avatar.height = 20;
-      author.appendChild(avatar);
-      var namespan = document.createElement('span');
-      namespan.innerText = " " + author_data['username'];
-      author.appendChild(namespan);
-      postinfo.appendChild(author);
+      var likesicon = document.createElement('span');
+      likesicon.classList = "twemoji pg-red";
+      likesicon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12 21.35-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35Z"></path></svg>';
 
-      var likes = document.createElement('li');
+      var likes = document.createElement('span');
       likes.className = "discourse-likes";
-      if (list[i]['like_count'] == 1) {
-        likes.innerText = "1 Like";
-      }
-      else {
-        likes.innerText = list[i]['like_count'] + " Likes";
-      }
+      likes.innerText = " " + list[i]['like_count'] + " ";
+      postinfo.appendChild(likesicon);
       postinfo.appendChild(likes);
 
-      var replies = document.createElement('li');
+      var replyIcon = document.createElement('span');
+      replyIcon.classList = "twemoji";
+      replyIcon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 9V5l-7 7 7 7v-4.1c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11Z"></path></svg>';
+
+      var replies = document.createElement('span');
       replies.className = "discourse-replies";
 
       var reply_count = list[i]['posts_count'] - 1;
@@ -135,11 +150,14 @@ async function main() {
         replies.innerText = "1 Reply"
       }
       else {
-        replies.innerText = reply_count + " Replies"
+        replies.innerText = " " + reply_count
       }
+      postinfo.appendChild(replyIcon);
       postinfo.appendChild(replies);
 
       topic.appendChild(h3);
+      topic.appendChild(document.createElement('hr'));
+      topic.appendChild(authorinfo);
       topic.appendChild(postinfo);
       topics.appendChild(topic);
     }
