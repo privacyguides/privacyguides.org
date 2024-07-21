@@ -419,9 +419,14 @@ nav:
           - "productivity.md"
           - "real-time-communication.md"
       - !ENV [NAV_HARDWARE, "Hardware"]:
+          - "mobile-phones.md"
           - "security-keys.md"
       - !ENV [NAV_OPERATING_SYSTEMS, "Operating Systems"]:
-          - "android.md"
+          - !ENV [NAV_ANDROID, "Android"]:
+              - "android/index.md"
+              - "android/distributions.md"
+              - "android/general-apps.md"
+              - "android/obtaining-apps.md"
           - "desktop.md"
           - "router.md"
       - !ENV [NAV_ADVANCED, "Advanced"]:

@@ -446,32 +446,53 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [Learn more :material-arrow-right-drop-circle:](security-keys.md)
 
+### Mobile Phones
+
+<div class="grid cards" markdown>
+
+- ![Google Pixel 6](../assets/img/android/google-pixel.png){ .twemoji loading=lazy } [Google Pixel](mobile-phones.md#google-pixel)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](mobile-phones.md)
+
 ## Operating Systems
 
 ### Mobile
 
+#### Custom Android Operating Systems
+
 <div class="grid cards" markdown>
 
-- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji loading=lazy }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji loading=lazy } [GrapheneOS](android.md#grapheneos)
-- ![DivestOS logo](assets/img/android/divestos.svg){ .twemoji loading=lazy } [DivestOS](android.md#divestos)
+- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji loading=lazy }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji loading=lazy } [GrapheneOS](android/distributions.md#grapheneos)
+- ![DivestOS logo](assets/img/android/divestos.svg){ .twemoji loading=lazy } [DivestOS](android/distributions.md#divestos)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android.md)
+[Learn more :material-arrow-right-drop-circle:](android/distributions.md)
 
 #### Android Apps
 
 <div class="grid cards" markdown>
 
-- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji loading=lazy } [Obtainium (App Manager)](android.md#obtainium)
-- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji loading=lazy } [Aurora Store (Google Play Client)](android.md#aurora-store)
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji loading=lazy } [Shelter (Work Profiles)](android.md#shelter)
-- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji loading=lazy }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji loading=lazy } [Secure Camera](android.md#secure-camera)
-- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji loading=lazy }![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji loading=lazy } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji loading=lazy } [Shelter (Work Profiles)](android/general-apps.md#shelter)
+- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji loading=lazy }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji loading=lazy } [Secure Camera](android/general-apps.md#secure-camera)
+- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji loading=lazy }![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji loading=lazy } [Secure PDF Viewer](android/general-apps.md#secure-pdf-viewer)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android.md#general-apps)
+[Learn more :material-arrow-right-drop-circle:](android/general-apps.md)
+
+#### Ways to Obtain Android Apps
+
+<div class="grid cards" markdown>
+
+- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji loading=lazy } [Obtainium (App Manager)](android/obtaining-apps.md#obtainium)
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji loading=lazy } [Aurora Store (Google Play Client)](android/obtaining-apps.md#aurora-store)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](android/obtaining-apps.md)
 
 ### Desktop/PC
 
