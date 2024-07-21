@@ -36,7 +36,7 @@ schema:
       "@type": WebPage
       url: "./"
 ---
-These are our currently recommended mobile web browsers and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead.
+These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead.
 
 ## Android
 
