@@ -156,7 +156,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![CoinCards logo](assets/img/financial-services/coincards.svg){ .twemoji loading=lazy } [CoinCards](financial-services.md#coincards)
+- ![Coincards logo](assets/img/financial-services/coincards.svg){ .twemoji loading=lazy } [Coincards](financial-services.md#coincards)
 
 </div>
 
