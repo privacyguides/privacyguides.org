@@ -29,7 +29,7 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
 - [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-- [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
+- [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
 - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
 - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
 
