@@ -4,7 +4,7 @@ icon: material/calendar
 description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
 cover: calendar.webp
 ---
-Calendars contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
+**Calendars** contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
 
 ## Tuta
 
