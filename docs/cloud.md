@@ -5,7 +5,7 @@ icon: material/file-cloud
 description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
 cover: cloud.webp
 ---
-Many **cloud storage** providers require your full trust that they will not look at your files. The alternatives listed below eliminate the need for trust by implementing secure E2EE.
+Many **cloud storage providers** require your full trust that they will not look at your files. The alternatives listed below eliminate the need for trust by implementing secure E2EE.
 
 If these alternatives do not fit your needs, we suggest you look into using encryption software like [Cryptomator](encryption.md#cryptomator-cloud) with another cloud provider. Using Cryptomator in conjunction with **any** cloud provider (including these) may be a good idea to reduce the risk of encryption flaws in a provider's native clients.
 
