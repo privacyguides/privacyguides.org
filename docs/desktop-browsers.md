@@ -350,7 +350,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 **Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
-**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
+**Brave Wallet** operates locally on your computer. The only privacy-focused cryptocurrency it supports currently is Zcash.
 
 ## Additional Resources
 
