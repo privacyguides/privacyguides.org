@@ -415,6 +415,7 @@ nav:
           - "news-aggregators.md"
           - "notebooks.md"
           - "passwords.md"
+          - "pastebins.md"
           - "productivity.md"
           - "real-time-communication.md"
       - !ENV [NAV_HARDWARE, "Hardware"]:
