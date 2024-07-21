@@ -25,7 +25,7 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 - [:simple-googleplay: Google Play](https://libreoffice.org/download/android-and-ios)
 - [:simple-appstore: App Store](https://libreoffice.org/download/android-and-ios)
-- [:simple-windows11: Windows](https://libreoffice.org/download/download)
+- [:fontawesome-brands-windows: Windows](https://libreoffice.org/download/download)
 - [:simple-apple: macOS](https://libreoffice.org/download/download)
 - [:simple-linux: Linux](https://libreoffice.org/download/download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.libreoffice.LibreOffice)
@@ -52,7 +52,7 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
-- [:simple-windows11: Windows](https://onlyoffice.com/download-desktop.aspx)
+- [:fontawesome-brands-windows: Windows](https://onlyoffice.com/download-desktop.aspx)
 - [:simple-apple: macOS](https://onlyoffice.com/download-desktop.aspx)
 - [:simple-linux: Linux](https://onlyoffice.com/download-desktop.aspx)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
