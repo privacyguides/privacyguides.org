@@ -249,6 +249,17 @@ If you're looking for added **security**, you should always ensure you're connec
 
 [Learn more :material-arrow-right-drop-circle:](data-redaction.md)
 
+### Document Collaboration
+
+<div class="grid cards" markdown>
+
+- ![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](document-collaboration.md#nextcloud)
+- ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](document-collaboration.md#cryptpad)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](document-collaboration.md)
+
 ### Email Clients
 
 <div class="grid cards" markdown>
@@ -334,6 +345,16 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [Learn more :material-arrow-right-drop-circle:](frontends.md)
 
+### Language Tools
+
+<div class="grid cards" markdown>
+
+- ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ .twemoji loading=lazy }![LanguageTool logo](assets/img/language--tols/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](language-tools.md#languagetool)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](langauge-tools.md)
+
 ### Multi-Factor Authentication Tools
 
 **Note:** [Hardware security keys](#security-keys) have been moved to their own category.
@@ -377,6 +398,17 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [Learn more :material-arrow-right-drop-circle:](notebooks.md)
 
+### Office Suites
+
+<div class="grid cards" markdown>
+
+- ![LibreOffice logo](assets/img/office-suites/libreoffice.svg){ .twemoji loading=lazy } [LibreOffice](office-suites.md#libreoffice)
+- ![OnlyOffice logo](assets/img/office-suites/onlyoffice.svg){ .twemoji loading=lazy } [OnlyOffice](office-suites.md#onlyoffice)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](office-suites.md)
+
 ### Password Managers
 
 <div class="grid cards" markdown>
@@ -403,20 +435,6 @@ For encrypting your operating system drive, we typically recommend using whichev
 </div>
 
 [Learn more :material-arrow-right-drop-circle:](pastebins.md)
-
-### Productivity Tools
-
-<div class="grid cards" markdown>
-
-- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](productivity.md#nextcloud)
-- ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ .twemoji loading=lazy } [LibreOffice](productivity.md#libreoffice)
-- ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ .twemoji loading=lazy } [OnlyOffice](productivity.md#onlyoffice)
-- ![CryptPad logo](assets/img/productivity/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](productivity.md#cryptpad)
-- ![LanguageTool logo](assets/img/productivity/languagetool.svg#only-light){ .twemoji loading=lazy }![LanguageTool logo](assets/img/productivity/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](productivity.md#languagetool)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](productivity.md)
 
 ### Real-Time Communication
 
