@@ -26,11 +26,11 @@ LanguageTool offers integration with a variety of [office suites](https://langua
 <summary>Downloads</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1534275760)
-- [:simple-windows11: Windows](https://languagetool.org/windows-desktop)
+- [:fontawesome-brands-windows: Windows](https://languagetool.org/windows-desktop)
 - [:simple-apple: macOS](https://languagetool.org/mac-desktop)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/languagetool)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/grammar-and-spell-checker/oldceeleldhonbafppcapldpdifcinji)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/hfjadhjooeceemgojogkhlppanjkbobc)
+- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/hfjadhjooeceemgojogkhlppanjkbobc)
 - [:simple-safari: Safari](https://apps.apple.com/app/id1534275760)
 
 </details>
