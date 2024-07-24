@@ -171,7 +171,7 @@ Firefox (Gecko)-based browsers on Android [lack](https://bugzilla.mozilla.org/sh
 [^1]: This should not be mistaken for [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) (or dynamic [first party isolation](https://2019.www.torproject.org/projects/torbrowser/design/#identifier-linkability)), where website data such as cookies and cache is restricted so that a third-party embedded in one top-level site cannot access data stored under another top-level site. This is an important privacy feature to prevent cross-site tracking and **is** supported by Firefox on Android.
 [^2]: GeckoView also [does not](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196) take advantage of Android's native process sandboxing by using the [isolatedProcess](https://developer.android.com/guide/topics/manifest/service-element#isolated) flag, which normally allows an app to safely run less trusted code in a separate process that has no permissions of its own.
 
-Enable DivestOS's [F-Droid Repo](https://divestos.org/fdroid/official) to receive updates directly from the developer. Downloading Mull from the default F-Droid repo will mean your updates could be delayed by a few days or longer.
+Enable DivestOS's [F-Droid repository](https://divestos.org/fdroid/official) to receive updates directly from the developer. Downloading Mull from the default F-Droid repo will mean your updates could be delayed by a few days or longer.
 
 Mull enables many features upstreamed by the [Tor uplift project](https://wiki.mozilla.org/Security/Tor_Uplift) using preferences from [Arkenfox](desktop-browsers.md#arkenfox-advanced). Proprietary blobs are removed from Mozilla's code using the scripts developed for Fennec F-Droid.
 
