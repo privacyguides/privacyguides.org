@@ -269,6 +269,7 @@ theme:
   icon:
     repo: simple/github
   features:
+    - announce.dismiss
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
@@ -438,16 +439,16 @@ nav:
           - "alternative-networks.md"
           - "device-integrity.md"
   - !ENV [NAV_ABOUT, "About"]:
-      - "about/index.md"
+      - "about.md"
+      - "about/donate.md"
       - "about/contributors.md"
       - "about/criteria.md"
       - "about/notices.md"
       - "about/privacy-policy.md"
-      - "about/statistics.md"
       - !ENV [NAV_COMMUNITY, "Community"]:
-          - "about/donate.md"
           - !ENV [NAV_ONLINE_SERVICES, "Online Services"]: "about/services.md"
           - !ENV [NAV_CODE_OF_CONDUCT, "Code of Conduct"]: "CODE_OF_CONDUCT.md"
+          - "about/statistics.md"
           - "about/privacytools.md"
       - !ENV [NAV_CONTRIBUTING, "Contributing"]:
           - !ENV [NAV_WRITING_GUIDE, "Writing Guide"]:
@@ -459,7 +460,7 @@ nav:
               - "meta/uploading-images.md"
               - "meta/git-recommendations.md"
               - "meta/commit-messages.md"
-  - !ENV [NAV_DONATE, "Donate"]: "about/donate/"
+  - "about/donate.md"
   - !ENV [NAV_CHANGELOG, "Changelog"]:
       "https://github.com/privacyguides/privacyguides.org/releases"
   - !ENV [NAV_FORUM, "Forum"]: "https://discuss.privacyguides.net/"
