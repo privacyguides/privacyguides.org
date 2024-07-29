@@ -108,19 +108,11 @@ Many computers have a BIOS option to disable the camera and microphone. When dis
 
 Privacy screens are a film you can put over your normal screen so that the screen is only visible from a certain angle. These are good if your threat model includes others peeking at your screen, but it is not foolproof as anyone could just move to a different viewing angle and see what's on your screen.
 
-### Dead Man's Switches
+### Purchasing Privately
 
-A dead man's switch stops a piece of machinery from operating without the presence of a human operator. These were originally designed as a safety measure, but the same concept can be applied to an electronic device to lock it when you're not present.
+The best way to purchase your hardware privately is to go to a physical store, rather than ordering it to your address. This way you don't have to give your address.
 
-Some laptops are able to [detect](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb) when you're present and can lock automatically when you aren't sitting in front of the screen. You should check the settings in your OS to see if your computer supports this feature.
-
-You can also get cables, like [Buskill](https://buskill.in), that will lock or wipe your computer when the cable is disconnected.
-
-### Anti-Interdiction/Evil Maid Attack
-
-The best way to prevent a targeted attack against you before a device is in your possession is to purchase a device in a physical store, rather than ordering it to your address.
-
-Make sure your device supports secure boot/verified boot, and you have it enabled. Try to avoid leaving your device unattended whenever possible.
+You can also pay in cash or gift cards to avoid giving the store your payment information and keep the purchase from showing up in your credit card/debit card purchase history.
 
 ## Secure your Network
 
