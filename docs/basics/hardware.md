@@ -20,7 +20,7 @@ Linux: Dell, Lenovo, and Star Labs have the best firmware support on Linux.
 
 ChromeOS: Avoid ChromeOS Flex and use Chromebooks for the best hardware security.
 
-Windows: Look for Secured-Core PCs and a TPM 2.0 or greater.
+Windows: Look for Secured-Core PCs.
 
 ### Hardware Security Programs
 
