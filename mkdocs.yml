@@ -295,6 +295,8 @@ plugins:
   search: {}
   privacy:
     enabled: !ENV [BUILD_PRIVACY, true]
+  offline:
+    enabled: !ENV [BUILD_OFFLINE, false]
   group:
     enabled: !ENV [BUILD_INSIDERS, false]
     plugins:
