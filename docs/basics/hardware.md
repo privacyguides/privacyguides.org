@@ -112,6 +112,10 @@ For microphone access, in most cases you will need to trust your OS's built-in p
 
 Privacy screens are a film you can put over your normal screen so that the screen is only visible from a certain angle. These are good if your threat model includes others peeking at your screen, but it is not foolproof as anyone could just move to a different viewing angle and see what's on your screen.
 
+### Presence Sensing
+
+Some laptops are able to [detect](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb) when you're present and can lock automatically when you aren't sitting in front of the screen. You should check the settings in your OS to see if your computer supports this feature.
+
 ### Purchasing Privately
 
 The best way to purchase your hardware privately is to go to a physical store, rather than ordering it to your address. This way you don't have to give your address.
