@@ -49,6 +49,8 @@ If you build your own PC, you may need to manually update your motherboard's fir
 
 Most computers and phones come equipped with a TPM (or a similar secure cryptoprocessor) which safely stores your encryption keys and handles other security-related functions. If you're currently using a machine that doesn't have one of these, you might benefit from purchasing a newer computer that has at least a TPM 2.0. Some desktop and server motherboards have a "TPM header" which can accept a small accessory board containing the TPM.
 
+Make sure to set a PIN/password or biometric unlock for your TPM, otherwise it will simply unlock your drive as soon as the computer is turned on. You can do this by enabling [Filevault](https://support.apple.com/guide/mac-help/protect-data-on-your-mac-with-filevault-mh11785/mac) in macOS and [Windows Hello](https://support.microsoft.com/en-us/windows/configure-windows-hello-dae28983-8242-bb2a-d3d1-87c9d265a5f0) in Windows.
+
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note</p>
 
