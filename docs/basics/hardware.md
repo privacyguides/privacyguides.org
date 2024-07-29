@@ -47,7 +47,7 @@ If you build your own PC, you may need to manually update your motherboard's fir
 
 ### TPM/Secure Cryptoprocessor
 
-Most computers and phones come equipped with a TPM (or a similar secure cryptoprocessor) which safely stores your encryption keys and handles other security-related functions. If you're currently using a machine that doesn't have one of these, you might benefit from purchasing a newer computer that has this feature. Some desktop and server motherboards have a "TPM header" which can accept a small accessory board containing the TPM.
+Most computers and phones come equipped with a TPM (or a similar secure cryptoprocessor) which safely stores your encryption keys and handles other security-related functions. If you're currently using a machine that doesn't have one of these, you might benefit from purchasing a newer computer that has at least a TPM 2.0. Some desktop and server motherboards have a "TPM header" which can accept a small accessory board containing the TPM.
 
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note</p>
