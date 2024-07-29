@@ -16,7 +16,7 @@ iOS/macOS: Only use official Apple hardware for the best security.
 
 Android: Google Pixels have the best update support and a 7 year support period as well as properly supporting unlocking/relocking the bootloader to securely install alternate operating systems like GrapheneOS.
 
-Linux: Dell, Lenovo, and Star Labs have the best firmware support on Linux.
+Linux: Dell and Lenovo Thinkpads have the best firmware support on Linux. Computers that meet the requirements for Secured-Core also benefit Linux users.
 
 ChromeOS: Avoid ChromeOS Flex and use Chromebooks for the best hardware security.
 
@@ -43,7 +43,7 @@ Hardware often has security issues that are discovered and patched through firmw
 
 Almost every component of your computer requires firmware to operate, from your motherboard to your storage devices. It is ideal for all the components of your device to be fully supported. Apple devices, Chromebooks, and Android phones like the Google Pixel will handle firmware updates for you as long as the device is supported. Beware that many Android devices have spotty or delayed updates and may not be supported for long. A Google Pixel will give you the best update support.
 
-If you build your own PC, you may need to manually update your motherboard's firmware by downloading it from your OEM's website. If you use Linux, consider using the built-in [`fwupd`](https://fwupd.org) tool that will let you check for and apply any firmware updates available for your motherboard. Note however that very few manufacturers properly utilize it, so stick with Dell, Lenovo, and Star Labs, or at least ask your OEM if they support it.
+If you build your own PC, you may need to manually update your motherboard's firmware by downloading it from your OEM's website. If you use Linux, consider using the built-in [`fwupd`](https://fwupd.org) tool that will let you check for and apply any firmware updates available for your motherboard. Note however that very few manufacturers properly utilize it, only Dell, Lenovo Thinkpads, and Star Labs have solid fwupd support.
 
 ### TPM/Secure Cryptoprocessor
 
