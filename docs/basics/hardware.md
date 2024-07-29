@@ -64,7 +64,9 @@ Many devices come equipped with a fingerprint reader or face recognition capabil
 
 Biometrics can prevent someone from watching you type in your password, so if shoulder-surfing is part of your threat model then biometrics are a good option.
 
-Most implementations of face authentication require you to be looking at your phone and also only work from a relatively close distance, so you don't need to worry too much about someone pointing your phone at your face to unlock it without your consent. You can still disable biometrics when your phone is locked if you want. On iOS, you can hold the side button and a volume button for 3 seconds to disable Face ID on models that support it. On Android, hold the power button and press Lockdown on the menu.
+Most implementations of face authentication require you to be looking at your phone and also only work from a relatively close distance, so you don't need to worry too much about someone pointing your device at your face to unlock it without your consent. 
+
+On iOS and Android, you can still disable biometrics when your phone is locked if you want. On iOS, you can hold the side button and a volume button for 3 seconds to disable Face ID on models that support it. On Android, hold the power button and press Lockdown on the menu.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
@@ -74,6 +76,8 @@ Some devices do not have the proper hardware for secure face authentication. The
 </div>
 
 Android defines three [security classes](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) for biometrics; you should check that your device is Class 3 before enabling biometrics.
+
+Windows Hello compatible biometrics use the [less secure unlock solution](https://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/) with no 3D map of your face. They also have issues sometimes with vendors not [implementing the biometrics securely](https://nondeterministic.computer/@mjg59/111456696748600420).
 
 ### Device Encryption
 
