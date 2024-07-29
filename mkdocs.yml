@@ -372,6 +372,7 @@ nav:
       - !ENV [NAV_TECHNOLOGY_ESSENTIALS, "Technology Essentials"]:
           - "basics/passwords-overview.md"
           - "basics/multi-factor-authentication.md"
+          - "basics/hardware.md"
           - "basics/email-security.md"
           - "basics/vpn-overview.md"
       - !ENV [NAV_ADVANCED_TOPICS, "Advanced Topics"]:
@@ -423,7 +424,6 @@ nav:
           - "pastebins.md"
           - "real-time-communication.md"
       - !ENV [NAV_HARDWARE, "Hardware"]:
-          - "basics/hardware.md"
           - "mobile-phones.md"
           - "security-keys.md"
       - !ENV [NAV_OPERATING_SYSTEMS, "Operating Systems"]:
