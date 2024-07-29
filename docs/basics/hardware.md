@@ -102,7 +102,7 @@ If you don't want to trust your OS's permission controls to prevent the camera f
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-You should only buy covers that fit your laptop and won't cause damage when you close the lid. Covering the camera will interfere with automatic brightness and face authentication features.
+You should only buy covers that fit your laptop and won't cause damage when you close the lid. Covering the camera will interfere with face authentication features.
 
 </div>
 
