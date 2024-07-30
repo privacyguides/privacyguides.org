@@ -1,0 +1,101 @@
+<!-- {#
+  Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
+  Copyright (c) 2022-2024 Jonah Aragon <jonah@triplebit.net>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+#} -->
+{% extends "main.html" %}
+{% set homepage = config.extra.privacy_guides.homepage %}
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=20240501' | url }}">
+  {% for feed in homepage.rss %}
+    <link rel="alternate" type="application/rss+xml" title="{{ feed.title }}" href="{{ feed.link }}">
+  {% endfor %}
+  {{ super() }}
+{% endblock %}
+{% block tabs %}
+  {{ super() }}
+  <style>.md-content > .md-typeset h1{visibility:hidden;font-size:0;}.md-button{margin-top:.5rem;}</style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__content">
+          <h1>{{ homepage.hero.header }}</h1>
+          <p>{{ homepage.hero.subheader }}</p>
+          {% for button in homepage.hero.buttons %}
+            <a href="{{ button.link }}" title="{{ button.title }}" class="{{ button.class }}">
+              {{ button.name }}
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+{% block content %}
+  {% if config.theme.language == "en" %}
+    <h2>Top discussions this week</h2>
+    <div class="grid cards">
+      <ul
+        class="topics-list"
+        data-forum="https://discuss.privacyguides.net"
+        data-feed="https://discuss.privacyguides.net/top.json?period=weekly"
+        data-count="6">
+      </ul>
+
+    </div>
+  {% endif %}
+  {{ page.content }}
+  <div class="mdx-cta">
+    <hr />
+    {% for cta in homepage.cta %}
+      <h2>{{ cta.title }}</h2>
+      {% for icon in cta.links %}
+        <a href="{{ icon.link }}" title="{{ icon.name }}">
+          <span class="twemoji">{% include ".icons/" ~ icon.icon ~ ".svg" %}</span>
+        </a>
+      {% endfor %}
+      <p>{{ cta.description }}</p>
+    {% endfor %}
+  </div>
+  {% if config.theme.language == "en" %}
+    <div class="mdx-discourse-topics">
+      <h3>Latest discussions</h3>
+      <div class="grid cards">
+        <ul
+          class="topics-list"
+          data-forum="https://discuss.privacyguides.net"
+          data-feed="https://discuss.privacyguides.net/latest.json"
+          data-count="12">
+        </ul>
+      </div>
+      <noscript>
+        <a href="https://discuss.privacyguides.net/" class="md-button md-button--primary">
+          Join the forum
+        </a>
+      </noscript>
+
+      <hr />
+    </div>
+  {% endif %}
+{% endblock %}
+{% block scripts %}
+  <script src="{{ 'assets/javascripts/discourse-topics.js' | url }}"></script>
+  {{ super() }}
+{% endblock %}

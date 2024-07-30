@@ -23,6 +23,9 @@
     "EditorConfig.EditorConfig",
     "DavidAnson.vscode-markdownlint",
     "wholroyd.jinja",
-    "mikestead.dotenv"
+    "mikestead.dotenv",
+    "redhat.vscode-yaml",
+    "ecmel.vscode-html-css",
+    "yzhang.markdown-all-in-one"
   ]
 }

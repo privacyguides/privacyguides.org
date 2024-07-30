@@ -31,7 +31,7 @@ jobs:
     strategy:
       matrix:
         repo: [mkdocs-material-insiders, brand, i18n]
-    uses: ./.github/workflows/download-repo.yml
+    uses: privacyguides/.github/.github/workflows/download-repo.yml@main
     with:
       repo: ${{ matrix.repo }}
     secrets:
@@ -41,24 +41,20 @@ jobs:
     needs: submodule
     strategy:
       matrix:
-        lang: [en, es, fr, he, it, nl, ru, zh-Hant]
+        lang: [en, fr, he]
+        build: [build, offline]
       fail-fast: false
     permissions:
       contents: read
     uses: ./.github/workflows/build.yml
     with:
+      config: ${{ matrix.build }}
       ref: ${{ github.ref }}
       repo: ${{ github.repository }}
       lang: ${{ matrix.lang }}
       continue-on-error: true
 
-  buildoffline:
-    needs: submodule
-    permissions:
-      contents: read
-    uses: ./.github/workflows/build-offline.yml
-
   cleanup:
     if: ${{ always() }}
-    needs: [build, buildoffline]
-    uses: ./.github/workflows/cleanup.yml
+    needs: build
+    uses: privacyguides/.github/.github/workflows/cleanup.yml@main

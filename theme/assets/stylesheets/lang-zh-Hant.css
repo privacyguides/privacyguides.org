@@ -25,7 +25,7 @@
   font-family: 'Noto Serif TC';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/noto-serif-tc/files/noto-serif-tc-chinese-traditional-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/noto-serif-tc/files/noto-serif-tc-chinese-traditional-400-normal.woff) format('woff'); 
+  src: url(https://fonts.bunny.net/noto-serif-tc/files/noto-serif-tc-chinese-traditional-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/noto-serif-tc/files/noto-serif-tc-chinese-traditional-400-normal.woff) format('woff');
 }
 
 /* latin */
@@ -33,7 +33,7 @@
   font-family: 'Noto Serif TC';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/noto-serif-tc/files/noto-serif-tc-latin-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/noto-serif-tc/files/noto-serif-tc-latin-400-normal.woff) format('woff'); 
+  src: url(https://fonts.bunny.net/noto-serif-tc/files/noto-serif-tc-latin-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/noto-serif-tc/files/noto-serif-tc-latin-400-normal.woff) format('woff');
 }
 
 /* chinese-traditional */
@@ -41,7 +41,7 @@
   font-family: 'Noto Serif TC';
   font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/noto-serif-tc/files/noto-serif-tc-chinese-traditional-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/noto-serif-tc/files/noto-serif-tc-chinese-traditional-700-normal.woff) format('woff'); 
+  src: url(https://fonts.bunny.net/noto-serif-tc/files/noto-serif-tc-chinese-traditional-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/noto-serif-tc/files/noto-serif-tc-chinese-traditional-700-normal.woff) format('woff');
 }
 
 /* latin */
@@ -49,7 +49,7 @@
   font-family: 'Noto Serif TC';
   font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/noto-serif-tc/files/noto-serif-tc-latin-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/noto-serif-tc/files/noto-serif-tc-latin-700-normal.woff) format('woff'); 
+  src: url(https://fonts.bunny.net/noto-serif-tc/files/noto-serif-tc-latin-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/noto-serif-tc/files/noto-serif-tc-latin-700-normal.woff) format('woff');
 }
 
 h1, h2, h3, .md-header__topic {

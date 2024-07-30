@@ -82,11 +82,62 @@ We recommend using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_l
 
 To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
-One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as $\text{log}_2(\text{WordsInList})$ and the overall entropy of the passphrase is calculated as $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
+One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as <math>
+  <mrow>
+    <msub>
+      <mtext>log</mtext>
+      <mn>2</mn>
+    </msub>
+    <mo form="prefix" stretchy="false">(</mo>
+    <mtext>WordsInList</mtext>
+    <mo form="postfix" stretchy="false">)</mo>
+  </mrow>
+</math> and the overall entropy of the passphrase is calculated as: <math>
+  <mrow>
+    <msub>
+      <mtext>log</mtext>
+      <mn>2</mn>
+    </msub>
+    <mo form="prefix" stretchy="false">(</mo>
+    <msup>
+      <mtext>WordsInList</mtext>
+      <mtext>WordsInPhrase</mtext>
+    </msup>
+    <mo form="postfix" stretchy="false">)</mo>
+  </mrow>
+</math>
 
-Therefore, each word in the aforementioned list results in ~12.9 bits of entropy ($\text{log}_2(7776)$), and a seven word passphrase derived from it has ~90.47 bits of entropy ($\text{log}_2(7776^7)$).
+Therefore, each word in the aforementioned list results in ~12.9 bits of entropy (<math>
+  <mrow>
+    <msub>
+      <mtext>log</mtext>
+      <mn>2</mn>
+    </msub>
+    <mo form="prefix" stretchy="false">(</mo>
+    <mn>7776</mn>
+    <mo form="postfix" stretchy="false">)</mo>
+  </mrow>
+</math>), and a seven word passphrase derived from it has ~90.47 bits of entropy (<math>
+  <mrow>
+    <msub>
+      <mtext>log</mtext>
+      <mn>2</mn>
+    </msub>
+    <mo form="prefix" stretchy="false">(</mo>
+    <msup>
+      <mn>7776</mn>
+      <mn>7</mn>
+    </msup>
+    <mo form="postfix" stretchy="false">)</mo>
+  </mrow>
+</math>).
 
-The [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is $\text{WordsInList}^\text{WordsInPhrase}$, or in our case, $7776^7$.
+The [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is <math>
+  <msup>
+    <mtext>WordsInList</mtext>
+    <mtext>WordsInPhrase</mtext>
+  </msup>
+</math>, or in our case, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
 
 Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
 
@@ -113,7 +164,7 @@ There are many good options to choose from, both cloud-based and local. Choose o
 <div class="admonition warning" markdown>
 <p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
 
-When using TOTP codes as [multi-factor authentication](../multi-factor-authentication.md), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md#authenticator-apps).
+When using [TOTP codes as multi-factor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
 
 Storing your TOTP tokens in the same place as your passwords, while convenient, reduces the accounts to a single factor in the event that an adversary gains access to your password manager.
 

@@ -32,11 +32,11 @@ authors:
 repository-code: "https://github.com/privacyguides/privacyguides.org"
 license:
   - MIT
-  - CC-BY-ND-4.0
+  - CC-BY-SA-4.0
 references:
   - authors:
-    - family-names: Donath
-      given-names: Martin
+      - family-names: Donath
+        given-names: Martin
     title: "mkdocs-material"
     type: software
     repository-code: "https://github.com/squidfunk/mkdocs-material"
@@ -81,7 +81,7 @@ preferred-citation:
     - alias: samsepi0l
       website: "https://github.com/d4rklynk"
     - name: Privacy Guides Contributors
-      website: "https://github.com/privacyguides/privacyguides.org/graphs/contributors"
+      website: "https://www.privacyguides.org/en/about/contributors/"
   url: "https://www.privacyguides.org"
   abstract: >-
     Privacy Guides is a socially motivated website that
@@ -95,4 +95,4 @@ preferred-citation:
     - encryption
     - website
     - markdown
-  license: CC-BY-ND-4.0
+  license: CC-BY-SA-4.0

@@ -15,20 +15,21 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 
 These are our favorite public DNS resolvers based on their privacy and security characteristics, and their worldwide performance. Some of these services offer basic DNS-level blocking of malware or trackers depending on the server you choose, but if you want to be able to see and customize what is blocked you should use a dedicated DNS filtering product instead.
 
-| DNS Provider | Privacy Policy | Protocols | Logging | [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | Filtering | Signed Apple Profile |
-|---|---|---|---|---|---|---|
-| [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html) | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html) | Cleartext   DoH/3   DoT   DoQ   DNSCrypt | Some[^1] | Anonymized | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) | Yes [:octicons-link-external-24:](https://adguard.com/en/blog/encrypted-dns-ios-14.html) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver) | Cleartext   DoH/3   DoT | Some[^2] | No | Based on server choice. | No [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846) |
-| [**Control D Free DNS**](https://controld.com/free-dns) | [:octicons-link-external-24:](https://controld.com/privacy) | Cleartext   DoH/3   DoT   DoQ | Optional[^3] | No | Based on server choice. | Yes [:octicons-link-external-24:](https://docs.controld.com/docs/macos-platform) |
-| [**dns0.eu**](https://dns0.eu) | [:octicons-link-external-24:](https://dns0.eu/privacy) | Cleartext   DoH/3   DoH   DoT   DoQ | No | Anonymized | Based on server choice. | Yes [:octicons-link-external-24:](https://www.dns0.eu/zero.dns0.eu.mobileconfig) |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy) | DoH   DoT | No[^4] | No | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock) | Yes [:octicons-link-external-24:](https://mullvad.net/en/blog/profiles-to-configure-our-encrypted-dns-on-apple-devices) |
-| [**Quad9**](https://quad9.net) | [:octicons-link-external-24:](https://quad9.net/privacy/policy) | Cleartext   DoH   DoT   DNSCrypt | Some[^5] | Optional | Based on server choice, malware blocking by default. | Yes [:octicons-link-external-24:](https://quad9.net/news/blog/ios-mobile-provisioning-profiles) |
+| DNS Provider | Protocols | Logging / Privacy Policy | [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | Filtering | Signed Apple Profile |
+|---|---|---|---|---|---|
+| [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html) | Cleartext   DoH/3   DoT   DoQ   DNSCrypt | Anonymized[^1] | Anonymized | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) | Yes [:octicons-link-external-24:](https://adguard.com/en/blog/encrypted-dns-ios-14.html) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup) | Cleartext   DoH/3   DoT | Anonymized[^2] | No | Based on server choice. | No [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846) |
+| [**Control D Free DNS**](https://controld.com/free-dns) | Cleartext   DoH/3   DoT   DoQ | No[^3] | No | Based on server choice. | Yes [:octicons-link-external-24:](https://docs.controld.com/docs/macos-platform) |
+| [**dns0.eu**](https://dns0.eu) | Cleartext   DoH/3   DoH   DoT   DoQ | Anonymized[^4] | Anonymized | Based on server choice. | Yes [:octicons-link-external-24:](https://dns0.eu/zero.dns0.eu.mobileconfig) |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH   DoT | No[^5] | No | Based on server choice. Filter list being used can be found here. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock) | Yes [:octicons-link-external-24:](https://mullvad.net/en/blog/profiles-to-configure-our-encrypted-dns-on-apple-devices) |
+| [**Quad9**](https://quad9.net) | Cleartext   DoH   DoT   DNSCrypt | Anonymized[^6] | Optional | Based on server choice, malware blocking by default. | Yes [:octicons-link-external-24:](https://quad9.net/news/blog/ios-mobile-provisioning-profiles) |
 
 [^1]: AdGuard stores aggregated performance metrics of their DNS servers, namely the number of complete requests to a particular server, the number of blocked requests, and the speed of processing requests. They also keep and store the database of domains requested in within last 24 hours. "We need this information to identify and block new trackers and threats." "We also log how many times this or that tracker has been blocked. We need this information to remove outdated rules from our filters." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
 [^2]: Cloudflare collects and stores only the limited DNS query data that is sent to the 1.1.1.1 resolver. The 1.1.1.1 resolver service does not log personal data, and the bulk of the limited non-personally identifiable query data is stored only for 25 hours. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver)
 [^3]: Control D only logs for Premium resolvers with custom DNS profiles. Free resolvers do not log data. [https://controld.com/privacy](https://controld.com/privacy)
-[^4]: Mullvad's DNS service is available to both subscribers and non-subscribers of Mullvad VPN. Their privacy policy explicitly claims they do not log DNS requests in any way. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy)
-[^5]: Quad9 collects some data for the purposes of threat monitoring and response. That data may then be remixed and shared, such as for the purpose of security research. Quad9 does not collect or record IP addresses or other data they deem personally identifiable. [https://quad9.net/privacy/policy](https://quad9.net/privacy/policy)
+[^4]: dns0.eu collects some data for their threat intelligence feeds, to monitor for newly registered/observed/active domains and other bulk data. That data is shared with some [partners](https://docs.dns0.eu/data-feeds/introduction) for e.g. security research. They do not collect any Personally Identifiable Information. [https://dns0.eu/privacy](https://dns0.eu/privacy)
+[^5]: Mullvad's DNS service is available to both subscribers and non-subscribers of Mullvad VPN. Their privacy policy explicitly claims they do not log DNS requests in any way. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy)
+[^6]: Quad9 collects some data for the purposes of threat monitoring and response. That data may then be remixed and shared, such as for the purpose of security research. Quad9 does not collect or record IP addresses or other data they deem personally identifiable. [https://quad9.net/privacy/policy](https://quad9.net/privacy/policy)
 
 ## Self-Hosted DNS Filtering
 
@@ -93,12 +94,12 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://docs.controld.com/docs/gui-setup-utility)
+- [:fontawesome-brands-windows: Windows](https://docs.controld.com/docs/gui-setup-utility)
 - [:simple-apple: macOS](https://docs.controld.com/docs/gui-setup-utility)
 - [:simple-linux: Linux](https://docs.controld.com/docs/ctrld)
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.controld.setuputility)
 - [:simple-appstore: App Store](https://apps.apple.com/app/1518799460)
-- [:simple-github: GitHub](https://github.com/Control-D-Inc/ctrld/releases/tag/v1.3.5)
+- [:simple-github: GitHub](https://github.com/Control-D-Inc/ctrld/releases)
 
 </details>
 
@@ -120,7 +121,7 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://github.com/nextdns/nextdns/wiki/Windows)
+- [:fontawesome-brands-windows: Windows](https://github.com/nextdns/nextdns/wiki/Windows)
 - [:simple-apple: macOS](https://apps.apple.com/us/app/nextdns/id1464122853)
 - [:simple-linux: Linux](https://github.com/nextdns/nextdns/wiki)
 - [:simple-appstore: App Store](https://apps.apple.com/app/nextdns/id1463342498)
@@ -147,7 +148,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
 ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
 ![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
 
-**RethinkDNS** is an open-source Android client supporting [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) and DNS Proxy along with caching DNS responses, locally logging DNS queries and can be used as a firewall too.
+**RethinkDNS** is an open-source Android client that supports [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) and DNS Proxy. It also provides additional functionality such as caching DNS responses, locally logging DNS queries, and using the app as a firewall.
 
 [:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
@@ -164,6 +165,8 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
 
 </div>
 
+While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot with the app by [adding a Wireguard configuration](https://docs.rethinkdns.com/proxy/wireguard) or [manually configuring Orbot as a Proxy server](https://docs.rethinkdns.com/firewall/orbot), respectively.
+
 ### dnscrypt-proxy
 
 <div class="admonition recommendation" markdown>
@@ -171,10 +174,6 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
 ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
 
 **dnscrypt-proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">The anonymized DNS feature does <a href="advanced/dns-overview.md#why-shouldnt-i0-use-encrypted-dns"><strong>not</strong></a> anonymize other network traffic.</p>
-</div>
 
 [:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}
@@ -184,7 +183,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
+- [:fontawesome-brands-windows: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
 - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
 - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
 
@@ -192,13 +191,25 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
 
 </div>
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+The anonymized DNS feature does [not](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic.
+
+</div>
+
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-### Minimum Requirements
+All DNS products must support:
 
 - [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
 - [QNAME Minimization](advanced/dns-overview.md#what-is-qname-minimization).
 - Anonymize [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) or disable it by default.
+
+Additionally, all public providers:
+
 - Prefer [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) support or geo-steering support.
+- Must not log any personal data to disk
+    - As noted in our footnotes, some providers collect query information for example, for purposes like security research, but in that case that data must not be associated with any PII such as IP address, etc.

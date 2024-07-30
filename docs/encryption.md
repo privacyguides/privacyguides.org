@@ -5,7 +5,7 @@ icon: material/file-lock
 description: Encryption of data is the only way to control who can access it. These tools allow you to encrypt your emails and any other files.
 cover: encryption.webp
 ---
-Encryption of data is the only way to control who can access it. If you are currently not using encryption software for your hard disk, emails or files, you should pick an option here.
+**Encryption** is the only secure way to control who can access your data. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
 ## Multi-platform
 
@@ -31,7 +31,7 @@ The options listed here are multi-platform and great for creating encrypted back
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1560822163)
 - [:simple-android: Android](https://cryptomator.org/android)
-- [:simple-windows11: Windows](https://cryptomator.org/downloads)
+- [:fontawesome-brands-windows: Windows](https://cryptomator.org/downloads)
 - [:simple-apple: macOS](https://cryptomator.org/downloads)
 - [:simple-linux: Linux](https://cryptomator.org/downloads)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
@@ -54,16 +54,16 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 **Picocrypt** is a small and simple encryption tool that provides modern encryption. Picocrypt uses the secure XChaCha20 cipher and the Argon2id key derivation function to provide a high level of security. It uses Go's standard x/crypto modules for its encryption features.
 
-[:octicons-repo-16: Repository](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Source Code" }
+[:octicons-repo-16: Repository](https://github.com/Picocrypt/Picocrypt){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
-- [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
-- [:simple-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
+- [:fontawesome-brands-windows: Windows](https://github.com/Picocrypt/Picocrypt/releases)
+- [:simple-apple: macOS](https://github.com/Picocrypt/Picocrypt/releases)
+- [:simple-linux: Linux](https://github.com/Picocrypt/Picocrypt/releases)
 
 </details>
 
@@ -86,7 +86,7 @@ Cryptomator's documentation details its intended [security target](https://docs.
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://veracrypt.fr/en/Downloads.html)
+- [:fontawesome-brands-windows: Windows](https://veracrypt.fr/en/Downloads.html)
 - [:simple-apple: macOS](https://veracrypt.fr/en/Downloads.html)
 - [:simple-linux: Linux](https://veracrypt.fr/en/Downloads.html)
 
@@ -305,7 +305,7 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://kryptor.co.uk)
+- [:fontawesome-brands-windows: Windows](https://kryptor.co.uk)
 - [:simple-apple: macOS](https://kryptor.co.uk)
 - [:simple-linux: Linux](https://kryptor.co.uk)
 
@@ -319,7 +319,7 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
 ![Tomb logo](assets/img/encryption-software/tomb.png){ align=right }
 
-**Tomb** is a command-line shell wrapper for LUKS. It supports steganography via [third-party tools](https://github.com/dyne/Tomb#how-does-it-work).
+**Tomb** is a command-line shell wrapper for LUKS. It supports steganography via [third-party tools](https://dyne.org/software/tomb/#advanced-usage).
 
 [:octicons-home-16: Homepage](https://dyne.org/software/tomb){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentation}
@@ -364,7 +364,7 @@ gpg --quick-gen-key alice@example.com future-default
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
-- [:simple-windows11: Windows](https://gpg4win.org/download.html)
+- [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
 - [:simple-apple: macOS](https://gpgtools.org)
 - [:simple-linux: Linux](https://gnupg.org/download/index.html#binary)
 
@@ -389,7 +389,7 @@ gpg --quick-gen-key alice@example.com future-default
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://gpg4win.org/download.html)
+- [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
 
 </details>
 
@@ -400,7 +400,7 @@ gpg --quick-gen-key alice@example.com future-default
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-We suggest [Canary Mail](email-clients.md#canary-mail) for using PGP with email on iOS devices.
+We suggest [Canary Mail](email-clients.md#canary-mail-ios) for using PGP with email on iOS devices.
 
 </div>
 
@@ -408,7 +408,7 @@ We suggest [Canary Mail](email-clients.md#canary-mail) for using PGP with email 
 
 ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
 
-**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail) and macOS.
+**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and macOS.
 
 We recommend taking a look at their [First steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) and [Knowledge base](https://gpgtools.tenderapp.com/kb) for support.
 
@@ -432,7 +432,7 @@ We recommend taking a look at their [First steps](https://gpgtools.tenderapp.com
 
 ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** is an Android implementation of GnuPG. It's commonly required by mail clients such as [K-9 Mail](email-clients.md#k-9-mail) and [FairEmail](email-clients.md#fairemail) and other Android apps to provide encryption support. Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. Technical details about the audit and OpenKeychain's solutions can be found [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+**OpenKeychain** is an Android implementation of GnuPG. It's commonly required by mail clients such as [K-9 Mail](email-clients.md#k-9-mail-android) and [FairEmail](email-clients.md#fairemail-android) and other Android apps to provide encryption support. Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. Technical details about the audit and OpenKeychain's solutions can be found [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
 
 [:octicons-home-16: Homepage](https://openkeychain.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }

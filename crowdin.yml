@@ -18,25 +18,16 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
+#checkov:skip=CKV_SECRET_6:obviously a variable name and not a secret
 api_token_env: CROWDIN_PERSONAL_TOKEN
 project_id: "509862"
 "preserve_hierarchy": true
 files:
-- source: "/docs/**/*.*"
-  translation: "/i18n/%two_letters_code%/**/%file_name%.%file_extension%"
-  skip_untranslated_files: false
-- source: "/theme/overrides/*.en.html"
-  translation: "/theme/overrides/%file_name%.%two_letters_code%.html"
-  translation_replace:
-    "en.": ""
-  skip_untranslated_files: false
-- source: "/includes/*.en.*"
-  translation: "/includes/%file_name%.%two_letters_code%.%file_extension%"
-  translation_replace:
-    "en.": ""
-  skip_untranslated_files: false
-- source: "/static/i18n/*.en.*"
-  translation: "/static/i18n/%file_name%.%two_letters_code%.%file_extension%"
-  translation_replace:
-    "en.": ""
-  skip_untranslated_files: false
+  - source: "/docs/**/*.*"
+    translation: "/i18n/%two_letters_code%/**/%file_name%.%file_extension%"
+    skip_untranslated_files: false
+  - source: "/includes/*.en.*"
+    translation: "/includes/%file_name%.%two_letters_code%.%file_extension%"
+    translation_replace:
+      "en.": ""
+    skip_untranslated_files: false

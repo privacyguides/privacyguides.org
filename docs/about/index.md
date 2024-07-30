@@ -48,12 +48,12 @@ So far in 2023 we've launched international translations of our website in [Fren
 <!-- markdownlint-disable MD030 -->
 
 <div class="grid cards" markdown>
-<!-- Every team member should have a unique emoji.
-     Team member cards should include ONLY the following links:
-     - Discourse Profile
-     - ONE Link of team member's choice
-     - Email if applicable
-     This is to keep it fair and not spammy, especially as we grow.
+<!--  Every team member should have a unique emoji.
+      Team member cards should include ONLY the following links:
+      - Discourse Profile
+      - ONE Link of team member's choice
+      - Email if applicable
+      This is to keep it fair and not spammy, especially as we grow.
 -->
 
 -   :robot:{ .lg .middle } **@jonah**
@@ -116,7 +116,7 @@ So far in 2023 we've launched international translations of our website in [Fren
 
 </div>
 
-Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
+Additionally, [many people](contributors.md) have made contributions to the project. You can too, we're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
 Our team members review all changes made to the website and handle administrative duties such as web hosting and financials, however they do not personally profit from any contributions made to this site. Donations to Privacy Guides are generally tax-deductible in the United States.
 
@@ -128,6 +128,6 @@ The following is a human-readable summary of (and not a substitute for) the [lic
 
 </div>
 
-:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). This means that you are free to copy and redistribute the material in any medium or format for any purpose, even commercially; as long as you give appropriate credit to `Privacy Guides (www.privacyguides.org)` and provide a link to the license. You may do so in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use. If you remix, transform, or build upon the content of this website, you may not distribute the modified material.
+:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). This means that you are free to copy and redistribute the material in any medium or format for any purpose, even commercially; as long as you give appropriate credit to `Privacy Guides (www.privacyguides.org)` and share your work under the same license.
 
-This license is in place to prevent people from sharing our work without giving proper credit, and to prevent people from modifying our work in a way that could be used to mislead people. If you find the terms of this license too restrictive for the project you're working on, please reach out to us at `jonah@privacyguides.org`. We are happy to provide alternative licensing options for well-intentioned projects in the privacy space!
+You may comply with these terms in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use.

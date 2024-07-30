@@ -1,28 +1,11 @@
-# Copyright (c) 2024 Jonah Aragon <jonah@triplebit.net>
-
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to
-# deal in the Software without restriction, including without limitation the
-# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-# sell copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
-
-# The above copyright notice and this permission notice shall be included in
-# all copies or substantial portions of the Software.
-
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-# IN THE SOFTWARE.
-
-name: Build Website
+name: 🛠️ Build Website
 
 on:
   workflow_call:
     inputs:
+      config:
+        type: string
+        default: build
       ref:
         required: true
         type: string
@@ -38,6 +21,9 @@ on:
       continue-on-error:
         type: boolean
         default: true
+      privileged:
+        type: boolean
+        default: true
 
 permissions:
   contents: read
@@ -50,87 +36,231 @@ jobs:
       contents: read
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Add GitHub Token to Environment
+        run: |
+          echo "GH_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> "$GITHUB_ENV"
+
+      - name: Set Metadata
+        if: inputs.config == 'build'
+        run: |
+          {
+            echo "BUILD_CONTEXT=${{ inputs.context }}"
+            echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --production""
+          } >> "$GITHUB_ENV"
+
+      - name: Set Metadata for Privileged Builds
+        if: inputs.privileged
+        run: |
+          echo "BUILD_INSIDERS=true" >> "$GITHUB_ENV"
+          echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --insiders"" >> "$GITHUB_ENV"
+
+      - name: Set Metadata for Offline Mode
+        if: inputs.config == 'offline'
+        run: |
+          {
+            echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --offline""
+          } >> "$GITHUB_ENV"
+
+      - name: Download Repository
+        uses: actions/checkout@v4
         with:
           repository: ${{ inputs.repo }}
           ref: ${{ inputs.ref }}
-          persist-credentials: 'false'
+          persist-credentials: "false"
           fetch-depth: 0
 
-      - uses: actions/download-artifact@v4
+      - name: Download Submodules
+        uses: actions/download-artifact@v4
         with:
           pattern: repo-*
           path: modules
 
-      - run: |
+      - name: Move mkdocs-material-insiders to mkdocs-material
+        if: inputs.privileged
+        run: |
           rmdir modules/mkdocs-material
           mv modules/repo-mkdocs-material-insiders modules/mkdocs-material
+
+      - name: Move brand submodule to theme/assets/brand
+        run: |
           rmdir theme/assets/brand
           mv modules/repo-brand theme/assets/brand
 
-      - if: inputs.lang != 'en'
+      - name: Copy Translation Files
+        if: inputs.lang != 'en'
         run: |
           cp -rl modules/repo-i18n/i18n .
           cp -rl modules/repo-i18n/includes .
-          cp -rl modules/repo-i18n/theme .
 
-      - uses: actions/setup-python@v5
+      - name: Install Python (pipenv)
+        if: inputs.privileged
+        uses: actions/setup-python@v5
         with:
-          cache: 'pipenv'
+          cache: "pipenv"
 
-      - uses: actions/cache/restore@v4.0.2
-        with:
-          key: site-cache-${{ inputs.repo }}-${{ inputs.ref }}-${{ hashfiles('.cache/**') }}
-          path: .cache
-          restore-keys: |
-            site-cache-${{ inputs.repo }}-${{ inputs.ref }}-
-            site-cache-${{ inputs.repo }}-
+      - name: Install Python (no pipenv)
+        if: ${{ !inputs.privileged }}
+        uses: actions/setup-python@v5
 
-      - uses: actions/cache/restore@v4.0.2
+      - name: Restore Privacy Plugin Cache
+        uses: actions/cache/restore@v4.0.2
+        id: privacy_cache_restore
         with:
-          key: card-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ inputs.ref }}-${{ hashfiles('config/.cache/plugin/social/manifest.json') }}
+          key: privacy-cache-${{ inputs.repo }}-${{ hashfiles('.cache/plugin/privacy/**') }}
           path: |
-            config/.cache/plugin/social/manifest.json
-            config/.cache/plugin/social/assets
+            .cache/plugin/privacy
           restore-keys: |
-            card-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ inputs.ref }}-
-            card-cache-${{ inputs.repo }}-${{ inputs.lang }}-
+            privacy-cache-${{ inputs.repo }}-
+            privacy-cache-privacyguides/privacyguides.org-
+            privacy-cache-
 
-      - run: |
+      - name: Restore Social Plugin Cache
+        uses: actions/cache/restore@v4.0.2
+        id: social_cache_restore
+        with:
+          key: social-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ hashfiles('.cache/plugin/social/manifest.json') }}
+          path: |
+            .cache/plugin/social/manifest.json
+            .cache/plugin/social/assets
+          restore-keys: |
+            social-cache-${{ inputs.repo }}-${{ inputs.lang }}-
+            social-cache-privacyguides/privacyguides.org-${{ inputs.lang }}-
+
+      - name: Restore Optimize Plugin Cache
+        uses: actions/cache/restore@v4.0.2
+        id: optimize_cache_restore
+        with:
+          key: optimize-cache-${{ inputs.repo }}-${{ hashfiles('.cache/plugin/optimize/manifest.json') }}
+          path: |
+            .cache/plugin/optimize
+          restore-keys: |
+            optimize-cache-${{ inputs.repo }}-
+            optimize-cache-privacyguides/privacyguides.org-
+            optimize-cache-
+
+      - name: Install Python Dependencies
+        if: inputs.privileged
+        run: |
           pip install pipenv
           pipenv install
           sudo apt install pngquant
 
-      - if: inputs.lang != 'en'
-        uses: falti/dotenv-action@v1.1
-        with:
-          path: includes/strings.${{ inputs.lang }}.env
-          export-variables: true
-          keys-case: bypass
-
-      - env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CONTEXT: ${{ inputs.context }}
-          PRODUCTION: true
+      - name: Install Python Dependencies (Unprivileged)
+        if: ${{ !inputs.privileged }}
         run: |
-          pipenv run mkdocs build --config-file config/mkdocs.${{ inputs.lang }}.yml
-          cp -r static/* site/
-          pipenv run mkdocs --version
-          tar -czvf site-build-${{ inputs.lang }}.tar.gz site
+          pip install mkdocs-material
+          sudo apt install pngquant
+          echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --cmd=mkdocs"" >> "$GITHUB_ENV"
 
-      - uses: actions/cache/save@v4.0.2
-        with:
-          key: site-cache-${{ inputs.repo }}-${{ inputs.ref }}-${{ hashfiles('.cache/**') }}
-          path: .cache
+      - name: Build Website
+        run: |
+          eval ./run.sh --build --lang=${{ inputs.lang }} "$EXTRA_FLAGS"
 
-      - uses: actions/cache/save@v4.0.2
+      - name: Package Website
+        run: |
+          tar -czf site-${{ inputs.config }}-${{ inputs.lang }}.tar.gz site
+
+      - name: Find Privacy Plugin Cache
+        uses: actions/cache/restore@v4.0.2
+        if: steps.privacy_cache_restore.outputs.cache-hit != 'true'
+        id: privacy_cache_test
         with:
-          key: card-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ inputs.ref }}-${{ hashfiles('config/.cache/plugin/social/manifest.json') }}
+          key: privacy-cache-privacyguides/privacyguides.org-${{ hashfiles('.cache/plugin/privacy/**') }}
+          lookup-only: true
           path: |
-            config/.cache/plugin/social/manifest.json
-            config/.cache/plugin/social/assets
+            .cache/plugin/privacy
 
-      - uses: actions/upload-artifact@v4
+      - name: Find Social Plugin Cache
+        uses: actions/cache/restore@v4.0.2
+        if: steps.social_cache_restore.outputs.cache-hit != 'true'
+        id: social_cache_test
         with:
-          name: site-build-${{ inputs.lang }}.tar.gz
-          path: site-build-${{ inputs.lang }}.tar.gz
+          key: social-cache-privacyguides/privacyguides.org-${{ inputs.lang }}-${{ hashfiles('.cache/plugin/social/manifest.json') }}
+          lookup-only: true
+          path: |
+            .cache/plugin/social/manifest.json
+            .cache/plugin/social/assets
+
+      - name: Find Optimize Plugin Cache
+        uses: actions/cache/restore@v4.0.2
+        if: steps.optimize_cache_restore.outputs.cache-hit != 'true'
+        id: optimize_cache_test
+        with:
+          key: optimize-cache-privacyguides/privacyguides.org-${{ hashfiles('.cache/plugin/optimize/manifest.json') }}
+          lookup-only: true
+          path: |
+            .cache/plugin/optimize
+
+      - name: Save Privacy Plugin Cache
+        uses: actions/cache/save@v4.0.2
+        if: steps.privacy_cache_test.outputs.cache-hit != 'true'
+        with:
+          key: privacy-cache-${{ inputs.repo }}-${{ hashfiles('.cache/plugin/privacy/**') }}
+          path: .cache/plugin/privacy
+
+      - name: Save Social Plugin Cache
+        uses: actions/cache/save@v4.0.2
+        if: steps.social_cache_test.outputs.cache-hit != 'true'
+        with:
+          key: social-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ hashfiles('.cache/plugin/social/manifest.json') }}
+          path: |
+            .cache/plugin/social/manifest.json
+            .cache/plugin/social/assets
+
+      - name: Save Optimize Plugin Cache
+        uses: actions/cache/save@v4.0.2
+        if: steps.optimize_cache_test.outputs.cache-hit != 'true'
+        with:
+          key: optimize-cache-${{ inputs.repo }}-${{ hashfiles('.cache/plugin/optimize/manifest.json') }}
+          path: .cache/plugin/optimize
+
+      - name: Upload Site
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-${{ inputs.config }}-${{ inputs.lang }}.tar.gz
+          path: site-${{ inputs.config }}-${{ inputs.lang }}.tar.gz
+          retention-days: 1
+
+  offline_package:
+    if: inputs.config == 'offline' && inputs.lang == 'en'
+    needs: build
+    runs-on: ubuntu-latest
+    continue-on-error: ${{ inputs.continue-on-error }}
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: site-offline-en.tar.gz
+
+      - run: |
+          tar -xzf site-offline-en.tar.gz
+          tar -czf offline.tar.gz site/en
+          zip -r -q offline.zip site/en
+
+      - name: Upload tar.gz file
+        uses: actions/upload-artifact@v4
+        with:
+          name: offline.tar.gz
+          path: offline.tar.gz
+
+      - name: Upload zip file
+        uses: actions/upload-artifact@v4
+        with:
+          name: offline.zip
+          path: offline.zip
+
+      - name: Create ZIM File
+        uses: addnab/docker-run-action@v3
+        with:
+          image: ghcr.io/openzim/zim-tools:3.1.3
+          options: -v ${{ github.workspace }}:/data
+          run: |
+            zimwriterfs -w index.html -I assets/brand/logos/png/square/pg-yellow.png -l eng -t "Privacy Guides" -d "Your central privacy and security resource to protect yourself online." -c "Privacy Guides" -p "Jonah Aragon" -n "Privacy Guides" -e "https://github.com/privacyguides/privacyguides.org" /data/site/en /data/offline-privacy_guides.zim
+
+      - name: Upload ZIM file
+        uses: actions/upload-artifact@v4
+        with:
+          name: offline-privacy_guides.zim
+          path: offline-privacy_guides.zim

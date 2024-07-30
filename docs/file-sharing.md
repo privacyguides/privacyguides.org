@@ -14,7 +14,7 @@ Discover how to privately share your files between your devices, with your frien
 
 ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send** is a fork of Mozilla’s discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well. The maintainer of Send hosts a [public instance](https://send.vis.ee). You can use other public instances, or you can host Send yourself.
+**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Files are encrypted on your device so that they cannot be read by the server, and they can be optionally password-protected as well. The maintainer of Send hosts a [public instance](https://send.vis.ee). You can use other public instances, or you can host Send yourself.
 
 [:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
@@ -48,7 +48,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://onionshare.org/#download)
+- [:fontawesome-brands-windows: Windows](https://onionshare.org/#download)
 - [:simple-apple: macOS](https://onionshare.org/#download)
 - [:simple-linux: Linux](https://onionshare.org/#download)
 
@@ -103,7 +103,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
 - [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-- [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
+- [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
 - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
 - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
 
@@ -135,7 +135,7 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
-- [:simple-windows11: Windows](https://syncthing.net/downloads)
+- [:fontawesome-brands-windows: Windows](https://syncthing.net/downloads)
 - [:simple-apple: macOS](https://syncthing.net/downloads)
 - [:simple-linux: Linux](https://syncthing.net/downloads)
 - [:simple-freebsd: FreeBSD](https://syncthing.net/downloads)
@@ -144,6 +144,7 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.

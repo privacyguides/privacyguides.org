@@ -26,7 +26,7 @@ name = "pypi"
 [packages]
 mkdocs-material = {extras = ["imaging"], path = "./modules/mkdocs-material"}
 mkdocs-git-revision-date-localized-plugin = "~=1.2"
-mkdocs-git-committers-plugin-2 = "~=1.1"
+mkdocs-git-authors-plugin = "~=0.8"
 mkdocs-macros-plugin = "~=1.0"
 jieba = "~=0.42"
 

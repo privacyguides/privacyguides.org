@@ -20,8 +20,32 @@
 
 {
     "git.ignoreLimitWarning": true,
-    "[markdown]": {
-      "editor.unicodeHighlight.ambiguousCharacters": true,
-      "editor.unicodeHighlight.invisibleCharacters": true
+    "ltex.diagnosticSeverity": "hint",
+    "editor.unicodeHighlight.ambiguousCharacters": true,
+    "editor.unicodeHighlight.invisibleCharacters": true,
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "[yaml]": {
+      "editor.defaultFormatter": "redhat.vscode-yaml",
+      "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+      }
+    },
+    "yaml.schemas": {
+      "https://raw.githubusercontent.com/DavidAnson/markdownlint/main/schema/markdownlint-config-schema.json": ".markdownlint.yml",
+      "https://json.schemastore.org/github-issue-config.json": ".github/ISSUE_TEMPLATE/config.yml",
+      ".vscode/.empty-schema.json": "config/*.yml"
+    },
+    "yaml.customTags": [
+      "!ENV sequence",
+      "!ENV",
+      "tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format",
+      "tag:yaml.org,2002:python/name:material.extensions.emoji.twemoji",
+      "tag:yaml.org,2002:python/name:material.extensions.emoji.to_svg"
+    ],
+    "editor.formatOnSave": true,
+    "[github-actions-workflow]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }

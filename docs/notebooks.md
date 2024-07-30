@@ -31,7 +31,7 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
 - [:simple-github: GitHub](https://github.com/standardnotes/app/releases)
-- [:simple-windows11: Windows](https://standardnotes.com)
+- [:fontawesome-brands-windows: Windows](https://standardnotes.com)
 - [:simple-apple: macOS](https://standardnotes.com)
 - [:simple-linux: Linux](https://standardnotes.com)
 - [:octicons-globe-16: Web](https://app.standardnotes.com)
@@ -39,6 +39,8 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 </details>
 
 </div>
+
+Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-forces-with-proton) as of April 10, 2024.
 
 ### Notesnook
 
@@ -60,17 +62,17 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1544027013)
 - [:simple-github: GitHub](https://github.com/streetwriters/notesnook/releases)
-- [:simple-windows11: Windows](https://notesnook.com/downloads)
+- [:fontawesome-brands-windows: Windows](https://notesnook.com/downloads)
 - [:simple-apple: macOS](https://notesnook.com/downloads)
 - [:simple-linux: Linux](https://notesnook.com/downloads)
 - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
+- [:octicons-globe-16: Web](https://app.notesnook.com)
+- [:simple-flathub: Flathub](https://flathub.org/apps/com.notesnook.Notesnook)
 
 </details>
 
 </div>
-
-Notesnook only allows local note encryption with the [private vault](https://help.notesnook.com/lock-notes-with-private-vault) feature on their pro plan, otherwise your notes are not stored encrypted on your device. Your notes are always encrypted before being synced to their servers with keys which only you have access to.
 
 ### Joplin
 
@@ -92,7 +94,7 @@ Notesnook only allows local note encryption with the [private vault](https://hel
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1315599797)
 - [:simple-github: GitHub](https://github.com/laurent22/joplin-android/releases)
-- [:simple-windows11: Windows](https://joplinapp.org/#desktop-applications)
+- [:fontawesome-brands-windows: Windows](https://joplinapp.org/#desktop-applications)
 - [:simple-apple: macOS](https://joplinapp.org/#desktop-applications)
 - [:simple-linux: Linux](https://joplinapp.org/#desktop-applications)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper)
@@ -152,6 +154,8 @@ Cryptee offers 100MB of storage for free, with paid options if you need more. Si
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+
+### Minimum Requirements
 
 - Clients must be open source.
 - Any cloud sync functionality must be E2EE.

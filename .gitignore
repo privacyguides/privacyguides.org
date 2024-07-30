@@ -1,28 +1,25 @@
 site
 /i18n/
-/includes/*
+/includes/*.*.*
 !/includes/*.en.*
-/static/i18n/*
-!/static/i18n/*.en.*
-/theme/overrides/*
-!/theme/overrides/*.en.*
+/static/i18n/
+/theme/overrides/*.*.*
+
 # commit social card fonts to repo
 # see: https://github.com/squidfunk/mkdocs-material/issues/6983
 # ridiculous hide-and-seek https://stackoverflow.com/a/72380673
 .cache/*
-!/config/.cache
-/config/.cache/*
-!/config/.cache/plugin
-/config/.cache/plugin/*
-!/config/.cache/plugin/social
-/config/.cache/plugin/social/*
-!/config/.cache/plugin/social/fonts
-
-# Editor settings
-.vscode/*
-!.vscode/extensions.json
-!.vscode/settings.json
+!.cache/plugin
+/.cache/plugin/*
+!.cache/plugin/social
+/.cache/plugin/social/*
+!.cache/plugin/social/fonts
 
 # Local Netlify folder
 .netlify
 node_modules
+
+# Python
+.venv
+.env
+.mkdocs-insiders-*

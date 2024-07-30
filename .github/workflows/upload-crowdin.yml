@@ -20,10 +20,13 @@
 
 name: 💬 Crowdin Upload
 
+permissions:
+  contents: read
+
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: [main]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -34,18 +37,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-    - name: Checkout
-      uses: actions/checkout@v4
-
-    - name: crowdin action
-      uses: crowdin/github-action@v1.20.1
-      with:
-        upload_sources: true
-        upload_sources_args: '--auto-update --delete-obsolete'
-        download_translations: false
-        config: crowdin.yml
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-        CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+      - name: crowdin action
+        uses: crowdin/github-action@v2.0.0
+        with:
+          upload_sources: true
+          upload_sources_args: "--auto-update --delete-obsolete"
+          download_translations: false
+          config: crowdin.yml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
