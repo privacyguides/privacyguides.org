@@ -10,18 +10,6 @@ When it comes to discussions about privacy, hardware is often not thought about 
 
 The internals of your devices process and store all of your digital data. It is important that all devices are supported by the manufacturer and developers by continuing to receive security updates.
 
-### Recommendations
-
-iOS/macOS: Only use official Apple hardware for the best security.
-
-Android: Google Pixels have the best update support and a 7 year support period as well as properly supporting unlocking/relocking the bootloader to securely install alternate operating systems like GrapheneOS.
-
-Linux: Dell and Lenovo Thinkpads have the best firmware support on Linux. Computers that meet the requirements for Secured-Core also benefit Linux users.
-
-ChromeOS: Avoid ChromeOS Flex and use Chromebooks for the best hardware security.
-
-Windows: Look for Secured-Core PCs.
-
 ### Hardware Security Programs
 
 Some devices will have a "hardware security program", which is a collaboration between vendors on best practices and recommendations when designing hardware, for example:
