@@ -102,7 +102,7 @@ Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
 
 ## OS Full Disk Encryption
 
-Full disk encryption (FDE) is a comprehensive data encryption solution, encompassing the operating system and system files. FDE principally leverages hardware security features, such as a [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) (e.g., a [TPM](https://en.wikipedia.org/wiki/Trusted_Platform_Module)). Therefore, we recommend using the built-in FDE solutions for your operating system. For external drives, however, we still recommend open-source tools for additional flexibility and to avoid vendor lock-in.
+Full disk encryption (FDE) is a comprehensive data encryption solution, encompassing the operating system and system files. FDE principally leverages hardware security features, such as a [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) (e.g., a [TPM](https://en.wikipedia.org/wiki/Trusted_Platform_Module)). Therefore, we recommend using the built-in FDE solutions for your operating system. For external drives, however, we still recommend [cross-platform tools](#multi-platform) for additional flexibility and to avoid vendor lock-in.
 
 Note the terms full *disk* encryption and full *volume* encryption are often used interchangeably.
 
