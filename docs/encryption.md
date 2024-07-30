@@ -163,7 +163,22 @@ While BitLocker is not officially supported on Windows Home, it can be enabled o
 - You must have a TPM (v1.2, 2.0+) and it must be enabled.
 - You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) if it is enabled.
 - This guide assumes your computer has a typical disk configuration. If you have a non-standard configuration, such as a dual-boot setup, you may want to avoid this workaround.
-- This guide also assumes your operating system drive letter is "**C**". If it is not, you may need to replace `c:` with the correct drive letter.
+If your computer has multiple drives, you will need to take a few extra steps to determine the correct drive letter, because it is **not** necessarily the same between when your operating system is booted and while in the recovery environment (see step 3 below).
+<details class="info" markdown>
+<summary>Determining the correct drive letter</summary>
+1. Run, and accept the elevation prompt:
+     ```powershell
+     diskpart
+     ```
+2. In the new window that appears, run:
+     ```powershell
+     list volume
+     ```
+     Remember the volume number your operating system boots on (check the "ltr" column).
+3. Follow the below instructions until and including step 3.
+4. Run the commands in the above steps 1 and 2 again.
+5. For steps 4-7 in the below instructions, use the drive letter that corresponds with the aforementioned volume number.
+</details>
 
 <hr>
 
