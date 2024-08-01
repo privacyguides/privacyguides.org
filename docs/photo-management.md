@@ -13,7 +13,7 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 ![Ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![Ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open-source, both on the client side and on the server side. It is [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). It underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023. The free trial offers 5GB of storage, for a year.
+**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open-source, both on the client side and on the server side. It is also [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). The free plan offers 5GB of storage as long as you use the service at least once a year.
 
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
@@ -35,6 +35,8 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 </details>
 
 </div>
+
+Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
 
 ## Stingle
 
@@ -95,7 +97,6 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 - Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - Must offer a web interface which supports basic file management functionality.
 - Must allow for easy exports of all files/documents.
-- Must use standard, audited encryption.
 - Must be open source.
 
 ### Best Case
