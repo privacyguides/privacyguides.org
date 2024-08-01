@@ -282,10 +282,10 @@ theme:
     - search.highlight
 
 extra_css:
-  - assets/stylesheets/extra.css?v=2
+  - assets/stylesheets/extra.css?v=20240801
 extra_javascript:
-  - assets/javascripts/randomize-element.js?v=1
-  - assets/javascripts/feedback.js?v=1
+  - assets/javascripts/randomize-element.js?v=20240801
+  - assets/javascripts/feedback.js?v=20240801
 
 watch:
   - theme

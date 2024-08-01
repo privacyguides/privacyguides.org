@@ -23,7 +23,7 @@
 {% extends "main.html" %}
 {% set homepage = config.extra.privacy_guides.homepage %}
 {% block extrahead %}
-  <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=20240501' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=20240801' | url }}">
   {% for feed in homepage.rss %}
     <link rel="alternate" type="application/rss+xml" title="{{ feed.title }}" href="{{ feed.link }}">
   {% endfor %}
@@ -56,7 +56,7 @@
         class="topics-list"
         data-forum="https://discuss.privacyguides.net"
         data-feed="https://discuss.privacyguides.net/top.json?period=weekly"
-        data-count="6">
+        data-count="3">
       </ul>
 
     </div>
