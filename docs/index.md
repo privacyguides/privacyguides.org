@@ -171,7 +171,7 @@ Established in 2021 due to the difficulty of finding unbiased reviewers in the V
 
 As seen in **WIRED**, **Tweakers.net**, **The New York Times**, and many other publications as a reliable source for privacy and security knowledge.
 
-[:material-information: More About Who We Are](about/index.md){ class="md-button md-button--primary" } [:material-email: Join our Newsletter](https://blog.privacyguides.org/#/portal/signup){ .md-button }
+[:material-information: More About Who We Are](about.md){ class="md-button md-button--primary" } [:material-email: Join our Newsletter](https://blog.privacyguides.org/#/portal/signup){ .md-button }
 
 <div class="grid" markdown>
 <div markdown>

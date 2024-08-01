@@ -137,13 +137,13 @@ In 2022, we completed the transition of our main website framework from Jekyll t
 
 We additionally launched our new discussion forum at [discuss.privacyguides.net](https://discuss.privacyguides.net) as a community platform to share ideas and ask questions about our mission. This augments our existing community on Matrix, and replaced our previous GitHub Discussions platform, decreasing our reliance on proprietary discussion platforms.
 
-In 2023, we launched international translations of our website in [French](/fr/), [Hebrew](/he/), [Dutch](/nl/), and more languages, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides). We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
+In 2023, we launched international translations of our website in [French](https://www.privacyguides.org/fr/), [Hebrew](https://www.privacyguides.org/he/), [Dutch](https://www.privacyguides.org/nl/), and more languages, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides). We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
 
 ## Site License
 
 <div class="admonition danger" markdown>
 
-The following is a human-readable summary of (and not a substitute for) the [license](/license).
+The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
 
 </div>
 

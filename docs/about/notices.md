@@ -16,7 +16,7 @@ Privacy Guides additionally does not warrant that this website will be constantl
 
 <div class="admonition danger" markdown>
 
-The following is a human-readable summary of (and not a substitute for) the [license](/license).
+The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
 
 </div>
 
