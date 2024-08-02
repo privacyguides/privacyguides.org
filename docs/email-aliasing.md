@@ -4,6 +4,11 @@ icon: material/email-lock
 description: An email aliasing service allows you to easily generate a new email address for every website you register for.
 cover: email-aliasing.webp
 ---
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information){ .pg-green }
+
 An **email aliasing service** allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your [email provider](email.md). True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like `yourname+[anythinghere]@example.com`, because websites, advertisers, and tracking networks can trivially remove anything after the `+` sign. Organizations like the [IAB](https://en.wikipedia.org/wiki/Interactive_Advertising_Bureau) require that advertisers [normalize email addresses](https://shkspr.mobi/blog/2023/01/the-iab-loves-tracking-users-but-it-hates-users-tracking-them) so that they can be correlated and tracked, regardless of users' privacy wishes.
 
 <div class="grid cards" markdown>
