@@ -69,6 +69,7 @@ jobs:
       lang: en
       continue-on-error: false
       privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
+      strict: true
 
   build_i18n:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build i18n') }}
@@ -84,6 +85,7 @@ jobs:
       lang: ${{ matrix.lang }}
       continue-on-error: true
       privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
+      strict: true
 
   combine_build:
     needs: [build_english, build_i18n]
