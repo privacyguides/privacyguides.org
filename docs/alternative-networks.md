@@ -4,7 +4,7 @@ icon: material/vector-polygon
 description: These tools allow you to access networks other than the World Wide Web.
 cover: alternative-networks.webp
 ---
-[:material-incognito:](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } [:material-server-network:](basics/common-threats.md#privacy-from-service-providers){ .pg-teal } [:material-eye-outline:](basics/common-threats.md#mass-surveillance-programs){ .pg-blue } [:material-account-cash:](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+[:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } [:material-server-network:](basics/common-threats.md#privacy-from-service-providers){ .pg-teal } [:material-eye-outline:](basics/common-threats.md#mass-surveillance-programs){ .pg-blue } [:material-account-cash:](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
 ## Anonymizing Networks
 
