@@ -22,6 +22,10 @@ Privacy Guides is a **non-profit** organization. We use donations for a variety 
 
 :   Traffic to this website uses hundreds of gigabytes of data per month, we use a variety of service providers to keep up with this traffic.
 
+**Payroll**
+
+:   We currently have one paid part-time [position](../about.md#staff) which handles day-to-day tasks like system administration, writing regular product reviews, posting our weekly show, creating course content, etc. In the future, we would like to be able to hire full-time journalists and writers to review products and create more educational content.
+
 **Domain Registrations**
 
 :   We have a few domain names like `privacyguides.org` which cost us around $10 yearly to maintain their registration.

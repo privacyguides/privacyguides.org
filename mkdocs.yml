@@ -446,6 +446,7 @@ nav:
       - "about/criteria.md"
       - "about/notices.md"
       - "about/privacy-policy.md"
+      - "about/jobs.md"
       - !ENV [NAV_COMMUNITY, "Community"]:
           - !ENV [NAV_ONLINE_SERVICES, "Online Services"]: "about/services.md"
           - !ENV [NAV_CODE_OF_CONDUCT, "Code of Conduct"]: "CODE_OF_CONDUCT.md"
