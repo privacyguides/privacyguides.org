@@ -282,7 +282,7 @@ theme:
     - search.highlight
 
 extra_css:
-  - assets/stylesheets/extra.css?v=20240801
+  - assets/stylesheets/extra.css?v=20240802
 extra_javascript:
   - assets/javascripts/randomize-element.js?v=20240801
   - assets/javascripts/feedback.js?v=20240801
