@@ -198,7 +198,7 @@ We recommend against installing third-party antivirus software as they typically
 
 ##### Backups
 
-macOS comes with automatic backup software called [Time Machine](https://support.apple.com/HT201250), so you can create encrypted backups to an external or network drive in the event of corrupted/deleted files.
+Since version 10.5 Leopard, macOS comes with an automatic backup software called [Time Machine](https://support.apple.com/HT201250), which means you can create encrypted backups to an external or network drive in the event of corrupted/deleted files.
 
 ### Hardware Security
 
