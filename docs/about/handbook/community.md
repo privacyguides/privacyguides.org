@@ -42,7 +42,7 @@ What is *less* important:
 2. Every post being perfectly on-topic
 3. Removal of duplicate posts
 
-These things are *good*, but they are not critical for our forum to function effectively. You are empowered to fix these things, but if you have any doubt that you are making the right changes it may be better if you hold off on doing so.
+These things are *good*, but they are not critical for our forum to function effectively. You are empowered to fix these things, but if you have any doubt that you are making the right changes it may be better if you hold off on doing so, or get a second opinion.
 
 Generally speaking, the forum is divided into two overarching sections:
 
@@ -52,6 +52,17 @@ Generally speaking, the forum is divided into two overarching sections:
 A good rule of thumb when deciding where a post should go is whether the post would really benefit from or require a response from the Privacy Guides team specifically. We treat [site development](https://discuss.privacyguides.net/c/site-development/7) posts as an issue tracker, and strive to respond to and eventually answer/resolve every post in those categories.
 
 General [privacy](https://discuss.privacyguides.net/c/privacy/4) discussions on the other hand can be responded to by *any* experts within the community, and may be more open-ended.
+
+### Low Effort Posts
+
+Posts which...
+
+- Duplicate an existing topic
+- Ask a vague, open-ended question without adding their own opinion to the discussion
+- Don't provide enough information to have a meaningful conversation
+- Discuss something completely off-topic for our community
+
+...can generally be [unlisted](#locking--unlisting-topics).
 
 ### Where Should Tool Discussions Go?
 
@@ -63,7 +74,7 @@ On the other hand, it is more appropriate to have general discussions about some
 
 For example, a post discussing the privacy problems and benefits of *Google Chrome* would not warrant a *Google Chrome* tool suggestion topic being made to fully evaluate it. Discussing privacy-relevant topics in non-private tools is on-topic for our general community, but does not necessitate any team feedback.
 
-Posts that ask open-ended questions about a tool, like "what do you think about the privacy of x?" can usually be closed, but consider our guidelines on [closing topics](#locking--unlisting-topics) below first. Particularly, keep in mind that if a significant discussion has already occurred, it may be best to leave it as-is. Oftentimes, you should ask the poster to consider posting it to tool suggestions alongside an explanation of why they're personally considering it in the first place, so that it can be properly evaluated by the community.
+Posts that ask open-ended questions about a tool without adding any opinions of their own, like simply "what do you think about the privacy of *x*?" can usually be closed as low-effort, but consider our guidelines on [closing topics](#locking--unlisting-topics) below first. Particularly, keep in mind that if a significant discussion has already occurred, it may be best to leave it as-is. Oftentimes, you should ask the poster to consider posting it to tool suggestions alongside an explanation of why they're personally considering it in the first place, so that it can be properly evaluated by the community.
 
 ### Question Posts
 
