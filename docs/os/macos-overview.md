@@ -224,6 +224,12 @@ If Hardened Runtime is enabled, you will see flags=0x10000(runtime). The "runtim
 
 You can enable a column in Activity Monitor called "Restricted" which is a flag that prevents programs from injecting code via macOS's [dynamic linker](https://pewpewthespells.com/blog/blocking_code_injection_on_ios_and_os_x.html). Ideally, this should say "Yes".
 
+##### Notarization
+
+Developers can get their apps [notarized](https://developer.apple.com/documentation/security/notarizing_macos_software_before_distribution) by Apple. Apps that are notarized are required to be signed and must use the hardened runtime. Apple scans apps for malware during the notarization process.
+
+You can tell an app is notarized by trying to run it. If it hasn't been notarized, Gatekeeper will stop you. This can be bypassed by control + clicking the app, which will give you a new option to run it. For added security, avoid non-notarized apps whenever possible.
+
 ##### Antivirus
 
 macOS comes with two forms of malware defense:
