@@ -445,11 +445,13 @@ nav:
       - "about/criteria.md"
       - "about/notices.md"
       - "about/privacy-policy.md"
+      - "about/volunteer.md"
       - !ENV [NAV_HANDBOOK, "Handbook"]:
           - "about/handbook/intro.md"
           - "about/handbook/guidelines.md"
           - "about/handbook/community.md"
           - "about/handbook/reviews.md"
+          - "about/handbook/resources.md"
       - !ENV [NAV_COMMUNITY, "Community"]:
           - !ENV [NAV_ONLINE_SERVICES, "Online Services"]: "about/services.md"
           - !ENV [NAV_CODE_OF_CONDUCT, "Code of Conduct"]: "CODE_OF_CONDUCT.md"

@@ -2,7 +2,11 @@
 title: Git Reviews
 ---
 
-All changes to *privacyguides.org* are required to be reviewed and approved by **2** trusted team members.
+Anyone who is interested in helping us out is encouraged to leave reviews on GitHub, even if you are not a trusted reviewer yet. We primarily invite new reviewers based on a history of constructive *Requests for Changes* and appropriate *Approvals*.
+
+[:material-github: How to Review a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request){ .md-button .md-button--primary }
+
+All changes to *privacyguides.org* are required to be reviewed and approved by **2** trusted reviewers, which is anyone granted write access to the repository.
 
 ## Basic Principles
 
