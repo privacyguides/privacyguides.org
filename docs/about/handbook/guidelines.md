@@ -60,7 +60,7 @@ We strongly encourage developers to use our forum to highlight their own work in
 
 ### Website Reviewers
 
-==If you have a conflict of interest, you should not mark Pull Requests related to that interest as *Approved*.==
+==If you have a conflict of interest, you may not mark Pull Requests related to that interest as *Approved*.==
 
 You may leave comments if needed, but ideally you should have no involvement with the Pull Request at all. If you leave a comment or request changes, you must disclose your conflict of interest as usual. Please respect other reviewers by keeping your comments concise.
 
