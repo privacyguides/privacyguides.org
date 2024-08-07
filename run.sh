@@ -131,6 +131,7 @@ markdown_extensions:
       exclude:
         - index.md
         - tools.md
+        - about/handbook/*
     targets:
       exclude:
         - about/contributors.md
