@@ -181,10 +181,34 @@ macOS apps submitted to the App Store after June 1, 2012 are required to be sand
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Software downloaded from outside the official App Store is not required to be sandboxed. You should avoid non-App Store software as much as possible.
+Software downloaded from outside the official App Store is not required to be sandboxed.
 
 </div>
 
+You can check if an app uses the App Sandbox in a few ways:
+
+You can check if apps that are already running are sandboxed using the [Activity Monitor](https://developer.apple.com/documentation/security/app_sandbox/protecting_user_data_with_app_sandbox#4098972).
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+Just because one of an app's processes is sandboxed doesn't mean they all are.
+
+</div>
+
+You can check apps before you run them with the command
+
+``` zsh
+% codesign -dvvv --entitlements - <path to your app>
+```
+
+If an app is sandboxed, you should see
+
+``` zsh
+    [Key] com.apple.security.app-sandbox
+    [Value]
+        [Bool] true
+```
 ##### Antivirus
 
 macOS comes with two forms of malware defense:
