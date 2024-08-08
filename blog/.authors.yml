@@ -1,0 +1,51 @@
+authors:
+  contributors:
+    type: Organization
+    name: Privacy Guides
+    description: Various Authors
+    avatar: https://github.com/privacyguides.png
+  danarel:
+    name: Dan Arel
+    description: Former Team Member
+    avatar: https://github.com/danarel.png
+  niek-de-wilde:
+    name: Niek de Wilde
+    description: Team Member
+    avatar: https://github.com/blacklight447.png
+  dngray:
+    name: Daniel Gray
+    description: Team Member
+    avatar: https://github.com/dngray.png
+  freddy-m:
+    name: Freddy
+    description: Team Member
+    avatar: https://github.com/freddy-m.png
+    description_long: |
+      <a href="https://freddy.lol">Freddy</a> is a founding member of Privacy Guides and the editor of its blog. He writes in American English reluctantly.
+  jonah:
+    name: Jonah Aragon
+    description: Team Member
+    avatar: https://github.com/jonaharagon.png
+    description_long: |
+      <a href="https://www.jonaharagon.com">Jonah Aragon</a> is creating educational resources for average people to understand the importance of privacy and security on the internet, and take back control over their digital lives.
+      He is known for his work on the Techlore YouTube channel, including the Techlore Talks podcast he co-hosts, and the Privacy Guides non-profit website.
+  kaitebay:
+    name: Kai Tebay
+    description: Former Team Member
+    avatar: https://github.com/kaitebay.png
+  matchboxbananasynergy:
+    name: mbananasynergy
+    description: Former Team Member
+    avatar: https://github.com/matchboxbananasynergy.png
+  mfwmyfacewhen:
+    name: mfwmyfacewhen
+    description: Former Team Member
+    avatar: https://github.com/ghost.png
+  natebartram:
+    name: Nate Bartram
+    description: Guest Contributor
+    avatar: https://gitlab.com/uploads/-/system/user/avatar/8993331/avatar.png
+  sam-howell:
+    name: Sam Howell
+    description: Guest Contributor
+    avatar: https://gitlab.com/uploads/-/system/user/avatar/5349522/avatar.png

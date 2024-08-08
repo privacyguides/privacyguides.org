@@ -438,6 +438,7 @@ nav:
       - !ENV [NAV_ADVANCED, "Advanced"]:
           - "alternative-networks.md"
           - "device-integrity.md"
+  - !ENV [NAV_BLOG, "Articles"]: "/articles/"
   - !ENV [NAV_ABOUT, "About"]:
       - "about.md"
       - "about/donate.md"
@@ -464,7 +465,6 @@ nav:
   - !ENV [NAV_CHANGELOG, "Changelog"]:
       "https://github.com/privacyguides/privacyguides.org/releases"
   - !ENV [NAV_FORUM, "Forum"]: "https://discuss.privacyguides.net/"
-  - !ENV [NAV_BLOG, "Blog"]: "https://blog.privacyguides.org/"
 
 validation:
   nav:
