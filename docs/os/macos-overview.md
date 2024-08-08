@@ -212,8 +212,6 @@ If an app is sandboxed, you should see
         [Bool] true
 ```
 
-For the best security, avoid unsandnboxed apps.
-
 ##### Hardened Runtime
 
 The [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) is an extra protection for apps that prevents certain classes of exploits.
@@ -227,8 +225,6 @@ codesign --display --verbose /path/to/bundle.app
 If Hardened Runtime is enabled, you will see flags=0x10000(runtime). The "runtime" means Hardened Runtime is enabled. There might be other flags, but the runtime flag is what we're looking for here.
 
 You can enable a column in Activity Monitor called "Restricted" which is a flag that prevents programs from injecting code via macOS's [dynamic linker](https://pewpewthespells.com/blog/blocking_code_injection_on_ios_and_os_x.html). Ideally, this should say "Yes".
-
-For the best security, avoid apps that don't enable the Hardened Runtime.
 
 ##### Notarization
 
