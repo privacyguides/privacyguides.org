@@ -391,6 +391,9 @@ nav:
           - !ENV [NAV_OPERATING_SYSTEMS_WINDOWS, "Windows"]:
               - "os/windows/index.md"
               - "os/windows/group-policies.md"
+              - "os/windows/privacy.md"
+              - "os/windows/hardening.md"
+              - "os/windows/sandboxing.md"
   - !ENV [NAV_RECOMMENDATIONS, "Recommendations"]:
       - "tools.md"
       - !ENV [NAV_INTERNET_BROWSING, "Internet Browsing"]:
