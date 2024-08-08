@@ -9,7 +9,7 @@ description: Privacy Guides is the most transparent and reliable website for fin
 
 If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
 
-[VPN Software](vpn.md){ .md-button }
+[VPN Providers](vpn.md){ .md-button }
 [Password Managers](passwords.md){ .md-button }
 [Email Providers](email.md){ .md-button }
 [Browser Extensions](browser-extensions.md){ .md-button }
@@ -144,7 +144,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    - [x] **91+ Countries**
+    - [x] **112+ Countries**
     - [x] WireGuard Support
     - [x] Cash Payments
     - [x] Partial Port Forwarding Support
@@ -168,7 +168,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    - [x] **41+ Countries**
+    - [x] **45+ Countries**
     - [x] WireGuard Support
     - [x] Monero & Cash Payments
     - [ ] No Port Forwarding
