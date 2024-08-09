@@ -212,6 +212,7 @@ If an app is sandboxed, you should see
         [Bool] true
 ```
 
+If you find that the app you want to run is not sandboxed, then you may employ methods of [compartmentalization](../basics/common-threats.md#security-and-privacy) such as virtual machines or separate devices, use a similar app that is sandboxed, or choose to not use the unsandboxed app altogether.
 ##### Hardened Runtime
 
 The [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) is an extra protection for apps that prevents certain classes of exploits. It improves the security of apps against exploitation by disabling certain features like JIT.
