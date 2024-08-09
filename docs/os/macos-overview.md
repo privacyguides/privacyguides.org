@@ -198,7 +198,7 @@ Just because one of an app's processes is sandboxed doesn't mean they all are.
 
 </div>
 
-You can check apps before you run them with the command
+Alternatively, you can check apps before you run them by running this command in the terminal:
 
 ``` zsh
 % codesign -dvvv --entitlements - <path to your app>
