@@ -151,6 +151,8 @@ A **news aggregator** is software which aggregates digital content from online n
 
 </div>
 
+If you decide to use Newsboat as your news aggregator, we recommend you reading the [Arch Wiki page](https://wiki.archlinux.org/title/Newsboat) about Newsboat as it contains a lot of information about how to use it, customize it and even some tips to use Newsboat efficiently.
+
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
