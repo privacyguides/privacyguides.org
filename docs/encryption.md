@@ -124,10 +124,10 @@ BitLocker can be managed through the Control Panel: in the search box on the tas
 
 To learn more about BitLocker and TPM, see "[Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection)" by ElcomSoft, a forensics company.
 
-In addition to the TPM, BitLocker can lock the normal startup process until the user supplies a pin or inserts a USB flash drive containing a startup key. Pre-boot authentication is designed to prevent the encryption keys from being loaded to system memory without the trusted user supplying another authentication factor. This feature helps mitigate direct memory access and memory remanence attacks.
+In addition to the TPM, BitLocker can lock the normal startup process until the user supplies a PIN or inserts a USB flash drive containing a startup key. Pre-boot authentication is designed to prevent the encryption keys from being loaded to system memory without the trusted user supplying another authentication factor. This feature helps mitigate direct memory access and memory remanence attacks.
 
 <details class="tip" markdown>
-<summary>Enabling preboot authentication</summary>
+<summary>Enabling pre-boot authentication</summary>
 
 1. Enable BitLocker on your operating system drive.
 2. Allow for pre-boot authentication:
@@ -146,7 +146,7 @@ In addition to the TPM, BitLocker can lock the normal startup process until the 
     2. Check whether "**TPM and PIN**" is listed under "**Key Protectors**."
 
 - You can change your preboot pin at any time by running: `manage-bde -changepin c:`, again, replacing `c:` with the drive letter of your operating system drive.
-- To remove the preboot pin:
+- To remove the pre-boot pin:
     1. Configure the Group Policy "**Configure TPM Startup PIN**" back to "**Allow Startup PIN With TPM**".
     2. Run: `manage-bde -protectors -add c: -TPM`.
 
