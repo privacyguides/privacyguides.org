@@ -236,6 +236,10 @@ details[class="downloads annotate"] > p .md-annotation span span::before {
   .downloads > ul {
     grid-template-columns: repeat(2, 1fr);
   }
+  .all-contributors-table tbody td {
+    display: block;
+    width: 100%;
+  }
 }
 
 /* Card links */
@@ -279,32 +283,31 @@ details[class="downloads annotate"] > p .md-annotation span span::before {
 
 /* Badge colors */
 .pg-purple {
-    color: var(--pg-purple);
+    color: var(--pg-purple)!important;
 }
 .pg-red {
-    color: var(--pg-red);
+    color: var(--pg-red)!important;
 }
 .pg-orange {
-    color: var(--pg-orange);
+    color: var(--pg-orange)!important;
 }
 .pg-teal {
-    color: var(--pg-teal);
+    color: var(--pg-teal)!important;
 }
 .pg-brown {
-    color: var(--pg-brown);
+    color: var(--pg-brown)!important;
 }
 .pg-blue {
-    color: var(--pg-blue);
+    color: var(--pg-blue)!important;
 }
 .pg-green {
-    color: var(--pg-green);
+    color: var(--pg-green)!important;
 }
 .pg-blue-gray {
-    color: var(--pg-blue-gray);
+    color: var(--pg-blue-gray)!important;
 }
-
 .pg-viridian {
-    color: var(--pg-viridian);
+    color: var(--pg-viridian)!important;
 }
 
 /* Make header icons smaller */

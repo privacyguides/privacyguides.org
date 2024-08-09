@@ -48,7 +48,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://onionshare.org/#download)
+- [:fontawesome-brands-windows: Windows](https://onionshare.org/#download)
 - [:simple-apple: macOS](https://onionshare.org/#download)
 - [:simple-linux: Linux](https://onionshare.org/#download)
 
@@ -87,7 +87,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
+![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ align=right }
 
 **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
 
@@ -103,7 +103,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
 - [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-- [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
+- [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
 - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
 - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
 
@@ -135,7 +135,7 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
-- [:simple-windows11: Windows](https://syncthing.net/downloads)
+- [:fontawesome-brands-windows: Windows](https://syncthing.net/downloads)
 - [:simple-apple: macOS](https://syncthing.net/downloads)
 - [:simple-linux: Linux](https://syncthing.net/downloads)
 - [:simple-freebsd: FreeBSD](https://syncthing.net/downloads)
