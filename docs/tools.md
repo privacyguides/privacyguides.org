@@ -76,6 +76,14 @@ For more details about each project, why they were chosen, and additional tips o
     - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
     - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
 
+- ![Cromite logo](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite**
+
+    ---
+
+    **Cromite** is a Chromium fork with ad blocking and [privacy enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md).
+
+    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#cromite)
+
 - ![Mull logo](assets/img/browsers/mull.svg){ .lg .middle .twemoji } **Mull (Android)**
 
     ---
