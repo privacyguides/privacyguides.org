@@ -464,8 +464,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/161974310?v=4",
       "profile": "https://github.com/redoomed1",
       "contributions": [
-        "doc",
-        "review"
+        "review",
+        "doc"
       ]
     },
     {
@@ -1598,7 +1598,8 @@
         "doc",
         "research",
         "promotion",
-        "question"
+        "question",
+        "review"
       ]
     },
     {
@@ -2760,6 +2761,96 @@
       "name": "backstab5983",
       "avatar_url": "https://avatars.githubusercontent.com/u/21013752?v=4",
       "profile": "https://github.com/backstab5983",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "antgig",
+      "name": "antgig",
+      "avatar_url": "https://avatars.githubusercontent.com/u/144840521?v=4",
+      "profile": "https://github.com/antgig",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "akosnikhazy",
+      "name": "Ákos Nikházy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/604311?v=4",
+      "profile": "https://yzahk.in/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "fmarier",
+      "name": "Francois Marier",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167821?v=4",
+      "profile": "https://fmarier.org/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "5-tom",
+      "name": "5-tom",
+      "avatar_url": "https://avatars.githubusercontent.com/u/132141431?v=4",
+      "profile": "https://filmsbytom.com/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Ralphie0511",
+      "name": "Ralphie0511",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99518791?v=4",
+      "profile": "https://github.com/Ralphie0511",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "aleksejs1",
+      "name": "aleksejs1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5563309?v=4",
+      "profile": "https://kovalovs.lv/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "snwfdhmp",
+      "name": "Martin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23099246?v=4",
+      "profile": "https://github.com/snwfdhmp",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "overwatcheddude",
+      "name": "Overwatch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37483931?v=4",
+      "profile": "https://github.com/overwatcheddude",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "m00t316",
+      "name": "Kieran Colfer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54213179?v=4",
+      "profile": "https://github.com/m00t316",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "I-I-IT",
+      "name": "Triple T",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78900789?v=4",
+      "profile": "https://github.com/I-I-IT",
       "contributions": [
         "doc"
       ]

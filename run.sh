@@ -84,7 +84,7 @@ if [ "$language" != "en" ]; then
   export BUILD_DOCS_DIR="i18n/$language"
   export BUILD_EDIT_URI_TEMPLATE="https://github.com/privacyguides/i18n/blob/main/i18n/$language/{path}?plain=1"
   export BUILD_SITE_DIR="site/$language"
-  export BUILD_SITE_URL="https://privacyguides.org/$language"
+  export BUILD_SITE_URL="https://www.privacyguides.org/$language"
   export BUILD_THEME_LANGUAGE="$language"
 fi
 
@@ -129,6 +129,7 @@ markdown_extensions:
   material.extensions.preview:
     sources:
       exclude:
+        - index.md
         - tools.md
     targets:
       exclude:
