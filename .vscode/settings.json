@@ -1,0 +1,51 @@
+// Copyright (c) 2024 Jonah Aragon <jonah@triplebit.net>
+
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to
+// deal in the Software without restriction, including without limitation the
+// rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+// sell copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+// FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+// IN THE SOFTWARE.
+
+{
+    "git.ignoreLimitWarning": true,
+    "ltex.diagnosticSeverity": "hint",
+    "editor.unicodeHighlight.ambiguousCharacters": true,
+    "editor.unicodeHighlight.invisibleCharacters": true,
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "[yaml]": {
+      "editor.defaultFormatter": "redhat.vscode-yaml",
+      "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+      }
+    },
+    "yaml.schemas": {
+      "https://raw.githubusercontent.com/DavidAnson/markdownlint/main/schema/markdownlint-config-schema.json": ".markdownlint.yml",
+      "https://json.schemastore.org/github-issue-config.json": ".github/ISSUE_TEMPLATE/config.yml",
+      ".vscode/.empty-schema.json": "config/*.yml"
+    },
+    "yaml.customTags": [
+      "!ENV sequence",
+      "!ENV",
+      "tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format",
+      "tag:yaml.org,2002:python/name:material.extensions.emoji.twemoji",
+      "tag:yaml.org,2002:python/name:material.extensions.emoji.to_svg"
+    ],
+    "editor.formatOnSave": true,
+    "[github-actions-workflow]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

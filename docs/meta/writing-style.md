@@ -4,11 +4,11 @@ title: Writing Style
 
 Privacy Guides is written in American English, and you should refer to [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) when in doubt.
 
-In general the [United States federal plain language guidelines](https://www.plainlanguage.gov/guidelines/) provide a good overview of how to write clearly and concisely. We highlight a few important notes from these guidelines below.
+In general the [United States federal plain language guidelines](https://plainlanguage.gov/guidelines) provide a good overview of how to write clearly and concisely. We highlight a few important notes from these guidelines below.
 
 ## Writing for our audience
 
-Privacy Guides' intended [audience](https://www.plainlanguage.gov/guidelines/audience/) is primarily average, technology using adults. Don't dumb down content as if you are addressing a middle-school class, but don't overuse complicated terminology about concepts average computer users wouldn't be familiar with.
+Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily average, technology using adults. Don't dumb down content as if you are addressing a middle-school class, but don't overuse complicated terminology about concepts average computer users wouldn't be familiar with.
 
 ### Address only what people want to know
 
@@ -24,7 +24,7 @@ We're writing *for* a wide variety of people, but we are writing *to* the person
 >
 > When you use “you” to address users, they are more likely to understand what their responsibility is.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user)
 
 ### Avoid "users"
 
@@ -37,7 +37,7 @@ Organization is key. Content should flow from most to least important informatio
 - Limit the document to around five or six sections. Long documents should probably be broken up into separate pages.
 - Mark important ideas with **bold** or *italics*.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/design)
 
 ### Begin with a topic sentence
 
@@ -45,7 +45,7 @@ Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
 >
 > We often write the way we think, putting our premises first and then our conclusion. It may be the natural way to develop thoughts, but we wind up with the topic sentence at the end of the paragraph. Move it up front and let users know where you’re going. Don’t make readers hold a lot of information in their heads before getting to the point.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a-topic-sentence)
 
 ## Choose your words carefully
 
@@ -65,7 +65,7 @@ We should try to avoid abbreviations where possible, but technology is full of a
 
 > Unnecessary words waste your audience’s time. Great writing is like a conversation. Omit information that the audience doesn’t need to know. This can be difficult as a subject matter expert so it’s important to have someone look at the information from the audience’s perspective.
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 
 ## Keep text conversational
 
@@ -77,7 +77,7 @@ Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
 > Active voice makes it clear who is supposed to do what. It eliminates ambiguity about responsibilities. Not “It must be done,” but “You must do it.”
 
-Source: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/conversational/use-active-voice)
 
 ### Use "must" for requirements
 

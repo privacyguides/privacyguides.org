@@ -10,16 +10,19 @@ Privacy is ultimately about human information, and this is important because we 
 
 Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
 
+<!-- markdownlint-disable-next-line -->
 **Privacy**
 
 :   ==Privacy is the assurance that your data is only seen by the parties you intend to view it.== In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
 
+<!-- markdownlint-disable-next-line -->
 **Security**
 
 :   Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
 
 :   Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
 
+<!-- markdownlint-disable-next-line -->
 **Anonymity**
 
 :   Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
@@ -48,6 +51,6 @@ Privacy is something we need to have baked into the [software and services](../t
 
 ## Sources
 
-- [Why Privacy Matters](https://www.amazon.com/Why-Privacy-Matters-Neil-Richards/dp/0190939044) (2021) by Neil Richards
-- [The New Oil: Why Privacy & Security Matter](https://thenewoil.org/en/guides/prologue/why/)
+- [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) by Neil Richards
+- [The New Oil: Why Privacy & Security Matter](https://thenewoil.org/en/guides/prologue/why)
 - [@Thorin-Oakenpants on Anonymity vs Privacy vs Security](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)

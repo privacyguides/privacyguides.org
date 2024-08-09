@@ -54,6 +54,9 @@
     {% endif %}
     <link rel="icon" href="{{ config.theme.favicon | url }}">
     <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-material-9.1.0+insiders-4.32.2">
+    {% if page %}
+    <meta name="global-data" id="global-data" {% for data in page.meta.global %}data-{{ data.0 }}="{{data.1}}"{% endfor %}>
+    {% endif %}
 {% endblock %}
 {% block htmltitle %}
     {% if page.meta and page.meta.meta_title and config.theme.language == "en" %}
@@ -66,104 +69,25 @@
     <title>{{ config.site_name }}</title>
     {% endif %}
 {% endblock %}
-{% block announce %}{% if config.extra.offline %}
-    You're viewing an offline copy of Privacy Guides built on {{ build_date_utc }}.
-    <a href="https://www.privacyguides.org/"> 
-    <strong>Visit privacyguides.org for the latest version.</strong>
-    </a>
-{% elif config.extra.context == "deploy-preview" %}
-    You're viewing an <strong>unreviewed preview</strong> of Privacy Guides built on {{ build_date_utc }}.
-    These previews are <strong>user-submitted</strong> and may not necessarily reflect the opinion of the site.
-    <a href="https://www.privacyguides.org/"> 
-    <strong>Visit privacyguides.org for current advice.</strong>
-    </a>
-{% elif config.extra.context == "branch-deploy" %}
-    You're viewing a <strong>staging branch</strong> of Privacy Guides built on {{ build_date_utc }}.
-    The information on this page may be incomplete or otherwise not yet meet our editorial release standards.
-    <a href="https://www.privacyguides.org/"> 
-    <strong>Visit privacyguides.org for current advice.</strong>
-    </a>
-{% else %}{% endif %}{% endblock %}
+
 {% block extrahead %}
-<meta name="robots" content="max-snippet:-1, max-image-preview:large">
-{% if config.extra.context == "production" %}
-<meta http-equiv="onion-location" content="{{ "http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/" ~ config.theme.language ~ "/" ~ page.url }}" />
-{% elif config.extra.deploy %}
-<meta http-equiv="onion-location" content="{{ "http://" ~ config.extra.deploy ~ ".netlify.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/" ~ config.theme.language ~ "/" ~ page.url }}" />
-{% endif %}
-{% if page and page.meta and page.meta.schema %}
-<script type="application/ld+json">
-{{ page.meta.schema|tojson }}
-</script>
-{% endif %}{% endblock %}
-{% block content %}
-    {% if page and page.meta and page.meta.cover %}
-    <div class="center-cropped" style="background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/en/assets/img/cover/{{ page.meta.cover }}');">
-        <h1>{{ page.title | d(config.site_name, true)}}</h1>
-        <img src="/en/assets/img/cover/{{ page.meta.cover }}" alt="{{ page.title | d(config.site_name, true)}} cover image" title="{{ page.title | d(config.site_name, true)}}">
-    </div>
-    {% endif %}
-    {% if "material/tags" in config.plugins %}
-    {% include "partials/tags.html" %}
-    {% endif %}
-    {% include "partials/actions.html" %}
-    {% if "\x3ch1" not in page.content and not page.meta.cover %}
-    <h1>{{ page.title | d(config.site_name, true)}}</h1>
-    {% endif %}
-    {{ page.content }}
-    {% include "partials/source-file.html" %}
 
-    {% if config.theme.language == "en" %}
-    <hr>
-    <h2>Share this website and spread privacy knowledge</h2>
-    <p><input class="admonition quote social-share-text" id="share" type="text" value="Privacy Guides: https://www.privacyguides.org - Cybersecurity resources and privacy-focused tools to protect yourself online" onclick="select()" readonly=""></p>
-    <p><em>Copy this text to easily share Privacy Guides with your friends and family on any social network!</em></p>
-    <p>
-        <a class="card-link" href="http://twitter.com/intent/tweet?text=Privacy%20Guides%3A%20https%3A%2F%2Fwww.privacyguides.org%20-%20Cybersecurity%20resources%20and%20privacy-focused%20tools%20to%20protect%20yourself%20online.%20%40privacy_guides" target="_blank" title="Share the site on X (formerly Twitter)" rel="noopener"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"></path></svg></span></a>
-        <a class="card-link" href="http://www.reddit.com/submit?url=https%3A%2F%2Fwww.privacyguides.org" target="_blank" title="Share the site on Reddit" rel="noopener"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"></path></svg></span></a>
-        <a class="card-link" href="http://www.facebook.com/share.php?u=https%3A%2F%2Fwww.privacyguides.org" target="_blank" rel="noopener" title="Share the site on Facebook"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></span></a>
-        <a class="card-link" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.privacyguides.org" target="_blank" title="Share the site on LinkedIn" rel="noopener"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg></span></a>
-        <a class="card-link" href="https://mastodon.neat.computer/@privacyguides" title="Follow us on Mastodon"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"></path></svg></span></a>
-        <a class="card-link" href="https://matrix.to/#/#privacyguides:matrix.org" title="Chat with us on Matrix"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M.632.55v22.9H2.28V24H0V0h2.28v.55zm7.043 7.26v1.157h.033a3.312 3.312 0 0 1 1.117-1.024c.433-.245.936-.365 1.5-.365.54 0 1.033.107 1.481.314.448.208.785.582 1.02 1.108.254-.374.6-.706 1.034-.992.434-.287.95-.43 1.546-.43.453 0 .872.056 1.26.167.388.11.716.286.993.53.276.245.489.559.646.951.152.392.23.863.23 1.417v5.728h-2.349V11.52c0-.286-.01-.559-.032-.812a1.755 1.755 0 0 0-.18-.66 1.106 1.106 0 0 0-.438-.448c-.194-.11-.457-.166-.785-.166-.332 0-.6.064-.803.189a1.38 1.38 0 0 0-.48.499 1.946 1.946 0 0 0-.231.696 5.56 5.56 0 0 0-.06.785v4.768h-2.35v-4.8c0-.254-.004-.503-.018-.752a2.074 2.074 0 0 0-.143-.688 1.052 1.052 0 0 0-.415-.503c-.194-.125-.476-.19-.854-.19-.111 0-.259.024-.439.074-.18.051-.36.143-.53.282a1.637 1.637 0 0 0-.439.595c-.12.259-.18.6-.18 1.02v4.966H5.46V7.81zm15.693 15.64V.55H21.72V0H24v24h-2.28v-.55z"></path></svg></span></a>
-        <a class="card-link" href="https://discuss.privacyguides.net/" title="Join our Forum"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.103 0C18.666 0 24 5.485 24 11.997c0 6.51-5.33 11.99-11.9 11.99L0 24V11.79C0 5.28 5.532 0 12.103 0zm.116 4.563a7.395 7.395 0 0 0-6.337 3.57 7.247 7.247 0 0 0-.148 7.22L4.4 19.61l4.794-1.074a7.424 7.424 0 0 0 8.136-1.39 7.256 7.256 0 0 0 1.737-7.997 7.375 7.375 0 0 0-6.84-4.585h-.008z"></path></svg></span></a>
-        <a class="card-link" href="https://blog.privacyguides.org" title="Follow our blog for updates"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415a3.3 3.3 0 0 1 3.293 3.295A3.303 3.303 0 0 1 3.283 24C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91z"></path></svg></span></a>
-    </p>
-    {% elif config.theme.language == "es" %}
-    <div class="admonition info">
-    <p>Está viendo la copia en español de Privacy Guides, traducidas por nuestro fantástico equipo lingüístico en <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. Si nota un error o ve alguna sección sin traducir en esta página, ¡<a href="https://matrix.to/#/#pg-i18n:aragon.sh">considere ayudar</a>! Para obtener más información y consejos, consulte nuestra <a href="/meta/translation.md">guía de traducción</a>.</p>
-    <p>You're viewing the Spanish copy of Privacy Guides, translated by our fantastic language team on <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. If you notice an error, or see any untranslated sections on this page, please consider <a href="https://matrix.to/#/#pg-i18n:aragon.sh">helping out</a>! For more information and tips see our <a href="/meta/translation.md">translation guide</a>.</p>
-    </div>
-    {% elif config.theme.language == "fr" %}
-    <div class="admonition info">
-    <p>Vous êtes en train de consulter la copie française de Privacy Guides, traduite par notre fantastique équipe de traducteurs sur <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. Si vous remarquez une erreur, ou si vous voyez des sections non traduites sur cette page, <a href="https://matrix.to/#/#pg-i18n:aragon.sh">n'hésitez pas à nous aider</a>! Pour plus d'informations et de conseils, consultez notre <a href="/meta/translation.md">guide de traduction</a>.</p>
-    <p>You're viewing the French copy of Privacy Guides, translated by our fantastic language team on <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. If you notice an error, or see any untranslated sections on this page, please consider <a href="https://matrix.to/#/#pg-i18n:aragon.sh">helping out</a>! For more information and tips see our <a href="/meta/translation.md">translation guide</a>.</p>
-    </div>
-    {% elif config.theme.language == "he" %}
-    <div class="admonition info">
-    <p>אתה צופה בעותק העברי של Privacy Guides, שתורגם על ידי צוות השפה הפנטסטי שלנו ב-<a href="https://crowdin.com/project/privacyguides">Crowdin</a>. אם אתה מבחין בשגיאה, או רואה קטעים לא מתורגמים בדף זה, <a href="https://matrix.to/#/#pg-i18n:aragon.sh">אנא שקול לעזור</a>! למידע נוסף וטיפים עיין ב<a href="/meta/translation.md">מדריך התרגום שלנו</a>. </p>
-    <p>You're viewing the Hebrew copy of Privacy Guides, translated by our fantastic language team on <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. If you notice an error, or see any untranslated sections on this page, please consider <a href="https://matrix.to/#/#pg-i18n:aragon.sh">helping out</a>! For more information and tips see our <a href="/meta/translation.md">translation guide</a>.</p>
-    </div>
-    {% elif config.theme.language == "it" %}
-    <div class="admonition info">
-    <p>Stai visualizzando la versione italiana di Privacy Guides, tradotta dal nostro fantastico team linguistico su <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. Se noti un errore o vedi sezioni non tradotte in questa pagina, ti invitiamo a <a href="https://matrix.to/#/#pg-i18n:aragon.sh">dare una mano</a>! Per ulteriori informazioni e consigli consulta la <a href="/meta/translation.md">nostra guida alla traduzione</a>.</p>
-    <p>You're viewing the Italian copy of Privacy Guides, translated by our fantastic language team on <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. If you notice an error, or see any untranslated sections on this page, please consider <a href="https://matrix.to/#/#pg-i18n:aragon.sh">helping out</a>! For more information and tips see our <a href="/meta/translation.md">translation guide</a>.</p>
-    </div>
-    {% elif config.theme.language == "nl" %}
-    <div class="admonition info">
-    <p>Je bekijkt de Nederlandse versie van Privacy Guides, vertaald door ons fantastische taalteam op <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. Als u een fout opmerkt of onvertaalde gedeelten op deze pagina ziet, <a href="https://matrix.to/#/#pg-i18n:aragon.sh">overweeg dan om te helpen</a>! Voor meer informatie en tips zie onze <a href="/meta/translation.md">vertaalgids</a>.</p>
-    <p>You're viewing the Dutch copy of Privacy Guides, translated by our fantastic language team on <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. If you notice an error, or see any untranslated sections on this page, please consider <a href="https://matrix.to/#/#pg-i18n:aragon.sh">helping out</a>! For more information and tips see our <a href="/meta/translation.md">translation guide</a>.</p>
-    </div>
-    {% elif config.theme.language == "zh-Hant" %}
-    <div class="admonition info">
-    <p><a href="https://crowdin.com/project/privacyguides">您正在查看由我們在Crowdin上出色的語言團隊翻譯的《隱私指南》英文版。</a>如果您發現錯誤，或在此頁面上看到任何未翻譯的部分，<a href="https://matrix.to/#/#pg-i18n:aragon.sh">請考慮提供幫助</a>！有關更多信息和提示，請參閱我們的<a href="/meta/translation.md">翻譯指南</a>.</p>
-    <p>You're viewing the Chinese (Traditional) copy of Privacy Guides, translated by our fantastic language team on <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. If you notice an error, or see any untranslated sections on this page, please consider <a href="https://matrix.to/#/#pg-i18n:aragon.sh">helping out</a>! For more information and tips see our <a href="/meta/translation.md">translation guide</a>.</p>
-    {% elif config.theme.language == "ru" %}
-    <div class="admonition info">
-    <p>Вы просматриваете русскую копию Privacy Guides, переведённую нашей невероятной командой переводчиков на <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. Если вы нашли ошибку или непереведённые разделы на этой странице, пожалуйста, <a href="https://matrix.to/#/#pg-i18n:aragon.sh">помогите нам</a>! Для получения дополнительной информации и советов см. наше <a href="/meta/translation.md">руководство по переводу</a>.</p>
-    <p>You're viewing the Russian copy of Privacy Guides, translated by our fantastic language team on <a href="https://crowdin.com/project/privacyguides">Crowdin</a>. If you notice an error, or see any untranslated sections on this page, please consider <a href="https://matrix.to/#/#pg-i18n:aragon.sh">helping out</a>! For more information and tips see our <a href="/meta/translation.md">translation guide</a>.</p>
-    </div>
-    {% endif %}
+  <!-- language-specific stylesheets -->
+  {% if config.extra.privacy_guides.translation_stylesheet %}
+  <link rel="stylesheet" href="{{ config.extra.privacy_guides.translation_stylesheet | url }}" />
+  {% endif %}
 
-    {% include "partials/feedback.html" %}
-    {% include "partials/comments.html" %}
+  <meta name="robots" content="max-snippet:-1, max-image-preview:large">
+  <meta name="fediverse:creator" content="privacyguides@neat.computer" />
+
+  {% if config.extra.context == "production" %}
+  <meta http-equiv="onion-location" content="{{ "http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/" ~ config.theme.language ~ "/" ~ page.url }}" />
+  {% elif config.extra.deploy %}
+  <meta http-equiv="onion-location" content="{{ "http://" ~ config.extra.deploy ~ ".netlify.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/" ~ config.theme.language ~ "/" ~ page.url }}" />
+  {% endif %}
+  {% if page and page.meta and page.meta.schema %}
+  <script type="application/ld+json">
+  {{ page.meta.schema|tojson }}
+  </script>
+  {% endif %}
 {% endblock %}

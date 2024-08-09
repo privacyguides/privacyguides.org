@@ -37,7 +37,7 @@ To answer this question, it's important to identify who might want to target you
 
 *Make a list of your adversaries or those who might want to get ahold of your assets. Your list may include individuals, a government agency, or corporations.*
 
-Depending on who your adversaries are, under some circumstances, this list might be something you want to destroy after you're done security planning.
+Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
 
 ### How likely is it that I will need to protect it?
 
@@ -97,7 +97,7 @@ Making a security plan will help you to understand the threats that are unique t
 
 ## Further Reading
 
-For people looking to increase their privacy and security online, we've compiled a list of common threats our visitors face or goals our visitors have, to give you some inspiration and demonstrate the basis of our recommendations. 
+For people looking to increase their privacy and security online, we've compiled a list of common threats our visitors face or goals our visitors have, to give you some inspiration and demonstrate the basis of our recommendations.
 
 - [Common Goals and Threats :material-arrow-right-drop-circle:](common-threats.md)
 

@@ -29,9 +29,12 @@ There are usually multiple ways to sign up for an account, each with their own b
 
 The most common way to create a new account is by an email address and password. When using this method, you should use a password manager and follow [best practices](passwords-overview.md) regarding passwords.
 
-!!! tip
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+
+</div>
 
 You will be responsible for managing your login credentials. For added security, you can set up [MFA](multi-factor-authentication.md) on your accounts.
 
@@ -43,7 +46,7 @@ If you don't want to give your real email address to a service, you have the opt
 
 Should a service get hacked, you might start receiving phishing or spam emails to the address you used to sign up. Using unique aliases for each service can assist in identifying exactly what service was hacked.
 
-[Recommended email aliasing services](../email.md#email-aliasing-services){ .md-button }
+[Recommended email aliasing services](../email-aliasing.md){ .md-button }
 
 ### "Sign in with..." (OAuth)
 
