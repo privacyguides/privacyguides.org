@@ -23,7 +23,7 @@
 {% extends "main.html" %}
 {% set homepage = config.extra.privacy_guides.homepage %}
 {% block extrahead %}
-  <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=20240501' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=20240801' | url }}">
   {% for feed in homepage.rss %}
     <link rel="alternate" type="application/rss+xml" title="{{ feed.title }}" href="{{ feed.link }}">
   {% endfor %}
@@ -56,10 +56,35 @@
         class="topics-list"
         data-forum="https://discuss.privacyguides.net"
         data-feed="https://discuss.privacyguides.net/top.json?period=weekly"
-        data-count="6">
+        data-count="3">
       </ul>
 
     </div>
+    <noscript>
+      <p>You have Javascript disabled, so we can't load the latest discussions. Visit one of our top forum categories directly at the links below:</p>
+      <div class="grid cards">
+        <ul>
+          <li>
+            <p><a href="https://discuss.privacyguides.net/c/privacy/4"><strong>Privacy Discussions</strong></a></p>
+            <hr>
+            <p>Find the latest news and discuss privacy, security, and data protection.</p>
+          </li>
+          <li>
+            <p><a href="https://discuss.privacyguides.net/c/site-development/suggestions/6"><strong>Tool Suggestions</strong></a></p>
+            <hr>
+            <p>Suggest a tool for us to review and provide feedback on other suggestions.</p>
+          </li>
+          <li>
+            <p><a href="https://discuss.privacyguides.net/c/privacy/questions/8"><strong>Questions</strong></a></p>
+            <hr>
+            <p>Ask questions and get advice from our community of privacy advocates.</p>
+          </li>
+        </div>
+      </ul>
+      <a href="https://discuss.privacyguides.net/" class="md-button md-button--primary">
+        Join the forum
+      </a>
+    </noscript>
   {% endif %}
   {{ page.content }}
   <div class="mdx-cta">
