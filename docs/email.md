@@ -20,6 +20,7 @@ For everything else, we recommend a variety of email providers based on sustaina
 |---|---|---|---|---|
 | [Proton Mail](#proton-mail) | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green } | Cash |
 | [Mailbox.org](#mailboxorg) | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Mail only | Cash |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green } | Not yet |
 | [Tuta](#tuta) | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange } | :material-check:{ .pg-green } | Monero & Cash via third-party |
 
 In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
@@ -206,7 +207,7 @@ Mailbox.org has a digital legacy feature for all plans. You can choose whether y
 Notable features:
 
 - [x] Unlimited domains and aliases (applies to both free and paid plans)
-- [x] Supports [SMTP](https://forwardemail.net/faq#do-you-support-sending-email-with-smtp), [IMAP](https://forwardemail.net/faq#do-you-support-receiving-email-with-imap), [POP3](https://forwardemail.net/faq#do-you-support-pop3), and [API](https://forwardemail.net/faq#do-you-support-sending-email-with-api) (paid only)
+- [x] Supports [SMTP](https://forwardemail.net/faq#do-you-support-sending-email-with-smtp), [IMAP](https://forwardemail.net/faq#do-you-support-receiving-email-with-imap), [POP3](https://forwardemail.net/faq#do-you-support-pop3), [CalDAV](https://forwardemail.net/faq#do-you-support-calendars-caldav), and [API](https://forwardemail.net/faq#do-you-support-sending-email-with-api) (paid only)
 - [x] Supports [passkeys and WebAuthn](https://forwardemail.net/faq#do-you-support-passkeys-and-webauthn)
 - [x] Uses [individually encrypted](https://forwardemail.net/blog/docs/best-quantum-safe-encrypted-email-service) SQLite databases for mailboxes (with full-text search support)
 - [x] [Does not store emails nor logs](https://forwardemail.net/en/privacy#information-not-collected) (everything is done in-memory)
