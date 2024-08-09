@@ -10,6 +10,7 @@ An **email aliasing service** allows you to easily generate a new email address 
 
 - ![addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji } [addy.io](email-aliasing.md#addyio)
 - ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin](email-aliasing.md#simplelogin)
+- ![Forward Email logo](assets/img/email/forward-email.svg){ .twemoji } [Forward Email](email.md#forward-email)
 
 </div>
 
