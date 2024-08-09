@@ -151,29 +151,34 @@ All accounts come with limited cloud storage that [can be encrypted](https://kb.
 Mailbox.org has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
 ### Forward Email
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Forward Email logo](assets/img/email/forward-email.svg){ align=right }
+![Forward Email logo](assets/img/email/forward-email.svg){ align=right }
 
-    **Forward Email** is 100% open-source and is focused on privacy, encryption, and security. They have been in operation since **2017**. Forward Email is based in the United States. All plans including the free plan include support for unlimited domains and aliases. Accounts start with 10 GB of pooled storage with their Enhanced Protection paid plan for $3/month.
+**Forward Email** is 100% open-source and is focused on privacy, encryption, and security. They have been in operation since **2017**. Forward Email is based in the United States. All plans including the free plan include support for unlimited domains and aliases. Accounts start with 10 GB of pooled storage with their Enhanced Protection paid plan for $3/month.
 
-    [:octicons-home-16: Homepage](https://forwardemail.net){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://forwardemail.net/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://forwardemail.net/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/forwardemail/forwardemail.net){ .card-link title="Source Code" }
+[:octicons-home-16: Homepage](https://forwardemail.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://forwardemail.net/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://forwardemail.net/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/forwardemail/forwardemail.net){ .card-link title="Source Code" }
 
-    ??? downloads
+<details class="downloads" markdown>
+<summary>Downloads</summary>
 
-        - [:simple-apple: macOS](https://forwardemail.net/blog/open-source/apple-email-clients)
-        - [:simple-windows11: Windows](https://forwardemail.net/blog/open-source/windows-email-clients)
-        - [:material-apple-ios: iOS](https://forwardemail.net/blog/open-source/apple-i-os-email-clients)
-        - [:simple-android: Android](https://forwardemail.net/blog/open-source/android-email-clients)
-        - [:simple-linux: Linux](https://forwardemail.net/blog/open-source/linux-email-clients)
-        - [:simple-safari: Safari](https://forwardemail.net/blog/open-source/safari-email-clients)
-        - [:simple-googlechrome: Chrome](https://forwardemail.net/blog/open-source/google-chrome-email-clients)
-        - [:simple-firefoxbrowser: Firefox](https://forwardemail.net/blog/open-source/web-email-clients)
-        - [:octicons-browser-16: Web](https://forwardemail.net/en/blog/open-source/web-email-clients)
-        - [:octicons-terminal-16: Terminal](https://forwardemail.net/blog/open-source/terminal-email-clients)
+- [:simple-apple: macOS](https://forwardemail.net/blog/open-source/apple-email-clients)
+- [:simple-windows11: Windows](https://forwardemail.net/blog/open-source/windows-email-clients)
+- [:material-apple-ios: iOS](https://forwardemail.net/blog/open-source/apple-i-os-email-clients)
+- [:simple-android: Android](https://forwardemail.net/blog/open-source/android-email-clients)
+- [:simple-linux: Linux](https://forwardemail.net/blog/open-source/linux-email-clients)
+- [:simple-safari: Safari](https://forwardemail.net/blog/open-source/safari-email-clients)
+- [:simple-googlechrome: Chrome](https://forwardemail.net/blog/open-source/google-chrome-email-clients)
+- [:simple-firefoxbrowser: Firefox](https://forwardemail.net/blog/open-source/web-email-clients)
+- [:octicons-browser-16: Web](https://forwardemail.net/en/blog/open-source/web-email-clients)
+- [:octicons-terminal-16: Terminal](https://forwardemail.net/blog/open-source/terminal-email-clients)
+
+</details>
+
+</div>
 
 Notable features:
 
