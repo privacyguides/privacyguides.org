@@ -16,9 +16,9 @@ license: BY-SA
 ---
 # Signal Configuration and Hardening Guide
 
-[Signal](https://www.privacyguides.org/real-time-communication#signal) is a widely regarded instant messaging service that is not only easy to use but is also private and secure. Signal's strong E2EE implementation and metadata protections provide a level of assurance that only you and your intended recipients are able to read communications.<!-- more -->
+[Signal](https://www.privacyguides.org/en/real-time-communication#signal) is a widely regarded instant messaging service that is not only easy to use but is also private and secure. Signal's strong E2EE implementation and metadata protections provide a level of assurance that only you and your intended recipients are able to read communications.<!-- more -->
 
-This guide details actions you can take to configure and harden Signal in accordance with your [threat model](https://www.privacyguides.org/basics/threat-modeling/).
+This guide details actions you can take to configure and harden Signal in accordance with your [threat model](https://www.privacyguides.org/en/basics/threat-modeling/).
 
 ## Signal Configuration
 
@@ -39,7 +39,7 @@ If you haven't set up a Signal PIN, or have previously opted out of setting one 
 - Select :material-dots-vertical: > **Settings** > **Account** > **Signal PIN**
 - Select **Create new PIN**
 
-Signal will prompt you to enter a PIN. We suggest using a strong alphanumeric PIN that can be stored in a [password manager](https://www.privacyguides.org/passwords/).
+Signal will prompt you to enter a PIN. We suggest using a strong alphanumeric PIN that can be stored in a [password manager](https://www.privacyguides.org/en/passwords/).
 
 Once you have done that, or if you already have set up a PIN, make sure that **Registration Lock** is also enabled.
 
@@ -207,7 +207,7 @@ Signal takes security very seriously, however there is only so much an app can d
 
 It is very important to take device security on both ends into account to ensure that your conversations are kept private.
 
-We recommend an up-to-date [GrapheneOS](https://www.privacyguides.org/android#grapheneos) or iOS device.
+We recommend an up-to-date [GrapheneOS](https://www.privacyguides.org/en/android/distributions#grapheneos) or iOS device.
 
 ### Molly (Android)
 
@@ -259,7 +259,7 @@ To supplement the database encryption feature, Molly securely wipes your device'
 
 While Molly is running, your data is kept in RAM. When any app closes, its data remains in RAM until another app takes the same physical memory pages. That can take seconds or days, depending on many factors. To prevent anyone from dumping the RAM to disk and extracting your data after Molly is locked, the app overrides all free RAM memory with random data when you lock the database.
 
-There is also the ability to configure a SOCKS proxy in Molly to route its traffic through the proxy or [Tor via Orbot](https://www.privacyguides.org/tor#orbot). When enabled, all traffic is routed through the proxy and there are no known IP or DNS leaks. When using this feature, [call relaying](#call-relaying) will always be enabled, regardless of the setting.
+There is also the ability to configure a SOCKS proxy in Molly to route its traffic through the proxy or [Tor via Orbot](https://www.privacyguides.org/en/tor#orbot). When enabled, all traffic is routed through the proxy and there are no known IP or DNS leaks. When using this feature, [call relaying](#call-relaying) will always be enabled, regardless of the setting.
 
 Signal adds everyone who you have communicated with to its database. Molly allows you to delete those contacts and stop sharing your profile with them.
 
