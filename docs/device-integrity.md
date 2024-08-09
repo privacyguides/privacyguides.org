@@ -45,6 +45,10 @@ These tools provide analysis based on the information they have the ability to a
 
 ## External Verification Tools
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+
 External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
 
 <div class="admonition danger" markdown>
@@ -127,6 +131,11 @@ iMazing automates and interactively guides you through the process of using [MVT
 
 ## On-Device Verification
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+
 These are apps you can install which check your device and operating system for signs of tampering, and validate the identity of your device.
 
 <div class="admonition warning" markdown>
@@ -180,6 +189,10 @@ If your [threat model](basics/threat-modeling.md) requires privacy, you could co
 
 ## On-Device Scanners
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+
 These are apps you can install on your device which scan your device for signs of compromise.
 
 <div class="admonition warning" markdown>
@@ -220,7 +233,7 @@ Hypatia is particularly good at detecting common stalkerware: If you suspect you
 
 ![iVerify logo](assets/img/device-integrity/iverify.webp){ align=right }
 
-**iVerify Basic** is an iOS app which can scan your device to check configuration settings, patch level, and other areas of security. It also checks your device for indicators of compromise by jailbreak tools or spyware such as Pegasus.
+**iVerify Basic** is an iOS app which can scan your device to check configuration settings, patch level, and other areas of security. It also checks your device for indicators of compromise by jailbreak tools or of [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red } such as [Pegasus](https://en.wikipedia.org/wiki/Pegasus_(spyware)).
 
 [:octicons-home-16: Homepage](https://iverify.io/products/basic){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://iverify.io/privacy-policy){ .card-link title="Privacy Policy" }
