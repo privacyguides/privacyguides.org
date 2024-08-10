@@ -173,6 +173,7 @@ You can access your Mailbox.org account via IMAP/SMTP using their [.onion servic
 All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
 Mailbox.org has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
+
 ### Forward Email
 
 <div class="admonition recommendation" markdown>
@@ -215,7 +216,7 @@ Notable features:
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
-You can create unlimited custom domains, aliases, catch-alls, regex-based aliases, and more with Forward Email.
+You can create unlimited custom domains, aliases, catch-alls, regex-based aliases, and more.
 
 #### :material-check:{ .pg-green } Private Payment Methods
 
