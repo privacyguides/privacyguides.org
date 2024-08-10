@@ -4,7 +4,10 @@ icon: material/account-group
 description: Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do.
 cover: document-collaboration.webp
 ---
-<!-- markdownlint-disable MD024 -->
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+
 Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do. The provider's privacy policy may legally protect your rights, but it does not provide technical access constraints.
 
 ## Collaboration Platforms
