@@ -191,7 +191,7 @@ Mailbox.org has a digital legacy feature for all plans. You can choose whether y
 <summary>Downloads</summary>
 
 - [:simple-apple: macOS](https://forwardemail.net/blog/open-source/apple-email-clients)
-- [:simple-windows11: Windows](https://forwardemail.net/blog/open-source/windows-email-clients)
+- [:fontawesome-brands-windows: Windows](https://forwardemail.net/blog/open-source/windows-email-clients)
 - [:material-apple-ios: iOS](https://forwardemail.net/blog/open-source/apple-i-os-email-clients)
 - [:simple-android: Android](https://forwardemail.net/blog/open-source/android-email-clients)
 - [:simple-linux: Linux](https://forwardemail.net/blog/open-source/linux-email-clients)
