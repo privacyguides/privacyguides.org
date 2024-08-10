@@ -218,9 +218,9 @@ Notable features:
 
 You can create unlimited custom domains, aliases, catch-alls, regex-based aliases, and more.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-information-outline:{ .pg-blue } Private Payment Methods
 
-Forward Email doesn't accept any cryptocurrencies as a result of [issues](https://github.com/forwardemail/forwardemail.net/commit/04c9f6f4c9c6279232e9fe18d7105ec83204f255) with BitPay and Coinbase Commerce. However, they do accept PayPal, Visa, Mastercard, American Express, Discover, Diners Club, JCB, China UnionPay, Alipay, Apple Pay, Google Pay, Link, Bancontact, EPS, giropay, iDEAL, Przelewy24, Sofort, Affirm, Afterpay / Clearpay, Klarna, SEPA Direct Debit, Canadian pre-authorized debits, and ACH Direct Debit.
+Forward Email doesn't accept any cryptocurrencies as a result of [issues](https://github.com/forwardemail/forwardemail.net/commit/04c9f6f4c9c6279232e9fe18d7105ec83204f255) with BitPay and Coinbase Commerce. However, they do accept [Stripe and PayPal payments](https://forwardemail.net/faq#which-payment-methods-do-you-accept).
 
 #### :material-check:{ .pg-green } Account Security
 
