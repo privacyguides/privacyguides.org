@@ -400,6 +400,7 @@ nav:
           - "browser-extensions.md"
       - !ENV [NAV_PROVIDERS, "Providers"]:
           - "cloud.md"
+          - "data-broker-removals.md"
           - "dns.md"
           - "email-aliasing.md"
           - "email.md"
