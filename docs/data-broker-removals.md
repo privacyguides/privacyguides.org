@@ -44,6 +44,8 @@ If you don't use an automatic scanner to find results about you, consider settin
 
 Some websites supported by EasyOptOuts are publicly searchable, and in those cases EasyOptOuts will perform a search and only submit an opt-out request if your personal data is already found, to prevent sending your data in an opt-out request to sites that didn't have it already. However, they do support some sites which are not publicly searchable, and in those cases your data will be sent to them in an opt-out request regardless, in case you are in their private databases.
 
+Our testing indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. We will publish a detailed review of EasyOptOuts on our blog in the near future, and update this page when it is published. [Independent findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
+
 ## Optery <small>Free & Paid</small>
 
 <div class="admonition recommendation" markdown>
@@ -57,6 +59,10 @@ Some websites supported by EasyOptOuts are publicly searchable, and in those cas
 [:octicons-info-16:](https://help.optery.com){ .card-link title=Documentation}
 
 </div>
+
+Optery's free scanning tool is an effective way to discover which data brokers have your information already, and their self-service dashboard allows you to easily submit opt-out requests manually.
+
+We have not finished testing Optery's *automatic* opt-out plans, although initial results appear to be positive. [Independent findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that Optery is one of the top performing data removal services. It necessarily takes at least a few months for us to evaluate a new data removal service, so check back here soon for our own test results. We will also publish a detailed review of Optery's full service on our blog when we have completed testing, and we will update this page accordingly.
 
 ## Google *Results About You* <small>Free</small>
 
