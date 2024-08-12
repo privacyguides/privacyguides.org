@@ -23,11 +23,26 @@ You should search for your information on these 8 sites first, and submit an opt
 
 Once you have done this, it's best to wait a week or two for the requests to propagate to all their sites. Then, you can start to search and opt-out of any remaining sites you find. It can be a good idea to use tools like [Optery](#optery-free--paid)'s free reports or [Google's *Results about you*](#google-results-about-you-free) tool to help find any data that remains on the internet.
 
+Otherwise, privacy journalist Yael Grauer has compiled an excellent list of data broker sites with direct links to their search tools and opt-out pages. You can take some time to go though each site to determine whether they have your information, and remove it:
+
 [:simple-github: Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List){ .md-button }
 
 If you don't use an automatic scanner to find results about you, consider setting a reminder to re-do this process every 3, 6, or 12 months depending on your risk level and the amount of personal data you have out there. Unfortunately, it is common for your data to re-appear over time or show up on brand new people search sites even after you opt-out.
 
 ## EasyOptOuts <small>Paid</small>
+
+<div class="admonition recommendation" markdown>
+
+![EasyOptOuts logo](assets/img/data-broker-removals/optery.svg){ align=right }
+
+**EasyOptOuts** is a $20/year service which will search a number of different data broker sites and automatically submit opt-out requests on your behalf. They will perform the first search and removal process immediately, and then re-run the process every 4 months in case your data shows up on new sites over time.
+
+[:octicons-home-16: Homepage](https://easyoptouts.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://easyoptouts.com/privacy){ .card-link title="Privacy Policy" }
+
+</div>
+
+EasyOptOuts only submits opt-out requests
 
 ## Optery <small>Free & Paid</small>
 
