@@ -42,7 +42,7 @@ If you don't use an automatic scanner to find results about you, consider settin
 
 </div>
 
-EasyOptOuts only submits opt-out requests
+Some websites supported by EasyOptOuts are publicly searchable, and in those cases EasyOptOuts will perform a search and only submit an opt-out request if your personal data is already found, to prevent sending your data in an opt-out request to sites that didn't have it already. However, they do support some sites which are not publicly searchable, and in those cases your data will be sent to them in an opt-out request regardless, in case you are in their private databases.
 
 ## Optery <small>Free & Paid</small>
 
