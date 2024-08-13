@@ -33,8 +33,6 @@ If you don't use an automatic scanner to find results about you, consider settin
 
 <div class="admonition recommendation" markdown>
 
-![EasyOptOuts logo](assets/img/data-broker-removals/optery.svg){ align=right }
-
 **EasyOptOuts** is a $20/year service which will search a number of different data broker sites and automatically submit opt-out requests on your behalf. They will perform the first search and removal process immediately, and then re-run the process every 4 months in case your data shows up on new sites over time.
 
 [:octicons-home-16: Homepage](https://easyoptouts.com){ .md-button .md-button--primary }
@@ -49,8 +47,6 @@ Our testing indicates that EasyOptOuts provides the best value out of any data r
 ## Optery <small>Free & Paid</small>
 
 <div class="admonition recommendation" markdown>
-
-![Optery logo](assets/img/data-broker-removals/optery.svg){ align=right }
 
 **Optery** is a free scanning tool which will discover which people search sites have your personal information, provide you with a report of those sites, and link you directly to the self-service removal process to do manually. If you keep your account, the report will be updated quarterly. Optery also has paid plans available where they will submit opt-out requests automatically on your behalf.
 
@@ -69,8 +65,6 @@ We have not finished testing Optery's *automatic* opt-out plans, although initia
 This method will require you to submit your personal information to Google, for them to periodically monitor their search results for. Google claims to not use the information provided to this tool to "personalize your experiences" across other Google products.
 
 <div class="admonition recommendation" markdown>
-
-![Google logo](assets/img/data-broker-removals/google.svg){ align=right }
 
 **Results about you** is a free tool which helps you discover whether your personal contact information, including your home address, phone number, and email address, appear in Google search results. If any personal information is found, you can request its removal.
 
