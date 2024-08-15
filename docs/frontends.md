@@ -74,7 +74,7 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 ## YouTube
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
-Google has started blocking requests from widely used IPs, including VPNs. This impacts Invidious public instances and to a lesser extent Piped public mirrors. Mobile and Desktop apps listed below can sucessfully bypass the blocking attempts { .annotate }, if you keep them updated.
+Google has started blocking requests from widely used IPs, including VPNs. This impacts Invidious public instances Piped public mirrors. Mobile and Desktop apps that directly connect to Google servers can more reliably bypass the blocking attempts { .annotate }, if you keep them updated.
 
 1. Last checked: 2024-07-31
 ### FreeTube
