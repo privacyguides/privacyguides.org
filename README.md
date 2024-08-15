@@ -42,7 +42,7 @@
 
 **Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. Our mission is to inform the public about the value of digital privacy, and global government initiatives which aim to monitor your online activity. We are a non-profit collective operated entirely by volunteer team members and contributors. Our website is free of advertisements and not affiliated with any of the listed providers.
 
-The current list of team members can be found [here](https://www.privacyguides.org/about/#our-team). Additionally, [many people](#contributors) have made contributions to the project, and you can too!
+The current list of team members can be found [here](https://www.privacyguides.org/en/about/#executive-committee). Additionally, [many people](#contributors) have made contributions to the project, and you can too!
 
 *Featured on: [Tweakers](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html), [The New York Times](https://nytimes.com/wirecutter/guides/online-security-social-media-privacy), and [Wired](https://wired.com/story/firefox-mozilla-2022)*
 
