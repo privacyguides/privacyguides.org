@@ -31,7 +31,10 @@ schema:
       "@type": WebPage
       url: "./"
 ---
-[:material-target-account:](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red } [:material-bug-outline:](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 A **custom Android-based operating system** (often known as a **custom ROM**) is a popular way to achieve higher levels of privacy and security on your device. This is in contrast to the "stock" version of Android which comes with your phone from the factory, and is often deeply integrated with Google Play Services.
 
