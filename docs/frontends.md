@@ -143,41 +143,6 @@ When using Yattee, your IP address may still be known to YouTube, [Invidious](ht
 
 By default, Yattee blocks all YouTube advertisements. In addition, Yattee optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
 
-### LibreTube (Android)
-
-<div class="admonition recommendation" markdown>
-
-![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ align=right }
-![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ align=right }
-
-**LibreTube** is a free and open-source Android application for [YouTube](https://youtube.com) which uses the [Piped](#piped) API.
-
-LibreTube allows you to store your subscription list and playlists locally on your Android device, or to an account on your Piped instance of choice, which allows you to access them seamlessly on other devices as well.
-
-[:octicons-home-16: Homepage](https://libretube.dev){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/libre-tube/LibreTube/blob/master/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://libretube.dev/#faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/libre-tube/LibreTube#donate){ .card-link title=Contribute }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-github: GitHub](https://github.com/libre-tube/LibreTube/releases)
-
-</details>
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
-
-When using LibreTube, your IP address will be visible to the [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) instance you choose and/or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
-
-</div>
-
-By default, LibreTube blocks all YouTube advertisements. Additionally, LibreTube uses [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments. You are able to fully configure the types of segments that SponsorBlock will skip, or disable it completely. There is also a button on the video player itself to disable it for a specific video if desired.
-
 ### NewPipe (Android)
 
 <div class="admonition recommendation annotate" markdown>
