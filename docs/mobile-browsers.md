@@ -161,7 +161,7 @@ These options can be found in :material-menu: → **Settings** → **Leo**
 
 ![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
 
-**Cromite** is a Chromium-based browser with privacy and security enhancements, built-in ad blocking, and some fingerprinting randomization. It is the continuation of Bromite.
+**Cromite** is a Chromium-based browser with [privacy and security enhancements, built-in ad blocking, and some fingerprinting protection](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is the continuation of [Bromite](https://www.bromite.org/).
 
 [:octicons-home-16: Homepage](https://www.cromite.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
