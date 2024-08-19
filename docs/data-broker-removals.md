@@ -4,6 +4,9 @@ icon: material/database-off
 description: Our recommended methods for removing your personal information from data brokers and people search sites.
 cover: data-broker-removals.webp
 ---
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information){ .pg-green }
 
 "People search sites" operated by data brokers represent an immense privacy risk to the majority of Americans. For many, sensitive personal information such as your address, phone number, email, and age is a simple internet search away. While there is unfortunately no federal regulation in place to protect your data, many of these companies will remove your information from their *public* databases upon request.
 
