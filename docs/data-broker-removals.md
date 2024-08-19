@@ -5,7 +5,7 @@ description: Our recommended methods for removing your personal information from
 cover: data-broker-removals.webp
 ---
 
-"People search sites" operated by data brokers represent an immense privacy risk to the majority of Americans. For many, sensitive personal information such as your address, phone number, email, and age are a simple internet search away. While there is unfortunately no federal regulation in place to protect your data, many of these companies will remove your information from their *public* databases upon request.
+"People search sites" operated by data brokers represent an immense privacy risk to the majority of Americans. For many, sensitive personal information such as your address, phone number, email, and age is a simple internet search away. While there is unfortunately no federal regulation in place to protect your data, many of these companies will remove your information from their *public* databases upon request.
 
 :flag_us: **Note:** Many of these tools are only available in the United States, and data brokers collecting, sharing, and selling information from public records and other resources is largely a US-centric issue. In many other regions, your data is already protected via regulations like the GDPR. We will always advocate for similarly strong privacy protections in the United States, but those affected today may still benefit from these "stop-gap" solutions.
 
@@ -33,7 +33,7 @@ You should search for your information on these 8 sites first, and submit an opt
 - TruePeopleSearch
 - Whitepages
 
-Once you have done this, it's best to wait a week or two for the requests to propagate to all their sites. Then, you can start to search and opt-out of any remaining sites you find. It can be a good idea to use tools like [Optery](#optery-free--paid)'s free reports or [Google's *Results about you*](#google-results-about-you-free) tool to help find any data that remains on the internet.
+Once you have done this, it's best to wait a week or two for the requests to propagate to all their sites. Then, you can start to search and opt-out of any remaining sites you find. It can be a good idea to use tools like [Optery](#optery-free-paid)'s free reports or [Google's *Results about you*](#google-results-about-you-free) tool to help find any data that remains on the internet.
 
 Otherwise, privacy journalist Yael Grauer has compiled an excellent list of data broker sites with direct links to their search tools and opt-out pages. You can take some time to go though each site to determine whether they have your information, and remove it:
 
@@ -54,9 +54,9 @@ If you don't use an automatic scanner to find results about you, consider settin
 
 </div>
 
-Some websites supported by EasyOptOuts are publicly searchable, and in those cases EasyOptOuts will perform a search and only submit an opt-out request if your personal data is already found, to prevent sending your data in an opt-out request to sites that didn't have it already. However, they do support some sites which are not publicly searchable, and in those cases your data will be sent to them in an opt-out request regardless, in case you are in their private databases.
+Some websites supported by EasyOptOuts are publicly searchable. In those cases EasyOptOuts will perform a search and only submit an opt-out request if your personal data is already found, to prevent sending your data in an opt-out request to sites that didn't have it already. However, they do support some sites which are not publicly searchable, and in those cases your data will be sent to them in an opt-out request regardless, in case you are in their private databases.
 
-Our testing indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. We will publish a detailed review of EasyOptOuts on our blog in the near future, and update this page when it is published. [Independent findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
+Our testing indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. We will publish a detailed review of EasyOptOuts on our blog in the near future and update this page when it is published. [Independent findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
 
 ## Optery <small>Free & Paid</small>
 
@@ -78,13 +78,13 @@ We have not finished testing Optery's premium, *automatic* opt-out plans, althou
 
 ## Google *Results About You* <small>Free</small>
 
-This method will require you to submit your personal information to Google, for them to periodically monitor their search results for. Google claims to not use the information provided to this tool to "personalize your experiences" across other Google products.
+This method will require you to submit your personal information to Google for them to periodically monitor their search results for. Google claims to not use the information provided to this tool to "personalize your experiences" across other Google products.
 
 <div class="admonition recommendation" markdown>
 
 ![Google logo](assets/img/data-broker-removals/google.svg){ align=right }
 
-**Results about you** is a free tool which helps you discover whether your personal contact information, including your home address, phone number, and email address, appear in Google search results. If any personal information is found, you can request its removal.
+**Results about you** is a free tool which helps you discover whether your personal contact information, including your home address, phone number, and email address, appears in Google search results. If any personal information is found, you can request its removal.
 
 [:octicons-globe-16: Open Web Tool](https://myactivity.google.com/results-about-you){ .md-button .md-button--primary }
 [:octicons-info-16:](https://support.google.com/websearch/answer/12719076){ .card-link title=Documentation}
@@ -95,6 +95,6 @@ In many cases, a Google search is the first place a potential stalker or abuser 
 
 You can add up to 3 addresses, 3 phone numbers, and 3 email addresses to your Google account to monitor for. The service is only available in select markets (initially the US and UK) to users over 18.
 
-When results are found, they will be available for review in this web tool. You can also optionally receive an email notification letting you know when new results are found, delivered to the account's Gmail mailbox. You will then be able to click **Request to remove** on each discovered listing, and Google will review the request.
+When results are found, they will be available for review in this web tool. You can also optionally receive an email notification delivered to the account's Gmail address that lets you know when new results are found. You will then be able to click **Request to remove** on each discovered listing, and Google will review the request.
 
-In our testing, this tool worked to reliably remove people search sites from Google search results, but was not effective against websites that showed *corporate* filing information, even if you used your personal address to register a company, nor social media profiles.
+In our testing, this tool worked to reliably remove people search sites from Google search results, but was not effective against websites that showed *corporate* filing information, even if you used your personal address to register a company, nor was it effective against social media profiles.
