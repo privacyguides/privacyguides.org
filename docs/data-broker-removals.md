@@ -2,7 +2,12 @@
 title: Data Removal Services
 icon: material/database-off
 description: Our recommended methods for removing your personal information from data brokers and people search sites.
+cover: data-broker-removals.webp
 ---
+
+"People search sites" operated by data brokers represent an immense privacy risk to the majority of Americans. For many, sensitive personal information such as your address, phone number, email, and age are a simple internet search away. While there is unfortunately no federal regulation in place to protect your data, many of these companies will remove your information from their *public* databases upon request.
+
+:flag_us: **Note:** Many of these tools are only available in the United States, and data brokers collecting, sharing, and selling information from public records and other resources is largely a US-centric issue. In many other regions, your data is already protected via regulations like the GDPR. We will always advocate for similarly strong privacy protections in the United States, but those affected today may still benefit from these "stop-gap" solutions.
 
 Counterintuitively, removing your personal data on these sites from the internet generally requires *providing* these companies with your personal data for them to comply with the request. Unfortunately, in most cases it is still worth doing so to minimize the amount of personal data about you which is publicly accessible.
 
@@ -33,6 +38,8 @@ If you don't use an automatic scanner to find results about you, consider settin
 
 <div class="admonition recommendation" markdown>
 
+![EasyOptOuts logo](assets/img/data-broker-removals/easyoptouts.svg){ align=right }
+
 **EasyOptOuts** is a $20/year service which will search a number of different data broker sites and automatically submit opt-out requests on your behalf. They will perform the first search and removal process immediately, and then re-run the process every 4 months in case your data shows up on new sites over time.
 
 [:octicons-home-16: Homepage](https://easyoptouts.com){ .md-button .md-button--primary }
@@ -48,6 +55,8 @@ Our testing indicates that EasyOptOuts provides the best value out of any data r
 
 <div class="admonition recommendation" markdown>
 
+![Optery logo](assets/img/data-broker-removals/optery.svg){ align=right }
+
 **Optery** is a free scanning tool which will discover which people search sites have your personal information, provide you with a report of those sites, and link you directly to the self-service removal process to do manually. If you keep your account, the report will be updated quarterly. Optery also has paid plans available where they will submit opt-out requests automatically on your behalf.
 
 [:octicons-home-16: Homepage](https://optery.com){ .md-button .md-button--primary }
@@ -58,13 +67,15 @@ Our testing indicates that EasyOptOuts provides the best value out of any data r
 
 Optery's free scanning tool is an effective way to discover which data brokers have your information already, and their self-service dashboard allows you to easily submit opt-out requests manually.
 
-We have not finished testing Optery's *automatic* opt-out plans, although initial results appear to be positive. [Independent findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that Optery is one of the top performing data removal services. It necessarily takes at least a few months for us to evaluate a new data removal service, so check back here soon for our own test results. We will also publish a detailed review of Optery's full service on our blog when we have completed testing, and we will update this page accordingly.
+We have not finished testing Optery's premium, *automatic* opt-out plans, although initial results appear to be positive. [Independent findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that Optery is one of the top performing data removal services. It necessarily takes at least a few months for us to evaluate a new data removal service, so check back here soon for our own test results. We will also publish a detailed review of Optery's full service on our blog when we have completed testing, and we will update this page accordingly.
 
 ## Google *Results About You* <small>Free</small>
 
 This method will require you to submit your personal information to Google, for them to periodically monitor their search results for. Google claims to not use the information provided to this tool to "personalize your experiences" across other Google products.
 
 <div class="admonition recommendation" markdown>
+
+![Google logo](assets/img/data-broker-removals/google.svg){ align=right }
 
 **Results about you** is a free tool which helps you discover whether your personal contact information, including your home address, phone number, and email address, appear in Google search results. If any personal information is found, you can request its removal.
 
