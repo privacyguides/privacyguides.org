@@ -12,7 +12,7 @@ license: BY-SA
 
 # Jonah Aragon Hired as Project Director
 
-We are thrilled to announce a significant milestone for Privacy Guides: the addition of our first part-time staff member, Jonah Aragon. This achievement is a testament to the unwavering support and generous donations from our incredible community. Another major donation came from Power Up Privacy, a privacy advocacy group that funds privacy-related research and development, which made this goal achievable earlier then expected!
+We are thrilled to announce a significant milestone for Privacy Guides: the addition of our first paid staff member, Jonah Aragon. This achievement is a testament to the unwavering support and generous donations from our incredible community. Another major donation came from [Power Up Privacy](https://powerupprivacy.com/){ rel=nofollow }, a privacy advocacy group that funds privacy-related research and development, which made this goal achievable earlier then expected!<!-- more -->
 
 ## A Community-Driven Success
 
