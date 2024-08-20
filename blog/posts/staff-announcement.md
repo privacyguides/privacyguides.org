@@ -20,13 +20,9 @@ Jonah Aragon is no stranger to Privacy Guides. As a founding member, Jonah has b
 
 The journey of Privacy Guides has always been fueled by the passion and contributions of our community. From the very beginning, our mission has been to provide reliable, independent information on privacy and security. Thanks to your donations, we are now able to take a significant step forward by bringing Jonah on board as our Project Director.
 
-## Jonah’s Role and Responsibilities
+In this new position, Jonah will be working 20 hours a week to manage our day-to-day operations. His responsibilities will include overseeing various projects, ensuring smooth coordination among team members, and maintaining the high standards of our content and resources.
 
-In his new position, Jonah will be working 20 hours a week to manage our day-to-day operations. His responsibilities will include overseeing various projects, ensuring smooth coordination among team members, and maintaining the high standards of our content and resources.
-
-One of Jonah’s focuses will be restarting our “This Week in Privacy” podcast. This podcast has been a valuable resource for our community, providing weekly updates on the latest developments in the privacy world. After our initial trial run of this project, we heard your positive feedback, so we will be bringing it back!
-
-## A Sustainable Future
+One of Jonah’s focuses will be restarting *This Week in Privacy*, our weekly podcast providing updates on the latest developments in our community and the privacy world. After our initial trial run of this project, we heard your positive feedback, so we will be bringing it back!
 
 Another crucial aspect of Jonah’s role will be fundraising. Our goal is to make this position self-sustaining, ensuring that Privacy Guides can continue to grow and thrive. Jonah’s efforts in fundraising will help secure the necessary resources to support our ongoing projects and initiatives.
 
