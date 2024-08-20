@@ -14,13 +14,11 @@ license: BY-SA
 
 We are thrilled to announce a significant milestone for Privacy Guides: the addition of our first paid staff member, Jonah Aragon. This achievement is a testament to the unwavering support and generous donations from our incredible community. Another major donation came from [Power Up Privacy](https://powerupprivacy.com/){ rel=nofollow }, a privacy advocacy group that funds privacy-related research and development, which made this goal achievable earlier then expected!<!-- more -->
 
+Jonah Aragon is no stranger to Privacy Guides. As a founding member, Jonah has been instrumental in shaping our organization and its mission. With his extensive background in privacy and cybersecurity, Jonah brings a wealth of knowledge and experience to his new role.
+
 ## A Community-Driven Success
 
 The journey of Privacy Guides has always been fueled by the passion and contributions of our community. From the very beginning, our mission has been to provide reliable, independent information on privacy and security. Thanks to your donations, we are now able to take a significant step forward by bringing Jonah on board as our Project Director.
-
-## Meet Jonah Aragon
-
-Jonah Aragon is no stranger to Privacy Guides. As a founding member, Jonah has been instrumental in shaping our organization and its mission. With his extensive background in privacy and cybersecurity, Jonah brings a wealth of knowledge and experience to his new role.
 
 ## Jonah’s Role and Responsibilities
 
