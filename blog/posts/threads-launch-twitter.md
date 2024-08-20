@@ -4,7 +4,7 @@ date:
 categories:
     - Opinion
 authors:
-    - freddy-m
+    - freddy
 links:
     - posts/move-fast-and-break-things.md
     - posts/virtual-insanity.md

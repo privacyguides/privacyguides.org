@@ -77,7 +77,12 @@
   <link rel="stylesheet" href="{{ config.extra.privacy_guides.translation_stylesheet | url }}" />
   {% endif %}
 
-  <meta name="robots" content="max-snippet:-1, max-image-preview:large">
+  {% if page and page.meta and page.meta.robots %}
+  <meta name="robots" content="{{ page.meta.robots }}">
+  {% else %}
+    <meta name="robots" content="max-snippet:-1, max-image-preview:large">
+  {% endif %}
+
   <meta name="fediverse:creator" content="privacyguides@neat.computer" />
 
   {% if config.extra.context == "production" %}

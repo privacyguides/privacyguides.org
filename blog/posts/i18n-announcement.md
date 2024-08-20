@@ -4,7 +4,7 @@ date:
 categories:
     - Announcements
 authors:
-    - freddy-m
+    - freddy
     - dngray
     - niek-de-wilde
 tags:
