@@ -16,19 +16,14 @@ authors:
     name: Daniel Gray
     description: Team Member
     avatar: https://github.com/dngray.png
-  freddy-m:
+  freddy:
     name: Freddy
     description: Team Member
     avatar: https://github.com/freddy-m.png
-    description_long: |
-      <a href="https://freddy.lol">Freddy</a> is a founding member of Privacy Guides and the editor of its blog. He writes in American English reluctantly.
   jonah:
     name: Jonah Aragon
     description: Team Member
     avatar: https://github.com/jonaharagon.png
-    description_long: |
-      <a href="https://www.jonaharagon.com">Jonah Aragon</a> is creating educational resources for average people to understand the importance of privacy and security on the internet, and take back control over their digital lives.
-      He is known for his work on the Techlore YouTube channel, including the Techlore Talks podcast he co-hosts, and the Privacy Guides non-profit website.
   kaitebay:
     name: Kai Tebay
     description: Former Team Member

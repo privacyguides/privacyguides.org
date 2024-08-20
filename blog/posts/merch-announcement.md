@@ -4,7 +4,7 @@ date:
 categories:
     - Announcements
 authors:
-    - freddy-m
+    - freddy
     - niek-de-wilde
 tags:
     - Privacy Guides
