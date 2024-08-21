@@ -2859,6 +2859,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "IDON-TEXIST",
+      "name": "IDON-TEXIST",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73442356?v=4",
+      "profile": "https://github.com/IDON-TEXIST",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 5,
