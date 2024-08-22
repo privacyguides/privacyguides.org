@@ -4,7 +4,7 @@ date:
 categories:
     - Opinion
 authors:
-    - freddy-m
+    - freddy
 links:
     - posts/virtual-insanity.md
 tags:

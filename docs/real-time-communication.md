@@ -96,7 +96,7 @@ We have some additional tips on configuring and hardening your Signal installati
 
 SimpleX Chat [was audited](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) by Trail of Bits in October 2022.
 
-SimpleX Chat supports basic group chatting functionality, direct messaging, and editing of messages and markdown. E2EE Audio and Video calls are also supported. Your data can be exported, and imported onto another device, as there are no central servers where this is backed up.
+SimpleX Chat supports basic group chatting functionality, direct messaging, and editing of messages and markdown. E2EE Audio and Video calls are also supported. Your data can be exported and imported onto another device, as there are no central servers where this is backed up.
 
 ### Briar
 
@@ -147,9 +147,9 @@ These messengers do not have forward secrecy[^1], and while they fulfill certain
 
 ![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** is the reference [client](https://matrix.org/ecosystem/clients) for the [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) protocol, an [open standard](https://spec.matrix.org/latest) for secure decentralized real-time communication.
+**Element** is the flagship client for the [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) protocol, an [open standard](https://spec.matrix.org/latest) for secure decentralized real-time communication.
 
-Messages and files shared in private rooms (those which require an invite) are by default E2EE as are one to one voice and video calls.
+Messages and files shared in private rooms (those which require an invite) are by default E2EE, as are one-to-one voice and video calls.
 
 [:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
@@ -173,7 +173,7 @@ Messages and files shared in private rooms (those which require an invite) are b
 
 Profile pictures, reactions, and nicknames are not encrypted.
 
-Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE, and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Group calls have [no authentication](https://github.com/vector-im/element-web/issues/13074) currently, meaning that non-room participants can also join the calls. We recommend that you do not use this feature for private meetings.
+Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Group calls have [no authentication](https://github.com/vector-im/element-web/issues/13074) currently, meaning that non-room participants can also join the calls. We recommend that you do not use this feature for private meetings.
 
 The Matrix protocol itself [theoretically supports forward secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
 
@@ -212,7 +212,9 @@ Session allows for E2EE in one-on-one chats or closed groups which allow for up 
 
 Session was previously based on Signal Protocol before replacing it with their own in December 2020. Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
 
-Oxen requested an independent audit for Session in March 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
+Oxen requested an independent audit for Session in March 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021:
+
+> The overall security level of this application is good and makes it usable for privacy-concerned people.
 
 Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
 

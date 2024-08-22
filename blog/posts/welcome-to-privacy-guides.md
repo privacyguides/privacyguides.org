@@ -6,7 +6,7 @@ categories:
 authors:
     - jonah
     - dngray
-    - freddy-m
+    - freddy
 links:
     - 'About Privacy Guides': "https://www.privacyguides.org/about/"
     - posts/weve-joined-the-open-collective-foundation.md

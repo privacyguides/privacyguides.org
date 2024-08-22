@@ -9,6 +9,7 @@ tags:
     - Linux
     - Security
 license: BY-SA
+robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 # Hardening Your Desktop Linux System's Security
 

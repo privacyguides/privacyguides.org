@@ -8,7 +8,7 @@ In general the [United States federal plain language guidelines](https://plainla
 
 ## Writing for our audience
 
-Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily average, technology using adults. Don't dumb down content as if you are addressing a middle-school class, but don't overuse complicated terminology about concepts average computer users wouldn't be familiar with.
+Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily adults who use technology. Don't dumb down content as if you are addressing a middle-school class, but don't overuse complicated terminology about concepts average computer users wouldn't be familiar with.
 
 ### Address only what people want to know
 

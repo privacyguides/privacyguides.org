@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
+meta_title: "Privacy Guides: Independent Privacy & Security Resources"
 description: "The most popular & trustworthy non-profit website to find privacy tools and learn about protecting your digital life. Ad & affiliate free, high quality reviews."
 template: home.html
 social:

@@ -131,6 +131,8 @@ markdown_extensions:
       exclude:
         - index.md
         - tools.md
+        - about.md
+        - about/*
     targets:
       exclude:
         - about/contributors.md

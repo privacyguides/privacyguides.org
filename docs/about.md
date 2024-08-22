@@ -20,9 +20,31 @@ schema:
 
 **Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. We are a non-profit project with a mission to inform the public about the value of digital privacy, and about global government initiatives which aim to monitor your online activity. Our website is free of advertisements and not affiliated with any of the listed providers.
 
-[:octicons-heart-16:{.pg-red} Make a Donation](about/donate.md){ .md-button .md-button--primary }
+[:material-heart:{.pg-red} Make a Donation](about/donate.md){ .md-button .md-button--primary }
 [:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
+
+## Staff
+
+[**Jonah Aragon**](https://www.jonaharagon.com) is the Project Director and staff writer at *Privacy Guides*. His role includes researching and writing for this website, system administration, creating *Privacy Guides Online Learning* course content, reviewing the products recommended here, and most other day-to-day tasks.
+
+<div class="grid" markdown>
+
+[:simple-discourse: Discourse (preferred): @jonah](https://discuss.privacyguides.net/u/jonah)
+
+[:material-email: Email: jonah@privacyguides.org](mailto:jonah@privacyguides.org)
+
+[:simple-mastodon: Mastodon: @jonah@neat.computer](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
+
+[:simple-signal: Signal: @jonah.01](https://signal.me/#eu/dDtlmTPv09utyEJPwCHq8UYs-AVOPlys8weinr7alfdylK5G-LNIX7GasDNJdV6y)
+
+</div>
+
+*The Project Director is a part-time position which reports directly to the executive committee.*
+
+---
+
+[Open Positions :material-arrow-right-drop-circle:](about/jobs.md)
 
 ## Executive Committee
 <!-- markdownlint-disable MD030 -->
@@ -30,13 +52,6 @@ schema:
 The project executive committee consists of five volunteers charged with management of the [MAGIC Privacy Guides Fund](https://magicgrants.org/funds/privacy_guides), making most critical project-related decisions.
 
 <div class="grid cards" markdown>
-<!--  Every team member should have a unique emoji.
-      Team member cards should include ONLY the following links:
-      - Discourse Profile
-      - ONE Link of team member's choice
-      - Email if applicable
-      This is to keep it fair and not spammy, especially as we grow.
--->
 
 -   :polar_bear:{ .lg .middle } **Daniel Gray**
 
@@ -66,7 +81,7 @@ The project executive committee consists of five volunteers charged with managem
 
     ---
 
-    :material-text-account: Founder
+    :material-text-account: Founder, Director
 
     [:material-account: Profile](https://discuss.privacyguides.net/u/jonah)
 
