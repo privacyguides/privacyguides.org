@@ -44,7 +44,7 @@
 
 The current list of team members can be found [here](https://www.privacyguides.org/en/about/#executive-committee). Additionally, [many people](#contributors) have made contributions to the project, and you can too!
 
-*Featured on: [Tweakers](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html), [The New York Times](https://nytimes.com/wirecutter/guides/online-security-social-media-privacy), and [Wired](https://wired.com/story/firefox-mozilla-2022)*
+*Featured on: [Tweakers](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html), [The New York Times](https://nytimes.com/wirecutter/guides/online-security-social-media-privacy), [Wired](https://wired.com/story/firefox-mozilla-2022), and [Fast Company](https://www.fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again).*
 
 ## Contributing
 
