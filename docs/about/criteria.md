@@ -5,7 +5,7 @@ title: General Criteria
 Below are some general priorities we consider for all submissions to Privacy Guides. Each category will have additional requirements for inclusion.
 
 - **Security**: Tools should follow security best-practices wherever applicable.
-- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives. Our definition of Open-source follows the [OSI definition](https://opensource.org/osd). Licenses not under the OSI are allowed as long as they are compatible with the OSI definition. Open-source part is only mandatory for pages with "Open-source" as a minimum requirement.
+- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives. Our definition of Open-source follows the [OSI definition](https://opensource.org/osd). Licenses not under the OSI are allowed as long as they are compatible with the OSI definition. The Open-source part is only mandatory for pages with "Open-source" as a minimum requirement.
 - **Cross-Platform Availability**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
 - **Active Development**: The tools that we recommend should be actively developed, unmaintained projects will be removed in most cases.
 - **Usability**: Tools should be accessible to most computer users, an overly technical background should not be required.
