@@ -13,12 +13,12 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 
 ## Ente Photos
 
-<div class="admonition recommendation" markdown>
+<div class="admonition recommendation annotate" markdown>
 
 ![Ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![Ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open-source, both on the client side and on the server side. It is also [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). The free plan offers 5GB of storage as long as you use the service at least once a year.
+**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open-source, both on the client side and on the server side. It is also [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting) (1). The free plan offers 5GB of storage as long as you use the service at least once a year.
 
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
@@ -40,6 +40,8 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 </details>
 
 </div>
+
+1. Self-hosting requires more in-depth technical knowledge to utilize safely without compromising your privacy and security. We recommend avoiding self-hosting unless you have adequately researched the risks of self-hosting, as it can leave you worse off than using an E2EE service provider.
 
 Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
 
