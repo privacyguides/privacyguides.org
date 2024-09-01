@@ -484,7 +484,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 - ![Duck AI logo](assets/img/ai/duckai.svg){ .twemoji loading=lazy }[Duck AI](ai-chatbots.md#duckduckgo-ai)
 - ![Leo AI logo](assets/img/ai/leo.svg){ .twemoji loading=lazy }[Brave Leo](ai-chatbots.md#brave-leo)
-- ![Kobold logo](assets/img/ai/kobold.svg) { .twemoji loading=lazy }[Kobold.cpp](ai-chatbots.md#kobold.cpp)
+- ![Kobold logo](assets/img/ai/kobold.svg) { .twemoji loading=lazy }[Kobold.cpp](ai-chatbots.md#koboldcpp)
 - ![Llamafile logo](assets/img/ai/llamafile.svg){ .twemoji loading=lazy }[Llamafile](ai-chatbots.md#llamafile)
 - ![Ollama logo](assets/img/ai/ollama.svg){ .twemoji loading=lazy }[Ollama](ai-chatbots.md#ollama)
 
