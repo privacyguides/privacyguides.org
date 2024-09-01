@@ -9,7 +9,7 @@ Since the release of ChatGPT by OpenAI in December 2022, talking with Largue Lan
 
 ## Recommended Providers
 
-The recommendations for online providers here do not train their models using your chats and do not retain your chats for more than 14 days, based on each service's privacy policy. There is no guarantee that these privacy policies are honored. 
+The recommendations for online providers here do not train their models using your chats and do not retain your chats for more than 14 days, based on each service's privacy policy. There is no guarantee that these privacy policies are honored.
 
 ## Cloud providers
 When using cloud-based AI chatbots, be mindful of the personal information you share. Even if a service doesn't store your conversations, there's still a risk of sensitive data being exposed or misused. **Do not share sensitive information** related to health, finance, or other highly personal matters to protect your privacy and security.
@@ -19,7 +19,7 @@ When using cloud-based AI chatbots, be mindful of the personal information you s
 
 ![DuckDuckGo logo](assets/img/ai-chatbots/duckai.svg){align=right}
 
-**DuckDuckGo AI Chat** is made by the popular [search engine provider] (docs/search-engines.md) and is available directly in the search engine. 
+**DuckDuckGo AI Chat** is made by the popular [search engine provider] (docs/search-engines.md) and is available directly in the search engine.
 
 [:octicons-home-16: Homepage](https://duck.ai){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/aichat){ .card-link title="Onion Service" }
@@ -60,7 +60,7 @@ Brave Leo supports a variety of models, including open-source models from Meta a
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Page content is sent by default </p>
-We recommend manually switching off the "Use page context for response" toggle for pages with PII. 
+We recommend manually switching off the "Use page context for response" toggle for pages with PII.
 </div>
 <div class="admonition danger" markdown>
 <p class="admonition-title">Claude chats are kept for 30 days </p>
@@ -94,7 +94,7 @@ Kobold.cpp is an AI client that runs locally on your Windows or Linux computer.
 Kobold.cpp might not run on computers without AVX/AVX2 support.
 </div>
 
-### Ollama 
+### Ollama
 <div class="admonition recommendation" markdown>
 ![Ollama Logo](assets/img/ai-chatbots/ollama.svg){align=right}
 
@@ -124,7 +124,7 @@ The Mozzila-run project also supports LLava, a text and vision model. However, i
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Few models available </p>
-While llamafile does support the most popular models, it doesn't support more than a dozen models, due to them using a custom file format. Another issue is that Windows limits .exe files to 4GB size, and most models are more than this size. To fix those issues, you can load external models, as detailled [here](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#using-llamafile-with-external-weights). 
+While llamafile does support the most popular models, it doesn't support more than a dozen models, due to them using a custom file format. Another issue is that Windows limits .exe files to 4GB size, and most models are more than this size. To fix those issues, you can load external models, as detailled [here](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#using-llamafile-with-external-weights).
 </div>
 ## Criteria
 
