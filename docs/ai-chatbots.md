@@ -47,7 +47,7 @@ You will have to trust the together.ai cloud platform to honor their comitments 
 
 ![Brave Logo](assets/img/ai-chatbots/leo.svg){align=right}
 
-**Brave Leo** is an AI assistant available inside the [Brave browser](docs/desktop-browsers.md#brave), a browser which we recommend.
+**Brave Leo** is an AI assistant available inside the [Brave browser](desktop-browsers.md#brave), a browser which we recommend.
 
 [:octicons-home-16: Homepage](https://brave.com/leo){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://brave.com/privacy/browser/#brave-leo){ .card-link title="Privacy Policy" }
