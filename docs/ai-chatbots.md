@@ -17,7 +17,7 @@ When using cloud-based AI chatbots, be mindful of the personal information you s
 ### DuckDuckGo AI Chat
 <div class="admonition recommendation" markdown>
 
-![DuckDuckGo logo](/assets/img/ai-chatbots/duckai.svg){align=right}
+![DuckDuckGo logo](assets/img/ai-chatbots/duckai.svg){align=right}
 
 **DuckDuckGo AI Chat** is made by the popular [seach engine provider] (https://www.privacyguides.org/en/search-engines) and is available directly in the search engine. 
 
@@ -77,7 +77,7 @@ To run basic AI models you will fortunately not need a high-end computer. A comp
 ### Kobold.cpp
 <div class="admonition recommendation" markdown>
 
-![Kobold.cpp Logo](/assets/img/ai-chatbots/kobold.svg){align=right}
+![Kobold.cpp Logo](assets/img/ai-chatbots/kobold.svg){align=right}
 
 Kobold.cpp is an AI client that runs locally on your Windows or Linux computer.
 
@@ -97,7 +97,7 @@ Kobold.cpp might not run on computers without AVX/AVX2 support.
 
 ### Ollama 
 <div class="admonition recommendation" markdown>
-![Ollama Logo](/assets/img/ai-chatbots/ollama.svg){align=right}
+![Ollama Logo](assets/img/ai-chatbots/ollama.svg){align=right}
 
 Ollama is a command line AI assitant that is available on macOS, Linux and Windows(preview).
 
@@ -113,7 +113,7 @@ You can run models from Meta, Mistral, Microsoft, Google etc. You can also use [
 ### llamafile
 <div class="admonition recommendation" markdown>
 
-![llamafile Logo](/assets/img/ai-chatbots/llamafile.svg){align=right}
+![llamafile Logo](assets/img/ai-chatbots/llamafile.svg){align=right}
 
 Llamafile is a single-file executable that allows users to run large language models locally on their own computers, without any setup involved. It is available on Linux, macOS and Windows.
 [:octicons-home-16: Homepage](https://github.com/Mozilla-Ocho/llamafile/)
