@@ -21,7 +21,7 @@ When using cloud-based AI chatbots, be mindful of the personal information you s
 
 **DuckDuckGo AI Chat** is made by the popular [seach engine provider] (https://www.privacyguides.org/en/search-engines) and is available directly in the search engine. 
 
-[:octicons-home-16: Homepage](https://duck.ai)
+[:octicons-home-16: Homepage](https://duck.ai){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/aichat){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://duckduckgo.com/aichat/privacy-terms){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://help.duckduckgo.com){ .card-link title=Documentation}
@@ -49,7 +49,7 @@ You will have to trust the together.ai cloud platform to honor their comitments 
 
 **Brave Leo** is an AI assistant available inside the Brave browser, a browser which we recommend.
 
-[:octicons-home-16: Homepage](https://brave.com/leo)
+[:octicons-home-16: Homepage](https://brave.com/leo){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://brave.com/privacy/browser/#brave-leo){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/brave/brave-browser/wiki/Brave-Leo){ .card-link title=Documentation}
 
@@ -81,7 +81,7 @@ To run basic AI models you will fortunately not need a high-end computer. A comp
 
 Kobold.cpp is an AI client that runs locally on your Windows or Linux computer.
 
-[:octicons-home-16: Homepage](https://github.com/LostRuins/koboldcpp)
+[:octicons-home-16: Homepage](https://github.com/LostRuins/koboldcpp){ .md-button .md-button--primary }
 [:octicons-books-16:](https://github.com/LostRuins/koboldcpp?tab=readme-ov-file#notes) {.card-link title=" Models supported"}
 [:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Source Code" }
@@ -101,8 +101,7 @@ Kobold.cpp might not run on computers without AVX/AVX2 support.
 
 Ollama is a command line AI assitant that is available on macOS, Linux and Windows(preview).
 
-[:octicons-home-16: Homepage](https://github.com/ollama/ollama)
-[:octicons-book-16:](https://ollama.com/library) {.card-link title=" Models supported"}
+[:octicons-home-16: Homepage](https://github.com/ollama/ollama){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/ollama/ollama){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Source Code"}
 
@@ -116,8 +115,7 @@ You can run models from Meta, Mistral, Microsoft, Google etc. You can also use [
 ![llamafile Logo](assets/img/ai-chatbots/llamafile.svg){align=right}
 
 Llamafile is a single-file executable that allows users to run large language models locally on their own computers, without any setup involved. It is available on Linux, macOS and Windows.
-[:octicons-home-16: Homepage](https://github.com/Mozilla-Ocho/llamafile/)
-[:octicons-book-16:]( https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#other-example-llamafiles){.card-link title="Models supported"}
+[:octicons-home-16: Homepage](https://github.com/Mozilla-Ocho/llamafile/){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile/?tab=readme-ov-file#llamafile){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Source Code"}
 [:octicons-lock-16:](hhttps://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#security){ .card-link title="Security Policy"}
@@ -128,7 +126,7 @@ The Mozzila-run project also supports LLava, a text and vision model. However, i
 <div class="admonition note" markdown>
 <p class="admonition-title">Few models available </p>
 While llamafile does support the most popular models, it doesn't support more than a dozen models, due to them using a custom file format. Another issue is that Windows limits .exe files to 4GB size, and most models are more than this size. To fix those issues, you can load external models, as detailled [here](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#using-llamafile-with-external-weights). 
-
+</div>
 ## Criteria
 
 Please note we are not affiliated with any of the projects we recommend. In addition to our standard criteria, we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
