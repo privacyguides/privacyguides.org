@@ -19,7 +19,7 @@ When using cloud-based AI chatbots, be mindful of the personal information you s
 
 ![DuckDuckGo logo](assets/img/ai-chatbots/duckai.svg){align=right}
 
-**DuckDuckGo AI Chat** is made by the popular [seach engine provider] (https://www.privacyguides.org/en/search-engines) and is available directly in the search engine. 
+**DuckDuckGo AI Chat** is made by the popular [search engine provider] (docs/search-engines.md) and is available directly in the search engine. 
 
 [:octicons-home-16: Homepage](https://duck.ai){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/aichat){ .card-link title="Onion Service" }
@@ -30,7 +30,7 @@ When using cloud-based AI chatbots, be mindful of the personal information you s
 
 DuckDuckGo offers proprietary models from Anthropic and Open AI, as well as open-source models from Meta and Mixtral. To protect your privacy, DuckDuckGo proxies your chats through their servers. The privacy policy states that providers are "deleting all information received once it is no longer necessary to provide Outputs (at most within 30 days with limited exceptions for safety and legal compliance)." For open-weights models, Duck uses together.ai and Duck has "disabled chat history by turning on the option to "not store prompts and responses" on the together.ai platform.".
 
- It is available directly on (DuckDuckGo)[https://duckduckgo.com], or (duck.ai)[https://duck.ai]. It is also available on DDG's onion site.
+ It is available directly on [DuckDuckGo](https://duckduckgo.com), or [duck.ai](https://duck.ai). It is also available on DDG's onion site.
 <div class="admonition danger" markdown>
 <p class="admonition-title">Proprietary models providers retain your chats</p>
 Anthropic and OpenAI stores chats for up to 30 days. Do not use those models for anything you wouldn't want the World to know about.
@@ -47,7 +47,7 @@ You will have to trust the together.ai cloud platform to honor their comitments 
 
 ![Brave Logo](assets/img/ai-chatbots/leo.svg){align=right}
 
-**Brave Leo** is an AI assistant available inside the Brave browser, a browser which we recommend.
+**Brave Leo** is an AI assistant available inside the [Brave browser](docs/desktop-browsers.md#brave), a browser which we recommend.
 
 [:octicons-home-16: Homepage](https://brave.com/leo){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://brave.com/privacy/browser/#brave-leo){ .card-link title="Privacy Policy" }
