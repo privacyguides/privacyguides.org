@@ -82,7 +82,6 @@ To run basic AI models you will fortunately not need a high-end computer. A comp
 Kobold.cpp is an AI client that runs locally on your Windows or Linux computer.
 
 [:octicons-home-16: Homepage](https://github.com/LostRuins/koboldcpp){ .md-button .md-button--primary }
-[:octicons-books-16:](https://github.com/LostRuins/koboldcpp?tab=readme-ov-file#notes) {.card-link title=" Models supported"}
 [:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Source Code" }
 [:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy"}
