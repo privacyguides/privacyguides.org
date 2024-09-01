@@ -17,7 +17,7 @@ When using cloud-based AI chatbots, be mindful of the personal information you s
 ### DuckDuckGo AI Chat
 <div class="admonition recommendation" markdown>
 
-![DuckDuckGo logo](theme/assets/img/ai/duckchat.svg){align=right}
+![DuckDuckGo logo](theme/assets/img/ai/duckai.svg){align=right}
 
 **DuckDuckGo AI Chat** is made by the popular [seach engine provider] (https://www.privacyguides.org/en/search-engines) and is available directly in the search engine. 
 
@@ -46,7 +46,7 @@ You will have to trust the together.ai cloud platform to honor their comitments 
 
 <div class="admonition recommendation" markdown>
 
-![Brave Logo](assets/img/browsers/brave.svg){align=right}
+![Brave Logo](assets/img/ai/leo.svg){align=right}
 
 **Brave Leo** is an AI assistant available inside the Brave browser, a browser which we recommend.
 
@@ -78,7 +78,7 @@ To run basic AI models you will fortunately not need a high-end computer. A comp
 ### Kobold.cpp
 <div class="admonition recommendation" markdown>
 
-![Kobold.cpp Logo](theme/assets/img/ai/koboldcpp.webp){align=right}
+![Kobold.cpp Logo](theme/assets/img/ai/kobold.svg){align=right}
 
 Kobold.cpp is an AI client that runs locally on your Windows or Linux computer.
 
@@ -98,7 +98,7 @@ Kobold.cpp might not run on computers without AVX/AVX2 support.
 
 ### Ollama 
 <div class="admonition recommendation" markdown>
-![Ollama Logo](theme/assets/img/ai/ollama.ico){align=right}
+![Ollama Logo](theme/assets/img/ai/ollama.svg){align=right}
 
 Ollama is a command line AI assitant that is available on macOS, Linux and Windows(preview).
 
@@ -114,7 +114,7 @@ You can run models from Meta, Mistral, Microsoft, Google etc. You can also use [
 ### llamafile
 <div class="admonition recommendation" markdown>
 
-![llamafile Logo](theme/assets/img/ai/llamafile.png){align=right}
+![llamafile Logo](theme/assets/img/ai/llamafile.svg){align=right}
 
 Llamafile is a single-file executable that allows users to run large language models locally on their own computers, without any setup involved. It is available on Linux, macOS and Windows.
 [:octicons-home-16: Homepage](https://github.com/Mozilla-Ocho/llamafile/)
