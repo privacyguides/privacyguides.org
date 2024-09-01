@@ -30,8 +30,7 @@ When using cloud-based AI chatbots, be mindful of the personal information you s
 
 DuckDuckGo offers proprietary models from Anthropic and Open AI, as well as open-source models from Meta and Mixtral. To protect your privacy, DuckDuckGo proxies your chats through their servers. The privacy policy states that providers are "deleting all information received once it is no longer necessary to provide Outputs (at most within 30 days with limited exceptions for safety and legal compliance)." For open-weights models, Duck uses together.ai and Duck has "disabled chat history by turning on the option to "not store prompts and responses" on the together.ai platform.".
 
- It is available directly on the (DuckDuckGo)[duckduckgo.com] search engine, including on the Tor hidden site. The later guarantees that you have "unlimited" rate limits for the use of the chatbot.
-
+ It is available directly on (DuckDuckGo)[https://duckduckgo.com], or (duck.ai)[https://duck.ai]. It is also available on DDG's onion site.
 <div class="admonition danger" markdown>
 <p class="admonition-title">Proprietary models providers retain your chats</p>
 Anthropic and OpenAI stores chats for up to 30 days. Do not use those models for anything you wouldn't want the World to know about.
