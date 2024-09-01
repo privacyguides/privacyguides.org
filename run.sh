@@ -84,13 +84,15 @@ if [ "$language" != "en" ]; then
   export BUILD_DOCS_DIR="i18n/$language"
   export BUILD_EDIT_URI_TEMPLATE="https://github.com/privacyguides/i18n/blob/main/i18n/$language/{path}?plain=1"
   export BUILD_SITE_DIR="site/$language"
-  export BUILD_SITE_URL="https://privacyguides.org/$language"
+  export BUILD_SITE_URL="https://www.privacyguides.org/$language"
   export BUILD_THEME_LANGUAGE="$language"
-  set -a
+fi
+
+# Source per-language strings
+set -a
   # shellcheck disable=SC1090
   source "$PWD/includes/strings.$language.env"
-  set +a
-fi
+set +a
 
 # Set font if hebrew
 if [ "$language" == "he" ]; then
@@ -127,7 +129,13 @@ markdown_extensions:
   material.extensions.preview:
     sources:
       exclude:
+        - index.md
         - tools.md
+        - about.md
+        - about/*
+    targets:
+      exclude:
+        - about/contributors.md
 EOT
   trap 'rm $PWD/.mkdocs-insiders-$random_num.yml' EXIT
 fi

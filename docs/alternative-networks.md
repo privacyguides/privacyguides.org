@@ -4,10 +4,15 @@ icon: material/vector-polygon
 description: These tools allow you to access networks other than the World Wide Web.
 cover: alternative-networks.webp
 ---
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
 ## Anonymizing Networks
 
-When it comes to anonymizing networks, we want to specially note that [Tor](advanced/tor-overview.md) is our top choice. It is by far the most utilized, robustly studied, and actively developed anonymous network. Using other networks could be more likely to endanger your anonymity, unless you know what you're doing.
+When it comes to anonymizing networks, we want to specially note that [Tor](advanced/tor-overview.md) is our top choice. It is by far the most utilized, robustly studied, and actively developed anonymous network. Using other networks could be more likely to endanger your [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }, unless you know what you're doing.
 
 ### Tor
 
@@ -15,7 +20,7 @@ When it comes to anonymizing networks, we want to specially note that [Tor](adva
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
-The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
+The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } circumvention tool.
 
 [:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
@@ -83,7 +88,7 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.i2p.android)
 - [:simple-android: Android](https://geti2p.net/en/download#android)
-- [:simple-windows11: Windows](https://geti2p.net/en/download#windows)
+- [:fontawesome-brands-windows: Windows](https://geti2p.net/en/download#windows)
 - [:simple-apple: macOS](https://geti2p.net/en/download#mac)
 - [:simple-linux: Linux](https://geti2p.net/en/download#unix)
 
@@ -100,8 +105,8 @@ You can try connecting to *Privacy Guides* via I2P at [privacyguides.i2p](http:/
 
 </div>
 
-Also unlike Tor, every I2P node will relay traffic for other users by default, instead of relying on dedicated relay volunteers to run nodes. There are approximately [10,000](https://metrics.torproject.org/networksize.html) relays and bridges on the Tor network compared to ~50,000 on I2P, meaning there is potentially more ways for your traffic to be routed to maximize anonymity. I2P also tends to be more performant than Tor, although this is likely a side-effect of Tor being more focused on regular "clearnet" internet traffic and thus using more bottlenecked exit nodes. Hidden service performance is generally considered to be much better on I2P compared to Tor. While running P2P applications like BitTorrent is challenging on Tor (and can massively impact Tor network performance), it is very easy and performant on I2P.
+Also, unlike Tor, every I2P node will relay traffic for other users by default, instead of relying on dedicated relay volunteers to run nodes. There are approximately [10,000](https://metrics.torproject.org/networksize.html) relays and bridges on the Tor network compared to ~50,000 on I2P, meaning there is potentially more ways for your traffic to be routed to maximize anonymity. I2P also tends to be more performant than Tor, although this is likely a side-effect of Tor being more focused on regular "clearnet" internet traffic and thus using more bottlenecked exit nodes. Hidden service performance is generally considered to be much better on I2P compared to Tor. While running P2P applications like BitTorrent is challenging on Tor (and can massively impact Tor network performance), it is very easy and performant on I2P.
 
-There are downsides to I2P's approach, however. Tor relying on dedicated exit nodes means more people in less safe environments can use it, and the relays that do exist on Tor are likely to be more performant and stable, as they generally aren't run on residential connections. Tor is also far more focused on **browser privacy** (i.e. anti-fingerprinting), with a dedicated [Tor Browser](tor.md) to make browsing activity as anonymous as possible. I2P is used via your [regular web browser](desktop-browsers.md), and while you can configure your browser to be more privacy-protecting, you probably still won't have the same browser fingerprint as other I2P users, there's no "crowd" to blend in with in that regard.
+There are downsides to I2P's approach, however. Tor relying on dedicated exit nodes means more people in less safe environments can use it, and the relays that do exist on Tor are likely to be more performant and stable, as they generally aren't run on residential connections. Tor is also far more focused on **browser privacy** (i.e. anti-fingerprinting), with a dedicated [Tor Browser](tor.md) to make browsing activity as anonymous as possible. I2P is used via your [regular web browser](desktop-browsers.md), and while you can configure your browser to be more privacy-protecting, you probably still won't have the same browser fingerprint as other I2P users (there's no "crowd" to blend in with in that regard).
 
-Tor is likely to be more resistant to censorship, due to their robust network of bridges and varying [pluggable transports](https://tb-manual.torproject.org/circumvention), but on the other hand I2P uses directory servers for the initial connection which are varying/untrusted and run by volunteers, compared to the hard-coded/trusted ones Tor uses which are likely easier to block.
+Tor is likely to be more resistant to censorship, due to their robust network of bridges and varying [pluggable transports](https://tb-manual.torproject.org/circumvention). On the other hand, I2P uses directory servers for the initial connection which are varying/untrusted and run by volunteers, compared to the hard-coded/trusted ones Tor uses which are likely easier to block.

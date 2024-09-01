@@ -2,7 +2,7 @@
 meta_title: "Privacy Respecting Web Browsers for PC and Mac - Privacy Guides"
 title: "Desktop Browsers"
 icon: material/laptop
-description: These web browsers provide stronger privacy protections than Google Chrome.
+description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
 cover: desktop-browsers.webp
 schema:
   -
@@ -56,7 +56,11 @@ schema:
       "@type": WebPage
       url: "./"
 ---
-These are our currently recommended desktop web browsers and configurations for standard/non-anonymous browsing. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+
+These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
 
 If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
 
@@ -66,7 +70,7 @@ If you need to browse the internet anonymously, you should use [Tor](tor.md) ins
 
 ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
+**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
 
 [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
@@ -76,7 +80,7 @@ If you need to browse the internet anonymously, you should use [Tor](tor.md) ins
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
+- [:fontawesome-brands-windows: Windows](https://mullvad.net/en/download/browser/windows)
 - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
 - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
 
@@ -123,7 +127,7 @@ Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://mozilla.org/firefox/windows)
+- [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
 - [:simple-apple: macOS](https://mozilla.org/firefox/mac)
 - [:simple-linux: Linux](https://mozilla.org/firefox/linux)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
@@ -141,7 +145,7 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 ### Recommended Firefox Configuration
 
-These options can be found in :material-menu: → **Settings**
+These options can be found in :material-menu: → **Settings**.
 
 #### Search
 
@@ -187,6 +191,12 @@ Additionally, the Mozilla Accounts service collects [some technical data](https:
 1. Open your [profile settings on accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Uncheck **Data Collection and Use** > **Help improve Firefox Accounts**
 
+##### Website Advertising Preferences
+
+- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+
+With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+
 ##### HTTPS-Only Mode
 
 - [x] Select **Enable HTTPS-Only Mode in all windows**
@@ -214,7 +224,7 @@ Max Protection enforces the use of DNS over HTTPS, and a security warning will s
 
 </div>
 
-The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly - [which you can easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
 
 Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
 
@@ -238,7 +248,7 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 <summary>Downloads</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-- [:simple-windows11: Windows](https://brave.com/download)
+- [:fontawesome-brands-windows: Windows](https://brave.com/download)
 - [:simple-apple: macOS](https://brave.com/download)
 - [:simple-linux: Linux](https://brave.com/linux)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.brave.Browser)
@@ -246,8 +256,6 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 </details>
 
 </div>
-
-**macOS users:** The download for Brave Browser from their official website is a `.pkg` installer which requires admin privileges to run (and may run other unnecessary scripts on your machine). As an alternative, you can download the latest `Brave-Browser-universal.dmg` file from their [GitHub releases](https://github.com/brave/brave-browser/releases/latest) page, which provides a traditional "drag to Applications folder" install.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
@@ -260,9 +268,7 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 These options can be found in :material-menu: → **Settings**.
 
-#### Settings
-
-##### Shields
+#### Shields
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
@@ -270,8 +276,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 <div class="annotate" markdown>
 
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
-- [x] Select **Aggressive** under Trackers & ads blocking
+- [x] Select **Aggressive** under *Trackers & ads blocking*
 
 <details class="warning" markdown>
 <summary>Use default filter lists</summary>
@@ -280,9 +285,10 @@ Brave allows you to select additional content filters within the internal `brave
 
 </details>
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] Select **Strict** under *Upgrade connections to HTTPS*
 - [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Check **Block fingerprinting**
+- [x] Select **Block third-party cookies**
 - [x] Check **Forget me when I close this site** (2)
 - [ ] Uncheck all social media components
 
@@ -291,45 +297,54 @@ Brave allows you to select additional content filters within the internal `brave
 1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode).
 2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
 
-##### Privacy and security
+#### Privacy and security
 
 <div class="annotate" markdown>
 
+- [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
+- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
 - [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
 - [ ] Uncheck **Use Google services for push messaging**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Private window with Tor** (1)
+- [x] Select **Auto-redirect AMP pages**
+- [x] Select **Auto-redirect tracking URLs**
+- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
 
 </div>
 
-1. Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. Where [strong anonymity is required](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) use the [Tor Browser](tor.md#tor-browser).
+1. Disabling the V8 optimizer reduces your attack surface by disabling [*some*](https://grapheneos.social/@GrapheneOS/112708049232710156) parts of JavaScript Just-In-Time (JIT) compilation.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Sanitizing on close</p>
 
-- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**
+- [x] Select **Delete data sites have saved to your device when you close all windows** under *Sites and Shields Settings* → *Content* → *Additional content settings* → *On-device site data*.
 
 If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
 </div>
 
-##### Extensions
+##### Tor windows
 
-Disable built-in extensions you do not use in **Extensions**
+[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
 
-- [ ] Uncheck **Hangouts**
-- [ ] Uncheck **WebTorrent**
+##### Data Collection
 
-##### Web3
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [ ] Uncheck **Automatically send diagnostic reports**
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of features, they should be disabled.
+#### Web3
 
-- Select **Extensions (no fallback)** under Default Ethereum wallet and Default Solana wallet
-- Set **Method to resolve IPFS resources** to **Disabled**
+Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
 
-##### System
+- Select **Extensions (no fallback)** under *Default Ethereum wallet*
+- Select **Extensions (no fallback)** under *Default Solana wallet*
+- Set *Method to resolve IPFS resources* to **Disabled**
+
+#### Extensions
+
+- [ ] Uncheck all built-in extensions you don't use
+
+#### System
 
 <div class="annotate" markdown>
 
@@ -345,7 +360,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 #### Brave Rewards and Wallet
 
-**Brave Rewards** lets you recieve Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#other-coins-bitcoin-ethereum-etc), so we would discourage using this feature.
+**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 **Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
@@ -358,24 +373,24 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 ### Minimum Requirements
 
 - Must be open-source software.
-- Supports automatic updates.
-- Receives engine updates in 0-1 days from upstream release.
-- Available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
-- Blocks third-party cookies by default.
-- Supports [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Must support automatic updates.
+- Must receive engine updates in 0-1 days from upstream release.
+- Must be available on Linux, macOS, and Windows.
+- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
+- Must block third-party cookies by default.
+- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 ### Best-Case
 
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
-- Includes built-in content blocking functionality.
-- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Supports Progressive Web Apps.
-  PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
-- Does not include add-on functionality (bloatware) that does not impact user privacy.
-- Does not collect telemetry by default.
-- Provides open-source sync server implementation.
-- Defaults to a [private search engine](search-engines.md).
+- Should include built-in content blocking functionality.
+- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
+- Should support Progressive Web Apps.
+  PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because PWAs benefit from your browser's regular security updates.
+- Should not include add-on functionality (bloatware) that does not impact user privacy.
+- Should not collect telemetry by default.
+- Should provide an open-source sync server implementation.
+- Should default to a [private search engine](search-engines.md).
 
 [^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).

@@ -69,6 +69,7 @@ jobs:
       lang: en
       continue-on-error: false
       privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
+      strict: true
 
   build_i18n:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build i18n') }}
@@ -84,13 +85,25 @@ jobs:
       lang: ${{ matrix.lang }}
       continue-on-error: true
       privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
+      strict: true
+
+  build_blog:
+    if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build blog') }}
+    needs: [submodule, metadata]
+    uses: ./.github/workflows/build-blog.yml
+    with:
+      ref: ${{github.event.pull_request.head.ref}}
+      repo: ${{github.event.pull_request.head.repo.full_name}}
+      continue-on-error: true
+      privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
 
   combine_build:
-    needs: [build_english, build_i18n]
+    needs: [build_english, build_i18n, build_blog]
     if: |
       (always() && !cancelled() && !failure()) &&
       needs.build_english.result == 'success' &&
-      (needs.build_i18n.result == 'success' || needs.build_i18n.result == 'skipped')
+      (needs.build_i18n.result == 'success' || needs.build_i18n.result == 'skipped') &&
+      (needs.build_blog.result == 'success' || needs.build_blog.result == 'skipped')
 
     runs-on: ubuntu-latest
     steps:
@@ -112,5 +125,5 @@ jobs:
 
   cleanup:
     if: ${{ always() }}
-    needs: [build_english, build_i18n]
+    needs: [build_english, build_i18n, build_blog]
     uses: privacyguides/.github/.github/workflows/cleanup.yml@main

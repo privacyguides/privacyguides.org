@@ -36,7 +36,11 @@ schema:
       "@type": WebPage
       url: "./"
 ---
-These are our currently recommended mobile web browsers and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. In general, we recommend keeping extensions to a minimum; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+
+These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead.
 
 ## Android
 
@@ -91,10 +95,13 @@ Brave allows you to select additional content filters within the internal `brave
 
 </details>
 
-- [x] Select **Upgrade connections to HTTPS**
-- [x] Select **Always use secure connections**
+- [x] Select **Auto-redirect AMP pages**
+- [x] Select **Auto-redirect tracking URLs**
+- [x] Select **strict** under **Upgrade connections to HTTPS**
 - [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under **Block fingerprinting**
+- [x] Select **Block third-party cookies** under **Block Cookies**
+- [x] Select **Block fingerprinting**
+- [x] Select **Prevent fingerprinting via language settings**
 
 </div>
 
@@ -113,8 +120,9 @@ Brave allows you to select additional content filters within the internal `brave
 <div class="annotate" markdown>
 
 - [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [x] (Optional) Select **No protection** under **Safe Browsing** (1)
 - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (1)
+- [ ] Uncheck **IPFS Gateway** (2)
 - [x] Select **Close tabs on exit**
 - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
 - [ ] Uncheck **Automatically send diagnostic reports**
@@ -122,20 +130,20 @@ Brave allows you to select additional content filters within the internal `brave
 
 </div>
 
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
+2. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+
+#### Leo
+
+These options can be found in :material-menu: → **Settings** → **Leo**
+
+- [ ] Uncheck **Show autocomplete suggestions in address bar**
 
 #### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
 ### Mull
-
-<div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
-
-Firefox (Gecko)-based browsers on Android [lack per-site process isolation](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196), a powerful security feature that offers additional protection against a malicious website exploiting a security vulnerability. Missing this feature likely won't pose an issue for low-risk web browsers who keep their browser up-to-date, but those visiting higher-risk sites or at risk of targeted/0-day attacks should strongly consider a Chromium-based browser like [Brave](#brave) instead.
-
-</div>
 
 <div class="admonition recommendation" markdown>
 
@@ -157,7 +165,17 @@ Firefox (Gecko)-based browsers on Android [lack per-site process isolation](http
 
 </div>
 
-Enable DivestOS's [F-Droid Repo](https://divestos.org/fdroid/official) to receive updates directly from the developer. Downloading Mull from the default F-Droid repo will mean your updates could be delayed by a few days or longer.
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
+
+Firefox (Gecko)-based browsers on Android [lack](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) [site isolation](https://wiki.mozilla.org/Project_Fission),[^1] a powerful security feature that protects against a malicious site performing a [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability))-like attack to gain access to the memory of another website you have open.[^2] Chromium-based browsers like [Brave](#brave) will provide more robust protection against malicious websites.
+
+</div>
+
+[^1]: This should not be mistaken for [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) (or dynamic [first party isolation](https://2019.www.torproject.org/projects/torbrowser/design/#identifier-linkability)), where website data such as cookies and cache is restricted so that a third-party embedded in one top-level site cannot access data stored under another top-level site. This is an important privacy feature to prevent cross-site tracking and **is** supported by Firefox on Android.
+[^2]: GeckoView also [does not](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196) take advantage of Android's native process sandboxing by using the [isolatedProcess](https://developer.android.com/guide/topics/manifest/service-element#isolated) flag, which normally allows an app to safely run less trusted code in a separate process that has no permissions of its own.
+
+Enable DivestOS's [F-Droid repository](https://divestos.org/fdroid/official) to receive updates directly from the developer. Downloading Mull from the default F-Droid repo will mean your updates could be delayed by a few days or longer.
 
 Mull enables many features upstreamed by the [Tor uplift project](https://wiki.mozilla.org/Security/Tor_Uplift) using preferences from [Arkenfox](desktop-browsers.md#arkenfox-advanced). Proprietary blobs are removed from Mozilla's code using the scripts developed for Fennec F-Droid.
 
@@ -166,6 +184,8 @@ Mull enables many features upstreamed by the [Tor uplift project](https://wiki.m
 We would suggest installing [uBlock Origin](browser-extensions.md#ublock-origin) as a content blocker if you want to block trackers within Mull.
 
 Mull comes with privacy protecting settings configured by default. You might consider configuring the **Delete browsing data on quit** options in Mull's settings if you want to close all your open tabs when quitting the app automatically, or clear other data such as browsing history and cookies automatically.
+
+Because Mull has more advanced and strict privacy protections enabled by default compared to most browsers, some websites may not load or work properly unless you adjust those settings. You can consult this [list of known issues and workarounds](https://divestos.org/pages/broken#mull) for advice on a potential fix if you do encounter a broken site. Adjusting a setting in order to fix a website could impact your privacy/security, so make sure you fully understand any instructions you follow.
 
 ## iOS
 
@@ -177,11 +197,11 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 ![Safari logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
+**Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical), and Private Relay for those with a paid iCloud+ subscription. It also allows you to separate your browsing with different profiles and lock private tabs with your biometrics/PIN.
 
 [:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title=Documentation}
 
 </details>
 

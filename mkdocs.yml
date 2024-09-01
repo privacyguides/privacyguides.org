@@ -55,8 +55,7 @@ extra:
       license:
         - fontawesome/brands/creative-commons
         - fontawesome/brands/creative-commons-by
-        - fontawesome/brands/creative-commons-nd
-      analytics: !ENV [FOOTER_ANALYTICS, "Anonymous statistics preferences."]
+        - fontawesome/brands/creative-commons-sa
     homepage:
       description:
         !ENV [
@@ -235,24 +234,6 @@ extra:
           data: 0
           note:
             !ENV [ANALYTICS_FEEDBACK_NEGATIVE_NOTE, "Thanks for your feedback!"]
-  consent:
-    title: !ENV [ANALYTICS_CONSENT_TITLE, "Contribute anonymous statistics"]
-    description:
-      !ENV [
-        ANALYTICS_CONSENT_BODY,
-        "We use cookies to collect anonymous usage statistics. You can opt out if you wish.",
-      ]
-    cookies:
-      analytics:
-        name: !ENV [ANALYTICS_COOKIE_UMAMI, "Self-Hosted Analytics"]
-        checked: true
-      github:
-        name: !ENV [ANALYTICS_COOKIE_GITHUB, "GitHub API"]
-        checked: true
-    actions:
-      - reject
-      - accept
-      - manage
 
 repo_url:
   !ENV [BUILD_REPO_URL, "https://github.com/privacyguides/privacyguides.org"]
@@ -288,6 +269,7 @@ theme:
   icon:
     repo: simple/github
   features:
+    - announce.dismiss
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
@@ -300,11 +282,10 @@ theme:
     - search.highlight
 
 extra_css:
-  - assets/stylesheets/extra.css?v=1
+  - assets/stylesheets/extra.css?v=20240802
 extra_javascript:
-  - assets/javascripts/randomize-element.js?v=1
-  - assets/javascripts/resolution.js?v=1
-  - assets/javascripts/feedback.js?v=1
+  - assets/javascripts/randomize-element.js?v=20240801
+  - assets/javascripts/feedback.js?v=20240801
 
 watch:
   - theme
@@ -315,6 +296,8 @@ plugins:
   search: {}
   privacy:
     enabled: !ENV [BUILD_PRIVACY, true]
+  offline:
+    enabled: !ENV [BUILD_OFFLINE, false]
   group:
     enabled: !ENV [BUILD_INSIDERS, false]
     plugins:
@@ -390,6 +373,7 @@ nav:
       - !ENV [NAV_TECHNOLOGY_ESSENTIALS, "Technology Essentials"]:
           - "basics/passwords-overview.md"
           - "basics/multi-factor-authentication.md"
+          - "basics/hardware.md"
           - "basics/email-security.md"
           - "basics/vpn-overview.md"
       - !ENV [NAV_ADVANCED_TOPICS, "Advanced Topics"]:
@@ -398,12 +382,15 @@ nav:
           - "advanced/payments.md"
           - "advanced/communication-network-types.md"
       - !ENV [NAV_OPERATING_SYSTEMS, "Operating Systems"]:
+          - "os/index.md"
           - "os/android-overview.md"
           - "os/ios-overview.md"
           - "os/linux-overview.md"
           - "os/macos-overview.md"
           - "os/qubes-overview.md"
-      - kb-archive.md
+          - !ENV [NAV_OPERATING_SYSTEMS_WINDOWS, "Windows"]:
+              - "os/windows/index.md"
+              - "os/windows/group-policies.md"
   - !ENV [NAV_RECOMMENDATIONS, "Recommendations"]:
       - "tools.md"
       - !ENV [NAV_INTERNET_BROWSING, "Internet Browsing"]:
@@ -413,6 +400,7 @@ nav:
           - "browser-extensions.md"
       - !ENV [NAV_PROVIDERS, "Providers"]:
           - "cloud.md"
+          - "data-broker-removals.md"
           - "dns.md"
           - "email-aliasing.md"
           - "email.md"
@@ -424,35 +412,46 @@ nav:
           - "calendar.md"
           - "cryptocurrency.md"
           - "data-redaction.md"
+          - "document-collaboration.md"
           - "email-clients.md"
           - "encryption.md"
           - "file-sharing.md"
           - "frontends.md"
+          - "language-tools.md"
           - "multi-factor-authentication.md"
           - "news-aggregators.md"
           - "notebooks.md"
+          - "office-suites.md"
           - "passwords.md"
-          - "productivity.md"
+          - "pastebins.md"
           - "real-time-communication.md"
+      - !ENV [NAV_HARDWARE, "Hardware"]:
+          - "mobile-phones.md"
+          - "security-keys.md"
       - !ENV [NAV_OPERATING_SYSTEMS, "Operating Systems"]:
-          - "android.md"
+          - !ENV [NAV_ANDROID, "Android"]:
+              - "android/index.md"
+              - "android/distributions.md"
+              - "android/general-apps.md"
+              - "android/obtaining-apps.md"
           - "desktop.md"
           - "router.md"
       - !ENV [NAV_ADVANCED, "Advanced"]:
           - "alternative-networks.md"
           - "device-integrity.md"
+  - !ENV [NAV_BLOG, "Articles"]: "/articles/"
   - !ENV [NAV_ABOUT, "About"]:
-      - "about/index.md"
+      - "about.md"
+      - "about/donate.md"
       - "about/contributors.md"
       - "about/criteria.md"
       - "about/notices.md"
       - "about/privacy-policy.md"
-      - "about/statistics.md"
+      - "about/jobs.md"
       - !ENV [NAV_COMMUNITY, "Community"]:
-          - "about/donate.md"
           - !ENV [NAV_ONLINE_SERVICES, "Online Services"]: "about/services.md"
           - !ENV [NAV_CODE_OF_CONDUCT, "Code of Conduct"]: "CODE_OF_CONDUCT.md"
-          - "about/privacytools.md"
+          - "about/statistics.md"
       - !ENV [NAV_CONTRIBUTING, "Contributing"]:
           - !ENV [NAV_WRITING_GUIDE, "Writing Guide"]:
               - "meta/writing-style.md"
@@ -462,7 +461,14 @@ nav:
           - !ENV [NAV_TECHNICAL_GUIDES, "Technical Guides"]:
               - "meta/uploading-images.md"
               - "meta/git-recommendations.md"
+              - "meta/commit-messages.md"
+  - "about/donate.md"
   - !ENV [NAV_CHANGELOG, "Changelog"]:
       "https://github.com/privacyguides/privacyguides.org/releases"
   - !ENV [NAV_FORUM, "Forum"]: "https://discuss.privacyguides.net/"
-  - !ENV [NAV_BLOG, "Blog"]: "https://blog.privacyguides.org/"
+
+validation:
+  nav:
+    not_found: info
+    omitted_files: ignore
+    absolute_links: ignore

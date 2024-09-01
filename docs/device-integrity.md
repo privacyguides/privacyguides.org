@@ -3,6 +3,7 @@ title: "Device Integrity"
 icon: material/security
 description: These tools can be used to check your devices for compromise.
 cover: device-integrity.webp
+robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
 These tools can be used to validate the integrity of your mobile devices and check them for indicators of compromise by spyware and malware such as Pegasus, Predator, or KingsPawn. This page focuses on **mobile security**, because mobile devices typically have read-only systems with well-known configurations, so detecting malicious modifications is easier than on traditional desktop systems. We may expand the focus of this page in the future.
@@ -27,7 +28,7 @@ This means an attacker would have to regularly re-infect your device to retain a
 If any of the following tools indicate a potential compromise by spyware such as Pegasus, Predator, or KingsPawn, we advise that you contact:
 
 - If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us)
-- If a business or government device is compromised: Contact the appropriate security liason at your enterprise, department, or agency
+- If a business or government device is compromised: the appropriate security liason at your enterprise, department, or agency
 - Local law enforcement
 
 **We are unable to help you directly beyond this.** We are happy to discuss your specific situation or circumstances and review your results in our [community](https://discuss.privacyguides.net) spaces, but it is unlikely we can assist you beyond what is written on this page.
@@ -41,18 +42,22 @@ The tools on this page are only capable of detecting indicators of compromise, n
 These tools provide analysis based on the information they have the ability to access from your device, and publicly-accessible indicators of compromise. It is important to keep in mind two things:
 
 1. Indicators of compromise are just that: *indicators*. They are not a definitive finding, and may occasionally be **false positives**. If an indicator of compromise is detected, it means you should do additional research into the *potential* threat.
-2. The indicators of compromise these tools look for are published by threat research organizations, but not all indicators are made available to the public! This means that these tools can present a **false negative**, if your device is infected with spyware which is not detected by any of the public indicators. Reliable and comprehensive digital forensic support and triage requires access to non-public indicators, research and threat intelligence.
+2. The indicators of compromise these tools look for are published by threat research organizations, but not all indicators are made available to the public! This means that these tools can present a **false negative**, if your device is infected with spyware which is not detected by any of the public indicators. Reliable and comprehensive digital forensic support and triage require access to non-public indicators, research, and threat intelligence.
 
 ## External Verification Tools
 
-External verification tools run on your computer and scan your mobile device for forensic traces which are helpful to identify potential compromise.
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+
+External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
 
 Public indicators of compromise are insufficient to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on public indicators alone can miss recent forensic traces and give a false sense of security.
 
-Reliable and comprehensive digital forensic support and triage requires access to non-public indicators, research and threat intelligence.
+Reliable and comprehensive digital forensic support and triage require access to non-public indicators, research, and threat intelligence.
 
 Such support is available to civil society through [Amnesty International's Security Lab](https://amnesty.org/en/tech) or [Access Now’s Digital Security Helpline](https://accessnow.org/help).
 
@@ -88,7 +93,7 @@ Using MVT is insufficient to determine that a device is "clean", and not targete
 
 </div>
 
-MVT is *most* useful for scanning iOS devices. Android stores very little diagnostic information useful to triage potential compromises, and because of this `mvt-android` capabilities are limited as well. On the other hand, encrypted iOS iTunes backups provide a large enough subset of files stored on the device to detect suspicious artifacts in many cases. This being said, MVT does still provide fairly useful tools for both iOS and Android analysis.
+MVT is *most* useful for scanning iOS devices. Android stores very little diagnostic information useful to triage potential compromises, and because of this, `mvt-android` capabilities are limited as well. On the other hand, encrypted iOS iTunes backups provide a large enough subset of files stored on the device to detect suspicious artifacts in many cases. This being said, MVT does still provide fairly useful tools for both iOS and Android analysis.
 
 If you use iOS and are at high-risk, we have three additional suggestions for you:
 
@@ -116,7 +121,7 @@ MVT allows you to perform deeper scans/analysis if your device is jailbroken. Un
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://imazing.com/download)
+- [:fontawesome-brands-windows: Windows](https://imazing.com/download)
 - [:simple-apple: macOS](https://imazing.com/download)
 
 </details>
@@ -126,6 +131,11 @@ MVT allows you to perform deeper scans/analysis if your device is jailbroken. Un
 iMazing automates and interactively guides you through the process of using [MVT](#mobile-verification-toolkit) to scan your device for publicly-accessible indicators of compromise published by various threat researchers. All of the information and warnings which apply to MVT apply to this tool as well, so we suggest you also familiarize yourself with the notes on MVT in the sections above.
 
 ## On-Device Verification
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 These are apps you can install which check your device and operating system for signs of tampering, and validate the identity of your device.
 
@@ -162,9 +172,9 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 
 </div>
 
-Auditor is not a scanning/analysis tool like some other tools on this page, rather it uses your device's hardware-backed keystore to allow you to verify the identity of your device and gain assurance that the operating system itself hasn't been tampered with or downgraded via verified boot. This provides a very robust integrity check of your device itself, but doesn't necessarily check whether the user-level apps running on your device are malicious.
+Auditor is not a scanning/analysis tool like some other tools on this page. Rather, it uses your device's hardware-backed keystore to allow you to verify the identity of your device and gain assurance that the operating system itself hasn't been tampered with or downgraded via verified boot. This provides a very robust integrity check of your device itself, but doesn't necessarily check whether the user-level apps running on your device are malicious.
 
-Auditor performs attestation and intrusion detection with **two** devices, an *auditee* (the device being verified) and an *auditor* (the device performing the verification). The auditor can be any Android 10+ device (or a remote web service operated by [GrapheneOS](android.md#grapheneos)), while the auditee must be a specifically [supported device](https://attestation.app/about#device-support). Auditor works by:
+Auditor performs attestation and intrusion detection with **two** devices, an *auditee* (the device being verified) and an *auditor* (the device performing the verification). The auditor can be any Android 10+ device (or a remote web service operated by [GrapheneOS](android/distributions.md#grapheneos)), while the auditee must be a specifically [supported device](https://attestation.app/about#device-support). Auditor works by:
 
 - Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an *auditor* and *auditee*, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore) of the *Auditor*.
 - The *auditor* can either be another instance of the Auditor app or the [Remote Attestation Service](https://attestation.app).
@@ -179,6 +189,10 @@ No personally identifiable information is submitted to the attestation service. 
 If your [threat model](basics/threat-modeling.md) requires privacy, you could consider using [Orbot](tor.md#orbot) or a VPN to hide your IP address from the attestation service.
 
 ## On-Device Scanners
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 These are apps you can install on your device which scan your device for signs of compromise.
 
@@ -196,7 +210,7 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
 ![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
 
-**Hypatia** is an open source real-time malware scanner for Android, from the developer of [DivestOS](android.md#divestos). It accesses the internet to download signature database updates, but does not upload your files or any metadata to the cloud (scans are performed entirely locally).
+**Hypatia** is an open source real-time malware scanner for Android, from the developer of [DivestOS](android/distributions.md#divestos). It accesses the internet to download signature database updates, but does not upload your files or any metadata to the cloud (scans are performed entirely locally).
 
 [:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Privacy Policy" }
@@ -214,15 +228,15 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 
 Hypatia is particularly good at detecting common stalkerware: If you suspect you are a victim of stalkerware, you should [visit this page](https://stopstalkerware.org/information-for-survivors) for advice.
 
-### iVerify (iOS)
+### iVerify Basic (iOS)
 
 <div class="admonition recommendation" markdown>
 
 ![iVerify logo](assets/img/device-integrity/iverify.webp){ align=right }
 
-**iVerify** is an iOS app which automatically scans your device to check configuration settings, patch level, and other areas of security. It also checks your device for indicators of compromise by jailbreak tools or spyware such as Pegasus.
+**iVerify Basic** is an iOS app which can scan your device to check configuration settings, patch level, and other areas of security. It also checks your device for indicators of compromise by jailbreak tools or of [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red } such as [Pegasus](https://en.wikipedia.org/wiki/Pegasus_(spyware)).
 
-[:octicons-home-16: Homepage](https://iverify.io/consumer){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://iverify.io/products/basic){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://iverify.io/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentation}
 
@@ -235,8 +249,10 @@ Hypatia is particularly good at detecting common stalkerware: If you suspect you
 
 </div>
 
-Like all iOS apps, iVerify is restricted to what it can observe about your device from within the iOS App Sandbox. It will not provide nearly as robust analysis as a full-system analysis tool like [MVT](#mobile-verification-toolkit). Its primary function is to detect whether your device is jailbroken, which it is effective at, however a hypothetical threat which is *specifically* designed to bypass iVerify's checks would likely succeed at doing so.
+Previously, iVerify would scan your device for threats automatically in the background and notify you if one is found, but this is [no longer the case](https://discuss.privacyguides.net/t/iverify-basic-is-now-available-on-android/18458/11) following their rebrand of the consumer app to *iVerify Basic* in May 2024. You can still run manual scans within the app. Automatic background scanning is now only available in iVerify's enterprise product which is unavailable to consumers.
 
-iVerify is **not** an "antivirus" tool, and will not detect non-system-level malware such as malicious custom keyboards or malicious Wi-Fi Sync configurations, for example.
+Like all iOS apps, iVerify Basic is restricted to what it can observe about your device from within the iOS App Sandbox. It will not provide nearly as robust analysis as a full-system analysis tool like [MVT](#mobile-verification-toolkit). Its primary function is to detect whether your device is jailbroken, which it is effective at, however a hypothetical threat which is *specifically* designed to bypass iVerify's checks would likely succeed at doing so.
 
-In addition to device scanning, iVerify also includes a number of additional security utilities which you may find useful, including device reboot reminders, iOS update notifications (which are often faster than Apple's staggered update notification rollout), some basic privacy and security guides, and a DNS over HTTPS tool which can connect your device's [DNS](dns.md) queries securely to Quad9, Cloudflare, or Google.
+iVerify Basic is **not** an "antivirus" tool, and will not detect non-system-level malware such as malicious custom keyboards or malicious Wi-Fi Sync configurations, for example.
+
+In addition to device scanning, iVerify Basic also includes a number of additional security utilities which you may find useful, including device [reboot reminders](os/ios-overview.md#before-first-unlock), iOS update notifications (which are often faster than Apple's staggered update notification rollout), and some basic privacy and security guides.

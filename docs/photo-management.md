@@ -4,21 +4,26 @@ icon: material/image
 description: Photo management tools to keep your personal photos safe from the prying eyes of cloud storage providers and other unauthorized access.
 cover: photo-management.webp
 ---
-Most cloud photo management solutions like Google Photos, Flickr, and Amazon Photos don't secure your photos against being accessed by the cloud storage provider themselves. These options keep your personal photos private, while allowing you to share them only with family and trusted people.
+<small>Protects against the following threat(s):</small>
 
-## ente
+- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+
+Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon Photos don't secure your photos against being accessed by the cloud storage provider themselves. These options keep your personal photos private, while allowing you to share them only with family and trusted people.
+
+## Ente Photos
 
 <div class="admonition recommendation" markdown>
 
-![ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
-![ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
+![Ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
+![Ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**ente** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open-source, both on the client side and on the server side. It is [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). It underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
+**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open-source, both on the client side and on the server side. It is also [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). The free plan offers 5GB of storage as long as you use the service at least once a year.
 
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://ente.io/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ente-io){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -26,8 +31,8 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
 - [:simple-android: Android](https://ente.io/download)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1542026904)
-- [:simple-github: GitHub](https://github.com/ente-io/ente/releases)
-- [:simple-windows11: Windows](https://ente.io/download)
+- [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=photos)
+- [:fontawesome-brands-windows: Windows](https://ente.io/download)
 - [:simple-apple: macOS](https://ente.io/download)
 - [:simple-linux: Linux](https://ente.io/download)
 - [:octicons-globe-16: Web](https://web.ente.io)
@@ -35,6 +40,8 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 </details>
 
 </div>
+
+Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
 
 ## Stingle
 
@@ -56,7 +63,7 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.stingle.photos)
 - [:simple-android: Android](https://f-droid.org/en/packages/org.stingle.photos)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1582535448)
-- [:simple-github: GitHub](https://github.com/stingle)
+- [:simple-github: GitHub](https://github.com/stingle/stingle-photos-android/releases)
 
 </details>
 
@@ -92,10 +99,9 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 
 - Cloud-hosted providers must enforce end-to-end encryption.
 - Must offer a free plan or trial period for testing.
-- Must support TOTP or FIDO2 multi-factor authentication, or Passkey logins.
+- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - Must offer a web interface which supports basic file management functionality.
 - Must allow for easy exports of all files/documents.
-- Must use standard, audited encryption.
 - Must be open source.
 
 ### Best Case

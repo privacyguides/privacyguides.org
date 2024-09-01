@@ -24,6 +24,9 @@ on:
       privileged:
         type: boolean
         default: true
+      strict:
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -61,6 +64,11 @@ jobs:
             echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --offline""
           } >> "$GITHUB_ENV"
 
+      - name: Set Metadata for Strict Mode
+        if: inputs.strict
+        run: |
+          echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --cmd_flags=--strict"" >> "$GITHUB_ENV"
+
       - name: Download Repository
         uses: actions/checkout@v4
         with:
@@ -91,7 +99,6 @@ jobs:
         run: |
           cp -rl modules/repo-i18n/i18n .
           cp -rl modules/repo-i18n/includes .
-          cp -rl modules/repo-i18n/theme .
 
       - name: Install Python (pipenv)
         if: inputs.privileged

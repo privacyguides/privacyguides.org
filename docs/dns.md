@@ -6,6 +6,9 @@ cover: dns.webp
 global:
  - [randomize-element, "table tbody"]
 ---
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
 Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Encrypted DNS will not help you hide any of your browsing activity.
 
@@ -94,12 +97,12 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://docs.controld.com/docs/gui-setup-utility)
+- [:fontawesome-brands-windows: Windows](https://docs.controld.com/docs/gui-setup-utility)
 - [:simple-apple: macOS](https://docs.controld.com/docs/gui-setup-utility)
 - [:simple-linux: Linux](https://docs.controld.com/docs/ctrld)
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.controld.setuputility)
 - [:simple-appstore: App Store](https://apps.apple.com/app/1518799460)
-- [:simple-github: GitHub](https://github.com/Control-D-Inc/ctrld/releases/tag/v1.3.5)
+- [:simple-github: GitHub](https://github.com/Control-D-Inc/ctrld/releases)
 
 </details>
 
@@ -121,7 +124,7 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://github.com/nextdns/nextdns/wiki/Windows)
+- [:fontawesome-brands-windows: Windows](https://github.com/nextdns/nextdns/wiki/Windows)
 - [:simple-apple: macOS](https://apps.apple.com/us/app/nextdns/id1464122853)
 - [:simple-linux: Linux](https://github.com/nextdns/nextdns/wiki)
 - [:simple-appstore: App Store](https://apps.apple.com/app/nextdns/id1463342498)
@@ -148,7 +151,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
 ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
 ![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
 
-**RethinkDNS** is an open-source Android client supporting [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) and DNS Proxy along with caching DNS responses, locally logging DNS queries and can be used as a firewall too.
+**RethinkDNS** is an open-source Android client that supports [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) and DNS Proxy. It also provides additional functionality such as caching DNS responses, locally logging DNS queries, and using the app as a firewall.
 
 [:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
@@ -164,6 +167,8 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
 </details>
 
 </div>
+
+While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot with the app by [adding a Wireguard configuration](https://docs.rethinkdns.com/proxy/wireguard) or [manually configuring Orbot as a Proxy server](https://docs.rethinkdns.com/firewall/orbot), respectively.
 
 ### dnscrypt-proxy
 
@@ -181,7 +186,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
+- [:fontawesome-brands-windows: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
 - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
 - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
 

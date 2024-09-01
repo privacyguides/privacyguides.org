@@ -4,6 +4,9 @@ icon: material/puzzle-outline
 description: These browser extensions can enhance your browsing experience and protect your privacy.
 cover: browser-extensions.webp
 ---
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
 In general, we recommend keeping your browser extensions to a minimum to decrease your attack surface. They have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
 
@@ -31,7 +34,7 @@ Don't install extensions which you don't immediately have a need for, or ones th
 
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 
 </details>
 
@@ -56,7 +59,7 @@ uBlock Origin also has a "Lite" version of their extension, which offers a very 
 
 ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
 
-**uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function.
+**uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original *uBlock Origin*, this extension does not require broad "read/modify data" permissions to function, which lowers the risk of [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange } on your browser if a malicious rule is added to a filter list.
 
 [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/uBlockOrigin/uBOL-home/wiki/Privacy-policy){ .card-link title="Privacy Policy" }

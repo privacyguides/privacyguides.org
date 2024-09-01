@@ -31,6 +31,8 @@
     {% endif %}
     {% if page.meta and page.meta.author %}
     <meta name="author" content="{{ page.meta.author }}">
+    {% elif page.authors %}
+    <meta name="author" content="{{ page.authors[0].name }}">
     {% elif config.site_author %}
     <meta name="author" content="{{ config.site_author }}">
     {% endif %}
@@ -77,11 +79,14 @@
   <link rel="stylesheet" href="{{ config.extra.privacy_guides.translation_stylesheet | url }}" />
   {% endif %}
 
-  <meta name="robots" content="max-snippet:-1, max-image-preview:large">
+  {% if page and page.meta and page.meta.robots %}
+  <meta name="robots" content="{{ page.meta.robots }}">
+  {% else %}
+    <meta name="robots" content="max-snippet:-1, max-image-preview:large">
+  {% endif %}
+
   {% if config.extra.context == "production" %}
-  <meta http-equiv="onion-location" content="{{ "http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/" ~ config.theme.language ~ "/" ~ page.url }}" />
-  {% elif config.extra.deploy %}
-  <meta http-equiv="onion-location" content="{{ "http://" ~ config.extra.deploy ~ ".netlify.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/" ~ config.theme.language ~ "/" ~ page.url }}" />
+  <meta http-equiv="onion-location" content="{{ page.canonical_url | replace("https://www.privacyguides.org", "http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion") }}" />
   {% endif %}
   {% if page and page.meta and page.meta.schema %}
   <script type="application/ld+json">
@@ -89,3 +94,23 @@
   </script>
   {% endif %}
 {% endblock %}
+
+{% if config.theme.language == "en" %}
+  {% block announce %}
+    <span>
+      <strong>We don't run ads, we don't use affiliate links, and we don't have paywalls.</strong> We rely on our readers to build this community and spread the word.<br>
+      If you've received $3 worth of knowledge here, please donate today if you're able to. It really helps.
+      <a href="/en/about/donate">
+        <span class="twemoji pg-red">
+          {% include ".icons/material/heart.svg" %}
+        </span>
+        <span class="pg-red">
+          Donate now
+        </span>
+        <span class="twemoji pg-red">
+          {% include ".icons/material/arrow-right.svg" %}
+        </span>
+      </a>
+    </span>
+  {% endblock %}
+{% endif %}

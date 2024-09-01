@@ -5,7 +5,7 @@ icon: material/file-lock
 description: Encryption of data is the only way to control who can access it. These tools allow you to encrypt your emails and any other files.
 cover: encryption.webp
 ---
-Encryption of data is the only way to control who can access it. If you are currently not using encryption software for your hard disk, emails or files, you should pick an option here.
+**Encryption** is the only secure way to control who can access your data. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
 ## Multi-platform
 
@@ -13,11 +13,15 @@ The options listed here are multi-platform and great for creating encrypted back
 
 ### Cryptomator (Cloud)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+
 <div class="admonition recommendation" markdown>
 
 ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
 
-**Cryptomator** is an encryption solution designed for privately saving files to any cloud provider. It allows you to create vaults that are stored on a virtual drive, the contents of which are encrypted and synced with your cloud storage provider.
+**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. It allows you to create vaults that are stored on a virtual drive, the contents of which are encrypted and synced with your cloud storage provider.
 
 [:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
@@ -31,7 +35,7 @@ The options listed here are multi-platform and great for creating encrypted back
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1560822163)
 - [:simple-android: Android](https://cryptomator.org/android)
-- [:simple-windows11: Windows](https://cryptomator.org/downloads)
+- [:fontawesome-brands-windows: Windows](https://cryptomator.org/downloads)
 - [:simple-apple: macOS](https://cryptomator.org/downloads)
 - [:simple-linux: Linux](https://cryptomator.org/downloads)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
@@ -48,28 +52,36 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 ### Picocrypt (File)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+
 <div class="admonition recommendation" markdown>
 
 ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
 
 **Picocrypt** is a small and simple encryption tool that provides modern encryption. Picocrypt uses the secure XChaCha20 cipher and the Argon2id key derivation function to provide a high level of security. It uses Go's standard x/crypto modules for its encryption features.
 
-[:octicons-repo-16: Repository](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Source Code" }
+[:octicons-repo-16: Repository](https://github.com/Picocrypt/Picocrypt){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
-- [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
-- [:simple-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
+- [:fontawesome-brands-windows: Windows](https://github.com/Picocrypt/Picocrypt/releases)
+- [:simple-apple: macOS](https://github.com/Picocrypt/Picocrypt/releases)
+- [:simple-linux: Linux](https://github.com/Picocrypt/Picocrypt/releases)
 
 </details>
 
 </div>
 
 ### VeraCrypt (Disk)
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
 <div class="admonition recommendation" markdown>
 
@@ -86,7 +98,7 @@ Cryptomator's documentation details its intended [security target](https://docs.
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://veracrypt.fr/en/Downloads.html)
+- [:fontawesome-brands-windows: Windows](https://veracrypt.fr/en/Downloads.html)
 - [:simple-apple: macOS](https://veracrypt.fr/en/Downloads.html)
 - [:simple-linux: Linux](https://veracrypt.fr/en/Downloads.html)
 
@@ -101,6 +113,10 @@ When encrypting with VeraCrypt, you have the option to select from different [ha
 Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
 ## OS Full Disk Encryption
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
 For encrypting the drive your operating system boots from, we generally recommend enabling the encryption software that comes with your operating system rather than using a third-party tool. This is because your operating system's native encryption tools often make use of OS and hardware-specific features like the [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) in your device to protect your computer against more advanced physical attacks. For secondary drives and external drives which you *don't* boot from, we still recommend using open-source tools like [VeraCrypt](#veracrypt-disk) over the tools below, because they offer additional flexibility and let you avoid vendor lock-in.
 
@@ -226,6 +242,10 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ## Command-line
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+
 Tools with command-line interfaces are useful for integrating [shell scripts](https://en.wikipedia.org/wiki/Shell_script).
 
 ### Kryptor
@@ -245,7 +265,7 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://kryptor.co.uk)
+- [:fontawesome-brands-windows: Windows](https://kryptor.co.uk)
 - [:simple-apple: macOS](https://kryptor.co.uk)
 - [:simple-linux: Linux](https://kryptor.co.uk)
 
@@ -271,6 +291,12 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 </div>
 
 ## OpenPGP
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
 OpenPGP is sometimes needed for specific tasks such as digitally signing and encrypting email. PGP has many features and is [complex](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) as it has been around a long time. For tasks such as signing or encrypting files, we suggest the above options.
 
@@ -304,7 +330,7 @@ gpg --quick-gen-key alice@example.com future-default
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
-- [:simple-windows11: Windows](https://gpg4win.org/download.html)
+- [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
 - [:simple-apple: macOS](https://gpgtools.org)
 - [:simple-linux: Linux](https://gnupg.org/download/index.html#binary)
 
@@ -329,7 +355,7 @@ gpg --quick-gen-key alice@example.com future-default
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://gpg4win.org/download.html)
+- [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
 
 </details>
 
@@ -340,7 +366,7 @@ gpg --quick-gen-key alice@example.com future-default
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-We suggest [Canary Mail](email-clients.md#canary-mail) for using PGP with email on iOS devices.
+We suggest [Canary Mail](email-clients.md#canary-mail-ios) for using PGP with email on iOS devices.
 
 </div>
 
@@ -348,7 +374,7 @@ We suggest [Canary Mail](email-clients.md#canary-mail) for using PGP with email 
 
 ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
 
-**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail) and macOS.
+**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and macOS.
 
 We recommend taking a look at their [First steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) and [Knowledge base](https://gpgtools.tenderapp.com/kb) for support.
 
@@ -372,7 +398,7 @@ We recommend taking a look at their [First steps](https://gpgtools.tenderapp.com
 
 ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** is an Android implementation of GnuPG. It's commonly required by mail clients such as [K-9 Mail](email-clients.md#k-9-mail) and [FairEmail](email-clients.md#fairemail) and other Android apps to provide encryption support. Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. Technical details about the audit and OpenKeychain's solutions can be found [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+**OpenKeychain** is an Android implementation of GnuPG. It's commonly required by mail clients such as [K-9 Mail](email-clients.md#k-9-mail-android) and [FairEmail](email-clients.md#fairemail-android) and other Android apps to provide encryption support. Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. Technical details about the audit and OpenKeychain's solutions can be found [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
 
 [:octicons-home-16: Homepage](https://openkeychain.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }

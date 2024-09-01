@@ -9,47 +9,104 @@ description: Privacy Guides is the most transparent and reliable website for fin
 
 If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
 
+[VPN Providers](vpn.md){ .md-button }
+[Password Managers](passwords.md){ .md-button }
+[Email Providers](email.md){ .md-button }
+[Browser Extensions](browser-extensions.md){ .md-button }
+[DNS Servers](dns.md){ .md-button }
+[Email Aliasing Services](email-aliasing.md){ .md-button }
+[Photo Organization Tools](photo-management.md){ .md-button }
+
 If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
 
 For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
 
-## Tor Browser
+<div class="grid" markdown>
 
-<div class="grid cards" markdown>
+<div markdown>
+- [x] **Ad-Free Recommendations**
+- [x] **Frequent Updates**
+- [x] **Trusted by Readers**
+</div>
 
-- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji loading=lazy } [Tor Browser](tor.md#tor-browser)
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser)
+<div markdown>
+- [x] **Complete Editorial Independence**
+- [x] **Open-Source Contributions**
+- [x] **Trusted by Journalists**
+</div>
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](tor.md)
+<div class="admonition example" markdown>
+<p class="admonition-title">Threat Model Labels</p>
 
-## Desktop Web Browsers
+You may find any of the following icons on some of the recommendation pages: <span class="pg-purple">:material-incognito:</span> <span class="pg-red">:material-target-account:</span> <span class="pg-viridian">:material-package-variant-closed-remove:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span> <span class="pg-blue">:material-eye-outline:</span> <span class="pg-brown">:material-account-cash:</span> <span class="pg-green">:material-account-search:</span> <span class="pg-blue-gray">:material-close-outline:</span>
 
-<div class="grid cards" markdown>
-
-- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji loading=lazy } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
-- ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji loading=lazy } [Firefox](desktop-browsers.md#firefox)
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave](desktop-browsers.md#brave)
+We are testing a new feature that allows readers to better identify and understand the kinds of threats that privacy tools best defend against. Let us know what you think about this feature by replying to this dedicated forum [thread](https://discuss.privacyguides.net/t/implement-threat-model-labels/18659)!
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop-browsers.md)
+## Private Web Browsers
 
-## Mobile Web Browsers
+<div class="admonition recommendation" markdown>
 
-<div class="grid cards" markdown>
+![Tor Browser logo](assets/img/browsers/tor.svg){ align=left }
 
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave (Android)](mobile-browsers.md#brave)
-- ![Mull logo](assets/img/browsers/mull.svg){ .twemoji loading=lazy } [Mull (Android)](mobile-browsers.md#mull)
-- ![Safari logo](assets/img/browsers/safari.svg){ .twemoji loading=lazy } [Safari (iOS)](mobile-browsers.md#safari)
+**Tor Browser** (Desktop & Android) is the top choice if you need anonymity, as it provides you with access to the **Tor** network, a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
+
+[Read Our Full Review :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](mobile-browsers.md)
+<div class="grid cards" markdown>
 
-## Browser Extensions
+- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .lg .middle .twemoji } **Mullvad Browser**
+
+    ---
+
+    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users.
+
+    - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#mullvad-browser)
+
+- ![Firefox logo](assets/img/browsers/firefox.svg){ .lg .middle .twemoji } **Firefox**
+
+    ---
+
+    **Firefox** is a great Chromium alternative which provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+
+    - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
+
+- ![Brave logo](assets/img/browsers/brave.svg){ .lg .middle .twemoji } **Brave Browser**
+
+    ---
+
+    **Brave** is a private-by-default browser based on Chromium, so it should feel familiar and have minimal website compatibility issues.
+
+    - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
+    - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
+
+- ![Mull logo](assets/img/browsers/mull.svg){ .lg .middle .twemoji } **Mull (Android)**
+
+    ---
+
+    **Mull** is a Firefox-based browser for Android centered around privacy and removing proprietary components.
+
+    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#mull)
+
+- ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
+
+    ---
+
+    We recommend **Safari** alongside a tracker-blocker like [AdGuard](browser-extensions.md#adguard) on iOS, because all iOS browsers are forced to be based on Safari anyways. This reduces the number of parties you're required to trust.
+
+    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari)
+
+</div>
+
+<div class="grid" markdown>
+
+<div markdown>
+### Browser Extensions
 
 <div class="grid cards" markdown>
 
@@ -59,9 +116,152 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](browser-extensions.md)
+</div>
 
-## Service Providers
+<div markdown>
+### More Tor Network Tools
+
+<div class="grid cards" markdown>
+
+- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
+- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser)
+
+</div>
+
+</div>
+
+</div>
+
+## Top 3 Private VPN Providers
+
+<details class="danger" markdown>
+<summary>VPNs do not provide anonymity</summary>
+
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+
+If you are looking for **anonymity**, you should use the Tor Browser.
+
+If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+
+[Learn more :material-arrow-right-drop-circle:](vpn.md)
+
+</details>
+
+<div class="grid cards" markdown>
+
+- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .lg .middle .twemoji } **Proton VPN**
+
+    ---
+
+    - [x] **112+ Countries**
+    - [x] WireGuard Support
+    - [x] Cash Payments
+    - [x] Partial Port Forwarding Support
+    - [ ] No IPv6
+
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
+
+- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .lg .middle .twemoji } **IVPN**
+
+    ---
+
+    - [x] **37+ Countries**
+    - [x] WireGuard Support
+    - [x] Monero & Cash Payments
+    - [ ] No Port Forwarding
+    - [ ] No IPv6
+
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
+
+- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
+
+    ---
+
+    - [x] **45+ Countries**
+    - [x] WireGuard Support
+    - [x] Monero & Cash Payments
+    - [ ] No Port Forwarding
+    - [x] IPv6 Support
+
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
+
+</div>
+
+## Top 3 Private Email Providers
+
+<div class="grid cards" markdown>
+
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
+
+    ---
+
+    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Genève, Switzerland. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
+
+    [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
+
+- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji } **Mailbox.org**
+
+    ---
+
+    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with up to 2GB storage, which can be upgraded as needed.
+
+    [Read Full Review :material-arrow-right-drop-circle:](email.md#mailboxorg)
+
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
+
+    ---
+
+    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1GB of storage.
+
+    [Read Full Review :material-arrow-right-drop-circle:](email.md#tuta)
+
+</div>
+
+<div class="grid" markdown>
+
+<div markdown>
+### Email Aliasing Services
+
+<div class="grid cards" markdown>
+
+- ![addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji loading=lazy } [addy.io](email-aliasing.md#addyio)
+- ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji loading=lazy } [SimpleLogin](email-aliasing.md#simplelogin)
+
+</div>
+</div>
+
+<div markdown>
+### Self-Hosting Email
+
+<div class="grid cards" markdown>
+
+- ![mailcow logo](assets/img/email/mailcow.svg){ .twemoji loading=lazy } [mailcow](email.md#self-hosting-email)
+- ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email.md#self-hosting-email)
+
+</div>
+</div>
+
+</div>
+
+### Secure Email Clients
+
+<div class="grid cards" markdown>
+
+- ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ .twemoji loading=lazy } [Thunderbird](email-clients.md#thunderbird)
+- ![Apple Mail logo](assets/img/email-clients/applemail.png){ .twemoji loading=lazy } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
+- ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ .twemoji loading=lazy } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
+- ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
+- ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
+- ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ .twemoji loading=lazy } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
+- ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
+- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
+- ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](email-clients.md)
+
+## More Private Service Providers
 
 ### Cloud Storage
 
@@ -74,6 +274,18 @@ For more details about each project, why they were chosen, and additional tips o
 </div>
 
 [Learn more :material-arrow-right-drop-circle:](cloud.md)
+
+### Data Removal Services
+
+<div class="grid cards" markdown>
+
+- ![EasyOptOuts logo](assets/img/data-broker-removals/easyoptouts.svg){ .twemoji loading=lazy } [EasyOptOuts](data-broker-removals.md#easyoptouts-paid)
+- ![Optery logo](assets/img/data-broker-removals/optery.svg){ .twemoji loading=lazy } [Optery](data-broker-removals.md#optery-free-paid)
+- ![Google logo](assets/img/data-broker-removals/google.svg){ .twemoji loading=lazy } [Google *Results about you*](data-broker-removals.md#google-results-about-you-free)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](data-broker-removals.md)
 
 ### DNS
 
@@ -103,41 +315,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
-
-### Email
-
-<div class="grid cards" markdown>
-
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji loading=lazy } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji loading=lazy } [Mailbox.org](email.md#mailboxorg)
-- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji loading=lazy } [Tuta](email.md#tuta)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](email.md)
-
-#### Email Aliasing Services
-
-<div class="grid cards" markdown>
-
-- ![addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji loading=lazy } [addy.io](email-aliasing.md#addyio)
-- ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji loading=lazy } [SimpleLogin](email-aliasing.md#simplelogin)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](email-aliasing.md)
-
-#### Self-Hosting Email
-
-<div class="grid cards" markdown>
-
-- ![mailcow logo](assets/img/email/mailcow.svg){ .twemoji loading=lazy } [mailcow](email.md#self-hosting-email)
-- ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email.md#self-hosting-email)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](email.md#self-hosting-email)
+[Learn more :material-arrow-right-drop-circle:](dns.md#self-hosted-dns-filtering)
 
 ### Financial Services
 
@@ -156,7 +334,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![CoinCards logo](assets/img/financial-services/coincards.svg){ .twemoji loading=lazy } [CoinCards](financial-services.md#coincards)
+- ![Coincards logo](assets/img/financial-services/coincards.svg){ .twemoji loading=lazy } [Coincards](financial-services.md#coincards)
 
 </div>
 
@@ -166,7 +344,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Ente logo](assets/img/photo-management/ente.svg#only-light){ .twemoji loading=lazy }![Ente logo](assets/img/photo-management/ente.svg#only-dark){ .twemoji loading=lazy } [Ente](photo-management.md#ente)
+- ![Ente logo](assets/img/photo-management/ente.svg#only-light){ .twemoji loading=lazy }![Ente logo](assets/img/photo-management/ente.svg#only-dark){ .twemoji loading=lazy } [Ente Photos](photo-management.md#ente-photos)
 - ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ .twemoji loading=lazy }![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji loading=lazy } [Stingle](photo-management.md#stingle)
 - ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](photo-management.md#photoprism)
 
@@ -187,38 +365,13 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](search-engines.md)
 
-### VPN Providers
-
-<details class="danger" markdown>
-<summary>VPNs do not provide anonymity</summary>
-
-Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
-
-If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
-
-If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
-
-[Learn more :material-arrow-right-drop-circle:](vpn.md)
-
-</details>
-
-<div class="grid cards" markdown>
-
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji loading=lazy } [Proton VPN](vpn.md#proton-vpn)
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji loading=lazy } [IVPN](vpn.md#ivpn)
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji loading=lazy } [Mullvad](vpn.md#mullvad)
-
-</div>
-
-[Learn more :material-arrow-right-drop-circle:](vpn.md)
-
 ## Software
 
 ### Calendar Sync
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/calendar/tuta.svg){ .twemoji loading=lazy } [Tuta](calendar.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](calendar.md#tuta)
 - ![Proton Calendar logo](assets/img/calendar/proton-calendar.svg){ .twemoji loading=lazy } [Proton Calendar](calendar.md#proton-calendar)
 
 </div>
@@ -249,23 +402,16 @@ If you're looking for added **security**, you should always ensure you're connec
 
 [Learn more :material-arrow-right-drop-circle:](data-redaction.md)
 
-### Email Clients
+### Document Collaboration
 
 <div class="grid cards" markdown>
 
-- ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ .twemoji loading=lazy } [Thunderbird](email-clients.md#thunderbird)
-- ![Apple Mail logo](assets/img/email-clients/applemail.png){ .twemoji loading=lazy } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
-- ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ .twemoji loading=lazy } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
-- ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
-- ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
-- ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ .twemoji loading=lazy } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
-- ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
-- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
-- ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
+- ![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](document-collaboration.md#nextcloud)
+- ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](document-collaboration.md#cryptpad)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email-clients.md)
+[Learn more :material-arrow-right-drop-circle:](document-collaboration.md)
 
 ### Encryption Software
 
@@ -274,7 +420,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and typically use hardware encryption elements such as a TPM that other full-disk encryption software like VeraCrypt do not. VeraCrypt is still suitable for non-operating system disks such as external drives, especially drives that may be accessed from multiple operating systems.
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+[Learn more :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
 
 </details>
 
@@ -310,7 +456,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 - ![Send logo](assets/img/file-sharing-sync/send.svg){ .twemoji loading=lazy } [Send](file-sharing.md#send)
 - ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji loading=lazy } [OnionShare](file-sharing.md#onionshare)
 - ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-sharing.md#freedombox)
-- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
+- ![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
 - ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji loading=lazy } [Syncthing](file-sharing.md#syncthing-p2p)
 
 </div>
@@ -321,6 +467,8 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 <div class="grid cards" markdown>
 
+- ![Redlib logo](assets/img/frontends/redlib.svg){ .twemoji loading=lazy } [Redlib (Reddit, Web)](frontends.md#redlib)
+- ![ProxiTok logo](assets/img/frontends/proxitok.svg){ .twemoji loading=lazy } [ProxiTok (TikTok, Web)](frontends.md#proxitok)
 - ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
 - ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji loading=lazy } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
 - ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
@@ -332,13 +480,23 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [Learn more :material-arrow-right-drop-circle:](frontends.md)
 
-### Multi-Factor Authentication Tools
+### Language Tools
 
 <div class="grid cards" markdown>
 
-- ![YubiKeys](assets/img/multi-factor-authentication/mini/yubico.svg){ .twemoji loading=lazy } [YubiKey](multi-factor-authentication.md#yubikey)
-- ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji loading=lazy } [Nitrokey](multi-factor-authentication.md#nitrokey)
-- ![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ .twemoji loading=lazy } [ente Auth](multi-factor-authentication.md#ente-auth)
+- ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ .twemoji loading=lazy }![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](language-tools.md#languagetool)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](language-tools.md)
+
+### Multi-Factor Authentication Tools
+
+**Note:** [Hardware security keys](#security-keys) have been moved to their own category.
+
+<div class="grid cards" markdown>
+
+- ![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.svg){ .twemoji loading=lazy } [Ente Auth](multi-factor-authentication.md#ente-auth)
 - ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji loading=lazy } [Aegis Authenticator (Android)](multi-factor-authentication.md#aegis-authenticator-android)
 
 </div>
@@ -375,6 +533,17 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [Learn more :material-arrow-right-drop-circle:](notebooks.md)
 
+### Office Suites
+
+<div class="grid cards" markdown>
+
+- ![LibreOffice logo](assets/img/office-suites/libreoffice.svg){ .twemoji loading=lazy } [LibreOffice](office-suites.md#libreoffice)
+- ![OnlyOffice logo](assets/img/office-suites/onlyoffice.svg){ .twemoji loading=lazy } [OnlyOffice](office-suites.md#onlyoffice)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](office-suites.md)
+
 ### Password Managers
 
 <div class="grid cards" markdown>
@@ -392,19 +561,15 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [Learn more :material-arrow-right-drop-circle:](passwords.md)
 
-### Productivity Tools
+### Pastebins
 
 <div class="grid cards" markdown>
 
-- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](productivity.md#nextcloud)
-- ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ .twemoji loading=lazy } [LibreOffice](productivity.md#libreoffice)
-- ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ .twemoji loading=lazy } [OnlyOffice](productivity.md#onlyoffice)
-- ![CryptPad logo](assets/img/productivity/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](productivity.md#cryptpad)
-- ![PrivateBin logo](assets/img/productivity/privatebin.svg){ .twemoji loading=lazy } [PrivateBin (Pastebin)](productivity.md#privatebin)
+- ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ .twemoji loading=lazy } [PrivateBin](pastebins.md#privatebin)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](productivity.md)
+[Learn more :material-arrow-right-drop-circle:](pastebins.md)
 
 ### Real-Time Communication
 
@@ -420,32 +585,67 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [Learn more :material-arrow-right-drop-circle:](real-time-communication.md)
 
+## Hardware
+
+### Security Keys
+
+<div class="grid cards" markdown>
+
+- ![Yubico logo](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [Yubico Security Key](security-keys.md#yubico-security-key)
+- ![Yubico logo](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [YubiKey](security-keys.md#yubikey)
+- ![Nitrokey](assets/img/security-keys/mini/nitrokey.svg){ .twemoji loading=lazy } [Nitrokey](security-keys.md#nitrokey)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](security-keys.md)
+
+### Mobile Phones
+
+<div class="grid cards" markdown>
+
+- ![Google Pixel 6](assets/img/android/google-pixel.png){ .twemoji loading=lazy } [Google Pixel](mobile-phones.md#google-pixel)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](mobile-phones.md)
+
 ## Operating Systems
 
 ### Mobile
 
+#### Custom Android Operating Systems
+
 <div class="grid cards" markdown>
 
-- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji loading=lazy }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji loading=lazy } [GrapheneOS](android.md#grapheneos)
-- ![DivestOS logo](assets/img/android/divestos.svg){ .twemoji loading=lazy } [DivestOS](android.md#divestos)
+- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji loading=lazy }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji loading=lazy } [GrapheneOS](android/distributions.md#grapheneos)
+- ![DivestOS logo](assets/img/android/divestos.svg){ .twemoji loading=lazy } [DivestOS](android/distributions.md#divestos)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android.md)
+[Learn more :material-arrow-right-drop-circle:](android/distributions.md)
 
 #### Android Apps
 
 <div class="grid cards" markdown>
 
-- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji loading=lazy } [Obtainium (App Manager)](android.md#obtainium)
-- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji loading=lazy } [Aurora Store (Google Play Client)](android.md#aurora-store)
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji loading=lazy } [Shelter (Work Profiles)](android.md#shelter)
-- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji loading=lazy }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji loading=lazy } [Secure Camera](android.md#secure-camera)
-- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji loading=lazy }![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji loading=lazy } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji loading=lazy } [Shelter (Work Profiles)](android/general-apps.md#shelter)
+- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji loading=lazy }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji loading=lazy } [Secure Camera](android/general-apps.md#secure-camera)
+- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji loading=lazy }![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji loading=lazy } [Secure PDF Viewer](android/general-apps.md#secure-pdf-viewer)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android.md#general-apps)
+[Learn more :material-arrow-right-drop-circle:](android/general-apps.md)
+
+#### Ways to Obtain Android Apps
+
+<div class="grid cards" markdown>
+
+- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji loading=lazy } [Obtainium (App Manager)](android/obtaining-apps.md#obtainium)
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji loading=lazy } [Aurora Store (Google Play Client)](android/obtaining-apps.md#aurora-store)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](android/obtaining-apps.md)
 
 ### Desktop/PC
 
@@ -500,7 +700,7 @@ These tools may provide utility for certain individuals. They provide functional
 - ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
 - ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
 - ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji loading=lazy }![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji loading=lazy } [Hypatia (Android)](device-integrity.md#hypatia-android)
-- ![iVerify logo](assets/img/device-integrity/iverify.webp){ .twemoji loading=lazy } [iVerify (iOS)](device-integrity.md#iverify-ios)
+- ![iVerify logo](assets/img/device-integrity/iverify.webp){ .twemoji loading=lazy } [iVerify Basic (iOS)](device-integrity.md#iverify-basic-ios)
 
 </div>
 

@@ -7,9 +7,9 @@ description: iOS is a mobile operating system developed by Apple for the iPhone.
 
 ## Privacy Notes
 
-iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best-practices. However, the restrictiveness of Apple's ecosystem—particularly with their mobile devices—does still hamper privacy in a number of ways.
+iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. However, the restrictiveness of Apple's ecosystem—particularly with their mobile devices—does still hamper privacy in a number of ways.
 
-We generally consider iOS to provide better than average privacy and security protections for most people, compared to stock Android devices from any manufacturer. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+We generally consider iOS to provide better than average privacy and security protections for most people, compared to stock Android devices from any manufacturer. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md#aosp-derivatives) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
 
 ### Activation Lock
 
@@ -41,7 +41,7 @@ You can also protect your data by limiting what you sync to iCloud in the first 
 
 A paid **iCloud+** subscription (with any iCloud storage plan) comes with some privacy-protecting functionality. While these may provide adequate service for current iCloud customers, we wouldn't recommend purchasing an iCloud+ plan over a [VPN](../vpn.md) and [standalone email aliasing service](../email-aliasing.md) just for these features alone.
 
-**Private Relay** is a proxy service which relays your Safari traffic through two servers: one owned by Apple and one owned by a third-party provider (including Akamai, Cloudflare, and Fastly). In theory this should prevent any single provider in the chain—including Apple—from having full visibility into which websites you visit while connected. Unlike a full VPN, Private Relay does not protect traffic from your apps outside of Safari.
+[**Private Relay**](https://apple.com/legal/privacy/data/en/icloud-relay) is a proxy service which relays all of your Safari traffic, your DNS queries, and unencrypted traffic on your device through two servers: one owned by Apple and one owned by a third-party provider (including Akamai, Cloudflare, and Fastly). In theory this should prevent any single provider in the chain—including Apple—from having full visibility into which websites you visit while connected. Unlike a VPN, Private Relay does not protect traffic that's already encrypted.
 
 **Hide My Email** is Apple's email aliasing service. You can create an email aliases for free when you *Sign In With Apple* on a website or app, or generate unlimited aliases on demand with a paid iCloud+ plan. Hide My Email has the advantage of using the `@icloud.com` domain for its aliases, which may be less likely to be blocked compared to other email aliasing services, but does not offer functionality offered by standalone services such as automatic PGP encryption or multiple mailbox support.
 
@@ -55,7 +55,7 @@ At the top of the **Settings** app, you'll see your name and profile picture if 
 
 **Find My** is a service that lets you track your Apple devices and share your location with your friends and family. It also allows you to wipe your device remotely in case it is stolen, preventing a thief from accessing your data. Your Find My [location data is E2EE](https://apple.com/legal/privacy/data/en/find-my) when:
 
-- Your location is shared with a family member or friend, and you both use iOS 15 or greater.
+- Your location is shared with a family member or friend, and you both use iOS 17 or greater.
 - Your device is offline and is located by the Find My Network.
 
 Your location data is not E2EE when your device is online and you use Find My iPhone remotely to locate your device. You will have to make the decision whether these trade-offs are worth the anti-theft benefits of Activation Lock.
@@ -124,11 +124,11 @@ If you use biometrics, you should know how to turn them off quickly in an emerge
 
 On some older devices, you may have to press the power button five times to disable biometrics instead, or for devices with Touch ID you may just have to hold down the power button and nothing else. Make sure you try this in advance so you know which method works for your device.
 
-**Stolen Data Protection** is a new feature in iOS 17.3 which adds additional security intended to protect your personal data if your device is stolen while unlocked. If you use biometrics and the Find My Device feature in your Apple ID settings, we recommend enabling this new protection:
+**Stolen Device Protection** is a new feature in iOS 17.3 which adds additional security intended to protect your personal data if your device is stolen while unlocked. If you use biometrics and the Find My Device feature in your Apple ID settings, we recommend enabling this new protection:
 
 - [x] Select **Turn On Protection**
 
-After enabling stolen data protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling lost mode. It also adds a security delay to certain actions performed away from your home or other "familiar location," such as requiring a 1-hour timer to reset your Apple ID password or sign out of your Apple ID. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
+After enabling Stolen Device Protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling Lost Mode. It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple ID password or sign out of your Apple ID. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
 
 **Allow Access When Locked** gives you options for what you can allow when your phone is locked. The more of these options you disable, the less someone without your password can do, but the less convenient it will be for you. Pick and choose which of these you don't want someone to have access to if they get their hands on your phone.
 
@@ -154,21 +154,29 @@ With this setting enabled, someone could intentionally wipe your phone by enteri
 
 - [x] Turn on **Erase Data**
 
-#### Privacy
+#### Privacy & Security
 
 **Location Services** allows you to use features like Find My and Maps. If you don't need these features, you can disable Location Services. Alternatively, you can review and pick which apps can use your location here. Select **Location Services**:
 
 - [ ] Turn off **Location Services**
 
+A purple arrow will appear next to an app in these settings that has used your location recently, while a gray arrow indicates that your location has been accessed within the last 24 hours. If you decide to leave Location Services on, Apple will use it for System Services by default. You can review and pick which services can use your location here. However, if you don't want to submit location analytics to Apple, which they use to improve Apple Maps, you can disable this here as well. Select **System Services**:
+
+- [ ] Turn off **iPhone Analytics**
+- [ ] Turn off **Routing & Traffic**
+- [ ] Turn off **Improve Maps**
+
 You can decide to allow apps to request to **track** you here. Disabling this disallows all apps from tracking you with your phone's advertising ID. Select **Tracking**:
 
 - [ ] Turn off **Allow Apps to Request to Track**
+
+This is disabled by default and cannot be changed for users under 18.
 
 You should turn off **Research Sensor & Usage Data** if you don't wish to participate in studies. Select **Research Sensor & Usage Data**:
 
 - [ ] Turn off **Sensor & Usage Data Collection**
 
-**Safety Check** allows you to quickly view and revoke certain people and apps that might have permission to access your data. Here you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources, and you can **Manage Sharing & Access** which allows you to go through and customize who and what has access to your device and account resources.
+**Safety Check** allows you to quickly view and revoke certain people and apps that might have permission to access your data. Here you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources. You can also **Manage Sharing & Access** which allows you to go through and customize who and what has access to your device and account resources.
 
 You should disable analytics if you don't wish to send Apple usage data. Select **Analytics & Improvements**:
 
@@ -178,7 +186,7 @@ You should disable analytics if you don't wish to send Apple usage data. Select 
 - [ ] Turn off **Improve Safety**
 - [ ] Turn off **Improve Siri & Dictation**
 
-Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Advertising**
+Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Advertising**:
 
 - [ ] Turn off **Personalized Ads**
 
@@ -202,7 +210,7 @@ Jailbreaking an iPhone undermines its security and makes you vulnerable. Running
 
 ### Encrypted iMessage
 
-The color of the message bubble in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates they're using the outdated SMS and MMS protocols. Currently, the only way to get E2EE in Messages is for both parties to be using iMessage on Apple devices.
+The color of the message bubble in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using the outdated SMS and MMS protocols. Currently, the only way to get E2EE in Messages is for both parties to be using iMessage on Apple devices.
 
 If either you or your messaging partner have iCloud Backup enabled without Advanced Data Protection, the encryption key will be stored on Apple's servers, meaning they can access your messages. Additionally, iMessage's key exchange is not as secure as alternative implementations, like Signal (which allows you to view the recipients key and verify by QR code), so it shouldn't be relied on for particularly sensitive communications.
 
@@ -218,4 +226,4 @@ Apple always makes beta versions of iOS available early for those that wish to h
 
 ### Before First Unlock
 
-If your threat model includes forensic tools and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
+If your threat model includes forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
