@@ -263,7 +263,8 @@ Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the 
 - Must not require sharing personal identifiers (phone numbers or emails in particular) with contacts.
 - Must use E2EE for private messages by default.
 - Must support E2EE for all messages.
-- Must have a security whitepaper as well as a published audit from a reputable, independent third party.
+- Must have thoroughly documented encryption and security practices.
+- Must have a published audit from a reputable, independent third party.
 
 ### Best-Case
 
