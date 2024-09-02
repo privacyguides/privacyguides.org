@@ -185,14 +185,14 @@ If you're looking for added **security**, you should always ensure you're connec
 
     [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
 
-- ![Windscribe logo](assets/img/vpn/mini/windscribe.svg){ .lg .middle .twemoji } **windscribe**
+- ![Windscribe logo](assets/img/vpn/mini/windscribe.svg){ .lg .middle .twemoji } **Windscribe**
 
     ---
 
     - [x] **69+ Countries**
     - [x] WireGuard Support
-    - [x] Monero & Cash Payments
-    - [ ] No Port Forwarding
+    - [x] Monero Payments
+    - [x] Port Forwarding Support for paid plans
     - [ ] No IPv6
 
     [Read Full Review :material-arrow-right-drop-circle:](vpn.md#windscribe)
