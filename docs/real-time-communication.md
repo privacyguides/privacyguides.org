@@ -259,11 +259,11 @@ Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the 
 
 ### Minimum Requirements
 
-- Has open-source clients.
-- Does not require sharing personal identifiers (phone numbers or emails in particular) with contacts.
-- Uses E2EE for private messages by default.
-- Supports E2EE for all messages.
-- Has been independently audited.
+- Must have open-source clients.
+- Must not require sharing personal identifiers (phone numbers or emails in particular) with contacts.
+- Must use E2EE for private messages by default.
+- Must support E2EE for all messages.
+- Must have a security whitepaper as well as a published audit from a reputable, independent third party.
 
 ### Best-Case
 
