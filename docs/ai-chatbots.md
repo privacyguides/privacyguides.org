@@ -54,7 +54,7 @@ You will have to trust the together.ai cloud platform to honor their commitments
 [:octicons-info-16:](https://github.com/brave/brave-browser/wiki/Brave-Leo){ .card-link title=Documentation}
 
 </div>
-Brave Leo supports a variety of models, including open-source models from Meta and Mistral, and closed-source models from Anthropic. Additionally, on the desktop Nightly version, you can use your local models, or any third-party providers with a standard API. Brave self-hosts the open models and do not retain chat history or use chats for models training. Leo can enhance its knowledge through web searches, similar to Microsoft Copilot. However, Brave's AI solution still faces challenges with multi-language support. Leo AI is available on the Brave Browser on all platforms. There is a strict rate limit for most models, but one free model has a high rate limit.
+Brave Leo supports a variety of models, including open-source models from Meta and Mistral, and closed-source models from Anthropic. Additionally, you can use your local models, or any third-party providers with a standard API. Brave self-hosts the open models and do not retain chat history or use chats for models training. Leo can enhance its knowledge through web searches, similar to Microsoft Copilot. However, Brave's AI solution still faces challenges with multi-language support. Leo AI is available on the Brave Browser on all platforms. There is a strict rate limit for most models, but one free model has a high rate limit.
 
 
 
