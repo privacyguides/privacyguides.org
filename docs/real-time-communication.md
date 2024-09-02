@@ -273,7 +273,7 @@ Our best-case criteria represents what we would like to see from the perfect pro
 - Should support forward secrecy[^1]
 - Should support Future Secrecy (Post-Compromise Security)[^2]
 - Should have open-source servers.
-- Should be decentralized, i.e. [federated or P2P](advanced/communication-network-types.md).
+- Should be decentralized, i.e. [federated](advanced/communication-network-types.md#federated-networks) or [P2P](advanced/communication-network-types.md#peer-to-peer-networks).
 - Should use E2EE for all messages by default.
 - Should support Linux, macOS, Windows, Android, and iOS.
 
