@@ -28,7 +28,7 @@ When using cloud-based AI chatbots, be mindful of the personal information you s
 
 </div>
 
-DuckDuckGo offers proprietary models from Anthropic and Open AI, as well as open-source models from Meta and Mistral. To protect your privacy, DuckDuckGo proxies your chats through their servers. The privacy policy states that providers are "deleting all information received once it is no longer necessary to provide Outputs (at most within 30 days with limited exceptions for safety and legal compliance)." For open-weights models, Duck uses together.ai and Duck has "disabled chat history by turning on the option to "not store prompts and responses" on the together.ai platform.".
+Duckduckgo offers open-source models from Meta and Mistral, as well as closed-source models from Anthropic and OpenAI. To protect your privacy, DuckDuckGo proxies your chats through their servers. The privacy policy states that providers are "deleting all information received once it is no longer necessary to provide Outputs (at most within 30 days with limited exceptions for safety and legal compliance)." For open-weights models, Duck uses together.ai and Duck has "disabled chat history by turning on the option to "not store prompts and responses" on the together.ai platform.".
 
  It is available directly on [DuckDuckGo](https://duckduckgo.com), or [duck.ai](https://duck.ai). It is also available on DDG's onion site.
 <div class="admonition danger" markdown>
