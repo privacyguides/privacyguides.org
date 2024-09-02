@@ -280,7 +280,7 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 ![Windscribe logo](assets/img/vpn/windscribe.svg#only-light){ align=right }
 ![Windscribe logo](assets/img/vpn/windscribe-dark.svg#only-dark){ align=right }
 
-**Windscribe** is a Canadian-based VPN provider established in 2016. Windscribe offers a limited free tier, a more featured premium option, and a "Build-a-Plan" option that allows you to customize your subscription based on your choice of features and [add-ons](https://windscribe.com/knowledge-base/articles/what-is-the-difference-between-the-build-a-plan-and-regular-pro-plan).
+**Windscribe** is a Canadian-based VPN provider established in 2016. Windscribe offers a limited free tier, a more featured premium option, and a "Build-a-Plan" option that allows you to customize your subscription based on your choice of server locations and [add-ons](https://windscribe.com/knowledge-base/articles/what-is-the-difference-between-the-build-a-plan-and-regular-pro-plan).
 
 [:octicons-home-16: Homepage](https://windscribe.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://windscribe.com/privacy){ .card-link title="Privacy Policy" }
@@ -323,11 +323,13 @@ As of June 2024, [Windscribe's applications are now open source](https://github.
 
 #### :material-check:{ .pg-green } Accepts Monero
 
-In addition to accepting credit/debit cards and PayPal, Windscribe accepts **Monero**, Bitcoin, and a variety of other cryptocurrencies as payment.
+In addition to accepting credit/debit cards and PayPal, Windscribe accepts **local currencies**, **Monero**, Bitcoin, and a variety of other cryptocurrencies as payment.
 
 #### :material-check:{ .pg-green } WireGuard Support
 
-Windscribe [supports Wireguard](https://blog.windscribe.com/introducing-wireguard-76a1670700a6/) and it is supported by their [config generator](https://windscribe.com/features/config-generators). [WireGuard](https://www.wireguard.com) is a newer protocol that utilizes state-of-the-art [cryptography](https://www.wireguard.com/protocol/), and aims to be simpler and more performant.
+Windscribe [supports WireGuard](https://blog.windscribe.com/introducing-wireguard-76a1670700a6). [WireGuard](https://www.wireguard.com) is a newer protocol that utilizes state-of-the-art [cryptography](https://www.wireguard.com/protocol), and aims to be simpler and more performant.
+
+Windscribe offers a WireGuard [configuration file generator](https://windscribe.com/features/config-generators) for paid plans only.
 
 #### :material-check:{ .pg-green } IPv6 Support
 
