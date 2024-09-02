@@ -5,7 +5,7 @@ icon: material-chat-processing-outline
 description: Unlike OpenAI's ChatGPT and it's successors, those AI tools do not train their models using your conversations.
 cover: ai-chatbots.webp
 ---
-Since the release of ChatGPT by OpenAI in December 2022, talking with Largue Language Models (LLMs) has become common. It can help us write better, understand unfamiliar subjects or answer a wide range of questions. However, the developpers of those models need data to improve their model. Unfortunately, this include your conversations with the AI.
+Since the release of ChatGPT in 2022, talking with Large Language Models (LLMs) has become common. LLMs can help us write better, understand unfamiliar subjects or answer a wide range of questions. However, the developers of those models need data to improve their models. Unfortunately, this often includes your conversations with the AI.
 
 ## Recommended Providers
 
