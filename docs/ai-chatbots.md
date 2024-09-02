@@ -33,7 +33,7 @@ Duckduckgo offers open-source models from Meta and Mistral, as well as closed-so
  It is available directly on [DuckDuckGo](https://duckduckgo.com), or [duck.ai](https://duck.ai). It is also available on DDG's onion site.
 <div class="admonition danger" markdown>
 <p class="admonition-title">Proprietary models providers retain your chats</p>
-Anthropic and OpenAI stores chats for up to 30 days. Do not use those models for anything you wouldn't want the World to know about.
+We recommend against using the proprietary models from Anthropic or OpenAI because those providers keep chat history for up to 30 days.
 </div>
 <div class="admonition warning" markdown>
 <p class="admonition-title">DuckDuckGo doesn't self host open models</p>
