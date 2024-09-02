@@ -35,6 +35,7 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 | [Proton](#proton-vpn) | 112+ | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Partial Support | :material-alert-outline:{ .pg-orange } | Cash
 | [IVPN](#ivpn) | 37+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } | :material-information-outline:{ .pg-blue } Outgoing Only | Monero, Cash
 | [Mullvad](#mullvad) | 45+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } | :material-check:{ .pg-green } | Monero, Cash
+| [Windscribe](#windscribe) | 69+ | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Paid plans only | :material-alert-outline:{ .pg-orange } | Monero
 
 ### Proton VPN
 
@@ -279,11 +280,11 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 ![Windscribe logo](assets/img/vpn/windscribe.svg#only-light){ align=right }
 ![Windscribe logo](assets/img/vpn/windscribe-dark.svg#only-dark){ align=right }
 
-**Windscribe** is a Canadian-based VPN provider established in 2016.
+**Windscribe** is a Canadian-based VPN provider established in 2016. Windscribe offers a limited free tier, a more featured premium option, and a "Build-a-Plan" option that allows you to customize your subscription based on your choice of features and [add-ons](https://windscribe.com/knowledge-base/articles/what-is-the-difference-between-the-build-a-plan-and-regular-pro-plan).
 
 [:octicons-home-16: Homepage](https://windscribe.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://windscribe.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://windscribe.com/knowledge-base){ .card-link title=Documentation}
+[:octicons-info-16:](https://windscribe.com/knowledge-base){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/windscribe){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -291,9 +292,9 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.windscribe.vpn)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1129435228)
-- [:simple-windows11: Windows](https://windscribe.com/vpn-for-windows)
-- [:simple-apple: macOS](https://windscribe.com/vpn-for-mac)
-- [:simple-linux: Linux](https://windscribe.com/guides/linux)
+- [:simple-windows11: Windows](https://windscribe.com/download/?platform=desktop&os=windows)
+- [:simple-apple: macOS](https://windscribe.com/download/?platform=desktop&os=macos)
+- [:simple-linux: Linux](https://windscribe.com/download/?platform=desktop&os=linux)
 
 </details>
 
@@ -301,10 +302,10 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 
 #### :material-check:{ .pg-green } 69 Countries
 
-Windscribe has [servers in 69 countries](https://windscribe.com/features/large-network)(1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (less hops) to the destination.
+Windscribe has [servers in 69 countries](https://windscribe.com/features/large-network) or 11 if you use their [free plan](https://windscribe.com/knowledge-base/articles/how-much-does-it-cost-to-use-windscribe).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (less hops) to the destination.
 { .annotate }
 
-1. Last checked: 2022-06-01
+1. Last checked: 2024-09-02
 
 We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -318,11 +319,11 @@ Windscribe's current infrastructure has not been independently audited, however 
 
 #### :material-check:{ .pg-green } Open-Source Clients
 
-As of May 2022 [Windscribe applications are now open source](https://github.com/Windscribe).
+As of June 2024, [Windscribe's applications are now open source](https://github.com/Windscribe).
 
 #### :material-check:{ .pg-green } Accepts Monero
 
-In addition to accepting credit/debit cards and PayPal, Windscribe accepts Monero, Bitcoin, and a variety of other cryptocurrencies as payment.
+In addition to accepting credit/debit cards and PayPal, Windscribe accepts **Monero**, Bitcoin, and a variety of other cryptocurrencies as payment.
 
 #### :material-check:{ .pg-green } WireGuard Support
 
@@ -330,38 +331,23 @@ Windscribe [supports Wireguard](https://blog.windscribe.com/introducing-wireguar
 
 #### :material-check:{ .pg-green } IPv6 Support
 
-TODO NEED TO CHECK
+Windsribe's VPN servers [do not support](https://windscribe.com/knowledge-base/articles/does-windscribe-block-or-support-ipv6-traffic) IPv6 connections. Windscribe's official applications will automatically block all IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, and you will not be able to connect to Windscribe from an IPv6-only network.
 
-#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
+#### :material-alert-outline:{ .pg-info } Remote Port Forwarding
 
-Remote ephemeral [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is possible with a [Pro plan](https://windscribe.com/features/port-forwarding). For a permanent port forward, you need to purchase a [static IP](https://windscribe.com/staticips).
+Ephemeral remote [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is possible with a [Pro plan](https://windscribe.com/features/port-forwarding). For a permanent port forward, you need to purchase a [static IP](https://windscribe.com/staticips).
 
 #### :material-check:{ .pg-green } Censorship Circumvention
 
-TODO NEED TO CHECK
+Windscribe offers their [WStunnel](https://windscribe.com/knowledge-base/articles/what-is-the-wstunnel-protocol) and [Stealth](https://windscribe.com/knowledge-base/articles/What-Is-Stealth-Protocol) protocols, which help in situations where VPN protocols like OpenVPN or Wireguard are blocked.
 
 #### :material-check:{ .pg-green } Mobile Clients
 
-In addition to providing standard OpenVPN configuration files, Windscribe has mobile clients for [App Store](https://apps.apple.com/app/id1129435228) and [Google Play](https://play.google.com/store/apps/details?id=com.windscribe.vpn) allowing for easy connections to their servers.
+In addition to providing standard OpenVPN configuration files, Windscribe has mobile clients for [App Store](https://apps.apple.com/app/id1129435228) and [Google Play](https://play.google.com/store/apps/details?id=com.windscribe.vpn) which allow for easy connections to their servers.
 
 #### :material-information-outline:{ .pg-blue } Additional Functionality
 
 Windscribe offers [R.O.B.E.R.T.](https://windscribe.com/features/robert), a customizable server-side domain and IP blocking tool. They also offer static IP addresses, team accounts, and support for two-factor authentication.
-
-## Criteria
-
-<div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
-
-It is important to note that using a VPN provider will not make you anonymous, but it will give you better privacy in certain situations. A VPN is not a tool for illegal activities. Don't rely on a "no log" policy.
-
-
-
-
-
-
-
-
 
 ## Criteria
 
