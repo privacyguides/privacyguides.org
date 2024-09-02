@@ -331,7 +331,7 @@ Windscribe [supports Wireguard](https://blog.windscribe.com/introducing-wireguar
 
 #### :material-check:{ .pg-green } IPv6 Support
 
-Windsribe's VPN servers [do not support](https://windscribe.com/knowledge-base/articles/does-windscribe-block-or-support-ipv6-traffic) IPv6 connections. Windscribe's official applications will automatically block all IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, and you will not be able to connect to Windscribe from an IPv6-only network.
+Windscribe's VPN servers [do not support](https://windscribe.com/knowledge-base/articles/does-windscribe-block-or-support-ipv6-traffic) IPv6 connections. Windscribe's official applications will automatically block all IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, and you will not be able to connect to Windscribe from an IPv6-only network.
 
 #### :material-alert-outline:{ .pg-info } Remote Port Forwarding
 
