@@ -323,11 +323,11 @@ As of June 2024, [Windscribe's applications are now open source](https://github.
 
 #### :material-check:{ .pg-green } Accepts Monero
 
-In addition to accepting credit/debit cards and PayPal, Windscribe accepts **local currencies**, **Monero**, Bitcoin, and a variety of other cryptocurrencies as payment.
+In addition to accepting credit/debit cards, PayPal and **local currencies**, Windscribe accepts **Monero**, Bitcoin, and a variety of other cryptocurrencies as payment.
 
 #### :material-check:{ .pg-green } WireGuard Support
 
-Windscribe [supports WireGuard](https://blog.windscribe.com/introducing-wireguard-76a1670700a6). [WireGuard](https://www.wireguard.com) is a newer protocol that utilizes state-of-the-art [cryptography](https://www.wireguard.com/protocol), and aims to be simpler and more performant.
+Windscribe [supports WireGuard](https://blog.windscribe.com/introducing-wireguard-76a1670700a6). [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). Additionally, WireGuard aims to be simpler and more performant.
 
 Windscribe offers a WireGuard [configuration file generator](https://windscribe.com/features/config-generators) for paid plans only.
 
