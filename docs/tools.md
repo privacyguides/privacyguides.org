@@ -481,14 +481,14 @@ For encrypting your operating system drive, we typically recommend using whichev
 [Learn more :material-arrow-right-drop-circle:](frontends.md)
 ### AI chatbots
 <div class="grid cards" markdown>
-  
+
 #### Cloud providers
-  
+
 - ![Duck AI logo](assets/img/ai-chatbots/duckai.svg){ .twemoji loading=lazy }[Duck AI](ai-chatbots.md#duckduckgo-ai-chat)
 - ![Leo AI logo](assets/img/ai-chatbots/leo.svg){ .twemoji loading=lazy }[Brave Leo](ai-chatbots.md#brave-leo)
 
 #### Self-hosted Solutions
-  
+
 - ![Kobold logo](assets/img/ai-chatbots/kobold.svg){ .twemoji loading=lazy }[Kobold.cpp](ai-chatbots.md#koboldcpp)
 - ![Llamafile logo](assets/img/ai-chatbots/llamafile.svg){ .twemoji loading=lazy }[Llamafile](ai-chatbots.md#llamafile)
 - ![Ollama logo](assets/img/ai-chatbots/ollama.svg){ .twemoji loading=lazy }[Ollama](ai-chatbots.md#ollama)
