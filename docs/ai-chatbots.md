@@ -127,19 +127,21 @@ The Mozilla-run project also supports Llava, a text and vision model. However, i
 <p class="admonition-title">Few models available </p>
 While llamafile does support the most popular models, it doesn't support more than a dozen models, due to them using a custom file format. Another issue is that Windows limits .exe files to 4GB size, and most models are more than this size. To fix those issues, you can load external models, as detailed [here](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#using-llamafile-with-external-weights).
 </div>
+
 ## Criteria
 
 Please note we are not affiliated with any of the projects we recommend. In addition to our standard criteria, we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Requirements
-  For cloud providers :
+
+  #### For cloud providers :
   - Must not use your chats for training
   - Must not retain your chats for more than 14 days
   - Must be accessible privately (no account required, accepts request from VPN users)
   - Must provide models they host themselves, or with a third-party that acts in their behalf.
   - Must provide at least one model whit an high rate limit
 
-  For local solutions :
+  #### For local solutions :
   - Must not send personal data. Any opt-in mechanism must rely on free consent and avoid dark patterns.
   - Must not require a GPU
   - Must have GPU support for fast inference
@@ -149,13 +151,16 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 ### Best-Case
 
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
-For cloud providers :
-  - Should not retain your chat
-  - Should be accessible anonymously (Tor Browser Safest security level)
-  - Providers should only have open-source models that they self-host.
-  - Should not be rate-limited
-For local solutions :
-   -Should provide one-click installer
-   -Should have a built-in model downloader option
-   -Should be customizable (allow modifying the system prompt, temperature, etc.)
+
+#### Cloud-based :
+
+- Should not retain your chat
+- Should be accessible anonymously (Tor Browser Safest security level)
+- Providers should only have open-source models that they self-host.
+- Should not be rate-limited
+ 
+#### Self-hosted :
+- Should provide one-click installer
+- Should have a built-in model downloader option
+- Should be customizable (allow modifying the system prompt, temperature, etc.)
 
