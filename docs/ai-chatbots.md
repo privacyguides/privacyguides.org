@@ -158,9 +158,8 @@ Our best-case criteria represents what we would like to see from the perfect pro
 - Should be accessible anonymously (Tor Browser Safest security level)
 - Providers should only have open-source models that they self-host.
 - Should not be rate-limited
- 
+
 #### Self-hosted :
 - Should provide one-click installer
 - Should have a built-in model downloader option
 - Should be customizable (allow modifying the system prompt, temperature, etc.)
-
