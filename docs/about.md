@@ -12,7 +12,6 @@ schema:
     - https://twitter.com/privacy_guides
     - https://github.com/privacyguides
     - https://www.wikidata.org/wiki/Q111710163
-    - https://opencollective.com/privacyguides
     - https://www.youtube.com/@privacyguides
     - https://mastodon.neat.computer/@privacyguides
 ---

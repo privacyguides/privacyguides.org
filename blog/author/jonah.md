@@ -7,3 +7,20 @@
 He is also known for his work on the Techlore YouTube channel, including the Techlore Talks podcast he co-hosts.
 
 [:simple-mastodon: @jonah@neat.computer](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){ .md-button rel=me }
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jonah Aragon",
+    "jobTitle": "Project Director",
+    "url": "https://www.privacyguides.org/articles/author/jonah/",
+    "image": "https://www.privacyguides.org/articles/assets/external/github.com/jonaharagon.png.jpg",
+    "sameAs": [
+        "https://www.jonaharagon.com",
+        "https://shop.jonaharagon.com",
+        "https://mastodon.neat.computer/@jonah"
+    ],
+    "description": "Jonah Aragon is the Project Director and staff writer at Privacy Guides."
+}
+</script>

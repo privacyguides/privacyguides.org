@@ -117,7 +117,7 @@ theme:
     - search.highlight
 
 extra_css:
-  - assets/stylesheets/extra.css?v=20240802
+  - assets/stylesheets/extra.css?v=20240829
 
 watch:
   - theme

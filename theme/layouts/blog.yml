@@ -8,6 +8,16 @@ definitions:
   - &page_description >-
     {{ page.meta.get("description", config.site_description) or "" }}
 
+  - &page_logo >-
+    {% if page.meta.preview and page.meta.preview.logo %}
+      {{- page.meta.preview.logo -}}
+    {% endif %}
+
+  - &page_icon >-
+    {%- if not page.meta.preview or not page.meta.preview.logo -%}
+      material/book-open-page-variant
+    {%- endif -%}
+
   - &logo >-
     theme/assets/brand/logos/svg/logo/privacy-guides-logo-notext-colorbg.svg
 
@@ -72,11 +82,19 @@ layers:
   - background:
       color: "#FFD06F"
 
+  - size: { width: 512, height: 512 }
+    offset: { x: 600, y: 59 }
+    background:
+      image: *page_logo
+
+  - background:
+      color: "#FFD06F99"
+
   # Page icon
   - size: { width: 630, height: 630 }
     offset: { x: 570, y: 0 }
     icon:
-      value: material/book-open-page-variant
+      value: *page_icon
       color: "#00000033"
 
   # Logo
