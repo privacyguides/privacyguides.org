@@ -34,19 +34,27 @@
     {% if config.theme.language == "en" %}
       <meta itemprop="inLanguage" content="en-US" />
     {% endif %}
-    <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+    <span itemprop="publisher" itemscope itemtype="https://schema.org/NewsMediaOrganization">
       <meta itemprop="name" content="Privacy Guides" />
-      <meta itemprop="url" content="https://www.privacyguides.org/" />
-      <meta itemprop="sameAs" content="https://mastodon.neat.computer/@privacyguides" />
-      <meta itemprop="sameAs" content="https://twitter.com/privacy_guides" />
-      <meta itemprop="sameAs" content="https://github.com/privacyguides" />
+      <link itemprop="url" href="https://www.privacyguides.org/" />
+      <link itemprop="sameAs" href="https://mastodon.neat.computer/@privacyguides" />
+      <link itemprop="sameAs" href="https://twitter.com/privacy_guides" />
+      <link itemprop="sameAs" href="https://github.com/privacyguides" />
       <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-        <meta itemprop="url" content="https://www.privacyguides.org/en/assets/brand/logos/png/square/pg-yellow.png" />
+        <link itemprop="url" href="https://www.privacyguides.org/en/assets/brand/logos/png/square/pg-yellow.png" />
         <meta itemprop="width" content="512" />
         <meta itemprop="height" content="512" />
       </span>
+      <link itemprop="publishingPrinciples" href="https://www.privacyguides.org/en/about/criteria/" />
+      <link itemprop="actionableFeedbackPolicy" href="https://www.privacyguides.org/articles/editorial/#actionable-feedback" />
+      <link itemprop="correctionsPolicy" href="https://www.privacyguides.org/articles/editorial/#corrections-policy" />
+      <link itemprop="ethicsPolicy" href="https://www.privacyguides.org/articles/editorial/#ethics-policy" />
+      <link itemprop="missionCoveragePrioritiesPolicy" href="https://www.privacyguides.org/articles/editorial/#coverage-priorities" />
+      <link itemprop="unnamedSourcesPolicy" href="https://www.privacyguides.org/articles/editorial/#unnamed-sources-policy" />
+      <link itemprop="verificationFactCheckingPolicy" href="https://www.privacyguides.org/articles/editorial/#verification-fact-checking" />
+      <link itemprop="ownershipFundingInfo" href="https://www.privacyguides.org/en/about/donate/" />
+      <link itemprop="masthead" href="https://www.privacyguides.org/en/about/" />
     </span>
-    <link itemprop="publishingPrinciples" href="https://www.privacyguides.org/en/about/criteria/" />
 
     <!-- Sidebar -->
     <div

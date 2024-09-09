@@ -211,6 +211,7 @@ nav:
   - !ENV [NAV_BLOG, "Articles"]:
       - index.md
       - tags.md
+      - editorial.md
   - !ENV [NAV_ABOUT, "About"]: /en/about/
   - "Donate": /en/about/donate/
   - !ENV [NAV_CHANGELOG, "Changelog"]:
