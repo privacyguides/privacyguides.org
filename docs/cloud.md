@@ -2,7 +2,7 @@
 meta_title: "The Best Private and Secure Cloud Storage Providers - Privacy Guides"
 title: "Cloud Storage"
 icon: material/file-cloud
-description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
+description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives.
 cover: cloud.webp
 ---
 <small>Protects against the following threat(s):</small>
@@ -129,6 +129,7 @@ An Android app is not available but it is [in the works](https://discuss.privacy
 ### Minimum Requirements
 
 - Must enforce end-to-end encryption.
+- Must have thoroughly documented encryption and security practices.
 - Must offer a free plan or trial period for testing.
 - Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - Must offer a web interface which supports basic file management functionality.
@@ -139,8 +140,8 @@ An Android app is not available but it is [in the works](https://discuss.privacy
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
 - Clients should be open source.
-- Clients should be audited in their entirety by an independent third-party.
+- Clients should be audited in their entirety by an independent third party.
 - Should offer native clients for Linux, Android, Windows, macOS, and iOS.
     - These clients should integrate with native OS tools for cloud storage providers, such as Files app integration on iOS, or DocumentsProvider functionality on Android.
-- Should support easy file-sharing with other users.
+- Should support easy file sharing with other users.
 - Should offer at least basic file preview and editing functionality on the web interface.
