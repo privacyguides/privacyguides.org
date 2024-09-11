@@ -68,7 +68,7 @@ GrapheneOS supports [sandboxed Google Play](https://grapheneos.org/usage#sandbox
 
 By default, Android makes many network connections to Google to perform DNS connectivity checks, to sync with current network time, to check your network connectivity, and for many other background tasks. GrapheneOS replaces these with connections to servers operated by GrapheneOS and subject to their privacy policy. This hides information like your IP address [from Google](../basics/common-threats.md#privacy-from-service-providers), but means it is trivial for an admin on your network or ISP to see you are making connections to `grapheneos.network`, `grapheneos.org`, etc. and deduce what operating system you are using.
 
-GrapheneOS provides the option to switch back to connecting to Google's servers for many of these background connections if you prefer, but it is far more robust/foolproof to use a [trusted VPN](../vpn.md) and enable Android's native VPN [kill switch](../os/android-overview.md#vpn-killswitch) to hide information like this from adversaries on your network.
+If you want to hide information like this from an adversary on your network or ISP, you **must** use a [trusted VPN](../vpn.md) in addition to changing the connectivity check setting to **Standard (Google)**. It can be found in :gear: **Settings** → **Network & internet** → **Internet connectivity checks**. This option allows you to connect to Google's servers for connectivity checks, which, alongside the usage of a VPN, helps you blend in with a larger pool of Android devices.
 
 ### DivestOS
 
