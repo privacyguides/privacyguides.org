@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="200mm" height="200mm" version="1.1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient8220" x2="200" y1="100" y2="100" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#67b793" offset="0"/>
+   <stop stop-color="#50956d" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <circle cx="100" cy="100" r="100" fill="url(#linearGradient8220)"/>
+  <g fill="#d7f5ec">
+   <circle cx="100" cy="100" r="60"/>
+   <path d="m181.92 157.36a100 100 0 0 1-24.558 24.558l-57.358-81.915z"/>
+   <path d="m157.36 18.085a100 100 0 0 1 24.558 24.558l-81.915 57.358z"/>
+   <rect transform="rotate(45)" x="141.42" y="-17.365" width="98.481" height="34.73"/>
+   <rect transform="rotate(-45)" x="-8.5459e-7" y="124.06" width="98.481" height="34.73"/>
+  </g>
+  <circle cx="100" cy="100" r="40" fill="#4a8f62"/>
+ </g>
+</svg>
