@@ -97,7 +97,7 @@ We are testing a new feature that allows readers to better identify and understa
 
     ---
 
-    We recommend **Safari** alongside a tracker-blocker like [AdGuard](browser-extensions.md#adguard) on iOS, because all iOS browsers are forced to be based on Safari anyways. This reduces the number of parties you're required to trust.
+    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0/) features and default tracker blocking. It also separates your cookies in private browsing mode to prevent tracking between tabs.
 
     - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari)
 
