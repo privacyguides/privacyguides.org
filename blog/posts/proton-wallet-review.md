@@ -30,7 +30,7 @@ review:
 ---
 ![Proton Wallet logo](../assets/img/cryptocurrency/proton-wallet.svg){ align=right itemprop="image" }
 
-Proton, the Swiss creators of privacy-focused products like [Proton Mail](https://www.privacyguides.org/en/email/) and ProtonVPN, recently released the latest product in their ever-growing lineup: **Proton Wallet**. [Announced](https://discuss.privacyguides.net/t/introducing-proton-wallet-a-safer-way-to-hold-bitcoin/19636) at the end of July 2024, it promotes itself as "an easy-to-use, self-custodial" Bitcoin wallet that will ostensibly make financial freedom more attainable for everyone.<!-- more -->
+Proton, the Swiss creators of privacy-focused products like [Proton Mail](https://www.privacyguides.org/en/email/#proton-mail) and [Proton VPN](https://www.privacyguides.org/en/vpn/#proton-vpn), recently released the latest product in their ever-growing lineup: **Proton Wallet**. [Announced](https://discuss.privacyguides.net/t/introducing-proton-wallet-a-safer-way-to-hold-bitcoin/19636) at the end of July 2024, it promotes itself as "an easy-to-use, self-custodial" Bitcoin wallet that will ostensibly make financial freedom more attainable for everyone.<!-- more -->
 
 !!! info inline "Side info"
 
