@@ -51,6 +51,8 @@ Depending on if you are using **Wi-Fi** or **Ethernet** (denoted by a green dot 
 
 Click on the "Details" button by your network name:
 
+- [x] Select **Rotating** under **Private Wi-Fi address**
+
 - [x] Check **Limit IP address tracking**
 
 ##### Firewall
