@@ -139,7 +139,7 @@ Please note we are not affiliated with any of the projects we recommend. In addi
   - Must not retain your chats for more than 14 days
   - Must be accessible privately (no account required, accepts request from VPN users)
   - Must provide models they host themselves, or with a third-party that acts in their behalf.
-  - Must provide at least one model whit an high rate limit
+  - Must provide at least one model with a high rate limit
 
   #### For local solutions :
   - Must not send personal data. Any opt-in mechanism must rely on free consent and avoid dark patterns.
