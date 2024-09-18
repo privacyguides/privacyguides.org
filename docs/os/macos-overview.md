@@ -137,7 +137,7 @@ macOS uses a randomized MAC address when performing Wi-Fi scans while disconnect
 
 You can set your MAC address to be randomized per network and rotate occasionally to prevent tracking between networks and on the same network over time.
 
-Go to **System Settings** > **Network** > **Wi-Fi** > **Details** and set **Private Wi-FI address** to either **Fixed** if you want a fixed random address for each network or **Rotating** if you want it to change over time.
+Go to **System Settings** > **Network** > **Wi-Fi** > **Details** and set **Private Wi-FI address** to either **Fixed** if you want a fixed but unique address for the network you're connected to, or **Rotating** if you want it to change over time.
 
 Your MAC address is not the only unique information about your device which is broadcast on the network, your hostname is another piece of information which could uniquely identify you. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** > **General** > **Sharing**. Some [privacy scripts](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide) allow you to easily generate hostnames with random names.
 
