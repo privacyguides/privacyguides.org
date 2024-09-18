@@ -147,6 +147,7 @@ plugins:
     categories:
       - categories
       - tags
+  glightbox: {}
   tags: {}
   search: {}
   privacy:
