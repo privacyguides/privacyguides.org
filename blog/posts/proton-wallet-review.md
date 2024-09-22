@@ -1,5 +1,8 @@
 ---
 title: "Proton Wallet Review: Is Proton Losing Touch?"
+template: review-article.html
+schema_type: ReviewNewsArticle
+description: "It may well be that Proton Wallet is the easiest way to start using Bitcoin, but is a Bitcoin wallet the solution people need to improve their financial privacy?"
 date:
     created: 2024-09-08
 categories:
@@ -14,7 +17,7 @@ license: BY-SA
 preview:
   logo: theme/assets/img/cryptocurrency/proton-wallet.svg
 review:
-  type: WebApplication
+  type: SoftwareApplication
   category: FinanceApplication
   subcategory: Cryptocurrency Wallet
   name: Proton Wallet

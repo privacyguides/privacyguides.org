@@ -1,5 +1,6 @@
 ---
 title: Operating Systems
+description: An overview of our operating system-related recommendations for all major computing hardware.
 ---
 We publish configuration guides for the major operating systems, because you can generally improve the amount of data that is collected about you on any option, especially if you use privacy tools like our [recommended web browsers](../desktop-browsers.md) in place of native tools where appropriate. However, some operating systems will be more privacy-respecting inherently, and it will be much harder to achieve an equivalent level of privacy on other choices.
 

@@ -8,6 +8,8 @@ authors:
 tags:
     - Privacy Guides
 license: BY-SA
+description: Privacy Guides has reached a significant milestone with today's hire of our first employee, Project Director Jonah Aragon.
+schema_type: NewsArticle
 ---
 
 # Jonah Aragon Hired as Project Director

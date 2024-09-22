@@ -13,6 +13,8 @@ links:
     - posts/signal-configuration-and-hardening.md
     - Real-Time Communication: https://www.privacyguides.org/real-time-communication/
 license: BY-SA
+description: Signal has changed how it handles registration. This primarily affects people who are using a number for Signal that they don't have exclusive access to.
+schema_type: ReportageNewsArticle
 ---
 # Important Changes to Signal Registration and Registration Lock
 

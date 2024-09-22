@@ -1,5 +1,6 @@
 ---
 title: Executive Policy
+description: These are policies formally adopted by our executive committee, and take precedence over all other statements expressed on this website.
 ---
 
 These are policies formally adopted by Privacy Guides' executive committee, and take precedence over all other statements expressed on this website.

@@ -10,6 +10,8 @@ links:
     - Search Engines: https://www.privacyguides.org/en/search-engines/
 tags:
     - Search Engines
+description: Startpage has been removed from Privacy Guides' recommendations following their acquisition by System1.
+schema_type: NewsArticle
 ---
 # Delisting Startpage From Privacy Guides
 

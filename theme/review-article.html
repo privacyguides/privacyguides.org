@@ -1,0 +1,129 @@
+<!--
+  Copyright (c) 2024 Jonah Aragon <jonah@triplebit.net>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+{% extends "blog-post.html" %}
+
+{% import "partials/nav-item.html" as item with context %}
+
+{% block extra_sidebar %}
+    <!-- Product review information -->
+    {% if page.meta.review %}
+      <ul class="md-post__meta md-nav__list">
+        <li class="md-nav__item md-nav__item--section">
+          <div class="md-post__title">
+            <span class="md-ellipsis">
+              <span>Our rating</span>
+            </span>
+          </div>
+          <div class="md-nav">
+            <ul class="md-nav__list">
+              <li class="md-nav__item">
+                <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                  <meta itemprop="bestRating" content="5" />
+                  <meta itemprop="worstRating" content="0.5" />
+                  <span class="md-nav__link" itemprop="ratingValue" content="{{ page.meta.review.rating }}" title="Rating: {{ page.meta.review.rating }} / 5">
+                    {% for i in range(1, 6) %}
+                      {% if i <= page.meta.review.rating %}
+                        {% include ".icons/material/star.svg" %}
+                      {% else %}
+                        {% if i - 0.5 == page.meta.review.rating %}
+                          {% include ".icons/material/star-half-full.svg" %}
+                        {% else %}
+                          {% include ".icons/material/star-outline.svg" %}
+                        {% endif %}
+                      {% endif %}
+                    {% endfor %}
+                  </span>
+                </span>
+              </li>
+              <li class="md-nav__item">
+                <span class="md-nav__link">
+                  <span itemprop="positiveNotes" itemscope itemtype="https://schema.org/ItemList">
+                    <strong itemprop="name">Pros:</strong>
+                    <span>
+                      <ul class="pg-proconlist">
+                        {% for pro in page.meta.review.pros %}
+                          <li itemprop="itemListElement">{{ pro }}</li>
+                        {% endfor %}
+                      </ul>
+                    </span>
+                  </span>
+                </span>
+              </li>
+              <li class="md-nav__item">
+                <span class="md-nav__link">
+                  <span itemprop="negativeNotes" itemscope itemtype="https://schema.org/ItemList">
+                    <strong itemprop="name">Cons:</strong>
+                    <span>
+                      <ul class="pg-proconlist">
+                        {% for con in page.meta.review.cons %}
+                          <li itemprop="itemListElement">{{ con }}</li>
+                        {% endfor %}
+                      </ul>
+                    </span>
+                  </span>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <ul class="md-post__meta md-nav__list" itemprop="itemReviewed" itemscope itemtype="https://schema.org/{{ page.meta.review.type }}">
+        <meta itemprop="applicationCategory" content="{{ page.meta.review.category }}" />
+        <meta itemprop="applicationSubCategory" content="{{ page.meta.review.subcategory }}" />
+        <li class="md-nav__item md-nav__item--section">
+          <div class="md-post__title">
+            <span class="md-ellipsis">
+              <span itemprop="name">{{ page.meta.review.name }}</span> summary
+            </span>
+            <meta itemprop="alternateName" content="{{ page.meta.review.alternateName }}" />
+          </div>
+          <div class="md-nav">
+            <ul class="md-nav__list">
+              <li class="md-nav__item">
+                <span class="md-nav__link">
+                  <span itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                    <strong>Price:</strong>
+                    {% if page.meta.review.price == 0 %}
+                      <span itemprop="price" content="0">Free</span>
+                    {% else %}
+                    <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="{{ page.meta.review.price }}">{{ page.meta.review.price }}</span>
+                    {% endif %}
+                    {% if page.meta.review.period %}
+                      / {{ page.meta.review.period }}
+                    {% endif %}
+                  </span>
+                </span>
+              </li>
+              <li class="md-nav__item">
+                <span class="md-nav__link">
+                  <strong>Website:</strong>
+                  <a itemprop="url" href="{{ page.meta.review.website }}"><em>{{ page.meta.review.website.rpartition("//")[-1].partition("/")[0] }}</em></a>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    {% endif %}
+  </nav>
+{% endblock %}

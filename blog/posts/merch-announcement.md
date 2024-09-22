@@ -9,6 +9,8 @@ authors:
 tags:
     - Privacy Guides
 license: BY-SA
+description: Privacy Guides has partnered with HELLOTUX to create what we think are the finest garments in the land.
+schema_type: BackgroundNewsArticle
 ---
 # Privacy Guides Now Has Merchandise
 

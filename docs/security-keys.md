@@ -1,7 +1,7 @@
 ---
 title: "Security Keys"
 icon: 'material/key-chain'
-description: These tools assist you with securing your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
+description: Secure your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
 cover: multi-factor-authentication.webp
 ---
 <small>Protects against the following threat(s):</small>

@@ -27,7 +27,7 @@
 
 <!-- Page content -->
 {% block container %}
-  <div class="md-content md-content--post" data-md-component="content" itemscope itemtype="https://schema.org/Article">
+  <div class="md-content md-content--post" data-md-component="content" itemscope itemtype="https://schema.org/{{ page.meta.schema_type or 'Article' }}">
     <meta itemprop="headline" content="{{ page.title | striptags }}" />
     <meta itemprop="isAccessibleForFree" content="True" />
     <meta itemprop="isFamilyFriendly" content="True" />
@@ -205,104 +205,32 @@
               </ul>
             {% endif %}
 
-            <!-- Product review information -->
-            {% if page.meta.review %}
-              <ul class="md-post__meta md-nav__list" itemprop="about" itemscope itemtype="https://schema.org/{{ page.meta.review.type }}">
-                <meta itemprop="applicationCategory" content="{{ page.meta.review.category }}" />
-                <meta itemprop="applicationSubCategory" content="{{ page.meta.review.subcategory }}" />
-                <li class="md-nav__item md-nav__item--section">
-                  <div class="md-post__title">
-                    <span class="md-ellipsis">
-                      <span itemprop="name">{{ page.meta.review.name }}</span> summary
-                    </span>
-                    <meta itemprop="alternateName" content="{{ page.meta.review.alternateName }}" />
-                  </div>
-                  <div class="md-nav">
-                    <ul class="md-nav__list" itemprop="review" itemscope itemtype="https://schema.org/Review">
-                      <li class="md-nav__item">
-                        <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
-                          <meta itemprop="bestRating" content="5" />
-                          <meta itemprop="worstRating" content="0.5" />
-                          <span class="md-nav__link" itemprop="ratingValue" content="{{ page.meta.review.rating }}" title="Rating: {{ page.meta.review.rating }} / 5">
-                            {% for i in range(1, 6) %}
-                              {% if i <= page.meta.review.rating %}
-                                {% include ".icons/material/star.svg" %}
-                              {% else %}
-                                {% if i - 0.5 == page.meta.review.rating %}
-                                  {% include ".icons/material/star-half-full.svg" %}
-                                {% else %}
-                                  {% include ".icons/material/star-outline.svg" %}
-                                {% endif %}
-                              {% endif %}
-                            {% endfor %}
-                          </span>
-                        </span>
-                        {% if page.authors %}
-                          <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-                            {% set reviewAuthor = page.authors[0] %}
-                            <meta itemprop="name" content="{{ reviewAuthor.name }}" />
-                            <meta itemprop="url" content="{{ reviewAuthor.url | url }}" />
-                          </span>
-                        {% endif %}
-                      </li>
-                      <li class="md-nav__item">
-                        <span class="md-nav__link">
-                          <span itemprop="positiveNotes" itemscope itemtype="https://schema.org/ItemList">
-                            <strong itemprop="name">Pros:</strong>
+            {% block extra_sidebar %}
+              {% if page.categories[0].title == "Opinion" %}
+                <ul class="md-post__meta md-nav__list">
+                  <li class="md-nav__item md-nav__item--section">
+                    <div class="md-post__title">
+                      <span class="md-ellipsis">
+                        <span>Disclaimer</span>
+                      </span>
+                    </div>
+                    <div class="md-nav">
+                      <ul class="md-nav__list">
+                        <li class="md-nav__item">
+                          <span class="md-nav__link">
                             <span>
-                              <ul class="pg-proconlist">
-                                {% for pro in page.meta.review.pros %}
-                                  <li itemprop="itemListElement">{{ pro }}</li>
-                                {% endfor %}
-                              </ul>
+                              This is an opinion piece.
+                              The views expressed in this article are the author's own and do not necessarily reflect the views of Privacy Guides and its editorial team.
                             </span>
                           </span>
-                        </span>
-                      </li>
-                      <li class="md-nav__item">
-                        <span class="md-nav__link">
-                          <span itemprop="negativeNotes" itemscope itemtype="https://schema.org/ItemList">
-                            <strong itemprop="name">Cons:</strong>
-                            <span>
-                              <ul class="pg-proconlist">
-                                {% for con in page.meta.review.cons %}
-                                  <li itemprop="itemListElement">{{ con }}</li>
-                                {% endfor %}
-                              </ul>
-                            </span>
-                          </span>
-                        </span>
-                      </li>
-                    </ul>
-                    <ul class="md-nav__list">
-                      <li class="md-nav__item">
-                        <span class="md-nav__link">
-                          <span itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-                            <strong>Price:</strong>
-                            {% if page.meta.review.price == 0 %}
-                              <span itemprop="price" content="0">Free</span>
-                            {% else %}
-                            <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="{{ page.meta.review.price }}">{{ page.meta.review.price }}</span>
-                            {% endif %}
-                            {% if page.meta.review.period %}
-                              / {{ page.meta.review.period }}
-                            {% endif %}
-                          </span>
-                        </span>
-                      </li>
-                      <li class="md-nav__item">
-                        <span class="md-nav__link">
-                          <a itemprop="url" href="{{ page.meta.review.website }}"><em>{{ page.meta.review.website.rpartition("//")[-1].partition("/")[0] }}</em></a>
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-              </ul>
-            {% endif %}
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              {% endif %}
+            {% endblock %}
           </nav>
-
-
 
           <!-- Table of contents, if integrated -->
           {% if "toc.integrate" in features %}

@@ -11,6 +11,7 @@ tags:
     - Browsers
     - Firefox
 license: CC0
+schema_type: AnalysisNewsArticle
 ---
 # Firefox Privacy: 2021 Update
 

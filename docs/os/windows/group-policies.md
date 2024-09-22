@@ -1,5 +1,6 @@
 ---
 title: Group Policy Settings
+description: A quick guide to configuring Group Policy to make Windows a bit more privacy respecting.
 ---
 Outside of modifying the registry itself, the **Local Group Policy Editor** is the most powerful way to change many aspects of your system without installing third-party tools. Changing these settings requires [Pro Edition](index.md#windows-editions) or better.
 

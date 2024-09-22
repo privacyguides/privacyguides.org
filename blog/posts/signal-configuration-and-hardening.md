@@ -13,6 +13,8 @@ tags:
     - Molly
     - Instant Messengers
 license: BY-SA
+description: This guide details actions you can take to configure and harden Signal in accordance with your threat model.
+schema_type: AnalysisNewsArticle
 ---
 # Signal Configuration and Hardening Guide
 

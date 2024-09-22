@@ -11,6 +11,8 @@ tags:
     - Tor
     - Self-Hosting
 license: BY-SA
+description: Each Tor relay is the direct result of an individual deciding to sacrifice money, time and effort for the cause of fighting for a freer Internet.
+schema_type: OpinionNewsArticle
 ---
 # Why I Decided to Run a Tor Relay
 

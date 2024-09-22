@@ -11,6 +11,8 @@ tags:
 links:
     - posts/ios-configuration-guide.md
 license: BY-SA
+description: We cover the improvements macOS Ventura will bring to Apple users when it comes to personal privacy and security.
+schema_type: NewsArticle
 ---
 # New Privacy and Security Features in macOS 13 Ventura
 

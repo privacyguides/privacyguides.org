@@ -10,6 +10,8 @@ links:
 tags:
     - Facebook
 license: BY-SA
+description: If someone has to tell you that they care about your privacy, they probably don’t.
+schema_type: OpinionNewsArticle
 ---
 # Move Fast and Break Things
 
