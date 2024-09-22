@@ -9,6 +9,8 @@ links:
     - Search Engines: https://www.privacyguides.org/en/search-engines/
 tags:
     - Search Engines
+description: Startpage has been relisted in our search engine recommendations following their open communications with the Privacy Guides community.
+schema_type: NewsArticle
 ---
 # Relisting Startpage.com
 

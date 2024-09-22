@@ -1,5 +1,6 @@
 ---
 title: "General Apps"
+description: The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
 schema:
   -
     "@context": http://schema.org

@@ -11,6 +11,7 @@ tags:
     - Browsers
     - Firefox
 license: BY-SA
+schema_type: AnalysisNewsArticle
 ---
 # Firefox Privacy: Tips and Tricks for Better Browsing
 

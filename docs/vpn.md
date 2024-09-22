@@ -2,7 +2,7 @@
 meta_title: "Private VPN Service Recommendations and Comparison, No Sponsors or Ads - Privacy Guides"
 title: "VPN Services"
 icon: material/vpn
-description: These are the best VPN services for protecting your privacy and security online. Find a provider here that isn’t out to spy on you.
+description: The best VPN services for protecting your privacy and security online. Find a provider here that isn’t out to spy on you.
 cover: vpn.webp
 global:
  - [randomize-element, "table tbody"]

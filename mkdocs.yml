@@ -358,7 +358,6 @@ markdown_extensions:
   tables: {}
   footnotes: {}
   toc:
-    permalink: true
     toc_depth: 4
 
 nav:
