@@ -72,7 +72,7 @@ We recommend against using Anthropic's proprietary Claude models because Anthrop
 
 To run basic AI models you will fortunately not need a high-end computer. A computer with 8GB of RAM will be sufficient to run a 7B-8B parameters model. One issue with local models is that they have a slower inference speed than their cloud conterparts. You can remedy this by using your GPU.
 
- But what language models can you run ? Meta and Mistral release their best model under an "open" license, while Google and Microsoft only release small, less capable models. The two leaders in the field OpenAI and Anthropic do not release their model publicly.But you can't run models in their original form, you will need to run [quantized models](https://huggingface.co/docs/optimum/en/concept_guides/quantization). You can download the quantized models in a format called GGUF from [Hugging Face] (https://huggingface.co/models?sort=trending&search=.GGUF).
+There are many permissively licensed models available which can be run locally. [Hugging Face](https://huggingface.co/models?library=gguf) is a platform which lets you browse, research, and download models in common formats like GGUF. In addition to big names like Mistral, Meta, Microsoft, and Google, there are many community models and 'fine-tunes' to choose from. For consumer grade hardware, it is generally recommended to use [quantized models](https://huggingface.co/docs/optimum/en/concept_guides/quantization) for the best balance between model quality and performance.
 
 ### Kobold.cpp
 <div class="admonition recommendation" markdown>
