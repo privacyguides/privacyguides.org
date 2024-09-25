@@ -70,7 +70,7 @@ We recommend against using Anthropic's proprietary Claude models because Anthrop
 ## Local solutions
 **Local AI** models offer a more private and secure alternative to cloud-based solutions, as **your data never leaves your device** and is therefore not shared with third-party providers. This provides peace of mind and **allows you to share sensitive information**.
 
-To run basic AI models you will fortunately not need a high-end computer. A computer with 8GB of RAM will be sufficient to run a 7B-8B parameters model. One issue with local models is that they have a slower inference speed than their cloud conterparts. You can remedy this by using your GPU.
+For the best experience, a dedicated GPU with sufficient VRAM or a modern system with fast LPDDR5X memory is recommended. But fortunately, it is possible to run smaller models locally even without a high-end computer or dedicated GPU. A computer with at least 8GB of RAM will be sufficient to run smaller models at lower speeds.
 
 There are many permissively licensed models available which can be run locally. [Hugging Face](https://huggingface.co/models?library=gguf) is a platform which lets you browse, research, and download models in common formats like GGUF. In addition to big names like Mistral, Meta, Microsoft, and Google, there are many community models and 'fine-tunes' to choose from. For consumer grade hardware, it is generally recommended to use [quantized models](https://huggingface.co/docs/optimum/en/concept_guides/quantization) for the best balance between model quality and performance.
 
