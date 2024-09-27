@@ -172,8 +172,6 @@ System Integrity Protection makes critical file locations read-only to protect a
 
 On macOS, whether an app is sandboxed is determined by the developer when they sign it. The App Sandbox protects against vulnerabilities in the apps you run by limiting what a malicious actor can do in the event that the app is exploited. The App Sandbox *alone* can't protect against [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations){ .pg-viridian } by malicious developers. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the App Store.
 
-macOS apps submitted to the App Store after June 1, 2012 are required to be sandboxed using the [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
-
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
