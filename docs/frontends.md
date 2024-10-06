@@ -211,6 +211,53 @@ Your subscription list and playlists are saved locally on your Android device.
 When using NewPipe, your IP address will be visible to the video providers used. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
+### Grayjay (Android)
+
+<div class="admonition recommendation annotate" markdown>
+
+![Grayjay logo](assets/img/frontends/grayjay.svg){ align=right }
+
+Grayjay is an open Android streaming client developped by [FUTO](https://futo.org/) that supports [various platforms](https://plugins.grayjay.app/) ("sources") like Youtube, Odysee, Peertube. It allows using multiple sources simultaneously, with it's motto being "Follow creators, not platforms".
+
+Grayjay also integrates it's own comments system, [Polycentric](https://polycentric.io/). Furthermore, Grayjay supports casting with Chromecast, [FCast](https://fcast.org/) or Airplay.
+
+Your subscription list and playlists are saved locally on your Android device. You can setup automatick backup into an encrypted file.
+
+[:octicons-home-16: Homepage](https://grayjay.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://grayjay.app/privacy-policy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gitlab.futo.org/videostreaming/grayjay/-/tree/master/docs?ref_type=heads){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.futo.org/videostreaming/grayjay){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-android: Website](https://grayjay.app/#download)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.futo.platformplayer.playstore)
+
+</details>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+When using GrayJay, your IP address will be visible to the video providers used. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+GrayJay contains telemetry. On each start, it will send your OS version, device model and app version with a randomly generated unique identifier. FUTO says that it is used to " understand our user base, which devices are most commonly used, and ensures that we optimize our app for those devices" and that the random id helps identifying unique app launches.
+</div>
+
+### Recommended Grayjay Configuration
+-Sources :
+  -Disable unused sources
+  -Enable auto-updates for Youtube and other services that blocks VPNs 
+- Settings :
+  -Disable Cast. If you really need it, enable 'Alaways proxy requests'
+  -If you can't get automatic updates through your package manager, enable automatic updates.
+  Manage tabs
+    Disable Home, Groups and Tutorials.
+-Menu :
+  Enable Privacy mode. You can always bookmark videos you find interesting.
 
 ### Invidious
 
