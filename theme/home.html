@@ -52,11 +52,10 @@
   {% if config.theme.language == "en" %}
     <h2>Top discussions this week</h2>
     <div class="grid cards">
-      <ul
-        class="topics-list"
-        data-forum="https://discuss.privacyguides.net"
-        data-feed="https://discuss.privacyguides.net/top.json?period=weekly"
-        data-count="3">
+      <ul>
+        <!-- start top posts -->
+
+        <!-- end top posts -->
       </ul>
 
     </div>
@@ -103,11 +102,10 @@
     <div class="mdx-discourse-topics">
       <h3>Latest discussions</h3>
       <div class="grid cards">
-        <ul
-          class="topics-list"
-          data-forum="https://discuss.privacyguides.net"
-          data-feed="https://discuss.privacyguides.net/latest.json"
-          data-count="12">
+        <ul>
+          <!-- start latest posts -->
+
+          <!-- end latest posts -->
         </ul>
       </div>
       <noscript>
@@ -119,8 +117,4 @@
       <hr />
     </div>
   {% endif %}
-{% endblock %}
-{% block scripts %}
-  <script src="{{ 'assets/javascripts/discourse-topics.js' | url }}"></script>
-  {{ super() }}
 {% endblock %}
