@@ -35,6 +35,8 @@ For more details about each project, why they were chosen, and additional tips o
 - [x] **Trusted by Journalists**
 </div>
 
+</div>
+
 ## Private Web Browsers
 
 <div class="admonition recommendation" markdown>
