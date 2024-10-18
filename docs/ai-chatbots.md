@@ -162,6 +162,7 @@ Our best-case criteria represents what we would like to see from the perfect pro
 - Should not be rate-limited
 
 #### Local solutions  :
+
 - Should provide one-click installer
 - Should have a built-in model downloader option
 - Should be customizable (allow modifying the system prompt, temperature, etc.)
