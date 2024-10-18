@@ -135,7 +135,7 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 ### Minimum Requirements
 
   #### Cloud providers :
-  
+
   - Must not use your chats for training
   - Must not retain your chats for more than 14 days
   - Must be accessible privately (no account required, accepts request from VPN users)
@@ -143,7 +143,7 @@ Please note we are not affiliated with any of the projects we recommend. In addi
   - Must provide at least one model with a high rate limit
 
   #### Local solutions :
-  
+
   - Must not send personal data. Any opt-in mechanism must rely on free consent and avoid dark patterns.
   - Must not require a GPU
   - Must have GPU support for fast inference
