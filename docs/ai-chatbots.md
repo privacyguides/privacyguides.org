@@ -2,7 +2,7 @@
 meta_title: "Recommended AI Chatbots : Private ChatGPT Alternatives - Privacy Guides"
 title: "AI Chats"
 icon: :material-assistant:
-description: Unlike OpenAI's ChatGPT and it's successors, those AI tools do not train their models using your conversations.
+description: Unlike OpenAI's ChatGPT and its Big Tech rivals, those AI tools do not train their models using your conversations.
 cover: ai-chatbots.webp
 ---
 Since the release of ChatGPT in 2022, talking with Large Language Models (LLMs) has become common. LLMs can help us write better, understand unfamiliar subjects or answer a wide range of questions. However, the developers of those models need data to improve their models. Unfortunately, this often includes your conversations with the AI.
@@ -36,7 +36,7 @@ Duckduckgo offers open-source models from Meta and Mistral, as well as closed-so
 We recommend against using the proprietary models from Anthropic or OpenAI because those providers keep chat history for up to 30 days.
 </div>
 <div class="admonition warning" markdown>
-<p class="admonition-title">DuckDuckGo doesn't self host open models</p>
+<p class="admonition-title">DuckDuckGo doesn't self-host open models</p>
 You will have to trust the together.ai cloud platform to honor their commitments to not store chats.
 </div>
 
@@ -79,7 +79,7 @@ There are many permissively licensed models available which can be run locally. 
 
 ![Kobold.cpp Logo](assets/img/ai-chatbots/kobold.svg){align=right}
 
-Kobold.cpp is an AI client that runs locally on your Windows or Linux computer.
+Kobold.cpp is an AI client that runs locally on your Windows, Mac or Linux computer.
 
 [:octicons-home-16: Homepage](https://github.com/LostRuins/koboldcpp){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title=Documentation}
@@ -87,7 +87,7 @@ Kobold.cpp is an AI client that runs locally on your Windows or Linux computer.
 [:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy"}
 
 </div>
--You can run models from Meta, Mistral, Microsoft (Phi-2), but you can also integrate an image generator such as [Stable Diffusion](https://stability.ai/stable-image), and an automatic speech recognition tool, such as [Whisper](https://github.com/ggerganov/whisper.cpp)
+In addition to supporting a large range of text models, Kobold.cpp also has a suports an image generators such as [Stable Diffusion](https://stability.ai/stable-image), and an automatic speech recognition tools, such as [Whisper](https://github.com/ggerganov/whisper.cpp)
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Compatibility issues </p>
@@ -106,7 +106,7 @@ Ollama is a command line AI assistant that is available on macOS, Linux and Wind
 
 
 </div>
-You can run models from Meta, Mistral, Microsoft, Google etc. You can also use [Llava](https://github.com/haotian-liu/LLaVA), a "Large Language and Vision Assistant". Ollama can be downloaded and installed with a few clicks. Furthermore, it is very lightweight and compatible with almost all PCs. To use Ollama, simply type in your terminal "ollama run model name".
+In addition to supporting a large range of text models, Ollama also supports [Llava](https://github.com/haotian-liu/LLaVA), a "Large Language and Vision Assistant". Ollama can be downloaded and installed with a few clicks. Furthermore, it is very lightweight and compatible with almost all PCs. To use Ollama, simply type in your terminal "ollama run model name".
 
 ### llamafile
 <div class="admonition recommendation" markdown>
@@ -125,7 +125,7 @@ The Mozilla-run project also supports Llava, a text and vision model. However, i
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Few models available </p>
-While llamafile does support the most popular models, it doesn't support more than a dozen models, due to them using a custom file format. Another issue is that Windows limits .exe files to 4GB size, and most models are more than this size. To fix those issues, you can load external models, as detailed [here](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#using-llamafile-with-external-weights).
+Mozilla has only made available llamafiles for some Llama and Mistral models, while they are few third-party llamafiles available. Another issue is that Windows limits .exe files to 4GB size, and most models are more than this size. To fix both of those issues, you can load external weights, as detailed [here](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#using-llamafile-with-external-weights).
 </div>
 
 ## Criteria
@@ -134,14 +134,16 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 
 ### Minimum Requirements
 
-  #### For cloud providers :
+  #### Cloud providers :
+  
   - Must not use your chats for training
   - Must not retain your chats for more than 14 days
   - Must be accessible privately (no account required, accepts request from VPN users)
   - Must provide models they host themselves, or with a third-party that acts in their behalf.
   - Must provide at least one model with a high rate limit
 
-  #### For local solutions :
+  #### Local solutions :
+  
   - Must not send personal data. Any opt-in mechanism must rely on free consent and avoid dark patterns.
   - Must not require a GPU
   - Must have GPU support for fast inference
@@ -152,14 +154,14 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
-#### Cloud-based :
+#### Cloud providers :
 
 - Should not retain your chat
 - Should be accessible anonymously (Tor Browser Safest security level)
 - Providers should only have open-source models that they self-host.
 - Should not be rate-limited
 
-#### Self-hosted :
+#### Local solutions  :
 - Should provide one-click installer
 - Should have a built-in model downloader option
 - Should be customizable (allow modifying the system prompt, temperature, etc.)
