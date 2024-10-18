@@ -63,7 +63,7 @@ Brave Leo supports a variety of models, including open-source models from Meta a
 We recommend manually switching off the "Use page context for response" toggle for pages with PII.
 </div>
 <div class="admonition danger" markdown>
-<p class="admonition-title">Claude chats are kept for 30 days </p>
+<p class="admonition-title">Proprietary model providers retain your chats</p>
 We recommend against using Anthropic's proprietary Claude models because Anthropic keeps chat history for up to 30 days.
 </div>
 
