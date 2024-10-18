@@ -4,6 +4,9 @@ icon: material/flip-to-front
 description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
 cover: frontends.webp
 ---
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
 Sometimes services will try to force you to sign up for an account by blocking access to content with annoying popups. They might also break without JavaScript enabled. These frontends can allow you to get around these restrictions.
 
