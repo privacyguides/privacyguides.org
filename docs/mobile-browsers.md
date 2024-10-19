@@ -93,6 +93,18 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 === "Android"
 
     - [x] Select **Aggressive** under *Block trackers & ads*
+    - [x] Select **Auto-redirect AMP pages**
+    - [x] Select **Auto-redirect tracking URLs**
+    - [x] Select **strict** under *Upgrade connections to HTTPS*
+    - [x] (Optional) Select **Block Scripts** (1)
+    - [x] Select **Block third-party cookies** under *Block Cookies*
+    - [x] Select **Block fingerprinting**
+    - [x] Select **Prevent fingerprinting via language settings**
+    - [ ] Select **Forget me when I close this site**
+
+    </div>
+
+    1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
     
 
 === "iOS"
@@ -109,6 +121,10 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
 
     </details>
+
+    </div>
+
+    1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
     
 <details class="warning" markdown>
 <summary>Use default filter lists</summary>
@@ -116,19 +132,6 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
 
 </details>
-
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **strict** under *Upgrade connections to HTTPS*
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Block third-party cookies** under *Block Cookies*
-- [x] Select **Block fingerprinting**
-- [x] Select **Prevent fingerprinting via language settings**
-- [ ] Select **Forget me when I close this site**
-
-</div>
-
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
 
 #### Clear browsing data
 
@@ -142,6 +145,12 @@ Brave allows you to select additional content filters within the internal `brave
 
 <div class="annotate" markdown>
 
+
+=== "iOS"
+
+    - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
+    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    
 - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
 - [x] (Optional) Select **No protection** under **Safe Browsing** (1)
 - [ ] Uncheck **Allow sites to check if you have payment methods saved**
@@ -158,7 +167,13 @@ Brave allows you to select additional content filters within the internal `brave
 
 These options can be found in :material-menu: → **Settings** → **Leo**.
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar**
+<div class="annotate" markdown>
+
+- [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
+
+</div>
+
+1. This option is not present on Brave's iOS app.
 
 ### Brave Sync
 
