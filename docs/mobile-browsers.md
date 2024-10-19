@@ -74,7 +74,13 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 
 Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
 
-These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy** or :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**. Note that some of the options listed below may only appear on the Android version of Brave but not on the iOS version, or vice versa.
+=== "Android"
+
+These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
+
+=== "iOS"
+
+These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
 
 #### Brave shields global defaults
 
@@ -84,7 +90,13 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 <div class="annotate" markdown>
 
+=== "Android"
+
 - [x] Select **Aggressive** under *Block trackers & ads*
+
+=== iOS
+
+- [x] Select **Aggressive** under *Trackers & Ads Blocking*
 
 <details class="warning" markdown>
 <summary>Use default filter lists</summary>
@@ -130,7 +142,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
 
-#### Leo
+### Leo
 
 These options can be found in :material-menu: → **Settings** → **Leo**.
 
