@@ -5,6 +5,11 @@ icon: :material-assistant:
 description: Unlike OpenAI's ChatGPT and its Big Tech rivals, those AI tools do not train their models using your conversations.
 cover: ai-chatbots.webp
 ---
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
+
 Since the release of ChatGPT in 2022, talking with Large Language Models (LLMs) has become common. LLMs can help us write better, understand unfamiliar subjects or answer a wide range of questions. However, the developers of those models need data to improve their models. Unfortunately, this often includes your conversations with the AI.
 
 ## Recommended Providers
