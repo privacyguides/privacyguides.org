@@ -88,10 +88,10 @@ Brave includes some anti-fingerprinting measures in its [Shields](https://suppor
 
 Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
 
-<div class="annotate" markdown>
-
 === "Android"
 
+    <div class="annotate" markdown>
+    
     - [x] Select **Aggressive** under *Block trackers & ads*
     - [x] Select **Auto-redirect AMP pages**
     - [x] Select **Auto-redirect tracking URLs**
@@ -100,15 +100,23 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     - [x] Select **Block third-party cookies** under *Block Cookies*
     - [x] Select **Block fingerprinting**
     - [x] Select **Prevent fingerprinting via language settings**
-    - [ ] Select **Forget me when I close this site**
+    - [x] Select **Forget me when I close this site**
+
+    <details class="warning" markdown>
+    <summary>Use default filter lists</summary>
+
+    Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+
+    </details>
 
     </div>
 
     1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
     
-
 === "iOS"
 
+    <div class="annotate" markdown>
+    
     - [x] Select **Aggressive** under *Trackers & Ads Blocking*
     - [x] Select **Strict** under *Upgrade Connections to HTTPS*
     - [x] Select **Auto-Redirect AMP pages**
@@ -126,13 +134,6 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
     
-<details class="warning" markdown>
-<summary>Use default filter lists</summary>
-
-Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
-
-</details>
-
 #### Clear browsing data
 
 - [x] Select **Clear data on exit**
