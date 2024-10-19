@@ -74,7 +74,7 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 
 Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
 
-These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy** (Android) or :fontawesome-ellipsis: → **Settings** → **Shields & Privacy** (iOS). Note that some of the options listed below may only appear on the Android version of Brave but not on the iOS version, or vice versa.
+These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy** (Android) or :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy** (iOS). Note that some of the options listed below may only appear on the Android version of Brave but not on the iOS version, or vice versa.
 
 #### Brave shields global defaults
 
