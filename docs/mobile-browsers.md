@@ -100,7 +100,6 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     - [x] Select **Block third-party cookies** under *Block Cookies*
     - [x] Select **Block fingerprinting**
     - [x] Select **Prevent fingerprinting via language settings**
-    - [x] Select **Forget me when I close this site**
 
     <details class="warning" markdown>
     <summary>Use default filter lists</summary>
@@ -108,6 +107,8 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
 
     </details>
+    
+    - [x] Select **Forget me when I close this site**
 
     </div>
 
@@ -126,7 +127,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     <details class="warning" markdown>
     <summary>Use default filter lists</summary>
 
-    Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+    Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
 
     </details>
 
@@ -134,36 +135,37 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
     
-#### Clear browsing data
+#### Clear browsing data <small>Android</small>
 
 - [x] Select **Clear data on exit**
 
-#### Social Media Blocking
+#### Social Media Blocking <small>Android</small>
 
 - [ ] Uncheck all social media components
 
 #### Other privacy settings
 
-<div class="annotate" markdown>
+=== "Android"
 
+    <div class="annotate" markdown>
+    
+    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+    - [x] (Optional) Select **No protection** under **Safe Browsing** (1)
+    - [ ] Uncheck **Allow sites to check if you have payment methods saved**
+    - [x] Select **Close tabs on exit**
+    - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+    - [ ] Uncheck **Automatically send diagnostic reports**
+    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+
+    </div>
+
+    1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
 
 === "iOS"
 
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
     - [ ] Uncheck **Automatically send daily usage ping to Brave**
     
-- [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [x] (Optional) Select **No protection** under **Safe Browsing** (1)
-- [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [x] Select **Close tabs on exit**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-
-</div>
-
-1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
-
 ### Leo
 
 These options can be found in :material-menu: → **Settings** → **Leo**.
@@ -174,7 +176,7 @@ These options can be found in :material-menu: → **Settings** → **Leo**.
 
 </div>
 
-1. This option is not present on Brave's iOS app.
+1. This option is not present in Brave's iOS app.
 
 ### Brave Sync
 
