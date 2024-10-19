@@ -76,11 +76,11 @@ Tor Browser is the only way to truly browse the internet anonymously. When you u
 
 === "Android"
 
-These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
+    These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
 
 === "iOS"
 
-These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
+    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
 
 #### Brave shields global defaults
 
@@ -92,11 +92,11 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 === "Android"
 
-- [x] Select **Aggressive** under *Block trackers & ads*
+    - [x] Select **Aggressive** under *Block trackers & ads*
 
 === iOS
 
-- [x] Select **Aggressive** under *Trackers & Ads Blocking*
+    - [x] Select **Aggressive** under *Trackers & Ads Blocking*
 
 <details class="warning" markdown>
 <summary>Use default filter lists</summary>
