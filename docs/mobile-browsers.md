@@ -93,11 +93,23 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 === "Android"
 
     - [x] Select **Aggressive** under *Block trackers & ads*
+    
 
-=== iOS
+=== "iOS"
 
     - [x] Select **Aggressive** under *Trackers & Ads Blocking*
+    - [x] Select **Strict** under *Upgrade Connections to HTTPS*
+    - [x] Select **Auto-Redirect AMP pages**
+    - [x] Select **Auto-Redirect Tracking URLs**
+    - [x] (Optional) Select **Block Scripts** (1)
+    
+    <details class="warning" markdown>
+    <summary>Use default filter lists</summary>
 
+    Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+
+    </details>
+    
 <details class="warning" markdown>
 <summary>Use default filter lists</summary>
 
