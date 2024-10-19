@@ -136,11 +136,11 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
     
-#### Clear browsing data <small>Android</small>
+##### Clear browsing data (Android only)
 
 - [x] Select **Clear data on exit**
 
-#### Social Media Blocking <small>Android</small>
+##### Social Media Blocking (Android only)
 
 - [ ] Uncheck all social media components
 
