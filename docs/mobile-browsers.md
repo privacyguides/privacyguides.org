@@ -74,19 +74,17 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 
 Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
 
-These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**
-
-#### Shields
-
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy** (Android) or :fontawesome-ellipsis: → **Settings** → **Shields & Privacy** (iOS). Note that some of the options listed below may only appear on the Android version of Brave but not on the iOS version, or vice versa.
 
 #### Brave shields global defaults
+
+Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
 Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under **Block trackers & ads**
+- [x] Select **Aggressive** under *Block trackers & ads*
 
 <details class="warning" markdown>
 <summary>Use default filter lists</summary>
@@ -97,11 +95,12 @@ Brave allows you to select additional content filters within the internal `brave
 
 - [x] Select **Auto-redirect AMP pages**
 - [x] Select **Auto-redirect tracking URLs**
-- [x] Select **strict** under **Upgrade connections to HTTPS**
+- [x] Select **strict** under *Upgrade connections to HTTPS*
 - [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Block third-party cookies** under **Block Cookies**
+- [x] Select **Block third-party cookies** under *Block Cookies*
 - [x] Select **Block fingerprinting**
 - [x] Select **Prevent fingerprinting via language settings**
+- [ ] Select **Forget me when I close this site**
 
 </div>
 
@@ -119,10 +118,9 @@ Brave allows you to select additional content filters within the internal `brave
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
 - [x] (Optional) Select **No protection** under **Safe Browsing** (1)
 - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (2)
 - [x] Select **Close tabs on exit**
 - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
 - [ ] Uncheck **Automatically send diagnostic reports**
@@ -131,11 +129,10 @@ Brave allows you to select additional content filters within the internal `brave
 </div>
 
 1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
-2. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
 
 ### Leo
 
-These options can be found in :material-menu: → **Settings** → **Leo**
+These options can be found in :material-menu: → **Settings** → **Leo**.
 
 - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
