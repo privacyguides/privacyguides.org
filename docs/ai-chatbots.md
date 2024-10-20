@@ -26,7 +26,7 @@ When using cloud-based AI chatbots, be mindful of the personal information you s
 
 ![DuckDuckGo logo](assets/img/ai-chatbots/duckai.svg){align=right}
 
-**DuckDuckGo AI Chat** is made by the popular [search engine provider] (docs/search-engines.md) and is available directly in the search engine.
+**DuckDuckGo AI Chat** is made by the popular [search engine provider](search-engines.md) of the same name and is available directly on their website.
 
 [:octicons-home-16: Homepage](https://duck.ai){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/aichat){ .card-link title="Onion Service" }
@@ -143,18 +143,18 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 
 #### Cloud providers :
 
-- Must not use your chats for training
-- Must not retain your chats for more than 14 days
-- Must be accessible privately (no account required, accepts request from VPN users)
+- Must not use your chats for training.
+- Must not retain your chats for more than 14 days.
+- Must be accessible privately (no account required, accepts request from VPN users).
 - Must provide models they host themselves, or with a third-party that acts in their behalf.
-- Must provide at least one model with a high rate limit
+- Must provide at least one model with a high rate limit.
 
 #### Local solutions :
 
 - Must not send personal data. Any opt-in mechanism must rely on free consent and avoid dark patterns.
-- Must not require a GPU
-- Must have GPU support for fast inference
-- Must not require internet connection
+- Must not require a GPU.
+- Must have GPU support for fast inference.
+- Must not require internet connection.
 
 
 ### Best-Case
@@ -163,13 +163,13 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 #### Cloud providers :
 
-- Should not retain your chat
-- Should be accessible anonymously (Tor Browser Safest security level)
+- Should not retain your chat.
+- Should be accessible anonymously (Tor Browser Safest security level).
 - Providers should only have open-weights models that they self-host.
-- Should not be rate-limited
+- Should not be rate-limited.
 
 #### Local solutions  :
 
-- Should provide one-click installer
-- Should have a built-in model downloader option
-- Should be customizable (allow modifying the system prompt, temperature, etc.)
+- Should provide one-click installer.
+- Should have a built-in model downloader option.
+- Should be customizable (allow modifying the system prompt, temperature, etc.).
