@@ -10,7 +10,9 @@ cover: ai-chatbots.webp
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 - [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-Since the release of ChatGPT in 2022, talking with Large Language Models (LLMs) has become common. LLMs can help us write better, understand unfamiliar subjects or answer a wide range of questions. However, the developers of those models need data to improve their models. Unfortunately, this often includes your conversations with the AI.
+Since the release of **ChatGPT** in 2022, talking with **Large Language Models** (*LLMs*) has become common. **LLMs can help us** write better, understand unfamiliar subjects or answer a wide range of questions. However, the developers of those models **need data to improve their models**. Unfortunately, this often **includes your conversations** with the AI.
+
+To solve this problem, you can use trusted and privacy-focused providers, or run AI models locally so your data never leaves your device.
 
 ## Recommended Providers
 
@@ -33,7 +35,7 @@ When using cloud-based AI chatbots, be mindful of the personal information you s
 
 </div>
 
-Duckduckgo offers open-source models from Meta and Mistral, as well as closed-source models from Anthropic and OpenAI. To protect your privacy, DuckDuckGo proxies your chats through their servers. The privacy policy states that providers are "deleting all information received once it is no longer necessary to provide Outputs (at most within 30 days with limited exceptions for safety and legal compliance)." For open-weights models, Duck uses together.ai and Duck has "disabled chat history by turning on the option to "not store prompts and responses" on the together.ai platform.".
+Duckduckgo offers open-weights models from Meta and Mistral, as well as closed-source models from Anthropic and OpenAI. To protect your privacy, DuckDuckGo proxies your chats through their servers. The privacy policy states that providers are "deleting all information received once it is no longer necessary to provide Outputs (at most within 30 days with limited exceptions for safety and legal compliance)." For open-weights models, Duck uses together.ai and Duck has "disabled chat history by turning on the option to "not store prompts and responses" on the together.ai platform.".
 
  It is available directly on [DuckDuckGo](https://duckduckgo.com), or [duck.ai](https://duck.ai). It is also available on DDG's onion site.
 <div class="admonition danger" markdown>
@@ -59,7 +61,7 @@ You will have to trust the together.ai cloud platform to honor their commitments
 [:octicons-info-16:](https://github.com/brave/brave-browser/wiki/Brave-Leo){ .card-link title=Documentation}
 
 </div>
-Brave Leo supports a variety of models, including open-source models from Meta and Mistral, and closed-source models from Anthropic. Additionally, you can use your local models, or any third-party providers with a standard API. Brave self-hosts the open models and do not retain chat history or use chats for models training. Leo can enhance its knowledge through web searches, similar to Microsoft Copilot. However, Brave's AI solution still faces challenges with multi-language support. Leo AI is available on the Brave Browser on all platforms. There is a strict rate limit for most models, but one free model has a high rate limit.
+Brave Leo supports a variety of models, including open-weights models from Meta and Mistral, and closed-source models from Anthropic. Additionally, you can use your local models, or any third-party providers with a standard API. Brave self-hosts the open models and do not retain chat history or use chats for models training. Leo can enhance its knowledge through web searches, similar to Microsoft Copilot. However, Brave's AI solution still faces challenges with multi-language support. Leo AI is available on the Brave Browser on all platforms. There is a strict rate limit for most models, but one free model has a high rate limit.
 
 
 
@@ -139,20 +141,20 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 
 ### Minimum Requirements
 
-  #### Cloud providers :
+#### Cloud providers :
 
-  - Must not use your chats for training
-  - Must not retain your chats for more than 14 days
-  - Must be accessible privately (no account required, accepts request from VPN users)
-  - Must provide models they host themselves, or with a third-party that acts in their behalf.
-  - Must provide at least one model with a high rate limit
+- Must not use your chats for training
+- Must not retain your chats for more than 14 days
+- Must be accessible privately (no account required, accepts request from VPN users)
+- Must provide models they host themselves, or with a third-party that acts in their behalf.
+- Must provide at least one model with a high rate limit
 
-  #### Local solutions :
+#### Local solutions :
 
-  - Must not send personal data. Any opt-in mechanism must rely on free consent and avoid dark patterns.
-  - Must not require a GPU
-  - Must have GPU support for fast inference
-  - Must not require internet connection
+- Must not send personal data. Any opt-in mechanism must rely on free consent and avoid dark patterns.
+- Must not require a GPU
+- Must have GPU support for fast inference
+- Must not require internet connection
 
 
 ### Best-Case
@@ -163,7 +165,7 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 - Should not retain your chat
 - Should be accessible anonymously (Tor Browser Safest security level)
-- Providers should only have open-source models that they self-host.
+- Providers should only have open-weights models that they self-host.
 - Should not be rate-limited
 
 #### Local solutions  :
