@@ -1,4 +1,5 @@
 *[2FA]: 2-Factor Authentication
+*[AI]: Artificial Intelligence
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[ATA]: Advanced Technology Attachment
@@ -48,6 +49,8 @@
 *[ISPs]: Internet Service Providers
 *[JNI]: Java Native Interface
 *[KYC]: Know Your Customer
+*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
+*[LLMs]: Largue Language Models (AI models such as ChatGPT)
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard
@@ -61,6 +64,7 @@
 *[OCSP]: Online Certificate Status Protocol
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
+*[open-weights model]:AI models that anyone can download and use, but for which the underlying training data and/or algorithms are propreitary. 
 *[OS]: Operating System
 *[OTP]: One-Time Password
 *[OTPs]: One-Time Passwords
