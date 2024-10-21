@@ -24,7 +24,7 @@ When using cloud-based AI chatbots, be mindful of the personal information you s
 ### DuckDuckGo AI Chat
 <div class="admonition recommendation" markdown>
 
-![DuckDuckGo logo](assets/img/ai-chatbots/duckai.svg){align=right}
+![DuckDuckGo logo](assets/img/ai-chatbots/duckai.png){align=right}
 
 **DuckDuckGo AI Chat** is made by the popular [search engine provider](search-engines.md) of the same name and is available directly on their website.
 
@@ -103,7 +103,7 @@ Kobold.cpp might not run on computers without AVX/AVX2 support.
 
 ### Ollama
 <div class="admonition recommendation" markdown>
-![Ollama Logo](assets/img/ai-chatbots/ollama.svg){align=right}
+![Ollama Logo](assets/img/ai-chatbots/ollama.png){align=right}
 
 Ollama is a command line AI assistant that is available on macOS, Linux and Windows(preview).
 
@@ -141,7 +141,7 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 
 ### Minimum Requirements
 
-#### Cloud providers :
+#### Cloud providers
 
 - Must not use your chats for training.
 - Must not retain your chats for more than 14 days.
@@ -149,7 +149,7 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 - Must provide models they host themselves, or with a third-party that acts in their behalf.
 - Must provide at least one model with a high rate limit.
 
-#### Local solutions :
+#### Local solutions
 
 - Must not send personal data. Any opt-in mechanism must rely on free consent and avoid dark patterns.
 - Must not require a GPU.
@@ -161,14 +161,14 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 
 Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
-#### Cloud providers :
+#### Cloud providers
 
 - Should not retain your chat.
 - Should be accessible anonymously (Tor Browser Safest security level).
 - Providers should only have open-weights models that they self-host.
 - Should not be rate-limited.
 
-#### Local solutions  :
+#### Local solutions
 
 - Should provide one-click installer.
 - Should have a built-in model downloader option.
