@@ -10,15 +10,15 @@ cover: ai-chatbots.webp
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 - [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-Since the release of **ChatGPT** in 2022, talking with **Large Language Models** (*LLMs*) has become common. **LLMs can help us** write better, understand unfamiliar subjects or answer a wide range of questions. However, the developers of those models **need data to improve their models**. Unfortunately, this often **includes your conversations** with the AI.
-
+Since the release of **ChatGPT** in 2022, talking with **Large Language Models** (*LLMs*) has become common. **LLMs can help us** write better, understand unfamiliar subjects or answer a wide range of questions. However, the developers of those models **need data to improve their models**. Unfortunately, this often **includes your conversations** with the AI. Those privates conversations must be stored, which introduces a risk of data breaches. Furthermore, there is a real possibility the LLM will leak your private information in future conversations with other users.
 To solve this problem, you can use trusted and privacy-focused providers, or run AI models locally so your data never leaves your device.
 
-## Recommended Providers
-
-The recommendations for online providers here do not train their models using your chats and do not retain your chats for more than 14 days, based on each service's privacy policy. There is no guarantee that these privacy policies are honored.
+## Recommended Solutions
 
 ## Cloud providers
+
+The recommendations for online providers here do not train their models using your chats and do not retain your chats for more than 14 days, based on each service's privacy policy. However, there is **no guarantee** that these privacy policies are honored.
+
 When using cloud-based AI chatbots, be mindful of the personal information you share. Even if a service doesn't store your conversations, there's still a risk of sensitive data being exposed or misused. **Do not share sensitive information** related to health, finance, or other highly personal matters to protect your privacy and security.
 
 ### DuckDuckGo AI Chat
@@ -35,9 +35,9 @@ When using cloud-based AI chatbots, be mindful of the personal information you s
 
 </div>
 
-Duckduckgo offers open-weights models from Meta and Mistral, as well as closed-source models from Anthropic and OpenAI. To protect your privacy, DuckDuckGo proxies your chats through their servers. The privacy policy states that providers are "deleting all information received once it is no longer necessary to provide Outputs (at most within 30 days with limited exceptions for safety and legal compliance)." For open-weights models, Duck uses together.ai and Duck has "disabled chat history by turning on the option to "not store prompts and responses" on the together.ai platform.".
+Duckduckgo offers open-weights models from Meta and Mistral, as well as closed-source models from Anthropic and OpenAI. To protect your privacy, DuckDuckGo proxies your chats through their servers. The privacy policy states that providers are "deleting all information received once it is no longer necessary to provide Outputs (at most within 30 days with limited exceptions for safety and legal compliance)." For open-weights models, Duck uses together.ai and Duck has "disabled chat history by turning on the option to 'not store prompts and responses' on the together.ai platform".
 
- It is available directly on [DuckDuckGo](https://duckduckgo.com), or [duck.ai](https://duck.ai). It is also available on DDG's onion site.
+It is available directly on [DuckDuckGo](https://duckduckgo.com), or [duck.ai](https://duck.ai). It is also available on DDG's onion site.
 <div class="admonition danger" markdown>
 <p class="admonition-title">Proprietary models providers retain your chats</p>
 We recommend against using the proprietary models from Anthropic or OpenAI because those providers keep chat history for up to 30 days.
@@ -113,7 +113,7 @@ Ollama is a command line AI assistant that is available on macOS, Linux and Wind
 
 
 </div>
-In addition to supporting a large range of text models, Ollama also supports [Llava](https://github.com/haotian-liu/LLaVA), a "Large Language and Vision Assistant". Ollama can be downloaded and installed with a few clicks. Furthermore, it is very lightweight and compatible with almost all PCs. To use Ollama, simply type in your terminal "ollama run model name".
+In addition to supporting a large range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA), a "Large Language and Vision Assistant". Ollama can be downloaded and installed with a few clicks. Furthermore, it is very lightweight and compatible with almost all PCs. To use Ollama, simply type in your terminal "ollama run model name".
 
 ### llamafile
 <div class="admonition recommendation" markdown>
@@ -128,11 +128,11 @@ Llamafile is a single-file executable that allows users to run large language mo
 [:octicons-lock-16:](hhttps://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#security){ .card-link title="Security Policy"}
 
 </div>
-The Mozilla-run project also supports Llava, a text and vision model. However, it does not support speech recognition or image generation. Finally, it is very lightweight and compatible.
+The Mozilla-run project also supports LlaVA, a text and vision model. However, it does not support speech recognition or image generation. Finally, it is very lightweight and compatible.
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Few models available </p>
-Mozilla has only made available llamafiles for some Llama and Mistral models, while they are few third-party llamafiles available. Another issue is that Windows limits .exe files to 4GB size, and most models are more than this size. To fix both of those issues, you can load external weights, as detailed [here](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#using-llamafile-with-external-weights).
+Mozilla has only made available llamafiles for some Llama and Mistral models, while they are few third-party llamafiles available. Another issue is that Windows limits .exe files to 4GB size, and most models are larger than that. To fix both of those issues, you can load external weights, as detailed [here](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#using-llamafile-with-external-weights).
 </div>
 
 ## Criteria
@@ -163,13 +163,13 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 #### Cloud providers
 
-- Should not retain your chat.
+- Should not retain your chats.
 - Should be accessible anonymously (Tor Browser Safest security level).
 - Providers should only have open-weights models that they self-host.
 - Should not be rate-limited.
 
 #### Local solutions
 
-- Should provide one-click installer.
+- Should provide a one-click installer.
 - Should have a built-in model downloader option.
 - Should be customizable (allow modifying the system prompt, temperature, etc.).

@@ -64,7 +64,7 @@
 *[OCSP]: Online Certificate Status Protocol
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
-*[open-weights model]: AI models that anyone can download and use, but for which the underlying training data and/or algorithms are propreitary.
+*[open-weights]: An open weights model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
 *[OS]: Operating System
 *[OTP]: One-Time Password
 *[OTPs]: One-Time Passwords
