@@ -105,6 +105,8 @@ The work profile is dependent on a device controller to function. Features such 
 
 This method is generally less secure than a secondary user profile; however, it does allow you the convenience of running apps in both the work and personal profiles simultaneously.
 
+### Private Space
+
 ### VPN Killswitch
 
 Android 7 and above supports a VPN kill switch, and it is available without the need to install third-party apps. This feature can prevent leaks if the VPN is disconnected. It can be found in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
