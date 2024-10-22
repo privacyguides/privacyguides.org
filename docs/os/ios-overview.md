@@ -214,13 +214,19 @@ When an app prompts you for access to your device's photo library, iOS provides 
 
 Rather than allow an app to access all the photos on your device, you can allow it to only access to whichever photos you choose by tapping on the "Select Photos..." option in the permission prompt. You can change photo access permissions for any installed app at any time by navigating to **Settings** > **Privacy & Security** > **Photos**.
 
+![Photo Permissions](../assets/img/ios/photo-permissions-light.png#only-light) ![Photo Permissions](../assets/img/ios/photo-permissions-dark.png#only-dark)
+
 "Add Photos Only" is a permission that only gives an app the ability to download photos to the photo library. Not all apps which request photo library access provide this option.
+
+![Private Access](../assets/img/ios/private-access-light.png#only-light) ![Photo Permissions](../assets/img/ios/private-access-dark.png#only-dark)
 
 Some apps also support "Private Access", which functions similarly to the "Limited Access" permission. However, photos shared to apps using Private Access include their location by default. We recommend unchecking this setting if you do not [remove photo metadata](../data-redaction.md) beforehand.
 
 ### Contact Permissions
 
 Similarly, rather than allow an app to access all the contacts saved on your device, you can allow it to only access whichever contacts you choose. You change contact access permissions at any time by navigating to **Settings** > **Privacy & Security** > **Contacts**.
+
+![Contact Permissions](../assets/img/ios/contact-permissions-light.png#only-light) ![Photo Permissions](../assets/img/ios/contact-permissions-dark.png#only-dark)
 
 ### Encrypted iMessage
 
