@@ -20,10 +20,12 @@ Your responsibilities will include, but aren’t limited to:
 - Researching new topics to cover.
 - Regular, daily posting to text-based social media platforms like Mastodon.
 - Regular posting of highly educational video content to social media platforms.
-- Compiling news sources for and hosting a weekly news recap (livestreamed) podcast on our YouTube channel on a regular schedule.
+- Compiling news sources for and hosting a weekly news recap (livestreamed) podcast on our YouTube channel.
 - Regularly communicating with the Privacy Guides committee and other team members.
 
-This is a highly individualized role, and we are extremely interested in hearing your ideas on how you’ll find success and make this role your own. You will be responsible for handling virtually every aspect of this role without regular guidance, so being highly self-motivated is a must.
+This is a highly individualized role, and we are extremely interested in hearing your ideas on how you’ll find success and make this role your own. You will be responsible for handling virtually every aspect of this role without regular supervision, so being highly self-motivated is a must.
+
+As a guideline, we expect your video output to be roughly 1 video and 1 *This Week In Privacy* livestream per week, since we think most videos which meet our quality standards will be a multi-day process to research and script, in addition to a day for recording and editing. We realize some videos can be completed more quickly, while others may take multiple weeks or longer before publishing. You will be empowered to use your best judgement and prioritize your work accordingly.
 
 Job requirements:
 
