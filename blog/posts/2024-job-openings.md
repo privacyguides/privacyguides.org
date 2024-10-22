@@ -14,7 +14,7 @@ schema_type: NewsArticle
 ---
 # Privacy Guides is Hiring
 
-We are thrilled to announce the opening of three new job positions aimed at enhancing our mission of promoting personal privacy and informed digital choices. As a non-profit organization dedicated to empowering individuals with the knowledge and tools they need to navigate the internet in a private manner, we are excited to expand our team with talented individuals who share our vision. They will play a key role in helping us reach new audiences to spread our message in multiple formats, and make sure we are the authoritative source for trustworthy and unbiased consumer privacy resources on the internet.
+We are thrilled to announce the opening of three new job positions aimed at enhancing our mission of promoting personal privacy and informed digital choices. As a non-profit organization dedicated to empowering individuals with the knowledge and tools they need to navigate the internet in a private manner, we are excited to expand our team with talented individuals who share our vision. They will play a key role in helping us reach new audiences to spread our message in multiple formats, and make sure we are the authoritative source for trustworthy and unbiased consumer privacy resources on the internet.<!-- more -->
 
 ## Content Creator
 
