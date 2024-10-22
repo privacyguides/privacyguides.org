@@ -210,15 +210,17 @@ Normal phone calls made with the Phone app through your carrier are not E2EE. Bo
 
 ### Photo Permissions
 
-When an app prompts you for access to your iPhone's photo library or address book, iOS provides you with options to limit what an app can access.
+When an app prompts you for access to your device's photo library, iOS provides you with options to limit what an app can access.
 
-Rather than allow an app to access all photos on your device, you can allow it to only access to whichever items you choose by tapping on the "Select Photos..." option in the permission prompt. You can change photo access permissions for any installed app at any time by navigating to **Settings** > **Privacy & Security** > **Photos**.
+Rather than allow an app to access all the photos on your device, you can allow it to only access to whichever photos you choose by tapping on the "Select Photos..." option in the permission prompt. You can change photo access permissions for any installed app at any time by navigating to **Settings** > **Privacy & Security** > **Photos**.
 
 "Add Photos Only" is a permission that only gives an app the ability to download photos to the photo library. Not all apps which request photo library access provide this option.
 
 Some apps also support "Private Access", which functions similarly to the "Limited Access" permission. However, photos shared to apps using Private Access include their location by default. We recommend unchecking this setting if you do not [remove photo metadata](../data-redaction.md) beforehand.
 
 ### Contact Permissions
+
+Similarly, rather than allow an app to access all the contacts saved on your device, you can allow it to only access whichever contacts you choose. You change contact access permissions at any time by navigating to **Settings** > **Privacy & Security** > **Contacts**.
 
 ### Encrypted iMessage
 
