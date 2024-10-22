@@ -32,7 +32,7 @@ Job requirements:
 - Proactive, results-driven mindset with a strong sense of initiative.
 - Comfortable being on camera, and working with video production equipment.
 - Personal interest in consumer privacy, cybersecurity, and technology.
-Skeptical nature and drive to investigate difficult, often niche, technologies. You will need to evaluate the truthfulness of claims.
+- Skeptical nature and drive to investigate difficult, often niche, technologies. You will need to evaluate the truthfulness of claims.
 
 The following qualifications will be an asset to your application. However, we are looking for the best candidate (which isn’t always apparent on paper!), so please apply even if you don’t meet any/many of these qualifications.
 
