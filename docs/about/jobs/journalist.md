@@ -5,6 +5,10 @@ description: Privacy Guides is looking for a determined and focused journalist t
 
 [:material-arrow-left-drop-circle: Job Openings](../jobs.md)
 
+Are you passionate about privacy and cybersecurity?
+
+Privacy Guides is an international nonprofit dedicated to producing top-tier, unbiased educational content and journalism, and to fostering safe and informative online communities to discuss technical topics around improving personal privacy and cybersecurity.
+
 We are looking for a determined and focused journalist to join our team. As a reporter for our organization, you will conduct research, interview sources, and write engaging stories in the field of consumer privacy and cybersecurity.
 
 Our ideal candidate is committed to combating misinformation and clearly communicating stories on a timely basis, and dedicated to producing top-tier, unbiased journalism.
@@ -23,6 +27,8 @@ Your responsibilities will include, but aren’t limited to:
 
 As a guideline, we expect roughly 3-5 articles a week that meet our quality standards, since we believe a well-researched article will take at least 8 hours to research and write on average. We realize some articles can be completed quickly, while others may take weeks or longer before publishing. You will be empowered to use your best judgement and prioritize your work accordingly.
 
+We are much more interested in articles that deeply cover the subject area than articles that cover the news of the day.
+
 Job requirements:
 
 - Excellent organization and communication skills.
@@ -30,6 +36,8 @@ Job requirements:
 - Flexibility to set and respond to varying priorities and deadlines.
 - Proactive, results-driven mindset with a strong sense of initiative.
 - Personal interest in consumer privacy, cybersecurity, and technology.
+- Regularly communicating with the Privacy Guides committee and other team members.
+- Skeptical nature and drive to investigate difficult, often niche, technologies. You will need to evaluate the truthfulness of claims.
 
 The following qualifications will be an asset to your application. However, we are looking for the best candidate (which isn’t always apparent on paper!), so please apply even if you don’t meet any/many of these qualifications.
 
@@ -38,6 +46,7 @@ The following qualifications will be an asset to your application. However, we a
 - Education in English, journalism, media production, or any other related fields.
 - Familiarity with Privacy Guides' communities, culture, and mission.
 - Located between UTC-08:00 and UTC-04:00 time zones.
+- At least basic familiarity with GitHub, including pull requests, branches, reviews, and issues.
 
 The ideal candidate can commit to this role on a full-time basis (40 hours / week), but we are open to discussing a schedule you suggest.
 
@@ -46,3 +55,7 @@ For this position, our hiring pay range falls between \$20-$25 / hour USD. The b
 ---
 
 **To apply, please send a cover letter and resume to <jobs@privacyguides.org>, and include the name of this position in the subject line. Feel free to include any other information or examples of your work that you think we may find relevant if you'd like.**
+
+Privacy Guides is fiscally hosted by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity. MAGIC Grants is an equal opportunity employer.  MAGIC Grants does not discriminate against any applicant or employee because of age, color, sex, disability, national origin, race, religion, sexual orientation, sexual identity, veteran status, or other protected characteristic.
+
+We respect your privacy. After this position is filled, your application will be deleted. Your application will not be shared with third parties.

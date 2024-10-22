@@ -5,9 +5,13 @@ description: Privacy Guides is looking for a video producer and host for informa
 
 [:material-arrow-left-drop-circle: Job Openings](../jobs.md)
 
-If you have ever dreamed of being a YouTuber and combating misinformation about privacy and cybersecurity on the internet, this is the position for you!
+Are you passionate about privacy and cybersecurity?
+
+Privacy Guides is an international nonprofit dedicated to producing top-tier, unbiased educational content and journalism, and to fostering safe and informative online communities to discuss technical topics around improving personal privacy and cybersecurity.
 
 Privacy Guides is looking for a focused and motivated individual to be responsible for our social media presence from end to end, with a particular emphasis on video content. You must be comfortable being on camera to succeed in this role.
+
+This is a unique opportunity. Your primary goal will be to create and share privacy-based educational materials, without any motive to sell a product. If you truly value being able to create the best content that you can, and if you are passionate about privacy, then this position is for you!
 
 Your responsibilities will include, but aren’t limited to:
 
@@ -16,7 +20,9 @@ Your responsibilities will include, but aren’t limited to:
 - Researching new topics to cover.
 - Regular, daily posting to text-based social media platforms like Mastodon.
 - Regular posting of highly educational video content to social media platforms.
-- Compiling news sources for and hosting a weekly news recap (livestreamed) podcast on our YouTube channel.
+- Compiling news sources for and hosting a weekly news recap (livestreamed) podcast on our YouTube channel on a regular schedule.
+- Regularly communicating with the Privacy Guides committee and other team members.
+- Skeptical nature and drive to investigate difficult, often niche, technologies. You will need to evaluate the truthfulness of claims.
 
 This is a highly individualized role, and we are extremely interested in hearing your ideas on how you’ll find success and make this role your own. You will be responsible for handling virtually every aspect of this role without regular guidance, so being highly self-motivated is a must.
 
@@ -33,9 +39,11 @@ The following qualifications will be an asset to your application. However, we a
 - Previous YouTube or other video creation experience.
 - Previous social media management experience.
 - Education in English, journalism, media production, or any other related fields.
+- Fluency in Spanish, French, Portuguese, or other languages.
 - Familiarity with Privacy Guides' communities, culture, and mission.
 - A solid understanding of the latest trends/culture on YouTube & TikTok.
 - Located between UTC-08:00 and UTC-04:00 time zones.
+- At least basic familiarity with GitHub, including pull requests, branches, reviews, and issues.
 
 The ideal candidate can commit to this role on a full-time basis (40 hours / week), but we are open to discussing a schedule you suggest.
 
@@ -44,3 +52,7 @@ For this position, our hiring pay range falls between \$20-$25 / hour USD. The b
 ---
 
 **To apply, please send a video cover letter (no more than 5 minutes) and resume to <jobs@privacyguides.org>, and include the name of this position in the subject line. Feel free to include any other information or examples of your work that you think we may find relevant if you'd like.**
+
+Privacy Guides is fiscally hosted by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity. MAGIC Grants is an equal opportunity employer.  MAGIC Grants does not discriminate against any applicant or employee because of age, color, sex, disability, national origin, race, religion, sexual orientation, sexual identity, veteran status, or other protected characteristic.
+
+We respect your privacy. After this position is filled, your application will be deleted. Your application will not be shared with third parties.
