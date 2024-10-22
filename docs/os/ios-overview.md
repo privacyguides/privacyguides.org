@@ -208,9 +208,17 @@ Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Adve
 
 Normal phone calls made with the Phone app through your carrier are not E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE, or you can use [another app](../real-time-communication.md) like Signal.
 
-### Contact and Photo Permissions
+### Photo Permissions
 
 When an app prompts you for access to your iPhone's photo library or address book, iOS provides you with options to limit what an app can access.
+
+Rather than allow an app to access all photos on your device, you can allow it to only access to whichever items you choose by tapping on the "Select Photos..." option in the permission prompt. You can change photo access permissions for any installed app at any time by navigating to **Settings** > **Privacy & Security** > **Photos**.
+
+"Add Photos Only" is a permission that only gives an app the ability to download photos to the photo library. Not all apps which request photo library access provide this option.
+
+Some apps also support "Private Access", which functions similarly to the "Limited Access" permission. However, photos shared to apps using Private Access include their location by default. We recommend unchecking this setting if you do not [remove photo metadata](../data-redaction.md) beforehand.
+
+### Contact Permissions
 
 ### Encrypted iMessage
 
