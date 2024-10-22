@@ -22,7 +22,6 @@ Your responsibilities will include, but aren’t limited to:
 - Regular posting of highly educational video content to social media platforms.
 - Compiling news sources for and hosting a weekly news recap (livestreamed) podcast on our YouTube channel on a regular schedule.
 - Regularly communicating with the Privacy Guides committee and other team members.
-- Skeptical nature and drive to investigate difficult, often niche, technologies. You will need to evaluate the truthfulness of claims.
 
 This is a highly individualized role, and we are extremely interested in hearing your ideas on how you’ll find success and make this role your own. You will be responsible for handling virtually every aspect of this role without regular guidance, so being highly self-motivated is a must.
 
@@ -33,6 +32,7 @@ Job requirements:
 - Proactive, results-driven mindset with a strong sense of initiative.
 - Comfortable being on camera, and working with video production equipment.
 - Personal interest in consumer privacy, cybersecurity, and technology.
+Skeptical nature and drive to investigate difficult, often niche, technologies. You will need to evaluate the truthfulness of claims.
 
 The following qualifications will be an asset to your application. However, we are looking for the best candidate (which isn’t always apparent on paper!), so please apply even if you don’t meet any/many of these qualifications.
 
@@ -53,6 +53,6 @@ For this position, our hiring pay range falls between \$20-$25 / hour USD. The b
 
 **To apply, please send a video cover letter (no more than 5 minutes) and resume to <jobs@privacyguides.org>, and include the name of this position in the subject line. Feel free to include any other information or examples of your work that you think we may find relevant if you'd like.**
 
-Privacy Guides is fiscally hosted by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity. MAGIC Grants is an equal opportunity employer.  MAGIC Grants does not discriminate against any applicant or employee because of age, color, sex, disability, national origin, race, religion, sexual orientation, sexual identity, veteran status, or other protected characteristic.
+Privacy Guides is fiscally hosted by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity. MAGIC Grants is an equal opportunity employer. MAGIC Grants does not discriminate against any applicant or employee because of age, color, sex, disability, national origin, race, religion, sexual orientation, sexual identity, veteran status, or other protected characteristic.
 
 We respect your privacy. After this position is filled, your application will be deleted. Your application will not be shared with third parties.

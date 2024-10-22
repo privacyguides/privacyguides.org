@@ -37,6 +37,6 @@ This is a 6-month contract paying $15 / hour USD, with the optional opportunity 
 
 **To apply, please send a cover letter and resume to <jobs@privacyguides.org>, and include the name of this position in the subject line. Feel free to include any other information or examples of your work that you think we may find relevant if you'd like.**
 
-Privacy Guides is fiscally hosted by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity. MAGIC Grants is an equal opportunity employer.  MAGIC Grants does not discriminate against any applicant or employee because of age, color, sex, disability, national origin, race, religion, sexual orientation, sexual identity, veteran status, or other protected characteristic.
+Privacy Guides is fiscally hosted by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity. MAGIC Grants is an equal opportunity employer. MAGIC Grants does not discriminate against any applicant or employee because of age, color, sex, disability, national origin, race, religion, sexual orientation, sexual identity, veteran status, or other protected characteristic.
 
 We respect your privacy. After this position is filled, your application will be deleted. Your application will not be shared with third parties.
