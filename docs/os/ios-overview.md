@@ -208,6 +208,12 @@ Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Adve
 
 Normal phone calls made with the Phone app through your carrier are not E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE, or you can use [another app](../real-time-communication.md) like Signal.
 
+### Encrypted iMessage
+
+The color of the message bubble in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using the outdated SMS and MMS protocols. Currently, the only way to get E2EE in Messages is for both parties to be using iMessage on Apple devices.
+
+If either you or your messaging partner have iCloud Backup enabled without Advanced Data Protection, the encryption key will be stored on Apple's servers, meaning they can access your messages. Additionally, iMessage's key exchange is not as secure as alternative implementations like Signal's (which allows you to view the recipients key and verify by QR code), so it shouldn't be relied on for particularly sensitive communications.
+
 ### Photo Permissions
 
 When an app prompts you for access to your device's photo library, iOS provides you with options to limit what an app can access.
@@ -228,11 +234,13 @@ Similarly, rather than allow an app to access all the contacts saved on your dev
 
 ![Contact Permissions](../assets/img/ios/contact-permissions-light.png#only-light) ![Photo Permissions](../assets/img/ios/contact-permissions-dark.png#only-dark)
 
-### Encrypted iMessage
+### Require Biometrics and Hide Apps
 
-The color of the message bubble in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using the outdated SMS and MMS protocols. Currently, the only way to get E2EE in Messages is for both parties to be using iMessage on Apple devices.
+iOS 18 introduced the ability to lock most apps behind Touch ID/Face ID or your passcode, which can be useful for protecting sensitive content in apps which do not provide the option themselves. This can be done by long tapping on an app and selecting **Require Touch ID/Face ID**. Apps locked in this way require biometric authentication whenever opening it or accessing its contents in other apps. Also, notification previews for locked apps will not be available.
 
-If either you or your messaging partner have iCloud Backup enabled without Advanced Data Protection, the encryption key will be stored on Apple's servers, meaning they can access your messages. Additionally, iMessage's key exchange is not as secure as alternative implementations like Signal's (which allows you to view the recipients key and verify by QR code), so it shouldn't be relied on for particularly sensitive communications.
+In addition to locking apps behind biometrics, you can also hide apps so that they don't appear on the Home Screen, App Library, the app list in **Settings**, etc. While hiding apps may be useful in situations where you have to hand your unlocked phone to someone else, the concealment provided by the feature is not guaranteed, as a hidden app is still visible in some places such as the battery usage list. Moreover, a major downside of hiding an app is that its notifications will be completely disabled.
+
+You can hide an app by long tapping on it and selecting **Require Touch ID/Face ID** :material-fingerprint: → **Hide and Require Touch ID/Face ID**. Note that first-party, bundled Apple apps, as well as the default web browser and email app, cannot be hidden. Hidden apps reside in a **Hidden** folder at the bottom of the App Library, which can be unlocked using biometrics.
 
 ### Blacking Out Faces/Information
 
@@ -250,4 +258,4 @@ Apple always makes beta versions of iOS available early for those that wish to h
 
 ### Before First Unlock
 
-If your threat model includes forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
+If your threat model includes [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red } that involve forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
