@@ -27,6 +27,8 @@ More recently, Apple has been found to [transmit analytics even when analytics s
 
 ## Recommended Configuration
 
+**Note:** This guide assumes that you're running the latest version of iOS.
+
 ### iCloud
 
 The majority of privacy and security concerns with Apple products are related to their cloud services, not their hardware or software. When you use Apple services like iCloud, most of your information is stored on their servers and secured with keys which Apple has access to by default. You can check [Apple's documentation](https://support.apple.com/HT202303) for information on which services are end-to-end encrypted. Anything listed as "in transit" or "on server" means it's possible for Apple to access that data without your permission. This level of access has occasionally been abused by law enforcement to get around the fact that your data is otherwise securely encrypted on your device, and of course Apple is vulnerable to data breaches like any other company.
