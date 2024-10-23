@@ -216,15 +216,15 @@ Rather than allow an app to access all the photos on your device, you can allow 
 
 ![Photo Permissions](../assets/img/ios/photo-permissions-light.png#only-light) ![Photo Permissions](../assets/img/ios/photo-permissions-dark.png#only-dark)
 
-"Add Photos Only" is a permission that only gives an app the ability to download photos to the photo library. Not all apps which request photo library access provide this option.
+**Add Photos Only** is a permission that only gives an app the ability to download photos to the photo library. Not all apps which request photo library access provide this option.
 
 ![Private Access](../assets/img/ios/private-access-light.png#only-light) ![Photo Permissions](../assets/img/ios/private-access-dark.png#only-dark)
 
-Some apps also support "Private Access", which functions similarly to the "Limited Access" permission. However, photos shared to apps using Private Access include their location by default. We recommend unchecking this setting if you do not [remove photo metadata](../data-redaction.md) beforehand.
+Some apps also support **Private Access**, which functions similarly to the **Limited Access** permission. However, photos shared to apps using Private Access include their location by default. We recommend unchecking this setting if you do not [remove photo metadata](../data-redaction.md) beforehand.
 
 ### Contact Permissions
 
-Similarly, rather than allow an app to access all the contacts saved on your device, you can allow it to only access whichever contacts you choose. You change contact access permissions at any time by navigating to **Settings** > **Privacy & Security** > **Contacts**.
+Similarly, rather than allow an app to access all the contacts saved on your device, you can allow it to only access whichever contacts you choose. You can change contact access permissions at any time by navigating to **Settings** > **Privacy & Security** > **Contacts**.
 
 ![Contact Permissions](../assets/img/ios/contact-permissions-light.png#only-light) ![Photo Permissions](../assets/img/ios/contact-permissions-dark.png#only-dark)
 
