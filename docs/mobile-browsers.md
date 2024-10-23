@@ -265,13 +265,17 @@ This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/track
 
 This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
 
-#### Advanced → Privacy
+#### Privacy
+
+The following options can be found in the :gear: **Settings** app → **Apps** → **Safari** → **Advanced**.
+
+##### Fingerprinting Protection
 
 The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
 
 - [x] Select **All Browsing** or **Private Browsing**
 
-#### Privacy Preserving Ad Measurement
+##### Privacy Preserving Ad Measurement
 
 - [ ] Disable **Privacy Preserving Ad Measurement**
 
@@ -281,7 +285,7 @@ The feature has little privacy concerns on its own, so while you can choose to l
 
 #### Always-on Private Browsing
 
-Open Safari and tap the Tabs button, located in the bottom right. Then, expand the Tab Groups list.
+Open Safari and tap the Tabs button, located in the bottom right. Then, expand the :material-format-list-bulleted: Tab Groups list.
 
 - [x] Select **Private**
 
