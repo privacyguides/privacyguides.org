@@ -126,7 +126,7 @@ If you use biometrics, you should know how to turn them off quickly in an emerge
 
 On some older devices, you may have to press the power button five times to disable biometrics instead, or for devices with Touch ID, you may just have to hold down the power button and nothing else. Make sure you try this in advance so you know which method works for your device.
 
-**Stolen Device Protection** is a new feature in iOS 17.3 which adds additional security intended to protect your personal data if your device is stolen while unlocked. If you use biometrics and the Find My Device feature in your Apple Account settings, we recommend enabling this new protection:
+**Stolen Device Protection** adds additional security intended to protect your personal data if your device is stolen while unlocked. If you use biometrics and the Find My Device feature in your Apple Account settings, we recommend enabling this new protection:
 
 - [x] Select **Turn On Protection**
 
@@ -236,7 +236,7 @@ Similarly, rather than allow an app to access all the contacts saved on your dev
 
 ### Require Biometrics and Hide Apps
 
-iOS 18 introduced the ability to lock most apps behind Touch ID/Face ID or your passcode, which can be useful for protecting sensitive content in apps which do not provide the option themselves. This can be done by long tapping on an app and selecting **Require Touch ID/Face ID**. Apps locked in this way require biometric authentication whenever opening it or accessing its contents in other apps. Also, notification previews for locked apps will not be shown.
+iOS offers the ability to lock most apps behind Touch ID/Face ID or your passcode, which can be useful for protecting sensitive content in apps which do not provide the option themselves. This can be done by long tapping on an app and selecting **Require Touch ID/Face ID**. Apps locked in this way require biometric authentication whenever opening it or accessing its contents in other apps. Also, notification previews for locked apps will not be shown.
 
 In addition to locking apps behind biometrics, you can also hide apps so that they don't appear on the Home Screen, App Library, the app list in **Settings**, etc. While hiding apps may be useful in situations where you have to hand your unlocked phone to someone else, the concealment provided by the feature is not absolute, as a hidden app is still visible in some places such as the battery usage list. Moreover, one notable tradeoff of hiding an app is that you will not receive any of its notifications.
 
