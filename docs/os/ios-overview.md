@@ -47,7 +47,7 @@ A paid **iCloud+** subscription (with any iCloud storage plan) comes with some p
 
 #### Media & Purchases
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. Select that, then select **Media & Purchases** > **View Account**.
+At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. Select that, then select **Media & Purchases** → **View Account**.
 
 - [ ] Turn off **Personalized Recommendations**
 
@@ -88,9 +88,9 @@ Note that Bluetooth is automatically turned on after every system update.
 
 #### General
 
-Your iPhone's device name will by default contain your first name, and this will be visible to anyone on networks you connect to. You should change this to something more generic, like "iPhone." Select **About** > **Name** and enter the device name you prefer.
+Your iPhone's device name will by default contain your first name, and this will be visible to anyone on networks you connect to. You should change this to something more generic, like "iPhone." Select **About** → **Name** and enter the device name you prefer.
 
-It is important to install **Software Updates** frequently to get the latest security fixes. You can enable **Automatic Updates** to keep your phone up-to-date without needing to constantly check for updates. Select **Software Update** > **Automatic Updates**:
+It is important to install **Software Updates** frequently to get the latest security fixes. You can enable **Automatic Updates** to keep your phone up-to-date without needing to constantly check for updates. Select **Software Update** → **Automatic Updates**:
 
 - [x] Turn on **Download iOS Updates**
 - [x] Turn on **Install iOS Updates**
@@ -98,9 +98,9 @@ It is important to install **Software Updates** frequently to get the latest sec
 
 **AirDrop** allows you to easily transfer files, but it can allow strangers to send you files you do not want.
 
-- [x] Select **AirDrop** > **Receiving Off**
+- [x] Select **AirDrop** → **Receiving Off**
 
-**AirPlay** lets you seamlessly stream content from your iPhone to a TV; however, you might not always want this. Select **AirPlay & Continuity** > **Automatically AirPlay**:
+**AirPlay** lets you seamlessly stream content from your iPhone to a TV; however, you might not always want this. Select **AirPlay & Continuity** → **Automatically AirPlay**:
 
 - [x] Select **Never** or **Ask**
 
@@ -118,7 +118,7 @@ If you don't want anyone to be able to control your phone with Siri when it is l
 
 Setting a strong password on your phone is the most important step you can take for physical device security. You'll have to make tradeoffs here between security and convenience: A longer password will be annoying to type in every time, but a shorter password or PIN will be easier to guess. Setting up Face ID or Touch ID along with a strong password can be a good compromise between usability and security.
 
-Select **Turn Passcode On** or **Change Passcode** > **Passcode Options** > **Custom Alphanumeric Code**. Make sure that you create a [secure password](../basics/passwords-overview.md).
+Select **Turn Passcode On** or **Change Passcode** → **Passcode Options** → **Custom Alphanumeric Code**. Make sure that you create a [secure password](../basics/passwords-overview.md).
 
 If you wish to use Face ID or Touch ID, you can go ahead and set it up now. Your phone will use the password you set up earlier as a fallback in case your biometric verification fails. Biometric unlock methods are primarily a convenience, although they do stop surveillance cameras or people over your shoulder from watching you input your passcode.
 
@@ -212,7 +212,7 @@ Normal phone calls made with the Phone app through your carrier are not E2EE. Bo
 
 When an app prompts you for access to your device's photo library, iOS provides you with options to limit what an app can access.
 
-Rather than allow an app to access all the photos on your device, you can allow it to only access to whichever photos you choose by tapping on the "Select Photos..." option in the permission prompt. You can change photo access permissions for any installed app at any time by navigating to **Settings** > **Privacy & Security** > **Photos**.
+Rather than allow an app to access all the photos on your device, you can allow it to only access to whichever photos you choose by tapping on the "Select Photos..." option in the permission prompt. You can change photo access permissions for any installed app at any time by navigating to **Settings** → **Privacy & Security** → **Photos**.
 
 ![Photo Permissions](../assets/img/ios/photo-permissions-light.png#only-light) ![Photo Permissions](../assets/img/ios/photo-permissions-dark.png#only-dark)
 
@@ -224,7 +224,7 @@ Some apps also support **Private Access**, which functions similarly to the **Li
 
 ### Contact Permissions
 
-Similarly, rather than allow an app to access all the contacts saved on your device, you can allow it to only access whichever contacts you choose. You can change contact access permissions at any time by navigating to **Settings** > **Privacy & Security** > **Contacts**.
+Similarly, rather than allow an app to access all the contacts saved on your device, you can allow it to only access whichever contacts you choose. You can change contact access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Contacts**.
 
 ![Contact Permissions](../assets/img/ios/contact-permissions-light.png#only-light) ![Photo Permissions](../assets/img/ios/contact-permissions-dark.png#only-dark)
 
