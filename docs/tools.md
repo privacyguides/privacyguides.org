@@ -469,6 +469,22 @@ For encrypting your operating system drive, we typically recommend using whichev
 </div>
 
 [Learn more :material-arrow-right-drop-circle:](frontends.md)
+### AI chat tools
+
+#### Cloud providers
+<div class="grid cards" markdown>
+
+- ![Duck AI logo](assets/img/ai-chat/duckai.svg){ .twemoji loading=lazy }[Duck AI](ai-chat.md#duckduckgo-ai-chat)
+- ![Leo AI logo](assets/img/ai-chat/leo.svg){ .twemoji loading=lazy }[Brave Leo](ai-chat.md#brave-leo)
+</div>
+
+#### Self-hosted Solutions
+<div class="grid cards" markdown>
+- ![Kobold logo](assets/img/ai-chat/kobold.svg){ .twemoji loading=lazy }[Kobold.cpp](ai-chat.md#koboldcpp)
+- ![Llamafile logo](assets/img/ai-chat/llamafile.svg){ .twemoji loading=lazy }[Llamafile](ai-chat.md#llamafile)
+- ![Ollama logo](assets/img/ai-chat/ollama.svg){ .twemoji loading=lazy }[Ollama](ai-chat.md#ollama)
+</div>
+
 
 ### Language Tools
 
