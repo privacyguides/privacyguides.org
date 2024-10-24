@@ -27,6 +27,10 @@ schema:
     operatingSystem: Android
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+
 We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
 
 ### Shelter
@@ -57,6 +61,10 @@ When using Shelter, you are placing complete trust in its developer, as Shelter 
 Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
 
 ### Secure Camera
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-search: Public Exposure](../basics/common-threats.md#limiting-public-information){ .pg-green }
 
 <div class="admonition recommendation" markdown>
 
@@ -101,7 +109,6 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 <small>Protects against the following threat(s):</small>
 
 - [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 <div class="admonition recommendation" markdown>
 

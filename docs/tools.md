@@ -37,15 +37,6 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-<div class="admonition example" markdown>
-<p class="admonition-title">Threat Model Labels</p>
-
-You may find any of the following icons on some of the recommendation pages: <span class="pg-purple">:material-incognito:</span> <span class="pg-red">:material-target-account:</span> <span class="pg-viridian">:material-package-variant-closed-remove:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span> <span class="pg-blue">:material-eye-outline:</span> <span class="pg-brown">:material-account-cash:</span> <span class="pg-green">:material-account-search:</span> <span class="pg-blue-gray">:material-close-outline:</span>
-
-We are testing a new feature that allows readers to better identify and understand the kinds of threats that privacy tools best defend against. Let us know what you think about this feature by replying to this dedicated forum [thread](https://discuss.privacyguides.net/t/implement-threat-model-labels/18659)!
-
-</div>
-
 ## Private Web Browsers
 
 <div class="admonition recommendation" markdown>
