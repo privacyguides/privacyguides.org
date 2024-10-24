@@ -479,7 +479,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 </div>
 
 [Learn more :material-arrow-right-drop-circle:](frontends.md)
-### AI chatbots
+### AI chat tools
 
 #### Cloud providers
 <div class="grid cards" markdown>
