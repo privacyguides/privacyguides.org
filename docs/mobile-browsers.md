@@ -261,7 +261,7 @@ All of your cookies, history, and website data are separate for each profile. Yo
 
 This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but does not block all tracking avenues because it is designed to not interfere with website usability.
 
-- [x] Enable **Require Touch ID/Face ID to Unlock Private Browsing**
+- [x] Enable **Require Face ID/Touch ID to Unlock Private Browsing**
 
 This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
 
