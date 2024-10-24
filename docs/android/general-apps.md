@@ -31,6 +31,8 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
 
 ### Shelter
 
+If your device is on Android 15 or greater, we recommend using the native [Private Space](../os/android-overview.md#private-space) feature instead, which provides nearly the same functionality without needing to place trust in and grant powerful permissions to a third-party app.
+
 <div class="admonition recommendation" markdown>
 
 ![Shelter logo](../assets/img/android/shelter.svg){ align=right }
@@ -48,11 +50,11 @@ Shelter supports blocking contact search cross profiles and sharing files across
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
-
 When using Shelter, you are placing complete trust in its developer, as Shelter acts as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) to create the Work Profile, and it has extensive access to the data stored within the Work Profile.
 
 </div>
+
+Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
 
 ### Secure Camera
 
