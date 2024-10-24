@@ -249,7 +249,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 We would suggest installing [AdGuard](browser-extensions.md#adguard) if you want a content blocker in Safari.
 
-The following privacy/security-related options can be found in the :gear: **Settings** app → **Apps** → **Safari**.
+The following privacy/security-related options can be found in :gear: **Settings** → **Apps** → **Safari**.
 
 #### Profiles
 
@@ -261,15 +261,15 @@ All of your cookies, history, and website data are separate for each profile. Yo
 
 This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but does not block all tracking avenues because it is designed to not interfere with website usability.
 
-- [x] Enable **Require Face ID to Unlock Private Browsing**
+- [x] Enable **Require Touch ID/Face ID to Unlock Private Browsing**
 
 This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
 
-#### Privacy
+#### Other Privacy Settings
 
-The following options can be found in the :gear: **Settings** app → **Apps** → **Safari** → **Advanced**.
+These options can be found in :gear: **Settings** → **Apps** → **Safari** → **Advanced**.
 
-##### Fingerprinting Protection
+##### Fingerprinting Mitigations
 
 The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
 
