@@ -484,15 +484,15 @@ For encrypting your operating system drive, we typically recommend using whichev
 #### Cloud providers
 <div class="grid cards" markdown>
 
-- ![Duck AI logo](assets/img/ai-chatbots/duckai.svg){ .twemoji loading=lazy }[Duck AI](ai-chatbots.md#duckduckgo-ai-chat)
-- ![Leo AI logo](assets/img/ai-chatbots/leo.svg){ .twemoji loading=lazy }[Brave Leo](ai-chatbots.md#brave-leo)
+- ![Duck AI logo](assets/img/ai-chat/duckai.svg){ .twemoji loading=lazy }[Duck AI](ai-chat.md#duckduckgo-ai-chat)
+- ![Leo AI logo](assets/img/ai-chat/leo.svg){ .twemoji loading=lazy }[Brave Leo](ai-chat.md#brave-leo)
 </div>
 
 #### Self-hosted Solutions
 <div class="grid cards" markdown>
-- ![Kobold logo](assets/img/ai-chatbots/kobold.svg){ .twemoji loading=lazy }[Kobold.cpp](ai-chatbots.md#koboldcpp)
-- ![Llamafile logo](assets/img/ai-chatbots/llamafile.svg){ .twemoji loading=lazy }[Llamafile](ai-chatbots.md#llamafile)
-- ![Ollama logo](assets/img/ai-chatbots/ollama.svg){ .twemoji loading=lazy }[Ollama](ai-chatbots.md#ollama)
+- ![Kobold logo](assets/img/ai-chat/kobold.svg){ .twemoji loading=lazy }[Kobold.cpp](ai-chat.md#koboldcpp)
+- ![Llamafile logo](assets/img/ai-chat/llamafile.svg){ .twemoji loading=lazy }[Llamafile](ai-chat.md#llamafile)
+- ![Ollama logo](assets/img/ai-chat/ollama.svg){ .twemoji loading=lazy }[Ollama](ai-chat.md#ollama)
 </div>
 
 

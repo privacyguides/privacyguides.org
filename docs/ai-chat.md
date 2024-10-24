@@ -24,7 +24,7 @@ When using cloud-based AI chat tools, be mindful of the personal information you
 ### DuckDuckGo AI Chat
 <div class="admonition recommendation" markdown>
 
-![DuckDuckGo logo](assets/img/ai-chatbots/duckai.png){align=right}
+![DuckDuckGo logo](assets/img/ai-chat/duckai.png){align=right}
 
 **DuckDuckGo AI Chat** is made by the popular [search engine provider](search-engines.md) of the same name and is available directly on their website.
 
@@ -52,7 +52,7 @@ You will have to trust the together.ai cloud platform to honor their commitments
 
 <div class="admonition recommendation" markdown>
 
-![Brave Logo](assets/img/ai-chatbots/leo.svg){align=right}
+![Brave Logo](assets/img/ai-chat/leo.svg){align=right}
 
 **Brave Leo** is an AI assistant available inside the [Brave browser](desktop-browsers.md#brave), a browser which we recommend.
 
@@ -84,7 +84,7 @@ There are many permissively licensed models available which can be run locally. 
 ### Kobold.cpp
 <div class="admonition recommendation" markdown>
 
-![Kobold.cpp Logo](assets/img/ai-chatbots/kobold.svg){align=right}
+![Kobold.cpp Logo](assets/img/ai-chat/kobold.svg){align=right}
 
 Kobold.cpp is an AI client that runs locally on your Windows, Mac or Linux computer.
 
@@ -103,7 +103,7 @@ Kobold.cpp might not run on computers without AVX/AVX2 support.
 
 ### Ollama
 <div class="admonition recommendation" markdown>
-![Ollama Logo](assets/img/ai-chatbots/ollama.png){align=right}
+![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
 
 Ollama is a command line AI assistant that is available on macOS, Linux and Windows (preview).
 
@@ -118,7 +118,7 @@ In addition to supporting a wide range of text models, Ollama also supports [LLa
 ### llamafile
 <div class="admonition recommendation" markdown>
 
-![llamafile Logo](assets/img/ai-chatbots/llamafile.svg){align=right}
+![llamafile Logo](assets/img/ai-chat/llamafile.svg){align=right}
 
 Llamafile is a single-file executable that allows users to run large language models locally on their own computers, without any setup involved. It is available on Linux, macOS and Windows.
 
