@@ -74,9 +74,9 @@ Enabling **Airplane Mode** stops your phone from contacting cell towers. You wil
 
 #### Wi-Fi
 
-You can enable [hardware address randomization](https://support.apple.com/en-us/102509#triswitch) to protect you from tracking across Wi-Fi networks. On the network you are currently connected to, press the :material-information: button:
+You can enable [hardware address randomization](https://support.apple.com/en-us/102509#triswitch) to protect you from tracking across Wi-Fi networks, and on the same network over time. On the network you are currently connected to, press the :material-information: button:
 
-- [x] Set **Private Wi-Fi Address** to **Rotating**
+- [x] Set **Private Wi-Fi Address** to **Fixed** or **Rotating**
 
 You also have the option to **Limit IP Address Tracking**. This is similar to iCloud Private Relay but only affects connections to "known trackers." Because it only affects connections to potentially malicious servers, this setting is probably fine to leave enabled, but if you don't want *any* traffic to be routed through Apple's servers, you should turn it off.
 
@@ -208,7 +208,7 @@ Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Adve
 
 ### E2EE Calls
 
-Normal phone calls made with the Phone app through your carrier are not E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE, or you can use [another app](../real-time-communication.md) like Signal.
+Normal phone calls made with the Phone app through your carrier are not E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE. Alternative, you can use [another app](../real-time-communication.md) like Signal for E2EE calls.
 
 ### Encrypted iMessage
 
