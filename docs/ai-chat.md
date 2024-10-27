@@ -10,7 +10,7 @@ cover: ai-chatbots.webp
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 - [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-Since the release of **ChatGPT** in 2022, talking with **Large Language Models** (*LLMs*) has become common. **LLMs can help us** write better, understand unfamiliar subjects, or answer a wide range of questions. However, developers need data to improve their models. Unfortunately, this often **includes your conversations** with the AI. Those private conversations must be stored, which introduces a risk of **data breaches**. Furthermore, there is a real possibility that the LLM will leak your private information in future conversations with other users. To solve this problem, you can use trusted and privacy-focused providers or run AI models locally so your data never leaves your device.
+Since the release of **ChatGPT** in 2022, interacting with **Large Language Models** (*LLMs*) has become common. **LLMs can help us** write better, understand unfamiliar subjects, or answer a wide range of questions. However, developers need data to improve their models. Unfortunately, this often **includes your conversations** with the AI. Those private conversations must be stored, which introduces a risk of **data breaches**. Furthermore, there is a real possibility that the LLM will leak your private information in future conversations with other users. To solve this problem, you can use trusted and privacy-focused providers or run AI models locally so your data never leaves your device.
 
 ## Recommended Solutions
 <details class="admonition info" markdown>
