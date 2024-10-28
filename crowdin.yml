@@ -26,8 +26,6 @@ files:
   - source: "/docs/**/*.*"
     translation: "/i18n/%two_letters_code%/**/%file_name%.%file_extension%"
     skip_untranslated_files: false
-    ignore:
-      - "/docs/about/jobs/*.*"
   - source: "/includes/*.en.*"
     translation: "/includes/%file_name%.%two_letters_code%.%file_extension%"
     translation_replace:
