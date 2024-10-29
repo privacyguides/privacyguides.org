@@ -39,10 +39,9 @@ When using cloud-based AI chat tools, be mindful of the personal information you
 
 ![DuckDuckGo logo](assets/img/ai-chat/duckai.png){align=right}
 
-**DuckDuckGo AI Chat** is a web frontend for AI models. It is made by the popular [search engine provider](search-engines.md) of the same name and is available directly on their website.
-
+**DuckDuckGo AI Chat** is a web frontend for AI models. It is made by the popular [search engine provider](search-engines.md) of the same name.
 [:octicons-home-16: Homepage](https://duck.ai){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/aichat){ .card-link title="Onion Service" }
+[:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/chat){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://duckduckgo.com/aichat/privacy-terms){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://help.duckduckgo.com){ .card-link title=Documentation}
 
@@ -50,10 +49,11 @@ When using cloud-based AI chat tools, be mindful of the personal information you
 
 DuckDuckGo give you access to open-weights models from Meta and Mistral, as well as proprietary models from Anthropic and OpenAI. To protect your IP adress and prevent fingerprinting, DuckDuckGo proxies your chats through their servers. Duck also has agreements with the third-party providers they use guaranteeing that they will not use your data for training AI models. Proprietary model providers can keep a chat history for up to 30 days. For open-weights model, Duck uses the together.ai AI cloud platform, and has disabled history for those chats.
 
-It is available directly on [DuckDuckGo](https://duckduckgo.com) or [duck.ai](https://duck.ai). It is also available on DDG's onion site.
+It is available directly on [DuckDuckGo](https://duckduckgo.com), [duck.ai](https://duck.ai) or [DuckDuckGo onion site](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/chat).
+
 <div class="admonition danger" markdown>
 <p class="admonition-title">Proprietary Model Providers Retain Your Chats</p>
-We advise against using proprietary models from Anthropic or OpenAI because those providers keep chat historyfor up to 30 days.
+We advise against using proprietary models from Anthropic or OpenAI because those providers keep a chat history for up to 30 days.
 </div>
 <div class="admonition warning" markdown>
 <p class="admonition-title">DuckDuckGo Doesn't Self-Host Open Models</p>
@@ -73,35 +73,34 @@ You will have to trust the together.ai cloud platform to honor their commitments
 [:octicons-info-16:](https://github.com/brave/brave-browser/wiki/Brave-Leo){ .card-link title=Documentation}
 
 </div>
-Brave Leo supports a variety of models, including open-weights models from Meta and Mistral, and proprietary models from Anthropic. Additionally, the ["Bring Your Own Model"](https://brave.com/blog/byom-nightly/)feature allows you to use one of your local ai models directly in Brave. Brave self-hosts the open models and for the Brave-hosted models, Brave discards all chat data after you close your browser.
+Brave Leo supports a variety of models, including open-weights models from Meta and Mistral, and proprietary models from Anthropic. Additionally, the ["Bring Your Own Model"](https://brave.com/blog/byom-nightly/) feature allows you to use one of your local AI models directly in Brave. Brave self-hosts the open models and for the Brave-hosted models, Brave discards all chat data after you close Leo.
 
 Leo can enhance its knowledge through web searches, similar to Microsoft Copilot. However, Brave's AI solution still faces challenges with multi-language support. Leo AI is available on the Brave Browser on all platforms. There are strict rate limits for most models, but one free model has a high rate limit.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Page Content is Sent by Default</p>
-By default, Brave Leo includes the webpage you are currently on as context for the AI model. While this can often be convenient, it also represents a privacy risk for pages with private information, such as your mailbox. However, this feature cannot be globally disabled.
-You'll need to manually toggle off "Shape answers based on the page's contents" for pages with PII.
+By default, Brave Leo includes the webpage you are currently on as context for the AI model. While this can often be convenient, it also represents a privacy risk for pages with private information, such as your mailbox or social media. However, this feature cannot be globally disabled. Therefore, you'll need to **manually toggle off "Shape answers based on the page's contents"** for pages with PII.
 </div>
 <div class="admonition danger" markdown>
 <p class="admonition-title">Proprietary Model Providers Retain Your Chats</p>
 We advise against using Anthropic's Claude proprietary models because Anthropic keeps chat history for up to 30 days.
 </div>
 
-# Local AI
+## Local AI
 
-**Running AI models locally** offer a more private and secure alternative to cloud-based solutions, as **your data never leaves your device** and is therefore not shared with third-party providers. This provides peace of mind and **allows you to share sensitive information**.
+**Running AI models locally** offer a more private and secure alternative to cloud-based solutions, as **your data never leaves your device** and is therefore never shared with third-party providers. This provides peace of mind and **allows you to share sensitive information**.
 
 For the best experience, a dedicated GPU with sufficient VRAM or a modern system with fast LPDDR5X memory is recommended. Fortunately, it is possible to run smaller models locally even without a high-end computer or dedicated GPU. A computer with at least 8GB of RAM will be sufficient to run smaller models at lower speeds.
 
 **To run AI locally, you need both an AI client and an AI model**.
 
-## Download AI models
+### Download AI models
 
 There are many permissively licensed **models available to download**. **[Hugging Face](https://huggingface.co/models?library=gguf)** is a platform that lets you browse, research, and download models in common formats like GGUF. Companies that provide good open-weights models include big names like Mistral, Meta, Microsoft, and Google. But there are also many community models and 'fine-tunes' available. For consumer-grade hardware, it is generally recommended to use [quantized models](https://huggingface.co/docs/optimum/en/concept_guides/quantization) for the best balance between model quality and performance.
 
-## AI chat clients
+### AI chat clients
 
-### Kobold.cpp
+#### Kobold.cpp
 <div class="admonition recommendation" markdown>
 
 ![Kobold.cpp Logo](assets/img/ai-chat/kobold.svg){align=right}
@@ -116,26 +115,29 @@ Kobold.cpp is an AI client that runs locally on your Windows, Mac, or Linux comp
 </div>
 In addition to supporting a large range of text models, Kobold.cpp also supports image generators such as [Stable Diffusion](https://stability.ai/stable-image) and automatic speech recognition tools, such as [Whisper](https://github.com/ggerganov/whisper.cpp).
 
+Kobold shines best when you are looking for heavy customisation and tweaking, such as for roleplaying purposed. It allows you to modify the model temperature,the context window. It also supports creating a network tunnel to access AI models from other devices, such as your phone.
+
 <div class="admonition note" markdown>
 <p class="admonition-title">Compatibility Issues</p>
 Kobold.cpp might not run on computers without AVX/AVX2 support.
 </div>
 
-### Ollama
+#### Ollama
 <div class="admonition recommendation" markdown>
 
 ![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
 
-Ollama is a command-line AI assistant that is available on macOS, Linux, and Windows (preview).
+Ollama is an easy-to-use command-line AI assistant that is available on macOS, Linux, and Windows (preview).
 
 [:octicons-home-16: Homepage](https://github.com/ollama/ollama){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/ollama/ollama){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Source Code"}
 
 </div>
-In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has *experimental* support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision). Ollama can be downloaded and installed with just a few clicks. Furthermore, it is very lightweight and is compatible with almost all PCs. To use Ollama, simply type in your terminal "ollama run model name".
+In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has *experimental* support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
+Ollama shines best when you are looking for an AI client that has great compatibility and ease of use. It runs on all desktop platforms and doesn't involve any setup, while still using inference and other techniques to make outputs faster. It also simply running AI models as it doesn't require you to download AI models. For example "ollama run llama3.2" will automatically download and run the Llama 3.2 model.
 
-### Llamafile
+#### Llamafile
 <div class="admonition recommendation" markdown>
 
 ![Llamafile Logo](assets/img/ai-chat/llamafile.svg){align=right}
