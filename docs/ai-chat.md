@@ -1,6 +1,6 @@
 ---
-meta_title: "Recommended AI Chat Tools: Private ChatGPT Alternatives - Privacy Guides"
-title: "AI Chat Tools"
+meta_title: "Recommended AI Chat: Private ChatGPT Alternatives - Privacy Guides"
+title: "AI Chat"
 icon: material/assistant
 description: Unlike OpenAI's ChatGPT and its Big Tech rivals, these AI tools do not train their models using your conversations.
 cover: ai-chatbots.webp
@@ -10,18 +10,27 @@ cover: ai-chatbots.webp
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 - [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-Since the release of **ChatGPT** in 2022, interacting with **Large Language Models** (*LLMs*) has become common. **LLMs can help us** write better, understand unfamiliar subjects, or answer a wide range of questions. However, developers need data to improve their models. Unfortunately, this often **includes your conversations** with the AI. Those private conversations must be stored, which introduces a risk of **data breaches**. Furthermore, there is a real possibility that the LLM will leak your private information in future conversations with other users. To solve this problem, you can use trusted and privacy-focused providers or run AI models locally so your data never leaves your device.
+Since the release of **ChatGPT** in 2022, interacting with **Large Language Models** (*LLMs*) has become common. **LLMs can help us** write better, understand unfamiliar subjects, or answer a wide range of questions. Based on vast ammount of data scrapped from the Web, they statistically predict the next word. However, to improve LLMs quality, AI devs often use [Reinforcement Learning from Humans Feedback](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback).This mean AI companies might read your private AI chats to evaluate and correct the model answers. But that means that those private conversations must be stored, which introduces a risk of **data breaches**. Furthermore, there is a real possibility that the LLM will leak your private chat information in future conversations with other users. To solve those problems, you can use trusted and privacy-focused providers or run AI models locally so your data never leaves your device.
 
-## Recommended Solutions
 <details class="admonition info" markdown>
 <summary>Privacy and Ethical Concerns about LLMs</summary>
 AI models have been trained on massive amounts of public *and* private data. If you are concerned about these practices, you can either refuse to use AI or use [truly open-source models](https://proton.me/blog/how-to-build-privacy-first-ai), which publicly release their training datasets and therefore weren't trained on private data. One such model is [Olmoe](https://blog.allenai.org/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514) made by [Allenai](https://allenai.org/open-data).
 
-[Ethical concerns](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(24)00061-X/fulltext) of AI range from their impact on climate to their potential for discrimination.
+[Ethical concerns](https://www.thelancet.com/journals/landig/article/PIIS2588-7500(24)00061-X/fulltext) of AI range from their impact on climate to their potential for discrimination.
 </details>
+
+<details class="admonition info" markdown>
+<summary>Dictionnary of complex words</summary>
+AI is a complex field, with lot of abreviations and field-specific vocabulary. Generally, you can **hover your mouse** on those words and it will **display a definition**. However, reading might be easier if you familiarise yourself with those words. Those words include:
+- *[AI]*: Artificial Intelligence
+- *[LLaVA]*: Large Language and Vision Assistant (multimodal AI model)
+- *[LLMs]*: Largue Language Models (AI models such as ChatGPT)
+- *[open-weights]*: An open weights model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
+</details>
+
 ## Cloud Providers
 
-The recommendations for online providers here do not train their models using your chats and do not retain your chats for more than 14 days, based on each service's privacy policy. However, there is **no guarantee** that these privacy policies are honored.
+The recommendations below for **cloud providers below do not train their models using your chats** and do not retain your chats for more than a month, based on each service's privacy policy. However, there is **no guarantee** that these privacy policies are honored.
 
 When using cloud-based AI chat tools, be mindful of the personal information you share. Even if a service doesn't store your conversations, there's still a risk of sensitive data being exposed or misused. **Do not share sensitive information** related to health, finance, or other highly personal matters to protect your privacy and security.
 
@@ -30,7 +39,7 @@ When using cloud-based AI chat tools, be mindful of the personal information you
 
 ![DuckDuckGo logo](assets/img/ai-chat/duckai.png){align=right}
 
-**DuckDuckGo AI Chat** is made by the popular [search engine provider](search-engines.md) of the same name and is available directly on their website.
+**DuckDuckGo AI Chat** is a web frontend for AI models. It is made by the popular [search engine provider](search-engines.md) of the same name and is available directly on their website.
 
 [:octicons-home-16: Homepage](https://duck.ai){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/aichat){ .card-link title="Onion Service" }
@@ -39,7 +48,7 @@ When using cloud-based AI chat tools, be mindful of the personal information you
 
 </div>
 
-DuckDuckGo offers open-weight models from Meta and Mistral, as well as closed-source models from Anthropic and OpenAI. To protect your privacy, DuckDuckGo proxies your chats through their servers. The privacy policy states that providers are "deleting all information received once it is no longer necessary to provide Outputs (at most within 30 days with limited exceptions for safety and legal compliance)." For open-weight models, Duck uses together.ai and has "disabled chat history by turning on the option to 'not store prompts and responses' on the together.ai platform."
+DuckDuckGo give you access to open-weights models from Meta and Mistral, as well as proprietary models from Anthropic and OpenAI. To protect your IP adress and prevent fingerprinting, DuckDuckGo proxies your chats through their servers. Duck also has agreements with the third-party providers they use guaranteeing that they will not use your data for training AI models. Proprietary model providers can keep a chat history for up to 30 days. For open-weights model, Duck uses the together.ai AI cloud platform, and has disabled history for those chats.
 
 It is available directly on [DuckDuckGo](https://duckduckgo.com) or [duck.ai](https://duck.ai). It is also available on DDG's onion site.
 <div class="admonition danger" markdown>
@@ -64,23 +73,33 @@ You will have to trust the together.ai cloud platform to honor their commitments
 [:octicons-info-16:](https://github.com/brave/brave-browser/wiki/Brave-Leo){ .card-link title=Documentation}
 
 </div>
-Brave Leo supports a variety of models, including open-weight models from Meta and Mistral, and closed-source models from Anthropic. Additionally, you can use your local models or any third-party providers with a standard API. Brave self-hosts the open models and does not retain chat history or use chats for model training. Leo can enhance its knowledge through web searches, similar to Microsoft Copilot. However, Brave's AI solution still faces challenges with multi-language support. Leo AI is available on the Brave Browser on all platforms. There is a strict rate limit for most models, but one free model has a high rate limit.
+Brave Leo supports a variety of models, including open-weights models from Meta and Mistral, and proprietary models from Anthropic. Additionally, the ["Bring Your Own Model"](https://brave.com/blog/byom-nightly/)feature allows you to use one of your local ai models directly in Brave. Brave self-hosts the open models and for the Brave-hosted models, Brave discards all chat data after you close your browser.
+
+Leo can enhance its knowledge through web searches, similar to Microsoft Copilot. However, Brave's AI solution still faces challenges with multi-language support. Leo AI is available on the Brave Browser on all platforms. There are strict rate limits for most models, but one free model has a high rate limit.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Page Content is Sent by Default</p>
-We recommend manually switching off the "Use page context for response" toggle for pages with PII.
+By default, Brave Leo includes the webpage you are currently on as context for the AI model. While this can often be convenient, it also represents a privacy risk for pages with private information, such as your mailbox. However, this feature cannot be globally disabled.
+You'll need to manually toggle off "Shape answers based on the page's contents" for pages with PII.
 </div>
 <div class="admonition danger" markdown>
 <p class="admonition-title">Proprietary Model Providers Retain Your Chats</p>
-We advise against using Anthropic's proprietary Claude models because Anthropic keeps chat history for up to 30 days.
+We advise against using Anthropic's Claude proprietary models because Anthropic keeps chat history for up to 30 days.
 </div>
 
-## Local Solutions
-**Local AI** models offer a more private and secure alternative to cloud-based solutions, as **your data never leaves your device** and is therefore not shared with third-party providers. This provides peace of mind and **allows you to share sensitive information**.
+# Local AI
+
+**Running AI models locally** offer a more private and secure alternative to cloud-based solutions, as **your data never leaves your device** and is therefore not shared with third-party providers. This provides peace of mind and **allows you to share sensitive information**.
 
 For the best experience, a dedicated GPU with sufficient VRAM or a modern system with fast LPDDR5X memory is recommended. Fortunately, it is possible to run smaller models locally even without a high-end computer or dedicated GPU. A computer with at least 8GB of RAM will be sufficient to run smaller models at lower speeds.
 
-There are many permissively licensed models available that can be run locally. [Hugging Face](https://huggingface.co/models?library=gguf) is a platform that lets you browse, research, and download models in common formats like GGUF. In addition to big names like Mistral, Meta, Microsoft, and Google, there are many community models and 'fine-tunes' to choose from. For consumer-grade hardware, it is generally recommended to use [quantized models](https://huggingface.co/docs/optimum/en/concept_guides/quantization) for the best balance between model quality and performance.
+**To run AI locally, you need both an AI client and an AI model**.
+
+## Download AI models
+
+There are many permissively licensed **models available to download**. **[Hugging Face](https://huggingface.co/models?library=gguf)** is a platform that lets you browse, research, and download models in common formats like GGUF. Companies that provide good open-weights models include big names like Mistral, Meta, Microsoft, and Google. But there are also many community models and 'fine-tunes' available. For consumer-grade hardware, it is generally recommended to use [quantized models](https://huggingface.co/docs/optimum/en/concept_guides/quantization) for the best balance between model quality and performance.
+
+## AI chat clients
 
 ### Kobold.cpp
 <div class="admonition recommendation" markdown>
@@ -138,23 +157,23 @@ Mozilla has only made available llamafiles for some Llama and Mistral models, wh
 
 ## Criteria
 
-Please note we are not affiliated with any of the projects we recommend. In addition to our standard criteria, we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project and conduct your own research to ensure it's the right choice for you.
+Please note we are not affiliated with any of the projects we recommend. In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Requirements
 
 #### Cloud Providers
 
-- Must not use your chats for training.
-- Must not retain your chats for more than 14 days.
+- The provider or third-parties they use must not use your chats for training
+- The provider or third-parties they use must not retain your chats for more than 30 days.
 - Must be accessible privately (no account required, accepts requests from VPN users).
 - Must provide models they host themselves or with a third-party that acts on their behalf.
-- Must provide at least one model with a high rate limit.
+- Must provide at least one model with high rate limits.
 
 #### Local Solutions
 
-- Must not send personal data. Any opt-in mechanism must rely on free consent and avoid dark patterns.
+- Must not send personal data, including chat data.
 - Must not require a GPU.
-- Must have GPU support for fast inference.
+- Must have support for GPU inference.
 - Must not require an internet connection.
 
 ### Best-Case
@@ -164,12 +183,12 @@ Our best-case criteria represent what we would like to see from the perfect proj
 #### Cloud Providers
 
 - Should not retain your chats.
-- Should be accessible anonymously (Tor Browser Safest security level).
-- Providers should only have open-weight models that they self-host.
+- Should be accessible anonymously trough Tor.
+- Should only offer self-hosted open-weights models.
 - Should not be rate-limited.
 
-#### Local Solutions
+#### Local AI
 
-- Should provide a one-click installer.
+- Should be easy to download and setup, such as having a one-click install process.
 - Should have a built-in model downloader option.
-- Should be customizable (allow modifying the system prompt, temperature, etc.).
+- Should be customizable (the user can modify model "settings", such as the system prompt and model temperature).
