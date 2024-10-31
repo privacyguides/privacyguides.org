@@ -40,6 +40,9 @@ When using cloud-based AI chat tools, be mindful of the personal information you
 ![DuckDuckGo logo](assets/img/ai-chat/duckai.png){align=right}
 
 **DuckDuckGo AI Chat** is a web frontend for AI models. It is made by the popular [search engine provider](search-engines.md) of the same name.
+
+DuckDuckGo give you access to open-weights models from Meta and Mistral, as well as proprietary models from Anthropic and OpenAI. To protect your IP adress and prevent fingerprinting, DuckDuckGo proxies your chats through their servers.
+
 [:octicons-home-16: Homepage](https://duck.ai){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/chat){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://duckduckgo.com/aichat/privacy-terms){ .card-link title="Privacy Policy" }
@@ -47,7 +50,7 @@ When using cloud-based AI chat tools, be mindful of the personal information you
 
 </div>
 
-DuckDuckGo give you access to open-weights models from Meta and Mistral, as well as proprietary models from Anthropic and OpenAI. To protect your IP adress and prevent fingerprinting, DuckDuckGo proxies your chats through their servers. Duck also has agreements with the third-party providers they use guaranteeing that they will not use your data for training AI models. Proprietary model providers can keep a chat history for up to 30 days. For open-weights model, Duck uses the together.ai AI cloud platform, and has disabled history for those chats.
+Duck has agreements with the third-party providers they use guaranteeing that they will not use your data for training their AI models. Proprietary model providers can keep a chat history for up to 30 days. For open-weights model, Duck uses the together.ai AI cloud platform, and has disabled history for those chats.
 
 It is available directly on [DuckDuckGo](https://duckduckgo.com), [duck.ai](https://duck.ai) or [DuckDuckGo onion site](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/chat).
 
@@ -68,12 +71,14 @@ You will have to trust the together.ai cloud platform to honor their commitments
 
 **Brave Leo** is an AI assistant available inside the [Brave browser](desktop-browsers.md#brave), a browser which we recommend.
 
+Brave Leo supports a variety of models, including open-weights models from Meta and Mistral, and proprietary models from Anthropic. Additionally, the ["Bring Your Own Model"](https://brave.com/blog/byom-nightly/) feature allows you to use one of your local AI models directly in Brave.
+
 [:octicons-home-16: Homepage](https://brave.com/leo){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://brave.com/privacy/browser/#brave-leo){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/brave/brave-browser/wiki/Brave-Leo){ .card-link title=Documentation}
 
 </div>
-Brave Leo supports a variety of models, including open-weights models from Meta and Mistral, and proprietary models from Anthropic. Additionally, the ["Bring Your Own Model"](https://brave.com/blog/byom-nightly/) feature allows you to use one of your local AI models directly in Brave. Brave self-hosts the open models and for the Brave-hosted models, Brave discards all chat data after you close Leo.
+Brave self-hosts the open models and for the Brave-hosted models, Brave discards all chat data after you close Leo.
 
 Leo can enhance its knowledge through web searches, similar to Microsoft Copilot. However, Brave's AI solution still faces challenges with multi-language support. Leo AI is available on the Brave Browser on all platforms. There are strict rate limits for most models, but one free model has a high rate limit.
 
@@ -107,15 +112,24 @@ There are many permissively licensed **models available to download**. **[Huggin
 
 Kobold.cpp is an AI client that runs locally on your Windows, Mac, or Linux computer.
 
-[:octicons-home-16: Homepage](https://github.com/LostRuins/koboldcpp){ .md-button .md-button--primary }
+In addition to supporting a large range of text models, Kobold.cpp also has a suports an image generators such as [Stable Diffusion](https://stability.ai/stable-image), and an automatic speech recognition tools, such as [Whisper](https://github.com/ggerganov/whisper.cpp)
+
+Kobold shines best when you are looking for heavy customisation and tweaking, such as for roleplaying purposed. It allows you to modify the model temperature,the context window. It also supports creating a network tunnel to access AI models from other devices, such as your phone.
+[octicons-home-16: Homepage](https://github.com/LostRuins/koboldcpp){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Source Code" }
 [:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy"}
 
-</div>
-In addition to supporting a large range of text models, Kobold.cpp also supports image generators such as [Stable Diffusion](https://stability.ai/stable-image) and automatic speech recognition tools, such as [Whisper](https://github.com/ggerganov/whisper.cpp).
+<details class="downloads" markdown>
+<summary>Downloads</summary>
 
-Kobold shines best when you are looking for heavy customisation and tweaking, such as for roleplaying purposed. It allows you to modify the model temperature,the context window. It also supports creating a network tunnel to access AI models from other devices, such as your phone.
+-[:fontawesome-brands-windows: Windows](https://github.com/LostRuins/koboldcpp/releases)
+-[:simple-apple: macOS](https://github.com/LostRuins/koboldcpp/releases)
+-[:simple-linux: Linux](https://github.com/LostRuins/koboldcpp/releases)
+
+</details>
+
+</div>
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Compatibility Issues</p>
@@ -129,13 +143,22 @@ Kobold.cpp might not run on computers without AVX/AVX2 support.
 
 Ollama is an easy-to-use command-line AI assistant that is available on macOS, Linux, and Windows (preview).
 
+In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has *experimental* support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
+Ollama shines best when you are looking for an AI client that has great compatibility and ease of use. It runs on all desktop platforms and doesn't involve any setup, while still using inference and other techniques to make outputs faster. It also simply running AI models as it doesn't require you to download AI models. For example "ollama run llama3.2" will automatically download and run the Llama 3.2 model.
+
+
 [:octicons-home-16: Homepage](https://github.com/ollama/ollama){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/ollama/ollama){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Source Code"}
 
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+-[:fontawesome-brands-windows: Windows](https://ollama.com/download/linux)
+-[:simple-apple: macOS](https://ollama.com/download/mac)
+-[:simple-linux: Linux](https://ollama.com/download/linux)
+</details>
+
 </div>
-In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has *experimental* support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
-Ollama shines best when you are looking for an AI client that has great compatibility and ease of use. It runs on all desktop platforms and doesn't involve any setup, while still using inference and other techniques to make outputs faster. It also simply running AI models as it doesn't require you to download AI models. For example "ollama run llama3.2" will automatically download and run the Llama 3.2 model.
 
 #### Llamafile
 <div class="admonition recommendation" markdown>
@@ -144,13 +167,18 @@ Ollama shines best when you are looking for an AI client that has great compatib
 
 Llamafile is a single-file executable that allows users to run large language models locally on their own computers, without any setup involved. It is available on Linux, macOS, and Windows.
 
+The Mozilla-run project also supports LLaVA. However, it does not support speech recognition or image generation. Finally, it is very lightweight and compatible.
+
 [:octicons-home-16: Homepage](https://github.com/Mozilla-Ocho/llamafile/){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile/?tab=readme-ov-file#llamafile){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Source Code"}
 [:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#security){ .card-link title="Security Policy"}
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+[:fontawesome-solid-desktop: Desktop](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#quickstart)
+</details>
 
 </div>
-The Mozilla-run project also supports LLaVA. However, it does not support speech recognition or image generation. Finally, it is very lightweight and compatible.
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Few Models Available</p>
@@ -169,9 +197,9 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 - The provider or third-parties they use must not retain your chats for more than 30 days.
 - Must be accessible privately (no account required, accepts requests from VPN users).
 - Must provide models they host themselves or with a third-party that acts on their behalf.
-- Must provide at least one model with high rate limits.
+- Must provide at least one model with high rate limits, to allow an user to use it for medium to heavy workloads.
 
-#### Local Solutions
+#### Local AI
 
 - Must not send personal data, including chat data.
 - Must not require a GPU.
@@ -180,7 +208,7 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 
 ### Best-Case
 
-Our best-case criteria represent what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Our best-case criteria represent what we *would* like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
 #### Cloud Providers
 
