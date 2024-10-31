@@ -5,7 +5,18 @@ icon: material/tag-remove
 description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
 cover: data-redaction.webp
 ---
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information){ .pg-green }
+
 When sharing files, be sure to remove associated metadata. Image files commonly include [Exif](https://en.wikipedia.org/wiki/Exif) data. Photos sometimes even include GPS coordinates in the file metadata.
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+You should **never** use blur to redact [text in images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, you should draw a box over the text.
+
+</div>
 
 ## Desktop
 
@@ -95,36 +106,6 @@ The app offers multiple ways to erase metadata from images. Namely:
 - [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
 </details>
-
-</div>
-
-### PrivacyBlur
-
-<div class="admonition recommendation" markdown>
-
-![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ align=right }
-
-**PrivacyBlur** is a free app which can blur sensitive portions of pictures before sharing them online.
-
-[:octicons-home-16: Homepage](https://privacyblur.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
-
-</details>
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
-
-You should **never** use blur to redact [text in images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, draw a box over the text. For this, we suggest apps like [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
 </div>
 

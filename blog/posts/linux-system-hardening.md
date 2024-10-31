@@ -10,6 +10,8 @@ tags:
     - Security
 license: BY-SA
 robots: nofollow, max-snippet:-1, max-image-preview:large
+description: There are a number of procedures you can follow to make your Linux desktop system more secure, some more advanced than others. We cover some general techniques here.
+schema_type: AnalysisNewsArticle
 ---
 # Hardening Your Desktop Linux System's Security
 

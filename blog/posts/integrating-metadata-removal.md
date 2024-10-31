@@ -12,6 +12,8 @@ tags:
     - iOS
     - Windows
 license: BY-SA
+description: When sharing files, it's important to remove associated metadata. Image files commonly include Exif data, and sometimes photos even include GPS coordinates within its metadata.
+schema_type: AnalysisNewsArticle
 ---
 # Removing Metadata From Your Photos, Videos, and Other Files
 

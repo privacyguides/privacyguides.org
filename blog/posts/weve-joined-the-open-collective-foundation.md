@@ -10,6 +10,7 @@ links:
 tags:
     - Privacy Guides
 license: CC0
+schema_type: NewsArticle
 ---
 # We've Joined the Open Collective Foundation 501(c)(3)
 

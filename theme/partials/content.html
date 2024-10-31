@@ -24,7 +24,7 @@
 
 {% if page and page.meta and page.meta.cover %}
   <div class="cover center-cropped">
-      <img src="{{ 'assets/img/cover/' | url }}{{ page.meta.cover }}" alt="">
+      <img itemprop="image" src="{{ 'assets/img/cover/' | url }}{{ page.meta.cover }}" alt="">
   </div>
   <h1>{{ page.title | d(config.site_name, true)}}</h1>
 {% endif %}
@@ -40,7 +40,9 @@
 {% endif %}
 
 <!-- Page content -->
+<div>
 {{ page.content }}
+</div>
 
 <!-- Source file information -->
 {% include "partials/source-file.html" %}

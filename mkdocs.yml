@@ -358,7 +358,6 @@ markdown_extensions:
   tables: {}
   footnotes: {}
   toc:
-    permalink: true
     toc_depth: 4
 
 nav:
@@ -446,6 +445,7 @@ nav:
       - "about/donate.md"
       - "about/contributors.md"
       - "about/criteria.md"
+      - "about/executive-policy.md"
       - "about/notices.md"
       - "about/privacy-policy.md"
       - "about/jobs.md"

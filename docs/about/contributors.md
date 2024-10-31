@@ -2,6 +2,7 @@
 title: Contributors
 hide:
   - toc
+description: A complete list of contributors who have collectively made an enormous impact on the Privacy Guides project.
 ---
 <!-- Do NOT manually edit this file, please add yourself to the .all-contributorsrc file instead. See our GitHub Issues for more details -->
 

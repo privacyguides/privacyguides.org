@@ -44,6 +44,9 @@ tags:
   og:image:height: "{{ image.height }}"
   og:url: "{{ page.canonical_url }}"
 
+  # Mastodon
+  fediverse:creator: "@privacyguides@neat.computer"
+
   # Twitter
   twitter:card: summary_large_image
   twitter:title: *page_title_with_site_name

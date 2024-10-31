@@ -1,5 +1,6 @@
 ---
 title: Writing Style
+description: Our official writing style handbook for website contributors.
 ---
 
 Privacy Guides is written in American English, and you should refer to [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) when in doubt.

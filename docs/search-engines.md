@@ -2,11 +2,15 @@
 meta_title: "Recommended Search Engines: Anonymous Google Alternatives - Privacy Guides"
 title: "Search Engines"
 icon: material/search-web
-description: These privacy-respecting search engines don't build an advertising profile based on your searches.
+description: Privacy-respecting search engines which don't build an advertising profile based on your searches.
 cover: search-engines.webp
 global:
  - [randomize-element, "table tbody"]
 ---
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+
 Use a **search engine** that doesn't build an advertising profile based on your searches.
 
 ## Recommended Providers

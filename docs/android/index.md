@@ -1,5 +1,6 @@
 ---
 title: "Android"
+description: Our advice for replacing privacy-invasive default Android features with private and secure alternatives.
 icon: 'simple/android'
 cover: android.webp
 schema:

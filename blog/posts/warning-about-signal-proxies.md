@@ -13,6 +13,8 @@ links:
     - Signal Configuration Guide: https://www.privacyguides.org/real-time-communication/signal-configuration-hardening/
     - Real-Time Communication: https://www.privacyguides.org/real-time-communication/
 license: BY-SA
+description: You should be aware of a number of issues with Signal’s current proxy implementation.
+schema_type: NewsArticle
 ---
 # A Warning About Signal Proxies in Iran and Other Oppressive Countries
 

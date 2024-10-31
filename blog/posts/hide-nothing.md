@@ -11,6 +11,8 @@ links:
 tags:
     - Government
 license: BY-SA
+description: In the wake of the September 11, 2001, attack on the United States, the US government enacted laws that weakened citizen privacy in the name of national emergency.
+schema_type: OpinionNewsArticle
 ---
 # Hide Nothing
 
