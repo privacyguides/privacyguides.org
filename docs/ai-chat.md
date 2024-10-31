@@ -127,9 +127,11 @@ In addition to supporting a large range of text models, Kobold.cpp also has a su
 - [:simple-linux: Linux](https://github.com/LostRuins/koboldcpp/releases)
 
 </details>
-Kobold shines best when you are looking for heavy customisation and tweaking, such as for roleplaying purposed. It allows you to modify the model temperature,the context window. It also supports creating a network tunnel to access AI models from other devices, such as your phone.
 
 </div>
+
+Kobold shines best when you are looking for heavy customisation and tweaking, such as for roleplaying purposed. It allows you to modify the model temperature,the context window. It also supports creating a network tunnel to access AI models from other devices, such as your phone.
+
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Compatibility Issues</p>
@@ -150,10 +152,6 @@ In addition to supporting a wide range of text models, Ollama also supports [LLa
 [:octicons-info-16:](https://github.com/ollama/ollama){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Source Code"}
 
-Ollama shines best when you are looking for an AI client that has great compatibility and ease of use. It runs on all desktop platforms and doesn't involve any manual setup, while still using inference and other techniques to make outputs faster. 
-
-It also simplifies the process of setting up a Local AI chat setup, as it downloads the AI model you want to use automatically. For example "ollama run llama3.2" will automatically download and run the Llama 3.2 model.
-
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 - [:fontawesome-brands-windows: Windows](https://ollama.com/download/linux)
@@ -163,12 +161,16 @@ It also simplifies the process of setting up a Local AI chat setup, as it downlo
 
 </div>
 
+Ollama shines best when you are looking for an AI client that has great compatibility and ease of use. It runs on all desktop platforms and doesn't involve any manual setup, while still using inference and other techniques to make outputs faster.
+
+It also simplifies the process of setting up a Local AI chat setup, as it downloads the AI model you want to use automatically. For example "ollama run llama3.2" will automatically download and run the Llama 3.2 model.
+
 #### Llamafile
 <div class="admonition recommendation" markdown>
 
 ![Llamafile Logo](assets/img/ai-chat/llamafile.svg){align=right}
 
-Llamafile is a single-file executable that allows users to run large language models locally on their own computers, without any setup involved. It is available on Linux, macOS, and Windows.
+Llamafile is a single-file executable that allows users to run large language models locally on their own computers, without any setup involved. It is available on Linux, macOS and Windows.
 
 The Mozilla-run project also supports LLaVA. However, it does not support speech recognition or image generation. Finally, it is very lightweight and compatible.
 
