@@ -35,6 +35,7 @@ The recommendations below for **cloud providers below do not train their models 
 When using cloud-based AI chat tools, be mindful of the personal information you share. Even if a service doesn't store your conversations, there's still a risk of sensitive data being exposed or misused. **Do not share sensitive information** related to health, finance, or other highly personal matters to protect your privacy and security.
 
 ### DuckDuckGo AI Chat
+
 <div class="admonition recommendation" markdown>
 
 ![DuckDuckGo logo](assets/img/ai-chat/duckai.png){align=right}
@@ -106,6 +107,7 @@ There are many permissively licensed **models available to download**. **[Huggin
 ### AI chat clients
 
 #### Kobold.cpp
+
 <div class="admonition recommendation" markdown>
 
 ![Kobold.cpp Logo](assets/img/ai-chat/kobold.svg){align=right}
@@ -139,6 +141,7 @@ Kobold.cpp might not run on computers without AVX/AVX2 support.
 </div>
 
 #### Ollama
+
 <div class="admonition recommendation" markdown>
 
 ![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
@@ -166,6 +169,7 @@ Ollama shines best when you are looking for an AI client that has great compatib
 It also simplifies the process of setting up a Local AI chat setup, as it downloads the AI model you want to use automatically. For example "ollama run llama3.2" will automatically download and run the Llama 3.2 model.
 
 #### Llamafile
+
 <div class="admonition recommendation" markdown>
 
 ![Llamafile Logo](assets/img/ai-chat/llamafile.svg){align=right}
