@@ -112,10 +112,9 @@ There are many permissively licensed **models available to download**. **[Huggin
 
 Kobold.cpp is an AI client that runs locally on your Windows, Mac, or Linux computer.
 
-In addition to supporting a large range of text models, Kobold.cpp also has a suports an image generators such as [Stable Diffusion](https://stability.ai/stable-image), and an automatic speech recognition tools, such as [Whisper](https://github.com/ggerganov/whisper.cpp)
+In addition to supporting a large range of text models, Kobold.cpp also has a suports an image generators such as [Stable Diffusion](https://stability.ai/stable-image), and automatic speech recognition tools, such as [Whisper](https://github.com/ggerganov/whisper.cpp).
 
-Kobold shines best when you are looking for heavy customisation and tweaking, such as for roleplaying purposed. It allows you to modify the model temperature,the context window. It also supports creating a network tunnel to access AI models from other devices, such as your phone.
-[octicons-home-16: Homepage](https://github.com/LostRuins/koboldcpp){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://github.com/LostRuins/koboldcpp){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Source Code" }
 [:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy"}
@@ -123,11 +122,12 @@ Kobold shines best when you are looking for heavy customisation and tweaking, su
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
--[:fontawesome-brands-windows: Windows](https://github.com/LostRuins/koboldcpp/releases)
--[:simple-apple: macOS](https://github.com/LostRuins/koboldcpp/releases)
--[:simple-linux: Linux](https://github.com/LostRuins/koboldcpp/releases)
+- [:fontawesome-brands-windows: Windows](https://github.com/LostRuins/koboldcpp/releases)
+- [:simple-apple: macOS](https://github.com/LostRuins/koboldcpp/releases)
+- [:simple-linux: Linux](https://github.com/LostRuins/koboldcpp/releases)
 
 </details>
+Kobold shines best when you are looking for heavy customisation and tweaking, such as for roleplaying purposed. It allows you to modify the model temperature,the context window. It also supports creating a network tunnel to access AI models from other devices, such as your phone.
 
 </div>
 
@@ -144,18 +144,21 @@ Kobold.cpp might not run on computers without AVX/AVX2 support.
 Ollama is an easy-to-use command-line AI assistant that is available on macOS, Linux, and Windows (preview).
 
 In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has *experimental* support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
-Ollama shines best when you are looking for an AI client that has great compatibility and ease of use. It runs on all desktop platforms and doesn't involve any setup, while still using inference and other techniques to make outputs faster. It also simply running AI models as it doesn't require you to download AI models. For example "ollama run llama3.2" will automatically download and run the Llama 3.2 model.
 
 
 [:octicons-home-16: Homepage](https://github.com/ollama/ollama){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/ollama/ollama){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Source Code"}
 
+Ollama shines best when you are looking for an AI client that has great compatibility and ease of use. It runs on all desktop platforms and doesn't involve any manual setup, while still using inference and other techniques to make outputs faster. 
+
+It also simplifies the process of setting up a Local AI chat setup, as it downloads the AI model you want to use automatically. For example "ollama run llama3.2" will automatically download and run the Llama 3.2 model.
+
 <details class="downloads" markdown>
 <summary>Downloads</summary>
--[:fontawesome-brands-windows: Windows](https://ollama.com/download/linux)
--[:simple-apple: macOS](https://ollama.com/download/mac)
--[:simple-linux: Linux](https://ollama.com/download/linux)
+- [:fontawesome-brands-windows: Windows](https://ollama.com/download/linux)
+- [:simple-apple: macOS](https://ollama.com/download/mac)
+- [:simple-linux: Linux](https://ollama.com/download/linux)
 </details>
 
 </div>
@@ -175,7 +178,7 @@ The Mozilla-run project also supports LLaVA. However, it does not support speech
 [:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#security){ .card-link title="Security Policy"}
 <details class="downloads" markdown>
 <summary>Downloads</summary>
-[:fontawesome-solid-desktop: Desktop](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#quickstart)
+- [:fontawesome-solid-desktop: Desktop](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#quickstart)
 </details>
 
 </div>
