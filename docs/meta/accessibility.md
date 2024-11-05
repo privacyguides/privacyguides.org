@@ -13,7 +13,7 @@ Make sure to use html/markdown elements instead of images/emojis when possible, 
 
 `- [x]` which will render as
 
-- [x]
+- [x] 
 
 Don't use
 
