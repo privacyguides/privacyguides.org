@@ -461,6 +461,7 @@ nav:
               - "meta/brand.md"
               - "meta/translations.md"
           - !ENV [NAV_TECHNICAL_GUIDES, "Technical Guides"]:
+              - "meta/accessibility.md"
               - "meta/uploading-images.md"
               - "meta/git-recommendations.md"
               - "meta/commit-messages.md"
