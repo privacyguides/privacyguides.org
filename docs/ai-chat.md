@@ -208,11 +208,11 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 - Must provide models they host themselves or with a third-party that acts on their behalf.
 - Must provide at least one model with high rate limits, to allow an user to use it for medium to heavy workloads.
 
-#### Local AI
-
+#### Local AI clients
+- Must be open-source
 - Must not send personal data, including chat data.
 - Must not require a GPU.
-- Must have support for GPU inference.
+- Must have support for GPU-powered fast inference.
 - Must not require an internet connection.
 
 ### Best-Case
@@ -226,7 +226,7 @@ Our best-case criteria represent what we *would* like to see from the perfect pr
 - Should only offer self-hosted open-weights models.
 - Should not be rate-limited.
 
-#### Local AI
+#### Local AI clients
 
 - Should be easy to download and setup, such as having a one-click install process.
 - Should have a built-in model downloader option.
