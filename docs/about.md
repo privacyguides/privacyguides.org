@@ -12,7 +12,6 @@ schema:
     - https://twitter.com/privacy_guides
     - https://github.com/privacyguides
     - https://www.wikidata.org/wiki/Q111710163
-    - https://opencollective.com/privacyguides
     - https://www.youtube.com/@privacyguides
     - https://mastodon.neat.computer/@privacyguides
 ---
@@ -120,7 +119,7 @@ A number of other contributors have volunteered their time to review and approve
 
 <div class="grid cards" markdown>
 
-- [:simple-github: **kimg45**](https://github.com/kimg45)
+- [:simple-github: **friadev**](https://github.com/friadev)
 - [:simple-github: **ph00lt0**](https://github.com/ph00lt0)
 - [:simple-github: **redoomed1**](https://github.com/redoomed1)
 
@@ -142,7 +141,7 @@ Our team members review all changes made to the website and direct the course of
 
 — [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Translated from Dutch]
 
-Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok), [Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)], [NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), [Wired](https://wired.com/story/firefox-mozilla-2022) and [Fast Company](https://fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again).
+Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok), [Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)], [NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), [Wired](https://wired.com/story/firefox-mozilla-2022), [Fast Company](https://fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again) and [404 Media](https://404media.co/privacy-service-optery-faces-backlash-after-plan-to-send-openai-user-data).
 
 ## History
 

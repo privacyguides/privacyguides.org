@@ -11,6 +11,8 @@ links:
 tags:
     - Instant Messengers
 license: BY-SA
+description: Choosing an instant messenger is a challenge. How can you be sure you’re using the most secure, privacy respecting platform?
+schema_type: AnalysisNewsArticle
 ---
 # Choosing the Right Messenger
 

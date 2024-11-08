@@ -1,0 +1,250 @@
+<!--
+  Copyright (c) 2024 Jonah Aragon <jonah@triplebit.net>
+  Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+{% extends "main.html" %}
+
+{% import "partials/nav-item.html" as item with context %}
+
+<!-- Page content -->
+{% block container %}
+  <div class="md-content md-content--post" data-md-component="content" itemscope itemtype="https://schema.org/{{ page.meta.schema_type or 'Article' }}">
+    <meta itemprop="headline" content="{{ page.title | striptags }}" />
+    <meta itemprop="isAccessibleForFree" content="True" />
+    <meta itemprop="isFamilyFriendly" content="True" />
+    {% if config.theme.language == "en" %}
+      <meta itemprop="inLanguage" content="en-US" />
+    {% endif %}
+    <span itemprop="publisher" itemscope itemtype="https://schema.org/NewsMediaOrganization">
+      <meta itemprop="name" content="Privacy Guides" />
+      <link itemprop="url" href="https://www.privacyguides.org/" />
+      <link itemprop="sameAs" href="https://mastodon.neat.computer/@privacyguides" />
+      <link itemprop="sameAs" href="https://twitter.com/privacy_guides" />
+      <link itemprop="sameAs" href="https://github.com/privacyguides" />
+      <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+        <link itemprop="url" href="https://www.privacyguides.org/en/assets/brand/logos/png/square/pg-yellow.png" />
+        <meta itemprop="width" content="512" />
+        <meta itemprop="height" content="512" />
+      </span>
+      <link itemprop="publishingPrinciples" href="https://www.privacyguides.org/en/about/criteria/" />
+      <link itemprop="actionableFeedbackPolicy" href="https://www.privacyguides.org/articles/editorial/#actionable-feedback" />
+      <link itemprop="correctionsPolicy" href="https://www.privacyguides.org/articles/editorial/#corrections-policy" />
+      <link itemprop="ethicsPolicy" href="https://www.privacyguides.org/articles/editorial/#ethics-policy" />
+      <link itemprop="missionCoveragePrioritiesPolicy" href="https://www.privacyguides.org/articles/editorial/#coverage-priorities" />
+      <link itemprop="unnamedSourcesPolicy" href="https://www.privacyguides.org/articles/editorial/#unnamed-sources-policy" />
+      <link itemprop="verificationFactCheckingPolicy" href="https://www.privacyguides.org/articles/editorial/#verification-fact-checking" />
+      <link itemprop="ownershipFundingInfo" href="https://www.privacyguides.org/en/about/donate/" />
+      <link itemprop="masthead" href="https://www.privacyguides.org/en/about/" />
+    </span>
+
+    <!-- Sidebar -->
+    <div
+      class="md-sidebar md-sidebar--post"
+      data-md-component="sidebar"
+      data-md-type="navigation"
+    >
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner md-post">
+          <nav class="md-nav md-nav--primary">
+
+            <!-- Back to overview link -->
+            <div class="md-post__back">
+              <div class="md-nav__title md-nav__container">
+                <a href="{{ page.parent.url | url }}" class=" md-nav__link">
+                  {% include ".icons/material/arrow-left.svg" %}
+                  <span class="md-ellipsis">
+                    {{ lang.t("blog.index") }}
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Post authors -->
+            {% if page.authors %}
+              <div class="md-post__authors md-typeset">
+                {% for author in page.authors %}
+                  <div class="md-profile md-post__profile" itemprop="author" itemscope itemtype="https://schema.org/{{ author.type | default('Person') }}">
+                    <span class="md-author md-author--long">
+                      <img src="{{ author.avatar | url }}" alt="{{ author.name }}" />
+                    </span>
+                    <span class="md-profile__description">
+                      <strong>
+                        {% if author.url %}
+                          <a itemprop="url" href="{{ author.url | url }}"><span itemprop="name">{{ author.name }}</span></a>
+                        {% else %}
+                          <span itemprop="name">{{ author.name }}</span>
+                        {% endif %}
+                      </strong>
+                      <br />
+                      <span {% if author.type is not defined -%}itemprop="jobTitle"{%- endif -%}>{{ author.description }}</span>
+                    </span>
+                  </div>
+                {% endfor %}
+              </div>
+            {% endif %}
+
+            <!-- Post metadata -->
+            <ul class="md-post__meta md-nav__list">
+              <li class="md-nav__item md-nav__item--section">
+                <div class="md-post__title">
+                  <span class="md-ellipsis">
+                    {{ lang.t("blog.meta") }}
+                  </span>
+                </div>
+                <nav class="md-nav">
+                  <ul class="md-nav__list">
+
+                    <!-- Post date -->
+                    <li class="md-nav__item">
+                      <div class="md-nav__link" title="Date published">
+                        {% include ".icons/material/calendar.svg" %}
+                        <time
+                          datetime="{{ page.config.date.created }}"
+                          class="md-ellipsis"
+                          itemprop="datePublished"
+                        >
+                          {{- page.config.date.created | date -}}
+                        </time>
+                      </div>
+                    </li>
+
+                    <!-- Post date updated -->
+                    {% if page.config.date.updated %}
+                      <li class="md-nav__item">
+                        <div class="md-nav__link" title="Date last updated">
+                          {% include ".icons/material/calendar-clock.svg" %}
+                          <time
+                            datetime="{{ page.config.date.updated }}"
+                            class="md-ellipsis"
+                            itemprop="dateModified"
+                          >
+                            {{- page.config.date.updated | date -}}
+                          </time>
+                        </div>
+                      </li>
+                    {% endif %}
+
+                    <!-- Post categories -->
+                    {% if page.categories %}
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          {% include ".icons/material/bookshelf.svg" %}
+                          <span class="md-ellipsis">
+                            {{ lang.t("blog.categories.in") }}
+                            {% for category in page.categories %}
+                              <a href="{{ category.url | url }}">
+                                {{- category.title -}}
+                              </a>
+                              {%- if loop.revindex > 1 %}, {% endif -%}
+                            {% endfor -%}
+                          </span>
+                        </div>
+                      </li>
+                    {% endif %}
+
+                    <!-- Post readtime -->
+                    {% if page.config.readtime %}
+                      {% set time = page.config.readtime %}
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          {% include ".icons/material/clock-outline.svg" %}
+                          <span class="md-ellipsis" itemprop="timeRequired">
+                            {% if time == 1 %}
+                              {{ lang.t("readtime.one") }}
+                            {% else %}
+                              {{ lang.t("readtime.other") | replace("#", time) }}
+                            {% endif %}
+                          </span>
+                        </div>
+                      </li>
+                    {% endif %}
+                  </ul>
+                </nav>
+              </li>
+            </ul>
+
+            <!-- Related links -->
+            {% if page.config.links %}
+              <ul class="md-post__meta md-nav__list">
+                <li class="md-nav__item md-nav__item--section">
+                  <div class="md-post__title">
+                    <span class="md-ellipsis">
+                      {{ lang.t("blog.references") }}
+                    </span>
+                  </div>
+
+                  <!-- Render related links -->
+                  <nav class="md-nav">
+                    <ul class="md-nav__list">
+                      {% for nav_item in page.config.links %}
+                        {% set path = "__ref_" ~ loop.index %}
+                        {{ item.render(nav_item, path, 1) }}
+                      {% endfor %}
+                    </ul>
+                  </nav>
+                </li>
+              </ul>
+            {% endif %}
+
+            {% block extra_sidebar %}
+              {% if page.categories[0].title == "Opinion" %}
+                <ul class="md-post__meta md-nav__list">
+                  <li class="md-nav__item md-nav__item--section">
+                    <div class="md-post__title">
+                      <span class="md-ellipsis">
+                        <span>Disclaimer</span>
+                      </span>
+                    </div>
+                    <div class="md-nav">
+                      <ul class="md-nav__list">
+                        <li class="md-nav__item">
+                          <span class="md-nav__link">
+                            <span>
+                              This is an opinion piece.
+                              The views expressed in this article are the author's own and do not necessarily reflect the views of Privacy Guides and its editorial team.
+                            </span>
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              {% endif %}
+            {% endblock %}
+          </nav>
+
+          <!-- Table of contents, if integrated -->
+          {% if "toc.integrate" in features %}
+            {% include "partials/toc.html" %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    <!-- Page content -->
+    <article class="md-content__inner md-typeset">
+      {% block content %}
+        {% include "partials/content.html" %}
+      {% endblock %}
+    </article>
+  </div>
+{% endblock %}

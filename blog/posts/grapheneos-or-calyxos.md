@@ -13,6 +13,7 @@ links:
     - Android Recommendations: https://www.privacyguides.org/android/
 license: BY-SA
 robots: nofollow, max-snippet:-1, max-image-preview:large
+schema_type: OpinionNewsArticle
 ---
 # Should You Use GrapheneOS or CalyxOS?
 

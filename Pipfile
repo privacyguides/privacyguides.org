@@ -30,6 +30,7 @@ mkdocs-git-authors-plugin = "~=0.8"
 mkdocs-macros-plugin = "~=1.0"
 jieba = "~=0.42"
 mkdocs-rss-plugin = "*"
+mkdocs-glightbox = "*"
 
 [dev-packages]
 scour = "~=0.38"

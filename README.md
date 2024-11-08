@@ -30,8 +30,8 @@
     <img src="https://img.shields.io/github/commits-since/privacyguides/privacyguides.org/latest"></a>
   <a href="https://crowdin.com/project/privacyguides">
     <img src="https://badges.crowdin.net/privacyguides/localized.svg"></a>
-  <a href="https://opencollective.com/privacyguides">
-    <img src="https://img.shields.io/opencollective/all/privacyguides"></a>
+  <a href="https://github.com/sponsors/privacyguides#sponsors">
+    <img src="https://img.shields.io/github/sponsors/privacyguides"></a>
   <a href="https://squidfunk.github.io/mkdocs-material/">
     <img src="https://img.shields.io/badge/Material_for_MkDocs-526CFE?logo=MaterialForMkDocs&logoColor=white"></a>
   <a href="https://github.com/privacyguides/privacyguides.org/actions/workflows/publish-release.yml">

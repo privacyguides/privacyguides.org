@@ -57,6 +57,12 @@ jobs:
           echo "BUILD_INSIDERS=true" >> "$GITHUB_ENV"
           echo "EXTRA_FLAGS=""$EXTRA_FLAGS" --insiders"" >> "$GITHUB_ENV"
 
+      - name: Set Metadata for International Builds
+        if: inputs.lang != 'en'
+        run: |
+          echo "GITREVISIONDATE=false" >> "$GITHUB_ENV"
+          echo "GITAUTHORS=false" >> "$GITHUB_ENV"
+
       - name: Set Metadata for Offline Mode
         if: inputs.config == 'offline'
         run: |
