@@ -16,7 +16,7 @@ Since the release of **ChatGPT** in 2022, interacting with **Large Language Mode
 <summary>Privacy and Ethical Concerns about LLMs</summary>
 AI models have been trained on massive amounts of public *and* private data. If you are concerned about these practices, you can either refuse to use AI or use [truly open-source models](https://proton.me/blog/how-to-build-privacy-first-ai), which publicly release their training datasets and therefore weren't trained on private data. One such model is [Olmoe](https://blog.allenai.org/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514) made by [Allenai](https://allenai.org/open-data).
 
-[Ethical concerns](https://www.thelancet.com/journals/landig/article/PIIS2588-7500(24)00061-X/fulltext) of AI range from their impact on climate to their potential for discrimination.
+[Ethical concerns](https://www.thelancet.com/journals/landig/article/PIIS2588-7500(24)00061-X/fulltext) about AI range from their impact on climate to their potential for discrimination.
 </details>
 
 <details class="admonition info" markdown>
