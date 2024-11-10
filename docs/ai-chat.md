@@ -90,7 +90,7 @@ Brave Leo supports a variety of models, including open-weights models from Meta 
 
 [:octicons-home-16: Homepage](https://brave.com/leo){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://brave.com/privacy/browser/#brave-leo){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/brave/brave-browser/wiki/Brave-Leo){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/brave/brave-browser/wiki/Brave-Leo){ .card-link title="Documentation" }
 
 </div>
 Brave self-hosts the open models and for the Brave-hosted models, Brave discards all chat data after you close Leo.
