@@ -30,7 +30,7 @@ AI is a complex field, with lot of abreviations and field-specific vocabulary. G
 
 ## Cloud Providers
 
-The recommendations below for **cloud providers below do not train their models using your chats** and do not retain your chats for more than a month, based on each service's privacy policy. However, there is **no guarantee** that these privacy policies are honored.
+The recommendations below for **cloud providers do not train their models using your chats** and do not retain your chats for more than a month, based on each service's privacy policy. However, there is **no guarantee** that these privacy policies are honored.
 
 When using cloud-based AI chat tools, be mindful of the personal information you share. Even if a service doesn't store your conversations, there's still a risk of sensitive data being exposed or misused. **Do not share sensitive information** related to health, finance, or other highly personal matters to protect your privacy and security.
 
