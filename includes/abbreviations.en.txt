@@ -1,6 +1,6 @@
 *[2FA]: 2-Factor Authentication
-*[AI]: Artificial Intelligence
 *[ADB]: Android Debug Bridge
+*[AI]: Artificial Intelligence
 *[AOSP]: Android Open Source Project
 *[ATA]: Advanced Technology Attachment
 *[attack surface]: The total number of possible entry points for unauthorized access to a system
