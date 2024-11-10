@@ -94,7 +94,7 @@ We advise against using Anthropic's Claude proprietary models because Anthropic 
 
 ## Local AI
 
-**Running AI models locally** offer a more private and secure alternative to cloud-based solutions, as **your data never leaves your device** and is therefore never shared with third-party providers. This provides peace of mind and **allows you to share sensitive information**.
+**Running AI models locally** offers a more private and secure alternative to cloud-based solutions, as **your data never leaves your device** and is therefore never shared with third-party providers. This provides peace of mind and **allows you to share sensitive information**.
 
 For the best experience, a dedicated GPU with sufficient VRAM or a modern system with fast LPDDR5X memory is recommended. Fortunately, it is possible to run smaller models locally even without a high-end computer or dedicated GPU. A computer with at least 8GB of RAM will be sufficient to run smaller models at lower speeds.
 
@@ -114,7 +114,7 @@ There are many permissively licensed **models available to download**. **[Huggin
 
 Kobold.cpp is an AI client that runs locally on your Windows, Mac, or Linux computer.
 
-In addition to supporting a large range of text models, Kobold.cpp also has a suports an image generators such as [Stable Diffusion](https://stability.ai/stable-image), and automatic speech recognition tools, such as [Whisper](https://github.com/ggerganov/whisper.cpp).
+In addition to supporting a large range of text models, Kobold.cpp also supports image generators such as [Stable Diffusion](https://stability.ai/stable-image), and automatic speech recognition tools, such as [Whisper](https://github.com/ggerganov/whisper.cpp).
 
 [:octicons-home-16: Homepage](https://github.com/LostRuins/koboldcpp){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title=Documentation}
@@ -134,7 +134,6 @@ In addition to supporting a large range of text models, Kobold.cpp also has a su
 
 Kobold shines best when you are looking for heavy customisation and tweaking, such as for roleplaying purposed. It allows you to modify the model temperature,the context window. It also supports creating a network tunnel to access AI models from other devices, such as your phone.
 
-
 <div class="admonition note" markdown>
 <p class="admonition-title">Compatibility Issues</p>
 Kobold.cpp might not run on computers without AVX/AVX2 support.
@@ -148,8 +147,7 @@ Kobold.cpp might not run on computers without AVX/AVX2 support.
 
 Ollama is an easy-to-use command-line AI assistant that is available on macOS, Linux, and Windows (preview).
 
-In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has *experimental* support for Meta's[Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
-
+In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has *experimental* support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
 
 [:octicons-home-16: Homepage](https://github.com/ollama/ollama){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/ollama/ollama){ .card-link title=Documentation}
@@ -166,7 +164,7 @@ In addition to supporting a wide range of text models, Ollama also supports [LLa
 
 Ollama shines best when you are looking for an AI client that has great compatibility and ease of use. It runs on all desktop platforms and doesn't involve any manual setup, while still using inference and other techniques to make outputs faster.
 
-It also simplifies the process of setting up a Local AI chat setup, as it downloads the AI model you want to use automatically. For example "ollama run llama3.2" will automatically download and run the Llama 3.2 model.
+It also simplifies the process of setting up a local AI chat, as it downloads the AI model you want to use automatically. For example "ollama run llama3.2" will automatically download and run the Llama 3.2 model.
 
 #### Llamafile
 
@@ -174,14 +172,14 @@ It also simplifies the process of setting up a Local AI chat setup, as it downlo
 
 ![Llamafile Logo](assets/img/ai-chat/llamafile.svg){align=right}
 
-Llamafile is a single-file executable that allows users to run large language models locally on their own computers, without any setup involved. It is available on Linux, macOS and Windows.
+Llamafile is a single-file executable that allows users to run large language models locally on their own computers, without any setup involved. It is available on Linux, macOS, and Windows.
 
-The Mozilla-run project also supports LLaVA. However, it does not support speech recognition or image generation. Finally, it is very lightweight and compatible.
+The Mozilla-run project also supports LLaVA. However, it does not support speech recognition or image generation. It's also very lightweight and compatible.
 
 [:octicons-home-16: Homepage](https://github.com/Mozilla-Ocho/llamafile/){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile/?tab=readme-ov-file#llamafile){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Source Code"}
-[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#security){ .card-link title="Security Policy"}
+[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#security){ .card-link title="Security Policy" }
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 - [:fontawesome-solid-desktop: Desktop](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#quickstart)
@@ -191,7 +189,7 @@ The Mozilla-run project also supports LLaVA. However, it does not support speech
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Few Models Available</p>
-Mozilla has only made available llamafiles for some Llama and Mistral models, while there are few third-party llamafiles available. Another issue is that Windows limits .exe files to 4GB size, and most models are larger than that. To fix both of those issues, you can load external weights, as detailed [here](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#using-llamafile-with-external-weights).
+Mozilla has only made llamafiles available for some Llama and Mistral models, while there are few third-party llamafiles available. Another issue is that Windows limits .exe files to 4GB, and most models are larger than that. To fix both of those issues, you can load external weights, as detailed [here](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#using-llamafile-with-external-weights).
 </div>
 
 ## Criteria
@@ -202,14 +200,14 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 
 #### Cloud Providers
 
-- The provider or third-parties they use must not use your chats for training
+- The provider or third-parties they use must not use your chats for training.
 - The provider or third-parties they use must not retain your chats for more than 30 days.
 - Must be accessible privately (no account required, accepts requests from VPN users).
 - Must provide models they host themselves or with a third-party that acts on their behalf.
 - Must provide at least one model with high rate limits, to allow an user to use it for medium to heavy workloads.
 
 #### Local AI clients
-- Must be open-source
+- Must be open-source.
 - Must not send personal data, including chat data.
 - Must not require a GPU.
 - Must have support for GPU-powered fast inference.
@@ -228,6 +226,6 @@ Our best-case criteria represent what we *would* like to see from the perfect pr
 
 #### Local AI clients
 
-- Should be easy to download and setup, such as having a one-click install process.
+- Should be easy to download and set up, such as having a one-click install process.
 - Should have a built-in model downloader option.
 - Should be customizable (the user can modify model "settings", such as the system prompt and model temperature).
