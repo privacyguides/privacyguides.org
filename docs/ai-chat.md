@@ -34,17 +34,22 @@ The recommendations below for **cloud providers do not train their models using 
 
 When using cloud-based AI chat tools, be mindful of the personal information you share. Even if a service doesn't store your conversations, there's still a risk of sensitive data being exposed or misused. **Do not share sensitive information** related to health, finance, or other highly personal matters to protect your privacy and security.
 
+## Recommended Providers
+
+Our recommended providers do not train their models using your chats and respect your privacy. Read our [full list of criteria](#criteria) for more information.
+
 | Feature | DuckDuckGo AI | Brave Leo |
 |---------|---------------|-----------|
-| Tor Access | ✓ (Official onion service) | ✓ (Mobile only, via Orbot) |
-| Rate Limits | High¹ | Low-Medium² |
-| Self-hosted Models | ✗ | ✓ |
-| Local Model Support | ✗ | ✓ (BYOM) |
-| Web Search Integration | ✗ | ✓ |
-| Multi-language Support | ✓ | Limited |
-| Account Required | ✗ | ✗ |
-| Mobile Support | ✓ | ✓ (Brave Browser) |
+| Tor Access | :material-check:{ .pg-green } Official onion service | :material-information-outline:{ .pg-blue } Mobile only (Orbot) |
+| Rate Limits | :material-check:{ .pg-green } High | :material-alert-outline:{ .pg-orange } Low-Medium¹ |
+| Self-hosted Models | :material-close:{ .pg-red } | :material-check:{ .pg-green } |
+| Local Model Support | :material-close:{ .pg-red } | :material-check:{ .pg-green } BYOM |
+| Web Search Integration | :material-close:{ .pg-red } | :material-check:{ .pg-green } |
+| Multi-language Support | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Limited |
+| Account Required | :material-close:{ .pg-red } | :material-close:{ .pg-red } |
+| Mobile Support | :material-check:{ .pg-green } | :material-check:{ .pg-green } Browser only |
 ¹ Rate limits vary by model, with Llama having the lowest restrictions
+
 ### DuckDuckGo AI Chat
 
 <div class="admonition recommendation" markdown>
@@ -142,14 +147,13 @@ Here are typical requirements for different model sizes:
 
 | Feature | [Kobold.cpp](#koboldcpp) | [Ollama](#ollama) | [Llamafile](#llamafile) |
 |---------|------------|---------|-----------|
-| GPU Support | ✓ | ✓ | ✓ |
-| Image Generation | ✓ | ✗ | ✗ |
-| Speech Recognition | ✓ | ✗ | ✗ |
-| Auto-download Models | ✗ | ✓ | ✓* |
-| Custom Parameters | ✓ | ✓ | Limited |
-| Multi-platform | ✓ | ✓ | ✓ |
+| GPU Support | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-check:{ .pg-green } |
+| Image Generation | :material-check:{ .pg-green } | :material-close:{ .pg-red } | :material-close:{ .pg-red } |
+| Speech Recognition | :material-check:{ .pg-green } | :material-close:{ .pg-red } | :material-close:{ .pg-red } |
+| Auto-download Models | :material-close:{ .pg-red } | :material-check:{ .pg-green } | :material-check:{ .pg-green } Few models available |
+| Custom Parameters | :material-check:{ .pg-green } | :material-close:{ .pg-red } | :material-alert-outline:{ .pg-orange } |
+| Multi-platform | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-check:{ .pg-orange } Size limitations on Windows |
 
-*Limited model selection
 #### Kobold.cpp
 
 <div class="admonition recommendation" markdown>
