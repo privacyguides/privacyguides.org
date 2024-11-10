@@ -163,7 +163,7 @@ Kobold.cpp is an AI client that runs locally on your Windows, Mac, or Linux comp
 In addition to supporting a large range of text models, Kobold.cpp also supports image generators such as [Stable Diffusion](https://stability.ai/stable-image), and automatic speech recognition tools, such as [Whisper](https://github.com/ggerganov/whisper.cpp).
 
 [:octicons-home-16: Homepage](https://github.com/LostRuins/koboldcpp){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Source Code" }
 [:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy"}
 
