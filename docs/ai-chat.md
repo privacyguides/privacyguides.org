@@ -225,7 +225,7 @@ Llamafile is a single-file executable that allows users to run large language mo
 The Mozilla-run project also supports LLaVA. However, it does not support speech recognition or image generation. It's also very lightweight and compatible.
 
 [:octicons-home-16: Homepage](https://github.com/Mozilla-Ocho/llamafile/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile/?tab=readme-ov-file#llamafile){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile/?tab=readme-ov-file#llamafile){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Source Code" }
 [:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#security){ .card-link title="Security Policy" }
 <details class="downloads" markdown>
