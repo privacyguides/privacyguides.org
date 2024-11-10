@@ -75,7 +75,7 @@
 *[PGP]: Pretty Good Privacy (see OpenPGP)
 *[PII]: Personally Identifiable Information
 *[QNAME]: Qualified Name
-*[rate limits]:Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
+*[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
 *[rolling release]: Updates which are released frequently rather than set intervals
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux
