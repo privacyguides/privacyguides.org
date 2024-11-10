@@ -34,13 +34,11 @@ The recommendations below for **cloud providers do not train their models using 
 
 When using cloud-based AI chat tools, be mindful of the personal information you share. Even if a service doesn't store your conversations, there's still a risk of sensitive data being exposed or misused. **Do not share sensitive information** related to health, finance, or other highly personal matters to protect your privacy and security.
 
-## Recommended Providers
-
-Our recommended providers do not train their models using your chats and respect your privacy. Read our [full list of criteria](#criteria) for more information.
+Our **recommended providers do not train their models using your chats** and respect your privacy. Read our [full list of criteria](#criteria) for more information.
 
 | Feature | DuckDuckGo AI | Brave Leo |
 |---------|---------------|-----------|
-| Tor Access | :material-check:{ .pg-green } Official onion service | :material-information-outline:{ .pg-blue } Mobile only (Orbot) |
+| Tor Access | :material-check:{ .pg-green } Official onion service | :material-alert-outline:{ .pg-orange } Mobile only (Orbot) |
 | Rate Limits | :material-check:{ .pg-green } High | :material-alert-outline:{ .pg-orange } Low-Medium¹ |
 | Self-hosted Models | :material-close:{ .pg-red } | :material-check:{ .pg-green } |
 | Local Model Support | :material-close:{ .pg-red } | :material-check:{ .pg-green } BYOM |
@@ -116,7 +114,7 @@ For the best experience, a dedicated GPU with sufficient VRAM or a modern system
 
 **To run AI locally, you need both an AI client and an AI model**.
 
-### Download AI models
+## Download AI models
 
 There are many permissively licensed **models available to download**. **[Hugging Face](https://huggingface.co/models?library=gguf)** is a platform that lets you browse, research, and download models in common formats like GGUF. Companies that provide good open-weights models include big names like Mistral, Meta, Microsoft, and Google. But there are also many community models and 'fine-tunes' available. For consumer-grade hardware, it is generally recommended to use [quantized models](https://huggingface.co/docs/optimum/en/concept_guides/quantization) for the best balance between model quality and performance.
 
@@ -143,18 +141,18 @@ Here are typical requirements for different model sizes:
 - Quantized models (4-bit): Can run with roughly half these requirements
 </details>
 
-### AI chat clients
+## AI chat clients
 
 | Feature | [Kobold.cpp](#koboldcpp) | [Ollama](#ollama) | [Llamafile](#llamafile) |
 |---------|------------|---------|-----------|
 | GPU Support | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-check:{ .pg-green } |
 | Image Generation | :material-check:{ .pg-green } | :material-close:{ .pg-red } | :material-close:{ .pg-red } |
 | Speech Recognition | :material-check:{ .pg-green } | :material-close:{ .pg-red } | :material-close:{ .pg-red } |
-| Auto-download Models | :material-close:{ .pg-red } | :material-check:{ .pg-green } | :material-check:{ .pg-green } Few models available |
+| Auto-download Models | :material-close:{ .pg-red } | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Few models available |
 | Custom Parameters | :material-check:{ .pg-green } | :material-close:{ .pg-red } | :material-alert-outline:{ .pg-orange } |
-| Multi-platform | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-check:{ .pg-orange } Size limitations on Windows |
+| Multi-platform | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Size limitations on Windows |
 
-#### Kobold.cpp
+### Kobold.cpp
 
 <div class="admonition recommendation" markdown>
 
@@ -187,7 +185,7 @@ Kobold shines best when you are looking for heavy customisation and tweaking, su
 Kobold.cpp might not run on computers without AVX/AVX2 support.
 </div>
 
-#### Ollama
+### Ollama
 
 <div class="admonition recommendation" markdown>
 
@@ -216,7 +214,7 @@ Ollama shines best when you are looking for an AI client that has great compatib
 
 It also simplifies the process of setting up a local AI chat, as it downloads the AI model you want to use automatically. For example, running `ollama run llama3.2` will automatically download and run the Llama 3.2 model. Furthermore, ollama maintains their own [model library](https://ollama.com/library/) where they host various AI models files. This ensures models are vetted for both performance and security, eliminating the need to manually verify model authenticity.
 
-#### Llamafile
+### Llamafile
 
 <div class="admonition recommendation" markdown>
 
