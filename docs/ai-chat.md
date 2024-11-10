@@ -19,14 +19,6 @@ AI models have been trained on massive amounts of public *and* private data. If 
 [Ethical concerns](https://www.thelancet.com/journals/landig/article/PIIS2588-7500(24)00061-X/fulltext) about AI range from their impact on climate to their potential for discrimination.
 </details>
 
-<details class="admonition info" markdown>
-<summary>Dictionnary of complex words</summary>
-AI is a complex field, with lot of abreviations and field-specific vocabulary. Generally, you can **hover your mouse** on those words and it will **display a definition**. However, reading might be easier if you familiarise yourself with those words. Those words include:
-- *[AI]*: Artificial Intelligence
-- *[LLaVA]*: Large Language and Vision Assistant (multimodal AI model)
-- *[LLMs]*: Largue Language Models (AI models such as ChatGPT)
-- *[open-weights]*: An open weights model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
-</details>
 
 ## Cloud Providers
 
