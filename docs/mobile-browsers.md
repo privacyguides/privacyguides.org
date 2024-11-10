@@ -91,7 +91,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 === "Android"
 
     <div class="annotate" markdown>
-    
+
     - [x] Select **Aggressive** under *Block trackers & ads*
     - [x] Select **Auto-redirect AMP pages**
     - [x] Select **Auto-redirect tracking URLs**
@@ -107,24 +107,24 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
 
     </details>
-    
+
     - [x] Select **Forget me when I close this site**
 
     </div>
 
     1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
-    
+
 === "iOS"
 
     <div class="annotate" markdown>
-    
+
     - [x] Select **Aggressive** under *Trackers & Ads Blocking*
     - [x] Select **Strict** under *Upgrade Connections to HTTPS*
     - [x] Select **Auto-Redirect AMP pages**
     - [x] Select **Auto-Redirect Tracking URLs**
     - [x] (Optional) Select **Block Scripts** (1)
     - [x] Select **Block Fingerprinting**
-    
+
     <details class="warning" markdown>
     <summary>Use default filter lists</summary>
 
@@ -135,7 +135,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     </div>
 
     1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
-    
+
 ##### Clear browsing data (Android only)
 
 - [x] Select **Clear data on exit**
@@ -149,7 +149,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 === "Android"
 
     <div class="annotate" markdown>
-    
+
     - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [x] (Optional) Select **No protection** under *Safe Browsing* (1)
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
@@ -166,7 +166,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
     - [ ] Uncheck **Automatically send daily usage ping to Brave**
-    
+
 ### Leo
 
 These options can be found in :material-menu: → **Settings** → **Leo**.
