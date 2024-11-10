@@ -61,7 +61,7 @@ DuckDuckGo give you access to open-weights models from Meta and Mistral, as well
 [:octicons-home-16: Homepage](https://duck.ai){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/chat){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://duckduckgo.com/aichat/privacy-terms){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.duckduckgo.com){ .card-link title=Documentation}
+[:octicons-info-16:](https://help.duckduckgo.com){ .card-link title="Documentation" }
 
 </div>
 
