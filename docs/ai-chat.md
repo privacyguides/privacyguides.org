@@ -210,7 +210,7 @@ Ollama shines best when you are looking for an AI client that has great compatib
 
 Ollama shines best when you are looking for an AI client that has great compatibility and ease of use. It runs on all desktop platforms and doesn't involve any manual setup, while still using inference and other techniques to make outputs faster.
 
-It also simplifies the process of setting up a local AI chat, as it downloads the AI model you want to use automatically. For example, running `ollama run llama3.2` will automatically download and run the Llama 3.2 model. Furthermore, ollama maintains their own [model library](https://ollama.com/library/) where they host various AI models files. This ensures models are vetted for both performance and security, eliminating the need to manually verify model authenticity. 
+It also simplifies the process of setting up a local AI chat, as it downloads the AI model you want to use automatically. For example, running `ollama run llama3.2` will automatically download and run the Llama 3.2 model. Furthermore, ollama maintains their own [model library](https://ollama.com/library/) where they host various AI models files. This ensures models are vetted for both performance and security, eliminating the need to manually verify model authenticity.
 
 #### Llamafile
 
