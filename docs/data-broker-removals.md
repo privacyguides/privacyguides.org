@@ -27,21 +27,21 @@ The quickest, most effective, and most private way to remove yourself from peopl
 
 You should search for your information on these sites first, and submit an opt-out request if your information is found. Removing your data from these providers typically removes your data from many smaller sites at the same time.
 
-- Advanced Background Checks ([Search](https://www.advancedbackgroundchecks.com/), [Opt-Out](https://www.advancedbackgroundchecks.com/removal))
-- BeenVerified ([Search](https://www.beenverified.com/app/optout/search), [Opt-Out](https://www.beenverified.com/app/optout/address-search))
+- Advanced Background Checks ([Search](https://advancedbackgroundchecks.com), [Opt-Out](https://advancedbackgroundchecks.com/removal))
+- BeenVerified ([Search](https://beenverified.com/app/optout/search), [Opt-Out](https://beenverified.com/app/optout/address-search))
 - CheckPeople ([Search](https://checkpeople.com/do-not-sell-info), select *Remove Record* to opt-out)
-- ClustrMaps ([Search](https://clustrmaps.com/), [Opt-Out](https://clustrmaps.com/bl/opt-out))
-- Dataveria ([Search](https://dataveria.com/), [Opt-Out](https://dataveria.com/ng/control/privacy))
-- Glad I Know ([Search](https://gladiknow.com/), [Opt-Out](https://gladiknow.com/opt-out))
-- InfoTracer ([Search](https://www.infotracer.com/), [Opt-Out](https://www.infotracer.com/optout))
-- Intelius ([Search](https://www.intelius.com/), [Opt-Out](https://suppression.peopleconnect.us/login))
-- PeekYou ([Search](https://www.peekyou.com/), [Opt-Out](https://www.peekyou.com/about/contact/optout))
-- PublicDataUSA ([Search](https://www.publicdatausa.com/), [Opt-Out](https://www.publicdatausa.com/remove.php))
-- Radaris ([Search](https://radaris.com/), [Opt-Out](https://radaris.com/page/how-to-remove))
-- Spokeo ([Search](https://www.spokeo.com/search), [Opt-Out](https://www.spokeo.com/optout))
-- That's Them ([Search](https://thatsthem.com/), [Opt-Out](https://thatsthem.com/optout))
-- USPhonebook ([Search and Opt-Out](https://www.usphonebook.com/opt-out/))
-- Whitepages ([Search](https://www.whitepages.com/), [Opt-Out](https://www.whitepages.com/suppression_requests))
+- ClustrMaps ([Search](https://clustrmaps.com), [Opt-Out](https://clustrmaps.com/bl/opt-out))
+- Dataveria ([Search](https://dataveria.com), [Opt-Out](https://dataveria.com/ng/control/privacy))
+- Glad I Know ([Search](https://gladiknow.com), [Opt-Out](https://gladiknow.com/opt-out))
+- InfoTracer ([Search](https://infotracer.com), [Opt-Out](https://infotracer.com/optout))
+- Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
+- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/optout))
+- PublicDataUSA ([Search](https://publicdatausa.com), [Opt-Out](https://publicdatausa.com/remove.php))
+- Radaris ([Search](https://radaris.com), [Opt-Out](https://radaris.com/page/how-to-remove))
+- Spokeo ([Search](https://spokeo.com/search), [Opt-Out](https://spokeo.com/optout))
+- That's Them ([Search](https://thatsthem.com), [Opt-Out](https://thatsthem.com/optout))
+- USPhonebook ([Search and Opt-Out](https://usphonebook.com/opt-out))
+- Whitepages ([Search](https://whitepages.com), [Opt-Out](https://whitepages.com/suppression_requests))
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">A tip on opt-out strategy</p>
@@ -84,9 +84,9 @@ Our testing indicates that EasyOptOuts provides the best value out of any data r
 
 EasyOptOuts does not cover the following sites we consider to be "high priority," so you should still manually opt-out of:
 
-- Intelius ([Search](https://www.intelius.com/), [Opt-Out](https://suppression.peopleconnect.us/login))
-- PeekYou ([Search](https://www.peekyou.com/), [Opt-Out](https://www.peekyou.com/about/contact/optout))
-- PublicDataUSA ([Search](https://www.publicdatausa.com/), [Opt-Out](https://www.publicdatausa.com/remove.php))
+- Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
+- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/optout))
+- PublicDataUSA ([Search](https://publicdatausa.com), [Opt-Out](https://publicdatausa.com/remove.php))
 
 </div>
 

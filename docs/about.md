@@ -23,27 +23,11 @@ schema:
 [:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
 
-## Staff
+Privacy Guides is built by volunteers and staff members around the world. All changes to our recommendations and resources are reviewed by at least two [trusted](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all) individuals, and we work diligently to ensure our content is updated as quickly as possible to adapt to the ever changing cybersecurity threat landscape.
 
-[**Jonah Aragon**](https://www.jonaharagon.com) is the Project Director and staff writer at *Privacy Guides*. His role includes researching and writing for this website, system administration, creating *Privacy Guides Online Learning* course content, reviewing the products recommended here, and most other day-to-day tasks.
+In addition to our core team, [many other people](about/contributors.md) have made contributions to the project. You can too! We're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
-<div class="grid" markdown>
-
-[:simple-discourse: Discourse (preferred): @jonah](https://discuss.privacyguides.net/u/jonah)
-
-[:material-email: Email: jonah@privacyguides.org](mailto:jonah@privacyguides.org)
-
-[:simple-mastodon: Mastodon: @jonah@neat.computer](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
-
-[:simple-signal: Signal: @jonah.01](https://signal.me/#eu/dDtlmTPv09utyEJPwCHq8UYs-AVOPlys8weinr7alfdylK5G-LNIX7GasDNJdV6y)
-
-</div>
-
-*The Project Director is a part-time position which reports directly to the executive committee.*
-
----
-
-[Open Positions :material-arrow-right-drop-circle:](about/jobs.md)
+[Job Openings :material-arrow-right-drop-circle:](about/jobs.md)
 
 ## Executive Committee
 <!-- markdownlint-disable MD030 -->
@@ -60,8 +44,8 @@ The project executive committee consists of five volunteers charged with managem
 
     [:material-account: Profile](https://discuss.privacyguides.net/u/dngray)
 
-    [:simple-github:](<https://github.com/dngray> "GitHub")
-    [:simple-mastodon:](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
+    [:material-github:](<https://github.com/dngray> "GitHub")
+    [:material-mastodon:](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
     [:material-email:](mailto:dngray@privacyguides.org "Email")
 
 -   :detective:{ .lg .middle } **Freddy**
@@ -72,8 +56,8 @@ The project executive committee consists of five volunteers charged with managem
 
     [:material-account: Profile](https://discuss.privacyguides.net/u/freddy)
 
-    [:simple-github:](https://github.com/freddy-m "GitHub")
-    [:simple-mastodon:](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
+    [:material-github:](https://github.com/freddy-m "GitHub")
+    [:material-mastodon:](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
     [:material-email:](mailto:freddy@privacyguides.org "Email")
 
 -   :robot:{ .lg .middle } **Jonah Aragon**
@@ -84,8 +68,9 @@ The project executive committee consists of five volunteers charged with managem
 
     [:material-account: Profile](https://discuss.privacyguides.net/u/jonah)
 
-    [:simple-github:](https://github.com/jonaharagon "GitHub")
-    [:simple-mastodon:](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
+    [:material-home:](https://www.jonaharagon.com "Homepage")
+    [:material-github:](https://github.com/jonaharagon "GitHub")
+    [:material-mastodon:](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
     [:material-email:](mailto:jonah@privacyguides.org "Email")
 
 -   :cactus:{ .lg .middle } **Niek de Wilde**
@@ -96,8 +81,8 @@ The project executive committee consists of five volunteers charged with managem
 
     [:material-account: Profile](https://discuss.privacyguides.net/u/Niek-de-Wilde)
 
-    [:simple-github:](https://github.com/blacklight447 "GitHub")
-    [:simple-mastodon:](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
+    [:material-github:](https://github.com/blacklight447 "GitHub")
+    [:material-mastodon:](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
     [:material-email:](mailto:niekdewilde@privacyguides.org "Email")
 
 -   :smirk_cat:{ .lg .middle } **Olivia**
@@ -108,28 +93,10 @@ The project executive committee consists of five volunteers charged with managem
 
     [:material-account: Profile](https://discuss.privacyguides.net/u/olivia)
 
-    [:simple-github:](https://github.com/hook9 "GitHub")
-    [:simple-mastodon:](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
+    [:material-github:](https://github.com/hook9 "GitHub")
+    [:material-mastodon:](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
 </div>
-
-## Volunteer Team
-
-A number of other contributors have volunteered their time to review and approve changes to this website, and keep the website up to date. Changes require 2+ approvals from team members before they can be merged. In addition to the executive committee members above, volunteers [trusted](https://github.com/orgs/privacyguides/people) to review pull requests include:
-
-<div class="grid cards" markdown>
-
-- [:simple-github: **friadev**](https://github.com/friadev)
-- [:simple-github: **ph00lt0**](https://github.com/ph00lt0)
-- [:simple-github: **redoomed1**](https://github.com/redoomed1)
-
-</div>
-
-We also especially thank our dedicated moderation team on Matrix and our forum: *Austin Huang*, *namazso*, *hik*, *riley*, and *Valynor*.
-
-Additionally, [many other people](about/contributors.md) have made contributions to the project. You can too! We're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
-
-Our team members review all changes made to the website and direct the course of the project as a whole. They do not personally profit from any contributions made to this site. Donations to Privacy Guides are generally tax-deductible in the United States.
 
 ## In The Media
 
@@ -151,7 +118,7 @@ In 2022, we completed the transition of our main website framework from Jekyll t
 
 We additionally launched our new discussion forum at [discuss.privacyguides.net](https://discuss.privacyguides.net) as a community platform to share ideas and ask questions about our mission. This augments our existing community on Matrix, and replaced our previous GitHub Discussions platform, decreasing our reliance on proprietary discussion platforms.
 
-In 2023, we launched international translations of our website in [French](https://www.privacyguides.org/fr/), [Hebrew](https://www.privacyguides.org/he/), [Dutch](https://www.privacyguides.org/nl/), and more languages, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides). We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
+In 2023, we launched international translations of our website in [French](https://www.privacyguides.org/fr), [Hebrew](https://www.privacyguides.org/he), [Dutch](https://www.privacyguides.org/nl), and more languages, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides). We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
 
 ## Site License
 

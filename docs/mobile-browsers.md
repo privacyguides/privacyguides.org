@@ -91,7 +91,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 === "Android"
 
     <div class="annotate" markdown>
-    
+
     - [x] Select **Aggressive** under *Block trackers & ads*
     - [x] Select **Auto-redirect AMP pages**
     - [x] Select **Auto-redirect tracking URLs**
@@ -107,24 +107,24 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
 
     </details>
-    
+
     - [x] Select **Forget me when I close this site**
 
     </div>
 
     1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
-    
+
 === "iOS"
 
     <div class="annotate" markdown>
-    
+
     - [x] Select **Aggressive** under *Trackers & Ads Blocking*
     - [x] Select **Strict** under *Upgrade Connections to HTTPS*
     - [x] Select **Auto-Redirect AMP pages**
     - [x] Select **Auto-Redirect Tracking URLs**
     - [x] (Optional) Select **Block Scripts** (1)
     - [x] Select **Block Fingerprinting**
-    
+
     <details class="warning" markdown>
     <summary>Use default filter lists</summary>
 
@@ -135,7 +135,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     </div>
 
     1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
-    
+
 ##### Clear browsing data (Android only)
 
 - [x] Select **Clear data on exit**
@@ -149,7 +149,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 === "Android"
 
     <div class="annotate" markdown>
-    
+
     - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [x] (Optional) Select **No protection** under *Safe Browsing* (1)
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
@@ -166,7 +166,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
     - [ ] Uncheck **Automatically send daily usage ping to Brave**
-    
+
 ### Leo
 
 These options can be found in :material-menu: → **Settings** → **Leo**.
@@ -229,13 +229,13 @@ Because Mull has more advanced and strict privacy protections enabled by default
 
 ## Safari (iOS)
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so there is little reason to use a third-party web browser.
+On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Chromium engine like its counterparts on other operating systems.
 
 <div class="admonition recommendation" markdown>
 
 ![Safari logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical) as well as fingerprint randomization, and Private Relay for those with a paid iCloud+ subscription. It also allows you to separate your browsing with different profiles and lock private tabs with your biometrics/PIN.
+**Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
 
 [:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
@@ -249,35 +249,76 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 We would suggest installing [AdGuard](browser-extensions.md#adguard) if you want a content blocker in Safari.
 
-The following privacy/security-related options can be found in the :gear: **Settings** app → **Safari**
+The following privacy/security-related options can be found in :gear: **Settings** → **Apps** → **Safari**.
+
+#### Allow Safari to Access
+
+Under **Siri**:
+
+- [ ] Disable **Learn from this App**
+- [ ] Disable **Show in App**
+- [ ] Disable **Show on Home Screen**
+- [ ] Disable **Suggest App**
+
+This prevents Siri from using content from Safari for Siri suggestions.
+
+#### Search
+
+- [ ] Disable **Search Engine Suggestions**
+
+This setting sends whatever you type in the address bar to the search engine set in Safari. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 #### Profiles
 
-All of your cookies, history, and website data will be separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
+Safari allows you to separate your browsing with different profiles. All of your cookies, history, and website data are separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
 
 #### Privacy & Security
 
 - [x] Enable **Prevent Cross-Site Tracking**
 
-    This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but it does not block all tracking avenues because it is designed to not interfere with website usability.
+This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but does not block all tracking avenues because it is designed to not interfere with website usability.
 
-- [x] Enable **Require Face ID to Unlock Private Browsing**
+- [x] Enable **Require Face ID/Touch ID to Unlock Private Browsing**
 
-    This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
+This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
 
-#### Advanced → Privacy
+- [ ] Disable **Fraudulent Website Warning**
+
+This setting uses Google Safe Browsing (or Tencent Safe Browsing for users in mainland China or Hong Kong) to protect you while you browse. As such, your IP address may be logged by your Safe Browsing provider. Disabling this setting will disable this logging, but you might be more vulnerable to known phishing sites.
+
+- [ ] Disable **Highlights**
+
+Apple's privacy policy for Safari states:
+
+> When visiting a webpage, Safari may send information calculated from the webpage address to Apple over OHTTP to determine if relevant highlights are available.
+
+#### Settings for Websites
+
+Under **Camera**
+
+- [x] Select **Ask**
+
+Under **Microphone**
+
+- [x] Select **Ask**
+
+Under **Location**
+
+- [x] Select **Ask**
+
+These settings ensure that websites can only access your camera, microphone, or location after you explicitly grant them access.
+
+#### Other Privacy Settings
+
+These options can be found in :gear: **Settings** → **Apps** → **Safari** → **Advanced**.
+
+##### Fingerprinting Mitigations
 
 The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
 
 - [x] Select **All Browsing** or **Private Browsing**
 
-#### Privacy Report
-
-Privacy Report provides a snapshot of cross-site trackers currently prevented from profiling you on the website you're visiting. It can also display a weekly report to show which trackers have been blocked over time.
-
-Privacy Report is accessible via the Page Settings menu.
-
-#### Privacy Preserving Ad Measurement
+##### Privacy Preserving Ad Measurement
 
 - [ ] Disable **Privacy Preserving Ad Measurement**
 
@@ -287,23 +328,23 @@ The feature has little privacy concerns on its own, so while you can choose to l
 
 #### Always-on Private Browsing
 
-Open Safari and tap the Tabs button, located in the bottom right. Then, expand the Tab Groups list.
+Open Safari and tap the Tabs button, located in the bottom right. Then, expand the :material-format-list-bulleted: Tab Groups list.
 
 - [x] Select **Private**
 
 Safari's Private Browsing mode offers additional privacy protections. Private Browsing uses a new [ephemeral](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) session for each tab, meaning tabs are isolated from one another. There are also other smaller privacy benefits with Private Browsing, such as not sending a webpage’s address to Apple when using Safari's translation feature.
 
-Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed into sites. This may be an inconvenience.
+Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed in to sites. This may be an inconvenience.
 
 #### iCloud Sync
 
 Synchronization of Safari History, Tab Groups, iCloud Tabs and saved passwords are E2EE. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
 
-You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). Go to your **Apple ID name → iCloud → Advanced Data Protection**.
+You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). Go to :gear: **Settings** → **iCloud** → **Advanced Data Protection**.
 
-- [x] Turn On **Advanced Data Protection**
+- [x] Turn on **Advanced Data Protection**
 
-If you use iCloud with Advanced Data Protection disabled, we also recommend checking to ensure Safari's default download location is set to locally on your device. This option can be found in :gear: **Settings** → **Safari** → **General** → **Downloads**.
+If you use iCloud with Advanced Data Protection disabled, we also recommend setting Safari's default download location to a local folder on your device. This option can be found in :gear: **Settings** → **Apps** → **Safari** → **General** → **Downloads**.
 
 ## Criteria
 
