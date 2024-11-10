@@ -10,7 +10,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 | Emoji | Type | Description
 | --- | --- | ---
-| 📖 | `doc` | A contributor to the content on [privacyguides.org](https://www.privacyguides.org/en/).
+| 📖 | `doc` | A contributor to the content on [privacyguides.org](https://www.privacyguides.org/en).
 | 👀 | `review` | Someone who has taken the time to review [pull requests](https://github.com/privacyguides/privacyguides.org/pulls) to the site.
 | 📝 | `blog` | Someone who has written a [blog](https://blog.privacyguides.org) post for us.
 | 💬 | `question` | Someone who has been helpful when answering questions on our [forum](https://discuss.privacyguides.net) or Matrix channels.

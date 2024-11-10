@@ -88,7 +88,7 @@ For more details about each project, why they were chosen, and additional tips o
 
     ---
 
-    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0/) features and default tracker blocking. It also separates your cookies in private browsing mode to prevent tracking between tabs.
+    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. It also separates your cookies in private browsing mode to prevent tracking between tabs.
 
     - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
