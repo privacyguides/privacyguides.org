@@ -89,6 +89,8 @@
 *[SaaS]: Software as a Service (cloud software)
 *[SoC]: System on Chip
 *[SSO]: Single sign-on
+*[system prompt]: The system prompt of an AI chat is the general instructions given by human to guide how it should operate.
+*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
 *[TCP]: Transmission Control Protocol
 *[TEE]: Trusted Execution Environment
 *[TLS]: Transport Layer Security

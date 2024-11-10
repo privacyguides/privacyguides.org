@@ -34,6 +34,17 @@ The recommendations below for **cloud providers do not train their models using 
 
 When using cloud-based AI chat tools, be mindful of the personal information you share. Even if a service doesn't store your conversations, there's still a risk of sensitive data being exposed or misused. **Do not share sensitive information** related to health, finance, or other highly personal matters to protect your privacy and security.
 
+| Feature | DuckDuckGo AI | Brave Leo |
+|---------|---------------|-----------|
+| Tor Access | ✓ (Official onion service) | ✓ (Mobile only, via Orbot) |
+| Rate Limits | High¹ | Low-Medium² |
+| Self-hosted Models | ✗ | ✓ |
+| Local Model Support | ✗ | ✓ (BYOM) |
+| Web Search Integration | ✗ | ✓ |
+| Multi-language Support | ✓ | Limited |
+| Account Required | ✗ | ✗ |
+| Mobile Support | ✓ | ✓ (Brave Browser) |
+¹ Rate limits vary by model, with Llama having the lowest restrictions
 ### DuckDuckGo AI Chat
 
 <div class="admonition recommendation" markdown>
@@ -104,8 +115,41 @@ For the best experience, a dedicated GPU with sufficient VRAM or a modern system
 
 There are many permissively licensed **models available to download**. **[Hugging Face](https://huggingface.co/models?library=gguf)** is a platform that lets you browse, research, and download models in common formats like GGUF. Companies that provide good open-weights models include big names like Mistral, Meta, Microsoft, and Google. But there are also many community models and 'fine-tunes' available. For consumer-grade hardware, it is generally recommended to use [quantized models](https://huggingface.co/docs/optimum/en/concept_guides/quantization) for the best balance between model quality and performance.
 
+<details class="admonition warning" markdown>
+<summary>Model Security and Verification</summary>
+When downloading AI models, especially from Hugging Face, it's important to verify their authenticity. Look for:
+- Model cards with clear documentation
+- Verified organization badge
+- Community reviews and usage statistics
+- **When available**, verify the file checksum (a type of anti-tampering fingerprint).  On Hugging Face, you can find the hash by:
+    1. Clicking on a model file
+    2. Looking for "Copy SHA256" button below the file
+    3. Comparing this hash with the one you get after downloading (using tools like `sha256sum` on Linux/macOS or `certutil -hashfile file SHA256` on Windows)
+
+Those steps help ensure you're not downloading potentially malicious models.
+</details>
+
+<details class="admonition info" markdown>
+<summary>Hardware Requirements for Local Models</summary>
+Here are typical requirements for different model sizes:
+- 7B parameter models: 8GB RAM minimum, 16GB recommended
+- 13B parameter models: 16GB RAM minimum, 32GB recommended
+- 70B parameter models: Dedicated GPU with 24GB+ VRAM recommended
+- Quantized models (4-bit): Can run with roughly half these requirements
+</details>
+
 ### AI chat clients
 
+| Feature | [Kobold.cpp](#koboldcpp) | [Ollama](#ollama) | [Llamafile](#llamafile) |
+|---------|------------|---------|-----------|
+| GPU Support | ✓ | ✓ | ✓ |
+| Image Generation | ✓ | ✗ | ✗ |
+| Speech Recognition | ✓ | ✗ | ✗ |
+| Auto-download Models | ✗ | ✓ | ✓* |
+| Custom Parameters | ✓ | ✓ | Limited |
+| Multi-platform | ✓ | ✓ | ✓ |
+
+*Limited model selection
 #### Kobold.cpp
 
 <div class="admonition recommendation" markdown>
@@ -132,7 +176,7 @@ In addition to supporting a large range of text models, Kobold.cpp also supports
 
 </div>
 
-Kobold shines best when you are looking for heavy customisation and tweaking, such as for roleplaying purposed. It allows you to modify the model temperature,the context window. It also supports creating a network tunnel to access AI models from other devices, such as your phone.
+Kobold shines best when you are looking for heavy customisation and tweaking, such as for roleplaying purposed. It allows you to modify parameters such as the AI model temperature and the AI chat's system prompt. It also supports creating a network tunnel to access AI models from other devices, such as your phone.
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Compatibility Issues</p>
@@ -145,7 +189,7 @@ Kobold.cpp might not run on computers without AVX/AVX2 support.
 
 ![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
 
-Ollama is an easy-to-use command-line AI assistant that is available on macOS, Linux, and Windows (preview).
+Ollama is an easy-to-use command-line AI assistant that is available on macOS, Linux, and Windows.
 
 In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has *experimental* support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
 
@@ -164,7 +208,9 @@ In addition to supporting a wide range of text models, Ollama also supports [LLa
 
 Ollama shines best when you are looking for an AI client that has great compatibility and ease of use. It runs on all desktop platforms and doesn't involve any manual setup, while still using inference and other techniques to make outputs faster.
 
-It also simplifies the process of setting up a local AI chat, as it downloads the AI model you want to use automatically. For example "ollama run llama3.2" will automatically download and run the Llama 3.2 model.
+Ollama shines best when you are looking for an AI client that has great compatibility and ease of use. It runs on all desktop platforms and doesn't involve any manual setup, while still using inference and other techniques to make outputs faster.
+
+It also simplifies the process of setting up a local AI chat, as it downloads the AI model you want to use automatically. For example, running `ollama run llama3.2` will automatically download and run the Llama 3.2 model. Furthermore, ollama maintains their own [model library](https://ollama.com/library/) where they host various AI models files. This ensures models are vetted for both performance and security, eliminating the need to manually verify model authenticity. 
 
 #### Llamafile
 
@@ -207,8 +253,10 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 - Must provide at least one model with high rate limits, to allow an user to use it for medium to heavy workloads.
 
 #### Local AI clients
+
 - Must be open-source.
 - Must not send personal data, including chat data.
+- Must be available on Linux.
 - Must not require a GPU.
 - Must have support for GPU-powered fast inference.
 - Must not require an internet connection.
@@ -225,7 +273,7 @@ Our best-case criteria represent what we *would* like to see from the perfect pr
 - Should not be rate-limited.
 
 #### Local AI clients
-
+- Should be multi-platform.
 - Should be easy to download and set up, such as having a one-click install process.
 - Should have a built-in model downloader option.
-- Should be customizable (the user can modify model "settings", such as the system prompt and model temperature).
+- Should be customizable (the user can modify the LLM paramaters, such as it's system prompt or it's temperature).
