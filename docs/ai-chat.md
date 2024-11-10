@@ -170,7 +170,7 @@ In addition to supporting a large range of text models, Kobold.cpp also supports
 
 </div>
 
-Kobold shines best when you are looking for heavy customisation and tweaking, such as for roleplaying purposed. It allows you to modify parameters such as the AI model temperature and the AI chat's system prompt. It also supports creating a network tunnel to access AI models from other devices, such as your phone.
+Kobold shines best when you are looking for heavy customization and tweaking, such as for roleplaying purposes. It allows you to modify parameters such as the AI model temperature and the AI chat's system prompt. It also supports creating a network tunnel to access AI models from other devices, such as your phone.
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Compatibility Issues</p>
