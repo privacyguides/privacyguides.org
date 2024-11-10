@@ -53,7 +53,7 @@ DuckDuckGo give you access to open-weights models from Meta and Mistral, as well
 
 Duck has agreements with the third-party providers they use guaranteeing that they will not use your data for training their AI models. Proprietary model providers can keep a chat history for up to 30 days. For open-weights model, Duck uses the together.ai AI cloud platform, and has disabled history for those chats.
 
-It is available directly on [DuckDuckGo](https://duckduckgo.com), [duck.ai](https://duck.ai) or [DuckDuckGo onion site](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/chat).
+It is available directly on [DuckDuckGo](https://duckduckgo.com), [duck.ai](https://duck.ai), or [DuckDuckGo onion site](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/chat).
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Proprietary Model Providers Retain Your Chats</p>
