@@ -196,7 +196,7 @@ Ollama is an easy-to-use command-line AI assistant that is available on macOS, L
 In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has *experimental* support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
 
 [:octicons-home-16: Homepage](https://github.com/ollama/ollama){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/ollama/ollama){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/ollama/ollama){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Source Code"}
 
 <details class="downloads" markdown>
