@@ -487,7 +487,6 @@ For encrypting your operating system drive, we typically recommend using whichev
 - ![Ollama logo](assets/img/ai-chat/ollama.png){ .twemoji loading=lazy }[Ollama](ai-chat.md#ollama)
 </div>
 
-
 ### Language Tools
 
 <div class="grid cards" markdown>
