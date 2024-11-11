@@ -30,14 +30,13 @@ Our **recommended providers do not train their models using your chats** and res
 
 | Feature | DuckDuckGo AI | Brave Leo |
 |---------|---------------|-----------|
-| Tor Access | :material-check:{ .pg-green } Official onion service | :material-alert-outline:{ .pg-orange } Mobile only (Orbot) |
+| Tor Access | :material-check:{ .pg-green } Official onion service | :material-alert-outline:{ .pg-orange } Android-only (Orbot) |
 | Rate Limits | :material-check:{ .pg-green } High | :material-alert-outline:{ .pg-orange } Low-Medium¹ |
 | Self-hosted Models | :material-close:{ .pg-red } | :material-check:{ .pg-green } |
-| Local Model Support | :material-close:{ .pg-red } | :material-check:{ .pg-green } BYOM |
 | Web Search Integration | :material-close:{ .pg-red } | :material-check:{ .pg-green } |
 | Multi-language Support | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Limited |
 | Account Required | :material-close:{ .pg-red } | :material-close:{ .pg-red } |
-| Mobile Support | :material-check:{ .pg-green } | :material-check:{ .pg-green } Browser only |
+| Mobile Support | :material-check:{ .pg-green } | :material-check:{ .pg-green } only on Brave |
 ¹ Rate limits vary by model, with Llama having the lowest restrictions
 
 ### DuckDuckGo AI Chat
@@ -47,8 +46,10 @@ Our **recommended providers do not train their models using your chats** and res
 ![DuckDuckGo logo](assets/img/ai-chat/duckai.svg){align=right}
 
 **DuckDuckGo AI Chat** is a web frontend for AI models. It is made by the popular [search engine provider](search-engines.md) of the same name.
+It is available directly on [DuckDuckGo](https://duckduckgo.com), [duck.ai](https://duck.ai), or [DuckDuckGo onion site](https://duckduckgogg41xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/chat).
 
-DuckDuckGo give you access to open-weights models from Meta and Mistral, as well as proprietary models from Anthropic and OpenAI. To protect your IP adress and prevent fingerprinting, DuckDuckGo proxies your chats through their servers.
+DuckDuckGo give you access to open-weights models from Meta and Mistral, as well as proprietary models from Anthropic and OpenAI. We strongly recommend youse open-weights models, because for those, no chat history is stored by Together.ai, the AI cloud platform DuckDuckGo uses to provide those models. 
+Furthermore, to protect your IP adress and prevent fingerprinting, DuckDuckGo proxies your chats through their servers.
 
 [:octicons-home-16: Homepage](https://duck.ai){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/chat){ .card-link title="Onion Service" }
@@ -57,9 +58,7 @@ DuckDuckGo give you access to open-weights models from Meta and Mistral, as well
 
 </div>
 
-Duck has agreements with the third-party providers they use guaranteeing that they will not use your data for training their AI models. Proprietary model providers can keep a chat history for up to 30 days. For open-weights model, Duck uses the together.ai AI cloud platform, and has disabled history for those chats.
-
-It is available directly on [DuckDuckGo](https://duckduckgo.com), [duck.ai](https://duck.ai), or [DuckDuckGo onion site](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/chat).
+Duck has agreements with their third-party providers that guarantee that they will not use your data for training their AI models. Proprietary model providers can keep a chat history for up to 30 days. For open-weights model, Duck uses the [together.ai](https://together.ai) AI cloud platform, and has disabled history for those chats.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Proprietary Model Providers Retain Your Chats</p>
@@ -76,18 +75,20 @@ You will have to trust the together.ai cloud platform to honor their commitments
 
 ![Brave Logo](assets/img/ai-chat/leo.svg){align=right}
 
-**Brave Leo** is an AI assistant available inside the [Brave browser](desktop-browsers.md#brave), a browser which we recommend.
+**Brave Leo** is an AI assistant available inside the [Brave browser](brave.com), a browser we [recommend](tools/#private-web-browsers).
 
-Brave Leo supports a variety of models, including open-weights models from Meta and Mistral, and proprietary models from Anthropic. Additionally, the ["Bring Your Own Model"](https://brave.com/blog/byom-nightly/) feature allows you to use one of your local AI models directly in Brave.
+Brave Leo supports a variety of models, including open-weights models from Meta and Mistral, and proprietary models from Anthropic. We **strongly recommend** that you use **open-weights models**, because **Brave self-hosts them** and for those open-weights models, they **discards all chat data** after you close your session.
+ 
+Additionally, the ["Bring Your Own Model"](https://brave.com/blog/byom-nightly/) (BYOM) feature allows you to use one of your local AI models directly in Brave.
 
 [:octicons-home-16: Homepage](https://brave.com/leo){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://brave.com/privacy/browser/#brave-leo){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/brave/brave-browser/wiki/Brave-Leo){ .card-link title="Documentation" }
 
 </div>
-Brave self-hosts the open models and for the Brave-hosted models, Brave discards all chat data after you close Leo.
+The default model is Mixtral, which has a low rate limit of 5 messages per hour. However, you can switch to the Llama model, which has "no" rate limits. 
 
-Leo can enhance its knowledge through web searches, similar to Microsoft Copilot. However, Brave's AI solution still faces challenges with multi-language support. Leo AI is available on the Brave Browser on all platforms. There are strict rate limits for most models, but one free model has a high rate limit.
+Leo can enhance its knowledge through web searches, similar to Microsoft Copilot. However, Brave's AI solution still faces challenges with multi-language support and contextual understanding.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Page Content is Sent by Default</p>
@@ -98,17 +99,28 @@ By default, Brave Leo includes the webpage you are currently on as context for t
 We advise against using Anthropic's Claude proprietary models because Anthropic keeps chat history for up to 30 days.
 </div>
 
-## Local AI
+## Local AI Chat
 
 **Running AI models locally** offers a more private and secure alternative to cloud-based solutions, as **your data never leaves your device** and is therefore never shared with third-party providers. This provides peace of mind and **allows you to share sensitive information**.
 
-For the best experience, a dedicated GPU with sufficient VRAM or a modern system with fast LPDDR5X memory is recommended. Fortunately, it is possible to run smaller models locally even without a high-end computer or dedicated GPU. A computer with at least 8GB of RAM will be sufficient to run smaller models at lower speeds.
+For the best experience, a dedicated GPU with sufficient VRAM or a modern system with fast LPDDR5X memory is recommended. Fortunately, it is possible to run smaller models locally even without a high-end computer or dedicated GPU. A computer with at least 8GB of RAM will be sufficient to run smaller models at lower speeds. Below is a table with more precise information :
+<details class="admonition info" markdown>
+<summary>Hardware Requirements for Local Models</summary>
+Here are typical requirements for different model sizes:
+
+- 7B parameter models: 8GB RAM minimum, 16GB recommended
+- 13B parameter models: 16GB RAM minimum, 32GB recommended
+- 70B parameter models: Dedicated GPU with 24GB+ VRAM recommended
+- Quantized models (4-bit): Can run with roughly half these requirements
+</details>
+
 
 **To run AI locally, you need both an AI client and an AI model**.
 
-## Download AI models
+### Download AI models
 
 There are many permissively licensed **models available to download**. **[Hugging Face](https://huggingface.co/models?library=gguf)** is a platform that lets you browse, research, and download models in common formats like GGUF. Companies that provide good open-weights models include big names like Mistral, Meta, Microsoft, and Google. But there are also many community models and 'fine-tunes' available. For consumer-grade hardware, it is generally recommended to use [quantized models](https://huggingface.co/docs/optimum/en/concept_guides/quantization) for the best balance between model quality and performance.
+To help you choose a model that fit your needs, you can look at leaderboards and benchmarks. The most widely-used leaderboard is [LM Arena](https://lmarena.ai/), a "Community-driven Evaluation for Best AI chatbots". There is also the [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard), which focus on the performance of open-weights models on common benchmarks like MMLU-PRO.  However, there are also specialed benchmarks, that for example measure [emotional intelligence](https://eqbench.com/), ["uncensored general intelligence"](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), and many [others](https://www.nebuly.com/blog/llm-leaderboards).
 
 <details class="admonition warning" markdown>
 <summary>Model Security and Verification</summary>
@@ -124,16 +136,8 @@ When downloading AI models, especially from Hugging Face, it's important to veri
 Those steps help ensure you're not downloading potentially malicious models.
 </details>
 
-<details class="admonition info" markdown>
-<summary>Hardware Requirements for Local Models</summary>
-Here are typical requirements for different model sizes:
-- 7B parameter models: 8GB RAM minimum, 16GB recommended
-- 13B parameter models: 16GB RAM minimum, 32GB recommended
-- 70B parameter models: Dedicated GPU with 24GB+ VRAM recommended
-- Quantized models (4-bit): Can run with roughly half these requirements
-</details>
 
-## AI chat clients
+### AI chat clients
 
 | Feature | [Kobold.cpp](#koboldcpp) | [Ollama](#ollama) | [Llamafile](#llamafile) |
 |---------|------------|---------|-----------|
@@ -201,8 +205,6 @@ In addition to supporting a wide range of text models, Ollama also supports [LLa
 </div>
 
 Ollama shines best when you're looking for an AI client that has great compatibility and ease of use. It runs on all desktop platforms and doesn't involve any manual setup, while still using inference and other techniques to make outputs faster.
-
-Ollama shines best when you are looking for an AI client that has great compatibility and ease of use. It runs on all desktop platforms and doesn't involve any manual setup, while still using inference and other techniques to make outputs faster.
 
 It also simplifies the process of setting up a local AI chat, as it downloads the AI model you want to use automatically. For example, running `ollama run llama3.2` will automatically download and run the Llama 3.2 model. Furthermore, ollama maintains their own [model library](https://ollama.com/library/) where they host various AI models files. This ensures models are vetted for both performance and security, eliminating the need to manually verify model authenticity.
 
