@@ -75,7 +75,7 @@ You will have to trust the together.ai cloud platform to honor their commitments
 
 ![Brave Logo](assets/img/ai-chat/leo.svg){align=right}
 
-**Brave Leo** is an AI assistant available inside the [Brave browser](brave.com), a browser we [recommend](tools/#private-web-browsers).
+**Brave Leo** is an AI assistant available inside the [Brave browser](https://brave.com), a browser we [recommend](tools/#private-web-browsers).
 
 Brave Leo supports a variety of models, including open-weights models from Meta and Mistral, and proprietary models from Anthropic. We **strongly recommend** that you use **open-weights models**, because **Brave self-hosts them** and for those open-weights models, they **discards all chat data** after you close your session.
 
