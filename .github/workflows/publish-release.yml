@@ -90,6 +90,8 @@ jobs:
       NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
       PROD_MINIO_KEY_ID: ${{ secrets.PROD_MINIO_KEY_ID }}
       PROD_MINIO_SECRET_KEY: ${{ secrets.PROD_MINIO_SECRET_KEY }}
+      PROD_GARAGE_KEY_ID: ${{ secrets.PROD_GARAGE_KEY_ID }}
+      PROD_GARAGE_SECRET_KEY: ${{ secrets.PROD_GARAGE_SECRET_KEY }}
       CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
       CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
       CLUSTER_USERNAME: ${{ secrets.CLUSTER_USERNAME }}

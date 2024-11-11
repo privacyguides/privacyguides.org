@@ -87,7 +87,7 @@ jobs:
           echo "pr_number=$(cat metadata/NR)" >> "$GITHUB_OUTPUT"
           echo "sha=$(cat metadata/SHA)" >> "$GITHUB_OUTPUT"
 
-  deploy:
+  deploy_netlify:
     needs: metadata
     permissions:
       contents: read
@@ -99,13 +99,27 @@ jobs:
     secrets:
       NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
 
+  deploy_garage:
+    needs: metadata
+    permissions:
+      contents: read
+
+    uses: privacyguides/webserver/.github/workflows/deploy-garage-preview.yml@main
+    with:
+      alias: ${{ needs.metadata.outputs.pr_number }}
+      bucket: ${{ vars.PREVIEW_GARAGE_BUCKET }}
+      hostname: ${{ vars.PREVIEW_GARAGE_HOSTNAME }}
+    secrets:
+      PREVIEW_GARAGE_KEY_ID: ${{ secrets.PREVIEW_GARAGE_KEY_ID }}
+      PREVIEW_GARAGE_SECRET_KEY: ${{ secrets.PREVIEW_GARAGE_SECRET_KEY }}
+
   comment:
     permissions:
       pull-requests: write
-    needs: [deploy, metadata]
+    needs: [deploy_netlify, metadata]
     runs-on: ubuntu-latest
     env:
-      address: ${{ needs.deploy.outputs.address }}
+      address: ${{ needs.deploy_netlify.outputs.address }}
     steps:
       - uses: thollander/actions-comment-pull-request@v2.5.0
         with:
