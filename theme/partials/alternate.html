@@ -27,7 +27,7 @@
     {% for alt in config.extra.alternate %}
       {% if alt.lang == config.theme.language %}
         <button class="md-header__button md-icon" aria-label="{{ lang.t('select.language') }}">
-          <img alt="{{ config.theme.language }}" class="twemoji" src="{{ alt.icon }}">
+          <img alt="{{ config.theme.language }}" class="twemoji" src="{{ alt.icon }}" width="20" height="20">
         </button>
       {% endif %}
     {% endfor %}
@@ -40,7 +40,7 @@
               hreflang="{{ alt.lang }}"
               class="md-select__link"
             >
-              <img alt="{{ alt.lang }}" class="twemoji" src="{{ alt.icon }}">
+              <img alt="{{ alt.lang }}" class="twemoji" src="{{ alt.icon }}" width="20" height="20">
               {{ alt.name }}
             </a>
           </li>

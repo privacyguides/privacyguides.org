@@ -79,6 +79,9 @@ async function main() {
       avatar.width = 20;
       avatar.height = 20;
       avatar.className = "middle";
+      avatar.loading = "lazy";
+      avatar.ariaHidden = "true";
+      avatar.alt = "";
       author.appendChild(avatar);
       var namespan = document.createElement('span');
       namespan.innerText = " Posted by " + author_data['username'];

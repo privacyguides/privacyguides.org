@@ -116,10 +116,10 @@ jobs:
   comment:
     permissions:
       pull-requests: write
-    needs: [deploy_netlify, metadata]
+    needs: [deploy_garage, metadata]
     runs-on: ubuntu-latest
     env:
-      address: ${{ needs.deploy_netlify.outputs.address }}
+      address: ${{ needs.deploy_garage.outputs.address }}
     steps:
       - uses: thollander/actions-comment-pull-request@v2.5.0
         with:
