@@ -10,7 +10,8 @@ cover: ai-chatbots.webp
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 - [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-Since the release of **ChatGPT** in 2022, interacting with **Large Language Models** (*LLMs*) has become common. **LLMs can help us** write better, understand unfamiliar subjects, or answer a wide range of questions. Based on vast amount of data scraped from the web, they statistically predict the next word. However, to improve the quality of LLMs, developers of AI software often use [Reinforcement Learning from Human Feedback](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback). This means AI companies might read your private AI chats to evaluate and correct their model's answers. But that means that those private conversations must be stored, which introduces a risk of **data breaches**. Furthermore, there is a real possibility that the LLM will leak your private chat information in future conversations with other users. To solve those problems, you can use trusted and privacy-focused providers or run AI models locally so your data never leaves your device.
+Since the release of **ChatGPT** in 2022, interacting with **Large Language Models** (*LLMs*) has become common. **LLMs can help us** write better, understand unfamiliar subjects, or answer a wide range of questions. 
+Based on vast amount of data scraped from the web, they statistically predict the next word. However, to improve the quality of LLMs, developers of AI software often use [Reinforcement Learning from Human Feedback](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback). This means AI **companies** might **read your private AI chats** to evaluate and **improve their models**. But that means that those private conversations must be stored, which introduces a risk of **data breaches**. Furthermore, there is a real possibility that the LLM will leak your private chat information in future conversations with other users. To solve those problems, you can use trusted and privacy-focused providers or run AI models locally so your data never leaves your device.
 
 <details class="admonition info" markdown>
 <summary>Privacy and Ethical Concerns about LLMs</summary>
@@ -22,11 +23,11 @@ AI models have been trained on massive amounts of public *and* private data. If 
 
 ## Cloud Providers
 
-The recommendations below for **cloud providers do not train their models using your chats** and do not retain your chats for more than a month, based on each service's privacy policy. However, there is **no guarantee** that these privacy policies are honored.
+The AI chat **cloud providers we recommend do not train their models using your chats** and do not retain your chats for more than a month, based on each service's privacy policy. However, there is **no guarantee** that these privacy policies are honored. Read our [full list of criteria](#criteria) for more information.
 
 When using cloud-based AI chat tools, be mindful of the personal information you share. Even if a service doesn't store your conversations, there's still a risk of sensitive data being exposed or misused. **Do not share sensitive information** related to health, finance, or other highly personal matters to protect your privacy and security.
 
-Our **recommended providers do not train their models using your chats** and respect your privacy. Read our [full list of criteria](#criteria) for more information.
+A quick **overview** of the two providers we recommend:
 
 | Feature | DuckDuckGo AI | Brave Leo |
 |---------|---------------|-----------|
@@ -148,7 +149,7 @@ Those steps help ensure you're not downloading potentially malicious models.
 | Custom Parameters | :material-check:{ .pg-green } | :material-close:{ .pg-red } | :material-alert-outline:{ .pg-orange } |
 | Multi-platform | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Size limitations on Windows |
 
-### Kobold.cpp
+#### Kobold.cpp
 
 <div class="admonition recommendation" markdown>
 
@@ -181,7 +182,7 @@ Kobold shines best when you are looking for heavy customization and tweaking, su
 Kobold.cpp might not run on computers without AVX/AVX2 support.
 </div>
 
-### Ollama
+#### Ollama
 
 <div class="admonition recommendation" markdown>
 
@@ -208,7 +209,7 @@ Ollama shines best when you're looking for an AI client that has great compatibi
 
 It also simplifies the process of setting up a local AI chat, as it downloads the AI model you want to use automatically. For example, running `ollama run llama3.2` will automatically download and run the Llama 3.2 model. Furthermore, ollama maintains their own [model library](https://ollama.com/library/) where they host various AI models files. This ensures models are vetted for both performance and security, eliminating the need to manually verify model authenticity.
 
-### Llamafile
+#### Llamafile
 
 <div class="admonition recommendation" markdown>
 
