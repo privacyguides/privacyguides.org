@@ -48,7 +48,7 @@ Our **recommended providers do not train their models using your chats** and res
 **DuckDuckGo AI Chat** is a web frontend for AI models. It is made by the popular [search engine provider](search-engines.md) of the same name.
 It is available directly on [DuckDuckGo](https://duckduckgo.com), [duck.ai](https://duck.ai), or [DuckDuckGo onion site](https://duckduckgogg41xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/chat).
 
-DuckDuckGo give you access to open-weights models from Meta and Mistral, as well as proprietary models from Anthropic and OpenAI. We strongly recommend youse open-weights models, because for those, no chat history is stored by Together.ai, the AI cloud platform DuckDuckGo uses to provide those models. 
+DuckDuckGo give you access to open-weights models from Meta and Mistral, as well as proprietary models from Anthropic and OpenAI. We strongly recommend youse open-weights models, because for those, no chat history is stored by Together.ai, the AI cloud platform DuckDuckGo uses to provide those models.
 Furthermore, to protect your IP adress and prevent fingerprinting, DuckDuckGo proxies your chats through their servers.
 
 [:octicons-home-16: Homepage](https://duck.ai){ .md-button .md-button--primary }
@@ -78,7 +78,7 @@ You will have to trust the together.ai cloud platform to honor their commitments
 **Brave Leo** is an AI assistant available inside the [Brave browser](brave.com), a browser we [recommend](tools/#private-web-browsers).
 
 Brave Leo supports a variety of models, including open-weights models from Meta and Mistral, and proprietary models from Anthropic. We **strongly recommend** that you use **open-weights models**, because **Brave self-hosts them** and for those open-weights models, they **discards all chat data** after you close your session.
- 
+
 Additionally, the ["Bring Your Own Model"](https://brave.com/blog/byom-nightly/) (BYOM) feature allows you to use one of your local AI models directly in Brave.
 
 [:octicons-home-16: Homepage](https://brave.com/leo){ .md-button .md-button--primary }
@@ -86,7 +86,7 @@ Additionally, the ["Bring Your Own Model"](https://brave.com/blog/byom-nightly/)
 [:octicons-info-16:](https://github.com/brave/brave-browser/wiki/Brave-Leo){ .card-link title="Documentation" }
 
 </div>
-The default model is Mixtral, which has a low rate limit of 5 messages per hour. However, you can switch to the Llama model, which has "no" rate limits. 
+The default model is Mixtral, which has a low rate limit of 5 messages per hour. However, you can switch to the Llama model, which has "no" rate limits.
 
 Leo can enhance its knowledge through web searches, similar to Microsoft Copilot. However, Brave's AI solution still faces challenges with multi-language support and contextual understanding.
 
