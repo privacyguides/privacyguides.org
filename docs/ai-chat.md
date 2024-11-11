@@ -181,7 +181,7 @@ Kobold.cpp might not run on computers without AVX/AVX2 support.
 
 <div class="admonition recommendation" markdown>
 
-![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
+![Ollama Logo](assets/img/ai-chat/ollama.svg){align=right}
 
 Ollama is an easy-to-use command-line AI assistant that is available on macOS, Linux, and Windows.
 
