@@ -62,6 +62,17 @@ jobs:
       lang: ${{ matrix.lang }}
       context: production
       continue-on-error: false
+      cache: false
+
+  build_blog:
+    needs: submodule
+    permissions:
+      contents: read
+    uses: ./.github/workflows/build-blog.yml
+    with:
+      repo: ${{ github.repository }}
+      ref: ${{ github.ref }}
+      continue-on-error: false
 
   release:
     name: Create release notes
@@ -84,7 +95,7 @@ jobs:
           makeLatest: true
 
   deploy:
-    needs: build
+    needs: [build, build_blog]
     uses: privacyguides/webserver/.github/workflows/deploy-all.yml@main
     secrets:
       NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
@@ -101,5 +112,5 @@ jobs:
 
   cleanup:
     if: ${{ always() }}
-    needs: build
+    needs: [build, build_blog]
     uses: privacyguides/.github/.github/workflows/cleanup.yml@main
