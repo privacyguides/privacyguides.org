@@ -148,7 +148,7 @@ Here are typical requirements for different model sizes:
 
 <div class="admonition recommendation" markdown>
 
-![Kobold.cpp Logo](assets/img/ai-chat/kobold.svg){align=right}
+![Kobold.cpp Logo](assets/img/ai-chat/kobold.png){align=right}
 
 Kobold.cpp is an AI client that runs locally on your Windows, Mac, or Linux computer.
 
