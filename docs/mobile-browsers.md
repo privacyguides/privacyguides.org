@@ -56,7 +56,7 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 [:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -179,6 +179,12 @@ These options can be found in :material-menu: → **Settings** → **Leo**.
 
 1. This option is not present in Brave's iOS app.
 
+### Search engines
+
+These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+
+- [ ] Uncheck **Show search suggestions**
+
 ### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
@@ -193,7 +199,7 @@ These options can be found in :material-menu: → **Settings** → **Leo**.
 
 [:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title=Documentation }
+[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title="Documentation" }
 [:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -239,7 +245,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 [:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="Documentation" }
 
 </details>
 
