@@ -44,7 +44,7 @@ Our **recommended providers do not train their models using your chats** and res
 
 <div class="admonition recommendation" markdown>
 
-![DuckDuckGo logo](assets/img/ai-chat/duckai.png){align=right}
+![DuckDuckGo logo](assets/img/ai-chat/duckai.svg){align=right}
 
 **DuckDuckGo AI Chat** is a web frontend for AI models. It is made by the popular [search engine provider](search-engines.md) of the same name.
 
