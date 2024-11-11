@@ -25,18 +25,36 @@ Use your favorite [search engine](search-engines.md) to see if your data is triv
 
 The quickest, most effective, and most private way to remove yourself from people search sites is to submit opt-out requests manually to each site. This can *seem* like a daunting task, because there are hundreds of people search sites, but the reality is that the vast majority of these sites are operated by a small handful of companies.
 
-You should search for your information on these 8 sites first, and submit an opt-out request if your information is found. Removing your data from these providers typically removes your data from many smaller sites at the same time.
+You should search for your information on these sites first, and submit an opt-out request if your information is found. Removing your data from these providers typically removes your data from many smaller sites at the same time.
 
-- Acxiom
-- BeenVerified
-- InfoTracer
-- Intelius
-- Radaris
-- Spokeo
-- TruePeopleSearch
-- Whitepages
+- Advanced Background Checks ([Search](https://advancedbackgroundchecks.com), [Opt-Out](https://advancedbackgroundchecks.com/removal))
+- BeenVerified ([Search](https://beenverified.com/app/optout/search), [Opt-Out](https://beenverified.com/app/optout/address-search))
+- CheckPeople ([Search](https://checkpeople.com/do-not-sell-info), select *Remove Record* to opt-out)
+- ClustrMaps ([Search](https://clustrmaps.com), [Opt-Out](https://clustrmaps.com/bl/opt-out))
+- Dataveria ([Search](https://dataveria.com), [Opt-Out](https://dataveria.com/ng/control/privacy))
+- Glad I Know ([Search](https://gladiknow.com), [Opt-Out](https://gladiknow.com/opt-out))
+- InfoTracer ([Search](https://infotracer.com), [Opt-Out](https://infotracer.com/optout))
+- Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
+- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/optout))
+- PublicDataUSA ([Search](https://publicdatausa.com), [Opt-Out](https://publicdatausa.com/remove.php))
+- Radaris ([Search](https://radaris.com), [Opt-Out](https://radaris.com/page/how-to-remove))
+- Spokeo ([Search](https://spokeo.com/search), [Opt-Out](https://spokeo.com/optout))
+- That's Them ([Search](https://thatsthem.com), [Opt-Out](https://thatsthem.com/optout))
+- USPhonebook ([Search and Opt-Out](https://usphonebook.com/opt-out))
+- Whitepages ([Search](https://whitepages.com), [Opt-Out](https://whitepages.com/suppression_requests))
 
-Once you have done this, it's best to wait a week or two for the requests to propagate to all their sites. Then, you can start to search and opt-out of any remaining sites you find. It can be a good idea to use tools like [Optery](#optery-free-paid)'s free reports or [Google's *Results about you*](#google-results-about-you-free) tool to help find any data that remains on the internet.
+<div class="admonition tip" markdown>
+<p class="admonition-title">A tip on opt-out strategy</p>
+
+Be sure to avoid burning out or becoming overwhelmed with this process. Unless you're in immediate danger, you can take breaks and avoid doing them all at once.[^1]
+
+One strategy could be to look at a single website from the list above every week, starting from the top. Next week you move on to the following website on the list, and so on. When you reach the end of the list, you can start again from the beginning.
+
+This sets you up on a nice schedule to re-review each website approximately every 3-4 months, and breaks down the process into simple 5 minute tasks you can easily add to your weekly routine.
+
+</div>
+
+Once you have opted-out of all of these sites for the first time, it's best to wait a week or two for the requests to propagate to all their sites. Then, you can start to search and opt-out of any remaining sites you find. It can be a good idea to use a web crawler like [Google's *Results about you*](#google-results-about-you-free) tool to help find any data that remains on the internet.
 
 Otherwise, privacy journalist Yael Grauer has compiled an excellent list of data broker sites with direct links to their search tools and opt-out pages. You can take some time to go though each site to determine whether they have your information, and remove it:
 
@@ -61,27 +79,27 @@ Some websites supported by EasyOptOuts are publicly searchable. In those cases E
 
 Our testing indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. We will publish a detailed review of EasyOptOuts on our blog in the near future and update this page when it is published. [Independent findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
 
-## Optery <small>Free & Paid</small>
+<div class="admonition failure" markdown>
+<p class="admonition-title">High priority sites not supported by EasyOptOuts</p>
 
-<div class="admonition recommendation" markdown>
+EasyOptOuts does not cover the following sites we consider to be "high priority," so you should still manually opt-out of:
 
-![Optery logo](assets/img/data-broker-removals/optery.svg){ align=right }
-
-**Optery** is a free scanning tool which will discover which people search sites have your personal information, provide you with a report of those sites, and link you directly to the self-service removal process to do manually. If you keep your account, the report will be updated quarterly. Optery also has paid plans available where they will submit opt-out requests automatically on your behalf.
-
-[:octicons-home-16: Homepage](https://optery.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://optery.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.optery.com){ .card-link title=Documentation}
+- Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
+- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/optout))
+- PublicDataUSA ([Search](https://publicdatausa.com), [Opt-Out](https://publicdatausa.com/remove.php))
 
 </div>
 
-Optery's free scanning tool is an effective way to discover which data brokers have your information already, and their self-service dashboard allows you to easily submit opt-out requests manually.
-
-We have not finished testing Optery's premium, *automatic* opt-out plans, although initial results appear to be positive. [Independent findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that Optery is one of the top performing data removal services. It necessarily takes at least a few months for us to evaluate a new data removal service, so check back here soon for our own test results. We will also publish a detailed review of Optery's full service on our blog when we have completed testing, and we will update this page accordingly.
-
 ## Google *Results About You* <small>Free</small>
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">Google is a data collector themselves</p>
+
 This method will require you to submit your personal information to Google for them to periodically monitor their search results for. Google claims to not use the information provided to this tool to "personalize your experiences" across other Google products.
+
+While Google is not a data broker themselves *per se*, as they don't sell or share your data with outside parties, some may find this relationship unacceptable. You should always decide whether the benefits of this tool outweigh the drawbacks for your individual situation.
+
+</div>
 
 <div class="admonition recommendation" markdown>
 
@@ -101,3 +119,15 @@ You can add up to 3 addresses, 3 phone numbers, and 3 email addresses to your Go
 When results are found, they will be available for review in this web tool. You can also optionally receive an email notification delivered to the account's Gmail address that lets you know when new results are found. You will then be able to click **Request to remove** on each discovered listing, and Google will review the request.
 
 In our testing, this tool worked to reliably remove people search sites from Google search results, but was not effective against websites that showed *corporate* filing information, even if you used your personal address to register a company, nor was it effective against social media profiles.
+
+## Criteria
+
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing a data removal service, and conduct your own research to ensure it's the right choice for you.
+
+Our picks for removal services are primarily based on independent professional testing from third-parties as noted in the sections above, our own internal testing, and aggregated reviews from our community.
+
+- Must not be a whitelabeled service or reseller of another provider.
+- Must not be affiliated with the data broker industry or purchase advertising on people search sites.
+- Must only use your personal data for the purposes of opting you out of data broker databases and people search sites.
+
+[^1]: If you *are* immediately threatened by stalkers or other threats, you should strongly consider an automated tool like [EasyOptOuts](#easyoptouts-paid), at least for the initial "purge." When things are more manageable in the future you can come back to the manual process. Of course, in a dangerous situation your first priority should always be to seek professional help from police or others before tackling it on your own.

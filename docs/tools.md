@@ -1,10 +1,10 @@
 ---
-meta_title: "The Best Privacy Tools, Services, and Ad-Free Recommendations - Privacy Guides"
+meta_title: "Ad-Free Privacy Tool/Service Recommendations - Privacy Guides"
 title: "Privacy Tools"
 icon: material/tools
 hide:
   - toc
-description: Privacy Guides is the most transparent and reliable website for finding software, apps, and services that protect your personal data from mass surveillance programs and other internet threats.
+description: A complete list of the privacy tools, services, software, and hardware recommended by the Privacy Guides community.
 ---
 
 If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
@@ -34,15 +34,6 @@ For more details about each project, why they were chosen, and additional tips o
 - [x] **Open-Source Contributions**
 - [x] **Trusted by Journalists**
 </div>
-
-</div>
-
-<div class="admonition example" markdown>
-<p class="admonition-title">Threat Model Labels</p>
-
-You may find any of the following icons on some of the recommendation pages: <span class="pg-purple">:material-incognito:</span> <span class="pg-red">:material-target-account:</span> <span class="pg-viridian">:material-package-variant-closed-remove:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span> <span class="pg-blue">:material-eye-outline:</span> <span class="pg-brown">:material-account-cash:</span> <span class="pg-green">:material-account-search:</span> <span class="pg-blue-gray">:material-close-outline:</span>
-
-We are testing a new feature that allows readers to better identify and understand the kinds of threats that privacy tools best defend against. Let us know what you think about this feature by replying to this dedicated forum [thread](https://discuss.privacyguides.net/t/implement-threat-model-labels/18659)!
 
 </div>
 
@@ -97,9 +88,9 @@ We are testing a new feature that allows readers to better identify and understa
 
     ---
 
-    We recommend **Safari** alongside a tracker-blocker like [AdGuard](browser-extensions.md#adguard) on iOS, because all iOS browsers are forced to be based on Safari anyways. This reduces the number of parties you're required to trust.
+    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. It also separates your cookies in private browsing mode to prevent tracking between tabs.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari)
+    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
 </div>
 
@@ -252,7 +243,6 @@ If you're looking for added **security**, you should always ensure you're connec
 - ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ .twemoji loading=lazy } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
 - ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
 - ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
-- ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ .twemoji loading=lazy } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
 - ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
 - ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
 - ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
@@ -280,7 +270,6 @@ If you're looking for added **security**, you should always ensure you're connec
 <div class="grid cards" markdown>
 
 - ![EasyOptOuts logo](assets/img/data-broker-removals/easyoptouts.svg){ .twemoji loading=lazy } [EasyOptOuts](data-broker-removals.md#easyoptouts-paid)
-- ![Optery logo](assets/img/data-broker-removals/optery.svg){ .twemoji loading=lazy } [Optery](data-broker-removals.md#optery-free-paid)
 - ![Google logo](assets/img/data-broker-removals/google.svg){ .twemoji loading=lazy } [Google *Results about you*](data-broker-removals.md#google-results-about-you-free)
 
 </div>
@@ -395,7 +384,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 - ![MAT2 logo](assets/img/data-redaction/mat2.svg){ .twemoji loading=lazy } [MAT2](data-redaction.md#mat2)
 - ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji loading=lazy } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
 - ![Metapho logo](assets/img/data-redaction/metapho.jpg){ .twemoji loading=lazy } [Metapho (iOS)](data-redaction.md#metapho-ios)
-- ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ .twemoji loading=lazy } [PrivacyBlur](data-redaction.md#privacyblur)
 - ![ExifTool logo](assets/img/data-redaction/exiftool.png){ .twemoji loading=lazy } [ExifTool (CLI)](data-redaction.md#exiftool)
 
 </div>
@@ -416,13 +404,15 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 ### Encryption Software
 
 <details class="info" markdown>
-<summary>Operating System Disk Encryption</summary>
+<summary>Operating System Encryption</summary>
 
-For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and typically use hardware encryption elements such as a TPM that other full-disk encryption software like VeraCrypt do not. VeraCrypt is still suitable for non-operating system disks such as external drives, especially drives that may be accessed from multiple operating systems.
+For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
+[Learn more :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
+
+#### Cross-platform Tools
 
 <div class="grid cards" markdown>
 
@@ -510,7 +500,6 @@ For encrypting your operating system drive, we typically recommend using whichev
 - ![Akregator logo](assets/img/news-aggregators/akregator.svg){ .twemoji loading=lazy } [Akregator](news-aggregators.md#akregator)
 - ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ .twemoji loading=lazy } [NewsFlash](news-aggregators.md#newsflash)
 - ![Feeder logo](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder (Android)](news-aggregators.md#feeder)
-- ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ .twemoji loading=lazy } [Fluent Reader](news-aggregators.md#fluent-reader)
 - ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji loading=lazy }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji loading=lazy } [Miniflux](news-aggregators.md#miniflux)
 - ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ .twemoji loading=lazy } [NetNewsWire](news-aggregators.md#netnewswire)
 - ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ .twemoji loading=lazy } [Newsboat](news-aggregators.md#newsboat)
@@ -700,7 +689,6 @@ These tools may provide utility for certain individuals. They provide functional
 - ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
 - ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
 - ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji loading=lazy }![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji loading=lazy } [Hypatia (Android)](device-integrity.md#hypatia-android)
-- ![iVerify logo](assets/img/device-integrity/iverify.webp){ .twemoji loading=lazy } [iVerify Basic (iOS)](device-integrity.md#iverify-basic-ios)
 
 </div>
 

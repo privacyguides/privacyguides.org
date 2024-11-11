@@ -147,6 +147,7 @@ plugins:
     categories:
       - categories
       - tags
+  glightbox: {}
   tags: {}
   search: {}
   privacy:
@@ -200,7 +201,6 @@ markdown_extensions:
   tables: {}
   footnotes: {}
   toc:
-    permalink: true
     toc_depth: 4
 
 nav:
@@ -210,6 +210,7 @@ nav:
   - !ENV [NAV_BLOG, "Articles"]:
       - index.md
       - tags.md
+      - editorial.md
   - !ENV [NAV_ABOUT, "About"]: /en/about/
   - "Donate": /en/about/donate/
   - !ENV [NAV_CHANGELOG, "Changelog"]:

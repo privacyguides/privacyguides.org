@@ -364,7 +364,6 @@ markdown_extensions:
   tables: {}
   footnotes: {}
   toc:
-    permalink: true
     toc_depth: 4
 
 nav:
@@ -449,6 +448,8 @@ nav:
   - !ENV [NAV_ABOUT, "About"]:
       - "about.md"
       - "about/donate.md"
+      - !ENV [NAV_ABOUT_TEAM_MEMBERS, "Team Members"]:
+          https://discuss.privacyguides.net/u?group=team&order=solutions&period=all
       - "about/contributors.md"
       - "about/criteria.md"
       - "about/executive-policy.md"
