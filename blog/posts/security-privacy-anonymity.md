@@ -11,6 +11,8 @@ links:
 tags:
     - Security
 license: BY
+description: Privacy, security, and anonymity often complement each other, but they are not always dependent on each other, and they are definitely not the same thing.
+schema_type: OpinionNewsArticle
 ---
 # Security, Privacy, and Anonymity
 

@@ -1,0 +1,128 @@
+definitions:
+  - &site_name >-
+    {{ config.site_name }}
+
+  - &page_title >-
+    {{ page.meta.get("title", page.title) }}
+
+  - &page_description >-
+    {{ page.meta.get("description", config.site_description) or "" }}
+
+  - &page_logo >-
+    {% if page.meta.preview and page.meta.preview.logo %}
+      {{- page.meta.preview.logo -}}
+    {% endif %}
+
+  - &page_icon >-
+    {%- if not page.meta.preview or not page.meta.preview.logo -%}
+      material/book-open-page-variant
+    {%- endif -%}
+
+  - &logo >-
+    theme/assets/brand/logos/svg/logo/privacy-guides-logo-notext-colorbg.svg
+
+  - &updated_time >-
+    {% if page.config.date.updated %}
+      {{- page.config.date.updated.strftime('%Y-%m-%d') -}}
+    {% else %}
+      {{- page.config.date.created.strftime('%Y-%m-%d') -}}
+    {% endif %}
+
+  - &author_mastodon >-
+    {%- if page.authors[0].mastodon -%}
+      @{{- page.authors[0].mastodon.username -}}@{{- page.authors[0].mastodon.instance -}}
+    {%- else -%}
+      {{- "@privacyguides@neat.computer" -}}
+    {%- endif -%}
+
+  - &author_twitter >-
+    {%- if page.authors[0].twitter -%}
+      @{{- page.authors[0].twitter -}}
+    {%- else -%}
+      {{- "@privacy_guides" -}}
+    {%- endif -%}
+
+# Meta tags
+tags:
+  # Open Graph
+  og:type: article
+  og:title: *page_title
+  og:description: *page_description
+  og:image: "{{ image.url }}"
+  og:image:type: "{{ image.type }}"
+  og:image:width: "{{ image.width }}"
+  og:image:height: "{{ image.height }}"
+  og:url: "{{ page.canonical_url }}"
+
+  # Blog
+  article:published_time: "{{ page.config.date.created.strftime('%Y-%m-%d') }}"
+  article:modified_time: *updated_time
+  article:section: "{{ page.categories[0].title }}"
+  article:author: "https://www.privacyguides.org/articles/{{ page.authors[0].url }}"
+
+  # Mastodon
+  fediverse:creator: *author_mastodon
+
+  # Twitter
+  twitter:site: "@privacy_guides"
+  twitter:creator: *author_twitter
+  twitter:card: summary_large_image
+  twitter:title: *page_title
+  twitter:description: *page_description
+  twitter:image: "{{ image.url }}"
+
+# -----------------------------------------------------------------------------
+# Specification
+# -----------------------------------------------------------------------------
+
+# Card size and layers
+size: { width: 1200, height: 630 }
+layers:
+  # Background
+  - background:
+      color: "#FFD06F"
+
+  - size: { width: 512, height: 512 }
+    offset: { x: 600, y: 59 }
+    background:
+      image: *page_logo
+
+  - background:
+      color: "#FFD06F99"
+
+  # Page icon
+  - size: { width: 630, height: 630 }
+    offset: { x: 570, y: 0 }
+    icon:
+      value: *page_icon
+      color: "#00000033"
+
+  # Logo
+  - size: { width: 64, height: 64 }
+    offset: { x: 64, y: 64 }
+    background:
+      image: *logo
+
+  # Site name
+  - size: { width: 768, height: 42 }
+    offset: { x: 160, y: 78 }
+    typography:
+      content: *site_name
+      color: "#2d2d2d"
+      font:
+        family: Bagnard
+        style: Bold
+
+  # Page title
+  - size: { width: 864, height: 256 }
+    offset: { x: 62, y: 192 }
+    typography:
+      content: *page_title
+      align: start
+      color: "#2d2d2d"
+      line:
+        amount: 3
+        height: 1.5
+      font:
+        family: Bagnard
+        style: Bold

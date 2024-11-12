@@ -1,7 +1,7 @@
 ---
 date:
     created: 2022-07-07
-    updated: 2023-05-06
+    updated: 2024-08-23
 authors:
     - contributors
     - matchboxbananasynergy
@@ -13,6 +13,8 @@ tags:
     - Molly
     - Instant Messengers
 license: BY-SA
+description: This guide details actions you can take to configure and harden Signal in accordance with your threat model.
+schema_type: AnalysisNewsArticle
 ---
 # Signal Configuration and Hardening Guide
 
@@ -199,46 +201,13 @@ If you use iCloud and you don’t want to share call history on Signal, confirm 
 
 While it may be tempting to link your Signal account to your desktop device for convenience, keep in mind that this extends your trust to an additional and potentially less secure operating system.
 
-If your threat model calls for it, avoid linking your Signal account to a desktop device to reduce your attack surface.
-
-### Endpoint Security
-
-Signal takes security very seriously, however there is only so much an app can do to protect you.
-
-It is very important to take device security on both ends into account to ensure that your conversations are kept private.
-
-We recommend an up-to-date [GrapheneOS](https://www.privacyguides.org/en/android/distributions#grapheneos) or iOS device.
+Avoid linking your Signal account to a desktop device to reduce your attack surface, if your threat model calls for protecting against [:material-bug-outline: Passive Attacks](https://www.privacyguides.org/en/basics/common-threats/#security-and-privacy){ .pg-orange }.
 
 ### Molly (Android)
 
-On Android you can consider using **Molly**, a fork of the Signal mobile client which aims to provide extensive hardening and anti-forensic features.
+If you use [Molly](https://www.privacyguides.org/en/real-time-communication/#molly-android) on Android to access the Signal network, there are a number of privacy- and security-enhancing features that you may want to explore.
 
-!!! recommendation
-
-    ![Molly logo](../assets/images/signal-configuration/molly.svg){ align=right }
-
-    **Molly** is an independent Signal fork which offers additional security features, including locking the app at rest, securely shredding unused RAM data, routing via Tor, and more.
-
-    [:octicons-home-16: Homepage](https://molly.im/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title=Contribute }
-
-    ??? downloads
-
-         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/im.molly.app)
-         - [:simple-github: GitHub](https://github.com/mollyim/mollyim-android/releases)
-
-Molly offers two variants of the app: **Molly** and **Molly-FOSS**.
-
-The former is identical to Signal with the addition of Molly's improvements and security features. The latter, Molly-FOSS, removes Google's proprietary code, which is used for some key features (e.g., [FCM](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) and Google Maps integration), in an effort to make it fully open-source.
-
-A comparison of the two versions is available in the [project's repository](https://github.com/mollyim/mollyim-android#readme).
-
-Both versions of Molly support [reproducible builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), meaning it's possible to confirm that the compiled APKs match the source code.
-
-#### Features
+#### Privacy and Security Features
 
 Molly has implemented database encryption at rest, which means that you can encrypt the app's database with a passphrase to ensure that none of its data is accessible without it.
 
@@ -251,7 +220,7 @@ Once enabled, a configurable lock timer can be set, after which point Molly will
 For the database encryption feature to be useful, two conditions must be met:
 
 1. Molly has to be locked at the time an attacker gains access to the device. This can include a physical attack in which the attacker seizes your device and manages to unlock the device itself, or a remote attack, in which the device is compromised and manages to elevate privileges to root.
-1. If you become aware that your device has been compromised, you should not unlock Molly's database.
+2. If you become aware that your device has been compromised, you should not unlock Molly's database.
 
 If both of the above conditions are met, the data within Molly is safe as long as the passphrase is not accessible to the attacker.
 
@@ -266,9 +235,3 @@ Signal adds everyone who you have communicated with to its database. Molly allow
 To supplement the feature above, as well as for additional security and to fight spam, Molly offers the ability to block unknown contacts that you've never been in contact with or those that are not in your contact list without you having to manually block them.
 
 You can find a full list of Molly's [features](https://github.com/mollyim/mollyim-android#features) on the project's repository.
-
-#### Caveats
-
-- Molly removes Signal's MobileCoin integration.
-- Molly is updated every two weeks to include the latest features and bug fixes from Signal. The exception is security issues, which are patched as soon as possible. That said, you should be aware that there might be a slight delay compared to upstream.
-- By using Molly, you are extending your trust to another party, as you now need to trust the Signal team, as well as the Molly team.

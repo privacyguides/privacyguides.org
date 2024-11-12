@@ -1,5 +1,6 @@
 ---
 title: Uploading Images
+description: A guide for website contributors on uploading images in the proper format and location.
 ---
 
 If you make changes to this website that involve adding new images or replacing existing ones, here are a couple of general recommendations:

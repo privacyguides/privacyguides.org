@@ -26,11 +26,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     {% if page.meta and page.meta.description %}
     <meta name="description" content="{{ page.meta.description }}">
-    {% elif config.site_description %}
-    <meta name="description" content="{{ config.site_description }}">
     {% endif %}
     {% if page.meta and page.meta.author %}
     <meta name="author" content="{{ page.meta.author }}">
+    {% elif page.authors %}
+    <meta name="author" content="{{ page.authors[0].name }}">
     {% elif config.site_author %}
     <meta name="author" content="{{ config.site_author }}">
     {% endif %}
@@ -83,12 +83,8 @@
     <meta name="robots" content="max-snippet:-1, max-image-preview:large">
   {% endif %}
 
-  <meta name="fediverse:creator" content="privacyguides@neat.computer" />
-
   {% if config.extra.context == "production" %}
-  <meta http-equiv="onion-location" content="{{ "http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/" ~ config.theme.language ~ "/" ~ page.url }}" />
-  {% elif config.extra.deploy %}
-  <meta http-equiv="onion-location" content="{{ "http://" ~ config.extra.deploy ~ ".netlify.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/" ~ config.theme.language ~ "/" ~ page.url }}" />
+  <meta http-equiv="onion-location" content="{{ page.canonical_url | replace("https://www.privacyguides.org", "http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion") }}" />
   {% endif %}
   {% if page and page.meta and page.meta.schema %}
   <script type="application/ld+json">

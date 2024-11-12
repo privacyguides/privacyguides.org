@@ -1,10 +1,15 @@
 ---
 title: "Router Firmware"
 icon: material/router-wireless
-description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
+description: Alternative operating systems for securing your router or Wi-Fi access point.
 cover: router.webp
 ---
-Below are a few alternative operating systems, that can be used on routers, Wi-Fi access points, etc.
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+
+Below are a few alternative operating systems that can be used on routers, Wi-Fi access points, etc.
 
 ## OpenWrt
 

@@ -9,6 +9,8 @@ tags:
     - Linux
     - Security
 license: BY-SA
+description: We outline a few projects which aim to solve the poor sandboxing situation in Linux relative to operating systems like macOS and ChromeOS.
+schema_type: AnalysisNewsArticle
 ---
 # Sandboxing Applications on Desktop Linux
 

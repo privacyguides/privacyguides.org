@@ -12,6 +12,9 @@ authors:
     name: Niek de Wilde
     description: Team Member
     avatar: https://github.com/blacklight447.png
+    mastodon:
+      username: blacklight447
+      instance: mastodon.social
   dngray:
     name: Daniel Gray
     description: Team Member
@@ -22,8 +25,12 @@ authors:
     avatar: https://github.com/freddy-m.png
   jonah:
     name: Jonah Aragon
-    description: Team Member
+    description: Project Director
     avatar: https://github.com/jonaharagon.png
+    mastodon:
+      username: jonah
+      instance: neat.computer
+    twitter: jonaharagon
   kaitebay:
     name: Kai Tebay
     description: Former Team Member

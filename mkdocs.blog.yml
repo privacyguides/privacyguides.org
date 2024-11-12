@@ -23,7 +23,7 @@ site_url: "https://www.privacyguides.org/articles/"
 site_dir: "site/articles"
 
 site_name: Privacy Guides
-site_description: "Privacy Guides is your central privacy and security resource to protect yourself online."
+site_description: "Privacy Guides is the most popular & trustworthy non-profit privacy resource to find privacy tools and learn about protecting your digital life."
 edit_uri_template: blob/main/blog/{path}?plain=1
 
 extra:
@@ -117,7 +117,7 @@ theme:
     - search.highlight
 
 extra_css:
-  - assets/stylesheets/extra.css?v=20240802
+  - assets/stylesheets/extra.css?v=20240829
 
 watch:
   - theme
@@ -128,6 +128,8 @@ plugins:
     blog_dir: .
     blog_toc: true
     post_url_format: "{date}/{file}"
+    post_excerpt: required
+    post_excerpt_max_authors: 0
     authors_profiles: true
     authors_profiles_toc: true
     categories_allowed:
@@ -145,6 +147,7 @@ plugins:
     categories:
       - categories
       - tags
+  glightbox: {}
   tags: {}
   search: {}
   privacy:
@@ -198,7 +201,6 @@ markdown_extensions:
   tables: {}
   footnotes: {}
   toc:
-    permalink: true
     toc_depth: 4
 
 nav:
@@ -208,6 +210,7 @@ nav:
   - !ENV [NAV_BLOG, "Articles"]:
       - index.md
       - tags.md
+      - editorial.md
   - !ENV [NAV_ABOUT, "About"]: /en/about/
   - "Donate": /en/about/donate/
   - !ENV [NAV_CHANGELOG, "Changelog"]:

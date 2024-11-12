@@ -13,6 +13,8 @@ links:
 tags:
     - Privacy Guides
 license: CC0
+description: Today, Privacy Guides has officially launched by our long-standing volunteer team to carry on the legacy of the now-defunct PrivacyTools project.
+schema_type: NewsArticle
 ---
 # Welcome to Privacy Guides
 

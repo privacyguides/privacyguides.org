@@ -143,14 +143,7 @@ extra:
           link:
             !ENV [
               HOMEPAGE_RSS_BLOG_LINK,
-              "https://blog.privacyguides.org/feed_rss_created.xml",
-            ]
-        - title:
-            !ENV [HOMEPAGE_RSS_STORIES_TITLE, "Privacy Guides Web Stories feed"]
-          link:
-            !ENV [
-              HOMEPAGE_RSS_STORIES_LINK,
-              "https://share.privacyguides.org/web-stories/feed/",
+              "https://www.privacyguides.org/articles/feed_rss_created.xml",
             ]
         - title:
             !ENV [
@@ -284,8 +277,10 @@ theme:
 extra_css:
   - assets/stylesheets/extra.css?v=20240802
 extra_javascript:
-  - assets/javascripts/randomize-element.js?v=20240801
-  - assets/javascripts/feedback.js?v=20240801
+  - path: assets/javascripts/randomize-element.js?v=20240801
+    defer: true
+  - path: assets/javascripts/feedback.js?v=20240801
+    defer: true
 
 watch:
   - theme
@@ -358,7 +353,6 @@ markdown_extensions:
   tables: {}
   footnotes: {}
   toc:
-    permalink: true
     toc_depth: 4
 
 nav:
@@ -443,8 +437,11 @@ nav:
   - !ENV [NAV_ABOUT, "About"]:
       - "about.md"
       - "about/donate.md"
+      - !ENV [NAV_ABOUT_TEAM_MEMBERS, "Team Members"]:
+          https://discuss.privacyguides.net/u?group=team&order=solutions&period=all
       - "about/contributors.md"
       - "about/criteria.md"
+      - "about/executive-policy.md"
       - "about/notices.md"
       - "about/privacy-policy.md"
       - "about/jobs.md"
@@ -452,7 +449,6 @@ nav:
           - !ENV [NAV_ONLINE_SERVICES, "Online Services"]: "about/services.md"
           - !ENV [NAV_CODE_OF_CONDUCT, "Code of Conduct"]: "CODE_OF_CONDUCT.md"
           - "about/statistics.md"
-          - "about/privacytools.md"
       - !ENV [NAV_CONTRIBUTING, "Contributing"]:
           - !ENV [NAV_WRITING_GUIDE, "Writing Guide"]:
               - "meta/writing-style.md"
@@ -471,3 +467,5 @@ nav:
 validation:
   nav:
     not_found: info
+    omitted_files: ignore
+    absolute_links: ignore

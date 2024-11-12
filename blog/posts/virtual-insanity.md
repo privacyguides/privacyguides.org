@@ -11,6 +11,8 @@ links:
 tags:
     - Facebook
 license: BY-SA
+description: On Mark Zuckerberg, Facebook, and the Metaverse.
+schema_type: OpinionNewsArticle
 ---
 # Virtual Insanity
 

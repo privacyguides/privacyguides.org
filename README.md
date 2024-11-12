@@ -30,8 +30,8 @@
     <img src="https://img.shields.io/github/commits-since/privacyguides/privacyguides.org/latest"></a>
   <a href="https://crowdin.com/project/privacyguides">
     <img src="https://badges.crowdin.net/privacyguides/localized.svg"></a>
-  <a href="https://opencollective.com/privacyguides">
-    <img src="https://img.shields.io/opencollective/all/privacyguides"></a>
+  <a href="https://github.com/sponsors/privacyguides#sponsors">
+    <img src="https://img.shields.io/github/sponsors/privacyguides"></a>
   <a href="https://squidfunk.github.io/mkdocs-material/">
     <img src="https://img.shields.io/badge/Material_for_MkDocs-526CFE?logo=MaterialForMkDocs&logoColor=white"></a>
   <a href="https://github.com/privacyguides/privacyguides.org/actions/workflows/publish-release.yml">
@@ -44,7 +44,7 @@
 
 The current list of team members can be found [here](https://www.privacyguides.org/en/about/#executive-committee). Additionally, [many people](#contributors) have made contributions to the project, and you can too!
 
-*Featured on: [Tweakers](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html), [The New York Times](https://nytimes.com/wirecutter/guides/online-security-social-media-privacy), and [Wired](https://wired.com/story/firefox-mozilla-2022)*
+*Featured on: [Tweakers](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html), [The New York Times](https://nytimes.com/wirecutter/guides/online-security-social-media-privacy), [Wired](https://wired.com/story/firefox-mozilla-2022), and [Fast Company](https://www.fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again).*
 
 ## Contributing
 
@@ -592,6 +592,9 @@ Privacy Guides wouldn't be possible without these wonderful people ([emoji key](
       <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/overwatcheddude"><img src="https://avatars.githubusercontent.com/u/37483931?v=4" width="100px;" loading=lazy /><br /><sub><b>Overwatch</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=overwatcheddude" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/m00t316"><img src="https://avatars.githubusercontent.com/u/54213179?v=4" width="100px;" loading=lazy /><br /><sub><b>Kieran Colfer</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=m00t316" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/I-I-IT"><img src="https://avatars.githubusercontent.com/u/78900789?v=4" width="100px;" loading=lazy /><br /><sub><b>Triple T</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=I-I-IT" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/IDON-TEXIST"><img src="https://avatars.githubusercontent.com/u/73442356?v=4" width="100px;" loading=lazy /><br /><sub><b>IDON-TEXIST</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=IDON-TEXIST" title="Documentation">📖</a></td>
     </tr>
   </tbody>
   <tfoot>

@@ -432,6 +432,9 @@
       <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/m00t316"><img src="https://avatars.githubusercontent.com/u/54213179?v=4" width="100px;" loading=lazy /><br /><sub><b>Kieran Colfer</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=m00t316" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/I-I-IT"><img src="https://avatars.githubusercontent.com/u/78900789?v=4" width="100px;" loading=lazy /><br /><sub><b>Triple T</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=I-I-IT" title="Documentation">📖</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/IDON-TEXIST"><img src="https://avatars.githubusercontent.com/u/73442356?v=4" width="100px;" loading=lazy /><br /><sub><b>IDON-TEXIST</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=IDON-TEXIST" title="Documentation">📖</a></td>
+    </tr>
   </tbody>
   <tfoot>
     <tr>
