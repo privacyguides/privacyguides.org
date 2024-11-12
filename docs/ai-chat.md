@@ -32,13 +32,14 @@ A quick **overview** of the two providers we recommend:
 | Feature | DuckDuckGo AI | Brave Leo |
 |---------|---------------|-----------|
 | Tor Access | :material-check:{ .pg-green } Official onion service | :material-alert-outline:{ .pg-orange } Android-only (Orbot) |
-| Rate Limits | :material-check:{ .pg-green } High | :material-alert-outline:{ .pg-orange } Low-Medium¹ |
+| Rate Limits | :material-check:{ .pg-green } High | :material-alert-outline:{ .pg-orange } Low-Medium[^1] |
 | Self-hosted Models | :material-close:{ .pg-red } | :material-check:{ .pg-green } |
 | Web Search Integration | :material-close:{ .pg-red } | :material-check:{ .pg-green } |
 | Multi-language Support | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Limited |
 | Account Required | :material-close:{ .pg-red } | :material-close:{ .pg-red } |
 | Mobile Support | :material-check:{ .pg-green } | :material-check:{ .pg-green } only on Brave |
-¹ Rate limits vary by model, with Llama having the lowest restrictions
+
+[^1]: Rate limits vary by model, with Llama having the lowest restrictions
 
 ### DuckDuckGo AI Chat
 
