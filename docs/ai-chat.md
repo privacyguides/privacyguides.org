@@ -50,7 +50,7 @@ A quick **overview** of the two providers we recommend:
 **DuckDuckGo AI Chat** is a web frontend for AI models. It is made by the popular [search engine provider](search-engines.md) of the same name.
 It is available directly on [DuckDuckGo](https://duckduckgo.com), [duck.ai](https://duck.ai), or [DuckDuckGo onion site](https://duckduckgogg41xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/chat).
 
-DuckDuckGo give you access to open-weights models from Meta and Mistral, as well as proprietary models from Anthropic and OpenAI. We strongly recommend youse open-weights models, because for those, no chat history is stored by Together.ai, the AI cloud platform DuckDuckGo uses to provide those models.
+DuckDuckGo give you access to open-weights models from Meta and Mistral, as well as proprietary models from Anthropic and OpenAI. We strongly recommend you use open-weights models, because for those, no chat history is stored by Together.ai, the AI cloud platform DuckDuckGo uses to provide those models.
 Furthermore, to protect your IP adress and prevent fingerprinting, DuckDuckGo proxies your chats through their servers.
 
 [:octicons-home-16: Homepage](https://duck.ai){ .md-button .md-button--primary }
@@ -60,7 +60,7 @@ Furthermore, to protect your IP adress and prevent fingerprinting, DuckDuckGo pr
 
 </div>
 
-Duck has agreements with their third-party providers that guarantee that they will not use your data for training their AI models. Proprietary model providers can keep a chat history for up to 30 days. For open-weights model, Duck uses the [together.ai](https://together.ai) AI cloud platform, and has disabled history for those chats.
+DuckDuckGo has agreements with their third-party providers that guarantee that they will not use your data for training their AI models. Proprietary model providers can keep a chat history for up to 30 days. For open-weights model, Duck uses the [together.ai](https://together.ai) AI cloud platform, and has disabled history for those chats.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Proprietary Model Providers Retain Your Chats</p>
@@ -208,7 +208,7 @@ In addition to supporting a wide range of text models, Ollama also supports [LLa
 
 Ollama shines best when you're looking for an AI client that has great compatibility and ease of use. It runs on all desktop platforms and doesn't involve any manual setup, while still using inference and other techniques to make outputs faster.
 
-It also simplifies the process of setting up a local AI chat, as it downloads the AI model you want to use automatically. For example, running `ollama run llama3.2` will automatically download and run the Llama 3.2 model. Furthermore, ollama maintains their own [model library](https://ollama.com/library/) where they host various AI models files. This ensures models are vetted for both performance and security, eliminating the need to manually verify model authenticity.
+It also simplifies the process of setting up a local AI chat, as it downloads the AI model you want to use automatically. For example, running `ollama run llama3.2` will automatically download and run the Llama 3.2 model. Furthermore, ollama maintains their own [model library](https://ollama.com/library/) where they host the files of various AI models. This ensures models are vetted for both performance and security, eliminating the need to manually verify model authenticity.
 
 #### Llamafile
 
@@ -233,7 +233,7 @@ The Mozilla-run project also supports LLaVA. However, it does not support speech
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Few Models Available</p>
-Mozilla has only made llamafiles available for some Llama and Mistral models, while there are few third-party llamafiles available. Another issue is that Windows limits .exe files to 4GB, and most models are larger than that. To fix both of those issues, you can load external weights, as detailed [here](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#using-llamafile-with-external-weights).
+Mozilla has only made llamafiles available for some Llama and Mistral models, while there are few third-party llamafiles available. Another issue is that Windows limits .exe files to 4GB, and most models are larger than that. To fix both of those issues, you can [load external weights](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#using-llamafile-with-external-weights).
 </div>
 
 ## Criteria
