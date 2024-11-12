@@ -86,7 +86,7 @@ Trying to protect all your data from everyone all the time is impractical, expen
 
 <div class="grid cards" markdown>
 
--   ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
+-   ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji loading=lazy } **Proton Mail**
 
     ---
 
@@ -94,7 +94,7 @@ Trying to protect all your data from everyone all the time is impractical, expen
 
     [:octicons-arrow-right-24: Read Full Review](email.md#proton-mail)
 
--   ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji } **Mailbox.org**
+-   ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji loading=lazy } **Mailbox.org**
 
     ---
 
@@ -102,7 +102,7 @@ Trying to protect all your data from everyone all the time is impractical, expen
 
     [:octicons-arrow-right-24: Read Full Review](email.md#mailboxorg)
 
--   ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
+-   ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji loading=lazy } **Tuta**
 
     ---
 
@@ -162,7 +162,7 @@ Trying to protect all your data from everyone all the time is impractical, expen
 
 ## About Privacy Guides
 
-![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right }
+![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 
 Established in 2021 due to the difficulty of finding unbiased reviewers in the VPN and privacy space, **Privacy Guides** is the most popular, trustworthy, non-profit website that provides information about protecting your *personal* data security and privacy. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
 
