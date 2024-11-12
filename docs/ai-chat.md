@@ -274,4 +274,4 @@ Our best-case criteria represent what we *would* like to see from the perfect pr
 - Should be multi-platform.
 - Should be easy to download and set up, such as having a one-click install process.
 - Should have a built-in model downloader option.
-- Should be customizable (the user can modify the LLM paramaters, such as it's system prompt or it's temperature).
+- Should be customizable (the user can modify the LLM paramaters, such as its system prompt or its temperature).
