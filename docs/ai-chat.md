@@ -127,10 +127,12 @@ To help you choose a model that fit your needs, you can look at leaderboards and
 <details class="admonition warning" markdown>
 <summary>Model Security and Verification</summary>
 When downloading AI models, especially from Hugging Face, it's important to verify their authenticity. Look for:
+
 - Model cards with clear documentation
 - Verified organization badge
 - Community reviews and usage statistics
 - **When available**, verify the file checksum (a type of anti-tampering fingerprint).  On Hugging Face, you can find the hash by:
+
     1. Clicking on a model file
     2. Looking for "Copy SHA256" button below the file
     3. Comparing this hash with the one you get after downloading (using tools like `sha256sum` on Linux/macOS or `certutil -hashfile file SHA256` on Windows)
