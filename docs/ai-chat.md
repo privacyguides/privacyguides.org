@@ -2,7 +2,7 @@
 meta_title: "Recommended AI Chat: Private ChatGPT Alternatives - Privacy Guides"
 title: "AI Chat"
 icon: material/assistant
-description: Unlike OpenAI's ChatGPT and its Big Tech rivals, these AI tools do not train their models using your conversations.
+description: Unlike OpenAI's ChatGPT and its Big Tech competitors, these AI tools do not train their models using your conversations.
 cover: ai-chatbots.webp
 ---
 <small>Protects against the following threat(s):</small>
@@ -10,12 +10,13 @@ cover: ai-chatbots.webp
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 - [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-Since the release of **ChatGPT** in 2022, interacting with **Large Language Models** (*LLMs*) has become common. **LLMs can help us** write better, understand unfamiliar subjects, or answer a wide range of questions.
-Based on vast amount of data scraped from the web, they statistically predict the next word. However, to improve the quality of LLMs, developers of AI software often use [Reinforcement Learning from Human Feedback](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback). This means AI **companies** might **read your private AI chats** to evaluate and **improve their models**. But that means that those private conversations must be stored, which introduces a risk of **data breaches**. Furthermore, there is a real possibility that the LLM will leak your private chat information in future conversations with other users. To solve those problems, you can use trusted and privacy-focused providers or run AI models locally so your data never leaves your device.
+Since the release of ChatGPT in 2022, interactions with Large Language Models (LLMs) have become increasingly common. LLMs can help us write better, understand unfamiliar subjects, or answer a wide range of questions. Based on a vast amount of data scraped from the web, they can statistically predict the next word.
+
+However, to improve the quality of LLMs, developers of AI software often use [Reinforcement Learning from Human Feedback](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback) (RLHF). This entails the possibility of AI companies reading your private AI chats as well as storing them, which introduces a risk of data breaches. Furthermore, there is a real possibility that an LLM will leak your private chat information in future conversations with other users. To solve these problems, you can use trusted and privacy-focused providers or run AI models locally so your data never leaves your device.
 
 <details class="admonition info" markdown>
-<summary>Privacy and Ethical Concerns about LLMs</summary>
-AI models have been trained on massive amounts of public *and* private data. If you are concerned about these practices, you can either refuse to use AI or use [truly open-source models](https://proton.me/blog/how-to-build-privacy-first-ai), which publicly release their training datasets and therefore weren't trained on private data. One such model is [Olmoe](https://blog.allenai.org/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514) made by [Allenai](https://allenai.org/open-data).
+<summary>Ethical and Privacy Concerns about LLMs</summary>
+AI models have been trained on massive amounts of public *and* private data. If you are concerned about these practices, you can either refuse to use AI or use [truly open-source models](https://proton.me/blog/how-to-build-privacy-first-ai), which publicly release their training datasets and therefore weren't trained on private data. One such model is [Olmoe](https://allenai.org/blog/olmoe) made by [Allenai](https://allenai.org/open-data).
 
 [Ethical concerns](https://www.thelancet.com/journals/landig/article/PIIS2588-7500(24)00061-X/fulltext) about AI range from their impact on climate to their potential for discrimination.
 </details>
@@ -23,9 +24,9 @@ AI models have been trained on massive amounts of public *and* private data. If 
 
 ## Cloud Providers
 
-The AI chat **cloud providers we recommend do not train their models using your chats** and do not retain your chats for more than a month, based on each service's privacy policy. However, there is **no guarantee** that these privacy policies are honored. Read our [full list of criteria](#criteria) for more information.
+The AI chat cloud providers listed here do not train their models using your chats and do not retain your chats for more than a month, based on each service's privacy policy. However, there is **no guarantee** that these privacy policies are honored. Read our [full list of criteria](#criteria) for more information.
 
-When using cloud-based AI chat tools, be mindful of the personal information you share. Even if a service doesn't store your conversations, there's still a risk of sensitive data being exposed or misused. **Do not share sensitive information** related to health, finance, or other highly personal matters to protect your privacy and security.
+When using cloud-based AI chat tools, be mindful of the personal information you share. Even if a service doesn't store your conversations, there's still a risk of sensitive data being exposed or misused. To protect your privacy and security, **do not share sensitive information** related to health, finance, or other highly personal matters.
 
 A quick **overview** of the two providers we recommend:
 

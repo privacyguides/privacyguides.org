@@ -470,15 +470,18 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Learn more :material-arrow-right-drop-circle:](frontends.md)
 
-### AI chat
+### AI Chat
 
-#### Cloud providers
+#### Cloud Providers
 
 <div class="grid cards" markdown>
 
 - ![Duck AI logo](assets/img/ai-chat/duckai.svg){ .twemoji loading=lazy }[Duck AI](ai-chat.md#duckduckgo-ai-chat)
 - ![Leo AI logo](assets/img/ai-chat/leo.svg){ .twemoji loading=lazy }[Brave Leo](ai-chat.md#brave-leo)
+
 </div>
+
+[Learn more :material-arrow-right-drop-circle:](ai-chat.md#cloud-providers)
 
 #### Local AI
 
@@ -487,7 +490,10 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 - ![Kobold logo](assets/img/ai-chat/kobold.png){ .twemoji loading=lazy }[Kobold.cpp](ai-chat.md#koboldcpp)
 - ![Llamafile logo](assets/img/ai-chat/llamafile.svg){ .twemoji loading=lazy }[Llamafile](ai-chat.md#llamafile)
 - ![Ollama logo](assets/img/ai-chat/ollama.svg){ .twemoji loading=lazy }[Ollama](ai-chat.md#ollama)
+
 </div>
+
+[Learn more :material-arrow-right-drop-circle:](ai-chat.md#local-ai-chat)
 
 ### Language Tools
 
