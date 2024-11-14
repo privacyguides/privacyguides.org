@@ -29,12 +29,4 @@ We are occasionally looking for strong journalistic writers, product reviewers, 
 
     [View posting :material-arrow-right-drop-circle:](jobs/journalist.md)
 
-- :material-comment-account-outline:{ .lg .middle } **Intern - Community/News**
-
-    ---
-
-    Internship | Remote | \$15/hour
-
-    [View posting :material-arrow-right-drop-circle:](jobs/intern-news.md)
-
 </div>
