@@ -19,12 +19,19 @@ jobs:
     env:
       ACTIONS_SSH_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
     steps:
+      - name: Save PR metadata
+        run: |
+          mkdir -p ./metadata
+          echo ${{ github.event.number }} > ./metadata/NR
+          echo ${{ github.event.pull_request.head.sha }} > ./metadata/SHA
+
       - name: Set submodules for fork
         if: env.ACTIONS_SSH_KEY == ''
         id: submodules-fork
         run: |
           echo 'submodules={"repo":["brand","i18n"]}' >> "$GITHUB_OUTPUT"
           echo "privileged=false" >> "$GITHUB_OUTPUT"
+          echo "false" > ./metadata/PRIVILEGED
 
       - name: Set submodules for main repo
         if: env.ACTIONS_SSH_KEY != ''
@@ -32,12 +39,7 @@ jobs:
         run: |
           echo 'submodules={"repo":["brand","i18n","mkdocs-material-insiders"]}' >> "$GITHUB_OUTPUT"
           echo "privileged=true" >> "$GITHUB_OUTPUT"
-
-      - name: Save PR metadata
-        run: |
-          mkdir -p ./metadata
-          echo ${{ github.event.number }} > ./metadata/NR
-          echo ${{ github.event.pull_request.head.sha }} > ./metadata/SHA
+          echo "true" > ./metadata/PRIVILEGED
 
       - name: Upload metadata as artifact
         uses: actions/upload-artifact@v4

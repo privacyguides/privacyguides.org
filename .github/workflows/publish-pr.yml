@@ -22,6 +22,7 @@ jobs:
     outputs:
       pr_number: ${{ steps.metadata.outputs.pr_number }}
       sha: ${{ steps.metadata.outputs.sha }}
+      privileged: ${{ steps.metadata.outputs.privileged }}
 
     steps:
       - name: Download Website Build Artifact
@@ -86,6 +87,7 @@ jobs:
           unzip metadata.zip -d metadata
           echo "pr_number=$(cat metadata/NR)" >> "$GITHUB_OUTPUT"
           echo "sha=$(cat metadata/SHA)" >> "$GITHUB_OUTPUT"
+          echo "privileged=$(cat metadata/PRIVILEGED)" >> "$GITHUB_OUTPUT"
 
   deploy_netlify:
     needs: metadata
@@ -122,6 +124,7 @@ jobs:
       address: ${{ needs.deploy_garage.outputs.address }}
     steps:
       - uses: thollander/actions-comment-pull-request@v2.5.0
+        if: ${{ needs.metadata.outputs.privileged == 'true' }}
         with:
           pr_number: ${{ needs.metadata.outputs.pr_number }}
           message: |
@@ -131,4 +134,20 @@ jobs:
             | :---: | ---- |
             | <span aria-hidden="true">🔨</span> Latest commit | ${{ needs.metadata.outputs.sha }} |
             | <span aria-hidden="true">😎</span> Preview | ${{ env.address }} |
+          comment_tag: deployment
+
+      - uses: thollander/actions-comment-pull-request@v2.5.0
+        if: ${{ needs.metadata.outputs.privileged == 'false' }}
+        with:
+          pr_number: ${{ needs.metadata.outputs.pr_number }}
+          message: |
+            ### <span aria-hidden="true">✅</span> Your preview is ready!
+
+            |  Name | Link |
+            | :---: | ---- |
+            | <span aria-hidden="true">🔨</span> Latest commit | ${{ needs.metadata.outputs.sha }} |
+            | <span aria-hidden="true">😎</span> Preview | ${{ env.address }} |
+
+            Please note that this preview was built from an untrusted source, so it was not granted access to all mkdocs-material features.
+            Maintainers should ensure this PR has been reviewed locally with a full build before merging.
           comment_tag: deployment
