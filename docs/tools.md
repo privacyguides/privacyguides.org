@@ -76,19 +76,27 @@ For more details about each project, why they were chosen, and additional tips o
     - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
     - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
 
+- ![Cromite logo](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite (Android)**
+
+    ---
+
+    **Cromite** is a Chromium-based Android browser with built-in ad-blocking and [privacy enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the popular, now-discontinued Bromite browser.
+
+    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
+
 - ![Mull logo](assets/img/browsers/mull.svg){ .lg .middle .twemoji } **Mull (Android)**
 
     ---
 
     **Mull** is a Firefox-based browser for Android centered around privacy and removing proprietary components.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#mull)
+    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#mull-android)
 
 - ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0/) features and default tracker blocking. It also separates your cookies in private browsing mode to prevent tracking between tabs.
+    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. It also separates your cookies in private browsing mode to prevent tracking between tabs.
 
     - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
@@ -115,7 +123,7 @@ For more details about each project, why they were chosen, and additional tips o
 <div class="grid cards" markdown>
 
 - ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser)
+- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser-ios)
 
 </div>
 
@@ -404,13 +412,15 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 ### Encryption Software
 
 <details class="info" markdown>
-<summary>Operating System Disk Encryption</summary>
+<summary>Operating System Encryption</summary>
 
-For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and typically use hardware encryption elements such as a TPM that other full-disk encryption software like VeraCrypt do not. VeraCrypt is still suitable for non-operating system disks such as external drives, especially drives that may be accessed from multiple operating systems.
+For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
+[Learn more :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
+
+#### Cross-platform Tools
 
 <div class="grid cards" markdown>
 
@@ -498,7 +508,6 @@ For encrypting your operating system drive, we typically recommend using whichev
 - ![Akregator logo](assets/img/news-aggregators/akregator.svg){ .twemoji loading=lazy } [Akregator](news-aggregators.md#akregator)
 - ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ .twemoji loading=lazy } [NewsFlash](news-aggregators.md#newsflash)
 - ![Feeder logo](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder (Android)](news-aggregators.md#feeder)
-- ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ .twemoji loading=lazy } [Fluent Reader](news-aggregators.md#fluent-reader)
 - ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji loading=lazy }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji loading=lazy } [Miniflux](news-aggregators.md#miniflux)
 - ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ .twemoji loading=lazy } [NetNewsWire](news-aggregators.md#netnewswire)
 - ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ .twemoji loading=lazy } [Newsboat](news-aggregators.md#newsboat)

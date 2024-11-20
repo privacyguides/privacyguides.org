@@ -65,6 +65,10 @@ jobs:
         with:
           cache: "pipenv"
 
+      - name: Install Python (no pipenv)
+        if: ${{ !inputs.privileged }}
+        uses: actions/setup-python@v5
+
       - name: Install Python Dependencies
         if: inputs.privileged
         run: |
@@ -72,9 +76,21 @@ jobs:
           pipenv install
           sudo apt install pngquant
 
-      - name: Build Website
+      - name: Install Python Dependencies (Unprivileged)
+        if: ${{ !inputs.privileged }}
+        run: |
+          pip install mkdocs-material mkdocs-rss-plugin mkdocs-glightbox mkdocs-macros-plugin
+          sudo apt install pngquant
+
+      - name: Build Website (Privileged)
+        if: inputs.privileged
         run: |
           pipenv run mkdocs build --config-file mkdocs.blog.yml
+
+      - name: Build Website (Unprivileged)
+        if: ${{ !inputs.privileged }}
+        run: |
+          BUILD_INSIDERS=false mkdocs build --config-file mkdocs.blog.yml
 
       - name: Package Website
         run: |

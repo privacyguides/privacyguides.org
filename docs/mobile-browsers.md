@@ -27,6 +27,18 @@ schema:
   -
     "@context": http://schema.org
     "@type": MobileApplication
+    name: Cromite
+    image: /assets/img/browsers/cromite.svg
+    url: https://cromite.org
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Android
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+  -
+    "@context": http://schema.org
+    "@type": MobileApplication
     name: Safari
     image: /assets/img/browsers/safari.svg
     url: https://apple.com/safari
@@ -56,7 +68,7 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 [:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -91,7 +103,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 === "Android"
 
     <div class="annotate" markdown>
-    
+
     - [x] Select **Aggressive** under *Block trackers & ads*
     - [x] Select **Auto-redirect AMP pages**
     - [x] Select **Auto-redirect tracking URLs**
@@ -107,24 +119,24 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
 
     </details>
-    
+
     - [x] Select **Forget me when I close this site**
 
     </div>
 
     1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
-    
+
 === "iOS"
 
     <div class="annotate" markdown>
-    
+
     - [x] Select **Aggressive** under *Trackers & Ads Blocking*
     - [x] Select **Strict** under *Upgrade Connections to HTTPS*
     - [x] Select **Auto-Redirect AMP pages**
     - [x] Select **Auto-Redirect Tracking URLs**
     - [x] (Optional) Select **Block Scripts** (1)
     - [x] Select **Block Fingerprinting**
-    
+
     <details class="warning" markdown>
     <summary>Use default filter lists</summary>
 
@@ -135,7 +147,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     </div>
 
     1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
-    
+
 ##### Clear browsing data (Android only)
 
 - [x] Select **Clear data on exit**
@@ -149,7 +161,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 === "Android"
 
     <div class="annotate" markdown>
-    
+
     - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [x] (Optional) Select **No protection** under *Safe Browsing* (1)
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
@@ -166,8 +178,8 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
     - [ ] Uncheck **Automatically send daily usage ping to Brave**
-    
-### Leo
+
+#### Leo
 
 These options can be found in :material-menu: → **Settings** → **Leo**.
 
@@ -179,9 +191,76 @@ These options can be found in :material-menu: → **Settings** → **Leo**.
 
 1. This option is not present in Brave's iOS app.
 
-### Brave Sync
+#### Search engines
+
+These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+
+- [ ] Uncheck **Show search suggestions**
+
+#### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+
+## Cromite (Android)
+
+<div class="admonition recommendation" markdown>
+
+![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
+
+**Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other [privacy and security enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
+
+[:octicons-home-16: Homepage](https://www.cromite.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-android: F-Droid](https://www.cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
+- [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
+
+</details>
+
+</div>
+
+### Recommended Configuration
+
+These options can be found in :material-menu: → :gear: **Settings** → **Privacy and security**.
+
+#### Browsing data
+
+- [x] Select **Close all open tabs on exit**
+
+#### Incognito mode
+
+- [x] Select **Open external links in incognito**
+
+#### Security
+
+- [x] Select **Always use secure connections**
+
+This prevents you from unintentionally connecting to a website in plain-text HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+
+#### Adblock Plus settings
+
+These options can be found in :material-menu: → :gear: **Settings** → **Adblock Plus settings**.
+
+Cromite contains a customized version of Adblock Plus with EasyList enabled by default, as well as options to select more filter lists within the **FIlter lists** menu.
+
+Using extra lists will make you stand out from other Cromite users and may also increase attack surface if a malicious rule is added to one of the lists you use.
+
+- [x] (Optional) Select **Enable anti-circumvention and snippets**
+
+This setting adds an additional Adblock Plus list that may increase the effectiveness of Cromite's content blocking. The warnings about standing out and potentially increasing attack surface apply.
+
+#### Legacy Adblock settings
+
+These options can be found in :material-menu: → :gear: **Settings** → **Legacy Adblock settings**.
+
+- [ ] Uncheck the autoupdate setting
+
+This disables update checks for the unmaintained Bromite adblock filter.
 
 ## Mull (Android)
 
@@ -193,7 +272,7 @@ These options can be found in :material-menu: → **Settings** → **Leo**.
 
 [:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title=Documentation }
+[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title="Documentation" }
 [:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -229,7 +308,7 @@ Because Mull has more advanced and strict privacy protections enabled by default
 
 ## Safari (iOS)
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so there is little reason to use a third-party web browser.
+On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Chromium engine like its counterparts on other operating systems.
 
 <div class="admonition recommendation" markdown>
 
@@ -239,7 +318,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 [:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="Documentation" }
 
 </details>
 
@@ -250,6 +329,23 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 We would suggest installing [AdGuard](browser-extensions.md#adguard) if you want a content blocker in Safari.
 
 The following privacy/security-related options can be found in :gear: **Settings** → **Apps** → **Safari**.
+
+#### Allow Safari to Access
+
+Under **Siri**:
+
+- [ ] Disable **Learn from this App**
+- [ ] Disable **Show in App**
+- [ ] Disable **Show on Home Screen**
+- [ ] Disable **Suggest App**
+
+This prevents Siri from using content from Safari for Siri suggestions.
+
+#### Search
+
+- [ ] Disable **Search Engine Suggestions**
+
+This setting sends whatever you type in the address bar to the search engine set in Safari. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 #### Profiles
 
@@ -264,6 +360,32 @@ This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/track
 - [x] Enable **Require Face ID/Touch ID to Unlock Private Browsing**
 
 This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
+
+- [ ] Disable **Fraudulent Website Warning**
+
+This setting uses Google Safe Browsing (or Tencent Safe Browsing for users in mainland China or Hong Kong) to protect you while you browse. As such, your IP address may be logged by your Safe Browsing provider. Disabling this setting will disable this logging, but you might be more vulnerable to known phishing sites.
+
+- [ ] Disable **Highlights**
+
+Apple's privacy policy for Safari states:
+
+> When visiting a webpage, Safari may send information calculated from the webpage address to Apple over OHTTP to determine if relevant highlights are available.
+
+#### Settings for Websites
+
+Under **Camera**
+
+- [x] Select **Ask**
+
+Under **Microphone**
+
+- [x] Select **Ask**
+
+Under **Location**
+
+- [x] Select **Ask**
+
+These settings ensure that websites can only access your camera, microphone, or location after you explicitly grant them access.
 
 #### Other Privacy Settings
 

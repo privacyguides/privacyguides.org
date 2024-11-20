@@ -5,6 +5,15 @@ description: Privacy Guides is looking for an intern to discover and promote rel
 
 [:material-arrow-left-drop-circle: Job Openings](../jobs.md)
 
+<div class="admonition info" markdown>
+<p class="admonition-title">Position Closed</p>
+
+Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+
+As of November 14, 2024, we may still be reaching out to existing candidates. If you previously applied, please keep an eye on your inbox!
+
+</div>
+
 Are you passionate about privacy and cybersecurity?
 
 Privacy Guides is an international nonprofit dedicated to producing top-tier, unbiased educational content and journalism, and to fostering safe and informative online communities to discuss technical topics around improving personal privacy and cybersecurity.
@@ -35,7 +44,14 @@ This is a 6-month contract paying $15 / hour USD, with the optional opportunity 
 
 ---
 
-**To apply, please send a cover letter and resume to <jobs@privacyguides.org>, and include the name of this position in the subject line. Feel free to include any other information or examples of your work that you think we may find relevant if you'd like.**
+<div class="admonition info" markdown>
+<p class="admonition-title">Position Closed</p>
+
+Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+
+As of November 14, 2024, we may still be reaching out to existing candidates. If you previously applied, please keep an eye on your inbox!
+
+</div>
 
 Privacy Guides is fiscally hosted by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity. MAGIC Grants is an equal opportunity employer. MAGIC Grants does not discriminate against any applicant or employee because of age, color, sex, disability, national origin, race, religion, sexual orientation, sexual identity, veteran status, or other protected characteristic.
 

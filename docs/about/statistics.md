@@ -5,7 +5,7 @@ description: We self-host Umami to create a nice visualization of our traffic st
 <!-- markdownlint-disable MD051 -->
 We self-host [Umami](https://umami.is) to create a nice visualization of our traffic statistics, which are public at the link below.
 
-[View Statistics](https://stats.privacyguides.net/share/nVWjyd2QfgOPBhMF/www.privacyguides.org){ .md-button .md-button--primary }
+[View Statistics](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org){ .md-button .md-button--primary }
 
 With this process:
 

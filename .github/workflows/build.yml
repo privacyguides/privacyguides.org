@@ -27,6 +27,9 @@ on:
       strict:
         type: boolean
         default: false
+      cache:
+        type: boolean
+        default: true
 
 permissions:
   contents: read
@@ -119,6 +122,7 @@ jobs:
       - name: Restore Privacy Plugin Cache
         uses: actions/cache/restore@v4.0.2
         id: privacy_cache_restore
+        if: inputs.cache
         with:
           key: privacy-cache-${{ inputs.repo }}-${{ hashfiles('.cache/plugin/privacy/**') }}
           path: |
@@ -131,6 +135,7 @@ jobs:
       - name: Restore Social Plugin Cache
         uses: actions/cache/restore@v4.0.2
         id: social_cache_restore
+        if: inputs.cache
         with:
           key: social-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ hashfiles('.cache/plugin/social/manifest.json') }}
           path: |
@@ -143,6 +148,7 @@ jobs:
       - name: Restore Optimize Plugin Cache
         uses: actions/cache/restore@v4.0.2
         id: optimize_cache_restore
+        if: inputs.cache
         with:
           key: optimize-cache-${{ inputs.repo }}-${{ hashfiles('.cache/plugin/optimize/manifest.json') }}
           path: |
@@ -176,7 +182,7 @@ jobs:
 
       - name: Find Privacy Plugin Cache
         uses: actions/cache/restore@v4.0.2
-        if: steps.privacy_cache_restore.outputs.cache-hit != 'true'
+        if: steps.privacy_cache_restore.outputs.cache-hit != 'true' && inputs.cache
         id: privacy_cache_test
         with:
           key: privacy-cache-privacyguides/privacyguides.org-${{ hashfiles('.cache/plugin/privacy/**') }}
@@ -186,7 +192,7 @@ jobs:
 
       - name: Find Social Plugin Cache
         uses: actions/cache/restore@v4.0.2
-        if: steps.social_cache_restore.outputs.cache-hit != 'true'
+        if: steps.social_cache_restore.outputs.cache-hit != 'true' && inputs.cache
         id: social_cache_test
         with:
           key: social-cache-privacyguides/privacyguides.org-${{ inputs.lang }}-${{ hashfiles('.cache/plugin/social/manifest.json') }}
@@ -197,7 +203,7 @@ jobs:
 
       - name: Find Optimize Plugin Cache
         uses: actions/cache/restore@v4.0.2
-        if: steps.optimize_cache_restore.outputs.cache-hit != 'true'
+        if: steps.optimize_cache_restore.outputs.cache-hit != 'true' && inputs.cache
         id: optimize_cache_test
         with:
           key: optimize-cache-privacyguides/privacyguides.org-${{ hashfiles('.cache/plugin/optimize/manifest.json') }}
@@ -207,14 +213,14 @@ jobs:
 
       - name: Save Privacy Plugin Cache
         uses: actions/cache/save@v4.0.2
-        if: steps.privacy_cache_test.outputs.cache-hit != 'true'
+        if: steps.privacy_cache_test.outputs.cache-hit != 'true' && inputs.cache
         with:
           key: privacy-cache-${{ inputs.repo }}-${{ hashfiles('.cache/plugin/privacy/**') }}
           path: .cache/plugin/privacy
 
       - name: Save Social Plugin Cache
         uses: actions/cache/save@v4.0.2
-        if: steps.social_cache_test.outputs.cache-hit != 'true'
+        if: steps.social_cache_test.outputs.cache-hit != 'true' && inputs.cache
         with:
           key: social-cache-${{ inputs.repo }}-${{ inputs.lang }}-${{ hashfiles('.cache/plugin/social/manifest.json') }}
           path: |
@@ -223,7 +229,7 @@ jobs:
 
       - name: Save Optimize Plugin Cache
         uses: actions/cache/save@v4.0.2
-        if: steps.optimize_cache_test.outputs.cache-hit != 'true'
+        if: steps.optimize_cache_test.outputs.cache-hit != 'true' && inputs.cache
         with:
           key: optimize-cache-${{ inputs.repo }}-${{ hashfiles('.cache/plugin/optimize/manifest.json') }}
           path: .cache/plugin/optimize

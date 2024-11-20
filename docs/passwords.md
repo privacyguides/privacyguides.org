@@ -228,8 +228,6 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 
 With the acquisition of SimpleLogin in April 2022, Proton has offered a "hide-my-email" feature that lets you create 10 aliases (free plan) or unlimited aliases (paid plans).
 
-Proton Pass currently doesn't have any "master password" functionality, which means that your vault is protected with the password for your Proton account and any of their supported [two factor authentication](basics/multi-factor-authentication.md) methods.
-
 The Proton Pass mobile apps and browser extension underwent an audit performed by Cure53 throughout May and June of 2023. The security analysis company concluded:
 
 > Proton Pass apps and components leave a rather positive impression in terms of security.

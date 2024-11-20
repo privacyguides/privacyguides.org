@@ -62,6 +62,17 @@ jobs:
       lang: ${{ matrix.lang }}
       context: production
       continue-on-error: false
+      cache: false
+
+  build_blog:
+    needs: submodule
+    permissions:
+      contents: read
+    uses: ./.github/workflows/build-blog.yml
+    with:
+      repo: ${{ github.repository }}
+      ref: ${{ github.ref }}
+      continue-on-error: false
 
   release:
     name: Create release notes
@@ -84,12 +95,14 @@ jobs:
           makeLatest: true
 
   deploy:
-    needs: build
+    needs: [build, build_blog]
     uses: privacyguides/webserver/.github/workflows/deploy-all.yml@main
     secrets:
       NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
       PROD_MINIO_KEY_ID: ${{ secrets.PROD_MINIO_KEY_ID }}
       PROD_MINIO_SECRET_KEY: ${{ secrets.PROD_MINIO_SECRET_KEY }}
+      PROD_GARAGE_KEY_ID: ${{ secrets.PROD_GARAGE_KEY_ID }}
+      PROD_GARAGE_SECRET_KEY: ${{ secrets.PROD_GARAGE_SECRET_KEY }}
       CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
       CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
       CLUSTER_USERNAME: ${{ secrets.CLUSTER_USERNAME }}
@@ -99,5 +112,5 @@ jobs:
 
   cleanup:
     if: ${{ always() }}
-    needs: build
+    needs: [build, build_blog]
     uses: privacyguides/.github/.github/workflows/cleanup.yml@main
