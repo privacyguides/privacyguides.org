@@ -25,6 +25,8 @@ This will be easier for things like screenreaders to interpret.
 
 ## Company Logos
 
-Sometimes a company logo will not show up well in either light mode or dark mode. In these cases, try to find a version of the logo that looks good in both light and dark modes or see if they have different versions of the logo for light and dark mode.
+Sometimes a company logo will not show up well in either light mode or dark mode. In these cases, try to find a version of the logo that looks good in both light and dark modes or see if they have a light mode version and a dark mode of their logo.
+
+Try to stick to official logos instead of making your own, although in cases where there is no althernative logos from unofficial sources are acceptable.
 
 It never hurts to contact the developers and ask if you can't find the proper logos.
