@@ -15,13 +15,11 @@ Make sure to use html/markdown elements instead of images/emojis when possible, 
 
 `- [x]` which will render as
 
-- [x] 
-
-
+- [x] Check
 
 Don't use
 
-:white_check_mark:
+:white_check_mark: Check
 
 This will be easier for things like screenreaders to interpret.
 
