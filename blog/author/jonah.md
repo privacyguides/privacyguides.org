@@ -34,3 +34,4 @@ schema:
 He is also known for his work on the Techlore YouTube channel, including the Techlore Talks podcast he co-hosts.
 
 [:simple-mastodon: @jonah@neat.computer](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){ .md-button rel=me }
+[:simple-bluesky: @jonaharagon.com](https://bsky.app/profile/jonaharagon.com "@jonaharagon.com"){ .md-button rel=me }

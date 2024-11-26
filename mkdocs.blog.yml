@@ -56,6 +56,9 @@ extra:
     - icon: simple/mastodon
       link: https://mastodon.neat.computer/@privacyguides
       name: !ENV [SOCIAL_MASTODON, "Mastodon"]
+    - icon: simple/bluesky
+      link: https://bsky.app/profile/privacyguides.org
+      name: !ENV [SOCIAL_BLUESKY, "Bluesky"]
     - icon: simple/matrix
       link: https://matrix.to/#/#privacyguides:matrix.org
       name: !ENV [SOCIAL_MATRIX, "Matrix"]
