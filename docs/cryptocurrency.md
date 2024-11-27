@@ -65,6 +65,16 @@ For optimal privacy, make sure to use a noncustodial wallet where the view key s
 
 For maximum privacy (even with a noncustodial wallet), you should run your own Monero node, for example using the [official Monero desktop client](https://getmonero.org/downloads). Using another person’s node will expose some information to them, such as the IP address that you connect to it from, the timestamps that you sync your wallet, and the transactions that you send from your wallet (though no other details about those transactions). Alternatively, you can connect to someone else’s Monero node over Tor or [I2P](alternative-networks.md#i2p-the-invisible-internet-project).
 
+### Buying Monero
+
+[General tips for acquiring Monero](advanced/payments.md#acquisition){ .md-button }
+
+There are numerous centralized exchanges (CEX) as well as P2P marketplaces where you can buy and sell Monero. Some of them require identifying yourself (KYC) to comply with anti-money laundering regulations. However, due to Monero's privacy features, the only thing known to the seller is _that_ you bought Monero, but not how much you own or where you spend it. Some reputable places to buy Monero include:
+
+- [Kraken](https://www.kraken.com): A well-known CEX. Registration and KYC are mandatory. Card payments and bank transfers accepted. Make sure not to leave you Monero on Kraken's platform after the purchase but to withdraw them to a non-custodial wallet.
+- [Cake Wallet](https://cakewallet.com): A non-custodial cross-platform wallet app for Monero and other cryptocurrencies. It is possible to buy Monero directly in the app using card payments or bank transfers (through third-party providers such as [Guardarian](https://guardarian.com) or [DFX](https://dfx.swiss)). KYC is usually not required, but it depends on your country and the amount you are purchasing. In countries where directly purchasing Monero is not possible, you can also use Cake Wallet to first buy another cryptocurrency such as Bitcoin, Bitcoin Cash or Litecoin and then exchange it to Monero in-app.
+    - [Monero.com](https://monero.com) is an associated website where you buy Monero and other cryptocurrencies.
+- [RetoSwap](https://haveno-reto.com/) (formerly known as Haveno-Reto) is a non-custodial, decentralized P2P exchange platform based on the [Haveno](https://haveno.exchange/) application which is available for Linux, Windows, and macOS. Monero can be bought and sold with maximum privacy, as there are no KYC requirements, trades are made directly between users (P2P), and all connections run through the Tor network. Notably, it is possible to buy Monero with cash (in person or by mail). Arbitrators can step in to resolve disputes between buyer and seller.
 
 ## Criteria
 
