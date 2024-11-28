@@ -82,17 +82,26 @@ There are numerous centralized exchanges (CEX) as well as P2P marketplaces where
 Kraken does **not** allow the purchase of Monero for customers from:
 
 _Europe_: European Union member countries, United Kingdom, Norway, Iceland, Russia, Belarus
+
 _Asia_: Japan, North Korea, Iran, Iraq, Syria, Afghanistan
+
 _Other_: Australia, Cuba, DR Congo
+
 
 Cake Wallet and Monero.com **only** allow the direct purchase of Monero for customers from:
 
 _Europe_: European Union member countries, Bosnia-Herzegovina, Iceland, Moldova, Montenegro, Norway, Switzerland, Ukraine, United Kingdom (not on Monero.com)
+
 _North America_: Costa Rica, Dominican Republic, El Salvador, Grenada, Guatemala, Honduras, Mexico, United States
+
 _South America_: Argentina, Brazil, Chile, Colombia, Ecuador, Paraguay, Peru, Uruguay
+
 _Asia_: Armenia, Azerbaijan, Kazakhstan, Kyrgyzstan, Israel (not on Monero.com), Lebanon, Maldives, South Korea, Sri Lanka, Tajikistan, Thailand, Turkey, Turkmenistan, Uzbekistan
+
 _Africa_: Algeria, Angola, Central African Republic, Kenya, Niger, Republic of the Congo, Seychelles, Sudan, Tunisia, Zambia, Zimbabwe
+
 _Oceania_: New Zealand
+
 
 _Last checked in November 2024. Country lists: Kraken: [[1]](https://support.kraken.com/hc/en-us/articles/360001368823-Where-can-I-use-Kraken-) [[2]](https://support.kraken.com/hc/en-us/articles/support-for-monero-xmr-in-europe), Cake Wallet: [[1]](https://guardarian.freshdesk.com/support/solutions/articles/80001151826-what-are-the-supported-countries-regions-) [[2]](https://docs.dfx.swiss/en/faq.html#which-countries-are-served-by-dfx)_
 
