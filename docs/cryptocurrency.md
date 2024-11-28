@@ -71,30 +71,30 @@ For maximum privacy (even with a noncustodial wallet), you should run your own M
 
 There are numerous centralized exchanges (CEX) as well as P2P marketplaces where you can buy and sell Monero. Some of them require identifying yourself (KYC) to comply with anti-money laundering regulations. However, due to Monero's privacy features, the only thing known to the seller is _that_ you bought Monero, but not how much you own or where you spend it. Some reputable places to buy Monero include:
 
-- [Kraken](https://www.kraken.com): A well-known CEX. Registration and KYC are mandatory. Card payments and bank transfers accepted. Make sure not to leave your newly purchased Moneros on Kraken's platform after the purchase but to withdraw them to a non-custodial wallet. Please note that Kraken has delisted Monero for most European countries.
+- [Kraken](https://www.kraken.com): A well-known CEX. Registration and KYC are mandatory. Card payments and bank transfers accepted. Make sure not to leave your newly purchased Moneros on Kraken's platform after the purchase but to withdraw them to a non-custodial wallet. Please note that Kraken has Monero for most European countries.
 - [Cake Wallet](https://cakewallet.com): A non-custodial cross-platform wallet app for Monero and other cryptocurrencies. It is possible to buy Monero directly in the app using card payments or bank transfers (through third-party providers such as [Guardarian](https://guardarian.com) or [DFX](https://dfx.swiss)). KYC is usually not required, but it depends on your country and the amount you are purchasing. In countries where directly purchasing Monero is not possible, you can also use Cake Wallet to first buy another cryptocurrency such as Bitcoin, Bitcoin Cash or Litecoin and then exchange it to Monero in-app.
     - [Monero.com](https://monero.com) is an associated website where you can buy Monero and other cryptocurrencies without having to download an app. The funds will simply be sent to the wallet address of your choice.
-- [RetoSwap](https://haveno-reto.com/) (formerly known as Haveno-Reto) is a non-custodial, decentralized P2P exchange platform based on the [Haveno](https://haveno.exchange/) application which is available for Linux, Windows, and macOS. Monero can be bought and sold with maximum privacy, as there are no KYC requirements, trades are made directly between users (P2P), and all connections run through the Tor network. It is possible to buy Monero with a bank transfer or by paying in cash (meeting in person or sending by mail). Arbitrators can step in to resolve disputes between buyer and seller.
+- [RetoSwap](https://haveno-reto.com/) (formerly known as Haveno-Reto) is a non-custodial, decentralized P2P exchange platform based on the [Haveno](https://haveno.exchange/) application which is available for Linux, Windows, and macOS. Monero can be bought and sold with maximum privacy, as there are no KYC requirements, trades are made directly between users (P2P), and all connections run through the Tor network. It is possible to buy Monero via bank transfer, Paypal, or even by paying in cash (meeting in person or sending by mail). Arbitrators can step in to resolve disputes between buyer and seller.
 
 <details class="warning" markdown>
 <summary>Geographical restrictions when buying Monero</summary>
 
-Kraken does **not** allow the purchase of Monero for customers from:[^1] 
-- Europe: European Union member countries, United Kingdom, Norway, Iceland, Russia, Belarus
-- Asia: Japan, North Korea, Iran, Iraq, Syria, Afghanistan
-- Other: Australia, Cuba, DR Congo
+Kraken does **not** allow the purchase of Monero for customers from:
 
-Cake Wallet does **only** allow the direct purchase of Monero for customers from:[^2]
-- Europe: European Union member countries, Bosnia-Herzegovina, Iceland, Moldova, Montenegro, Norway, Switzerland, Ukraine, United Kingdom
-- North America: Costa Rica, Dominican Republic, El Salvador, Grenada, Guatemala, Honduras, Mexico, United States
-- South America: Argentina, Brazil, Chile, Colombia, Ecuador, Paraguay, Peru, Uruguay
-- Asia: Armenia, Azerbaijan, Kazakhstan, Kyrgyzstan, Israel, Lebanon, Maldives, South Korea, Sri Lanka, Tajikistan, Thailand, Turkey, Turkmenistan, Uzbekistan
-- Africa: Algeria, Angola, Central African Republic, Kenya, Niger, Republic of the Congo, Seychelles, Sudan, Tunisia, Zambia, Zimbabwe
-- Oceania: New Zealand
+_Europe_: European Union member countries, United Kingdom, Norway, Iceland, Russia, Belarus
+_Asia_: Japan, North Korea, Iran, Iraq, Syria, Afghanistan
+_Other_: Australia, Cuba, DR Congo
 
-Monero.com additionally excludes customers from the United Kingdom and Israel.[^3]
+Cake Wallet and Monero.com **only** allow the direct purchase of Monero for customers from:
 
-_Last checked in November 2024._
+_Europe_: European Union member countries, Bosnia-Herzegovina, Iceland, Moldova, Montenegro, Norway, Switzerland, Ukraine, United Kingdom (not on Monero.com)
+_North America_: Costa Rica, Dominican Republic, El Salvador, Grenada, Guatemala, Honduras, Mexico, United States
+_South America_: Argentina, Brazil, Chile, Colombia, Ecuador, Paraguay, Peru, Uruguay
+_Asia_: Armenia, Azerbaijan, Kazakhstan, Kyrgyzstan, Israel (not on Monero.com), Lebanon, Maldives, South Korea, Sri Lanka, Tajikistan, Thailand, Turkey, Turkmenistan, Uzbekistan
+_Africa_: Algeria, Angola, Central African Republic, Kenya, Niger, Republic of the Congo, Seychelles, Sudan, Tunisia, Zambia, Zimbabwe
+_Oceania_: New Zealand
+
+_Last checked in November 2024. Country lists: Kraken: [[1]](https://support.kraken.com/hc/en-us/articles/360001368823-Where-can-I-use-Kraken-) [[2]](https://support.kraken.com/hc/en-us/articles/support-for-monero-xmr-in-europe), Cake Wallet: [[1]](https://guardarian.freshdesk.com/support/solutions/articles/80001151826-what-are-the-supported-countries-regions-) [[2]](https://docs.dfx.swiss/en/faq.html#which-countries-are-served-by-dfx)_
 
 </details>
 
@@ -104,6 +104,3 @@ _Last checked in November 2024._
 
 - Cryptocurrency must provide private/untraceable transactions by default.
 
-[^1] [Restricted countries list](https://support.kraken.com/hc/en-us/articles/360001368823-Where-can-I-use-Kraken-), [Delisting in the EEA](https://support.kraken.com/hc/en-us/articles/support-for-monero-xmr-in-europe).
-[^2] [Countries supported by Guardarian](https://guardarian.freshdesk.com/support/solutions/articles/80001151826-what-are-the-supported-countries-regions-), [Countries supported by DFX](https://docs.dfx.swiss/en/faq.html#which-countries-are-served-by-dfx)
-[^3] Unlike Cake Wallet, Monero.com does not yet integrate DFX for crypto purchases.
