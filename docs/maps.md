@@ -19,8 +19,8 @@ The recommendations here either do not collect any user data or at least do not 
 
 | Provider | Map Data | Offline Maps | Data Collection | License |
 |---|---|---|---|---|
-| [Organic Maps](#organic-maps) | [OpenStreetMap](https://https://www.openstreetmap.org/) | :material-check:{ .pg-green } | None | Free (Apache 2.0) |
-| [OsmAnd](#osmand) | [OpenStreetMap](https://https://www.openstreetmap.org/) | :material-check:{ .pg-green } | None | Free (GNU GPL 3.0) |
+| [Organic Maps](#organic-maps) | [OpenStreetMap](https://www.openstreetmap.org/) | :material-check:{ .pg-green } | None | Free (Apache 2.0) |
+| [OsmAnd](#osmand) | [OpenStreetMap](https://www.openstreetmap.org/) | :material-check:{ .pg-green } | None | Free (GNU GPL 3.0) |
 | [Magic Earth](#magic-earth) | [OpenStreetMap](https://https://www.openstreetmap.org/) | :material-check:{ .pg-green } | Anonymized[^1] | Proprietary |
 | [HERE WeGo](#here-wego) | Proprietary | :material-check:{ .pg-green } | Anonymized[^2] | Proprietary |
 
