@@ -133,7 +133,7 @@ The app can send your location data in order to provide real-time traffic inform
 
 </div>
 
-HERE WeGo uses its own proprietary map data and is therefore a good alternative for users who live in regions where OpenStreetMap is insufficient. In fact, HERE's map data is used by several car manufacturers for their built-in navigation systems.
+Despite being less privacy-focused than our other recommendations, HERE WeGo uses its own proprietary map data and is therefore a good alternative for users who live in regions where OpenStreetMap is insufficient. In fact, HERE's map data is used by several car manufacturers for their built-in navigation systems.
 
 ## Criteria
 
