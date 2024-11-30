@@ -48,6 +48,13 @@ On Linux, a third-party graphical tool [Metadata Cleaner](https://gitlab.com/rmn
 
 ## Mobile
 
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
+
+For those on iOS, you can remove photo and video metadata without using a third-party app by creating [Shortcuts](/articles/2022/04/09/integrating-metadata-removal) for both.
+
+</div>
+
 ### ExifEraser (Android)
 
 <div class="admonition recommendation" markdown>
@@ -88,26 +95,6 @@ The app offers multiple ways to erase metadata from images. Namely:
 - It features a "Camera" option, which uses your operating system's camera app to take a photo, and then it removes the metadata from it.
 - It allows you to drag photos from another app into ExifEraser when they are both open in split-screen mode.
 - Lastly, it allows you to paste an image from your clipboard.
-
-### Metapho (iOS)
-
-<div class="admonition recommendation" markdown>
-
-![Metapho logo](assets/img/data-redaction/metapho.jpg){ align=right }
-
-**Metapho** is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
-
-[:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://zininworks.com/privacy){ .card-link title="Privacy Policy" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
-
-</details>
-
-</div>
 
 ## Command-line
 
