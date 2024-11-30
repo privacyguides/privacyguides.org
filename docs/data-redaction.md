@@ -93,7 +93,7 @@ On iOS and macOS, you can remove image metadata without using any third-party ap
 
 You can also use it as a model for your own shortcut; just make sure that the **Preserve Metadata** option under the **Convert** action is unchecked. Once added, the shortcut appears in the share sheet that appears when you select the :octicons-share-24: Share button. You can select multiple images to remove their metadata.
 
-This shortcut removes metadata such as location, device model, lens model, location, and other camera information. It also sets the image creation date to the time the shortcut was used.
+This shortcut removes metadata such as location, device model, lens model, and other camera information. It also sets the image creation date to the time the shortcut was used.
 
 ## ExifTool (CLI)
 
