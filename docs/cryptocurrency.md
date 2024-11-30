@@ -76,36 +76,35 @@ There are numerous centralized exchanges (CEX) as well as P2P marketplaces where
     - [Monero.com](https://monero.com) is an associated website where you can buy Monero and other cryptocurrencies without having to download an app. The funds will simply be sent to the wallet address of your choice.
 - [RetoSwap](https://haveno-reto.com) (formerly known as Haveno-Reto) is a self-custody, decentralized P2P exchange platform based on the [Haveno](https://haveno.exchange) project which is available for Linux, Windows, and macOS. Monero can be bought and sold with maximum privacy, since most trading counterparties do not require KYC, trades are made directly between users (P2P), and all connections run through the Tor network. It is possible to buy Monero via bank transfer, Paypal, or even by paying in cash (meeting in person or sending by mail). Arbitrators can step in to resolve disputes between buyer and seller, but be careful when sharing your bank account or other sensitive information with your trading counterparty. Trading with some accounts may be against those accounts' terms of service.
 
-<details class="warning" markdown>
+<details class="warning annotate" markdown>
 <summary>Geographical restrictions when buying Monero</summary>
 
-Kraken does **not** allow the purchase of Monero for customers from:
+Kraken does **not** allow the purchase of Monero for customers from (1):
 
-_Europe_: European Union member countries, United Kingdom, Norway, Iceland, Russia, Belarus
+- _Europe_: European Union member countries, United Kingdom, Norway, Iceland, Russia, Belarus
 
-_Asia_: Japan, North Korea, Iran, Iraq, Syria, Afghanistan
+- _Asia_: Japan, North Korea, Iran, Iraq, Syria, Afghanistan
 
-_Other_: Australia, Cuba, DR Congo
+- _Other_: Australia, Cuba, DR Congo
 
+Cake Wallet and Monero.com **only** allow the direct purchase of Monero (through third-party providers) for customers from (2):
 
-Cake Wallet and Monero.com **only** allow the direct purchase of Monero (through third-party providers) for customers from:
+- _Europe_: European Union member countries, Bosnia-Herzegovina, Iceland, Moldova, Montenegro, Norway, Switzerland, Ukraine, United Kingdom (not on Monero.com)
 
-_Europe_: European Union member countries, Bosnia-Herzegovina, Iceland, Moldova, Montenegro, Norway, Switzerland, Ukraine, United Kingdom (not on Monero.com)
+- _North America_: Costa Rica, Dominican Republic, El Salvador, Grenada, Guatemala, Honduras, Mexico, United States
 
-_North America_: Costa Rica, Dominican Republic, El Salvador, Grenada, Guatemala, Honduras, Mexico, United States
+- _South America_: Argentina, Brazil, Chile, Colombia, Ecuador, Paraguay, Peru, Uruguay
 
-_South America_: Argentina, Brazil, Chile, Colombia, Ecuador, Paraguay, Peru, Uruguay
+- _Asia_: Armenia, Azerbaijan, Kazakhstan, Kyrgyzstan, Israel (not on Monero.com), Lebanon, Maldives, South Korea, Sri Lanka, Tajikistan, Thailand, Turkey, Turkmenistan, Uzbekistan
 
-_Asia_: Armenia, Azerbaijan, Kazakhstan, Kyrgyzstan, Israel (not on Monero.com), Lebanon, Maldives, South Korea, Sri Lanka, Tajikistan, Thailand, Turkey, Turkmenistan, Uzbekistan
+- _Africa_: Algeria, Angola, Central African Republic, Kenya, Niger, Republic of the Congo, Seychelles, Sudan, Tunisia, Zambia, Zimbabwe
 
-_Africa_: Algeria, Angola, Central African Republic, Kenya, Niger, Republic of the Congo, Seychelles, Sudan, Tunisia, Zambia, Zimbabwe
-
-_Oceania_: New Zealand
-
-
-_Last checked in November 2024. Country lists: Kraken: [[1]](https://support.kraken.com/hc/en-us/articles/360001368823-Where-can-I-use-Kraken-) [[2]](https://support.kraken.com/hc/en-us/articles/support-for-monero-xmr-in-europe), Cake Wallet: [[1]](https://guardarian.freshdesk.com/support/solutions/articles/80001151826-what-are-the-supported-countries-regions-) [[2]](https://docs.dfx.swiss/en/faq.html#which-countries-are-served-by-dfx)_
+- _Oceania_: New Zealand
 
 </details>
+
+1. Last checked: November 2024. Country lists: [[1]](https://support.kraken.com/hc/en-us/articles/360001368823-Where-can-I-use-Kraken-) [[2]](https://support.kraken.com/hc/en-us/articles/support-for-monero-xmr-in-europe)
+2. Last checked: November 2024. Country lists: [[1]](https://guardarian.freshdesk.com/support/solutions/articles/80001151826-what-are-the-supported-countries-regions-) [[2]](https://docs.dfx.swiss/en/faq.html#which-countries-are-served-by-dfx)
 
 ## Criteria
 
