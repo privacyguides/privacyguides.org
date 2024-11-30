@@ -115,6 +115,6 @@ Cake Wallet and Monero.com **only** allow the direct purchase of Monero (through
 <div class="admonition tip" markdown>
 <p class="admonition-title">Important notices</p>
 
-The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](/docs/about/notices.md).
+The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](about/notices.md).
 
 </div>
