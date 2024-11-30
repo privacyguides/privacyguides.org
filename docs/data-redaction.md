@@ -48,13 +48,6 @@ On Linux, a third-party graphical tool [Metadata Cleaner](https://gitlab.com/rmn
 
 ## Mobile
 
-<div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
-
-For those on iOS, you can remove photo and video metadata without using a third-party app by creating [Shortcuts](/articles/2022/04/09/integrating-metadata-removal) for both.
-
-</div>
-
 ### ExifEraser (Android)
 
 <div class="admonition recommendation" markdown>
@@ -95,6 +88,14 @@ The app offers multiple ways to erase metadata from images. Namely:
 - It features a "Camera" option, which uses your operating system's camera app to take a photo, and then it removes the metadata from it.
 - It allows you to drag photos from another app into ExifEraser when they are both open in split-screen mode.
 - Lastly, it allows you to paste an image from your clipboard.
+
+### Shortcuts (iOS)
+
+On iOS, you can remove image metadata without using any third-party apps by creating a [**shortcut**](https://support.apple.com/guide/shortcuts/welcome/ios) for this purpose. Here is an example shortcut you can use out-of-box or as a model for your own:
+
+[:material-tag-minus: Clean Image Metadata](https://www.icloud.com/shortcuts/fb774ddb7b5b4296871776c67ac0fff9){ .md-button }
+
+This shortcut removes metadata such as location, device model, lens model, location, and other camera information. It also sets the image creation date to the time the shortcut was used.
 
 ## Command-line
 
