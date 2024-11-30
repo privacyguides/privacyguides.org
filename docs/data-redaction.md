@@ -91,9 +91,9 @@ The app offers multiple ways to erase metadata from images. Namely:
 
 ### Shortcuts (iOS)
 
-On iOS, you can remove image metadata without using any third-party apps by creating a [**shortcut**](https://apps.apple.com/app/shortcuts/id915249334) for this purpose. Here is an example shortcut you can download to use as is or as a model for your own:
+On iOS, you can remove image metadata without using any third-party apps by creating a [**shortcut**](https://support.apple.com/guide/shortcuts/welcome/ios) for this purpose. Here is an example shortcut you can download to use as is or as a model for your own:
 
-[:material-tag-minus: Clean Image Metadata](https://icloud.com/shortcuts/fb774ddb7b5b4296871776c67ac0fff9){ .md-button } [:simple-appstore: App Store download](https://apps.apple.com/app/id519296448)
+[:material-tag-minus: Clean Image Metadata](https://icloud.com/shortcuts/fb774ddb7b5b4296871776c67ac0fff9){ .md-button } [:simple-appstore: App Store download](https://apps.apple.com/app/id915249334)
 
 This shortcut removes metadata such as location, device model, lens model, location, and other camera information. It also sets the image creation date to the time the shortcut was used.
 
