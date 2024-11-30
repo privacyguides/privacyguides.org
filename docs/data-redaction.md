@@ -89,9 +89,9 @@ The app offers multiple ways to erase metadata from images. Namely:
 - It allows you to drag photos from another app into ExifEraser when they are both open in split-screen mode.
 - Lastly, it allows you to paste an image from your clipboard.
 
-### Shortcuts (iOS)
+### Shortcuts (iOS, macOS)
 
-On iOS, you can remove image metadata without using any third-party apps by creating a [**shortcut**](https://apps.apple.com/app/id915249334) for this purpose. Here is an example shortcut you can download to use as is:
+On iOS and macOS, you can remove image metadata without using any third-party apps by creating a [**shortcut**](https://apps.apple.com/app/id915249334) for this purpose. Here is an example shortcut you can download to use as is:
 
 [:material-tag-minus: Clean Image Metadata](https://icloud.com/shortcuts/fb774ddb7b5b4296871776c67ac0fff9){ .md-button }
 
