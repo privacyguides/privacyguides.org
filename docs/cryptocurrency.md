@@ -53,7 +53,7 @@ Ultimately, Monero is the strongest contender for a privacy-friendly cryptocurre
 
 ### Monero wallets
 
-For optimal privacy, make sure to use a noncustodial wallet where the view key stays on the device. This means that only you will have the ability to spend your funds and see incoming and outgoing transactions. If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your private view key, the provider can see almost everything you do. Some noncustodial wallets include:
+For optimal privacy, make sure to use a self-custody wallet where the [view key](https://www.getmonero.org/resources/moneropedia/viewkey.html) stays on the device. This means that only you will have the ability to spend your funds and see incoming and outgoing transactions. If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your view key, the provider can see almost everything you do (but not spend your funds). Some self-custody wallets where the view key does not leave your device include:
 
 - [Official Monero client](https://getmonero.org/downloads) (Desktop)
 - [Cake Wallet](https://cakewallet.com) (iOS, Android, Desktop)
@@ -63,18 +63,18 @@ For optimal privacy, make sure to use a noncustodial wallet where the view key s
 
 ### Monero nodes
 
-For maximum privacy (even with a noncustodial wallet), you should run your own Monero node, for example using the [official Monero desktop client](https://getmonero.org/downloads). Using another person’s node will expose some information to them, such as the IP address that you connect to it from, the timestamps that you sync your wallet, and the transactions that you send from your wallet (though no other details about those transactions). Alternatively, you can connect to someone else’s Monero node over Tor or [I2P](alternative-networks.md#i2p-the-invisible-internet-project).
+For maximum privacy (even with a self-custody wallet), you should run your own Monero node called the [Monero daemon](https://getmonero.org/downloads/#cli). Using another person’s node will expose some information to them, such as the IP address that you connect to it from, the timestamps that you sync your wallet, and the transactions that you send from your wallet (though no other details about those transactions). Alternatively, you can connect to someone else’s Monero node over Tor, [I2P](alternative-networks.md#i2p-the-invisible-internet-project), or a VPN.
 
 ### Buying Monero
 
 [General tips for acquiring Monero](advanced/payments.md#acquisition){ .md-button }
 
-There are numerous centralized exchanges (CEX) as well as P2P marketplaces where you can buy and sell Monero. Some of them require identifying yourself (KYC) to comply with anti-money laundering regulations. However, due to Monero's privacy features, the only thing known to the seller is _that_ you bought Monero, but not how much you own or where you spend it. Some reputable places to buy Monero include:
+There are numerous centralized exchanges (CEX) as well as P2P marketplaces where you can buy and sell Monero. Some of them require identifying yourself (KYC) to comply with anti-money laundering regulations. However, due to Monero's privacy features, the only thing known to the seller is _that_ you bought Monero, but not how much you own or where you spend it (after it leaves the exchange). Some reputable places to buy Monero include:
 
-- [Kraken](https://www.kraken.com): A well-known CEX. Registration and KYC are mandatory. Card payments and bank transfers accepted. Make sure not to leave your newly purchased Moneros on Kraken's platform after the purchase but to withdraw them to a non-custodial wallet. Please note that Kraken has delisted Monero for most European countries.
-- [Cake Wallet](https://cakewallet.com): A non-custodial cross-platform wallet app for Monero and other cryptocurrencies. It is possible to buy Monero directly in the app using card payments or bank transfers (through third-party providers such as [Guardarian](https://guardarian.com) or [DFX](https://dfx.swiss)). KYC is usually not required, but it depends on your country and the amount you are purchasing. In countries where directly purchasing Monero is not possible, you can also use Cake Wallet to first buy another cryptocurrency such as Bitcoin, Bitcoin Cash or Litecoin and then exchange it to Monero in-app.
+- [Kraken](https://www.kraken.com): A well-known CEX. Registration and KYC are mandatory. Card payments and bank transfers accepted. Make sure not to leave your newly purchased Monero on Kraken's platform after the purchase; withdraw them to a self-custody wallet. Monero is not available in all jurisdictions that Kraken operates in.
+- [Cake Wallet](https://cakewallet.com): A self-custody cross-platform wallet for Monero and other cryptocurrencies. You can buy Monero directly in the app using card payments or bank transfers (through third-party providers such as [Guardarian](https://guardarian.com) or [DFX](https://dfx.swiss)). KYC is usually not required, but it depends on your country and the amount you are purchasing. In countries where directly purchasing Monero is not possible, you can also use a provider within Cake Wallet to first buy another cryptocurrency such as Bitcoin, Bitcoin Cash or Litecoin and then exchange it to Monero in-app.
     - [Monero.com](https://monero.com) is an associated website where you can buy Monero and other cryptocurrencies without having to download an app. The funds will simply be sent to the wallet address of your choice.
-- [RetoSwap](https://haveno-reto.com/) (formerly known as Haveno-Reto) is a non-custodial, decentralized P2P exchange platform based on the [Haveno](https://haveno.exchange/) application which is available for Linux, Windows, and macOS. Monero can be bought and sold with maximum privacy, as there are no KYC requirements, trades are made directly between users (P2P), and all connections run through the Tor network. It is possible to buy Monero via bank transfer, Paypal, or even by paying in cash (meeting in person or sending by mail). Arbitrators can step in to resolve disputes between buyer and seller.
+- [RetoSwap](https://haveno-reto.com/) (formerly known as Haveno-Reto) is a self-custody, decentralized P2P exchange platform based on the [Haveno](https://haveno.exchange/) project which is available for Linux, Windows, and macOS. Monero can be bought and sold with maximum privacy, since most trading counterparties do not require KYC, trades are made directly between users (P2P), and all connections run through the Tor network. It is possible to buy Monero via bank transfer, Paypal, or even by paying in cash (meeting in person or sending by mail). Arbitrators can step in to resolve disputes between buyer and seller, but be careful when sharing your bank account or other sensitive information with your trading counterparty. Trading with some accounts may be against those accounts' terms of service.
 
 <details class="warning" markdown>
 <summary>Geographical restrictions when buying Monero</summary>
@@ -88,7 +88,7 @@ _Asia_: Japan, North Korea, Iran, Iraq, Syria, Afghanistan
 _Other_: Australia, Cuba, DR Congo
 
 
-Cake Wallet and Monero.com **only** allow the direct purchase of Monero for customers from:
+Cake Wallet and Monero.com **only** allow the direct purchase of Monero (through third-party providers) for customers from:
 
 _Europe_: European Union member countries, Bosnia-Herzegovina, Iceland, Moldova, Montenegro, Norway, Switzerland, Ukraine, United Kingdom (not on Monero.com)
 
@@ -113,3 +113,9 @@ _Last checked in November 2024. Country lists: Kraken: [[1]](https://support.kra
 
 - Cryptocurrency must provide private/untraceable transactions by default.
 
+<div class="admonition tip" markdown>
+<p class="admonition-title">Important notices</p>
+
+The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](/docs/about/notices.md).
+
+</div>
