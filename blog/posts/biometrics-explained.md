@@ -27,3 +27,14 @@ There four main ways we accomplish this: optical sensors, capacitive sensors, ul
 An optical sensor works just like you'd think it would: by taking a picture of your fingerprint and turning it into data. These are the cheapest and least secure option. They're potentially vulnerable to an attacker simply taking a picture of your fingerprint, since they only capture a two-dimensional image.
 
 Many devices implement one of these sensors under the display. You can tell if yours does because it will flashbang you when you try to scan your finger. This happens so the optical sensor can capture a clear image of your finger.
+
+### Capacitive Fingerprint Sensors
+
+Capacitive sensors measure the electrical conductivity of your finger. These are much more secure than optical sensors since they can't be fooled with an image. They're also tough to fool with prosthetics as different materials will have different electical properties.
+
+Capacitive sensors won't work if the [tissue is dead](https://www.livescience.com/62393-dead-fingerprint-unlock-phone.html), since dead tissue loses all electical charge. So morbid worries about someone using your dead body to unlock your phone can be assuaged.
+
+Conveniently they also don't require a light source under them to work.
+
+### Ultrasonic Fingerprint Sensors
+
