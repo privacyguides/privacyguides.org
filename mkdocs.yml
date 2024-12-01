@@ -108,6 +108,9 @@ extra:
             - icon: simple/mastodon
               name: !ENV [HOMEPAGE_CTA_MASTODON_NAME, "Follow us on Mastodon"]
               link: https://mastodon.neat.computer/@privacyguides
+            - icon: simple/bluesky
+              name: !ENV [HOMEPAGE_CTA_BLUESKY_NAME, "Follow us on Bluesky"]
+              link: https://bsky.app/profile/privacyguides.org
             - icon: simple/github
               name: !ENV [HOMEPAGE_CTA_GITHUB_NAME, "Contribute on GitHub"]
               link: https://github.com/privacyguides/privacyguides.org
@@ -164,6 +167,9 @@ extra:
     - icon: simple/mastodon
       link: https://mastodon.neat.computer/@privacyguides
       name: !ENV [SOCIAL_MASTODON, "Mastodon"]
+    - icon: simple/bluesky
+      link: https://bsky.app/profile/privacyguides.org
+      name: !ENV [SOCIAL_BLUESKY, "Bluesky"]
     - icon: simple/matrix
       link: https://matrix.to/#/#privacyguides:matrix.org
       name: !ENV [SOCIAL_MATRIX, "Matrix"]
@@ -403,6 +409,7 @@ nav:
           - "search-engines.md"
           - "vpn.md"
       - !ENV [NAV_SOFTWARE, "Software"]:
+          - "ai-chat.md"
           - "calendar.md"
           - "cryptocurrency.md"
           - "data-redaction.md"

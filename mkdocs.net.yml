@@ -18,13 +18,13 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-docs_dir: "blog"
-site_url: "https://www.privacyguides.org/articles/"
-site_dir: "site/articles"
+docs_dir: "net"
+site_url: "https://www.privacyguides.net/"
+site_dir: "site/net"
 
-site_name: Privacy Guides
-site_description: "Privacy Guides is the most popular & trustworthy non-profit privacy resource to find privacy tools and learn about protecting your digital life."
-edit_uri_template: blob/main/blog/{path}?plain=1
+site_name: Privacy Guides Community
+site_description: "Discover privacy tools and resources, ask questions, and stay informed at the biggest digital rights and privacy tech community online."
+edit_uri_template: blob/main/net/{path}?plain=1
 
 extra:
   privacy_guides:
@@ -56,9 +56,6 @@ extra:
     - icon: simple/mastodon
       link: https://mastodon.neat.computer/@privacyguides
       name: !ENV [SOCIAL_MASTODON, "Mastodon"]
-    - icon: simple/bluesky
-      link: https://bsky.app/profile/privacyguides.org
-      name: !ENV [SOCIAL_BLUESKY, "Bluesky"]
     - icon: simple/matrix
       link: https://matrix.to/#/#privacyguides:matrix.org
       name: !ENV [SOCIAL_MATRIX, "Matrix"]
@@ -69,7 +66,7 @@ extra:
       link: https://github.com/privacyguides
       name: !ENV [SOCIAL_GITHUB, "GitHub"]
     - icon: simple/torbrowser
-      link: http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/posts/
+      link: http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/
       name: !ENV [SOCIAL_TOR_SITE, "Hidden service"]
 
 repo_url:
@@ -127,32 +124,7 @@ watch:
   - includes
 
 plugins:
-  blog:
-    blog_dir: .
-    blog_toc: true
-    post_url_format: "{date}/{file}"
-    post_excerpt: required
-    post_excerpt_max_authors: 0
-    authors_profiles: true
-    authors_profiles_toc: true
-    categories_allowed:
-      - Announcements
-      - Opinion
-      - Tutorials
-      - News
-      - Reviews
-  rss:
-    match_path: posts/.*
-    abstract_chars_count: -1
-    date_from_meta:
-      as_creation: date.created
-      as_update: date.updated
-    categories:
-      - categories
-      - tags
-  glightbox: {}
   tags: {}
-  search: {}
   privacy:
     enabled: !ENV [BUILD_PRIVACY, true]
   offline:
@@ -204,18 +176,18 @@ markdown_extensions:
   tables: {}
   footnotes: {}
   toc:
+    permalink: true
     toc_depth: 4
 
 nav:
-  - !ENV [NAV_HOME, "Home"]: /en/
-  - !ENV [NAV_KNOWLEDGE_BASE, "Knowledge Base"]: /en/basics/why-privacy-matters/
-  - !ENV [NAV_RECOMMENDATIONS, "Recommendations"]: /en/tools/
-  - !ENV [NAV_BLOG, "Articles"]:
-      - index.md
-      - tags.md
-      - editorial.md
-  - !ENV [NAV_ABOUT, "About"]: /en/about/
-  - "Donate": /en/about/donate/
+  - !ENV [NAV_HOME, "Home"]: https://www.privacyguides.org/en/
+  - !ENV [NAV_KNOWLEDGE_BASE, "Knowledge Base"]:
+      https://www.privacyguides.org/en/basics/why-privacy-matters/
+  - !ENV [NAV_RECOMMENDATIONS, "Recommendations"]:
+      https://www.privacyguides.org/en/tools/
+  - !ENV [NAV_BLOG, "Articles"]: https://www.privacyguides.org/articles/
+  - !ENV [NAV_ABOUT, "About"]: https://www.privacyguides.org/en/about/
+  - "Donate": https://www.privacyguides.org/en/about/donate/
   - !ENV [NAV_CHANGELOG, "Changelog"]:
       "https://github.com/privacyguides/privacyguides.org/releases"
   - !ENV [NAV_FORUM, "Forum"]: "https://discuss.privacyguides.net/"

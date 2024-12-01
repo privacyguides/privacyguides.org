@@ -85,8 +85,6 @@ Our testing indicates that EasyOptOuts provides the best value out of any data r
 EasyOptOuts does not cover the following sites we consider to be "high priority," so you should still manually opt-out of:
 
 - Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
-- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/optout))
-- PublicDataUSA ([Search](https://publicdatausa.com), [Opt-Out](https://publicdatausa.com/remove.php))
 
 </div>
 

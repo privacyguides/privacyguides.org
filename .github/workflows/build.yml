@@ -176,6 +176,24 @@ jobs:
         run: |
           eval ./run.sh --build --lang=${{ inputs.lang }} "$EXTRA_FLAGS"
 
+      - name: Run index-generation.sh for top posts
+        if: inputs.lang == 'en'
+        run: |
+          bash index-generation.sh \
+            --source='https://discuss.privacyguides.net/top.json?period=weekly' \
+            --tag="top posts" \
+            --destination="./site/en/index.html" \
+            --count=3
+
+      - name: Run index-generation.sh for latest posts
+        if: inputs.lang == 'en'
+        run: |
+          bash index-generation.sh \
+            --source='https://discuss.privacyguides.net/latest.json' \
+            --tag="latest posts" \
+            --destination="./site/en/index.html" \
+            --count=12
+
       - name: Package Website
         run: |
           tar -czf site-${{ inputs.config }}-${{ inputs.lang }}.tar.gz site

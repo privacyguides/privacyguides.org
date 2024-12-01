@@ -148,6 +148,5 @@ jobs:
             | <span aria-hidden="true">🔨</span> Latest commit | ${{ needs.metadata.outputs.sha }} |
             | <span aria-hidden="true">😎</span> Preview | ${{ env.address }} |
 
-            Please note that this preview was built from an untrusted source, so it was not granted access to all mkdocs-material features.
-            Maintainers should ensure this PR has been reviewed locally with a full build before merging.
+            Please note that this preview was built from an untrusted source, so it was not granted access to all mkdocs-material features. Maintainers should ensure this PR has been reviewed locally with a full build before merging.
           comment_tag: deployment

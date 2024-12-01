@@ -23,6 +23,11 @@ authors:
     name: Freddy
     description: Team Member
     avatar: https://github.com/freddy-m.png
+    mastodon:
+      username: freddy
+      instance: social.lol
+    twitter: m00ws
+    bluesky: freddy.lol
   jonah:
     name: Jonah Aragon
     description: Project Director
@@ -31,6 +36,7 @@ authors:
       username: jonah
       instance: neat.computer
     twitter: jonaharagon
+    bluesky: jonaharagon.com
   kaitebay:
     name: Kai Tebay
     description: Former Team Member
