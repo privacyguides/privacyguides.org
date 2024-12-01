@@ -26,4 +26,4 @@ There four main ways we accomplish this: optical sensors, capacitive sensors, ul
 
 An optical sensor works just like you'd think it would: by taking a picture of your fingerprint and turning it into data. These are the cheapest and least secure option. They're potentially vulnerable to an attacker simply taking a picture of your fingerprint, since they only capture a two-dimensional image.
 
-Many devices implement one of these sensors under the display, you can tell if you're does because it will flashbang you when you try to scan your finger. This happens so the optical sensor can capture a clear image of your finger.
+Many devices implement one of these sensors under the display, you can tell if yours does because it will flashbang you when you try to scan your finger. This happens so the optical sensor can capture a clear image of your finger.
