@@ -1,0 +1,197 @@
+# Copyright (c) 2022-2024 Jonah Aragon <jonah@triplebit.net>
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+docs_dir: "net"
+site_url: "https://www.privacyguides.net/"
+site_dir: "site/net"
+
+site_name: Privacy Guides Community
+site_description: "Discover privacy tools and resources, ask questions, and stay informed at the biggest digital rights and privacy tech community online."
+edit_uri_template: blob/main/net/{path}?plain=1
+
+extra:
+  privacy_guides:
+    footer:
+      intro:
+        !ENV [
+          FOOTER_INTRO,
+          "Privacy Guides is a non-profit, socially motivated website that provides information for protecting your data security and privacy.",
+        ]
+      note:
+        !ENV [
+          FOOTER_NOTE,
+          "We do not make money from recommending certain products, and we do not use affiliate links.",
+        ]
+      copyright:
+        author:
+          !ENV [FOOTER_COPYRIGHT_AUTHOR, "Privacy Guides and contributors."]
+        date: !ENV [FOOTER_COPYRIGHT_DATE, "2019-2024"]
+      license:
+        - fontawesome/brands/creative-commons
+        - fontawesome/brands/creative-commons-by
+        - fontawesome/brands/creative-commons-sa
+  homepage: https://www.privacyguides.org/en/
+  generator: false
+  context: !ENV [BUILD_CONTEXT, "production"]
+  offline: !ENV [BUILD_OFFLINE, false]
+  deploy: !ENV DEPLOY_ID
+  social:
+    - icon: simple/mastodon
+      link: https://mastodon.neat.computer/@privacyguides
+      name: !ENV [SOCIAL_MASTODON, "Mastodon"]
+    - icon: simple/matrix
+      link: https://matrix.to/#/#privacyguides:matrix.org
+      name: !ENV [SOCIAL_MATRIX, "Matrix"]
+    - icon: simple/discourse
+      link: https://discuss.privacyguides.net/
+      name: !ENV [SOCIAL_FORUM, "Forum"]
+    - icon: simple/github
+      link: https://github.com/privacyguides
+      name: !ENV [SOCIAL_GITHUB, "GitHub"]
+    - icon: simple/torbrowser
+      link: http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/
+      name: !ENV [SOCIAL_TOR_SITE, "Hidden service"]
+
+repo_url:
+  !ENV [BUILD_REPO_URL, "https://github.com/privacyguides/privacyguides.org"]
+repo_name: ""
+
+theme:
+  name: material
+  language: en
+  custom_dir: theme
+  font:
+    text: Public Sans
+    code: DM Mono
+  palette:
+    - media: "(prefers-color-scheme)"
+      scheme: default
+      accent: deep purple
+      toggle:
+        icon: material/brightness-auto
+        name: !ENV [THEME_DARK, "Switch to dark mode"]
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: amber
+      toggle:
+        icon: material/brightness-2
+        name: !ENV [THEME_LIGHT, "Switch to light mode"]
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      accent: deep purple
+      toggle:
+        icon: material/brightness-5
+        name: !ENV [THEME_AUTO, "Switch to system theme"]
+  favicon: assets/brand/logos/png/favicon-32x32.png
+  icon:
+    repo: simple/github
+  features:
+    - announce.dismiss
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.footer
+    - content.action.edit
+    - content.tabs.link
+    - content.tooltips
+    - search.highlight
+
+extra_css:
+  - assets/stylesheets/extra.css?v=20240829
+
+watch:
+  - theme
+  - includes
+
+plugins:
+  tags: {}
+  privacy:
+    enabled: !ENV [BUILD_PRIVACY, true]
+  offline:
+    enabled: !ENV [BUILD_OFFLINE, false]
+  group:
+    enabled: !ENV [BUILD_INSIDERS, true]
+    plugins:
+      macros: {}
+      meta: {}
+      optimize:
+        enabled: !ENV [OPTIMIZE, PRODUCTION, NETLIFY, false]
+      typeset: {}
+      social:
+        cards: !ENV [CARDS, true]
+        cards_dir: assets/img/social
+        cards_layout_dir: theme/layouts
+        cards_layout: page
+
+markdown_extensions:
+  admonition: {}
+  pymdownx.details: {}
+  pymdownx.superfences:
+    custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
+  pymdownx.tabbed:
+    alternate_style: true
+  pymdownx.arithmatex:
+    generic: true
+  pymdownx.critic: {}
+  pymdownx.caret: {}
+  pymdownx.keys: {}
+  pymdownx.mark: {}
+  pymdownx.tilde: {}
+  pymdownx.snippets:
+    auto_append:
+      - !ENV [BUILD_ABBREVIATIONS, "includes/abbreviations.en.txt"]
+  pymdownx.tasklist:
+    custom_checkbox: true
+  attr_list: {}
+  def_list: {}
+  md_in_html: {}
+  meta: {}
+  abbr: {}
+  pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  tables: {}
+  footnotes: {}
+  toc:
+    permalink: true
+    toc_depth: 4
+
+nav:
+  - !ENV [NAV_HOME, "Home"]: https://www.privacyguides.org/en/
+  - !ENV [NAV_KNOWLEDGE_BASE, "Knowledge Base"]:
+      https://www.privacyguides.org/en/basics/why-privacy-matters/
+  - !ENV [NAV_RECOMMENDATIONS, "Recommendations"]:
+      https://www.privacyguides.org/en/tools/
+  - !ENV [NAV_BLOG, "Articles"]: https://www.privacyguides.org/articles/
+  - !ENV [NAV_ABOUT, "About"]: https://www.privacyguides.org/en/about/
+  - "Donate": https://www.privacyguides.org/en/about/donate/
+  - !ENV [NAV_CHANGELOG, "Changelog"]:
+      "https://github.com/privacyguides/privacyguides.org/releases"
+  - !ENV [NAV_FORUM, "Forum"]: "https://discuss.privacyguides.net/"
+
+validation:
+  nav:
+    not_found: info
