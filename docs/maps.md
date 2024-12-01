@@ -47,7 +47,6 @@ Features include cycling routes, hiking trails and walking paths, turn-by-turn n
 
 - [:simple-github: GitHub](https://github.com/organicmaps/organicmaps)
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.organicmaps)
-- [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/app.organicmaps/)
 - [:simple-appstore: App Store](https://apps.apple.com/app/organic-maps/id1567437057)
 - [:simple-linux: Linux](https://flathub.org/apps/app.organicmaps.desktop)
 
@@ -63,7 +62,7 @@ Please note that Organic Maps is a simple, basic app that lacks features many us
 
 ![OsmAnd logo](assets/img/maps/osmand.svg){ align=right }
 
-**OsmAnd** is an offline map and navigation application based on OpenStreetMap. It is open-source and does not collect any user data. Some features are paid if you download the app from the Play Store or Apple App Store, but a completely free version is available on F-Droid. OsmAnd offers turn-by-turn navigation for walking, cycling, driving as well as public transport.
+**OsmAnd** is an offline map and navigation application based on OpenStreetMap. It is open-source and does not collect any user data. Some features are paid if you download the app from the Play Store or Apple App Store, but a completely free (though unofficial) version is available on F-Droid. OsmAnd offers turn-by-turn navigation for walking, cycling, driving as well as public transport.
 
 [:octicons-home-16: Homepage](https://osmand.net/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://osmand.net/docs/legal/privacy-policy/){ .card-link title="Privacy Policy" }
@@ -74,7 +73,6 @@ Please note that Organic Maps is a simple, basic app that lacks features many us
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.osmand)
-- [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/net.osmand.plus/)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/osmand-maps-travel-navigate/id934850257)
 
 </details>
