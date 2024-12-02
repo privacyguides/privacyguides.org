@@ -2,7 +2,7 @@
 meta_title: "Recommended Maps and Navigation Apps - Privacy Guides"
 title: "Maps and Navigation"
 icon: material/map 
-description: Privacy-respecting search engines which don't build an advertising profile based on your searches.
+description: Privacy-respecting map providers and navigation apps which don't build an advertising profile based on your searches and locations.
 cover: maps.webp
 global:
  - [randomize-element, "table tbody"]
