@@ -13,11 +13,11 @@ global:
 
 Use a **map and navigation app** that doesn't build an advertising profile based on your searches and location history. Instead of using Google Maps, Apple Maps, or Waze, we recommend these privacy-respecting alternatives.
 
-## Recommended Providers
+## Recommended Applications
 
 The recommendations here either do not collect any user data or at least do not collect personally identifying information (PII) based on each service's privacy policy. There is **no guarantee** that these privacy policies are honored.
 
-| Provider | Map Data | Offline Maps | Data Collection | License |
+| App | Map Data | Offline Maps | Data Collection | License |
 |---|---|---|---|---|
 | [Organic Maps](#organic-maps) | [OpenStreetMap](https://www.openstreetmap.org/) | :material-check:{ .pg-green } | None | Free (Apache 2.0) |
 | [OsmAnd](#osmand) | [OpenStreetMap](https://www.openstreetmap.org/) | :material-check:{ .pg-green } | None | Free (GNU GPL 3.0) |
@@ -54,7 +54,7 @@ Features include cycling routes, hiking trails and walking paths, turn-by-turn n
 
 </div>
 
-Please note that Organic Maps is a simple, basic app that lacks features many users might expect such as satellite images, streetview images, and live traffic information.
+Please note that Organic Maps is a simple, basic app that lacks certain features many users might expect, such as satellite images, streetview images, and real-time traffic information.
 
 ### OsmAnd
 
@@ -62,12 +62,12 @@ Please note that Organic Maps is a simple, basic app that lacks features many us
 
 ![OsmAnd logo](assets/img/maps/osmand.svg){ align=right }
 
-**OsmAnd** is an offline map and navigation application based on OpenStreetMap. It is open-source and does not collect any user data. Some features are paid if you download the app from the Play Store or Apple App Store, but a completely free (though unofficial) version is available on F-Droid. OsmAnd offers turn-by-turn navigation for walking, cycling, driving as well as public transport.
+**OsmAnd** is an offline map and navigation application based on OpenStreetMap, offering turn-by-turn navigation for walking, cycling, driving as well as public transport. It is open-source and does not collect any user data. Some features are paid if you download the app from the Play Store or Apple App Store, but a completely free (though unofficial) version is available on F-Droid. 
 
 [:octicons-home-16: Homepage](https://osmand.net/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://osmand.net/docs/legal/privacy-policy/){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://osmand.net/docs/intro){ .card-link title=Documentation}
-:octicons-code-16:](https://github.com/osmandapp){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/osmandapp){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -79,7 +79,7 @@ Please note that Organic Maps is a simple, basic app that lacks features many us
 
 </div>
 
-Compared to Organic Maps, OsmAnd offers many more [features](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) but is also more complicated to use. One noteworthy feature is the ability to overlay or underlay external map data, such as satellite images from Microsoft or [traffic data](https://web.archive.org/web/20211203063453/http://themm.net/public/osmand_traffic) from Google, although the latter is ignored by the automatic route planning. OsmAnd also has an optional integration of streetview images provided by [Mapillary](https://www.mapillary.com/).
+Compared to Organic Maps, OsmAnd has more [features](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) but is also more complicated to use. One noteworthy feature is the ability to overlay or underlay external map data, such as satellite images from Microsoft or [traffic data](https://web.archive.org/web/20211203063453/http://themm.net/public/osmand_traffic) from Google, although the latter is ignored by the automatic route planning. OsmAnd also has an optional integration of streetview images provided by [Mapillary](https://www.mapillary.com/).
 
 ### Magic Earth
 
@@ -87,7 +87,7 @@ Compared to Organic Maps, OsmAnd offers many more [features](https://wiki.openst
 
 ![Magic Earth logo](assets/img/maps/magic-earth.png){ align=right }
 
-**Magic Earth** is a proprietary app based on OpenStreetMap data. Its features include turn-by-turn navigation, live traffic information for route planning, speed camera warnings, public transport info, 3D and satellite maps, and the ability to download maps for offline use. The app may send position data to Magic Earth's traffic provider to provide real-time traffic information. The data is anonymized, using a changing key (so it's not linked to you), and it is deleted after 5 minutes.
+**Magic Earth** is a proprietary app based on OpenStreetMap data. Its features include turn-by-turn navigation, live traffic information for route planning, speed camera warnings, public transport info, 3D and satellite maps, and the ability to download maps for offline use. The app may send position data to Magic Earth's traffic provider to provide real-time traffic information, but the data is anonymized and only stored for 5 minutes.
 
 [:octicons-home-16: Homepage](https://www.magicearth.com/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.magicearth.com/privacy/){ .card-link title="Privacy Policy" }
@@ -103,9 +103,9 @@ Compared to Organic Maps, OsmAnd offers many more [features](https://wiki.openst
 
 </div>
 
-Magic Earth is free for all end-users but the developer also has a paid SDK for business partners. Because of this business model, they have decided against open sourcing the app.
+This app is useful for users who require real-time traffic info, which is available [in several countries](https://www.magicearth.com/feature-availablity/#hd_traffic).
 
-While the app has some useful features such as [traffic info in several countries](https://www.magicearth.com/feature-availablity/#hd_traffic) it also lacks others such as detailed shop info and reviews or streetview images.
+Magic Earth is free of cost for all end-users but the developer also has a paid SDK for business partners. Because of this business model, they have decided against open sourcing the app.
 
 ### HERE WeGo
 
@@ -113,7 +113,7 @@ While the app has some useful features such as [traffic info in several countrie
 
 ![HERE WeGo logo](assets/img/maps/here.png){ align=right }
 
-**HERE WeGo** is a proprietary app made by HERE Technologies, a company owned by a consortium of multiple German automakers as well as Intel. Unlike the previous recommendations, HERE WeGo uses its own map data rather than relying on OpenStreetMap. The app's features include turn-by-turn navigation for walking, cycling and driving as well as using public transport, live traffic information, speed camera warnings, terrain and satellite maps, the ability to download maps for offline use, and shop info such as opening times or Yelp reviews.
+**HERE WeGo** is a proprietary app made by HERE Technologies, a company owned by a consortium of multiple German automakers as well as Intel. The app's features include turn-by-turn navigation for walking, cycling and driving as well as using public transport, live traffic information, speed camera warnings, terrain and satellite maps, the ability to download maps for offline use, and shop info such as opening times or Yelp reviews.
 
 The app can send your location data in order to provide real-time traffic information, but this is an opt-in feature and the data is anonymized (not linked to your personal identity). 
 
@@ -131,7 +131,7 @@ The app can send your location data in order to provide real-time traffic inform
 
 </div>
 
-Despite being less privacy-focused than our other recommendations, HERE WeGo uses its own proprietary map data and is therefore a good alternative for users who live in regions where OpenStreetMap is insufficient. In fact, HERE's map data is used by several car manufacturers for their built-in navigation systems.
+Unlike the previous recommendations, HERE WeGo uses its own proprietary map data and is therefore a good option for users who live in regions where OpenStreetMap is insufficient. In fact, HERE's map data is used by several car manufacturers for their built-in navigation systems.
 
 ## Criteria
 
@@ -141,7 +141,7 @@ Despite being less privacy-focused than our other recommendations, HERE WeGo use
 
 - Must not collect PII per their privacy policy.
 - Must not require users to create an account with them.
-- Must not require users to share location data, and if the user opts in to sharing their location the data  must be anonymized.
+- Must not require users to share location data. If the user opts in to sharing their location, this data must be anonymized.
 - Maps can be downloaded and the app used entirely offline.
 
 ### Best-Case
@@ -151,4 +151,4 @@ Our best-case criteria represents what we would like to see from the perfect pro
 - Apps should be open source.
 - Should have route planning for public transport.
 - Should have real-time traffic information for route planning.
-- Should have advanced features (that users may expect coming from Google or Apple Maps) such as detailed shop/POI information and reviews, topographic maps, and satellite or streetview images.
+- Should have advanced features (that users may expect coming from Google or Apple Maps) such as detailed shop/POI information and reviews, topographic maps, and satellite and streetview images.
