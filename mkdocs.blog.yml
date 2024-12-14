@@ -109,8 +109,6 @@ theme:
     - announce.dismiss
     - navigation.tracking
     - navigation.tabs
-    - navigation.sections
-    - navigation.expand
     - navigation.path
     - navigation.indexes
     - navigation.footer
@@ -212,8 +210,8 @@ nav:
   - !ENV [NAV_RECOMMENDATIONS, "Recommendations"]: /en/tools/
   - !ENV [NAV_BLOG, "Articles"]:
       - index.md
-      - tags.md
       - editorial.md
+      - tags.md
   - !ENV [NAV_ABOUT, "About"]: /en/about/
   - "Donate": /en/about/donate/
   - !ENV [NAV_CHANGELOG, "Changelog"]:

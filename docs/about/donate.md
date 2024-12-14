@@ -9,15 +9,20 @@ Privacy Guides has been a nonstop effort for over 5 years to stay up to date wit
 
 ## Donate
 
-Currently, the best way to support our work is to send a monthly or one-time contribution via GitHub Sponsors. We will be able to accept donations via alternate payment platforms very soon.
+MAGIC Grants is our fiscal host, and their custom, open-source donation platform allows you to donate to our project with **Monero**, **Bitcoin**, or **debit/credit card**.
 
-[:material-heart:{ .pg-red } Sponsor us on GitHub](https://github.com/sponsors/privacyguides){ class="md-button md-button--primary" }
+[:material-heart:{ .pg-red } Donate](https://donate.magicgrants.org/privacyguides){ class="md-button md-button--primary" }
+[Sponsor on GitHub](https://github.com/sponsors/privacyguides){ class="md-button" }
 
-A new donation platform we control to make donating easier will be deployed soon. In the meantime, if you'd like to arrange a donation (including with cryptocurrency), please reach out to [info@magicgrants.org](mailto:info@magicgrants.org).
+Donating with Monero will maximize your donation by lowering our transaction fees while simultaneously [preserving your privacy](../cryptocurrency.md), win-win! You can also donate to us via GitHub Sponsors if you prefer, or if you would like to publicize your support. GitHub does not charge us any fees if you donate as an individual, but may charge us fees if you donate with a GitHub organization, if this is a concern for you.
 
 ## How We Use Donations
 
-Privacy Guides is a **non-profit** organization. We use donations for a variety of purposes, including:
+Privacy Guides is a **non-profit** project. Your donation will go to a [dedicated fund](https://magicgrants.org/funds/privacy_guides) within [MAGIC Grants](https://magicgrants.org), a 501(c)(3) organization and our fiscal host. The funds will **only** be used for this project specifically.
+
+You may qualify for a tax deduction. When you donate to us [here](https://donate.magicgrants.org/privacyguides) with cryptocurrency or card you have the option to receive a receipt from MAGIC Grants for this purpose. If you have questions about other transactions please email <info@magicgrants.org>.
+
+We use donations for a variety of purposes, including:
 
 **Web Hosting**
 
@@ -25,7 +30,7 @@ Privacy Guides is a **non-profit** organization. We use donations for a variety 
 
 **Payroll**
 
-:   We currently have one paid part-time [position](../about.md#staff) which handles day-to-day tasks like system administration, writing regular product reviews, posting our weekly show, creating course content, etc. In the future, we would like to be able to hire full-time journalists and writers to review products and create more educational content.
+:   We are endeavoring to [hire](jobs.md) full-time journalists and writers to review products and create more educational content on a regular basis.
 
 **Domain Registrations**
 
@@ -38,8 +43,6 @@ Privacy Guides is a **non-profit** organization. We use donations for a variety 
 **Product Purchases**
 
 :   We occasionally purchase products and services for the purposes of testing our [recommended tools](../tools.md).
-
-Your donation will go to a [dedicated fund](https://magicgrants.org/funds/privacy_guides) within [MAGIC Grants](https://magicgrants.org), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
 
 Thank you to all those who support our mission! :material-heart:{ .pg-red }
 
