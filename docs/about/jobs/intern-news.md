@@ -10,8 +10,6 @@ description: Privacy Guides is looking for an intern to discover and promote rel
 
 Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
 
-As of November 14, 2024, we may still be reaching out to existing candidates. If you previously applied, please keep an eye on your inbox!
-
 </div>
 
 Are you passionate about privacy and cybersecurity?
@@ -48,8 +46,6 @@ This is a 6-month contract paying $15 / hour USD, with the optional opportunity 
 <p class="admonition-title">Position Closed</p>
 
 Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
-
-As of November 14, 2024, we may still be reaching out to existing candidates. If you previously applied, please keep an eye on your inbox!
 
 </div>
 

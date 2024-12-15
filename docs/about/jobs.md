@@ -11,22 +11,4 @@ We are occasionally looking for strong journalistic writers, product reviewers, 
 
 ## Open Positions
 
-<div class="grid cards" markdown>
-
-- :material-video-box:{ .lg .middle } **Content Creator**
-
-    ---
-
-    Full-Time | Remote | \$20-$25/hour
-
-    [View posting :material-arrow-right-drop-circle:](jobs/content-creator.md)
-
-- :material-file-document-edit:{ .lg .middle } **Journalist**
-
-    ---
-
-    Full-Time | Remote | \$20-$25/hour
-
-    [View posting :material-arrow-right-drop-circle:](jobs/journalist.md)
-
-</div>
+There are no open positions at this time.
