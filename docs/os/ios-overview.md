@@ -261,7 +261,7 @@ If your device supports it, you can use the [Clean Up](https://support.apple.com
 - Tap the button labeled **Clean Up**
 - Draw a circle around whatever you want to redact. Faces will be pixelated and it will attempt to delete anything else.
 
-Otherwise, you can add a shape to fully block out a face.
+Otherwise, you can add a shape to fully block out a face or information.
 
 - Open the **Photos** app and tap the photo you have selected for redaction
 - Tap the :material-tune: (at the bottom of the screen) → markup symbol (top right) → plus icon at the bottom right
