@@ -202,28 +202,3 @@ These are apps you can install on your device which scan your device for signs o
 Using these apps is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
 
 </div>
-
-### Hypatia (Android)
-
-<div class="admonition recommendation" markdown>
-
-![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
-![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
-
-**Hypatia** is an open source real-time malware scanner for Android, from the developer of [DivestOS](android/distributions.md#divestos). It accesses the internet to download signature database updates, but does not upload your files or any metadata to the cloud (scans are performed entirely locally).
-
-[:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://github.com/divested-mobile/hypatia){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-fdroid: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner)
-
-</details>
-
-</div>
-
-Hypatia is particularly good at detecting common stalkerware: If you suspect you are a victim of stalkerware, you should [visit this page](https://stopstalkerware.org/information-for-survivors) for advice.
