@@ -84,14 +84,6 @@ For more details about each project, why they were chosen, and additional tips o
 
     - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
 
-- ![Mull logo](assets/img/browsers/mull.svg){ .lg .middle .twemoji } **Mull (Android)**
-
-    ---
-
-    **Mull** is a Firefox-based browser for Android centered around privacy and removing proprietary components.
-
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#mull-android)
-
 - ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
