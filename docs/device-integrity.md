@@ -187,18 +187,3 @@ It is important to note that Auditor can only effectively detect changes **after
 No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
 
 If your [threat model](basics/threat-modeling.md) requires privacy, you could consider using [Orbot](tor.md#orbot) or a VPN to hide your IP address from the attestation service.
-
-## On-Device Scanners
-
-<small>Protects against the following threat(s):</small>
-
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
-
-These are apps you can install on your device which scan your device for signs of compromise.
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
-
-Using these apps is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
-
-</div>
