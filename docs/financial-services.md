@@ -102,3 +102,10 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 
 - Accepts payment in [a recommended cryptocurrency](cryptocurrency.md).
 - No ID requirement.
+
+<div class="admonition tip" markdown>
+<p class="admonition-title">Important notices</p>
+
+The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](about/notices.md).
+
+</div>
