@@ -1,3 +1,3 @@
-# Tag Index
+# Tags
 
 <!-- material/tags -->
