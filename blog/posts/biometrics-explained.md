@@ -50,7 +50,7 @@ Fingerprint unlock will inherently be vulnerable to someone forcing you to put y
 
 They also won't work with gloves and sometimes screen protectors can interfere, so make sure that the sensor is uncovered and making direct contact with your actual finger.
 
-Fingerprint authentication will protect you against someone filming you surreptitiously while typing in your password or shoulder surfing. This is an especially relevant attack if your threat model includes theives as a common attack is watching you type your passcode in and then stealing your phone.
+Fingerprint authentication will protect you against someone filming you surreptitiously while typing in your password or shoulder surfing. This is an especially relevant attack if your threat model includes thieves as a common attack is watching you type your passcode in and then stealing your phone.
 
 ## :material-face-recognition: Face Unlock
 
