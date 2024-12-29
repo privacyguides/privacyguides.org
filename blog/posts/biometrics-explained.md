@@ -56,9 +56,9 @@ Many devices come with the capability to unlock them using your face. The implem
 
 Every phone already has a camera, so why not use it for face unlock? There are many reasons.
 
-If you're relying on a plain 2D image, then there's always the possibility that it could be fooled by a regular photo. Someone getting let in to your phone becuase they have a picture of your face is a security nightmare scenario and the only thing stopping it is the whims of whatever algorithm they programmed into your phone.
+If you're relying on a plain 2D image, then there's always the possibility that it could be fooled by a regular photo. Someone getting in to your phone becuase they have a picture of your face is a security nightmare scenario and the only thing stopping it is the whims of whatever algorithm was programmed into your phone.
 
-It also makes it less likely to work in low-light conditions, so get ready to be blinded yet again by your phone.
+This form of face unlock is also less likely to work in low-light conditions than infrared variants.
 
 ### 2D Infrared Face Unlock
 
