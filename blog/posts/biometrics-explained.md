@@ -46,7 +46,7 @@ Many devices come with the capability to unlock them using your face. The implem
 
 ### 2D Camera Face Unlock
 
-Every phone already has a camera, so why not use it for face unlock? Many reasons.
+Every phone already has a camera, so why not use it for face unlock? There are many reasons.
 
 If you're relying on a plain 2D image, then there's always the possibility that it could be fooled by a regular photo. Someone getting let in to your phone becuase they have a picture of your face is a security nightmare scenario and the only thing stopping it is the whims of whatever algorithm they programmed into your phone.
 
