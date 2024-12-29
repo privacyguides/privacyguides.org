@@ -54,7 +54,7 @@ It also makes it less likely to work in low-light conditions, so get ready to be
 
 ### 2D Infrared Face Unlock
 
-The next step up in security is an infrared sensor. This requires dedicated hardware to be built into the device, which eats up space and adds cost to the device. But what you get in return is a form of face unlock that's more reliable in low-light conditions and more resistant to photographs.
+The next step up in security is an infrared sensor. This requires dedicated hardware to be built into the device, which eats up space and adds cost. But what you get in return is a form of face unlock that's more reliable in low-light conditions and more resistant to photographs.
 
 ### 3D Face Unlock
 
@@ -64,8 +64,10 @@ The potential of this technology truly shines when 2D face unlock is combined wi
 
 They put the odds for Touch ID around [1 in 50,000](https://support.apple.com/en-us/105095) for comparison.
 
+3D face unlock is immune to 2D images and requires a 3D reconstruction of a face before it has a chance of being fooled.
+
 ### Additional Considerations
 
-You'll likely want an implementation with some protection against another person pointing your phobe at your face to unlock it. iOS allows you to enable a setting where you need to be looking at the phone before it will unlock, look for a similar feature when shopping for a device.
+You'll likely want an implementation with some protection against another person pointing your phone at your face to unlock it. iOS allows you to enable a setting where you need to be looking at the phone before it will unlock, look for a similar feature when shopping for a device.
 
 Also note that training your face unlock while wearing things like glasses and face masks will make face unlock less secure since it's working off less data.
