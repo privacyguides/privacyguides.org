@@ -38,3 +38,34 @@ Conveniently they also don't require a light source under them to work.
 
 ### Ultrasonic Fingerprint Sensors
 
+
+
+## Face Unlock
+
+Many devices come with the capability to unlock them using your face. The implementations of this technology can vary wildly between manufacturers since a secure implementation requires a lot of special hardware, so many OEMs choose to cheap out. All forms of face unlock are more likely to allow a twin or sibling into your device since their face is more similar to yours than a random person off the street, so keep that in mind in your threat model.
+
+### 2D Camera Face Unlock
+
+Every phone already has a camera, so why not use it for face unlock? Many reasons.
+
+If you're relying on a plain 2D image, then there's always the possibility that it could be fooled by a regular photo. Someone getting let in to your phone becuase they have a picture of your face is a security nightmare scenario and the only thing stopping it is the whims of whatever algorithm they programmed into your phone.
+
+It also makes it less likely to work in low-light conditions, so get ready to be blinded yet again by your phone.
+
+### 2D Infrared Face Unlock
+
+The next step up in security is an infrared sensor. This requires dedicated hardware to be built into the device, which eats up space and adds cost to the device. But what you get in return is a form of face unlock that's more reliable in low-light conditions and more resistant to photographs.
+
+### 3D Face Unlock
+
+The potential of this technology truly shines when 2D face unlock is combined with an infrared flood illuminator. These are able to shine thousands of invisible infrared dots on your face and record the distance of each one, creating a 3D map of your face. As you can probably imagine, this tech takes up quite a bit of space and adds yet more cost to the device, as well as likely being the main reason for the "notch" on iPhones. This drawback is well worth it though. According to [Apple](https://support.apple.com/en-us/102381):
+
+>The probability that a random person in the population could look at your iPhone or iPad Pro and unlock it using Face ID is less than 1 in 1,000,000 with a single enrolled appearance whether or not you're wearing a mask.
+
+They put the odds for Touch ID around [1 in 50,000](https://support.apple.com/en-us/105095) for comparison.
+
+### Additional Considerations
+
+You'll likely want an implementation with some protection against another person pointing your phobe at your face to unlock it. iOS allows you to enable a setting where you need to be looking at the phone before it will unlock, look for a similar feature when shopping for a device.
+
+Also note that training your face unlock while wearing things like glasses and face masks will make face unlock less secure since it's working off less data.
