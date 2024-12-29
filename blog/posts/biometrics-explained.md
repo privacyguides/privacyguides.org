@@ -95,3 +95,7 @@ Companies like [TypingDNA](https://www.typingdna.com) claim to be able to identi
 The stated usecase is 2FA and continuous authentication for employee devices. Likely you'll only encounter this technology on work devices, especially since this type of biometrics will be affected by the type of keyboard you're using. It only really makes since to authenticate on a specific device that you'll be using continuously and typing on a lot, such as a work laptop.
 
 It could also be used on websites to uniquely identify you, so type in a text editor program then copy/paste into the browser window to avoid this specific type of fingerprinting.
+
+## Gait Biometrics
+
+Possibly the most insidious of the biometrics in widespread use is gait recognition. Yes, you can be uniquely identified just by how you walk. Combined with the huge network of cameras deployed in most cities, you can potentially be identified and tracked around even with a fully covered face.
