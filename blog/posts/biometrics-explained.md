@@ -20,7 +20,7 @@ One of the most recognizable types of biometric authentication has to be the fin
 
 1. :material-fingerprint: It's theorized that the reason humans have fingerprints in the first place is to [enhance our sense of touch](https://www.science.org/doi/10.1126/science.1166467).
 
-There four main ways we accomplish this: optical sensors, capacitive sensors, ultrasonic sensors, and thermal sensors.
+There are three main ways we accomplish this in consumer devices: optical sensors, capacitive sensors, and ultrasonic sensors.
 
 ### Optical Fingerprint Sensors
 
