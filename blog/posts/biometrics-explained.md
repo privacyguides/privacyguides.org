@@ -11,7 +11,7 @@ license: BY-SA
 ---
 # Biometrics Explained
 
-Biometrics are a convenient and secure way to authenticate our devices. Many of us use and trust the biometrics of our devices without much thought, but are they really secure? With so many different types, which ones are the best?<!-- more -->
+Biometrics are a convenient and secure way to authenticate our devices. Many of us use and trust the biometrics of our devices without much thought, but are they really secure? With so many different [options](https://www.biometricsinstitute.org/what-is-biometrics/types-of-biometrics/), which ones are the best?<!-- more -->
 
 ## :material-fingerprint: Fingerprint
 
@@ -20,7 +20,7 @@ One of the most recognizable types of biometric authentication has to be the fin
 
 1. :material-fingerprint: It's theorized that the reason humans have fingerprints in the first place is to [enhance our sense of touch](https://www.science.org/doi/10.1126/science.1166467).
 
-There are three main ways we accomplish this in consumer devices: optical sensors, capacitive sensors, and ultrasonic sensors.
+There are [three](https://www.androidauthority.com/how-fingerprint-scanners-work-670934/) main ways we accomplish this in consumer devices: optical sensors, capacitive sensors, and ultrasonic sensors.
 
 ### :material-camera: Optical Fingerprint Sensors
 
@@ -52,7 +52,7 @@ Fingerprint authentication will protect you against someone filming you surrepti
 
 ## :material-face-recognition: Face Unlock
 
-Many devices come with the capability to unlock them using your face. The implementations of this technology can vary wildly between manufacturers since a secure implementation requires a lot of special hardware, so many OEMs choose to cheap out. All forms of face unlock are more likely to allow a twin or sibling into your device since their face is more similar to yours than a random person off the street, so keep that in mind in your threat model.
+Many devices come with the capability to unlock them using your face. The [implementations](https://www.androidauthority.com/face-unlock-smartphones-3043993/) of this technology can vary wildly between manufacturers since a secure implementation requires a lot of special hardware, so many OEMs choose to cheap out. All forms of face unlock are more likely to allow a twin or sibling into your device since their face is more similar to yours than a random person off the street, so keep that in mind in your threat model.
 
 ### :material-camera-front: 2D Camera Face Unlock
 
