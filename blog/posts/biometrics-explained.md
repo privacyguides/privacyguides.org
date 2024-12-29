@@ -86,7 +86,7 @@ A spy movie classic but newcomer in the consumer electronics field, iris sensors
 
 It uses near-infrared light to reveal highly unique patterns independent of the pigmentation of your eyes. Apple estimates the liklihood of a random person being able to unlock your Optic ID at less than 1 in 1,000,000, similar to Face ID.
 
-The extremely short distance this technology operates at makes it very difficult for someone to unlock your device without you noticing.
+The extremely short distance this technology operates at makes it very difficult for someone to unlock your device without you noticing, and you can simply close your eyes to prevent someone from forcing you to unlock it.
 
 ## Typing Biometrics
 
