@@ -38,7 +38,9 @@ Conveniently they also don't require a light source under them to work.
 
 ### Ultrasonic Fingerprint Sensors
 
-Ultrasonic fingerprint sensors use sound 
+Ultrasonic fingerprint sensors use sound to create a detailed 3D representation of your fingerprint. This is the most expensive type of sensor but it produces the most accurate readings with the highest reliability. It doesn't matter if your finger is a bit dirty or wet, it will still work unlike optical or capacitive sensors.
+
+One downside is that you lose the protection against dead tissue that capacitive sensors offer, but this is not relevant for most people.
 
 ## Face Unlock
 
