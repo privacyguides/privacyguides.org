@@ -79,3 +79,11 @@ They put the odds for Touch ID around [1 in 50,000](https://support.apple.com/en
 You'll likely want an implementation with some protection against another person pointing your phone at your face to unlock it. iOS allows you to enable a setting where you need to be looking at the phone before it will unlock, look for a similar feature when shopping for a device.
 
 Also note that training your face unlock while wearing things like glasses and face masks will make face unlock less secure since it's working off less data.
+
+## Iris Sensors
+
+A spy movie classic but newcomer in the consumer electronics field, iris sensors offer authentication via the unique properties of your eyes. The Apple Vision Pro is the most notable example with its [Optic ID](https://support.apple.com/en-us/118483).
+
+It uses near-infrared light to reveal highly unique patterns independent of the pigmentation of your eyes. Apple estimates the liklihood of a random person being able to unlock your Optic ID at less than 1 in 1,000,000, similar to Face ID.
+
+The extremely short distance this technology operates at makes it very difficult for someone to unlock your device without you noticing.
