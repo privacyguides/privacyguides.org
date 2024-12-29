@@ -42,6 +42,12 @@ Ultrasonic fingerprint sensors use sound to create a detailed 3D representation 
 
 One downside is that you lose the protection against dead tissue that capacitive sensors offer, but this is not relevant for most people.
 
+### Additional Considerations
+
+Fingerprint unlock will inherently be vulnerable to someone forcing you to put your finger on the sensor to unlock your device, so keep this in mind when threat modeling.
+
+They also won't work with gloves and sometimes screen protectors can interfere, so make sure that the sensor is uncovered and making direct contact with your actual finger.
+
 ## Face Unlock
 
 Many devices come with the capability to unlock them using your face. The implementations of this technology can vary wildly between manufacturers since a secure implementation requires a lot of special hardware, so many OEMs choose to cheap out. All forms of face unlock are more likely to allow a twin or sibling into your device since their face is more similar to yours than a random person off the street, so keep that in mind in your threat model.
