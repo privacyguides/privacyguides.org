@@ -87,3 +87,11 @@ A spy movie classic but newcomer in the consumer electronics field, iris sensors
 It uses near-infrared light to reveal highly unique patterns independent of the pigmentation of your eyes. Apple estimates the liklihood of a random person being able to unlock your Optic ID at less than 1 in 1,000,000, similar to Face ID.
 
 The extremely short distance this technology operates at makes it very difficult for someone to unlock your device without you noticing.
+
+## Typing Biometrics
+
+Companies like [TypingDNA](https://www.typingdna.com) claim to be able to identify users by how they type.
+
+The stated usecase is 2FA and continuous authentication for employee devices. Likely you'll only encounter this technology on work devices, especially since this type of biometrics will be affected by the type of keyboard you're using. It only really makes since to authenticate on a specific device that you'll be using continuously and typing on a lot, such as a work laptop.
+
+It could also be used on websites to uniquely identify you, so type in a text editor program then copy/paste into the browser window to avoid this specific type of fingerprinting.
