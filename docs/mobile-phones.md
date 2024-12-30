@@ -34,7 +34,7 @@ Most **mobile phones** receive short or limited windows of security updates from
 
 The mobile devices listed here provide a long lifespan of guaranteed security updates and allow you to install a custom operating system without violating the Android security model.
 
-[Recommended Custom OSes :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Details about Android Security :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
+[Recommended Android Distributions :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Details about Android Security :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
