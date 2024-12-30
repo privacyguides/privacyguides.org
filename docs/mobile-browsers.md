@@ -321,6 +321,10 @@ This setting allows you to lock your private tabs behind biometrics/PIN when not
 
 This setting uses Google Safe Browsing (or Tencent Safe Browsing for users in mainland China or Hong Kong) to protect you while you browse. As such, your IP address may be logged by your Safe Browsing provider. Disabling this setting will disable this logging, but you might be more vulnerable to known phishing sites.
 
+- [x] Enable **Not Secure Connection Warning**
+
+This setting shows a warning screen if your connection to a website isn't using HTTPS. Safari will automatically try to upgrade the site to HTTPS, so you should only see this when there is no HTTPS connection available.
+
 - [ ] Disable **Highlights**
 
 Apple's privacy policy for Safari states:
