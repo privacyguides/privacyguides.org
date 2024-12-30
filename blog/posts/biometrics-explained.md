@@ -30,7 +30,7 @@ An optical sensor works just like you'd think it would: by taking a picture of y
 
 Many devices implement one of these sensors under the display. You can tell if yours does because it will flash you with a bright light when you try to scan your finger. This happens so the optical sensor can capture a clear image of your finger.
 
-Optical sensors can also struggle in the presence of bright sunlight, which is an isses on a mobile device that you take around with you and use wherever you are.
+Optical sensors can also struggle in the presence of bright sunlight, which is an issue on a mobile device that you take around with you and use wherever you are.
 
 ### :material-lightning-bolt: Capacitive Fingerprint Sensors
 
