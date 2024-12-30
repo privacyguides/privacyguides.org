@@ -254,6 +254,22 @@ You can hide an app by long-pressing on it and selecting **Require Face ID/Touch
 
 If you need to hide information in a photo, you can use Apple's built-in editing tools to do so.
 
+If your device supports it, you can use the [Clean Up](https://support.apple.com/en-us/121429) feature to pixelate faces or remove objects from images.
+
+- Open the **Photos** app and tap the photo you have selected for redaction
+- Tap the :material-tune: (at the bottom of the screen)
+- Tap the button labeled **Clean Up**
+- Draw a circle around whatever you want to redact. Faces will be pixelated and it will attempt to delete anything else.
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+Don't use Clean Up to remove text, block text out with a fully black box instead.
+
+</div>
+
+Otherwise, you can add a shape to fully block out a face or information.
+
 - Open the **Photos** app and tap the photo you have selected for redaction
 - Tap the :material-tune: (at the bottom of the screen) → markup symbol (top right) → plus icon at the bottom right
 - Select **Add Shape** and choose the square or circle
