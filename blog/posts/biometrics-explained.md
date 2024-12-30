@@ -30,6 +30,8 @@ An optical sensor works just like you'd think it would: by taking a picture of y
 
 Many devices implement one of these sensors under the display. You can tell if yours does because it will flash you with a bright light when you try to scan your finger. This happens so the optical sensor can capture a clear image of your finger.
 
+Optical sensors can also struggle in the presence of bright sunlight, which is an isses on a mobile device that you take around with you and use wherever you are.
+
 ### :material-lightning-bolt: Capacitive Fingerprint Sensors
 
 Capacitive sensors measure the electrical conductivity of your finger. These are much more secure than optical sensors since they can't be fooled with an image. They're also tough to fool with prosthetics as different materials will have different electical properties.
