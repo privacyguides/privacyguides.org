@@ -105,3 +105,7 @@ It could also be used on websites to uniquely identify you, so type in a text ed
 Possibly the most insidious of the biometrics in widespread use is gait recognition. Yes, you can be uniquely identified just by how you walk. Combined with the huge network of cameras deployed in most cities, you can potentially be identified and tracked around even with a fully covered face.
 
 This type of biometric is mainly useful for surveillance purposes rather than authentication but it's good to be aware of since it will likely be used against you in any highly populated area.
+
+## Secure Element
+
+All forms of biometric authentication rely on proper hardware such as a secure element in order to be secure. You should avoid devices that lack a secure element; they won't be able to properly implement secure biometrics without one.
