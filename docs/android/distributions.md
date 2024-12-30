@@ -30,7 +30,7 @@ A **custom Android-based operating system** (often mistakenly called a ROM) can 
 
 We recommend installing GrapheneOS if you have a Google Pixel as it has improved security hardening and privacy features. The reason we don't list other devices or OSes is because they often have:
 
-- [weaker security]{android.md#install-a-custom-distribution}
+- [weaker security](index.md#install-a-custom-distribution)
 - may simply drop support when the maintainer loses interest or upgrades their device as opposed to GrapheneOS which has a predictable [support cycle](https://grapheneos.org/faq#device-lifetime).
 - few or no notable privacy or security features that make the move worthwhile
 
