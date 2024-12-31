@@ -112,4 +112,8 @@ All forms of biometric authentication rely on proper hardware such as a secure e
 
 ## :material-matrix: Algorithm
 
-Because biometrics need to translate the physical properties of your body to data, they rely on an algorithm to determine if their reading matches closely enough. There can be massive variation in the quality of these algorithms. [Android](https://source.android.com/docs/security/features/biometric) has guidelines on how OEMs should implement biometrics and how they can [test](https://source.android.com/docs/security/features/biometric/measure) them for security.
+Because biometrics need to translate the physical properties of your body to data, they rely on an algorithm to determine if their reading matches closely enough. 
+
+Since these algorithms rely on machine learning most of the time, the only way to verify their security is through testing. [Android](https://source.android.com/docs/security/features/biometric) has guidelines on how OEMs should implement biometrics and how they can [test](https://source.android.com/docs/security/features/biometric/measure) them for security. If you're performing your own security research, you should look here for guidance on testing methodology.
+
+There is also independent research into the security of biometric systems. This combination of external and internal rigor helps ensure the security of these systems, although more well known brands like Apple and Google will receive more scrutiny than lesser-known ones.
