@@ -28,7 +28,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 A **custom Android-based operating system** (often mistakenly called a ROM) can be a way to achieve a higher level of privacy and security on your device. This is in contrast to the "stock" version of Android which comes with your phone from the factory, and is often deeply integrated with Google Play Services as well as other vendor software.
 
-We recommend installing GrapheneOS if you have a Google Pixel as it has improved security hardening and privacy features. The reason we don't list other devices or OSes is because they often have:
+We recommend installing GrapheneOS if you have a Google Pixel as it provides improved security hardening and additional privacy features. The reasons we don't list other OSes or devices are as follows:
 
 - [weaker security](index.md#install-a-custom-distribution)
 - may simply drop support when the maintainer loses interest or upgrades their device as opposed to GrapheneOS which has a predictable [support cycle](https://grapheneos.org/faq#device-lifetime).
