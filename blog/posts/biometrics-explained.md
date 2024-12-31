@@ -106,6 +106,6 @@ Possibly the most insidious of the biometrics in widespread use is gait recognit
 
 This type of biometric is mainly useful for surveillance purposes rather than authentication but it's good to be aware of since it will likely be used against you in any highly populated area.
 
-## Secure Element
+## :material-chip: Secure Element
 
 All forms of biometric authentication rely on proper hardware such as a secure element in order to be secure. You should avoid devices that lack a secure element; they won't be able to properly implement secure biometrics without one.
