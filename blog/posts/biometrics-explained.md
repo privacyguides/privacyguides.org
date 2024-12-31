@@ -109,3 +109,7 @@ This type of biometric is mainly useful for surveillance purposes rather than au
 ## :material-chip: Secure Element
 
 All forms of biometric authentication rely on proper hardware such as a secure element in order to be secure. You should avoid devices that lack a secure element; they won't be able to properly implement secure biometrics without one.
+
+## Algorithm
+
+Because biometrics need to translate the physical properties of your body to data, they rely on an algorithm to determine if their reading matches closely enough. There can be massive variation in the quality of these algorithms. [Android](https://source.android.com/docs/security/features/biometric) has guidelines on how OEMs should implement biometrics and how they can [test](https://source.android.com/docs/security/features/biometric/measure) them for security.
