@@ -609,6 +609,9 @@ Privacy Guides wouldn't be possible without these wonderful people ([emoji key](
       <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/PASSK3YS"><img src="https://avatars.githubusercontent.com/u/54213179?v=4" width="100px;" loading=lazy /><br /><sub><b>Kieran Colfer</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=PASSK3YS" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/SamsungGalaxyPlayer"><img src="https://avatars.githubusercontent.com/u/12520755?v=4" width="100px;" loading=lazy /><br /><sub><b>Justin Ehrenhofer</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=SamsungGalaxyPlayer" title="Documentation">📖</a> <a href="#business-SamsungGalaxyPlayer" title="Business development">💼</a> <a href="#fundingFinding-SamsungGalaxyPlayer" title="Funding Finding">🔍</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/bruch-alex"><img src="https://avatars.githubusercontent.com/u/173354246?v=4" width="100px;" loading=lazy /><br /><sub><b>Alex Bruch</b></sub></a><br /><a href="#translation-bruch-alex" title="Translation">🌍</a></td>
+    </tr>
   </tbody>
   <tfoot>
     <tr>
