@@ -261,16 +261,9 @@ If your device supports it, you can use the [Clean Up](https://support.apple.com
 - Tap the button labeled **Clean Up**
 - Draw a circle around whatever you want to redact. Faces will be pixelated and it will attempt to delete anything else.
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+Our warning [against blurring text](../data-redaction.md) also applies here, so we recommend to instead add a black shape with 100% opacity over it. In addition to redacting text, you can also black out any face or object using the **Photos** app.
 
-Don't use Clean Up to remove text, block text out with a fully black box instead.
-
-</div>
-
-Otherwise, you can add a shape to fully block out a face or information.
-
-- Open the **Photos** app and tap the photo you have selected for redaction
+- Tap the image you have selected for redaction
 - Tap the :material-tune: (at the bottom of the screen) → markup symbol (top right) → plus icon at the bottom right
 - Select **Add Shape** and choose the square or circle
 - On the toolbar, tap the circle (left-most option) and choose black as the color for filling in the shape. You can also move the shape and increase its size as you see fit.
