@@ -28,6 +28,11 @@ There are [three](https://www.androidauthority.com/how-fingerprint-scanners-work
 
 An optical sensor works just like you'd think it would: by taking a picture of your fingerprint and turning it into data. These are the cheapest and least secure option. They're potentially vulnerable to an attacker simply taking a picture of your fingerprint, since they only capture a two-dimensional image.
 
+<figure markdown>
+  ![Diagram showing a closeup of how an optical fingerprint sensor works by reflecting light off the skin](../assets/images/biometrics-explained/optical-diagram.jpeg)
+  <figcaption>source: <a href="https://clockit.io/fingerprint-scanner/">clockit.io</a></figcaption>
+</figure>
+
 Many devices implement one of these sensors under the display. You can tell if yours does because it will flash you with a bright light when you try to scan your finger. This happens so the optical sensor can capture a clear image of your finger.
 
 Optical sensors can also struggle in the presence of bright sunlight, which is an issue on a mobile device that you take around with you and use wherever you are.
