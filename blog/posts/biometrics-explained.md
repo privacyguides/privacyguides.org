@@ -118,7 +118,7 @@ This type of biometric is mainly useful for surveillance purposes rather than au
 
 ## :material-chip: Secure Element
 
-All forms of biometric authentication rely on proper hardware such as a secure element in order to be secure. You should avoid devices that lack a secure element; they won't be able to properly implement secure biometrics without one.
+All forms of biometric authentication rely on proper hardware such as a secure element in order to be secure. Examples include Apple's Secure Enclave and Google's Titan M series of chips. You should avoid devices that lack a secure element; they won't be able to properly implement secure biometrics without one.
 
 ## :material-matrix: Algorithm
 
