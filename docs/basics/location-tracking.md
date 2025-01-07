@@ -9,3 +9,7 @@ GPS stands for Global Positioning System. It's often used colloquially as a catc
 These [systems](https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/gps/howitworks) work using a constellation of satellites that are in orbit around the earth. The satellites have a highly accurate atomic clock onboard. The satellites continuously broadcast a signal containing the time and data that the GPS receiver uses to calculate the position of the satellites. The receiver uses the time difference between the broadcast time of the satellite and the time it received the signal to determine how far away the satellite is. Using this combined information, the receiver can determine its own position in 3D space.
 
 Since pure GPS is receive only, it's quite privacy friendly, barring any software that has access to GPS information sending it off-device.
+
+## A-GNSS
+
+[Assisted GNSS](https://www.symmetryelectronics.com/blog/what-is-a-gps-a-gnss-and-why-would-i-need-it-symmetry-blog/) (A-GNSS) augments the satellite-based technology of GNSS with ground-based radio, significantly improving the Time to First Fix (TTFF) of a receiver.
