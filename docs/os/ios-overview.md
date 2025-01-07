@@ -250,7 +250,7 @@ In addition to locking apps behind biometrics, you can also hide apps so that th
 
 You can hide an app by long-pressing on it and selecting **Require Face ID/Touch ID** → **Hide and Require Face ID/Touch ID**. Note that pre-installed Apple apps, as well as the default web browser and email app, cannot be hidden. Hidden apps reside in a **Hidden** folder at the bottom of the App Library, which can be unlocked using biometrics. This folder appears in the App Library whether you hid any apps or not, which provides you a degree of plausible deniability.
 
-### Blacking Out Faces/Information
+### Redacting Elements in Images
 
 If you need to hide information in a photo, you can use Apple's built-in editing tools to do so.
 
