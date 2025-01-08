@@ -16,4 +16,4 @@ Satellites deviate from their orbit occasionally so ground-based observatories m
 
 Downloading this data from satellites can take 30+ seconds from a single satellite and 5+ minutes from all visible satellites. It takes at least 12 hours (the time it takes a GNSS satellite to complete a full orbit) to download it from all satellites in the constellation. This wait time on first boot up of a GPS receiver is called the Time to First Fix (TTFF).
 
-[Assisted GNSS](https://www.symmetryelectronics.com/blog/what-is-a-gps-a-gnss-and-why-would-i-need-it-symmetry-blog/) (A-GNSS) augments the satellite-based technology of GNSS with ground-based systems, significantly improving the TTFF of a receiver.
+[Assisted GNSS](https://www.symmetryelectronics.com/blog/what-is-a-gps-a-gnss-and-why-would-i-need-it-symmetry-blog/) (A-GNSS) augments the satellite-based technology of GNSS with either ephemeris data downloaded from the internet or locally-generated ephemeris data, significantly improving the TTFF of a receiver.
