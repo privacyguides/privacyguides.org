@@ -12,8 +12,8 @@ Since pure GPS is receive only, it's quite privacy friendly, barring any softwar
 
 ## A-GNSS
 
-[Assisted GNSS](https://www.symmetryelectronics.com/blog/what-is-a-gps-a-gnss-and-why-would-i-need-it-symmetry-blog/) (A-GNSS) augments the satellite-based technology of GNSS with ground-based radio, significantly improving the Time to First Fix (TTFF) of a receiver.
+Satellites deviate from their orbit occasionally so ground-based observatories must determine the exact orbit of the satellites and send it to them. This is called ephemeris data. The satellites then send this data to receivers on the ground.
 
-Satellites deviate from their orbit occasionally so ground-based observatories must determine the exact orbit of the satellites and send it to them. The satellites then sends to receivers on the ground. This is called Ephemeris data.
+Downloading this data from satellites can take 30+ seconds from a single satellite and 5+ minutes from all visible satellites. It takes at least 12 hours (the time it takes a GNSS satellite to complete a full orbit) to download it from all satellites in the constellation. This wait time on first boot up of a GPS receiver is called the Time to First Fix (TTFF).
 
-Downloading this data from satellites can take 30+ seconds from a single satellite and 5+ minutes from all visible satellites. It takes at least 12 hours (the time it takes a GNSS satellite to complete a full orbit) to download it from all satellites in the constellation.
+[Assisted GNSS](https://www.symmetryelectronics.com/blog/what-is-a-gps-a-gnss-and-why-would-i-need-it-symmetry-blog/) (A-GNSS) augments the satellite-based technology of GNSS with ground-based systems, significantly improving the TTFF of a receiver.
