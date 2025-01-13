@@ -42,7 +42,7 @@ An optical sensor works just like you'd think it would: by taking a picture of y
 
 Many devices implement one of these sensors under the display.
 
-Optical sensors can also struggle in the presence of bright sunlight, which is an issue on a mobile device that you take around with you and use wherever you are.
+Optical sensors can struggle in the presence of bright sunlight, which is an issue on a mobile device that you take around with you and use wherever you are.
 
 ### :material-lightning-bolt: Capacitive Fingerprint Sensors
 
