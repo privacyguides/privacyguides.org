@@ -27,6 +27,8 @@ One of the most recognizable types of biometric authentication has to be the fin
   <figcaption>source: <a href="https://sites.rutgers.edu/fingerprinting/no-two-finger-prints-are-alike/">rutgers.edu</a></figcaption>
 </figure>
 
+Using these details for identification gives several advantages over trying to read the whole fingerprint. It allows the device to use less processing power, as well as providing some flexibility in case your finger is smudged or at a strange angle. The sensor doesn't even need to see your whole fingerprint. You might notice some fingerprint readers are very thin and might be located in a convenient place like a power button; finger minutiae is what allows them to still operate securely.
+
 There are [three](https://www.androidauthority.com/how-fingerprint-scanners-work-670934/) main ways we accomplish this in consumer devices: optical sensors, capacitive sensors, and ultrasonic sensors.
 
 ### :material-camera: Optical Fingerprint Sensors
