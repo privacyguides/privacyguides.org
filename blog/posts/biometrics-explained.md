@@ -23,7 +23,7 @@ One of the most recognizable types of biometric authentication has to be the fin
 1. :material-fingerprint: It's theorized that the reason humans have fingerprints in the first place is to [enhance our sense of touch](https://www.science.org/doi/10.1126/science.1166467).
 
 <figure markdown>
-  ![Example of finger minutiae including forks, ends, islands, and inclosures](../assets/images/biometrics-explained/finger_minutiae.jpeg)
+  ![Example of finger minutiae including forks (where one line splits into mulitple lines), ends (where a line ends), islands (isolated dots), and inclosures (lines that split into two and then reconnect)](../assets/images/biometrics-explained/finger_minutiae.jpeg)
   <figcaption>source: <a href="https://sites.rutgers.edu/fingerprinting/no-two-finger-prints-are-alike/">rutgers.edu</a></figcaption>
 </figure>
 
