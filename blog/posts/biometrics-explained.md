@@ -24,7 +24,7 @@ One of the most recognizable types of biometric authentication has to be the fin
 
 <figure markdown>
   ![Example of finger minutiae including forks, ends, islands, and inclosures](../assets/images/biometrics-explained/finger_minutiae.jpeg)
-  <figcaption>source: <a href="https://sites.rutgers.edu/fingerprinting/no-two-finger-prints-are-alike/"></a>rutgers.edu</figcaption>
+  <figcaption>source: <a href="https://sites.rutgers.edu/fingerprinting/no-two-finger-prints-are-alike/">rutgers.edu</a></figcaption>
 </figure>
 
 There are [three](https://www.androidauthority.com/how-fingerprint-scanners-work-670934/) main ways we accomplish this in consumer devices: optical sensors, capacitive sensors, and ultrasonic sensors.
