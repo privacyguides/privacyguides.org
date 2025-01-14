@@ -33,7 +33,7 @@ There are [three](https://www.androidauthority.com/how-fingerprint-scanners-work
 
 ### :material-camera: Optical Fingerprint Sensors
 
-An optical sensor works just like you'd think it would: by taking a picture of your fingerprint and turning it into data. These are the cheapest and least secure option. They're potentially vulnerable to an attacker simply taking a picture of your fingerprint, since they only capture a two-dimensional image.
+An optical sensor works by taking a picture of your fingerprint and turning it into data. They are the cheapest and least secure option. Since optical sensors capture two-dimensional images, an attacker may gain access by simply taking a picture of your fingerprint.
 
 <figure markdown>
   ![Diagram showing a closeup of how an optical fingerprint sensor works by reflecting light off the skin](../assets/images/biometrics-explained/optical-diagram.jpeg)
