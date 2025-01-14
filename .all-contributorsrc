@@ -2965,6 +2965,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "qiyongzheng",
+      "name": "qiyongzheng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/153378707?v=4",
+      "profile": "https://github.com/qiyongzheng",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 5,
