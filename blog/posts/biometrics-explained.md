@@ -23,7 +23,7 @@ One of the most recognizable types of biometric authentication has to be the fin
 1. :material-fingerprint: It's theorized that the reason humans have fingerprints in the first place is to [enhance our sense of touch](https://www.science.org/doi/10.1126/science.1166467).
 
 <figure markdown>
-  ![Example of finger minutiae including forks (where one line splits into mulitple lines), ends (where a line ends), islands (isolated dots), and inclosures (lines that split into two and then reconnect)](../assets/images/biometrics-explained/finger_minutiae.jpeg)
+  ![Example of finger minutiae including forks (where one line splits into mulitple lines), ends (where a line ends), islands (isolated dots), and inclosures (lines that split into two and then reconnect)](../assets/images/biometrics-explained/finger-minutiae.jpeg)
   <figcaption>source: <a href="https://sites.rutgers.edu/fingerprinting/no-two-finger-prints-are-alike/">rutgers.edu</a></figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ Conveniently they also don't require a light source under them to work, although
 Ultrasonic fingerprint sensors use sound to create a detailed 3D representation of your fingerprint using ultrasound waves (sound waves with a frequency greater than 20khz). It's a similar concept to what's used to map the ocean floor: sound is emitted from transducers and bounces off your skin before being picked up by tiny microphones. By measuring the time it takes for the sound to reach the microphones, your phone can create a detailed map of the ridges and valleys in your finger.
 
 <figure markdown>
-  ![Diagram showing the transducers emitting ultrasound waves and reflecting off the finger tissue bouncing back and then being picked up by microphones](../assets/images/biometrics-explained/ultrasonic-diagram.jpg)
+  ![Diagram showing the transducers emitting ultrasound waves and reflecting off the finger tissue bouncing back and then being picked up by microphones](../assets/images/biometrics-explained/ultrasonic-diagram.png)
   <figcaption>source: <a href="https://www.researchgate.net/publication/285770473_Piezoelectric_Micromachined_Ultrasonic_Transducers_for_Fingerprint_Sensing">Yipeng Lu</a></figcaption>
 </figure>
 
