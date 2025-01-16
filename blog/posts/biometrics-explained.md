@@ -138,9 +138,15 @@ This techology can work using only 2D footage and doesn't even require close pro
 
 This type of biometric can work without your consent and when other identifiable features such as face and fingerprints are hidden. It's also very difficult to impersonate someone else's gait.
 
+There are two approaches for extracting biometric data from video.
+
 #### Model-based
 
+This approach attempts to model the human body in order to track the different parts of it. A well-known example of this approach is the Microsoft Kinect, which only consists of a fairly low-resolution camera. It simplifies the human body into a stick figure, which you can see in footage of the Kinect in action. It then uses the distances and joint angles of the model for gait recognition.
+
 #### Model-free
+
+Model-free approaches don't try to model the human body but instead use the whole motion of human silhouettes. This gives a few advantages, namely it works regardless of camera quality and it takes significantly fewer resources.
 
 ### Accelerometer
 
