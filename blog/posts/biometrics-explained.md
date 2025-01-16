@@ -130,9 +130,23 @@ It could also be used on websites to uniquely identify you, so type in a text ed
 
 ## :material-walk: Gait Biometrics
 
-Possibly the most insidious of the biometrics in widespread use is gait recognition. Yes, you can be uniquely identified just by how you walk. Combined with the huge network of cameras deployed in most cities, you can potentially be identified and tracked around even with a fully covered face.
+Possibly the most insidious of the biometric systems in widespread use is gait recognition. Yes, you can be uniquely identified just by how you walk.
 
-This type of biometric is mainly useful for surveillance purposes rather than authentication but it's good to be aware of since it will likely be used against you in any highly populated area.
+### Camera
+
+This techology can work using only 2D footage and doesn't even require close proximity or high resolution sensors like other forms of biometrics. Combined with the huge network of cameras deployed in most cities, you can potentially be identified and tracked around even with a fully covered face.
+
+This type of biometric can work without your consent and when other identifiable features such as face and fingerprints are hidden. It's also very difficult to impersonate someone else's gait.
+
+#### Model-based
+
+#### Model-free
+
+### Accelerometer
+
+Accelerometers such as those found in your smartphone can also be used for gait recognition.
+
+### Floor Sensor
 
 ## :material-chip: Secure Element
 
