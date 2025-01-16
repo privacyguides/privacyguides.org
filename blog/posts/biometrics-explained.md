@@ -53,7 +53,7 @@ Capacitive sensors measure the electrical conductivity of your finger. These are
   <figcaption>source: <a href="https://www.bayometric.com/capacitive-vs-optical/">bayometric.com</a></figcaption>
 </figure>
 
-Capacitive sensors won't work if the [tissue is dead](https://www.livescience.com/62393-dead-fingerprint-unlock-phone.html), since dead tissue loses all electical charge. So morbid worries about someone using your dead body to unlock your phone can be assuaged.
+Capacitive sensors won't work if the [tissue is dead](https://www.livescience.com/62393-dead-fingerprint-unlock-phone.html), since dead tissue loses all electrical charge. So morbid worries about someone using your dead body to unlock your phone can be assuaged.
 
 Conveniently they also don't require a light source under them to work, although they will struggle in the presence of moisture.
 
