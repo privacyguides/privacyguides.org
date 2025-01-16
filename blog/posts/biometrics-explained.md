@@ -134,7 +134,7 @@ Possibly the most insidious of the biometric systems in widespread use is gait r
 
 ### Camera
 
-This techology can work using only 2D footage and doesn't even require close proximity or high resolution sensors like other forms of biometrics. Combined with the huge network of cameras deployed in most cities, you can potentially be identified and tracked around even with a fully covered face.
+This technology can work using only 2D footage and doesn't even require close proximity or high resolution sensors like other forms of biometrics. Combined with the huge network of cameras deployed in most cities, you can potentially be identified and tracked around even with a fully covered face.
 
 This type of biometric can work without your consent and when other identifiable features such as face and fingerprints are hidden. It's also very difficult to impersonate someone else's gait.
 
