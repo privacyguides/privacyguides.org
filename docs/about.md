@@ -98,6 +98,50 @@ The project executive committee consists of five volunteers charged with managem
 
 </div>
 
+## Staff
+
+Our staff are paid to contribute to supplemental content at Privacy Guides, like [video production](https://www.youtube.com/@privacyguides), [news articles and tutorials](https://www.privacyguides.org/articles/), and our discussion communities and social media. Most are available and paid on a full-time basis to assist the organization.
+
+<div class="grid cards" markdown>
+
+-   :jack_o_lantern:{ .lg .middle } **Em**
+
+    ---
+
+    :material-text-account: Journalist
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/ematprivacyguides)
+
+    [:material-github:](https://github.com/EmAtPrivacyGuides "GitHub")
+    [:material-mastodon:](https://infosec.exchange/@Em0nM4stodon "@Em0nM4stodon@infosec.exchange"){rel=me}
+    [:material-email:](mailto:em@privacyguides.org "Email")
+
+-   :full_moon_with_face:{ .lg .middle } **Jordan Warne**
+
+    ---
+
+    :material-text-account: Content Producer
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/Jordan)
+
+    [:material-github:](https://github.com/jordan-warne "GitHub")
+    [:material-mastodon:](https://social.lol/@jw "@jw@social.lol"){rel=me}
+    [:material-email:](mailto:jordan@privacyguides.org "Email")
+
+-   :japanese_goblin:{ .lg .middle } **Kevin Pham**
+
+    ---
+
+    :material-text-account: Community & News Intern
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/kevpham)
+
+    [:material-github:](https://github.com/kevpham123 "GitHub")
+    [:material-mastodon:](https://mastodon.social/@kevpham "@kevpham@mastodon.social"){rel=me}
+    [:material-email:](mailto:kevin@privacyguides.org "Email")
+
+</div>
+
 ## In The Media
 
 > To find [privacy-focused alternative] apps, check out sites like Good Reports and **Privacy Guides**, which list privacy-focused apps in a variety of categories, notably including email providers (usually on paid plans) that aren’t run by the big tech companies.
