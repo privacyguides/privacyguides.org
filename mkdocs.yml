@@ -132,16 +132,6 @@ extra:
               "If you spot an error, think a provider should not be listed, notice a qualified provider is missing, believe a browser plugin is no longer the best choice, or uncover any other issue, please let us know.",
             ]
       rss:
-        - title:
-            !ENV [
-              HOMEPAGE_RSS_CHANGELOG_TITLE,
-              "Privacy Guides release changelog",
-            ]
-          link:
-            !ENV [
-              HOMEPAGE_RSS_CHANGELOG_LINK,
-              "https://discuss.privacyguides.net/c/site-development/changelog/9.rss",
-            ]
         - title: !ENV [HOMEPAGE_RSS_BLOG_TITLE, "Privacy Guides blog feed"]
           link:
             !ENV [
@@ -157,6 +147,16 @@ extra:
             !ENV [
               HOMEPAGE_RSS_FORUM_LINK,
               "https://discuss.privacyguides.net/latest.rss",
+            ]
+        - title:
+            !ENV [
+              HOMEPAGE_RSS_CHANGELOG_TITLE,
+              "Privacy Guides release changelog",
+            ]
+          link:
+            !ENV [
+              HOMEPAGE_RSS_CHANGELOG_LINK,
+              "https://discuss.privacyguides.net/c/site-development/changelog/9.rss",
             ]
     translation_notice:
       notice: !ENV TRANSLATION_NOTICE

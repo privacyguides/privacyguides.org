@@ -18,6 +18,8 @@ schema_type: OpinionNewsArticle
 
 ![](../assets/images/security-privacy-anonymity/cover.jpeg)
 
+<small aria-hidden="true">Image: Unsplash</small>
+
 We may think that we know the differences between privacy, security and anonymity, however we often mix them up. People will often criticize a product or service as “not private” when they really mean “not anonymous.” Privacy, security, and anonymity often complement each other, but they are not always dependent on each other, and they are definitely not the same thing. A service can be private without being anonymous, or even secure without being private. Which one should you prioritize?<!-- more --> To some extent, there are no wrong answers. It really comes down to your threat model and what your desired goal is. It is perfectly fine to pick a product that provides privacy even though it doesn't provide anonymity. Furthermore, it's okay to pick a product that doesn't provide security if it does provide one of the other features. The important thing is that you need to be aware what these products and services are and aren’t offering you so that you can use them correctly.
 
 There’s lots of ways to define privacy, security, and anonymity. Someone showed me [this](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452) definition and I really liked it. It seems to pretty much hit the nail on the head when applying these terms specifically to data privacy and cybersecurity:

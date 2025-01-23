@@ -16,6 +16,8 @@ schema_type: NewsArticle
 
 !["Relisting Startpage" cover image](../assets/images/relisting-startpage/cover.png)
 
+<small aria-hidden="true">Illustration: Privacy Guides</small>
+
 Dear *Privacy Guides* Community,
 
 In October 2019, we learned that System1 had become the majority shareholder in Startpage.com via a new System1 subsidiary, Privacy One Group. Due to the uncertainty surrounding the acquisition and the initial lack of clear communication from the Startpage team towards the privacy community, we were forced to delist Startpage from our [search engine recommendations](https://www.privacyguides.org/en/search-engines/).<!-- more --> In an [explanatory blog post](delisting-startpage.md), we asked for more clarity surrounding the situation, stating:

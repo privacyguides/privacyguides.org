@@ -17,6 +17,8 @@ schema_type: NewsArticle
 
 !["Delisting Wire" cover image](../assets/images/delisting-wire/cover.png)
 
+<small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides | Photo: Unsplash</small>
+
 It has recently come to the attention of the *Privacy Guides* team that **Wire**, the popular end-to-end encryption messaging platform [has been sold or moved to a US company](https://web.archive.org/web/20201128215737/https://forum.privacytools.io/t/wire-swiss-gmbh-is-now-owned-by-a-usa-holding-company/1932). After a week of questioning, Wire finally confirmed they had changed holding companies and would now be a US based company in a move they called “simple and pragmatic,” as they worked to expand their foothold in the enterprise market. This also came alongside the news that Wire had accepted more than $8 million in Venture Capital (VC) funding from Morpheus Ventures, as well as other investors.<!-- more -->
 
 Morpheus Ventures holds a [portfolio](https://web.archive.org/web/20201128215737/https://morpheus.com/portfolio/) including companies in healthcare, voice AI, life insurance, and retail customer data analytics: All sectors that have historically used invasive data collection methods to survive. Why would a VC with a portfolio centered on consumer data want to invest in a company whose mission claims to protect that very same information?

@@ -18,6 +18,8 @@ schema_type: OpinionNewsArticle
 
 ![Tor graphic](../assets/images/why-i-run-a-tor-relay/cover.png)
 
+<small aria-hidden="true">Illustration: Tor Project</small>
+
 It makes me smile when I come across someone struggling with the decision of whether to get a [VPN](https://www.privacyguides.org/vpn/). It makes me smile not because of the indecision and relative lack of knowledge, but because it wasn't so long ago I was in exactly the same position—perceiving VPNs to be some kind of extreme measure only the paranoid and the criminal resorted to. How wrong I was.<!-- more -->
 
 In just a few months I've come to realize that something like a VPN is in fact a basic measure one might take in the effort to more freely roam the Internet—tainted as it is by censorship, surveillance and many other forms of state control. So where do you go from realizing these issues if you know them to be the threats that they are to democracy and freedom? You seek to *take control*.

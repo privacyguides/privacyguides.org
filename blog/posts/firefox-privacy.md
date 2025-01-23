@@ -17,6 +17,8 @@ schema_type: AnalysisNewsArticle
 
 !["Firefox Privacy" cover image](../assets/images/firefox-privacy/cover.png)
 
+<small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides | Photo: Unsplash</small>
+
 Mozilla Firefox is one of the most popular web browsers around, and for good reason. It's fast, secure, open-source, and it's backed by an organization that actually respects your privacy. Unlike many other Chrome alternatives and forks, it has a massive development team behind it that publishes new updates on a constant, regular basis. Regular updates doesn't only mean shiny new features, it means you'll also receive security updates that will keep you protected as you browse the web.<!-- more -->
 
 Because of all of this, [we recommend Firefox](https://www.privacyguides.org/desktop-browsers/#firefox) as our general-purpose browser for most users. It's the best alternative to Chrome and Edge for privacy conscious individuals.

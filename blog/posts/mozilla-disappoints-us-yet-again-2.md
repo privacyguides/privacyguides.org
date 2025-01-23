@@ -16,6 +16,8 @@ schema_type: AnalysisNewsArticle
 
 ![](../assets/images/mozilla-disappoints-us-yet-again-2/cover.jpeg)
 
+<small aria-hidden="true">Image: Unsplash</small>
+
 **"No shady privacy policies or back doors for advertisers" proclaims the Firefox homepage, but that's no longer true in Firefox 128.**
 
 Less than a month after [acquiring the AdTech company Anonym](https://discuss.privacyguides.net/t/mozilla-acquires-anonym-raising-the-bar-for-privacy-preserving-digital-advertising/18936), Mozilla has added special software co-authored by Meta and built for the advertising industry directly to the latest release of Firefox, in an experimental trial you have to opt out of manually. This "Privacy-Preserving Attribution" (PPA) API adds another tool to the arsenal of tracking features that advertisers can use, which is thwarted by traditional content blocking extensions.<!-- more -->

@@ -19,6 +19,8 @@ schema_type: AnalysisNewsArticle
 
 !["Unbiased Reviews" cover image](../assets/images/the-trouble-with-vpn-and-privacy-review-sites/cover.png)
 
+<small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides | Photo: Unsplash</small>
+
 There’s a massive problem in the privacy world. Websites, social media accounts, and other platforms are constantly popping up out of nowhere, telling you to buy *The Greatest Service Ever* in order to solve all your privacy woes, whatever that may be. These websites often employ marketing teams to make sure their “reviews” are what you see first when you begin your research. Some of them are even operated by VPN providers themselves, operating under anonymous business entities to hide their bias, or doing it right out in the open, hoping you’ll mistake their advertising-filled press releases and blogs as insider knowledge of the VPN space.<!-- more -->
 
 When a seemingly “unbiased review” on a site is merely a paid advertisement in disguise, that website is breaking their reader’s trust. From a consumer’s point of view, affiliate marketing and other paid promotional techniques like this make it near impossible to know when a review is genuine or not.

@@ -17,6 +17,8 @@ schema_type: NewsArticle
 
 !["Delisting Startpage" cover image](../assets/images/delisting-startpage/cover.png)
 
+<small aria-hidden="true">Illustration: Privacy Guides | Photo: Unsplash</small>
+
 Dear *Privacy Guides* Community,
 
 On the 15th of October, it was [brought to our attention](https://web.archive.org/web/20201127034309/https://www.reddit.com/r/privacy/comments/di5rn3/startpage_is_now_owned_by_an_advertising_company/) that Startpage.com was reportedly (partially?) taken over by a company called the Privacy One Group, which is in turn owned by a company called System1. We found this quite remarkable as the two companies seem to have conflicting business models.<!-- more --> Startpage has been known for basing their advertisements on what their users enter in their search bar. System1 on the other hand, is a pay-per-click advertising company that "[has developed a pre-targeting platform that identifies and unlocks  consumer intent across channels including social, native, email, search,  market research and lead generation rather than relying solely on what  consumers enter into search boxes.](https://web.archive.org/web/20201127034309/https://www.bizjournals.com/losangeles/news/2017/09/20/system1-raises-270-million-for-consumer-intent.html)"
