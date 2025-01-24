@@ -99,13 +99,24 @@ jobs:
       continue-on-error: true
       privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
 
+  build_videos:
+    if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build videos') }}
+    needs: [submodule, metadata]
+    uses: ./.github/workflows/build-videos.yml
+    with:
+      ref: ${{github.event.pull_request.head.ref}}
+      repo: ${{github.event.pull_request.head.repo.full_name}}
+      continue-on-error: true
+      privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
+
   combine_build:
-    needs: [build_english, build_i18n, build_blog]
+    needs: [build_english, build_i18n, build_blog, build_videos]
     if: |
       (always() && !cancelled() && !failure()) &&
       needs.build_english.result == 'success' &&
       (needs.build_i18n.result == 'success' || needs.build_i18n.result == 'skipped') &&
-      (needs.build_blog.result == 'success' || needs.build_blog.result == 'skipped')
+      (needs.build_blog.result == 'success' || needs.build_blog.result == 'skipped') &&
+      (needs.build_videos.result == 'success' || needs.build_videos.result == 'skipped')
 
     runs-on: ubuntu-latest
     steps:
@@ -127,5 +138,5 @@ jobs:
 
   cleanup:
     if: ${{ always() }}
-    needs: [build_english, build_i18n, build_blog]
+    needs: [build_english, build_i18n, build_blog, build_videos]
     uses: privacyguides/.github/.github/workflows/cleanup.yml@main

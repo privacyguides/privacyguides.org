@@ -28,3 +28,4 @@ no-hard-tabs: true
 emphasis-style:
   style: "asterisk"
 no-duplicate-header: false
+no-trailing-punctuation: false

@@ -1,0 +1,26 @@
+{% extends "main.html" %}
+
+<!-- Page content -->
+{% block container %}
+  <div class="md-content" data-md-component="content">
+    <div class="md-content__inner">
+
+      <!-- Header -->
+      <header class="md-typeset">
+        {{ page.content }}
+      </header>
+
+      <!-- Posts -->
+      {% for post in posts %}
+        {% include "partials/video.html" %}
+      {% endfor %}
+
+      <!-- Pagination -->
+      {% if pagination %}
+        {% block pagination %}
+          {% include "partials/pagination.html" %}
+        {% endblock %}
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}

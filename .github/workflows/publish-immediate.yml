@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-name: 📦 Release Blog
+name: 📦 Immediate Releases
 
 on:
   workflow_dispatch:
@@ -27,6 +27,7 @@ on:
       - "main"
     paths:
       - "blog/**"
+      - "videos/**"
 
 concurrency:
   group: release-deployment
@@ -42,7 +43,7 @@ jobs:
   submodule:
     strategy:
       matrix:
-        repo: [mkdocs-material-insiders, brand, i18n]
+        repo: [mkdocs-material-insiders, brand]
     uses: privacyguides/.github/.github/workflows/download-repo.yml@main
     with:
       repo: ${{ matrix.repo }}
@@ -59,8 +60,18 @@ jobs:
       ref: ${{ github.ref }}
       continue-on-error: false
 
+  build_videos:
+    needs: submodule
+    permissions:
+      contents: read
+    uses: ./.github/workflows/build-videos.yml
+    with:
+      repo: ${{ github.repository }}
+      ref: ${{ github.ref }}
+      continue-on-error: false
+
   deploy:
-    needs: [build_blog]
+    needs: [build_blog, build_videos]
     uses: privacyguides/webserver/.github/workflows/deploy-garage.yml@main
     with:
       environment: production
@@ -70,5 +81,5 @@ jobs:
 
   cleanup:
     if: ${{ always() }}
-    needs: [build_blog]
+    needs: [build_blog, build_videos]
     uses: privacyguides/.github/.github/workflows/cleanup.yml@main
