@@ -20,6 +20,8 @@ schema_type: NewsArticle
 
 ![Privacy Guides cover image](../assets/brand/images/png/cover.png)
 
+<small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides</small>
+
 We are excited to announce the launch of [Privacy Guides](https://www.privacyguides.org/) and [r/PrivacyGuides](https://www.reddit.com/r/PrivacyGuides/), and welcome the privacy community to participate in our crowdsourced software recommendations and share tips and tricks for keeping your data safe online. Our goal is to be a central resource for privacy and security-related tips that are usable by anybody, and to carry on the trusted legacy of PrivacyTools.<!-- more -->
 
 As we [announced](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools/) on the PrivacyTools blog in July, we made the decision to migrate off our former privacytools.io domain for various reasons, including an inability to contact the current domain holder for over a year and [growing](http://www.thedarksideof.io/) [issues](https://fortune.com/2020/08/31/crypto-fraud-io-domain-chagos-islands-uk-colonialism-cryptocurrency/) [with the .IO top-level domain](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1324). As attempts to regain ownership of the domain have proven fruitless, we found it necessary to make this switch sooner rather than later to ensure people would find out about this transition as soon as possible. This gives us adequate time to transition the domain name, which is currently redirecting to [www.privacyguides.org](https://www.privacyguides.org/), and it hopefully gives everyone enough time to notice the change, update bookmarks and websites, etc.

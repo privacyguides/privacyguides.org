@@ -1,0 +1,232 @@
+<!--
+  Copyright (c) 2024-2025 Jonah Aragon <jonah@triplebit.net>
+  Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+{% extends "main.html" %}
+
+{% import "partials/nav-item.html" as item with context %}
+
+{% block extrahead %}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "{{ page.title }}",
+    "description": "{{ page.meta.description }}",
+    "thumbnailUrl": [
+      "{{ page.meta.thumbnail }}"
+      ],
+    "uploadDate": "{{ page.meta.date.created }}Z",
+    "embedUrl": "{{ page.meta.embed }}"
+  }
+</script>
+<link rel="alternate" type="application/json+oembed" href="https://neat.tube/services/oembed?url={{ page.meta.peertube | urlencode |replace('/', '%2F')}}" title="It&#39;s time to stop using SMS, here&#39;s why!" />
+{% endblock %}
+
+<!-- Page content -->
+{% block container %}
+  <div class="md-content md-content--post" data-md-component="content">
+
+    <!-- Sidebar -->
+    <div
+      class="md-sidebar md-sidebar--post"
+      data-md-component="sidebar"
+      data-md-type="navigation"
+    >
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner md-post">
+          <nav class="md-nav md-nav--primary">
+
+            <!-- Back to overview link -->
+            <div class="md-post__back">
+              <div class="md-nav__title md-nav__container">
+                <a href="{{ page.parent.url | url }}" class=" md-nav__link">
+                  {% include ".icons/material/arrow-left.svg" %}
+                  <span class="md-ellipsis">
+                    {{ lang.t("blog.index") }}
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Post authors -->
+            {% if page.authors %}
+            <ul class="md-post__meta md-nav__list">
+              <li class="md-nav__item md-nav__item--section">
+                <div class="md-post__title">
+                  <span class="md-ellipsis">
+                    Host
+                  </span>
+                </div>
+              </li>
+            </ul>
+              <div class="md-post__authors md-typeset">
+                {% for author in page.authors %}
+                  <div class="md-profile md-post__profile">
+                    <span class="md-author md-author--long">
+                      <img src="{{ author.avatar | url }}" alt="{{ author.name }}" />
+                    </span>
+                    <span class="md-profile__description">
+                      <strong>
+                        {% if author.url %}
+                          <a href="{{ author.url }}">{{ author.name }}</a>
+                        {% else %}
+                          {{ author.name }}
+                        {% endif %}
+                      </strong>
+                      <br />
+                      {{ author.description }}
+                    </span>
+                  </div>
+                {% endfor %}
+              </div>
+            {% endif %}
+
+            <!-- Post metadata -->
+            <ul class="md-post__meta md-nav__list">
+              <li class="md-nav__item md-nav__item--section">
+                <div class="md-post__title">
+                  <span class="md-ellipsis">
+                    {{ lang.t("blog.meta") }}
+                  </span>
+                </div>
+                <nav class="md-nav">
+                  <ul class="md-nav__list">
+
+                    <!-- Post date -->
+                    <li class="md-nav__item">
+                      <div class="md-nav__link">
+                        {% include ".icons/material/calendar.svg" %}
+                        <time
+                          datetime="{{ page.config.date.created }}"
+                          class="md-ellipsis"
+                        >
+                          {{- page.config.date.created | date -}}
+                        </time>
+                      </div>
+                    </li>
+
+                    <!-- Post date updated -->
+                    {% if page.config.date.updated %}
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          {% include ".icons/material/calendar-clock.svg" %}
+                          <time
+                            datetime="{{ page.config.date.updated }}"
+                            class="md-ellipsis"
+                          >
+                            {{- page.config.date.updated | date -}}
+                          </time>
+                        </div>
+                      </li>
+                    {% endif %}
+
+                    <!-- Post categories -->
+                    {% if page.categories %}
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          {% include ".icons/material/bookshelf.svg" %}
+                          <span class="md-ellipsis">
+                            {{ lang.t("blog.categories.in") }}
+                            {% for category in page.categories %}
+                              <a href="{{ category.url | url }}">
+                                {{- category.title -}}
+                              </a>
+                              {%- if loop.revindex > 1 %}, {% endif -%}
+                            {% endfor -%}
+                          </span>
+                        </div>
+                      </li>
+                    {% endif %}
+
+                    <!-- Post readtime -->
+                    {% if page.config.readtime %}
+                      {% set time = page.config.readtime %}
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          {% include ".icons/material/clock-outline.svg" %}
+                          <span class="md-ellipsis">
+                            {{ "# minute watch" | replace("#", time) }}
+                          </span>
+                        </div>
+                      </li>
+                    {% endif %}
+                  </ul>
+                </nav>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Table of contents, if integrated -->
+          {% if "toc.integrate" in features %}
+            {% include "partials/toc.html" %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    <!-- Page content ?title=0&warningTitle=0 -->
+    <article class="md-content__inner md-typeset">
+      {% block content %}
+        <!-- Tags -->
+        {% include "partials/tags.html" %}
+
+        <!-- Actions -->
+        {% include "partials/actions.html" %}
+
+        {% if "\x3ch1" not in page.content and not page.meta.cover %}
+          <h1>{{ page.title | d(config.site_name, true)}}</h1>
+        {% endif %}
+
+        <div>
+          <div style="position: relative; padding-top: 56.25%;">
+            <iframe width="100%" height="100%" src="{{ page.meta.embed }}?autoplay=1&title=0" allow="autoplay" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe>
+          </div>
+        </div>
+
+        <p>
+          <a class="md-button md-button--primary" href="{{ page.meta.youtube }}">
+            <span class="twemoji">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.498 6.186a3.02 3.02 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.02 3.02 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.02 3.02 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.02 3.02 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814M9.545 15.568V8.432L15.818 12z"/></svg>
+            </span>
+            Watch on YouTube</a>
+          <a class="md-button md-button--primary" href="{{ page.meta.peertube }}">
+            <span class="twemoji">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 6.545v10.91L20.727 12M3.273 12v12L12 17.455M3.273 0v12L12 6.545"/></svg>
+            </span>
+            Watch on PeerTube</a>
+        </p>
+
+        <!-- Page content -->
+        <div>
+          {{ page.content }}
+        </div>
+
+        <!-- Source file information -->
+        {% include "partials/source-file.html" %}
+
+        <!-- Was this page helpful? -->
+        {% include "partials/feedback.html" %}
+      {% endblock %}
+    </article>
+  </div>
+{% endblock %}

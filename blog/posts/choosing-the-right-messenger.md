@@ -18,6 +18,8 @@ schema_type: AnalysisNewsArticle
 
 !["Choosing The Right Messenger" cover image](../assets/images/choosing-the-right-messenger/cover.png)
 
+<small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides | Photo: Unsplash</small>
+
 One of the most common questions users have when it comes to privacy is about messaging services. It seems almost all of them mention some level of privacy or encryption to entice the user to sign up for their service, but how can you be sure you’re using the most secure, privacy respecting platform?<!-- more -->
 
 The answer actually lies in one’s [threat model](https://www.privacyguides.org/basics/threat-modeling/), which is often an ignored step in choosing all privacy related apps and services, meaning a lot of users limit their internet and communication experience because they believe they need Edward Snowden level privacy settings.

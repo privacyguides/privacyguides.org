@@ -104,7 +104,7 @@ It is important to install **Software Updates** frequently to get the latest sec
 - [x] Turn on **Install iOS Updates**
 - [x] Turn on **Security Responses & System Files**
 
-**AirDrop** allows you to easily transfer files, but it can allow strangers to send you files you do not want.
+**AirDrop** is commonly used to easily share files, but it represents a significant privacy risk. The AirDrop protocol constantly broadcasts your personal information to your surroundings, with [very weak](https://www.usenix.org/system/files/sec21-heinrich.pdf) security protections. Your identity can easily be discovered by attackers even with limited resources, and the Chinese government has [openly acknowledged](https://arstechnica.com/security/2024/01/hackers-can-id-unique-apple-airdrop-users-chinese-authorities-claim-to-do-just-that/) using such techniques to identify AirDrop users in public since 2022.
 
 - [x] Select **AirDrop** → **Receiving Off**
 
@@ -250,11 +250,20 @@ In addition to locking apps behind biometrics, you can also hide apps so that th
 
 You can hide an app by long-pressing on it and selecting **Require Face ID/Touch ID** → **Hide and Require Face ID/Touch ID**. Note that pre-installed Apple apps, as well as the default web browser and email app, cannot be hidden. Hidden apps reside in a **Hidden** folder at the bottom of the App Library, which can be unlocked using biometrics. This folder appears in the App Library whether you hid any apps or not, which provides you a degree of plausible deniability.
 
-### Blacking Out Faces/Information
+### Redacting Elements in Images
 
 If you need to hide information in a photo, you can use Apple's built-in editing tools to do so.
 
+If your device supports it, you can use the [Clean Up](https://support.apple.com/en-us/121429) feature to pixelate faces or remove objects from images.
+
 - Open the **Photos** app and tap the photo you have selected for redaction
+- Tap the :material-tune: (at the bottom of the screen)
+- Tap the button labeled **Clean Up**
+- Draw a circle around whatever you want to redact. Faces will be pixelated and it will attempt to delete anything else.
+
+Our warning [against blurring text](../data-redaction.md) also applies here, so we recommend to instead add a black shape with 100% opacity over it. In addition to redacting text, you can also black out any face or object using the **Photos** app.
+
+- Tap the image you have selected for redaction
 - Tap the :material-tune: (at the bottom of the screen) → markup symbol (top right) → plus icon at the bottom right
 - Select **Add Shape** and choose the square or circle
 - On the toolbar, tap the circle (left-most option) and choose black as the color for filling in the shape. You can also move the shape and increase its size as you see fit.

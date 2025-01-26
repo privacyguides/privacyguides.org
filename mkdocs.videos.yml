@@ -18,13 +18,13 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-docs_dir: "blog"
-site_url: "https://www.privacyguides.org/articles/"
-site_dir: "site/articles"
+docs_dir: "videos"
+site_url: "https://www.privacyguides.org/videos/"
+site_dir: "site/videos"
 
 site_name: Privacy Guides
 site_description: "Privacy Guides is the most popular & trustworthy non-profit privacy resource to find privacy tools and learn about protecting your digital life."
-edit_uri_template: blob/main/blog/{path}?plain=1
+edit_uri_template: blob/main/videos/{path}?plain=1
 
 extra:
   privacy_guides:
@@ -132,16 +132,9 @@ plugins:
     blog_dir: .
     blog_toc: true
     post_url_format: "{date}/{file}"
-    post_excerpt: required
     post_excerpt_max_authors: 0
-    authors_profiles: true
-    authors_profiles_toc: true
-    categories_allowed:
-      - Announcements
-      - Opinion
-      - Tutorials
-      - News
-      - Reviews
+    authors_profiles: false
+    categories: false
   rss:
     match_path: posts/.*
     abstract_chars_count: -1
@@ -211,11 +204,9 @@ nav:
   - !ENV [NAV_HOME, "Home"]: /en/
   - !ENV [NAV_KNOWLEDGE_BASE, "Knowledge Base"]: /en/basics/why-privacy-matters/
   - !ENV [NAV_RECOMMENDATIONS, "Recommendations"]: /en/tools/
-  - !ENV [NAV_BLOG, "Articles"]:
+  - !ENV [NAV_BLOG, "Articles"]: /articles/
+  - !ENV [NAV_VIDEOS, "Videos"]:
       - index.md
-      - editorial.md
-      - tags.md
-  - !ENV [NAV_VIDEOS, "Videos"]: /videos/
   - !ENV [NAV_ABOUT, "About"]: /en/about/
   - "Donate": /en/about/donate/
   - !ENV [NAV_FORUM, "Forum"]: "https://discuss.privacyguides.net/"

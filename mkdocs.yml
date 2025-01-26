@@ -132,16 +132,6 @@ extra:
               "If you spot an error, think a provider should not be listed, notice a qualified provider is missing, believe a browser plugin is no longer the best choice, or uncover any other issue, please let us know.",
             ]
       rss:
-        - title:
-            !ENV [
-              HOMEPAGE_RSS_CHANGELOG_TITLE,
-              "Privacy Guides release changelog",
-            ]
-          link:
-            !ENV [
-              HOMEPAGE_RSS_CHANGELOG_LINK,
-              "https://discuss.privacyguides.net/c/site-development/changelog/9.rss",
-            ]
         - title: !ENV [HOMEPAGE_RSS_BLOG_TITLE, "Privacy Guides blog feed"]
           link:
             !ENV [
@@ -158,6 +148,16 @@ extra:
               HOMEPAGE_RSS_FORUM_LINK,
               "https://discuss.privacyguides.net/latest.rss",
             ]
+        - title:
+            !ENV [
+              HOMEPAGE_RSS_CHANGELOG_TITLE,
+              "Privacy Guides release changelog",
+            ]
+          link:
+            !ENV [
+              HOMEPAGE_RSS_CHANGELOG_LINK,
+              "https://discuss.privacyguides.net/c/site-development/changelog/9.rss",
+            ]
     translation_notice:
       notice: !ENV TRANSLATION_NOTICE
       cta: !ENV [TRANSLATION_NOTICE_CTA, "Visit Crowdin"]
@@ -170,6 +170,9 @@ extra:
     - icon: simple/bluesky
       link: https://bsky.app/profile/privacyguides.org
       name: !ENV [SOCIAL_BLUESKY, "Bluesky"]
+    - icon: simple/peertube
+      link: https://neat.tube/c/privacyguides
+      name: !ENV [SOCIAL_PEERTUBE, "PeerTube"]
     - icon: simple/matrix
       link: https://matrix.to/#/#privacyguides:matrix.org
       name: !ENV [SOCIAL_MATRIX, "Matrix"]
@@ -441,6 +444,7 @@ nav:
           - "alternative-networks.md"
           - "device-integrity.md"
   - !ENV [NAV_BLOG, "Articles"]: "/articles/"
+  - !ENV [NAV_VIDEOS, "Videos"]: /videos/
   - !ENV [NAV_ABOUT, "About"]:
       - "about.md"
       - "about/donate.md"
@@ -467,8 +471,6 @@ nav:
               - "meta/git-recommendations.md"
               - "meta/commit-messages.md"
   - !ENV [NAV_DONATE, "Donate"]: https://donate.magicgrants.org/privacyguides
-  - !ENV [NAV_CHANGELOG, "Changelog"]:
-      "https://github.com/privacyguides/privacyguides.org/releases"
   - !ENV [NAV_FORUM, "Forum"]: "https://discuss.privacyguides.net/"
 
 validation:

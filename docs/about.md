@@ -29,6 +29,26 @@ In addition to our core team, [many other people](about/contributors.md) have ma
 
 [Job Openings :material-arrow-right-drop-circle:](about/jobs.md)
 
+## Contact Us
+
+[:simple-discourse: Join the Privacy Guides forum](https://discuss.privacyguides.net/){ .md-button .md-button--primary }
+
+The best way to get individual help is from our community on Discourse. If you notice an issue with our website, please open a discussion in the [Site Development](https://discuss.privacyguides.net/c/site-development/7) category on our forum. If you have a question about anything we cover, please ask it in the [Questions](https://discuss.privacyguides.net/c/privacy/questions/8) category on our forum.
+
+![Signal contact QR code](assets/img/layout/signal-contact-qr.png){ align=right }
+
+Have a tip for us, or need to share some sensitive information? The best way to get in touch with us securely is via `@privacyguides.01` on Signal. This group account is monitored by [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/ematprivacyguides), and [Jordan](https://discuss.privacyguides.net/u/jordan).
+
+[:simple-signal: Chat on Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
+
+You may also email the entire team at <team@privacyguides.org>. This is a shared inbox that could be read by any [team member](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all), so please consider what sensitive information you share via email accordingly.
+
+We will do our best to respond to all queries within 3 business days, but please understand we are unable to provide individualized advice to everyone who asks. If you have a question about privacy, you will receive a much more detailed and timely response from the Privacy Guides community by [asking on our forum](https://discuss.privacyguides.net/c/privacy/questions/8).
+
+You can also use OpenPGP to contact us via email, if you feel comfortable with your client's security settings. You can discover the PGP keys of our team members using WKD if your client supports it. If it doesn't, or you don't know what that means, you can also find the public key for any Privacy Guides email account by searching on [keys.openpgp.org](https://keys.openpgp.org/). We do not have PGP for the shared team inbox, only individual mailboxes which can be found in our team directory below.
+
+If you need an alternative secure channel, please request one via any contact method including social media, and we will work with you to establish one. Please do not share any sensitive information with us before we have established an appropriately secure discussion channel.
+
 ## Executive Committee
 <!-- markdownlint-disable MD030 -->
 
@@ -95,6 +115,50 @@ The project executive committee consists of five volunteers charged with managem
 
     [:material-github:](https://github.com/hook9 "GitHub")
     [:material-mastodon:](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
+
+</div>
+
+## Staff
+
+Our staff are paid to contribute to supplemental content at Privacy Guides, like [video production](https://www.youtube.com/@privacyguides), [news articles and tutorials](https://www.privacyguides.org/articles/), and our discussion communities and social media. Most are available and paid on a full-time basis to assist the organization.
+
+<div class="grid cards" markdown>
+
+-   :jack_o_lantern:{ .lg .middle } **Em**
+
+    ---
+
+    :material-text-account: Journalist
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/ematprivacyguides)
+
+    [:material-github:](https://github.com/EmAtPrivacyGuides "GitHub")
+    [:material-mastodon:](https://infosec.exchange/@Em0nM4stodon "@Em0nM4stodon@infosec.exchange"){rel=me}
+    [:material-email:](mailto:em@privacyguides.org "Email")
+
+-   :full_moon_with_face:{ .lg .middle } **Jordan Warne**
+
+    ---
+
+    :material-text-account: Content Producer
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/Jordan)
+
+    [:material-github:](https://github.com/jordan-warne "GitHub")
+    [:material-mastodon:](https://social.lol/@jw "@jw@social.lol"){rel=me}
+    [:material-email:](mailto:jordan@privacyguides.org "Email")
+
+-   :japanese_goblin:{ .lg .middle } **Kevin Pham**
+
+    ---
+
+    :material-text-account: Community & News Intern
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/kevpham)
+
+    [:material-github:](https://github.com/kevpham123 "GitHub")
+    [:material-mastodon:](https://mastodon.social/@kevpham "@kevpham@mastodon.social"){rel=me}
+    [:material-email:](mailto:kevin@privacyguides.org "Email")
 
 </div>
 

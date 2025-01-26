@@ -1,0 +1,17 @@
+authors:
+  jordan:
+    name: Jordan Warne
+    description: Video Producer
+    avatar: https://forum-cdn.privacyguides.net/user_avatar/discuss.privacyguides.net/jordan/288/7793_2.png
+    mastodon:
+      username: jw
+      instance: social.lol
+  jonah:
+    name: Jonah Aragon
+    description: Project Director
+    avatar: https://github.com/jonaharagon.png
+    mastodon:
+      username: jonah
+      instance: neat.computer
+    twitter: jonaharagon
+    bluesky: jonaharagon.com

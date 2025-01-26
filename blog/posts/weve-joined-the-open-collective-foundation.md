@@ -16,6 +16,8 @@ schema_type: NewsArticle
 
 ![Privacy Guides cover image](../assets/brand/images/png/cover.png)
 
+<small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides</small>
+
 [Privacy Guides](https://www.privacyguides.org) provides knowledge, recommendations, and services to protect you against global mass surveillance programs and encourage self-control of your data online. Our website is free of advertisements and is not affiliated with any listed providers, because we believe that our ability to recommend solutions without receiving financial kickbacks is incredibly important in remaining unbiased.<!-- more -->
 
 However, we have always accepted and solicited financial contributions from our community. Running this network of websites and services for free to the public is a time-consuming and costly endeavor. We do it because we believe it is the right thing to do, not because we are looking to make a profit. Any contributions have been either used to pay our expenses or saved in a reserve for expansion or times of need.

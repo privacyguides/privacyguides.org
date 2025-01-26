@@ -52,10 +52,6 @@
 
 {% set translation_notice = config.extra.privacy_guides.translation_notice %}
 {% if config.theme.language == "en" %}
-  <hr>
-  <h2 class="md-feedback__title">Share this website and spread privacy knowledge</h2>
-  <p><input class="admonition quote social-share-text" id="share" type="text" value="Privacy Guides: https://www.privacyguides.org - Cybersecurity resources and privacy-focused tools to protect yourself online" onclick="select()" readonly=""></p>
-  <p><em>Copy this text to easily share Privacy Guides with your friends and family on any social network!</em></p>
 {% elif translation_notice %}
   <div class="admonition info">
     <p>{{ translation_notice.notice }} <strong><a href="https://crowdin.com/project/privacyguides">{{ translation_notice.cta }}</a></strong></p>
