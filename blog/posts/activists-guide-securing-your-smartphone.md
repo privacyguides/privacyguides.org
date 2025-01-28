@@ -1,6 +1,7 @@
 ---
 date:
     created: 2025-01-23T19:15:00
+    updated: 2025-01-27T20:00:00
 categories:
     - Tutorials
 authors:
@@ -21,6 +22,8 @@ The perennial question when it comes to protests is whether you should bring you
 If possible, bringing a separate device like a "burner phone," an old phone you can reset, or even a regular old-fashioned camera is a much better option than bringing your primary phone. Any data you don't bring with you can't be taken from you at the scene.
 
 However, getting access to or affording devices like these aren't a realistic option for many people. Whether you decide to take your smartphone or a secondary smartphone with you to the event, this guide will cover how to maximize that device's security and minimize risks to your privacy.
+
+**Update (2025-01-27):** This article has been updated based on some community [feedback](https://discuss.privacyguides.net/t/24316), notably I added the [Burner Phones](#burner-phones), [Minimize Your Stored Data](#minimize-your-stored-data), [Use Public Wi-Fi](#use-public-wi-fi), and [Check Your Keyboard](#check-your-keyboard) sections.
 
 ## Your Risks at a Protest
 
@@ -45,6 +48,29 @@ There are plenty of risks you should consider if you use your smartphone at a pr
     - Cell phone companies could provide records to authorities of devices near cell towers in the area to track and identify protesters.
 
 Like all of our guides, we are going to cover the general best practices and provide helpful tips, but your individual situation may be different. You should always research and plan according to what you specifically are doing, and if you need legal advice you should always consult a qualified and licensed attorney.
+
+## "Burner Phones"
+
+Cell phones are generally tracked by law enforcement using two identifiers:
+
+1. Your **IMSI**, which uniquely identifies your SIM card
+2. Your **IMEI**, which uniquely identifies your phone
+
+Thus, simply using a prepaid SIM in your primary/personal device is not a foolproof method of avoiding tracking, because your IMEI is still correlatable between networks.
+
+Buying a secondary, disposable device is an option that will provide you with much greater protection than bringing your personal device. However, if the threat you face is serious enough that you feel the need to do this, you should strongly consider not bringing a phone at all. Properly securing a disposable/burner phone is fairly challenging and may not be worth it.
+
+If you *do* buy a secondary device for this purpose, you should buy it in-person, with **cash**.
+
+**Do not activate or power it on at home**. The location of a phone is tracked by network carriers for at least a year at minimum, but you should assume that location history is just kept forever. Therefore, you should activate and set up the device in a very public place that is not significant to your daily life, then always keep it powered off at locations associated with you. You don't want the phone's location to ever be recorded at your home or workplace.
+
+If possible, you should try to purchase and set up this phone well in advance. This certainly depends on your plans, but spreading out your purchase, activation, and use of the device makes it less easy to detect. It also makes it less likely that the store you bought the phone from still has security footage of your purchase.
+
+You will also want to make sure you do not identify yourself when purchasing a cellular plan. This is highly dependent on your country, but many prepaid plans will not require any identification to activate. There are also some global eSIM providers which will accept payment without the need to identify yourself to them.
+
+One last thing: Your secondary device should still be a reasonably modern smartphone. The security measures we cover below regarding [hardware and software security](#consider-your-phones-security-patches) still apply. Smartphones are more secure against the sort of threats that activists are likely to face—such as someone trying to crack into your device's data—than a simple/feature/"dumb" phone will be. They also have many more options for secure & encrypted communication methods that we'll cover below as well.
+
+Using a secondary device only at the protest allows you to leave your primary device powered on and at home. This potentially provides some plausible deniability, if someone requests the location of your phone during the time of the event later.
 
 ## Secure Your Device
 
@@ -89,6 +115,14 @@ On Android:
     - Select **Don't show any notifications**
 4. Switch **Sensitive notifications** to **off**
 
+### Minimize Your Stored Data
+
+The best way to protect your data is to not have it on your phone in the first place. If you're using a secondary device, simply don't install anything other than what will be absolutely necessary during the protest, like a secure messenger.
+
+Otherwise, delete any cloud storage apps you don't need access to during the protest. If you're able to delete an app and then download it later and log in without experiencing any data loss, then that app probably doesn't *need* to be on your phone all the time.
+
+Some [password managers](https://www.privacyguides.org/en/passwords/) have the option to temporarily remove certain vaults from your devices, 1Password calls this [Travel Mode](https://support.1password.com/travel-mode/) for example. You can do this manually as well, by having a separate password manager or vault with only the essentials you will need at the time, and removing your primary password manager from your device for the duration of the event.
+
 ### Disable Lock Screen Actions
 
 In a similar vein, any functionality you have enabled while your device is unlocked can pose a security risk. It is always best practice to reduce your attack surface by disabling these options whenever possible. Even though these features are typically designed to not pose a security risk to your data, they have been known to be exploited in the past to bypass lock screens and other security features.
@@ -131,7 +165,9 @@ You should assume that any device with AirDrop enabled is constantly broadcastin
 
 ### Lock Down Your Network
 
-Your phone signals can be used to track you even if you don't make a call or send a text. Some law enforcement agencies use "stingrays," devices which can impersonate a cell tower to track visitors to an area. While the capabilities of the most modern ones isn't fully known, you should definitely protect yourself from the subset of stingrays which abuse the lower security standards of older, 2G networks.
+Your phone signals can be used to track you even if you don't make a call or send a text. Some law enforcement agencies use "stingrays," devices which can impersonate a cell tower to track visitors to an area. It is speculated that more advanced ones can intercept unencrypted text messages and phone calls as well, making the use of an [encrypted messenger](#use-signal) during the event even more critical.
+
+While the capabilities of the most modern ones isn't fully known, you should definitely protect yourself from the subset of stingrays which abuse the lower security standards of older, 2G networks.
 
 On Android:
 
@@ -140,6 +176,8 @@ On Android:
 3. Navigate to **SIMs**
 4. Select your carrier or SIM card
 5. Switch **Allow 2G** to **off**
+
+You might also consider installing Privacy Cell ([F-Droid](https://f-droid.org/en/packages/com.stoutner.privacycell/) / [Google Play](https://play.google.com/store/apps/details?id=com.stoutner.privacycell)), an app that tells you whether you are connected to a cell network using the most modern security. Even the "5G" indicator on your phone alone doesn't guarantee you are using the latest-generation protocol.
 
 On iPhone:
 
@@ -155,6 +193,14 @@ Note that enabling [Lockdown Mode](https://www.privacyguides.org/articles/2022/1
 Even after mitigating the risks of 2G networks, your cellular activity can still be tracked. If not by law enforcement then by your carrier, who will likely be responsive to law enforcement's requests for data after the fact.
 
 To prevent this, you should keep your phone turned off or use Airplane Mode to disable cellular connections whenever possible. Ideally you should only connect to networks in an emergency situation to communicate with others in your group, otherwise keeping messages and network transmissions to a minimum is key.
+
+If you absolutely need internet connectivity and it's possible, you should keep Airplane Mode on and connect to a public Wi-Fi network instead, which brings me to:
+
+### Use Public Wi-Fi
+
+If you're able, scope out businesses in the area that provide public Wi-Fi in advance. This is better than using cellular service, because less information about your device is shared with Wi-Fi networks as opposed to cell towers. Most modern phones support MAC address randomization, which makes it even harder to correlate your cell phone's connections between different Wi-Fi access points.
+
+There is a danger that public Wi-Fi services will be set up by authorities or others in the area to track protesters. You could consider using a [VPN service](https://www.privacyguides.org/en/vpn/) while connected to them to minimize the amount of metadata about your traffic that the Wi-Fi operator is able to collect.
 
 ### Disable Location Services
 
@@ -175,11 +221,21 @@ On Android:
 
 If you use an Android phone, you should also check your Google account settings to [ensure location history is disabled](https://support.google.com/accounts/answer/3118687). Google is frequently tapped by law enforcement to provide location data, because they don't protect your personal information with strong, zero-knowledge encryption.
 
+### Check Your Keyboard
+
+An often overlooked security risk is the software keyboard installed on your device. The best encrypted messenger in the world is no match for all of your inputs being read by third-parties as you type them.
+
+If you are on [GrapheneOS](#consider-your-phones-security-patches), the default keyboard from AOSP that it comes with makes no internet connections, so if you don't install a third-party keyboard you should be fine. Most other Android users are using Google's *Gboard*, which does make internet connections you may decide you don't trust, so you could consider installing an offline alternative. iOS users are able to control whether their third-party keyboard has network access in their system settings, although it may be wiser to not install a third-party keyboard in the first place.
+
+This is [particularly relevant](https://xcancel.com/RealSexyCyborg/status/1197695344575799296) to people typing in languages like Chinese or others where you use an Input Method Editor (IME) to convert Latin letters to characters in the target language. These IMEs are very often third-party apps that have full internet access.
+
 ## Other Tips
 
 ### Use Signal
 
 [**Signal**](https://www.privacyguides.org/en/real-time-communication/#signal) is the most secure app for sending text messages and making voice calls with others. It is also impossible to configure Signal to lower its encryption security or other security standards, so you know that everyone in your group is using settings that are safe by default.
+
+You should turn on disappearing messages with a reasonably short interval for sensitive communications. You can do this by default in the Privacy section of Signal's app settings, and you can also do it on a per-conversation basis in each conversation's settings panel. This way there is a time limit for an attacker to crack your phone and extract your messages before they permanently disappear.
 
 Signal is battle-tested for this situation. [Signal has responded to 6 government requests](https://signal.org/bigbrother/) since 2016, and in each case the only information they were able to provide was at most:
 
@@ -227,7 +283,7 @@ You should learn and/or set up device shortcuts to do things quickly, ideally wh
 
 ### Have a Backup Communications Network
 
-In the event of an internet blackout, it might be a good idea to have a backup network prepared, organized with other attendees. Messaging apps like [Briar](https://www.privacyguides.org/en/real-time-communication/#briar) can operate in a local mesh mode, connecting to other devices in the area with Bluetooth or local Wi-Fi connections instead of relying on centralized internet services.
+In the event of an internet blackout, it might be a good idea to have a backup network prepared, organized with other attendees. Messaging apps like [Briar](https://www.privacyguides.org/en/real-time-communication/#briar) can operate in a local mesh mode, connecting to other devices in the area with Bluetooth or local Wi-Fi connections instead of relying on centralized internet services. Another newer option is [Meshtastic](https://meshtastic.org/), which uses peer-to-peer/mesh radio that is much more reliable than using either Wi-Fi or Bluetooth, but requires purchasing dedicated hardware that you connect to your phone.
 
 You might also want to consider local radios like walkie-talkies, although keep in mind these devices are nearly always unencrypted and can be easily monitored by others, so you won't want to use them to transmit sensitive information.
 
