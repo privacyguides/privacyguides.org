@@ -108,7 +108,7 @@ They put the odds for Touch ID around [1 in 50,000](https://support.apple.com/en
 
 ### Additional Considerations
 
-You'll likely want an implementation with some protection against another person pointing your phone at your face to unlock it. iOS allows you to enable a setting where you need to be looking at the phone before it will unlock, look for a similar feature when shopping for a device.
+You'll likely want an implementation with some protection against another person pointing your phone at your face to unlock it. iOS allows you to enable a setting where you need to be looking at the phone before it will unlock (called "Require Attention for Face ID), look for a similar feature when shopping for a device.
 
 Some devices allow for unlocking with a facemask. This is less secure than without a facemask, so keep that in mind when enabling this setting.
 
