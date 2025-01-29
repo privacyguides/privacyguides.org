@@ -144,6 +144,11 @@ There are two approaches for extracting biometric data from video.
 
 This approach attempts to model the human body in order to track the different parts of it. A well-known example of this approach is the Microsoft Kinect, which only consists of a fairly low-resolution camera. It simplifies the human body into a stick figure, which you can see in footage of the [Kinect](https://www.youtube.com/watch?v=33AsuE-WP64) in action. It then uses the distances and joint angles of the model for gait recognition.
 
+<figure markdown>
+  ![Diagram showing the kinect's model of the human body, a 2D skeleton made up of various parts](../assets/images/biometrics-explained/kinect-skeleton.jpeg)
+  <figcaption>source: <a href="https://www.researchgate.net/publication/334049964_Markerless_Human_Motion_Tracking_Using_Microsoft_Kinect_SDK_and_Inverse_Kinematics">Alireza Bilesan, Saeed Behzadipour, Teppei Tsujita, Shunsuke Komizunai, and Atsushi Konno</a></figcaption>
+</figure>
+
 #### Model-free
 
 Model-free approaches don't try to model the human body but instead use the whole motion of human silhouettes. This gives a few advantages, namely it works regardless of camera quality and it takes significantly fewer resources.
