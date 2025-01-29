@@ -55,7 +55,7 @@ Of course installing Onion Browser is as easy as any other app on iOS, Apple ID 
 When you open Onion Browser for the first time you're given the option to connect to Tor via [Orbot](https://www.privacyguides.org/en/tor/#orbot), or with a built-in Tor network proxy. Using the built-in option is the easiest, it connects very quickly and doesn't require a separate app. It also allows you to [use Tor alongside another VPN app](https://www.privacyguides.org/en/advanced/tor-overview/#safely-connecting-to-tor), which may be helpful in certain circumstances. The Orbot app acts as its own "VPN connection" in iOS preventing the possibility of combining it with another VPN, but it is more flexible and it extends Tor network protections to every app on your device.
 
 <figure markdown="span">
-  ![A screenshot asking whether you want to use Orbot or built-in Tor to connect, noting the built-in Tor has security problems.](../assets/images/onion-browser-review/757A93D0-CCCB-4743-8AF2-17B001EC774A_1_102_o.jpeg){ width="200" }
+  ![A screenshot asking whether you want to use Orbot or built-in Tor to connect, noting the built-in Tor has security problems.](../assets/images/onion-browser-review/757A93D0-CCCB-4743-8AF2-17B001EC774A_1_102_o.webp){ width="200" }
   <figcaption>You're presented with a choice at startup</figcaption>
 </figure>
 
@@ -64,7 +64,7 @@ Using the dedicated Orbot app also provides more robust protections against IP a
 I confirmed the built-in option works perfectly fine, in fact I occasionally had trouble connecting Orbot to Onion Browser, where it would re-prompt me to start Orbot even though it was already running until I restarted the Onion Browser app. The built-in proxy generally worked seamlessly. However, for most people using Onion Browser alongside Orbot probably still makes more sense. It's the official recommendation from Tor Project and the browser's developer themselves, so that's what I'll be sticking with for the rest of this review.
 
 <figure markdown="span">
-  ![A screenshot of check.torproject.org that says congratulations, this browser is configured to use Tor. It shows the IP address of the exit node, then states: however, it does not appear to be Tor Browser.](../assets/images/onion-browser-review/2774018C-C4DD-419C-9D77-9BE8E5A51A19_1_102_o.jpeg){ width="200" }
+  ![A screenshot of check.torproject.org that says congratulations, this browser is configured to use Tor. It shows the IP address of the exit node, then states: however, it does not appear to be Tor Browser.](../assets/images/onion-browser-review/2774018C-C4DD-419C-9D77-9BE8E5A51A19_1_102_o.webp){ width="200" }
   <figcaption>You can check your connection at check.torproject.org, but you'll be warned you're not using Tor Browser</figcaption>
 </figure>
 
@@ -81,8 +81,8 @@ I ran into trouble with DuckDuckGo not being able to display results, however. S
 
 <figure markdown="span">
   <div markdown="span" style="display: flex; gap: 1em; justify-content: center;">
-    ![A screenshot of DuckDuckGo saying sorry, we ran into an issue displaying these results, and asking to try again](../assets/images/onion-browser-review/8A3E82E7-128E-4B3B-B8BB-276063226D41_1_102_o.jpeg){ width="200" }
-    ![A screenshot of DuckDuckGo results loading normally when using the HTML version of the search engine](../assets/images/onion-browser-review/C3252F74-C6C1-4616-B3CD-17EA1183BE0C_1_102_o.jpeg){ width="200" }
+    ![A screenshot of DuckDuckGo saying sorry, we ran into an issue displaying these results, and asking to try again](../assets/images/onion-browser-review/8A3E82E7-128E-4B3B-B8BB-276063226D41_1_102_o.webp){ width="200" }
+    ![A screenshot of DuckDuckGo results loading normally when using the HTML version of the search engine](../assets/images/onion-browser-review/C3252F74-C6C1-4616-B3CD-17EA1183BE0C_1_102_o.webp){ width="200" }
   </div>
   <figcaption>DuckDuckGo wouldn't work until I used their HTML-only version</figcaption>
 </figure>
@@ -92,7 +92,7 @@ I ran into trouble with DuckDuckGo not being able to display results, however. S
 There are three configurable security levels in Onion Browser: Bronze, Silver (the default), and Gold. These levels roughly correlate to the *Safe, Safer, Safest* [security levels](https://tb-manual.torproject.org/security-settings/) in regular Tor Browser.
 
 <figure markdown="span">
-  ![A screenshot showing the security level for this site settings and three options, Gold, Silver, and Bronze](../assets/images/onion-browser-review/51B33FA1-D9B4-4EF4-82C6-259568C845EC_1_102_o.jpeg){ width="200" }
+  ![A screenshot showing the security level for this site settings and three options, Gold, Silver, and Bronze](../assets/images/onion-browser-review/51B33FA1-D9B4-4EF4-82C6-259568C845EC_1_102_o.webp){ width="200" }
   <figcaption>You can toggle security levels on a per-site basis with two taps</figcaption>
 </figure>
 
@@ -159,7 +159,7 @@ There is one more way to improve Onion Browser security, but we have to look out
 Because Onion Browser is built on Apple's WebKit, these security improvements extend to Onion Browser as well. Most notably, external web fonts *are* blocked in Onion Browser with Lockdown Mode enabled, just as they are in Safari. These are disabled in desktop Tor Browser's Safest mode due to both privacy concerns, and security concerns related to the font rendering engine on your device, so having the option to disable them here on iOS is very useful for those looking to maximize their security.
 
 <figure markdown="span">
-  ![A screenshot of the Privacy Guides homepage with external fonts disabled](../assets/images/onion-browser-review/87651D0E-EFE0-4C0F-98E7-9898EBA74334_1_102_o.jpeg){ width="200" }
+  ![A screenshot of the Privacy Guides homepage with external fonts disabled](../assets/images/onion-browser-review/87651D0E-EFE0-4C0F-98E7-9898EBA74334_1_102_o.webp){ width="200" }
   <figcaption>External fonts and JavaScript disabled with Gold + Lockdown Mode</figcaption>
 </figure>
 

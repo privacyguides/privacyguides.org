@@ -14,7 +14,7 @@ schema_type: NewsArticle
 ---
 # Relisting Startpage.com
 
-!["Relisting Startpage" cover image](../assets/images/relisting-startpage/cover.png)
+!["Relisting Startpage" cover image](../assets/images/relisting-startpage/cover.webp)
 
 <small aria-hidden="true">Illustration: Privacy Guides</small>
 

@@ -15,7 +15,7 @@ schema_type: NewsArticle
 ---
 # Delisting Startpage From Privacy Guides
 
-!["Delisting Startpage" cover image](../assets/images/delisting-startpage/cover.png)
+!["Delisting Startpage" cover image](../assets/images/delisting-startpage/cover.webp)
 
 <small aria-hidden="true">Illustration: Privacy Guides | Photo: Unsplash</small>
 
