@@ -153,6 +153,11 @@ This approach attempts to model the human body in order to track the different p
 
 Model-free approaches don't try to model the human body but instead use the whole motion of human silhouettes. This gives a few advantages, namely it works regardless of camera quality and it takes significantly fewer resources.
 
+<figure markdown>
+  ![Diagram showing the process of turning raw camera input into a silhouette useful for giat recognition](../assets/images/biometrics-explained/model-free-gait.webp)
+  <figcaption>Yousef, R.N., Khalil, A.T., Samra, A.S. et al. Model-based and model-free deep features fusion for high performed human gait recognition. J Supercomput 79, 12815–12852 (2023). <a href="https://doi.org/10.1007/s11227-023-05156-9">https://doi.org/10.1007/s11227-023-05156-9</a></figcaption>
+</figure>
+
 ### Accelerometer
 
 Accelerometers such as those found in your smartphone can also be used for gait recognition.
