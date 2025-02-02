@@ -162,9 +162,13 @@ Model-free approaches don't try to model the human body but instead use the whol
 
 ### Accelerometer
 
-Accelerometers such as those found in your smartphone can also be used for gait recognition.
+Accelerometers such as those found in your smartphone can also be used for gait recognition. These need to be worn on a person's body so they can't be used from long distance like camera-based approaches.
+
+Accelerometers work by measuring the accelerations in 3D space in X, Y, and Z coordinates. They tend to also utilize gyroscopes, which measure the orientation of a device.
 
 ### Floor Sensor
+
+
 
 ## :material-chip: Secure Element
 
