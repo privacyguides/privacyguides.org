@@ -8,17 +8,17 @@ authors:
     name: Dan Arel
     description: Former Team Member
     avatar: https://github.com/danarel.png
-  niek-de-wilde:
-    name: Niek de Wilde
-    description: Team Member
-    avatar: https://github.com/blacklight447.png
-    mastodon:
-      username: blacklight447
-      instance: mastodon.social
   dngray:
     name: Daniel Gray
     description: Team Member
     avatar: https://github.com/dngray.png
+  em:
+    name: Em
+    description: Staff Writer
+    avatar: https://github.com/EmAtPrivacyGuides.png
+    mastodon:
+      username: Em0nM4stodon
+      instance: infosec.exchange
   freddy:
     name: Freddy
     description: Team Member
@@ -28,6 +28,10 @@ authors:
       instance: social.lol
     twitter: m00ws
     bluesky: freddy.lol
+  fria:
+    name: fria
+    description: Team Member
+    avatar: https://github.com/friadev.png
   jonah:
     name: Jonah Aragon
     description: Project Director
@@ -53,11 +57,14 @@ authors:
     name: Nate Bartram
     description: Guest Contributor
     avatar: https://gitlab.com/uploads/-/system/user/avatar/8993331/avatar.png
+  niek-de-wilde:
+    name: Niek de Wilde
+    description: Team Member
+    avatar: https://github.com/blacklight447.png
+    mastodon:
+      username: blacklight447
+      instance: mastodon.social
   sam-howell:
     name: Sam Howell
     description: Guest Contributor
     avatar: https://gitlab.com/uploads/-/system/user/avatar/5349522/avatar.png
-  fria:
-    name: fria
-    description: Team Member
-    avatar: https://github.com/friadev.png
