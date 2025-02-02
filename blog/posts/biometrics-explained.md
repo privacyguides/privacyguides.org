@@ -170,7 +170,7 @@ Accelerometers work by measuring the accelerations in 3D space in X, Y, and Z co
 
 It's possible to identify individuals using [sensors](https://www.amti.biz/product/bms464508/) in the floor that measure the pressure of your steps as you take them.
 
-### Radar
+### :material-radar: Radar
 
 Radar works by transmitting a signal and measuring how long it takes for that signal to return, allowing you to measure how far an object is from you. In addition, if an object is moving relaitve to the sensor, the reflected waves will be a different frequency than when they were transmitted due to the [Doppler effect](https://www.noaa.gov/jetstream/doppler/how-radar-works). This can be used to determine the speed of an object and whether it's moving toward or away from you.
 
