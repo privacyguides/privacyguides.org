@@ -48,7 +48,7 @@ Optical sensors can struggle in the presence of bright sunlight, which is an iss
 
 ### :material-lightning-bolt: Capacitive Fingerprint Sensors
 
-Capacitive sensors measure the electrical conductivity of your finger. These are much more secure than optical sensors since they can't be fooled with an image. They're also tough to fool with prosthetics as different materials will have different electical properties.
+Capacitive sensors measure the electrical conductivity of your finger. These are much more secure than optical sensors since they can't be fooled with an image. They're also tough to fool with prosthetics as different materials will have different electrical properties.
 
 <figure markdown>
   ![Diagram showing a closeup of how a capacitive fingerprint sensor works by detecting the electrical difference in the ridges and valleys of a finger](../assets/images/biometrics-explained/capacitve-diagram.jpeg)
