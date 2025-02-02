@@ -134,7 +134,7 @@ It could also be used on websites to uniquely identify you, so type in a text ed
 
 Possibly the most insidious of the biometric systems in widespread use is gait recognition. Yes, you can be uniquely identified just by how you walk.
 
-### Camera
+### :material-camera: Camera
 
 This technology can work using only 2D footage and doesn't even require close proximity or high resolution sensors like other forms of biometrics. Combined with the huge network of cameras deployed in most cities, you can potentially be identified and tracked around even with a fully covered face.
 
@@ -160,13 +160,13 @@ Model-free approaches don't try to model the human body but instead use the whol
   <figcaption>Yousef, R.N., Khalil, A.T., Samra, A.S. et al. Model-based and model-free deep features fusion for high performed human gait recognition. J Supercomput 79, 12815–12852 (2023). <a href="https://doi.org/10.1007/s11227-023-05156-9">https://doi.org/10.1007/s11227-023-05156-9</a></figcaption>
 </figure>
 
-### Accelerometer
+### :material-axis-arrow: Accelerometer
 
 Accelerometers such as those found in your smartphone can also be used for gait recognition. These need to be worn on a person's body so they can't be used from long distance like camera-based approaches.
 
 Accelerometers work by measuring the accelerations in 3D space in X, Y, and Z coordinates. They tend to also utilize gyroscopes, which measure the orientation of a device.
 
-### Floor Sensor
+### :material-foot-print: Floor Sensor
 
 It's possible to identify individuals using [sensors](https://www.amti.biz/product/bms464508/) in the floor that measure the pressure of your steps as you take them.
 
