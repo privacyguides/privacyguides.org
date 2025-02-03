@@ -133,7 +133,7 @@ Again, government values are deciding on digital features that impact our data p
 
 ## The future of privacy
 
-There's a lot to be worrying about in today's privacy landscape. Unfortunately, recent political tendencies in the Western world make it difficult to stay optimistic. The trend towards authoritarian regimes and surveillance capitalism is bad news for the future of privacy around the globe.
+There's a lot to be worrying about in today's privacy landscape. Unfortunately, recent political tendencies in the Western world make it difficult to stay optimistic. The trend toward authoritarian regimes and surveillance capitalism is bad news for the future of privacy around the globe.
 
 There is no question that privacy is intrinsically intertwined with politics, and can therefore never be politically neutral. The latest decisions taken by the new U.S. administration running full speed into deregulation and defunding, growing pressure in Europe to break end-to-end encryption in favor of a surveillance state, and invasive age verification policies to censor the web and collect even more data on every netizen is admittedly frightening. 
 
