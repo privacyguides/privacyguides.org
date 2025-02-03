@@ -109,7 +109,7 @@ Age Verification policies generally start with the premise that some content sho
 
 ### Who will decide what content should be walled online?
 
-First of all, even putting aside the fact that there is plenty of disturbing content accessible *outside* the internet (newspapers, television, movies, radio, advertisings, etc), who would be [the deciders](https://www.eff.org/deeplinks/2025/01/impact-age-verification-measures-goes-beyond-porn-sites) of which specific content can be accessed by children or not? This can be extremely problematic, to say the least. 
+First of all, even putting aside the fact that there is plenty of disturbing content accessible *outside* the internet (newspapers, television, movies, radio, advertising, etc), who would be [the deciders](https://www.eff.org/deeplinks/2025/01/impact-age-verification-measures-goes-beyond-porn-sites) of which specific content can be accessed by children or not? This can be extremely problematic, to say the least. 
 
 There is no objective measure to decide on this, and what might be deemed appropriate by one might not be by another. More importantly in the context of our discussion, what one government might judge appropriate might be very different from the next or previous administration. 
 
