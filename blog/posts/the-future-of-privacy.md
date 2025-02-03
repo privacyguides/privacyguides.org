@@ -9,7 +9,7 @@ description: Privacy is intrinsically intertwined with politics. Each change in 
 schema_type: AnalysisNewsArticle
 ---
 
-# The Future of Privacy: How Politics Affect Laws Impacting Privacy Features 
+# The Future of Privacy: How Governments Shape Your Digital Life
 
 ![Black and white photo of a street post at night. The street post has some ripped stickers on it and a stencilled graffiti saying Big Data is Watching You.](../assets/images/the-future-of-privacy/cover.webp)
 <small aria-hidden="true">Photo: ev / Unsplash</small>
