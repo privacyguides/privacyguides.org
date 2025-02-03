@@ -50,7 +50,7 @@ However, this dependency can become precarious when governments aren't working f
 
 ## The GDPR gave you deletion features in your apps
 
-On the good side of regulatory influence, there are regulations like the [General Data Protection Regulation](https://gdpr-info.eu/) (GDPR). Saying the GDPR revolutionized the world of data privacy would not be an overstatement. While there are many privacy regulations pre-dating the GDPR, in the Western world none really had the scope nor the grit the GDPR has. 
+On the good side of regulatory influence, there are regulations like the [General Data Protection Regulation](https://gdpr-info.eu/) (GDPR). Saying the GDPR revolutionized the world of data privacy would not be an overstatement. While many privacy regulations pre-date the GDPR, in the Western world none had the scope nor the grit the GDPR has. 
 
 ### What is the GDPR
 
