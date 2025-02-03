@@ -83,7 +83,7 @@ If you are not European, please bear with me. First of all, everyone outside of 
 
 In 2021, the EU [approved a derogation](https://www.patrick-breyer.de/en/chatcontrol-european-parliament-approves-mass-surveillance-of-private-communications/) to the [ePrivacy Directive](https://en.wikipedia.org/wiki/EPrivacy_Directive) to allow communication service providers to scan all exchanged messages to detect child sexual abuse material (CSAM). Although this first derogation was not mandatory, some policymakers kept pushing with new propositions. 
 
-A year later, a [new regulation](https://edri.org/wp-content/uploads/2022/10/EDRi-Position-Paper-CSAR-short.pdf) (CSAR) was proposed by the European Commissioner for Home Affairs to make scanning messages for CSAM *mandatory* for all EU countries, and also allowing it to **break end-to-end encryption**. In 2023, the UK passed a similar legislation called the [Online Safety Act](https://hackaday.com/2023/10/29/the-uk-online-safety-bill-becomes-law-what-does-it-mean/). These type of messaging mass scanning regulations have been called by critics *Chat Control*.
+A year later, a [new regulation](https://edri.org/wp-content/uploads/2022/10/EDRi-Position-Paper-CSAR-short.pdf) (CSAR) was proposed by the European Commissioner for Home Affairs to make scanning messages for CSAM *mandatory* for all EU countries, and also allow them to **break end-to-end encryption**. In 2023, the UK passed a similar legislation called the [Online Safety Act](https://hackaday.com/2023/10/29/the-uk-online-safety-bill-becomes-law-what-does-it-mean/). These types of messaging mass scanning regulations have been called by critics *Chat Control*.
 
 ### Why is Chat Control horrible for privacy, and for children
 
