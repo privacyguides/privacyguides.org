@@ -99,7 +99,7 @@ Chat Control would only lead to destroying the end-to-end encryption messaging f
 
 Thankfully, opposition from experts and advocates alike has been strong. To name only a few, Meredith Whittaker, president of the Signal Foundation which develops the messaging app [Signal](https://signal.org/), has taken [a clear stand](https://signal.org/blog/uk-online-safety-bill/) against Chat Control. The Electronic Frontier Foundation has also [firmly opposed](https://www.eff.org/deeplinks/2024/06/now-eu-council-should-finally-understand-no-one-wants-chat-control) Chat Control legislation. In the UK, the Open Rights Group has led [powerful campaigns](https://www.openrightsgroup.org/campaign/save-encryption/) to fight against the Online Safety Act. In Europe, privacy advocacy organization [noyb](https://noyb.eu/en/noyb-files-complaint-against-eu-commission-over-targeted-chat-control-ads) and former Member of the European Parliament Patrick Breyer have both been fervent defenders of privacy rights [raising relentless resistance](https://www.patrick-breyer.de/en/posts/messaging-and-chat-control/) to Chat Control. 
 
-Harmful policies such as Chat Control are a direct example of how politics can affect laws that can cause **unimaginable damage** to the privacy-preserving technologies we use everyday. 
+Harmful policies such as Chat Control are a direct example of how politics can affect laws that can cause **unimaginable damage** to the privacy-preserving technologies we use every day. 
 
 ## Age Verification wants to collect your sensitive data
 
