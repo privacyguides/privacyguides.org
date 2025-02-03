@@ -141,9 +141,9 @@ But one thing frightens me even more than all of this. One thing that could end 
 
 This threat is giving up.
 
-Despite all the gloom menacing privacy rights, **privacy will never be dead as long as we stand up to defend it**. Governments might have the power to remove our privacy rights on paper and proclaim privacy features illegal. But the people have power to keep pushing for better privacy rights and to keep developing even more robust and more accessible privacy tools. 
+Despite all the gloom menacing privacy rights, **privacy will never be dead as long as we stand up to defend it**. Governments might have the power to remove our privacy rights on paper and proclaim privacy features illegal. But the people have the power to keep pushing for better privacy rights and to keep developing even more robust and more accessible privacy tools. 
 
-We must continue to advocate loudly for privacy rights and for all human rights every chance we have. The fight for better privacy rights is only over when we give up.
+We must continue to advocate loudly for privacy rights and *all* human rights every chance we have. The fight for better privacy rights is only over when we give up.
 
 **Do not give up.**
 
