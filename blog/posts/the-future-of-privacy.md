@@ -46,7 +46,7 @@ In current events, last month an [executive order](https://web.archive.org/web/2
 
 Governments funding nonprofit projects and organizations working on improving human rights, civil liberties, and technological security and safety is a good thing. This can bring an important source of stable income to nonprofit projects that could not stay afloat solely from donations. 
 
-However, this dependency can become precarious when governments aren't working for the good of the people anymore, and when organizations relied too heavily on such support, making them vulnerable to change in power. Such change of regime can have devastating repercussions on the privacy tools we use.
+However, this dependency can become precarious when governments aren't working for the good of the people anymore, and when organizations rely too heavily on such support, making them vulnerable to change in power. Such a change of regime can have devastating repercussions on the privacy tools we use.
 
 ## The GDPR gave you deletion features in your apps
 
