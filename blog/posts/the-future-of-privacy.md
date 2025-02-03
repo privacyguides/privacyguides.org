@@ -32,7 +32,7 @@ Following politics and advocating for better privacy rights and legislation is e
 
 ## The tools you use might depend on government funding
 
-Many privacy tools we use depend at least partially on government funding or depend on other tools depending on government funding. This is especially true for open-source nonprofit organizations needing some (usually) more stable income, in addition to donations. 
+Many [privacy tools](https://www.privacyguides.org/en/tools/) we use depend at least partially on government funding or on other tools which depend on government funding. This is especially true for open-source nonprofit organizations needing some (usually) more stable income, in addition to donations. 
 
 ### Which privacy and security tools could be impacted 
 
