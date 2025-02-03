@@ -24,7 +24,7 @@ Let's talk about how politics, law, and technological features are intertwined, 
 
 Each change in government can have a serious effect on data privacy legislation. Privacy is a politically charged field. For example, authoritarian regimes might want to remove or weaken privacy rights to exert strict control over their population. While democratic governments generally bring more freedom and protections to its citizens, including privacy rights. It's important to keep in mind who in the past has bettered citizen rights and protections, and who has actively worked to undermine civil rights.
 
-Each time a new government takes power, its values will be put forward and influence legislations in place, or legislations not in place yet. While the Western world has benefited from some improvements in data privacy law for the past few years, we must consider these gains are fragile and protections could get removed or lessened at any time. 
+Each time a new government takes power, its values will be put forward and influence legislation in place, or legislation not in place yet. While the Western world has benefited from some improvements in data privacy law for the past few years, we must consider these gains are fragile and protections could get removed or lessened at any time. 
 
 Unfortunately, it seems there is currently a political push towards deregulation, mass surveillance, and a focus on corporate gains. This is **extremely worrisome for the future of privacy rights**, human rights, and individual liberties. 
 
