@@ -14,7 +14,7 @@ schema_type: OpinionNewsArticle
 ![Black and white photo of a street post at night. The street post has some ripped stickers on it and a stencilled graffiti saying Big Data is Watching You.](../assets/images/the-future-of-privacy/cover.webp)
 <small aria-hidden="true">Photo: ev / Unsplash</small>
 
-Data privacy is a vast subject that encompasses so much. Some might think it is a niche focus interesting only a few. But in reality, it is a wide-ranging field influenced by intricate relationships between politics, law, technology, and much more. Further, it affects everyone. Literally everyone, in one way or another, whether they care about it or not.<!-- more -->
+Data privacy is a vast subject that encompasses so much. Some might think it is a niche focus interesting only a few. But in reality, it is a wide-ranging field influenced by intricate relationships between politics, law, technology, and much more. Further, it affects **everyone** in one way or another, whether they care about it or not.<!-- more -->
 
 I routinely read articles discussing changes in politics on the advocacy side of data privacy. Then, I read articles talking about changes in regulations on the legal side of data privacy. And then, I see all the articles and guides presenting new tools and privacy features on the tech side of data privacy. Of course, all of this is linked together. 
 
