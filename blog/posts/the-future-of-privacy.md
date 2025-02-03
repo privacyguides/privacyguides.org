@@ -54,7 +54,7 @@ On the good side of regulatory influence, there are regulations like the [Genera
 
 ### What is the GDPR
 
-The GDPR is a data privacy regulation that was adopted by the European Union (EU) in 2016 and became effective in May 2018. Its scope englobes all of the EU member states as well as all the countries part of the European Economic Area (EEA), which together count 30 countries to this day. The United Kingdom also uses an [amended version](https://www.gdpreu.org/differences-between-the-uk-and-eu-gdpr-regulations/) of the GDPR post-Brexit. 
+The GDPR is a data privacy regulation that was adopted by the European Union (EU) in 2016 and became effective in May 2018. Its scope encompasses all of the EU member states as well as all the countries part of the European Economic Area (EEA), which together count 30 countries to this day. The United Kingdom also uses an [amended version](https://www.gdpreu.org/differences-between-the-uk-and-eu-gdpr-regulations/) of the GDPR post-Brexit. 
 
 However, the reach of the GDPR isn't limited to Europe. Every organization based *outside of the EU* that is offering goods or services to, or is monitoring the behavior of, individuals located in the EU [must comply](https://commission.europa.eu/law/law-topic/data-protection/rules-business-and-organisations/application-regulation/who-does-data-protection-law-apply_en) as well. This means that **most organizations operating worldwide, regardless of where they are located in the world, must comply** with the GDPR.
 
