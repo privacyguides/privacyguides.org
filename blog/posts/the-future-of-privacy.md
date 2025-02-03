@@ -71,7 +71,7 @@ Slowly since 2018, applications requiring accounts have started to implement dat
 
 Unfortunately, not all applications have integrated automatic deletion features internally (yet). Additionally, some applications and accounts will allow you to delete information only partially this way. 
 
-If you wish to exercise or have questions related to your Right to Erasure or Right to Delete, first consult your local privacy regulation to check if you have this right as a *Data Subject*, *Individual,* or *Consumer*. Then, you can contact the organization's *Privacy Officer* with your request. You can usually find information about an organization's designated *Privacy Officer* by reading its privacy policy or privacy notice. In any cases, it never hurts to ask.
+If you wish to exercise or have questions related to your Right to Erasure or Right to Delete, first consult your local privacy regulation to check if you have this right as a *Data Subject*, *Individual,* or *Consumer*. Then, you can contact the organization's *Privacy Officer* with your request. You can usually find information about an organization's designated *Privacy Officer* by reading its privacy policy or privacy notice. In any case, it never hurts to ask.
 
 </div>
 
