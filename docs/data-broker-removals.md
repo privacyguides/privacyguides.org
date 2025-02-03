@@ -77,7 +77,7 @@ If you don't use an automatic scanner to find results about you, consider settin
 
 Some websites supported by EasyOptOuts are publicly searchable. In those cases EasyOptOuts will perform a search and only submit an opt-out request if your personal data is already found, to prevent sending your data in an opt-out request to sites that didn't have it already. However, they do support some sites which are not publicly searchable, and in those cases your data will be sent to them in an opt-out request regardless, in case you are in their private databases.
 
-Our testing indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. We will publish a detailed review of EasyOptOuts on our blog in the near future and update this page when it is published. [Independent findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
+Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-review/) indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. Independent [findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
 
 <div class="admonition failure" markdown>
 <p class="admonition-title">High priority sites not supported by EasyOptOuts</p>
@@ -85,6 +85,7 @@ Our testing indicates that EasyOptOuts provides the best value out of any data r
 EasyOptOuts does not cover the following sites we consider to be "high priority," so you should still manually opt-out of:
 
 - Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
+- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/optout))
 
 </div>
 
@@ -128,4 +129,4 @@ Our picks for removal services are primarily based on independent professional t
 - Must not be affiliated with the data broker industry or purchase advertising on people search sites.
 - Must only use your personal data for the purposes of opting you out of data broker databases and people search sites.
 
-[^1]: If you *are* immediately threatened by stalkers or other threats, you should strongly consider an automated tool like [EasyOptOuts](#easyoptouts-paid), at least for the initial "purge." When things are more manageable in the future you can come back to the manual process. Of course, in a dangerous situation your first priority should always be to seek professional help from police or others before tackling it on your own.
+[^1]: If you *are* immediately threatened by stalkers or other threats, you should strongly consider an automated tool like [EasyOptOuts](#easyoptouts-paid), at least for the initial "purge." When things are more manageable in the future you can come back to the manual process. Of course, in a dangerous situation your first priority should always be to seek professional help [from police](https://onlineharassmentfieldmanual.pen.org/involving-law-enforcement) or others before tackling it on your own.
