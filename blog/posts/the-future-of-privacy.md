@@ -129,7 +129,7 @@ Regrettably, this is not a hypothetical scare. Age Verification legislation has 
 
 There is some [tenacious opposition](https://www.eff.org/deeplinks/2024/12/global-age-verification-measures-2024-year-review) to Age Verification policies from digital rights and free speech advocates. Unfortunately, there is also a strong push in support of Age Verification from the rapidly growing "age assurance" and identity verification [industry](https://avpassociation.com/thought-leadership/2025-the-year-of-implementation-for-age-assurance/), and from many governments worldwide **moving towards a surveillance state**.
 
-Again here, government values are deciding on digital features impacting our data privacy in disastrous ways. If you want to **take a stand against Age Verification**, you can join the [Stop Online ID Checks](https://www.stoponlineidchecks.org/) campaign from the nonprofit organization Fight for the Future.
+Again, government values are deciding on digital features that impact our data privacy in disastrous ways. If you want to **take a stand against Age Verification**, you can join the [Stop Online ID Checks](https://www.stoponlineidchecks.org/) campaign from the nonprofit organization Fight for the Future.
 
 ## The future of privacy
 
