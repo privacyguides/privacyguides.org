@@ -28,7 +28,7 @@ Each time a new government takes power, its values will be put forward and influ
 
 Unfortunately, it seems there is currently a political push towards deregulation, mass surveillance, and a focus on corporate gains. This is **extremely worrisome for the future of privacy rights**, human rights, and individual liberties. 
 
-Following politics and advocating for better privacy rights and legislations is essential in improving access to privacy tools and features around the world. Privacy is never politically neutral. 
+Following politics and advocating for better privacy rights and legislation is essential in improving access to privacy tools and features around the world. Privacy is never politically neutral. 
 
 ## The tools you use might depend on government funding
 
