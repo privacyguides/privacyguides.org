@@ -174,7 +174,7 @@ It's possible to identify individuals using [sensors](https://www.amti.biz/produ
 
 Radar works by transmitting a signal and measuring how long it takes for that signal to return, allowing you to measure how far an object is from you. In addition, if an object is moving relative to the sensor, the reflected waves will be a different frequency than when they were transmitted due to the [Doppler effect](https://www.noaa.gov/jetstream/doppler/how-radar-works). This can be used to determine the speed of an object and whether it's moving toward or away from you.
 
-Using a continuous wave (CW) radar that's constantly emitting a signal, it's possible to measure the movements of all the different parts of your body during your gait to identify you uniquely. This is called a [micro-Doppler](https://books.google.com/books?hl=en&lr=&id=SVCQDwAAQBAJ&oi=fnd&pg=PA1&ots=cqJxAh_rPv&sig=bBz1w4h-C4nDrzNwiRvZUexKbnc#v=onepage&q&f=false) signature. These sensors can even be sensitive enough that they can pick up breathing and heartbeats of humans trapped in rubble during rescure operations.
+Using a continuous wave (CW) radar that's constantly emitting a signal, it's possible to measure the movements of all the different parts of your body during your gait to identify you uniquely. This is called a [micro-Doppler](https://books.google.com/books?hl=en&lr=&id=SVCQDwAAQBAJ&oi=fnd&pg=PA1&ots=cqJxAh_rPv&sig=bBz1w4h-C4nDrzNwiRvZUexKbnc#v=onepage&q&f=false) signature. These sensors can even be sensitive enough that they can pick up breathing and heartbeats of humans trapped in rubble during rescue operations.
 
 ## :material-chip: Secure Element
 
