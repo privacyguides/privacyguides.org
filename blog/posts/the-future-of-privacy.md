@@ -93,7 +93,7 @@ Chat Control would hurt everyone, [including the children](https://digitalcommon
 
 *Protecting the children* is a pretext regularly used to implement abusive regulations undermining individual liberties and protections. Do not get fooled by this demagogical stratagem. **Chat Control is the opposite of protecting the children.** 
 
-Chat Control would only lead to destroying the end-to-end encryption messaging features that is protecting us and the children so well. Criminals exploiting children would simply move to underground channels, unbothered. 
+Chat Control would only lead to destroying the end-to-end encryption messaging features that are protecting us and the children so well already. Criminals exploiting children would simply move to underground channels, unbothered. 
 
 ### Who opposes Chat Control
 
