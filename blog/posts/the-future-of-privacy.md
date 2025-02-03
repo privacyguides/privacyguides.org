@@ -105,7 +105,7 @@ Harmful policies such as Chat Control are a direct example of how politics can a
 
 Another potent example of the *protecting-the-children stratagem* to undermine privacy rights is [Age Verification legislation](https://www.jonaharagon.com/posts/age-verification-is-incompatible-with-the-internet/). In the past few years, this idea of controlling which online content should be accessible to children has raised new proposals around the world. 
 
-Age Verification policies generally start with the premise that some content should not be accessible to children online. Again, this could seem like a reasonable idea at first. Nobody would debate that children should be shielded from some type of content. Sadly, we have all witnessed how horrifying the internet can be at time. However, both the premise and methodology to achieve this goal are wrong.
+Age Verification policies generally start with the premise that some content should not be accessible to children online. Again, this could seem like a reasonable idea at first. Nobody would debate that children should be shielded from some type of content. Sadly, we have all witnessed how horrifying the internet can be at times. However, both the premise and methodology to achieve this goal are wrong.
 
 ### Who will decide what content should be walled online?
 
