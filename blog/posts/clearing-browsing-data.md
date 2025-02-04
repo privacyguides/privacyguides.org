@@ -52,19 +52,19 @@ After making any necessary changes, click ____Delete data____.
 
 Start by launching ____Firefox____. On the upper right-hand corner, click on the ____three-dot icon____ to see a list of options. There, click on ____Settings____.
 
-![Screenshot: Firefox browser with Privacy Guides Homepage](../assets/images/clearing-browsing-data/firefox2.png)
+![Screenshot: Firefox browser with Privacy Guides Homepage](../assets/images/clearing-your-browsing-data/firefox1.png)
 
 On the left, navigate to ____Privacy and Security____. You should see the following screen.
 
-![Screenshot: Firefox Settings](../assets/images/clearing-browsing-data/firefox1.png)
+![Screenshot: Firefox Settings](../assets/images/clearing-your-browsing-data/firefox2.png)
 
 Scroll down to ____Cookies and Site Data____.
 
-![Screenshot: Firefox Settings](../assets/images/clearing-browsing-data/firefoxcookies.png)
+![Screenshot: Firefox Settings](../assets/images/clearing-your-browsing-data/firefox3.png)
 
 You have the option of either clearing your browsing data within a time range or in selected websites. Note that the latter deletes the website's cookies and cache, not history.
 
-![Screenshot: Firefox Settings prompt displaying browser data](../assets/images/clearing-browsing-data/firefoxdata2.png)
+![Screenshot: Firefox Settings prompt displaying browser data](../assets/images/clearing-your-browsing-data/firefox4.png)
 
 Click on ____Clear data____ if you prefer the former. Like Google Chrome, you can chose what types of data to delete and its time range. After making your selection, click ____Clear____ to finalize the process.
 
