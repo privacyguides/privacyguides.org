@@ -74,11 +74,11 @@ Unlike Chrome and Firefox, Safari separates history settings from its privacy se
 
 After opening Safari, move your cursor to the upper left-hand corner. Click ____History____ once the title bar appears.
 
-![Screenshot: Safari with Privacy Guides Homepage](../assets/images/clearing-browsing-data/safari2.png)
+![Screenshot: Safari with Privacy Guides Homepage](../assets/images/clearing-your-browsing-data/history1.png)
 
 If you want to clear browsing history in a specified time range, select ____Clear History____ at the bottom and follow the prompt. Otherwise, click ____Show All History____.
 
-![Screenshot: History Panel in Safari](../assets/images/clearing-browsing-data/history.png)
+![Screenshot: History Panel in Safari](../assets/images/clearing-your-browsing-data/history2.png)
 
 In this menu, you can choose websites to delete from your history. Use the search bar to find the exact name of the website. You can also navigate to a specific data and time.
 
