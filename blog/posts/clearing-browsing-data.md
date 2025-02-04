@@ -42,13 +42,11 @@ On the left, navigate to ____Privacy and Security____. You should see the follow
 
 ![Screenshot: Google Chrome Privacy and Security Settings](../assets/images/clearing-your-browsing-data/chrome3.png)
 
-Click ____Delete browsing data.____ Here, you can check whether to clear your ____browsing history____, ____cookies____, and **__cached images & file__**s. Chrome also allows you select the ____time range____ of the data marked for deletion.
+Click ____Delete browsing data.____ Here, you can check whether to clear your ____browsing history____, ____cookies____, and __cached images & files__. Chrome also allows you select the ____time range____ of the data marked for deletion.
 
 ![Screenshot: Google Chrome browser data options](../assets/images/clearing-your-browsing-data/chrome4.png)
 
 After making any necessary changes, click ____Delete data____.
-
-![Screenshot: Google Chrome browser data options](../assets/images/clearing-your-browsing-data/chrome5.png)
 
 ## Clearing Browsing Data on Firefox
 
