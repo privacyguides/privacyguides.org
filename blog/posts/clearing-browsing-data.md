@@ -64,7 +64,7 @@ Scroll down to ____Cookies and Site Data____.
 
 You have the option of either clearing your browsing data within a time range or in selected websites. Note that the latter deletes the website's cookies and cache, not history.
 
-![Screenshot: Firefox Settings prompt displaying browser data](../assets/images/clearing-your-browsing-data/firefox4.png)
+![Screenshot: Firefox Settings prompt displaying browser data](../assets/images/clearing-your-browsing-data/firefox5.png)
 
 Click on ____Clear data____ if you prefer the former. Like Google Chrome, you can chose what types of data to delete and its time range. After making your selection, click ____Clear____ to finalize the process.
 
