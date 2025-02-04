@@ -14,7 +14,7 @@ schema_type: BackgroundNewsArticle
 ---
 # How to Clear Your Browsing Data on Chrome, Firefox, and Safari
 
-![Article cover photo showing baked cookies](../assets/images/clearing-browsing-data/dimmis-vart-JPu345g_OYM-unsplash.jpg)
+![Article cover photo showing baked cookies](../assets/images/clearing-your-browsing-data/dimmis-vart-JPu345g_OYM-unsplash.jpg)
 
 <small aria-hidden="true">Photo: Dimmis Vart / Unsplash</small>
 
