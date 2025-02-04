@@ -19,6 +19,10 @@ authors:
     mastodon:
       username: Em0nM4stodon
       instance: infosec.exchange
+  kevin:
+    name: Kevin Pham
+    description: Community and News Intern
+    avatar: https://github.com/kpham42.png
   freddy:
     name: Freddy
     description: Team Member
