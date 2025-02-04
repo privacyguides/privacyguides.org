@@ -100,7 +100,7 @@ Another menu will appear with a list of websites and their corresponding browsin
 
 ## Clearing Browsing Data on Brave Browser
 
-To start, ____launch____ Brave. On the upper right-hand corner, click on the ____three-bars icon____ to see a list of options. Then, click on ____Settings____
+As a Chromium-based browser, Brave is quite similar to Chrome. To start, ____launch____ Brave. On the upper right-hand corner, click on the ____three-bars icon____ to see a list of options. Then, click on ____Settings____
 
 ![Screenshot: Brave Home Page](../assets/images/clearing-your-browsing-data/brave2.png)
 
@@ -108,7 +108,7 @@ You should see the following menu.
 
 ![Screenshot: Brave Settings](../assets/images/clearing-your-browsing-data/brave3.png)
 
-On the left, navigate to ____Privacy and Security____. You should see the following screen.
+On the left, select ____Privacy and Security____. You should see the following screen.
 
 ![Screenshot: Brave Privacy and Security Settings](../assets/images/clearing-your-browsing-data/brave4.png)
 
@@ -123,3 +123,19 @@ Under ____Advanced____, Brave also allows you select the ____time range____ of t
 After making any necessary changes, click ____Delete data____.
 
 ## Clearing Browsing Data on Microsoft Edge
+
+Finally, we will finish this tutorial with Microsoft Edge. Start by launching the browser. On the upper right-hand corner, click on the ____three-dots icon____. Next, click  ____Settings____.
+
+![Screenshot: Edge Home Page](../assets/images/clearing-your-browsing-data/edge2.png)
+
+In the settings page, navigate to ____Privacy, Search, and Services____
+
+![Screenshot: Edge Settings](../assets/images/clearing-your-browsing-data/edge3.png)
+
+Under ____Delete Browsing Data____, click on ____Choose What to Clear____.
+
+![Screenshot: Edge Settings ](../assets/images/clearing-your-browsing-data/edge4.png)
+
+Modify the time range and data to be deleted. Afterwards, click ____Clear Now____.
+
+![Screenshot: Edge data options](../assets/images/clearing-your-browsing-data/edge5.png)
