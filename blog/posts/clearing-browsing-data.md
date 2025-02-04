@@ -18,7 +18,7 @@ schema_type: BackgroundNewsArticle
 
 <small aria-hidden="true">Photo: Dimmis Vart / Unsplash</small>
 
-Your browsing data — such as cache, cookies, and browsing history — can accumulate over time, potentially damaging your privacy. Whether you trying to free up storage, limit tracking, or protect yourself from digital forensics, clearing browsing data is an important first step on your privacy journey. In this guide, we will explain how to clear your browsing data on three popular web browsers: Chrome, Firefox, and Safari.<!-- more -->
+Your browsing data — such as cache, cookies, and browsing history — can accumulate over time, potentially damaging your privacy. Whether you trying to free up storage, limit tracking, or protect yourself from digital forensics, clearing browsing data is an important first step on your privacy journey. In this guide, we will explain how to clear your browsing data on five popular web browsers: Chrome, Firefox, Safari, Brave, and Edge.<!-- more -->
 
 ## Understanding Browsing Data
 
