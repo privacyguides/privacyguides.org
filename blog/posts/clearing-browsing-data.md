@@ -82,16 +82,18 @@ If you want to clear browsing history in a specified time range, select ____Clea
 
 In this menu, you can choose websites to delete from your history. Use the search bar to find the exact name of the website. You can also navigate to a specific data and time.
 
+![Screenshot: History Panel in Safari](../assets/images/clearing-your-browsing-data/history3.png)
+
 Now, lets delete the cookies and cache data. Move your cursor to the title bar again and click ____Safari____ to see a drop down menu.
 
-![Screenshot: Safari Titlebar](../assets/images/clearing-browsing-data/safaritoolbar.png)
+![Screenshot: Safari Titlebar](../assets/images/clearing-your-browsing-data/safari.png)
 
 Then, click ____Settings____ and then navigate to ____Privacy____. You will see this screen.
 
-![Screenshot: Safari Privacy Settings](../assets/images/clearing-browsing-data/safarisettings.png)
+![Screenshot: Safari Privacy Settings](../assets/images/clearing-your-browsing-data/safariprivacy1.png)
 
 Click ____Manage Website Data...____
 
-![Screenshot: Prompt displaying website browser data](../assets/images/clearing-browsing-data/safaridata.png)
+![Screenshot: Prompt displaying website browser data](../assets/images/clearing-your-browsing-data/safariprivacy2.png)
 
 Another menu will appear with a list of websites and their corresponding browsing data types. As always, you can mark specified websites for deletion. Once you are done, click ____Remove____.
