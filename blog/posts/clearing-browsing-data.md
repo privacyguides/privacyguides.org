@@ -97,3 +97,29 @@ Click ____Manage Website Data...____
 ![Screenshot: Prompt displaying website browser data](../assets/images/clearing-your-browsing-data/safariprivacy2.png)
 
 Another menu will appear with a list of websites and their corresponding browsing data types. As always, you can mark specified websites for deletion. Once you are done, click ____Remove____.
+
+## Clearing Browsing Data on Brave Browser
+
+To start, ____launch____ Brave. On the upper right-hand corner, click on the ____three-bars icon____ to see a list of options. Then, click on ____Settings____
+
+![Screenshot: Brave Home Page](../assets/images/clearing-your-browsing-data/brave2.png)
+
+You should see the following menu.
+
+![Screenshot: Brave Settings](../assets/images/clearing-your-browsing-data/brave3.png)
+
+On the left, navigate to ____Privacy and Security____. You should see the following screen.
+
+![Screenshot: Brave Privacy and Security Settings](../assets/images/clearing-your-browsing-data/brave4.png)
+
+Click ____Delete browsing data.____ Here, you can check whether to clear your ____browsing history____, ____cookies____, and __cached images & files__.
+
+![Screenshot: Brave browser data options](../assets/images/clearing-your-browsing-data/brave5.png)
+
+Under ____Advanced____, Brave also allows you select the ____time range____ of the data marked for deletion.
+
+![Screenshot: Brave Browser data options](../assets/images/clearing-your-browsing-data/brave6.png)
+
+After making any necessary changes, click ____Delete data____.
+
+## Clearing Browsing Data on Microsoft Edge
