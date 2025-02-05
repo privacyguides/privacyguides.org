@@ -9,7 +9,7 @@ tags:
     - Browsers
     - Firefox
 license: BY-SA
-description: A beginner's guide to clearing browsing data - such as cookies, website cache, and browsing history, on Chrome, Firefox, and Safari.
+description: A beginner's guide to clearing browsing data — such as cookies, website cache, and browsing history — on Chrome, Firefox, and Safari.
 schema_type: BackgroundNewsArticle
 ---
 # How to Clear Your Browsing Data on Chrome, Firefox, and Safari
