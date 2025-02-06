@@ -84,4 +84,4 @@ Our best-case criteria represents what we would like to see from the perfect pro
 - Apps should be open source.
 - Should have route planning for public transport.
 - Should have real-time traffic information for route planning.
-- Should have advanced features (that users may expect coming from Google or Apple Maps) such as detailed shop/POI information and reviews, topographic maps, and satellite and streetview images.
+- Should support advanced features such as detailed shop/POI information and reviews, topographic maps, and satellite and streetview images.
