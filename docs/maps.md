@@ -29,12 +29,12 @@ The recommendations here either do not collect any user data or at least do not 
 
 ![Organic Maps logo](assets/img/maps/organic-maps.svg){ align=right }
 
-**Organic Maps** is an open source, community-developed map display and satnav-style navigation app for walkers, drivers, and cyclists. The app offers worldwide offline maps based on OpenStreetMap data, and navigation with privacy - no location tracking, no data collection, and no ads. The app can be used completely offline.
+**Organic Maps** is an open source, community-developed map display and satnav-style navigation app for walkers, drivers, and cyclists. The app offers worldwide offline maps based on OpenStreetMap data, and navigation with privacy — no location tracking, no data collection, and no ads. The app can be used completely offline.
 
 Features include cycling routes, hiking trails and walking paths, turn-by-turn navigation with voice guidance, and public transport route planning (only available in supported regions and cities).
 
-[:octicons-home-16: Homepage](https://organicmaps.app/){ .md-button .md-button--primary }
-[:octicons-eye-16:](hhttps://organicmaps.app/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://organicmaps.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://organicmaps.app/privacy){ .card-link title="Privacy Policy" }
 [:octicons-code-16:](https://github.com/organicmaps/organicmaps){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -57,11 +57,11 @@ Please note that Organic Maps is a simple, basic app that lacks certain features
 
 ![OsmAnd logo](assets/img/maps/osmand.svg){ align=right }
 
-**OsmAnd** is an offline map and navigation application based on OpenStreetMap, offering turn-by-turn navigation for walking, cycling, driving as well as public transport. It is open-source and does not collect any user data. Some features are paid if you download the app from the Play Store or Apple App Store, but a completely free (though unofficial) version is available on F-Droid. 
+**OsmAnd** is an offline map and navigation application based on OpenStreetMap, offering turn-by-turn navigation for walking, cycling, driving, as well as public transport. It is open-source and does not collect any user data. Some features are paid if you download the app from the Play Store or Apple App Store, but a completely free (though unofficial) version is available on F-Droid.
 
-[:octicons-home-16: Homepage](https://osmand.net/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://osmand.net/docs/legal/privacy-policy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://osmand.net/docs/intro){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://osmand.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://osmand.net/docs/legal/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://osmand.net/docs/intro){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/osmandapp){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
