@@ -4,8 +4,6 @@ title: "Maps and Navigation"
 icon: material/map 
 description: Privacy-respecting map providers and navigation apps which don't build an advertising profile based on your searches and locations.
 cover: maps.webp
-global:
- - [randomize-element, "table tbody"]
 ---
 <small>Protects against the following threat(s):</small>
 
