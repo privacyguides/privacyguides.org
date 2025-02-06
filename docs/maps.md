@@ -13,7 +13,7 @@ Use a **map and navigation app** that doesn't build an advertising profile based
 
 The recommendations here either do not collect any user data or at least do not collect personally identifying information (PII) based on each service's privacy policy. There is **no guarantee** that these privacy policies are honored.
 
-### Organic Maps
+## Organic Maps
 
 <div class="admonition recommendation" markdown>
 
