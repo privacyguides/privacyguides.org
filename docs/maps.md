@@ -41,7 +41,7 @@ Features include cycling routes, hiking trails and walking paths, turn-by-turn n
 
 Please note that Organic Maps is a simple, basic app that lacks certain features many users might expect, such as satellite images, streetview images, and real-time traffic information.
 
-### OsmAnd
+## OsmAnd
 
 <div class="admonition recommendation" markdown>
 
