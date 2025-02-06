@@ -15,12 +15,6 @@ Use a **map and navigation app** that doesn't build an advertising profile based
 
 The recommendations here either do not collect any user data or at least do not collect personally identifying information (PII) based on each service's privacy policy. There is **no guarantee** that these privacy policies are honored.
 
-| App | Map Data | Offline Maps | Data Collection | License |
-|---|---|---|---|---|
-| [Organic Maps](#organic-maps) | [OpenStreetMap](https://www.openstreetmap.org/) | :material-check:{ .pg-green } | None | Free (Apache 2.0) |
-| [OsmAnd](#osmand) | [OpenStreetMap](https://www.openstreetmap.org/) | :material-check:{ .pg-green } | None | Free (GNU GPL 3.0) |
-
-
 ### Organic Maps
 
 <div class="admonition recommendation" markdown>
