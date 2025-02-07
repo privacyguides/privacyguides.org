@@ -35,7 +35,7 @@ Google's own Privacy Policy [clearly explains](https://policies.google.com/priva
 
 > We also collect the content you create, upload, or receive from others when using our services. This includes things like email you write and receive, photos and videos you save, docs and spreadsheets you create, and comments you make on YouTube videos.
 
-Firstly, no matter what Google claims to do (or not do) with this data now, there isn't much preventing Google from using it for a different purpose later on. Secondly, there isn't much either preventing Google from doing what it pleases regardless of laws and promises and ask for forgiveness later, as demonstrated by the many [lawsuits](https://www.reuters.com/legal/google-reaches-93-million-privacy-settlement-with-california-2023-09-14/) Google has already been subjected to. [We cannot trust Google](https://arstechnica.com/tech-policy/2025/01/google-loses-in-court-faces-trial-for-collecting-data-on-users-who-opted-out/) with *any* sensitive or personal information.
+Firstly, no matter what Google claims to do (or not do) with your data now, there isn't much preventing Google from using it for a different purpose later on. Secondly, there isn't much preventing Google from doing what it pleases regardless of laws or their promises, and asking for forgiveness later, as demonstrated by the many [lawsuits](https://www.reuters.com/legal/google-reaches-93-million-privacy-settlement-with-california-2023-09-14/) Google has already been subjected to. [We cannot trust Google](https://arstechnica.com/tech-policy/2025/01/google-loses-in-court-faces-trial-for-collecting-data-on-users-who-opted-out/) with *any* sensitive or personal information.
 
 But you shouldn't trust anyone else either.
 
@@ -46,23 +46,23 @@ But you shouldn't trust anyone else either.
 
 ## Why using CryptPad instead?
 
-[CryptPad](https://cryptpad.org/) is an open-source collaborative office suite that offers everything that Google Drive offers, but in better. And most importantly, in private.
+[CryptPad](https://cryptpad.org/) is an open-source collaborative office suite that offers everything that Google Drive offers, but better. And most importantly, in private.
 
 It was built from the ground up respecting the principles of [Privacy by Design](https://en.wikipedia.org/wiki/Privacy_by_design). All content kept in CryptPad is secured using solid end-to-end encryption, meaning that only the intended recipients can access the content. CryptPad itself cannot read, scan, or utilize your content in any way.
 
 CryptPad is developed by a team from the French software company [XWiki](https://www.xwiki.com). Because [CryptPad is open-source](https://github.com/cryptpad), anyone can add contributions to it, inspect its code, or submit feature recommendations.
 
-There are many reasons that makes CryptPad a great tool and a perfect replacement to Google Drive. Let's dig into its pros and cons, why you should use it, why you can trust it, and how you can keep it secure.
+There are many reasons that CryptPad is a great tool and a perfect replacement to Google Drive. Let's dig into its pros and cons, why you should use it, why you can trust it, and how you can keep it secure.
 
 ## What makes CryptPad trustworthy
 
-Why trust CryptPad more than Google? First of all, because its code is open, what CryptPad promises can be verified. Making source code open doesn't magically make it secure, but CryptPad is a project that had many eyes on in GitHub, has been around for over 10 years, and is actively maintained by a team experienced with open-source software. These are all elements that help building trust.
+Why trust CryptPad more than Google? First, because its code is open, what CryptPad promises can be verified. Making source code open doesn't magically make it secure, but CryptPad is a project that had many eyes on in GitHub, has been around for over 10 years, and is actively maintained by a team experienced with open-source software. These are all elements that help building trust.
 
-Secondly, all content in CryptPad is end-to-end encrypted [using strong algorithms](#privacy-encryption). When well implemented, this means the content of your files cannot be accessed by CryptPad itself. This greatly lessen the level of trust required because you do not have to trust the organization with your content, since it can't access it. If there was a data breach, and your encrypted content was stolen, your content would still be protected as long as you've used a unique, complex, and long password and protected it well.
+Second, all content in CryptPad is end-to-end encrypted [using strong algorithms](#privacy-and-encryption). When well implemented, this means the content of your files cannot be accessed by CryptPad itself. This greatly lowers the level of trust required: you do not have to trust the organization with your content, since it can't open it in the first place. If there was a data breach, and your encrypted content was stolen, your content would still be protected as long as you've used a unique, complex, and long password and protected it well.
 
-Additionally, CryptPad's flagship instance is hosted in France. This isn't magical either but because European Union countries are all subjected to the GDPR, most have adopted stronger data privacy practices by default. This also helps building trust.
+Additionally, CryptPad's flagship instance is hosted in France. This isn't magical either, but because European Union countries are all subjected to the GDPR most have adopted stronger data privacy practices by default. This also helps building trust.
 
-Finally, if you do not trust CryptPad at all, the good news is you don't have to. You can [copy the code for yourself](https://github.com/cryptpad/cryptpad) and create your own CryptPad instance only controlled by you.
+Finally, if you do not trust CryptPad at all, the good news is you don't have to. You can [download the code for yourself](https://github.com/cryptpad/cryptpad) and create your own CryptPad instance only controlled by you.
 
 ## Starting with CryptPad
 
@@ -277,7 +277,7 @@ And finally, this isn't a document type per se, but you might be happy to hear C
 
 ![Screenshot from the CryptPad calendar application.](../assets/images/cryptpad-review/cryptpad-calendar.webp)
 
-## Privacy & Encryption
+## Privacy and Encryption
 
 Everything in CryptPad is designed to minimize data collection. It's also designed to minimize the data visible to the instance's operators as much as feasible. This is great for privacy and significantly improves data security. If the data isn't accessible to even the instance's operators, then it also isn't accessible to thieves or abusive authorities.
 
