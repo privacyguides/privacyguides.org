@@ -75,7 +75,7 @@ Compared to Organic Maps, OsmAnd has more [features](https://wiki.openstreetmap.
 - Must not collect PII per their privacy policy.
 - Must not require users to create an account with them.
 - Must not require users to share location data. If the user opts in to sharing their location, this data must be anonymized.
-- Maps can be downloaded and the app used entirely offline.
+- Must retain core functionality when offline and allow users to download maps for offline use.
 
 ### Best-Case
 
