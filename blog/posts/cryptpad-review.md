@@ -117,23 +117,23 @@ On the same "Settings" page, depending on your [threat model](https://www.privac
 
 Again on this same page, CryptPad offers a quick option to "Destroy all owned documents" at once. This can be a lifesaver feature for people with higher threat models. Take good note of where this feature is in the menu.
 
-You can also delete files individually. For this, once you have created a document, you can click on the "Access" button on the top menu and you will see an option to "Destroy this document or folder permanently". After you've clicked on "Destroy" once, you will see the button changing to "Are you sure?" and you'll have to click it again to confirm. This is a well designed safeguard because this action is irrevocable. Test it with an empty document just to see how it works first.
+You can also delete files individually. To do this, once you have created a document you can click on the "Access" button on the top menu, and you will see an option to "Destroy this document or folder permanently". After you've clicked on "Destroy" once, you will see the button change to "Are you sure?" and you'll have to click it again to confirm. This is a well-designed safeguard because this action is irrevocable. Test it with an empty document just to see how it works first.
 
-![Screenshot from a CryptPad document page showing the destroy document option.](../assets/images/cryptpad-review/cryptpad-deletingfiles.webp)
+![Screenshot from a CryptPad document page showing the "destroy document" option.](../assets/images/cryptpad-review/cryptpad-deletingfiles.webp)
 
 ### Backing up data
 
-There are several options to backup and export your data. From a document page, you can click on the "File" button on the upper-left, then select "Export". To backup all your documents at once, you can click on your username on the upper-right, then select "Settings" > "CryptDrive" > "Backup". This will create a zip file containing all your documents in cleartext (unencrypted). Be careful where you store this file if it contains sensitive information.
+There are several options to back up and export your data. From a document page, you can click on the "File" button on the upper-left, then select "Export". To back up all your documents at once, you can click on your username on the upper-right, then select "Settings" > "CryptDrive" > "Backup". This will create a zip file containing all your documents in plain text (unencrypted). Be careful where you store this file if it contains sensitive information.
 
 ### Additional settings
 
-Other settings you should pay attention to is your Display name. You can change it in the "Account" section. This will be shown to your CryptPad's contacts if you add any.
+Another setting you should pay attention to is your Display name. You can change it in the "Account" section. This will be shown to your contacts in CryptPad if you add any.
 
-Additionally, you can change the theme for either Light or Dark in "Appearance", you can change the color associated with your account and file modifications in "Cursor", you can adjust the code editor indentation spaces in "Code", and you can make many other adjustments following your preferences.
+Additionally, you can change the theme to either Light or Dark in "Appearance", you can change the color associated with your account and file modifications in "Cursor", you can adjust the code editor indentation spaces in "Code", and you can make many other adjustments following your preferences.
 
 ## CryptPad's instances & hosting
 
-CryptPad offers a flagship instance that makes it easy to start using it quickly. Depending on your preference and circumstances, you might choose a different instance or even choose to host an instance yourself.
+CryptPad offers a flagship instance at [CryptPad.fr](https://cryptpad.fr/) that makes it easy to start using it quickly. Depending on your preference and circumstances, you might choose a different instance or even choose to host an instance yourself.
 
 ### Different instances
 
