@@ -29,7 +29,9 @@ review:
     - Can be slow.
     - No local offline application.
 ---
-![CryptPad logo](../assets/img/document-collaboration/cryptpad.svg){ align=right itemprop="image" }
+![Article cover photo showing a phone icon over a protest](../assets/images/cryptpad-review/cryptpad-cover.webp)
+
+<small aria-hidden="true">Illustration: Jordan Warne / Privacy Guides | Photo: Christin Hume / Unsplash</small>
 
 If you have been thinking about migrating to a privacy-focused replacement to Google Docs, **now is the time**. Google products, as convenient and popular as they might be, are *atrocious* for data privacy (not to mention [ethics](https://www.theverge.com/google/607012/google-dei-hiring-goals-internal-memo)).<!-- more -->
 
@@ -43,14 +45,16 @@ But you shouldn't trust anyone else either.
 
 **The real solution to this is end-to-end encryption.** This is what CryptPad offers.
 
-[:octicons-home-16: Website](https://cryptpad.org/){ .md-button }
-[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="Privacy Policy" }
+## Why use CryptPad instead?
 
-## Why using CryptPad instead?
+![CryptPad logo](../assets/img/document-collaboration/cryptpad.svg){ align=right itemprop="image" }
 
 [CryptPad](https://cryptpad.org/) is an open-source collaborative office suite that offers everything that Google Docs offers, but better. And most importantly, in private.
 
 It was built from the ground up respecting the principles of [Privacy by Design](https://en.wikipedia.org/wiki/Privacy_by_design). All content kept in CryptPad is secured using solid end-to-end encryption, meaning that only the intended recipients can access the content. CryptPad itself cannot read, scan, or utilize your content in any way.
+
+[:octicons-home-16: Website](https://cryptpad.org/){ .md-button }
+[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="Privacy Policy" }
 
 CryptPad is developed by a team from the French software company [XWiki](https://www.xwiki.com). Because [CryptPad is open-source](https://github.com/cryptpad), anyone can add contributions to it, inspect its code, or submit feature recommendations.
 
