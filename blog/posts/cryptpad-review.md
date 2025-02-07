@@ -56,11 +56,11 @@ There are many reasons that CryptPad is a great tool and a perfect replacement t
 
 ## What makes CryptPad trustworthy
 
-Why trust CryptPad more than Google? First, because its code is open, what CryptPad promises can be verified. Making source code open doesn't magically make it secure, but CryptPad is a project that had many eyes on in GitHub, has been around for over 10 years, and is actively maintained by a team experienced with open-source software. These are all elements that help building trust.
+Why trust CryptPad more than Google? First, the end-to-end encryption that CryptPad utilizes uses strong and modern algorithms](#privacy-and-encryption). When encryption like this is well implemented, it means the content of your data can never be accessed by CryptPad themselves. In contrast, services like Google hold the decryption keys to your data at all times, placing it at risk of being misused or compromised in a data breach. With CryptPad, if their servers experienced a data breach and your encrypted content was stolen, your content would still be protected as long as you've used a unique, complex, and long password and protected it well.
 
-Second, all content in CryptPad is end-to-end encrypted [using strong algorithms](#privacy-and-encryption). When well implemented, this means the content of your files cannot be accessed by CryptPad itself. This greatly lowers the level of trust required: you do not have to trust the organization with your content, since it can't open it in the first place. If there was a data breach, and your encrypted content was stolen, your content would still be protected as long as you've used a unique, complex, and long password and protected it well.
+Second, because its code is open, what CryptPad promises can be verified. Making source code open doesn't magically make it secure, but CryptPad is a project that had many eyes on in GitHub, has been around for over 10 years, and is actively maintained by a team experienced with open-source software.
 
-Additionally, CryptPad's flagship instance is hosted in France. This isn't magical either, but because European Union countries are all subjected to the GDPR most have adopted stronger data privacy practices by default. This also helps building trust.
+Additionally, CryptPad's flagship instance is hosted in France. This isn't magical either, but because European Union countries are all subjected to the GDPR most have adopted stronger data privacy practices by default. While these other factors are not technical guarantees, they all serve to increase the level of trust we feel comfortable giving CryptPad.
 
 Finally, if you do not trust CryptPad at all, the good news is you don't have to. You can [download the code for yourself](https://github.com/cryptpad/cryptpad) and create your own CryptPad instance only controlled by you.
 
