@@ -1,29 +1,30 @@
 ---
+title: "CryptPad Review: Replacing Google Docs"
+template: review-article.html
+schema_type: ReviewNewsArticle
 date:
-    created: 2025-02-06
+    created: 2025-02-07T19:00:00
 categories:
     - Reviews
 authors:
     - em
 description: "If you have been looking for a privacy-respectful replacement to Google Docs, now is the time to switch to the end-to-end encrypted office suite CryptPad."
-schema_type: ReviewNewsArticle
+review:
+  type: WebApplication
+  category: BusinessApplication
+  subcategory: Office Suite
+  name: CryptPad
+  price: 0
+  website: https://cryptpad.org/
+  rating: 4.5
 ---
-
-
-# CryptPad Review: Replacing Google Docs
-
 ![CryptPad logo](../assets/images/cryptpad-review/cryptpad-logo.svg){ align=right itemprop="image" }
 
 If you have been thinking about migrating to a privacy-focused replacement to Google Docs, **now is the time**. Google products, as convenient and popular as they might be, are *atrocious* for data privacy (not to mention [ethics](https://www.theverge.com/google/607012/google-dei-hiring-goals-internal-memo)).<!-- more -->
 
 Google's own Privacy Policy [clearly explains](https://policies.google.com/privacy#infocollect):
 
-<div class="admonition quote" markdown>
-<p class="admonition-title"></p>
-
-We also collect the content you create, upload, or receive from others when using our services. This includes things like email you write and receive, photos and videos you save, docs and spreadsheets you create, and comments you make on YouTube videos.
-
-</div>
+> We also collect the content you create, upload, or receive from others when using our services. This includes things like email you write and receive, photos and videos you save, docs and spreadsheets you create, and comments you make on YouTube videos.
 
 Firstly, no matter what Google claims to do (or not do) with this data now, there isn't much preventing Google from using it for a different purpose later on. Secondly, there isn't much either preventing Google from doing what it pleases regardless of laws and promises and ask for forgiveness later, as demonstrated by the many [lawsuits](https://www.reuters.com/legal/google-reaches-93-million-privacy-settlement-with-california-2023-09-14/) Google has already been subjected to. [We cannot trust Google](https://arstechnica.com/tech-policy/2025/01/google-loses-in-court-faces-trial-for-collecting-data-on-users-who-opted-out/) with *any* sensitive or personal information.
 
@@ -32,7 +33,6 @@ But you shouldn't trust anyone else either.
 **The real solution to this is end-to-end encryption.** This is what CryptPad offers.
 
 [:octicons-home-16: Website](https://cryptpad.org/){ .md-button }
-[:octicons-home-16: Application](https://cryptpad.fr){ .md-button }
 [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="Privacy Policy" }
 
 ## Why using CryptPad instead?

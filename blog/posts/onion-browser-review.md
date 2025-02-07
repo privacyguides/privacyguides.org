@@ -1,6 +1,8 @@
 ---
 title: "Onion Browser Review: Tor on iOS"
 description: "Onion Browser is our recommended way of connecting to Tor on iOS, but it does have a number of drawbacks compared to the traditional Tor Browser on other platforms you should be aware of."
+template: review-article.html
+schema_type: ReviewNewsArticle
 date:
     created: 2024-09-18
 categories:
