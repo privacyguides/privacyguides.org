@@ -14,7 +14,7 @@ schema_type: ReviewNewsArticle
 
 ![CryptPad logo](../assets/images/cryptpad-review/cryptpad-logo.svg){ align=right itemprop="image" }
 
-If you have been thinking about migrating to a privacy-focused replacement to Google Docs, **now is the time**. Google products, as convenient and popular as they might be, are *atrocious* for data privacy (not to mention [ethics](https://www.theverge.com/google/607012/google-dei-hiring-goals-internal-memo)).<!-- more --> 
+If you have been thinking about migrating to a privacy-focused replacement to Google Docs, **now is the time**. Google products, as convenient and popular as they might be, are *atrocious* for data privacy (not to mention [ethics](https://www.theverge.com/google/607012/google-dei-hiring-goals-internal-memo)).<!-- more -->
 
 Google's own Privacy Policy [clearly explains](https://policies.google.com/privacy#infocollect):
 
@@ -25,9 +25,9 @@ We also collect the content you create, upload, or receive from others when usin
 
 </div>
 
-Firstly, no matter what Google claims to do (or not do) with this data now, there isn't much preventing Google from using it for a different purpose later on. Secondly, there isn't much either preventing Google from doing what it pleases regardless of laws and promises and ask for forgiveness later, as demonstrated by the many [lawsuits](https://www.reuters.com/legal/google-reaches-93-million-privacy-settlement-with-california-2023-09-14/) Google has already been subjected to. [We cannot trust Google](https://arstechnica.com/tech-policy/2025/01/google-loses-in-court-faces-trial-for-collecting-data-on-users-who-opted-out/) with *any* sensitive or personal information. 
+Firstly, no matter what Google claims to do (or not do) with this data now, there isn't much preventing Google from using it for a different purpose later on. Secondly, there isn't much either preventing Google from doing what it pleases regardless of laws and promises and ask for forgiveness later, as demonstrated by the many [lawsuits](https://www.reuters.com/legal/google-reaches-93-million-privacy-settlement-with-california-2023-09-14/) Google has already been subjected to. [We cannot trust Google](https://arstechnica.com/tech-policy/2025/01/google-loses-in-court-faces-trial-for-collecting-data-on-users-who-opted-out/) with *any* sensitive or personal information.
 
-But you shouldn't trust anyone else either. 
+But you shouldn't trust anyone else either.
 
 **The real solution to this is end-to-end encryption.** This is what CryptPad offers.
 
@@ -37,7 +37,7 @@ But you shouldn't trust anyone else either.
 
 ## Why using CryptPad instead?
 
-[CryptPad](https://cryptpad.org/) is an open-source collaborative office suite that offers everything that Google Docs offers, but in better. And most importantly, in private. 
+[CryptPad](https://cryptpad.org/) is an open-source collaborative office suite that offers everything that Google Docs offers, but in better. And most importantly, in private.
 
 It was built from the ground up respecting the principles of [Privacy by Design](https://en.wikipedia.org/wiki/Privacy_by_design). All content kept in CryptPad is secured using solid end-to-end encryption, meaning that only the intended recipients can access the content. CryptPad itself cannot read, scan, or utilize your content in any way.
 
@@ -61,9 +61,9 @@ Using CryptPad is very easy. CryptPad can be self-hosted if you prefer, but if t
 
 ### Without an account
 
-To start using CryptPad you don't even need to create an account at all! 
+To start using CryptPad you don't even need to create an account at all!
 
-You can go to [https://cryptpad.fr/](https://cryptpad.fr/) and just click on a type of "New document" to start right away. Your username will be "Guest" and you will automatically be attributed a cute emoji for your Guest profile. 
+You can go to [https://cryptpad.fr/](https://cryptpad.fr/) and just click on a type of "New document" to start right away. Your username will be "Guest" and you will automatically be attributed a cute emoji for your Guest profile.
 
 You can create a new document, modify it, copy the URL link, then close the web page. To return to it, simply paste the same URL in a browser. To share this document, simply share the URL with someone else.
 
@@ -83,7 +83,7 @@ If your threat model is very high and you do not want to leave any traces that y
 
 </div>
 
-### Creating an account 
+### Creating an account
 
 You will see that *Privacy by Design* starts at account creation level with CryptPad. You do not even have to provide an email address to start. All that you need to create an account is to come up with a cool username and a [secure and unique password](https://www.privacyguides.org/en/basics/passwords-overview/) (like all passwords should be).
 
@@ -114,11 +114,11 @@ You can also delete files individually. For this, once you have created a docume
 
 ### Backing up data
 
-There are several options to backup and export your data. From a document page, you can click on the "File" button on the upper-left, then select "Export". To backup all your documents at once, you can click on your username on the upper-right, then select "Settings" > "CryptDrive" > "Backup". This will create a zip file containing all your documents in cleartext (unencrypted). Be careful where you store this file if it contains sensitive information. 
+There are several options to backup and export your data. From a document page, you can click on the "File" button on the upper-left, then select "Export". To backup all your documents at once, you can click on your username on the upper-right, then select "Settings" > "CryptDrive" > "Backup". This will create a zip file containing all your documents in cleartext (unencrypted). Be careful where you store this file if it contains sensitive information.
 
 ### Additional settings
 
-Other settings you should pay attention to is your Display name. You can change it in the "Account" section. This will be shown to your CryptPad's contacts if you add any. 
+Other settings you should pay attention to is your Display name. You can change it in the "Account" section. This will be shown to your CryptPad's contacts if you add any.
 
 Additionally, you can change the theme for either Light or Dark in "Appearance", you can change the color associated with your account and file modifications in "Cursor", you can adjust the code editor indentation spaces in "Code", and you can make many other adjustments following your preferences.
 
@@ -147,9 +147,9 @@ The user experience will likely feel pretty familiar to people who are already u
 
 ### User interface
 
-For document creation, CryptPad's user interface is rather straightforward. However, there are a few details in the interface that might be confusing at first. For example, clicking on your username (or Display name) on the upper-right will show an important dropdown menu, so you should remember to look there as it is not always obvious. This is the menu where you will find options for your "Profile", "Calendar", "Contacts", "Settings", "Log out", and more. 
+For document creation, CryptPad's user interface is rather straightforward. However, there are a few details in the interface that might be confusing at first. For example, clicking on your username (or Display name) on the upper-right will show an important dropdown menu, so you should remember to look there as it is not always obvious. This is the menu where you will find options for your "Profile", "Calendar", "Contacts", "Settings", "Log out", and more.
 
-Once inside a document, click on the "File" button on the upper-left to see the file's "History", "Export", or "Print" features, and more. 
+Once inside a document, click on the "File" button on the upper-left to see the file's "History", "Export", or "Print" features, and more.
 
 To destroy a document, you will need to click on the "Access" button at the top of a document page.
 
@@ -173,13 +173,13 @@ Because sharing the link to a document without a password makes it accessible to
 
 ### Access control
 
-For every document you can adjust accesses by clicking on the "Access" button at the top. There, you can change the document's password, delete the document, see the list of accesses and ownership. 
+For every document you can adjust accesses by clicking on the "Access" button at the top. There, you can change the document's password, delete the document, see the list of accesses and ownership.
 
 When you share a document by clicking on the "Share" button at the top, you can select different types of access rights, such as "View", "Edit", and "View once and self-destruct". The latter can be a particularly useful feature for people in high threat situations.
 
 ## Applications Available
 
-CryptPad offers a wide variety of applications, or document types, making CryptPad a complete office suite. To create a new file from your *CryptDrive* page, click on the large "+ New" button. You will see a popup menu where you can select: "Folder", "Shared folder", Upload files", "Upload folder", "New Link", "Sheet", "Document", "Presentation", "Rich text", "Kanban", "Code", "Form", "Whiteboard", "Markdown slides", and "Diagram". 
+CryptPad offers a wide variety of applications, or document types, making CryptPad a complete office suite. To create a new file from your *CryptDrive* page, click on the large "+ New" button. You will see a popup menu where you can select: "Folder", "Shared folder", Upload files", "Upload folder", "New Link", "Sheet", "Document", "Presentation", "Rich text", "Kanban", "Code", "Form", "Whiteboard", "Markdown slides", and "Diagram".
 
 That's a lot of choice!
 
@@ -188,7 +188,7 @@ That's a lot of choice!
 <div class="admonition success" markdown>
 <p class="admonition-title">New from this week!</p>
 
-==*Document* and *Presentation* applications have just been unlocked to all users on cryptpad.fr this week!== 
+==*Document* and *Presentation* applications have just been unlocked to all users on cryptpad.fr this week!==
 
 This is fantastic for collaborative work because the new *Document* type allows tracking changes within a document. These two new types of document are still in testing phase however, so make sure to backup your data regularly. Improvements will likely be added slowly in the coming weeks, until the final release planned for the end of March 2025.
 
@@ -234,7 +234,7 @@ A useful kanban organization tool to plan your projects:
 
 ### Code
 
-A light code editor with previewing feature. This is especially useful for HTML files: 
+A light code editor with previewing feature. This is especially useful for HTML files:
 
 ![Screenshot from a CryptPad code document.](../assets/images/cryptpad-review/cryptpad-code.webp)
 
@@ -276,7 +276,7 @@ Everything in CryptPad is designed to minimize data collection. It's also design
 
 With CryptPad, all your data is encrypted on your device before it is sent to the remote server. You never have to worry about data being readable in-transit or at-rest on the server. Only authorized users, senders and intended recipients, can access the decrypted data.
 
-To lock your account, CryptPad creates cryptographic keys derived from your username and password together. This means CryptPad servers never even see your username or password. In fact, a CryptPad server cannot even know if you are using the software with an account or not. Additionally, this makes it so that multiple people could use the same username, as long as they register with a different password. 
+To lock your account, CryptPad creates cryptographic keys derived from your username and password together. This means CryptPad servers never even see your username or password. In fact, a CryptPad server cannot even know if you are using the software with an account or not. Additionally, this makes it so that multiple people could use the same username, as long as they register with a different password.
 
 To secure documents, CryptPad uses [symmetric encryption](https://en.wikipedia.org/wiki/Symmetric-key_algorithm) with a [secret key unique to each document](https://blog.cryptpad.org/2024/03/14/Most-Secure-CryptPad-Usage/). This ensures your document is unreadable to anyone who doesn't have the corresponding key.
 
@@ -317,13 +317,13 @@ CryptPad is also [planning](https://xwiki.com/en/Blog/CryptPad-overview-2024/) o
 
 ### Keeping CryptPad secure
 
-Like any privacy-focused product, CryptPad isn't magical. While CryptPad offers some of the very best protections for your privacy, you still have to take certain measures to secure your CryptPad data properly. CryptPad cannot control this part. 
+Like any privacy-focused product, CryptPad isn't magical. While CryptPad offers some of the very best protections for your privacy, you still have to take certain measures to secure your CryptPad data properly. CryptPad cannot control this part.
 
 Here's a few things you should remember to keep your CryptPad data secure and private:
 
 **Trustworthy server:** It's important to select a CryptPad instance that is trustworthy. Keep in mind that the instance operators could have access to your IP address or could theoretically maliciously modify the CryptPad's code they use to make it insecure.
 
-**Safe device:** Your device also needs to be safe and secure. There isn't much that *any* external service can do to protect your data if your device is compromised. 
+**Safe device:** Your device also needs to be safe and secure. There isn't much that *any* external service can do to protect your data if your device is compromised.
 
 **IP address:** Don't forget that whenever you connect to a server, website, or any service online, you are sharing your IP address, which can be used to identify and locate you, more or less accurately. If this is a threat to you, consider using a trustworthy VPN or the Tor network to protect your IP address.
 
@@ -345,7 +345,7 @@ To learn more about CryptPad's recommendations on the most secure way to use Cry
 
 ## Downsides
 
-There are a few downsides in using CryptPad as your office suite. 
+There are a few downsides in using CryptPad as your office suite.
 
 First of all, due to the nature of end-to-end encryption, it is slower. Naturally, each file needing to get decrypted before each use can slow down your workflow. The CryptPad instance you have chosen to use, your internet connection's speed, and your device's speed are all factors that can contribute in making this operation slower or faster. But remember, you are trading speed for security and privacy.
 
@@ -353,13 +353,13 @@ Secondly, there is no mobile or desktop app available at this time. CryptPad onl
 
 ## Conclusion
 
-Finally, if you are looking for a replacement to Google Docs, switching to CryptPad is an obvious choice. 
+Finally, if you are looking for a replacement to Google Docs, switching to CryptPad is an obvious choice.
 
-With solid end-to-end encryption for all your document content and minimal data collection at all steps of the registration process, CryptPad is an excellent option for your data privacy *and* your data security. 
+With solid end-to-end encryption for all your document content and minimal data collection at all steps of the registration process, CryptPad is an excellent option for your data privacy *and* your data security.
 
-If data privacy is important to you, **there is no reason to keep your sensitive information in the Google ecosystem**, especially with everything that we know about it now. 
+If data privacy is important to you, **there is no reason to keep your sensitive information in the Google ecosystem**, especially with everything that we know about it now.
 
-Switching to CryptPad, you will benefit from the same type of applications (and more), still be able to share links with external parties without requiring them to create an account, and store information remotely in a secure way. 
+Switching to CryptPad, you will benefit from the same type of applications (and more), still be able to share links with external parties without requiring them to create an account, and store information remotely in a secure way.
 
 But *in addition* to Google Docs, you will benefit from strong end-to-end encryption on everything you wish to keep private, true document destruction for everything that you want gone, and a complete office suite that only you and your team can access, away from intrusive Google scans or even CryptPad's knowledge.
 
@@ -371,7 +371,7 @@ If you wish to support this free and open-source project, you can help CryptPad 
 
 Donations: [https://opencollective.com/cryptpad/contribute/](https://opencollective.com/cryptpad/contribute/)
 
-Contributions: [https://github.com/cryptpad](https://github.com/cryptpad) 
+Contributions: [https://github.com/cryptpad](https://github.com/cryptpad)
 
 Follow CryptPad Mastodon: [https://fosstodon.org/@cryptpad](https://fosstodon.org/@cryptpad)
 
