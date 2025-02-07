@@ -113,7 +113,7 @@ On the same "Settings" page, depending on your [threat model](https://www.privac
 
 ### Destroying data
 
-Again on this same page, CryptPad offers a quick option to "Destroy all owned documents" at once. This can be a lifesaver feature for people with higher threat models. Take good note of where this feature is in the menu.
+Another option that CryptPad offers on the "Settings" page is a quick way to "Destroy all owned documents" at once. This can be a lifesaver feature for people at particularly high risk. Take good note of where this feature is in the menu.
 
 You can also delete files individually. To do this, once you have created a document you can click on the "Access" button on the top menu, and you will see an option to "Destroy this document or folder permanently". After you've clicked on "Destroy" once, you will see the button change to "Are you sure?" and you'll have to click it again to confirm. This is a well-designed safeguard because this action is irrevocable. Test it with an empty document just to see how it works first.
 
