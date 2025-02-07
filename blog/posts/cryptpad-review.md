@@ -109,7 +109,7 @@ Make sure you note your unique, long, and complex password and username in a saf
 
 Once you've created an account, the first thing you should do is secure it with a [second factor of authentication](https://www.privacyguides.org/en/basics/multi-factor-authentication/). To do this, click on your username on the upper-right, then select "Settings" > "Security & Privacy" and follow the instructions for "Two-Factor Authentication".
 
-On the same "Settings" page, depending on your [threat model](https://www.privacyguides.org/en/basics/threat-modeling/), you might also want to enable "Safe Links", disable "Feedback" (disabled by default), and disable "Cache". The cache option can be very convenient if the device you use isn't at risk, however.
+On the same "Settings" page, depending on your [threat model](https://www.privacyguides.org/en/basics/threat-modeling/), you might also want to enable "Safe Links", disable "Feedback" (disabled by default), and disable "Cache". Disabling the cache can hinder performance though, so if your local device isn't at risk it may be unnecessary.
 
 ### Destroying data
 
