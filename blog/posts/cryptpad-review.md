@@ -382,10 +382,7 @@ If you need a remote collaborative office suite that is secure and respects your
 
 If you wish to support this free and open-source project, you can help CryptPad by:
 
-- [Donating on Open Collective](https://opencollective.com/cryptpad/contribute/)
-
--[Contributing on GitHub](https://github.com/cryptpad)
-
 - [Following CryptPad on Mastodon](https://fosstodon.org/@cryptpad)
-
+- [Donating on Open Collective](https://opencollective.com/cryptpad/contribute/)
+- [Contributing on GitHub](https://github.com/cryptpad)
 - [Watching CryptPad's videos on PeerTube](https://peertube.xwiki.com/c/cryptpad_channel/videos)
