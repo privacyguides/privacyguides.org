@@ -19,7 +19,8 @@ review:
   rating: 4.5
   pros:
     - End-to-end encryption.
-    - No personal information required to create an account (and no account required).
+    - No account required.
+    - No personal information required to create an account.
     - Cloud-hosted and self-hosted options.
     - Actively maintained and open source.
   cons:
