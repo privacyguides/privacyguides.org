@@ -148,11 +148,11 @@ Always consider your threat model when selecting an instance. Although the conte
 
 ### Self-hosting
 
-To learn how to host your own CryptPad instance, you can consult CryptPad's documentation here: [https://docs.cryptpad.org/en/admin_guide/index.html#admin-guide](https://docs.cryptpad.org/en/admin_guide/index.html#admin-guide)
+To learn how to host your own CryptPad instance, you should consult [CryptPad's documentation](https://docs.cryptpad.org/en/admin_guide/index.html#admin-guide).
 
 ## User Experience
 
-The user experience will likely feel pretty familiar to people who are already using Google Drive, Microsoft Office, OnlyOffice, or similar office suite products.
+The user experience will likely feel pretty familiar to people who are already using Google Drive, Microsoft Office, OnlyOffice, or other similar office suites.
 
 ### User interface
 
@@ -164,15 +164,15 @@ To destroy a document, you will need to click on the "Access" button at the top 
 
 ### Export and import documents
 
-You can export or import documents to CryptPad in html format, but keep in mind there might be some formatting issues with certain document types.
+You can export or import documents to CryptPad in HTML format, but keep in mind there might be some formatting issues with certain document types.
 
 ## Document Options
 
-Each time you create a new document, no matter which type, you will have the following options: to "Owned document" which means having full control over it (you need to be the owner of a document to delete it), to pick a "Destruction date" to **make the document self-destroy** after a certain number of months, days, or even hours, and to "**Add a password"**  to password-lock the document.
+Each time you create a new document, no matter which type, you will have the following options: to make it an "Owned document", which means having full control over it (you need to be the owner of a document to delete it); to pick a "Destruction date", to **make the document self-destroy** after a certain number of months, days, or even hours; and to "**Add a password"** to password-lock the document.
 
 ### Self-destruction
 
-For any sensitive document, it's a great idea to enable the auto-destruction feature, even if it's far in time. This will add an additional layer of security in case you lose your password, forget about an important file that shouldn't be lingering around, or for any other sensitive situations.
+For any sensitive document, it's a great idea to enable the auto-destruction feature, even if it's far in the future. This adds an additional layer of security in case you lose your password, forget about an important file that shouldn't be lingering around, or for any other sensitive situations.
 
 ### Password lock
 
@@ -182,9 +182,9 @@ Because sharing the link to a document without a password makes it accessible to
 
 ### Access control
 
-For every document you can adjust accesses by clicking on the "Access" button at the top. There, you can change the document's password, delete the document, see the list of accesses and ownership.
+For any document you can control how it is accessed by clicking on the "Access" button at the top. There, you can change the document's password, delete the document, see the list of accesses and ownership.
 
-When you share a document by clicking on the "Share" button at the top, you can select different types of access rights, such as "View", "Edit", and "View once and self-destruct". The latter can be a particularly useful feature for people in high threat situations.
+When you share a document by clicking on the "Share" button at the top, you can select different types of access rights, such as "View", "Edit", and "View once and self-destruct". The latter can be a particularly useful feature for people in highly sensitive situations.
 
 ## Applications Available
 
@@ -197,9 +197,9 @@ That's a lot of choice!
 <div class="admonition success" markdown>
 <p class="admonition-title">New from this week!</p>
 
-==*Document* and *Presentation* applications have just been unlocked to all users on cryptpad.fr this week!==
+==*Document* and *Presentation* applications have just been unlocked to all users on CryptPad.fr this week!==
 
-This is fantastic for collaborative work because the new *Document* type allows tracking changes within a document. These two new types of document are still in testing phase however, so make sure to backup your data regularly. Improvements will likely be added slowly in the coming weeks, until the final release planned for the end of March 2025.
+This is fantastic for collaborative work because the new *Document* type allows tracking changes within a document. These two new types of document are still in testing phase however, so make sure to back up your data regularly. Improvements will likely be added slowly in the coming weeks, until the final release planned for the end of March 2025.
 
 </div>
 
@@ -217,7 +217,7 @@ The classic text document with advanced formatting features:
 
 ![Screenshot from a CryptPad doc-type document.](../assets/images/cryptpad-review/cryptpad-document.webp)
 
-**Tracking changes**
+#### Tracking changes
 
 If you want to enable change tracking in this application, click on the "Collaboration" tab, then click on the "Track Changes" button, and select your preferred tracking option:
 
@@ -281,11 +281,11 @@ And finally, this isn't a document type per se, but you might be happy to hear C
 
 Everything in CryptPad is designed to minimize data collection. It's also designed to minimize the data visible to the instance's operators as much as feasible. This is great for privacy and significantly improves data security. If the data isn't accessible to even the instance's operators, then it also isn't accessible to thieves or abusive authorities.
 
-### What encryption does CryptPad use
+### What encryption does CryptPad use?
 
 With CryptPad, all your data is encrypted on your device before it is sent to the remote server. You never have to worry about data being readable in-transit or at-rest on the server. Only authorized users, senders and intended recipients, can access the decrypted data.
 
-To lock your account, CryptPad creates cryptographic keys derived from your username and password together. This means CryptPad servers never even see your username or password. In fact, a CryptPad server cannot even know if you are using the software with an account or not. Additionally, this makes it so that multiple people could use the same username, as long as they register with a different password.
+To lock your account, CryptPad creates cryptographic keys derived from your username and password together. This means CryptPad servers never even see your username or password. In fact, a normal CryptPad server cannot even know if you are using the software with an account or not. Additionally, this makes it so that multiple people could use the same username, as long as they register with a different password.
 
 To secure documents, CryptPad uses [symmetric encryption](https://en.wikipedia.org/wiki/Symmetric-key_algorithm) with a [secret key unique to each document](https://blog.cryptpad.org/2024/03/14/Most-Secure-CryptPad-Usage/). This ensures your document is unreadable to anyone who doesn't have the corresponding key.
 
@@ -308,9 +308,9 @@ CryptPad uses a variety of reputable algorithms for its encryption needs. Here's
 - For hashes: The [SHA-512](https://en.wikipedia.org/wiki/SHA-2) algorithm.
 - For all other cryptographic operations: The [TweetNaCl.js](https://tweetnacl.js.org/#/) library.
 
-You can read more details about how CryptPad implements encryption in CryptPad's white paper: [https://blog.cryptpad.org/2023/02/02/Whitepaper/](https://blog.cryptpad.org/2023/02/02/Whitepaper/)
+You can read more details about how CryptPad implements encryption in [CryptPad's whitepaper](https://blog.cryptpad.org/2023/02/02/Whitepaper/).
 
-You can read more on a comparison of cryptography libraries CryptPad uses in CryptPad's Blueprints: [https://blueprints.cryptpad.org/review/libraries/](https://blueprints.cryptpad.org/review/libraries/)
+You can read more on a comparison of cryptography libraries CryptPad uses in [CryptPad's Blueprints](https://blueprints.cryptpad.org/review/libraries/).
 
 ### Post-quantum encryption
 
@@ -322,7 +322,7 @@ Preparing now to harden encryption standards against future quantum computers po
 
 ### Perfect forward secrecy
 
-CryptPad is also [planning](https://xwiki.com/en/Blog/CryptPad-overview-2024/) on implementing [perfect forward secrecy](https://www.geeksforgeeks.org/perfect-forward-secrecy/) for its next generation. This will be a great improvement to secure communication within CryptPad because it makes each session key unique. This means that if a session key was to be compromised, this would not affect any other sessions, significantly reducing the scope and damage of an attack.
+CryptPad is also [planning](https://xwiki.com/en/Blog/CryptPad-overview-2024/) on implementing [perfect forward secrecy](https://www.geeksforgeeks.org/perfect-forward-secrecy/) for its next generation. This will be a great improvement to secure communication within CryptPad, because it makes each session key unique. This means that if a session key was to be compromised, this would not affect any other sessions, significantly reducing the scope and damage of an attack.
 
 ### Keeping CryptPad secure
 
@@ -350,15 +350,15 @@ Here's a few things you should remember to keep your CryptPad data secure and pr
 
 **Static keys:** CryptPad uses static keys to encrypt your documents. This means that once you have shared a document, and therefore its static keys, you cannot revoke this access. By default, anyone you have shared a link to your document with will retain this access indefinitely. If you wish to revoke access, you can make a copy of the document then destroy the original. This will also erase the document's history.
 
-To learn more about CryptPad's recommendations on the most secure way to use CryptPad, you can read this article here: [https://blog.cryptpad.org/2024/03/14/Most-Secure-CryptPad-Usage/](https://blog.cryptpad.org/2024/03/14/Most-Secure-CryptPad-Usage/)
+To learn more about CryptPad's recommendations on the most secure way to use CryptPad, you can read [this article](https://blog.cryptpad.org/2024/03/14/Most-Secure-CryptPad-Usage/).
 
 ## Downsides
 
 There are a few downsides in using CryptPad as your office suite.
 
-First of all, due to the nature of end-to-end encryption, it is slower. Naturally, each file needing to get decrypted before each use can slow down your workflow. The CryptPad instance you have chosen to use, your internet connection's speed, and your device's speed are all factors that can contribute in making this operation slower or faster. But remember, you are trading speed for security and privacy.
+First, due to the nature of end-to-end encryption, it is slower. Naturally, each file needing to get decrypted before each use can slow down your workflow. The CryptPad instance you have chosen to use, your internet connection's speed, and your device's speed are all factors that can contribute in making this operation slower or faster. But remember, you are trading speed for security and privacy.
 
-Secondly, there is no mobile or desktop app available at this time. CryptPad only runs in the browser (for now). Depending on your type of usage, this can be inconvenient. Additionally, this means there is no way to access your data locally unless you create a copy of it in cleartext on your device. Other end-to-end document applications such as [Standard Notes](https://standardnotes.com/) or [Anytype](https://anytype.io/) allow users to access documents offline, but they do not offer collaborative and office suite features like CryptPad does.
+Second, there is no mobile or desktop app available at this time. CryptPad only runs in the browser (for now). Depending on your type of usage, this can be inconvenient. Additionally, this means there is no way to access your data locally unless you create a copy of it in plain text on your device. Other end-to-end document applications such as [Standard Notes](https://standardnotes.com/) or [Anytype](https://anytype.io/) allow users to access documents offline, but they do not offer collaborative and office suite features like CryptPad does.
 
 ## Conclusion
 
