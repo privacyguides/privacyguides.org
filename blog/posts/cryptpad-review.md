@@ -70,9 +70,7 @@ Using CryptPad is very easy. CryptPad can be self-hosted if you prefer, but if t
 
 ### Without an account
 
-To start using CryptPad you don't even need to create an account at all!
-
-You can go to [https://cryptpad.fr/](https://cryptpad.fr/) and just click on a type of "New document" to start right away. Your username will be "Guest" and you will automatically be attributed a cute emoji for your Guest profile.
+Without an account, you can go to [https://cryptpad.fr/](https://cryptpad.fr/) and just click on a type of "New document" to start right away. Your username will be "Guest" and you will automatically be attributed a cute emoji for your Guest profile.
 
 You can create a new document, modify it, copy the URL link, then close the web page. To return to it, simply paste the same URL in a browser. To share this document, simply share the URL with someone else.
 
