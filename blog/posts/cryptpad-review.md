@@ -84,9 +84,9 @@ Anyone with the link will be able to see your file. Additionally, if this link i
 Whether you create an account or not, the only information that could identify you when using CryptPad on a trustworthy instance (server) is your IP address and your browser and device information. Depending on your threat model, to mitigate this you might want to use a trustworthy [VPN service](https://www.privacyguides.org/en/vpn/) and/or the [Tor network](https://www.privacyguides.org/en/tor/), coupled with a [browser](https://www.privacyguides.org/en/desktop-browsers/) hardened to reduce [fingerprinting](https://coveryourtracks.eff.org/).
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">For anyone with a very high threat model</p>
+<p class="admonition-title">If you are at risk of targeted attacks</p>
 
-If your threat model is very high and you do not want to leave any traces that you have visited a CryptPad instance, you might want to use [Tails](https://www.privacyguides.org/articles/2025/01/29/installing-and-using-tails/).
+If you would be at risk if your CryptPad usage was discovered later, and you do not want to leave any traces on your local computer that you have visited a CryptPad instance, you might want to use [Tails](https://www.privacyguides.org/articles/2025/01/29/installing-and-using-tails/).
 
 </div>
 
