@@ -374,12 +374,12 @@ If you need a remote collaborative office suite that is secure and respects your
 
 ## Support CryptPad
 
-If you wish to support this free and open-source project, you can help CryptPad with:
+If you wish to support this free and open-source project, you can help CryptPad by:
 
-Donations: [https://opencollective.com/cryptpad/contribute/](https://opencollective.com/cryptpad/contribute/)
+- [Donating on Open Collective](https://opencollective.com/cryptpad/contribute/)
 
-Contributions: [https://github.com/cryptpad](https://github.com/cryptpad)
+-[Contributing on GitHub](https://github.com/cryptpad)
 
-Follow CryptPad Mastodon: [https://fosstodon.org/@cryptpad](https://fosstodon.org/@cryptpad)
+- [Following CryptPad on Mastodon](https://fosstodon.org/@cryptpad)
 
-Watch CryptPad's channel on PeerTube: [https://peertube.xwiki.com/c/cryptpad_channel/videos](https://peertube.xwiki.com/c/cryptpad_channel/videos)
+- [Watching CryptPad's videos on PeerTube](https://peertube.xwiki.com/c/cryptpad_channel/videos)
