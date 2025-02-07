@@ -9,6 +9,8 @@ categories:
 authors:
     - em
 description: "If you have been looking for a privacy-respectful replacement to Google Drive, now is the time to switch to the end-to-end encrypted office suite CryptPad."
+preview:
+  logo: theme/assets/img/document-collaboration/cryptpad.svg
 review:
   type: WebApplication
   category: BusinessApplication
@@ -27,7 +29,7 @@ review:
     - Can be slow.
     - No local offline application.
 ---
-![CryptPad logo](../assets/images/cryptpad-review/cryptpad-logo.svg){ align=right itemprop="image" }
+![CryptPad logo](../assets/img/document-collaboration/cryptpad.svg){ align=right itemprop="image" }
 
 If you have been thinking about migrating to a privacy-focused replacement to Google Drive, **now is the time**. Google products, as convenient and popular as they might be, are *atrocious* for data privacy (not to mention [ethics](https://www.theverge.com/google/607012/google-dei-hiring-goals-internal-memo)).<!-- more -->
 
@@ -56,7 +58,7 @@ There are many reasons that CryptPad is a great tool and a perfect replacement t
 
 ## What makes CryptPad trustworthy
 
-Why trust CryptPad more than Google? First, the end-to-end encryption that CryptPad utilizes uses strong and modern algorithms](#privacy-and-encryption). When encryption like this is well implemented, it means the content of your data can never be accessed by CryptPad themselves. In contrast, services like Google hold the decryption keys to your data at all times, placing it at risk of being misused or compromised in a data breach. With CryptPad, if their servers experienced a data breach and your encrypted content was stolen, your content would still be protected as long as you've used a unique, complex, and long password and protected it well.
+Why trust CryptPad more than Google? First, the end-to-end encryption that CryptPad utilizes uses [strong and modern algorithms](#privacy-and-encryption). When encryption like this is well implemented, it means the content of your data can never be accessed by CryptPad themselves. In contrast, services like Google hold the decryption keys to your data at all times, placing it at risk of being misused or compromised in a data breach. With CryptPad, if their servers experienced a data breach and your encrypted content was stolen, your content would still be protected as long as you've used a unique, complex, and long password and protected it well.
 
 Second, because its code is open, what CryptPad promises can be verified. Making source code open doesn't magically make it secure, but CryptPad is a project that had many eyes on in GitHub, has been around for over 10 years, and is actively maintained by a team experienced with open-source software.
 
