@@ -1,5 +1,5 @@
 ---
-title: "CryptPad Review: Replacing Google Docs"
+title: "CryptPad Review: Replacing Google Drive"
 template: review-article.html
 schema_type: ReviewNewsArticle
 date:
@@ -8,7 +8,7 @@ categories:
     - Reviews
 authors:
     - em
-description: "If you have been looking for a privacy-respectful replacement to Google Docs, now is the time to switch to the end-to-end encrypted office suite CryptPad."
+description: "If you have been looking for a privacy-respectful replacement to Google Drive, now is the time to switch to the end-to-end encrypted office suite CryptPad."
 review:
   type: WebApplication
   category: BusinessApplication
@@ -29,7 +29,7 @@ review:
 ---
 ![CryptPad logo](../assets/images/cryptpad-review/cryptpad-logo.svg){ align=right itemprop="image" }
 
-If you have been thinking about migrating to a privacy-focused replacement to Google Docs, **now is the time**. Google products, as convenient and popular as they might be, are *atrocious* for data privacy (not to mention [ethics](https://www.theverge.com/google/607012/google-dei-hiring-goals-internal-memo)).<!-- more -->
+If you have been thinking about migrating to a privacy-focused replacement to Google Drive, **now is the time**. Google products, as convenient and popular as they might be, are *atrocious* for data privacy (not to mention [ethics](https://www.theverge.com/google/607012/google-dei-hiring-goals-internal-memo)).<!-- more -->
 
 Google's own Privacy Policy [clearly explains](https://policies.google.com/privacy#infocollect):
 
@@ -46,13 +46,13 @@ But you shouldn't trust anyone else either.
 
 ## Why using CryptPad instead?
 
-[CryptPad](https://cryptpad.org/) is an open-source collaborative office suite that offers everything that Google Docs offers, but in better. And most importantly, in private.
+[CryptPad](https://cryptpad.org/) is an open-source collaborative office suite that offers everything that Google Drive offers, but in better. And most importantly, in private.
 
 It was built from the ground up respecting the principles of [Privacy by Design](https://en.wikipedia.org/wiki/Privacy_by_design). All content kept in CryptPad is secured using solid end-to-end encryption, meaning that only the intended recipients can access the content. CryptPad itself cannot read, scan, or utilize your content in any way.
 
 CryptPad is developed by a team from the French software company [XWiki](https://www.xwiki.com). Because [CryptPad is open-source](https://github.com/cryptpad), anyone can add contributions to it, inspect its code, or submit feature recommendations.
 
-There are many reasons that makes CryptPad a great tool and a perfect replacement to Google Docs. Let's dig into its pros and cons, why you should use it, why you can trust it, and how you can keep it secure.
+There are many reasons that makes CryptPad a great tool and a perfect replacement to Google Drive. Let's dig into its pros and cons, why you should use it, why you can trust it, and how you can keep it secure.
 
 ## What makes CryptPad trustworthy
 
@@ -152,7 +152,7 @@ To learn how to host your own CryptPad instance, you can consult CryptPad's docu
 
 ## User Experience
 
-The user experience will likely feel pretty familiar to people who are already using Google Docs, Microsoft Office, OnlyOffice, or similar office suite products.
+The user experience will likely feel pretty familiar to people who are already using Google Drive, Microsoft Office, OnlyOffice, or similar office suite products.
 
 ### User interface
 
@@ -207,7 +207,7 @@ Here are screenshots of each application included in CryptPad to give you a bett
 
 ### Sheet
 
-The usual classic spreadsheet for all your calculation needs. If you are familiar with Google Docs' spreadsheet, you will likely find this one easy to use:
+The usual classic spreadsheet for all your calculation needs. If you are familiar with Google Drive's Sheets, you will likely find this one easy to use:
 
 ![Screenshot from a CryptPad spreadsheet document.](../assets/images/cryptpad-review/cryptpad-sheet.webp)
 
@@ -362,7 +362,7 @@ Secondly, there is no mobile or desktop app available at this time. CryptPad onl
 
 ## Conclusion
 
-Finally, if you are looking for a replacement to Google Docs, switching to CryptPad is an obvious choice.
+Finally, if you are looking for a replacement to Google Drive, switching to CryptPad is an obvious choice.
 
 With solid end-to-end encryption for all your document content and minimal data collection at all steps of the registration process, CryptPad is an excellent option for your data privacy *and* your data security.
 
@@ -370,7 +370,7 @@ If data privacy is important to you, **there is no reason to keep your sensitive
 
 Switching to CryptPad, you will benefit from the same type of applications (and more), still be able to share links with external parties without requiring them to create an account, and store information remotely in a secure way.
 
-But *in addition* to Google Docs, you will benefit from strong end-to-end encryption on everything you wish to keep private, true document destruction for everything that you want gone, and a complete office suite that only you and your team can access, away from intrusive Google scans or even CryptPad's knowledge.
+But *in addition* to Google Drive, you will benefit from strong end-to-end encryption on everything you wish to keep private, true document destruction for everything that you want gone, and a complete office suite that only you and your team can access, away from intrusive Google scans or even CryptPad's knowledge.
 
 If you need a remote collaborative office suite that is secure and respects your privacy, there is no reason not to switch to CryptPad.
 
