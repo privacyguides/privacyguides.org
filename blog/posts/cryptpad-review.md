@@ -17,6 +17,14 @@ review:
   price: 0
   website: https://cryptpad.org/
   rating: 4.5
+  pros:
+    - End-to-end encryption.
+    - No personal information required to create an account (and no account required).
+    - Cloud-hosted and self-hosted options.
+    - Actively maintained and open source.
+  cons:
+    - Can be slow.
+    - No local offline application.
 ---
 ![CryptPad logo](../assets/images/cryptpad-review/cryptpad-logo.svg){ align=right itemprop="image" }
 
