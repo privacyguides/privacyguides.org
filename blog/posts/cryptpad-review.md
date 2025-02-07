@@ -66,7 +66,7 @@ Finally, if you do not trust CryptPad at all, the good news is you don't have to
 
 ## Starting with CryptPad
 
-Using CryptPad is very easy. CryptPad can be self-hosted if you prefer, but if this is not something you want to think about, you can simply use CryptPad's [flagship instance](https://cryptpad.fr/) hosted in France. You can even start using it without an account. If you prefer to have an account to keep all your documents together, you can create one for free, or you can have a look at CryptPad's [paid plans](https://cryptpad.org/pricing/) for users with greater needs.
+Using CryptPad is very easy. CryptPad can be self-hosted if you prefer, but if this is not something you want to think about you can simply use CryptPad's [flagship instance](https://cryptpad.fr/) hosted in France. You can even start using it without an account. If you prefer to have an account to keep all your documents together you can create one for free, or you can have a look at CryptPad's [paid plans](https://cryptpad.org/pricing/) for users with greater needs.
 
 ### Without an account
 
@@ -94,7 +94,7 @@ If your threat model is very high and you do not want to leave any traces that y
 
 ### Creating an account
 
-You will see that *Privacy by Design* starts at account creation level with CryptPad. You do not even have to provide an email address to start. All that you need to create an account is to come up with a cool username and a [secure and unique password](https://www.privacyguides.org/en/basics/passwords-overview/) (like all passwords should be).
+You will see that *Privacy by Design* starts at the account creation level with CryptPad. You do not even have to provide an email address to start. All that you need to create an account is a cool username and a [secure and unique password](https://www.privacyguides.org/en/basics/passwords-overview/) (like all passwords should be).
 
 ![Screenshot from the CryptPad login page showing several application choices.](../assets/images/cryptpad-review/cryptpad-login.webp)
 
@@ -109,9 +109,9 @@ Make sure you note your unique, long, and complex password and username in a saf
 
 ### Basic security
 
-Once you've created an account, the first thing you should do is securing it with a [second factor of authentication](https://www.privacyguides.org/en/basics/multi-factor-authentication/) (2FA). For this, click on your username on the upper-right, then select "Settings" > "Security & Privacy" and follow the instructions for "Two-Factor Authentication".
+Once you've created an account, the first thing you should do is secure it with a [second factor of authentication](https://www.privacyguides.org/en/basics/multi-factor-authentication/). To do this, click on your username on the upper-right, then select "Settings" > "Security & Privacy" and follow the instructions for "Two-Factor Authentication".
 
-On this same "Settings" page, depending on your [threat model](https://www.privacyguides.org/en/basics/threat-modeling/), you might also want to enable "Safe Links", disable "Feedback" (disabled by default), and disable "Cache".  The cache option can be very convenient if the device you use isn't at risk, however.
+On the same "Settings" page, depending on your [threat model](https://www.privacyguides.org/en/basics/threat-modeling/), you might also want to enable "Safe Links", disable "Feedback" (disabled by default), and disable "Cache". The cache option can be very convenient if the device you use isn't at risk, however.
 
 ### Destroying data
 
