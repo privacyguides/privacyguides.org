@@ -58,6 +58,7 @@ Please note that Organic Maps is a simple, basic app that lacks certain features
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.osmand)
+- [:simple-android: Android](https://osmand.net/docs/versions/free-versions)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/osmand-maps-travel-navigate/id934850257)
 
 </details>
