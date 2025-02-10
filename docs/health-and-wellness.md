@@ -84,7 +84,7 @@ Placeholder description
 
 </div>
 
-## Euki (Android)
+## Euki
 
 <div class="admonition recommendation" markdown>
 
