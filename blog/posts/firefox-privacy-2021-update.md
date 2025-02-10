@@ -15,7 +15,7 @@ schema_type: AnalysisNewsArticle
 ---
 # Firefox Privacy: 2021 Update
 
-![Firefox Privacy cover](../assets/images/firefox-privacy/cover.png)
+![Firefox Privacy cover](../assets/images/firefox-privacy/cover.webp)
 
 <small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides | Photo: Unsplash</small>
 

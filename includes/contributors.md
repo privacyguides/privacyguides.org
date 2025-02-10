@@ -449,6 +449,7 @@
     <tr>
       <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/bruch-alex"><img src="https://avatars.githubusercontent.com/u/173354246?v=4" width="100px;" loading=lazy /><br /><sub><b>Alex Bruch</b></sub></a><br /><a href="#translation-bruch-alex" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/qiyongzheng"><img src="https://avatars.githubusercontent.com/u/153378707?v=4" width="100px;" loading=lazy /><br /><sub><b>qiyongzheng</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=qiyongzheng" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="https://github.com/hashcatHitman"><img src="https://avatars.githubusercontent.com/u/155700084?v=4" width="100px;" loading=lazy /><br /><sub><b>Sam K</b></sub></a><br /><a href="https://github.com/privacyguides/privacyguides.org/commits?author=hashcatHitman" title="Documentation">📖</a> <a href="#promotion-hashcatHitman" title="Promotion">📣</a> <a href="#question-hashcatHitman" title="Answering Questions">💬</a></td>
     </tr>
   </tbody>
   <tfoot>

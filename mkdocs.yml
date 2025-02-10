@@ -471,7 +471,8 @@ nav:
               - "meta/git-recommendations.md"
               - "meta/commit-messages.md"
   - !ENV [NAV_DONATE, "Donate"]: https://donate.magicgrants.org/privacyguides
-  - !ENV [NAV_FORUM, "Forum"]: "https://discuss.privacyguides.net/"
+  - !ENV [NAV_FORUM, "Forum"]:
+      !ENV [NAV_FORUM_LINK, "https://discuss.privacyguides.net/"]
 
 validation:
   nav:

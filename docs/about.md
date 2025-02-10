@@ -45,7 +45,7 @@ You may also email the entire team at <team@privacyguides.org>. This is a shared
 
 We will do our best to respond to all queries within 3 business days, but please understand we are unable to provide individualized advice to everyone who asks. If you have a question about privacy, you will receive a much more detailed and timely response from the Privacy Guides community by [asking on our forum](https://discuss.privacyguides.net/c/privacy/questions/8).
 
-You can also use OpenPGP to contact us via email, if you feel comfortable with your client's security settings. You can discover the PGP keys of our team members using WKD if your client supports it. If it doesn't, or you don't know what that means, you can also find the public key for any Privacy Guides email account by searching on [keys.openpgp.org](https://keys.openpgp.org/). We do not have PGP for the shared team inbox, only individual mailboxes which can be found in our team directory below.
+You can also use OpenPGP to contact us via email, if you feel comfortable with your client's security settings. You can discover the PGP keys of our team members using WKD if your client supports it. If it doesn't, or you don't know what that means, you can also find the public key for any Privacy Guides email account by searching on [keys.openpgp.org](https://keys.openpgp.org). We do not have PGP for the shared team inbox, only individual mailboxes which can be found in our team directory below.
 
 If you need an alternative secure channel, please request one via any contact method including social media, and we will work with you to establish one. Please do not share any sensitive information with us before we have established an appropriately secure discussion channel.
 

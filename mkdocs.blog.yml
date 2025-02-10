@@ -71,9 +71,9 @@ extra:
     - icon: simple/github
       link: https://github.com/privacyguides
       name: !ENV [SOCIAL_GITHUB, "GitHub"]
-    - icon: simple/torbrowser
-      link: http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/posts/
-      name: !ENV [SOCIAL_TOR_SITE, "Hidden service"]
+    - icon: simple/rss
+      link: https://www.privacyguides.org/articles/feed_rss_created.xml
+      name: Articles RSS Feed
 
 repo_url:
   !ENV [BUILD_REPO_URL, "https://github.com/privacyguides/privacyguides.org"]

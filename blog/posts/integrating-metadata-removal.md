@@ -27,7 +27,7 @@ This guide uses the [Shortcuts](https://support.apple.com/guide/shortcuts-mac/in
 
 Shortcuts is quite intuitive to work with, so if you don't like the behavior demoed here then experiment with your own solution. For example, you could set the shortcut to take a clipboard input instead. The sky's the limit.
 
-![ExifTool Quick Action](../assets/images/metadata-removal/preview-macos.png)
+![ExifTool Quick Action](../assets/images/metadata-removal/preview-macos.webp)
 
 ### Prerequisites
 
@@ -74,7 +74,7 @@ Shortcuts is quite intuitive to work with, so if you don't like the behavior dem
     done
     ```
 
-![macOS metadata removal shortcut](../assets/images/metadata-removal/shortcut-macos.png)
+![macOS metadata removal shortcut](../assets/images/metadata-removal/shortcut-macos.webp)
 
 !!! tip "Worth Mentioning"
     The open-source [ImageOptim](https://imageoptim.com/mac) app integrates into Finder's *Services* context menu by default. While it is primarily an image optimization app, it also removes metadata.
@@ -95,7 +95,7 @@ Shortcuts is quite intuitive to work with, so if you don't like the behavior dem
 
 The lack of *good* metadata removal apps on the App Store is what makes this solution worthwhile.
 
-![Don't preserve metadata shortcut](../assets/images/metadata-removal/preview-ios.png)
+![Don't preserve metadata shortcut](../assets/images/metadata-removal/preview-ios.webp)
 
 ### Prerequisites
 
@@ -123,7 +123,7 @@ The lack of *good* metadata removal apps on the App Store is what makes this sol
 
 10. Make sure that you uncheck **preserve metadata**
 
-![iOS/iPadOS metadata removal shortcut](../assets/images/metadata-removal/shortcut-ios.png)
+![iOS/iPadOS metadata removal shortcut](../assets/images/metadata-removal/shortcut-ios.webp)
 
 ### Enabling & using the Shortcut
 
