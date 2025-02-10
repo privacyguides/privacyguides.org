@@ -100,6 +100,7 @@ Placeholder description
 ### Minimum Requirements
 
 - Must support automatic updates.
-- Must receive engine updates from upstream releases quickly.
-- Must support content blocking.
+- Must not collect personal data or store it outside of the device.
+- Must function offline.
+- Must be reliably maintained in the foreseeable future. 
 - Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
